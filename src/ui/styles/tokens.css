@@ -1,0 +1,225 @@
+/* =============================================================================
+   THE GREAT INSIDE — design tokens (tokens_v1)
+
+   Visual direction: editorial, premium, data-driven, slightly mysterious.
+   Warm neutral paper, deep charcoal ink, one brand accent, semantic trait
+   colours. No gradients, no glassmorphism, no dashboard chrome.
+
+   RULES
+   - Components reference tokens only. A raw hex outside this file is a bug.
+   - Impact colour NEVER carries meaning alone; every impact token ships with a
+     label and a glyph (see ImpactBadge).
+   - Both themes are first-class. Dark is not an afterthought tint.
+   ============================================================================ */
+
+:root {
+  /* ------------------------------------------------------------ typography */
+  /* CJK fallbacks are in the stack from the start: this is a global product
+     and Korean/Japanese/Chinese must not fall back to a system default that
+     clashes with the Latin face.
+     PHASE 8 fix: "Source Han Serif KR"/"Noto Serif KR" as bare system-font
+     NAMES never actually resolved (not OS-bundled anywhere) — Hangul fell
+     through to the bare `serif` keyword (Batang on Windows). Replaced with
+     `var(--font-noto-serif-kr)`, the CSS variable `next/font/google`
+     generates in `app/layout.tsx` for a self-hosted, actually-loaded Noto
+     Serif KR — same position in the stack, so Latin resolution
+     (ui-serif/Georgia/"Iowan Old Style", none of which contain Hangul
+     glyphs) is completely unaffected. The var() has no fallback value
+     because `app/layout.tsx` always sets the class on `<html>`; if that
+     class were ever missing, the browser simply continues past the
+     (invalid) var() to the remaining named fonts, same as any other
+     unresolvable stack entry. */
+  --tgi-font-display: ui-serif, Georgia, "Iowan Old Style", var(--font-noto-serif-kr),
+    "Hiragino Mincho ProN", "Songti SC", serif;
+  --tgi-font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Noto Sans KR", "Hiragino Sans", "Microsoft YaHei", sans-serif;
+  /* Scores are data. Tabular figures stop digits jittering as values animate. */
+  --tgi-font-numeric: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas,
+    monospace;
+
+  --tgi-text-xs: 0.75rem;
+  --tgi-text-sm: 0.8125rem;
+  --tgi-text-base: 0.9375rem;
+  --tgi-text-md: 1.0625rem;
+  --tgi-text-lg: 1.375rem;
+  --tgi-text-xl: 1.875rem;
+  --tgi-text-2xl: 2.5rem;
+  --tgi-text-3xl: 3.5rem;
+
+  --tgi-leading-tight: 1.15;
+  --tgi-leading-snug: 1.35;
+  --tgi-leading-normal: 1.6;
+
+  --tgi-tracking-tight: -0.02em;
+  --tgi-tracking-normal: 0;
+  --tgi-tracking-wide: 0.08em;
+
+  --tgi-weight-regular: 400;
+  --tgi-weight-medium: 500;
+  --tgi-weight-semibold: 600;
+
+  /* ---------------------------------------------------------------- space */
+  --tgi-space-1: 0.25rem;
+  --tgi-space-2: 0.5rem;
+  --tgi-space-3: 0.75rem;
+  --tgi-space-4: 1rem;
+  --tgi-space-5: 1.5rem;
+  --tgi-space-6: 2rem;
+  --tgi-space-7: 3rem;
+  --tgi-space-8: 4rem;
+  --tgi-space-9: 6rem;
+
+  --tgi-radius-sm: 3px;
+  --tgi-radius-md: 6px;
+  --tgi-radius-lg: 10px;
+  --tgi-radius-pill: 999px;
+
+  --tgi-border-width: 1px;
+  --tgi-measure: 68ch;
+
+  /* Page container. 1280px is the shared desktop ceiling for both the people
+     directory and person-detail pages — wide enough for data-heavy grids
+     (Trait Constellation, Similar People) to use real screen space on large
+     monitors, but centred rather than stretched edge-to-edge. Horizontal
+     padding is a clamp so it scales continuously from a 360px phone up to a
+     1920px monitor without a ladder of breakpoints: 1rem minimum gutter (never
+     less, even on the narrowest supported phone), 2.5rem once there's room. */
+  --tgi-container-max: 80rem;
+  --tgi-container-padding: clamp(1rem, 4vw, 2.5rem);
+
+  /* --------------------------------------------------------------- motion */
+  --tgi-duration-fast: 120ms;
+  --tgi-duration-base: 220ms;
+  --tgi-ease: cubic-bezier(0.2, 0, 0.15, 1);
+
+  /* -------------------------------------------------- surfaces (light) --- */
+  --tgi-paper: #faf8f4;
+  --tgi-surface: #ffffff;
+  --tgi-surface-sunken: #f2eee7;
+  --tgi-ink: #1c1a17;
+  --tgi-ink-secondary: #55504a;
+  --tgi-ink-muted: #7d766d;
+  --tgi-rule: #e2dcd2;
+  --tgi-rule-strong: #cdc5b8;
+
+  --tgi-accent: #4a3f6b;
+  --tgi-accent-hover: #3a3155;
+  --tgi-accent-contrast: #ffffff;
+  --tgi-accent-soft: #eeebf4;
+
+  --tgi-focus: #4a3f6b;
+  --tgi-focus-ring: 0 0 0 2px var(--tgi-paper), 0 0 0 4px var(--tgi-focus);
+
+  /* -------------------------------------------------- semantic: impact --- */
+  /* Scoped to person x attribute x context — never a permanent property of an
+     attribute. See CLAUDE.md. */
+  --tgi-impact-advantage: #2f6b4f;
+  --tgi-impact-advantage-soft: #e6f0ea;
+  --tgi-impact-dual-edged: #8a6216;
+  --tgi-impact-dual-edged-soft: #f7efdd;
+  --tgi-impact-risk: #a3473b;
+  --tgi-impact-risk-soft: #f8e9e6;
+  --tgi-impact-neutral: #55606e;
+  --tgi-impact-neutral-soft: #eaedf1;
+
+  /* --------------------------------------------------- data visualisation */
+  --tgi-bar-track: #e8e2d8;
+  --tgi-bar-fill: #4a3f6b;
+  /* Comparison bars need two clearly distinct series that stay distinguishable
+     for red-green and blue-yellow colour blindness, so they differ in lightness
+     as well as hue — and each is labelled in the markup regardless. */
+  --tgi-series-you: #4a3f6b;
+  --tgi-series-person: #b07d3f;
+  --tgi-series-you-soft: #ddd8e8;
+  --tgi-series-person-soft: #f0e2cd;
+
+  --tgi-shadow-card: 0 1px 2px rgba(28, 26, 23, 0.05);
+  --tgi-shadow-raised: 0 2px 10px rgba(28, 26, 23, 0.08);
+}
+
+/* The viewer's toggle stamps data-theme on the root and must win in both
+   directions, so the media query and the attribute selector are both present. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --tgi-paper: #16151a;
+    --tgi-surface: #1d1c22;
+    --tgi-surface-sunken: #121116;
+    --tgi-ink: #f0ece5;
+    --tgi-ink-secondary: #b3aca1;
+    --tgi-ink-muted: #8b8379;
+    --tgi-rule: #302e37;
+    --tgi-rule-strong: #46434f;
+
+    --tgi-accent: #a99ad0;
+    --tgi-accent-hover: #bcafdd;
+    --tgi-accent-contrast: #16151a;
+    --tgi-accent-soft: #262336;
+
+    --tgi-focus: #a99ad0;
+    --tgi-focus-ring: 0 0 0 2px var(--tgi-paper), 0 0 0 4px var(--tgi-focus);
+
+    --tgi-impact-advantage: #79b795;
+    --tgi-impact-advantage-soft: #1b2a22;
+    --tgi-impact-dual-edged: #d9ab5b;
+    --tgi-impact-dual-edged-soft: #2c2418;
+    --tgi-impact-risk: #d98a7c;
+    --tgi-impact-risk-soft: #2e1e1b;
+    --tgi-impact-neutral: #9aa5b3;
+    --tgi-impact-neutral-soft: #20242a;
+
+    --tgi-bar-track: #2b2932;
+    --tgi-bar-fill: #a99ad0;
+    --tgi-series-you: #a99ad0;
+    --tgi-series-person: #d3a45f;
+    --tgi-series-you-soft: #2c2838;
+    --tgi-series-person-soft: #322818;
+
+    --tgi-shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --tgi-shadow-raised: 0 2px 10px rgba(0, 0, 0, 0.4);
+  }
+}
+
+:root[data-theme="dark"] {
+  --tgi-paper: #16151a;
+  --tgi-surface: #1d1c22;
+  --tgi-surface-sunken: #121116;
+  --tgi-ink: #f0ece5;
+  --tgi-ink-secondary: #b3aca1;
+  --tgi-ink-muted: #8b8379;
+  --tgi-rule: #302e37;
+  --tgi-rule-strong: #46434f;
+
+  --tgi-accent: #a99ad0;
+  --tgi-accent-hover: #bcafdd;
+  --tgi-accent-contrast: #16151a;
+  --tgi-accent-soft: #262336;
+
+  --tgi-focus: #a99ad0;
+  --tgi-focus-ring: 0 0 0 2px var(--tgi-paper), 0 0 0 4px var(--tgi-focus);
+
+  --tgi-impact-advantage: #79b795;
+  --tgi-impact-advantage-soft: #1b2a22;
+  --tgi-impact-dual-edged: #d9ab5b;
+  --tgi-impact-dual-edged-soft: #2c2418;
+  --tgi-impact-risk: #d98a7c;
+  --tgi-impact-risk-soft: #2e1e1b;
+  --tgi-impact-neutral: #9aa5b3;
+  --tgi-impact-neutral-soft: #20242a;
+
+  --tgi-bar-track: #2b2932;
+  --tgi-bar-fill: #a99ad0;
+  --tgi-series-you: #a99ad0;
+  --tgi-series-person: #d3a45f;
+  --tgi-series-you-soft: #2c2838;
+  --tgi-series-person-soft: #322818;
+
+  --tgi-shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --tgi-shadow-raised: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --tgi-duration-fast: 0ms;
+    --tgi-duration-base: 0ms;
+  }
+}
