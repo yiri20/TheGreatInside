@@ -421,6 +421,44 @@ create table user_profiles (
   greatness_scoring_version text,
   matching_version text,
   calibration_version text,
+  -- Stage 10C: four more code-level version constants the design audit
+  -- found `/results` genuinely depends on but that were never persisted —
+  -- ATTRIBUTES[id].reference (z-scoring), the dispersion table (matching's
+  -- discriminative weighting), archetype target-shrinkage, and rules.ts's
+  -- selection functions. Same "historical audit trail" role as the six
+  -- columns above; see src/core/versions.ts's VersionSnapshot doc comment.
+  reference_version text,
+  dispersion_version text,
+  archetypes_version text,
+  interpretation_version text,
+  -- Stage 10C: a COMPUTED fingerprint of the person roster at completion
+  -- time (src/core/people/dataVersion.ts's personDataFingerprint) — not a
+  -- "known shipped version" the way every column above is (no allowlist of
+  -- historical roster hashes exists or is needed); only ever compared for
+  -- plain equality against the live roster's current fingerprint, at claim
+  -- time, to detect whether the person dataset drifted between anonymous
+  -- completion and authenticated sign-in. The roster itself has no
+  -- hand-maintained version constant anywhere in the codebase — a computed
+  -- fingerprint was chosen specifically because this project's own history
+  -- shows individual person-data edits (trait-score corrections) routinely
+  -- ship with no version bump at all, since they're editorial review, not
+  -- an algorithm/taxonomy release.
+  person_data_version text,
+  -- Stage 10C, Strategy A: the immutable final-result snapshot (src/core/
+  -- results/snapshot.ts's ResultSnapshotV1) — plain numbers and stable
+  -- person ids only, never biography. Computed exactly once, only after
+  -- src/lib/results/saveCompletedResult.ts has confirmed completion-time
+  -- provenance (the nine *_version columns above + person_data_version)
+  -- still equals what's current RIGHT NOW — so "freshly computed at save
+  -- time" and "faithful to what the user originally saw" are the same
+  -- claim, never an assumption. /account/results/[id] renders EXCLUSIVELY
+  -- from this column and must never fall through to a live recompute; a
+  -- NULL value (every row written before this column existed) means "not
+  -- available for this early result", not "compute it now instead".
+  -- Never overwritten once written — see the ON CONFLICT DO NOTHING note
+  -- on result_token below; there is no UPDATE path on this column anywhere
+  -- in the application.
+  result_snapshot jsonb,
   -- Presentation locale at completion time. Recorded for analytics ONLY.
   locale      text references locales(code),
   -- Content-addressable result token (src/core/quiz/serialize.ts,
@@ -428,7 +466,9 @@ create table user_profiles (
   -- param and the `tgi_last_result_v1` localStorage value. Same answers ->
   -- same token, always, by construction, which makes (user_id, result_token)
   -- the natural migration-dedup key: a repeated sign-in or a repeated
-  -- migration of the same completed result can never create a duplicate row.
+  -- migration of the same completed result can never create a duplicate row
+  -- — and, as of Stage 10C, can never silently overwrite an existing
+  -- result_snapshot either, for the same ON CONFLICT ... DO NOTHING reason.
   result_token text not null,
   -- Actual quiz-completion time (browser clock, snapshotted client-side at
   -- completion — see src/lib/results/pendingOwnResults.ts), distinct from
@@ -439,7 +479,35 @@ create table user_profiles (
   -- Provenance metadata only, never used for authorization/scoring/matching.
   completed_at timestamptz not null default now(),
   created_at  timestamptz not null default now(),
-  deleted_at  timestamptz
+  deleted_at  timestamptz,
+
+  -- Hardened (2026-08, pre-migration review): `->>'key'` on a non-object
+  -- jsonb value or on an object missing the key returns SQL NULL, and a
+  -- CHECK constraint treats NULL as PASS — the naive form would silently
+  -- accept a malformed snapshot. jsonb_typeof + the `?` key-existence
+  -- operator (a real boolean, never NULL) close that gap.
+  constraint result_snapshot_schema_check check (
+    result_snapshot is null
+    or (
+      jsonb_typeof(result_snapshot) = 'object'
+      and result_snapshot ? 'snapshotSchemaVersion'
+      and result_snapshot ->> 'snapshotSchemaVersion' = 'result_snapshot_v1'
+    )
+  ),
+  -- Enforces the real application invariant (saveCompletedResult.ts's one
+  -- write path always populates all five alongside result_snapshot, never
+  -- one without the others) at the database layer too. Legacy rows
+  -- (result_snapshot IS NULL) are unaffected.
+  constraint result_snapshot_provenance_check check (
+    result_snapshot is null
+    or (
+      reference_version is not null
+      and dispersion_version is not null
+      and archetypes_version is not null
+      and interpretation_version is not null
+      and person_data_version is not null
+    )
+  )
 );
 create index user_profiles_user_idx on user_profiles(user_id);
 create unique index user_profiles_user_dedup_idx on user_profiles(user_id, result_token);

@@ -26,6 +26,7 @@ import type { QuizQuestion, QuizResponse } from "@core/quiz/types";
 import { buildQuizScreens } from "@ui/lib/quizScreens";
 import { enqueuePendingOwnResult } from "@lib/results/pendingOwnResults";
 import { processPendingResults } from "@lib/results/processPendingResults";
+import { SEED_PEOPLE } from "@data/people/seed";
 import { saveCompletedResultAction } from "../../actions/results.js";
 import {
   Button,
@@ -158,7 +159,7 @@ export default function QuizPage() {
       // the quiz" is true — see pendingOwnResults.ts's module doc for why
       // this must not be conflated with tgi_last_result_v1 (last result
       // VIEWED, which may belong to someone else via a shared link).
-      enqueuePendingOwnResult(token);
+      enqueuePendingOwnResult(token, SEED_PEOPLE);
       // Covers "already signed in, just finished the quiz" — the OTHER
       // real trigger (post-sign-in migration) never reaches this file at
       // all; see PendingResultsSync.tsx. Fire-and-forget: this is

@@ -13,9 +13,10 @@ import "server-only";
  * real client into the already-tested primitive below.
  */
 import { createClient } from "@lib/supabase/server";
+import { SEED_PEOPLE } from "@data/people/seed";
 import { saveCompletedResult, type SaveCompletedResultInput, type SaveCompletedResultOutcome } from "./saveCompletedResult.js";
 
 export async function saveCompletedResultServer(input: SaveCompletedResultInput): Promise<SaveCompletedResultOutcome> {
   const supabase = await createClient();
-  return saveCompletedResult(supabase, input);
+  return saveCompletedResult(supabase, input, SEED_PEOPLE);
 }

@@ -2649,6 +2649,273 @@ headline result of Phase 2, now extended by Phase 4.
     keeping readable text measures (`Text`'s existing 68ch cap) and
     preserving the current restrained visual character — not a general
     redesign, a wide-viewport composition fix.
+13. ~~Results-page sign-in conversion CTA~~ **Implemented (Phase 10C,
+    2026-08) — see that section below.** The CTA now only ever claims
+    "saved" after directly observing its own save succeed for the exact
+    token on screen (never inferred from mere absence), and — because the
+    original concern was specifically that "return to it later" would be a
+    false promise without a working retrieval path — Phase 10C also built
+    that retrieval path (`/account`, `/account/results/[id]`) in the same
+    stage rather than shipping the CTA alone. Not yet human-approved; the
+    code has not been deployed to production yet.
+
+## Phase 10C — historical result fidelity (implementation COMPLETE, human-approval PENDING, 2026-08)
+
+Triggered by a narrow but real problem the Stage 10B checkpoint itself
+flagged: shipping the results sign-in CTA's "sign in to save this result
+and return to it later" promise required that promise to actually be
+true, forever — not just at the moment of signing in. A design audit
+(prompted by the user, not self-initiated) found `/results` recomputes
+live against the current quiz bank, taxonomy, **reference table**,
+**dispersion table**, matching formula, calibration anchors, greatness
+formula, **archetype target-shrinkage**, **interpretation/selection
+rules**, and the **live person roster** — ten real dependencies, of which
+Stage 9C's original `VersionSnapshot` only tracked six (quiz/scoring/
+taxonomy/greatness_scoring/matching/calibration). The other four had
+their own code-level version constants that were simply never threaded
+into provenance; the roster had no version representation of any kind,
+anywhere. This meant a naive "reopen my saved result" feature would, the
+moment any of those four constants bumped or the roster was edited (both
+routine, expected events per this project's own history — e.g. the Phase
+6.6 Buffett `opportunity_sensing` correction shipped with no version
+bump at all, since ordinary editorial review was never meant to trigger
+one), silently show a signed-in user a **different** number under the
+label "your result," with nothing detecting or disclosing the drift.
+
+**Two architectures were evaluated and one was chosen, deliberately, not
+by default.** Strategy B — retaining full historical archives of every
+past roster/reference/dispersion/calibration/matching-code combination so
+any old result could be exactly recomputed — was rejected: it would
+require versioning far more granularly than this project's own
+demonstrated editorial workflow tolerates (routine small corrections are
+a *feature* of the review process, not an edge case), and would mean
+retaining old *code*, not just old data, for any formula that is ever
+rewritten (this project's own history includes a real `matching_v1`→`v2`
+rewrite). **Strategy A — an immutable final-result snapshot, computed
+once and never recomputed — was adopted instead.** It only needs one
+result to survive intact, not the whole engine to stay replayable
+forever.
+
+**Provenance completed.** `VersionSnapshot` (`src/core/versions.ts`) grew
+from six fields to ten: `referenceVersion`, `dispersionVersion`,
+`archetypesVersion`, and `interpretationVersion` added, each a plain
+re-export of an already-existing, already-versioned constant — no new
+numbers, only new bookkeeping. The eleventh dependency — the person
+roster — deliberately did **not** get a hand-maintained version string
+(the exact failure mode that already lets roster edits ship silently);
+instead `src/core/people/dataVersion.ts`'s `personDataFingerprint(people)`
+computes a canonical fingerprint (explicit plain-object serialization,
+fixed key order by construction, every array sorted at every level —
+hardened during review from an earlier hand-rolled delimited-string form
+specifically to remove any theoretical serialization-collision risk) over
+exactly the fields that can change a computed result: person id, match
+eligibility, archetype assignments (feeds Greatness's target-shrinkage),
+and each attribute's score/confidence/impact. Deliberately excluded:
+every purely presentational field (name, portrait, era, tags, sources,
+`doNotCopyKeys`, ...) — already forbidden from influencing similarity by
+this project's oldest rule, and confirmed excluded here too by a
+dedicated regression test. This fingerprint is a **live equality check
+against right now**, not a "known shipped combination" checked against an
+allowlist the way the other ten fields are — a deliberate, load-bearing
+distinction, not an oversight (see that module's own doc comment).
+
+**Claim-time drift guard.** `saveCompletedResult.ts` now takes the
+current roster as a parameter (always `SEED_PEOPLE`, resolved
+server-side inside `saveCompletedResultServer.ts` — never taken from the
+client-supplied input; the client can only supply its own *claimed*
+completion-time provenance, which is compared *against*, never trusted
+*as*, current state) and, after every existing validation check,
+compares the submission's provenance and person-data fingerprint against
+`CURRENT_VERSIONS`/`personDataFingerprint(people)` computed fresh, right
+now. Any mismatch — for any of the eleven tracked values — returns
+`provenance_drift` and the function returns immediately: no snapshot is
+computed, nothing is written. Only once current state is *proven*
+identical to completion-time state does it proceed to compute the
+snapshot — which is what makes "freshly computed now" and "faithful to
+what the user originally saw" the same claim, not an assumption.
+
+**Snapshot.** `src/core/results/snapshot.ts` defines `ResultSnapshotV1` —
+plain numbers and stable person ids only, never biography — carrying an
+internal `snapshotSchemaVersion: "result_snapshot_v1"` tag and a strict,
+hand-rolled runtime validator (`parseResultSnapshot`, never trusts
+arbitrary JSONB, returns `undefined` rather than throwing or
+partially-rendering on any structural mismatch — the same "never assume,
+always validate" convention `decodeResultToken` already established).
+Deliberately does not validate attribute/person ids against the
+*current* taxonomy/roster, since an old snapshot may legitimately
+reference an id a later revision removed — shape validation only, never
+content-currency validation. `buildResultSnapshot.ts` computes it once,
+reusing (never duplicating) the exact orchestration `/results` itself
+uses — see the next paragraph for why that reuse is structural, not
+conventional.
+
+**Parity hardened structurally, not just by convention.** A dedicated
+review found `/results/page.tsx` and `buildResultSnapshot.ts` had
+independently written out the same function-call sequence
+(`buildResultSet` → `computeGreatnessPotential` → `signatureTrait` →
+`distinctiveTraits` → `selectResultArchetype` → `advantageTraits`) twice
+— guaranteed to agree today by `src/core`'s purity rule, but fragile
+against a future edit to one site without the other. Extracted into
+`src/core/results/resultView.ts`'s `computeResultView(user, people)`,
+now the ONE orchestration both `/results/page.tsx` and
+`buildResultSnapshot.ts` call — confirmed behavior-preserving for
+`/results` by direct diff inspection (identical arguments, only the call
+site moved) and locked by a dedicated parity regression test
+(`resultView.test.ts`) that independently re-derives the expected output
+by hand and asserts agreement.
+
+**Legacy/drift preservation — the load-bearing correctness property of
+this whole stage, reached only after two rounds of user correction.** An
+early draft of the pending-result-migration path *cleared* (deleted) both
+(a) pre-Phase-10C queue entries that predate the new provenance fields
+entirely, and (b) current-format entries the server genuinely rejected as
+drifted — on the reasoning that neither could ever succeed on retry. Both
+were flagged as violations of the actual contract: "will never succeed"
+is not the same claim as "safe to destroy the only record of a real
+anonymous completion." Corrected to a **quarantine, never delete**
+architecture (`src/lib/results/pendingOwnResults.ts`): a separate,
+permanent localStorage store
+(`tgi_incompatible_pending_results_v1`), entries moved into it — never
+copied, never deleted-without-relocating — with a write-then-verify
+ordering (write to quarantine, read back to confirm, only then remove
+from the active queue) specifically so a storage-quota failure mid-move
+can never lose the token, tagged with an explicit `reason` discriminator
+(`"legacy_format"` | `"provenance_drift"`, distinguishing "never even
+checked" from "checked and rejected") so both cases coexist safely in one
+store. `dismissIncompatiblePendingResult` is the one explicit,
+user-initiated removal path — not called from anywhere yet; this stage
+builds the preservation mechanism only, not a recovery UI. Regular
+(non-drift) permanent-failure reasons — undecodable tokens, unknown
+version combinations, internally inconsistent input — are unaffected and
+still cleared, correctly: those represent malformed input with no real
+historical result to preserve, a genuinely different case from either
+quarantine reason.
+
+**`/account` and `/account/results/[id]`.** New, deliberately restrained
+routes (not a dashboard): a plain list of completion dates
+(`/account`), and a single-result reopen view
+(`/account/results/[id]`) that renders **exclusively** from the parsed
+`result_snapshot` — confirmed by code inspection and by the fact that
+neither route imports anything from `src/core/quiz`, `src/core/matching`,
+`src/core/greatness`, or `src/core/interpretation`'s selection functions,
+only trivial, timeless presentational id→label lookups. Ownership is
+enforced entirely by the pre-existing `user_profiles_own` RLS policy — no
+application-level `user_id` filter was added on top of it, matching this
+project's "RLS is authoritative, not merely defense-in-depth" stance
+elsewhere. The actual Supabase-facing queries were extracted into small,
+dependency-injected `src/lib/results/fetchSavedResult(s).ts` functions
+specifically so "a non-owned row is indistinguishable from a
+nonexistent one" and "ownership has no bypass path" are properties with
+real unit tests, not just code review. A legacy row with
+`result_snapshot IS NULL` renders an honest "not available for this
+early result" state — never a live-recompute fallback, which would defeat
+the entire point of this design.
+
+**Signed-out `/results` CTA (`SignInCta.tsx`).** Renders after the top
+hero/closest-match summary and before the deeper match sections. Never
+gates any result. Only ever claims "saved" after directly observing,
+itself, the pending-queue entry for the token on screen transition from
+present to absent as a result of a save call it made — never inferred
+from mere absence (which would false-positive for a signed-in user simply
+viewing someone else's shared link). Reuses the existing OAuth
+redirect-path mechanism unchanged (`buildOAuthReturnPath`, extracted from
+`AuthControls.tsx` into `src/lib/supabase/oauthNext.ts` and shared by
+both components, with its own regression test) — locale and the current
+`?r=` token are preserved through the sign-in round-trip by construction,
+not by a new mechanism.
+
+**Server authority, verified by tracing the call chain, not assumed.**
+`CURRENT_VERSIONS` and `personDataFingerprint(SEED_PEOPLE)` are resolved
+exclusively server-side (`saveCompletedResultServer.ts`'s static
+imports) and never appear as fields on `SaveCompletedResultInput` at
+all — there is no way for a client to supply a fake "current" state; the
+type system itself forecloses it. The client-supplied `provenance`/
+`personDataVersion` are, correctly, the browser's own *claim* about its
+completion-time state — compared against server truth, never trusted as
+server truth. This is an inherent, pre-existing property of the
+anonymous-first architecture (the server never recorded what an
+anonymous session actually saw, by design), not a new gap introduced
+here, and was reasoned through explicitly rather than left implicit.
+
+**Migration 0004 — applied live and verified in the production Supabase
+project (2026-08), not merely written.** Adds `reference_version`,
+`dispersion_version`, `archetypes_version`, `interpretation_version`,
+`person_data_version`, and `result_snapshot jsonb` to `user_profiles`,
+all nullable and additive. Two CHECK constraints, both hardened during
+pre-migration review after a real defect was caught before it shipped: the
+original `result_snapshot ->> 'key' = 'x'` form is unsafe because `->>`
+on a non-object JSONB value or on an object missing the key returns SQL
+`NULL`, and a CHECK constraint treats `NULL` as *pass* — a malformed
+snapshot could have silently passed. Fixed with `jsonb_typeof(...) =
+'object'` plus the `?` key-existence operator (a real boolean, never
+`NULL`) before ever comparing the value
+(`result_snapshot_schema_check`), plus a second constraint
+(`result_snapshot_provenance_check`) requiring all five new provenance
+columns whenever `result_snapshot` is non-null, enforcing at the database
+layer the real invariant the application code already guarantees.
+Confirmed live: all 6 new columns and both constraints exist; the 2
+pre-existing rows survived unchanged; `total_rows = 2`.
+
+**Legacy-row backfill — exactly one row, after a rigorous, row-specific
+evidence chain, not a blanket pass.** Both pre-existing rows had
+`result_snapshot IS NULL` (correctly — the column didn't exist when they
+were written) and identical six originally-recorded version columns
+(`quiz_v2`/`scoring_v1`/`taxonomy_v1.1`/`greatness_v1`/`matching_v2`/
+`calibration_v3`), but were judged on **independently different**
+evidence, per row, exactly as the historical-fidelity design demands
+matching six version strings is explicitly NOT sufficient proof on its
+own:
+- **Row `800d073e-c4ee-4b36-a811-eb406ca0f123`** (`completed_at`
+  2026-08-12T20:09:43.634Z) — the Stage 10B Vercel production human E2E
+  row, deployed from commit `e3048a8` (the repository's only commit to
+  date). A direct `git diff e3048a8` against the working tree confirmed
+  **zero changes** to every output-affecting dependency (quiz bank,
+  scoring, taxonomy, reference, dispersion, matching, calibration,
+  greatness, archetypes, interpretation, and the entire person roster) —
+  the only diffs found were the `VersionSnapshot` extension itself
+  (provenance-only, re-exporting already-unchanged constants) and the
+  `computeResultView` extraction (structural, confirmed by direct diff
+  inspection to be identical function calls, not a numeric change).
+  `profileId`'s non-influence on scoring output was independently proven
+  (source inspection plus a direct empirical test) before being used in
+  the recomputation. The recomputed candidate snapshot was then compared
+  against the human-observed original result and matched **exactly**:
+  Greatness 61/100 (`strong_pattern` band), closest match Benjamin
+  Franklin, displayed match 70%. **Backfilled** (2026-08) via a dedicated
+  one-time script — never `saveCompletedResult`'s normal path — guarded
+  by `id` (primary key) + `result_snapshot IS NULL`, writing only the
+  five provenance columns + `result_snapshot`, never touching `user_id`/
+  `result_token`/`completed_at`/`created_at`. Confirmed live: exactly one
+  row affected, original `completed_at`/`created_at` preserved.
+- **Row `820c8499-e401-4bd0-8ec0-a0b088e5e86d`** (`completed_at`
+  2026-08-10T18:21:30.078Z) — the Stage 9D **local** E2E row, completed
+  before this repository was git-initialized at all (git init happened
+  during Stage 10B). No commit, deployment record, or any other durable
+  snapshot ties this specific moment to a provable code/data state — the
+  later cleanliness of `e3048a8` proves nothing about what uncommitted
+  local code was actually running before git existed. Matching six
+  version *strings* was explicitly judged insufficient on its own, per
+  design. **Left `result_snapshot = NULL` permanently** — the existing
+  honest "not available for this early result" state in
+  `/account/results/[id]` is the correct, intended behavior for this row,
+  not a gap to close later. Historical correctness was treated as more
+  important than filling every row.
+
+**Verification.** `tsc --noEmit` clean, `vitest run` **410/410** (399 +
+11 net for this hardening round; full count across the whole Phase 10C
+build: 319 Phase-10A baseline → 410), `pnpm build --webpack` clean, **84
+routes** (`/account`, `/account/results/[id]` both correctly `ƒ`
+dynamic; every pre-existing route's static/dynamic split unchanged).
+
+**NOT yet human-approved.** Unlike every other closed phase/stage in this
+project, Phase 10C's closure record does **not** end with a live human
+E2E confirmation — the code has not been committed, pushed, or deployed
+yet at the point this section was written. `/account`, saved-result
+reopen, the signed-out save CTA, the new automatic `result_snapshot`
+creation path, and the legacy-row honest-unavailable state have all been
+verified by unit test and direct code/diff inspection only. Production
+human E2E is the explicit next step, not yet performed — see the
+Roadmap entry below.
 
 ## Roadmap
 
@@ -2776,10 +3043,68 @@ for Stage 10B, not resolved unilaterally. Final validation:
 --webpack` clean, **82 routes**, static/dynamic split unchanged, no
 credential values or privileged keys introduced (confirmed by grep).
 Full record in `docs/phase10-provisional-checkpoint.md`; full runbook in
-`docs/deployment.md`. Remaining Phase 10 work (Stage 10B first
-deployment, then full SEO, share cards, portraits, analytics, ads,
-wide-desktop redesign — item 12 above) deliberately NOT started this
-stage.
+`docs/deployment.md`. **Stage 10B (First Real Deployment) is now FORMALLY
+CLOSED, human-approved (2026-08).** Production deployment architecture:
+**GitHub `main` → Vercel → Supabase** — the repository was git-initialized,
+committed, and pushed to `github.com/yiri20/TheGreatInside` (private,
+`main` branch), then imported into Vercel with production branch `main`.
+Current production domain (Vercel-assigned, no custom domain configured
+yet — deliberately deferred, same boundary as every other Phase 10 stage):
+**`https://the-great-inside.vercel.app`**. Environment was configured with
+only the two variables the code actually reads —
+`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` —
+reconfirmed by grep immediately before deployment that `SUPABASE_SECRET_KEY`
+remains genuinely unused in `app/`/`src/` and was correctly NOT added.
+`NEXT_PUBLIC_SITE_URL` was deliberately left unset for this first
+deployment: `siteUrl()`'s Stage-10A-hardened resolution chain falls
+through to Vercel's own `VERCEL_PROJECT_PRODUCTION_URL` automatically, so
+`metadataBase` resolves correctly against the real production domain with
+zero extra configuration — confirmed live, not just reasoned about.
+
+**Full human E2E confirmed live on the real production deployment by the
+user (2026-08)** — an agent cannot complete a real Google consent screen,
+same discipline as every Phase 9 stage closure: production domain loads;
+both `/en-US` and `/ko-KR` routes work; People directory and individual
+person pages render; the anonymous quiz completes end-to-end and
+`/results` renders correctly; Google OAuth completes successfully in
+production, with the callback returning to the Vercel app and the Korean
+locale preserved through the full round-trip; the header correctly flips
+to Account/Sign out; session persistence survives a refresh. Most
+significantly, **this is the first time the Stage 9B/9C/9D pending-result
+pipeline has been exercised against the real production Supabase project**
+rather than local dev, and it worked correctly: the newly completed
+anonymous result migrated into `public.user_profiles` with its own
+distinct `result_token`; `tgi_pending_own_results_v1` cleared to `[]`;
+`tgi_last_result_v1` correctly still reflects the latest-viewed result; no
+duplicate row or persistence regression was observed. **`completed_at`
+(≈20:09:43 UTC) measurably precedes `created_at` (≈20:12:24 UTC) on the
+saved row** — direct production evidence that the dedicated `completed_at`
+column genuinely preserves the moment the quiz was finished, not the later
+moment the row was written during sign-in, closing the last unverified
+surface left open at Phase 9's own closure.
+
+One new Phase 10 UX requirement was identified during this human E2E and
+recorded, not implemented at the time — see "Known open issues" item 13
+(results-page sign-in conversion CTA) above, now marked resolved.
+**Stage 10C (historical result fidelity) — implementation COMPLETE,
+human-approval PENDING (2026-08)**: see the dedicated "Phase 10C —
+historical result fidelity" section above for the full record (immutable
+`result_snapshot` design, the completed 11-field provenance/person-data
+drift guard, the quarantine-not-delete architecture for incompatible
+pending entries, `/account` + `/account/results/[id]`, the signed-out
+save CTA, migration 0004 applied and verified live, and the one-row
+legacy backfill with its full evidence chain). `tsc`/`vitest`
+(**410/410**)/`build` (**84 routes**) all clean. **Not yet deployed, not
+yet human-E2E-verified, and not marked formally closed** — that requires
+a real production pass (Google sign-in, `/account`, saved-result reopen,
+the CTA, dedup, the legacy-row unavailable state) the same way every
+other stage in this project has been closed, and is the explicit next
+step. Preserve the broader Phase 10 boundaries going forward: no
+wide-desktop redesign, no portraits pipeline, no ads, no analytics, no
+share cards, no full SEO pass, no invented privacy-policy/business
+facts, no custom domain — none of these are started, and no further
+Phase 10 stage begins without its own fresh, explicit decision. Full
+record in `docs/phase10-provisional-checkpoint.md`.
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 

@@ -292,6 +292,36 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "results.cta.full_comparison": "전체 비교 보기",
   "results.cta.retake": "설문 다시 하기",
 
+  /* ---------------------------------- Phase 10C: save-to-account + history */
+  "results.save_cta.title": "결과를 저장해두세요",
+  "results.save_cta.body": "로그인하면 이 결과를 계정에 저장하고 나중에 다시 확인할 수 있습니다.",
+  "results.save_cta.action": "Google로 로그인하고 결과 저장하기",
+  "results.save_cta.saved": "계정에 저장되었습니다.",
+
+  "account.title": "저장된 결과",
+  "account.signed_out.title": "로그인하면 저장된 결과를 볼 수 있어요",
+  "account.signed_out.body": "로그인하면 저장해 둔 결과가 이곳에 나타납니다.",
+  "account.signed_out.action": "Google로 로그인하기",
+  "account.empty.title": "아직 저장된 결과가 없어요",
+  "account.empty.body": "설문을 완료하고 로그인하면 첫 결과가 이곳에 저장됩니다.",
+  "account.list.completed_at": "{date} 완료",
+  "account.list.view": "보기",
+  "account.list.unavailable": "초기 결과라 다시 볼 수 없어요",
+  "account.back": "저장된 결과로 돌아가기",
+
+  "account.results.not_found.title": "결과를 찾을 수 없어요",
+  "account.results.not_found.body": "다른 계정의 결과이거나, 링크가 올바르지 않을 수 있습니다.",
+  "account.results.unavailable.title": "이 저장된 결과는 볼 수 없어요",
+  "account.results.unavailable.body":
+    "이 결과는 전체 스냅샷을 저장하기 전에 저장되어 원래 그대로 다시 볼 수 없습니다. 최신 결과를 보려면 설문을 다시 진행해 주세요.",
+  "account.results.cta.retake": "설문 다시 하기",
+
+  // 아직 어디에도 렌더링되지 않음 — Phase 7의 compare.cta.from_results와
+  // 같은 패턴("사용할 UI가 만들어지기 전에 문구부터 확정"). 상세 배경은
+  // src/lib/results/pendingOwnResults.ts의 격리(quarantine) 저장소 설명 참고.
+  "account.legacy_pending.notice":
+    "이 결과는 지금의 저장 방식이 도입되기 전에 완료된 것이라, 그때와 완전히 동일하게 재현된다고 보장할 수 없습니다. 다만 결과가 덮어써지거나 삭제되지는 않았습니다.",
+
   "compare.cta.has_result": "이 인물과 나 비교하기",
   "compare.cta.no_result": "설문하고 비교하기",
   "compare.cta.from_results": "{person}와(과) 비교하기",

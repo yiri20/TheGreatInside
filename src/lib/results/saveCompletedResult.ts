@@ -20,7 +20,11 @@
  */
 import { QUIZ } from "@core/quiz/bank";
 import { decodeResultToken, encodeResultToken } from "@core/quiz/serialize";
-import { isKnownVersionSnapshot, KNOWN_VERSION_SNAPSHOTS, type VersionSnapshot } from "@core/versions";
+import { scoreQuiz } from "@core/quiz/scoring";
+import { isKnownVersionSnapshot, KNOWN_VERSION_SNAPSHOTS, snapshotsEqual, CURRENT_VERSIONS, type VersionSnapshot } from "@core/versions";
+import { personDataFingerprint } from "@core/people/dataVersion";
+import { buildResultSnapshot } from "@core/results/buildResultSnapshot";
+import type { Person } from "@core/types";
 
 export interface SaveCompletedResultInput {
   resultToken: string;
@@ -33,6 +37,10 @@ export interface SaveCompletedResultInput {
    *  pending anonymous completion may be saved long after a later
    *  deployment moved matching/calibration/scoring/etc forward. */
   provenance: VersionSnapshot;
+  /** Phase 10C: `personDataFingerprint(SEED_PEOPLE)` at completion time —
+   *  see pendingOwnResults.ts's doc comment. A sibling of `provenance`, not
+   *  part of it. */
+  personDataVersion: string;
 }
 
 export type SaveCompletedResultOutcome =
@@ -45,6 +53,7 @@ export type SaveCompletedResultOutcome =
         | "noncanonical_token"
         | "unknown_version_provenance"
         | "version_mismatch"
+        | "provenance_drift"
         | "invalid_completed_at"
         | "unauthenticated"
         | "db_error";
@@ -94,10 +103,22 @@ function isPlausibleCompletedAt(value: string): boolean {
  * design (an older-but-still-known snapshot correctly rejected when paired
  * with a token from a different quiz version) without needing a second
  * real historical entry to exist yet.
+ *
+ * `people` (Phase 10C) is the CURRENT roster — the caller passes
+ * `SEED_PEOPLE`. Used for two things, both only reached once every prior
+ * check has passed: (1) the claim-time drift guard below, comparing
+ * `input.provenance`/`input.personDataVersion` (what was true at
+ * completion) against `CURRENT_VERSIONS`/`personDataFingerprint(people)`
+ * (what's true right now); (2) building the immutable `result_snapshot`,
+ * which is only ever computed AFTER that guard has confirmed current state
+ * equals completion-time state — so "freshly computed now" and "faithful
+ * to what the user originally saw" are provably the same thing at that
+ * point, never an assumption.
  */
 export async function saveCompletedResult(
   deps: SaveCompletedResultDeps,
   input: SaveCompletedResultInput,
+  people: readonly Person[],
   knownSnapshots: readonly VersionSnapshot[] = KNOWN_VERSION_SNAPSHOTS,
 ): Promise<SaveCompletedResultOutcome> {
   const decoded = decodeResultToken(input.resultToken, QUIZ);
@@ -130,6 +151,23 @@ export async function saveCompletedResult(
     return { ok: false, reason: "version_mismatch" };
   }
 
+  // PHASE 10C CLAIM-TIME DRIFT GUARD. Distinct from the two checks above:
+  // those ask "is this a combination we've ever shipped / internally
+  // consistent with the token" — this asks "is completion-time provenance
+  // STILL what's current, right now". A completion recorded under an
+  // older-but-still-KNOWN combination (e.g. after a future, legitimate
+  // version bump) correctly passes `isKnownVersionSnapshot` above but must
+  // still fail HERE: recomputing under the new current state and saving it
+  // as though it were the original would silently misrepresent what the
+  // user actually saw at completion. Never a silent recompute-and-save.
+  const currentPersonDataVersion = personDataFingerprint(people);
+  if (
+    !snapshotsEqual(input.provenance, CURRENT_VERSIONS) ||
+    input.personDataVersion !== currentPersonDataVersion
+  ) {
+    return { ok: false, reason: "provenance_drift" };
+  }
+
   if (!isPlausibleCompletedAt(input.completedAt)) {
     return { ok: false, reason: "invalid_completed_at" };
   }
@@ -137,6 +175,14 @@ export async function saveCompletedResult(
   const { data, error: authError } = await deps.auth.getUser();
   const userId = data.user?.id;
   if (authError || !userId) return { ok: false, reason: "unauthenticated" };
+
+  // Only reached once current state has just been confirmed identical to
+  // completion-time state (the drift guard above) — so this computation IS
+  // the faithful original result, not a later approximation of it. Reuses
+  // the exact same scoring/selection functions `/results` calls on every
+  // anonymous render; see buildResultSnapshot.ts's own doc comment.
+  const user = scoreQuiz({ quiz: QUIZ, responses: decoded.responses, profileId: canonicalToken, completedAt: input.completedAt });
+  const resultSnapshot = buildResultSnapshot(user, people);
 
   const { error } = await deps.from("user_profiles").upsert(
     {
@@ -150,14 +196,22 @@ export async function saveCompletedResult(
       quiz_version: decoded.quizVersion,
       scoring_version: input.provenance.scoringVersion,
       taxonomy_version: input.provenance.taxonomyVersion,
+      reference_version: input.provenance.referenceVersion,
+      dispersion_version: input.provenance.dispersionVersion,
       greatness_scoring_version: input.provenance.greatnessScoringVersion,
+      archetypes_version: input.provenance.archetypesVersion,
       matching_version: input.provenance.matchingVersion,
       calibration_version: input.provenance.calibrationVersion,
+      interpretation_version: input.provenance.interpretationVersion,
+      person_data_version: input.personDataVersion,
+      result_snapshot: resultSnapshot,
     },
     // ON CONFLICT DO NOTHING: a repeat save of an already-stored
     // (user_id, result_token) pair must leave the ORIGINAL row — and its
-    // original historical version metadata — untouched, never overwritten
-    // with whatever happens to be current at the time of the repeat call.
+    // original historical version metadata AND its immutable snapshot —
+    // untouched, never overwritten with whatever happens to be current at
+    // the time of the repeat call. There is deliberately no UPDATE path
+    // anywhere in this module that could replace a stored result_snapshot.
     { onConflict: "user_id,result_token", ignoreDuplicates: true },
   );
 

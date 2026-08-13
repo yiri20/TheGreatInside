@@ -22,7 +22,7 @@ import type { Locale } from "@core/types";
 import { t } from "@core/i18n/index";
 import { Button, Cluster } from "@ui/index";
 import { createClient } from "@lib/supabase/client";
-import { OAUTH_NEXT_COOKIE } from "@lib/supabase/oauthNext";
+import { buildOAuthReturnPath, OAUTH_NEXT_COOKIE } from "@lib/supabase/oauthNext";
 
 export function AuthControls({ locale }: { locale: Locale }) {
   const [signedIn, setSignedIn] = useState<boolean | undefined>(undefined);
@@ -53,7 +53,7 @@ export function AuthControls({ locale }: { locale: Locale }) {
     // human OAuth test surfaced. A bare `${origin}/auth/callback`, matching
     // the allow-list entry exactly, has no such dependency.
     document.cookie = `${OAUTH_NEXT_COOKIE}=${encodeURIComponent(
-      `${window.location.pathname}${window.location.search}`,
+      buildOAuthReturnPath(window.location.pathname, window.location.search),
     )}; path=/; max-age=300; SameSite=Lax`;
     void supabase.auth.signInWithOAuth({
       provider: "google",

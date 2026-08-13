@@ -7,16 +7,8 @@ import { QUIZ } from "@core/quiz/bank";
 import { decodeResultToken } from "@core/quiz/serialize";
 import { scoreQuiz } from "@core/quiz/scoring";
 import { SEED_PEOPLE } from "@data/people/seed";
-import { buildResultSet } from "@core/matching/selectors";
-import { computeGreatnessPotential } from "@core/greatness/greatness";
-import {
-  advantageTraits,
-  attributeName,
-  distinctiveTraits,
-  renderComparison,
-  selectResultArchetype,
-  signatureTrait,
-} from "@core/interpretation/rules";
+import { computeResultView } from "@core/results/resultView";
+import { attributeName, renderComparison } from "@core/interpretation/rules";
 import type { TraitComparison } from "@core/types";
 import {
   Button,
@@ -41,6 +33,7 @@ import {
   TraitChip,
 } from "@ui/index";
 import { SaveLastResult } from "./SaveLastResult";
+import { SignInCta } from "./SignInCta";
 
 interface PageParams {
   locale: string;
@@ -109,23 +102,13 @@ export default async function ResultsPage({
     completedAt: new Date(0).toISOString(),
   });
 
-  const results = buildResultSet(user, SEED_PEOPLE);
-  const greatness = computeGreatnessPotential(user, { people: SEED_PEOPLE });
+  // Shared with buildResultSnapshot.ts (Phase 10C) — see resultView.ts's own
+  // doc comment for why this is now ONE orchestration both callers use,
+  // rather than two independently-written call sequences that merely
+  // happened to agree.
+  const { results, greatness, signature, highlights, resultArchetype, advantage } = computeResultView(user, SEED_PEOPLE);
   const closest = results.closest;
-  const signature = signatureTrait(user);
-  const highlights = distinctiveTraits(user, 6);
   const peopleById = new Map(SEED_PEOPLE.map((p) => [p.id, p]));
-
-  const resultArchetype = closest
-    ? selectResultArchetype({
-        topMatch: closest.overallMatch,
-        greatnessScore: greatness.score,
-        distinctiveness: greatness.components.distinctiveness,
-        unexpectedIsCrossField:
-          results.unexpected !== undefined &&
-          results.unexpected.person.fieldIds.every((f) => !closest.person.fieldIds.includes(f)),
-      })
-    : undefined;
 
   return (
     <main className="tgi-container" style={{ paddingTop: "3rem", paddingBottom: "6rem" }}>
@@ -225,6 +208,14 @@ export default async function ResultsPage({
             </Card>
           </Stack>
         ) : null}
+
+        {/* Phase 10C: signed-out save-to-account CTA. After the top hero +
+            closest-match summary, before the deeper match sections below —
+            per the approved design. Never gates any result; renders
+            alongside the full page regardless of sign-in state. */}
+        <div className="tgi-measure-stack">
+          <SignInCta locale={locale} resultToken={r!} />
+        </div>
 
         {/* ============================================== 3. unexpected match */}
         <Stack gap={4} as="section">
@@ -470,27 +461,21 @@ export default async function ResultsPage({
               </Stack>
             ) : null}
 
-            {(() => {
-              const real = advantageTraits(
-                [...closest.closestTraits, ...closest.userHigherTraits, ...closest.personHigherTraits],
-                3,
-              );
-              return real.length > 0 ? (
-                <Stack gap={3}>
-                  <Heading level={3}>{t(locale, "label.your_advantage")}</Heading>
-                  <Stack gap={2}>
-                    {real.map((c) => (
-                      <Text tone="secondary" key={c.attributeId}>
-                        {t(locale, "tpl.advantage_intro", {
-                          trait: attributeName(locale, c.attributeId),
-                          person: personDisplayName(locale, closest.person),
-                        })}
-                      </Text>
-                    ))}
-                  </Stack>
+            {advantage.length > 0 ? (
+              <Stack gap={3}>
+                <Heading level={3}>{t(locale, "label.your_advantage")}</Heading>
+                <Stack gap={2}>
+                  {advantage.map((c) => (
+                    <Text tone="secondary" key={c.attributeId}>
+                      {t(locale, "tpl.advantage_intro", {
+                        trait: attributeName(locale, c.attributeId),
+                        person: personDisplayName(locale, closest.person),
+                      })}
+                    </Text>
+                  ))}
                 </Stack>
-              ) : null;
-            })()}
+              </Stack>
+            ) : null}
           </Stack>
           </div>
         ) : null}

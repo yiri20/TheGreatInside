@@ -228,6 +228,39 @@ export const en = {
   "results.cta.full_comparison": "See Full Comparison",
   "results.cta.retake": "Retake the Quiz",
 
+  /* ---------------------------------- Phase 10C: save-to-account + history */
+  "results.save_cta.title": "Save your result",
+  "results.save_cta.body": "Sign in to save this result to your account and return to it later.",
+  "results.save_cta.action": "Sign in with Google & save",
+  "results.save_cta.saved": "Saved to your account.",
+
+  "account.title": "Your Saved Results",
+  "account.signed_out.title": "Sign in to see your saved results",
+  "account.signed_out.body": "Once you sign in, results you've saved will appear here.",
+  "account.signed_out.action": "Sign in with Google",
+  "account.empty.title": "No saved results yet",
+  "account.empty.body": "Complete the quiz and sign in to save your first result here.",
+  "account.list.completed_at": "Completed {date}",
+  "account.list.view": "View",
+  "account.list.unavailable": "Not available for this early result",
+  "account.back": "Back to Your Saved Results",
+
+  "account.results.not_found.title": "We couldn't find that result",
+  "account.results.not_found.body": "It may belong to a different account, or the link may be incorrect.",
+  "account.results.unavailable.title": "This saved result isn't available",
+  "account.results.unavailable.body":
+    "This result was saved before we could store a full snapshot of it, so it can't be faithfully reopened. Retake the quiz for a current result.",
+  "account.results.cta.retake": "Retake the Quiz",
+
+  // Authored, not yet rendered anywhere — same "prepared ahead of the UI
+  // that will use it" pattern as compare.cta.from_results was at Phase 7.
+  // Phase 10C's legacy-pending-entry preservation mechanism
+  // (src/lib/results/pendingOwnResults.ts's quarantine store) needed this
+  // copy defined and correct now, even though no recovery UI exists yet to
+  // display it — see that file's doc comment for the full mechanism.
+  "account.legacy_pending.notice":
+    "This result was completed before the current save format was introduced, so we can't verify an exact historical replay. Your result has not been overwritten.",
+
   /* ------------------------------------------------ Phase 7: target comparison */
   "compare.cta.has_result": "Compare Yourself With This Person",
   "compare.cta.no_result": "Take the Quiz to Compare",

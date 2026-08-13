@@ -18,7 +18,14 @@
  * without Next.js/Supabase machinery.
  */
 import { createClient } from "@lib/supabase/client";
-import { clearPendingOwnResult, readPendingOwnResults, type PendingResultStorage } from "./pendingOwnResults.js";
+import {
+  clearPendingOwnResult,
+  quarantineDriftedPendingResult,
+  quarantineIncompatiblePendingResult,
+  readIncompatibleLegacyResultTokens,
+  readPendingOwnResults,
+  type PendingResultStorage,
+} from "./pendingOwnResults.js";
 import type { SaveCompletedResultInput, SaveCompletedResultOutcome } from "./saveCompletedResult.js";
 
 export type SaveCompletedResultAction = (input: SaveCompletedResultInput) => Promise<SaveCompletedResultOutcome>;
@@ -37,13 +44,33 @@ function browserAuthCheck(): AuthCheck {
   };
 }
 
-/** Failure reasons that can never resolve on retry for the SAME queued
- *  entry — the token/provenance/timestamp are fixed at enqueue time, so if
- *  one of these fires, no future retry of this exact entry will ever
- *  succeed. Cleared rather than left to occupy a queue slot forever.
- *  `unauthenticated` and `db_error` are deliberately excluded — both can
- *  genuinely resolve on a later attempt (a session that expires mid-call, a
- *  transient DB error) and must leave the entry queued for retry. */
+/**
+ * Failure reasons that can never resolve on retry for the SAME queued
+ * entry — the token/provenance/timestamp are fixed at enqueue time, so if
+ * one of these fires, no future retry of this exact entry will ever
+ * succeed. Cleared (permanently deleted from the active queue) rather than
+ * left to occupy a queue slot forever — correct here because every one of
+ * these reasons means the token/input itself was malformed or internally
+ * inconsistent (an undecodable token, a provenance combination the app has
+ * never shipped, a provenance/token quiz-version mismatch, an implausible
+ * timestamp): never a real, well-formed anonymous completion whose only
+ * problem is that time passed. `unauthenticated` and `db_error` are
+ * deliberately excluded — both can genuinely resolve on a later attempt (a
+ * session that expires mid-call, a transient DB error) and must leave the
+ * entry queued for retry.
+ *
+ * `provenance_drift` is DELIBERATELY NOT in this set (hardened after a
+ * third review) — unlike the reasons above, it means the entry WAS a real,
+ * well-formed completion, genuinely submitted to `saveCompletedResult`,
+ * which correctly rejected it because current server state has moved on.
+ * Deleting the client-side record of that would destroy the only surviving
+ * trace of a real anonymous completion for no better reason than "the user
+ * happened to sign in after the app moved on" — so it is quarantined, not
+ * cleared, via its own dedicated branch below (`quarantineDriftedPendingResult`),
+ * using exactly the same preserve-not-delete architecture as legacy-format
+ * entries (see the `legacyTokens` loop and `IncompatibleReason` in
+ * pendingOwnResults.ts).
+ */
 type FailureReason = Extract<SaveCompletedResultOutcome, { ok: false }>["reason"];
 const PERMANENT_FAILURE_REASONS: ReadonlySet<FailureReason> = new Set([
   "invalid_token",
@@ -54,15 +81,62 @@ const PERMANENT_FAILURE_REASONS: ReadonlySet<FailureReason> = new Set([
   "invalid_completed_at",
 ]);
 
+export interface PendingResultProcessed {
+  resultToken: string;
+  outcome: SaveCompletedResultOutcome;
+}
+
+/**
+ * Returns one entry per queued item actually attempted (empty if signed out
+ * or the queue was already empty) — additive over the original `void`
+ * return: existing callers (`PendingResultsSync`, `quiz/page.tsx`'s
+ * fire-and-forget `goNext()` call) already ignore the resolved value and
+ * only `.catch()` the promise, so this is not a breaking change for them.
+ * Added (Phase 10C) so a caller that cares about ONE specific token — the
+ * `/results` signed-out CTA's saved-state indicator — can observe whether
+ * THAT token was actually saved, drifted, or left pending, without
+ * reimplementing this loop or its queue-mutation rules a second time
+ * (the "one canonical save path" rule this module's own header describes).
+ */
 export async function processPendingResults(
   action: SaveCompletedResultAction,
   storage?: PendingResultStorage,
   auth: AuthCheck = browserAuthCheck(),
-): Promise<void> {
+): Promise<PendingResultProcessed[]> {
   const pending = readPendingOwnResults(storage);
-  if (pending.length === 0) return;
+  const legacyTokens = readIncompatibleLegacyResultTokens(storage);
+  if (pending.length === 0 && legacyTokens.length === 0) return [];
 
-  if (!(await auth.isSignedIn())) return;
+  if (!(await auth.isSignedIn())) return [];
+
+  const processed: PendingResultProcessed[] = [];
+
+  // Phase 10C backward compatibility (hardened after a second review): an
+  // entry written by code from BEFORE personDataVersion existed can never
+  // be safely drift-checked — there is no way to know what the person
+  // roster looked like when it was written. It is NEVER sent to `action`
+  // (no fabricated/guessed personDataVersion), NEVER cleared/deleted, and
+  // NEVER reported as a success. `quarantineIncompatiblePendingResult`
+  // MOVES it (verified-safe ordering, see that function's own doc comment)
+  // out of the active queue into a separate, permanent store — preserved
+  // indefinitely, not destroyed, exactly because signing in is not, on its
+  // own, a decision the user actually made about this specific unverifiable
+  // completion. This is also what stops it from being reported again on
+  // every subsequent run: once moved, `readIncompatibleLegacyResultTokens`
+  // no longer finds it in the active queue — the entry itself still exists,
+  // in the quarantine store, until an explicit future user action removes
+  // it (`dismissIncompatiblePendingResult`, not called from anywhere yet).
+  for (const resultToken of legacyTokens) {
+    quarantineIncompatiblePendingResult(resultToken, storage);
+    processed.push({
+      resultToken,
+      outcome: {
+        ok: false,
+        reason: "provenance_drift",
+        detail: "legacy_format: predates Phase 10C provenance fields entirely; preserved for manual recovery, not deleted",
+      },
+    });
+  }
 
   for (const entry of pending) {
     try {
@@ -70,10 +144,20 @@ export async function processPendingResults(
         resultToken: entry.resultToken,
         completedAt: entry.completedAt,
         provenance: entry.provenance,
+        personDataVersion: entry.personDataVersion,
       });
-      if (outcome.ok || PERMANENT_FAILURE_REASONS.has(outcome.reason)) {
+      processed.push({ resultToken: entry.resultToken, outcome });
+      if (outcome.ok) {
+        clearPendingOwnResult(entry.resultToken, storage);
+      } else if (outcome.reason === "provenance_drift") {
+        // A real completion, genuinely rejected by the server because
+        // current state has moved on — quarantine, never delete. See the
+        // module-level comment above PERMANENT_FAILURE_REASONS.
+        quarantineDriftedPendingResult(entry.resultToken, storage);
+      } else if (PERMANENT_FAILURE_REASONS.has(outcome.reason)) {
         clearPendingOwnResult(entry.resultToken, storage);
       }
+      // else: transient (unauthenticated, db_error) — left queued for retry.
     } catch (err) {
       // Retained permanently (not stripped with the rest of the Stage 9D
       // debugging instrumentation): without this, an unexpected throw here
@@ -90,4 +174,5 @@ export async function processPendingResults(
       );
     }
   }
+  return processed;
 }
