@@ -2,17 +2,18 @@
 
 **Status: Stage 10A (Production Foundation) FORMALLY CLOSED, 2026-08.
 Stage 10B (First Real Deployment) FORMALLY CLOSED, human-approved,
-2026-08. Stage 10C (Historical Result Fidelity) implementation is
-COMPLETE but NOT YET HUMAN-APPROVED, NOT YET DEPLOYED (2026-08).** This
-is the durable resume point for a fresh session — read this file,
-`CLAUDE.md`'s Status section and its dedicated "Phase 10C — historical
-result fidelity" section, and `docs/deployment.md` before touching Phase
-10 again. Phase 9 is FORMALLY CLOSED and frozen (see
-`docs/phase9-provisional-checkpoint.md`) — nothing in this document
-proposes touching it. Stage 10C's code is committed and pushed but has
-not yet had a production human E2E pass — that is the explicit next
-step, not yet performed; see "Exact next task for a fresh session" at
-the bottom of this file.
+2026-08. Stage 10C (Historical Result Fidelity + Account Save/UX)
+FORMALLY CLOSED, human-approved, 2026-08.** This is the durable resume
+point for a fresh session — read this file, `CLAUDE.md`'s Status section
+and its dedicated "Phase 10C — historical result fidelity" section, and
+`docs/deployment.md` before touching Phase 10 again. Phase 9 is FORMALLY
+CLOSED and frozen (see `docs/phase9-provisional-checkpoint.md`) —
+nothing in this document proposes touching it. Stage 10C's code
+(including the post-E2E auth-state fix, deployed from commit
+`d425e24730fa524429033978298431dd84be1f9e`) has passed a full production
+human E2E — see "Stage 10C record" below for the complete evidence. **No
+Phase 10 stage beyond 10C has begun** — see "Exact next task for a fresh
+session" at the bottom of this file for candidates, none yet chosen.
 
 ## Stage 10A record (2026-08) — Production Foundation, FORMALLY CLOSED
 
@@ -245,7 +246,7 @@ credential values were printed, logged, or committed at any point
 (confirmed by the same grep discipline as Stage 10A, re-run before the
 initial commit).
 
-## Stage 10C record (2026-08) — Historical Result Fidelity, implementation COMPLETE, NOT yet human-approved
+## Stage 10C record (2026-08) — Historical Result Fidelity + Account Save/UX, FORMALLY CLOSED, human-approved
 
 Full architectural record lives in `CLAUDE.md`'s dedicated "Phase 10C —
 historical result fidelity" section — this entry is the stage-closure
@@ -303,57 +304,76 @@ CLAUDE.md's Phase 10C section.
   early result" state is the correct, intended behavior here — not a
   gap.
 
-**Verification.** `tsc --noEmit` clean, `vitest run` **410/410**, `pnpm
-build --webpack` clean, **84 routes** (`/account` and
+**Auth-state bug — found during the human E2E itself, fixed, redeployed,
+reverified.** Signing out while already viewing `/account/results/[id]`
+showed the generic "결과를 찾을 수 없어요" not-found state — secure (RLS
+still correctly returned zero rows) but semantically false, since it
+told the user their own real result "doesn't exist or belongs to someone
+else." Root cause: `!user` was collapsed into the same branch as
+"authenticated, RLS returned nothing." Fixed with
+`resolveSavedResultPageState(signedIn, outcome)`
+(`src/lib/results/savedResultPageState.ts`) — `signedIn` checked first,
+unconditionally wins, `fetchSavedResult` never even called while signed
+out — rendering a distinct "로그인이 필요해요" / "Sign in required" state
+with an inline `GoogleSignInCta` (a shared client island, also added as
+a small polish to `/account`'s pre-existing, already-correct signed-out
+state) that reuses the existing `buildOAuthReturnPath`/
+`OAUTH_NEXT_COOKIE` mechanism unchanged. The privacy-critical branch
+(nonexistent id vs. another user's id — both still the identical generic
+not-found state) was never touched. Committed and deployed separately
+from commit `d425e24730fa524429033978298431dd84be1f9e`.
+
+**Verification, final.** `tsc --noEmit` clean, `vitest run` **420/420**
+(410 for the historical-fidelity build + 10 for the auth-state fix),
+`pnpm build --webpack` clean, **84 routes** (`/account` and
 `/account/results/[id]` both `ƒ` dynamic; every pre-existing route's
 static/dynamic split unchanged throughout the whole stage). Secret/token
-scan re-run before commit: zero live credentials or full result tokens
-found in tracked files (one pre-existing, already-committed, explicitly
-self-labeled *synthetic* example token from Phase 7's own documentation
-was found and left untouched — unrelated to this stage, predates
-accounts entirely, not a real user's data).
+scan re-run before every commit in this stage: zero live credentials or
+full result tokens found in tracked files (one pre-existing,
+already-committed, explicitly self-labeled *synthetic* example token
+from Phase 7's own documentation was found and left untouched —
+unrelated to this stage, predates accounts entirely, not a real user's
+data).
 
-**What blocks formal closure — explicitly NOT done yet, same discipline
-as every other stage in this project:** a real production human E2E.
-Every verification above is unit-test and direct-code/diff-inspection
-based; none of it is a substitute for a human actually using the
-deployed app. Not yet performed:
-- `/account` loads correctly, shows the right rows, for a real
-  authenticated user.
-- `/account/results/[id]` correctly reopens the backfilled Stage 10B
-  result and displays it from the frozen snapshot.
-- The signed-out `/results` CTA renders, and Google sign-in from it
-  works end-to-end in production.
-- A **new** post-Stage-10C anonymous completion actually gets a
-  `result_snapshot` written automatically on save (the first real,
-  non-backfilled snapshot).
-- Dedup / re-login behavior is unaffected by the new columns.
-- The `820c8499...` legacy row genuinely shows the honest "unavailable"
-  state in the deployed UI, not just in code review.
+**Human production E2E — CONFIRMED PASSED (2026-08), by the user
+directly on the live deployment.** Full 12-point record (same list as
+`CLAUDE.md`'s "Phase 10C" section): authenticated `/account` lists saved
+results; the backfilled Stage 10B row reopens with exact production
+parity (Greatness 61/100, Benjamin Franklin, 70% match); the pre-Git
+legacy row honestly shows "cannot be reopened," no fabrication; a brand
+new anonymous completion showed the signed-out save CTA and saved
+successfully via Google sign-in, producing the first real (non-backfilled)
+`result_snapshot` with complete provenance and a correct `completed_at`;
+the new result appears in and reopens correctly from `/account`; multiple
+completions under one account created separate rows (distinct
+`result_token`s); re-login did not duplicate a row (dedup confirmed live);
+the auth-state fix is confirmed working (sign-out mid-view now shows the
+correct state with a working CTA); `/account` while signed out shows its
+own correct state; RLS/privacy behavior remained intact throughout, no
+privileged access introduced anywhere.
+
+**Phase 10C is FORMALLY CLOSED, human-approved (2026-08).** Same closure
+discipline as every other stage in this project: the user's own live,
+first-hand confirmation on the real production deployment, not an
+agent's inference from tests or code review.
 
 ## Exact next task for a fresh session
 
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
    result fidelity"), this file, and `docs/deployment.md` in full.
-2. Phase 9 is closed and frozen — do not reopen it. Stage 10A and Stage
-   10B are both closed — do not redo their audits, re-litigate the
-   site-origin design, or repeat the git/GitHub/Vercel setup above.
-   **Stage 10C's implementation is complete and (once this session's
-   commit lands) deployed — do not redo the historical-fidelity design,
-   the migration, or the backfill.** The one remaining action is the
-   production human E2E listed above — an agent cannot perform it
-   (Google consent screen, real browser session), same as every other
-   Phase 9/10 stage closure in this project.
-3. Once that E2E passes, Stage 10C can be marked FORMALLY CLOSED,
-   human-approved — not before, regardless of how clean the automated
-   verification looks.
-4. **No Phase 10 stage beyond 10C has begun.** Candidates already on
-   record, each requiring its own fresh, explicit decision:
+2. Phase 9 is closed and frozen — do not reopen it. Stage 10A, 10B, and
+   10C are all closed — do not redo their audits, re-litigate the
+   site-origin/historical-fidelity/auth-state designs, repeat the
+   git/GitHub/Vercel setup, redo the migration, or redo the backfill.
+   **No Phase 10 stage beyond 10C has begun** and none should start
+   without a fresh, explicit decision — see the candidates below.
+3. Candidates already on record for a future stage, each requiring its
+   own fresh, explicit decision — none approved yet:
    - Full SEO pass, share cards/OG images, portraits pipeline,
      analytics, ads, the wide-desktop redesign (`CLAUDE.md` "Known open
      issues" item 12), and eventually a custom branded domain (would
      also require revisiting `NEXT_PUBLIC_SITE_URL` and the Supabase/
      Google redirect-URL allow-lists a second time for the new domain).
-5. Preserve the broader Phase 10 boundaries throughout whichever stage is
+4. Preserve the broader Phase 10 boundaries throughout whichever stage is
    chosen next: no invented privacy-policy/business facts, no unrequested
    scope expansion.

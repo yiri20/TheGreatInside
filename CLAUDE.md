@@ -2659,7 +2659,7 @@ headline result of Phase 2, now extended by Phase 4.
     stage rather than shipping the CTA alone. Not yet human-approved; the
     code has not been deployed to production yet.
 
-## Phase 10C — historical result fidelity (implementation COMPLETE, human-approval PENDING, 2026-08)
+## Phase 10C — historical result fidelity (FORMALLY CLOSED, human-approved, 2026-08)
 
 Triggered by a narrow but real problem the Stage 10B checkpoint itself
 flagged: shipping the results sign-in CTA's "sign in to save this result
@@ -2901,21 +2901,78 @@ own:
   not a gap to close later. Historical correctness was treated as more
   important than filling every row.
 
-**Verification.** `tsc --noEmit` clean, `vitest run` **410/410** (399 +
-11 net for this hardening round; full count across the whole Phase 10C
-build: 319 Phase-10A baseline → 410), `pnpm build --webpack` clean, **84
-routes** (`/account`, `/account/results/[id]` both correctly `ƒ`
-dynamic; every pre-existing route's static/dynamic split unchanged).
+**A real production bug was found and fixed during the human E2E itself,
+not before it — the auth-vs-lookup-state conflation.** Signing out while
+already on `/account/results/[id]` showed the generic "결과를 찾을 수
+없어요" (result not found) state — secure (RLS still correctly returned
+zero rows for the now-unauthenticated request) but semantically false: it
+told the user their own real result "doesn't exist or belongs to someone
+else." Root cause: the page collapsed `!user` into the same branch as
+"authenticated but RLS returned no row." Fixed with a pure decision
+function, `resolveSavedResultPageState(signedIn, outcome)`
+(`src/lib/results/savedResultPageState.ts`) — `signedIn` is checked
+FIRST and unconditionally wins, before the not-found/unavailable/ok
+branches are ever reached, and `fetchSavedResult` is never even called
+when signed out. A new distinct state ("로그인이 필요해요" / "Sign in
+required") renders instead, with an inline Google sign-in CTA
+(`GoogleSignInCta.tsx`, a shared client island — not duplicated — also
+added as a small UX polish to `/account`'s pre-existing, already-correct
+signed-out state) that reuses the exact same `buildOAuthReturnPath`/
+`OAUTH_NEXT_COOKIE` mechanism every other sign-in entry point in this
+project uses, no second redirect path. The privacy-critical branch was
+left completely untouched: a nonexistent id and another user's id still
+collapse into the identical generic not-found state, exactly as
+designed — only the auth-state branch was wrong, never the ownership
+one. Deployed from commit `d425e24730fa524429033978298431dd84be1f9e`.
 
-**NOT yet human-approved.** Unlike every other closed phase/stage in this
-project, Phase 10C's closure record does **not** end with a live human
-E2E confirmation — the code has not been committed, pushed, or deployed
-yet at the point this section was written. `/account`, saved-result
-reopen, the signed-out save CTA, the new automatic `result_snapshot`
-creation path, and the legacy-row honest-unavailable state have all been
-verified by unit test and direct code/diff inspection only. Production
-human E2E is the explicit next step, not yet performed — see the
-Roadmap entry below.
+**Verification, final.** `tsc --noEmit` clean, `vitest run` **420/420**
+(319 Phase-10A baseline → 410 for the historical-fidelity build → 420
+after the auth-state fix's 10 new tests), `pnpm build --webpack` clean,
+**84 routes** (`/account`, `/account/results/[id]` both correctly `ƒ`
+dynamic; every pre-existing route's static/dynamic split unchanged
+throughout the entire stage).
+
+**Human production E2E — CONFIRMED PASSED (2026-08), by the user directly
+on the live deployment** (an agent cannot perform this — same discipline
+as every other stage closure in this project):
+1. Authenticated `/account` works and lists saved results.
+2. The one historically-provable backfilled row (Stage 10B's production
+   result) reopens correctly from its immutable snapshot: Greatness
+   61/100, Benjamin Franklin, 70% match — matching the human-observed
+   original exactly, in production, not just in the earlier offline
+   parity check.
+3. The pre-Git legacy row (`result_snapshot IS NULL`) is handled
+   honestly as an early result that cannot be reopened — no fabrication,
+   no silent recompute.
+4. A brand-new anonymous production quiz completion showed the
+   signed-out save CTA.
+5. Google sign-in from that CTA successfully saved the new result to the
+   existing account.
+6. The new `user_profiles` row was created with `result_snapshot`
+   non-null, `snapshotSchemaVersion = result_snapshot_v1`, complete
+   10-field provenance, `person_data_version` populated, and
+   `completed_at` preserving the actual quiz-completion time — the
+   first real, non-backfilled automatic snapshot this design has ever
+   produced in production.
+7. The newly saved result appears in `/account` history and reopens
+   correctly from its own frozen snapshot.
+8. Multiple quiz completions under the SAME Google account correctly
+   created separate history rows, because their `result_token`s differ.
+9. Re-login with the same account did NOT create a duplicate row — the
+   existing `(user_id, result_token)` dedup index held under real
+   production reuse.
+10. The auth-state bug above is confirmed fixed live: sign-out while
+    viewing a saved result now shows the correct auth-required state
+    with a working inline CTA, never the misleading not-found state.
+11. `/account` while signed out shows its own proper auth-required state
+    plus the new inline CTA.
+12. RLS/privacy behavior remained intact throughout; no privileged
+    browser access was ever introduced.
+
+**Phase 10C is FORMALLY CLOSED, human-approved (2026-08)** — same closure
+discipline as every other phase/stage in this project: the user's own
+live, first-hand confirmation on the real production deployment, not an
+agent's inference from tests or code review alone.
 
 ## Roadmap
 
@@ -3086,25 +3143,29 @@ surface left open at Phase 9's own closure.
 One new Phase 10 UX requirement was identified during this human E2E and
 recorded, not implemented at the time — see "Known open issues" item 13
 (results-page sign-in conversion CTA) above, now marked resolved.
-**Stage 10C (historical result fidelity) — implementation COMPLETE,
-human-approval PENDING (2026-08)**: see the dedicated "Phase 10C —
+**Phase 10C (historical result fidelity + account save/UX) is FORMALLY
+CLOSED, human-approved (2026-08)**: see the dedicated "Phase 10C —
 historical result fidelity" section above for the full record (immutable
 `result_snapshot` design, the completed 11-field provenance/person-data
 drift guard, the quarantine-not-delete architecture for incompatible
 pending entries, `/account` + `/account/results/[id]`, the signed-out
-save CTA, migration 0004 applied and verified live, and the one-row
-legacy backfill with its full evidence chain). `tsc`/`vitest`
-(**410/410**)/`build` (**84 routes**) all clean. **Not yet deployed, not
-yet human-E2E-verified, and not marked formally closed** — that requires
-a real production pass (Google sign-in, `/account`, saved-result reopen,
-the CTA, dedup, the legacy-row unavailable state) the same way every
-other stage in this project has been closed, and is the explicit next
-step. Preserve the broader Phase 10 boundaries going forward: no
-wide-desktop redesign, no portraits pipeline, no ads, no analytics, no
-share cards, no full SEO pass, no invented privacy-policy/business
-facts, no custom domain — none of these are started, and no further
-Phase 10 stage begins without its own fresh, explicit decision. Full
-record in `docs/phase10-provisional-checkpoint.md`.
+save CTA, migration 0004 applied and verified live, the one-row legacy
+backfill with its full evidence chain, and the auth-vs-lookup-state bug
+found and fixed during the human E2E itself). `tsc`/`vitest`
+(**420/420**)/`build` (**84 routes**) all clean. Deployed from commit
+`d425e24730fa524429033978298431dd84be1f9e`; the full 12-point human
+production E2E — `/account`, the backfilled historical result reopening
+with exact parity, the honest legacy-NULL state, a brand-new completion
+saving automatically with a real `result_snapshot`, multi-result and
+dedup behavior, and the auth-state fix — is confirmed passed, same
+closure discipline as every other stage in this project (the user's own
+live confirmation, not an agent's inference). Preserve the broader
+Phase 10 boundaries going forward: no wide-desktop redesign, no
+portraits pipeline, no ads, no analytics, no share cards, no full SEO
+pass, no invented privacy-policy/business facts, no custom domain — none
+of these are started, and no further Phase 10 stage begins without its
+own fresh, explicit decision. Full record in
+`docs/phase10-provisional-checkpoint.md`.
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 
