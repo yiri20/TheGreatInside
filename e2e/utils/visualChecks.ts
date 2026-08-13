@@ -62,6 +62,14 @@ export async function assertNoClippedElements(page: Page): Promise<string[]> {
     const offenders: string[] = [];
     const els = document.querySelectorAll<HTMLElement>("a, button, h1, h2, h3, p, span, .tgi-button");
     for (const el of els) {
+      // .tgi-visually-hidden is the project's deliberate sr-only pattern
+      // (clip-rect to 1x1px, see components.css) — its whole job is to be
+      // visually clipped while remaining in the accessibility tree, so
+      // scrollWidth > clientWidth there is correct, not a defect. Excluding
+      // it (and anything inside it) is what makes this check meaningful for
+      // ImpactBadge/ConfidenceIndicator/ScoreBar's real sr-only text, which
+      // the Person page exercises far more than Landing did.
+      if (el.closest(".tgi-visually-hidden")) continue;
       if (el.scrollWidth > el.clientWidth + 2 && getComputedStyle(el).overflow !== "visible") {
         offenders.push(`${el.tagName}.${el.className || "(no class)"}: "${(el.textContent ?? "").slice(0, 40)}"`);
       }
@@ -96,4 +104,26 @@ export async function domOrderIndex(page: Page, selector: string): Promise<numbe
     const matches = Array.from(document.querySelectorAll(sel));
     return matches.map((m) => all.indexOf(m));
   }, selector);
+}
+
+/** Whether a Rail's primary/secondary regions are laid out side by side
+ *  (wide-desktop split) or stacked (single column) — reusable across any
+ *  page using the `Rail` primitive (Phase 10D-2 introduced this for the
+ *  Person page; later stages can reuse it for Results/Compare). Compares
+ *  vertical position rather than trusting the CSS breakpoint blindly, so a
+ *  test using this actually observes the rendered layout. Returns
+ *  `undefined` if either region isn't present (e.g. no secondary content
+ *  for a given person). */
+export async function railIsSideBySide(page: Page): Promise<boolean | undefined> {
+  return page.evaluate(() => {
+    const primary = document.querySelector(".tgi-rail__primary");
+    const secondary = document.querySelector(".tgi-rail__secondary");
+    if (!primary || !secondary) return undefined;
+    const p = primary.getBoundingClientRect();
+    const s = secondary.getBoundingClientRect();
+    // Side by side: vertical ranges overlap substantially. Stacked:
+    // secondary starts at or after primary's bottom.
+    const verticalOverlap = Math.min(p.bottom, s.bottom) - Math.max(p.top, s.top);
+    return verticalOverlap > Math.min(p.height, s.height) * 0.3;
+  });
 }

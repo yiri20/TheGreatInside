@@ -1712,6 +1712,101 @@ as a review artifact; it fails if a component throws. `TextField`/`Select`
 (added in Phase 3 for the explorer's search/filter controls) reuse the same
 token-only `.tgi-field` styling rather than introducing a separate pattern.
 
+## Anti-AI-template / human-authored design principle (adopted 2026-08)
+
+A standing constraint on every future visual decision — Landing, Person,
+Results, Compare, SEO/share surfaces, any later monetisation UI — not a
+one-time Phase 10D preference. Researched against current (2024-2026)
+design commentary before adoption, not assumed from priors; see sources
+below.
+
+**The pattern being avoided.** 2024-2026 AI website builders and
+"vibe-coded" tools converge on the same visible fingerprint because LLMs
+trained on the modal SaaS/marketing web return the *median* of that
+training data: Inter or another neutral system typeface used for
+everything including headlines; an indigo/blue-to-purple gradient in the
+hero, on CTA buttons, or as a background wash; glassmorphism (frosted
+cards floating over soft gradient blobs); an oversized hero with vague,
+interchangeable copy ("Build the future," "Your all-in-one platform");
+bento grids and pill badges used decoratively, not because the content
+has that shape; a uniform three-column "icon + heading + two-line
+description" feature block; every piece of content boxed in a bordered/
+shadowed card regardless of whether it needs a boundary; fake-looking
+testimonial/stat blocks; and gratuitous micro-animations with no
+semantic purpose. This is called "distributional convergence" in current
+commentary — not a style choice, a statistical default.
+
+**The rule.** For every design decision, ask *why this element exists
+specifically in The Great Inside* — content, subject matter, or a real
+product invariant. If the honest answer is "it looks modern," "it fills
+the space," or "this is what SaaS sites normally do," don't use it. This
+is not a mandate to be quirky, inconsistent, or deliberately imperfect —
+human-authored means *intentional*, not messy; do not introduce fake
+irregularity to *perform* human-madeness.
+
+**Audit against the current build (2026-08).** Checked, not assumed:
+- **Not present, and must not become an invented problem to "fix":** no
+  gradients anywhere in `tokens.css` (every colour is a flat semantic
+  token); no glassmorphism; no Inter/neutral-only typography (the
+  editorial serif `--tgi-font-display` + sans `--tgi-font-sans` pairing
+  already exists specifically to avoid this); no vague AI-startup copy
+  (every string is either data-derived or specific to this product's own
+  mechanics); no fake testimonials/stats (none exist — there is no user
+  base yet, and none should be invented); no gratuitous micro-animation
+  (`--tgi-duration-fast`/`--tgi-duration-base` transitions are limited to
+  functional state changes — hover/focus/checked — and respect
+  `prefers-reduced-motion`).
+- **Present but confirmed legitimate, not a tell:** `.tgi-grid`'s
+  auto-fit card grids (Trait Constellation, Similar People, category
+  matches) are real data enumeration — one card per actual trait/person/
+  match, count driven by data, not a fixed decorative "3 features"
+  shape. Structurally the opposite of the AI-generated three-column
+  feature-blurb pattern, which is content-empty and always exactly
+  three. `.tgi-chip`/`.tgi-impact`'s pill shapes carry meaning (a glyph +
+  label + a real attribute value or impact classification, never
+  decoration) — legitimate under CLAUDE.md's own pre-existing "colour is
+  never the only signal" rule, not the AI-tell "pill badges scattered
+  for visual texture."
+- **Live risk to watch, not yet a defect:** the temptation to add a
+  Landing "why this product" three-card feature-blurb section, or any
+  bordered card whose only job is to hold a short marketing sentence —
+  exactly the pattern research identifies as the single most recognisable
+  AI-generated tell. None exists today; don't add one to "fill space" on
+  a wide viewport (see Phase 10D's own explicit instruction against
+  decorative filler).
+
+**Avoid by default:** gradients (purple/blue or otherwise) as decoration;
+glassmorphism; Inter or other neutral system typefaces standing in for
+this project's editorial serif/sans pairing; symmetric three/four-column
+generic feature-card blocks; bento-grid layouts chosen for visual
+novelty rather than a real content shape; pill/badge elements that carry
+no data or meaning; boxing every piece of content in a bordered/shadowed
+card by default (a card should mean something — a discrete, ownable unit
+of data — not be the default container); vague benefit-oriented
+marketing copy; fabricated social proof of any kind; micro-animation
+without a functional trigger.
+
+**Preserve and strengthen:** the warm paper background and single
+restrained purple accent (never a gradient); the editorial serif display
+face paired with a plain sans interface face; the person-name/identity
+serif treatment (`.tgi-person-name`) as a deliberate exception, not the
+default; a quiet, restrained overall tone; hierarchy built from type
+scale, weight, and whitespace before borders or shadows; dividers and
+card boundaries used selectively, to mark a real section or data
+boundary, not by default; content-driven, data-enumerated grids (never a
+fixed decorative count); asymmetric, content-specific composition (the
+Phase 10D `Rail` primitive) over generic centred single-column templates
+or symmetric dashboard grids.
+
+Sources consulted (2026-08): [Why Your AI Keeps Building the Same Purple
+Gradient Website](https://prg.sh/ramblings/Why-Your-AI-Keeps-Building-the-Same-Purple-Gradient-Website),
+[AI Slop Web Design: Complete Guide to Spotting and Fixing Generic
+Websites](https://www.925studios.co/blog/ai-slop-web-design-guide),
+[AI Slop Fonts and Gradients: The Tells That Give Away AI
+Design](https://www.925studios.co/blog/ai-slop-design-tells), [Editorial
+design principles that still matter in
+2026](https://www.toastdesign.co.uk/design-resources/editorial-design-principles-2026/).
+
 ## People explorer — `explorer_v1` / `person_similarity_v1` / `constellation_v1`
 
 `app/[locale]/people` (directory) and `app/[locale]/people/[slug]` (person
@@ -1867,6 +1962,16 @@ the schema available but no data populated — same deliberate-incompleteness
 discipline as development guides (10/30 attributes) and `doNotCopyKeys`
 (7/35 people): the field exists and degrades gracefully when absent, and
 getting a handful of entries right beats guessing at all of them.
+
+*(Implementation-fact cross-reference, Phase 10D-2, 2026-08: confirmed via
+`grep -n "portrait: {"` across both seed files that da Vinci is currently
+the ONLY person with a populated `portrait` field in the dataset — a
+distinct fact from "verified data" above, which covers external-identity
+metadata (QID/Wikipedia) for 5 people. Yi Sun-sin and the other 3 have
+verified external identity but no portrait field populated yet. Recorded
+here because Phase 10D-2's Person-page layout work depended on knowing
+this precisely, not assumed from this paragraph's proximity to "5 of 35."
+See "Phase 10D-2" below for where this mattered.)*
 
 **`db/schema.sql`** gained matching columns/tables: `aliases` (gin-indexed)
 and `wikidata_id` (unique-indexed) directly on `people`; `historical_polity_
@@ -2641,15 +2746,16 @@ headline result of Phase 2, now extended by Phase 4.
     vs. an unverifiable full transliteration) carry flagged, unresolved
     person-name ambiguities.
 12. **Phase 10 wide-desktop layout debt (flagged 2026-08) — Landing
-    resolved in Phase 10D Stage 1 (2026-08), see that section above;
-    Results/Person/Compare/Saved Result NOT yet redesigned.** At desktop
-    widths ≥1280px, those four pages still overuse a narrow centered
-    single-column layout (`tgi-measure-stack`/`tgi-container`), leaving
-    dead horizontal space. The reusable primitives this needs
-    (`Rail`/`IdentityHero`, `src/ui/components/layout.tsx`) already exist
-    and are already wired into all three dynamic pages presentationally
-    (no visual change yet) — a future Phase 10D stage applies the actual
-    wide-desktop composition using them, it does not rebuild them. Keep
+    resolved in Phase 10D Stage 1, Person resolved in Phase 10D-2
+    (both 2026-08, see those sections above); Results/Compare/Saved
+    Result NOT yet redesigned.** At desktop widths ≥1280px, those three
+    pages still overuse a narrow centered single-column layout
+    (`tgi-measure-stack`/`tgi-container`), leaving dead horizontal space.
+    The reusable primitives this needs (`Rail`/`IdentityHero`,
+    `src/ui/components/layout.tsx`) already exist and are already wired
+    into both remaining dynamic pages presentationally (no visual change
+    yet) — a future Phase 10D stage applies the actual wide-desktop
+    composition using them, it does not rebuild them. Keep
     readable text measures (`Text`'s existing 68ch cap) and the current
     restrained visual character — not a general redesign, a wide-viewport
     composition fix, same instruction as before.
@@ -3118,6 +3224,130 @@ remain unredesigned (Results, Person, and Compare already use
 Supabase, result-snapshot, algorithm, SEO, portraits, analytics, ads, or
 dataset code was touched.
 
+## Phase 10D-2 — Person Detail editorial layout (FORMALLY CLOSED,
+## human-approved, 2026-08)
+
+Applies the Stage 1 primitives to the Person detail page — the second of
+the pages "Known open issues" item 12 names, after Landing. Results,
+Saved Result, Compare, and Account remain untouched, as scoped. Full
+stage record in `docs/phase10-provisional-checkpoint.md`'s "Stage 10D-2
+record"; this section is the durable summary.
+
+**Diagnosis.** The identity hero (12rem portrait + `flex:1` info column)
+stretched across the full 1280px container with a short info column —
+the "large visually unused region" the Phase 10D audit named. Two
+further instances of the same underlying problem, not previously
+flagged, were found by inspecting real wide-desktop screenshots (per
+this stage's own instruction to catch visual problems that way rather
+than asking for manual discovery): Sources was a full-width sunken card
+holding only a short citation list, and — the more serious one —
+Opposite Profile's `Grid` always renders exactly one card
+(`selectOppositePerson` returns at most one person), and `Grid`'s
+auto-fit sizes a single-item grid's one column to `1fr`, stretching that
+lone card to the full container width; combined with `PersonCard`'s
+fixed 4:5 portrait aspect-ratio, this produced a placeholder block taller
+than the rest of the page at 1920px.
+
+**Changes, all Person-page-local JSX, zero shared-component edits:**
+- Hero now pairs with "Known For" (`person.impactDomains`, real
+  already-existing content) via `Rail` (`.tgi-rail--tight`, the same
+  modifier Landing introduced) at ≥1280px; single column below it, with
+  Known For rendering in the exact position/order it already occupied
+  when stacked — confirmed unchanged at 1024px, not merely assumed.
+  Falls back to a plain `IdentityHero` (no `Rail`) if `impactDomains` is
+  ever empty, so an empty secondary region is never reserved — not a
+  live case in the current 35-person roster (verified: `impactDomains`
+  is non-empty for every current person), but the field is nullable by
+  schema, and reserving dead grid width for a person with none would be
+  its own version of the problem this stage fixes.
+- Sources capped with the existing `.tgi-measure-stack` — the same
+  narrow-content pattern already used by quiz/account/error states, not
+  a new one.
+- Opposite Profile's single card capped at `20rem` instead of wrapped in
+  `Grid`, which was never the right primitive for an always-exactly-one
+  item section.
+
+**`IdentityHero`/`Rail` themselves: zero diff.** `git diff
+src/ui/components/layout.tsx` against the Phase 10D-1 commit is empty —
+only the Person page's *usage* of the existing primitives changed, so
+Results and Compare needed no re-verification beyond confirming their own
+files were untouched (also zero diff), which is a stronger guarantee
+than a passing runtime check would have been.
+
+**Implementation fact, precisely scoped** (see the cross-reference
+under "External identity & media metadata" above for the full
+distinction): confirmed via `grep -n "portrait: {"` across both seed
+files that Leonardo da Vinci is currently the ONLY person in the dataset
+with a populated `portrait` field. This is a current-implementation fact
+about `src/data/people/*.ts`, not a correction to the earlier "5 of 35
+people have verified data" record — that record is about verified
+external-identity metadata (Wikidata QID/Wikipedia links) for 5 people,
+a different and still-accurate claim; it never asserted all 5 have
+portraits. Mattered concretely this stage because the representative
+Person visual-test matrix needed one person on the portrait code path
+(`align="start"` + `portraitCaption`) and two off it — da Vinci is the
+only person that can exercise the former today.
+
+**Playwright harness improvements, both found via this stage's own
+"exhaust automatable verification" work, not assumed:**
+- **`assertNoClippedElements` false-positive, fixed.** The Landing-only
+  10D-1 suite never exercised `.tgi-visually-hidden` (the project's
+  clip-rect sr-only pattern), so a real bug in the *check itself* went
+  unnoticed: it flagged deliberately visually-hidden screen-reader text
+  (`ImpactBadge`/`ConfidenceIndicator`/`ScoreBar` labels — Person renders
+  many of these, Landing renders none) as "clipped." Fixed by excluding
+  `el.closest(".tgi-visually-hidden")` — a check-helper fix, not a
+  product fix; nothing in the app changed.
+- **Harness now runs against a production build (`next build --webpack
+  && next start`), not `next dev`.** Two separate full-suite runs each
+  flaked on a *different* test (confirmed: both passed cleanly in
+  isolation every time) — the signature of `next dev`'s on-demand,
+  serialized route compilation contending under this suite's real
+  parallelism (11 workers), not a bug in either test or the pages under
+  test. Bumping the timeout further didn't fix it (still flaked at 90s,
+  just on a different test), because the problem was contention, not
+  duration. A production server has no on-demand compilation at all,
+  which removes the whole class of flake structurally — confirmed
+  stable across two consecutive full runs post-fix, and ~30% faster
+  since there is no per-route cold-compile cost. Also incidentally
+  removes Next's dev-mode floating "N" indicator from screenshots.
+
+**Representative visual-test matrix** (not all 70 person routes, per
+this stage's own instruction that a smaller matrix providing the same
+signal is preferred): `leonardo-da-vinci` (long name, the one portrait
+case), `ada-lovelace` (no portrait), `yi-sun-sin` (no portrait, short
+Korean display name "이순신" vs. "Yi Sun-sin") — × en-US/ko-KR × six
+viewports (390/768/1024/1280/1600/1920) = 36, plus 3 targeted tests (DOM
+order, link integrity, no-portrait rendering) = 39 tests, all passing,
+in `e2e/person.visual.spec.ts`.
+
+**Verification, final.** `tsc --noEmit` clean · `vitest run` **420/420**
+(unchanged — no `src/core` file touched) · `next build --webpack` clean,
+**84 routes**, all 70 person pages still `●` SSG, static/dynamic split
+identical throughout · Playwright **53/53** (14 Landing + 39 Person),
+stable across repeated full runs · zero console/page errors, zero
+horizontal overflow, zero clipped elements at any tested width/locale ·
+confirmed: `src/ui/components/layout.tsx`,
+`app/[locale]/results/page.tsx`, and `app/[locale]/compare/[slug]/page.tsx`
+all show zero diff against the Phase 10D-1 commit · confirmed gitignored,
+no stray files, no secrets, no auth/Supabase/scoring/dataset-content
+changes.
+
+**Anti-AI-template principle applied, not just declared.** The hero +
+Known For pairing uses real, already-existing content (impact-domain
+chips already carried meaning via `ImpactBadge`'s glyph+label
+discipline) — not a decorative card added to fill space; no new
+gradient, shadow, or border-radius pattern was introduced; the Opposite
+Profile and Sources fixes both *remove* an accidentally oversized
+bordered/shadowed region rather than add one, which is the direction
+this principle argues for by default.
+
+**Phase 10D-2 is FORMALLY CLOSED, human-approved (2026-08)** — the
+Person Detail editorial layout, hero + Known For pairing, Sources width
+restraint, and Opposite Profile single-card width fix were explicitly
+approved against real screenshots. Results, Saved Result, Compare, and
+Account remain unredesigned.
+
 ## Roadmap
 
 Phase 0 architecture ✓ · 1 design system ✓ · 2 dataset to 30+ ✓ (see open issue
@@ -3326,7 +3556,21 @@ unchanged) all clean, Playwright **14/14**. Person, Results, Saved
 Result, Compare, and Account remain unredesigned and require their own
 fresh, explicit decisions to begin (see "Known open issues" item 12 and
 `docs/phase10-provisional-checkpoint.md`'s "Exact next task" for
-candidate stages 10D-2 through 10D-5).
+candidate stages 10D-2 through 10D-5). **Phase 10D-2 (Person Detail
+Editorial Layout) is FORMALLY CLOSED, human-approved (2026-08)** — see
+"Phase 10D-2" above: hero + Known For paired via `Rail` at ≥1280px
+(`IdentityHero`/`Rail` themselves unchanged — zero diff, confirmed —
+only the Person page's usage of them changed), Sources capped to
+`.tgi-measure-stack`, and a real pre-existing "giant empty card" bug
+fixed (Opposite Profile's always-exactly-one-item `Grid` stretching to
+the full container width). The Playwright harness itself improved twice
+this stage: a false-positive in the clipped-element check (was flagging
+deliberate `.tgi-visually-hidden` sr-only text) fixed, and the harness
+switched from `next dev` to a production build to eliminate cold-compile
+contention flakes structurally rather than papering over them with a
+longer timeout. `tsc`/`vitest` (**420/420**)/`build` (**84 routes**,
+all 70 person pages still `●` SSG) all clean, Playwright **53/53**.
+Results, Saved Result, Compare, and Account remain unredesigned.
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 

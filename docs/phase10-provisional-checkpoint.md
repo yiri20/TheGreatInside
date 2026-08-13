@@ -5,16 +5,18 @@ Stage 10B (First Real Deployment) FORMALLY CLOSED, human-approved,
 2026-08. Stage 10C (Historical Result Fidelity + Account Save/UX)
 FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 1 (Visual
 Regression Harness + Editorial Primitives + Landing) FORMALLY CLOSED,
-human-approved, 2026-08.** This is the durable resume point for a fresh
-session — read this file, `CLAUDE.md`'s Status section and its dedicated
-"Phase 10C — historical result fidelity" and "Phase 10D-1" sections, and
-`docs/deployment.md` before touching Phase 10 again. Phase 9 is FORMALLY
-CLOSED and frozen (see `docs/phase9-provisional-checkpoint.md`) —
-nothing in this document proposes touching it. Stage 10C's code
-(including the post-E2E auth-state fix, deployed from commit
+human-approved, 2026-08. Phase 10D Stage 2 (Person Detail Editorial
+Layout) FORMALLY CLOSED, human-approved, 2026-08.** This is the durable
+resume point for a fresh session — read this file, `CLAUDE.md`'s Status
+section and its dedicated "Phase 10C — historical result fidelity",
+"Phase 10D-1", and "Phase 10D-2" sections, and `docs/deployment.md`
+before touching Phase 10 again. Phase 9 is FORMALLY CLOSED and frozen
+(see `docs/phase9-provisional-checkpoint.md`) — nothing in this document
+proposes touching it. Stage 10C's code (including the post-E2E
+auth-state fix, deployed from commit
 `d425e24730fa524429033978298431dd84be1f9e`) has passed a full production
 human E2E — see "Stage 10C record" below for the complete evidence.
-**No Phase 10D stage beyond Stage 1 has begun** — see "Exact next task
+**No Phase 10D stage beyond Stage 2 has begun** — see "Exact next task
 for a fresh session" at the bottom of this file for candidates, none yet
 chosen.
 
@@ -534,36 +536,185 @@ component this time (no auth/Supabase/algorithm/dataset code was
 touched, so there was nothing requiring a live-deployment human check
 the way Phase 9's OAuth flow or Phase 10C's save pipeline did).
 
+## Stage 10D-2 record (2026-08) — Person Detail Editorial Layout, FORMALLY CLOSED, human-approved
+
+Second Phase 10D stage, applying the Stage 1 primitives (`Rail`,
+`IdentityHero`) to the Person detail page. Results, Saved Result,
+Compare, and Account remain untouched, as scoped. CLAUDE.md's "Phase
+10D-2" section is the durable summary; this is the fuller record.
+
+**Diagnosis, done before implementation as required.** The identity hero
+(12rem portrait + `flex:1` info column) stretched across the full
+1280px container with a short info column — the dead region the Phase
+10D audit named. Section mapping: hero → primary editorial region;
+Known For (`impactDomains`) → secondary supporting rail, real
+already-existing content, not invented; Trait Constellation/Similar
+People → full-width sections (`Grid` already scales correctly with real
+per-item content, left unchanged); Sources → deliberately narrow section
+(a citation list, never needed the full container); Opposite Profile →
+also effectively a "deliberately narrow" section once its structural
+always-exactly-one-item nature was accounted for, even though it had
+been rendered as a full-width `Grid` before this stage.
+
+**Two genuine pre-existing bugs found by inspecting real screenshots**
+(per this stage's own instruction to fix visual problems found this way
+rather than asking for manual discovery), neither previously flagged
+anywhere in the project's records:
+1. **Sources** — a full-width sunken `Card` holding only a short
+   citation list at any container width ≥1280px, one of the "giant
+   empty card" cases the audit's own language warned against.
+2. **Opposite Profile — the more serious one.** `selectOppositePerson`
+   returns at most one person, and `<Grid min="14rem">` wrapped around a
+   single `PersonCard` auto-fit-sizes its one column to `1fr`, stretching
+   that single card to the full container width. Combined with
+   `PersonCard`'s fixed 4:5 portrait-placeholder aspect-ratio, this
+   produced a beige placeholder block taller than the entire rest of the
+   page at 1920px — confirmed directly in a screenshot, not assumed from
+   reading the code alone.
+
+**Fix, both Person-page-local, zero shared-component or shared-CSS
+changes:** Sources wrapped in the existing `.tgi-measure-stack` class
+(same narrow-content pattern already used by quiz/account/error states).
+Opposite Profile's `Grid` wrapper replaced with a plain `<div style={{
+maxWidth: "20rem" }}>` — `Grid` was never architecturally correct for a
+section that always renders exactly one item; a fixed cap matching the
+card width seen elsewhere on the page was the direct fix, not a
+workaround.
+
+**Hero + Known For composition.** Wrapped in `Rail` with the
+`.tgi-rail--tight` modifier Landing already introduced (reused, not
+reinvented) — hero as primary, Known For as secondary, at ≥1280px only.
+Below that, `Rail` collapses to one column and Known For renders
+directly after the hero, the exact position/order it already occupied
+pre-Stage-2 — verified live at 1024px, not assumed from the CSS alone.
+Falls back to a bare `IdentityHero` (no `Rail` wrapper at all) when
+`person.impactDomains` is empty, so a person with no Known For content
+never reserves dead secondary-column width — not a live case today
+(every one of the current 35 people has non-empty `impactDomains`,
+confirmed by grep) but the field is nullable by schema and this is the
+correct defensive behavior regardless.
+
+**`IdentityHero`/`Rail` verified unchanged, not just assumed.**
+`git diff src/ui/components/layout.tsx` against the Stage 1 commit
+(`7c72203dd9b6a76543d7d1af5b1cc99f1098f0e6`) is empty. `app/[locale]/
+results/page.tsx` and `app/[locale]/compare/[slug]/page.tsx` are also
+confirmed at zero diff. This is a stronger guarantee that Results/Compare
+are unaffected than a passing runtime re-check would have been, since
+there is no shared code for a regression to hide in.
+
+**Implementation fact vs. verification-record distinction (raised by the
+user during review, corrected precisely rather than glossed over):**
+`grep -n "portrait: {"` across both seed files confirms Leonardo da
+Vinci is CURRENTLY the only person with a populated `portrait` field.
+This is a fact about the current state of `src/data/people/*.ts`. It is
+NOT a correction to CLAUDE.md's pre-existing "Population status: 5 of 35
+people have verified data" record (da Vinci, Marie Curie, Yi Sun-sin,
+Zheng He, Ibn Khaldun) — that record was about verified EXTERNAL
+IDENTITY metadata (Wikidata QID, Wikipedia links), a claim that remains
+true and was never about portraits for all 5. Re-reading it directly
+confirms it only ever asserted da Vinci's portrait specifically was
+verified, singular, correctly. Nothing in the existing record was wrong;
+CLAUDE.md was NOT rewritten, only a clearly-labelled cross-reference
+addendum was added at that paragraph, distinguishing "verified" from
+"currently populated in the dataset." This mattered concretely because
+the representative Person visual-test matrix needed one person on the
+portrait code path (`align="start"` + `portraitCaption`) — da Vinci is
+the only person that can exercise it today.
+
+**Playwright harness hardened twice this stage, both real findings from
+doing the work, not anticipated in advance:**
+1. **`assertNoClippedElements` false-positive.** Landing (Stage 1) never
+   exercised `.tgi-visually-hidden` (the project's sr-only clip-rect
+   pattern) since it has none; Person renders many
+   (`ImpactBadge`/`ConfidenceIndicator`/`ScoreBar` labels), and the
+   original helper flagged all of them as "clipped" — correct behavior
+   for that CSS pattern, a real bug in the *check*, not the product.
+   Fixed by skipping any element inside `.tgi-visually-hidden`.
+2. **`next dev` → production build.** Two separate full-suite runs each
+   failed one DIFFERENT test; both passed cleanly in isolation every
+   time — the signature of dev-mode's on-demand, serialized route
+   compilation contending under this suite's real parallelism (11
+   workers), not a flaky test or a real page bug. Increasing the test
+   timeout to 90s did not fix it — it just flaked on a different test —
+   confirming the cause was contention, not insufficient time. The
+   harness now runs `next build --webpack && next start`, which has no
+   on-demand compilation to contend over; confirmed stable across two
+   consecutive full 53-test runs post-fix, and noticeably faster (no
+   per-route cold-compile cost paid during the run itself).
+
+**Representative visual-test matrix** (three people, not all 70 routes,
+per this stage's own preference for the smallest matrix that provides
+the same signal): `leonardo-da-vinci` (long name, the one portrait
+case), `ada-lovelace` (no portrait), `yi-sun-sin` (no portrait, Korean
+display name "이순신" much shorter than "Yi Sun-sin" — real
+localisation-driven length variation) — × en-US/ko-KR × six viewports
+(390/768/1024/1280/1600/1920) = 36 tests, plus 3 targeted tests (DOM
+order primary-before-secondary with no CSS `order`, wikipedia/compare
+link integrity, no-portrait rendering) = 39 total, all in
+`e2e/person.visual.spec.ts`.
+
+**Verification, final.** `tsc --noEmit` clean · `vitest run` **420/420**
+(unchanged — no `src/core` file touched) · `next build --webpack` clean,
+**84 routes**, all 70 person pages still `●` SSG, static/dynamic split
+identical throughout every step of this stage · Playwright **53/53**
+(14 Landing + 39 Person), confirmed stable across repeated full runs ·
+zero console/page errors, zero horizontal overflow, zero clipped
+elements at any tested width/locale · confirmed gitignored: screenshots
+and playwright output; confirmed no stray files, no secrets, no auth/
+Supabase/scoring/dataset-content changes; confirmed Results/Compare/
+`layout.tsx` all at zero diff.
+
+**Anti-AI-template principle, applied not just declared** (see
+CLAUDE.md's dedicated section, adopted mid-stage at the user's explicit
+instruction, researched against current 2024-2026 design commentary
+before being written down): the hero + Known For pairing uses real
+content that already carried meaning (`ImpactBadge`'s glyph+label
+discipline predates this stage) rather than a decorative card added to
+fill space; no new gradient/shadow/radius pattern was introduced; both
+the Sources and Opposite Profile fixes *remove* an accidentally
+oversized bordered region rather than add a new one — the direction this
+principle argues for by default.
+
+**Stage 10D-2 is FORMALLY CLOSED, human-approved (2026-08)** — the
+Person Detail editorial layout, hero + Known For pairing, Sources width
+restraint, and Opposite Profile single-card width fix were explicitly
+approved against real screenshots, same closure discipline as every
+other stage in this project.
+
 ## Exact next task for a fresh session
 
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
-   result fidelity" and "Phase 10D-1"), this file, and `docs/deployment.md`
-   in full.
+   result fidelity", "Phase 10D-1", and "Phase 10D-2"), this file, and
+   `docs/deployment.md` in full.
 2. Phase 9 is closed and frozen — do not reopen it. Stage 10A, 10B, 10C,
-   and Phase 10D Stage 1 are all closed — do not redo their audits,
+   and Phase 10D Stages 1-2 are all closed — do not redo their audits,
    re-litigate the site-origin/historical-fidelity/auth-state/rail-
    breakpoint designs, repeat the git/GitHub/Vercel setup, redo the
    migration, redo the backfill, or re-run the Phase 10D layout audit.
-   **No Phase 10D stage beyond Stage 1 has begun** and none should start
+   **No Phase 10D stage beyond Stage 2 has begun** and none should start
    without a fresh, explicit decision — see the candidates below.
 3. **Reuse, don't rebuild**, for any future Phase 10D stage: the
    Playwright harness (`playwright.config.ts`, `e2e/utils/visualChecks.ts`)
-   and the "automate everything reasonably automatable before asking for
-   human validation" testing policy both apply going forward, not just to
-   Stage 1. The `Rail`/`IdentityHero` primitives (`src/ui/components/
-   layout.tsx`) already exist and are already wired into Results, Person,
-   and Compare (presentationally only, no visual change yet on those
-   three) — a future stage redesigns their composition using the
+   — now running against a production build, not `next dev`, see "Stage
+   10D-2 record" for why — and the "automate everything reasonably
+   automatable before asking for human validation" testing policy both
+   apply going forward, not just to Stages 1-2. The `Rail`/`IdentityHero`
+   primitives (`src/ui/components/layout.tsx`) already exist, are proven
+   unchanged since Stage 1 (zero diff), and are already wired into
+   Results and Compare (presentationally only, no visual change yet on
+   either) — a future stage redesigns their composition using the
    existing primitives, it does not re-extract them. The wide-desktop
    breakpoint is **≥1280px**, decided and shipped in Stage 1 — do not
-   reopen that decision without new evidence.
+   reopen that decision without new evidence. The "Anti-AI-template /
+   human-authored design principle" section in `CLAUDE.md` (adopted
+   during Stage 2) applies to every future visual decision, not only
+   Phase 10D — read it before any further layout or copy work.
 4. Candidates already on record for a future stage, each requiring its
    own fresh, explicit decision — none approved yet:
-   - Phase 10D Stage 2 (Person detail page wide composition), Stage 3
-     (Results + Saved Result), Stage 4 (Compare), Stage 5 (visual-
-     consistency micro-pass, kept separate from layout per the original
-     audit's own instruction) — see `CLAUDE.md`'s Phase 10D-1 section for
-     the reasoning behind this split.
+   - Phase 10D Stage 3 (Results + Saved Result), Stage 4 (Compare),
+     Stage 5 (visual-consistency micro-pass, kept separate from layout
+     per the original audit's own instruction) — see `CLAUDE.md`'s Phase
+     10D-1 section for the reasoning behind this split.
    - Full SEO pass, share cards/OG images, portraits pipeline,
      analytics, ads, and eventually a custom branded domain (would also
      require revisiting `NEXT_PUBLIC_SITE_URL` and the Supabase/Google

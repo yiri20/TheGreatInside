@@ -17,6 +17,7 @@ import {
   Heading,
   IdentityHero,
   PersonCard,
+  Rail,
   Stack,
   Text,
   TraitCard,
@@ -98,88 +99,112 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
 
         {/* Phase 10D-1: extracted into IdentityHero (src/ui/components/layout.tsx)
             — was a hand-written flex row duplicated across this page, results,
-            and compare. Rendered output here is unchanged; see that file's
-            doc comment for the extraction rationale and CLAUDE.md's "Layout
-            regression from the portrait hero" for why the width-tie fix
-            below matters. */}
-        <IdentityHero
-          {...(person.portrait ? { portraitUrl: person.portrait.url } : {})}
-          portraitWidth="12rem"
-          align="start"
-          {...(person.portrait?.width ? { portraitImgWidth: person.portrait.width } : {})}
-          {...(person.portrait?.height ? { portraitImgHeight: person.portrait.height } : {})}
-          {...(person.portrait
-            ? {
-                // Required by most free licences (e.g. CC BY-SA): the credit
-                // line is reproduced as given, not translated or paraphrased.
-                portraitCaption: (
-                  <Text tone="muted">
-                    {person.portrait.source}
-                    {person.portrait.attribution ? ` · ${person.portrait.attribution}` : ""} ·{" "}
-                    {person.portrait.licenseUrl ? (
-                      <a href={person.portrait.licenseUrl} target="_blank" rel="noreferrer">
-                        {person.portrait.license}
-                      </a>
-                    ) : (
-                      person.portrait.license
-                    )}
-                  </Text>
-                ),
-              }
-            : {})}
-        >
-          <Stack gap={3}>
-            <Eyebrow>
-              {[occupationLabel(locale, person.occupationIds[0]), t(locale, `era.${person.era}` as MessageKey)]
-                .filter(Boolean)
-                .join(" · ")}
-            </Eyebrow>
-            <Heading level={1} className="tgi-person-name">{personDisplayName(locale, person)}</Heading>
-            <Text tone="muted" className="tgi-numeric">
-              {formatLifespan(person.birthYear, person.deathYear, person.isLiving)}
-            </Text>
-            {polityText ? <Text tone="muted">{polityText}</Text> : null}
-            <ConfidenceIndicator confidence={person.overallProfileConfidence} locale={locale} />
-            {wikipediaUrl || person.externalIdentity?.wikidataId ? (
-              <Cluster gap={3}>
-                {wikipediaUrl ? (
-                  <a href={wikipediaUrl} target="_blank" rel="noreferrer">
-                    {t(locale, "person.wikipedia_link")}
-                  </a>
-                ) : null}
-                {person.externalIdentity?.wikidataId ? (
-                  <a
-                    href={`https://www.wikidata.org/wiki/${person.externalIdentity.wikidataId}`}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {t(locale, "person.wikidata_link")}
-                  </a>
-                ) : null}
-              </Cluster>
-            ) : null}
-            {/* Stage 7E: gated on isMatchEligible so an under-evidenced
-                profile (e.g. Zheng He) never offers a "Compare Yourself"
-                CTA that would just dead-end on /compare's own eligibility
-                check — the person stays fully browsable per this
-                project's "browsable but not matchable" rule, it just
-                doesn't advertise an action that can't complete. */}
-            {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
-          </Stack>
-        </IdentityHero>
+            and compare. IdentityHero itself is untouched this stage (Phase
+            10D-2) — see CLAUDE.md's "Layout regression from the portrait
+            hero" for why the width-tie fix inside it matters.
 
-        {person.impactDomains.length > 0 ? (
-          <Stack gap={2}>
-            <Heading level={3}>{t(locale, "person.known_for")}</Heading>
-            <Cluster gap={2}>
-              {person.impactDomains.map((domain) => (
-                <span key={domain} className="tgi-chip">
-                  {t(locale, `impact_domain.${domain}` as MessageKey)}
-                </span>
-              ))}
-            </Cluster>
-          </Stack>
-        ) : null}
+            Phase 10D-2: previously this hero stretched across the FULL
+            1280px container on its own — a 12rem portrait plus a short
+            name/meta column with nothing to its right, exactly the "large
+            visually unused region" the Phase 10D audit named. Now paired
+            with Known For (real, already-existing content, not invented)
+            as Rail's secondary region at >=1280px, using the same
+            `.tgi-rail--tight` modifier Landing introduced so the whole
+            identity block reads as one composed unit instead of the
+            secondary drifting to the container's far edge. Below 1280px
+            Rail collapses to one column and Known For renders directly
+            after the hero — the exact position and order it already
+            occupied before this change, so narrow/tablet is unaffected. */}
+        {(() => {
+          const hero = (
+            <IdentityHero
+              {...(person.portrait ? { portraitUrl: person.portrait.url } : {})}
+              portraitWidth="12rem"
+              align="start"
+              {...(person.portrait?.width ? { portraitImgWidth: person.portrait.width } : {})}
+              {...(person.portrait?.height ? { portraitImgHeight: person.portrait.height } : {})}
+              {...(person.portrait
+                ? {
+                    // Required by most free licences (e.g. CC BY-SA): the credit
+                    // line is reproduced as given, not translated or paraphrased.
+                    portraitCaption: (
+                      <Text tone="muted">
+                        {person.portrait.source}
+                        {person.portrait.attribution ? ` · ${person.portrait.attribution}` : ""} ·{" "}
+                        {person.portrait.licenseUrl ? (
+                          <a href={person.portrait.licenseUrl} target="_blank" rel="noreferrer">
+                            {person.portrait.license}
+                          </a>
+                        ) : (
+                          person.portrait.license
+                        )}
+                      </Text>
+                    ),
+                  }
+                : {})}
+            >
+              <Stack gap={3}>
+                <Eyebrow>
+                  {[occupationLabel(locale, person.occupationIds[0]), t(locale, `era.${person.era}` as MessageKey)]
+                    .filter(Boolean)
+                    .join(" · ")}
+                </Eyebrow>
+                <Heading level={1} className="tgi-person-name">{personDisplayName(locale, person)}</Heading>
+                <Text tone="muted" className="tgi-numeric">
+                  {formatLifespan(person.birthYear, person.deathYear, person.isLiving)}
+                </Text>
+                {polityText ? <Text tone="muted">{polityText}</Text> : null}
+                <ConfidenceIndicator confidence={person.overallProfileConfidence} locale={locale} />
+                {wikipediaUrl || person.externalIdentity?.wikidataId ? (
+                  <Cluster gap={3}>
+                    {wikipediaUrl ? (
+                      <a href={wikipediaUrl} target="_blank" rel="noreferrer">
+                        {t(locale, "person.wikipedia_link")}
+                      </a>
+                    ) : null}
+                    {person.externalIdentity?.wikidataId ? (
+                      <a
+                        href={`https://www.wikidata.org/wiki/${person.externalIdentity.wikidataId}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {t(locale, "person.wikidata_link")}
+                      </a>
+                    ) : null}
+                  </Cluster>
+                ) : null}
+                {/* Stage 7E: gated on isMatchEligible so an under-evidenced
+                    profile (e.g. Zheng He) never offers a "Compare Yourself"
+                    CTA that would just dead-end on /compare's own eligibility
+                    check — the person stays fully browsable per this
+                    project's "browsable but not matchable" rule, it just
+                    doesn't advertise an action that can't complete. */}
+                {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
+              </Stack>
+            </IdentityHero>
+          );
+
+          return person.impactDomains.length > 0 ? (
+            <Rail
+              className="tgi-rail--tight"
+              primary={hero}
+              secondary={
+                <Stack gap={2}>
+                  <Heading level={3}>{t(locale, "person.known_for")}</Heading>
+                  <Cluster gap={2}>
+                    {person.impactDomains.map((domain) => (
+                      <span key={domain} className="tgi-chip">
+                        {t(locale, `impact_domain.${domain}` as MessageKey)}
+                      </span>
+                    ))}
+                  </Cluster>
+                </Stack>
+              }
+            />
+          ) : (
+            hero
+          );
+        })()}
 
         <Divider />
 
@@ -228,7 +253,20 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
         {opposite ? (
           <Stack gap={4}>
             <Heading level={2}>{t(locale, "person.opposite_profile")}</Heading>
-            <Grid min="14rem">
+            {/* Phase 10D-2: this section always renders exactly ONE card
+                (selectOppositePerson returns at most one person) — `Grid`'s
+                auto-fit sizes its single column to 1fr when there's only
+                one item total, which at wide viewports stretched the card
+                to the full container width and, via PersonCard's fixed
+                4:5 portrait aspect-ratio, produced an enormous placeholder
+                block far taller than the rest of the page. Found by
+                inspecting a real wide-desktop screenshot, not assumed.
+                `Grid` was never the right primitive for a single item; a
+                plain width cap (matching the ~20rem a card naturally takes
+                in the multi-item grids elsewhere on this page) fixes it
+                without touching the shared `Grid`/`PersonCard` components
+                Results/Compare/the directory also use. */}
+            <div style={{ maxWidth: "20rem" }}>
               <PersonCard
                 name={personDisplayName(locale, opposite.person)}
                 {...(opposite.person.occupationIds[0]
@@ -244,12 +282,18 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
                 locale={locale}
                 {...(opposite.person.portrait ? { portraitUrl: opposite.person.portrait.url } : {})}
               />
-            </Grid>
+            </div>
           </Stack>
         ) : null}
 
         {person.sources.length > 0 ? (
-          <Card variant="sunken">
+          // Phase 10D-2: a citation list is inherently narrow content — at
+          // >=1280px this was previously a sunken Card stretched to the
+          // full 1280px container, one of the "giant empty card" cases the
+          // Phase 10D audit named. Capped with the same .tgi-measure-stack
+          // every other narrow block in the app already uses (quiz,
+          // account, error states), not a new pattern.
+          <Card variant="sunken" className="tgi-measure-stack">
             <Stack gap={3}>
               <Heading level={3}>{t(locale, "person.sources")}</Heading>
               <Stack gap={1} as="ul">
