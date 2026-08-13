@@ -664,3 +664,86 @@ details > summary:focus-visible {
 .tgi-details-body {
   padding-top: var(--tgi-space-4);
 }
+
+/* ------------------------------------------------------- editorial layout
+   Phase 10D-1. Two new composition primitives — see layout.tsx for the
+   accessibility contract (source order must never be reordered by CSS
+   `order`). The wide-desktop threshold is 1280px, matching
+   --tgi-container-max exactly: the production "dead horizontal space"
+   complaint this phase responds to was observed at >=1280px specifically,
+   and a single shared threshold (rather than a per-page ladder) keeps the
+   contract simple. Revisit only with live evidence a specific composition
+   is both safe and better narrower — see CLAUDE.md Phase 10D-1. */
+.tgi-rail {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--tgi-space-7);
+  align-items: start;
+}
+@media (min-width: 1280px) {
+  .tgi-rail {
+    /* Secondary is deliberately capped, not a second fluid column — a
+       restrained supporting rail, never a second equal-weight region. */
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem);
+  }
+}
+.tgi-rail__primary,
+.tgi-rail__secondary {
+  min-width: 0;
+}
+/* Modifier for pages whose primary column is itself prose-width content
+   (not a data grid wanting the full fluid 1fr) — without this, an
+   unconstrained 1fr track stretches to fill the whole container even
+   though the actual content inside it is much narrower, which pushes
+   .tgi-rail__secondary out to the container's far edge, disconnected from
+   primary by a wide dead gap instead of reading as one composition. Opt-in
+   per page (e.g. Landing) rather than the default, since a future
+   data-heavy primary region (comparison bars, a trait grid) may genuinely
+   want the unconstrained fr track. */
+@media (min-width: 1280px) {
+  .tgi-rail--tight {
+    max-width: 60rem;
+  }
+}
+/* Below the wide breakpoint .tgi-rail is single-column, so a
+   .tgi-measure-stack inside it should keep centering exactly as it does
+   everywhere else (this is what "preserve the current flow below the wide
+   breakpoint" means concretely). Once the rail actually splits into two
+   columns, centering the primary column inside its own cell would fight the
+   asymmetric composition instead of forming it, so it goes flush instead —
+   scoped via descendant selector so .tgi-measure-stack's definition and
+   every other use of it (quiz, account, error states, ...) is untouched. */
+@media (min-width: 1280px) {
+  .tgi-rail__primary .tgi-measure-stack {
+    margin-inline: 0;
+    max-width: 34rem;
+  }
+}
+
+.tgi-identity-hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--tgi-space-5);
+  align-items: center;
+}
+.tgi-identity-hero--align-start {
+  align-items: flex-start;
+}
+.tgi-identity-hero__portrait {
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.tgi-identity-hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--tgi-radius-lg);
+  display: block;
+}
+/* Same fix documented in CLAUDE.md ("Layout regression from the portrait
+   hero"): flex:1 claims the row's real remaining width instead of being
+   sized by content, and min-width:0 is what lets the name/heading wrap
+   properly instead of forcing the row wider than its container. */
+.tgi-identity-hero__info {
+  flex: 1 1 16rem;
+  min-width: 0;
+}

@@ -15,6 +15,7 @@ import {
   formatLifespan,
   Grid,
   Heading,
+  IdentityHero,
   PersonCard,
   Stack,
   Text,
@@ -95,99 +96,77 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
           ← {t(locale, "person.back_to_people")}
         </Button>
 
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "var(--tgi-space-5)", alignItems: "flex-start" }}>
-          {person.portrait ? (
-            // Fixed to the image's own width and never allowed to shrink below
-            // it (flexShrink: 0) or grow past it (flex-basis pinned to the
-            // wrapper's own width). Without this, the portrait column had no
-            // width tie to its 192px image at all: `.tgi-text`'s 68ch prose
-            // measure let the attribution caption size the whole column up to
-            // ~487px — nearly 2.5x the image — silently stealing the space the
-            // name column needed. See CLAUDE.md for the full diagnosis.
-            <div style={{ width: "12rem", maxWidth: "100%", flexShrink: 0 }}>
-              <Stack gap={2}>
-                {/* eslint-disable-next-line @next/next/no-img-element -- external,
-                    license-attributed image; next/image's optimiser can't proxy
-                    arbitrary third-party licensed sources without its own config. */}
-                <img
-                  src={person.portrait.url}
-                  alt=""
-                  {...(person.portrait.width ? { width: person.portrait.width } : {})}
-                  {...(person.portrait.height ? { height: person.portrait.height } : {})}
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    borderRadius: "var(--tgi-radius-lg)",
-                    display: "block",
-                  }}
-                />
-                {/* Required by most free licences (e.g. CC BY-SA): the credit
-                    line is reproduced as given, not translated or paraphrased.
-                    Now wraps within the 12rem column instead of ballooning past
-                    it, since the wrapper above constrains the available width
-                    before `.tgi-text`'s own (much wider) max-width ever applies. */}
-                <Text tone="muted">
-                  {person.portrait.source}
-                  {person.portrait.attribution ? ` · ${person.portrait.attribution}` : ""} ·{" "}
-                  {person.portrait.licenseUrl ? (
-                    <a href={person.portrait.licenseUrl} target="_blank" rel="noreferrer">
-                      {person.portrait.license}
-                    </a>
-                  ) : (
-                    person.portrait.license
-                  )}
-                </Text>
-              </Stack>
-            </div>
-          ) : null}
-
-          {/* flex: 1 claims whatever width the row actually has (rather than
-              being sized by its own content, which is what let the portrait
-              column push it down to 310px); minWidth: 0 is the standard fix
-              for flex items refusing to shrink below their content's
-              min-content — needed for the name to wrap properly instead of
-              forcing the row wider than the container. */}
-          <div style={{ flex: "1 1 16rem", minWidth: 0 }}>
-            <Stack gap={3}>
-              <Eyebrow>
-                {[occupationLabel(locale, person.occupationIds[0]), t(locale, `era.${person.era}` as MessageKey)]
-                  .filter(Boolean)
-                  .join(" · ")}
-              </Eyebrow>
-              <Heading level={1} className="tgi-person-name">{personDisplayName(locale, person)}</Heading>
-              <Text tone="muted" className="tgi-numeric">
-                {formatLifespan(person.birthYear, person.deathYear, person.isLiving)}
-              </Text>
-              {polityText ? <Text tone="muted">{polityText}</Text> : null}
-              <ConfidenceIndicator confidence={person.overallProfileConfidence} locale={locale} />
-              {wikipediaUrl || person.externalIdentity?.wikidataId ? (
-                <Cluster gap={3}>
-                  {wikipediaUrl ? (
-                    <a href={wikipediaUrl} target="_blank" rel="noreferrer">
-                      {t(locale, "person.wikipedia_link")}
-                    </a>
-                  ) : null}
-                  {person.externalIdentity?.wikidataId ? (
-                    <a
-                      href={`https://www.wikidata.org/wiki/${person.externalIdentity.wikidataId}`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {t(locale, "person.wikidata_link")}
-                    </a>
-                  ) : null}
-                </Cluster>
-              ) : null}
-              {/* Stage 7E: gated on isMatchEligible so an under-evidenced
-                  profile (e.g. Zheng He) never offers a "Compare Yourself"
-                  CTA that would just dead-end on /compare's own eligibility
-                  check — the person stays fully browsable per this
-                  project's "browsable but not matchable" rule, it just
-                  doesn't advertise an action that can't complete. */}
-              {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
-            </Stack>
-          </div>
-        </div>
+        {/* Phase 10D-1: extracted into IdentityHero (src/ui/components/layout.tsx)
+            — was a hand-written flex row duplicated across this page, results,
+            and compare. Rendered output here is unchanged; see that file's
+            doc comment for the extraction rationale and CLAUDE.md's "Layout
+            regression from the portrait hero" for why the width-tie fix
+            below matters. */}
+        <IdentityHero
+          {...(person.portrait ? { portraitUrl: person.portrait.url } : {})}
+          portraitWidth="12rem"
+          align="start"
+          {...(person.portrait?.width ? { portraitImgWidth: person.portrait.width } : {})}
+          {...(person.portrait?.height ? { portraitImgHeight: person.portrait.height } : {})}
+          {...(person.portrait
+            ? {
+                // Required by most free licences (e.g. CC BY-SA): the credit
+                // line is reproduced as given, not translated or paraphrased.
+                portraitCaption: (
+                  <Text tone="muted">
+                    {person.portrait.source}
+                    {person.portrait.attribution ? ` · ${person.portrait.attribution}` : ""} ·{" "}
+                    {person.portrait.licenseUrl ? (
+                      <a href={person.portrait.licenseUrl} target="_blank" rel="noreferrer">
+                        {person.portrait.license}
+                      </a>
+                    ) : (
+                      person.portrait.license
+                    )}
+                  </Text>
+                ),
+              }
+            : {})}
+        >
+          <Stack gap={3}>
+            <Eyebrow>
+              {[occupationLabel(locale, person.occupationIds[0]), t(locale, `era.${person.era}` as MessageKey)]
+                .filter(Boolean)
+                .join(" · ")}
+            </Eyebrow>
+            <Heading level={1} className="tgi-person-name">{personDisplayName(locale, person)}</Heading>
+            <Text tone="muted" className="tgi-numeric">
+              {formatLifespan(person.birthYear, person.deathYear, person.isLiving)}
+            </Text>
+            {polityText ? <Text tone="muted">{polityText}</Text> : null}
+            <ConfidenceIndicator confidence={person.overallProfileConfidence} locale={locale} />
+            {wikipediaUrl || person.externalIdentity?.wikidataId ? (
+              <Cluster gap={3}>
+                {wikipediaUrl ? (
+                  <a href={wikipediaUrl} target="_blank" rel="noreferrer">
+                    {t(locale, "person.wikipedia_link")}
+                  </a>
+                ) : null}
+                {person.externalIdentity?.wikidataId ? (
+                  <a
+                    href={`https://www.wikidata.org/wiki/${person.externalIdentity.wikidataId}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {t(locale, "person.wikidata_link")}
+                  </a>
+                ) : null}
+              </Cluster>
+            ) : null}
+            {/* Stage 7E: gated on isMatchEligible so an under-evidenced
+                profile (e.g. Zheng He) never offers a "Compare Yourself"
+                CTA that would just dead-end on /compare's own eligibility
+                check — the person stays fully browsable per this
+                project's "browsable but not matchable" rule, it just
+                doesn't advertise an action that can't complete. */}
+            {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
+          </Stack>
+        </IdentityHero>
 
         {person.impactDomains.length > 0 ? (
           <Stack gap={2}>

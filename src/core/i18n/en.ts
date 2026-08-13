@@ -355,6 +355,11 @@ export const en = {
   "landing.cta_secondary": "Explore the People First",
   "landing.ai_disclaimer":
     "Every result is calculated deterministically from your answers — no generative AI is involved in scoring or matching.",
+  // Phase 10D-1: label for the wide-desktop rail's secondary region — same
+  // "How this was calculated" naming convention as results.method.toggle,
+  // adapted to present tense since landing precedes any computed result.
+  // The disclaimer text itself (above) is unchanged.
+  "landing.method.eyebrow": "How It Works",
 
   "quiz.intro.eyebrow": "Before you begin",
   "quiz.intro.title": "A few honest answers",

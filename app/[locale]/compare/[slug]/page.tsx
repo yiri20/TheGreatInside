@@ -26,6 +26,7 @@ import {
   formatMatch,
   formatScore,
   Heading,
+  IdentityHero,
   ScoreBar,
   Stack,
   Text,
@@ -169,36 +170,26 @@ export default async function ComparePage({
         {/* ==================================================================== hero */}
         <Stack gap={5} as="section">
           <Eyebrow>{t(locale, "compare.hero.eyebrow", { person: targetName })}</Eyebrow>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "var(--tgi-space-5)", alignItems: "center" }}>
-            {target.portrait ? (
-              <div style={{ width: "8rem", maxWidth: "100%", flexShrink: 0 }}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={target.portrait.url}
-                  alt=""
-                  style={{ width: "100%", height: "auto", borderRadius: "var(--tgi-radius-lg)", display: "block" }}
-                />
+          {/* Phase 10D-1: extracted into IdentityHero — see that file's doc
+              comment. Rendered output unchanged. */}
+          <IdentityHero {...(target.portrait ? { portraitUrl: target.portrait.url } : {})}>
+            <Stack gap={2}>
+              <Heading level={1} className="tgi-person-name">{targetName}</Heading>
+              <Text tone="muted">
+                {[occupationLabel(locale, target.occupationIds[0]), t(locale, `era.${target.era}` as MessageKey)]
+                  .filter(Boolean)
+                  .join(" · ")}
+                {" · "}
+                {formatLifespan(target.birthYear, target.deathYear, target.isLiving)}
+              </Text>
+              <div>
+                <span className="tgi-numeric tgi-hero-score__value" style={{ fontSize: "var(--tgi-text-2xl)" }}>
+                  {formatMatch(result.overallMatch)}
+                </span>{" "}
+                <span className="tgi-text--muted">{t(locale, "label.profile_match")}</span>
               </div>
-            ) : null}
-            <div style={{ flex: "1 1 16rem", minWidth: 0 }}>
-              <Stack gap={2}>
-                <Heading level={1} className="tgi-person-name">{targetName}</Heading>
-                <Text tone="muted">
-                  {[occupationLabel(locale, target.occupationIds[0]), t(locale, `era.${target.era}` as MessageKey)]
-                    .filter(Boolean)
-                    .join(" · ")}
-                  {" · "}
-                  {formatLifespan(target.birthYear, target.deathYear, target.isLiving)}
-                </Text>
-                <div>
-                  <span className="tgi-numeric tgi-hero-score__value" style={{ fontSize: "var(--tgi-text-2xl)" }}>
-                    {formatMatch(result.overallMatch)}
-                  </span>{" "}
-                  <span className="tgi-text--muted">{t(locale, "label.profile_match")}</span>
-                </div>
-              </Stack>
-            </div>
-          </div>
+            </Stack>
+          </IdentityHero>
         </Stack>
 
         <Divider />

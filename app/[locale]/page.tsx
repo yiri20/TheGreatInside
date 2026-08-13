@@ -1,13 +1,24 @@
 import { notFound } from "next/navigation";
 import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { t } from "@core/i18n/index";
-import { Button, Cluster, Display, Eyebrow, Stack, Text } from "@ui/index";
+import { Button, Card, Cluster, Display, Eyebrow, Rail, Stack, Text } from "@ui/index";
 
 /**
- * Locale-scoped landing page (Phase 6). Replaces the placeholder root stub
- * at `app/page.tsx` now that there is a real quiz + results experience to
- * send people to — see that file's comment for why it stayed minimal until
- * now.
+ * Locale-scoped landing page (Phase 6; wide-desktop rail composition added
+ * Phase 10D-1). Replaces the placeholder root stub at `app/page.tsx` now
+ * that there is a real quiz + results experience to send people to — see
+ * that file's comment for why it stayed minimal until now.
+ *
+ * Phase 10D-1: below 1280px this renders exactly as before (a single
+ * centered `.tgi-measure-stack` column — `Rail` collapses to one column and
+ * the CSS scoped to `.tgi-rail__primary .tgi-measure-stack` only activates
+ * at the wide breakpoint, see components.css). At >=1280px the AI/no-
+ * generative-scoring disclaimer — previously the smallest, most easily
+ * skipped line on the page, trailing after two buttons — gets its own
+ * secondary region instead of being invented filler: it is real,
+ * already-authored content (`landing.ai_disclaimer`, CLAUDE.md's own "one
+ * rule") that is arguably underserved by its current bottom-of-stack
+ * position given how central it is to what this product actually is.
  */
 export default async function LandingPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: localeParam } = await params;
@@ -16,20 +27,32 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
 
   return (
     <main className="tgi-container" style={{ paddingTop: "5rem", paddingBottom: "6rem" }}>
-      <Stack gap={5} className="tgi-measure-stack">
-        <Eyebrow>{t(locale, "landing.eyebrow")}</Eyebrow>
-        <Display>{t(locale, "landing.title")}</Display>
-        <Text tone="secondary">{t(locale, "landing.subtitle")}</Text>
-        <Cluster gap={3}>
-          <Button href={`/${locale}/quiz`} size="lg">
-            {t(locale, "landing.cta_primary")}
-          </Button>
-          <Button href={`/${locale}/people`} variant="secondary" size="lg">
-            {t(locale, "landing.cta_secondary")}
-          </Button>
-        </Cluster>
-        <Text tone="muted">{t(locale, "landing.ai_disclaimer")}</Text>
-      </Stack>
+      <Rail
+        className="tgi-rail--tight"
+        primary={
+          <Stack gap={5} className="tgi-measure-stack">
+            <Eyebrow>{t(locale, "landing.eyebrow")}</Eyebrow>
+            <Display>{t(locale, "landing.title")}</Display>
+            <Text tone="secondary">{t(locale, "landing.subtitle")}</Text>
+            <Cluster gap={3}>
+              <Button href={`/${locale}/quiz`} size="lg">
+                {t(locale, "landing.cta_primary")}
+              </Button>
+              <Button href={`/${locale}/people`} variant="secondary" size="lg">
+                {t(locale, "landing.cta_secondary")}
+              </Button>
+            </Cluster>
+          </Stack>
+        }
+        secondary={
+          <Card variant="sunken">
+            <Stack gap={2}>
+              <Eyebrow>{t(locale, "landing.method.eyebrow")}</Eyebrow>
+              <Text tone="secondary">{t(locale, "landing.ai_disclaimer")}</Text>
+            </Stack>
+          </Card>
+        }
+      />
     </main>
   );
 }

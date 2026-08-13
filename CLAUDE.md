@@ -2640,15 +2640,19 @@ headline result of Phase 2, now extended by Phase 4.
     Bruce Lee ("브루스 리" vs. "이소룡") and Rumi ("루미," short form,
     vs. an unverifiable full transliteration) carry flagged, unresolved
     person-name ambiguities.
-12. **Phase 10 wide-desktop layout debt (flagged 2026-08, not
-    implemented):** at desktop widths around 1280px and above, the
-    landing/results/person/compare pages overuse a narrow centered
+12. **Phase 10 wide-desktop layout debt (flagged 2026-08) — Landing
+    resolved in Phase 10D Stage 1 (2026-08), see that section above;
+    Results/Person/Compare/Saved Result NOT yet redesigned.** At desktop
+    widths ≥1280px, those four pages still overuse a narrow centered
     single-column layout (`tgi-measure-stack`/`tgi-container`), leaving
-    too much dead horizontal space. Redesign target for Phase 10: a wider
-    editorial grid with multi-column/asymmetric composition, while
-    keeping readable text measures (`Text`'s existing 68ch cap) and
-    preserving the current restrained visual character — not a general
-    redesign, a wide-viewport composition fix.
+    dead horizontal space. The reusable primitives this needs
+    (`Rail`/`IdentityHero`, `src/ui/components/layout.tsx`) already exist
+    and are already wired into all three dynamic pages presentationally
+    (no visual change yet) — a future Phase 10D stage applies the actual
+    wide-desktop composition using them, it does not rebuild them. Keep
+    readable text measures (`Text`'s existing 68ch cap) and the current
+    restrained visual character — not a general redesign, a wide-viewport
+    composition fix, same instruction as before.
 13. ~~Results-page sign-in conversion CTA~~ **Implemented (Phase 10C,
     2026-08) — see that section below.** The CTA now only ever claims
     "saved" after directly observing its own save succeed for the exact
@@ -2974,6 +2978,146 @@ discipline as every other phase/stage in this project: the user's own
 live, first-hand confirmation on the real production deployment, not an
 agent's inference from tests or code review alone.
 
+## Phase 10D-1 — visual regression harness + editorial primitives +
+## landing (FORMALLY CLOSED, human-approved, 2026-08)
+
+Responds to "Known open issues" item 12 below: at wide desktop (≥1280px)
+the site overused a narrow centered single-column layout, leaving large
+amounts of dead horizontal space. An audit-first pass (no implementation)
+inspected every major surface and proposed a small reusable
+editorial-layout system rather than page-specific patches; that audit
+proposed activating the wide-desktop rail at **≥1024px**. Full stage
+record, including the audit itself, is in
+`docs/phase10-provisional-checkpoint.md`'s "Stage 10D-1 record" — this
+section is the durable summary.
+
+**Breakpoint decision, corrected record.** The ≥1024px figure the audit
+originally proposed was reviewed and **deliberately changed to ≥1280px**
+before any implementation began, on the explicit instruction that 1024px
+had not been demonstrated safe for a true asymmetric composition
+(particularly untested in Korean), and that the production complaint
+this stage responds to was observed at ≥1280px specifically. **The
+shipped implementation uses ≥1280px only, with no per-page breakpoint
+ladder.** This correction matters for the record: an earlier draft of
+this checkpoint could be misread as implying 1280px was the audit's own
+recommendation — it was not; 1280px is a deliberate review decision made
+in response to that audit, not a restatement of it.
+
+**Testing policy, adopted this stage and binding going forward:**
+exhaust all automatable verification — typecheck, unit/integration
+tests, production build, headless-browser E2E, responsive viewport
+checks, screenshots, console/network error inspection, route/link
+checks, EN/KO checks, keyboard/tab-order checks, overflow/wrapping
+checks — before ever asking for human validation. Human testing is
+requested only for what is genuinely unavailable to an agent (real OAuth
+consent, external authenticated dashboard actions, hardware interaction,
+subjective final visual/taste approval), and any such request must state
+why it can't be automated, what was already tested automatically, the
+minimum human action needed, and what evidence to return. Every Phase
+9/10 stage's "human E2E" already followed this discipline for
+auth-dependent flows this project cannot complete itself (Google
+consent, live Supabase writes); this stage makes it an explicit,
+general-purpose policy rather than something re-derived per stage.
+
+**1. Playwright visual-smoke harness — new.** No browser-automation
+framework existed in the repo before this stage. Added
+`@playwright/test`, **Chromium only** (a visual-smoke tool, not a
+cross-browser suite). `playwright.config.ts` runs the project's real
+`next dev --webpack` (Turbopack cannot resolve this project's `.js`
+specifiers pointing at `.ts` files — see "Stack" below — so the harness
+must match `pnpm dev`/`pnpm build`'s own `--webpack` flag) on a
+dedicated port. `e2e/utils/visualChecks.ts` holds reusable,
+page-agnostic assertions (horizontal-overflow, clipped-element,
+console/page-error capture, bounded prose measure, DOM-order-vs-tab-order
+comparison) meant for reuse by future Phase 10D stages, not just this
+one. `e2e/landing.visual.spec.ts` — this stage's actual coverage — tests
+both launch locales × six viewports (390/768/1024/1280/1600/1920px):
+**14/14 passing**. Screenshots write to `test-artifacts/screenshots/`
+(gitignored, regenerated per run, never committed as baselines).
+
+**2. Two structural primitives, `src/ui/components/layout.tsx`** — pure
+presentational, zero `src/core` coupling, zero auth/cookies, safe to use
+from a statically-generated page exactly as safely as a dynamic one:
+- **`Rail`** — asymmetric primary/secondary composition, single column
+  below 1280px, two columns at ≥1280px. Primary renders before secondary
+  in the DOM and CSS never reorders them (grid auto-placement, not
+  `order`) — verified by an automated tab-order test, not just asserted.
+  A `.tgi-rail--tight` opt-in modifier caps total width so a
+  narrow-content secondary region sits close to primary instead of
+  drifting to the container's far edge with a disconnected gap — found
+  by inspecting an actual screenshot (the automated overflow/clipping
+  checks correctly saw nothing wrong either way, since a large gap isn't
+  overflow). Opt-in, not the default, since a future data-heavy primary
+  region may legitimately want the unconstrained fluid column.
+- **`IdentityHero`** — the shared "portrait + identity column" shell,
+  extracted from three places that had independently hand-written the
+  same flex row (Results' closest-match card, the Person detail page
+  hero, the Compare page hero) — including the portrait-column
+  width-tie fix documented below under "External identity & media
+  metadata," which had been discovered and fixed three times
+  independently before this extraction existed. Deliberately does not
+  prescribe info-column content — each call site's real content mix
+  (eyebrow/heading level/meta line/links/CTA) differs, and only the
+  structural shell was duplicated, not the content.
+
+**Extraction verified safe before any visual change was made**:
+`IdentityHero` was wired into Results, Person, and Compare with **zero
+rendered-output change**, then confirmed — `tsc --noEmit` clean,
+`vitest run` 420/420 unchanged, `pnpm build --webpack` clean at **84
+routes with the identical static/dynamic split** (all 70 Person pages
+still `●` SSG, Results/Compare/Account/`/auth/callback` still `ƒ`
+dynamic — the exact regression class Stage 9D hit once already) — only
+after that did the Landing redesign begin.
+
+**3. Landing — the only page visually redesigned this stage.** Below
+1280px, structurally unchanged. At ≥1280px, `Rail` splits the page:
+headline/subtitle/CTAs stay primary/left, and the existing
+`landing.ai_disclaimer` copy — this file's own "one rule," previously
+the smallest, easiest-to-skip line on the page — becomes a genuine
+secondary region: real, already-authored content given real visual
+weight, not filler added because space existed. One small,
+human-approved content addition: a new label above that card, **"How It
+Works" (EN) / "작동 방식" (KO)** (`landing.method.eyebrow`, both
+locales), matching the existing `results.method.toggle` naming
+convention. One deliberate design call, not literal pixel-for-pixel
+narrow-width preservation: below 1280px the disclaimer now renders
+inside the same small labelled card as at wide desktop, rather than the
+plain muted trailing line it was before — reasoned through explicitly
+(duplicating the text in the DOM for a breakpoint-only treatment would
+hurt screen readers; one coherent treatment at every width was judged
+better than two divergent ones) and approved directly against real
+screenshots, not silently decided.
+
+**4. Incidental finding, fixed: Next.js 16 was silently mutating
+CLAUDE.md.** `next dev`/`next build` auto-append a generic "agent rules"
+boilerplate block to this file on every run
+(`node_modules/next/dist/server/lib/generate-agent-files.js`) — caught
+as an unexpected uncommitted diff to this project's most carefully
+hand-curated file. Reverted the pollution and set `agentRules: false` in
+`next.config.mjs` specifically to stop this from recurring silently:
+this file is edited deliberately and reviewed line by line per its own
+header, and an auto-injected block is exactly what that discipline
+exists to prevent. Confirmed fixed by a full rebuild leaving this file
+at zero diff.
+
+**Verification.** `tsc --noEmit` clean · `vitest run` **420/420**
+(unchanged — no `src/core` file touched) · `pnpm build --webpack` clean,
+**84 routes**, static/dynamic split identical throughout · Playwright
+**14/14** · zero console/page errors, zero horizontal overflow, zero
+clipped elements at any tested width/locale · confirmed gitignored:
+`test-artifacts/`, `/playwright-report/`, `/blob-report/`,
+`/test-results/`; no `.env*` file tracked beyond the pre-existing
+`.env.example` template.
+
+**Phase 10D Stage 1 is FORMALLY CLOSED, human-approved (2026-08)** — the
+Landing composition and the "How It Works" / "작동 방식" treatment were
+explicitly approved against real screenshots. No Phase 10D stage beyond
+this one has begun; Person, Results, Saved Result, Compare, and Account
+remain unredesigned (Results, Person, and Compare already use
+`IdentityHero` presentationally, with no visual change yet). No auth,
+Supabase, result-snapshot, algorithm, SEO, portraits, analytics, ads, or
+dataset code was touched.
+
 ## Roadmap
 
 Phase 0 architecture ✓ · 1 design system ✓ · 2 dataset to 30+ ✓ (see open issue
@@ -3160,12 +3304,29 @@ saving automatically with a real `result_snapshot`, multi-result and
 dedup behavior, and the auth-state fix — is confirmed passed, same
 closure discipline as every other stage in this project (the user's own
 live confirmation, not an agent's inference). Preserve the broader
-Phase 10 boundaries going forward: no wide-desktop redesign, no
-portraits pipeline, no ads, no analytics, no share cards, no full SEO
-pass, no invented privacy-policy/business facts, no custom domain — none
-of these are started, and no further Phase 10 stage begins without its
-own fresh, explicit decision. Full record in
-`docs/phase10-provisional-checkpoint.md`.
+Phase 10 boundaries going forward: no portraits pipeline, no ads, no
+analytics, no share cards, no full SEO pass, no invented
+privacy-policy/business facts, no custom domain — none of these are
+started, and no further Phase 10 stage begins without its own fresh,
+explicit decision. Full record in `docs/phase10-provisional-checkpoint.md`.
+**Phase 10D Stage 1 (Visual Regression Harness + Editorial Primitives +
+Landing) is FORMALLY CLOSED, human-approved (2026-08)** — see "Phase
+10D-1" above for the full record: a new Playwright visual-smoke harness
+(Chromium only, `e2e/`), a "automate everything reasonably automatable
+before asking for human validation" testing policy adopted going
+forward, two new presentational layout primitives (`Rail`/`IdentityHero`,
+`src/ui/components/layout.tsx`) with the wide-desktop breakpoint set at
+**≥1280px** (a deliberate review correction of the originating audit's
+own ≥1024px proposal, not a restatement of it), `IdentityHero` wired
+into Results/Person/Compare with zero rendered-output change (verified
+before any visual work began), and Landing's wide-desktop rail
+composition — the only page actually redesigned this stage. `tsc`/
+`vitest` (**420/420**)/`build` (**84 routes**, static/dynamic split
+unchanged) all clean, Playwright **14/14**. Person, Results, Saved
+Result, Compare, and Account remain unredesigned and require their own
+fresh, explicit decisions to begin (see "Known open issues" item 12 and
+`docs/phase10-provisional-checkpoint.md`'s "Exact next task" for
+candidate stages 10D-2 through 10D-5).
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 

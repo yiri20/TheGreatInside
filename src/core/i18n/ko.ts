@@ -422,6 +422,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "landing.cta_secondary": "먼저 인물들 둘러보기",
   "landing.ai_disclaimer":
     "모든 결과는 당신의 답변으로부터 결정적으로 계산됩니다 — 점수 산출이나 매칭 과정에 생성형 AI는 사용되지 않습니다.",
+  "landing.method.eyebrow": "작동 방식",
 
   "quiz.intro.eyebrow": "시작하기 전에",
   "quiz.intro.title": "솔직한 답변이면 충분합니다",

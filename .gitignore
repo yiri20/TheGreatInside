@@ -11,3 +11,10 @@ coverage/
 Thumbs.db
 /tmp/
 /.vercel
+
+# Playwright visual-smoke harness (Phase 10D-1) — screenshots/traces/reports
+# are regenerated on every run, not committed baselines. See e2e/README.md.
+/test-artifacts/
+/playwright-report/
+/blob-report/
+/test-results/

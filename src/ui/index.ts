@@ -27,6 +27,8 @@ export {
 
 export type { SelectOption } from "./components/primitives.js";
 
+export { IdentityHero, Rail } from "./components/layout.js";
+
 export {
   ComparisonBar,
   ConfidenceIndicator,

@@ -24,6 +24,7 @@ import {
   formatPotential,
   Grid,
   Heading,
+  IdentityHero,
   Numeric,
   PersonCard,
   ScoreBar,
@@ -154,35 +155,25 @@ export default async function ResultsPage({
             <Heading level={2}>{t(locale, "label.closest_match")}</Heading>
             <Card variant="feature">
               <Stack gap={4}>
-                <div style={{ display: "flex", flexWrap: "wrap", gap: "var(--tgi-space-5)", alignItems: "center" }}>
-                  {closest.person.portrait ? (
-                    <div style={{ width: "8rem", maxWidth: "100%", flexShrink: 0 }}>
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={closest.person.portrait.url}
-                        alt=""
-                        style={{ width: "100%", height: "auto", borderRadius: "var(--tgi-radius-lg)", display: "block" }}
-                      />
+                {/* Phase 10D-1: extracted into IdentityHero — see that
+                    file's doc comment. Rendered output unchanged. */}
+                <IdentityHero {...(closest.person.portrait ? { portraitUrl: closest.person.portrait.url } : {})}>
+                  <Stack gap={2}>
+                    <Heading level={3} className="tgi-person-name">{personDisplayName(locale, closest.person)}</Heading>
+                    <Text tone="muted">
+                      {[
+                        occupationLabel(locale, closest.person.occupationIds[0]),
+                        t(locale, `era.${closest.person.era}` as MessageKey),
+                      ]
+                        .filter(Boolean)
+                        .join(" · ")}
+                    </Text>
+                    <div>
+                      <span className="tgi-personcard__match-value tgi-numeric">{formatMatch(closest.overallMatch)}</span>{" "}
+                      <span className="tgi-text--muted">{t(locale, "label.profile_match")}</span>
                     </div>
-                  ) : null}
-                  <div style={{ flex: "1 1 16rem", minWidth: 0 }}>
-                    <Stack gap={2}>
-                      <Heading level={3} className="tgi-person-name">{personDisplayName(locale, closest.person)}</Heading>
-                      <Text tone="muted">
-                        {[
-                          occupationLabel(locale, closest.person.occupationIds[0]),
-                          t(locale, `era.${closest.person.era}` as MessageKey),
-                        ]
-                          .filter(Boolean)
-                          .join(" · ")}
-                      </Text>
-                      <div>
-                        <span className="tgi-personcard__match-value tgi-numeric">{formatMatch(closest.overallMatch)}</span>{" "}
-                        <span className="tgi-text--muted">{t(locale, "label.profile_match")}</span>
-                      </div>
-                    </Stack>
-                  </div>
-                </div>
+                  </Stack>
+                </IdentityHero>
                 {(() => {
                   const line = closestMatchExplanation(locale, closest.closestTraits, personDisplayName(locale, closest.person));
                   return line ? <Text tone="secondary">{line}</Text> : null;
