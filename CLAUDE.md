@@ -3224,6 +3224,89 @@ remain unredesigned (Results, Person, and Compare already use
 Supabase, result-snapshot, algorithm, SEO, portraits, analytics, ads, or
 dataset code was touched.
 
+**2026-08 mobile-polish follow-up (narrow scope, Landing only, human-
+approved).** The approved wide-desktop (≥1280px) composition above was
+never in question; the follow-up addressed a mobile-only rhythm problem
+found after Stage 1 shipped — headline, primary CTA, secondary CTA, and
+the How It Works card all read as similarly-weighted large rounded
+elements stacked in sequence below 1280px, the generic "giant/giant/
+giant/giant" AI-template rhythm the project's own design principle
+warns against (see "Anti-AI-template" section above, adopted the same
+week). Fixed with three changes, every one scoped to a Landing-only CSS
+class (`.tgi-landing-headline` / `.tgi-landing-cta-secondary` /
+`.tgi-landing-howitworks`) that does nothing at ≥1280px, so the shared
+`.tgi-display`/`.tgi-button--secondary`/`.tgi-card` definitions Person,
+Results, and Account also depend on are provably untouched — confirmed
+by their zero diff, not merely by not editing those files:
+- **Headline**: 56px → 50px below 1280px only (≈11% reduction) — still
+  the dominant element, just no longer consuming the whole first
+  viewport on its own.
+- **Secondary CTA** ("Browse People First" / "먼저 인물들 둘러보기"):
+  below 1280px, sheds its outlined-pill chrome for a restrained text
+  link + decorative arrow (`aria-hidden`), while mechanically keeping a
+  44px+ tap target (`min-height` preserved, only the visible chrome
+  removed). At ≥1280px the class does nothing, so the pill treatment is
+  pixel-identical to the original Stage 1 approval.
+- **How It Works**: below 1280px, the sunken-card background/border/
+  shadow/radius/padding are stripped in favour of a single quiet
+  top-rule divider — an editorial note rather than a UI card echoing
+  the two buttons above it. At ≥1280px, unchanged sunken card.
+
+**Korean headline copy revisited in the same follow-up, resolved
+through two rounds of comparison, not a single guess.** The original
+`quiz.v1`-era Korean headline, "역사 속 누가 당신과 비슷하게
+생각할까요?" ("who in history thinks similarly to you"), wrapped to 4
+lines at 390px against English's 2 — a real, measured disproportion
+(230px vs 115px block height, ~2.0×), not merely a subjective
+impression. Two Korean rewrites were compared, both evaluated for
+native-Korean quality, not just line count:
+- Candidate A, "역사 속 누가 당신처럼 생각할까요?" ("who thinks like
+  you") — grammatically natural (처럼 is the standard comparison
+  particle) but its sentence architecture maps almost 1:1 onto the
+  English original's own subject→comparison→verb shape; competent
+  Korean, not distinctively native-feeling. Wrapped to 3 lines
+  (172.5px, 1.5× English) purely from being shorter than the original.
+- **Candidate B, "역사 속 누구와 생각이 닮았을까요?" ("whose thinking
+  resembles yours") — the one actually shipped.** Built around "생각이
+  닮다," an idiom Koreans use in ordinary warm speech ("우리 생각이
+  닮았네" — "we think alike"), making "생각" (thinking) the grammatical
+  subject rather than "당신" (you) the object of comparison — a
+  distinctly Korean sentence shape, not a transplant of the English
+  one, and it drops "당신을 위한"-style direct address entirely, which
+  reads as generic Korean marketing copy when overused. Tone is more
+  reflective/literary, a better fit for this product's editorial/
+  historical identity than a personality-quiz one. Semantically
+  equivalent to A (mutual resemblance vs. one-directional "thinks like
+  you" — both preserve the core promise fully; resemblance is
+  inherently mutual, so B is arguably the more precise match to what
+  `matching_v2` actually computes, a symmetric similarity, though this
+  was a minor supporting point, not the deciding one).
+
+**Measured, not assumed equal**: Candidate B wraps to the exact same
+3-line/172.5px block as Candidate A at 390px, and 2 lines at both 768px
+and 1280px — the copy swap between A and B was rhythm-neutral, decided
+entirely on editorial-quality grounds. **No KO-specific font-size
+adjustment was applied or is believed necessary**: the remaining 1.5×
+block-height difference between English (2 lines) and Korean (3 lines)
+at the same 50px size was judged, from the actual rendered screenshots,
+to be normal cross-language variation rather than disproportion —
+shrinking Korean further to force a closer match would risk making it
+read as visually subordinate to English, which cuts against "equivalent
+visual emphasis, not identical numeric font sizes" (this section's own
+principle, stated during the review that produced this decision).
+`landing.title` in `ko.ts` now reads "역사 속 누구와 생각이
+닮았을까요?"; `en.ts`'s `landing.title` was never touched.
+
+Verified: `tsc --noEmit` clean, `vitest run` 420/420 (unchanged),
+`pnpm build --webpack` clean at 84 routes (unchanged split), Playwright
+56/56 (17 Landing + 39 Person, the Person suite re-run as a full-suite
+regression check even though this follow-up never touched Person code).
+Confirmed zero diff on every Person/Results/Compare/Account file and on
+`src/ui/components/layout.tsx` throughout. **Both the mobile rhythm
+fix and the final Korean headline copy were explicitly approved against
+real screenshots**, same closure discipline as every other visual
+decision in this project.
+
 ## Phase 10D-2 — Person Detail editorial layout (FORMALLY CLOSED,
 ## human-approved, 2026-08)
 

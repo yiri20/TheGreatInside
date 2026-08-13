@@ -720,6 +720,69 @@ details > summary:focus-visible {
   }
 }
 
+/* ------------------------------------------------- Landing mobile polish
+   Phase 10D-1 follow-up. Narrow-viewport-only refinements — every rule here
+   is scoped to a Landing-specific class (never a bare .tgi-display/
+   .tgi-button/.tgi-card selector), so nothing here can leak into Person,
+   Results, Account, or any other page that shares those base classes. At
+   >=1280px none of these rules apply at all, so the already-approved wide
+   desktop composition is untouched by construction, not by care alone. */
+
+/* 1. Headline: modestly smaller below the wide breakpoint (56px -> 50px,
+   ~11%) so the description and primary action connect within the first
+   viewport instead of the headline alone consuming it. Still the largest,
+   boldest thing on the page — this is a size trim, not a demotion. */
+@media (max-width: 1279px) {
+  .tgi-landing-headline {
+    font-size: 3.125rem;
+  }
+}
+
+/* 2. Secondary CTA: at >=1280px this class does nothing, so the button
+   keeps its current approved outlined-pill treatment unchanged. Below
+   1280px it sheds button chrome for a restrained text-link + arrow —
+   still a real 44px+ tap target (min-height preserved, chrome removed
+   rather than the box shrunk), just visually subordinate to the solid
+   primary CTA next to it instead of an equally heavy second pill. */
+.tgi-landing-cta-secondary__arrow {
+  display: none;
+}
+@media (max-width: 1279px) {
+  .tgi-landing-cta-secondary {
+    background: transparent;
+    border-color: transparent;
+    padding-inline: var(--tgi-space-2);
+  }
+  .tgi-landing-cta-secondary:hover:not([disabled]) {
+    border-color: transparent;
+    background: transparent;
+    text-decoration: underline;
+  }
+  .tgi-landing-cta-secondary__arrow {
+    display: inline;
+  }
+}
+
+/* 3. "How It Works": at >=1280px this class does nothing, so the sunken
+   card treatment in the wide-desktop secondary rail is pixel-identical to
+   the already-approved composition. Below 1280px it reads as an editorial
+   note instead of a UI card echoing the two buttons above it — background/
+   border/shadow/radius/padding all stripped, a quiet top rule stands in
+   for the card boundary. Two classes on the selector (not one) so this
+   reliably wins over BOTH .tgi-card and .tgi-card--sunken regardless of
+   source order, rather than relying on a specificity tie-break. */
+@media (max-width: 1279px) {
+  .tgi-card.tgi-landing-howitworks {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    padding-top: var(--tgi-space-4);
+    border-top: var(--tgi-border-width) solid var(--tgi-rule);
+  }
+}
+
 .tgi-identity-hero {
   display: flex;
   flex-wrap: wrap;

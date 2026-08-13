@@ -536,6 +536,69 @@ component this time (no auth/Supabase/algorithm/dataset code was
 touched, so there was nothing requiring a live-deployment human check
 the way Phase 9's OAuth flow or Phase 10C's save pipeline did).
 
+### Stage 10D-1 mobile-polish follow-up (2026-08, human-approved)
+
+Narrow, Landing-only follow-up requested after Stage 10D-1 closed —
+recorded here rather than as its own numbered stage since it's a
+refinement of an already-approved composition, not new scope. Full
+narrative in `CLAUDE.md`'s "Phase 10D-1" section (the "2026-08
+mobile-polish follow-up" paragraph); this is the checkpoint-level
+summary for a fresh session.
+
+**Problem**: below 1280px, headline/primary-CTA/secondary-CTA/How-It-
+Works all read as similarly-weighted large rounded elements in
+sequence — the generic AI-template rhythm the project's own design
+principle (adopted the same week) warns against.
+
+**Fix, three Landing-scoped CSS classes, each inert at ≥1280px**
+(`.tgi-landing-headline`, `.tgi-landing-cta-secondary`,
+`.tgi-landing-howitworks`) — confirmed by zero diff on every file the
+shared `.tgi-display`/`.tgi-button--secondary`/`.tgi-card` definitions
+also govern (Person, Results, Account):
+1. Headline 56px → 50px below 1280px only (~11%).
+2. Secondary CTA sheds pill chrome for a text-link + arrow below
+   1280px, keeping a real 44px+ tap target mechanically (not just
+   visually) preserved.
+3. How It Works loses its card background/border/shadow/radius below
+   1280px in favour of a single top-rule divider.
+
+**Korean headline copy — resolved via two compared candidates, not one
+guess.** Original ("역사 속 누가 당신과 비슷하게 생각할까요?") measured
+a real 2.0× block-height disproportion against English at 390px (230px
+vs. 115px), not just a subjective impression. Candidate A ("역사 속
+누가 당신처럼 생각할까요?") fixed the length but kept English's own
+subject→comparison→verb sentence shape. **Candidate B ("역사 속 누구와
+생각이 닮았을까요?"), the one shipped**, restructures around "생각이
+닮다" — a genuinely idiomatic Korean phrase for "our thinking resembles"
+— making "생각" the grammatical subject rather than "당신" the object of
+comparison; more reflective in tone, better editorial fit, and avoids
+the overused "당신을 위한" Korean-marketing-copy pattern. A and B
+measured identically (3 lines/172.5px at 390px, 2 lines at 768/1280px)
+— the choice between them was decided entirely on native-Korean quality
+and brand fit, not rhythm, since rhythm was already a tie.
+
+**No KO-specific font-size adjustment applied.** The remaining 1.5×
+block-height difference between English (2 lines) and Korean (3 lines)
+at the same 50px was judged, from the actual screenshots, to be normal
+cross-language variation, not disproportion — shrinking Korean further
+would risk reading as visually subordinate to English, against this
+project's own "equivalent visual emphasis, not identical metrics"
+principle articulated during this review.
+
+**Verification**: `tsc --noEmit` clean, `vitest run` 420/420
+(unchanged), `next build --webpack` clean at 84 routes (split
+unchanged), Playwright **56/56** (17 Landing + 39 Person, Person
+re-run as a full-suite regression check though untouched by this
+follow-up). Confirmed zero diff on every Person/Results/Compare/Account
+file and on `src/ui/components/layout.tsx`. Files touched:
+`app/[locale]/page.tsx`, `src/ui/styles/components.css`,
+`src/core/i18n/ko.ts` (one string), `e2e/landing.visual.spec.ts`.
+
+**Human-approved (2026-08)**: both the mobile rhythm fix and the final
+Korean headline copy were explicitly approved against real screenshots
+across two rounds of comparison (mobile-polish visual review, then a
+dedicated Korean copy A/B review).
+
 ## Stage 10D-2 record (2026-08) — Person Detail Editorial Layout, FORMALLY CLOSED, human-approved
 
 Second Phase 10D stage, applying the Stage 1 primitives (`Rail`,

@@ -415,7 +415,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "compare.person_not_found.cta": "전체 인물 보기",
 
   "landing.eyebrow": "The Great Inside",
-  "landing.title": "역사 속 누가 당신과 비슷하게 생각할까요?",
+  "landing.title": "역사 속 누구와 생각이 닮았을까요?",
   "landing.subtitle":
     "생각하고, 만들고, 일하고, 결정을 내리는 방식에 대한 질문에 답해보세요. 당신의 프로필을 35명의 비범한 인물들과 비교해, 실제로 누구와 가장 닮았는지 보여드립니다.",
   "landing.cta_primary": "설문 시작하기",

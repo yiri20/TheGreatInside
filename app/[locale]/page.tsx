@@ -19,6 +19,13 @@ import { Button, Card, Cluster, Display, Eyebrow, Rail, Stack, Text } from "@ui/
  * already-authored content (`landing.ai_disclaimer`, CLAUDE.md's own "one
  * rule") that is arguably underserved by its current bottom-of-stack
  * position given how central it is to what this product actually is.
+ *
+ * Phase 10D-1 mobile-polish follow-up: three narrow-viewport-only
+ * refinements (headline size, secondary-CTA weight, How It Works
+ * treatment), each via a Landing-scoped class that does nothing at
+ * >=1280px — see components.css's "Landing mobile polish" block for the
+ * full reasoning. Content, DOM order, and the wide-desktop composition are
+ * all unchanged; this is presentation-only, narrow-viewport rhythm work.
  */
 export default async function LandingPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: localeParam } = await params;
@@ -32,20 +39,29 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
         primary={
           <Stack gap={5} className="tgi-measure-stack">
             <Eyebrow>{t(locale, "landing.eyebrow")}</Eyebrow>
-            <Display>{t(locale, "landing.title")}</Display>
+            <Display className="tgi-landing-headline">{t(locale, "landing.title")}</Display>
             <Text tone="secondary">{t(locale, "landing.subtitle")}</Text>
             <Cluster gap={3}>
               <Button href={`/${locale}/quiz`} size="lg">
                 {t(locale, "landing.cta_primary")}
               </Button>
-              <Button href={`/${locale}/people`} variant="secondary" size="lg">
+              <Button
+                href={`/${locale}/people`}
+                variant="secondary"
+                size="lg"
+                className="tgi-landing-cta-secondary"
+              >
                 {t(locale, "landing.cta_secondary")}
+                <span aria-hidden="true" className="tgi-landing-cta-secondary__arrow">
+                  {" "}
+                  →
+                </span>
               </Button>
             </Cluster>
           </Stack>
         }
         secondary={
-          <Card variant="sunken">
+          <Card variant="sunken" className="tgi-landing-howitworks">
             <Stack gap={2}>
               <Eyebrow>{t(locale, "landing.method.eyebrow")}</Eyebrow>
               <Text tone="secondary">{t(locale, "landing.ai_disclaimer")}</Text>
