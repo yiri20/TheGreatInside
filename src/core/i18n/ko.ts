@@ -235,6 +235,9 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "auth.sign_in": "로그인",
   "auth.sign_out": "로그아웃",
   "auth.account": "계정",
+  // 공용 인라인 로그인 CTA 라벨 (Phase 10C 프로덕션 E2E 이후) — /account의
+  // 로그아웃 상태와 /account/results/[id]의 로그인 필요 상태에서 함께 사용.
+  "auth.sign_in_with_google": "Google로 로그인",
   "locale_switcher.label": "언어 변경",
 
   // Reworded Stage 10C-B (Phase 6.6), matching en.ts — removed the
@@ -315,6 +318,12 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "account.results.unavailable.body":
     "이 결과는 전체 스냅샷을 저장하기 전에 저장되어 원래 그대로 다시 볼 수 없습니다. 최신 결과를 보려면 설문을 다시 진행해 주세요.",
   "account.results.cta.retake": "설문 다시 하기",
+
+  // Phase 10C 프로덕션 E2E에서 발견/수정: 로그아웃 직후 등 로그인하지 않은
+  // 상태에서는 이 문구를 보여줘야 함 — account.results.not_found.*는
+  // "결과가 없거나 다른 계정 것"이라는 잘못된 인상을 줌.
+  "account.results.auth_required.title": "로그인이 필요해요",
+  "account.results.auth_required.body": "저장된 결과를 보려면 다시 로그인하세요.",
 
   // 아직 어디에도 렌더링되지 않음 — Phase 7의 compare.cta.from_results와
   // 같은 패턴("사용할 UI가 만들어지기 전에 문구부터 확정"). 상세 배경은

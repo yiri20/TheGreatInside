@@ -171,6 +171,10 @@ export const en = {
   "auth.sign_in": "Sign in",
   "auth.sign_out": "Sign out",
   "auth.account": "Account",
+  // Shared inline sign-in CTA label (Phase 10C post-E2E) — used by both
+  // /account's signed-out state and /account/results/[id]'s auth-required
+  // state, one key rather than two copies of the same string.
+  "auth.sign_in_with_google": "Sign in with Google",
   "locale_switcher.label": "Change language",
 
   // Reworded Stage 10C-B (Phase 6.6) — "Most people land closer to..." read
@@ -251,6 +255,13 @@ export const en = {
   "account.results.unavailable.body":
     "This result was saved before we could store a full snapshot of it, so it can't be faithfully reopened. Retake the quiz for a current result.",
   "account.results.cta.retake": "Retake the Quiz",
+
+  // Phase 10C post-E2E fix: a signed-out visitor on a saved-result page
+  // (e.g. right after clicking Sign out) must see this, never
+  // account.results.not_found.* — that copy falsely implies the result
+  // doesn't exist or belongs to someone else.
+  "account.results.auth_required.title": "Sign in required",
+  "account.results.auth_required.body": "Sign in to view your saved result.",
 
   // Authored, not yet rendered anywhere — same "prepared ahead of the UI
   // that will use it" pattern as compare.cta.from_results was at Phase 7.

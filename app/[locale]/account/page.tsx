@@ -5,6 +5,8 @@ import { t } from "@core/i18n/index";
 import { getCurrentUser } from "@lib/supabase/getUser";
 import { createClient } from "@lib/supabase/server";
 import { fetchSavedResults } from "@lib/results/fetchSavedResults";
+import { resolveAccountPageState } from "@lib/results/accountPageState";
+import { GoogleSignInCta } from "./GoogleSignInCta";
 import { Button, Card, Cluster, Display, Eyebrow, Heading, Stack, Text } from "@ui/index";
 
 /**
@@ -51,6 +53,9 @@ export default async function AccountPage({ params }: { params: Promise<PagePara
           <Eyebrow>{t(locale, "site.name")}</Eyebrow>
           <Heading level={1}>{t(locale, "account.signed_out.title")}</Heading>
           <Text tone="secondary">{t(locale, "account.signed_out.body")}</Text>
+          <div>
+            <GoogleSignInCta locale={locale} returnPath={`/${locale}/account`} />
+          </div>
         </Stack>
       </main>
     );
@@ -62,6 +67,7 @@ export default async function AccountPage({ params }: { params: Promise<PagePara
   // structurally matching the full Supabase client against this narrower
   // chained deps shape.
   const rows = await fetchSavedResults(supabase as unknown as Parameters<typeof fetchSavedResults>[0]);
+  const state = resolveAccountPageState(true, rows.length);
 
   return (
     <main className="tgi-container" style={{ paddingTop: "3rem", paddingBottom: "6rem" }}>
@@ -71,7 +77,7 @@ export default async function AccountPage({ params }: { params: Promise<PagePara
           <Display>{t(locale, "account.title")}</Display>
         </Stack>
 
-        {rows.length === 0 ? (
+        {state.kind === "empty" ? (
           <Card variant="sunken">
             <Stack gap={2}>
               <Text tone="secondary">{t(locale, "account.empty.title")}</Text>

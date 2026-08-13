@@ -7,6 +7,8 @@ import { SEED_PEOPLE } from "@data/people/seed";
 import { getCurrentUser } from "@lib/supabase/getUser";
 import { createClient } from "@lib/supabase/server";
 import { fetchSavedResult } from "@lib/results/fetchSavedResult";
+import { resolveSavedResultPageState } from "@lib/results/savedResultPageState";
+import { GoogleSignInCta } from "../../GoogleSignInCta";
 import {
   Button,
   Card,
@@ -45,6 +47,20 @@ import {
  * belongs to someone else (never an error, never a leak of "this id exists
  * but isn't yours" vs. "this id doesn't exist at all") — both render the
  * same not-found state below, deliberately indistinguishable.
+ *
+ * AUTH STATE is checked FIRST and kept entirely separate from that
+ * lookup — a real production bug (found during Stage 10C's own human
+ * E2E, not simulated): an earlier version returned this page's generic
+ * not-found state for a signed-out visitor too (e.g. immediately after
+ * clicking Sign out while already on this page), which is secure (never
+ * leaks row existence) but semantically false — it told the user their
+ * OWN real result "doesn't exist or belongs to someone else." `!user`
+ * now short-circuits to a distinct `auth_required` state BEFORE
+ * `fetchSavedResult` is ever called — see `savedResultPageState.ts`'s own
+ * doc comment for the exact invariant this preserves: "unauthenticated"
+ * vs. "authenticated-but-unavailable" is safe to distinguish;
+ * "nonexistent id" vs. "someone else's id" is NOT, and remains
+ * undistinguished below, unchanged.
  */
 interface PageParams {
   locale: string;
@@ -87,6 +103,21 @@ export default async function SavedResultPage({ params }: { params: Promise<Page
   if (!LAUNCH_LOCALES.includes(localeParam as Locale)) notFound();
   const locale = localeParam as Locale;
 
+  function AuthRequiredState() {
+    return (
+      <main className="tgi-container" style={{ paddingTop: "5rem", paddingBottom: "6rem" }}>
+        <Stack gap={5} className="tgi-measure-stack">
+          <Eyebrow>{t(locale, "site.name")}</Eyebrow>
+          <Heading level={1}>{t(locale, "account.results.auth_required.title")}</Heading>
+          <Text tone="secondary">{t(locale, "account.results.auth_required.body")}</Text>
+          <div>
+            <GoogleSignInCta locale={locale} returnPath={`/${locale}/account/results/${id}`} />
+          </div>
+        </Stack>
+      </main>
+    );
+  }
+
   function NotFoundState() {
     return (
       <main className="tgi-container" style={{ paddingTop: "5rem", paddingBottom: "6rem" }}>
@@ -121,7 +152,10 @@ export default async function SavedResultPage({ params }: { params: Promise<Page
   }
 
   const user = await getCurrentUser();
-  if (!user) return <NotFoundState />;
+
+  // Checked FIRST, before any DB call — see the module doc comment above
+  // for the production bug this prevents from recurring.
+  if (!user) return <AuthRequiredState />;
 
   const supabase = await createClient();
   // Explicit cast (not structural inference) through the full Supabase
@@ -132,10 +166,12 @@ export default async function SavedResultPage({ params }: { params: Promise<Page
   // one real caller passes the client straight through unchanged for a
   // SHALLOWER chain (just `.upsert`) that doesn't hit this.
   const outcome = await fetchSavedResult(supabase as unknown as Parameters<typeof fetchSavedResult>[0], id);
+  const state = resolveSavedResultPageState(true, outcome);
 
-  if (outcome.status === "not_found") return <NotFoundState />;
-  if (outcome.status === "unavailable") return <UnavailableState />;
-  const snapshot = outcome.snapshot;
+  if (state.kind === "auth_required") return <AuthRequiredState />; // unreachable given signedIn=true above; satisfies exhaustive narrowing
+  if (state.kind === "not_found") return <NotFoundState />;
+  if (state.kind === "unavailable") return <UnavailableState />;
+  const snapshot = state.snapshot;
 
   const closestPerson = snapshot.closest ? resolvePerson(snapshot.closest.personId, snapshot) : undefined;
 
