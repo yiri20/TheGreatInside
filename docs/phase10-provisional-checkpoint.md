@@ -1567,6 +1567,32 @@ da Vinci EN/KO + the two longest-name fixtures) — **approved exactly as
 built, zero change requests, including the current CTA placement in all
 three surfaces and Person's current responsive wrapping behavior.**
 
+### Production-only bug, found and fixed during closeout's own smoke check
+Both OG routes passed every local build, `next start`, and automated
+test run, then returned a live `500` on Vercel — the same "only a real
+production/human check catches this" pattern this project has hit
+before (Stage 9D's unsaved-`.env.local` OAuth issue, the Stage 10C
+auth-vs-lookup-state bug). Root cause, confirmed by directly inspecting
+the affected route's own `.nft.json` before and after the fix:
+`src/lib/og/font.ts` reads the OG-only font subset via
+`readFile(join(process.cwd(), "assets/og/..."))`, a runtime-constructed
+path rather than a static `import`/`require` — Next's build-time file
+tracer (`@vercel/nft`) doesn't follow it, so `assets/og/` was silently
+excluded from the deployed serverless function bundle, causing `readFile`
+to throw `ENOENT` at request time (the font file in the repository
+itself was never corrupted — verified byte-for-byte identical to the
+working copy). Fixed with `outputFileTracingIncludes` in
+`next.config.mjs` — Next's own documented mechanism for exactly this
+tracer gap — re-verified both locally (the asset now appears in both
+routes' `.nft.json`) and live in production: bounded polling to the
+fix's own deployment, then Generic + Person OG for da Vinci EN/KO and
+both longest-name fixtures all confirmed `200`/`image/png`/1200×630,
+byte-identical to the local build, plus Results/Compare loading
+normally with a synthetic token and the Share control present, no auth
+wall introduced. `tsc`/`vitest` (480/480)/`playwright` (203/203)/build
+all reconfirmed clean after the fix. Deployed from commit `fd0821d`,
+immediately following the Stage B implementation commit `e697bb1`.
+
 **Files changed** (7 modified, 12 new): `app/[locale]/results/page.tsx`,
 `app/[locale]/compare/[slug]/page.tsx`, `app/[locale]/people/[slug]/
 page.tsx`, `src/core/i18n/en.ts`, `src/core/i18n/ko.ts`,

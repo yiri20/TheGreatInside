@@ -4229,6 +4229,29 @@ longest-name fixtures) — approved exactly as built, zero change
 requests, including the current CTA placement in all three surfaces and
 Person's current responsive wrapping behavior.**
 
+**A real production-only bug was found and fixed during closeout's own
+production smoke check, not before** — the same "the human/production
+E2E is what actually catches this class of bug" pattern this project
+has hit before (Stage 9D's OAuth key issue, the Stage 10C auth-state
+bug). Both OG routes worked in every local build, `next start`, and
+automated test run, then returned a live `500` on Vercel. Root cause,
+confirmed by inspecting the route's own `.nft.json` before and after:
+`src/lib/og/font.ts` reads the OG font subset via
+`readFile(join(process.cwd(), "assets/og/..."))` — a runtime-constructed
+path Next's build-time file tracer (`@vercel/nft`) cannot statically
+follow, so `assets/og/` was silently excluded from the deployed
+serverless function bundle (the font file in the repository itself was
+never corrupted — checked byte-for-byte). Fixed with
+`outputFileTracingIncludes` in `next.config.mjs` (Next's own documented
+mechanism for exactly this tracer gap), confirmed both locally (the
+asset now appears in both routes' `.nft.json`) and live in production
+(bounded polling to the fix's deployment, then Generic + Person OG for
+da Vinci EN/KO + both longest-name fixtures all returning `200`/
+`image/png`/1200×630/byte-identical-to-local, Results/Compare loading
+normally with a synthetic token and the Share control present, no auth
+wall introduced). Deployed from commit `fd0821d`, immediately after the
+Stage B implementation commit `e697bb1`.
+
 ## Roadmap
 
 Phase 0 architecture ✓ · 1 design system ✓ · 2 dataset to 30+ ✓ (see open issue
