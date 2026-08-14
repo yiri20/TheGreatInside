@@ -27,6 +27,7 @@ import {
   IdentityHero,
   Numeric,
   PersonCard,
+  Rail,
   ScoreBar,
   Stack,
   Text,
@@ -122,30 +123,57 @@ export default async function ResultsPage({
       <SaveLastResult token={r!} />
       <Stack gap={7}>
         {/* ============================================================ 1. hero */}
-        <Stack gap={5} className="tgi-measure-stack" as="section">
-          <Eyebrow>{t(locale, "site.name")}</Eyebrow>
-          <Display>{t(locale, "results.hero.title")}</Display>
-          <Stack gap={2}>
-            <Text tone="secondary">{t(locale, "label.greatness_potential")}</Text>
-            <div className="tgi-hero-score">
-              <Numeric>
-                <span className="tgi-hero-score__value">{formatPotential(greatness.score)}</span>
-              </Numeric>
-            </div>
-            <Text tone="muted">{t(locale, `greatness.band.${greatness.bandId}` as MessageKey)}</Text>
-          </Stack>
-          {resultArchetype ? (
-            <Card variant="sunken">
-              <Stack gap={1}>
-                <Text tone="secondary">
-                  <strong>{t(locale, `archetype_result.${resultArchetype}` as MessageKey)}</strong>
-                </Text>
-                <Text tone="muted">{t(locale, `archetype_result.${resultArchetype}.body` as MessageKey)}</Text>
+        {/* Phase 10D-3: at >=1280px the score/band identity pairs with the
+            archetype interpretation + explainer as a restrained secondary
+            column (same `.tgi-rail--tight` pattern Landing/Person already
+            use), instead of the whole thing sitting alone in a 40rem column
+            with nothing beside it. Below 1280px, `Rail` collapses and this
+            renders in the exact same top-to-bottom order as before. The
+            archetype callout is deliberately NOT a Card here — tried as a
+            plain accent-rule note first (typography/spacing, per the
+            project's anti-AI-template principle), confirmed sufficient by
+            screenshot inspection; see CLAUDE.md's Phase 10D-3 section for
+            the reasoning if this is ever reconsidered. */}
+        <section>
+          <Rail
+            className="tgi-rail--tight"
+            primary={
+              <Stack gap={5} className="tgi-measure-stack">
+                <Eyebrow>{t(locale, "site.name")}</Eyebrow>
+                <Display>{t(locale, "results.hero.title")}</Display>
+                <Stack gap={2}>
+                  <Text tone="secondary">{t(locale, "label.greatness_potential")}</Text>
+                  <div className="tgi-hero-score">
+                    <Numeric>
+                      <span className="tgi-hero-score__value">{formatPotential(greatness.score)}</span>
+                    </Numeric>
+                  </div>
+                  <Text tone="muted">{t(locale, `greatness.band.${greatness.bandId}` as MessageKey)}</Text>
+                </Stack>
               </Stack>
-            </Card>
-          ) : null}
-          <Text tone="muted">{t(locale, "result.greatness.explainer")}</Text>
-        </Stack>
+            }
+            secondary={
+              <Stack gap={4}>
+                {resultArchetype ? (
+                  <div
+                    style={{
+                      borderLeft: "3px solid var(--tgi-accent)",
+                      paddingLeft: "var(--tgi-space-4)",
+                    }}
+                  >
+                    <Stack gap={1}>
+                      <Text tone="secondary">
+                        <strong>{t(locale, `archetype_result.${resultArchetype}` as MessageKey)}</strong>
+                      </Text>
+                      <Text tone="muted">{t(locale, `archetype_result.${resultArchetype}.body` as MessageKey)}</Text>
+                    </Stack>
+                  </div>
+                ) : null}
+                <Text tone="muted">{t(locale, "result.greatness.explainer")}</Text>
+              </Stack>
+            }
+          />
+        </section>
 
         <Divider />
 
@@ -208,112 +236,195 @@ export default async function ResultsPage({
           <SignInCta locale={locale} resultToken={r!} />
         </div>
 
-        {/* ============================================== 3. unexpected match */}
-        <Stack gap={4} as="section">
-          <Heading level={2}>{t(locale, "label.unexpected_match")}</Heading>
-          {results.unexpected ? (
-            <Card>
-              <Stack gap={3}>
-                <PersonCard
-                  name={personDisplayName(locale, results.unexpected.person)}
-                  {...(results.unexpected.person.occupationIds[0]
-                    ? { subtitle: t(locale, `occupation.${results.unexpected.person.occupationIds[0]}` as MessageKey) }
-                    : {})}
-                  lifespan={formatLifespan(
-                    results.unexpected.person.birthYear,
-                    results.unexpected.person.deathYear,
-                    results.unexpected.person.isLiving,
-                  )}
-                  href={`/${locale}/people/${results.unexpected.person.slug}`}
-                  match={results.unexpected.overallMatch}
-                  locale={locale}
-                  {...(results.unexpected.person.portrait ? { portraitUrl: results.unexpected.person.portrait.url } : {})}
-                />
-                <Text tone="secondary">{t(locale, "result.unexpected.framing")}</Text>
-              </Stack>
-            </Card>
-          ) : (
-            <Card variant="sunken">
-              <Stack gap={2}>
-                <Text tone="secondary">{t(locale, "results.unexpected.none.title")}</Text>
-                <Text tone="muted">{t(locale, "results.unexpected.none.body")}</Text>
-              </Stack>
-            </Card>
-          )}
-        </Stack>
+        {/* ==================================== 3/4. unexpected + opposite */}
+        {/* Phase 10D-3: `Card` here previously had no width constraint, so
+            the single PersonCard inside it filled the whole container
+            (measured 1148px wide at 1920px before the width-cap fix) and
+            its 4:5 portrait/placeholder aspect-ratio scaled into a
+            1435px-tall block — the same defect class as Person's Opposite
+            Profile bug. `PersonCard`/`Card` themselves are unchanged; only
+            this page's own wrapper caps each card, so Person/Compare/the
+            directory are unaffected.
 
-        {/* =============================================== 4. opposite profile */}
-        {results.opposite ? (
-          <Stack gap={4} as="section">
-            <Heading level={2}>{t(locale, "label.opposite_profile")}</Heading>
-            <Card>
-              <Stack gap={3}>
-                <PersonCard
-                  name={personDisplayName(locale, results.opposite.person)}
-                  {...(results.opposite.person.occupationIds[0]
-                    ? { subtitle: t(locale, `occupation.${results.opposite.person.occupationIds[0]}` as MessageKey) }
-                    : {})}
-                  lifespan={formatLifespan(
-                    results.opposite.person.birthYear,
-                    results.opposite.person.deathYear,
-                    results.opposite.person.isLiving,
-                  )}
-                  href={`/${locale}/people/${results.opposite.person.slug}`}
-                  match={results.opposite.overallMatch}
-                  locale={locale}
-                  {...(results.opposite.person.portrait ? { portraitUrl: results.opposite.person.portrait.url } : {})}
-                />
-                <Text tone="muted">{t(locale, "result.opposite.framing")}</Text>
-              </Stack>
-            </Card>
-          </Stack>
-        ) : null}
+            Follow-up (same stage, after visual review): once both cards
+            were individually capped at ≥1280px, each left a large unused
+            region beside it — Unexpected Match and Opposite Profile are
+            semantic peers (both single-person spotlight moments), so they
+            now pair into one shared row via `.tgi-results-spotlight-pair`
+            ONLY when BOTH are real matches. Each card stays capped at its
+            own 24rem width inside the pair — the row uses `minmax(0,24rem)`
+            tracks, never `1fr`, specifically so pairing them never stretches
+            either card to fill a column. Below 1280px this class does
+            nothing, so both sections stack in their original order.
+
+            When Unexpected has no real match (the "no unexpected match"
+            empty state), it is NOT paired with Opposite Profile — pairing a
+            short empty-state message against a full PersonCard would be
+            exactly the "awkward empty half-column" the review flagged.
+            Opposite Profile instead renders as the same controlled single
+            spotlight it already was before pairing existed. */}
+        {(() => {
+          const unexpectedBlock = (
+            <Stack gap={4} as="section">
+              <Heading level={2}>{t(locale, "label.unexpected_match")}</Heading>
+              {results.unexpected ? (
+                <div style={{ maxWidth: "24rem" }}>
+                  <Card>
+                    <Stack gap={3}>
+                      <PersonCard
+                        name={personDisplayName(locale, results.unexpected.person)}
+                        {...(results.unexpected.person.occupationIds[0]
+                          ? { subtitle: t(locale, `occupation.${results.unexpected.person.occupationIds[0]}` as MessageKey) }
+                          : {})}
+                        lifespan={formatLifespan(
+                          results.unexpected.person.birthYear,
+                          results.unexpected.person.deathYear,
+                          results.unexpected.person.isLiving,
+                        )}
+                        href={`/${locale}/people/${results.unexpected.person.slug}`}
+                        match={results.unexpected.overallMatch}
+                        locale={locale}
+                        {...(results.unexpected.person.portrait
+                          ? { portraitUrl: results.unexpected.person.portrait.url }
+                          : {})}
+                      />
+                      <Text tone="secondary">{t(locale, "result.unexpected.framing")}</Text>
+                    </Stack>
+                  </Card>
+                </div>
+              ) : (
+                <Card variant="sunken" className="tgi-measure-stack">
+                  <Stack gap={2}>
+                    <Text tone="secondary">{t(locale, "results.unexpected.none.title")}</Text>
+                    <Text tone="muted">{t(locale, "results.unexpected.none.body")}</Text>
+                  </Stack>
+                </Card>
+              )}
+            </Stack>
+          );
+
+          const oppositeBlock = results.opposite ? (
+            <Stack gap={4} as="section">
+              <Heading level={2}>{t(locale, "label.opposite_profile")}</Heading>
+              <div style={{ maxWidth: "24rem" }}>
+                <Card>
+                  <Stack gap={3}>
+                    <PersonCard
+                      name={personDisplayName(locale, results.opposite.person)}
+                      {...(results.opposite.person.occupationIds[0]
+                        ? { subtitle: t(locale, `occupation.${results.opposite.person.occupationIds[0]}` as MessageKey) }
+                        : {})}
+                      lifespan={formatLifespan(
+                        results.opposite.person.birthYear,
+                        results.opposite.person.deathYear,
+                        results.opposite.person.isLiving,
+                      )}
+                      href={`/${locale}/people/${results.opposite.person.slug}`}
+                      match={results.opposite.overallMatch}
+                      locale={locale}
+                      {...(results.opposite.person.portrait ? { portraitUrl: results.opposite.person.portrait.url } : {})}
+                    />
+                    <Text tone="muted">{t(locale, "result.opposite.framing")}</Text>
+                  </Stack>
+                </Card>
+              </div>
+            </Stack>
+          ) : null;
+
+          if (results.unexpected && oppositeBlock) {
+            return (
+              <div className="tgi-results-spotlight-pair">
+                {unexpectedBlock}
+                {oppositeBlock}
+              </div>
+            );
+          }
+          return (
+            <>
+              {unexpectedBlock}
+              {oppositeBlock}
+            </>
+          );
+        })()}
 
         <Divider />
 
-        {/* ================================================ 5. signature trait */}
-        {signature ? (
-          <Stack gap={3} className="tgi-measure-stack" as="section">
-            <Heading level={2}>{t(locale, "label.signature_trait")}</Heading>
-            <TraitCard
-              label={attributeName(locale, signature.attributeId)}
-              score={signature.score}
-              impact="neutral"
-              confidence={user.confidence[signature.attributeId]}
-              locale={locale}
-              context={`${t(locale, "results.signature_trait.explain", {
-                refMean: Math.round(ATTRIBUTES[signature.attributeId].reference.mean),
-                score: Math.round(signature.score),
-              })} ${t(locale, "results.signature_trait.not_inherently_positive")}`}
-            />
-          </Stack>
-        ) : null}
-
-        {/* ============================================ 6. dual-edged trait */}
-        {greatness.dualEdgedContributors.length > 0 ? (
-          <Stack gap={3} className="tgi-measure-stack" as="section">
-            <Heading level={2}>{t(locale, "label.dual_edged_trait")}</Heading>
-            {greatness.dualEdgedContributors.slice(0, 1).map((c) => (
+        {/* ======================================= 5/6. signature + dual-edged */}
+        {/* Phase 10D-3: these are two peer TraitCards (same component, same
+            visual weight), not a primary/secondary relationship — deliberately
+            NOT `Rail` (whose secondary column is capped narrow specifically to
+            look subordinate) but a small Results-scoped equal-width pairing,
+            `.tgi-results-trait-pair`, active only at >=1280px and only when
+            BOTH sections exist. When only one exists, it falls through to the
+            exact original single `.tgi-measure-stack` treatment — already a
+            controlled width, so there is no "empty second column" or
+            "stretched card" case to guard against; the absent branch simply
+            never enters the paired layout. Below 1280px both branches render
+            identically to the pre-10D-3 stacked flow. */}
+        {(() => {
+          const dualEdged = greatness.dualEdgedContributors[0];
+          const signatureBlock = signature ? (
+            <Stack gap={3} className="tgi-measure-stack" as="section">
+              <Heading level={2}>{t(locale, "label.signature_trait")}</Heading>
               <TraitCard
-                key={c.attributeId}
-                label={attributeName(locale, c.attributeId)}
-                score={c.score}
+                label={attributeName(locale, signature.attributeId)}
+                score={signature.score}
+                impact="neutral"
+                confidence={user.confidence[signature.attributeId]}
+                locale={locale}
+                context={`${t(locale, "results.signature_trait.explain", {
+                  refMean: Math.round(ATTRIBUTES[signature.attributeId].reference.mean),
+                  score: Math.round(signature.score),
+                })} ${t(locale, "results.signature_trait.not_inherently_positive")}`}
+              />
+            </Stack>
+          ) : null;
+          const dualEdgedBlock = dualEdged ? (
+            <Stack gap={3} className="tgi-measure-stack" as="section">
+              <Heading level={2}>{t(locale, "label.dual_edged_trait")}</Heading>
+              <TraitCard
+                label={attributeName(locale, dualEdged.attributeId)}
+                score={dualEdged.score}
                 impact="dual_edged"
-                confidence={user.confidence[c.attributeId]}
+                confidence={user.confidence[dualEdged.attributeId]}
                 locale={locale}
                 edge={t(locale, "results.dual_edged.powerful_when")}
                 cost={t(locale, "results.dual_edged.watch_for")}
               />
-            ))}
-          </Stack>
-        ) : null}
+            </Stack>
+          ) : null;
+
+          if (signatureBlock && dualEdgedBlock) {
+            return (
+              <div className="tgi-results-trait-pair">
+                {signatureBlock}
+                {dualEdgedBlock}
+              </div>
+            );
+          }
+          return (
+            <>
+              {signatureBlock}
+              {dualEdgedBlock}
+            </>
+          );
+        })()}
 
         <Divider />
 
         {/* ============================================= 7. category matches */}
+        {/* Phase 10D-3 mobile follow-up: `.tgi-results-discovery-grid`
+            switches to 2 columns below 480px (see components.css) — at
+            390px the default `Grid min="14rem"` auto-fit collapses to 1
+            column, and with 7 cards that measured 4271px tall on its own
+            (of a 13242px total page height for the neutral fixture). All
+            person metadata (name/subtitle/lifespan/match%) is preserved;
+            only the column count and internal card padding change. `Grid`
+            itself is untouched — this is a page-scoped modifier class, so
+            Person/Compare/the directory's use of `Grid` is unaffected. */}
         <Stack gap={4} as="section">
           <Heading level={2}>{t(locale, "results.section.category_matches")}</Heading>
-          <Grid min="14rem">
+          <Grid min="14rem" className="tgi-results-discovery-grid">
             {FACETS.map((facet) => {
               const cm = results.categoryMatches.find((c) => c.facet === facet);
               const p = cm ? peopleById.get(cm.personId) : undefined;
@@ -384,28 +495,79 @@ export default async function ResultsPage({
         <Divider />
 
         {/* ======================================== 9. closest-match comparison */}
+        {/* Phase 10D-3: `#comparison` (linked from the closest-match card's
+            "See Full Comparison" button) stays on the outermost wrapper,
+            unchanged. Below the wide breakpoint, `.tgi-measure-stack` on
+            each block keeps every part of this section centered exactly as
+            before, in the same source order as before. At >=1280px, You
+            Both pairs with Your Advantage (when it exists) via the same
+            equal-weight `.tgi-results-trait-pair`... actually these two are
+            NOT peers (You Both is the primary comparison, Your Advantage is
+            a shorter supporting note), so this reuses `Rail` instead —
+            `.tgi-rail--tight`, same as the hero. When Your Advantage is
+            absent, You Both renders alone at its normal controlled width;
+            no empty rail is ever created. Where You Differ becomes its own
+            wider section afterward — it already lays out two columns
+            internally (`Grid`) and benefits from the extra room a capped
+            measure-stack was denying it. This reorders Your Advantage to
+            sit right after You Both instead of last — a deliberate editorial
+            grouping ("what you share, where you lead" before the more
+            detailed differences), applied at every width since a real DOM
+            reorder can't be conditional on viewport without either
+            duplicating content or faking it with CSS `order` (which this
+            project's Rail contract already rules out). */}
         {closest ? (
-          <div id="comparison" className="tgi-measure-stack">
+          <div id="comparison">
           <Stack gap={5} as="section">
             <Heading level={2}>{t(locale, "results.section.comparison", { person: personDisplayName(locale, closest.person) })}</Heading>
 
-            {closest.closestTraits.length > 0 ? (
-              <Stack gap={3}>
-                <Heading level={3}>{t(locale, "label.you_both")}</Heading>
-                <Stack gap={4}>
-                  {closest.closestTraits.slice(0, 4).map((c) => (
-                    <ComparisonBar
-                      key={c.attributeId}
-                      label={attributeName(locale, c.attributeId)}
-                      userScore={c.userScore}
-                      personScore={c.personScore}
-                      personName={personDisplayName(locale, closest.person)}
-                      locale={locale}
-                    />
-                  ))}
-                </Stack>
-              </Stack>
-            ) : null}
+            {(() => {
+              const youBothBlock =
+                closest.closestTraits.length > 0 ? (
+                  <Stack gap={3} className="tgi-measure-stack">
+                    <Heading level={3}>{t(locale, "label.you_both")}</Heading>
+                    <Stack gap={4}>
+                      {closest.closestTraits.slice(0, 4).map((c) => (
+                        <ComparisonBar
+                          key={c.attributeId}
+                          label={attributeName(locale, c.attributeId)}
+                          userScore={c.userScore}
+                          personScore={c.personScore}
+                          personName={personDisplayName(locale, closest.person)}
+                          locale={locale}
+                        />
+                      ))}
+                    </Stack>
+                  </Stack>
+                ) : null;
+
+              const advantageBlock =
+                advantage.length > 0 ? (
+                  <Stack gap={3} className="tgi-measure-stack">
+                    <Heading level={3}>{t(locale, "label.your_advantage")}</Heading>
+                    <Stack gap={2}>
+                      {advantage.map((c) => (
+                        <Text tone="secondary" key={c.attributeId}>
+                          {t(locale, "tpl.advantage_intro", {
+                            trait: attributeName(locale, c.attributeId),
+                            person: personDisplayName(locale, closest.person),
+                          })}
+                        </Text>
+                      ))}
+                    </Stack>
+                  </Stack>
+                ) : null;
+
+              if (youBothBlock && advantageBlock) {
+                return <Rail className="tgi-rail--tight" primary={youBothBlock} secondary={advantageBlock} />;
+              }
+              return (
+                <>
+                  {youBothBlock}
+                  {advantageBlock}
+                </>
+              );
+            })()}
 
             {closest.userHigherTraits.length > 0 || closest.personHigherTraits.length > 0 ? (
               <Stack gap={4}>
@@ -451,22 +613,6 @@ export default async function ResultsPage({
                 <Text tone="muted">{t(locale, "results.comparison.reassurance")}</Text>
               </Stack>
             ) : null}
-
-            {advantage.length > 0 ? (
-              <Stack gap={3}>
-                <Heading level={3}>{t(locale, "label.your_advantage")}</Heading>
-                <Stack gap={2}>
-                  {advantage.map((c) => (
-                    <Text tone="secondary" key={c.attributeId}>
-                      {t(locale, "tpl.advantage_intro", {
-                        trait: attributeName(locale, c.attributeId),
-                        person: personDisplayName(locale, closest.person),
-                      })}
-                    </Text>
-                  ))}
-                </Stack>
-              </Stack>
-            ) : null}
           </Stack>
           </div>
         ) : null}
@@ -477,7 +623,7 @@ export default async function ResultsPage({
         {results.top10.length > 1 ? (
           <Stack gap={4} as="section">
             <Heading level={2}>{t(locale, "results.section.top_matches")}</Heading>
-            <Grid min="14rem">
+            <Grid min="14rem" className="tgi-results-discovery-grid">
               {results.top10.slice(1, 6).map((m) => (
                 <PersonCard
                   key={m.personId}

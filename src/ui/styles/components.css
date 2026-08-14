@@ -810,3 +810,77 @@ details > summary:focus-visible {
   flex: 1 1 16rem;
   min-width: 0;
 }
+
+/* ------------------------------------------------------------- Results
+   Phase 10D-3. Results-scoped only — none of this affects Landing/Person/
+   Compare/Account, which don't reference these classes. */
+
+/* Signature Trait + Dual-Edged Trait: two PEER TraitCards (same component,
+   same visual weight), unlike Landing/Person's primary+restrained-secondary
+   pairings — deliberately not `Rail`, whose secondary column is capped
+   narrow specifically to read as subordinate, which would misrepresent two
+   equally-important trait callouts. Below 1280px this class does nothing,
+   so each `.tgi-measure-stack` child keeps centering exactly as it already
+   does everywhere else. Only used when BOTH cards are present (see
+   results/page.tsx) — the absent-one-side case never reaches this class,
+   so there is no empty-second-column state to guard against here. */
+@media (min-width: 1280px) {
+  .tgi-results-trait-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--tgi-space-6);
+    align-items: start;
+    max-width: 56rem;
+  }
+  .tgi-results-trait-pair .tgi-measure-stack {
+    margin-inline: 0;
+    max-width: none;
+  }
+}
+
+/* Unexpected Match + Opposite Profile: two peer single-person "spotlight"
+   moments. `minmax(0, 24rem)` tracks, deliberately NOT `1fr` — the whole
+   point is that pairing them must never stretch either PersonCard to fill
+   a column (each card is already capped to 24rem by its own wrapper in
+   results/page.tsx; the grid track cap here just keeps the ROW itself from
+   claiming more width than the two capped cards actually need). Only
+   applied when both are real matches — see results/page.tsx for why the
+   empty-state "no unexpected match" case is deliberately excluded from
+   pairing rather than left as an awkward empty half-column. */
+@media (min-width: 1280px) {
+  .tgi-results-spotlight-pair {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 24rem));
+    gap: var(--tgi-space-7);
+    /* Without this, the grid CONTAINER's own box still fills the full
+       available width (a block-level display:grid element doesn't shrink
+       to its tracks just because the tracks are fixed-width) even though
+       the two 24rem tracks only need ~51rem combined — found by measuring
+       the rendered box, not assumed from the track definition alone. Not
+       visible today (the container has no background/border), but capping
+       it keeps this component's actual footprint honest. */
+    max-width: 51rem;
+  }
+}
+
+/* Category Matches / More People Worth Meeting: at narrow mobile widths,
+   `Grid`'s default `auto-fit`/`minmax(14rem, 1fr)` formula collapses to a
+   single column (14rem doesn't fit twice inside a 390px viewport minus
+   padding), producing a long single-file stack of large PersonCards — 7
+   category cards measured 4271px tall on their own for the neutral fixture
+   (of a 13242px total page height), the repetitive "large card -> large
+   card -> ..." rhythm the Phase 10D-3 review flagged. Forces 2 columns
+   instead, up to 640px — the same breakpoint `.tgi-filter-bar` already
+   uses for "narrow enough that controls should stack/compact" elsewhere in
+   this file, not a new arbitrary value. `Grid`/`PersonCard` themselves are
+   untouched (this only overrides `grid-template-columns` for elements
+   carrying this additional page-scoped class); Person/Compare/the
+   directory's own `Grid` usage is unaffected. Two classes on the selector,
+   same reason as `.tgi-card.tgi-landing-howitworks` — reliably wins over
+   the bare `.tgi-grid` rule regardless of source order. */
+@media (max-width: 640px) {
+  .tgi-results-discovery-grid.tgi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--tgi-space-3);
+  }
+}

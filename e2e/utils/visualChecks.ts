@@ -109,15 +109,20 @@ export async function domOrderIndex(page: Page, selector: string): Promise<numbe
 /** Whether a Rail's primary/secondary regions are laid out side by side
  *  (wide-desktop split) or stacked (single column) — reusable across any
  *  page using the `Rail` primitive (Phase 10D-2 introduced this for the
- *  Person page; later stages can reuse it for Results/Compare). Compares
- *  vertical position rather than trusting the CSS breakpoint blindly, so a
- *  test using this actually observes the rendered layout. Returns
- *  `undefined` if either region isn't present (e.g. no secondary content
- *  for a given person). */
-export async function railIsSideBySide(page: Page): Promise<boolean | undefined> {
-  return page.evaluate(() => {
-    const primary = document.querySelector(".tgi-rail__primary");
-    const secondary = document.querySelector(".tgi-rail__secondary");
+ *  Person page; Phase 10D-3 reuses it for Results, which has MULTIPLE
+ *  `.tgi-rail` instances on one page — `withinSelector` scopes the query to
+ *  a specific ancestor so each Rail on the page can be checked
+ *  independently instead of always matching the first one in the DOM).
+ *  Compares vertical position rather than trusting the CSS breakpoint
+ *  blindly, so a test using this actually observes the rendered layout.
+ *  Returns `undefined` if either region isn't present (e.g. no secondary
+ *  content for a given person, or the scope selector doesn't match). */
+export async function railIsSideBySide(page: Page, withinSelector?: string): Promise<boolean | undefined> {
+  return page.evaluate((scopeSelector) => {
+    const scope = scopeSelector ? document.querySelector(scopeSelector) : document;
+    if (!scope) return undefined;
+    const primary = scope.querySelector(".tgi-rail__primary");
+    const secondary = scope.querySelector(".tgi-rail__secondary");
     if (!primary || !secondary) return undefined;
     const p = primary.getBoundingClientRect();
     const s = secondary.getBoundingClientRect();
@@ -125,5 +130,66 @@ export async function railIsSideBySide(page: Page): Promise<boolean | undefined>
     // secondary starts at or after primary's bottom.
     const verticalOverlap = Math.min(p.bottom, s.bottom) - Math.max(p.top, s.top);
     return verticalOverlap > Math.min(p.height, s.height) * 0.3;
-  });
+  }, withinSelector);
+}
+
+/** Generic side-by-side check for any two elements (not necessarily a
+ *  `Rail`) — Phase 10D-3's Signature+Dual-Edged pairing uses a plain equal-
+ *  width grid (`.tgi-results-trait-pair`), not `Rail`, since the two
+ *  children are peers rather than a primary/secondary pair. Same vertical-
+ *  overlap heuristic as `railIsSideBySide`. */
+export async function elementsAreSideBySide(page: Page, selectorA: string, selectorB: string): Promise<boolean | undefined> {
+  return page.evaluate(
+    ([selA, selB]) => {
+      const a = document.querySelector(selA as string);
+      const b = document.querySelector(selB as string);
+      if (!a || !b) return undefined;
+      const ra = a.getBoundingClientRect();
+      const rb = b.getBoundingClientRect();
+      const verticalOverlap = Math.min(ra.bottom, rb.bottom) - Math.max(ra.top, rb.top);
+      return verticalOverlap > Math.min(ra.height, rb.height) * 0.3;
+    },
+    [selectorA, selectorB],
+  );
+}
+
+/**
+ * Direct geometry assertion for the "spotlight card" defect class (Person's
+ * Opposite Profile, Results' Unexpected Match/Opposite Profile) — a single
+ * PersonCard expanding to the available container width, then its 4:5
+ * portrait aspect-ratio amplifying that into an absurdly tall block.
+ * Deliberately scoped to the first `count` matches of `baseSelector` in
+ * DOCUMENT order (Playwright's `.nth()`, not the CSS `:nth-of-type`
+ * pseudo-class — the latter counts per sibling-group under its own parent,
+ * which silently does the wrong thing here since each spotlight PersonCard
+ * has a different parent, not a broad "any tall element" heuristic, which
+ * would false-positive on legitimately tall content (a long trait-profile
+ * breakdown, a long comparison list) — see the Phase 10D-3 audit for why a
+ * global heuristic was rejected in favour of this targeted one.
+ */
+export async function assertSpotlightCardsConstrained(
+  page: Page,
+  baseSelector: string,
+  count: number,
+  maxWidthPx = 420,
+): Promise<void> {
+  const boxes = await page.locator(baseSelector).evaluateAll(
+    (els, n) =>
+      els.slice(0, n).map((el) => {
+        const r = el.getBoundingClientRect();
+        return { width: r.width, height: r.height };
+      }),
+    count,
+  );
+  for (const box of boxes) {
+    if (box.width === 0 && box.height === 0) continue; // not present on this fixture
+    expect(
+      box.width,
+      `${baseSelector} width ${box.width}px exceeds the ${maxWidthPx}px spotlight-card cap`,
+    ).toBeLessThanOrEqual(maxWidthPx);
+    expect(
+      box.height / box.width,
+      `${baseSelector} height:width ratio ${box.height / box.width} suggests the aspect-ratio-amplification bug has recurred`,
+    ).toBeLessThan(2.2);
+  }
 }

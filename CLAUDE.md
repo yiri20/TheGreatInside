@@ -2746,14 +2746,14 @@ headline result of Phase 2, now extended by Phase 4.
     vs. an unverifiable full transliteration) carry flagged, unresolved
     person-name ambiguities.
 12. **Phase 10 wide-desktop layout debt (flagged 2026-08) — Landing
-    resolved in Phase 10D Stage 1, Person resolved in Phase 10D-2
-    (both 2026-08, see those sections above); Results/Compare/Saved
-    Result NOT yet redesigned.** At desktop widths ≥1280px, those three
-    pages still overuse a narrow centered single-column layout
-    (`tgi-measure-stack`/`tgi-container`), leaving dead horizontal space.
-    The reusable primitives this needs (`Rail`/`IdentityHero`,
-    `src/ui/components/layout.tsx`) already exist and are already wired
-    into both remaining dynamic pages presentationally (no visual change
+    resolved in Phase 10D Stage 1, Person resolved in Phase 10D-2, Live
+    Results resolved in Phase 10D-3 (all 2026-08, see those sections
+    above); Compare and Saved Result NOT yet redesigned.** At desktop
+    widths ≥1280px, those two remaining surfaces still overuse a narrow
+    centered single-column layout (`tgi-measure-stack`/`tgi-container`),
+    leaving dead horizontal space. The reusable primitives this needs
+    (`Rail`/`IdentityHero`, `src/ui/components/layout.tsx`) already exist
+    and are already wired into Compare presentationally (no visual change
     yet) — a future Phase 10D stage applies the actual wide-desktop
     composition using them, it does not rebuild them. Keep
     readable text measures (`Text`'s existing 68ch cap) and the current
@@ -3431,6 +3431,141 @@ restraint, and Opposite Profile single-card width fix were explicitly
 approved against real screenshots. Results, Saved Result, Compare, and
 Account remain unredesigned.
 
+## Phase 10D-3 — Live Results editorial layout (FORMALLY CLOSED,
+## human-approved, 2026-08)
+
+**Live Results only** — the densest page in the product and the one
+carrying the most Phase 10C behavioral contracts, so scoped deliberately
+narrower than a single pass: **Saved Result's own wide-desktop
+composition is explicitly deferred to a follow-up stage**, not folded in
+here, since it has its own content-parity questions (see "Phase 10C —
+historical result fidelity" and the Saved Result anatomy notes in
+`docs/phase10-provisional-checkpoint.md`) that are a product decision,
+not a layout one. Compare, Person, Landing, and Account were not
+touched. Full stage record in `docs/phase10-provisional-checkpoint.md`'s
+"Stage 10D-3 record"; this section is the durable summary.
+
+**Spotlight-card geometry bug, fixed and measured — not estimated.**
+"Your Unexpected Match" and "Your Opposite Profile" each wrapped a
+single `PersonCard` in a `Card` with no width constraint, so the card
+filled the available container and its 4:5 portrait aspect-ratio scaled
+into an oversized block. **Measured directly** on a synthetic fixture at
+1920px, before/after: **1148px → 332px wide, 1435px → 579.5px tall**.
+(An early draft of this stage's own audit had estimated this at "roughly
+1850px wide" before any measurement was taken — that number was never
+accurate and is deliberately not repeated here; the real, measured
+figures above are the only ones on record.) Fixed with a page-scoped
+`maxWidth: "24rem"` wrapper, identical in spirit to Person's Opposite
+Profile fix — `PersonCard`/`Card`/`Grid` themselves untouched.
+
+**Follow-up (same stage, after visual review) — Unexpected Match +
+Opposite Profile pair into one editorial row at ≥1280px.** They're
+semantic peers (both single-person spotlight moments); pairing them
+avoids each sitting alone with a large unused region beside it.
+New `.tgi-results-spotlight-pair` (`grid-template-columns:
+repeat(2, minmax(0, 24rem))`, capped `max-width: 51rem` — an early
+version omitted the container's own max-width and measured 1200px wide
+despite only needing 816px for its two capped cards, caught by measuring
+the rendered box, not assumed from the track definition). Pairing
+applies **only when both are real matches** — when Unexpected Match has
+no real match (the "no unexpected match" empty-state message), Opposite
+Profile deliberately renders as a standalone controlled spotlight
+instead of being paired with a short empty-state box, which the review
+correctly flagged as its own kind of awkward composition. Below 1280px,
+unchanged stacked order, DOM-order verified.
+
+**Greatness hero**: paired via `Rail` (`.tgi-rail--tight`, same modifier
+Landing/Person already use) at ≥1280px — score/band as primary,
+archetype note + explainer as secondary. **Archetype callout flattened,
+not a Card**: tried first as a plain accent-rule note (border-left +
+typography, no background/border/radius) per the project's
+anti-AI-template principle, confirmed sufficient by screenshot
+inspection rather than assumed. **Closest Match retained unchanged** as
+the one place containment is genuinely justified — a full semantic
+`Card`, `IdentityHero`, match percentage, explanation, and all three
+CTAs exactly as before, confirmed by direct diff (this block was never
+touched). **Phase 10C's save-CTA DOM contract re-verified, not just
+preserved by omission**: `SignInCta` still renders after Closest Match
+and before Unexpected Match, confirmed by direct text-offset measurement
+in the live DOM, now a permanent regression test.
+
+**Signature + Dual-Edged**: new `.tgi-results-trait-pair` — an
+**equal-width** grid (`1fr 1fr`, capped `max-width: 56rem`), deliberately
+NOT `Rail`, whose secondary column is capped narrow specifically to read
+as subordinate — these two `TraitCard`s are peers, not a primary/
+secondary pair. Active only at ≥1280px and only when both exist; when
+Dual-Edged is absent, Signature falls through to its original single
+`.tgi-measure-stack` treatment untouched — verified with a dedicated
+synthetic no-dual-edged fixture, not just reasoned about.
+
+**Comparison**: You Both pairs with Your Advantage via `Rail`
+(`.tgi-rail--tight`) at ≥1280px when Advantage exists — found via a real
+synthetic fixture search (13 of 35 tested answer patterns produced a
+non-empty Advantage), not faked. Where You Differ becomes its own
+full-width section afterward — a deliberate reorder (Your Advantage now
+sits right after You Both instead of last, at every width, since a real
+DOM reorder can't be conditional on viewport without either duplicating
+content or using the CSS `order` trick this project's Rail contract
+already rules out). When Advantage is absent, You Both renders alone;
+confirmed no empty Rail is ever created (`.tgi-rail` count stays at
+exactly 1, the hero's). **`#comparison` anchor preserved exactly** —
+same id, same click-and-scroll behavior, now a permanent test.
+
+**Follow-up — mobile discovery grids.** Category Matches (7 cards) and
+Top Matches (5 cards) collapsed to a long single-column stack below
+768px (both use `Grid min="14rem"`, which can't fit two 14rem tracks
+inside a 390px viewport). Measured for the neutral fixture, before →
+after this stage's mobile pass: **total page height 13242px → 8603px
+(−35%)**, **Category Matches section 4271px → 1614px (−62%)**, **More
+People Worth Meeting section 3207px → 1273px (−60%)**. Fixed with a new
+`.tgi-results-discovery-grid` modifier forcing 2 columns at ≤640px
+(reusing the existing `.tgi-filter-bar` breakpoint already established
+elsewhere in this file, not a new arbitrary value) — all person metadata
+(name/subtitle/lifespan/match%) preserved unchanged; no padding or
+type-scale reduction was needed once the actual screenshots were
+inspected in both locales. 768px and above keep the original `Grid`
+auto-fit behavior, confirmed unaffected. `Grid`/`PersonCard` themselves
+untouched — Person/Compare/the directory's own `Grid` usage is
+unaffected.
+
+**Five synthetic, deterministic fixtures** — generated via
+`encodeResultToken` (a pure `src/core/quiz` export) against fixed answer
+patterns during this stage's own audit work, never a real user's data,
+never committed as such: `neutral` (typical shape, full responsive
+matrix), `high` (Greatness 88), `lowNoDualEdged` (Greatness 5,
+dual-edged absent), `mixed` (3 dual-edged candidates, only the first
+renders), `advantagePresent` (Advantage present, also the
+Unexpected-Match-absent case reused for the spotlight-pairing follow-up).
+
+**Verification, final.** `tsc --noEmit` clean · `vitest run` **420/420**
+(unchanged — no `src/core` file touched) · `next build --webpack` clean,
+**84 routes**, static/dynamic split identical throughout every step of
+this stage · Playwright **88/88** (56 prior + 32 Results) · zero
+console/page errors, zero horizontal overflow, zero clipped elements at
+any tested width/locale/fixture · confirmed: `src/ui/components/
+layout.tsx` and every Person/Compare/Account/Landing file all show zero
+diff against the Phase 10D-2 commit.
+
+**Stage 10D-3 is FORMALLY CLOSED, human-approved (2026-08)** — every
+composition decision above (hero rail, flattened archetype, Closest
+Match retained as-is, the spotlight pairing and its absent-branch
+fallback, the Signature/Dual-Edged pairing and its absent-branch
+fallback, the comparison rail and its absent-branch fallback, and the
+mobile discovery-grid density fix) was explicitly approved against real
+screenshots across two rounds of review. Saved Result, Compare, Person,
+Landing, and Account remain untouched.
+
+**Known non-blocking item, recorded for a future micro-polish pass, not
+a current blocker:** the "Save your result" sign-in CTA (`SignInCta`,
+Phase 10C) still renders as a centered sunken card between Closest Match
+and the deeper sections — visually a bit heavier than the surrounding
+editorial treatment now that the archetype note nearby has been
+flattened. A future pass may reconsider its visual weight, but **must
+preserve every Phase 10C behavioral contract untouched** (DOM position,
+signed-out-only visibility, the "saved" state only ever being claimed
+after directly observing the pending-queue transition) — this is a
+presentation-only candidate, not licence to touch the underlying logic.
+
 ## Roadmap
 
 Phase 0 architecture ✓ · 1 design system ✓ · 2 dataset to 30+ ✓ (see open issue
@@ -3654,6 +3789,27 @@ contention flakes structurally rather than papering over them with a
 longer timeout. `tsc`/`vitest` (**420/420**)/`build` (**84 routes**,
 all 70 person pages still `●` SSG) all clean, Playwright **53/53**.
 Results, Saved Result, Compare, and Account remain unredesigned.
+**Phase 10D-3 (Live Results Editorial Layout) is FORMALLY CLOSED,
+human-approved (2026-08)** — see "Phase 10D-3" above: the spotlight-card
+geometry bug (measured 1148px→332px wide, 1435px→579.5px tall) fixed and
+then, after visual review, paired Unexpected Match + Opposite Profile
+into one editorial row at ≥1280px (standalone when Unexpected has no
+real match); Greatness hero paired via `Rail` with a flattened
+(non-Card) archetype note; Closest Match retained unchanged as the one
+justified semantic `Card`; Signature + Dual-Edged paired as equal-weight
+peers with a controlled single-column fallback; Comparison restructured
+(You Both + Your Advantage paired when Advantage exists, Where You
+Differ full-width, `#comparison` preserved exactly); and, after a second
+round of visual review, mobile Category/Top Matches switched to a
+Results-only 2-column grid at ≤640px, measured at **13242px→8603px**
+total page height for the neutral fixture (−35%). Five synthetic
+deterministic fixtures (`neutral`/`high`/`lowNoDualEdged`/`mixed`/
+`advantagePresent`) drive the suite — none is or contains real user
+data. `tsc`/`vitest` (**420/420**)/`build` (**84 routes**, split
+unchanged) all clean, Playwright **88/88**. Saved Result, Compare,
+Person, Landing, and Account remain untouched; Saved Result's own
+wide-desktop pass is deliberately deferred to a follow-up stage (see
+"Known open issues" and `docs/phase10-provisional-checkpoint.md`).
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 

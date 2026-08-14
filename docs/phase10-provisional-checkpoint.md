@@ -6,18 +6,22 @@ Stage 10B (First Real Deployment) FORMALLY CLOSED, human-approved,
 FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 1 (Visual
 Regression Harness + Editorial Primitives + Landing) FORMALLY CLOSED,
 human-approved, 2026-08. Phase 10D Stage 2 (Person Detail Editorial
-Layout) FORMALLY CLOSED, human-approved, 2026-08.** This is the durable
-resume point for a fresh session — read this file, `CLAUDE.md`'s Status
-section and its dedicated "Phase 10C — historical result fidelity",
-"Phase 10D-1", and "Phase 10D-2" sections, and `docs/deployment.md`
-before touching Phase 10 again. Phase 9 is FORMALLY CLOSED and frozen
-(see `docs/phase9-provisional-checkpoint.md`) — nothing in this document
+Layout) FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 3
+(Live Results Editorial Layout) FORMALLY CLOSED, human-approved,
+2026-08.** This is the durable resume point for a fresh session — read
+this file, `CLAUDE.md`'s Status section and its dedicated "Phase 10C —
+historical result fidelity", "Phase 10D-1", "Phase 10D-2", and
+"Phase 10D-3" sections, and `docs/deployment.md` before touching Phase
+10 again. Phase 9 is FORMALLY CLOSED and frozen (see
+`docs/phase9-provisional-checkpoint.md`) — nothing in this document
 proposes touching it. Stage 10C's code (including the post-E2E
 auth-state fix, deployed from commit
 `d425e24730fa524429033978298431dd84be1f9e`) has passed a full production
 human E2E — see "Stage 10C record" below for the complete evidence.
-**No Phase 10D stage beyond Stage 2 has begun** — see "Exact next task
-for a fresh session" at the bottom of this file for candidates, none yet
+**No Phase 10D stage beyond Stage 3 has begun — Saved Result's own
+wide-desktop pass is a deliberately separate follow-up, not started, and
+Compare (Stage 4) has not begun either** — see "Exact next task for a
+fresh session" at the bottom of this file for candidates, none yet
 chosen.
 
 ## Stage 10A record (2026-08) — Production Foundation, FORMALLY CLOSED
@@ -744,40 +748,215 @@ restraint, and Opposite Profile single-card width fix were explicitly
 approved against real screenshots, same closure discipline as every
 other stage in this project.
 
+## Stage 10D-3 record (2026-08) — Live Results Editorial Layout, FORMALLY CLOSED, human-approved
+
+**Live Results only.** The densest page in the product and the one
+carrying the most Phase 10C behavioral contracts (signed-out save CTA
+placement, `#comparison` anchor). **Saved Result's own wide-desktop
+composition is deliberately deferred to its own follow-up stage** — it
+has real content-parity questions (the audit found several sections the
+snapshot already carries data for but the page doesn't render — dual-
+edged, Where You Differ, Your Advantage — plus component asymmetries
+like `TraitChip` vs. `TraitCard`) that are product decisions, not layout
+ones, and folding them into a pure layout pass would have muddied both.
+Compare, Person, Landing, and Account were not touched at any point in
+this stage.
+
+**Spotlight-card geometry bug — measured, not estimated.** "Your
+Unexpected Match" and "Your Opposite Profile" each wrapped a single
+`PersonCard` in a `Card` with no width constraint, so the card filled
+the container and its 4:5 portrait aspect-ratio scaled into an oversized
+block. A pre-implementation audit draft had *estimated* this at "roughly
+1850px wide" — that number was flagged during review as inconsistent
+with `.tgi-container`'s own 80rem/1280px ceiling and was never actually
+measured. The real, DOM-measured figures, taken on a synthetic fixture
+at 1920px: **1148px → 332px wide, 1435px → 579.5px tall** after the
+fix. Only the earlier estimate is wrong and excluded from this record;
+the diagnosis itself (single item + no width cap + aspect-ratio
+amplification) was correct throughout. Fixed with a page-scoped
+`maxWidth: "24rem"` wrapper — `PersonCard`/`Card`/`Grid` untouched.
+
+**Round 2 (after first visual review) — Unexpected Match + Opposite
+Profile paired into one row at ≥1280px.** The geometry fix alone left
+each card with a large unused region beside it; since the two sections
+are semantic peers (both single-person spotlight moments), they now
+share `.tgi-results-spotlight-pair`
+(`grid-template-columns: repeat(2, minmax(0, 24rem))`). **A second
+measurement bug caught during this same round**: the grid container's
+own box measured 1200px wide despite its two capped tracks only needing
+816px combined — a block-level `display: grid` element doesn't shrink
+to its tracks just because the tracks are fixed-width, confirmed by
+measuring, not assumed. Fixed by adding `max-width: 51rem`; re-measured
+at exactly 816px after the fix. **Pairing applies only when BOTH are
+real matches** — when Unexpected Match has no real match (the empty-
+state message), Opposite Profile renders as a standalone controlled
+spotlight instead, per explicit review feedback that pairing a short
+empty-state box against a full PersonCard would be its own "awkward
+half-column" defect. Below 1280px, unchanged stacked order, DOM-order
+verified by direct index comparison in a permanent test, not assumed
+from the CSS.
+
+**Greatness hero**: `Rail` (`.tgi-rail--tight`) pairs score/band
+(primary) with archetype note + explainer (secondary) at ≥1280px.
+**Archetype callout flattened, not a Card** — tried first as a plain
+accent-rule note (border-left + typography) per the project's
+anti-AI-template principle; confirmed sufficient by screenshot
+inspection, not assumed to be sufficient. **Closest Match retained
+completely unchanged** — confirmed by direct diff that this block was
+never touched across either round of this stage; it remains the one
+place a full semantic `Card` is justified. **Phase 10C's save-CTA DOM
+contract** (Closest Match → SignInCta → deeper sections) re-verified by
+direct text-offset measurement in the live DOM, now a permanent
+regression test, not just re-stated as still true.
+
+**Signature + Dual-Edged**: new `.tgi-results-trait-pair` — an
+**equal-width** grid (`1fr 1fr`, `max-width: 56rem`), deliberately NOT
+`Rail` (whose secondary column reads as subordinate by design, wrong for
+two peer `TraitCard`s). Active only at ≥1280px and only when both exist;
+when Dual-Edged is absent, Signature falls through to its original
+single `.tgi-measure-stack` treatment, verified with a dedicated
+synthetic no-dual-edged fixture (`lowNoDualEdged`), not just reasoned
+about from the conditional's shape.
+
+**Comparison**: You Both pairs with Your Advantage via `Rail`
+(`.tgi-rail--tight`) at ≥1280px when Advantage exists — found via a real
+fixture search (a small script swept 35 likert/choice-pattern
+combinations against `advantageTraits`'s actual gating logic; 13
+produced a non-empty result), not faked or assumed reachable. Where You
+Differ becomes its own full-width section afterward. **This reorders
+Your Advantage to sit right after You Both instead of last, at every
+width** — a deliberate, explicitly-flagged DOM reorder, not a CSS
+`order` trick (a real reorder was the only way to achieve the requested
+visual pairing without violating this project's existing "never fake
+visual order with `order`" Rail contract). When Advantage is absent, You
+Both renders alone; confirmed the comparison section creates no `Rail`
+at all in that case (`.tgi-rail` count stays at exactly 1, the hero's).
+**`#comparison` anchor preserved exactly** — same id, click-and-scroll
+behavior confirmed by a live test, not just unchanged markup.
+
+**Round 2 — mobile discovery grids.** Category Matches (7 cards) and Top
+Matches (5 cards) collapsed to a long single-column stack below 768px.
+Measured for the `neutral` fixture, before → after:
+
+| | Before | After | Change |
+|---|---|---|---|
+| Total page height (390px) | 13242px | 8603px | −35% |
+| Category Matches section | 4271px | 1614px | −62% |
+| More People Worth Meeting section | 3207px | 1273px | −60% |
+| Per-card size | 356×582px | 171×374px | — |
+
+Fixed with `.tgi-results-discovery-grid`, forcing 2 columns at ≤640px —
+reusing the `.tgi-filter-bar` breakpoint already established elsewhere
+in `components.css`, not a new arbitrary value. All person metadata
+(name/subtitle/lifespan/match%) preserved unchanged; no padding or
+type-scale reduction was applied — the screenshots at this card size, in
+both EN and KO, were legible without it, so the more invasive change
+named as a fallback option in the review request was never needed.
+768px+ confirmed unaffected (still 3-column `auto-fit`).
+
+**Five synthetic, deterministic fixtures**, generated via
+`encodeResultToken` (pure `src/core/quiz` export) against fixed answer
+patterns — none is or contains real user data, none committed as such:
+
+| Fixture | Purpose | Greatness | Dual-edged | Advantage |
+|---|---|---|---|---|
+| `neutral` | baseline, full responsive matrix | 52 | 1 | 0 |
+| `high` | high-Greatness shape | 88 | 1 | 0 |
+| `lowNoDualEdged` | dual-edged-absent branch | 5 | 0 | 0 |
+| `mixed` | multiple dual-edged candidates | 88 | 3 | 0 |
+| `advantagePresent` | Advantage present; also Unexpected-absent | 97 | 1 | 2 |
+
+**Verification, final.** `tsc --noEmit` clean · `vitest run` **420/420**
+(unchanged — no `src/core` file touched, confirmed by both the diff and
+the unchanged test count) · `next build --webpack` clean, **84 routes**,
+static/dynamic split identical throughout every step of both rounds ·
+Playwright **88/88** (56 prior + 32 Results, covering both the initial
+implementation and the follow-up round) · zero console/page errors, zero
+horizontal overflow, zero clipped elements at any tested width/locale/
+fixture · confirmed zero diff on `src/ui/components/layout.tsx` and
+every Person/Compare/Account/Landing file throughout the entire stage ·
+confirmed no scratch/probe scripts remain (several were used during
+development — geometry measurement, fixture search — all deleted before
+each commit) · confirmed no real result token appears anywhere in the
+diff or the test file.
+
+**Stage 10D-3 is FORMALLY CLOSED, human-approved (2026-08)** — every
+composition decision (hero rail, flattened archetype, Closest Match
+retained as-is, the spotlight pairing and its absent-branch fallback,
+the Signature/Dual-Edged pairing and its absent-branch fallback, the
+comparison rail and its absent-branch fallback, and the mobile
+discovery-grid density fix) was explicitly approved against real
+screenshots across two separate rounds of review — the second round
+specifically because the first pass's screenshots themselves surfaced
+two remaining problems (spotlight dead space, mobile grid repetition)
+that were then fixed and re-reviewed, not silently accepted.
+
+**Known non-blocking item, recorded for a future micro-polish pass:**
+the "Save your result" sign-in CTA (`SignInCta`, Phase 10C) still
+renders as a centered sunken card between Closest Match and the deeper
+sections — visually a bit heavier now that the nearby archetype note has
+been flattened to plain typography. A future pass may reconsider its
+visual weight but must preserve every Phase 10C behavioral contract
+(DOM position, signed-out-only visibility, "saved" only ever claimed
+after directly observing the pending-queue transition) — presentation
+only, never the underlying logic.
+
 ## Exact next task for a fresh session
 
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
-   result fidelity", "Phase 10D-1", and "Phase 10D-2"), this file, and
-   `docs/deployment.md` in full.
+   result fidelity", "Phase 10D-1", "Phase 10D-2", and "Phase 10D-3"),
+   this file, and `docs/deployment.md` in full.
 2. Phase 9 is closed and frozen — do not reopen it. Stage 10A, 10B, 10C,
-   and Phase 10D Stages 1-2 are all closed — do not redo their audits,
+   and Phase 10D Stages 1-3 are all closed — do not redo their audits,
    re-litigate the site-origin/historical-fidelity/auth-state/rail-
    breakpoint designs, repeat the git/GitHub/Vercel setup, redo the
    migration, redo the backfill, or re-run the Phase 10D layout audit.
-   **No Phase 10D stage beyond Stage 2 has begun** and none should start
+   **No Phase 10D stage beyond Stage 3 has begun** and none should start
    without a fresh, explicit decision — see the candidates below.
+   Saved Result's own wide-desktop pass was deliberately deferred out of
+   Stage 3, not forgotten — it is its own candidate, not part of "Stage
+   3 is done."
 3. **Reuse, don't rebuild**, for any future Phase 10D stage: the
    Playwright harness (`playwright.config.ts`, `e2e/utils/visualChecks.ts`)
    — now running against a production build, not `next dev`, see "Stage
    10D-2 record" for why — and the "automate everything reasonably
    automatable before asking for human validation" testing policy both
-   apply going forward, not just to Stages 1-2. The `Rail`/`IdentityHero`
+   apply going forward, not just to Stages 1-3. The `Rail`/`IdentityHero`
    primitives (`src/ui/components/layout.tsx`) already exist, are proven
-   unchanged since Stage 1 (zero diff), and are already wired into
-   Results and Compare (presentationally only, no visual change yet on
-   either) — a future stage redesigns their composition using the
+   unchanged since Stage 1 (zero diff, re-confirmed after Stage 3), and
+   are already wired into Compare (presentationally only, no visual
+   change yet) — a future stage redesigns its composition using the
    existing primitives, it does not re-extract them. The wide-desktop
    breakpoint is **≥1280px**, decided and shipped in Stage 1 — do not
-   reopen that decision without new evidence. The "Anti-AI-template /
-   human-authored design principle" section in `CLAUDE.md` (adopted
-   during Stage 2) applies to every future visual decision, not only
-   Phase 10D — read it before any further layout or copy work.
+   reopen that decision without new evidence. The mobile discovery-grid
+   breakpoint (**≤640px**, `.tgi-results-discovery-grid`) reuses the
+   pre-existing `.tgi-filter-bar` breakpoint — Saved Result's own
+   Category Matches grid, if it gets one, should consider the same
+   pattern rather than inventing a new value. The synthetic-fixture-token
+   approach (`encodeResultToken` against fixed answer patterns, see
+   "Stage 10D-3 record") is directly reusable for the Saved Result
+   follow-up's own test suite. The "Anti-AI-template / human-authored
+   design principle" section in `CLAUDE.md` (adopted during Stage 2)
+   applies to every future visual decision, not only Phase 10D — read it
+   before any further layout or copy work.
 4. Candidates already on record for a future stage, each requiring its
    own fresh, explicit decision — none approved yet:
-   - Phase 10D Stage 3 (Results + Saved Result), Stage 4 (Compare),
-     Stage 5 (visual-consistency micro-pass, kept separate from layout
-     per the original audit's own instruction) — see `CLAUDE.md`'s Phase
-     10D-1 section for the reasoning behind this split.
+   - **Saved Result parity/visual follow-up** — content-parity questions
+     found during the Stage 3 audit (dual-edged, Where You Differ, Your
+     Advantage all have snapshot data but aren't rendered; `TraitChip`
+     vs. `TraitCard` component asymmetry with live Results;
+     `IdentityHero` never adopted for its closest-match block) are
+     product decisions to make before or alongside any layout work here,
+     not layout decisions alone.
+   - Phase 10D Stage 4 (Compare), Stage 5 (visual-consistency micro-pass,
+     kept separate from layout per the original audit's own instruction)
+     — see `CLAUDE.md`'s Phase 10D-1 section for the reasoning behind
+     this split.
+   - A small, non-blocking micro-polish item recorded at Stage 3 closure:
+     the Results-page `SignInCta` sunken-card treatment could be
+     revisited for a flatter editorial look (matching the now-flattened
+     archetype note nearby) — presentation only, every Phase 10C
+     behavioral contract must stay untouched.
    - Full SEO pass, share cards/OG images, portraits pipeline,
      analytics, ads, and eventually a custom branded domain (would also
      require revisiting `NEXT_PUBLIC_SITE_URL` and the Supabase/Google
