@@ -39,9 +39,10 @@ indexed page, and bare-`/` locale negotiation with a `tgi_locale`
 preference cookie — all verified by build output, curl against a
 running production server, and Playwright, with no subjective visual
 review needed (Stage A touched zero visual composition). **A Stage B
-(sharing UX + Open Graph) audit may or may not exist yet — check this
-file's own "Stage B" heading before assuming its status; an audit is
-never implementation authorization on its own.** Phase 10's own
+(sharing UX + Open Graph) audit-only pass now exists** — see this
+file's own "Stage B" heading and `docs/phase10-stageB-sharing-og-audit.md`
+— **but an audit is never implementation authorization on its own; no
+Stage B code has been written.** Phase 10's own
 broader, still-unstarted scope beyond Stage A (share cards/OG images,
 analytics, ads, portraits, custom domain — see "Phase 10C record" and
 CLAUDE.md's Roadmap) — see "Exact next task for a fresh session" at the
@@ -1391,22 +1392,96 @@ none of Stage A's decisions are subjective or visual. `CLAUDE.md`'s
 dedicated "Post-10D Stage A" section carries the full technical record;
 this section is the checkpoint-doc mirror for a fresh session.
 
+## Stage B — Sharing UX & Open Graph, PRODUCT DECISIONS APPROVED, implementation NOT started
+
+**A full, detailed audit exists, and its product/design decisions are
+now approved**: `docs/phase10-stageB-sharing-og-audit.md` (audit
+produced overnight, 2026-08, immediately after Stage A's closure/push/
+production-verification; decision round resolved the same day). **No
+Stage B code has been written, no commit contains any sharing/OG
+change — approved decisions are documentation only, not implementation.**
+Read that document in full before starting Stage B work; every
+"RESOLVED"/"APPROVED" marker in it traces back to the decision recorded
+here.
+
+**Approved decisions, summary (full reasoning/code citations are in the
+audit document, not repeated here):**
+- **Share priority: Results (#1) → Compare (#2) → Person (#3).** This
+  reverses the audit's own original "Person is the strongest candidate"
+  framing — Person remains the cleanest *technical*/OG case, but
+  Results is the approved priority because it's the product's actual
+  core viral sharing moment, not an OG-architecture convenience.
+- **Interaction: one `quiet`-variant Share control per surface**, Web
+  Share API first, clipboard-copy fallback, exact EN/KO labels approved
+  ("Share result"/"결과 공유", "Share comparison"/"비교 공유",
+  "Share"/"공유"), still open to minor polish during screenshot review.
+- **Disclosure: exact EN/KO copy approved** for Results/Compare
+  ("Anyone with this link can view this result/comparison" /
+  "이 링크를 가진 사람은 누구나 이 결과/비교를 볼 수 있어요"); Person
+  needs none.
+- **OG scope for Stage B v1: generic fallback + Person-specific images
+  only.** Dynamic, per-token Results/Compare OG is **explicitly
+  DEFERRED** to its own separate future decision — not an unfinished
+  Stage B gap. Results/Compare are still fully shareable in v1; their
+  first social preview just uses the generic TGI card, which the
+  decision explicitly calls intentional (separates "sharing works" from
+  "preview is personalized," avoids amplifying user-derived data
+  visibility to a wider audience than the sharer intends, avoids
+  building caching/scope machinery not yet justified).
+- **Person OG content approved**: name, localized occupation/domain,
+  era/lifespan, TGI branding, no portrait dependency.
+- **Generic OG visual direction approved as a design brief** (avoid
+  gradients/glassmorphism/bento/pills/fake data; prefer typography/warm
+  paper/restrained purple/wordmark/minimal content) — **exact visual
+  treatment still requires screenshot review**, same discipline as
+  every Phase 10D stage.
+- **Korean OG font — investigated, no blocker found.** The approved
+  direction is subsetting the same `Noto Serif KR` family already used
+  site-wide (not a different font, not a hack) via `fonttools`'
+  `pyftsubset`, scoped to the closed set of glyphs this product's OG
+  surfaces actually need (person names + occupation labels + short
+  generic copy) — an offline, one-time asset-preparation step with zero
+  runtime dependency on the deployed app. Not yet executed (that's
+  implementation work); confirmed technically sound and within every
+  stated constraint.
+- **Favicon absence confirmed live in production** during the same
+  overnight session (zero `<link rel="icon">`, zero icon files in the
+  repo) and recorded as a **separate launch-readiness item — explicitly
+  NOT Stage B scope**, not yet fixed.
+
+A full Vitest/Playwright/OG-HTTP test plan is designed in the audit's
+Section I, ready to implement. The audit's own closing section records
+the approved implementation sequence (generic OG → Share on Results →
+Share on Compare → Person OG → Share on Person, dynamic Results/Compare
+OG explicitly excluded) — read it before starting, don't re-derive it.
+
+**Still open, correctly so (Section J of the audit):** exact Share
+placement/visual weight pending real screenshots to review against, and
+the generic OG's exact visual treatment — both genuinely need a human
+eye on an actual render, not more reasoning from code.
+
 ## Exact next task for a fresh session
 
 **Phase 10D is fully closed. Post-10D Stage A (SEO & Locale Foundation)
-is also fully closed.** The next work is Stage B (sharing UX + Open
-Graph) — check whether a "Stage B" audit section exists further down in
-this file (or in `CLAUDE.md`) before assuming its status. **An audit
-existing is not implementation authorization** — Stage B implementation
-needs its own fresh, explicit decision on the subjective/product
-questions the audit isolates, exactly as Stage A needed before it began.
+is also fully closed.** A Stage B (sharing UX + Open Graph) AUDIT now
+exists — `docs/phase10-stageB-sharing-og-audit.md`, and this file's own
+"Stage B" section above. **The audit is not implementation
+authorization** — Stage B implementation needs its own fresh, explicit
+decision on the subjective/product questions the audit's Section J
+isolates (exact Share-control placement/weight, disclosure wording, how
+much Results data an OG preview may show, and whether a dynamic
+per-token Results OG image is built in a first pass at all), exactly as
+Stage A needed before it began. If those decisions have been made since
+this checkpoint was last updated, re-check `CLAUDE.md`'s Roadmap and
+this file's "Stage B" section for their current status before assuming
+nothing has moved.
 
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
    result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3",
    "Phase 10D-3 Follow-up", "Phase 10D-4", "Phase 10D Stage 5", and
    "Post-10D Stage A — SEO & Locale Foundation"), this file (including
-   "Stage A record" above and any "Stage B" section that may follow it),
-   and `docs/deployment.md` in full.
+   "Stage A record" and "Stage B" above), and `docs/
+   phase10-stageB-sharing-og-audit.md` and `docs/deployment.md` in full.
 2. Phase 9 is closed and frozen — do not reopen it. **Phase 10D in its
    entirety (Stages 10D-1 through 10D-4, the Saved Result Historical
    Parity Follow-up, and Stage 5) is closed, AND Post-10D Stage A is
@@ -1452,13 +1527,21 @@ questions the audit isolates, exactly as Stage A needed before it began.
    `CLAUDE.md` applies to every future visual decision on this product,
    not only Phase 10D.
 4. **Candidates for Phase 10's own remaining scope — Stage A is now
-   done; everything below is still unapproved/unbegun, each needs its
-   own fresh decision:**
-   - Stage B (sharing UX: share/copy-link controls, per-page privacy
-     disclosure near Share) and Open Graph (generic/Person/Results/
-     Compare OG images or metadata) — see "Stage B" section in this
-     file if present for the detailed audit; implementation itself is
-     NOT approved merely because an audit exists.
+   done; Stage B's product decisions are approved but implementation is
+   still unbegun; everything else below still needs its own fresh
+   decision:**
+   - **Stage B implementation** (sharing UX: share/copy-link controls
+     on Results/Compare/Person, per-page privacy disclosure near Share
+     on Results/Compare, generic + Person-specific OG images) — the
+     product/design decisions are approved (see "Stage B" section
+     above and `docs/phase10-stageB-sharing-og-audit.md`), but **no
+     code has been written yet**. Follow the audit's own approved
+     implementation sequence (generic OG → Share on Results → Share on
+     Compare → Person OG → Share on Person); do not build dynamic
+     per-token Results/Compare OG — that remains its own, separate,
+     not-yet-decided question. Exact visual treatment (generic OG
+     layout, Share-control placement) still needs screenshot review
+     before final approval, same discipline as every Phase 10D stage.
    - Analytics, ads, portraits pipeline, and eventually a custom
      branded domain (would also require revisiting
      `NEXT_PUBLIC_SITE_URL` and the Supabase/Google redirect-URL
@@ -1480,6 +1563,15 @@ questions the audit isolates, exactly as Stage A needed before it began.
      Closest Match portrait/`IdentityHero` adoption for Saved Result —
      would need its own review of the "removed person has no portrait"
      fallback question.
+   - **Favicon — confirmed missing in production** (2026-08 overnight
+     reconnaissance: zero `<link rel="icon">` in the rendered `<head>`,
+     zero icon files anywhere in the repo). Should be fixed before
+     public launch; **explicitly NOT Stage B scope** — do not fold it
+     into Stage B work just because both involve "site branding."
+     Manifest/apple-touch-icon, a custom-branded 404 page, and
+     Privacy/Terms routes were also found absent in the same pass and
+     remain separate, unscoped launch-readiness candidates, not
+     Stage B or Stage A items.
 5. Preserve the broader Phase 10 boundaries throughout whichever area is
    chosen next: no invented privacy-policy/business facts, no unrequested
    scope expansion.

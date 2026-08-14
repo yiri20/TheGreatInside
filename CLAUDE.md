@@ -4473,12 +4473,39 @@ scope and remain exactly as unscoped as before (see the dedicated
 Post-10D Stage A section above for the precise boundary). Phase 10's
 remaining scope stays exactly as recorded at Phase 10C's closure: **no
 share cards/OG images, no analytics, no ads, no portraits pipeline, no
-custom domain, no invented privacy-policy/business facts.** An
-audit-only pass for Stage B (sharing UX + Open Graph) may follow — see
-`docs/phase10-provisional-checkpoint.md`'s "Stage A record" for whether
-that audit exists yet and what it found; audit alone is never
-implementation authorization. The other Stage-5-named candidates remain
-unscoped, unapproved, and unstarted: an explicit monetization strategy
+custom domain, no invented privacy-policy/business facts.** **A Stage B
+(sharing UX + Open Graph) audit exists, and its product/design decisions
+are now APPROVED (2026-08) — implementation itself has NOT started**:
+`docs/phase10-stageB-sharing-og-audit.md` — a full share-surface map,
+privacy contract, share-interaction architecture, ranked UI-placement
+options, OG architecture findings (including a confirmed Next.js
+constraint: file-convention `opengraph-image.tsx` routes never receive
+`searchParams`, so a token-derived Results/Compare OG image needs a
+hand-built Route Handler, not the simple file convention), a
+crawler-safety proof (no server-side effect from viewing a result
+link), an investigated Korean-OG font strategy (subsetting the
+existing `Noto Serif KR` family via `fonttools`, an offline
+asset-preparation step with no runtime dependency — no clean-solution
+blocker found), and a full test plan. **Approved decisions**: Share
+priority is Results → Compare → Person (Results is the core viral
+sharing moment, not Person, despite Person being the technically
+cleanest OG case); one `quiet`-variant Share control per surface, Web
+Share API first with a clipboard-copy fallback, exact EN/KO labels and
+disclosure copy recorded in the audit; **Stage B v1 OG scope is generic
++ Person-specific images only — dynamic, per-token Results/Compare OG
+is explicitly DEFERRED to its own later decision**, not an unfinished
+Stage B gap; Person OG content hierarchy approved (name, localized
+occupation/domain, era/lifespan, TGI branding, no portrait dependency);
+generic OG visual DIRECTION approved (restrained/editorial — avoid
+gradients/glassmorphism/bento/pills/fake data; prefer typography/warm
+paper/restrained purple/wordmark) with the exact visual treatment still
+pending screenshot review, same discipline as every Phase 10D stage.
+Favicon absence was also confirmed live in production during the same
+overnight session (zero `<link rel="icon">`, zero icon files in the
+repo) and recorded as a separate launch-readiness item — **not** Stage
+B scope, not yet fixed. No Stage B code has been written. The other
+Stage-5-named candidates remain unscoped, unapproved, and unstarted: an
+explicit monetization strategy
 decision, launch QA/public beta, and later dataset scaling toward the
 100-1,000-person range the "Inclusion philosophy" section already
 anticipates structurally. Every item in every list needs its own fresh,
