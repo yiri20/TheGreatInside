@@ -22,10 +22,26 @@
  * navigation is correct and simplest, and — since cookies aren't tied to
  * client router state — it does not sign the user out or touch the
  * session either way.
+ *
+ * POST-10D STAGE A, item 7: an explicit click also persists `tgi_locale`
+ * (`localeCookieString`, `src/lib/localeNegotiation.ts`) so a later visit
+ * to bare `/` honours this choice ahead of `Accept-Language` (see
+ * `proxy.ts`). Written via `onClick` on the real `<a>` — synchronous, so
+ * the cookie is set before the browser's default navigation follows the
+ * `href`, with no `preventDefault`/client-side redirect needed. This never
+ * changes where THIS click navigates to (still the direct target URL,
+ * exactly as before) — it only affects a future bare-`/` visit.
  */
 import { usePathname, useSearchParams } from "next/navigation";
 import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { t } from "@core/i18n/index";
+import { localeCookieString } from "@lib/localeNegotiation";
+
+function persistLocalePreference(locale: Locale): void {
+  if (typeof document === "undefined") return;
+  const secure = typeof window !== "undefined" && window.location.protocol === "https:";
+  document.cookie = localeCookieString(locale, { secure });
+}
 
 /** Language names are shown in their OWN script, self-referentially — the
  *  universal convention for locale switchers ("한국어" reads "한국어"
@@ -63,6 +79,7 @@ export function LocaleSwitcher({ locale }: { locale: Locale }) {
           {i > 0 ? <span aria-hidden="true"> / </span> : null}
           <a
             href={pathForLocale(l)}
+            onClick={() => persistLocalePreference(l)}
             aria-current={l === locale ? "true" : undefined}
             className={l === locale ? "tgi-locale-switcher__link tgi-locale-switcher__link--active" : "tgi-locale-switcher__link"}
           >

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { personDisplayName, t, tOptional, type MessageKey } from "@core/i18n/index";
+import { localizedAlternates } from "@lib/seo";
 import { SEED_PEOPLE } from "@data/people/seed";
 import { traitConstellation } from "@core/interpretation/constellation";
 import { rankSimilarPeople, selectOppositePerson } from "@core/matching/personSimilarity";
@@ -67,7 +68,8 @@ export async function generateMetadata({
   const name = personDisplayName(locale, person);
   return {
     title: `${name} — The Great Inside`,
-    description: `${name}'s trait profile on The Great Inside — see how your own profile compares.`,
+    description: t(locale, "meta.person.description", { name }),
+    alternates: localizedAlternates(locale, `/people/${slug}`),
   };
 }
 

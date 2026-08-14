@@ -14,24 +14,38 @@ ALSO FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 4
 2026-08. Phase 10D Stage 5 (Final Cross-Page Visual Consistency /
 Micro-Polish) is ALSO FORMALLY CLOSED, human-approved, 2026-08.**
 **PHASE 10D AS A WHOLE IS NOW FORMALLY CLOSED, human-approved,
-2026-08.** This is the durable resume point for a fresh session — read
-this file, `CLAUDE.md`'s Status section and its dedicated "Phase 10C —
-historical result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3",
-"Phase 10D-3 Follow-up", "Phase 10D-4", and "Phase 10D Stage 5" sections,
-and `docs/deployment.md` before touching Phase 10 again. Phase 9 is
-FORMALLY CLOSED and frozen (see `docs/phase9-provisional-checkpoint.md`)
-— nothing in this document proposes touching it. Stage 10C's code
-(including the post-E2E auth-state fix, deployed from commit
+2026-08.** **Post-10D Stage A (SEO & Locale Foundation) is ALSO NOW
+FORMALLY CLOSED, automated/build verified, user-approved, 2026-08** —
+see "Stage A record" below. This is the durable resume point for a
+fresh session — read this file, `CLAUDE.md`'s Status section and its
+dedicated "Phase 10C — historical result fidelity", "Phase 10D-1",
+"Phase 10D-2", "Phase 10D-3", "Phase 10D-3 Follow-up", "Phase 10D-4",
+"Phase 10D Stage 5", and "Post-10D Stage A — SEO & Locale Foundation"
+sections, and `docs/deployment.md` before touching Phase 10 again.
+Phase 9 is FORMALLY CLOSED and frozen (see
+`docs/phase9-provisional-checkpoint.md`) — nothing in this document
+proposes touching it. Stage 10C's code (including the post-E2E
+auth-state fix, deployed from commit
 `d425e24730fa524429033978298431dd84be1f9e`) has passed a full production
 human E2E — see "Stage 10C record" below for the complete evidence.
 **Every page-level Phase 10D wide-desktop layout candidate (Landing,
 Person, Live Results, Saved Result, Compare) is resolved, AND the final
 cross-page visual-consistency audit found and fixed the last two
 genuine gaps (Person's mobile Similar People density, one missing
-Divider before Sources). Phase 10D has no open items.** Phase 10's own
-broader, still-unstarted scope (SEO/share/analytics/ads/portraits/
-custom domain — see "Phase 10C record" and CLAUDE.md's Roadmap) —
-see "Exact next task for a fresh session" at the bottom of this file.
+Divider before Sources). Phase 10D has no open items.** Stage A added
+`robots.txt`, `sitemap.xml` (76 URLs), page-level noindex for
+Results/Compare/Account/Saved Result, canonical/hreflang for every
+indexed page, and bare-`/` locale negotiation with a `tgi_locale`
+preference cookie — all verified by build output, curl against a
+running production server, and Playwright, with no subjective visual
+review needed (Stage A touched zero visual composition). **A Stage B
+(sharing UX + Open Graph) audit may or may not exist yet — check this
+file's own "Stage B" heading before assuming its status; an audit is
+never implementation authorization on its own.** Phase 10's own
+broader, still-unstarted scope beyond Stage A (share cards/OG images,
+analytics, ads, portraits, custom domain — see "Phase 10C record" and
+CLAUDE.md's Roadmap) — see "Exact next task for a fresh session" at the
+bottom of this file.
 
 ## Stage 10A record (2026-08) — Production Foundation, FORMALLY CLOSED
 
@@ -1250,63 +1264,214 @@ open design question requiring a second round. **This was the last
 open item in Phase 10D — Phase 10D as a whole is FORMALLY CLOSED as of
 this stage's closure.**
 
+## Stage A record (2026-08) — SEO & Locale Foundation, FORMALLY CLOSED, automated/build verified, user-approved
+
+**A distinct stage from Phase 10D, not a Phase 10D sub-stage.** Requested
+and scoped after Phase 10D's own closure, as a "Post-10D Launch
+Readiness — Discoverability, Sharing & Locale Entry" audit that the user
+then split into two approved stages: **Stage A (SEO & Locale
+Foundation)**, implemented and closed here, and **Stage B (Sharing +
+Open Graph)**, audit-only as of this record (see "Stage B" heading
+below if it exists in this file, or `CLAUDE.md`'s Roadmap for current
+status). See `CLAUDE.md`'s dedicated "Post-10D Stage A — SEO & Locale
+Foundation" section for the full technical record; this section is the
+checkpoint-doc mirror with the exact scope/verification/closure
+reasoning for a fresh session to resume from.
+
+**Scope, exactly as approved, nothing more:** `robots.txt`, `sitemap.xml`,
+page-level noindex directives for user/session pages, canonical +
+hreflang for indexed pages, bare-`/` locale negotiation, and the
+`tgi_locale` preference cookie. Explicitly OUT of scope and untouched:
+sharing UI, OG image generation, analytics, monetization, portraits,
+dataset scaling, and any Phase 10D visual/layout change.
+
+**Four refinements the user specified before implementation began, all
+honored exactly:**
+1. `robots.txt` never disallows Results/Compare/Account/Saved Result —
+   those are protected by page-level `noindex` alone, which requires the
+   page to stay crawlable. Only `/auth/callback` is disallowed.
+2. Quiz is a real, indexable, sitemap-listed destination — not treated
+   as user-specific despite living next to Results/Compare in the route
+   tree.
+3. `<html lang>` must not be fixed by making the app dynamic or by a
+   client-side post-hydration mutation. The fix had to be proven
+   SSG-safe with real build output before being accepted, and a
+   documented-deferral fallback was pre-authorized if no safe fix
+   existed.
+4. `x-default` was evaluated (not assumed) against bare `/`, with a
+   fallback to the English localized URL pre-authorized if Next.js/SEO
+   mechanics made bare `/` unsuitable.
+
+**The `<html lang>` fix — the one genuinely nontrivial technical
+question this stage answered.** `app/layout.tsx` (the true root) sits
+above the `[locale]` dynamic segment in the route tree and structurally
+cannot read `params.locale` — there is no "just read it" fix available
+at that level. Reading `Accept-Language`/cookies at request time in a
+root layout that wraps every route would make the entire app dynamic,
+destroying the one invariant Stage A was told to protect above all
+others (all 70 Person pages must stay `●` SSG). The fix that satisfies
+both constraints is Next.js's own documented "multiple root layouts via
+route groups" pattern: `app/(default)/layout.tsx` (new, covers bare `/`,
+the one route outside `/[locale]/*`) and `app/[locale]/layout.tsx`
+itself (modified to render `<html lang={locale}>`/`<body>` directly,
+since this segment IS the locale param and always has full access to
+it) become two independent, parallel root layouts; the single
+`app/layout.tsx` is deleted, since Next.js requires exactly one root per
+route family under this pattern and a lingering third root would
+conflict. `src/lib/fonts.ts` extracts the shared `Noto_Serif_KR`
+`next/font/google` call so neither root duplicates the font load — a
+build-time-keyed optimization, confirmed correct by reading Next's own
+docs on sharing fonts across multiple roots, not assumed.
+**Empirically proven safe, not just implemented and hoped**: a full
+`next build --webpack` was run immediately after the change, and the
+route table was inspected directly — identical 86-route count (before
+`robots.ts`/`sitemap.ts` existed, the baseline was 84; both numbers are
+apples-to-apples once the two new static convention routes are
+accounted for), identical static/dynamic split, all 70 Person pages
+still `●`. Then the actual built HTML was grepped for the `<html>` tag
+on representative pages (`/en-US`, `/ko-KR`, `/en-US/people`,
+`/en-US/people/leonardo-da-vinci`, and their `ko-KR` equivalents) and
+confirmed to carry the correct `lang` attribute in every case. No
+fallback/deferral was needed — the SSG-safe solution existed and worked
+on the first attempt.
+
+**Verification discipline for this stage, distinct from every Phase
+10D stage's.** Phase 10D's stages all closed on "audit → implement →
+automated QA → real human visual approval against real screenshots" —
+appropriate because that work was fundamentally about how the product
+*looks*, a judgment call no test suite can make. Stage A's decisions —
+what gets indexed, what a redirect target is, what a cookie's attributes
+are, what a `<link>` tag's `href` says — all have an objectively correct
+answer checkable by code, HTTP response, or DOM/build-output inspection,
+and every one of them WAS checked that way: `curl` against a real
+running production-mode server with real `Accept-Language`/`Cookie`
+headers for every locale-negotiation scenario the directive named (not
+just green Playwright tests, though those exist too and assert the same
+things); direct `grep`/inspection of the built `sitemap.xml.body`,
+`robots.txt.body`, and representative page HTML for canonical/hreflang/
+`<html lang>`/`noindex` meta; a fresh, from-clean-tree re-run of the
+entire validation suite immediately before closure (not carried over
+from an earlier pass in the same session). No new visual UI was
+introduced this stage (`LocaleSwitcher` already existed; only its
+`onClick` gained a side effect) — this is why Stage A could close
+without human visual review, a genuine difference from Phase 10D, not a
+lowering of the bar.
+
+**Vitest count bookkeeping — corrected during this closeout.** An
+earlier chat-only report (never written into this file or `CLAUDE.md`
+before this closeout) said "91 new Vitest tests," arrived at by summing
+several intermediate targeted-suite run counts that were overlapping
+subsets of the same growing test file set, not independent additions —
+double-counting, the same category of error Phase 7's "Genghis Khan
+chat-table" reporting mistake was (a presentation/reporting error, never
+a code defect). The only correct figure is the net full-suite delta:
+**422 (Phase 10D Stage 5 baseline) → 475 (Stage A final) = +53 net.**
+Confirmed by re-running the full suite fresh at closeout, not merely by
+re-deriving the arithmetic. No test was altered to make a number match
+— the fix was entirely to the reporting, never the tests themselves.
+
+**Final verification, re-run fresh from a clean working tree at
+closeout time (not reused from mid-implementation runs):** `tsc
+--noEmit` clean · `vitest run` **475/475** (32→33 test files, net +53
+tests over the 422 Stage-5 baseline) · `next build --webpack` clean,
+**86 routes** (84 baseline + `robots.txt` + `sitemap.xml`, both `○`
+static), all 70 Person pages + People directory + Quiz still `●` SSG,
+static/dynamic split otherwise byte-identical to the Stage-5 baseline ·
+Playwright **175/175** (151 baseline + 24 new in `e2e/seoLocale.spec.ts`)
+· `git status` reviewed for secrets/scratch files/real result tokens
+before commit — none found, everything present is a real, intentional
+Stage A file.
+
+**Stage A is FORMALLY CLOSED, automated/build verified, user-approved
+(2026-08).** Unlike every Phase 10D stage, closure did not require a
+live human visual-approval round — the user's own instruction
+explicitly authorized closing Stage A on automated/build verification
+alone once every checkable claim was independently re-confirmed, since
+none of Stage A's decisions are subjective or visual. `CLAUDE.md`'s
+dedicated "Post-10D Stage A" section carries the full technical record;
+this section is the checkpoint-doc mirror for a fresh session.
+
 ## Exact next task for a fresh session
 
-**Phase 10D is fully closed — this section no longer points into it.**
-The next work is somewhere in Phase 10's own broader, still-unstarted
-scope, but which specific area starts (if any) needs its own fresh,
-explicit decision; nothing below is pre-approved or begun.
+**Phase 10D is fully closed. Post-10D Stage A (SEO & Locale Foundation)
+is also fully closed.** The next work is Stage B (sharing UX + Open
+Graph) — check whether a "Stage B" audit section exists further down in
+this file (or in `CLAUDE.md`) before assuming its status. **An audit
+existing is not implementation authorization** — Stage B implementation
+needs its own fresh, explicit decision on the subjective/product
+questions the audit isolates, exactly as Stage A needed before it began.
 
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
    result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3",
-   "Phase 10D-3 Follow-up", "Phase 10D-4", and "Phase 10D Stage 5"),
-   this file, and `docs/deployment.md` in full.
+   "Phase 10D-3 Follow-up", "Phase 10D-4", "Phase 10D Stage 5", and
+   "Post-10D Stage A — SEO & Locale Foundation"), this file (including
+   "Stage A record" above and any "Stage B" section that may follow it),
+   and `docs/deployment.md` in full.
 2. Phase 9 is closed and frozen — do not reopen it. **Phase 10D in its
    entirety (Stages 10D-1 through 10D-4, the Saved Result Historical
-   Parity Follow-up, and Stage 5) is closed** — do not redo any of its
-   audits, re-litigate the site-origin/historical-fidelity/auth-state/
-   rail-breakpoint/snapshot-parity/Compare-pairing/Facet-Similarity/
-   cross-page-consistency designs, repeat the git/GitHub/Vercel setup,
+   Parity Follow-up, and Stage 5) is closed, AND Post-10D Stage A is
+   closed** — do not redo any of its audits, re-litigate the
+   site-origin/historical-fidelity/auth-state/rail-breakpoint/
+   snapshot-parity/Compare-pairing/Facet-Similarity/cross-page-
+   consistency/robots-vs-noindex/`<html lang>`-route-group/locale-
+   negotiation-precedence designs, repeat the git/GitHub/Vercel setup,
    redo the migration, redo the backfill, or re-run the Phase 10D layout
-   audit. Do not re-litigate the Facet Similarity Option B rejection
-   without genuinely new evidence — it was rejected on a reproduced,
-   tested defect, not a style preference. Do not reopen Results'
-   `SignInCta` visual weight or Saved Result's Closest Match portrait
-   deferral — both were explicitly reviewed again at Stage 5 and left
-   as recorded, still-open, non-blocking items, not silently forgotten.
-3. **Reuse, don't rebuild**, for any future visual work on this
-   product, Phase 10 or otherwise: the Playwright harness
-   (`playwright.config.ts`, `e2e/utils/visualChecks.ts`) — running
-   against a production build, not `next dev` — and the "automate
-   everything reasonably automatable before asking for human
-   validation" testing policy both apply going forward. `Rail`/
-   `IdentityHero` (`src/ui/components/layout.tsx`) remain proven
-   unchanged since Stage 1 across every subsequent stage. The
-   wide-desktop breakpoint is **≥1280px** — do not reopen that decision
-   without new evidence. The mobile discovery-grid breakpoint
-   (**≤640px**, `.tgi-results-discovery-grid`) is now shared by three
-   pages (Results, Saved Result, Person) — reuse it again for any future
-   multi-`PersonCard` grid rather than inventing a new mobile pattern.
-   The "build the real experiment and measure it before deciding"
-   discipline Compare's Round 2 and Stage 5 both used is the model for
-   any future genuinely-open visual decision. The "Anti-AI-template /
-   human-authored design principle" section in `CLAUDE.md` applies to
-   every future visual decision on this product, not only Phase 10D.
-4. **Candidates for Phase 10's own remaining scope — none approved,
-   none begun, each needs its own fresh decision:**
-   - Full SEO pass (canonical URLs, hreflang, sitemap.xml, structured
-     data, OpenGraph images), share cards, analytics, ads, portraits
-     pipeline, and eventually a custom branded domain (would also
-     require revisiting `NEXT_PUBLIC_SITE_URL` and the Supabase/Google
-     redirect-URL allow-lists a second time) — this list is already
-     authoritative, recorded at Phase 10C's own closure, not newly
-     invented here.
+   audit or the Stage A SEO/locale audit. Do not re-litigate the Facet
+   Similarity Option B rejection without genuinely new evidence — it was
+   rejected on a reproduced, tested defect, not a style preference. Do
+   not reopen Results' `SignInCta` visual weight or Saved Result's
+   Closest Match portrait deferral — both were explicitly reviewed again
+   at Stage 5 and left as recorded, still-open, non-blocking items, not
+   silently forgotten. Do not re-decide the `x-default` -> bare `/`
+   policy or the `≥1280px` wide-desktop breakpoint without genuinely new
+   evidence — both were deliberate, evaluated decisions, not defaults.
+3. **Reuse, don't rebuild**, for any future work on this product, Phase
+   10 or otherwise: the Playwright harness (`playwright.config.ts`,
+   `e2e/utils/visualChecks.ts`) — running against a production build,
+   not `next dev` — and the "automate everything reasonably automatable
+   before asking for human validation" testing policy both apply going
+   forward (Stage A's own closure is itself an example: it required zero
+   human visual review because every one of its decisions was
+   objectively checkable). `Rail`/`IdentityHero`
+   (`src/ui/components/layout.tsx`) remain proven unchanged since Stage
+   1 across every subsequent stage. The wide-desktop breakpoint is
+   **≥1280px** — do not reopen that decision without new evidence. The
+   mobile discovery-grid breakpoint (**≤640px**,
+   `.tgi-results-discovery-grid`) is now shared by three pages (Results,
+   Saved Result, Person) — reuse it again for any future multi-
+   `PersonCard` grid rather than inventing a new mobile pattern. For
+   locale/URL work specifically: `src/lib/seo.ts`'s
+   `localizedAlternates()`, `src/lib/localeNegotiation.ts`'s
+   `resolveEntryLocale()`/`localeCookieString()`, and `src/lib/
+   sitemapEntries.ts`/`src/lib/robotsConfig.ts` are the canonical,
+   tested implementations — reuse them, don't reimplement the same
+   logic for a new route. The "build the real experiment and measure it
+   before deciding" discipline Compare's Round 2 and Stage 5 both used
+   is the model for any future genuinely-open visual decision. The
+   "Anti-AI-template / human-authored design principle" section in
+   `CLAUDE.md` applies to every future visual decision on this product,
+   not only Phase 10D.
+4. **Candidates for Phase 10's own remaining scope — Stage A is now
+   done; everything below is still unapproved/unbegun, each needs its
+   own fresh decision:**
+   - Stage B (sharing UX: share/copy-link controls, per-page privacy
+     disclosure near Share) and Open Graph (generic/Person/Results/
+     Compare OG images or metadata) — see "Stage B" section in this
+     file if present for the detailed audit; implementation itself is
+     NOT approved merely because an audit exists.
+   - Analytics, ads, portraits pipeline, and eventually a custom
+     branded domain (would also require revisiting
+     `NEXT_PUBLIC_SITE_URL` and the Supabase/Google redirect-URL
+     allow-lists a second time) — this list is already authoritative,
+     recorded at Phase 10C's own closure, not newly invented here.
    - Named as further candidates during Stage 5's closeout, but with NO
-     prior scope/design/decision behind them yet (weaker status than
-     the list above): browser-language/locale-preference detection
-     policy, an explicit monetization strategy decision, launch QA/
-     public beta, and later dataset scaling toward the 100-1,000-person
-     range "Inclusion philosophy" already anticipates structurally.
+     prior scope/design/decision behind them yet: an explicit
+     monetization strategy decision, launch QA/public beta, and later
+     dataset scaling toward the 100-1,000-person range "Inclusion
+     philosophy" already anticipates structurally. (Browser-language/
+     locale-preference detection, also named at Stage 5, is now
+     RESOLVED by Stage A — remove it from any future "still unscoped"
+     list.)
    - A small, non-blocking micro-polish item, re-confirmed still open
      at Stage 5: the Results-page `SignInCta` sunken-card treatment
      could be revisited for a flatter editorial look — presentation

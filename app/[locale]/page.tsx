@@ -1,7 +1,29 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { t } from "@core/i18n/index";
+import { localizedAlternates } from "@lib/seo";
 import { Button, Card, Cluster, Display, Eyebrow, Rail, Stack, Text } from "@ui/index";
+
+interface PageParams {
+  locale: string;
+}
+
+/**
+ * POST-10D STAGE A: Landing had no `generateMetadata` at all before this —
+ * it inherited only the generic `app/(default)/layout.tsx` title/
+ * description. Self canonical + hreflang alternates via `localizedAlternates`
+ * (pathSuffix `""`, since Landing's URL is exactly `/{locale}`).
+ */
+export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
+  const { locale: localeParam } = await params;
+  const locale = LAUNCH_LOCALES.includes(localeParam as Locale) ? (localeParam as Locale) : "en-US";
+  return {
+    title: t(locale, "meta.landing.title"),
+    description: t(locale, "meta.landing.description"),
+    alternates: localizedAlternates(locale, ""),
+  };
+}
 
 /**
  * Locale-scoped landing page (Phase 6; wide-desktop rail composition added

@@ -1,139 +1,36 @@
-"use client";
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import { LAUNCH_LOCALES, type Locale } from "@core/types";
+import { t } from "@core/i18n/index";
+import { localizedAlternates } from "@lib/seo";
+import { PeopleDirectoryClient } from "./PeopleDirectoryClient";
 
-import { useMemo, useState } from "react";
-import { useParams } from "next/navigation";
-import type { Era, Locale } from "@core/types";
-import { personDisplayName, t, type MessageKey } from "@core/i18n/index";
-import { SEED_PEOPLE } from "@data/people/seed";
-import {
-  availableFilterOptions,
-  explorePeople,
-  type PeopleFilter,
-  type PeopleSortKey,
-} from "@core/people/explorer";
-import {
-  Cluster,
-  Eyebrow,
-  formatLifespan,
-  Grid,
-  Heading,
-  PersonCard,
-  Select,
-  Stack,
-  Text,
-  TextField,
-} from "@ui/index";
-
-const SORT_KEYS: readonly PeopleSortKey[] = [
-  "name_asc",
-  "name_desc",
-  "birth_year_asc",
-  "birth_year_desc",
-  "confidence_desc",
-];
-
-const ALL_VALUE = "";
-
-export default function PeopleDirectoryPage() {
-  const params = useParams<{ locale: string }>();
-  const locale = params.locale as Locale;
-
-  const [query, setQuery] = useState("");
-  const [era, setEra] = useState<string>(ALL_VALUE);
-  const [region, setRegion] = useState<string>(ALL_VALUE);
-  const [sort, setSort] = useState<PeopleSortKey>("name_asc");
-
-  const options = useMemo(() => availableFilterOptions(SEED_PEOPLE), []);
-
-  const filter: PeopleFilter = useMemo(
-    () => ({
-      ...(era !== ALL_VALUE ? { eras: [era as Era] } : {}),
-      ...(region !== ALL_VALUE ? { regionCodes: [region] } : {}),
-    }),
-    [era, region],
-  );
-
-  const results = useMemo(
-    () => explorePeople(SEED_PEOPLE, { query, filter, sort }),
-    [query, filter, sort],
-  );
-
-  return (
-    <main className="tgi-container" style={{ paddingTop: "3rem", paddingBottom: "5rem" }}>
-      <Stack gap={7}>
-        <Stack gap={3}>
-          <Eyebrow>The Great Inside</Eyebrow>
-          <Heading level={1}>{t(locale, "people.directory.title")}</Heading>
-          <Text tone="secondary">{t(locale, "people.directory.intro")}</Text>
-        </Stack>
-
-        <Stack gap={4}>
-          <Cluster gap={3} className="tgi-filter-bar">
-            <TextField
-              value={query}
-              onChange={setQuery}
-              placeholder={t(locale, "people.directory.search_placeholder")}
-              ariaLabel={t(locale, "people.directory.search_placeholder")}
-              className="tgi-field--grow"
-            />
-            <Select
-              value={era}
-              onChange={setEra}
-              ariaLabel={t(locale, "people.directory.era_label")}
-              options={[
-                { value: ALL_VALUE, label: `${t(locale, "people.directory.era_label")}: ${t(locale, "people.directory.all")}` },
-                ...options.eras.map((e) => ({ value: e, label: t(locale, `era.${e}` as MessageKey) })),
-              ]}
-            />
-            <Select
-              value={region}
-              onChange={setRegion}
-              ariaLabel={t(locale, "people.directory.region_label")}
-              options={[
-                {
-                  value: ALL_VALUE,
-                  label: `${t(locale, "people.directory.region_label")}: ${t(locale, "people.directory.all")}`,
-                },
-                ...options.regionCodes.map((r) => ({ value: r, label: humanize(r) })),
-              ]}
-            />
-            <Select
-              value={sort}
-              onChange={setSort}
-              ariaLabel={t(locale, "people.directory.sort_label")}
-              options={SORT_KEYS.map((key) => ({ value: key, label: t(locale, `sort.${key}` as MessageKey) }))}
-            />
-          </Cluster>
-          <Text tone="muted">{t(locale, "people.directory.count", { count: results.length })}</Text>
-        </Stack>
-
-        {results.length === 0 ? (
-          <Text tone="muted">{t(locale, "people.directory.empty")}</Text>
-        ) : (
-          <Grid min="14rem">
-            {results.map((person) => (
-              <PersonCard
-                key={person.id}
-                name={personDisplayName(locale, person)}
-                subtitle={[
-                  person.occupationIds[0] ? t(locale, `occupation.${person.occupationIds[0]}` as MessageKey) : undefined,
-                  t(locale, `era.${person.era}` as MessageKey),
-                ]
-                  .filter(Boolean)
-                  .join(" · ")}
-                lifespan={formatLifespan(person.birthYear, person.deathYear, person.isLiving)}
-                href={`/${locale}/people/${person.slug}`}
-                locale={locale}
-                {...(person.portrait ? { portraitUrl: person.portrait.url } : {})}
-              />
-            ))}
-          </Grid>
-        )}
-      </Stack>
-    </main>
-  );
+interface PageParams {
+  locale: string;
 }
 
-function humanize(id: string): string {
-  return id.replace(/_/g, " ");
+/**
+ * POST-10D STAGE A: thin Server Component wrapper — `generateMetadata` can
+ * only be exported from a Server Component, which this page previously
+ * couldn't be (it was `"use client"` end-to-end). All interactive
+ * search/filter/sort state now lives in `PeopleDirectoryClient.tsx`,
+ * unchanged; this file only resolves/validates the locale and owns
+ * metadata.
+ */
+export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
+  const { locale: localeParam } = await params;
+  const locale = LAUNCH_LOCALES.includes(localeParam as Locale) ? (localeParam as Locale) : "en-US";
+  return {
+    title: t(locale, "meta.people.title"),
+    description: t(locale, "meta.people.description"),
+    alternates: localizedAlternates(locale, "/people"),
+  };
+}
+
+export default async function PeopleDirectoryPage({ params }: { params: Promise<PageParams> }) {
+  const { locale: localeParam } = await params;
+  if (!LAUNCH_LOCALES.includes(localeParam as Locale)) notFound();
+  const locale = localeParam as Locale;
+
+  return <PeopleDirectoryClient locale={locale} />;
 }

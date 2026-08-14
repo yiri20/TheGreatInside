@@ -15,6 +15,7 @@ import {
   selectLearnFromSuggestions,
   selectWorthExploring,
 } from "@core/interpretation/targetComparison";
+import { NOINDEX_FOLLOW } from "@lib/seo";
 import {
   Button,
   Card,
@@ -51,12 +52,24 @@ function personBySlug(slug: string) {
   return SEED_PEOPLE.find((p) => p.slug === slug);
 }
 
+/**
+ * POST-10D STAGE A: added a localized description (previously title-only)
+ * and an explicit `noindex, follow` (Compare is user-specific — a `?r=`
+ * token plus a target slug — and must never be indexed; `follow: true`
+ * still lets crawlers reach the target Person page it links to). No
+ * `alternates.canonical`, same reasoning as Results: a canonical tag would
+ * misrepresent one arbitrary token's URL as "the" canonical page for this
+ * slug pairing.
+ */
 export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
   const { locale: localeParam, slug } = await params;
   const locale = LAUNCH_LOCALES.includes(localeParam as Locale) ? (localeParam as Locale) : "en-US";
   const person = personBySlug(slug);
+  const name = person ? personDisplayName(locale, person) : undefined;
   return {
-    title: person ? `You × ${personDisplayName(locale, person)} — The Great Inside` : "Compare — The Great Inside",
+    title: name ? t(locale, "meta.compare.title", { name }) : t(locale, "meta.compare.title.generic"),
+    description: name ? t(locale, "meta.compare.description", { name }) : undefined,
+    robots: NOINDEX_FOLLOW,
   };
 }
 

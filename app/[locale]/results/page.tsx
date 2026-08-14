@@ -10,6 +10,7 @@ import { SEED_PEOPLE } from "@data/people/seed";
 import { computeResultView } from "@core/results/resultView";
 import { attributeName, renderComparison } from "@core/interpretation/rules";
 import type { TraitComparison } from "@core/types";
+import { NOINDEX_FOLLOW } from "@lib/seo";
 import {
   Button,
   Card,
@@ -44,10 +45,26 @@ interface PageSearchParams {
   r?: string;
 }
 
-export const metadata: Metadata = {
-  title: "Your Results — The Great Inside",
-  description: "Your Greatness Profile: closest historical match, signature trait, and full trait comparison.",
-};
+/**
+ * POST-10D STAGE A: converted from a static English-only `metadata` export
+ * to locale-aware `generateMetadata` — Results is user-specific (a `?r=`
+ * token) and must never be indexed, but still deserves a sensible
+ * localized browser-tab title/description (refinement 1: noindex, not
+ * robots.txt, is what keeps it out of search — the page must stay fully
+ * crawlable). No `alternates.canonical` — a canonical tag on a per-token
+ * result page would incorrectly declare one arbitrary token's URL as "the"
+ * canonical Results page, and Results carries no locale-only variant a
+ * canonical/hreflang pairing would even make sense for.
+ */
+export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
+  const { locale: localeParam } = await params;
+  const locale = LAUNCH_LOCALES.includes(localeParam as Locale) ? (localeParam as Locale) : "en-US";
+  return {
+    title: t(locale, "meta.results.title"),
+    description: t(locale, "meta.results.description"),
+    robots: NOINDEX_FOLLOW,
+  };
+}
 
 /** PHASE 8: replaces the old `humanize(id)` placeholder (raw id with
  *  underscores swapped for spaces, always English regardless of locale) —

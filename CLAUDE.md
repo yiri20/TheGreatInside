@@ -3937,6 +3937,174 @@ or defensibly intentional, and the two genuine gaps found were both
 small, mechanical, low-risk reuses of already-established patterns,
 approved on the first implementation round.
 
+## Post-10D Stage A — SEO & Locale Foundation (FORMALLY CLOSED, automated/build verified, user-approved, 2026-08)
+
+Scoped explicitly narrower than the full "10 SEO/share/ads/scale" candidate
+list Phase 10C's closure recorded: SEO indexing/sitemap/canonical/hreflang
+and locale entry/preference only. No sharing UI, no OG images, no
+analytics, no monetization, no portraits, no dataset scaling, no Phase 10D
+visual change of any kind — all explicitly out of scope and untouched.
+Full audit that preceded implementation, and the complete file-by-file
+implementation record, are in `docs/phase10-provisional-checkpoint.md`'s
+"Stage A record" — this section is the durable summary.
+
+**Refinement 1 — `robots.txt` and page-level `noindex` are not
+interchangeable, implemented exactly that way.** `app/robots.ts` (thin
+wrapper) + `src/lib/robotsConfig.ts` (logic, Vitest-covered) allow normal
+public crawling of everything except `/auth/callback` (pure infrastructure
+— a PKCE exchange with no content). Results/Compare/Account/Saved Result
+are **never** disallowed in `robots.txt` — they stay fully crawlable so
+their own page-level `robots` meta tag can actually be observed:
+Results/Compare ship `noindex, follow`; Account/Saved Result ship
+`noindex, nofollow`. Confirmed live via a running production server, not
+just asserted: `curl .../results` returns `<meta name="robots"
+content="noindex, follow"/>`, `curl .../account` returns `noindex,
+nofollow`, and `curl .../robots.txt` shows only `/auth/callback`
+disallowed.
+
+**Refinement 2 — Quiz is a real public, indexable destination**, same
+treatment as Landing/People/Person: localized title/description, self
+canonical, hreflang alternates, sitemap inclusion. No implementation
+evidence surfaced any reason to reconsider this — Quiz has no user-derived
+query state (unlike Results/Compare) and its content is the same for every
+visitor.
+
+**`app/sitemap.ts` + `src/lib/sitemapEntries.ts`**, generated from the
+canonical sources of truth (`LAUNCH_LOCALES`, `SEED_PEOPLE`) — never a
+hand-maintained list, so a future roster change can't silently drift out
+of sync with what actually has a page. **Exactly 76 URLs**, confirmed
+directly in the built `sitemap.xml`: 2 Landing + 2 People + 2 Quiz + 70
+Person (all 35 current people × 2 locales, including Zheng He — every
+published person is browsable regardless of match eligibility, matching
+`people/[slug]/page.tsx`'s own `generateStaticParams`). Bare `/`,
+Results, Compare, Account, Saved Result, and `/auth/callback` are all
+confirmed absent. 13 Vitest tests assert the exact count and every
+inclusion/exclusion rule; none uses or contains a real result token.
+
+**`src/lib/seo.ts`'s `localizedAlternates()`** is the one shared
+canonical/hreflang helper every indexed page's `generateMetadata` calls —
+self-referential canonical, both `LAUNCH_LOCALES` alternates, and
+`x-default`, all built from `siteUrl()` (never a hardcoded or Vercel
+preview hostname). **`x-default` resolves to bare `siteUrl()`** (the
+language-negotiation entry point implemented this stage), a documented,
+valid hreflang pattern (Google Search Central explicitly permits
+`x-default` to target a redirecting entry URL rather than one specific
+localized page) — confirmed correct by checking the actual rendered
+`<link rel="alternate" hreflang="x-default">` output, not assumed.
+Deliberately never applied to Results/Compare/Account/Saved Result — a
+canonical tag on a per-token or per-user page would misrepresent one
+arbitrary URL as "the" canonical page for that content.
+
+**Server/client split**, People directory (`app/[locale]/people/page.tsx`
++ new `PeopleDirectoryClient.tsx`) and Quiz (`app/[locale]/quiz/page.tsx`
++ new `QuizClient.tsx`): both were `"use client"` end-to-end, which
+structurally forbids `generateMetadata` (Server-Component-only). Each
+split into a thin Server Component wrapper (owns `generateMetadata`,
+resolves/validates `locale`) and an unchanged client child carrying 100%
+of the previous interactive implementation, `locale` now a prop instead
+of `useParams()`. Zero UI/behavior/route-shape change — confirmed by
+direct diff of the moved content and by both pages remaining `●` SSG in
+the build output before and after.
+
+**Localized EN/KO metadata for all 8 pages**, via new `meta.*` i18n keys
+in both `en.ts`/`ko.ts` (natural Korean, not literal translation, per this
+file's own localization-philosophy section) — Landing/People/Quiz/Person
+indexed with real descriptions; Results/Compare/Account/Saved Result
+noindex but still carry sensible localized browser-tab titles (Compare
+specifically gained a description it never had before). The Korean
+translation-coverage regression guard (`translationCoverage("ko-KR") ===
+1`) still passes at 100% with every new key added.
+
+**`<html lang>` — fixed, SSG-safe, using Next.js's documented "multiple
+root layouts via route groups" pattern**, after an explicit investigation
+(per this stage's own instruction not to assume a fix exists). The true
+root (`app/layout.tsx`, which sat above the `[locale]` segment and could
+never read that param) is deleted; `app/(default)/layout.tsx` is a new,
+independent root layout for the one route outside `/[locale]/*` (bare
+`/`); `app/[locale]/layout.tsx` itself now renders `<html
+lang={locale}>`/`<body>` directly (previously an inner `<div lang=
+{locale}>`), since this segment IS the `[locale]` route param and always
+has been. `src/lib/fonts.ts` extracts the shared `Noto_Serif_KR`
+`next/font/google` call so both parallel roots use the identical font
+config (a build-time-keyed optimization, not a duplicated load).
+`generateStaticParams()` on `app/[locale]/layout.tsx` is untouched — the
+exact mechanism keeping all 70 Person pages static. **Verified, not
+assumed**: a full production build shows the identical 86-route table,
+static/dynamic split, and all 70 Person pages still `●` SSG both before
+and after the change; the actual built HTML confirms `<html
+lang="en-US">` on every `/en-US/**` page and `<html lang="ko-KR">` on
+every `/ko-KR/**` page.
+
+**Locale entry — bare `/` only, `proxy.ts` + new `src/lib/
+localeNegotiation.ts`.** Precedence: explicit `tgi_locale` cookie ->
+`Accept-Language` (q-value-aware, primary-subtag matching, scoped to
+`LAUNCH_LOCALES` only) -> `en-US` (`DEFAULT_LOCALE`) fallback. No IP/
+geolocation input of any kind. Scoped to the exact `/` pathname in
+`proxy.ts` — every other route, including any already-localized
+`/en-US/*`/`/ko-KR/*` URL, falls through unchanged to the pre-existing
+Supabase session-refresh call, so a user who explicitly visited a
+localized URL is never redirected away from it. Query string is
+preserved across the redirect. **Verified live against a running
+production server** with real `curl` requests carrying `Accept-Language`/
+`Cookie` headers — every one of the 8 scenarios the stage's own directive
+enumerated (no header, ko header, en header, unsupported header, cookie
+beating an opposing header in both directions, direct `/ko-KR` immune to
+an opposing English cookie, query-string preservation) produced the
+exact expected `307` redirect target, not just passing in an automated
+test. 22 Vitest tests on the pure parser/precedence functions (malformed
+headers, wildcards, garbage q-values — all fail safe to `en-US`, never
+throw).
+
+**`LocaleSwitcher.tsx` now persists an explicit choice** as `tgi_locale`
+(`src/lib/localeNegotiation.ts`'s `localeCookieString()`): `Path=/`, 1-year
+`Max-Age`, `SameSite=Lax`, `Secure` only under HTTPS (checked via
+`window.location.protocol`, not `NODE_ENV`), never `HttpOnly` (client-set
+preference, not an auth cookie — and client JS structurally cannot set
+`HttpOnly` anyway). Written via a synchronous `onClick` on the real
+`<a href>` before the browser's default navigation follows it — no
+`preventDefault`, no client-side redirect. Confirmed live via Playwright:
+the cookie is written with the correct attributes, the existing
+path/query/result-token preservation behavior is completely unchanged,
+and switching locale never triggers the bare-`/` negotiation logic at all
+(direct navigation to the target locale, not through `/`).
+
+**Verification, final.** `tsc --noEmit` clean · `vitest run` **475/475**
+(baseline 422 + net **+53** new — `seo.test.ts` 8, `robotsConfig.test.ts`
+5, `sitemapEntries.test.ts` 13, `localeNegotiation.test.ts` 27; an earlier
+report of this session incorrectly summed the same suite's growth across
+several intermediate targeted runs to "91," double-counting overlapping
+subsets — the only correct figure is the net full-suite delta, 422→475)
+· `next build --webpack` clean, **86 routes** (84 Phase-10D-Stage-5
+baseline + `robots.txt` + `sitemap.xml`, both `○` static), all 70 Person
+pages still `●` SSG, People directory and Quiz still `●` SSG despite the
+server/client split, static/dynamic split otherwise byte-identical ·
+Playwright **175/175** (151 baseline + 24 new, `e2e/seoLocale.spec.ts`) ·
+re-run fresh from a clean working tree immediately before closure, not
+carried over from an earlier pass.
+
+**Why this stage needed no subjective human visual QA, unlike every Phase
+10D stage.** Phase 10D's closure discipline ("audit first, implement,
+verify automatically, then get real human approval against real
+screenshots") existed specifically because that work was about how the
+product *looks* — a judgment call no test suite can make. Stage A touched
+zero visual composition: every decision it made (what gets indexed, what
+a redirect target is, what a cookie's attributes are, what a `<link>` tag
+says) has an objectively correct answer checkable by code, HTTP response,
+or DOM inspection, and every one of those was actually checked this way —
+curl against a real running server, not just green tests. No new UI was
+introduced (the LocaleSwitcher already existed; only its `onClick` gained
+a side effect).
+
+**Known non-blocking items, recorded for Stage B or later, not fixed
+here:** `NEXT_PUBLIC_SITE_URL` remains unset in this local environment
+(the same pre-existing gap `siteUrl()`'s Stage 10A hardening already
+handles gracefully — falls through to `VERCEL_PROJECT_PRODUCTION_URL` in
+real production, confirmed working since Stage 10B's deployment); no OG
+image generation of any kind exists yet (Stage B scope); the generic
+root-level `metadataBase`/title/description on `app/(default)/layout.tsx`
+is minimal by design (bare `/` has no content of its own, only a
+redirect).
+
 ## Roadmap
 
 Phase 0 architecture ✓ · 1 design system ✓ · 2 dataset to 30+ ✓ (see open issue
@@ -4290,22 +4458,32 @@ visual decision on this product, not only Phase 10D:**
 **What's next, stated precisely rather than assumed.** Phase 10 itself
 was always framed more broadly than 10D (see "10 SEO/share/ads/scale"
 above) — 10A-10C (production foundation, first deployment, historical
-result fidelity) and now 10D (visual polish) are closed, but Phase 10's
-own remaining scope was never started and stays exactly as already
-recorded at Phase 10C's own closure: **no full SEO pass, no share
-cards, no analytics, no ads, no portraits pipeline, no custom domain,
-no invented privacy-policy/business facts.** Separately, this Stage 5
-closeout request also named several further candidate areas for a
-post-launch track — browser-language/locale-preference detection
-policy, an explicit monetization strategy decision, launch QA/public
-beta, and later dataset scaling toward the 100-1,000-person range the
-"Inclusion philosophy" section already anticipates structurally. These
-are recorded here as **named candidates only** — none of them has an
-approved scope, design, or decision behind it yet, unlike the
-SEO/share/ads/portraits/domain list above, which already has that
-status from Phase 10C's closure. Every item in both lists needs its own
-fresh, explicit decision before any work begins, same discipline as
-every Phase 10D stage used — nothing here starts automatically.
+result fidelity) and 10D (visual polish) are closed. **Post-10D Stage A
+(SEO & Locale Foundation) is now ALSO FORMALLY CLOSED** — see that
+section above for the full record: `robots.txt`, `sitemap.xml` (76
+URLs), page-level noindex for Results/Compare/Account/Saved Result,
+canonical/hreflang for every indexed page, bare-`/` locale negotiation,
+and the `<html lang>` SSG-safe fix are all live. This resolves the
+"browser-language/locale-preference detection policy" item the Stage 5
+closeout had named as an unscoped candidate, and delivers the SEO/
+sitemap/canonical/hreflang portion of the "no full SEO pass" item from
+Phase 10C's closure — **specifically the indexing/locale portion only**;
+OG image generation and share cards were deliberately out of Stage A's
+scope and remain exactly as unscoped as before (see the dedicated
+Post-10D Stage A section above for the precise boundary). Phase 10's
+remaining scope stays exactly as recorded at Phase 10C's closure: **no
+share cards/OG images, no analytics, no ads, no portraits pipeline, no
+custom domain, no invented privacy-policy/business facts.** An
+audit-only pass for Stage B (sharing UX + Open Graph) may follow — see
+`docs/phase10-provisional-checkpoint.md`'s "Stage A record" for whether
+that audit exists yet and what it found; audit alone is never
+implementation authorization. The other Stage-5-named candidates remain
+unscoped, unapproved, and unstarted: an explicit monetization strategy
+decision, launch QA/public beta, and later dataset scaling toward the
+100-1,000-person range the "Inclusion philosophy" section already
+anticipates structurally. Every item in every list needs its own fresh,
+explicit decision before any work begins — nothing here starts
+automatically.
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 

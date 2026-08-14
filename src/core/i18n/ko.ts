@@ -1435,4 +1435,23 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   // native speaker's confirmation against current Korean art-press usage
   // specifically, more than the other Japanese names above.
   "person.name.yayoi-kusama": "쿠사마 야요이",
+
+  // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
+  // block in en.ts for the full rationale. Natural Korean, not a literal
+  // rendering of the English strings.
+  "meta.landing.title": "The Great Inside — 역사 속 누구와 생각이 닮았을까요?",
+  "meta.landing.description":
+    "실제 역사 속 인물, 그리고 현대 인물들과 비교하는 퀴즈 기반 서비스입니다. 회원가입도, 생성형 AI도 없이 당신의 답변만으로 모든 결과가 계산됩니다.",
+  "meta.people.title": "위대한 인물 탐색 — The Great Inside",
+  "meta.people.description": "시대, 지역, 특성별로 The Great Inside의 인물들을 둘러보세요.",
+  "meta.quiz.title": "퀴즈 시작하기 — The Great Inside",
+  "meta.quiz.description": "당신이 생각하고 일하는 방식에 관한 솔직한 질문에 답하고, 역사 속 누구와 닮았는지 확인해보세요.",
+  "meta.person.description": "{name}의 특성 프로필입니다 — The Great Inside에서 나의 프로필과 비교해보세요.",
+  "meta.results.title": "당신의 결과 — The Great Inside",
+  "meta.results.description": "당신의 프로필: 가장 닮은 역사 속 인물, 핵심 특성, 그리고 전체 특성 비교 결과.",
+  "meta.compare.title": "나 × {name} — The Great Inside",
+  "meta.compare.title.generic": "비교하기 — The Great Inside",
+  "meta.compare.description": "당신의 퀴즈 결과와 {name}의 프로필을 특성별로 비교합니다 — 닮은 점, 다른 점, 그리고 살펴볼 만한 점.",
+  "meta.account.title": "저장된 결과 — The Great Inside",
+  "meta.account_result.title": "저장된 결과 — The Great Inside",
 };

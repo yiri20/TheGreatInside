@@ -1436,6 +1436,34 @@ export const en = {
     "Biographical accounts describe Tesla's difficulty translating his inventions into sustainable businesses, repeatedly losing control of his own work commercially. Inventive range and business execution are separate skills, and this profile shows what a real gap between them can cost.",
   "dontcopy.genghiskhan.ruthlessness":
     "Biographical accounts describe campaigns under Genghis Khan involving mass violence against civilian populations. Strategic and organisational skill is separable from the ends it was put toward, and this profile is not an endorsement of the latter.",
+
+  /* -------------------------------------------------------------------
+     POST-10D STAGE A: `<title>`/`<meta description>` copy for pages whose
+     browser-tab metadata differs from on-page copy (or, for Results/
+     Account/Saved Result/Compare, previously had none at all beyond a
+     static English-only `metadata` export). Never keyword-stuffed — each
+     description restates what the page actually shows, in plain product
+     language, matching every other locale-adaptation string in this file.
+     ------------------------------------------------------------------- */
+  "meta.landing.title": "The Great Inside — Who in History Thinks Like You?",
+  "meta.landing.description":
+    "A quiz-based comparison against real historical and contemporary figures — no accounts, no generative AI, every number reproducible from your own answers.",
+  "meta.people.title": "Explore Great Minds — The Great Inside",
+  "meta.people.description":
+    "Browse the people in The Great Inside by era, region, and trait — historical and contemporary figures with authored trait profiles.",
+  "meta.quiz.title": "Take the Quiz — The Great Inside",
+  "meta.quiz.description":
+    "Answer a series of honest questions about how you think and work, then see who in history compares.",
+  "meta.person.description": "{name}'s trait profile on The Great Inside — see how your own profile compares.",
+  "meta.results.title": "Your Results — The Great Inside",
+  "meta.results.description":
+    "Your Greatness Profile: closest historical match, signature trait, and full trait comparison.",
+  "meta.compare.title": "You × {name} — The Great Inside",
+  "meta.compare.title.generic": "Compare — The Great Inside",
+  "meta.compare.description":
+    "A trait-by-trait comparison between your quiz result and {name}'s profile — what you share, where you differ, and what's worth exploring.",
+  "meta.account.title": "Your Saved Results — The Great Inside",
+  "meta.account_result.title": "Saved Result — The Great Inside",
 } as const;
 
 export type MessageKey = keyof typeof en;

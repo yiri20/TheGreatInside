@@ -7,6 +7,7 @@ import { createClient } from "@lib/supabase/server";
 import { fetchSavedResult } from "@lib/results/fetchSavedResult";
 import { resolveSavedResultPageState } from "@lib/results/savedResultPageState";
 import { SavedResultView } from "@ui/savedResult/SavedResultView";
+import { NOINDEX_NOFOLLOW } from "@lib/seo";
 import { GoogleSignInCta } from "../../GoogleSignInCta";
 import { Button, Cluster, Eyebrow, Heading, Stack, Text } from "@ui/index";
 
@@ -52,9 +53,21 @@ interface PageParams {
   id: string;
 }
 
-export const metadata: Metadata = {
-  title: "Saved Result — The Great Inside",
-};
+/**
+ * POST-10D STAGE A: converted to locale-aware `generateMetadata` with an
+ * explicit `noindex, nofollow` — same reasoning as Account. Never includes
+ * a canonical/hreflang: a saved-result reopen view has no public
+ * indexable identity, and its `id` is not a value that should ever be
+ * advertised to crawlers.
+ */
+export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
+  const { locale: localeParam } = await params;
+  const locale = LAUNCH_LOCALES.includes(localeParam as Locale) ? (localeParam as Locale) : "en-US";
+  return {
+    title: t(locale, "meta.account_result.title"),
+    robots: NOINDEX_NOFOLLOW,
+  };
+}
 
 export default async function SavedResultPage({ params }: { params: Promise<PageParams> }) {
   const { locale: localeParam, id } = await params;

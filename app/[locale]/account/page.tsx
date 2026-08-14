@@ -6,6 +6,7 @@ import { getCurrentUser } from "@lib/supabase/getUser";
 import { createClient } from "@lib/supabase/server";
 import { fetchSavedResults } from "@lib/results/fetchSavedResults";
 import { resolveAccountPageState } from "@lib/results/accountPageState";
+import { NOINDEX_NOFOLLOW } from "@lib/seo";
 import { GoogleSignInCta } from "./GoogleSignInCta";
 import { Button, Card, Cluster, Display, Eyebrow, Heading, Stack, Text } from "@ui/index";
 
@@ -27,9 +28,21 @@ interface PageParams {
   locale: string;
 }
 
-export const metadata: Metadata = {
-  title: "Your Saved Results — The Great Inside",
-};
+/**
+ * POST-10D STAGE A: converted to locale-aware `generateMetadata` with an
+ * explicit `noindex, nofollow` (Account shows per-user data and every link
+ * on it is session-specific navigation — nothing worth a crawler
+ * following, unlike Results/Compare). No canonical: this is not a public
+ * page with a "correct" indexable URL at all.
+ */
+export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
+  const { locale: localeParam } = await params;
+  const locale = LAUNCH_LOCALES.includes(localeParam as Locale) ? (localeParam as Locale) : "en-US";
+  return {
+    title: t(locale, "meta.account.title"),
+    robots: NOINDEX_NOFOLLOW,
+  };
+}
 
 function formatCompletedAt(locale: Locale, iso: string): string {
   try {
