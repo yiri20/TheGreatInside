@@ -16,6 +16,7 @@ import {
   selectWorthExploring,
 } from "@core/interpretation/targetComparison";
 import { NOINDEX_FOLLOW } from "@lib/seo";
+import { siteUrl } from "@lib/env";
 import {
   Button,
   Card,
@@ -29,6 +30,7 @@ import {
   Heading,
   IdentityHero,
   ScoreBar,
+  ShareButton,
   Stack,
   Text,
 } from "@ui/index";
@@ -201,6 +203,19 @@ export default async function ComparePage({
                 </span>{" "}
                 <span className="tgi-text--muted">{t(locale, "label.profile_match")}</span>
               </div>
+              {/* Stage B Part 4: priority #2 Share surface. Preserves the
+                  target slug, the full result token, and locale exactly —
+                  generic TGI OG image in v1 (dynamic Compare OG is
+                  explicitly deferred, same as Results). */}
+              <div>
+                <ShareButton
+                  locale={locale}
+                  label={t(locale, "share.compare.label")}
+                  shareTitle={t(locale, "meta.compare.title", { name: targetName })}
+                  url={`${siteUrl()}/${locale}/compare/${slug}?r=${encodeURIComponent(r!)}`}
+                />
+              </div>
+              <Text tone="muted">{t(locale, "share.disclosure.compare")}</Text>
             </Stack>
           </IdentityHero>
         </Stack>

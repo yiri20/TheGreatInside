@@ -211,6 +211,20 @@ body {
   text-decoration: underline;
 }
 
+/* Stage B: one quiet Share action + an adjacent, empty-when-idle feedback
+   region (aria-live). Inline-flex so it drops naturally into an existing
+   Cluster of other quiet/secondary actions without its own layout. */
+.tgi-share {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--tgi-space-2);
+}
+
+.tgi-share__feedback {
+  font-size: var(--tgi-text-sm);
+  min-height: 1em;
+}
+
 /* Narrower reading column for single-decision flows (quiz, intro screens) —
    the 1280px .tgi-container is right for data grids, but a lone question and
    two nav buttons look lost stretched that wide on a large monitor. */

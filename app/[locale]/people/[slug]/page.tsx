@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { personDisplayName, t, tOptional, type MessageKey } from "@core/i18n/index";
 import { localizedAlternates } from "@lib/seo";
+import { siteUrl } from "@lib/env";
 import { SEED_PEOPLE } from "@data/people/seed";
 import { traitConstellation } from "@core/interpretation/constellation";
 import { rankSimilarPeople, selectOppositePerson } from "@core/matching/personSimilarity";
@@ -19,6 +20,7 @@ import {
   IdentityHero,
   PersonCard,
   Rail,
+  ShareButton,
   Stack,
   Text,
   TraitCard,
@@ -181,7 +183,21 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
                     check — the person stays fully browsable per this
                     project's "browsable but not matchable" rule, it just
                     doesn't advertise an action that can't complete. */}
-                {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
+                <Cluster gap={3}>
+                  {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
+                  {/* Stage B Part 5: priority #3 Share surface — peer
+                      action to CompareCta, not gated on match eligibility
+                      (every published person stays fully shareable, same
+                      "browsable but not matchable" rule). Public dataset
+                      content, no privacy disclosure needed (Section B of
+                      the audit). */}
+                  <ShareButton
+                    locale={locale}
+                    label={t(locale, "share.person.label")}
+                    shareTitle={`${personDisplayName(locale, person)} — The Great Inside`}
+                    url={`${siteUrl()}/${locale}/people/${person.slug}`}
+                  />
+                </Cluster>
               </Stack>
             </IdentityHero>
           );

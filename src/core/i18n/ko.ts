@@ -1454,4 +1454,15 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "meta.compare.description": "당신의 퀴즈 결과와 {name}의 프로필을 특성별로 비교합니다 — 닮은 점, 다른 점, 그리고 살펴볼 만한 점.",
   "meta.account.title": "저장된 결과 — The Great Inside",
   "meta.account_result.title": "저장된 결과 — The Great Inside",
+
+  // STAGE B: sharing UX — approved labels/disclosure copy, see en.ts's
+  // matching block for the full rationale.
+  "share.results.label": "결과 공유",
+  "share.compare.label": "비교 공유",
+  "share.person.label": "공유",
+  "share.disclosure.results": "이 링크를 가진 사람은 누구나 이 결과를 볼 수 있어요.",
+  "share.disclosure.compare": "이 링크를 가진 사람은 누구나 이 비교 결과를 볼 수 있어요.",
+  "share.feedback.copied": "복사됨!",
+  "share.feedback.copy_failed": "복사하지 못했어요 — 다시 시도해주세요",
+  "share.feedback.share_failed": "공유하지 못했어요 — 다시 시도해주세요",
 };

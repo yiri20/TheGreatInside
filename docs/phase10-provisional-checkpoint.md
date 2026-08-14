@@ -1392,96 +1392,222 @@ none of Stage A's decisions are subjective or visual. `CLAUDE.md`'s
 dedicated "Post-10D Stage A" section carries the full technical record;
 this section is the checkpoint-doc mirror for a fresh session.
 
-## Stage B — Sharing UX & Open Graph, PRODUCT DECISIONS APPROVED, implementation NOT started
+## Stage B record (2026-08) — Sharing UX & Open Graph v1, FORMALLY CLOSED, human visual-approved
 
-**A full, detailed audit exists, and its product/design decisions are
-now approved**: `docs/phase10-stageB-sharing-og-audit.md` (audit
-produced overnight, 2026-08, immediately after Stage A's closure/push/
-production-verification; decision round resolved the same day). **No
-Stage B code has been written, no commit contains any sharing/OG
-change — approved decisions are documentation only, not implementation.**
-Read that document in full before starting Stage B work; every
-"RESOLVED"/"APPROVED" marker in it traces back to the decision recorded
-here.
+**Full history**: audited overnight → product decisions approved same
+day → implemented (this record) → screenshots reviewed and approved
+with zero change requests → closed. `docs/
+phase10-stageB-sharing-og-audit.md` carries the original audit and
+decision reasoning (now marked historical, pointing here for the
+as-built record); this section is the authoritative technical record of
+what actually shipped.
 
-**Approved decisions, summary (full reasoning/code citations are in the
-audit document, not repeated here):**
-- **Share priority: Results (#1) → Compare (#2) → Person (#3).** This
-  reverses the audit's own original "Person is the strongest candidate"
-  framing — Person remains the cleanest *technical*/OG case, but
-  Results is the approved priority because it's the product's actual
-  core viral sharing moment, not an OG-architecture convenience.
-- **Interaction: one `quiet`-variant Share control per surface**, Web
-  Share API first, clipboard-copy fallback, exact EN/KO labels approved
-  ("Share result"/"결과 공유", "Share comparison"/"비교 공유",
-  "Share"/"공유"), still open to minor polish during screenshot review.
-- **Disclosure: exact EN/KO copy approved** for Results/Compare
-  ("Anyone with this link can view this result/comparison" /
-  "이 링크를 가진 사람은 누구나 이 결과/비교를 볼 수 있어요"); Person
-  needs none.
-- **OG scope for Stage B v1: generic fallback + Person-specific images
-  only.** Dynamic, per-token Results/Compare OG is **explicitly
-  DEFERRED** to its own separate future decision — not an unfinished
-  Stage B gap. Results/Compare are still fully shareable in v1; their
-  first social preview just uses the generic TGI card, which the
-  decision explicitly calls intentional (separates "sharing works" from
-  "preview is personalized," avoids amplifying user-derived data
-  visibility to a wider audience than the sharer intends, avoids
-  building caching/scope machinery not yet justified).
-- **Person OG content approved**: name, localized occupation/domain,
-  era/lifespan, TGI branding, no portrait dependency.
-- **Generic OG visual direction approved as a design brief** (avoid
-  gradients/glassmorphism/bento/pills/fake data; prefer typography/warm
-  paper/restrained purple/wordmark/minimal content) — **exact visual
-  treatment still requires screenshot review**, same discipline as
-  every Phase 10D stage.
-- **Korean OG font — investigated, no blocker found.** The approved
-  direction is subsetting the same `Noto Serif KR` family already used
-  site-wide (not a different font, not a hack) via `fonttools`'
-  `pyftsubset`, scoped to the closed set of glyphs this product's OG
-  surfaces actually need (person names + occupation labels + short
-  generic copy) — an offline, one-time asset-preparation step with zero
-  runtime dependency on the deployed app. Not yet executed (that's
-  implementation work); confirmed technically sound and within every
-  stated constraint.
-- **Favicon absence confirmed live in production** during the same
-  overnight session (zero `<link rel="icon">`, zero icon files in the
-  repo) and recorded as a **separate launch-readiness item — explicitly
-  NOT Stage B scope**, not yet fixed.
+### Approved decisions (unchanged from the decision round, all implemented exactly as decided)
+Share priority Results (#1) → Compare (#2) → Person (#3); one
+`quiet`-variant Share control per surface (Web Share API first,
+clipboard-copy fallback); exact EN/KO labels and Results/Compare
+disclosure copy; Stage B v1 OG scope is generic + Person-specific only,
+dynamic per-token Results/Compare OG explicitly deferred; Person OG
+content hierarchy (name/occupation/era/branding, no portrait
+dependency); Korean OG via an offline-subsetted font, not the live
+site's own asset; favicon absence recorded as separate, non-Stage-B
+launch-readiness debt.
 
-A full Vitest/Playwright/OG-HTTP test plan is designed in the audit's
-Section I, ready to implement. The audit's own closing section records
-the approved implementation sequence (generic OG → Share on Results →
-Share on Compare → Person OG → Share on Person, dynamic Results/Compare
-OG explicitly excluded) — read it before starting, don't re-derive it.
+### Generic OG — `app/opengraph-image.tsx`
+1200×630, `image/png`, fully static (`○`, build-time generated,
+confirmed byte-identical/deterministic across repeated requests via
+SHA-256 hash comparison at closeout). Warm paper background (`#faf8f4`),
+"The Great Inside" wordmark in the OG-only serif font, a small
+restrained purple (`#4a3f6b`) accent rule, `landing.title`'s
+already-approved tagline beneath — no gradient, no glassmorphism, no
+card, no pill, no fabricated stat. Universal, not per-locale (approved:
+a generic brand card's job is recognition, not translated copy).
+Inherited automatically by every route without its own more specific
+`opengraph-image` (Next's standard metadata-inheritance behavior,
+confirmed live: Landing, Results, Compare, Account all resolve to this
+same image with zero manual `openGraph.images` wiring in any
+`generateMetadata` — the file-convention mechanism handles it
+entirely, including the matching `twitter:image` tags).
 
-**Still open, correctly so (Section J of the audit):** exact Share
-placement/visual weight pending real screenshots to review against, and
-the generic OG's exact visual treatment — both genuinely need a human
-eye on an actual render, not more reasoning from code.
+### Person OG — `app/[locale]/people/[slug]/opengraph-image.tsx`
+Fully static-parameter-driven (`params.slug`/`params.locale` only, no
+query-string dependency at all — the clean case the audit's Section E
+identified). Content: person's localized display name (dominant, 76px,
+56px for names >20 characters so long names wrap/fit within the fixed
+canvas instead of clipping), localized occupation + era, `formatLifespan`
+output, small "The Great Inside" brand mark — **no portrait, by
+construction** (the component never reads `person.portrait` at all, so
+da Vinci — the one person with a portrait — renders through the
+identical code path as the other 34, confirmed by direct comparison, not
+merely asserted). `generateStaticParams` added explicitly to this file
+(a metadata-route file does **not** automatically inherit a sibling
+`page.tsx`'s `generateStaticParams` — confirmed empirically: without it,
+the build showed `ƒ` dynamic for this route; with it, `●`).
+
+**One genuine, measured behavioral nuance, recorded precisely rather
+than glossed over**: unlike the Person *pages* themselves (which get 70
+individually pre-rendered `.html` files at `next build` time), the
+sibling OG *image* route compiles to a single `route.js` and is
+generated **on first real request, then cached** (`x-nextjs-cache: MISS`
+→ `HIT`, confirmed live against a production-mode server both at first
+implementation and reconfirmed at closeout) — standard Next.js
+ISR-style behavior for this route shape, not a defect. The generic OG,
+by contrast, has zero dynamic input and is fully pre-rendered at build
+time (`○`, `HIT` on the very first request in every check performed).
+
+### Korean OG font — offline-subsetted, verified, not assumed
+Source: the official variable-weight `Noto Serif KR` TTF from Google's
+public font repository (the same upstream `next/font/google` itself
+uses), instantiated at static weight 400 via `fontTools.varLib.instancer`,
+subsetted via `fontTools.subset`/`pyftsubset` to the exact character set
+`src/dev/ogGlyphSet.ts` derives from live repository data (every
+`person.name.*` value, every `occupation.*`/`era.*` value the current
+roster actually uses, `formatLifespan`'s output characters, the fixed
+"The Great Inside" wordmark, plus full Latin+digits+punctuation for
+headroom). **226 characters required by the live script at closeout**
+(151 Hangul + 75 other) — a documented, harmless 1-character discrepancy
+from the 227 the font was originally built against (one unused defensive
+candidate string was trimmed from the script after the font shipped;
+the committed subset is a strict superset and still covers 100% of the
+live requirement, reverified at closeout with 0 missing). Output:
+`assets/og/NotoSerifKR-OG-Subset.ttf`, **149,020 bytes (~145.5KB)** —
+comfortably under `ImageResponse`'s 500KB total bundle budget, vs.
+~3.28MB for the live site's own `.woff2`-chunked asset (confirmed
+architecturally unusable for this purpose — wrong format, wrong
+delivery mechanism, over budget even if reformatted). Glyph coverage
+verified programmatically (`font.getBestCmap()` against every required
+character, 0 missing) at initial build AND reconfirmed at closeout.
+Visually inspected: da Vinci EN/KO, Mozart KO (longest Korean display
+name in the roster), Rumi EN (longest English display name), Ada
+Lovelace EN (no portrait), Marie Curie KO — zero missing-glyph boxes,
+zero clipping, correct wrapping in every case. `fontTools`/Python are
+offline, build-time asset-preparation tools only — not a runtime
+dependency of the deployed app (zero new entries in `package.json`).
+Full provenance and exact regeneration commands: `assets/og/README.md`.
+License: SIL OFL 1.1, preserved as `assets/og/NotoSerifKR-OFL.txt`.
+
+### Share control — `src/ui/components/share.tsx`, `ShareButton`
+One reusable, `"use client"` component: `navigator.share` first
+(resolves quietly on success — the OS share sheet closing is the only
+confirmation shown; `AbortError` from a cancelled share is explicitly
+NOT treated as a failure, no feedback shown), clipboard-copy fallback
+otherwise. Every failure path (`navigator.share` throwing a non-abort
+error, `navigator.clipboard.writeText` rejecting, `navigator.clipboard`
+absent entirely) shows accessible feedback via an always-present
+`aria-live="polite"` region — never `alert()`, never a color-only
+signal. No new icon dependency (plain text button, `variant="quiet"`,
+this project's existing tertiary-action convention). No external share
+SDK, no per-network buttons, no tracking parameters ever added to the
+shared URL.
+
+**Wired into exactly three surfaces, each preserving its exact current
+URL:**
+- **Results** — 4th action in the existing Closest Match CTA cluster
+  (`[View Profile] [Full Comparison] [Compare With {person}] [Share
+  result]`), disclosure line directly below. URL: `siteUrl()` +
+  locale + `/results?r=` + the untouched result token.
+- **Compare** — standalone action in the `IdentityHero` block (Compare
+  had no button cluster before), disclosure below it. URL preserves
+  target slug + full result token + locale.
+- **Person** — peer action to `CompareCta` in a shared `Cluster`,
+  rendered regardless of match eligibility (Zheng He included — every
+  published person stays shareable). No disclosure (public dataset
+  content, nothing to disclose). URL: localized Person URL, no query
+  string at all.
+- **Account and Saved Result deliberately never import `ShareButton`**
+  — locked by a permanent Vitest import-boundary guard
+  (`src/lib/results/noShareOnPrivateRoutes.test.ts`), not merely
+  "nobody added it."
+
+**Approved copy, exactly as shipped:**
+
+| Surface | EN label | KO label | EN disclosure | KO disclosure |
+|---|---|---|---|---|
+| Results | Share result | 결과 공유 | Anyone with this link can view this result. | 이 링크를 가진 사람은 누구나 이 결과를 볼 수 있어요. |
+| Compare | Share comparison | 비교 공유 | Anyone with this link can view this comparison. | 이 링크를 가진 사람은 누구나 이 비교 결과를 볼 수 있어요. |
+| Person | Share | 공유 | (none) | (none) |
+
+### Crawler/privacy safety — locked structurally, not just claimed
+`src/lib/results/resultLinkSideEffectBoundary.test.ts` proves, via
+direct source-text import inspection (same strategy `SavedResultView.
+boundary.test.ts` already established), that `results/page.tsx` and
+`compare/[slug]/page.tsx` import **zero** `@lib/supabase/*` modules and
+call no Supabase client factory — a bare GET to either route (exactly
+what a social-media link-preview crawler does) cannot reach Supabase at
+all, structurally, not by convention. This is a permanent regression
+guard, not a one-time audit claim. Dynamic, per-token Results/Compare
+OG **remains explicitly deferred** — intentional v1 scope, not
+unfinished work; the audit's Section E reasoning (amplified,
+less-intentional visibility to a feed/group-chat audience vs. the
+direct link recipient; third-party OG caching; unjustified added
+complexity for a v1) stands unchanged.
+
+### Verification, final
+`tsc --noEmit` clean · `vitest run` **480/480** (475 baseline + 5 new:
+2 crawler-safety boundary tests, 3 no-Share-on-private-routes tests) ·
+`next build --webpack` clean, all 70 Person pages + People directory +
+Quiz still `●` SSG (unchanged), two new route-tree entries
+(`/opengraph-image` `○` static, `/[locale]/people/[slug]/opengraph-image`
+`●` static-eligible/on-demand-cached as described above) · Playwright
+**203/203** (175 baseline + 28 new in `e2e/share.spec.ts`, covering
+native-share success/cancel/failure, clipboard success/failure, exact
+URL/token/slug/locale preservation, EN+KO for all three surfaces, and
+the two negative no-Share-on-private-routes checks) · confirmed zero
+diff outside the Stage B surface: `src/core/**` changes are additive
+i18n keys only (no scoring/matching/quiz logic touched), `db/**` and
+`src/lib/supabase/**` show zero diff, `proxy.ts`/`app/robots.ts`/
+`app/sitemap.ts`/`src/lib/seo.ts`/`src/lib/localeNegotiation.ts` (all
+of Stage A) show zero diff — confirmed by direct `git diff --stat`
+inspection, not assumed.
+
+**Human visual approval, screenshots reviewed across the full required
+matrix** (Results EN/KO at 390/1280/1920px, Compare EN/KO at
+390/1280/1920px, Person EN/KO at 390/1920px, generic OG, Person OG for
+da Vinci EN/KO + the two longest-name fixtures) — **approved exactly as
+built, zero change requests, including the current CTA placement in all
+three surfaces and Person's current responsive wrapping behavior.**
+
+**Files changed** (7 modified, 12 new): `app/[locale]/results/page.tsx`,
+`app/[locale]/compare/[slug]/page.tsx`, `app/[locale]/people/[slug]/
+page.tsx`, `src/core/i18n/en.ts`, `src/core/i18n/ko.ts`,
+`src/ui/index.ts`, `src/ui/styles/components.css` (all modified);
+`app/opengraph-image.tsx`, `app/[locale]/people/[slug]/
+opengraph-image.tsx`, `src/ui/components/share.tsx`, `src/lib/og/
+font.ts`, `src/dev/ogGlyphSet.ts`, `assets/og/NotoSerifKR-OG-Subset.ttf`,
+`assets/og/NotoSerifKR-OFL.txt`, `assets/og/README.md`, `e2e/share.spec.ts`,
+`src/lib/results/resultLinkSideEffectBoundary.test.ts`, `src/lib/results/
+noShareOnPrivateRoutes.test.ts` (all new).
+
+**Stage B v1 is FORMALLY CLOSED, human visual-approved (2026-08).**
+Explicitly deferred, not started, not part of this closure: dynamic
+per-token Results/Compare OG (its own future decision — which fields
+may appear, how third-party caching affects that choice); favicon,
+manifest, custom 404, Privacy/Terms (separate, unscoped launch-readiness
+candidates); analytics, ads, monetization, portraits pipeline, custom
+domain, dataset scaling, any further Phase 10D visual change.
 
 ## Exact next task for a fresh session
 
 **Phase 10D is fully closed. Post-10D Stage A (SEO & Locale Foundation)
-is also fully closed.** A Stage B (sharing UX + Open Graph) AUDIT now
-exists — `docs/phase10-stageB-sharing-og-audit.md`, and this file's own
-"Stage B" section above. **The audit is not implementation
-authorization** — Stage B implementation needs its own fresh, explicit
-decision on the subjective/product questions the audit's Section J
-isolates (exact Share-control placement/weight, disclosure wording, how
-much Results data an OG preview may show, and whether a dynamic
-per-token Results OG image is built in a first pass at all), exactly as
-Stage A needed before it began. If those decisions have been made since
-this checkpoint was last updated, re-check `CLAUDE.md`'s Roadmap and
-this file's "Stage B" section for their current status before assuming
-nothing has moved.
+is fully closed. Post-10D Stage B v1 (Sharing UX & Open Graph) is ALSO
+now FORMALLY CLOSED, human visual-approved** — see "Stage B record"
+above for the complete as-built technical record (generic + Person OG,
+the Korean font subset, the Share control on Results/Compare/Person,
+the crawler-safety guard, final test counts, files changed). Dynamic
+per-token Results/Compare OG remains its own explicitly deferred, not
+yet decided, future question — read the "Stage B record" section before
+touching sharing/OG code again, so its resolved decisions aren't
+re-litigated from scratch.
 
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
    result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3",
-   "Phase 10D-3 Follow-up", "Phase 10D-4", "Phase 10D Stage 5", and
-   "Post-10D Stage A — SEO & Locale Foundation"), this file (including
-   "Stage A record" and "Stage B" above), and `docs/
-   phase10-stageB-sharing-og-audit.md` and `docs/deployment.md` in full.
+   "Phase 10D-3 Follow-up", "Phase 10D-4", "Phase 10D Stage 5",
+   "Post-10D Stage A — SEO & Locale Foundation", and "Post-10D Stage B —
+   Sharing UX & Open Graph v1"), this file (including "Stage A record"
+   and "Stage B record" above), and `docs/
+   phase10-stageB-sharing-og-audit.md` (historical audit/decision
+   record — read the checkpoint's "Stage B record" for the as-built
+   truth) and `docs/deployment.md` in full.
 2. Phase 9 is closed and frozen — do not reopen it. **Phase 10D in its
    entirety (Stages 10D-1 through 10D-4, the Saved Result Historical
    Parity Follow-up, and Stage 5) is closed, AND Post-10D Stage A is
@@ -1500,6 +1626,15 @@ nothing has moved.
    silently forgotten. Do not re-decide the `x-default` -> bare `/`
    policy or the `≥1280px` wide-desktop breakpoint without genuinely new
    evidence — both were deliberate, evaluated decisions, not defaults.
+   **Stage B v1 is closed too** — do not re-litigate the Share priority
+   order, the one-quiet-action interaction model, the approved EN/KO
+   labels/disclosure copy, the generic-OG-only-for-Results/Compare
+   scope decision, the Person OG no-portrait content hierarchy, or the
+   Korean-font-subsetting strategy without genuinely new evidence; all
+   were explicit, reviewed, human-approved decisions, not defaults or
+   placeholders. Reuse `ShareButton` (`src/ui/components/share.tsx`) and
+   `src/lib/og/font.ts` for any future Share/OG work rather than
+   reimplementing either.
 3. **Reuse, don't rebuild**, for any future work on this product, Phase
    10 or otherwise: the Playwright harness (`playwright.config.ts`,
    `e2e/utils/visualChecks.ts`) — running against a production build,
@@ -1526,22 +1661,16 @@ nothing has moved.
    "Anti-AI-template / human-authored design principle" section in
    `CLAUDE.md` applies to every future visual decision on this product,
    not only Phase 10D.
-4. **Candidates for Phase 10's own remaining scope — Stage A is now
-   done; Stage B's product decisions are approved but implementation is
-   still unbegun; everything else below still needs its own fresh
+4. **Candidates for Phase 10's own remaining scope — Stage A and Stage B
+   v1 are both now done; everything below still needs its own fresh
    decision:**
-   - **Stage B implementation** (sharing UX: share/copy-link controls
-     on Results/Compare/Person, per-page privacy disclosure near Share
-     on Results/Compare, generic + Person-specific OG images) — the
-     product/design decisions are approved (see "Stage B" section
-     above and `docs/phase10-stageB-sharing-og-audit.md`), but **no
-     code has been written yet**. Follow the audit's own approved
-     implementation sequence (generic OG → Share on Results → Share on
-     Compare → Person OG → Share on Person); do not build dynamic
-     per-token Results/Compare OG — that remains its own, separate,
-     not-yet-decided question. Exact visual treatment (generic OG
-     layout, Share-control placement) still needs screenshot review
-     before final approval, same discipline as every Phase 10D stage.
+   - **Dynamic, per-token Results/Compare OG** — explicitly deferred at
+     Stage B's own closure, not an oversight. Needs a fresh decision on
+     exactly which fields a preview may show (closest match / match % /
+     Signature Trait / Greatness score) and how third-party OG caching
+     affects that choice, plus the Route Handler architecture the audit
+     already scoped (`docs/phase10-stageB-sharing-og-audit.md` Section
+     E) — read that reasoning before rebuilding it from scratch.
    - Analytics, ads, portraits pipeline, and eventually a custom
      branded domain (would also require revisiting
      `NEXT_PUBLIC_SITE_URL` and the Supabase/Google redirect-URL

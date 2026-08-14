@@ -1,25 +1,27 @@
 # Post-10D Stage B — Sharing UX & Open Graph Audit
 
-**Status: PRODUCT DECISIONS APPROVED (2026-08). Implementation NOT YET
-STARTED — this document remains audit + approved-decision documentation
-only; no Stage B code exists in the repository as of this update.**
-Originally produced overnight, autonomously, immediately after Post-10D
-Stage A (SEO & Locale Foundation) was formally closed, committed
-(`719b91d`), pushed, and verified live in production — see
-`docs/phase10-provisional-checkpoint.md`'s "Stage A record" and this
-file's own home section in that checkpoint for the handoff. The human
-review round that followed resolved every Section J question this
-document originally isolated; those resolutions are recorded inline
-throughout (search for "**APPROVED**") rather than collected only at
-the end, so a reader hits the current, decided answer at the point
-where the original open question was. Every technical claim below is
-grounded in the actual repository as it exists after commit `719b91d`
-— file paths, function signatures, and behavior were read directly, not
-recalled from memory or assumed. Where a claim depends on Next.js's own
-documented behavior (not this repo's code), the specific doc page
-consulted (Next.js 16.3.1, current as of 2026-08) is cited inline.
-**No implementation has started** — the exact implementation boundary
-for the next work session is restated at the very end of this document.
+**Status: Stage B v1 is FORMALLY CLOSED, human visual-approved (2026-08).**
+This document is now a historical record of the audit and decision round
+that preceded implementation — see `docs/phase10-provisional-checkpoint.md`'s
+"Stage B record" for the full as-built/closure record (final architecture,
+verification, files changed, production confirmation). Originally produced
+overnight, autonomously, immediately after Post-10D Stage A (SEO & Locale
+Foundation) was formally closed, committed (`719b91d`), pushed, and
+verified live in production. The human decision round that followed
+resolved every Section J question this document originally isolated
+(those resolutions are recorded inline throughout — search for
+"**APPROVED**"); a second, separate human visual-approval round then
+reviewed the actual implementation's screenshots and approved it exactly
+as built, with no further changes requested. Every technical claim below
+is grounded in the actual repository as it existed when written — file
+paths, function signatures, and behavior were read directly, not recalled
+from memory or assumed. Where a claim depends on Next.js's own documented
+behavior (not this repo's code), the specific doc page consulted
+(Next.js 16.3.1, current as of 2026-08) is cited inline. **This document's
+own "implementation sequence"/"Section J" framing below describes the
+PRE-implementation plan — read `docs/phase10-provisional-checkpoint.md`'s
+"Stage B record" for what was actually built, which followed this plan
+closely but should be treated as the authoritative as-built record.**
 
 **Scope discipline, stated up front:** this audit does not authorize any
 implementation. Its job is to leave only genuinely subjective
@@ -925,10 +927,13 @@ review:**
 
 ---
 
-## Smallest defensible Stage B implementation sequence — APPROVED SCOPE, not yet started
+## Smallest defensible Stage B implementation sequence — IMPLEMENTED AS PLANNED
 
-**Priority and OG scope are now both decided; nothing below has been
-implemented.** The two axes are independent and must not be conflated:
+**This sequence was actually followed, in this order, and is now closed —
+see `docs/phase10-provisional-checkpoint.md`'s "Stage B record" for the
+as-built details (exact files, final measurements, test counts).** The
+two axes were kept independent, exactly as planned below, and were not
+conflated:
 Share-control rollout priority is Results → Compare → Person (Section
 A); OG image scope for v1 is generic + Person only, with Results/Compare
 using the generic card at first (Section E) — Results is simultaneously

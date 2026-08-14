@@ -11,6 +11,7 @@ import { computeResultView } from "@core/results/resultView";
 import { attributeName, renderComparison } from "@core/interpretation/rules";
 import type { TraitComparison } from "@core/types";
 import { NOINDEX_FOLLOW } from "@lib/seo";
+import { siteUrl } from "@lib/env";
 import {
   Button,
   Card,
@@ -30,6 +31,7 @@ import {
   PersonCard,
   Rail,
   ScoreBar,
+  ShareButton,
   Stack,
   Text,
   TraitCard,
@@ -239,7 +241,21 @@ export default async function ResultsPage({
                   >
                     {t(locale, "compare.cta.from_results", { person: personDisplayName(locale, closest.person) })}
                   </Button>
+                  {/* Stage B Part 3: highest-priority Share surface. The
+                      exact current Results URL, including the full
+                      result token — that token is what reconstructs the
+                      anonymous shareable result, never shortened/saved/
+                      replaced. Uses the generic TGI OG image in v1
+                      (Section E of the audit — dynamic Results OG is
+                      explicitly deferred, not built here). */}
+                  <ShareButton
+                    locale={locale}
+                    label={t(locale, "share.results.label")}
+                    shareTitle={t(locale, "meta.results.title")}
+                    url={`${siteUrl()}/${locale}/results?r=${encodeURIComponent(r!)}`}
+                  />
                 </Cluster>
+                <Text tone="muted">{t(locale, "share.disclosure.results")}</Text>
               </Stack>
             </Card>
           </Stack>

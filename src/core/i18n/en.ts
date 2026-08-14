@@ -1464,6 +1464,22 @@ export const en = {
     "A trait-by-trait comparison between your quiz result and {name}'s profile — what you share, where you differ, and what's worth exploring.",
   "meta.account.title": "Your Saved Results — The Great Inside",
   "meta.account_result.title": "Saved Result — The Great Inside",
+
+  /* -------------------------------------------------------------------
+     STAGE B: sharing UX. Approved labels/disclosure copy exactly as
+     decided (docs/phase10-stageB-sharing-og-audit.md, "Stage B" section
+     in CLAUDE.md). One quiet Share action per surface, Web Share API
+     first with a clipboard-copy fallback — see `ShareButton`
+     (`src/ui/components/share.tsx`).
+     ------------------------------------------------------------------- */
+  "share.results.label": "Share result",
+  "share.compare.label": "Share comparison",
+  "share.person.label": "Share",
+  "share.disclosure.results": "Anyone with this link can view this result.",
+  "share.disclosure.compare": "Anyone with this link can view this comparison.",
+  "share.feedback.copied": "Copied!",
+  "share.feedback.copy_failed": "Couldn't copy — try again",
+  "share.feedback.share_failed": "Couldn't share — try again",
 } as const;
 
 export type MessageKey = keyof typeof en;

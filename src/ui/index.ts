@@ -44,6 +44,8 @@ export type { PersonCardProps } from "./components/data.js";
 export { ChoiceGroup, LikertScale, QuizProgress } from "./components/quiz.js";
 export type { ChoiceOptionView } from "./components/quiz.js";
 
+export { ShareButton } from "./components/share.js";
+
 export {
   ALL_IMPACTS,
   barWidth,
