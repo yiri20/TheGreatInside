@@ -194,55 +194,86 @@ export default async function ComparePage({
 
         <Divider />
 
-        {/* ============================================================ what you share */}
-        {result.closestTraits.length > 0 ? (
-          <Stack gap={4} className="tgi-measure-stack" as="section">
-            <Heading level={2}>{t(locale, "compare.section.share")}</Heading>
-            <Stack gap={4}>
-              {result.closestTraits.slice(0, 4).map((c) => (
-                <ComparisonBar
-                  key={c.attributeId}
-                  label={attributeName(locale, c.attributeId)}
-                  userScore={c.userScore}
-                  personScore={c.personScore}
-                  personName={targetName}
-                  locale={locale}
-                />
-              ))}
-            </Stack>
-          </Stack>
-        ) : null}
+        {/* ================================== 1-2. what you share / where you lean differently */}
+        {/* Phase 10D-4 first round: these two are adjacent, identical-shape
+            peer sections (both a heading + a list of ComparisonBars) — paired
+            as equal-width columns via `.tgi-compare-share-differ` at
+            >=1280px, single column below (no CSS `order`, source order
+            preserved). Only paired when BOTH exist; when either is
+            independently empty, the other renders alone in its original
+            `.tgi-measure-stack` treatment so there's never a half-empty
+            column. */}
+        {(() => {
+          const shareBlock =
+            result.closestTraits.length > 0 ? (
+              <Stack gap={4} className="tgi-measure-stack" as="section">
+                <Heading level={2}>{t(locale, "compare.section.share")}</Heading>
+                <Stack gap={4}>
+                  {result.closestTraits.slice(0, 4).map((c) => (
+                    <ComparisonBar
+                      key={c.attributeId}
+                      label={attributeName(locale, c.attributeId)}
+                      userScore={c.userScore}
+                      personScore={c.personScore}
+                      personName={targetName}
+                      locale={locale}
+                    />
+                  ))}
+                </Stack>
+              </Stack>
+            ) : null;
 
-        {/* ================================================= 2. where you lean differently */}
-        {result.personHigherTraits.length > 0 ? (
-          <Stack gap={4} className="tgi-measure-stack" as="section">
-            <Heading level={2}>{t(locale, "compare.section.differ")}</Heading>
-            <Stack gap={4}>
-              {result.personHigherTraits.slice(0, 4).map((c) => (
-                <ComparisonBar
-                  key={c.attributeId}
-                  label={attributeName(locale, c.attributeId)}
-                  userScore={c.userScore}
-                  personScore={c.personScore}
-                  personName={targetName}
-                  locale={locale}
-                />
-              ))}
-            </Stack>
-            <Text tone="muted">{t(locale, "results.comparison.reassurance")}</Text>
-          </Stack>
-        ) : null}
+          const differBlock =
+            result.personHigherTraits.length > 0 ? (
+              <Stack gap={4} className="tgi-measure-stack" as="section">
+                <Heading level={2}>{t(locale, "compare.section.differ")}</Heading>
+                <Stack gap={4}>
+                  {result.personHigherTraits.slice(0, 4).map((c) => (
+                    <ComparisonBar
+                      key={c.attributeId}
+                      label={attributeName(locale, c.attributeId)}
+                      userScore={c.userScore}
+                      personScore={c.personScore}
+                      personName={targetName}
+                      locale={locale}
+                    />
+                  ))}
+                </Stack>
+                <Text tone="muted">{t(locale, "results.comparison.reassurance")}</Text>
+              </Stack>
+            ) : null;
+
+          if (shareBlock && differBlock) {
+            return <div className="tgi-compare-share-differ">{shareBlock}{differBlock}</div>;
+          }
+          return (
+            <>
+              {shareBlock}
+              {differBlock}
+            </>
+          );
+        })()}
 
         <Divider />
 
         {/* ============================================== 3. what you could learn from them */}
-        <Stack gap={4} className="tgi-measure-stack" as="section">
-          <Heading level={2}>{t(locale, "compare.section.learn")}</Heading>
-          <Text tone="muted">{t(locale, "compare.learn.intro", { person: targetName })}</Text>
+        {/* Phase 10D-4 first round: no longer one blanket `.tgi-measure-stack`
+            wrapping the whole section — the heading/intro/empty-state prose
+            stays at a readable measure (each individually classed), while
+            the two card collections below get `.tgi-compare-card-grid`
+            instead, so they can use the wider container at >=1280px without
+            the surrounding prose becoming full-width too. */}
+        <Stack gap={4} as="section">
+          <Stack gap={4} className="tgi-measure-stack">
+            <Heading level={2}>{t(locale, "compare.section.learn")}</Heading>
+            <Text tone="muted">{t(locale, "compare.learn.intro", { person: targetName })}</Text>
+          </Stack>
           {learnFrom.length === 0 && worthExploring.length === 0 ? (
-            <Text tone="secondary">{t(locale, "compare.learn.none")}</Text>
+            <Stack className="tgi-measure-stack">
+              <Text tone="secondary">{t(locale, "compare.learn.none")}</Text>
+            </Stack>
           ) : (
-            <Stack gap={4}>
+            <Stack gap={4} className="tgi-compare-card-grid">
               {learnFrom.map((s) => (
                 <Card key={s.attributeId}>
                   <Stack gap={3}>
@@ -290,11 +321,13 @@ export default async function ComparePage({
               is shown. */}
           {worthExploring.length > 0 ? (
             <Stack gap={3}>
-              <Text>
-                <strong>{t(locale, "compare.explore.title")}</strong>
-              </Text>
-              <Text tone="muted">{t(locale, "compare.explore.intro")}</Text>
-              <Stack gap={4}>
+              <Stack gap={3} className="tgi-measure-stack">
+                <Text>
+                  <strong>{t(locale, "compare.explore.title")}</strong>
+                </Text>
+                <Text tone="muted">{t(locale, "compare.explore.intro")}</Text>
+              </Stack>
+              <Stack gap={4} className="tgi-compare-card-grid">
                 {worthExploring.map((s) => (
                   <Card key={s.attributeId} variant="sunken">
                     <Stack gap={3}>
@@ -344,86 +377,114 @@ export default async function ComparePage({
 
         <Divider />
 
-        {/* ======================================= 4. where you bring something different */}
-        {yourEdge.length > 0 ? (
-          <Stack gap={4} className="tgi-measure-stack" as="section">
-            <Heading level={2}>{t(locale, "label.your_advantage")}</Heading>
-            <Stack gap={4}>
-              {yourEdge.map((c) => (
-                <Stack gap={2} key={c.attributeId}>
-                  <ComparisonBar
-                    label={attributeName(locale, c.attributeId)}
-                    userScore={c.userScore}
-                    personScore={c.personScore}
-                    personName={targetName}
-                    locale={locale}
-                  />
-                  {/* Phase 7 human-review Stage, revised (Issue 2): the
-                      generic "may work in your favour" sentence (reused from
-                      tpl.advantage_intro) still read as advantage framing and
-                      repeated near-identically across every trait. Replaced
-                      with the SAME per-attribute helpsWhenKey content
-                      "Worth Exploring" uses (Issue 5) — one concise,
-                      trait-specific, deterministic sentence naming the
-                      CONDITION under which the tendency helps, not a claim
-                      that having it is simply better. */}
-                  <Text tone="secondary">{t(locale, helpsWhenKey(c.attributeId) as MessageKey)}</Text>
+        {/* ================== 4-5. where you bring something different / what not to copy */}
+        {/* Phase 10D-4 second round, Experiment 1: pair these two secondary
+            reflective sections at >=1280px when BOTH are meaningfully
+            present. Unlike Share/Differ, "What Not to Copy" is never fully
+            absent (it falls back to an empty-state sentence rather than
+            disappearing) — so the only real absent case is `yourEdge`; when
+            that's empty, "What Not to Copy" renders alone in its ORIGINAL
+            single-column treatment, exactly as before. Deliberately does
+            NOT flatten the caution `Card`s here — this experiment is
+            testing whether the natural asymmetry (plain bars+prose on one
+            side, cards on the other) already reads as a coherent pair
+            before touching either side's internal treatment. */}
+        {(() => {
+          const yourEdgeBlock =
+            yourEdge.length > 0 ? (
+              <Stack gap={4} className="tgi-measure-stack" as="section">
+                <Heading level={2}>{t(locale, "label.your_advantage")}</Heading>
+                <Stack gap={4}>
+                  {yourEdge.map((c) => (
+                    <Stack gap={2} key={c.attributeId}>
+                      <ComparisonBar
+                        label={attributeName(locale, c.attributeId)}
+                        userScore={c.userScore}
+                        personScore={c.personScore}
+                        personName={targetName}
+                        locale={locale}
+                      />
+                      {/* Phase 7 human-review Stage, revised (Issue 2): the
+                          generic "may work in your favour" sentence (reused from
+                          tpl.advantage_intro) still read as advantage framing and
+                          repeated near-identically across every trait. Replaced
+                          with the SAME per-attribute helpsWhenKey content
+                          "Worth Exploring" uses (Issue 5) — one concise,
+                          trait-specific, deterministic sentence naming the
+                          CONDITION under which the tendency helps, not a claim
+                          that having it is simply better. */}
+                      <Text tone="secondary">{t(locale, helpsWhenKey(c.attributeId) as MessageKey)}</Text>
+                    </Stack>
+                  ))}
                 </Stack>
-              ))}
-            </Stack>
-          </Stack>
-        ) : null}
+              </Stack>
+            ) : null;
 
-        {/* ============================================================ 5. what not to copy */}
-        <Stack gap={4} className="tgi-measure-stack" as="section">
-          <Heading level={2}>{t(locale, "compare.section.dont_copy")}</Heading>
-          <Text tone="muted">{t(locale, "compare.dontcopy.intro")}</Text>
-          {doNotCopy.length === 0 ? (
-            <Text tone="secondary">{t(locale, "compare.dontcopy.none")}</Text>
-          ) : (
-            <Stack gap={3}>
-              {doNotCopy.map((item, i) => (
-                <Card key={`${item.reason}-${item.attributeId ?? i}`} variant="sunken">
-                  <Stack gap={2}>
-                    {/* Phase 7 human-review Stage, revised (Issue 3/4): when
-                        a neutral, trait-specific `tradeoffKey` exists, it IS
-                        the primary content — the generic "sits at an
-                        extreme... carries real costs" preamble is dropped
-                        entirely rather than shown alongside it, per the
-                        explicit instruction that the trait-specific caution
-                        should be primary, not a second line after a generic
-                        one. `tradeoffKey` content is deliberately NEUTRAL and
-                        THIRD-PERSON (a separate authored set from the
-                        second-person dev-guide captions, which read as an
-                        accusation about the historical person on this
-                        surface — see targetComparison.ts). Falls back to the
-                        generic sentence only when no tradeoff content is
-                        authored yet, or for editorial/risk/dual_edged items,
-                        which never carry a tradeoffKey. */}
-                    <Text tone="secondary">
-                      {item.tradeoffKey
-                        ? t(locale, item.tradeoffKey as MessageKey)
-                        : item.reason === "editorial"
-                          ? t(locale, item.key as MessageKey)
-                          : t(locale, item.key as MessageKey, {
-                              trait: attributeName(locale, item.attributeId!),
-                              person: targetName,
-                              score: Math.round(item.score ?? 0),
-                            })}
-                    </Text>
-                    {item.confidence !== undefined && item.confidence < 0.5 ? (
-                      <Text tone="muted">{t(locale, "compare.dontcopy.low_confidence_note")}</Text>
-                    ) : null}
-                  </Stack>
-                </Card>
-              ))}
+          const dontCopyBlock = (
+            <Stack gap={4} className="tgi-measure-stack" as="section">
+              <Heading level={2}>{t(locale, "compare.section.dont_copy")}</Heading>
+              <Text tone="muted">{t(locale, "compare.dontcopy.intro")}</Text>
+              {doNotCopy.length === 0 ? (
+                <Text tone="secondary">{t(locale, "compare.dontcopy.none")}</Text>
+              ) : (
+                <Stack gap={3}>
+                  {doNotCopy.map((item, i) => (
+                    <Card key={`${item.reason}-${item.attributeId ?? i}`} variant="sunken">
+                      <Stack gap={2}>
+                        {/* Phase 7 human-review Stage, revised (Issue 3/4): when
+                            a neutral, trait-specific `tradeoffKey` exists, it IS
+                            the primary content — the generic "sits at an
+                            extreme... carries real costs" preamble is dropped
+                            entirely rather than shown alongside it, per the
+                            explicit instruction that the trait-specific caution
+                            should be primary, not a second line after a generic
+                            one. `tradeoffKey` content is deliberately NEUTRAL and
+                            THIRD-PERSON (a separate authored set from the
+                            second-person dev-guide captions, which read as an
+                            accusation about the historical person on this
+                            surface — see targetComparison.ts). Falls back to the
+                            generic sentence only when no tradeoff content is
+                            authored yet, or for editorial/risk/dual_edged items,
+                            which never carry a tradeoffKey. */}
+                        <Text tone="secondary">
+                          {item.tradeoffKey
+                            ? t(locale, item.tradeoffKey as MessageKey)
+                            : item.reason === "editorial"
+                              ? t(locale, item.key as MessageKey)
+                              : t(locale, item.key as MessageKey, {
+                                  trait: attributeName(locale, item.attributeId!),
+                                  person: targetName,
+                                  score: Math.round(item.score ?? 0),
+                                })}
+                        </Text>
+                        {item.confidence !== undefined && item.confidence < 0.5 ? (
+                          <Text tone="muted">{t(locale, "compare.dontcopy.low_confidence_note")}</Text>
+                        ) : null}
+                      </Stack>
+                    </Card>
+                  ))}
+                </Stack>
+              )}
             </Stack>
-          )}
-        </Stack>
+          );
+
+          if (yourEdgeBlock) {
+            return <div className="tgi-compare-edge-dontcopy">{yourEdgeBlock}{dontCopyBlock}</div>;
+          }
+          return dontCopyBlock;
+        })()}
 
         <Divider />
 
         {/* ================================================================ facets */}
+        {/* Phase 10D-4 second round: a wide-desktop Rail composition (bars
+            primary, heading+intro secondary) was prototyped and rejected —
+            it broke the "heading precedes its own content" reading order
+            below 1280px (Rail always renders primary before secondary in
+            DOM order regardless of breakpoint), and the dead space here at
+            wide desktop was judged an acceptable, even preferable, trade-off
+            against that regression. Deliberately kept exactly as it always
+            was — no Rail, no wide-desktop restructuring. */}
         <Stack gap={4} as="section">
           <Heading level={2}>{t(locale, "compare.section.facets")}</Heading>
           {/* Phase 7 human-review Stage (Issue 4): verified via similarity.ts

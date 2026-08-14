@@ -2745,20 +2745,17 @@ headline result of Phase 2, now extended by Phase 4.
     Bruce Lee ("브루스 리" vs. "이소룡") and Rumi ("루미," short form,
     vs. an unverifiable full transliteration) carry flagged, unresolved
     person-name ambiguities.
-12. **Phase 10 wide-desktop layout debt (flagged 2026-08) — Landing
-    resolved in Phase 10D Stage 1, Person resolved in Phase 10D-2, Live
-    Results resolved in Phase 10D-3, Saved Result resolved in the Phase
-    10D-3 Saved Result Historical Parity follow-up (all 2026-08, see those
-    sections above); only Compare NOT yet redesigned.** At desktop widths
-    ≥1280px, Compare still overuses a narrow centered single-column layout
-    (`tgi-measure-stack`/`tgi-container`), leaving dead horizontal space.
-    The reusable primitives this needs (`Rail`/`IdentityHero`,
-    `src/ui/components/layout.tsx`) already exist and are already wired
-    into Compare presentationally (no visual change yet) — a future Phase
-    10D stage applies the actual wide-desktop composition using them, it
-    does not rebuild them. Keep readable text measures (`Text`'s existing
-    68ch cap) and the current restrained visual character — not a general
-    redesign, a wide-viewport composition fix, same instruction as before.
+12. ~~Phase 10 wide-desktop layout debt~~ **Resolved (2026-08) — all five
+    pages now have an intentional wide-desktop composition.** Landing
+    resolved in Phase 10D Stage 1, Person in Phase 10D-2, Live Results in
+    Phase 10D-3, Saved Result in the Phase 10D-3 Saved Result Historical
+    Parity follow-up, and Compare in Phase 10D-4 (all 2026-08, see those
+    sections above and "Phase 10D-4" below). Every page-level wide-desktop
+    layout candidate identified when this item was first flagged is now
+    closed. A separate, still-pending item is the Phase 10D **final visual
+    consistency / micro-polish pass** across all five redesigned surfaces —
+    see the Roadmap entry for Phase 10D below; that pass has not started
+    and is not implied by this item's closure.
 13. ~~Results-page sign-in conversion CTA~~ **Implemented (Phase 10C,
     2026-08) — see that section below.** The CTA now only ever claims
     "saved" after directly observing its own save succeed for the exact
@@ -3726,8 +3723,116 @@ methodology disclosure, the continued absence of Unexpected Match /
 Opposite Profile / Top Matches, and the mobile Category Matches
 discovery-grid treatment were all explicitly approved against real
 screenshots across two rounds of review. This closes the item 12 "Saved
-Result NOT yet redesigned" gap in "Known open issues" above — only
-Compare remains unredesigned for wide desktop.
+Result NOT yet redesigned" gap in "Known open issues" above — at this
+point only Compare remained unredesigned for wide desktop; see
+"Phase 10D-4" immediately below for its closure.
+
+## Phase 10D-4 — Compare Editorial Layout (FORMALLY CLOSED, human-approved,
+## 2026-08)
+
+**Root problem, confirmed by audit before any implementation began:**
+unlike every other Phase 10D page (which each had one or two isolated
+oversized/undersized elements), Compare's entire body — every section
+after the hero — was wrapped in `.tgi-measure-stack` (40rem, centered),
+so the page rendered pixel-identically narrow from 1280px all the way to
+1920px, with no wide-desktop composition of any kind. **The hero was
+audited and deliberately left unchanged**: `IdentityHero`'s content is
+intrinsically sized (not a growable flex child that stretches), so it
+was already compact and left-aligned at every width tested, with or
+without a portrait — confirmed live, not assumed, before ruling it out
+of scope.
+
+**Round 1 — Share/Differ pairing + content-driven card grids, both
+FORMALLY CLOSED, human-approved:**
+- **What You Share + Where You Lean Differently** pair as equal-width
+  plain editorial columns (`.tgi-compare-share-differ`, `repeat(2,
+  minmax(0,1fr))`) at ≥1280px — no surrounding Card, matching the
+  Signature/Dual-Edged peer-pairing precedent from Results rather than
+  Rail's primary/secondary asymmetry, since the two sections are true
+  peers. Only paired when BOTH exist; when either is independently
+  empty (a real, live-confirmed case: an all-max-answers token against
+  Confucius genuinely produces an empty "Where You Lean Differently"),
+  the other renders alone in its original centered treatment — no empty
+  column, no CSS `order` anywhere.
+- **What You Could Learn From Them's** "Learn From" (1-3 items) and
+  "Worth Exploring" (0-2 items) card lists become content-driven
+  `.tgi-compare-card-grid`s at ≥1280px — a FIXED `22rem` track (not
+  `1fr`), so a lone card never stretches to the full container width,
+  the same failure class already fixed for Person's Opposite Profile and
+  Results' spotlight cards, prevented here structurally for any item
+  count rather than with a per-count JSX branch. Two independent grid
+  instances, never merged into one.
+- **A real regression was found and fixed during this round, not after**:
+  removing the blanket `.tgi-measure-stack` from §4's outer wrapper (so
+  the card grids could escape it at wide desktop) left the card-list
+  `Stack` itself with NO width constraint below 1280px — a live
+  measurement caught a bar at **894px** at a 1024px viewport before this
+  shipped. Fixed by giving `.tgi-compare-card-grid` the same 40rem/
+  centered base state `.tgi-measure-stack` has, only overridden at
+  ≥1280px — re-verified the 1024px view was pixel-identical to its
+  pre-change appearance after the fix.
+
+**Round 2 — two design experiments, decided via real rendered
+comparisons per this project's now-standard discipline, FORMALLY
+CLOSED, human-approved:**
+- **Experiment 1 (KEPT): Where You Bring Something Different + What Not
+  to Copy** pair as equal-width columns at ≥1280px
+  (`.tgi-compare-edge-dontcopy`) — deliberately preserving the natural
+  asymmetry between plain bars/prose on one side and the existing
+  sunken caution `Card`s on the other, never flattened to force visual
+  symmetry. "What Not to Copy" is never fully absent (it has its own
+  empty-state sentence), so the only real fallback case is `yourEdge`
+  empty, in which case "What Not to Copy" renders alone, exactly as
+  before.
+- **Experiment 2 (REJECTED): Facet Similarity wide-desktop Rail
+  composition.** A version pairing the 7 `ScoreBar`s (primary) with the
+  heading/intro (secondary) via `Rail` was built, measured (bars
+  narrowed from 640px to 544px, reusing an already-existing global rule,
+  no new CSS), and screenshotted at every required width — then
+  rejected: `Rail` always renders primary before secondary in DOM order
+  regardless of breakpoint, so below 1280px the ScoreBars appeared
+  BEFORE their own section heading, breaking the "heading precedes its
+  content" reading order every other section on the page (and every
+  other page in the product) preserves. The dead space Facet Similarity
+  leaves at wide desktop was judged an acceptable, even preferable,
+  trade-off against that regression — confirmed by a dedicated
+  Playwright test that reproduced the exact ordering failure before the
+  decision was made, not argued abstractly. Facet Similarity was fully
+  reverted to its original implementation: no `Rail`, original DOM
+  order, original ~40rem controlled measure. All experiment-only code
+  and tests (including the one that intentionally asserted the
+  known-bad ordering) were removed, not left dormant — the final test
+  suite only enforces the approved, final behavior.
+
+**Verification, final.** `tsc --noEmit` clean · `vitest run` **422/422**
+(unchanged — no `src/core` file touched) · `next build --webpack` clean,
+**84 routes**, `/compare/[slug]` still `ƒ` dynamic, split unchanged
+throughout every step of both rounds · Playwright **145/145** (115 prior
++ 22 Round 1 + 8 net Round 2 — 9 experiment-only tests removed, 17
+replacement tests added enforcing the final approved behavior) · zero
+console/page errors, zero horizontal overflow, zero clipped elements at
+any tested width/locale/fixture · confirmed: `src/core/**`, `src/lib/**`,
+`db/**`, `src/ui/components/layout.tsx` (Rail/IdentityHero themselves —
+only Compare's *usage* of Rail was added then fully reverted), `src/ui/
+savedResult/**`, and every Results/Saved-Result/Person/Landing/Account
+file all show zero diff throughout both rounds — no Supabase, auth,
+snapshot-schema, scoring, matching, or dataset change of any kind.
+
+**Phase 10D-4 is FORMALLY CLOSED, human-approved (2026-08)** — the
+Share/Differ peer-column pairing and its single-section fallback, the
+Learn-From/Worth-Exploring content-driven grids (including the
+mid-implementation 894px regression found and fixed), the Where-You-
+Bring-Something-Different/What-Not-to-Copy pairing with its preserved
+asymmetry, and the final decision to keep Facet Similarity in its
+original controlled treatment (after a real Option B experiment was
+built, measured, and rejected on a genuine reading-order regression,
+not on taste alone) were all explicitly approved against real
+screenshots across two review rounds. This closes "Known open issues"
+item 12 completely — every page-level Phase 10D wide-desktop layout
+candidate is now resolved. The one remaining Phase 10D item is the
+final, cross-page visual-consistency / micro-polish pass — see
+"Roadmap" below; it has not started and is a distinct decision from
+this closure.
 
 ## Roadmap
 
@@ -3991,8 +4096,28 @@ regression guard, and tested via 5 synthetic snapshot fixtures rendered
 statically (`gallery.tsx`'s own precedent) — no new Next.js route added.
 `tsc`/`vitest` (**422/422**)/`build` (**84 routes**, split unchanged)
 all clean, Playwright **115/115**. This closes "Known open issues" item
-12's Saved Result gap; only Compare remains unredesigned for wide
-desktop.
+12's Saved Result gap; at that point only Compare remained unredesigned
+for wide desktop. **Phase 10D-4 (Compare Editorial Layout) is now
+FORMALLY CLOSED, human-approved (2026-08)** — see "Phase 10D-4" above
+for the full record: a Share/Differ equal-column pairing at ≥1280px with
+a live-confirmed single-section fallback; content-driven, fixed-track
+`.tgi-compare-card-grid`s for the Learn-From/Worth-Exploring card lists
+(catching and fixing a real 894px-bar regression at 1024px mid-round);
+a Where-You-Bring-Something-Different/What-Not-to-Copy pairing that
+deliberately keeps its natural bars-vs-cards asymmetry; and a rejected
+Facet Similarity wide-desktop Rail experiment — built, measured, and
+discarded after it demonstrably broke the pre-1280px heading-before-
+content reading order, with all experiment-only code and tests removed
+rather than left dormant. `tsc`/`vitest` (**422/422**)/`build`
+(**84 routes**, split unchanged) all clean, Playwright **145/145**. This
+closes "Known open issues" item 12 completely — **every page-level
+Phase 10D wide-desktop layout candidate (Landing, Person, Live Results,
+Saved Result, Compare) is now resolved.** The one item still open for
+Phase 10D as a whole is the final, cross-page visual-consistency /
+micro-polish pass (originally named Stage 5 in the Phase 10D-1 audit,
+kept deliberately separate from each page's own layout work) — it has
+not started and needs its own fresh, explicit decision; Phase 10D is not
+yet marked fully closed pending that pass.
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 

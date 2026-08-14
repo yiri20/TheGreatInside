@@ -9,20 +9,23 @@ human-approved, 2026-08. Phase 10D Stage 2 (Person Detail Editorial
 Layout) FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 3
 (Live Results Editorial Layout) FORMALLY CLOSED, human-approved,
 2026-08. The Phase 10D-3 Saved Result Historical Parity Follow-up is
-ALSO FORMALLY CLOSED, human-approved, 2026-08.** This is the durable
-resume point for a fresh session — read this file, `CLAUDE.md`'s Status
-section and its dedicated "Phase 10C — historical result fidelity",
-"Phase 10D-1", "Phase 10D-2", "Phase 10D-3", and "Phase 10D-3
-Follow-up" sections, and `docs/deployment.md` before touching Phase 10
-again. Phase 9 is FORMALLY CLOSED and frozen (see
-`docs/phase9-provisional-checkpoint.md`) — nothing in this document
-proposes touching it. Stage 10C's code (including the post-E2E
-auth-state fix, deployed from commit
+ALSO FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 4
+(Compare Editorial Layout) is ALSO FORMALLY CLOSED, human-approved,
+2026-08.** This is the durable resume point for a fresh session — read
+this file, `CLAUDE.md`'s Status section and its dedicated "Phase 10C —
+historical result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3",
+"Phase 10D-3 Follow-up", and "Phase 10D-4" sections, and
+`docs/deployment.md` before touching Phase 10 again. Phase 9 is FORMALLY
+CLOSED and frozen (see `docs/phase9-provisional-checkpoint.md`) —
+nothing in this document proposes touching it. Stage 10C's code
+(including the post-E2E auth-state fix, deployed from commit
 `d425e24730fa524429033978298431dd84be1f9e`) has passed a full production
 human E2E — see "Stage 10C record" below for the complete evidence.
-**Saved Result now has full historical-parity content AND the Rail/
-trait-pair wide-desktop composition it was missing — the only Phase 10D
-surface left unredesigned is Compare (Stage 4), which has not begun** —
+**Every page-level Phase 10D wide-desktop layout candidate (Landing,
+Person, Live Results, Saved Result, Compare) is now resolved. The one
+remaining Phase 10D item is the final, cross-page visual-consistency /
+micro-polish pass — it has not started and needs its own fresh, explicit
+decision; Phase 10D as a whole is NOT yet marked closed pending it** —
 see "Exact next task for a fresh session" at the bottom of this file.
 
 ## Stage 10A record (2026-08) — Production Foundation, FORMALLY CLOSED
@@ -1046,55 +1049,164 @@ disclosure, continued absence of Unexpected/Opposite/Top Matches, and the
 mobile discovery-grid treatment were all explicitly approved against real
 screenshots across two rounds of review.
 
+## Stage 10D-4 record (2026-08) — Compare Editorial Layout, FORMALLY
+## CLOSED, human-approved
+
+**Scope: Compare (`/compare/[slug]`) only.** No `src/core`, Supabase,
+auth, snapshot-schema, scoring/matching, or dataset change. Confirmed by
+`git diff --stat` throughout both rounds: `src/core/**`, `src/lib/**`,
+`db/**`, `src/ui/components/layout.tsx`, `src/ui/savedResult/**`, and
+every Results/Saved-Result/Person/Landing/Account file all showed zero
+diff.
+
+**Root problem, audited before implementation.** Unlike every prior
+Phase 10D page, Compare had no wide-desktop composition at all — nearly
+every section (`.tgi-measure-stack`, 40rem/centered) rendered
+pixel-identically narrow from 1280px through 1920px, confirmed by direct
+screenshot comparison at both widths. The hero was audited separately
+and found NOT to need a fix: `IdentityHero`'s content is intrinsically
+sized, not a growable flex child, so it stayed compact and left-aligned
+at 1920px with and without a portrait — verified live before ruling it
+out of scope, not assumed.
+
+**Round 1 (approved, human-reviewed against real screenshots):**
+- `.tgi-compare-share-differ` — What You Share + Where You Lean
+  Differently as equal-width plain columns at ≥1280px (peer pairing,
+  like Results' Signature/Dual-Edged, not Rail's primary/secondary
+  asymmetry, since the two sections are true peers). Single-section
+  fallback verified with a REAL fixture, not assumed: an all-max-answers
+  token against Confucius genuinely empties "Where You Lean Differently"
+  while "What You Share" stays populated — confirmed live before writing
+  the fixture into the test suite.
+- `.tgi-compare-card-grid` — Learn From (1-3 items) / Worth Exploring
+  (0-2 items) become content-driven grids at ≥1280px, FIXED `22rem`
+  tracks (never `1fr`) so a lone card can't stretch to the full
+  container — the same failure class as Person's Opposite Profile and
+  Results' spotlight cards, fixed structurally here for any item count.
+- **A real regression was caught mid-round, not after ship**: removing
+  the blanket `.tgi-measure-stack` from the "Learn From Them" section's
+  outer wrapper (needed so the card grid could use full width at
+  ≥1280px) left the card-list `Stack` with NO width constraint below
+  1280px — a live Playwright measurement found a bar at **894px** at
+  1024px. Fixed by giving `.tgi-compare-card-grid` the identical base
+  40rem/centered state `.tgi-measure-stack` has, overridden only at
+  ≥1280px; re-verified pixel-identical to the pre-change 1024px view.
+- Verified at this round's close: `tsc`/`vitest` (422/422)/`build`
+  (84 routes, unchanged) all clean, Playwright **137/137** (115 + 22 new).
+
+**Round 2 — two design experiments, decided from real rendered
+comparisons, not from reasoning alone:**
+- **Experiment 1, KEPT**: `.tgi-compare-edge-dontcopy` pairs Where You
+  Bring Something Different (plain bars/prose) with What Not to Copy
+  (existing sunken `Card`s) at ≥1280px. The brief explicitly asked
+  whether this natural asymmetry reads as a coherent pair rather than a
+  mismatched grid — measured (576px columns, cards fill their column
+  exactly, zero overlap) and screenshotted in EN and KO before the
+  answer was "yes, keep it, don't flatten the cards to force symmetry."
+  "What Not to Copy" is never fully absent (its own empty-state
+  sentence), so the only fallback case is `yourEdge` empty, in which
+  case it renders alone exactly as before.
+- **Experiment 2, REJECTED**: a Facet Similarity wide-desktop
+  composition (7 `ScoreBar`s as `Rail`'s primary column, heading+intro
+  as secondary) was actually built — not just proposed — bars measured
+  at 544px (reusing an already-existing global `.tgi-rail__primary
+  .tgi-measure-stack` rule, zero new CSS), and screenshotted at every
+  required width and locale. It was then rejected on a genuine,
+  reproduced defect, not a style preference: `Rail` always renders
+  primary before secondary in DOM order regardless of breakpoint, so
+  below 1280px the ScoreBars appeared BEFORE their own section heading —
+  a Playwright test was written that explicitly reproduces this failure
+  (`order!.trackIdx` before `order!.headingIdx`) before the rejection
+  decision was made. Facet Similarity was fully reverted: no `Rail`
+  import remains in the Compare page, original DOM order, original
+  ~40rem controlled measure — confirmed no Option-B-specific CSS had
+  ever been added (it only ever reused a pre-existing global rule), so
+  nothing needed removing from `components.css` on that side. The
+  experiment-only spec file (`compare.experiments.visual.spec.ts`,
+  including the test that intentionally asserted the known-bad
+  ordering) was deleted outright, not kept disabled; its still-relevant
+  assertions (§5/§6 pairing correctness) were rewritten without the
+  "Experiment" framing and folded into `compare.visual.spec.ts`, since
+  that pairing is now permanent, approved behavior, not an experiment.
+
+**Verification, final.** `tsc --noEmit` clean · `vitest run` **422/422**
+(unchanged — no `src/core` file touched throughout either round) ·
+`next build --webpack` clean, **84 routes**, `/compare/[slug]` still
+`ƒ` dynamic, split unchanged throughout every step of both rounds ·
+Playwright **145/145** (115 pre-Compare baseline + 22 Round 1 + net 8
+Round 2 — 9 experiment-only tests removed, 17 replacement tests added
+enforcing only the final approved behavior) · zero console/page errors,
+zero horizontal overflow, zero clipped elements at any tested
+width/locale/fixture tested · confirmed gitignored screenshot output, no
+stray scratch/probe scripts, no secrets, no real user result token
+anywhere (all fixtures synthetic via `encodeResultToken`, documented in
+the spec file's own header comment, same discipline as every other
+Phase 10D Playwright suite).
+
+**Stage 10D-4 is FORMALLY CLOSED, human-approved (2026-08)** — the
+Share/Differ peer-column pairing and its live-confirmed single-section
+fallback, the Learn-From/Worth-Exploring content-driven grids (including
+the mid-round 894px regression found and fixed), the Where-You-Bring-
+Something-Different/What-Not-to-Copy pairing with its deliberately
+preserved bars-vs-cards asymmetry, and the decision to keep Facet
+Similarity in its original controlled treatment after a real, measured,
+screenshotted Option B was built and rejected on a genuine defect, were
+all explicitly approved against real screenshots across two review
+rounds. This closes the Phase 10D wide-desktop layout initiative at the
+page level entirely — Landing, Person, Live Results, Saved Result, and
+Compare are all now resolved. Only the final, cross-page visual-
+consistency/micro-polish pass remains, and it has not started.
+
 ## Exact next task for a fresh session
 
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
-   result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3", and
-   "Phase 10D-3 Follow-up"), this file, and `docs/deployment.md` in full.
+   result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3",
+   "Phase 10D-3 Follow-up", and "Phase 10D-4"), this file, and
+   `docs/deployment.md` in full.
 2. Phase 9 is closed and frozen — do not reopen it. Stage 10A, 10B, 10C,
-   Phase 10D Stages 1-3, and the Phase 10D-3 Saved Result Historical
+   Phase 10D Stages 1-4, and the Phase 10D-3 Saved Result Historical
    Parity Follow-up are all closed — do not redo their audits,
    re-litigate the site-origin/historical-fidelity/auth-state/rail-
-   breakpoint/snapshot-parity designs, repeat the git/GitHub/Vercel
-   setup, redo the migration, redo the backfill, or re-run the Phase 10D
-   layout audit. **Saved Result now has full content parity AND the
-   wide-desktop Rail/trait-pair composition — the only Phase 10D surface
-   left unredesigned is Compare (Stage 4), which has not begun** and
-   should not start without its own fresh, explicit decision.
-3. **Reuse, don't rebuild**, for any future Phase 10D stage: the
+   breakpoint/snapshot-parity/Compare-pairing/Facet-Similarity designs,
+   repeat the git/GitHub/Vercel setup, redo the migration, redo the
+   backfill, or re-run the Phase 10D layout audit. **Every page-level
+   Phase 10D wide-desktop layout candidate (Landing, Person, Live
+   Results, Saved Result, Compare) is now resolved.** Do not re-litigate
+   the Facet Similarity Option B rejection without genuinely new
+   evidence — it was rejected on a reproduced, tested defect (broken
+   below-1280px reading order), not a style preference.
+3. **Reuse, don't rebuild**, for any future Phase 10D work: the
    Playwright harness (`playwright.config.ts`, `e2e/utils/visualChecks.ts`)
    — running against a production build, not `next dev`, see "Stage
    10D-2 record" for why — and the "automate everything reasonably
    automatable before asking for human validation" testing policy both
    apply going forward. The `Rail`/`IdentityHero` primitives (`src/ui/
-   components/layout.tsx`) already exist, are proven unchanged since
-   Stage 1 (zero diff, re-confirmed after every subsequent stage
-   including this follow-up), and are already wired into Compare
-   (presentationally only, no visual change yet) — a future stage
-   redesigns Compare's composition using the existing primitives, it
-   does not re-extract them. The wide-desktop breakpoint is **≥1280px**,
-   decided and shipped in Stage 1 — do not reopen that decision without
-   new evidence. The mobile discovery-grid breakpoint (**≤640px**,
-   `.tgi-results-discovery-grid`) reuses the pre-existing
-   `.tgi-filter-bar` breakpoint. The synthetic-fixture approach — either
-   `encodeResultToken` against fixed answer patterns (Live Results'
-   suite) or handcrafted `ResultSnapshotV1` objects rendered via a
-   `gallery.tsx`-style static renderer (Saved Result's suite, see "Stage
-   10D-3 Follow-up record") — is directly reusable for Compare's own
-   test suite; Compare, like Saved Result, has no way to reach its "real"
-   render state without external state (a result token *and* a target
-   person), so the static-fixture pattern is likely the better fit again.
+   components/layout.tsx`) remain proven unchanged since Stage 1 (zero
+   diff, re-confirmed after every subsequent stage including Compare,
+   where a `Rail` usage was added for an experiment and then fully
+   reverted without ever touching the primitive itself). The wide-desktop
+   breakpoint is **≥1280px**, decided and shipped in Stage 1 — do not
+   reopen that decision without new evidence. The mobile discovery-grid
+   breakpoint (**≤640px**, `.tgi-results-discovery-grid`) reuses the
+   pre-existing `.tgi-filter-bar` breakpoint. The "build the real
+   experiment and measure it before deciding" discipline Compare's Round
+   2 used (an actual Rail composition was built, measured, screenshotted,
+   AND had a Playwright test reproduce its defect before being rejected)
+   is the model for any future genuinely-open visual decision — don't
+   decide from reasoning alone when the real thing is cheap to render.
    The "Anti-AI-template / human-authored design principle" section in
    `CLAUDE.md` (adopted during Stage 2) applies to every future visual
    decision, not only Phase 10D — read it before any further layout or
    copy work.
-4. Candidates already on record for a future stage, each requiring its
-   own fresh, explicit decision — none approved yet:
-   - Phase 10D Stage 4 (Compare) — now the only remaining wide-desktop
-     layout gap. Stage 5 (visual-consistency micro-pass, kept separate
-     from layout per the original audit's own instruction) — see
-     `CLAUDE.md`'s Phase 10D-1 section for the reasoning behind this
-     split.
+4. Candidates already on record, each requiring its own fresh, explicit
+   decision — none approved yet:
+   - **Phase 10D Stage 5 — the final, cross-page visual-consistency /
+     micro-polish pass** (kept deliberately separate from each page's
+     own layout work, per the original Stage 1 audit's own instruction)
+     — this is now the ONLY item standing between Phase 10D and being
+     marked fully closed. See `CLAUDE.md`'s Phase 10D-1 section for the
+     reasoning behind keeping it a distinct, later stage rather than
+     folding it into each page's own closure.
    - A small, non-blocking micro-polish item recorded at Stage 3 closure:
      the Results-page `SignInCta` sunken-card treatment could be
      revisited for a flatter editorial look (matching the now-flattened
