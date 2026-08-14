@@ -11,21 +11,26 @@ Layout) FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 3
 2026-08. The Phase 10D-3 Saved Result Historical Parity Follow-up is
 ALSO FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 4
 (Compare Editorial Layout) is ALSO FORMALLY CLOSED, human-approved,
+2026-08. Phase 10D Stage 5 (Final Cross-Page Visual Consistency /
+Micro-Polish) is ALSO FORMALLY CLOSED, human-approved, 2026-08.**
+**PHASE 10D AS A WHOLE IS NOW FORMALLY CLOSED, human-approved,
 2026-08.** This is the durable resume point for a fresh session — read
 this file, `CLAUDE.md`'s Status section and its dedicated "Phase 10C —
 historical result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3",
-"Phase 10D-3 Follow-up", and "Phase 10D-4" sections, and
-`docs/deployment.md` before touching Phase 10 again. Phase 9 is FORMALLY
-CLOSED and frozen (see `docs/phase9-provisional-checkpoint.md`) —
-nothing in this document proposes touching it. Stage 10C's code
+"Phase 10D-3 Follow-up", "Phase 10D-4", and "Phase 10D Stage 5" sections,
+and `docs/deployment.md` before touching Phase 10 again. Phase 9 is
+FORMALLY CLOSED and frozen (see `docs/phase9-provisional-checkpoint.md`)
+— nothing in this document proposes touching it. Stage 10C's code
 (including the post-E2E auth-state fix, deployed from commit
 `d425e24730fa524429033978298431dd84be1f9e`) has passed a full production
 human E2E — see "Stage 10C record" below for the complete evidence.
 **Every page-level Phase 10D wide-desktop layout candidate (Landing,
-Person, Live Results, Saved Result, Compare) is now resolved. The one
-remaining Phase 10D item is the final, cross-page visual-consistency /
-micro-polish pass — it has not started and needs its own fresh, explicit
-decision; Phase 10D as a whole is NOT yet marked closed pending it** —
+Person, Live Results, Saved Result, Compare) is resolved, AND the final
+cross-page visual-consistency audit found and fixed the last two
+genuine gaps (Person's mobile Similar People density, one missing
+Divider before Sources). Phase 10D has no open items.** Phase 10's own
+broader, still-unstarted scope (SEO/share/analytics/ads/portraits/
+custom domain — see "Phase 10C record" and CLAUDE.md's Roadmap) —
 see "Exact next task for a fresh session" at the bottom of this file.
 
 ## Stage 10A record (2026-08) — Production Foundation, FORMALLY CLOSED
@@ -1155,71 +1160,161 @@ all explicitly approved against real screenshots across two review
 rounds. This closes the Phase 10D wide-desktop layout initiative at the
 page level entirely — Landing, Person, Live Results, Saved Result, and
 Compare are all now resolved. Only the final, cross-page visual-
-consistency/micro-polish pass remains, and it has not started.
+consistency/micro-polish pass remained, and its record follows.
+
+## Stage 5 record (2026-08) — Final Cross-Page Visual Consistency /
+## Micro-Polish, FORMALLY CLOSED, human-approved
+
+**Not a redesign stage — explicitly scoped as consistency-only.** The
+mandate: preserve every page's already-approved identity and structural
+decisions; change something only when a difference had no product/
+content reason, was visibly inconsistent, and fixing it would improve
+the system without flattening each page's individual character. This
+discipline was followed literally — the audit concluded most things
+should stay as they are, and only two small, mechanical, well-
+precedented fixes were implemented.
+
+**Audit method.** A 60-page automated sweep (Landing, Person ×2
+fixtures, Live Results, Saved Result via its static preview, Compare —
+each × EN/KO × 390/768/1024/1280/1920px) against a production build
+found **zero hard defects**: zero overflow, zero console errors, zero
+non-200 responses anywhere in the matrix. On top of that, five
+consistency dimensions were checked with real screenshots and, where
+useful, precise DOM measurements: vertical rhythm, typography
+hierarchy, card intensity, dividers, CTA hierarchy, controlled-width
+rules, responsive breakpoint transitions, and EN/KO optical balance.
+
+**Reviewed and found already-consistent or defensibly intentional (no
+change made):**
+- Card intensity across all five pages — semantic bordered `Card` for
+  data entities, sunken `Card` for supporting/utility content,
+  uniformly applied already.
+- CTA hierarchy — one shared `.tgi-button` base (44px tap target) with
+  variant/size usage already following a sensible escalation.
+- The H1 typography split (`Display`, 3.5rem, for Landing/Results/
+  Saved-Result's generic titles vs. `Heading level={1}`, 2.5rem, for
+  Person's/Compare's person-name H1s) — judged intentional: a person's
+  name outranking the product's own editorial voice would be the wrong
+  hierarchy.
+- Landing's larger top padding (5rem vs. 3rem elsewhere) — judged
+  intentional headline breathing room for the one true marketing entry
+  point.
+- Korean typography (`:lang(ko)` sans-heading rule + the
+  `.tgi-person-name` serif escape hatch) — re-confirmed firing
+  correctly everywhere, zero wrapping/overflow failures found across
+  the Korean matrix.
+- Results' `SignInCta` sunken-card visual weight — re-confirmed still
+  present, still the same pre-existing, already-recorded low-severity
+  item from Phase 10D-3's own closure notes. Explicitly NOT reopened
+  this stage, per instruction.
+
+**The two genuine gaps found, both implemented in one round, both in
+`app/[locale]/people/[slug]/page.tsx`:**
+1. **Person's "Similar People" `PersonCard` grid had never received the
+   mobile discovery-grid density fix** Results/Saved Result already got
+   in their own Phase 10D-3 mobile follow-up, despite being the
+   identical content shape (a multi-`PersonCard` grid). Fixed by adding
+   the existing `.tgi-results-discovery-grid` class — zero new CSS.
+   Measured at 390px: **356×609.5px single-column cards → ~171×424.1px
+   2-column cards**; da Vinci's total 390px page height **8340px →
+   5873px (≈−30%)**. Re-verified the class is inert above 640px (768/
+   1024/1280/1920px all still use `Grid`'s original untouched
+   `auto-fit` behavior).
+2. **No `<Divider/>` preceded Person's Sources section** — every other
+   page divides before its own supporting/citation content (Results'/
+   Saved Result's methodology panel, Compare's TargetSwitcher); Sources
+   is the one content-category transition on Person that previously
+   had none. Fixed with exactly one `<Divider/>` immediately before the
+   Sources card — divider count went from 2 → 3 (confirmed via DOM
+   inspection, not just visually) — with no divider added between
+   Similar People and Opposite Profile, which remains one deliberately
+   undivided "other people" cluster.
+
+**Verification.** `tsc --noEmit` clean · `vitest run` **422/422**
+(unchanged — no `src/core` file touched) · `next build --webpack`
+clean, **84 routes**, all 70 Person pages still `●` SSG, split
+unchanged · Playwright **151/151** (145 baseline + 6 new: discovery-
+grid-class + exact-2-column assertions across 3 fixtures including
+Korean, a guard confirming the class doesn't leak past 640px, and 2
+divider-placement/section-order/divider-count guards across both a
+portrait and a no-portrait fixture) · confirmed: `src/core/**`,
+`src/lib/**`, `db/**`, `src/ui/components/**`, `src/ui/savedResult/**`,
+and `src/ui/styles/**` (no CSS change was needed at all) all show zero
+diff, along with every Results/Saved-Result/Compare/Landing/Account
+file.
+
+**Stage 5 is FORMALLY CLOSED, human-approved (2026-08)** — both
+implementation changes were approved on the first round, against real
+screenshots at every requested viewport/locale combination, with no
+open design question requiring a second round. **This was the last
+open item in Phase 10D — Phase 10D as a whole is FORMALLY CLOSED as of
+this stage's closure.**
 
 ## Exact next task for a fresh session
 
+**Phase 10D is fully closed — this section no longer points into it.**
+The next work is somewhere in Phase 10's own broader, still-unstarted
+scope, but which specific area starts (if any) needs its own fresh,
+explicit decision; nothing below is pre-approved or begun.
+
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
    result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3",
-   "Phase 10D-3 Follow-up", and "Phase 10D-4"), this file, and
-   `docs/deployment.md` in full.
-2. Phase 9 is closed and frozen — do not reopen it. Stage 10A, 10B, 10C,
-   Phase 10D Stages 1-4, and the Phase 10D-3 Saved Result Historical
-   Parity Follow-up are all closed — do not redo their audits,
-   re-litigate the site-origin/historical-fidelity/auth-state/rail-
-   breakpoint/snapshot-parity/Compare-pairing/Facet-Similarity designs,
-   repeat the git/GitHub/Vercel setup, redo the migration, redo the
-   backfill, or re-run the Phase 10D layout audit. **Every page-level
-   Phase 10D wide-desktop layout candidate (Landing, Person, Live
-   Results, Saved Result, Compare) is now resolved.** Do not re-litigate
-   the Facet Similarity Option B rejection without genuinely new
-   evidence — it was rejected on a reproduced, tested defect (broken
-   below-1280px reading order), not a style preference.
-3. **Reuse, don't rebuild**, for any future Phase 10D work: the
-   Playwright harness (`playwright.config.ts`, `e2e/utils/visualChecks.ts`)
-   — running against a production build, not `next dev`, see "Stage
-   10D-2 record" for why — and the "automate everything reasonably
-   automatable before asking for human validation" testing policy both
-   apply going forward. The `Rail`/`IdentityHero` primitives (`src/ui/
-   components/layout.tsx`) remain proven unchanged since Stage 1 (zero
-   diff, re-confirmed after every subsequent stage including Compare,
-   where a `Rail` usage was added for an experiment and then fully
-   reverted without ever touching the primitive itself). The wide-desktop
-   breakpoint is **≥1280px**, decided and shipped in Stage 1 — do not
-   reopen that decision without new evidence. The mobile discovery-grid
-   breakpoint (**≤640px**, `.tgi-results-discovery-grid`) reuses the
-   pre-existing `.tgi-filter-bar` breakpoint. The "build the real
-   experiment and measure it before deciding" discipline Compare's Round
-   2 used (an actual Rail composition was built, measured, screenshotted,
-   AND had a Playwright test reproduce its defect before being rejected)
-   is the model for any future genuinely-open visual decision — don't
-   decide from reasoning alone when the real thing is cheap to render.
-   The "Anti-AI-template / human-authored design principle" section in
-   `CLAUDE.md` (adopted during Stage 2) applies to every future visual
-   decision, not only Phase 10D — read it before any further layout or
-   copy work.
-4. Candidates already on record, each requiring its own fresh, explicit
-   decision — none approved yet:
-   - **Phase 10D Stage 5 — the final, cross-page visual-consistency /
-     micro-polish pass** (kept deliberately separate from each page's
-     own layout work, per the original Stage 1 audit's own instruction)
-     — this is now the ONLY item standing between Phase 10D and being
-     marked fully closed. See `CLAUDE.md`'s Phase 10D-1 section for the
-     reasoning behind keeping it a distinct, later stage rather than
-     folding it into each page's own closure.
-   - A small, non-blocking micro-polish item recorded at Stage 3 closure:
-     the Results-page `SignInCta` sunken-card treatment could be
-     revisited for a flatter editorial look (matching the now-flattened
-     archetype note nearby) — presentation only, every Phase 10C
-     behavioral contract must stay untouched.
-   - A small, non-blocking item deferred at the Follow-up's own closure:
-     Closest Match portrait/`IdentityHero` adoption for Saved Result —
-     deliberately not bundled into this pass; would need its own review
-     of the "removed person has no portrait" fallback question.
-   - Full SEO pass, share cards/OG images, portraits pipeline,
-     analytics, ads, and eventually a custom branded domain (would also
+   "Phase 10D-3 Follow-up", "Phase 10D-4", and "Phase 10D Stage 5"),
+   this file, and `docs/deployment.md` in full.
+2. Phase 9 is closed and frozen — do not reopen it. **Phase 10D in its
+   entirety (Stages 10D-1 through 10D-4, the Saved Result Historical
+   Parity Follow-up, and Stage 5) is closed** — do not redo any of its
+   audits, re-litigate the site-origin/historical-fidelity/auth-state/
+   rail-breakpoint/snapshot-parity/Compare-pairing/Facet-Similarity/
+   cross-page-consistency designs, repeat the git/GitHub/Vercel setup,
+   redo the migration, redo the backfill, or re-run the Phase 10D layout
+   audit. Do not re-litigate the Facet Similarity Option B rejection
+   without genuinely new evidence — it was rejected on a reproduced,
+   tested defect, not a style preference. Do not reopen Results'
+   `SignInCta` visual weight or Saved Result's Closest Match portrait
+   deferral — both were explicitly reviewed again at Stage 5 and left
+   as recorded, still-open, non-blocking items, not silently forgotten.
+3. **Reuse, don't rebuild**, for any future visual work on this
+   product, Phase 10 or otherwise: the Playwright harness
+   (`playwright.config.ts`, `e2e/utils/visualChecks.ts`) — running
+   against a production build, not `next dev` — and the "automate
+   everything reasonably automatable before asking for human
+   validation" testing policy both apply going forward. `Rail`/
+   `IdentityHero` (`src/ui/components/layout.tsx`) remain proven
+   unchanged since Stage 1 across every subsequent stage. The
+   wide-desktop breakpoint is **≥1280px** — do not reopen that decision
+   without new evidence. The mobile discovery-grid breakpoint
+   (**≤640px**, `.tgi-results-discovery-grid`) is now shared by three
+   pages (Results, Saved Result, Person) — reuse it again for any future
+   multi-`PersonCard` grid rather than inventing a new mobile pattern.
+   The "build the real experiment and measure it before deciding"
+   discipline Compare's Round 2 and Stage 5 both used is the model for
+   any future genuinely-open visual decision. The "Anti-AI-template /
+   human-authored design principle" section in `CLAUDE.md` applies to
+   every future visual decision on this product, not only Phase 10D.
+4. **Candidates for Phase 10's own remaining scope — none approved,
+   none begun, each needs its own fresh decision:**
+   - Full SEO pass (canonical URLs, hreflang, sitemap.xml, structured
+     data, OpenGraph images), share cards, analytics, ads, portraits
+     pipeline, and eventually a custom branded domain (would also
      require revisiting `NEXT_PUBLIC_SITE_URL` and the Supabase/Google
-     redirect-URL allow-lists a second time for the new domain).
-5. Preserve the broader Phase 10 boundaries throughout whichever stage is
+     redirect-URL allow-lists a second time) — this list is already
+     authoritative, recorded at Phase 10C's own closure, not newly
+     invented here.
+   - Named as further candidates during Stage 5's closeout, but with NO
+     prior scope/design/decision behind them yet (weaker status than
+     the list above): browser-language/locale-preference detection
+     policy, an explicit monetization strategy decision, launch QA/
+     public beta, and later dataset scaling toward the 100-1,000-person
+     range "Inclusion philosophy" already anticipates structurally.
+   - A small, non-blocking micro-polish item, re-confirmed still open
+     at Stage 5: the Results-page `SignInCta` sunken-card treatment
+     could be revisited for a flatter editorial look — presentation
+     only, every Phase 10C behavioral contract must stay untouched.
+   - A small, non-blocking item, re-confirmed still open at Stage 5:
+     Closest Match portrait/`IdentityHero` adoption for Saved Result —
+     would need its own review of the "removed person has no portrait"
+     fallback question.
+5. Preserve the broader Phase 10 boundaries throughout whichever area is
    chosen next: no invented privacy-policy/business facts, no unrequested
    scope expansion.

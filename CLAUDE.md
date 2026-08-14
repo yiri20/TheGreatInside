@@ -2745,17 +2745,17 @@ headline result of Phase 2, now extended by Phase 4.
     Bruce Lee ("브루스 리" vs. "이소룡") and Rumi ("루미," short form,
     vs. an unverifiable full transliteration) carry flagged, unresolved
     person-name ambiguities.
-12. ~~Phase 10 wide-desktop layout debt~~ **Resolved (2026-08) — all five
-    pages now have an intentional wide-desktop composition.** Landing
-    resolved in Phase 10D Stage 1, Person in Phase 10D-2, Live Results in
-    Phase 10D-3, Saved Result in the Phase 10D-3 Saved Result Historical
-    Parity follow-up, and Compare in Phase 10D-4 (all 2026-08, see those
-    sections above and "Phase 10D-4" below). Every page-level wide-desktop
-    layout candidate identified when this item was first flagged is now
-    closed. A separate, still-pending item is the Phase 10D **final visual
-    consistency / micro-polish pass** across all five redesigned surfaces —
-    see the Roadmap entry for Phase 10D below; that pass has not started
-    and is not implied by this item's closure.
+12. ~~Phase 10 wide-desktop layout debt~~ **Fully resolved (2026-08) — all
+    five pages have an intentional wide-desktop composition AND the
+    cross-page consistency pass is complete.** Landing resolved in Phase
+    10D Stage 1, Person in Phase 10D-2 (plus a Stage 5 mobile-density
+    micro-polish), Live Results in Phase 10D-3, Saved Result in the Phase
+    10D-3 Saved Result Historical Parity follow-up, Compare in Phase
+    10D-4, and the final cross-page visual-consistency audit in Phase
+    10D Stage 5 (all 2026-08, see "Phase 10D-4" and "Phase 10D Stage 5"
+    below). **Phase 10D as a whole is now FORMALLY CLOSED** — see the
+    Roadmap section below for the full closure record and durable design
+    principles it established.
 13. ~~Results-page sign-in conversion CTA~~ **Implemented (Phase 10C,
     2026-08) — see that section below.** The CTA now only ever claims
     "saved" after directly observing its own save succeed for the exact
@@ -3829,10 +3829,113 @@ built, measured, and rejected on a genuine reading-order regression,
 not on taste alone) were all explicitly approved against real
 screenshots across two review rounds. This closes "Known open issues"
 item 12 completely — every page-level Phase 10D wide-desktop layout
-candidate is now resolved. The one remaining Phase 10D item is the
-final, cross-page visual-consistency / micro-polish pass — see
-"Roadmap" below; it has not started and is a distinct decision from
-this closure.
+candidate is now resolved. At this point the one remaining Phase 10D
+item was the final, cross-page visual-consistency / micro-polish pass —
+see "Phase 10D Stage 5" immediately below for its closure.
+
+## Phase 10D Stage 5 — Final Cross-Page Visual Consistency / Micro-Polish
+## (FORMALLY CLOSED, human-approved, 2026-08)
+
+**Scope and method.** An audit-first pass across all five redesigned
+Phase 10D surfaces (Landing, Person, Live Results, Saved Result,
+Compare), both locales, at 390/768/1024/1280/1920px, against a
+production build — a 60-page automated sweep (5 surfaces × 2 locales ×
+5 viewports, plus targeted DOM measurements) found **zero hard
+defects**: no overflow, no console errors, no non-200 responses
+anywhere in the matrix. This was explicitly NOT another redesign stage
+— the mandate was to preserve every page's already-approved identity
+and structural decisions, and change something only where a difference
+had no product/content reason, was visibly inconsistent, and fixing it
+would improve the system without flattening each page's character.
+
+**Audit dimensions checked**: vertical rhythm, typography hierarchy,
+card intensity, dividers, CTA hierarchy, controlled-width rules,
+responsive breakpoint transitions, and EN/KO optical balance. Findings,
+by dimension:
+- **Card intensity** was already fully coherent across all five
+  pages — semantic bordered `Card` (`TraitCard`/`PersonCard`) for real
+  data entities, sunken `Card` for supporting/utility content, applied
+  identically everywhere. No fix needed.
+- **CTA hierarchy** was already structural, not accidental — one
+  shared `.tgi-button` base (44px min tap target, `font: inherit`)
+  everywhere, with `lg`/variant usage already following a sensible,
+  consistent escalation (only Landing's two headline actions use `lg`).
+- **Typography**: the H1 scale split (`Display`, 3.5rem, for Landing/
+  Results/Saved-Result's generic page titles vs. `Heading level={1}`,
+  2.5rem, for Person's/Compare's person-name H1s) was reviewed and
+  found **intentional** — a person's name outranking the product's own
+  editorial voice would be the wrong hierarchy, not the right one.
+  Preserved unchanged.
+- **Vertical rhythm**: Landing's larger top padding (5rem vs. 3rem
+  elsewhere) was reviewed and found **intentional** — Landing is the
+  one true marketing entry point and the extra air reads as deliberate
+  headline breathing room, not an oversight. Preserved unchanged.
+- **Korean typography** (the `:lang(ko)` sans-heading rule + the
+  `.tgi-person-name` serif escape hatch) was re-confirmed firing
+  correctly everywhere a bare person name renders, with zero
+  wrapping/overflow failures found across the Korean matrix. No change
+  needed.
+- **Divider findings**: Compare/Results/Saved Result divide between
+  nearly every section; Person only divided twice (after hero, after
+  Trait Constellation), leaving Similar People → Opposite Profile →
+  Sources undivided. Similar People/Opposite Profile staying undivided
+  was judged a legitimate "other people" content cluster — but Sources
+  (a citation list, a genuinely different content category) having no
+  divider before it, when every other page divides before its own
+  supporting/citation content, was judged a real, accidental gap.
+- **Responsive/controlled-width**: a real, measured gap — Person's
+  "Similar People" `PersonCard` grid had never received the mobile
+  discovery-grid density fix Results/Saved Result already got in their
+  own Phase 10D-3 mobile follow-up, despite being the identical content
+  shape. Measured at 390px: **356×609.5px** single-column cards on
+  Person vs. **171×374px** 2-column cards on Results for the same
+  `PersonCard` grid type.
+
+**The two approved implementation changes, both in
+`app/[locale]/people/[slug]/page.tsx`:**
+1. Applied the existing `.tgi-results-discovery-grid` class (already
+   shared between Results and Saved Result — no new CSS) to Person's
+   Similar People `Grid`. Measured result: **356×609.5px → ~171×
+   424.1px**, 1 column → 2 columns, da Vinci's 390px page height
+   **8340px → 5873px (≈−30%)**. Above 640px the class is inert — the
+   `Grid` component's own untouched `auto-fit` behavior is unchanged,
+   confirmed live at 768/1024/1280/1920px.
+2. Added exactly one `<Divider />` immediately before the Sources
+   card — no divider added between Similar People and Opposite
+   Profile, no other divider normalization anywhere.
+
+**Explicitly reviewed and left unchanged** (in addition to the
+typography/rhythm items above): the card-intensity system as a whole;
+Results' `SignInCta` sunken-card visual weight (re-confirmed still
+present, still the same pre-existing, already-recorded low-severity
+item from Phase 10D-3 — Stage 5 did not reopen it); every page-specific
+composition already approved in Phase 10D-1 through 10D-4 (Landing's
+mobile CTA/How-It-Works treatment, Person's hero/Known-For/Opposite-
+Profile width, Results' spotlight pairing/Signature-Dual pairing/
+Category-before-Trait-Profile order, Saved Result's historical-fidelity
+boundary and its own Category-before-Trait-Profile order, Compare's
+Share/Differ and §5/§6 pairings and its intentionally narrow Facet
+Similarity).
+
+**Verification.** `tsc --noEmit` clean · `vitest run` **422/422**
+(unchanged — no `src/core` file touched) · `next build --webpack`
+clean, **84 routes**, all 70 Person pages still `●` SSG, split
+unchanged · Playwright **151/151** (145 baseline + 6 new: mobile
+discovery-grid class + 2-column-count assertions across 3 fixtures, a
+guard confirming the override doesn't leak past 640px, and 2
+divider-placement/section-order/divider-count guards) · zero new CSS
+required — both changes reuse existing, already-shared patterns
+exactly · confirmed: `src/core/**`, `src/lib/**`, `db/**`, `src/ui/
+components/**`, `src/ui/savedResult/**`, `src/ui/styles/**`, and every
+Results/Saved-Result/Compare/Landing/Account file all show zero diff.
+
+**Phase 10D Stage 5 is FORMALLY CLOSED, human-approved (2026-08)** —
+the audit's conclusion that very little needed changing was itself the
+correct outcome of a thorough pass, not an under-effort one: five
+dimensions were checked in depth and came back either already-coherent
+or defensibly intentional, and the two genuine gaps found were both
+small, mechanical, low-risk reuses of already-established patterns,
+approved on the first implementation round.
 
 ## Roadmap
 
@@ -4112,12 +4215,97 @@ rather than left dormant. `tsc`/`vitest` (**422/422**)/`build`
 (**84 routes**, split unchanged) all clean, Playwright **145/145**. This
 closes "Known open issues" item 12 completely — **every page-level
 Phase 10D wide-desktop layout candidate (Landing, Person, Live Results,
-Saved Result, Compare) is now resolved.** The one item still open for
-Phase 10D as a whole is the final, cross-page visual-consistency /
-micro-polish pass (originally named Stage 5 in the Phase 10D-1 audit,
-kept deliberately separate from each page's own layout work) — it has
-not started and needs its own fresh, explicit decision; Phase 10D is not
-yet marked fully closed pending that pass.
+Saved Result, Compare) is now resolved.** **Phase 10D Stage 5 (Final
+Cross-Page Visual Consistency / Micro-Polish) is now ALSO FORMALLY
+CLOSED, human-approved (2026-08)** — see "Phase 10D Stage 5" above for
+the full record: a 60-page automated sweep across all five surfaces ×
+both locales × five viewports found zero hard defects; five
+consistency dimensions (rhythm, typography, card intensity, dividers,
+CTA hierarchy) were audited in depth and came back mostly
+already-coherent or defensibly intentional (Landing's larger top
+padding, the Display-vs-Heading-1 hierarchy, Korean typography
+behavior, the card-intensity system, and Results' `SignInCta` weight
+were all reviewed and explicitly left unchanged); the two genuine gaps
+found — Person's Similar People grid missing the mobile discovery-grid
+treatment Results/Saved Result already had (measured 356×609.5px→
+~171×424.1px, 1→2 columns, page height −30%), and one missing
+`<Divider/>` before Person's Sources — were both fixed with zero new
+CSS, reusing already-established patterns exactly. `tsc`/`vitest`
+(**422/422**)/`build` (**84 routes**, all 70 Person pages still SSG,
+split unchanged) all clean, Playwright **151/151**.
+
+**Phase 10D — Launch Visual / Wide-Desktop Polish: FORMALLY CLOSED,
+human-approved (2026-08)**
+
+The complete sequence, each stage human-approved against real
+screenshots before the next began: **10D-1** (visual regression harness
++ editorial primitives + Landing, plus a mobile-polish follow-up)  →
+**10D-2** (Person Detail) → **10D-3** (Live Results, plus the Saved
+Result Historical Parity follow-up) → **10D-4** (Compare) → **Stage 5**
+(final cross-page visual-consistency / micro-polish). Every stage
+closed on the same discipline: audit first, implement the smallest
+defensible change, verify automatically (production build + Playwright,
+never `next dev`), then get real human approval against real
+screenshots before moving on — no stage was declared closed on an
+agent's own judgment alone.
+
+**Durable design principles this phase established, for every future
+visual decision on this product, not only Phase 10D:**
+- Editorial/publication character over SaaS-dashboard uniformity — see
+  "Anti-AI-template / human-authored design principle" above, adopted
+  mid-phase (Stage 2) and applied to every stage after it.
+- **≥1280px** is the one intentional wide-desktop breakpoint across the
+  whole product — decided once in Stage 1, never independently
+  reopened by a later stage.
+- Use horizontal space through *composition* (pairing peer sections,
+  content-driven grids) — never by stretching an individual element
+  merely because the container is wider. A 0–100 bar or a sparse card
+  gains nothing from more width; a page gains from intentional
+  juxtaposition.
+- Readable, controlled widths are non-negotiable for prose and for
+  comparison/data bars, even inside a wide composition — every paired
+  or gridded layout in this phase still caps its individual bars/text
+  at a readable measure.
+- Sparse content (a single card, a lone grid item) must never stretch
+  to fill a wide track — the "auto-fit + `1fr`" bug class this phase
+  found and fixed four separate times (Person's Opposite Profile,
+  Results' spotlight cards, Compare's card grids, and implicitly
+  guarded against everywhere `minmax()` was hand-checked since).
+- **Differences between pages are allowed, even expected, when content
+  justifies them** — consistency means shared *intent* (the same
+  underlying rules applied thoughtfully), not mechanical sameness. This
+  phase deliberately left several real differences in place (Landing's
+  padding, the H1 scale split, Compare's asymmetric §5/§6 pairing)
+  specifically because they were judged intentional, not oversights.
+- Mobile density may legitimately differ from desktop when the content
+  shape justifies it (the mobile discovery-grid pattern, used four
+  times across three pages by Stage 5's close) — this is a deliberate,
+  reusable pattern, not a one-off.
+- **Human visual approval always follows exhaustive automated QA, not
+  instead of it.** Every stage ran the full production-build Playwright
+  suite, checked overflow/console/DOM-order/tap-targets automatically,
+  and only THEN asked for the one thing an agent cannot verify itself —
+  a real person's judgment on whether it actually looks right.
+
+**What's next, stated precisely rather than assumed.** Phase 10 itself
+was always framed more broadly than 10D (see "10 SEO/share/ads/scale"
+above) — 10A-10C (production foundation, first deployment, historical
+result fidelity) and now 10D (visual polish) are closed, but Phase 10's
+own remaining scope was never started and stays exactly as already
+recorded at Phase 10C's own closure: **no full SEO pass, no share
+cards, no analytics, no ads, no portraits pipeline, no custom domain,
+no invented privacy-policy/business facts.** Separately, this Stage 5
+closeout request also named several further candidate areas for a
+post-launch track — browser-language/locale-preference detection
+policy, an explicit monetization strategy decision, launch QA/public
+beta, and later dataset scaling toward the 100-1,000-person range the
+"Inclusion philosophy" section already anticipates structurally. These
+are recorded here as **named candidates only** — none of them has an
+approved scope, design, or decision behind it yet, unlike the
+SEO/share/ads/portraits/domain list above, which already has that
+status from Phase 10C's closure. Every item in both lists needs its own
+fresh, explicit decision before any work begins, same discipline as
+every Phase 10D stage used — nothing here starts automatically.
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 

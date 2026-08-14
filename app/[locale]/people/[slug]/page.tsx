@@ -229,7 +229,18 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
         {similar.length > 0 ? (
           <Stack gap={4}>
             <Heading level={2}>{t(locale, "person.similar_people")}</Heading>
-            <Grid min="14rem">
+            {/* Phase 10D Stage 5: reuses the exact mobile-density class
+                Results/Saved Result already established for the same
+                multi-PersonCard content shape (see components.css,
+                "@media (max-width: 640px) .tgi-results-discovery-grid") —
+                below 640px this was a single 356px-wide column of cards
+                measured 609.5px tall each; the shared class forces 2
+                columns at that width, same as every other PersonCard grid
+                of this shape in the product. No new CSS, `Grid`/
+                `PersonCard` themselves untouched, wide-desktop/tablet
+                behavior unaffected (the class only overrides
+                `grid-template-columns` at <=640px). */}
+            <Grid min="14rem" className="tgi-results-discovery-grid">
               {similar.map((s) => (
                 <PersonCard
                   key={s.personId}
@@ -287,30 +298,42 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
         ) : null}
 
         {person.sources.length > 0 ? (
-          // Phase 10D-2: a citation list is inherently narrow content — at
-          // >=1280px this was previously a sunken Card stretched to the
-          // full 1280px container, one of the "giant empty card" cases the
-          // Phase 10D audit named. Capped with the same .tgi-measure-stack
-          // every other narrow block in the app already uses (quiz,
-          // account, error states), not a new pattern.
-          <Card variant="sunken" className="tgi-measure-stack">
-            <Stack gap={3}>
-              <Heading level={3}>{t(locale, "person.sources")}</Heading>
-              <Stack gap={1} as="ul">
-                {person.sources.map((source) => (
-                  <li key={source.id}>
-                    {source.url ? (
-                      <a href={source.url} target="_blank" rel="noreferrer">
-                        {source.title}
-                      </a>
-                    ) : (
-                      source.title
-                    )}
-                  </li>
-                ))}
+          // Phase 10D Stage 5: a `<Divider />` immediately precedes Sources —
+          // every other page in the product divides before its own
+          // supporting/citation-type content (Results'/Saved Result's
+          // methodology panel, Compare's TargetSwitcher); Sources is the
+          // one content-category transition on this page (from person-card
+          // sections to citations) that previously had no divider, relying
+          // only on the outer Stack's gap. Deliberately NOT added between
+          // Similar People and Opposite Profile — those two remain one
+          // undivided "other people" cluster, unchanged.
+          <>
+            <Divider />
+            {/* Phase 10D-2: a citation list is inherently narrow content — at
+                >=1280px this was previously a sunken Card stretched to the
+                full 1280px container, one of the "giant empty card" cases the
+                Phase 10D audit named. Capped with the same .tgi-measure-stack
+                every other narrow block in the app already uses (quiz,
+                account, error states), not a new pattern. */}
+            <Card variant="sunken" className="tgi-measure-stack">
+              <Stack gap={3}>
+                <Heading level={3}>{t(locale, "person.sources")}</Heading>
+                <Stack gap={1} as="ul">
+                  {person.sources.map((source) => (
+                    <li key={source.id}>
+                      {source.url ? (
+                        <a href={source.url} target="_blank" rel="noreferrer">
+                          {source.title}
+                        </a>
+                      ) : (
+                        source.title
+                      )}
+                    </li>
+                  ))}
+                </Stack>
               </Stack>
-            </Stack>
-          </Card>
+            </Card>
+          </>
         ) : null}
       </Stack>
     </main>

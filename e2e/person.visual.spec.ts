@@ -143,3 +143,96 @@ test("person page without a portrait still renders a coherent hero (en-US, ada-l
   expect(console_.errors).toEqual([]);
   expect(console_.pageErrors).toEqual([]);
 });
+
+// ============================================================================
+// Phase 10D Stage 5 (cross-page consistency micro-polish): Similar People's
+// mobile discovery-grid density, and the divider preceding Sources.
+// ============================================================================
+
+for (const [slug, locale] of [
+  ["leonardo-da-vinci", "en-US"],
+  ["leonardo-da-vinci", "ko-KR"],
+  ["ada-lovelace", "en-US"],
+] as const) {
+  test(`Similar People grid uses the discovery-grid class and renders 2 columns at 390px (${slug}, ${locale})`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 1400 });
+    const console_ = captureConsole(page);
+    await page.goto(`/${locale}/people/${slug}`, { waitUntil: "networkidle" });
+
+    const grid = await page.evaluate(() => {
+      const headings = Array.from(document.querySelectorAll("h2"));
+      const heading = headings.find((h) => h.textContent?.includes("Similar People") || h.textContent?.includes("비슷한 인물"));
+      const section = heading?.parentElement;
+      const g = section?.querySelector(".tgi-grid");
+      if (!g) return null;
+      return {
+        hasClass: g.classList.contains("tgi-results-discovery-grid"),
+        columns: getComputedStyle(g).gridTemplateColumns.trim().split(/\s+/).length,
+      };
+    });
+    expect(grid, "Similar People grid not found").not.toBeNull();
+    expect(grid!.hasClass, "Similar People Grid should carry the shared discovery-grid class").toBe(true);
+    expect(grid!.columns, "Similar People should render exactly 2 columns at 390px").toBe(2);
+
+    await assertNoHorizontalOverflow(page);
+    const clipped = await assertNoClippedElements(page);
+    expect(clipped).toEqual([]);
+    expect(console_.errors).toEqual([]);
+    expect(console_.pageErrors).toEqual([]);
+  });
+}
+
+test("Similar People grid is NOT forced to 2 columns at 768px+ (discovery-grid only overrides <=640px)", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 1024, height: 1000 });
+  await page.goto("/en-US/people/leonardo-da-vinci", { waitUntil: "networkidle" });
+  const columns = await page.evaluate(() => {
+    const heading = Array.from(document.querySelectorAll("h2")).find((h) => h.textContent?.includes("Similar People"));
+    const grid = heading?.parentElement?.querySelector(".tgi-grid");
+    return grid ? getComputedStyle(grid).gridTemplateColumns.trim().split(/\s+/).length : null;
+  });
+  // 6 cards at 14rem min inside a 1024px container naturally fit more than 2
+  // columns via the untouched auto-fit `Grid` behavior — this only fails if
+  // the discovery-grid override leaked past its intended <=640px scope.
+  expect(columns).not.toBeNull();
+  expect(columns!, "Similar People must not be pinned to 2 columns above the discovery-grid breakpoint").toBeGreaterThan(2);
+});
+
+for (const [slug, hasContent] of [
+  ["leonardo-da-vinci", true],
+  ["ada-lovelace", true],
+] as const) {
+  test(`Sources is preceded by exactly one Divider, section order and divider count otherwise unchanged (${slug})`, async ({
+    page,
+  }) => {
+    await page.goto(`/en-US/people/${slug}`, { waitUntil: "networkidle" });
+    const result = await page.evaluate(() => {
+      const headings = Array.from(document.querySelectorAll("h2, h3")).map((h) => h.textContent?.trim() ?? "");
+      const similarIdx = headings.findIndex((h) => h.includes("Similar People"));
+      const oppositeIdx = headings.findIndex((h) => h.includes("Opposite Profile"));
+      const sourcesHeading = Array.from(document.querySelectorAll("h3")).find((h) => h.textContent?.includes("Sources"));
+      const sourcesCard = sourcesHeading?.closest(".tgi-card");
+      const dividerImmediatelyBefore = sourcesCard?.previousElementSibling?.classList.contains("tgi-divider") ?? false;
+      return {
+        similarIdx,
+        oppositeIdx,
+        hasSources: !!sourcesCard,
+        dividerImmediatelyBeforeSources: dividerImmediatelyBefore,
+        totalDividers: document.querySelectorAll(".tgi-divider").length,
+      };
+    });
+    if (!result.hasSources) return; // this person has no sources; nothing to assert
+    expect(result.similarIdx, "Similar People should precede Opposite Profile").toBeLessThan(result.oppositeIdx);
+    expect(result.dividerImmediatelyBeforeSources, "exactly one Divider should immediately precede the Sources card").toBe(
+      true,
+    );
+    // 2 original dividers (after hero, after Trait Constellation) + exactly 1
+    // new one before Sources = 3. Guards against accidentally adding more
+    // than the one approved divider, including between Similar People and
+    // Opposite Profile.
+    expect(result.totalDividers, "expected exactly 3 dividers on the page (2 original + 1 new before Sources)").toBe(3);
+  });
+}
