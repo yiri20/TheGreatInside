@@ -29,6 +29,20 @@ const nextConfig = {
       ".js": [".ts", ".tsx", ".js"],
     },
   },
+
+  // Stage B: `src/lib/og/font.ts` reads the OG-only Noto Serif KR subset via
+  // `readFile(join(process.cwd(), "assets/og/..."))` — a runtime-constructed
+  // path, not a static `import`/`require`, so Next's build-time file tracer
+  // (`@vercel/nft`) does not discover it as a dependency of the two
+  // `opengraph-image` routes. Confirmed directly: a production build's own
+  // `.nft.json` for those routes listed next/og's bundled default font but
+  // not this one, and the deployed Vercel function then threw ENOENT at
+  // request time (a live 500, caught during Stage B closeout's production
+  // smoke check) because `assets/og/` was never copied into the serverless
+  // bundle. This explicitly re-includes it for every route's trace.
+  outputFileTracingIncludes: {
+    "/*": ["./assets/og/**/*"],
+  },
 };
 
 export default nextConfig;
