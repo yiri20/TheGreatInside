@@ -2747,18 +2747,18 @@ headline result of Phase 2, now extended by Phase 4.
     person-name ambiguities.
 12. **Phase 10 wide-desktop layout debt (flagged 2026-08) — Landing
     resolved in Phase 10D Stage 1, Person resolved in Phase 10D-2, Live
-    Results resolved in Phase 10D-3 (all 2026-08, see those sections
-    above); Compare and Saved Result NOT yet redesigned.** At desktop
-    widths ≥1280px, those two remaining surfaces still overuse a narrow
-    centered single-column layout (`tgi-measure-stack`/`tgi-container`),
-    leaving dead horizontal space. The reusable primitives this needs
-    (`Rail`/`IdentityHero`, `src/ui/components/layout.tsx`) already exist
-    and are already wired into Compare presentationally (no visual change
-    yet) — a future Phase 10D stage applies the actual wide-desktop
-    composition using them, it does not rebuild them. Keep
-    readable text measures (`Text`'s existing 68ch cap) and the current
-    restrained visual character — not a general redesign, a wide-viewport
-    composition fix, same instruction as before.
+    Results resolved in Phase 10D-3, Saved Result resolved in the Phase
+    10D-3 Saved Result Historical Parity follow-up (all 2026-08, see those
+    sections above); only Compare NOT yet redesigned.** At desktop widths
+    ≥1280px, Compare still overuses a narrow centered single-column layout
+    (`tgi-measure-stack`/`tgi-container`), leaving dead horizontal space.
+    The reusable primitives this needs (`Rail`/`IdentityHero`,
+    `src/ui/components/layout.tsx`) already exist and are already wired
+    into Compare presentationally (no visual change yet) — a future Phase
+    10D stage applies the actual wide-desktop composition using them, it
+    does not rebuild them. Keep readable text measures (`Text`'s existing
+    68ch cap) and the current restrained visual character — not a general
+    redesign, a wide-viewport composition fix, same instruction as before.
 13. ~~Results-page sign-in conversion CTA~~ **Implemented (Phase 10C,
     2026-08) — see that section below.** The CTA now only ever claims
     "saved" after directly observing its own save succeed for the exact
@@ -3566,6 +3566,169 @@ signed-out-only visibility, the "saved" state only ever being claimed
 after directly observing the pending-queue transition) — this is a
 presentation-only candidate, not licence to touch the underlying logic.
 
+## Phase 10D-3 Follow-up — Saved Result Historical Parity (FORMALLY
+## CLOSED, human-approved, 2026-08)
+
+**The durable contract, stated once for future reference:** Saved Result
+reproduces every canonical user-visible Live Results interpretation that
+was actually persisted into `ResultSnapshotV1` AND can be rendered
+without any current-result recomputation. **Snapshot storage is not
+automatically a UI contract** — several fields `ResultSnapshotV1` stores
+(`greatness.components`, `greatness.secondaryArchetypeId`) are
+deliberately never rendered on Saved Result, because a direct read of
+`app/[locale]/results/page.tsx` confirmed Live Results itself never
+renders them either. Exposing a stored-but-not-canonically-visible field
+would be a snapshot leak, not a parity fix.
+
+**Architecture: `SavedResultView` extracted as a pure, Supabase-free
+presentation layer.** `src/ui/savedResult/SavedResultView.tsx` takes only
+`{snapshot: ResultSnapshotV1, locale}` — zero imports from
+`src/core/quiz`, `src/core/matching`, `src/core/greatness`, or
+`src/core/interpretation`'s selection logic (this specifically includes
+`renderComparison`/`selectComparisonTemplate`, which select a template
+key from the CURRENT `DIFFERENCE_THRESHOLDS` constant — live,
+versioned interpretation state, not frozen snapshot data).
+`app/[locale]/account/results/[id]/page.tsx` shrank to owning only the
+auth/lookup state machine, then hands off to `SavedResultView` — the
+same "parity is structural, not merely conventional" split Phase 10C's
+`resultView.ts` established for `computeResultView`, applied here to the
+presentation layer specifically so it could be exercised without a real
+authenticated Supabase session (see testing architecture below).
+**Enforced by a permanent regression guard, not just code review**:
+`SavedResultView.boundary.test.ts` parses the real import statements of
+both files and fails the moment a forbidden `src/core` surface or
+function name (`scoreQuiz`, `buildResultSet`, `computeGreatnessPotential`,
+`computeResultView`, `renderComparison`, `selectComparisonTemplate`)
+appears in either.
+
+**Sections added, all snapshot-safe:**
+- Greatness band (`greatness.band.{bandId}`) + static disclaimer, paired
+  with the flattened archetype note via `Rail` (`.tgi-rail--tight`) —
+  identical composition to Live Results' own hero, reused verbatim.
+- Signature Trait upgraded from `TraitChip` to the richer `TraitCard`.
+  **Historical-safety finding, load-bearing**: Live Results' Signature
+  `context` interpolates `ATTRIBUTES[id].reference.mean` — CURRENT
+  taxonomy metadata a future reference revision could change, silently
+  altering the prose shown for an OLD saved result. `SavedResultView`
+  never reads `.reference` anywhere; its `context` is built only from two
+  already-existing, already-static i18n strings
+  (`label.signature_trait.support` + `results.signature_trait.
+  not_inherently_positive`) that need no interpolated data at all — no
+  new copy was authored to make this safe.
+- Dual-Edged Trait (`TraitCard`, `impact="dual_edged"` as a hardcoded
+  literal matching Live, frozen `dualEdged.attributeId`/`score` +
+  `snapshot.traits[...].confidence`, static `edge`/`cost` copy). Paired
+  with Signature via the same `.tgi-results-trait-pair` class Live
+  Results' own Phase 10D-3 pairing uses, reused verbatim — same
+  absent-branch fallback (single `.tgi-measure-stack` when only one of
+  the two exists).
+- Closest Match's `explanationTrait` — frozen in the snapshot and part of
+  Live's presentation, but Live renders it via the forbidden
+  `renderComparison`/`selectComparisonTemplate` path. Rendered instead as
+  a `ComparisonBar` (the same safe, pure-formatting component the
+  Comparison section already uses for every other trait pairing) — same
+  underlying frozen data, a different but equally legitimate presentation
+  form, not a degraded one.
+- Full 34-trait "All Traits" progressive-disclosure breakdown (same
+  collapsed `<details>` pattern as Live), sorted by the FROZEN `z` stored
+  per-attribute in the snapshot — never recomputed from current
+  `reference.mean`/`reference.sd`.
+- Where You Differ + Your Advantage, reading only the frozen
+  `snapshot.comparison.userHigherTraits`/`personHigherTraits`/`advantage`
+  arrays (already sliced to the same lengths Live Results uses); paired
+  with You Both via `Rail` when Advantage exists, You-Both-alone
+  otherwise — reused verbatim from Live's Phase 10D-3 comparison
+  composition.
+- "How this was calculated" methodology panel — fully static, zero data
+  dependency, copied verbatim from Live.
+- `.tgi-results-discovery-grid` mobile 2-column class applied to Category
+  Matches — the same page-scoped modifier Live Results' own mobile
+  follow-up introduced, reused unchanged.
+
+**Sections deliberately still absent:**
+- Unexpected Match, Opposite Profile, Top Matches — never persisted into
+  `ResultSnapshotV1` at all (confirmed via `resultView.ts`'s own scoping
+  note), not reconstructed from current data, no filler UI substituted.
+- Greatness `components`/`secondaryArchetypeId` — stored but not
+  canonically Live-visible (see the contract statement above).
+- Closest Match portrait / `IdentityHero` — deliberately deferred; this
+  pass never makes Saved Result's rendering depend on live portrait
+  availability, keeping the existing stable-id + frozen-`personNames`-
+  fallback behaviour as the only person-resolution path.
+
+**Section order corrected to match Live Results' canonical order**
+(Signature/Dual-Edged → **Category Matches → Trait Profile** →
+Comparison, was Trait Profile → Category Matches) — presentation
+ordering only, no data or snapshot semantics touched, divider placement
+now mirrors Live exactly.
+
+**Closest Match explanation bar width-constrained.** The `ComparisonBar`
+above was initially allowed to span the full width of the large Closest
+Match Card on wide desktop — inconsistent with the established Phase
+10D principle that individual 0–100 comparison bars stay at a controlled
+readable width rather than stretching across a wide container. Fixed
+with a new, small, page-scoped `.tgi-savedresult-explanation` class
+(`max-width: 40rem`, no `margin-inline`) — deliberately NOT the shared
+`.tgi-measure-stack` (which centers itself via `margin-inline: auto`
+everywhere else it's used), since this bar sits inside a full-width Card
+alongside left-aligned identity/text/button content and needed to stay
+flush-left with it, not centered. A bare `max-width` on a block-level
+element achieves both (capped width, natural left alignment) with no
+extra CSS. `ComparisonBar` itself was not touched — this only wraps its
+one call site in Saved Result's Closest Match card. Naturally responsive
+below desktop since it's only a ceiling, never a fixed width.
+
+**Testing architecture — fixtures without Supabase, matching an
+established project precedent.** No new Next.js route was added (the
+build's route count and static/dynamic split stayed exactly unchanged
+throughout this whole follow-up) — instead, `src/dev/
+savedResultPreview.tsx` mirrors `gallery.tsx`'s exact "render the REAL
+component with handcrafted data to static HTML" pattern: it renders
+`SavedResultView` against 5 synthetic `ResultSnapshotV1` fixtures
+(`src/dev/savedResultFixtures.ts` — `normal`, `dualEdgedAbsent`,
+`advantagePresent`, `removedClosestPerson` for the frozen-`personNames`-
+fallback path, `minimal` stressing every absent-branch at once) to
+`test-artifacts/saved-result-preview/*.html` (gitignored, regenerated
+fresh before every Playwright run via a new `globalSetup`), which
+`e2e/savedResult.visual.spec.ts` then opens directly via `file://` — the
+real component, zero mocking, zero Supabase, zero authenticated session.
+One deliberate exception: a single test still hits the real, live
+`/account/results/[id]` route unauthenticated, confirming the actual
+`auth_required` gate still works for a signed-out visitor (needs no
+session to verify, since "signed out" is simply the default state).
+
+**Verification.** `tsc --noEmit` clean · `vitest run` **422/422**
+(420 baseline + 2 new: the `SavedResultView` import-boundary regression
+guard) · `next build --webpack` clean, **84 routes**,
+`/account/results/[id]` still `ƒ` dynamic, split unchanged throughout
+every step of this follow-up · Playwright **115/115** (110 prior + 5 new:
+a DOM-order regression guard for the Category-Matches-before-Trait-
+Profile reorder, and 4 explanation-bar width/responsiveness checks across
+EN/KO) · zero console/page errors, zero horizontal overflow, zero clipped
+elements at any tested width/locale/fixture · confirmed:
+`app/[locale]/results/page.tsx`, `app/[locale]/compare/[slug]/page.tsx`,
+every Person/Landing/Account-list file, `src/core/**`, `src/ui/
+components/layout.tsx`, `db/schema.sql`, and every `db/migrations/*.sql`
+file all show zero diff against the pre-follow-up commit — no Supabase,
+auth, snapshot-schema, scoring, matching, or Live Results change of any
+kind.
+
+**Phase 10D-3 Saved Result Historical Parity Follow-up is FORMALLY
+CLOSED, human-approved (2026-08)** — the snapshot-only rendering
+boundary, the Greatness band/disclaimer/flattened-archetype treatment,
+the deliberate non-exposure of internal Greatness components and the
+secondary archetype, the frozen-data `explanationTrait` presentation and
+its constrained width, the historically-safe Signature `TraitCard`
+treatment, the frozen Dual-Edged Trait, the Category-Matches-before-
+Trait-Profile reorder, the collapsed full Trait Profile breakdown, the
+You Both / Where You Differ / Advantage historical comparison, the
+methodology disclosure, the continued absence of Unexpected Match /
+Opposite Profile / Top Matches, and the mobile Category Matches
+discovery-grid treatment were all explicitly approved against real
+screenshots across two rounds of review. This closes the item 12 "Saved
+Result NOT yet redesigned" gap in "Known open issues" above — only
+Compare remains unredesigned for wide desktop.
+
 ## Roadmap
 
 Phase 0 architecture ✓ · 1 design system ✓ · 2 dataset to 30+ ✓ (see open issue
@@ -3810,6 +3973,26 @@ unchanged) all clean, Playwright **88/88**. Saved Result, Compare,
 Person, Landing, and Account remain untouched; Saved Result's own
 wide-desktop pass is deliberately deferred to a follow-up stage (see
 "Known open issues" and `docs/phase10-provisional-checkpoint.md`).
+**The Phase 10D-3 Saved Result Historical Parity Follow-up is now
+FORMALLY CLOSED, human-approved (2026-08)** — see "Phase 10D-3
+Follow-up" above for the full record: Saved Result now reproduces every
+canonical Live Results interpretation reconstructible from frozen
+`ResultSnapshotV1` data (Greatness band/disclaimer, Signature and
+Dual-Edged `TraitCard`s with historically-safe copy, the frozen
+`explanationTrait` as a width-constrained `ComparisonBar`, the full
+34-trait breakdown, You Both/Where You Differ/Advantage, the methodology
+panel, and the mobile discovery grid), reordered to match Live's
+canonical Category-Matches-before-Trait-Profile sequence, while
+deliberately still omitting Unexpected/Opposite/Top Matches (never
+persisted) and internal Greatness components/secondary archetype (stored
+but never Live-visible). `SavedResultView` was extracted as a pure,
+Supabase-free presentation layer with a permanent import-boundary
+regression guard, and tested via 5 synthetic snapshot fixtures rendered
+statically (`gallery.tsx`'s own precedent) — no new Next.js route added.
+`tsc`/`vitest` (**422/422**)/`build` (**84 routes**, split unchanged)
+all clean, Playwright **115/115**. This closes "Known open issues" item
+12's Saved Result gap; only Compare remains unredesigned for wide
+desktop.
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
 

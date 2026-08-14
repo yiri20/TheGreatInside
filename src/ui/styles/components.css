@@ -884,3 +884,19 @@ details > summary:focus-visible {
     gap: var(--tgi-space-3);
   }
 }
+
+/* --------------------------------------------- Saved Result (Phase 10D-3
+   follow-up): Closest Match explanation-trait ComparisonBar. Deliberately
+   NOT `.tgi-measure-stack` (which centers itself via `margin-inline: auto`
+   everywhere it's used) — this single bar sits inside a full-width Card
+   alongside left-aligned identity/text/button content and must stay
+   flush-left with it, not centered. A bare `max-width` on a block-level
+   element is enough: it caps the bar at the same ~40rem scale as
+   `.tgi-measure-stack` while a `div`'s default `width: auto` keeps it
+   flush against the container's left edge with no `margin-inline` needed.
+   Naturally responsive below desktop since it's only a ceiling, never a
+   fixed width. `ComparisonBar` itself is untouched — this only wraps its
+   one specific call site in Saved Result's Closest Match card. */
+.tgi-savedresult-explanation {
+  max-width: 40rem;
+}

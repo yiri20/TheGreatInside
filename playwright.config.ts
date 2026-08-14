@@ -31,6 +31,9 @@ const PORT = 3177;
 export default defineConfig({
   testDir: "./e2e",
   outputDir: "./test-artifacts/playwright-output",
+  // Phase 10D-3 follow-up: regenerates the Saved Result static preview
+  // fixtures (see savedResultPreview.tsx) once before the whole run.
+  globalSetup: "./e2e/global-setup.ts",
   fullyParallel: true,
   retries: 0,
   timeout: 30_000,

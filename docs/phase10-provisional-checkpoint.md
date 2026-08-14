@@ -8,21 +8,22 @@ Regression Harness + Editorial Primitives + Landing) FORMALLY CLOSED,
 human-approved, 2026-08. Phase 10D Stage 2 (Person Detail Editorial
 Layout) FORMALLY CLOSED, human-approved, 2026-08. Phase 10D Stage 3
 (Live Results Editorial Layout) FORMALLY CLOSED, human-approved,
-2026-08.** This is the durable resume point for a fresh session — read
-this file, `CLAUDE.md`'s Status section and its dedicated "Phase 10C —
-historical result fidelity", "Phase 10D-1", "Phase 10D-2", and
-"Phase 10D-3" sections, and `docs/deployment.md` before touching Phase
-10 again. Phase 9 is FORMALLY CLOSED and frozen (see
+2026-08. The Phase 10D-3 Saved Result Historical Parity Follow-up is
+ALSO FORMALLY CLOSED, human-approved, 2026-08.** This is the durable
+resume point for a fresh session — read this file, `CLAUDE.md`'s Status
+section and its dedicated "Phase 10C — historical result fidelity",
+"Phase 10D-1", "Phase 10D-2", "Phase 10D-3", and "Phase 10D-3
+Follow-up" sections, and `docs/deployment.md` before touching Phase 10
+again. Phase 9 is FORMALLY CLOSED and frozen (see
 `docs/phase9-provisional-checkpoint.md`) — nothing in this document
 proposes touching it. Stage 10C's code (including the post-E2E
 auth-state fix, deployed from commit
 `d425e24730fa524429033978298431dd84be1f9e`) has passed a full production
 human E2E — see "Stage 10C record" below for the complete evidence.
-**No Phase 10D stage beyond Stage 3 has begun — Saved Result's own
-wide-desktop pass is a deliberately separate follow-up, not started, and
-Compare (Stage 4) has not begun either** — see "Exact next task for a
-fresh session" at the bottom of this file for candidates, none yet
-chosen.
+**Saved Result now has full historical-parity content AND the Rail/
+trait-pair wide-desktop composition it was missing — the only Phase 10D
+surface left unredesigned is Compare (Stage 4), which has not begun** —
+see "Exact next task for a fresh session" at the bottom of this file.
 
 ## Stage 10A record (2026-08) — Production Foundation, FORMALLY CLOSED
 
@@ -901,62 +902,208 @@ visual weight but must preserve every Phase 10C behavioral contract
 after directly observing the pending-queue transition) — presentation
 only, never the underlying logic.
 
+## Stage 10D-3 Follow-up record (2026-08) — Saved Result Historical
+## Parity, FORMALLY CLOSED, human-approved
+
+**Scope: Saved Result (`/account/results/[id]`) only.** No schema
+change, no Supabase change, no auth change, no Live Results change, no
+Compare/Person/Landing/Account-history change. Confirmed by `git diff
+--stat` at every step of this follow-up: `db/schema.sql`, every
+`db/migrations/*.sql`, `app/[locale]/results/page.tsx`,
+`app/[locale]/compare/[slug]/page.tsx`, every Person/Landing/
+Account-list file, `src/core/**`, and `src/ui/components/layout.tsx` all
+showed zero diff throughout.
+
+**Core question resolved: what does "historical parity" actually mean?**
+Not "expose everything the snapshot stores." The working rule adopted
+and applied throughout: Saved Result reproduces a Live Results
+interpretation only when it is (a) genuinely part of Live Results' own
+current UI and (b) fully reconstructible from frozen `ResultSnapshotV1`
+fields plus presentation-only lookups (locale strings, stable-id person/
+attribute labels). Two fields the snapshot stores but Live Results never
+renders — `greatness.components` and `greatness.secondaryArchetypeId` —
+were verified absent from `app/[locale]/results/page.tsx` by direct
+inspection before being excluded here, not assumed.
+
+**Architecture — `SavedResultView` extraction.** Before this follow-up,
+all of Saved Result's JSX lived directly in `page.tsx` alongside its
+Supabase/auth logic, which made it impossible to render for a test
+without a real session. Extracted into `src/ui/savedResult/
+SavedResultView.tsx`, a pure component taking only `{snapshot, locale}` —
+the page now does only auth/lookup state resolution, then hands off.
+This mirrors Phase 10C's `resultView.ts`/`computeResultView` "parity is
+structural, not conventional" split, applied to the presentation layer.
+A dedicated Vitest regression test
+(`SavedResultView.boundary.test.ts`) parses the real import statements
+of both files and fails if any forbidden `src/core/quiz|matching|
+greatness|interpretation` import, or forbidden function name
+(`scoreQuiz`, `buildResultSet`, `computeGreatnessPotential`,
+`computeResultView`, `renderComparison`, `selectComparisonTemplate`),
+ever appears — a hard guard against a future accidental historical-
+fidelity regression, not just a one-time manual check.
+
+**Content added, section by section, with the specific safety reasoning
+per item:**
+- **Greatness band + disclaimer + flattened archetype note**, paired via
+  `Rail` — identical composition to Live's hero, reused verbatim; reads
+  only `snapshot.greatness.bandId`/`snapshot.resultArchetype`.
+- **Signature Trait upgraded `TraitChip` → `TraitCard`.** The one
+  genuinely load-bearing finding of this follow-up: Live's Signature
+  `context` string interpolates `ATTRIBUTES[id].reference.mean` — CURRENT
+  taxonomy metadata a future `reference_v4` could change, which would
+  silently rewrite the prose shown for an old saved result even though
+  nothing about that result actually changed. `SavedResultView` never
+  reads `.reference` anywhere; its context is built purely from two
+  pre-existing static i18n strings needing no interpolation at all — no
+  new copy authored, historical fidelity preserved by construction, not
+  by convention.
+- **Dual-Edged Trait** — frozen `attributeId`/`score` + `snapshot.
+  traits[...].confidence` (the top-level `dualEdged` object itself
+  doesn't carry confidence, so it's looked up from the full per-attribute
+  `traits` record, which does). Paired with Signature via
+  `.tgi-results-trait-pair`, reused unchanged from Live.
+- **Closest Match `explanationTrait`.** Frozen in the snapshot, part of
+  Live's presentation — but Live renders it via `renderComparison`/
+  `selectComparisonTemplate`, which picks a template from the CURRENT
+  `DIFFERENCE_THRESHOLDS` constant, a forbidden interpretation-selection
+  path. Rendered instead as a `ComparisonBar` (already used elsewhere on
+  this exact page) — same frozen numbers, a different but equally valid
+  presentation, not a downgrade.
+- **Full 34-trait "All Traits" breakdown**, same collapsed `<details>`
+  pattern as Live, sorted by the FROZEN `z` already stored per-attribute
+  — never recomputed from current `reference.mean`/`.sd`.
+- **Where You Differ + Your Advantage**, reading only the frozen
+  `snapshot.comparison.userHigherTraits`/`personHigherTraits`/
+  `advantage` arrays (already sliced to Live's lengths); paired with You
+  Both via `Rail` when Advantage exists, exactly Live's composition.
+- **Methodology panel** — fully static, copied verbatim.
+- **`.tgi-results-discovery-grid`** mobile 2-column class applied to
+  Category Matches, reused unchanged from Live's own mobile follow-up.
+
+**Deliberately still absent:** Unexpected Match/Opposite Profile/Top
+Matches (never persisted into `ResultSnapshotV1` at all — confirmed via
+`resultView.ts`'s own scoping comment, not reconstructed, no filler
+substituted); Greatness `components`/`secondaryArchetypeId` (stored but
+not canonically Live-visible); Closest Match portrait/`IdentityHero`
+(explicitly deferred — this pass never makes rendering depend on live
+portrait availability, keeping the stable-id + frozen-`personNames`
+fallback as the only person-resolution path).
+
+**Two refinements from the first human review round, both implemented
+and re-verified:**
+1. **Section order corrected** to match Live's canonical Category-
+   Matches-before-Trait-Profile sequence (was the reverse) —
+   presentation ordering only, divider placement now mirrors Live
+   exactly, locked by a new DOM-order regression test.
+2. **Closest Match explanation bar width-constrained.** Was initially
+   allowed to span the full Closest Match Card width on wide desktop —
+   inconsistent with the established Phase 10D principle that individual
+   comparison bars stay at a controlled readable width. Fixed with a new
+   page-scoped `.tgi-savedresult-explanation` class (`max-width: 40rem`,
+   no `margin-inline`) — deliberately NOT `.tgi-measure-stack` (which
+   centers via `margin-inline: auto`), since this bar needed to stay
+   flush-left with the Card's other left-aligned content, not centered.
+   `ComparisonBar` itself untouched.
+
+**Testing architecture — fixtures without Supabase.** No new Next.js
+route was added; the build's route count and static/dynamic split stayed
+exactly unchanged throughout. Instead, `src/dev/savedResultPreview.tsx`
+mirrors `gallery.tsx`'s own "render the REAL component with handcrafted
+data to static HTML" pattern exactly: renders `SavedResultView` against
+5 synthetic `ResultSnapshotV1` fixtures (`src/dev/
+savedResultFixtures.ts` — `normal`, `dualEdgedAbsent`,
+`advantagePresent`, `removedClosestPerson` for the frozen-fallback path,
+`minimal` stressing every absent branch at once) to
+`test-artifacts/saved-result-preview/*.html` (gitignored, regenerated
+fresh before every Playwright run via a new `globalSetup.ts`), which
+`e2e/savedResult.visual.spec.ts` opens directly via `file://` — the real
+component, zero mocking, zero Supabase. One test still hits the real,
+live `/account/results/[id]` route unauthenticated, confirming the
+`auth_required` gate still works signed-out (no session needed to verify
+that, since signed-out is the default state).
+
+**Verification, final.** `tsc --noEmit` clean · `vitest run` **422/422**
+(420 baseline + 2 new: the `SavedResultView` import-boundary guard) ·
+`next build --webpack` clean, **84 routes**, `/account/results/[id]`
+still `ƒ` dynamic, split unchanged throughout every step · Playwright
+**115/115** (110 prior + 5 new: the section-order regression guard, and
+4 explanation-bar width/responsiveness checks across EN/KO) · zero
+console/page errors, zero horizontal overflow, zero clipped elements at
+any tested width/locale/fixture · confirmed gitignored (`test-artifacts/
+saved-result-preview/`, `test-artifacts/saved-result-screenshots/`), no
+stray scratch/probe files, no secrets, no real user result token
+anywhere in any fixture (all handcrafted, documented as synthetic in
+both new files' own header comments).
+
+**Stage 10D-3 Follow-up is FORMALLY CLOSED, human-approved (2026-08)** —
+the snapshot-only rendering boundary, Greatness band/disclaimer,
+flattened archetype note, non-exposure of internal Greatness components/
+secondary archetype, frozen `explanationTrait` presentation and its
+constrained width, historically-safe Signature treatment, frozen
+Dual-Edged Trait, Category-Matches-before-Trait-Profile reorder, full
+Trait Profile breakdown, You Both/Where You Differ/Advantage, methodology
+disclosure, continued absence of Unexpected/Opposite/Top Matches, and the
+mobile discovery-grid treatment were all explicitly approved against real
+screenshots across two rounds of review.
+
 ## Exact next task for a fresh session
 
 1. Read `CLAUDE.md`'s Status section (including "Phase 10C — historical
-   result fidelity", "Phase 10D-1", "Phase 10D-2", and "Phase 10D-3"),
-   this file, and `docs/deployment.md` in full.
+   result fidelity", "Phase 10D-1", "Phase 10D-2", "Phase 10D-3", and
+   "Phase 10D-3 Follow-up"), this file, and `docs/deployment.md` in full.
 2. Phase 9 is closed and frozen — do not reopen it. Stage 10A, 10B, 10C,
-   and Phase 10D Stages 1-3 are all closed — do not redo their audits,
+   Phase 10D Stages 1-3, and the Phase 10D-3 Saved Result Historical
+   Parity Follow-up are all closed — do not redo their audits,
    re-litigate the site-origin/historical-fidelity/auth-state/rail-
-   breakpoint designs, repeat the git/GitHub/Vercel setup, redo the
-   migration, redo the backfill, or re-run the Phase 10D layout audit.
-   **No Phase 10D stage beyond Stage 3 has begun** and none should start
-   without a fresh, explicit decision — see the candidates below.
-   Saved Result's own wide-desktop pass was deliberately deferred out of
-   Stage 3, not forgotten — it is its own candidate, not part of "Stage
-   3 is done."
+   breakpoint/snapshot-parity designs, repeat the git/GitHub/Vercel
+   setup, redo the migration, redo the backfill, or re-run the Phase 10D
+   layout audit. **Saved Result now has full content parity AND the
+   wide-desktop Rail/trait-pair composition — the only Phase 10D surface
+   left unredesigned is Compare (Stage 4), which has not begun** and
+   should not start without its own fresh, explicit decision.
 3. **Reuse, don't rebuild**, for any future Phase 10D stage: the
    Playwright harness (`playwright.config.ts`, `e2e/utils/visualChecks.ts`)
-   — now running against a production build, not `next dev`, see "Stage
+   — running against a production build, not `next dev`, see "Stage
    10D-2 record" for why — and the "automate everything reasonably
    automatable before asking for human validation" testing policy both
-   apply going forward, not just to Stages 1-3. The `Rail`/`IdentityHero`
-   primitives (`src/ui/components/layout.tsx`) already exist, are proven
-   unchanged since Stage 1 (zero diff, re-confirmed after Stage 3), and
-   are already wired into Compare (presentationally only, no visual
-   change yet) — a future stage redesigns its composition using the
-   existing primitives, it does not re-extract them. The wide-desktop
-   breakpoint is **≥1280px**, decided and shipped in Stage 1 — do not
-   reopen that decision without new evidence. The mobile discovery-grid
-   breakpoint (**≤640px**, `.tgi-results-discovery-grid`) reuses the
-   pre-existing `.tgi-filter-bar` breakpoint — Saved Result's own
-   Category Matches grid, if it gets one, should consider the same
-   pattern rather than inventing a new value. The synthetic-fixture-token
-   approach (`encodeResultToken` against fixed answer patterns, see
-   "Stage 10D-3 record") is directly reusable for the Saved Result
-   follow-up's own test suite. The "Anti-AI-template / human-authored
-   design principle" section in `CLAUDE.md` (adopted during Stage 2)
-   applies to every future visual decision, not only Phase 10D — read it
-   before any further layout or copy work.
+   apply going forward. The `Rail`/`IdentityHero` primitives (`src/ui/
+   components/layout.tsx`) already exist, are proven unchanged since
+   Stage 1 (zero diff, re-confirmed after every subsequent stage
+   including this follow-up), and are already wired into Compare
+   (presentationally only, no visual change yet) — a future stage
+   redesigns Compare's composition using the existing primitives, it
+   does not re-extract them. The wide-desktop breakpoint is **≥1280px**,
+   decided and shipped in Stage 1 — do not reopen that decision without
+   new evidence. The mobile discovery-grid breakpoint (**≤640px**,
+   `.tgi-results-discovery-grid`) reuses the pre-existing
+   `.tgi-filter-bar` breakpoint. The synthetic-fixture approach — either
+   `encodeResultToken` against fixed answer patterns (Live Results'
+   suite) or handcrafted `ResultSnapshotV1` objects rendered via a
+   `gallery.tsx`-style static renderer (Saved Result's suite, see "Stage
+   10D-3 Follow-up record") — is directly reusable for Compare's own
+   test suite; Compare, like Saved Result, has no way to reach its "real"
+   render state without external state (a result token *and* a target
+   person), so the static-fixture pattern is likely the better fit again.
+   The "Anti-AI-template / human-authored design principle" section in
+   `CLAUDE.md` (adopted during Stage 2) applies to every future visual
+   decision, not only Phase 10D — read it before any further layout or
+   copy work.
 4. Candidates already on record for a future stage, each requiring its
    own fresh, explicit decision — none approved yet:
-   - **Saved Result parity/visual follow-up** — content-parity questions
-     found during the Stage 3 audit (dual-edged, Where You Differ, Your
-     Advantage all have snapshot data but aren't rendered; `TraitChip`
-     vs. `TraitCard` component asymmetry with live Results;
-     `IdentityHero` never adopted for its closest-match block) are
-     product decisions to make before or alongside any layout work here,
-     not layout decisions alone.
-   - Phase 10D Stage 4 (Compare), Stage 5 (visual-consistency micro-pass,
-     kept separate from layout per the original audit's own instruction)
-     — see `CLAUDE.md`'s Phase 10D-1 section for the reasoning behind
-     this split.
+   - Phase 10D Stage 4 (Compare) — now the only remaining wide-desktop
+     layout gap. Stage 5 (visual-consistency micro-pass, kept separate
+     from layout per the original audit's own instruction) — see
+     `CLAUDE.md`'s Phase 10D-1 section for the reasoning behind this
+     split.
    - A small, non-blocking micro-polish item recorded at Stage 3 closure:
      the Results-page `SignInCta` sunken-card treatment could be
      revisited for a flatter editorial look (matching the now-flattened
      archetype note nearby) — presentation only, every Phase 10C
      behavioral contract must stay untouched.
+   - A small, non-blocking item deferred at the Follow-up's own closure:
+     Closest Match portrait/`IdentityHero` adoption for Saved Result —
+     deliberately not bundled into this pass; would need its own review
+     of the "removed person has no portrait" fallback question.
    - Full SEO pass, share cards/OG images, portraits pipeline,
      analytics, ads, and eventually a custom branded domain (would also
      require revisiting `NEXT_PUBLIC_SITE_URL` and the Supabase/Google
