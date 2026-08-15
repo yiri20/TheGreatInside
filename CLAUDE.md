@@ -3102,6 +3102,38 @@ discipline as every other phase/stage in this project: the user's own
 live, first-hand confirmation on the real production deployment, not an
 agent's inference from tests or code review alone.
 
+**Provenance correction (roster-1000 session 4, 2026-08) — a real gap
+found and fixed, not a hypothetical audit item.** `dispersion.generated.ts`'s
+`DISPERSION_TABLE` (the discriminative-weight table `similarity.ts`
+multiplies directly into every attribute's distance term) is exactly
+the category of "output-affecting dependency with no version
+representation" `personDataFingerprint` was originally built to solve —
+but it was missing from it. `DISPERSION_VERSION` is a hand-written
+literal (`"dispersion_v1"`) that has never been bumped, including when
+the roster-1000 session-3 batch regenerated every one of its 34 weights
+(confirmed directly via `git show` on that commit). Before this fix, an
+old anonymous pending result completed under a stale dispersion table
+would have passed `saveCompletedResult`'s drift guard cleanly
+(`dispersionVersion` string and `personDataFingerprint` both
+byte-identical to current) and been saved as if still faithful to what
+the user actually saw — the exact failure mode this fingerprinting
+mechanism exists to prevent. **Fixed by widening the existing
+`personDataFingerprint` to also hash the dispersion table**, rather than
+building a second, parallel computed-fingerprint plus a new DB column —
+the smaller, more consistent fix, since the `person_data_version` TEXT
+column already stores an opaque, algorithm-tagged string and needed no
+migration to cover a broader input domain. The internal algorithm tag was
+bumped `person_data_v1` -> `v2` so a pre-widening stored fingerprint can
+never coincidentally equal a post-widening one. `DISPERSION_TABLE` is
+now passed as an optional, DI-friendly second parameter defaulting to
+the real live table, so every existing call site is unaffected and
+"always current by construction" is preserved. 5 new regression tests
+(`dataVersion.test.ts`) confirm the fingerprint responds to dispersion-
+table changes, is key-order-independent, and defaults to the real table.
+No `VersionSnapshot` field, DB column, or migration was added — see
+`src/core/people/dataVersion.ts`'s own doc comment for the full record.
+`tsc` clean, `vitest` 530/530 (525 baseline + 5 new).
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 
