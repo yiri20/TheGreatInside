@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { notoSerifKR } from "@lib/fonts";
 import { siteUrl } from "@lib/env";
+import { GOOGLE_SITE_VERIFICATION } from "@lib/seo";
 import "../../src/ui/styles/tokens.css";
 import "../../src/ui/styles/components.css";
 
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
   title: "The Great Inside",
   description: "Who in history thinks like you?",
+  verification: { google: GOOGLE_SITE_VERIFICATION },
 };
 
 export default function DefaultRootLayout({ children }: { children: ReactNode }) {

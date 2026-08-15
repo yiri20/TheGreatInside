@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { notoSerifKR } from "@lib/fonts";
 import { siteUrl } from "@lib/env";
+import { GOOGLE_SITE_VERIFICATION } from "@lib/seo";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { PendingResultsSync } from "./PendingResultsSync";
@@ -35,6 +36,7 @@ export function generateStaticParams() {
  */
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
+  verification: { google: GOOGLE_SITE_VERIFICATION },
 };
 
 export default async function LocaleLayout({

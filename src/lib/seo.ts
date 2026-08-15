@@ -50,3 +50,15 @@ export function localizedAlternates(locale: Locale, pathSuffix: string): NonNull
  */
 export const NOINDEX_FOLLOW: NonNullable<Metadata["robots"]> = { index: false, follow: true };
 export const NOINDEX_NOFOLLOW: NonNullable<Metadata["robots"]> = { index: false, follow: false };
+
+/**
+ * Google Search Console domain-ownership verification token (2026-08) —
+ * not a secret (Google's own HTML-tag verification method is designed to
+ * be publicly embedded in page HTML; this proves ownership, it grants no
+ * access to anything). Rendered via Next's Metadata API `verification.
+ * google` field (both root layouts, `app/(default)/layout.tsx` and
+ * `app/[locale]/layout.tsx`) rather than a hand-written `<meta>` tag in
+ * JSX, so it's emitted through the same metadata pipeline as every other
+ * `<head>` tag on the site and inherits down to every page automatically.
+ */
+export const GOOGLE_SITE_VERIFICATION = "hwfJbJNJDuO0VqkykNckNzfJO5ySMon7Q8xRgt8FKJY";
