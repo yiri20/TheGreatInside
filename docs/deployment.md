@@ -4,6 +4,16 @@ Operational runbook, not an architecture record — see `CLAUDE.md` for the
 "why." This file only covers deploying the existing, Phase-9-complete app.
 No secrets or credential values below — names and structure only.
 
+**Launch-strategy decision (2026-08 — see CLAUDE.md's "Broader Public
+Launch Finish Line" §9 for the full record):** the product owner decided
+to launch publicly on the current Vercel URL
+(`https://the-great-inside.vercel.app`) as-is, deferring a custom-domain
+purchase and the associated Google OAuth production-domain setup (§3
+below) until real usage/traction justifies it. This is a deliberate,
+standing decision, not an oversight — do not treat the domain gap below
+as a blocker, and do not re-propose a domain purchase unless the product
+owner explicitly revisits it.
+
 ## 1. Required environment variables (names only)
 
 See `.env.example` for the same list with usage notes. Set these in

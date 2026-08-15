@@ -216,7 +216,13 @@ per the reconfirmed-unused audit.
 
 **5. First deployment.** Production domain (Vercel-assigned):
 **`https://the-great-inside.vercel.app`**. No custom domain configured —
-deliberately deferred, per the standing Phase 10 boundary.
+deliberately deferred, per the standing Phase 10 boundary. **Update
+(2026-08): this remains the approved launch URL for the broader public
+launch too** — the product owner made an explicit decision to launch on
+this URL as-is and defer a custom-domain purchase until real traction
+justifies it, rather than gating launch on acquiring one first. See
+CLAUDE.md's "Broader Public Launch Finish Line" §9 for the full record;
+not a Phase 10 reopening.
 
 **6–7. Smoke test, then OAuth productionization.** Not run by the agent
 as a separate pre-OAuth pass this round — the user's single production

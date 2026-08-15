@@ -4887,12 +4887,15 @@ beta work:
 
 - **Public Beta Finish Line: CLOSED** (see that section above — unchanged
   by anything in this section).
-- **Broader Public Launch Finish Line: IMPLEMENTATION COMPLETE EXCEPT
-  FOR EXTERNAL DOMAIN/OAUTH SETUP.**
-- **Current verdict: NOT READY FOR BROADER PUBLIC LAUNCH.**
-- **Sole blocker: an owner-controlled custom domain, and the associated
-  Google production-domain configuration** (§4/§5 below). No other
-  blocker was found.
+- **Broader Public Launch Finish Line: IMPLEMENTATION COMPLETE.**
+- **LAUNCHED — on the current Vercel URL, by explicit product decision
+  (2026-08). See §9 below for the full record.** The domain/Google
+  production-setup gap documented in §4 is real and remains
+  undone — it was deliberately, consciously accepted as a launch
+  trade-off, not resolved. It is **not currently blocking anything**,
+  per that decision. Do not re-surface it as a blocker or re-propose
+  purchasing a domain unless the product owner explicitly revisits it
+  (see §9).
 
 Three things this finish line keeps explicitly distinct (do not
 conflate them — see §4 for the full reasoning):
@@ -5232,30 +5235,61 @@ scoring/matching/taxonomy change, no performance-optimization project,
 no SEO redesign beyond the two new indexed routes, no marketing/
 beta-recruitment work.
 
-### 8. Status
+### 8. Status (superseded by §9 — kept for the historical record)
 
-**BLOCKS BROADER PUBLIC LAUNCH**: an owner-controlled custom domain, and
-the associated Google OAuth production-domain configuration (§4/§5,
-items 3-5 and 7) — the one external, manual dependency this finish line
-found and did not implement around. This is not a new Phase/Stage; it is
-the final external dependency this already-finite checklist surfaced.
+At implementation close (before the launch-strategy decision below), this
+finish line's own audit concluded: **BLOCKS BROADER PUBLIC LAUNCH: an
+owner-controlled custom domain, and the associated Google OAuth
+production-domain configuration** (§4/§5, items 3-5 and 7) — the one
+external, manual dependency found, not implemented around. Everything
+else in this section — Privacy Policy, Terms, the legal footer, sitemap
+expansion to 80, "Delete all saved results," and their tests — was
+already implemented, tested, and approved independent of the domain
+question. That technical finding (§4) is still accurate and unchanged.
+**§9 records the product owner's explicit decision to launch anyway,
+consciously accepting this gap as a trade-off rather than resolving
+it** — read §9 for the current, authoritative status; this paragraph is
+preserved only so the reasoning trail stays intact.
 
-**DOES NOT BLOCK the already-CLOSED Public Beta Finish Line**: that
-posture correctly relies on the identity-only Testing-status exception
-(§4 item 1), which is unaffected by this correction — the existing
-`the-great-inside.vercel.app` deployment remains fully valid for the
-limited-beta audience already shipped.
+### 9. Final launch-strategy decision (2026-08) — LAUNCHED
 
-**Everything else in this section — Privacy Policy, Terms, the legal
-footer, sitemap expansion to 80, "Delete all saved results," and their
-tests — is implemented, tested, and approved**, independent of the
-domain question; none of it required a domain and none of it is
-affected by this correction.
+**The product owner made an explicit business decision, not a technical
+finding**: launch now on the current Vercel URL, observe whether the
+product gets real usage/sharing, and purchase a custom domain later only
+if traction justifies it — rather than gating launch on domain
+acquisition first.
 
-**Verdict: NOT READY FOR BROADER PUBLIC LAUNCH** — solely because an
-owner-controlled custom domain and its associated Google production-
-domain setup remain an external, manual dependency. No other blocker
-was found.
+**What this changes**: the §4/§8 domain gap is no longer treated as a
+blocker of any kind. **What this does NOT change**: the underlying
+Google OAuth policy finding itself (§2/§4 — production apps need a
+publicly accessible homepage on a domain the owner can verify; a shared
+`*.vercel.app` subdomain doesn't qualify for that specific policy
+requirement) remains factually accurate and is not being disputed or
+retested — it's a real, documented, *consciously deferred* gap, not a
+resolved one and not a mistaken one.
+
+**Current launch posture, explicit:**
+- **Approved launch URL: `https://the-great-inside.vercel.app`** — this
+  is the real, current production origin for the broader public launch,
+  not a placeholder.
+- Custom domain purchase/configuration: **deferred indefinitely**,
+  pending a future traction signal — not scheduled, not planned for a
+  specific date, not blocking anything in the meantime.
+- Google OAuth production-domain setup (§5 items 3, 4, 5, 7 — Homepage/
+  Privacy/Terms/Authorized-Domains on an owned domain): **deferred
+  together with the domain**, for the same reason (it depends on the
+  domain existing first).
+- Identity-only Google sign-in continues to work exactly as documented
+  in §1/§2/§4 — nothing about how OAuth actually functions changed.
+
+**Standing instruction for future sessions**: do not re-propose
+purchasing a domain, do not re-raise §4/§8's blocker framing, and do not
+create a new Stage/Phase around this — the decision is made and stands
+until the product owner explicitly revisits it. If a future session is
+asked to reconsider, the trigger is "the product owner brings it up
+again" (e.g. real traffic/sharing numbers prompting a domain decision),
+not any technical or audit finding rediscovering the same gap this
+section already fully documented.
 
 ## Conventions
 
