@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "thomas-aquinas",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Thomas Aquinas",
+    "wikidataId": "Q9438",
+    "birthYear": 1225,
+    "deathYear": 1274,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "theologian",
+      "philosopher",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "prolific",
+      "philosopher"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_aquinas_wikipedia",
+      "kind": "wikipedia",
+      "title": "Thomas Aquinas",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Aquinas"
+    },
+    {
+      "id": "src_aquinas_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy — Thomas Aquinas"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 92,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Summa Theologica's question-objection-response structure, applied across thousands of individual articles, is directly documented in the surviving text's own organization — a specific, sustained methodology, not a single instance."
+    },
+    "systems_abstraction": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Attempted to organize the whole of Christian theology and Aristotelian philosophy into one coherent structural framework — documented directly from the Summa's scope and organization."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Deeply engaged with newly-translated Aristotelian texts that were controversial in Church circles at the time, rather than avoiding them, per Stanford Encyclopedia of Philosophy's account of his intellectual context."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Integrated 'pagan' Aristotelian philosophy into Christian theology despite resistance from some Church authorities; several Thomistic propositions were formally condemned by the Bishop of Paris in 1277, a few years after his death — documented controversy directly tied to his positions."
+    },
+    "discipline": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced an extraordinary documented volume of work (the Summa alone spans thousands of articles) within a working life of roughly two decades while also teaching and traveling, using a documented method of dictating to multiple secretaries simultaneously."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "A widely repeated account describes him becoming so absorbed in thought at a royal dinner that he struck the table, oblivious to the company, having resolved a theological problem — a specific, well-known anecdote, capped per the rubric below the extreme band since it rests on a single (if often-cited) story."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining and extending his theological system up to his death, leaving the Summa unfinished rather than treating an earlier version as sufficient."
+    },
+    "planning_orientation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Summa's deliberate hierarchical structure (parts, treatises, questions, articles, each logically sequenced) is directly observable in the surviving text."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a single, unusually large systematic project across roughly two decades of concurrent teaching and travel obligations."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Wrote substantial commentaries on Aristotle's physics and biology in addition to core theology and philosophy — real range, though concentrated within a broadly Aristotelian intellectual framework rather than spanning unrelated fields."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Used multiple secretaries for simultaneous dictation, a real working arrangement, but remained the sole intellectual author of the resulting system — a modest, mixed pattern scored toward the center."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Sustained intellectual disputes on two fronts — against Latin Averroist readings of Aristotle and against more conservative theologians resistant to any Aristotelian integration — documented via the historical record of 13th-century Parisian theological debate."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Held a prestigious teaching chair at the University of Paris, a real institutional position, though the surviving record documents his written output far more than any distinct leadership or administrative activity."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Summa's method of addressing every anticipated objection point-by-point before responding is directly observable in the text's own structure across thousands of articles."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Summa was explicitly composed as a teaching text for students, structured for pedagogical clarity rather than only personal theological exploration, per its own stated purpose."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The specific synthesis of Aristotelian philosophy with Christian theology was a genuinely novel intellectual contribution for its context, even though built substantially on existing traditions rather than invented from nothing."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Committing publicly to the controversial Aristotelian integration, later leading to posthumous condemnation of some of his propositions, evidences real willingness to hold an exposed intellectual position."
+    },
+    "social_assertiveness": {
+      "score": 32,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Widely documented to have been nicknamed 'the Dumb Ox' by fellow students for his quiet, reserved manner — a specific, historically well-corroborated characterization (reportedly defended by his teacher Albert the Great, who predicted his eventual renown), not a single throwaway remark."
+    },
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The documented method of dictating to multiple secretaries on different works simultaneously was specifically a means of increasing output speed, distinct from the general discipline/volume claim above — a deliberate working-method choice aimed at pace."
+    },
+    "competitiveness": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a real intellectual rivalry with Latin Averroist readings of Aristotle, seeking to establish his own synthesis as the dominant interpretation within Christian theology — a real but moderately-evidenced priority-seeking pattern."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented to have held teaching posts across multiple institutional contexts over his career (Paris, Cologne under Albert the Great, Naples, and papal court positions in Italy), each with real differences in institutional and political environment."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: medieval era, southern_europe, systematic theology/philosophy domain distinct from Ibn Sina's medicine-focused profile and Hildegard's visionary/musical one. Medieval discipline applied (confidence capped at 0.8, most attributes strong_inference/inference), but somewhat richer sourcing than Ibn Sina/Hildegard given the sheer surviving textual volume, hence slightly higher attribute count (18) and a few documented-level entries directly citable from the Summa's own structure."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "토마스 아퀴나스"
+    }
+  }
+}

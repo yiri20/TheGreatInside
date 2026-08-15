@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sun-tzu",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Sun Tzu",
+    "wikidataId": "Q2634383",
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["military_leader", "strategist"],
+    "fieldIds": ["military"],
+    "impactDomains": ["historical"],
+    "tagIds": ["strategist"],
+    "archetypeIds": []
+  },
+  "sources": [
+    { "id": "src_suntzu_wikipedia", "kind": "wikipedia", "title": "Sun Tzu", "url": "https://en.wikipedia.org/wiki/Sun_Tzu" },
+    { "id": "src_suntzu_worldhistory", "kind": "institution", "title": "World History Encyclopedia — Sun-Tzu" }
+  ],
+  "rows": {
+    "systems_abstraction": { "score": 70, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "The Art of War's structural organization into general principles applicable beyond any single battle is real, but attributing this specifically to a documented individual named Sun Tzu is unsupported — modern scholarship (per the World History Encyclopedia and mainstream sinological consensus) treats the text's authorship and its author's individual historicity as genuinely contested, possibly a composite work compiled and attributed later." },
+    "analytical_rigor": { "score": 65, "confidence": 0.4, "evidenceType": "inference", "impact": "advantage", "rationale": "Same caveat as systems_abstraction — the text's own analytical structure is real, but cannot be confidently attributed to one documented biographical individual rather than a later compiler or tradition." },
+    "planning_orientation": { "score": 62, "confidence": 0.38, "evidenceType": "inference", "impact": "advantage", "rationale": "As above; evidence about the text, not independently corroborated evidence about an individual's documented planning behavior." }
+  },
+  "holdReason": "Cannot responsibly clear the 18-scored-attribute / average-confidence-0.55 eligibility floor. Nearly every specific biographical claim about Sun Tzu as an individual (including the well-known anecdote of training the King of Wu's concubines as soldiers) derives from a single source (Sima Qian's Records of the Grand Historian) written roughly three centuries after his traditional lifetime, and falls squarely under this rubric's own 'eccentric anecdote -> extreme score' anti-pattern even before considering it. Separately and more fundamentally, mainstream scholarship treats Sun Tzu's individual historicity and The Art of War's authorship as genuinely contested (possibly a composite/later-compiled attribution rather than one documented person) — see World History Encyclopedia. The only defensible evidence available describes qualities of the TEXT, not independently corroborated behavior of a documented individual, which cannot honestly support person-level trait scores at the confidence this rubric requires. Held, not rejected outright, in case future sourcing turns up stronger individual-level corroboration; not scored further to avoid padding with excluded anecdote-level or authorship-uncertain evidence.",
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick that deliberately tests the HELD path honestly: ancient era, east_asia, military-strategy domain not otherwise represented. Genuinely held on evidence grounds, not forced through — a real demonstration that the pipeline's gates function, per the explicit instruction not to force all candidates to ACCEPTED."
+  }
+}

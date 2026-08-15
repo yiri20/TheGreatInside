@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "isaac-newton",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Isaac Newton",
+    "aliases": [
+      "Sir Isaac Newton"
+    ],
+    "wikidataId": "Q935",
+    "birthYear": 1643,
+    "deathYear": 1727,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "engineering",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "systematic_thinker",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_newton_wikipedia",
+      "kind": "wikipedia",
+      "title": "Isaac Newton",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Newton"
+    },
+    {
+      "id": "src_newton_westfall",
+      "kind": "biography",
+      "title": "Richard S. Westfall, Never at Rest: A Biography of Isaac Newton (1980)"
+    },
+    {
+      "id": "src_newton_royalsociety",
+      "kind": "institution",
+      "title": "The Royal Society — Isaac Newton biography"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 92,
+      "confidence": 0.88,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, self-directed investigation across optics, mathematics, alchemy, and theology for decades with no external prompting, well past what any single role required (Westfall). Documented, multiple domains, converging evidence — 85+ band."
+    },
+    "analytical_rigor": {
+      "score": 96,
+      "confidence": 0.9,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Principia Mathematica's geometric proofs are the defining documented instance — rigorous derivation from first principles, not intuition alone. Multiple independent documented works (Principia, Opticks) converge."
+    },
+    "intuitive_synthesis": {
+      "score": 85,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented unification of terrestrial and celestial mechanics under one law of gravitation (Principia, Book III) — not the apocryphal apple story, but the actual mathematical unification, which is the real documented achievement."
+    },
+    "systems_abstraction": {
+      "score": 94,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed calculus as a general mathematical framework and organized Principia into a systematic axiomatic structure (laws of motion, then derivations) — documented, structural evidence, not a single instance."
+    },
+    "independent_thinking": {
+      "score": 88,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed calculus, the theory of colors, and early gravitation theory during the 1665-1667 plague years working alone at Woolsthorpe, before any external validation existed (documented in his own notebooks and later corroborated by Westfall)."
+    },
+    "belief_updating": {
+      "score": 34,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented, decades-long resistance to revising positions under challenge: maintained his corpuscular theory of light against Hooke's and Huygens's wave-theory objections, and pursued the calculus-priority dispute with Leibniz for years rather than reconciling competing claims. Multiple converging instances, strong_inference since no single quote settles it."
+    },
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Independent invention of calculus (documented, corroborated by dated manuscripts) is a clear, singular instance of genuinely original formal invention, not incremental extension of existing work."
+    },
+    "experimentation": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented prism experiments splitting white light into a spectrum and recombining it (Opticks) — a specific, cited, repeatable experimental program, not a single anecdote."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained, serious (not dabbling) engagement across physics, mathematics, alchemy, theology, and later monetary administration (Royal Mint) — documented across multiple independent biographical sources, though no single quote frames this as deliberate range-seeking."
+    },
+    "discipline": {
+      "score": 90,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His assistant Humphrey Newton documented him working for weeks at a stretch, frequently forgetting meals, during the writing of Principia — a specific, cited, sustained pattern."
+    },
+    "deep_focus": {
+      "score": 92,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Same Humphrey Newton household account: extended single-problem absorption to the point of neglecting food and sleep, corroborated across multiple biographies."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The precision of Principia's geometric proofs and repeated revision across three editions over decades supports meticulous attention, though this overlaps substantially with analytical_rigor rather than being independently documented."
+    },
+    "perfectionism": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Delayed publishing calculus and optical work for years/decades — plausibly perfectionism, but the better-documented explanation (Westfall) is dispute-avoidance and secrecy rather than dissatisfaction with the work itself, so scored moderately with inference-level confidence rather than higher."
+    },
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The 1665-1667 'annus mirabilis' produced the basis of calculus, optics, and gravitation within about 18 months once he began in earnest — fast once engaged, though this contrasts with his separately-documented decades-long delay in publishing, which is a distinct, temperament-driven pattern (see perfectionism)."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Principia's deliberate three-book structure, building axiomatically from definitions and laws to derived results, suggests real structural planning rather than ad hoc composition."
+    },
+    "persistence": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Returned to lunar-theory and calendar problems across decades without resolution, and pursued alchemical investigation for over 20 years without public results — documented via his surviving notebooks (Westfall)."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "In his mid-50s, took on the Wardenship then Mastership of the Royal Mint — an entirely different domain (finance and law enforcement) — and by documented account excelled, personally investigating counterfeiters. Genuinely in tension with the belief_updating finding above, which is about revising his own theoretical convictions specifically, not adjusting to a new institutional role — both are separately well-supported, not smoothed into a fake middle."
+    },
+    "social_assertiveness": {
+      "score": 38,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Widely documented as reclusive in daily life (never married, few close friends, described by contemporaries as withdrawn) — the dominant pattern across his life, even though he could be forcefully assertive within Royal Society politics specifically (see conflict_tolerance)."
+    },
+    "collaboration": {
+      "score": 22,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Documented, sustained refusal to share credit and active suppression of rival claims — the Leibniz calculus dispute and the Flamsteed star-catalogue dispute (where Newton published Flamsteed's unfinished data without full consent) are both specific, cited, well-corroborated instances."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served as President of the Royal Society for 24 years (1703-1727) and Master of the Royal Mint — documented, sustained institutional leadership roles, not honorary positions."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained, active engagement in bitter priority disputes with Hooke, Leibniz, and Flamsteed across decades, including secretly chairing a supposedly impartial Royal Society committee that ruled in his own favor against Leibniz — documented willingness to prolong conflict rather than avoid it."
+    },
+    "mastery_orientation": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued alchemical and theological investigation for decades with no public output or external reward — documented via his own extensive private manuscripts, evidencing pursuit for its own sake."
+    },
+    "competitiveness": {
+      "score": 85,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "The Leibniz calculus-priority campaign is a specific, well-documented, sustained effort to be recognized as first, including orchestrating a biased Royal Society ruling in his own favor."
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Consistent documented pattern of working alone for extended periods and resisting collaboration even when it would have accelerated publication (e.g. delaying calculus disclosure for years)."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally designed and built a working reflecting telescope to solve chromatic-aberration problems existing instruments had — a specific, documented technical improvisation, though a single instance."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "As Warden of the Mint, personally went undercover to gather evidence against counterfeiters rather than delegating the investigation — documented, self-initiated action beyond the role's formal expectations."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: early_modern era, western_europe, physics/math domain, extremely rich documented evidence — a rubric-validation anchor case, deliberately not padded to uniform excellence (low collaboration/belief_updating scores are real findings, not oversights)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아이작 뉴턴"
+    }
+  }
+}

@@ -14,9 +14,12 @@ describe("buildSitemapEntries", () => {
     process.env = { ...ORIGINAL_ENV };
   });
 
-  it("produces exactly 80 URLs: 2 Landing + 2 People + 2 Quiz + 2 Privacy + 2 Terms + 70 Person", () => {
+  it("produces exactly 10 fixed URLs (2 Landing + 2 People + 2 Quiz + 2 Privacy + 2 Terms) plus 2 per person", () => {
+    // ROSTER-1000: computed from the live SEED_PEOPLE count rather than a
+    // hardcoded number, so a future roster batch can't silently desync this
+    // guard the way a fixed "80" would have after roster3.ts's 16 additions.
     const entries = buildSitemapEntries();
-    expect(entries).toHaveLength(80);
+    expect(entries).toHaveLength(10 + SEED_PEOPLE.length * 2);
   });
 
   it("includes both launch locales for Landing", () => {

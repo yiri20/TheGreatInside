@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "martin-luther-king-jr",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Martin Luther King Jr.",
+    "wikidataId": "Q8027",
+    "birthYear": 1929,
+    "deathYear": 1968,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_activist",
+      "theologian"
+    ],
+    "fieldIds": [
+      "civil_rights",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "nonviolence",
+      "grassroots_organizer",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mlk_wikipedia",
+      "kind": "wikipedia",
+      "title": "Martin Luther King Jr.",
+      "url": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+    },
+    {
+      "id": "src_mlk_institute",
+      "kind": "institution",
+      "title": "The Martin Luther King, Jr. Research and Education Institute, Stanford University"
+    },
+    {
+      "id": "src_mlk_branch",
+      "kind": "biography",
+      "title": "Taylor Branch, Parting the Waters: America in the King Years 1954-63 (1988)"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 94,
+      "confidence": 0.82,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1963 'I Have a Dream' address and sustained public oratory across a 13-year public career are among the most extensively documented rhetorical achievements of the 20th century, corroborated across independent archives."
+    },
+    "leadership_drive": {
+      "score": 90,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led the 1955-56 Montgomery Bus Boycott, co-founded and led the Southern Christian Leadership Conference, and organized the Birmingham and Selma campaigns — documented, sustained institutional leadership across more than a decade."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Was arrested repeatedly (including the 1963 Birmingham jailing during which he wrote 'Letter from Birmingham Jail') and continued organizing despite documented, credible assassination threats throughout the 1960s."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the civil rights campaign across 13 years (1955-1968) through repeated arrests, violent opposition, and organizational setbacks, documented across the full span of his public career."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Birmingham campaign was deliberately designed (documented as 'Project C' for confrontation) to provoke a visible, media-covered response from segregationist authorities — a strategic, intentional use of confrontation rather than avoidance."
+    },
+    "social_assertiveness": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally led marches directly into confrontation with segregationist state authorities (Selma, Birmingham) — documented, repeated pattern of direct public assertion."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Committed to strategic nonviolence even against pressure from more confrontational contemporaries and criticism from some fellow clergy over the pace of change (documented directly in 'Letter from Birmingham Jail,' addressed to critics urging patience)."
+    },
+    "collaboration": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Worked within and across multiple civil rights organizations (SCLC, alliances with the NAACP and, at times, SNCC), though documented tension existed with SNCC over strategy and pace — genuinely mixed, scored toward the center."
+    },
+    "planning_orientation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Birmingham campaign was documented as a deliberately staged sequence of escalating actions specifically designed to generate a particular public and media response, not an improvised protest."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Broadened his public focus over his career from segregation specifically to economic justice (the Poor People's Campaign) and, in the 1967 Riverside Church address, to opposition to the Vietnam War — a documented expansion that drew criticism even from some prior allies, evidencing a real, costly position shift rather than a comfortable one."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued formal theological doctoral study and specifically studied Gandhian nonviolent method in depth before applying it, evidencing deliberate skill development in the strategy he would use for the rest of his career."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained day-to-day organizational leadership of SCLC campaigns across more than a decade, documented through the organization's own campaign records."
+    },
+    "proactive_agency": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally initiated the Birmingham campaign and later the Poor People's Campaign as self-directed strategic choices rather than responses to being asked, documented in SCLC's own planning records."
+    },
+    "opportunity_sensing": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented strategic choice of Birmingham specifically because its police force's response to protest was expected to be severe and visible enough to generate national attention — a deliberate recognition and use of a specific political opening."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Adapted Gandhian nonviolent resistance theory into a specific strategic framework for the American civil rights context — a real synthesis, though built on an existing methodology rather than invented from nothing."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Formal theological training combined with civil rights organizing and, later, economic-policy and anti-war advocacy — real range but concentrated within a broadly consistent moral-philosophy and social-justice domain rather than spanning unrelated fields."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Expanded strategy and focus from localized segregation campaigns to national economic-justice organizing (the Poor People's Campaign) in his final years — real but modestly evidenced beyond the belief_updating finding above, which covers the same underlying shift from a different angle."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Campaigns were explicitly organized around securing specific, concrete legislative and policy outcomes (documented public framing around the Civil Rights Act of 1964 and Voting Rights Act of 1965 as direct goals), not activism for its own sake."
+    },
+    "impact_motivation": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly and repeatedly framed his work, including in his final campaign (the Poor People's Campaign), around broad structural change for others rather than personal or in-group gain, documented across his public speeches and writing."
+    },
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "'Letter from Birmingham Jail' directly and systematically rebuts specific published criticisms from fellow clergy point by point — a documented, structured written argument, not merely a rhetorical appeal."
+    },
+    "execution_speed": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Once a campaign was decided upon (e.g. the 1965 Selma march), mobilization and public action followed within a defined, relatively short timeframe rather than prolonged deliberation."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: 20th_century, north_america, nonviolent civil-rights leadership domain distinct from Douglass's (earlier, individual-oratory era) and from Mandela/Gandhi's (non-US context). Scored strictly from documented public organizing/leadership behavior; no claim of any kind made about contested personal-life matters, consistent with CLAUDE.md's safety rule against inferring anything beyond what published accounts directly describe."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마틴 루서 킹 주니어"
+    }
+  }
+}

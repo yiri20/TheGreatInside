@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "vincent-van-gogh",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Vincent van Gogh",
+    "wikidataId": "Q5582",
+    "birthYear": 1853,
+    "deathYear": 1890,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "late_recognition",
+      "self_taught",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_vangogh_wikipedia",
+      "kind": "wikipedia",
+      "title": "Vincent van Gogh",
+      "url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    {
+      "id": "src_vangogh_letters",
+      "kind": "archive",
+      "title": "Van Gogh Museum — Vincent van Gogh: The Letters (complete surviving correspondence)"
+    },
+    {
+      "id": "src_vangogh_naifeh",
+      "kind": "biography",
+      "title": "Steven Naifeh and Gregory White Smith, Van Gogh: The Life (2011)"
+    }
+  ],
+  "rows": {
+    "aesthetic_sensitivity": {
+      "score": 94,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Nearly 900 surviving letters, mostly to his brother Theo, directly document his deliberate reasoning about color relationships, composition, and technique alongside a body of over 2,000 surviving works — an unusually direct, first-person documentary record."
+    },
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a distinctive personal style (thick impasto, expressive color choices departing from observed reality) that departed clearly from the academic and Impressionist conventions of his time, documented via the surviving body of work itself."
+    },
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Letters document deliberate experimentation with complementary color pairings and paint application technique, describing specific choices and their intended effects rather than working purely intuitively."
+    },
+    "deep_focus": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced roughly 200 paintings during his final approximately 15 months in Arles and Saint-Rémy alone — a documented, dated body of work evidencing sustained, intense working periods."
+    },
+    "execution_speed": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Multiple documented accounts and dated works show individual paintings completed within a single sitting or day during his most productive periods."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued producing work at a high rate for roughly a decade despite documented, near-total absence of commercial success in his lifetime (he sold only one or two paintings while alive) — strong evidence against a success-driven or externally-rewarded reading of his output."
+    },
+    "mastery_orientation": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Same lack of commercial or critical validation during his lifetime, combined with sustained technical development documented across his letters, evidences pursuit of the craft itself rather than external reward."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rejected the more polished academic and Impressionist conventions favored by contemporary critics in favor of his own developing style, documented via critical reception at the time and his own letters defending his choices."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "The sheer volume of dated output evidences real working discipline during productive periods, though this was documented to be interrupted by periods of hospitalization — scored moderately rather than at the extreme to reflect the genuinely uneven, not uniformly sustained, pattern."
+    },
+    "collaboration": {
+      "score": 35,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "His documented two-month attempt at a shared studio arrangement with Paul Gauguin in Arles (the 'Yellow House' period) ended in a well-corroborated breakdown; scored from the documented outcome of this specific collaborative arrangement, not from any diagnostic reading of the underlying cause."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Left prior, more conventional career paths (art dealing, lay preaching) to pursue painting full-time with no proven ability and reliance on his brother's financial support — a documented, real career risk taken relatively late (age 27)."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved to Arles specifically seeking his own independent studio space, documented in his letters as a deliberate choice for creative independence."
+    },
+    "social_assertiveness": {
+      "score": 34,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Multiple contemporaries' accounts and his own letters describe him as socially isolated and difficult to form lasting relationships with — scored strictly from this documented behavioral pattern, not from any retrospective diagnostic characterization."
+    },
+    "conflict_tolerance": {
+      "score": 45,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The documented breakdown of the Gauguin collaboration involved real interpersonal conflict, though the surviving record does not clearly establish whether this reflects a general pattern versus a specific, singular relationship dynamic — scored toward the center given genuine uncertainty."
+    },
+    "cross_domain_range": {
+      "score": 42,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Held several distinct earlier roles (art dealer, teacher, lay preacher) before settling into painting in his late twenties — real but modest range, and these earlier roles are documented more as unsuccessful precursors than as domains of real achievement in their own right."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Changed career direction multiple times (art dealing, theology, preaching, painting) before finding his eventual path — genuinely readable either as adaptability or as prolonged instability, scored toward the center rather than forced to either pole."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented in his letters as having actively organized and invited Gauguin to Arles to establish a shared artists' colony, a self-initiated project rather than joining an existing one."
+    },
+    "planning_orientation": {
+      "score": 38,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Biographical accounts (Naifeh and Smith) generally describe his working method as intuitive and reactive to immediate subject and mood rather than methodically planned in advance — a real, if moderately-evidenced, contrast with more structured figures in this batch."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His letters document deliberate, reasoned application of complementary-color theory to specific compositions, describing intended effects in advance rather than working from instinct alone."
+    },
+    "perfectionism": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented via his letters to have reworked or abandoned specific canvases he judged unsuccessful, evidencing a real internal standard, scored moderately given this is not the dominant documented theme of his rapid overall output."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented to have studied and collected Japanese ukiyo-e prints extensively, directly incorporating their compositional influence into his own work — a specific, corroborated interest beyond his immediate painting practice."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: 19th_century, western_europe, visual-art domain not otherwise represented (Kahlo/Kusama are the roster's only other visual artists, both 20th-century). Every trait scored strictly from documented behavior (his own extensive letters, dated works, and well-corroborated biographical accounts) — no clinical or diagnostic characterization of any kind was used or inferred, per CLAUDE.md's safety rule; the collaboration/social_assertiveness/conflict_tolerance scores are drawn only from specific documented behavioral outcomes (the Gauguin collaboration's breakdown, contemporaries' accounts of his relationships), never from retrospective psychological labeling."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빈센트 반 고흐"
+    }
+  }
+}

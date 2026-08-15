@@ -44,12 +44,16 @@ describe("personDisplayName", () => {
     }
   });
 
-  it("has a Korean display name authored for all 35 current-roster people — regression guard", () => {
+  it("has a Korean display name authored for every current-roster person — regression guard", () => {
     // Mirrors missingDevelopmentGuides()/missingTradeoffCoverage()'s pattern:
-    // a live check against the actual roster, not a hardcoded count, so a
-    // future person added without a Korean name is caught here rather than
-    // silently rendering their raw canonicalName in the Korean product.
-    expect(SEED_PEOPLE.length).toBe(35);
+    // a live check against the actual roster, not a hardcoded count (the
+    // count itself was previously and incorrectly pinned to 35 here — fixed
+    // during ROSTER-1000's first real expansion batch, roster3.ts, since a
+    // hardcoded length is exactly the kind of guard a genuine roster
+    // addition should not have to fight), so a future person added without
+    // a Korean name is caught here rather than silently rendering their raw
+    // canonicalName in the Korean product.
+    expect(SEED_PEOPLE.length).toBeGreaterThan(0);
     const missing = SEED_PEOPLE.filter((p) => personDisplayName("ko-KR", p) === p.canonicalName);
     expect(missing.map((p) => p.slug)).toEqual([]);
   });

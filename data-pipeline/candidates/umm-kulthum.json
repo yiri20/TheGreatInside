@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "umm-kulthum",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Umm Kulthum",
+    "wikidataId": "Q1110560",
+    "birthYear": 1904,
+    "deathYear": 1975,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "independent",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ummkulthum_wikipedia",
+      "kind": "wikipedia",
+      "title": "Umm Kulthum",
+      "url": "https://en.wikipedia.org/wiki/Umm_Kulthum"
+    },
+    {
+      "id": "src_ummkulthum_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica — Umm Kulthum"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 92,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented rigorous vocal training from childhood (initially disguised as a boy to perform religious recitations, per multiple biographical accounts), continuing to refine technique across a roughly 50-year performing career."
+    },
+    "aesthetic_sensitivity": {
+      "score": 94,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Widely documented mastery of tarab (the classical Arabic vocal-ornamentation tradition), corroborated by musicological analysis of her recorded performances across decades."
+    },
+    "discipline": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained a well-documented monthly performance tradition (first-Thursday-of-the-month radio concerts) consistently for decades, a specific, sustained, corroborated pattern."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued performing at the highest professional level across roughly five decades despite documented health difficulties in her later years."
+    },
+    "experimentation": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented practice of repeating a single line of a song many times within one performance, each time with different vocal ornamentation, until reaching a desired emotional effect with the audience — a specific, well-corroborated performance technique, not a single anecdote."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The same documented practice of extended, hours-long performances built around sustained improvisation evidences deep, sustained engagement within a single performance."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Exercised documented creative direction over her own orchestra and repertoire selection, an unusual degree of control for a performer of her era."
+    },
+    "persuasiveness": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Toured extensively giving concerts to raise funds for Egypt following the 1967 Arab-Israeli war defeat — a documented, large-scale, real instance of using her public influence to mobilize concrete support."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained unusual creative and business independence over her own repertoire and collaborators for a woman performer in her era and industry, documented across multiple biographical accounts."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Worked in sustained, selective creative partnership with leading composers of her era (notably Riad Al Sunbati) over decades, documented via the shared body of recorded work."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented meticulous attention to the selection and treatment of poetic texts set to music, though the surviving record describes this more generally than via specific cited instances."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the 1967 war-effort fundraising tours rather than being asked by the government to do so, per historical accounts of the period."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same 1967 fundraising campaign evidences motivation toward broad national impact beyond personal career interests, documented via the historical record of the tours' explicit purpose."
+    },
+    "cross_domain_range": {
+      "score": 50,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Appeared in several films during the 1930s-40s in addition to her singing career — a real but modest secondary domain, scored moderately rather than high since singing remained overwhelmingly her primary documented achievement."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her interpretive approach to setting classical Arabic poetry to music is documented by musicologists as having set new standards within the tradition, a real if evolutionary rather than radical originality."
+    },
+    "independent_thinking": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained unusual creative and business control over her own career rather than deferring to industry convention of her era — the same underlying evidence as autonomy_need, viewed from the judgment/decision-making angle rather than the preference-for-independence angle."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented pattern of pursuing progressively larger venues and more prestigious collaborations across her career rather than settling once initial success was reached."
+    },
+    "execution_speed": {
+      "score": 32,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented practice of extending individual songs across many minutes or hours through repeated improvised variation is the opposite of fast delivery — a genuine, evidence-based low score rather than an assumption that mastery implies speed."
+    },
+    "social_assertiveness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The sustained monthly public radio concert tradition was itself a deliberate, sustained public presence maintained across decades, documented via broadcast records of the period."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Selective, deliberate choice of composers and poetic material across her career suggests real strategic career planning, though the surviving record documents her choices more than the planning process behind them."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented to have negotiated firmly with radio and recording institutions over artistic control and compensation across her career, evidencing willingness to sustain disagreement rather than accept terms passively."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: 20th_century, north_africa (currently only Ibn Khaldun — Egypt specifically unrepresented), music/performance domain not represented anywhere in the current roster (Mozart/Beethoven are composers, not performers; Kusama/Kahlo are visual artists). The low execution_speed score (32) is a real, evidence-based finding avoiding the assumption that renowned mastery implies fast output."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "움 쿨숨"
+    }
+  }
+}

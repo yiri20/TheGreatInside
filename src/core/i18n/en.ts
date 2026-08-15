@@ -749,6 +749,11 @@ export const en = {
   "occupation.anatomist": "anatomist",
   "occupation.animator": "animator",
   "occupation.artist": "artist",
+  // ROSTER-1000 first batch: 5 new occupation ids, added the same way
+  // Phase 8's occupation.* set was originally authored — a live audit of
+  // what the actual roster uses, EN+KO both required by
+  // missingOccupationCoverage().
+  "occupation.astronomer": "astronomer",
   "occupation.athlete": "athlete",
   "occupation.chemist": "chemist",
   "occupation.composer": "composer",
@@ -762,6 +767,7 @@ export const en = {
   "occupation.entrepreneur": "entrepreneur",
   "occupation.environmentalist": "environmentalist",
   "occupation.executive": "executive",
+  "occupation.explorer": "explorer",
   "occupation.fashion_designer": "fashion designer",
   "occupation.film_director": "film director",
   "occupation.historian": "historian",
@@ -773,9 +779,11 @@ export const en = {
   "occupation.mathematician": "mathematician",
   "occupation.media_executive": "media executive",
   "occupation.military_leader": "military leader",
+  "occupation.naturalist": "naturalist",
   "occupation.naval_commander": "naval commander",
   "occupation.painter": "painter",
   "occupation.philosopher": "philosopher",
+  "occupation.physician": "physician",
   "occupation.physicist": "physicist",
   "occupation.poet": "poet",
   "occupation.political_activist": "political activist",
@@ -783,6 +791,7 @@ export const en = {
   "occupation.primatologist": "primatologist",
   "occupation.product_designer": "product designer",
   "occupation.scientist": "scientist",
+  "occupation.singer": "singer",
   "occupation.statesman": "statesman",
   "occupation.strategist": "strategist",
   "occupation.teacher": "teacher",
@@ -915,6 +924,10 @@ export const en = {
   "polity.joseon_dynasty": "Joseon Dynasty, Korea",
   "polity.ming_dynasty": "Ming Dynasty, China",
   "polity.mamluk_sultanate": "Mamluk Sultanate, Cairo",
+  "polity.samanid_empire": "Samanid Empire, Bukhara",
+  "polity.holy_roman_empire": "Holy Roman Empire",
+  "polity.british_raj": "British Raj",
+  "polity.roman_empire": "Roman Empire",
 
   /* ================================================================
      PHASE 7 — DEVELOPMENT GUIDES (development_v1)

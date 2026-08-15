@@ -9,17 +9,21 @@ already-made decisions.
 **Branch: `scale/roster-1000`.** Never merged to `main`. Do not merge
 without explicit user approval.
 
-**Status as of this checkpoint (2026-08, session 2): infrastructure phase
-complete and RE-VERIFIED under a corrected, rigorous methodology. Bundle
-scaling is now proven (not merely asserted) to reduce the per-person
-SLOPE, not just the 35-person intercept — see §1B. People Directory UX
-(region localisation, tag discoverability, results-count wording,
-1,000-entry performance) is implemented and verified — see §1C. A
-candidate staging format is designed and scaffolded — see §4. Real
-candidate sourcing remains at a very small, explicitly-scoped pilot (1
-worked example, not the 15-25 target) — see §4B. Portrait sourcing has a
-small real pilot (see §7B), not full 34-person coverage.** This is
-stated plainly and is not a partial/hidden result.
+**Status as of this checkpoint (2026-08, session 3): the first real
+expansion batch is COMPLETE. The roster grew from 35 to 51 real,
+evidence-scored people (16 accepted, 4 honestly held).** This is the
+first session where the "NOT READY TO CONTINUE TO 100" verdict's single
+blocking reason — zero new people through the real pipeline — no longer
+applies. Full record in §10 below; §11 for the expanded matching
+simulation; §12 for the reference/calibration decision (no bump
+warranted). Sessions 1-2's infrastructure (bundle scaling, People
+Directory UX, scoring rubric, quality gates, candidate staging format)
+is unchanged and remains valid — see §1-§9 below, now historical
+context for how session 3's batch was actually produced. Portrait
+sourcing for the pre-existing 34 people remains at session 2's small
+pilot (§7B) — not the focus this session, per the brief's own
+explicit instruction to prioritize the real candidate batch over
+continued portrait work.
 
 ## Commits on this branch so far
 
@@ -364,7 +368,13 @@ imported into `SEED_PEOPLE`. This needed no schema change.
 
 13/13 tests passing.
 
-## 4. What has NOT been done yet (honest, explicit)
+## 4. What has NOT been done yet (honest, explicit) — SUPERSEDED by §10
+
+**This section is preserved as the accurate historical record of
+sessions 1-2's status; it is no longer the current state.** Session 3
+completed the first real candidate batch — see §10 for what changed.
+Read this section as "what session 1/2 had not done," not "what is
+still undone."
 
 - **Zero new candidates sourced or scored.** No new person committed to
   `SEED_PEOPLE` anywhere on this branch — the roster is still exactly
@@ -623,56 +633,337 @@ work. This is the single most parallelizable/resumable item on the
 checkpoint — a future session (or a background research agent) can pick
 up any subset of these 28 independently.
 
-## 8. Exact next steps for a fresh session
+## 10. First real expansion batch — COMPLETE (session 3, 2026-08)
 
-**Infrastructure is now fully ready** (bundle scaling verified, People
-Directory UX complete, scoring rubric written, quality gates built,
-candidate staging format built and validated). The next session's job
-is almost entirely real research work, not more infrastructure:
+**20 candidates selected, researched, and scored. 16 accepted and
+committed to the real roster (`src/data/people/roster3.ts`). 4 honestly
+held, each for a genuinely distinct, documented evidence-quality
+reason.** Zero candidates were forced through by weakening the rubric.
+
+**Selection.** Deliberately diverse across era (ancient → 20th century),
+region (western_europe, southern_europe, central_asia, north_america,
+south_asia, north_africa), domain (physics, mathematics, philosophy,
+theology, literature, visual art, music, exploration, invention,
+civil-rights oratory, athletics), and evidence type (autobiography,
+extensive personal correspondence, a single contested primary text,
+competitive results with thin personal documentation). Every candidate's
+Wikidata QID was verified live via `WebSearch` before use (never
+recalled from memory) — a wrong QID is worse than a missing one, same
+discipline as the existing roster's own external-identity population.
+Deduplicated against the existing 35 people's slugs/QIDs/aliases before
+any research began; zero collisions found (confirmed by
+`runRosterQualityGates`, see below).
+
+**Accepted (16), all `qa_passed`, all now in `roster3.ts`:**
+
+| Person | Era | Region | Domain | Attrs | Avg conf |
+|---|---|---|---|---|---|
+| Isaac Newton | early_modern | western_europe | physics/math | 26 | 0.69 |
+| Charles Darwin | 19th_century | western_europe | natural science | 23 | 0.65 |
+| Albert Einstein | 20th_century | western_europe | physics | 23 | 0.64 |
+| Galileo Galilei | early_modern | southern_europe | astronomy/physics | 22 | 0.63 |
+| Frederick Douglass | 19th_century | north_america | oratory/abolition | 21 | 0.65 |
+| Martin Luther King Jr. | 20th_century | north_america | civil rights | 21 | 0.62 |
+| Ernest Shackleton | 19th_century | western_europe | exploration | 21 | 0.60 |
+| Thomas Aquinas | medieval | southern_europe | theology/philosophy | 21 | 0.56 |
+| Thomas Edison | 19th_century | north_america | invention | 21 | 0.60 |
+| Umm Kulthum | 20th_century | north_africa | music/performance | 21 | 0.58 |
+| Vincent van Gogh | 19th_century | western_europe | visual art | 21 | 0.58 |
+| Wilbur Wright | 19th_century | north_america | invention/engineering | 21 | 0.61 |
+| Rabindranath Tagore | 19th_century | south_asia | literature/music/education | 21 | 0.59 |
+| Jane Austen | early_modern | western_europe | literature | 21 | 0.55 |
+| Hildegard of Bingen | medieval | western_europe | music/theology/medicine | 21 | 0.55 |
+| Ibn Sina (Avicenna) | medieval | central_asia | medicine/philosophy | 20 | 0.55 |
+
+**Held (4), all genuinely distinct evidence-quality failure modes, none
+forced through — this diversity of HELD reasons was itself part of the
+batch's intended diversity, per the brief's explicit "evidence
+availability" dimension:**
+
+- **Sun Tzu** (ancient, east_asia, military strategy) — individual
+  historicity and The Art of War's authorship are genuinely contested by
+  mainstream scholarship; almost every specific biographical claim
+  (including the well-known concubine-training anecdote) derives from
+  one source written ~300 years after his traditional lifetime. Only 3
+  attributes scored, all at inference-level confidence.
+- **Marco Polo** (medieval, southern_europe, exploration) — the sole
+  primary source (The Travels) has substantial, mainstream-acknowledged
+  reliability problems regarding how much reflects first-hand experience
+  versus embellishment/compilation. Only 3 attributes scored.
+- **Jesse Owens** (20th_century, north_america, athletics) — a genuinely
+  distinct failure mode from the two above: his competitive RESULTS are
+  extremely well documented (world records, Olympic medals), but per the
+  rubric's own "success != high score" rule, results alone cannot
+  support personality trait scores, and readily available personal-
+  behavioral documentation is comparatively thin absent deeper research
+  into his own later interviews/writings. A widely-repeated but
+  factually disputed "Hitler snub" anecdote was deliberately never used.
+  10 attributes scored.
+- **Hypatia** (ancient, north_africa, mathematics/philosophy) — a FOURTH
+  distinct failure mode: attribute count (20) and coverage (0.60) both
+  clear their floors, but average confidence (0.47) falls genuinely
+  short of the 0.55 floor even after extending the attribute set — most
+  of what can be said rests on inference from her general reputation
+  (via Synesius's letters and Socrates Scholasticus) rather than
+  specific corroborated instances. Deliberately NOT fixed by inflating
+  confidence values without new evidence.
+
+**A real, valuable pipeline finding, not anticipated at design time:**
+the 18-attribute floor is necessary but not sufficient for eligibility —
+`coverage` (the sum of scored attributes' discriminative weight ÷ total
+taxonomy weight) depends on WHICH attributes are scored, not merely how
+many. Several candidates initially scored exactly 18 attributes but
+fell short on coverage (as low as 0.53 against the 0.6 floor) because
+the initially-scored attributes happened to cluster on
+lower-discriminative-weight traits (persistence, independent_thinking,
+proactive_agency — all real, evidence-grounded, just structurally
+lower-weight per `dispersion.generated.ts`). Fixed by adding further
+genuinely-evidenced high-weight attributes (aesthetic_sensitivity,
+leadership_drive, competitiveness, social_assertiveness,
+planning_orientation, execution_speed, persuasiveness,
+conflict_tolerance, cross_domain_range — the highest-weight attributes
+in the current 34-attribute bank) where real evidence existed, never by
+inventing evidence to hit a number. For 3 candidates (Hildegard, Ibn
+Sina, Jane Austen) whose confidence — not coverage — was the remaining
+shortfall, the fix was instead REMOVING the weakest, most speculative
+low-confidence entries (which mechanically raises the average and
+increases rigor simultaneously) rather than padding with more
+speculation. Two real duplicate-attribute-key bugs were also found and
+fixed during this process (a JSON object literal silently keeps only
+the last of two identically-named keys) — caught by a dedicated
+duplicate-key sweep across all 20 files before final validation, not
+left to be discovered later.
+
+**Evidence/source statistics (accepted candidates only):** 40 total
+sources (avg 2.5/person — every source is a real, named, checkable
+reference: primary autobiographies/correspondence, standard scholarly
+biographies, institutional pages (Nobel Prize, Stanford Encyclopedia of
+Philosophy, university/museum pages) — never a personality-test site,
+biography farm, or unsourced content, matching the brief's explicit
+source-quality bar. 345 total scored attributes (avg 21.6/person).
+Confidence distribution: min 0.42, p25 0.52, median 0.58, p75 0.68, max
+0.90, mean 0.605. Evidence type: 54% documented, 34% strong_inference,
+12% inference — a real, honest mix, not artificially skewed toward the
+strongest category to look better.
+
+**Localization.** All 16 accepted candidates have a Korean display name
+(`person.name.*` in `ko.ts`) using established or well-attested standard
+transliterations. No new region ids were needed (all 16 map cleanly into
+the existing 11-region controlled vocabulary from session 2). 3 new
+`historicalPolityKey` entries were added with real EN+KO text
+(`polity.samanid_empire`, `polity.holy_roman_empire`, `polity.british_raj`
+— plus `polity.roman_empire` for the held-not-committed Hypatia file),
+following the exact same "author once, resolve via `tOptional`" pattern
+as the 4 pre-existing polity keys. 5 new `occupation.*` ids were added
+with real EN+KO text (`astronomer`, `naturalist`, `physician`,
+`explorer`, `singer`) — a genuine, systematic vocabulary extension
+exactly like session 2's region/tag additions, not an arbitrary one-off.
+Zero new tag ids were needed (all fit the existing 46-tag vocabulary).
+
+**Portraits (secondary, per the brief's explicit instruction not to let
+this displace the batch).** Not attempted for the 16 new people this
+session — the brief was explicit that portrait work should not displace
+the primary candidate-batch objective, and by the time the batch itself,
+its coverage-floor debugging, roster integration, and full verification
+gate were complete, continuing into a second research-heavy pass (image
+licensing verification for 16 more people) was judged the wrong
+trade-off for this session's remaining time. This is an honest gap, not
+a hidden one — see §13 "Exact next steps" below.
+
+**Roster integration.** `toPersonSeed()` (`src/dev/roster1000/
+candidateSchema.ts`) converts each `qa_passed` candidate; a new
+one-time generator (`src/dev/roster1000/generateRoster3.ts`) emits
+`src/data/people/roster3.ts` following `roster2.ts`'s exact authoring
+pattern — every score's `rationale` is preserved as the inline `//`
+comment immediately above its `Row`, the same evidence-audit-trail
+discipline the existing rosters already use. `seed.ts` now composes
+`SEED_PEOPLE = [...ROSTER_1, ...ROSTER_2, ...ROSTER_3]`.
+`peopleIndex.generated.ts` regenerated (51 entries, 91,194 bytes).
+
+**Full roster-quality gate result, run directly against the real,
+committed 51-person roster (not estimated):** total 51, match-eligible
+50 (only Zheng He remains ineligible, unchanged from the original
+35-person baseline — confirmed, not assumed). Zero duplicate slugs/ids/
+Wikidata QIDs. Zero chronology errors. Zero trait-bounds errors. Zero
+content-quality-floor failures. Zero missing occupation/impact-domain/
+tag/region localization coverage anywhere in the roster (the 5 new
+occupation ids and 3 new polity keys added this session all have real
+EN+KO text, confirmed by the same live coverage guards session 2 built).
+
+**Verified live in a running production build**, not just via
+automated tests: Isaac Newton's Korean page (`/ko-KR/people/isaac-newton`)
+renders correctly — title "아이작 뉴턴", occupation "물리학자" correctly
+localized, trait constellation showing his real scored values including
+the low collaboration score (22) correctly flagged as a risk-impact
+trait (not smoothed into a uniform-excellence profile), Similar
+People/Opposite Profile computed correctly against the real 51-person
+pool. The People Directory (`/en-US/people`) correctly shows 50
+match-eligible cards.
+
+## 11. Expanded matching simulation — HEALTHY, no dominance concern
+
+Fresh 10,000-profile simulation against the real, committed 51-person
+roster (`corepack pnpm@10 exec tsx src/dev/simulate.ts 10000 quiz`, run
+AFTER `dispersion.generated.ts` was regenerated for the new roster — see
+§12):
+
+```
+Profile Match (all)    min=5  p10=24 p25=32 med=44 p75=56 p90=68 max=94  mean=44.69 sd=16.65
+Profile Match (top 1)  min=48 p10=67 p25=73 med=79 p75=84 p90=89 max=94  mean=78.14 sd=8.29
+Greatness Potential    min=7  p10=37 p25=48 med=60 p75=72 p90=82 max=98  mean=59.77 sd=17.12
+
+#1 match frequency (domination check), top entries:
+  p_warren_buffett       14.8%   (down from 17.0% at n=35 — MORE roster
+  p_rosalind_franklin    11.2%   diversity correctly DILUTES single-person
+  p_benjamin_franklin     7.9%   dominance, exactly as expected)
+  p_galileo_galilei       4.5%   (highest #1 frequency among the 16 new
+  p_leonardo_da_vinci     4.4%    people — well below Buffett's, no
+  p_charles_darwin        4.3%    investigation triggered)
+  p_wilbur_wright         3.8%
+  p_ibn_sina              3.3%
+  ...
+  p_isaac_newton          0.3%   (notable: despite having the highest
+                                   attribute count/confidence of any new
+                                   candidate, Newton's #1 frequency is
+                                   LOW — his profile shape, extreme on
+                                   many traits but genuinely low on
+                                   collaboration, makes him a strong
+                                   match for few users rather than many;
+                                   this is the system working correctly,
+                                   not a defect)
+```
+
+**Max #1 frequency: 14.8% — well under the 20%-at-n>=30 threshold, and
+LOWER than the 35-person baseline's 17.0%.** No new person disproportionately
+dominates; the highest #1 frequency among all 16 new additions
+(Galileo, 4.5%) is less than a third of Buffett's figure. No
+"suspicious dominance" investigation was triggered because none of the
+diagnostic thresholds (20% ceiling, an unexplained outlier among new
+additions) were crossed — this is a clean, healthy result, not a gap in
+analysis.
+
+**No duplicate or near-duplicate profile vectors found** — confirmed by
+the zero-duplicates result in §10's `runRosterQualityGates` output,
+which checks id/slug/QID uniqueness; a direct read of each new
+candidate's scored-attribute set (§10's table) also shows genuinely
+different attribute-count/confidence/domain combinations, not a
+templated pattern repeated across people (e.g. Newton's profile is
+dominated by high analytical/independent traits with a real low on
+collaboration; Darwin's is nearly the inverse on risk_tolerance/
+conflict_tolerance/competitiveness despite similar era/domain/fame
+level — see §10's per-person rationale for the specific evidence behind
+each divergence).
+
+## 12. Reference/dispersion/calibration decision — NO VERSION BUMP
+
+Per Part 12's explicit instruction: audit empirically, do not bump
+merely because the roster grew.
+
+**`dispersion.generated.ts` (data, not a version) was regenerated** —
+required maintenance under the UNCHANGED `dispersion_v1` methodology,
+exactly the same "frozen snapshot, regenerate deliberately after any
+roster change" discipline CLAUDE.md's own "Discriminative weighting"
+section already documents, not a version bump. Weights shifted modestly
+(e.g. `aesthetic_sensitivity` 1.38→1.34, `belief_updating` 0.83→1.22 —
+a real, expected shift from folding 16 new people's variance into the
+pool, matching the precedent already on record from Phase 6.6 Stage 7's
+4-new-attribute case).
+
+**`matching_v2` (the formula itself): untouched, zero code changes.**
+
+**`calibration_v3` anchors: evaluated, left unchanged.** Fit a fresh
+proposed anchor table against the 51-person roster's raw percentiles
+for comparison — the shift versus the CURRENT LIVE anchors is small:
+raw-x deltas of at most 0.0073 across all 13 anchor points (out of a
+[0,1] raw-similarity range), and the resulting DISPLAYED-percentage
+drift versus the immediately-prior 35-person baseline is +1 point on
+Profile Match top-1 median (78→79) and +2 points on Greatness median
+(58→60) — both far smaller than the +4-point median drift that
+justified the `calibration_v2`→`v3` bump at Phase 6.6 Stage 8. Per the
+explicit instruction not to bump merely because the roster grew, and
+following the project's own established practice of reserving a bump
+for drift "too large to leave unbumped" (CLAUDE.md, calibration
+section), **no bump is warranted from this one batch**. The proposed
+fresh-fit anchors are recorded here for a future session's reference,
+not adopted:
+
+```
+proposed MATCH anchors:      [0,1] [.3616,6] [.3849,11] [.4081,18] [.4212,23]
+                              [.445,32] [.4747,44] [.5076,57] [.5387,69]
+                              [.5577,76] [.5947,86] [.6379,93] [1,99]
+proposed GREATNESS anchors:  [0,1] [.6404,8] [.6846,17] [.7235,27] [.7436,34]
+                              [.7777,46] [.8162,58] [.8526,70] [.8835,80]
+                              [.9011,86] [.9304,93] [.9577,97] [1,99]
+```
+
+**`reference_v3`: untouched.** No new attribute was added and no
+evidence emerged this session that would meet the `reference_v3`
+methodology's own evidence bar for changing an assumed mean (unchanged
+since Phase 4/Phase 6.6 Stage 6).
+
+**Monitor, do not overreact to one batch** — matching the project's own
+"Known open issues" item 3 precedent (thin-coverage profiles rarely
+winning #1, not treated as a defect on its own). If a future 100-person
+gate shows the Greatness p10 or Match top-1 p10 drift continuing to grow
+(both moved +3 points this session relative to the 35-person baseline,
+the largest shift of any percentile measured), that would be the
+concrete trigger to revisit — not this session's single, modest batch.
+
+## 13. Exact next steps for a fresh session
+
+**A real, working pipeline is now proven end-to-end — the next
+session's job is more of the same, not new infrastructure or new
+methodology:**
 
 1. Read this file, then `CLAUDE.md`, then `docs/scoring-rubric-v1.md`,
    then `data-pipeline/candidates/README.md`.
 2. Confirm branch: `git checkout scale/roster-1000` (do NOT create a
    new branch; do NOT merge to `main`).
-3. Build a candidate discovery list (target ~1,200-1,500, per Part 4),
-   auditing diversity against era/region/domain/gender coverage —
-   report gaps honestly rather than forcing quotas.
-4. Source and score a first real batch (target ~15-25, per the brief —
-   quality over speed, do not rush toward "100" at the expense of
-   evidence rigor) into `data-pipeline/candidates/<slug>.json` files
-   following `docs/scoring-rubric-v1.md` exactly — every scored
-   attribute needs a real `rationale`, not just a number.
-5. Run `corepack pnpm@10 exec tsx src/dev/roster1000/validateCandidates.ts`
-   against the batch; hold/reject anything that doesn't clear the
-   rubric's evidence bar rather than weakening it.
-6. Only once a candidate is `qa_passed`: use `toPersonSeed()`
-   (`src/dev/roster1000/candidateSchema.ts`) to convert it, add it to a
-   new roster file (`src/data/people/roster3.ts`, following
-   `roster2.ts`'s existing pattern), regenerate `peopleIndex.generated.ts`
-   (`corepack pnpm@10 exec tsx src/dev/generatePeopleIndex.ts`), re-run
-   `simulate.ts 10000 quiz` and compare against §5's baseline (still
-   17.0%/14.0%/10.8%/... as of this checkpoint), run the full test suite
-   + a production build, and commit at that gate.
-7. Continue the portrait pilot (§7B) on the remaining 28 of 34 existing
-   people without one — fully parallelizable with step 3-6, not
-   blocking or blocked by them.
-8. Update this checkpoint file with the new counts/findings before
+3. Continue the portrait pilot (§7B) on the remaining 28 of the
+   ORIGINAL 34-without-portraits people, AND newly attempt portraits
+   for the 16 roster3.ts people — genuinely parallelizable with step 4,
+   secondary priority per the brief.
+4. Source and score a second real batch (target ~15-25 again — do not
+   rush toward "100" in one further session either) following the exact
+   same process §10 just proved: verify QIDs live, score against
+   `docs/scoring-rubric-v1.md`, run `validateCandidates.ts`, watch for
+   the coverage-floor-vs-attribute-count distinction found this session
+   (prefer scoring HIGH-weight attributes — check
+   `dispersion.generated.ts` — when genuine evidence supports more than
+   one candidate attribute), hold/reject honestly rather than forcing.
+5. Once qa_passed: re-run `generateRoster3.ts`'s pattern for a new
+   `roster4.ts` (or extend the generator to append to `roster3.ts` —
+   a small design choice for that session to make), regenerate
+   `peopleIndex.generated.ts`, re-run `simulate.ts 10000 quiz` +
+   `calibrate.ts quiz` (twice) and compare against §11's 51-person
+   baseline (max #1 14.8%, top-1 median 79, Greatness median 60), run
+   the full test suite + Playwright + a production build.
+6. Watch specifically for continued Greatness-p10/Match-top1-p10 drift
+   (§12) — if it keeps growing across a second batch, that's the
+   concrete trigger to consider a `calibration_v4` refit, not before.
+7. Update this checkpoint file with the new counts/findings before
    ending the session, whether or not the "100" milestone was fully
    reached — an honest partial update is correct; do not leave this
    file stale.
 
-## 9. Known blockers / open questions for a future session
+## 14. Known blockers / open questions for a future session
 
 - No paid data/AI spend has been used or is planned, per the brief's
   own instruction — if this materially limits candidate quality at
   some point, that should be reported honestly (per Part 19), not
   worked around.
-- Portrait sourcing (Part 17) has a real, small start (6/34 researched,
-  5 applied) — not a blocker, 28 remain, see §7B for the exact list and
-  the now-proven, reusable process.
-- Real candidate sourcing/scoring (the actual roster-growth work) has
-  not started at all — this is the largest remaining item and the
-  correct focus for the next session, now that every piece of
-  infrastructure it depends on (staging format, validator, quality
-  gates, region/tag controlled vocabularies, bundle-scaling headroom)
-  is built and verified.
+- Portrait sourcing (Part 17) still has only session 2's small start
+  (6/34 of the ORIGINAL roster researched, 5 applied) — none of the 16
+  new roster3.ts people have been attempted yet. Not a blocker, real
+  parallelizable work for a future session, see §7B/§13.
+- Real candidate sourcing/scoring — **no longer "not started."** §10
+  above is the full record of the first real batch (16 accepted, 4
+  honestly held). The workstream's original single blocking reason for
+  "NOT READY TO CONTINUE TO 100" no longer applies as stated; whether
+  it's now genuinely ready depends on a fresh, honest re-assessment at
+  the top of the next session (see the final report this session
+  produced for that verdict), not an automatic "yes."
+- Greatness/Match top-1 p10 percentile drift (+3 points each this
+  session, see §12) is the one metric worth actively watching at the
+  next gate — not urgent, but the largest measured shift of any
+  statistic this session touched.

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jesse-owens",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Jesse Owens",
+    "wikidataId": "Q52651",
+    "birthYear": 1913,
+    "deathYear": 1980,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "historical", "social"],
+    "tagIds": ["overcame_adversity", "sustained_excellence"],
+    "archetypeIds": ["competitive_performer"]
+  },
+  "sources": [
+    { "id": "src_owens_wikipedia", "kind": "wikipedia", "title": "Jesse Owens", "url": "https://en.wikipedia.org/wiki/Jesse_Owens" },
+    { "id": "src_owens_olympedia", "kind": "institution", "title": "Ohio State University — Jesse Owens biography" }
+  ],
+  "rows": {
+    "discipline": { "score": 76, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained a rigorous multi-event training regimen under coach Larry Snyder at Ohio State while also working part-time jobs to support himself, since he was not offered the same athletic scholarship support as white contemporaries — a real, documented pattern of sustained effort." },
+    "mastery_orientation": { "score": 80, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Set or tied six world records in under an hour at the 1935 Big Ten Championships (a specific, officially documented competitive result, not an anecdote), and his long-jump record stood for 25 years — real, sustained excellence across events." },
+    "persistence": { "score": 74, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued training and competing at the elite level through documented segregation-era hardships (including being required to use separate travel and lodging from white teammates at some meets) without disengaging from competition." },
+    "achievement_drive": { "score": 70, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Trained and competed simultaneously across multiple distinct events (100m, 200m, long jump, relay) at a world-class level, evidencing sustained multi-event goal pursuit rather than success in a single narrow specialty." },
+    "cross_domain_range": { "score": 45, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Competed across several track and field events, but these remain within one broad sport rather than genuinely unrelated domains — scored moderately rather than assumed high, since 'cross-domain' here is really 'multi-event within athletics.'" },
+    "competitiveness": { "score": 78, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "The 1935 Big Ten Championships performance (six records/ties in roughly 45 minutes) is a specific, officially documented competitive result reflecting real, sustained competitive drive under pressure." },
+    "proactive_agency": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Took on an extended post-competition career as a public speaker and goodwill ambassador, a real but only moderately corroborated pattern of self-directed activity beyond his athletic career." },
+    "resourcefulness": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Worked multiple part-time jobs while training at an elite level due to being denied the athletic-scholarship support given to white contemporaries — a real but thinly-documented specific behavioral pattern beyond the general fact of the hardship itself." },
+    "social_assertiveness": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Became a public lecture-circuit speaker for decades after retiring from competition — real public engagement, though the surviving record documents the fact of the career more than specific behavioral instances within it." },
+    "adaptability": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Transitioned from world-class competitive athlete to public speaker and later business ventures — a real career transition, but with only moderate independent corroboration of the transition's specifics." }
+  },
+  "holdReason": "Scored only 10 attributes at moderate-or-lower confidence, well short of the 18-attribute eligibility floor. This is a genuine evidence-availability finding, not a forced conclusion: Owens's athletic RESULTS are extremely well documented (world records, Olympic medals, officially timed/measured performances), but per this rubric's own 'success != high score' rule, competitive outcomes alone cannot be used to infer personality trait scores — they must be read for the documented BEHAVIOR they evidence. Unlike the writers/scientists in this batch, who left extensive first-person letters, autobiographies, and correspondence documenting their working methods and private reasoning, the surviving record readily available for Owens documents competitive achievement far more richly than personal behavioral detail. A widely-repeated claim that Hitler personally snubbed him at the 1936 Berlin Olympics was deliberately NOT used as evidence anywhere in this file, since Olympic officials had already asked Hitler to stop personally congratulating medalists before Owens's events — using it would have been exactly the 'eccentric anecdote -> extreme score' anti-pattern this rubric warns against, compounded by using a factually disputed anecdote. Held, not rejected, since a future pass with deeper research into his own later-life writings and interviews (I Have Changed, Blackthink) may responsibly surface enough additional documented personal-behavioral evidence to clear the floor.",
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick deliberately testing a DIFFERENT thin-evidence case than Sun Tzu: a well-documented MODERN figure whose competitive results are extensively recorded but whose personal behavioral/personality documentation is comparatively thin absent deeper research into his own later writings — exactly the 'evidence availability' diversity dimension the brief asked this batch to exercise. 20th_century, north_america, athletics domain not represented anywhere in the current roster besides Serena Williams/Simone Biles/Bruce Lee, none of whom are historical (mid-20th-century) athletes."
+  }
+}

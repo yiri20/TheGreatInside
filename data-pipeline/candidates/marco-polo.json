@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marco-polo",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Marco Polo",
+    "wikidataId": "Q6101",
+    "birthYear": 1254,
+    "deathYear": 1324,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": ["IT"],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": ["explorer"],
+    "fieldIds": ["exploration", "business"],
+    "impactDomains": ["historical"],
+    "tagIds": ["explorer"],
+    "archetypeIds": []
+  },
+  "sources": [
+    { "id": "src_marcopolo_wikipedia", "kind": "wikipedia", "title": "Marco Polo", "url": "https://en.wikipedia.org/wiki/Marco_Polo" },
+    { "id": "src_marcopolo_travels", "kind": "archive", "title": "The Travels of Marco Polo (dictated to Rustichello da Pisa, c. 1298)" }
+  ],
+  "rows": {
+    "risk_tolerance": { "score": 68, "confidence": 0.48, "evidenceType": "inference", "impact": "advantage", "rationale": "The core fact of an extended overland journey along the Silk Road from Venice, and his documented later imprisonment in Genoa (where the Travels was dictated), are reasonably well corroborated independent of the text's more elaborate claims — but the specific behavioral details of the journey itself rest on the text, whose reliability is contested." },
+    "persistence": { "score": 62, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "A roughly 24-year absence from Venice is a genuinely corroborated timespan, though the specific activities filling it depend substantially on the Travels' own account." },
+    "curiosity": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Undertaking and sustaining such a long journey is suggestive of real curiosity, but this is inferred from the fact of the journey rather than from any specific, independently corroborated behavioral instance." }
+  },
+  "holdReason": "Scored only 3 attributes, far short of the 18-attribute floor. This reflects a genuine, well-established scholarly problem, not a research shortcut: mainstream historical scholarship treats the reliability of The Travels of Marco Polo as a real, substantial open question — the extent to which it reflects Polo's own first-hand, verified experience versus embellishment, secondhand compilation, or literary elaboration by his co-author Rustichello da Pisa is genuinely disputed (a minority of historians have even questioned whether he personally reached China, though most accept the core journey). Because nearly every specific, personality-relevant behavioral claim about Polo as an individual (as opposed to the bare, more reliably corroborated facts of his journey's timespan and his later imprisonment) comes from this one contested text, scoring most traits from it would mean treating a source with substantial disputed reliability as documented or strong_inference evidence, which this rubric does not permit. Several otherwise-plausible traits (e.g. opportunity_sensing, given his merchant background) were deliberately NOT scored to avoid the rubric's own named 'occupational stereotype' anti-pattern — inferring a trait from occupation alone rather than specific documented behavior. Held, not rejected, since the underlying person is real and reasonably well-attested to have existed and traveled; a future pass drawing on modern historical-critical scholarship specifically assessing which parts of the Travels are best-corroborated (rather than the text itself) might responsibly clear more attributes.",
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick deliberately testing a THIRD distinct evidence-failure mode, different from Sun Tzu (contested individual historicity/authorship) and Jesse Owens (thin personal documentation despite fame): a real, existing historical person whose PRIMARY source itself has substantial, mainstream-scholarship-acknowledged reliability problems. medieval era, southern_europe, exploration/trade domain."
+  }
+}

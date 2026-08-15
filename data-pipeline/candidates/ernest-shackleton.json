@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ernest-shackleton",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Ernest Shackleton",
+    "wikidataId": "Q957543",
+    "birthYear": 1874,
+    "deathYear": 1922,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IE",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "explorer",
+      "leader",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_shackleton_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ernest Shackleton",
+      "url": "https://en.wikipedia.org/wiki/Ernest_Shackleton"
+    },
+    {
+      "id": "src_shackleton_lansing",
+      "kind": "biography",
+      "title": "Alfred Lansing, Endurance: Shackleton's Incredible Voyage (1959)"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 94,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led the 1914-1917 Imperial Trans-Antarctic Expedition, keeping all 28 crew members alive for nearly two years after their ship Endurance was crushed by pack ice — one of the most extensively documented leadership case studies in exploration history, corroborated by multiple crew members' own diaries."
+    },
+    "persistence": {
+      "score": 92,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the crew through ice-camp survival, then an 800-mile open-boat journey to South Georgia, then an unprecedented overland crossing of South Georgia's mountains — a documented, multi-stage ordeal lasting nearly two years without giving up on any stage."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Undertook Antarctic exploration in an era when prior expeditions (including Scott's, in the same period) had resulted in death; personally led the extremely hazardous 800-mile open-boat journey rather than remaining with the main party — though this is tempered by his separately documented 1909 decision to turn back 97 miles from the South Pole specifically to preserve his team's survival, suggesting calculated rather than reckless risk-taking."
+    },
+    "decisiveness": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1909 decision to turn back within 97 miles of the South Pole, and the later decision to abandon the crushed Endurance and establish an ice camp rather than delay, are both specific, well-documented, high-stakes decisions made under direct time pressure."
+    },
+    "adaptability": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The original expedition goal (crossing Antarctica overland) became entirely impossible once Endurance was lost; the entire survival plan that followed was improvised in response to changing conditions across nearly two years, documented in detail by Lansing from surviving crew diaries."
+    },
+    "collaboration": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained crew cohesion and morale through nearly two years of extreme hardship with zero fatalities — a documented outcome directly attributed by multiple surviving crew members' own accounts to his deliberate efforts at maintaining group cohesion."
+    },
+    "proactive_agency": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally undertook the 800-mile open-boat journey to South Georgia with five companions rather than waiting passively for rescue — a specific, self-initiated, extraordinarily dangerous action, well documented."
+    },
+    "planning_orientation": {
+      "score": 52,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The original Trans-Antarctic Expedition plan failed entirely once the ship was lost — his documented strength was adaptive improvisation under crisis rather than the advance planning itself, scored moderately rather than assumed high from his overall leadership reputation."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented to have maintained strict daily routines (mealtimes, watch schedules, tasks) for the crew during the ice-camp period specifically to preserve structure and morale during an indefinite wait."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained crew loyalty and continued cooperation through extreme, prolonged hardship, corroborated after the fact by multiple crew members' own accounts praising his leadership specifically — real persuasive influence under duress, not merely formal authority."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented (Lansing) to have deliberately kept a crew member who was reportedly more critical of him in closer proximity during the ordeal, specifically to monitor and manage potential dissent rather than avoid the tension."
+    },
+    "resourcefulness": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The crew repaired lifeboats, improvised navigation across open ocean using minimal instruments to hit the small target of South Georgia, and adapted salvaged materials for survival throughout — extensively documented, sustained improvisation, not a single instance."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Correctly assessed Elephant Island and then South Georgia as the most viable rescue targets from among the limited real options available during the crisis."
+    },
+    "competitiveness": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued the Trans-Antarctic crossing specifically because the South Pole itself had already been reached by Amundsen and Scott — a real but moderately-evidenced next-achievement orientation."
+    },
+    "independent_thinking": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Chose survival strategies during the ordeal (e.g. marching toward open water rather than waiting in place) that departed from some conventional polar-expedition wisdom of the era."
+    },
+    "execution_speed": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved quickly to abandon ship and establish an ice camp once it became clear Endurance could not be saved, rather than delaying the decision."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Ship's log and crew accounts document careful rationing and tracking of dwindling supplies throughout the ordeal."
+    },
+    "cross_domain_range": {
+      "score": 28,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented achievement is concentrated entirely within polar exploration and expedition leadership — a genuinely low, honestly-scored range, not a scholar or scientist across multiple domains."
+    },
+    "social_assertiveness": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Lansing documents his deliberate practice of personally engaging each crew member individually to maintain morale and cohesion throughout the ordeal, rather than leading only at a distance — a specific, sustained pattern corroborated across multiple crew members' own diaries."
+    },
+    "creative_originality": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The improvised survival solutions across the ordeal (converting lifeboats for an open-ocean crossing, navigating without standard instruments) required genuinely original problem-solving under crisis, beyond routine resourcefulness in applying known methods."
+    },
+    "perfectionism": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The documented emphasis on improvisation and adaptive problem-solving under crisis, rather than insistence on an ideal solution, suggests a moderate-to-low rather than high perfectionism — scored honestly rather than assumed high from his overall competence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: 19th/20th-century-boundary, western_europe, exploration/crisis-leadership domain not represented anywhere in the current roster. Deliberately not padded — the low planning_orientation (52) and cross_domain_range (28) scores are real, evidence-based departures avoiding the halo-effect trap of assuming a legendary leader must also excel at everything."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "어니스트 섀클턴"
+    }
+  }
+}

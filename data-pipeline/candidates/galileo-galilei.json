@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "galileo-galilei",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Galileo Galilei",
+    "wikidataId": "Q307",
+    "birthYear": 1564,
+    "deathYear": 1642,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "self_taught",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_galileo_wikipedia",
+      "kind": "wikipedia",
+      "title": "Galileo Galilei",
+      "url": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+    },
+    {
+      "id": "src_galileo_drake",
+      "kind": "biography",
+      "title": "Stillman Drake, Galileo at Work: His Scientific Biography (1978)"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "On hearing secondhand reports of a Dutch spyglass, built and improved his own within months and immediately turned it skyward rather than only toward the terrestrial/military uses it was marketed for — documented, specific instance."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Inclined-plane and pendulum experiments produced quantitative, repeatable measurements of motion (Drake), a documented quantitative methodology distinct from qualitative Aristotelian physics."
+    },
+    "intuitive_synthesis": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Connected independent telescopic observations (Jupiter's moons, Venus's phases) into a single coherent argument for heliocentrism in Sidereus Nuncius and the Dialogue — documented synthesis across separate observational threads."
+    },
+    "independent_thinking": {
+      "score": 90,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued publicly advocating heliocentrism after the Church's explicit 1616 injunction against teaching it, leading directly to his 1633 trial — an extraordinarily well-documented, sustained instance of holding a position against direct authority."
+    },
+    "belief_updating": {
+      "score": 38,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented resistance to Kepler's elliptical-orbit model even after Kepler published supporting evidence, continuing to favor circular orbits — a specific, corroborated instance of not revising a view under new evidence."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Applying a novel instrument (the improved telescope) systematically to astronomical observation, rather than only the marketed military/nautical use, was a genuinely original methodological move, though it built on an existing invention rather than inventing from nothing."
+    },
+    "experimentation": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Inclined-plane experiments measuring falling-body acceleration are specific, documented, and repeated across Drake's reconstruction of his notebooks."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Worked across astronomy, kinematics, and applied instrument-making (the military/geometric compass he sold), a real but more modest range than some peers — moderate band, not extreme."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained, systematic nightly observation logs underlying Sidereus Nuncius (1610), published within months of first observing — evidences a disciplined observational routine."
+    },
+    "deep_focus": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Same sustained observational campaign; documented but a single (if extended) instance rather than a lifelong pattern verified across multiple independent episodes."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Published the Dialogue Concerning the Two Chief World Systems (1632) after an explicit prior warning, with the direct, documented consequence of trial and house arrest — among the best-documented risk-taking instances in the history of science."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued advocating and publishing heliocentric arguments across decades despite escalating institutional pressure, up to the point of formal trial."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained public disputes with Church authorities and rival astronomers (the Grassi comet dispute, the sunspot-priority dispute with Christoph Scheiner) — documented pattern of engaging rather than avoiding conflict."
+    },
+    "social_assertiveness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Wrote the Dialogue in vernacular Italian rather than scholarly Latin specifically to reach a wider public, and structured it as a pointed rhetorical dialogue including a character widely read as mocking a prior Church-aligned position — a documented, deliberately provocative communication choice."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Dialogue's accessible, dialogue-format structure was a deliberate rhetorical strategy to persuade a lay audience, documented via his own prefatory remarks and its wide contemporary readership."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining observational technique and instrument quality well beyond what any single publication required, documented across his working notebooks."
+    },
+    "competitiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The public priority dispute with Scheiner over sunspot observations, and his rush to publish Sidereus Nuncius before others could claim the same telescopic discoveries, show real priority-consciousness — a moderate, not extreme, documented pattern."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented letters show him actively petitioning the Medici court for a position specifically to escape university teaching obligations and gain more independent research time."
+    },
+    "resourcefulness": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Reconstructed and substantially improved the telescope from only secondhand description of the Dutch design, without access to an actual example — a specific, well-documented instance of resourceful technical improvisation."
+    },
+    "opportunity_sensing": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Recognized the telescope's scientific (not just military/nautical) potential immediately on hearing of it secondhand, and acted within months — a clear, documented, fast recognition-and-action instance."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the Medici court petition and the rapid telescope-improvement effort without being asked by any patron or institution — documented via his own correspondence."
+    },
+    "execution_speed": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built an improved telescope within months of hearing about the concept and published Sidereus Nuncius within about a year of first observations — a documented, fast turnaround."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: early_modern, southern_europe (underrepresented region in the current roster), astronomy/physics domain, extremely rich documented evidence including a genuine institutional-conflict/risk narrative distinct from Newton's."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "갈릴레오 갈릴레이"
+    }
+  }
+}

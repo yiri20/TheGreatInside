@@ -499,6 +499,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.anatomist": "해부학자",
   "occupation.animator": "애니메이터",
   "occupation.artist": "예술가",
+  "occupation.astronomer": "천문학자",
   "occupation.athlete": "운동선수",
   "occupation.chemist": "화학자",
   "occupation.composer": "작곡가",
@@ -512,6 +513,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.entrepreneur": "사업가",
   "occupation.environmentalist": "환경운동가",
   "occupation.executive": "경영인",
+  "occupation.explorer": "탐험가",
   "occupation.fashion_designer": "패션 디자이너",
   "occupation.film_director": "영화감독",
   "occupation.historian": "역사학자",
@@ -523,9 +525,11 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.mathematician": "수학자",
   "occupation.media_executive": "미디어 경영인",
   "occupation.military_leader": "군사 지도자",
+  "occupation.naturalist": "박물학자",
   "occupation.naval_commander": "해군 지휘관",
   "occupation.painter": "화가",
   "occupation.philosopher": "철학자",
+  "occupation.physician": "의사",
   "occupation.physicist": "물리학자",
   "occupation.poet": "시인",
   "occupation.political_activist": "정치 활동가",
@@ -533,6 +537,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.primatologist": "영장류학자",
   "occupation.product_designer": "제품 디자이너",
   "occupation.scientist": "과학자",
+  "occupation.singer": "가수",
   "occupation.statesman": "정치가",
   "occupation.strategist": "전략가",
   "occupation.teacher": "교사",
@@ -641,6 +646,10 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "polity.joseon_dynasty": "조선",
   "polity.ming_dynasty": "명나라",
   "polity.mamluk_sultanate": "맘루크 술탄국 (카이로)",
+  "polity.samanid_empire": "사만 왕조 (부하라)",
+  "polity.holy_roman_empire": "신성 로마 제국",
+  "polity.british_raj": "영국령 인도 제국",
+  "polity.roman_empire": "로마 제국",
 
   "dontcopy.davinci.unfinished_work":
     "레오나르도는 많은 작품과 프로젝트를 미완성으로 남겼다고 전기적 기록들은 전합니다. 흥미로운 문제가 풀리면 곧장 다음으로 넘어가곤 했던 그 성향은, 그의 폭넓은 관심사를 키운 힘이자 동시에 많은 작품을 미완성으로 남긴 이유이기도 합니다.",
@@ -1509,6 +1518,24 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   // native speaker's confirmation against current Korean art-press usage
   // specifically, more than the other Japanese names above.
   "person.name.yayoi-kusama": "쿠사마 야요이",
+
+  // ROSTER-1000 first real expansion batch (roster3.ts, 16 people).
+  "person.name.albert-einstein": "알베르트 아인슈타인",
+  "person.name.charles-darwin": "찰스 다윈",
+  "person.name.ernest-shackleton": "어니스트 섀클턴",
+  "person.name.frederick-douglass": "프레더릭 더글러스",
+  "person.name.galileo-galilei": "갈릴레오 갈릴레이",
+  "person.name.hildegard-of-bingen": "빙엔의 힐데가르트",
+  "person.name.ibn-sina": "이븐 시나",
+  "person.name.isaac-newton": "아이작 뉴턴",
+  "person.name.jane-austen": "제인 오스틴",
+  "person.name.martin-luther-king-jr": "마틴 루서 킹 주니어",
+  "person.name.rabindranath-tagore": "라빈드라나트 타고르",
+  "person.name.thomas-aquinas": "토마스 아퀴나스",
+  "person.name.thomas-edison": "토머스 에디슨",
+  "person.name.umm-kulthum": "움 쿨숨",
+  "person.name.vincent-van-gogh": "빈센트 반 고흐",
+  "person.name.wilbur-wright": "윌버 라이트",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wilbur-wright",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Wilbur Wright",
+    "wikidataId": "Q1396131",
+    "birthYear": 1867,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "systematic_thinker",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_wright_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wilbur Wright",
+      "url": "https://en.wikipedia.org/wiki/Wilbur_Wright"
+    },
+    {
+      "id": "src_wright_mccullough",
+      "kind": "biography",
+      "title": "David McCullough, The Wright Brothers (2015)"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Identified specific, quantified errors in Otto Lilienthal's previously-published aerodynamic lift tables through their own systematic testing, and corrected them — documented via the brothers' own technical notes and correspondence."
+    },
+    "experimentation": {
+      "score": 92,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Conducted extensive, iterative glider testing across multiple seasons at Kitty Hawk (1900-1902) before the first powered flight, systematically varying wing shape and control surfaces — documented in detail across dated flight logs."
+    },
+    "persistence": {
+      "score": 86,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained years of repeated glider failures and redesigns from 1900 through the successful 1903 powered flight, well documented via McCullough's account of the full multi-season testing program."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rejected existing published aerodynamic data once their own testing contradicted it, rather than assuming their own results were wrong — a documented, specific instance of trusting first-hand evidence over established authority."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained a systematic, staged testing program (wind-tunnel data collection, then unpowered gliders, then powered flight) across several years, documented via their own technical notebooks."
+    },
+    "collaboration": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Worked in an unusually close, sustained partnership with his brother Orville throughout the entire development process, extensively documented via their joint correspondence and shared credit — a distinctive, well-corroborated collaborative case."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally piloted early, unproven glider and powered-aircraft prototypes themselves rather than delegating the physical risk to others."
+    },
+    "planning_orientation": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The staged program — building their own wind tunnel to generate reliable data before ever attempting a full glider, then gliders before power — evidences deliberate sequencing rather than ad hoc experimentation."
+    },
+    "cross_domain_range": {
+      "score": 52,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Applied mechanical skills from their existing bicycle-manufacturing business to aeronautics — a real but modest cross-domain transfer rather than broad achievement across unrelated fields."
+    },
+    "resourcefulness": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built their own wind tunnel specifically to generate more reliable aerodynamic data once they found the published data to be wrong — a specific, well-documented instance of building a needed tool rather than working around the gap."
+    },
+    "competitiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Pursued powered flight in active competition with other inventors of the era (notably Samuel Langley), and subsequently pursued years of aggressive patent litigation against rivals including Glenn Curtiss — a documented, real pattern that protected their invention but is also credited by some historians with slowing broader U.S. aviation development, hence dual_edged rather than a pure advantage."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Precise, quantified data collection methodology (documented via their own wind-tunnel test records) evidences careful attention to measurement accuracy."
+    },
+    "deep_focus": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained multi-year, single-problem engineering focus on flight control specifically, documented across the full testing program's timeline."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated building their own wind tunnel rather than accepting the limitations of existing published data — a specific, documented, self-directed action."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining aircraft control systems for several years after the initial 1903 success, evidencing pursuit of a fully solved problem rather than stopping at 'good enough.'"
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Sustained multi-year patent litigation against rival aviation developers rather than settling quickly — the same documented pattern as the competitiveness finding above, viewed from the willingness-to-sustain-conflict angle."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The three-axis control system (pitch, roll, and yaw, via wing-warping and a movable rudder) was a genuinely original engineering solution to the flight-control problem that other contemporary inventors had not solved — documented via the patent record and aviation-history assessment."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Treated flight control as one unified three-axis problem rather than solving lift, propulsion, and steering as separate, unrelated problems — a structural framing evident in their own technical approach."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After years of public skepticism toward their unverified flight claims, organized specific public demonstration flights in 1908 that directly and successfully convinced the press and government observers — a documented, deliberate persuasive action, not passive achievement."
+    },
+    "social_assertiveness": {
+      "score": 30,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented (McCullough) to have deliberately avoided publicity and press engagement for years after their first flights, prioritizing secrecy to protect their unpatented invention over public recognition — a real, evidence-based low score."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented (McCullough) to have taken primary responsibility for the partnership's patent correspondence and international licensing negotiations, evidencing a real, if shared-with-Orville, leadership role within the enterprise."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: 19th/20th-century-boundary, north_america, aviation/mechanical-engineering domain not represented in the current roster (Tesla is electrical, Buffett/Jobs are business). The competitiveness/conflict_tolerance scores are deliberately framed dual_edged/risk rather than pure advantage, reflecting the real, less-flattering patent-litigation part of the documented record rather than a hagiographic reading."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "윌버 라이트"
+    }
+  }
+}

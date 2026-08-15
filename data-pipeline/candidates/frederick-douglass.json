@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "frederick-douglass",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Frederick Douglass",
+    "wikidataId": "Q215562",
+    "birthYear": 1818,
+    "deathYear": 1895,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "political_activist",
+      "statesman"
+    ],
+    "fieldIds": [
+      "civil_rights",
+      "politics",
+      "literature"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "literary"
+    ],
+    "tagIds": [
+      "self_taught",
+      "overcame_adversity",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_douglass_wikipedia",
+      "kind": "wikipedia",
+      "title": "Frederick Douglass",
+      "url": "https://en.wikipedia.org/wiki/Frederick_Douglass"
+    },
+    {
+      "id": "src_douglass_narrative",
+      "kind": "archive",
+      "title": "Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave (1845)"
+    },
+    {
+      "id": "src_douglass_blight",
+      "kind": "biography",
+      "title": "David Blight, Frederick Douglass: Prophet of Freedom (2018)"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 88,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented in his own narrative: taught himself to read as an enslaved child by trading bread for reading lessons from poor white children and by studying discarded newspapers, in direct defiance of laws prohibiting it."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly broke with William Lloyd Garrison's abolitionist faction over whether the U.S. Constitution should be read as pro- or anti-slavery, a documented and consequential split within the movement he had long been part of."
+    },
+    "persuasiveness": {
+      "score": 92,
+      "confidence": 0.82,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became one of the most sought-after orators of his era on both sides of the Atlantic, and his 1845 Narrative was an immediate bestseller — documented, sustained public rhetorical effect, not a single speech."
+    },
+    "risk_tolerance": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Escaped slavery in 1838 using a borrowed sailor's protection papers, a documented action carrying severe, well-known legal and physical consequences if recaptured."
+    },
+    "persistence": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued public speaking and writing across decades despite documented instances of mob violence at his lectures, including a specific 1843 incident in Pendleton, Indiana, where he was beaten by a mob."
+    },
+    "resourcefulness": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Engineered his own escape using a borrowed sailor's identification papers and disguise, a specific, well-corroborated historical method — capped below the extreme band as a single (if major) documented instance."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented account of practicing writing by copying letters from timber markings at a shipyard and from a young boy's used copybooks, sustained over an extended period while enslaved."
+    },
+    "social_assertiveness": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Met directly with President Lincoln on two documented occasions to advocate for equal pay and treatment of Black Union soldiers — a specific, corroborated instance of direct engagement with the highest levels of power."
+    },
+    "leadership_drive": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and edited the abolitionist newspaper The North Star and later held federal appointments (Recorder of Deeds for D.C., Minister Resident to Haiti) — documented, sustained institutional leadership across multiple roles."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained a public, years-long disagreement with Garrison and later with women's suffrage allies over the prioritization of Black male suffrage in the 15th Amendment debate — documented willingness to remain in prolonged public disagreement with former allies."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Worked closely with Susan B. Anthony and Elizabeth Cady Stanton on women's suffrage, attending the 1848 Seneca Falls Convention, but this same alliance later fractured over the 15th Amendment priority dispute — genuinely mixed, documented evidence in both directions, scored moderately rather than forced to one pole."
+    },
+    "adaptability": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented reinvention across markedly different roles over his lifetime — fugitive, newspaper publisher, internationally touring orator, federal officeholder, and diplomat — each requiring genuinely different skills."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Real, sustained output across journalism (The North Star), autobiography (three separate published autobiographies across his life), oratory, and formal diplomacy — documented range with real output in each."
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His escape from slavery was explicitly, by his own repeated written account, driven by the pursuit of self-determination — directly documented in his own words across all three autobiographies."
+    },
+    "proactive_agency": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Actively recruited Black soldiers for the Union Army (including his own sons) and initiated direct meetings with Lincoln to advocate for their equal treatment, rather than waiting to be consulted — documented, self-initiated action."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recognized the Civil War as a strategic opening to advance emancipation and actively lobbied Lincoln's administration accordingly, rather than treating the war as separate from the abolitionist cause."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining his oratorical and written craft across decades and three successive autobiographies, each substantially rewritten rather than simply reissued, evidencing ongoing self-improvement beyond what any single publication required."
+    },
+    "belief_updating": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Originally held Garrison's view that the Constitution was inherently pro-slavery, then documented publicly revised this position (influenced by Lysander Spooner's legal arguments) to conclude it could be read as an anti-slavery document and used as a political tool — a specific, well-documented instance of a substantial, reasoned position change."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His narrative writing style and rhetorical approach were influential on the slave-narrative genre, though this is a more modest, secondary claim relative to his primary documented strengths in oratory and advocacy."
+    },
+    "planning_orientation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His 1838 escape was documented to involve deliberate preparation — securing borrowed sailor's protection papers in advance and timing the journey around a specific train and boat schedule — rather than an impulsive flight."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own narrative documents a pivotal, specific physical confrontation with the slave-breaker Edward Covey, which he described as a deliberate decision to resist and prevail rather than submit — a well-corroborated, central episode across his own three autobiographies, not a single unverified anecdote."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: 19th_century, north_america, civil-rights/oratory domain not otherwise represented in the current roster's activism cluster (Mandela/Gandhi/Maathai/Malala are all later, non-US). Passes the inclusion_v1 counterfactual test cleanly — his recognized achievement (self-education, escape, oratory, writing, diplomacy) is entirely his own, with no inherited position of any kind."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프레더릭 더글러스"
+    }
+  }
+}

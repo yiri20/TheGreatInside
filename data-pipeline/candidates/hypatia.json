@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hypatia",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Hypatia",
+    "aliases": ["Hypatia of Alexandria"],
+    "wikidataId": "Q11903",
+    "birthYear": 350,
+    "deathYear": 415,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "north_africa",
+    "historicalPolityKey": "polity.roman_empire"
+  },
+  "classification": {
+    "occupationIds": ["mathematician", "philosopher"],
+    "fieldIds": ["mathematics", "philosophy", "natural_science"],
+    "impactDomains": ["scientific", "historical", "educational"],
+    "tagIds": ["independent", "philosopher", "nonconformist"],
+    "archetypeIds": ["scholarly_specialist"]
+  },
+  "sources": [
+    { "id": "src_hypatia_wikipedia", "kind": "wikipedia", "title": "Hypatia", "url": "https://en.wikipedia.org/wiki/Hypatia" },
+    { "id": "src_hypatia_synesius", "kind": "archive", "title": "The surviving letters of Synesius of Cyrene to Hypatia" },
+    { "id": "src_hypatia_socratesscholasticus", "kind": "archive", "title": "Socrates Scholasticus, Ecclesiastical History (early 5th century, near-contemporary account)" }
+  ],
+  "rows": {
+    "analytical_rigor": { "score": 74, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Taught advanced mathematics and astronomy at Alexandria, corroborated by the surviving letters of her student Synesius of Cyrene, a genuine near-contemporary primary source rather than later legend." },
+    "curiosity": { "score": 70, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented (via Synesius's letters and Socrates Scholasticus) to have taught across mathematics, astronomy, and Neoplatonist philosophy simultaneously, evidencing real breadth of engagement." },
+    "leadership_drive": { "score": 72, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Headed the Neoplatonist school in Alexandria and trained students who went on to prominent positions, including Synesius, who later became a bishop — corroborated by his own surviving correspondence with her." },
+    "persuasiveness": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Synesius's letters describe her as a highly respected, actively sought-after teacher and advisor, a specific documented characterization from a former student rather than secondhand legend." },
+    "social_assertiveness": { "score": 65, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Socrates Scholasticus, a near-contemporary historian, documents her as a public advisor to the Roman prefect Orestes — a notable public political role for a woman in this period." },
+    "independent_thinking": { "score": 70, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued teaching and publicly practicing Neoplatonist philosophy in an increasingly Christianized Alexandria, maintaining her position rather than abandoning it under mounting religious and political pressure." },
+    "risk_tolerance": { "score": 66, "confidence": 0.48, "evidenceType": "inference", "impact": "risk", "rationale": "Continued her public teaching and advisory role despite escalating religious-political tension in Alexandria in the years before her death — scored from the documented behavior of continuing amid known tension, not from the outcome of her murder itself, which the rubric's 'success/outcome != trait score' principle applies to symmetrically." },
+    "mastery_orientation": { "score": 62, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "Credited (with some scholarly uncertainty around exact attribution) with commentaries on Diophantus's Arithmetica and Apollonius's Conics — real, if imperfectly corroborated, sustained mathematical scholarship." },
+    "collaboration": { "score": 60, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The sustained correspondence with Synesius documents a real, ongoing mentoring relationship extending well beyond his formal period of study under her." },
+    "conflict_tolerance": { "score": 58, "confidence": 0.45, "evidenceType": "inference", "impact": "risk", "rationale": "Documented to have continued advising Orestes despite his well-attested fraught political relationship with Bishop Cyril of Alexandria — a real, if not extensively detailed, willingness to remain embedded in a known point of tension." },
+    "cross_domain_range": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented teaching across mathematics, astronomy, and philosophy simultaneously, corroborated by Synesius's letters describing instruction in more than one of these areas." },
+    "creative_originality": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Later scholarly assessment holds that her mathematical commentaries extended and clarified the original texts rather than merely restating them, though this rests on largely-lost primary work and secondhand scholarly reconstruction, hence modest confidence." },
+    "experimentation": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Synesius's surviving letters reference correspondence with her related to constructing scientific instruments (an astrolabe and a hydrometer are both mentioned) — real but thin documentary detail about the instruments' design or her specific role in it." },
+    "systems_abstraction": { "score": 60, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "Mathematical commentary work of this kind (as later scholarship characterizes it) typically involves reorganizing and clarifying an existing complex system for students, though this is inferred from the genre rather than a specific documented instance." },
+    "persistence": { "score": 60, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "Maintained her teaching and advisory role over an extended period despite the same rising political and religious tension noted under risk_tolerance." },
+    "autonomy_need": { "score": 62, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented by Socrates Scholasticus to have never married and to have maintained an independent scholarly career and household throughout her life — a specific, if brief, documented biographical detail." },
+    "discipline": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Sustaining a combined teaching, scholarly, and public-advisory role over an extended career suggests real sustained effort, though the surviving sources describe the roles more than the day-to-day working pattern behind them." },
+    "detail_orientation": { "score": 52, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Mathematical commentary work of the kind attributed to her typically requires close technical textual work, though this is inferred from the nature of the genre rather than a specific surviving example of her own detailed technique." },
+    "planning_orientation": { "score": 60, "confidence": 0.44, "evidenceType": "inference", "impact": "advantage", "rationale": "Sustaining a structured, multi-year course of philosophical and mathematical instruction for students (evidenced by the sustained correspondence with Synesius spanning his years of study and after) implies real organized pedagogical planning." },
+    "perfectionism": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "The scholarly-commentary genre attributed to her typically involves close, careful textual refinement, though this is inferred from the genre rather than from a specific surviving example of her revision process." }
+  },
+  "holdReason": "Attribute count (20) and coverage (0.60) both clear their respective floors, but average confidence (0.470) falls genuinely short of the 0.55 floor even after extending the attribute set — verified directly via validateCandidates.ts, not estimated. This is an honest finding about this specific person's evidence profile, not a forced conclusion: unlike Confucius or Ibn Khaldun in the existing roster (who clear 0.55 average confidence at a similar 18-22 attribute count), most of what can be said about Hypatia's individual behavior rests on inference from her general role and reputation (via Synesius's letters and Socrates Scholasticus) rather than specific, directly-corroborated instances — and several attributes (mathematical-commentary authorship, the exact nature of her instrument-related correspondence) carry additional, separately-documented scholarly attribution uncertainty. Deliberately NOT fixed by inflating individual confidence values without new evidence, which would be exactly the kind of rubric-gaming this pipeline exists to prevent. Held, not rejected — a future pass with deeper research into modern classical scholarship specifically assessing the Synesius correspondence's biographical reliability might responsibly raise confidence on the strongest-attested subset of these attributes.",
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: ancient era, north_africa (only Ibn Khaldun/Confucius-adjacent representation currently, no ancient North African figure), mathematics/philosophy domain, and the only female ancient-era figure in this batch. Ancient evidence discipline applied throughout: 20 of 34 attributes scored, confidence capped at 0.58, evidenceType never 'documented' for anything — even the genuinely contemporary Synesius letters are treated as strong_inference/inference rather than documented. risk_tolerance and conflict_tolerance were deliberately scored from her documented ongoing behavior (continuing her public role amid known tension), never from the outcome of her murder, applying the rubric's outcome-independence principle to a tragic outcome exactly as strictly as to a triumphant one. A genuine fourth distinct HELD case in this batch: unlike Sun Tzu (contested historicity), Marco Polo (unreliable primary source), and Jesse Owens (thin personal documentation despite fame), Hypatia clears the count/coverage floors but falls short specifically on average confidence — a distinct evidence-quality failure mode worth recording for the pipeline's own diagnostic value."
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rabindranath-tagore",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Rabindranath Tagore",
+    "wikidataId": "Q7241",
+    "birthYear": 1861,
+    "deathYear": 1941,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia",
+    "historicalPolityKey": "polity.british_raj"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer",
+      "composer",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "literature",
+      "music",
+      "education",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "literary",
+      "artistic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "nonconformist",
+      "founder"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tagore_wikipedia",
+      "kind": "wikipedia",
+      "title": "Rabindranath Tagore",
+      "url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore"
+    },
+    {
+      "id": "src_tagore_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Prize — Rabindranath Tagore, Literature 1913"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced thousands of poems and songs, novels, plays, and (later in life) paintings — the 1913 Nobel Prize in Literature for Gitanjali is a documented, independently-verified recognition of a specific body of original work."
+    },
+    "aesthetic_sensitivity": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Nobel Prize citation and sustained international critical reception of Gitanjali directly document recognition of his aesthetic craft, not merely his output volume."
+    },
+    "cross_domain_range": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Real, sustained output across poetry, prose fiction, musical composition (he composed both India's and Bangladesh's national anthems, a documented, unusual fact), and, from his sixties onward, painting — genuine achievement in each, not dabbling."
+    },
+    "independent_thinking": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly renounced his British knighthood in 1919 in protest of the Jallianwala Bagh massacre — a specific, well-documented, high-profile act of dissent against colonial authority."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "The same knighthood renunciation carried real social and political risk within the colonial establishment he was a prominent, honored member of."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded Visva-Bharati University at Santiniketan as an alternative, humanistic educational institution — a documented, sustained institution-building effort beyond his literary work."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the founding of Visva-Bharati rather than working within an existing institution, documented via the university's own founding history."
+    },
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Took up painting seriously as a new art form only in his sixties, well after his literary reputation was fully established, purely from continued creative interest rather than any external need."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The same late-life adoption of painting as an entirely new medium evidences willingness to experiment outside his already-successful domain."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an extraordinarily prolific output across nearly six decades of active writing and composition, evidencing consistent long-term productivity."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Conducted extensive international lecture tours as a public intellectual, documented via records of his travels across Europe, the Americas, and East Asia."
+    },
+    "social_assertiveness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The public knighthood renunciation, combined with sustained international public lecturing, evidences real willingness toward public assertion of his views."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "The knighthood renunciation was itself a direct, public confrontation with British colonial authority, documented as a deliberate and consequential choice rather than a private grievance."
+    },
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained engagement across an unusually wide range of creative and intellectual forms throughout his life evidences genuine exploratory drive beyond what mastery of any single form would require."
+    },
+    "adaptability": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully took up an entirely new creative medium (painting) late in life after decades of established success in literature — a genuine, documented instance of adapting to a new domain rather than remaining within an already-proven one."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded Visva-Bharati specifically as an alternative, humanistic model of education distinct from colonial-era schooling, documented via his own stated educational philosophy — motivation toward broader structural impact, not only personal literary achievement."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained output at this volume across nearly six decades implies real sustained engagement, though the specific surviving record documents output more than working method in detail."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Visva-Bharati's deliberately designed curriculum and campus, built around a specific alternative educational philosophy, evidences real advance planning, though scored moderately given limited detail on his personal day-to-day working habits."
+    },
+    "perfectionism": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented to have personally, substantially revised his own Bengali poems when self-translating Gitanjali into English rather than producing a literal translation — a specific, corroborated instance of sustained revision toward his own standard."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Visva-Bharati was built as a collaborative artistic and educational community bringing together musicians, artists, and scholars, though the surviving record documents the institution more than his specific personal collaborative behavior within it."
+    },
+    "execution_speed": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "A documented output of over 2,000 songs and dozens of books and plays across his lifetime evidences a genuinely fast working pace when engaged, beyond what occasional composition would produce."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: 19th/20th-century-boundary, south_asia (already has Ramanujan/Malala but no literary/philosophical figure), polymath profile distinct from every other candidate in this batch — genuinely wide, well-documented cross-domain range (literature, music, painting, education) rather than a single-domain specialist."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라빈드라나트 타고르"
+    }
+  }
+}

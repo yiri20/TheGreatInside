@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charles-darwin",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Charles Darwin",
+    "wikidataId": "Q1035",
+    "birthYear": 1809,
+    "deathYear": 1882,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "patient",
+      "systematic_thinker",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_darwin_wikipedia",
+      "kind": "wikipedia",
+      "title": "Charles Darwin",
+      "url": "https://en.wikipedia.org/wiki/Charles_Darwin"
+    },
+    {
+      "id": "src_darwin_correspondence",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project"
+    },
+    {
+      "id": "src_darwin_browne",
+      "kind": "biography",
+      "title": "Janet Browne, Charles Darwin: A Biography (1995-2002)"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 92,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Five-year HMS Beagle voyage collecting specimens across multiple continents, followed by decades of independent follow-up investigation (barnacles, orchids, earthworms) with no external requirement to continue — documented, sustained, multi-decade."
+    },
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "On the Origin of Species builds its case through systematic, chapter-by-chapter accumulation of independent lines of evidence (breeding, geographic distribution, the fossil record) rather than a single argument."
+    },
+    "intuitive_synthesis": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Synthesized Malthusian population theory with his own variation observations into natural selection — a documented synthesis across previously separate bodies of evidence, though the exact moment is better understood as gradual refinement over years than a single flash, hence strong_inference."
+    },
+    "systems_abstraction": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Natural selection is a general explanatory framework applied across geology, botany, and zoology in Origin, not a domain-specific finding."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed a theory that directly contradicted the dominant religious and scientific consensus of his time, independently of needing prior validation — documented via the content and reception of Origin itself."
+    },
+    "belief_updating": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Substantively revised On the Origin of Species across six editions in direct response to specific criticisms (e.g. St. George Mivart's objections) — a documented, unusually clear positive case, in contrast to more defensive contemporaries."
+    },
+    "creative_originality": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Natural selection as a mechanism was a genuinely original theoretical contribution, independently and near-simultaneously arrived at by only one other person (Wallace) working separately — documented via the historical record of the joint 1858 presentation."
+    },
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Conducted specific, cited experiments at Down House — testing seed survival after prolonged seawater immersion to test dispersal theories, and controlled orchid-pollination studies — not merely observational natural history."
+    },
+    "cross_domain_range": {
+      "score": 86,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Serious, published work spanning geology (coral reef formation), zoology (barnacles — an 8-year monograph), botany (orchids, climbing plants), and psychology (The Expression of the Emotions) — documented range with real output in each, not dabbling."
+    },
+    "discipline": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Accumulated evidence for roughly 20 years before publishing Origin, by his own documented account, specifically to build an exhaustive rather than merely sufficient case."
+    },
+    "deep_focus": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The 8-year barnacle monograph and the decades-long earthworm study (his final book) both evidence sustained single-subject absorption well past ordinary requirements."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued the earthworm research into his final years, decades after Origin had already secured his reputation, driven by the same evidence-gathering habit rather than external necessity."
+    },
+    "risk_tolerance": {
+      "score": 32,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Documented in his own letters (describing publishing his theory as feeling 'like confessing a murder') — delayed publication for roughly 20 years substantially out of anxiety about religious and social backlash, only publishing when Wallace's independent letter forced the issue. A genuine, evidenced LOW score, not assumed from his eventual fame."
+    },
+    "planning_orientation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Origin's case-by-case accumulation of independent evidence lines, built up methodically over two decades, evidences deliberate structural planning of the argument itself."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Revised his working theory's presentation and emphasis across editions in response to specific new objections — distinct from belief_updating in that this is about adjusting approach/argument structure rather than the core scientific claim itself."
+    },
+    "ambiguity_tolerance": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Origin includes a chapter titled 'Difficulties on Theory' openly cataloguing the theory's own unresolved weaknesses (the sparse fossil record, complex organs like the eye) rather than omitting or minimizing them — a documented, unusual willingness to publish alongside acknowledged open problems."
+    },
+    "social_assertiveness": {
+      "score": 32,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Did not personally attend or participate in the famous 1860 Oxford evolution debate, letting Thomas Huxley argue publicly on his behalf — a specific, well-documented instance consistent with his broader, chronic-illness-linked avoidance of public confrontation."
+    },
+    "collaboration": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained a correspondence network of thousands of letters exchanging specimens, observations, and data with naturalists worldwide (documented and archived by the Darwin Correspondence Project) — a genuinely large-scale, sustained collaborative practice."
+    },
+    "conflict_tolerance": {
+      "score": 30,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Same Oxford-debate absence, plus broader documented pattern (Browne) of avoiding direct public confrontation over his theory, delegating that role to Huxley and others — a real, evidenced low score, not merely thin evidence defaulting to 50."
+    },
+    "mastery_orientation": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote a dedicated book on earthworms as his final major work, decades after his reputation was already secure, purely from continued interest in the subject."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked primarily from home at Down House for most of his career, a real but moderate pattern given his simultaneously extensive collaborative correspondence — scored toward the center given the genuinely mixed solitary-work/wide-network evidence."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Ran pigeon-breeding and plant-growth experiments with home-built, modest equipment at Down House rather than institutional laboratory resources — a real but singular, moderately-documented pattern."
+    },
+    "competitiveness": {
+      "score": 28,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "When Alfred Russel Wallace independently arrived at a similar theory, Darwin's colleagues arranged a joint 1858 presentation crediting both, rather than Darwin moving to claim sole priority — a documented, genuinely low-competitiveness instance, in real contrast to the Newton/Galileo priority disputes."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: 19th_century, western_europe, natural science domain. Deliberately NOT scored as a uniform-excellence profile — low risk_tolerance, low conflict_tolerance, and low competitiveness are all real, specifically documented findings that meaningfully differentiate this profile's shape from Newton's/Galileo's despite the same era bracket and similar fame level."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "찰스 다윈"
+    }
+  }
+}

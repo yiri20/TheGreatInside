@@ -37,11 +37,19 @@ const FIXTURES = {
   advantagePresent: "quiz_v2.b666b66b666b6b666666b66666b66bb66b6666b6666b6b6666b6666666666666",
 } as const;
 
-/** Same token as `advantagePresent` — named separately here because this is
- *  the specific branch (`results.unexpected === undefined`, `results.opposite`
- *  present) the spotlight-pairing follow-up needs, independent of why that
- *  token was originally chosen. */
-const UNEXPECTED_ABSENT_TOKEN = FIXTURES.advantagePresent;
+/** A dedicated token for the specific branch (`results.unexpected ===
+ *  undefined`, `results.opposite` present) the spotlight-pairing follow-up
+ *  needs. ROSTER-1000: previously reused `advantagePresent`'s token, since
+ *  that answer pattern happened to also produce no unexpected match against
+ *  the 35-person roster — but "no unexpected match" is a property of the
+ *  full roster's shape, not of the token alone, and the roster-1000 first
+ *  real expansion batch (roster3.ts, +16 people) changed that coincidence:
+ *  `advantagePresent` now DOES surface an unexpected match against the
+ *  51-person roster. Given its own independent token instead of trying to
+ *  keep hunting for one answer pattern that satisfies both fixtures'
+ *  requirements at once. */
+const UNEXPECTED_ABSENT_TOKEN =
+  "quiz_v2.b666a66b666b6a666666b66666b66ad66b6666b6666b6a6666a6666666666666";
 
 const VIEWPORTS = [
   { name: "mobile-390", width: 390, height: 1200 },

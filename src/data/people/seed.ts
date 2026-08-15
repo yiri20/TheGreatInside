@@ -21,6 +21,7 @@
 import type { Person } from "../../core/types.js";
 import { build, bio, wiki, type PersonSeed } from "./builder.js";
 import { ROSTER_2 } from "./roster2.js";
+import { ROSTER_3 } from "./roster3.js";
 
 const seeds: PersonSeed[] = [
   {
@@ -767,7 +768,7 @@ const ROSTER_1: readonly Person[] = seeds.map(build);
  * signature-trait stress testing. See CLAUDE.md "Seed dataset" for the current
  * count and simulation results.
  */
-export const SEED_PEOPLE: readonly Person[] = [...ROSTER_1, ...ROSTER_2];
+export const SEED_PEOPLE: readonly Person[] = [...ROSTER_1, ...ROSTER_2, ...ROSTER_3];
 
 export function personBySlug(slug: string): Person | undefined {
   return SEED_PEOPLE.find((p) => p.slug === slug);

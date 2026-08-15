@@ -1,0 +1,227 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hildegard-of-bingen",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Hildegard of Bingen",
+    "aliases": [
+      "Hildegard von Bingen"
+    ],
+    "wikidataId": "Q70991",
+    "birthYear": 1098,
+    "deathYear": 1179,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe",
+    "historicalPolityKey": "polity.holy_roman_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "theologian",
+      "naturalist"
+    ],
+    "fieldIds": [
+      "music",
+      "philosophy",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical",
+      "medical"
+    ],
+    "tagIds": [
+      "polymath",
+      "mystic",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hildegard_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hildegard of Bingen",
+      "url": "https://en.wikipedia.org/wiki/Hildegard_of_Bingen"
+    },
+    {
+      "id": "src_hildegard_correspondence",
+      "kind": "archive",
+      "title": "The Letters of Hildegard of Bingen (surviving correspondence with popes, emperors, and bishops)"
+    },
+    {
+      "id": "src_hildegard_worldhistory",
+      "kind": "institution",
+      "title": "World History Encyclopedia — Hildegard of Bingen"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Authored Physica and Causae et Curae, systematic surviving texts cataloguing plants, animals, stones, and their medicinal uses — the works themselves are the direct documented evidence."
+    },
+    "creative_originality": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Composed Ordo Virtutum, a surviving original liturgical musical drama unusual in form for its era, plus an independent visionary theological work (Scivias) — both survive as direct documented output, not attributed secondhand."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Physica organizes natural-historical knowledge into a structured reference format rather than a loose collection, per its surviving text's own organization."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Received a rare Church-sanctioned exception to preach publicly as a woman in the 12th century, and surviving correspondence documents her sending unsolicited moral admonishment directly to Pope Eugenius III and Emperor Frederick Barbarossa."
+    },
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Surviving letters to major political and religious figures of her era, urging specific moral correction, are directly preserved primary documents, not secondhand characterization."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same surviving correspondence shows direct, unprompted engagement with the most powerful political and religious figures of her time."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and led two monastic communities (Rupertsberg and later Eibingen), documented via monastic records of the era."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained output across music, theology, medicine, and natural history over several decades, evidencing consistent long-term productivity beyond a single burst of work."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued preaching tours into old age; her final years included a sustained, documented dispute over an ecclesiastical interdict (below), which she did not quickly abandon."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Her monastery was placed under interdict (a severe ecclesiastical penalty) over a disputed burial in its cemetery; documented accounts describe her refusing compliance and directly petitioning church authorities until the interdict was lifted shortly before her death."
+    },
+    "risk_tolerance": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Defying an active ecclesiastical interdict carried real institutional risk in the period; scored distinctly from conflict_tolerance above (willingness to sustain the dispute) as the separate question of accepting the exposure itself."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Real, surviving output across music composition, visionary theology, natural history, and medicine — an unusually wide documented range for any figure of this period."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented dispute with her own monastery's abbot over her wish to relocate her community to found the independent Rupertsberg monastery, which she ultimately achieved against his initial resistance."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Initiated correspondence with popes and emperors unprompted, rather than only responding to inquiries directed at her — documented via the surviving letters themselves."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Physica catalogs an extensive, specific range of individual plants and their particular applications rather than general remedies — a documented level of specificity in the surviving text."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her surviving musical compositions are noted by musicologists for an unusually wide vocal range and distinctive melodic style for the period, evidencing a deliberate aesthetic approach rather than formulaic liturgical composition."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked with a secretary monk, Volmar, over decades in producing her written works — a real, sustained working relationship, though the sources describe more about the output than the collaborative dynamic itself."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Negotiating and executing the relocation of her monastic community to found the independent Rupertsberg monastery required real advance logistical and financial planning, per surviving monastic records of the era."
+    },
+    "intuitive_synthesis": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Scivias directly documents her synthesizing reported visionary experience into a structured theological framework spanning cosmology, salvation history, and ethics — the surviving text itself is the evidence for the synthesis having occurred, independent of any question about the nature of the visions themselves."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented pattern of pursuing progressively larger undertakings across her life — from an initially small religious community to founding an independent monastery, to increasingly ambitious composed works and international correspondence — evidencing sustained escalation rather than settling once initial recognition was achieved."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Causae et Curae is noted by modern medieval scholarship for unusually direct, detailed descriptions of human anatomy and reproduction for a 12th-century monastic author, evidencing sustained, careful engagement with the subject well beyond a devotional gloss."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "First-batch diversity pick: medieval era, western_europe, a female polymath profile combining music/theology/natural-history in a shape distinct from every other current or first-batch medieval figure. Medieval evidence discipline applied: 18 of 34 attributes, confidence capped at 0.65, most evidenceType strong_inference/inference rather than documented given how much rests on interpretation of surviving texts rather than independently corroborated behavioral accounts."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빙엔의 힐데가르트"
+    }
+  }
+}
