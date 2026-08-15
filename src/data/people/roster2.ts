@@ -330,6 +330,23 @@ const seeds: PersonSeed[] = [
     impactDomains: ["historical", "educational", "cultural"],
     tagIds: ["philosopher", "administrator"],
     archetypeIds: ["scholarly_specialist", "organizational_leader"],
+    // ROSTER-1000 portrait pilot (2026-08): a traditional, idealized
+    // depiction (Tang Dynasty, ~750 CE, ~1,200 years after Confucius's
+    // death — photography obviously did not exist) rather than a lifetime
+    // likeness, per Part 17's explicit allowance for "non-photographic
+    // historical representations... acceptable when defensibly
+    // identified." This is the canonical traditional depiction widely used
+    // across encyclopedic sources for exactly this reason, not an
+    // arbitrary pick. Verified live against the Commons file page.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Confucius_Tang_Dynasty.jpg",
+      width: 350,
+      height: 640,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Confucius_Tang_Dynasty.jpg",
+      attribution: "Traditional portrait attributed to Wu Daozi, Tang Dynasty (c. 8th century) — an idealized historical depiction, not a lifetime likeness",
+    },
     // Ancient sourcing: scored on a smaller, better-corroborated subset rather
     // than diluted across all 30. See file header.
     sources: [wiki("confucius", "Confucius"), bio("confucius", "The Analects (compiled by disciples)")],
@@ -429,6 +446,21 @@ const seeds: PersonSeed[] = [
     impactDomains: ["wealth_creation", "industrial"],
     tagIds: ["specialist", "low_risk", "patient"],
     archetypeIds: ["scholarly_specialist"],
+    // ROSTER-1000 portrait pilot (2026-08): a US federal government work
+    // (White House official photography, 2010 Presidential Medal of
+    // Freedom ceremony) — public domain in the US under 17 U.S.C. §105,
+    // verified live against the Commons file page. Low resolution
+    // (231x228) is a real, honestly-recorded limitation of this specific
+    // source image, not a licensing concern.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/d/df/Warren_Buffett_in_2010_%28cropped%29.jpg",
+      width: 231,
+      height: 228,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Warren_Buffett_in_2010_(cropped).jpg",
+      attribution: "The White House, 2010",
+    },
     sources: [wiki("buffett", "Warren Buffett"), bio("buffett", "Alice Schroeder, The Snowball (2008)")],
     rows: {
       curiosity: [65, 0.55, "s", "N"],
@@ -592,6 +624,17 @@ const seeds: PersonSeed[] = [
     impactDomains: ["technological", "engineering", "innovation"],
     tagIds: ["independent", "poor_business_sense"],
     archetypeIds: ["technical_innovator", "independent_creator"],
+    // ROSTER-1000 portrait pilot (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg",
+      width: 940,
+      height: 1260,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg",
+      attribution: "Napoleon Sarony",
+    },
     sources: [wiki("tesla", "Nikola Tesla")],
     doNotCopyKeys: ["dontcopy.tesla.commercialisation"],
     rows: {
@@ -1117,6 +1160,17 @@ const seeds: PersonSeed[] = [
     impactDomains: ["scientific"],
     tagIds: ["self_taught", "specialist", "intuitive"],
     archetypeIds: ["scholarly_specialist", "scientific_explorer"],
+    // ROSTER-1000 portrait pilot (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Srinivasa_Ramanujan_-_OPC_-_1.jpg",
+      width: 960,
+      height: 1315,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan_-_OPC_-_1.jpg",
+      attribution: "Oberwolfach Photo Collection",
+    },
     sources: [wiki("ramanujan", "Srinivasa Ramanujan")],
     rows: {
       curiosity: [88, 0.72, "s", "A"],

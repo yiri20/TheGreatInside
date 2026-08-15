@@ -51,6 +51,7 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
   const [query, setQuery] = useState("");
   const [era, setEra] = useState<string>(ALL_VALUE);
   const [region, setRegion] = useState<string>(ALL_VALUE);
+  const [tagIds, setTagIds] = useState<readonly string[]>([]);
   const [sort, setSort] = useState<PeopleSortKey>("name_asc");
 
   // Expands the compact, tuple-encoded PEOPLE_INDEX (small on the wire) back
@@ -65,14 +66,21 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
     () => ({
       ...(era !== ALL_VALUE ? { eras: [era as Era] } : {}),
       ...(region !== ALL_VALUE ? { regionCodes: [region] } : {}),
+      ...(tagIds.length > 0 ? { tagIds } : {}),
     }),
-    [era, region],
+    [era, region, tagIds],
   );
 
   const results = useMemo(
     () => explorePeople(people, { query, filter, sort }),
     [people, query, filter, sort],
   );
+
+  const isFiltered = query.trim() !== "" || era !== ALL_VALUE || region !== ALL_VALUE || tagIds.length > 0;
+
+  function toggleTag(id: string) {
+    setTagIds((current) => (current.includes(id) ? current.filter((t) => t !== id) : [...current, id]));
+  }
 
   return (
     <main className="tgi-container" style={{ paddingTop: "3rem", paddingBottom: "5rem" }}>
@@ -110,7 +118,7 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
                   value: ALL_VALUE,
                   label: `${t(locale, "people.directory.region_label")}: ${t(locale, "people.directory.all")}`,
                 },
-                ...options.regionCodes.map((r) => ({ value: r, label: humanize(r) })),
+                ...options.regionCodes.map((r) => ({ value: r, label: t(locale, `region.${r}` as MessageKey) })),
               ]}
             />
             <Select
@@ -119,8 +127,46 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
               ariaLabel={t(locale, "people.directory.sort_label")}
               options={SORT_KEYS.map((key) => ({ value: key, label: t(locale, `sort.${key}` as MessageKey) }))}
             />
+            <details className="tgi-tags-filter">
+              <summary className="tgi-field tgi-tags-filter__summary">
+                {tagIds.length > 0
+                  ? t(locale, "people.directory.tags_label_selected", { count: tagIds.length })
+                  : t(locale, "people.directory.tags_label")}
+              </summary>
+              <div className="tgi-details-body tgi-tags-filter__panel">
+                <Cluster gap={3}>
+                  {options.tagIds.map((id) => {
+                    const inputId = `tag-filter-${id}`;
+                    return (
+                      <label key={id} htmlFor={inputId} className="tgi-tags-filter__option">
+                        <input
+                          id={inputId}
+                          type="checkbox"
+                          checked={tagIds.includes(id)}
+                          onChange={() => toggleTag(id)}
+                        />
+                        <span>{t(locale, `tag.${id}` as MessageKey)}</span>
+                      </label>
+                    );
+                  })}
+                </Cluster>
+                {tagIds.length > 0 && (
+                  <button
+                    type="button"
+                    className="tgi-tags-filter__clear"
+                    onClick={() => setTagIds([])}
+                  >
+                    {t(locale, "people.directory.tags_clear")}
+                  </button>
+                )}
+              </div>
+            </details>
           </Cluster>
-          <Text tone="muted">{t(locale, "people.directory.count", { count: results.length })}</Text>
+          <Text tone="muted">
+            {isFiltered
+              ? t(locale, "people.directory.count_filtered", { count: results.length, total: people.length })
+              : t(locale, "people.directory.count", { count: results.length })}
+          </Text>
         </Stack>
 
         <VisuallyHidden>
@@ -152,8 +198,4 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
       </Stack>
     </main>
   );
-}
-
-function humanize(id: string): string {
-  return id.replace(/_/g, " ");
 }

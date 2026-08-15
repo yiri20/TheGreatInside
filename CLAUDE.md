@@ -1963,6 +1963,27 @@ discipline as development guides (10/30 attributes) and `doNotCopyKeys`
 (7/35 people): the field exists and degrades gracefully when absent, and
 getting a handful of entries right beats guessing at all of them.
 
+**Portrait population status (2026-08, `scale/roster-1000` branch, not yet
+merged to `main`): 6 of 35 people have a populated `portrait` field** —
+da Vinci (Phase 3) plus a small real pilot on this branch (Marie Curie,
+Nikola Tesla, Srinivasa Ramanujan, Confucius, Warren Buffett), each
+verified live against the actual Commons file page (license reason,
+author/creator, date, real pixel dimensions extracted from the
+downloaded file, not trusted from the page description) before being
+added, and re-verified live in a running dev server after being added
+(confirmed the exact recorded dimensions actually load). Confucius's
+portrait is an explicitly-labelled traditional/idealized depiction
+(Tang Dynasty, ~750 CE), not a lifetime likeness — photography obviously
+did not exist in the 6th–5th century BCE. One further person (Mahatma
+Gandhi) was researched and deliberately **held, not added**: the best
+candidate image's US copyright status is genuinely ambiguous
+("potential protection until 95 years after initial publication" from a
+1931 photograph, i.e. right at the current-year boundary) — the correct
+call under this project's "reject/hold unclear cases" discipline, not a
+defect. 28 of the remaining 34 people have not yet been attempted — see
+`docs/roster-1000-checkpoint.md` §7B for the full pilot record and
+process.
+
 *(Implementation-fact cross-reference, Phase 10D-2, 2026-08: confirmed via
 `grep -n "portrait: {"` across both seed files that da Vinci is currently
 the ONLY person with a populated `portrait` field in the dataset — a

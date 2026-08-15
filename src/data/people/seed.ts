@@ -150,6 +150,18 @@ const seeds: PersonSeed[] = [
         "ko-KR": "https://ko.wikipedia.org/wiki/마리_퀴리",
       },
     },
+    // ROSTER-1000 portrait pilot (2026-08): verified live against the
+    // actual Commons file page (license reason, author, dimensions) before
+    // being added — same discipline as da Vinci's portrait above.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/d/db/Marie_Curie%2C_portrait%2C_1900.jpg",
+      width: 609,
+      height: 894,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Marie_Curie,_portrait,_1900.jpg",
+      attribution: "Collection Guy et Marie José Pallardy",
+    },
     sources: [wiki("curie", "Marie Curie"), bio("curie", "Susan Quinn, Marie Curie: A Life (1995)")],
     rows: {
       curiosity: [92, 0.85, "d", "A"],

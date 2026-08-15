@@ -708,6 +708,70 @@ details > summary:focus-visible {
 .tgi-inline-heading {
   display: inline;
 }
+/* ------------------------------------------------ people directory: tags
+   ROSTER-1000: tags are a discoverable, structured filter (checkbox list
+   inside a native <details>, same zero-JS-required pattern as the
+   all-traits/how-it-was-calculated sections above), not something a user
+   has to already know to type into the search box. The .tgi-field class on
+   the <summary> makes it visually match its sibling <select> filters; the
+   panel below reuses .tgi-details-body's spacing, not a new floating
+   popover, keeping with this project's "no invented UI pattern" discipline. */
+.tgi-tags-filter {
+  position: relative;
+}
+.tgi-tags-filter__summary {
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+.tgi-tags-filter__panel {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + var(--tgi-space-2));
+  left: 0;
+  min-width: 20rem;
+  max-width: min(28rem, 90vw);
+  max-height: 20rem;
+  overflow-y: auto;
+  padding: var(--tgi-space-4);
+  border-radius: var(--tgi-radius-md);
+  border: var(--tgi-border-width) solid var(--tgi-rule-strong);
+  background: var(--tgi-surface);
+  box-shadow: var(--tgi-shadow-raised);
+}
+.tgi-tags-filter__option {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--tgi-space-2);
+  font-size: var(--tgi-text-sm);
+  cursor: pointer;
+}
+.tgi-tags-filter__option input {
+  /* 20px, not the browser default ~13px — still smaller than the 44px tap
+     floor other controls use, since the label text extends the hit area. */
+  width: 1.25rem;
+  height: 1.25rem;
+  accent-color: var(--tgi-accent);
+  cursor: pointer;
+}
+.tgi-tags-filter__clear {
+  display: inline-block;
+  margin-top: var(--tgi-space-4);
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--tgi-accent);
+  font: inherit;
+  font-size: var(--tgi-text-sm);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.tgi-tags-filter__clear:focus-visible {
+  outline: none;
+  box-shadow: var(--tgi-focus-ring);
+  border-radius: var(--tgi-radius-sm);
+}
+
 .tgi-details-body {
   padding-top: var(--tgi-space-4);
 }

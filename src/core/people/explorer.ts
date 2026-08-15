@@ -239,9 +239,11 @@ export function availableFilterOptions(people: readonly ExplorablePerson[]): Fac
  * production Korean page. Checks BOTH `en`/`ko` have the key — a gap in
  * either locale is real, not just a Korean-specific concern. Only
  * `occupationIds[0]` is checked: it's the one slot actually rendered
- * anywhere in `app/` (verified directly, not assumed) — `fieldIds`/
- * `tagIds` are search/filter-only data, never rendered as user-facing
- * text, so they're deliberately excluded rather than over-covered.
+ * anywhere in `app/` (verified directly, not assumed) — `fieldIds` is
+ * still search/filter-only data, deliberately excluded rather than
+ * over-covered. `tagIds` WAS in that same excluded category until the
+ * roster-1000 People Directory UX rework added a real Tags filter
+ * control — see `missingTagCoverage` below for its own coverage guard.
  */
 export function missingOccupationCoverage(people: readonly Person[]): string[] {
   const used = new Set(people.map((p) => p.occupationIds[0]).filter((id): id is string => id !== undefined));
@@ -266,4 +268,36 @@ export function missingImpactDomainCoverage(): ImpactDomain[] {
       en[`impact_domain.${id}` as MessageKey] === undefined ||
       ko[`impact_domain.${id}` as MessageKey] === undefined,
   );
+}
+
+/**
+ * Roster-1000 People Directory UX rework: `tagIds` is now rendered as
+ * real filter-chip labels (the new Tags disclosure control), so it needs
+ * the same live-roster-audit coverage guard `missingOccupationCoverage`
+ * already established — a future person introducing a new tag with no
+ * authored `tag.*` key is caught here, not discovered as a raw
+ * underscored id in production. Unlike `region.*` (a small, closed,
+ * roster-1000-pipeline-enforced vocabulary), tags are expected to keep
+ * growing, so this checks against whatever the roster actually contains
+ * right now rather than a fixed list.
+ */
+export function missingTagCoverage(people: readonly Person[]): string[] {
+  const used = new Set(people.flatMap((p) => p.tagIds));
+  return [...used]
+    .filter((id) => en[`tag.${id}` as MessageKey] === undefined || ko[`tag.${id}` as MessageKey] === undefined)
+    .sort();
+}
+
+/**
+ * `regionCode` controlled-vocabulary coverage guard — same pattern,
+ * checking the closed set the roster-1000 pipeline is required to reuse
+ * (Part 3 of the roster-expansion brief: "do not allow arbitrary
+ * per-person free-text region labels"). A future person introducing an
+ * unauthored `regionCode` value is caught here.
+ */
+export function missingRegionCoverage(people: readonly Person[]): string[] {
+  const used = new Set(people.map((p) => p.regionCode));
+  return [...used]
+    .filter((id) => en[`region.${id}` as MessageKey] === undefined || ko[`region.${id}` as MessageKey] === undefined)
+    .sort();
 }

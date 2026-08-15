@@ -6,6 +6,8 @@ import {
   filterPeople,
   missingImpactDomainCoverage,
   missingOccupationCoverage,
+  missingRegionCoverage,
+  missingTagCoverage,
   searchPeople,
   sortPeople,
   type PeopleFilter,
@@ -215,5 +217,23 @@ describe("localisation coverage guards", () => {
 
   it("all 15 ImpactDomain values have EN and KO text — complete by construction", () => {
     expect(missingImpactDomainCoverage()).toEqual([]);
+  });
+
+  it("every tagIds value actually used in the roster has EN and KO text", () => {
+    expect(missingTagCoverage(SEED_PEOPLE)).toEqual([]);
+  });
+
+  it("catches a genuinely unauthored tag id — the guard is not a no-op", () => {
+    const withUnknownTag = { ...SEED_PEOPLE[0]!, tagIds: ["not_a_real_tag_id_for_testing"] };
+    expect(missingTagCoverage([withUnknownTag])).toEqual(["not_a_real_tag_id_for_testing"]);
+  });
+
+  it("every regionCode value actually used in the roster has EN and KO text", () => {
+    expect(missingRegionCoverage(SEED_PEOPLE)).toEqual([]);
+  });
+
+  it("catches a genuinely unauthored region code — the guard is not a no-op", () => {
+    const withUnknownRegion = { ...SEED_PEOPLE[0]!, regionCode: "not_a_real_region_for_testing" };
+    expect(missingRegionCoverage([withUnknownRegion])).toEqual(["not_a_real_region_for_testing"]);
   });
 });

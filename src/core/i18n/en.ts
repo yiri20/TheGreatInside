@@ -710,6 +710,27 @@ export const en = {
   "era.20th_century": "20th Century",
   "era.contemporary": "Contemporary",
 
+  /* --------------------------------------------------------------- regions
+     Roster-1000 prep (2026-08): `regionCode` was rendered via a naive
+     `humanize()` (underscore -> space) transform, always English regardless
+     of locale — the same class of gap Phase 8 already fixed for
+     occupation/impact-domain. Controlled vocabulary, not free text: every
+     value here is one of the 11 `regionCode`s actually used across the
+     current 35-person roster (verified directly, not guessed) — the same
+     ids the roster-1000 pipeline must reuse rather than inventing
+     per-person free-text region labels. */
+  "region.central_asia": "Central Asia",
+  "region.central_europe": "Central Europe",
+  "region.east_asia": "East Asia",
+  "region.latin_america": "Latin America",
+  "region.north_africa": "North Africa",
+  "region.north_america": "North America",
+  "region.south_asia": "South Asia",
+  "region.southern_europe": "Southern Europe",
+  "region.sub_saharan_africa": "Sub-Saharan Africa",
+  "region.west_asia": "West Asia",
+  "region.western_europe": "Western Europe",
+
   /* ------------------------------------------------------------ occupations
      PHASE 8 (2026-08): every `occupationIds[0]` value actually rendered
      across the current 35-person roster (verified directly against
@@ -788,17 +809,87 @@ export const en = {
   "impact_domain.innovation": "innovation",
   "impact_domain.wealth_creation": "wealth creation",
 
+  /* ------------------------------------------------------------------ tags
+     Roster-1000 prep (2026-08): tags were previously filter/search-only
+     data, never rendered as user-facing text (unlike occupation/impact-
+     domain, fixed in Phase 8). The new Tags filter control (People
+     Directory UX rework) needs real labels. Covers every `tagIds` value
+     actually used across the current 35-person roster (46 values,
+     verified directly). Unlike `region.*` (a small, closed vocabulary),
+     tags are expected to keep growing as the roster-1000 pipeline adds
+     people — `missingTagCoverage()` (explorer.ts) is the live regression
+     guard that catches a future tag with no authored label, the same
+     pattern `missingOccupationCoverage` already established. */
+  "tag.administrator": "Administrator",
+  "tag.advocate": "Advocate",
+  "tag.ascetic": "Ascetic",
+  "tag.career_changer": "Career Changer",
+  "tag.communicator": "Communicator",
+  "tag.competitor": "Competitor",
+  "tag.conqueror": "Conqueror",
+  "tag.craft_focused": "Craft-Focused",
+  "tag.cross_disciplinary": "Cross-Disciplinary",
+  "tag.detail_oriented": "Detail-Oriented",
+  "tag.early_computing": "Early Computing",
+  "tag.endured_imprisonment": "Endured Imprisonment",
+  "tag.explorer": "Explorer",
+  "tag.field_researcher": "Field Researcher",
+  "tag.founder": "Founder",
+  "tag.generalist": "Generalist",
+  "tag.grassroots_organizer": "Grassroots Organizer",
+  "tag.independent": "Independent",
+  "tag.innovator": "Innovator",
+  "tag.intuitive": "Intuitive",
+  "tag.late_recognition": "Late Recognition",
+  "tag.leader": "Leader",
+  "tag.low_risk": "Low-Risk",
+  "tag.mystic": "Mystic",
+  "tag.nobel_laureate": "Nobel Laureate",
+  "tag.nonconformist": "Nonconformist",
+  "tag.nonviolence": "Nonviolence",
+  "tag.organizer": "Organizer",
+  "tag.overcame_adversity": "Overcame Adversity",
+  "tag.patient": "Patient",
+  "tag.perfectionist": "Perfectionist",
+  "tag.philosopher": "Philosopher",
+  "tag.polymath": "Polymath",
+  "tag.poor_business_sense": "Poor Business Sense",
+  "tag.prodigy": "Prodigy",
+  "tag.product_leader": "Product Leader",
+  "tag.prolific": "Prolific",
+  "tag.reconciliation": "Reconciliation",
+  "tag.renaissance": "Renaissance",
+  "tag.self_taught": "Self-Taught",
+  "tag.specialist": "Specialist",
+  "tag.strategist": "Strategist",
+  "tag.sustained_excellence": "Sustained Excellence",
+  "tag.systematic_thinker": "Systematic Thinker",
+  "tag.theorist": "Theorist",
+  "tag.young_leader": "Young Leader",
+
   /* -------------------------------------------------------------- explorer */
   "people.directory.title": "Explore Great Minds",
   "people.directory.intro": "Browse the people in The Great Inside by era, region, and trait.",
-  "people.directory.search_placeholder": "Search by name, field, or tag",
+  // ROSTER-1000: text search now focuses on what a person can reasonably
+  // type — name or occupation. Tags moved to their own discoverable
+  // structured filter (people.directory.tags_*) below, since a search box
+  // that silently also matches tags with no way to see what tags exist was
+  // the actual defect — see explorer.ts's own updated scope-note comment.
+  "people.directory.search_placeholder": "Search by name or occupation",
   "people.directory.era_label": "Era",
   "people.directory.region_label": "Region",
   "people.directory.sort_label": "Sort",
   "people.directory.all": "All",
   "people.directory.empty": "No one matches these filters yet.",
+  // Unfiltered state: just the roster size. Filtered state uses
+  // count_filtered below, distinguishing "how many match" from "how many
+  // exist" rather than a single ambiguous number for both.
   "people.directory.count": "{count} people",
+  "people.directory.count_filtered": "{count} of {total} people",
   "people.directory.results_heading": "Results",
+  "people.directory.tags_label": "Tags",
+  "people.directory.tags_label_selected": "Tags ({count})",
+  "people.directory.tags_clear": "Clear tags",
 
   "sort.name_asc": "Name (A–Z)",
   "sort.name_desc": "Name (Z–A)",
