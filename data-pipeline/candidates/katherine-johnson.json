@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "katherine-johnson",
+  "status": "held",
+  "holdReason": "Confidence ceiling: NASA's own historical record and popular biographical coverage document her achievements and specific episodes (the John Glenn verification request) very well, but say comparatively little about her broader personal working style or motivations, keeping several rows at 'inference'/'strong_inference.' After remediation (17 -> 20 scored attributes, coverage now 0.604), average confidence (0.536) remains just short of the 0.55 floor. A future pass drawing more directly on her own interviews/oral history could plausibly close this small remaining gap — recorded as a strong candidate to revisit, not a permanent rejection.",
+  "identity": {
+    "canonicalName": "Katherine Johnson",
+    "wikidataId": "Q11740",
+    "birthYear": 1918,
+    "deathYear": 2020,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["mathematician"],
+    "fieldIds": ["mathematics", "engineering"],
+    "impactDomains": ["scientific", "engineering", "historical"],
+    "tagIds": ["overcame_adversity", "prodigy", "self_taught"],
+    "archetypeIds": ["scholarly_specialist"]
+  },
+  "sources": [
+    { "id": "src_johnson_wikipedia", "kind": "wikipedia", "title": "Katherine Johnson", "url": "https://en.wikipedia.org/wiki/Katherine_Johnson" },
+    { "id": "src_johnson_nasa", "kind": "institution", "title": "NASA — Katherine Johnson biography and oral history" },
+    { "id": "src_johnson_shetterly", "kind": "biography", "title": "Margot Lee Shetterly, Hidden Figures (2016)" }
+  ],
+  "rows": {
+    "analytical_rigor": { "score": 90, "confidence": 0.75, "evidenceType": "documented", "impact": "advantage", "rationale": "Hand-calculated the trajectory for Alan Shepard's 1961 flight and verified John Glenn's 1962 orbital trajectory by request of Glenn himself before he would fly — documented, specific, historically verified calculations with real mission consequences." },
+    "curiosity": { "score": 82, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented (NASA oral history) to have completed high school by 14 and college by 18, having advanced rapidly through West Virginia's segregated school system due to sustained early mathematical interest." },
+    "risk_tolerance": { "score": 70, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented to have proactively requested inclusion in previously male-only editorial meetings for the Flight Research Division, a specific instance of pushing past an existing institutional boundary." },
+    "proactive_agency": { "score": 78, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Self-initiated the request to join the all-male editorial meetings rather than waiting to be invited, documented via NASA's own oral history record and Shetterly's account." },
+    "persistence": { "score": 76, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained a 33-year career at NACA/NASA (1953-1986) navigating a segregated and then integrating workplace, documented via her full employment record." },
+    "social_assertiveness": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The documented meeting-inclusion request and John Glenn's specific, direct request for her personal verification of his trajectory both evidence real professional assertiveness and earned trust." },
+    "detail_orientation": { "score": 84, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Orbital trajectory calculation of the precision NASA's missions required directly evidences sustained, exacting attention to numerical detail, corroborated by the specific, historically verified accuracy of her results." },
+    "discipline": { "score": 78, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained precise, high-stakes mathematical work across a multi-decade NASA career spanning several major programs (Mercury, Apollo, Space Shuttle)." },
+    "mastery_orientation": { "score": 72, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued adapting her mathematical work as tools and mission requirements evolved across three decades, from early hand calculation through the introduction of electronic computers." },
+    "adaptability": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Adapted her working methods across the transition from manual calculation to electronic computers during her career, documented via her sustained relevance across this technological shift." },
+    "achievement_drive": { "score": 65, "confidence": 0.48, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued pursuing increasingly complex assignments (from early aeronautics work to orbital and later interplanetary trajectory calculations) across her career, evidencing sustained ambition." },
+    "independent_thinking": { "score": 62, "confidence": 0.46, "evidenceType": "inference", "impact": "neutral", "rationale": "The documented push to attend previously restricted meetings suggests a real willingness to act on her own judgment about what her role required, distinct from the assertiveness claim above in emphasizing the underlying judgment rather than the act itself." },
+    "collaboration": { "score": 58, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Worked within large engineering teams across multiple NASA programs, a real but moderately documented collaborative pattern." },
+    "autonomy_need": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sought inclusion in decision-relevant meetings rather than working purely as directed, suggesting some real preference for having direct input into her own work's context — moderately evidenced." },
+    "conflict_tolerance": { "score": 58, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "The meeting-inclusion request implicitly challenged an existing institutional norm, a real but singular documented instance rather than a sustained pattern of confrontation." },
+    "cross_domain_range": { "score": 45, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented output is concentrated within aerospace trajectory mathematics across her career — a genuinely more specialized, honestly lower-scored range than a polymath profile." },
+    "creative_originality": { "score": 62, "confidence": 0.5, "evidenceType": "documented", "impact": "advantage", "rationale": "Pioneered novel analytic geometry techniques for calculating orbital trajectories, adapting existing methods to a genuinely new spaceflight context, documented via NASA's own historical record of her contributions." },
+    "deep_focus": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained detailed orbital trajectory calculations for NASA's Mercury and Apollo missions requiring intense precision over extended periods, documented via NASA's own historical record of her work, including John Glenn's specific documented request that she personally verify the electronic computer's trajectory numbers before his flight." },
+    "planning_orientation": { "score": 70, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Her trajectory calculations required precise advance planning for mission-critical orbital mechanics with no margin for error, documented via NASA's historical record of her work on the Mercury and Apollo missions." },
+    "leadership_drive": { "score": 42, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Primarily documented as an individual technical contributor rather than in a formal team-leadership role for most of her career, a genuine, honestly-scored lower finding rather than an assumption from her overall renown." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, north_america, aerospace mathematics domain distinct from Hopper (computing/standardization) and Ramanujan (pure mathematics). The honestly low leadership_drive (42) and cross_domain_range (45) scores avoid the halo-effect trap of assuming a celebrated figure must score high everywhere — her documented profile is a deep individual-contributor specialist, not a broad institutional leader."
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "emmy-noether",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Emmy Noether",
+    "wikidataId": "Q7099",
+    "birthYear": 1882,
+    "deathYear": 1935,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician"
+    ],
+    "fieldIds": [
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "founder",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_noether_wikipedia",
+      "kind": "wikipedia",
+      "title": "Emmy Noether",
+      "url": "https://en.wikipedia.org/wiki/Emmy_Noether"
+    },
+    {
+      "id": "src_noether_einstein",
+      "kind": "press",
+      "title": "Albert Einstein, letter to The New York Times on Emmy Noether's death (1935)"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Noether's theorem, linking every differentiable symmetry to a conservation law, is documented as a foundational, rigorously proven result in theoretical physics and abstract algebra, still in standard use."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Worked unpaid or under-titled for years at Göttingen (lecturing officially under David Hilbert's name for a period since women could not formally hold lecturing positions there) before finally receiving a formal academic appointment — a specific, well-documented institutional barrier she worked around rather than abandoning her research."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The arrangement of lecturing under Hilbert's name to bypass the formal prohibition on women lecturers is a specific, well-corroborated instance of working around an institutional obstacle rather than being blocked by it."
+    },
+    "creative_originality": {
+      "score": 86,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed foundational abstract algebra concepts (now called Noetherian rings) that restructured how the field itself was approached, documented via the sustained influence of her work on 20th-century mathematics."
+    },
+    "systems_abstraction": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her abstract-algebraic approach deliberately generalized specific results into structural theorems applicable across many mathematical contexts, documented via the mathematical content of her published work."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued pursuing an academic mathematics career despite documented, sustained institutional resistance to women holding formal positions — a real risk of career-long marginalization, though this reflects sustained persistence more than a single high-stakes choice."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained prolific mathematical output across roughly three decades despite working for much of her career without formal academic standing or salary commensurate with her male colleagues."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing increasingly abstract and general mathematical frameworks throughout her career rather than resting on Noether's theorem's early impact."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked closely with a documented circle of students and colleagues at Göttingen who became known as the 'Noether boys,' a real, if institutionally informal, collaborative and mentoring pattern."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued producing foundational mathematical work across a career spent largely without the institutional recognition or compensation typically accompanying work of this significance."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued an abstract, structural approach to algebra that departed from the more computational conventions of the field at the time, documented via the mathematical-historical assessment of her work's influence."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained engagement across pure mathematics and mathematical physics (Noether's theorem itself bridges both) suggests real breadth of interest beyond a single narrow specialty."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Rigorous mathematical proof requires real precision, though her documented working and teaching style (per contemporary accounts) was noted more for conceptual, structural thinking than granular computational detail."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Noether's theorem itself bridges pure mathematics and theoretical physics, linking symmetry to conservation laws, documented via its foundational, sustained use in both fields."
+    },
+    "deep_focus": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained development of increasingly abstract algebraic frameworks over decades, documented via her mathematical publication record and its sustained structural coherence."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Informally led a lively circle of students, the 'Noether boys,' through open, engaged mathematical discussion, documented via multiple contemporary accounts of her teaching style."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained her own independent research program for years without formal institutional recognition or salary commensurate with her male colleagues."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Adjusted her research focus and rebuilt her career as she moved from Erlangen to Göttingen and, in 1933, fled Nazi Germany for Bryn Mawr College in the United States — a documented career transition made under real duress."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Consistently framed her research around building lasting structural mathematical frameworks useful to the broader field, and continued mentoring students even without formal compensation."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Emigrated to and rebuilt her career at Bryn Mawr College after fleeing Nazi Germany in 1933, a self-directed response to an existential threat, well documented via the historical record of her emigration."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, western_europe, abstract mathematics domain complementing Ramanujan/Hopper with a profile shaped by real, well-documented institutional gender barriers she worked around rather than was defeated by — the resourcefulness/persistence scores are grounded in specific, corroborated instances (the Hilbert-name lecturing arrangement), not general characterization."
+  }
+}

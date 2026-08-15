@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "murasaki-shikibu",
+  "status": "held",
+  "holdReason": "Confidence ceiling: her surviving primary evidence (one diary, one novel, and Heian-era court records) is genuinely thinner than for later, more extensively documented figures, so most trait inferences sit at 'inference' rather than 'documented' even after careful review. After two remediation passes (16 -> 21 scored attributes, coverage now a comfortable 0.625), average confidence (0.498) remains meaningfully short of the 0.55 floor; closing it further would require inflating confidence well beyond what an 11th-century single-diary-plus-novel evidentiary base honestly supports.",
+  "identity": {
+    "canonicalName": "Murasaki Shikibu",
+    "wikidataId": "Q81731",
+    "birthYear": 973,
+    "deathYear": 1014,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": ["JP"],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.heian_japan"
+  },
+  "classification": {
+    "occupationIds": ["writer"],
+    "fieldIds": ["literature"],
+    "impactDomains": ["literary", "cultural", "historical"],
+    "tagIds": ["self_taught", "prolific"],
+    "archetypeIds": ["creative_creator"]
+  },
+  "sources": [
+    { "id": "src_murasaki_wikipedia", "kind": "wikipedia", "title": "Murasaki Shikibu", "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu" },
+    { "id": "src_murasaki_diary", "kind": "archive", "title": "The Diary of Lady Murasaki (Murasaki Shikibu Nikki, c. 1010)" },
+    { "id": "src_murasaki_genji", "kind": "archive", "title": "The Tale of Genji (c. 1000-1012)" }
+  ],
+  "rows": {
+    "creative_originality": { "score": 90, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "The Tale of Genji's psychological complexity and narrative structure are widely credited by literary scholarship as unprecedented for its era, sustaining its recognition as one of the earliest and most sophisticated long-form prose narratives — the surviving text is the direct documented evidence." },
+    "detail_orientation": { "score": 78, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "The Genji's sustained, precise attention to court ritual, seasonal detail, and character psychology across its many chapters is directly observable in the surviving text." },
+    "curiosity": { "score": 74, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Her own diary documents unusual, self-directed literacy in Chinese classics at a time when this was considered inappropriate for women of her class — a specific, corroborated instance of pursuing knowledge against social expectation." },
+    "independent_thinking": { "score": 68, "confidence": 0.52, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented in her own diary to have deliberately concealed her Chinese-classics knowledge in public while continuing to study privately, a specific, self-described act of navigating social constraint on her own terms." },
+    "discipline": { "score": 76, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Genji's length (54 chapters) and sustained narrative coherence across many years of composition evidence real long-term working discipline." },
+    "social_assertiveness": { "score": 40, "confidence": 0.48, "evidenceType": "documented", "impact": "neutral", "rationale": "Her own diary describes herself as reserved and reluctant to display her intellect openly at court, a specific, self-reported low score rather than an assumption from her literary reputation." },
+    "mastery_orientation": { "score": 72, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued developing the Genji's narrative and characters across what scholarship estimates as a decade or more of composition, evidencing sustained craft engagement." },
+    "aesthetic_sensitivity": { "score": 82, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "The Genji's refined prose style and its sustained attention to the aesthetic and emotional texture of Heian court life is a hallmark noted consistently across literary-critical assessment and directly observable in the text." },
+    "persistence": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained composition of an unusually long work across an extended period, per scholarly dating of the text's composition." },
+    "achievement_drive": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "The scale of the completed work suggests real sustained ambition, though inferred from the finished text's scope rather than a specific documented statement of purpose." },
+    "collaboration": { "score": 52, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Served as a lady-in-waiting at court, a role involving real ongoing social and literary exchange with other court women documented in her diary, though the specifics of any direct creative collaboration on the Genji itself are not established." },
+    "conflict_tolerance": { "score": 45, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Her diary documents a notably critical, sometimes sharp assessment of court rivals (including a well-known passage about a contemporary writer), suggesting she did not avoid registering disagreement, though this is a single genre of evidence (diary commentary) rather than direct confrontation." },
+    "experimentation": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "The Genji is credited by literary historians with narrative techniques (extended third-person psychological interiority) not clearly established in earlier Japanese prose, suggesting real formal experimentation, though this is a scholarly inference about the text's place in a tradition rather than a documented statement of intent." },
+    "cross_domain_range": { "score": 50, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Primary documented output is concentrated in prose fiction and diary writing — real but modest range rather than broad achievement across unrelated domains." },
+    "autonomy_need": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented preference for private, self-directed study over public display of her learning suggests a real, if moderately-evidenced, preference for autonomous intellectual pursuit." },
+    "systems_abstraction": { "score": 66, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Tale of Genji's sophisticated interweaving of dozens of characters across generations with consistent psychological and social logic evidences a systematic narrative architecture, documented via literary-critical consensus on the work's structural achievement." },
+    "deep_focus": { "score": 76, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Authored The Tale of Genji, a 54-chapter work of unprecedented scope and structural sophistication for its period, documented via the work's own scale and scholarly consensus on its composition." },
+    "planning_orientation": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Genji Monogatari's sustained narrative architecture across multiple generations of characters evidences real advance structural planning, documented via literary-critical analysis of the work's design." },
+    "impact_motivation": { "score": 60, "confidence": 0.54, "evidenceType": "documented", "impact": "advantage", "rationale": "Her own diary (Murasaki Shikibu Nikki) documents an unusual, specific episode: tutoring Empress Shōshi in Chinese classics, a domain then considered male-restricted — a corroborated instance of applying her scholarship in direct court service." },
+    "resourcefulness": { "score": 58, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented via her own diary to have pursued self-directed study of Chinese classical literature despite the era's restriction of that domain to men, finding a way to sustain intellectual work within a constrained court role." },
+    "analytical_rigor": { "score": 60, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "The Genji's carefully structured, internally consistent portrayal of dozens of interconnected characters across decades of narrative time suggests real structural rigor, though inferred from the finished work rather than a documented compositional method." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: medieval era, east_asia (Heian Japan, distinct from the roster's other East Asian figures), literature domain, and the earliest female novelist in this batch. Genuinely low, honestly-scored social_assertiveness (40) reflects her own documented self-description, avoiding the halo-effect assumption that a celebrated author must also be socially prominent."
+  }
+}

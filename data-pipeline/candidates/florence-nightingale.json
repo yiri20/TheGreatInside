@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "florence-nightingale",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Florence Nightingale",
+    "wikidataId": "Q37103",
+    "birthYear": 1820,
+    "deathYear": 1910,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "systematic_thinker",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nightingale_wikipedia",
+      "kind": "wikipedia",
+      "title": "Florence Nightingale",
+      "url": "https://en.wikipedia.org/wiki/Florence_Nightingale"
+    },
+    {
+      "id": "src_nightingale_mcdonald",
+      "kind": "archive",
+      "title": "Lynn McDonald (ed.), The Collected Works of Florence Nightingale"
+    },
+    {
+      "id": "src_nightingale_smallbio",
+      "kind": "biography",
+      "title": "Mark Bostridge, Florence Nightingale: The Woman and Her Legend (2008)"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed and used polar-area diagrams (the 'coxcomb' chart) to statistically demonstrate that poor sanitation, not combat, caused most Crimean War deaths — a documented, specific, methodologically original statistical analysis, corroborated by the surviving charts and reports themselves."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rejected her family's expectation of a conventional upper-class marriage to pursue nursing, which was considered a disreputable profession for a woman of her class at the time — documented via her own letters and Bostridge's biography."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Traveled to the Crimean War front in 1854 to manage field hospital conditions directly, a documented real personal risk given the disease and conditions in the war zone."
+    },
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a general statistical framework linking sanitation to mortality applicable beyond the specific Crimean case, later used to reform British Army and civilian hospital practice broadly — documented via her subsequent reform reports."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained detailed statistical analysis of Crimean War mortality data over an extended period, pioneering the polar area diagram to influence policy, documented via her own published statistical reports."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Engaged deeply with statistics, sanitation science, and hospital administration reform beyond nursing practice itself, documented via her published works spanning these domains."
+    },
+    "leadership_drive": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the Nightingale Training School for Nurses in 1860 and led sustained institutional reform of British military and civilian healthcare, documented via the school's founding records and her subsequent decades of policy influence."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued statistical and reform work for decades, much of it as a bedridden invalid after the Crimean War (a documented, long-term illness), producing an extensive body of reports and correspondence from her sickbed."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained health-reform advocacy across roughly five decades despite chronic illness that largely confined her to her bed from the late 1850s onward, documented via her continued prolific correspondence and reports throughout this period."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her statistical reports involved exhaustive, precise data collection on hospital mortality causes, directly evidenced by the surviving reports' own level of granularity."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her statistical presentations directly and successfully persuaded British military and government officials to implement sanitary reforms, documented via the subsequent Royal Commission and policy changes her reports prompted."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-organized her own party of nurses to travel to Crimea rather than waiting to be officially deployed, documented via the historical record of her 1854 departure."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing statistical methodology and health-system expertise across decades of reform work well beyond the initial Crimean crisis."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued pursuing progressively broader reform goals (from Crimean field hospitals to the entire British Army medical system to Indian public health) across her career rather than stopping after the initial crisis was addressed."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented to have had real, sustained institutional friction with military medical authorities during and after the Crimean War, though her preferred approach (per Bostridge) leaned toward persistent documentation and lobbying over direct confrontation."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her rejection of a conventional marriage path to pursue an independent professional vocation suggests real autonomy preference, the same underlying evidence as independent_thinking viewed from the preference-for-self-direction angle."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked with statisticians and government commissions on her reform reports, a real but moderately documented collaborative pattern given her later career was largely conducted via correspondence from her sickbed."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained influential, detailed policy work for decades while largely confined to her bed by chronic illness, suggesting real adaptive resourcefulness in her working method, though the specific mechanisms are only moderately documented."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Real combined output across nursing practice, statistics, and health-policy writing — genuine but concentrated range within the broader public-health domain."
+    },
+    "experimentation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The novel application of statistical visualization to health policy was itself methodologically innovative, though this is inferred from the outcome (the coxcomb chart) rather than a documented account of an exploratory process."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 19th_century, western_europe, nursing/statistics/public-health domain not represented anywhere in the current roster. Notable for the well-documented persistence/discipline evidence coming largely from her decades of work while chronically ill, described strictly from her documented continued output, never from any diagnostic characterization of the illness itself."
+  }
+}

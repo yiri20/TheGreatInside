@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "chinua-achebe",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Chinua Achebe",
+    "wikidataId": "Q155845",
+    "birthYear": 1930,
+    "deathYear": 2013,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NG"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "nonconformist",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_achebe_wikipedia",
+      "kind": "wikipedia",
+      "title": "Chinua Achebe",
+      "url": "https://en.wikipedia.org/wiki/Chinua_Achebe"
+    },
+    {
+      "id": "src_achebe_conrad",
+      "kind": "archive",
+      "title": "Chinua Achebe, 'An Image of Africa: Racism in Conrad's Heart of Darkness' (1975 lecture)"
+    },
+    {
+      "id": "src_achebe_ezenwa",
+      "kind": "biography",
+      "title": "Ezenwa-Ohaeto, Chinua Achebe: A Biography (1997)"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Things Fall Apart (1958) pioneered blending Igbo oral narrative tradition with the English-language novel form — documented via the work's own structure and its recognized place as a founding text of modern African literature."
+    },
+    "independent_thinking": {
+      "score": 86,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly and directly critiqued Joseph Conrad's Heart of Darkness as racist in a 1975 lecture, a specific, documented, deliberately contrarian position against then-dominant literary-critical consensus."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Conrad critique directly and durably shifted academic discourse on the novel, documented via its sustained citation and debate in literary scholarship for decades afterward."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a literary career spanning novels, essays, and poetry across more than five decades."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "The Conrad critique directly challenged a revered figure in the Western literary canon, a documented, career-exposing position at the time."
+    },
+    "social_assertiveness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served as a diplomatic envoy for Biafra during the Nigerian Civil War, a documented instance of direct public political engagement beyond his literary work."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Maintained the Conrad critique despite decades of significant academic pushback and controversy, documented via the sustained scholarly debate it generated."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Helped establish and edit the African Writers Series, a documented, sustained institution-building effort supporting other African authors' publication."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Continued writing across multiple forms (novels, essays, poetry) over five decades, evidencing sustained craft engagement beyond his initial breakthrough novel."
+    },
+    "proactive_agency": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated his diplomatic role advocating for Biafra during the civil war, a documented, self-directed political action beyond his literary career."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Real, sustained output across fiction, literary-critical essays, poetry, and direct political/diplomatic engagement — genuine range with real output in each."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Co-founded and edited a literary series supporting other African writers' publication, a real but moderately documented collaborative institutional role."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly and repeatedly stated his purpose as correcting Western literary misrepresentation of Africa and establishing an independent African literary voice, documented via his own essays and interviews."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Conrad critique is a structured, textually-grounded literary argument, not a general complaint — directly observable in the lecture's own surviving text."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Incorporated Igbo proverbs and oral-storytelling structure directly into the English-language novel form, a documented deliberate technical choice rather than conventional narration."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued a full academic and literary career from a wheelchair after a 1990 car accident left him paralyzed, documented via his subsequent decades of continued published work and university teaching."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued the broader goal of establishing African literature as a legitimate global tradition across his whole career, not only personal literary success."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a multi-decade literary and critical career across novels, essays, and teaching, documented via his complete bibliography."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Engaged across fiction, literary criticism, and later political essays and academic teaching, evidencing real intellectual range beyond a single genre."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued writing and public literary engagement for over two decades after the 1990 accident that left him paralyzed, documented via his post-accident published output."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, sub_saharan_africa (already has Mandela/Maathai but no literary figure), literature/literary-criticism domain. The disability-related adaptability/persistence evidence is scored strictly from documented career-continuation facts, never from any characterization of the disability itself."
+  }
+}

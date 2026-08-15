@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "toussaint-louverture",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Toussaint Louverture",
+    "wikidataId": "Q205783",
+    "birthYear": 1743,
+    "deathYear": 1803,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "HT"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_leader",
+      "political_leader"
+    ],
+    "fieldIds": [
+      "military",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "leader",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_toussaint_wikipedia",
+      "kind": "wikipedia",
+      "title": "Toussaint Louverture",
+      "url": "https://en.wikipedia.org/wiki/Toussaint_Louverture"
+    },
+    {
+      "id": "src_toussaint_dubois",
+      "kind": "biography",
+      "title": "Laurent Dubois, Avengers of the New World: The Story of the Haitian Revolution (2004)"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 90,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from enslaved coachman to Commander-in-Chief and Governor-General of Saint-Domingue, documented via the extensive military and administrative record of the Haitian Revolution."
+    },
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Employed documented sophisticated guerrilla and conventional tactics adapted to fighting Spanish, French, and British forces in succession, per Dubois's military account of the campaigns."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led an armed uprising of enslaved people against colonial military powers — a specific, documented, extreme risk given the near-universal historical consequence of failed slave rebellions."
+    },
+    "planning_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Coordinated multi-front military and political campaigns across roughly a decade, documented via the surviving campaign record."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Switched allegiance from Spain to France in 1794 based on his own strategic assessment of which side would better serve abolition, a documented, consequential judgment against his existing alliance."
+    },
+    "adaptability": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Shifted alliances (initially Spanish-aligned, then French) as circumstances changed, and adapted tactics against successively different colonial opponents — documented across the full campaign."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Negotiated alliances and rallied a formerly enslaved population into an organized military and political force, documented via the revolution's own organizational history."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1794 switch from Spanish to French allegiance was a specific, dated, high-stakes decision documented in the historical record."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the revolutionary struggle across roughly a decade (1791-1802) against a sequence of different opponents."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Organized and trained a functioning, disciplined military force from formerly enslaved people with limited resources, documented via Dubois's account of the army's development."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Initiated and led the movement's military and political direction rather than serving as one participant among many, documented via his rise to sole command."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained armed conflict against multiple colonial powers across roughly a decade rather than seeking early accommodation."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Increasingly governed Saint-Domingue with growing practical autonomy from French colonial authority, documented via his later administrative actions."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Worked alongside other revolutionary leaders (Dessalines, Christophe), though the historical record also documents real strategic friction with some of them — a genuinely mixed pattern, scored toward the center."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from slavery to become de facto ruler of Saint-Domingue and drafted its 1801 constitution, documented via the well-recorded political history of the Haitian Revolution."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built a functioning military and administrative structure from severely limited resources amid ongoing war, documented via the revolution's logistical history."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Real output in both military command and political governance (drafting Saint-Domingue's 1801 constitution), not military leadership alone."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Drafted a formal constitution for Saint-Domingue in 1801, a documented, genuinely systematic governance framework rather than ad hoc rule."
+    },
+    "deep_focus": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a multi-year military and political campaign (the Haitian Revolution) requiring continuous strategic attention across shifting alliances and battles, documented via the well-recorded campaign history."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed from a formerly enslaved plantation worker into a self-taught military commander and eventually governor-general, a documented trajectory of expanding capability across his life."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recognized and used the political instability created by the French Revolution as a strategic opening to advance the uprising's cause, documented via the timing of his key strategic moves."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: early_modern/19th-century-boundary, latin_america (Caribbean, currently unrepresented in this region), military/political-revolution domain not represented anywhere in the current roster. Passes inclusion_v1 cleanly — his achievement (leading and winning the revolution) is entirely self-built from an enslaved starting position, the opposite of inherited power."
+  }
+}

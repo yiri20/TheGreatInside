@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jean-jacques-rousseau",
+  "status": "held",
+  "holdReason": "Confidence ceiling: much of the trait evidence available for this pass is inferred from the content and reception of his written works rather than corroborated biographical accounts of his personal conduct, keeping most rows at 'strong_inference' or 'inference.' After remediation (14 -> 20 scored attributes, coverage now 0.601), average confidence (0.521) still falls short of the 0.55 floor; closing the remaining gap would require inflating confidence beyond what this pass's sourcing supports.",
+  "identity": {
+    "canonicalName": "Jean-Jacques Rousseau",
+    "wikidataId": "Q6527",
+    "birthYear": 1712,
+    "deathYear": 1778,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": ["CH"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["philosopher", "writer"],
+    "fieldIds": ["philosophy"],
+    "impactDomains": ["historical", "cultural", "educational"],
+    "tagIds": ["nonconformist", "self_taught", "independent"],
+    "archetypeIds": ["independent_creator"]
+  },
+  "sources": [
+    { "id": "src_rousseau_wikipedia", "kind": "wikipedia", "title": "Jean-Jacques Rousseau", "url": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau" },
+    { "id": "src_rousseau_confessions", "kind": "archive", "title": "Jean-Jacques Rousseau, Confessions (written 1765-1770, published posthumously 1782/1789)" },
+    { "id": "src_rousseau_sep", "kind": "institution", "title": "Stanford Encyclopedia of Philosophy — Jean-Jacques Rousseau" }
+  ],
+  "rows": {
+    "independent_thinking": { "score": 86, "confidence": 0.72, "evidenceType": "documented", "impact": "advantage", "rationale": "The Social Contract and Discourse on Inequality directly challenged prevailing Enlightenment assumptions about civilization and progress, arguing society itself corrupts natural human goodness — a documented, sustained, contrarian philosophical position for its era." },
+    "creative_originality": { "score": 84, "confidence": 0.7, "evidenceType": "documented", "impact": "advantage", "rationale": "The Confessions is widely credited by literary and philosophical scholarship as one of the first true modern autobiographies, documented via its recognized place in the history of the genre (Stanford Encyclopedia of Philosophy)." },
+    "risk_tolerance": { "score": 78, "confidence": 0.62, "evidenceType": "documented", "impact": "risk", "rationale": "Emile and The Social Contract were both banned and publicly burned, and Rousseau was forced to flee France and later Switzerland under threat of arrest — a documented, severe, direct consequence of his published positions." },
+    "conflict_tolerance": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "risk", "rationale": "Sustained a public falling-out and prolonged personal dispute with several major Enlightenment contemporaries (including Voltaire and Diderot), documented via their surviving correspondence and public exchanges." },
+    "curiosity": { "score": 72, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Largely self-taught across philosophy, music theory (he also composed and wrote on musical theory), and botany later in life — documented breadth of self-directed learning outside any formal education." },
+    "social_assertiveness": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "risk", "rationale": "Documented, sustained public intellectual disputes with prominent contemporaries evidence real willingness toward direct, public confrontation of ideas." },
+    "cross_domain_range": { "score": 68, "confidence": 0.52, "evidenceType": "documented", "impact": "advantage", "rationale": "Real documented output spanning political philosophy, education theory (Emile), autobiography, and music (he composed an opera and wrote a music-theory treatise)." },
+    "achievement_drive": { "score": 60, "confidence": 0.45, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained a prolific, influential body of work across multiple genres despite significant personal instability and periods of poverty, evidencing real ongoing ambition." },
+    "detail_orientation": { "score": 52, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "His systematic philosophical arguments suggest real structural care, though his own documented working style (per the Confessions) is more often described as intense and emotionally driven than methodically precise." },
+    "adaptability": { "score": 58, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Repeatedly relocated across multiple countries in response to persecution and personal instability, a real but circumstance-driven pattern rather than a clearly voluntary adaptive choice." },
+    "belief_updating": { "score": 42, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Primarily documented as defending consistent core philosophical positions across his career despite sustained criticism, rather than revising them — a genuine, moderately low score rather than a forced middle." },
+    "discipline": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Produced a substantial body of major work despite documented periods of personal instability and financial hardship, though his own account (the Confessions) describes an inconsistent, often disorganized working and living pattern — scored moderately rather than assumed high from output volume alone." },
+    "persuasiveness": { "score": 66, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Social Contract's ideas directly and durably influenced subsequent political movements (documented influence on Enlightenment and revolutionary political thought), evidencing real persuasive reach beyond his own lifetime." },
+    "systems_abstraction": { "score": 70, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "The Social Contract develops a systematic theory of political legitimacy and the general will, documented via the work's own coherent theoretical structure and its lasting influence on political philosophy." },
+    "planning_orientation": { "score": 62, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Emile's staged theory of child development required careful systematic organization across the work's structure, documented via the text's own progressive design." },
+    "persistence": { "score": 76, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Continued philosophical and literary output despite being formally banned and forced into exile across multiple countries (France, Switzerland) after The Social Contract and Emile were condemned and burned, documented via the well-recorded history of his exile." },
+    "deep_focus": { "score": 72, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Wrote the Confessions as an unprecedented, sustained work of psychological self-examination, a genuinely novel literary undertaking documented via the work's own scope and its lasting influence on autobiographical writing." },
+    "mastery_orientation": { "score": 64, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Developed distinct major works across political philosophy (The Social Contract), education theory (Emile), and autobiography (Confessions), evidencing genuine range and depth across his career." },
+    "impact_motivation": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Explicitly framed The Social Contract around the public good and the conditions for legitimate government, documented via the work's own stated purpose." },
+    "autonomy_need": { "score": 64, "confidence": 0.46, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented to have repeatedly rejected patronage arrangements and conventional employment in favor of independent intellectual work, though this pattern also contributed to his ongoing financial instability." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: early_modern, western_europe, Enlightenment political philosophy domain distinct from Kant and Aquinas — a genuinely more turbulent, less institutionally settled profile than either, with real documented low/moderate scores (discipline 55, belief_updating 42) rather than uniform philosophical-genius excellence."
+  }
+}

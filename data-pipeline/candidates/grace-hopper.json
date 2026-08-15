@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "grace-hopper",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Grace Hopper",
+    "wikidataId": "Q11641",
+    "birthYear": 1906,
+    "deathYear": 1992,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist"
+    ],
+    "fieldIds": [
+      "computing"
+    ],
+    "impactDomains": [
+      "technological",
+      "innovation",
+      "educational"
+    ],
+    "tagIds": [
+      "early_computing",
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hopper_wikipedia",
+      "kind": "wikipedia",
+      "title": "Grace Hopper",
+      "url": "https://en.wikipedia.org/wiki/Grace_Hopper"
+    },
+    {
+      "id": "src_hopper_beyer",
+      "kind": "biography",
+      "title": "Kurt W. Beyer, Grace Hopper and the Invention of the Information Age (2009)"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 86,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led development of the first compiler (A-0) and the concept of machine-independent programming languages, directly leading to COBOL — documented via the patent and publication record of these specific technical contributions."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Championed machine-independent, English-like programming languages against significant contemporary skepticism that computers could 'understand' English-like commands at all, documented via Beyer's account of the resistance she faced."
+    },
+    "persuasiveness": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented to have spent years actively persuading both technical peers and military/corporate leadership to adopt compiler-based programming, ultimately succeeding in making it industry standard."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding dual career in the U.S. Navy and computing research across five decades, documented via her service and professional record."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led compiler development teams and later served as a rear admiral directing standardization efforts for COBOL across the Navy, a documented sustained leadership role."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued and publicly advocated for a programming approach many contemporary computer scientists considered technically implausible, a real professional risk documented via the contemporary skepticism Beyer describes."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued advocating for compiler-based, standardized programming languages across years of institutional resistance before COBOL became widely adopted."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued active involvement in computing standards and education into her 70s and 80s, well past conventional retirement, documented via her continued Navy service and lecturing."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Real output combining military service, mathematics teaching, and computer science research — genuine range, though concentrated within a broadly consistent computing/technical domain."
+    },
+    "social_assertiveness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became a widely sought-after public lecturer on computing standardization, documented via her extensive later-career speaking record."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the compiler concept and its advocacy without being assigned the project by a superior, documented via Beyer's account of the A-0 system's origin."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Compiler and language-standardization work required exacting technical precision, directly evidenced by the surviving specifications and code she and her teams produced."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained advocacy against real, documented contemporary technical skepticism over multiple years rather than abandoning the position."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued pursuing progressively larger standardization goals (from a working compiler to an industry-wide standard language) rather than stopping once the initial technical proof was achieved."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Led team-based compiler development and later multi-organization standardization committees, a real but moderately documented collaborative pattern."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Designed and implemented the rigorous logical framework underlying the first compiler and later COBOL, documented via the well-established technical history of her work."
+    },
+    "deep_focus": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained detailed, technically demanding work developing the first compiler (A-0) and later leading COBOL's development, requiring extended concentrated technical effort, documented via the well-established history of her compiler work."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Consistently framed the compiler concept around making programming accessible beyond a small circle of specialists, documented via her own interviews and the historical record of her stated motivation."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued pursuing new technical directions (from mathematics to programming to standardization) across a five-decade career, suggesting sustained intellectual engagement beyond any single specialty."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The compiler project itself was an iterative technical experiment testing whether machine-independent instruction translation was feasible at all, documented via its multi-version development history (A-0, A-1, A-2)."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The core compiler concept — abstracting machine-specific instructions into a portable, higher-level symbolic system — is itself a documented act of systems-level abstraction, directly evidenced by the technology's own design."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, north_america, computing domain complementing Ada Lovelace (theoretical foundations) and Alan Turing (theory) with Hopper's practical systems-engineering and standardization profile — a genuinely distinct shape within the same broad field."
+  }
+}

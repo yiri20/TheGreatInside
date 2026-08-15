@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "malcolm-x",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Malcolm X",
+    "aliases": [
+      "El-Hajj Malik El-Shabazz"
+    ],
+    "wikidataId": "Q43303",
+    "birthYear": 1925,
+    "deathYear": 1965,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_activist"
+    ],
+    "fieldIds": [
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "self_taught",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_malcolmx_wikipedia",
+      "kind": "wikipedia",
+      "title": "Malcolm X",
+      "url": "https://en.wikipedia.org/wiki/Malcolm_X"
+    },
+    {
+      "id": "src_malcolmx_autobiography",
+      "kind": "archive",
+      "title": "Alex Haley, The Autobiography of Malcolm X (1965, as told to Haley)"
+    }
+  ],
+  "rows": {
+    "social_assertiveness": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became one of the most prominent, widely broadcast public speakers of the American civil rights era, documented through extensive surviving footage, transcribed speeches, and press coverage of his public appearances."
+    },
+    "independent_thinking": {
+      "score": 86,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly and substantively revised his own worldview after his 1964 Hajj pilgrimage, breaking from the Nation of Islam's separatist theology in favor of a broader orthodox Islamic and pan-Africanist framework — a documented, specific instance of updating a deeply held public position under new firsthand experience, not merely a general trait claim."
+    },
+    "conflict_tolerance": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct, public confrontation with the political establishment and with figures within his own movement (his split from the Nation of Islam and Elijah Muhammad) across a period documented to have involved credible, ultimately fatal threats against him."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued public speaking and organizing after his home was firebombed and after receiving documented, credible death threats in the weeks before his 1965 assassination — a specific, extensively corroborated pattern of continuing under known extreme personal danger."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rebuilt his public organizing work (founding Muslim Mosque, Inc. and the Organization of Afro-American Unity) essentially from scratch after his very public break from the Nation of Islam, within the final year of his life."
+    },
+    "belief_updating": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents a specific, extensively self-narrated revision of his worldview following the 1964 Hajj pilgrimage — moving from the Nation of Islam's separatist theology toward a broader orthodox Islamic and pan-Africanist framework after direct firsthand experience contradicted his prior assumptions, a well-corroborated first-person account of updating a deeply held position, not secondhand characterization."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rose from incarceration to becoming a nationally prominent public figure within roughly a decade, documented via the well-established public timeline of his life."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and led national organizational structures (as the Nation of Islam's national spokesperson, then his own two organizations), documented via the institutional record of his public role."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Substantively revised his political and religious framework following direct new firsthand experience (the Hajj), a documented, specific instance of updating rather than defending an established position under new information."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His post-Hajj speeches and writings show a documented shift toward more systematically reasoned political and theological analysis, per his own autobiography's account of this period."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Engaged across religious study, domestic political organizing, and international diplomacy during his final year, documented via his autobiography and travel record."
+    },
+    "deep_focus": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents an intense, sustained self-directed prison education program (systematically copying the dictionary by hand over an extended period), a specific, well-corroborated instance of prolonged focused effort."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued developing his political and theological understanding across his life, from Nation of Islam spokesperson to orthodox Sunni Muslim and pan-Africanist organizer, documented via the well-established timeline of his public evolution."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued sustained self-education across history, religion, and politics during and after incarceration, documented via his autobiography's own account of his reading and study."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated his own break from the Nation of Islam and founded two new organizations within the final year of his life, documented via the well-established public record."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Worked with civil rights leaders and met with African heads of state during his final year, documented via his autobiography and the public record of his international travel."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Deliberately founded independent organizations after leaving the Nation of Islam rather than joining an existing group, documented via the historical record of his final year."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The surviving public record documents his rhetorical and organizational activity far more thoroughly than any granular working method, so this is scored conservatively near center rather than assumed from his broader intensity."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents a sustained, self-directed prison education program (extensively reading and copying dictionary entries by hand) that he credited directly for his later intellectual development."
+    },
+    "impact_motivation": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly and repeatedly framed his public work around Black American civil rights and self-determination rather than personal advancement, documented via his own speeches and writing."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, north_america, political-activism domain with a distinct profile shape from Martin Luther King Jr. (already in the roster) — the QID required direct verification: initial search results ambiguously surfaced Q12125981, which was confirmed via direct WebFetch to be the 1972 Arnold Perl documentary FILM about him, not the person; Q43303 was confirmed as the actual person entity (born 19 May 1925 Omaha, died 21 February 1965 Manhattan) before use."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gabriel-garcia-marquez",
+  "status": "held",
+  "holdReason": "Confidence ceiling: available research for this pass drew mainly on secondary biographical summary rather than his own memoir (Living to Tell the Tale) or dedicated biographies in depth, keeping most trait inferences at 'strong_inference'/'inference' rather than 'documented.' After remediation (15 -> 20 scored attributes, coverage now 0.607), average confidence (0.505) still falls well short of the 0.55 floor. A future pass drawing more directly on his memoir could plausibly raise several entries to 'documented' — recorded as a real candidate for revisiting, not a permanent rejection.",
+  "identity": {
+    "canonicalName": "Gabriel García Márquez",
+    "wikidataId": "Q5878",
+    "birthYear": 1927,
+    "deathYear": 2014,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["CO"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["writer"],
+    "fieldIds": ["literature"],
+    "impactDomains": ["literary", "cultural", "historical"],
+    "tagIds": ["prolific", "innovator", "late_recognition"],
+    "archetypeIds": ["creative_creator"]
+  },
+  "sources": [
+    { "id": "src_gabo_wikipedia", "kind": "wikipedia", "title": "Gabriel García Márquez", "url": "https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez" },
+    { "id": "src_gabo_memoir", "kind": "archive", "title": "Gabriel García Márquez, Living to Tell the Tale (2002 memoir)" },
+    { "id": "src_gabo_nobel", "kind": "award_body", "title": "The Nobel Prize — Gabriel García Márquez, Literature 1982" }
+  ],
+  "rows": {
+    "creative_originality": { "score": 90, "confidence": 0.75, "evidenceType": "documented", "impact": "advantage", "rationale": "Widely credited as the central figure in popularizing magical realism as a literary mode, documented via the 1982 Nobel Prize citation and the sustained critical and popular reception of One Hundred Years of Solitude." },
+    "discipline": { "score": 78, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented (his own memoir) to have written One Hundred Years of Solitude in an intensive, sustained roughly 18-month period while in serious financial difficulty, working daily according to a fixed routine." },
+    "risk_tolerance": { "score": 68, "confidence": 0.52, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented in his own memoir to have sold his car and pawned household goods to sustain his family while writing the novel with no guarantee of its success or publication." },
+    "persistence": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Worked as a journalist and struggling novelist for roughly two decades before One Hundred Years of Solitude's success, documented via his own account of his earlier career and unpublished or poorly-received earlier work." },
+    "cross_domain_range": { "score": 68, "confidence": 0.52, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained parallel careers in journalism and fiction across his life, documented via his substantial body of both journalistic and literary work." },
+    "social_assertiveness": { "score": 64, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Maintained a documented public political friendship with Fidel Castro and engaged directly in Latin American political commentary throughout his career, a real public engagement beyond his fiction." },
+    "mastery_orientation": { "score": 70, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued producing major literary work across five decades following his breakthrough novel, evidencing sustained craft engagement beyond a single success." },
+    "achievement_drive": { "score": 65, "confidence": 0.48, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained ambition across two decades of earlier, less successful work before his breakthrough, evidenced by his continued pursuit of a literary career despite limited earlier recognition." },
+    "detail_orientation": { "score": 62, "confidence": 0.46, "evidenceType": "inference", "impact": "neutral", "rationale": "His memoir describes meticulous attention to specific family and regional historical detail as source material for his fiction, though the description is retrospective and self-reported." },
+    "curiosity": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained journalistic career alongside fiction writing suggests real ongoing engagement with current events and observation, documented via his substantial journalistic output." },
+    "impact_motivation": { "score": 60, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "His journalism and later political commentary suggest real motivation toward broader social and political engagement beyond personal literary achievement, though this is a secondary, moderately-evidenced claim relative to his primary documented strength in fiction." },
+    "experimentation": { "score": 66, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Developed the specific narrative techniques of magical realism across earlier, less-successful works before the breakthrough novel, suggesting real sustained technical experimentation rather than a single lucky innovation." },
+    "resourcefulness": { "score": 58, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained his family financially through severe hardship during the writing of his breakthrough novel via pawning possessions, a real but singular documented instance." },
+    "planning_orientation": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "One Hundred Years of Solitude's complex, multi-generational structure suggests real advance narrative planning, though inferred from the finished work rather than a documented outline or compositional method." },
+    "leadership_drive": { "score": 60, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Founded and directed the Fundación Gabo journalism foundation to mentor young Latin American journalists, documented via the foundation's own institutional record." },
+    "collaboration": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Worked closely with editors across his career and collaborated on cultural and journalistic projects with other public figures, documented via his biography." },
+    "deep_focus": { "score": 80, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Wrote One Hundred Years of Solitude in an intense, sustained roughly 18-month writing period, during which he and his wife went into documented debt to sustain his uninterrupted writing time — a specific, well-corroborated biographical episode." },
+    "adaptability": { "score": 60, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Moved between journalism, screenwriting, and fiction across his career, adapting his prose style between magical realism and more direct political journalism, documented via his full bibliography." },
+    "autonomy_need": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Worked as an independent journalist for extended periods early in his career, notably self-funding aspects of his own reporting work before his fiction career provided financial stability." },
+    "independent_thinking": { "score": 60, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Developed a distinctive literary style diverging from the dominant realist literary conventions of his early career, a real but moderately-evidenced departure." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, latin_america, literature domain distinct from Sor Juana/Simón Bolívar — modern Latin American literary tradition not otherwise represented in the roster."
+  }
+}

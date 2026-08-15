@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fela-kuti",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Fela Kuti",
+    "aliases": [
+      "Fela Anikulapo-Kuti"
+    ],
+    "wikidataId": "Q313868",
+    "birthYear": 1938,
+    "deathYear": 1997,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NG"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "innovator",
+      "nonconformist",
+      "founder"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_fela_wikipedia",
+      "kind": "wikipedia",
+      "title": "Fela Kuti",
+      "url": "https://en.wikipedia.org/wiki/Fela_Kuti"
+    },
+    {
+      "id": "src_fela_veal",
+      "kind": "biography",
+      "title": "Michael E. Veal, Fela: The Life and Times of an African Musical Icon (2000)"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 86,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Created Afrobeat by fusing Yoruba music, jazz, highlife, and funk into a distinct new genre, documented via the musicological analysis of his recorded output (Veal)."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Declared his compound 'Kalakuta Republic' independent from the Nigerian state in 1970 — a specific, extensively documented, real act of political defiance."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct musical and political criticism of Nigeria's military government despite documented, repeated violent government raids on his compound, including a 1977 raid that resulted in serious injury to his mother."
+    },
+    "conflict_tolerance": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued releasing directly critical political music and maintaining the Kalakuta Republic's independence claim for years despite repeated, documented violent government retaliation."
+    },
+    "social_assertiveness": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ran for the Nigerian presidency in 1979 and sustained a public political persona alongside his music career, documented via the electoral and press record of the period."
+    },
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His music directly and durably shaped Nigerian and pan-African political consciousness, documented via the sustained cultural and political influence of songs like 'Zombie' (a direct critique of the military)."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and led the Kalakuta Republic as a self-governing community and led a large band (Africa 70/Egypt 80) over decades, documented institutional and musical leadership."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated both the Kalakuta Republic declaration and his direct political candidacy, rather than working within existing structures."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued musical and political activity across roughly three decades despite repeated documented government suppression, imprisonment, and violence directed at him and his community."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued expanding both his musical output and political ambitions (culminating in the 1979 presidential run) rather than settling for musical success alone."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding recording and touring career across roughly three decades alongside running the Kalakuta Republic, documented via his prolific discography."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued evolving the Afrobeat sound across his catalog, incorporating new musical and lyrical approaches rather than repeating an early formula, documented via the stylistic range across his discography."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Real, sustained activity across music composition/performance and direct electoral politics, not music alone."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly framed his music and the Kalakuta Republic project as directed at Nigerian political and social conditions rather than personal artistic expression alone, documented via his own public statements and song lyrics."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Afrobeat's dense, multi-layered arrangements suggest real compositional attention to detail, though the specific working method behind them is only moderately documented."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued refining the Afrobeat sound and expanding his band's arrangements across a multi-decade catalog, suggesting sustained craft development."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded and sustained organized long-term institutional projects — the Kalakuta Republic commune and the Afrika Shrine performance venue — documented via the well-recorded history of both institutions."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained Afrobeat musical innovation and a prolific recorded output across dozens of albums over a multi-decade career, documented via his discography."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Engaged across music, Pan-Africanist political philosophy, and direct activism over his career, documented via biographical accounts of his intellectual and political development."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Navigated shifting political conditions and repeated institutional attacks across his career, suggesting some real adaptive capacity, though the specific evidence is thinner than for the risk_tolerance/conflict_tolerance findings above."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, sub_saharan_africa, music/political-activism domain distinct from Umm Kulthum (which is performance-focused rather than composition/political-confrontation-focused). A profile combining artistic innovation with direct, sustained, high-risk political confrontation not otherwise represented in the roster."
+  }
+}

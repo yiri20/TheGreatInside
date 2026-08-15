@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zora-neale-hurston",
+  "status": "held",
+  "holdReason": "Confidence ceiling: available research for this pass drew mainly on secondary biographical summary (including Boyd's biography) rather than her own extensive published ethnographic and autobiographical writing in depth, keeping most rows at 'strong_inference'/'inference.' After remediation (13 -> 20 scored attributes, coverage now 0.603), average confidence (0.515) still falls short of the 0.55 floor; a future pass drawing more directly on her own field writing (Mules and Men, Dust Tracks on a Road) could plausibly close the gap — recorded as a strong candidate to revisit, not a permanent rejection.",
+  "identity": {
+    "canonicalName": "Zora Neale Hurston",
+    "wikidataId": "Q220480",
+    "birthYear": 1891,
+    "deathYear": 1960,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["writer"],
+    "fieldIds": ["literature"],
+    "impactDomains": ["literary", "cultural", "historical"],
+    "tagIds": ["independent", "late_recognition", "cross_disciplinary"],
+    "archetypeIds": ["creative_creator", "scholarly_specialist"]
+  },
+  "sources": [
+    { "id": "src_hurston_wikipedia", "kind": "wikipedia", "title": "Zora Neale Hurston", "url": "https://en.wikipedia.org/wiki/Zora_Neale_Hurston" },
+    { "id": "src_hurston_boyd", "kind": "biography", "title": "Valerie Boyd, Wrapped in Rainbows: The Life of Zora Neale Hurston (2003)" }
+  ],
+  "rows": {
+    "curiosity": { "score": 84, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Trained formally in anthropology under Franz Boas at Barnard College and conducted extensive original ethnographic fieldwork collecting African American and Caribbean folklore, documented via her published field research (Mules and Men, Tell My Horse)." },
+    "cross_domain_range": { "score": 82, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Real, sustained documented output across fiction (Their Eyes Were Watching God), academic anthropology and folklore collection, journalism, and playwriting." },
+    "independent_thinking": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Took positions during the Harlem Renaissance that put her at odds with some contemporaries, including publicly rejecting the expectation that Black writers should write primarily as political representatives of racial struggle rather than pursuing her own artistic interests, documented via Boyd's biography." },
+    "resourcefulness": { "score": 72, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented to have shaved years off her stated age to qualify for free public high school education as an adult, and later worked as a maid and other jobs to fund her education and fieldwork — specific, corroborated instances." },
+    "risk_tolerance": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Conducted fieldwork alone in rural areas and in Haitian Vodou communities in the 1930s, documented via her own published accounts of the conditions and access challenges involved." },
+    "persistence": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Continued writing and publishing despite a documented late-career decline into poverty and obscurity, working as a maid again in her final years while continuing to write, per Boyd's biography." },
+    "detail_orientation": { "score": 76, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Her ethnographic field collections document precise, close attention to dialect, ritual detail, and oral-tradition specifics, directly observable in the surviving published fieldwork." },
+    "analytical_rigor": { "score": 64, "confidence": 0.5, "evidenceType": "documented", "impact": "advantage", "rationale": "Her formal anthropological training under Franz Boas at Barnard College required and produced rigorous ethnographic methodology, documented via her academic training and published fieldwork." },
+    "collaboration": { "score": 55, "confidence": 0.42, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Worked closely with Franz Boas and other Harlem Renaissance figures on folklore collection and literary projects, documented via her academic and literary career record." },
+    "deep_focus": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Conducted sustained, extended ethnographic fieldwork — months at a time in rural Southern communities and Haiti — requiring real concentrated attention, documented via her own published field accounts." },
+    "mastery_orientation": { "score": 60, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Developed real craft range across fiction, ethnography, journalism, and playwriting over her career." },
+    "impact_motivation": { "score": 64, "confidence": 0.52, "evidenceType": "documented", "impact": "advantage", "rationale": "Explicitly framed her folklore collection work as preserving African American and Caribbean cultural heritage that was otherwise undocumented, documented via her own stated purpose in Mules and Men's introduction." },
+    "planning_orientation": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Her fieldwork required real advance logistical planning (securing funding, arranging travel to rural Southern communities and Haiti), documented via Boyd's biography." },
+    "social_assertiveness": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained a public literary career and cultivated relationships within the Harlem Renaissance literary circle despite documented friction with some contemporaries over the proper role of Black literature." },
+    "adaptability": { "score": 62, "confidence": 0.46, "evidenceType": "inference", "impact": "neutral", "rationale": "Moved between academic anthropology, fiction, journalism, and manual labor across her life as circumstances required, a real but largely necessity-driven pattern of adjustment." },
+    "creative_originality": { "score": 76, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Their Eyes Were Watching God's use of Black Southern dialect as a literary voice, rather than only as dialogue framed by standard narration, was a documented, distinctive stylistic choice noted by literary-critical assessment." },
+    "autonomy_need": { "score": 65, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Pursued her own artistic and scholarly interests even when they diverged from what was expected of her within the Harlem Renaissance literary movement, documented via the same independent_thinking evidence viewed from the preference-for-self-direction angle." },
+    "achievement_drive": { "score": 58, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Pursued formal graduate-level anthropological training as an adult alongside an active writing career, evidencing sustained ambition across two demanding fields simultaneously." },
+    "discipline": { "score": 60, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained fieldwork and writing output across a multi-decade career, though her own documented later-life financial instability suggests a less consistently secure working pattern than some peers — scored moderately rather than assumed uniformly high." },
+    "conflict_tolerance": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Her documented public disagreement with contemporaries over the proper role of Black literature suggests real willingness to hold an unpopular position within her own literary community." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, north_america, literature/anthropology domain — a genuinely cross-disciplinary Harlem Renaissance profile distinct from Toni Morrison (already in the roster, later era) and from Octavia Butler (different genre and era)."
+  }
+}

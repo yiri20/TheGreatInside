@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "immanuel-kant",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Immanuel Kant",
+    "wikidataId": "Q9312",
+    "birthYear": 1724,
+    "deathYear": 1804,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_kant_wikipedia",
+      "kind": "wikipedia",
+      "title": "Immanuel Kant",
+      "url": "https://en.wikipedia.org/wiki/Immanuel_Kant"
+    },
+    {
+      "id": "src_kant_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy — Immanuel Kant"
+    },
+    {
+      "id": "src_kant_kuehn",
+      "kind": "biography",
+      "title": "Manfred Kuehn, Kant: A Biography (2001)"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 92,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Critique of Pure Reason builds an extraordinarily systematic, tightly argued philosophical framework, directly observable in the text's own structure and widely regarded by the Stanford Encyclopedia of Philosophy as among the most rigorous in the Western canon."
+    },
+    "systems_abstraction": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a unified philosophical system spanning epistemology (Critique of Pure Reason), ethics (Critique of Practical Reason), and aesthetics (Critique of Judgment) under one coherent framework — documented via the three Critiques' own explicit interconnection."
+    },
+    "discipline": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Famously maintained such a precise, unvarying daily routine (including his walks) that Königsberg residents reportedly set their clocks by it — widely corroborated across multiple contemporary and biographical accounts (Kuehn), not a single anecdote."
+    },
+    "perfectionism": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Delayed publishing his mature philosophical system until his late 50s, continuing to revise his framework privately for over a decade before the Critique of Pure Reason's 1781 publication, documented via Kuehn's account of this 'silent decade.'"
+    },
+    "planning_orientation": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The three Critiques' deliberate, sequential architecture — each addressing a distinct domain of the same overall system — evidences advance structural planning directly observable in the works' own design."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued developing and refining his philosophical system across the 'silent decade' before publication and for decades afterward, documented via his sustained output into old age."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued extending his system into new domains (aesthetics, politics, religion) well after his initial major work was complete and his reputation secure."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Never married and structured his entire life around his own independent scholarly routine, documented across multiple biographical accounts of his domestic arrangements."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Engaged in real, documented philosophical disputes with contemporaries, though generally through formal written argument rather than sustained personal confrontation — a moderate, not extreme, documented pattern."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The critical philosophy directly departed from and sought to reconcile the era's dominant rationalist and empiricist traditions with a genuinely original synthesis, documented via the Critique's own stated project."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Critiques' famously dense, precisely defined technical vocabulary and argument structure evidence sustained attention to conceptual precision."
+    },
+    "social_assertiveness": {
+      "score": 42,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented (Kuehn) to have led an unusually quiet, routine-bound personal and social life centered on his hometown of Königsberg, which he reportedly never left — a real, evidence-based lower score rather than an assumption from his philosophical stature."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His later work on religion (Religion within the Bounds of Bare Reason) drew formal censure from Prussian royal censors, a real documented consequence of a published position, though his overall career pattern was otherwise institutionally cautious."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued producing major systematic work into his 70s, evidencing sustained ambition well past the point his reputation was already secure."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His moral philosophy (the categorical imperative) was explicitly framed around universal ethical duty applicable to all rational beings, documented via the Groundwork of the Metaphysics of Morals' own stated purpose."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Lectured and wrote across epistemology, ethics, aesthetics, politics, geography, and anthropology, documented via his full body of published and lectured work."
+    },
+    "creative_originality": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The critical philosophy's synthesis of the era's dominant rationalist and empiricist traditions into a genuinely original framework is documented via the Critique's own stated project and its lasting influence per the Stanford Encyclopedia of Philosophy."
+    },
+    "deep_focus": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained an extraordinarily disciplined, unbroken daily routine centered on sustained philosophical work for decades, documented across multiple contemporary and biographical accounts (Kuehn)."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Revised and extended elements of his critical framework across the three Critiques as he applied it to new domains (ethics, aesthetics), documented via the works' own progressive development."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Lectured on and wrote about an unusually wide range of subjects (including geography and anthropology) alongside his core philosophy, suggesting real intellectual range, though this is secondary to his primary, deeply focused systematic project."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: early_modern, western_europe, systematic philosophy domain — deliberately included alongside Rousseau and Aquinas as a genuinely distinct profile shape (extreme documented routine/discipline, low social_assertiveness) rather than a repeat of the same 'philosopher' archetype."
+  }
+}

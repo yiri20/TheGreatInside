@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sojourner-truth",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Sojourner Truth",
+    "aliases": [
+      "Isabella Baumfree"
+    ],
+    "wikidataId": "Q105180",
+    "birthYear": 1797,
+    "deathYear": 1883,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_activist"
+    ],
+    "fieldIds": [
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "advocate",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_truth_wikipedia",
+      "kind": "wikipedia",
+      "title": "Sojourner Truth",
+      "url": "https://en.wikipedia.org/wiki/Sojourner_Truth"
+    },
+    {
+      "id": "src_truth_narrative",
+      "kind": "archive",
+      "title": "Narrative of Sojourner Truth (dictated to Olive Gilbert, 1850)"
+    },
+    {
+      "id": "src_truth_painter",
+      "kind": "biography",
+      "title": "Nell Irvin Painter, Sojourner Truth: A Life, A Symbol (1996)"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became a nationally sought-after extemporaneous speaker across the abolitionist and suffrage circuits for decades; multiple independent eyewitness accounts corroborate her powerful oratory, even though the exact wording of her most famous speech is separately disputed among historians (Painter) — the fact of the sustained speaking career is documented, not the disputed transcript."
+    },
+    "social_assertiveness": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In 1828, sued a white man in court to recover her illegally sold son and won — a specific, legally recorded case, extraordinarily rare for a Black woman in that era."
+    },
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1828 custody lawsuit itself carried severe real risk in that legal and social context, documented via the surviving court record."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chose to rename herself from Isabella Baumfree to Sojourner Truth in 1843, explicitly framing it as her own chosen spiritual and political mission rather than an inherited identity."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Became a prominent organizing figure across both the abolitionist and women's suffrage movements over several decades, documented via convention records of the period."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued touring and speaking into her 80s, decades after emancipation had already been achieved, documented via her later-life speaking itinerary."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented friction within the suffrage movement over the prioritization of Black versus women's suffrage, a real, sustained point of tension she remained engaged with rather than withdrawing from."
+    },
+    "proactive_agency": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated both the 1828 legal case and her subsequent touring speaking career, rather than being recruited into either by an existing organization."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chose her own name and an itinerant, self-directed preaching and speaking life rather than settling into a fixed conventional role after gaining her freedom."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Real activity across legal action, dictated memoir (Narrative of Sojourner Truth), religious preaching, and organized political activism — genuine range, though concentrated within a broadly consistent activist identity."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an itinerant touring and speaking lifestyle for decades, evidencing consistent long-term commitment beyond any single campaign."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Worked within and alongside organized abolitionist and suffrage societies for decades, documented via convention and organizational records."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her sustained, decades-long activism spanned two distinct causes (abolition, then women's suffrage) well past the point personal necessity would have required, evidencing motivation toward broad structural change."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued goal-directed activism across two distinct, sequential causes rather than settling after the first was substantially achieved."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented transitions from enslaved laborer to legal claimant to preacher to nationally recognized activist and memoirist — genuinely distinct roles across her lifetime."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented to have made a specific, dated decision to walk away from her enslaver to freedom with her infant daughter in 1826, and separately to pursue the 1828 legal case rather than accept the loss of her son — both specific, corroborated decisive actions."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Became a renowned public orator despite no formal education, continuously refining her rhetorical approach across decades of lecturing on abolition and women's rights."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Successfully sued to recover her illegally sold son in an 1828 Ulster County court case — a specific, documented instance of recognizing and using a legal avenue few in her position would have pursued, becoming one of the first Black women to win such a case against a white man in a U.S. court."
+    },
+    "deep_focus": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained decades of lecture-circuit engagement on abolition and women's rights without formal institutional backing, documented via her dictated Narrative and the well-recorded history of her public career."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented to have engaged in sustained direct dialogue and debate with audiences, adapting her arguments across different settings, suggesting real intellectual engagement beyond a fixed rehearsed message."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sold cartes de visite of her own portrait, captioned 'I Sell the Shadow to Support the Substance,' as a documented, specific, self-devised method of funding her activism — a real, concrete resourceful strategy, not a general inference."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 19th_century, north_america, oratory/activism domain distinct from Douglass (different specific evidence base — legal action and self-funded activism rather than journalism/diplomacy) and MLK (earlier era, different movement). The famous 'Ain't I a Woman?' speech's disputed exact transcript was deliberately NOT used as evidence for any score — only independently corroborated facts (the 1828 case, the touring career, the self-published cartes de visite) were."
+  }
+}

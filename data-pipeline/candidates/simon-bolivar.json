@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "simon-bolivar",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Simón Bolívar",
+    "wikidataId": "Q8605",
+    "birthYear": 1783,
+    "deathYear": 1830,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "VE"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_leader",
+      "political_leader"
+    ],
+    "fieldIds": [
+      "military",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist",
+      "young_leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_bolivar_wikipedia",
+      "kind": "wikipedia",
+      "title": "Simón Bolívar",
+      "url": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar"
+    },
+    {
+      "id": "src_bolivar_lynch",
+      "kind": "biography",
+      "title": "John Lynch, Simón Bolívar: A Life (2006)"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 92,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led independence campaigns across present-day Venezuela, Colombia, Ecuador, Peru, and Bolivia and served as President of Gran Colombia — documented across the extensive military and political record of the era."
+    },
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Survived multiple exiles and at least one documented assassination attempt while continuing military campaigns against Spanish colonial forces."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued the independence struggle across roughly two decades despite repeated documented setbacks, including being forced into exile more than once and having to rebuild his campaign from very little each time."
+    },
+    "adaptability": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Adapted military and political strategy across genuinely different terrains and political contexts (Venezuela, Colombia, the Andes, Peru), documented via Lynch's account of the successive campaigns."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rallied diverse regional military and political leaders under a unified independence banner across multiple countries, documented via the coalition-building record of the campaigns."
+    },
+    "planning_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Coordinated complex, multi-year, multi-national military and political campaigns, documented via the sustained coordination the independence wars required."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Authored substantial political-theoretical writings (the Jamaica Letter, the Angostura Address) presenting systematic argument about governance, documented via the surviving texts themselves."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed his own distinct political vision for Latin American unity and governance, documented as diverging from other contemporary independence leaders' models."
+    },
+    "decisiveness": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1819 crossing of the flooded Andes to reach and win the Battle of Boyacá by surprise is a specific, well-documented, high-stakes strategic decision."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a two-decade military and political campaign across multiple countries, evidencing consistent long-term commitment."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated much of the independence movement's strategic direction across multiple countries rather than following an existing plan."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained armed conflict against Spanish colonial forces across roughly two decades rather than seeking early accommodation."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented real strategic and personal rivalry with fellow independence leader José de San Martín over the future governance of the liberated territories — a real but moderately-evidenced pattern."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Worked with numerous regional military and political leaders across the campaigns, though also documented real friction and rivalry with several of them (including San Martín) — genuinely mixed, scored toward the center."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Real output spanning military command, political theory/writing, and nation-building administration, not military leadership alone."
+    },
+    "systems_abstraction": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed a coherent political ideology (what later became known as Bolivarianism) for continental governance, documented via his own political writings."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented to have proposed a unified Latin American confederation beyond his own personal rule (ultimately unrealized), suggesting real motivation toward structural change — though he also held substantial personal power, keeping this scored moderately rather than at the extreme."
+    },
+    "deep_focus": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the military and political campaign for South American independence across roughly two decades despite repeated setbacks and reversals, documented via the well-recorded campaign history."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed both military command and political/administrative governance capability across his campaigns, documented via the historical record of his expanding roles from military commander to head of state of Gran Colombia."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued the liberation of multiple South American nations across two decades (present-day Venezuela, Colombia, Ecuador, Peru, and Bolivia, the last named after him), documented via the well-recorded military and political history of his campaigns."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Funded and organized military campaigns across resource-poor and logistically difficult terrain for two decades, documented via the campaigns' own logistical history."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 19th_century, latin_america, military/political-independence domain distinct from Toussaint Louverture's earlier, single-territory revolution. Passes inclusion_v1: born into wealth (which enabled access, per this policy's own explicit non-disqualification of inherited wealth/education), but his recognized achievement — leading and winning independence campaigns across five countries — was not an inherited position or title."
+  }
+}

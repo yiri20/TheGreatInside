@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cv-raman",
+  "status": "held",
+  "holdReason": "Confidence ceiling: the surviving English-language record concentrates heavily on his scientific achievements and institution-building, with comparatively thin documentation of personal working style or decision-making outside the lab, keeping most trait inferences at 'strong_inference' rather than 'documented.' After remediation (15 -> 20 scored attributes, coverage now 0.604), average confidence (0.522) still falls short of the 0.55 floor; a defensible path to closing the remaining gap without stretching the evidence was not found.",
+  "identity": {
+    "canonicalName": "C. V. Raman",
+    "aliases": ["Chandrasekhara Venkata Raman"],
+    "wikidataId": "Q60429",
+    "birthYear": 1888,
+    "deathYear": 1970,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia",
+    "historicalPolityKey": "polity.british_raj"
+  },
+  "classification": {
+    "occupationIds": ["physicist"],
+    "fieldIds": ["physics"],
+    "impactDomains": ["scientific", "historical", "educational"],
+    "tagIds": ["nobel_laureate", "self_taught", "independent"],
+    "archetypeIds": ["scientific_explorer"]
+  },
+  "sources": [
+    { "id": "src_raman_wikipedia", "kind": "wikipedia", "title": "C. V. Raman", "url": "https://en.wikipedia.org/wiki/C._V._Raman" },
+    { "id": "src_raman_nobel", "kind": "award_body", "title": "The Nobel Prize — C.V. Raman, Physics 1930" }
+  ],
+  "rows": {
+    "curiosity": { "score": 84, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented to have pursued serious original physics research (on the physics of musical instruments) as a side interest while working full-time in the Indian Finance Department, before formally entering physics as a career — self-directed inquiry with no institutional requirement." },
+    "independent_thinking": { "score": 76, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Discovered the Raman effect (inelastic scattering of light) working primarily with basic apparatus at an Indian research institute rather than following the era's dominant Western research infrastructure model, documented via the Nobel Prize record of the discovery." },
+    "experimentation": { "score": 82, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "The Raman effect was discovered through direct, hands-on optical experimentation using sunlight and simple filters, documented via the original 1928 experimental papers." },
+    "resourcefulness": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Conducted the discovery experiments with comparatively modest equipment relative to better-funded Western laboratories of the era, documented via accounts of the original experimental setup." },
+    "risk_tolerance": { "score": 60, "confidence": 0.46, "evidenceType": "inference", "impact": "neutral", "rationale": "Left a stable, well-paid government finance position to pursue a lower-paid academic science career, a real documented career change, though the personal risk calculus is only moderately detailed in available sources." },
+    "discipline": { "score": 70, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained parallel serious scientific research alongside full-time government work for over a decade before formally transitioning to a physics career." },
+    "leadership_drive": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Founded and directed the Raman Research Institute and served as director of the Indian Institute of Science, documented institutional leadership roles." },
+    "mastery_orientation": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued active physics research across decades following the Nobel-winning discovery rather than resting on that single achievement." },
+    "proactive_agency": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Self-initiated the founding of the Raman Research Institute rather than working solely within existing institutional structures." },
+    "persistence": { "score": 65, "confidence": 0.48, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained self-directed physics research over roughly a decade alongside a full-time unrelated career before achieving formal recognition." },
+    "cross_domain_range": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented serious research spanning acoustics (his early musical-instrument physics work) and optics (the Raman effect) — real but moderate range within physics broadly." },
+    "achievement_drive": { "score": 62, "confidence": 0.45, "evidenceType": "inference", "impact": "neutral", "rationale": "The career transition from finance to physics, followed by sustained research leading to a Nobel Prize, evidences real long-term ambition." },
+    "autonomy_need": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Pursued independent research outside the era's dominant institutional science structures, suggesting some real preference for self-directed inquiry." },
+    "detail_orientation": { "score": 60, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Precise optical spectroscopy work of the kind that led to the Raman effect discovery required careful measurement, though the specific documented behavioral detail is limited relative to the discovery's outcome." },
+    "systems_abstraction": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Developed a broader theoretical framework connecting light scattering to molecular structure, documented via the Nobel Prize citation's own framing of the Raman effect's explanatory scope." },
+    "social_assertiveness": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Publicly and assertively promoted Indian science on the world stage across his career, documented via his sustained institution-building and public advocacy record." },
+    "deep_focus": { "score": 80, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained years of experimental work on light scattering leading to the 1928 discovery of the Raman effect, documented via the Nobel Prize citation and the well-recorded experimental history." },
+    "planning_orientation": { "score": 68, "confidence": 0.54, "evidenceType": "documented", "impact": "advantage", "rationale": "Founded and directed the Indian Institute of Science's physics department and later the Raman Research Institute, requiring sustained institutional planning, documented via the institutions' own history." },
+    "impact_motivation": { "score": 64, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Explicitly worked to build Indian scientific institutions and mentor Indian physicists as part of a deliberate scientific-development project, documented via the historical record of his institution-building." },
+    "analytical_rigor": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The identification and correct theoretical interpretation of the Raman effect required rigorous analysis distinguishing it from other known scattering phenomena, documented via the original published physics." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, south_asia, physics domain complementing Ramanujan (pure mathematics) with an experimental-physics profile under colonial-era resource constraints, distinct from the roster's other physicists."
+  }
+}

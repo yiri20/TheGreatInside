@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rachel-carson",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Rachel Carson",
+    "wikidataId": "Q100948",
+    "birthYear": 1907,
+    "deathYear": 1964,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "writer"
+    ],
+    "fieldIds": [
+      "biology",
+      "environmental_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "cross_disciplinary",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_carson_wikipedia",
+      "kind": "wikipedia",
+      "title": "Rachel Carson",
+      "url": "https://en.wikipedia.org/wiki/Rachel_Carson"
+    },
+    {
+      "id": "src_carson_lear",
+      "kind": "biography",
+      "title": "Linda Lear, Rachel Carson: Witness for Nature (1997)"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Published Silent Spring (1962) knowing it would provoke direct, sustained attack from the chemical industry — documented via Lear's biography detailing the well-funded public campaign against her personally and professionally that followed, which she continued to publicly defend her work through despite it."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued the Silent Spring project and its public defense while managing a private, undisclosed terminal cancer diagnosis, documented via Lear's biography — a specific, corroborated instance of sustained public risk-taking under severe personal circumstance."
+    },
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Silent Spring synthesized and cross-checked a large body of existing scientific literature on pesticide effects into a rigorously sourced argument, documented via the book's own extensive endnotes and its lasting scientific credibility."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a career spanning marine biology research, government science writing (at the U.S. Bureau of Fisheries), and popular science writing (The Sea Around Us, Silent Spring), documented via her full bibliography and career record."
+    },
+    "impact_motivation": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly framed Silent Spring around public and ecological welfare rather than scientific credit or personal advancement, documented via her own stated purpose in the book and subsequent congressional testimony."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Took a position directly opposed to the prevailing agricultural-chemical industry consensus of the period, sustained through a well-documented public campaign against her, rather than retracting or softening her position."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a multi-year research and writing process for Silent Spring while working a full-time government science career and managing family caregiving responsibilities, documented via Lear's biography."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Silent Spring's extensive, precisely cited scientific documentation (over 50 pages of source notes) evidences sustained attention to factual precision under public scrutiny."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Distinctively combined rigorous scientific argument with accessible, literary prose style, documented via critical assessment of her work's lasting influence on science writing as a genre."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued public advocacy and testimony (including before a Senate subcommittee) defending Silent Spring's findings through the sustained industry campaign against her, up until her death shortly after publication."
+    },
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Silent Spring synthesized ecology, chemistry, and public health into one coherent systemic argument about ecosystem-wide pesticide effects, documented via the book's own analytical structure."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Silent Spring is widely credited with catalyzing the modern environmental movement and directly influencing U.S. pesticide policy, including the eventual domestic DDT ban, documented via the well-established historical record of its policy impact."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Left her stable government position to pursue independent writing once her book royalties allowed, documented via Lear's biography."
+    },
+    "opportunity_sensing": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Recognized the emerging public-health significance of pesticide accumulation before it was a mainstream concern, synthesizing scattered scientific findings into a coherent public argument, documented via Silent Spring's own content and reception."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained years of research synthesis for Silent Spring, cross-referencing an extensive scientific literature while managing a full-time government science career, documented via Lear's biography."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed her craft across marine biology research, government science writing, and popular science writing (The Sea Around Us, Silent Spring) over her career."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Silent Spring's multi-year research and writing process required sustained advance organization of a large body of scientific evidence, documented via Lear's biography."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Worked closely with government scientist colleagues and correspondents while researching Silent Spring, documented via Lear's biography."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Transitioned from a government marine-biology career to full-time independent writing as her book royalties allowed, documented via Lear's biography."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a demanding, multi-decade science-writing and research career while also serving as primary caregiver to family members across much of her adult life, evidencing real long-term ambition balanced against significant competing responsibility."
+    },
+    "social_assertiveness": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented by Lear as personally reserved and more comfortable with solitary research and writing than public confrontation, though she did testify publicly when the situation required it — an honestly moderate-low score rather than an assumption of extroversion from her public impact."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained cross-disciplinary synthesis (chemistry, ecology, ornithology, public health) across Silent Spring suggests real intellectual range beyond her core marine-biology training."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, north_america, environmental-science domain not represented anywhere in the current roster — a distinct profile shape from other scientists already included (low social_assertiveness paired with high documented conflict_tolerance/risk_tolerance from the Silent Spring campaign specifically, not general characterization)."
+  }
+}

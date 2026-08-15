@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "miriam-makeba",
+  "status": "held",
+  "holdReason": "Confidence ceiling: available research for this pass covers her public career and activism well but says comparatively little about her personal working style, keeping most rows at 'strong_inference'/'inference.' After remediation (15 -> 20 scored attributes, coverage now 0.606), average confidence (0.526) still falls short of the 0.55 floor; a future pass drawing more directly on her own memoir (Makeba: My Story) could plausibly close the gap — recorded as a candidate to revisit, not a permanent rejection.",
+  "identity": {
+    "canonicalName": "Miriam Makeba",
+    "wikidataId": "Q146256",
+    "birthYear": 1932,
+    "deathYear": 2008,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["ZA"],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": ["singer", "political_activist"],
+    "fieldIds": ["music"],
+    "impactDomains": ["artistic", "cultural", "social"],
+    "tagIds": ["overcame_adversity", "advocate", "founder"],
+    "archetypeIds": ["social_influencer", "creative_creator"]
+  },
+  "sources": [
+    { "id": "src_makeba_wikipedia", "kind": "wikipedia", "title": "Miriam Makeba", "url": "https://en.wikipedia.org/wiki/Miriam_Makeba" },
+    { "id": "src_makeba_britannica", "kind": "institution", "title": "Encyclopaedia Britannica — Miriam Makeba" }
+  ],
+  "rows": {
+    "risk_tolerance": { "score": 84, "confidence": 0.65, "evidenceType": "documented", "impact": "risk", "rationale": "Testified before the United Nations against apartheid in 1963, after which the South African government revoked her passport and citizenship, barring her return for over 30 years — a specific, documented, severe consequence of a deliberate public action." },
+    "social_assertiveness": { "score": 86, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "The UN testimony itself, and her sustained public advocacy against apartheid across subsequent decades of exile, are both documented instances of direct public political assertion." },
+    "conflict_tolerance": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "risk", "rationale": "Continued public anti-apartheid advocacy for over three decades in exile despite the severe, documented personal cost (loss of citizenship, inability to return home even for her mother's funeral)." },
+    "persuasiveness": { "score": 76, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Widely credited with using her international musical platform to bring global attention to apartheid, documented via the sustained international press and diplomatic attention her advocacy generated." },
+    "persistence": { "score": 82, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained a performing and advocacy career across more than three decades of exile from her home country, documented via her continuous international recording and touring record." },
+    "proactive_agency": { "score": 78, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Self-initiated the 1963 UN testimony rather than being asked to give it by an outside organization, documented via the historical record of the hearing." },
+    "curiosity": { "score": 55, "confidence": 0.42, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Engaged across music, international diplomacy, and political activism throughout her decades of exile, documented via her memoir and public record." },
+    "detail_orientation": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Noted for meticulous vocal and musical craftsmanship blending South African and international styles, documented via critical assessment of her recordings." },
+    "independent_thinking": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Testified before the United Nations against apartheid in 1963, leading directly to her South African citizenship being revoked — a documented instance of accepting severe personal consequence for a public political position." },
+    "deep_focus": { "score": 62, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained an international recording and performing career across roughly five decades despite decades of exile, documented via her discography." },
+    "mastery_orientation": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued developing her musical career across genres and decades in exile rather than remaining static, documented via her sustained recording history." },
+    "creative_originality": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Credited with popularizing South African musical styles (including click-consonant Xhosa singing) to international audiences in a form not previously widely heard outside the region." },
+    "adaptability": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Rebuilt her career and life across multiple countries during her decades of exile (the US, Guinea, and elsewhere), documented via her residency history during this period." },
+    "leadership_drive": { "score": 62, "confidence": 0.46, "evidenceType": "inference", "impact": "neutral", "rationale": "Served as a prominent, recognized figure within the international anti-apartheid movement, though the surviving record documents her as an advocate/symbol more than a formal organizational leader." },
+    "impact_motivation": { "score": 80, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Explicitly and repeatedly used her platform for the anti-apartheid cause across decades rather than for personal career advancement alone, documented via her sustained public advocacy record." },
+    "discipline": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained an international recording and touring career across several decades and multiple countries of exile." },
+    "achievement_drive": { "score": 58, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued building an international career across genuinely difficult circumstances (statelessness, exile) rather than retreating from public life." },
+    "autonomy_need": { "score": 60, "confidence": 0.45, "evidenceType": "inference", "impact": "neutral", "rationale": "Rebuilt an independent career and life across several countries without a fixed institutional home during her exile, suggesting real self-directed resilience." },
+    "collaboration": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Worked with numerous musicians and organizations across her international career and exile, a real but moderately documented collaborative pattern." },
+    "cross_domain_range": { "score": 48, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented achievement is concentrated in music performance and direct political advocacy — real but modest range, honestly scored rather than inflated." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, sub_saharan_africa, music/anti-apartheid-activism domain — a distinct profile from Fela Kuti's confrontational-at-home model, showing the very different, real cost of sustained EXILE-based advocacy."
+  }
+}

@@ -650,6 +650,10 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "polity.holy_roman_empire": "신성 로마 제국",
   "polity.british_raj": "영국령 인도 제국",
   "polity.roman_empire": "로마 제국",
+  "polity.new_spain": "누에바에스파냐 부왕령",
+  "polity.almohad_caliphate": "알모하드 칼리파국",
+  "polity.ayyubid_sultanate": "아이유브 술탄국",
+  "polity.heian_japan": "헤이안 시대 일본",
 
   "dontcopy.davinci.unfinished_work":
     "레오나르도는 많은 작품과 프로젝트를 미완성으로 남겼다고 전기적 기록들은 전합니다. 흥미로운 문제가 풀리면 곧장 다음으로 넘어가곤 했던 그 성향은, 그의 폭넓은 관심사를 키운 힘이자 동시에 많은 작품을 미완성으로 남긴 이유이기도 합니다.",
@@ -1536,6 +1540,24 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.umm-kulthum": "움 쿨숨",
   "person.name.vincent-van-gogh": "빈센트 반 고흐",
   "person.name.wilbur-wright": "윌버 라이트",
+
+  // roster-1000 session 4, second real batch (2026-08) — 16 accepted people.
+  "person.name.benjamin-banneker": "벤저민 배네커",
+  "person.name.chinua-achebe": "치누아 아체베",
+  "person.name.emmy-noether": "에미 뇌터",
+  "person.name.fela-kuti": "펠라 쿠티",
+  "person.name.florence-nightingale": "플로렌스 나이팅게일",
+  "person.name.grace-hopper": "그레이스 호퍼",
+  "person.name.immanuel-kant": "임마누엘 칸트",
+  "person.name.malcolm-x": "맬컴 엑스",
+  "person.name.muhammad-ali": "무하마드 알리",
+  "person.name.niels-bohr": "닐스 보어",
+  "person.name.rachel-carson": "레이첼 카슨",
+  "person.name.simon-bolivar": "시몬 볼리바르",
+  "person.name.sojourner-truth": "소저너 트루스",
+  "person.name.sor-juana-ines-de-la-cruz": "소르 후아나 이네스 데 라 크루스",
+  "person.name.toussaint-louverture": "투생 루베르튀르",
+  "person.name.wole-soyinka": "월레 소잉카",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

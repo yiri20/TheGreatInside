@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maimonides",
+  "status": "held",
+  "holdReason": "Confidence ceiling for a 12th-century figure: evidence is well corroborated across multiple independent medieval and modern scholarly accounts (coverage clears 0.6 comfortably at 22 scored attributes), but the era's sourcing does not support the certainty of a primary autobiographical or modern documentary record. Average confidence (0.529) remains short of the 0.55 floor after two remediation passes; closing the gap further would require inflating confidence beyond what medieval secondary-source corroboration honestly supports.",
+  "identity": {
+    "canonicalName": "Maimonides",
+    "aliases": ["Moses ben Maimon", "Rambam"],
+    "wikidataId": "Q127398",
+    "birthYear": 1138,
+    "deathYear": 1204,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "north_africa",
+    "historicalPolityKey": "polity.ayyubid_sultanate"
+  },
+  "classification": {
+    "occupationIds": ["philosopher", "physician"],
+    "fieldIds": ["philosophy"],
+    "impactDomains": ["historical", "educational", "medical"],
+    "tagIds": ["polymath", "systematic_thinker", "prolific"],
+    "archetypeIds": ["scholarly_specialist", "cross_disciplinary_generalist"]
+  },
+  "sources": [
+    { "id": "src_maimonides_wikipedia", "kind": "wikipedia", "title": "Maimonides", "url": "https://en.wikipedia.org/wiki/Maimonides" },
+    { "id": "src_maimonides_sep", "kind": "institution", "title": "Stanford Encyclopedia of Philosophy — Maimonides" }
+  ],
+  "rows": {
+    "systems_abstraction": { "score": 88, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "The Mishneh Torah systematically organizes the entire body of Jewish religious law into one coherent, topically structured code — a documented, unprecedented organizational undertaking directly observable in the surviving text." },
+    "analytical_rigor": { "score": 82, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "The Guide for the Perplexed builds a sustained, structured philosophical argument reconciling Aristotelian rationalism with Jewish theology, directly observable in the surviving text's own method." },
+    "cross_domain_range": { "score": 84, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented substantial output and real professional practice across religious law (Mishneh Torah), philosophy (Guide for the Perplexed), and medicine (serving as court physician, with several surviving medical treatises) — genuine range with real achievement in each." },
+    "discipline": { "score": 80, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented to have maintained a demanding daily medical practice at court while continuing major scholarly writing, per his own surviving letters describing his schedule." },
+    "mastery_orientation": { "score": 76, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued producing major work across law, philosophy, and medicine throughout his career rather than resting on any single completed achievement." },
+    "independent_thinking": { "score": 72, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Guide's project of reconciling Aristotelian philosophy with Jewish scripture was a genuinely contested position among his contemporaries, per the Stanford Encyclopedia of Philosophy's account of the controversy it generated." },
+    "planning_orientation": { "score": 78, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "The Mishneh Torah's deliberate topical organization across fourteen books, each further subdivided systematically, is directly observable in the text's own structure." },
+    "persistence": { "score": 72, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Mishneh Torah alone represents a documented decade-long undertaking (widely dated to roughly 1170-1180), sustained alongside his ongoing medical and communal responsibilities." },
+    "conflict_tolerance": { "score": 62, "confidence": 0.48, "evidenceType": "inference", "impact": "neutral", "rationale": "The Guide's philosophical positions generated real, documented controversy among later rabbinic authorities (some of his works were subject to formal bans in parts of Europe after his death), though the direct evidence of his own engagement with contemporary critics during his lifetime is thinner." },
+    "leadership_drive": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Served as a recognized leader (Nagid) of the Egyptian Jewish community in addition to his scholarly and medical work, a documented communal leadership role." },
+    "detail_orientation": { "score": 70, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Mishneh Torah's exhaustive, code-like coverage of legal minutiae across fourteen books evidences sustained attention to comprehensive detail." },
+    "achievement_drive": { "score": 65, "confidence": 0.48, "evidenceType": "inference", "impact": "neutral", "rationale": "The explicit scale of the Mishneh Torah project (aiming to make the entire legal tradition accessible without needing other sources) suggests real high ambition, inferred from the work's own stated purpose." },
+    "curiosity": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained serious engagement across law, philosophy, and medicine simultaneously, evidencing real breadth of intellectual interest beyond what any single professional role required." },
+    "resourcefulness": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented to have rebuilt a scholarly and medical career after his family fled persecution in Almohad Spain, eventually reaching Fustat — a real but only moderately detailed resettlement account." },
+    "adaptability": { "score": 62, "confidence": 0.45, "evidenceType": "inference", "impact": "neutral", "rationale": "Successfully re-established himself professionally after relocating from Córdoba through Fez and Palestine before settling in Fustat, documented via the biographical record of his family's displacement." },
+    "proactive_agency": { "score": 60, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Self-initiated the Mishneh Torah project without royal or communal commission, per Stanford Encyclopedia of Philosophy's account of the work's origin as his own undertaking." },
+    "experimentation": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "His medical treatises reflect direct clinical practice and observation as court physician, consistent with the standard medieval medical methodology of the period, though no specific documented experimental instance survives distinctly." },
+    "creative_originality": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Synthesized Aristotelian philosophy with Jewish theology in the Guide for the Perplexed, a genuinely original philosophical framework, documented via its lasting influence on both Jewish and broader medieval philosophy per historical-philosophical assessment." },
+    "deep_focus": { "score": 76, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained the systematic codification of the entire corpus of Jewish law into the 14-volume Mishneh Torah, a massive single undertaking documented via the work's own stated scope and organizing purpose." },
+    "impact_motivation": { "score": 66, "confidence": 0.56, "evidenceType": "documented", "impact": "advantage", "rationale": "Served as physician to Saladin's vizier al-Qadi al-Fadil and as Nagid (leader) of the Fustat Jewish community, applying his scholarship directly to public medical and communal service, documented across independent historical accounts of his official roles." },
+    "risk_tolerance": { "score": 62, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "risk", "rationale": "Fled religious persecution under Almohad rule from Córdoba, eventually settling in Fustat, Egypt after years of displacement — a well-documented, multi-year period of real personal hardship and relocation." },
+    "belief_updating": { "score": 50, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Primarily documented as building and defending a coherent, consistent philosophical-legal system across his career rather than publicly revising it — scored near center given no specific documented reversal." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: medieval era, north_africa (Egypt), Jewish philosophical/legal tradition not represented anywhere in the current roster. Medieval evidence discipline applied: confidence capped at 0.65."
+  }
+}

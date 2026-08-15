@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pele",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Pelé",
+    "aliases": ["Edson Arantes do Nascimento"],
+    "wikidataId": "Q12897",
+    "birthYear": 1940,
+    "deathYear": 2022,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["BR"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "historical", "cultural"],
+    "tagIds": ["sustained_excellence", "prodigy"],
+    "archetypeIds": []
+  },
+  "sources": [
+    { "id": "src_pele_wikipedia", "kind": "wikipedia", "title": "Pelé", "url": "https://en.wikipedia.org/wiki/Pel%C3%A9" }
+  ],
+  "rows": {
+    "achievement_drive": { "score": 68, "confidence": 0.46, "evidenceType": "inference", "impact": "advantage", "rationale": "Won three FIFA World Cups (1958, 1962, 1970) across three separate career phases, a documented competitive outcome suggesting sustained ambition, though this is scored from results rather than a specific documented behavioral account of his training or preparation approach." },
+    "competitiveness": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained elite performance across three World Cup cycles evidences real competitive drive, though — as with achievement_drive — this is inferred substantially from results rather than specific documented personal behavior." },
+    "discipline": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "A multi-decade elite athletic career implies sustained training discipline, but readily available sourcing documents match outcomes and statistics far more thoroughly than his personal working habits or routine." }
+  },
+  "holdReason": "Scored only 3 attributes at low confidence — the same evidence-type gap identified for Jesse Owens in the first batch, and genuinely more severe here: readily available English-language sourcing for Pelé is overwhelmingly about match statistics, goals, and World Cup outcomes rather than personal behavioral or biographical detail, and per this rubric's 'success != high score' rule, competitive outcomes alone cannot support most trait scores. Unlike Muhammad Ali (extensive personal interviews, an autobiography, and a dedicated archive center), no comparably rich first-person or close-biographical source was readily available in this pass to responsibly clear the 18-attribute floor. Held, not rejected — a future pass drawing on Portuguese-language biographical sources or his own memoirs could likely responsibly clear this candidate.",
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick that deliberately tests the SAME thin-personal-documentation failure mode as Jesse Owens (batch 1), this time for a non-US, non-English-primary-source athlete — a genuinely distinct sourcing-access dimension worth recording, not just a repeat finding. latin_america, 20th_century, athletics."
+  }
+}

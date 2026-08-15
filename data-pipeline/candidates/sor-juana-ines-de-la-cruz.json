@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sor-juana-ines-de-la-cruz",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Sor Juana Inés de la Cruz",
+    "wikidataId": "Q183074",
+    "birthYear": 1648,
+    "deathYear": 1695,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "MX"
+    ],
+    "regionCode": "latin_america",
+    "historicalPolityKey": "polity.new_spain"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "literature",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "self_taught",
+      "nonconformist",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sorjuana_wikipedia",
+      "kind": "wikipedia",
+      "title": "Sor Juana Inés de la Cruz",
+      "url": "https://en.wikipedia.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz"
+    },
+    {
+      "id": "src_sorjuana_respuesta",
+      "kind": "archive",
+      "title": "La Respuesta a Sor Filotea de la Cruz (1691)"
+    },
+    {
+      "id": "src_sorjuana_paz",
+      "kind": "biography",
+      "title": "Octavio Paz, Sor Juana, or, The Traps of Faith (1988)"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 92,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented (including in her own account) to have taught herself to read as a small child, learned Latin in a small number of lessons, and assembled one of the largest private libraries in colonial Spanish America (~4,000 volumes)."
+    },
+    "independent_thinking": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote La Respuesta a Sor Filotea de la Cruz as a direct, reasoned defense of women's right to intellectual life, addressed specifically to a bishop who had publicly criticized her — the surviving text itself is the documented evidence."
+    },
+    "creative_originality": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A substantial body of poetry and drama widely regarded by literary scholarship as among the most original of the Spanish Golden Age, documented via the surviving corpus and its critical reception."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Respuesta builds a systematic, point-by-point theological and philosophical argument rather than a purely emotional appeal, directly observable in the surviving text."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Publicly defended her intellectual pursuits against direct criticism from Church authority, a documented real risk in her context — she was eventually pressured into giving up her library and writing near the end of her life."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Respuesta is regarded by literary-critical consensus (Paz) as a rhetorically sophisticated, deliberately persuasive defense, not merely a personal statement."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented to have entered convent life specifically as a deliberate strategic choice to secure the time and autonomy for sustained study, which marriage would not have afforded a woman of her era."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same documented convent decision is a specific, concrete instance of finding an unconventional path to a goal (scholarly life) that was not directly available to her."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Recognized convent life as the one realistically available path to sustained intellectual work for a woman in colonial Mexico, documented via her own and biographers' accounts of the decision."
+    },
+    "mastery_orientation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued assembling her library and producing scholarly and literary work across decades, well beyond what any single patron or purpose required."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Real, documented output across poetry, theatrical drama, and theological/philosophical argument (the Respuesta), not one genre alone."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct disagreement with Church authority over her intellectual pursuits for years before eventually being pressured to cease, documented via the surviving correspondence and later biographical record."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The convent decision was explicitly, by her own documented account, motivated by the pursuit of intellectual autonomy unavailable through marriage."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented to have been examined as a teenager by a panel of scholars at the viceregal court and to have impressed them with her knowledge — a specific, corroborated instance of direct public intellectual engagement before entering the convent."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued scholarly and literary work for decades within the convent despite recurring institutional pressure to conform to more conventional religious duties."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated both her own early self-education and the strategic choice of convent life, rather than following a path set by family or institution."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Respuesta builds a general framework defending women's right to knowledge as a category, not only her own individual case — a structural argument, distinct from the analytical rigor of any single point within it."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued an extensive self-directed intellectual education and accumulated one of colonial Mexico's largest private libraries, documented via well-corroborated historical accounts of her scholarly output and library."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her famous \"Respuesta a Sor Filotea\" explicitly defended women's right to education and intellectual life, a document framed around a broader social purpose, well documented via the surviving text itself."
+    },
+    "deep_focus": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained scholarly and literary output across decades within convent life suggests real sustained engagement, though the surviving record documents output more than her specific daily working method."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: early_modern, latin_america, early feminist philosophy/literature domain not represented anywhere in the current roster. A genuinely early and well-documented case of a woman using an institutional structure (the convent) strategically and resourcefully to pursue intellectual autonomy."
+  }
+}

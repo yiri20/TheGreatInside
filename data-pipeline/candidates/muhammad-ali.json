@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "muhammad-ali",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Muhammad Ali",
+    "aliases": [
+      "Cassius Clay"
+    ],
+    "wikidataId": "Q36107",
+    "birthYear": 1942,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "sport",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "athletic",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "nonconformist",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "competitive_performer",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ali_wikipedia",
+      "kind": "wikipedia",
+      "title": "Muhammad Ali",
+      "url": "https://en.wikipedia.org/wiki/Muhammad_Ali"
+    },
+    {
+      "id": "src_ali_autobiography",
+      "kind": "archive",
+      "title": "Muhammad Ali (with Richard Durham), The Greatest: My Own Story (1975)"
+    },
+    {
+      "id": "src_ali_center",
+      "kind": "institution",
+      "title": "Muhammad Ali Center — biography and archives"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Publicly refused induction into the U.S. military in 1967 on religious grounds, resulting in the documented loss of his boxing license and heavyweight title, and a felony conviction (later overturned), at the height of his athletic career."
+    },
+    "independent_thinking": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Converted to Islam and changed his name from Cassius Clay in 1964, and took the draft-refusal position against near-unanimous public and media condemnation at the time — both specific, documented, sustained personal stances."
+    },
+    "social_assertiveness": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Extensively documented pattern of direct, public, often deliberately provocative self-promotion and political statement across his entire career, corroborated by decades of recorded interviews and press conferences."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained the draft-refusal position through a multi-year legal battle and a three-and-a-half-year ban from boxing rather than reversing course, documented via the full legal and career record."
+    },
+    "persuasiveness": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Widely documented for pre-fight verbal psychological tactics against opponents and for building sustained public support for his political positions over time, corroborated across extensive recorded media."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Returned to boxing after the three-and-a-half-year ban and reclaimed the heavyweight title twice more, documented via his full professional record."
+    },
+    "competitiveness": {
+      "score": 86,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A three-time heavyweight champion who repeatedly sought rematches against top rivals (Frazier, Foreman) rather than avoiding difficult opponents, documented via his full fight record."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated both the religious conversion and the draft-refusal stance as his own decisions rather than positions urged on him by his management team, documented via his own account and contemporary reporting."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly framed his later-career activism and public statements around broader civil rights and religious identity, not personal athletic legacy alone, documented via his own extensive public statements."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Adjusted his in-ring fighting style significantly across his career (from early speed-based boxing to the 'rope-a-dope' strategy against Foreman as he aged), documented via boxing-historical analysis of his fights."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued and achieved the heavyweight title three separate times across different career phases, evidencing sustained ambition beyond a single peak."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained elite-level training across a multi-decade career including a full comeback from an extended ban, documented via his competitive longevity."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Primarily documented as an individual athlete and public figure rather than in a formal organizational-leadership role — a real, honestly moderate rather than extreme score."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Made the independent decision to refuse induction into the U.S. military draft despite severe professional and legal cost (stripped of his title, banned from boxing for over three years), documented via the well-recorded history of that decision."
+    },
+    "deep_focus": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained intense training discipline to reach and maintain world championship level across multiple career phases, including his documented return to top form after a 3.5-year boxing ban for refusing induction into the Vietnam War draft."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining and adapting his boxing style across a nearly 20-year career, including reinventing his approach after his return from the ban, documented via boxing-historical accounts."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Engaged in public commentary, religious study (his conversion to the Nation of Islam and later orthodox Sunni Islam), and social activism beyond boxing, documented via his public record."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Rebuilt his career and finances after the multi-year ban with no guaranteed path back to the title, suggesting real resourcefulness, though the specific mechanisms are only moderately documented."
+    },
+    "detail_orientation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Boxing strategy required real tactical preparation, though the surviving record documents his public persona and results far more than a specific detailed training methodology."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked with a consistent training team (notably Angelo Dundee) across much of his career, a real but individually-focused-sport-typical collaborative pattern, not scored as extreme."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, north_america, athletics/activism domain — deliberately included alongside Jesse Owens (held in batch 1 for thin personal documentation) as a genuine contrast case: Ali's extensive recorded interviews, his own autobiography, and the dedicated Muhammad Ali Center archive provide far richer personal-behavioral documentation than was available for Owens, allowing a full, honestly-scored profile including real low scores (leadership_drive 55, detail_orientation 52) rather than uniform excellence."
+  }
+}

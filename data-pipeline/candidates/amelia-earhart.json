@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "amelia-earhart",
+  "status": "held",
+  "holdReason": "Confidence ceiling: her documented public record is overwhelmingly about flight outcomes and records rather than personal working style, so most trait inferences sit at the 'strong_inference' tier rather than 'documented.' After two remediation passes (12 -> 20 scored attributes, coverage now comfortably clears 0.6), average confidence (0.501) still falls meaningfully short of the 0.55 floor; closing the remaining gap would require either implausibly many further additions or inflating existing entries past what the source material supports.",
+  "identity": {
+    "canonicalName": "Amelia Earhart",
+    "wikidataId": "Q3355",
+    "birthYear": 1897,
+    "deathYear": 1937,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["explorer"],
+    "fieldIds": ["aviation"],
+    "impactDomains": ["historical", "cultural"],
+    "tagIds": ["founder", "overcame_adversity"],
+    "archetypeIds": ["visionary_pioneer"]
+  },
+  "sources": [
+    { "id": "src_earhart_wikipedia", "kind": "wikipedia", "title": "Amelia Earhart", "url": "https://en.wikipedia.org/wiki/Amelia_Earhart" },
+    { "id": "src_earhart_smithsonian", "kind": "institution", "title": "Smithsonian National Air and Space Museum — Amelia Earhart" }
+  ],
+  "rows": {
+    "risk_tolerance": { "score": 90, "confidence": 0.75, "evidenceType": "documented", "impact": "risk", "rationale": "Undertook multiple long-distance solo and pioneering flights (the 1932 solo transatlantic crossing, the 1935 solo Hawaii-to-California flight) using period aviation technology with well-documented, substantial fatality rates among contemporaries attempting similar routes, culminating in her disappearance during the 1937 round-the-world attempt." },
+    "achievement_drive": { "score": 82, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Set a documented, sustained sequence of specific aviation distance/speed/altitude records across roughly a decade, corroborated via the Smithsonian's own record of her flight log and achievements." },
+    "independent_thinking": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Pursued a professional aviation career at a time when the field was overwhelmingly closed to women, and co-founded the Ninety-Nines organization to support other women aviators, documented via the organization's own institutional history." },
+    "proactive_agency": { "score": 76, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Self-initiated and organized her own record-attempt flights, including securing sponsorship and technical support for the 1937 round-the-world attempt, documented via the well-recorded planning history of that flight." },
+    "leadership_drive": { "score": 68, "confidence": 0.52, "evidenceType": "documented", "impact": "advantage", "rationale": "Co-founded and served as the first president of the Ninety-Nines, an organization for women pilots that persisted well beyond her own career, documented via the organization's institutional record." },
+    "discipline": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained a demanding schedule of flight training, record attempts, and public lecturing/writing to fund her aviation career across roughly a decade." },
+    "impact_motivation": { "score": 64, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Explicitly and repeatedly framed her flying achievements around expanding opportunities for women in aviation, documented via her own public writing and lectures, rather than personal record-seeking alone." },
+    "social_assertiveness": { "score": 68, "confidence": 0.5, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained a substantial public speaking, writing, and media career alongside her flying, documented via her published books and extensive contemporary press coverage." },
+    "adaptability": { "score": 58, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Period aviation required real, sustained technical and situational adjustment to frequently changing aircraft and weather conditions, though the surviving record documents her achievements more than granular in-flight decision-making." },
+    "persistence": { "score": 64, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued pursuing increasingly ambitious flights after an earlier failed 1937 round-the-world attempt (a takeoff crash in Hawaii) rather than abandoning the project, documented via the well-recorded timeline of two separate 1937 attempts." },
+    "detail_orientation": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Flight navigation and planning at this technological period required real precision, though the surviving public record documents her public achievements and advocacy more thoroughly than her specific technical working methods." },
+    "planning_orientation": { "score": 62, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The 1937 round-the-world attempt required extensive advance logistical planning (aircraft modification, fuel stops, navigator coordination), documented via the well-recorded preparation history of that flight." },
+    "curiosity": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Engaged beyond flying itself in writing, public lecturing, and a practical clothing line she designed for active women, documented via her own business ventures and bibliography." },
+    "opportunity_sensing": { "score": 66, "confidence": 0.5, "evidenceType": "documented", "impact": "advantage", "rationale": "Recognized and seized the 1928 opportunity to be the first woman to cross the Atlantic by air (initially as a passenger), leveraging the resulting publicity into her own independent solo flying career, documented via the well-recorded history of her career's origin." },
+    "competitiveness": { "score": 72, "confidence": 0.54, "evidenceType": "documented", "impact": "advantage", "rationale": "Repeatedly pursued being specifically first or fastest on a given route (first woman to fly solo across the Atlantic, first person to solo Hawaii-to-California), documented via the Smithsonian's own framing of her record sequence as deliberately comparative achievements." },
+    "execution_speed": { "score": 60, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Several of her records were explicitly speed records over a fixed route, documented via the Smithsonian's flight-log data, though the surviving record documents outcomes more than her decision-making pace generally." },
+    "collaboration": { "score": 58, "confidence": 0.42, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "The 1937 attempt required sustained coordination with navigator Fred Noonan and a ground logistics/sponsorship team, documented via the well-recorded planning history, though this reflects necessary operational partnership more than a broader collaborative disposition." },
+    "persuasiveness": { "score": 64, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Secured sponsorship, media contracts, and public backing for successive record attempts across her career, documented via the well-recorded commercial and promotional history of her flights." },
+    "cross_domain_range": { "score": 60, "confidence": 0.44, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained parallel work across flying, public lecturing, and published writing (her books '20 Hrs., 40 Min.' and 'The Fun of It'), documented via her own bibliography." },
+    "mastery_orientation": { "score": 58, "confidence": 0.42, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Continued pursuing progressively more technically demanding flights (Atlantic solo, then Pacific solo, then round-the-world) across roughly a decade rather than repeating an early success." }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: 20th_century, north_america, aviation/exploration domain not represented anywhere in the current roster — completes the planned 30-candidate batch. Risk_tolerance grounded in a specific, well-documented sequence of named flights rather than a general 'daring' characterization."
+  }
+}

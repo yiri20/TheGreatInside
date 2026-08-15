@@ -928,6 +928,10 @@ export const en = {
   "polity.holy_roman_empire": "Holy Roman Empire",
   "polity.british_raj": "British Raj",
   "polity.roman_empire": "Roman Empire",
+  "polity.new_spain": "Viceroyalty of New Spain",
+  "polity.almohad_caliphate": "Almohad Caliphate",
+  "polity.ayyubid_sultanate": "Ayyubid Sultanate",
+  "polity.heian_japan": "Heian-era Japan",
 
   /* ================================================================
      PHASE 7 — DEVELOPMENT GUIDES (development_v1)

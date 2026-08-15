@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wole-soyinka",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Wole Soyinka",
+    "wikidataId": "Q41488",
+    "birthYear": 1934,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "NG"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "independent",
+      "nonconformist",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_soyinka_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wole Soyinka",
+      "url": "https://en.wikipedia.org/wiki/Wole_Soyinka"
+    },
+    {
+      "id": "src_soyinka_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Prize — Wole Soyinka, Literature 1986"
+    },
+    {
+      "id": "src_soyinka_memoir",
+      "kind": "archive",
+      "title": "Wole Soyinka, The Man Died: Prison Notes (1972 memoir)"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Was imprisoned for roughly two years (1967-1969), much of it in solitary confinement, after publicly attempting to broker a ceasefire during the Nigerian Civil War — a specific, documented, extreme personal risk taken for a political cause outside any formal role."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1967 ceasefire attempt was a self-directed intervention outside any official capacity, and his sustained literary and political criticism of successive Nigerian governments across decades is documented via his continuous published output."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The first sub-Saharan African writer to win the Nobel Prize in Literature (1986), documented via the Nobel citation recognizing his distinctive fusion of Yoruba traditional drama with modern Western theatrical form."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct public criticism of Nigerian military governments across decades, including further documented exile under threat of execution in the 1990s under Sani Abacha's regime."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained a sustained public political voice across six decades of Nigerian and international politics, documented via his extensive published essays, interviews, and public statements."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the 1967 ceasefire attempt without official authorization or backing, documented via his own memoir account of the episode's origin."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His Nobel citation and the sustained international reception of his political writing credit him with shaping outside opinion on Nigerian governance, documented via the Nobel Committee's own framing."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His fusion of traditional Yoruba ritual dramatic form with modern Western theatrical structure is a documented, distinctive aesthetic achievement explicitly noted in his Nobel Prize citation."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained an independent political and literary voice across successive Nigerian governments, refusing affiliation with any single political faction, documented via his sustained public record."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued producing and staging work despite repeated imprisonment and exile, finding ways to publish and perform under severe constraint — his Prison Notes were smuggled out of custody, a specific documented instance."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prolific output of plays, poetry, and prose across six decades despite repeated imprisonment and exile, documented via his complete bibliography."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Engaged across drama, poetry, memoir, literary criticism, and direct political theory over his career, documented via the range of his bibliography."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Worked within and helped found Nigerian theater companies and literary institutions across his career, documented via the institutional record of his theatrical work."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The 1967 ceasefire attempt required real advance coordination and planning despite occurring outside any official role, documented via his own memoir account."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prolific literary output across plays, poetry, essays, and memoir spanning over six decades."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued writing during his imprisonment (documented via smuggled notes later published as Prison Notes) and resumed public political engagement after each period of exile or imprisonment rather than withdrawing."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Real, sustained output across drama, poetry, memoir, literary criticism, and direct political activism, documented via his full bibliography and public record."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly and repeatedly framed both his literary and political work around Nigerian and pan-African social conditions rather than personal literary achievement alone, documented via his own essays and public statements."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Primarily documented as an individual writer and public intellectual rather than a formal organizational leader, an honestly moderate rather than extreme score."
+    },
+    "achievement_drive": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained major creative and political output across six decades despite repeated imprisonment and exile, evidencing real long-term ambition."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His plays' structural complexity blending Yoruba ritual form with Western dramatic convention suggests real formal precision, though the surviving record documents his political engagement more extensively than his specific compositional method."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued producing work across drama, poetry, and prose over six decades, suggesting sustained craft development rather than reliance on a single early success."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: contemporary, sub_saharan_africa, literature/political-activism domain — a living figure (as of this writing), scored strictly from long-documented historical record (the 1967 imprisonment, the Nobel Prize, decades of publicly available published work) per this project's existing convention for living people: only tendencies published accounts describe directly."
+  }
+}

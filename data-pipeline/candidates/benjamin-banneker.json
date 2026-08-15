@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "benjamin-banneker",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Benjamin Banneker",
+    "wikidataId": "Q557600",
+    "birthYear": 1731,
+    "deathYear": 1806,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "astronomer"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "self_taught",
+      "independent",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_banneker_wikipedia",
+      "kind": "wikipedia",
+      "title": "Benjamin Banneker",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Banneker"
+    },
+    {
+      "id": "src_banneker_jefferson",
+      "kind": "archive",
+      "title": "Correspondence between Benjamin Banneker and Thomas Jefferson (1791)"
+    },
+    {
+      "id": "src_banneker_bedini",
+      "kind": "biography",
+      "title": "Silvio A. Bedini, The Life of Benjamin Banneker (1972)"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented (Bedini) to have taught himself advanced astronomy and mathematics as an adult from borrowed books and instruments with no formal schooling beyond a brief rural education, then built his own working wooden clock from studying a borrowed pocket watch."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote directly to Thomas Jefferson in 1791 challenging him personally on the contradiction between his stated Enlightenment ideals and his ownership of enslaved people, enclosing his own astronomical almanac as proof of Black intellectual capability — a specific, documented, surviving letter."
+    },
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Independently calculated complex astronomical ephemerides for his published almanacs (1792-1797), a documented, technically demanding, verifiable mathematical achievement."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1791 letter to Jefferson directly and publicly confronted a sitting Secretary of State on slavery — a documented, real social and political risk for a free Black man in that era."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained annual astronomical calculation and almanac publication across multiple years, documented via the surviving published almanacs themselves."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built a functioning wooden striking clock from studying a borrowed pocket watch, with no formal training in clockmaking — a specific, well-corroborated instance of self-taught technical improvisation."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued advancing from self-taught arithmetic to complex astronomical calculation over decades with no external institutional support or requirement."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained self-directed scientific study across his adult life while also managing a farm, documented via Bedini's account of his working routine."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the Jefferson correspondence and the almanac publication project without institutional sponsorship, both documented via the surviving letters and publication record."
+    },
+    "social_assertiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly addressed a sitting federal official on a politically fraught personal challenge, a specific, documented instance of public assertion."
+    },
+    "cross_domain_range": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented real achievement across astronomy/mathematics (the almanacs), horology (the clock), and — per Bedini — assisting with the initial 1791 boundary survey of the future District of Columbia."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The sustained multi-year almanac project, each edition requiring fresh calculation, evidences real ongoing ambition beyond a single completed proof of capability."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Ephemeris calculation for published almanacs requires precise, verifiable numerical accuracy, directly evidenced by the surviving published tables."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Jefferson letter explicitly frames his own achievement as evidence intended to advance the broader case against slavery and racial prejudice, documented directly in the letter's own text."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued his scientific work entirely independently, without a patron, institution, or formal mentor, documented across his working life."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Annual almanac production on a fixed publication schedule required real advance calculation and planning, though the specific working method is only moderately documented."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His self-taught astronomical calculations for his published almanacs required building a working understanding of celestial mechanics from limited available resources, documented via the surviving almanacs themselves."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built one of the first fully American-made striking clocks, carving nearly every part from wood after having only briefly examined a pocket watch, a specific, well-corroborated historical feat."
+    },
+    "deep_focus": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced annual almanacs with original astronomical calculations for years, requiring sustained precise computation, documented via the surviving published almanacs themselves."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The direct Jefferson challenge risked real personal and political friction, though it was a single documented letter rather than a sustained pattern of confrontation."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Second-batch diversity pick: early_modern (18th century), north_america, mathematics/astronomy domain distinct from Newton/Galileo/Einstein — a self-taught free Black scientist in colonial/early-republic America, a genuinely underrepresented profile shape in the current roster."
+  }
+}
