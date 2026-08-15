@@ -3,7 +3,11 @@
 import { useMemo, useState } from "react";
 import type { Era, Locale } from "@core/types";
 import { personDisplayName, t, type MessageKey } from "@core/i18n/index";
-import { SEED_PEOPLE } from "@data/people/seed";
+// Compact, client-safe projection of SEED_PEOPLE — never the full dataset
+// (sources, doNotCopyKeys, explanation keys, ...) in this client bundle.
+// See src/core/people/personIndex.ts for the full architectural reasoning.
+import { PEOPLE_INDEX } from "@data/people/peopleIndex.generated";
+import { expandPeopleIndex } from "@core/people/personIndex";
 import {
   availableFilterOptions,
   explorePeople,
@@ -49,7 +53,13 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
   const [region, setRegion] = useState<string>(ALL_VALUE);
   const [sort, setSort] = useState<PeopleSortKey>("name_asc");
 
-  const options = useMemo(() => availableFilterOptions(SEED_PEOPLE), []);
+  // Expands the compact, tuple-encoded PEOPLE_INDEX (small on the wire) back
+  // into the object-shaped attributes explorer.ts's existing, already-tested
+  // logic expects — once per mount, never per keystroke. See
+  // src/core/people/personIndex.ts's doc comment for the full reasoning.
+  const people = useMemo(() => expandPeopleIndex(PEOPLE_INDEX), []);
+
+  const options = useMemo(() => availableFilterOptions(people), [people]);
 
   const filter: PeopleFilter = useMemo(
     () => ({
@@ -60,8 +70,8 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
   );
 
   const results = useMemo(
-    () => explorePeople(SEED_PEOPLE, { query, filter, sort }),
-    [query, filter, sort],
+    () => explorePeople(people, { query, filter, sort }),
+    [people, query, filter, sort],
   );
 
   return (
@@ -134,7 +144,7 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
                 lifespan={formatLifespan(person.birthYear, person.deathYear, person.isLiving)}
                 href={`/${locale}/people/${person.slug}`}
                 locale={locale}
-                {...(person.portrait ? { portraitUrl: person.portrait.url } : {})}
+                {...(person.portraitUrl ? { portraitUrl: person.portraitUrl } : {})}
               />
             ))}
           </Grid>

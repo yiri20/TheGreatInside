@@ -32,7 +32,9 @@ import type { QuizQuestion, QuizResponse } from "@core/quiz/types";
 import { buildQuizScreens } from "@ui/lib/quizScreens";
 import { enqueuePendingOwnResult } from "@lib/results/pendingOwnResults";
 import { processPendingResults } from "@lib/results/processPendingResults";
-import { SEED_PEOPLE } from "@data/people/seed";
+// Compact, client-safe projection — see src/core/people/personIndex.ts.
+import { PEOPLE_INDEX } from "@data/people/peopleIndex.generated";
+import { expandPeopleIndex } from "@core/people/personIndex";
 import { saveCompletedResultAction } from "../../actions/results.js";
 import {
   Button,
@@ -57,6 +59,11 @@ const QUESTION_POSITION = new Map(ORDERED_QUESTIONS.map((q, i) => [q.id, i + 1])
 /** Presentation-only grouping (Stage 10A) — see quizScreens.ts. Computed
  *  once at module load, same as ORDERED_QUESTIONS above. */
 const SCREENS = buildQuizScreens(QUIZ);
+/** Expanded once at module load (not per quiz completion) — see
+ *  src/core/people/personIndex.ts's doc comment for why PEOPLE_INDEX
+ *  itself is tuple-encoded and needs this expansion before
+ *  enqueuePendingOwnResult (via personDataFingerprint) can read it. */
+const FINGERPRINTABLE_PEOPLE = expandPeopleIndex(PEOPLE_INDEX);
 
 const DRAFT_KEY = "tgi_quiz_draft_v1";
 
@@ -163,7 +170,7 @@ export function QuizClient({ locale }: { locale: Locale }) {
       // the quiz" is true — see pendingOwnResults.ts's module doc for why
       // this must not be conflated with tgi_last_result_v1 (last result
       // VIEWED, which may belong to someone else via a shared link).
-      enqueuePendingOwnResult(token, SEED_PEOPLE);
+      enqueuePendingOwnResult(token, FINGERPRINTABLE_PEOPLE);
       // Covers "already signed in, just finished the quiz" — the OTHER
       // real trigger (post-sign-in migration) never reaches this file at
       // all; see PendingResultsSync.tsx. Fire-and-forget: this is

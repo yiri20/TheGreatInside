@@ -36,7 +36,24 @@
  * "a result could plausibly differ now", never "someone fixed a typo in a
  * bio".
  */
-import type { Person } from "../types.js";
+import type { AttributeId } from "../attributes/attributes.js";
+import type { TraitImpact } from "../types.js";
+
+/**
+ * Structural subset of `Person` — exactly the fields this fingerprint
+ * reads, nothing else. Roster-scale note (2026-08): a full `Person`
+ * already satisfies this (strict superset), so this is purely additive;
+ * it also lets `enqueuePendingOwnResult` (the one caller reachable from a
+ * `"use client"` component, `QuizClient.tsx`) pass the much smaller
+ * generated `PersonIndexEntry[]` instead of the full dataset — see
+ * `src/core/people/personIndex.ts` for the full architectural reasoning.
+ */
+export interface FingerprintablePerson {
+  id: string;
+  isMatchEligible: boolean;
+  archetypeIds: string[];
+  attributes: { attributeId: AttributeId; score: number; confidence: number; impact: TraitImpact }[];
+}
 
 /**
  * Small, non-cryptographic, order-independent string hash (FNV-1a, 32-bit).
@@ -79,7 +96,7 @@ const PERSON_DATA_FINGERPRINT_ALGORITHM = "person_data_v1";
  *      derived by iterating `Object.keys()`/`JSON.stringify` on the raw
  *      `Person` object itself.
  */
-export function personDataFingerprint(people: readonly Person[]): string {
+export function personDataFingerprint(people: readonly FingerprintablePerson[]): string {
   const canonical = [...people]
     .map((p) => ({
       id: p.id,

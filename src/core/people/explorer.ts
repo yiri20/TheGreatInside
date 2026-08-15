@@ -31,13 +31,46 @@ import type { MessageKey } from "../i18n/en.js";
 
 export const EXPLORER_VERSION = "explorer_v1";
 
+/**
+ * Structural subset of `Person` — exactly the fields this module's search/
+ * filter/sort logic reads, nothing else (no `sources`, `doNotCopyKeys`,
+ * explanation keys, `externalIdentity`, ...). Roster-scale note (2026-08,
+ * see `src/data/people/personIndex.ts`): a full `Person` already satisfies
+ * this interface (it's a strict superset), so this change is purely
+ * additive — every existing caller passing `Person[]`/`SEED_PEOPLE`
+ * continues to typecheck and behave identically. It exists so a CLIENT
+ * component can instead pass the much smaller generated `PersonIndexEntry[]`
+ * (see `personIndex.ts`) without this module ever importing or depending on
+ * that narrower type — `explorer.ts` stays the single source of truth for
+ * search/filter/sort logic regardless of which shape calls it.
+ */
+export interface ExplorablePerson {
+  id: string;
+  slug: string;
+  canonicalName: string;
+  aliases: string[];
+  birthYear?: number;
+  deathYear?: number;
+  isLiving: boolean;
+  era: Era;
+  regionCode: string;
+  occupationIds: string[];
+  fieldIds: string[];
+  impactDomains: ImpactDomain[];
+  tagIds: string[];
+  archetypeIds: string[];
+  isMatchEligible: boolean;
+  overallProfileConfidence: number;
+  attributes: { attributeId: AttributeId; score: number; impact: TraitImpact }[];
+}
+
 /* ------------------------------------------------------------------ search */
 
 function normalise(text: string): string {
   return text.toLowerCase().trim();
 }
 
-function personSearchHaystack(person: Person): string {
+function personSearchHaystack(person: ExplorablePerson): string {
   return normalise(
     [
       person.canonicalName,
@@ -54,7 +87,7 @@ function personSearchHaystack(person: Person): string {
 }
 
 /** Case-insensitive substring search. Empty/whitespace query matches everyone. */
-export function searchPeople(people: readonly Person[], query: string): Person[] {
+export function searchPeople<T extends ExplorablePerson>(people: readonly T[], query: string): T[] {
   const q = normalise(query);
   if (q === "") return [...people];
   return people.filter((p) => personSearchHaystack(p).includes(q));
@@ -88,7 +121,7 @@ function intersects<T>(values: readonly T[] | undefined, has: (value: T) => bool
   return values.some(has);
 }
 
-function passesAttributeFilters(person: Person, filter: PeopleFilter): boolean {
+function passesAttributeFilters(person: ExplorablePerson, filter: PeopleFilter): boolean {
   const byId = new Map(person.attributes.map((a) => [a.attributeId, a]));
 
   if (filter.minAttributeScores) {
@@ -106,7 +139,7 @@ function passesAttributeFilters(person: Person, filter: PeopleFilter): boolean {
   return true;
 }
 
-export function filterPeople(people: readonly Person[], filter: PeopleFilter): Person[] {
+export function filterPeople<T extends ExplorablePerson>(people: readonly T[], filter: PeopleFilter): T[] {
   const eligibleOnly = filter.matchEligibleOnly ?? true;
   return people.filter((p) => {
     if (eligibleOnly && !p.isMatchEligible) return false;
@@ -133,11 +166,11 @@ export type PeopleSortKey =
   | "confidence_desc";
 
 /** Stable regardless of sort key: ties break on id, never popularity or recency. */
-export function sortPeople(people: readonly Person[], sortKey: PeopleSortKey): Person[] {
-  const withFallback = (a: Person, b: Person) => a.id.localeCompare(b.id);
-  const byBirthYear = (p: Person) => p.birthYear ?? Number.NEGATIVE_INFINITY;
+export function sortPeople<T extends ExplorablePerson>(people: readonly T[], sortKey: PeopleSortKey): T[] {
+  const withFallback = (a: ExplorablePerson, b: ExplorablePerson) => a.id.localeCompare(b.id);
+  const byBirthYear = (p: ExplorablePerson) => p.birthYear ?? Number.NEGATIVE_INFINITY;
 
-  const comparators: Record<PeopleSortKey, (a: Person, b: Person) => number> = {
+  const comparators: Record<PeopleSortKey, (a: ExplorablePerson, b: ExplorablePerson) => number> = {
     name_asc: (a, b) => a.canonicalName.localeCompare(b.canonicalName) || withFallback(a, b),
     name_desc: (a, b) => b.canonicalName.localeCompare(a.canonicalName) || withFallback(a, b),
     birth_year_asc: (a, b) => byBirthYear(a) - byBirthYear(b) || withFallback(a, b),
@@ -156,10 +189,10 @@ export interface ExplorePeopleOptions {
   sort?: PeopleSortKey;
 }
 
-export function explorePeople(
-  people: readonly Person[],
+export function explorePeople<T extends ExplorablePerson>(
+  people: readonly T[],
   { query = "", filter = {}, sort = "name_asc" }: ExplorePeopleOptions = {},
-): Person[] {
+): T[] {
   const searched = searchPeople(people, query);
   const filtered = filterPeople(searched, filter);
   return sortPeople(filtered, sort);
@@ -182,7 +215,7 @@ function distinctSorted<T extends string>(values: Iterable<T>): T[] {
 }
 
 /** Distinct values actually present in the dataset, for driving filter UI controls. */
-export function availableFilterOptions(people: readonly Person[]): FacetOptions {
+export function availableFilterOptions(people: readonly ExplorablePerson[]): FacetOptions {
   return {
     eras: distinctSorted(people.map((p) => p.era)),
     regionCodes: distinctSorted(people.map((p) => p.regionCode)),

@@ -20,8 +20,7 @@
  * unrelated mechanism and stays untouched by this module.
  */
 import { CURRENT_VERSIONS, type VersionSnapshot } from "@core/versions";
-import { personDataFingerprint } from "@core/people/dataVersion";
-import type { Person } from "@core/types";
+import { personDataFingerprint, type FingerprintablePerson } from "@core/people/dataVersion";
 
 export const PENDING_OWN_RESULTS_KEY = "tgi_pending_own_results_v1";
 
@@ -340,7 +339,7 @@ function moveIntoQuarantine(storage: PendingResultStorage | undefined, entry: Qu
  */
 export function enqueuePendingOwnResult(
   resultToken: string,
-  people: readonly Person[],
+  people: readonly FingerprintablePerson[],
   storage: PendingResultStorage | undefined = browserStorage(),
 ): void {
   const { current, legacy } = readRawQueue(storage);
