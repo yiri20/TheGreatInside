@@ -194,8 +194,56 @@ describe("personDataFingerprint", () => {
     });
 
     it("the fingerprint algorithm tag was bumped (person_data_v1 -> v2) so a pre-widening stored value can never coincidentally match a post-widening one", () => {
-      const fp = personDataFingerprint([makePerson("a")]);
-      expect(fp.startsWith("person_data_v2:")).toBe(true);
+      const fp = personDataFingerprint([makePerson("a")], { curiosity: 1.0 });
+      expect(fp.startsWith("person_data_v3:")).toBe(true);
+    });
+  });
+
+  /**
+   * Session 5 provenance audit (Part B): the analogous gap to session 4's
+   * dispersion-table fix — MATCH_CALIBRATION_ANCHORS/GREATNESS_CALIBRATION_
+   * ANCHORS directly determine a saved result's displayed Match%/Greatness
+   * score (calibrateMatch/calibrateGreatness are pure functions of these
+   * tables), but CALIBRATION_VERSION is a hand-written literal that session
+   * 4 itself refreshed the anchor DATA without bumping. Fixed by widening
+   * this same fingerprint further, with the same DI-parameter pattern.
+   */
+  describe("calibration-anchor sensitivity (session 5 provenance fix)", () => {
+    const anchors: ReadonlyArray<readonly [number, number]> = [
+      [0, 1],
+      [0.5, 50],
+      [1, 99],
+    ];
+    const shiftedAnchors: ReadonlyArray<readonly [number, number]> = [
+      [0, 1],
+      [0.52, 50],
+      [1, 99],
+    ];
+
+    it("changes when the match-calibration anchor table changes, everything else held fixed", () => {
+      const people = [makePerson("a")];
+      const before = personDataFingerprint(people, { curiosity: 1.0 }, anchors, anchors);
+      const after = personDataFingerprint(people, { curiosity: 1.0 }, shiftedAnchors, anchors);
+      expect(before).not.toBe(after);
+    });
+
+    it("changes when the greatness-calibration anchor table changes, everything else held fixed", () => {
+      const people = [makePerson("a")];
+      const before = personDataFingerprint(people, { curiosity: 1.0 }, anchors, anchors);
+      const after = personDataFingerprint(people, { curiosity: 1.0 }, anchors, shiftedAnchors);
+      expect(before).not.toBe(after);
+    });
+
+    it("defaults to the real, live calibration anchor tables when none are passed", () => {
+      const people = [makePerson("a")];
+      const withExplicitStubAnchors = personDataFingerprint(people, { curiosity: 1.0 }, anchors, anchors);
+      const withDefaultLiveAnchors = personDataFingerprint(people, { curiosity: 1.0 });
+      expect(withDefaultLiveAnchors).not.toBe(withExplicitStubAnchors);
+    });
+
+    it("the fingerprint algorithm tag was bumped again (person_data_v2 -> v3) for this second widening", () => {
+      const fp = personDataFingerprint([makePerson("a")], { curiosity: 1.0 }, anchors, anchors);
+      expect(fp.startsWith("person_data_v3:")).toBe(true);
     });
   });
 });

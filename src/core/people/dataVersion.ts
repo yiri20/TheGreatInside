@@ -1,5 +1,5 @@
 /**
- * PERSON-DATA FINGERPRINT — Phase 10C, widened Roster-1000 session 4.
+ * PERSON-DATA FINGERPRINT — Phase 10C, widened Roster-1000 sessions 4 and 5.
  *
  * The historical-result-fidelity design audit found that the roster/person
  * dataset (`SEED_PEOPLE`) is an output-affecting dependency of `/results`
@@ -40,6 +40,26 @@
  * and shape are unchanged — it already stores an opaque, algorithm-tagged
  * string, so widening what that string covers needed no migration.
  *
+ * **Widened again (session 5, the analogous bounded audit Part 1A's own
+ * fix invited): `MATCH_CALIBRATION_ANCHORS`/`GREATNESS_CALIBRATION_ANCHORS`
+ * are the same category of gap.** Both directly determine a saved result's
+ * displayed `overallMatch`/Greatness score (`calibrateMatch`/
+ * `calibrateGreatness` are pure functions of these tables — confirmed by
+ * reading `similarity.ts`/`greatness.ts` directly), and `VersionSnapshot`'s
+ * `calibrationVersion` field is `CALIBRATION_VERSION`, a hand-written
+ * literal that session 4 itself refreshed the anchor DATA without bumping
+ * (correctly, per the project's "routine refresh, don't bump" precedent for
+ * generated-data-only changes) — so the drift guard could not have
+ * detected an anchor refresh landing between an anonymous completion and
+ * its later claim, the exact failure mode this mechanism exists to catch.
+ * Folded into this same fingerprint (not `VersionSnapshot`, for the same
+ * "live data shape, not a known-shipped-combination allowlist" reasoning
+ * as the dispersion table) with two more optional, DI-friendly parameters,
+ * both defaulting to the real live tables — again zero call-site changes
+ * needed. Algorithm tag bumped `v2` -> `v3` for the same "input domain
+ * changed, a pre-widening fingerprint must never coincidentally equal a
+ * post-widening one" reason as the `v1` -> `v2` bump.
+ *
  * This is a drift *detector*, not a security boundary or a historical
  * archive key: it only ever answers "does this match the roster AND
  * dispersion table RIGHT NOW", compared directly against a value captured
@@ -55,9 +75,11 @@
  * match-eligible (roster membership/eligibility drift), each person's
  * archetype assignments (feeds Greatness's target-shrinkage in
  * `archetypes.ts`), every scored attribute's score/confidence/impact
- * (feeds matching directly and impact feeds displayed trait cards), and
- * now every attribute's discriminative dispersion weight (feeds matching's
- * distance computation directly). Everything else on `Person` (name,
+ * (feeds matching directly and impact feeds displayed trait cards),
+ * every attribute's discriminative dispersion weight (feeds matching's
+ * distance computation directly), and now both calibration anchor tables
+ * (feed the final displayed Match%/Greatness score directly). Everything
+ * else on `Person` (name,
  * biography, portrait, tags, era, region, sources, ...) is presentation/
  * filtering metadata that already MUST NOT influence similarity per this
  * project's own hard rule, so it is deliberately excluded here too — this
@@ -67,6 +89,8 @@
 import type { AttributeId } from "../attributes/attributes.js";
 import type { TraitImpact } from "../types.js";
 import { DISPERSION_TABLE } from "../matching/dispersion.js";
+import { MATCH_CALIBRATION_ANCHORS } from "../matching/calibration.js";
+import { GREATNESS_CALIBRATION_ANCHORS } from "../greatness/greatness.js";
 
 /**
  * Structural subset of `Person` — exactly the fields this fingerprint
@@ -114,7 +138,7 @@ function fnv1a(input: string): string {
  * so this has no live behavioral effect beyond closing the gap
  * documented above.
  */
-const PERSON_DATA_FINGERPRINT_ALGORITHM = "person_data_v2";
+const PERSON_DATA_FINGERPRINT_ALGORITHM = "person_data_v3";
 
 /**
  * Canonical-serialization form (pre-migration hardening review, 2026-08):
@@ -152,6 +176,8 @@ const PERSON_DATA_FINGERPRINT_ALGORITHM = "person_data_v2";
 export function personDataFingerprint(
   people: readonly FingerprintablePerson[],
   dispersionTable: Readonly<Partial<Record<AttributeId, number>>> = DISPERSION_TABLE,
+  matchAnchors: ReadonlyArray<readonly [number, number]> = MATCH_CALIBRATION_ANCHORS,
+  greatnessAnchors: ReadonlyArray<readonly [number, number]> = GREATNESS_CALIBRATION_ANCHORS,
 ): string {
   const canonical = [...people]
     .map((p) => ({
@@ -166,5 +192,18 @@ export function personDataFingerprint(
   const canonicalDispersion = (Object.keys(dispersionTable) as AttributeId[])
     .sort()
     .map((id) => ({ attributeId: id, weight: dispersionTable[id] }));
-  return `${PERSON_DATA_FINGERPRINT_ALGORITHM}:${fnv1a(JSON.stringify({ people: canonical, dispersion: canonicalDispersion }))}`;
+  // Anchor tables are already semantically ordered (monotone by raw-x /
+  // percentile) — preserved as-is, not sorted, since their ORDER is part of
+  // their meaning (see calibration.ts's own monotonicity invariant), unlike
+  // the dispersion table above (a keyed map with no inherent order).
+  const canonicalMatchAnchors = matchAnchors.map(([x, y]) => [x, y]);
+  const canonicalGreatnessAnchors = greatnessAnchors.map(([x, y]) => [x, y]);
+  return `${PERSON_DATA_FINGERPRINT_ALGORITHM}:${fnv1a(
+    JSON.stringify({
+      people: canonical,
+      dispersion: canonicalDispersion,
+      matchAnchors: canonicalMatchAnchors,
+      greatnessAnchors: canonicalGreatnessAnchors,
+    }),
+  )}`;
 }

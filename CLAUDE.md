@@ -3134,6 +3134,33 @@ No `VersionSnapshot` field, DB column, or migration was added — see
 `src/core/people/dataVersion.ts`'s own doc comment for the full record.
 `tsc` clean, `vitest` 530/530 (525 baseline + 5 new).
 
+**Provenance correction (roster-1000 session 5, 2026-08) — the
+analogous bounded audit session 4's own fix invited, and it found a
+real, structurally identical gap.** `MATCH_CALIBRATION_ANCHORS`/
+`GREATNESS_CALIBRATION_ANCHORS` directly determine a saved result's
+displayed Match%/Greatness score (`calibrateMatch`/`calibrateGreatness`
+in `similarity.ts`/`greatness.ts` are pure functions of these tables,
+confirmed by reading the call sites directly) — but `VersionSnapshot`'s
+`calibrationVersion` field is `CALIBRATION_VERSION`, a hand-written
+literal that session 4 itself refreshed the anchor DATA without
+bumping (correctly, per this project's own "routine refresh, don't
+bump" precedent for generated-data-only drift — see "Phase 10C —
+historical result fidelity" and the roster-1000 sections above). Before
+this fix, an anchor refresh landing between an anonymous quiz
+completion and that result later being claimed at sign-in would have
+been invisible to `saveCompletedResult`'s drift guard exactly as the
+session-4 dispersion gap was — the freshly-recomputed-at-claim-time
+snapshot would silently use the NEW anchors while every persisted
+provenance identifier still read "nothing changed." **Fixed the same
+way**: widened `personDataFingerprint` further (two more optional,
+DI-friendly parameters, both defaulting to the real live anchor
+tables — zero call-site changes needed), algorithm tag bumped
+`person_data_v2` -> `v3`. 4 new regression tests confirm the
+fingerprint responds to each anchor table independently and defaults
+to the real live tables. No `VersionSnapshot` field, DB column, or
+migration was needed — same reasoning as session 4's fix. `tsc` clean,
+`vitest` 534/534 (530 baseline + 4 new).
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 
