@@ -8,6 +8,7 @@ import { fetchSavedResults } from "@lib/results/fetchSavedResults";
 import { resolveAccountPageState } from "@lib/results/accountPageState";
 import { NOINDEX_NOFOLLOW } from "@lib/seo";
 import { GoogleSignInCta } from "./GoogleSignInCta";
+import { DeleteSavedResultsButton } from "./DeleteSavedResultsButton";
 import { Button, Card, Cluster, Display, Eyebrow, Heading, Stack, Text } from "@ui/index";
 
 /**
@@ -98,24 +99,27 @@ export default async function AccountPage({ params }: { params: Promise<PagePara
             </Stack>
           </Card>
         ) : (
-          <Stack gap={3}>
-            {rows.map((row) => (
-              <Card key={row.id}>
-                <Cluster gap={3} between>
-                  <Text tone="secondary">
-                    {t(locale, "account.list.completed_at", { date: formatCompletedAt(locale, row.completedAt) })}
-                  </Text>
-                  {row.hasSnapshot ? (
-                    <Button variant="quiet" href={`/${locale}/account/results/${row.id}`}>
-                      {t(locale, "account.list.view")}
-                    </Button>
-                  ) : (
-                    <Text tone="muted">{t(locale, "account.list.unavailable")}</Text>
-                  )}
-                </Cluster>
-              </Card>
-            ))}
-          </Stack>
+          <>
+            <Stack gap={3}>
+              {rows.map((row) => (
+                <Card key={row.id}>
+                  <Cluster gap={3} between>
+                    <Text tone="secondary">
+                      {t(locale, "account.list.completed_at", { date: formatCompletedAt(locale, row.completedAt) })}
+                    </Text>
+                    {row.hasSnapshot ? (
+                      <Button variant="quiet" href={`/${locale}/account/results/${row.id}`}>
+                        {t(locale, "account.list.view")}
+                      </Button>
+                    ) : (
+                      <Text tone="muted">{t(locale, "account.list.unavailable")}</Text>
+                    )}
+                  </Cluster>
+                </Card>
+              ))}
+            </Stack>
+            <DeleteSavedResultsButton locale={locale} />
+          </>
         )}
       </Stack>
     </main>

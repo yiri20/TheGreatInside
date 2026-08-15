@@ -18,6 +18,12 @@ import { siteUrl } from "./env";
  * (that file's own comment). Zheng He (the one current match-ineligible
  * person) is therefore included here too, same as any other person.
  *
+ * Broader Public Launch Finish Line: `/privacy` and `/terms` added
+ * alongside People/Quiz — real, static, publicly indexable content (no
+ * compelling reason to noindex a legal-disclosure page a user or a
+ * regulator might specifically want to find), same locale/canonical/
+ * hreflang treatment as every other indexed page.
+ *
  * Deliberately excluded, per the approved Stage A policy: bare `/` (no
  * content of its own, only a locale-negotiation redirect — see
  * `src/lib/seo.ts`'s x-default reasoning), Results/Compare/Account/Saved
@@ -37,6 +43,8 @@ export function buildSitemapEntries(): MetadataRoute.Sitemap {
     entries.push({ url: `${base}/${locale}` });
     entries.push({ url: `${base}/${locale}/people` });
     entries.push({ url: `${base}/${locale}/quiz` });
+    entries.push({ url: `${base}/${locale}/privacy` });
+    entries.push({ url: `${base}/${locale}/terms` });
   }
 
   for (const locale of LAUNCH_LOCALES) {

@@ -5,6 +5,7 @@ import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { notoSerifKR } from "@lib/fonts";
 import { siteUrl } from "@lib/env";
 import { Header } from "./Header";
+import { Footer } from "./Footer";
 import { PendingResultsSync } from "./PendingResultsSync";
 import "../../src/ui/styles/tokens.css";
 import "../../src/ui/styles/components.css";
@@ -51,6 +52,7 @@ export default async function LocaleLayout({
         <Header locale={locale as Locale} />
         <PendingResultsSync />
         {children}
+        <Footer locale={locale as Locale} />
       </body>
     </html>
   );

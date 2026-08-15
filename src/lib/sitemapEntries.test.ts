@@ -14,9 +14,9 @@ describe("buildSitemapEntries", () => {
     process.env = { ...ORIGINAL_ENV };
   });
 
-  it("produces exactly 76 URLs: 2 Landing + 2 People + 2 Quiz + 70 Person", () => {
+  it("produces exactly 80 URLs: 2 Landing + 2 People + 2 Quiz + 2 Privacy + 2 Terms + 70 Person", () => {
     const entries = buildSitemapEntries();
-    expect(entries).toHaveLength(76);
+    expect(entries).toHaveLength(80);
   });
 
   it("includes both launch locales for Landing", () => {
@@ -37,6 +37,20 @@ describe("buildSitemapEntries", () => {
     const urls = buildSitemapEntries().map((e) => e.url);
     for (const locale of LAUNCH_LOCALES) {
       expect(urls).toContain(`https://thegreatinside.example/${locale}/quiz`);
+    }
+  });
+
+  it("includes Privacy for both launch locales (Broader Public Launch Finish Line)", () => {
+    const urls = buildSitemapEntries().map((e) => e.url);
+    for (const locale of LAUNCH_LOCALES) {
+      expect(urls).toContain(`https://thegreatinside.example/${locale}/privacy`);
+    }
+  });
+
+  it("includes Terms for both launch locales (Broader Public Launch Finish Line)", () => {
+    const urls = buildSitemapEntries().map((e) => e.url);
+    for (const locale of LAUNCH_LOCALES) {
+      expect(urls).toContain(`https://thegreatinside.example/${locale}/terms`);
     }
   });
 

@@ -4881,6 +4881,382 @@ beta work:
 - Web app manifest, custom 404 page.
 - Any further favicon/logo refinement beyond the simple accepted mark.
 
+## Broader Public Launch Finish Line (2026-08)
+
+**Status:**
+
+- **Public Beta Finish Line: CLOSED** (see that section above — unchanged
+  by anything in this section).
+- **Broader Public Launch Finish Line: IMPLEMENTATION COMPLETE EXCEPT
+  FOR EXTERNAL DOMAIN/OAUTH SETUP.**
+- **Current verdict: NOT READY FOR BROADER PUBLIC LAUNCH.**
+- **Sole blocker: an owner-controlled custom domain, and the associated
+  Google production-domain configuration** (§4/§5 below). No other
+  blocker was found.
+
+Three things this finish line keeps explicitly distinct (do not
+conflate them — see §4 for the full reasoning):
+1. **Identity-only OAuth already works** for the CLOSED beta posture —
+   no trusted-user list, no warning, no expiry, on the current
+   `*.vercel.app` domain, unaffected by anything below.
+2. **Production OAuth requires a publicly accessible homepage on a
+   verified, owner-controlled domain** — a separate Google OAuth 2.0
+   policy requirement, independent of scopes, and the actual reason a
+   custom domain is now required for the *broader* launch specifically.
+3. **Brand verification** (showing the app's name/logo on the consent
+   screen) is a separate, still-optional concern — not what makes the
+   domain mandatory.
+
+**This is a closing checklist, not a new phase** — same discipline as
+"Public Beta Finish Line" immediately above, which stays CLOSED and
+unmodified. This section covers the next tier: real Privacy Policy/Terms
+pages, Google OAuth broader-launch readiness, and a custom-domain
+decision, scoped to exactly what was requested — no roadmap expansion, no
+analytics/ads/monetization/portraits/dataset work.
+
+**Contact email**: `thegreatinside.web@gmail.com` — supplied directly by
+the project owner for exactly this purpose (privacy questions, deletion
+requests, terms questions, general contact). No other contact detail,
+company/legal-entity name, physical address, or jurisdiction is asserted
+anywhere in this section or in the published pages — none of those facts
+exist for this project and none are invented.
+
+### 1. Factual data-practice inventory (verified directly from source, 2026-08)
+
+**Authentication.** Google OAuth via Supabase Auth (`@supabase/ssr`), all
+three `signInWithOAuth` call sites (`AuthControls.tsx`, `GoogleSignInCta.tsx`,
+`SignInCta.tsx`) identical: `provider: "google"`, no `scopes` option set —
+Supabase's default scope set for Google (`openid`/`email`/`profile`,
+confirmed against Supabase's own docs). The app's own code never reads
+`user.email`/`.name`/`.picture`/`user_metadata` anywhere (confirmed by
+repo-wide grep) — every code path that resolves the current user narrows
+to `{ user: { id: string } | null }` (`saveCompletedResult.ts`'s own
+dependency type) or only ever checks truthiness (`account/page.tsx`,
+`account/results/[id]/page.tsx`). `getCurrentUser()` (`getUser.ts`)
+returns the full Supabase `User` type but its only two call sites never
+read anything off it beyond existence.
+
+**What TGI's own database stores.** Confirmed by grep (`.from("` across
+`app/`+`src/lib`): the ONLY Supabase Postgres table any application code
+reads or writes is `user_profiles`. `saved_people`, `user_attribute_scores`,
+`user_quiz_sessions`, `user_quiz_responses`, `match_results`,
+`greatness_results` all exist in `db/schema.sql` (with RLS policies
+already defined) but are never referenced by any code path — schema-only,
+dormant, not part of what actually happens today. The one write
+(`saveCompletedResult.ts`'s upsert) stores: `user_id` (Supabase-issued
+internal id, FK to `auth.users`), `result_token`, `completed_at`, ten
+version-string columns, and `result_snapshot` (frozen numbers/person-ids
+only, per Phase 10C's own design — never biography, never freeform
+text). Protected by the pre-existing `user_profiles_own` RLS policy
+(`for all using (user_id = auth.uid())`) — a database-layer guarantee,
+not merely an application-layer check.
+
+**What Supabase (not TGI) receives.** Standard Google-Sign-In OAuth
+behavior: Supabase's own Auth system receives and stores basic Google
+profile data (email, name, etc.) as part of the sign-in exchange — this
+is Supabase's standard behavior for any app using Google Sign-In, not
+something TGI's own code reads or duplicates.
+
+**Client-side storage, complete inventory** (confirmed by grep for every
+`localStorage`/`document.cookie` call site): `tgi_quiz_draft_v1`
+(in-progress answers), `tgi_last_result_v1` (last-viewed result token,
+not an ownership claim), `tgi_pending_own_results_v1` (bounded queue of
+this browser's own completions, for post-sign-in migration),
+`tgi_incompatible_pending_results_v1` (quarantine, never silently
+deleted) — all localStorage, never sent to a server except at explicit
+completion/save. `tgi_locale` (1-year cookie, language preference),
+`tgi_oauth_next` (5-minute cookie, OAuth return path only) — both
+`SameSite=Lax`. Plus Supabase's own session cookies, standard
+`@supabase/ssr` cookie handling, not customized.
+
+**Third parties, confirmed present**: Supabase (auth + database), Vercel
+(hosting), Google (optional sign-in), Wikimedia Commons (da Vinci's
+portrait `<img>` loads directly from `upload.wikimedia.org` — the only
+populated portrait in the current dataset, confirmed by grep — an
+automatic browser request, not a click-through), Wikipedia/Wikidata
+(outbound `<a href>` links only, never auto-loaded).
+
+**Confirmed absent** (by dependency-file + code audit): `package.json`
+lists exactly 6 production dependencies (`@supabase/ssr`,
+`@supabase/supabase-js`, `next`, `react`, `react-dom`, `server-only`) —
+no analytics/tracking/ads/payment package of any kind. Zero runtime
+`fetch()` calls anywhere in `app/`/`src/` (reconfirmed, matches Stage
+10A's original finding). No email-sending capability, no
+user-generated public content, no location tracking, no sensitive/
+restricted OAuth scopes.
+
+### 2. Official Google OAuth findings (verified against current primary docs, 2026-08)
+
+Reconfirms and extends the Public Beta Finish Line's own §1 finding — see
+that section above for the exact identity-only Testing-status exception
+quote (`support.google.com/cloud/answer/15549945`); not re-litigated
+here.
+
+**New findings this pass, from `developers.google.com/identity/protocols/
+oauth2/production-readiness/brand-verification` and
+`support.google.com/cloud/answer/13806988` (App Privacy Policy) +
+`answer/13807376` (App Homepage), fetched live:**
+
+- Brand verification (app name/logo shown on the consent screen) is
+  required only if BOTH: the Cloud Console project is **External +
+  Published**, AND the developer wants a logo/name displayed. It is
+  **not** required merely to function for arbitrary Google users with
+  this app's identity-only scope set (per the Public Beta Finish Line
+  exception — already true in Testing status, and remains true in
+  Production status without brand verification).
+- Brand verification's required elements: a publicly accessible Homepage
+  (describes the app, links to Privacy Policy + Terms), a Privacy Policy
+  that "must disclose how the app accesses, uses, stores, or shares
+  Google user data," Authorized Domains verified via Google Search
+  Console, developer contact information, and (if a logo is wanted) a
+  120×120px square logo under 1MB.
+- **Load-bearing finding**: the Privacy Policy and Authorized Domains
+  must be on **a domain you own**, verified via Google Search Console —
+  explicitly **not achievable on a shared `*.vercel.app` subdomain**
+  ("You cannot use a subdomain provided to you by Vercel or any other
+  subdomain" — confirmed against Google's own Search Console
+  verification-method documentation). This is the concrete, specific
+  reason a custom domain becomes relevant — see §4 below — but only for
+  brand verification specifically, not for the app to function.
+- Google's API Services User Data Policy (`developers.google.com/terms/
+  api-services-user-data-policy`) requires **disclosure** of what data is
+  accessed/used/stored/shared — it does **not** mandate an in-app
+  self-service deletion mechanism for identity-only scopes. This directly
+  informs §3 below: a deletion feature was evaluated as a genuine
+  UX/trust improvement, not a Google-mandated gate.
+- Supabase's own docs confirm the default Google provider scopes include
+  `userinfo.email`/`userinfo.profile` (added by default) — consistent
+  with, not contradicting, the identity-only classification already on
+  record.
+
+### 3. Account/data-deletion decision (implemented, deliberately scoped)
+
+**Finding**: no deletion mechanism existed anywhere in the app before
+this pass — confirmed by grep (`.delete(`, `deleted_at` writes,
+`auth.admin`/`deleteUser` — all zero hits). The schema's `deleted_at`
+column on `user_profiles` was already read-filtered by
+`fetchSavedResults.ts`'s list query but never written by anything, and
+`fetchSavedResult.ts` (the single-result detail lookup) doesn't filter
+`deleted_at` at all — meaning a soft-delete would have left a "deleted"
+result fully reachable at its known `/account/results/[id]` URL. A real,
+hard delete was therefore the only honest option, not a design
+preference.
+
+**Decision, per the explicit instruction governing this feature**: build
+only what's genuinely useful and architecturally safe; if a fuller
+mechanism would require introducing a privileged server secret, stop and
+report it rather than improvise. Result:
+
+- **Implemented — "Delete all saved results"** (`/account`, via
+  `DeleteSavedResultsButton.tsx` → `deleteSavedResultsAction` →
+  `src/lib/results/deleteSavedResults{,Server}.ts`): a real, immediate
+  `DELETE FROM user_profiles WHERE user_id = ...`, scoped to the
+  currently-authenticated user resolved server-side via `auth.getUser()`
+  (never a client-supplied id). Uses only the existing, already-used
+  publishable-key Supabase client — **no `SUPABASE_SECRET_KEY`/
+  service-role client introduced**, since the owner-scoped `user_profiles_
+  own` RLS policy (`for all using (user_id = auth.uid())`) already
+  permits a user to delete their own rows with their own session; no
+  privileged escalation was needed for this piece. Two-step inline
+  confirmation (no native `window.confirm()` — no modal pattern exists
+  elsewhere in this product's design system), `aria-live` success/failure
+  feedback matching `ShareButton`'s established pattern. Locked by a
+  permanent regression test
+  (`deleteSavedResultsNoServiceRole.test.ts`) asserting neither file ever
+  references `SUPABASE_SECRET_KEY`/`service_role`/`auth.admin`/
+  `deleteUser` in real code (comments explaining the decision are
+  correctly excluded from the check).
+- **NOT implemented — full identity/account deletion** (removing the
+  underlying `auth.users` row Supabase keeps to recognize a signed-in
+  user). This would require `auth.admin.deleteUser()`, which needs the
+  service-role/secret key — a genuine first-time introduction of a
+  privileged secret into a live code path. Per Part 2's finding that
+  Google's own policy does not mandate this for identity-only scopes,
+  and per the explicit "stop rather than improvise" instruction, this is
+  recorded as a **deliberate, not-yet-made decision**, not a gap quietly
+  papered over: the Privacy Policy honestly states that full sign-in
+  record deletion is currently a manual, email-requested process
+  (`thegreatinside.web@gmail.com`), alongside the fact that revoking
+  access from the user's own Google Account settings stops all future
+  sign-ins. Revisiting this (introducing `SUPABASE_SECRET_KEY` for a
+  scoped admin server action) is a real, bounded future option, not
+  required by anything found this pass.
+
+### 4. Custom domain decision — **A: REQUIRED BEFORE BROADER PUBLIC LAUNCH** (corrected 2026-08)
+
+Current production origin: `https://the-great-inside.vercel.app` (Stage
+10B). No domain was purchased or configured this pass, per instruction —
+this section records the finding and the resulting blocker, not an
+action taken.
+
+**This classification was corrected during human review** — the first
+pass of this audit classified the domain as B (recommended, safe to
+defer), reasoning from the identity-only Testing-status exception alone.
+A second, independent check against Google's OAuth 2.0 Policies page
+(`developers.google.com/identity/protocols/oauth2/policies`) plus the
+App Homepage requirements page (`support.google.com/cloud/answer/
+13807376`) found a **separate, broader policy requirement this pass had
+initially under-weighted**:
+
+> "Every production app that uses OAuth 2.0 must have a publicly
+> accessible home page," which must exist "on a verified domain under
+> your ownership," and "should not be hosted on a third-party platform
+> where you can't verify that you own your subdomain."
+
+**Three distinct things, not to be conflated (the correction's own
+framing, confirmed accurate against the sources above):**
+1. **OAuth functioning with identity-only scopes** — works today on
+   `*.vercel.app` with no trusted-user list, no warning, no 7-day expiry,
+   regardless of Testing/Production publishing status. Unchanged,
+   reconfirmed, still true — this is what makes the already-CLOSED
+   Public Beta Finish Line's own decision correct and NOT reopened here.
+2. **The production-app homepage/domain-ownership policy** — a separate,
+   general OAuth 2.0 policy requirement that applies to "every production
+   app," independent of scope sensitivity and independent of whether
+   brand verification (item 3) is ever pursued. Google's own definition
+   of "production" here is about real-world usage pattern (not
+   personal/internal-only, not development/testing/staging — i.e.
+   genuinely offered to the public), not merely a Cloud Console toggle.
+   **A broader public launch is exactly this usage pattern** — which is
+   the reason this requirement applies NOW to this specific goal, even
+   though it did not block the already-closed limited beta (a smaller,
+   testing-posture audience).
+3. **Brand verification** (app name/logo shown on the consent screen
+   instead of a generic one) — still, correctly, optional; still not
+   required merely to function. Preserved unchanged from the original
+   finding. **Brand verification is not what makes the domain
+   mandatory** — the production-homepage policy (item 2) does, on its
+   own, independent of whether a logo is ever sought.
+
+**Consequence**: an owner-controlled custom domain — one Google Search
+Console can verify ownership of, which a shared `*.vercel.app` subdomain
+structurally cannot provide (confirmed: "You cannot use a subdomain
+provided to you by Vercel or any other subdomain") — is a genuine
+prerequisite specifically for treating the Google OAuth **production**
+setup as complete for a broader public launch. **No domain was purchased
+or configured this session, per explicit instruction.** This is recorded
+as the one concrete external blocker this audit found, not implemented
+around, and not a reason to reopen or weaken anything already CLOSED
+above.
+
+**Explicitly does NOT apply retroactively**: the Public Beta Finish Line
+above remains CLOSED, unmodified, and correct as written — that posture
+relies on the identity-only Testing-status exception (item 1), which
+this correction does not touch. A `*.vercel.app` deployment continues to
+be a completely valid, policy-compliant way to run the already-shipped
+limited beta.
+
+### 5. Google OAuth manual-action checklist (external, cannot be done from this repository)
+
+Short, scoped to exactly what's needed — not the full Cloud Console
+documentation. All require direct access to the Google Cloud Console
+project (Owner/Editor role), which this session has no access to.
+**Corrected count**: only 2 of the 8 items below are domain-independent;
+the other 6 are blocked on §4's domain decision (3 items were
+misclassified as "safe now" in an earlier draft of this table —
+corrected here, since entering the current `*.vercel.app` URLs into
+Google's Homepage/Privacy/Terms fields wouldn't satisfy the actual
+owned-domain policy and would just need redoing later).
+
+| # | Action | Where | Value to enter | Required now? |
+|---|---|---|---|---|
+| 1 | Set developer contact email | Cloud Console → APIs & Services → OAuth consent screen → Branding → Developer contact information | `thegreatinside.web@gmail.com` | **Domain-independent — safe to do now** |
+| 2 | Set user support email | Same page, "User support email" | `thegreatinside.web@gmail.com` | **Domain-independent — safe to do now** |
+| 3 | Set Application home page | Same page, App domain section | The owner-controlled domain's homepage URL — not yet knowable | **Blocked on §4** — Google's production-app policy requires this to be a domain you own; the current Vercel URL does not qualify |
+| 4 | Set Privacy Policy link | Same page | Same domain as #3, `/privacy` | **Blocked on §4**, same reason |
+| 5 | Set Terms of Service link | Same page | Same domain as #3, `/terms` | **Blocked on §4**, same reason |
+| 6 | Upload a 120×120px app logo | Same page, Branding | Not produced this pass — the favicon "T" mark was sized for browser tabs (16/32/180px), not this exact Google requirement | Only needed if pursuing brand verification (separate, still-optional decision) |
+| 7 | Add + verify the custom domain via Search Console | Same page, Authorized domains | N/A — requires owning a real domain first | **Blocked on §4** |
+| 8 | Click "Verify Branding" / submit for verification | Cloud Console → OAuth consent screen | N/A | Only after 3-5, 7 are complete, only if pursuing brand verification (optional, per the item-3 distinction above) |
+
+Only items 1-2 can be done today with no prerequisite. Items 3, 4, 5, 7
+are blocked on the §4 domain decision (not on brand verification — see
+the item-3 distinction above, which this table's "required now?" column
+now correctly reflects). Items 6 and 8 remain gated behind the separate,
+still-optional brand-verification decision.
+
+### 6. Legal-page architecture
+
+`src/core/i18n/legal.ts` — `PRIVACY_POLICY`/`TERMS_OF_SERVICE`, keyed
+`{"en-US", "ko-KR"}`, deliberately **outside** the `MessageKey`/`t()`
+system (two long-form documents, not reusable UI atoms — routing every
+paragraph through a discrete key would have bloated `en.ts`/`ko.ts` for
+content that's never interpolated or reused). `app/[locale]/
+LegalDocumentView.tsx` is the one shared rendering shell both `/privacy`
+and `/terms` use — plain `.tgi-measure-stack` prose, `Heading` level 2
+per section, no per-section `Card` (a wall of boxes around plain
+paragraphs is exactly the AI-tell this project's design principle warns
+against), no table of contents/accordion for a document this short.
+Both routes are thin Server Component wrappers (`generateMetadata` +
+`localizedAlternates`), same pattern as every other indexed page — both
+build as `●` SSG for both locales, confirmed in the build output.
+
+**Sitemap**: `/privacy` and `/terms` added to `buildSitemapEntries()`
+alongside People/Quiz — real, indexable content, no compelling reason to
+noindex a legal-disclosure page. **Sitemap count: 76 → 80** (2 Landing +
+2 People + 2 Quiz + 2 Privacy + 2 Terms + 70 Person). The historical "76"
+figures in this file's Post-10D Stage A / Public Beta Finish Line
+sections above are accurate AS OF THOSE closures — left unchanged as a
+historical record, not restated.
+
+**Footer** (`app/[locale]/Footer.tsx`, new — no footer existed before
+this pass): the smallest reusable legal-links treatment, not a SaaS
+multi-column footer — one quiet row (site name + Privacy/Terms links),
+mirroring `Header`'s own restraint, added to the shared `[locale]`
+layout. A plain static Server Component (no `cookies()`, no client
+state), confirmed not to affect any page's static/dynamic split — the
+same reasoning `Header`'s own doc comment already established for
+itself, re-verified by the unchanged SSG route table after adding it.
+
+### 7. Final automated validation (2026-08, this pass)
+
+`tsc --noEmit` clean · `vitest run` **501/501** (480 baseline + 21 new:
+`deleteSavedResults.test.ts` 3, `deleteSavedResultsNoServiceRole.test.ts`
+2, `src/core/i18n/legal.test.ts` 14, `sitemapEntries.test.ts` +2) ·
+`next build --webpack` clean, **92 routes** (88 baseline + 4: `/privacy`
++ `/terms` × 2 locales, both `●` SSG), all 70 Person pages still `●` SSG,
+People/Quiz still `●` SSG, static/dynamic split otherwise unchanged ·
+Playwright **215/215** (207 baseline + 8 new, `e2e/legal.spec.ts`) ·
+`/privacy` and `/terms` verified live in both locales at desktop
+(1280px) and mobile (390px): correct canonical/hreflang, exactly one
+`h1`, no heading skip, footer links resolve, correct EN/KO content, no
+console errors, no horizontal overflow, no accidental `noindex`. Human
+visual review of the same screenshots: approved.
+
+**Deliberately NOT done this pass** (explicit boundaries): no custom
+domain purchase, no Google Cloud Console changes (no access from this
+session), no Supabase dashboard changes, no analytics/ads/monetization,
+no portrait pipeline, no dataset expansion, no dynamic Results/Compare
+OG, no manifest/PWA, no custom 404, no new auth provider, no
+scoring/matching/taxonomy change, no performance-optimization project,
+no SEO redesign beyond the two new indexed routes, no marketing/
+beta-recruitment work.
+
+### 8. Status
+
+**BLOCKS BROADER PUBLIC LAUNCH**: an owner-controlled custom domain, and
+the associated Google OAuth production-domain configuration (§4/§5,
+items 3-5 and 7) — the one external, manual dependency this finish line
+found and did not implement around. This is not a new Phase/Stage; it is
+the final external dependency this already-finite checklist surfaced.
+
+**DOES NOT BLOCK the already-CLOSED Public Beta Finish Line**: that
+posture correctly relies on the identity-only Testing-status exception
+(§4 item 1), which is unaffected by this correction — the existing
+`the-great-inside.vercel.app` deployment remains fully valid for the
+limited-beta audience already shipped.
+
+**Everything else in this section — Privacy Policy, Terms, the legal
+footer, sitemap expansion to 80, "Delete all saved results," and their
+tests — is implemented, tested, and approved**, independent of the
+domain question; none of it required a domain and none of it is
+affected by this correction.
+
+**Verdict: NOT READY FOR BROADER PUBLIC LAUNCH** — solely because an
+owner-controlled custom domain and its associated Google production-
+domain setup remain an external, manual dependency. No other blocker
+was found.
+
 ## Conventions
 
 - Everything in `src/core` is pure: same input → same output, forever, for a

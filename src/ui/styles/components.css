@@ -211,6 +211,39 @@ body {
   text-decoration: underline;
 }
 
+/* -------------------------------------------------------------- footer */
+/* Broader Public Launch Finish Line: mirrors .tgi-header's own restraint —
+   one quiet row, a thin top rule, no column layout, no icons. */
+.tgi-footer {
+  border-top: var(--tgi-border-width) solid var(--tgi-rule);
+  margin-top: var(--tgi-space-7);
+}
+
+.tgi-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--tgi-space-3);
+  padding-block: var(--tgi-space-4);
+  font-size: 0.8125rem;
+  color: var(--tgi-ink-muted);
+}
+
+.tgi-footer__links {
+  display: flex;
+  gap: var(--tgi-space-4);
+}
+
+.tgi-footer__links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tgi-footer__links a:hover {
+  text-decoration: underline;
+}
+
 /* Stage B: one quiet Share action + an adjacent, empty-when-idle feedback
    region (aria-live). Inline-flex so it drops naturally into an existing
    Cluster of other quiet/secondary actions without its own layout. */

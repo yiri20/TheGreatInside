@@ -167,6 +167,11 @@ export const en = {
   "site.name": "The Great Inside",
   "results.hero.title": "Your Greatness Profile",
 
+  /* ---------------------- Broader Public Launch Finish Line: footer/legal */
+  "footer.legal_nav_label": "Legal",
+  "footer.privacy": "Privacy",
+  "footer.terms": "Terms",
+
   /* ------------------------------------------- Phase 9 Stage 9D: header/auth */
   "auth.sign_in": "Sign in",
   "auth.sign_out": "Sign out",
@@ -247,6 +252,12 @@ export const en = {
   "account.list.completed_at": "Completed {date}",
   "account.list.view": "View",
   "account.list.unavailable": "Not available for this early result",
+  "account.delete.button": "Delete all saved results",
+  "account.delete.confirm": "This permanently deletes every saved result from your account. This can't be undone.",
+  "account.delete.confirm_action": "Yes, delete everything",
+  "account.delete.cancel": "Cancel",
+  "account.delete.success": "All your saved results have been deleted.",
+  "account.delete.error": "Something went wrong deleting your results. Please try again.",
   "account.back": "Back to Your Saved Results",
 
   "account.results.not_found.title": "We couldn't find that result",
@@ -1455,6 +1466,10 @@ export const en = {
   "meta.quiz.title": "Take the Quiz — The Great Inside",
   "meta.quiz.description":
     "Answer a series of honest questions about how you think and work, then see who in history compares.",
+  "meta.privacy.title": "Privacy Policy — The Great Inside",
+  "meta.privacy.description": "What The Great Inside actually collects, stores, and shares, in plain language.",
+  "meta.terms.title": "Terms of Service — The Great Inside",
+  "meta.terms.description": "The terms that apply to using The Great Inside.",
   "meta.person.description": "{name}'s trait profile on The Great Inside — see how your own profile compares.",
   "meta.results.title": "Your Results — The Great Inside",
   "meta.results.description":
