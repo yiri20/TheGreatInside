@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jean-piaget",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Jean Piaget",
+    "wikidataId": "Q123190",
+    "birthYear": 1896,
+    "deathYear": 1980,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CH"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "psychology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "systematic_thinker",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_piaget_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jean Piaget",
+      "url": "https://en.wikipedia.org/wiki/Jean_Piaget"
+    },
+    {
+      "id": "src_piaget_britannica",
+      "kind": "institution",
+      "title": "Britannica — Jean Piaget"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a comprehensive stage theory of cognitive development (sensorimotor, preoperational, concrete operational, formal operational) integrating observations across decades into one coherent developmental framework, documented via the well-established scope of his theoretical corpus."
+    },
+    "curiosity": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Published his first scientific paper (on an albino sparrow) at age 11 and sustained active naturalist/scientific interests before formally shifting to psychology, documented via his own well-established early publication record."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His clinical-interview method involved detailed, systematic observation and questioning of individual children's reasoning across many documented case studies, evidenced directly in his published research method."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an extraordinarily prolific research and publication output (over 60 books and hundreds of articles) across a six-decade career, documented via his well-established bibliography."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed the clinical interview method as a systematic, replicable technique for studying children's reasoning, documented via its lasting methodological influence on developmental psychology research."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a stage-based, biologically-grounded theory of cognitive development that departed from both behaviorist and purely nativist accounts dominant in his era, documented via the theory's own distinct framing relative to contemporaneous approaches."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Began his career in biology and malacology (mollusk studies) before shifting to developmental psychology and epistemology, documented via his own well-established academic career trajectory across these genuinely distinct fields."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prolific research and institution-building career (founding the International Centre for Genetic Epistemology) for six decades, evidencing sustained long-term ambition well beyond his early theoretical contributions."
+    },
+    "deep_focus": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The detailed, extended clinical-interview case studies underlying his stage theory evidence sustained concentrated observational work over extended periods."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining and extending his developmental theory across decades of subsequent research and publication, documented via the internal development visible across his extensive bibliography."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded and directed the International Centre for Genetic Epistemology in Geneva, documented via the well-established institutional record of that research center under his leadership."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The systematic, stage-by-stage structure of his developmental theory evidences real advance conceptual organization built up across an extended research program."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifted his primary research focus from biology to psychology to epistemology across his career, suggesting real flexibility in intellectual direction."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Built and directed a research center involving sustained collaboration with numerous other researchers over decades, suggesting real capacity for structured collaborative work."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His theory's sustained, explicit application to educational practice and curriculum design suggests real orientation toward broader applied usefulness, not only abstract theory."
+    },
+    "experimentation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His clinical-interview method involved presenting children with novel constructed scenarios and tasks to observe their reasoning directly, a genuinely experimental approach to studying cognition, documented via the well-established methodology of his research."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained an active international academic and institutional public role across his career, including extensive lecturing and institution-building, suggesting real comfort with public professional engagement."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained an unusually prolific research output across a six-decade career, evidencing real long-term persistence in his research program."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a genuinely original stage-based theory of cognitive development that departed from both behaviorist and purely nativist accounts dominant in his era, documented via the theory's own lasting, distinct influence."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifting his primary career focus from established biology credentials to the then-nascent field of developmental psychology carried some real professional risk."
+    },
+    "resourcefulness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developed the clinical-interview method specifically to work around the practical limitation that young children cannot reliably self-report abstract reasoning, a real methodological workaround."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, western_europe (Switzerland), developmental-psychology domain not represented anywhere in the current roster. Scored strictly from his documented research career and methodology — no modern clinical/diagnostic labeling was applied to him personally, consistent with this project's own safety rules."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.516 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

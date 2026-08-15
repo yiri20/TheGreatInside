@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nicolaus-copernicus",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Nicolaus Copernicus",
+    "wikidataId": "Q619",
+    "birthYear": 1473,
+    "deathYear": 1543,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "PL"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "systematic_thinker",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_copernicus_wikipedia",
+      "kind": "wikipedia",
+      "title": "Nicolaus Copernicus",
+      "url": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+    },
+    {
+      "id": "src_copernicus_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics — Nicolaus Copernicus"
+    },
+    {
+      "id": "src_copernicus_revolutionibus",
+      "kind": "archive",
+      "title": "Nicolaus Copernicus, De revolutionibus orbium coelestium (1543)"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 90,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed and defended a heliocentric model directly contradicting the geocentric consensus that had stood for over a millennium, documented via De revolutionibus's own explicit argument against the established Ptolemaic model."
+    },
+    "perfectionism": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Withheld publication of De revolutionibus for roughly three decades, continuing to refine the mathematical model, only allowing publication near his own death — documented via the well-established, unusually long delay between the model's development and its eventual publication."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Developed a theory that directly contradicted both scientific consensus and the era's dominant theological cosmology, carrying real intellectual and institutional risk, reflected in his own well-documented caution about publishing it during his lifetime."
+    },
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "De revolutionibus provides detailed mathematical and geometric argument for the heliocentric model, documented directly in the surviving text's own technical content."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued developing and refining the heliocentric model privately across roughly three decades before publication, documented via the well-established long gestation period of De revolutionibus."
+    },
+    "deep_focus": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained detailed astronomical observation and calculation over decades to build the full heliocentric mathematical model, documented via the sheer scope and precision of the surviving text."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The mathematical apparatus of De revolutionibus required precise astronomical calculation across many planetary observations, documented directly via the surviving text's technical content."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Practiced substantively across astronomy, mathematics, canon law, medicine, and economics (he wrote a treatise on currency debasement), documented via his varied surviving bibliography and administrative career."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding astronomical research project across decades alongside a full career as a church canon and administrator, evidencing real disciplined effort across simultaneous demanding tracks."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The heliocentric model was a genuinely original reconceptualization of the solar system's structure, documented via its lasting, foundational influence on the subsequent history of astronomy."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed his model largely independently over decades before circulating it even privately, documented via the well-established solitary early development of the theory."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Knowingly developed a theory that would directly contradict established authority, though his well-documented caution about publication suggests real awareness of, and some reluctance to directly court, that conflict during his own lifetime."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained a highly demanding independent research project across decades with no institutional support specifically for it, evidencing real long-term ambition."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining the mathematical precision of his heliocentric model over an extended period rather than publishing an early, less-developed version."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The systematic, book-by-book structure of De revolutionibus, building from general principles to detailed planetary models, evidences real advance organizational planning."
+    },
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built a complete, internally consistent alternative cosmological system rather than a piecemeal correction to the existing model, documented via De revolutionibus's own comprehensive structure."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained productive engagement across astronomy, mathematics, medicine, and economics over his career, evidencing real intellectual range."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Eventually shared his manuscript with a small circle of trusted colleagues (including Georg Joachim Rheticus, who helped secure its publication), suggesting some real capacity for selective scholarly collaboration despite his largely solitary development process."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked largely as an individual scholar and church administrator rather than building or leading a scientific institution, an honestly moderate score reflecting the surviving record's own emphasis."
+    },
+    "proactive_agency": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developed and eventually arranged publication of his heliocentric model on his own initiative, without official commission or institutional mandate to do so."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: early_modern, central_europe (a genuinely underrepresented region — only 3 of 67 current people), astronomy domain. Well documented via his own surviving primary text and its well-established publication history."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.537 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

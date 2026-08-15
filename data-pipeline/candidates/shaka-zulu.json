@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "shaka-zulu",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Shaka Zulu",
+    "wikidataId": "Q27695",
+    "birthYear": 1787,
+    "deathYear": 1828,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_commander",
+      "statesman"
+    ],
+    "fieldIds": [
+      "military",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_shaka_wikipedia",
+      "kind": "wikipedia",
+      "title": "Shaka",
+      "url": "https://en.wikipedia.org/wiki/Shaka"
+    },
+    {
+      "id": "src_shaka_history",
+      "kind": "institution",
+      "title": "South African History Online — Shaka Zulu"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Restructured Zulu military organization around the short stabbing spear (iklwa) and age-regiment (ibutho) system, a documented, widely-cited military innovation that departed from the throwing-spear-based tactics common among neighboring groups at the time."
+    },
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built the small Zulu clan into the dominant regional power in southern Africa within roughly a decade, unifying dozens of previously independent chiefdoms under his direct command, documented via the well-established historical consensus on the scale of the Zulu Kingdom's expansion under his rule."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rose from a marginalized position (an illegitimate son excluded from his father's court) through his own military service under the regional Mthethwa chief Dingiswayo, then seized and built the Zulu chieftaincy into a major power through his own initiative rather than a settled inheritance."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained an aggressive, expansionist military campaign against numerous larger neighboring polities during his rise, a documented high-stakes strategy with real chances of failure at multiple points."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued expanding Zulu territory and consolidating regional dominance throughout his roughly decade-long reign, documented via the sustained scale of conquest across that period."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The systematic restructuring of Zulu military training, weaponry, and regimental organization evidences real advance organizational planning, documented via the well-established scholarly consensus on these reforms' scope."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Committed decisively to close-quarters combat tactics (the short stabbing spear) that required direct, decisive engagement rather than the more cautious throwing-spear skirmishing common at the time."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built an integrated military-and-political administrative system (the age-regiment structure serving both military and social organizational functions) rather than a purely tactical change, documented via the well-established scope of the ibutho system's dual role."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Incorporated conquered groups into the expanding Zulu political structure rather than relying solely on direct subjugation, suggesting real flexibility in consolidating diverse territories."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained a rigorous, documented military training regimen for his regiments, a specific, well-corroborated element of the Zulu military reforms."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued refining Zulu military and administrative organization throughout his reign rather than resting on his early successes."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Sustained near-continuous military conflict with neighboring polities throughout his reign, documented via the well-established scale and frequency of Zulu military campaigns during this period."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built an independent centralized power structure rather than remaining a subordinate chief under the regional Mthethwa hegemony he had originally served, documented via the well-established political history of the Zulu Kingdom's emergence."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Built a major regional power from a genuinely small starting chiefdom with limited initial resources, suggesting real capacity to expand capability from a constrained base."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The specific, documented redesign of individual weapons and combat formations suggests real attention to tactical/operational detail beyond broad strategic direction alone."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a multi-year expansionist military and political consolidation project across a reign of roughly a decade, building on early gains rather than settling for an initial regional victory."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Incorporated numerous defeated and allied chiefdoms into a unified Zulu political structure rather than relying solely on direct subjugation, suggesting real capacity to build lasting alliances alongside conquest."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Building a unified regional state rather than only a raiding confederation suggests some motivation toward lasting political construction, though direct evidence of his personal stated purpose (as opposed to the historical outcome) is thin for this era."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Departed from the throwing-spear-based tactical convention common among neighboring groups to build a genuinely distinct close-combat military doctrine, documented via the well-established scholarly consensus on this tactical innovation."
+    },
+    "deep_focus": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained detailed military reorganization and training required extended concentrated attention beyond a single tactical decision."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: early_modern, sub_saharan_africa, military/state-building domain. Deliberately checked against inclusion_v1's counterfactual test: Shaka's Zulu Kingdom-scale power was NOT simply inherited — he began as an illegitimate, marginalized son excluded from his father's court, served under a regional overlord's military structure, and built the dominant Zulu state through his own military/organizational reforms; the achievement is his, not conferred by birthright. Evidence is genuinely thinner than for a modern figure (contemporary written sources are limited, oral-tradition-heavy, and later colonial-era accounts carry documented bias), so confidence is capped meaningfully lower throughout and no score reaches the 'documented' evidence tier, matching this project's existing ancient/medieval evidence discipline applied to a source-poor 19th-century oral-tradition context."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.459 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

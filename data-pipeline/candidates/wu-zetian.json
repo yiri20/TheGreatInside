@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wu-zetian",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Wu Zetian",
+    "wikidataId": "Q9738",
+    "birthYear": 624,
+    "deathYear": 705,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.tang_dynasty"
+  },
+  "classification": {
+    "occupationIds": [
+      "statesman"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "young_leader",
+      "strategist",
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_wuzetian_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wu Zetian",
+      "url": "https://en.wikipedia.org/wiki/Wu_Zetian"
+    },
+    {
+      "id": "src_wuzetian_history",
+      "kind": "institution",
+      "title": "History Hit / Cambridge History of China — Wu Zetian, the only female emperor of China"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from a relatively minor concubine position in Emperor Taizong's court to become the only woman in Chinese history to rule as emperor in her own name, entirely through her own sustained political maneuvering rather than any inherited claim — documented via the well-established historical consensus on her rise, corroborated across multiple Tang and later dynastic-era chronicles."
+    },
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ruled China directly for decades, first as empress consort exercising real power, then as regent, then formally declaring her own Zhou dynasty and ruling as emperor from 690 to 705 — documented via the well-established institutional record of her sustained direct rule."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Pursued and consolidated supreme political power in a system with no precedent for female rule, at documented real risk of removal or worse at multiple points across her decades-long rise, corroborated across multiple independent historical chronicle traditions."
+    },
+    "decisiveness": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Took direct, consequential political action at multiple critical junctures in her rise to power, including the well-documented removal and replacement of rival court officials and eventual formal founding of her own dynasty."
+    },
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her multi-decade political ascent, from consort to regent to emperor, evidences sustained, deliberate long-horizon political strategy rather than opportunistic improvisation, documented via the well-established staged sequence of her consolidation of power."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct political conflict with rival court factions across decades to secure and hold power, documented via the well-established record of court purges and power struggles during her rise and reign."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued expanding and consolidating her own personal political authority well beyond what any consort or even regent traditionally held, culminating in formally founding her own dynasty."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built political power through a position (consort, then widow) that carried no formal claim to rule, working through the existing court and bureaucratic system rather than around it, documented via the well-established institutional pathway of her rise."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a multi-decade political project across changing court circumstances and multiple emperors' reigns before formally declaring her own rule, documented via the well-established extended timeline of her ascent."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Reformed the imperial examination system to broaden entry into the bureaucracy beyond established aristocratic families, documented via the well-established historical record of her administrative reforms during her reign."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully operated within and eventually restructured a political system with no precedent for the role she sought, documented via the well-established, unusual pathway of her political career."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Formally founded her own dynasty rather than continuing to rule only as regent for a male heir, a documented, specific assertion of independent authority beyond what precedent required or permitted."
+    },
+    "impact_motivation": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Reformed the examination system to broaden the bureaucracy's talent pool, suggesting some real orientation toward institutional/administrative improvement beyond personal power alone, though this is inferred from her governing record rather than a directly documented personal statement."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained direct oversight of complex court administration and bureaucratic reform over decades of rule, suggesting real attention to governmental detail."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained direct, visible political authority and public rule for decades in a system where women rarely held any formal public political role, documented via the well-established unprecedented nature of her public position."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing her political and administrative capability across a rise spanning decades, from court consort through regency to formal sole rule."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Built and sustained a loyal court faction and bureaucratic apparatus across her decades in power, suggesting real capacity to build sustained political alliances."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained direct administrative control over a complex imperial bureaucracy across decades of rule, evidenced by the well-established scale and continuity of her governance."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued and formally declared her own dynasty rather than continuing within the traditional regency framework a woman in her position would ordinarily have been limited to, a documented, unprecedented departure from convention."
+    },
+    "deep_focus": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained direct administrative oversight of a complex imperial bureaucracy over decades required extended concentrated governmental attention."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: medieval, east_asia, politics domain — the only female sole ruler of China. Deliberately checked against inclusion_v1's counterfactual test: her supreme rule was NOT inherited by any formal claim (Tang succession never contemplated female rule) — she built it herself, from a starting position (consort, later widowed empress dowager) that carried no entitlement to the throne she eventually took, so the achievement is clearly her own, passing the test as clearly as Toussaint Louverture or Ibn Khaldun. Confidence capped moderately given the traditional Confucian-historiographical hostility toward her documented in later dynastic chronicles (a real, acknowledged source-bias concern, not ignored) — later, more critical modern scholarship was used to weigh claims rather than the most hostile traditional accounts alone."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.520 vs 0.55 floor, coverage 0.597 vs 0.6 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "diego-rivera",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Diego Rivera",
+    "wikidataId": "Q171128",
+    "birthYear": 1886,
+    "deathYear": 1957,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "MX"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_rivera_wikipedia",
+      "kind": "wikipedia",
+      "title": "Diego Rivera",
+      "url": "https://en.wikipedia.org/wiki/Diego_Rivera"
+    },
+    {
+      "id": "src_rivera_moma",
+      "kind": "institution",
+      "title": "Museum of Modern Art — Diego Rivera"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the Mexican Muralism movement, developing large-scale public fresco painting as a distinctive art form integrating pre-Columbian, folk, and modernist European technique, documented via the movement's own lasting art-historical recognition and influence."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly conceived his murals as public, accessible art depicting Mexican history and workers' struggles rather than private gallery work, documented via his own stated artistic philosophy and the murals' deliberate placement in public government and civic buildings."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "His 1933 Rockefeller Center mural (Man at the Crossroads) was destroyed after he refused to remove a portrait of Lenin at the patron's request, a specific, well-documented instance of sustaining an artistic/political position at direct, realized professional cost."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Knowingly included overtly Communist political imagery in a major commissioned American corporate mural, resulting in the work's destruction, documented via the well-established Rockefeller Center controversy."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced an unusually large body of major public mural work across Mexico and the United States over his career, documented via the well-established scale of his output including the Detroit Industry murals and the National Palace murals in Mexico City."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Large-scale fresco painting requires sustained, physically demanding daily work over months per commission, documented via the well-established scale and timeline of his major mural projects."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His major murals (e.g. the National Palace history mural) integrate complex historical and social narratives into single unified compositional structures, documented via the well-analyzed structure of those specific works."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Chose to sacrifice a major commission rather than alter his own artistic and political content, documented via the well-established Rockefeller Center episode."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully secured major public and government mural commissions across Mexico and internationally throughout his career, documented via the well-established institutional record of his commissioned works."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His large-scale murals contain dense, historically specific figurative detail across dozens of individual figures per composition, documented via the well-analyzed content of works like the National Palace mural."
+    },
+    "cross_domain_range": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked across mural painting, easel painting, and stage/set design over his career, suggesting some range within the visual arts broadly construed."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founded the Mexican Muralism movement alongside contemporaries (including José Clemente Orozco and David Alfaro Siqueiros), suggesting real capacity to build and sustain a shared artistic movement despite his own strong individual convictions."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Widely credited as a principal founder and leading figure of the Mexican Muralism movement, documented via the movement's own well-established historical association with him as one of its central figures."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing his fresco technique and compositional approach across a career spanning decades and multiple major mural cycles."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked productively across markedly different commissioning contexts (Mexican government buildings, American corporate/industrial patrons), suggesting some real capacity to adjust to different institutional settings, tempered by the Rockefeller episode showing real limits to that flexibility."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Large multi-wall fresco cycles required extensive advance compositional and narrative planning before painting began, documented via the well-established preparatory-study process behind his major murals."
+    },
+    "social_assertiveness": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prominent public artistic and political persona throughout his career, including extensive public commentary on his own political and artistic views."
+    },
+    "deep_focus": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained fresco painting requires working in fixed daily sessions on wet plaster over extended periods, evidencing real sustained concentrated physical and artistic effort per project."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His murals' engagement with Mexican pre-Columbian history, contemporary industry, and political theory suggests real intellectual range beyond technique alone."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded Mexican Muralism as a genuinely distinct public-art movement departing from prevailing gallery-based fine-art convention, documented via the movement's own well-established historical departure from that norm."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding public mural career across decades and multiple countries despite the real professional setback of the destroyed Rockefeller Center commission."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, latin_america, visual-art domain complementing Frida Kahlo (already in the roster, his spouse) with a distinct public/monumental-scale artistic profile rather than her intimate/autobiographical one."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.508 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

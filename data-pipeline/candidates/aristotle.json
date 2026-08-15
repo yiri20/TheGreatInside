@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "aristotle",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Aristotle",
+    "wikidataId": "Q868",
+    "birthYear": -384,
+    "deathYear": -322,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [
+      "GR"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "scientific"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "polymath",
+      "founder"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_aristotle_wikipedia",
+      "kind": "wikipedia",
+      "title": "Aristotle",
+      "url": "https://en.wikipedia.org/wiki/Aristotle"
+    },
+    {
+      "id": "src_aristotle_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy — Aristotle"
+    },
+    {
+      "id": "src_aristotle_corpus",
+      "kind": "archive",
+      "title": "The surviving Aristotelian corpus (Physics, Metaphysics, Nicomachean Ethics, Politics, Poetics, biological treatises)"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 92,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed comprehensive, internally cross-referenced systems spanning logic, physics, metaphysics, ethics, politics, and biology — a documented, unparalleled scope of systematic categorization directly observable in the surviving corpus itself."
+    },
+    "analytical_rigor": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Invented formal syllogistic logic (the Prior Analytics), a documented, foundational rigorous reasoning system still taught today, directly observable in the surviving text."
+    },
+    "cross_domain_range": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced substantive original work across logic, physics, biology, psychology, ethics, politics, rhetoric, and poetics — documented via the surviving corpus's own breadth, not secondhand characterization."
+    },
+    "curiosity": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Conducted extensive empirical observation and dissection of marine animals to build his biological classification system, documented via the surviving zoological treatises' own detailed observational content."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained systematic lecturing and treatise-writing across decades at the Lyceum, documented via the sheer surviving volume and organizational consistency of the corpus."
+    },
+    "deep_focus": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced detailed, sustained treatises on narrow technical subjects (e.g. the specific anatomy of individual species in History of Animals), evidencing prolonged concentrated attention, documented via the surviving texts themselves."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded formal logic and developed original metaphysical concepts (substance, causation's four types) with no direct precedent, documented via the surviving corpus's own novel terminology and framework."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Departed substantially from his teacher Plato's theory of Forms, developing a competing empiricist framework, documented via the Metaphysics' own explicit critique of Platonic idealism."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and led the Lyceum as a sustained teaching institution, documented via the well-established historical record of the school's operation after his return to Athens."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining and cross-referencing his own theoretical framework across ethics, politics, and metaphysics over decades, evidenced by internal cross-references within the surviving corpus."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The corpus's systematic internal cross-referencing and structured progression (e.g. Organon's ordered logical treatises) evidences real advance organizational planning."
+    },
+    "persistence": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a multi-decade philosophical and scientific project across two exiles from Athens (once as a young man, once near the end of his life), continuing work throughout, documented via the well-established biographical record."
+    },
+    "achievement_drive": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Continued expanding his systematic project across new domains (biology, politics) well after his early logical/metaphysical work was already influential."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Explicitly framed the Nicomachean Ethics and Politics around the practical question of how to live and govern well, documented via those works' own stated purpose."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His biological classification work required exhaustive cataloguing of specific anatomical details across hundreds of species, documented via the surviving History of Animals."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Founded his own school with his own distinct philosophical direction after departing the Academy, documented via the well-established break from Platonic orthodoxy visible in the corpus."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Served as tutor to Alexander the Great, a specific, multiply-corroborated ancient biographical fact (Diogenes Laertius, Plutarch), and sustained a public teaching role at the Lyceum."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Fled Athens a second time near the end of his life to avoid execution on charges of impiety (echoing Socrates's fate), documented via the well-established biographical record of his final year (Diogenes Laertius)."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His mature biological and physical works show real revision of earlier, more speculative metaphysical commitments in light of accumulated empirical observation, documented via the internal development visible across the corpus."
+    },
+    "experimentation": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His biological work involved direct dissection and observation as a method, a real if not fully modern-experimental approach to generating evidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: ancient era (a significant gap — only 2 of 67 current people are ancient), philosophy domain. Unusually well-evidenced for an ancient figure because the primary evidence is his own surviving authored corpus, not secondhand biography — this is why confidence bands here run higher than the project's other ancient/medieval figures (Confucius, Socrates), who rely on secondhand accounts."
+  }
+}

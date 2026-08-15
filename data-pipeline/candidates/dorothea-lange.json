@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dorothea-lange",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Dorothea Lange",
+    "wikidataId": "Q230673",
+    "birthYear": 1895,
+    "deathYear": 1965,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "photographer"
+    ],
+    "fieldIds": [
+      "art",
+      "journalism"
+    ],
+    "impactDomains": [
+      "artistic",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_lange_wikipedia",
+      "kind": "wikipedia",
+      "title": "Dorothea Lange",
+      "url": "https://en.wikipedia.org/wiki/Dorothea_Lange"
+    },
+    {
+      "id": "src_lange_icp",
+      "kind": "institution",
+      "title": "International Center of Photography — Dorothea Lange"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Left a successful commercial portrait studio to document Great Depression breadlines and later migrant labor conditions for the Farm Security Administration, explicitly to bring public attention to social conditions, documented via the well-established career shift and her own stated purpose for the work."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained documentary photography across Depression-era migrant labor, Japanese American internment, and postwar social conditions, evidencing real sustained investigative engagement across changing subject matter, documented via her extensive body of work."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Left a financially secure, established commercial portrait business during the Depression to pursue uncertain documentary work, and later photographed the Japanese American internment camps in a way that drew official military censorship, a documented real professional and institutional risk."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Recorded detailed field notes alongside her photographs documenting subjects' specific circumstances and quotes (as with the 'Migrant Mother' image), documented via the well-established archival record of her field documentation practice."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Her Japanese American internment photographs were considered so critical of the camps' conditions that the US Army impounded many of them for decades, a specific, well-documented instance of sustained work that directly conflicted with an official institutional position."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding documentary photography career across decades and changing social/political contexts, from the Depression through the postwar period, evidencing sustained long-term ambition."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued documentary field work despite her own significant physical disability (a childhood polio-related limp), which she later described as shaping her empathetic approach to subjects, documented via her own later interviews on this influence."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Photographed the Japanese American internment camps in a manner that documented harsh conditions rather than the more neutral or favorable images the commissioning War Relocation Authority expected, documented via the well-established censorship response to her work."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained demanding, extensive field documentary work across difficult conditions (Depression-era rural travel, internment camps) over an extended career."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifted from a successful commercial portrait studio to field documentary work as economic and social circumstances changed, and later continued adapting her subject matter across different government and independent commissions."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained her documentary photography career across a physical disability and difficult field conditions over decades."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Photographed subjects and conditions in a way that diverged from what the commissioning agencies expected or wanted, suggesting real independence in her creative and documentary approach despite working within institutional commissions."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Field documentary photography required direct, sustained engagement with subjects in difficult personal circumstances, suggesting real capacity for direct interpersonal engagement despite the documentary (not performative) nature of the work."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked within the Farm Security Administration's coordinated documentary photography program alongside other photographers, suggesting real capacity for structured collaborative institutional work."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained field documentary work required extended concentrated attention to both technical photographic craft and subject engagement over demanding travel conditions."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing her documentary photographic approach across different subject matter and institutional contexts over a multi-decade career."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her Depression-era work, particularly 'Migrant Mother,' is widely credited with helping establish documentary photography's capacity to shape public policy and social awareness, documented via the work's lasting recognized cultural and historical influence."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated leaving her established, financially secure portrait studio business to photograph Depression-era breadlines and unemployment before receiving any government commission, documented via the well-established, self-directed origin of that career shift."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked as a senior photographer within the Farm Security Administration's documentary program, suggesting some real professional standing within that collaborative institutional structure."
+    },
+    "systems_abstraction": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained body of work builds a coherent visual documentary record of Depression-era and wartime social conditions across many individual images, suggesting real capacity to organize observation into a larger coherent project."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained field documentary assignments across multiple government commissions required real advance logistical and thematic planning."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, north_america, documentary-photography domain not represented anywhere in the current roster. The internment-camp censorship episode is a specific, well-documented instance grounding several trait scores rather than general characterization."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.490 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

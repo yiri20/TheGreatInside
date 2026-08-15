@@ -790,6 +790,7 @@ export const en = {
   "occupation.political_leader": "political leader",
   "occupation.primatologist": "primatologist",
   "occupation.product_designer": "product designer",
+  "occupation.scholar": "scholar",
   "occupation.scientist": "scientist",
   "occupation.singer": "singer",
   "occupation.statesman": "statesman",
@@ -932,6 +933,11 @@ export const en = {
   "polity.almohad_caliphate": "Almohad Caliphate",
   "polity.ayyubid_sultanate": "Ayyubid Sultanate",
   "polity.heian_japan": "Heian-era Japan",
+  "polity.abbasid_caliphate": "Abbasid Caliphate, Baghdad",
+  "polity.seljuk_empire": "Seljuk Empire, Persia",
+  "polity.ghaznavid_empire": "Ghaznavid Empire",
+  "polity.fatimid_caliphate": "Fatimid Caliphate, Cairo",
+  "polity.tang_dynasty": "Tang Dynasty, China",
 
   /* ================================================================
      PHASE 7 — DEVELOPMENT GUIDES (development_v1)

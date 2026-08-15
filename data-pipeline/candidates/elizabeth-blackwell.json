@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "elizabeth-blackwell",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Elizabeth Blackwell",
+    "wikidataId": "Q234572",
+    "birthYear": 1821,
+    "deathYear": 1910,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "social",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "visionary_pioneer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_blackwell_wikipedia",
+      "kind": "wikipedia",
+      "title": "Elizabeth Blackwell",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Blackwell"
+    },
+    {
+      "id": "src_blackwell_nps",
+      "kind": "institution",
+      "title": "U.S. National Park Service — Dr. Elizabeth Blackwell"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Applied to and was rejected by roughly 29 medical schools before Geneva Medical College accepted her (reportedly as a student-body joke that was then honored), documented via the well-established, multiply-corroborated account of her admissions campaign."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Pursued formal medical training when no woman had ever earned a US medical degree, facing documented social ostracism and professional exclusion throughout her training, including being made to sit separately in some lectures."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued medicine specifically because a dying friend told her she would have been spared indignity with a female doctor, a documented, specific origin for a career choice that directly contradicted the era's near-universal assumption that medicine was not a field for women."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the first woman to earn a US medical degree (1849), then founded her own infirmary and later a medical college for women, documented via the well-established sequence of these institutional achievements."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the New York Infirmary for Indigent Women and Children and later a Women's Medical College, documented via the well-established institutional record of both organizations she built and led."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Secured medical training and later practical clinical experience despite documented, sustained institutional exclusion (being denied hospital positions available to male colleagues), working around these barriers via her own institution-building rather than being blocked by them."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly founded her infirmary and college specifically to provide medical care by and for women who were otherwise underserved, and to train other women physicians, documented via the well-established stated purpose of both institutions."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rigorous formal medical training and subsequently further clinical study in Paris and London despite documented institutional exclusion at each stage."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built her own independent medical institutions rather than attempting to integrate into existing male-dominated hospital hierarchies that had already excluded her, documented via the well-established founding rationale for her infirmary."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated both the founding of the New York Infirmary and the subsequent Women's Medical College without waiting for institutional invitation, documented via the well-established independent origin of both projects."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Sustained her medical career and institution-building through documented ongoing professional exclusion and public skepticism throughout her working life."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Formal medical training and clinical practice require real careful attention to diagnostic and treatment detail, though direct documentation of her personal working method specifically (beyond her institutional achievements) is limited for this era."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked closely with her sister Emily Blackwell, also a physician, in building and running the New York Infirmary, documented via the well-established joint leadership of that institution."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued pursuing further clinical training in Europe after her initial US degree, seeking additional specialized surgical experience, documented via the well-established record of her postgraduate study in Paris and London."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained public advocacy for women's medical education across her career, including public lecturing, suggesting real comfort with public professional engagement despite the era's active resistance to her role."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founding and structuring both a functioning infirmary and a full medical college curriculum evidences substantial advance institutional planning."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued formal medical training and further specialized study across multiple countries, suggesting real sustained interest in expanding her own clinical knowledge."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Adjusted her career path across multiple countries and institutional settings (US training, European postgraduate study, founding her own institutions) as circumstances and exclusion required."
+    },
+    "deep_focus": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rigorous formal medical study and later specialized postgraduate surgical training in Paris and London, evidencing real sustained concentrated technical effort."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained substantive work across clinical medicine, medical education institution-building, and public health advocacy writing, documented via her varied bibliography and institutional record."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Committed decisively to pursuing formal medical training after her friend's death, applying to dozens of schools rather than pursuing an easier alternative path, documented via the well-established account of her decision."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 19th_century, north_america, medicine domain — the first Western woman to hold a formal medical degree."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.526 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

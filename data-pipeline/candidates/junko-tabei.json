@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "junko-tabei",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Junko Tabei",
+    "wikidataId": "Q234491",
+    "birthYear": 1939,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "environmental"
+    ],
+    "tagIds": [
+      "founder",
+      "independent"
+    ],
+    "archetypeIds": [
+      "visionary_pioneer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tabei_wikipedia",
+      "kind": "wikipedia",
+      "title": "Junko Tabei",
+      "url": "https://en.wikipedia.org/wiki/Junko_Tabei"
+    },
+    {
+      "id": "src_tabei_womeninexploration",
+      "kind": "institution",
+      "title": "Women in Exploration — Junko Tabei"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the first woman to summit Mount Everest (1975) and later the first woman to complete the Seven Summits (climbing the highest peak on every continent), documented via the well-established, multiply-corroborated record of both achievements."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued the 1975 Everest expedition after being buried and knocked unconscious by an avalanche that struck the team's camp six days before the summit push, documented via the well-established account of that specific incident and her subsequent recovery and continuation."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the Ladies Climbing Club in Japan in 1969 specifically because existing climbing organizations largely excluded or marginalized women, documented via the well-established founding history of that organization and its role in organizing her Everest expedition."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Secured funding for the 1975 all-women Everest expedition despite documented sponsor skepticism about an all-women team's viability, including corporate sponsors who reportedly suggested the team should instead focus on childcare, a specific documented obstacle she worked around."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued mountaineering and completed the Seven Summits challenge across decades following her Everest ascent, documented via the well-established extended timeline of her subsequent climbing career."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the Ladies Climbing Club's founding and the 1975 Everest expedition without institutional backing from Japan's existing, male-dominated mountaineering establishment, documented via the well-established independent origin of both efforts."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Later in her career, focused increasingly on environmental conservation of mountain regions and on encouraging youth climbing programs, documented via the well-established later-career shift in her public activities beyond personal summiting."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded her own women-only climbing organization rather than working solely within existing male-dominated mountaineering institutions, documented via the well-established founding rationale of the Ladies Climbing Club."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding, decades-long high-altitude mountaineering career requiring rigorous ongoing physical training, evidenced by the sheer number and difficulty of the peaks documented across her climbing record."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Organizing an all-women Everest expedition in 1975, including logistics, funding, and permits under real institutional skepticism, evidences substantial advance organizational planning, documented via the well-established account of the expedition's preparation."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued the Everest summit attempt after the avalanche disrupted the original expedition plan, adjusting the team's approach under real changed circumstances, documented via the well-established account of the expedition's revised timeline after the incident."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained her mountaineering ambitions despite documented institutional skepticism and outright dismissal from parts of Japan's climbing establishment and sponsors, suggesting real willingness to persist against direct social resistance."
+    },
+    "curiosity": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her later-career shift toward environmental science study (she pursued graduate research on mountain environmental degradation) suggests real intellectual range beyond athletic achievement alone."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "High-altitude expedition logistics and route-planning require real careful attention to equipment, timing, and safety detail, though direct documentation of her personal working method specifically is limited."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing her mountaineering capability across increasingly difficult peaks over a multi-decade career, culminating in the Seven Summits challenge well after her initial Everest achievement."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a public role advocating for women's inclusion in mountaineering and later environmental causes throughout her later career, suggesting real comfort with public advocacy."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Led and organized an all-women expedition team requiring sustained close collaboration under extreme conditions, documented via the well-established team structure of the 1975 Everest climb."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founding a women-only mountaineering organization and pursuing an all-women Everest expedition directly departed from her era's dominant, male-only mountaineering convention, documented via the well-established founding context of the Ladies Climbing Club."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "High-altitude summit attempts require sustained, focused physical and mental effort over many hours in extreme conditions, particularly evident in the continued summit push after the avalanche incident."
+    },
+    "creative_originality": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founding an entirely new women-only mountaineering organization structure to enable her expedition suggests a real original institutional solution to an access problem, not merely athletic achievement."
+    },
+    "analytical_rigor": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Later pursuing formal graduate research on mountain environmental degradation suggests real capacity for systematic analytical work beyond athletics."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: contemporary, east_asia, exploration/mountaineering domain not represented anywhere in the current roster."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.495 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

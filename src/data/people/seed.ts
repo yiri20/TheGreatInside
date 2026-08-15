@@ -23,6 +23,7 @@ import { build, bio, wiki, type PersonSeed } from "./builder.js";
 import { ROSTER_2 } from "./roster2.js";
 import { ROSTER_3 } from "./roster3.js";
 import { ROSTER_4 } from "./roster4.js";
+import { ROSTER_5 } from "./roster5.js";
 
 const seeds: PersonSeed[] = [
   {
@@ -233,6 +234,19 @@ const seeds: PersonSeed[] = [
     tagIds: ["nobel_laureate", "generalist", "communicator"],
     archetypeIds: ["scientific_explorer", "cross_disciplinary_generalist"],
     sources: [wiki("feynman", "Richard Feynman"), bio("feynman", "James Gleick, Genius (1992)")],
+    // Verified 2026-08 via a direct fetch of the Commons file page: a
+    // Manhattan-Project-era Los Alamos National Laboratory archive photo,
+    // photographer unknown. Public domain in the US as a federal
+    // government work (17 U.S.C. §105).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Feynman_at_Los_Alamos.jpg",
+      width: 265,
+      height: 284,
+      source: "Wikimedia Commons",
+      license: "Public Domain (US federal government work, Los Alamos National Laboratory)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Feynman_at_Los_Alamos.jpg",
+      attribution: "Los Alamos National Laboratory archive, photographer unknown",
+    },
     rows: {
       curiosity: [97, 0.94, "d", "A"],
       analytical_rigor: [90, 0.88, "d", "A"],
@@ -297,6 +311,19 @@ const seeds: PersonSeed[] = [
     tagIds: ["early_computing", "generalist", "self_taught"],
     archetypeIds: ["technical_innovator", "cross_disciplinary_generalist"],
     sources: [wiki("lovelace", "Ada Lovelace"), bio("lovelace", "Betty Alexandra Toole, Ada, the Enchantress of Numbers (1992)")],
+    // Verified 2026-08 via a direct fetch of the Commons file page: Alfred
+    // Edward Chalon's 1840 watercolor, held by the Science Museum, London
+    // (accession 1995-0796). Public domain — faithful photographic
+    // reproduction of a 2D public-domain work of art, published before 1931.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ada_Lovelace_Chalon_portrait.jpg",
+      width: 1118,
+      height: 1118,
+      source: "Wikimedia Commons",
+      license: "Public Domain (published before 1931; artist died 1860)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_Chalon_portrait.jpg",
+      attribution: "Alfred Edward Chalon, 1840 — Science Museum, London",
+    },
     rows: {
       curiosity: [92, 0.8, "s", "A"],
       analytical_rigor: [90, 0.85, "d", "A"],
@@ -581,6 +608,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["independent", "self_taught", "late_recognition"],
     archetypeIds: ["independent_creator", "creative_creator"],
     sources: [wiki("kahlo", "Frida Kahlo"), bio("kahlo", "Hayden Herrera, Frida: A Biography of Frida Kahlo (1983)")],
+    // Verified 2026-08 via a direct fetch of the Commons file page: a
+    // gelatin silver print by her father, Guillermo Kahlo, dated 16 October
+    // 1932. Public domain (artist died 1941, in both Mexico and the US).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg",
+      width: 1197,
+      height: 1795,
+      source: "Wikimedia Commons",
+      license: "Public Domain (artist died 1941)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg",
+      attribution: "Guillermo Kahlo, 16 October 1932",
+    },
     rows: {
       curiosity: [75, 0.55, "i", "N"],
       analytical_rigor: [48, 0.45, "i", "N"],
@@ -710,6 +749,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["theorist", "independent", "early_computing"],
     archetypeIds: ["technical_innovator", "scientific_explorer"],
     sources: [wiki("turing", "Alan Turing"), bio("turing", "Andrew Hodges, Alan Turing: The Enigma (1983)")],
+    // Verified 2026-08 via a direct fetch of the Commons file page: Elliott
+    // & Fry studio photograph, dated 29 March 1951. Public domain (Creative
+    // Commons Public Domain Mark 1.0) in both the UK and US.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Alan_Turing_%281951%29.jpg",
+      width: 800,
+      height: 1067,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg",
+      attribution: "Elliott & Fry, 29 March 1951",
+    },
     rows: {
       curiosity: [94, 0.88, "d", "A"],
       analytical_rigor: [96, 0.94, "d", "A"],
@@ -767,11 +818,17 @@ const ROSTER_1: readonly Person[] = seeds.map(build);
  * Combined seed dataset: the original 10 (roster 1) plus the 25 added in
  * Phase 2 (roster 2, src/data/people/roster2.ts) for match-frequency and
  * signature-trait stress testing, plus the roster-1000 expansion batches
- * (roster 3, session 3, +16; roster 4, session 4, +16). See CLAUDE.md
- * "Seed dataset" and docs/roster-1000-checkpoint.md for the current count
- * and simulation results.
+ * (roster 3, session 3, +16; roster 4, session 4, +16; roster 5, session 5,
+ * +3). See CLAUDE.md "Seed dataset" and docs/roster-1000-checkpoint.md for
+ * the current count and simulation results.
  */
-export const SEED_PEOPLE: readonly Person[] = [...ROSTER_1, ...ROSTER_2, ...ROSTER_3, ...ROSTER_4];
+export const SEED_PEOPLE: readonly Person[] = [
+  ...ROSTER_1,
+  ...ROSTER_2,
+  ...ROSTER_3,
+  ...ROSTER_4,
+  ...ROSTER_5,
+];
 
 export function personBySlug(slug: string): Person | undefined {
   return SEED_PEOPLE.find((p) => p.slug === slug);

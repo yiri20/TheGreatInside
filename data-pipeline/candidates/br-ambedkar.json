@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "br-ambedkar",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "B. R. Ambedkar",
+    "aliases": [
+      "Bhimrao Ramji Ambedkar"
+    ],
+    "wikidataId": "Q231690",
+    "birthYear": 1891,
+    "deathYear": 1956,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "jurist",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "law",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "founder",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ambedkar_wikipedia",
+      "kind": "wikipedia",
+      "title": "B. R. Ambedkar",
+      "url": "https://en.wikipedia.org/wiki/B._R._Ambedkar"
+    },
+    {
+      "id": "src_ambedkar_keer",
+      "kind": "biography",
+      "title": "Dhananjay Keer, Dr. Ambedkar: Life and Mission (1954)"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 88,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Broke publicly and decisively with Gandhi over the 1932 Communal Award/Poona Pact dispute regarding separate electorates for Dalits, a documented, high-profile instance of holding an independent political position against the era's dominant nationalist leadership."
+    },
+    "achievement_drive": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Earned multiple doctoral degrees (Columbia University, London School of Economics) while born into a caste facing severe, documented educational discrimination, and went on to chair the committee drafting India's constitution — an extensively documented trajectory."
+    },
+    "conflict_tolerance": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained direct, public confrontation with the caste system's institutional defenders across his entire career, including organizing the 1927 Mahad Satyagraha (a public water-access protest) and burning the Manusmriti in protest, both extensively documented events."
+    },
+    "impact_motivation": {
+      "score": 88,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly and consistently framed his entire legal and political career around the emancipation of Dalits and the abolition of untouchability, documented via his own extensive writing (Annihilation of Caste) and the well-established record of his public career."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued pursuing legal and political reform across decades despite documented, sustained discrimination throughout his own education and early career, including being denied access to basic amenities as a student."
+    },
+    "leadership_drive": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chaired the Drafting Committee of the Indian Constitution and founded multiple political and social organizations (the Independent Labour Party, later the Scheduled Castes Federation), documented via the well-established institutional record of his roles."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His doctoral economics work (The Problem of the Rupee) and his systematic legal drafting of the Indian Constitution's fundamental rights provisions evidence rigorous, structured analytical work, documented via those surviving texts."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "As chair of the Drafting Committee, built a comprehensive constitutional framework integrating fundamental rights, federal structure, and social-reform provisions, documented via the Constitution's own structure and his leading role in it."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced substantive work across economics (his doctoral dissertations), law (constitutional drafting), and social/religious reform (his conversion to Buddhism and writing on caste), documented via his full bibliography."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Secured funding and access to elite international education (Columbia, LSE) despite starting from a caste facing severe documented institutional barriers to basic schooling, a specific, well-corroborated trajectory."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rigorous graduate-level academic work culminating in multiple doctorates while also engaged in active political organizing, evidencing real disciplined effort across simultaneous demanding tracks."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Organized direct public protests (the Mahad Satyagraha, the Manusmriti burning) that carried real social and physical risk in the caste-hierarchical context of the period."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the 1927 Mahad Satyagraha and the broader anti-caste movement without waiting for or deferring to the established Congress leadership's own agenda, documented via the well-established independent origin of these actions."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained an independent political organization and platform distinct from the dominant Congress movement throughout his career, documented via the sustained separate institutional record of his own parties."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Constitution's fundamental-rights and administrative provisions, which he was principally responsible for drafting, required precise, exhaustive legal specification, documented via the document's own detailed text."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The systematic, phased structure of the Indian Constitution's drafting process, which he chaired, evidences real advance organizational planning."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing expertise across economics, law, and political organizing throughout a multi-decade career, culminating in his most demanding role (constitutional drafting) late in his career."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prominent public political and legal career across decades, including serving as India's first Law Minister, documented via the well-established public record of his roles."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Chaired a multi-member Drafting Committee and worked within India's broader constitutional assembly process, suggesting real capacity for structured institutional collaboration despite his frequent independent political stance."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained doctoral-level research across economics, sociology, and law at multiple institutions (Columbia, LSE), evidencing real intellectual range across genuinely distinct fields."
+    },
+    "deep_focus": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His doctoral dissertations and the constitutional drafting work both required sustained, detailed technical concentration over extended periods, documented via the depth of those surviving works."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, south_asia, law/social-reform domain not represented elsewhere in the current roster. Unusually well documented for a non-Western 20th-century reformer via both his own extensive published writing and multiple independent biographical accounts."
+  }
+}

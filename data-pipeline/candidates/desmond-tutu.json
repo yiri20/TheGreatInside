@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "desmond-tutu",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Desmond Tutu",
+    "wikidataId": "Q43033",
+    "birthYear": 1931,
+    "deathYear": 2021,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "ZA"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "religion",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "reconciliation",
+      "nonviolence",
+      "leader"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tutu_wikipedia",
+      "kind": "wikipedia",
+      "title": "Desmond Tutu",
+      "url": "https://en.wikipedia.org/wiki/Desmond_Tutu"
+    },
+    {
+      "id": "src_tutu_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Prize — Desmond Tutu, Peace 1984"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct, public criticism of the apartheid government across decades as a prominent Anglican church leader, including advocating international economic sanctions against South Africa, documented via the well-established, extensive historical record of his anti-apartheid activism."
+    },
+    "leadership_drive": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the first Black Anglican Archbishop of Cape Town and later chaired South Africa's Truth and Reconciliation Commission, documented via the well-established institutional record of both major leadership roles."
+    },
+    "impact_motivation": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Consistently framed his activism and later reconciliation work around restorative rather than purely punitive justice for South Africa, documented via his own extensive public writing and the explicit framework of the Truth and Reconciliation Commission he chaired."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained public anti-apartheid advocacy under a government known to surveil, harass, and occasionally revoke the passports of prominent critics, documented via the well-established historical record of the risks faced by anti-apartheid church leaders of his era."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Was widely credited with helping build sustained international public and diplomatic pressure (including advocating sanctions) that contributed to apartheid's end, documented via the 1984 Nobel Peace Prize citation's own framing of his contribution."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an unusually prominent international public role across decades, including extensive preaching, public commentary, and diplomatic engagement, documented via the well-established scale of his public career."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued taking on major public leadership roles (archbishop, Truth and Reconciliation Commission chair, later global human-rights advocacy through The Elders) well past any single achievement, evidencing sustained long-term purpose."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Chaired a multi-member Truth and Reconciliation Commission requiring sustained collaborative institutional leadership across a genuinely difficult, contested national process, documented via the well-established institutional structure of that commission."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained anti-apartheid advocacy across decades of setbacks before the system's end, and continued human-rights advocacy work for decades afterward, documented via the well-established extended timeline of his public career."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a demanding public religious and political leadership role across decades, evidenced by the sheer scale and duration of his documented public activity."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained an independent public voice on human-rights issues even when it created friction with allies (including later public criticism of the post-apartheid ANC government), documented via the well-established record of his continued independent advocacy after 1994."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated sustained public anti-apartheid commentary from his church position well before it became a mainstream international consensus position, documented via the well-established early timeline of his public activism."
+    },
+    "systems_abstraction": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Truth and Reconciliation Commission's restorative-justice framework, which he helped shape and chair, evidences real capacity to build a coherent institutional and conceptual structure for addressing a complex national trauma."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifted his public role from anti-apartheid church activism to formal reconciliation-commission leadership to global human-rights advocacy across different phases of his career."
+    },
+    "detail_orientation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Chairing the Truth and Reconciliation Commission's extensive hearing process required real sustained attention to individual case detail across thousands of testimonies."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing his public leadership capability across markedly different roles (church leader, commission chair, global elder statesman) over a multi-decade career."
+    },
+    "curiosity": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His sustained engagement with global human-rights issues beyond South Africa specifically (through The Elders organization) suggests some real intellectual range beyond his original national context."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Truth and Reconciliation Commission's structured, phased hearing and reporting process, which he helped design and chair, evidences real advance institutional planning."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Publicly criticized the post-apartheid ANC government on human-rights grounds after 1994, a documented instance of maintaining independent judgment even against his own historical political allies."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Chairing the Truth and Reconciliation Commission's extensive multi-year hearing process required sustained concentrated engagement across thousands of individual testimonies."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained substantive public work across religious leadership, formal truth-and-reconciliation institution-building, and later global human-rights advocacy, evidencing real range beyond a single role."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: contemporary, sub_saharan_africa, religious/reconciliation leadership domain — a distinct profile shape from Nelson Mandela (already in the roster) emphasizing restorative-justice institution-building over direct political leadership."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.495 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kwame-nkrumah",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Kwame Nkrumah",
+    "wikidataId": "Q8620",
+    "birthYear": 1909,
+    "deathYear": 1972,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GH"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_activist",
+      "statesman"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "leader",
+      "young_leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nkrumah_wikipedia",
+      "kind": "wikipedia",
+      "title": "Kwame Nkrumah",
+      "url": "https://en.wikipedia.org/wiki/Kwame_Nkrumah"
+    },
+    {
+      "id": "src_nkrumah_autobiography",
+      "kind": "archive",
+      "title": "Kwame Nkrumah, Ghana: The Autobiography of Kwame Nkrumah (1957)"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 88,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the Convention People's Party and led Ghana to become the first sub-Saharan African colony to achieve independence (1957), then served as its first prime minister and president, extensively documented via the well-established political history of the period."
+    },
+    "proactive_agency": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the 'Positive Action' campaign of strikes and civil disobedience against colonial rule in 1950, resulting in his own imprisonment, a documented instance of unprompted direct political action."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Was imprisoned by British colonial authorities for organizing the 1950 Positive Action campaign, continuing his political organizing from prison — a specific, well-documented instance of continuing under real personal cost."
+    },
+    "impact_motivation": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly and consistently framed his political work around pan-African unity and decolonization rather than personal power alone, documented via his own extensive published writing (Africa Must Unite) and his sustained advocacy for the Organisation of African Unity."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued organizing for independence across multiple setbacks including imprisonment, documented via the well-established sequence of his political career from the 1940s through 1957."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built the Convention People's Party into a mass political movement capable of winning a decisive electoral mandate while he was still imprisoned in 1951, a specific, well-documented demonstration of organizing/persuasive capacity."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued pursuing an ambitious pan-African political project (the Organisation of African Unity, industrialization projects) well beyond Ghana's own independence, evidencing sustained ambition beyond the initial achievement."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained direct political confrontation with British colonial authorities across a multi-year independence campaign, documented via the well-established record of his organizing and its consequences."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed a systematic pan-Africanist political framework linking individual national independence movements to a broader continental unification project, documented via his own extensive published political theory."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Broke from more gradualist Gold Coast political figures to found his own more radical, independence-focused party, documented via the well-established split within Gold Coast nationalist politics."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Positive Action campaign's organized structure and the subsequent transition-to-independence process evidence real advance political planning."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a demanding organizing and later governing career across roughly two decades, evidenced by the scale of political and economic projects documented under his leadership."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prominent international public political role, including extensive travel and speaking advocating pan-Africanism, documented via the well-established record of his international engagements."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Moved between grassroots organizing, formal electoral politics, and international diplomacy across his career, suggesting real flexibility in political approach."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked with a broad coalition of Gold Coast political organizers to build the Convention People's Party into a mass movement, suggesting real capacity for coalition-building despite his own strong personal leadership style."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing his political and organizational capability from early grassroots organizing through to national and international statesmanship."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Committed decisively to the Positive Action civil-disobedience strategy at a specific chosen moment rather than prolonged gradualist negotiation, documented via the well-established timing of that 1950 campaign."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Advocated for immediate, complete independence and pan-African political union at a time when many contemporaries favored more gradual, incremental approaches, documented via his own explicit published political positions."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed and articulated a systematic pan-Africanist political philosophy that was genuinely novel in its scope and ambition for the period, documented via his own extensive published political theory."
+    },
+    "deep_focus": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained organizing and later governing work required extended concentrated engagement with complex political and economic development projects."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His extensive engagement with pan-African political theory and international diplomacy suggests real intellectual range beyond Ghana's own domestic politics."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, sub_saharan_africa, politics/decolonization domain — a distinct trait shape and historical moment from the existing sub_saharan_africa roster (Mandela, Wangari Maathai, Chinua Achebe, Fela Kuti, Wole Soyinka), specifically the first-wave decolonization/pan-Africanist leadership era. Later authoritarian turn in his own presidency (post-1960, culminating in the 1966 coup that removed him) was reviewed and NOT scored as a personality trait per this project's own rule against reading outcomes backward into traits without direct behavioral evidence — the scored attributes here are grounded in the well-documented independence-era organizing period specifically."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.503 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

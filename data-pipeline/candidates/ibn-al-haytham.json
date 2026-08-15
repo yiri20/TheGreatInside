@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ibn-al-haytham",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Ibn al-Haytham",
+    "aliases": [
+      "Alhazen"
+    ],
+    "wikidataId": "Q11104",
+    "birthYear": 965,
+    "deathYear": 1040,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.fatimid_caliphate"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_alhazen_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ibn al-Haytham",
+      "url": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+    },
+    {
+      "id": "src_alhazen_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics — Ibn al-Haytham"
+    },
+    {
+      "id": "src_alhazen_optics",
+      "kind": "archive",
+      "title": "Ibn al-Haytham, Book of Optics (Kitab al-Manazir, c. 1021)"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Book of Optics documents controlled experiments using a camera obscura and other purpose-built apparatus to test hypotheses about light and vision, widely credited as among the earliest systematic uses of the experimental method, documented via the surviving text's own described procedures."
+    },
+    "analytical_rigor": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rejected the prevailing extramission theory of vision (that the eye emits rays) in favor of an evidence-based intromission theory, documented via the Book of Optics' own systematic argument and experimental support."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly contradicted both Euclid's and Ptolemy's established extramission theories of vision, a documented departure from the dominant authorities of his field, defended via his own experimental evidence rather than appeal to precedent."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed the pinhole-camera (camera obscura) as a research instrument to study light propagation, a genuinely original application documented via the Book of Optics' own described use of it."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Book of Optics builds a comprehensive theoretical framework unifying geometrical optics, physiology of the eye, and psychology of visual perception, documented via the work's own integrated structure."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained investigation across optics, astronomy, and mathematics over his career, evidencing real breadth beyond a single narrow question."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Book of Optics' exhaustive, methodical treatment of light, reflection, refraction, and vision across seven books evidences sustained concentrated technical work over an extended period."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His documented experimental procedures required precise apparatus setup and observation recording, evidenced directly in the surviving text's described methodology."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Reportedly feigned madness for years while under house arrest after failing to deliver on a Nile-flood-control engineering promise made to the Fatimid caliph al-Hakim, a specific, widely-corroborated (if unusual) documented survival strategy under real personal danger."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued substantial scientific work during his prolonged confinement, documented via the sustained productivity of this period in his biographical record."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Shifted from an ambitious engineering proposal (Nile flood control) to sustained theoretical and experimental optics work after the practical project proved unworkable, documented via the well-established sequence of his career."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining his optical theory and experimental method across an extended body of work, documented via the internal development visible across his surviving corpus."
+    },
+    "achievement_drive": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a large, productive body of scientific work across decades under difficult political circumstances, evidencing real long-term ambition."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The exhaustive, systematic structure of the Book of Optics evidences sustained methodical working habits over an extended composition period."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Produced substantive work across optics, astronomy, and mathematics, evidencing real range within the physical sciences broadly construed."
+    },
+    "planning_orientation": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Book of Optics' systematic seven-book structure, building from geometrical foundations to physiological and perceptual application, evidences real advance organizational planning."
+    },
+    "autonomy_need": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His willingness to directly contradict both Euclid's and Ptolemy's established authority suggests a real preference for independently verified conclusions over deference to precedent."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining a position that directly contradicted the field's two most authoritative ancient sources implies real willingness to hold a genuinely contrarian scientific position."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued substantial scientific work through a prolonged period of confinement under Fatimid rule, documented via the sustained productivity of that period in his biographical record."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked largely as an individual scholar rather than building or leading a formal institution, an honestly moderate rather than high score reflecting the surviving record's own emphasis."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: medieval, west_asia (Basra-born, worked in Fatimid Cairo), physics/optics domain not represented anywhere in the current roster. Unusually strong evidence for experimentation/analytical_rigor specifically because the Book of Optics survives largely intact and directly describes his experimental method, not merely secondhand characterization — comparable in kind to how Ibn Sina's medical corpus grounds his own high-confidence scores."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.517 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-shelley",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Mary Shelley",
+    "aliases": [
+      "Mary Wollstonecraft Shelley"
+    ],
+    "wikidataId": "Q47152",
+    "birthYear": 1797,
+    "deathYear": 1851,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_shelley_wikipedia",
+      "kind": "wikipedia",
+      "title": "Mary Shelley",
+      "url": "https://en.wikipedia.org/wiki/Mary_Shelley"
+    },
+    {
+      "id": "src_shelley_journals",
+      "kind": "archive",
+      "title": "Mary Shelley's journals and letters (published posthumously)"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote Frankenstein at age 18-19, widely credited as foundational to modern science fiction as a genre, documented via the work's own lasting critical and genre-historical recognition."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Frankenstein directly engaged with and complicated contemporary scientific and philosophical debates (galvanism, the nature of creation and responsibility) rather than offering a simple morality tale, documented via sustained critical analysis of the novel's genuinely ambiguous treatment of its themes."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Frankenstein's engagement with contemporary galvanism experiments and natural philosophy debates evidences real documented engagement with the scientific discourse of her time, beyond purely literary influences."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued a demanding writing career across significant personal loss (the deaths of three of her four children and her husband Percy Shelley), documented via her sustained subsequent literary output including later novels and extensive editorial work on her husband's poetry."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a documented, prolific writing and editorial career across decades following Frankenstein, including several further novels and extensive scholarly editing work."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Continued producing new literary work throughout her life despite Frankenstein's outsized fame potentially overshadowing her later output, evidencing sustained personal ambition beyond her early success."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her extensive, careful posthumous editorial work compiling and annotating Percy Shelley's poetry evidences real capacity for detailed scholarly attention."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Eloped with the already-married Percy Shelley at age 16, a documented major personal decision carrying real social risk in the context of her era."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Produced work across the novel form, travel writing, biography, and extensive editorial/scholarly work, evidencing some real range within literary and scholarly work."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Rebuilt her literary career and financial independence after Percy Shelley's death, shifting from co-writing/editorial support to sole-authored professional writing to support herself and her surviving child."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an independent professional writing career as a widow supporting herself and her son financially through her own literary work, documented via the well-established biographical account of her later-life financial independence."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Writing Frankenstein as a teenager during the famous 1816 Geneva ghost-story competition, then substantially expanding it into a full novel, evidences real sustained concentrated creative effort."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing her craft across multiple subsequent novels and extensive editorial work following her early success with Frankenstein."
+    },
+    "social_assertiveness": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained literary and social connections within the Romantic-era literary circle (Byron, Percy Shelley, and their circle), though direct evidence of her own personal public manner beyond this circle is comparatively thin."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained editorial work preserving and publishing Percy Shelley's poetry after his death suggests real orientation toward literary/cultural preservation beyond her own personal output."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Frankenstein originated within the collaborative 1816 Geneva ghost-story-writing challenge among the Byron-Shelley circle, suggesting real capacity for creative work within a shared social/intellectual environment."
+    },
+    "conflict_tolerance": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained an unconventional personal life (elopement, later widowhood as an independent professional writer) against significant social disapproval of her era, suggesting some real tolerance for social friction."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rebuilt her financial independence as a widow supporting herself and her surviving son entirely through her own professional writing and editorial work, documented via the well-established biographical account of her post-widowhood career."
+    },
+    "leadership_drive": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked largely as an individual writer rather than building or leading a formal institution, an honestly modest score reflecting the surviving record's own emphasis on her solo literary work."
+    },
+    "systems_abstraction": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Frankenstein's structured frame-narrative (nested first-person accounts) evidences real capacity for deliberate narrative architecture beyond a simple linear plot."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 19th_century, western_europe, literature domain — Frankenstein's unusual origin (written as a teenager in a single documented social gathering/competition, per the well-established Geneva 1816 account) grounds the creative_originality/deep_focus scores in a specific, corroborated episode rather than general characterization."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.475 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -536,6 +536,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.political_leader": "정치 지도자",
   "occupation.primatologist": "영장류학자",
   "occupation.product_designer": "제품 디자이너",
+  "occupation.scholar": "학자",
   "occupation.scientist": "과학자",
   "occupation.singer": "가수",
   "occupation.statesman": "정치가",
@@ -654,6 +655,11 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "polity.almohad_caliphate": "알모하드 칼리파국",
   "polity.ayyubid_sultanate": "아이유브 술탄국",
   "polity.heian_japan": "헤이안 시대 일본",
+  "polity.abbasid_caliphate": "아바스 칼리파국 (바그다드)",
+  "polity.seljuk_empire": "셀주크 제국 (페르시아)",
+  "polity.ghaznavid_empire": "가즈나 왕조",
+  "polity.fatimid_caliphate": "파티마 칼리파국 (카이로)",
+  "polity.tang_dynasty": "당나라",
 
   "dontcopy.davinci.unfinished_work":
     "레오나르도는 많은 작품과 프로젝트를 미완성으로 남겼다고 전기적 기록들은 전합니다. 흥미로운 문제가 풀리면 곧장 다음으로 넘어가곤 했던 그 성향은, 그의 폭넓은 관심사를 키운 힘이자 동시에 많은 작품을 미완성으로 남긴 이유이기도 합니다.",
@@ -1558,6 +1564,11 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.sor-juana-ines-de-la-cruz": "소르 후아나 이네스 데 라 크루스",
   "person.name.toussaint-louverture": "투생 루베르튀르",
   "person.name.wole-soyinka": "월레 소잉카",
+
+  // roster-1000 session 5, third real batch (2026-08) — 3 accepted people.
+  "person.name.aristotle": "아리스토텔레스",
+  "person.name.br-ambedkar": "B. R. 암베드카르",
+  "person.name.sequoyah": "세쿼야",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

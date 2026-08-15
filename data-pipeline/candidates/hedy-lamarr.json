@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hedy-lamarr",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Hedy Lamarr",
+    "wikidataId": "Q49034",
+    "birthYear": 1914,
+    "deathYear": 2000,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AT",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor",
+      "inventor"
+    ],
+    "fieldIds": [
+      "film",
+      "technology"
+    ],
+    "impactDomains": [
+      "artistic",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "career_changer",
+      "late_recognition",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_lamarr_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hedy Lamarr",
+      "url": "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+    },
+    {
+      "id": "src_lamarr_smithsonian",
+      "kind": "institution",
+      "title": "Smithsonian Institution — Hedy Lamarr, Golden Age Film Star and Important Inventor"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a major Hollywood acting career while independently co-developing a frequency-hopping spread-spectrum communication system with composer George Antheil, patented in 1942 — documented via both her well-established film career and the surviving patent record, genuinely distinct fields pursued simultaneously."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-invented a frequency-hopping technique (using a player-piano-inspired mechanism) intended to make torpedo guidance systems resistant to jamming, a genuinely original technical concept that later became foundational to spread-spectrum technology underlying Wi-Fi, GPS, and Bluetooth — documented via the surviving 1942 patent and its acknowledged later technical legacy."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued self-directed technical invention as a personal hobby alongside her acting career with no formal engineering training, documented via her own described lifelong interest in tinkering and problem-solving."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed and patented a working technical invention without formal engineering training, drawing on an unconventional inspiration (a synchronized player-piano mechanism) via collaboration with composer George Antheil, documented via the well-established, specific origin story of the patent."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued serious technical invention work as a famous film actress at a time when this combination was virtually unprecedented and not taken seriously by the military patent office that received it, documented via the well-established, initially dismissive reception of her 1942 patent."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the frequency-hopping invention project and personally sought out George Antheil as a collaborator, then submitted the patent to the U.S. Navy unprompted, documented via the well-established independent origin of the project during World War II."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Fled an abusive first marriage in Austria to rebuild a completely new career in Hollywood, and later moved between acting and independent technical invention across her life, documented via the well-established account of her early career transition."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained both a major film career and independent technical work simultaneously over years, evidencing real ambition across two genuinely demanding, unrelated pursuits."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Left an early, reportedly controlling marriage and fled Austria as war approached to rebuild her career and life abroad, documented via the well-established account of this major life decision."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The technical specificity of the frequency-hopping patent's mechanism (synchronized piano-roll-style switching) suggests real careful attention to implementation detail beyond a purely conceptual idea."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked closely with composer George Antheil to develop the frequency-hopping mechanism, documented via the well-established joint patent record."
+    },
+    "experimentation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed the technical invention through iterative conceptual experimentation drawing on an unconventional analogy (player-piano synchronization), suggesting a genuinely exploratory approach to the problem."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued pursuing serious technical invention despite the U.S. Navy's initial dismissive reception of her patent, suggesting some real tolerance for institutional skepticism."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued independent technical invention entirely outside her primary, publicly recognized acting career, suggesting a real independent intellectual life not defined by her public professional identity."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed the frequency-hopping patent specifically as a wartime contribution intended to help protect Allied torpedo guidance from jamming, documented via the well-established stated purpose behind the invention."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained ongoing personal interest in invention and technical problem-solving throughout her life beyond the single well-known patent, per her own later interviews."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The frequency-hopping patent's specific multi-component mechanism required deliberate advance technical design, documented via the surviving patent's own detailed specification."
+    },
+    "deep_focus": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained concentrated technical problem-solving to develop a working invention mechanism alongside a demanding full-time acting schedule, evidencing real sustained effort outside her primary professional commitment."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained the frequency-hopping invention project to a completed, patented technical result despite having no formal engineering background or institutional support."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a demanding film career while also pursuing independent technical invention work as a parallel, self-directed track over years."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directed her own independent technical project (recruiting Antheil as a specific collaborator) rather than working within an institutional research team, suggesting a modest but real self-directing capacity."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, western_europe (Austrian-born, US career), a genuinely dual film/invention domain profile not represented elsewhere in the roster. Her formal, widely-reported recognition as an inventor came largely posthumously (decades after the 1942 patent), a real, documented instance of delayed recognition."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.504 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

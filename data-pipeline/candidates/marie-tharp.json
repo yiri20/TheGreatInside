@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marie-tharp",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Marie Tharp",
+    "wikidataId": "Q538786",
+    "birthYear": 1920,
+    "deathYear": 2006,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "late_recognition",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tharp_wikipedia",
+      "kind": "wikipedia",
+      "title": "Marie Tharp",
+      "url": "https://en.wikipedia.org/wiki/Marie_Tharp"
+    },
+    {
+      "id": "src_tharp_britannica",
+      "kind": "institution",
+      "title": "Britannica — Marie Tharp"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Hand-plotted tens of thousands of individual sonar depth soundings into detailed physiographic maps of the ocean floor over years, documented via the well-established scale and precision of her mapping work with Bruce Heezen."
+    },
+    "independent_thinking": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Identified a rift valley running down the center of the Mid-Atlantic Ridge from her own map data and proposed this as direct evidence for continental drift/seafloor spreading — a theory her own research partner initially dismissed as 'girl talk' before independently corroborating evidence proved her correct, documented via the well-established history of this specific scientific dispute."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Correctly cross-referenced separate depth-profile and earthquake-epicenter datasets to confirm the rift valley's location and significance, documented via the well-established methodological account of her verification process."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued advocating for and refining her seafloor-spreading interpretation despite initial dismissal from her own research collaborator and the wider geological community, documented via the well-established multi-year timeline before the theory gained acceptance."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Was barred by US Navy regulations from joining the research ships collecting the sonar data she analyzed (women were excluded from the vessels at the time), and instead built her groundbreaking maps entirely from data relayed to her onshore, a specific, well-documented instance of major scientific achievement despite direct institutional exclusion."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Proposed an interpretation (continental drift via seafloor spreading) that directly contradicted the geological establishment's dominant view at the time, carrying real professional risk to advance, documented via the well-established scientific controversy her interpretation initially provoked."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the painstaking, detailed cartographic work of hand-plotting ocean-floor topography across decades, documented via the well-established scale of her total mapping output over her career."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued the systematic global ocean-floor mapping project across decades, ultimately co-producing the first comprehensive world ocean-floor map, evidencing sustained long-term ambition."
+    },
+    "deep_focus": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The hand-plotting of tens of thousands of individual data points into coherent physiographic maps required sustained, exacting concentrated work over extended periods, documented via the well-established scope of her cartographic technique."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Synthesized disparate depth-sounding and seismic datasets into one coherent structural interpretation of global plate tectonics, documented via the well-established scientific significance of her rift-valley identification."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained her scientific interpretation despite direct initial dismissal from her own close research collaborator, documented via the well-established account of that specific professional disagreement."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining her cartographic technique and geological interpretation across decades, culminating in the comprehensive World Ocean Floor Panorama map late in her career."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing and defending her own scientific interpretation of the data despite her research partner's initial rejection, suggesting real confidence in her own independent analysis."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained investigation of the ocean floor's structure across her career, moving from initial mapping to broader theoretical interpretation about Earth's geological processes."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a decades-long working research partnership with Bruce Heezen despite their initial major disagreement, documented via the well-established, extensive joint body of work they produced together."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained work building comprehensive, publicly usable ocean-floor maps rather than narrower proprietary data suggests real orientation toward broadly useful scientific contribution."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Systematically organizing tens of thousands of individual data points into a coherent, navigable map series evidences real advance organizational planning in how the cartographic project was structured."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked around a real institutional barrier (exclusion from research vessels) by developing an effective onshore data-analysis role instead, suggesting real flexibility in adapting her working method to actual constraints."
+    },
+    "leadership_drive": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directed the detailed cartographic mapping methodology for the joint project with Bruce Heezen, suggesting some real technical direction-setting within their partnership."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her specific technique of cross-referencing depth-profile and earthquake data to reveal the mid-ocean rift valley was a genuinely original analytical approach, documented via its foundational role in confirming plate tectonics."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, north_america, oceanography/cartography domain not represented anywhere in the current roster. Her exclusion from the actual research vessels (Navy policy barred women) is itself well-documented, directly relevant context for the resourcefulness score rather than incidental biographical color."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.535 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

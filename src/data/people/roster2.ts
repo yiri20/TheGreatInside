@@ -189,6 +189,19 @@ const seeds: PersonSeed[] = [
     tagIds: ["leader", "reconciliation", "endured_imprisonment"],
     archetypeIds: ["organizational_leader", "social_influencer"],
     sources: [wiki("mandela", "Nelson Mandela"), bio("mandela", "Nelson Mandela, Long Walk to Freedom (1994)")],
+    // Verified 2026-08 via a direct fetch of the Commons file page:
+    // originally sourced from Flickr (South Africa The Good News), dated
+    // 13 May 2008, verified by a Commons administrator in 2010. Licensed
+    // CC BY 2.0 — reuse permitted with attribution, not public domain.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg",
+      width: 657,
+      height: 778,
+      source: "Wikimedia Commons",
+      license: "CC BY 2.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Nelson_Mandela-2008_(edit).jpg",
+      attribution: "South Africa The Good News (sagoodnews.co.za), 2008, CC BY 2.0",
+    },
     rows: {
       curiosity: [60, 0.45, "i", "N"],
       analytical_rigor: [68, 0.55, "s", "N"],
@@ -706,6 +719,19 @@ const seeds: PersonSeed[] = [
     tagIds: ["specialist", "detail_oriented"],
     archetypeIds: ["scientific_explorer", "scholarly_specialist"],
     sources: [wiki("rfranklin", "Rosalind Franklin"), bio("rfranklin", "Brenda Maddox, Rosalind Franklin: The Dark Lady of DNA (2002)")],
+    // Verified 2026-08 via a direct fetch of the Commons file page: MRC
+    // Laboratory of Molecular Biology, from Jennifer Glynn's personal
+    // collection, dated 1955. Licensed CC BY-SA 4.0 — reuse permitted with
+    // attribution, not public domain.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Rosalind_Franklin.jpg",
+      width: 521,
+      height: 626,
+      source: "Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg",
+      attribution: "MRC Laboratory of Molecular Biology / Jennifer Glynn, 1955, CC BY-SA 4.0",
+    },
     rows: {
       curiosity: [82, 0.68, "s", "A"],
       analytical_rigor: [95, 0.88, "d", "A"],
@@ -768,6 +794,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["field_researcher", "self_taught", "patient"],
     archetypeIds: ["scientific_explorer"],
     sources: [wiki("goodall", "Jane Goodall")],
+    // Verified 2026-08 via a direct fetch of the Commons file page: a U.S.
+    // Department of State photograph, dated 27 October 2015. Public domain
+    // as a US federal government work (17 U.S.C. §105).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Jane_Goodall_2015.jpg",
+      width: 617,
+      height: 898,
+      source: "Wikimedia Commons",
+      license: "Public Domain (US federal government work, US Department of State)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Jane_Goodall_2015.jpg",
+      attribution: "U.S. Department of State, 2015",
+    },
     rows: {
       curiosity: [92, 0.8, "d", "A"],
       analytical_rigor: [68, 0.55, "s", "N"],
@@ -1358,6 +1396,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["generalist", "self_taught", "founder"],
     archetypeIds: ["cross_disciplinary_generalist", "entrepreneurial_builder"],
     sources: [wiki("bfranklin", "Benjamin Franklin"), bio("bfranklin", "Walter Isaacson, Benjamin Franklin: An American Life (2003)")],
+    // Verified 2026-08 via a direct fetch of the Commons file page: Joseph-
+    // Siffred Duplessis's c. 1785 oil portrait. Public domain (published
+    // before 1931; artist died 1802).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/2/25/Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
+      width: 5679,
+      height: 6992,
+      source: "Wikimedia Commons",
+      license: "Public Domain (published before 1931; artist died 1802)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
+      attribution: "Joseph-Siffred Duplessis, c. 1785",
+    },
     rows: {
       curiosity: [95, 0.82, "d", "A"],
       analytical_rigor: [80, 0.65, "s", "N"],

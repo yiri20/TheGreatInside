@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "omar-khayyam",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Omar Khayyam",
+    "wikidataId": "Q35900",
+    "birthYear": 1048,
+    "deathYear": 1131,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.seljuk_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "astronomer",
+      "writer"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "literature"
+    ],
+    "impactDomains": [
+      "scientific",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_khayyam_wikipedia",
+      "kind": "wikipedia",
+      "title": "Omar Khayyam",
+      "url": "https://en.wikipedia.org/wiki/Omar_Khayyam"
+    },
+    {
+      "id": "src_khayyam_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics — Omar Khayyam"
+    },
+    {
+      "id": "src_khayyam_algebra",
+      "kind": "archive",
+      "title": "Omar Khayyam, Treatise on Demonstration of Problems of Algebra (c. 1070)"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced substantive original work across algebra (cubic equation classification), astronomy (calendar reform), and poetry (the Rubaiyat), documented via his surviving bibliography across genuinely distinct fields."
+    },
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His Treatise on Demonstration of Problems of Algebra systematically classified cubic equations by type and solved them via geometric construction — documented via the surviving text's own comprehensive classification method."
+    },
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Provided rigorous geometric proofs for cubic equation solutions using conic sections, documented directly in the surviving algebra treatise."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His geometric approach to solving cubic equations via intersecting conic sections was a genuinely original mathematical method for its era, documented via its lasting recognition in the history of algebra."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Jalali calendar he helped devise required precise astronomical measurement and calculation, documented via its historically noted accuracy (more precise than the Gregorian calendar developed five centuries later)."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His calendar-reform work was commissioned to serve the Seljuk state's practical administrative needs, documented via the well-established historical context of the Jalali calendar project."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained productive engagement across mathematics, astronomy, and poetry over his career suggests real breadth of intellectual interest."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Rubaiyat's skeptical, questioning treatment of religious orthodoxy and fate was a genuinely distinctive intellectual stance for its era, documented via the poems' own content, though translation/attribution debates add some uncertainty."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained mathematical and astronomical work across decades, extending from early algebraic treatises to the mature calendar-reform project."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Producing substantial, methodically organized mathematical treatises alongside a demanding astronomical commission suggests sustained systematic working habits."
+    },
+    "achievement_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained productive scholarly output across mathematics and astronomy over an extended career suggests real long-term ambition."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Jalali calendar was developed as part of a documented team of astronomers commissioned by the Seljuk sultan Malik-Shah I, evidencing real collaborative scientific work."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented to have led the observatory-based calendar-reform project at Isfahan, a specific institutional leadership role within the Seljuk court's astronomical program."
+    },
+    "deep_focus": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The sustained precision required for the Jalali calendar's astronomical observations evidences real concentrated technical work over an extended period."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The systematic, category-by-category structure of his algebra treatise and the multi-year astronomical observation program behind the calendar reform both evidence real advance planning."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Rubaiyat's skeptical treatment of religious orthodoxy carried real potential social risk in his era, though the poems' own attribution and dating remain scholarly-debated."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Working productively across mathematics, astronomy, and poetry — genuinely distinct modes of intellectual work — suggests real flexibility in working approach."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Rubaiyat's questioning of religious certainty, if genuinely his, implies willingness to hold a position at odds with the era's dominant religious framework."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Securing and leading the Seljuk court's calendar-reform commission suggests real recognition of an institutional opportunity to apply his mathematical expertise at scale."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained the multi-year Jalali calendar observation project to completion despite its real technical and logistical demands."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: medieval, west_asia (Seljuk Persia), a genuinely dual mathematics/literature domain profile not represented elsewhere in the roster. Rubaiyat authorship/exact-poem attribution is a real, acknowledged scholarly uncertainty — confidence on poetry-derived traits (independent_thinking, risk_tolerance, conflict_tolerance) is capped lower to reflect this honestly, while the mathematical/astronomical work rests on firmer, less contested attribution."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.482 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

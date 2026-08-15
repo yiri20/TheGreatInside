@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wilma-rudolph",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Wilma Rudolph",
+    "wikidataId": "Q31083",
+    "birthYear": 1940,
+    "deathYear": 1994,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_rudolph_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wilma Rudolph",
+      "url": "https://en.wikipedia.org/wiki/Wilma_Rudolph"
+    },
+    {
+      "id": "src_rudolph_olympics",
+      "kind": "institution",
+      "title": "Team USA / Olympics.com — Wilma Rudolph"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Contracted polio at age 5 and wore a leg brace through much of her childhood, undergoing years of documented physical therapy before regaining the ability to walk unassisted and eventually becoming a world-class sprinter, an extensively corroborated childhood-to-Olympic trajectory."
+    },
+    "achievement_drive": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the first American woman to win three gold medals in a single Olympic Games (1960 Rome), documented via the well-established, multiply-corroborated record of that specific achievement."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a rigorous multi-year training regimen under coach Ed Temple at Tennessee State University, documented via the well-established account of her collegiate training program leading up to the 1960 Olympics."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Overcame a childhood physical disability with limited medical resources available to her family at the time (regular long trips for treatment were required, documented via her own later interviews describing this period), working within real material constraints to regain full mobility."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Insisted her homecoming victory parade in segregated Clarksville, Tennessee be racially integrated — the first such integrated event in the city's history — a specific, well-documented instance of using her platform for a stated civil-rights purpose."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Insisting on desegregating her own homecoming celebration in the segregated American South of 1960 carried real social risk and required direct confrontation with local segregationist norms, documented via the well-established account of that specific event."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Continued elite competitive training and racing despite a documented, permanent childhood disability history that many assumed would preclude athletic competition at any level."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing her sprinting technique and competitive capability across her collegiate and Olympic career, progressing from a raw talent to a world-record-setting competitor."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Made her own explicit demand for an integrated homecoming celebration despite social pressure to accept the era's segregated conventions, suggesting real independent conviction."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prominent public role after her competitive career, including coaching and public speaking on civil rights and athletics, documented via the well-established record of her post-Olympic public life."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Later founded the Wilma Rudolph Foundation to support young athletes, documented via the well-established record of that organization's founding after her competitive career ended."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Transitioned from childhood physical disability to elite sprinting to a later career in coaching and public advocacy, evidencing real capacity to redirect her capability across markedly different life phases."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Elite sprint training requires real careful attention to technique refinement, though direct documentation of her personal training method specifically is limited beyond her coach's own general account."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Trained within and credited her collegiate team environment (the Tennessee State Tigerbelles) under coach Ed Temple, suggesting real capacity to develop within a structured team/coaching relationship."
+    },
+    "curiosity": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her later pursuit of coaching and broader civil-rights and youth-athletics advocacy suggests some real interest beyond competitive athletics itself."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the demand for an integrated homecoming celebration rather than accepting the segregated event organizers had originally planned, documented via the well-established account of this specific episode."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founding and structuring the Wilma Rudolph Foundation for youth athletics after her competitive career evidences real advance organizational effort in her post-Olympic life."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Insisting on an integrated homecoming celebration against her event organizers' original segregated plan reflects a documented, specific instance of holding an independent position against local convention."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Elite sprint training and years of childhood physical therapy both required sustained concentrated physical effort over extended periods."
+    },
+    "analytical_rigor": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Competitive sprinting at an elite level requires real technical self-analysis of form and performance, though direct documentation of her personal analytical method specifically is limited."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, north_america, athletics domain — the childhood-disability-to-Olympic-champion trajectory and the documented homecoming desegregation demand are both specific, well-corroborated episodes distinct from a generic 'overcame adversity' characterization."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.485 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sequoyah",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Sequoyah",
+    "wikidataId": "Q313595",
+    "birthYear": 1770,
+    "deathYear": 1843,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar"
+    ],
+    "fieldIds": [
+      "linguistics"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "independent_creator",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sequoyah_wikipedia",
+      "kind": "wikipedia",
+      "title": "Sequoyah",
+      "url": "https://en.wikipedia.org/wiki/Sequoyah"
+    },
+    {
+      "id": "src_sequoyah_cherokee_nation",
+      "kind": "institution",
+      "title": "Cherokee Nation — Sequoyah and the Cherokee Syllabary"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Single-handedly created the Cherokee syllabary (a complete 85-character writing system for the Cherokee language) despite being unable to read English or any other existing script, an extraordinarily well-documented and historically rare individual feat — one of very few instances in history of a single person independently devising a functional writing system."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Worked on developing the syllabary for approximately 12 years, documented via the well-established historical account of his sustained effort, including working through skepticism and accusations of witchcraft from his own community during the process."
+    },
+    "independent_thinking": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued the syllabary project without any formal linguistic training or literacy in any existing script, developing his own original methodology rather than adapting an existing alphabet, documented via the well-established historical account of his working process."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued the syllabary project largely alone over more than a decade, including a documented period where his own community viewed the effort with suspicion, continuing independently of external validation."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Faced documented accusations of witchcraft from within his own community during the syllabary's development, a real social risk he continued working through."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed the syllabary methodology through repeated iterative experimentation (reportedly including an early failed attempt at a full logographic system before settling on the syllabic approach), documented via the well-established historical account of his development process."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Correctly analyzed the Cherokee language's phonetic/syllabic structure to design a system of 85 characters that could represent it completely and efficiently, documented via the syllabary's own well-attested rapid, high success rate of adoption once completed."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly pursued the syllabary to give the Cherokee people their own means of written communication and preserve their language, documented via the well-established historical account of his stated purpose and the syllabary's subsequent official adoption by the Cherokee Nation."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Iteratively tested and refined character forms and the overall system design over years before arriving at the final 85-symbol syllabary, documented via the well-established account of his multi-stage development process."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding, self-directed intellectual project over roughly 12 years while also managing ordinary domestic and economic responsibilities, documented via the well-established timeline of the project."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued pursuing an ambitious, unprecedented project despite no external institutional support or precedent for success, evidencing sustained long-term ambition."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the entire syllabary project without commission, request, or institutional backing from any authority, documented via the well-established account of the project's independent origin."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifted from an initial, unsuccessful attempt at a full logographic system to the successful syllabic approach, suggesting real willingness to revise a failing method."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The sustained, detailed character-design work required for the syllabary evidences real concentrated effort over an extended period."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Designing 85 distinct, learnable characters that accurately represented Cherokee phonetics required precise, careful symbol design, evidenced by the system's own well-documented completeness and internal consistency."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued refining the syllabary's design over multiple iterations before arriving at the final version, suggesting sustained craft development toward the finished system."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursuing an entirely novel linguistic project with no formal training suggests real underlying intellectual curiosity about language and written communication."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recognized, reportedly after observing European settlers' use of writing, the transformative potential written language could have for the Cherokee people before any formal institutional effort toward Cherokee literacy existed, documented via the well-established account of the project's motivating observation."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Designing a complete 85-character system covering the Cherokee language's full phonetic range required real advance structural organization across categories of sound, documented via the well-established completeness and internal consistency of the finished syllabary."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Cherokee Nation's formal adoption of the syllabary as an official writing system suggests real institutional influence, though he himself worked largely as an individual inventor rather than a formal organizational leader."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 19th_century, north_america, linguistics domain not represented anywhere in the current roster — the first Indigenous American figure in the roster. Confidence capped below the top tier throughout because much of the surviving account (his exact working process, dates, motivations) comes from secondhand historical and oral-tradition sources compiled after the fact, rather than his own contemporary writing (he did not read or write English), though the syllabary's own existence and rapid subsequent adoption is itself very strong, direct documented evidence of the achievement."
+  }
+}

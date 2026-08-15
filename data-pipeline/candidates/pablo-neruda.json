@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pablo-neruda",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Pablo Neruda",
+    "wikidataId": "Q34189",
+    "birthYear": 1904,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CL"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "diplomat"
+    ],
+    "fieldIds": [
+      "literature",
+      "politics"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_neruda_wikipedia",
+      "kind": "wikipedia",
+      "title": "Pablo Neruda",
+      "url": "https://en.wikipedia.org/wiki/Pablo_Neruda"
+    },
+    {
+      "id": "src_neruda_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Prize — Pablo Neruda, Literature 1971"
+    },
+    {
+      "id": "src_neruda_memoir",
+      "kind": "archive",
+      "title": "Pablo Neruda, Confieso que he vivido (Memoirs, published posthumously 1974)"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced work spanning radically different poetic modes across his career — from the surrealist Residencia en la tierra to the accessible political epic Canto General to the intimate Odas Elementales — documented via the well-noted stylistic range across his bibliography."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained parallel careers as a prolific poet and as a career diplomat (consular postings across Asia and Latin America, later senator and ambassador), documented via the well-established dual record of his professional life."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced an unusually large body of published poetry (dozens of volumes) across a five-decade career while simultaneously sustaining a full diplomatic and political career, documented via his extensive bibliography."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Publicly denounced Chilean president González Videla in a 1948 Senate speech and was subsequently forced into hiding and exile for over a year, escaping Chile on horseback across the Andes — a specific, well-documented instance of real, realized personal risk taken for a political position."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Canto General explicitly frames Latin American history and social struggle as its subject, and his sustained political career (Communist Party senator, later ambassador) documents a consistent orientation toward broader social and political purpose alongside his literary work."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a prominent public political and diplomatic career including elected office and international ambassadorial roles, documented via the well-established record of his public life."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His poetry achieved unusually broad popular readership across Latin America and internationally during his own lifetime, documented via the well-established scale of his public reception, distinct from more narrowly literary-audience poets."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an unusually prolific poetic output across five decades while simultaneously maintaining a demanding diplomatic career, evidencing real disciplined effort across two concurrent demanding tracks."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Sustained direct public political confrontation with the sitting Chilean government leading to his forced exile, documented via the well-established consequences of his own 1948 Senate denunciation."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained productive work through multiple diplomatic postings across very different countries and cultural contexts (Burma, Ceylon, Argentina, Mexico, France) over his career, documented via the well-established record of his consular assignments."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His extensive diplomatic postings across Asia and the Americas and his poetry's engagement with everyday objects (the Odas Elementales) suggest real sustained intellectual and sensory curiosity about the world."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued pursuing his own political and poetic convictions despite the direct personal cost of exile, suggesting real preference for standing by his own position over institutional accommodation."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Escaped Chile on horseback across a mountain pass in the Andes with the help of a clandestine support network during his 1948-49 forced hiding, a specific, well-documented instance of resourceful action under real material and physical constraint."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing distinct poetic styles across his career (from surrealist to epic-political to intimate-domestic modes) rather than repeating one successful early approach."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Held elected political office (Chilean Senate) and later served as a Communist Party presidential pre-candidate before withdrawing in favor of Salvador Allende, documented via the well-established record of his political career."
+    },
+    "detail_orientation": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Odas Elementales' close, precise attention to everyday physical objects suggests real capacity for detailed observational writing alongside his broader epic and political modes."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Canto General's sweeping, multi-book historical scope covering the whole of Latin American history required extensive advance structural planning, documented via the work's own comprehensive organized structure."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Joined the Communist Party and sustained an openly declared political position that directly led to his forced exile, a genuinely independent and consequential political stance for a prominent public literary figure of his era."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued both his poetic and political careers across forced exile and subsequent return, documented via the well-established sustained record of his post-exile output and political re-engagement."
+    },
+    "deep_focus": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained an unusually large body of published poetry alongside a demanding diplomatic career, evidencing real sustained concentrated creative effort."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, latin_america, literature/diplomacy dual-domain profile. His later, well-documented controversial personal conduct (a confession in his own posthumous memoir describing an assault, and other troubling episodes toward women, publicly re-examined and debated in recent years) was deliberately NOT used to infer any trait score here — per this project's safety rules, this project scores documented behavior relevant to the 34-trait taxonomy, not moral judgment, and inferring personality traits from that specific conduct would risk exactly the kind of character diagnosis this project's rubric prohibits; it is noted here for the record, not silently omitted, but no row above draws on it."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.515 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

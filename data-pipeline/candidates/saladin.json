@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "saladin",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Saladin",
+    "aliases": [
+      "Salah ad-Din Yusuf ibn Ayyub"
+    ],
+    "wikidataId": "Q8581",
+    "birthYear": 1137,
+    "deathYear": 1193,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.ayyubid_sultanate"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_commander",
+      "statesman"
+    ],
+    "fieldIds": [
+      "military",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist",
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_saladin_wikipedia",
+      "kind": "wikipedia",
+      "title": "Saladin",
+      "url": "https://en.wikipedia.org/wiki/Saladin"
+    },
+    {
+      "id": "src_saladin_britannica",
+      "kind": "institution",
+      "title": "Britannica — Saladin"
+    },
+    {
+      "id": "src_saladin_baha",
+      "kind": "archive",
+      "title": "Baha ad-Din ibn Shaddad, The Rare and Excellent History of Saladin (contemporary biography by his own qadi/companion)"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 92,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from a Kurdish military family with no throne of his own to found and lead the Ayyubid Sultanate, unifying Egypt and Syria under his own command — extensively documented via contemporary chronicles from both Muslim and Crusader sources."
+    },
+    "proactive_agency": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built his own sultanate through his own military and political career rather than inheriting a throne — after his uncle Shirkuh's death in Egypt, he maneuvered to secure the vizierate himself and later formally founded the Ayyubid dynasty, documented via the well-established historical record of his rise."
+    },
+    "planning_orientation": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1187 Battle of Hattin campaign, which decisively defeated the Crusader field army, involved documented, sustained strategic preparation — restricting Crusader access to water sources and choosing the terrain deliberately, per contemporary chronicle accounts including Baha ad-Din's firsthand record."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His Hattin campaign strategy directly exploited documented, specific Crusader vulnerabilities (water scarcity, overextension), evidencing careful situational analysis rather than a generic assault, per contemporary battle accounts."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained a multi-decade campaign to unify Egypt, Syria, and the wider Muslim Levant under his own rule, a documented high-stakes political and military project with real chances of failure at multiple points."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued sieges and campaigns against Crusader-held territory across a full decade following Hattin, documented via the sustained record of his later Levant campaigns despite setbacks (e.g. failed siege of Tyre)."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented via multiple contemporary sources, including from Crusader chroniclers, to have consistently framed his military and political project around defending and unifying Muslim territory rather than personal enrichment alone."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a decade-plus military and political conflict with the Crusader states and with rival Muslim factions simultaneously, documented via the well-established record of his multi-front campaigns."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Shifted between direct military campaign, prolonged siege warfare, and political negotiation (e.g. the 1192 truce with Richard I) as circumstances required, documented via the well-established record of his varied later-career approach."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued expanding and consolidating his rule across Egypt, Syria, and parts of Mesopotamia well after his initial military successes secured his position, documented via the sustained territorial record of his later career."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a demanding multi-front military and administrative career across roughly two decades, evidenced by the sheer scale of territory and campaigns documented under his direct command."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Built and sustained a coalition of Muslim factions across Egypt and Syria into a unified fighting force, documented via the well-established political history of the Ayyubid unification."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Committed decisively to the Hattin engagement at a chosen moment and terrain rather than a prolonged standoff, documented via contemporary battle accounts of the campaign's timing."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully unified previously rival Muslim factions and secured the loyalty of Zengid-era commanders to his own cause, documented via the well-established political history of his consolidation of Syria."
+    },
+    "resourcefulness": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained prolonged siege and field campaigns across Egypt and the Levant despite real logistical constraints of the period, suggesting real capacity to operate under material limitation."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved from serving under his uncle's command to establishing his own independent sultanate rather than remaining a subordinate commander, documented via the well-established sequence of his political rise."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained direct diplomatic engagement with Crusader leadership, including documented correspondence and negotiation with Richard I during the Third Crusade."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing his military and political capability across an escalating series of campaigns, from early subordinate command in Egypt to sole leadership of a unified multi-territory sultanate."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued unification of Egypt and Syria under his own rule rather than remaining a subordinate regional governor, a documented departure from the fragmented regional power structure he inherited as a young commander."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained multi-year siege campaigns and complex political consolidation required extended concentrated strategic attention."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: medieval, west_asia, military/political leadership domain. Deliberately checked against inclusion_v1's counterfactual test before inclusion: Saladin did NOT inherit the Ayyubid sultanate — he was born to a Kurdish military family serving under the Zengid dynasty with no throne of his own, and built his own position through his military/political career (securing the Fatimid vizierate, then founding the Ayyubid dynasty himself). Passes cleanly, unlike a hereditary monarch. Well documented via both Muslim contemporary chronicles (Baha ad-Din, his own qadi and companion) and Crusader-side sources, an unusually corroborated evidentiary base for this era."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.505 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rosa-parks",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Rosa Parks",
+    "wikidataId": "Q41921",
+    "birthYear": 1913,
+    "deathYear": 2005,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_activist"
+    ],
+    "fieldIds": [
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "grassroots_organizer"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_parks_wikipedia",
+      "kind": "wikipedia",
+      "title": "Rosa Parks",
+      "url": "https://en.wikipedia.org/wiki/Rosa_Parks"
+    },
+    {
+      "id": "src_parks_autobiography",
+      "kind": "archive",
+      "title": "Rosa Parks with Jim Haskins, Rosa Parks: My Story (1992)"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Refused to give up her bus seat to a white passenger in segregated Montgomery, Alabama in 1955, resulting in her arrest, a specific, extensively documented act carrying real, realized personal legal and social risk."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct confrontation with the segregated bus system and the resulting public and legal consequences of her arrest, documented via the well-established account of the incident and its aftermath, including job loss and death threats that followed."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served for over a decade as secretary of the Montgomery NAACP chapter before her 1955 arrest, sustained documented civil-rights organizing work well before the bus incident that made her nationally known, per her own autobiography."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued civil-rights activism for decades after 1955, including co-founding the Rosa and Raymond Parks Institute for Self Development in 1987, documented via the well-established extended timeline of her later activism."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained decades of civil-rights organizing work both before and after the 1955 arrest that made her nationally known, documented via her own autobiography's account of her long involvement with the NAACP."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her own autobiography documents that her refusal was a considered decision in the moment rather than physical exhaustion (the popularized 'tired feet' narrative), stating she was 'tired of giving in' — a specific, directly self-documented account of deliberate action."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her documented, considered refusal to comply with the bus driver's order suggests a real capacity for independent decision-making under direct social and institutional pressure."
+    },
+    "achievement_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a decades-long commitment to civil-rights organizing work, both in a formal secretarial/organizational capacity and later through her own institute, suggesting real sustained purpose beyond the single well-known incident."
+    },
+    "social_assertiveness": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Served in an organizational, behind-the-scenes secretarial role for the Montgomery NAACP for years before the 1955 incident, suggesting a genuinely more understated, less publicly assertive working style than the historical prominence she later gained, distinct from more overtly public-speaking-oriented contemporaries."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked within the structured Montgomery NAACP chapter for over a decade, suggesting real capacity for sustained organizational collaboration."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained secretarial and organizational NAACP role suggests real capacity for careful administrative and organizational work."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Later co-founded and led the Rosa and Raymond Parks Institute for Self Development, documented via the well-established record of that later-career institution."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her considered refusal to comply with segregation on that specific day, distinct from a spontaneous emotional reaction, reflects a real independent judgment against the era's dominant social norm, documented via her own autobiographical account."
+    },
+    "mastery_orientation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained and deepened her civil-rights organizing capability across decades, from a local NAACP secretarial role to founding her own national institute."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued her activism after relocating from Montgomery to Detroit following the loss of employment and continued threats, adjusting her platform and approach across this major life disruption."
+    },
+    "resourcefulness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Rebuilt her career and continued activism in Detroit after losing her Montgomery employment and facing sustained threats, suggesting real capacity to continue under significant material and personal disruption."
+    },
+    "curiosity": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained, decades-long engagement with organizing work across changing civil-rights strategies and later self-development education work suggests some real ongoing interest beyond a single fixed role."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained NAACP secretarial work over a decade required organizing meetings, records, and case documentation, evidencing real administrative planning capacity ahead of the 1955 incident."
+    },
+    "deep_focus": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained secretarial and organizational NAACP work over a decade required real concentrated administrative attention."
+    },
+    "systems_abstraction": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her later work founding an institute for structured self-development education suggests some real capacity for organizing a coherent programmatic framework."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, north_america, civil-rights domain — deliberately distinct profile shape from the existing roster's civil-rights figures (Martin Luther King Jr., Frederick Douglass, Sojourner Truth, Malcolm X): a quieter, more procedural/organizational form of courage documented via her own autobiography's explicit correction of the popularized 'tired feet' narrative in favor of a considered, deliberate decision."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.479 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

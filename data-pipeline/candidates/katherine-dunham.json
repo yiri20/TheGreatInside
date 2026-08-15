@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "katherine-dunham",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Katherine Dunham",
+    "wikidataId": "Q272637",
+    "birthYear": 1909,
+    "deathYear": 2006,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "dancer",
+      "choreographer"
+    ],
+    "fieldIds": [
+      "dance",
+      "anthropology"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "cross_disciplinary",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_dunham_wikipedia",
+      "kind": "wikipedia",
+      "title": "Katherine Dunham",
+      "url": "https://en.wikipedia.org/wiki/Katherine_Dunham"
+    },
+    {
+      "id": "src_dunham_loc",
+      "kind": "institution",
+      "title": "Library of Congress — Katherine Dunham: A Life in Dance"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the Dunham Technique, a genuinely original dance methodology synthesizing Caribbean and African dance forms with Western ballet and modern dance, documented via the technique's own lasting institutional recognition and continued use in dance training today."
+    },
+    "curiosity": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Conducted formal anthropological fieldwork in Haiti and Jamaica on her own initiative to study Caribbean dance and ritual traditions, earning a degree in anthropology from the University of Chicago before applying this research directly to her choreography, documented via her own published fieldwork and academic record."
+    },
+    "cross_domain_range": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained substantive work across professional dance performance, choreography, anthropological fieldwork and publication, and social/civil-rights activism throughout her career, documented via her full biographical record across these genuinely distinct domains."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Publicly refused to perform for segregated audiences and gave a documented public speech condemning racial discrimination from the stage after learning a theater had denied entry to Black patrons, a specific, corroborated instance of direct confrontation with segregation at real professional cost."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and led her own dance company and later the Katherine Dunham Centers for Arts and Humanities, documented via the well-established institutional record of both organizations under her direction."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an independent Black-led dance company through the segregation-era United States with real, documented touring and funding obstacles specific to that context."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained parallel careers as a performer, choreographer, anthropologist, and later civil-rights and community activist across a career spanning seven decades, evidencing real long-term ambition across multiple demanding tracks."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Publicly and repeatedly refused segregated performance conditions at real professional and financial cost during an era when this was a genuine career risk for a touring company."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Later in her career, founded community arts programs and undertook a widely reported 47-day hunger strike at age 82 protesting US immigration policy toward Haitian refugees, documented via the well-established account of that specific later-life action."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded and sustained her own independent dance company and technique rather than working within existing mainstream dance institutions, documented via the well-established independent origin of the Dunham Technique and company."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding professional performance and choreography career across decades while also conducting formal academic research, evidencing real disciplined effort across simultaneous demanding tracks."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing a codified dance technique required precise, systematic documentation of movement principles for teaching purposes, suggesting real attention to methodological detail."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Led a sustained dance company requiring close collaborative work with performers and choreographic staff over decades, documented via the well-established institutional structure of her company."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Codified her field research into a formal, teachable technique system (the Dunham Technique) rather than leaving her choreographic insights as individual works alone, documented via the technique's own well-established codified structure still taught today."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued refining and teaching her technique across decades, extending it into formal educational institutions late in her career."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated her own anthropological fieldwork in the Caribbean and her later hunger-strike protest, both undertaken on her own initiative rather than as part of an institutional assignment."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Moved between performance, academic anthropology, and later social activism across different life phases, suggesting real flexibility in her mode of engagement over her career."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained her company and technique development across real, documented financial difficulty and segregation-era touring obstacles over decades."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained fieldwork-based research and choreographic development requiring extended concentrated engagement with source material over years."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Applied formal anthropological fieldwork methodology directly to concert dance choreography, a genuinely unconventional combination for her era, documented via the well-established distinctiveness of this approach relative to contemporary dance practice."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, north_america, dance/anthropology domain not represented anywhere in the current roster — a genuinely cross-disciplinary profile (formally trained anthropologist AND professional choreographer) distinct from any existing roster person."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.511 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "naguib-mahfouz",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Naguib Mahfouz",
+    "wikidataId": "Q7176",
+    "birthYear": 1911,
+    "deathYear": 2006,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "prolific",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mahfouz_wikipedia",
+      "kind": "wikipedia",
+      "title": "Naguib Mahfouz",
+      "url": "https://en.wikipedia.org/wiki/Naguib_Mahfouz"
+    },
+    {
+      "id": "src_mahfouz_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Prize — Naguib Mahfouz, Literature 1988"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a documented, unusually strict daily writing routine across roughly seven decades while also working a full-time civil-service career for most of his life, producing over 30 novels, documented via the well-established biographical record of his working habits."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced substantive work spanning historical allegory, social realism, and modernist/experimental narrative technique across his career, documented via his bibliography's own genuinely varied output (from the Cairo Trilogy's realism to Children of Gebelawi's allegorical structure)."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Survived a 1994 stabbing attack by extremists who objected to Children of Gebelawi's religious allegory, and continued writing (with resulting physical limitations) afterward, documented via the well-established account of the attack and his subsequent continued work."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued producing major work across a documented seven-decade career including after the 1994 attack impaired his writing hand, dictating later work, documented via the well-established biographical account of his later career adaptation."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Widely credited (per the Nobel citation) with pioneering the modern Arabic novel form, synthesizing European narrative technique with Egyptian social material, documented via the Nobel committee's own explicit framing of his contribution."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a highly productive literary career for decades while also working full-time in the Egyptian civil service until retirement, evidencing real long-term ambition across two simultaneous demanding tracks."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Continued publishing socially and religiously provocative material (Children of Gebelawi was banned in Egypt for its religious allegory) despite the real, eventually realized personal danger this attracted."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Cairo Trilogy's dense, closely observed depiction of multi-generational Cairene family and social life evidences sustained careful attention to social and narrative detail, documented via the work's own well-noted density."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His social-realist novels consistently engaged with Egyptian political and social conditions across the 20th century, documented via his sustained thematic focus across his major works."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing his craft across markedly different narrative styles (realist, allegorical, stream-of-consciousness) over his career rather than repeating one successful formula."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued publishing religiously and politically provocative material despite official censorship and public controversy, documented via the well-established reception and banning history of Children of Gebelawi."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Adapted his writing method to dictation after the 1994 attack permanently damaged his writing hand, a specific, well-documented instance of continuing productive work under a real new physical constraint."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a disciplined daily writing schedule maintained around his full-time civil-service job for decades, evidencing real sustained concentrated effort."
+    },
+    "curiosity": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His sustained engagement with varied historical periods, narrative techniques, and social themes across his career suggests real underlying intellectual range."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Cairo Trilogy's multi-generational, structurally interconnected narrative evidences real advance compositional planning across a very large-scale work."
+    },
+    "social_assertiveness": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Widely described as personally reserved and more comfortable in his regular café gatherings with a small circle of friends than broad public prominence, documented via multiple biographical accounts of his private, routine-centered daily life."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued pursuing his own literary and thematic direction despite censorship pressure and public controversy over decades, suggesting real preference for creative independence."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Shifted narrative style substantially across his career, from realist family saga to allegory to experimental stream-of-consciousness, documented via the well-noted stylistic evolution across his bibliography."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Widely documented as personally reserved, preferring a small circle of regular café companions over broad public prominence or formal institutional leadership, an honestly moderate score."
+    },
+    "systems_abstraction": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Cairo Trilogy's multi-generational, structurally interconnected narrative evidences real capacity for large-scale compositional architecture."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, north_africa (Egypt), literature domain — first sub-Saharan-Africa-adjacent Nobel literature laureate representation from North Africa/the Arab world in the roster, complementing Umm Kulthum (music) and Ibn Khaldun (medieval scholarship) as north_africa representation."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.504 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

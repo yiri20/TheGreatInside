@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ludwig-wittgenstein",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Ludwig Wittgenstein",
+    "wikidataId": "Q9391",
+    "birthYear": 1889,
+    "deathYear": 1951,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AT",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "perfectionist",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_wittgenstein_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ludwig Wittgenstein",
+      "url": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+    },
+    {
+      "id": "src_wittgenstein_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy — Ludwig Wittgenstein"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Published the Tractatus Logico-Philosophicus in 1921 and then, roughly a decade later, developed a substantially different later philosophy (Philosophical Investigations) that directly critiqued and revised his own earlier framework — a documented, unusually explicit instance of one philosopher publicly overturning his own prior major work."
+    },
+    "belief_updating": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly stated in the preface to Philosophical Investigations that the later work should be read alongside the Tractatus specifically because it corrected 'grave errors' in his own earlier thinking — a directly self-documented, specific instance of substantive philosophical belief revision."
+    },
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Declared philosophy's fundamental problems 'solved' after the Tractatus and left academic philosophy for roughly a decade (working as a schoolteacher and architect) before returning once dissatisfied with his own earlier conclusions, documented via the well-established biographical account of this period."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Gave away his substantial inherited family fortune and left a secure academic path to work as a village schoolteacher for years, a documented, unusual personal decision carrying real material risk."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly left and returned to academic philosophy on his own terms, including giving away his inheritance and working outside academia for years, documented via the well-established, unconventional trajectory of his career."
+    },
+    "deep_focus": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Widely documented (by students and colleagues including Bertrand Russell) for intense, sustained concentration during philosophical work, including reportedly pacing for hours while working through a single problem."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Tractatus's numbered, precisely structured propositional system evidences extreme attention to logical and linguistic precision, documented directly in the surviving text's own structure."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained direct philosophical disagreement with contemporaries including his own former mentor Bertrand Russell over the direction of his later philosophy, documented via the well-established record of their philosophical and personal divergence."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed two genuinely distinct, highly influential philosophical frameworks (logical atomism in the Tractatus, and ordinary-language/language-games philosophy in the Investigations) within one career, documented via the lasting independent influence of both works."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained demanding philosophical work across a career interrupted by voluntary departures from academia, suggesting a genuinely unconventional rather than uniformly disciplined working pattern."
+    },
+    "achievement_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented declaration that philosophy's problems were 'solved' after the Tractatus, followed by years away from the field, suggests a genuinely modest orientation toward continued professional advancement for its own sake, distinct from sustained institutional ambition."
+    },
+    "social_assertiveness": {
+      "score": 42,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Widely and consistently documented by contemporaries (Russell, students, biographers) as intensely private, often abrasive in seminars, and preferring solitary or small-group engagement over broad social life — a real, honestly low score directly evidenced rather than assumed."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Held a professorship at Cambridge and mentored a documented circle of students, though his own personal ambivalence about academic status suggests a genuinely moderate rather than strong institutional leadership drive."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued fundamentally revising his own philosophical framework across his career rather than resting on his earlier, already highly influential Tractatus."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Tractatus builds a complete, self-contained logical-atomist system attempting to precisely delineate the limits of meaningful language, documented directly via the surviving text's own comprehensive structure."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Trained originally in aeronautical engineering before shifting to mathematics and then philosophy, suggesting real intellectual range across genuinely different fields early in his life."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Tractatus's numbered, hierarchically organized propositional structure evidences real advance organizational planning in how the work was composed."
+    },
+    "collaboration": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked closely with Bertrand Russell early in his career and later with a small circle of Cambridge students, though his documented preference for intense one-on-one or small-group engagement over broader collaborative work suggests a genuinely more solitary working pattern overall."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Returned to and rebuilt his philosophical project over roughly a decade away from academia before completing the substantially revised later philosophy, documented via the well-established extended timeline of this return."
+    },
+    "resourcefulness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked as a schoolteacher and later an architect during his years away from philosophy, suggesting real capacity to sustain himself productively outside his primary field."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, western_europe (Austria/Britain), philosophy domain complementing Kant and Aristotle with a distinct trait shape — extreme documented independent_thinking/belief_updating (his own explicit self-critique in the Investigations' preface) alongside an honestly low social_assertiveness score directly evidenced from contemporary accounts, not assumed from his intellectual stature."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.527 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -18,12 +18,15 @@ import {
  *    directly against the data, not assumed — exercises IdentityHero's
  *    align="start" + portraitCaption path, the one path the other two
  *    people below cannot reach)
- *  - ada-lovelace: shorter name, no portrait (exercises the no-portrait
- *    branch — IdentityHero renders with no portrait column at all)
- *  - yi-sun-sin: no portrait either, but Korean display name ("이순신") is
- *    much shorter than the English one ("Yi Sun-sin") — real localisation-
- *    driven length variation on the no-portrait layout, not a synthetic
- *    string
+ *  - ada-lovelace: shorter name; gained a real portrait in roster-1000
+ *    session 5 (2026-08, Chalon 1840 watercolor) — no longer a no-portrait
+ *    fixture, but still exercises IdentityHero's align="start" +
+ *    portraitCaption path alongside leonardo-da-vinci
+ *  - yi-sun-sin: no portrait, and Korean display name ("이순신") is much
+ *    shorter than the English one ("Yi Sun-sin") — real localisation-driven
+ *    length variation on the no-portrait layout, not a synthetic string.
+ *    Also the fixture for the dedicated "no portrait" hero test below,
+ *    since ada-lovelace can no longer serve that role.
  *
  * All three have non-empty `impactDomains`, so all three exercise the new
  * Rail(hero, Known For) composition, not just the no-secondary fallback.
@@ -136,13 +139,17 @@ test("person page CTA/link integrity: wikipedia and compare links resolve (en-US
   expect(console_.pageErrors).toEqual([]);
 });
 
-test("person page without a portrait still renders a coherent hero (en-US, ada-lovelace)", async ({ page }) => {
+test("person page without a portrait still renders a coherent hero (en-US, yi-sun-sin)", async ({ page }) => {
+  // Was ada-lovelace, swapped roster-1000 session 5 (2026-08): Ada Lovelace
+  // gained a real, verified portrait this session (Chalon 1840 watercolor),
+  // so she no longer exercises the no-portrait branch. yi-sun-sin remains
+  // portrait-less and was already part of this suite's own matrix above.
   await page.setViewportSize({ width: 1600, height: 1100 });
   const console_ = captureConsole(page);
-  await page.goto("/en-US/people/ada-lovelace", { waitUntil: "networkidle" });
+  await page.goto("/en-US/people/yi-sun-sin", { waitUntil: "networkidle" });
 
   await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(0);
-  await expect(page.locator("h1.tgi-person-name")).toHaveText(/Ada Lovelace/);
+  await expect(page.locator("h1.tgi-person-name")).toHaveText(/Yi Sun-sin/);
   await assertNoHorizontalOverflow(page);
 
   expect(console_.errors).toEqual([]);

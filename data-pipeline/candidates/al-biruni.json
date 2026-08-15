@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "al-biruni",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Al-Biruni",
+    "aliases": [
+      "Abu Rayhan al-Biruni"
+    ],
+    "wikidataId": "Q11826",
+    "birthYear": 973,
+    "deathYear": 1048,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "central_asia",
+    "historicalPolityKey": "polity.ghaznavid_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "astronomer"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "cross_disciplinary",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_albiruni_wikipedia",
+      "kind": "wikipedia",
+      "title": "Al-Biruni",
+      "url": "https://en.wikipedia.org/wiki/Al-Biruni"
+    },
+    {
+      "id": "src_albiruni_britannica",
+      "kind": "institution",
+      "title": "Britannica — Al-Biruni"
+    },
+    {
+      "id": "src_albiruni_india",
+      "kind": "archive",
+      "title": "Al-Biruni, Kitab al-Hind (Book of India, c. 1030)"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced substantive original work across astronomy, mathematics, geography, geodesy, mineralogy, history, and comparative religion/anthropology (Kitab al-Hind), documented via his surviving bibliography of roughly 146 known works across these genuinely distinct fields."
+    },
+    "curiosity": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kitab al-Hind documents systematic, direct investigation of Indian religion, science, and customs, including learning Sanskrit specifically to access primary sources — a specific, well-corroborated instance of sustained cross-cultural inquiry."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Calculated Earth's radius with a documented, methodologically rigorous technique (measuring the dip of the horizon from a known mountain height), a specific method still cited in the history of geodesy."
+    },
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kitab al-Hind systematically compares Indian and Greek/Islamic scientific and philosophical frameworks side by side, documented via the work's own comparative structure."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Approached Indian religious and scientific thought with documented methodological even-handedness unusual for his era, explicitly stating in Kitab al-Hind's preface his intent to describe Indian views 'in their own words,' a specific documented editorial stance."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His astronomical and geodetic works involved precise numerical measurement (e.g. the horizon-dip Earth-radius calculation), documented via the surviving technical content of those works."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Learned Sanskrit specifically to access Indian primary sources directly rather than relying on translation, a specific, documented instance of overcoming a real access constraint through direct personal effort."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an unusually large documented body of work (roughly 146 known titles) across a multi-decade career under several different patron courts."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recognized and pursued the scholarly opportunity presented by extended access to India following Mahmud of Ghazni's campaigns, using the circumstance to conduct sustained direct research rather than treating it as incidental."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Worked productively under multiple different royal patrons across his career (Khwarazmian and later Ghaznavid courts) following political upheaval, documented via the well-established biographical record of his career transitions."
+    },
+    "achievement_drive": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained an unusually prolific scholarly output across a long career, evidencing real long-term ambition beyond any single achievement."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued producing substantial new work across multiple fields well into his later career, documented via the chronological spread of his bibliography."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Kitab al-Hind's explicit stated purpose was to build genuine mutual understanding between Islamic and Indian intellectual traditions, documented via the work's own preface."
+    },
+    "deep_focus": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The precision required for his astronomical and geodetic calculations evidences sustained concentrated technical work."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The systematic, comparative structure of Kitab al-Hind evidences real advance organizational planning in how the research and text were structured."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained scholarly output across political upheaval and multiple changes of patron court suggests real persistence through difficult circumstances."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked within multiple royal courts' scholarly circles across his career, suggesting real capacity to function within collaborative institutional settings."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued sober, even-handed scholarly work under the patronage of Mahmud of Ghazni, whose India campaigns he did not celebrate uncritically in his own writing, a real if modest documented independence from patron expectations."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kitab al-Hind's comparative-anthropological method, describing Indian religion and science even-handedly and largely from primary Sanskrit sources rather than through a polemical or conversionary lens, was a genuinely novel scholarly approach for its era, documented via the work's own distinctive stated methodology."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Revised his own earlier astronomical positions across his career as further observation accumulated, documented via the internal development visible across his roughly 146 known works spanning decades."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His Earth-radius calculation via horizon-dip measurement from a mountain was a direct empirical test of a geometric prediction, evidencing a genuinely experimental orientation toward verifying theoretical claims."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: medieval, central_asia (Khwarazm/Ghaznavid empire), genuine polymath profile complementing Ibn Sina's central_asia representation with a distinct trait shape (extreme cross_domain_range/curiosity, more comparative-anthropological than purely medical/philosophical). Kitab al-Hind's methodological even-handedness is unusually well documented for this era via the text's own explicit editorial statements."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.517 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

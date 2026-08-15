@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zaha-hadid",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Zaha Hadid",
+    "wikidataId": "Q47780",
+    "birthYear": 1950,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "IQ",
+      "GB"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect"
+    ],
+    "fieldIds": [
+      "architecture",
+      "design"
+    ],
+    "impactDomains": [
+      "artistic",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "perfectionist",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hadid_wikipedia",
+      "kind": "wikipedia",
+      "title": "Zaha Hadid",
+      "url": "https://en.wikipedia.org/wiki/Zaha_Hadid"
+    },
+    {
+      "id": "src_hadid_pritzker",
+      "kind": "award_body",
+      "title": "The Pritzker Architecture Prize — Zaha Hadid, 2004"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a distinctive deconstructivist/parametric architectural style characterized by dramatic curved, fluid forms with no direct precedent, becoming the first woman to win the Pritzker Architecture Prize (2004), documented via the prize citation's own explicit recognition of her stylistic originality."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Spent roughly the first decade of her career with almost no built work realized, widely known within the profession primarily through unbuilt competition-winning designs, before her first major building was completed — documented via the well-established, unusually long gap between her design reputation and built portfolio."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Sustained a design practice built on structurally and technically ambitious forms that many contemporary engineers and builders initially considered impractical or unbuildable, documented via the well-established professional skepticism her early designs faced before building technology caught up."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued a genuinely distinctive design philosophy that departed substantially from the dominant rectilinear modernist and postmodernist architectural conventions of her early career, documented via critical assessment of her work's departure from contemporaries."
+    },
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Widely documented via multiple professional accounts and interviews for an exacting, demanding standard applied to both her own design work and her firm's execution, reflected in the technical precision required to realize her complex geometric forms."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an ambitious international architectural practice across a career spanning four decades, ultimately producing major built works on nearly every continent, documented via the well-established scale of her firm's realized portfolio."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and led Zaha Hadid Architects into a major international firm, documented via the well-established institutional scale and continued operation of that practice."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her complex, structurally ambitious geometric forms required exhaustive technical precision to realize as actual buildings, evidenced by the well-documented technical complexity of major realized projects like the Guangzhou Opera House."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed and applied parametric design principles integrating structural, spatial, and aesthetic considerations into unified computational design systems, documented via the well-established methodological approach of her later career work."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained her distinctive design approach despite years of professional skepticism and unrealized competition wins, documented via the well-established decade-long gap between her design reputation and built portfolio."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded and maintained her own independent architectural practice rather than working within an established firm, sustaining this even through the difficult early decade with minimal built work, documented via the well-established independent trajectory of her career."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding international design practice across four decades, evidenced by the scale and technical complexity of her firm's realized portfolio."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained engagement across architecture, interior design, furniture, and product design over her career, evidencing real range within design broadly construed."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing and refining her parametric design approach across an evolving body of increasingly technically ambitious built work over her career."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Realizing structurally complex, large-scale built projects requires extensive advance technical and logistical planning, evidenced by the well-documented multi-year development timelines of her major buildings."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Led a large international architectural firm requiring sustained collaborative work with engineers, contractors, and clients across major projects, suggesting real capacity for structured professional collaboration despite her strong individual design vision."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Consistently framed her architectural philosophy around reimagining how people experience and move through public and civic space, documented via her own stated design philosophy across interviews and the Pritzker citation's framing."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued entering and winning international design competitions on her own initiative throughout her decade with minimal built work, self-directed pursuit of her design vision without institutional backing, documented via the well-established record of her competition-heavy early career."
+    },
+    "deep_focus": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Realizing structurally complex, technically ambitious building forms required sustained concentrated design and engineering-coordination effort per project."
+    },
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing and applying parametric design principles required real systematic technical and structural analysis underlying the visually expressive final forms."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: contemporary, west_asia (Iraqi-British), architecture domain not represented anywhere in the current roster — the first woman to win the Pritzker Prize. Completes the planned 31-candidate batch."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.536 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

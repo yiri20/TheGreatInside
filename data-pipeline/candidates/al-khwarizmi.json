@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "al-khwarizmi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Al-Khwarizmi",
+    "aliases": [
+      "Muhammad ibn Musa al-Khwarizmi"
+    ],
+    "wikidataId": "Q9038",
+    "birthYear": 780,
+    "deathYear": 850,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.abbasid_caliphate"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "astronomer"
+    ],
+    "fieldIds": [
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_alkhwarizmi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Al-Khwarizmi",
+      "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+    },
+    {
+      "id": "src_alkhwarizmi_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics — Al-Khwarizmi"
+    },
+    {
+      "id": "src_alkhwarizmi_kitab",
+      "kind": "archive",
+      "title": "Al-Khwarizmi, The Compendious Book on Calculation by Completion and Balancing (Al-Jabr, c. 820 CE)"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 88,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Al-Jabr systematically classified and solved general categories of equations rather than isolated problems — the founding of algebra as a general method, documented via the surviving text's own structural approach and its lasting influence (the word 'algebra' derives directly from its title)."
+    },
+    "creative_originality": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded algebra as a systematic discipline distinct from arithmetic and geometry, a genuinely original methodological framework, documented via the work's own novel approach and Western Europe's later direct adoption of it (his Latinized name 'Algorithmi' gives us the word 'algorithm')."
+    },
+    "analytical_rigor": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Al-Jabr's systematic proof-by-geometric-construction method for solving quadratic equations is documented directly in the surviving text."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced substantive original work across algebra, astronomy (astronomical tables), and geography (a corrected world map/coordinates text), documented via his surviving bibliography."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Al-Jabr's stated purpose (per its own preface) was to solve practical problems of inheritance, trade, and land measurement, evidencing an applied, service-oriented motivation."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained productive work across multiple mathematical/scientific domains during his tenure at the House of Wisdom in Baghdad, documented via his multi-decade bibliography."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Producing several substantial, methodically organized treatises across mathematics, astronomy, and geography suggests sustained systematic working habits."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His astronomical tables (zij) required precise, exhaustive numerical computation, documented via the surviving tables' own detailed content."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked within the House of Wisdom, a major documented collaborative scholarly institution under Caliph al-Ma'mun, suggesting real engagement with a broader scholarly community."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Al-Jabr's methodical, category-by-category organization of equation types evidences real advance structural planning in how the work was composed."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Reportedly headed the House of Wisdom's library under al-Ma'mun per some historical accounts, though this specific leadership role is less firmly corroborated than his authored works themselves."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Al-Jabr's systematic, exhaustive treatment of every category of linear and quadratic equation evidences sustained concentrated technical work, documented via the completeness of the surviving text's own coverage."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Synthesized Greek geometric method, Indian positional numerals, and Babylonian algebraic technique into one coherent new system, documented via the demonstrable influence of all three traditions on his surviving texts."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Recognized and wrote a dedicated treatise (On the Calculation with Hindu Numerals) advocating the practical superiority of the positional Hindu-Arabic numeral system before it was established in the Islamic world, documented via that text's own role in the system's later spread to Europe."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained productive output across mathematics, astronomy, and geography over an extended career at the House of Wisdom."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Presented algebra as a general, self-contained method for solving equation categories rather than embedding it within the existing Greek geometric tradition alone, documented via Al-Jabr's own distinct methodological approach."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founding an entirely new mathematical discipline that displaced centuries of purely geometric problem-solving, with lasting global adoption (the terms 'algebra' and 'algorithm' both derive directly from his work), documented via that sustained historical influence."
+    },
+    "curiosity": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained productive investigation across algebra, astronomy, and geography over his career at the House of Wisdom, evidencing real intellectual range."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: medieval, west_asia (House of Wisdom, Abbasid Baghdad), mathematics domain. Evidence is thinner than for a modern figure (few personal-life details survive) but his authored corpus itself is a solid documented primary source, unusual for this era."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.529 vs 0.55 floor, coverage 0.546 vs 0.6 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

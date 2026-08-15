@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hippocrates",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Hippocrates",
+    "wikidataId": "Q5264",
+    "birthYear": -460,
+    "deathYear": -370,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [
+      "GR"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "historical",
+      "medical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hippocrates_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hippocrates",
+      "url": "https://en.wikipedia.org/wiki/Hippocrates"
+    },
+    {
+      "id": "src_hippocratic_corpus",
+      "kind": "archive",
+      "title": "The Hippocratic Corpus (Epidemics, Airs Waters Places, the Hippocratic Oath)"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Hippocratic Corpus develops a systematic framework separating medicine from religious/magical explanation, attributing illness to natural causes (environment, diet, bodily humors) — documented via the corpus's own consistent naturalistic framing, though individual authorship within the corpus is scholarly-debated."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Epidemics texts document detailed, dated case-by-case patient observation logs tracking symptom progression over time, a specific, corroborated methodological practice visible in the surviving corpus."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Airs, Waters, and Places systematically investigates how climate and environment affect health across different regions, evidencing sustained empirical inquiry beyond a single narrow question."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The corpus's naturalistic explanation of disease (e.g. reframing epilepsy as a physical rather than divine affliction in On the Sacred Disease) directly departed from the era's dominant religious framework, documented via that text's own explicit argument."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The sustained, methodical case-observation record in the Epidemics texts evidences real disciplined practice, though individual authorship attribution across the corpus is uncertain."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Hippocratic Oath's explicit ethical framework (do no harm, patient welfare over other considerations) documents a stated orientation toward patient wellbeing as the organizing purpose of medical practice."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The systematic case-tracking method implies real advance methodological planning, though this is inferred from the corpus's structure rather than a direct statement of intent."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The naturalistic reframing of disease causation was a genuinely original departure from prevailing supernatural explanations, documented via the corpus's own argumentative structure."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The breadth and internal consistency of the surviving corpus across multiple medical subdomains suggests sustained development of medical craft over time."
+    },
+    "achievement_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founded a documented medical school on Kos that trained successive physicians, suggesting real sustained ambition beyond individual practice."
+    },
+    "cross_domain_range": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The corpus spans clinical observation, environmental medicine, surgery, and professional ethics, suggesting real range within the medical field broadly construed."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The naturalistic medical framework's clean break from the dominant religious-healing tradition of the period suggests a real independent intellectual stance."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Advocating a naturalistic account of disease that directly contradicted the era's dominant temple-medicine tradition implies willingness to hold a genuinely contrarian position."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded and is credited with leading a documented medical teaching tradition on Kos that trained and influenced generations of physicians after him."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The sustained, methodical Epidemics case records, if attributable to him or his immediate school, suggest real persistence in systematic observation over extended periods."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The detailed, dated symptom-tracking in the Epidemics texts suggests real sustained concentrated observation of individual cases over time."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Establishing and sustaining a teaching medical school implies real comfort with public professional engagement, though direct evidence of personal manner is essentially absent for this era."
+    },
+    "analytical_rigor": {
+      "score": 65,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The corpus's systematic case-by-case symptom tracking and causal reasoning about environment and disease evidences a real analytical method, tempered by uncertain individual authorship."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Hippocratic school's continued, multi-generational medical tradition after him suggests real capacity to build a sustained collaborative teaching community."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Advocating a naturalistic account of disease that directly contradicted the era's dominant temple-medicine tradition carried real professional and social risk for the period."
+    },
+    "resourcefulness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing a systematic clinical method with the limited diagnostic tools available in ancient Greek medicine suggests real capacity to build effective method under real material constraint."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: ancient era, medicine domain (not represented anywhere in the current roster). Genuinely thinner evidence than Aristotle — the Hippocratic Corpus's individual authorship is a live scholarly debate (much of it is now attributed to his students/school rather than Hippocrates personally), so confidence throughout is capped meaningfully lower and evidenceType rarely reaches 'documented' — a deliberately conservative treatment consistent with the ancient/medieval evidence discipline, not a stretch to force eligibility."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.449 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "amartya-sen",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Amartya Sen",
+    "wikidataId": "Q132489",
+    "birthYear": 1933,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "economist"
+    ],
+    "fieldIds": [
+      "economics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "social",
+      "educational"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "cross_disciplinary",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sen_wikipedia",
+      "kind": "wikipedia",
+      "title": "Amartya Sen",
+      "url": "https://en.wikipedia.org/wiki/Amartya_Sen"
+    },
+    {
+      "id": "src_sen_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Prize — Amartya Sen, Economic Sciences 1998"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed social choice theory and the capability approach, integrating welfare economics, ethics, and political philosophy into one coherent analytical framework, documented via the 1998 Nobel Prize citation's own description of his contribution's scope."
+    },
+    "cross_domain_range": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced substantive original work across welfare economics, famine studies, social choice theory, and philosophy (justice and capability theory), documented via his extensive bibliography spanning these genuinely distinct fields."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His famine research (Poverty and Famines) explicitly reframed famine as a problem of entitlement and political accountability rather than mere food-supply shortage, directly influencing famine-prevention policy, documented via the work's own stated analytical purpose and its cited real-world influence."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His social choice theory work provides formal mathematical proofs extending and qualifying Arrow's Impossibility Theorem, documented via the Nobel citation's specific technical description of this contribution."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His capability approach directly challenged the dominant GDP/income-based measure of welfare in economics, a documented departure from prevailing disciplinary convention that has since reshaped how development is measured (the UN Human Development Index)."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The capability approach's reframing of wellbeing around substantive freedoms rather than resources or utility was a genuinely original conceptual contribution, documented via its lasting adoption in international development policy."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained detailed empirical famine research (including the 1943 Bengal famine, which he witnessed as a child) requiring extensive historical and statistical investigation, documented via the depth of Poverty and Famines' own analysis."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prolific academic output across economics and philosophy over a career spanning more than six decades."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Engaged across economics, philosophy, and social policy over his career, evidencing real intellectual range beyond a single narrow specialty."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prolific research and public-policy-engagement career for over six decades, well past his 1998 Nobel Prize, evidencing long-term ambition beyond a single achievement."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued extending and refining his capability-approach framework across subsequent decades of published work, documented via the sustained development visible in his bibliography."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His early famine research directly challenged prevailing economic orthodoxy about famine causation, carrying real disciplinary risk at the time, documented via the work's own departure from the dominant food-availability-decline framework."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His famine research required exhaustive historical and statistical data analysis across multiple documented famine case studies, evidenced in Poverty and Famines' own empirical depth."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The systematic, theory-building structure of his social choice and capability work evidences real advance conceptual organization."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Co-developed the UN Human Development Index with Mahbub ul Haq, a documented, sustained collaborative project applying his capability framework to real policy measurement."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a prominent public intellectual role, including extensive public writing and lecturing on economics and social policy across his career."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His capability-approach framework directly and durably reshaped international development policy measurement (the UN Human Development Index's continued use), documented via its sustained real-world institutional adoption."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Moved between formal mathematical social-choice theory and applied, policy-facing famine/development work across his career, suggesting real flexibility in working mode."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a research and public-advocacy program on famine and welfare economics across more than six decades, documented via the extended timeline of his publication record."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chaired academic economics departments at multiple institutions and directed research shaping the UN Human Development Index across his career, documented via the well-established institutional record of these roles."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an independent theoretical program (the capability approach) that directly challenged mainstream welfare-economics convention for decades before achieving broad acceptance."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: contemporary, south_asia, economics domain not represented anywhere in the current roster. Living person, scored strictly from long-documented public academic record per this project's established living-person convention."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.519 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

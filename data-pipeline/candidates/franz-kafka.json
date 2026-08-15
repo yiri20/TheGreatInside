@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "franz-kafka",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Franz Kafka",
+    "wikidataId": "Q905",
+    "birthYear": 1883,
+    "deathYear": 1924,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CZ"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "late_recognition",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_kafka_wikipedia",
+      "kind": "wikipedia",
+      "title": "Franz Kafka",
+      "url": "https://en.wikipedia.org/wiki/Franz_Kafka"
+    },
+    {
+      "id": "src_kafka_letters",
+      "kind": "archive",
+      "title": "Franz Kafka's letters and diaries (published posthumously)"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a genuinely distinctive narrative mode (bureaucratic surrealism, later termed 'Kafkaesque') with no direct precedent, documented via the lasting critical recognition and terminological legacy of his specific style."
+    },
+    "perfectionism": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Left the majority of his major works (The Trial, The Castle, Amerika) unfinished and unpublished at his death, and famously instructed his friend Max Brod to burn his unpublished manuscripts — documented via his own surviving letters expressing sustained dissatisfaction with his work's completeness."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His prose is widely noted for precise, exhaustively specific bureaucratic and procedural detail even within surreal scenarios, documented via close critical reading of the surviving texts' own style."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained intensive nighttime writing sessions after full workdays at an insurance institute, documented via his own diaries and letters describing this demanding routine."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His letters to Felice Bauer document sustained, explicit internal conflict between his desire for a conventional domestic life and his need for solitary writing time, ultimately ending both his engagements, a specific, well-corroborated pattern from his own primary correspondence."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented lifelong, unresolved conflict with his father (explored directly in his own Letter to His Father) suggests real difficulty with direct interpersonal confrontation rather than an active seeking of conflict."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding dual life of full-time insurance-institute work and nighttime writing across most of his adult career, documented via his own diaries describing this schedule."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed a narrative approach genuinely unlike the dominant realist and expressionist literary movements of his own period, documented via critical assessment of his work's distinctiveness relative to contemporaries."
+    },
+    "social_assertiveness": {
+      "score": 38,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Widely and consistently documented across his own letters and diaries, and by contemporaries including Max Brod, as socially anxious and self-doubting in personal relationships — a real, honestly low score directly evidenced rather than assumed from his literary reputation."
+    },
+    "risk_tolerance": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Repeatedly delayed major life decisions (marriage, leaving his insurance job) documented via his own letters, suggesting a genuinely cautious approach to major personal risk, distinct from his willingness to write formally unconventional fiction."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented wide personal reading and engagement with philosophy and contemporary literary movements suggests real intellectual range beyond his own writing."
+    },
+    "achievement_drive": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Published relatively little during his own lifetime and expressed persistent self-doubt about his work's value in his own letters, suggesting a genuinely modest, non-status-seeking orientation toward his own literary ambition, distinct from his sustained private creative drive."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued writing major, demanding novels across worsening health (tuberculosis) in his final years, documented via the well-established timeline of his later work."
+    },
+    "adaptability": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His own letters document persistent difficulty adjusting to major life transitions (repeated broken engagements, sustained ambivalence about his career), suggesting genuinely limited flexibility in this specific domain."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued developing and refining his distinctive narrative style across his major works, evidenced by the stylistic consistency and depth visible across his surviving corpus."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Maintained a sustained close friendship and working relationship with Max Brod, who he trusted with his manuscripts, suggesting real capacity for selective close collaboration despite his broader social reticence."
+    },
+    "ambiguity_tolerance": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His fiction is widely noted for sustaining deliberate narrative ambiguity and unresolved situations (The Trial's protagonist never learns the charge against him) rather than providing resolution, documented via the surviving texts' own structural choices."
+    },
+    "impact_motivation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His own letters suggest writing was primarily a personal, internally necessary act rather than one oriented toward broad public impact, evidenced by his documented reluctance to publish and his instruction to destroy his unpublished work."
+    },
+    "leadership_drive": {
+      "score": 40,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented across his own letters and by contemporaries as personally reserved and disinclined toward formal leadership roles, an honestly low score directly evidenced rather than assumed."
+    },
+    "systems_abstraction": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His novels build coherent, internally consistent bureaucratic/institutional worlds with their own systematic (if surreal) logic, suggesting real capacity for structural world-building."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His major unfinished novels (The Trial, The Castle) show a real underlying structural architecture even where left incomplete, suggesting some advance compositional planning."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Third-batch diversity pick: 20th_century, central_europe (Prague), literature domain. Unusually rich primary-source base for personal traits (his own extensive surviving diaries and letters, particularly to Felice Bauer and Letter to His Father) grounds several traits — including an honestly LOW social_assertiveness score — directly in his own first-person documented self-account rather than secondhand characterization."
+  },
+  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.494 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+}

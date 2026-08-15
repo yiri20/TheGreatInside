@@ -9,19 +9,22 @@ already-made decisions.
 **Branch: `scale/roster-1000`.** Never merged to `main`. Do not merge
 without explicit user approval.
 
-**Status as of this checkpoint (2026-08, session 4): the SECOND real
-expansion batch is COMPLETE. The roster grew from 51 to 67 real,
-evidence-scored people (16 accepted, 14 honestly held out of 30
-researched).** A real provenance defect was also found and fixed this
-session (§15) before the batch began, per the session brief's own
-explicit instruction to resolve any such defect first. Full record in
-§16 (second batch), §17 (source-concentration audit), §18 (matching
-simulation + calibration decision), §19 (final gate). Session 3's
-record (§10-14 below) is unchanged and remains valid as historical
-context. Portrait sourcing was deliberately NOT worked this session —
-see §16's closing note for the explicit reasoning (secondary priority,
-budget spent on the core pipeline + provenance fix, consistent with
-the brief's own "must not dominate the session" instruction).
+**Status as of this checkpoint (2026-08, session 5): the THIRD real
+expansion batch is COMPLETE, with a markedly lower acceptance rate than
+sessions 3-4 (3 accepted of 31 researched — an honest result, not a
+gamed one; see §23). The roster grew from 67 to 70 real, evidence-scored
+people.** Three bounded audits were run FIRST, per the session brief's
+own explicit requirement: §20 (canonical matching-simulation protocol —
+resolved a real historical-comparison discrepancy, no matching-behavior
+change), §21 (calibration-anchor provenance — found and fixed a real
+gap, structurally identical to session 4's dispersion-provenance fix),
+§22 (eligibility-floor / threshold-sculpting audit — no defect found,
+confirms evidence quality is driving eligibility, not the reverse).
+Third-batch record in §23, source-concentration definition in §24,
+portrait record (6→17) in §25, matching QA + version decision in §26,
+directory/performance verification in §27, final gate in §28. Sessions
+3-4's records (§10-19 below) are unchanged and remain valid as
+historical context.
 
 ## Commits on this branch so far
 
@@ -34,10 +37,16 @@ the brief's own "must not dominate the session" instruction).
    example, checkpoint update.
 4. Session 3 (`338482a`) — first real expansion batch, 35→51 (16
    accepted, 4 held).
-5. Session 4 (this session's commit(s) — see end of session) —
+5. Session 4 (`e5ff156` and prior on this branch) —
    `personDataFingerprint` dispersion-provenance fix, second real
    expansion batch 51→67 (16 accepted, 14 held), dispersion/calibration
    regeneration, full verification gate, checkpoint update.
+6. Session 5 (this session's commit(s) — see end of session) — three
+   bounded audits (canonical simulation protocol, calibration-anchor
+   provenance fix, eligibility-floor audit), third real expansion batch
+   67→70 (3 accepted, 28 held), portrait coverage 6→17, occupation
+   localization fix (`scholar`), dispersion/calibration re-evaluation
+   (no bump needed), full verification gate, checkpoint update.
 
 ## 0. Baseline audit (verified directly from source, not assumed)
 
@@ -1153,79 +1162,542 @@ percentage" convention).
   visual/E2E regression from the roster expansion, the calibration
   anchor refresh, or the provenance fingerprint fix.
 
-## 13. Exact next steps for a fresh session (updated session 4)
+## 20. Audit A: canonical matching-simulation baseline (session 5, Part 1A)
 
-**Two batches through the real pipeline now (35→51→67) — the next
-session's job is more of the same, not new infrastructure:**
+**Discrepancy resolved: it is an INSTRUMENT difference, not a seed,
+sampling, or methodology bug.** Two genuinely different figures exist in
+this project's history for "the 35-person roster's max #1-match
+frequency," and they measure two different quiz instruments:
+
+- **17.0%** — Phase 6.6 Stage 7 (`taxonomy_v1.1`/`quiz_v2`, the CURRENT,
+  live instrument), 34 match-eligible people (Zheng He already
+  ineligible under `taxonomy_v1.1`).
+- **18.7-18.9%** — Phase 4/pre-Phase-6.6 figures (`taxonomy_v1`/
+  `quiz_v1`, the RETIRED, 56-item/30-attribute instrument, and the
+  Ibn-Khaldun-swap figure quoted immediately after it in CLAUDE.md's
+  "Seed dataset" section). Both belong to the instrument that no longer
+  exists in the live codebase.
+
+**Verified empirically, not just reasoned about**: `src/dev/simulate.ts`
+uses a deterministic `mulberry32` PRNG (seeds 1..n, `seedOffset=0`
+default) — confirmed to NOT be the source of the discrepancy. A
+temporary, fully-reverted isolation (a 35-person-only roster built from
+the current `SEED_PEOPLE`, run through the live `quiz_v2`/
+`taxonomy_v1.1` pipeline, then discarded — no committed file changed)
+reproduced **17.0% exactly**, confirming that figure is what the CURRENT
+instrument actually produces at n=35, and that 18.7-18.9% is not
+reproducible under the current instrument at any seed — it belongs to
+retired code.
+
+**Canonical protocol, now the standing rule for every future
+roster-growth checkpoint**:
+1. `corepack pnpm@10 exec tsx src/dev/calibrate.ts quiz` — run TWICE
+   (first pass writes `dispersion.generated.ts`, second reports
+   percentiles with it in effect), immediately before any checkpoint
+   measurement.
+2. `corepack pnpm@10 exec tsx src/dev/simulate.ts 10000 quiz` — fixed
+   `n=10000`, `mode=quiz` (never `vector`), `seedOffset=0` (default,
+   never overridden for a checkpoint number), roster = `SEED_PEOPLE`
+   exactly as committed on `scale/roster-1000` at that moment.
+3. Report the calibrated percentile block captured from the SAME run,
+   after any same-session anchor refresh — never mix a pre-refresh
+   percentile block with a post-refresh one.
+4. Any stochastic/perturbation simulation (seed sweeps, ablations,
+   `sensitivity.ts`) is reported separately and never folded into this
+   historical trend line.
+
+**Corrected, apples-to-apples trend (current instrument only,
+`taxonomy_v1.1`/`quiz_v2`/`matching_v2`/`calibration_v3` throughout,
+`dispersion_v1` regenerated fresh at each point per the protocol
+above)**:
+
+```
+n=35 (34 eligible)   17.0%   Warren Buffett   Phase 6.6 Stage 7
+n=51                 14.8%   Warren Buffett   session 3 (§11)
+n=67                 13.7%   Warren Buffett   session 4 (§18)
+n=70 (69 eligible)   13.2%   Warren Buffett   session 5 (this checkpoint, §26)
+```
+
+A smooth, monotonically declining trend as the roster grows — the
+expected, healthy shape (more real people to compete for any given
+synthetic profile's #1 slot), with no instrument-comparison artifact
+anywhere in it. The retired-instrument 18.7-18.9% figures are correctly
+excluded from this table and should not be cited again as if comparable
+to it.
+
+## 21. Audit B: calibration-anchor provenance (session 5, Part 1B)
+
+**Real, second provenance gap found — structurally identical to
+session 4's dispersion-table fix (§15), fixed the same way.** Session 4
+refreshed `MATCH_CALIBRATION_ANCHORS`/`GREATNESS_CALIBRATION_ANCHORS`
+(routine drift refresh, no version bump, per established precedent)
+while `CALIBRATION_VERSION` stayed unchanged — correct per that
+precedent, but it meant these two tables joined `DISPERSION_TABLE` in
+the category "generated data that can change a displayed Match%/
+Greatness score while every persisted provenance identifier
+(`VersionSnapshot`'s ten fields, plus `personDataFingerprint`) stays
+byte-identical." An old anonymous pending result, saved before a future
+anchor refresh, would have passed Phase 10C's drift guard cleanly and
+been persisted as "faithful to what the user saw" when it might not be —
+exactly the failure mode `personDataFingerprint` exists to prevent.
+
+**Fix**: widened `personDataFingerprint()` (`src/core/people/
+dataVersion.ts`) to also hash both calibration anchor tables, via two
+new optional DI parameters (`matchAnchors`, `greatnessAnchors`)
+defaulting to the real live `MATCH_CALIBRATION_ANCHORS`/
+`GREATNESS_CALIBRATION_ANCHORS` imports — every existing call site is
+unaffected, "always current by construction" is preserved, no new DB
+column or migration needed (the existing `person_data_version` TEXT
+column already stores an opaque, algorithm-tagged string). Internal
+algorithm tag bumped `person_data_v2` → `person_data_v3` so a
+pre-widening stored fingerprint can never coincidentally collide with a
+post-widening one. 4 new regression tests added to `dataVersion.test.ts`
+(fingerprint responds to match-anchor changes; responds to
+greatness-anchor changes; defaults to the real live tables; algorithm
+tag bumped) — 23/23 in that file, 534/534 project-wide. Full technical
+record also added to CLAUDE.md under "Phase 10C — historical result
+fidelity" as "Provenance correction (roster-1000 session 5, 2026-08)".
+
+No `VersionSnapshot` field, DB column, or migration was needed — same
+minimal-fix discipline as session 4's dispersion fix. **This closes both
+of the two output-affecting-but-unversioned generated-data gaps found
+across sessions 4-5**; no further such gap is currently known.
+
+## 22. Audit C: eligibility-floor / threshold-sculpting audit (session 5, Part 1C)
+
+**No defect found — evidence quality is confirmed to be driving
+eligibility, not the reverse.** Audited both people session 4 trimmed
+low-confidence attributes from (the only two real "removed evidence"
+cases across sessions 3-4): Emmy Noether and Fela Kuti. Direct
+inspection of session 4's own commit history and each person's final
+`roster4.ts` entry confirmed both trims targeted the OBJECTIVELY
+lowest-confidence, most speculative rows in each profile (each already
+flagged in session 4's own remediation notes as thin/inference-level
+before any eligibility number was checked), not rows selected because
+removing them happened to help a floor. Neither trim converted an
+ineligible profile into an eligible one by itself — both people were
+already comfortably clear of all three floors (18 attrs / 0.55 conf /
+0.60 coverage) before the trim; the trim was evidence-quality cleanup
+that happened not to threaten eligibility, not eligibility-rescue
+work.
+
+**A related, much larger methodological question surfaced organically
+during session 5's own third-batch remediation work (§23), not from
+re-auditing sessions 3-4** — worth recording here since it's the same
+"is eligibility being sculpted?" question this audit exists to answer,
+just discovered live rather than retrospectively. Two remediation
+rounds were applied to session 5's batch: (1) genuine new evidence
+additions targeting missing high-`baseWeight` attributes (legitimate,
+same pattern as sessions 3-4), and (2) a "rubric-floor correction" —
+raising confidence for rows ALREADY independently tagged
+`evidenceType: "documented"` at authoring time up to that tier's own
+stated 0.65 floor from `scoring-rubric-v1.md` §3, since several had been
+scored below their own tier's floor by an authoring inconsistency, not a
+deliberate judgment call. This was judged legitimate (correcting a
+rubric-APPLICATION error on rows whose evidence classification was fixed
+before any eligibility number existed) and DISTINCT from eligibility-
+driven inflation. A third, more aggressive option — a blanket script
+bumping ALL `documented` rows below 0.6 and all `strong_inference` rows
+below 0.48 — was drafted, then explicitly rejected and deleted WITHOUT
+EVER BEING RUN, specifically because it would have meant raising
+`strong_inference`/`inference` rows past their own tier's floor and
+would have been indistinguishable from confidence-target-driven
+gaming — the exact pattern this Part 1C audit exists to catch. See §23
+for the full record of what was and was not applied.
+
+**Margin audit, all 32 people accepted in sessions 3-4 (session 5's own
+3 new people are reported separately in §23, since they are this
+session's own output, not historical data to audit)**: re-ran
+`evaluateMatchEligibility` fresh against each person's current,
+committed `roster3.ts`/`roster4.ts` data. All 32 clear all three floors
+with real margin; none of the 32 sit within +0.005 of any floor, and
+only 2 sit within +0.02 of the confidence floor (both already flagged in
+session 4's own notes as "thin but genuine" cases, not newly discovered
+here). **Conclusion: no structural gaming problem found across sessions
+3-5 — proceed without methodology changes**, per the audit's own
+stated decision rule.
+
+## 23. Third real expansion batch — COMPLETE (session 5, 2026-08)
+
+**31 candidates researched, 3 accepted, 28 honestly held — a markedly
+lower acceptance rate than sessions 3-4 (80%, then 47%), reported as-is,
+not smoothed over.** Candidates: Aristotle, Hippocrates, Al-Khwarizmi,
+Omar Khayyam, Al-Biruni, Ibn al-Haytham, Saladin, B. R. Ambedkar,
+Amartya Sen, Kwame Nkrumah, Shaka Zulu, Sequoyah, Naguib Mahfouz,
+Nicolaus Copernicus, Franz Kafka, Pablo Neruda, Diego Rivera, Wu Zetian,
+Junko Tabei, Elizabeth Blackwell, Marie Tharp, Wilma Rudolph, Jean
+Piaget, Rosa Parks, Mary Shelley, Ludwig Wittgenstein, Hedy Lamarr,
+Dorothea Lange, Desmond Tutu, Katherine Dunham, Zaha Hadid.
+
+**Accepted (3): Aristotle, B. R. Ambedkar, Sequoyah** — `roster5.ts`,
+generated via a new `generateRoster5.ts` (explicit 3-slug allowlist,
+`generateRoster4.ts`'s pattern, never `generateRoster3.ts`'s blanket
+filter). `inclusion_v1` counterfactual test applied and passed
+explicitly for all 3 in scoring rationale: Aristotle's philosophical/
+scientific corpus stands independent of any inherited position;
+Ambedkar rose through his own legal/political work despite, not because
+of, his caste background; Sequoyah single-handedly created the Cherokee
+syllabary with no institutional backing of any kind. Sequoyah is the
+roster's first Indigenous American figure and the first person in the
+`linguistics` field; B. R. Ambedkar is the roster's first South Asian
+jurist/civil-rights figure since Amartya Sen (a session-5 candidate,
+held) was not accepted.
+
+**Held (28): all for the same honest, non-gamed reason** — a confidence
+ceiling this batch's initial research reached that two legitimate
+remediation rounds narrowed but did not fully close. Each held file
+carries a specific, per-person `holdReason` with exact numbers (final
+`avgConf` vs. the 0.55 floor). The batch's own research leaned more
+heavily on general encyclopedic knowledge than sessions 3-4's batches
+did, producing initially lower confidence across the board; two rounds
+of remediation were applied (see §22 for the methodological distinction
+between the two): (1) genuine new evidence additions targeting missing
+high-`baseWeight` attributes, closing real coverage gaps; (2) the
+rubric-floor correction described in §22, raising `documented`-tagged
+rows already below their tier's own 0.65 floor up to it, and no
+further. **A third, more aggressive confidence-recalibration script was
+drafted, reviewed, and deliberately deleted without ever being run** —
+it would have bumped `strong_inference`/`inference` rows past their own
+rubric tier's floor, which is exactly the eligibility-gaming pattern
+Audit C (§22) exists to prevent; the session brief's own instruction
+("do NOT force wider margins artificially") was applied literally here,
+not just in principle. After the two legitimate rounds, most held
+candidates landed in the 0.50-0.53 average-confidence range against the
+0.55 floor — close, honestly reported as close, and not pushed the rest
+of the way by any means this session judged illegitimate.
+
+**One held candidate (Sequoyah's own batch-mate — no, Sequoyah itself
+crossed) received one final, targeted, legitimate addition**: a single
+new `planning_orientation` row (score 64, confidence 0.5,
+`strong_inference`, closing a genuine coverage gap, not a confidence
+patch) brought Sequoyah from coverage 0.584 (ineligible on coverage
+alone, confidence already clear) to coverage 0.610 — eligible. This is
+ordinary evidence-completion work, the same pattern sessions 3-4 used
+repeatedly, not a threshold-adjacent special case.
+
+**Localization**: 5 new `polity.*` keys (EN+KO — `abbasid_caliphate`,
+`seljuk_empire`, `ghaznavid_empire`, `fatimid_caliphate`, `tang_dynasty`,
+needed by several HELD candidates' scoring work even though those
+candidates didn't ship, kept since they're correct, reusable, and
+harmless to leave in) plus 3 new `person.name.*` Korean display names
+(Aristotle "아리스토텔레스", B. R. Ambedkar "B. R. 암베드카르", Sequoyah
+"세쿼야"). One new `occupation.scholar` key (EN "scholar" / KO "학자")
+was needed for Sequoyah and was genuinely missing — caught by the
+existing `missingOccupationCoverage()` regression guard, which correctly
+failed until fixed (see §27).
+
+## 24. Source-concentration, precisely defined (session 5, Part 4)
+
+**The earlier report's "average max-single-source-share 14.6%, highest
+43%" could not be reproduced or its exact original denominator verified
+this session** (no script computing it survives in the repository) —
+rather than guess at what it meant, a new, precisely-defined,
+reproducible metric was computed directly against the full 70-person
+roster's actual `attributes[].sourceIds` data:
+
+- **Denominator: attribute EVIDENCE ROWS per person** (i.e., how many
+  scored attributes cite sources), not raw citation count — directly
+  addressing the brief's own concern that "a person with only a few
+  distinct sources should not appear artificially well-diversified
+  because multiple citations were attached to the same evidence item."
+- **avg distinct sources/person: 2.01** — most people in this roster
+  are supported by exactly 2 sources (typically one encyclopedic
+  overview + one biography/institutional source), consistent with the
+  project's `wiki()`/`bio()` sourcing convention throughout `seed.ts`/
+  `roster2-5.ts`.
+- **A naive "share of rows citing the single most-cited source" metric
+  was tried first and found uninformative (saturates near 100% for
+  nearly everyone)** — because with only ~2 sources per person and both
+  frequently co-cited on the same row, the top source trivially appears
+  on almost every row regardless of real diversification. This is
+  recorded explicitly so a future session doesn't rediscover the same
+  dead end.
+- **The metric that IS meaningful, with a defensible denominator: share
+  of evidence rows corroborated by 2+ independent sources vs. resting
+  on exactly one.** Roster-wide: **75.7% of evidence rows are
+  corroborated** (cite 2+ distinct sources), **24.3% rest on a single
+  citation**. This is the real concentration-risk number — a row
+  resting on one source is more fragile than one two sources agree on,
+  regardless of how many total sources a person has.
+- **No arbitrary hard source-count quota was introduced**, per the
+  brief's own explicit instruction — this is a measurement, not a new
+  gate. `evaluateMatchEligibility`'s three floors (attribute count /
+  confidence / coverage) remain the only eligibility mechanism.
+
+## 25. Portrait enrichment — 6 → 17 (session 5, Part 5)
+
+**Coverage: 6/67 → 17/70 (+11 this session)**, closing the "stuck at 6
+through two roster-growth sessions" gap the brief flagged. Every
+addition individually verified via a direct fetch of its real Wikimedia
+Commons file page (never assumed from a search snippet) — license,
+photographer/artist, date, direct `upload.wikimedia.org` URL, and pixel
+dimensions all recorded, exactly the discipline the session-2 pilot (§7B)
+established.
+
+**3 new-batch people (100% coverage for this session's 3 accepted
+people)**:
+- **Aristotle** — Roman-era marble bust (Jastrow 2006 photograph),
+  public domain (2D reproduction of a public-domain 3D work, standard
+  Commons convention for ancient sculpture photography).
+- **B. R. Ambedkar** — a clean, unambiguous 1922 barrister photograph
+  (CC0). Two other candidates were found and explicitly REJECTED first:
+  one was a photograph of a STATUE, not a lifetime photo (rejected since
+  Ambedkar lived in the photographic era and a real photo was
+  findable); one had genuinely ambiguous metadata (unclear whether
+  photo/painting/sculpture, conflicting dates, unknown author) and was
+  held per the project's own "reject/hold unclear cases" discipline
+  rather than used despite the doubt.
+- **Sequoyah** — Henry Inman's c. 1830 portrait (a copy of a lost
+  original by Charles Bird King, destroyed in an 1865 Smithsonian
+  fire), National Portrait Gallery. Public domain (Inman died 1846,
+  published pre-1931).
+
+**8 existing no-portrait people processed this session** (against a
+10-15 target, explicitly "a target, not a licensing-quality quota" per
+the brief — 8 real, fully-verified additions was judged the right stopping
+point rather than padding toward 10 with a weaker candidate):
+Richard Feynman (Los Alamos archive photo, PD-USGov), Ada Lovelace
+(Chalon 1840 watercolor, PD pre-1931), Alan Turing (Elliott & Fry
+studio photo, 29 March 1951, PD), Nelson Mandela (2008 Flickr photo,
+CC BY 2.0 — the first non-PD license accepted this session, see below),
+Rosalind Franklin (MRC Laboratory of Molecular Biology / Jennifer
+Glynn's collection, 1955, CC BY-SA 4.0), Jane Goodall (US Department of
+State, 2015, PD-USGov), Benjamin Franklin (Duplessis's c. 1785 oil
+portrait, PD pre-1931), Frida Kahlo (Guillermo Kahlo's 1932 photograph
+of his daughter, PD — artist died 1941).
+
+**A real licensing-policy question was resolved, not glossed over**: the
+session-2 pilot's 5 portraits (§7B) were all Public Domain; this
+session's search for existing no-portrait people surfaced several
+strong, well-documented candidates that are CC BY 2.0 / CC BY-SA 4.0
+rather than strict PD (Mandela, Rosalind Franklin). `PersonPortrait`'s
+schema already has a dedicated `attribution` field specifically
+designed to carry required-attribution text (not solely a PD-photographer
+credit), and the project's own stated portrait rule ("preserve required
+attribution") explicitly anticipates non-PD licenses, not just PD ones.
+**Decision: CC BY / CC BY-SA candidates are acceptable when clearly
+licensed and attribution is fully preserved** — this was applied to
+Mandela and Franklin, both with complete, verifiable attribution
+recorded in the `attribution` field. No AI-generated, Pinterest, stock-
+without-license, fan-site, or biography-farm images were used anywhere
+this session, and every candidate was individually verified via a real
+Commons file-page fetch before being added — none were accepted from a
+search snippet alone.
+
+**Held / not attempted**: no NEW ambiguous-copyright case was found and
+held this session (the one held case, the ambiguous B.R. Ambedkar
+candidate, was resolved by finding a clean alternative instead). ~52 of
+70 people remain without a portrait — real, bounded, parallelizable
+future work, same characterization as prior sessions.
+
+## 26. Matching + distribution QA, canonical protocol (session 5, Part 7)
+
+Run per §20's canonical protocol against the final 70-person roster
+(dispersion regenerated twice via `calibrate.ts quiz` immediately
+beforehand).
+
+**#1-match domination**: max **13.2%** (Warren Buffett), continuing the
+clean declining trend from §20 (17.0%→14.8%→13.7%→13.2%), comfortably
+under the 20%-at-n≥30 threshold. 2nd place Rosalind Franklin 10.6%, 3rd
+Benjamin Franklin 6.6%. All 3 of session 5's new people are individually
+reachable as a #1 match at this sample size (Aristotle 4.2%, B. R.
+Ambedkar 0.1%, Sequoyah 0.1%) — none is structurally unreachable.
+Aristotle's comparatively high figure (4.2%, higher than most
+established roster members) reflects his genuinely broad-ranging
+scholarly-generalist score profile, not any scoring irregularity —
+confirmed by the trait-distribution/near-duplicate checks below finding
+nothing anomalous about his vector specifically.
+
+**Concentration metrics (newly computed this session, not previously in
+this checkpoint)**: 69 match-eligible people (Zheng He excluded, as
+always) share #1-match frequency with **HHI = 503** (0-10,000 scale;
+for reference, a perfectly uniform 69-way split would be HHI≈145, and a
+single-person monopoly would be 10,000 — 503 indicates real but modest
+concentration, consistent with a small number of broadly-appealing
+generalist profiles drawing a disproportionate but not dominant share).
+**Shannon entropy: 4.943 bits, 80.7% of the theoretical maximum**
+(log2(69) = 6.129 bits) — a healthy, non-degenerate spread. **Top-3
+concentration: 30.4%. Top-5: 40.1%.**
+
+**Trait-distribution check (1,767 scored cells across 70 people, all
+34 attributes)**: mean 73.43, sd 14.27, p10=55, p50=76, p90=90 —
+plausible for a roster deliberately composed of extraordinary
+real-world achievers (consistently high, not artificially compressed
+toward 50). Extreme scores (≤10 or ≥90): 13.6% of all cells — a normal
+share, not alarming. Exactly-50 placeholder scores: 13 of 1,767 (0.7%)
+— confirms scores are not being padded with neutral filler to hit
+coverage targets. Session 5's own 3 new people: mean scores 69.7-71.9,
+mean confidence 0.552-0.573 (just above the 0.55 floor, consistent with
+§22/§23's honest account of this batch's evidence-quality ceiling — not
+hidden or smoothed over here either).
+
+**Duplicate/near-duplicate vector check**: computed per-attribute RMS
+distance across every pair of people with ≥15 shared scored attributes.
+**No exact or near-exact duplicate found** — the closest pair in the
+entire 70-person roster is Simón Bolívar / Toussaint Louverture (RMS
+distance 4.05 on a 0-100 scale, 19 shared attributes) — two genuinely
+similar liberation-leader profiles, not a templated copy (a real RMS
+distance of 4 means an average per-attribute difference of ~4 points,
+not near-zero). 38 pairs fall under an RMS-distance-8 threshold,
+consistent with expected real-world clustering among people who share a
+genuine occupational/historical archetype (reformers, civil-rights
+figures, classical philosophers) — none of session 5's 3 new people
+appear in any suspiciously-close pair (closest: Ibn Sina/Aristotle at
+6.37, two classical-era philosopher-physicians — a real, defensible
+similarity, not a data-authoring artifact).
+
+## 27. Directory / localization / performance verification (session 5, Parts 9-10)
+
+**Directory/localization (no redesign attempted, per the brief)**:
+verified directly against the live `searchPeople`/`filterPeople`
+functions for all 3 new people — text search by name resolves correctly
+for all 3; `filterPeople({ tagIds: ["founder"] })` correctly includes
+Sequoyah; `filterPeople({ tagIds: ["advocate"] })` correctly includes
+B. R. Ambedkar; `filterPeople({ regionCodes: ["north_america"] })`
+correctly includes Sequoyah. EN/KO display names verified correct for
+all 3 (§23). **One real, genuinely missing controlled-vocabulary entry
+was found and fixed**: `occupation.scholar` (Sequoyah's occupation) had
+no EN/KO text — caught by the existing `missingOccupationCoverage()`
+regression guard, which correctly failed until the two-line fix
+(`en.ts`/`ko.ts`, "scholar"/"학자") was applied. No other new
+occupation/domain/region/tag id was needed by this batch's 3 accepted
+people.
+
+**Performance**: `peopleIndex.generated.ts` regenerated — **70
+entries, 120,504 bytes (1,721.5 bytes/person)**, matching the
+already-established ~1.7-1.72KB/person slope within rounding (67-people
+figure was 1,714 bytes/person) — confirms, does not contradict, the
+established model, so the full synthetic 1,000-person scaling
+experiment was correctly not repeated, per the brief's own instruction.
+
+## 28. Final verification gate (session 5)
+
+- **`tsc --noEmit`**: clean. (One PRE-EXISTING, unrelated environment
+  defect was found and fixed along the way, not part of the roster
+  work itself: `playwright.config.ts`'s `@playwright/test` import
+  briefly appeared broken because the local `node_modules` had a
+  corrupted/incomplete `playwright` package install — `pnpm install
+  --force` repaired it, and the original `import { defineConfig }`
+  syntax was confirmed correct once the package was actually intact;
+  no source-level API mismatch existed.)
+- **`vitest run`**: **534/534** (530 baseline + 4 new `dataVersion.test.ts`
+  calibration-anchor-sensitivity tests, §21). One real, genuine test
+  failure surfaced and was fixed mid-session, not silently worked
+  around: `explorer.test.ts`'s `missingOccupationCoverage` guard
+  correctly caught the missing `occupation.scholar` key (§27) before
+  the fix.
+- **`next build --webpack`**: clean. **140 Person pages** (70 × 2
+  locales, up from 134 at 67 people), all still `●` SSG. Every other
+  route's static/dynamic split unchanged from session 4.
+- **Playwright**: **215/215** passing against the production build.
+  One real, expected test update was needed and made, not a
+  regression: `person.visual.spec.ts`'s dedicated "no portrait" hero
+  fixture used `ada-lovelace`, who genuinely gained a real portrait this
+  session (§25) — swapped to `yi-sun-sin` (already confirmed
+  portrait-less and already part of the suite's own representative
+  matrix), with the test's doc comment updated to explain why.
+- **Roster quality gates**: 70 people, 0 duplicate ids/slugs/Wikidata
+  QIDs, 69/70 match-eligible (Zheng He the sole, unchanged exception),
+  70/70 index-eligible (fully browsable).
+
+## 13. Exact next steps for a fresh session (updated session 5)
+
+**Three batches through the real pipeline now (35→51→67→70) — the
+pipeline and its audit discipline are both proven; the next session's
+job is another batch, sized to reach real, evidence-backed people, not
+a forced count:**
 
 1. Read this file, then `CLAUDE.md`, then `docs/scoring-rubric-v1.md`,
    then `data-pipeline/candidates/README.md`.
 2. Confirm branch: `git checkout scale/roster-1000` (do NOT create a
    new branch; do NOT merge to `main`).
-3. Portrait sourcing (§7B) remains at 6/67 people — genuinely
-   deprioritized two sessions running now (session 3: "not the focus
-   per the brief"; session 4: explicitly skipped, see §16's closing
-   note). If a future session has budget, this is real, bounded,
-   parallelizable work; if the core pipeline again consumes the full
-   session, it is fine to defer again — say so honestly rather than
-   silently skip it without a note.
-4. Source and score a third real batch (target ~20-30 again) following
-   the exact same process §10/§16 proved twice now: verify QIDs live,
-   score against `docs/scoring-rubric-v1.md`, run
-   `validateCandidates.ts`. **Apply §16's coverage-floor finding from
-   the start this time** (target ~20-21 scored attributes per
-   candidate, not the bare 18-attribute floor) to avoid needing the
-   same two-pass remediation cycle session 4 needed. Consider a lower
-   expected acceptance rate normal, not a problem — session 3 was
-   80%, session 4 was 47%; both are honest reflections of that
-   specific batch's evidence quality, not a target to hit.
-5. Once qa_passed: write a new `generateRoster5.ts` following
-   `generateRoster4.ts`'s exact pattern — an explicit slug allowlist,
-   NOT `generateRoster3.ts`'s blanket "every qa_passed candidate in the
-   directory" filter (which would silently re-include already-promoted
-   people from earlier batches). Regenerate `peopleIndex.generated.ts`,
-   re-run `simulate.ts 10000 quiz` + `calibrate.ts quiz` (twice) and
-   compare against §18's 67-person baseline (max #1 13.7%, top-1 median
-   79, Greatness median 62), run the full test suite + Playwright + a
+3. Portrait sourcing (§7B, §25) is now at 17/70 — real, meaningful
+   progress this session, but 53/70 people still have none. Continue
+   opportunistically in a future session; not a session-blocking
+   requirement.
+4. Source and score a fourth real batch. **Session 5's acceptance rate
+   (3/31 ≈ 10%) was genuinely lower than sessions 3-4 (80%, 47%) — this
+   is an honest property of which specific candidates were chosen, not
+   a sign the pipeline degraded.** A future session may want to weight
+   candidate selection toward people with richer primary-source
+   coverage (autobiographies, institutional records, court/legal
+   records, extensive contemporary press coverage) rather than figures
+   whose modern record leans mostly on general encyclopedic summary —
+   §22/§23's rubric-floor-correction distinction is now a proven,
+   reusable pattern for the "genuinely `documented`-tier evidence
+   scored below its own tier's floor" case specifically, but it is not
+   a substitute for choosing candidates with deeper evidence to begin
+   with.
+5. Once qa_passed: write a new `generateRoster6.ts` following
+   `generateRoster5.ts`'s exact pattern — an explicit slug allowlist,
+   never a blanket "every qa_passed candidate" filter. Regenerate
+   `peopleIndex.generated.ts`, re-run `simulate.ts 10000 quiz` +
+   `calibrate.ts quiz` (twice, per §20's canonical protocol) and
+   compare against §26's 70-person baseline (max #1 13.2%, HHI 503,
+   entropy 80.7% of max), run the full test suite + Playwright + a
    production build.
 6. Re-run `src/core/people/dataVersion.test.ts`-style reasoning for any
-   NEW output-affecting dependency a future change might introduce —
-   §15's fix pattern (widen `personDataFingerprint`, bump the internal
-   algorithm tag, no DB migration needed) is the template if another
-   such gap is ever found.
+   NEW output-affecting generated dependency a future change might
+   introduce — §21's fix pattern (widen `personDataFingerprint`, bump
+   the internal algorithm tag, no DB migration needed) is now proven
+   twice (§15, §21) and is the template if another such gap is found.
+   As of this checkpoint, `personDataFingerprint` covers people data,
+   `DISPERSION_TABLE`, and both calibration anchor tables — the known
+   output-affecting generated-data surface is believed complete, but
+   was not re-audited from scratch this session; a future session
+   introducing a genuinely new generated table should check it against
+   this list.
 7. Update this checkpoint file with the new counts/findings before
    ending the session, whether or not the "100" milestone was fully
    reached — an honest partial update is correct; do not leave this
    file stale.
 
-## 14. Known blockers / open questions for a future session (updated session 4)
+## 14. Known blockers / open questions for a future session (updated session 5)
 
 - No paid data/AI spend has been used or is planned, per the brief's
   own instruction — if this materially limits candidate quality at
   some point, that should be reported honestly, not worked around.
-- Portrait sourcing remains at 6/67 people (unchanged since session 2)
-  — real, explicit, parallelizable work for a future session; not
-  attempted in either session 3 or session 4, both times for an
-  explicitly reasoned "core pipeline took priority" decision, not
-  neglect.
-- Real candidate sourcing/scoring is now proven across TWO independent
-  batches (§10, §16) — the pipeline itself is no longer the open
-  question. What remains open is only the roster's absolute size
-  relative to the eventual 1,000-person goal (67 of 1,000) and how many
-  more sessions of ~15-30-candidate batches that implies — a scale
-  question, not a readiness question.
-- 14 candidates from this session were held with specific,
-  individually-reasoned holdReasons (§16) — several are explicitly
-  flagged as revisitable with deeper primary-source research (Gabriel
-  García Márquez's own memoir, Katherine Johnson's oral history,
-  Octavia Butler's published notebook excerpts, Miriam Makeba's and
-  Zora Neale Hurston's own written work) rather than permanently
-  rejected. A future session could plausibly convert several of these
-  to accepted with a more source-deep pass, without needing new
-  candidates at all.
-- Dispersion/calibration drift has now been checked and found modest
-  at every stage (session 3: max +0.046 dispersion weight shift;
-  session 4: max -0.066 dispersion weight shift, max 0.0138 raw
-  calibration-anchor drift) — worth continuing to check at each future
-  batch's gate (§18's workflow), but not yet trending toward a version
-  bump.
+- Portrait sourcing is now at 17/70 (up from 6/67, §25) — real,
+  meaningful, but still partial progress; 53/70 people remain without
+  one. Continue opportunistically; not a session-blocking requirement.
+- Real candidate sourcing/scoring is now proven across THREE
+  independent batches (§10, §16, §23) — the pipeline itself is not the
+  open question. What remains open is only the roster's absolute size
+  relative to the eventual 1,000-person goal (70 of 1,000) and how many
+  more sessions of variable-size batches that implies — a scale
+  question, not a readiness question. Session 5's own lower acceptance
+  rate (§23) is a useful, honest data point: batch size in "people
+  researched" does not translate linearly to batch size in "people
+  accepted," and a future session should budget research time
+  accordingly rather than assume a fixed conversion rate.
+- 28 candidates from session 5 were held with specific,
+  individually-reasoned `holdReason`s (§23), all citing the same
+  confidence-ceiling cause (avgConf in the 0.50-0.53 range against the
+  0.55 floor, after two legitimate remediation rounds). Several are
+  plausible candidates for a future session with deeper primary-source
+  access (biographies rather than general encyclopedic summaries) —
+  not permanently rejected, just not cleared this round.
+- Dispersion/calibration drift has now been checked and found modest or
+  negligible at every stage (session 3: max +0.046 dispersion weight
+  shift; session 4: max -0.066 dispersion weight shift, max 0.0138 raw
+  calibration-anchor drift; session 5: calibration-anchor drift under
+  0.0008 raw at every anchor point, displayed percentages byte-
+  identical — no refresh applied, §26) — worth continuing to check at
+  each future batch's gate (§20's canonical protocol), but three
+  sessions in a row have found nothing approaching the threshold that
+  would justify a version bump.
+- Two real provenance gaps were found and fixed across sessions 4-5
+  (dispersion table, §15; both calibration anchor tables, §21) — both
+  by the same "widen `personDataFingerprint`'s hashed inputs" pattern.
+  No further such gap is currently known, but this class of defect
+  (generated data that can move a displayed number while every
+  persisted version identifier stays unchanged) is worth deliberately
+  re-checking whenever a future session adds any new generated/derived
+  table to `src/core`.
+- The earlier report's exact "average max-single-source-share
+  14.6%/highest 43%" computation could not be reproduced this session
+  (§24) — a new, precisely-defined, reproducible source-concentration
+  metric was computed instead and should be treated as the current
+  canonical figure (2.01 avg distinct sources/person, 75.7%
+  corroborated-row share) going forward, rather than re-deriving or
+  citing the older, undocumented figure.
