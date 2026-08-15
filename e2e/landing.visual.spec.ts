@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import {
+  assertHeadingHierarchy,
   assertNoClippedElements,
   assertNoHorizontalOverflow,
   assertProseMeasureBounded,
@@ -46,6 +47,7 @@ for (const locale of LOCALES) {
       await assertProseMeasureBounded(page);
       const clipped = await assertNoClippedElements(page);
       expect(clipped, `clipped elements found: ${JSON.stringify(clipped)}`).toEqual([]);
+      await assertHeadingHierarchy(page);
 
       // Broken-navigation check: both CTAs must actually navigate.
       const quizHref = await quizCta.getAttribute("href");

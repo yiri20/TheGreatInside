@@ -21,6 +21,7 @@ import {
   Stack,
   Text,
   TextField,
+  VisuallyHidden,
 } from "@ui/index";
 
 const SORT_KEYS: readonly PeopleSortKey[] = [
@@ -111,6 +112,10 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
           </Cluster>
           <Text tone="muted">{t(locale, "people.directory.count", { count: results.length })}</Text>
         </Stack>
+
+        <VisuallyHidden>
+          <Heading level={2}>{t(locale, "people.directory.results_heading")}</Heading>
+        </VisuallyHidden>
 
         {results.length === 0 ? (
           <Text tone="muted">{t(locale, "people.directory.empty")}</Text>

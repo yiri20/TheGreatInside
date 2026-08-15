@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import {
+  assertHeadingHierarchy,
   assertNoClippedElements,
   assertNoHorizontalOverflow,
   assertProseMeasureBounded,
@@ -85,6 +86,7 @@ for (const locale of LOCALES) {
       const clipped = await assertNoClippedElements(page);
       expect(clipped, `clipped elements found: ${JSON.stringify(clipped)}`).toEqual([]);
       await assertSpotlightCardsConstrained(page, SPOTLIGHT_BASE_SELECTOR, SPOTLIGHT_COUNT);
+      await assertHeadingHierarchy(page);
 
       // Wide composition only activates >=1280px; 1024 stays single-column.
       const heroSideBySide = await railIsSideBySide(page, "section:has(.tgi-hero-score)");

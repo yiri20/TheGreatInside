@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import {
+  assertHeadingHierarchy,
   assertNoClippedElements,
   assertNoHorizontalOverflow,
   assertProseMeasureBounded,
@@ -104,6 +105,7 @@ for (const locale of LOCALES) {
       await assertProseMeasureBounded(page, 900); // paired columns are wider than a single 40rem prose block by design
       const clipped = await assertNoClippedElements(page);
       expect(clipped, `clipped elements: ${JSON.stringify(clipped)}`).toEqual([]);
+      await assertHeadingHierarchy(page);
 
       // Every individual bar stays within a controlled width regardless of
       // viewport — the whole point of this round.

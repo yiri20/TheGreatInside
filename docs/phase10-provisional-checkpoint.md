@@ -89,7 +89,19 @@ option, and a repo-wide grep confirms the app never reads `user.email`,
 Per Google's current published docs, apps using only these
 "non-sensitive" scopes are exempt from the heavier sensitive/restricted-
 scope security-assessment verification tier; only brand verification
-(privacy policy) applies once past a small manually-added test-user list.
+(privacy policy, app name/logo display) applies. **Corrected 2026-08
+(Public Beta Finish Line pass)**: that brand-verification tier is not a
+functional gate either, for this exact scope set — Google's own docs
+(`support.google.com/cloud/answer/15549945`) carve out an explicit
+exception for apps requesting only `openid`/`email`/`profile` ("Sign in
+with Google"): such users do not need to be in a manually-added
+trusted-user list, see no unverified-app warning, and their
+authorizations do not expire after 7 days, regardless of whether the
+Cloud Console project's publishing status is Testing or In production.
+The earlier "once past a small manually-added test-user list" phrasing
+overstated the limitation — see `docs/deployment.md` §3A and CLAUDE.md's
+"Public Beta Finish Line" section for the full corrected record and the
+exact Google doc quote.
 
 **Production-safe site-origin strategy** (`src/lib/env.ts`'s `siteUrl()`,
 used only for `metadataBase` — OAuth redirect logic deliberately does NOT

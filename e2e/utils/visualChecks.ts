@@ -193,3 +193,33 @@ export async function assertSpotlightCardsConstrained(
     ).toBeLessThan(2.2);
   }
 }
+
+/**
+ * Public Beta Finish Line heading-hierarchy guard. Walks h1-h6 in DOM
+ * order and asserts: exactly one h1, and no level ever jumps DEEPER by
+ * more than 1 from the previous heading (e.g. h1 -> h3 is a violation;
+ * h3 -> h1, or h2 -> h2, or h2 -> h3 -> h2, are all fine — shallowing
+ * back up is never a skip). Counts a heading wherever it sits in the DOM,
+ * including inside `.tgi-visually-hidden` — an sr-only heading is exactly
+ * the mechanism this project uses to fix a real skip without a visual
+ * change (see Person's Known For, People's results-heading), so it must
+ * count toward the outline the same as a visible one.
+ */
+export async function assertHeadingHierarchy(page: Page): Promise<void> {
+  const levels = await page.evaluate(() =>
+    Array.from(document.querySelectorAll("h1, h2, h3, h4, h5, h6")).map((el) =>
+      Number(el.tagName.slice(1)),
+    ),
+  );
+  const h1Count = levels.filter((l) => l === 1).length;
+  expect(h1Count, `expected exactly one h1, found ${h1Count} (levels: ${levels.join(",")})`).toBe(1);
+
+  for (let i = 1; i < levels.length; i++) {
+    const prev = levels[i - 1];
+    const cur = levels[i];
+    expect(
+      cur - prev,
+      `heading level skipped from h${prev} to h${cur} at position ${i} (full sequence: ${levels.join(",")})`,
+    ).toBeLessThanOrEqual(1);
+  }
+}

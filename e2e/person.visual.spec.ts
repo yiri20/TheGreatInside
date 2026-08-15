@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import {
+  assertHeadingHierarchy,
   assertNoClippedElements,
   assertNoHorizontalOverflow,
   assertProseMeasureBounded,
@@ -67,6 +68,10 @@ for (const slug of PEOPLE) {
         await assertProseMeasureBounded(page);
         const clipped = await assertNoClippedElements(page);
         expect(clipped, `clipped elements found: ${JSON.stringify(clipped)}`).toEqual([]);
+        // Public Beta Finish Line: Known For was h3 directly under h1 with
+        // no h2 in between (see CLAUDE.md "Public Beta Finish Line") — now
+        // level={2}/visualLevel={3}, real h2 tag, unchanged h3 visual size.
+        await assertHeadingHierarchy(page);
 
         // Rail layout contract: side by side only at >=1280px, stacked below it.
         const sideBySide = await railIsSideBySide(page);

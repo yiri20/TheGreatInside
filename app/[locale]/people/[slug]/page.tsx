@@ -208,7 +208,7 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
               primary={hero}
               secondary={
                 <Stack gap={2}>
-                  <Heading level={3}>{t(locale, "person.known_for")}</Heading>
+                  <Heading level={2} visualLevel={3}>{t(locale, "person.known_for")}</Heading>
                   <Cluster gap={2}>
                     {person.impactDomains.map((domain) => (
                       <span key={domain} className="tgi-chip">

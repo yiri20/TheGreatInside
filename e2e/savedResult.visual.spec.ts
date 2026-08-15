@@ -2,6 +2,7 @@ import { test, expect } from "@playwright/test";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  assertHeadingHierarchy,
   assertNoClippedElements,
   assertNoHorizontalOverflow,
   assertProseMeasureBounded,
@@ -91,6 +92,7 @@ for (const locale of LOCALES) {
       await assertProseMeasureBounded(page);
       const clipped = await assertNoClippedElements(page);
       expect(clipped, `clipped elements found: ${JSON.stringify(clipped)}`).toEqual([]);
+      await assertHeadingHierarchy(page);
 
       const heroSideBySide = await railIsSideBySide(page, "section:has(.tgi-hero-score)");
       const traitPairSideBySide = await elementsAreSideBySide(

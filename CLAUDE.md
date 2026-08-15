@@ -4354,7 +4354,18 @@ needed there for production to work. OAuth scopes confirmed
 email/name/picture — confirmed by grep) — Google's own docs say apps
 using only these non-sensitive scopes don't need the heavier
 sensitive/restricted-scope verification tier, only brand verification
-(privacy policy) once past a small test-user list. **`siteUrl()`
+(privacy policy, app name/logo display) applies, and — corrected
+2026-08 against Google's current official docs
+(`support.google.com/cloud/answer/15549945`) during the Public Beta
+Finish Line pass — that tier is not even a functional gate: identity-only
+scope requests (`openid`/`email`/`profile`, "Sign in with Google") are an
+explicitly documented exception to Testing status's usual
+100-test-user/7-day-expiry/unverified-app-warning behavior, so this app's
+exact scope set needs no manually-added test-user list at all, regardless
+of the Cloud Console project's actual publishing status (which cannot be
+determined from this repository — not guessed). See "Public Beta Finish
+Line" below and `docs/deployment.md` §3A for the full corrected record,
+including the exact Google doc quote. **`siteUrl()`
 subsequently hardened same-day**, after review found its original
 unconditional localhost fallback could silently ship localhost-based
 metadata from a production deploy missing one variable: resolution is
@@ -4641,6 +4652,234 @@ explicit decision before any work begins — nothing here starts
 automatically.
 
 Before each phase, re-run the simulator. Calibration is not a one-time task.
+
+## Public Beta Finish Line — CLOSED (2026-08)
+
+**This is a closing checklist, not a new phase.** No roadmap expansion, no
+new product features, no reopened Phase 10D work. It exists to draw one
+finite line: what a limited public beta actually needs, separated from
+everything that would only matter for a broader, polished production
+launch. Do not read anything below as reopening Phase 10D, Stage A, or
+Stage B — none of their approved decisions changed.
+
+**CLOSED, human visual-approved (2026-08).** The favicon/basic browser
+identity mark (single serif "T", warm paper, dark ink, restrained purple
+accent) was reviewed against real renders and approved exactly as
+implemented, with no further redesign. Final state, all confirmed:
+- Favicon/basic browser identity implemented and visually approved.
+- Heading-hierarchy corrections (Person Detail, People Directory)
+  implemented and regression-tested.
+- Google identity-only OAuth Testing exception correctly documented,
+  verified against official Google policy, not assumed.
+- 76/76 indexed public URLs healthy (200, correct canonical, no
+  accidental noindex).
+- An anonymous, real 64-question quiz completion (genuine UI
+  interaction, not just a synthetic token) verified end to end through
+  Results.
+- Post-10D Stage A (SEO & Locale) remains green, untouched.
+- Post-10D Stage B (Sharing/OG) remains green, untouched.
+- **No BLOCKS PUBLIC BETA findings remain.**
+
+Broader/post-beta work — Privacy Policy/Terms, OAuth brand verification,
+custom domain, analytics, monetization strategy, portraits, dataset
+expansion, dynamic Results/Compare OG, custom 404, manifest/PWA work —
+is recorded separately below ("Post-beta / broader launch") and is
+explicitly **not** a limited-public-beta blocker.
+
+**The current product is considered ready for limited public beta once:**
+- basic favicon/icon identity is present (done, see below),
+- final automated beta QA is green (done, see below),
+- no BLOCKS PUBLIC BETA finding remains (none found).
+
+### 1. Google OAuth Testing-status classification — corrected
+
+Earlier documentation (Stage 10A's OAuth scope audit, `docs/deployment.md`
+§3) understated this app's actual position: it said brand verification
+applied "once past a small manually-added test-user list," implying the
+100-test-user cap was a real near-term constraint. **Verified directly
+against current official Google documentation
+(`support.google.com/cloud/answer/15549945`, "Manage App Audience"), not
+assumed**: Google carves out an explicit exception for apps requesting
+only identity scopes —
+
+> "The only exception to this behavior is if your app requests a subset
+> of the following: name, email address, and user profile (through the
+> `userinfo.email`, `userinfo.profile`, `openid` scopes or their OpenID
+> Connect equivalents)... For such requests, your users do not need to be
+> in the trusted user list, they will not see a warning message, and
+> their authorizations will not expire after 7 days. If your app uses
+> Sign in with Google to authenticate users then this exception also
+> applies."
+
+This app's OAuth call requests exactly `openid`/`email`/`profile` (no
+`scopes` option set on `signInWithOAuth`, confirmed by grep, unchanged
+since Stage 10A). So, for this exact configuration, regardless of whether
+the Google Cloud Console project's publishing status is Testing or In
+production: no manually-added test-user list is needed, no unverified-app
+warning shows, and authorizations don't expire after 7 days. Separately,
+per Google's verification FAQ (`support.google.com/cloud/answer/13463073`),
+an app requesting only non-sensitive scopes is not required to complete
+Google's verification process at all to function for arbitrary Google
+accounts. **Brand verification (Privacy Policy, app name/logo display) is
+relevant for a broader, polished production launch — it is NOT a blocker
+to a limited public beta with this scope set.** What genuinely cannot be
+determined from this repository is the Cloud Console project's actual
+current publishing status — that lives in a dashboard this codebase has
+no visibility into, and is not guessed here; it also doesn't need to be
+known, since the exception above holds either way.
+
+Docs corrected: `docs/deployment.md` §3A/§3B (full quote + reasoning),
+`docs/phase10-provisional-checkpoint.md`'s Stage 10A OAuth-scope-audit
+paragraph, and the Stage 10A Roadmap paragraph above.
+
+### 2. Favicon / browser identity
+
+New: `app/favicon.ico` (real multi-image ICO, 16+32px, embedded PNG
+entries — confirmed a genuine `MS Windows icon resource` via `file`, not
+a renamed PNG), `app/icon.png` (512px static-file convention), and
+`app/apple-icon.png` (180px). Mark: a single bold serif "T" (for "The
+Great Inside") on the warm paper background (`#faf8f4`), dark ink
+(`#1c1a17`), one restrained purple accent bar (`#4a3f6b`) — no gradient,
+no glass, no icon-library glyph, no mascot. A three-letter "TGI"
+monogram was tried first per the original brief and rejected after
+direct visual inspection at 16×16 (three serif glyphs collapse into an
+illegible blob at favicon size); a single "T" reads clearly at 16, 32,
+and 180px and was approved as the "similarly minimal typographic mark"
+alternative the brief allowed for. Generated deterministically via
+`next/og`'s `ImageResponse` (`src/dev/generateIcons.tsx`, reusing Stage
+B's own OG font asset — no new font needed for a Latin-only mark) plus a
+small, dependency-free ICO container packer embedded in the same script.
+Verified live: all three serve with correct content-type
+(`image/x-icon`, `image/png` ×2) and are wired into `<head>`
+automatically by Next's file-convention metadata on both locales, with
+zero visual change to any existing page. Full provenance in
+`assets/icons/README.md`.
+
+### 3. Heading-hierarchy fixes
+
+Both Stage C-flagged issues fixed, presentation-only, zero visual change:
+- **Person Detail**: "Known For" was `<h3>` directly under the page's
+  `<h1>` with no `<h2>` in between. `Heading` (`src/ui/components/
+  primitives.tsx`) gained an optional `visualLevel` prop that decouples
+  the rendered tag (document outline) from the `tgi-heading--N` size
+  class — defaults to `level`, so every pre-existing call site is
+  unaffected. Known For now renders `<Heading level={2}
+  visualLevel={3}>` — a real `<h2>`, identical `h3`-sized visual
+  treatment. Outline: h1 → h2 → h2 → h2 → h2 → h3 (Sources), no skip.
+- **People Directory**: only an `<h1>` ("Explore Great Minds") existed,
+  then every `PersonCard` rendered its own hardcoded `<h3>` directly
+  beneath it. `PersonCard`'s `<h3>` was deliberately left untouched — it
+  is shared across Results/Compare/Person/People, and changing it
+  globally was out of scope and unnecessary. Fixed instead with a single
+  visually-hidden `<h2>` (`people.directory.results_heading` — "Results"
+  / "결과", both locales) immediately before the results grid, the same
+  `.tgi-visually-hidden` sr-only pattern this project already uses for
+  `ImpactBadge`/`ConfidenceIndicator`/`ScoreBar` labels — present in the
+  accessibility tree, zero layout footprint.
+- New reusable Playwright guard, `assertHeadingHierarchy` (`e2e/utils/
+  visualChecks.ts`): walks all `h1`-`h6` in DOM order, asserts exactly
+  one `h1` and no level ever skips deeper by more than 1. Wired into
+  Landing, Person (all 3 people × 2 locales × 6 viewports), Results,
+  Compare, Saved Result, and a new dedicated `e2e/peopleDirectory.spec.ts`
+  (4 tests: both locales, an active-filter state, the empty-results
+  state) — every one passes, confirming no other page in the product
+  carries the same defect.
+
+### 4. Final automated public-beta QA — all green
+
+- `tsc --noEmit`: clean.
+- `vitest run`: **480/480** (unchanged from the pre-beta-pass baseline).
+  No scoring, matching, taxonomy, reference, calibration, Supabase, or
+  database logic changed. Only i18n message resources under
+  `src/core/i18n` were modified (1 new key pair); the other source
+  changes were `Heading`'s new optional `visualLevel` prop and two page
+  components' heading usage.
+- `next build --webpack`: clean, **88 routes** (86 baseline + `/icon.png`
+  + `/apple-icon.png`, both `○` static; `/favicon.ico` serves correctly
+  but isn't enumerated as a separate line in Next's route table — Next's
+  own special-cased handling of the literal `app/favicon.ico` path, not
+  a defect, confirmed by direct `curl` returning `200 image/x-icon`).
+  All 70 Person pages still `●` SSG, People/Quiz still `●` SSG, every
+  pre-existing route's static/dynamic split byte-identical.
+- Playwright: **207/207** (203 baseline + 4 new `peopleDirectory.spec.ts`
+  tests; the heading-hierarchy guard added to 6 other spec files
+  strengthens existing tests rather than adding new ones).
+- **76/76 sitemap URLs**: crawled live against a production server —
+  every one `200`, zero accidental `noindex`, canonical present and
+  locale-correct on every URL (ko-KR pages' canonical points at the
+  ko-KR URL, confirmed programmatically, not sampled).
+- **robots.txt**/noindex surfaces reconfirmed unchanged: only
+  `/auth/callback` disallowed; Results/Compare `noindex, follow`;
+  Account/Saved Result `noindex, nofollow`.
+- **Anonymous core journey, verified with a real, fully automated
+  64-question quiz completion** (not just a synthetic token, though the
+  existing Results/Compare/Share suites also cover those extensively via
+  synthetic `encodeResultToken` fixtures per this project's established
+  discipline): Landing → Quiz start → all 64 real question screens
+  answered and advanced via genuine UI clicks → a real result token
+  generated → `/results` rendered completely and correctly (Greatness
+  score, Closest Match, Unexpected Match, Opposite Profile, Signature
+  Trait, Category Matches, Trait Profile, Comparison, More People, the
+  methodology panel, and the Share control), screenshotted as evidence.
+  No Google sign-in was needed or used. Person/Compare/Share legs are
+  covered exhaustively by the existing 203-test suite (unchanged, still
+  passing). The one-off verification script itself was deleted after
+  confirming the result — not committed, consistent with this project's
+  "no stray scratch/probe scripts" convention.
+- **Share/OG regression**: reconfirmed unchanged — Results/Compare/Person
+  Share controls present with correct labels/disclosure, native-share and
+  clipboard-fallback paths both exercised, no Share control on
+  Account/Saved Result (guarded by both a Vitest import-boundary test and
+  a Playwright DOM-absence test), generic + Person OG images (EN/KO) all
+  `200 image/png` live.
+- **Accessibility sanity** (not a WCAG certification): exactly one `h1`
+  and no heading skip on Landing/People/Person/Quiz/Results/Compare
+  (enforced by `assertHeadingHierarchy`, see above); form controls carry
+  `ariaLabel`s (`TextField`/`Select` on People Directory); tab order
+  matches DOM order on every `Rail`-composed page (pre-existing, reused
+  guard); Share's confirmation/failure feedback is an `aria-live="polite"`
+  region, not color-only; portrait `<img>` alt text and placeholder
+  `aria-hidden` initials unchanged from Phase 3.
+- **Browser/UI sanity**: representative EN/KO screenshots at
+  mobile/desktop for Person and People Directory inspected directly — no
+  overflow, no clipping, no visual change from either the heading fix or
+  the new icon metadata (icons are pure `<head>` additions with no
+  rendered page content).
+
+### 5. Files changed this pass
+
+`CLAUDE.md`, `docs/deployment.md`, `docs/phase10-provisional-checkpoint.md`
+(doc corrections); `app/favicon.ico`, `app/icon.png`, `app/apple-icon.png`,
+`assets/icons/` (new icon assets + README); `src/dev/generateIcons.tsx`
+(new, one-time asset-generation tool); `src/ui/components/primitives.tsx`
+(`Heading`'s new optional `visualLevel` prop); `app/[locale]/people/
+[slug]/page.tsx` (Known For heading level); `app/[locale]/people/
+PeopleDirectoryClient.tsx` (new sr-only results heading);
+`src/core/i18n/en.ts`/`ko.ts` (1 new key pair); `e2e/utils/visualChecks.ts`
+(new `assertHeadingHierarchy` guard); `e2e/peopleDirectory.spec.ts` (new);
+`e2e/{landing,person,results,compare,savedResult}.visual.spec.ts`
+(heading-hierarchy assertion added to each). No scoring, matching,
+taxonomy, reference, calibration, Supabase, or database logic changed.
+Only i18n message resources under `src/core/i18n` were modified.
+
+### Post-beta / broader launch (explicitly NOT beta blockers)
+
+Recorded for later, deliberately not started, not portrayed as unfinished
+beta work:
+- Privacy Policy / Terms of Service (needs real business/contact/
+  jurisdiction facts this project won't invent).
+- Google OAuth brand verification (app name/logo display on the consent
+  screen) — relevant once past a small/limited audience or for a
+  polished production look, not required to function per §1 above.
+- Custom domain.
+- Analytics.
+- Monetization/ads decision.
+- Portraits pipeline (34 of 35 people still have none).
+- Dataset scaling toward the 100-1,000-person range.
+- Dynamic, per-token Results/Compare OG images (Stage B's own explicit,
+  already-recorded deferral).
+- Web app manifest, custom 404 page.
+- Any further favicon/logo refinement beyond the simple accepted mark.
 
 ## Conventions
 

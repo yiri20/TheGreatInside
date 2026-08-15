@@ -787,6 +787,7 @@ export const en = {
   "people.directory.all": "All",
   "people.directory.empty": "No one matches these filters yet.",
   "people.directory.count": "{count} people",
+  "people.directory.results_heading": "Results",
 
   "sort.name_asc": "Name (A–Z)",
   "sort.name_desc": "Name (Z–A)",

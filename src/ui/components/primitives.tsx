@@ -72,15 +72,29 @@ export function Display({ children, className }: { children: ReactNode; classNam
 
 export function Heading({
   level = 2,
+  visualLevel,
   children,
   className,
 }: {
   level?: 1 | 2 | 3;
+  /**
+   * Decouples the rendered tag (document outline, `level`) from the
+   * `tgi-heading--N` size class. Beta finish-line heading-hierarchy fix
+   * (see CLAUDE.md "Public Beta Finish Line"): lets a section render at
+   * the correct outline depth without a visual size change, when the two
+   * would otherwise conflict. Defaults to `level`, so every pre-existing
+   * call site is unaffected.
+   */
+  visualLevel?: 1 | 2 | 3;
   children: ReactNode;
   className?: string;
 }) {
   const Tag = (["h1", "h2", "h3"] as const)[level - 1] ?? "h2";
-  return <Tag className={cx("tgi-heading", `tgi-heading--${level}`, className)}>{children}</Tag>;
+  return (
+    <Tag className={cx("tgi-heading", `tgi-heading--${visualLevel ?? level}`, className)}>
+      {children}
+    </Tag>
+  );
 }
 
 /** Small uppercase label above a section. Decorative only — never the heading. */

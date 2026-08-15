@@ -108,12 +108,64 @@ app's `/auth/callback`) needs a new entry.
 - **Vercel**: the four env vars from §1 set for the Production
   environment.
 
-This alone is sufficient for OAuth to fully work in production, including
-for a small closed beta using Google's "Testing" publishing status (Google
-allows manually adding up to 100 test users without any further
-verification).
+This alone is sufficient for OAuth to fully work in production.
 
-### B. Required for Google brand verification (removes the "unverified app" warning; needed once you move past a small, manually-added test-user list)
+**Corrected 2026-08, verified directly against current official Google
+documentation (`support.google.com/cloud/answer/15549945`, "Manage App
+Audience"), not assumed from the general "Testing status" rules.** Google's
+docs state the general Testing-status behavior (100-manually-added-test-user
+cap, an unverified-app warning shown to those users, and authorizations
+expiring 7 days after consent) and then carve out an explicit exception:
+
+> "The only exception to this behavior is if your app requests a subset of
+> the following: name, email address, and user profile (through the
+> `userinfo.email`, `userinfo.profile`, `openid` scopes or their OpenID
+> Connect equivalents)... For such requests, your users do not need to be
+> in the trusted user list, they will not see a warning message, and their
+> authorizations will not expire after 7 days. If your app uses Sign in
+> with Google to authenticate users then this exception also applies."
+
+**This app's OAuth call requests exactly that scope set** (`openid`,
+`email`, `profile` — see the OAuth scope audit above and `CLAUDE.md`'s
+Stage 10A record: no `scopes` option is set on `signInWithOAuth`, and the
+app never reads anything beyond `user.id`). Consequently, for this exact
+configuration:
+
+- Users do **not** need to be manually added as test users — the
+  100-user cap does not gate real usage.
+- No "Google hasn't verified this app" warning is shown to signed-in
+  users.
+- Authorizations do not expire after 7 days.
+
+This holds whether the Google Cloud Console project's publishing status is
+"Testing" or "In production" — the exception is keyed to the scope set,
+not the publishing status. Separately, per Google's own verification-FAQ
+docs (`support.google.com/cloud/answer/13463073`), an app that requests
+only non-sensitive scopes is **not required to complete Google's
+app-verification process at all** to function for arbitrary Google
+accounts; publishing to "In production" without completing verification
+is explicitly supported by Google for this scope tier. **What genuinely
+cannot be determined from this repository is the actual current
+publishing status of the Google Cloud Console project itself** (Testing
+vs. In production, and whether any test users have been manually added) —
+that lives in a dashboard this codebase has no visibility into, and is not
+guessed here. If it is currently "Testing" with a small test-user list,
+the exception above means that list simply isn't a practical constraint
+for this scope set — not that switching to "In production" is required
+before a limited beta.
+
+### B. Google brand verification — relevant for a broader, polished production launch; NOT required for a limited public beta with this scope set (see "Public Beta Finish Line" in `CLAUDE.md`)
+
+Per §A above, this app's identity-only scope set already means no
+"unverified app" warning is shown to any user, regardless of brand
+verification status — so this section is not about removing a warning
+that exists today. What brand verification actually gates, per Google's
+own docs (`support.google.com/cloud/answer/15549049`, "Manage OAuth App
+Branding"): whether the app's **name and logo** are displayed on the
+consent screen (an unbranded/unreviewed app can still authenticate users
+correctly; it just shows a plainer consent screen). Relevant for a
+broader, polished production launch, not a functional blocker for a
+limited beta:
 
 - A **Privacy Policy** — hosted, linked from the OAuth consent screen
   config in Google Cloud Console, and (per Google's current published
@@ -125,9 +177,11 @@ verification).
 - **This project's OAuth scopes are `openid`/`email`/`profile` only** (see
   the OAuth scope audit) — Google's own documentation states apps using
   only these "non-sensitive" scopes are **not** required to complete the
-  heavier sensitive/restricted-scope security-assessment verification.
-  Brand verification (privacy policy + domain/name review) is the only
-  tier that applies here.
+  heavier sensitive/restricted-scope security-assessment verification, and
+  per §A above, are not required to complete ANY verification tier just to
+  function. Brand verification (privacy policy + domain/name review) is a
+  lighter, optional-for-functionality tier that only affects whether the
+  app's name/logo display on the consent screen.
 - Terms of Service: recommended as good practice, but not a confirmed
   Google requirement at this scope tier — don't conflate the two.
 

@@ -546,6 +546,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "people.directory.all": "전체",
   "people.directory.empty": "이 조건에 맞는 인물이 아직 없습니다.",
   "people.directory.count": "{count}명",
+  "people.directory.results_heading": "결과",
 
   "sort.name_asc": "이름 (가나다순)",
   "sort.name_desc": "이름 (역순)",
