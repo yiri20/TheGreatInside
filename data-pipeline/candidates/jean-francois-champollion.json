@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jean-francois-champollion",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Jean-Francois Champollion",
+    "wikidataId": "Q260",
+    "birthYear": 1790,
+    "deathYear": 1832,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "historian"
+    ],
+    "fieldIds": [
+      "linguistics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "specialist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_champollion_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jean-Francois Champollion",
+      "url": "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion"
+    },
+    {
+      "id": "src_champollion_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica -- Jean-Francois Champollion",
+      "url": "https://www.britannica.com/biography/Jean-Francois-Champollion"
+    },
+    {
+      "id": "src_champollion_britannica2",
+      "kind": "institution",
+      "title": "JSTOR Daily -- Jean-Francois Champollion Deciphers the Rosetta Stone",
+      "url": "https://daily.jstor.org/jean-francois-champollion-deciphers-the-rosetta-stone/"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 95,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as having mastered six ancient and Oriental languages (Latin, Greek, Hebrew, Chaldean, Arabic, Syriac) by age 12, an extensively corroborated, specific documented achievement, not a general reputational claim."
+    },
+    "analytical_rigor": {
+      "score": 94,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His 27 September 1822 presentation to the Academie des Inscriptions et Belles-Lettres, correctly identifying that Egyptian hieroglyphs combined alphabetic, syllabic, and determinative signs (rather than being purely symbolic, the prevailing assumption), is a specific, precisely-dated, extensively documented analytical breakthrough."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The decipherment took from the Rosetta Stone's 1799 discovery to his 1822 announcement -- 23 years, though Champollion's own intensive work is concentrated in the final years -- implying sustained multi-year focus on a single unsolved problem, inferred from the documented timeline."
+    },
+    "achievement_drive": {
+      "score": 85,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursuing the specific goal of founding what became the field of scientific Egyptology, in direct competition with established rival scholar Thomas Young, implies strong achievement drive, inferred from the documented competitive context of the decipherment race."
+    },
+    "competitiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "His decisive September 27, 1822 presentation to the Academie des Inscriptions et Belles-Lettres was made with his chief rival, English polymath Thomas Young, present in the audience -- a specific, precisely documented instance of a direct, public, high-stakes scholarly competition, not a general reputational claim."
+    },
+    "curiosity": {
+      "score": 90,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Independently mastering six languages by age 12 well beyond any institutional requirement implies exceptional underlying intellectual curiosity, inferred from the documented pattern of self-directed language acquisition."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Rejecting the field's prevailing assumption that hieroglyphs were purely symbolic/pictographic, in favor of a phonetic-component theory, suggests independent analytical judgment against consensus, inferred from the documented content of his breakthrough."
+    },
+    "deep_focus": {
+      "score": 84,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained, detailed comparative analysis across Greek, Demotic, and hieroglyphic scripts on the Rosetta Stone implies real sustained concentration, inferred from the technical nature of the documented decipherment work."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Systematic, sustained language study from early childhood implies real behavioral discipline, inferred from the documented pattern of his early education."
+    },
+    "detail_orientation": {
+      "score": 80,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Precise sign-by-sign comparative analysis across three parallel scripts implies close attention to detail, inferred from the technical nature of the decipherment task."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Testing and revising successive hypotheses about the sign system over years before arriving at the correct model implies real iterative experimentation, inferred from the documented multi-year process."
+    },
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Recognizing that hieroglyphs combined multiple sign-types into one coherent structural system, rather than treating them as an undifferentiated symbol set, implies strong structural/systems thinking, inferred from the nature of the breakthrough."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursuing an independent, non-consensus theory against the field's prevailing assumptions suggests real self-direction, inferred from the documented content of his work."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Publicly presenting a theory that directly contradicted the field's prevailing symbolic-only reading of hieroglyphs, in a venue including his direct rival, carried real professional risk if his analysis had proven wrong, inferred from the documented stakes of the presentation."
+    },
+    "social_assertiveness": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Presenting a field-redefining finding directly to a rival scholar and a formal academic body, rather than through indirect publication, suggests real assertiveness in a high-stakes professional confrontation, inferred from the documented circumstances of the presentation."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Systematic comparison across three scripts on the Rosetta Stone implies some methodical planning of the analytical approach, inferred from the structured nature of the documented method."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing the Rosetta Stone's trilingual structure as the specific key to decipherment, rather than treating it as merely one artifact among many, suggests real opportunity recognition."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The decipherment is consistently documented as substantially Champollion's own individual analytical achievement rather than a collaborative team effort, suggesting a lower collaboration orientation for this defining work."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Later founding and directing the discipline of Egyptology, including academic posts at the College de France and the Louvre, suggests some institutional leadership orientation, inferred from his later documented career."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Revising his own working hypotheses about the sign system multiple times over years before the correct model emerged suggests real willingness to abandon a failing approach, inferred from the documented iterative process."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- son of a bookseller, no inherited position; achievement rests entirely on his own individual scholarly breakthrough. Diversity value: the roster's first linguistics/historical-decipherment specialist since Sequoyah, a genuinely distinct evidence profile (analytical/scholarly rather than Sequoyah's self-taught-inventor shape). Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+  },
+  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing Britannica and JSTOR Daily, then a real second round adding the documented Thomas Young rivalry): avgConf 0.492 vs 0.55 floor, coverage 0.606 (clear). The surviving historical record documents his intellectual achievement (the decipherment itself) far more thoroughly than his day-to-day behavioral patterns, an early-19th-century evidentiary limitation similar in kind to several medieval/ancient figures already in the roster."
+}

@@ -45,6 +45,12 @@
       "id": "src_parks_autobiography",
       "kind": "archive",
       "title": "Rosa Parks with Jim Haskins, Rosa Parks: My Story (1992)"
+    },
+    {
+      "id": "src_parks_womenshistory",
+      "kind": "institution",
+      "title": "National Women's History Museum -- Biography: Rosa Parks",
+      "url": "https://www.womenshistory.org/education-resources/biographies/rosa-parks"
     }
   ],
   "rows": {
@@ -92,10 +98,10 @@
     },
     "autonomy_need": {
       "score": 58,
-      "confidence": 0.42,
-      "evidenceType": "inference",
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
       "impact": "neutral",
-      "rationale": "Her documented, considered refusal to comply with the bus driver's order suggests a real capacity for independent decision-making under direct social and institutional pressure."
+      "rationale": "Undertaking sensitive, personally dangerous investigative work (the Recy Taylor case) in the Jim Crow South as an individual NAACP representative required real personal self-direction, though the surviving record documents the investigation's occurrence more thoroughly than her specific individual working style within it."
     },
     "achievement_drive": {
       "score": 55,
@@ -113,24 +119,24 @@
     },
     "collaboration": {
       "score": 58,
-      "confidence": 0.42,
-      "evidenceType": "inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "Worked within the structured Montgomery NAACP chapter for over a decade, suggesting real capacity for sustained organizational collaboration."
+      "rationale": "Served for fourteen years (1943-1957) as secretary to NAACP Montgomery chapter president E.D. Nixon and as the chapter's youth leader, sustained institutional civil-rights work within an organization well before the 1955 bus incident, documented in her own autobiography (Rosa Parks: My Story, 1992) and NAACP records."
     },
     "detail_orientation": {
       "score": 55,
-      "confidence": 0.4,
-      "evidenceType": "inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "Her sustained secretarial and organizational NAACP role suggests real capacity for careful administrative and organizational work."
+      "rationale": "Personally conducted the NAACP's investigation into the gang rape of Recy Taylor in 1944, a specific, documented fact-finding investigation into a violent crime (extensively covered in civil-rights historiography, e.g. Danielle McGuire's At the Dark End of the Street), distinct from her later, better-known activism."
     },
     "leadership_drive": {
       "score": 55,
-      "confidence": 0.4,
-      "evidenceType": "inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "Later co-founded and led the Rosa and Raymond Parks Institute for Self Development, documented via the well-established record of that later-career institution."
+      "rationale": "Served as youth leader of the NAACP Montgomery chapter for over a decade before the bus boycott, a specific, documented role directly leading younger organizers, distinct from and prior to the fame that followed her own 1955 arrest."
     },
     "independent_thinking": {
       "score": 62,
@@ -141,10 +147,10 @@
     },
     "mastery_orientation": {
       "score": 52,
-      "confidence": 0.4,
-      "evidenceType": "inference",
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
       "impact": "neutral",
-      "rationale": "Sustained and deepened her civil-rights organizing capability across decades, from a local NAACP secretarial role to founding her own national institute."
+      "rationale": "Her documented fourteen-year progression from general NAACP membership to chapter secretary and youth leader suggests sustained development of organizational/institutional skill over time, though this is an inference from role progression rather than a single squarely on-point documented instance."
     },
     "adaptability": {
       "score": 55,
@@ -193,7 +199,7 @@
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: 20th_century, north_america, civil-rights domain — deliberately distinct profile shape from the existing roster's civil-rights figures (Martin Luther King Jr., Frederick Douglass, Sojourner Truth, Malcolm X): a quieter, more procedural/organizational form of courage documented via her own autobiography's explicit correction of the popularized 'tired feet' narrative in favor of a considered, deliberate decision."
+    "notes": "Third-batch diversity pick: 20th_century, north_america, civil-rights domain — deliberately distinct profile shape from the existing roster's civil-rights figures (Martin Luther King Jr., Frederick Douglass, Sojourner Truth, Malcolm X): a quieter, more procedural/organizational form of courage documented via her own autobiography's explicit correction of the popularized 'tired feet' narrative in favor of a considered, deliberate decision. UPDATE (session 6 diagnostic control experiment, 2026-08): received a genuine deep-research pass (her own 1992 autobiography Rosa Parks: My Story, and National Women's History Museum institutional source, documenting 14 years of pre-1955 NAACP institutional civil-rights work) distinct from and independent of the original batch-3 pass -- avgConf rose 0.479 -> 0.524, a real +0.045 gain, via 5 evidence-based upgrades (collaboration, leadership_drive, detail_orientation, autonomy_need, mastery_orientation). Still held: avgConf 0.524 remains meaningfully below the 0.55 floor even after this genuine deep pass -- unlike Kafka (0.001 short), this is a real, honest evidentiary gap, not a rounding-level miss. The available public record of her pre-1955 institutional work, while real and well documented in aggregate civil-rights historiography, does not map cleanly onto many of this taxonomy's 34 specific psychological-trait dimensions without straying into inference -- a genuine evidence-availability constraint, not a research-effort shortfall this session."
   },
   "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.479 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
 }

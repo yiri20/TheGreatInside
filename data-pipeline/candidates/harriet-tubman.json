@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "harriet-tubman",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Harriet Tubman",
+    "wikidataId": "Q102870",
+    "birthYear": 1822,
+    "deathYear": 1913,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist"
+    ],
+    "fieldIds": [
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "endured_imprisonment",
+      "leader"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tubman_wikipedia",
+      "kind": "wikipedia",
+      "title": "Harriet Tubman",
+      "url": "https://en.wikipedia.org/wiki/Harriet_Tubman"
+    },
+    {
+      "id": "src_tubman_bradford",
+      "kind": "biography",
+      "title": "Sarah H. Bradford, Harriet, the Moses of Her People (1886/1901), the only biography authorized by Tubman in her lifetime, based on Tubman's own interviews"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 95,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally returned to slave-holding territory roughly 13 times over about 11 years to lead approximately 70 enslaved people to freedom, with a substantial bounty on her own head throughout -- one of the most extensively documented sustained personal-risk patterns in the roster, corroborated by Bradford's authorized biography and broader historical record."
+    },
+    "persistence": {
+      "score": 92,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained roughly 13 separate rescue missions over about 11 years, documented via Bradford's biography and independently corroborated historical record, never losing a single person under her direct guidance."
+    },
+    "leadership_drive": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Planned and led the Combahee Ferry Raid of June 1863, which freed over 700 enslaved people -- documented as the first US military operation in the Civil War planned and executed under the leadership of a woman."
+    },
+    "proactive_agency": {
+      "score": 88,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated her own escape and every subsequent rescue mission with no institutional mandate, and separately approached the Union Army to propose serving as an armed scout and spy -- both specific, documented instances of self-directed initiative beyond any assigned role."
+    },
+    "resourcefulness": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented use of varied, improvised evasion tactics across her rescue missions (route changes, disguises, exploiting rail and river crossings) to avoid slave catchers over more than a decade of operations, corroborated across multiple independent historical accounts, not merely one source's characterization."
+    },
+    "planning_orientation": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustaining roughly 13 successful rescue missions with zero losses over 11 years implies real advance route/timing planning, though the surviving record documents outcomes more thoroughly than her specific planning process."
+    },
+    "discipline": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustaining a decade-plus covert operational pattern under mortal risk implies real sustained behavioral discipline, inferred from the documented outcomes rather than a single directly on-point instance."
+    },
+    "decisiveness": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rescue missions under active pursuit necessarily required rapid, high-stakes decisions; the historical record documents specific outcomes more thoroughly than her individual decision-making process in the moment."
+    },
+    "impact_motivation": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Explicit, sustained lifelong focus on freeing others (rescue missions, wartime scouting, later suffrage activism) indicates strong impact-oriented motivation, inferred from the consistent pattern across her documented life's work."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Operating largely independently on dangerous covert missions suggests real personal self-direction, though this is inferred from the nature of the work rather than a specific documented statement of preference."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Widely and independently corroborated across multiple biographical accounts (not solely Bradford's) that she carried a pistol on rescue missions and was prepared to use the threat of it against escaping individuals who wanted to turn back and risk exposing the group -- a specific, multiply-documented instance, not a single-source anecdote."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, escalating scope of activity (individual rescues, then a military operation, then postwar activism) suggests real sustained ambition, inferred from the overall arc rather than a single on-point statement."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continuing rescue operations after the 1850 Fugitive Slave Act increased the legal risk of her work suggests real tactical adaptation, inferred from the timeline rather than a specific documented account of the adjustment itself."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing and acting on the wartime opportunity to serve the Union Army as a scout, leading to the Combahee raid, suggests real opportunity recognition, inferred from the sequence of events."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Operating outside any formal abolitionist institution's direct control for most of her rescue work suggests independent judgment, inferred rather than directly documented as a trait."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Successfully proposing and securing an unconventional Army scouting role suggests real assertiveness in advocating for herself, inferred from the outcome."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained work within the broader Underground Railroad network implies some collaborative coordination with other conductors and safehouse operators, inferred rather than specifically documented in her own case."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Zero losses across 13 missions suggests careful attention to operational detail, inferred from the outcome record rather than a specific documented account of her methods."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Repeated successful missions over years suggest a developing, refined operational skill, inferred from the pattern of sustained success."
+    },
+    "experimentation": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Varying tactics across missions as circumstances changed suggests some willingness to try new approaches, inferred from the general pattern rather than a specific documented instance."
+    },
+    "ambiguity_tolerance": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Every rescue mission was conducted under fundamentally unpredictable conditions -- unknown pursuer positions, changing weather, unreliable safehouse availability -- with no ability to plan for certainty, sustained across roughly 13 missions over 11 years, inferred from the documented operational nature of Underground Railroad conducting work broadly and her own specific mission record."
+    },
+    "persuasiveness": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully convinced Union military commanders to authorize an unconventional role for her as an armed scout and spy despite no precedent for a woman (let alone a formerly enslaved woman) in that role, and consistently convinced frightened escaping individuals to trust her judgment and continue under extreme duress -- both inferred from the documented outcomes (the role being granted; missions completing without desertions) rather than a specific first-person account of her persuasive method."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. Diversity value: fills a real gap -- the roster's abolitionist/civil-rights representation was concentrated in oratory/legal figures (Frederick Douglass, Sojourner Truth, Rosa Parks-held); Tubman adds a direct-action/covert-operations shape distinct from all of them. Sourcing note: Bradford's biography, while authorized and based on Tubman's own interviews, was written by a white contemporary for a 19th-century audience and modern historians note some romanticized elements -- confidence capped below 0.9 throughout for this reason, never at the top of the 0.85-1.0 band."
+  }
+}

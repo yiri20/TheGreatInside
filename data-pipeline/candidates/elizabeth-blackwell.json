@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "elizabeth-blackwell",
-  "status": "held",
+  "status": "qa_passed",
   "identity": {
     "canonicalName": "Elizabeth Blackwell",
     "wikidataId": "Q234572",
@@ -47,6 +47,17 @@
       "id": "src_blackwell_nps",
       "kind": "institution",
       "title": "U.S. National Park Service — Dr. Elizabeth Blackwell"
+    },
+    {
+      "id": "src_blackwell_nlm",
+      "kind": "institution",
+      "title": "US National Library of Medicine -- Changing the Face of Medicine: Elizabeth Blackwell",
+      "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_elizabeth_blackwell.html"
+    },
+    {
+      "id": "src_blackwell_autobiography",
+      "kind": "biography",
+      "title": "Elizabeth Blackwell, Pioneer Work in Opening the Medical Profession to Women (1895)"
     }
   ],
   "rows": {
@@ -108,10 +119,10 @@
     },
     "autonomy_need": {
       "score": 66,
-      "confidence": 0.48,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Built her own independent medical institutions rather than attempting to integrate into existing male-dominated hospital hierarchies that had already excluded her, documented via the well-established founding rationale for her infirmary."
+      "rationale": "After being rejected when she applied to work at an existing city dispensary's women's department, she independently founded her own dispensary in a rented room in 1853 rather than seeking another institutional position, growing it by 1857 into the New York Infirmary for Women and Children -- a specific, documented instance of self-directed institution-building, not inferred from general biography."
     },
     "proactive_agency": {
       "score": 68,
@@ -171,10 +182,10 @@
     },
     "adaptability": {
       "score": 56,
-      "confidence": 0.4,
-      "evidenceType": "inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "Adjusted her career path across multiple countries and institutional settings (US training, European postgraduate study, founding her own institutions) as circumstances and exclusion required."
+      "rationale": "After contracting purulent ophthalmia from a patient at La Maternite in Paris and losing sight in one eye, she abandoned her prior ambition to become a surgeon and redirected her career toward general practice and public health rather than leaving medicine -- a specific, documented career pivot in response to a real physical setback (US National Library of Medicine institutional biography)."
     },
     "deep_focus": {
       "score": 64,
@@ -192,10 +203,10 @@
     },
     "decisiveness": {
       "score": 62,
-      "confidence": 0.44,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Committed decisively to pursuing formal medical training after her friend's death, applying to dozens of schools rather than pursuing an easier alternative path, documented via the well-established account of her decision."
+      "rationale": "Applied to nearly thirty medical schools in succession after being rejected, and enrolled the moment Geneva Medical College admitted her (even though the faculty had presented her application to the student body as a joke vote expecting rejection) -- a specific, documented pattern of immediate, sustained decisive action in the face of repeated institutional rejection (US National Library of Medicine)."
     }
   },
   "provenance": {

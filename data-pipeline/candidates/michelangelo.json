@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "michelangelo",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Michelangelo",
+    "wikidataId": "Q5592",
+    "birthYear": 1475,
+    "deathYear": 1564,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "generalist",
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_michelangelo_wikipedia",
+      "kind": "wikipedia",
+      "title": "Michelangelo",
+      "url": "https://en.wikipedia.org/wiki/Michelangelo"
+    },
+    {
+      "id": "src_michelangelo_vasari",
+      "kind": "book",
+      "title": "Giorgio Vasari, Lives of the Most Excellent Painters, Sculptors, and Architects (1550/1568) -- the only artist Vasari included while still alive, the longest biography in the collection"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 92,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Vasari's biography (written and revised while Michelangelo was alive, with his direct knowledge) documents repeated, extensive reworking of major commissions -- e.g. abandoning and restarting multiple Pieta and tomb sculptures -- to standards he alone judged sufficient."
+    },
+    "cross_domain_range": {
+      "score": 95,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained, high-level output across sculpture (David, Pieta), painting (Sistine Chapel ceiling and Last Judgment), architecture (St. Peter's Basilica dome, Laurentian Library), and poetry (surviving sonnets) -- an unusually well-corroborated case of range across distinct disciplines, not merely dabbling."
+    },
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Vasari documents Michelangelo departing from established period conventions in the Sistine ceiling's composition and figure treatment, a specific, contemporaneously recorded instance of originality rather than a general reputational inference."
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented repeated conflicts with patrons (including Pope Julius II) over working conditions and creative control on major commissions suggest strong autonomy needs, inferred from the documented conflicts themselves rather than a direct statement of preference."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "The same 1506 flight-from-Rome episode is a specific, well-documented instance of sustained, high-stakes conflict with the most powerful patron of his era, not resolved by simple concession."
+    },
+    "achievement_drive": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of the largest, most prestigious commissions of his era across a nearly 70-year working life implies strong achievement drive, inferred from the documented pattern of his career choices."
+    },
+    "deep_focus": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same documented working pattern (sustained, near-continuous work sessions without normal breaks for rest or hygiene during the Sistine ceiling commission) directly evidences sustained deep concentration."
+    },
+    "detail_orientation": {
+      "score": 80,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The anatomical and compositional precision of surviving works (David, the Sistine ceiling) implies close attention to detail, inferred from the finished work rather than a documented account of his working process at that granularity."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Departing from period convention in major commissions suggests independent artistic judgment, inferred from the work itself."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "A nearly 70-year working career sustaining major physical and creative output into old age (the Rondanini Pieta was left unfinished at his death) suggests strong persistence, inferred from the career's length and continuity."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Vasari documents that during intensive work periods (including the Sistine ceiling) he sometimes slept in his clothes and boots without undressing for extended periods to avoid interrupting his work -- a specific, famous, well-corroborated anecdote of sustained behavioral discipline."
+    },
+    "aesthetic_sensitivity": {
+      "score": 90,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Universally regarded contemporaneously and since as possessing exceptional aesthetic judgment across multiple media, inferred from the consistent critical assessment of his surviving body of work rather than a single documented statement."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "In 1506, after a dispute with Pope Julius II over payment for the pope's tomb commission, Michelangelo fled Rome without permission and returned only after direct negotiation -- defying the Pope was an extraordinarily risky act for the era, extensively documented by Vasari and subsequent scholarship."
+    },
+    "social_assertiveness": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directly confronting Pope Julius II over commission terms, as documented by Vasari, suggests real assertiveness in high-stakes social situations."
+    },
+    "mastery_orientation": {
+      "score": 84,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained technical refinement visible across his body of work over decades suggests strong mastery orientation, inferred from the work itself."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented anatomical study (including dissection) to improve figural accuracy suggests real investigative curiosity beyond immediate commission requirements."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Working across sculpture, painting, and architecture with technique adapted to each suggests willingness to experiment across media."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Large-scale commissions like the Sistine ceiling required real logistical planning, inferred from the scale of the undertaking rather than a documented planning process."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Managing workshop assistants on major commissions implies some direct leadership, though Vasari's account emphasizes his individual authorship over his management style."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented preference for working largely alone (dismissing assistants on the Sistine ceiling after initial help) suggests low collaboration orientation, inferred from Vasari's specific account of this choice."
+    },
+    "adaptability": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "In his seventies, decades into an established reputation as a painter and sculptor, he took on the chief architect role for St. Peter's Basilica and fundamentally redesigned its structural plan, including the dome -- a documented, late-career shift into a substantially different discipline (architecture/structural engineering) rather than remaining within his already-mastered domains, inferred from the documented scale and timing of this career transition."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1 counterfactual test: clearly passes -- no inherited position of any kind, a stonemason's son whose reputation rests entirely on his own individually attributed work. Diversity value: only the second Renaissance-era visual artist in the roster after Leonardo da Vinci, with a genuinely distinct trait shape (higher conflict_tolerance/autonomy_need, lower collaboration than da Vinci's own profile). Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+  },
+  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial corrected-depth pass citing Vasari's Lives of the Artists from the start, then a real second round adding further specific documented facts -- the 1506 flight from Rome, sustained-work-without-sleep anecdotes, the late-career St. Peter's Basilica architectural pivot): avgConf 0.548 vs 0.55 floor, coverage 0.629 (well clear). Deliberately not forced over a 0.002 gap with a further unjustified upgrade -- the same discipline applied to Franz Kafka's 0.001 gap earlier this session. A future session finding one more genuinely strong, independently documented fact could plausibly close this very small remaining gap."
+}

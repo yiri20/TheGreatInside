@@ -24,6 +24,7 @@ import { ROSTER_2 } from "./roster2.js";
 import { ROSTER_3 } from "./roster3.js";
 import { ROSTER_4 } from "./roster4.js";
 import { ROSTER_5 } from "./roster5.js";
+import { ROSTER_6 } from "./roster6.js";
 
 const seeds: PersonSeed[] = [
   {
@@ -819,8 +820,9 @@ const ROSTER_1: readonly Person[] = seeds.map(build);
  * Phase 2 (roster 2, src/data/people/roster2.ts) for match-frequency and
  * signature-trait stress testing, plus the roster-1000 expansion batches
  * (roster 3, session 3, +16; roster 4, session 4, +16; roster 5, session 5,
- * +3). See CLAUDE.md "Seed dataset" and docs/roster-1000-checkpoint.md for
- * the current count and simulation results.
+ * +3; roster 6, session 6, +5). See CLAUDE.md "Seed dataset" and
+ * docs/roster-1000-checkpoint.md for the current count and simulation
+ * results.
  */
 export const SEED_PEOPLE: readonly Person[] = [
   ...ROSTER_1,
@@ -828,6 +830,7 @@ export const SEED_PEOPLE: readonly Person[] = [
   ...ROSTER_3,
   ...ROSTER_4,
   ...ROSTER_5,
+  ...ROSTER_6,
 ];
 
 export function personBySlug(slug: string): Person | undefined {

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "wu-zetian",
-  "status": "held",
+  "status": "qa_passed",
   "identity": {
     "canonicalName": "Wu Zetian",
     "wikidataId": "Q9738",
@@ -45,6 +45,12 @@
       "id": "src_wuzetian_history",
       "kind": "institution",
       "title": "History Hit / Cambridge History of China — Wu Zetian, the only female emperor of China"
+    },
+    {
+      "id": "src_wuzetian_origins",
+      "kind": "institution",
+      "title": "Origins: Current Events in Historical Perspective (Ohio State University / Miami University) -- Wu Zetian: The Only Woman Emperor in Chinese History",
+      "url": "https://origins.osu.edu/read/wu-zetian-woman-emperor-china"
     }
   ],
   "rows": {
@@ -99,10 +105,10 @@
     },
     "resourcefulness": {
       "score": 68,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Built political power through a position (consort, then widow) that carried no formal claim to rule, working through the existing court and bureaucratic system rather than around it, documented via the well-established institutional pathway of her rise."
+      "rationale": "Instituted the practice of ruling 'from behind a bamboo curtain' specifically to circumvent court protocol that barred women from directly holding court -- a specific, documented procedural innovation that let her exercise real power despite a structural gender barrier with no established workaround."
     },
     "persistence": {
       "score": 70,
@@ -113,17 +119,17 @@
     },
     "systems_abstraction": {
       "score": 62,
-      "confidence": 0.46,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Reformed the imperial examination system to broaden entry into the bureaucracy beyond established aristocratic families, documented via the well-established historical record of her administrative reforms during her reign."
+      "rationale": "Restructured mourning-ritual and ancestor-worship codes to require female ancestors be honored alongside male ones and mourning periods for mothers to match those for fathers -- a specific, documented systemic revision of legal/ritual code, not an isolated decision."
     },
     "adaptability": {
       "score": 60,
-      "confidence": 0.44,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Successfully operated within and eventually restructured a political system with no precedent for the role she sought, documented via the well-established, unusual pathway of her political career."
+      "rationale": "Appointed Shangguan Wan'er -- whose family Wu Zetian had previously had destroyed -- to the position of chief drafter of imperial edicts, a specific, documented instance of pragmatically adapting personnel decisions to present political needs over past personal enmity."
     },
     "autonomy_need": {
       "score": 64,
@@ -134,10 +140,10 @@
     },
     "impact_motivation": {
       "score": 56,
-      "confidence": 0.42,
-      "evidenceType": "inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "Reformed the examination system to broaden the bureaucracy's talent pool, suggesting some real orientation toward institutional/administrative improvement beyond personal power alone, though this is inferred from her governing record rather than a directly documented personal statement."
+      "rationale": "Her mourning-ritual and ancestor-worship reforms had lasting, scholarship-documented effects on the legal and customary treatment of gender in imperial China, a specific real-world impact beyond the immediate political maneuvering already scored under other attributes."
     },
     "detail_orientation": {
       "score": 58,
@@ -187,6 +193,20 @@
       "evidenceType": "inference",
       "impact": "neutral",
       "rationale": "Sustained direct administrative oversight of a complex imperial bureaucracy over decades required extended concentrated governmental attention."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sponsored the distribution of a reinterpreted Buddhist text (the Great Cloud Sutra) prophesying a female ruler as an incarnation of a bodhisattva, establishing temples empire-wide to promulgate this legitimizing narrative before her 690 accession as emperor -- a specific, scholarship-documented campaign of political persuasion/legitimation with no precedent in Chinese imperial history to draw on."
+    },
+    "opportunity_sensing": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Recognized and capitalized on the opening created by Emperor Gaozong's declining health, becoming his de facto co-ruler on administrative decisions years before his death in 684 and using that position as the foundation for her own later claim to the throne -- a specific, documented instance of recognizing and acting on a structural opportunity others in her position had not had."
     }
   },
   "provenance": {

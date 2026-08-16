@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "barbara-mcclintock",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Barbara McClintock",
+    "wikidataId": "Q199654",
+    "birthYear": 1902,
+    "deathYear": 1992,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "specialist",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mcclintock_wikipedia",
+      "kind": "wikipedia",
+      "title": "Barbara McClintock",
+      "url": "https://en.wikipedia.org/wiki/Barbara_McClintock"
+    },
+    {
+      "id": "src_mcclintock_keller",
+      "kind": "book",
+      "title": "Evelyn Fox Keller, A Feeling for the Organism: The Life and Work of Barbara McClintock (1983), based on extensive interviews with McClintock and her colleagues"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 92,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Proposed the existence of mobile genetic elements ('jumping genes', 1940s-50s) in direct contradiction to the field's prevailing model of a fixed, stable genome, documented in Keller's biography as receiving substantial skepticism and even ridicule from the mainstream genetics community for decades before general acceptance."
+    },
+    "persistence": {
+      "score": 90,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued pursuing and publishing on transposable elements for roughly three decades (1940s-1970s) despite the concept's poor initial reception, documented in Keller's biography, until the field caught up and she received the 1983 Nobel Prize -- more than 30 years after her initial description of the phenomenon."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustaining and continuing to publish a theory that drew sustained professional skepticism for decades implies real tolerance for prolonged intellectual conflict with her field, inferred from the documented multi-decade reception history in Keller's biography."
+    },
+    "autonomy_need": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "After the poor reception of her 1951 presentation on transposable elements, she largely stopped publishing on the topic in mainstream venues for years while continuing the research independently, documented in Keller's biography -- a specific pattern of self-directed continuation despite lack of institutional validation."
+    },
+    "deep_focus": {
+      "score": 88,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained, highly detailed cytogenetic mapping of maize chromosomes over decades at Cold Spring Harbor, documented via her extensive publication record, implies exceptional sustained concentration on a single research system."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rigorous original research for over three decades without the reinforcement of mainstream acceptance implies strong internally-driven achievement motivation, inferred from the documented career pattern."
+    },
+    "mastery_orientation": {
+      "score": 88,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented reputation (Keller's biography) as possessing an unusually deep, almost intuitive technical mastery of maize cytogenetics specifically, developed over decades of sustained work with a single research organism."
+    },
+    "analytical_rigor": {
+      "score": 90,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The eventual vindication and Nobel recognition of her transposable-element work implies the underlying analysis was rigorous even when the field initially rejected the conclusion, inferred from the eventual outcome rather than a documented account of her specific analytical process."
+    },
+    "curiosity": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Keller's biography documents that she pursued an anomalous, unexplained pattern in maize chromosome breakage (rather than dismissing it as experimental noise, the more common response) specifically because the pattern itself intrigued her -- a specific documented account of the discovery's origin, not a general inference about scientific curiosity."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Keller's biography documents that McClintock herself anticipated her 1951 Cold Spring Harbor presentation on transposable elements would be poorly received by the genetics establishment, and presented it anyway rather than withholding the finding -- a specific, documented instance of deliberate professional risk-taking, not an inferred general disposition."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Decades of detailed, labor-intensive cytogenetic mapping work implies sustained behavioral discipline, inferred from the nature and duration of the research program."
+    },
+    "detail_orientation": {
+      "score": 82,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Fine-grained chromosome mapping work requires close attention to detail, inferred from the technical nature of her documented research method."
+    },
+    "social_assertiveness": {
+      "score": 50,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Keller's biography documents her as more comfortable with direct research than self-promotion, but she DID continue to present and publish her findings through multiple scientific venues over decades despite the poor initial reception, suggesting real, if reluctant, capacity for public scientific assertion."
+    },
+    "collaboration": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Much of her defining research is documented as substantially solitary work at Cold Spring Harbor, suggesting a lower collaboration orientation relative to more team-structured contemporaries."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifting research emphasis and communication strategy after the 1951 reception suggests some tactical adaptability, inferred from the documented change in her publication pattern."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing novel cytogenetic staining and mapping techniques specific to maize chromosomes suggests real experimental innovation in method, inferred from the technical nature of her documented contributions."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, systematic multi-generation maize breeding experiments imply real long-horizon experimental planning, inferred from the nature of the research design."
+    },
+    "leadership_drive": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "No strong documented evidence of institutional leadership ambition; her career is consistently documented as individual-research-focused rather than administratively oriented."
+    },
+    "opportunity_sensing": {
+      "score": 65,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing the broader significance of an initially anomalous chromosome-behavior observation suggests real opportunity/pattern recognition, inferred from the documented origin of her key discovery."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Keller's biography documents her motivation as oriented primarily toward understanding the organism itself rather than toward broader external impact or recognition, a documented characterization used here at moderate, not high, confidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- no inherited position, a scientist's reputation resting entirely on her own individually credited discoveries, eventually recognized with a sole (not shared) Nobel Prize. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+  },
+  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing Evelyn Fox Keller's definitive biography, then a real second round adding the documented 1951 presentation risk and her documented scientific curiosity about the anomalous chromosome pattern): avgConf 0.505 vs 0.55 floor, coverage 0.604 (clear). Her career is unusually well-documented on the SCIENTIFIC content of her work but comparatively thin, even in Keller's biography, on many of the specific behavioral/interpersonal dimensions this taxonomy scores."
+}

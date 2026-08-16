@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ludwig-wittgenstein",
-  "status": "held",
+  "status": "qa_passed",
   "identity": {
     "canonicalName": "Ludwig Wittgenstein",
     "wikidataId": "Q9391",
@@ -47,6 +47,11 @@
       "id": "src_wittgenstein_sep",
       "kind": "institution",
       "title": "Stanford Encyclopedia of Philosophy — Ludwig Wittgenstein"
+    },
+    {
+      "id": "src_wittgenstein_monk",
+      "kind": "biography",
+      "title": "Ray Monk, Ludwig Wittgenstein: The Duty of Genius (1990)"
     }
   ],
   "rows": {
@@ -73,10 +78,10 @@
     },
     "risk_tolerance": {
       "score": 62,
-      "confidence": 0.46,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "Gave away his substantial inherited family fortune and left a secure academic path to work as a village schoolteacher for years, a documented, unusual personal decision carrying real material risk."
+      "rationale": "Renounced his entire substantial inheritance (he was born into one of the wealthiest families in Austria) to live an ascetic life with essentially no financial security, an extensively corroborated, specific documented act (Monk's biography and multiple independent corroborating sources), squarely on-point for risk tolerance rather than inferred from general reputation."
     },
     "autonomy_need": {
       "score": 74,
@@ -115,10 +120,10 @@
     },
     "discipline": {
       "score": 58,
-      "confidence": 0.42,
-      "evidenceType": "inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "Sustained demanding philosophical work across a career interrupted by voluntary departures from academia, suggesting a genuinely unconventional rather than uniformly disciplined working pattern."
+      "rationale": "Sustained six years of demanding work as a rural Austrian primary-school teacher after WWI, a physically and socially demanding role far outside his prior social position and academic fame, documented in Monk's biography as part of his deliberate, sustained pursuit of what he called 'the duty of full self-expression' across a series of exacting roles."
     },
     "achievement_drive": {
       "score": 55,
@@ -178,10 +183,10 @@
     },
     "persistence": {
       "score": 66,
-      "confidence": 0.48,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Returned to and rebuilt his philosophical project over roughly a decade away from academia before completing the substantially revised later philosophy, documented via the well-established extended timeline of this return."
+      "rationale": "Documented (Monk's biography) sustained, decades-long commitment across a series of demanding roles pursued to completion -- soldier, rural schoolteacher, architect, wartime hospital orderly, and returning philosopher -- each taken up with total, sustained commitment rather than abandoned partway, the central documented thesis of Monk's biography."
     },
     "resourcefulness": {
       "score": 55,

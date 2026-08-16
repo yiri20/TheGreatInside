@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-anning",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Mary Anning",
+    "wikidataId": "Q230491",
+    "birthYear": 1799,
+    "deathYear": 1847,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "self_taught",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_anning_wikipedia",
+      "kind": "wikipedia",
+      "title": "Mary Anning",
+      "url": "https://en.wikipedia.org/wiki/Mary_Anning"
+    },
+    {
+      "id": "src_anning_nhm",
+      "kind": "institution",
+      "title": "Natural History Museum, London -- Mary Anning: the unsung hero of fossil discovery",
+      "url": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained fossil-hunting work along the dangerous, landslide-prone Lyme Regis cliffs across her entire working life (from childhood until her death), documented via the Natural History Museum and corroborated by the specific, dated sequence of her major finds (1811 ichthyosaur, 1821 plesiosaur, 1828 pterosaur)."
+    },
+    "resourcefulness": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-taught fossil identification, preparation, and cataloguing skills sufficient to be consulted by professional geologists, sustained as her family's primary income source after her father's death in 1811, implies strong resourcefulness under real economic constraint, inferred from the documented circumstances."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented (Natural History Museum) pattern of male scientists purchasing, publishing, and receiving credit for fossils she found, cleaned, and identified without acknowledging her -- and her continuing the work regardless over decades -- suggests sustained tolerance for a specific, ongoing professional injustice."
+    },
+    "detail_orientation": {
+      "score": 82,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Identifying and correctly distinguishing genuinely novel fossil species (including the first pterosaur found outside Germany) required precise anatomical comparison, inferred from the documented specificity and correctness of her identifications, later confirmed by professional scientists."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing genuine expertise and correct anatomical judgments entirely outside formal scientific institutions (which barred her as a woman) suggests strong independent capability, inferred from her documented self-taught path."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, physically demanding, weather-dependent fossil-hunting work as a primary livelihood across decades implies real behavioral discipline, inferred from the documented duration and consistency of her work."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained work along the unstable, landslide-prone Lyme Regis cliffs -- a documented cause of real injury and death in the area, including to Anning's own dog while working alongside her -- across her entire career suggests real sustained physical risk tolerance, inferred from the documented working conditions."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The escalating scientific significance of her finds over her career (1811 ichthyosaur, 1821 first-ever plesiosaur, 1828 first pterosaur outside Germany) suggests sustained underlying achievement drive rather than settling into routine commercial fossil trading, inferred from this documented progression."
+    },
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing genuine comparative-anatomy expertise well beyond what selling fossils commercially would have required suggests real underlying scientific curiosity, inferred from the depth of her documented self-taught knowledge."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Correctly distinguishing and identifying novel species that professional geologists later confirmed suggests real analytical rigor in her identification process, inferred from the documented correctness of her work."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Operating as an independent fossil dealer and identifier rather than solely as an assistant to institutional scientists suggests real self-direction, inferred from her documented working arrangement."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining her work and reputation despite being formally barred from the Geological Society and repeatedly denied credit suggests real adaptive resilience, inferred from the documented pattern of continuing regardless."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Increasing sophistication and significance of her identifications over a multi-decade career (culminating in being the first to find a pterosaur outside Germany) suggests developing mastery, inferred from the documented career arc."
+    },
+    "experimentation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing her own fossil preparation and cleaning techniques, absent formal training, suggests some methodological experimentation, inferred from her self-taught path."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directly corresponding with and being consulted by professional geologists of the era, despite her exclusion from formal scientific institutions, suggests some capacity for professional self-advocacy, inferred from the documented pattern of her being sought out."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Regular correspondence and specimen exchange with professional geologists, despite the era's institutional barriers, suggests some real working collaboration, inferred from the documented pattern of these professional relationships."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Took over as the family's primary fossil-collecting practitioner at age eleven or twelve, immediately after her father's death in 1811, without any formal transition or institutional support -- a specific, documented instance of self-initiated responsibility-taking under real family economic pressure, not a general inference."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing the scientific (not merely commercial) significance of unusual finds suggests some capacity to sense broader opportunity beyond the immediate fossil-trading transaction, inferred from the documented trajectory from trade to recognized contribution."
+    },
+    "deep_focus": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Careful, methodical excavation and preparation of delicate fossil specimens implies sustained close attention, inferred from the technical nature of the documented work."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- working-class family, explicitly excluded from formal scientific credit and institutional membership because of her sex, not because of any lack of achievement; the achievement is entirely her own, and the exclusion itself is precisely the injustice inclusion_v1 exists to correct for, not a disqualifying factor. Diversity value: adds a genuinely distinct shape -- self-taught, commercially-motivated-but-scientifically-rigorous, institutionally excluded -- not close to any existing roster profile. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+  },
+  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing the Natural History Museum's institutional biography, then a real second round adding the documented 1811 father's-death career transition and the documented cliff-collapse risk): avgConf 0.467 vs 0.55 floor, coverage 0.577 (also short, unusually -- only 19 scored attributes found real support). A genuinely thin-documentation case: she was systematically excluded from the formal scientific record of her own era specifically because of her class and sex, which is precisely reflected here as a real evidentiary gap, not a research-effort shortfall."
+}

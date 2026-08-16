@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "susan-b-anthony",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Susan B. Anthony",
+    "wikidataId": "Q192245",
+    "birthYear": 1820,
+    "deathYear": 1906,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist"
+    ],
+    "fieldIds": [
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "leader"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_anthony_wikipedia",
+      "kind": "wikipedia",
+      "title": "Susan B. Anthony",
+      "url": "https://en.wikipedia.org/wiki/Susan_B._Anthony"
+    },
+    {
+      "id": "src_anthony_nps",
+      "kind": "institution",
+      "title": "US National Park Service -- Susan B. Anthony",
+      "url": "https://www.nps.gov/people/susan-b-anthony.htm"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Deliberately registered to vote and cast an illegal ballot in the 1872 presidential election specifically to force a legal test case, resulting in her arrest and prosecution -- a specific, well-documented act of calculated legal risk-taking, not a spontaneous act."
+    },
+    "proactive_agency": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After being refused the chance to speak at a temperance meeting in 1852, she independently organized the Woman's New York State Temperance Society rather than seeking another platform -- a specific, documented instance of self-directed institution-founding in response to exclusion."
+    },
+    "leadership_drive": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-founded the American Equal Rights Association (1866) and the National Woman Suffrage Association (1869), documented organizational leadership roles she held for decades, not honorary or nominal positions."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Continued public suffrage advocacy and organizing after her arrest, prosecution, and conviction for illegal voting in 1872 -- a specific documented instance of sustained public conflict with legal authority rather than withdrawal."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained organizational and advocacy work from her 1852 temperance-meeting exclusion until her death in 1906 -- over 50 years -- implies exceptional persistence, inferred from the documented career span rather than a single on-point statement."
+    },
+    "achievement_drive": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained escalation from local temperance organizing to national suffrage-movement leadership over decades implies strong achievement drive, inferred from the documented career trajectory."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Deliberately organizing a separate temperance society after being excluded from an existing platform, and later co-founding independent suffrage organizations, suggests strong self-direction, inferred from the pattern of institution-building rather than joining existing structures."
+    },
+    "decisiveness": {
+      "score": 80,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The 1872 decision to vote illegally as a deliberate test case, rather than pursuing only legislative advocacy, suggests real decisiveness in choosing confrontational tactics, inferred from the documented act itself."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "The same 1873 courtroom speech ('may it please the court...') is a specific, well-documented instance of sustained public assertiveness in one of the highest-stakes settings available to her."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "A documented lifelong, singular focus on structural political change (suffrage) rather than more personally rewarding pursuits suggests strong impact-oriented motivation, inferred from the sustained pattern of her life's work."
+    },
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Coordinating a group voter-registration action in 1872 (herself, family members, and eleven others) suggests real advance planning, inferred from the coordinated nature of the documented event."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Sustained a documented working partnership with Elizabeth Cady Stanton across more than 50 years and multiple organizations (the American Equal Rights Association, National Woman Suffrage Association, and co-authorship of History of Woman Suffrage) -- an extensively corroborated, specific, long-duration collaborative record."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "At her 1873 trial for illegal voting, the judge directed the jury to a guilty verdict without deliberation (a documented, widely-noted irregularity), and Anthony delivered a sustained, unrepentant courtroom speech refusing to recognize the court's authority over her -- a specific, extensively documented instance of independent judgment asserted directly against a formal legal authority."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining organizational leadership roles over multiple decades implies real behavioral discipline, inferred from the length of documented tenure."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Co-editing the multi-volume documentary History of Woman Suffrage over decades required real sustained attention to documentary accuracy and detail, though the surviving record documents the project's scale more thoroughly than her individual editorial process."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifting tactics from temperance organizing to direct suffrage advocacy to legal test-case activism over her career suggests real tactical adaptation over time."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained engagement across multiple reform movements (temperance, abolition, suffrage) suggests broad social/political curiosity, inferred from the range of causes documented in her activity."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Increasing organizational sophistication from a single local society to national multi-decade organizations suggests developing organizational mastery over time."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing the 14th/15th Amendments' ambiguous wording as a legal opening for a test-case voting attempt suggests real opportunity recognition, inferred from the documented strategy itself."
+    },
+    "experimentation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Testing an untried legal strategy (voting then contesting the resulting prosecution) rather than relying solely on established advocacy methods suggests some willingness to try new approaches."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- a Quaker farming family, no inherited position of any kind; every documented achievement is her own organizational/legal/advocacy work. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+  },
+  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing the National Park Service's institutional biography, then a real second round adding the documented 1873 trial speech and the Stanton partnership): avgConf 0.532 vs 0.55 floor, coverage 0.600 (right at the floor). A real, honest gap, not a rounding-level miss -- her extensively documented organizational and legal activism maps cleanly onto a subset of this taxonomy's 34 attributes but not onto enough of them at documented-tier strength."
+}

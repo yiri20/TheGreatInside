@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "frederick-sanger",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Frederick Sanger",
+    "wikidataId": "Q151564",
+    "birthYear": 1918,
+    "deathYear": 2013,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "specialist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sanger_wikipedia",
+      "kind": "wikipedia",
+      "title": "Frederick Sanger",
+      "url": "https://en.wikipedia.org/wiki/Frederick_Sanger"
+    },
+    {
+      "id": "src_sanger_royalsociety",
+      "kind": "institution",
+      "title": "George G. Brownlee, Frederick Sanger CBE CH OM, Biographical Memoirs of Fellows of the Royal Society 61 (2015)",
+      "url": "https://royalsocietypublishing.org/rsbm/article/61/1/437/63868/Frederick-Sanger-CBE-CH-OM-13-August-1918-19"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 92,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The only person to have won the Nobel Prize in Chemistry twice (1958 for protein sequencing, 1980 for nucleic-acid sequencing), documented in the Royal Society's own biographical memoir -- a specific, precisely dated, doubly-verified record of sustained top-tier technical achievement across two distinct methodological breakthroughs decades apart."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, methodologically distinct sequencing research across more than three decades of his career (protein sequencing methods developed through the 1950s, nucleic-acid sequencing developed through the 1970s), documented in the Royal Society memoir, rather than resting on a single early breakthrough."
+    },
+    "analytical_rigor": {
+      "score": 90,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developing two independent, field-defining sequencing methodologies that both withstood rigorous scientific scrutiny and won separate Nobel recognitions implies exceptional analytical rigor, inferred from the documented dual outcome rather than a specific account of his working process."
+    },
+    "deep_focus": {
+      "score": 86,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Spending his entire academic career at Cambridge focused on sequencing methodology specifically, documented in the Royal Society memoir, implies sustained deep focus on a coherent research problem across decades rather than broad, scattered interests."
+    },
+    "experimentation": {
+      "score": 85,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Independently developing two methodologically distinct sequencing techniques (protein, then nucleic acid) rather than only refining his first method implies real experimental range and willingness to develop genuinely new approaches, inferred from the documented dual achievement."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, methodical laboratory work across decades on technically demanding sequencing problems implies real behavioral discipline, inferred from the documented career pattern."
+    },
+    "detail_orientation": {
+      "score": 86,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Protein and nucleic-acid sequencing both require exceptionally precise, granular technical work, implying strong attention to detail, inferred from the technical nature of the documented achievements."
+    },
+    "perfectionism": {
+      "score": 76,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing two separate methods each precise and reliable enough to become field-standard techniques suggests real perfectionism in method development, inferred from the documented rigor required for both to be adopted broadly."
+    },
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Moving into a substantially different technical domain (nucleic acids rather than proteins) after already achieving the field's highest recognition, rather than remaining within his established area of expertise, suggests strong underlying scientific curiosity beyond career incentive, inferred from the documented shift."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing sequencing methods that were not straightforward extensions of prevailing techniques suggests independent technical judgment, inferred from the documented novelty of both breakthroughs."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained work on self-directed long-term methodology development, documented as his career-long focus at Cambridge, suggests moderate autonomy orientation."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Successfully shifting his technical focus from protein to nucleic-acid sequencing across his career suggests real adaptability, inferred from the documented career transition."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Pursuing and achieving a second, methodologically independent Nobel-recognized breakthrough after the first suggests sustained internally-driven achievement motivation rather than resting on established success, a stronger inference than a single documented statement but grounded directly in the documented dual-Nobel record itself."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Royal Society memoir documents a research career centered on his own laboratory's technical development rather than large-scale collaborative projects, suggesting a moderate, not high, collaboration orientation for his defining work."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing complex multi-step sequencing methodologies implies real systematic planning of technical approach, inferred from the nature of the documented methods."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developing a generalizable sequencing methodology (rather than a one-off solution for a specific molecule) implies real structural/systematic thinking, inferred from the broad subsequent applicability of his documented methods."
+    },
+    "social_assertiveness": {
+      "score": 42,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Royal Society memoir and other biographical accounts consistently describe him as notably modest and reserved rather than self-promoting, a documented characterization used here at moderate confidence."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Deliberately shifting his research focus to nucleic-acid sequencing after already achieving major recognition (and a Nobel Prize) in protein sequencing -- a technically distinct and initially uncertain domain -- risked his established reputation on an unproven new direction, inferred from the documented career pivot rather than a specific first-person account of the decision."
+    },
+    "leadership_drive": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Biographical accounts document him as primarily bench-research-focused throughout his career rather than pursuing senior administrative or institutional leadership roles."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing nucleic-acid sequencing as the next major open technical problem after his protein-sequencing success suggests real opportunity recognition, inferred from the documented career progression."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- a physician's son, no inherited position; both Nobel Prizes credited to his own individual technical achievement. Diversity value: the roster's first double Nobel laureate and a genuinely distinct \"quiet, methodical, twice-successful specialist\" shape distinct from the roster's other Nobel-laureate scientists. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+  },
+  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing his Royal Society biographical memoir, then a real second round adding the documented career-risk of his mid-career pivot to nucleic-acid sequencing): avgConf 0.476 vs 0.55 floor, coverage 0.607 (clear). Documented as personally reserved and non-self-promoting even in his own institutional memoir -- the record is unusually strong on his scientific achievements and unusually thin on personal/interpersonal behavioral evidence."
+}

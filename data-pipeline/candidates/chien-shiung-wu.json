@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "chien-shiung-wu",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Chien-Shiung Wu",
+    "wikidataId": "Q450317",
+    "birthYear": 1912,
+    "deathYear": 1997,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN",
+      "US"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "specialist",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_wu_wikipedia",
+      "kind": "wikipedia",
+      "title": "Chien-Shiung Wu",
+      "url": "https://en.wikipedia.org/wiki/Chien-Shiung_Wu"
+    },
+    {
+      "id": "src_wu_ahf",
+      "kind": "institution",
+      "title": "Atomic Heritage Foundation -- Chien-Shiung Wu",
+      "url": "https://ahf.nuclearmuseum.org/ahf/profile/chien-shiung-wu/"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 94,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Designed and executed the 1956 cobalt-60 beta-decay experiment (at near-absolute-zero temperatures) that definitively disproved the assumed conservation of parity, a specific, precisely dated, technically demanding experimental achievement documented via the Atomic Heritage Foundation and the broader physics-history record, later winning Lee and Yang the 1957 Nobel Prize based directly on her experimental confirmation."
+    },
+    "mastery_orientation": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Recognized specifically for her expertise in beta-decay experimentation -- the reason Lee and Yang sought her out by name in 1956 to test their theory -- a documented, specific instance of recognized technical mastery in a defined subfield, not a general reputation."
+    },
+    "experimentation": {
+      "score": 88,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented contributions during the Manhattan Project (developing improved Geiger counter methods, identifying the specific cause of xenon poisoning that had shut down the Hanford B Reactor's plutonium production) show a sustained pattern of solving concrete experimental/technical problems, inferred from the documented range of her wartime contributions."
+    },
+    "detail_orientation": {
+      "score": 86,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Designing an experiment sensitive enough to detect a subtle asymmetry at near-absolute-zero temperatures required exceptional experimental precision, inferred from the technical demands of the documented parity experiment."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustaining a demanding experimental physics career across the Manhattan Project, the parity experiment, and subsequent decades of beta-decay research implies real persistence, inferred from the documented span of her research career."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Continuing her research career and later repeatedly, publicly advocating for recognition of her uncredited role in the parity-violation discovery (for which Lee and Yang alone received the 1957 Nobel Prize) suggests sustained tolerance for a specific, ongoing professional grievance, inferred from the documented pattern of her later advocacy."
+    },
+    "achievement_drive": {
+      "score": 84,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of technically demanding experimental physics across a career spanning the Manhattan Project through major independent beta-decay research implies strong achievement drive, inferred from the documented range and difficulty of her research program."
+    },
+    "discipline": {
+      "score": 80,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The parity experiment's technical demands (maintaining near-absolute-zero conditions for precise measurement) imply real sustained experimental discipline, inferred from the documented difficulty of the method."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Independently identifying xenon poisoning as the specific cause of the Hanford B Reactor's plutonium-production shutdown, when the cause was not initially apparent to the broader Manhattan Project team, suggests independent analytical judgment beyond her assigned role, inferred from the documented account of this contribution."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Agreeing to design and personally execute an experiment intended to test -- and potentially overturn -- a long-assumed fundamental symmetry of physics carried real professional risk if the experiment had failed or been ambiguous, inferred from the documented stakes and technical difficulty of the 1956 parity experiment."
+    },
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Willingness to take on a technically novel experimental challenge outside her established beta-decay work suggests real underlying scientific curiosity, inferred from the documented circumstances of being asked to design the parity experiment."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Designing and independently executing the specific technical approach for the parity experiment, rather than following a prescribed method, suggests real self-direction, inferred from the documented account of the experiment's design."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Working directly with theoretical physicists Lee and Yang to translate their theoretical prediction into a testable experiment implies real collaborative capacity across the theory/experiment divide, inferred from the documented working relationship."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Later publicly and repeatedly advocating for recognition of her uncredited role in the parity discovery suggests real willingness to assert her own professional standing, inferred from the documented pattern of this advocacy."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Successfully transitioning from Manhattan Project engineering-adjacent problem-solving to fundamental-physics experimental design suggests real adaptability across different types of technical work."
+    },
+    "deep_focus": {
+      "score": 76,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, precise experimental work at extreme temperature conditions implies real sustained concentration, inferred from the technical demands of the documented experiment."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Designing a novel experimental apparatus to test a specific theoretical prediction implies real methodical planning, inferred from the documented technical complexity of the parity experiment's design."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Identifying and reporting the xenon-poisoning cause of the Hanford reactor shutdown, beyond her formally assigned task, suggests self-initiated problem-solving, inferred from the documented account of this contribution."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Being specifically sought out by Lee and Yang due to her recognized specialized expertise suggests she had built a reputation others recognized as uniquely positioned to solve the problem, inferred from the documented reason she was approached."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Biographical accounts document her career as primarily focused on her own experimental research rather than institutional administrative leadership, though she later held named professorships."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- no inherited position; her scientific reputation rests entirely on her own individually credited experimental work, most notably the parity experiment (for which she was controversially NOT awarded a share of the resulting 1957 Nobel Prize -- documented and referenced here factually, not as grounds for a higher score, per this project's own \"never rig results\" rule). Diversity value: the roster's first Chinese-American physicist and a distinctive \"the experimentalist whose confirmation work was Nobel-worthy but uncredited\" shape. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+  },
+  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing the Atomic Heritage Foundation, then a real second round adding the documented xenon-poisoning independent-discovery episode and her later advocacy for Nobel-credit recognition): avgConf 0.465 vs 0.55 floor, coverage 0.604 (clear). Similar to Sanger and Champollion, the record documents her scientific achievements (the parity experiment, the Manhattan Project contributions) far more thoroughly than personal/interpersonal behavioral evidence."
+}

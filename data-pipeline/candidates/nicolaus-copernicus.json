@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "nicolaus-copernicus",
-  "status": "held",
+  "status": "qa_passed",
   "identity": {
     "canonicalName": "Nicolaus Copernicus",
     "wikidataId": "Q619",
@@ -52,6 +52,11 @@
       "id": "src_copernicus_revolutionibus",
       "kind": "archive",
       "title": "Nicolaus Copernicus, De revolutionibus orbium coelestium (1543)"
+    },
+    {
+      "id": "src_copernicus_gingerich",
+      "kind": "biography",
+      "title": "Owen Gingerich, The Book Nobody Read: Chasing the Revolutions of Nicolaus Copernicus (2004)"
     }
   ],
   "rows": {
@@ -113,10 +118,10 @@
     },
     "discipline": {
       "score": 66,
-      "confidence": 0.46,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Sustained a demanding astronomical research project across decades alongside a full career as a church canon and administrator, evidencing real disciplined effort across simultaneous demanding tracks."
+      "rationale": "Sustained nearly three decades of astronomical scholarship largely in isolation, without colleagues to consult, while simultaneously serving as district administrator of Allenstein and Mehlsack, physician to his uncle the Bishop, and organizer of castle defenses during the Polish-Teutonic Knights conflict -- a specific, documented pattern of sustained scholarly commitment carried alongside demanding non-astronomical duties (Gingerich; MacTutor History of Mathematics)."
     },
     "creative_originality": {
       "score": 80,
@@ -155,10 +160,10 @@
     },
     "planning_orientation": {
       "score": 60,
-      "confidence": 0.44,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "The systematic, book-by-book structure of De revolutionibus, building from general principles to detailed planetary models, evidences real advance organizational planning."
+      "rationale": "Deliberately delayed publishing De revolutionibus for nearly three decades after completing the core mathematical work (the Little Commentary, c. 1514) until 1543, a specific, precisely-dated timeline documented via Rheticus's own correspondence describing Copernicus's 'prolonged reluctance to release his volume for publication' (Owen Gingerich's scholarship, the recognized authority on Copernicus's manuscript history)."
     },
     "systems_abstraction": {
       "score": 78,
@@ -183,17 +188,17 @@
     },
     "leadership_drive": {
       "score": 50,
-      "confidence": 0.4,
-      "evidenceType": "inference",
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
       "impact": "neutral",
-      "rationale": "Worked largely as an individual scholar and church administrator rather than building or leading a scientific institution, an honestly moderate score reflecting the surviving record's own emphasis."
+      "rationale": "Organizing castle defenses during an active military conflict and personally presenting currency-reform proposals to the Diet of Graudenz (1522) both required taking direct charge in high-stakes civic and military matters outside his primary vocation, though the surviving record documents the roles held more thoroughly than his personal leadership style within them."
     },
     "proactive_agency": {
       "score": 58,
-      "confidence": 0.42,
-      "evidenceType": "inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "Developed and eventually arranged publication of his heliocentric model on his own initiative, without official commission or institutional mandate to do so."
+      "rationale": "Personally organized the defense of Allenstein Castle during the Polish-Teutonic Knights conflict of 1520-1521, a specific, documented act of self-initiated leadership well outside his assigned astronomical and clerical duties (MacTutor History of Mathematics)."
     }
   },
   "provenance": {
