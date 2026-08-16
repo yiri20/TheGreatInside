@@ -107,7 +107,7 @@ unchanged and remain valid as historical context.
     historiographic-bias recheck. Verdict: REVISE MODEL B (Decision C).
     No roster growth, no production code change, per the session's own
     validation-only mandate.
-11. Session 10 (this session's commit(s) — see end of session) —
+11. Session 10 (`3aa1fd8`) —
     implemented session 9's validated hybrid design as `eligibility_v2`
     in production (`src/core/matching/similarity.ts`), after
     independently reproducing the exact predicted result first. Added
