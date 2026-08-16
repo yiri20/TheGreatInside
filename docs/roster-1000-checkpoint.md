@@ -91,7 +91,7 @@ analysis, exactly as scoped.
    methodology change is recommended (not implemented this session —
    deferred to a future reviewed session, per the audit's own scope).
    **Superseded by session 9 — see below.**
-10. Session 9 (this session's commit(s) — see end of session) — a final
+10. Session 9 (`3a45b25`) — a final
     out-of-sample validation of session 8's Model B, ordered specifically
     because session 8 calibrated its thresholds to preserve the trusted
     74, which is not an independent ground truth. Found session 8's exact
