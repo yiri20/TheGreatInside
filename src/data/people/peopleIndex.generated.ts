@@ -697,6 +697,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6395652173913043,
     attributes: [["curiosity", 88, 0.75, "advantage"], ["analytical_rigor", 90, 0.8, "advantage"], ["intuitive_synthesis", 94, 0.82, "advantage"], ["systems_abstraction", 92, 0.8, "advantage"], ["independent_thinking", 86, 0.72, "advantage"], ["belief_updating", 26, 0.72, "risk"], ["creative_originality", 90, 0.78, "advantage"], ["experimentation", 42, 0.5, "neutral"], ["cross_domain_range", 55, 0.45, "neutral"], ["discipline", 85, 0.7, "advantage"], ["deep_focus", 82, 0.68, "advantage"], ["execution_speed", 88, 0.75, "advantage"], ["planning_orientation", 65, 0.52, "neutral"], ["persistence", 88, 0.72, "advantage"], ["risk_tolerance", 68, 0.52, "advantage"], ["social_assertiveness", 62, 0.5, "neutral"], ["collaboration", 55, 0.45, "neutral"], ["persuasiveness", 68, 0.55, "advantage"], ["conflict_tolerance", 78, 0.65, "risk"], ["mastery_orientation", 82, 0.65, "advantage"], ["autonomy_need", 70, 0.55, "advantage"], ["impact_motivation", 70, 0.55, "advantage"], ["proactive_agency", 74, 0.58, "advantage"]],
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/1/11/Albert_Einstein_photo_1921.jpg",
   },
   {
     id: "p_charles_darwin",
@@ -716,6 +717,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.65,
     attributes: [["curiosity", 92, 0.85, "advantage"], ["analytical_rigor", 84, 0.72, "advantage"], ["intuitive_synthesis", 76, 0.62, "advantage"], ["systems_abstraction", 88, 0.75, "advantage"], ["independent_thinking", 78, 0.65, "advantage"], ["belief_updating", 78, 0.68, "advantage"], ["creative_originality", 84, 0.7, "advantage"], ["experimentation", 82, 0.68, "advantage"], ["cross_domain_range", 86, 0.7, "advantage"], ["discipline", 88, 0.75, "advantage"], ["deep_focus", 80, 0.65, "advantage"], ["persistence", 88, 0.75, "advantage"], ["risk_tolerance", 32, 0.62, "risk"], ["planning_orientation", 76, 0.62, "advantage"], ["adaptability", 68, 0.55, "advantage"], ["ambiguity_tolerance", 80, 0.65, "advantage"], ["social_assertiveness", 32, 0.55, "neutral"], ["collaboration", 82, 0.7, "advantage"], ["conflict_tolerance", 30, 0.55, "risk"], ["mastery_orientation", 85, 0.7, "advantage"], ["autonomy_need", 58, 0.48, "neutral"], ["resourcefulness", 62, 0.48, "neutral"], ["competitiveness", 28, 0.55, "advantage"]],
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Charles_Darwin_01.jpg",
   },
   {
     id: "p_ernest_shackleton",
@@ -830,6 +832,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.693846153846154,
     attributes: [["curiosity", 92, 0.88, "advantage"], ["analytical_rigor", 96, 0.9, "advantage"], ["intuitive_synthesis", 85, 0.75, "advantage"], ["systems_abstraction", 94, 0.85, "advantage"], ["independent_thinking", 88, 0.78, "advantage"], ["belief_updating", 34, 0.62, "risk"], ["creative_originality", 90, 0.8, "advantage"], ["experimentation", 84, 0.72, "advantage"], ["cross_domain_range", 74, 0.6, "advantage"], ["discipline", 90, 0.8, "advantage"], ["deep_focus", 92, 0.8, "advantage"], ["detail_orientation", 78, 0.62, "advantage"], ["perfectionism", 62, 0.5, "dual_edged"], ["execution_speed", 72, 0.58, "neutral"], ["planning_orientation", 68, 0.55, "advantage"], ["persistence", 90, 0.78, "advantage"], ["adaptability", 66, 0.55, "advantage"], ["social_assertiveness", 38, 0.5, "neutral"], ["collaboration", 22, 0.75, "risk"], ["leadership_drive", 78, 0.68, "advantage"], ["conflict_tolerance", 82, 0.7, "risk"], ["mastery_orientation", 88, 0.72, "advantage"], ["competitiveness", 85, 0.78, "risk"], ["autonomy_need", 82, 0.68, "advantage"], ["resourcefulness", 68, 0.55, "advantage"], ["proactive_agency", 76, 0.6, "advantage"]],
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sir_Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt_%28cropped%29.jpg",
   },
   {
     id: "p_jane_austen",
@@ -1039,6 +1042,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5535,
     attributes: [["analytical_rigor", 90, 0.75, "advantage"], ["persistence", 84, 0.68, "advantage"], ["resourcefulness", 78, 0.62, "advantage"], ["creative_originality", 86, 0.7, "advantage"], ["systems_abstraction", 84, 0.68, "advantage"], ["risk_tolerance", 62, 0.48, "neutral"], ["discipline", 78, 0.6, "advantage"], ["mastery_orientation", 76, 0.58, "advantage"], ["collaboration", 62, 0.46, "neutral"], ["achievement_drive", 68, 0.5, "advantage"], ["independent_thinking", 70, 0.52, "advantage"], ["curiosity", 64, 0.46, "neutral"], ["detail_orientation", 60, 0.44, "neutral"], ["cross_domain_range", 72, 0.6, "advantage"], ["deep_focus", 76, 0.58, "advantage"], ["social_assertiveness", 60, 0.46, "neutral"], ["autonomy_need", 66, 0.5, "advantage"], ["adaptability", 62, 0.5, "advantage"], ["impact_motivation", 58, 0.44, "advantage"], ["proactive_agency", 64, 0.52, "advantage"]],
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Noether_retusche_nachcoloriert.jpg",
   },
   {
     id: "p_fela_kuti",

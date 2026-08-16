@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jomo-kenyatta",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Jomo Kenyatta",
+    "wikidataId": "Q173563",
+    "birthYear": 1897,
+    "deathYear": 1978,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "KE"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "scholar"
+    ],
+    "fieldIds": [
+      "politics",
+      "anthropology"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "founder",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_kenyatta_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jomo Kenyatta",
+      "url": "https://en.wikipedia.org/wiki/Jomo_Kenyatta"
+    },
+    {
+      "id": "src_kenyatta_facingmountkenya",
+      "kind": "biography",
+      "title": "Jomo Kenyatta, Facing Mount Kenya (1938)"
+    },
+    {
+      "id": "src_kenyatta_presidentiallibrary",
+      "kind": "institution",
+      "title": "Kenya Presidential Library & Museum -- Arrest, trial and detention",
+      "url": "https://www.presidentiallibrary.go.ke/arrest-trial-and-detention"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Studied anthropology under Bronislaw Malinowski at the London School of Economics and produced Facing Mount Kenya (1938), a documented ethnographic study of the Kikuyu people written from an unusual insider-scholar position -- a specific, dated, extensively documented scholarly achievement."
+    },
+    "conflict_tolerance": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Convicted at the 1952-53 Kapenguria trial and imprisoned for nine years based on testimony later shown (and acknowledged by later historians) to have been false, and consistently protested his innocence throughout -- a specific, extensively documented, multi-year sustained ordeal."
+    },
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Led the Kenya African Union before his imprisonment and, after release, became Kenya's first Prime Minister then President, inferred as sustained leadership drive from the documented sequence of these roles."
+    },
+    "belief_updating": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented pursuit of a policy of reconciliation with the former colonial administration after independence, rather than retribution, despite his own years of imprisonment under that same administration -- inferred as a real, substantial shift from adversarial to conciliatory posture."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustaining nine years of imprisonment and continued political relevance/leadership afterward implies real persistence, inferred from the documented length of his imprisonment and subsequent political career."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Completing a rigorous doctoral-level anthropological study under a demanding academic supervisor implies real behavioral discipline, inferred from the documented scholarly achievement."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursuing formal anthropological training in London to study his own community's traditions suggests real intellectual curiosity, inferred from the documented unusual nature of that scholarly choice."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained leadership of the Kenya African Union prior to any formal government position implies self-initiated political agency, inferred from the documented organizational role."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained public political leadership across decades implies real social assertiveness, inferred from the documented scope of his public role."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained political ambition across imprisonment and eventual rise to the presidency implies strong achievement drive, inferred from the documented career arc."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Successfully transitioning from imprisoned political detainee to national president within a few years implies real adaptability, inferred from the documented speed of that transition."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursuing formal Western anthropological training to document and defend his own community's traditions represents an unconventional strategic choice, suggesting real independent judgment, inferred from the documented unusual nature of that path."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining a multi-year political and legal strategy to secure Kenyan independence and later to govern the new state implies real methodical planning, inferred from the documented scale of these undertakings."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Completing a rigorous ethnographic study (Facing Mount Kenya) under academic supervision implies real attention to scholarly detail, inferred from the documented nature of that work."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Governing through a coalition administration after independence, including the documented reconciliation policy toward former colonial administrators, implies real collaborative capacity, inferred from the documented nature of his post-independence governance."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining political leadership of an anti-colonial movement in a period when such leadership carried real risk of imprisonment (as ultimately occurred) implies real risk tolerance, inferred from the documented consequences of his political activity."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing the post-imprisonment political opening to pursue reconciliation rather than retribution, and to lead the new nation, suggests real opportunity/timing recognition, inferred from the documented outcome."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursuing an independent scholarly and later political path distinct from more conventional colonial-era career options for a Kikuyu man of his generation suggests real self-direction, inferred from the documented unconventional nature of his path."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- no inherited position; his scholarly and political achievements are his own. Safety note: the Kapenguria conviction is described factually per the well-documented historical record (including the later-acknowledged false testimony), not framed as either a moral verdict on him or a claim about the colonial administration beyond what is directly documented."
+  },
+  "holdReason": "Held after a genuine source-first research/scoring pass this session (citing Facing Mount Kenya and the Kenya Presidential Library's own account of the Kapenguria trial): avgConf 0.441 vs 0.55 floor, coverage 0.542 vs 0.6 floor. The Kapenguria trial and post-independence reconciliation policy are strongly documented, but much of his personal working/leadership style beyond these two major documented episodes remains comparatively thin in the sources consulted this session."
+}

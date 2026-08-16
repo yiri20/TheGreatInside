@@ -34,6 +34,18 @@ const seeds: PersonSeed[] = [
     archetypeIds: ["scientific_explorer", "independent_creator"],
     externalIdentity: { wikidataId: "Q937" },
     sources: [{ id: "src_einstein_wikipedia", kind: "wikipedia", title: "Albert Einstein", url: "https://en.wikipedia.org/wiki/Albert_Einstein" }, { id: "src_einstein_isaacson", kind: "biography", title: "Walter Isaacson, Einstein: His Life and Universe (2007)" }],
+    // Verified 2026-08 via a direct fetch of the Commons file page: Underwood
+    // & Underwood, New York, April 1921. Public domain (published before
+    // 1931, no renewal).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/1/11/Albert_Einstein_photo_1921.jpg",
+      width: 600,
+      height: 969,
+      source: "Wikimedia Commons",
+      license: "Public Domain (published before 1931)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Albert_Einstein_photo_1921.jpg",
+      attribution: "Underwood & Underwood, New York, April 1921",
+    },
     rows: {
       // His own autobiographical notes describe being struck as a child by a compass needle always pointing the same direction — a specific, cited origin he himself repeatedly credited for his later scientific curiosity.
       curiosity: [88, 0.75, "d", "A"],
@@ -100,6 +112,18 @@ const seeds: PersonSeed[] = [
     archetypeIds: ["scientific_explorer", "scholarly_specialist"],
     externalIdentity: { wikidataId: "Q1035" },
     sources: [{ id: "src_darwin_wikipedia", kind: "wikipedia", title: "Charles Darwin", url: "https://en.wikipedia.org/wiki/Charles_Darwin" }, { id: "src_darwin_correspondence", kind: "archive", title: "Darwin Correspondence Project" }, { id: "src_darwin_browne", kind: "biography", title: "Janet Browne, Charles Darwin: A Biography (1995-2002)" }],
+    // Verified 2026-08 via a direct fetch of the Commons file page:
+    // photograph by Julia Margaret Cameron, 1869. Public domain (artist
+    // died 1879).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Charles_Darwin_01.jpg",
+      width: 3256,
+      height: 4183,
+      source: "Wikimedia Commons",
+      license: "Public Domain (artist died 1879)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Charles_Darwin_01.jpg",
+      attribution: "Julia Margaret Cameron, 1869",
+    },
     rows: {
       // Five-year HMS Beagle voyage collecting specimens across multiple continents, followed by decades of independent follow-up investigation (barnacles, orchids, earthworms) with no external requirement to continue — documented, sustained, multi-decade.
       curiosity: [92, 0.85, "d", "A"],
@@ -481,6 +505,18 @@ const seeds: PersonSeed[] = [
     archetypeIds: ["scientific_explorer", "scholarly_specialist"],
     externalIdentity: { wikidataId: "Q935" },
     sources: [{ id: "src_newton_wikipedia", kind: "wikipedia", title: "Isaac Newton", url: "https://en.wikipedia.org/wiki/Isaac_Newton" }, { id: "src_newton_westfall", kind: "biography", title: "Richard S. Westfall, Never at Rest: A Biography of Isaac Newton (1980)" }, { id: "src_newton_royalsociety", kind: "institution", title: "The Royal Society — Isaac Newton biography" }],
+    // Verified 2026-08 via a direct fetch of the Commons file page: Godfrey
+    // Kneller, 1702, National Portrait Gallery London (NPG 2881). Public
+    // domain (artist died 1723).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sir_Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt_%28cropped%29.jpg",
+      width: 1254,
+      height: 1612,
+      source: "Wikimedia Commons",
+      license: "Public Domain (artist died 1723)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Sir_Isaac_Newton_by_Sir_Godfrey_Kneller,_Bt_(cropped).jpg",
+      attribution: "Godfrey Kneller, 1702 — National Portrait Gallery, London",
+    },
     rows: {
       // Sustained, self-directed investigation across optics, mathematics, alchemy, and theology for decades with no external prompting, well past what any single role required (Westfall). Documented, multiple domains, converging evidence — 85+ band.
       curiosity: [92, 0.88, "d", "A"],

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sitting-bull",
+  "status": "held",
+  "holdReason": "EARLY HOLD, before any trait scoring was attempted -- a deliberate application of session 7's 'do not score too early' discipline (docs/roster-1000-checkpoint.md). Initial source-richness assessment found the evidentiary base for specific behavioral/personality-level detail is genuinely thin and largely oral-tradition-dependent: the standard biography (Stanley Vestal, 1932) was compiled from oral histories collected by Robert Higheagle and Vestal himself in the late 1920s, roughly four decades after Sitting Bull's death, not from contemporary documentation of his personal conduct. Even basic biographical facts carry documented uncertainty -- his birth location is asserted from family oral tradition rather than a contemporary record, and the identity of his own remains is still actively disputed by historians. This is a genuinely different evidentiary profile from the roster's existing ancient/medieval figures (Confucius, Genghis Khan, etc.), whose capped-confidence treatment assumes a stable, if thin, historical record -- here the specific facts remain contested, not merely sparse. No rows were scored; proceeding to a full 18-22-attribute profile would have meant manufacturing specificity the sources do not actually support, exactly the failure mode this session's workflow change exists to avoid. Not a permanent rejection -- a future session with access to primary US Army/Indian Agency documentary sources from his own lifetime (rather than the oral-history-based standard biography) could reasonably revisit this.",
+  "identity": {
+    "canonicalName": "Sitting Bull",
+    "wikidataId": "Q43527",
+    "birthYear": 1831,
+    "deathYear": 1890,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [],
+    "fieldIds": [],
+    "impactDomains": [],
+    "tagIds": [],
+    "archetypeIds": []
+  },
+  "sources": [
+    { "id": "src_sittingbull_wikipedia", "kind": "wikipedia", "title": "Sitting Bull", "url": "https://en.wikipedia.org/wiki/Sitting_Bull" },
+    { "id": "src_sittingbull_vestal", "kind": "biography", "title": "Stanley Vestal, Sitting Bull, Champion of the Sioux (1932) -- based on oral histories collected c. 1928-1930, roughly 40 years after Sitting Bull's death" }
+  ],
+  "rows": {},
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 7 source-first workflow: this candidate is the deliberate test case for the 'assess evidence richness before scoring' discipline. Considered specifically because his general historical importance might otherwise have made him an attractive pick under the old 'score first, discover confidence is low, remediate' workflow -- the whole point of this record is to demonstrate the new workflow catching a genuinely thin case BEFORE that wasted effort, not after."
+  }
+}

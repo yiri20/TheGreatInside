@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "web-du-bois",
+  "status": "held",
+  "identity": {
+    "canonicalName": "W. E. B. Du Bois",
+    "wikidataId": "Q158060",
+    "birthYear": 1868,
+    "deathYear": 1963,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "scholar"
+    ],
+    "fieldIds": [
+      "civil_rights",
+      "sociology"
+    ],
+    "impactDomains": [
+      "historical",
+      "social",
+      "scientific"
+    ],
+    "tagIds": [
+      "founder",
+      "leader"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_dubois_wikipedia",
+      "kind": "wikipedia",
+      "title": "W. E. B. Du Bois",
+      "url": "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
+    },
+    {
+      "id": "src_dubois_lewis",
+      "kind": "biography",
+      "title": "David Levering Lewis, W. E. B. Du Bois: Biography of a Race, 1868-1919 (1993) and The Fight for Equality and the American Century, 1919-1963 (2000) -- both Pulitzer Prize for Biography winners"
+    },
+    {
+      "id": "src_dubois_autobiography",
+      "kind": "biography",
+      "title": "W. E. B. Du Bois, Dusk of Dawn: An Essay Toward an Autobiography of a Race Concept (1940) and The Autobiography of W. E. B. Du Bois (1968)"
+    },
+    {
+      "id": "src_dubois_resignation",
+      "kind": "press",
+      "title": "Face2Face Africa / Walter White Project (USC) -- W.E.B. Du Bois resigns from the NAACP, 26 June 1934",
+      "url": "https://face2faceafrica.com/article/w-e-b-du-bois-resigned-from-the-naacp-on-this-day-in-1934-here-is-why"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the first African American to earn a PhD from Harvard University (1895), a specific, precisely dated documented achievement."
+    },
+    "independent_thinking": {
+      "score": 88,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly advocated a position (voluntary economic self-segregation) that directly contradicted the founding principle of the organization he himself had helped lead for 24 years, sustaining that position to the point of resignation rather than moderating it -- a specific, dated, extensively documented instance of prioritizing his own judgment over institutional consensus."
+    },
+    "leadership_drive": {
+      "score": 86,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Edited The Crisis, the NAACP's magazine, for 24 years (1910-1934), a specific, precisely dated, extensively documented sustained editorial leadership role."
+    },
+    "belief_updating": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1934 NAACP resignation is itself a specific, dated instance of the broader documented pattern: his public editorial argument for voluntary segregated economic communities directly reversed the NAACP's own founding anti-segregation position, a real, publicly stated policy reversal, not merely a private shift in thinking."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The 24-year editorship of The Crisis alongside a sustained decades-long scholarly and activist career implies real persistence, inferred from the documented career length."
+    },
+    "analytical_rigor": {
+      "score": 86,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Souls of Black Folk (1903) and his broader sociological scholarship are documented as foundational, empirically grounded contributions to American sociology, inferred from the documented scholarly reception of this work rather than a first-person account of his method."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Resigned from the NAACP board and The Crisis's editorship on 26 June 1934 after a sustained, documented strategic conflict with the organization's leadership (including a personal conflict with executive secretary Walter White) over his advocacy of voluntary Black economic self-segregation -- a specific, precisely dated instance of sustained institutional conflict severe enough to end a 24-year role."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Renouncing US citizenship and relocating to Ghana at age 93, and earlier sustaining increasingly left-wing political positions during the McCarthy era (when he was indicted, though acquitted, under the Foreign Agents Registration Act), suggest real sustained risk tolerance, inferred from the documented pattern of these late-career positions."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Souls of Black Folk's blending of memoir, sociology, and history was distinctive for its genre, suggesting real creative approach to scholarly writing, inferred rather than critically assessed in depth here."
+    },
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained scholarly output across sociology, history, fiction, and journalism over six decades suggests broad underlying intellectual curiosity, inferred from the documented range of his output."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "A sustained, prolific scholarly and editorial output across six decades implies real behavioral discipline, inferred from the documented volume and duration of his work."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founding the Niagara Movement without institutional backing, in direct response to a strategic disagreement, suggests self-initiated agency, inferred from the documented circumstances of the Movement's founding."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained public editorial and lecture-circuit engagement over decades implies real social assertiveness, inferred from the documented scope of his public role."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, increasingly sophisticated scholarly output over a six-decade career suggests developing mastery, inferred from the documented career arc."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The pattern of founding independent organizations (Niagara Movement) rather than working solely within existing ones suggests real self-direction, inferred from the documented founding pattern."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The documented multi-decade shift in political philosophy (already scored under belief_updating) also implies real adaptability to changing historical circumstances, inferred from the same evidence viewed from a different angle."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His sociological framework (e.g. the 'talented tenth' concept, his analysis of the 'color line') suggests real structural/systems-level thinking, inferred from the documented content of his scholarship."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "A sustained, decades-long orientation toward civil-rights advocacy and scholarship aimed at social change suggests strong impact motivation, inferred from the documented consistency of his life's work."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- no inherited position; every credited achievement (the Harvard PhD, the Niagara Movement, The Crisis editorship, the scholarship) is his own individually attributed work."
+  },
+  "holdReason": "Held after TWO genuine research/scoring rounds this session (source-first initial pass citing the Pulitzer-winning David Levering Lewis biography, then a targeted second round adding the documented 1934 NAACP resignation and its underlying strategic/personal conflict with Walter White): avgConf 0.489 -> 0.504, a real +0.015 gain, still 0.046 short of the 0.55 floor; coverage 0.553, a real 0.047 short of the 0.6 floor. His documented record concentrates in scholarship and institutional leadership, which maps well onto a smaller subset of attributes but leaves many of this taxonomy's other dimensions genuinely under-evidenced even for so extensively studied a figure."
+}

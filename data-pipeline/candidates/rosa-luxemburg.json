@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rosa-luxemburg",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Rosa Luxemburg",
+    "wikidataId": "Q7231",
+    "birthYear": 1871,
+    "deathYear": 1919,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE",
+      "PL"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "scholar"
+    ],
+    "fieldIds": [
+      "politics",
+      "economics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_luxemburg_wikipedia",
+      "kind": "wikipedia",
+      "title": "Rosa Luxemburg",
+      "url": "https://en.wikipedia.org/wiki/Rosa_Luxemburg"
+    },
+    {
+      "id": "src_luxemburg_letters",
+      "kind": "archive",
+      "title": "Rosa Luxemburg, Letters from Prison to Sophie Liebknecht (1916-1918)"
+    },
+    {
+      "id": "src_luxemburg_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica -- Rosa Luxemburg",
+      "url": "https://www.britannica.com/biography/Rosa-Luxemburg"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Was imprisoned multiple times for anti-war activism after open opposition to WWI became illegal in Germany in 1915, spending roughly three of the war's four years in prison rather than moderating her public position -- a specific, extensively documented, sustained pattern of accepting real personal risk for a public political stance."
+    },
+    "independent_thinking": {
+      "score": 86,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly and specifically criticized aspects of Lenin's approach to democracy even while broadly supporting the Russian Revolution, documented in her own pamphlet The Russian Revolution (1918) -- a specific, dated instance of maintaining independent judgment even toward political allies, not only opponents."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Earned a doctorate in economics and law, one of the first women to do so in that field in her era, inferred as evidence of strong achievement drive from the documented rarity and difficulty of that accomplishment at the time."
+    },
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Co-founded the Spartacus League and was among the founders of the Communist Party of Germany, inferred as sustained leadership drive from the documented founding roles."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained her writing and organizing output while imprisoned for roughly three years, documented via her own extensive prison letters and completed pamphlets from that period, inferred as real sustained persistence under confinement."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Completing sustained scholarly (economics doctorate) and prolific political writing output across her career implies real behavioral discipline, inferred from the documented volume of her work."
+    },
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her economic and political writings are documented as substantive theoretical contributions still studied academically, inferred as evidence of real analytical rigor from their sustained scholarly regard."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining direct, public disagreement with both the German political establishment and, at points, fellow revolutionaries implies real tolerance for sustained ideological conflict, inferred from the documented pattern of her public positions."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Co-founding new political organizations rather than working solely within existing socialist parties suggests self-initiated organizational agency, inferred from the documented founding pattern."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained engagement across economic theory, political organizing, and correspondence on natural history/botany (documented in her prison letters) suggests broad intellectual curiosity, inferred from the documented range of her interests."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Producing rigorous, sustained economic theoretical work (including her major treatise The Accumulation of Capital) implies real attention to analytical detail, inferred from the documented scholarly nature of that work."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Co-founding and sustaining leadership of successive political organizations (the Polish Social Democratic Party, the Spartacus League) implies real organizational planning capability, inferred from the documented founding and sustaining of these bodies."
+    },
+    "social_assertiveness": {
+      "score": 74,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained public speaking and political writing across multiple countries and languages (Polish, German, Russian) implies strong social assertiveness, inferred from the documented breadth of her public political activity."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Co-founding organizations with other prominent socialist figures (including Karl Liebknecht) implies real sustained collaborative capacity, inferred from the documented co-founding roles."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining political organizing and writing across multiple countries (Poland, Germany, Switzerland) and under wartime conditions implies real adaptability, inferred from the documented breadth of these contexts."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "A sustained, singular life orientation toward socialist theory and organizing, continuing even under wartime imprisonment, implies strong impact motivation, inferred from the documented consistency of her life's work."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing the specific 1918 revolutionary opening in Germany to found the Communist Party of Germany suggests real opportunity/timing recognition, inferred from the documented timing of that founding."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, increasingly sophisticated theoretical and organizational contributions across her career suggest developing mastery, inferred from the documented career arc and lasting scholarly influence of her work."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- no inherited position; every credited achievement is her own. Her 1919 murder by Freikorps soldiers is referenced only as biographical/historical context, never as a basis for any trait score."
+  },
+  "holdReason": "Held after a genuine source-first research/scoring pass this session (citing her own extensively published prison letters and pamphlets): avgConf 0.451 vs 0.55 floor, coverage 0.545 vs 0.6 floor. Her documented imprisonment, doctorate, and public disagreement with Lenin support several strong rows, but this session's research (conducted in English-language secondary sources) did not surface enough further specific dated episodes to raise the remaining rows above inference tier -- a German/Polish-language primary-source pass could plausibly do better in a future session."
+}

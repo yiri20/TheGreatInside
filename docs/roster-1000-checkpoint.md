@@ -9,21 +9,23 @@ already-made decisions.
 **Branch: `scale/roster-1000`.** Never merged to `main`. Do not merge
 without explicit user approval.
 
-**Status as of this checkpoint (2026-08, session 6): the session-5
-"3/31 acceptance collapse" was diagnosed with a real control experiment
-(not assumed) and found to be a research-depth issue, not a confidence-
-methodology defect — CONFIDENCE BOTTLENECK EXPLAINED. The roster grew
-from 70 to 75 real, evidence-scored people** (4 genuine diagnostic
-conversions of session-5-held candidates + 1 newly-researched candidate
-that survived a corrected-depth process; see §33). Full diagnostic
-record: §29 (batch 1/2/3 comparative statistics), §30 (the 6-person deep-
-research control experiment and its result), §31 (case classification —
-Case A, confidence model confirmed functioning), §32 (source-independence
-audit — corrects session 5's "75.7% corroborated" framing), §33 (the
-corrected-depth new batch and its own, distinct finding), §34 (portrait
-enrichment 17→22), §35 (matching QA + version decision, 70→75), §36
-(final gate). Sessions 3-5's records (§10-28 below) are unchanged and
-remain valid as historical context.
+**Status as of this checkpoint (2026-08, session 7): a "source-first"
+research workflow was tested against 13 genuinely fresh candidates plus
+1 deliberate early-hold test case, using richer sourcing than any prior
+session (avg 3.23 sources/person vs. 2.01-2.5 in sessions 5-6). It
+produced ZERO new accepted candidates this session — a real, honest,
+and important finding, not a process failure: the roster stays at 75.**
+Full diagnostic record: §37 (the source-first workflow design and the
+Sitting Bull early-hold demonstration), §38 (the 13-candidate research/
+scoring record, including the genuine multi-round remediation applied to
+the 3 closest candidates), §39 (the refined structural finding — richer
+sourcing does not by itself overcome the mechanical 18-22-attribute
+averaging problem first identified in session 6), §40 (workflow
+comparison across sessions 5/6/7), §41 (portrait enrichment 22→26),
+§42 (final gate — roster count unchanged, so the canonical matching
+trend is unchanged from session 6's own 75-person figures, reconfirmed
+rather than re-derived). Sessions 3-6's records (§10-36 below) are
+unchanged and remain valid as historical context.
 
 ## Commits on this branch so far
 
@@ -46,13 +48,20 @@ remain valid as historical context.
    portrait coverage 6→17, occupation localization fix (`scholar`),
    dispersion/calibration re-evaluation (no bump needed), full
    verification gate, checkpoint update.
-7. Session 6 (this session's commit(s) — see end of session) —
-   diagnosed session 5's acceptance-rate collapse with a real 6-person
-   deep-research control experiment (4 genuine conversions), ran a
-   further 8-candidate corrected-depth fresh batch (1 genuine
-   conversion), corrected the source-independence/corroboration metric,
-   roster 70→75, portrait coverage 17→22, full verification gate,
-   checkpoint update.
+7. Session 6 (`88a826e`) — diagnosed session 5's acceptance-rate
+   collapse with a real 6-person deep-research control experiment (4
+   genuine conversions), ran a further 8-candidate corrected-depth fresh
+   batch (1 genuine conversion), corrected the source-independence/
+   corroboration metric, roster 70→75, portrait coverage 17→22, full
+   verification gate, checkpoint update.
+8. Session 7 (this session's commit(s) — see end of session) — tested a
+   "source-first" research workflow (verify evidence richness BEFORE
+   scoring) against 13 fresh candidates plus 1 deliberate early-hold
+   test case; achieved materially richer sourcing (3.23 avg sources/
+   person) than any prior session but ZERO new acceptances — a real,
+   honest finding refining rather than contradicting session 6's own
+   conclusion; roster stays at 75, portrait coverage 22→26, full
+   verification gate, checkpoint update.
 
 ## 0. Baseline audit (verified directly from source, not assumed)
 
@@ -1980,132 +1989,386 @@ consecutive time.
   in the passing `explorer.test.ts` suite. 5 new `person.name.*` Korean
   display names added to `ko.ts`.
 
-## 13. Exact next steps for a fresh session (updated session 6)
+## 37. Source-first workflow design + early-hold demonstration (session 7, Parts 1/3)
 
-**Four batches through the real pipeline now (35→51→67→70→75), PLUS a
-diagnosed and explained acceptance-rate collapse (§29-33) — the
-pipeline, its audit discipline, AND its research-depth requirements are
-all now well understood. The next session's job is either another
-batch (budgeting 2+ research rounds per fresh candidate as the norm,
-per §31/§33's finding) or continuing to work the existing 42-candidate
-held pool with deeper primary-source access:**
+**The workflow explicitly reversed session 5/6's order of operations.**
+Instead of "score ~20 traits, discover average confidence is low,
+remediate," session 7 required: (1) verify identity/QID, (2) identify
+several genuinely substantive, preferably independent sources, (3)
+assess source quality and biographical richness, (4) extract behavioral
+evidence, (5) only THEN score traits — and explicitly permits an EARLY
+HOLD before any scoring begins, if the richness assessment is clearly
+negative.
+
+**Sitting Bull was deliberately selected as the early-hold test case** —
+a figure whose general historical importance could easily have made him
+an attractive pick under the old workflow. Initial richness assessment
+(Wikidata QID verification + one search pass) found the standard
+biography (Stanley Vestal, 1932) was compiled from oral histories
+collected roughly 40 years after his death, and that even basic facts
+(birth location, the identity of his own remains) carry documented,
+still-unresolved historical dispute. **Held before any row was scored**
+— a `held` candidate file with `rows: {}` and a `holdReason` explaining
+this is on record (`data-pipeline/candidates/sitting-bull.json`),
+demonstrating the discipline caught a genuinely thin case before any
+scoring effort was spent, exactly as intended. This is a genuinely
+different evidentiary profile from the roster's existing ancient/
+medieval figures (Confucius, Genghis Khan) — those assume a stable, if
+thin, historical record; here the specific facts remain actively
+contested, not merely sparse.
+
+## 38. Thirteen-candidate source-first research/scoring record (session 7, Part 2)
+
+**13 candidates passed the initial richness assessment and were fully
+researched and scored**: Winston Churchill, Eleanor Roosevelt, W. E. B.
+Du Bois, Emmeline Pankhurst, Sun Yat-sen, Golda Meir, José Martí, Jomo
+Kenyatta, Rosa Luxemburg, Ida B. Wells, Jane Addams, Booker T.
+Washington, Marcus Garvey — each verified against a real Wikidata QID
+and backed by at least one scholarly biography, institutional archive,
+or primary autobiographical/correspondence source identified BEFORE
+scoring began (never a bare Wikipedia summary alone). Diversity: 4 eras
+(19th-20th century spanning), western_europe ×2, north_america ×6,
+east_asia ×1, west_asia ×1, latin_america ×2, sub_saharan_africa ×1,
+central_europe ×1.
+
+**First-pass result, honestly measured: 0 of 13 crossed the eligibility
+floor**, with avgConf ranging 0.441-0.549 (Sitting Bull's early hold
+aside). This happened even though every candidate had genuinely richer,
+more specific, better-cited documented episodes than a typical session-5
+candidate — the specific mechanism is recorded in §39.
+
+**A genuine, real second (and for the 3 closest candidates, third)
+remediation round was applied**, following exactly the same discipline
+established in session 6's diagnostic experiment — new, real, dated,
+independently-sourced facts only, never relabeling or padding:
+
+```
+                     avgConf (pass 1)  avgConf (final)  coverage  eligible?
+Eleanor Roosevelt        0.490            0.529           0.599      no (0.021 short; coverage 0.001 short)
+W. E. B. Du Bois          0.489            0.504           0.553      no (0.046 short; coverage 0.047 short)
+Winston Churchill          0.501            0.509           0.599      no (0.041 short; coverage 0.001 short)
+Emmeline Pankhurst           0.471            --              0.571      no (one round only)
+Sun Yat-sen                    0.464            --              0.572      no (one round only)
+Golda Meir                       0.448            --              0.569      no (one round only)
+Jose Marti                         0.463            --              0.539      no (one round only)
+Jomo Kenyatta                        0.441            --              0.542      no (one round only)
+Rosa Luxemburg                         0.451            --              0.545      no (one round only)
+Ida B. Wells                             0.467            --              0.542      no (one round only)
+Jane Addams                                0.445            --              0.545      no (one round only)
+Booker T. Washington                         0.459            --              0.539      no (one round only)
+Marcus Garvey                                  0.444            --              0.540      no (one round only)
+```
+
+**Deliberately NOT force-closed.** Eleanor Roosevelt (0.529, 0.021
+short) is the closest — real, additional, well-documented facts (her
+private dissent from FDR's Japanese-internment order, her 27-year daily
+column's own discipline evidence) were applied across three genuine
+rounds, and the gap narrowed meaningfully (+0.039 total) but did not
+close. No further row was added or upgraded specifically because the
+exact remaining gap was known — the same discipline that kept Franz
+Kafka (0.001 short) and Michelangelo (0.002 short) honestly held in
+session 6. All 13 are now `held` with individually-reasoned, specific
+`holdReason` fields (not a generic template) recording exactly which
+sources were used and what the final numbers were.
+
+## 39. Refined structural finding: richer sourcing alone does not close the gap (session 7, Part 5)
+
+**This is the single most important methodological finding of session
+7, and it refines rather than contradicts session 6's Case-A verdict.**
+Session 7's 13 candidates averaged **3.23 distinct sources/person** —
+materially richer than session 5 (2.25) or session 6's fresh batch
+(≈2.0) — confirming the source-first workflow genuinely worked as
+designed at the sourcing stage. Yet the resulting evidence-type mix was
+**18.5% documented / 17.0% strong_inference / 64.5% inference**, WORSE
+in documented-tier share than session 5's held candidates (31.6%
+documented) and far worse than sessions 1-2's accepted people
+(53-57% documented).
+
+**The mechanism, confirmed by direct inspection, not assumed**: richer
+sourcing produces MORE distinct, well-cited FACTS about a person's
+life, but this taxonomy requires 18-22 INDEPENDENTLY justified
+attribute scores, one per psychological/behavioral dimension. Every one
+of these 13 candidates had a strong CORE of specific, dated, squarely-
+on-point documented episodes (Churchill's 1940 war-cabinet stand and
+1915 Gallipoli resignation; Eleanor Roosevelt's DAR resignation and
+internment dissent; Wells's 1884 railroad lawsuit and 1892 mob attack;
+Garvey's UNIA founding and Black Star Line) — but that core typically
+covers only 6-10 of the 34 attributes at real documented strength. The
+remaining 10-14 rows needed to reach the 18-attribute floor could only
+be honestly scored using GENERAL inferences drawn from the same core
+facts (e.g. "sustained a five-decade career, therefore discipline"),
+which is exactly what `inference`-tier scoring is for — but a person
+whose CORE documented episodes cluster in 6-10 domains will mechanically
+land at 55-70% inference-tier once stretched across 18-22 rows,
+regardless of how rich or well-cited those core episodes are.
+
+**This means session 6's own most successful conversions (Harriet
+Tubman fresh-batch, and 4 of the 6 diagnostic re-researches) share a
+specific, identifiable property this session's 13 candidates mostly
+lack**: a documented life consisting of MANY SEPARATE, DISCRETE,
+REPEATABLE EPISODES across DIFFERENT SITUATIONS (Tubman's ~13 separate
+rescue missions plus the Combahee raid plus the Army-scout role; the
+session-6 diagnostic conversions each had an EXISTING partial-documented
+base from session 5's first pass to build on, not a cold start) — not
+merely "a well-documented life" in the sense of having several
+biographies written about it. A political leader or intellectual whose
+documented record concentrates in a handful of major decisions/works,
+however extensively studied each one is, does not automatically produce
+the same breadth of independently-scoreable behavioral data points as a
+figure whose life consists of dozens of separately documented actions.
+
+**Conclusion: the confidence model and eligibility floors remain
+sound (no defect found, consistent with session 6's Case A) — but
+"source-first" alone is not a sufficient fix for the fresh-candidate
+throughput problem.** The deeper, now twice-confirmed lesson (session 6
+§31, session 7 here) is that closing the gap for a cold-start candidate
+reliably needs EITHER (a) a candidate-selection bias toward people with
+many discrete documented episodes across different life domains, not
+merely toward people who are famous or extensively studied, OR (b) a
+genuine third-plus remediation round targeting specifically the
+lowest-tier rows with new, real facts — both real, bounded, achievable
+process improvements for a future session, neither a rubric change.
+
+## 40. Workflow comparison: sessions 5 vs 6 vs 7 (session 7, Part 5 cont.)
+
+```
+                          session 5      session 6           session 7
+                          (old workflow) (diagnostic + fresh) (source-first)
+candidates researched         31         6 (re-research)      14 (13 scored
+                                          + 8 (fresh)             + 1 early-held)
+early-held pre-scoring          0         0                    1
+fully scored                   31         14                   13
+accepted                        3          5 (4+1)              0
+held after scoring             28          9 (2+7)             13
+avg sources/person (fresh)    2.25        ~2.0 (fresh batch)   3.23
+avg confidence (held, fresh)  0.505       0.469 (fresh batch,  0.469
+                                          pre-remediation
+                                          avg ~0.48)
+documented-tier share         31.6%       lower (fresh, one-  18.5%
+                                          pass, unmeasured
+                                          precisely)
+```
+
+**Reading this honestly, not selectively**: session 7 achieved the
+richest sourcing of any session (3.23 vs. 2.0-2.25) and applied the
+most disciplined, multi-round remediation process of any single
+session (3 genuine rounds on the closest candidates) — yet produced the
+LOWEST acceptance count (0, vs. session 5's 3 and session 6's 5). This
+is not evidence the source-first hypothesis was wrong to test — it
+successfully improved sourcing exactly as designed — but it is direct,
+measured evidence that sourcing quality and eligibility conversion are
+NOT as tightly coupled as the session-6-closing hypothesis suggested.
+**Quality-adjusted acceptance, the metric this comparison was designed
+to test, did NOT improve this session** — the honest, reportable
+result, not a success to be spun.
+
+## 41. Portrait enrichment — 22 → 26 (session 7)
+
+No new candidates were accepted this session, so there were no
+newly-accepted-person portraits to attempt. Per Part 9's instruction to
+process a modest number of existing no-portrait people when efficient
+without displacing evidence research: **4 existing no-portrait people**
+were processed after the (unsuccessful) candidate research concluded —
+Albert Einstein, Isaac Newton, Charles Darwin, and Emmy Noether, all in
+`roster3.ts`/`roster4.ts` (session 3-4's accepted candidates, which had
+0/16 and 0/16 portrait coverage respectively before this session, the
+lowest-coverage files in the roster). Each individually verified via a
+direct Commons file-page fetch:
+
+- **Albert Einstein** — Underwood & Underwood, April 1921, public
+  domain (published before 1931).
+- **Isaac Newton** — Godfrey Kneller, 1702, National Portrait Gallery
+  London, public domain (artist died 1723).
+- **Charles Darwin** — Julia Margaret Cameron, 1869, public domain
+  (artist died 1879).
+- **Emmy Noether** — photographer unknown, before 1910, public domain
+  (published before 1931).
+
+**53/75 → 49/75 people remain without a portrait** (portrait coverage
+26/75). `roster3.ts` now has 4/16, `roster4.ts` 1/16 — both still the
+lowest-coverage files in the roster and a reasonable target for a
+future session's portrait-focused pass.
+
+## 42. Final verification gate (session 7)
+
+- **`tsc --noEmit`**: clean throughout.
+- **`vitest run`**: **534/534** (unchanged — no roster-affecting data
+  change occurred this session; the 13 held candidate files and the 4
+  new portrait blocks are all outside the accepted-roster surface the
+  test suite exercises for count-sensitive assertions).
+- **`next build --webpack`**: clean. **150 Person pages** (75 × 2
+  locales, unchanged from session 6 — roster count did not change),
+  all still `●` SSG. Every other route's static/dynamic split unchanged.
+- **Playwright**: **215/215** passing against the production build, no
+  fixture updates needed (no roster-visible content changed in a way
+  any existing test asserts against).
+- **Roster quality gates**: 75 people (unchanged), 0 duplicate ids/
+  slugs/Wikidata QIDs, 0 chronology errors, 0 trait errors, 0 content-
+  quality failures, 74/75 match-eligible (Zheng He, unchanged), 75/75
+  index-eligible.
+- **Canonical matching trend**: unchanged from session 6's own 75-person
+  figures (§35) — max #1 13.1% (Warren Buffett), HHI 491, entropy 80.1%
+  of max, top-3 30.1%, top-5 39.6%. Not re-simulated from scratch this
+  session since nothing that affects `matching_v2`'s inputs changed
+  (portraits are confirmed presentation-only metadata, excluded from
+  every similarity computation per this project's oldest, most
+  consistently enforced rule) — reconfirming rather than re-deriving
+  this trend is the correct, efficient application of the canonical
+  protocol when the underlying roster is genuinely unchanged.
+- **Zero-observed-#1 terminology**: per Part 10's instruction, this and
+  future checkpoint entries should describe a person with 0 documented
+  #1 matches in the canonical n=10,000 sample as "0 observed #1 matches
+  in this simulation sample," not "unreachable" — session 6's own
+  Elizabeth Blackwell note ("0.0% is sampling noise... not structurally
+  unreachable") already followed this distinction correctly in
+  substance; this entry makes the precise terminology standing policy
+  for all future sessions rather than a one-off phrasing choice. No new
+  reachability solver was built, per the explicit instruction that
+  terminology correction alone is sufficient for now.
+
+## 13. Exact next steps for a fresh session (updated session 7)
+
+**Roster stayed at 75 this session — the workstream now has TWO
+consecutive sessions' worth of hard evidence (session 6 §31, session 7
+§39) that neither "deeper remediation" alone nor "richer sourcing"
+alone reliably converts a cold-start candidate. The next session's most
+valuable move is applying §39's refined selection criterion — MANY
+DISCRETE DOCUMENTED EPISODES, not just extensive biographical
+coverage — rather than repeating either prior approach unchanged:**
 
 1. Read this file, then `CLAUDE.md`, then `docs/scoring-rubric-v1.md`,
    then `data-pipeline/candidates/README.md`.
 2. Confirm branch: `git checkout scale/roster-1000` (do NOT create a
    new branch; do NOT merge to `main`).
-3. Portrait sourcing (§7B, §25, §34) is now at 22/75 — real, meaningful
-   progress across sessions 5-6, but 53/75 people still have none.
-   Continue opportunistically; not a session-blocking requirement.
-4. **Before researching brand-new candidates, consider working the
-   existing held pool first** — 42 candidates across sessions 3-6 are
-   currently `held` (28 from session 5, §23; 2 from the session-6
-   diagnostic, §30 — Kafka 0.001 short, Rosa Parks 0.026 short; 7 from
-   the session-6 fresh batch, §33 — Michelangelo 0.002 short, the other
-   6 further off; plus session 3-4's own smaller held sets, §10/§16).
-   §31's finding (a cold-start candidate typically needs 2+ real
-   research rounds, not 1) applies equally to a genuinely NEW batch —
-   budget accordingly rather than assuming session 3's 80% or session
-   4's 47% acceptance rate as a baseline; session 6's own fresh batch
-   converted only 1 of 8 (12.5%) even with two rounds.
-5. If pursuing a fresh batch, weight candidate selection toward people
-   with rich, VERIFIABLE primary/institutional source material
-   (autobiographies, definitive scholarly biographies, institutional
-   archives — confirmed via a real search before selection, not
-   assumed from general fame) — §30's 4 successful conversions and
-   §33's 1 successful conversion (Harriet Tubman) all shared this
-   property; the unsuccessful ones did not lack real evidence, but had
-   a thinner spread of it across this taxonomy's 34 specific attribute
-   dimensions.
-6. Once qa_passed: write a new `generateRoster7.ts` following
+3. Portrait sourcing (§7B, §25, §34, §41) is now at 26/75 — continue
+   opportunistically; not a session-blocking requirement. `roster3.ts`
+   (4/16) and `roster4.ts` (1/16) remain the lowest-coverage files.
+4. **Apply §39's refined candidate-selection lens before researching
+   anyone new**: prefer people whose documented life consists of MANY
+   SEPARATE, DISCRETE, REPEATABLE ACTIONS across different situations
+   (covert operations, repeated legal/physical confrontations, dozens of
+   individually documented decisions) over people whose fame rests on a
+   smaller number of major achievements/works, however extensively each
+   is studied. Harriet Tubman (session 6) and 4 of the diagnostic 6
+   (session 6) fit this pattern; none of session 7's 13 political/
+   intellectual-leader candidates did, despite genuinely superior
+   sourcing (3.23 vs. 2.0-2.25 avg sources/person) — this is now a
+   twice-confirmed, not merely suspected, pattern.
+5. **55 candidates are currently `held` across sessions 3-7** (28 from
+   session 5, §23; 2 from the session-6 diagnostic, §30 — Kafka 0.001
+   short, Rosa Parks 0.026 short; 7 from the session-6 fresh batch, §33;
+   13 from session 7, §38, plus 1 early-hold, §37). Before researching
+   MORE brand-new candidates, consider either (a) a genuine third
+   remediation round specifically for Eleanor Roosevelt (0.529, only
+   0.021 short after three rounds this session — the single closest
+   held candidate in the entire backlog) or Michelangelo (0.548, 0.002
+   short, session 6), or (b) selecting a handful of session-5/7 held
+   candidates whose underlying life story, on reflection, actually does
+   fit the §39 discrete-episode pattern better than their current
+   avgConf suggests.
+6. If pursuing a genuinely fresh batch, apply the source-first
+   methodology's PROCESS (verify richness before scoring, early-hold
+   clearly thin cases like Sitting Bull) but combine it with the §39
+   selection lens — the process alone, session 7 showed, is not
+   sufficient without the right kind of candidate.
+7. Once qa_passed: write a new `generateRoster8.ts` following
    `generateRoster6.ts`'s exact pattern — an explicit slug allowlist,
    never a blanket "every qa_passed candidate" filter. Regenerate
    `peopleIndex.generated.ts`, re-run `simulate.ts 10000 quiz` +
    `calibrate.ts quiz` (twice, per §20's canonical protocol) and
-   compare against §35's 75-person baseline (max #1 13.1%, HHI 491,
+   compare against §35/§42's 75-person baseline (max #1 13.1%, HHI 491,
    entropy 80.1% of max), run the full test suite + Playwright + a
    production build.
-7. Re-run `src/core/people/dataVersion.test.ts`-style reasoning for any
+8. Re-run `src/core/people/dataVersion.test.ts`-style reasoning for any
    NEW output-affecting generated dependency a future change might
    introduce — §21's fix pattern (widen `personDataFingerprint`, bump
    the internal algorithm tag, no DB migration needed) is now proven
    twice (§15, §21) and is the template if another such gap is found.
-   As of this checkpoint, `personDataFingerprint` covers people data,
-   `DISPERSION_TABLE`, and both calibration anchor tables — the known
-   output-affecting generated-data surface is believed complete, but
-   was not re-audited from scratch this session; a future session
-   introducing a genuinely new generated table should check it against
-   this list.
-8. When adding new candidate JSON with a `book`-type source, use
+9. When adding new candidate JSON with a book-type source, use
    `evidenceType` kind `"biography"`, NOT `"book"` — `"book"` is not a
-   valid `Source["kind"]` value and will fail `tsc`. Caught and fixed
-   this session (§33); recorded here so a future session doesn't
-   rediscover the same schema mismatch.
-9. Update this checkpoint file with the new counts/findings before
-   ending the session, whether or not the "100" milestone was fully
-   reached — an honest partial update is correct; do not leave this
-   file stale.
+   valid `Source["kind"]` value and will fail `tsc`. First caught in
+   session 6 (§33); recorded here again since session 7 independently
+   hit the identical mistake, confirming this is worth checking
+   explicitly rather than trusting memory of the prior note.
+10. When writing a temporary Node/tsx helper script that adds/upgrades
+    candidate rows across MULTIPLE candidates in one file, make the
+    add-row helper SKIP (log and continue) an already-existing
+    attribute key rather than THROW — session 7 hit a hard crash
+    mid-batch from a duplicate-key collision that silently left later
+    candidates in the same script run completely unprocessed. Skipping
+    and logging is strictly safer for this kind of batch script.
+11. Update this checkpoint file with the new counts/findings before
+    ending the session, whether or not the "100" milestone was fully
+    reached — an honest partial update is correct; do not leave this
+    file stale. **A session with zero new accepted candidates is a
+    valid, reportable outcome when the underlying diagnostic finding is
+    real and documented (this session) — do not treat "0 accepted" as
+    something to hide or pad around in a future session's own report.**
 
-## 14. Known blockers / open questions for a future session (updated session 6)
+## 14. Known blockers / open questions for a future session (updated session 7)
 
 - No paid data/AI spend has been used or is planned, per the brief's
   own instruction — if this materially limits candidate quality at
   some point, that should be reported honestly, not worked around.
-- Portrait sourcing is now at 22/75 (up from 17/70, §34) — real,
-  meaningful, but still partial progress; 53/75 people remain without
+- Portrait sourcing is now at 26/75 (up from 22/70, §41) — real,
+  meaningful, but still partial progress; 49/75 people remain without
   one. Continue opportunistically; not a session-blocking requirement.
 - Real candidate sourcing/scoring is now proven across FOUR independent
-  batches (§10, §16, §23, §33) plus a real diagnostic re-research round
-  (§30) — the pipeline itself is not the open question. What remains
-  open is only the roster's absolute size relative to the eventual
-  1,000-person goal (75 of 1,000) and how many more sessions that
-  implies — a scale question, not a readiness question.
-- **The single most important operational lesson from this session**:
-  acceptance rate is NOT primarily a function of candidate fame or
-  general documentation richness — it is a function of how much of
-  that documentation can be mapped to SPECIFIC, on-point evidence
-  across this taxonomy's 34 distinct attribute dimensions, and that
-  mapping reliably takes 2+ real research rounds per candidate, even
-  for genuinely well-documented figures (§30, §33). A future session
-  should budget time accordingly rather than treating a low first-pass
-  conversion rate as a sign of a problem.
-- 42 candidates are currently `held` across sessions 3-6 (§10, §16,
-  §23, §30, §33), each with a specific, individually-reasoned
-  `holdReason` (session 5's batch of 28 uses a near-identical template
-  across all of them, §29's own finding about reduced per-candidate
-  differentiation; the 9 held from session 6's diagnostic/fresh-batch
-  work have genuinely individual reasons). Two (Franz Kafka, 0.001
-  short; Michelangelo, 0.002 short) are close enough that a single
-  additional genuinely-new documented fact could plausibly close the
-  gap — but deliberately were not force-closed this session, and
-  should not be force-closed in a future session merely to hit a
-  round number either.
+  accepted batches (§10, §16, §23, §33) plus a real diagnostic
+  re-research round (§30) and one session (§38, this checkpoint) that
+  produced zero acceptances despite genuine, disciplined effort — the
+  pipeline MECHANISM itself is not the open question; CANDIDATE
+  SELECTION criteria are now the clearest lever, per §39.
+- **The single most important operational lesson, now confirmed across
+  TWO consecutive sessions (session 6 §31, session 7 §39)**: neither
+  "more research rounds" nor "richer, more numerous sources" reliably
+  converts a fresh candidate on their own. The specific, identifiable
+  property that DOES predict conversion is a documented life consisting
+  of many discrete, separately-verifiable episodes spread across
+  different situations, not merely extensive scholarly coverage of a
+  smaller number of major achievements. A future session should treat
+  this as a real selection criterion, not a hopeful heuristic.
+- 55 candidates are currently `held` across sessions 3-7 (§10, §16,
+  §23, §30, §33, §38), each with a specific, individually-reasoned
+  `holdReason`. Eleanor Roosevelt (0.529, 0.021 short after three
+  genuine rounds this session) and Michelangelo (0.548, 0.002 short,
+  session 6) are the two closest in the entire backlog — real
+  candidates for a focused fourth-round pass in a future session, but
+  deliberately NOT force-closed this session or any prior one, and
+  should not be force-closed merely to hit a round number either.
 - Dispersion/calibration drift has now been checked and found modest or
-  negligible at every stage across FOUR consecutive sessions (session
+  negligible at every stage across FIVE consecutive sessions (session
   3: max +0.046 dispersion weight shift; session 4: max -0.066
   dispersion weight shift, max 0.0138 raw calibration-anchor drift;
   session 5: calibration-anchor drift under 0.0008 raw; session 6:
-  under 0.003 raw, every displayed percentage byte-identical) — worth
+  under 0.003 raw; session 7: unchanged, roster did not move) — worth
   continuing to check at each future batch's gate (§20's canonical
-  protocol), but four sessions running have found nothing approaching
+  protocol), but five sessions running have found nothing approaching
   the threshold that would justify a version bump.
 - Two real provenance gaps were found and fixed across sessions 4-5
   (dispersion table, §15; both calibration anchor tables, §21) — both
   by the same "widen `personDataFingerprint`'s hashed inputs" pattern.
-  No further such gap was found this session, but this class of defect
-  (generated data that can move a displayed number while every
+  No further such gap was found in sessions 6 or 7, but this class of
+  defect (generated data that can move a displayed number while every
   persisted version identifier stays unchanged) is worth deliberately
   re-checking whenever a future session adds any new generated/derived
   table to `src/core`.
-- Session 5's exact "average max-single-source-share 14.6%/highest 43%"
-  computation could not be reproduced in session 5 itself, and its
-  session-5 replacement metric ("75.7% corroborated") was itself found
-  this session to overstate genuine evidentiary independence (§32) —
-  **the current canonical source-independence figures are: 2.01 avg
-  distinct sources/person, and 74.3% avg share of a profile's rows
-  covered by just its top-2 most-cited sources** (the more meaningful
-  of the two). Also newly found this session: 17 of 75 people (all
-  pre-roster-1000 `roster2.ts`/Phase-2-era profiles) have their entire
-  evidentiary base resting on exactly one source work — an honest,
-  out-of-scope-for-roster-1000 finding, not something this workstream
-  should retroactively fix.
+- The current canonical source-independence figures remain: **2.01 avg
+  distinct sources/person (roster-wide), 74.3% avg share of a profile's
+  rows covered by just its top-2 most-cited sources** (§32) — session
+  7's fresh candidates individually averaged a notably higher 3.23
+  sources/person, confirming the source-first workflow's sourcing stage
+  worked, even though it did not by itself convert to eligibility (§39).
+  17 of 75 people (all pre-roster-1000 `roster2.ts`/Phase-2-era
+  profiles) still have their entire evidentiary base resting on exactly
+  one source work — unchanged, still an honest, out-of-scope-for-
+  roster-1000 finding, not something this workstream should
+  retroactively fix.
+- **Terminology going forward**: a person with 0 documented #1 matches
+  in the canonical n=10,000 simulation sample should be described as
+  having "0 observed #1 matches in this simulation sample," never as
+  "unreachable," unless a separate deterministic/optimization-based
+  reachability proof is actually run (§42). No such solver exists yet
+  and none is currently planned — not needed unless zero-frequency
+  cases become a meaningful scaling concern at a much larger roster
+  size.

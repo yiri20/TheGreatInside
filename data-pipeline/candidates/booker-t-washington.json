@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "booker-t-washington",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Booker T. Washington",
+    "wikidataId": "Q319871",
+    "birthYear": 1856,
+    "deathYear": 1915,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "educator"
+    ],
+    "fieldIds": [
+      "education"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "entrepreneurial_builder"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_btwashington_wikipedia",
+      "kind": "wikipedia",
+      "title": "Booker T. Washington",
+      "url": "https://en.wikipedia.org/wiki/Booker_T._Washington"
+    },
+    {
+      "id": "src_btwashington_autobiography",
+      "kind": "biography",
+      "title": "Booker T. Washington, Up From Slavery: An Autobiography (1901)"
+    },
+    {
+      "id": "src_btwashington_docsouth",
+      "kind": "archive",
+      "title": "Documenting the American South (UNC) -- Booker T. Washington",
+      "url": "https://docsouth.unc.edu/fpn/washington/bio.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 92,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "As a young man, walked and worked his way roughly 500 miles to enroll at Hampton Institute, then worked as a janitor to help pay for his education there -- a specific, extensively documented, sustained act of persistence under real material hardship."
+    },
+    "resourcefulness": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and built Tuskegee Institute starting from essentially nothing -- a shack and a handful of students in 1881 -- into a major institution over three decades, a specific, extensively documented sustained resource-building achievement."
+    },
+    "decisiveness": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Delivered the 1895 'Atlanta Compromise' speech advocating gradual economic advancement over immediate political agitation for civil rights -- a specific, dated, extensively documented strategic choice that he sustained despite significant, sustained criticism from other Black leaders including Du Bois."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustaining his accommodationist strategy for two decades despite sustained public criticism from prominent contemporaries (notably Du Bois and the Niagara Movement) implies real tolerance for sustained ideological conflict, inferred from the documented duration of that disagreement."
+    },
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Served as Tuskegee's first president and principal developer for 34 years, inferred as sustained institutional leadership drive from the documented length of his tenure."
+    },
+    "planning_orientation": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Building Tuskegee from a single shack into a major institution with a functioning curriculum, faculty, and physical campus over three decades implies real sustained strategic planning, inferred from the documented scale of the institution-building achievement."
+    },
+    "adaptability": {
+      "score": 76,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented (via his private papers, revealed after his death) as secretly funding legal challenges to segregation laws while publicly advocating a more gradualist approach -- inferred here as evidence of a real, complex strategic duality rather than treated as either wholly principled or wholly contradictory."
+    },
+    "achievement_drive": {
+      "score": 84,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained escalating institution-building ambition across three decades, from a single classroom to a nationally influential university, implies strong achievement drive, inferred from the documented scale of the achievement."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining both his own early education under real material hardship and a subsequent 34-year institutional leadership tenure implies strong behavioral discipline, inferred from the documented duration of both periods."
+    },
+    "social_assertiveness": {
+      "score": 76,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained public fundraising and advocacy on Tuskegee's behalf across national audiences implies strong social assertiveness, inferred from the documented scale of the institution's growth."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining his own strategic approach despite significant, sustained criticism from other prominent Black leaders implies real independent judgment, inferred from the documented duration of his adherence to that strategy."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursuing formal education under real material hardship as a young man, and later building an institution centered on practical/industrial education, suggests real sustained curiosity about learning and its application, inferred from the documented pattern of his career."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Building and managing a growing institution's curriculum, faculty, and physical campus over three decades implies real attention to organizational detail, inferred from the documented scale and complexity of Tuskegee's development."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Building Tuskegee required sustained fundraising relationships with white philanthropists and Northern donors across three decades, implying real collaborative/diplomatic capacity across a genuinely difficult social divide for the era, inferred from the documented scale of that fundraising success."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founding Tuskegee from a single classroom with no institutional precedent or mandate implies strong self-initiated agency, inferred from the documented founding circumstances."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing a specific post-Reconstruction political opening to build a Black-led educational institution with white Southern and Northern philanthropic support simultaneously suggests real strategic opportunity recognition, inferred from the documented success of that fundraising approach."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, increasingly sophisticated institution-building capability across three decades suggests developing mastery, inferred from the documented growth trajectory of Tuskegee."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "A sustained, singular life orientation toward Black educational advancement across his entire adult life implies strong impact motivation, inferred from the documented consistency of his life's work."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- born into slavery, no inherited position; every achievement is entirely his own. Safety note: the private-legal-funding vs. public-accommodation duality is presented factually, as documented by historians who reviewed his private papers, not as a character judgment."
+  },
+  "holdReason": "Held after a genuine source-first research/scoring pass this session (citing his own bestselling 1901 autobiography Up From Slavery): avgConf 0.459 vs 0.55 floor, coverage 0.539 vs 0.6 floor. The documented journey to Hampton Institute and the Tuskegee founding/Atlanta Compromise are strong, specific, dated episodes, but coverage fell short -- the attributes with strong evidence this session happened to cluster on lower-baseWeight dimensions."
+}

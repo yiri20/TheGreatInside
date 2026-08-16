@@ -155,6 +155,18 @@ const seeds: PersonSeed[] = [
     archetypeIds: ["scholarly_specialist"],
     externalIdentity: { wikidataId: "Q7099" },
     sources: [{ id: "src_noether_wikipedia", kind: "wikipedia", title: "Emmy Noether", url: "https://en.wikipedia.org/wiki/Emmy_Noether" }, { id: "src_noether_einstein", kind: "press", title: "Albert Einstein, letter to The New York Times on Emmy Noether's death (1935)" }],
+    // Verified 2026-08 via a direct fetch of the Commons file page:
+    // photographer unknown, before 1910. Public domain (published before
+    // 1931; life+70 years expired).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Noether_retusche_nachcoloriert.jpg",
+      width: 464,
+      height: 658,
+      source: "Wikimedia Commons",
+      license: "Public Domain (published before 1931)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Noether_retusche_nachcoloriert.jpg",
+      attribution: "Photographer unknown, before 1910",
+    },
     rows: {
       // Noether's theorem, linking every differentiable symmetry to a conservation law, is documented as a foundational, rigorously proven result in theoretical physics and abstract algebra, still in standard use.
       analytical_rigor: [90, 0.75, "d", "A"],

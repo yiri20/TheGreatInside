@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sun-yat-sen",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Sun Yat-sen",
+    "wikidataId": "Q8573",
+    "birthYear": 1866,
+    "deathYear": 1925,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "physician"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sunyatsen_wikipedia",
+      "kind": "wikipedia",
+      "title": "Sun Yat-sen",
+      "url": "https://en.wikipedia.org/wiki/Sun_Yat-sen"
+    },
+    {
+      "id": "src_sunyatsen_sharman",
+      "kind": "biography",
+      "title": "Lyon Sharman, Sun Yat-sen: His Life and Its Meaning (1934); Harold Z. Schiffrin, Sun Yat-sen and the Origins of the Chinese Revolution"
+    },
+    {
+      "id": "src_sunyatsen_asiasociety",
+      "kind": "institution",
+      "title": "Asia Society -- Sun Yat-sen",
+      "url": "https://sites.asiasociety.org/chinawealthpower/chapters/sun-yat-sen/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In October 1896 he was lured into the Chinese Legation in London by Qing officials who planned to smuggle him back to China for execution over a failed 1895 uprising; released only through the intervention of a former professor -- a specific, precisely dated, extensively documented episode, and he continued revolutionary organizing afterward rather than withdrawing."
+    },
+    "persistence": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a nearly 20-year revolutionary career in exile (1895-1911) before the Qing dynasty's fall, documented as traveling to Japan 12 times, Southeast Asia 43 times, the US 4 times, and Europe 4+ times specifically to organize and fundraise -- a specific, quantified, extensively documented sustained effort."
+    },
+    "proactive_agency": {
+      "score": 84,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the Revive China Society in Honolulu in 1894, a specific, dated, self-initiated organizing act with no institutional backing at the time."
+    },
+    "resourcefulness": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustaining fundraising and organizing across dozens of overseas Chinese communities on essentially no formal institutional support for two decades implies real resourcefulness, inferred from the documented scale and duration of this fundraising effort."
+    },
+    "social_assertiveness": {
+      "score": 82,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained direct persuasion of overseas Chinese communities across dozens of separate trips implies strong social assertiveness, inferred from the documented travel/organizing pattern."
+    },
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founding and sustaining leadership of successive revolutionary organizations (Revive China Society, later the Tongmenghui) over two decades implies strong leadership drive, inferred from the documented organizational pattern."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "After the 1911 Revolution succeeded, he voluntarily ceded the provisional presidency to Yuan Shikai to preserve national unity -- a specific, documented, genuinely collaborative/conciliatory act, though historians differ on whether it was strategically wise."
+    },
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Successfully raising sustained funding from overseas Chinese communities across four decades and multiple continents implies real persuasive capability, inferred from the documented fundraising outcomes."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining a single overarching goal (ending imperial rule, establishing a republic) across two decades of exile and personal risk implies strong achievement drive, inferred from the documented career arc."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His Three Principles of the People framework suggests real structural political thinking, inferred from the documented content and later influence of that framework."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining a two-decade organizing effort across dramatically different political and geographic contexts (Hawaii, Japan, Europe, mainland China) implies real adaptability, inferred from the documented breadth of these operating contexts."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining organizing and fundraising activity across two decades of exile implies real behavioral discipline, inferred from the documented duration of the effort."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognizing and acting on the specific 1911 political opening created by a local military mutiny (the Wuchang Uprising) to bring the broader revolutionary movement to power suggests real opportunity recognition, inferred from the documented timing of the Revolution's success."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursuing a republican, rather than reformist-monarchist, vision for China against the era's more moderate reform movements suggests independent political judgment, inferred from the documented distinctiveness of his revolutionary (vs. reformist) position."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Trained as a physician before turning to revolutionary politics, and sustained engagement with Western political philosophy while organizing abroad, suggests broad intellectual curiosity, inferred from the documented breadth of his education and influences."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining logistically complex fundraising and organizing operations across dozens of overseas Chinese communities over two decades implies real attention to organizational detail, inferred from the documented scale of the effort."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founding and sustaining successive revolutionary organizations with defined structures and goals over two decades implies real methodical planning, inferred from the documented organizational continuity."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining direct opposition to the Qing dynasty for two decades, including surviving a kidnapping/assassination attempt, implies real tolerance for sustained high-stakes conflict, inferred from the documented pattern of his revolutionary career."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, increasingly sophisticated organizational and diplomatic capability across two decades of revolutionary organizing suggests developing mastery, inferred from the documented career arc."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- no inherited position; a physician by training whose political role was entirely self-built through decades of organizing."
+  },
+  "holdReason": "Held after a genuine source-first research/scoring pass this session (citing Lyon Sharman's and Harold Schiffrin's standard biographies): avgConf 0.464 vs 0.55 floor, coverage 0.572 vs 0.6 floor. The documented 1896 London kidnapping and the quantified 20-year fundraising/organizing record support several strong rows, but much of his personal working style and decision process beyond the organizational/political record is comparatively thin in the English-language secondary literature consulted this session."
+}
