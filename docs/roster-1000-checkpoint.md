@@ -74,7 +74,7 @@ session** — this was pure offline analysis, exactly as scoped.
    new acceptances — a real, honest finding refining rather than
    contradicting session 6's own conclusion; roster stays at 75,
    portrait coverage 22→26, full verification gate, checkpoint update.
-9. Session 8 (this session's commit(s) — see end of session) — a full
+9. Session 8 (`af22c5b`) — a full
    methodology audit, no roster growth. Traced confidence semantics
    end-to-end through the real matching/eligibility code, measured
    per-trait evidence difficulty across 102 candidates, ran a blind
