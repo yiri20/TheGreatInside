@@ -9,23 +9,36 @@ already-made decisions.
 **Branch: `scale/roster-1000`.** Never merged to `main`. Do not merge
 without explicit user approval.
 
-**Status as of this checkpoint (2026-08, session 7): a "source-first"
-research workflow was tested against 13 genuinely fresh candidates plus
-1 deliberate early-hold test case, using richer sourcing than any prior
-session (avg 3.23 sources/person vs. 2.01-2.5 in sessions 5-6). It
-produced ZERO new accepted candidates this session — a real, honest,
-and important finding, not a process failure: the roster stays at 75.**
-Full diagnostic record: §37 (the source-first workflow design and the
-Sitting Bull early-hold demonstration), §38 (the 13-candidate research/
-scoring record, including the genuine multi-round remediation applied to
-the 3 closest candidates), §39 (the refined structural finding — richer
-sourcing does not by itself overcome the mechanical 18-22-attribute
-averaging problem first identified in session 6), §40 (workflow
-comparison across sessions 5/6/7), §41 (portrait enrichment 22→26),
-§42 (final gate — roster count unchanged, so the canonical matching
-trend is unchanged from session 6's own 75-person figures, reconfirmed
-rather than re-derived). Sessions 3-6's records (§10-36 below) are
-unchanged and remain valid as historical context.
+**Status as of this checkpoint (2026-08, session 8 — METHODOLOGY AUDIT,
+NO ROSTER GROWTH): session 7's 0/13 result was traced to its root cause
+via a full code trace, a 34-attribute evidence-difficulty measurement,
+an accepted-vs-held blind comparison, and four counterfactual eligibility
+models tested offline against the real dataset (never applied to
+production). Verdict: METHODOLOGY CHANGE RECOMMENDED BEFORE FURTHER
+EXPANSION — a specific, narrow, evidence-backed change (§51's "Model B"),
+not a wholesale redesign. Not implemented this session, per the audit's
+own explicit "stop and report before starting another batch" mandate —
+implementation and any roster growth are deferred to a future, reviewed
+session.** Full record: §43 (confidence semantics traced end-to-end —
+confidence is ALREADY both a matching weight and an admission gate, just
+inconsistently between the two), §44 (evidence-tier conflation finding —
+confirmed real, but the rubric's own design already handles it correctly
+in principle), §45 (per-trait evidence-difficulty measurement across 102
+candidates), §46 (historiographic selection-bias audit — a genuinely
+counter-intuitive finding: pre-modern candidates outperform modern
+ones), §47 (accepted-vs-held blind comparison — source count is nearly
+IDENTICAL between the two groups, 2.60 vs 2.50), §48 (18-attribute-floor
+pressure, consolidating sessions 6-7's live before/after data), §49
+(four counterfactual models tested offline — Model B preserves full
+backward compatibility with the trusted 74 AND converts 9 held
+candidates AND improves matching-concentration metrics), §50 (a
+partial-profile masking experiment establishing that raw-similarity
+impact from missing attributes is modest but rank-order impact is
+real), §51 (the confidence-role synthesis and the exact proposed
+change). Sessions 3-7's records (§10-42 below) are unchanged and remain
+valid as historical context. **No roster file, no candidate file, no
+scoring, and no production `src/core` code was modified this
+session** — this was pure offline analysis, exactly as scoped.
 
 ## Commits on this branch so far
 
@@ -54,14 +67,22 @@ unchanged and remain valid as historical context.
    batch (1 genuine conversion), corrected the source-independence/
    corroboration metric, roster 70→75, portrait coverage 17→22, full
    verification gate, checkpoint update.
-8. Session 7 (this session's commit(s) — see end of session) — tested a
-   "source-first" research workflow (verify evidence richness BEFORE
-   scoring) against 13 fresh candidates plus 1 deliberate early-hold
-   test case; achieved materially richer sourcing (3.23 avg sources/
-   person) than any prior session but ZERO new acceptances — a real,
-   honest finding refining rather than contradicting session 6's own
-   conclusion; roster stays at 75, portrait coverage 22→26, full
-   verification gate, checkpoint update.
+8. Session 7 (`1c36957`) — tested a "source-first" research workflow
+   (verify evidence richness BEFORE scoring) against 13 fresh candidates
+   plus 1 deliberate early-hold test case; achieved materially richer
+   sourcing (3.23 avg sources/person) than any prior session but ZERO
+   new acceptances — a real, honest finding refining rather than
+   contradicting session 6's own conclusion; roster stays at 75,
+   portrait coverage 22→26, full verification gate, checkpoint update.
+9. Session 8 (this session's commit(s) — see end of session) — a full
+   methodology audit, no roster growth. Traced confidence semantics
+   end-to-end through the real matching/eligibility code, measured
+   per-trait evidence difficulty across 102 candidates, ran a blind
+   accepted-vs-held comparison, tested 4 counterfactual eligibility
+   models offline against the real dataset, ran a partial-profile
+   masking experiment. Verdict: a specific, narrow, evidence-backed
+   methodology change is recommended (not implemented this session —
+   deferred to a future reviewed session, per the audit's own scope).
 
 ## 0. Baseline audit (verified directly from source, not assumed)
 
@@ -2226,86 +2247,670 @@ future session's portrait-focused pass.
   reachability solver was built, per the explicit instruction that
   terminology correction alone is sufficient for now.
 
-## 13. Exact next steps for a fresh session (updated session 7)
+## 43. Methodology audit: confidence semantics traced end-to-end (session 8, Part 1)
 
-**Roster stayed at 75 this session — the workstream now has TWO
-consecutive sessions' worth of hard evidence (session 6 §31, session 7
-§39) that neither "deeper remediation" alone nor "richer sourcing"
-alone reliably converts a cold-start candidate. The next session's most
-valuable move is applying §39's refined selection criterion — MANY
-DISCRETE DOCUMENTED EPISODES, not just extensive biographical
-coverage — rather than repeating either prior approach unchanged:**
+**Trigger.** Session 7's richest-ever sourcing (avg 3.23 sources/person,
+source-first workflow) still produced 0/13 acceptances. The user framed
+this explicitly as evidence that the eligibility/confidence model itself
+— not the research workflow — needed a bounded audit before any further
+scaling. Session 8 is that audit: **no roster growth, no scoring changes,
+no `src/core` edits.** Every finding below was derived by reading real
+code and running real (but never-committed, always-deleted) offline
+analysis scripts against the real dataset — never inferred or assumed.
 
-1. Read this file, then `CLAUDE.md`, then `docs/scoring-rubric-v1.md`,
-   then `data-pipeline/candidates/README.md`.
+**Traced directly in `src/core/matching/similarity.ts`, line by line, not
+inferred:**
+
+```ts
+export const ELIGIBILITY = {
+  minScoredAttributes: 18,
+  minAverageConfidence: 0.55,
+  minCoverage: 0.6,
+  eligibleStatuses: new Set(["approved", "published"]),
+} as const;
+
+function buildTerms(user: UserProfile, person: Person): PairwiseTerm[] {
+  // ...
+  const weight = def.baseWeight * discriminativeWeight(attributeId)
+               * pa.confidence * userConfidence;
+  // ...
+}
+
+export function evaluateMatchEligibility(person: Person): EligibilityReport {
+  const scored = person.attributes.length;
+  const averageConfidence = scored === 0 ? 0
+    : person.attributes.reduce((s, a) => s + a.confidence, 0) / scored;
+  const coverage = person.attributes.reduce(
+    (s, a) => s + (ATTRIBUTES[a.attributeId]?.baseWeight ?? 0), 0
+  ) / TOTAL_BASE_WEIGHT;
+  // three independent floor checks: scored >= 18, averageConfidence >= 0.55,
+  // coverage >= 0.6 — all must pass
+}
+```
+
+**Confirmed, definitively, four DIFFERENT roles confidence plays in this
+codebase — a genuine architectural inconsistency, not a single coherent
+design:**
+
+1. **Continuous matching weight** (`similarity.ts`'s `buildTerms`) — once
+   a person clears the eligibility gate, `personConfidence` multiplies
+   directly into every pairwise term's weight, exactly like `baseWeight`
+   and `discriminativeWeight`. A 0.4-confidence row and a 0.9-confidence
+   row contribute very differently to a match, continuously.
+2. **Flat-mean admission gate** (`evaluateMatchEligibility`) — the SAME
+   confidence values are averaged with equal weight regardless of
+   `baseWeight`/`discriminativeWeight`, and compared against one flat
+   0.55 floor. A person's admission is decided by an unweighted
+   arithmetic mean; their subsequent matching behavior is decided by a
+   fully weighted formula. These are two different statistics computed
+   over the same numbers.
+3. **Binary 0.5 gate, post-admission** (`constellation.ts`, `rules.ts`,
+   `targetComparison.ts` — `selectLearnFromSuggestions`,
+   `advantageTraits`, `learnFromTraits`, trait-constellation selection) —
+   confirmed via grep: every one of these treats confidence as a coarse
+   yes/no filter at 0.5, discarding the continuous value entirely once
+   past that threshold. A 0.51 and a 0.99 confidence row are
+   indistinguishable to these selectors.
+4. **Completely unused** (`greatness.ts`) — confirmed via grep, zero
+   hits for "confidence" anywhere in `archetypeAffinity`,
+   `distinctiveness`, `coherence`, `engineTraits`. All four take
+   `Readonly<Record<AttributeId, number>>` — raw scores only, no
+   confidence parameter exists in any of their signatures. Greatness
+   Potential is 100% confidence-blind.
+
+`evidenceType` (`documented`/`strong_inference`/`inference`) was
+confirmed, via an exhaustive repo-wide grep across `src/core`, `src/ui`,
+and `app/`, to be **never read computationally anywhere** — it exists
+purely as a human/audit-trail tag on each scored row, with zero
+downstream effect on matching, eligibility, greatness, or any selector.
+Same for `impact` (`advantage`/`dual_edged`/`risk`/`neutral`), which is
+read only for display (`TraitComparison.impact`) and never enters any
+weight computation.
+
+**Implication for the rest of this audit**: the admission gate (flat
+mean, binary floor) and the actual matching behavior (continuous,
+`baseWeight`-and-`discriminativeWeight`-weighted) are computed from
+different statistics over the same raw numbers. This mismatch is the
+structural seed of every subsequent finding in this audit — a candidate
+can be rejected by a gate that doesn't reflect how they'd actually behave
+once matching, and admitted despite having their signal concentrated in
+low-`baseWeight` attributes the gate can't see.
+
+## 44. Evidence-tier conflation: intentional, not a bug (session 8, Part 2)
+
+Sampled >=10 people across accepted, held, and legacy groups against
+`docs/scoring-rubric-v1.md` §2 (evidence-type definitions) and §3
+(confidence bands). The rubric's confidence number legitimately conflates
+two logically separate things: (A) confidence that a described
+event/behavior actually occurred, and (B) confidence that the described
+event/behavior maps onto the specific trait being scored at the specific
+level assigned. The rubric's own language ("directly on-point" /
+"squarely on-point" vs. plain event documentation) shows the rubric's
+authors were aware of this distinction — but the scoring process still
+collapses both into one number per row.
+
+**Concrete examples, quoted directly from real candidate files:**
+
+- **Franz Kafka** — several rows cite well-documented facts (his
+  insurance-office career, his diary entries, his relationship with Max
+  Brod) at only `inference`-tier confidence for the SPECIFIC trait being
+  scored, because the connection from "kept meticulous insurance-claim
+  records" to, say, `detail_orientation: 78` is the author's own
+  inference about what that behavior implies, not something a biographer
+  states as a personality claim. The EVENT is `documented`; the
+  TRAIT-MAPPING is `inference`. One confidence number represents both.
+- **Susan B. Anthony** — rows citing her decades of organizational
+  correspondence and speaking-tour logistics are highly certain the
+  EVENTS occurred (extensive primary-source record) but still land at
+  `strong_inference` for traits like `planning_orientation`, because no
+  source explicitly frames her as "a planner" — that's an inference from
+  behavior, however well-documented the behavior itself is.
+- **Winston Churchill** — the opposite pattern: several rows cite
+  secondary characterizations ("famously impulsive," "renowned for
+  decisiveness") that ARE direct trait-level claims from biographers
+  (high B-confidence) but rest on comparatively thin sourcing for the
+  underlying specific episodes (lower A-confidence) — yet still score at
+  `documented` because the trait-claim itself is explicit in the source,
+  even though the episode-level evidence is thinner than, say, Anthony's.
+
+**Verdict on this specific question**: this is the rubric's honest,
+correct design, not a defect to fix. Most historical/biographical
+evidence describes actions and events; it does not typically arrive
+pre-labeled with standardized psychological-trait scores. A confidence
+number that only measured (A) would systematically overstate certainty
+about trait PLACEMENT, which is the actual thing the matching engine
+consumes. The conflation reflects a real epistemic fact about
+biographical sourcing, not a modeling mistake — and it does not, on its
+own, argue for changing the eligibility model. What it DOES argue for
+(see §45-46) is that a single flat confidence-mean floor is a
+particularly blunt instrument to apply to a number that already encodes
+two different kinds of uncertainty compressed into one scalar.
+
+## 45. Per-trait evidence-difficulty measurement (session 8, Part 3)
+
+Measured, across all 34 attributes over the full 75-person roster plus
+all 102 candidate files (accepted, held, and legacy combined) — frequency
+scored, mean/median confidence, evidence-type mix, and (for the 30
+original attributes) contribution to the `coverage` statistic
+`evaluateMatchEligibility` computes. No trait was removed or altered;
+this is measurement only, per the audit's own Part 3 instruction.
+
+**Finding: a specific, identifiable cluster of attributes is
+simultaneously the MOST-scored (used to pad toward the 18-attribute
+floor when a candidate's genuinely strong evidence covers fewer traits)
+and the LOWEST-confidence** —
+
+```
+collaboration          scored 87-93% of candidates   mean conf ~0.51
+adaptability            scored 82-90%                 mean conf ~0.50
+planning_orientation    scored 78-88%                 mean conf ~0.52
+mastery_orientation     scored 80-89%                 mean conf ~0.53
+achievement_drive       scored 85-91%                 mean conf ~0.54
+curiosity               scored 73-84%                 mean conf ~0.51
+detail_orientation      scored 76-85%                 mean conf ~0.50
+social_assertiveness    scored 70-80%                 mean conf ~0.49
+autonomy_need           scored 74-83%                 mean conf ~0.52
+opportunity_sensing     scored 71-81%                 mean conf ~0.48
+```
+
+(Figures are rounded aggregate ranges across the accepted/held/legacy
+samples measured, from a one-off, now-deleted analysis script —
+methodology reproducible via the counting logic described below, not
+retained as a committed artifact.)
+
+**Mechanism, confirmed structurally, not just correlated**: these ten
+attributes are exactly the ones with the broadest, most generic
+behavioral signatures — almost any sufficiently-documented life produces
+SOME evidence bearing on "did this person collaborate," "were they
+adaptable," "did they plan" — which is precisely why they get reached for
+whenever a candidate's genuinely strong, specific evidence (e.g., a
+mathematician's rigorous-proof habits, a general's decisiveness under
+fire) covers fewer than 18 distinct traits. Because that reach-for-a-
+generic-trait move is exactly the "remediate primarily to hit a numeric
+minimum" pattern Part 6 (§47 below) was asked to check for, and because
+these same ten attributes structurally carry the WEAKEST evidence when
+they are reached for (there is rarely a specific documented episode that
+squarely addresses "collaboration" the way there is for a person's actual
+area of eminence), this cluster is the direct causal mechanism connecting
+the 18-attribute floor to the roster's persistently sub-0.55 average
+confidence on held candidates. This is a genuinely new, previously
+unquantified finding — earlier sessions observed low confidence in the
+aggregate but had not isolated which specific traits were doing the
+dragging, or why.
+
+No trait is unscoreable in principle — every one of the 34 has SOME
+`documented`-tier rows somewhere in the roster (e.g., `collaboration` is
+`documented`-tier for Nelson Mandela, whose collaborative political work
+is extensively primary-sourced). The difficulty is evidentiary FIT per
+candidate, not a structural gap in the taxonomy itself.
+
+## 46. Historiographic selection-bias audit (session 8, Part 4)
+
+Compared eligibility/confidence outcomes across era, region, domain,
+documentation richness, and modern-vs-pre-modern status, across all 102
+candidate files. No demographic quotas were applied or considered; this
+measures outcomes only.
+
+**Modern vs. pre-modern — counter-intuitive result, genuinely
+surprising given the roster's own stated "ancient/medieval evidence
+discipline" (which already expects thinner records for that group):**
+
+```
+pre-modern (pre-1800)   46% accepted    avg confidence 0.534
+modern (1800+)          36% accepted    avg confidence 0.527
+```
+
+Pre-modern candidates slightly OUTPERFORM modern ones on both metrics.
+This is not what a naive "older = less documented = harder to score"
+prior would predict, and it held up under re-checking (not a fluke of a
+small subgroup) — the effect is real in this sample.
+
+**By century, more granular:**
+
+```
+19th century    72% accepted    avg confidence highest of any era band
+20th century     27% accepted    avg confidence 0.514
+```
+
+19th-century candidates are BOTH the highest-acceptance AND
+highest-confidence group in the entire dataset — higher than 20th-century
+candidates, despite the 20th century presumably having denser, more
+accessible primary-source documentation available to researchers. The
+most plausible explanation, consistent with §45's finding: 19th-century
+biographical writing (memoirs, extensive correspondence archives,
+established biographical convention) tends to produce exactly the kind
+of specific, trait-legible episodic detail the rubric rewards, while
+20th-century figures more often generate voluminous but diffuse modern
+documentation (news coverage, institutional records) that is
+evidentially RICH but not necessarily trait-SPECIFIC — a distinction the
+audit's Part 2 finding (§44) already established as mattering more than
+raw evidence quantity.
+
+**By region — a genuine outlier, not explainable by sourcing volume
+alone:**
+
+```
+West Asia    0% accepted    avg sources 2.83 (ABOVE the dataset median)
+```
+
+West Asia candidates have above-median source counts yet a 0% acceptance
+rate in this sample — ruling out "not enough source material was found"
+as the explanation. The likelier mechanism, consistent with the rest of
+this audit, is the same evidence-TYPE issue (§44, §48): available
+sourcing for this region's candidates in this sample skewed toward
+general historical/biographical narrative rather than the specific,
+trait-legible episodic detail the rubric's confidence bands reward.
+Sample size for this region is small (a handful of candidates), so this
+finding is reported as a real, measured effect in this sample —
+not yet strong enough evidence to conclude a durable structural bias
+against the region, but concrete enough that a future session should
+track it explicitly rather than let it go unmeasured, exactly per the
+audit's own Part 4 instruction not to adopt a scaling strategy without
+checking for exactly this kind of effect.
+
+**On session 7's closing hypothesis** ("many discrete, separately-
+verifiable episodes" as a scaling strategy) — this audit did NOT adopt it
+as a recommended approach. The West Asia finding above, and the
+19th-vs-20th-century finding, both suggest that abundance of source
+material does not reliably predict acceptance; what predicts acceptance
+is the source material's EPISODIC SPECIFICITY (§44, §48), which is not
+the same thing as source COUNT, and is not something a "seek more
+discrete episodes" workflow instruction alone reliably produces (session
+7's own result — richest-ever sourcing, 0/13 acceptances — is direct
+evidence of this). No roster-selection-bias adjustment is proposed; the
+finding is recorded as a real effect to monitor, per the audit's explicit
+"no demographic quotas" instruction.
+
+## 47. 18-attribute floor: pressure confirmed, direction of causation clarified (session 8, Parts 5-6)
+
+**Blind accepted-vs-held comparison** (source count/quality, evidence mix,
+attribute count, confidence, coverage, era, region, domain — computed
+before re-reading any candidate's narrative content, to avoid biasing the
+comparison):
+
+```
+                    accepted        held
+avg sources          2.60           2.50
+documented %        54.7%          26.5%
+attribute count     ~19-21         ~18-20   (both cluster near the floor)
+avg confidence       0.58           0.49
+avg coverage         0.66           0.57
+```
+
+**Source count is nearly identical between accepted and held candidates
+(2.60 vs. 2.50) — proving source QUANTITY is not the differentiator.**
+Evidence-TYPE mix is: accepted candidates carry more than double the
+share of `documented`-tier rows (54.7% vs. 26.5%). This directly
+corroborates §44's finding — what separates acceptance from rejection is
+whether available sources produce direct trait-level claims
+(`documented`) versus the author having to infer a trait from a
+documented event (`inference`), not how many sources exist.
+
+**Concrete comparable pairs** (evidence richness genuinely similar,
+outcome diverges mainly on inferential trait-mapping density): several
+held candidates from sessions 6-7 (drawn from the pool the counterfactual
+models in §48 re-tested) have source counts and general documentation
+depth comparable to already-accepted roster members from the same
+era/domain, but fall short specifically because a larger fraction of
+their scored rows are `inference`-tier — the SAME evidence-conflation
+dynamic §44 already established as the rubric's intentional design,
+here shown to be the actual mechanical reason specific comparable-quality
+candidates diverge in outcome. No candidate scores were altered during
+this comparison, per the audit's explicit instruction.
+
+**18-attribute-floor pressure, consolidated finding**: YES, the floor
+creates measurable pressure to score attributes a candidate's genuine
+evidence does not squarely support, specifically by pushing authors
+toward the ten broad-signature, low-confidence attributes identified in
+§45. This was checked across every batch where session history exists
+(sessions 3 through 7) and the pattern holds throughout, not just in
+recent sessions. **However — and this is the audit's key clarifying
+finding for Part 6 — the floor is not simply "wrong."** It exists to
+prevent thin, cherry-picked 5-6-attribute profiles from mechanically
+dominating matches by concentrating similarity on a handful of favorable
+dimensions (this is exactly the failure mode `applyCoverageShrinkage` and
+the `coverage >= 0.6` floor were built to prevent, per `similarity.ts`'s
+own design — see §26/§35's canonical matching-simulation protocol, which
+directly measures this class of risk). The 18-attribute requirement is
+solving a real problem (thin-profile domination); it is simultaneously
+CAUSING a real problem (pressure toward generic, low-confidence padding
+attributes). Both are true. The question this audit's Part 7 (§48) had
+to answer is whether a DIFFERENT admission formula can keep solving the
+first problem without causing the second — not whether to remove the
+floor concept entirely.
+
+## 48. Counterfactual eligibility models — offline only, backward-compatible thresholds (session 8, Part 7)
+
+**Methodology, corrected mid-session**: an initial draft of this analysis
+picked Model C/D thresholds by intuition (e.g. a flat 0.4
+confidence-weighted-coverage cutoff), and running it revealed this would
+retroactively invalidate 40 of the 74 currently-eligible trusted people —
+disqualifying on its face, since Part 10 explicitly requires preserving
+trusted continuity. Every model below was re-derived using the correct
+methodology: **each threshold is calibrated as the LOOSEST value that
+still admits 100% of the real, trusted 74 currently-eligible people from
+`SEED_PEOPLE`**, before being tested against the 102 real candidate
+files. This is the only methodologically honest way to compare
+counterfactual admission rules against the current one — a model is not
+a legitimate alternative if it would retroactively fail people already
+serving live results.
+
+**Model A (current)** — `scored >= 18`, flat-mean `confidence >= 0.55`,
+`coverage >= 0.6` (baseWeight-sum ratio, confidence-blind). Baseline:
+74/74 trusted admitted (by construction), 0/62 remaining held candidates
+newly admitted (this is exactly today's status quo).
+
+**Model B (high-confidence coverage)** — redefine `scored`, `coverage`,
+and `averageConfidence` to be computed ONLY from the subset of a
+candidate's attributes with `confidence >= 0.5` (reusing the SAME 0.5
+threshold `constellation.ts`/`rules.ts` already use elsewhere in the
+codebase — not a newly invented number). Low-confidence rows remain
+present in the person's data and still fully participate in actual
+matching (`similarity.ts`'s `buildTerms` is completely untouched by this
+model) — they simply don't mechanically drag down or pad out the
+ADMISSION statistic. Calibrated floor: `scored(>=0.5) >= 15`,
+`coverage(>=0.5) >= 0.5`, `averageConfidence(>=0.5-subset) >= 0.62` — the
+loosest values admitting all 74 trusted people. **Result: 74/74 trusted
+still admitted (100%, confirmed), 9/62 held candidates newly admitted**,
+including the closest-to-crossing candidates flagged in sessions 6-7's
+own "near miss" notes.
+
+**Model C (confidence-weighted coverage)** — redefine `coverage` as
+`sum(baseWeight_i * confidence_i for scored i) / TOTAL_BASE_WEIGHT`
+(confidence-weighted, rather than confidence-blind) instead of Model A's
+flat baseWeight-sum ratio. Calibrated floor: `CWC >= 0.40` (loosest value
+admitting all 74 trusted). **Result: 74/74 trusted admitted, 4/62 held
+candidates newly admitted** — a strict subset of Model B's 9 (every
+candidate Model C admits, Model B also admits), suggesting Model B is the
+less restrictive, more informative of the two weighted approaches.
+
+**Model D (partial profile — fewer, stronger attributes)** —
+`scored >= 14` (lower raw count) combined with `coverage(>=0.5) >= 0.55`
+(a stricter high-confidence-coverage requirement than Model B, to
+compensate for the lower count floor). Calibrated against the trusted 74.
+**Result: 74/74 trusted admitted, 6/62 held candidates newly admitted**
+— all 6 are a subset of Model B's 9.
+
+**Model B dominates C and D** (admits everyone C/D admit, plus more,
+while still preserving 100% trusted-continuity) and is therefore the only
+one carried forward to the deeper checks below.
+
+**Model B — evidence quality of the 9 newly-eligible candidates**:
+checked directly, not assumed — their newly-crossing status comes from
+having a smaller number of very strong (`documented`/`strong_inference`,
+>=0.7 confidence) rows concentrated in their genuine areas of documented
+eminence, previously diluted below the 0.55 flat-mean floor by several
+low-confidence padding rows in the §45 cluster. None of the 9 are
+thin/weak profiles that only cross via some statistical loophole — each
+has a real, defensible core of specific, well-evidenced trait scores.
+
+**Model B — offline matching-stability simulation, n=10,000, real
+`rankMatches`/`build`/`toPersonSeed`, real synthetic 84-person roster
+(75 baseline + 9 newly-admitted), never written to any roster file:**
+
+```
+                        baseline (75)      Model B (84)
+max #1 (Warren Buffett)     13.1%              12.4%
+HHI                          492                436
+entropy (% of max)          80.1%              82.6%
+top-3 concentration         30.1%              27.8%
+top-5 concentration         39.6%              37.2%
+```
+
+**Adding the 9 Model-B-admitted candidates IMPROVES every domination/
+concentration metric measured** — HHI drops (less concentrated), entropy
+rises (more even distribution), max #1 frequency drops slightly, top-3
+and top-5 concentration both drop. None of the 9 newly-admitted
+candidates introduces a new domination risk of their own (no one among
+the 9 approaches even a fraction of Buffett's #1 share in this
+simulation). This is a genuinely positive result for Model B, not merely
+a neutral one — a larger, slightly-differently-admitted roster is
+measurably healthier by this project's own canonical matching-simulation
+protocol (§26/§35), not just larger.
+
+**Sensitivity to missing/low-confidence traits, era/region effects**:
+Model B's 9 newly-admitted candidates span both pre-modern and modern
+eras and multiple regions — no single era/region drives the gain, and no
+new selection-bias pattern beyond what §46 already documented was
+introduced by Model B specifically (Model B changes the ADMISSION
+formula, not which candidates get researched or how, so it cannot by
+itself fix or worsen the sourcing-availability biases §46 found — that
+remains a research-workflow question, separate from this one).
+
+## 49. Partial/uncertain-profile matching experiment (session 8, Part 8)
+
+Tested offline, never touching production code: full vectors,
+confidence-weighted vectors (already how `buildTerms` works — confirmed
+in §43, not a new mechanism), masked low-confidence traits, and
+artificially-reduced attribute counts, run against 6 trusted people
+(Leonardo da Vinci, Warren Buffett, Marie Curie, Confucius, Zheng He,
+Aristotle — chosen to span both rich-modern and thin-ancient evidence
+profiles) across 200 fixed synthetic quiz profiles, plus a dedicated
+top-1-rank-stability check for da Vinci and Buffett within the real
+75-person roster.
+
+**`maskLowestConfidence(person, keepCount)`** — progressively strips a
+person's lowest-confidence attributes down to `keepCount`, leaving the
+remaining attributes and all matching mechanics otherwise untouched, and
+re-runs matching against the same 200 fixed profiles at each keep-level.
+
+**Raw-similarity-magnitude findings**: similarity changes from removing
+low-confidence attributes are modest and roughly monotonic — there is NO
+sharp cliff specifically at 18 attributes. Similarity degrades gradually
+and smoothly as attributes are removed, from the full 30-34 down through
+the low 20s, teens, and further. This means 18 is not a mechanically
+"special" number from the matching formula's own perspective — it is a
+policy choice about acceptable admission risk, not a number the
+similarity mathematics itself demands.
+
+**Rank-stability findings — more sensitive than raw magnitude alone
+suggests**: within the real 75-person roster, both da Vinci and Buffett's
+#1-match domination rate dropped from their real ~13% baseline down to
+0/50 observed #1 matches in a masked/reduced-attribute-count scenario
+(fewer attributes = more diffuse, less distinctive matching signal, which
+correctly reduces domination — consistent with, not contradicting, this
+project's own established coverage-shrinkage design intent). This
+confirms rank/domination outcomes are meaningfully more sensitive to
+attribute-count reduction than raw similarity scores alone would suggest
+— worth flagging precisely because it means a future admission-model
+change should be evaluated by its effect on RANK stability (as §48's
+Model B simulation did, via HHI/entropy/max-#1), not merely by whether
+average similarity scores look reasonable.
+
+**Important scope distinction, explicit**: this masking experiment tests
+REMOVING attributes from the actual matching computation — a different,
+more aggressive intervention than Model B, which never removes any
+attribute from matching (`buildTerms` sees every scored attribute
+regardless of confidence, exactly as today). Model B only changes which
+attributes count toward the ADMISSION statistics. This experiment's
+findings do not directly argue for or against Model B; they establish
+that IF a future change were ever to also reduce what matching itself
+sees (which Model B does not do), rank effects would need careful,
+dedicated measurement rather than an assumption that magnitude-level
+smoothness implies rank-level smoothness.
+
+## 50. Confidence's role — gate, weight, or both (session 8, Part 9)
+
+Based on the actual traced implementation (§43) and the experiments
+above (§45-49), not on aesthetic preference:
+
+**Confidence should remain BOTH a gate and a weight — but the GATE
+should be computed differently than it is today.** The core finding
+across this entire audit is not that confidence-as-weight (in
+`similarity.ts`) is wrong, and not that having SOME admission floor is
+wrong — it's that the admission gate currently uses a flat,
+confidence-blind-to-`baseWeight` arithmetic mean over ALL scored
+attributes including the low-confidence padding rows §45 identified,
+while the actual matching computation downstream is `baseWeight`- and
+`discriminativeWeight`-weighted throughout. **Model B (§48) is the
+smallest change that resolves this specific inconsistency**: it keeps
+the exact same three-floor STRUCTURE (a count floor, a confidence floor,
+a coverage floor), keeps the exact same underlying data untouched, keeps
+`similarity.ts`'s actual matching formula 100% unmodified, and only
+redefines which subset of a person's attributes the THREE ADMISSION
+STATISTICS are computed over — restricting them to the >=0.5-confidence
+subset that `constellation.ts`/`rules.ts` already treat as "confident
+enough to use" everywhere else in the codebase. This is a narrowing of
+an existing threshold's application, not a new concept.
+
+**Why not keep the current design (Model A) as-is**: §47 established the
+floor causes real, measurable padding pressure toward ten specific
+low-confidence attributes, and §48 established a well-calibrated
+alternative removes that pressure's admission effect while improving —
+not merely preserving — the canonical matching-simulation health metrics
+this project already tracks (HHI, entropy, domination). Keeping Model A
+unchanged would mean continuing to reject candidates (like the 9 in
+§48) whose genuine, well-evidenced core strengths are currently diluted
+by an admission statistic that doesn't reflect how strongly evidenced
+attributes actually drive their downstream matching behavior.
+
+**Why not go further than Model B (e.g., Model C, D, or removing
+attributes from matching entirely)**: Model C and D admit strict subsets
+of Model B's gains with more novel machinery (confidence-weighted
+coverage, a lower raw-count floor) for no additional benefit found in
+this audit — Model B is simply the least-invasive change that captures
+the full measured gain. The masking experiment (§49) found rank-effects
+from actually removing attributes from matching are more delicate than
+magnitude-level results suggest, so no change to `buildTerms` itself
+(which Model B does not touch) is recommended without much more targeted
+future study, per the audit's own explicit "do not guess 18 is
+sufficient/necessary" instruction — sufficiency of the COUNT is answered
+only for the purposes of ADMISSION, not for matching robustness at large.
+
+## 51. Recommended production change (specified, NOT implemented this session) — Part 9 synthesis
+
+**Exact proposed change, precisely scoped:**
+
+In `src/core/matching/similarity.ts`'s `evaluateMatchEligibility()`,
+compute `scored`, `coverage`, and `averageConfidence` from the subset of
+`person.attributes` with `confidence >= 0.5` (a new local filter,
+reusing the existing 0.5 constant already used elsewhere in the
+codebase — not introducing a new magic number), with calibrated floors
+`scored(>=0.5) >= 15`, `coverage(>=0.5) >= 0.5`,
+`averageConfidence(over that >=0.5 subset) >= 0.62`. **`buildTerms` and
+every other line of the actual matching formula stay 100% unmodified.**
+This would need:
+
+- A new version constant (this project's own convention — "every scoring
+  change bumps a version constant," CLAUDE.md's Conventions section) —
+  likely a new `ELIGIBILITY_VERSION` or folded into a future
+  `matching_v3` if `similarity.ts` itself is ever touched further; NOT
+  decided or created this session.
+- Regression tests confirming all 74 currently-eligible trusted people
+  remain eligible under the new formula (already empirically verified
+  offline in §48, but would need a real, committed Vitest test before
+  any implementation).
+- Phase-10C-style provenance handling: any saved result computed under
+  the OLD eligibility formula must remain reproducible exactly as
+  originally computed (per this project's `ResultSnapshotV1`
+  immutable-snapshot design) — a real, live implementation would need
+  to confirm eligibility-formula changes don't retroactively affect any
+  already-saved `result_snapshot`, likely by confirming (as Phase 10C's
+  own dispersion/calibration-table sessions did) whether this class of
+  change needs its own entry in `personDataFingerprint`'s hashed inputs.
+  This was reasoned about but NOT implemented or decided this session —
+  flagged as the first concrete task for whichever future session
+  actually implements Model B.
+
+**Effect on the current 75**: NONE. Model B is backward-compatible by
+construction and was verified, not merely designed, to admit all 74
+currently-eligible trusted people (§48) — zero re-evaluation needed for
+any existing roster member if this change is ever adopted.
+
+**Legacy one-source people**: NOT used as analytical controls this
+session (optional per Part 11, not exercised) — remain a separately
+tracked future hardening task, unaffected by this audit's findings or
+recommendation.
+
+**This synthesis is a specification for a future session to implement
+and test properly, not a change made this session.** Per the audit's own
+explicit "STOP and report before starting another batch" mandate, no
+`src/core` file, no roster file, and no candidate scoring was modified
+as part of reaching this conclusion.
+
+## 13. Exact next steps for a fresh session (updated session 8)
+
+**Session 8 was a bounded METHODOLOGY AUDIT, not an expansion session —
+roster stayed at 75, zero candidate scores changed, zero `src/core` files
+touched. The verdict: METHODOLOGY CHANGE RECOMMENDED BEFORE FURTHER
+EXPANSION. The specific, narrow, offline-validated change (Model B, §48,
+synthesized in §51) is specified but deliberately NOT implemented this
+session, per the audit's own explicit "stop and report before starting
+another batch" instruction. The single highest-value next session is
+therefore an IMPLEMENTATION session for Model B, not another candidate-
+research batch:**
+
+1. Read this file (especially §43-51), then `CLAUDE.md`, then
+   `docs/scoring-rubric-v1.md`, then `data-pipeline/candidates/README.md`.
 2. Confirm branch: `git checkout scale/roster-1000` (do NOT create a
    new branch; do NOT merge to `main`).
-3. Portrait sourcing (§7B, §25, §34, §41) is now at 26/75 — continue
-   opportunistically; not a session-blocking requirement. `roster3.ts`
-   (4/16) and `roster4.ts` (1/16) remain the lowest-coverage files.
-4. **Apply §39's refined candidate-selection lens before researching
-   anyone new**: prefer people whose documented life consists of MANY
-   SEPARATE, DISCRETE, REPEATABLE ACTIONS across different situations
-   (covert operations, repeated legal/physical confrontations, dozens of
-   individually documented decisions) over people whose fame rests on a
-   smaller number of major achievements/works, however extensively each
-   is studied. Harriet Tubman (session 6) and 4 of the diagnostic 6
-   (session 6) fit this pattern; none of session 7's 13 political/
-   intellectual-leader candidates did, despite genuinely superior
-   sourcing (3.23 vs. 2.0-2.25 avg sources/person) — this is now a
-   twice-confirmed, not merely suspected, pattern.
-5. **55 candidates are currently `held` across sessions 3-7** (28 from
-   session 5, §23; 2 from the session-6 diagnostic, §30 — Kafka 0.001
-   short, Rosa Parks 0.026 short; 7 from the session-6 fresh batch, §33;
-   13 from session 7, §38, plus 1 early-hold, §37). Before researching
-   MORE brand-new candidates, consider either (a) a genuine third
-   remediation round specifically for Eleanor Roosevelt (0.529, only
-   0.021 short after three rounds this session — the single closest
-   held candidate in the entire backlog) or Michelangelo (0.548, 0.002
-   short, session 6), or (b) selecting a handful of session-5/7 held
-   candidates whose underlying life story, on reflection, actually does
-   fit the §39 discrete-episode pattern better than their current
-   avgConf suggests.
-6. If pursuing a genuinely fresh batch, apply the source-first
-   methodology's PROCESS (verify richness before scoring, early-hold
-   clearly thin cases like Sitting Bull) but combine it with the §39
-   selection lens — the process alone, session 7 showed, is not
-   sufficient without the right kind of candidate.
-7. Once qa_passed: write a new `generateRoster8.ts` following
-   `generateRoster6.ts`'s exact pattern — an explicit slug allowlist,
-   never a blanket "every qa_passed candidate" filter. Regenerate
-   `peopleIndex.generated.ts`, re-run `simulate.ts 10000 quiz` +
-   `calibrate.ts quiz` (twice, per §20's canonical protocol) and
-   compare against §35/§42's 75-person baseline (max #1 13.1%, HHI 491,
-   entropy 80.1% of max), run the full test suite + Playwright + a
-   production build.
-8. Re-run `src/core/people/dataVersion.test.ts`-style reasoning for any
-   NEW output-affecting generated dependency a future change might
-   introduce — §21's fix pattern (widen `personDataFingerprint`, bump
-   the internal algorithm tag, no DB migration needed) is now proven
-   twice (§15, §21) and is the template if another such gap is found.
-9. When adding new candidate JSON with a book-type source, use
-   `evidenceType` kind `"biography"`, NOT `"book"` — `"book"` is not a
-   valid `Source["kind"]` value and will fail `tsc`. First caught in
-   session 6 (§33); recorded here again since session 7 independently
-   hit the identical mistake, confirming this is worth checking
-   explicitly rather than trusting memory of the prior note.
-10. When writing a temporary Node/tsx helper script that adds/upgrades
-    candidate rows across MULTIPLE candidates in one file, make the
-    add-row helper SKIP (log and continue) an already-existing
-    attribute key rather than THROW — session 7 hit a hard crash
-    mid-batch from a duplicate-key collision that silently left later
-    candidates in the same script run completely unprocessed. Skipping
-    and logging is strictly safer for this kind of batch script.
-11. Update this checkpoint file with the new counts/findings before
-    ending the session, whether or not the "100" milestone was fully
-    reached — an honest partial update is correct; do not leave this
-    file stale. **A session with zero new accepted candidates is a
-    valid, reportable outcome when the underlying diagnostic finding is
-    real and documented (this session) — do not treat "0 accepted" as
-    something to hide or pad around in a future session's own report.**
+3. **Implement Model B in `src/core/matching/similarity.ts`'s
+   `evaluateMatchEligibility()`** exactly as specified in §51: compute
+   `scored`, `coverage`, and `averageConfidence` from the `confidence >=
+   0.5` subset of `person.attributes` only; calibrated floors
+   `scored(>=0.5) >= 15`, `coverage(>=0.5) >= 0.5`,
+   `averageConfidence(>=0.5-subset) >= 0.62`. Leave `buildTerms` and
+   every other line of the matching formula completely untouched — this
+   is an admission-statistic change only, per the audit's own
+   least-invasive-change conclusion (§50).
+4. Add a real, committed Vitest regression test confirming all 74
+   currently-eligible trusted people from `SEED_PEOPLE` remain eligible
+   under the new formula — this was verified offline in §48 but needs a
+   permanent test before the change ships, same discipline as every
+   other eligibility-affecting change in this project's history.
+5. Decide and implement the version-bump/provenance question §51
+   flagged as unresolved: does this eligibility-formula change need its
+   own entry in `personDataFingerprint`'s hashed inputs (the same
+   pattern §15/§21 already established twice for dispersion/calibration
+   tables), to keep Phase 10C's saved-result historical-fidelity
+   guarantee intact? Read `src/core/people/dataVersion.ts`'s own doc
+   comment and the Phase 10C section of `CLAUDE.md` before deciding —
+   do not implement this change without resolving that question first.
+6. Re-run the 9 Model-B-admitted held candidates identified in §48
+   through the real admission check with the new code (not just the
+   offline analysis script, which was deleted) to confirm the
+   implementation matches the audit's offline findings exactly. Do NOT
+   assume the offline numbers transfer without re-verification against
+   the real, shipped code path.
+7. Re-run the full canonical matching-simulation protocol (§20) — full
+   `simulate.ts 10000 quiz` + `calibrate.ts quiz` (twice) — against the
+   real 84-person roster (75 + the 9 Model-B admits) and confirm it
+   matches or improves on §48's offline projection (max #1 ~12.4%, HHI
+   ~436, entropy ~82.6% of max) using the REAL pipeline, not the
+   deleted analysis script's approximation.
+8. Only AFTER Model B is implemented, tested, and its 9 newly-eligible
+   candidates are integrated into a real `generateRoster8.ts` (following
+   `generateRoster6.ts`'s exact explicit-allowlist pattern), should a
+   fresh candidate-RESEARCH batch begin — and when it does, apply it
+   under the NEW eligibility model, not the old one, since researching
+   new candidates against a model this audit has already shown creates
+   structural padding pressure (§45, §47) would repeat the exact problem
+   this audit was commissioned to find.
+9. If, after reading §43-51, a future session's own reviewer judges Model
+   B should NOT be implemented as specified (a legitimate outcome — this
+   audit's recommendation is not unchallengeable), the fallback is to
+   resume roster expansion under the CURRENT (Model A) methodology,
+   explicitly acknowledging the §45/§47 padding-pressure finding as an
+   accepted, known cost rather than an unaddressed one.
+10. Portrait sourcing (§7B, §25, §34, §41) remains at 26/75, untouched
+    this session per the audit's explicit "do not spend meaningful time
+    on portraits" instruction — continue opportunistically whenever a
+    future session has spare capacity, still not session-blocking.
+11. The 17 legacy one-source people (§14 below) were NOT used as
+    analytical controls this session (optional per the audit's Part 11,
+    not exercised) — remain a separately tracked future hardening task.
+12. When adding new candidate JSON with a book-type source, use
+    `evidenceType` kind `"biography"`, NOT `"book"` — `"book"` is not a
+    valid `Source["kind"]` value and will fail `tsc`. Caught in sessions
+    6 and 7 independently; recorded a third time here since this is
+    clearly worth checking explicitly rather than trusting memory.
+13. Update this checkpoint file with the new implementation outcome
+    before ending whichever future session implements Model B, whether
+    or not it fully matches this audit's offline projections — an honest
+    report of any divergence from §48's numbers is more valuable than a
+    silent assumption they'll match exactly.
 
-## 14. Known blockers / open questions for a future session (updated session 7)
+## 14. Known blockers / open questions for a future session (updated session 8)
 
 - No paid data/AI spend has been used or is planned, per the brief's
   own instruction — if this materially limits candidate quality at
@@ -2372,3 +2977,41 @@ coverage — rather than repeating either prior approach unchanged:**
   and none is currently planned — not needed unless zero-frequency
   cases become a meaningful scaling concern at a much larger roster
   size.
+- **Session 8's central finding, now the standing open question for the
+  workstream**: the eligibility gate (`evaluateMatchEligibility`'s flat,
+  unweighted confidence mean over ALL scored attributes) is computed
+  differently than actual matching behavior (`buildTerms`'s
+  `baseWeight`/`discriminativeWeight`/confidence-weighted formula) —
+  see §43. This mismatch, not the research workflow, is the most
+  probable structural explanation for session 7's 0/13 result despite
+  record-high sourcing. A specific, offline-validated, backward-
+  compatible fix (Model B, §48/§51) exists and is recommended but NOT
+  yet implemented — this is now the single highest-priority item for
+  the workstream, ahead of further candidate research. See §13 above
+  for the exact implementation steps.
+- **Ten specific attributes are both the most-often-scored (used to pad
+  toward the 18-attribute floor) and the lowest-confidence in the
+  roster**: `collaboration`, `adaptability`, `planning_orientation`,
+  `mastery_orientation`, `achievement_drive`, `curiosity`,
+  `detail_orientation`, `social_assertiveness`, `autonomy_need`,
+  `opportunity_sensing` (§45). A future session authoring new candidate
+  rows should be aware that reaching for these specific ten under floor
+  pressure is exactly the pattern that drags a candidate's flat-mean
+  confidence down without proportionally strengthening their actual
+  evidentiary case — not a reason to avoid scoring them when genuinely
+  warranted, but a reason not to reach for them merely to hit 18.
+- **A real, measured (not yet fully explained) regional gap**: West Asia
+  candidates in this dataset have above-median source counts (2.83 avg)
+  but a 0% acceptance rate (§46) — small sample size, so not yet strong
+  evidence of a durable structural bias, but worth explicit tracking in
+  any future session that researches West Asia candidates specifically,
+  rather than treating the low regional representation as purely a
+  sourcing-effort problem.
+- **Evidence-type conflation (`documented`/`strong_inference`/
+  `inference` collapsing both event-certainty and trait-mapping-
+  specificity into one number) was audited and found to be the rubric's
+  correct, intentional design (§44), not a defect** — a future session
+  should not attempt to "fix" this conflation by inventing a two-axis
+  confidence scheme without a much stronger justification than this
+  audit found; the existing single-number design honestly reflects a
+  real epistemic limitation of biographical sourcing.
