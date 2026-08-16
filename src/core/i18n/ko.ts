@@ -1575,6 +1575,20 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.nicolaus-copernicus": "니콜라우스 코페르니쿠스",
   "person.name.wu-zetian": "측천무후",
 
+  // roster-1000 session 10, eligibility_v2 promotion (2026-08) — 9 people,
+  // held under the old flat-mean confidence gate, newly eligible once that
+  // gate was replaced by a high-confidence-subset requirement (see
+  // docs/roster-1000-checkpoint.md SS52-64). Scores/sources unchanged.
+  "person.name.averroes": "이븐 루시드",
+  "person.name.cv-raman": "C. V. 라만",
+  "person.name.franz-kafka": "프란츠 카프카",
+  "person.name.katherine-johnson": "캐서린 존슨",
+  "person.name.maimonides": "마이모니데스",
+  "person.name.mary-wollstonecraft": "메리 울스턴크래프트",
+  "person.name.michelangelo": "미켈란젤로",
+  "person.name.octavia-butler": "옥타비아 버틀러",
+  "person.name.susan-b-anthony": "수전 B. 앤서니",
+
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal
   // rendering of the English strings.

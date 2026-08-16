@@ -99,11 +99,63 @@ import { discriminativeWeight } from "./dispersion.js";
 
 export const MATCHING_VERSION = "matching_v2";
 
-/** Eligibility thresholds. Incomplete profiles stay browsable but never match. */
+/**
+ * ELIGIBILITY_VERSION — Roster-1000 session 10 (2026-08).
+ *
+ * `eligibility_v1` (implicit, unversioned until this session) admitted a
+ * person on a FLAT, unweighted mean of `confidence` across every scored
+ * attribute. Roster-1000 sessions 8-9 found this flat mean is structurally
+ * different from how `buildTerms` below actually weights confidence
+ * (continuously, per attribute) — a person whose few strong, well-evidenced
+ * attributes were diluted by several low-confidence "padding" attributes
+ * (reached for only to clear `minScoredAttributes`) could fail admission
+ * even though their genuine evidentiary core was strong. Session 8's first
+ * proposed fix ("Model B": redefine `coverage` itself over a high-
+ * confidence subset) was independently re-validated in session 9 and found
+ * NOT to reproduce and NOT to survive out-of-sample testing — see
+ * `docs/roster-1000-checkpoint.md` SS52-53. A revised hybrid design DID
+ * validate (SS54-62) and is what `eligibility_v2` below implements: leave
+ * `minCoverage`/`minScoredAttributes` and their underlying computation
+ * COMPLETELY unchanged (still full-profile, confidence-blind — the actual
+ * mechanism that guards against thin/flat-profile matching domination, per
+ * `applyCoverageShrinkage`'s own history below), and replace ONLY the flat
+ * `minAverageConfidence` gate with two requirements computed over the
+ * subset of attributes at confidence >= 0.5: a minimum count and a minimum
+ * average confidence WITHIN that subset. Validated (out-of-sample,
+ * leave-batch-out cross-validated, parameter-sensitivity swept) to
+ * preserve all pre-existing trusted eligible people while admitting a real,
+ * independently-quality-checked subset of previously-held candidates.
+ *
+ * This is an ADMISSION-STATISTIC change only. `buildTerms`/`similarityFrom`
+ * below are completely unmodified: every scored attribute, at any
+ * confidence level, still participates in matching with its existing
+ * continuous `personConfidence` weight — admission and matching read the
+ * same underlying data through two deliberately different lenses, and only
+ * the admission lens changed here.
+ */
+export const ELIGIBILITY_VERSION = "eligibility_v2";
+
+/** Eligibility thresholds. Incomplete profiles stay browsable but never match.
+ *
+ *  `minScoredAttributes`/`minCoverage` are `eligibility_v1`'s original,
+ *  unchanged requirements — full-profile, confidence-blind, computed over
+ *  every scored attribute exactly as before. `highConfidence` is new in
+ *  `eligibility_v2`: it REPLACES the old flat `minAverageConfidence` gate
+ *  (which averaged confidence across every scored attribute, including
+ *  ones a person may have been scored on only to reach
+ *  `minScoredAttributes`) with two requirements computed only over the
+ *  subset of attributes at `confidence >= threshold` — a minimum count of
+ *  such attributes, and a minimum average confidence within that subset
+ *  alone. `threshold` uses `>=`, not `>`: a row at exactly 0.5 confidence
+ *  belongs to the high-confidence subset. */
 export const ELIGIBILITY = {
   minScoredAttributes: 18,
-  minAverageConfidence: 0.55,
   minCoverage: 0.6,
+  highConfidence: {
+    threshold: 0.5,
+    minCount: 12,
+    minAverageConfidence: 0.55,
+  },
   eligibleStatuses: new Set(["approved", "published"]),
 } as const;
 
@@ -375,8 +427,18 @@ export function matchUserToPerson(
 export interface EligibilityReport {
   eligible: boolean;
   scoredAttributes: number;
+  /** Flat mean confidence across EVERY scored attribute — retained for
+   *  diagnostic/backward-compat visibility (dev tooling, roster-quality
+   *  reports) but no longer part of the admission gate itself as of
+   *  `eligibility_v2`; see `highConfidenceCount`/`highConfidenceAverage`. */
   averageConfidence: Confidence;
   coverage: number;
+  /** Count of scored attributes at `confidence >= ELIGIBILITY.highConfidence.threshold`
+   *  — the `eligibility_v2` admission statistic replacing the old flat mean. */
+  highConfidenceCount: number;
+  /** Average confidence WITHIN that high-confidence subset only (0 if the
+   *  subset is empty). */
+  highConfidenceAverage: Confidence;
   reasons: string[];
 }
 
@@ -389,19 +451,48 @@ export function evaluateMatchEligibility(person: Person): EligibilityReport {
     person.attributes.reduce((s, a) => s + (ATTRIBUTES[a.attributeId]?.baseWeight ?? 0), 0) /
     TOTAL_BASE_WEIGHT;
 
+  // `eligibility_v2` admission statistic: the subset of scored attributes at
+  // confidence >= threshold (>=, not >: a row at exactly the threshold value
+  // belongs to the high-confidence subset). Deliberately does NOT touch
+  // `coverage` above, which stays full-profile and confidence-blind exactly
+  // as `eligibility_v1` computed it — see ELIGIBILITY_VERSION's doc comment.
+  const highConfidenceAttrs = person.attributes.filter(
+    (a) => a.confidence >= ELIGIBILITY.highConfidence.threshold,
+  );
+  const highConfidenceCount = highConfidenceAttrs.length;
+  const highConfidenceAverage =
+    highConfidenceCount === 0
+      ? 0
+      : highConfidenceAttrs.reduce((s, a) => s + a.confidence, 0) / highConfidenceCount;
+
   if (scored < ELIGIBILITY.minScoredAttributes) {
     reasons.push(`only ${scored} scored attributes (need ${ELIGIBILITY.minScoredAttributes})`);
-  }
-  if (averageConfidence < ELIGIBILITY.minAverageConfidence) {
-    reasons.push(`average confidence ${averageConfidence.toFixed(2)} below threshold`);
   }
   if (coverage < ELIGIBILITY.minCoverage) {
     reasons.push(`coverage ${coverage.toFixed(2)} below threshold`);
   }
+  if (highConfidenceCount < ELIGIBILITY.highConfidence.minCount) {
+    reasons.push(
+      `only ${highConfidenceCount} attributes at confidence >= ${ELIGIBILITY.highConfidence.threshold} (need ${ELIGIBILITY.highConfidence.minCount})`,
+    );
+  }
+  if (highConfidenceAverage < ELIGIBILITY.highConfidence.minAverageConfidence) {
+    reasons.push(
+      `average confidence among high-confidence attributes ${highConfidenceAverage.toFixed(2)} below threshold`,
+    );
+  }
   if (!ELIGIBILITY.eligibleStatuses.has(person.status)) {
     reasons.push(`status "${person.status}" is not publishable`);
   }
-  return { eligible: reasons.length === 0, scoredAttributes: scored, averageConfidence, coverage, reasons };
+  return {
+    eligible: reasons.length === 0,
+    scoredAttributes: scored,
+    averageConfidence,
+    coverage,
+    highConfidenceCount,
+    highConfidenceAverage,
+    reasons,
+  };
 }
 
 export interface RankedMatch extends MatchResult {

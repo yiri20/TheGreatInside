@@ -42,3 +42,32 @@ describe("version provenance", () => {
     expect(registry).toEqual(before);
   });
 });
+
+describe("eligibility_v2 versioning (Roster-1000 session 10)", () => {
+  it("CURRENT_VERSIONS.eligibilityVersion is eligibility_v2", () => {
+    expect(CURRENT_VERSIONS.eligibilityVersion).toBe("eligibility_v2");
+  });
+
+  it("the pre-bump eligibility_v1 combination is preserved in KNOWN_VERSION_SNAPSHOTS, per the append-only invariant", () => {
+    const eligibilityV1Entry = KNOWN_VERSION_SNAPSHOTS.find((s) => s.eligibilityVersion === "eligibility_v1");
+    expect(eligibilityV1Entry).toBeDefined();
+    // Identical to CURRENT_VERSIONS in every OTHER field -- this really is
+    // "the same shipped combination, before only eligibility moved on",
+    // not an arbitrary historical snapshot.
+    expect(eligibilityV1Entry).toEqual({ ...CURRENT_VERSIONS, eligibilityVersion: "eligibility_v1" });
+    expect(isKnownVersionSnapshot({ ...CURRENT_VERSIONS, eligibilityVersion: "eligibility_v1" })).toBe(true);
+  });
+
+  it("a provenance object differing from CURRENT_VERSIONS ONLY in eligibilityVersion is still rejected by snapshotsEqual-based drift comparison unless it matches eligibility_v1 exactly", () => {
+    expect(isKnownVersionSnapshot({ ...CURRENT_VERSIONS, eligibilityVersion: "eligibility_v99" })).toBe(false);
+  });
+
+  it("KNOWN_VERSION_SNAPSHOTS now holds exactly two entries, both otherwise identical to CURRENT_VERSIONS", () => {
+    expect(KNOWN_VERSION_SNAPSHOTS).toHaveLength(2);
+    for (const snap of KNOWN_VERSION_SNAPSHOTS) {
+      const { eligibilityVersion, ...rest } = snap;
+      const { eligibilityVersion: currentEligibilityVersion, ...currentRest } = CURRENT_VERSIONS;
+      expect(rest).toEqual(currentRest);
+    }
+  });
+});

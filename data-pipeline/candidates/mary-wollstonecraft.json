@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "mary-wollstonecraft",
-  "status": "held",
-  "holdReason": "Confidence ceiling: much of the available trait evidence for this pass is inferred from the content of her published works and Godwin's posthumous memoir (itself a secondary account) rather than her own direct correspondence, keeping most rows at 'strong_inference' or below. After remediation (15 -> 20 scored attributes, coverage now 0.604), average confidence (0.523) still falls short of the 0.55 floor; a defensible path to closing the gap without stretching the evidence was not found this pass.",
+  "status": "qa_passed",
   "identity": {
     "canonicalName": "Mary Wollstonecraft",
     "wikidataId": "Q101638",
@@ -11,47 +10,198 @@
     "deathYear": 1797,
     "isLiving": false,
     "era": "early_modern",
-    "nationalityCodes": ["GB"],
+    "nationalityCodes": [
+      "GB"
+    ],
     "regionCode": "western_europe"
   },
   "classification": {
-    "occupationIds": ["writer", "philosopher"],
-    "fieldIds": ["philosophy", "literature"],
-    "impactDomains": ["literary", "cultural", "historical"],
-    "tagIds": ["nonconformist", "independent", "founder"],
-    "archetypeIds": ["independent_creator"]
+    "occupationIds": [
+      "writer",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "independent",
+      "founder"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
   },
   "sources": [
-    { "id": "src_wollstonecraft_wikipedia", "kind": "wikipedia", "title": "Mary Wollstonecraft", "url": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft" },
-    { "id": "src_wollstonecraft_sep", "kind": "institution", "title": "Stanford Encyclopedia of Philosophy — Mary Wollstonecraft" },
-    { "id": "src_wollstonecraft_todd", "kind": "biography", "title": "Janet Todd, Mary Wollstonecraft: A Revolutionary Life (2000)" }
+    {
+      "id": "src_wollstonecraft_wikipedia",
+      "kind": "wikipedia",
+      "title": "Mary Wollstonecraft",
+      "url": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft"
+    },
+    {
+      "id": "src_wollstonecraft_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy — Mary Wollstonecraft"
+    },
+    {
+      "id": "src_wollstonecraft_todd",
+      "kind": "biography",
+      "title": "Janet Todd, Mary Wollstonecraft: A Revolutionary Life (2000)"
+    }
   ],
   "rows": {
-    "independent_thinking": { "score": 88, "confidence": 0.72, "evidenceType": "documented", "impact": "advantage", "rationale": "A Vindication of the Rights of Woman (1792) directly argued against prevailing Enlightenment-era assumptions (including Rousseau's) about women's education and rationality — a documented, sustained, specifically-targeted philosophical rebuttal." },
-    "risk_tolerance": { "score": 76, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Published under her own name arguing positions widely considered radical and reputation-damaging for a woman in 1792, and lived independently, unmarried, and self-supporting as a professional writer at a time this was unusual and stigmatized — both documented via Todd's biography." },
-    "analytical_rigor": { "score": 78, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "The Vindication builds a structured philosophical argument directly engaging and rebutting specific claims in Rousseau's Emile, directly observable in the surviving text's own method." },
-    "proactive_agency": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Established her own school and later supported herself entirely through professional writing at a time this path was not conventionally available to women, documented via her employment and publication history." },
-    "autonomy_need": { "score": 76, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented to have deliberately chosen an independent, self-supporting professional and personal life over conventional dependence, corroborated across her own letters and Todd's biography." },
-    "discipline": { "score": 70, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained a professional writing career producing novels, travel writing, educational treatises, and political philosophy across roughly a decade of prolific output." },
-    "persuasiveness": { "score": 72, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Vindication's structured rebuttal aimed directly at persuading a specific intellectual audience, and its sustained influence on subsequent feminist thought is documented via its long publication and citation history." },
-    "conflict_tolerance": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "risk", "rationale": "Sustained a public intellectual position that drew significant contemporary criticism (including personal attacks after her death, following the posthumous publication of biographical details about her private life by her husband William Godwin), documented via the reception history of her work." },
-    "cross_domain_range": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Real output across political philosophy (the Vindication), travel writing (Letters Written in Sweden), fiction, and educational theory, documented via her full bibliography." },
-    "creative_originality": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Vindication's specific argument — that women's apparent intellectual inferiority was a product of denied education rather than inherent nature — was a genuinely original framing for its time, per Stanford Encyclopedia of Philosophy's account of its place in political philosophy." },
-    "achievement_drive": { "score": 60, "confidence": 0.45, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained a productive, multi-genre professional writing career across a compressed roughly decade-long adult working life before her early death." },
-    "social_assertiveness": { "score": 65, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Moved within and directly engaged London's radical intellectual circles of the 1790s, documented via her associations with figures like Thomas Paine and William Godwin." },
-    "resourcefulness": { "score": 62, "confidence": 0.46, "evidenceType": "inference", "impact": "advantage", "rationale": "Supported herself and her family through a combination of teaching, governess work, and writing before establishing a stable professional writing career, documented via her early employment history." },
-    "detail_orientation": { "score": 50, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Her structured philosophical argumentation implies real attention to logical construction, though the surviving record documents her broader arguments more than granular textual revision process." },
-    "impact_motivation": { "score": 66, "confidence": 0.52, "evidenceType": "documented", "impact": "advantage", "rationale": "Explicitly framed A Vindication of the Rights of Woman around improving women's education for the benefit of society as a whole, documented via the work's own stated purpose." },
-    "persistence": { "score": 74, "confidence": 0.56, "evidenceType": "documented", "impact": "advantage", "rationale": "Continued her writing and philosophical career despite significant social ostracism and personal hardship, documented via William Godwin's posthumously published memoir of her life and her sustained bibliography across genres." },
-    "mastery_orientation": { "score": 62, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Developed her craft across philosophy, novels, travel writing, and education theory over a short but prolific career." },
-    "curiosity": { "score": 60, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Engaged with philosophy, politics, education theory, and travel writing across her career, evidencing real intellectual range." },
-    "deep_focus": { "score": 68, "confidence": 0.5, "evidenceType": "documented", "impact": "advantage", "rationale": "A Vindication of the Rights of Woman was written in a documented, intense six-week period of sustained writing, per Godwin's account of her working process." },
-    "experimentation": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Wrote across genuinely different literary forms (novel, travel narrative, philosophical treatise), suggesting willingness to work outside a single established form, though inferred from the range of output rather than a documented stated intent." }
+    "independent_thinking": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A Vindication of the Rights of Woman (1792) directly argued against prevailing Enlightenment-era assumptions (including Rousseau's) about women's education and rationality — a documented, sustained, specifically-targeted philosophical rebuttal."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Published under her own name arguing positions widely considered radical and reputation-damaging for a woman in 1792, and lived independently, unmarried, and self-supporting as a professional writer at a time this was unusual and stigmatized — both documented via Todd's biography."
+    },
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Vindication builds a structured philosophical argument directly engaging and rebutting specific claims in Rousseau's Emile, directly observable in the surviving text's own method."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Established her own school and later supported herself entirely through professional writing at a time this path was not conventionally available to women, documented via her employment and publication history."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented to have deliberately chosen an independent, self-supporting professional and personal life over conventional dependence, corroborated across her own letters and Todd's biography."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a professional writing career producing novels, travel writing, educational treatises, and political philosophy across roughly a decade of prolific output."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Vindication's structured rebuttal aimed directly at persuading a specific intellectual audience, and its sustained influence on subsequent feminist thought is documented via its long publication and citation history."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Sustained a public intellectual position that drew significant contemporary criticism (including personal attacks after her death, following the posthumous publication of biographical details about her private life by her husband William Godwin), documented via the reception history of her work."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Real output across political philosophy (the Vindication), travel writing (Letters Written in Sweden), fiction, and educational theory, documented via her full bibliography."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Vindication's specific argument — that women's apparent intellectual inferiority was a product of denied education rather than inherent nature — was a genuinely original framing for its time, per Stanford Encyclopedia of Philosophy's account of its place in political philosophy."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a productive, multi-genre professional writing career across a compressed roughly decade-long adult working life before her early death."
+    },
+    "social_assertiveness": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved within and directly engaged London's radical intellectual circles of the 1790s, documented via her associations with figures like Thomas Paine and William Godwin."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Supported herself and her family through a combination of teaching, governess work, and writing before establishing a stable professional writing career, documented via her early employment history."
+    },
+    "detail_orientation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her structured philosophical argumentation implies real attention to logical construction, though the surviving record documents her broader arguments more than granular textual revision process."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly framed A Vindication of the Rights of Woman around improving women's education for the benefit of society as a whole, documented via the work's own stated purpose."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued her writing and philosophical career despite significant social ostracism and personal hardship, documented via William Godwin's posthumously published memoir of her life and her sustained bibliography across genres."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed her craft across philosophy, novels, travel writing, and education theory over a short but prolific career."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Engaged with philosophy, politics, education theory, and travel writing across her career, evidencing real intellectual range."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A Vindication of the Rights of Woman was written in a documented, intense six-week period of sustained writing, per Godwin's account of her working process."
+    },
+    "experimentation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Wrote across genuinely different literary forms (novel, travel narrative, philosophical treatise), suggesting willingness to work outside a single established form, though inferred from the range of output rather than a documented stated intent."
+    }
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-16T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Second-batch diversity pick: early_modern (18th century), western_europe, feminist political philosophy domain — a genuine chronological/thematic companion to Sor Juana (17th-century Mexico) and a direct predecessor to the 19th-century suffrage figures already represented, filling a real gap in the roster's coverage of this specific intellectual tradition."
+    "notes": "Second-batch diversity pick: early_modern (18th century), western_europe, feminist political philosophy domain — a genuine chronological/thematic companion to Sor Juana (17th-century Mexico) and a direct predecessor to the 19th-century suffrage figures already represented, filling a real gap in the roster's coverage of this specific intellectual tradition.\n\nRoster-1000 session 10 (eligibility_v2, 2026-08): promoted held -> qa_passed. The historical holdReason (based on a flat, unweighted confidence mean across all scored attributes) is now obsolete -- eligibility_v2 (docs/roster-1000-checkpoint.md SS52-64) replaced that gate with a high-confidence-subset (confidence>=0.5) count+average requirement, computed here at scored=20, coverage=0.604, highConfidenceCount=13, highConfidenceAverage=0.566. No row (score/confidence/evidenceType/impact/rationale) was touched -- this is a pure admission-rule reclassification, not a rescoring. Original holdReason preserved verbatim below for the historical record.\n\nOriginal holdReason (obsolete, preserved for record): Confidence ceiling: much of the available trait evidence for this pass is inferred from the content of her published works and Godwin's posthumous memoir (itself a secondary account) rather than her own direct correspondence, keeping most rows at 'strong_inference' or below. After remediation (15 -> 20 scored attributes, coverage now 0.604), average confidence (0.523) still falls short of the 0.55 floor; a defensible path to closing the gap without stretching the evidence was not found this pass."
   }
 }

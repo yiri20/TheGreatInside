@@ -31,6 +31,25 @@ const LEGACY_SIX_FIELD_PROVENANCE = {
   calibrationVersion: CURRENT_VERSIONS.calibrationVersion,
 };
 
+/** Roster-1000 session 10: the Phase-10C-through-session-9 provenance
+ *  shape — 10 fields, everything except `eligibilityVersion` (added this
+ *  session). A real browser that completed the quiz on the app as it
+ *  existed immediately before this deploy would have written exactly this
+ *  shape (with a real `personDataVersion`, unlike the 6-field case, since
+ *  that field predates the 6-field era). */
+const LEGACY_TEN_FIELD_PROVENANCE = {
+  quizVersion: CURRENT_VERSIONS.quizVersion,
+  scoringVersion: CURRENT_VERSIONS.scoringVersion,
+  taxonomyVersion: CURRENT_VERSIONS.taxonomyVersion,
+  referenceVersion: CURRENT_VERSIONS.referenceVersion,
+  dispersionVersion: CURRENT_VERSIONS.dispersionVersion,
+  greatnessScoringVersion: CURRENT_VERSIONS.greatnessScoringVersion,
+  archetypesVersion: CURRENT_VERSIONS.archetypesVersion,
+  matchingVersion: CURRENT_VERSIONS.matchingVersion,
+  calibrationVersion: CURRENT_VERSIONS.calibrationVersion,
+  interpretationVersion: CURRENT_VERSIONS.interpretationVersion,
+};
+
 const TEST_PEOPLE: Person[] = [
   {
     id: "p_test",
@@ -152,6 +171,69 @@ describe("pending own-completion queue", () => {
 
       expect(readPendingOwnResults(storage).map((e) => e.resultToken)).toEqual(["quiz_v2.new"]);
       expect(readIncompatibleLegacyResultTokens(storage)).toEqual(["quiz_v2.legacy"]);
+    });
+  });
+
+  describe("Roster-1000 session 10: SECOND legacy tier (10-field provenance, pre-eligibilityVersion)", () => {
+    it("a 10-field entry (real personDataVersion, but written before eligibilityVersion existed) is excluded from readPendingOwnResults, surfaced via readIncompatibleLegacyResultTokens -- same handling as the 6-field tier, not silently dropped or silently treated as current", () => {
+      const legacy = {
+        resultToken: "quiz_v2.tenfield",
+        completedAt: "2026-08-10T00:00:00.000Z",
+        provenance: LEGACY_TEN_FIELD_PROVENANCE,
+        personDataVersion: "person_data_v3:deadbeef",
+      };
+      const storage = fakeStorage({ [PENDING_OWN_RESULTS_KEY]: JSON.stringify([legacy]) });
+
+      expect(readPendingOwnResults(storage)).toEqual([]);
+      expect(readIncompatibleLegacyResultTokens(storage)).toEqual(["quiz_v2.tenfield"]);
+    });
+
+    it("the two legacy tiers (6-field and 10-field) coexist correctly, both surfaced, neither confused for the other or for a current entry", () => {
+      const sixField = {
+        resultToken: "quiz_v2.sixfield",
+        completedAt: "2026-08-01T00:00:00.000Z",
+        provenance: LEGACY_SIX_FIELD_PROVENANCE,
+      };
+      const tenField = {
+        resultToken: "quiz_v2.tenfield",
+        completedAt: "2026-08-10T00:00:00.000Z",
+        provenance: LEGACY_TEN_FIELD_PROVENANCE,
+        personDataVersion: "person_data_v3:deadbeef",
+      };
+      const storage = fakeStorage({ [PENDING_OWN_RESULTS_KEY]: JSON.stringify([sixField, tenField]) });
+      enqueuePendingOwnResult("quiz_v2.current", TEST_PEOPLE, storage);
+
+      expect(readPendingOwnResults(storage).map((e) => e.resultToken)).toEqual(["quiz_v2.current"]);
+      expect(readIncompatibleLegacyResultTokens(storage).sort()).toEqual(["quiz_v2.sixfield", "quiz_v2.tenfield"]);
+    });
+
+    it("a genuinely current entry (real eligibilityVersion present) is NOT misclassified as this new legacy tier", () => {
+      const storage = fakeStorage();
+      enqueuePendingOwnResult("quiz_v2.current", TEST_PEOPLE, storage);
+      expect(readPendingOwnResults(storage).map((e) => e.resultToken)).toEqual(["quiz_v2.current"]);
+      expect(readIncompatibleLegacyResultTokens(storage)).toEqual([]);
+    });
+
+    it("quarantineIncompatiblePendingResult correctly moves a 10-field-legacy entry, tagged legacy_format, with no personDataVersion carried over (matching LegacyPendingOwnResult's shape, not the original entry's)", () => {
+      const legacy = {
+        resultToken: "quiz_v2.tenfield",
+        completedAt: "2026-08-10T00:00:00.000Z",
+        provenance: LEGACY_TEN_FIELD_PROVENANCE,
+        personDataVersion: "person_data_v3:deadbeef",
+      };
+      const storage = fakeStorage({ [PENDING_OWN_RESULTS_KEY]: JSON.stringify([legacy]) });
+
+      quarantineIncompatiblePendingResult("quiz_v2.tenfield", storage);
+
+      expect(readIncompatibleLegacyResultTokens(storage)).toEqual([]);
+      expect(readIncompatiblePendingResults(storage)).toEqual([
+        {
+          resultToken: "quiz_v2.tenfield",
+          completedAt: "2026-08-10T00:00:00.000Z",
+          provenance: LEGACY_TEN_FIELD_PROVENANCE,
+          reason: "legacy_format",
+        },
+      ]);
     });
   });
 

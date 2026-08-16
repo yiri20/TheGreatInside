@@ -2,59 +2,218 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "averroes",
-  "status": "held",
-  "holdReason": "Confidence ceiling for a 12th-century figure: surviving evidence is corroborated across multiple independent medieval biographical accounts (a genuine strength, reflected in coverage comfortably clearing 0.6 at 22 scored attributes), but none of it reaches the certainty of a primary autobiographical source or a modern documentary record. Average confidence (0.510) remains short of the 0.55 floor after two remediation passes; further closing the gap would require inflating confidence beyond what medieval secondary-source corroboration honestly supports.",
+  "status": "qa_passed",
   "identity": {
     "canonicalName": "Averroes",
-    "aliases": ["Ibn Rushd"],
+    "aliases": [
+      "Ibn Rushd"
+    ],
     "wikidataId": "Q39837",
     "birthYear": 1126,
     "deathYear": 1198,
     "isLiving": false,
     "era": "medieval",
-    "nationalityCodes": ["ES"],
+    "nationalityCodes": [
+      "ES"
+    ],
     "regionCode": "southern_europe",
     "historicalPolityKey": "polity.almohad_caliphate"
   },
   "classification": {
-    "occupationIds": ["philosopher", "physician", "jurist"],
-    "fieldIds": ["philosophy"],
-    "impactDomains": ["historical", "educational"],
-    "tagIds": ["polymath", "systematic_thinker", "nonconformist"],
-    "archetypeIds": ["scholarly_specialist"]
+    "occupationIds": [
+      "philosopher",
+      "physician",
+      "jurist"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "systematic_thinker",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
   },
   "sources": [
-    { "id": "src_averroes_wikipedia", "kind": "wikipedia", "title": "Averroes", "url": "https://en.wikipedia.org/wiki/Averroes" },
-    { "id": "src_averroes_sep", "kind": "institution", "title": "Stanford Encyclopedia of Philosophy — Ibn Rushd [Averroes]" }
+    {
+      "id": "src_averroes_wikipedia",
+      "kind": "wikipedia",
+      "title": "Averroes",
+      "url": "https://en.wikipedia.org/wiki/Averroes"
+    },
+    {
+      "id": "src_averroes_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy — Ibn Rushd [Averroes]"
+    }
   ],
   "rows": {
-    "analytical_rigor": { "score": 84, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Produced systematic long, middle, and short commentaries on nearly the entire Aristotelian corpus, a documented, multi-tiered analytical methodology directly observable in the surviving texts." },
-    "systems_abstraction": { "score": 80, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Organized commentary at three distinct levels of abstraction (short, middle, long) for the same source texts, a documented structural approach to explicating a body of philosophy systematically." },
-    "independent_thinking": { "score": 76, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Wrote The Incoherence of the Incoherence directly rebutting al-Ghazali's influential critique of philosophy, a documented, sustained intellectual counter-position against a dominant contemporary authority." },
-    "conflict_tolerance": { "score": 74, "confidence": 0.55, "evidenceType": "documented", "impact": "risk", "rationale": "His works were formally condemned and burned under Almohad authority late in his life, and he was briefly exiled — documented institutional consequences directly tied to his sustained intellectual positions." },
-    "risk_tolerance": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "risk", "rationale": "Continued producing philosophically controversial work despite the religio-political risk in the Almohad context, evidenced by the same condemnation and exile." },
-    "curiosity": { "score": 72, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained engagement across philosophy, medicine (Kitab al-Kulliyat), astronomy, and jurisprudence over decades, per the Stanford Encyclopedia of Philosophy's account of his output." },
-    "discipline": { "score": 74, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Produced an extraordinarily large body of commentary and original work across a working life that also included serving as a qadi (judge) and royal physician, evidencing sustained output alongside demanding official duties." },
-    "cross_domain_range": { "score": 76, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented substantial output across philosophy, medicine, and Islamic jurisprudence, with real professional practice (physician, judge) in more than one of these domains, not commentary alone." },
-    "mastery_orientation": { "score": 70, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued refining and re-commenting on Aristotelian texts across multiple passes (the three tiers of commentary) rather than treating a single explication as sufficient." },
-    "persistence": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued philosophical work despite documented institutional condemnation and exile late in his life rather than abandoning his positions." },
-    "creative_originality": { "score": 62, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The systematic three-tier commentary structure and the direct philosophical rebuttal of al-Ghazali represent real methodological and argumentative originality, though built substantially on existing Aristotelian and Islamic philosophical traditions rather than invented from nothing." },
-    "detail_orientation": { "score": 66, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The long-form commentaries' close, line-by-line engagement with Aristotle's original text evidences sustained attention to textual detail." },
-    "leadership_drive": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Served as chief qadi of Córdoba, a real senior institutional position, though the surviving record documents his written output far more than his conduct of that specific role." },
-    "planning_orientation": { "score": 60, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "The deliberate three-tier commentary structure applied consistently across many texts suggests real advance methodological planning rather than ad hoc composition." },
-    "achievement_drive": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "The sheer scale and consistency of the commentary project across most of the Aristotelian corpus is a real behavioral pattern of sustained output, though inferred from volume rather than a specific stated goal." },
-    "adaptability": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Held distinct professional roles simultaneously (philosopher, physician, judge) across his career, though the surviving sources describe the roles more than his specific adjustment between them." },
-    "belief_updating": { "score": 45, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Primarily documented as defending and elaborating a consistent philosophical position (Aristotelian rationalism) across his career rather than revising it under challenge — scored near center given the absence of a specific documented reversal in either direction." },
-    "persuasiveness": { "score": 68, "confidence": 0.56, "evidenceType": "documented", "impact": "advantage", "rationale": "The Decisive Treatise argued persuasively for reconciling philosophy with religious law, influencing centuries of subsequent Islamic and European philosophical debate, documented via the Stanford Encyclopedia of Philosophy's assessment of its lasting reception." },
-    "deep_focus": { "score": 78, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Produced systematic long, short, and middle commentaries on nearly the entire surviving Aristotelian corpus across roughly three decades — a sustained body of scholarly output documented via the full surviving corpus itself and corroborated across multiple independent medieval biographical accounts (Ibn al-Abbar, al-Marrakushi)." },
-    "impact_motivation": { "score": 64, "confidence": 0.56, "evidenceType": "documented", "impact": "advantage", "rationale": "Served as qadi (judge) of Seville and later chief qadi of Córdoba, and as court physician, applying his scholarship directly to public judicial and medical service, documented across multiple independent medieval biographical accounts of his official career." },
-    "collaboration": { "score": 55, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Introduced to Caliph Abu Yaqub Yusuf by the philosopher Ibn Tufail, who then commissioned his systematic Aristotle commentaries — a specific, well-corroborated instance of productive scholarly patronage rather than isolated independent work." },
-    "experimentation": { "score": 52, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "His medical writing (Kitab al-Kulliyat) engages with clinical observation as part of standard medieval medical practice, though the surviving record does not document a specific experimental methodology distinct from the era's conventional approach." }
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced systematic long, middle, and short commentaries on nearly the entire Aristotelian corpus, a documented, multi-tiered analytical methodology directly observable in the surviving texts."
+    },
+    "systems_abstraction": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Organized commentary at three distinct levels of abstraction (short, middle, long) for the same source texts, a documented structural approach to explicating a body of philosophy systematically."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote The Incoherence of the Incoherence directly rebutting al-Ghazali's influential critique of philosophy, a documented, sustained intellectual counter-position against a dominant contemporary authority."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "His works were formally condemned and burned under Almohad authority late in his life, and he was briefly exiled — documented institutional consequences directly tied to his sustained intellectual positions."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Continued producing philosophically controversial work despite the religio-political risk in the Almohad context, evidenced by the same condemnation and exile."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained engagement across philosophy, medicine (Kitab al-Kulliyat), astronomy, and jurisprudence over decades, per the Stanford Encyclopedia of Philosophy's account of his output."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Produced an extraordinarily large body of commentary and original work across a working life that also included serving as a qadi (judge) and royal physician, evidencing sustained output alongside demanding official duties."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented substantial output across philosophy, medicine, and Islamic jurisprudence, with real professional practice (physician, judge) in more than one of these domains, not commentary alone."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued refining and re-commenting on Aristotelian texts across multiple passes (the three tiers of commentary) rather than treating a single explication as sufficient."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued philosophical work despite documented institutional condemnation and exile late in his life rather than abandoning his positions."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The systematic three-tier commentary structure and the direct philosophical rebuttal of al-Ghazali represent real methodological and argumentative originality, though built substantially on existing Aristotelian and Islamic philosophical traditions rather than invented from nothing."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The long-form commentaries' close, line-by-line engagement with Aristotle's original text evidences sustained attention to textual detail."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Served as chief qadi of Córdoba, a real senior institutional position, though the surviving record documents his written output far more than his conduct of that specific role."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The deliberate three-tier commentary structure applied consistently across many texts suggests real advance methodological planning rather than ad hoc composition."
+    },
+    "achievement_drive": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The sheer scale and consistency of the commentary project across most of the Aristotelian corpus is a real behavioral pattern of sustained output, though inferred from volume rather than a specific stated goal."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Held distinct professional roles simultaneously (philosopher, physician, judge) across his career, though the surviving sources describe the roles more than his specific adjustment between them."
+    },
+    "belief_updating": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Primarily documented as defending and elaborating a consistent philosophical position (Aristotelian rationalism) across his career rather than revising it under challenge — scored near center given the absence of a specific documented reversal in either direction."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Decisive Treatise argued persuasively for reconciling philosophy with religious law, influencing centuries of subsequent Islamic and European philosophical debate, documented via the Stanford Encyclopedia of Philosophy's assessment of its lasting reception."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced systematic long, short, and middle commentaries on nearly the entire surviving Aristotelian corpus across roughly three decades — a sustained body of scholarly output documented via the full surviving corpus itself and corroborated across multiple independent medieval biographical accounts (Ibn al-Abbar, al-Marrakushi)."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served as qadi (judge) of Seville and later chief qadi of Córdoba, and as court physician, applying his scholarship directly to public judicial and medical service, documented across multiple independent medieval biographical accounts of his official career."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Introduced to Caliph Abu Yaqub Yusuf by the philosopher Ibn Tufail, who then commissioned his systematic Aristotle commentaries — a specific, well-corroborated instance of productive scholarly patronage rather than isolated independent work."
+    },
+    "experimentation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His medical writing (Kitab al-Kulliyat) engages with clinical observation as part of standard medieval medical practice, though the surviving record does not document a specific experimental methodology distinct from the era's conventional approach."
+    }
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-16T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Second-batch diversity pick: medieval era, southern_europe (Andalusia), Islamic philosophy tradition distinct from Ibn Sina (medicine-forward) and Aquinas (Christian theology, though directly influenced by Averroes's own commentaries — a real historical connection). Medieval evidence discipline: confidence capped at 0.62, evidenceType never above documented-with-real-textual-corroboration."
+    "notes": "Second-batch diversity pick: medieval era, southern_europe (Andalusia), Islamic philosophy tradition distinct from Ibn Sina (medicine-forward) and Aquinas (Christian theology, though directly influenced by Averroes's own commentaries — a real historical connection). Medieval evidence discipline: confidence capped at 0.62, evidenceType never above documented-with-real-textual-corroboration.\n\nRoster-1000 session 10 (eligibility_v2, 2026-08): promoted held -> qa_passed. The historical holdReason (based on a flat, unweighted confidence mean across all scored attributes) is now obsolete -- eligibility_v2 (docs/roster-1000-checkpoint.md SS52-64) replaced that gate with a high-confidence-subset (confidence>=0.5) count+average requirement, computed here at scored=22, coverage=0.661, highConfidenceCount=14, highConfidenceAverage=0.554. No row (score/confidence/evidenceType/impact/rationale) was touched -- this is a pure admission-rule reclassification, not a rescoring. Original holdReason preserved verbatim below for the historical record.\n\nOriginal holdReason (obsolete, preserved for record): Confidence ceiling for a 12th-century figure: surviving evidence is corroborated across multiple independent medieval biographical accounts (a genuine strength, reflected in coverage comfortably clearing 0.6 at 22 scored attributes), but none of it reaches the certainty of a primary autobiographical source or a modern documentary record. Average confidence (0.510) remains short of the 0.55 floor after two remediation passes; further closing the gap would require inflating confidence beyond what medieval secondary-source corroboration honestly supports."
   }
 }

@@ -25,7 +25,7 @@ import { SCORING_VERSION } from "./quiz/scoring.js";
 import { TAXONOMY_VERSION, REFERENCE_VERSION } from "./attributes/attributes.js";
 import { GREATNESS_SCORING_VERSION } from "./greatness/greatness.js";
 import { ARCHETYPES_VERSION } from "./greatness/archetypes.js";
-import { MATCHING_VERSION } from "./matching/similarity.js";
+import { MATCHING_VERSION, ELIGIBILITY_VERSION } from "./matching/similarity.js";
 import { CALIBRATION_VERSION } from "./matching/calibration.js";
 import { DISPERSION_VERSION } from "./matching/dispersion.js";
 import { INTERPRETATION_VERSION } from "./interpretation/rules.js";
@@ -45,6 +45,33 @@ import { INTERPRETATION_VERSION } from "./interpretation/rules.js";
  * `personDataFingerprint`, a SEPARATE, sibling concept (a live data
  * fingerprint compared for equality, not a "known shipped combination"
  * checked against an allowlist the way every field below is).
+ *
+ * `eligibilityVersion` added in Roster-1000 session 10 (2026-08) —
+ * `similarity.ts`'s `ELIGIBILITY_VERSION`/`ELIGIBILITY` govern WHICH
+ * people are candidates for matching at all (`rankMatches` filters on
+ * `isMatchEligible`, itself computed by `evaluateMatchEligibility`), a
+ * genuine output-affecting methodology fact exactly like `matchingVersion`
+ * — a rare, semantically-named formula identifier, not per-person
+ * generated data (that distinction is why this belongs here and not in
+ * `personDataFingerprint`; see that module's own doc comment for the same
+ * reasoning applied to the dispersion/calibration tables it DOES cover).
+ * `eligibility_v1` (the historical, implicit, unversioned admission rule)
+ * is preserved below as its own `KNOWN_VERSION_SNAPSHOTS` entry, per this
+ * module's append-only invariant, BEFORE `CURRENT_VERSIONS` moved to
+ * `eligibility_v2` — this is the first time that invariant has ever
+ * actually been exercised with a real second combination, not merely
+ * exercised in a test fixture. See `docs/roster-1000-checkpoint.md`
+ * SS63-64 for the full decision record, including why this session
+ * deliberately did NOT add a matching `eligibility_version` DB column:
+ * the drift guard's correctness (`saveCompletedResult.ts`'s
+ * `snapshotsEqual` comparison) is a pure in-memory check performed before
+ * any database write, so it is already fully correct with zero schema
+ * change — an explicit persisted column remains a legitimate but
+ * strictly optional future auditability enhancement, not a correctness
+ * requirement, following the exact same reasoning `personDataFingerprint`
+ * already established for the dispersion/calibration tables (some
+ * `VersionSnapshot`-tracked facts need no DB column to be enforced
+ * correctly, only to be independently queryable later).
  */
 export interface VersionSnapshot {
   quizVersion: string;
@@ -57,6 +84,7 @@ export interface VersionSnapshot {
   matchingVersion: string;
   calibrationVersion: string;
   interpretationVersion: string;
+  eligibilityVersion: string;
 }
 
 export const CURRENT_VERSIONS: VersionSnapshot = {
@@ -70,11 +98,31 @@ export const CURRENT_VERSIONS: VersionSnapshot = {
   matchingVersion: MATCHING_VERSION,
   calibrationVersion: CALIBRATION_VERSION,
   interpretationVersion: INTERPRETATION_VERSION,
+  eligibilityVersion: ELIGIBILITY_VERSION,
+};
+
+/** The exact combination that shipped before this session's `eligibility_v2`
+ *  bump — every field identical to `CURRENT_VERSIONS` except
+ *  `eligibilityVersion`, which was implicitly `"eligibility_v1"` (no
+ *  constant existed for it before this session; the literal string here
+ *  is what that implicit rule is retroactively named). Required by this
+ *  module's own append-only invariant: the snapshot about to be replaced
+ *  must be preserved as its own permanent entry before `CURRENT_VERSIONS`
+ *  moves on, so an anonymous pending completion saved under the old
+ *  eligibility rule remains a KNOWN (though, correctly, drift-checked-
+ *  and-rejected-if-actually-claimed-late) combination rather than an
+ *  unrecognized one. */
+const ELIGIBILITY_V1_SNAPSHOT: VersionSnapshot = {
+  ...CURRENT_VERSIONS,
+  eligibilityVersion: "eligibility_v1",
 };
 
 /** Append-only. See module doc above — never remove or mutate an existing
  *  entry, only ever add a new one ahead of a future CURRENT_VERSIONS bump. */
-export const KNOWN_VERSION_SNAPSHOTS: readonly VersionSnapshot[] = [CURRENT_VERSIONS];
+export const KNOWN_VERSION_SNAPSHOTS: readonly VersionSnapshot[] = [
+  ELIGIBILITY_V1_SNAPSHOT,
+  CURRENT_VERSIONS,
+];
 
 /** Exported (Phase 10C) for the claim-time drift guard in
  *  `saveCompletedResult.ts`, which needs the identical field-by-field
@@ -92,7 +140,8 @@ export function snapshotsEqual(a: VersionSnapshot, b: VersionSnapshot): boolean 
     a.archetypesVersion === b.archetypesVersion &&
     a.matchingVersion === b.matchingVersion &&
     a.calibrationVersion === b.calibrationVersion &&
-    a.interpretationVersion === b.interpretationVersion
+    a.interpretationVersion === b.interpretationVersion &&
+    a.eligibilityVersion === b.eligibilityVersion
   );
 }
 

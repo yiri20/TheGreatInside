@@ -1,8 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { ATTRIBUTE_IDS, TAXONOMY_VERSION, type AttributeId } from "../attributes/attributes.js";
+import { ATTRIBUTES, ATTRIBUTE_IDS, TAXONOMY_VERSION, type AttributeId } from "../attributes/attributes.js";
 import type { Person, UserProfile } from "../types.js";
 import { SEED_PEOPLE } from "../../data/people/seed.js";
 import {
+  ELIGIBILITY,
+  ELIGIBILITY_VERSION,
   evaluateMatchEligibility,
   facetSimilarity,
   matchUserToPerson,
@@ -249,6 +251,195 @@ describe("confidence and missing data", () => {
     // now falls below the 0.6 coverage floor (0.53). This is a confirmed,
     // evidence-driven migration result, not a threshold change: no score
     // was manufactured and ELIGIBILITY.minCoverage is untouched.
+    for (const p of SEED_PEOPLE) {
+      if (p.slug === "zheng-he") {
+        expect(evaluateMatchEligibility(p).eligible, p.slug).toBe(false);
+        continue;
+      }
+      expect(evaluateMatchEligibility(p).eligible, p.slug).toBe(true);
+    }
+  });
+});
+
+describe("eligibility_v2 (Roster-1000 session 10)", () => {
+  const base = person("ada-lovelace");
+
+  /** A fully synthetic profile: `rows` controls exactly which attributes
+   *  are scored and at what confidence, letting each boundary be tested in
+   *  isolation without depending on any real person's specific data. */
+  function syntheticPerson(rows: { attributeId: AttributeId; confidence: number }[]): Person {
+    return {
+      ...base,
+      attributes: rows.map((r) => ({
+        attributeId: r.attributeId,
+        score: 60,
+        confidence: r.confidence,
+        evidenceType: "strong_inference" as const,
+        impact: "neutral" as const,
+        sourceIds: base.sources.map((s) => s.id),
+      })),
+    };
+  }
+
+  it("ELIGIBILITY_VERSION is eligibility_v2", () => {
+    expect(ELIGIBILITY_VERSION).toBe("eligibility_v2");
+  });
+
+  it("v1 behavior locked: minScoredAttributes and minCoverage are UNCHANGED from the historical rule", () => {
+    expect(ELIGIBILITY.minScoredAttributes).toBe(18);
+    expect(ELIGIBILITY.minCoverage).toBe(0.6);
+  });
+
+  it("total scored attributes < 18 fails, independent of confidence", () => {
+    // 17 attributes, all high-confidence -- would clear every OTHER gate.
+    const p = syntheticPerson(ATTRIBUTE_IDS.slice(0, 17).map((attributeId) => ({ attributeId, confidence: 0.9 })));
+    const report = evaluateMatchEligibility(p);
+    expect(report.eligible).toBe(false);
+    expect(report.reasons.join(" ")).toMatch(/scored attributes/);
+  });
+
+  it("full weighted coverage < 0.60 fails, even with 18+ scored attributes all at high confidence", () => {
+    // The 18 LOWEST-baseWeight attributes -- deliberately computed from the
+    // real taxonomy table, not a hardcoded list, so this stays correct if
+    // baseWeights are ever retuned. Self-verifying: asserts the coverage
+    // precondition explicitly rather than assuming it.
+    const lowestWeight = [...ATTRIBUTE_IDS].sort((a, b) => ATTRIBUTES[a].baseWeight - ATTRIBUTES[b].baseWeight);
+    const p = syntheticPerson(lowestWeight.slice(0, 18).map((attributeId) => ({ attributeId, confidence: 0.9 })));
+    const report = evaluateMatchEligibility(p);
+    expect(report.coverage).toBeLessThan(0.6);
+    expect(report.eligible).toBe(false);
+    expect(report.reasons.join(" ")).toMatch(/coverage/);
+  });
+
+  it("high-confidence count of 11 fails (need >= 12)", () => {
+    // 11 at confidence 0.9 (high-confidence subset), 23 more at confidence
+    // 0.3 (below the 0.5 threshold, so excluded from the subset) -- 34
+    // scored total, full coverage, isolating the count gate specifically.
+    const hc = ATTRIBUTE_IDS.slice(0, 11).map((attributeId) => ({ attributeId, confidence: 0.9 }));
+    const lc = ATTRIBUTE_IDS.slice(11).map((attributeId) => ({ attributeId, confidence: 0.3 }));
+    const report = evaluateMatchEligibility(syntheticPerson([...hc, ...lc]));
+    expect(report.highConfidenceCount).toBe(11);
+    expect(report.eligible).toBe(false);
+    expect(report.reasons.join(" ")).toMatch(/confidence >= 0\.5/);
+  });
+
+  it("high-confidence count of exactly 12 passes the count boundary", () => {
+    const hc = ATTRIBUTE_IDS.slice(0, 12).map((attributeId) => ({ attributeId, confidence: 0.9 }));
+    const lc = ATTRIBUTE_IDS.slice(12).map((attributeId) => ({ attributeId, confidence: 0.3 }));
+    const report = evaluateMatchEligibility(syntheticPerson([...hc, ...lc]));
+    expect(report.highConfidenceCount).toBe(12);
+    // scored=34 (>=18) and coverage=1.0 (full taxonomy) both trivially
+    // clear their own floors, isolating this assertion to the count gate.
+    expect(report.eligible).toBe(true);
+  });
+
+  it("confidence exactly 0.5 belongs to the high-confidence subset (>=, not >)", () => {
+    const exactlyHalf = ATTRIBUTE_IDS.slice(0, 12).map((attributeId) => ({ attributeId, confidence: 0.5 }));
+    const filler = ATTRIBUTE_IDS.slice(12, 20).map((attributeId) => ({ attributeId, confidence: 0.3 }));
+    const report = evaluateMatchEligibility(syntheticPerson([...exactlyHalf, ...filler]));
+    // Counted, regardless of whether the AVERAGE gate separately passes.
+    expect(report.highConfidenceCount).toBe(12);
+    expect(report.highConfidenceAverage).toBeCloseTo(0.5, 10);
+  });
+
+  it("high-confidence average just below 0.55 fails", () => {
+    // 12 attributes averaging 0.549: 11 at 0.55 exactly, 1 at 0.5312 --
+    // (11*0.55 + 0.5312) / 12 = 0.549766..., i.e. just under 0.55.
+    const hc = [
+      ...ATTRIBUTE_IDS.slice(0, 11).map((attributeId) => ({ attributeId, confidence: 0.55 })),
+      { attributeId: ATTRIBUTE_IDS[11]!, confidence: 0.5312 },
+    ];
+    const filler = ATTRIBUTE_IDS.slice(12, 20).map((attributeId) => ({ attributeId, confidence: 0.3 }));
+    const report = evaluateMatchEligibility(syntheticPerson([...hc, ...filler]));
+    expect(report.highConfidenceAverage).toBeLessThan(0.55);
+    expect(report.eligible).toBe(false);
+    expect(report.reasons.join(" ")).toMatch(/average confidence among high-confidence/);
+  });
+
+  it("high-confidence average of exactly 0.55 passes", () => {
+    // A SINGLE attribute at confidence 0.55 -- `0.55 / 1 === 0.55` exactly
+    // in IEEE-754, with no floating-point summation drift (confirmed:
+    // summing 0.55 twelve times and dividing by 12 lands at
+    // 0.5499999999999999, just under the boundary -- a floating-point
+    // artifact of repeated addition, not a production defect; the
+    // production code uses plain `<` with no epsilon, consistent with
+    // every other threshold check in this file, so the fixture is
+    // responsible for landing exactly on the boundary, not the code).
+    const report = evaluateMatchEligibility(syntheticPerson([{ attributeId: ATTRIBUTE_IDS[0]!, confidence: 0.55 }]));
+    expect(report.highConfidenceAverage).toBe(0.55);
+    expect(report.reasons.join(" ")).not.toMatch(/average confidence among high-confidence/);
+    // scored=1 < 18 and highConfidenceCount=1 < 12, so this specific
+    // fixture is still ineligible overall -- this test isolates the
+    // AVERAGE gate only, not the full pass/fail outcome.
+    expect(report.reasons.join(" ")).toMatch(/scored attributes/);
+  });
+
+  it("many additional low-confidence rows do NOT mechanically lower the high-confidence average", () => {
+    const hc = ATTRIBUTE_IDS.slice(0, 12).map((attributeId) => ({ attributeId, confidence: 0.7 }));
+    const withoutPadding = evaluateMatchEligibility(syntheticPerson(hc));
+    const padded = ATTRIBUTE_IDS.slice(12, 30).map((attributeId) => ({ attributeId, confidence: 0.21 }));
+    const withPadding = evaluateMatchEligibility(syntheticPerson([...hc, ...padded]));
+    expect(withPadding.highConfidenceCount).toBe(withoutPadding.highConfidenceCount);
+    expect(withPadding.highConfidenceAverage).toBeCloseTo(withoutPadding.highConfidenceAverage, 10);
+  });
+
+  it("low-confidence rows still contribute to full coverage exactly as before (v1's coverage computation, untouched)", () => {
+    const hc = ATTRIBUTE_IDS.slice(0, 12).map((attributeId) => ({ attributeId, confidence: 0.7 }));
+    const withoutLowConf = evaluateMatchEligibility(syntheticPerson(hc));
+    const lowConf = ATTRIBUTE_IDS.slice(12, 20).map((attributeId) => ({ attributeId, confidence: 0.2 }));
+    const withLowConf = evaluateMatchEligibility(syntheticPerson([...hc, ...lowConf]));
+    // The low-confidence rows are excluded from the HC subset but their
+    // baseWeight still counts toward the full-profile coverage statistic --
+    // adding them can only raise (never lower) coverage, exactly like v1.
+    expect(withLowConf.coverage).toBeGreaterThan(withoutLowConf.coverage);
+  });
+
+  it("low-confidence rows remain fully present in actual matching (buildTerms), unaffected by the admission-rule change", () => {
+    const target = person("marie-curie");
+    const lowConfAttr = target.attributes.find((a) => a.attributeId !== "curiosity");
+    if (!lowConfAttr) throw new Error("fixture requires at least one non-curiosity attribute");
+    const withLowConfidence: Person = {
+      ...target,
+      attributes: target.attributes.map((a) =>
+        a.attributeId === lowConfAttr.attributeId ? { ...a, confidence: 0.3 } : a,
+      ),
+    };
+    const user = mirrorOf(target);
+    const result = matchUserToPerson(user, withLowConfidence);
+    const term = [...result.closestTraits, ...result.largestDifferences, ...result.userHigherTraits, ...result.personHigherTraits].find(
+      (t) => t.attributeId === lowConfAttr.attributeId,
+    );
+    // Confidence 0.3 is well below eligibility_v2's 0.5 high-confidence
+    // threshold, yet the attribute still carries a real, nonzero weight in
+    // matching -- admission and matching read the same data through
+    // deliberately different, independent lenses.
+    if (term) expect(term.effectiveWeight).toBeGreaterThan(0);
+    // Directly confirm the attribute is not silently dropped from buildTerms'
+    // input by checking it still moves the raw similarity relative to a
+    // variant with the SAME attribute entirely removed.
+    const withoutAttribute: Person = {
+      ...target,
+      attributes: target.attributes.filter((a) => a.attributeId !== lowConfAttr.attributeId),
+    };
+    const withResult = matchUserToPerson(user, withLowConfidence);
+    const withoutResult = matchUserToPerson(user, withoutAttribute);
+    expect(withResult.coverage).toBeGreaterThan(withoutResult.coverage);
+  });
+
+  it("REGRESSION: evaluateMatchEligibility (v2) has zero effect on matchUserToPerson's computation for the same inputs", () => {
+    const target = person("marie-curie");
+    const originalAttributes = JSON.parse(JSON.stringify(target.attributes));
+    const user = mirrorOf(target);
+    const before = matchUserToPerson(user, target);
+    const eligibility = evaluateMatchEligibility(target); // exercises the new v2 admission logic
+    expect(eligibility.eligible).toBe(true);
+    const after = matchUserToPerson(user, target);
+    expect(after).toEqual(before);
+    // The eligibility check must never mutate the person object it reads.
+    expect(target.attributes).toEqual(originalAttributes);
+  });
+
+  it("marks every currently-eligible seed profile eligible under eligibility_v2 too (reproduces session 9's finding: 0 regressions)", () => {
     for (const p of SEED_PEOPLE) {
       if (p.slug === "zheng-he") {
         expect(evaluateMatchEligibility(p).eligible, p.slug).toBe(false);

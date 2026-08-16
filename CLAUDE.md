@@ -3161,6 +3161,48 @@ to the real live tables. No `VersionSnapshot` field, DB column, or
 migration was needed — same reasoning as session 4's fix. `tsc` clean,
 `vitest` 534/534 (530 baseline + 4 new).
 
+**Eligibility methodology change + versioning (roster-1000 session 10,
+2026-08) — `evaluateMatchEligibility` (`src/core/matching/
+similarity.ts`) now implements `eligibility_v2`, replacing its
+historical, never-explicitly-versioned admission rule.** `scored >= 18`
+and `coverage >= 0.6` are UNCHANGED — still full-profile, confidence-
+blind, exactly as before. What changed: the old flat, unweighted mean
+confidence across every scored attribute (floor 0.55) is REPLACED by a
+requirement computed only over the subset of attributes at
+`confidence >= 0.5` — that subset must contain at least 12 attributes,
+with a mean confidence within the subset of at least 0.55
+(`ELIGIBILITY.highConfidence`). `buildTerms`/the actual matching formula
+are completely untouched — every scored attribute, at any confidence,
+still participates in matching with its existing continuous weight;
+only the ADMISSION statistic changed. Full derivation: roster-1000
+sessions 8-10 (`docs/roster-1000-checkpoint.md` §43-72) — session 8
+diagnosed the flat-mean gate as structurally inconsistent with how
+matching actually weights confidence; session 9 found session 8's first
+proposed fix did not reproduce and validated this hybrid design instead;
+session 10 implemented it. `ELIGIBILITY_VERSION` (`"eligibility_v2"`)
+is a new export from `similarity.ts`, threaded into `VersionSnapshot`
+as `eligibilityVersion` (`src/core/versions.ts`) — the FIRST time this
+project's append-only `KNOWN_VERSION_SNAPSHOTS` registry has ever
+actually held a real second historical combination (`eligibility_v1`,
+the retired rule, preserved there so old provenance remains a KNOWN,
+correctly-drift-checked combination, never an unrecognized one).
+**Deliberately no DB migration**: the claim-time drift guard in
+`saveCompletedResult.ts` is a pure in-memory `VersionSnapshot`
+comparison performed before any database write, so it is already fully
+correct with zero schema change; an `eligibility_version` DB column
+(matching the other 10 version columns) remains a legitimate but
+strictly optional future auditability enhancement, not a correctness
+gap. `pendingOwnResults.ts` gained a second legacy-provenance detection
+tier (`isLegacyTenFieldProvenance`, mirroring the pre-existing Phase 10C
+6-field tier exactly) so a browser's locally-queued pending result from
+immediately before this deploy is recognized as legacy and quarantined,
+never silently mislabeled `eligibility_v2` or silently dropped. Roster
+grew 75 -> 84 in the same session (9 previously-held candidates newly
+admitted by the rule itself, zero rescoring — see the checkpoint for the
+full list and per-candidate stats). `tsc` clean, `vitest` 558/558,
+`next build --webpack` clean (168 person-page paths), `playwright`
+215/215.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 

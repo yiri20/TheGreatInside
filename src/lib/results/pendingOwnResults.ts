@@ -129,10 +129,11 @@ function browserStorage(): PendingResultStorage | undefined {
   return typeof window === "undefined" ? undefined : window.localStorage;
 }
 
-/** The CURRENT (Phase 10C, 10-field) `VersionSnapshot` shape — used to
- *  validate `PendingOwnResult.provenance`. Deliberately stricter than the
- *  legacy check below: a provenance object missing any of the four fields
- *  Phase 10C added must NOT be accepted as a fully-current entry, even if
+/** The CURRENT (Roster-1000 session 10, 11-field) `VersionSnapshot` shape —
+ *  used to validate `PendingOwnResult.provenance`. Deliberately stricter
+ *  than either legacy check below: a provenance object missing
+ *  `eligibilityVersion` (added this session) or any of the four Phase 10C
+ *  fields before it must NOT be accepted as a fully-current entry, even if
  *  `personDataVersion` happens to be present. */
 function isCurrentVersionSnapshot(v: unknown): v is VersionSnapshot {
   if (typeof v !== "object" || v === null) return false;
@@ -147,7 +148,8 @@ function isCurrentVersionSnapshot(v: unknown): v is VersionSnapshot {
     typeof o.archetypesVersion === "string" &&
     typeof o.matchingVersion === "string" &&
     typeof o.calibrationVersion === "string" &&
-    typeof o.interpretationVersion === "string"
+    typeof o.interpretationVersion === "string" &&
+    typeof o.eligibilityVersion === "string"
   );
 }
 
@@ -166,6 +168,35 @@ function isLegacySixFieldProvenance(v: unknown): v is VersionSnapshot {
   );
 }
 
+/** The Phase-10C-through-session-9 (10-field, pre-`eligibilityVersion`)
+ *  `VersionSnapshot` shape — a SECOND legacy tier, added Roster-1000
+ *  session 10, exactly parallel to `isLegacySixFieldProvenance` above: a
+ *  browser-stored entry written by code from before this session added
+ *  `eligibilityVersion` is a real, well-formed completion record under an
+ *  app version that predates the field the claim-time drift guard now
+ *  requires — recognizable, not garbage, but (like the 6-field case)
+ *  never safe to drift-check, since there is no way to retroactively know
+ *  which eligibility rule was live when it was written. This is literally
+ *  the same migration this file already went through once, for the
+ *  6-field -> 10-field Phase 10C expansion — same shape of fix, applied a
+ *  second time. */
+function isLegacyTenFieldProvenance(v: unknown): v is VersionSnapshot {
+  if (typeof v !== "object" || v === null) return false;
+  const o = v as Record<string, unknown>;
+  return (
+    typeof o.quizVersion === "string" &&
+    typeof o.scoringVersion === "string" &&
+    typeof o.taxonomyVersion === "string" &&
+    typeof o.referenceVersion === "string" &&
+    typeof o.dispersionVersion === "string" &&
+    typeof o.greatnessScoringVersion === "string" &&
+    typeof o.archetypesVersion === "string" &&
+    typeof o.matchingVersion === "string" &&
+    typeof o.calibrationVersion === "string" &&
+    typeof o.interpretationVersion === "string"
+  );
+}
+
 function isPendingOwnResult(v: unknown): v is PendingOwnResult {
   if (typeof v !== "object" || v === null) return false;
   const o = v as Record<string, unknown>;
@@ -179,18 +210,17 @@ function isPendingOwnResult(v: unknown): v is PendingOwnResult {
   );
 }
 
-/** Accepts EITHER the legacy 6-field provenance shape with no
- *  `personDataVersion` at all, OR (defensively) a provenance object that's
- *  missing one of the four Phase-10C fields regardless of what
- *  `personDataVersion` looks like — either way, this entry cannot be
- *  safely drift-checked and must be routed to the explicit incompatible
- *  path, never silently treated as current. */
+/** Accepts EITHER legacy provenance shape (the pre-Phase-10C 6-field form,
+ *  or the pre-session-10 10-field form missing only `eligibilityVersion`)
+ *  as long as it is NOT the current, fully-current shape — either way,
+ *  this entry cannot be safely drift-checked and must be routed to the
+ *  explicit incompatible path, never silently treated as current. */
 function isLegacyPendingOwnResult(v: unknown): v is LegacyPendingOwnResult {
   if (typeof v !== "object" || v === null) return false;
   const o = v as Record<string, unknown>;
   if (typeof o.resultToken !== "string" || o.resultToken.length === 0) return false;
   if (typeof o.completedAt !== "string") return false;
-  if (!isLegacySixFieldProvenance(o.provenance)) return false;
+  if (!isLegacySixFieldProvenance(o.provenance) && !isLegacyTenFieldProvenance(o.provenance)) return false;
   return !isCurrentVersionSnapshot(o.provenance);
 }
 
@@ -207,7 +237,11 @@ function isQuarantinedPendingResult(v: unknown): v is QuarantinedPendingResult {
   if (typeof o.resultToken !== "string" || o.resultToken.length === 0) return false;
   if (typeof o.completedAt !== "string") return false;
   if (o.reason === "legacy_format") {
-    return isLegacySixFieldProvenance(o.provenance) && !isCurrentVersionSnapshot(o.provenance) && o.personDataVersion === undefined;
+    return (
+      (isLegacySixFieldProvenance(o.provenance) || isLegacyTenFieldProvenance(o.provenance)) &&
+      !isCurrentVersionSnapshot(o.provenance) &&
+      o.personDataVersion === undefined
+    );
   }
   if (o.reason === "provenance_drift") {
     return isCurrentVersionSnapshot(o.provenance) && typeof o.personDataVersion === "string" && o.personDataVersion.length > 0;
@@ -430,6 +464,20 @@ export function readIncompatiblePendingResults(
  * produce: the token existing in neither place. A no-op if `resultToken`
  * isn't currently a legacy entry in the active queue (already quarantined,
  * or never existed) — idempotent, safe to call more than once.
+ *
+ * Builds the quarantined record from EXPLICITLY NAMED fields
+ * (`resultToken`/`completedAt`/`provenance`/`reason`) rather than
+ * `{ ...toQuarantine, reason: "legacy_format" }` — `toQuarantine` is typed
+ * `LegacyPendingOwnResult` (no `personDataVersion` field), but TypeScript's
+ * type narrowing does not strip extra properties from the underlying
+ * object at runtime: the session-10 legacy tier (a real, well-formed
+ * 10-field entry, unlike the 6-field tier, DOES carry a genuine
+ * `personDataVersion` in its raw stored JSON) would otherwise leak that
+ * field into the quarantine store, where `isQuarantinedPendingResult`
+ * correctly expects `legacy_format` entries to have none (the entire
+ * point of that reason is "never safe to drift-check", which
+ * `personDataVersion`'s presence would misleadingly suggest otherwise) —
+ * found and fixed via the new 10-field-tier tests, not merely theoretical.
  */
 export function quarantineIncompatiblePendingResult(
   resultToken: string,
@@ -439,7 +487,13 @@ export function quarantineIncompatiblePendingResult(
   const toQuarantine = legacy.find((e) => e.resultToken === resultToken);
   if (!toQuarantine) return;
 
-  if (moveIntoQuarantine(storage, { ...toQuarantine, reason: "legacy_format" })) {
+  const record: QuarantinedPendingResult = {
+    resultToken: toQuarantine.resultToken,
+    completedAt: toQuarantine.completedAt,
+    provenance: toQuarantine.provenance,
+    reason: "legacy_format",
+  };
+  if (moveIntoQuarantine(storage, record)) {
     writeQueue(storage, current, legacy.filter((e) => e.resultToken !== resultToken));
   }
 }

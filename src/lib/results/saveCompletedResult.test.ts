@@ -161,6 +161,27 @@ describe("saveCompletedResult", () => {
     expect(calls).toHaveLength(0);
   });
 
+  it("Roster-1000 session 10: rejects a claim whose provenance was recorded under eligibility_v1 (pre-session-10), even though every OTHER field still matches CURRENT_VERSIONS exactly — the new field participates in the drift guard like any other", async () => {
+    const { deps, calls } = makeDeps("user-1");
+    const eligibilityV1Snapshot: VersionSnapshot = { ...CURRENT_VERSIONS, eligibilityVersion: "eligibility_v1" };
+    const registry = [eligibilityV1Snapshot, CURRENT_VERSIONS];
+
+    const result = await saveCompletedResult(deps, validInput({ provenance: eligibilityV1Snapshot }), TEST_PEOPLE, registry);
+
+    expect(result).toEqual({ ok: false, reason: "provenance_drift" });
+    expect(calls).toHaveLength(0);
+  });
+
+  it("Roster-1000 session 10: a claim under the real, current eligibility_v2 provenance succeeds normally — the new field does not itself introduce a spurious rejection", async () => {
+    const { deps, calls } = makeDeps("user-1");
+    expect(CURRENT_VERSIONS.eligibilityVersion).toBe("eligibility_v2");
+
+    const result = await saveCompletedResult(deps, validInput(), TEST_PEOPLE);
+
+    expect(result).toEqual({ ok: true });
+    expect(calls).toHaveLength(1);
+  });
+
   it("accepts a claim whose provenance and person-data fingerprint both still equal current state", async () => {
     const { deps } = makeDeps("user-1");
     const result = await saveCompletedResult(deps, validInput(), TEST_PEOPLE);

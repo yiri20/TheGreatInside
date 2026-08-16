@@ -2,56 +2,202 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "octavia-butler",
-  "status": "held",
-  "holdReason": "Confidence ceiling: despite her unusually rich primary-source base (personal notebooks archived at the Huntington Library), the evidence gathered for this pass leans on secondary characterization of that archive more than direct excerpts, keeping several rows at 'strong_inference' rather than 'documented.' After remediation (13 -> 20 scored attributes, coverage now 0.603), average confidence (0.532) remains just short of the 0.55 floor. A future pass working more directly from published excerpts of her notebooks could plausibly close this small gap — recorded as a strong candidate to revisit, not a permanent rejection.",
+  "status": "qa_passed",
   "identity": {
     "canonicalName": "Octavia Butler",
-    "aliases": ["Octavia E. Butler"],
+    "aliases": [
+      "Octavia E. Butler"
+    ],
     "wikidataId": "Q239739",
     "birthYear": 1947,
     "deathYear": 2006,
     "isLiving": false,
     "era": "contemporary",
-    "nationalityCodes": ["US"],
+    "nationalityCodes": [
+      "US"
+    ],
     "regionCode": "north_america"
   },
   "classification": {
-    "occupationIds": ["writer"],
-    "fieldIds": ["literature"],
-    "impactDomains": ["literary", "cultural"],
-    "tagIds": ["self_taught", "independent", "late_recognition"],
-    "archetypeIds": ["creative_creator", "independent_creator"]
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "independent",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
   },
   "sources": [
-    { "id": "src_butler_wikipedia", "kind": "wikipedia", "title": "Octavia E. Butler", "url": "https://en.wikipedia.org/wiki/Octavia_E._Butler" },
-    { "id": "src_butler_huntington", "kind": "archive", "title": "The Huntington Library — Octavia E. Butler Papers (notebooks, journals, correspondence)" }
+    {
+      "id": "src_butler_wikipedia",
+      "kind": "wikipedia",
+      "title": "Octavia E. Butler",
+      "url": "https://en.wikipedia.org/wiki/Octavia_E._Butler"
+    },
+    {
+      "id": "src_butler_huntington",
+      "kind": "archive",
+      "title": "The Huntington Library — Octavia E. Butler Papers (notebooks, journals, correspondence)"
+    }
   ],
   "rows": {
-    "discipline": { "score": 86, "confidence": 0.72, "evidenceType": "documented", "impact": "advantage", "rationale": "Her surviving personal notebooks, held at the Huntington Library, document a sustained daily writing routine maintained through years of rejection before her first sale, corroborated directly from her own archived working papers, not secondhand characterization." },
-    "persistence": { "score": 84, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Continued submitting work through documented years of rejection before her first novel sale, and continued writing through periods of self-described writer's block later in her career, per her own interviews and notebooks." },
-    "independent_thinking": { "score": 80, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Wrote as one of very few Black women in science fiction in the 1970s-80s, deliberately centering Black protagonists and themes largely absent from the genre at the time, documented via critical analysis of her work's place in the field." },
-    "creative_originality": { "score": 82, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Developed distinctive thematic territory (genetic engineering, power and consent, Afrofuturist historical fiction in Kindred) not widely explored in science fiction at the time, documented via critical reception and her sustained influence on the genre." },
-    "resourcefulness": { "score": 74, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented to have worked a series of unrelated day jobs for years while sustaining her writing practice before she could support herself through fiction alone, per her own interviews." },
-    "autonomy_need": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Maintained an independent, self-directed writing practice and daily routine across decades of uncertain income, documented via her own notebooks and interviews describing her working life." },
-    "achievement_drive": { "score": 70, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Her own notebooks include documented, dated personal affirmations about becoming a bestselling author written years before that outcome, a specific, corroborated instance of sustained goal-directed intent." },
-    "systems_abstraction": { "score": 64, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Her Xenogenesis and Parable series built internally consistent, systematic speculative frameworks (genetic engineering rules, emergent social/religious systems), documented via critical analysis of her worldbuilding." },
-    "cross_domain_range": { "score": 58, "confidence": 0.46, "evidenceType": "documented", "impact": "advantage", "rationale": "Her research spanned genetics, evolutionary biology, and history to inform her fiction, documented via her own research notes archived at the Huntington Library." },
-    "deep_focus": { "score": 82, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Her surviving notebooks document sustained, disciplined daily writing sessions maintained across years, directly corroborated from her own archived working papers at the Huntington Library." },
-    "planning_orientation": { "score": 66, "confidence": 0.52, "evidenceType": "documented", "impact": "advantage", "rationale": "Her surviving notebooks include detailed outlines and planning notes for her Parable and Xenogenesis series, documented via the Huntington Library's archived materials." },
-    "impact_motivation": { "score": 62, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Repeatedly stated in interviews that she wrote to explore power, consent, and survival themes with direct relevance to real social conditions, documented via her own interviews." },
-    "collaboration": { "score": 55, "confidence": 0.48, "evidenceType": "documented", "impact": "neutral", "rationale": "Attended the Clarion Science Fiction Writers' Workshop early in her career, a documented, specific formative collaborative experience, and later engaged with and mentored younger writers." },
-    "conflict_tolerance": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Her fiction directly confronted uncomfortable themes (slavery in Kindred, power and consent in the Xenogenesis series) that some readers and critics found controversial, and she continued pursuing this material regardless." },
-    "detail_orientation": { "score": 62, "confidence": 0.46, "evidenceType": "inference", "impact": "neutral", "rationale": "Her extensively researched worldbuilding (particularly the historical detail in Kindred) suggests real careful attention to specifics, though the surviving public record documents outcomes more than her granular research process." },
-    "mastery_orientation": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued developing craft and thematic range across multiple series and standalone novels over a roughly three-decade career, rather than repeating an early successful formula." },
-    "curiosity": { "score": 64, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Her novels' engagement with genetics, evolutionary biology, and historical research suggest sustained cross-disciplinary reading and inquiry beyond fiction craft alone." },
-    "risk_tolerance": { "score": 60, "confidence": 0.45, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained a financially precarious writing career for years with no guarantee of success, documented via her own accounts of her day-job period, though this reflects sustained commitment more than a single high-stakes decision." },
-    "social_assertiveness": { "score": 40, "confidence": 0.45, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Widely described in her own interviews and by biographers as introverted and more comfortable in solitary writing than public settings — a real, honestly low score rather than an assumption of extroversion from her later public prominence." },
-    "experimentation": { "score": 60, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Worked across genuinely different speculative-fiction subgenres (post-apocalyptic, historical time-travel, vampire fiction) rather than remaining within one established niche, suggesting real willingness to vary her approach." }
+    "discipline": {
+      "score": 86,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her surviving personal notebooks, held at the Huntington Library, document a sustained daily writing routine maintained through years of rejection before her first sale, corroborated directly from her own archived working papers, not secondhand characterization."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued submitting work through documented years of rejection before her first novel sale, and continued writing through periods of self-described writer's block later in her career, per her own interviews and notebooks."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote as one of very few Black women in science fiction in the 1970s-80s, deliberately centering Black protagonists and themes largely absent from the genre at the time, documented via critical analysis of her work's place in the field."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed distinctive thematic territory (genetic engineering, power and consent, Afrofuturist historical fiction in Kindred) not widely explored in science fiction at the time, documented via critical reception and her sustained influence on the genre."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented to have worked a series of unrelated day jobs for years while sustaining her writing practice before she could support herself through fiction alone, per her own interviews."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained an independent, self-directed writing practice and daily routine across decades of uncertain income, documented via her own notebooks and interviews describing her working life."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her own notebooks include documented, dated personal affirmations about becoming a bestselling author written years before that outcome, a specific, corroborated instance of sustained goal-directed intent."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her Xenogenesis and Parable series built internally consistent, systematic speculative frameworks (genetic engineering rules, emergent social/religious systems), documented via critical analysis of her worldbuilding."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her research spanned genetics, evolutionary biology, and history to inform her fiction, documented via her own research notes archived at the Huntington Library."
+    },
+    "deep_focus": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her surviving notebooks document sustained, disciplined daily writing sessions maintained across years, directly corroborated from her own archived working papers at the Huntington Library."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her surviving notebooks include detailed outlines and planning notes for her Parable and Xenogenesis series, documented via the Huntington Library's archived materials."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly stated in interviews that she wrote to explore power, consent, and survival themes with direct relevance to real social conditions, documented via her own interviews."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Attended the Clarion Science Fiction Writers' Workshop early in her career, a documented, specific formative collaborative experience, and later engaged with and mentored younger writers."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Her fiction directly confronted uncomfortable themes (slavery in Kindred, power and consent in the Xenogenesis series) that some readers and critics found controversial, and she continued pursuing this material regardless."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her extensively researched worldbuilding (particularly the historical detail in Kindred) suggests real careful attention to specifics, though the surviving public record documents outcomes more than her granular research process."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued developing craft and thematic range across multiple series and standalone novels over a roughly three-decade career, rather than repeating an early successful formula."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her novels' engagement with genetics, evolutionary biology, and historical research suggest sustained cross-disciplinary reading and inquiry beyond fiction craft alone."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a financially precarious writing career for years with no guarantee of success, documented via her own accounts of her day-job period, though this reflects sustained commitment more than a single high-stakes decision."
+    },
+    "social_assertiveness": {
+      "score": 40,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Widely described in her own interviews and by biographers as introverted and more comfortable in solitary writing than public settings — a real, honestly low score rather than an assumption of extroversion from her later public prominence."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked across genuinely different speculative-fiction subgenres (post-apocalyptic, historical time-travel, vampire fiction) rather than remaining within one established niche, suggesting real willingness to vary her approach."
+    }
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-08-16T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Second-batch diversity pick: contemporary/20th-century-boundary, north_america, science fiction domain not represented anywhere in the current roster. Her personal notebooks (held at the Huntington Library and referenced in her own interviews) provide an unusually direct, first-person evidentiary basis for the discipline/persistence/achievement_drive scores. Honestly low social_assertiveness (40) avoids assuming public prominence implies extroversion."
+    "notes": "Second-batch diversity pick: contemporary/20th-century-boundary, north_america, science fiction domain not represented anywhere in the current roster. Her personal notebooks (held at the Huntington Library and referenced in her own interviews) provide an unusually direct, first-person evidentiary basis for the discipline/persistence/achievement_drive scores. Honestly low social_assertiveness (40) avoids assuming public prominence implies extroversion.\n\nRoster-1000 session 10 (eligibility_v2, 2026-08): promoted held -> qa_passed. The historical holdReason (based on a flat, unweighted confidence mean across all scored attributes) is now obsolete -- eligibility_v2 (docs/roster-1000-checkpoint.md SS52-64) replaced that gate with a high-confidence-subset (confidence>=0.5) count+average requirement, computed here at scored=20, coverage=0.603, highConfidenceCount=12, highConfidenceAverage=0.583. No row (score/confidence/evidenceType/impact/rationale) was touched -- this is a pure admission-rule reclassification, not a rescoring. Original holdReason preserved verbatim below for the historical record.\n\nOriginal holdReason (obsolete, preserved for record): Confidence ceiling: despite her unusually rich primary-source base (personal notebooks archived at the Huntington Library), the evidence gathered for this pass leans on secondary characterization of that archive more than direct excerpts, keeping several rows at 'strong_inference' rather than 'documented.' After remediation (13 -> 20 scored attributes, coverage now 0.603), average confidence (0.532) remains just short of the 0.55 floor. A future pass working more directly from published excerpts of her notebooks could plausibly close this small gap — recorded as a strong candidate to revisit, not a permanent rejection."
   }
 }
