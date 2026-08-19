@@ -195,3 +195,79 @@ existing inline-comment discipline already visible in `seed.ts`/
 `roster2.ts` (e.g. the Buffett `opportunity_sensing` correction, the Ibn
 Khaldun `resourcefulness` removal — both real precedents for exactly
 this kind of documented, reasoned score decision).
+
+## 10. Scoring/eligibility separation and the confidence-change policy
+## (added roster-1000 session 11, after a real threshold-driven-scoring
+## incident — see `docs/roster-1000-checkpoint.md` §75-77)
+
+**Evidence extraction, attribute selection, `evidenceType`, `confidence`,
+and `score` must all be finalized BEFORE eligibility is evaluated.**
+`evaluateMatchEligibility` (`src/core/matching/similarity.ts`) is a
+downstream diagnostic on locked scoring — never a target to score
+toward. A real incident (session 11, 2026-08) found a 20-candidate batch
+where confidence values were iteratively adjusted, computing exact
+numeric targets, until `highConfidenceCount`/`highConfidenceAverage`
+crossed `eligibility_v2`'s admission floor. This is exactly the failure
+mode this section exists to prevent.
+
+**Any change to an already-scored row's `confidence`/`evidenceType`
+must be attributable to one of three reasons — never a fourth:**
+
+```
+A. NEW_EVIDENCE        A genuinely new substantive source/evidence item
+                        changed what's actually known about the person.
+B. RUBRIC_CORRECTION   The prior stored classification demonstrably
+                        contradicted an explicit rule in this document
+                        (see the objective strong_inference criterion
+                        below) -- and the SAME correction criterion
+                        must be checked across the rest of the corpus,
+                        not applied only to the one candidate currently
+                        failing eligibility.
+C. ERROR_CORRECTION    A mechanical/data-entry mistake.
+
+NOT ALLOWED, ever:
+D. ELIGIBILITY_REMEDIATION   Changing confidence/evidenceType because
+                              scored-attribute count, coverage,
+                              high-confidence count, high-confidence
+                              average, or the eligible/held result
+                              itself came out wrong. Eligibility is
+                              read, never written to.
+```
+
+**Objective, corpus-wide `strong_inference` criterion.** §3's confidence
+bands above are unchanged, but this document narrows *which* branch of
+the `strong_inference` definition (§2) is treated as objectively,
+mechanically verifiable for the purpose of a corpus-wide consistency
+check: `strong_inference` is defined disjunctively — "a well-supported
+pattern across multiple documented instances, OR a documented outcome
+whose most plausible explanation is the trait." The second branch is
+real, legitimate rubric text and is not deleted here, but it is
+inherently more subjective, and it is exactly the branch the session-11
+incident exploited — nearly any single fact about an accomplished
+person can be narrated as "the most plausible explanation." **For the
+purpose of any corpus-wide audit or correction pass, only the first
+branch counts**: a row may be assigned `strong_inference` (confidence
+0.50-0.64) only if its rationale documents TWO OR MORE independently-
+verifiable, distinct facts, instances, sources, or episodes that all
+support the same trait — matching this document's own §2 worked example
+("a biography documents five separate career pivots... supports
+`cross_domain_range` as strong_inference"). A row resting on a single
+documented fact and one inferential step belongs in `inference`
+(0.20-0.49), however plausible the inference sounds, unless a human
+reviewer is prepared to individually defend the single-fact
+"most-plausible-explanation" claim on its own terms — that judgment
+call is exactly what produced the session-11 incident, so treat it with
+real skepticism rather than reaching for it by default.
+
+**Practical workflow guardrail**: score a candidate to completion first;
+run `src/dev/roster1000/validateCandidates.ts` only once the researcher
+believes the profile is complete; treat any post-validation edit as
+requiring an explicit A/B/C label in the row's `rationale` or the
+candidate's `provenance.notes`. A lightweight script that diffs a
+candidate file against its last-committed version and flags any
+confidence change lacking such a label is recorded as useful, concrete,
+not-yet-built future tooling (see the checkpoint's own "Exact next
+steps") — this document does not mandate it, since a documentation
+discipline enforced by a human researcher, backed by periodic audit
+(exactly what session 11's own repair was), is proportionate for a
+project of this scale; do not overbuild a workflow platform around it.

@@ -3262,6 +3262,40 @@ milestone audit and explicit human review before any `main`-branch
 merge is even considered; `main` was not touched, `scale/roster-1000`
 remains the only branch with this work.**
 
+**CORRECTION, same session, later pass — the 104-person figure above did
+NOT hold up and is superseded.** A pre-merge consistency audit found the
+confidence-band reclassification described above was threshold-driven
+for a real subset of rows (direct evidence: iterative confidence tuning
+computing exact numeric targets, most visibly on `ban-zhao`). A blind
+re-review — every touched row re-judged against `scoring-rubric-v1.md`
+§2/§3 with NO reference to eligibility outcome while deciding, locked
+BEFORE `eligibility_v2` was run even once against the repaired scoring —
+found only **3 of the original 20 candidates genuinely clear the
+objective standard: `benito-juarez`, `joan-of-arc`, `julius-caesar`**.
+The other 17 were reverted to `held` status with an honest, specific
+`holdReason`; no score value was ever changed, only `evidenceType`/
+`confidence` on rows that did not meet the corpus-wide objective
+`strong_inference` criterion now recorded in `scoring-rubric-v1.md` §10
+(two or more independently-verifiable distinct facts, not a single
+documented fact plus one inferential step). **Final, current roster:
+87 people, 86 match-eligible** — below the 100-person milestone, which
+is explicitly not treated as a failure, per the same governing
+instruction that gated the original 104 figure. Canonical matching
+remains healthy on the corrected roster (max #1 12.0%, HHI 423.7,
+entropy 80.7% of maximum). A parallel corpus-wide check against the
+52 pre-session-11 held and 38 previously-accepted candidates was
+attempted but found unreliable on spot-check (an automated classifier
+flagged 5 already-published people — `cv-raman`, `emmy-noether`,
+`harriet-tubman`, `mary-wollstonecraft`, `susan-b-anthony` — as
+newly-failing, and every one of the 16 specific rows behind those flags
+survived manual review) — **no changes were applied to the
+pre-session-11 corpus**, and a full manual review of that corpus remains
+real, unfinished future work. A durable A/B/C/D confidence-change policy
+(NEW_EVIDENCE / RUBRIC_CORRECTION / ERROR_CORRECTION allowed;
+ELIGIBILITY_REMEDIATION never allowed) is now recorded in
+`scoring-rubric-v1.md` §10 for all future roster-1000 scoring sessions.
+Full record: `docs/roster-1000-checkpoint.md` §75-77.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 

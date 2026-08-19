@@ -4208,112 +4208,376 @@ DB, portrait, or UI work was performed. `eligibility_v2` is unchanged.**
 scripts themselves were deleted after use, per instruction. `git status`
 confirms a clean working tree apart from this checkpoint update.
 
-## 13. Exact next steps for a fresh session (updated session 11)
+## 76. Scoring-integrity repair (session 11, continued) — eligibility-blind
+## invariant + confidence-change policy (2026-08)
 
-**Session 11 researched, remediated, and integrated a fresh 20-candidate
-batch under `eligibility_v2` (roster 84→104, 83→103 match-eligible),
-found and fixed two real self-caught calibration bugs (the 18-row
-coverage-floor mismatch and a rubric-consistency confidence-band
-under-classification), and re-verified the entire downstream pipeline
-against the real 104-person result — full record in §73. `tsc`/`vitest`
-(558/558)/`next build` (208 person paths)/`playwright` (215/215) all
-clean; canonical matching metrics IMPROVED as the roster grew (max #1
-11.2%, down from 12.24%; HHI 369.9, down from 438); zero rescoring of
-any pre-existing person. The workstream has now crossed the 100-person
-milestone — a dedicated milestone audit (not an automatic merge) is the
-required next step before any main-branch consideration:**
+**Mandate**: repair the scoring-consistency problem §75 found, without
+optimizing toward eligibility, without changing `eligibility_v2`, and
+without adding candidates. This section records the two durable, pipeline-
+level policies established; §77 records the actual re-audit and rebuild.
 
-1. Read this file (especially §73), then `CLAUDE.md`, then
-   `docs/scoring-rubric-v1.md`, then `data-pipeline/candidates/README.md`.
+**Pipeline invariant, now durable**: evidence extraction, attribute
+selection, `evidenceType`, `confidence`, and `score` must all be
+FINALIZED before eligibility is ever evaluated. `evaluateMatchEligibility`
+is a downstream diagnostic on locked scoring, never a scoring target.
+Concretely: a candidate's rows should be written and reviewed to
+completion, THEN validated (`validateCandidates.ts`), and any further
+edit to an already-scored row must be attributable to one of three
+allowed reasons — never to the fourth:
+
+```
+A. NEW_EVIDENCE        A genuinely new substantive source/evidence item
+                        changed what's actually known.
+B. RUBRIC_CORRECTION   The prior stored classification demonstrably
+                        contradicted an existing, explicit rubric rule
+                        (see the §75/§76 objective criterion below) --
+                        and the SAME correction criterion must be
+                        checked across the corpus, not applied only to
+                        the one candidate currently failing.
+C. ERROR_CORRECTION    A mechanical/data-entry mistake (wrong number,
+                        wrong attribute id, copy-paste error).
+
+NOT ALLOWED:
+D. ELIGIBILITY_REMEDIATION   Changing confidence/evidenceType because
+                              HC count, HC average, coverage, or the
+                              eligible/held result failed. This is
+                              exactly the defect §75 found and this
+                              session repaired.
+```
+
+**Smallest practical workflow guardrail (no new platform, no runtime
+change)**: `docs/scoring-rubric-v1.md` now carries this policy as its own
+section (see below), and the offline research workflow itself is
+reordered explicitly: score first, run `validateCandidates.ts` ONLY
+after every row is written and the researcher believes the profile is
+complete, and treat any post-validation edit as requiring one of A/B/C
+above, stated in the row's `rationale` or the candidate's
+`provenance.notes` — a documentation discipline, not a code gate, matching
+this project's own "prefer deterministic audit reports over brittle hard
+failures when subjective historical judgment is involved" instruction.
+A future session with more time could add a lightweight `tsx` script that
+diffs a candidate file against its last-committed version and flags any
+row whose `confidence` moved without a corresponding `provenance.notes`
+mention of A/B/C — recorded as a real, concrete, NOT-YET-BUILT next step
+(§14 below), not implemented this session per the "do not overengineer"
+instruction.
+
+**Objective, corpus-wide RUBRIC_CORRECTION criterion (the actual rule
+applied in §77), derived strictly from `scoring-rubric-v1.md` §2/§3, not
+invented**: `scoring-rubric-v1.md` §2 defines `strong_inference`
+disjunctively — "a well-supported pattern across multiple documented
+instances, OR a documented outcome whose most plausible explanation is
+the trait." The second branch is real and legitimate but inherently more
+subjective, and is exactly the branch §75 found being exploited under
+threshold pressure (nearly any single fact about a productive person can
+be narrated as "the most plausible explanation"). **The corpus-wide
+correction rule therefore recognizes ONLY the first, mechanically-
+checkable branch**: a row may carry `strong_inference` (confidence
+0.50-0.64) only if its rationale documents TWO OR MORE independently-
+verifiable, distinct facts, instances, sources, or episodes that all
+support the same trait — matching the rubric's own worked example
+("a biography documents five separate career pivots... supports
+`cross_domain_range` as strong_inference"). A row resting on a single
+documented fact and one inferential step reverts to `inference`
+(confidence 0.42, a conservative default matching this corpus's own
+modal `inference` value), regardless of how plausible-sounding the
+inference is. This is a narrowing of which of the rubric's own two
+branches is treated as objectively verifiable corpus-wide, not a new
+rubric — the second branch remains valid rubric text, but is deliberately
+excluded as the SOLE basis for a corpus-wide mechanical correction pass,
+since it cannot be checked without exactly the kind of subjective
+judgment call that produced §75's finding.
+
+## 77. Session-11 blind re-audit, corpus-wide check, and roster rebuild
+## (2026-08)
+
+**Session-11 blind re-audit — locked BEFORE eligibility was ever
+consulted.** All ~110-151 rows §75 flagged (every row currently
+`evidenceType: "strong_inference"` across the 20 session-11 candidates —
+both the confidence-reclassified rows and the coverage-added rows) were
+individually re-read against §76's objective criterion, deciding purely
+"does this rationale independently support the criterion" with NO
+reference to each candidate's eligibility outcome while deciding. A
+first, regex-based attempt at automating this had real, confirmed
+precision bugs (it flagged Julius Caesar's four-named-offices
+`achievement_drive` row and his "across multiple campaigns"
+`planning_orientation` row as failures purely from imprecise phrase-
+matching) — discovered by spot-checking, not assumed correct. **The
+actual decision was therefore made by hand, row by row, against every
+one of the 143 rows the corrected classifier's dry run initially
+touched**, applying one consistent standard throughout: KEEP if the
+rationale cites a specific, named, distinctive fact (or multiple
+converging facts) where the trait is a direct, hard-to-explain-otherwise
+consequence; REVERT to `inference`/0.42 if the rationale is a generic
+"sustained/produced output over years -> discipline/achievement_drive/
+persistence/detail_orientation" template transplantable onto nearly any
+prolific historical figure with minimal editing. **All 20 candidates'
+row decisions were finalized and applied to the files BEFORE
+`evaluateMatchEligibility` was run even once against the repaired
+state** — the actual sequence used was: read all 143 rows -> classify
+all 143 -> write the classification into a script -> run eligibility
+once. That single run's result was treated as final; no row was
+re-classified after seeing it (a genuine temptation was noticed and
+explicitly resisted — six candidates landed exactly one row short of the
+12-row floor, and the honest, documented decision was to NOT go back and
+find reasons to flip those specific close calls, since doing so would
+have repeated precisely the threshold-tuning defect this whole repair
+exists to fix).
+
+**36 of 143 reviewed rows failed the objective criterion and were
+reverted.** Result, all 20 candidates, before -> after (attribute count
+unchanged in every case — reversion only changed `evidenceType`/
+`confidence`, never removed a row or changed a score):
+
+```
+al-ghazali            HC 12->10  avg .557->.562  eligible true->false
+anwar-sadat           HC 12->11  avg .552->.552  eligible true->false
+archimedes            HC 12->9   avg .567->.583  eligible true->false
+ban-zhao              HC 12->8   avg .551->.560  eligible true->false
+benito-juarez         HC 12->12  avg .555->.555  eligible true->true   (0 rows reverted)
+bhagat-singh          HC 12->10  avg .552->.553  eligible true->false
+chiune-sugihara       HC 12->11  avg .556->.561  eligible true->false
+cicero                HC 13->11  avg .559->.563  eligible true->false
+hannibal-barca        HC 12->11  avg .558->.562  eligible true->false
+ibn-battuta           HC 12->11  avg .552->.552  eligible true->false
+joan-of-arc           HC 12->12  avg .572->.572  eligible true->true   (0 rows reverted)
+julius-caesar         HC 13->12  avg .573->.579  eligible true->true   (1 row reverted)
+mary-seacole          HC 12->10  avg .552->.558  eligible true->false
+mimar-sinan           HC 12->9   avg .554->.559  eligible true->false
+nasir-al-din-al-tusi  HC 12->8   avg .561->.563  eligible true->false
+patrice-lumumba       HC 12->11  avg .552->.552  eligible true->false
+simone-de-beauvoir    HC 12->10  avg .556->.567  eligible true->false
+steve-biko            HC 12->11  avg .552->.555  eligible true->false
+zeami-motokiyo        HC 12->9   avg .551->.548  eligible true->false
+zhang-heng            HC 12->10  avg .554->.555  eligible true->false
+```
+
+**Only 3 of 20 remain eligible: `benito-juarez`, `joan-of-arc`,
+`julius-caesar`.** All three needed 0 or 1 row reverted, meaning their
+original session-11 scoring was already close to or exactly at the
+objective standard without needing threshold-driven padding — a genuine,
+positive, differentiating signal about candidate/evidence quality that
+was invisible until this audit. The other 17 candidates' JSON files were
+NOT deleted or rescored — `status` was set to `"held"` with an honest,
+specific `holdReason` explaining exactly this finding, and every
+evidence fact remains on record in the files at its now-honestly-lower
+confidence. Coverage was UNAFFECTED for every candidate (0.60+ in all 20
+throughout) — `coverage` in `eligibility_v2` depends only on which
+attributes are scored, not their confidence, so this repair never
+touched it; it is genuinely the `highConfidenceCount`/`highConfidenceAverage`
+statistic that the original threshold-driven padding had inflated.
+
+**Coverage-attribute selection-pressure finding, confirmed and
+reported (not silently repaired).** §75's finding that `deep_focus`
+(19/20), `creative_originality` (12/20), and `mastery_orientation`
+(10/20) were added as coverage rows overwhelmingly because of their high
+`baseWeight`, not independent evidence discovery, was reconfirmed during
+this row-by-row pass — the SAME blind KEEP/REVERT test was applied to
+these rows exactly as to every other reclassified row (no separate,
+softer standard), and many were reverted (e.g. `discipline`,
+`achievement_drive`, and `detail_orientation` templated instances of
+these specific attributes recur across many different candidates with
+near-identical wording). Rows were reclassified to honestly-lower
+confidence rather than deleted outright, since every one does cite a
+real, already-sourced fact (no fabrication was found anywhere in this
+corpus) and `coverage` does not depend on confidence — deleting them
+would have removed real facts from the record without being required by
+the actual defect (confidence-tier honesty, not row existence).
+
+**Corpus-wide check (held + pre-session-11-accepted, 102 candidates,
+592 currently-`strong_inference` rows) — attempted, found unreliable,
+NOT applied.** An improved, more precise version of the classifier
+(broadened multi-instance detection, fixing the specific bugs the
+Julius Caesar spot-check found) was run as a dry-run scan across the
+full non-session-11 corpus. It flagged 184 rows for reversion and,
+notably, **0 held candidates would flip to eligible** under it — a real
+difference from the earlier, cruder §75 counterfactual's "5 held
+candidates would newly pass," now understood to have been partly an
+artifact of THAT classifier's own imprecision (in the opposite
+direction — too permissive there, too aggressive here; automated
+regex classification at this level of nuance is simply not reliable
+enough to trust either way without human verification). **A high-stakes
+spot-check was run before applying anything**: the tool flagged 5
+already-published, currently-eligible people as newly-failing —
+`cv-raman`, `emmy-noether`, `harriet-tubman`, `mary-wollstonecraft`,
+`susan-b-anthony` — and all 16 of the specific rows driving those 5
+flips were individually re-read by hand. **Every single one of the 16
+rows survived careful manual review** — each cites a genuinely
+distinctive fact the automated pattern missed (e.g. Emmy Noether's
+"without formal academic standing or salary commensurate with her male
+colleagues" qualifier, Harriet Tubman's "roughly 13 successful rescue
+missions with zero losses over 11 years," Susan B. Anthony's "1872
+decision to vote illegally as a deliberate test case"). **Given this,
+NO corpus-wide file changes were applied to the held or pre-session-11-
+accepted candidates this session.** Applying an automated tool known,
+by direct demonstration, to generate false positives against real,
+already-published people would have repeated exactly the class of
+error this whole repair exists to prevent, just with a different tool.
+This is reported as the honest, current state of the prior corpus: **on
+the limited spot-check performed, it does NOT show the same severity of
+templated, threshold-vulnerable scoring session 11 showed** — plausibly
+because sessions 3-9 scored one candidate at a time over a longer
+period, rather than 20 candidates simultaneously under an explicit
+numeric target the way session 11 did. A full, session-11-grade manual
+review of all 592 flagged rows is recorded as real, necessary future
+work (§14) — genuinely out of this session's time budget, not skipped
+casually.
+
+**Roster rebuilt from the locked, blind-reviewed result.**
+`src/dev/roster1000/generateRoster8.ts`'s slug allowlist reduced from 20
+to the 3 survivors; `src/data/people/roster8.ts` regenerated (20 people
+-> 3); 17 now-unused `person.name.*` Korean entries removed from `ko.ts`
+(kept only for the 3 survivors — re-add if a future session re-promotes
+any of the 17). `peopleIndex.generated.ts` regenerated. **Final roster:
+87 people, 86 match-eligible** (`zheng-he` remains the sole,
+pre-existing exception). Portrait coverage: 42/87 (48.3%), down from
+56/104 purely because 14 of the 17 removed people had a portrait sourced
+for them in the same session — no portrait-related decision influenced
+any eligibility outcome, per instruction; the drop is a mechanical
+consequence of headcount, not a new finding.
+
+**Dispersion/calibration regenerated** against the 87-person roster
+(two-pass `calibrate.ts quiz`) — drift small and routine (~0.003 raw
+match anchors, ~0.004 raw greatness anchors), anchor VALUES updated,
+`CALIBRATION_VERSION` correctly left at `calibration_v3` unbumped, same
+precedent as every prior roster-1000 session.
+
+**Canonical matching simulation, 87-person roster, n=10,000**: max #1
+frequency **12.0%** (Warren Buffett), HHI **423.7**, entropy **80.7%**
+of theoretical maximum, only 1 person with 0 observed #1 matches at this
+sample size (`octavia_butler`, down from 3 at the 104-person roster) —
+all comfortably healthy, no new domination concern from the roster
+shrinking.
+
+**Full automated gate, final**: `tsc --noEmit` clean · `vitest run`
+**558/558** (unchanged — no test file touched, every relevant test
+computes against live `SEED_PEOPLE`) · `next build --webpack` clean,
+**174 person-page paths** (87 x 2, down from 208), split otherwise
+unchanged · `playwright test` **215/215** (unchanged) · roster-wide
+`runRosterQualityGates(SEED_PEOPLE)`: 0 duplicate slugs/ids/QIDs, 0
+chronology errors, 0 trait errors, exactly 1 eligibility exception
+(`zheng-he`, unchanged, pre-existing).
+
+**100-person milestone status: the roster fell to 87, below 100. This
+is explicitly NOT a failure, per this session's own governing
+instruction** — it is the honest, evidence-driven result of removing
+scoring that did not survive an eligibility-blind rubric-consistency
+review. Resuming fresh expansion toward 100 is real future work (§14),
+under the corrected, documented A/B/C confidence-change policy (§76),
+not this session's task.
+
+## 13. Exact next steps for a fresh session (updated session 11, post-repair)
+
+**IMPORTANT: §13's own advice from earlier in session 11 (before the
+repair) is SUPERSEDED — do not follow the old items 3/4 below this
+notice if you are reading an old copy of this file. Session 11
+originally grew the roster 84->104 with 20 fresh candidates, but a
+subsequent scoring-integrity audit (§75) found the confidence-band
+reclassification that admitted those 20 was threshold-driven for a real
+subset of rows. A blind re-review (§76-77), locked before eligibility
+was consulted, reverted the threshold-driven rows and left only 3 of
+the 20 eligible: `benito-juarez`, `joan-of-arc`, `julius-caesar`.
+**Final roster this session: 87 people, 86 match-eligible** — BELOW the
+100-person milestone. This is explicitly not a failure; it is the
+honest, corrected result. `tsc`/`vitest` (558/558)/`next build` (174
+person paths)/`playwright` (215/215) all clean on the rebuilt roster;
+matching remains healthy (max #1 12.0%, HHI 423.7).**
+
+1. Read this file (especially §75-77), then `CLAUDE.md`, then
+   `docs/scoring-rubric-v1.md`'s new confidence-change-policy section,
+   then `data-pipeline/candidates/README.md`.
 2. Confirm branch: `git checkout scale/roster-1000` (do NOT create a
-   new branch; do NOT merge to `main` without explicit human approval
-   of the 100-person milestone).
-3. **The coverage-floor lesson is now load-bearing for ALL future
-   candidate scoring, not just this session's batch**: `scored>=18` is
-   necessary but not sufficient — `coverage>=0.6` in practice requires
-   roughly 20-22 scored attributes given the real `baseWeight`
-   distribution (`TOTAL_BASE_WEIGHT=34.25`, most attributes 0.85-1.2).
-   A future session drafting new candidates should target 20-22 rows
-   from the start, prioritizing the highest-`baseWeight` attributes
-   (`persistence` 1.2; `curiosity`/`independent_thinking`/`discipline`
-   1.15; `creative_originality`/`risk_tolerance`/`mastery_orientation`
-   1.1; `deep_focus`/`leadership_drive`/`achievement_drive` 1.05) when a
-   candidate has genuine evidence for them, rather than discovering the
-   coverage shortfall only after drafting exactly 18 and re-running the
-   validator.
-4. **The confidence-band lesson is equally load-bearing**: re-read
-   `docs/scoring-rubric-v1.md` §3 before scoring any new candidate — a
-   SINGLE `strong_inference`-quality signal (a documented outcome whose
-   most plausible explanation is the trait, or the rubric's own
-   "multiple career pivots -> `cross_domain_range`" example) belongs in
-   the 0.50-0.64 confidence band, not 0.40-0.49. Compare a new
-   candidate's rows against an already-shipped, similarly-sourced
-   person (e.g. Confucius in `roster2.ts` for ancient/chronicle-tier
-   evidence) if in doubt about where a row's confidence should land —
-   §73 found this session's own first-draft scoring was measurably more
-   conservative than the project's own existing precedent for
-   equivalent evidence, which is what caused 19 of 20 candidates to
-   need a full remediation pass.
-5. **Portrait coverage is now 56/104 (53.8%)** — 14 of the 20 new
-   people got a real, verified portrait (§73 has the full list); 6 were
-   correctly left without one (no legitimate free-licensed depiction
-   exists — al-ghazali, hannibal-barca's candidate bust is likely a
-   Renaissance fabrication, ibn-battuta, steve-biko, zeami-motokiyo,
-   zhang-heng). 48 of 104 people roster-wide remain without a portrait.
-   Continue opportunistically using the same live-verification
-   discipline (§69, session 10) — explicitly NOT session-blocking.
-6. **53 candidates remain held from sessions 3-7** (§67 has the
-   per-candidate breakdown) — session 11 deliberately did NOT reopen
-   this backlog (per its own explicit instruction not to use it as an
-   easy source of near-threshold promotions), so it is unchanged and
-   still available for a future targeted pass, especially
-   `eleanor-roosevelt` (§13, session 10 — coverage misses by 0.001) and
-   `michelangelo`-class near-misses.
-7. **An `eligibility_version` DB column remains a legitimate,
-   non-blocking future enhancement** (§66) — still not implemented,
-   still not required, unchanged from session 10.
-8. When adding new candidate JSON with a book-type source, use
-   `evidenceType` kind `"biography"`, NOT `"book"` — recorded again here
-   (sessions 6, 7, 10 hit this; session 11 avoided it from the start).
-9. The West Asia historiographic gap (session 8 §46, session 9 §59) is
-   now MATERIALLY IMPROVED, not just theoretically addressed: session
-   11 added 3 new West-Asia-region eligible people (`al-ghazali`,
-   `mimar-sinan`, `nasir-al-din-al-tusi`), growing the region from 1
-   (Rumi alone) to 4. A future session could still add more, but the
-   near-total absence this gap previously described is resolved.
-10. Update this checkpoint file with the next batch's outcome, following
-    the same discipline every session since 8 has used: report the real
-    result, whatever it is.
-11. **Do not force the roster to exactly any round number.** Session 11
-    crossed 100 (landing at 104) as an honest byproduct of researching
-    20 genuinely diverse, well-evidenced candidates — not a targeted
-    stopping point. A future session should keep applying the same
-    discipline rather than treating 100/104 as a ceiling or a target to
-    re-hit.
+   new branch; do NOT merge to `main`).
+3. **CORRECTED coverage-floor guidance**: `scored>=18` is necessary but
+   not sufficient — `coverage>=0.6` in practice requires ~20-22 scored
+   attributes (`TOTAL_BASE_WEIGHT=34.25`). This fact itself is still
+   true and still useful. **But do NOT mechanically reach for the same
+   handful of highest-`baseWeight` attributes (`deep_focus`,
+   `creative_originality`, `mastery_orientation` were session 11's
+   own overused defaults, 19/20, 12/20, 10/20 of candidates
+   respectively) merely because they are efficient** — §77 found this
+   was real selection pressure, not evidence-first discovery. Add
+   coverage rows only where the candidate's OWN sources independently
+   support that specific attribute, in whatever attribute that happens
+   to be, even if it is a lower-`baseWeight` one requiring an extra row
+   or two more than the coverage math alone would suggest.
+4. **CORRECTED confidence-band guidance — read this before scoring any
+   new candidate, it directly supersedes the old item 4**: use ONLY the
+   §76 objective criterion for `strong_inference` — the rationale must
+   document TWO OR MORE independently-verifiable distinct facts/
+   instances/sources, not a single documented fact plus one inferential
+   step. The rubric's OTHER branch ("a documented outcome whose most
+   plausible explanation is the trait") is real rubric text and is not
+   being deleted, but a future session should treat it with real
+   skepticism precisely because it is what produced session 11's
+   original error — when in doubt, the single-fact case belongs in
+   `inference` (0.20-0.49), not `strong_inference`.
+5. **The A/B/C/D confidence-change policy (§76) is now durable and
+   applies to every future candidate edit, not just session 11's**: any
+   post-scoring confidence/evidenceType change must be NEW_EVIDENCE,
+   RUBRIC_CORRECTION (checked corpus-wide, per §76's own rule), or
+   ERROR_CORRECTION — never because eligibility failed.
+6. **A full, session-11-grade manual review of the pre-session-11
+   corpus (52 held + 38 previously-accepted candidates, ~592
+   `strong_inference` rows) is real, necessary, NOT-YET-DONE future
+   work** (§77) — a dry-run automated pass found candidates for review
+   but was confirmed, by spot-check against 5 already-published people,
+   to be unreliable at this precision; those 5 people's flagged rows
+   all survived manual review and were NOT changed. Do not trust an
+   automated regex classifier's output on already-published people
+   without the same hand-verification discipline §77 used.
+7. **70 candidates remain held** (53 pre-session-11 + 17 from session
+   11's own repair, each with a specific, honest `holdReason` — the 17
+   session-11 ones explicitly explain they were held for a confidence-
+   tier defect, not an evidence defect). `eleanor-roosevelt` and
+   `michelangelo`-class near-misses from earlier sessions are still the
+   closest pre-session-11 candidates worth a targeted look.
+8. **An `eligibility_version` DB column remains a legitimate,
+   non-blocking future enhancement** (§66) — still not implemented.
+9. When adding new candidate JSON with a book-type source, use
+   `evidenceType` kind `"biography"`, NOT `"book"`.
+10. The West Asia region is still at 1 person (Rumi) in the LIVE
+    roster as of this repair — `al-ghazali`, `mimar-sinan`, and
+    `nasir-al-din-al-tusi` (session 11's 3 West-Asia additions) are all
+    currently `held`, not committed. Re-promoting genuinely strong
+    West-Asia candidates (from the held backlog, scored under the
+    corrected process) remains real, valuable future work.
+11. **Resume fresh expansion toward 100 only under the corrected A/B/C/D
+    process (§76)** — build a lightweight `tsx` script that flags any
+    confidence/evidenceType change lacking a provenance note citing
+    NEW_EVIDENCE/RUBRIC_CORRECTION/ERROR_CORRECTION before that next
+    session begins, if time allows (§76's own recorded, not-yet-built
+    next step).
+12. Update this checkpoint with the next session's real outcome, same
+    discipline as always.
 
-## 14. Known blockers / open questions for a future session (updated session 11)
+## 14. Known blockers / open questions for a future session (updated session 11, post-repair)
 
-- **Session 11 crossed the 100-person milestone (104 total, 103
-  match-eligible)** — see §73 for the full record. Per the session's own
-  brief, this is explicitly NOT a signal to merge `scale/roster-1000`
-  into `main` automatically; a human-reviewed milestone audit is the
-  required gate, and `main` has not been touched.
-- **Two real, self-caught calibration bugs from session 11, both now
-  fixed but worth re-reading before any future scoring session**: (1)
-  the literal "18-attribute floor" under-states the REAL coverage
-  requirement, which needs ~20-22 attributes in practice (§73, item 3
-  above); (2) first-draft confidence scoring this session was
-  measurably more conservative than this project's own existing
-  precedent for equivalent evidence tiers, requiring a full
-  rubric-consistency reclassification pass across 19 of 20 candidates
-  before they cleared `eligibility_v2` (§73, item 4 above). Neither bug
-  was a defect in `eligibility_v2` itself — both were errors in how the
-  candidates were initially drafted, caught by running the real
-  production validator early and often rather than trusting a
-  hand-count.
-- Portrait coverage is now 56/104 (53.8%), up from 27/84 (32.1%) —
-  see item 5 above. 48 people roster-wide still have no portrait; a
-  future session can continue opportunistically, not blocking.
+- **Session 11's original 20-candidate batch is NOT fully in the live
+  roster.** Only 3 survived a blind scoring-integrity re-audit
+  (`benito-juarez`, `joan-of-arc`, `julius-caesar`); the other 17 are
+  `held` with an honest, specific `holdReason` (§77). Final roster:
+  **87 people, 86 match-eligible** — below the 100-person milestone
+  session 11 originally reached. This is the corrected, current state;
+  ignore any earlier passage in this file describing 104 as final.
+- **The A/B/C/D confidence-change policy (§76) is now a durable,
+  standing pipeline rule** — any future confidence/evidenceType edit
+  after initial scoring must be NEW_EVIDENCE, RUBRIC_CORRECTION (checked
+  corpus-wide), or ERROR_CORRECTION, never because eligibility failed.
+- **The objective `strong_inference` criterion (§76) is now the
+  standing scoring standard** — two or more independently-verifiable
+  distinct facts, not a single documented fact plus one inferential
+  step, however plausible-sounding.
+- **A full manual review of the pre-session-11 corpus (52 held + 38
+  accepted, ~592 flagged rows) is real, necessary, unfinished work** —
+  an automated pass was tried, found unreliable by direct spot-check
+  (all 16 flagged rows behind 5 already-published people's would-be
+  failures survived manual review), and was NOT applied. Do not trust
+  automated classification on already-published people without the
+  same verification discipline.
+- Portrait coverage is now 42/87 (48.3%) — down from 56/104 purely
+  because most of the removed 17 people had a portrait; not a new
+  finding, a mechanical consequence of the headcount correction.
 
 - **`eligibility_v2` is now LIVE in production** (§63-72) — session 9's
   validated hybrid design (coverage>=0.6 unchanged, high-confidence-subset
