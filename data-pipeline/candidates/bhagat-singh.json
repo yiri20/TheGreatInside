@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bhagat-singh",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Bhagat Singh",
+    "wikidataId": "Q186131",
+    "birthYear": 1907,
+    "deathYear": 1931,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_activist",
+      "writer"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "young_leader",
+      "self_taught",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_bhagatsingh_wikipedia",
+      "kind": "wikipedia",
+      "title": "Bhagat Singh",
+      "url": "https://en.wikipedia.org/wiki/Bhagat_Singh"
+    },
+    {
+      "id": "src_bhagatsingh_writings",
+      "kind": "archive",
+      "title": "Bhagat Singh's own prison writings, including his essay Why I Am an Atheist and his prison diary/notebook"
+    },
+    {
+      "id": "src_bhagatsingh_biography",
+      "kind": "biography",
+      "title": "Historical accounts of the 1929 Central Legislative Assembly bombing, his trial, and his 1931 execution"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Deliberately chose not to flee after throwing a bomb in the Central Legislative Assembly in 1929, remaining to be arrested and distributing prepared leaflets explaining the act's purpose -- documented via the well-corroborated historical and trial record of the incident."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Knowingly accepted arrest and eventual execution as a calculated outcome of the Assembly action, and later refused to appeal his death sentence, documented via his own surviving letters explaining this choice."
+    },
+    "persistence": {
+      "score": 86,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led and sustained a hunger strike in prison (partially lasting 116 days for him personally) demanding equal treatment for Indian political prisoners with European prisoners, documented via the well-corroborated historical record of the strike and the national attention it drew."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct, sometimes violent, political confrontation with colonial authorities through his final imprisonment and execution rather than seeking any accommodation, documented across the consistent historical record of his final years."
+    },
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His prison notebook documents extensive reading across Marxist, anarchist, and broader European revolutionary and philosophical literature, documented directly via the surviving notebook's own recorded reading list and annotations."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His essay Why I Am an Atheist presents a structured, reasoned philosophical argument rather than pure emotional assertion, documented directly via the surviving text itself."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed and defended an atheist, Marxist-influenced political philosophy that diverged from both the dominant religious-nationalist and non-violent strands of the independence movement of his era, inferred from the documented distinctiveness of his written positions relative to prevailing contemporary views."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Pursued an escalating series of increasingly consequential political actions within a very compressed timeline (he was executed at 23), inferred as significant drive from the documented pace and intensity of his activity relative to his age."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Explicitly stated in his own leaflet distributed at the Assembly bombing that the act was intended \"to make the deaf hear\" rather than to cause casualties (the bomb was documented as deliberately non-lethal, thrown clear of occupied seats), inferred as genuine ideological rather than personal motivation from the direct, documented consistency of this stated purpose with his broader surviving writing."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an extensive, self-directed reading and writing program throughout his imprisonment under harsh conditions, inferred from the documented volume of his surviving prison writing."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Co-led the Hindustan Socialist Republican Association's actions and organizing alongside peers rather than as a sole commanding figure, inferred as moderate rather than dominant leadership drive from the documented collective structure of the organization."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Planned and carried out the Assembly action jointly with Batukeshwar Dutt AND coordinated with other Hindustan Socialist Republican Association members, a genuinely collaborative pattern inferred from the convergence of the documented joint structure of his political actions."
+    },
+    "social_assertiveness": {
+      "score": 64,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His courtroom statements AND his prison writings were both deliberately crafted for public and press distribution to shape political opinion, inferred as real social assertiveness from the convergence of these two documented, deliberate public-facing channels."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Assembly bombing was planned with specific attention to avoiding casualties while maximizing symbolic impact, inferred as requiring real deliberate planning from the documented, carefully calibrated character of the action."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Deliberately positioned his revolutionary approach as distinct from the mainstream Indian National Congress's non-violent strategy, inferred as real independence of political direction from the documented, explicit divergence in his writing."
+    },
+    "detail_orientation": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented output centers on political and philosophical writing rather than administrative or technical detail work, an honest moderate score reflecting the actual character of his recorded activity."
+    },
+    "adaptability": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifted from direct action to sustained prison writing and hunger-strike organizing across his final years, inferred as some real adaptability from the documented range of his tactics across a short but eventful career."
+    },
+    "mastery_orientation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His prison notebook shows sustained, deepening engagement with political and philosophical texts over time rather than a static early position, inferred as some real intellectual development from the documented progression of his reading and writing."
+    },
+    "deep_focus": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an intensive, self-directed reading and writing program throughout imprisonment under harsh conditions, inferred as concentrated absorption from the documented volume and depth of his surviving prison notebook."
+    },
+    "creative_originality": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Combined a deliberately non-lethal, symbolically calibrated act of protest with prepared public messaging in a way distinct from prior actions by contemporary revolutionary groups, inferred as an original tactical approach from the documented specificity of the Assembly action's design."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: South Asia diversity pick, 20th century, a militant-resistance profile distinct from the already-present Gandhi/Ambedkar/Malala non-violent-approach figures in this roster -- genuine matching diversity, not redundant coverage. Well documented via his own extensive surviving prison writings (a genuinely rare case of a young revolutionary's own first-person intellectual record). Documents his actions (including the Assembly bombing and its explicitly stated non-lethal intent) factually, per this project's Safety discipline, without moral endorsement or condemnation."
+  }
+}

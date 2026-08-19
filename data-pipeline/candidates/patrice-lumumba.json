@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "patrice-lumumba",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Patrice Lumumba",
+    "wikidataId": "Q11812",
+    "birthYear": 1925,
+    "deathYear": 1961,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CD"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "young_leader",
+      "founder",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_lumumba_wikipedia",
+      "kind": "wikipedia",
+      "title": "Patrice Lumumba",
+      "url": "https://en.wikipedia.org/wiki/Patrice_Lumumba"
+    },
+    {
+      "id": "src_lumumba_speech",
+      "kind": "archive",
+      "title": "Lumumba's own Congolese Independence Day speech (30 June 1960), delivered and filmed live before King Baudouin and international press"
+    },
+    {
+      "id": "src_lumumba_biography",
+      "kind": "biography",
+      "title": "Historical accounts of the Congo Crisis (1960-1961) and Lumumba's assassination, including material from later Belgian parliamentary and declassified US/UN investigations"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 90,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Delivered an unscheduled, unsparing speech directly condemning Belgian colonial abuses in front of King Baudouin, foreign dignitaries, and international press at the Congo's independence ceremony -- widely filmed and reported, an extensively documented, specific act carrying serious diplomatic and personal risk."
+    },
+    "conflict_tolerance": {
+      "score": 86,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct political conflict with Belgian colonial authorities (multiple arrests before independence) and later with domestic rivals and foreign powers during the Congo Crisis, documented across the consistent historical record of both periods."
+    },
+    "decisiveness": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chose to respond directly and publicly to the King's own address rather than remain silent as originally scheduled, documented via the well-corroborated account of the independence day ceremony from multiple contemporary sources."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from a postal clerk and brewery employee with no formal political pedigree to become the Congo's first elected Prime Minister within roughly a decade of entering politics, documented via the well-established historical record of his rapid political career."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued political organizing after imprisonment on charges widely regarded as politically motivated, inferred from the documented continuation of his political activity and rise following that period."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-founded and became the leading public figure of the Mouvement National Congolais, documented via the historical record of the party's founding and his role as its principal spokesperson."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Won the Prime Ministership in the Congo's first national elections and formed the country's first independent government, documented via the historical electoral and governmental record."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sought UN assistance and then, in rapid succession, Soviet assistance when facing the Katanga and South Kasai secession crises with a newly formed, under-resourced government, inferred as resourceful crisis response from the documented convergence of these two distinct diplomatic pivots during the Congo Crisis."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Shifted rapidly between three distinct documented roles -- diplomatic, political, and crisis-management -- within the first months of independence amid multiple simultaneous secession crises, inferred from the documented convergence of this compressed-timeline range of roles."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His independence day speech AND his subsequent policy positions both centered explicitly on national sovereignty and decolonization for the broader Congolese population, inferred as genuine motivation from the convergence of his public statements and his political program."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Departed from the accommodationist approach many contemporaries expected at the independence ceremony, inferred as independent political judgment from the well-documented, sharply noted contrast between his actual speech and the expected tone of the event."
+    },
+    "opportunity_sensing": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Positioned his party to lead the first independence government during a rapid, compressed decolonization timeline, inferred from the documented pace of his party's rise relative to the accelerated Belgian withdrawal timetable."
+    },
+    "planning_orientation": {
+      "score": 42,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The new government's response to the near-immediate secession crises shows more rapid improvisation than pre-established contingency planning, an honest lower score reflecting the documented, largely reactive character of the crisis response rather than a gap in the record."
+    },
+    "collaboration": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His government coalition included rival political figures (including President Kasa-Vubu, from a different party) in an uneasy power-sharing arrangement, a genuinely mixed collaborative signal inferred from the documented friction within that government."
+    },
+    "discipline": {
+      "score": 56,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained organizing work over years leading to the founding and growth of the Mouvement National Congolais, inferred from the documented consistency of his political activity across that period."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued an independent, non-aligned foreign policy stance and resisted continued Belgian and broader Western influence over the new state, inferred from the documented positions of his government relative to competing pressures during the Congo Crisis."
+    },
+    "detail_orientation": {
+      "score": 40,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented public record centers on rhetorical and political leadership rather than administrative or technical detail work, an honest lower score reflecting the character of his actual recorded activity rather than a gap in available evidence."
+    },
+    "curiosity": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented public activity centers narrowly on Congolese independence politics rather than evident broader intellectual range, an honest moderate score reflecting the focused character of his brief recorded political career."
+    },
+    "deep_focus": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented public record centers on rapid public political action rather than sustained solitary concentration, an honest moderate score reflecting the character of his actual recorded activity rather than a gap in the sources."
+    },
+    "mastery_orientation": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His extremely brief political career (roughly a decade from entering politics to his death) leaves the sources with little basis to document skill refinement over time, an honest moderate score reflecting that limited window rather than a gap in available evidence."
+    },
+    "creative_originality": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The independence day speech's direct, unscripted departure from the expected diplomatic tone of the ceremony was itself a genuinely novel rhetorical choice for the setting, inferred as original from the documented contrast with the conventional tone such ceremonies normally followed."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: Sub-Saharan Africa diversity pick, 20th century. Passes the inclusion_v1 counterfactual cleanly -- rose from a non-elite background through his own political organizing to elected office. Well documented via the widely filmed and reported independence-day speech plus the extensive historical record of the Congo Crisis; his assassination is factually noted in the wikipedia source but no trait score is derived from it, consistent with this project's discipline of scoring documented BEHAVIOR, not outcomes others imposed on him."
+  }
+}

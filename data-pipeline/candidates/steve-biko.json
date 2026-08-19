@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "steve-biko",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Steve Biko",
+    "wikidataId": "Q193673",
+    "birthYear": 1946,
+    "deathYear": 1977,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ZA"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "writer"
+    ],
+    "fieldIds": [
+      "politics",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "young_leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_biko_wikipedia",
+      "kind": "wikipedia",
+      "title": "Steve Biko",
+      "url": "https://en.wikipedia.org/wiki/Steve_Biko"
+    },
+    {
+      "id": "src_biko_writings",
+      "kind": "archive",
+      "title": "Biko's own essays, collected posthumously as I Write What I Like"
+    },
+    {
+      "id": "src_biko_inquest",
+      "kind": "archive",
+      "title": "The 1977 inquest into Biko's death in police custody, and later Truth and Reconciliation Commission amnesty-hearing testimony from involved police officers in the 1990s"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 86,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the Black Consciousness philosophy and the South African Students' Organisation as a deliberate alternative to existing anti-apartheid organizing approaches, documented directly via his own collected essays articulating this distinct position."
+    },
+    "conflict_tolerance": {
+      "score": 84,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Continued political organizing after being formally banned by the apartheid government (a severe legal restriction on speech, movement, and association), documented via the historical record of his continued activity and eventual arrest under banning-violation suspicion."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained organizing activity while under a banning order and known police surveillance, ultimately leading to his final arrest and death in custody, documented via the well-corroborated historical and inquest record."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Gave courtroom testimony in a 1976 SASO-related trial that was widely regarded, including by hostile observers, as remarkably articulate and composed under direct adversarial questioning -- documented via the surviving trial transcript."
+    },
+    "social_assertiveness": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and became the leading public figure of both SASO and the Black Consciousness Movement while still a university student, documented via the historical record of both organizations' founding."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and led a national student and community organizing movement from a single university-based starting point, documented via the historical growth record of SASO and the Black Consciousness Movement under his leadership."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built a nationally significant political and philosophical movement while still in his twenties, inferred as substantial achievement drive from the documented scale and speed of the movement's growth relative to his age."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His own writings frame Black Consciousness explicitly as a psychological and political tool for collective liberation rather than personal advancement, inferred as genuine motivation from the consistency between his stated philosophy and his actual organizing choices."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained organizing and writing activity across several years under increasing government restriction, inferred from the documented continuity of his output and activity through that period."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued organizing despite an escalating series of distinct government restrictions (banning, surveillance, prior detentions), inferred from the documented convergence of continued activity through each of these successive, independently-noted restrictions."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Deliberately positioned Black Consciousness as independent of BOTH existing established anti-apartheid organizations AND white liberal allies, inferred as strong autonomy orientation from the documented, explicitly stated dual separateness of his movement's approach."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His essays present a systematically developed political-psychological framework rather than purely emotional appeal, inferred from the structured argumentation evident in his surviving collected writing."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Built SASO and the Black Consciousness Movement through coalition with numerous student and community organizers, a genuinely collaborative organizing effort inferred from the documented breadth of the movement's base."
+    },
+    "planning_orientation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Built a growing national organization over several years, inferred as requiring some real organizational planning, though the specific evidence documents outcomes and growth more than a stated planning process."
+    },
+    "detail_orientation": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented public record centers on philosophical and rhetorical leadership rather than administrative detail work, an honest moderate score reflecting the actual character of his recorded activity."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued adjusting organizing tactics under escalating government restriction across several years, inferred from the documented range of organizing approaches (student organizing, community programs, writing) across that period."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His essays draw on psychology, theology, and political philosophy in constructing the Black Consciousness framework, inferred as genuine intellectual range from the documented breadth of reference in his surviving writing."
+    },
+    "opportunity_sensing": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founded SASO at a specific moment when he judged existing multiracial student organizations were not adequately serving Black students' organizing needs, inferred from the documented circumstances and stated reasoning behind SASO's founding."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Black Consciousness synthesized psychology, theology, and political philosophy into a genuinely new framework distinct from both existing multiracial liberal organizing and the exiled ANC/PAC approaches of the time, inferred as original from the documented distinctiveness of the philosophy relative to prior South African anti-apartheid organizing frameworks."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Developing a systematic philosophical framework across his essays required sustained concentrated intellectual work, inferred from the documented coherence and depth of his collected writing."
+    },
+    "mastery_orientation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His extremely brief public career (roughly seven years before his death at 30) leaves limited basis for the sources to document skill refinement over time, an honest moderate score reflecting that short window rather than a gap in available evidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: Sub-Saharan Africa diversity pick, 20th century, distinct profile from Nelson Mandela/Wangari Maathai already in the roster (a movement founder/philosopher rather than a head of state or Nobel laureate). Well documented via his own collected essays plus the 1977 inquest and later TRC testimony. His death in police custody is factually noted in the sourcing but, consistent with this project's discipline, no trait score is derived from what was done TO him -- only from his own documented actions and writing."
+  }
+}

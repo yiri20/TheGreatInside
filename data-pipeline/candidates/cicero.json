@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cicero",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Marcus Tullius Cicero",
+    "aliases": [
+      "Cicero"
+    ],
+    "wikidataId": "Q1541",
+    "birthYear": -106,
+    "deathYear": -43,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe",
+    "historicalPolityKey": "polity.roman_republic"
+  },
+  "classification": {
+    "occupationIds": [
+      "statesman",
+      "philosopher",
+      "lawyer"
+    ],
+    "fieldIds": [
+      "politics",
+      "philosophy",
+      "law",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "communicator",
+      "detail_oriented",
+      "founder"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_cicero_wikipedia",
+      "kind": "wikipedia",
+      "title": "Cicero",
+      "url": "https://en.wikipedia.org/wiki/Cicero"
+    },
+    {
+      "id": "src_cicero_letters",
+      "kind": "archive",
+      "title": "Cicero's own surviving correspondence (Epistulae ad Atticum, ad Familiares -- over 900 letters)"
+    },
+    {
+      "id": "src_cicero_speeches",
+      "kind": "archive",
+      "title": "Cicero's own surviving speeches (In Verrem, In Catilinam, Philippicae)"
+    },
+    {
+      "id": "src_cicero_plutarch",
+      "kind": "biography",
+      "title": "Plutarch, Life of Cicero"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His prosecution of Verres (In Verrem) assembled an exhaustive documentary case -- witness testimony, financial records, provincial accounts -- so thorough that Verres fled into exile after the opening speech rather than contest it, documented via the surviving speeches themselves."
+    },
+    "persuasiveness": {
+      "score": 92,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Catiline orations directly precipitated the conspiracy's political collapse in the Senate, and his speeches remain primary surviving texts studied as rhetorical models for over two millennia -- documented via the speeches' own preserved text and their recorded immediate political effect."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His philosophical works (De Officiis, De Finibus) systematically present and weigh competing Greek philosophical positions rather than simply advocating one, documented via the structure of the surviving texts themselves."
+    },
+    "ambiguity_tolerance": {
+      "score": 32,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "His own letters to Atticus during the outbreak of civil war between Caesar and Pompey document sustained, explicit anxiety and repeated reversals over which side to join -- rare, direct first-person evidence of genuine difficulty tolerating an unresolved, high-stakes situation."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Delivered the Philippics, a sustained direct public attack on Mark Antony, at real and ultimately fatal personal risk (he was proscribed and killed for it) -- documented via the surviving speeches and the historical record of his death, though his own letters elsewhere show he did not seek conflict by preference."
+    },
+    "risk_tolerance": {
+      "score": 30,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His letters repeatedly document deliberation, hedging, and seeking of safety (his initial reluctance to commit to Pompey, his periods of withdrawal from Rome) more than a general pattern of risk-seeking -- the Philippics are the documented exception under acute provocation, not his baseline pattern, which is why this trait is scored low rather than high despite that one episode."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced major surviving works across oratory, law, political philosophy, ethics, and rhetorical theory, documented via the range of his own surviving corpus -- one of the most versatile literary output records of any ancient figure."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rebuilt his political career and public standing after a period of exile (58-57 BCE), documented via the historical record of his return and subsequent political activity."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Rose to the consulship as a \"novus homo\" (new man) without senatorial family lineage, an unusual achievement in Roman political culture, documented via the historical record of his career."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Framed his suppression of the Catiline conspiracy explicitly as saving the Republic, and his later philosophical works argue for civic duty as a central value, inferred as a consistent stated motivation across his public and private writing."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued and held the consulship (Rome's highest elected office) but did not seek the extra-constitutional dominance Caesar or the later triumvirs pursued, inferred as a moderate rather than extreme leadership drive from the ceiling of his actual career."
+    },
+    "social_assertiveness": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Contemporaries and later commentators (including Plutarch) note his outspokenness and a documented tendency toward self-praise of his own consulship, inferred from the consistent pattern noted across sources rather than a single anecdote."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The sheer surviving volume of his correspondence (over 900 letters) and formal writing across four decades is itself a well-documented, unusually large body of sustained output, inferred as requiring real discipline from the documented scale of the surviving corpus itself, even absent a direct first-person account of his working routine."
+    },
+    "collaboration": {
+      "score": 48,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His letters document a close, decades-long working friendship with Atticus (his primary correspondent and informal advisor) alongside frequent political friction with peers, a genuinely mixed signal scored at a moderate level rather than a strong lean."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His philosophical dialogues engage seriously and in detail with three distinct, mutually competing schools -- Stoic, Epicurean, and Academic Skeptic -- rather than dismissing rival positions, inferred from the documented, converging pattern of substantive engagement across all three in his surviving philosophical corpus."
+    },
+    "adaptability": {
+      "score": 42,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His letters document real difficulty adjusting to the political realignments of his era (the First Triumvirate, then the civil war, then Caesar's dictatorship), consistent with the same documented indecision underlying the low ambiguity_tolerance score above."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The methodical case-building evident in In Verrem suggests real planning capacity within a specific prosecutorial task, though his broader political career shows more reactive maneuvering than long-range planning, inferred as a moderate, context-dependent score."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Frequently positioned himself independently of the major factional blocs of his era (neither fully Optimate nor Popularis, neither Caesarian nor unconditionally Pompeian), inferred from the pattern of his recorded political positioning."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His philosophical works synthesize rather than simply adopt Stoic, Epicurean, and Academic Skeptic positions into his own distinct eclectic view, inferred as independent judgment from the documented content of his philosophical writing."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Continued refining his rhetorical technique and philosophical writing across a four-decade public career rather than settling into a fixed early style, inferred from the documented range and evolution of his surviving corpus over time."
+    },
+    "deep_focus": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Produced an unusually large volume of philosophical writing during a period of enforced political withdrawal after Caesar's dictatorship, inferred as sustained focused output under pressure from the documented concentration of major works in that period."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: ancient-era diversity pick. Deliberately includes two honestly LOW-pole scores (ambiguity_tolerance 32, risk_tolerance 30) grounded directly in his own surviving letters -- his real, well-documented indecision during the civil-war outbreak -- rather than defaulting every ancient statesman to a uniformly high-confidence profile. This is the kind of low-direction evidence CLAUDE.md's own scoring-symmetry audit (Phase 6.6 Stage 5) found genuinely rare and worth deliberately surfacing when the sources actually support it."
+  }
+}

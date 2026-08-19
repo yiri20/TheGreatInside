@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zeami-motokiyo",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Zeami Motokiyo",
+    "aliases": [
+      "Zeami"
+    ],
+    "wikidataId": "Q311143",
+    "birthYear": 1363,
+    "deathYear": 1443,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.ashikaga_shogunate"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "actor"
+    ],
+    "fieldIds": [
+      "theater",
+      "literature",
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "founder",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_zeami_wikipedia",
+      "kind": "wikipedia",
+      "title": "Zeami",
+      "url": "https://en.wikipedia.org/wiki/Zeami"
+    },
+    {
+      "id": "src_zeami_treatises",
+      "kind": "archive",
+      "title": "Zeami's own surviving treatises (Fushikaden / Kadensho and related writings on Noh theory and training)"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 86,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His treatises describe a deliberately staged, lifelong training and mastery framework for Noh performance (including the concept of a performer's evolving \"flower\" across life stages), documented directly via his own surviving theoretical writing on the subject."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Fushikaden is the earliest known Japanese treatise systematically theorizing dramatic performance, documented as a genuinely original contribution via the absence of any known prior comparable text in the tradition."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Worked simultaneously as a performer, playwright, composer, troupe director, and theorist, documented via the range of his surviving plays, treatises, and recorded performance career."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued writing and refining his theoretical work even after losing shogunal patronage and being exiled to Sado Island in his seventies, inferred from the documented continuation of his output into that final period of his life."
+    },
+    "risk_tolerance": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His career shows a pattern of working carefully within elite patronage structures (the shogunal court) rather than independent risk-taking, an honest moderate-to-low score reflecting the documented dependence of his career on court favor."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Navigated a major career transition from favored young performer under Shogun Ashikaga Yoshimitsu to reduced circumstances and eventual exile under a later shogun, inferred as requiring real adaptability from the documented shift in his fortunes across his lifetime."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Produced an unusually large body of both performance works and theoretical writing across a long career, inferred as sustained achievement drive from the documented volume of his surviving output."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own treatises specify precise training progressions and technical performance guidance, inferred as requiring exacting attention to craft detail from the documented specificity of this first-person surviving text."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The staged, decades-long training framework his own treatises describe implies he sustained this discipline personally across his own career, inferred from the consistency between his prescribed training philosophy and his own long, sustained output."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Formalized and systematized an oral/performance tradition into original written theory, inferred as independent intellectual contribution from the documented novelty of producing such a treatise at all."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Gained shogunal patronage as a young performer specifically by successfully appealing to the aesthetic preferences of Ashikaga Yoshimitsu's court, inferred as recognizing and acting on that opportunity from the documented circumstances of his early career."
+    },
+    "social_assertiveness": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Performing before and gaining the direct patronage of the shogun as a young man required real presence and social confidence, inferred from the documented circumstances of his rise, though later life shows a more withdrawn, writing-focused pattern."
+    },
+    "curiosity": {
+      "score": 56,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His treatises draw on three distinct documented sources -- Buddhist philosophy, aesthetics, and earlier performance traditions -- in synthesizing his theory, inferred as genuine intellectual range beyond pure craft technique from the convergence of this documented content in his writing."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His treatises were explicitly intended to preserve and transmit his art form's techniques to future generations of performers in his family line, inferred from the stated instructional purpose of the surviving texts."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directed his own performance troupe as its head, a moderate leadership scope, inferred from the documented structure of Noh troupes of the era and his recorded position within his own."
+    },
+    "autonomy_need": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His career was substantially dependent on and structured by shogunal patronage rather than independent practice, a genuinely moderate-to-low signal from the documented pattern of his career's dependence on court favor."
+    },
+    "planning_orientation": {
+      "score": 54,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The staged training framework in his treatises implies structured, long-range thinking about skill development, inferred from the documented systematic character of that framework."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Continued and built upon his father Kan'ami's existing Noh tradition and troupe rather than founding an entirely separate one, inferred as a genuinely collaborative, inherited-tradition-based practice from the documented continuity between father's and son's work."
+    },
+    "deep_focus": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Composing detailed theoretical treatises on performance aesthetics over decades required sustained concentrated reflection on his craft, inferred from the documented depth and internal consistency of the surviving Fushikaden material."
+    },
+    "belief_updating": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His later treatises show revised and expanded framing of concepts introduced in earlier ones, inferred as some willingness to update his own theoretical positions from the documented evolution across his body of theoretical writing over time."
+    },
+    "experimentation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developed and refined specific staging and performance techniques through his own practice as an active performer, inferred as an experimental, practice-based element to his theorizing from the documented grounding of his treatises in his own performance career."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: medieval + East Asia + performing-arts occupation diversity pick (no theater/performance-theory figure previously in the roster). Sourced from his own surviving theoretical treatises, a genuinely first-person source for a medieval performer -- though evidence of specific personal behavioral episodes (as opposed to theory/output) is thinner than for Joan of Arc or Al-Ghazali, hence the more consistently moderate confidence range (0.4-0.58) throughout."
+  }
+}

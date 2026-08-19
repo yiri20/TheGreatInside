@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-seacole",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Mary Seacole",
+    "wikidataId": "Q713439",
+    "birthYear": 1805,
+    "deathYear": 1881,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JM"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "nurse",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "medicine",
+      "business"
+    ],
+    "impactDomains": [
+      "medical",
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "self_taught",
+      "overcame_adversity",
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_seacole_wikipedia",
+      "kind": "wikipedia",
+      "title": "Mary Seacole",
+      "url": "https://en.wikipedia.org/wiki/Mary_Seacole"
+    },
+    {
+      "id": "src_seacole_memoir",
+      "kind": "archive",
+      "title": "Mary Seacole's own memoir, Wonderful Adventures of Mrs. Seacole in Many Lands (1857)"
+    },
+    {
+      "id": "src_seacole_press",
+      "kind": "press",
+      "title": "Contemporary Crimean War press coverage (including William Howard Russell's Times dispatches referencing her)"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After being rejected by the British War Office and Florence Nightingale's official nursing program, self-funded her own passage to Crimea and built the \"British Hotel\" near Balaclava from local materials to provide food, medical care, and lodging to soldiers -- documented directly in her own memoir and corroborated by contemporary press accounts."
+    },
+    "risk_tolerance": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Invested her own capital into the Crimean venture with no institutional backing, and went bankrupt when the war ended abruptly leaving her with unsold stock -- documented via her own memoir's account of the financial outcome and the subsequent benefit fund organized by soldiers and officers on her behalf."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued pursuing a role in the Crimean War effort after formal rejection by the War Office and Nightingale's nursing program, ultimately reaching the front through her own independent means -- documented directly in her memoir's own account of the rejection and her response to it."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and operated the British Hotel as an independent venture entirely outside official military or nursing command structures, documented via both her own memoir and contemporary accounts of her operating separately from the official Nightingale nursing service."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Identified a real, unmet need at the front (soldiers wanted food, comfort, and informal medical care beyond what official channels provided) and built a functioning enterprise to meet it, inferred from the documented demand for and use of her services described in contemporary accounts."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Traveled extensively and independently across the Caribbean and Central America running medical and business ventures before the Crimean War, inferred as sustained ambition from the documented pattern of her career prior to and including Crimea."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully operated medical and hospitality businesses across several very different environments (Jamaica, Panama, England, Crimea), inferred as requiring real adaptability from the documented range of the locations and circumstances in her memoir."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding dual role providing both catering/hospitality and direct medical treatment near an active war front over an extended period, inferred from the documented duration of her Crimean operation."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her memoir describes specific medical remedies and treatment approaches learned through practical apprenticeship, inferred as requiring careful attentive practice from the documented specificity of her described treatments."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Contemporary soldier and officer accounts, AND the separate benefit fund organized for her after her postwar bankruptcy, document that those she directly helped valued her care specifically, inferred as evidence of real, felt impact from the convergence of these two independent sources beyond her own self-report."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Directly petitioned the War Office and Nightingale's program for a role, and later operated a high-visibility business near the front lines interacting with officers and soldiers of all ranks, inferred from the documented pattern of her direct, unhesitating self-advocacy."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her memoir describes facing repeated official rejection (which she attributed at least partly to prejudice) without abandoning her goal, inferred as real tolerance for sustained institutional friction from the documented persistence of her pursuit despite it."
+    },
+    "curiosity": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her memoir documents active interest in different medical traditions and practices encountered across her travels, inferred as genuine curiosity from the documented breadth of remedies and practices she describes learning in different places."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Ran her own independent operation rather than working within an institutional hierarchy, inferred as moderate leadership drive scoped to her own enterprise rather than broader organizational ambition."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked alongside a business partner (Thomas Day) in establishing the British Hotel, a genuinely moderate collaborative signal inferred from the documented partnership structure of the venture."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Establishing a functioning hotel and supply operation near an active war front required real logistical planning, inferred from the documented scale and functioning of the operation once established."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Combined medical practice, hospitality/catering business operation, and, later, published authorship of her own memoir -- three distinct documented domains of activity, inferred from the convergence of that documented range."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Chose to fund and operate her own independent venture after formal institutional rejection rather than abandoning the goal or seeking a different official channel, inferred as independent judgment from the documented path she actually took."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Combined hospitality/catering with direct medical treatment in a single self-funded operation at a war front, a genuinely unconventional combination for the era, inferred as original from the documented absence of comparable ventures by other war-front nurses of her time."
+    },
+    "mastery_orientation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Applied and refined medical knowledge accumulated through informal apprenticeship and practical experience across several distinct locations before Crimea, inferred as continued skill development from the documented range of settings in which she practiced medicine."
+    },
+    "deep_focus": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Providing direct medical care on active battlefields under fire required sustained concentrated attention under acute pressure, inferred from the documented circumstances of her treating wounded soldiers near the front lines."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: 19th-century + Caribbean/Latin-America-region + nurse-occupation diversity pick (nurse newly added to the controlled vocabulary this session; she was not formally credentialed as a physician, so occupationIds uses the more accurate new id rather than the existing 'scientist' pattern used for Florence Nightingale). Sourced substantially from her own published memoir, a genuine first-person account, corroborated by contemporary press coverage of the Crimean War."
+  }
+}

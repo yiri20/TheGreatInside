@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ban-zhao",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Ban Zhao",
+    "wikidataId": "Q505474",
+    "birthYear": 45,
+    "deathYear": 116,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.han_dynasty"
+  },
+  "classification": {
+    "occupationIds": [
+      "historian",
+      "writer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "history",
+      "literature",
+      "education"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "literary"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_banzhao_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ban Zhao",
+      "url": "https://en.wikipedia.org/wiki/Ban_Zhao"
+    },
+    {
+      "id": "src_banzhao_houhanshu",
+      "kind": "archive",
+      "title": "Book of Later Han (Hou Han Shu), official dynastic history compiled c. 5th century CE"
+    },
+    {
+      "id": "src_banzhao_own",
+      "kind": "archive",
+      "title": "Ban Zhao's own surviving writing, including Lessons for Women (Nujie) and her completion of the Book of Han's astronomical and genealogical treatises"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Completed the Book of Han (Hanshu), a major dynastic history left unfinished by her brother Ban Gu at his death, including its demanding astronomical and genealogical treatise sections -- documented via the Hou Han Shu's own record of the work's completed authorship, one of the single most concrete, specific facts on record about her."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Completing a large-scale dynastic history's most technically demanding sections was a multi-year undertaking, inferred as requiring sustained persistence from the documented scope of the finished work relative to what remained unwritten at her brother's death."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The astronomical and genealogical treatises she completed required precise calendrical calculation and genealogical accuracy, inferred as demanding close attention to technical detail from the documented content of those sections."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Lessons for Women explicitly argues for the value of educating women (while also prescribing traditional deference), inferred as a genuinely mixed, era-bound impact motivation rather than a straightforwardly modern reading of the text."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Was summoned to the imperial court as tutor to Empress Deng Sui and other court women, AND later separately consulted by the Empress Dowager on political matters, inferred as requiring real court-level social standing and confidence from the convergence of these two documented forms of access."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Held an unusual position of documented direct influence over imperial court decisions as an advisor to the regent Empress Dowager, inferred as moderate rather than high leadership drive from the advisory (not directly ruling) character of her actual role."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained scholarly work across both completing the history and producing her own separate writings over an extended career, inferred from the documented range and volume of her output."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Worked across four distinct documented domains -- historical scholarship, technical astronomical/genealogical writing, conduct literature, and court advisory roles -- inferred from the convergence of this documented range of her recorded activities."
+    },
+    "opportunity_sensing": {
+      "score": 56,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Was positioned to take on the unfinished dynastic history specifically because of her already-demonstrated scholarly capability within her family's tradition, inferred as recognizing and acting on an available role from the documented circumstances of her appointment to complete it."
+    },
+    "independent_thinking": {
+      "score": 54,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Her own surviving Lessons for Women stakes out a distinct position on women's education, genuinely novel in arguing for it within an otherwise conventionally deferential framework, inferred from the documented content of this first-person text relative to prevailing norms."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Completing technically demanding calendrical and genealogical treatise sections required systematic, rigorous work, inferred from the documented technical character of that portion of the Book of Han."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Was specifically selected to complete the most technically demanding unfinished sections of the history rather than simpler portions, inferred as reflecting a recognized high level of scholarly mastery from the documented nature of the task she was given."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Worked within her family's existing scholarly project (begun by her father Ban Biao, continued by her brother Ban Gu) rather than an independent undertaking, inferred as a genuinely collaborative, multi-generational effort from the documented authorship history of the Book of Han."
+    },
+    "autonomy_need": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Operated within the structure of court appointment and an inherited family scholarly project rather than independently, a genuinely moderate/mixed signal from the documented pattern of her career."
+    },
+    "curiosity": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Engaging competently with the technical astronomical content of the history's treatise sections suggests some genuine intellectual range beyond her more narrative historical and conduct writing, inferred from the documented breadth of the material she handled."
+    },
+    "planning_orientation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Completing a large unfinished scholarly work implies organizing remaining content into a coherent structure, inferred from the documented coherence of the finished Book of Han relative to what her brother had left."
+    },
+    "adaptability": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Moved between the roles of private scholar, court tutor, and political advisor across her career, inferred as requiring real adaptability from the documented range of very different court and scholarly contexts she occupied."
+    },
+    "resourcefulness": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Completed her brother's unfinished treatise sections despite not having originally been the historian planned for that specific technical content, inferred as resourceful adaptation from the documented circumstances of an unplanned succession to the task."
+    },
+    "deep_focus": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Completing technically demanding astronomical treatise sections required sustained concentrated calculation, inferred from the documented technical precision of that portion of the finished Book of Han."
+    },
+    "creative_originality": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Lessons for Women's argument for women's education, while framed within a conventionally deferential structure, had no clear precedent among surviving Han-era conduct literature, inferred as a modestly original contribution from the documented novelty of that specific argument."
+    },
+    "risk_tolerance": {
+      "score": 44,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her documented career shows accommodation within existing court and family structures rather than confrontational risk-taking, an honest moderate-to-low score reflecting the character of her actual recorded conduct."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: ancient + East Asia + gender-representation diversity pick (first named female historian in Chinese history). Sourced from the Hou Han Shu, an administrative/chronicle-level source of the same tier as Zhang Heng/Confucius/Wu Zetian in this roster, hence the capped confidence range. impact_motivation is deliberately scored as a genuinely mixed signal (62, not high) since Lessons for Women both argues for women's education AND prescribes traditional deference -- read honestly as an era-bound, complex text, not simplified in either direction."
+  }
+}

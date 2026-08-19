@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "archimedes",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Archimedes",
+    "wikidataId": "Q8739",
+    "birthYear": -287,
+    "deathYear": -212,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe",
+    "historicalPolityKey": "polity.syracuse"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "engineer"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "engineering"
+    ],
+    "tagIds": [
+      "polymath",
+      "systematic_thinker",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_archimedes_wikipedia",
+      "kind": "wikipedia",
+      "title": "Archimedes",
+      "url": "https://en.wikipedia.org/wiki/Archimedes"
+    },
+    {
+      "id": "src_archimedes_plutarch",
+      "kind": "biography",
+      "title": "Plutarch, Life of Marcellus (contemporary-adjacent secondary account of the Siege of Syracuse)"
+    },
+    {
+      "id": "src_archimedes_corpus",
+      "kind": "archive",
+      "title": "Archimedes' own surviving treatises (On the Sphere and Cylinder, On Floating Bodies, Measurement of a Circle, The Sand Reckoner)"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His surviving treatises (On the Sphere and Cylinder, Measurement of a Circle) contain rigorous, step-by-step geometric proofs including an early method of exhaustion anticipating integral calculus -- primary-source documented via his own corpus, capped at strong_inference-adjacent confidence per this project's ancient-evidence discipline."
+    },
+    "deep_focus": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Plutarch records that he was so absorbed in geometric problems he would forget to eat or bathe, and was killed by a Roman soldier while reportedly still working on a diagram during the sack of Syracuse -- a converging account across ancient sources of extreme, sometimes dangerous absorption, though specific quoted last words are later embellishment."
+    },
+    "creative_originality": {
+      "score": 86,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed genuinely novel mathematical methods (exhaustion for area/volume, a rigorous mechanical-then-geometric proof method described in The Method) with no direct precedent in surviving earlier work, inferred from the documented content of his own treatises."
+    },
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Designed compound siege engines and defensive systems (the Claw of Archimedes, counterweighted catapults) for Syracuse's defense, requiring structural/mechanical systems thinking beyond a single artifact -- documented via Polybius/Plutarch's accounts of the siege, though specific engineering process detail is inferred."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "On Floating Bodies and the crown-density account (Vitruvius) both describe physical testing of a hypothesis (buoyancy, density) rather than pure abstraction alone -- a documented empirical strand in his method."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His surviving corpus spans mathematics, mechanics, hydrostatics, and astronomy (a lost work on a planetarium device is referenced by Cicero), suggesting real breadth beyond any single problem, though this is inferred from subject range rather than a direct personal statement."
+    },
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Requested his tomb be marked with a sphere inscribed in a cylinder and the ratio between their volumes -- his own proof of the sphere-cylinder volume relationship, which he apparently regarded as his finest result, documented via Cicero's account of finding and identifying the tomb by this marker over a century later."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The proof techniques in his surviving works imply sustained, iterative attack on genuinely difficult problems (e.g. the cattle problem's diophantine complexity) rather than one-off insight, inferred from the documented mathematical output."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Producing a large, internally consistent body of rigorous proofs across decades implies sustained working discipline, inferred from the documented scale of his surviving corpus rather than a direct personal account."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The volume and ambition of his surviving results (several genuinely difficult, previously unsolved problems) suggest real drive toward significant results specifically, inferred from the documented output rather than direct testimony."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His method of exhaustion and mechanical-proof technique (The Method of Mechanical Theorems) departed from the purely axiomatic-geometric style of his predecessors, inferred from the documented content and reception of his work relative to earlier Greek mathematics."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Coordinated defensive engineering across a multi-year siege (per Polybius/Plutarch) implies some forward planning capacity, though the specific evidence describes outcomes and devices rather than a documented planning process."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The precision of his numerical approximations (e.g. bounding pi between 3 10/71 and 3 1/7 via a documented iterative polygon method) implies careful, exacting attention to numerical detail, inferred from the surviving method itself."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked largely as an independent scholar rather than as part of a school or institution (unlike contemporaries associated with the Library of Alexandria, though he did correspond with Alexandrian mathematicians), inferred from the pattern of his known associations."
+    },
+    "risk_tolerance": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Remained in Syracuse working through the Roman siege rather than seeking safety, consistent with prioritizing his work over personal risk avoidance -- inferred from the documented circumstances of his death rather than a stated attitude toward risk generally."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Corresponded with Alexandrian mathematicians (Eratosthenes, Conon) via letters accompanying several treatises, documenting real but epistolary-only collaboration, a genuinely mixed/moderate signal rather than a strong lean either way."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Produced significant original work across four distinct documented domains -- pure mathematics, mechanics, hydrostatics, and military engineering -- inferred from the convergence of this documented breadth across his surviving corpus and siege-engineering activity."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Shifted from pure theoretical mathematics to applied wartime engineering under Hiero II's requests, suggesting some real capacity to redirect effort under changed circumstances, though evidence is indirect."
+    },
+    "leadership_drive": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directed Syracuse's defensive engineering effort at King Hiero II's request, a real but bounded, advisory-technical leadership role rather than command authority, inferred from the documented scope of his involvement in the city's defense."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Applied his mathematical work to unsolicited practical problems (the crown-density question, defensive engineering) rather than confining himself to abstract theory alone, inferred from the documented range of his applied output."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Progressively refined his own numerical bounds on pi through an iterative polygon-approximation method, revising the estimate as the method was extended, inferred from the documented iterative structure of that technique."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: ancient-era diversity pick (ancient era was thin at 3/84 before this batch). Scored under the ancient/medieval evidence discipline -- 18 attributes, confidence capped around 0.68, evidenceType leaning strong_inference/inference given the ~2,300-year source gap, consistent with how Aristotle/Socrates/Confucius were already scored in this roster. No score inflated beyond what Plutarch/Polybius/Cicero/his own surviving corpus directly supports."
+  }
+}

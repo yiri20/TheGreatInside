@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mimar-sinan",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Mimar Sinan",
+    "wikidataId": "Q191789",
+    "birthYear": 1489,
+    "deathYear": 1588,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.ottoman_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect",
+      "engineer"
+    ],
+    "fieldIds": [
+      "architecture",
+      "engineering"
+    ],
+    "impactDomains": [
+      "artistic",
+      "engineering",
+      "historical"
+    ],
+    "tagIds": [
+      "prolific",
+      "sustained_excellence",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sinan_wikipedia",
+      "kind": "wikipedia",
+      "title": "Mimar Sinan",
+      "url": "https://en.wikipedia.org/wiki/Mimar_Sinan"
+    },
+    {
+      "id": "src_sinan_tezkiretulbunyan",
+      "kind": "archive",
+      "title": "Tezkiretu'l-Bunyan and Tezkiretu'l-Ebniye -- autobiographical accounts traditionally described as dictated by Sinan to the poet Mustafa Sai Celebi; historians note some debate over the exact degree of literal dictation versus later composition."
+    },
+    {
+      "id": "src_sinan_institution",
+      "kind": "institution",
+      "title": "Ottoman court architectural records; the surviving corpus of over 300 attributed structures"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served as chief royal architect for roughly 50 years under three sultans, credited with designing or overseeing more than 300 structures, documented via Ottoman court architectural records and the surviving buildings themselves."
+    },
+    "mastery_orientation": {
+      "score": 88,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The traditional autobiographical account has him explicitly ranking his own major works by mastery level -- calling the Sehzade Mosque his \"apprentice work,\" the Suleymaniye his \"journeyman work,\" and the Selimiye his self-declared \"master work\" -- a documented, explicit self-assessment of skill progression, rare for a historical craftsman."
+    },
+    "systems_abstraction": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed structural solutions for very large-span domes (the Selimiye Mosque's dome exceeds the Hagia Sophia's in diameter) that resolved load-distribution problems earlier Byzantine and Ottoman architecture had not fully solved, documented via architectural analysis of the surviving structures."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His mature mosque designs introduced genuinely new structural and spatial solutions rather than simply repeating earlier Ottoman or Byzantine models, inferred from architectural historians' documented analysis of the Selimiye's structural innovations relative to its predecessors."
+    },
+    "planning_orientation": {
+      "score": 80,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Coordinated material sourcing, workforce organization, and construction sequencing across hundreds of large public building projects throughout the empire over decades, documented via Ottoman court administrative records of his office."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Transitioned from military engineer -- building bridges, fortifications, and siege works during Ottoman campaigns -- to chief court architect, inferred as requiring significant career adaptation from the documented shift in his role."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The precision of dome-load calculation and structural detailing evident in his surviving buildings implies close technical attention, inferred from architectural analysis of the structures' engineering."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an active building practice across roughly five decades and three sultans' reigns, inferred as requiring substantial personal discipline from the documented longevity and volume of his career."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Directed the Ottoman imperial corps of royal architects and builders as its head for decades, inferred as requiring real organizational leadership from the documented scale of the office he held."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued actively designing and building into his nineties, with the Selimiye (widely regarded as his masterwork) completed near the very end of his life, inferred from the documented late-life timing of his most ambitious project."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Worked across three distinct documented domains -- religious architecture, civil infrastructure (bridges, aqueducts, hospitals), and military engineering -- over his career, inferred from the convergence of this documented variety of structure types attributed to him."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Solving the structural load problems of very large masonry domes required systematic engineering analysis, inferred from the documented structural success of his largest domed buildings, several of which remain standing after centuries."
+    },
+    "risk_tolerance": {
+      "score": 40,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked consistently within the established Ottoman court patronage system rather than pursuing independent or unsanctioned projects, an honest moderate-to-low score reflecting the documented, institutionally embedded character of his entire career."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directed large teams of craftsmen, engineers, and laborers on every major project, a genuinely collaborative practice by necessity, inferred from the documented scale of Ottoman imperial building projects."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Many of his structures (hospitals, aqueducts, bridges, soup kitchens attached to mosque complexes) served direct public welfare functions beyond religious or royal prestige alone, inferred from the documented range of building types in his portfolio."
+    },
+    "autonomy_need": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Operated within a formal court office and hierarchy for his entire career rather than as an independent practitioner, an honest moderate-to-low score from the documented institutional structure of his role."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented structural experimentation across many buildings over decades suggests sustained engagement with solving varied architectural problems rather than a single formula, inferred from the genuine structural variety across his large body of work."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Resolving the large-dome structural load problems required sustained concentrated engineering analysis across years of a single project (the Selimiye Mosque took roughly six years to complete), inferred from the documented duration and complexity of that project."
+    },
+    "experimentation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Progressively tested larger and more ambitious dome structures across successive projects (Sehzade, then Suleymaniye, then Selimiye) rather than settling on one design, inferred as an iterative, experimental approach from the documented scaling progression across his major works."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His large-dome structural solutions departed from the load-bearing approach used in the centuries-older Hagia Sophia rather than simply imitating it, inferred as independent engineering judgment from architectural historians' documented comparison of the two structures."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: West Asia diversity pick (third of three in this batch), architect occupation (newly added to the controlled vocabulary this session -- no prior figure in the roster held this occupation). Sourced from Ottoman court records and a traditional dictated autobiographical account whose exact composition process is debated by historians, reflected in the moderate-to-high (not maximal) confidence ceiling used throughout."
+  }
+}

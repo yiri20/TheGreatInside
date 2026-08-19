@@ -409,6 +409,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["systematic_thinker", "independent"],
     archetypeIds: ["scholarly_specialist"],
     externalIdentity: { wikidataId: "Q9312" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/8/85/Immanuel_Kant_portrait_c1790.jpg",
+      width: 1617,
+      height: 1802,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_portrait_c1790.jpg",
+      attribution: "Unknown painter, possibly Elisabeth von Stägemann (Anton Graff school), circa 1790, Public Domain",
+    },
     sources: [{ id: "src_kant_wikipedia", kind: "wikipedia", title: "Immanuel Kant", url: "https://en.wikipedia.org/wiki/Immanuel_Kant" }, { id: "src_kant_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Immanuel Kant" }, { id: "src_kant_kuehn", kind: "biography", title: "Manfred Kuehn, Kant: A Biography (2001)" }],
     rows: {
       // The Critique of Pure Reason builds an extraordinarily systematic, tightly argued philosophical framework, directly observable in the text's own structure and widely regarded by the Stanford Encyclopedia of Philosophy as among the most rigorous in the Western canon.
@@ -717,6 +728,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["leader", "strategist", "young_leader"],
     archetypeIds: ["organizational_leader"],
     externalIdentity: { wikidataId: "Q8605" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/8/85/Sim%C3%B3n_Bol%C3%ADvar_by_Jos%C3%A9_Gil_de_Castro.jpg",
+      width: 1920,
+      height: 2528,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar_by_Jos%C3%A9_Gil_de_Castro.jpg",
+      attribution: "Painted by José Gil de Castro, circa 1823-1825, Lima Art Museum, Public Domain",
+    },
     sources: [{ id: "src_bolivar_wikipedia", kind: "wikipedia", title: "Simón Bolívar", url: "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar" }, { id: "src_bolivar_lynch", kind: "biography", title: "John Lynch, Simón Bolívar: A Life (2006)" }],
     rows: {
       // Led independence campaigns across present-day Venezuela, Colombia, Ecuador, Peru, and Bolivia and served as President of Gran Colombia — documented across the extensive military and political record of the era.
@@ -780,6 +802,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["overcame_adversity", "advocate", "self_taught"],
     archetypeIds: ["social_influencer"],
     externalIdentity: { wikidataId: "Q105180" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/9/94/Sojourner_Truth%2C_1870_%28cropped%2C_restored%29.jpg",
+      width: 3035,
+      height: 4210,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Sojourner_Truth,_1870_(cropped,_restored).jpg",
+      attribution: "Randall Studio, circa 1870, National Portrait Gallery, Smithsonian Institution (NPG.79.220), Public Domain",
+    },
     sources: [{ id: "src_truth_wikipedia", kind: "wikipedia", title: "Sojourner Truth", url: "https://en.wikipedia.org/wiki/Sojourner_Truth" }, { id: "src_truth_narrative", kind: "archive", title: "Narrative of Sojourner Truth (dictated to Olive Gilbert, 1850)" }, { id: "src_truth_painter", kind: "biography", title: "Nell Irvin Painter, Sojourner Truth: A Life, A Symbol (1996)" }],
     rows: {
       // Became a nationally sought-after extemporaneous speaker across the abolitionist and suffrage circuits for decades; multiple independent eyewitness accounts corroborate her powerful oratory, even though the exact wording of her most famous speech is separately disputed among historians (Painter) — the fact of the sustained speaking career is documented, not the disputed transcript.

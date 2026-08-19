@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "chiune-sugihara",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Chiune Sugihara",
+    "wikidataId": "Q313046",
+    "birthYear": 1900,
+    "deathYear": 1986,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "diplomat"
+    ],
+    "fieldIds": [
+      "diplomacy"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "endured_imprisonment",
+      "nonconformist",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sugihara_wikipedia",
+      "kind": "wikipedia",
+      "title": "Chiune Sugihara",
+      "url": "https://en.wikipedia.org/wiki/Chiune_Sugihara"
+    },
+    {
+      "id": "src_sugihara_yadvashem",
+      "kind": "institution",
+      "title": "Yad Vashem records recognizing Sugihara as Righteous Among the Nations (1985)"
+    },
+    {
+      "id": "src_sugihara_testimony",
+      "kind": "biography",
+      "title": "Survivor testimony from the so-called \"Sugihara survivors\" and later biographical/interview accounts of his time as vice-consul in Kaunas"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 92,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After the Japanese Foreign Ministry denied his request to issue transit visas to Jewish refugees three separate times, decided to issue them on his own authority regardless -- documented via Yad Vashem's own records and the surviving diplomatic correspondence of the denied requests."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Directly violated explicit orders from his own government's Foreign Ministry, an act that carried serious career and personal risk within the Japanese diplomatic service, documented via his subsequent dismissal from the foreign ministry in 1947."
+    },
+    "discipline": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote visas by hand for approximately a month, reportedly working to the point of physical exhaustion, documented via survivor testimony describing the volume and pace of visa issuance during that period."
+    },
+    "persistence": {
+      "score": 86,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued writing and signing visas even after being ordered to close the consulate, reportedly still writing and passing visas through the train window as he departed Kaunas, documented via multiple converging survivor accounts of his final hours there."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct disagreement with his own government's explicit instructions over an extended decision-making process (three separate denied requests) rather than complying, documented via the surviving diplomatic correspondence record."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Later interviews document him explaining his decision in terms of direct human consequence for the refugees rather than career or political calculation, inferred as genuine motivation from the consistency of these later accounts with his actual actions at the time."
+    },
+    "decisiveness": {
+      "score": 80,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Committed to issuing visas at scale immediately after his final request was denied rather than continuing to seek permission or delaying, inferred from the documented rapid transition from denial to large-scale visa issuance."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Issued an unusually high volume of hand-written visas within a compressed timeframe using only his own consular authority and available materials, inferred as requiring real improvisation from the documented scale of output relative to normal consular staffing and process."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Producing large volumes of individually valid travel documents under time pressure implies some sustained procedural care despite the urgency, inferred from the documented functional validity of the visas issued (they were successfully used for the refugees' actual travel)."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Acted entirely on his own judgment against direct superior instruction, inferred as strong autonomy orientation from the documented, explicit divergence between his actions and his government's stated position."
+    },
+    "achievement_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented career shows a steady, unremarkable diplomatic trajectory before and after this single episode, an honest moderate score rather than crediting general high achievement drive from one extraordinary but isolated act."
+    },
+    "planning_orientation": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The visa-issuing campaign was a rapid, urgent response to an unfolding crisis rather than a long-planned undertaking, an honest lower score reflecting the documented reactive character of the episode rather than a gap in the record."
+    },
+    "social_assertiveness": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Later interviews and accounts describe him as personally reserved rather than seeking public attention for his actions, which remained largely unknown for decades, inferred as a genuinely moderate rather than high social assertiveness from the documented quiet character of his postwar life."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Worked with his wife Yukiko, who assisted with the visa-writing effort, documented via family and survivor accounts of the consulate's operation during that period, a genuinely moderate collaborative signal."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Rebuilt a career in the private sector (a trading company) after losing his diplomatic position, inferred as some real adaptability from the documented career transition, though evidence of this later period is comparatively thin."
+    },
+    "curiosity": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented career centers narrowly on this one consular episode and a subsequently modest private-sector career, an honest moderate score reflecting the limited scope of available behavioral evidence beyond it."
+    },
+    "leadership_drive": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Acted individually within his consular post rather than seeking to build or lead a broader organization or movement, an honest moderate-to-low score reflecting the documented, largely individual character of his defining act."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognized the narrow, closing window during which transit visas could still enable refugees' escape before the consulate's closure, inferred from the documented urgency and timing of his visa-issuing campaign."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained continuous, intensive hand-writing of visas for roughly a month to the point of physical exhaustion, inferred as extreme concentrated absorption from the documented pace and duration of the effort described across multiple converging survivor testimonies."
+    },
+    "creative_originality": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented actions apply an existing diplomatic tool (the transit visa) at unprecedented volume and speed rather than inventing a new mechanism, an honest moderate score reflecting the character of the actual documented act."
+    },
+    "mastery_orientation": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His overall documented career shows one extraordinary episode within an otherwise ordinary diplomatic and later commercial career, an honest moderate score reflecting the limited evidence of sustained skill development beyond that single episode."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: East Asia + diplomat-occupation diversity pick, 20th century. Well documented for the single defining episode of his life (Yad Vashem records, multiple converging survivor accounts) but genuinely thinner for the rest of his career, reflected honestly in several moderate rather than high scores (leadership_drive, curiosity, planning_orientation) rather than inflating his whole profile from one extraordinary act."
+  }
+}

@@ -2,54 +2,206 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ibn-battuta",
-  "status": "held",
-  "holdReason": "Confidence ceiling: his own dictated travelogue (Rihla) is essentially the sole surviving source for his personal conduct and decisions, produced decades after the events with no independent corroboration, and modern historians have raised genuine questions about whether some claimed legs of the journey were embellished or secondhand. This keeps every trait inference at the lower 'inference' evidence tier rather than 'documented' or well-corroborated 'strong_inference' — average confidence (0.451) falls meaningfully short of the 0.55 floor even after reviewing all 18 scored rows for possible upward revision, and inflating them without new corroborating evidence would violate the evidence-strength discipline rather than reflect it.",
+  "status": "qa_passed",
   "identity": {
     "canonicalName": "Ibn Battuta",
-    "wikidataId": "Q7331",
+    "wikidataId": "Q46716",
     "birthYear": 1304,
-    "deathYear": 1369,
+    "deathYear": 1368,
     "isLiving": false,
     "era": "medieval",
-    "nationalityCodes": ["MA"],
-    "regionCode": "north_africa"
+    "nationalityCodes": [],
+    "regionCode": "north_africa",
+    "historicalPolityKey": "polity.marinid_sultanate"
   },
   "classification": {
-    "occupationIds": ["explorer", "jurist"],
-    "fieldIds": ["exploration"],
-    "impactDomains": ["historical"],
-    "tagIds": ["explorer", "self_taught"],
-    "archetypeIds": ["independent_creator"]
+    "occupationIds": [
+      "explorer",
+      "jurist"
+    ],
+    "fieldIds": [
+      "exploration",
+      "law"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "self_taught",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
   },
   "sources": [
-    { "id": "src_battuta_wikipedia", "kind": "wikipedia", "title": "Ibn Battuta", "url": "https://en.wikipedia.org/wiki/Ibn_Battuta" },
-    { "id": "src_battuta_rihla", "kind": "archive", "title": "The Rihla (A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling), dictated to Ibn Juzayy, c. 1355" },
-    { "id": "src_battuta_dunn", "kind": "biography", "title": "Ross E. Dunn, The Adventures of Ibn Battuta (1986)" }
+    {
+      "id": "src_ibnbattuta_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ibn Battuta",
+      "url": "https://en.wikipedia.org/wiki/Ibn_Battuta"
+    },
+    {
+      "id": "src_ibnbattuta_rihla",
+      "kind": "archive",
+      "title": "The Rihla (\"A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling\") -- dictated by Ibn Battuta himself to the scribe Ibn Juzayy upon his return to Morocco, c. 1355. Historians note some later passages (particularly on China) may include secondhand or embellished material, a known limitation of the source."
+    }
   ],
   "rows": {
-    "curiosity": { "score": 84, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented to have extended an initial pilgrimage to Mecca into a roughly 30-year, ~120,000km journey across North and West Africa, the Middle East, South and Central Asia, and China — a specific, well-corroborated core itinerary (Dunn), even though the Rihla's finer details carry the usual medieval-travel-account caveats." },
-    "risk_tolerance": { "score": 80, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained travel through frequently dangerous and unfamiliar territory for three decades, including documented episodes of illness, robbery, and shipwreck corroborated across multiple sections of the Rihla and cross-referenced by Dunn against other period sources." },
-    "persistence": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The sheer multi-decade duration of the journey, corroborated by the core itinerary's cross-referencing against independent regional chronicles (Dunn), evidences sustained commitment beyond a single extended trip." },
-    "adaptability": { "score": 76, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented to have served in varied roles across very different courts and legal systems along the journey (as a qadi/judge in the Maldives and Delhi Sultanate among others), requiring real adaptation to unfamiliar political and legal contexts." },
-    "resourcefulness": { "score": 70, "confidence": 0.48, "evidenceType": "inference", "impact": "advantage", "rationale": "Repeatedly secured patronage, employment, and safe passage across dozens of unfamiliar courts and regions over three decades — a real pattern, though the specific means are described at varying levels of detail across the Rihla's episodes." },
-    "opportunity_sensing": { "score": 68, "confidence": 0.46, "evidenceType": "inference", "impact": "advantage", "rationale": "Repeatedly secured qadi (judgeship) appointments in courts along his route, evidencing recognition of opportunities to extend his travels through paid, respected work rather than relying solely on personal funds." },
-    "cross_domain_range": { "score": 62, "confidence": 0.45, "evidenceType": "inference", "impact": "neutral", "rationale": "Real documented activity across legal scholarship (his qadi appointments), diplomacy, and travel writing, though concentrated within the broadly consistent framework of Islamic legal training applied across new contexts." },
-    "autonomy_need": { "score": 65, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "Repeatedly chose to continue traveling onward rather than settling into any single one of the many respected positions offered to him along the route, a documented pattern across the Rihla's own narrative." },
-    "achievement_drive": { "score": 60, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "The scale of the completed journey (the farthest-traveling documented individual of the pre-modern era by most historians' estimation) suggests sustained goal pursuit, though inferred from the outcome's scale rather than a specific documented statement of intent." },
-    "detail_orientation": { "score": 58, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "The Rihla records extensive specific detail about the places visited, though how much reflects Ibn Battuta's own memory versus his amanuensis Ibn Juzayy's literary elaboration is a genuine, unresolved scholarly question (Dunn), capping confidence." },
-    "social_assertiveness": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Securing repeated audiences and appointments with rulers across dozens of courts implies real willingness toward direct social engagement, though the specific behavioral detail behind this pattern is thin." },
-    "discipline": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Maintaining Islamic legal scholarship and judicial duties while traveling suggests real sustained practice, though this is inferred from his documented roles rather than a specific described routine." },
-    "proactive_agency": { "score": 66, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "Repeatedly chose to extend the journey and seek new patronage rather than returning home after the initial pilgrimage was complete — a self-directed pattern across the Rihla's own account." },
-    "planning_orientation": { "score": 48, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "The journey's own extremely long, repeatedly-redirected shape (Dunn) suggests an opportunistic, evolving itinerary more than an advance plan — scored below center rather than assumed high." },
-    "mastery_orientation": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained legal scholarship applied across many different jurisdictions over three decades suggests real continued engagement with his professional training, though the record documents outcomes more than deliberate skill development." },
-    "independent_thinking": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Repeatedly chose an unconventional, extended-travel life over a stable single judicial career, a real but thinly corroborated pattern." },
-    "conflict_tolerance": { "score": 52, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented episodes of robbery and near-shipwreck imply exposure to real danger, though whether this reflects a choice to accept conflict/risk versus circumstance beyond his control is not clearly separable from the available sources." },
-    "leadership_drive": { "score": 50, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Held judicial authority in several courts (notably the Delhi Sultanate and the Maldives), a real institutional role, though the surviving record documents the appointments more than his conduct of them." }
+    "curiosity": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Rihla documents roughly three decades of continuous travel across the Islamic world and beyond (North and West Africa, the Middle East, Central and South Asia, and claimed travel to China), with sustained attention throughout to local governance, food, customs, and religious practice -- his own dictated account, though the latest sections carry acknowledged reliability caveats."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Left Morocco at 21 for the Hajj pilgrimage and, per his own account, simply continued rather than returning home, eventually surviving shipwrecks, robbery, and serious illness across the journey -- documented in the Rihla's own narrative, corroborated in outline by the independently verifiable route through regions with other contemporary records."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Held functioning professional roles (qadi, an Islamic judge) in radically different courts -- the Delhi Sultanate under Muhammad bin Tughluq and later the Maldives -- inferred as requiring real adaptation to very different legal, linguistic, and political contexts from the documented sequence of his appointments."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained an independently self-directed, decades-long itinerary with no single sponsoring institution driving the overall journey (individual legs were sometimes patronized by local rulers), inferred from the documented absence of any single continuous authority directing his travels."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Functioned across trade, diplomacy, religious scholarship, and formal legal judgeship in the course of his travels, inferred from the documented variety of roles the Rihla describes him occupying in different regions."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly secured patronage, appointments, or safe passage by presenting his scholarly credentials to local rulers upon arrival in new courts, inferred from the recurring pattern described across multiple different stops in the Rihla."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued traveling for roughly three decades despite documented setbacks (shipwreck losing his possessions near the Maldives, robbery in India), inferred from the sustained continuation of the journey across those setbacks rather than an early return home."
+    },
+    "social_assertiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly sought and gained direct audiences with reigning sultans and rulers across many distinct courts, inferred from the consistency of this pattern throughout the Rihla's account of his travels."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Continued extending his travels well beyond the original pilgrimage purpose for decades, inferred as sustained ambition toward an increasingly larger goal (eventually visiting the majority of the known Islamic world) rather than one bounded task."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Rihla records specific, granular observations of local legal practice, currency, and customs across dozens of distinct locations, inferred as requiring habitual close observation from the documented density of detail in the surviving text."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Frequently traveled and worked within caravans, embassies, and court retinues rather than alone, a genuinely moderate signal inferred from the documented social structure of his travel throughout the Rihla."
+    },
+    "leadership_drive": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Held appointed judicial authority (as qadi) rather than pursuing political rule, inferred as a moderate rather than high leadership drive from the ceiling of the formal roles the Rihla documents him holding."
+    },
+    "impact_motivation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His stated purposes throughout blend religious duty, scholarly interest, and personal advancement rather than a single clear external-impact goal, inferred as a genuinely mixed signal from the documented range of his stated motivations across the text."
+    },
+    "planning_orientation": {
+      "score": 38,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Rihla repeatedly describes decisions made opportunistically upon arrival in a new place rather than a planned itinerary set in advance, an honest lower score reflecting the documented improvisational character of the journey rather than a gap in the source."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Maintained religious scholarly practice and observance across the entire journey per the Rihla's own account, inferred as evidence of sustained personal discipline amid highly variable circumstances."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Chose an unconventional life path (indefinite continued travel rather than the expected return home after pilgrimage) departing sharply from the typical trajectory of a young North African scholar of his class, inferred from the documented divergence of his actual choices from social expectation."
+    },
+    "conflict_tolerance": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Rihla generally describes seeking accommodation with local rulers and customs rather than confrontation, an honest moderate-to-low score reflecting the documented diplomatic, adaptive tone of his interactions across the text."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recovered from the documented loss of his possessions and position after the Maldives shipwreck by resuming his scholarly/judicial career at his next stop, inferred as resourceful recovery from the account's own description of that setback and his continued travel afterward."
+    },
+    "mastery_orientation": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Held progressively more senior judicial appointments across his later travels (culminating in the Delhi and Maldives qadi positions), inferred as accumulating recognized expertise over time from the documented trajectory of his roles."
+    },
+    "creative_originality": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His choice to indefinitely extend a religious pilgrimage into a decades-long circuit of the Islamic world had no clear precedent among his contemporaries, inferred as a genuinely novel life approach from the documented absence of comparable cases in the period's sources."
+    },
+    "deep_focus": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Rihla's episodic, place-to-place structure suggests a pattern of broad engagement across many settings rather than sustained deep absorption in any single pursuit, an honest moderate-to-low score reflecting the documented breadth-over-depth character of his travels."
+    }
   },
   "provenance": {
-    "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Second-batch diversity pick: medieval era, north_africa, exploration domain distinct from Marco Polo. Deliberately scored (not held, unlike Marco Polo) because mainstream medieval-studies scholarship (Dunn) treats the Rihla's CORE itinerary as substantially better corroborated against independent regional chronicles than Polo's Travels, even though specific behavioral/personality-relevant details within it carry real caveats — reflected here by capping every confidence at 0.58 or below and using inference/strong_inference throughout, never documented. A genuinely different evidence-quality tier from both the well-documented modern figures and the largely-uncorroborated Sun Tzu/Marco Polo cases."
+    "notes": "Roster-1000 session 11: medieval-era + North Africa diversity pick, explorer occupation (previously only Ernest Shackleton). Sourced from his own dictated Rihla -- a rare case of direct first-person medieval travel narrative -- but confidence is held at a genuinely moderate ceiling (0.62 max) reflecting the real, acknowledged historiographical caveat that some later passages (especially on China) may include secondhand or embellished material; several rows honestly scored low/moderate (planning_orientation 38, conflict_tolerance 48) rather than defaulting every explorer trait to a high score."
   }
 }

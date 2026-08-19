@@ -61,6 +61,20 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["prodigy", "specialist"],
     archetypeIds: ["creative_creator"],
+    // ROSTER-1000 portrait sourcing (2026-08): a posthumous portrait, not a
+    // lifetime likeness -- Mozart died in 1791, this was painted in 1819 --
+    // but the best-known and most widely reproduced portrait of him,
+    // commissioned by people who had known him. Verified live against the
+    // Commons file page.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_%281819%29.jpg/1447px-Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_%281819%29.jpg",
+      width: 1447,
+      height: 1784,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_(1819).jpg",
+      attribution: "Painted by Barbara Krafft, 1819 — a posthumous portrait (Mozart died in 1791), Gesellschaft der Musikfreunde, Vienna, Public Domain",
+    },
     sources: [wiki("mozart", "Wolfgang Amadeus Mozart")],
     rows: {
       curiosity: [78, 0.6, "s", "N"],
@@ -120,6 +134,18 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["specialist", "overcame_adversity"],
     archetypeIds: ["creative_creator", "independent_creator"],
+    // ROSTER-1000 portrait sourcing (2026-08): the best-known portrait of
+    // Beethoven, painted from life in 1820. Verified live against the
+    // Commons file page.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ludwig_van_Beethoven_%28Stieler%2C_1820%29.jpg",
+      width: 1598,
+      height: 1986,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_(Stieler,_1820).jpg",
+      attribution: "Painted from life by Joseph Karl Stieler, 1820, Beethoven-Haus, Bonn, Public Domain",
+    },
     sources: [wiki("beethoven", "Ludwig van Beethoven")],
     doNotCopyKeys: ["dontcopy.beethoven.volatility"],
     rows: {

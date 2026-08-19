@@ -251,6 +251,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["self_taught", "overcame_adversity", "advocate"],
     archetypeIds: ["social_influencer", "organizational_leader"],
     externalIdentity: { wikidataId: "Q215562" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/7/72/Frederick_Douglass_%28circa_1879%29.jpg",
+      width: 2089,
+      height: 3000,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_(circa_1879).jpg",
+      attribution: "George Kendall Warren, circa 1879, US National Archives (NAID 558770), Public Domain",
+    },
     sources: [{ id: "src_douglass_wikipedia", kind: "wikipedia", title: "Frederick Douglass", url: "https://en.wikipedia.org/wiki/Frederick_Douglass" }, { id: "src_douglass_narrative", kind: "archive", title: "Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave (1845)" }, { id: "src_douglass_blight", kind: "biography", title: "David Blight, Frederick Douglass: Prophet of Freedom (2018)" }],
     rows: {
       // Documented in his own narrative: taught himself to read as an enslaved child by trading bread for reading lessons from poor white children and by studying discarded newspapers, in direct defiance of laws prohibiting it.
@@ -313,6 +324,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["nonconformist", "self_taught", "innovator"],
     archetypeIds: ["scientific_explorer", "independent_creator"],
     externalIdentity: { wikidataId: "Q307" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg/2500px-Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg",
+      width: 2500,
+      height: 3176,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Justus_Sustermans_-_Portrait_of_Galileo_Galilei,_1636.jpg",
+      attribution: "Painted by Justus Sustermans, 1636, National Maritime Museum, Greenwich, Public Domain",
+    },
     sources: [{ id: "src_galileo_wikipedia", kind: "wikipedia", title: "Galileo Galilei", url: "https://en.wikipedia.org/wiki/Galileo_Galilei" }, { id: "src_galileo_drake", kind: "biography", title: "Stillman Drake, Galileo at Work: His Scientific Biography (1978)" }],
     rows: {
       // On hearing secondhand reports of a Dutch spyglass, built and improved his own within months and immediately turned it skyward rather than only toward the terrestrial/military uses it was marketed for — documented, specific instance.
@@ -379,6 +401,20 @@ const seeds: PersonSeed[] = [
     tagIds: ["polymath", "mystic", "nonconformist"],
     archetypeIds: ["creative_creator", "cross_disciplinary_generalist"],
     externalIdentity: { wikidataId: "Q70991" },
+    // ROSTER-1000 portrait sourcing (2026-08): a traditional manuscript
+    // depiction, not a lifetime likeness, per Part 17's allowance for
+    // "non-photographic historical representations... acceptable when
+    // defensibly identified" (the same Confucius/Tang-Dynasty precedent).
+    // Verified live against the Commons file page.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Hildegard_von_Bingen.jpg",
+      width: 1354,
+      height: 1980,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Hildegard_von_Bingen.jpg",
+      attribution: "Illumination from the Rupertsberg Codex of the Liber Scivias, c. 1175 — a traditional depiction, not a lifetime likeness, showing Hildegard receiving a vision and dictating to her scribe Volmar, Public Domain",
+    },
     sources: [{ id: "src_hildegard_wikipedia", kind: "wikipedia", title: "Hildegard of Bingen", url: "https://en.wikipedia.org/wiki/Hildegard_of_Bingen" }, { id: "src_hildegard_correspondence", kind: "archive", title: "The Letters of Hildegard of Bingen (surviving correspondence with popes, emperors, and bishops)" }, { id: "src_hildegard_worldhistory", kind: "institution", title: "World History Encyclopedia — Hildegard of Bingen" }],
     rows: {
       // Authored Physica and Causae et Curae, systematic surviving texts cataloguing plants, animals, stones, and their medicinal uses — the works themselves are the direct documented evidence.
@@ -588,6 +624,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["independent", "detail_oriented", "late_recognition"],
     archetypeIds: ["creative_creator", "scholarly_specialist"],
     externalIdentity: { wikidataId: "Q36322" },
+    // ROSTER-1000 portrait sourcing (2026-08): the only surviving portrait
+    // of Jane Austen made during her own lifetime showing her face,
+    // sketched by her sister. Verified live against the Commons file page.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cassandra_Austen-Jane_Austen%28c.1810%29_hires.jpg/800px-Cassandra_Austen-Jane_Austen%28c.1810%29_hires.jpg",
+      width: 800,
+      height: 850,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Cassandra_Austen-Jane_Austen(c.1810).jpg",
+      attribution: "Watercolor and pencil sketch by Cassandra Austen, c. 1810 — the only surviving portrait of Jane Austen made during her own lifetime showing her face, National Portrait Gallery, London (NPG 3630), Public Domain",
+    },
     sources: [{ id: "src_austen_wikipedia", kind: "wikipedia", title: "Jane Austen", url: "https://en.wikipedia.org/wiki/Jane_Austen" }, { id: "src_austen_letters", kind: "archive", title: "Jane Austen's Letters, ed. Deirdre Le Faye" }, { id: "src_austen_tomalin", kind: "biography", title: "Claire Tomalin, Jane Austen: A Life (1997)" }],
     rows: {
       // Widely credited by literary scholarship with an early, sustained use of free indirect discourse (narrating through a character's internal perspective without direct first-person voice) — a documented, specific stylistic technique visible across her novels, not a single instance.
@@ -713,6 +761,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["polymath", "nonconformist", "founder"],
     archetypeIds: ["cross_disciplinary_generalist", "creative_creator"],
     externalIdentity: { wikidataId: "Q7241" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Rabindranath_Tagore_in_1909.jpg",
+      width: 1071,
+      height: 1500,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg",
+      attribution: "Generalstabens litografiska anstalt, 1909, published in Les Prix Nobel 1913 (1914), Public Domain",
+    },
     sources: [{ id: "src_tagore_wikipedia", kind: "wikipedia", title: "Rabindranath Tagore", url: "https://en.wikipedia.org/wiki/Rabindranath_Tagore" }, { id: "src_tagore_nobel", kind: "award_body", title: "The Nobel Prize — Rabindranath Tagore, Literature 1913" }],
     rows: {
       // Produced thousands of poems and songs, novels, plays, and (later in life) paintings — the 1913 Nobel Prize in Literature for Gitanjali is a documented, independently-verified recognition of a specific body of original work.
@@ -838,6 +897,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["prolific", "innovator", "founder"],
     archetypeIds: ["technical_innovator", "entrepreneurial_builder"],
     externalIdentity: { wikidataId: "Q8743" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Thomas_Alva_Edison%2C_c._1878.jpg",
+      width: 496,
+      height: 717,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Thomas_Alva_Edison,_c._1878.jpg",
+      attribution: "Photographer unknown, circa 1878, Public Domain (published before 1931)",
+    },
     sources: [{ id: "src_edison_wikipedia", kind: "wikipedia", title: "Thomas Edison", url: "https://en.wikipedia.org/wiki/Thomas_Edison" }, { id: "src_edison_israel", kind: "biography", title: "Paul Israel, Edison: A Life of Invention (1998)" }],
     rows: {
       // Documented extensive, systematic testing of a very large number of filament materials before arriving at a commercially viable design for the incandescent light bulb — corroborated across independent biographical accounts (Israel), not a single anecdote.
@@ -962,6 +1032,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["late_recognition", "self_taught", "prolific"],
     archetypeIds: ["creative_creator", "independent_creator"],
     externalIdentity: { wikidataId: "Q5582" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/1/16/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg",
+      width: 3142,
+      height: 3820,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg",
+      attribution: "Vincent van Gogh, self-portrait, 1889, Musée d'Orsay, Paris, Public Domain",
+    },
     sources: [{ id: "src_vangogh_wikipedia", kind: "wikipedia", title: "Vincent van Gogh", url: "https://en.wikipedia.org/wiki/Vincent_van_Gogh" }, { id: "src_vangogh_letters", kind: "archive", title: "Van Gogh Museum — Vincent van Gogh: The Letters (complete surviving correspondence)" }, { id: "src_vangogh_naifeh", kind: "biography", title: "Steven Naifeh and Gregory White Smith, Van Gogh: The Life (2011)" }],
     rows: {
       // Nearly 900 surviving letters, mostly to his brother Theo, directly document his deliberate reasoning about color relationships, composition, and technique alongside a body of over 2,000 surviving works — an unusually direct, first-person documentary record.
@@ -1024,6 +1105,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["innovator", "systematic_thinker", "self_taught"],
     archetypeIds: ["technical_innovator", "independent_creator"],
     externalIdentity: { wikidataId: "Q1396131" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Wilbur_Wright-crop.jpg",
+      width: 3284,
+      height: 4105,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Wilbur_Wright-crop.jpg",
+      attribution: "Library of Congress, Prints and Photographs Division, 1905, Public Domain",
+    },
     sources: [{ id: "src_wright_wikipedia", kind: "wikipedia", title: "Wilbur Wright", url: "https://en.wikipedia.org/wiki/Wilbur_Wright" }, { id: "src_wright_mccullough", kind: "biography", title: "David McCullough, The Wright Brothers (2015)" }],
     rows: {
       // Identified specific, quantified errors in Otto Lilienthal's previously-published aerodynamic lift tables through their own systematic testing, and corrected them — documented via the brothers' own technical notes and correspondence.

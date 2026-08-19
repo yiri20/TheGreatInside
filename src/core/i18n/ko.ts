@@ -498,6 +498,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.admiral": "제독",
   "occupation.anatomist": "해부학자",
   "occupation.animator": "애니메이터",
+  "occupation.architect": "건축가",
   "occupation.artist": "예술가",
   "occupation.astronomer": "천문학자",
   "occupation.athlete": "운동선수",
@@ -527,6 +528,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.military_leader": "군사 지도자",
   "occupation.naturalist": "박물학자",
   "occupation.naval_commander": "해군 지휘관",
+  "occupation.nurse": "간호사",
   "occupation.painter": "화가",
   "occupation.philosopher": "철학자",
   "occupation.physician": "의사",
@@ -1588,6 +1590,31 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.michelangelo": "미켈란젤로",
   "person.name.octavia-butler": "옥타비아 버틀러",
   "person.name.susan-b-anthony": "수전 B. 앤서니",
+
+  // roster-1000 session 11, fresh candidate batch (2026-08) — 20 people,
+  // selected to address real diversity gaps (ancient era, West Asia,
+  // Sub-Saharan Africa, Latin America, medieval East Asia). All scored
+  // under eligibility_v2 from the start.
+  "person.name.al-ghazali": "알가잘리",
+  "person.name.anwar-sadat": "안와르 사다트",
+  "person.name.archimedes": "아르키메데스",
+  "person.name.ban-zhao": "반소",
+  "person.name.benito-juarez": "베니토 후아레스",
+  "person.name.bhagat-singh": "바가트 싱",
+  "person.name.chiune-sugihara": "스기하라 지우네",
+  "person.name.cicero": "키케로",
+  "person.name.hannibal-barca": "한니발 바르카",
+  "person.name.ibn-battuta": "이븐 바투타",
+  "person.name.joan-of-arc": "잔 다르크",
+  "person.name.julius-caesar": "율리우스 카이사르",
+  "person.name.mary-seacole": "메리 시콜",
+  "person.name.mimar-sinan": "미마르 시난",
+  "person.name.nasir-al-din-al-tusi": "나시르 앗딘 알투시",
+  "person.name.patrice-lumumba": "파트리스 루뭄바",
+  "person.name.simone-de-beauvoir": "시몬 드 보부아르",
+  "person.name.steve-biko": "스티브 비코",
+  "person.name.zeami-motokiyo": "제아미 모토키요",
+  "person.name.zhang-heng": "장형",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

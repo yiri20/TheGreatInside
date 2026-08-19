@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zhang-heng",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Zhang Heng",
+    "wikidataId": "Q186335",
+    "birthYear": 78,
+    "deathYear": 139,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.han_dynasty"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "engineer",
+      "poet"
+    ],
+    "fieldIds": [
+      "astronomy",
+      "mathematics",
+      "engineering",
+      "literature"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "engineering"
+    ],
+    "tagIds": [
+      "polymath",
+      "cross_disciplinary",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_zhangheng_wikipedia",
+      "kind": "wikipedia",
+      "title": "Zhang Heng",
+      "url": "https://en.wikipedia.org/wiki/Zhang_Heng"
+    },
+    {
+      "id": "src_zhangheng_houhanshu",
+      "kind": "archive",
+      "title": "Book of Later Han (Hou Han Shu), official dynastic history compiled c. 5th century CE, roughly a century after his death"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Invented the Houfeng Didong Yi, the first seismoscope, using an internal pendulum-and-lever mechanism to detect the direction of distant earthquakes -- documented in the Hou Han Shu, including a specific recorded instance where it correctly indicated an earthquake roughly 400 km away that was not felt in the capital, later confirmed by a messenger's report."
+    },
+    "cross_domain_range": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Held the position of Chief Astronomer at the Han court while separately producing major work in seismology, cartography, mathematics (a refined estimate of pi), and literature (his surviving fu poetry, including the Sikou Fu) -- documented breadth across the Hou Han Shu's official record of his offices and works."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His improved water-powered armillary sphere and star catalog (recording roughly 2,500 stars) required sustained precise observation and mechanical calibration, documented via the Hou Han Shu's account of his astronomical instruments and outputs."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Produced a mathematically refined approximation of pi (in the range of 3.1622) improving on earlier Chinese estimates, inferred as requiring systematic, rigorous calculation from the documented result itself, since the specific derivation method is not fully preserved."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The seismoscope's design and its later real-world validation (the confirmed distant-earthquake detection) implies an iterative, testable mechanical design process rather than pure theory, inferred from the documented outcome."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The genuine breadth of his output across five distinct documented domains -- astronomy, seismology, cartography, mathematics, and poetry -- suggests wide-ranging intellectual interest beyond any single specialization, inferred from the strong convergence of this documented range across his surviving works and offices."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Held the Chief Astronomer position across multiple years and produced a sustained body of instruments and writings, inferred from the consistency of the official record across his recorded tenure."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The specific ambition of his seismoscope -- detecting earthquakes at a distance no prior instrument attempted -- suggests drive toward genuinely novel results rather than incremental refinement alone, inferred from the documented character of the invention."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained star-cataloging and instrument calibration over years implies real working discipline, inferred from the volume and precision of the recorded astronomical output."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly refined existing instruments (the armillary sphere) rather than treating an initial working version as sufficient, inferred from the documented progression of his astronomical instrument work."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Coordinating a multi-part mechanical device (the seismoscope's eight directional dragon-and-toad mechanism) implies real design planning, inferred from the documented complexity of the finished instrument."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The seismoscope had no known prior precedent anywhere in the ancient world, inferred as genuinely original invention from the documented novelty of the device relative to earlier Han-era instruments."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Served in an appointed court scholarly-technical role (Chief Astronomer) rather than pursuing broader political power, inferred as a moderate rather than high leadership drive from the ceiling of his recorded career."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His refined pi estimate AND his seismoscope both independently diverged from and improved upon prior Han-era approaches, inferred as independent technical judgment from the convergence of these two documented departures from earlier work."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The seismoscope had a clear practical/administrative purpose (early warning for a court that governed a large, earthquake-prone territory), inferred from the instrument's documented function within his official court role."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked within the structure of an official court appointment rather than as an independent scholar, a genuinely moderate/mixed signal rather than a strong lean in either direction."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The seismoscope solved a genuinely hard detection problem using only available Han-era bronze-casting and mechanical-linkage techniques (a pendulum-and-lever system with no electrical or precision-timing tools available), inferred as resourceful engineering from the documented constraints of the era."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Identified an unaddressed practical need -- a court governing a large, earthquake-prone territory had no way to learn of distant seismic events quickly -- and built a device specifically to close that gap, inferred from the documented purpose the Hou Han Shu attributes to the seismoscope."
+    },
+    "risk_tolerance": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Presented an unproven, mechanically complex instrument to the imperial court, where a visible failure could have damaged his standing as Chief Astronomer, inferred as accepting real professional risk from the documented novelty and public presentation of the device."
+    },
+    "deep_focus": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Cataloging roughly 2,500 stars and refining a numerical estimate of pi both required sustained, precise concentrated work over extended periods, inferred from the documented scale and precision of these outputs."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: ancient + East Asia diversity pick. Sourced entirely from the Hou Han Shu, an official dynastic history compiled roughly a century after his death -- administrative/chronicle-level evidence, the same tier this project already uses for Confucius/Wu Zetian, hence the same capped confidence range and reliance on documented OUTPUTS (instruments, texts, offices held) rather than personal anecdote to support strong_inference/inference scores."
+  }
+}

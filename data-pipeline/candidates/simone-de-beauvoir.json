@@ -1,0 +1,216 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "simone-de-beauvoir",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Simone de Beauvoir",
+    "wikidataId": "Q7197",
+    "birthYear": 1908,
+    "deathYear": 1986,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "historical",
+      "social",
+      "literary"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "prolific",
+      "independent"
+    ],
+    "archetypeIds": [
+      "independent_creator",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_beauvoir_wikipedia",
+      "kind": "wikipedia",
+      "title": "Simone de Beauvoir",
+      "url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir"
+    },
+    {
+      "id": "src_beauvoir_secondsex",
+      "kind": "archive",
+      "title": "Simone de Beauvoir's own The Second Sex (1949) and her four-volume autobiography (Memoirs of a Dutiful Daughter and successors)"
+    },
+    {
+      "id": "src_beauvoir_letters",
+      "kind": "archive",
+      "title": "Her own published correspondence, including letters to Jean-Paul Sartre and Nelson Algren"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Second Sex systematically argues its thesis across biology, psychoanalysis, history, and literature with extensive citation and structured argument, documented directly via the surviving text itself."
+    },
+    "independent_thinking": {
+      "score": 86,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Second Sex's central arguments (existentialist analysis of women's social construction as \"Other\") broke sharply with prevailing mid-20th-century philosophical and social assumptions, documented via the text's own content and its contemporaneously documented reception as genuinely novel."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the youngest person ever to pass the highly competitive French agregation examination in philosophy at the time she took it in 1929, documented via the historical academic record of that examination."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Maintained a deliberately unconventional, non-marital, non-monogamous partnership with Jean-Paul Sartre by explicit mutual choice for over five decades, documented directly via her own memoirs and published correspondence describing and defending this arrangement."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained a well-documented, highly consistent daily writing routine across a prolific multi-decade output of novels, philosophy, memoir, and journalism, documented via her own autobiography's description of her working habits."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced major work across philosophy, the novel (winning the Prix Goncourt for The Mandarins in 1954), memoir, and political essay, documented via the range of her own substantial surviving corpus."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Took public political positions on controversial issues of her era (French colonialism in Algeria, reproductive rights) that drew significant public backlash, documented via the historical record of the controversy surrounding The Second Sex's publication and her later political activism."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The genuine breadth of source material drawn on in The Second Sex and her documented wide-ranging intellectual and political engagement across her life suggest strong sustained curiosity, inferred from the documented range of her actual output and activity."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Second Sex's extensive citation and cross-disciplinary evidence base implies careful, exacting research practice, inferred from the documented scholarly density of the finished text."
+    },
+    "persistence": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding, multi-decade literary and philosophical output despite significant public controversy over some of her most consequential work, inferred from the documented continuity of her writing career through that controversy."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her later political writing and activism (on abortion rights, the Algerian War) suggest genuine motivation toward broader social change rather than purely academic interest, inferred from the consistency of her stated positions with her sustained activism."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Co-founded and contributed to the influential journal Les Temps Modernes and engaged directly in public intellectual debate throughout her career, inferred as real social assertiveness from the documented public visibility of her intellectual activity."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked closely with Sartre and a broader circle of French intellectuals throughout her career (including co-founding Les Temps Modernes), a genuinely moderate collaborative signal inferred from the documented pattern of shared intellectual work alongside her extensive independent output."
+    },
+    "planning_orientation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained, structured writing routine implies some real planning capacity, though the specific documented evidence centers more on consistency of practice than long-range project planning, inferred as a moderate score."
+    },
+    "leadership_drive": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Positioned herself primarily as an independent writer and thinker rather than an organizational or political leader, an honest moderate-to-low score reflecting the documented character of her actual public role."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Published The Second Sex despite anticipating (and receiving) significant public and even personal backlash, inferred as moderate risk tolerance from the documented controversy the work generated upon publication."
+    },
+    "opportunity_sensing": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Identified an underexamined philosophical question (women's social construction as \"Other\" within existentialist thought) that her own existing philosophical training positioned her well to address, inferred from the documented originality of the resulting work relative to prior existentialist scholarship."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Moved between teaching, fiction writing, philosophy, memoir, and political journalism across her career, inferred as requiring real adaptability from the documented range of these distinct working modes."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Second Sex's existentialist framing of gender as socially constructed rather than biologically fixed was a genuinely novel philosophical position at publication, documented via the work's own content and its widely documented reception as foundational and original."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Continued producing major, evolving work across philosophy, fiction, and memoir over more than four decades, inferred as sustained skill development from the documented range and maturation of her corpus over that period."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her own memoirs describe a highly consistent, protected daily writing routine sustained across decades, inferred as requiring real concentrated absorption from her own documented, first-person description of that working pattern."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: one of only two modern-Western-European picks in this batch (deliberately limited per the instruction to avoid overconcentration in already-well-represented categories -- Western Europe was already at 19/84). Included for genuine historical significance (The Second Sex is a foundational text of modern feminist philosophy) and a distinct profile shape not otherwise represented. Well documented via her own extensive memoirs and published correspondence."
+  }
+}

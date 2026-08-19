@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "al-ghazali",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Al-Ghazali",
+    "wikidataId": "Q160518",
+    "birthYear": 1058,
+    "deathYear": 1111,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.seljuk_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "theologian",
+      "philosopher",
+      "jurist"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "religion",
+      "law"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "mystic",
+      "ascetic",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ghazali_wikipedia",
+      "kind": "wikipedia",
+      "title": "Al-Ghazali",
+      "url": "https://en.wikipedia.org/wiki/Al-Ghazali"
+    },
+    {
+      "id": "src_ghazali_autobiography",
+      "kind": "archive",
+      "title": "Al-Ghazali's own autobiography, Deliverance from Error (al-Munqidh min al-Dalal) -- a rare, directly introspective first-person account of his intellectual and spiritual crisis"
+    },
+    {
+      "id": "src_ghazali_incoherence",
+      "kind": "archive",
+      "title": "Al-Ghazali's The Incoherence of the Philosophers and The Revival of the Religious Sciences (Ihya Ulum al-Din)"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Held the most prestigious teaching post in the Islamic world at the time (chief professor at the Nizamiyya madrasa in Baghdad) and deliberately walked away from it, his salary, and his family for years of ascetic wandering -- documented directly in his own autobiography's first-person account of this decision."
+    },
+    "ambiguity_tolerance": {
+      "score": 25,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "His own autobiography describes reaching a state of total epistemic doubt -- unable to find certain ground in theology, philosophy, or received authority -- that produced physical incapacitation (he describes being unable to speak or teach) until resolved through direct mystical practice; a rare, directly self-reported LOW-tolerance crisis, not inferred secondhand."
+    },
+    "independent_thinking": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His autobiography describes systematically studying and critically testing the major intellectual traditions of his era (Ash'ari theology, Aristotelian/Avicennan philosophy, Ismaili doctrine, and Sufi mysticism) against each other before reaching his own synthesis, documented directly in his own account of this process."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Abandoning an elite, secure academic position for an uncertain ascetic life carried real professional and financial risk, inferred as high risk tolerance from the documented magnitude of what he gave up, per his own autobiographical account."
+    },
+    "analytical_rigor": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Incoherence of the Philosophers systematically identifies and argues against twenty specific claims of the Avicennan philosophical tradition point by point, documented directly via the structure of his own surviving text."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced major surviving works spanning theology, philosophy, jurisprudence, logic, and Sufi mysticism, documented via the range of his own corpus -- The Revival of the Religious Sciences alone synthesizes law, theology, and spiritual practice into one work."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued the ascetic search for certainty for years despite it initially producing no resolution, per his own account, before eventually returning to teaching once he judged his crisis genuinely resolved -- inferred from the documented duration and eventual completion of that period."
+    },
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His documented, sustained investigation of multiple competing intellectual and spiritual traditions before reaching his own view suggests genuine wide-ranging engagement rather than settling on inherited authority, inferred from the breadth described in his own autobiography."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Reached the top academic post in the Islamic world at a young age (his early thirties) before his crisis, inferred as significant early achievement drive from the documented pace of his rise."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Produced an unusually large body of systematic written work (The Revival of the Religious Sciences alone runs to 40 books) across a relatively short lifespan, inferred as requiring sustained working discipline from the documented volume of his output."
+    },
+    "conflict_tolerance": {
+      "score": 38,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Responded to his intellectual crisis by withdrawing from public life rather than remaining to publicly argue his doubts, an honest lower score for direct confrontation-seeking, distinct from the high scores above for independent thought and risk-taking."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Revival of the Religious Sciences was explicitly intended as a practical guide reconciling law, theology, and spiritual practice for ordinary religious life, inferred from the stated purpose of the work itself."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Moved between the roles of elite court-appointed professor, wandering ascetic, and later a more modest provincial teacher across his life, inferred as real adaptability from the documented range of very different life circumstances he occupied."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Accepted and later voluntarily left formal academic leadership rather than pursuing broader institutional or political power, inferred as moderate leadership drive from the ceiling and trajectory of his actual career choices."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Continued refining his theological and philosophical positions across successive works even after his crisis resolved, inferred from the documented evolution of his thought across his later writings."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The point-by-point structure of The Incoherence of the Philosophers implies careful, systematic engagement with specific claims rather than broad-strokes argument, inferred from the documented structure of the text."
+    },
+    "collaboration": {
+      "score": 42,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented intellectual crisis and subsequent ascetic period were pursued in solitude rather than with collaborators, an honest lower score reflecting the specifically solitary character of his central documented life episode."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Successfully taught and drew large student audiences at the Nizamiyya madrasa before his crisis, and later resumed public teaching, inferred as moderate social assertiveness from the documented scale and continuity of his teaching career on either side of his withdrawal."
+    },
+    "deep_focus": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "His own autobiography describes years of singular, all-consuming preoccupation with resolving his epistemic crisis, to the point of physical incapacitation, inferred as intense (if here dual-edged) concentrated absorption from his own first-person account of that period."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His synthesis of orthodox theology, philosophy, and Sufi mysticism into a single coherent framework in The Revival of the Religious Sciences had no direct precedent, inferred as genuinely original synthesis from the documented novelty of combining these traditions in this way."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: West Asia diversity pick (second of three in this batch). One of the richest genuinely autobiographical sources available for a medieval figure -- his own Deliverance from Error is a directly introspective first-person account of a real psychological/spiritual crisis, not later biography, supporting confidence up to 0.65 on the most directly self-reported rows. ambiguity_tolerance (25) is a rare, strongly-documented LOW-pole score grounded in his own explicit first-person description of incapacitating doubt -- exactly the kind of genuine low-direction evidence this project's scoring-symmetry discipline (Phase 6.6 Stage 5) found rare and valuable when the sources actually support it."
+  }
+}

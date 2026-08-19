@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "benito-juarez",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Benito Juarez",
+    "wikidataId": "Q1124",
+    "birthYear": 1806,
+    "deathYear": 1872,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "MX"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "statesman",
+      "lawyer"
+    ],
+    "fieldIds": [
+      "politics",
+      "law"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "reconciliation",
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_juarez_wikipedia",
+      "kind": "wikipedia",
+      "title": "Benito Juarez",
+      "url": "https://en.wikipedia.org/wiki/Benito_Ju%C3%A1rez"
+    },
+    {
+      "id": "src_juarez_biography",
+      "kind": "biography",
+      "title": "Historical biographical accounts of the La Reforma period and the French intervention in Mexico"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led a government that operated continuously, often relocating under military pressure, throughout the French intervention (1862-1867) rather than accepting exile or capitulation, documented via the sustained historical record of his government's movements and continued functioning during that period."
+    },
+    "decisiveness": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Ordered the trial and execution of Emperor Maximilian I after the Republic's victory despite extensive international pressure (including from the United States and European governments) for clemency, documented via the historical record of the decision and the diplomatic correspondence around it."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Widely documented for austere, legally formal personal conduct, including insisting Maximilian receive a formal court-martial trial rather than summary execution even amid war conditions, documented via the historical record of the trial proceedings themselves."
+    },
+    "achievement_drive": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from an orphaned, Spanish-illiterate Zapotec child (he did not learn Spanish until around age 12) to become a lawyer, state governor, and ultimately Mexico's first Indigenous president, documented via the well-corroborated historical record of his early life and career."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Led the Liberal government through the Reform War against Conservative and Church-aligned forces, and later sustained direct armed conflict against French occupation for five years, documented via the extended historical record of both conflicts."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served continuously as president through extraordinary institutional disruption, maintaining a functioning claim to legitimate government even while it lacked a fixed capital, documented via the sustained historical continuity of his administration."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The La Reforma laws he championed (separation of church and state, land reform, civil registry) addressed structural issues affecting the broader population rather than only consolidating personal power, inferred from the substantive content of the reforms themselves."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a functioning government while relocating repeatedly under military pressure and with limited resources during the French intervention, inferred as requiring significant improvisation from the documented conditions of that period."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Continued leading armed resistance against a French-backed empire with substantial military superiority rather than accepting exile, inferred as significant risk tolerance from the documented military imbalance of the conflict."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Coordinated a multi-year legislative reform program (La Reforma) alongside ongoing military conflict, inferred as requiring real strategic planning from the documented scope and sequencing of the reform laws."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved between four distinct documented roles -- lawyer, judge, provincial governor, and wartime head of state -- across a career spanning major political upheaval, inferred from the documented convergence of this range of roles."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Maintained an independent government claim throughout the French intervention rather than accepting accommodation with the imperial regime, inferred as real autonomy orientation from the documented refusal to negotiate a settlement."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked within a cabinet and allied Liberal military commanders throughout both the Reform War and the French intervention, a genuinely collaborative wartime leadership structure, inferred from the documented composition of his governments."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His legal training and insistence on formal judicial process even in extraordinary circumstances (the Maximilian trial) suggests careful attention to procedural correctness, inferred from the documented formality of that episode."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued anticlerical liberal reforms that broke sharply with prevailing conservative Mexican political and religious authority of the era, inferred as independent political judgment from the documented departure of the Reform laws from prior norms."
+    },
+    "social_assertiveness": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Rose through Oaxacan legal and political institutions from a non-elite background to statewide and then national office, inferred as requiring real social assertiveness from the documented trajectory of that rise."
+    },
+    "curiosity": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented career centers narrowly on law and governance rather than broader intellectual range, an honest moderate score reflecting the specific, focused character of his recorded activities."
+    },
+    "opportunity_sensing": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Positioned the Liberal party to capitalize on Conservative military and political weakness at key points in both the Reform War and the French intervention, inferred from the documented timing of major Liberal political and military gains."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Maintained sustained direct engagement with the legal proceedings of the Maximilian trial and the ongoing government administration simultaneously, inferred as capacity for concentrated attention under crisis conditions from the documented parallel demands of that period."
+    },
+    "mastery_orientation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Progressed through increasingly senior legal and political roles (lawyer, judge, governor, president) over decades, inferred as accumulating and applying growing expertise from the documented trajectory of his career."
+    },
+    "creative_originality": {
+      "score": 46,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The La Reforma laws applied existing European liberal constitutional principles to Mexican circumstances rather than introducing wholly novel political theory, an honest moderate score reflecting the documented, adaptation-based rather than originary character of the reforms."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: 19th-century + Latin America diversity pick, first Indigenous head of state in the Americas. Passes the inclusion_v1 counterfactual cleanly -- rose entirely through his own legal and political career from an orphaned, non-elite background, no inherited position of any kind. Well-documented via the extensive historical record of La Reforma and the French intervention."
+  }
+}

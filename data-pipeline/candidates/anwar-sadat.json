@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "anwar-sadat",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Anwar Sadat",
+    "wikidataId": "Q34317",
+    "birthYear": 1918,
+    "deathYear": 1981,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "statesman",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "military",
+      "diplomacy"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "reconciliation",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sadat_wikipedia",
+      "kind": "wikipedia",
+      "title": "Anwar Sadat",
+      "url": "https://en.wikipedia.org/wiki/Anwar_Sadat"
+    },
+    {
+      "id": "src_sadat_autobiography",
+      "kind": "archive",
+      "title": "Sadat's own autobiography, In Search of Identity (1978)"
+    },
+    {
+      "id": "src_sadat_biography",
+      "kind": "biography",
+      "title": "Historical accounts of the 1973 October War, the 1977 Jerusalem visit, and the 1978 Camp David Accords"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 90,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Became the first Arab head of state to visit Israel and address the Israeli Knesset in 1977, an act that led Egypt to be suspended from the Arab League and drew widespread regional condemnation, documented via the extensive contemporary historical record of the visit and its aftermath."
+    },
+    "decisiveness": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Committed to launching the October 1973 War to break the post-1967 diplomatic and military stalemate with Israel, and later committed to the entirely opposite strategy of direct peace negotiation within a few years, documented via the historical record of both major decisions."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Shifted Egypt's fundamental strategic posture toward Israel from war (1973) to direct peace negotiation (1977-1978) within roughly five years, documented via the well-corroborated historical record of both phases of his foreign policy."
+    },
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Negotiated the Camp David Accords with Israeli Prime Minister Menachem Begin under US mediation, resulting in a signed treaty and a shared Nobel Peace Prize, documented via the historical diplomatic record of the negotiations."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained the peace process despite sharp domestic and pan-Arab political backlash (including Egypt's suspension from the Arab League) rather than reversing course, documented via the historical record of continued Egyptian policy through his assassination in 1981."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rose from imprisoned anti-colonial activist to Free Officers Movement participant to president, inferred as sustained achievement drive from the documented trajectory of his career across the 1952 revolution and afterward."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Jerusalem visit broke decisively with the prevailing pan-Arab political consensus of his era, inferred as independent political judgment from the documented degree to which it diverged from expected regional alignment."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Served as president of Egypt for over a decade, directing both major military and diplomatic strategic shifts personally, documented via the historical record of his sustained direct involvement in both."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The 1973 war's opening strategy (a coordinated surprise crossing of the Suez Canal) required substantial military planning, inferred from the documented, widely analyzed tactical coordination of the operation's early phase."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His own autobiography frames the peace initiative explicitly in terms of ending decades of regional war and its human cost, inferred as at least partly genuine motivation from the consistency between his stated reasoning and his sustained pursuit of the policy despite its political cost."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Pursued the Jerusalem visit and subsequent peace process as a personal initiative against the prevailing view of his own cabinet and regional allies, inferred as real autonomy orientation from the documented degree of independent decision-making involved."
+    },
+    "discipline": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding dual military-and-diplomatic leadership role across major, simultaneous national crises, inferred from the documented continuity of his engagement across both the war and peace-process periods."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directly addressed the Israeli Knesset in person, an unusually assertive diplomatic act for a sitting Arab head of state at the time, inferred from the documented, direct character of the visit itself."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Negotiated the Camp David Accords through sustained direct engagement with both Israeli and US counterparts over an extended process, a genuinely collaborative diplomatic effort inferred from the documented multi-party structure of the negotiations."
+    },
+    "detail_orientation": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented public record centers on major strategic and diplomatic decisions rather than administrative detail work, an honest moderate score reflecting the actual character of his recorded leadership style."
+    },
+    "curiosity": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His autobiography and public record center narrowly on military and political affairs, an honest moderate score reflecting the documented scope of his recorded interests and activity."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Recognized US diplomatic openness to Middle East peace mediation under President Carter and moved decisively to act on it, inferred from the documented timing of the Jerusalem visit relative to the broader diplomatic environment."
+    },
+    "resourcefulness": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued the 1973 canal-crossing operation and later the peace initiative both using unconventional approaches relative to the standard options available to him, inferred as resourceful strategic improvisation from the documented departure of both from expected regional-conflict or regional-alliance patterns."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained the peace process across roughly four years of negotiation and domestic/regional political backlash to its final signing, inferred from the documented continuity of the policy from the 1977 Jerusalem visit through the 1978 Accords."
+    },
+    "deep_focus": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His documented public record centers on large-scale strategic decision-making rather than sustained solitary technical concentration, an honest moderate score reflecting the character of his actual recorded leadership activity."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The direct, in-person Jerusalem visit and Knesset address was a genuinely unprecedented diplomatic approach for an Arab head of state at the time, inferred as original from the documented absence of any comparable prior precedent for this specific act."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: North Africa/West-Asia-adjacent diversity pick, 20th century. Passes the inclusion_v1 counterfactual cleanly (rose through the Free Officers Movement, not inherited position). Well documented via his own autobiography and the extensive historical record of the October War and Camp David Accords. His 1981 assassination is factually noted in the sourcing but, consistent with this project's discipline (as with Lumumba/Biko above), no trait score is derived from it."
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "julius-caesar",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Julius Caesar",
+    "wikidataId": "Q1048",
+    "birthYear": -100,
+    "deathYear": -44,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe",
+    "historicalPolityKey": "polity.roman_republic"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_leader",
+      "statesman"
+    ],
+    "fieldIds": [
+      "military",
+      "politics",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "strategist",
+      "conqueror",
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_caesar_wikipedia",
+      "kind": "wikipedia",
+      "title": "Julius Caesar",
+      "url": "https://en.wikipedia.org/wiki/Julius_Caesar"
+    },
+    {
+      "id": "src_caesar_commentaries",
+      "kind": "archive",
+      "title": "Caesar's own Commentarii de Bello Gallico and de Bello Civili (first-person campaign accounts)"
+    },
+    {
+      "id": "src_caesar_suetonius",
+      "kind": "biography",
+      "title": "Suetonius, The Twelve Caesars (Life of Julius Caesar)"
+    },
+    {
+      "id": "src_caesar_plutarch",
+      "kind": "biography",
+      "title": "Plutarch, Life of Caesar"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Crossed the Rubicon with his legion in 49 BCE, a single irreversible act triggering civil war, reportedly with the words \"alea iacta est\" (the die is cast) -- documented across multiple ancient sources (Suetonius, Plutarch, Appian) converging on the same decisive act."
+    },
+    "risk_tolerance": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The Rubicon crossing itself was a calculated but existential political and physical risk (illegal for a general to enter Italy under arms); Suetonius also records that as a young man captured by pirates, he insisted his ransom was too low and later returned to hunt down and execute his captors -- a repeated pattern of accepting high personal risk, documented across sources."
+    },
+    "execution_speed": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Famous for rapid campaign tempo, summarized in his own reported dispatch after the Battle of Zela: \"veni, vidi, vici\" (I came, I saw, I conquered) -- documented via Suetonius's direct quotation, and consistent with the compressed campaign timelines described throughout his own Commentarii."
+    },
+    "analytical_rigor": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own Commentarii de Bello Gallico present terrain, logistics, and tribal politics in clear, structured, analytically organized prose -- a primary-source document in his own words, though written partly for political self-presentation, which this rubric's ancient-evidence discipline accounts for via the confidence cap rather than the score."
+    },
+    "planning_orientation": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Coordinated multi-year, multi-front campaigns across Gaul with supply lines, allied-tribe diplomacy, and seasonal timing, documented via his own Commentarii; the accounts describe outcomes and logistics in enough consistent detail across multiple campaigns to support strong_inference for underlying planning capacity."
+    },
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Pursued and held the consulship, proconsular military command, and ultimately the dictatorship, documented via the consistent political record across Suetonius, Plutarch, and contemporary references in Cicero's own letters -- an unusually well-corroborated ancient case since Cicero's correspondence is genuinely contemporary, not later biography."
+    },
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly secured legionary loyalty during politically fraught moments (crossing the Rubicon, the civil war) and Senate/popular support for major reforms, documented across multiple sources as a consistent pattern rather than a single episode."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Shifted rapidly between military command, political maneuvering in Rome, and administrative governance as dictator across a compressed timeline, documented via the sequence of his own recorded career moves."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct political conflict with the Senate, Pompey, and the optimates for over a decade rather than seeking accommodation, documented via the consistent trajectory from the First Triumvirate's breakdown through the civil war."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Pursued an unusually compressed sequence of major offices and honors (praetor, consul, proconsul of Gaul, dictator) relative to typical Roman cursus honorum timing, documented via the political record, suggesting genuine drive toward exceptional achievement specifically."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Implemented the Julian calendar reform (replacing the lunar Roman calendar with a solar 365.25-day system used for over 1,500 years afterward) and broader administrative/citizenship reforms as dictator, documented via the historical record of his reforms."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Formed and maintained the First Triumvirate alliance with Pompey and Crassus for years before its breakdown, documented via the political record -- a genuinely mixed signal (real sustained alliance-building, but one that ultimately collapsed into conflict), scored moderate rather than high."
+    },
+    "competitiveness": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Suetonius records Caesar weeping before a statue of Alexander the Great, reportedly distressed at having achieved less at the same age -- a documented anecdote (single source, hence not scored higher) consistent with the broader pattern of his rapid pursuit of exceptional distinction."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His Commentarii include detailed ethnographic and geographic observation of Gallic and Germanic peoples well beyond military necessity, suggesting some genuine intellectual curiosity alongside the propagandistic purpose of the text."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His reforms as dictator (debt relief, land redistribution, citizenship extension to provincials) addressed real, longstanding structural grievances rather than only consolidating personal power, inferred from the substance of the reforms themselves."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding, near-continuous campaign schedule across nearly a decade in Gaul, inferred from the consistency of the campaign record in his own Commentarii."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Operated at a high level across military command, political strategy, legislative reform, and literary composition (his Commentarii are still regarded as a Latin prose stylistic model), inferred from the documented breadth of his activities."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Repeatedly acted outside or against explicit Senate authorization (Gaul campaigns beyond mandate, the Rubicon crossing) when he judged it necessary, inferred from the documented pattern of unilateral action."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained the Gallic campaign across roughly eight years despite significant setbacks (the near-disaster at Gergovia, the prolonged siege of Alesia), inferred from the documented multi-year continuity of the campaign in his own Commentarii."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Repeatedly acted against explicit Senate instruction when he judged circumstances required it, inferred as independent political and military judgment from the same documented pattern of unilateral action noted above."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Suetonius records that Caesar could dictate correspondence to multiple scribes simultaneously while traveling or in camp, inferred as evidence of sustained concentrated output even under distracting conditions, from this specific documented account."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: ancient-era diversity pick. Unusually well-corroborated for an ancient figure -- his own first-person Commentarii plus Cicero's genuinely contemporary letters, not only later biography -- so several rows sit at the higher end of this project's ancient-evidence confidence range (up to 0.68) without exceeding it. Passes the inclusion_v1 counterfactual cleanly: his military/political achievements were built through his own career (consul, proconsular command, dictatorship by acclamation), not inherited title -- distinct from the Cleopatra-class case this project already removed."
+  }
+}

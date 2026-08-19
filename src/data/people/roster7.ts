@@ -174,6 +174,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["perfectionist", "late_recognition", "independent"],
     archetypeIds: ["creative_creator"],
     externalIdentity: { wikidataId: "Q905" },
+    // ROSTER-1000 portrait sourcing (2026-08): the last known photograph of
+    // Franz Kafka. Verified live against the Commons file page.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Franz_Kafka%2C_1923.jpg",
+      width: 1992,
+      height: 2656,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg",
+      attribution: "Photographer unknown, probably September 1923, Wertheim department store, Berlin — the last known photograph of Franz Kafka, Public Domain",
+    },
     sources: [{ id: "src_kafka_wikipedia", kind: "wikipedia", title: "Franz Kafka", url: "https://en.wikipedia.org/wiki/Franz_Kafka" }, { id: "src_kafka_letters", kind: "archive", title: "Franz Kafka's letters and diaries (published posthumously)" }, { id: "src_kafka_museum", kind: "institution", title: "Kafka Museum, Prague -- The Workers' Accident Insurance Institute", url: "https://kafkamuseum.cz/en/the-workers-accident-insurance-institute" }],
     rows: {
       // Developed a genuinely distinctive narrative mode (bureaucratic surrealism, later termed 'Kafkaesque') with no direct precedent, documented via the lasting critical recognition and terminological legacy of his specific style.
@@ -558,6 +569,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["founder", "leader"],
     archetypeIds: ["social_influencer", "organizational_leader"],
     externalIdentity: { wikidataId: "Q192245" },
+    // ROSTER-1000 portrait sourcing (2026-08): verified live against the
+    // actual Commons file page before being added.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Susan_B._Anthony_by_Frances_Benjamin_Johnston.jpg",
+      width: 1154,
+      height: 1475,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Susan_B._Anthony_by_Frances_Benjamin_Johnston.jpg",
+      attribution: "Frances Benjamin Johnston, circa 1900, Public Domain (published before 1931)",
+    },
     sources: [{ id: "src_anthony_wikipedia", kind: "wikipedia", title: "Susan B. Anthony", url: "https://en.wikipedia.org/wiki/Susan_B._Anthony" }, { id: "src_anthony_nps", kind: "institution", title: "US National Park Service -- Susan B. Anthony", url: "https://www.nps.gov/people/susan-b-anthony.htm" }],
     rows: {
       // Deliberately registered to vote and cast an illegal ballot in the 1872 presidential election specifically to force a legal test case, resulting in her arrest and prosecution -- a specific, well-documented act of calculated legal risk-taking, not a spontaneous act.

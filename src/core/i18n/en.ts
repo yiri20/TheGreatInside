@@ -748,6 +748,7 @@ export const en = {
   "occupation.admiral": "admiral",
   "occupation.anatomist": "anatomist",
   "occupation.animator": "animator",
+  "occupation.architect": "architect",
   "occupation.artist": "artist",
   // ROSTER-1000 first batch: 5 new occupation ids, added the same way
   // Phase 8's occupation.* set was originally authored — a live audit of
@@ -781,6 +782,7 @@ export const en = {
   "occupation.military_leader": "military leader",
   "occupation.naturalist": "naturalist",
   "occupation.naval_commander": "naval commander",
+  "occupation.nurse": "nurse",
   "occupation.painter": "painter",
   "occupation.philosopher": "philosopher",
   "occupation.physician": "physician",

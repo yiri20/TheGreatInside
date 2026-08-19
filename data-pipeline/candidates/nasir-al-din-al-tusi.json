@@ -1,0 +1,216 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nasir-al-din-al-tusi",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Nasir al-Din al-Tusi",
+    "wikidataId": "Q179819",
+    "birthYear": 1201,
+    "deathYear": 1274,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.ilkhanate"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "mathematician",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "astronomy",
+      "mathematics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "systematic_thinker",
+      "founder"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tusi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Nasir al-Din al-Tusi",
+      "url": "https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi"
+    },
+    {
+      "id": "src_tusi_corpus",
+      "kind": "archive",
+      "title": "Al-Tusi's own surviving works (Zij-i Ilkhani astronomical tables, Tahrir al-Majisti, Akhlaq-i Nasiri)"
+    },
+    {
+      "id": "src_tusi_biographical",
+      "kind": "biography",
+      "title": "Later Islamic biographical dictionaries (tabaqat literature) recording his career at Alamut, then under the Ilkhanate"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 86,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Designed and directed the Maragheh observatory, coordinating a purpose-built institution with a library, instrument workshop, and astronomers drawn from across the Mongol-controlled world (Persia, China) -- documented via the observatory's own well-attested administrative and architectural record."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Secured Ilkhan Hulagu Khan's direct patronage and funding for a major, expensive scientific institution shortly after the Mongol conquest of Persia, inferred as requiring real persuasive skill from the documented fact that a newly conquering Mongol ruler funded it at his specific proposal."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directed the Maragheh observatory's multinational team of astronomers for years, documented via the observatory's own historical record and the collaborative authorship pattern of the resulting Zij-i Ilkhani tables."
+    },
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His Tahrir al-Majisti identified and worked to correct specific internal inconsistencies in Ptolemy's planetary models (the \"Tusi couple,\" a geometric device resolving one such inconsistency), documented directly via his own surviving mathematical text."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Transitioned from serving the Ismaili state at Alamut to advising the Mongol conqueror who destroyed it, then built his major life's work under the new regime, inferred from the documented sequence of his career surviving one of the most disruptive political transitions of the era."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rebuilt his scholarly career and secured major new patronage after the fall of Alamut (where he had been based) rather than his career ending with that regime's collapse, inferred from the documented continuity of his output before and after the transition."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced major surviving works across astronomy, mathematics, ethics (Akhlaq-i Nasiri), logic, and theology, documented via the range of his own surviving corpus, one of the broadest of any medieval Islamic scholar."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Zij-i Ilkhani tables and observatory output are documented as genuinely collaborative, produced with a multinational team rather than solely by al-Tusi himself, inferred from the observatory's own recorded staffing and the joint character of its output."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The astronomical tables required sustained precise observation and calculation across years, inferred from the documented scope and accuracy improvements of the Zij-i Ilkhani relative to earlier tables."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued the ambitious, resource-intensive Maragheh project rather than continuing more modest individual scholarship, inferred as significant achievement orientation from the scale of the institution he chose to build."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The genuine breadth of his surviving corpus across four distinct domains -- astronomy, mathematics, ethics, and theology -- suggests wide intellectual range, inferred from the convergence of this documented variety in his written output."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained a large scholarly and administrative output across a decades-long career spanning two very different political regimes, inferred from the consistency of his documented output through that transition."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Founding and provisioning a major observatory (library, instruments, staff recruitment) required substantial advance organization, inferred from the documented scale and functioning of the finished institution."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His willingness to identify and formally address internal flaws in Ptolemy's centuries-authoritative astronomical model, inferred as independent critical judgment from the documented content of the Tahrir al-Majisti relative to the Ptolemaic tradition it revised."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Returned repeatedly to refine astronomical models across multiple works over decades rather than treating an early result as final, inferred from the documented progression of his astronomical writing over his career."
+    },
+    "autonomy_need": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked consistently within institutional and court patronage structures (Alamut, then the Ilkhanate) rather than as an independent scholar, a genuinely moderate/mixed signal from the documented pattern of his career."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His astronomical and ethical works were explicitly intended for practical use (calendar/astrological calculation, moral guidance for rulers), inferred from the stated purpose of several of his surviving texts."
+    },
+    "conflict_tolerance": {
+      "score": 40,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The documented pattern of his career -- accommodating first Ismaili then Mongol rule rather than resisting either -- suggests a genuinely lower tolerance for sustained direct conflict in favor of pragmatic accommodation, an honest score reflecting the sources rather than a gap."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained the Maragheh observatory's operation and his own astronomical writing program for over a decade despite the immense political disruption surrounding its founding, inferred from the documented multi-year continuity of the observatory's output."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Tusi couple, a geometric device resolving a specific internal inconsistency in Ptolemaic planetary models, had no direct precedent, inferred as genuinely original mathematical contribution from the documented novelty of the device relative to prior astronomical models."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Producing the Zij-i Ilkhani's precise astronomical tables required sustained, concentrated calculation over years, inferred from the documented scope and precision of the finished tables."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: West Asia diversity pick (region was thin at 1/84, only Rumi, before this batch). Sourced from his own extensive surviving corpus plus later Islamic biographical dictionaries. conflict_tolerance (40) is deliberately scored low, reflecting his documented pattern of political accommodation rather than resistance across two regime changes -- an honest low-pole score, not a gap padded over."
+  }
+}

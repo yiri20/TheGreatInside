@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hannibal-barca",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Hannibal Barca",
+    "aliases": [
+      "Hannibal"
+    ],
+    "wikidataId": "Q1408",
+    "birthYear": -247,
+    "deathYear": -181,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "north_africa",
+    "historicalPolityKey": "polity.carthage"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_leader"
+    ],
+    "fieldIds": [
+      "military"
+    ],
+    "impactDomains": [
+      "historical"
+    ],
+    "tagIds": [
+      "strategist",
+      "conqueror",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hannibal_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hannibal",
+      "url": "https://en.wikipedia.org/wiki/Hannibal"
+    },
+    {
+      "id": "src_hannibal_polybius",
+      "kind": "archive",
+      "title": "Polybius, The Histories -- a near-contemporary Greek historian (born c. 200 BCE) with access to eyewitness Carthaginian and Roman accounts"
+    },
+    {
+      "id": "src_hannibal_livy",
+      "kind": "archive",
+      "title": "Livy, Ab Urbe Condita (History of Rome)"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Organized and executed a march across the Alps with an army including war elephants, cavalry, and infantry from multiple allied peoples -- a multi-month logistics and route-planning feat documented in detailed, largely converging accounts by Polybius and Livy."
+    },
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The double-envelopment tactic at the Battle of Cannae (216 BCE), luring the numerically superior Roman force into a collapsing encirclement, is documented in specific tactical detail by Polybius and remains studied in military education today as a genuinely novel battlefield solution for its era."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly exploited specific, correctly analyzed weaknesses in Roman command and terrain (the fog-concealed ambush at Lake Trasimene, the wind and dust direction at Cannae), documented across multiple battles by Polybius, indicating consistent situational analysis rather than one lucky win."
+    },
+    "risk_tolerance": {
+      "score": 84,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Chose the Alpine crossing route (suffering major troop and elephant losses to weather, terrain, and hostile tribes) over the safer coastal route, and campaigned deep in enemy Italian territory for 15 years without secure supply lines from Carthage -- documented via Polybius's detailed account of the campaign's losses and duration."
+    },
+    "persistence": {
+      "score": 86,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an active military campaign in Italy for approximately 15 years (218-203 BCE) with minimal reinforcement from Carthage, documented via the consistent chronological record in Polybius and Livy of his continued operations across that period."
+    },
+    "leadership_drive": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained the loyalty and cohesion of a genuinely multi-ethnic mercenary army (Libyans, Iberians, Gauls, Numidians) across 15 years of foreign campaigning with irregular pay, documented as a specific noted achievement by Polybius distinct from the tactical record."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained his army in hostile Italian territory for over a decade primarily by living off the land and securing local alliances rather than a home supply line, inferred from the documented absence of significant Carthaginian reinforcement across the campaign's duration."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly departed from conventional contemporary military doctrine (feigned retreats, deliberate encirclement, unconventional route selection), inferred from the documented pattern of tactics that surprised Roman commanders across multiple engagements."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Polybius records that Hannibal, as a child, swore an oath to his father Hamilcar to never be a friend to Rome -- a reported family tradition suggesting sustained, lifelong orientation toward conflict with Rome specifically, corroborated by the consistency of his actual career."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Shifted tactics substantially between engagements (ambush at Trasimene, pitched encirclement at Cannae, prolonged attrition in later years) rather than repeating one formula, inferred from the documented variety of his battlefield approaches."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustaining a functioning, cohesive multi-ethnic army over 15 years of foreign campaigning with irregular pay implies significant organizational and personal discipline, inferred from the documented, unusually long duration and cohesion of the campaign itself."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Pursued the war with Rome as a defining life project from adolescence to his death by suicide rather than accepting exile or accommodation, inferred as sustained, singular achievement orientation from the documented, multi-decade arc of his entire career."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Committed fully to the Alpine crossing despite predictable major losses rather than retreating to the safer coastal route once difficulty became apparent, inferred from the documented continuation of the march through severe conditions."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Built and sustained alliances with multiple Italian and Gallic peoples against Rome throughout the campaign, inferred from the documented pattern of local alliance-building described by Polybius and Livy."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Operated for over a decade with minimal direction or support from the Carthaginian home government, inferred from the documented near-absence of centralized coordination across the Italian campaign."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His campaign's stated purpose (per the reported childhood oath and his later career) was strategic -- checking Roman expansion -- rather than personal wealth or territorial rule for its own sake, inferred from the consistency of his stated and enacted goals."
+    },
+    "cross_domain_range": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "After his military defeat, he served as a civil administrator and reformer in Carthage before going into exile, briefly showing capacity beyond pure military command, inferred from the historical record of his post-Zama political role, though this is a comparatively thin part of his overall documented life."
+    },
+    "curiosity": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His later exile involved advising several Hellenistic states (Antiochus III of Syria, then Bithynia) on strategy against Rome, suggesting some engagement with varied political contexts beyond a single campaign, inferred from the documented range of his post-Italy career."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Refined his tactical approach across successive engagements (ambush, encirclement, prolonged attrition) rather than repeating one method, inferred as continued tactical development from the documented variety and increasing sophistication of his battles over the campaign."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Executing the Cannae encirclement required precise, sustained coordination of multiple troop movements under battlefield conditions, inferred as requiring intense concentrated attention from the documented tactical complexity of the maneuver."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-08-16T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 11: ancient era + North Africa diversity pick (North Africa was thin at 3/84). Unusually well-corroborated ancient military figure -- Polybius was near-contemporary with direct access to participants on both sides, not a distant chronicle -- supporting confidence up to 0.65 on the most specifically documented rows (Cannae, the Alpine crossing), still within this project's ancient-evidence discipline range."
+  }
+}
