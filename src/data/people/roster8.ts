@@ -47,7 +47,7 @@ const seeds: PersonSeed[] = [
     impactDomains: ["historical", "social"],
     tagIds: ["overcame_adversity", "reconciliation", "leader"],
     archetypeIds: ["organizational_leader"],
-    externalIdentity: { wikidataId: "Q1124" },
+    externalIdentity: { wikidataId: "Q182276" },
     sources: [{ id: "src_juarez_wikipedia", kind: "wikipedia", title: "Benito Juarez", url: "https://en.wikipedia.org/wiki/Benito_Ju%C3%A1rez" }, { id: "src_juarez_biography", kind: "biography", title: "Historical biographical accounts of the La Reforma period and the French intervention in Mexico" }],
     rows: {
       // Led a government that operated continuously, often relocating under military pressure, throughout the French intervention (1862-1867) rather than accepting exile or capitulation, documented via the sustained historical record of his government's movements and continued functioning during that period.
