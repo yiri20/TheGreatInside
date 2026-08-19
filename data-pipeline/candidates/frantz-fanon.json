@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "frantz-fanon",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Frantz Fanon",
+    "wikidataId": "Q193670",
+    "birthYear": 1925,
+    "deathYear": 1961,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "MQ",
+      "DZ"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "writer",
+      "physician"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "psychiatry",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "theorist",
+      "founder",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_fanon_wikipedia",
+      "kind": "wikipedia",
+      "title": "Frantz Fanon",
+      "url": "https://en.wikipedia.org/wiki/Frantz_Fanon"
+    },
+    {
+      "id": "src_fanon_writings",
+      "kind": "archive",
+      "title": "Fanon's own major works, Black Skin, White Masks (1952) and The Wretched of the Earth (1961)"
+    },
+    {
+      "id": "src_fanon_biography",
+      "kind": "biography",
+      "title": "Historical accounts of Fanon's psychiatric practice at the Blida-Joinville hospital in colonial Algeria, his resignation from that post in 1956, and his subsequent role in the Algerian War of Independence"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 88,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed an original psychiatric-political analysis of colonialism's psychological effects on both colonized and colonizer, synthesizing clinical psychiatry, phenomenology, and political theory into a framework with no direct precedent, documented via the surviving texts of Black Skin, White Masks and The Wretched of the Earth and their widely recognized subsequent influence on postcolonial theory."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Formally resigned his hospital directorship in French colonial Algeria in 1956 in an open letter explicitly denouncing French colonial psychiatric practice, then joined the FLN independence movement directly, documented via the well-corroborated historical record of both the resignation letter and his subsequent role in the movement."
+    },
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Wretched of the Earth integrates clinical psychiatric case material, political economy, and philosophy of violence into a single coherent theory of decolonization, inferred as strong systems-level thinking from the documented structural integration of these distinct disciplinary strands throughout the surviving text."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Practiced as a working clinical psychiatrist AND produced major, independently influential philosophical and political theoretical writing simultaneously, inferred as genuine cross-domain range from the documented convergence of active medical practice and serious theoretical authorship across his short career."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Produced two major, independently influential books and sustained an active psychiatric practice and political role within a career cut short by his death at 36, inferred as exceptional achievement drive from the documented density and impact of this output relative to the short time available."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Directly and publicly broke from his professional colonial-medical position to align with an active armed independence movement, inferred as real sustained tolerance for direct political confrontation from the documented, deliberate nature of this break."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: North Africa diversity pick (born in Martinique, worked and is most historically associated with colonial Algeria) -- regionCode assigned as north_africa reflecting the geographic locus of his documented professional and political career (the Blida-Joinville resignation, the FLN role), consistent with this project's existing regionCode convention of reflecting documented life/career context. Well documented via his own two major surviving books. His death from leukemia in 1961 at 36 is factually noted but does not affect any trait score. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.18; HC count 3/12. A short career (died at 36) genuinely limits the available documented episode count."
+}

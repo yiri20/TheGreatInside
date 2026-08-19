@@ -3296,6 +3296,48 @@ ELIGIBILITY_REMEDIATION never allowed) is now recorded in
 `scoring-rubric-v1.md` §10 for all future roster-1000 scoring sessions.
 Full record: `docs/roster-1000-checkpoint.md` §75-77.
 
+**Session 12 (2026-08) resumed fresh roster expansion under the repaired
+process and found 0 of 16 newly-scored candidates eligible** — roster
+stays at 87 people, 86 match-eligible, unchanged. This is an honest
+result (real row/coverage shortfalls, not a confidence-tier artifact),
+and the process itself showed no sign of the session-11 gaming pattern
+(`deep_focus`, session 11's worst offender at 19/20, appears in 0/16 of
+this batch; no row/HC-count clustering near either eligibility
+threshold). **Two real, unrelated process defects were found and fully
+corrected before reaching a commit**: (1) 4 of the session's initially
+selected candidate names collided with pre-existing `held` files from an
+earlier session and were nearly silently overwritten — caught via
+`git status` showing them as modified rather than new, restored via
+`git checkout`. (2) **14 of 16 genuinely-new candidates had a fabricated
+Wikidata QID** — caught by a routine post-hoc duplicate-QID sweep, then
+confirmed via live verification against every candidate's actual
+Wikidata entity page. Only 2 collided with real pre-existing entities (a
+Fela Kuti/Ibn al-Nafis mixup, a García Márquez/Borges mixup); the other
+12 pointed at entirely unrelated entities (a German town, a plant
+species, a sitting political figure, a record label, the concept
+"amusement park," a calendar year), confirming the QIDs were written
+from memory/pattern-guessing rather than an actual lookup. All 16 were
+corrected via live `wikidata.org` verification; a follow-up check found
+every other identity/biographical field (birth/death years, names) was
+NOT affected, only `wikidataId`. **Both failures produced durable,
+mandatory workflow fixes**, not just one-off cleanups:
+`data-pipeline/candidates/README.md`'s Workflow now opens with a
+mandatory step 0 requiring (a) a full-directory (not just live-roster)
+name-collision check and (b) a live Wikidata entity-page fetch before
+ever writing a `wikidataId`. A new minimal warning tool,
+`src/dev/roster1000/checkScoringLockIntegrity.ts`, diffs each
+already-committed candidate's scored rows against HEAD and flags any
+confidence/evidenceType drift lacking a NEW_EVIDENCE/RUBRIC_CORRECTION/
+ERROR_CORRECTION note (0 flagged across 122 files at session close).
+Canonical matching reconfirmed unchanged (max #1 12.0%, roster
+byte-identical to §77's close). **A standing merge blocker, unrelated to
+roster-1000 data, was recorded but not investigated or fixed this
+session per explicit instruction**: a real external user reported
+awkward forced wrapping / poor responsive proportions in the English
+mobile quiz's answer-choice layout on mobile — this must be fixed and
+verified before any merge to `main`, regardless of roster headcount.
+Full record: `docs/roster-1000-checkpoint.md` §78.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 

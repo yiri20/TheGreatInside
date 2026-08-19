@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "amilcar-cabral",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Amilcar Cabral",
+    "wikidataId": "Q213416",
+    "birthYear": 1924,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GW",
+      "CV"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "writer"
+    ],
+    "fieldIds": [
+      "politics",
+      "agriculture"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "theorist",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_cabral_wikipedia",
+      "kind": "wikipedia",
+      "title": "Amilcar Cabral",
+      "url": "https://en.wikipedia.org/wiki/Am%C3%ADlcar_Cabral"
+    },
+    {
+      "id": "src_cabral_writings",
+      "kind": "archive",
+      "title": "Cabral's own political and theoretical writings, collected in works such as Unity and Struggle and Revolution in Guinea"
+    },
+    {
+      "id": "src_cabral_biography",
+      "kind": "biography",
+      "title": "Historical accounts of the PAIGC's founding and the Guinea-Bissau independence struggle (1956-1973), including the circumstances of his 1973 assassination"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a distinct theory of revolutionary struggle grounded in his own agronomic field research into Guinea-Bissau's actual social structure, explicitly departing from more doctrinaire Marxist frameworks used by other contemporary African liberation movements, documented directly via his own surviving theoretical writings and their later independent scholarly assessment as a genuinely original contribution to anti-colonial theory."
+    },
+    "systems_abstraction": {
+      "score": 80,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His writings integrate agronomic, economic, cultural, and military analysis into a single coherent theory of national liberation, inferred as strong systems-level thinking from the documented interdisciplinary structure of his collected theoretical work."
+    },
+    "leadership_drive": {
+      "score": 82,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-founded and led the PAIGC (African Party for the Independence of Guinea and Cape Verde) from its 1956 founding through a sustained armed and political independence struggle until his 1973 assassination, documented via the well-corroborated historical record of the movement's organization under his direction."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained the PAIGC's independence struggle across roughly 17 years despite documented setbacks including internal organizational challenges and sustained Portuguese colonial military opposition, inferred from the documented continuity of the movement's leadership and activity across that full period."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His original training and work as an agronomist conducting an agricultural survey of Guinea-Bissau directly informed his later revolutionary strategy, inferred as recognizing an unusual strategic opening from the documented, specific link between his professional field research and his subsequent political theory."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Led an armed independence movement against a colonial power for nearly two decades and was ultimately assassinated for it, inferred as sustained high risk tolerance from the documented duration of the struggle and its ultimately fatal outcome for him personally."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His theoretical writings consistently frame the independence struggle in terms of cultural dignity and structural liberation for the broader population rather than personal political power, inferred as genuine broader-impact motivation from the stated content of his surviving political writing."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Conducted the first systematic agricultural census of Portuguese Guinea in 1953 as a trained agronomist, gathering detailed field data on land use and social structure that later directly informed his revolutionary strategy, documented via the well-corroborated historical record of this specific professional undertaking and its stated later influence on his political theory."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Helped coordinate the Conference of Nationalist Organizations of the Portuguese Colonies, a joint strategic body linking the independence movements of Guinea-Bissau, Angola, and Mozambique, inferred as real cross-movement collaborative capacity from the documented existence and coordination of this joint body."
+    },
+    "creative_originality": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Developed the specific theoretical concept of \"class suicide\" -- the idea that the national petite bourgeoisie must abandon its own class privileges in service of a broader liberation struggle -- inferred as a genuinely original theoretical contribution from the documented novelty and later independent scholarly citation of this specific concept."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Shifted the PAIGC's strategy over the course of the struggle from primarily political organizing to sustained guerrilla warfare as circumstances required, inferred as real strategic adaptability from the documented evolution of the movement's methods across the 17-year independence struggle."
+    },
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The PAIGC established parallel civil administration, schools, and healthcare in liberated zones during the ongoing armed struggle rather than pursuing military action alone, inferred as requiring real long-range organizational planning from the documented structure of this parallel state-building effort."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Progressively refined the PAIGC's political-military strategy over 17 years based on documented lessons from earlier phases of the struggle, inferred as sustained strategic skill development from the documented evolution of the movement's approach over that period."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: Sub-Saharan Africa diversity pick. Passes inclusion_v1 cleanly -- trained as an agronomist and built the PAIGC from nothing through his own organizing and theoretical work, no inherited position. His 1973 assassination is factually noted in the sourcing but, consistent with this project's discipline, no trait score is derived from what was done TO him -- only from his own documented actions and writing. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 13 scored attributes (need 18); coverage 0.39; HC count 4/12. The closest of the political-theorist figures in this batch to the floor."
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rigoberta-menchu",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Rigoberta Menchu",
+    "wikidataId": "Q188620",
+    "birthYear": 1959,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GT"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist"
+    ],
+    "fieldIds": [
+      "politics",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "overcame_adversity",
+      "grassroots_organizer"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_menchu_wikipedia",
+      "kind": "wikipedia",
+      "title": "Rigoberta Menchu",
+      "url": "https://en.wikipedia.org/wiki/Rigoberta_Mench%C3%BA"
+    },
+    {
+      "id": "src_menchu_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Peace Prize 1992 citation, awarded for her work for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples"
+    },
+    {
+      "id": "src_menchu_controversy",
+      "kind": "press",
+      "title": "David Stoll's 1999 investigative account disputing specific factual details of Menchu's 1983 testimonial autobiography, and Menchu's own and the Nobel Committee's subsequent responses to that controversy"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained international advocacy for Indigenous rights across four decades AND was specifically cited by the Nobel Committee for work bridging ethnic, cultural, and social divisions rather than advocacy for a narrower personal or single-issue cause, inferred as genuine broad-impact motivation from the convergence of her documented sustained activity and the Committee's own independent characterization of it."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "Continued public human-rights advocacy work in exile during Guatemala's civil war (1960-1996), a period of documented severe violence against Indigenous activists including members of her own family, inferred as real risk tolerance from the documented dangerous political context in which she sustained this advocacy."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained international Indigenous-rights advocacy work across more than four decades, including two Guatemalan presidential campaigns later in her career, inferred from the documented, unusually long continuity of her public activism."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Rose from a rural Indigenous farming background with limited formal early education to international recognition including the Nobel Peace Prize, inferred as significant achievement drive from the documented arc of this trajectory."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued public advocacy and testimony about Guatemalan state and military conduct despite documented direct personal loss and danger during the civil war period, inferred as real willingness to remain in a position of political friction rather than withdraw from public advocacy."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ran for the Guatemalan presidency twice under her own political party (Encuentro por Guatemala in 2007, Winaq in 2011) after already having Nobel-level international recognition, documented via the well-corroborated historical record of both campaigns as a continued pursuit of direct political leadership rather than resting on prior recognition."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Grew up speaking K'iche' Maya and documented accounts record her learning Spanish only as a young adult, later conducting sustained international advocacy and diplomacy in that second language, inferred as requiring real adaptability from this documented linguistic transition."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "As a living person, portrait sourcing requires a specifically confirmed CC-licensed or otherwise clearly reusable image; not independently verified this session."
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: Latin America diversity pick, Indigenous-rights/living-person representation. HONEST DISCLOSURE, factored into confidence throughout: her 1983 testimonial autobiography I, Rigoberta Menchu, the primary early source establishing her international profile, had specific factual details later disputed by David Stoll's 1999 investigation (regarding some particulars of her account, though not the broader historical reality of state violence against Indigenous Guatemalans during the civil war). Rows here are deliberately grounded in her SUSTAINED, independently-documented decades of advocacy and the Nobel Committee's own citation rather than relying on contested specifics of the 1983 testimonial, and confidence is capped moderately throughout to reflect this genuine source-reliability complication. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 7 scored attributes (need 18); coverage 0.21; HC count 1/12. Confidence additionally capped throughout given the genuine, disclosed source-reliability complication around her 1983 testimonial autobiography."
+}

@@ -20,6 +20,22 @@ the real, committed roster.
 
 ## Workflow
 
+0. **Before creating a new candidate file, check BOTH that the name isn't
+   already a candidate AND that its Wikidata QID is real** — two distinct,
+   both mandatory checks, found necessary the hard way (roster-1000 session
+   12): (a) `ls data-pipeline/candidates/` (or grep the live roster) for the
+   slug — checking only the LIVE roster's slugs is not enough, since 50+
+   people exist as held candidate files that never made it into a roster
+   file; overwriting one of those loses real prior research and can corrupt
+   its Wikidata identity if the new draft picks a different QID. (b) Fetch
+   the actual `https://www.wikidata.org/wiki/<QID>` page (or search, then
+   fetch the top hit) and confirm its label/description match the intended
+   person BEFORE writing `wikidataId` into the file — never write a QID from
+   memory or pattern-guessing. Session 12 found 14 of 16 fabricated-from-
+   memory QIDs were wrong, most pointing at unrelated entities (a German
+   town, a botanical species, a calendar year, an amusement park) — this is
+   the single most important process fix this checkpoint carries forward;
+   see `docs/roster-1000-checkpoint.md` §78 for the full incident record.
 1. Create `<slug>.json` with `status: "draft"` and whatever identity fields
    are already known (name, birth/death years, region, occupation).
 2. Research sources, fill in `sources`, move to `status: "researching"`.

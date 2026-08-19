@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "thomas-sankara",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Thomas Sankara",
+    "wikidataId": "Q202155",
+    "birthYear": 1949,
+    "deathYear": 1987,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BF"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "young_leader",
+      "reconciliation",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sankara_wikipedia",
+      "kind": "wikipedia",
+      "title": "Thomas Sankara",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Sankara"
+    },
+    {
+      "id": "src_sankara_speeches",
+      "kind": "archive",
+      "title": "Sankara's own surviving speeches, including his 1984 UN General Assembly address and his collected speeches published as Thomas Sankara Speaks"
+    },
+    {
+      "id": "src_sankara_biography",
+      "kind": "biography",
+      "title": "Historical accounts of his 1983-1987 presidency of Burkina Faso (formerly Upper Volta), its land reform, vaccination campaign, and anti-corruption program, and the circumstances of his 1987 assassination"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Renamed the country from Upper Volta to Burkina Faso, nationalized land and mineral resources, and directly confronted the interests of traditional tribal chiefs and Western creditor governments (including publicly urging African states to collectively repudiate foreign debt), documented via the well-corroborated historical record of these specific policy actions and their political consequences, which included his eventual overthrow and assassination."
+    },
+    "impact_motivation": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Launched a nationwide vaccination campaign reaching an estimated 2.5 million children AND a literacy campaign AND redistributed land from feudal landlords to peasants during his roughly four years in power, documented via the historical record of these specific, distinct social programs implemented during his presidency."
+    },
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Implemented a sweeping, multi-domain reform program (land, health, literacy, anti-corruption, women's rights policy) within roughly four years in office, inferred as exceptional achievement drive from the documented scope and pace of these changes relative to the short time available."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Publicly rejected conventional foreign-aid dependency and, in his 1984 UN address and elsewhere, explicitly argued for African self-reliance and debt repudiation against prevailing international financial orthodoxy, inferred as independent political judgment from the documented content and reception of these public positions."
+    },
+    "leadership_drive": {
+      "score": 75,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Led the country as head of state for roughly four years, directing multiple simultaneous major policy programs across land, health, and governance, documented via the historical record of his direct personal involvement in shaping these initiatives."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His surviving speeches, including the 1984 UN address, are widely cited by later historians as rhetorically forceful and are credited with raising his international profile substantially, inferred as real persuasive skill from the documented reach and later frequent citation of these speeches."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Moved from a military career into national civilian governance and rapid multi-domain policy implementation within a short period, inferred as requiring real adaptability from the documented scope of this transition, though the specific evidence for this trait beyond the transition itself is comparatively thin."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sold off the government's fleet of Mercedes-Benz vehicles in favor of the cheaper Renault 5 as the official ministerial car, AND mandated that civil servants wear cotton fabric woven domestically (Faso Dan Fani) rather than imported textiles specifically to support local industry, inferred as genuinely resourceful, symbolically-deliberate governance from the convergence of these two independently-documented concrete austerity/self-reliance measures."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Directly confronted the economic interests of both traditional tribal chieftaincies (whose feudal land privileges he abolished) and international creditor institutions simultaneously, inferred as sustained willingness to remain in multi-front political conflict rather than moderate his position, from the documented breadth of interests his policies directly opposed."
+    },
+    "curiosity": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Was a trained military pilot and an accomplished amateur guitarist alongside his political career, inferred as some real range of personal interest beyond politics from these documented, distinct pursuits."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The nationwide vaccination and literacy campaigns required coordinated logistics across the entire country within a compressed timeframe, inferred as requiring real advance planning capacity from the documented national scale of these specific programs."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Personally required and reportedly reviewed detailed government asset declarations from ministers as part of his anti-corruption program, inferred as real attention to administrative detail from the documented existence and specific character of this program."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "Widely-circulated archival photographs found lack a clearly confirmed Public Domain or CC license on Commons; not independently verified this session."
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: Sub-Saharan Africa diversity pick, distinct profile from Amilcar Cabral above (a head-of-state reformer rather than an insurgent theorist). His 1987 assassination is factually noted but, per this project's discipline, no trait score is derived from it -- only his own documented policy actions and speeches while in office. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 12 scored attributes (need 18); coverage 0.36; HC count 3/12."
+}

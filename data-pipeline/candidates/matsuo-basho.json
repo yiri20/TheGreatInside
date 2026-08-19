@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "matsuo-basho",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Matsuo Basho",
+    "wikidataId": "Q5676",
+    "birthYear": 1644,
+    "deathYear": 1694,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.tokugawa_shogunate"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "ascetic",
+      "renaissance"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_basho_wikipedia",
+      "kind": "wikipedia",
+      "title": "Matsuo Basho",
+      "url": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D"
+    },
+    {
+      "id": "src_basho_narrowroad",
+      "kind": "archive",
+      "title": "Basho's own travel journal, Oku no Hosomichi (\"The Narrow Road to the Deep North\"), combining haiku with prose travel narrative"
+    },
+    {
+      "id": "src_basho_biography",
+      "kind": "biography",
+      "title": "Later Japanese literary-historical assessment of Basho's role in elevating haikai poetry to a serious literary art form, and biographical accounts of his several extended walking journeys across Japan"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 86,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Elevated the haikai/hokku poetic form from a comparatively minor, often comic genre into a serious literary art capable of profound spiritual and aesthetic depth, documented via the widely recognized later literary-historical assessment of his specific role in this transformation, distinct from earlier and contemporary haikai poets."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Undertook several extended solo walking journeys across dangerous, poorly-maintained roads and remote regions of Japan in his forties, including the roughly 2,400-kilometer journey recorded in Oku no Hosomichi, documented directly via his own detailed travel account of the route, hardships, and hazards encountered."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Deliberately left a stable, established position as a poetry teacher in Edo to live an ascetic, itinerant life as a wandering poet, inferred as strong autonomy orientation from the documented voluntary nature of this life choice."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His travel journals document sustained close attention to local landscapes, historical sites, and encounters with other poets and ordinary people across many distinct regions of Japan, inferred as genuine curiosity from the documented breadth and specificity of these recorded observations."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The extreme compression and precision required by the 17-syllable haiku form implies exacting attention to word choice and imagery, inferred from the documented formal density of his surviving poetic output."
+    },
+    "persistence": {
+      "score": 65,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding itinerant traveling-and-writing practice across multiple extended journeys over roughly a decade, inferred from the documented continuity of this lifestyle and output across his later career."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: East Asia diversity pick, distinct occupation (poet) and era (early modern Japan) from the roster's existing East Asian figures. Sourced primarily from his own surviving travel journals (a genuine first-person account) plus later literary-historical assessment of his role in haikai poetry's development. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.19; HC count 2/12. Personal biography beyond his own travel journals is thin."
+}

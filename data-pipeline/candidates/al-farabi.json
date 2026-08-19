@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "al-farabi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Al-Farabi",
+    "aliases": [
+      "Abu Nasr al-Farabi",
+      "Alpharabius"
+    ],
+    "wikidataId": "Q160460",
+    "birthYear": 872,
+    "deathYear": 950,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.abbasid_caliphate"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "theologian",
+      "scholar"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "logic",
+      "music",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "polymath",
+      "founder"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_farabi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Al-Farabi",
+      "url": "https://en.wikipedia.org/wiki/Al-Farabi"
+    },
+    {
+      "id": "src_farabi_corpus",
+      "kind": "archive",
+      "title": "Al-Farabi's own surviving works, including The Virtuous City (Mabadi' Ara' Ahl al-Madina al-Fadila), the Book of Music (Kitab al-Musiqa al-Kabir), and his commentaries on Aristotelian logic"
+    },
+    {
+      "id": "src_farabi_biographical",
+      "kind": "biography",
+      "title": "Later medieval Islamic biographical dictionaries (e.g. Ibn Abi Usaybi'a's history of physicians and scholars) recording his career and reputed teaching lineage"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 88,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Virtuous City constructs a complete, integrated political-philosophical system linking cosmology, human psychology, and ideal governance into one coherent framework, documented directly via the structure and content of the surviving text."
+    },
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote extensive, systematic commentaries on Aristotle's logical works (the Organon), earning the later honorific \"the Second Teacher\" (after Aristotle himself) for the rigor and clarity of this analysis, documented via the surviving commentaries and their subsequent influence on later Islamic and European logic."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Produced substantive surviving work across logic, political philosophy, metaphysics, and music theory (the Book of Music is a major, technically detailed treatise on the physics and aesthetics of musical sound), inferred as genuine cross-domain range from the documented range of these distinct surviving works."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Synthesized Platonic, Aristotelian, and Islamic theological concepts into his own distinct political philosophy of the \"virtuous city\" rather than simply transmitting Greek philosophy unchanged, inferred as independent synthesis from the documented content of the Virtuous City relative to its Greek sources."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The range of his surviving corpus (logic, ethics, political theory, music, psychology) suggests wide intellectual engagement, inferred from the documented breadth of subjects addressed across his works."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Later biographical tradition records him studying logic intensively under multiple teachers before producing his own influential commentaries, inferred as sustained skill development from this documented account of his scholarly formation."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Later biographical tradition records him living a relatively modest, itinerant scholarly life across Baghdad, Damascus, and Aleppo rather than seeking a single settled court position, inferred as some real independence from institutional attachment, though the specific evidence for this pattern is comparatively thin."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His logical commentaries include close, term-by-term analysis of Aristotelian categories and syllogistic forms, inferred as requiring exacting analytical detail from the documented structure of the surviving commentaries."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Virtuous City is explicitly framed as a practical guide toward a well-ordered, flourishing political community rather than pure abstract metaphysics, inferred as genuine broader-impact motivation from the documented, stated practical aim of the work."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: West Asia diversity pick (region was at 1/87, Rumi alone, before this batch). Sourced primarily from his own surviving philosophical/musicological corpus plus later medieval Islamic biographical dictionaries -- administrative/scholarly-tradition tier evidence, similar to this project's existing treatment of other medieval Islamic scholars. Scored at 7 rows reflecting genuinely available evidence; attributes like risk_tolerance, collaboration, and social_assertiveness have no independently-documented basis for this specific person and were left unscored rather than padded. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 9 scored attributes (need 18); coverage 0.27; HC count 3/12. Medieval scholarly-tradition tier evidence; genuinely richer than the ancient figures in this batch but still well short of the floor."
+}

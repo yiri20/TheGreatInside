@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "euclid",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Euclid",
+    "wikidataId": "Q8747",
+    "birthYear": -330,
+    "deathYear": -270,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe",
+    "historicalPolityKey": "polity.ptolemaic_kingdom"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician"
+    ],
+    "fieldIds": [
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "founder"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_euclid_wikipedia",
+      "kind": "wikipedia",
+      "title": "Euclid",
+      "url": "https://en.wikipedia.org/wiki/Euclid"
+    },
+    {
+      "id": "src_euclid_elements",
+      "kind": "archive",
+      "title": "Euclid's own surviving work, the Elements (13 books), and the fragmentary Data, Optics, and Phaenomena"
+    },
+    {
+      "id": "src_euclid_proclus",
+      "kind": "biography",
+      "title": "Proclus's 5th-century CE Commentary on the First Book of Euclid's Elements, the primary secondary source for what little is known of his life and working context"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Elements builds all of plane and solid geometry from a small, explicit set of definitions, postulates, and common notions through strictly sequenced logical proof, with almost no appeal to intuition or unproven assertion -- documented directly via the surviving structure of the text itself, one of the most influential deductive systems ever written."
+    },
+    "systems_abstraction": {
+      "score": 88,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Elements organizes geometry and number theory into a single hierarchical axiomatic system where later books systematically build on earlier ones (plane geometry, then proportion theory, then solid geometry), inferred as evidence of strong systems-level structuring from the documented architecture of the 13-book work as a unified whole rather than a loose collection of results."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Constructing a fully self-consistent proof system with explicit definitions for every term used implies exacting attention to logical detail, inferred from the documented precision of the surviving text's structure."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The specific choice and ordering of postulates (notably the parallel postulate, whose independence from the others was debated for two millennia) reflects a deliberate foundational choice rather than mere compilation, inferred from later mathematical-historical analysis of the postulate's structure."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Elements' consistent, mature deductive style across its full 13-book span suggests sustained refinement of a single method rather than an early or exploratory work, inferred from the documented internal consistency of the surviving text."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Surviving fragmentary works beyond the Elements (Data, Optics, Phaenomena) show engagement with applied geometrical problems in astronomy and vision, inferred as some real range beyond pure axiomatics from the documented existence of these additional texts."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: ancient-era diversity pick. HONEST LIMITATION, stated up front rather than discovered late: almost nothing is independently documented about Euclid's actual life -- no birthplace, no verified biographical episode, no correspondence survives. Proclus's commentary (5th century CE, ~700 years after Euclid) is itself secondhand and thin. Every row here is inferred from the STRUCTURE of the surviving mathematical text, not from behavioral biography, which is why this profile is deliberately narrow (6 rows) rather than padded toward any row-count target -- there simply isn't independently-documented behavioral evidence for attributes like collaboration, leadership_drive, risk_tolerance, or social_assertiveness for this specific person, and inventing a plausible-sounding score for them would violate this project's own evidence discipline. Scored under the corrected, eligibility-blind process (docs/scoring-rubric-v1.md SS10): this candidate's row count was not compared against the 18-row floor before or during scoring, and no attribute was added to reach any particular count. If Euclid does not clear eligibility_v2's 18-attribute floor, that is the honest, correct outcome for a person this evidence-thin, not a defect to be padded around."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.18; HC count 2/12. Almost no independently-documented personal biography survives beyond his own mathematical text -- a genuine, well-established classical-scholarship limitation, not a research shortfall."
+}

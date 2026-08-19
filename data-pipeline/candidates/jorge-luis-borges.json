@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jorge-luis-borges",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Jorge Luis Borges",
+    "wikidataId": "Q909",
+    "birthYear": 1899,
+    "deathYear": 1986,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "innovator",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "independent_creator",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_borges_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jorge Luis Borges",
+      "url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges"
+    },
+    {
+      "id": "src_borges_ficciones",
+      "kind": "archive",
+      "title": "Borges's own major short-fiction and essay collections, including Ficciones (1944) and El Aleph (1949)"
+    },
+    {
+      "id": "src_borges_biography",
+      "kind": "biography",
+      "title": "Biographical accounts of his progressive blindness (complete by his late 50s), his directorship of the Argentine National Library, and his multilingual, wide-ranging reading"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 92,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pioneered a genuinely novel short-fiction form blending philosophical speculation, invented bibliographies, and metaphysical paradox (labyrinths, infinite libraries, forking-path narratives) with no direct precedent in prior Spanish-language or world literature, documented via the surviving texts themselves and their widely recognized influence on the later development of magical realism and postmodern fiction."
+    },
+    "cross_domain_range": {
+      "score": 86,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His fiction and essays draw substantively on mathematics, theology, philosophy, detective fiction, and comparative literature across multiple languages, documented directly via the breadth of reference visible throughout his surviving published corpus."
+    },
+    "curiosity": {
+      "score": 84,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Read extensively across English, French, German, and Old Norse/Old English literature in addition to Spanish, and served as director of the Argentine National Library, inferred as sustained wide-ranging intellectual curiosity from the documented convergence of his own multilingual reading habits and his professional immersion in a vast library collection."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His fiction frequently constructs elaborate, internally consistent invented scholarly apparatus (fake citations, invented authors, precise fictional bibliographic detail), inferred as requiring exacting attention to structural and factual-seeming detail from the documented technique visible throughout his stories."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Developed his central literary preoccupations (infinity, identity, the unreliability of authorship) largely outside the dominant realist and politically-engaged literary movements of his own era and region, inferred as independent artistic direction from the documented distinctiveness of his thematic concerns relative to contemporaneous Latin American literature."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Continued producing major literary work after becoming completely blind by his late fifties, relying on dictation and memory rather than direct reading and writing, inferred as requiring real adaptability from the documented continuation of his output through this life-altering constraint."
+    },
+    "persistence": {
+      "score": 65,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prolific, decades-long literary output across both his sighted and later blind periods, inferred from the documented continuity and volume of his surviving body of work across his full career."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Served as director of the Argentine National Library (1955-1973), a major cultural institution, documented via the historical record of this appointment and tenure."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Made public political statements critical of Peronism that cost him his prior library position under that government, then made later controversial public statements regarding the Argentine military government, inferred as some real willingness to accept professional/political consequence for public position-taking from this documented pattern across two distinct political periods."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Co-authored multiple works, including detective fiction under the joint pseudonym \"H. Bustos Domecq,\" with fellow writer Adolfo Bioy Casares over a sustained multi-decade friendship and working relationship, documented via the well-corroborated historical record of this specific, long-running collaboration."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Studied Old English and Old Norse specifically to read Anglo-Saxon and Icelandic saga literature in the original language later in life, despite his blindness, inferred as sustained pursuit of new scholarly mastery from this documented, specific late-life undertaking."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "Widely-circulated photographs likely carry standard press-agency copyright; no clearly Public Domain or CC-licensed image independently verified this session."
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: Latin America diversity pick, distinct profile from Sor Juana Ines de la Cruz/Gabriel Garcia Marquez-adjacent territory already touched in this roster's history. Well documented via his own extensive published corpus and well-established biographical record (including his blindness, a well-corroborated documented fact). Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 11 scored attributes (need 18); coverage 0.34; HC count 3/12."
+}

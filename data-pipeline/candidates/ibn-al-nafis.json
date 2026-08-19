@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ibn-al-nafis",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Ibn al-Nafis",
+    "wikidataId": "Q319146",
+    "birthYear": 1213,
+    "deathYear": 1288,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.ayyubid_sultanate"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "scholar"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "systematic_thinker",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nafis_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ibn al-Nafis",
+      "url": "https://en.wikipedia.org/wiki/Ibn_al-Nafis"
+    },
+    {
+      "id": "src_nafis_commentary",
+      "kind": "archive",
+      "title": "Ibn al-Nafis's own Commentary on Anatomy in Avicenna's Canon (Sharh Tashrih al-Qanun), containing his description of pulmonary circulation"
+    },
+    {
+      "id": "src_nafis_biography",
+      "kind": "biography",
+      "title": "Later medical-historical scholarship (rediscovered in the 20th century) establishing Ibn al-Nafis's description of pulmonary circulation as predating William Harvey's better-known 17th-century European account by roughly 300 years"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 86,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly rejected Galen's long-authoritative theory that blood passes directly between the heart's ventricles through invisible pores, proposing instead that blood travels from the right ventricle to the left via the lungs (pulmonary circulation), documented directly via his own surviving commentary text and its explicit, reasoned departure from the Galenic model that had gone unchallenged for roughly a millennium."
+    },
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Supported the pulmonary-circulation claim with specific anatomical reasoning about the structure of the heart's septum and the lungs, documented directly via the surviving argumentative structure of his own commentary text."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Reorganized and systematically re-examined Avicenna's entire anatomical framework in the Canon commentary rather than addressing isolated errors, inferred as strong systems-level revision from the documented comprehensive scope of the commentary project as a whole."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Produced an extensive multi-volume medical encyclopedia (Al-Shamil fi al-Tibb) in addition to his anatomical commentary, inferred as sustained deep engagement with the full breadth of contemporary medical knowledge from the documented scale of this separate major surviving work."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Wrote on subjects beyond clinical medicine including logic and Islamic jurisprudence, inferred as some real intellectual range from the documented existence of these additional surviving works alongside his primary medical corpus."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: West Asia diversity pick, physician occupation. His pulmonary-circulation description went unrecognized in the West until a 1924 rediscovery of the manuscript, a genuinely notable historical fact but not itself a trait-relevant claim -- confidence here is grounded in the surviving primary text's own content, not in later recognition. Deliberately scored at 5 rows -- like several other medieval figures in this batch, independently-documented behavioral biography beyond his medical writing is thin, and no row was added merely to approach any particular count. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 5 scored attributes (need 18); coverage 0.16; HC count 2/12. Personal biography beyond his medical writing is thin, consistent with this project_s existing medieval-evidence discipline."
+}

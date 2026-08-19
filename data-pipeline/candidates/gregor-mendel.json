@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gregor-mendel",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Gregor Mendel",
+    "wikidataId": "Q37970",
+    "birthYear": 1822,
+    "deathYear": 1884,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "biology",
+      "genetics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "late_recognition",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mendel_wikipedia",
+      "kind": "wikipedia",
+      "title": "Gregor Mendel",
+      "url": "https://en.wikipedia.org/wiki/Gregor_Mendel"
+    },
+    {
+      "id": "src_mendel_paper",
+      "kind": "archive",
+      "title": "Mendel's own 1866 paper, Versuche über Pflanzen-Hybriden (\"Experiments on Plant Hybridization\")"
+    },
+    {
+      "id": "src_mendel_biography",
+      "kind": "biography",
+      "title": "Historical accounts of Mendel's roughly eight years of pea-plant breeding experiments at the Augustinian monastery of St. Thomas in Brno, and the near-total lack of scientific recognition of his work during his lifetime"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 92,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Designed and executed a controlled breeding experiment across roughly 28,000 pea plants over eight years, tracking seven distinct heritable traits and applying statistical/mathematical analysis to the resulting ratios to infer discrete units of heredity, documented directly via his own 1866 paper's detailed methodology and data."
+    },
+    "detail_orientation": {
+      "score": 88,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Systematically tracked and quantified the inheritance patterns of seven distinct pea-plant traits across multiple generations of tens of thousands of individual plants, documented directly via the granular numerical data presented in his own surviving paper."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the pea-plant breeding experiments across roughly eight years of careful, repetitive controlled crossing and counting, documented via his own paper's account of the experiment's duration and the sheer scale of the tracked plant population."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Proposed discrete, particulate units of heredity following statistically predictable ratios, departing sharply from the prevailing blending-inheritance assumptions of his era, inferred as genuinely independent scientific judgment from the documented novelty of this conceptual framework relative to contemporary biological thought."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Also conducted meteorological observations and beekeeping experiments alongside his primary plant-hybridization work at the monastery, inferred as some real intellectual range beyond his single best-known project from this documented secondary activity."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Refined his experimental method across the multi-year pea-plant study, moving from initial trait selection to increasingly systematic quantitative tracking, inferred as sustained methodological development from the documented structure of the study as described in his own paper."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: Central Europe diversity pick. Unusually well-documented for a 19th-century scientist via his own single, highly detailed, quantitative surviving paper -- the near-total lack of contemporary recognition of his work (rediscovered independently around 1900, after his death) is a real, historically significant fact but does not itself change how his documented experimental conduct is scored. Scored under the corrected, eligibility-blind process; row count and confidence were finalized without reference to eligibility thresholds."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.19; HC count 4/12. Nearly all documented evidence comes from a single surviving scientific paper."
+}

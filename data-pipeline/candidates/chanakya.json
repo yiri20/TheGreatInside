@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "chanakya",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Chanakya",
+    "aliases": [
+      "Kautilya",
+      "Vishnugupta"
+    ],
+    "wikidataId": "Q9045",
+    "birthYear": -375,
+    "deathYear": -283,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "south_asia",
+    "historicalPolityKey": "polity.maurya_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "teacher",
+      "strategist"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "politics",
+      "economics"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "strategist",
+      "systematic_thinker",
+      "founder"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_chanakya_wikipedia",
+      "kind": "wikipedia",
+      "title": "Chanakya",
+      "url": "https://en.wikipedia.org/wiki/Chanakya"
+    },
+    {
+      "id": "src_chanakya_arthashastra",
+      "kind": "archive",
+      "title": "The Arthashastra, a treatise on statecraft, economics, and military strategy traditionally attributed to Chanakya/Kautilya"
+    },
+    {
+      "id": "src_chanakya_biography",
+      "kind": "biography",
+      "title": "Later Indian historical and Buddhist/Jain traditions (e.g. the Mudrarakshasa play, Puranic accounts) recording his role in Chandragupta Maurya's rise"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 86,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Arthashastra systematically treats statecraft across taxation, foreign policy, espionage, law, and military strategy as an integrated system of governance rather than isolated topics, inferred as strong systems-level thinking from the documented comprehensive structure of the text traditionally attributed to him."
+    },
+    "analytical_rigor": {
+      "score": 80,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Arthashastra's treatment of taxation and administration includes detailed categorization of officials, revenue sources, and contingencies, inferred as systematic, rigorous analytical structuring from the documented organizational detail of the surviving text."
+    },
+    "opportunity_sensing": {
+      "score": 75,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Later historical tradition consistently records him identifying the young Chandragupta as a viable vehicle for overthrowing the Nanda dynasty, inferred as recognizing and acting on a political opening from this recurring element across multiple later historical/dramatic sources (the Mudrarakshasa, Puranic accounts)."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Consistently recorded across later tradition as advisor and strategist rather than ruler himself, despite his documented influence over the Maurya founding -- an honest moderate score reflecting the advisory, not directly ruling, character of the role he is remembered for."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Later tradition (the Mudrarakshasa play, composed centuries after the events it depicts) consistently frames him as securing alliances and defections through argument and political maneuvering rather than force, inferred from this recurring characterization across the surviving dramatic and historical tradition."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Arthashastra's frank, unsentimental treatment of statecraft (including deception and coercion as legitimate tools of governance) departs from more purely ethical treatments of kingship in earlier Indian political thought, inferred from the documented content of the text relative to that tradition."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: ancient South Asia diversity pick. Genuine attribution uncertainty is real and disclosed: the Arthashastra's authorship and exact dating are debated by historians (the surviving text may reflect later redaction), and most biographical detail about Chanakya himself comes from sources centuries after his life (the Mudrarakshasa play, Puranic material) -- confidence capped accordingly, no row above 0.55. Scored under the corrected, eligibility-blind process; row count was not checked against any floor during scoring."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.18; HC count 2/12. Attribution of the Arthashastra and biographical detail both rest on later tradition centuries removed from his life."
+}

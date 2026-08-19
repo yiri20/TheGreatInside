@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sofia-kovalevskaya",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Sofia Kovalevskaya",
+    "wikidataId": "Q184535",
+    "birthYear": 1850,
+    "deathYear": 1891,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "writer"
+    ],
+    "fieldIds": [
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "prodigy",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_kovalevskaya_wikipedia",
+      "kind": "wikipedia",
+      "title": "Sofia Kovalevskaya",
+      "url": "https://en.wikipedia.org/wiki/Sofia_Kovalevskaya"
+    },
+    {
+      "id": "src_kovalevskaya_bordin",
+      "kind": "award_body",
+      "title": "The French Academy of Sciences' 1888 Prix Bordin, awarded for her work on the rotation of an asymmetric solid body around a fixed point (the \"Kovalevskaya top\")"
+    },
+    {
+      "id": "src_kovalevskaya_biography",
+      "kind": "biography",
+      "title": "Historical accounts of her doctorate from Gottingen (1874, one of the first granted to a woman in Europe) and her 1889 appointment as full professor at Stockholm University, the first woman to hold such a position in modern Europe"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 88,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced original doctoral work on partial differential equations (the Cauchy-Kovalevskaya theorem) rigorous enough to earn a doctorate from Gottingen in 1874 despite formal university barriers to women, and later won the French Academy of Sciences' Prix Bordin for original work on rigid-body rotation, documented via both the surviving mathematical results and their independent institutional recognition."
+    },
+    "achievement_drive": {
+      "score": 86,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Entered into a marriage of convenience specifically to gain the legal independence needed to travel abroad for education (Russian women could not travel alone at the time) and went on to become the first woman in modern Europe to earn a mathematics doctorate and the first to hold a full professorship, documented via the well-corroborated historical record of both the marriage's stated purpose and her subsequent career."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Pursued advanced mathematical study and a professorship in a field with essentially no precedent for women's full participation, and separately took on a legal marriage of convenience specifically to circumvent restrictions on women's independent travel, inferred as sustained real risk tolerance from the convergence of these two independently-documented, unconventional life choices."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued seeking formal mathematical training and academic positions across multiple countries (Germany, then Sweden) despite repeated institutional barriers specifically because of her gender, inferred from the documented, multi-country persistence of her academic career search."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "In addition to her mathematical work, wrote and published literary fiction and memoir (including the novel Nihilist Girl and her own family memoirs), inferred as real creative range beyond pure mathematics from this documented separate body of literary output."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued serious work across mathematics and literature simultaneously through much of her career, inferred as genuine intellectual range from the documented breadth of her surviving output across these two distinct fields."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her Prix Bordin submission was judged of such quality by the French Academy of Sciences that the prize committee increased the award money above the originally announced amount specifically because of the work's merit, documented via the well-corroborated historical record of this specific committee decision."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a direct scholarly correspondence and mentorship relationship with the prominent mathematician Karl Weierstrass over many years, who is documented as considering her one of his most capable students, inferred as real social/professional assertiveness from the documented sustained, direct nature of this relationship."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Since German universities did not formally admit women as students at the time, she arranged to study privately with Weierstrass and separately petitioned Gottingen directly for her doctorate rather than accepting exclusion from formal study, documented via the well-corroborated historical record of this specific alternative path she pursued."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Actively advocated in her later career for greater access to mathematical education for women, beyond her own individual achievements, inferred as some real broader-impact motivation from the documented content of her public advocacy on this specific issue."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: Central/Eastern Europe diversity pick, distinct from the roster's existing scientists in facing documented, structural gender-based institutional barriers as a defining feature of her career, not incidental context. Well documented via institutional academic records (the Gottingen doctorate, the Stockholm professorship, the Prix Bordin) and her own surviving literary writing. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 10 scored attributes (need 18); coverage 0.32; HC count 2/12."
+}

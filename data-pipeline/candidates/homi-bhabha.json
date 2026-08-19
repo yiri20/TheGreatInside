@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "homi-bhabha",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Homi J. Bhabha",
+    "wikidataId": "Q325611",
+    "birthYear": 1909,
+    "deathYear": 1966,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_bhabha_wikipedia",
+      "kind": "wikipedia",
+      "title": "Homi J. Bhabha",
+      "url": "https://en.wikipedia.org/wiki/Homi_J._Bhabha"
+    },
+    {
+      "id": "src_bhabha_tifr",
+      "kind": "institution",
+      "title": "Tata Institute of Fundamental Research's own institutional history of its 1945 founding under Bhabha's direction"
+    },
+    {
+      "id": "src_bhabha_biography",
+      "kind": "biography",
+      "title": "Historical accounts of Bhabha's role in founding India's nuclear energy program and the Atomic Energy Commission of India, and the circumstances of his death in the 1966 Air India Flight 101 crash"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 86,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and directed the Tata Institute of Fundamental Research (1945) AND was appointed founding chairman of the Atomic Energy Commission of India (1948), documented via both institutions' own institutional records of their founding under his direct leadership."
+    },
+    "opportunity_sensing": {
+      "score": 78,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Returned from a promising academic physics career in Britain to newly independent India specifically to build fundamental research capacity there, and persuaded industrialist J.R.D. Tata and the Indian government separately to fund the new research institute, inferred as recognizing and acting on a genuine institutional opportunity from the convergence of these two independently-documented events."
+    },
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built India's entire fundamental physics research and nuclear energy institutional infrastructure essentially from scratch within roughly two decades, inferred as exceptional achievement drive from the documented scale of these institution-building efforts relative to the short time available before his death in 1966."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Secured sustained private and government funding for a major new research institution in a newly independent country with limited existing resources, inferred as real persuasive skill from the documented success of these fundraising and advocacy efforts."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Published original theoretical physics work on cosmic ray showers and quantum electrodynamics (the Bhabha scattering process is named for him) before shifting primarily to institution-building, inferred from the documented technical content and continued citation of this early published research."
+    },
+    "systems_abstraction": {
+      "score": 65,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Designed India's nuclear program around a specific, integrated three-stage strategic plan for long-term fuel self-sufficiency, inferred as strong systems-level planning from the documented structure of this long-range institutional strategy."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued serious painting and art collecting alongside his scientific and institutional career, personally curating art for the institutions he built, inferred as some real range of interest beyond physics from this documented parallel activity."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Worked directly with industrialist J.R.D. Tata to jointly secure private funding for TIFR's founding, documented via the well-corroborated institutional record of this specific funding partnership."
+    },
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Designed India's nuclear program around an explicit, sequenced three-stage long-term plan spanning natural uranium, plutonium, and thorium fuel cycles, inferred as requiring substantial advance strategic planning from the documented, multi-decade structure of this program design."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "Institutional (TIFR/AEC) photographs found lack a clearly confirmed Public Domain or CC license on Commons; not independently verified this session."
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: South Asia diversity pick, distinct profile from B.R. Ambedkar/Rabindranath Tagore already in this roster (a scientific institution-builder rather than a jurist/reformer or poet). Well documented via TIFR and AEC's own institutional records. His death in the 1966 Air India crash is factually noted but no trait score is derived from it. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 9 scored attributes (need 18); coverage 0.27; HC count 2/12."
+}

@@ -4466,22 +4466,261 @@ review. Resuming fresh expansion toward 100 is real future work (§14),
 under the corrected, documented A/B/C confidence-change policy (§76),
 not this session's task.
 
-## 13. Exact next steps for a fresh session (updated session 11, post-repair)
+## 78. Session 12 — fresh expansion under the repaired process, 16
+## genuinely-new candidates, all held (0/16 eligible); roster stays at 87
+## (2026-08)
 
-**IMPORTANT: §13's own advice from earlier in session 11 (before the
-repair) is SUPERSEDED — do not follow the old items 3/4 below this
-notice if you are reading an old copy of this file. Session 11
-originally grew the roster 84->104 with 20 fresh candidates, but a
-subsequent scoring-integrity audit (§75) found the confidence-band
-reclassification that admitted those 20 was threshold-driven for a real
-subset of rows. A blind re-review (§76-77), locked before eligibility
-was consulted, reverted the threshold-driven rows and left only 3 of
-the 20 eligible: `benito-juarez`, `joan-of-arc`, `julius-caesar`.
-**Final roster this session: 87 people, 86 match-eligible** — BELOW the
-100-person milestone. This is explicitly not a failure; it is the
-honest, corrected result. `tsc`/`vitest` (558/558)/`next build` (174
-person paths)/`playwright` (215/215) all clean on the rebuilt roster;
-matching remains healthy (max #1 12.0%, HHI 423.7).**
+**Mandate**: resume fresh roster growth toward 100 under the §76 A/B/C/D
+policy and the §77 corrected process — target ~18-22 new candidates,
+scored blind (eligibility never consulted while scoring), locked before
+`eligibility_v2` runs, no post-lock tuning regardless of outcome. Success
+was explicitly defined as a trustworthy process, not a specific headcount.
+
+**Candidate selection.** 20 names were researched against real roster
+gaps (West Asia, Central Asia, North Africa, Sub-Saharan Africa, Latin
+America, Central Europe, South Asia, ancient era, under-represented
+occupations), chosen before any scoring or eligibility consideration.
+
+**Two real process failures were found and fully corrected before this
+batch could be trusted — both are now durable process fixes, not just
+one-off cleanups:**
+
+**Failure 1 — 4 of the 20 selected names collided with pre-existing
+`held` candidate files from an earlier session (`al-biruni`, `zaha-hadid`,
+`desmond-tutu`, `diego-rivera`, all from commit `b6a02f3`) and were
+silently overwritten.** Candidate-name selection had only been checked
+against the LIVE roster's slugs, not the full `data-pipeline/candidates/`
+directory, which holds 50+ additional `held` files never promoted to a
+roster. Discovered via `git status --short` showing these 4 as `M`
+(modified) rather than `??` (new) — not something the ordinary batch
+workflow would have caught on its own. All 4 were restored via
+`git checkout -- <path>` and confirmed byte-identical to their
+pre-existing committed content (verified: correct `status`/`wikidataId`/
+row count for each). One of the discarded overwrites (`al-biruni`) had
+also used an incorrect Wikidata QID relative to the original's correct,
+already-verified one — see Failure 2, this was not a coincidence.
+**Fixed going forward**: `data-pipeline/candidates/README.md`'s Workflow
+section now opens with a mandatory step 0 requiring a full-directory
+slug check (not just the live roster) before any new candidate file is
+created.
+
+**Failure 2 — 14 of the batch's 16 genuinely-new candidates had a
+FABRICATED Wikidata QID, only discovered by an incidental post-hoc
+duplicate check, not caught during authoring.** A routine corpus-wide
+duplicate-QID sweep (run to check for accidental collisions, the same
+class of check that caught Failure 1) found two of the new candidates'
+QIDs collided with unrelated, already-correct, pre-existing files
+(`ibn-al-nafis`'s claimed QID was actually Fela Kuti's; `jorge-luis-
+borges`'s was actually Gabriel García Márquez's). Investigating further,
+**every other unverified QID in the batch was checked directly against
+the live `wikidata.org` entity page, and 12 more were found wrong** —
+not near-misses, but completely unrelated entities: a German town
+(Lutherstadt Wittenberg, claimed as Herodotus), a plant-genus
+disambiguation page (claimed as Chanakya), a sitting Australian Prime
+Minister (Julia Gillard, claimed as Al-Farabi), a record label (claimed
+as Taha Hussein), a Dutch learned society (claimed as Ahmed Zewail), a
+flower species (claimed as Amilcar Cabral), the word "trunk" (claimed as
+Thomas Sankara), Janet Jackson (claimed as Rigoberta Menchú), the year
+1847 (claimed as Sofia Kovalevskaya), Pierre Curie (claimed as Gregor
+Mendel), "amusement park" as a concept (claimed as Homi Bhabha), and
+Anna Kournikova (claimed as Matsuo Bashō). Only `euclid`'s QID (Q8747)
+was correct on the first check. **Root cause**: QIDs were written from
+pattern-generated/remembered numbers during research rather than from an
+actual live lookup — a serious lapse against this project's own standing
+rule ("a wrong QID is worse than a missing one," `CLAUDE.md`'s External
+Identity section) that had simply never been operationalized as an
+explicit, mandatory workflow step for the roster-1000 pipeline
+specifically. **All 16 QIDs were then individually re-verified via a
+live `WebFetch` against the actual Wikidata entity page** (label +
+description checked against the intended person, not trusted from a
+search snippet alone) and corrected: `ibn-al-nafis` Q319146,
+`jorge-luis-borges` Q909, `herodotus` Q26825, `chanakya` Q9045,
+`al-farabi` Q160460, `taha-hussein` Q328765, `ahmed-zewail` Q106624,
+`amilcar-cabral` Q213416, `thomas-sankara` Q202155, `rigoberta-menchu`
+Q188620, `sofia-kovalevskaya` Q184535, `gregor-mendel` Q37970,
+`homi-bhabha` Q325611, `matsuo-basho` Q5676, `frantz-fanon` Q193670,
+`euclid` Q8747 (unchanged, already correct). A follow-up spot-check of
+birth/death years and biographical facts against the same live Wikidata
+fetches found those fields were NOT fabricated — only `wikidataId`
+itself was affected; every other identity/biographical field in the
+batch matches the verified record. Re-ran the corpus-wide duplicate-QID
+sweep across all 138 files after the fix: **0 duplicate QIDs, 0
+duplicate slugs.** **Fixed going forward**: the same README step-0
+addition above also makes a live Wikidata entity-page fetch (label +
+description confirmed against the intended person) mandatory before
+`wikidataId` is ever written, for every future candidate.
+
+**A new, minimal deterministic safeguard was built per this session's
+own instruction not to construct a large workflow platform**:
+`src/dev/roster1000/checkScoringLockIntegrity.ts` diffs each
+already-committed candidate file's `rows` against its current
+working-tree version; any row whose `confidence`/`evidenceType` changed
+without the file's `provenance.notes` citing NEW_EVIDENCE/
+RUBRIC_CORRECTION/ERROR_CORRECTION is flagged (a warning tool, not a
+hard CI gate, per instruction). Run against the full corpus after this
+session's own changes: **122 previously-committed files checked, 0
+flagged** — confirming no illegitimate post-lock drift exists anywhere
+in the corpus right now, including in this session's own restored/
+QID-corrected files (the QID fixes only ever touched `identity.
+wikidataId`, never any `rows` entry, so they correctly do not trip this
+guard).
+
+**Scoring discipline, held throughout.** All 16 genuinely-new candidates
+were scored to whatever depth their real evidence supported — row
+counts range 5-13 (mean 8.06), none artificially padded toward 18.
+`eligibility_v2` was run exactly twice total (once on the initial lock,
+once after a single broad NEW_EVIDENCE deepening pass applied before any
+eligibility result was seen a second time) and NOT modified afterward
+despite one candidate (`zaha-hadid`, a pre-existing held file, not part
+of this session's 16) landing exactly one row short in an earlier,
+now-superseded check — the temptation to add a justifying row was
+noticed and explicitly not acted on, the same discipline §77 already
+established. All 16 are `status: "held"` with a specific, honest
+`holdReason` citing the real row/coverage/HC shortfall, never an
+eligibility-driven rationale.
+
+**eligibility_v2 result: 0/16 eligible.** Full detail:
+
+```
+euclid               rows= 6  coverage=0.184  HC= 2  eligible=false
+herodotus            rows= 7  coverage=0.216  HC= 3  eligible=false
+chanakya             rows= 6  coverage=0.180  HC= 2  eligible=false
+al-farabi            rows= 9  coverage=0.269  HC= 3  eligible=false
+taha-hussein         rows=10  coverage=0.308  HC= 5  eligible=false
+ahmed-zewail         rows= 6  coverage=0.187  HC= 3  eligible=false
+amilcar-cabral       rows=13  coverage=0.394  HC= 4  eligible=false
+thomas-sankara       rows=12  coverage=0.355  HC= 3  eligible=false
+jorge-luis-borges    rows=11  coverage=0.340  HC= 3  eligible=false
+rigoberta-menchu     rows= 7  coverage=0.213  HC= 1  eligible=false
+gregor-mendel        rows= 6  coverage=0.190  HC= 4  eligible=false
+sofia-kovalevskaya   rows=10  coverage=0.317  HC= 2  eligible=false
+homi-bhabha          rows= 9  coverage=0.266  HC= 2  eligible=false
+matsuo-basho         rows= 6  coverage=0.188  HC= 2  eligible=false
+frantz-fanon         rows= 6  coverage=0.178  HC= 3  eligible=false
+ibn-al-nafis         rows= 5  coverage=0.158  HC= 2  eligible=false
+```
+
+Every candidate fails on `scored>=18`/`coverage>=0.6` alone — none is a
+genuine near-miss on the high-confidence-subset requirement specifically
+(HC counts range 1-5, nowhere near the 12 floor). This is a real,
+different failure pattern from session 11's own batch (which clustered
+tightly around the coverage floor with inflated HC counts) — this
+batch's limiting factor is honestly-documented biographical thinness
+(short careers, single-work-dominant evidence, ancient/medieval sourcing
+limits), not a confidence-tier artifact.
+
+**Batch integrity diagnostics, computed after locking, never influencing
+it**: 129 total rows across 16 candidates (mean 8.06/candidate, range
+5-13) — no clustering near the 18-row floor. HC counts 1-5 — no
+clustering near the 12-row floor. Evidence-type distribution: documented
+26.4%, strong_inference 21.7%, inference 51.9% — a real, unforced mix,
+skewing toward `inference` more than session 11's original (pre-repair)
+batch did, consistent with genuinely thinner-evidence candidates being
+scored honestly rather than padded.
+
+**High-baseWeight concentration audit**: `deep_focus` — session 11's
+worst offender at 19/20 (95%) — appears in **0/16 (0%)** of this batch.
+`creative_originality` (session 11: 12/20, 60%) appears in 5/16 (31.3%).
+`mastery_orientation` (session 11: 10/20, 50%) appears in 8/16 (50%) —
+comparable to, not worse than, session 11's own rate; independently
+explainable (achievement-oriented historical figures very often show
+genuine sustained skill-deepening evidence) rather than evidence of new
+gaming, and not flagged as a concern given the batch's clean row/HC-count
+distributions and the complete absence of the `deep_focus` pattern that
+was session 11's clearest tell. This batch's two most frequent
+attributes, `independent_thinking` and `curiosity` (12/16, 75.0% each),
+are not unusually high-`baseWeight` (curiosity in particular is a
+mid-weight attribute) and are generically the easiest traits to
+document for intellectually/creatively distinguished figures of any
+era — a plausible, non-gaming explanation, but recorded honestly as this
+batch's own highest-frequency pair for a future session to weigh if the
+pattern recurs.
+
+**No dispersion/calibration/roster regeneration was needed** — 0
+candidates were accepted, so the live roster (`SEED_PEOPLE`, 87 people,
+86 match-eligible) is byte-unchanged this session.
+
+**Canonical matching simulation, re-run for confirmation (roster
+unchanged)**: n=10,000, max #1 frequency **12.0%** (Warren Buffett,
+identical to §77's closing figure), Profile Match top-1 median 83,
+Greatness median 58 — both consistent with the unchanged roster. This
+extends the canonical trusted trend as: 35 -> 51 -> 67 -> 70 -> 75 -> 84
+-> **87** (unchanged this session) — the invalid, temporary 104-person
+session-11 state remains excluded from this trend per standing
+instruction.
+
+**Full automated gate, final**: `tsc --noEmit` clean · `vitest run`
+**558/558** (unchanged — no `src/core`/test file touched; candidate JSON
+files are pipeline-only staging data with no effect on the shipped app
+until promoted) · `next build --webpack` clean, **92 routes**, 174
+person-page paths (87 x 2), split identical to §77's closing state ·
+`playwright test` **215/215** (unchanged) · full-corpus
+`validateCandidates.ts`: 0 errors, 0 warnings across all 138 candidate
+files (86 held + 52 qa_passed) · full-corpus duplicate check: 0
+duplicate slugs, 0 duplicate Wikidata QIDs, 0 duplicate person ids ·
+new `checkScoringLockIntegrity.ts`: 0 flagged rows across 122
+previously-committed files.
+
+**Saved-result/version safety**: unaffected — `eligibility_v2` itself
+was not touched (per instruction), the live roster is unchanged, and no
+new `VersionSnapshot` field was needed since nothing output-affecting
+changed. `personDataFingerprint`'s existing default-parameter design
+continues to cover the roster/dispersion/calibration tables with zero
+code change, unchanged from prior sessions.
+
+**Standing merge blocker, recorded per explicit instruction, NOT
+actioned this session**: a real external user reported that the English
+mobile questionnaire (quiz) answer-choice layout shows awkward forced
+wrapping and poor responsive proportions. **This is a separate,
+pre-existing UI defect, unrelated to the roster-1000 data pipeline
+entirely** — nothing in this session's data work touched quiz UI, CSS,
+or any `src/ui`/`app/[locale]/quiz` file. It must be fixed and verified
+before any merge to `main`, regardless of roster headcount or data
+quality at that time. No investigation, reproduction, or fix was
+attempted this session, per explicit instruction to leave it for a
+dedicated future session.
+
+**Final roster status: 87 people, 86 match-eligible — unchanged from
+§77's closing state, below the 100-person milestone.** This is the
+honest, expected result of a batch whose real evidence didn't clear the
+bar, not a process failure — the process failures found this session
+(the file-overwrite collision, the fabricated QIDs) were both caught and
+fully corrected before they could reach a commit, which is itself
+evidence the corrected workflow's verification discipline is working as
+intended, not evidence against it.
+
+## 13. Exact next steps for a fresh session (updated session 12)
+
+**IMPORTANT: read §78 before doing any new candidate research.** Session
+12 resumed fresh expansion under the §76/§77-repaired process, selected
+and scored 16 genuinely-new candidates targeting real roster gaps, and
+found 0/16 eligible on real evidence (row/coverage shortfalls, not a
+confidence-tier artifact) — the roster stays at **87 people, 86
+match-eligible**, unchanged from §77. This is explicitly not a failure.
+Session 12 ALSO found and fully corrected two real process defects
+before they reached a commit: (1) 4 of its 20 initially-selected names
+collided with pre-existing `held` candidate files and were nearly
+overwritten — restored via `git checkout`; (2) **14 of 16 genuinely-new
+candidates had a fabricated Wikidata QID**, caught by a post-hoc
+duplicate-QID sweep and corrected via live Wikidata verification for
+every candidate. **Both failures produced durable, mandatory workflow
+fixes in `data-pipeline/candidates/README.md`'s new step 0** — read it
+before creating any new candidate file: (a) check the FULL
+`data-pipeline/candidates/` directory for a name collision, not just the
+live roster; (b) fetch and confirm the actual Wikidata entity page
+before ever writing a `wikidataId`, never from memory. A new tool,
+`src/dev/roster1000/checkScoringLockIntegrity.ts`, flags any
+already-committed candidate row whose confidence/evidenceType changed
+without a NEW_EVIDENCE/RUBRIC_CORRECTION/ERROR_CORRECTION note — run it
+as a matter of course before committing any future candidate-scoring
+session's changes. `tsc`/`vitest` (558/558)/`next build` (174 person
+paths, 92 routes)/`playwright` (215/215) all clean; matching unchanged
+(max #1 12.0%). **A standing, not-yet-actioned merge blocker, unrelated
+to roster-1000 data**: a real external user reported awkward forced
+wrapping / poor responsive proportions in the English mobile
+questionnaire's answer-choice layout — must be fixed and verified before
+any merge to `main`, regardless of roster headcount (see §78's closing
+paragraphs).
 
 1. Read this file (especially §75-77), then `CLAUDE.md`, then
    `docs/scoring-rubric-v1.md`'s new confidence-change-policy section,
@@ -4526,10 +4765,10 @@ matching remains healthy (max #1 12.0%, HHI 423.7).**
    all survived manual review and were NOT changed. Do not trust an
    automated regex classifier's output on already-published people
    without the same hand-verification discipline §77 used.
-7. **70 candidates remain held** (53 pre-session-11 + 17 from session
-   11's own repair, each with a specific, honest `holdReason` — the 17
-   session-11 ones explicitly explain they were held for a confidence-
-   tier defect, not an evidence defect). `eleanor-roosevelt` and
+7. **86 candidates remain held** (70 pre-session-12 + 16 fresh from
+   session 12, each with a specific, honest `holdReason` — the session-12
+   16 explicitly cite real row/coverage shortfalls, never an
+   eligibility-driven rationale). `eleanor-roosevelt` and
    `michelangelo`-class near-misses from earlier sessions are still the
    closest pre-session-11 candidates worth a targeted look.
 8. **An `eligibility_version` DB column remains a legitimate,
@@ -4542,17 +4781,66 @@ matching remains healthy (max #1 12.0%, HHI 423.7).**
     currently `held`, not committed. Re-promoting genuinely strong
     West-Asia candidates (from the held backlog, scored under the
     corrected process) remains real, valuable future work.
-11. **Resume fresh expansion toward 100 only under the corrected A/B/C/D
-    process (§76)** — build a lightweight `tsx` script that flags any
-    confidence/evidenceType change lacking a provenance note citing
-    NEW_EVIDENCE/RUBRIC_CORRECTION/ERROR_CORRECTION before that next
-    session begins, if time allows (§76's own recorded, not-yet-built
-    next step).
+11. **The lightweight scoring-lock integrity script now EXISTS**
+    (`src/dev/roster1000/checkScoringLockIntegrity.ts`, built session
+    12) — run it before committing any future candidate-scoring
+    session's changes: `corepack pnpm@10 exec tsx
+    src/dev/roster1000/checkScoringLockIntegrity.ts`. It is a warning
+    tool (0 flagged as of session 12's close), not a hard gate.
 12. Update this checkpoint with the next session's real outcome, same
     discipline as always.
+13. **MANDATORY before creating any new candidate file (session 12,
+    §78)**: (a) check the FULL `data-pipeline/candidates/` directory for
+    a name collision, not just the live roster — 50+ held candidates
+    exist outside the live roster and are invisible to a live-roster-only
+    check; (b) fetch and confirm the actual `wikidata.org` entity page
+    (label + description) before ever writing a `wikidataId` — never
+    from memory or pattern-guessing. Session 12 found 14 of 16 QIDs
+    written from memory were completely wrong. See
+    `data-pipeline/candidates/README.md`'s new Workflow step 0.
+14. **The standing mobile-quiz merge blocker (session 12, §78,
+    unrelated to roster-1000 data)**: a real external user reported
+    awkward forced wrapping / poor responsive proportions in the English
+    mobile questionnaire's answer-choice layout. Not investigated or
+    fixed this session, per explicit instruction — must be fixed and
+    verified before any merge to `main`, regardless of roster headcount.
 
-## 14. Known blockers / open questions for a future session (updated session 11, post-repair)
+## 14. Known blockers / open questions for a future session (updated session 12)
 
+- **STANDING MERGE BLOCKER, unrelated to roster-1000 data (session 12,
+  §78)**: a real external user reported awkward forced wrapping / poor
+  responsive proportions in the English mobile questionnaire's
+  answer-choice layout. Not investigated or fixed this session, per
+  explicit instruction — must be fixed and verified before any merge to
+  `main`, regardless of roster headcount or data quality at that time.
+- **Session 12 resumed fresh expansion under the repaired process and
+  found 0/16 new candidates eligible** — roster stays at 87 people, 86
+  match-eligible, unchanged from §77 (§78). This is a real, honest
+  result (row/coverage shortfalls, not a confidence-tier artifact), not
+  a process failure — the process itself worked correctly (no gaming
+  detected: `deep_focus` 0/16 vs. session 11's 19/20, no row/HC-count
+  clustering near either threshold).
+- **Two real process defects were found and fixed in session 12, now
+  durable, mandatory workflow rules** (§78,
+  `data-pipeline/candidates/README.md` step 0): (1) candidate-name
+  selection must check the FULL `data-pipeline/candidates/` directory,
+  not just the live roster, before creating a new file — a collision
+  with a pre-existing held candidate can silently overwrite real prior
+  research. (2) A Wikidata QID must be verified via a live fetch of the
+  actual entity page before ever being written — session 12 found 14 of
+  16 QIDs written from memory during research were completely
+  fabricated/wrong (pointing at unrelated entities: a German town, a
+  plant species, a sitting political figure, a record label, a
+  celebrity, the concept "amusement park," a calendar year). A future
+  session should assume this same failure mode could recur unless the
+  new step-0 discipline is actually followed, not merely documented.
+- **A new scoring-lock integrity tool now exists**
+  (`src/dev/roster1000/checkScoringLockIntegrity.ts`, session 12) — a
+  warning-only diff between each committed candidate's `rows` and its
+  working-tree version, flagging any confidence/evidenceType drift
+  lacking a NEW_EVIDENCE/RUBRIC_CORRECTION/ERROR_CORRECTION note. Run
+  it before committing any future candidate-scoring session (0 flagged
+  as of session 12's close, across 122 previously-committed files).
 - **Session 11's original 20-candidate batch is NOT fully in the live
   roster.** Only 3 survived a blind scoring-integrity re-audit
   (`benito-juarez`, `joan-of-arc`, `julius-caesar`); the other 17 are

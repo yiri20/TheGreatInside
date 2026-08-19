@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "taha-hussein",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Taha Hussein",
+    "wikidataId": "Q328765",
+    "birthYear": 1889,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "scholar"
+    ],
+    "fieldIds": [
+      "literature",
+      "education"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "self_taught",
+      "reconciliation"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hussein_wikipedia",
+      "kind": "wikipedia",
+      "title": "Taha Hussein",
+      "url": "https://en.wikipedia.org/wiki/Taha_Hussein"
+    },
+    {
+      "id": "src_hussein_alayyam",
+      "kind": "archive",
+      "title": "Taha Hussein's own three-volume autobiography, Al-Ayyam (\"The Days\"), dictated due to his blindness"
+    },
+    {
+      "id": "src_hussein_biography",
+      "kind": "biography",
+      "title": "Historical accounts of his role as Egypt's Minister of Education (1950-1952) and the controversy surrounding his 1926 book On Pre-Islamic Poetry"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Lost his sight to illness at around age three and, per his own autobiography, pursued formal education first at Al-Azhar and then at the newly founded Cairo University and later the Sorbonne despite his blindness and the absence of adapted educational infrastructure, documented directly via his own first-person account in Al-Ayyam."
+    },
+    "independent_thinking": {
+      "score": 85,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Published On Pre-Islamic Poetry (1926) applying critical-historical textual analysis to argue that some canonical pre-Islamic poetry was likely composed later, provoking major public and religious controversy and formal prosecution, documented via the well-corroborated historical record of the book's publication and its aftermath."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Continued publishing scholarly work applying Western critical methodology to Islamic religious tradition despite the 1926 controversy's real professional and personal consequences (he was prosecuted and lost his university position for a time), inferred as sustained risk tolerance from the documented continuation of his critical scholarly approach in later work."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Progressed from a blind child in a rural Egyptian village to earning doctorates from both Cairo University and the Sorbonne and later serving as national Minister of Education, inferred as sustained, exceptional achievement drive from the documented arc of this trajectory across his own autobiography and the historical record of his later career."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His critical-historical analysis of pre-Islamic poetry required close textual and linguistic scrutiny to support its controversial conclusions, inferred as requiring real attention to textual detail from the documented methodological character of the work."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "As Minister of Education, championed free public education as a national right AND wrote extensively on education as the path to Egypt's cultural renewal, inferred as genuine broader-impact motivation from the convergence of his documented policy actions and his separately-documented public writing on the same theme."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Adapted his entire method of scholarly work -- reading, research, and eventually writing -- around blindness from early childhood through dictation and other assistive practices, inferred as requiring sustained real adaptability from the documented, decades-long continuation of a high-output scholarly career under this constraint."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Sustained a documented decades-long working partnership with his French wife Suzanne Bresseau, who read and transcribed for him throughout his academic and literary career from their time together at the Sorbonne onward, documented via the well-corroborated biographical record of this specific, sustained working relationship."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Produced substantial work across literary criticism, fiction, autobiography, and Islamic intellectual history over his career, inferred as genuine intellectual range from the documented breadth of his surviving corpus across these distinct genres."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Pursued admission to the newly founded, non-traditional Cairo University at a time when Al-Azhar remained the conventional path for religious-educated students, inferred as recognizing and acting on a genuinely new institutional opportunity from the documented timing of his enrollment relative to the university's 1908 founding."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "Candidate photographs found reference low-resolution press archive images without a clearly confirmed Public Domain or CC license on Commons; not independently verified this session."
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: North Africa diversity pick (\"Dean of Arabic Literature\"). Passes inclusion_v1 cleanly -- rose from a rural, non-elite background through his own scholarly work. Well documented via his own three-volume autobiography (a genuine first-person account, dictated due to blindness) plus the extensive historical record of the 1926 controversy and his later ministerial career. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 10 scored attributes (need 18); coverage 0.31; HC count 5/12."
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ahmed-zewail",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Ahmed Zewail",
+    "wikidataId": "Q106624",
+    "birthYear": 1946,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "EG",
+      "US"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_zewail_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ahmed Zewail",
+      "url": "https://en.wikipedia.org/wiki/Ahmed_Zewail"
+    },
+    {
+      "id": "src_zewail_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Prize in Chemistry 1999 citation and Nobel lecture, for the development of femtochemistry"
+    },
+    {
+      "id": "src_zewail_biography",
+      "kind": "biography",
+      "title": "Caltech institutional biography and Zewail's own memoir, Voyage Through Time: Walks of Life to the Nobel Prize"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed femtosecond spectroscopy (\"femtochemistry\"), a genuinely new experimental technique enabling direct observation of the transition states of chemical reactions at the femtosecond timescale, documented directly via the 1999 Nobel Prize citation recognizing this as a foundational new method, not an incremental improvement on existing technique."
+    },
+    "analytical_rigor": {
+      "score": 84,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The femtochemistry technique required precise engineering of ultrafast laser pulse sequences to resolve reaction dynamics at previously unobservable timescales, documented via the technical methodology described in his own Nobel lecture and the peer-reviewed research it summarizes."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued extending femtochemistry methodology across multiple distinct classes of chemical reactions over roughly a decade of research before the Nobel recognition, AND continued developing new imaging applications (four-dimensional electron microscopy) after the Nobel Prize rather than stopping, inferred as sustained skill development from the documented breadth and continuation of his research program across both periods."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Emigrated from Egypt to the United States for doctoral study with limited resources and progressed to a full Caltech professorship and the Nobel Prize, inferred as sustained exceptional achievement drive from the documented arc of this career trajectory described in his own memoir and Caltech's institutional biography."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Established the Zewail City of Science and Technology in Egypt later in his career specifically intended to build scientific research capacity in his country of origin, inferred as genuine broader-impact motivation beyond personal scientific achievement from this documented institution-building effort."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Extended his core femtochemistry methodology into new domains over his career (biological systems, electron microscopy) rather than remaining within a single narrow application, inferred as sustained intellectual range from the documented breadth of applications he pursued."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "Official Nobel Foundation/Caltech photographs are likely under standard copyright rather than a clearly free license; no Public Domain or CC-licensed image independently verified this session."
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: North Africa diversity pick, modern scientist occupation. Well documented via the Nobel Prize's own official citation/lecture record plus his own memoir and Caltech's institutional biography. Scored at 6 rows reflecting genuinely available public evidence for this specific person -- attributes like collaboration, leadership_drive, and social_assertiveness were left unscored rather than padded with generic inference. Scored under the corrected, eligibility-blind process."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.19; HC count 3/12. Public record concentrates heavily on his scientific achievement; broader personal-behavioral biography is thin in reputable sources."
+}

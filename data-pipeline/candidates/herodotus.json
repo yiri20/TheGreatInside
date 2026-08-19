@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "herodotus",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Herodotus",
+    "wikidataId": "Q26825",
+    "birthYear": -484,
+    "deathYear": -425,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe",
+    "historicalPolityKey": "polity.achaemenid_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "historian",
+      "writer"
+    ],
+    "fieldIds": [
+      "history",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "explorer",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_herodotus_wikipedia",
+      "kind": "wikipedia",
+      "title": "Herodotus",
+      "url": "https://en.wikipedia.org/wiki/Herodotus"
+    },
+    {
+      "id": "src_herodotus_histories",
+      "kind": "archive",
+      "title": "Herodotus's own surviving work, The Histories (9 books)"
+    },
+    {
+      "id": "src_herodotus_scholarship",
+      "kind": "biography",
+      "title": "Later classical-scholarship assessments of Herodotus's travels and methodology (e.g. Cicero's later characterization as \"the Father of History\")"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Histories records firsthand observations and inquiries across Egypt, Persia, Scythia, and the wider Greek world -- customs, geography, religion, natural phenomena -- documented directly via the surviving text's own extensive, wide-ranging content, itself evidence of the travel and inquiry it describes."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Histories combines political/military narrative, ethnographic description, geography, and natural history within a single work, inferred as genuine cross-domain range from the documented breadth of subject matter the surviving text actually covers across its nine books."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Records specific, granular ethnographic detail (burial customs, agricultural methods, local products) for dozens of distinct peoples across three continents, inferred from the documented density and specificity of description throughout the surviving text."
+    },
+    "independent_thinking": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Explicitly distinguishes, at several points in the text, between what he personally witnessed, what was reported to him, and what he personally doubted, inferred as independent critical judgment from this documented practice of source-qualification within the surviving work."
+    },
+    "risk_tolerance": {
+      "score": 65,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Undertaking extensive personal travel across the ancient Mediterranean and Near East, including regions of active or recent conflict, implies real willingness to accept travel risk, inferred from the documented geographic scope described in his own text."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Compiling a nine-book work synthesizing information gathered across years of travel implies sustained, long-term commitment to the project, inferred from the documented scale of the finished Histories."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "States explicitly in the work's own opening line that its purpose is to preserve memory of great deeds and explain the causes of conflict between Greeks and non-Greeks, inferred as a stated motivation from this documented framing statement."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 12: ancient-era diversity pick. Like most ancient figures in this roster, biographical detail about Herodotus's own life outside his text is thin -- his own book is simultaneously his primary work and nearly the entire evidentiary record for his personality/behavior. Scored honestly at 6 rows rather than padded toward any target -- attributes like collaboration, leadership_drive, and social_assertiveness have no independently-documented basis for this specific person and were deliberately left unscored. Scored under the corrected, eligibility-blind process; row count was never checked against the 18-attribute floor during scoring."
+  },
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 7 scored attributes (need 18); coverage 0.22; HC count 3/12. His own text is nearly the entire evidentiary record for his personal behavior/character."
+}
