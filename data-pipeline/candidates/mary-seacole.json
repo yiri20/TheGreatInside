@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "mary-seacole",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Mary Seacole",
     "wikidataId": "Q713439",
@@ -87,8 +87,8 @@
     },
     "opportunity_sensing": {
       "score": 74,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Identified a real, unmet need at the front (soldiers wanted food, comfort, and informal medical care beyond what official channels provided) and built a functioning enterprise to meet it, inferred from the documented demand for and use of her services described in contemporary accounts."
     },
@@ -115,8 +115,8 @@
     },
     "detail_orientation": {
       "score": 60,
-      "confidence": 0.54,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Her memoir describes specific medical remedies and treatment approaches learned through practical apprenticeship, inferred as requiring careful attentive practice from the documented specificity of her described treatments."
     },
@@ -210,5 +210,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: 19th-century + Caribbean/Latin-America-region + nurse-occupation diversity pick (nurse newly added to the controlled vocabulary this session; she was not formally credentialed as a physician, so occupationIds uses the more accurate new id rather than the existing 'scientist' pattern used for Florence Nightingale). Sourced substantially from her own published memoir, a genuine first-person account, corroborated by contemporary press coverage of the Crimean War."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

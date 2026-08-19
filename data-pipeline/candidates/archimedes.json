@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "archimedes",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Archimedes",
     "wikidataId": "Q8739",
@@ -108,22 +108,22 @@
     },
     "persistence": {
       "score": 74,
-      "confidence": 0.52,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "The proof techniques in his surviving works imply sustained, iterative attack on genuinely difficult problems (e.g. the cattle problem's diophantine complexity) rather than one-off insight, inferred from the documented mathematical output."
     },
     "discipline": {
       "score": 68,
-      "confidence": 0.52,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Producing a large, internally consistent body of rigorous proofs across decades implies sustained working discipline, inferred from the documented scale of his surviving corpus rather than a direct personal account."
     },
     "achievement_drive": {
       "score": 70,
-      "confidence": 0.52,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "The volume and ambition of his surviving results (several genuinely difficult, previously unsolved problems) suggest real drive toward significant results specifically, inferred from the documented output rather than direct testimony."
     },
@@ -210,5 +210,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: ancient-era diversity pick (ancient era was thin at 3/84 before this batch). Scored under the ancient/medieval evidence discipline -- 18 attributes, confidence capped around 0.68, evidenceType leaning strong_inference/inference given the ~2,300-year source gap, consistent with how Aristotle/Socrates/Confucius were already scored in this roster. No score inflated beyond what Plutarch/Polybius/Cicero/his own surviving corpus directly supports."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

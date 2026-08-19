@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "hannibal-barca",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Hannibal Barca",
     "aliases": [
@@ -134,8 +134,8 @@
     },
     "achievement_drive": {
       "score": 76,
-      "confidence": 0.52,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "dual_edged",
       "rationale": "Pursued the war with Rome as a defining life project from adolescence to his death by suicide rather than accepting exile or accommodation, inferred as sustained, singular achievement orientation from the documented, multi-decade arc of his entire career."
     },
@@ -201,5 +201,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: ancient era + North Africa diversity pick (North Africa was thin at 3/84). Unusually well-corroborated ancient military figure -- Polybius was near-contemporary with direct access to participants on both sides, not a distant chronicle -- supporting confidence up to 0.65 on the most specifically documented rows (Cannae, the Alpine crossing), still within this project's ancient-evidence discipline range."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

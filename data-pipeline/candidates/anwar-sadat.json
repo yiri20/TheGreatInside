@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "anwar-sadat",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Anwar Sadat",
     "wikidataId": "Q34317",
@@ -185,8 +185,8 @@
     },
     "persistence": {
       "score": 62,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Sustained the peace process across roughly four years of negotiation and domestic/regional political backlash to its final signing, inferred from the documented continuity of the policy from the 1977 Jerusalem visit through the 1978 Accords."
     },
@@ -210,5 +210,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: North Africa/West-Asia-adjacent diversity pick, 20th century. Passes the inclusion_v1 counterfactual cleanly (rose through the Free Officers Movement, not inherited position). Well documented via his own autobiography and the extensive historical record of the October War and Camp David Accords. His 1981 assassination is factually noted in the sourcing but, consistent with this project's discipline (as with Lumumba/Biko above), no trait score is derived from it."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "cicero",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Marcus Tullius Cicero",
     "aliases": [
@@ -119,8 +119,8 @@
     },
     "persistence": {
       "score": 70,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Rebuilt his political career and public standing after a period of exile (58-57 BCE), documented via the historical record of his return and subsequent political activity."
     },
@@ -154,8 +154,8 @@
     },
     "discipline": {
       "score": 64,
-      "confidence": 0.58,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "The sheer surviving volume of his correspondence (over 900 letters) and formal writing across four decades is itself a well-documented, unusually large body of sustained output, inferred as requiring real discipline from the documented scale of the surviving corpus itself, even absent a direct first-person account of his working routine."
     },
@@ -221,5 +221,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: ancient-era diversity pick. Deliberately includes two honestly LOW-pole scores (ambiguity_tolerance 32, risk_tolerance 30) grounded directly in his own surviving letters -- his real, well-documented indecision during the civil-war outbreak -- rather than defaulting every ancient statesman to a uniformly high-confidence profile. This is the kind of low-direction evidence CLAUDE.md's own scoring-symmetry audit (Phase 6.6 Stage 5) found genuinely rare and worth deliberately surfacing when the sources actually support it."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

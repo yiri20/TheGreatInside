@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "al-ghazali",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Al-Ghazali",
     "wikidataId": "Q160518",
@@ -117,15 +117,15 @@
     },
     "achievement_drive": {
       "score": 70,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "dual_edged",
       "rationale": "Reached the top academic post in the Islamic world at a young age (his early thirties) before his crisis, inferred as significant early achievement drive from the documented pace of his rise."
     },
     "discipline": {
       "score": 64,
-      "confidence": 0.52,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Produced an unusually large body of systematic written work (The Revival of the Religious Sciences alone runs to 40 books) across a relatively short lifespan, inferred as requiring sustained working discipline from the documented volume of his output."
     },
@@ -205,5 +205,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: West Asia diversity pick (second of three in this batch). One of the richest genuinely autobiographical sources available for a medieval figure -- his own Deliverance from Error is a directly introspective first-person account of a real psychological/spiritual crisis, not later biography, supporting confidence up to 0.65 on the most directly self-reported rows. ambiguity_tolerance (25) is a rare, strongly-documented LOW-pole score grounded in his own explicit first-person description of incapacitating doubt -- exactly the kind of genuine low-direction evidence this project's scoring-symmetry discipline (Phase 6.6 Stage 5) found rare and valuable when the sources actually support it."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "chiune-sugihara",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Chiune Sugihara",
     "wikidataId": "Q313046",
@@ -112,8 +112,8 @@
     },
     "detail_orientation": {
       "score": 55,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "neutral",
       "rationale": "Producing large volumes of individually valid travel documents under time pressure implies some sustained procedural care despite the urgency, inferred from the documented functional validity of the visas issued (they were successfully used for the refugees' actual travel)."
     },
@@ -207,5 +207,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: East Asia + diplomat-occupation diversity pick, 20th century. Well documented for the single defining episode of his life (Yad Vashem records, multiple converging survivor accounts) but genuinely thinner for the rest of his career, reflected honestly in several moderate rather than high scores (leadership_drive, curiosity, planning_orientation) rather than inflating his whole profile from one extraordinary act."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

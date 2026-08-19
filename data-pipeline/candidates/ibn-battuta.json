@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ibn-battuta",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Ibn Battuta",
     "wikidataId": "Q46716",
@@ -108,8 +108,8 @@
     },
     "achievement_drive": {
       "score": 66,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "neutral",
       "rationale": "Continued extending his travels well beyond the original pilgrimage purpose for decades, inferred as sustained ambition toward an increasingly larger goal (eventually visiting the majority of the known Islamic world) rather than one bounded task."
     },
@@ -203,5 +203,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: medieval-era + North Africa diversity pick, explorer occupation (previously only Ernest Shackleton). Sourced from his own dictated Rihla -- a rare case of direct first-person medieval travel narrative -- but confidence is held at a genuinely moderate ceiling (0.62 max) reflecting the real, acknowledged historiographical caveat that some later passages (especially on China) may include secondhand or embellished material; several rows honestly scored low/moderate (planning_orientation 38, conflict_tolerance 48) rather than defaulting every explorer trait to a high score."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

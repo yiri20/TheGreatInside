@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "bhagat-singh",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Bhagat Singh",
     "wikidataId": "Q186131",
@@ -120,8 +120,8 @@
     },
     "discipline": {
       "score": 62,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Sustained an extensive, self-directed reading and writing program throughout his imprisonment under harsh conditions, inferred from the documented volume of his surviving prison writing."
     },
@@ -183,8 +183,8 @@
     },
     "deep_focus": {
       "score": 64,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Sustained an intensive, self-directed reading and writing program throughout imprisonment under harsh conditions, inferred as concentrated absorption from the documented volume and depth of his surviving prison notebook."
     },
@@ -201,5 +201,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: South Asia diversity pick, 20th century, a militant-resistance profile distinct from the already-present Gandhi/Ambedkar/Malala non-violent-approach figures in this roster -- genuine matching diversity, not redundant coverage. Well documented via his own extensive surviving prison writings (a genuinely rare case of a young revolutionary's own first-person intellectual record). Documents his actions (including the Assembly bombing and its explicitly stated non-lethal intent) factually, per this project's Safety discipline, without moral endorsement or condemnation."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

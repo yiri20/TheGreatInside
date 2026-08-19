@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "simone-de-beauvoir",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Simone de Beauvoir",
     "wikidataId": "Q7197",
@@ -110,15 +110,15 @@
     },
     "curiosity": {
       "score": 74,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "The genuine breadth of source material drawn on in The Second Sex and her documented wide-ranging intellectual and political engagement across her life suggest strong sustained curiosity, inferred from the documented range of her actual output and activity."
     },
     "detail_orientation": {
       "score": 62,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "The Second Sex's extensive citation and cross-disciplinary evidence base implies careful, exacting research practice, inferred from the documented scholarly density of the finished text."
     },
@@ -212,5 +212,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: one of only two modern-Western-European picks in this batch (deliberately limited per the instruction to avoid overconcentration in already-well-represented categories -- Western Europe was already at 19/84). Included for genuine historical significance (The Second Sex is a foundational text of modern feminist philosophy) and a distinct profile shape not otherwise represented. Well documented via her own extensive memoirs and published correspondence."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

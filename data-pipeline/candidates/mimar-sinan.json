@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "mimar-sinan",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Mimar Sinan",
     "wikidataId": "Q191789",
@@ -101,15 +101,15 @@
     },
     "detail_orientation": {
       "score": 74,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "The precision of dome-load calculation and structural detailing evident in his surviving buildings implies close technical attention, inferred from architectural analysis of the structures' engineering."
     },
     "discipline": {
       "score": 70,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Sustained an active building practice across roughly five decades and three sultans' reigns, inferred as requiring substantial personal discipline from the documented longevity and volume of his career."
     },
@@ -136,8 +136,8 @@
     },
     "analytical_rigor": {
       "score": 68,
-      "confidence": 0.52,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Solving the structural load problems of very large masonry domes required systematic engineering analysis, inferred from the documented structural success of his largest domed buildings, several of which remain standing after centuries."
     },
@@ -203,5 +203,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: West Asia diversity pick (third of three in this batch), architect occupation (newly added to the controlled vocabulary this session -- no prior figure in the roster held this occupation). Sourced from Ottoman court records and a traditional dictated autobiographical account whose exact composition process is debated by historians, reflected in the moderate-to-high (not maximal) confidence ceiling used throughout."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

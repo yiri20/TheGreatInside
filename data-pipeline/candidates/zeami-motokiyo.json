@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "zeami-motokiyo",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Zeami Motokiyo",
     "aliases": [
@@ -106,15 +106,15 @@
     },
     "detail_orientation": {
       "score": 66,
-      "confidence": 0.58,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "His own treatises specify precise training progressions and technical performance guidance, inferred as requiring exacting attention to craft detail from the documented specificity of this first-person surviving text."
     },
     "discipline": {
       "score": 64,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "The staged, decades-long training framework his own treatises describe implies he sustained this discipline personally across his own career, inferred from the consistency between his prescribed training philosophy and his own long, sustained output."
     },
@@ -169,8 +169,8 @@
     },
     "planning_orientation": {
       "score": 54,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "neutral",
       "rationale": "The staged training framework in his treatises implies structured, long-range thinking about skill development, inferred from the documented systematic character of that framework."
     },
@@ -208,5 +208,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: medieval + East Asia + performing-arts occupation diversity pick (no theater/performance-theory figure previously in the roster). Sourced from his own surviving theoretical treatises, a genuinely first-person source for a medieval performer -- though evidence of specific personal behavioral episodes (as opposed to theory/output) is thinner than for Joan of Arc or Al-Ghazali, hence the more consistently moderate confidence range (0.4-0.58) throughout."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

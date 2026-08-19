@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "nasir-al-din-al-tusi",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "Nasir al-Din al-Tusi",
     "wikidataId": "Q179819",
@@ -96,8 +96,8 @@
     },
     "resourcefulness": {
       "score": 68,
-      "confidence": 0.58,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Rebuilt his scholarly career and secured major new patronage after the fall of Alamut (where he had been based) rather than his career ending with that regime's collapse, inferred from the documented continuity of his output before and after the transition."
     },
@@ -117,15 +117,15 @@
     },
     "detail_orientation": {
       "score": 70,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "The astronomical tables required sustained precise observation and calculation across years, inferred from the documented scope and accuracy improvements of the Zij-i Ilkhani relative to earlier tables."
     },
     "achievement_drive": {
       "score": 72,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Pursued the ambitious, resource-intensive Maragheh project rather than continuing more modest individual scholarship, inferred as significant achievement orientation from the scale of the institution he chose to build."
     },
@@ -187,8 +187,8 @@
     },
     "persistence": {
       "score": 68,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.42,
+      "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Sustained the Maragheh observatory's operation and his own astronomical writing program for over a decade despite the immense political disruption surrounding its founding, inferred from the documented multi-year continuity of the observatory's output."
     },
@@ -212,5 +212,6 @@
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 11: West Asia diversity pick (region was thin at 1/84, only Rumi, before this batch). Sourced from his own extensive surviving corpus plus later Islamic biographical dictionaries. conflict_tolerance (40) is deliberately scored low, reflecting his documented pattern of political accommodation rather than resistance across two regime changes -- an honest low-pole score, not a gap padded over."
-  }
+  },
+  "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }
