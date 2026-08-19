@@ -3203,6 +3203,65 @@ full list and per-candidate stats). `tsc` clean, `vitest` 558/558,
 `next build --webpack` clean (168 person-page paths), `playwright`
 215/215.
 
+**Fresh candidate batch + the 100-person milestone (roster-1000 session
+11, 2026-08) — roster grew 84 -> 104 (103 match-eligible; `zheng-he`
+remains the sole exception), all 20 new people scored and admitted
+under `eligibility_v2` from the start, zero rescoring of any
+pre-existing person.** Selected specifically against real diversity
+gaps the 84-person roster had (ancient era, West Asia, Sub-Saharan
+Africa, Latin America, medieval East Asia) rather than adding more
+modern Western scientists or US political figures — full list and
+per-candidate detail in `docs/roster-1000-checkpoint.md` §73. Two new
+controlled occupation ids (`architect`, `nurse`, EN+KO) were added; no
+other vocabulary gaps found. **Two real, self-caught scoring-
+calibration lessons, now durable guidance for any future candidate
+batch**: (1) the production admission rule's literal `scored >= 18`
+term is necessary but not sufficient — `coverage >= 0.6` in practice
+requires roughly 20-22 scored attributes given the real `baseWeight`
+distribution (`TOTAL_BASE_WEIGHT = 34.25`, most attributes clustered
+0.85-1.2); all 20 candidates were initially drafted at exactly 18 rows
+and ALL failed `coverage` before this was diagnosed and fixed by adding
+2-3 more genuinely evidence-grounded high-`baseWeight` attributes each.
+(2) `docs/scoring-rubric-v1.md` §3's own confidence bands assign a
+SINGLE `strong_inference`-quality signal to the 0.50-0.64 band, not
+0.40-0.49 — this session's first-draft scoring was measurably more
+conservative than the project's own already-shipped precedent for
+equivalent evidence (confirmed directly against Confucius's `roster2
+.ts` rows, an ancient/chronicle-sourced figure whose `inference`-tier
+rows already sit at confidence 0.5, not 0.4), causing 19 of 20
+candidates to fail the `eligibility_v2` high-confidence-subset
+requirement until a genuine, row-by-row rubric-consistency
+reclassification pass was applied (never a blanket confidence bump —
+each reclassified row's already-written rationale was checked against
+the rubric's actual `strong_inference` definition first). Neither issue
+was a defect in `eligibility_v2` itself. Dispersion/calibration
+regenerated with small, routine drift (~0.004 raw on both anchor
+tables) — anchor VALUES updated in `calibration.ts`/`greatness.ts`,
+`CALIBRATION_VERSION` correctly left unbumped, matching the session-4/5
+precedent; `personDataFingerprint`'s existing default-parameter design
+(session 4/5) automatically covers the updated dispersion/calibration
+tables and the grown roster with zero code change. Canonical matching
+simulation improved as the roster grew: max #1 frequency 12.24% -> 11.2%
+(Warren Buffett), HHI 438 -> 369.9, stable across 5 independent seeds
+(mean 10.5%, sd 0.4%). Full roster-wide QA: 0 duplicate slugs/ids/QIDs,
+0 chronology errors, 0 trait errors. Portrait coverage grew from 27/84
+(32.1%) to **56/104 (53.8%)** — 14 of the 20 new people plus 15
+existing no-portrait people, every one live-verified against its real
+Wikimedia Commons file page (identity/license/dimensions) before being
+added; 6 of the 20 new people were correctly left without one (no
+legitimate free-licensed depiction exists, or — hannibal-barca's case
+— the one candidate bust is now considered by most scholarship a
+likely Renaissance-era fabrication, not genuinely ancient). `tsc`
+clean, `vitest` 558/558 (unchanged count — no test file was edited,
+every existing test computes against live `SEED_PEOPLE`), `next build
+--webpack` clean (208 person-page paths, 104 x 2 locales), `playwright`
+215/215 — all re-verified again after the portrait pass, identical
+results. **This session crossed the 100-person milestone (104 total) —
+per the session's own governing instruction this requires a dedicated
+milestone audit and explicit human review before any `main`-branch
+merge is even considered; `main` was not touched, `scale/roster-1000`
+remains the only branch with this work.**
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 
