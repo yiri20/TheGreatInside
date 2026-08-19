@@ -11,7 +11,8 @@
     "isLiving": false,
     "era": "19th_century",
     "nationalityCodes": [
-      "RU"
+      "RU",
+      "SE"
     ],
     "regionCode": "central_europe"
   },
@@ -30,102 +31,101 @@
     ],
     "tagIds": [
       "founder",
-      "prodigy",
-      "overcame_adversity"
+      "systematic_thinker"
     ],
     "archetypeIds": [
-      "scientific_explorer",
-      "independent_creator"
+      "scientific_explorer"
     ]
   },
   "sources": [
     {
       "id": "src_kovalevskaya_wikipedia",
       "kind": "wikipedia",
-      "title": "Sofia Kovalevskaya",
-      "url": "https://en.wikipedia.org/wiki/Sofia_Kovalevskaya"
+      "title": "Sofya Kovalevskaya",
+      "url": "https://en.wikipedia.org/wiki/Sofya_Kovalevskaya"
     },
     {
-      "id": "src_kovalevskaya_bordin",
-      "kind": "award_body",
-      "title": "The French Academy of Sciences' 1888 Prix Bordin, awarded for her work on the rotation of an asymmetric solid body around a fixed point (the \"Kovalevskaya top\")"
-    },
-    {
-      "id": "src_kovalevskaya_biography",
+      "id": "src_kovalevskaya_mactutor",
       "kind": "biography",
-      "title": "Historical accounts of her doctorate from Gottingen (1874, one of the first granted to a woman in Europe) and her 1889 appointment as full professor at Stockholm University, the first woman to hold such a position in modern Europe"
+      "title": "MacTutor History of Mathematics (University of St Andrews) biography of Sofia Kovalevskaya",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kovalevskaya/"
+    },
+    {
+      "id": "src_kovalevskaya_own_writing",
+      "kind": "archive",
+      "title": "Kovalevskaya's own memoir A Russian Childhood, her novel The Nihilist Girl, and her 1866 doctoral papers including the Cauchy-Kovalevskaya theorem"
     }
   ],
   "rows": {
     "analytical_rigor": {
       "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, strong documented instances: solved a difficult test problem set by Karl Weierstrass within a week, directly changing his initial refusal to teach a woman into four years of private tutorship, and later discovered the \"Kovalevskaya top\" -- a genuinely new class of solvable rigid-body motion -- recognized by an independent prize committee (MacTutor, University of St Andrews)."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Entered a fictitious marriage (September 1868) specifically as a deliberate legal and social workaround to a real structural barrier -- Russian women could not travel or study abroad without a father's or husband's permission -- documented via the well-corroborated historical record of the arrangement and its stated purpose."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Multiple independent documented instances spanning roughly 15 years: overcame Weierstrass's initial refusal by solving his test problems; endured years of professional rejection in Russia after her doctorate, where the best position offered was teaching arithmetic to schoolgirls; and, after a documented six-year period without mathematical research or correspondence with Weierstrass, returned to the field and ultimately secured a professorship (MacTutor)."
+    },
+    "conflict_tolerance": {
+      "score": 72,
       "confidence": 0.58,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Produced original doctoral work on partial differential equations (the Cauchy-Kovalevskaya theorem) rigorous enough to earn a doctorate from Gottingen in 1874 despite formal university barriers to women, and later won the French Academy of Sciences' Prix Bordin for original work on rigid-body rotation, documented via both the surviving mathematical results and their independent institutional recognition."
+      "rationale": "Sustained a public academic career despite direct, publicly published contemporary hostility -- Swedish author August Strindberg denounced her Stockholm appointment in print as \"a pernicious and unpleasant phenomenon\" -- and despite the Imperial Academy of Sciences having to change its own admission rules specifically to elect her (1889), documented via the historical record of both episodes."
     },
     "achievement_drive": {
-      "score": 86,
+      "score": 74,
       "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Converging institutional recognition across independent bodies within a short span -- the Prix Bordin from the French Academy of Sciences (1888), with the prize money specifically raised from 3,000 to 5,000 francs in recognition of the work's quality, and corresponding membership in the Imperial Academy of Sciences (1889) -- inferred as sustained high achievement drive from this documented convergence rather than from fame alone."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a substantial, independently-published second career in literature fully in parallel with active mathematics research and teaching -- a produced stage play (The Struggle for Happiness, 1887, co-written with Anne Charlotte Edgren-Leffler), a published novel (The Nihilist Girl), a memoir (A Russian Childhood), and ongoing newspaper articles -- inferred as genuine cross-domain range from this documented breadth."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.52,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Entered into a marriage of convenience specifically to gain the legal independence needed to travel abroad for education (Russian women could not travel alone at the time) and went on to become the first woman in modern Europe to earn a mathematics doctorate and the first to hold a full professorship, documented via the well-corroborated historical record of both the marriage's stated purpose and her subsequent career."
+      "rationale": "Two distinct, well-documented sustained collaborative relationships: a years-long active tutorial relationship with Karl Weierstrass involving extensive problem-solving and correspondence, and a genuine creative co-authorship producing a staged play with Anne Charlotte Edgren-Leffler (1887)."
     },
     "risk_tolerance": {
-      "score": 76,
-      "confidence": 0.48,
-      "evidenceType": "strong_inference",
-      "impact": "dual_edged",
-      "rationale": "Pursued advanced mathematical study and a professorship in a field with essentially no precedent for women's full participation, and separately took on a legal marriage of convenience specifically to circumvent restrictions on women's independent travel, inferred as sustained real risk tolerance from the convergence of these two independently-documented, unconventional life choices."
-    },
-    "persistence": {
-      "score": 78,
-      "confidence": 0.48,
-      "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Continued seeking formal mathematical training and academic positions across multiple countries (Germany, then Sweden) despite repeated institutional barriers specifically because of her gender, inferred from the documented, multi-country persistence of her academic career search."
-    },
-    "creative_originality": {
-      "score": 68,
-      "confidence": 0.42,
+      "score": 62,
+      "confidence": 0.38,
       "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "In addition to her mathematical work, wrote and published literary fiction and memoir (including the novel Nihilist Girl and her own family memoirs), inferred as real creative range beyond pure mathematics from this documented separate body of literary output."
+      "rationale": "Left Russia for Germany as a very young woman via a socially unconventional legal arrangement, against strong contemporary social convention, inferred as real risk tolerance from this documented departure, scored cautiously as a single-episode case."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Took on an editorial and liaison role at the newly founded journal Acta Mathematica, specifically connecting the Paris and Berlin mathematical communities, a single documented instance of recognizing and acting on an institutional-network opportunity beyond her own research (MacTutor)."
     },
     "curiosity": {
-      "score": 62,
-      "confidence": 0.4,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Pursued serious work across mathematics and literature simultaneously through much of her career, inferred as genuine intellectual range from the documented breadth of her surviving output across these two distinct fields."
-    },
-    "mastery_orientation": {
-      "score": 78,
-      "confidence": 0.48,
-      "evidenceType": "documented",
-      "impact": "advantage",
-      "rationale": "Her Prix Bordin submission was judged of such quality by the French Academy of Sciences that the prize committee increased the award money above the originally announced amount specifically because of the work's merit, documented via the well-corroborated historical record of this specific committee decision."
-    },
-    "social_assertiveness": {
-      "score": 58,
-      "confidence": 0.4,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Sustained a direct scholarly correspondence and mentorship relationship with the prominent mathematician Karl Weierstrass over many years, who is documented as considering her one of his most capable students, inferred as real social/professional assertiveness from the documented sustained, direct nature of this relationship."
-    },
-    "independent_thinking": {
-      "score": 68,
-      "confidence": 0.4,
-      "evidenceType": "documented",
-      "impact": "advantage",
-      "rationale": "Since German universities did not formally admit women as students at the time, she arranged to study privately with Weierstrass and separately petitioned Gottingen directly for her doctorate rather than accepting exclusion from formal study, documented via the well-corroborated historical record of this specific alternative path she pursued."
-    },
-    "impact_motivation": {
       "score": 55,
-      "confidence": 0.4,
+      "confidence": 0.32,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Actively advocated in her later career for greater access to mathematical education for women, beyond her own individual achievements, inferred as some real broader-impact motivation from the documented content of her public advocacy on this specific issue."
+      "rationale": "Pursued sustained, independently-published literary writing across multiple forms (novel, memoir, stage play, newspaper articles) alongside an active mathematics career, inferred as genuine range of interest -- scored cautiously since this is drawn from the same underlying facts as the cross_domain_range row above, not independent evidence."
     }
   },
   "doNotCopyKeys": [],
@@ -136,7 +136,7 @@
     "createdAt": "2026-08-19T00:00:00Z",
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: Central/Eastern Europe diversity pick, distinct from the roster's existing scientists in facing documented, structural gender-based institutional barriers as a defining feature of her career, not incidental context. Well documented via institutional academic records (the Gottingen doctorate, the Stockholm professorship, the Prix Bordin) and her own surviving literary writing. Scored under the corrected, eligibility-blind process."
+    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 10-row profile using genuinely inspected substantive sources, including a scholarly academic biography (MacTutor History of Mathematics, University of St Andrews). A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. Her husband's 1883 death is noted in source material only as biographical context for the timing of Mittag-Leffler's advocacy for her Stockholm position -- no trait score in this file is derived from her personal response to it, per CLAUDE.md's Safety section. The result is honestly a MORE MODEST row count (10) than the other diagnostic candidates in this session despite comparably substantive research: her documented life, while rich in several very well-corroborated episodes (the fictitious marriage, the Weierstrass relationship, the professional-rejection period, the Stockholm recognition), concentrates on a smaller number of overlapping episodes rather than a wide variety of distinct behavioral contexts -- several plausible additional rows (autonomy_need, adaptability, detail_orientation, leadership_drive) were deliberately NOT added because their strongest supporting facts were already used for a better-fitting row above, or because the underlying evidence was judged too thin on its own. See the checkpoint's diagnostic-control writeup for the full before/after comparison."
   },
-  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 10 scored attributes (need 18); coverage 0.32; HC count 2/12."
+  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 10 scored attributes (need 18); coverage 0.301 (need 0.6); HC count 7/12; HC average 0.581 (PASSES this sub-requirement). Row count held steady from the prior pass, but HC count and evidence quality improved substantially -- her documented life concentrates on a smaller number of very well-corroborated but overlapping episodes rather than a wide range of distinct contexts."
 }

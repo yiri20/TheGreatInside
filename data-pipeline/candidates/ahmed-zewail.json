@@ -55,6 +55,17 @@
       "id": "src_zewail_biography",
       "kind": "biography",
       "title": "Caltech institutional biography and Zewail's own memoir, Voyage Through Time: Walks of Life to the Nobel Prize"
+    },
+    {
+      "id": "src_zewail_science_journal",
+      "kind": "press",
+      "title": "\"Founder's death unsettles Egypt's science city\" (Science, 2016) and related coverage of Zewail City of Science and Technology's founding, governance model, and funding structure"
+    },
+    {
+      "id": "src_zewail_obama_whitehouse",
+      "kind": "institution",
+      "title": "Obama White House archive records of Zewail's appointment to the Council of Advisors on Science and Technology and as first US Science Envoy to the Middle East (2009)",
+      "url": "https://obamawhitehouse.archives.gov/blog/2016/08/05/dr-ahmed-zewail-1946-2016"
     }
   ],
   "rows": {
@@ -72,6 +83,48 @@
       "impact": "advantage",
       "rationale": "The femtochemistry technique required precise engineering of ultrafast laser pulse sequences to resolve reaction dynamics at previously unobservable timescales, documented via the technical methodology described in his own Nobel lecture and the peer-reviewed research it summarizes."
     },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, very long-duration documented instances: sustained roughly 12 years of experimental development (from his first pioneering femtosecond experiments in the late 1980s to the 1999 Nobel recognition), and separately sustained the Zewail City of Science and Technology project through roughly 14 years of bureaucratic and political obstruction, from his 1999 proposal until the university finally began admitting students in 2013 (Science, 2016)."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, self-initiated documented instances: proposed and drove the founding of Zewail City of Science and Technology in 1999 entirely on his own initiative while still employed full-time at Caltech, with no institutional requirement to do so; and, during Egypt's 2011 revolution, actively returned to Egypt explicitly stating he came \"as an Egyptian citizen to help my mother country,\" distinct from his formal US government roles."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Insisted that Zewail City be governed by an independent board of trustees with complete authority over hiring and admissions decisions, a specific, principled structural stance directly against Egypt's prevailing government-controlled university model -- a position that itself caused years of delay before the project could proceed (Science, 2016)."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Converging institutional leadership signals across independent contexts: held the first-ever named Linus Pauling Chair of Chemistry at Caltech (1995), founded and drove an entire university-building project in Egypt over more than a decade, and served in formal US science-diplomacy leadership roles -- member of the Council of Advisors on Science and Technology and first US Science Envoy to the Middle East (both 2009)."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Established Zewail City of Science and Technology in Egypt specifically to build scientific research capacity in his country of origin, sustaining this goal for over a decade against significant bureaucratic and political obstruction and insisting on a specific, principled independent-governance structure rather than settling for the fastest available path, documented via the detailed historical record of the project's founding and struggles."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantial, independently-verifiable engagement across three genuinely distinct domains: pure experimental chemistry research, university/institution-building in Egypt, and formal US government science-diplomacy roles, inferred as real cross-domain range from this documented convergence rather than a single dominant mode."
+    },
     "mastery_orientation": {
       "score": 74,
       "confidence": 0.48,
@@ -86,19 +139,19 @@
       "impact": "advantage",
       "rationale": "Emigrated from Egypt to the United States for doctoral study with limited resources and progressed to a full Caltech professorship and the Nobel Prize, inferred as sustained exceptional achievement drive from the documented arc of this career trajectory described in his own memoir and Caltech's institutional biography."
     },
-    "impact_motivation": {
-      "score": 68,
-      "confidence": 0.42,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Established the Zewail City of Science and Technology in Egypt later in his career specifically intended to build scientific research capacity in his country of origin, inferred as genuine broader-impact motivation beyond personal scientific achievement from this documented institution-building effort."
-    },
     "curiosity": {
       "score": 66,
       "confidence": 0.4,
       "evidenceType": "inference",
       "impact": "neutral",
       "rationale": "Extended his core femtochemistry methodology into new domains over his career (biological systems, electron microscopy) rather than remaining within a single narrow application, inferred as sustained intellectual range from the documented breadth of applications he pursued."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Secured a complex, unconventional funding structure for Zewail City combining roughly $80 million in donor contributions with a 1-billion-Egyptian-pound loan specifically from Egypt's Ministry of Defense, a single documented instance of accepting real financial and political risk for a civilian academic institution, scored cautiously as a single-fact case."
     }
   },
   "doNotCopyKeys": [],
@@ -110,7 +163,7 @@
     "createdAt": "2026-08-19T00:00:00Z",
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: North Africa diversity pick, modern scientist occupation. Well documented via the Nobel Prize's own official citation/lecture record plus his own memoir and Caltech's institutional biography. Scored at 6 rows reflecting genuinely available public evidence for this specific person -- attributes like collaboration, leadership_drive, and social_assertiveness were left unscored rather than padded with generic inference. Scored under the corrected, eligibility-blind process."
+    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 6-row profile using genuinely inspected substantive sources beyond the Nobel citation and Caltech biography -- specifically the detailed, dated history of Zewail City of Science and Technology's founding, governance struggle, and funding structure (Science journal, 2016), and Obama White House archival records of his formal science-diplomacy roles. A factual evidence ledger (10 distinct new/refined episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. The 6 original rows are all retained (impact_motivation strengthened from inference 0.42 to documented 0.55 given the much fuller Zewail City founding story); 6 new rows were added (persistence, proactive_agency, independent_thinking, leadership_drive, cross_domain_range, risk_tolerance) from genuinely distinct newly-researched facts. Row growth (6 -> 12) is real but more modest than several other candidates in this session's diagnostic set -- his documented public biography, while containing both a first-rate scientific achievement and a genuine institution-building story, is narrower in the variety of distinct behavioral contexts than a public political figure's typically is, a real and honestly reported difference rather than a research-depth shortfall."
   },
-  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.19; HC count 3/12. Public record concentrates heavily on his scientific achievement; broader personal-behavioral biography is thin in reputable sources."
+  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 12 scored attributes (need 18); coverage 0.374 (need 0.6); HC count 7/12; HC average 0.569 (PASSES this sub-requirement). Public record concentrates heavily on his scientific achievement and one major institution-building project; broader personal-behavioral biography beyond those two threads remains genuinely thin even with substantially deeper research."
 }

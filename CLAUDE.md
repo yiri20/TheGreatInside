@@ -3338,6 +3338,56 @@ mobile quiz's answer-choice layout on mobile — this must be fixed and
 verified before any merge to `main`, regardless of roster headcount.
 Full record: `docs/roster-1000-checkpoint.md` §78.
 
+**Session 13 (2026-08) built real identity-preflight tooling and used
+it to find a live-roster data-integrity defect, then ran a bounded
+source-grounded research-depth diagnostic — no new candidates, no
+roster growth.** `src/dev/roster1000/identityPreflight.ts` fetches each
+candidate's live Wikidata entity (`Special:EntityData/{QID}.json`) and
+checks the candidate's name actually matches that entity's label/
+aliases, rather than only checking for duplicate QIDs among candidates
+(the session-12 check, which cannot catch a wrong QID that happens not
+to collide with another candidate's). Run against the full 138-file
+corpus, it found **16 more wrong QIDs beyond session 12's original
+14** — including **`benito-juarez`, one of only 3 people from session
+11's batch actually promoted into the LIVE roster, whose QID resolved
+to Bill Clinton** — a real, shipped identity-integrity defect that had
+survived every prior session's QA gate because no tool before this one
+checked a QID against its actual resolved entity. All 16 were fixed via
+live Wikidata verification (matching session 12's own methodology,
+including the `benito-juarez` fix in the live `roster8.ts` file); the
+full corpus is now confirmed 138/138 correct. Separately, a bounded
+6-candidate diagnostic (Jorge Luis Borges, Gregor Mendel, Sofia
+Kovalevskaya, Frantz Fanon, Thomas Sankara, Ahmed Zewail — all held from
+session 12) tested whether session 12's shallow, 3-source-per-candidate
+research had understated real available evidence: for each, a factual
+evidence ledger (12-19 source-attributed episodes, drawn from genuinely
+substantive sources — scholarly biographies, primary interview/speech
+transcripts, dated press accounts — not personality sites) was built
+and locked before any trait score was written, then mapped to rubric-
+compliant rows and locked before `eligibility_v2` was ever run. **Every
+one of the 6 improved substantially and consistently on every metric**
+(mean scored rows 6.83 -> 12.83, mean high-confidence-attribute count
+3.0 -> 9.0, roughly a 3x increase) **but none crossed `eligibility_v2`'s
+admission floor (0/6, unchanged from session 12)** — two (Borges,
+Sankara) came very close, both already independently clearing the
+high-confidence sub-requirements at 16 of the required 18 scored
+attributes, and per the session's own explicit no-padding discipline,
+neither was pushed over the line after the result was seen. This is a
+genuine two-part finding, not a single verdict: session 12's 3-source
+research depth was real and substantially under-powered (a durable
+process lesson for all future candidate research — budget 4-6+
+substantive sources per candidate, including at least one scholarly/
+institutional/primary source, from the start), but deeper research
+alone did not prove these 6 specific candidates were secretly eligible
+all along. No candidate was promoted; the live roster remains
+byte-unchanged at 87 people, 86 match-eligible, aside from the
+`benito-juarez` identity-metadata correction (confirmed to have zero
+effect on scoring/matching, per this project's existing rule that
+`externalIdentity` never influences similarity). `tsc` clean, `vitest`
+569/569 (558 + 11 new identity-verification tests), `next build`
+clean with an unchanged route table. Full record:
+`docs/roster-1000-checkpoint.md` §79.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 

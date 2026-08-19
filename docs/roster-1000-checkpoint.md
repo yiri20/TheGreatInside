@@ -4689,38 +4689,282 @@ fully corrected before they could reach a commit, which is itself
 evidence the corrected workflow's verification discipline is working as
 intended, not evidence against it.
 
-## 13. Exact next steps for a fresh session (updated session 12)
+## 79. Session 13 — identity-preflight tooling, a corpus-wide QID audit that
+## found 16 additional wrong QIDs (including one already LIVE in the
+## roster), and a source-grounded research-depth diagnostic on 6 held
+## candidates (2026-08)
 
-**IMPORTANT: read §78 before doing any new candidate research.** Session
-12 resumed fresh expansion under the §76/§77-repaired process, selected
-and scored 16 genuinely-new candidates targeting real roster gaps, and
-found 0/16 eligible on real evidence (row/coverage shortfalls, not a
-confidence-tier artifact) — the roster stays at **87 people, 86
-match-eligible**, unchanged from §77. This is explicitly not a failure.
-Session 12 ALSO found and fully corrected two real process defects
-before they reached a commit: (1) 4 of its 20 initially-selected names
-collided with pre-existing `held` candidate files and were nearly
-overwritten — restored via `git checkout`; (2) **14 of 16 genuinely-new
-candidates had a fabricated Wikidata QID**, caught by a post-hoc
-duplicate-QID sweep and corrected via live Wikidata verification for
-every candidate. **Both failures produced durable, mandatory workflow
-fixes in `data-pipeline/candidates/README.md`'s new step 0** — read it
-before creating any new candidate file: (a) check the FULL
-`data-pipeline/candidates/` directory for a name collision, not just the
-live roster; (b) fetch and confirm the actual Wikidata entity page
-before ever writing a `wikidataId`, never from memory. A new tool,
-`src/dev/roster1000/checkScoringLockIntegrity.ts`, flags any
-already-committed candidate row whose confidence/evidenceType changed
-without a NEW_EVIDENCE/RUBRIC_CORRECTION/ERROR_CORRECTION note — run it
-as a matter of course before committing any future candidate-scoring
-session's changes. `tsc`/`vitest` (558/558)/`next build` (174 person
-paths, 92 routes)/`playwright` (215/215) all clean; matching unchanged
-(max #1 12.0%). **A standing, not-yet-actioned merge blocker, unrelated
-to roster-1000 data**: a real external user reported awkward forced
-wrapping / poor responsive proportions in the English mobile
-questionnaire's answer-choice layout — must be fixed and verified before
-any merge to `main`, regardless of roster headcount (see §78's closing
-paragraphs).
+**Mandate, precisely scoped by the user's own instruction**: session 12's
+"0/16 eligible" result was correctly flagged as NOT yet proving genuine
+biographical thinness, because session 12 itself discovered that 14 of
+its own 16 candidate QIDs were fabricated from memory rather than
+verified — a real research-integrity gap that could just as easily have
+affected trait-scoring depth, not only identity fields. This session's
+job was narrow and explicit: (1) build real identity-preflight tooling,
+(2) run a bounded, 6-candidate source-grounded research-depth control —
+NOT a new roster-growth batch — and (3) answer empirically whether
+session 12's 0/16 result reflected genuine historical sparsity or
+under-researched scoring.
+
+### Part 1 — identity-preflight tooling, and what it immediately found
+
+**`src/dev/roster1000/identityVerification.ts`** (pure logic) +
+**`identityPreflight.ts`** (live CLI) + **`identityVerification.test.ts`**
+(11 fixture-based unit tests, including reproductions of session 12's
+own Herodotus/Wittenberg and Chanakya/disambiguation-page failures) —
+built exactly to the brief's spec: fetches the real, live
+`Special:EntityData/{QID}.json` Wikidata API response for a candidate's
+claimed `wikidataId`, and checks the candidate's `canonicalName`
+plausibly overlaps the entity's label/aliases (falling back to the
+`enwiki` sitelink title for the small number of real entities, confirmed
+via Charles Darwin's Q1035 and Gabriel Garcia Marquez's Q5878, that have
+no `en` label set directly despite being unambiguous, well-established
+entries). Deliberately kept OUT of `vitest run` (the fixture tests cover
+the matching LOGIC deterministically; the live-fetch tool itself is a
+separate, on-demand dev script, same category as `calibrate.ts`/
+`simulate.ts`) so the production test suite never depends on internet
+access or Wikidata's uptime, per the brief's own explicit instruction.
+Rate-limiting was found and fixed during this build (a first full-corpus
+run produced spurious "fetch failed" results from sending requests too
+fast; fixed with a small inter-request delay plus a bounded retry-with-
+backoff in `fetchWikidataEntity`).
+
+**Run against the full 138-file corpus, this tool found 16 more wrong
+QIDs beyond session 12's original 14** — none newly introduced this
+session; all pre-existing, undetected until this tool existed:
+
+```
+al-ghazali             Q160518 -> Nils Gustaf Dalen (Swedish Nobel laureate industrialist)
+anwar-sadat            Q34317  -> Piove di Sacco (Italian comune)
+ban-zhao               Q505474 -> Jean-Louis Roux (Quebecois actor/politician)
+benito-juarez          Q1124   -> Bill Clinton                    *** LIVE ROSTER ***
+bhagat-singh           Q186131 -> "terrain" (the geography concept)
+chiune-sugihara        Q313046 -> Eddie Albert (American actor)
+hannibal-barca         Q1408   -> New Jersey (US state)
+ibn-battuta            Q46716  -> Zenson di Piave (Italian comune)
+mary-seacole           Q713439 -> Artem Dzyuba (Russian footballer)
+mimar-sinan            Q191789 -> Martha Washington
+nasir-al-din-al-tusi   Q179819 -> a German school (Martin-Andersen-Nexo-Gymnasium)
+patrice-lumumba        Q11812  -> Thomas Jefferson
+steve-biko             Q193673 -> Muzio Clementi (composer)
+zeami-motokiyo         Q311143 -> William Moseley (English actor)
+zhang-heng             Q186335 -> Dashiell Hammett (American writer)
+```
+
+**`benito-juarez` is one of only 3 candidates from session 11's original
+20-person batch that survived the blind re-audit and was actually
+promoted into the LIVE roster (`roster8.ts`)** — meaning the shipped
+product currently displayed a completely wrong Wikidata identity link
+(Bill Clinton's) for Benito Juarez, undetected through every subsequent
+session's QA gate until this tool existed. This is exactly the class of
+defect `CLAUDE.md`'s own "External identity & media metadata" section
+warns is "worse than a missing one." **Fixed, in scope, not a batch
+expansion**: all 15 candidate files (`mary-seacole`'s correct QID,
+Q963703, was resolved via its Wikipedia sitelink since search results
+for her name initially surfaced an unrelated scientific-article Q-id)
+and the live `src/data/people/roster8.ts` entry were corrected via live
+Wikidata verification identical to session 12's own methodology. Re-ran
+the full-corpus preflight after the fix: **138/138 match, 0 mismatches,
+0 fetch failures.** `tsc --noEmit` clean, `vitest run` 569/569 (558 +
+11 new identity tests), `next build --webpack` clean (unchanged route
+table, static/dynamic split identical) after the `roster8.ts` edit —
+confirmed via a full rebuild since this touched a live `SEED_PEOPLE`
+file, even though `externalIdentity` fields are, by this project's
+oldest rule, never read by matching/scoring.
+
+### Part 2 — source-grounded research-depth diagnostic, 6 held candidates
+
+**Diagnostic set** (exactly the user's own example list, all confirmed
+present as session-12 `held` files before starting): Jorge Luis Borges,
+Gregor Mendel, Sofia Kovalevskaya, Frantz Fanon, Thomas Sankara, Ahmed
+Zewail — a deliberately cross-domain, cross-era, cross-region set (a
+20th-century Latin American writer, a 19th-century Central European
+scientist-priest, a 19th-century Russian mathematician, a 20th-century
+North African psychiatrist-philosopher, a 20th-century Sub-Saharan
+African head of state, and a contemporary North African Nobel chemist),
+not selected by proximity to any threshold.
+
+**Methodology, held to exactly the brief's sequence for each person**:
+(1) WebSearch/WebFetch genuinely substantive sources -- scholarly
+academic biographies (e.g. MacTutor History of Mathematics for
+Kovalevskaya, a peer-reviewed PNAS/PMC biographical study for Mendel),
+primary interview transcripts (the Paris Review's 1966 Borges
+interview), primary speech texts (Sankara's full 1984 UN and 1987 OAU
+addresses), dated press accounts corroborating multi-step timelines
+(Infobae on Borges's political reversal), and institutional/press
+coverage of specific projects (Science journal on Zewail City) -- never
+personality-test sites, biography farms, or fabricated citations; (2)
+built a factual evidence ledger per person (12-19 distinct, source-
+attributed episodes each) BEFORE any trait score was written, explicitly
+NOT checking eligibility metrics during this step; (3) locked each
+ledger, then mapped evidence to `scoring-rubric-v1.md`-compliant rows
+(score/confidence/evidenceType/rationale, `strong_inference` reserved
+for rows citing two or more independently-verifiable facts per
+`docs/scoring-rubric-v1.md` Sec.10's objective criterion), explicitly
+not aiming for any target row count; (4) locked scoring per person; (5)
+only after all 6 were independently locked, ran `evaluateMatchEligibility`
+exactly once across all 6 together, and made NO edit to any row
+afterward regardless of how close a result landed to the threshold.
+
+**A genuine temptation to pad was explicitly noticed and not acted on**:
+Borges landed at 16/18 scored attributes with coverage 0.483 (need 0.6)
+and had already independently cleared the high-confidence-count and
+high-confidence-average sub-requirements; Sankara landed at the same
+16/18 with coverage 0.474. Both were extremely close. Per the brief's
+own explicit instruction ("Do NOT modify scoring... No 'one more
+trait'"), no row was added to either file after seeing this.
+
+**Full before -> after comparison, all 6 (row count / coverage / HC
+count / HC average / eligible):**
+
+```
+                     BEFORE (session 12)              AFTER (session 13)
+jorge-luis-borges    11 / 0.340 / 3  / n/a   / false   16 / 0.483 / 13 / 0.662 / false
+gregor-mendel         6 / 0.190 / 4  / 0.542 / false   12 / 0.362 / 7  / 0.634 / false
+sofia-kovalevskaya   10 / 0.317 / 2  / 0.565 / false   10 / 0.301 / 7  / 0.581 / false
+frantz-fanon          6 / 0.178 / 3  / 0.533 / false   11 / 0.324 / 10 / 0.623 / false
+thomas-sankara       12 / 0.355 / 3  / 0.533 / false   16 / 0.474 / 10 / 0.613 / false
+ahmed-zewail          6 / 0.187 / 3  / 0.543 / false   12 / 0.374 / 7  / 0.569 / false
+
+sources/person (approx): 3 (all 6, session 12) -> 4-5 (all 6, session 13,
+  including at least one genuinely primary or peer-reviewed-scholarly
+  source per person beyond Wikipedia)
+mean scored rows:    6.83 -> 12.83  (+88%)
+mean HC count:       3.0  -> 9.0    (3x)
+mean coverage:       0.26 -> 0.386  (+49%)
+eligible:            0/6  -> 0/6  (unchanged)
+```
+
+**Every single one of the 6 candidates improved substantially and
+consistently on every dimension** (rows, HC count, HC average, coverage)
+-- this was not a mixed pattern where some improved and others didn't.
+**Yet none crossed `eligibility_v2`'s admission floor.** Two,
+Borges and Sankara, came very close (16/18 rows; both already clearing
+the high-confidence sub-requirements). The other four remained further
+off, most because of a genuinely short life/tenure limiting the available
+episode count (Fanon died at 36; Sankara's presidency lasted roughly four
+years) or because their documented biography, even substantially
+deepened, concentrates on a smaller number of very well-corroborated but
+overlapping episodes rather than a wide variety of distinct behavioral
+contexts (Kovalevskaya, Zewail).
+
+**Verdict: neither Case A, Case B, nor Case C as originally framed --
+a genuine fourth outcome, reported honestly rather than forced into the
+closest bucket.** Session 12's implicit framing conflated two separate
+claims: (i) "research depth is not the bottleneck" and (ii) "these
+specific historical figures cannot support `eligibility_v2` admission."
+This diagnostic decisively REFUTES claim (i) -- shallow, 3-source
+research measurably and consistently undercounted real, defensible
+evidence by roughly half across every single one of 6 tested candidates,
+a previously uncorrected and significant methodological gap in the
+session-12 (and, per Part 1's finding, quite possibly earlier) research
+process. But this diagnostic does NOT refute claim (ii) for these
+specific 6 people at `eligibility_v2`'s specific numeric thresholds --
+substantially deeper, genuinely source-grounded research still did not
+cross the floor for any of them this session. Both findings are real and
+should both stand; treating either as fully settling the other would be
+the same kind of overclaim this diagnostic exists to prevent.
+
+**Practical, durable implication for future roster-1000 sessions,
+independent of the specific verdict letter**: a 3-source research pass
+per candidate (Wikipedia + one archive/primary text + one generic
+biography summary) is now demonstrated to be an under-powered research
+depth for this project's own evidence bar, at least for candidates
+without a large surviving primary corpus of their own — future sessions
+selecting NEW candidates should budget for genuinely deeper research
+(4-6+ substantive sources, including at least one scholarly/institutional/
+primary source beyond an encyclopedia summary) per candidate from the
+start, not as a later remediation pass. This is a workflow-quality
+finding, not an eligibility-methodology one -- `eligibility_v2` itself
+was not touched, examined for redesign, or found unstable under these
+inputs; nothing here suggests its thresholds are wrong, only that
+session 12's research INPUT to those thresholds was thinner than it
+needed to be.
+
+### Part 3 — verification, roster status, and scope discipline
+
+**No candidate was promoted; the live roster is unchanged at 87 people,
+86 match-eligible** -- 0/6 diagnostic candidates crossed eligibility_v2,
+and even if one had, this session's instruction reserved any promotion
+decision for after the full diagnostic conclusion was written, which
+this section IS. No dispersion/calibration regeneration was needed (no
+roster change). The `benito-juarez` QID fix (Part 1) is the only change
+that touched the live roster this session, and it is a pure identity-
+metadata correction with zero effect on scoring, matching, or
+eligibility, confirmed by CLAUDE.md's own pre-existing rule that
+`externalIdentity` must never influence similarity (re-confirmed
+unaffected by the existing, unmodified `matching.test.ts` regression
+suite, which mutates this exact field and asserts byte-identical
+scores).
+
+**Full automated gate, final**: `tsc --noEmit` clean · `vitest run`
+**569/569** (558 baseline + 11 new identity-verification tests) ·
+`next build --webpack` clean, unchanged route table and static/dynamic
+split (rebuilt to confirm the `roster8.ts` QID fix introduced no
+regression) · full-corpus `validateCandidates.ts`: 0 errors, 0 warnings
+across all 138 files · full-corpus `identityPreflight.ts`: 138/138
+match, 0 mismatches, 0 fetch failures · `checkScoringLockIntegrity.ts`:
+0 flagged across 138 previously-committed files (confirmed the tool
+correctly detects real drift and correctly recognizes the NEW_EVIDENCE
+provenance notes on all 6 diagnostic files as an allowed reason, not by
+silently skipping them -- verified directly against `git diff --stat`
+showing real, substantial changes to each). No Playwright run was
+needed -- no user-facing route, component, or roster content changed
+(per instruction 15's own "no production roster changes" branch).
+
+**Standing merge blocker, unchanged, not touched this session**: the
+real external user report of awkward forced wrapping / poor responsive
+proportions in the English mobile quiz's answer-choice layout remains
+open and must be fixed and verified before any merge to `main`,
+regardless of roster or research-quality status.
+
+## 13. Exact next steps for a fresh session (updated session 13)
+
+**IMPORTANT: read §79 before doing any new candidate research or
+building any more identity tooling.** Session 13 built real, live
+identity-preflight tooling (`src/dev/roster1000/identityPreflight.ts`)
+and found 16 MORE wrong Wikidata QIDs across the corpus beyond session
+12's original 14 -- including **`benito-juarez`, one of only 3 people
+from session 11's batch actually promoted into the LIVE roster**, whose
+QID pointed at Bill Clinton. All 16 are now fixed and the full 138-file
+corpus is confirmed 138/138 correct. **Run
+`corepack pnpm@10 exec tsx src/dev/roster1000/identityPreflight.ts` as a
+matter of course before committing ANY session that adds or touches a
+candidate's `wikidataId`** -- a duplicate-QID check alone is NOT
+sufficient, since most of these wrong QIDs pointed at unrelated
+entities, not each other.
+
+Session 13 also ran a bounded, 6-candidate source-grounded research-
+depth diagnostic (Jorge Luis Borges, Gregor Mendel, Sofia Kovalevskaya,
+Frantz Fanon, Thomas Sankara, Ahmed Zewail -- all previously `held` from
+session 12) to test whether session 12's shallow, 3-source-per-candidate
+research pass had understated real available evidence. **Result: every
+one of the 6 improved substantially on every metric (mean rows 6.83 ->
+12.83, mean HC count 3.0 -> 9.0x3) with genuinely deeper research, but
+NONE crossed `eligibility_v2`'s floor (0/6, unchanged).** This is a real,
+durable, two-part finding, not a single verdict: (i) session 12's
+3-source research depth WAS genuinely under-powered and should not be
+repeated as the default depth for future candidates -- budget for 4-6+
+substantive sources including at least one scholarly/primary/
+institutional source per candidate from the start; (ii) even with that
+deeper research, these 6 specific historical figures still did not
+clear `eligibility_v2` this session -- do not treat this diagnostic as
+proof they are secretly eligible, and do not repeat the research-depth
+experiment on the SAME 6 candidates expecting a different result without
+a genuinely new source lead. **No candidate was promoted this session;
+roster stays at 87 people, 86 match-eligible.** Full before/after table
+and reasoning: §79.
+
+**A standing, not-yet-actioned merge blocker, unrelated to roster-1000
+data**: a real external user reported awkward forced wrapping / poor
+responsive proportions in the English mobile questionnaire's
+answer-choice layout — must be fixed and verified before any merge to
+`main`, regardless of roster headcount (recorded in §78, reconfirmed
+still open in §79).
+
+**Everything below this point is unchanged session-12 guidance, still
+valid and still binding**, describing the §76/§77-repaired scoring-
+before-eligibility process this session's research also followed:
 
 1. Read this file (especially §75-77), then `CLAUDE.md`, then
    `docs/scoring-rubric-v1.md`'s new confidence-change-policy section,
@@ -4805,14 +5049,58 @@ paragraphs).
     fixed this session, per explicit instruction — must be fixed and
     verified before any merge to `main`, regardless of roster headcount.
 
-## 14. Known blockers / open questions for a future session (updated session 12)
+## 14. Known blockers / open questions for a future session (updated session 13)
 
 - **STANDING MERGE BLOCKER, unrelated to roster-1000 data (session 12,
-  §78)**: a real external user reported awkward forced wrapping / poor
-  responsive proportions in the English mobile questionnaire's
-  answer-choice layout. Not investigated or fixed this session, per
-  explicit instruction — must be fixed and verified before any merge to
-  `main`, regardless of roster headcount or data quality at that time.
+  §78; reconfirmed still open, session 13 §79)**: a real external user
+  reported awkward forced wrapping / poor responsive proportions in the
+  English mobile questionnaire's answer-choice layout. Not investigated
+  or fixed in either session, per explicit instruction — must be fixed
+  and verified before any merge to `main`, regardless of roster
+  headcount or data quality at that time.
+- **A live-roster identity-integrity defect was found and fixed this
+  session (§79): `benito-juarez`'s Wikidata QID pointed at Bill
+  Clinton.** This shipped, undetected, through session 11's original
+  promotion and every subsequent session's QA gate, because no tool
+  before session 13 checked a QID against its actual resolved entity —
+  only against OTHER candidates' QIDs (duplicate detection), which this
+  defect would never trigger since it wasn't a duplicate. **Any future
+  session that touches `wikidataId` on any candidate or live person MUST
+  run `identityPreflight.ts`** — a duplicate-QID check alone is
+  confirmed, empirically, not sufficient.
+- **16 more wrong QIDs were found in the pre-existing corpus beyond
+  session 12's original 14** (§79 has the full list: al-ghazali,
+  anwar-sadat, ban-zhao, benito-juarez, bhagat-singh, chiune-sugihara,
+  hannibal-barca, ibn-battuta, mary-seacole, mimar-sinan,
+  nasir-al-din-al-tusi, patrice-lumumba, steve-biko, zeami-motokiyo,
+  zhang-heng) — all now fixed and re-verified; the full 138-file corpus
+  is confirmed 138/138 correct as of session 13's close. This suggests
+  the true rate of unverified-QID fabrication across earlier
+  roster-1000 sessions (3-9) was real and not unique to session 11/12 —
+  worth keeping in mind if any future session revisits older candidate
+  files for other reasons, though a dedicated audit of sessions 3-9's
+  QIDs was not performed this session (out of scope; the corpus IS now
+  100% verified regardless of which session originally introduced each
+  QID).
+- **Session 13's source-grounded research-depth diagnostic (§79) found
+  a genuine, two-part result on the 6 candidates tested (Borges, Mendel,
+  Kovalevskaya, Fanon, Sankara, Zewail): research depth was a real,
+  substantial, previously-uncorrected bottleneck (mean rows +88%, mean
+  HC count 3x, with genuinely deeper multi-source research), but even
+  the deepened research did NOT cross `eligibility_v2`'s floor for any
+  of the 6 (0/6, unchanged from session 12).** Two candidates (Borges,
+  Sankara) came very close (16/18 rows, already clearing the
+  high-confidence sub-requirements) — a future session with a genuinely
+  NEW source lead for either (not just re-reading the same sources
+  again) could reasonably attempt a further pass, but per this session's
+  own discipline, do NOT go back and pad either file's existing rows
+  now that the eligibility result has been seen. **The practical,
+  durable lesson for all future candidate research, independent of any
+  single candidate's outcome**: budget 4-6+ substantive sources per
+  candidate from the start (including at least one scholarly/
+  institutional/primary source, not just Wikipedia + two generic
+  summaries) — session 12's 3-source default is now demonstrated to be
+  under-powered.
 - **Session 12 resumed fresh expansion under the repaired process and
   found 0/16 new candidates eligible** — roster stays at 87 people, 86
   match-eligible, unchanged from §77 (§78). This is a real, honest

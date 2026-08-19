@@ -47,93 +47,135 @@
       "url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges"
     },
     {
-      "id": "src_borges_ficciones",
+      "id": "src_borges_paris_review",
       "kind": "archive",
-      "title": "Borges's own major short-fiction and essay collections, including Ficciones (1944) and El Aleph (1949)"
+      "title": "The Art of Fiction No. 39 (Paris Review, 1966) -- interview conducted at his National Library office documenting his daily dictation/revision routine",
+      "url": "https://www.theparisreview.org/interviews/4331/the-art-of-fiction-no-39-jorge-luis-borges"
+    },
+    {
+      "id": "src_borges_infobae_dictadura",
+      "kind": "press",
+      "title": "Infobae -- \"Borges y la dictadura: del almuerzo con Videla a la reunion con las Madres y la condena a los militares\" (2019), documenting the dated 1976-1985 political-reversal sequence",
+      "url": "https://www.infobae.com/sociedad/2019/07/13/borges-y-la-dictadura-del-almuerzo-con-videla-a-la-reunion-con-las-madres-y-la-condena-a-los-militares-en-tiempos-de-sangre-y-plomo/"
     },
     {
       "id": "src_borges_biography",
       "kind": "biography",
-      "title": "Biographical accounts of his progressive blindness (complete by his late 50s), his directorship of the Argentine National Library, and his multilingual, wide-ranging reading"
+      "title": "Biographical accounts of his 1938 accident/recovery, his Miguel Cane and National Library library work, and his collaboration with Adolfo Bioy Casares"
     }
   ],
   "rows": {
-    "creative_originality": {
-      "score": 92,
-      "confidence": 0.58,
-      "evidenceType": "documented",
-      "impact": "advantage",
-      "rationale": "Pioneered a genuinely novel short-fiction form blending philosophical speculation, invented bibliographies, and metaphysical paradox (labyrinths, infinite libraries, forking-path narratives) with no direct precedent in prior Spanish-language or world literature, documented via the surviving texts themselves and their widely recognized influence on the later development of magical realism and postmodern fiction."
-    },
-    "cross_domain_range": {
-      "score": 86,
-      "confidence": 0.55,
-      "evidenceType": "documented",
-      "impact": "advantage",
-      "rationale": "His fiction and essays draw substantively on mathematics, theology, philosophy, detective fiction, and comparative literature across multiple languages, documented directly via the breadth of reference visible throughout his surviving published corpus."
-    },
-    "curiosity": {
-      "score": 84,
-      "confidence": 0.52,
-      "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Read extensively across English, French, German, and Old Norse/Old English literature in addition to Spanish, and served as director of the Argentine National Library, inferred as sustained wide-ranging intellectual curiosity from the documented convergence of his own multilingual reading habits and his professional immersion in a vast library collection."
-    },
-    "detail_orientation": {
-      "score": 76,
-      "confidence": 0.45,
-      "evidenceType": "inference",
-      "impact": "advantage",
-      "rationale": "His fiction frequently constructs elaborate, internally consistent invented scholarly apparatus (fake citations, invented authors, precise fictional bibliographic detail), inferred as requiring exacting attention to structural and factual-seeming detail from the documented technique visible throughout his stories."
-    },
     "independent_thinking": {
-      "score": 78,
-      "confidence": 0.48,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Developed his central literary preoccupations (infinity, identity, the unreliability of authorship) largely outside the dominant realist and politically-engaged literary movements of his own era and region, inferred as independent artistic direction from the documented distinctiveness of his thematic concerns relative to contemporaneous Latin American literature."
-    },
-    "adaptability": {
-      "score": 60,
-      "confidence": 0.42,
-      "evidenceType": "inference",
+      "score": 88,
+      "confidence": 0.85,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Continued producing major literary work after becoming completely blind by his late fifties, relying on dictation and memory rather than direct reading and writing, inferred as requiring real adaptability from the documented continuation of his output through this life-altering constraint."
+      "rationale": "Three independently dated, documented instances of holding or reversing a position against strong institutional/social pressure: refused a direct police order to display Peron's portrait at the writers' society he led (1952), which led to the society's forced closure and his own surveillance; resigned the National Library directorship the instant Peron returned to power (1973); and, after initially praising the 1976 military junta, publicly repudiated that position after the 1983 democratic elections, writing that democracy had \"refuted me splendidly\" (Infobae, 2019, citing his own published letter)."
+    },
+    "belief_updating": {
+      "score": 85,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A fully dated, multi-step, independently corroborated political reversal: praised dictator Videla as \"quite a gentleman\" at a May 1976 lunch and similarly praised Pinochet months later; declined a second Pinochet invitation in 1977 after learning his public image was being used for propaganda; signed a public solidarity petition in August 1980 after two Mothers of the Plaza de Mayo visited his home and described their experiences directly; publicly retracted his earlier position after the October 1983 elections; and attended the 1985 Trial of the Juntas in person, later writing that the military had replaced the civil code with \"kidnapping, torture, and clandestine execution\" (Infobae, 2019)."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented facts: catalogued more than 100 books per day at the Miguel Cane Municipal Library, fast enough to leave little remaining work for other staff (Wikipedia, citing biographical sources on his 1938-1946 library employment); and maintained a sustained daily dictation-and-revision ritual at the National Library, documented directly by an interviewer present in his office (Paris Review, 1966)."
+    },
+    "perfectionism": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented facts: revised each poem through two to four full retyped drafts before expressing satisfaction, observed directly by a Paris Review interviewer in his working office (1966); and later attempted to purchase and destroy all known copies of his own early published pamphlets once he judged them unsatisfactory (Wikipedia)."
     },
     "persistence": {
-      "score": 65,
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued producing major new work -- including a documented shift into the stylistic direction that produced \"Pierre Menard, Author of the Quixote\" -- after nearly dying from a severe head injury and subsequent sepsis on Christmas Eve 1938, then sustained a prolific literary career for roughly three more decades after becoming completely blind by the late 1950s, never learning Braille and requiring dictation for every subsequent work (Wikipedia)."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, specific restructuring of his entire working method after total blindness: shifted toward poetry, whose meter and compactness were easier to hold in memory than prose; dictated letters and poems to an assistant who read them back for revision; and relied on an assistant/secretary as reader rather than reading directly (Wikipedia; corroborated by the Paris Review interviewer's first-hand description of this exact working method in 1966)."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, long-duration documented collaborative relationships: a five-decade joint-pseudonym literary partnership with Adolfo Bioy Casares (from 1932) producing detective fiction, screenplays, and fantastic-literature anthologies under the name \"H. Bustos Domecq\"; and a separate, deliberate five-year translation collaboration with Norman Thomas di Giovanni (from 1967) specifically undertaken to reach English-language readers (Wikipedia)."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A repeated pattern across three separate decades of walking away from institutional position rather than compromising: resigned immediately rather than accept a punitive \"promotion\" to poultry-and-rabbit inspector under Peron (1946); refused a direct police order under active surveillance (1952); and resigned the National Library directorship the moment Peron returned to power (1973) (Wikipedia)."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained major documented output across poetry, short fiction, literary essay, and two-way literary translation, plus public lecturing (the Charles Eliot Norton Lectures at Harvard, 1967), built on a self-taught command of French and German acquired as a teenager in Geneva specifically to access philosophy in the original language, on top of a bilingual Spanish/English upbringing -- inferred as genuine cross-domain range from the convergence of these independently documented facts, not a single dominant mode repeated."
+    },
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly built fabricated scholarly apparatus -- invented authors, fictional taxonomies (\"The Analytical Language of John Wilkins\"), and forged \"translations\" of nonexistent source texts -- as a structural device across multiple distinct works spanning more than two decades, beginning with A Universal History of Infamy (1935), inferred as a genuine, repeated methodological signature from this documented recurrence across many separate works rather than a single story's device."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Originated a narrative device with no direct precedent in prior literature -- fictional criticism and review of nonexistent books, most famously \"Pierre Menard, Author of the Quixote\" (1939) -- documented via its well-corroborated critical reception and its continued citation as a foundational, widely imitated innovation in later 20th-century fiction."
+    },
+    "ambiguity_tolerance": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly built entire stories around embracing unresolved paradox and infinite regress as subject matter itself, not merely as form -- e.g. \"The Library of Babel\" and \"The Garden of Forking Paths\" -- inferred as genuine comfort with irreducible ambiguity from this documented, recurring thematic choice across dozens of distinct works spanning decades, rather than a single work's device."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained major-scale creative output across roughly five decades despite total blindness for the final third of his career, converging with external institutional validation across independent bodies -- the inaugural 1961 International Formentor Prize (shared with Samuel Beckett), the 1967 Norton Lectures at Harvard, and a 1964 British honorary knighthood -- inferred as sustained high achievement drive from this documented convergence rather than from fame alone."
+    },
+    "decisiveness": {
+      "score": 66,
       "confidence": 0.42,
       "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "Sustained a prolific, decades-long literary output across both his sighted and later blind periods, inferred from the documented continuity and volume of his surviving body of work across his full career."
-    },
-    "leadership_drive": {
-      "score": 55,
-      "confidence": 0.4,
-      "evidenceType": "documented",
-      "impact": "neutral",
-      "rationale": "Served as director of the Argentine National Library (1955-1973), a major cultural institution, documented via the historical record of this appointment and tenure."
+      "rationale": "Both his 1946 and 1973 institutional resignations are specifically documented as immediate, not deliberated-over acts, inferred as a real tendency toward rapid, direct decision-making at clear choice points from this documented pattern -- treated cautiously since these same underlying episodes are the primary basis for the autonomy_need row above, so this row is scored conservatively rather than at the same confidence."
     },
     "risk_tolerance": {
       "score": 60,
       "confidence": 0.4,
       "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Made public political statements critical of Peronism that cost him his prior library position under that government, then made later controversial public statements regarding the Argentine military government, inferred as some real willingness to accept professional/political consequence for public position-taking from this documented pattern across two distinct political periods."
+      "impact": "risk",
+      "rationale": "Publicly defied a direct order from an authoritarian government while under active police surveillance (1952), at real professional and personal cost (the closure of the organization he led) -- a single clearly documented instance, scored cautiously per this project's standard for single-fact evidence rather than treated as an extreme or defining trait."
     },
-    "collaboration": {
-      "score": 56,
-      "confidence": 0.4,
-      "evidenceType": "documented",
-      "impact": "neutral",
-      "rationale": "Co-authored multiple works, including detective fiction under the joint pseudonym \"H. Bustos Domecq,\" with fellow writer Adolfo Bioy Casares over a sustained multi-decade friendship and working relationship, documented via the well-corroborated historical record of this specific, long-running collaboration."
-    },
-    "mastery_orientation": {
-      "score": 66,
-      "confidence": 0.4,
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.42,
       "evidenceType": "inference",
-      "impact": "advantage",
-      "rationale": "Studied Old English and Old Norse specifically to read Anglo-Saxon and Icelandic saga literature in the original language later in life, despite his blindness, inferred as sustained pursuit of new scholarly mastery from this documented, specific late-life undertaking."
+      "impact": "neutral",
+      "rationale": "When left without steady employment and with his eyesight failing simultaneously in the mid-1940s, began a new public-lecturing career as an alternate way to sustain himself as a writer, a single documented instance of recognizing and acting on a new avenue under constraint (Wikipedia), scored cautiously as a single-fact case."
     }
   },
   "doNotCopyKeys": [],
@@ -145,7 +187,7 @@
     "createdAt": "2026-08-19T00:00:00Z",
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: Latin America diversity pick, distinct profile from Sor Juana Ines de la Cruz/Gabriel Garcia Marquez-adjacent territory already touched in this roster's history. Well documented via his own extensive published corpus and well-established biographical record (including his blindness, a well-corroborated documented fact). Scored under the corrected, eligibility-blind process."
+    "notes": "Roster-1000 session 13 (source-grounded research-depth control, docs/roster-1000-checkpoint.md new section): re-researched from session 12's original 3-source, 11-row profile using genuinely inspected substantive sources (Wikipedia's detailed, citation-backed article; the Paris Review's 1966 primary interview; a dated Infobae press account of his 1976-1985 political reversal) rather than recall alone. A factual evidence ledger (19 distinct, source-attributed episodes) was built and locked BEFORE any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10's A/B/C/D policy -- every row below is either newly added or re-derived from newly inspected sources, not a confidence/evidenceType nudge on the prior scoring. Coverage-relevant attributes were not selected by baseWeight; several genuinely evidenced but modest-weight rows (decisiveness, risk_tolerance, opportunity_sensing) were kept even though they add little toward the coverage floor, and several plausible additional rows (leadership_drive, planning_orientation, mastery_orientation, resourcefulness) were deliberately NOT added because the available evidence was either too thin, too redundant with an already-scored row's underlying facts, or genuinely mixed -- see this session's diagnostic-control writeup in the checkpoint for the full before/after comparison and eligibility_v2 result, locked in a separate step after this file."
   },
-  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 11 scored attributes (need 18); coverage 0.34; HC count 3/12."
+  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 16 scored attributes (need 18); coverage 0.483 (need 0.6); HC count 13/12 (PASSES this sub-requirement); HC average 0.662 (PASSES). Fails only on scored-attribute count and coverage -- the closest of the 6 diagnostic candidates to eligibility_v2 this session."
 }

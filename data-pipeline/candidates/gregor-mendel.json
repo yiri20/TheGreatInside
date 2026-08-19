@@ -46,12 +46,18 @@
     {
       "id": "src_mendel_paper",
       "kind": "archive",
-      "title": "Mendel's own 1866 paper, Versuche über Pflanzen-Hybriden (\"Experiments on Plant Hybridization\")"
+      "title": "Mendel's own 1866 paper, Versuche ueber Pflanzen-Hybriden (\"Experiments on Plant Hybridization\")"
     },
     {
-      "id": "src_mendel_biography",
+      "id": "src_mendel_pnas",
       "kind": "biography",
-      "title": "Historical accounts of Mendel's roughly eight years of pea-plant breeding experiments at the Augustinian monastery of St. Thomas in Brno, and the near-total lack of scientific recognition of his work during his lifetime"
+      "title": "\"Gregor Johann Mendel: From peasant to priest, pedagogue, and prelate\" (PNAS/PMC, 2022) -- scholarly biographical account of his teaching failures, abbacy, and the taxation dispute",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9335201/"
+    },
+    {
+      "id": "src_mendel_nageli_letters",
+      "kind": "archive",
+      "title": "Mendel's letters to Carl Nageli, 1866-1873, documenting the dismissive reception of his pea-hybridization results and the redirection to Hieracium experiments"
     }
   ],
   "rows": {
@@ -70,32 +76,74 @@
       "rationale": "Systematically tracked and quantified the inheritance patterns of seven distinct pea-plant traits across multiple generations of tens of thousands of individual plants, documented directly via the granular numerical data presented in his own surviving paper."
     },
     "persistence": {
-      "score": 84,
-      "confidence": 0.52,
+      "score": 82,
+      "confidence": 0.72,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Sustained the pea-plant breeding experiments across roughly eight years of careful, repetitive controlled crossing and counting, documented via his own paper's account of the experiment's duration and the sheer scale of the tracked plant population."
+      "rationale": "Two independent, dated documented instances: failed teacher certification twice (1850, passing physics but failing zoology orally; 1856, unable to complete the written exam after falling ill), yet continued teaching in an uncertified capacity at the large Brunn Modern School for 13 years (1854-1867); and sustained an unproductive correspondence and redirected Hieracium experiments with Carl Nageli for seven years (1866-1873) despite discouraging results (PNAS/PMC, 2022)."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A decade-long (1874-1884), principled, materially costly dispute with civil tax authorities: refused, on constitutional grounds and against his own legal advice, the accounting workaround nearly every other monastery used to avoid a new tax on religious income; \"stubbornly continued his protests, year after year\" even after the state sequestered the monastery's estates in 1876 and after the dispute alienated friends and fellow friars, documented via his own quoted correspondence and the scholarly reconstruction of the dispute's timeline (PNAS/PMC, 2022)."
     },
     "independent_thinking": {
-      "score": 80,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Proposed discrete, particulate units of heredity following statistically predictable ratios, departing sharply from the prevailing blending-inheritance assumptions of his era, inferred as genuinely independent scientific judgment from the documented novelty of this conceptual framework relative to contemporary biological thought."
+      "rationale": "Two independent documented instances: the same tax dispute (refusing standard institutional practice on principle, against his own legal advice) and his scientific proposal of discrete, particulate units of heredity departing sharply from the prevailing blending-inheritance assumptions of his era, documented via the novelty of this conceptual framework relative to contemporary biological thought."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained meticulous meteorological measurements three times daily across multiple monastery locations, sustained over years, documented via his co-founding role in the Austrian Meteorological Society (1865) and the surviving record-keeping practice it required -- a distinct discipline episode from the pea-experiment record-keeping already captured under analytical_rigor/detail_orientation."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Elected abbot of the Augustinian abbey at Old Brno in March 1868, a genuine formal leadership role carrying real administrative authority (committees on taxation, land management, agricultural subsidies, and library acquisitions), documented via the historical record of the election and subsequent duties -- moderate score since available sources do not show him actively campaigning for the role, only fully discharging its real responsibilities once elected."
     },
     "curiosity": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained two distinct, well-documented secondary intellectual pursuits alongside his primary botanical research over many years: co-founding the Austrian Meteorological Society and maintaining systematic weather records, and designing and building a custom-designed apiary (1871) specifically for beekeeping research that became, per contemporary accounts, a genuine research site in its own right -- inferred as real range of intellectual interest from this documented convergence of two independent pursuits."
+    },
+    "adaptability": {
       "score": 62,
-      "confidence": 0.4,
+      "confidence": 0.42,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Also conducted meteorological observations and beekeeping experiments alongside his primary plant-hybridization work at the monastery, inferred as some real intellectual range beyond his single best-known project from this documented secondary activity."
+      "rationale": "Sustained several substantially different roles across his life -- teacher, ordained priest, experimental botanist, beekeeper, meteorologist, and monastery administrator -- inferred as some real adaptability from the documented breadth of these concurrent or sequential roles, though this is a single broad inference rather than a specific documented switching episode."
     },
-    "mastery_orientation": {
-      "score": 58,
-      "confidence": 0.4,
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.35,
       "evidenceType": "inference",
-      "impact": "advantage",
-      "rationale": "Refined his experimental method across the multi-year pea-plant study, moving from initial trait selection to increasingly systematic quantitative tracking, inferred as sustained methodological development from the documented structure of the study as described in his own paper."
+      "impact": "neutral",
+      "rationale": "Corresponded with leading botanist Carl Nageli for seven years (1866-1873) about his results, a genuine sustained working relationship, but one where Mendel largely deferred to Nageli's redirection toward Hieracium experiments even as this undermined his own stronger original pea results -- a real but genuinely mixed case, not a clearly high-functioning peer collaboration, scored moderately with reduced confidence to reflect that mix."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Designed and had built a custom-designed apiary specifically for his beekeeping research (1871) rather than using an off-the-shelf arrangement, a single documented instance of deliberate advance design for a research purpose, scored cautiously as a single-fact case."
+    },
+    "social_assertiveness": {
+      "score": 40,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Was reassigned away from parish/sick-visitation duties (1847-1849) after a documented specific difficulty in that particular interpersonal context, and never held a comparable pastoral role again -- scored as a single, narrowly-scoped behavioral fact about one specific role, not a broader characterization of his temperament, which contemporary accounts otherwise describe as friendly and well liked."
     }
   },
   "doNotCopyKeys": [],
@@ -106,7 +154,7 @@
     "createdAt": "2026-08-19T00:00:00Z",
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: Central Europe diversity pick. Unusually well-documented for a 19th-century scientist via his own single, highly detailed, quantitative surviving paper -- the near-total lack of contemporary recognition of his work (rediscovered independently around 1900, after his death) is a real, historically significant fact but does not itself change how his documented experimental conduct is scored. Scored under the corrected, eligibility-blind process; row count and confidence were finalized without reference to eligibility thresholds."
+    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 6-row profile (built almost entirely from his single surviving scientific paper) using genuinely inspected substantive sources -- a peer-reviewed scholarly biographical account (PNAS/PMC, 2022) covering his teaching failures, abbacy, and a decade-long taxation dispute with civil authorities, plus his own letters to Carl Nageli documenting the dismissive reception of his results. A factual evidence ledger (17 distinct episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. The parish-priest reassignment (1847-1849) is scored narrowly from the documented behavioral fact alone (reassignment after a specific difficulty in one interpersonal context), deliberately avoiding the period source's own diagnostic-sounding language, per CLAUDE.md's Safety section prohibiting inferred medical/psychological characterization. Several plausible additional rows (mastery_orientation, achievement_drive, autonomy_need, risk_tolerance) were deliberately NOT added because their strongest supporting facts were already used for another, better-fitting row (chiefly the tax dispute), and re-using the same underlying episode across many attributes without genuinely distinct rationale was avoided throughout this session's diagnostic set. See the checkpoint's diagnostic-control writeup for the full before/after comparison."
   },
-  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.19; HC count 4/12. Nearly all documented evidence comes from a single surviving scientific paper."
+  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 12 scored attributes (need 18); coverage 0.362 (need 0.6); HC count 7/12; HC average 0.634 (PASSES this sub-requirement). His documented life, even with substantially deeper research, remains concentrated on a smaller number of well-corroborated episodes rather than a wide variety of distinct behavioral contexts."
 }
