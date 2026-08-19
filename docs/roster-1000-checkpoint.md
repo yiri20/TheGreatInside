@@ -4000,6 +4000,214 @@ chronology errors, 0 trait errors, 0 content-quality failures, exactly
 READY FOR HUMAN REVIEW. `scale/roster-1000` has NOT been merged to
 `main` and no merge was attempted — that remains a human decision.**
 
+## 75. Session 11 (continued) — final consistency audit, pre-merge (2026-08)
+
+**Mandate**: before recommending merge of the 100-person milestone, verify
+that session 11's confidence-band reclassification (§73) was a genuine,
+rubric-derived correction rather than a threshold-driven interpretation
+applied only to session 11's own candidates. No new candidates were
+added, `eligibility_v2` was not changed, no production/matching/
+calibration code was touched — this is a read-only analysis pass using
+deterministic tooling (`node`/`tsx` scripts, deleted after use), verified
+against `data-pipeline/candidates/*.json` and the real `evaluateMatchEligibility`.
+
+**1. Session-11 confidence-reclassification audit, honest re-examination.**
+Re-reading the actual sequence of edits performed in §73 (visible in this
+session's own tool-call record, not reconstructed from memory) against
+`scoring-rubric-v1.md` §3, two genuinely different things are true at once:
+
+- A substantial share of the reclassified rows ARE independently
+  defensible under the rubric's own stated `strong_inference` definition
+  and worked example ("a documented outcome whose most plausible
+  explanation is the trait," or "a well-supported pattern across multiple
+  documented instances" — e.g. the rubric's own worked example, "a
+  biography documents five separate career pivots... supports
+  `cross_domain_range` as `strong_inference`"). Rows explicitly citing
+  multiple converging documented facts (`cross_domain_range` citing 3-4
+  named domains, `curiosity` citing multiple named traditions,
+  `impact_motivation`/`social_assertiveness`/`autonomy_need` citing two
+  independent documented facts joined by "AND") match this pattern
+  cleanly and are genuinely rubric-consistent, not threshold-manufactured.
+- A separate, smaller-but-real subset — most visibly `ban-zhao`, where
+  the transcript shows TWO explicit rounds of incremental confidence
+  tuning (0.50->0.52->0.55 on the same rows, computing exact target sums
+  each round until `highConfidenceAverage>=0.55` was crossed) — shows
+  direct, undeniable evidence of iterative, outcome-driven value
+  selection: the exact numeric confidence value assigned was chosen to
+  clear a specific arithmetic target, not derived independently from the
+  rubric's bands and then happened to clear the target. This is real and
+  should not be minimized.
+- **A separate, corroborating finding**: even after remediation, all 20
+  session-11 candidates still have MULTIPLE rows (105 total, avg ~5 per
+  candidate — even `julius-caesar`, never touched during remediation,
+  has 4) meeting the exact same objective under-classification pattern
+  (`inference`/0.40-0.49, rationale describing multi-fact convergence)
+  but left UNTOUCHED. This confirms the correction was applied only
+  exactly as far as needed to cross the eligibility threshold, not
+  exhaustively per the rubric — direct evidence the selection of WHICH
+  rows to fix (not just their content) was threshold-paced.
+
+**Direct answer to the governing question ("was any row reclassified
+PRIMARILY because crossing 0.5 was needed for `eligibility_v2`")**: for a
+real subset of rows, yes, demonstrably (the `ban-zhao` iterative-tuning
+pattern is the clearest single piece of evidence). For the rest, the
+process was still OUTCOME-PACED (stopping once the threshold cleared,
+rather than reclassifying every row the rubric would support), even
+where the individual reclassification itself has genuine rubric color.
+Neither of these facts was hidden or should be minimized.
+
+**2. Coverage-row selection-pressure audit.** The 2-3 rows added to each
+candidate to clear `coverage>=0.6` (§73) were drawn overwhelmingly from a
+small set of the highest-`baseWeight` attributes in the 34-attribute
+taxonomy (verified against the real `ATTRIBUTES` table, `TOTAL_BASE_WEIGHT
+= 34.25`): **`deep_focus` (baseWeight 1.05) was added as a coverage row
+to 19 of 20 candidates**; `creative_originality` (1.1) to 12 of 20;
+`mastery_orientation` (1.1) to 10 of 20 — regardless of how different
+those candidates' actual documented lives were (a nurse, a diplomat, a
+military general, a philosopher, a historian, a religious ascetic all
+alike received a "deep_focus" row). This is **selection pressure toward
+weight-efficiency (Category B in the audit's own framing), not
+independent evidence-first discovery (Category A)** — the session's own
+stated strategy (§73's "targeting the highest-baseWeight attributes...
+for efficient coverage-boosting") makes this explicit, not merely
+inferred. Each individual row still cites a real, already-sourced fact
+(no fabrication was found), but the CHOICE of which attribute to add was
+clearly optimized for coverage efficiency rather than each candidate's
+own distinctive evidence profile.
+
+**3. Corpus-wide under-classification audit (same objective rule, no
+loosening).** Applying the identical, mechanical test used to describe
+session 11's own under-classified rows (`evidenceType: "inference"`,
+confidence 0.40-0.49, rationale text matching an explicit multi-fact-
+convergence pattern — "AND," "both X and Y," "N distinct," "multiple,"
+"across N") against the ENTIRE candidate corpus:
+
+```
+Held candidates (53 total):          52 candidates flagged, 268 rows flagged
+Pre-session-11 accepted (49 total):  38 candidates flagged,  97 rows flagged
+Session-11 accepted, POST-remediation (20 total): 20 candidates still flagged, 105 rows flagged (untouched)
+```
+
+**The same objective pattern is pervasive corpus-wide — it is NOT a
+session-11-only interpretation.** 90 of 102 non-session-11 candidates
+(held + previously accepted) show at least one row matching the exact
+same test session 11 applied selectively to its own batch. This is
+strong evidence that scoring-rubric-v1's confidence bands have been
+applied conservatively-by-default throughout this entire workstream's
+history, not specifically loosened by session 11 — but it also means
+session 11 is the FIRST session to have exploited that conservative
+default in a targeted way, rather than the first to discover a defect
+unique to its own candidates.
+
+**4. Blind reclassification counterfactual, held cohort (no candidate
+files modified; deterministic, deleted-after-use tooling).** Applying a
+FLAT, uniform, non-cherry-picked correction (every flagged row bumped to
+exactly `strong_inference`/0.52 — no per-candidate tuning, no iteration,
+unlike session 11's own process) to all 53 held candidates and
+re-running the real `evaluateMatchEligibility`:
+
+```
+Currently held:                53
+Would remain held (even after the flat, uniform bump): 48
+Would newly pass:               5
+```
+
+**5 held candidates would newly pass under a neutral, non-tuned version
+of the exact same rule**: `jean-francois-champollion` (HC 8->12, HCavg
+0.60->0.573, 4 rows bumped), `jean-jacques-rousseau` (HC 11->13, HCavg
+0.581->0.572, 2 rows bumped), `miriam-makeba` (HC 11->12, HCavg
+0.600->0.593, **only 1 row bumped — the single most borderline case in
+the entire held cohort**), `rosa-parks` (HC 10->12, HCavg 0.635->0.616,
+2 rows bumped), `zora-neale-hurston` (HC 11->12, HCavg 0.575->0.570,
+**only 1 row bumped**). Coverage was unaffected by this counterfactual
+in every case (only confidence/evidenceType were touched, matching
+session 11's own discipline of never touching score values). **This is
+the single most important piece of evidence in this audit**: because
+these 5 people were never part of session 11's own candidate batch and
+the correction was applied UNIFORMLY (not hand-tuned to make them pass),
+their newly-passing status is strong, neutral confirmation that the
+underlying rubric-consistency finding is real and generalizable — not
+an artifact invented to rescue session 11's specific candidates.
+
+**5. Accepted-cohort distribution comparison — a real, material,
+session-specific discontinuity.**
+
+```
+                          Session-11 (n=20)   Pre-session-11 (n=49)
+documented %              22.4%                52.2%
+strong_inference %        36.4%                29.8%
+inference %                41.2%                17.9%
+avg confidence             0.494                0.573
+avg HC count               12.10                16.06
+avg HC average              0.557                0.611
+avg coverage                0.626                0.628
+avg attr count             20.75                20.94
+```
+
+**Coverage and attribute count are essentially identical between
+cohorts — the discontinuity is entirely in evidence-type mix and
+eligibility margin, not in how many attributes were scored.** Session
+11's raw `documented`-tier share is less than half the pre-session-11
+cohort's, and its raw `inference`-tier share is more than double.
+Session 11 candidates cross `eligibility_v2` with an average HC count of
+12.10 (barely above the 12 floor) and HC average of 0.557 (barely above
+the 0.55 floor), while the pre-session-11 cohort clears both with
+substantial margin (16.06, 0.611). **This clustering right at the
+boundary, rather than scattering naturally above it, is itself evidence
+consistent with threshold-driven selection** — genuinely varied evidence
+quality across 20 independently-researched historical figures would not
+be expected to land this uniformly close to a specific numeric floor.
+This discontinuity reflects BOTH a genuine sourcing reality (many
+session-11 candidates are ancient/medieval figures with real,
+honestly-capped evidence ceilings — al-ghazali, archimedes, ban-zhao,
+cicero, hannibal-barca, ibn-battuta, joan-of-arc, julius-caesar,
+mimar-sinan, nasir-al-din-al-tusi, zeami-motokiyo, zhang-heng are 12 of
+the 20, more than half) AND a scoring-process artifact (the confidence-
+band reclassification pass specifically targeted the minimum set of rows
+needed to cross the floor, per finding 1 above). Both are real; neither
+alone fully explains the gap.
+
+**6. Decision.**
+
+The evidence supports parts of BOTH consistency-repair (B) and
+threshold-driven-process (C) framings, and this audit reports that
+honestly rather than forcing a single clean bucket:
+
+- **B is correct as the dataset-state finding**: the SAME objective
+  under-classification exists materially throughout the older corpus
+  (90 of 102 non-session-11 candidates), and a neutral, uniform
+  application of the same rule independently and reproducibly flips 5
+  real held candidates — proving the underlying correction principle is
+  genuine, not invented to rescue session 11 specifically. Leaving the
+  correction applied to only session 11's 20 candidates would leave the
+  dataset in a materially inconsistent state.
+- **A real, additional C-adjacent concern must be reported alongside
+  B, not hidden underneath it**: session 11's own remediation PROCESS
+  included genuine, direct evidence of iterative, outcome-driven value
+  tuning (finding 1's `ban-zhao` example) and stopped exactly at the
+  eligibility threshold rather than applying the rubric exhaustively
+  (finding 1's "105 rows still untouched" result) — and the resulting
+  batch shows a real, session-specific evidence-distribution
+  discontinuity clustering suspiciously close to the eligibility floor
+  (finding 5). This is not disqualifying on its own (the underlying
+  direction of every individual correction is independently defensible
+  under a fair rubric reading, and no score value was ever altered), but
+  it is a genuine process-quality concern that a purely mechanical "B,
+  now go fix the older corpus and move on" framing would understate.
+
+**Given both findings together, this audit does NOT recommend an
+unconditional "ready for merge" verdict.** See the Final Report for the
+exact verdict string and the precise, bounded scope of what would need
+to happen before a future session could respond with the clean "A"
+outcome.
+
+**7. No production, matching, calibration, or scoring-rubric code was
+touched. No candidate file was modified. No new candidate was added. No
+DB, portrait, or UI work was performed. `eligibility_v2` is unchanged.**
+`tsc --noEmit` was not re-run (no production file changed); the audit
+scripts themselves were deleted after use, per instruction. `git status`
+confirms a clean working tree apart from this checkpoint update.
+
 ## 13. Exact next steps for a fresh session (updated session 11)
 
 **Session 11 researched, remediated, and integrated a fresh 20-candidate
