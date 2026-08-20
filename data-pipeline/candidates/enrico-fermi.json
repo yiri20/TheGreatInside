@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "enrico-fermi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Enrico Fermi",
+    "wikidataId": "Q8753",
+    "birthYear": 1901,
+    "deathYear": 1954,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IT",
+      "US"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "self_taught",
+      "founder",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_fermi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Enrico Fermi",
+      "url": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+    },
+    {
+      "id": "src_fermi_cern",
+      "kind": "institution",
+      "title": "\"Enrico Fermi: genius and giant of science\" (CERN Courier)",
+      "url": "https://cerncourier.com/a/enrico-fermi-genius-and-giant-of-science/"
+    },
+    {
+      "id": "src_fermi_trinity_paper",
+      "kind": "archive",
+      "title": "\"Fermi at Trinity\" (arXiv 2103.05784) and Fermi's own written observations, \"My observations during the explosion at Trinity\"",
+      "url": "https://arxiv.org/abs/2103.05784"
+    },
+    {
+      "id": "src_fermi_physicstoday",
+      "kind": "press",
+      "title": "\"Enrico Fermi in America\" (Physics Today / AIP Publishing) -- documents the 1938 emigration",
+      "url": "https://physicstoday.aip.org/features/enrico-fermi-in-america"
+    },
+    {
+      "id": "src_fermi_ahf",
+      "kind": "institution",
+      "title": "Atomic Heritage Foundation / Nuclear Museum profile of Enrico Fermi -- documents Los Alamos F Division and Chicago Pile-1"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 88,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At the Trinity nuclear test (July 16, 1945), produced a real-time scientific estimate of the bomb's explosive yield by dropping strips of paper into the blast wave and measuring their displacement -- with no instrumentation beyond a piece of paper, he calculated roughly 10 kilotons, within a factor of 2 of the true ~18.6 kiloton yield, documented via his own written observations and independent scholarly reconstruction."
+    },
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, major, formal institutional leadership roles: led the team that built and operated Chicago Pile-1, achieving the first controlled, self-sustaining nuclear chain reaction in history (December 2, 1942); and was appointed associate director of the Los Alamos laboratory (September 1944), personally heading one of its four divisions (F Division, named after him) with broad responsibility for nuclear and theoretical physics."
+    },
+    "curiosity": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At age 10, together with a friend, found and self-taught himself mechanics and astronomy from a dusty 1840 Latin physics textbook, then continued acquiring secondhand physics and mathematics texts on his own initiative through his teens, reaching a thorough understanding of classical physics with no formal instruction by 17 -- documented, sustained, unprompted intellectual curiosity predating any career opportunity."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Worked through Pisa's Scuola Normale Superiore largely self-taught even within formal study, since no Italian-language material existed yet on relativity or quantum theory, requiring him to independently engage foreign-language primary sources rather than wait for instruction to catch up."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "With his wife Laura threatened by Italy's newly enacted anti-Semitic Racial Laws (September 1938), deliberately used his own Nobel Prize ceremony in Stockholm as unobtrusive cover to permanently emigrate the entire family rather than returning to Italy as expected -- a real, high-stakes life decision made under genuine political danger."
+    },
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1938 emigration was a deliberate, planned use of an existing travel opportunity specifically engineered to avoid suspicion from Italian authorities, rather than a sudden or improvised departure, documented via the well-corroborated historical account of the timing and reasoning behind the trip."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly and independently described across multiple scholarly retrospectives (CERN Courier, Physics World, a dedicated OSTI publication titled \"Experimentalist and Theoretician\") as one of the last major physicists to make equally significant contributions to both theoretical and experimental physics, inferred as genuine dual-mode range from this multiply-corroborated characterization, itself considered a rare trait in the field."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Voluntarily agreed with several fellow physicists (Leo Szilard, Herbert Anderson, Walter Zinn) to jointly delay publication of sensitive nuclear-fission findings, a real, coordinated collective decision made under wartime pressure rather than a unilateral one."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Developed and sustained a distinctive pedagogical method (later called \"Fermi problems\") specifically designed to teach students a transferable reasoning process for estimation under uncertainty, rather than deliver lookup answers, inferred as genuine teaching-impact motivation from this documented, sustained practice."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "At the tense Trinity test moments before detonation, publicly and jokingly offered colleagues a bet on \"whether the atmosphere will be set on fire,\" directly responding to a real concern raised by Edward Teller -- a single documented instance of using humor to defuse tension in a high-stakes group setting."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-08-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment, docs/roster-1000-checkpoint.md Sec.81): selected specifically for domain breadth (science) AND for an unusually well-documented public life, deliberately chosen to give the research-completeness protocol a fair test. 5 substantive sources consulted (Wikipedia for orientation/cross-checking only, plus 4 independent sources: CERN Courier, an arXiv scholarly reconstruction of the Trinity estimate including his own written observations, Physics Today's account of the 1938 emigration, and the Atomic Heritage Foundation's institutional profile). Evidence ledger: 15 distinct, source-attributed episodes, spanning at least 4 life periods (childhood self-teaching, Pisa education, the 1938 emigration crisis, wartime Chicago/Los Alamos leadership) and at least 5 behavioral contexts (solitary work, formal leadership, risk/major life choice, planning, collaboration, teaching). Ledger built and locked BEFORE any trait score was assigned; trait scores locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment): eligibility_v2 result after a locked, Session-13-depth-verified scoring pass (research-completeness gate confirmed BEFORE scoring: 4 independent substantive sources, 15 evidence-ledger episodes, 4 life periods, 5 behavioral contexts; eligibility_v2 run exactly once across the full 4-person cohort together, with no row modified afterward). 10 scored attributes (need 18); coverage 0.299 (need 0.6); HC count 7/12; HC average 0.611 (PASSES this sub-requirement). The closest of the 4 to eligibility_v2 this session."
+}

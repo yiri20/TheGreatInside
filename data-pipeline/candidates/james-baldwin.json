@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "james-baldwin",
+  "status": "held",
+  "identity": {
+    "canonicalName": "James Baldwin",
+    "wikidataId": "Q273210",
+    "birthYear": 1924,
+    "deathYear": 1987,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "theorist",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "independent_creator",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_baldwin_wikipedia",
+      "kind": "wikipedia",
+      "title": "James Baldwin",
+      "url": "https://en.wikipedia.org/wiki/James_Baldwin"
+    },
+    {
+      "id": "src_baldwin_nmaahc",
+      "kind": "institution",
+      "title": "National Museum of African American History and Culture's multi-part biographical account of James Baldwin",
+      "url": "https://nmaahc.si.edu/explore/stories/introduction-james-baldwin"
+    },
+    {
+      "id": "src_baldwin_fbi_jstor",
+      "kind": "archive",
+      "title": "\"James Baldwin and the FBI\" (JSTOR Daily), documenting his 1,884-page FBI file and 1963 public accusation against Hoover",
+      "url": "https://daily.jstor.org/james-baldwin-and-the-fbi"
+    },
+    {
+      "id": "src_baldwin_buckley_debate",
+      "kind": "press",
+      "title": "\"Still Burning: Remembering the James Baldwin and William F. Buckley Jr. Debate\" (Los Angeles Review of Books)",
+      "url": "https://lareviewofbooks.org/article/still-burning-remembering-the-james-baldwin-and-william-f-buckley-jr-debate/"
+    },
+    {
+      "id": "src_baldwin_own_words",
+      "kind": "archive",
+      "title": "Baldwin's own documented statements on his writing process and his reasons for leaving the United States"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, high-conviction documented instances: underwent a religious conversion at 14 and served as a junior minister for three years, then gradually and independently came to question and abandon core tenets he had once preached; and directly, publicly charged in September 1963 that the FBI itself was \"a hazard to the Civil Rights Movement,\" naming Hoover as effectively siding with segregationists."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independent, well-documented instances of continuing productive work through repeated loss or rejection: lost all four unpublished novel manuscripts he had written before relocating to Paris and did not stop writing; had a manuscript rejected by Harper's and simply set it aside to work on another project; and sustained a demanding personal revision practice across years for individual pieces."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Two independent, high-stakes documented instances: left the United States for Paris in November 1948 with only $40 and a bag of unfinished manuscripts; and continued public political writing and activism despite being the subject of the largest FBI file ever compiled on any African American artist of the Civil Rights era (1,884 pages, 1958-1974)."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly debated a prominent ideological opponent, William F. Buckley Jr., at Cambridge University (1965) and won decisively, and separately made a direct, named public accusation against the FBI and its director in 1963 despite the real institutional power arrayed against him -- sustained willingness to engage direct, high-stakes public confrontation."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed and sustained a specific, demanding personal revision standard, sometimes spending years refining a single essay, articulated directly in his own words: \"rewriting [is] very painful... you know it's finished when you can't do anything more to it.\""
+    },
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Won the 1965 Cambridge Union debate against William F. Buckley Jr. on the motion \"Is the American Dream at the expense of the American Negro?\" by a lopsided, quantified margin (544 votes to 164), a single but concrete, measured documented instance of persuasive effectiveness before a real live audience."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Found genuine refuge in reading at the public library from a young age as an alternative to a difficult home environment, and began writing across multiple forms (poems, short stories, plays) early, documented via the well-corroborated biographical record of his childhood."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-08-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment, docs/roster-1000-checkpoint.md Sec.81): selected specifically for domain breadth (literature/philosophy) AND for an unusually well-documented public life. 5 substantive sources consulted (Wikipedia for orientation only, plus 4 independent sources: the Smithsonian NMAAHC's multi-part biography, JSTOR Daily's FBI-file account, a Los Angeles Review of Books piece on the Buckley debate, and his own documented statements on his writing process and motives). Evidence ledger: 13 distinct, source-attributed episodes, spanning at least 4 life periods (Harlem childhood, the preaching years, the 1948 Paris relocation, the civil-rights-era public/FBI period) and at least 5 behavioral contexts (solitary intellectual formation, a major belief reversal, risk/major life choice, sustained craft discipline, public conflict/persuasion). His stepfather's strictness is recorded only via the objective, non-characterized fact of a demanding religious household -- no row is derived from a detailed private-family characterization. His sexuality is documented, publicly self-disclosed by Baldwin in his own published writing, and noted only as historical context for why he left the US (alongside racism) -- no trait row is derived from it. Ledger built and locked BEFORE any trait score was assigned; trait scores locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment): eligibility_v2 result after a locked, Session-13-depth-verified scoring pass (research-completeness gate confirmed BEFORE scoring: 4 independent substantive sources, 13 evidence-ledger episodes, 4 life periods, 5 behavioral contexts; eligibility_v2 run exactly once across the full 4-person cohort together, with no row modified afterward). 7 scored attributes (need 18); coverage 0.222 (need 0.6); HC count 6/12; HC average 0.635 (PASSES this sub-requirement)."
+}
