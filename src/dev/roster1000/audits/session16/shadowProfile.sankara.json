@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "session16_shadow_audit_v1",
+  "AUDIT_ONLY": true,
+  "NOT_A_ROSTER_CANDIDATE": true,
+  "NOT_ELIGIBLE_FOR_PROMOTION": true,
+  "slug": "thomas-sankara",
+  "note": "Independent Session 16 shadow scoring of the SAME frozen evidence data-pipeline/candidates/thomas-sankara.json used, applying docs/scoring-rubric-v1.md fresh. Not a candidate file, never eligible to be copied into data-pipeline/candidates/ (see README.md and session16Isolation.test.ts).",
+  "lockStatus": "SHADOW LOCKED",
+  "lockedAt": "2026-08-20T00:00:00Z",
+  "lockDiscipline": "No row added, removed, or edited after this file was written. eligibility_v2 was never run against this profile. No historical Session 13 row value was consulted while building the rows below -- comparison against Session 13 happened only after this file was locked (see comparison.md).",
+  "rows": {
+    "leadership_drive": {
+      "score": 86,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["S1", "S2", "S3"],
+      "rationale": "Directed three simultaneous, quantified, multi-domain reform programs (health, education, environment) within a roughly four-year tenure, each with a measured before/after outcome. Confidence kept just under the 0.85+ top band: the quantified figures are attributed to 'historical accounts' generically rather than clearly separate named sources."
+    },
+    "proactive_agency": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["S4", "S5", "S6"],
+      "rationale": "Three independent, unprompted, voluntary personal acts with no external requirement: sold the government's Mercedes fleet, capped his own salary to the civil-servant average, disclosed his full personal asset list."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "episodeIds": ["S7", "S8"],
+      "rationale": "Two independent, dated, primary-source speeches (UN 1984, OAU 1987) sustaining the same structural argument against prevailing international consensus over several years -- genuinely two separate primary sources, not one account repeated."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "episodeIds": ["S7", "S8", "S9"],
+      "rationale": "Sustained willingness to remain in open conflict with powerful interests on two distinct fronts simultaneously: the international speeches (S7, S8, shared evidence with independent_thinking above) AND the domestic land reform abolishing chieftaincy privileges (S9, evidence NOT used elsewhere in this profile). Judged a legitimate, non-redundant second trait: independent_thinking measures holding/asserting a view; this measures the distinct choice to remain in sustained antagonism rather than moderate it, and S9 supplies genuinely independent supporting evidence beyond the shared S7/S8."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "episodeIds": ["S7", "S8", "S9"],
+      "rationale": "The same S7/S8/S9 evidence read through a third, still-distinct lens: general propensity to take on danger/exposure, not merely to remain in conflict. Explicitly NOT scored from the 1987 assassination (see frozenEvidence.sankara.md) -- from the documented confrontational actions themselves only, matching Session 13's own stated discipline. Kept as a defensible third reading of the S7-S9 cluster (unlike decisiveness/achievement_drive elsewhere in this audit, which were declined) because risk and conflict-tolerance are recognized as separable constructs in the taxonomy itself (resilience facet vs. social facet) and a person can plausibly have one without the other."
+    },
+    "execution_speed": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["S1", "S10"],
+      "rationale": "Two independent, quantified, rapid-execution episodes: the two-week vaccination campaign and the three-month 500-unit housing program. A clean, non-redundant reuse of S1 alongside leadership_drive -- this row measures TIME-TO-COMPLETION specifically, a distinct dimension from who drove the program or its population-level effect."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "episodeIds": ["S11"],
+      "rationale": "A single reputational/citation-based signal (later historians describe his speeches as rhetorically forceful) rather than a directly observed persuasive act -- inference tier per the single-fact rule."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "episodeIds": ["S4", "S12"],
+      "rationale": "Two independent documented concrete measures -- substituting the cheaper Renault fleet, mandating domestic textiles to support local industry -- converging on genuinely resourceful, deliberately substitutive governance. S4 reused from proactive_agency under a distinct lens (self-initiated action vs. specifically resource-substitution-under-constraint)."
+    },
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["S3", "S13", "S14"],
+      "rationale": "Three independent, structured-program-design instances: tree-planting explicitly tied to social-aid eligibility, dedicated new institutional infrastructure (a ministry and a women's union) built specifically to support a policy goal, and a constitutional amendment mandating cabinet composition. Three genuinely distinct, independently-documented design decisions support a confidence toward the upper part of the 0.65-0.84 band."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["S5", "S6", "S15"],
+      "rationale": "Sustained, self-imposed personal austerity maintained consistently throughout tenure (salary cap, asset disclosure, refusing chauffeurs/air-conditioning) rather than a one-off gesture."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "episodeIds": ["S16"],
+      "rationale": "A single documented instance of deliberately participatory (not top-down) program design -- over 350 communities building their own schools. Thin on its own; inference tier."
+    },
+    "curiosity": {
+      "score": 52,
+      "confidence": 0.36,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "episodeIds": ["S18"],
+      "rationale": "Only the amateur-guitarist half of S18 is treated as real curiosity evidence here -- being a military pilot was his professional specialization, not clearly a chosen-for-its-own-sake interest, so it is judged NOT to independently support this row (closer to an occupational fact than a curiosity signal). A single voluntary pursuit outside his career keeps this at the safe-default/inference band, close to Session 13's own already-conservative score."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "episodeIds": ["S6", "S19"],
+      "rationale": "Two independent documented facts about administrative specificity: personally requiring itemized asset declarations from ministers, and itemizing his own assets down to specific counted possessions. Two converging documented facts meet the strong_inference bar rather than inference."
+    }
+  },
+  "consideredButDeclined": [
+    {
+      "attributeId": "impact_motivation",
+      "episodeIds": ["S1", "S2", "S3"],
+      "reason": "Considered and ultimately declined as a fourth trait drawn from the S1/S2/S3 evidence cluster (after leadership_drive). On reflection the distinction offered in Session 13 (leading the program vs. the program having real population-level effect) is real but thin relative to leadership_drive's own already-quantified claim, and this audit judges leadership_drive alone adequately captures this specific evidence cluster. See comparison.md -- this is treated as a genuine, closely-contested call, not a confident rejection; a reasonable independent scorer could keep this row at reduced confidence instead, which is exactly why it is logged here as declined rather than silently omitted."
+    },
+    {
+      "attributeId": "achievement_drive",
+      "episodeIds": ["S1", "S2", "S3"],
+      "reason": "A third motivational-facet reading of the identical S1/S2/S3 evidence cluster (after leadership_drive and the considered-and-declined impact_motivation). Judged to cross into the 'success/scale of the outcome implies the trait' anti-pattern the rubric explicitly warns against (SS6) -- declined."
+    },
+    {
+      "attributeId": "adaptability",
+      "episodeIds": ["S17"],
+      "reason": "The military-to-civilian-governance transition is a single documented ROLE CHANGE, not a description of a specific adaptive behavior during that change. Session 13 itself flagged this evidence as comparatively thin (scored inference-tier, 0.38) but still included it; this audit's independent judgment is that inferring adaptability from a role transition alone, without a described behavioral adjustment, sits close to the rubric's own occupational-stereotype anti-pattern (SS6) and is better left unscored. Logged as a genuine, non-multi-trait-related disagreement -- unlike the other two declined rows above, this one has nothing to do with evidence reuse; it is a standalone, thin, single-fact row."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "session16_shadow_audit_v1",
+  "AUDIT_ONLY": true,
+  "NOT_A_ROSTER_CANDIDATE": true,
+  "NOT_ELIGIBLE_FOR_PROMOTION": true,
+  "slug": "jorge-luis-borges",
+  "note": "Independent Session 16 shadow scoring of the SAME frozen evidence data-pipeline/candidates/jorge-luis-borges.json used, applying docs/scoring-rubric-v1.md fresh. Not a candidate file, never eligible to be copied into data-pipeline/candidates/ (see README.md and session16Isolation.test.ts).",
+  "lockStatus": "SHADOW LOCKED",
+  "lockedAt": "2026-08-20T00:00:00Z",
+  "lockDiscipline": "No row added, removed, or edited after this file was written. eligibility_v2 was never run against this profile. No historical Session 13 row value was consulted while building the rows below -- comparison against Session 13 happened only after this file was locked (see comparison.md).",
+  "rows": {
+    "independent_thinking": {
+      "score": 85,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E1", "E2", "E8"],
+      "rationale": "Three independent, dated, documented instances of holding a position under direct institutional pressure at real personal cost: refused a punitive reassignment (1946), refused a police order under active surveillance (1952, leading to the closure of the society he led), resigned the National Library the instant Peron returned to power (1973). Deliberately does NOT draw on the 1976-1985 political-reversal episodes (E3-E7) -- those measure changing a position given new information, which belongs to belief_updating below, not asserting/holding one against pressure."
+    },
+    "belief_updating": {
+      "score": 83,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E3", "E4", "E5", "E6", "E7"],
+      "rationale": "A fully dated, multi-step political reversal spanning 1976-1985: praised Videla/Pinochet (1976), declined a second Pinochet invitation on learning of propaganda use (1977), signed a solidarity petition after hearing direct testimony from two Mothers of the Plaza de Mayo (1980), publicly retracted his earlier position after the 1983 elections in his own published letter, attended the 1985 Trial of the Juntas in person. Confidence set slightly below the top band (0.85+) because the corroborating detail, while rich and multi-step, is substantially carried by one press account (Infobae) rather than clearly independent secondary sources, even though it quotes his own primary words."
+    },
+    "discipline": {
+      "score": 75,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E9", "E10"],
+      "rationale": "Two independent documented behaviors: cataloguing 100+ books/day at the Miguel Cane library (a sustained, measurable pace), and a sustained daily dictation-and-revision ritual at the National Library observed first-hand by an interviewer. Two converging documented instances support the 71-84 band per rubric SS4."
+    },
+    "perfectionism": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E11", "E12"],
+      "rationale": "Two independent documented facts: 2-4 full retyped drafts per poem before satisfaction (observed first-hand), and later attempting to buy back and destroy his own unsatisfactory early pamphlets."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E13", "E14"],
+      "rationale": "Continued producing major work after a near-fatal 1938 injury/sepsis, then sustained a prolific career for roughly three more decades after total blindness, never learning Braille. Kept in the 71-84 band rather than 85+: extraordinary as this is, treating survival-and-continuation alone as a top-band 'defining characteristic' risks reading persistence off an outcome (see rubric SS6, success/outcome caution) rather than a specific persistence BEHAVIOR; E15 (the adaptive restructuring itself) is scored separately below."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E15"],
+      "rationale": "A specific, multi-part documented restructuring of his working method after total blindness (shift to poetry for its memorability, dictation workflow, assistant as reader), corroborated first-hand by the Paris Review interviewer -- two sources converging on the same documented fact."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E16", "E17"],
+      "rationale": "Two independent, long-duration documented collaborations: the five-decade Bioy Casares pseudonym partnership, and the separate five-year di Giovanni translation collaboration undertaken deliberately to reach English readers."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E1", "E2", "E8"],
+      "rationale": "The same three institutional-exit episodes as independent_thinking, read through a distinct lens: a repeated pattern of walking away from position rather than accepting external control, across three separate decades. Kept as a legitimate second, distinct reading of the same facts (thinking-facet 'held the view' vs. motivation-facet 'would not accept externally-imposed terms') -- but see decisiveness below, where the SAME facts are judged NOT to independently support a third, distinct construct."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "episodeIds": ["E18", "E19"],
+      "rationale": "Self-taught French/German specifically for philosophical access, on top of bilingual upbringing, converging with sustained major output across poetry/fiction/essay/translation/public lecturing (Norton Lectures). No single quote frames this as deliberate breadth-seeking, so strong_inference rather than documented, per two independently-verifiable converging facts (rubric SS10's objective criterion)."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "episodeIds": ["E20"],
+      "rationale": "A recurring structural device -- fabricated authors, taxonomies, and forged translations -- documented across many distinct named works spanning two-plus decades, beginning in 1935. Recurrence across many independently-named works satisfies the strong_inference bar even from what is, at the source level, one described pattern."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "episodeIds": ["E21"],
+      "rationale": "Originated fictional criticism of nonexistent books (most famously 'Pierre Menard'), with well-corroborated critical reception and continued citation as a foundational innovation -- the reception/citation record functions as a second, corroborating strand beyond the bare fact of the story's existence."
+    },
+    "ambiguity_tolerance": {
+      "score": 73,
+      "confidence": 0.53,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "episodeIds": ["E22"],
+      "rationale": "A recurring thematic choice -- embracing unresolved paradox/infinite regress as subject matter -- across dozens of distinct works ('The Library of Babel,' 'The Garden of Forking Paths'). Confidence set toward the lower end of the strong_inference band: this infers a personal disposition from FICTIONAL SUBJECT MATTER rather than the person's own documented decisions/behavior, one step further removed from direct evidence than most other rows here."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "episodeIds": ["E23"],
+      "rationale": "Roughly five decades of sustained major-scale output despite blindness for the final third of his career, converging with independent institutional validation (1961 Formentor Prize shared with Beckett, 1967 Norton Lectures, 1964 knighthood) -- inferred from this convergence, not from fame alone."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "episodeIds": ["E1"],
+      "rationale": "A single documented instance -- publicly defying a direct order from an authoritarian government under active surveillance, at real cost -- scored cautiously per the single-fact-evidence rule (rubric SS4) rather than as an extreme or defining trait, even though the underlying fact itself is well-documented."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "episodeIds": ["E26"],
+      "rationale": "A single documented instance -- beginning a public-lecturing career as an alternate livelihood when left jobless and going blind simultaneously in the mid-1940s -- scored cautiously as a single-fact case."
+    }
+  },
+  "consideredButDeclined": [
+    {
+      "attributeId": "decisiveness",
+      "episodeIds": ["E24"],
+      "reason": "The SAME 1946/1973 resignation facts already used for independent_thinking and autonomy_need. A third motivational/cognitive-style reading of essentially the same two dated acts is judged, on independent reflection, to stretch construct validity too far: 'resigned immediately' plausibly reflects principled refusal (already captured) rather than a general rapid-decision-making STYLE independent of the specific values at stake. Declined rather than scored at low confidence -- Session 13 scored this row at 66/0.42/inference, explicitly flagging the same overlap concern and hedging accordingly; this audit's independent judgment is that the hedge does not fully resolve the construct-distinctness problem, so the row is left unscored rather than included at low confidence. See comparison.md for the full discussion -- this is the audit's clearest genuine (not manufactured) disagreement for Borges."
+    },
+    {
+      "attributeId": "deep_focus",
+      "episodeIds": ["E9", "E10"],
+      "reason": "E9/E10 (cataloguing pace, dictation ritual) could plausibly support deep_focus (sustained immersive engagement) as well as discipline (consistency/self-regulation). Considered and declined: the evidence describes OUTPUT RATE and RITUAL CONSISTENCY, not directly-observed immersive/flow-state engagement, so it is judged to sit more cleanly under discipline alone rather than legitimately supporting a second, distinct trait."
+    }
+  ]
+}
