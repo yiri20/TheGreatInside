@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "andrew-carnegie",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Andrew Carnegie",
+    "wikidataId": "Q484265",
+    "birthYear": 1835,
+    "deathYear": 1919,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "industrialist"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "economic",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_carnegie_wikipedia",
+      "kind": "wikipedia",
+      "title": "Andrew Carnegie",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Carnegie"
+    },
+    {
+      "id": "src_carnegie_gilder",
+      "kind": "biography",
+      "title": "\"The Lives of Andrew Carnegie\" (Gilder Lehrman Institute of American History)",
+      "url": "https://www.gilderlehrman.org/history-resources/essays/lives-andrew-carnegie"
+    },
+    {
+      "id": "src_carnegie_homestead",
+      "kind": "press",
+      "title": "History.com and Britannica's accounts of the 1892 Homestead Strike"
+    },
+    {
+      "id": "src_carnegie_gospel",
+      "kind": "archive",
+      "title": "Carnegie's own \"Gospel of Wealth\" (1889)",
+      "url": "https://en.wikipedia.org/wiki/The_Gospel_of_Wealth"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 86,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from a $2.50-a-week telegraph messenger at age 14 to superintendent of the Pennsylvania Railroad's Pittsburgh division by age 24, then built one of the largest steel enterprises in the world -- an extreme, quantified, rapid career trajectory documented across multiple independent sources."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally funded roughly 2,500 public libraries worldwide (1,679 in the US alone) and gave away roughly 90% of his fortune, over $350 million, during his own lifetime, with an explicit, articulated philosophy favoring institutions that \"help people help themselves\" over direct handouts -- a specific, sustained, quantified, strategically-designed giving program."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Published \"Gospel of Wealth\" (1889), articulating the unusual, explicit position that the wealthy are merely \"trustees\" of their fortune with a moral obligation to give it away during their own lifetime rather than to heirs -- a genuinely counter-cultural stance for a man of his era and class, published years before most of his own giving occurred."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally authorized his operations manager, Henry Clay Frick, to break the steelworkers' union at the Homestead plant ahead of the workers' contract expiration in 1892, a decision that led directly to a lockout of 3,800 workers and a violent confrontation in which 12 people were killed, followed by a documented multi-year reduction in wages and increase in working hours for the remaining workforce -- scored as a real, high-stakes, harmful documented consequence of a deliberate business decision, not framed as a positive trait."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances: taught himself telegraph operation on his own initiative, which directly led to his first major promotion, and sustained his entire education through a philanthropically-provided library for working boys rather than formal schooling."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (entrepreneurship/industry) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q484265) before any research began. A factual evidence ledger (12 distinct episodes) was built and locked before any trait score was assigned, deliberately including the Homestead Strike as a real, documented, harmful consequence of his own authorized decision rather than omitting it to produce a more flattering profile. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.149 (need 0.6); HC count 5/12; HC average 0.600 (PASSES this sub-requirement)."
+}

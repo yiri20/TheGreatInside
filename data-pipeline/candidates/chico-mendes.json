@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "chico-mendes",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Chico Mendes",
+    "wikidataId": "Q550176",
+    "birthYear": 1944,
+    "deathYear": 1988,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist"
+    ],
+    "fieldIds": [
+      "environment"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mendes_wikipedia",
+      "kind": "wikipedia",
+      "title": "Chico Mendes",
+      "url": "https://en.wikipedia.org/wiki/Chico_Mendes"
+    },
+    {
+      "id": "src_mendes_swarthmore",
+      "kind": "archive",
+      "title": "Global Nonviolent Action Database: \"Brazilian Rubber Tappers campaign to protest the deforestation of the Brazilian rainforest region, 1977-1988\"",
+      "url": "https://nvdatabase.swarthmore.edu/content/brazilian-rubber-tappers-campaign-protest-deforestation-brazilian-rainforest-region-1977-198"
+    },
+    {
+      "id": "src_mendes_history",
+      "kind": "press",
+      "title": "History.com: \"Chico Mendes, leading Brazilian conservationist, is assassinated\"",
+      "url": "https://www.history.com/this-day-in-history/december-22/chico-mendes-assassinated"
+    },
+    {
+      "id": "src_mendes_1988_interview",
+      "kind": "press",
+      "title": "Jornal do Brasil interview (December 9, 1988) in which Mendes named his own threateners"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Helped organize the Xapuri Rural Workers Union in the early 1970s and later became its president, then united multiple separate rural rubber-tapping unions across different communities into one coordinated regional campaign to protect the rainforest -- sustained, escalating organizational leadership rather than a single local role."
+    },
+    "proactive_agency": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally developed and directed the \"empate\" (standoff) direct-action tactic -- organizing large bands of rubber tappers to travel to threatened forest areas, occupy them, and physically force logging crews out -- rather than relying solely on formal political or legal channels."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally convinced the Brazilian federal government to establish the first-ever legally protected \"extractive reserve\" (61,000 acres, October 1988), and separately persuaded international environmentalists, UN Environment Programme representatives, and the US Congress to directly engage with Amazon deforestation issues after showing them evidence in Xapuri and testifying in Washington."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued public organizing and speaking activity, including publicly naming the specific individuals who had directly threatened his life in a December 9, 1988 newspaper interview, just thirteen days before his assassination -- a documented, sustained pattern of continuing high-visibility activity under direct, credible personal threat."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly organized direct physical confrontations with active logging crews over many years via the empate tactic, a sustained willingness to engage in direct, in-person conflict rather than relying only on distant political advocacy."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (environmental/social reform) and Latin America regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q550176) before any research began. A factual evidence ledger (8 distinct episodes) was built and locked before any trait score was assigned. His 1988 assassination is recorded as biographical context only -- no row scores what was done TO him; the risk_tolerance row is scored from his own documented choice to continue speaking publicly and naming his threateners, per this project's discipline against deriving trait content from victimization. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.146 (need 0.6); HC count 5/12; HC average 0.614 (PASSES this sub-requirement). A short life (assassinated at 44) genuinely limits the available documented episode count."
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "simone-weil",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Simone Weil",
+    "wikidataId": "Q157309",
+    "birthYear": 1909,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "writer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "cultural",
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "theorist",
+      "ascetic"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_weil_wikipedia",
+      "kind": "wikipedia",
+      "title": "Simone Weil",
+      "url": "https://en.wikipedia.org/wiki/Simone_Weil"
+    },
+    {
+      "id": "src_weil_factory_jstor",
+      "kind": "press",
+      "title": "\"Simone Weil: Voluntary Worker\" (JSTOR Daily) -- documents her 1934-1935 factory labor experiment",
+      "url": "https://daily.jstor.org/simone-weil-voluntary-worker/"
+    },
+    {
+      "id": "src_weil_stanford",
+      "kind": "biography",
+      "title": "Simone Weil entry, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/simone-weil/"
+    },
+    {
+      "id": "src_weil_own_writing",
+      "kind": "archive",
+      "title": "Weil's own Factory Journal and her London-period work The Need for Roots"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independent, decades-spanning documented instances of translating philosophical conviction directly into personal action rather than abstract theorizing: took unpaid leave from teaching to become an unskilled factory laborer, insisting on living on the actual factory wage (1934-1935); joined an armed anarchist militia at the Spanish Civil War front (1936); and deliberately restricted her own food intake in 1943 to match the ration levels available to French civilians under occupation."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Two independent, high-stakes documented instances of accepting real personal risk and hardship for principle: voluntarily became an unskilled factory laborer living on factory wages alone specifically to experience industrial workers' real material conditions, and joined an armed anarchist militia at the Spanish Civil War front, where she sustained a serious foot and ankle burn injury in a camp accident."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained political activism on behalf of factory workers, peasants, and colonized people while employed as a secondary-school teacher across multiple institutions (1931-1937), drawing repeated documented institutional criticism for this activism, a sustained willingness to remain in institutional friction rather than moderate her public positions."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Traveled to Barcelona in 1936 hoping a genuine working-class revolution was underway, but after direct front-line observation over several weeks concluded that the atmosphere of civil war itself was \"fatal to the ideals for which the war was being fought\" -- a genuine, reasoned revision of her initial position based on direct evidence rather than continued adherence to her prior hope."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantial, independently-verifiable activity across teaching, industrial manual labor, armed political conflict, and formal wartime governmental planning work (preparing reports on France's post-war reconstruction for the Free French movement in London, 1942-1943), all within roughly a decade -- genuinely distinct domains, not variations on one theme."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (philosophy) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q157309) before any research began. A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned. Her 1943 death from tuberculosis aggravated by self-imposed rationing, and some retrospective sources' speculation about an eating disorder, are NOT used as evidence for any row -- only the documented, stated behavioral fact (deliberately matching occupied-France ration levels, consistent with her earlier factory-era principle of direct experiential solidarity) is scored, per CLAUDE.md's Safety section against inferring medical/psychological conditions. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.147 (need 0.6); HC count 4/12; HC average 0.595 (PASSES this sub-requirement). A short life (died at 34) genuinely limits the available documented episode count."
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "willy-brandt",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Willy Brandt",
+    "wikidataId": "Q2514",
+    "birthYear": 1913,
+    "deathYear": 1992,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "reconciliation"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_brandt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Willy Brandt",
+      "url": "https://en.wikipedia.org/wiki/Willy_Brandt"
+    },
+    {
+      "id": "src_brandt_biography_site",
+      "kind": "institution",
+      "title": "Willy Brandt Biography (Bundeskanzler-Willy-Brandt-Stiftung) -- documents his 1933-1945 exile and resistance activity",
+      "url": "https://www.willy-brandt-biography.com/resistance-fighter-in-norwegian-exile/"
+    },
+    {
+      "id": "src_brandt_kniefall",
+      "kind": "institution",
+      "title": "Deutsches Historisches Museum's account of the Warsaw Genuflection (1970)",
+      "url": "https://www.dhm.de/journal/en/post/the-warsaw-genuflection-willy-brandts-historic-gesture"
+    },
+    {
+      "id": "src_brandt_guillaume",
+      "kind": "archive",
+      "title": "German History in Documents and Images (GHDI): The Guillaume Affair (April/May 1974)",
+      "url": "https://germanhistorydocs.org/en/two-germanies-1961-1989/ghdi:image-5048"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Two independent, extremely high-stakes documented instances: became one of the first to openly resist Hitler's regime immediately after its January 1933 rise, adopting an assumed identity for protection and going into exile in Norway, where sustained anti-Nazi political activity led directly to his German citizenship being revoked (1938); and fled a second country, Sweden, in 1940 under direct German occupation threat."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued Ostpolitik (reconciliation with Eastern Europe and the Soviet Union) as a deliberate, sustained policy position directly against the dominant Cold War-era West German political consensus, sustaining the policy through years of severe domestic political attack (labeled a \"Verzichtspolitiker,\" or renunciation politician, by opponents)."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained Ostpolitik through years of vocal, organized domestic political opposition that accused him of a \"sell-out of German interests,\" rather than moderating the policy, ultimately winning a landslide re-election in late 1972 on the same platform."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His 1970 kneeling gesture before the Warsaw Ghetto Uprising memorial during a state visit to Poland is specifically documented as unplanned and spontaneous, not a scripted diplomatic protocol item, remaining silently in that position for roughly 30 seconds -- a genuinely self-initiated, in-the-moment act beyond any formal diplomatic requirement."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "When a top aide, Gunter Guillaume, was revealed to be an East German intelligence agent (April 1974), Brandt personally assumed political responsibility and resigned as Chancellor within roughly two weeks (May 6, 1974), rather than deflecting blame or delaying a decision."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served as Chancellor of West Germany (1969-1974) and, even after resigning that role over the Guillaume affair, continued leading the Social Democratic Party as its chairman for a further thirteen years (until 1987) -- sustained institutional leadership across two distinct formal capacities over decades."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (politics/leadership) and Central Europe regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q2514) before any research began. A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 6 scored attributes (need 18); coverage 0.178 (need 0.6); HC count 6/12; HC average 0.572 (PASSES this sub-requirement)."
+}

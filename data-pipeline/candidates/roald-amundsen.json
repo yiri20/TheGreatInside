@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "roald-amundsen",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Roald Amundsen",
+    "wikidataId": "Q926",
+    "birthYear": 1872,
+    "deathYear": 1928,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NO"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_amundsen_wikipedia",
+      "kind": "wikipedia",
+      "title": "Roald Amundsen",
+      "url": "https://en.wikipedia.org/wiki/Roald_Amundsen"
+    },
+    {
+      "id": "src_amundsen_inuit",
+      "kind": "press",
+      "title": "\"Lessons from the Northwest Passage: Roald Amundsen's experiences in the Canadian Arctic\" (Canadian Geographic)",
+      "url": "https://canadiangeographic.ca/articles/lessons-from-the-northwest-passage-roald-amundsens-experiences-in-the-canadian-arctic/"
+    },
+    {
+      "id": "src_amundsen_secrecy",
+      "kind": "press",
+      "title": "\"Roald Amundsen - Conqueror of the South Pole\" (Biographics) -- documents the secret South Pole plan change and creditor pressure",
+      "url": "https://biographics.org/roald-amundsen-conqueror-of-the-south-pole/"
+    },
+    {
+      "id": "src_amundsen_southpole_wiki",
+      "kind": "archive",
+      "title": "\"Amundsen's South Pole expedition\" -- detailed account of the dog-sled planning strategy"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, decades-spanning documented instances: deliberately built expertise over years before major expeditions (a commercial sealing voyage in 1894, the Belgica polar expedition in 1896, then two full winters directly learning survival skills from Netsilik Inuit communities during the 1903-1906 Northwest Passage voyage); and specifically planned a dog-sled provisioning strategy for the South Pole attempt, including using dogs as a deliberate food-supply-extension measure along the route."
+    },
+    "resourcefulness": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Deliberately learned and adopted multiple specific Inuit survival techniques -- animal-skin clothing in place of heavy wool, dog-sled travel, icing sledge runners for better sliding, and efficient igloo construction -- rather than relying on conventional European polar-expedition methods, then directly transferred these techniques to his later, higher-stakes South Pole expedition."
+    },
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, historically first-ever achievements: became the first person to successfully navigate the Northwest Passage (1903-1906), and reached the South Pole (December 14, 1911) a full month ahead of a competing expedition."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Secretly redirected a fully-funded, publicly-announced North Pole expedition toward the South Pole instead after rival explorers' 1909 North Pole claims, keeping the true objective hidden from almost everyone including his own crew and financial backers, with real, documented personal financial ruin at stake if the gambit failed to deliver a result his creditors would accept."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Made a unilateral, secretive strategic pivot away from his original, publicly-committed goal specifically because he judged it no longer worth pursuing, holding this judgment against the simultaneous expectations of his government sponsor, the ship's owner, and his creditors."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (exploration) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q926) before any research began. A factual evidence ledger (11 distinct episodes) was built and locked before any trait score was assigned. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.152 (need 0.6); HC count 5/12; HC average 0.630 (PASSES this sub-requirement)."
+}

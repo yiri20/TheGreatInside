@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dorothea-dix",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Dorothea Dix",
+    "wikidataId": "Q452469",
+    "birthYear": 1802,
+    "deathYear": 1887,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_dix_wikipedia",
+      "kind": "wikipedia",
+      "title": "Dorothea Dix",
+      "url": "https://en.wikipedia.org/wiki/Dorothea_Dix"
+    },
+    {
+      "id": "src_dix_wams",
+      "kind": "institution",
+      "title": "\"Life Story: Dorothea Dix\" (Women & the American Story, New-York Historical Society)",
+      "url": "https://wams.nyhistory.org/life-story/dorothea-dix/"
+    },
+    {
+      "id": "src_dix_civilwarmed",
+      "kind": "institution",
+      "title": "National Museum of Civil War Medicine's account of Dix's Superintendent of Army Nurses tenure",
+      "url": "https://www.civilwarmed.org/dorothea-dix/"
+    },
+    {
+      "id": "src_dix_1843_memorial",
+      "kind": "archive",
+      "title": "Dix's own 1843 Memorial to the Massachusetts legislature"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Traveled alone across thousands of miles over roughly thirteen years (1841-1854) personally investigating conditions in jails, poorhouses, and prisons, then repeated the same advocacy campaign in at least fourteen separate state legislatures, each requiring fresh persuasion -- an extremely sustained, repeated, multi-decade documented pattern."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her sustained, multi-state advocacy campaign directly led to the creation or expansion of dozens of state mental asylums across at least fourteen states, documented via the well-corroborated historical record of these specific, traceable institutional outcomes."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Successfully persuaded at least fourteen separate state legislatures to fund and expand asylum systems using a documented, repeatable strategy -- fact-based written \"Memorials\" combined with moral persuasion, and deliberately leveraging powerful male allies as public-facing advocates given the era's gender barriers -- a genuinely effective, replicated methodology."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Was appointed and served as the Union's Superintendent of Army Nurses during the Civil War, a formal, high-authority national administrative role establishing recruitment standards for volunteer nurses, regardless of how the role itself later unfolded."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained ongoing, serious institutional conflict with army surgeons over her authority throughout her Civil War superintendent role, ultimately losing that authority formally when War Department Order No. 351 (October 1863) stripped her power to appoint nurses -- a genuine, high-stakes documented conflict, scored moderately since the documented outcome was losing the institutional contest, not sustained successful confrontation."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly and publicly acknowledged her Civil War superintendent role as a personal failure in her own words -- \"this was not the work I would have my life judged by\" -- a genuine, documented instance of honest self-assessment rather than defending or minimizing the outcome."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (exploration/social reform) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q452469) before any research began. A factual evidence ledger (11 distinct episodes) was built and locked before any trait score was assigned, deliberately including her own documented self-assessed failure as Superintendent of Army Nurses rather than omitting it to produce a more flattering profile. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 6 scored attributes (need 18); coverage 0.178 (need 0.6); HC count 5/12; HC average 0.576 (PASSES this sub-requirement)."
+}

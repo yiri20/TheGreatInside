@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "michael-faraday",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Michael Faraday",
+    "wikidataId": "Q8750",
+    "birthYear": 1791,
+    "deathYear": 1867,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "physics",
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "self_taught",
+      "founder",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_faraday_wikipedia",
+      "kind": "wikipedia",
+      "title": "Michael Faraday",
+      "url": "https://en.wikipedia.org/wiki/Michael_Faraday"
+    },
+    {
+      "id": "src_faraday_forgottenscience_plagiarism",
+      "kind": "press",
+      "title": "\"When Young Faraday's First Discovery Led to Charges of Plagiarism\" -- documents the 1821 electromagnetic-rotation dispute with Davy and Wollaston",
+      "url": "https://forgottenscience.org/view/when-young-faradays-first-discovery-led-to-charges-of-plagiarism"
+    },
+    {
+      "id": "src_faraday_rigb",
+      "kind": "institution",
+      "title": "Royal Institution's own biography of Michael Faraday",
+      "url": "https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867"
+    },
+    {
+      "id": "src_faraday_illness_journal",
+      "kind": "biography",
+      "title": "\"Michael Faraday's loss of memory revisited\" (Journal of the History of the Neurosciences, 2020) -- documents his 1839-1844 illness-driven research interruption"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained systematic, detailed laboratory notebooks and diaries across his entire experimental career, later published as seven volumes with an index, documented via the well-corroborated historical record of this sustained record-keeping practice."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances: worked through a full seven-year bookbinding apprenticeship, entirely unrelated to science, before breaking into the field at all; and returned to active scientific research (1844-1845) after a roughly three-year interruption following a documented 1839 illness, rather than retiring from science."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Multiple independent documented instances of prioritizing personal principle over conventional institutional reward: declined the Presidency of the Royal Society on two separate occasions, and refused to profit from patents on his own inventions on religious/ethical grounds, sustained across decades."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed foundational experimental discoveries in electromagnetism with no formal mathematical training, relying on his own physical intuition and experimental method rather than the mathematically-formalized approach dominant among contemporary physicists, documented via the well-corroborated historical account of his working method and its later mathematical formalization by others (notably Maxwell)."
+    },
+    "conflict_tolerance": {
+      "score": 42,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "After being publicly accused of plagiarism by his own mentor, Humphry Davy, within a week of his 1821 electromagnetic-rotation discovery -- with Davy then casting the sole vote against his Royal Society nomination -- Faraday deliberately withdrew from electromagnetism research for nearly a decade until Davy's death, documented via the well-corroborated historical record of both the dispute and the withdrawal. Scored on the low side deliberately: the documented response to sustained professional conflict here was withdrawal, not continued engagement."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rose from an uneducated bookbinding apprentice to one of the most significant experimental scientists of his era, sustaining major discovery output across four decades (electromagnetic rotation 1821, electromagnetic induction 1831, continued research into the 1850s), inferred as sustained exceptional achievement drive from this documented career arc."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally founded and delivered 19 of the Royal Institution's Christmas Lectures (the most given by any single individual) specifically to make science accessible to young, non-specialist audiences, described by historians as the origin of modern public science communication -- a specific, sustained, deliberate public-education commitment separate from and beyond his own research output."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Taught himself the foundations of science by reading books brought to him for rebinding during his apprenticeship, with no formal schooling, then attended a public lecture series purely as an audience member and wrote up detailed illustrated notes on his own initiative before any relationship with Davy existed -- documented via the well-corroborated account of his path into science."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sent Humphry Davy a meticulously illustrated, detailed set of notes from his lecture series, complete with his own drawings of the apparatus, as an unsolicited job application -- a single but very concrete documented instance that directly led to his hiring."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (science) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80 for the full cohort and selection rationale. Identity verified live against Wikidata (Q8750) before any research began. A factual evidence ledger (13 distinct episodes) was built and locked before any trait score was assigned. His 1839 illness is scored ONLY as a documented behavioral fact (a multi-year research interruption followed by a return to work) -- no diagnosis or psychological characterization of the illness itself is asserted or used as evidence, per CLAUDE.md's Safety section. Scoring was locked BEFORE eligibility_v2 was consulted; see the checkpoint for the full-cohort eligibility result, run once across all 15 fresh candidates together."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 9 scored attributes (need 18); coverage 0.277 (need 0.6); HC count 9/12; HC average 0.589 (PASSES this sub-requirement). The real, well-documented episodes available for a 19th-century scientist -- even researched deeply, with primary/scholarly sources -- support a smaller, honest trait footprint than 18 attributes."
+}

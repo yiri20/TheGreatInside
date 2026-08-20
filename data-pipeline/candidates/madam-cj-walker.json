@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "madam-cj-walker",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Madam C.J. Walker",
+    "wikidataId": "Q447716",
+    "birthYear": 1867,
+    "deathYear": 1919,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "historical",
+      "social",
+      "economic"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_walker_wikipedia",
+      "kind": "wikipedia",
+      "title": "Madam C. J. Walker",
+      "url": "https://en.wikipedia.org/wiki/Madam_C._J._Walker"
+    },
+    {
+      "id": "src_walker_blackpast",
+      "kind": "biography",
+      "title": "BlackPast.org biography of Madam C.J. Walker (1867-1919)",
+      "url": "https://blackpast.org/african-american-history/walker-madam-c-j-1867-1919/"
+    },
+    {
+      "id": "src_walker_smithsonian",
+      "kind": "institution",
+      "title": "Smithsonian: \"How Business Executive Madam C. J. Walker Became a Powerful Influencer of the Early 20th Century\"",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/how-business-executive-madam-c-j-walker-became-powerful-influencer-early-20th-century-180971628/"
+    },
+    {
+      "id": "src_walker_gilder",
+      "kind": "institution",
+      "title": "Gilder Lehrman Institute of American History: \"Madam C. J. Walker: A Life of Reinvention\"",
+      "url": "https://www.gilderlehrman.org/history-resources/essays/madam-c-j-walker-life-reinvention"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 84,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Grew from working as a washerwoman earning $1.50 a day to building a national manufacturing and sales operation employing roughly 40,000 people across the United States, Central America, and the Caribbean, documented via the well-corroborated historical record of this specific, quantified career trajectory."
+    },
+    "resourcefulness": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances: developed her hair-care formula from direct personal experience of the exact hair-loss problem she was solving, and built her entire distribution model around door-to-door sales through African American community networks and advertising in Black-owned newspapers -- a channel mainstream retail of the era entirely ignored."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and formalized a national sales-agent training system (the \"Walker Method\"), operating from a purpose-built Indianapolis factory, and personally organized her thousands of sales agents into structured local and national clubs -- sustained, deliberate organizational leadership beyond her own individual business success."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Deliberately used her own national sales-agent convention in Philadelphia (1917, one of the first national gatherings of businesswomen in the US) to explicitly encourage political activism among her agents -- anti-lynching work and support for Black soldiers in World War I -- rather than treating it as a purely commercial event."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a continuous working path from washerwoman supporting her daughter's education on $1.50 a day, through developing her own product from personal struggle, to building a national manufacturing operation -- a single long, documented arc from extreme hardship to major business success."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (entrepreneurship) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q447716) before any research began. A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned. Source material described her brother-in-law's household as abusive during her childhood -- that characterization of a private relationship is NOT used as evidence for any row; only the objective, documented behavioral fact (she married at 14, specifically to leave that household) informed the surrounding context, and was not itself scored as a trait row. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.155 (need 0.6); HC count 5/12; HC average 0.606 (PASSES this sub-requirement)."
+}

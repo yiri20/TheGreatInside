@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dorothy-hodgkin",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Dorothy Hodgkin",
+    "wikidataId": "Q7487",
+    "birthYear": 1910,
+    "deathYear": 1994,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "chemist"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "biochemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hodgkin_wikipedia",
+      "kind": "wikipedia",
+      "title": "Dorothy Hodgkin",
+      "url": "https://en.wikipedia.org/wiki/Dorothy_Hodgkin"
+    },
+    {
+      "id": "src_hodgkin_nobel",
+      "kind": "award_body",
+      "title": "NobelPrize.org biographical account of Dorothy Crowfoot Hodgkin",
+      "url": "https://www.nobelprize.org/stories/women-who-changed-science/dorothy-hodgkin/"
+    },
+    {
+      "id": "src_hodgkin_royal_society",
+      "kind": "institution",
+      "title": "Royal Society case study on Dorothy Hodgkin as a scientist with a disability",
+      "url": "https://royalsociety.org/about-us/who-we-are/diversity-inclusion/case-studies/scientists-with-disabilities/dorothy-hodgkin/"
+    },
+    {
+      "id": "src_hodgkin_pugwash",
+      "kind": "press",
+      "title": "Britannica's account of Hodgkin's chairmanship of the Pugwash Conferences on Science and World Affairs (1976-1988)"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, very long-duration documented instances: pursued insulin's molecular structure for more than three decades, explicitly describing it as \"impossibly complex,\" before finally resolving it in 1969; and continued active scientific work for decades despite progressively worsening rheumatoid arthritis, rather than retiring."
+    },
+    "adaptability": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Specifically modified her own laboratory equipment (had a longer lever made for the X-ray machine's main switch) to continue working as her hands deteriorated from rheumatoid arthritis, and adjusted her international conference-travel practices (using a wheelchair, bringing family assistance) rather than withdrawing from the scientific community, documented via the Royal Society's own case study of her career."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, sustained, formal international leadership roles: chaired the Pugwash Conferences on Science and World Affairs for twelve years (1976-1988), and was a founding figure in the International Union of Crystallography."
+    },
+    "analytical_rigor": {
+      "score": 86,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Solved the complex three-dimensional molecular structures of penicillin (in roughly four years, 17 atoms), insulin (over three decades), and vitamin B12 via X-ray crystallography, documented via the sole 1964 Nobel Prize in Chemistry recognizing this body of work."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Insisted on including Chinese and Soviet scientists in the International Union of Crystallography during the Cold War, directly against the prevailing exclusionary political climate of the era in both the US and UK, documented via the well-corroborated historical record of this specific institutional stance."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and sustained a lab culture explicitly described by former students as encouraging independence and resisting hierarchy, mentoring numerous students who went on to distinguished independent careers of their own, documented via multiple corroborating accounts of her mentoring style."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally encouraged a former student, Margaret Thatcher, to visit the Soviet Union and build rapport with Mikhail Gorbachev in the late 1980s -- a single but very concrete, high-stakes documented instance of direct interpersonal political influence."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Deliberately paused her ongoing insulin research to take on penicillin's structure specifically because of its wartime urgency, a self-initiated pivot toward higher-impact work under real-world pressure, converging with her role helping found new international scientific infrastructure (the IUCr) rather than working only within existing institutions."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained public political activism against the Vietnam War and nuclear weapons, and advocated for scientific engagement with Cold War adversary nations during a politically charged era, inferred as some real willingness to accept professional/political friction from this documented pattern, scored cautiously given overlap with the independent_thinking row above."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (science) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q7487) before any research began. A factual evidence ledger (12 distinct episodes) was built and locked before any trait score was assigned. Her rheumatoid arthritis is scored ONLY as a documented behavioral/adaptive fact (specific equipment modifications, travel adjustments), never as a medical/psychological characterization, per CLAUDE.md's Safety section. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 9 scored attributes (need 18); coverage 0.276 (need 0.6); HC count 6/12; HC average 0.620 (PASSES this sub-requirement)."
+}

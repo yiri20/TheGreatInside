@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "georgia-okeeffe",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Georgia O'Keeffe",
+    "wikidataId": "Q46408",
+    "birthYear": 1887,
+    "deathYear": 1986,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_okeeffe_wikipedia",
+      "kind": "wikipedia",
+      "title": "Georgia O'Keeffe",
+      "url": "https://en.wikipedia.org/wiki/Georgia_O%27Keeffe"
+    },
+    {
+      "id": "src_okeeffe_met",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art's essay on Georgia O'Keeffe (1887-1986)",
+      "url": "https://www.metmuseum.org/essays/georgia-okeeffe-1887-1986"
+    },
+    {
+      "id": "src_okeeffe_artnews",
+      "kind": "press",
+      "title": "\"Georgia O'Keeffe Made These Works After Going Blind\" (ARTnews) -- documents her post-1972 adaptation to macular degeneration",
+      "url": "https://www.artnews.com/art-in-america/features/georgia-okeeffe-blind-moma-1234668702/"
+    },
+    {
+      "id": "src_okeeffe_smithsonian",
+      "kind": "press",
+      "title": "\"Newly Public Letters Show Georgia O'Keeffe's Quest for Independence\" (Smithsonian)",
+      "url": "https://www.smithsonianmag.com/smart-news/newly-public-letters-show-georgia-okeeffes-quest-independence-180971784/"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly, across two decades (1929-1946), chose to spend her summers working independently in New Mexico, documented as often against her husband Alfred Stieglitz's wishes, then permanently relocated there after his death rather than remaining in New York -- a sustained, multi-decade documented pattern of prioritizing personal and artistic independence."
+    },
+    "adaptability": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Multiple independent, well-documented adaptations across roughly two decades: after losing the ability to paint unassisted oils (1972) due to progressive macular degeneration, continued working in pencil and charcoal for over a decade; then learned an entirely new medium, clay and sculpture, from an assistant; and produced a further major series of watercolors in her late 80s despite near-total blindness."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly and directly pushed back against gendered and sexualized critical readings of her work, documented via her own 1922 quoted rejection of critics who portrayed her as an \"unearthly\" creature, sustained across her career against a persistent critical framing of her work through her body."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented stylistic innovations across different career periods: her radically abstract compositions of 1915-1916 are recognized as a defining, original contribution to American modernism, and she later developed an entirely distinct regional visual vocabulary following her relocation to New Mexico."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained formal art training across four distinct institutions over more than a decade (1905-1916) while also supporting herself through a parallel multi-year teaching career across three different states (Virginia, Texas, South Carolina, 1911-1918) before establishing herself as a professional artist."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (art) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q46408) before any research began. A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned. Some source material characterized her marriage to Alfred Stieglitz as an \"abusive cycle\" -- that characterization of the relationship dynamic is NOT used as evidence for any row; only her own documented, affirmative choices (working independently in New Mexico, permanently relocating) are scored, per this project's discipline against deriving trait content from private-relationship characterizations. Her macular degeneration is scored only via the documented adaptive behaviors it prompted (new working methods and media), never as a trait cause in itself. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.152 (need 0.6); HC count 5/12; HC average 0.596 (PASSES this sub-requirement)."
+}

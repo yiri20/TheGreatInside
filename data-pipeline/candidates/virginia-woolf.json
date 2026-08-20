@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "virginia-woolf",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Virginia Woolf",
+    "wikidataId": "Q40909",
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_woolf_wikipedia",
+      "kind": "wikipedia",
+      "title": "Virginia Woolf",
+      "url": "https://en.wikipedia.org/wiki/Virginia_Woolf"
+    },
+    {
+      "id": "src_woolf_hogarth",
+      "kind": "archive",
+      "title": "\"Hogarth Press\" -- Modernist Archives Publishing Project's documented account of the Woolfs' hand-printing operation",
+      "url": "https://www.modernistarchives.com/business/the-hogarth-press"
+    },
+    {
+      "id": "src_woolf_room",
+      "kind": "archive",
+      "title": "A Room of One's Own (1929), based on Woolf's own October 1928 lectures at Newnham and Girton Colleges, Cambridge"
+    },
+    {
+      "id": "src_woolf_writing_ritual",
+      "kind": "biography",
+      "title": "Documented account of Woolf's daily writing routine and diary-based output-tracking practice"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances: maintained a strict, structured daily writing timetable (working roughly 9:30am to noon on fiction or reviews after breakfast and a morning bath), and used her own diary specifically to track her writing output and set herself targets, a sustained self-monitoring practice."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Deliberately avoided traditional narrative and plot structures in her own fiction, a documented, sustained formal choice now recognized as foundational to literary modernism, corroborated by A Room of One's Own's independently recognized status as the first modernist feminist-critical text."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed and delivered, via two public lectures at Cambridge women's colleges in October 1928, a genuinely original critical framework -- that financial independence and private space are preconditions for women's intellectual work -- later published as A Room of One's Own, documented via its well-corroborated originality and subsequent critical reception."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-founded the Hogarth Press with her husband in 1917, personally teaching herself hand-typesetting as a practical trade skill and setting the type for the press's early books herself, specifically to build independent publishing infrastructure free from external editorial constraint rather than working within existing publishing structures."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Made deliberate editorial decisions through the Hogarth Press to publish significant early work by other major modernist writers, including Katherine Mansfield's Prelude, T.S. Eliot's Poems, and works by Lytton Strachey, E.M. Forster, and Maynard Keynes -- a real curatorial and institutional role beyond her own writing."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Hogarth Press's explicitly documented purpose was to let her publish her own writing free from the constraints of editors, inferred as a real, direct autonomy motivation from this stated purpose, scored cautiously given overlap with the resourcefulness row above."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (literature) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q40909) before any research began. A factual evidence ledger (8 distinct episodes) was built and locked before any trait score was assigned. Source material extensively discussed her documented experience of mental illness and its retrospective clinical labeling (e.g. bipolar disorder) -- per CLAUDE.md's Safety section, NO row in this file uses that content as evidence; every row is grounded only in her own documented, non-diagnostic behavior (the writing routine itself, the diary-tracking practice, the press-founding, the lecture/book). Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 6 scored attributes (need 18); coverage 0.188 (need 0.6); HC count 4/12; HC average 0.588 (PASSES this sub-requirement). Row count deliberately excludes extensive source material about her documented mental illness, which is never used as trait evidence per this project's Safety discipline -- see provenance."
+}

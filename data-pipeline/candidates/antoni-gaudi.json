@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "antoni-gaudi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Antoni Gaudi",
+    "wikidataId": "Q25328",
+    "birthYear": 1852,
+    "deathYear": 1926,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect"
+    ],
+    "fieldIds": [
+      "architecture"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "ascetic"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_gaudi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Antoni Gaudi",
+      "url": "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD"
+    },
+    {
+      "id": "src_gaudi_sagradafamilia",
+      "kind": "institution",
+      "title": "Sagrada Familia's own account of Gaudi's spirituality and 40-year devotion to the project",
+      "url": "https://sagradafamilia.org/en/antoni-gaudi-humanism-and-spirituality"
+    },
+    {
+      "id": "src_gaudi_catenary",
+      "kind": "press",
+      "title": "\"Gaudi, Nature, and the Catenary Arch\" -- documents his structural method and physical string-and-weight models"
+    },
+    {
+      "id": "src_gaudi_guell",
+      "kind": "institution",
+      "title": "Antonio Gaudi Foundation's account of the Eusebi Guell patronage relationship (1883 onward)",
+      "url": "https://en.fundacionantoniogaudi.org/eusebi-guell-and-gaudi/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained singular devotion to a single project, the Sagrada Familia, for forty years (from 1883 until his death in 1926), with the final twelve years exclusively devoted to it and every other project abandoned -- an extremely long, singular, well-documented commitment."
+    },
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pioneered the catenary arch as a primary architectural device at a time when virtually all contemporary architects avoided the form as aesthetically unacceptable, and was documented as the first architect in history to combine complex ruled surfaces, catenary vaults, and branched pillars into one coherent structural system."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances: maintained a sustained, specific daily ascetic practice over years (daily Mass and prayer, dietary restriction, simple dress), and used physical inverted string-and-weight models as a systematic, methodical working technique to study structure and form before construction."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Deliberately built his architecture around a structural form, the catenary arch, that the prevailing architectural consensus of his era considered ugly and avoided, based on his own independent judgment of its mechanical efficiency and natural origin rather than contemporary taste."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally built schools for the children of workers and parishioners at the Sagrada Familia construction site, a concrete, documented act of social benefit distinct from and alongside the architectural project itself."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Gave away most of his possessions and eventually moved to live inside the Sagrada Familia's own workshop, inferred as a genuine prioritization of vocational principle over material comfort or conventional living arrangements from this documented lifestyle choice."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (architecture) and Southern Europe regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q25328) before any research began. A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned. His sustained financial dependence on patron Eusebi Guell is recorded honestly in provenance/sources as real context (most of his major surviving buildings would likely not exist without it) but is not itself used as trait evidence, since a patronage relationship is not the same claim as an active collaborative working practice. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 6 scored attributes (need 18); coverage 0.193 (need 0.6); HC count 5/12; HC average 0.638 (PASSES this sub-requirement)."
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "har-gobind-khorana",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Har Gobind Khorana",
+    "wikidataId": "Q107462",
+    "birthYear": 1922,
+    "deathYear": 2011,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN",
+      "US"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "chemist"
+    ],
+    "fieldIds": [
+      "biochemistry",
+      "genetics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_khorana_wikipedia",
+      "kind": "wikipedia",
+      "title": "Har Gobind Khorana",
+      "url": "https://en.wikipedia.org/wiki/Har_Gobind_Khorana"
+    },
+    {
+      "id": "src_khorana_conversation",
+      "kind": "press",
+      "title": "\"Har Gobind Khorana: The chemist who cracked DNA's code...\" (The Conversation) -- documents his childhood poverty and early education",
+      "url": "https://theconversation.com/har-gobind-khorana-the-chemist-who-cracked-dnas-code-and-made-the-first-artificial-gene-was-born-into-poverty-in-an-indian-village-178390"
+    },
+    {
+      "id": "src_khorana_wire",
+      "kind": "press",
+      "title": "\"Har Gobind Khorana, the Modest Professor\" (The Wire Science) -- documents his post-PhD unemployment, self-funded postdoc, and Nobel-lecture framing",
+      "url": "https://science.thewire.in/society/history/har-gobind-khorana-the-modest-professor/"
+    },
+    {
+      "id": "src_khorana_mit",
+      "kind": "institution",
+      "title": "MIT School of Science's account of Khorana's career across UBC, Wisconsin, and MIT",
+      "url": "https://science.mit.edu/gobind-khorana-molecular-biology/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances: overcame post-PhD unemployment after returning to newly independent India in 1949 by leveraging his scientific network to secure a position at Alexander Todd's laboratory in the UK; and self-funded an additional postdoctoral position under Vladimir Prelog from his own savings rather than stopping his training when no external funding was available."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A sustained, escalating institutional career trajectory (University of British Columbia, then co-director at Wisconsin's Institute for Enzyme Research, then MIT), each a deliberate move to a more prominent research platform, converging with two independent major scientific landmarks: the 1968 Nobel Prize for deciphering the genetic code, and the first total synthesis of a wholly artificial gene in 1970."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances decades apart: as a child in extreme material scarcity, walked door to door each morning seeking a household with an active cooking fire to obtain an ember for his own family's fire; and later self-funded his own further scientific training from savings rather than waiting for external funding to become available."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Taught himself German specifically to access cutting-edge chemical literature not otherwise available to him, a single but concrete, self-initiated documented instance."
+    },
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances: opened his own Nobel Prize lecture by explicitly crediting \"a large number of workers professing a variety of scientific disciplines\" rather than centering his individual role, and organized his research team to work in double shifts around the clock specifically to solve the genetic code, a sustained collective effort rather than solo work."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built and directed research programs at three successive institutions (University of British Columbia, co-director at Wisconsin, MIT), each requiring him to recruit, organize, and lead a functioning laboratory team, inferred as sustained leadership drive from this documented institutional pattern."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Was specifically given, in a colleague's own words, \"all the freedom in the world\" to pursue his own research direction at the University of British Columbia and used it to build an independent program from a comparatively marginal institution, a single documented instance."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (science) and South Asia regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q107462) before any research began. A factual evidence ledger (16 distinct episodes) was built and locked before any trait score was assigned. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 7 scored attributes (need 18); coverage 0.218 (need 0.6); HC count 5/12; HC average 0.590 (PASSES this sub-requirement)."
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "julius-nyerere",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Julius Nyerere",
+    "wikidataId": "Q186525",
+    "birthYear": 1922,
+    "deathYear": 1999,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "TZ"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "reconciliation"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nyerere_wikipedia",
+      "kind": "wikipedia",
+      "title": "Julius Nyerere",
+      "url": "https://en.wikipedia.org/wiki/Julius_Nyerere"
+    },
+    {
+      "id": "src_nyerere_shakespeare",
+      "kind": "press",
+      "title": "\"Not that he loved Shakespeare less, but that he loved Swahili more: Julius Nyerere's Swahili Editions of Julius Caesar\" -- scholarly account of his Shakespeare translations",
+      "url": "https://www.academia.edu/1236882/Not_that_he_loved_Shakespeare_less_but_that_he_loved_Swahili_more_Julius_Nyerere_s_Swahili_Editions_of_Julius_Caesar"
+    },
+    {
+      "id": "src_nyerere_ujamaa_pdf",
+      "kind": "biography",
+      "title": "\"Deconstructing Ujamaa: The Legacy of Julius Nyerere\" -- scholarly account of the Arusha Declaration, villagization, and its documented failures"
+    },
+    {
+      "id": "src_nyerere_union",
+      "kind": "press",
+      "title": "Historical accounts of the January-April 1964 Tanganyika-Zanzibar union negotiation"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 86,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Multiple independent, major, sustained leadership instances: first president of independent Tanganyika (1961), architect of the Tanganyika-Zanzibar union forming Tanzania (1964), president of Tanzania for over two decades, and a founding figure of the Organization of African Unity (1963)."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Within a month of the January 1964 Zanzibar revolution, personally proposed and drove the negotiation of a full political union between Tanganyika and the newly revolutionary government of Zanzibar, formalized within roughly three months (April 1964) -- a rapid, self-initiated, high-stakes diplomatic action under real geopolitical time pressure, rather than a slow institutional process."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances: was the first to translate Shakespeare's plays as plays into Swahili (Julius Caesar 1963, The Merchant of Venice 1969), a deliberate act of cultural and linguistic decolonization aimed at establishing Swahili's standing as a serious literary language; and articulated a distinctive African-socialist ideological and economic framework (Ujamaa, the 1967 Arusha Declaration) rather than adopting an imported Western or Soviet model wholesale."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After two decades pursuing Ujamaa, publicly cited its documented economic failures as his own explicit reason for voluntarily stepping down from the presidency in 1985 rather than continuing to defend the policy from a position of power -- a genuine, documented instance of acknowledging a major policy failure and acting on it, distinct from losing power involuntarily."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully negotiated a full political union with a separate, newly-installed revolutionary government (Zanzibar) within roughly three months, and helped build the founding coalition for the Organization of African Unity, inferred as real persuasive/negotiating skill from this documented convergence of successful multi-party diplomatic outcomes."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Deliberately selected his own successor, Ali Hassan Mwinyi, specifically to preserve unity between the mainland and Zanzibar rather than leaving the succession open, a single documented instance of forward-looking institutional planning."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (politics/leadership) and Sub-Saharan Africa regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q186525) before any research began. A factual evidence ledger (9 distinct episodes) was built and locked before any trait score was assigned. Ujamaa's villagization program's coercive 1973 escalation (making relocation compulsory after voluntary uptake failed) and its documented economic/agricultural harm are recorded honestly in provenance but are NOT used as positive evidence for any trait -- only the later 1985 voluntary-resignation-citing-failure episode is scored, since that is the genuinely documented instance of acknowledgment and course-correction. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 6 scored attributes (need 18); coverage 0.177 (need 0.6); HC count 4/12; HC average 0.600 (PASSES this sub-requirement)."
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fahrelnissa-zeid",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Fahrelnissa Zeid",
+    "wikidataId": "Q3064473",
+    "birthYear": 1901,
+    "deathYear": 1991,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "TR",
+      "JO"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_zeid_wikipedia",
+      "kind": "wikipedia",
+      "title": "Princess Fahrelnissa Zeid",
+      "url": "https://en.wikipedia.org/wiki/Princess_Fahrelnissa_Zeid"
+    },
+    {
+      "id": "src_zeid_tate",
+      "kind": "institution",
+      "title": "Tate's biographical account and \"four key works\" analysis of Fahrelnissa Zeid",
+      "url": "https://www.tate.org.uk/art/artists/fahrelnissa-zeid-22764"
+    },
+    {
+      "id": "src_zeid_aware",
+      "kind": "institution",
+      "title": "AWARE (Archives of Women Artists, Research and Exhibitions) biographical entry on Fahrelnissa Zeid",
+      "url": "https://awarewomenartists.com/en/artiste/fahrelnissa-zeid/"
+    },
+    {
+      "id": "src_zeid_estate",
+      "kind": "institution",
+      "title": "The Estate of Fahrelnissa Zeid's own biography",
+      "url": "https://www.fahrelnissazeid.org/bio"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented stylistic developments: a deliberate pivot from prolific expressionist figurative painting to full abstraction in 1948, and a subsequent development of mural-sized, kaleidoscopic-pattern paintings that art historians describe as foreshadowing Op-art."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an active exhibiting art career across at least four distinct countries within a compressed period: as a diplomat's wife in Berlin (1935), after a politically-forced relocation to Baghdad following the 1938 Austrian Anschluss, then establishing herself in Paris and London (both from the mid-1940s) -- genuinely varied geographic and social contexts each requiring real adaptation."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an active painting career across roughly five decades and multiple countries, including through a documented period of near-total erasure from mainstream Western post-war art history, before receiving major institutional recognition decades later (her first Western retrospective at Museum Ludwig in 1990, and a major Tate Modern retrospective in 2017)."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally founded the Fahrelnissa Zeid Institute of Fine Arts in Amman, Jordan, in the mid-1970s, a self-initiated institution-building act late in her career rather than continuing only as an individual practicing artist."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Traveled extensively through Europe in the 1920s specifically to visit museums and make sketches, a single documented instance of self-directed artistic research."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-08-19T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (art) and West Asia regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q3064473) before any research began. A factual evidence ledger (13 distinct episodes) was built and locked before any trait score was assigned. One source described a period of \"severe depression\" in Baghdad for which \"her main therapy was art\" -- this is NOT used as evidence for any row; only the concrete, external, non-diagnostic fact that she relocated to Paris to continue her art practice is scored, per CLAUDE.md's Safety section against inferring or building on mental-illness characterizations. Scoring was locked BEFORE eligibility_v2 was consulted."
+  },
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.159 (need 0.6); HC count 3/12; HC average 0.567 (PASSES this sub-requirement)."
+}
