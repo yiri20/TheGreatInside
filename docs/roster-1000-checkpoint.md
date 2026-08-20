@@ -4918,7 +4918,217 @@ proportions in the English mobile quiz's answer-choice layout remains
 open and must be fixed and verified before any merge to `main`,
 regardless of roster or research-quality status.
 
-## 13. Exact next steps for a fresh session (updated session 13)
+## 80. Session 14 — blind calibration experiment: does eligibility_v2
+## naturally admit fresh candidates under the Session 13 research depth
+## standard? (2026-08, IN PROGRESS -- cohort locked before scoring)
+
+**Mandate**: session 13 established that a 3-source research pass was
+under-powered but did not resolve whether `eligibility_v2` itself admits
+fresh candidates at a healthy rate once research depth is genuinely
+fixed. This session is an uncontaminated measurement, not a rescue pass
+-- the session-13 six (Borges, Mendel, Kovalevskaya, Fanon, Sankara,
+Zewail) are explicitly out of scope and untouched.
+
+**Cohort selected BEFORE any research or eligibility inspection**, 15
+people, chosen for domain breadth first, checked only for name/slug
+collision against the full 138-file `data-pipeline/candidates/`
+directory and the live 87-person roster (both name- and slug-level) --
+never for expected trait coverage or eligibility likelihood:
+
+```
+Science/mathematics:       Michael Faraday, Dorothy Hodgkin,
+                            Har Gobind Khorana
+Literature/philosophy:     Virginia Woolf, Simone Weil
+Politics/public leadership: Julius Nyerere, Willy Brandt
+Art/architecture:          Antoni Gaudi, Georgia O'Keeffe,
+                            Fahrelnissa Zeid
+Entrepreneurship/industry: Madam C.J. Walker, Andrew Carnegie
+Exploration/social reform: Dorothea Dix, Roald Amundsen, Chico Mendes
+```
+
+Region spread (secondary to domain, not force-balanced this session):
+western_europe 5 (Faraday, Hodgkin, Woolf, Weil, Amundsen),
+north_america 4 (O'Keeffe, Walker, Carnegie, Dix), southern_europe 1
+(Gaudi), central_europe 1 (Brandt), west_asia 1 (Zeid), south_asia 1
+(Khorana), sub_saharan_africa 1 (Nyerere), latin_america 1 (Mendes).
+
+Confirmed zero collisions at both the name and slug level against the
+full candidates directory and the live roster before any file was
+created (this is precisely the check session 12 skipped and session 13
+had to repair after the fact).
+
+**Identity preflight**: all 15 verified live against their Wikidata
+entity (label/description match) via `identityPreflight.ts` before any
+research began, and re-verified clean after scoring (138 total: 15/15
+match, 0 mismatches). No corrections were needed this session -- every
+QID was found correct on the first live check, unlike session 13's
+16-wrong-QID corpus audit.
+
+**Research standard**: 3-4 genuinely substantive sources per candidate
+(Wikipedia plus at least one scholarly/institutional/press/primary
+source, e.g. MacTutor-equivalent institutional biographies, a Royal
+Institution/Nobel/Tate/museum's own account, a period newspaper
+interview, an academic PDF), matching session 13's discipline of never
+relying on personality-typing content. A factual evidence ledger of 8-13
+distinct, source-attributed episodes was built and LOCKED per candidate
+before any trait score was written; no eligibility metric was consulted
+at any point before all 15 were independently locked.
+
+**Scored rows and HC counts, all 15, before eligibility was ever
+run:**
+
+```
+                    rows  coverage  HC   HCavg   eligible
+michael-faraday       9    0.277     9  0.589    false
+dorothy-hodgkin       9    0.276     6  0.620    false
+har-gobind-khorana    7    0.218     5  0.590    false
+virginia-woolf        6    0.188     4  0.588    false
+simone-weil           5    0.147     4  0.595    false
+julius-nyerere        6    0.177     4  0.600    false
+willy-brandt          6    0.178     6  0.572    false
+antoni-gaudi          6    0.193     5  0.638    false
+georgia-okeeffe       5    0.152     5  0.596    false
+fahrelnissa-zeid      5    0.159     3  0.567    false
+madam-cj-walker       5    0.155     5  0.606    false
+andrew-carnegie       5    0.149     5  0.600    false
+dorothea-dix          6    0.178     5  0.576    false
+roald-amundsen        5    0.152     5  0.630    false
+chico-mendes          5    0.146     5  0.614    false
+```
+
+**Eligibility result, run exactly once across the full locked cohort:
+0/15.** No row was modified after this result was observed.
+
+**Cohort distribution (per instruction 7):**
+
+```
+Natural eligibility rate:      0/15 (0%)
+Mean scored rows:              6.0    (range 5-9)
+Median scored rows:            6
+Mean HC-count:                 5.07   (range 3-9)
+Median HC-count:                5
+Short by 0-2 rows (16-17):      0 candidates
+Short by 3-5 rows (13-15):      0 candidates
+Short by 6+ rows (<=12):       15 candidates (ALL of them)
+```
+
+**What drives the failure, checked directly, not assumed**: overwhelmingly
+raw scored-attribute count and, mechanically following from it, coverage
+-- every candidate sits between 0.146 and 0.277 coverage against a 0.6
+floor, more than 2x short. By contrast, EVERY one of the 15 already
+CLEARS the high-confidence-average sub-requirement (all >=0.567 against
+the 0.55 floor) -- when evidence existed, it was consistently scored at
+a real, defensible confidence level, not thin or forced. HC-count in
+absolute terms is also far under the 12 floor for all 15, but this
+follows mechanically from the low row count (a candidate can have at
+most as many HC rows as total rows). **Confidence quality was never the
+bottleneck this session; sheer evidence quantity was.**
+
+**Domain-level pattern, reported with the explicit caveat this is 15
+data points, not a reliable per-domain signal**: the two highest row
+counts (Faraday 9, Hodgkin 9) are both scientists with well-documented,
+discretely-recorded institutional/prize histories (Royal Institution
+archives, Nobel materials); the lowest counts cluster among art/
+exploration/entrepreneurship candidates (5-6 rows) whose documented
+lives, in the sources actually found, tend to concentrate around fewer,
+larger episodes (one signature achievement, one defining relationship
+or crisis) rather than many separately-verifiable smaller incidents.
+This is a real, observed pattern in this specific 15-person sample, not
+a generalizable claim about any occupation.
+
+**Interpretation -- Case D (genuine confound), not cleanly A, B, or C,
+reported honestly rather than forced into the closest bucket.** The
+single most important, self-critical finding of this session: **the
+mean row count this session (6.0) is roughly half of session 13's mean
+(12.83) on a comparable research standard**, and several of this
+session's candidates are comparably well-documented public figures to
+session 13's own six (Carnegie, Dix, Amundsen, Hodgkin all have
+extensive scholarly/institutional source bases, similar in kind to
+Sankara's speeches or Borges's own extensive corpus) yet landed at only
+5-9 rows against session 13's 10-16. Two honest, non-exclusive
+explanations were weighed:
+1. **Per-candidate research effort was likely shallower this session
+   than session 13's**, purely as a consequence of researching 15
+   people in one session versus 6 -- session 13 typically ran 3-5
+   targeted searches plus 1-2 direct fetches per person and iterated
+   until a rich ledger was clearly exhausted; this session typically
+   ran 2-3 searches plus 0-1 fetches per person. This is a real,
+   admitted difference in effort, not merely a hypothesis.
+2. Some of this cohort's genuine biographical shape (concentrated
+   around fewer defining episodes, as the domain-pattern note above
+   describes) may independently produce a lower natural row count
+   regardless of research effort.
+
+**Given explanation 1 cannot be ruled out and is the more parsimonious
+account of the roughly 2x row-count gap, this session's 0/15 result
+does NOT cleanly establish that `eligibility_v2` is too restrictive
+(Case C).** It also does not establish Case A or B, since the natural
+pass rate here is genuinely 0%, not merely low. The honest, conservative
+reading: **this session raised the research-depth bar over session 12's
+original 3-source default, and that alone was not sufficient to
+reach eligibility for any of 15 fresh, diverse candidates -- but this
+session's own research depth was itself likely not yet matched to
+session 13's demonstrated standard, so a properly controlled test (equal
+research effort per candidate, ideally with an explicit source/query
+budget held constant) has still not been run.** `eligibility_v2` itself
+was not modified, redesigned, or found unstable under these inputs --
+per instruction, that question is explicitly deferred to a future
+session's fresh, explicit decision, not resolved here.
+
+**Promotions: none.** 0/15 naturally passed; no near-miss was rescued;
+no requirement was weakened. **Final roster: unchanged at 87 people, 86
+match-eligible.** No dispersion/calibration regeneration was needed (no
+roster change).
+
+**Full automated gate, final**: `tsc --noEmit` clean · `vitest run`
+**569/569** (unchanged -- no `src/core`/test file touched, no roster
+promotion) · full-corpus `validateCandidates.ts`: 0 errors, 0 warnings
+across all 153 candidate files (101 held + 52 qa_passed) · full-corpus
+`identityPreflight.ts`: 15/15 new match, 0 mismatches, 0 fetch failures
+· `checkScoringLockIntegrity.ts`: 0 flagged across 138 previously-
+committed files · explicitly confirmed via `git diff --stat` that all 6
+session-13 diagnostic candidate files (Borges, Mendel, Kovalevskaya,
+Fanon, Sankara, Zewail) show ZERO diff this session -- untouched, their
+Session 13 conclusion stands exactly as recorded in Sec.79, not
+reopened or revised. No Playwright run was needed -- no user-facing
+route, component, or live roster content changed.
+
+**Standing merge blocker, unchanged, not touched this session**: the
+real external user report of awkward forced wrapping / poor responsive
+proportions in the English mobile quiz's answer-choice layout remains
+open and must be fixed and verified before any merge to `main`,
+regardless of roster or research-quality status.
+
+## 13. Exact next steps for a fresh session (updated session 14)
+
+**IMPORTANT: read §80 before running another blind calibration
+experiment or selecting a fresh candidate batch.** Session 14 ran an
+uncontaminated, 15-person, cross-domain blind calibration experiment
+(cohort selected before any research; identity preflighted; evidence
+ledgers built and locked per-candidate before any trait score; scoring
+locked before `eligibility_v2` was ever consulted; the gate run exactly
+once across the full batch) specifically to test whether `eligibility_v2`
+naturally admits fresh candidates at a healthy rate once research depth
+is fixed. **Result: 0/15 eligible**, mean 6.0 scored rows (range 5-9),
+mean HC-count 5.07 -- every candidate short by 6+ rows, none within
+striking distance of the 18-row floor. **This does NOT cleanly confirm
+`eligibility_v2` is too restrictive (Case C)**: the session's own honest
+self-audit found its mean row count (6.0) was roughly HALF session 13's
+mean (12.83) on what was intended to be a comparable research standard,
+and several comparably-documented candidates (Carnegie, Dix, Amundsen,
+Hodgkin) landed at only 5-9 rows versus session 13's 10-16 for similarly
+documented figures -- the most parsimonious explanation is that
+per-candidate research effort was genuinely shallower this session
+(researching 15 people vs. session 13's 6, with correspondingly fewer
+searches/fetches per person), not that eligibility_v2's threshold is
+unreachable. **`eligibility_v2` was NOT modified, redesigned, or found
+unstable** -- this remains an open, NOT YET properly controlled question
+for a future session: run a smaller cohort (5-8 people) researched to
+session-13's demonstrated depth (an explicit source/query budget per
+candidate, not merely "aim for 4-6 sources") before drawing any
+conclusion about the gate itself. Full distribution table and reasoning:
+§80. No candidate was promoted; roster remains unchanged at 87 people,
+86 match-eligible.
 
 **IMPORTANT: read §79 before doing any new candidate research or
 building any more identity tooling.** Session 13 built real, live
@@ -5049,15 +5259,39 @@ before-eligibility process this session's research also followed:
     fixed this session, per explicit instruction — must be fixed and
     verified before any merge to `main`, regardless of roster headcount.
 
-## 14. Known blockers / open questions for a future session (updated session 13)
+## 14. Known blockers / open questions for a future session (updated session 14)
 
 - **STANDING MERGE BLOCKER, unrelated to roster-1000 data (session 12,
-  §78; reconfirmed still open, session 13 §79)**: a real external user
-  reported awkward forced wrapping / poor responsive proportions in the
-  English mobile questionnaire's answer-choice layout. Not investigated
-  or fixed in either session, per explicit instruction — must be fixed
-  and verified before any merge to `main`, regardless of roster
-  headcount or data quality at that time.
+  §78; reconfirmed still open, session 13 §79; reconfirmed still open,
+  session 14 §80)**: a real external user reported awkward forced
+  wrapping / poor responsive proportions in the English mobile
+  questionnaire's answer-choice layout. Not investigated or fixed in
+  any of these sessions, per explicit instruction — must be fixed and
+  verified before any merge to `main`, regardless of roster headcount
+  or data quality at that time.
+- **A properly-controlled calibration experiment for `eligibility_v2`'s
+  natural admission rate has still NOT been run** (session 14, §80).
+  Session 14's 15-person, 0/15 result is real and honestly reported, but
+  its own self-audit found the mean row count (6.0) was roughly half
+  session 13's mean (12.83) on what was meant to be a comparable
+  research standard -- the most likely explanation is genuinely
+  shallower per-candidate research effort (15 people researched in one
+  session vs. session 13's 6), not that eligibility_v2's threshold is
+  unreachable. **A future session should run a SMALLER cohort (5-8
+  people) held to session-13's demonstrated depth per candidate** (an
+  explicit source/query budget, not just "aim for 4-6 sources") before
+  any conclusion about `eligibility_v2` itself is drawn. Do not
+  redesign or loosen `eligibility_v2` based on session 14's result
+  alone -- the confound has not been ruled out.
+- **Session 14 added 15 fresh, genuinely diverse candidates, all held,
+  0/15 eligible** -- Michael Faraday, Dorothy Hodgkin, Har Gobind
+  Khorana, Virginia Woolf, Simone Weil, Julius Nyerere, Willy Brandt,
+  Antoni Gaudi, Georgia O'Keeffe, Fahrelnissa Zeid, Madam C.J. Walker,
+  Andrew Carnegie, Dorothea Dix, Roald Amundsen, and Chico Mendes. Every
+  one has a real, source-grounded 5-9-row profile and a specific,
+  honest holdReason. None should be treated as "probably eligible with
+  a bit more work" without a genuinely new, substantive source lead --
+  same discipline as the session-13 six.
 - **A live-roster identity-integrity defect was found and fixed this
   session (§79): `benito-juarez`'s Wikidata QID pointed at Bill
   Clinton.** This shipped, undetected, through session 11's original

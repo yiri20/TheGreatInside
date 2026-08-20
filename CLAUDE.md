@@ -3388,6 +3388,40 @@ effect on scoring/matching, per this project's existing rule that
 clean with an unchanged route table. Full record:
 `docs/roster-1000-checkpoint.md` §79.
 
+**Session 14 (2026-08) ran an uncontaminated blind calibration
+experiment to test whether `eligibility_v2` naturally admits fresh
+candidates once research depth is fixed — no rescue pass on the
+session-13 six, a fresh 15-person cross-domain cohort instead.** Cohort
+(Michael Faraday, Dorothy Hodgkin, Har Gobind Khorana, Virginia Woolf,
+Simone Weil, Julius Nyerere, Willy Brandt, Antoni Gaudi, Georgia
+O'Keeffe, Fahrelnissa Zeid, Madam C.J. Walker, Andrew Carnegie, Dorothea
+Dix, Roald Amundsen, Chico Mendes) was selected purely for domain/region
+breadth before any research; identity-preflighted clean (15/15, 0
+corrections needed); each candidate's evidence ledger was built and
+locked, then trait scores locked, before `eligibility_v2` was ever
+consulted, run exactly once across the full batch with no post-hoc
+edits. **Result: 0/15 eligible**, mean 6.0 scored rows (range 5-9),
+every candidate short by 6+ rows of the 18-row floor. **The session's
+own honest self-audit is the load-bearing finding, not the 0/15 alone**:
+mean row count (6.0) was roughly HALF session 13's mean (12.83) on what
+was meant to be a comparable research standard, and several
+comparably-documented candidates (Carnegie, Dix, Amundsen, Hodgkin)
+landed at only 5-9 rows versus session 13's 10-16 for similarly
+well-documented figures — the more parsimonious explanation is
+genuinely shallower per-candidate research effort (15 people researched
+in one session vs. session 13's 6, correspondingly fewer searches/
+fetches per person), not that `eligibility_v2`'s threshold is
+unreachable. **This result therefore does NOT cleanly establish that
+`eligibility_v2` is too restrictive** — that would require a properly
+controlled follow-up (a smaller cohort held to session-13's demonstrated
+per-candidate depth) that has not yet been run. `eligibility_v2` itself
+was not modified, redesigned, or touched. No candidate was promoted;
+roster remains unchanged at 87 people, 86 match-eligible. All 15 new
+candidate files carry a real, source-grounded evidence base and an
+honest holdReason — same discipline as the session-13 six, not padded
+and not treated as secretly eligible. `tsc` clean, `vitest` 569/569
+(unchanged). Full record: `docs/roster-1000-checkpoint.md` §80.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 
