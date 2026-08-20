@@ -5793,7 +5793,343 @@ locked episode files) computed every statistic in this section and in
 structural hypothesis is explicitly exploratory and untested, not a
 confirmed rule to enshrine).
 
+## 84. Session 18 — the first PROSPECTIVE production pilot: one explicit
+## evidence-preserving protocol applied to a fresh 5-person cohort, 3/5
+## eligible (2026-08)
+
+**1. Purpose and framing, unchanged from the brief.** Sessions 13-17 were
+diagnostic (identity-integrity tooling, blind calibration experiments,
+frozen-ledger scoring reproducibility, diagnostic-density classification).
+That phase was declared sufficiently complete; Session 18 was the first
+PROSPECTIVE pilot of the production workflow intended to actually expand
+the roster — not another retrospective audit. Governing strategic
+direction, stated explicitly by the user: stop treating 1,000 people as a
+pre-launch requirement; build a reliable production method; expand first
+toward ~150 people; launch; continue toward 300+ over time.
+
+**2. Repository state recovered and verified before any substantive work**,
+per the session's own instruction: branch `scale/roster-1000`, clean;
+checkpoint §§79-83 (sessions 13-17) read in full; roster confirmed at 87
+people / 86 match-eligible via a live read of `peopleIndex.generated.ts`
+(matching CLAUDE.md exactly); `eligibility_v2` gate constants confirmed
+directly from `src/core/matching/similarity.ts`
+(`minScoredAttributes: 18`, `minCoverage: 0.6`, `highConfidence: {
+threshold: 0.5, minCount: 12, minAverageConfidence: 0.55 }`); existing
+tooling confirmed present and working: `identityPreflight.ts`,
+`validateCandidates.ts`, `checkScoringLockIntegrity.ts`,
+`candidateSchema.ts`. Session 13-17's own conclusions were treated as
+established, not reopened (no evidence surfaced this session contradicts
+any of them).
+
+**3. Cohort selection — 5 fresh candidates, not previewed for trait
+coverage.** Selected before any research: **Louis Pasteur** (science,
+Wikidata Q529), **Fyodor Dostoevsky** (literature, Q991), **Indira
+Gandhi** (politics/leadership, Q1149), **Louis Armstrong** (music/art,
+Q1779), **William Wilberforce** (reform, Q207672). Verified via
+`comm`/`grep` against the full 157-file candidate corpus and the live
+87-person roster that none of the 5 collided with any existing candidate
+slug, live-roster slug, or the Session 13-17 diagnostic cohorts (Borges,
+Sankara, Mendel, Kovalevskaya, Fanon, Zewail; Faraday, Hodgkin, Khorana,
+Woolf, Weil, Nyerere, Brandt, Gaudi, O'Keeffe, Zeid, Walker, Carnegie,
+Dix, Amundsen, Mendes; Fermi, Baldwin, Havel, Baker). An initial art/music
+pick (Frida Kahlo) was found already live in the roster during this check
+and swapped for Louis Armstrong before any research began.
+
+**4. Identity verification, completed first, per instruction.** All 5
+QIDs resolved via live `WebFetch` against `wikidata.org` (not recalled
+from memory), then independently re-confirmed with the project's own
+`identityPreflight.ts` tool: **5/5 match, 0 mismatches, 0 duplicate
+QIDs.** Draft candidate files created with `status: "draft"` then moved
+to `"researching"` only after this check passed.
+
+**5. Research pipeline — preserved prospectively, stage by stage, in
+`src/dev/roster1000/production/session18/<slug>/`.** Five parallel
+background research agents were dispatched (one per candidate), each
+briefed as a historical researcher with NO visibility into the trait
+taxonomy or `eligibility_v2` — explicitly instructed not to reference or
+optimize for either. All 5 agents were interrupted mid-run by a session
+API limit and failed; all 5 were successfully resumed via `SendMessage`
+(preserving their in-progress research context) once the limit reset, per
+the user's own instruction to continue from where the session left off.
+Each agent produced `sources.md` (Stage A) and `rawNotes.md` (Stage B,
+raw chronological facts, not yet trait-organized). One agent (Dostoevsky)
+verbally reported writing a "Public-facing content assets" section that
+the delivered file did not actually contain — caught by direct
+inspection, not trusted from the agent's own summary, and the missing
+section was added by the orchestrating session directly from the
+already-gathered raw material (no new research), with the discrepancy
+recorded here rather than silently corrected.
+
+**6. Source depth, all 5 candidates cleared the >=4-substantive-source
+floor with real margin**: Pasteur 9 (Science History Institute, Institut
+Pasteur x2, Gavi.org, History of Vaccines, Geison and Debre biographies,
+2 peer-reviewed journal articles), Dostoevsky 6 (Joseph Frank's
+definitive biography, Anna Dostoevskaya's diary, Encyclopedia.com, Yale,
+UBC Wiki, Russian Life), Indira Gandhi 7 (Katherine Frank and Pupul
+Jayakar biographies, the published Nehru-Indira letters, Britannica, Fair
+Observer, National Herald India, LRB), Louis Armstrong 5 directly-fetched
+(Armstrong House Museum x2, Teachout's biography, The Nation, Jerry Jazz
+Musician) plus one clearly-marked corroborating layer, William Wilberforce
+6 (Hague's biography, the 1838 sons' 5-volume Life, Regency History,
+History of Parliament Online, Sojourners, Wilberforce House Museum).
+Wikipedia used only for orientation in every case, never counted.
+
+**7. Evidence-ledger construction (Stage C) done by the orchestrating
+session, not the research agents** — a deliberate methodological choice
+to keep trait-blind episode decomposition and eventual scoring under one
+consistent hand, directly responding to Session 16's own finding that
+scorer-dependent conversion discipline is a real, if minor, contributing
+factor to row-count variance. Each candidate's `rawNotes.md` was
+decomposed into atomic episodes tagged with the SAME behavioral-context/
+structure/evidence-form taxonomy `src/dev/roster1000/audits/session17/
+diagnosticRubric.md` established (14 contexts, one_time/repeated/
+longitudinal structure, self_report/third_party_observation/
+documented_action_with_inferred_motive form, explicit motive/reasoning/
+emotion flags) — reused for consistency, minus the A/B/C/D diagnostic-
+value classification, which was specific to Session 17's own audit
+purpose. Episode counts: Pasteur 26, Dostoevsky 23, Indira Gandhi 25,
+Louis Armstrong 28, Wilberforce 25 — all comfortably at or above the
+12-20 target range. Life-period coverage: Pasteur 8, Dostoevsky 6, Indira
+Gandhi 7, Armstrong 5, Wilberforce 4 — all clearing the >=3 floor.
+Evidence-structure metadata was recorded descriptively throughout (per
+instruction, never as a quota) — e.g. Indira Gandhi's ledger deliberately
+preserves both admirable and genuinely negative/controversial material
+(the 1975-77 Emergency, the forced-sterilization campaign, Operation Blue
+Star) with equal evidentiary rigor, not softened or sensationalized
+either way.
+
+**8. Evidence locked (Stage D) before any scoring began.** Each
+candidate's `EVIDENCE_LOCK.md` was written and committed before Stage E,
+stating explicitly that no further research, no trait-directed evidence
+search, and no episode rewriting would occur past that point. Full
+ledgers preserved at `src/dev/roster1000/production/session18/<slug>/
+evidenceLedger.json`.
+
+**9. Scoring (Stage E), traced to episode ids.** Every scored row's
+`rationale` cites the specific frozen episode id(s) it derives from (e.g.
+"Session 18 evidence LP-E14, LP-E16"), per `docs/scoring-rubric-v1.md`.
+Multi-trait use of a single rich episode occurred where legitimately
+distinct facets were described (e.g. Dostoevsky's 26-day `Gambler`
+dictation sprint under a punitive deadline legitimately supports
+`execution_speed`, `collaboration`, AND `resourcefulness` — raw speed,
+accepting a collaborator's practical suggestion, and improvising a
+notarized-filing workaround are three different behavioral facts within
+one episode) but was deliberately NOT mechanical — several single-use
+episodes were left single-use, and at least one candidate (Wilberforce)
+had a borrowed-episode addition (a speculative `systems_abstraction` row
+built by reusing an already-heavily-cited episode a fourth time) reasoned
+through and explicitly REJECTED as crossing from "legitimately distinct
+facets" into "squeezing one episode for coverage." Confidence bands
+followed `docs/scoring-rubric-v1.md` §3 throughout — single-episode
+support was scored `inference` (0.20-0.49) except where the episode was
+itself a strong, concrete, specific `documented` instance (per §3's own
+"one strong documented instance" branch, which can independently support
+0.65-0.84 confidence), and `strong_inference` (0.50-0.64) was reserved
+for genuinely multi-episode-corroborated rows, per §10's objective
+two-fact criterion. Final row counts: Pasteur 26, Dostoevsky 24, Indira
+Gandhi 20, Armstrong 21, Wilberforce 18 — every count an honest product of
+what the frozen evidence actually supported, not a target. Wilberforce's
+count landing exactly at the 18-row production floor was reasoned through
+explicitly, not smoothed over: his single-campaign career genuinely maps
+to fewer distinct trait dimensions than a candidate whose documented life
+spans many behavioral domains (contrast Pasteur/Armstrong/Gandhi), and
+several of his final rows are legitimately thin (single-episode,
+inference-tier).
+
+**10. Scoring locked (Stage F) before eligibility was computed even
+once.** `src/dev/roster1000/production/session18/SCORING_LOCK.md`
+written and all 5 candidate files' `rows` frozen before
+`evaluateMatchEligibility` was ever run against any of them — no
+candidate-level eligibility was previewed or distance-to-floor calculated
+during scoring, per the session's own explicit instruction.
+
+**11. `eligibility_v2` run once across the full batch — 3/5 eligible,
+both misses failing ONLY the coverage gate.**
+
+```
+candidate              scored  avgConf  coverage  HC-count  HC-avg   eligible
+louis-pasteur              26   0.615     0.769        24   0.629      TRUE
+fyodor-dostoevsky          24   0.543     0.717        18   0.578      TRUE
+louis-armstrong            21   0.537     0.623        15   0.584      TRUE
+indira-gandhi              20   0.549     0.590        13   0.617      false (coverage 0.59 < 0.60)
+william-wilberforce        18   0.556     0.542        12   0.622      false (coverage 0.54 < 0.60)
+```
+
+Both held candidates clear the scored-attribute floor (20/18, 18/18) AND
+the high-confidence-subset floor (13/12 at avg 0.617; 12/12 at avg
+0.622) — they fail on coverage alone, a genuinely different (and more
+encouraging) failure signature than sessions 14/15's "6+ rows short
+across every gate simultaneously." Neither was rescued, padded, or had
+any row revisited after seeing this result, per instruction 13's explicit
+prohibition — both are `held` with a `holdReason` naming the exact gap.
+
+**12. Promotion.** `src/dev/roster1000/generateRoster9.ts` (following
+`generateRoster8.ts`'s exact pattern — an explicit slug allowlist, never
+a blanket "every qa_passed" filter) promoted the 3 eligible candidates
+into `src/data/people/roster9.ts`, wired into `seed.ts`. Korean display
+names added to `ko.ts` for all 3 (the project's own
+`personDisplayName.test.ts` regression guard requires every current-
+roster person to have one). `peopleIndex.generated.ts` regenerated (87 ->
+**90 entries**). Dispersion regenerated (`dispersion.generated.ts`,
+routine, expected drift) and calibration anchors refreshed in
+`calibration.ts`/`greatness.ts` — drift on both tables was in the 4th
+decimal place, smaller even than session 11's already-"routine, don't
+bump" precedent, so `CALIBRATION_VERSION` correctly stayed unbumped, same
+reasoning as sessions 4/5/11. Canonical matching simulation reconfirmed
+healthy on the 90-person roster: max #1 frequency **12.0% (Warren
+Buffett)**, essentially unchanged from the pre-session-18 87-person
+figure, full 34/34-equivalent reachability preserved.
+
+**13. Public-facing content assets captured, kept structurally separate
+from scoring evidence throughout**, per instructions 16-17. Each
+candidate's `rawNotes.md` closes with a "Public-facing content assets"
+section (2-4 key achievements, 2-4 revealing anecdotes, 1-3 turning
+points, all cited) — e.g. Pasteur's "I decided not without acute and
+harrowing anxiety" quote on the Meister decision, Wilberforce's mid-
+speech relay of Parliament's 1784 dissolution, Indira Gandhi's age-5
+doll-burning and her final Bhubaneswar speech the day before her
+assassination, Armstrong's private-tape correction of Jelly Roll Morton's
+scat-singing claim. No editorial prose was authored beyond this raw
+material; none of it was used as scoring evidence.
+
+**14. A Playwright regression was found and fixed — a real, expected
+side effect of the roster change, not a defect introduced by error.**
+The full E2E suite initially showed 3 failures after the roster grew
+87->90: 2 (in `compare.visual.spec.ts`) were confirmed transient parallel-
+worker flakes (passed cleanly on isolated re-run). The third
+(`results.visual.spec.ts`, "Opposite Profile remains a standalone
+spotlight, not paired") was a REAL, reproducible failure: a fixed
+synthetic token (`UNEXPECTED_ABSENT_TOKEN`) that had been specifically
+re-derived once already after the `roster3.ts` expansion (its own comment
+in the test file documents this exact fragility class and predicted it
+could recur) once again started surfacing a real Unexpected Match against
+the new 90-person roster, breaking the test's premise. Fixed the same way
+the prior instance was: a scripted single-character-mutation search
+against the live `buildResultSet` pipeline found a new token producing
+the required `unexpected === undefined && opposite !== undefined`
+condition, verified directly (not assumed), and the test file's own
+comment extended to record this second occurrence for a future session.
+Full suite re-run clean after the fix: **215/215.**
+
+**15. Historical production-data immutability, verified structurally, not
+by convention.** `git status --porcelain` before this session's changes
+showed a clean tree. `git diff --stat` confirms **zero** pre-existing
+candidate file was touched (only the 5 new ones are untracked additions)
+and **zero** diff on `src/core/matching/similarity.ts` — `eligibility_v2`
+itself was never opened for editing this session.
+`checkScoringLockIntegrity.ts` reports 0 flagged across the 157
+previously-committed files. A new `session18Isolation.test.ts` (9 tests,
+mirroring `session16Isolation.test.ts`/`session17Isolation.test.ts`'s
+exact pattern) locks: every production candidate-pipeline tool
+(including the new `generateRoster9.ts`) still hardcodes a non-recursive
+scan of `data-pipeline/candidates` only; the real candidates directory
+contains no session18 research-stage files; the evidence-ledger files
+carry a `session18_evidence_ledger_v1` schema tag real candidate tooling
+would reject; and the final row counts/status/`holdReason` of all 5
+candidates plus `roster9.ts`'s exact membership are locked as a
+regression guard.
+
+**16. Tests / validation, final.** `tsc --noEmit` clean · `vitest run`
+**594/594** (585 baseline + 9 new `session18Isolation.test.ts` tests) ·
+full-corpus `validateCandidates.ts`: 0 errors, 0 warnings across all 162
+files · `checkScoringLockIntegrity.ts`: 0 flagged across 157 previously-
+committed files · `next build --webpack` clean, person-page paths grew to
+match 90 x 2 locales, static/dynamic split otherwise unchanged ·
+`identityPreflight.ts`: 5/5 match on the new candidates (full 162-file
+corpus re-verification not re-run this session — the other 157 files are
+unchanged and were already re-verified as recently as session 13) ·
+Playwright **215/215** (one real roster-shape-dependent fixture fixed, two
+flakes confirmed transient) · dispersion/calibration regenerated per the
+standard two-pass workflow, drift negligible, `CALIBRATION_VERSION`
+correctly unbumped.
+
+**17. Production workflow problems encountered, all resolved cleanly,
+none blocking**: (a) all 5 research agents hit a mid-session API limit
+and failed simultaneously — resumed successfully via `SendMessage` with
+zero research work lost; (b) one agent's own summary of its work did not
+match its actual file output (a missing content-assets section) — caught
+by direct file inspection, not trusted from the agent's self-report,
+fixed without new research; (c) an initial candidate pick (Frida Kahlo)
+collided with the live roster — caught by the mandatory pre-research slug
+check before any research began; (d) the roster expansion surfaced a
+known, previously-documented class of Playwright fixture fragility
+(fixed-token E2E fixtures whose branch outcome depends on the full
+roster's shape) — fixed using the same scripted-search method the prior
+occurrence established, and the test file's own comment updated to record
+the recurrence.
+
+**18. Protocol v1 verdict: READY TO FREEZE as `Roster Research & Scoring
+Protocol v1`.** Evaluated directly against instruction 20's own
+questions: the process was fully repeatable across all 5 candidates using
+one identical stage sequence; every intermediate artifact (sources, raw
+notes, evidence ledger, both locks) was preserved and remains inspectable
+after the fact; scoring provenance is fully auditable (every row traces
+to named episode ids); the workflow required no new methodology invention
+mid-session — it was executed directly from `docs/scoring-rubric-v1.md`
+and the Session 17 taxonomy precedent; batch size 5 preserved quality
+(rich, multiply-sourced evidence throughout, no candidate scored from a
+thin base); operational cost was real but bounded and did not require
+any workaround beyond the ordinary session-limit-resume mechanism the
+platform already provides. The 3/5 admission rate, with the other 2
+failing only the coverage gate narrowly, is a materially healthier and
+more informative result than sessions 14/15's uniform far-misses — this
+is recorded honestly as a genuinely different outcome pattern, not
+over-interpreted as proof of anything about `eligibility_v2` itself (see
+next item).
+
+**19. Implication for `eligibility_v2`: none drawn, and none warranted.**
+`eligibility_v2` was not run in preview, not examined for redesign, and
+not modified. This session's 3/5 result — a real improvement over
+sessions 14/15's 0/15 and 0/4 — is consistent with (though does not
+prove) the sessions 13/16/17 line of reasoning that a sufficiently deep,
+carefully-converted research process CAN reach the gate at a healthy
+rate, and that the earlier low-admission sessions were more plausibly
+explained by under-powered research/conversion discipline than by the
+gate being miscalibrated. This is recorded as a supporting data point for
+a FUTURE session to weigh if it ever revisits that question directly —
+Session 18's own mandate was production, not gate research, and this
+checkpoint does not overstate what one 5-person batch can establish.
+
+**20. Recommended next step toward 150: begin Launch Roster Expansion in
+earnest**, using the now-frozen Session 18 protocol in batches of
+similar size (5-8 candidates), continuing 90 -> 100 -> 125 -> 150 per the
+user's own stated strategic direction. No further methodology-audit
+session is recommended before that begins — the open, genuinely
+interesting hypotheses this and prior sessions surfaced (Session 17's
+repeated/longitudinal-structure conversion hypothesis; this session's
+own supporting-but-inconclusive eligibility_v2 data point) are recorded
+here for a future session's optional consideration, not treated as
+blockers.
+
+**21. Final roster count: 90 people, 89 match-eligible** (Zheng He
+remains the sole non-match-eligible exception, unchanged since the
+`inclusion_v1` audit). Up from 87/86 at Session 17's close.
+
 ## 13. Exact next steps for a fresh session (updated session 17)
+
+**IMPORTANT: read §84 before starting a new candidate batch or
+re-litigating the eligibility_v2 question.** Session 18 ran the first
+PROSPECTIVE production pilot (not another retrospective audit) on a
+fresh 5-person cohort (Pasteur, Dostoevsky, Indira Gandhi, Armstrong,
+Wilberforce), applying one explicit, evidence-preserving protocol
+(source record -> raw notes -> trait-blind evidence ledger -> evidence
+lock -> scoring -> scoring lock -> eligibility_v2 run once) with every
+stage preserved in `src/dev/roster1000/production/session18/`. **Result:
+3/5 eligible** (louis-pasteur, fyodor-dostoevsky, louis-armstrong,
+promoted into `roster9.ts`) — the other 2 (indira-gandhi,
+william-wilberforce) failed ONLY the coverage gate, narrowly, while
+clearing every other gate; both held with an honest `holdReason`, not
+rescued. **The production protocol is verdicted READY TO FREEZE as
+`Roster Research & Scoring Protocol v1`** — see §84 item 18 for the full
+reasoning against every one of the session's own readiness criteria.
+Roster grew 87 -> **90 people, 89 match-eligible**. No candidate's
+evidence or scoring was revisited after seeing the eligibility result.
+`eligibility_v2` remains completely unmodified; this session's healthier
+3/5 admission rate is recorded as a supporting-but-inconclusive data
+point for that question (§84 item 19), not a redesign trigger. **The
+recommended next step is to begin actual Launch Roster Expansion in
+batches using this now-frozen protocol** (90 -> 100 -> 125 -> 150), not
+another methodology audit.
 
 **IMPORTANT: read §83 before assuming evidence QUALITY explains the
 Session 13-vs-14/15 row-count gap.** Session 17 classified all 45

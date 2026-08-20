@@ -3458,6 +3458,50 @@ session-14 candidate files were confirmed to show zero diff this
 session. `tsc` clean, `vitest` 569/569 (unchanged). Full record:
 `docs/roster-1000-checkpoint.md` §81.
 
+**Sessions 16-17 (2026-08) were diagnosis-only** (a frozen-ledger scoring
+reproducibility audit, then an evidence diagnostic-density classification
+audit) — neither modified the roster, `eligibility_v2`, or CLAUDE.md; see
+`docs/roster-1000-checkpoint.md` §82-83 for the full record.
+
+**Session 18 (2026-08) ran the first PROSPECTIVE production pilot** —
+not another retrospective audit — applying one explicit, evidence-
+preserving research/scoring protocol (source record → raw notes →
+trait-blind evidence ledger → evidence lock → scoring → scoring lock →
+`eligibility_v2` run once) to a fresh 5-person cohort (Louis Pasteur,
+Fyodor Dostoevsky, Indira Gandhi, Louis Armstrong, William Wilberforce),
+with every stage preserved separately in
+`src/dev/roster1000/production/session18/`. **Result: 3/5 eligible** —
+louis-pasteur (26 rows, coverage 0.769), fyodor-dostoevsky (24 rows,
+coverage 0.717), louis-armstrong (21 rows, coverage 0.623) — promoted
+into `src/data/people/roster9.ts`. The other 2 (indira-gandhi,
+william-wilberforce) each failed ONLY the coverage gate, narrowly (0.590
+and 0.542 against the 0.6 floor) while clearing the scored-attribute-
+count and high-confidence-subset gates cleanly — held with an honest
+`holdReason`, not rescued or padded. **The production protocol is
+verdicted READY TO FREEZE as `Roster Research & Scoring Protocol v1`** —
+repeatable, fully artifact-preserved, fully provenance-auditable across
+all 5 candidates; see `docs/roster-1000-checkpoint.md` §84 item 18 for
+the complete reasoning. `eligibility_v2` remains completely unmodified;
+this session's healthier 3/5 admission rate (versus sessions 14/15's 0/15
+and 0/4) is recorded as a supporting-but-inconclusive data point on that
+question, not a redesign trigger. A Playwright fixture regression
+(`results.visual.spec.ts`'s `UNEXPECTED_ABSENT_TOKEN`, a fixed token
+whose branch outcome depends on the full roster's shape — the same
+fragility class already documented once before, after `roster3.ts`) was
+found and fixed with a fresh, verified token. **Roster grew 87 → 90
+people, 89 match-eligible** (Zheng He remains the sole non-match-eligible
+exception). Dispersion regenerated and calibration anchors refreshed
+(drift negligible, `CALIBRATION_VERSION` correctly left unbumped, same
+precedent as sessions 4/5/11); canonical matching simulation reconfirmed
+healthy (max #1 frequency 12.0%, Warren Buffett, essentially unchanged).
+`tsc` clean, `vitest` 594/594 (585 baseline + 9 new
+`session18Isolation.test.ts` tests), `next build --webpack` clean,
+Playwright 215/215. **Recommended next step: begin actual Launch Roster
+Expansion in batches using this now-frozen protocol (90 → 100 → 125 →
+150)**, per the user's own stated strategic direction to stop treating
+1,000 people as a pre-launch requirement. Full record:
+`docs/roster-1000-checkpoint.md` §84.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 
