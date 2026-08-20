@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "louis-pasteur",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Louis Pasteur",
+    "wikidataId": "Q529",
+    "birthYear": 1822,
+    "deathYear": 1895,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["FR"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["chemist", "scientist"],
+    "fieldIds": ["chemistry", "microbiology", "medicine"],
+    "impactDomains": ["scientific", "medical"],
+    "tagIds": ["career_changer", "innovator", "founder", "overcame_adversity"],
+    "archetypeIds": ["scientific_explorer", "cross_disciplinary_generalist"]
+  },
+  "sources": [
+    { "id": "src_pasteur_shi", "kind": "institution", "title": "Science History Institute -- Louis Pasteur biography", "url": "https://www.sciencehistory.org/education/scientific-biographies/louis-pasteur/" },
+    { "id": "src_pasteur_iphist", "kind": "institution", "title": "Institut Pasteur -- official History page", "url": "https://www.pasteur.fr/en/institut-pasteur/history" },
+    { "id": "src_pasteur_iprabies", "kind": "institution", "title": "Institut Pasteur research journal -- First rabies vaccination, 1885" },
+    { "id": "src_pasteur_gavi", "kind": "press", "title": "Gavi.org -- \"Scrutiny or public spectacle?\" (the Pouilly-le-Fort anthrax trial)" },
+    { "id": "src_pasteur_hov", "kind": "institution", "title": "History of Vaccines (College of Physicians of Philadelphia) -- \"The Other Side of Louis Pasteur's Discoveries\"" },
+    { "id": "src_pasteur_geison", "kind": "biography", "title": "Gerald Geison, The Private Science of Louis Pasteur (Princeton University Press, 1995)" },
+    { "id": "src_pasteur_debre", "kind": "biography", "title": "Patrice Debre, Louis Pasteur (Johns Hopkins University Press)" },
+    { "id": "src_pasteur_acadsilk", "kind": "archive", "title": "Academie des Sciences (Comptes Rendus Chimie) -- peer-reviewed article on Pasteur's silkworm-disease period" },
+    { "id": "src_pasteur_pouchet", "kind": "archive", "title": "History and Philosophy of the Life Sciences (Springer) -- peer-reviewed article on the Pouchet spontaneous-generation controversy" }
+  ],
+  "rows": {
+    "curiosity": { "score": 85, "confidence": 0.72, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained investigation across widely differing domains he had to learn essentially from scratch -- crystallography, fermentation microbiology, silkworm pathology, immunology -- each a genuine new-field commitment, not a single flash of interest. Session 18 evidence LP-E2, LP-E8." },
+    "analytical_rigor": { "score": 68, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Genuinely rigorous, meticulous empirical method in the laboratory (hand-separating crystal forms under magnification, revising a working hypothesis as evidence came in), but documented as prioritizing confident public rhetoric over acknowledging real methodological uncertainty in the Pouchet dispute -- a real, sourced tension, not resolved toward either extreme. Session 18 evidence LP-E2, LP-E4, LP-E5, LP-E9." },
+    "independent_thinking": { "score": 82, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Advanced and sustained a minority scientific position (living-microorganism fermentation) against the dominant contemporary view, and engaged combatively rather than conceding under later methodological attack from Koch. Session 18 evidence LP-E3, LP-E19." },
+    "belief_updating": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Early in the silkworm-disease investigation believed the visible \"corpuscles\" were symptoms rather than cause, and revised the view as evidence accumulated rather than defending the initial hypothesis -- a single, clean documented instance, not corroborated by a second. Session 18 evidence LP-E9." },
+    "experimentation": { "score": 88, "confidence": 0.72, "evidenceType": "documented", "impact": "advantage", "rationale": "Productively noticed and capitalized on an unplanned experimental outcome (weakened cholera cultures producing immunity) rather than discarding it, and deliberately designed a bold, adversarial-witness open-field trial structure for the anthrax vaccine. Session 18 evidence LP-E14, LP-E16." },
+    "cross_domain_range": { "score": 90, "confidence": 0.72, "evidenceType": "documented", "impact": "advantage", "rationale": "Genuinely crossed from crystallographic chemistry into fermentation microbiology, then into silkworm-disease entomology/pathology at government request with no prior background, described by historians as an \"epistemological rupture\" converting him from chemist to biologist. Session 18 evidence LP-E2, LP-E3, LP-E8." },
+    "discipline": { "score": 85, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Painstaking, repetitive manual crystal-separation work sustained over years; continued directing laboratory work after a paralyzing stroke; maintained a lifelong personal, methodical notebook practice. Session 18 evidence LP-E2, LP-E11, LP-E25." },
+    "deep_focus": { "score": 82, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained years of concentrated attention on the tartrate-crystal problem and, later, five full years on an unfamiliar silkworm-disease problem at government request. Session 18 evidence LP-E2, LP-E8." },
+    "detail_orientation": { "score": 85, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Identified tiny asymmetric facets on crystals visible only under magnification, and designed a meticulous, precisely-counted, precisely-dated public trial protocol (24 sheep, 1 goat, 6 cows vaccinated on named dates, matched controls). Session 18 evidence LP-E2, LP-E16." },
+    "planning_orientation": { "score": 70, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Deliberately designed the Pouilly-le-Fort trial's exact protocol (dosing dates, group sizes, control group, built-in adversarial oversight) -- one specific, concrete, well-corroborated documented episode. Session 18 evidence LP-E16." },
+    "persistence": { "score": 90, "confidence": 0.78, "evidenceType": "documented", "impact": "advantage", "rationale": "Committed five years to an unfamiliar field at government request; continued directing research after a paralyzing stroke; sustained multiple career-spanning priority disputes across decades. Session 18 evidence LP-E8, LP-E11, LP-E19, LP-E20." },
+    "adaptability": { "score": 82, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Converted from chemist to biologist under a government mandate; revised an incorrect working hypothesis on new evidence; adapted his own working method after a stroke by relying more heavily on trusted assistants. Session 18 evidence LP-E8, LP-E9, LP-E11." },
+    "risk_tolerance": { "score": 82, "confidence": 0.7, "evidenceType": "documented", "impact": "advantage", "rationale": "Built his own chief public skeptic into the oversight of his career-defining public trial; decided, holding no medical license and describing \"acute and harrowing anxiety,\" to treat a dying child with an experimental, previously animal-only treatment. Session 18 evidence LP-E16, LP-E21, LP-E22." },
+    "ambiguity_tolerance": { "score": 75, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Committed years to a field with genuine open uncertainty about outcome, and made a human-treatment decision under real, acknowledged scientific uncertainty about efficacy. Session 18 evidence LP-E8, LP-E21." },
+    "decisiveness": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Decisively capitalized on an accidental experimental finding, but the Meister treatment decision itself is documented as anguished and made only after real internal deliberation -- decisive but not impulsive. Session 18 evidence LP-E14, LP-E21." },
+    "social_assertiveness": { "score": 78, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Directly addressed a large public crowd of politicians, journalists, and farmers in a deliberately accessible tone and \"charmed\" them; replied assertively and publicly to Koch's methodological attacks rather than disengaging. Session 18 evidence LP-E16, LP-E19." },
+    "collaboration": { "score": 62, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Genuinely shared formal credit with assistants, deferred to a collaborator's professional refusal on the Meister case, and welcomed a scientific rival with a competing theory onto his own staff -- yet also ordered a technical substitution kept quiet from the very assistant who executed it, and never permitted assistants to keep independent research notes. Session 18 evidence LP-E11, LP-E17, LP-E18, LP-E22, LP-E24, LP-E25." },
+    "leadership_drive": { "score": 72, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Ran ENS student discipline in a documented inflexible, authoritarian manner that eventually cost him the post, while also building and leading a genuinely capable, semi-independent research team (the \"five musketeers\") at the Institute. Session 18 evidence LP-E6, LP-E7, LP-E24." },
+    "persuasiveness": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Delivered a rhetorically effective, historically influential public lecture against spontaneous generation, and reportedly \"charmed\" a skeptical public audience at Pouilly-le-Fort. Session 18 evidence LP-E4, LP-E16." },
+    "conflict_tolerance": { "score": 88, "confidence": 0.72, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Held a rigid disciplinary position to the point of a mass student walkout and loss of his own post, and sustained three separate, long-running personal/professional priority disputes (Toussaint, Koch, Bechamp) across decades. Session 18 evidence LP-E7, LP-E15, LP-E19, LP-E20." },
+    "mastery_orientation": { "score": 85, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Painstaking, near-obsessive craft investment in the original crystallography work, and a lifelong personal monopoly over the documented research record reflecting deep personal identification with the work. Session 18 evidence LP-E2, LP-E25." },
+    "competitiveness": { "score": 82, "confidence": 0.68, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Contested a rival's earlier priority claim explicitly documented as motivated \"on grounds of jealousy,\" replied dismissively to methodological attacks rather than conceding, and sustained a separate lifelong priority dispute with a third rival. Session 18 evidence LP-E15, LP-E19, LP-E20." },
+    "autonomy_need": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Ran his own institutional domain in an inflexible, personally-controlled manner and maintained a lifelong personal monopoly over his own research notebooks, never permitting assistants independent notes of their own. Session 18 evidence LP-E6, LP-E25." },
+    "impact_motivation": { "score": 82, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Explicitly framed his new institute's mission in humanitarian, universalist terms, and chose to treat a dying child despite real personal legal risk rather than withhold an unproven but potentially life-saving treatment. Session 18 evidence LP-E21, LP-E26." },
+    "opportunity_sensing": { "score": 75, "confidence": 0.48, "evidenceType": "inference", "impact": "advantage", "rationale": "Recognized and acted on the significance of an accidental experimental outcome (weakened cholera cultures) rather than discarding it as a failed batch -- a single, clean, on-point instance. Session 18 evidence LP-E14." },
+    "proactive_agency": { "score": 75, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Responded to an early academic failure by self-directed additional preparation rather than waiting or redirecting, and advanced a minority scientific position proactively rather than deferring to consensus. Session 18 evidence LP-E1, LP-E3." }
+  },
+  "computedEligibility": { "scoredAttributeCount": 26, "averageConfidence": 0.6154, "coverage": 0.7693, "eligible": true, "computedAt": "2026-08-20T00:00:00Z" },
+  "provenance": {
+    "createdAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-08-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 18 prospective production pilot. Fresh cohort pick: science/microbiology domain. Not previewed for trait coverage before selection. Identity verified live against Wikidata Q529 before any research began. EVIDENCE LOCKED per src/dev/roster1000/production/session18/louis-pasteur/EVIDENCE_LOCK.md before this scoring pass began; all 26 rows above trace to that frozen 26-episode evidence ledger, cited by episode id in each rationale. SCORING LOCKED before eligibility_v2 was run (src/dev/roster1000/production/session18/SCORING_LOCK.md) -- no row was added, removed, or had confidence/evidenceType changed after that lock. eligibility_v2 run once via validateCandidates.ts: scored=26, avgConfidence=0.615, coverage=0.769, highConfidenceCount=24 (avg 0.629), eligible=true, cleanly clearing every gate with margin -- not a near-miss."
+  }
+}

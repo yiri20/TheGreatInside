@@ -6,7 +6,7 @@ export const PERSON_INDEX_VERSION = "person_index_v1";
 
 /** Compact, client-safe projection of SEED_PEOPLE — see
  *  src/core/people/personIndex.ts for what's included/excluded and why.
- *  87 entries. */
+ *  90 entries. */
 export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
   {
     id: "p_leonardo_da_vinci",
@@ -1693,5 +1693,62 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5157142857142857,
     attributes: [["decisiveness", 90, 0.68, "advantage"], ["risk_tolerance", 86, 0.65, "dual_edged"], ["execution_speed", 88, 0.62, "advantage"], ["analytical_rigor", 80, 0.62, "advantage"], ["planning_orientation", 78, 0.58, "advantage"], ["leadership_drive", 84, 0.6, "dual_edged"], ["persuasiveness", 76, 0.55, "advantage"], ["adaptability", 74, 0.52, "advantage"], ["conflict_tolerance", 82, 0.58, "dual_edged"], ["achievement_drive", 82, 0.55, "dual_edged"], ["systems_abstraction", 70, 0.5, "advantage"], ["collaboration", 50, 0.42, "neutral"], ["competitiveness", 78, 0.42, "dual_edged"], ["curiosity", 62, 0.42, "neutral"], ["impact_motivation", 72, 0.48, "neutral"], ["discipline", 68, 0.42, "advantage"], ["cross_domain_range", 64, 0.42, "advantage"], ["autonomy_need", 66, 0.4, "neutral"], ["persistence", 76, 0.5, "advantage"], ["independent_thinking", 72, 0.48, "dual_edged"], ["deep_focus", 62, 0.42, "advantage"]],
+  },
+  {
+    id: "p_fyodor_dostoevsky",
+    slug: "fyodor-dostoevsky",
+    canonicalName: "Fyodor Dostoevsky",
+    aliases: ["Fyodor Dostoyevsky","Fyodor Mikhailovich Dostoevsky"],
+    birthYear: 1821,
+    deathYear: 1881,
+    isLiving: false,
+    era: "19th_century",
+    regionCode: "central_europe",
+    occupationIds: ["writer"],
+    fieldIds: ["literature","philosophy"],
+    impactDomains: ["literary","cultural"],
+    tagIds: ["endured_imprisonment","overcame_adversity","prolific","nonconformist"],
+    archetypeIds: ["creative_creator","independent_creator"],
+    isMatchEligible: true,
+    overallProfileConfidence: 0.5425,
+    attributes: [["curiosity", 65, 0.42, "advantage"], ["intuitive_synthesis", 78, 0.55, "advantage"], ["independent_thinking", 80, 0.65, "advantage"], ["belief_updating", 82, 0.62, "advantage"], ["creative_originality", 88, 0.6, "advantage"], ["experimentation", 78, 0.65, "advantage"], ["discipline", 82, 0.55, "advantage"], ["deep_focus", 68, 0.5, "advantage"], ["execution_speed", 85, 0.62, "advantage"], ["planning_orientation", 32, 0.45, "dual_edged"], ["persistence", 80, 0.6, "advantage"], ["adaptability", 75, 0.58, "advantage"], ["risk_tolerance", 78, 0.62, "dual_edged"], ["decisiveness", 65, 0.42, "advantage"], ["collaboration", 78, 0.65, "advantage"], ["leadership_drive", 68, 0.5, "neutral"], ["persuasiveness", 75, 0.6, "advantage"], ["conflict_tolerance", 78, 0.62, "dual_edged"], ["mastery_orientation", 65, 0.42, "advantage"], ["competitiveness", 62, 0.42, "neutral"], ["autonomy_need", 72, 0.5, "advantage"], ["impact_motivation", 70, 0.5, "advantage"], ["resourcefulness", 78, 0.48, "advantage"], ["proactive_agency", 75, 0.5, "advantage"]],
+  },
+  {
+    id: "p_louis_armstrong",
+    slug: "louis-armstrong",
+    canonicalName: "Louis Armstrong",
+    aliases: [],
+    birthYear: 1901,
+    deathYear: 1971,
+    isLiving: false,
+    era: "20th_century",
+    regionCode: "north_america",
+    occupationIds: ["singer","composer"],
+    fieldIds: ["music","jazz"],
+    impactDomains: ["cultural","artistic"],
+    tagIds: ["prolific","overcame_adversity","innovator","self_taught"],
+    archetypeIds: ["creative_creator","competitive_performer"],
+    isMatchEligible: true,
+    overallProfileConfidence: 0.5371428571428571,
+    attributes: [["analytical_rigor", 68, 0.42, "advantage"], ["independent_thinking", 82, 0.65, "advantage"], ["belief_updating", 35, 0.42, "dual_edged"], ["creative_originality", 85, 0.5, "advantage"], ["aesthetic_sensitivity", 78, 0.42, "advantage"], ["discipline", 88, 0.65, "advantage"], ["deep_focus", 80, 0.58, "advantage"], ["detail_orientation", 72, 0.42, "advantage"], ["planning_orientation", 65, 0.42, "advantage"], ["persistence", 90, 0.72, "advantage"], ["adaptability", 68, 0.5, "advantage"], ["risk_tolerance", 78, 0.62, "dual_edged"], ["decisiveness", 70, 0.42, "advantage"], ["social_assertiveness", 75, 0.5, "advantage"], ["collaboration", 72, 0.55, "advantage"], ["leadership_drive", 78, 0.58, "advantage"], ["conflict_tolerance", 85, 0.68, "advantage"], ["mastery_orientation", 82, 0.58, "advantage"], ["autonomy_need", 72, 0.5, "advantage"], ["impact_motivation", 78, 0.55, "advantage"], ["proactive_agency", 80, 0.6, "advantage"]],
+  },
+  {
+    id: "p_louis_pasteur",
+    slug: "louis-pasteur",
+    canonicalName: "Louis Pasteur",
+    aliases: [],
+    birthYear: 1822,
+    deathYear: 1895,
+    isLiving: false,
+    era: "19th_century",
+    regionCode: "western_europe",
+    occupationIds: ["chemist","scientist"],
+    fieldIds: ["chemistry","microbiology","medicine"],
+    impactDomains: ["scientific","medical"],
+    tagIds: ["career_changer","innovator","founder","overcame_adversity"],
+    archetypeIds: ["scientific_explorer","cross_disciplinary_generalist"],
+    isMatchEligible: true,
+    overallProfileConfidence: 0.6153846153846154,
+    attributes: [["curiosity", 85, 0.72, "advantage"], ["analytical_rigor", 68, 0.55, "dual_edged"], ["independent_thinking", 82, 0.68, "advantage"], ["belief_updating", 62, 0.42, "advantage"], ["experimentation", 88, 0.72, "advantage"], ["cross_domain_range", 90, 0.72, "advantage"], ["discipline", 85, 0.68, "advantage"], ["deep_focus", 82, 0.6, "advantage"], ["detail_orientation", 85, 0.62, "advantage"], ["planning_orientation", 70, 0.6, "advantage"], ["persistence", 90, 0.78, "advantage"], ["adaptability", 82, 0.68, "advantage"], ["risk_tolerance", 82, 0.7, "advantage"], ["ambiguity_tolerance", 75, 0.58, "advantage"], ["decisiveness", 68, 0.5, "neutral"], ["social_assertiveness", 78, 0.6, "advantage"], ["collaboration", 62, 0.55, "dual_edged"], ["leadership_drive", 72, 0.6, "dual_edged"], ["persuasiveness", 78, 0.55, "advantage"], ["conflict_tolerance", 88, 0.72, "dual_edged"], ["mastery_orientation", 85, 0.62, "advantage"], ["competitiveness", 82, 0.68, "dual_edged"], ["autonomy_need", 78, 0.55, "dual_edged"], ["impact_motivation", 82, 0.6, "advantage"], ["opportunity_sensing", 75, 0.48, "advantage"], ["proactive_agency", 75, 0.5, "advantage"]],
   }
 ];

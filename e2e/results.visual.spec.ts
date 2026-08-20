@@ -47,9 +47,19 @@ const FIXTURES = {
  *  `advantagePresent` now DOES surface an unexpected match against the
  *  51-person roster. Given its own independent token instead of trying to
  *  keep hunting for one answer pattern that satisfies both fixtures'
- *  requirements at once. */
+ *  requirements at once.
+ *
+ *  ROSTER-1000 session 18 (roster9.ts, 87 -> 90 people): the SAME
+ *  fragility recurred — the roster's own comment above already warned
+ *  this could happen again. The prior token now surfaces a real
+ *  Unexpected Match against the 90-person roster, so it was replaced
+ *  with a fresh one differing by a single leading character (found via a
+ *  scripted single-character-mutation search against the live
+ *  buildResultSet pipeline, not hand-picked), re-verified to still
+ *  produce `unexpected === undefined` and `opposite !== undefined`
+ *  against the current roster. See docs/roster-1000-checkpoint.md §84. */
 const UNEXPECTED_ABSENT_TOKEN =
-  "quiz_v2.b666a66b666b6a666666b66666b66ad66b6666b6666b6a6666a6666666666666";
+  "quiz_v2.666166b666b6a666666b66666b66ad66b6666b6666b6a6666a6666666666666";
 
 const VIEWPORTS = [
   { name: "mobile-390", width: 390, height: 1200 },

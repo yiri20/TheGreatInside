@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "william-wilberforce",
+  "status": "held",
+  "holdReason": "eligibility_v2 fails ONLY the coverage gate: scored=18 (>=18 required, exactly at floor), highConfidenceCount=12 (>=12 required, exactly at floor), highConfidenceAverage=0.622 (>=0.55 required, passes), but coverage=0.542 falls short of the 0.6 floor. His sustained-single-campaign career genuinely maps to fewer distinct trait dimensions than a candidate whose documented life spans many behavioral domains -- not rescued or padded per Session 18's explicit no-rescue instruction.",
+  "identity": {
+    "canonicalName": "William Wilberforce",
+    "wikidataId": "Q207672",
+    "birthYear": 1759,
+    "deathYear": 1833,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["GB"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["political_leader", "activist"],
+    "fieldIds": ["politics", "social_reform"],
+    "impactDomains": ["social", "historical"],
+    "tagIds": ["overcame_adversity", "founder", "sustained_excellence"],
+    "archetypeIds": ["organizational_leader", "independent_creator"]
+  },
+  "sources": [
+    { "id": "src_wilberforce_hague", "kind": "biography", "title": "William Hague -- William Wilberforce: The Life of the Great Anti-Slave Trade Campaigner" },
+    { "id": "src_wilberforce_sons", "kind": "archive", "title": "Robert Isaac & Samuel Wilberforce -- The Life of William Wilberforce (1838, 5 vols.)" },
+    { "id": "src_wilberforce_regency", "kind": "press", "title": "Regency History -- William Wilberforce biography" },
+    { "id": "src_wilberforce_hop", "kind": "institution", "title": "History of Parliament Online -- William Wilberforce entry" },
+    { "id": "src_wilberforce_sojo", "kind": "press", "title": "Sojourners -- article on Wilberforce's opium use, citing John Pollock's biography" },
+    { "id": "src_wilberforce_whm", "kind": "institution", "title": "Wilberforce House Museum / Hull Museums" }
+  ],
+  "rows": {
+    "independent_thinking": { "score": 82, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Deliberately maintained a lifelong, explicitly stated position of belonging to no political party, working with governments of either persuasion depending on the issue; continued introducing the same unpopular legislation year after year regardless of political headwinds. Session 18 evidence WW-E9, WW-E18." },
+    "creative_originality": { "score": 68, "confidence": 0.4, "evidenceType": "inference", "impact": "advantage", "rationale": "Founded new social/organizational reform structures beyond his core cause late in his career, part of a lifelong pattern of founding, funding, or leading over sixty distinct philanthropic and reform organizations. Session 18 evidence WW-E23." },
+    "discipline": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained a demanding double life of full parliamentary/campaign work plus a four-year personal writing project despite a chronic, painful illness. Session 18 evidence WW-E12." },
+    "deep_focus": { "score": 72, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "Sustained a four-year personal writing project to completion alongside his full political workload -- a single, concrete documented instance. Session 18 evidence WW-E12." },
+    "execution_speed": { "score": 65, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Relayed a sudden, unexpected piece of major political news to a crowd immediately and unprompted, rather than deferring or waiting -- a single, thin instance. Session 18 evidence WW-E3." },
+    "planning_orientation": { "score": 70, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "Deliberately pursued a strategically sequenced, incremental legislative victory (cutting off roughly three-quarters of the trade first) rather than holding out only for a complete all-or-nothing outcome. Session 18 evidence WW-E20." },
+    "persistence": { "score": 95, "confidence": 0.8, "evidenceType": "documented", "impact": "advantage", "rationale": "Publicly committed, after his first major legislative defeat, to continue \"till we have wiped away this scandal\"; kept that commitment literally, reintroducing the same cause in nearly every subsequent session for roughly two decades; then continued campaigning for a second, larger goal for a further 26 years after the first partial victory. Session 18 evidence WW-E8, WW-E9, WW-E22." },
+    "adaptability": { "score": 75, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Reconsidered and ultimately reversed a major planned life decision after receiving trusted counsel, and accepted a deliberately incremental legislative strategy rather than insisting on his original all-or-nothing approach. Session 18 evidence WW-E6, WW-E20." },
+    "risk_tolerance": { "score": 72, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Financed and contested a major political campaign directly with his own money, and continued his public campaign despite documented direct threats to his physical safety and sustained pressure to abandon the cause. Session 18 evidence WW-E2, WW-E16." },
+    "ambiguity_tolerance": { "score": 68, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Continued introducing the same legislation across many years with no assurance it would ever succeed, sustaining the effort through genuinely uncertain, unresolved outcomes for roughly two decades. Session 18 evidence WW-E9." },
+    "social_assertiveness": { "score": 72, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Took charge on the spot at a mass public political meeting to relay major unexpected news himself, and publicly, assertively committed to an unpopular cause immediately after a major legislative defeat rather than retreating from view. Session 18 evidence WW-E3, WW-E8." },
+    "collaboration": { "score": 85, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Lived for years in a cohabiting, sustained collaborative organizing arrangement with a network of allied families as their acknowledged parliamentary leader; maintained a sustained working partnership with a non-MP field researcher showing a clear, mutually-acknowledged division of labor; worked with a new government to secure an incremental legislative win. Session 18 evidence WW-E13, WW-E14, WW-E20." },
+    "leadership_drive": { "score": 80, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Was the acknowledged parliamentary leader of a sustained, cohabiting reform network, and supplied the parliamentary platform and leadership role his own non-MP field-research partner explicitly could not. Session 18 evidence WW-E13, WW-E14." },
+    "conflict_tolerance": { "score": 85, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Faced direct physical threats, the loss of friendships, and sustained political pressure to abandon his cause and continued regardless; was the target of sustained, personalized published criticism across his career; experienced real strain with even his closest political friend over the issue. Session 18 evidence WW-E16, WW-E17, WW-E19." },
+    "autonomy_need": { "score": 82, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Explicitly stated, by his own later account, a lifelong resolve \"to attach himself to no party, but to be independent\" -- a direct, on-point, well-corroborated first-person statement of principle sustained across his entire career. Session 18 evidence WW-E18." },
+    "impact_motivation": { "score": 90, "confidence": 0.7, "evidenceType": "documented", "impact": "advantage", "rationale": "Explicitly named a specific lifelong dual mission for his own public life in a diary entry multiple sources treat as career-defining, and went on to found, fund, or lead over sixty distinct philanthropic and reform organizations across his lifetime. Session 18 evidence WW-E7, WW-E23." },
+    "opportunity_sensing": { "score": 68, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Recognized and acted on a new political opening when a change of government made his cause a governmental priority for the first time -- a single, clean, on-point instance. Session 18 evidence WW-E20." },
+    "proactive_agency": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Took the initiative to relay major political news to a crowd himself, unprompted, at a public meeting, and proactively founded organizations beyond his core cause rather than confining his efforts to a single campaign. Session 18 evidence WW-E3, WW-E23." }
+  },
+  "computedEligibility": { "scoredAttributeCount": 18, "averageConfidence": 0.5556, "coverage": 0.5416, "eligible": false, "computedAt": "2026-08-20T00:00:00Z" },
+  "provenance": {
+    "createdAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-08-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 18 prospective production pilot. Fresh cohort pick: reform/entrepreneurship-adjacent domain. Not previewed for trait coverage before selection. Identity verified live against Wikidata Q207672 before any research began. EVIDENCE LOCKED per src/dev/roster1000/production/session18/william-wilberforce/EVIDENCE_LOCK.md before this scoring pass began; all 18 rows above trace to that frozen 25-episode evidence ledger, cited by episode id in each rationale. SCORING LOCKED before eligibility_v2 was run (src/dev/roster1000/production/session18/SCORING_LOCK.md) -- no row was added, removed, or had confidence/evidenceType changed after that lock, and no rescue was attempted after seeing the coverage shortfall despite landing exactly at the 18-row and 12-high-confidence floors. Held, not rejected -- a future session could genuinely extend this candidate's evidence base (e.g. the thinly-documented 1807-1823 sustained-campaign years, or the Wilberforce Diaries Project, both flagged as real research gaps in rawNotes.md) to try to close the coverage gap, without any of the existing 18 rows needing revision."
+  }
+}

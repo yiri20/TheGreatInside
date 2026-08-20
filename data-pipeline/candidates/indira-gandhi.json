@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "indira-gandhi",
+  "status": "held",
+  "holdReason": "eligibility_v2 fails ONLY the coverage gate: scored=20 (>=18 required, passes), highConfidenceCount=13 (>=12 required, passes), highConfidenceAverage=0.617 (>=0.55 required, passes), but coverage=0.590 falls just short of the 0.6 floor. A genuine, narrow near-miss on the taxonomy-weight-coverage dimension specifically, not on evidence quality or confidence -- not rescued or padded per Session 18's explicit no-rescue instruction.",
+  "identity": {
+    "canonicalName": "Indira Gandhi",
+    "wikidataId": "Q1149",
+    "birthYear": 1917,
+    "deathYear": 1984,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["political_leader", "statesman"],
+    "fieldIds": ["politics", "government"],
+    "impactDomains": ["historical", "social"],
+    "tagIds": ["leader", "nonconformist", "overcame_adversity"],
+    "archetypeIds": ["organizational_leader", "competitive_performer"]
+  },
+  "sources": [
+    { "id": "src_indiragandhi_frank", "kind": "biography", "title": "Katherine Frank -- Indira: The Life of Indira Nehru Gandhi" },
+    { "id": "src_indiragandhi_jayakar", "kind": "biography", "title": "Pupul Jayakar -- Indira Gandhi: A Biography" },
+    { "id": "src_indiragandhi_letters", "kind": "archive", "title": "Two Alone, Two Together -- letters between Jawaharlal Nehru and Indira Gandhi, ed. Sonia Gandhi" },
+    { "id": "src_indiragandhi_brit", "kind": "press", "title": "Encyclopaedia Britannica -- Indira Gandhi biography" },
+    { "id": "src_indiragandhi_fairobs", "kind": "press", "title": "Fair Observer -- Emergency (1975-77) timeline" },
+    { "id": "src_indiragandhi_nhi", "kind": "press", "title": "National Herald India -- 1971 Bangladesh War diplomacy account" },
+    { "id": "src_indiragandhi_lrb", "kind": "press", "title": "London Review of Books -- Pratinav Anil, \"Indira is India\"" }
+  ],
+  "rows": {
+    "analytical_rigor": { "score": 78, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Deliberately delayed military action for months during the 1971 crisis, explicitly reasoning to Parliament about how premature action would let a rival frame the conflict unfavorably; recognized and acted on the strategic implications of a diplomat's visit that others might have taken at face value. Session 18 evidence IG-E9, IG-E10." },
+    "independent_thinking": { "score": 80, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Defied the expectations of the party establishment that installed her specifically to be a controllable figurehead, and pushed through a major policy over fierce internal opposition. Session 18 evidence IG-E7, IG-E8." },
+    "belief_updating": { "score": 68, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Reversed a previously rejected security-treaty position once new geopolitical circumstances made the earlier position untenable -- a single documented instance. Session 18 evidence IG-E10." },
+    "discipline": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Sustained a demanding, multi-month personal diplomatic campaign (touring several countries, holding a consistent negotiating position) in the run-up to the 1971 war. Session 18 evidence IG-E9, IG-E11." },
+    "execution_speed": { "score": 72, "confidence": 0.42, "evidenceType": "inference", "impact": "dual_edged", "rationale": "Moved from an adverse court ruling to a fully-drafted national Emergency declaration within days, informing even her own inner circle only after the fact -- a documented instance of extremely fast decision-to-action, in sharp contrast to the months-long deliberateness documented elsewhere in the same career. Session 18 evidence IG-E14." },
+    "planning_orientation": { "score": 82, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained a deliberate, months-long diplomatic and military-timing strategy ahead of the 1971 war, including accepting expert military advice over political urgency on the timing question. Session 18 evidence IG-E9, IG-E11." },
+    "persistence": { "score": 78, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "After a decisive electoral defeat and total loss of power, rebuilt and returned to Parliament within roughly 18 months, and to full power within about three years, via an active political comeback. Session 18 evidence IG-E19, IG-E21." },
+    "adaptability": { "score": 75, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Reversed a prior rejected treaty position once circumstances changed, and ended a 21-month authoritarian emergency to return to open electoral competition once she judged the moment right. Session 18 evidence IG-E10, IG-E19." },
+    "risk_tolerance": { "score": 88, "confidence": 0.72, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Pushed through a major policy risking a party split; declared a national Emergency, a genuinely high-risk authoritarian gamble; ordered a military assault on a highly sensitive religious site despite foreseeable severe backlash; continued public life despite a long, explicit history of threats and physical attacks. Session 18 evidence IG-E8, IG-E14, IG-E24, IG-E25." },
+    "ambiguity_tolerance": { "score": 68, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Operated for months under a genuinely uncertain, high-stakes geopolitical situation without acting prematurely, despite intense domestic pressure to do so. Session 18 evidence IG-E9." },
+    "decisiveness": { "score": 80, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Moved from an adverse court decision to a fully executed constitutional Emergency within days, and ordered a major military operation once negotiations broke down -- decisive action whose consequences proved catastrophic in at least one documented case. Session 18 evidence IG-E14, IG-E24." },
+    "social_assertiveness": { "score": 35, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "A biographer characterizes her as having ongoing sensitivity to criticism and a documented tendency to become withdrawn under open hostility from childhood into adulthood, in contrast to her public political dominance -- a genuine, sourced, contextual finding rather than a diagnosis. Session 18 evidence IG-E4." },
+    "collaboration": { "score": 55, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Accepted her Army Chief's professional military judgment over her own political urgency on a consequential timing decision, yet separately is documented as having enabled rather than checked her son's exercise of extra-constitutional authority during the Emergency. Session 18 evidence IG-E12, IG-E17." },
+    "leadership_drive": { "score": 88, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Consolidated personal power and systematically removed the senior party figures who had installed her specifically expecting a controllable figurehead, and drove a defining national policy through by personal will over internal party opposition. Session 18 evidence IG-E7, IG-E8." },
+    "persuasiveness": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Actively persuaded a previously reluctant son with no political ambitions to enter politics -- a single documented instance. Session 18 evidence IG-E22." },
+    "conflict_tolerance": { "score": 85, "confidence": 0.68, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Sustained direct conflict with her own party establishment to the point of a formal split, and personally held ultimate authority over a 21-month period of internationally condemned repression without curbing it. Session 18 evidence IG-E7, IG-E8, IG-E16." },
+    "competitiveness": { "score": 78, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Removed the senior rivals who had elevated her once they proved controllable rather than useful, and reportedly supported the rise of a rival political group's opponent specifically as a strategy to weaken that rival. Session 18 evidence IG-E7, IG-E23." },
+    "autonomy_need": { "score": 82, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Moved to assert independent personal authority against the very establishment that installed and expected to control her, and made her most consequential decision (the Emergency) unilaterally, informing even her own inner circle only after the fact. Session 18 evidence IG-E7, IG-E14." },
+    "opportunity_sensing": { "score": 72, "confidence": 0.45, "evidenceType": "inference", "impact": "advantage", "rationale": "Recognized and acted on a specific strategic opportunity created by shifting great-power alignment, reversing an earlier rejected position accordingly -- a single, clean, on-point instance. Session 18 evidence IG-E10." },
+    "proactive_agency": { "score": 82, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Took a self-initiated symbolic political act at around age 5; actually led a real organizing operation as a child rather than only accepting an assigned role; proactively presented an already-made, unilateral major constitutional decision to the head of state. Session 18 evidence IG-E1, IG-E2, IG-E14." }
+  },
+  "computedEligibility": { "scoredAttributeCount": 20, "averageConfidence": 0.5495, "coverage": 0.5898, "eligible": false, "computedAt": "2026-08-20T00:00:00Z" },
+  "provenance": {
+    "createdAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-08-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 18 prospective production pilot. Fresh cohort pick: politics/social leadership domain. Not previewed for trait coverage before selection. Identity verified live against Wikidata Q1149 before any research began. inclusion_v1 note: her prominence derives from an elected/appointed party-leadership office (Indian Prime Minister), not a hereditary title -- passes the counterfactual test; her father Nehru's own prior premiership provided political access/name recognition, but her own multi-decade parliamentary and party career is independently substantial. EVIDENCE LOCKED per src/dev/roster1000/production/session18/indira-gandhi/EVIDENCE_LOCK.md before this scoring pass began; all 20 rows above trace to that frozen 25-episode evidence ledger (which preserves both admirable and genuinely negative/controversial material, e.g. the Emergency, forced sterilization, Operation Blue Star, with equal rigor), cited by episode id in each rationale. SCORING LOCKED before eligibility_v2 was run (src/dev/roster1000/production/session18/SCORING_LOCK.md) -- no row was added, removed, or had confidence/evidenceType changed after that lock, and no rescue was attempted after seeing the coverage shortfall. Held, not rejected -- a future session could genuinely extend this candidate's evidence base (e.g. childhood/personal-relationship material, or economic-policy decision episodes not covered by this session's political/wartime/Emergency-focused research) to try to close the coverage gap, without any of the existing 20 rows needing revision."
+  }
+}

@@ -27,6 +27,7 @@ import { ROSTER_5 } from "./roster5.js";
 import { ROSTER_6 } from "./roster6.js";
 import { ROSTER_7 } from "./roster7.js";
 import { ROSTER_8 } from "./roster8.js";
+import { ROSTER_9 } from "./roster9.js";
 
 const seeds: PersonSeed[] = [
   {
@@ -836,6 +837,7 @@ export const SEED_PEOPLE: readonly Person[] = [
   ...ROSTER_6,
   ...ROSTER_7,
   ...ROSTER_8,
+  ...ROSTER_9,
 ];
 
 export function personBySlug(slug: string): Person | undefined {

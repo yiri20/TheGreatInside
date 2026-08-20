@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fyodor-dostoevsky",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Fyodor Dostoevsky",
+    "aliases": ["Fyodor Dostoyevsky", "Fyodor Mikhailovich Dostoevsky"],
+    "wikidataId": "Q991",
+    "birthYear": 1821,
+    "deathYear": 1881,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["RU"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["writer"],
+    "fieldIds": ["literature", "philosophy"],
+    "impactDomains": ["literary", "cultural"],
+    "tagIds": ["endured_imprisonment", "overcame_adversity", "prolific", "nonconformist"],
+    "archetypeIds": ["creative_creator", "independent_creator"]
+  },
+  "sources": [
+    { "id": "src_dostoevsky_frank", "kind": "biography", "title": "Joseph Frank -- five-volume definitive scholarly biography of Dostoevsky (Princeton University Press, 1976-2002)" },
+    { "id": "src_dostoevsky_annadiary", "kind": "archive", "title": "Anna Grigoryevna Dostoevskaya -- shorthand diary of 1867 (published 1923) and Reminiscences (published 1925)" },
+    { "id": "src_dostoevsky_encyc", "kind": "press", "title": "Encyclopedia.com -- \"Fyodor Mikhailovich Dostoevsky\" (Encyclopedia of World Biography)", "url": "https://www.encyclopedia.com/people/literature-and-arts/russian-and-eastern-european-literature-biographies/fyodor-mikhailovich-dostoevsky" },
+    { "id": "src_dostoevsky_yale", "kind": "institution", "title": "Yale University course-page biography of Dostoevsky", "url": "https://meek.yalepages.org/dostoevsky_bio.html" },
+    { "id": "src_dostoevsky_ubcwiki", "kind": "institution", "title": "\"The Mock-execution of Fyodor Dostoevsky\", University of British Columbia Wiki", "url": "https://wiki.ubc.ca/The_Mock-execution_of_Fyodor_Dostoevsky" },
+    { "id": "src_dostoevsky_russianlife", "kind": "press", "title": "\"Dostoyevsky's Brilliant Wife Anna\", Russian Life magazine", "url": "https://russianlife.com/the-russia-file/dostoyevskys-brilliant-wife-anna/" }
+  ],
+  "rows": {
+    "curiosity": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Sustained deep, self-directed interest in literature (Schiller, Homer) throughout his military-engineering academy years, diverging from the assigned technical curriculum -- a single documented instance. Session 18 evidence FD-E2." },
+    "intuitive_synthesis": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Developed a fully worked-out anti-rationalist philosophical position through fiction rather than argument alone, and repeatedly converted disparate real-world events into unified literary/thematic material across decades. Session 18 evidence FD-E13, FD-E23." },
+    "independent_thinking": { "score": 80, "confidence": 0.65, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued experimenting across genres against critical consensus after a public failure; explicitly revised his own prior moral categories from direct observation rather than retaining doctrine; sustained ideological opposition to the dominant liberal intellectual consensus over decades. Session 18 evidence FD-E4, FD-E10, FD-E21." },
+    "belief_updating": { "score": 82, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Explicitly revised his own prior binary moral categories after direct field observation in the labor camp, and underwent a full, well-documented ideological reversal from youthful radicalism to mature conservatism across his adult life. Session 18 evidence FD-E10, FD-E21." },
+    "creative_originality": { "score": 88, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Developed a fully original anti-rationalist philosophical position in Notes from Underground, and originated a sustained pattern of directly converting real contemporary events into major fiction across his career. Session 18 evidence FD-E13, FD-E23." },
+    "experimentation": { "score": 78, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "After a public critical failure, rapidly experimented across markedly different literary genres and forms in succession (social tales, Gothic fiction, sentimental romance) rather than retreating to a previously successful mode -- one strong, specific documented instance. Session 18 evidence FD-E4." },
+    "discipline": { "score": 82, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained major long-form creative work in direct parallel with acute personal crisis, and independently wrote, edited, and published a personal periodical largely alone for years. Session 18 evidence FD-E18, FD-E20." },
+    "deep_focus": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Kept ongoing observational notes under restrictive imprisonment conditions, and sustained years of largely solitary editorial/writing work on his own periodical. Session 18 evidence FD-E9, FD-E20." },
+    "execution_speed": { "score": 85, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Facing forfeiture of all publishing rights, dictated an entire novel to a stenographer and filed it roughly two hours before a punitive deadline -- one strong, specific documented instance. Session 18 evidence FD-E14." },
+    "planning_orientation": { "score": 32, "confidence": 0.45, "evidenceType": "inference", "impact": "dual_edged", "rationale": "Voluntarily assumed a large, ongoing family financial obligation without apparent long-term provision for it, ultimately declaring personal bankruptcy -- a documented pattern of financial decision-making with limited forward planning. Session 18 evidence FD-E12." },
+    "persistence": { "score": 80, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued producing new work across genres after a public critical collapse; sustained intellectual habits (active note-taking) through years of hard labor; sustained major creative output through a decade-long personal financial and addiction crisis. Session 18 evidence FD-E4, FD-E8, FD-E18." },
+    "adaptability": { "score": 75, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Adapted to sustained social hostility within an already coercive prison environment; revised his own moral framework based on new direct experience; underwent an abrupt, durable behavior change (quitting gambling) after roughly a decade of relapse. Session 18 evidence FD-E8, FD-E10, FD-E17." },
+    "risk_tolerance": { "score": 78, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Voluntarily joined a politically dangerous discussion group under an autocratic regime, and repeatedly gambled with money he did not have across roughly a decade -- risk-taking that manifested both as principled conviction and as genuinely destructive addiction. Session 18 evidence FD-E5, FD-E16." },
+    "decisiveness": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Voluntarily retired from a stable government post to pursue writing full-time before any publication track record existed -- a single documented instance. Session 18 evidence FD-E1." },
+    "collaboration": { "score": 78, "confidence": 0.65, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Co-founded and jointly managed two successive literary journals with his brother; accepted a stenographer-collaborator's practical suggestion under acute deadline pressure; progressively ceded real financial and business authority to his wife over a decade, explicitly stating his trust in her judgment. Session 18 evidence FD-E11, FD-E14, FD-E19." },
+    "leadership_drive": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Co-led two successive literary/political journals with editorial and business responsibility, and independently ran his own periodical largely alone for years. Session 18 evidence FD-E11, FD-E20." },
+    "persuasiveness": { "score": 75, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Delivered a major public speech reportedly moving the audience to tears and briefly reconciling rival ideological factions in the room -- one strong, specific documented instance. Session 18 evidence FD-E22." },
+    "conflict_tolerance": { "score": 78, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "A repeating pattern of sharp marital quarrels followed by quick reconciliation, documented by an eyewitness who observed it daily; sustained a years-long public feud with a fellow novelist including mutual public mockery. Session 18 evidence FD-E15, FD-E21." },
+    "mastery_orientation": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Sustained deep, self-directed literary interest and self-teaching throughout his formal military-academy years, ahead of any formal literary training. Session 18 evidence FD-E2." },
+    "competitiveness": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained a years-long public feud with a rival novelist including mutual public mockery over ideological differences -- a single documented episode family. Session 18 evidence FD-E21." },
+    "autonomy_need": { "score": 72, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Voluntarily left a stable, secure career path for an uncertain one before any track record existed, and worked largely alone on his own independent periodical for years. Session 18 evidence FD-E1, FD-E20." },
+    "impact_motivation": { "score": 70, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained direct correspondence with lay readers through his own periodical, and delivered a major public speech explicitly aimed at national-scale reconciliation and influence. Session 18 evidence FD-E20, FD-E22." },
+    "resourcefulness": { "score": 78, "confidence": 0.48, "evidenceType": "inference", "impact": "advantage", "rationale": "Facing an impossible publishing deadline, found and executed a practical workaround (dictation to a stenographer, then notarized filing when the publisher's office was unexpectedly closed) -- a single, clean, specific instance. Session 18 evidence FD-E14." },
+    "proactive_agency": { "score": 75, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Voluntarily left a stable career for an uncertain one before any publication track record, and voluntarily joined a politically dangerous group under an autocratic regime. Session 18 evidence FD-E1, FD-E5." }
+  },
+  "computedEligibility": { "scoredAttributeCount": 24, "averageConfidence": 0.5425, "coverage": 0.7168, "eligible": true, "computedAt": "2026-08-20T00:00:00Z" },
+  "provenance": {
+    "createdAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-08-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 18 prospective production pilot. Fresh cohort pick: literature/philosophy domain. Not previewed for trait coverage before selection. Identity verified live against Wikidata Q991 before any research began. EVIDENCE LOCKED per src/dev/roster1000/production/session18/fyodor-dostoevsky/EVIDENCE_LOCK.md before this scoring pass began; all 24 rows above trace to that frozen 23-episode evidence ledger, cited by episode id in each rationale. SCORING LOCKED before eligibility_v2 was run (src/dev/roster1000/production/session18/SCORING_LOCK.md) -- no row was added, removed, or had confidence/evidenceType changed after that lock. eligibility_v2 run once via validateCandidates.ts: scored=24, avgConfidence=0.543, coverage=0.717, highConfidenceCount=18 (avg 0.578), eligible=true, cleanly clearing every gate with margin -- not a near-miss."
+  }
+}

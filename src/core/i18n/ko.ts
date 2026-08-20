@@ -1602,6 +1602,11 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.joan-of-arc": "잔 다르크",
   "person.name.julius-caesar": "율리우스 카이사르",
 
+  // ROSTER-1000 session 18 (roster9.ts, 3 people).
+  "person.name.louis-pasteur": "루이 파스퇴르",
+  "person.name.fyodor-dostoevsky": "표도르 도스토옙스키",
+  "person.name.louis-armstrong": "루이 암스트롱",
+
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal
   // rendering of the English strings.

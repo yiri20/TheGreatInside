@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "louis-armstrong",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Louis Armstrong",
+    "wikidataId": "Q1779",
+    "birthYear": 1901,
+    "deathYear": 1971,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["singer", "composer"],
+    "fieldIds": ["music", "jazz"],
+    "impactDomains": ["cultural", "artistic"],
+    "tagIds": ["prolific", "overcame_adversity", "innovator", "self_taught"],
+    "archetypeIds": ["creative_creator", "competitive_performer"]
+  },
+  "sources": [
+    { "id": "src_armstrong_hmbio", "kind": "institution", "title": "Louis Armstrong House Museum -- official Biography page" },
+    { "id": "src_armstrong_hmcivil", "kind": "institution", "title": "Louis Armstrong House Museum -- \"I'm Still Louis Armstrong-Colored\" civil-rights virtual exhibit" },
+    { "id": "src_armstrong_teachout", "kind": "biography", "title": "Terry Teachout -- Pops: A Life of Louis Armstrong" },
+    { "id": "src_armstrong_nation", "kind": "press", "title": "The Nation -- \"Louis Armstrong Gets the Last Word on Louis Armstrong\"" },
+    { "id": "src_armstrong_gage", "kind": "press", "title": "Jerry Jazz Musician -- \"Louis Armstrong and 'Gage'\"" }
+  ],
+  "rows": {
+    "analytical_rigor": { "score": 68, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Archive material shows deliberate written notations on his own performance scores and substantive personal edits to his own arrangements -- a technically precise, craft-conscious relationship to his material rather than pure instinct alone. Session 18 evidence LA-E27." },
+    "independent_thinking": { "score": 82, "confidence": 0.65, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Publicly disagreed with a prominent peer's protest strategy and articulated his own distinct rationale; sustained his own preferred artistic style against years of peer criticism; refused to let his own manager's softened public narrative stand. Session 18 evidence LA-E16, LA-E19, LA-E21." },
+    "belief_updating": { "score": 35, "confidence": 0.42, "evidenceType": "inference", "impact": "dual_edged", "rationale": "Never incorporated a major new stylistic movement into his own playing despite, per his biographer, understanding it technically and eventually reconciling personally with its leading practitioners -- a documented instance of sustained artistic non-revision rather than adoption. Session 18 evidence LA-E21." },
+    "creative_originality": { "score": 85, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Widely credited across all sources with transforming a genre from ensemble-centered to soloist-centered and popularizing a new vocal technique, alongside a documented deliberate, hands-on craft engagement with his own material. Session 18 evidence LA-E27." },
+    "aesthetic_sensitivity": { "score": 78, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Archive material shows a deliberate, craft-conscious relationship to his own musical material -- specific written notations and substantive personal edits, not incidental production. Session 18 evidence LA-E27." },
+    "discipline": { "score": 88, "confidence": 0.65, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Built a professional reputation over years of steady work before being summoned to a major city; practiced daily so consistently, even against explicit medical advice after hospitalization, that his own neighbors would notice and call his wife if he skipped several days. Session 18 evidence LA-E5, LA-E24." },
+    "deep_focus": { "score": 80, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Maintained a daily practice routine against explicit medical advice, and sustained a decades-long, self-driven personal archival/self-documentation project alongside his performing career. Session 18 evidence LA-E24, LA-E26." },
+    "detail_orientation": { "score": 72, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Archive material shows deliberate written notations and specific personal lyric edits on his own performance material -- a single documented instance. Session 18 evidence LA-E27." },
+    "planning_orientation": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Deliberately arranged a specific, structured long-term business-delegation agreement so he could focus purely on performing -- a single documented instance. Session 18 evidence LA-E13." },
+    "persistence": { "score": 90, "confidence": 0.72, "evidenceType": "documented", "impact": "advantage", "rationale": "Went straight back to work performing the same night he was released from a nine-day jail stay; continued performing and practicing through repeated serious health crises against direct medical advice; sustained decades of continuous international touring. Session 18 evidence LA-E11, LA-E23, LA-E24." },
+    "adaptability": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Left an unsatisfying professional arrangement and returned to a better one rather than persisting in it, and complied with real social pressure to change a lyric despite personal frustration. Session 18 evidence LA-E8, LA-E15." },
+    "risk_tolerance": { "score": 78, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Continued a legally risky personal habit for the rest of his life after a real arrest, and departed sharply from his own usual apolitical public persona with a career-risking political statement condemning a sitting US president. Session 18 evidence LA-E11, LA-E12, LA-E18." },
+    "decisiveness": { "score": 70, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Immediately and directly contradicted his own manager's public attempt to soften a controversial statement, rather than letting the framing stand or deliberating over a response. Session 18 evidence LA-E19." },
+    "social_assertiveness": { "score": 75, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Delivered a strikingly blunt public political statement directly to a reporter, departing from his usual reticence, and directly, immediately corrected a rival musician's public claim for his own archive's record. Session 18 evidence LA-E18, LA-E28." },
+    "collaboration": { "score": 72, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "His marriage to a fellow professional musician directly shaped and advanced his career trajectory; deliberately delegated essentially all business control to a trusted manager; formed his own ensemble incorporating other musicians. Session 18 evidence LA-E6, LA-E9, LA-E13." },
+    "leadership_drive": { "score": 78, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Formed and led his own recording ensemble after leaving a mentor's band, and later formed and led a new integrated ensemble with explicit social intent. Session 18 evidence LA-E9, LA-E14." },
+    "conflict_tolerance": { "score": 85, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained real underlying competitive tension with a mentor while maintaining the relationship; publicly disagreed with a prominent peer's tactics; entered direct conflict with his own manager over a public statement; sustained a years-long public feud with a rival generation of musicians. Session 18 evidence LA-E7, LA-E16, LA-E19, LA-E21." },
+    "mastery_orientation": { "score": 82, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Deliberately chose refining and perfecting his own established musical language over reinvention in his later career, and maintained an ongoing, deliberate, craft-conscious relationship to his own material throughout. Session 18 evidence LA-E22, LA-E27." },
+    "autonomy_need": { "score": 72, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Left a professional arrangement that constrained his independence, and formed his own independent recording outfit rather than remaining a sideman indefinitely. Session 18 evidence LA-E8, LA-E9." },
+    "impact_motivation": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Explicitly framed his own integrated ensemble as active social work rather than an incidental choice, and made a deliberate, unprompted public political statement specifically to have national-scale impact. Session 18 evidence LA-E14, LA-E18." },
+    "proactive_agency": { "score": 80, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Proactively formed his own independent recording career and ensemble; made an unprompted, career-risking public political statement; proactively chose and defended his own preferred mode of civil-rights contribution rather than deferring to a more visible norm. Session 18 evidence LA-E9, LA-E18, LA-E20." }
+  },
+  "computedEligibility": { "scoredAttributeCount": 21, "averageConfidence": 0.5371, "coverage": 0.6234, "eligible": true, "computedAt": "2026-08-20T00:00:00Z" },
+  "provenance": {
+    "createdAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-08-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 18 prospective production pilot. Fresh cohort pick: music/art domain. Not previewed for trait coverage before selection. Identity verified live against Wikidata Q1779 before any research began. EVIDENCE LOCKED per src/dev/roster1000/production/session18/louis-armstrong/EVIDENCE_LOCK.md before this scoring pass began; all 21 rows above trace to that frozen 28-episode evidence ledger, cited by episode id in each rationale. SCORING LOCKED before eligibility_v2 was run (src/dev/roster1000/production/session18/SCORING_LOCK.md) -- no row was added, removed, or had confidence/evidenceType changed after that lock. eligibility_v2 run once via validateCandidates.ts: scored=21, avgConfidence=0.537, coverage=0.623, highConfidenceCount=15 (avg 0.584), eligible=true, clearing every gate with real but narrower margin than Pasteur/Dostoevsky (coverage 0.623 vs the 0.6 floor)."
+  }
+}
