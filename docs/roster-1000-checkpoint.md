@@ -5099,7 +5099,202 @@ proportions in the English mobile quiz's answer-choice layout remains
 open and must be fixed and verified before any merge to `main`,
 regardless of roster or research-quality status.
 
-## 13. Exact next steps for a fresh session (updated session 14)
+## 81. Session 15 — tightly controlled 4-person calibration: reproducing
+## Session 13 depth to eliminate Session 14's confound (2026-08, IN
+## PROGRESS -- cohort locked before research)
+
+**Mandate**: session 14's 15-person calibration was itself confounded --
+mean 6.0 scored rows against session 13's 12.83, on what was meant to be
+a comparable research standard. Session 15 narrows the question: with a
+SMALL cohort (4 people) and a hard research-completeness floor enforced
+BEFORE scoring (>=4 independent substantive sources, >=12 distinct
+episodes, >=3 life periods, >=3 behavioral contexts), does
+`eligibility_v2` still produce zero natural passes? `eligibility_v2`
+itself is not modified this session.
+
+**Cohort selected BEFORE any research or eligibility inspection**, 4
+people, chosen for domain breadth and — unlike session 14's selection
+criterion of "diverse but otherwise unconstrained" — an explicit
+additional filter this time: each was chosen specifically because their
+public biography is unusually extensively documented (multiple
+full-length biographies, primary interviews/writings, and coverage
+across clearly distinct life periods), precisely BECAUSE the experiment
+needs a fair test of whether deep research CAN reach 12+ episodes, not
+a test biased toward thin source availability:
+
+```
+Science:                Enrico Fermi
+Literature/philosophy:  James Baldwin
+Political/social leader: Vaclav Havel
+Entertainment/activism/exploration: Josephine Baker
+```
+
+Checked against the full 154-file candidates directory and the live
+87-person roster (name- and slug-level) before any file was created:
+zero collisions. None of the four is among the session-13 six or the
+session-14 fifteen.
+
+**Identity verification**: all 4 verified live against their Wikidata
+entity (label/description match) before any research began, then
+re-verified clean after scoring (4/4 match, 0 mismatches, 0 duplicate
+QIDs against the full 154-file corpus). No corrections needed.
+
+**Research-completeness checkpoint, explicitly confirmed BEFORE
+scoring, per instruction 6 -- not merely claimed after the fact:**
+
+```
+                  sources  episodes  life-periods  contexts   gate
+enrico-fermi         4        15         4            5      PASS
+james-baldwin        4        13         4            5      PASS
+vaclav-havel         4        14         4            5      PASS
+josephine-baker      4        16         6            6      PASS
+```
+
+All four independently cleared the floor (>=4 independent substantive
+sources beyond Wikipedia, >=12 episodes, >=3 life periods, >=3
+behavioral contexts) -- verified, not assumed. Sources used: scholarly/
+institutional retrospectives (CERN Courier, Journal of Democracy,
+National WWII Museum, a dedicated Cardiff University historian's
+research), primary material (Fermi's own Trinity observations, Havel's
+own published prison letters and his own quoted resignation statement,
+Baldwin's own quoted statements on his writing process and motives),
+and dated press accounts (RFE/RL, FRANCE 24, JSTOR Daily, LARB).
+
+**Scored rows and HC counts, all 4, before eligibility was ever run:**
+
+```
+                  rows  coverage  HC   HCavg   eligible
+enrico-fermi       10    0.299     7  0.611    false
+james-baldwin       7    0.222     6  0.635    false
+vaclav-havel        7    0.216     6  0.638    false
+josephine-baker     7    0.210     7  0.616    false
+```
+
+**Eligibility result, run exactly once across the full locked cohort:
+0/4.** No row was modified after this result was observed.
+
+**Cohort distribution:**
+
+```
+Natural eligibility rate:      0/4 (0%)
+Mean scored rows:              7.75   (range 7-10)
+Median scored rows:            7
+Mean HC-count:                 6.5    (range 6-7)
+Median HC-count:                6
+Short by 0-2 rows (16-17):      0 candidates
+Short by 3-5 rows (13-15):      0 candidates
+Short by 6+ rows (<=12):        4 candidates (ALL of them)
+```
+
+**Comparison across all three calibration sessions:**
+
+```
+                  n   mean rows  mean HC   eligible   closest candidate
+Session 13        6    12.83      9.0       0/6       Borges/Sankara 16/18
+Session 14       15     6.0       5.07      0/15      none within 6 rows of 18
+Session 15        4     7.75      6.5       0/4       Fermi 10/18
+```
+
+**Interpretation -- Outcome D: Session 13 depth still could NOT be
+reproduced, even though the research-completeness gate was rigorously
+verified this time -- reported honestly rather than claimed as a
+success.** Session 15's mean row count (7.75) is a real, measurable
+improvement over session 14's 6.0, and is closer to session 13's 12.83
+than session 14 was -- but it falls well short of it, DESPITE every one
+of the 4 candidates independently, verifiably clearing a research floor
+(4+ sources, 12+ episodes, 4+ life periods, 5+ contexts) that in Fermi's
+and Baker's cases (15 and 16 episodes respectively) matched or exceeded
+session 13's own demonstrated episode counts (12-19). **This narrows
+the confound rather than resolving it**: it is no longer plausible that
+session 14's low row count was PURELY a matter of insufficient source-
+gathering or too few episodes, since session 15 gathered comparable or
+greater episode counts and still produced a comparable-to-session-14
+row count. The more precise remaining hypothesis, self-audited honestly:
+**the EPISODE-TO-ROW CONVERSION discipline applied during scoring --
+how readily a second or third trait row is derived from adjacent
+evidence before being judged "redundant" with an already-scored row --
+appears to have been more conservative in sessions 14 and 15 than it
+was in session 13.** Concretely, in this session multiple plausible
+additional rows were explicitly declined specifically because their
+strongest supporting fact overlapped an already-scored row (e.g.
+Baldwin's belief-updating angle on his religious-conversion reversal
+was folded into independent_thinking rather than scored separately;
+Havel's emotional-expression angle on his prison letters was folded
+into persistence; Baker's achievement_drive was judged too redundant
+with persistence to score separately) -- session 13's own record shows
+a similar discipline being applied, but evidently less strictly, since
+its conversion rate (rows per episode) was measurably higher. **This is
+recorded as an open, unresolved methodological question for a future
+session, not attributed to `eligibility_v2` itself** -- the gate was
+not modified, redesigned, or examined for redesign this session, per
+explicit instruction.
+
+**Promotions: none.** 0/4 naturally passed; no near-miss was rescued
+(Fermi's 10/18 is not a near-miss by any reasonable reading); no
+requirement was weakened. **Final roster: unchanged at 87 people, 86
+match-eligible.** No dispersion/calibration regeneration was needed.
+
+**Full automated gate, final**: `tsc --noEmit` clean · `vitest run`
+**569/569** (unchanged) · full-corpus `validateCandidates.ts`: 0 errors,
+0 warnings across all 157 candidate files (105 held + 52 qa_passed) ·
+full-corpus `identityPreflight.ts`: 4/4 new match, 0 mismatches, 0
+duplicate QIDs · `checkScoringLockIntegrity.ts`: 0 flagged across 153
+previously-committed files · explicitly confirmed via `git diff --stat`
+that ALL 21 prior session-13 and session-14 diagnostic/calibration
+candidate files show ZERO diff this session -- untouched, their
+conclusions stand exactly as recorded in Sec.79/Sec.80, not reopened.
+No Playwright run was needed -- no user-facing route, component, or
+live roster content changed.
+
+**Standing merge blocker, unchanged, not touched this session**: the
+real external user report of awkward forced wrapping / poor responsive
+proportions in the English mobile quiz's answer-choice layout remains
+open and must be fixed and verified before any merge to `main`.
+
+**Implication for the next roster-1000 step**: a properly controlled
+test of `eligibility_v2`'s natural admission rate STILL has not fully
+succeeded in reproducing session 13's own scoring density, across three
+consecutive attempts at increasing rigor (session 14's uncontrolled
+15-person attempt, session 15's controlled 4-person attempt with a
+verified research floor). Before drawing ANY conclusion about
+`eligibility_v2` itself, a future session should investigate the
+episode-to-row conversion question directly -- e.g. by re-deriving
+trait rows for one or two of session 13's own already-locked episode
+ledgers using session-15's stated conversion discipline, to see whether
+the SAME episodes would have produced fewer rows under session 15's
+apparent standard, which would confirm the conversion-discipline
+hypothesis rather than a research-depth one.
+
+## 13. Exact next steps for a fresh session (updated session 15)
+
+**IMPORTANT: read §81 before running a third blind calibration
+experiment.** Session 15 ran a small (4-person), TIGHTLY CONTROLLED
+calibration specifically designed to reproduce session 13's research
+depth and eliminate session 14's confound -- a hard research-
+completeness gate (>=4 independent sources, >=12 episodes, >=3 life
+periods, >=3 contexts) was explicitly verified for all 4 BEFORE any
+scoring began, unlike session 14. **Result: 0/4 eligible**, mean 7.75
+scored rows (range 7-10) -- a real improvement over session 14's mean
+of 6.0, but still well short of session 13's 12.83, DESPITE every
+candidate independently clearing a research floor that in 2 of 4 cases
+(Fermi 15 episodes, Baker 16 episodes) matched or exceeded session 13's
+own demonstrated episode counts. **This is Outcome D, not A/B/C**: the
+confound is narrowed but NOT resolved. It is no longer plausible that
+low row counts are purely a matter of insufficient source-gathering,
+since session 15 gathered comparable-or-greater episodes and still
+landed close to session 14's row count. The leading remaining
+hypothesis, self-audited honestly in §81: **the episode-to-row
+CONVERSION discipline during scoring (how readily a second/third trait
+row is derived from adjacent evidence before being judged "redundant")
+appears to have been more conservative in sessions 14-15 than in
+session 13.** `eligibility_v2` was NOT modified. **Before any future
+session draws a conclusion about the gate itself, re-derive trait rows
+for one of session 13's own already-locked episode ledgers using
+session 15's stated conversion discipline** -- if the SAME episodes
+would have produced meaningfully fewer rows under that discipline, this
+confirms a scoring-methodology difference between sessions rather than
+a research-depth or gate-restrictiveness finding. No candidate was
+promoted; roster remains unchanged at 87 people, 86 match-eligible.
 
 **IMPORTANT: read §80 before running another blind calibration
 experiment or selecting a fresh candidate batch.** Session 14 ran an
@@ -5259,30 +5454,48 @@ before-eligibility process this session's research also followed:
     fixed this session, per explicit instruction — must be fixed and
     verified before any merge to `main`, regardless of roster headcount.
 
-## 14. Known blockers / open questions for a future session (updated session 14)
+## 14. Known blockers / open questions for a future session (updated session 15)
 
 - **STANDING MERGE BLOCKER, unrelated to roster-1000 data (session 12,
   §78; reconfirmed still open, session 13 §79; reconfirmed still open,
-  session 14 §80)**: a real external user reported awkward forced
-  wrapping / poor responsive proportions in the English mobile
-  questionnaire's answer-choice layout. Not investigated or fixed in
-  any of these sessions, per explicit instruction — must be fixed and
-  verified before any merge to `main`, regardless of roster headcount
-  or data quality at that time.
+  session 14 §80; reconfirmed still open, session 15 §81)**: a real
+  external user reported awkward forced wrapping / poor responsive
+  proportions in the English mobile questionnaire's answer-choice
+  layout. Not investigated or fixed in any of these sessions, per
+  explicit instruction — must be fixed and verified before any merge to
+  `main`, regardless of roster headcount or data quality at that time.
 - **A properly-controlled calibration experiment for `eligibility_v2`'s
-  natural admission rate has still NOT been run** (session 14, §80).
-  Session 14's 15-person, 0/15 result is real and honestly reported, but
-  its own self-audit found the mean row count (6.0) was roughly half
-  session 13's mean (12.83) on what was meant to be a comparable
-  research standard -- the most likely explanation is genuinely
-  shallower per-candidate research effort (15 people researched in one
-  session vs. session 13's 6), not that eligibility_v2's threshold is
-  unreachable. **A future session should run a SMALLER cohort (5-8
-  people) held to session-13's demonstrated depth per candidate** (an
-  explicit source/query budget, not just "aim for 4-6 sources") before
-  any conclusion about `eligibility_v2` itself is drawn. Do not
-  redesign or loosen `eligibility_v2` based on session 14's result
-  alone -- the confound has not been ruled out.
+  natural admission rate STILL has not fully succeeded, across THREE
+  consecutive attempts (session 14's uncontrolled 15-person attempt,
+  session 15's controlled 4-person attempt with a rigorously verified
+  research-completeness floor)** (§80, §81). Session 15 specifically
+  ruled out session 14's own leading hypothesis (insufficient source-
+  gathering) by verifying, before scoring, that all 4 candidates met or
+  exceeded session 13's own episode counts -- yet still landed at a mean
+  of 7.75 scored rows, far below session 13's 12.83. **The leading
+  remaining hypothesis is a scoring-conversion-discipline difference
+  between sessions** (how readily a second/third trait row is derived
+  from adjacent evidence before being judged "redundant" with an
+  already-scored row) -- session 13 apparently converted episodes to
+  rows at a measurably higher rate. **A future session should test this
+  DIRECTLY**: re-derive trait rows for one of session 13's own
+  already-locked episode ledgers (Borges or Sankara, both already
+  documented in full in §79) using session 15's stated, more
+  conservative conversion discipline, and compare the resulting row
+  count against the original. If the same episodes produce meaningfully
+  fewer rows under the stricter discipline, this confirms a scoring-
+  methodology confound, not a research-depth or gate-restrictiveness
+  finding — and only then would a genuinely clean calibration read
+  become possible. Do not redesign or loosen `eligibility_v2` based on
+  any of sessions 13-15's results alone -- the confound has still not
+  been fully ruled out.
+- **Session 15 added 4 fresh candidates, all held, 0/4 eligible, under
+  a rigorously verified research-completeness floor** -- Enrico Fermi
+  (closest to eligibility, 10/18), James Baldwin, Vaclav Havel, and
+  Josephine Baker. Every one has a real, source-grounded 7-10-row
+  profile, 13-16 evidence-ledger episodes, and a specific, honest
+  holdReason. None should be treated as "probably eligible with a bit
+  more work" without a genuinely new, substantive source lead.
 - **Session 14 added 15 fresh, genuinely diverse candidates, all held,
   0/15 eligible** -- Michael Faraday, Dorothy Hodgkin, Har Gobind
   Khorana, Virginia Woolf, Simone Weil, Julius Nyerere, Willy Brandt,

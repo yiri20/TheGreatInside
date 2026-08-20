@@ -3422,6 +3422,42 @@ honest holdReason — same discipline as the session-13 six, not padded
 and not treated as secretly eligible. `tsc` clean, `vitest` 569/569
 (unchanged). Full record: `docs/roster-1000-checkpoint.md` §80.
 
+**Session 15 (2026-08) ran a small, tightly controlled 4-person
+calibration specifically designed to eliminate session 14's research-
+depth confound — and narrowed it without resolving it.** Selected 4
+fresh candidates (Enrico Fermi, James Baldwin, Vaclav Havel, Josephine
+Baker), each chosen for an unusually well-documented public life, and
+explicitly verified a hard research-completeness floor (>=4 independent
+substantive sources beyond Wikipedia, >=12 evidence-ledger episodes,
+>=3 life periods, >=3 behavioral contexts) for all 4 BEFORE any trait
+score was assigned — 2 of the 4 (Fermi 15 episodes, Baker 16 episodes)
+matched or exceeded session 13's own demonstrated episode counts.
+`eligibility_v2` run exactly once across the locked cohort: **0/4
+eligible**, mean 7.75 scored rows (range 7-10) — a real improvement
+over session 14's 6.0, but still well short of session 13's 12.83.
+**Because the research floor was this time rigorously verified rather
+than merely intended, it is no longer plausible that low row counts
+are purely a matter of insufficient source-gathering.** The leading
+remaining, self-audited hypothesis: the EPISODE-TO-ROW CONVERSION
+discipline applied during scoring (how readily a second or third trait
+row is derived from adjacent evidence before being judged "redundant"
+with an already-scored row) was measurably more conservative in
+sessions 14-15 than in session 13, which appears to have converted
+episodes to rows at a higher rate. This is recorded as an open,
+unresolved methodological question — NOT attributed to `eligibility_v2`
+itself, which was not modified, redesigned, or examined for redesign.
+**A future session's concrete next step, recorded so it isn't
+re-derived from scratch**: re-derive trait rows for one of session 13's
+own already-locked episode ledgers (Borges or Sankara) using session
+15's stated, stricter conversion discipline, and compare the resulting
+row count — this would directly confirm or rule out a scoring-
+methodology confound before any conclusion about the gate's natural
+admission rate is drawn. No candidate was promoted; roster remains
+unchanged at 87 people, 86 match-eligible. All 4 session-13 and all 15
+session-14 candidate files were confirmed to show zero diff this
+session. `tsc` clean, `vitest` 569/569 (unchanged). Full record:
+`docs/roster-1000-checkpoint.md` §81.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 
