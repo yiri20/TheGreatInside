@@ -5265,7 +5265,286 @@ the SAME episodes would have produced fewer rows under session 15's
 apparent standard, which would confirm the conversion-discipline
 hypothesis rather than a research-depth one.
 
-## 13. Exact next steps for a fresh session (updated session 15)
+## 82. Session 16 — frozen-ledger scoring reproducibility audit: Borges +
+## Sankara, applying the current rubric to Session 13's own frozen
+## evidence with no new research (2026-08)
+
+**1. Audit purpose.** Sessions 14-15 each independently failed to
+reproduce Session 13's own demonstrated scoring density (mean 12.83 rows
+per candidate) even after Session 15 rigorously verified a research floor
+matching or exceeding Session 13's own episode counts for 2 of its 4
+candidates (§81). The leading, still-untested hypothesis carried forward
+from §80-81: episode-to-row CONVERSION discipline (how readily a second
+or third trait row is derived from adjacent evidence before being judged
+redundant) may have been measurably more conservative in Sessions 14-15
+than in Session 13 — a scoring-methodology confound, not a research-depth
+or candidate-quality one. Session 16's mandate, precisely scoped: hold
+the evidence FIXED (Session 13's own already-researched, already-locked
+episodes for two candidates) and vary only the scorer, to isolate whether
+conversion discipline alone explains a meaningful share of the row-count
+gap. This is diagnosis only — no eligibility computation, no roster
+change, no correction to any historical session's data (per the session's
+own explicit instructions 8 and 14).
+
+**2. Candidates.** Jorge Luis Borges and Thomas Sankara — the two of
+Session 13's six diagnostic candidates that landed closest to
+`eligibility_v2` (both 16/18 scored attributes, the maximum any Session
+13-16 candidate has reached to date), specified by name in the session's
+own governing instructions, not selected by this session.
+
+**3. Frozen-input provenance.** Read directly from
+`data-pipeline/candidates/jorge-luis-borges.json` and
+`thomas-sankara.json` as committed at `22c77de` (Session 13's own
+commit) — confirmed via `git log` that neither file has been touched by
+any commit since, and reconfirmed at closeout via `git status`/`git
+diff` showing zero diff (see item 19 below). **Full reconstruction
+limitation, stated once and carried through every artifact**: the
+original PRE-scoring evidence ledgers Session 13's own `provenance.notes`
+describe (19 episodes for Borges, 12 for Sankara, built and locked before
+any trait score was written) were never preserved as standalone
+artifacts anywhere in this repository — only the already-scored row
+`rationale` text survives. This audit's episode reconstruction
+(`src/dev/roster1000/audits/session16/frozenEvidence.borges.md` /
+`.sankara.md`) is therefore built by decomposing that rationale text back
+into 26 (Borges) and 19 (Sankara) atomic facts — the best achievable
+reconstruction from what the repository actually preserves, but NOT a
+blind pre-scoring ledger. Because each fact was already read grouped
+under the trait Session 13 chose for it, this audit's independence is
+real but bounded — documented as a governing caveat in
+`comparison.md` and restated in item 16 below.
+
+**4. Zero-new-research confirmation.** No WebSearch, no WebFetch, no new
+source beyond the four already cited per candidate in the locked
+`sources` arrays. No fact appears in either reconstructed episode ledger
+that is not already stated in the corresponding candidate file's row
+`rationale` text — verified by construction (the reconstruction script
+was, in effect, manual decomposition of that exact text, not independent
+lookup).
+
+**5. Session 13 original row counts.** Both candidates: **16 rows**
+(Borges 16/18 scored attributes, coverage 0.483; Sankara 16/18, coverage
+0.474 — both figures unchanged from §79).
+
+**6. Session 16 shadow row counts.** Borges: **15** rows (locked in
+`shadowProfile.borges.json`). Sankara: **13** rows (locked in
+`shadowProfile.sankara.json`). Combined mean: 14.0 vs. Session 13's mean
+of 16.0 (-12.5%) — far closer to Session 13's density than Session 14's
+mean of 6.0 or Session 15's mean of 7.75 were.
+
+**7. Exact reproductions.** 26 total (15 of 15 kept Borges rows; 11 of 13
+kept Sankara rows) — same trait, same direction, score within ~3 points,
+confidence within ~0.07, same `evidenceType`.
+
+**8. Partial reproductions.** 2, both Sankara: `planning_orientation`
+(same score 74, confidence raised 0.55->0.64 independently) and
+`detail_orientation` (confidence raised 0.38->0.50, `evidenceType`
+upgraded `inference`->`strong_inference`). Both are cases of this audit
+independently landing on HIGHER confidence than Session 13's own
+scoring — the opposite direction from what a "current scoring is more
+conservative" story would predict.
+
+**9. Session-13-only rows (not independently reproduced).** 4 total:
+Borges `decisiveness` (66/0.42/inference in Session 13); Sankara
+`impact_motivation` (82/0.62/documented), `achievement_drive`
+(74/0.55/strong_inference), and `adaptability` (55/0.38/inference). Full
+per-row reasoning for each decline in
+`shadowProfile.{borges,sankara}.json`'s `consideredButDeclined` arrays
+and `comparison.md` §5.
+
+**10. Session-16-only rows.** **0.** No trait was independently derived
+from the frozen evidence that Session 13 did not already score — this
+audit's disagreements are entirely about WHICH of Session 13's rows to
+keep/adjust, never about finding something Session 13 missed.
+
+**11. Mapping disagreements.** **0.** No case where the same underlying
+evidence was read as supporting a genuinely DIFFERENT trait than Session
+13 chose — every divergence was either a drop (evidence judged
+insufficient to independently justify a row) or a confidence/evidenceType
+adjustment on the SAME trait. This rules out Outcome C (stable totals
+hiding poor trait-identity agreement) cleanly for these two candidates.
+
+**12. Multi-trait conversion comparison (the direct hypothesis test).**
+Rate of rows drawing on evidence shared with at least one other row in
+the same profile: **Session 13, combined 14/32 rows (43.75%); Session 16
+shadow, combined 12/28 rows (42.86%)** — nearly identical. Of the 4 rows
+this audit declined, 3 (75%: `decisiveness`, `impact_motivation`,
+`achievement_drive`) are directly attributable to stricter judgment about
+extracting a 2nd-or-3rd trait from an already-used evidence cluster; 1
+(25%: `adaptability`) is unrelated — a standalone, thin, single-fact row
+never shared with another attribute. Full breakdown: `comparison.md` §4.
+
+**13. Confidence/mapping disagreements, direction.** Where this audit's
+confidence differed materially from Session 13's own (2 Sankara rows,
+item 8 above), BOTH moved confidence UP relative to Session 13, not down.
+Combined with the 4 declined rows (which moved the opposite direction —
+toward not scoring at all), the net pattern across all 6 genuine
+disagreements is NOT one-directional: this audit was stricter about
+multi-trait extraction in 3 cases, more conservative about a
+single-fact/occupational-adjacent row in 1 case, and more CONFIDENT than
+Session 13 on 2 already-kept rows. No broad evidence was found that
+"current" scoring is either systematically more restrictive or more
+generous than Session 13's own application of the same rubric — the
+disagreements read as ordinary scorer-level judgment variance on a small
+number of genuinely contestable rows.
+
+**14. Trait identity overlap.** Per-candidate Jaccard (intersection of
+kept traits / union with Session 13's original set, zero Session-16-only
+traits on either candidate): Borges 15/16 = 0.9375; Sankara 13/16 =
+0.8125. Combined pooled Jaccard = 28/32 = **0.875**. Exact + partial
+reproduction rate: 28/32 = **87.5%**. Proportion of Session 13 rows NOT
+reproduced: 4/32 = **12.5%**.
+
+**15. Discrepancy diagnosis, primary causes.** All 6 genuine
+disagreements trace to two categories, never a third: (1) multi-trait
+permissiveness/redundancy-handling differences (3 of 4 declines — the
+direct hypothesis test above) and (3)/(8) confidence-threshold
+differences in the direction of Session 13 having been slightly
+UNDER-confident on two kept rows with genuinely strong converging
+evidence. One decline (`adaptability`) falls under (6) direct-vs-
+inferential interpretation, closer to the rubric's own occupational-
+stereotype anti-pattern than to multi-trait reuse. **No example was found
+of category (8) "likely current over-conservatism" operating alone** —
+every disagreement either pushed toward stricter multi-trait discipline
+(explaining the hypothesis's real-but-small effect) or toward looser
+confidence assignment on already-kept rows (the opposite direction).
+Full table with concrete evidence citations: `comparison.md` §5.
+
+**16. Reproducibility verdict: Outcome A (strong reproducibility),
+bounded by a real contamination caveat.** Both shadow profiles returned
+close to Session 13's own row count (93.75% and 81.25% respectively) with
+strong trait-identity overlap (Jaccard 0.875 combined) and zero mapping
+disagreements. Per the session's own interpretation framework, this
+"weakens the scorer-drift hypothesis and makes genuine candidate/evidence
+differences in Session 15 more plausible" — but is explicitly NOT claimed
+as full calibration from two people, and is explicitly bounded by the
+governing caveat in item 3 above: because this audit's own episode
+reconstruction could only be built from Session 13's already-trait-
+grouped rationale text, some portion of the high agreement is very likely
+an artifact of that non-blind starting condition. The 6 genuine,
+independently-reasoned disagreements found DESPITE this contamination (4
+drops, 2 confidence corrections, in both directions) are the strongest
+available evidence that real independent judgment was exercised — but
+they are a minority of the 32 total rows, and a true blind trial (a
+scorer with zero prior exposure to Session 13's locked rows, extracting
+directly from the four original cited sources) would very likely show
+materially lower agreement than the 87.5% measured here. This audit
+should be read as an upper bound on reproducibility, not a settled
+figure.
+
+**17. Implication for the Session 15 hypothesis: PARTIALLY SUPPORTED, as
+a minor contributor, not the primary driver.** The multi-trait-conversion
+discipline hypothesis is real and measurable (it explains 3 of this
+audit's 4 declined rows, and this audit's own multi-trait-reuse rate,
+42.86%, IS slightly lower than Session 13's 43.75%) — but its magnitude
+is small: only 9.4% of Session 13's combined 32 rows were declined for
+this reason. Even a maximally generous extrapolation of this effect falls
+far short of explaining Session 14's ~53% row-count shortfall (mean 6.0
+vs. 12.83) or Session 15's ~40% shortfall (mean 7.75 vs. 12.83) relative
+to Session 13. **Scoring-conversion discipline is a real, contributing
+factor, not the primary explanation for the Session 13-vs-14/15 gap** —
+some other factor (most plausibly genuine candidate/evidence-availability
+differences between Session 13's six hand-picked, unusually well-primary-
+sourced candidates and Sessions 14-15's fresh cross-domain cohorts, per
+Outcome A's own framing) remains the more likely primary driver, though
+this audit cannot itself prove that alternative — only that it has become
+comparatively more plausible now that conversion discipline is shown to
+explain relatively little.
+
+**18. Implication for `eligibility_v2`.** None. `eligibility_v2` was
+never run against either shadow profile (per instruction 8) and this
+audit examined nothing about its thresholds. This audit is entirely
+upstream of eligibility — it tests only whether frozen evidence converts
+to trait rows reproducibly, never whether a resulting profile would pass
+admission. `eligibility_v2` remains completely unmodified (confirmed
+zero diff on `src/core/matching/similarity.ts`, item 19 below).
+
+**19. Production-data immutability, verified.** `git status --porcelain`
+before this session's commits showed a clean tree; the only change this
+session made anywhere in the repository is the new, isolated
+`src/dev/roster1000/audits/session16/` directory (5 new files, all
+under that path) plus this checkpoint section and (if applicable)
+commit metadata. `git diff --stat` against
+`data-pipeline/candidates/jorge-luis-borges.json`,
+`thomas-sankara.json`, every Session 14 candidate file, every Session 15
+candidate file, and `src/core/matching/similarity.ts` all report **zero
+diff**. `checkScoringLockIntegrity.ts` reports **0 flagged across 157
+previously-committed candidate files** (unchanged from Session 15's own
+close, confirming no confidence/evidenceType drift anywhere in the real
+corpus). `validateCandidates.ts` reports **0 errors, 0 warnings across
+all 157 candidate files**, with `jorge-luis-borges`/`thomas-sankara`
+still `held` at exactly 16/18 scored attributes, unchanged eligibility
+numbers. The shadow-profile JSON files use `schemaVersion:
+"session16_shadow_audit_v1"` (never `"candidate_v1"`), so even a future
+accidental copy into `data-pipeline/candidates/` would be rejected by
+`validateCandidates.ts`'s own schema check — locked by a permanent
+regression test (`session16Isolation.test.ts`, 5 tests) that also
+confirms every production candidate-pipeline tool hardcodes a
+non-recursive scan of `data-pipeline/candidates` only, structurally
+unable to discover this audit's directory.
+
+**20. Tests / validation.** `tsc --noEmit` clean · `vitest run`
+**574/574** (569 baseline + 5 new `session16Isolation.test.ts` tests) ·
+full-corpus `validateCandidates.ts`: 0 errors, 0 warnings across 157
+files (105 held + 52 qa_passed) · `checkScoringLockIntegrity.ts`: 0
+flagged across 157 previously-committed files · no Playwright run needed
+(no user-facing route, component, or live roster content changed, same
+"no production roster changes" branch as §79/§80/§81). No dispersion/
+calibration regeneration needed (no roster change).
+
+**21. Recommended next step.** This audit's own contamination limitation
+(items 3, 16) is the natural next gap to close: repeat this exact
+protocol under TRUE blind conditions — a scorer (human or a fresh agent
+session with zero prior exposure to Session 13's locked rows) extracting
+episodes and mapping traits directly from the four ORIGINAL cited
+sources (the Paris Review interview, the Infobae account, the UN/OAU
+primary speech transcripts, and the general biographical accounts), with
+Session 13's rows never shown until after that scorer's own lock point.
+If a true blind trial still reproduces close to what this audit found,
+Outcome A would be confirmed with much higher confidence and future
+roster-expansion sessions could proceed with real confidence that
+`eligibility_v2`'s low admission rate reflects genuine candidate/evidence
+availability rather than scorer inconsistency. If it instead reproduces
+closer to Session 14/15's low row counts, that would indicate this
+audit's contamination materially inflated its agreement figures, and the
+scorer-drift hypothesis would need to be taken more seriously. This is
+recorded as a recommendation for a future session, not undertaken here
+(no new research was in scope this session, per instruction 15). Full
+detail, every episode, every row rationale, and the complete comparison:
+`src/dev/roster1000/audits/session16/README.md`,
+`frozenEvidence.borges.md`, `frozenEvidence.sankara.md`,
+`shadowProfile.borges.json`, `shadowProfile.sankara.json`,
+`comparison.md`.
+
+## 13. Exact next steps for a fresh session (updated session 16)
+
+**IMPORTANT: read §82 before treating the Session 13-vs-14/15 row-count
+gap as settled, in either direction.** Session 16 ran the frozen-ledger
+reproducibility audit §80-81 both explicitly recommended: re-scoring
+Session 13's own already-locked evidence for Borges and Sankara under a
+fresh, independent application of the current rubric, with no new
+research and no eligibility computation. **Result: Outcome A (strong
+reproducibility)** — shadow row counts landed at 15/16 (Borges) and
+13/16 (Sankara), 87.5% exact-or-partial reproduction of Session 13's
+original 32 combined rows, zero mapping disagreements, and a combined
+Jaccard trait-identity overlap of 0.875. The Session 15 multi-trait-
+conversion hypothesis was **PARTIALLY SUPPORTED but shown to be a minor
+contributor**: it explains 3 of the 4 rows this audit independently
+declined (9.4% of Session 13's total row count), far short of the
+magnitude needed to explain Session 14's ~53% or Session 15's ~40%
+shortfall relative to Session 13. **This audit's own real, documented
+limitation must be read alongside its result**: the only frozen evidence
+this repository preserves is Session 13's already-scored row rationale
+text, not a blind pre-scoring ledger, so this audit's reconstruction
+could not be strictly blind and its high reproducibility figure should be
+read as an upper bound, not a settled number. **Do not conclude
+`eligibility_v2` is miscalibrated, and do not conclude Session 14-15's
+low counts are purely a research-quality artifact, from this audit
+alone.** The natural next step, if a future session wants a materially
+stronger answer, is a TRUE blind repeat of this same protocol (item 21,
+§82) — a scorer with zero exposure to Session 13's locked rows,
+extracting directly from the four original sources. No candidate was
+promoted this session; roster remains unchanged at 87 people, 86
+match-eligible; `eligibility_v2` remains completely unmodified.
 
 **IMPORTANT: read §81 before running a third blind calibration
 experiment.** Session 15 ran a small (4-person), TIGHTLY CONTROLLED
@@ -5454,11 +5733,31 @@ before-eligibility process this session's research also followed:
     fixed this session, per explicit instruction — must be fixed and
     verified before any merge to `main`, regardless of roster headcount.
 
-## 14. Known blockers / open questions for a future session (updated session 15)
+## 14. Known blockers / open questions for a future session (updated session 16)
 
+- **Session 16's frozen-ledger reproducibility audit (§82) found Outcome
+  A (strong reproducibility, 87.5% exact-or-partial row reproduction,
+  Jaccard 0.875) for Borges and Sankara, but with a real, documented
+  contamination caveat this checkpoint entry preserves explicitly**: the
+  audit could only reconstruct frozen evidence from Session 13's
+  already-scored row rationale text (no pre-scoring ledger was ever
+  preserved as a standalone artifact), so its reconstruction could not be
+  strictly blind and the reproducibility figure should be read as an
+  upper bound, not a settled number. The Session 15 multi-trait-
+  conversion hypothesis was partially supported (explains 3 of 4 declined
+  rows, ~9.4% of Session 13's total row count) but is too small in
+  magnitude to be the primary driver of the much larger Session 13-vs-
+  14/15 row-count gap. **Do not treat this as proof `eligibility_v2` is
+  well-calibrated, and do not treat Session 14-15's low row counts as
+  purely a research-quality artifact, on this audit alone** — a TRUE
+  blind repeat of the same protocol (§82 item 21) is the recommended next
+  step for a materially stronger answer. `eligibility_v2` was not run,
+  examined, or modified this session.
 - **STANDING MERGE BLOCKER, unrelated to roster-1000 data (session 12,
   §78; reconfirmed still open, session 13 §79; reconfirmed still open,
-  session 14 §80; reconfirmed still open, session 15 §81)**: a real
+  session 14 §80; reconfirmed still open, session 15 §81; reconfirmed
+  still open, session 16 §82 — not investigated this session, out of
+  scope)**: a real
   external user reported awkward forced wrapping / poor responsive
   proportions in the English mobile questionnaire's answer-choice
   layout. Not investigated or fixed in any of these sessions, per
