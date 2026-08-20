@@ -5515,7 +5515,311 @@ detail, every episode, every row rationale, and the complete comparison:
 `shadowProfile.borges.json`, `shadowProfile.sankara.json`,
 `comparison.md`.
 
-## 13. Exact next steps for a fresh session (updated session 16)
+## 83. Session 17 — evidence quality / diagnostic-density audit: does
+## Session 13's evidence carry more psychologically diagnostic content
+## per episode than Session 15's? (2026-08)
+
+**1. Audit purpose.** Session 16 (§82) held evidence fixed and varied
+the scorer, finding scoring-conversion discipline explains only 9.4% of
+Session 13's row total — a real but small, non-primary factor. This
+left a different, still-untested candidate explanation on the table:
+maybe Session 13's evidence itself is simply more behaviorally
+diagnostic per episode than Session 15's, even though both sessions'
+ledgers looked similarly deep by raw episode count. Session 17 tests
+this directly by classifying the evidence itself — not the scoring
+process — against a frozen A/B/C/D diagnostic-value rubric. This is
+diagnosis only: no new research, no rescoring, no eligibility
+computation, no historical correction, per the session's own governing
+instructions.
+
+**2. Candidates.** Jorge Luis Borges and Thomas Sankara (Session 13's
+group, the same two Session 16 already audited) vs. Enrico Fermi and
+James Baldwin (2 of Session 15's 4 candidates), specified by name in the
+session's own governing instructions. All four had sufficient preserved
+evidence to complete the audit; no substitution was needed.
+
+**3. Evidence provenance.** Borges/Sankara episode text reused verbatim
+from Session 16's own `frozenEvidence.borges.md`/`.sankara.md` (E1-E26,
+S1-S19). Fermi/Baldwin episode text (F1-F12, J1-J12) is new atomic
+decomposition performed this session from those candidates' locked
+`rows[*].rationale` text, using the identical methodology. Zero new
+research: no WebSearch, no WebFetch, no Wikidata lookup; every fact
+traces to a source already cited in the corresponding candidate file.
+
+**4. Reconstruction limitations — a significant, honest finding, not
+merely a caveat carried forward unexamined.** Instruction 10 asked this
+audit to determine whether Session 15's evidence artifacts are CLOSER
+to a genuine pre-scoring ledger than Session 13's (Session 16 had
+flagged this asymmetry as a real possibility, but only for
+Borges/Sankara). **They are not closer — the contamination is
+symmetric across both groups.** Checked directly: `docs/
+roster-1000-checkpoint.md` §79 (Session 13) and §81 (Session 15) BOTH
+report only aggregate ledger statistics (episode/source/life-period/
+context counts), never the ledger's actual content, and no standalone
+pre-scoring ledger file was ever committed to this repository for ANY
+of the four candidates. The only frozen evidence available for all four
+is the already-scored `rows[*].rationale` text — evidence necessarily
+written AFTER a trait had already been chosen for it. This label
+("historically trait-conditioned evidence") is applied uniformly to all
+four candidates in this audit, not only Borges/Sankara. This makes the
+comparison below fairer than the audit was originally designed to test
+for (whatever inflation trait-conditioned narration introduces applies
+to both groups roughly equally), while still bounding it — a true blind
+trial (extracting directly from each candidate's four originally-cited
+primary sources, per Session 16's own §21 recommendation) remains the
+only way to fully rule this out.
+
+**5. Frozen diagnostic rubric.** Four classes — A (highly behaviorally
+diagnostic: reveals a specific, differentiating operating tendency,
+regardless of drama), B (moderately diagnostic: real but thin/single-
+instance/context-dependent signal), C (primarily biographical/
+contextual: an award/appointment/title/publication/reputational-
+characterization-by-others with no behavioral texture), D (redundant:
+substantially restates an already-counted episode's underlying fact) —
+plus a 14-item behavioral-context taxonomy, a structure taxonomy (one-
+time / repeated / longitudinal, with a separate high-stakes flag), an
+evidence-form taxonomy (self-report / third-party-observation /
+documented-with-inferred-motive), and explicit-motive/reasoning/emotion
+boolean flags. Written and committed to `diagnosticRubric.md` BEFORE any
+episode was classified. No category boundary was redefined during
+classification; the rubric's own "Clarifications applied during
+classification" section records none were needed. Full text:
+`src/dev/roster1000/audits/session17/diagnosticRubric.md`.
+
+**6. Episode counts and classification, all four locked (`episodes.*
+.json`, `CLASSIFICATION_LOCK.md`).**
+
+```
+Candidate    Session  Total  A   B   C   D   A%    B%    C%    D%    A+B%
+Borges          13     26   17   4   2   3  65.4  15.4   7.7  11.5  80.8
+Sankara         13     19    9   7   3   0  47.4  36.8  15.8   0.0  84.2
+Fermi           15     12    7   2   2   1  58.3  16.7  16.7   8.3  75.0
+Baldwin         15     12    7   3   1   1  58.3  25.0   8.3   8.3  83.3
+```
+
+Locked BEFORE any cross-group comparison was computed, per
+`CLASSIFICATION_LOCK.md`. Every borderline call (role/title facts vs.
+concrete personal acts; reputational characterization; same-underlying-
+event redundancy; single vivid high-stakes moments) was checked for
+cross-candidate consistency and is documented with specific examples in
+`comparison.md` §8, so neither group was graded more leniently than the
+other.
+
+**7. Diagnostic-density comparison, pooled (episode-weighted across each
+group's 2 candidates):**
+
+```
+                Session 13 (n=45 episodes)  Session 15 (n=24 episodes)  Delta
+A%              57.8                        58.3                        -0.5
+B%              24.4                        20.8                        +3.6
+C%              11.1                        12.5                        -1.4
+D%               6.7                         8.3                        -1.6
+A+B%            82.2                        79.2                        +3.0
+```
+
+Mean-of-candidate-percentages (unweighted): A% 56.4 vs. 58.3 (-1.9);
+A+B% 82.5 vs. 79.2 (+3.3). **Session 13's evidence is NOT more
+diagnostically dense per episode than Session 15's, under either
+weighting.** The A-only percentage is very slightly LOWER for Session
+13 under both views — the opposite direction from the hypothesis. The
+A+B gap (3-3.3 points) is real but far too small to plausibly explain a
+scored-row gap where Session 13 averaged 12.83 rows/candidate against
+Session 15's 7.75 (39.6% shortfall) or Session 14's 6.0 (53.2%
+shortfall).
+
+**8. Behavioral-context breadth.** Mean distinct contexts per candidate:
+**10.5 for both groups, identical.** Union across the group: 14 (Session
+13) vs. 13 (Session 15) — negligible difference. This dimension shows
+no meaningful group difference at all.
+
+**9. Repeated-pattern/longitudinal structure and high-stakes density —
+the largest, most consistent difference found, running in TWO DIFFERENT
+DIRECTIONS depending on axis, not a single uniform "richer evidence"
+signal.**
+
+```
+                                              Session 13 pooled %   Session 15 pooled %
+repeated_behavior_pattern OR
+  longitudinal_pattern_across_years                   75.6 (34/45)          50.0 (12/24)
+highStakes: true                                       20.0 (9/45)          50.0 (12/24)
+```
+
+Session 13's evidence (Borges/Sankara) is far more often embedded in a
+sustained, repeated, or multi-year pattern (a five-decade collaboration,
+an austerity practice explicitly described in-source as "sustained...
+throughout his tenure," a belief reversal explicitly described in-source
+as "multi-step"). Session 15's evidence (Fermi/Baldwin) is instead
+concentrated in single, high-stakes, vivid moments (a real-time Trinity
+yield estimate, a Nobel-ceremony emigration under political threat, a
+Cambridge debate, a $40 flight to Paris) — individually A-classed but
+structurally less likely to cluster with other episodes describing the
+same sustained tendency.
+
+**10. Explicit motive/reasoning/emotion density.** Session 13 pooled:
+20.0% (9/45) of episodes state explicit motive, reasoning, or an
+emotional reaction rather than leaving it to be inferred. Session 15
+pooled: 8.3% (2/24) — less than half. Both Borges (26.9%) and Sankara
+(10.5%) individually exceed Fermi (8.3%); Baldwin (8.3%) matches Fermi
+exactly. Not driven by one candidate alone.
+
+**11. Episode-count illusion (instruction 14): tested directly, NOT
+found.** C-classed episodes carrying `career_achievement` context (a
+bare event with no added behavioral signal): Session 13 pooled 11.1%
+(5/45), Session 15 pooled 12.5% (3/24) — essentially identical, and each
+matching that group's overall C% exactly. Session 15's evidence is not
+disproportionately padded with bare achievement chronology relative to
+Session 13's; the 12-episode research-completeness floor did not produce
+a false impression of depth through low-value filler.
+
+**12. Central hypothesis verdict: NOT SUPPORTED.** Under the frozen
+rubric, applied with documented cross-candidate consistency, and under a
+SYMMETRIC (not asymmetric) contamination condition, Session 13's and
+Session 15's evidence are diagnostically comparable per episode: A+B
+density differs by only 3-3.3 points, A-only density is marginally
+HIGHER for Session 15, context breadth is identical, and the episode-
+count-illusion concern was tested and not found. A 3-point density gap
+cannot plausibly explain a 40-53% shortfall in scored-row count.
+Diagnostic density per episode is not the primary explanation for the
+Session 13-vs-14/15 coverage gap.
+
+**13. A real, secondary structural finding — exploratory, NOT confirmed,
+a new hypothesis for a future session, not this one's result.** §9-10
+show Session 13's evidence is substantially richer in repeated/
+longitudinal STRUCTURE (75.6% vs. 50.0%) and explicit motive/reasoning
+(20.0% vs. 8.3%) even though it is not more diagnostically dense by
+CLASS. Class and structure are independent axes — an episode can be
+A-classed whether it is a single dramatic moment or part of a five-
+decade pattern. This suggests a revised, untested hypothesis: **Session
+13's row-count advantage may come not from more diagnostically valuable
+evidence, but from evidence more structurally amenable to supporting
+MULTIPLE independent trait rows from the same underlying episode
+cluster** (a "repeated pattern across three decades" fact can plausibly
+motivate both an autonomy_need row and a decisiveness row; a five-step
+dated belief-reversal arc can motivate both independent_thinking and
+belief_updating rows from different steps of the same arc). This would
+refine, not contradict, Session 16's own finding that multi-trait
+conversion discipline is a real, small (9.4%) contributing factor. This
+audit did not itself measure row-conversion rates — that is Session
+16's instrument — and did not run `eligibility_v2` or modify any row.
+
+**14. Remaining confounds.** n=2 per group (every group percentage is
+illustrative, not statistically established, per the session's own
+governing instructions). Symmetric reconstruction contamination (§4)
+remains a real limitation on both sides pending a true blind trial.
+Single-rater classification (no independent second rater within this
+session's scope) — the cross-candidate consistency checks in
+`comparison.md` §8 are a partial substitute, not equivalent to a true
+second rater. The §13 structural hypothesis was formed by inspecting
+this audit's own locked data after the fact (legitimate, since
+class/context/structure fields were locked before any cross-group
+comparison was computed) but was not itself pre-registered before
+classification began.
+
+**15. Implication for research methodology.** Raw episode count, at
+least in this 4-candidate sample, IS a reasonably faithful proxy for
+diagnostic density (A+B%) specifically — the "episode-count illusion"
+concern (§11) was tested and not found. A future candidate-research
+protocol does not need to specifically hunt for higher-diagnostic-value
+episodes over lower-value ones; density does not appear to be the
+lever. If the §13 structural hypothesis is later confirmed, the more
+useful protocol change would be to specifically seek out REPEATED or
+LONGITUDINAL evidence (a pattern sustained/documented across multiple
+dated instances) over one-off single-instance evidence, even when both
+are equally diagnostic in isolation — since the former appears more
+likely to convert into multiple independent trait rows.
+
+**16. Implication for scoring reproducibility.** None new beyond
+Session 16's own finding — this audit is upstream of scoring (it
+classifies evidence, never derives a trait row from it), so it makes no
+independent claim about reproducibility. It does, however, sharpen WHERE
+a future reproducibility investigation should look: not at whether the
+evidence itself is "good enough" (§12 found it comparably good across
+both groups), but at how repeated/longitudinal evidence clusters convert
+into row counts specifically (§13's hypothesis).
+
+**17. Implication for `eligibility_v2`.** None. Not run, examined, or
+modified this session. This audit is entirely upstream of eligibility,
+same as Session 16.
+
+**18. Recommended next step.** Test the §13 structural hypothesis
+directly: re-derive trait rows from ONE of Session 13's own already-
+locked episode clusters that carries a strong repeated/longitudinal tag
+(e.g. Borges's E1/E2/E8 institutional-defiance pattern, or the E3-E7
+belief-reversal arc), applying Session 15's stated conversion
+discipline, and check specifically whether the repeated/longitudinal
+STRUCTURE (not just the raw fact count) is what licenses deriving
+multiple independent rows from it. This is a natural extension of
+Session 16's own frozen-ledger protocol, refined by this session's
+finding that density alone does not distinguish the two groups. Full
+detail: `src/dev/roster1000/audits/session17/README.md`,
+`diagnosticRubric.md`, `episodes.borges.json`, `episodes.sankara.json`,
+`episodes.fermi.json`, `episodes.baldwin.json`, `results.json`,
+`comparison.md`.
+
+**19. Production-data immutability, verified.** `git status --porcelain`
+before this session's commits showed a clean tree; the only change this
+session made anywhere in the repository is the new, isolated
+`src/dev/roster1000/audits/session17/` directory (10 files) plus this
+checkpoint section. `git diff --stat` against all four candidate files
+(`jorge-luis-borges.json`, `thomas-sankara.json`, `enrico-fermi.json`,
+`james-baldwin.json`) and `src/core/matching/similarity.ts` all report
+**zero diff**. `checkScoringLockIntegrity.ts` reports **0 flagged across
+157 previously-committed candidate files**. `validateCandidates.ts`
+reports **0 errors, 0 warnings across all 157 candidate files**, all
+counts and eligibility figures unchanged from Session 16's close.
+Episode files use `schemaVersion: "session17_episode_audit_v1"` (never
+`"candidate_v1"`), locked by a permanent regression test
+(`session17Isolation.test.ts`, 11 tests, mirroring
+`session16Isolation.test.ts`'s exact pattern) that also confirms every
+production candidate-pipeline tool hardcodes a non-recursive scan of
+`data-pipeline/candidates` only, structurally unable to discover this
+audit's directory.
+
+**20. Tests / validation.** `tsc --noEmit` clean · `vitest run`
+**585/585** (574 baseline + 11 new `session17Isolation.test.ts` tests) ·
+full-corpus `validateCandidates.ts`: 0 errors, 0 warnings across 157
+files · `checkScoringLockIntegrity.ts`: 0 flagged across 157 previously-
+committed files · `next build --webpack` clean, route table/static-
+dynamic split unchanged (no roster or app-code change) · no Playwright
+run needed (no user-facing route, component, or live roster content
+changed, same "no production roster changes" branch as §79-§82) · no
+dispersion/calibration regeneration needed (no roster change).
+`computeDiagnosticDensity.ts` (a pure, deterministic reader of the four
+locked episode files) computed every statistic in this section and in
+`comparison.md` — no number was manually approximated.
+
+**CLAUDE.md was NOT updated this session** — same precedent as Session
+16 (diagnosis-only, no durable methodology rule established; the §13
+structural hypothesis is explicitly exploratory and untested, not a
+confirmed rule to enshrine).
+
+## 13. Exact next steps for a fresh session (updated session 17)
+
+**IMPORTANT: read §83 before assuming evidence QUALITY explains the
+Session 13-vs-14/15 row-count gap.** Session 17 classified all 45
+(Borges+Sankara) and 24 (Fermi+Baldwin) preserved evidence episodes
+against a frozen A/B/C/D diagnostic-value rubric and found the central
+hypothesis — that Session 13 collected more behaviorally diagnostic
+evidence per episode — **NOT SUPPORTED**: A+B diagnostic density is
+82.2% (Session 13) vs. 79.2% (Session 15) pooled, a 3-point gap far too
+small to explain a 40-53% row-count shortfall, and A-only density is
+actually marginally HIGHER for Session 15. Behavioral-context breadth is
+identical (10.5 distinct contexts/candidate, both groups). The
+"episode-count illusion" concern was tested directly and NOT found
+(bare achievement-chronology share is ~11-13% in both groups). **A real,
+secondary, exploratory finding was surfaced instead, NOT confirmed as
+this session's own result**: Session 13's evidence carries substantially
+more repeated/longitudinal STRUCTURE (75.6% vs. 50.0% of episodes) and
+explicit motive/reasoning content (20.0% vs. 8.3%) despite comparable
+diagnostic CLASS — suggesting the row-count gap may trace to evidence
+being more structurally amenable to supporting MULTIPLE independent
+trait rows from the same episode cluster, not to the evidence being
+"better" per se. This refines rather than resolves Session 16's own
+conversion-discipline finding (§82) and is recorded as a hypothesis for
+a future session to test directly (§83 item 18), not a settled
+conclusion. No candidate was promoted, no row was scored, and
+`eligibility_v2` was not run this session; roster remains unchanged at
+87 people, 86 match-eligible.
 
 **IMPORTANT: read §82 before treating the Session 13-vs-14/15 row-count
 gap as settled, in either direction.** Session 16 ran the frozen-ledger
@@ -5733,8 +6037,28 @@ before-eligibility process this session's research also followed:
     fixed this session, per explicit instruction — must be fixed and
     verified before any merge to `main`, regardless of roster headcount.
 
-## 14. Known blockers / open questions for a future session (updated session 16)
+## 14. Known blockers / open questions for a future session (updated session 17)
 
+- **Session 17's evidence-quality/diagnostic-density audit (§83) found
+  the "Session 13's evidence is more diagnostically valuable per
+  episode" hypothesis NOT SUPPORTED** — A+B diagnostic density is
+  82.2% (Session 13, Borges+Sankara) vs. 79.2% (Session 15, Fermi+
+  Baldwin) pooled, a 3-point gap that cannot explain a 40-53% row-count
+  shortfall, and A-only density is marginally HIGHER for Session 15.
+  Context breadth is identical (10.5/candidate, both groups); the
+  episode-count-illusion concern was tested and not found. **A real,
+  secondary, exploratory (NOT confirmed) structural finding**: Session
+  13's evidence carries substantially more repeated/longitudinal
+  structure (75.6% vs. 50.0%) and explicit motive/reasoning content
+  (20.0% vs. 8.3%) despite comparable diagnostic class — a candidate
+  explanation for the row-count gap distinct from raw diagnostic value,
+  recorded as a hypothesis for a future session to test directly (§83
+  item 18: re-derive rows from one of Session 13's own repeated/
+  longitudinal episode clusters and check whether that structure, not
+  just fact count, licenses multiple independent rows). This refines,
+  not contradicts, Session 16's own conversion-discipline finding.
+  `eligibility_v2` was not run, examined, or modified this session; no
+  candidate was scored, promoted, or rescored.
 - **Session 16's frozen-ledger reproducibility audit (§82) found Outcome
   A (strong reproducibility, 87.5% exact-or-partial row reproduction,
   Jaccard 0.875) for Borges and Sankara, but with a real, documented
@@ -5756,8 +6080,8 @@ before-eligibility process this session's research also followed:
 - **STANDING MERGE BLOCKER, unrelated to roster-1000 data (session 12,
   §78; reconfirmed still open, session 13 §79; reconfirmed still open,
   session 14 §80; reconfirmed still open, session 15 §81; reconfirmed
-  still open, session 16 §82 — not investigated this session, out of
-  scope)**: a real
+  still open, session 16 §82; reconfirmed still open, session 17 §83 —
+  not investigated this session, out of scope)**: a real
   external user reported awkward forced wrapping / poor responsive
   proportions in the English mobile questionnaire's answer-choice
   layout. Not investigated or fixed in any of these sessions, per
