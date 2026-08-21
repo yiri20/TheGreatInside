@@ -29,7 +29,11 @@ file.
 |---|---|---|
 | `NEXT_PUBLIC_SUPABASE_URL` | Yes | Project Settings → API Keys |
 | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Yes | Same page — current 2026 key model, not the legacy `anon` key |
-| `SUPABASE_SECRET_KEY` | Provisioned, not currently used by any code path | Never referenced in `app/`/`src/` today (confirmed by repo-wide grep) — server-only if a future admin task ever needs it. Never expose to the browser. |
+| `SUPABASE_SECRET_KEY` | Required for Monetization v1 | Now has its first real caller (2026-08): the Stripe webhook's admin client (`@lib/supabase/admin.ts`), which writes `purchases`/`user_entitlements` — tables with no client-writable RLS policy at all. Server-only. Never expose to the browser. |
+| `MONETIZATION_ENABLED` | Required to enable Deep Inside | Literal string `"true"` — any other value (including unset) fails closed. See §5 below. |
+| `STRIPE_SECRET_KEY` | Required to enable Deep Inside | Stripe Dashboard → Developers → API keys. Use a **test** key (`sk_test_...`) until ready to accept real payments. |
+| `STRIPE_WEBHOOK_SECRET` | Required to enable Deep Inside | Stripe → Developers → Webhooks → your endpoint → Signing secret (`whsec_...`). |
+| `STRIPE_DEEP_INSIDE_PRICE_ID` | Required to enable Deep Inside | The one-time USD $6.99 Price's id (`price_...`), not the Product id. Verified server-side against the expected amount/currency before every Checkout Session (`src/lib/stripe/verifyPrice.ts`). |
 | `NEXT_PUBLIC_SITE_URL` | **Required** (2026-08 domain migration) | Production value: `https://thegreatinside.com`, no trailing slash. Feeds every canonical/hreflang/sitemap/OG/share URL (`siteUrl()`, `src/lib/env.ts`). Confirmed live (2026-08) that leaving this unset makes `siteUrl()` fall through to `VERCEL_PROJECT_PRODUCTION_URL`, which still resolves to the OLD `the-great-inside.vercel.app` hostname even with a custom domain attached in the Vercel UI — so, unlike before the domain migration, this variable is no longer optional. OAuth redirect URLs are unaffected either way — derived from the live request/browser origin, not this variable. See "Site URL resolution" below. |
 
 ### Site URL resolution (hardened 2026-08)
@@ -266,3 +270,40 @@ Step 5 onward requires the domain actually being deployed to first be
 added to Supabase's Redirect URLs (§3A) — expect it to fail with the same
 symptoms documented in `docs/phase9-provisional-checkpoint.md`'s Stage 9D
 record until that's done, which is expected, not a regression.
+
+## 5. Monetization v1 (Deep Inside) — Stripe setup
+
+Full architecture/design record: `docs/monetization-v1.md`. This section
+is only the external, manual setup steps — nothing here is done from this
+repository.
+
+**Supabase:**
+1. Apply `db/migrations/0005_monetization_v1.sql` in the SQL Editor
+   (creates `user_entitlements`/`purchases`, enables RLS on the
+   previously-unprotected `analytics_events`, adds
+   `user_profiles.deep_report_snapshot`).
+
+**Stripe (test mode first — see `docs/monetization-v1.md` §13 for the
+full manual test procedure):**
+1. Create a "Deep Inside" Product.
+2. Add a one-time Price: USD, $6.99 (699 cents), not recurring. Copy its
+   Price id (`price_...`).
+3. Developers → API keys → copy the (test) secret key (`sk_test_...`).
+4. Developers → Webhooks → Add endpoint → `https://<your-domain>/api/
+   stripe/webhook` → select events `checkout.session.completed`,
+   `checkout.session.async_payment_succeeded`, `charge.refunded` → copy
+   the signing secret (`whsec_...`).
+
+**Vercel:**
+1. Set `MONETIZATION_ENABLED=true`, `STRIPE_SECRET_KEY`,
+   `STRIPE_WEBHOOK_SECRET`, `STRIPE_DEEP_INSIDE_PRICE_ID` for the
+   Production environment (and Preview, if you want preview deployments
+   to exercise checkout against Stripe test mode too).
+2. Redeploy.
+
+**Going live**: repeat the Stripe steps in **live mode** (a separate
+Product/Price/webhook endpoint/secret key from test mode — Stripe keeps
+test and live completely separate), swap the four env vars to the live
+values, redeploy. Disable at any time by unsetting `MONETIZATION_ENABLED`
+(or setting it to anything other than `"true"`) and redeploying — every
+entry point fails closed immediately, no data loss.

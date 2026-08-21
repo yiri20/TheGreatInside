@@ -5440,6 +5440,129 @@ origin is confirmed live everywhere the app itself controls. Only
 external dashboard steps (Supabase, Search Console, Google Cloud
 Console) remain, none of them blocking.
 
+## Monetization v1 — Deep Inside (2026-08)
+
+**One paid product**: Deep Inside (`deep_inside_lifetime_v1`,
+`src/core/monetization/product.ts`), US$6.99 one-time (`mode: payment`,
+never a subscription), a lifetime account-level entitlement restored
+automatically on sign-in. Full design/implementation record:
+`docs/monetization-v1.md`; external Stripe/Vercel setup steps:
+`docs/deployment.md` §5. This section records only the durable facts a
+future session needs before touching monetization code again.
+
+**The free result is completely unchanged and ungated** — quiz
+completion, Greatness Potential, closest match, category matches, trait
+profile, comparison, top matches, Explorer, person profiles, and
+Similar/Opposite discovery. Nothing existing moved behind a paywall.
+
+**Deep Inside itself uses no generative AI.** Its five sections (Why
+Your Matches Fit, Your Historical Circle, Signature Combination, Your
+Strongest Contrast, Strengths & Trade-offs — `src/core/monetization/
+deepInsideReport.ts`) are computed entirely from EXISTING, already-
+reviewed algorithms: `rankMatches`'s own per-person breakdowns,
+`distinctiveTraits`, `greatness.ts`'s reviewed `TENSION_PAIRS` list (the
+same 75-point threshold `coherence()` itself uses — no new pair was
+invented), `selectOppositeProfile`, and the existing `dev.*`
+development-guide content. No new matching/scoring algorithm was added.
+
+**Reproducibility**: a SECOND, sibling immutable snapshot
+(`DeepInsideReportV1`, `src/core/monetization/deepInsideSnapshot.ts`) —
+same Strategy-A "compute once, freeze forever" pattern Phase 10C
+established for the free `ResultSnapshotV1`, but independent of it (Deep
+Inside needs more of the roster than the free snapshot stores, and may
+be generated later than quiz completion, so it embeds its own full
+`VersionSnapshot` inside the JSONB blob rather than reusing the row's
+existing version columns). Stored on the SAME `user_profiles` row via two
+new nullable columns (`deep_report_snapshot`, `deep_report_generated_at`)
+— `getOrCreateDeepInsideReport.ts` is the ONE place `buildDeepInsideReport`
+is ever called from a real request, and only when no snapshot exists yet.
+A purchased report can never be silently recomputed against a future
+roster/algorithm change.
+
+**Auth/purchase flow reuses 100% of the existing Stage 9/10 architecture**
+— no parallel account system, no new OAuth mechanism.
+`GoogleSignInCta`/`buildOAuthReturnPath`/`OAUTH_NEXT_COOKIE` and the
+existing `PendingResultsSync` pending-result-save pipeline are reused
+verbatim. New routes: `/[locale]/deep-inside` (sign-in-required / locked-
+preview / full-report, all in one Server Component so gating is
+server-authoritative — the locked branch never even constructs the
+report data) and `/[locale]/deep-inside/processing` (the Stripe
+`success_url` target — `?session_id=` is NEVER trusted as proof of
+payment; the page polls `checkDeepInsideEntitlementAction` against the
+database until the webhook-populated entitlement actually appears, with
+a manual retry).
+
+**Stripe**: `src/lib/stripe/{env,client,verifyPrice}.ts` +
+`src/lib/monetization/{createCheckoutSession,handleStripeWebhookEvent,
+getOrCreateDeepInsideReport,entitlements,funnelEvents}.ts` (each DI'd/
+unit-tested, with a thin `*Server.ts` wrapper doing the real Supabase/
+Stripe wiring — same pattern `saveCompletedResult.ts` already
+established). The client can never choose a price/amount/Price id — the
+server verifies the CONFIGURED `STRIPE_DEEP_INSIDE_PRICE_ID` against the
+expected $6.99/USD before every Checkout Session
+(`verifyPrice.ts`). The webhook (`app/api/stripe/webhook/route.ts`)
+verifies the signature before processing anything, uses a NEW secret-key
+admin Supabase client (`@lib/supabase/admin.ts` — `purchases`/
+`user_entitlements` have no client-writable RLS policy at all, by
+design) to idempotently upsert purchases/entitlements
+(`ON CONFLICT ... DO UPDATE`, safe under Stripe retry), and handles
+`charge.refunded` by revoking the entitlement.
+
+**Data model** (`db/migrations/0005_monetization_v1.sql`, mirrored into
+`db/schema.sql`): new `user_entitlements` and `purchases` tables
+(select-own RLS only, no client-writable policy — only the webhook's
+admin client writes them). `analytics_events` — REUSED, not new: it has
+existed in `db/schema.sql` since the original Stage 9A provisioning run
+but was never used by any code path and never had RLS enabled, a real,
+live gap this migration closes as a side effect of finally using it for
+the four allowlisted Deep Inside funnel events
+(`deep_report_result_viewed`/`cta_clicked`/`checkout_started` client-
+loggable; `deep_report_purchase_completed` webhook-only, structurally
+excluded from the client-facing RLS insert policy).
+
+**Fail-closed by design**: `isMonetizationEnabled()` (`src/lib/stripe/
+env.ts`) requires the explicit `MONETIZATION_ENABLED=true` flag AND all
+three Stripe env vars — checked first in every entry point. Missing/
+incomplete configuration renders no upsell UI at all (not a broken Buy
+button) and every server action/route returns a clean typed "disabled"
+outcome. This is also the rollback switch: unset the flag and redeploy
+to disable Deep Inside instantly with zero data loss.
+
+**EN/KO**: all `deepinside.*` copy has natural Korean translations (not
+literal); `translationCoverage("ko-KR") === 1` still holds. Privacy
+Policy and Terms of Service (`src/core/i18n/legal.ts`) were updated with
+a Deep Inside purchases disclosure (Stripe processes payment, no card
+data stored by this app, minimal purchase/entitlement records retained)
+— no refund policy, business, or tax-compliance claim was invented; those
+remain explicit pre-launch business decisions, not fabricated here (see
+`docs/monetization-v1.md` §16 for the full list of what's deliberately
+left undecided).
+
+**Verification**: `tsc --noEmit` clean; `vitest run` clean (unit tests
+cover checkout-session creation, webhook idempotency/security/refunds,
+entitlement checks, funnel-event allowlisting, price verification, the
+report builder's determinism, and the snapshot parser); `next build
+--webpack` clean (`/[locale]/deep-inside`, `/[locale]/deep-inside/
+processing`, and `/api/stripe/webhook` all correctly `ƒ` dynamic, every
+pre-existing route's static/dynamic split unchanged); Playwright covers
+the full report view via static synthetic-snapshot fixtures (same
+`gallery.tsx`/`SavedResultView` preview pattern, zero auth/Stripe
+involved) plus the real server's signed-out surfaces (Results teaser,
+`/deep-inside` sign-in-required state, noindex/nofollow, the processing
+page's initial state). **Not automated, by design** (crosses real
+external Stripe/Supabase systems — see `docs/monetization-v1.md` §13 for
+the exact manual test-mode procedure): a real Stripe test-mode Checkout,
+webhook-granted entitlement, and cross-account/logout-login restoration.
+As of this writing that manual test-mode pass has not yet been run by
+the product owner.
+
+**Not started** (explicitly out of Monetization v1's scope, matching the
+brief): subscriptions, multiple pricing tiers, coupons/referrals, teams,
+ads, a premium PDF export, an admin analytics dashboard beyond the one
+documented SQL query, and any roster/scoring/matching change of any kind
+— none of `taxonomy_v1`/`matching_v2`/`calibration_v3`/`greatness_v1`/
+`eligibility_v2` was touched.
+
 ## Conventions
 
 - Everything in `src/core` is pure: same input → same output, forever, for a
