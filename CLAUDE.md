@@ -3530,6 +3530,33 @@ Launch Roster Expansion with a fresh batch (`roster11.ts`) toward the
 100-person lightweight review checkpoint.** Full record:
 `docs/roster-1000-checkpoint.md` §85.
 
+**95-person roster released to production (2026-08).** The 95-person /
+94-match-eligible roster above, plus a small launch-readiness pass (a
+stale landing-page "35 extraordinary people" figure made self-updating
+from the live roster instead of hardcoded; a mobile 2-column density fix
+for the People Directory's 94-card grid, reusing the existing
+`.tgi-results-discovery-grid` pattern; a missing `polity.roman_republic`
+translation; a new `README.md`, `docs/adding-a-person.md`, and
+`docs/troubleshooting.md`), was merged `feat/launch-readiness-95` →
+`main` via fast-forward (main was a strict ancestor, no divergent
+history) and deployed to `https://thegreatinside.com`. Full pre-release
+gate re-run against the exact shipping commit (`92084be`): `tsc` clean,
+`vitest` 611/611, `next build --webpack` clean (214 routes, 190 static
+person pages), Playwright 220/220, matching health healthy (max #1
+frequency 11.6%, Warren Buffett), i18n coverage 0 missing keys, sitemap
+exactly 200 URLs (`10 + 95×2`, computed not hardcoded — **not** 210; an
+earlier session's own arithmetic error stated 210, corrected here for
+the record). Verified live post-deploy: landing/directory/profile/
+compare pages, EN+KO, old-seed and newest-batch people, canonical/
+hreflang/robots/sitemap all resolve to `thegreatinside.com` with zero
+`vercel.app` leakage, and both the `www` and old `the-great-inside.
+vercel.app` hostnames 308-redirect to the apex with path/query
+preserved. `feat/monetization-v1` was not touched, not merged, and
+remains frozen with no external payment activation. `scale/roster-1000`
+is now fully subsumed by `main` (0 unique commits remaining) but was not
+deleted this session, per instruction to avoid deleting branch history
+without an established project convention to do so.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 
