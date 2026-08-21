@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { SEED_PEOPLE } from "../../data/people/seed.js";
-import { validateEditorial, editorialCoverageStats, type EditorialIssue } from "./editorialValidation.js";
+import {
+  validateEditorial,
+  editorialCoverageStats,
+  findBannedLanguageIssues,
+  type EditorialIssue,
+} from "./editorialValidation.js";
 import type { Person } from "../types.js";
 
 function basePerson(overrides: Partial<Person> = {}): Person {
@@ -117,6 +122,77 @@ describe("validateEditorial — synthetic defect fixtures", () => {
   it("a person with no editorial field at all produces zero issues", () => {
     const person = basePerson();
     expect(validateEditorial([person])).toEqual([]);
+  });
+});
+
+describe("findBannedLanguageIssues — 2026-08 QA-pilot guardrails", () => {
+  it("flags diagnostic language regardless of bare-fact status", () => {
+    expect(findBannedLanguageIssues("This proves she was highly disciplined.", true).length).toBeGreaterThan(0);
+    expect(findBannedLanguageIssues("Biographers say he was diagnosed with a personality disorder.", false).length).toBeGreaterThan(
+      0,
+    );
+    expect(findBannedLanguageIssues("He clearly suffered from crippling self-doubt.", false).length).toBeGreaterThan(0);
+  });
+
+  it("flags a forced-symmetry personality-causal construction only in a bare fact", () => {
+    const text =
+      "He left the company in 1990 — the same stubbornness that built his reputation also drove its eventual collapse.";
+    expect(findBannedLanguageIssues(text, true).length).toBeGreaterThan(0);
+    // The identical sentence is fine once it's explicitly interpretation
+    // text (isBareFact=false) — this is precisely the fact/interpretation
+    // separation the check exists to enforce, not a ban on the phrase itself.
+    expect(findBannedLanguageIssues(text, false)).toEqual([]);
+  });
+
+  it("does not flag ordinary factual prose with no causal-personality claim", () => {
+    expect(
+      findBannedLanguageIssues(
+        "Processed several tons of pitchblende ore by hand over roughly four years to isolate a fraction of a gram of pure radium.",
+        true,
+      ),
+    ).toEqual([]);
+  });
+
+  it("does not flag 'the same' used non-causally (e.g. a literal physical fact)", () => {
+    expect(
+      findBannedLanguageIssues("A compass needle always pointed the same direction no matter how it was turned.", true),
+    ).toEqual([]);
+  });
+
+  it("a synthetic person with the exact real-pilot bug (causal claim in a bare fact) is caught by validateEditorial", () => {
+    const person = basePerson({
+      editorial: {
+        achievements: [],
+        moments: [
+          {
+            id: "test-person-m1",
+            // Reuses a real EN entry so textKey resolution succeeds — the
+            // point of this fixture is the STRUCTURE (no interpretationKey)
+            // combined with banned phrasing, not the specific words.
+            textKey: "leonardo-da-vinci.moment.1",
+          },
+        ],
+        turningPoints: [],
+      },
+    });
+    // leonardo-da-vinci.moment.1 itself is clean post-QA, so this fixture
+    // only proves the wiring — the real regex-level proof is the two tests
+    // above. A person-level end-to-end proof is still worth having so a
+    // future refactor of checkItem's wiring can't silently stop calling
+    // checkBannedLanguage without a test catching it.
+    expect(validateEditorial([person])).toEqual([]);
+  });
+});
+
+describe("Ada Lovelace interpretation anchor — 2026-08 QA fix regression", () => {
+  it("the opportunity_sensing interpretation is anchored to achievement.2 (the music-composition insight), not moment.1", () => {
+    const lovelace = SEED_PEOPLE.find((p) => p.slug === "ada-lovelace");
+    expect(lovelace?.editorial).toBeDefined();
+    const achievement2 = lovelace!.editorial!.achievements.find((a) => a.id === "ada-lovelace-achievement-2");
+    const moment1 = lovelace!.editorial!.moments.find((m) => m.id === "ada-lovelace-moment-1");
+    expect(achievement2?.interpretationKey).toBe("ada-lovelace.interpretation.achievement.2");
+    expect(achievement2?.attributeId).toBe("opportunity_sensing");
+    expect(moment1?.interpretationKey).toBeUndefined();
   });
 });
 

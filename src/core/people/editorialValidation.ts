@@ -24,6 +24,83 @@ export interface EditorialIssue {
 
 const ATTRIBUTE_ID_SET = new Set<string>(ATTRIBUTE_IDS);
 
+/**
+ * Narrow, high-precision guards against two specific, previously-real
+ * mistakes found during the 2026-08 pilot QA pass — NOT an attempt to
+ * automate prose quality or historical accuracy (both genuinely require
+ * human judgment; see docs/editorial-content.md's Writing Standard v1).
+ *
+ * 1. DIAGNOSTIC_PATTERNS — the "Safety" rule in CLAUDE.md ("never fabricate
+ *    or infer mental illness... personality disorders") applied to editorial
+ *    prose specifically. A short, deliberately narrow list of phrasings that
+ *    are never legitimate here, not a general sentiment/tone scanner.
+ * 2. FORCED_SYMMETRY_IN_FACT — catches a "the same trait that helped X also
+ *    caused Y" construction landing in a FACT-only item (no
+ *    `interpretationKey`), which is structurally where the fact/
+ *    interpretation boundary blurs: a personality-causal claim with no
+ *    interpretive framing at all, presented as bare historical fact. This
+ *    exact pattern was found and fixed in two pilot items (da Vinci's
+ *    Mona Lisa moment, Ataturk's 1925 turning point) during that pass. It
+ *    deliberately does NOT fire on interpretation text, where "the same X
+ *    that..." is a legitimate (if worth using sparingly) interpretive
+ *    device — only on text asserted as plain fact.
+ */
+const DIAGNOSTIC_PATTERNS: RegExp[] = [
+  /\bthis proves\b/i,
+  /\bproves (that|she|he|they) (was|were|is|are)\b/i,
+  /\bwas (a |an )?narcissist/i,
+  /\b(diagnosed|diagnosis) with\b/i,
+  /\bsuffered from (depression|anxiety|bipolar|schizophrenia|a personality disorder)\b/i,
+  /\bhad (a |an )?personality disorder\b/i,
+  /\bclearly (was|suffered|had)\b/i,
+];
+
+const CAUSAL_VERB = /\b(caused|drove|produced|led to|enabled|prevented|kept (him|her|them) from|made (him|her|them))\b/i;
+const FORCED_SYMMETRY = /\bthe same\b[^.]{0,120}?\bthat\b[^.]{0,120}?/i;
+
+/**
+ * Pure, directly-testable text check — the actual pattern-matching logic,
+ * decoupled from item/EDITORIAL_EN lookup so a test can exercise it with
+ * synthetic strings without needing to inject fake entries into the real
+ * content maps. `isBareFact` should be true only for text with no
+ * accompanying `interpretationKey` (see `checkBannedLanguage` below).
+ */
+export function findBannedLanguageIssues(text: string, isBareFact: boolean): string[] {
+  const found: string[] = [];
+  for (const pattern of DIAGNOSTIC_PATTERNS) {
+    if (pattern.test(text)) {
+      found.push(`matches a banned diagnostic-language pattern (${pattern}) — never assert a diagnosis, per CLAUDE.md "Safety"`);
+    }
+  }
+  if (isBareFact && FORCED_SYMMETRY.test(text) && CAUSAL_VERB.test(text)) {
+    found.push(
+      `contains a "the same X that... [caused/drove/produced/...]" personality-causal construction with no ` +
+        `interpretive framing — either strip the causal claim from the fact, or move it into a properly hedged interpretationKey`,
+    );
+  }
+  return found;
+}
+
+function checkBannedLanguage(
+  personSlug: string,
+  item: PersonEditorialItem,
+  issues: EditorialIssue[],
+): void {
+  const factText = EDITORIAL_EN[item.textKey];
+  const interpText = item.interpretationKey ? EDITORIAL_EN[item.interpretationKey] : undefined;
+
+  if (factText) {
+    for (const problem of findBannedLanguageIssues(factText, item.interpretationKey === undefined)) {
+      issues.push({ personSlug, itemId: item.id, problem: `fact text ${problem}` });
+    }
+  }
+  if (interpText) {
+    for (const problem of findBannedLanguageIssues(interpText, false)) {
+      issues.push({ personSlug, itemId: item.id, problem: `interpretation text ${problem}` });
+    }
+  }
+}
+
 function checkItem(
   personSlug: string,
   category: "achievements" | "moments" | "turningPoints",
@@ -77,6 +154,8 @@ function checkItem(
       issues.push({ personSlug, itemId: item.id, problem: `sourceId "${sourceId}" is not one of this person's own Person.sources ids` });
     }
   }
+
+  checkBannedLanguage(personSlug, item, issues);
 }
 
 /**
