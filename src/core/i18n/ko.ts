@@ -507,6 +507,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.computer_scientist": "컴퓨터 과학자",
   "occupation.conservationist": "자연보호 활동가",
   "occupation.crystallographer": "결정학자",
+  "occupation.dancer": "무용가",
   "occupation.diplomat": "외교관",
   "occupation.editor": "편집자",
   "occupation.engineer": "공학자",
@@ -1606,6 +1607,13 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.louis-pasteur": "루이 파스퇴르",
   "person.name.fyodor-dostoevsky": "표도르 도스토옙스키",
   "person.name.louis-armstrong": "루이 암스트롱",
+
+  // ROSTER-1000 session 19 (roster10.ts, 5 people).
+  "person.name.mustafa-kemal-ataturk": "무스타파 케말 아타튀르크",
+  "person.name.aung-san-suu-kyi": "아웅 산 수 치",
+  "person.name.anna-pavlova": "안나 파블로바",
+  "person.name.akio-morita": "모리타 아키오",
+  "person.name.oscar-niemeyer": "오스카 니마이어",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

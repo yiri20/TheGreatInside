@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "oscar-niemeyer",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Oscar Niemeyer",
+    "wikidataId": "Q134165",
+    "birthYear": 1907,
+    "deathYear": 2012,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": ["BR"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["architect"],
+    "fieldIds": ["architecture", "urban_design"],
+    "impactDomains": ["artistic", "engineering", "cultural"],
+    "tagIds": ["innovator", "nonconformist", "sustained_excellence"],
+    "archetypeIds": ["creative_creator", "independent_creator"]
+  },
+  "sources": [
+    { "id": "src_niemeyer_vice", "kind": "press", "title": "Vice Magazine — \"Oscar Niemeyer: The 101-Year-Old Man Who Invented Brazil's Capital\"", "url": "https://www.vice.com/en/article/oscar-niemeyer-856-v16n5/" },
+    { "id": "src_niemeyer_parisupdate", "kind": "press", "title": "Paris Update — \"Oscar Niemeyer in France: Creative Exile\"", "url": "https://www.parisupdate.com/oscar-niemeyer-in-france/" },
+    { "id": "src_niemeyer_wr", "kind": "press", "title": "Whipple Russell Architects — \"The Genius of Oscar Niemeyer\" (Parts I & II)", "url": "https://whipplerussell.com/blog/the-genius-of-oscar-niemeyer-part-1" },
+    { "id": "src_niemeyer_pritzker", "kind": "award_body", "title": "The Pritzker Architecture Prize — 1988 Laureate page and Jury Citation" },
+    { "id": "src_niemeyer_un", "kind": "institution", "title": "UN Archives (official United Nations archival record) — \"Oscar Niemeyer and the United Nations Headquarters\"", "url": "https://archives.un.org/en/node/245" },
+    { "id": "src_niemeyer_philippou", "kind": "biography", "title": "Styliane Philippou, Oscar Niemeyer: Curves of Irreverence (Yale University Press, 2008)" },
+    { "id": "src_niemeyer_wapo", "kind": "press", "title": "The Washington Post — Oscar Niemeyer obituary (December 2012)" },
+    { "id": "src_niemeyer_nyt", "kind": "press", "title": "The New York Times — Nicolai Ouroussoff, obituary and prior critical coverage" },
+    { "id": "src_niemeyer_riba", "kind": "award_body", "title": "RIBA Royal Gold Medal (1998) — Architects' Journal coverage" },
+    { "id": "src_niemeyer_domus", "kind": "press", "title": "Domus (Domus Web archive) — \"Oscar Niemeyer: the French Communist Party headquarters in Paris\"" }
+  ],
+  "rows": {
+    "analytical_rigor": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Structurally unified wall and roof into a single curved concrete shell, abandoning the conventional pillar-beam-slab approach, and later described his forms as emerging from spatial and structural calculation rather than pure decoration. Session 19 evidence ON-E4, ON-E26." },
+    "independent_thinking": { "score": 85, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Designed a structurally unorthodox curved church that Church authorities refused to consecrate for sixteen years rather than compromise the form, publicly rejected the Bauhaus/rationalist premise that architecture's value lies purely in functionalism, and sustained a costly political affiliation despite direct professional consequences. Session 19 evidence ON-E4, ON-E7, ON-E25." },
+    "creative_originality": { "score": 92, "confidence": 0.75, "evidenceType": "documented", "impact": "advantage", "rationale": "Originated a structurally novel curved-shell architectural form that abandoned conventional wall/roof separation entirely, sustained a signature, instantly recognizable curve-based aesthetic across a 78-year career, and explicitly framed beauty itself as architecture's central justification. Session 19 evidence ON-E4, ON-E25." },
+    "experimentation": { "score": 75, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Embedded an untested egalitarian housing ideology directly into a purpose-built capital city's design, revised his own working method and stated philosophy in direct response to public criticism, and described continuously exploring concrete's sculptural potential throughout his working life. Session 19 evidence ON-E9, ON-E11, ON-E24." },
+    "cross_domain_range": { "score": 68, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Extended his creative practice into furniture design with a family collaborator, took on sustained formal political-organizational leadership of a national party, and maintained an internationally distributed practice spanning several distinct cultural and political contexts. Session 19 evidence ON-E14, ON-E19." },
+    "aesthetic_sensitivity": { "score": 90, "confidence": 0.7, "evidenceType": "documented", "impact": "advantage", "rationale": "Explicitly stated that architecture \"has to be pretty\" and \"has to amaze to be a masterpiece,\" sustaining a signature curve-based aesthetic vision across nearly eight decades that critics specifically credited with reconciling the sensual and the rational in built form. Session 19 evidence ON-E25." },
+    "discipline": { "score": 82, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Maintained a daily drawing practice from early childhood through the end of his life, and at nearly 100 years old still climbed the stairs each morning to a full day of active design work rather than treating advanced age as grounds for retirement. Session 19 evidence ON-E1, ON-E24." },
+    "deep_focus": { "score": 80, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained an unbroken daily creative practice from early childhood, continuing to design actively into his eleventh decade with a desk full of ongoing projects. Session 19 evidence ON-E1, ON-E24." },
+    "persistence": { "score": 88, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Worked without pay specifically to learn from an established mentor, pushed his way onto a high-profile project team after being initially excluded, and sustained an internationally distributed architectural practice across two decades of political exile and into extreme old age. Session 19 evidence ON-E2, ON-E3, ON-E19, ON-E21." },
+    "adaptability": { "score": 80, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Publicly revised his own design philosophy and working method after direct professional criticism, and rebuilt an entirely new, internationally distributed client base across several countries after losing his Brazilian practice to political persecution. Session 19 evidence ON-E9, ON-E19." },
+    "risk_tolerance": { "score": 82, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained a costly political party affiliation that directly blocked major career opportunities and ultimately triggered a raided office and lost clients, then collectively resigned from an academic institution in protest rather than continue working quietly under a government he opposed. Session 19 evidence ON-E7, ON-E16, ON-E17." },
+    "decisiveness": { "score": 70, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Declined to compromise a structurally unorthodox design despite the prospect of prolonged institutional rejection, and responded to public professional criticism with a direct, substantive counter-argument rather than delay or silence. Session 19 evidence ON-E4, ON-E8." },
+    "social_assertiveness": { "score": 72, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Engaged directly and publicly in a professional dispute with a prominent critic rather than remaining silent, and continued giving direct public statements about his own philosophy and working method into his second century of life. Session 19 evidence ON-E8, ON-E24." },
+    "collaboration": { "score": 68, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Yielded ground to a senior colleague's pressure for a merged design submission even after his own scheme had already won the design board's preference, and sustained a decades-long working partnership with the same mentor-turned-collaborator across two of his largest career commissions. Session 19 evidence ON-E6." },
+    "leadership_drive": { "score": 75, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Led his own architectural practice across a 78-year career and separately took on formal presidential leadership of a national political party in his mid-eighties. Session 19 evidence ON-E14." },
+    "persuasiveness": { "score": 70, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Earned expanded design authority on a major early commission through the persuasive quality of his own work after being initially excluded, and mounted a substantive public counter-argument against a prominent critic's published attack. Session 19 evidence ON-E3, ON-E8." },
+    "conflict_tolerance": { "score": 82, "confidence": 0.62, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Sustained a structurally unorthodox design through sixteen years of institutional rejection rather than compromise, and maintained a costly political commitment despite direct professional consequences — though the same record shows him yielding ground to a senior colleague's pressure in at least one high-profile case, so this tolerance was not unconditional. Session 19 evidence ON-E4, ON-E6, ON-E7." },
+    "mastery_orientation": { "score": 85, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained a self-directed daily drawing practice from early childhood through the end of his life, and continued deep, hands-on engagement with his own craft's technical possibilities across a 78-year career rather than shifting to a purely supervisory role. Session 19 evidence ON-E1, ON-E24." },
+    "achievement_drive": { "score": 90, "confidence": 0.7, "evidenceType": "documented", "impact": "advantage", "rationale": "Designed approximately 600 projects across a 78-year working career, continuing major international commissions into his eleventh decade of life. Session 19 evidence ON-E19, ON-E21." },
+    "autonomy_need": { "score": 78, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Pushed his way onto a major project team he had been formally excluded from, and maintained an independent artistic and political direction across a career that continued producing major commissions into his second century of life. Session 19 evidence ON-E3, ON-E21." },
+    "impact_motivation": { "score": 80, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Donated architectural plans for a political party's headquarters specifically out of ideological commitment rather than fee, and directly acknowledged rather than denied the tension between his stated political values and his career of building for the wealthy and the state, reframing architecture's purpose around improving human life rather than profit. Session 19 evidence ON-E15, ON-E18." },
+    "opportunity_sensing": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Rebuilt an entirely new, substantial international client base across several countries once political exile closed off his original Brazilian practice, rather than treating the loss as career-ending. Session 19 evidence ON-E19." },
+    "resourcefulness": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "advantage", "rationale": "Reconstructed a functioning, internationally distributed architectural practice from a foreign base after his original office was raided and his domestic client base disappeared. Session 19 evidence ON-E17, ON-E19." },
+    "proactive_agency": { "score": 85, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Pushed his way onto a high-profile project after being formally excluded from it, sheltered political dissidents at his own office on his own initiative, and continued personally initiating major design projects into extreme old age rather than allowing his advancing years to end his active output. Session 19 evidence ON-E3, ON-E12, ON-E21." }
+  },
+  "computedEligibility": { "scoredAttributeCount": 24, "averageConfidence": 0.583, "coverage": 0.714, "eligible": true, "computedAt": "2026-08-20T00:00:00Z" },
+  "provenance": {
+    "createdAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-08-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Session 19 Launch Roster Expansion, production batch 1. Selected to fill the architecture-domain gap (zero live representation in the prior 90-person roster). Not previewed for trait coverage before selection. Identity verified live against Wikidata Q134165 before any research began. EVIDENCE LOCKED per src/dev/roster1000/production/session19/oscar-niemeyer/EVIDENCE_LOCK.md before this scoring pass began; all 23 rows above trace to that frozen 31-episode evidence ledger, cited by episode id in each rationale. His lifelong Communist Party membership and two-decade political exile are documented factually, without editorializing, per this project's existing discipline."
+  }
+}

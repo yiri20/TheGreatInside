@@ -57,9 +57,17 @@ const FIXTURES = {
  *  scripted single-character-mutation search against the live
  *  buildResultSet pipeline, not hand-picked), re-verified to still
  *  produce `unexpected === undefined` and `opposite !== undefined`
- *  against the current roster. See docs/roster-1000-checkpoint.md §84. */
+ *  against the current roster. See docs/roster-1000-checkpoint.md §84.
+ *
+ *  ROSTER-1000 session 19 (roster10.ts, 90 -> 95 people): recurred again,
+ *  exactly as the pattern above predicted. Replaced with a fresh token
+ *  found the same way (single-character-mutation search against the
+ *  live buildResultSet pipeline against the current 95-person roster),
+ *  re-verified to produce `unexpected === undefined` and
+ *  `opposite !== undefined`. See docs/roster-1000-checkpoint.md, Session
+ *  19 section. */
 const UNEXPECTED_ABSENT_TOKEN =
-  "quiz_v2.666166b666b6a666666b66666b66ad66b6666b6666b6a6666a6666666666666";
+  "quiz_v2.666166b616b6a666666b66666b66ad66b6666b6666b6a6666a6666666666666";
 
 const VIEWPORTS = [
   { name: "mobile-390", width: 390, height: 1200 },

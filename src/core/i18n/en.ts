@@ -761,6 +761,7 @@ export const en = {
   "occupation.computer_scientist": "computer scientist",
   "occupation.conservationist": "conservationist",
   "occupation.crystallographer": "crystallographer",
+  "occupation.dancer": "dancer",
   "occupation.diplomat": "diplomat",
   "occupation.editor": "editor",
   "occupation.engineer": "engineer",
