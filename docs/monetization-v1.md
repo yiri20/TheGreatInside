@@ -3,6 +3,40 @@
 Implementation record. See `CLAUDE.md`'s "Monetization v1" section for the
 durable summary future sessions need; this file is the detailed reference.
 
+## 0. Handoff checkpoint (2026-08) — READ THIS FIRST
+
+**Monetization v1 implementation is complete on `feat/monetization-v1`.**
+Automated verification is fully green (590/590 Vitest, 236/236
+Playwright, clean production build — see the branch's own commits for
+exact figures).
+
+**External activation has intentionally NOT been performed in this
+session, by explicit product decision**: activating real payment
+infrastructure is deferred until product ownership/operations are handed
+off to the future operator. Specifically, none of the following were
+created, configured, or touched this session:
+
+- No Stripe account/Product/Price/webhook of any kind (test or live).
+- No `MONETIZATION_ENABLED`, `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`,
+  or `STRIPE_DEEP_INSIDE_PRICE_ID` set anywhere, in Vercel or otherwise.
+- `db/migrations/0005_monetization_v1.sql` has **not** been applied against
+  the live Supabase project — `user_entitlements`/`purchases` don't exist
+  there yet, and `analytics_events` still has no RLS enabled live.
+- No real or test payment account of any kind is connected to this
+  project.
+
+**`feat/monetization-v1` has NOT been merged to `main`.** Do not merge
+until the full §13 manual test-mode gate passes.
+
+**Resume point for the next operator**: `docs/monetization-v1.md` §13
+("Test-mode procedure (manual gate)"), starting at its step 1 — set
+`MONETIZATION_ENABLED=true` + real Stripe **test** keys +
+`STRIPE_DEEP_INSIDE_PRICE_ID` in the deployment. `docs/deployment.md` §5
+has the exact external-dashboard steps (Stripe Product/Price creation,
+webhook configuration, Vercel env vars, Supabase migration) in the same
+order. Nothing in the implementation needs to change — this is
+configuration and manual verification only.
+
 ## 1. Product
 
 One product: **Deep Inside** (`deep_inside_lifetime_v1`,
