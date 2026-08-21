@@ -20,6 +20,13 @@ import { describe, expect, it } from "vitest";
  * `VERCEL_PROJECT_PRODUCTION_URL`-fallback mechanism in `siteUrl()`, not
  * to assert anything about the real canonical origin (see `env.test.ts`,
  * `seo.test.ts`, `sitemapEntries.test.ts`, `robotsConfig.test.ts`).
+ *
+ * `canonicalHost.ts` is also deliberately excluded — it references the
+ * old hostname as a redirect-FROM allowlist entry (the app-layer
+ * safety-net redirect wired into `proxy.ts`), which is the one
+ * legitimate, intentional exception to "never emit the old hostname":
+ * the whole point of that file is to recognize the old hostname and
+ * redirect it away, never to produce it as a canonical/public URL.
  */
 const OLD_HOSTNAME = "the-great-inside.vercel.app";
 
@@ -27,6 +34,7 @@ const here = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(here, "../..");
 const SCAN_DIRS = ["app", "src"];
 const EXCLUDED_DIR_NAMES = new Set(["node_modules", ".next", "test-artifacts"]);
+const EXCLUDED_FILE_BASENAMES = new Set(["canonicalHost.ts"]);
 
 function isTestFile(path: string): boolean {
   return /\.test\.(ts|tsx)$/.test(path);
@@ -39,7 +47,7 @@ function collectSourceFiles(dir: string, out: string[]): void {
     const stat = statSync(full);
     if (stat.isDirectory()) {
       collectSourceFiles(full, out);
-    } else if (/\.(ts|tsx|js|jsx|mjs)$/.test(entry) && !isTestFile(entry)) {
+    } else if (/\.(ts|tsx|js|jsx|mjs)$/.test(entry) && !isTestFile(entry) && !EXCLUDED_FILE_BASENAMES.has(entry)) {
       out.push(full);
     }
   }

@@ -5311,14 +5311,31 @@ Great Inside.** This supersedes the "Broader Public Launch Finish Line"
 instruction" paragraph named as the only valid trigger to reopen that
 decision.
 
-**Vercel project-domain configuration (done in the Vercel UI, not from
-this repository):** `thegreatinside.com` serves the production
-deployment; `www.thegreatinside.com` permanently redirects to it; the
-former production hostname, `the-great-inside.vercel.app`, also
-permanently redirects to it. No `vercel.json` exists in this repo and
-none was added — this redirect behavior is entirely Vercel's own
-project-domain configuration, not application code, and application
-code must not duplicate it.
+**Vercel project-domain configuration (intended to be done in the Vercel
+UI, not from this repository):** `thegreatinside.com` serves the
+production deployment; `www.thegreatinside.com` is intended to
+permanently redirect to it; the former production hostname,
+`the-great-inside.vercel.app`, is intended to permanently redirect to it
+also. **Corrected 2026-08, after live runtime verification**: `curl`
+against both alternate hostnames found neither was actually redirecting
+— both served the app directly with `200 OK` (and the `Age` response
+header on the Vercel-hostname response was ~5 days, ruling out
+propagation delay as the explanation). No `vercel.json` exists in this
+repo, and this is deliberately NOT the fix — the correct place for this
+redirect is still the Vercel dashboard's own domain-redirect
+configuration, and that dashboard state should be checked/corrected.
+**A belt-and-suspenders app-layer safety net was added instead** (so the
+product-level goal — `thegreatinside.com` as the single canonical origin
+everywhere — holds regardless of the dashboard's state): `src/lib/
+canonicalHost.ts` (a small, pure, allowlisted host→redirect function,
+Vitest-covered) wired into `proxy.ts`, redirecting exactly
+`www.thegreatinside.com` and `the-great-inside.vercel.app` (never a
+blanket "anything non-canonical" rule, which would incorrectly redirect
+local dev and every preview deployment) to the canonical apex with a 308
+(permanent, method-preserving) status, preserving path and query.
+Verified live via 3 new Playwright tests in `e2e/seoLocale.spec.ts`
+(`Host` header override) confirming the exact redirect behavior and the
+absence of a loop on the canonical host itself.
 
 **Application-side architecture needed no new centralized constant.**
 `siteUrl()` (`src/lib/env.ts`) already was, and remains, the single
@@ -5371,6 +5388,13 @@ Phase 9. Google's own "Authorized redirect URI" points at Supabase's own
 fixed callback and is domain-independent (unchanged since Stage 10A).
 
 **Remaining manual steps (external to this repository, not yet done):**
+0. **Vercel → Project → Settings → Domains**: check the "Redirect to"
+   toggle for `www.thegreatinside.com` and `the-great-inside.vercel.app`
+   — live verification (2026-08) found neither was actually redirecting
+   despite the intended configuration. The app-layer safety net above
+   (`canonicalHost.ts`) makes the product-level goal hold either way, but
+   the dashboard is still the correct place to fix this properly (a
+   redirect at the edge is cheaper than one more hop through the app).
 1. **Vercel → Project → Settings → Environment Variables**: add
    `NEXT_PUBLIC_SITE_URL` = `https://thegreatinside.com` for the
    Production environment, then redeploy (or the next push to `main`
