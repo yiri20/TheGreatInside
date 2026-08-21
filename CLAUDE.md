@@ -5536,10 +5536,16 @@ report it rather than improvise. Result:
 
 ### 4. Custom domain decision — **A: REQUIRED BEFORE BROADER PUBLIC LAUNCH** (corrected 2026-08)
 
-Current production origin: `https://the-great-inside.vercel.app` (Stage
-10B). No domain was purchased or configured this pass, per instruction —
-this section records the finding and the resulting blocker, not an
-action taken.
+**RESOLVED 2026-08 — see "Domain Migration" below.** The product owner
+purchased `thegreatinside.com`, resolving the blocker this section
+identifies. Preserved unedited below as the historical record of the
+finding itself, which remains accurate — it's the reasoning that led to
+the domain purchase.
+
+Current production origin (at the time this section was written):
+`https://the-great-inside.vercel.app` (Stage 10B). No domain was
+purchased or configured this pass, per instruction — this section
+records the finding and the resulting blocker, not an action taken.
 
 **This classification was corrected during human review** — the first
 pass of this audit classified the domain as B (recommended, safe to
@@ -5717,7 +5723,12 @@ requirement) remains factually accurate and is not being disputed or
 retested — it's a real, documented, *consciously deferred* gap, not a
 resolved one and not a mistaken one.
 
-**Current launch posture, explicit:**
+**Current launch posture, explicit (SUPERSEDED 2026-08 — see "Domain
+Migration" below): this posture held only until the product owner
+purchased `thegreatinside.com`, which is exactly the trigger the
+"Standing instruction" paragraph below named as the one thing that would
+reopen this decision. Preserved here unedited as the historical record of
+what was true at the time.**
 - **Approved launch URL: `https://the-great-inside.vercel.app`** — this
   is the real, current production origin for the broader public launch,
   not a placeholder.
@@ -5739,6 +5750,104 @@ asked to reconsider, the trigger is "the product owner brings it up
 again" (e.g. real traffic/sharing numbers prompting a domain decision),
 not any technical or audit finding rediscovering the same gap this
 section already fully documented.
+
+## Domain Migration (2026-08)
+
+**`https://thegreatinside.com` is the official public origin of The
+Great Inside.** This supersedes the "Broader Public Launch Finish Line"
+§9 decision to launch on the bare Vercel URL and defer a domain purchase
+— the product owner purchased the domain, which §9's own "Standing
+instruction" paragraph named as the only valid trigger to reopen that
+decision.
+
+**Vercel project-domain configuration (done in the Vercel UI, not from
+this repository):** `thegreatinside.com` serves the production
+deployment; `www.thegreatinside.com` permanently redirects to it; the
+former production hostname, `the-great-inside.vercel.app`, also
+permanently redirects to it. No `vercel.json` exists in this repo and
+none was added — this redirect behavior is entirely Vercel's own
+project-domain configuration, not application code, and application
+code must not duplicate it.
+
+**Application-side architecture needed no new centralized constant.**
+`siteUrl()` (`src/lib/env.ts`) already was, and remains, the single
+source every canonical/hreflang/sitemap/robots/OG/share URL in the app
+resolves through (`src/lib/seo.ts`'s `localizedAlternates`,
+`src/lib/sitemapEntries.ts`, `src/lib/robotsConfig.ts`, both root
+layouts' `metadataBase`, and the three inline share-URL call sites in
+`results/page.tsx`/`compare/[slug]/page.tsx`/`people/[slug]/page.tsx`) —
+confirmed by grep before this migration that no file outside a test
+hardcoded the old hostname. The migration therefore required no code
+change to how the origin is resolved, only correctly *configuring* that
+existing resolution chain for the new domain, plus documentation and
+regression tests.
+
+**One load-bearing finding, confirmed live against the real production
+deployment (2026-08), not assumed**: with `thegreatinside.com` already
+configured as the project's production domain in Vercel's UI but
+`NEXT_PUBLIC_SITE_URL` still unset, the live site's own canonical/OG
+tags STILL resolved to `https://the-great-inside.vercel.app` — Vercel's
+`VERCEL_PROJECT_PRODUCTION_URL` system variable (`siteUrl()`'s fallback
+tier, see `src/lib/env.ts`) does not automatically switch to a newly
+attached custom domain. **Setting `NEXT_PUBLIC_SITE_URL=
+https://thegreatinside.com` as a Vercel Production environment variable
+is therefore the one required, not-yet-completed step** to make the new
+domain the app's actual canonical origin — see "Remaining manual steps"
+below.
+
+**Regression protection added**: `src/lib/canonicalOriginGuard.test.ts`
+statically scans every non-test file under `app/`/`src/` and fails if
+the literal string `the-great-inside.vercel.app` ever reappears outside
+a test fixture — so a future change can't silently reintroduce the old
+hostname as a hardcoded fallback. `env.test.ts`/`seo.test.ts`/
+`sitemapEntries.test.ts`/`robotsConfig.test.ts` each gained a test
+pinning the exact new-domain output (canonical, hreflang, sitemap URL
+list, `robots.txt`'s `sitemap` field) as a concrete regression anchor,
+alongside their pre-existing generic-mechanism tests (which legitimately
+keep using the old hostname as an arbitrary example value to exercise
+the `VERCEL_PROJECT_PRODUCTION_URL`-fallback path itself, not to assert
+anything about the real canonical origin).
+
+**No structured data (JSON-LD/schema.org) exists anywhere in this
+codebase** — confirmed by grep; nothing to migrate there.
+
+**Supabase/Google — code side confirmed unaffected.** OAuth redirect
+construction (`AuthControls.tsx`, `GoogleSignInCta.tsx`, `SignInCta.tsx`,
+`app/auth/callback/route.ts`) derives from the live request/browser
+origin, never from `siteUrl()` or a hardcoded value — this already works
+correctly on any domain with zero code change, exactly as designed since
+Phase 9. Google's own "Authorized redirect URI" points at Supabase's own
+fixed callback and is domain-independent (unchanged since Stage 10A).
+
+**Remaining manual steps (external to this repository, not yet done):**
+1. **Vercel → Project → Settings → Environment Variables**: add
+   `NEXT_PUBLIC_SITE_URL` = `https://thegreatinside.com` for the
+   Production environment, then redeploy (or the next push to `main`
+   will pick it up). This is the one step that actually flips the app's
+   own canonical/OG/share output to the new domain — see the load-bearing
+   finding above.
+2. **Supabase Dashboard → Authentication → URL Configuration**: set Site
+   URL to `https://thegreatinside.com`; add
+   `https://thegreatinside.com/auth/callback` to Redirect URLs. Keep the
+   old `the-great-inside.vercel.app`/`localhost:3000` entries during
+   migration rather than removing them — harmless to leave, no upside to
+   removing early.
+3. **Google Search Console**: verify a new property for
+   `thegreatinside.com` (a DNS-verified Domain property is recommended —
+   covers apex + `www` + both protocols in one verification) and submit
+   `https://thegreatinside.com/sitemap.xml`. The existing
+   `GOOGLE_SITE_VERIFICATION` meta tag (`src/lib/seo.ts`) was issued for
+   a property on the old hostname and does not automatically extend to
+   the new domain.
+4. Google Cloud Console OAuth consent-screen Homepage/Privacy/Terms/
+   Authorized-Domains fields (Broader Public Launch Finish Line §5,
+   items 3/4/5/7) can now be completed against `thegreatinside.com` — see
+   that section for the exact field list. Still gated behind the
+   product owner's separate, still-optional decision on brand
+   verification (§4's item-3 distinction).
+
+Once step 1 above is done, this migration is complete — no further
+application-side work is needed for the domain change itself.
 
 ## Conventions
 

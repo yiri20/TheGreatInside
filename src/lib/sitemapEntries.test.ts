@@ -110,4 +110,12 @@ describe("buildSitemapEntries", () => {
     const urls = buildSitemapEntries().map((e) => e.url);
     expect(urls.every((u) => u.startsWith("https://the-great-inside.vercel.app"))).toBe(true);
   });
+
+  it("resolves every URL to the real production domain (thegreatinside.com), never the old Vercel hostname (2026-08 domain migration)", () => {
+    process.env.NEXT_PUBLIC_SITE_URL = "https://thegreatinside.com";
+    const urls = buildSitemapEntries().map((e) => e.url);
+    expect(urls.length).toBeGreaterThan(0);
+    expect(urls.every((u) => u.startsWith("https://thegreatinside.com/"))).toBe(true);
+    expect(urls.some((u) => u.includes("the-great-inside.vercel.app"))).toBe(false);
+  });
 });

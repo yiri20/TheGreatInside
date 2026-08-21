@@ -46,4 +46,10 @@ describe("buildRobotsConfig", () => {
     const result = buildRobotsConfig();
     expect(result.sitemap).toBe("https://the-great-inside.vercel.app/sitemap.xml");
   });
+
+  it("references the sitemap on the real production domain (thegreatinside.com), never the old Vercel hostname (2026-08 domain migration)", () => {
+    process.env.NEXT_PUBLIC_SITE_URL = "https://thegreatinside.com";
+    const result = buildRobotsConfig();
+    expect(result.sitemap).toBe("https://thegreatinside.com/sitemap.xml");
+  });
 });

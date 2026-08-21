@@ -53,6 +53,32 @@ describe("localizedAlternates", () => {
   });
 });
 
+describe("localizedAlternates — real production domain (2026-08 domain migration)", () => {
+  const ORIGINAL_ENV = { ...process.env };
+
+  beforeEach(() => {
+    process.env.NEXT_PUBLIC_SITE_URL = "https://thegreatinside.com";
+  });
+
+  afterEach(() => {
+    process.env = { ...ORIGINAL_ENV };
+  });
+
+  it("builds canonical/hreflang/x-default on thegreatinside.com, never the old Vercel hostname", () => {
+    const result = localizedAlternates("en-US", "/people/leonardo-da-vinci");
+    expect(result.canonical).toBe("https://thegreatinside.com/en-US/people/leonardo-da-vinci");
+    expect(result.languages).toMatchObject({
+      "en-US": "https://thegreatinside.com/en-US/people/leonardo-da-vinci",
+      "ko-KR": "https://thegreatinside.com/ko-KR/people/leonardo-da-vinci",
+      "x-default": "https://thegreatinside.com",
+    });
+    const allUrls = [result.canonical, ...Object.values(result.languages ?? {})];
+    for (const url of allUrls) {
+      expect(String(url)).not.toContain("the-great-inside.vercel.app");
+    }
+  });
+});
+
 describe("robots directive constants", () => {
   it("NOINDEX_FOLLOW blocks indexing but allows link traversal", () => {
     expect(NOINDEX_FOLLOW).toEqual({ index: false, follow: true });
