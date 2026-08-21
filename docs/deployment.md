@@ -4,15 +4,20 @@ Operational runbook, not an architecture record — see `CLAUDE.md` for the
 "why." This file only covers deploying the existing, Phase-9-complete app.
 No secrets or credential values below — names and structure only.
 
-**Launch-strategy decision (2026-08 — see CLAUDE.md's "Broader Public
-Launch Finish Line" §9 for the full record):** the product owner decided
-to launch publicly on the current Vercel URL
-(`https://the-great-inside.vercel.app`) as-is, deferring a custom-domain
-purchase and the associated Google OAuth production-domain setup (§3
-below) until real usage/traction justifies it. This is a deliberate,
-standing decision, not an oversight — do not treat the domain gap below
-as a blocker, and do not re-propose a domain purchase unless the product
-owner explicitly revisits it.
+**Domain migration (2026-08 — see CLAUDE.md's "Domain Migration" section
+for the full record):** the product owner purchased `thegreatinside.com`,
+superseding the 2026-08 "launch on the Vercel URL, defer a domain"
+decision recorded in CLAUDE.md's "Broader Public Launch Finish Line" §9
+(that decision's own standing instruction named exactly this trigger —
+"the product owner brings it up again" — as the only thing that would
+reopen it). **`https://thegreatinside.com` is now the official public
+origin.** Vercel's project-domain UI has been configured so that
+`thegreatinside.com` serves production, `www.thegreatinside.com`
+permanently redirects to it, and the former
+`the-great-inside.vercel.app` production hostname also permanently
+redirects to it. See "Site URL resolution" below for the one remaining
+required step (`NEXT_PUBLIC_SITE_URL`) and §3 for the Supabase/Google
+manual steps this migration still needs.
 
 ## 1. Required environment variables (names only)
 
@@ -25,7 +30,7 @@ file.
 | `NEXT_PUBLIC_SUPABASE_URL` | Yes | Project Settings → API Keys |
 | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Yes | Same page — current 2026 key model, not the legacy `anon` key |
 | `SUPABASE_SECRET_KEY` | Provisioned, not currently used by any code path | Never referenced in `app/`/`src/` today (confirmed by repo-wide grep) — server-only if a future admin task ever needs it. Never expose to the browser. |
-| `NEXT_PUBLIC_SITE_URL` | Recommended, not strictly required on Vercel | Your production origin, e.g. `https://your-domain.com`, no trailing slash. Used only for `metadataBase` — OAuth redirect URLs are derived from the live request/browser origin instead and do NOT depend on this variable. See "Site URL resolution" below for the fallback chain if this is left unset. |
+| `NEXT_PUBLIC_SITE_URL` | **Required** (2026-08 domain migration) | Production value: `https://thegreatinside.com`, no trailing slash. Feeds every canonical/hreflang/sitemap/OG/share URL (`siteUrl()`, `src/lib/env.ts`). Confirmed live (2026-08) that leaving this unset makes `siteUrl()` fall through to `VERCEL_PROJECT_PRODUCTION_URL`, which still resolves to the OLD `the-great-inside.vercel.app` hostname even with a custom domain attached in the Vercel UI — so, unlike before the domain migration, this variable is no longer optional. OAuth redirect URLs are unaffected either way — derived from the live request/browser origin, not this variable. See "Site URL resolution" below. |
 
 ### Site URL resolution (hardened 2026-08)
 
@@ -51,10 +56,17 @@ order:
    disproportionate.
 4. Local dev: silent `localhost` fallback, no warning noise.
 
-**Practical effect**: on Vercel, this works correctly out of the box even
-before `NEXT_PUBLIC_SITE_URL` is ever set — step 2 covers it. Set
-`NEXT_PUBLIC_SITE_URL` once a custom/branded domain is attached so
-metadata points there instead of the `*.vercel.app` URL.
+**Practical effect, corrected 2026-08**: step 2's fallback covers the
+case where NO custom domain is attached yet (a bare `*.vercel.app`
+deploy). Once a custom domain is attached in the Vercel UI, this
+fallback does **not** automatically pick it up — confirmed live
+(2026-08): with `thegreatinside.com` already configured as the project's
+production domain in Vercel's UI, but `NEXT_PUBLIC_SITE_URL` unset, the
+deployed site's own canonical/OG tags still resolved to
+`https://the-great-inside.vercel.app`. So `NEXT_PUBLIC_SITE_URL` must be
+set explicitly for a custom domain to actually become the canonical
+origin — it is not purely a "recommended once you have a domain" nicety,
+it is the one step that makes the domain real to the app.
 
 ## 2. Vercel setup
 
@@ -104,11 +116,15 @@ app's `/auth/callback`) needs a new entry.
 
 ### A. Required for technical OAuth to work in production
 
-- **Supabase Dashboard → Authentication → URL Configuration**: set Site
-  URL to your production origin; add
-  `https://<production-domain>/auth/callback` to Redirect URLs (keep the
-  `localhost:3000` entry too if you still want local dev to keep working
-  against the same project).
+- **Supabase Dashboard → Authentication → URL Configuration** (2026-08
+  domain migration — not yet done from this repository, needs a manual
+  dashboard action): set Site URL to `https://thegreatinside.com`; add
+  `https://thegreatinside.com/auth/callback` to Redirect URLs. Keep the
+  existing `https://the-great-inside.vercel.app/auth/callback` and
+  `localhost:3000` entries in place for now rather than removing them —
+  the old Vercel hostname now permanently redirects to the new domain at
+  the HTTP layer, but a stale Redirect URL entry is harmless to leave
+  during migration and removing it early has no upside.
 - **Google Cloud Console**: no change needed to the Authorized redirect
   URI (see above). "Authorized JavaScript origins" is **not required** for
   this integration specifically — that setting matters for Google's
@@ -200,11 +216,26 @@ limited beta:
 - Consent-screen branding (logo), a homepage link, a visible support
   contact.
 
+### D. Google Search Console (2026-08 domain migration — not yet done)
+
+The existing `GOOGLE_SITE_VERIFICATION` HTML meta tag (`src/lib/seo.ts`)
+is rendered on every page regardless of domain, but Search Console
+verification is tied to a specific **property**, not to the tag alone.
+The token currently in code was obtained for a property on the old
+`the-great-inside.vercel.app` hostname; it does not automatically extend
+to `thegreatinside.com`. Manual step, not done from this repository:
+verify a new property for `thegreatinside.com` in Google Search Console
+(a **Domain property**, verified via a DNS TXT record, is recommended
+over a URL-prefix property — it covers the apex domain, `www`, and both
+protocols in one verification, matching this project's `www` → apex
+redirect), then submit `https://thegreatinside.com/sitemap.xml`. Leaving
+the old property in place afterward is harmless.
+
 ## 4. Smoke-test sequence after deploying
 
-1. Load the deployed URL (`*.vercel.app` or the real domain), both
-   locales (`/en-US`, `/ko-KR`) — confirm the landing page renders with no
-   console errors.
+1. Load the deployed URL (the real domain, `https://thegreatinside.com`,
+   or `*.vercel.app` during migration), both locales (`/en-US`, `/ko-KR`)
+   — confirm the landing page renders with no console errors.
 2. Confirm the header shows "Sign in" (signed-out state resolves
    correctly against the real Supabase project).
 3. Complete the quiz anonymously through to `/results` — confirm a result
