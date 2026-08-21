@@ -79,16 +79,16 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   "ada-lovelace": {
     achievements: [
       { id: "ada-lovelace-achievement-1", textKey: "ada-lovelace.achievement.1", sourceIds: ["src_lovelace_wikipedia"] },
-      { id: "ada-lovelace-achievement-2", textKey: "ada-lovelace.achievement.2", sourceIds: ["src_lovelace_biography"] },
+      {
+        id: "ada-lovelace-achievement-2",
+        textKey: "ada-lovelace.achievement.2",
+        interpretationKey: "ada-lovelace.interpretation.achievement.2",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_lovelace_biography"],
+      },
     ],
     moments: [
-      {
-        id: "ada-lovelace-moment-1",
-        textKey: "ada-lovelace.moment.1",
-        interpretationKey: "ada-lovelace.interpretation.moment.1",
-        attributeId: "opportunity_sensing",
-        sourceIds: ["src_lovelace_wikipedia"],
-      },
+      { id: "ada-lovelace-moment-1", textKey: "ada-lovelace.moment.1", sourceIds: ["src_lovelace_wikipedia"] },
       { id: "ada-lovelace-moment-2", textKey: "ada-lovelace.moment.2", sourceIds: ["src_lovelace_biography"] },
     ],
     turningPoints: [

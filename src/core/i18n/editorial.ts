@@ -31,13 +31,13 @@ export const EDITORIAL_EN: Record<string, string> = {
   "leonardo-da-vinci.achievement.3":
     "Performed his own human dissections to study anatomy for his art, producing drawings of muscles, organs, and the heart's structure that anticipated details published medical texts would not catch up to for centuries.",
   "leonardo-da-vinci.moment.1":
-    "In an undated letter seeking work from Ludovico Sforza, Duke of Milan, he introduced himself primarily as a military and civil engineer — bridges, armored vehicles, catapults — and mentioned painting only near the end, reading the patron's actual priorities rather than leading with what he is remembered for today.",
+    "In an undated letter seeking work from Ludovico Sforza, Duke of Milan, he introduced himself primarily as a military and civil engineer — bridges, armored vehicles, catapults — and mentioned painting only near the end of the letter.",
   "leonardo-da-vinci.moment.2":
-    "Carried the Mona Lisa with him for years after it was commissioned, continuing to adjust it rather than delivering a finished work — the same restlessness that fed his enormous range across fields also left much of his output unfinished.",
+    "Carried the Mona Lisa with him for years after it was commissioned, continuing to adjust it rather than delivering a finished work to the person who had paid for it.",
   "leonardo-da-vinci.turning_point.1":
     "Conducted dissections in secret, at hospitals at night, in an era when the practice was legally and religiously fraught — and revised his own earlier anatomical drawings more than once as later dissections contradicted what he had first assumed.",
   "leonardo-da-vinci.interpretation.moment.1":
-    "This is consistent with the profile's high opportunity_sensing score — reading what a specific situation actually called for, rather than what he was already known for.",
+    "This is consistent with the profile's high opportunity_sensing score: the letter reads the patron's actual priorities rather than leading with the work he is remembered for today — a specific-situation read, not a general claim about what he valued most.",
   "leonardo-da-vinci.interpretation.turning_point.1":
     "This helps explain the profile's moderate belief_updating score: a willingness to revise an established drawing once observation contradicted it, though the surviving evidence for this is closer to a documented pattern of practice than an explicit written reversal.",
 
@@ -69,9 +69,9 @@ export const EDITORIAL_EN: Record<string, string> = {
   "ada-lovelace.moment.2":
     "As a teenager, she was steered toward rigorous study of mathematics and science by her mother, partly as a deliberate counterweight to the volatile temperament of her father, the poet Lord Byron, whom she never knew.",
   "ada-lovelace.turning_point.1":
-    "Meeting Charles Babbage as a seventeen-year-old and seeing his prototype Difference Engine set the direction of the work she would return to a decade later.",
-  "ada-lovelace.interpretation.moment.1":
-    "This is consistent with the profile's high opportunity_sensing score: noticing an implication of someone else's machine that its own inventor had not emphasized.",
+    "Meeting Charles Babbage as a seventeen-year-old and seeing his prototype Difference Engine set the direction of the mathematical work she pursued for the rest of her short life — work she returned to a decade later, when a routine translation assignment about Babbage's newer Analytical Engine became the occasion for her own extensive, original \"Notes.\"",
+  "ada-lovelace.interpretation.achievement.2":
+    "This shows the profile's high opportunity_sensing score in practice: noticing an implication of someone else's machine that its own inventor had not emphasized.",
 
   /* ----------------------------------------------------------- Yi Sun-sin */
   "yi-sun-sin.achievement.1":
@@ -85,9 +85,9 @@ export const EDITORIAL_EN: Record<string, string> = {
   "yi-sun-sin.turning_point.1":
     "Acted on his own tactical judgment against a specific court order he assessed as a trap, and was demoted, imprisoned, and tortured for it. His replacement lost most of the fleet soon after; Yi was reinstated with what remained and went on to win Myeongnyang.",
   "yi-sun-sin.interpretation.turning_point.1":
-    "This is consistent with the profile's dual-edged proactive_agency score — the same willingness to act on his own judgment against orders carried a severe, direct personal cost before it produced one of the war's decisive victories.",
+    "This reflects the tension in the profile's dual-edged proactive_agency score: acting on his own tactical judgment against a direct court order carried a severe, immediate personal cost. The Myeongnyang victory that followed his reinstatement came from tactical skill with a nearly destroyed fleet, not from a further act of defiance — but it was the fleet's near-total loss under his replacement that ultimately vindicated the original judgment he had been punished for.",
   "yi-sun-sin.interpretation.achievement.3":
-    "This helps explain the profile's very high resourcefulness score: making decisive use of severely limited material means rather than waiting for reinforcement that was not coming.",
+    "This offers one example of the profile's very high resourcefulness score: making decisive use of severely limited material means rather than waiting for reinforcement that was not coming.",
 
   /* ------------------------------------------------------------ F. Kahlo */
   "frida-kahlo.achievement.1":
@@ -95,11 +95,11 @@ export const EDITORIAL_EN: Record<string, string> = {
   "frida-kahlo.moment.1":
     "After a near-fatal bus accident in 1925 left her bedridden for months, she began painting lying on her back using a specially mounted mirror and an easel her mother had arranged over the bed.",
   "frida-kahlo.moment.2":
-    "As an unknown young artist, she approached the already-famous muralist Diego Rivera directly and unprompted to ask for his honest opinion of her paintings.",
+    "Biographical accounts describe her, as an unknown young artist, approaching the already-famous muralist Diego Rivera directly and unprompted to ask for his honest opinion of her paintings.",
   "frida-kahlo.turning_point.1":
     "The 1925 accident, and the many operations and long convalescences that followed for the rest of her life, redirected her from an earlier ambition toward medicine into painting as her primary occupation.",
   "frida-kahlo.interpretation.moment.1":
-    "This is consistent with the profile's high resourcefulness score: continuing creative work under a severe physical constraint by improvising the equipment that made it possible, rather than waiting for the constraint to lift.",
+    "This is a clear instance of the profile's high resourcefulness score: continuing creative work under a severe physical constraint by improvising the equipment that made it possible, rather than waiting for the constraint to lift.",
 
   /* --------------------------------------------------------- N. Mandela */
   "nelson-mandela.achievement.1":
@@ -113,9 +113,9 @@ export const EDITORIAL_EN: Record<string, string> = {
   "nelson-mandela.turning_point.1":
     "After his release in 1990, chose to pursue negotiation over continued armed struggle — a controversial position within parts of his own movement at the time, and the path that led to the 1994 election.",
   "nelson-mandela.interpretation.moment.2":
-    "This is consistent with the profile's dual-edged proactive_agency score: the same self-initiated act that later helped end apartheid carried real risk of being disowned by his own movement if it had gone differently.",
+    "This sits alongside the profile's dual-edged proactive_agency score: the same self-initiated act that later helped end apartheid carried real risk of being disowned by his own movement if it had gone differently.",
   "nelson-mandela.interpretation.moment.1":
-    "This helps explain the profile's high resourcefulness score: building a functioning institution out of almost nothing, inside conditions designed to prevent exactly that.",
+    "This reflects the profile's high resourcefulness score: building a functioning institution out of almost nothing, inside conditions designed to prevent exactly that.",
 
   /* ---------------------------------------------------------- Einstein */
   "albert-einstein.achievement.1":
@@ -123,13 +123,13 @@ export const EDITORIAL_EN: Record<string, string> = {
   "albert-einstein.achievement.2":
     "Developed general relativity over roughly a decade of iterative work, including multiple approaches he tried and abandoned before reaching the final 1915 field equations.",
   "albert-einstein.achievement.3":
-    "In 1939, without being asked by any government body, wrote to President Roosevelt warning of the military potential of nuclear fission — a letter historians credit with directly contributing to the decision to launch the Manhattan Project.",
+    "In 1939, without being asked by any government body, signed a letter — drafted with physicist Leó Szilárd and sent to President Roosevelt — warning of the military potential of nuclear fission, lending it his authority; historians credit the letter with directly contributing to the decision to launch the Manhattan Project.",
   "albert-einstein.moment.1":
     "As a child, he was struck by the fact that a compass needle always pointed the same direction no matter how the compass was turned — an experience he himself repeatedly credited, later in life, as an early spark of his scientific curiosity.",
   "albert-einstein.turning_point.1":
-    "He rejected quantum mechanics' probabilistic interpretation — summarized in his own words as \"God does not play dice\" — and spent his last several decades pursuing an unsuccessful unified field theory well after his reputation was already secure, as the rest of physics moved on without him.",
+    "Despite having helped found quantum theory himself — his 1905 light-quantum hypothesis and his 1924–25 work with Bose on quantum statistics were both foundational — he never accepted quantum mechanics' later probabilistic account of nature as complete, summarizing his objection as \"God does not play dice.\" He spent his last several decades pursuing an unsuccessful unified field theory, well after his reputation was already secure, while the mainstream of physics moved past the debate without him.",
   "albert-einstein.interpretation.turning_point.1":
-    "This is consistent with the profile's low belief_updating score: the same conviction that let him defend a genuinely new theory against early skeptics also kept him from productively engaging with quantum mechanics' mounting evidence for the rest of his career.",
+    "This is consistent with the profile's low belief_updating score: the same conviction that let him defend a genuinely new theory against early skeptics also meant he never revised his view that quantum mechanics was incomplete — even though his own objections, especially the 1935 EPR paper he co-authored, became a foundational and still-influential part of the very field he continued to resist.",
 
   /* -------------------------------------------------------- Joan of Arc */
   "joan-of-arc.achievement.1":
@@ -137,7 +137,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "joan-of-arc.achievement.2":
     "Led French forces on the campaign that culminated in the Dauphin's coronation as Charles VII at Reims — the goal she had stated from the outset.",
   "joan-of-arc.moment.1":
-    "When the Dauphin tried to test her by disguising himself among his courtiers and putting someone else on the throne, she identified him correctly and unprompted — an episode recorded across multiple independent contemporary chronicles.",
+    "When the Dauphin tried to test her by disguising himself among his courtiers and putting someone else on the throne, she identified him correctly and unprompted — an episode multiple witnesses who had been present described in testimony gathered at her 1455–56 Nullification Trial, a quarter-century after the fact.",
   "joan-of-arc.moment.2":
     "Wounded by a crossbow bolt during the assault on Orléans, she returned to the fighting after treatment rather than withdrawing from the field.",
   "joan-of-arc.moment.3":
@@ -145,7 +145,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "joan-of-arc.turning_point.1":
     "She continued wearing male soldiers' clothing against direct clerical instruction to stop — a choice the trial record shows her defending as her own, repeated decision, and one of the central charges that led to her execution.",
   "joan-of-arc.interpretation.turning_point.1":
-    "This is consistent with the profile's dual-edged independent_thinking score: the same refusal to yield a position under pressure that sustained her through interrogation also became the specific charge used to convict her.",
+    "This illustrates the profile's dual-edged independent_thinking score: the same resistance to pressure to conform that let her withstand weeks of interrogation without breaking also showed up, in a different form, as the specific charge used to convict her.",
 
   /* ----------------------------------------------------------- Atatürk */
   "mustafa-kemal-ataturk.achievement.1":
@@ -157,9 +157,9 @@ export const EDITORIAL_EN: Record<string, string> = {
   "mustafa-kemal-ataturk.moment.2":
     "In 1919, used an official Ottoman government assignment to disarm and demobilize remaining Anatolian forces as the platform to instead begin organizing national resistance — the opposite of what the assignment was for.",
   "mustafa-kemal-ataturk.turning_point.1":
-    "After founding the Republic, closed the country's only organized opposition party in 1925 and had an Independence Tribunal execute dozens of people within days of sentencing following an uprising — the same decisiveness that held the line at Gallipoli and founded the Republic also drove a rapid, forceful consolidation of one-party rule.",
+    "After founding the Republic, he closed the country's only organized opposition party in 1925, and an Independence Tribunal — established that same year — executed dozens of people, including the leader of the Sheikh Said rebellion, within days of sentencing.",
   "mustafa-kemal-ataturk.interpretation.turning_point.1":
-    "This helps explain the profile's high decisiveness and conflict_tolerance scores — the same trait that let him act fast under fire also shows up, later, as a willingness to move fast and forcefully against domestic political opposition.",
+    "The Great Inside reads this as a contrast rather than a single throughline: the same decisiveness and conflict_tolerance the profile scores highly for his conduct at Gallipoli are also visible in how quickly and forcefully he moved against domestic political opposition years later. The shift from battlefield command to suppressing a nascent multi-party opposition involved state-building pressures, security concerns after the rebellion, and specific political calculation well beyond any one personal disposition — this profile does not claim his decisiveness alone explains it, only that the same trait is legible in both moments.",
 
   /* ---------------------------------------------------------- A. Pavlova */
   "anna-pavlova.achievement.1":
@@ -175,7 +175,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "anna-pavlova.turning_point.1":
     "Facing a diagnosis that survival required an operation that would end her ability to ever dance again, she refused the surgery, saying: \"If I can't dance, I'd rather be dead.\"",
   "anna-pavlova.interpretation.moment.2":
-    "This is consistent with the profile's dual-edged competitiveness score: the same intensity that drove decades of exceptional performance also showed up as open jealousy toward a close collaborator.",
+    "This is one expression of the profile's dual-edged competitiveness score: an intensity about her own standing that, in this moment, showed up as open jealousy toward a close collaborator rather than channeling into her performance.",
   "anna-pavlova.interpretation.turning_point.1":
     "This helps explain the profile's high risk_tolerance score, scored dual-edged for exactly this kind of moment — a willingness to accept the largest possible stakes rather than compromise on what mattered most to her.",
 };
@@ -189,13 +189,13 @@ export const EDITORIAL_KO: Record<string, string> = {
   "leonardo-da-vinci.achievement.3":
     "그림의 정확성을 위해 직접 인체를 해부하여 근육, 장기, 심장 구조에 대한 드로잉을 남겼는데, 이는 이후 수 세기 동안 출판된 의학 서적조차 따라가지 못한 수준이었다.",
   "leonardo-da-vinci.moment.1":
-    "밀라노 공작 루도비코 스포르차에게 일자리를 구하며 보낸 편지에서, 그는 자신을 먼저 군사·토목 기술자 — 다리, 장갑 전차, 투석기 — 로 소개했고 그림 이야기는 맨 끝에서야 짧게 언급했다. 오늘날 기억되는 모습이 아니라 후원자가 실제로 필요로 하는 것을 먼저 읽은 것이다.",
+    "밀라노 공작 루도비코 스포르차에게 일자리를 구하며 보낸 편지에서, 그는 자신을 먼저 군사·토목 기술자(다리, 장갑 전차, 투석기 설계자)로 소개했고, 그림 이야기는 편지 끝부분에서야 짧게 언급했다.",
   "leonardo-da-vinci.moment.2":
-    "의뢰받은 모나리자를 몇 년이나 곁에 두고 계속 손을 보았을 뿐, 완성작으로 넘기지 않았다 — 그의 엄청난 다재다능함을 키운 바로 그 안절부절못하는 성향이 많은 작업을 미완성으로 남긴 원인이기도 했다.",
+    "의뢰받은 모나리자를 몇 년이나 곁에 두고 계속 손을 보았을 뿐, 값을 치른 의뢰인에게 완성작으로 넘기지 않았다.",
   "leonardo-da-vinci.turning_point.1":
     "해부가 법적·종교적으로 민감했던 시대에 병원에서 밤에 몰래 해부를 진행했고, 이후 관찰 결과가 처음의 가정과 어긋나자 자신이 이전에 그린 해부도를 여러 차례 수정했다.",
   "leonardo-da-vinci.interpretation.moment.1":
-    "프로필의 높은 기회 포착(opportunity_sensing) 점수와 일치하는 대목이다 — 자신이 이미 유명했던 분야가 아니라, 그 상황이 실제로 필요로 하는 것을 읽어낸 것이다.",
+    "프로필의 높은 기회 포착(opportunity_sensing) 점수와 일치하는 대목이다 — 이 편지는 오늘날 그가 기억되는 모습이 아니라 후원자가 그 순간 실제로 필요로 하는 것을 먼저 읽어낸다. 그가 무엇을 가장 중요하게 여겼는지에 대한 일반적인 주장이 아니라, 그 특정 상황을 읽어낸 사례다.",
   "leonardo-da-vinci.interpretation.turning_point.1":
     "프로필의 중간 수준 입장 수정(belief_updating) 점수를 이해하는 데 도움이 된다 — 관찰이 이전 가정과 어긋나자 이미 완성해둔 그림조차 다시 손본 태도지만, 남아있는 근거는 명시적인 기록이라기보다 반복된 실천 패턴에 가깝다.",
 
@@ -227,9 +227,9 @@ export const EDITORIAL_KO: Record<string, string> = {
   "ada-lovelace.moment.2":
     "십 대 시절, 어머니의 뜻에 따라 수학과 과학을 엄격히 공부하게 되었는데, 이는 한 번도 만난 적 없는 아버지인 시인 바이런 경의 변덕스러운 기질에 대한 일종의 견제이기도 했다.",
   "ada-lovelace.turning_point.1":
-    "열일곱 살에 찰스 배비지를 만나 그의 차분기관 시제품을 본 일이, 십 년 뒤 그가 다시 돌아오게 될 작업의 방향을 정했다.",
-  "ada-lovelace.interpretation.moment.1":
-    "프로필의 높은 기회 포착(opportunity_sensing) 점수와 일치하는 대목이다 — 다른 사람이 만든 기계에서, 그 발명가조차 강조하지 않았던 함의를 알아챈 것이다.",
+    "열일곱 살에 찰스 배비지를 만나 그의 차분기관 시제품을 본 일이, 그가 짧은 생애 내내 이어갈 수학 작업의 방향을 정했다 — 그는 십 년 뒤, 배비지의 새로운 해석기관에 관한 평범한 번역 의뢰를 계기로 그 작업으로 돌아왔고, 이 번역은 그 자신의 방대하고 독창적인 '주석'으로 이어졌다.",
+  "ada-lovelace.interpretation.achievement.2":
+    "프로필의 높은 기회 포착(opportunity_sensing) 점수가 실제로 드러나는 대목이다 — 다른 사람이 만든 기계에서, 그 발명가조차 강조하지 않았던 함의를 알아챈 것이다.",
 
   /* ----------------------------------------------------------- Yi Sun-sin */
   "yi-sun-sin.achievement.1":
@@ -243,9 +243,9 @@ export const EDITORIAL_KO: Record<string, string> = {
   "yi-sun-sin.turning_point.1":
     "함정이라고 판단한 조정의 특정 명령을 따르지 않고 자신의 전술적 판단대로 행동했다가 파직·투옥·고문을 당했다. 그의 후임이 곧 함대 대부분을 잃자, 남은 병력으로 복귀해 명량해전에서 승리를 거두었다.",
   "yi-sun-sin.interpretation.turning_point.1":
-    "프로필의 양면적인 주도적 행동력(proactive_agency) 점수와 일치하는 대목이다 — 명령을 거스르고 자신의 판단대로 행동하려는 바로 그 성향이 먼저 큰 개인적 대가를 치르게 했고, 이후 전쟁을 가른 결정적 승리로 이어졌다.",
+    "프로필의 양면적인 주도적 행동력(proactive_agency) 점수가 지닌 긴장을 보여주는 대목이다 — 조정의 직접적인 명령을 거스르고 자신의 전술적 판단대로 행동한 것은 즉각적이고 큰 개인적 대가로 이어졌다. 복귀 이후의 명량 승리는 다시 명령을 거스른 결과가 아니라 거의 궤멸된 함대를 이끈 전술적 역량에서 나온 것이지만, 그를 벌하게 만들었던 애초의 판단이 옳았음을 결과적으로 증명한 것은 후임 지휘관 아래서 함대가 거의 전멸했다는 사실이었다.",
   "yi-sun-sin.interpretation.achievement.3":
-    "프로필의 매우 높은 자원 활용 성향(resourcefulness) 점수를 이해하는 데 도움이 된다 — 오지 않을 지원군을 기다리는 대신, 극도로 제한된 자원을 결정적으로 활용한 것이다.",
+    "프로필의 매우 높은 자원 활용 성향(resourcefulness) 점수를 보여주는 한 사례다 — 오지 않을 지원군을 기다리는 대신, 극도로 제한된 자원을 결정적으로 활용한 것이다.",
 
   /* ------------------------------------------------------------ F. Kahlo */
   "frida-kahlo.achievement.1":
@@ -253,11 +253,11 @@ export const EDITORIAL_KO: Record<string, string> = {
   "frida-kahlo.moment.1":
     "1925년 거의 목숨을 잃을 뻔한 버스 사고로 몇 달간 몸져누운 뒤, 어머니가 침대 위에 마련해준 특수 거울과 이젤을 이용해 누운 채로 그림을 그리기 시작했다.",
   "frida-kahlo.moment.2":
-    "무명 화가였던 시절, 이미 유명했던 벽화가 디에고 리베라를 직접 찾아가 자신의 그림에 대한 솔직한 평가를 청했다.",
+    "전기적 기록에 따르면, 무명 화가였던 시절 이미 유명했던 벽화가 디에고 리베라를 직접 찾아가 자신의 그림에 대한 솔직한 평가를 청했다고 한다.",
   "frida-kahlo.turning_point.1":
     "1925년의 사고와 이후 평생에 걸쳐 이어진 수많은 수술과 긴 요양 기간은, 원래 의학을 꿈꾸던 그를 그림을 본업으로 삼는 방향으로 이끌었다.",
   "frida-kahlo.interpretation.moment.1":
-    "프로필의 높은 자원 활용 성향(resourcefulness) 점수와 일치하는 대목이다 — 제약이 사라지길 기다리는 대신, 창작을 가능하게 할 도구를 즉석에서 만들어내며 심각한 신체적 제약 속에서도 작업을 이어간 것이다.",
+    "프로필의 높은 자원 활용 성향(resourcefulness) 점수를 뚜렷이 보여주는 사례다 — 제약이 사라지길 기다리는 대신, 창작을 가능하게 할 도구를 즉석에서 만들어내며 심각한 신체적 제약 속에서도 작업을 이어간 것이다.",
 
   /* --------------------------------------------------------- N. Mandela */
   "nelson-mandela.achievement.1":
@@ -271,9 +271,9 @@ export const EDITORIAL_KO: Record<string, string> = {
   "nelson-mandela.turning_point.1":
     "1990년 석방된 이후, 무장투쟁을 이어가는 대신 협상의 길을 선택했다 — 당시 자신이 속한 운동 내부에서도 논란이 되었던 노선이었고, 이는 1994년 선거로 이어진 길이었다.",
   "nelson-mandela.interpretation.moment.2":
-    "프로필의 양면적인 주도적 행동력(proactive_agency) 점수와 일치하는 대목이다 — 훗날 아파르트헤이트 종식에 기여한 바로 그 자발적 행동은, 만약 상황이 달랐다면 자신이 속한 운동으로부터 부인당할 실제 위험을 안고 있었다.",
+    "프로필의 양면적인 주도적 행동력(proactive_agency) 점수와 나란히 놓고 볼 대목이다 — 훗날 아파르트헤이트 종식에 기여한 바로 그 자발적 행동은, 만약 상황이 달랐다면 자신이 속한 운동으로부터 부인당할 실제 위험을 안고 있었다.",
   "nelson-mandela.interpretation.moment.1":
-    "프로필의 높은 자원 활용 성향(resourcefulness) 점수를 이해하는 데 도움이 된다 — 바로 그것을 막기 위해 설계된 환경 안에서, 거의 아무것도 없는 상태로부터 실제로 작동하는 하나의 제도를 만들어낸 것이다.",
+    "프로필의 높은 자원 활용 성향(resourcefulness) 점수를 반영하는 대목이다 — 바로 그것을 막기 위해 설계된 환경 안에서, 거의 아무것도 없는 상태로부터 실제로 작동하는 하나의 제도를 만들어낸 것이다.",
 
   /* ---------------------------------------------------------- Einstein */
   "albert-einstein.achievement.1":
@@ -281,13 +281,13 @@ export const EDITORIAL_KO: Record<string, string> = {
   "albert-einstein.achievement.2":
     "일반상대성이론은 약 10년에 걸친 반복적인 연구 끝에 완성되었으며, 그 과정에는 시도했다가 포기한 여러 접근법이 있었고 마침내 1915년 최종 장방정식에 도달했다.",
   "albert-einstein.achievement.3":
-    "1939년, 어느 정부 기관의 요청도 없이 스스로 루스벨트 대통령에게 핵분열의 군사적 잠재력을 경고하는 편지를 썼다 — 역사가들은 이 편지가 맨해튼 프로젝트 착수 결정에 직접적으로 기여했다고 본다.",
+    "1939년, 어느 정부 기관의 요청도 없이 물리학자 레오 실라르드와 함께 작성되어 루스벨트 대통령에게 보낸 편지에 서명함으로써 자신의 권위를 실어 핵분열의 군사적 잠재력을 경고했다 — 역사가들은 이 편지가 맨해튼 프로젝트 착수 결정에 직접적으로 기여했다고 본다.",
   "albert-einstein.moment.1":
     "어린 시절, 나침반을 아무리 돌려도 바늘이 항상 같은 방향을 가리킨다는 사실에 깊은 인상을 받았다 — 그는 훗날 이 경험을 자신의 과학적 호기심이 처음 싹튼 순간으로 여러 차례 언급했다.",
   "albert-einstein.turning_point.1":
-    "그는 양자역학의 확률적 해석을 받아들이지 않았고 — 스스로 '신은 주사위 놀이를 하지 않는다'는 말로 요약했다 — 이미 명성이 확고해진 뒤에도 남은 생애의 수십 년을 성과 없는 통일장 이론 연구에 쏟았고, 그동안 물리학계는 그를 남겨둔 채 앞으로 나아갔다.",
+    "그 자신이 양자론의 토대를 놓은 사람 중 하나였음에도 — 1905년의 광양자 가설과 1924~25년 보스와 함께한 양자 통계 연구 모두 그 토대의 일부였다 — 그는 훗날 양자역학이 제시한 확률적 자연관을 끝내 완전한 것으로 받아들이지 않았고, 이 반대 입장을 '신은 주사위 놀이를 하지 않는다'는 말로 요약했다. 이미 명성이 확고해진 뒤에도 남은 생애의 수십 년을 성과 없는 통일장 이론 연구에 쏟았으며, 그 사이 물리학계의 논의는 그를 남겨둔 채 앞으로 나아갔다.",
   "albert-einstein.interpretation.turning_point.1":
-    "프로필의 낮은 입장 수정(belief_updating) 점수와 일치하는 대목이다 — 새로운 이론을 초기 회의론자들로부터 지켜낼 수 있게 해준 바로 그 확신이, 이후 양자역학이 쌓아가던 증거들과 생산적으로 마주하는 것을 평생 가로막기도 했다.",
+    "프로필의 낮은 입장 수정(belief_updating) 점수와 일치하는 대목이다 — 새로운 이론을 초기 회의론자들로부터 지켜낼 수 있게 해준 바로 그 확신이, 양자역학이 불완전하다는 그의 입장을 끝내 바꾸지 않게 만들기도 했다. 다만 그가 공동 집필한 1935년 EPR 논문을 비롯한 그의 반박 자체는, 그가 끝까지 저항했던 바로 그 분야에서 지금까지도 영향력 있는 토대의 일부로 남아 있다.",
 
   /* -------------------------------------------------------- Joan of Arc */
   "joan-of-arc.achievement.1":
@@ -295,7 +295,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "joan-of-arc.achievement.2":
     "처음부터 자신이 밝혔던 목표였던 랭스에서의 도팽 대관식 — 이를 샤를 7세로 즉위시키는 데까지 이어진 원정에서 프랑스군을 이끌었다.",
   "joan-of-arc.moment.1":
-    "도팽이 신하들 사이에 자신을 숨기고 다른 사람을 왕좌에 앉혀 그를 시험하려 하자, 그는 정확히, 그리고 누구의 도움도 없이 도팽을 알아보았다 — 여러 독립적인 당대 연대기에 함께 기록된 일화다.",
+    "도팽이 신하들 사이에 자신을 숨기고 다른 사람을 왕좌에 앉혀 그를 시험하려 하자, 그는 정확히, 그리고 누구의 도움도 없이 도팽을 알아보았다 — 사건으로부터 25년이 지난 1455~56년 명예회복재판에서, 그 자리에 있었던 여러 증인이 증언한 일화다.",
   "joan-of-arc.moment.2":
     "오를레앙 공격 중 석궁 화살에 부상을 입었지만, 물러나는 대신 치료를 받은 뒤 곧바로 전장으로 돌아갔다.",
   "joan-of-arc.moment.3":
@@ -303,7 +303,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "joan-of-arc.turning_point.1":
     "성직자들의 직접적인 지시를 거스르고 계속 남성 병사의 복장을 착용했다 — 재판 기록은 이것이 스스로 반복해서 내린 선택이었음을 그 자신이 인정했다고 전하며, 이는 그를 처형으로 이끈 핵심 혐의 중 하나가 되었다.",
   "joan-of-arc.interpretation.turning_point.1":
-    "프로필의 양면적인 독립적 사고(independent_thinking) 점수와 일치하는 대목이다 — 심문을 견뎌내게 해준 바로 그, 압박 속에서도 입장을 굽히지 않는 태도가 그를 유죄로 이끈 구체적인 혐의가 되기도 했다.",
+    "프로필의 양면적인 독립적 사고(independent_thinking) 점수를 보여주는 대목이다 — 몇 주간의 심문을 무너지지 않고 견디게 해준 바로 그, 순응 압력에 굴하지 않는 태도가, 다른 형태로는 그를 유죄로 이끈 구체적인 혐의가 되기도 했다.",
 
   /* ----------------------------------------------------------- Atatürk */
   "mustafa-kemal-ataturk.achievement.1":
@@ -315,9 +315,9 @@ export const EDITORIAL_KO: Record<string, string> = {
   "mustafa-kemal-ataturk.moment.2":
     "1919년, 아나톨리아 잔여 병력을 무장 해제하고 해산시키라는 오스만 정부의 공식 임무를 오히려 민족 저항을 조직하는 발판으로 삼았다 — 임무의 본래 목적과는 정반대의 행동이었다.",
   "mustafa-kemal-ataturk.turning_point.1":
-    "공화국을 세운 뒤, 1925년 유일하게 조직된 야당을 해산시켰고, 한 봉기 이후 독립법정이 판결 며칠 만에 수십 명을 처형하도록 했다 — 갈리폴리에서 전선을 지켜내고 공화국을 세우게 한 바로 그 결단력이, 이후 국내 정치적 반대 세력을 향해서는 신속하고 강압적인 일당 체제 강화로 나타났다.",
+    "공화국을 세운 뒤, 1925년 유일하게 조직된 야당을 해산시켰다. 같은 해 설치된 독립법정은 셰이흐 사이드 봉기의 지도자를 포함해 수십 명에게 판결 며칠 만에 사형을 집행했다.",
   "mustafa-kemal-ataturk.interpretation.turning_point.1":
-    "프로필의 높은 결단력(decisiveness)과 갈등 감내(conflict_tolerance) 점수를 이해하는 데 도움이 된다 — 포화 속에서 신속히 행동하게 해준 바로 그 성향이, 이후에는 국내 정치적 반대 세력을 향해 빠르고 강압적으로 움직이는 모습으로도 나타난다.",
+    "더 그레이트 인사이드는 이 대목을 하나로 이어지는 인과관계가 아니라 하나의 대조로 읽는다 — 갈리폴리에서의 행동에서 프로필이 높게 평가한 바로 그 결단력과 갈등 감내가, 훗날 국내 정치적 반대 세력을 상대할 때도 신속하고 강압적인 방식으로 나타난다. 전장의 지휘에서 갓 태어난 다당제 반대 세력을 억누르는 데까지 이어진 이 변화에는 국가 건설의 압박, 봉기 이후의 안보 우려, 구체적인 정치적 판단 등 한 사람의 성향만으로는 설명할 수 없는 요인들이 함께 작용했다 — 이 프로필은 그의 결단력만으로 이를 설명할 수 있다고 주장하지 않으며, 다만 같은 성향이 두 순간 모두에서 읽힌다고 말할 뿐이다.",
 
   /* ---------------------------------------------------------- A. Pavlova */
   "anna-pavlova.achievement.1":
@@ -333,7 +333,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "anna-pavlova.turning_point.1":
     "생존을 위해서는 다시는 춤출 수 없게 될 수술이 필요하다는 진단을 받자, 그는 수술을 거부하며 이렇게 말했다. \"춤출 수 없다면, 차라리 죽는 게 낫다.\"",
   "anna-pavlova.interpretation.moment.2":
-    "프로필의 양면적인 경쟁심(competitiveness) 점수와 일치하는 대목이다 — 수십 년간 탁월한 무대를 만들어낸 바로 그 강렬함이, 가까운 동료를 향한 노골적인 질투로도 드러난 것이다.",
+    "프로필의 양면적인 경쟁심(competitiveness) 점수가 드러나는 한 장면이다 — 자신의 위치에 대한 강렬한 의식이, 이 순간에는 무대가 아니라 가까운 동료를 향한 노골적인 질투로 표출되었다.",
   "anna-pavlova.interpretation.turning_point.1":
     "프로필의 높은 위험 감수(risk_tolerance) 점수를 이해하는 데 도움이 된다 — 바로 이런 순간을 염두에 두고 양면적으로 평가된 점수다 — 자신에게 가장 중요한 것을 타협하느니 가장 큰 위험을 감수하려는 태도다.",
 };
