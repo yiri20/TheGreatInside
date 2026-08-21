@@ -29,6 +29,7 @@ import { ROSTER_7 } from "./roster7.js";
 import { ROSTER_8 } from "./roster8.js";
 import { ROSTER_9 } from "./roster9.js";
 import { ROSTER_10 } from "./roster10.js";
+import { PERSON_EDITORIAL } from "./editorial.js";
 
 const seeds: PersonSeed[] = [
   {
@@ -829,7 +830,7 @@ const ROSTER_1: readonly Person[] = seeds.map(build);
  * "Seed dataset" and docs/roster-1000-checkpoint.md for the current count
  * and simulation results.
  */
-export const SEED_PEOPLE: readonly Person[] = [
+const ALL_ROSTERS: readonly Person[] = [
   ...ROSTER_1,
   ...ROSTER_2,
   ...ROSTER_3,
@@ -841,6 +842,21 @@ export const SEED_PEOPLE: readonly Person[] = [
   ...ROSTER_9,
   ...ROSTER_10,
 ];
+
+/**
+ * Editorial narrative content (achievements/moments/turning points, see
+ * `editorial.ts` and CLAUDE.md's editorial-content section) is merged onto
+ * the built roster by slug here, rather than inlined into each roster
+ * file's `PersonSeed` literal — a pure, additive transform that touches no
+ * existing roster file and cannot affect `build()`/scoring/matching. Most
+ * people have no entry in `PERSON_EDITORIAL` yet; `editorial` is simply
+ * left `undefined` for them, which every consumer already treats as "no
+ * editorial content authored yet", not an error.
+ */
+export const SEED_PEOPLE: readonly Person[] = ALL_ROSTERS.map((person) => {
+  const editorial = PERSON_EDITORIAL[person.slug];
+  return editorial ? { ...person, editorial } : person;
+});
 
 export function personBySlug(slug: string): Person | undefined {
   return SEED_PEOPLE.find((p) => p.slug === slug);

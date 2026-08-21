@@ -920,6 +920,13 @@ export const en = {
   "person.no_similar_people": "Not enough comparable profiles yet.",
   "person.wikipedia_link": "Wikipedia",
   "person.wikidata_link": "Wikidata",
+  "person.achievements_heading": "Key Achievements",
+  "person.moments_heading": "Moments That Reveal Them",
+  "person.turning_points_heading": "Turning Points",
+  "person.editorial.interpretation_label": "What this reveals:",
+  "person.similar_people.subtitle": "People whose overall profiles resemble theirs.",
+  "person.opposite_profile.subtitle": "Not a rival — a different profile shape worth a look.",
+  "person.match_context.banner": "You're looking at this profile because your quiz result showed a close match here — especially in {trait}.",
 
   /* ---------------------------------------------------- historical polities */
   /* Shown alongside modern nationalityCodes, never replacing them — see

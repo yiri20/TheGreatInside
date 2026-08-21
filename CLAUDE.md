@@ -2002,6 +2002,179 @@ list only if a real curation need appears) with a `verified_by`/`verified_at`
 pair mirroring the trait-evidence review discipline, so a licence can never
 be marked correct without a human having actually checked it.
 
+## Editorial narrative content — `editorial_v1` (feature branch, NOT YET MERGED)
+
+`feat/profile-editorial-depth`, branched from the 95-person `main`
+(2026-08). Same "record it here even before merge" precedent as the
+roster-1000 portrait-pilot section below — a durable architecture
+decision worth capturing now, not deployment status. **Do not read this
+section as describing what is live in production** — check the branch
+before assuming any of this is in `main`.
+
+**Motivation.** The 95-person roster (Post-10D closure, `main`) is
+technically complete — every person has scored traits, a computed
+eligibility status, and (mostly) sourced attribute rationale — but a
+person page told a user almost nothing about who the person actually
+*was*: no achievements, no anecdotes, no sense of a life. This session's
+mandate was explicitly to deepen the 95 already-scored people, not add
+more of them, not touch `matching_v2`/scoring/eligibility, and not spend
+a large new external-research budget — reuse the evidence the roster-1000
+research sessions already accumulated.
+
+**Evidence audit, mechanical not hand-written**
+(`src/dev/editorialCoverageAudit.ts`, re-runnable). Found three real
+tiers of existing, reusable evidence, richest to thinnest:
+- **Tier A — full evidence ledgers** (`src/dev/roster1000/production/
+  <session>/<slug>/evidenceLedger.json`): dozens of discrete, source-cited,
+  trait-blind narrative episodes. Only 8 of 95 people have one (sessions
+  18-19's Louis Pasteur/Fyodor Dostoevsky/Louis Armstrong/Anna Pavlova/
+  Akio Morita/Aung San Suu Kyi/Mustafa Kemal Atatürk/Oscar Niemeyer).
+- **Tier B — committed candidate JSON** (`data-pipeline/candidates/
+  <slug>.json`, `status: "qa_passed"`): per-trait `rationale` prose citing
+  concrete episodes, plus a real `sources` array with URLs. Covers 52
+  people (roster3-roster10, minus the 8 already in tier A).
+- **Tier C — inline `//` rationale comments only**, directly above each
+  scored trait in the roster TS file: the ONLY evidence format for the
+  original 35 (`seed.ts`'s 10 + `roster2.ts`'s 25) — no separate JSON
+  exists for them at all.
+
+A word-count/episode-count heuristic bucketed all 95 into Rich (54) /
+Adequate (6) / Thin (35) — every one of the 35 "Thin" people is exactly
+the tier-C set. **This bucketing is honest about the CODEBASE's
+representation, not about the historical record** — the "Thin" bucket
+includes Leonardo da Vinci, Marie Curie, Ada Lovelace, and Nelson Mandela,
+among the most extensively documented people in the entire roster in real
+life. The original 35 were scored early, when a compact one-line-per-trait
+comment was enough for a reviewer who already knew the person well;
+roster3+ needed much more explicit sourcing because the candidates were
+less universally known. The pilot below deliberately drew from both tiers
+to test this distinction directly, rather than assuming tier alone
+predicts writable content.
+
+**Schema (`src/core/types.ts`): `PersonEditorialItem` / `PersonEditorial`,
+`Person.editorial?`.** Three independently-optional arrays —
+`achievements` / `moments` / `turningPoints` — never a fixed "3+2+1"
+template; an empty or absent array means the UI section is omitted
+entirely, never rendered as an empty shell. Each item structurally
+separates HISTORICAL FACT (`textKey`) from THE GREAT INSIDE'S
+INTERPRETATION (`interpretationKey`, optional, in calibrated language —
+"is consistent with", "helps explain", never a diagnostic claim, per
+"Safety" above) — the two are never blended into one string, so
+interpretive language can never be mistaken for a sourced claim. An
+optional `attributeId` lets the UI show which trait an interpretation
+connects to; `sourceIds` must be a real subset of that person's own
+`Person.sources` ids — no new, dangling reference.
+
+**Localisation: locale-STRICT, unlike almost everything else in this
+codebase.** `src/core/i18n/editorial.ts`'s `editorialText(locale, key)` —
+deliberately NOT `tOptional()` — never falls back to English on a miss,
+for any locale. An editorial item without a Korean translation is simply
+omitted from `/ko-KR`, never rendered untranslated; `tOptional()` itself
+was left completely unchanged (still used everywhere else, e.g.
+`person.name.*`, where English-fallback is correct behaviour). Content
+lives in its own file, same precedent as `legal.ts`: long-form narrative
+prose keyed per person is not a reusable UI atom and doesn't belong in
+the closed `MessageKey` union.
+
+**Storage: a side-table, not inline edits to the 11 existing roster
+files.** `src/data/people/editorial.ts` exports `PERSON_EDITORIAL`
+(keyed by slug), merged onto `SEED_PEOPLE` by `seed.ts` in one small,
+additive `.map()` after composing `ALL_ROSTERS` — `PersonSeed`/`build()`
+are completely untouched, and every roster file (`seed.ts` through
+`roster10.ts`) has zero diff from this session except the one merge line
+in `seed.ts`. Chosen specifically to keep a new, still-partial,
+cross-cutting concern from touching the files `matching_v2`/scoring/
+eligibility actually depend on while it's authored and reviewed.
+
+**Structural validation** (`src/core/people/editorialValidation.ts`,
+`editorialValidation.test.ts`, 10 tests): no duplicate item id anywhere
+in the roster, every `textKey`/`interpretationKey` resolves to real,
+non-empty `EDITORIAL_EN` text, every `attributeId` is a real
+`AttributeId`, every `sourceId` is one of that person's own sources.
+`editorialCoverageStats()` reports aggregate counts including Korean
+coverage as a percentage (not a hard requirement — see below). Zero
+issues found against the real, committed pilot content.
+
+**Pilot: 10 of 95 people, chosen for evidence-tier/era/region/profession/
+portrait diversity, not the brief's own suggested list verbatim** — Leonardo
+da Vinci, Marie Curie, Ada Lovelace (all original seed, tier C, all three
+have portraits), Yi Sun-sin (seed, tier C, no portrait — its Korean
+identity also exercises the locale-strict Korean content path directly),
+Nelson Mandela, Frida Kahlo (roster2, tier C, both have portraits),
+Albert Einstein (roster3, tier B, has portrait), Joan of Arc (roster8,
+tier B, medieval, no portrait), Mustafa Kemal Atatürk and Anna Pavlova
+(roster10, tier A, no portraits) — 6 of the 10 have a portrait, 4 don't,
+verified directly (`grep -c "portrait:"` per person), not assumed.
+**53 items total** (24 achievements, 19 moments, 10 turning points — real
+per-person counts computed by `editorialCoverageStats`, not a uniform
+template), **15 (28%) carrying a calibrated interpretation sentence** —
+every item authored in BOTH English and Korean in the same pass (not
+staged), confirmed by `editorialCoverageStats(SEED_PEOPLE).koreanCoverage
+=== 1` as a locked regression test. Content is grounded in each person's
+own `data-pipeline/candidates/<slug>.json` rationale, evidence ledger
+episodes, or roster-file inline comments where available (Einstein, Joan
+of Arc, Atatürk, Anna Pavlova); for the four tier-C original-35 people,
+content draws on the same well-established, uncontested general knowledge
+already implicit in their existing scores and `doNotCopyKeys` editorial
+content (e.g. da Vinci's unfinished-work caution, already live before this
+session) — never a claim requiring new external research to verify.
+
+**UI (`app/[locale]/people/[slug]/page.tsx`).** Three new sections —
+"Key Achievements" → "Moments That Reveal Them" → "Turning Points" —
+inserted between Trait Constellation and Similar People, each its own
+divided block, each independently omitted when empty for the current
+locale. Fact and interpretation are textually distinct (a real "What this
+reveals:" label, never colour-only) with an optional trait-reference chip
+reusing the existing `.tgi-chip` pattern. Small, additive subtitle copy
+also added under Similar People/Opposite Profile ("People whose overall
+profiles resemble theirs" / "Not a rival — a different profile shape
+worth a look") — cross-profile discovery framing reusing the page's
+already-computed `rankSimilarPeople`/`selectOppositePerson` data, no new
+selection logic.
+
+**Results → Profile connection**, done without adding `src/core/matching`
+to the person page's client bundle or making any of the 190 static person
+pages dynamic: Results' Closest Match "View Profile" link now appends
+`?why=match&trait={attributeId}` using the driving trait it already
+computed server-side (`closest.closestTraits[0]`); a small new client
+island, `MatchContextBanner.tsx` (wrapped in `<Suspense>`, same
+requirement `LocaleSwitcher`/`Header` already established), reads those
+two plain query params client-side and renders one explanatory line —
+never decodes a result token or recomputes a match on the person page
+itself, so the page stays fully independent of any result token for
+normal browsing (direct visits, directory click-throughs, and search
+traffic all render identically, with no banner).
+
+**Verification.** `tsc --noEmit` clean · `vitest run` 621/621 (611
+baseline + 10 new) · `next build --webpack` clean, 214 routes, all 190
+person pages still `●` SSG (static/dynamic split unchanged) · Playwright
+230/230 (220 baseline + 10 new `editorial.spec.ts` tests, plus one
+pre-existing Stage-10D-5 divider-count regression test updated to account
+for the new, legitimately-added editorial dividers on pilot people) ·
+live-checked in a running dev server on both `/en-US` and `/ko-KR` for
+multiple pilot people, confirming natural (not machine-translated-looking)
+Korean prose, correct section order/omission, and the interpretation
+label/trait-chip rendering correctly. Static HTML for a pilot person page
+is ~8KB larger than a non-pilot page (all server-rendered, zero added
+client JS beyond the one small, already-established-pattern
+`MatchContextBanner` island) — not a measurable performance concern.
+
+**Full editorial coverage after this session: 10 of 95 people (10.5%).**
+Broader backfill was deliberately NOT attempted this session — validating
+the schema/UI/localisation on a representative pilot first, per instruction,
+before measuring whether wider backfill is cheap or expensive. The 52
+tier-B people (roster3-roster10) are the cheapest next batch: their
+candidate JSON `rationale` text is already narrative and citation-linked,
+so writing achievements/moments primarily means selecting and lightly
+rewriting 3-5 of the strongest already-written rationale sentences per
+person, not new research. The 8 tier-A people are even cheaper per-person
+(evidence ledgers are pre-decomposed into ready-to-use episodes) but there
+are only 8 of them. The remaining 25 tier-C `roster2.ts` people are the
+same cost class as this pilot's da Vinci/Curie/Lovelace/Mandela/Kahlo/Yi
+Sun-sin batch — usable, but requiring a per-person judgment call about
+whether enough well-established general knowledge exists to write
+confidently, rather than a mechanical extraction.
+
 ## Attribute taxonomy — `taxonomy_v1`
 
 **30 attributes across 6 facets.** The facets *are* the six category matches

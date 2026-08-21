@@ -645,6 +645,13 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.no_similar_people": "아직 비교할 만한 프로필이 충분하지 않습니다.",
   "person.wikipedia_link": "위키백과",
   "person.wikidata_link": "위키데이터",
+  "person.achievements_heading": "주요 업적",
+  "person.moments_heading": "그들을 보여주는 순간들",
+  "person.turning_points_heading": "전환점",
+  "person.editorial.interpretation_label": "이것이 보여주는 것:",
+  "person.similar_people.subtitle": "전체적인 프로필이 이 사람과 닮은 사람들이에요.",
+  "person.opposite_profile.subtitle": "경쟁 상대가 아니라, 살펴볼 만한 다른 프로필 형태예요.",
+  "person.match_context.banner": "퀴즈 결과에서 이 프로필과 특히 {trait} 부분에서 가까운 매치가 나와 이 페이지를 보고 있어요.",
 
   "polity.congress_poland": "회의 폴란드 (러시아 제국)",
   "polity.joseon_dynasty": "조선",

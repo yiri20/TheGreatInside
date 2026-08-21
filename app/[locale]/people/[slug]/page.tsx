@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { LAUNCH_LOCALES, type Locale } from "@core/types";
+import { LAUNCH_LOCALES, type Locale, type PersonEditorialItem } from "@core/types";
 import { personDisplayName, t, tOptional, type MessageKey } from "@core/i18n/index";
+import { editorialText } from "@core/i18n/editorial";
 import { localizedAlternates } from "@lib/seo";
 import { siteUrl } from "@lib/env";
 import { SEED_PEOPLE } from "@data/people/seed";
@@ -26,6 +27,71 @@ import {
   TraitCard,
 } from "@ui/index";
 import { CompareCta } from "./CompareCta";
+import { MatchContextBanner } from "./MatchContextBanner";
+
+/**
+ * Resolves each item's fact text (and, if present, its interpretation text)
+ * for the CURRENT locale only — `editorialText()` never falls back to
+ * English (see src/core/i18n/editorial.ts), so an item without a
+ * translation for this locale is simply dropped from the result rather
+ * than rendered untranslated. This is also why an editorial section can
+ * legitimately have a different item count on /en-US vs /ko-KR: presence
+ * is per-translation, not per-item.
+ */
+function resolveEditorialItems(locale: Locale, items: readonly PersonEditorialItem[]) {
+  return items
+    .map((item) => ({
+      item,
+      text: editorialText(locale, item.textKey),
+      interpretation: item.interpretationKey ? editorialText(locale, item.interpretationKey) : undefined,
+    }))
+    .filter((r): r is { item: PersonEditorialItem; text: string; interpretation: string | undefined } => r.text !== undefined);
+}
+
+/**
+ * One editorial section (achievements / moments / turning points). Fact and
+ * interpretation are rendered as two visually AND textually distinct
+ * elements — the interpretation line carries its own "What this reveals:"
+ * label (never a colour-only distinction) and is itself written in
+ * calibrated language ("is consistent with", "helps explain") rather than a
+ * diagnostic claim, per CLAUDE.md "Safety".
+ */
+function EditorialSection({
+  locale,
+  heading,
+  resolved,
+}: {
+  locale: Locale;
+  heading: string;
+  resolved: ReturnType<typeof resolveEditorialItems>;
+}) {
+  if (resolved.length === 0) return null;
+  return (
+    <Stack gap={4}>
+      <Heading level={2}>{heading}</Heading>
+      <Stack gap={3}>
+        {resolved.map(({ item, text, interpretation }) => (
+          <Card key={item.id} className="tgi-measure-stack">
+            <Stack gap={2}>
+              <Text>{text}</Text>
+              {interpretation ? (
+                <Text tone="muted">
+                  <strong>{t(locale, "person.editorial.interpretation_label")}</strong> {interpretation}
+                  {item.attributeId ? (
+                    <>
+                      {" "}
+                      <span className="tgi-chip">{t(locale, `attribute.${item.attributeId}` as MessageKey)}</span>
+                    </>
+                  ) : null}
+                </Text>
+              ) : null}
+            </Stack>
+          </Card>
+        ))}
+      </Stack>
+    </Stack>
+  );
+}
 
 interface PageParams {
   locale: string;
@@ -224,6 +290,14 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
           );
         })()}
 
+        {/* Client island, reads a plain `?why=match&trait=...` query param
+            already computed and passed by Results' Closest Match link —
+            no result-token decoding or re-computation happens here, so this
+            page stays independent of any result token for normal browsing.
+            Renders nothing when the params are absent (direct visits,
+            navigation from the directory, etc). */}
+        <MatchContextBanner locale={locale} />
+
         <Divider />
 
         <Stack gap={4}>
@@ -242,11 +316,43 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
           </Grid>
         </Stack>
 
+        {(() => {
+          const editorial = person.editorial;
+          if (!editorial) return null;
+          const achievements = resolveEditorialItems(locale, editorial.achievements);
+          const moments = resolveEditorialItems(locale, editorial.moments);
+          const turningPoints = resolveEditorialItems(locale, editorial.turningPoints);
+          if (achievements.length === 0 && moments.length === 0 && turningPoints.length === 0) return null;
+          return (
+            <>
+              {achievements.length > 0 ? (
+                <>
+                  <Divider />
+                  <EditorialSection locale={locale} heading={t(locale, "person.achievements_heading")} resolved={achievements} />
+                </>
+              ) : null}
+              {moments.length > 0 ? (
+                <>
+                  <Divider />
+                  <EditorialSection locale={locale} heading={t(locale, "person.moments_heading")} resolved={moments} />
+                </>
+              ) : null}
+              {turningPoints.length > 0 ? (
+                <>
+                  <Divider />
+                  <EditorialSection locale={locale} heading={t(locale, "person.turning_points_heading")} resolved={turningPoints} />
+                </>
+              ) : null}
+            </>
+          );
+        })()}
+
         <Divider />
 
         {similar.length > 0 ? (
           <Stack gap={4}>
             <Heading level={2}>{t(locale, "person.similar_people")}</Heading>
+            <Text tone="muted">{t(locale, "person.similar_people.subtitle")}</Text>
             {/* Phase 10D Stage 5: reuses the exact mobile-density class
                 Results/Saved Result already established for the same
                 multi-PersonCard content shape (see components.css,
@@ -282,6 +388,7 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
         {opposite ? (
           <Stack gap={4}>
             <Heading level={2}>{t(locale, "person.opposite_profile")}</Heading>
+            <Text tone="muted">{t(locale, "person.opposite_profile.subtitle")}</Text>
             {/* Phase 10D-2: this section always renders exactly ONE card
                 (selectOppositePerson returns at most one person) — `Grid`'s
                 auto-fit sizes its single column to 1fr when there's only

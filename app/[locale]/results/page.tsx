@@ -226,7 +226,20 @@ export default async function ResultsPage({
                   return line ? <Text tone="secondary">{line}</Text> : null;
                 })()}
                 <Cluster gap={3}>
-                  <Button href={`/${locale}/people/${closest.person.slug}`}>
+                  {/* Editorial-depth item 20 (Results -> profile connection):
+                      pass the trait that actually drove this match as a
+                      plain, human-readable query param — MatchContextBanner
+                      on the person page reads it to explain "why you're
+                      here," with no result-token decoding or recomputation
+                      on that page. closest.closestTraits[0] is already the
+                      top driving trait per matchUserToPerson's own sort. */}
+                  <Button
+                    href={
+                      closest.closestTraits[0]
+                        ? `/${locale}/people/${closest.person.slug}?why=match&trait=${closest.closestTraits[0].attributeId}`
+                        : `/${locale}/people/${closest.person.slug}`
+                    }
+                  >
                     {t(locale, "results.cta.view_profile")}
                   </Button>
                   <Button variant="secondary" href={`#comparison`}>

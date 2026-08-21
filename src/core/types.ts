@@ -109,6 +109,55 @@ export interface PersonExternalIdentity {
 }
 
 /**
+ * Editorial narrative content — achievements, revealing moments, turning
+ * points. Introduced 2026-08 for editorial/content depth work. Deliberately
+ * separates HISTORICAL FACT (`textKey`, what the record shows) from THE
+ * GREAT INSIDE'S INTERPRETATION (`interpretationKey`, optional, what that
+ * evidence may reveal about the trait profile) — never blended into one
+ * string, so interpretive language can never be mistaken for a sourced
+ * claim. `interpretationKey` text must use calibrated language ("is
+ * consistent with", "helps explain") — never a diagnostic claim — per
+ * CLAUDE.md "Safety". Both keys resolve via `editorialText(locale, key)`
+ * (`src/core/i18n/editorial.ts`), which — unlike `tOptional` — never falls
+ * back to English: an item with no translation for the current locale is
+ * simply omitted from that locale's page, never shown untranslated.
+ */
+export interface PersonEditorialItem {
+  /** Stable, globally unique id (e.g. "marie-curie-achievement-1"). */
+  id: string;
+  /** Resolved via `editorialText()` — the historical-fact text. */
+  textKey: string;
+  /** Resolved via `editorialText()` — optional interpretive sentence
+   *  connecting this episode to the trait profile. Omitted, not blended
+   *  into `textKey`, so fact and interpretation are structurally distinct. */
+  interpretationKey?: string;
+  /** The trait `interpretationKey` connects to, if any — lets the UI show
+   *  a reference alongside the interpretive sentence. */
+  attributeId?: AttributeId;
+  /** Subset of this person's own `Person.sources` ids — every editorial
+   *  claim must trace back to a source already on the person record, never
+   *  a new, dangling reference. */
+  sourceIds?: string[];
+}
+
+/**
+ * Deliberately three separate, independently-optional arrays rather than a
+ * fixed-shape "3 achievements + 2 moments + 1 turning point" template —
+ * different lives have different evidence, and a person with two excellent
+ * moments and no turning point should render that way, not be padded with
+ * filler to hit a uniform count. An absent or empty array means the UI
+ * section is omitted entirely, never rendered as an empty shell.
+ */
+export interface PersonEditorial {
+  /** What they did, and why it mattered — concrete, not résumé bullets. */
+  achievements: PersonEditorialItem[];
+  /** Concrete episodes that reveal character, working style, or values. */
+  moments: PersonEditorialItem[];
+  /** Failures, pivots, or reversals — what changed afterward. */
+  turningPoints: PersonEditorialItem[];
+}
+
+/**
  * A portrait and its licence chain. Optional: most historical figures have no
  * portrait available under a free licence, and `PersonCard`/person pages fall
  * back to an initials placeholder when this is absent — that fallback is the
@@ -200,6 +249,12 @@ export interface Person {
    */
   externalIdentity?: PersonExternalIdentity;
   portrait?: PersonPortrait;
+  /** Reviewed editorial narrative content — see `PersonEditorial` above.
+   *  Absent for most of the roster by design; presence is not a quality
+   *  signal about the person, only about how much editorial writing has
+   *  been done for them so far. MUST NOT influence similarity, same rule
+   *  as every other presentation field on this type. */
+  editorial?: PersonEditorial;
 }
 
 /* ------------------------------------------------------------------- users */

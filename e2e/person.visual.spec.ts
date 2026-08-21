@@ -228,12 +228,18 @@ for (const [slug, hasContent] of [
       const sourcesHeading = Array.from(document.querySelectorAll("h3")).find((h) => h.textContent?.includes("Sources"));
       const sourcesCard = sourcesHeading?.closest(".tgi-card");
       const dividerImmediatelyBefore = sourcesCard?.previousElementSibling?.classList.contains("tgi-divider") ?? false;
+      // Editorial-depth session: each present editorial section (Key
+      // Achievements / Moments That Reveal Them / Turning Points) is its own
+      // divided block, same pattern as every other section on this page.
+      const editorialHeadings = ["Key Achievements", "Moments That Reveal Them", "Turning Points"];
+      const editorialSectionCount = editorialHeadings.filter((h) => headings.includes(h)).length;
       return {
         similarIdx,
         oppositeIdx,
         hasSources: !!sourcesCard,
         dividerImmediatelyBeforeSources: dividerImmediatelyBefore,
         totalDividers: document.querySelectorAll(".tgi-divider").length,
+        editorialSectionCount,
       };
     });
     if (!result.hasSources) return; // this person has no sources; nothing to assert
@@ -241,10 +247,16 @@ for (const [slug, hasContent] of [
     expect(result.dividerImmediatelyBeforeSources, "exactly one Divider should immediately precede the Sources card").toBe(
       true,
     );
-    // 2 original dividers (after hero, after Trait Constellation) + exactly 1
-    // new one before Sources = 3. Guards against accidentally adding more
-    // than the one approved divider, including between Similar People and
-    // Opposite Profile.
-    expect(result.totalDividers, "expected exactly 3 dividers on the page (2 original + 1 new before Sources)").toBe(3);
+    // 2 original dividers (after hero, after Trait Constellation) + 1 new one
+    // before Sources + one per present editorial section (each editorial
+    // section is its own divided block). Guards against accidentally adding
+    // more dividers than that, including between Similar People and
+    // Opposite Profile, while correctly allowing for pilot people (this
+    // fixture's own da Vinci/Lovelace) that legitimately carry editorial
+    // content.
+    expect(
+      result.totalDividers,
+      "expected 3 base dividers + 1 per present editorial section",
+    ).toBe(3 + result.editorialSectionCount);
   });
 }
