@@ -26,6 +26,17 @@ describe("siteUrl", () => {
     expect(siteUrl()).toBe("https://custom-domain.example");
   });
 
+  it("resolves to the real production domain (thegreatinside.com) when NEXT_PUBLIC_SITE_URL is set to it", async () => {
+    // Domain migration (2026-08): thegreatinside.com is the official public
+    // origin (see CLAUDE.md's "Domain Migration" section). This pins the
+    // exact production fact, not just the generic override mechanism the
+    // adjacent tests already cover.
+    vi.stubEnv("NEXT_PUBLIC_SITE_URL", "https://thegreatinside.com");
+    vi.stubEnv("VERCEL_PROJECT_PRODUCTION_URL", "the-great-inside.vercel.app");
+    const siteUrl = await freshSiteUrl();
+    expect(siteUrl()).toBe("https://thegreatinside.com");
+  });
+
   it("falls back to VERCEL_PROJECT_PRODUCTION_URL, with https://, when no explicit site URL is set", async () => {
     vi.stubEnv("NEXT_PUBLIC_SITE_URL", "");
     vi.stubEnv("VERCEL_PROJECT_PRODUCTION_URL", "the-great-inside.vercel.app");
