@@ -21,6 +21,36 @@ function redirectLocation(res: { headers(): Record<string, string> }): URL {
   return new URL(res.headers()["location"]!, "http://placeholder.invalid");
 }
 
+test.describe("canonical host redirect (domain migration, 2026-08)", () => {
+  test("www.thegreatinside.com redirects (308) to the canonical apex, preserving path and query", async ({
+    request,
+  }) => {
+    const res = await request.get("/en-US/people?foo=bar", {
+      maxRedirects: 0,
+      headers: { host: "www.thegreatinside.com" },
+    });
+    expect(res.status()).toBe(308);
+    expect(res.headers()["location"]).toBe("https://thegreatinside.com/en-US/people?foo=bar");
+  });
+
+  test("the former Vercel production hostname redirects (308) to the canonical apex", async ({ request }) => {
+    const res = await request.get("/ko-KR/quiz", {
+      maxRedirects: 0,
+      headers: { host: "the-great-inside.vercel.app" },
+    });
+    expect(res.status()).toBe(308);
+    expect(res.headers()["location"]).toBe("https://thegreatinside.com/ko-KR/quiz");
+  });
+
+  test("a request already on the canonical host is never redirected by host (no loop)", async ({ request }) => {
+    const res = await request.get("/en-US/people", {
+      maxRedirects: 0,
+      headers: { host: "thegreatinside.com" },
+    });
+    expect(res.status()).toBe(200);
+  });
+});
+
 test.describe("bare / locale negotiation", () => {
   test("no Accept-Language header -> en-US", async ({ request }) => {
     const res = await request.get("/", { maxRedirects: 0, headers: { "accept-language": "" } });

@@ -1,8 +1,20 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { updateSession } from "@lib/supabase/middleware";
 import { LOCALE_COOKIE_NAME, resolveEntryLocale } from "@lib/localeNegotiation";
+import { canonicalRedirectUrl } from "@lib/canonicalHost";
 
 /**
+ * DOMAIN MIGRATION (2026-08). Checked first, before locale negotiation:
+ * `www.thegreatinside.com` and the former production hostname
+ * `the-great-inside.vercel.app` both redirect to the canonical apex
+ * domain, preserving path and query. See `canonicalHost.ts`'s own doc
+ * comment for why this exists at the app layer (Vercel's own dashboard
+ * redirect was found, via live runtime verification, not to be firing) —
+ * this is a belt-and-suspenders safety net, not the primary fix. A 308
+ * (permanent, method-preserving) status is used, matching the "permanent
+ * redirect" policy this migration documents. No loop risk: the allowlist
+ * in `canonicalHost.ts` never matches the canonical host itself.
+ *
  * POST-10D STAGE A, item 6. Bare `/` language negotiation, scoped ONLY to
  * the exact `/` pathname — every other route (including every already-
  * localized `/en-US/*`/`/ko-KR/*` URL) falls through unchanged to the
@@ -17,6 +29,11 @@ import { LOCALE_COOKIE_NAME, resolveEntryLocale } from "@lib/localeNegotiation";
  * again, and `/en-US`/`/ko-KR` are excluded from this branch entirely.
  */
 export async function proxy(request: NextRequest) {
+  const hostRedirect = canonicalRedirectUrl(request.headers.get("host"), request.nextUrl.pathname, request.nextUrl.search);
+  if (hostRedirect) {
+    return NextResponse.redirect(hostRedirect, 308);
+  }
+
   if (request.nextUrl.pathname === "/") {
     const locale = resolveEntryLocale({
       cookieValue: request.cookies.get(LOCALE_COOKIE_NAME)?.value,
