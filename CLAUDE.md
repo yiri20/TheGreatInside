@@ -5836,42 +5836,58 @@ correctly on any domain with zero code change, exactly as designed since
 Phase 9. Google's own "Authorized redirect URI" points at Supabase's own
 fixed callback and is domain-independent (unchanged since Stage 10A).
 
-**Remaining manual steps (external to this repository, not yet done):**
-0. **Vercel → Project → Settings → Domains**: check the "Redirect to"
-   toggle for `www.thegreatinside.com` and `the-great-inside.vercel.app`
-   — live verification (2026-08) found neither was actually redirecting
-   despite the intended configuration. The app-layer safety net above
-   (`canonicalHost.ts`) makes the product-level goal hold either way, but
-   the dashboard is still the correct place to fix this properly (a
-   redirect at the edge is cheaper than one more hop through the app).
-1. **Vercel → Project → Settings → Environment Variables**: add
-   `NEXT_PUBLIC_SITE_URL` = `https://thegreatinside.com` for the
-   Production environment, then redeploy (or the next push to `main`
-   will pick it up). This is the one step that actually flips the app's
-   own canonical/OG/share output to the new domain — see the load-bearing
-   finding above.
-2. **Supabase Dashboard → Authentication → URL Configuration**: set Site
+**CONFIRMED LIVE IN PRODUCTION (2026-08), by direct `curl` against the
+real deployment after the migration commits were pushed and deployed —
+not assumed from code alone:** canonical, hreflang (all three locales
+plus `x-default`), OG image URLs, `sitemap.xml`'s every `<loc>`, and
+`robots.txt`'s `sitemap` field all correctly resolve to
+`https://thegreatinside.com`, on both `/en-US` and `/ko-KR`, for Landing
+and a representative Person page. `www.thegreatinside.com` and
+`the-great-inside.vercel.app` both now return `308 Permanent Redirect`
+to the exact corresponding `thegreatinside.com` path (path/query
+preserved), confirmed via the app-layer `canonicalHost.ts` safety net
+described above — no redirect loop on the canonical host itself. **How
+`NEXT_PUBLIC_SITE_URL` ended up set is not confirmed from this
+repository** — this session never had Vercel dashboard/CLI access to set
+it, so either the product owner set it directly during this session, or
+`VERCEL_PROJECT_PRODUCTION_URL` began resolving to the custom domain on
+its own after a genuine propagation delay (a live check earlier the same
+session had found it still resolving to the old hostname, so something
+changed in between) — recorded honestly as unconfirmed, not guessed.
+
+**Remaining manual steps (external to this repository, genuinely
+optional / lower-priority now that the origin itself is confirmed live):**
+0. **Vercel → Project → Settings → Domains**: the "Redirect to" toggle
+   for `www.thegreatinside.com`/`the-great-inside.vercel.app` is worth
+   checking/enabling at some point so the redirect happens at the edge
+   rather than one extra hop through the app's own `canonicalHost.ts` —
+   but is no longer urgent, since the app-layer redirect is confirmed
+   live and correct either way.
+1. **Supabase Dashboard → Authentication → URL Configuration**: set Site
    URL to `https://thegreatinside.com`; add
    `https://thegreatinside.com/auth/callback` to Redirect URLs. Keep the
    old `the-great-inside.vercel.app`/`localhost:3000` entries during
    migration rather than removing them — harmless to leave, no upside to
-   removing early.
-3. **Google Search Console**: verify a new property for
+   removing early. Not verified from this repository (no Supabase
+   dashboard access this session).
+2. **Google Search Console**: verify a new property for
    `thegreatinside.com` (a DNS-verified Domain property is recommended —
    covers apex + `www` + both protocols in one verification) and submit
    `https://thegreatinside.com/sitemap.xml`. The existing
    `GOOGLE_SITE_VERIFICATION` meta tag (`src/lib/seo.ts`) was issued for
    a property on the old hostname and does not automatically extend to
    the new domain.
-4. Google Cloud Console OAuth consent-screen Homepage/Privacy/Terms/
+3. Google Cloud Console OAuth consent-screen Homepage/Privacy/Terms/
    Authorized-Domains fields (Broader Public Launch Finish Line §5,
    items 3/4/5/7) can now be completed against `thegreatinside.com` — see
    that section for the exact field list. Still gated behind the
    product owner's separate, still-optional decision on brand
    verification (§4's item-3 distinction).
 
-Once step 1 above is done, this migration is complete — no further
-application-side work is needed for the domain change itself.
+**This migration's application-side work is complete** — the canonical
+origin is confirmed live everywhere the app itself controls. Only
+external dashboard steps (Supabase, Search Console, Google Cloud
+Console) remain, none of them blocking.
 
 ## Conventions
 
