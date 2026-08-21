@@ -176,7 +176,7 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
         {results.length === 0 ? (
           <Text tone="muted">{t(locale, "people.directory.empty")}</Text>
         ) : (
-          <Grid min="14rem">
+          <Grid min="14rem" className="tgi-results-discovery-grid">
             {results.map((person) => (
               <PersonCard
                 key={person.id}

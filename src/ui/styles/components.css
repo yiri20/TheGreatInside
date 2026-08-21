@@ -985,8 +985,11 @@ details > summary:focus-visible {
    uses for "narrow enough that controls should stack/compact" elsewhere in
    this file, not a new arbitrary value. `Grid`/`PersonCard` themselves are
    untouched (this only overrides `grid-template-columns` for elements
-   carrying this additional page-scoped class); Person/Compare/the
-   directory's own `Grid` usage is unaffected. Two classes on the selector,
+   carrying this additional page-scoped class). Compare's own `Grid` usage
+   is unaffected; Person's Similar People grid and the People Directory's
+   full-roster grid (95-person launch-readiness pass, 2026-08 — the
+   directory's own single-column mobile stack measured ~53,000px tall at
+   94 cards before this) both opted in too. Two classes on the selector,
    same reason as `.tgi-card.tgi-landing-howitworks` — reliably wins over
    the bare `.tgi-grid` rule regardless of source order. */
 @media (max-width: 640px) {

@@ -19,12 +19,14 @@ import { ogFontData, OG_FONT_FAMILY } from "@lib/og/font";
  * canonical dataset content, identical for every visitor, same as the page
  * itself.
  *
- * NO portrait dependency — deliberately, not merely by omission. Only 1 of
- * 35 people (Leonardo da Vinci) has a populated `portrait` field; a
- * portrait-dependent design would need its own separate fallback for the
- * other 34, and would also mean fetching a remote image at render time,
- * which this file never does. Da Vinci is not a special visual case: this
- * component reads nothing from `person.portrait` at all.
+ * NO portrait dependency — deliberately, not merely by omission. Portrait
+ * coverage is partial and grows independently of this file (42 of 95 people
+ * as of the 2026-08 95-person launch-readiness pass — check `SEED_PEOPLE`
+ * for the current figure rather than trusting this comment); a
+ * portrait-dependent design would need its own separate fallback for
+ * whichever people lack one, and would also mean fetching a remote image at
+ * render time, which this file never does. No person is a special visual
+ * case: this component reads nothing from `person.portrait` at all.
  *
  * Localized EN/KO via the OG-only Noto Serif KR subset (`src/lib/og/font.ts`
  * — see `assets/og/README.md` for the subset's exact glyph coverage,

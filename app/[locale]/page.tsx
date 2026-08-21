@@ -3,7 +3,17 @@ import type { Metadata } from "next";
 import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { t } from "@core/i18n/index";
 import { localizedAlternates } from "@lib/seo";
+import { SEED_PEOPLE } from "@data/people/seed";
 import { Button, Card, Cluster, Display, Eyebrow, Rail, Stack, Text } from "@ui/index";
+
+/**
+ * The landing subtitle's "N extraordinary people" figure is computed live
+ * from the roster (match-eligible count — the pool the quiz actually ranks
+ * against) rather than hardcoded, specifically so a future roster batch
+ * can never leave this copy stale again (found stuck at a pre-expansion
+ * "35" during the 95-person launch-readiness audit, 2026-08).
+ */
+const MATCH_ELIGIBLE_PEOPLE_COUNT = SEED_PEOPLE.filter((p) => p.isMatchEligible).length;
 
 interface PageParams {
   locale: string;
@@ -62,7 +72,9 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
           <Stack gap={5} className="tgi-measure-stack">
             <Eyebrow>{t(locale, "landing.eyebrow")}</Eyebrow>
             <Display className="tgi-landing-headline">{t(locale, "landing.title")}</Display>
-            <Text tone="secondary">{t(locale, "landing.subtitle")}</Text>
+            <Text tone="secondary">
+              {t(locale, "landing.subtitle", { count: MATCH_ELIGIBLE_PEOPLE_COUNT })}
+            </Text>
             <Cluster gap={3}>
               <Button href={`/${locale}/quiz`} size="lg">
                 {t(locale, "landing.cta_primary")}

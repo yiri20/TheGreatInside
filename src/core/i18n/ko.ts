@@ -427,7 +427,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "landing.eyebrow": "The Great Inside",
   "landing.title": "역사 속 누구와 생각이 닮았을까요?",
   "landing.subtitle":
-    "생각하고, 만들고, 일하고, 결정을 내리는 방식에 대한 질문에 답해보세요. 당신의 프로필을 35명의 비범한 인물들과 비교해, 실제로 누구와 가장 닮았는지 보여드립니다.",
+    "생각하고, 만들고, 일하고, 결정을 내리는 방식에 대한 질문에 답해보세요. 당신의 프로필을 {count}명의 비범한 인물들과 비교해, 실제로 누구와 가장 닮았는지 보여드립니다.",
   "landing.cta_primary": "설문 시작하기",
   "landing.cta_secondary": "먼저 인물들 둘러보기",
   "landing.ai_disclaimer":
@@ -654,6 +654,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "polity.holy_roman_empire": "신성 로마 제국",
   "polity.british_raj": "영국령 인도 제국",
   "polity.roman_empire": "로마 제국",
+  "polity.roman_republic": "로마 공화정",
   "polity.new_spain": "누에바에스파냐 부왕령",
   "polity.almohad_caliphate": "알모하드 칼리파국",
   "polity.ayyubid_sultanate": "아이유브 술탄국",

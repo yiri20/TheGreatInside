@@ -361,7 +361,7 @@ export const en = {
   "landing.eyebrow": "The Great Inside",
   "landing.title": "Who in history thinks like you?",
   "landing.subtitle":
-    "Answer a set of questions about how you think, create, work, and make decisions. We'll compare your profile against 35 extraordinary people — and show you who you actually resemble.",
+    "Answer a set of questions about how you think, create, work, and make decisions. We'll compare your profile against {count} extraordinary people — and show you who you actually resemble.",
   "landing.cta_primary": "Take the Quiz",
   "landing.cta_secondary": "Explore the People First",
   "landing.ai_disclaimer":
@@ -932,6 +932,7 @@ export const en = {
   "polity.holy_roman_empire": "Holy Roman Empire",
   "polity.british_raj": "British Raj",
   "polity.roman_empire": "Roman Empire",
+  "polity.roman_republic": "Roman Republic",
   "polity.new_spain": "Viceroyalty of New Spain",
   "polity.almohad_caliphate": "Almohad Caliphate",
   "polity.ayyubid_sultanate": "Ayyubid Sultanate",
