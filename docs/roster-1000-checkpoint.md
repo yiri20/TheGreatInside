@@ -6105,7 +6105,133 @@ blockers.
 remains the sole non-match-eligible exception, unchanged since the
 `inclusion_v1` audit). Up from 87/86 at Session 17's close.
 
-## 13. Exact next steps for a fresh session (updated session 17)
+## 85. Session 19 — first Launch Roster Expansion production batch under
+## the frozen Roster Research & Scoring Protocol v1: 5/5 eligible (2026-08)
+
+Routine production, not a methodology investigation — kept short per the
+session's own governing instruction. Starting roster: **90 people, 89
+match-eligible** (verified live against `SEED_PEOPLE`, matching CLAUDE.md
+exactly).
+
+**Cohort (recorded before research began, `src/dev/roster1000/production/
+session19/COHORT.md`):** Mustafa Kemal Atatürk (Turkey, West Asia —
+closes the region's single-medieval-person gap), Aung San Suu Kyi
+(Myanmar, contemporary), Anna Pavlova (Russia, dance — zero prior
+representation), Akio Morita (Japan, entrepreneurial — zero prior
+representation outside North America/Western Europe), Oscar Niemeyer
+(Brazil, architecture — zero prior representation). Selected via a live
+diversity audit of the 90-person roster (region/era/occupation/domain)
+for individual research strength first, diversity second; none
+previewed for trait coverage before selection.
+
+**Identity**: all 5 QIDs verified live against `Special:EntityData/
+<QID>.json` (English label+description match), zero QID/slug collisions
+against the full 162-file corpus + live roster (`identityPreflight.ts`
+re-confirmed live a second time at pipeline close, after scoring).
+
+**Research**: two rounds of parallel research agents were used (round 1
+hit an account-wide session limit before any agent wrote a file — no
+partial work existed to resume from, so round 2 was launched fresh with
+explicit incremental-save instructions, per the session's own "resume
+once, or finish sequentially" rule). Round 2 completed cleanly for all
+5: 8-11 independent substantive sources each (Ataturk 9, Suu Kyi 9,
+Pavlova 8, Morita 8, Niemeyer 11 — all well above the 4-source floor),
+27-45 evidence episodes each (Ataturk 40, Suu Kyi 45, Pavlova 32, Morita
+27, Niemeyer 31 — all well above the 12-episode floor), 8-15 life
+periods each. Every candidate's `sources.md` and a sample of
+`evidenceLedger.json` episodes were independently read and spot-checked
+by the orchestrating session (not merely trusted from the agents' own
+completion summaries) before evidence lock — all five held to the
+session-18 louis-pasteur quality bar. Morally complex material (Ataturk's
+authoritarian consolidation/Kurdish-rebellion suppression; Aung San Suu
+Kyi's Rohingya-crisis conduct; Niemeyer's Communist Party membership) is
+documented factually, neither side sanitized nor omitted, per this
+project's existing Genghis-Khan-style discipline.
+
+**Evidence lock → scoring → scoring lock**: all 5 evidence packages
+locked (`EVIDENCE_LOCK.md` per candidate) before any scoring began.
+Scoring done by ONE scorer (the orchestrating session) across all 5 for
+cross-candidate consistency, citing frozen episode ids in every
+rationale. Scored-row counts: Ataturk 29, Suu Kyi 25, Pavlova 25, Morita
+26, Niemeyer 24 — all well above the 18-row floor. All 5 then locked
+(`SCORING_LOCK.md`) before `eligibility_v2` was run.
+
+**`eligibility_v2` run once, across all 5 together**: **5/5 eligible** —
+a clean batch, not a near-miss pattern (coverage ranged 0.714-0.851,
+average confidence 0.553-0.583, all comfortably clearing every gate).
+`validateCandidates.ts` reported 0 errors, 0 warnings across the full
+162+5-file corpus. No candidate's evidence or scoring was revisited
+after seeing this result.
+
+**Promotion & generation**: all 5 promoted into `src/data/people/
+roster10.ts` via a new `src/dev/roster1000/generateRoster10.ts`
+(mirrors `generateRoster9.ts`'s explicit-slug-allowlist pattern), wired
+into `seed.ts`, `peopleIndex.generated.ts` regenerated. One genuinely new
+occupation id was needed — `dancer` (Anna Pavlova) — added with EN+KO
+text (`src/core/i18n/en.ts`/`ko.ts`), same precedent as session 11's
+`architect`/`nurse` additions. Korean `person.name.*` display names
+authored for all 5 (a real regression-guard failure, caught by
+`personDisplayName.test.ts`, fixed the same session — not a process
+defect, the guard did exactly its job).
+
+**Roster grew 90 → 95 people, 94 match-eligible** (Zheng He remains the
+sole exception). Dispersion regenerated and calibration anchors
+refreshed (drift negligible, <0.002 raw on both tables — `CALIBRATION_VERSION`
+correctly left unbumped, same precedent as sessions 4/5/11/18).
+Canonical matching simulation reconfirmed healthy: max #1 frequency
+12.0% (Warren Buffett, well under the 20%-at-n≥30 threshold), all 5 new
+people reachable (Akio Morita alone already shows 3.2% #1 frequency),
+no pathological domination.
+
+**A real, expected fixture-fragility recurrence** (the exact class
+CLAUDE.md's own roster3.ts/session-18 precedent already documented as
+likely to happen again): `results.visual.spec.ts`'s
+`UNEXPECTED_ABSENT_TOKEN` fixed token's branch outcome (`unexpected ===
+undefined`, `opposite !== undefined`) flipped against the new 95-person
+roster. Fixed the same way as before — a fresh token found via a
+scripted single-character-mutation search against the live
+`buildResultSet` pipeline, re-verified against the current roster, not
+hand-picked. Not a product regression.
+
+**Historical immutability verified**: zero pre-existing candidate JSON
+files were touched (confirmed directly via `git status` — only new,
+untracked files for the 5 new candidates); `eligibility_v2`
+(`src/core/matching/similarity.ts`) shows zero diff; no session 13-18
+candidate was rescored.
+
+**Verification**: `tsc --noEmit` clean, `vitest run` **594/594** (585
+baseline + 9 new — 6 `personDisplayName` Korean-name entries feeding one
+regression guard test plus incidental coverage), `next build --webpack`
+clean (all 70+25 person pages `●` SSG, static/dynamic split unchanged),
+`identityPreflight.ts` 5/5 match, `checkScoringLockIntegrity.ts` 0
+flagged, `playwright` **215/215** (214 baseline-equivalent + the fixed
+fixture).
+
+**Next milestone**: 95 people is short of the 100-person lightweight
+review checkpoint the brief specifies; continue toward it with the next
+batch (`roster11.ts`) using the same frozen protocol. No genuine workflow
+defect was found this session beyond the two expected, already-precedented
+recurrences above (session-limit interruption with no partial work;
+fixed-token fixture drift) — both handled per existing playbook, neither
+warranting a process change.
+
+## 13. Exact next steps for a fresh session (updated session 19)
+
+**IMPORTANT: read §85 before starting a new candidate batch.** Session 19
+was the first normal Launch Roster Expansion production batch (not a
+methodology audit) under session 18's frozen `Roster Research & Scoring
+Protocol v1`: a fresh 5-person cohort (Ataturk, Aung San Suu Kyi,
+Pavlova, Morita, Niemeyer), selected for real region/domain gaps (West
+Asia, dance, architecture, non-Western entrepreneurship), researched and
+scored under the identical protocol, **5/5 eligible** — a clean batch,
+promoted into `roster10.ts`. Roster grew **90 → 95 people, 94
+match-eligible**. `eligibility_v2` remains completely unmodified. The
+`UNEXPECTED_ABSENT_TOKEN` Playwright fixture recurred its known
+fragility (fixed the same way as before) and one new occupation id
+(`dancer`) was added with EN+KO text. **The recommended next step is to
+continue Launch Roster Expansion with a fresh batch (`roster11.ts`)
+toward the 100-person lightweight review checkpoint**, using the same
+frozen protocol — not another methodology audit.
 
 **IMPORTANT: read §84 before starting a new candidate batch or
 re-litigating the eligibility_v2 question.** Session 18 ran the first
@@ -6373,8 +6499,18 @@ before-eligibility process this session's research also followed:
     fixed this session, per explicit instruction — must be fixed and
     verified before any merge to `main`, regardless of roster headcount.
 
-## 14. Known blockers / open questions for a future session (updated session 17)
+## 14. Known blockers / open questions for a future session (updated session 19)
 
+- **Session 19 (§85) was routine production, not a methodology
+  investigation — none of the open questions below were revisited.**
+  5/5 fresh candidates were eligible; roster grew 90 → 95 people, 94
+  match-eligible. `eligibility_v2` was not modified.
+- **STANDING MERGE BLOCKER, unrelated to roster-1000 data, reconfirmed
+  still open (not investigated this session, out of scope, per
+  instruction)**: a real external user reported awkward forced wrapping
+  / poor responsive proportions in the English mobile questionnaire's
+  answer-choice layout. Must be fixed and verified before any merge to
+  `main`, regardless of roster headcount or data quality at that time.
 - **Session 17's evidence-quality/diagnostic-density audit (§83) found
   the "Session 13's evidence is more diagnostically valuable per
   episode" hypothesis NOT SUPPORTED** — A+B diagnostic density is

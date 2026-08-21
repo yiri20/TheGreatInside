@@ -3502,6 +3502,34 @@ Expansion in batches using this now-frozen protocol (90 → 100 → 125 →
 1,000 people as a pre-launch requirement. Full record:
 `docs/roster-1000-checkpoint.md` §84.
 
+**Session 19 (2026-08) ran the first normal Launch Roster Expansion
+production batch** (routine production, not a methodology audit) under
+session 18's now-frozen `Roster Research & Scoring Protocol v1`: a fresh
+5-person cohort (Mustafa Kemal Atatürk, Aung San Suu Kyi, Anna Pavlova,
+Akio Morita, Oscar Niemeyer), selected via a live diversity audit to
+close real region/domain gaps (West Asia had only Rumi, medieval; dance
+and architecture had zero prior representation; entrepreneurial impact
+existed only in North America/Western Europe), with every stage
+preserved in `src/dev/roster1000/production/session19/`. **Result: 5/5
+eligible** — a clean batch, not a near-miss pattern — promoted into
+`src/data/people/roster10.ts` via a new `generateRoster10.ts`. One
+genuinely new occupation id (`dancer`, for Anna Pavlova) was added with
+EN+KO text, same precedent as session 11's `architect`/`nurse`.
+`eligibility_v2` remains completely unmodified. The same
+`UNEXPECTED_ABSENT_TOKEN` Playwright fixture-fragility class recurred
+again (fixed the same way, a fresh verified token). **Roster grew
+90 → 95 people, 94 match-eligible** (Zheng He remains the sole
+non-match-eligible exception). Dispersion regenerated and calibration
+anchors refreshed (drift negligible, `CALIBRATION_VERSION` correctly left
+unbumped); canonical matching simulation reconfirmed healthy (max #1
+frequency 12.0%, Warren Buffett). `tsc` clean, `vitest` 594/594
+(unchanged — no new test file, an existing Korean-display-name
+regression guard now correctly passes for all 5 new people), `next build
+--webpack` clean, Playwright 215/215. **Recommended next step: continue
+Launch Roster Expansion with a fresh batch (`roster11.ts`) toward the
+100-person lightweight review checkpoint.** Full record:
+`docs/roster-1000-checkpoint.md` §85.
+
 ## Phase 10D-1 — visual regression harness + editorial primitives +
 ## landing (FORMALLY CLOSED, human-approved, 2026-08)
 
