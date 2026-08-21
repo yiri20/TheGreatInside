@@ -11,4 +11,7 @@ import { execSync } from "node:child_process";
  */
 export default function globalSetup(): void {
   execSync("corepack pnpm@10 exec tsx src/dev/savedResultPreview.tsx", { stdio: "inherit" });
+  // Monetization v1: same pattern, regenerates the Deep Inside report
+  // static preview fixtures (see deepInsideReportPreview.tsx).
+  execSync("corepack pnpm@10 exec tsx src/dev/deepInsideReportPreview.tsx", { stdio: "inherit" });
 }

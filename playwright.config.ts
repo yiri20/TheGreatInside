@@ -49,5 +49,17 @@ export default defineConfig({
     timeout: 180_000,
     stdout: "pipe",
     stderr: "pipe",
+    // Monetization v1: clearly-fake, non-functional test values — just
+    // enough for `isMonetizationEnabled()` to report true so the
+    // signed-out-reachable UI (the Results teaser, /deep-inside's
+    // sign-in-required state) can be exercised. No test in this suite
+    // ever reaches a real Stripe API call (that would need a real test
+    // secret key) — see e2e/deepInside.visual.spec.ts's own doc comment.
+    env: {
+      MONETIZATION_ENABLED: "true",
+      STRIPE_SECRET_KEY: "sk_test_e2e_fake_not_a_real_key",
+      STRIPE_WEBHOOK_SECRET: "whsec_e2e_fake_not_a_real_secret",
+      STRIPE_DEEP_INSIDE_PRICE_ID: "price_e2e_fake_not_a_real_price",
+    },
   },
 });
