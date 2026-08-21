@@ -1496,6 +1496,72 @@ export const en = {
   "share.feedback.copied": "Copied!",
   "share.feedback.copy_failed": "Couldn't copy — try again",
   "share.feedback.share_failed": "Couldn't share — try again",
+
+  /* --------------------------------------------------------------------
+     DEEP INSIDE — Monetization v1.
+     ------------------------------------------------------------------- */
+  "deepinside.meta.title": "Deep Inside — The Great Inside",
+  "deepinside.meta.description":
+    "A deeper, still fully deterministic breakdown of your own quiz result — no generative AI, one-time purchase.",
+
+  "deepinside.teaser.title": "Deep Inside",
+  "deepinside.teaser.price": "US$6.99 · one-time",
+  "deepinside.teaser.no_subscription": "No subscription. No recurring charge.",
+  "deepinside.teaser.body":
+    "A deeper, still fully deterministic look at this exact result — why your closest matches fit, a wider Historical Circle, your signature trait combinations, your strongest contrast, and the trade-offs behind your strengths.",
+  "deepinside.teaser.bullet.matches_fit": "Why your closest historical matches fit",
+  "deepinside.teaser.bullet.circle": "Your wider Historical Circle",
+  "deepinside.teaser.bullet.combination": "Signature trait combinations",
+  "deepinside.teaser.bullet.counterpart": "Your strongest contrast",
+  "deepinside.teaser.bullet.tradeoffs": "Strengths & trade-offs",
+  "deepinside.teaser.cta": "See Deep Inside",
+  "deepinside.teaser.cta.unlocked": "Deep Inside unlocked",
+  "deepinside.teaser.cta.view": "View your Deep Inside report",
+
+  "deepinside.signin_required.title": "Sign in to unlock Deep Inside",
+  "deepinside.signin_required.body":
+    "Deep Inside is tied to your account, not this browser — sign in so it's there whenever you come back.",
+
+  "deepinside.locked.title": "Deep Inside is locked",
+  "deepinside.locked.body":
+    "A one-time purchase, tied to your account for good — restored automatically whenever you sign back in, on this result and any future one.",
+  "deepinside.locked.cta": "Unlock Deep Inside — US$6.99",
+  "deepinside.locked.preview.title": "What's inside",
+
+  "deepinside.error.already_entitled": "You already have Deep Inside unlocked.",
+  "deepinside.error.generic": "Something went wrong starting checkout — please try again.",
+  "deepinside.error.monetization_disabled": "Deep Inside isn't available right now.",
+  "deepinside.error.back_to_results": "Back to your result",
+
+  "deepinside.processing.title": "Payment received",
+  "deepinside.processing.body": "We're activating your Deep Inside access — this usually takes just a moment.",
+  "deepinside.processing.retry": "Check again",
+  "deepinside.processing.still_waiting":
+    "Still activating — this can occasionally take a little longer. You can check again, or come back to this page shortly.",
+  "deepinside.processing.view_report": "View your Deep Inside report",
+
+  "deepinside.section.why_matches_fit": "Why Your Matches Fit",
+  "deepinside.section.why_matches_fit.intro":
+    "A closer look at your top 3 matches — exactly which traits align, and where you differ.",
+  "deepinside.match.rank": "Match #{rank}",
+  "deepinside.match.aligned": "Where you align",
+  "deepinside.match.differing": "Where you differ",
+
+  "deepinside.section.historical_circle": "Your Historical Circle",
+  "deepinside.section.historical_circle.intro":
+    "A wider circle of historical and contemporary figures whose measured profiles resemble yours.",
+
+  "deepinside.section.signature_combination": "Signature Combination",
+  "deepinside.combination.body":
+    "An unusually strong combination: high {traitA} ({scoreA}) paired with high {traitB} ({scoreB}).",
+  "deepinside.tension.body":
+    "A real tension worth noticing: both {traitA} ({scoreA}) and {traitB} ({scoreB}) run high in your profile, and these two tend to pull against each other.",
+
+  "deepinside.section.counterpart": "Your Strongest Contrast",
+  "deepinside.counterpart.differing": "Where you differ most",
+  "deepinside.counterpart.shared": "What you still share",
+
+  "deepinside.section.strengths_tradeoffs": "Strengths & Trade-offs",
 } as const;
 
 export type MessageKey = keyof typeof en;

@@ -1480,4 +1480,65 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "share.feedback.copied": "복사됨!",
   "share.feedback.copy_failed": "복사하지 못했어요 — 다시 시도해주세요",
   "share.feedback.share_failed": "공유하지 못했어요 — 다시 시도해주세요",
+
+  // DEEP INSIDE — Monetization v1. Natural Korean product copy, not a
+  // literal translation — same discipline as every other locale block in
+  // this file (see CLAUDE.md's localisation philosophy section).
+  "deepinside.meta.title": "딥 인사이드 — The Great Inside",
+  "deepinside.meta.description":
+    "당신의 결과를 더 깊이 들여다보는 확장 리포트 — 생성형 AI 없이, 결정론적으로 계산되며, 1회 구매입니다.",
+
+  "deepinside.teaser.title": "딥 인사이드",
+  "deepinside.teaser.price": "US$6.99 · 1회 결제",
+  "deepinside.teaser.no_subscription": "구독이 아니에요. 반복 결제가 없습니다.",
+  "deepinside.teaser.body":
+    "이 결과를 더 깊이 파고드는 확장 리포트예요 — 상위 매치가 왜 잘 맞는지, 더 넓은 역사 인물 서클, 나만의 특성 조합, 가장 대조적인 인물, 그리고 강점 뒤에 숨은 트레이드오프까지.",
+  "deepinside.teaser.bullet.matches_fit": "상위 매치가 왜 잘 맞는지",
+  "deepinside.teaser.bullet.circle": "더 넓은 역사 인물 서클",
+  "deepinside.teaser.bullet.combination": "나만의 특성 조합",
+  "deepinside.teaser.bullet.counterpart": "가장 대조적인 인물",
+  "deepinside.teaser.bullet.tradeoffs": "강점과 트레이드오프",
+  "deepinside.teaser.cta": "딥 인사이드 보기",
+  "deepinside.teaser.cta.unlocked": "딥 인사이드 잠금 해제됨",
+  "deepinside.teaser.cta.view": "딥 인사이드 리포트 보기",
+
+  "deepinside.signin_required.title": "딥 인사이드를 열려면 로그인하세요",
+  "deepinside.signin_required.body":
+    "딥 인사이드는 이 브라우저가 아니라 계정에 연결돼요 — 로그인하면 언제든 다시 볼 수 있어요.",
+
+  "deepinside.locked.title": "딥 인사이드가 잠겨 있어요",
+  "deepinside.locked.body": "한 번 구매하면 계정에 영구히 연결돼요 — 다시 로그인해도, 앞으로 나올 결과에도 그대로 적용됩니다.",
+  "deepinside.locked.cta": "딥 인사이드 잠금 해제 — US$6.99",
+  "deepinside.locked.preview.title": "무엇이 담겨 있나요",
+
+  "deepinside.error.already_entitled": "이미 딥 인사이드가 잠금 해제되어 있어요.",
+  "deepinside.error.generic": "결제를 시작하는 중 문제가 발생했어요 — 다시 시도해주세요.",
+  "deepinside.error.monetization_disabled": "지금은 딥 인사이드를 이용할 수 없어요.",
+  "deepinside.error.back_to_results": "결과로 돌아가기",
+
+  "deepinside.processing.title": "결제가 완료됐어요",
+  "deepinside.processing.body": "딥 인사이드 접근 권한을 활성화하는 중이에요 — 보통 잠깐이면 끝나요.",
+  "deepinside.processing.retry": "다시 확인하기",
+  "deepinside.processing.still_waiting": "아직 활성화 중이에요 — 가끔 조금 더 걸릴 수 있어요. 다시 확인하거나 잠시 후 이 페이지로 돌아와 주세요.",
+  "deepinside.processing.view_report": "딥 인사이드 리포트 보기",
+
+  "deepinside.section.why_matches_fit": "상위 매치가 잘 맞는 이유",
+  "deepinside.section.why_matches_fit.intro": "상위 3개 매치를 더 자세히 살펴봐요 — 정확히 어떤 특성이 닮았고, 어디서 갈리는지.",
+  "deepinside.match.rank": "매치 #{rank}",
+  "deepinside.match.aligned": "닮은 지점",
+  "deepinside.match.differing": "다른 지점",
+
+  "deepinside.section.historical_circle": "나의 역사 인물 서클",
+  "deepinside.section.historical_circle.intro": "당신의 측정된 프로필과 닮은, 더 넓은 범위의 역사 속·동시대 인물들이에요.",
+
+  "deepinside.section.signature_combination": "나만의 특성 조합",
+  "deepinside.combination.body": "눈에 띄는 조합이에요: {traitA}({scoreA})와 {traitB}({scoreB})가 함께 높게 나타나요.",
+  "deepinside.tension.body":
+    "주목할 만한 긴장 지점이에요: {traitA}({scoreA})와 {traitB}({scoreB}) 둘 다 높은데, 이 둘은 서로 반대로 당기는 경향이 있어요.",
+
+  "deepinside.section.counterpart": "가장 대조적인 인물",
+  "deepinside.counterpart.differing": "가장 크게 다른 지점",
+  "deepinside.counterpart.shared": "그래도 닮은 지점",
+
+  "deepinside.section.strengths_tradeoffs": "강점과 트레이드오프",
 };

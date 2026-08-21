@@ -12,6 +12,7 @@ import { attributeName, renderComparison } from "@core/interpretation/rules";
 import type { TraitComparison } from "@core/types";
 import { NOINDEX_FOLLOW } from "@lib/seo";
 import { siteUrl } from "@lib/env";
+import { isMonetizationEnabled } from "@lib/stripe/env";
 import {
   Button,
   Card,
@@ -39,6 +40,7 @@ import {
 } from "@ui/index";
 import { SaveLastResult } from "./SaveLastResult";
 import { SignInCta } from "./SignInCta";
+import { DeepInsideTeaser } from "./DeepInsideTeaser";
 
 interface PageParams {
   locale: string;
@@ -268,6 +270,11 @@ export default async function ResultsPage({
         <div className="tgi-measure-stack">
           <SignInCta locale={locale} resultToken={r!} />
         </div>
+
+        {/* Monetization v1: restrained Deep Inside upsell — never gates
+            anything above or below it, same "renders alongside the full
+            result" rule SignInCta already follows. */}
+        <DeepInsideTeaser locale={locale} resultToken={r!} monetizationEnabled={isMonetizationEnabled()} />
 
         {/* ==================================== 3/4. unexpected + opposite */}
         {/* Phase 10D-3: `Card` here previously had no width constraint, so

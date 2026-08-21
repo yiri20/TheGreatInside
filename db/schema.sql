@@ -507,6 +507,22 @@ create table user_profiles (
       and interpretation_version is not null
       and person_data_version is not null
     )
+  ),
+  -- Monetization v1: the Deep Inside report snapshot for THIS saved
+  -- result. Embeds its own full VersionSnapshot inside the JSONB blob
+  -- (rather than reusing the columns above, which record a different
+  -- moment — quiz completion, not report generation) — see
+  -- src/core/monetization/deepInsideSnapshot.ts and
+  -- db/migrations/0005_monetization_v1.sql.
+  deep_report_snapshot jsonb,
+  deep_report_generated_at timestamptz,
+  constraint deep_report_snapshot_schema_check check (
+    deep_report_snapshot is null
+    or (
+      jsonb_typeof(deep_report_snapshot) = 'object'
+      and deep_report_snapshot ? 'schemaVersion'
+      and deep_report_snapshot ->> 'schemaVersion' = 'deep_inside_report_v1'
+    )
   )
 );
 create index user_profiles_user_idx on user_profiles(user_id);
@@ -633,6 +649,50 @@ create table analytics_events (
 );
 create index analytics_events_name_time_idx on analytics_events(name, created_at desc);
 
+-- ========================================================= monetization v1 ==
+-- Deep Inside: one product, one lifetime account-level entitlement. See
+-- db/migrations/0005_monetization_v1.sql for the full reasoning (in
+-- particular, the RLS security model shared by both tables below).
+create table user_entitlements (
+  id             uuid primary key default uuid_generate_v4(),
+  user_id        uuid not null references auth.users(id) on delete cascade,
+  entitlement_key text not null,
+  status         text not null default 'active' check (status in ('active', 'revoked')),
+  granted_at     timestamptz not null default now(),
+  revoked_at     timestamptz,
+  source         text not null,
+  purchase_id    uuid,
+  created_at     timestamptz not null default now(),
+  constraint user_entitlements_status_dates check (
+    (status = 'active' and revoked_at is null)
+    or (status = 'revoked' and revoked_at is not null)
+  )
+);
+create unique index user_entitlements_user_key_idx on user_entitlements(user_id, entitlement_key);
+
+create table purchases (
+  id                          uuid primary key default uuid_generate_v4(),
+  user_id                     uuid not null references auth.users(id) on delete cascade,
+  product_key                 text not null,
+  stripe_checkout_session_id  text not null,
+  stripe_payment_intent_id    text,
+  amount                      integer not null,
+  currency                    text not null,
+  status                      text not null default 'pending'
+                                 check (status in ('pending', 'completed', 'refunded')),
+  created_at                  timestamptz not null default now(),
+  completed_at                timestamptz,
+  refunded_at                 timestamptz
+);
+create unique index purchases_checkout_session_idx on purchases(stripe_checkout_session_id);
+create index purchases_user_idx on purchases(user_id);
+create index purchases_payment_intent_idx
+  on purchases(stripe_payment_intent_id) where stripe_payment_intent_id is not null;
+
+alter table user_entitlements
+  add constraint user_entitlements_purchase_fk
+  foreign key (purchase_id) references purchases(id) on delete set null;
+
 -- ========================================= row level security (Stage 9B) ==
 -- Every user_* table and saved_people, scoped to auth.uid(). A single
 -- `for all` policy per table: `using` gates which existing rows are
@@ -722,3 +782,32 @@ create policy saved_people_own on saved_people
   for all
   using (user_id = auth.uid())
   with check (user_id = auth.uid());
+
+-- Monetization v1: SELECT-own only for both tables — neither gets an
+-- insert/update/delete policy for anon/authenticated at all. The only
+-- writer is the Stripe webhook handler's secret-key client, which bypasses
+-- RLS entirely; see 0005_monetization_v1.sql for the full reasoning.
+alter table user_entitlements enable row level security;
+create policy user_entitlements_select_own on user_entitlements
+  for select
+  using (user_id = auth.uid());
+
+alter table purchases enable row level security;
+create policy purchases_select_own on purchases
+  for select
+  using (user_id = auth.uid());
+
+-- Previously unused and unprotected (a real, live gap this migration
+-- closes) — insert-only, allowlisted to the three client-observable
+-- funnel events. deep_report_purchase_completed is deliberately excluded:
+-- it may only ever be written by the webhook's secret-key client.
+alter table analytics_events enable row level security;
+create policy analytics_events_insert_allowlisted on analytics_events
+  for insert
+  with check (
+    name in (
+      'deep_report_result_viewed',
+      'deep_report_cta_clicked',
+      'deep_report_checkout_started'
+    )
+  );

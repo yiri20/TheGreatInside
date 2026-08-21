@@ -42,7 +42,7 @@ const CONTACT_EMAIL = "thegreatinside.web@gmail.com";
 export const PRIVACY_POLICY: Record<"en-US" | "ko-KR", LegalDocument> = {
   "en-US": {
     title: "Privacy Policy",
-    lastUpdated: "Last updated: August 14, 2026",
+    lastUpdated: "Last updated: August 21, 2026",
     intro: [
       `The Great Inside ("the site," "we," "us") is a small, independent project that lets you take a quiz and compare your answers to historical and contemporary people using a deterministic algorithm — no AI generates your results. This page explains, in plain language, what information the site actually collects, stores, and shares, based on how the product works today.`,
       `Questions about this policy, or a request about your data: ${CONTACT_EMAIL}`,
@@ -71,10 +71,18 @@ export const PRIVACY_POLICY: Record<"en-US" | "ko-KR", LegalDocument> = {
         ],
       },
       {
+        heading: "Deep Inside purchases",
+        paragraphs: [
+          `Deep Inside is an optional, one-time paid feature (US$6.99, no subscription, no recurring charge) that unlocks a deeper breakdown of your own result. If you purchase it, payment is handled entirely by Stripe, our payment processor — The Great Inside never sees or stores your card number, expiry date, CVC, or any other full payment card details.`,
+          "What we store, in our own database, is a minimal purchase record: an internal account identifier, Stripe's own checkout session and payment identifiers (not card data), the amount and currency charged, and the purchase status (e.g. completed, refunded) — kept for as long as your account exists, for entitlement (so Deep Inside stays unlocked when you sign back in, on any device) and support purposes (so we can look into a payment issue if you contact us). We also record, separately, a small number of anonymous usage counts (e.g. how many people viewed the Deep Inside upsell or started checkout) to understand whether the feature is useful — these do not include payment details and are not shared with advertisers.",
+          "Whether Deep Inside access is active on your account is decided by our server and database, never by anything stored only in your browser.",
+        ],
+      },
+      {
         heading: "Deleting your data",
         paragraphs: [
           "You can permanently delete every saved result associated with your account at any time from your Account page — a real, immediate deletion, not a temporary hide.",
-          `We do not currently offer a fully automated way to delete the underlying sign-in record itself (the identity record our authentication provider, Supabase, keeps to recognize you when you sign in). If you'd like that removed too, email ${CONTACT_EMAIL} and we'll process it manually. You can also revoke The Great Inside's access at any time from your Google Account's third-party access settings, which stops any future sign-in.`,
+          `We do not currently offer a fully automated way to delete the underlying sign-in record itself (the identity record our authentication provider, Supabase, keeps to recognize you when you sign in), or purchase/entitlement records kept for the reasons described above. If you'd like any of that removed too, email ${CONTACT_EMAIL} and we'll process it manually. You can also revoke The Great Inside's access at any time from your Google Account's third-party access settings, which stops any future sign-in.`,
         ],
       },
       {
@@ -88,7 +96,7 @@ export const PRIVACY_POLICY: Record<"en-US" | "ko-KR", LegalDocument> = {
       {
         heading: "Other services this site talks to",
         paragraphs: [
-          "Supabase hosts our database and handles sign-in. Vercel hosts the website itself. Google provides the optional sign-in.",
+          "Supabase hosts our database and handles sign-in. Vercel hosts the website itself. Google provides the optional sign-in. Stripe processes payment for the optional Deep Inside purchase — governed by Stripe's own privacy practices, which apply to the payment details you give Stripe directly.",
           "Wikimedia Commons: one profile portrait currently used on the site (Leonardo da Vinci's) is loaded directly from Wikimedia Commons when you view that page — your browser makes a direct request to Wikimedia for that image, governed by Wikimedia's own privacy practices.",
           "Links to Wikipedia and Wikidata pages appear on some profiles for reference. These only load if you click them.",
         ],
@@ -119,7 +127,7 @@ export const PRIVACY_POLICY: Record<"en-US" | "ko-KR", LegalDocument> = {
   },
   "ko-KR": {
     title: "개인정보처리방침",
-    lastUpdated: "최종 업데이트: 2026년 8월 14일",
+    lastUpdated: "최종 업데이트: 2026년 8월 21일",
     intro: [
       `The Great Inside("이 사이트", "저희")는 설문에 답하면 결정론적 알고리즘으로 여러분의 답변을 역사 속 인물 및 동시대 인물들과 비교해 주는 작은 독립 프로젝트입니다. 결과를 만드는 과정에는 AI가 사용되지 않습니다. 이 페이지는 현재 서비스가 실제로 어떤 정보를 수집·저장·공유하는지 쉬운 말로 설명합니다.`,
       `이 방침에 대한 문의나 개인정보 관련 요청: ${CONTACT_EMAIL}`,
@@ -148,10 +156,18 @@ export const PRIVACY_POLICY: Record<"en-US" | "ko-KR", LegalDocument> = {
         ],
       },
       {
+        heading: "딥 인사이드 구매",
+        paragraphs: [
+          "딥 인사이드는 선택 사항인 1회 결제 유료 기능입니다(US$6.99, 구독 아님, 반복 결제 없음) — 여러분 자신의 결과를 더 깊이 분석해 보여줍니다. 구매하실 경우 결제는 전적으로 저희 결제 대행업체인 Stripe가 처리하며, The Great Inside는 카드 번호, 유효기간, CVC 등 카드 결제 정보를 전혀 확인하거나 저장하지 않습니다.",
+          "저희 데이터베이스에 저장되는 것은 최소한의 구매 기록뿐입니다: 내부 계정 식별자, Stripe 자체의 결제 세션·결제 식별자(카드 정보 아님), 결제 금액과 통화, 구매 상태(완료·환불 등)로, 계정이 존재하는 동안 보관되며 이는 (다른 기기에서 로그인해도 딥 인사이드 잠금이 유지되도록 하는) 권한 관리 목적과 (결제 문의 시 확인할 수 있도록 하는) 고객 지원 목적을 위한 것입니다. 또한 별도로, 딥 인사이드 안내를 본 사람 수나 결제를 시작한 횟수 같은 소수의 익명 이용 통계도 기록합니다 — 여기에는 결제 정보가 포함되지 않으며 광고주와 공유되지 않습니다.",
+          "계정에 딥 인사이드 접근 권한이 활성화되어 있는지는 항상 저희 서버와 데이터베이스가 판단하며, 브라우저에만 저장된 정보로 결정되지 않습니다.",
+        ],
+      },
+      {
         heading: "내 정보 삭제하기",
         paragraphs: [
           "계정 페이지에서 언제든지 계정에 저장된 모든 결과를 영구적으로 삭제할 수 있습니다 — 일시적으로 숨기는 것이 아니라 실제로 즉시 삭제됩니다.",
-          `로그인 기록 자체(인증 제공업체인 Supabase가 로그인 시 여러분을 식별하기 위해 보관하는 식별 정보)를 삭제하는 완전 자동화된 방법은 아직 제공하지 않습니다. 이것까지 삭제를 원하시면 ${CONTACT_EMAIL}로 이메일을 보내주시면 수동으로 처리해 드립니다. 또한 Google 계정의 타사 앱 접근 권한 설정에서 언제든 The Great Inside의 접근 권한을 철회하여 이후 로그인을 막을 수 있습니다.`,
+          `로그인 기록 자체(인증 제공업체인 Supabase가 로그인 시 여러분을 식별하기 위해 보관하는 식별 정보)나 위에서 설명한 구매·권한 기록을 삭제하는 완전 자동화된 방법은 아직 제공하지 않습니다. 이것까지 삭제를 원하시면 ${CONTACT_EMAIL}로 이메일을 보내주시면 수동으로 처리해 드립니다. 또한 Google 계정의 타사 앱 접근 권한 설정에서 언제든 The Great Inside의 접근 권한을 철회하여 이후 로그인을 막을 수 있습니다.`,
         ],
       },
       {
@@ -165,7 +181,7 @@ export const PRIVACY_POLICY: Record<"en-US" | "ko-KR", LegalDocument> = {
       {
         heading: "이 사이트가 연동하는 다른 서비스",
         paragraphs: [
-          "Supabase는 데이터베이스와 로그인을 처리합니다. Vercel은 웹사이트 자체를 호스팅합니다. Google은 선택적 로그인을 제공합니다.",
+          "Supabase는 데이터베이스와 로그인을 처리합니다. Vercel은 웹사이트 자체를 호스팅합니다. Google은 선택적 로그인을 제공합니다. Stripe는 선택 사항인 딥 인사이드 구매의 결제를 처리합니다 — 여러분이 Stripe에 직접 제공하는 결제 정보에는 Stripe 자체의 개인정보 처리 방식이 적용됩니다.",
           "Wikimedia Commons: 현재 사이트에서 사용 중인 유일한 인물 사진(레오나르도 다빈치)은 해당 페이지를 볼 때 Wikimedia Commons에서 직접 불러옵니다 — 이때 브라우저가 그 이미지를 요청하기 위해 Wikimedia에 직접 접속하며, 이는 Wikimedia 자체의 개인정보 처리 방식을 따릅니다.",
           "일부 인물 프로필에는 참고용으로 위키백과·위키데이터 링크가 있습니다. 이 링크는 클릭했을 때만 로드됩니다.",
         ],
@@ -197,7 +213,7 @@ export const PRIVACY_POLICY: Record<"en-US" | "ko-KR", LegalDocument> = {
 export const TERMS_OF_SERVICE: Record<"en-US" | "ko-KR", LegalDocument> = {
   "en-US": {
     title: "Terms of Service",
-    lastUpdated: "Last updated: August 14, 2026",
+    lastUpdated: "Last updated: August 21, 2026",
     intro: [
       "By using The Great Inside, you agree to these terms. If you don't agree, please don't use the site.",
     ],
@@ -224,6 +240,14 @@ export const TERMS_OF_SERVICE: Record<"en-US" | "ko-KR", LegalDocument> = {
         heading: "Sharing results",
         paragraphs: [
           "Any result or comparison you generate can be viewed by anyone who has the link, whether or not you intentionally share it further. You're responsible for who you share your result links with.",
+        ],
+      },
+      {
+        heading: "Deep Inside (paid feature)",
+        paragraphs: [
+          `Deep Inside is an optional, one-time purchase (US$6.99 at time of writing) — not a subscription, and never a recurring charge. It grants your account a lifetime entitlement to Deep Inside's expanded, still fully deterministic breakdown of your results, restored automatically whenever you sign back in, on this result and any future one. Purchases are processed by Stripe; The Great Inside does not handle or store your card details.`,
+          `Access is decided by our server based on your account's recorded purchase, never by anything a browser alone can claim. If you believe a payment or your access is wrong, contact ${CONTACT_EMAIL} and we'll look into it — we don't commit to a specific refund policy here beyond that.`,
+          "Like the rest of the site (see \"Availability\" below), Deep Inside's specific sections and presentation may change over time; we aim to keep already-purchased access working, but can't guarantee every future addition to Deep Inside stays identical to what existed when you purchased it.",
         ],
       },
       {
@@ -276,7 +300,7 @@ export const TERMS_OF_SERVICE: Record<"en-US" | "ko-KR", LegalDocument> = {
   },
   "ko-KR": {
     title: "이용약관",
-    lastUpdated: "최종 업데이트: 2026년 8월 14일",
+    lastUpdated: "최종 업데이트: 2026년 8월 21일",
     intro: ["The Great Inside를 이용하시면 이 약관에 동의하는 것으로 간주됩니다. 동의하지 않으시면 사이트를 이용하지 말아 주세요."],
     sections: [
       {
@@ -301,6 +325,14 @@ export const TERMS_OF_SERVICE: Record<"en-US" | "ko-KR", LegalDocument> = {
         heading: "결과 공유",
         paragraphs: [
           "생성한 결과나 비교 링크는 의도적으로 공유했는지 여부와 관계없이 그 링크를 가진 사람이라면 누구나 볼 수 있습니다. 결과 링크를 누구와 공유할지는 이용자 본인의 책임입니다.",
+        ],
+      },
+      {
+        heading: "딥 인사이드(유료 기능)",
+        paragraphs: [
+          "딥 인사이드는 선택 사항인 1회 결제 상품입니다(작성 시점 기준 US$6.99) — 구독이 아니며 반복 결제가 발생하지 않습니다. 구매하시면 계정에 딥 인사이드의 확장된, 여전히 완전히 결정론적인 결과 분석에 대한 평생 이용 권한이 부여되며, 이 결과와 앞으로의 결과 모두에 대해 다시 로그인할 때마다 자동으로 복원됩니다. 결제는 Stripe가 처리하며, The Great Inside는 카드 정보를 다루거나 저장하지 않습니다.",
+          `이용 권한이 있는지는 계정에 기록된 구매 내역을 바탕으로 저희 서버가 판단하며, 브라우저만으로 주장할 수 있는 것이 아닙니다. 결제나 이용 권한에 문제가 있다고 생각되시면 ${CONTACT_EMAIL}로 문의해 주시면 확인해 드립니다 — 다만 이 조항이 특정 환불 정책을 약속하는 것은 아닙니다.`,
+          "사이트의 다른 부분과 마찬가지로(아래 '서비스 제공' 참고), 딥 인사이드의 구체적인 구성이나 표현 방식은 시간이 지나며 변경될 수 있습니다. 이미 구매한 이용 권한이 계속 작동하도록 노력하지만, 구매 당시와 딥 인사이드의 향후 모든 추가 내용이 동일하게 유지된다고 보장할 수는 없습니다.",
         ],
       },
       {
