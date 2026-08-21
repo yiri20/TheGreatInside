@@ -68,6 +68,15 @@ set explicitly for a custom domain to actually become the canonical
 origin — it is not purely a "recommended once you have a domain" nicety,
 it is the one step that makes the domain real to the app.
 
+**Follow-up, same session**: after the domain-migration commits were
+pushed and deployed, a re-check confirmed canonical/hreflang/OG/sitemap/
+robots all correctly resolve to `https://thegreatinside.com` in
+production. It's not confirmed from this repository whether that's
+because `NEXT_PUBLIC_SITE_URL` was set directly, or because
+`VERCEL_PROJECT_PRODUCTION_URL` began resolving to the custom domain on
+its own after some propagation time — either way, the practical
+resolution is now correct.
+
 ## 2. Vercel setup
 
 The app needs no `vercel.json` — it's a standard Next.js App Router
