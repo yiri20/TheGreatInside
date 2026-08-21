@@ -75,10 +75,11 @@ eligibility actually depend on.
 
 2. **Write the English prose** in `EDITORIAL_EN`
    (`src/core/i18n/editorial.ts`), keyed `{slug}.{achievement|moment|
-   turning_point}.{n}` (1-indexed per category). Follow the writing
-   standard in `CLAUDE.md`: concrete, specific, economical (2-3
-   sentences), no generic "this shows their determination"-style filler.
-   If you write an interpretation, key it
+   turning_point}.{n}` (1-indexed per category). Follow **"Editorial
+   Writing Standard v1" below** — concrete, specific, economical (2-3
+   sentences), no generic "this shows their determination"-style filler,
+   and the fact/interpretation/causality discipline that section spells
+   out in detail. If you write an interpretation, key it
    `{slug}.interpretation.{category}.{n}` and keep it in calibrated
    language.
 
@@ -138,6 +139,184 @@ eligibility actually depend on.
   calibration anchors, or eligibility to make a profile "more dramatic."
   Editorial content is presentation-only and must never influence
   similarity — same rule as every other metadata field on `Person`.
+
+## Editorial Writing Standard v1
+
+Formalized 2026-08 after a full item-by-item QA pass over the 10-person
+pilot (`feat/editorial-qa-pilot`) found the episode SELECTION was sound
+throughout, but roughly a third of the pilot's interpretation sentences,
+and two of its bare facts, blurred fact and interpretation or overstated
+causality. Every rule below traces to a real thing found and fixed in
+that pass, not a hypothetical concern. This standard governs the
+remaining 85-person backfill — read it before writing new content, and
+re-read it before reviewing someone else's.
+
+**The central risk is not fabricated dates. It is overinterpretation** —
+a documented event quietly becoming a confident personality-causal
+claim. Watch specifically for "his stubbornness caused…", "the same
+trait that produced X also caused Y…", "this proves she was…". These
+read as elegant, satisfying prose. That is exactly why they're risky:
+elegance is not evidence.
+
+### Historical fact (`textKey`)
+
+- Source-grounded, concrete, concise (2–3 sentences).
+- Must remain fully defensible **even if its interpretation were
+  deleted**. If a fact sentence only makes sense alongside its
+  interpretation, the interpretive clause has leaked into the fact —
+  move it out. (Found and fixed in the pilot: a da Vinci moment whose
+  fact text asserted "the same restlessness that fed his range also
+  left his output unfinished" with no `interpretationKey` at all — a
+  personality-causal claim presented as bare fact.)
+- State the SOURCE TYPE honestly when it matters to how much weight the
+  claim can bear. "Recorded in contemporary chronicles" and "recorded in
+  testimony given twenty-five years later at a rehabilitation trial" are
+  different claims — say which one it actually is. (Found and fixed: a
+  Joan of Arc moment mis-described 1455–56 Nullification Trial testimony
+  as "contemporary chronicles.")
+- When the underlying trait score's own rationale flags an episode as
+  lower-confidence or tradition-based rather than firmly documented, the
+  editorial fact should carry the same hedge — "Biographical accounts
+  describe…" — not silently upgrade to unqualified certainty. (Found and
+  fixed: a Frida Kahlo moment stated flatly what the person's own
+  attribute-score rationale had flagged as "more biographical tradition
+  than firmly documented.")
+
+### Interpretation (`interpretationKey`)
+
+- Explicitly interpretive, calibrated ("is consistent with", "helps
+  explain", "illustrates", "offers one example of", "sits alongside") —
+  never "proves", "shows he was", or any diagnostic phrasing.
+- No unsupported causality. Before writing "the same X that helped Y
+  also caused Z," check: is X actually evidenced in BOTH episodes, or is
+  this stitching two only-loosely-related life events into a
+  rhetorically neat story? A historian should be able to read the
+  sentence as one reasonable interpretation among others, not as an
+  established causal chain. When the underlying history is genuinely
+  contested or multi-causal (a military career and a later political
+  crackdown, say), say so explicitly rather than reducing it to one
+  trait. (Found and fixed: an Atatürk turning point whose FACT text
+  itself asserted his Gallipoli decisiveness "drove" a later political
+  crackdown — the single most serious violation found in the pilot,
+  rewritten to frame the connection explicitly as this profile's own
+  reading, alongside the other real historical factors, not as a proven
+  mechanism.)
+- Get the underlying subject-matter facts right before interpreting them.
+  A "kept him from engaging with X" framing is only fair if the person
+  in fact didn't engage with X — check this like any other factual claim.
+  (Found and fixed: an early draft implied Einstein was simply "kept
+  from" quantum mechanics by his own convictions, when he co-founded
+  quantum theory and his later objections, especially the 1935 EPR
+  paper, were themselves foundational to the field. Corrected to state
+  what's actually true: he never accepted its probabilistic account as
+  *complete*, which is a narrower and more accurate claim.)
+- Not every item needs one. A lower interpretation percentage is fine —
+  the pilot sits at 15/53 (28%), and several of the strongest items
+  (Marie Curie's radioactive notebooks, Pavlova's pet swan) carry no
+  interpretation at all because the fact speaks for itself.
+- Vary the opening construction. "This is consistent with the profile's…"
+  and "This helps explain the profile's…" are both legitimate, but using
+  only those two across every interpretation in a profile — or across
+  every profile — reads as template voice rather than a considered read
+  of this specific person. The pilot now spreads 15 interpretations
+  across 9 distinct openers, none repeated more than 3 times.
+
+### Anecdotes / moments
+
+- Must be character-revealing, not trivia. Test: if the interpretation
+  line were deleted, is the episode still interesting on its own? Every
+  pilot moment passed this test after QA — none needed to be cut, only
+  reframed.
+- Provenance-sensitive: a famous, oft-repeated anecdote is fine to use,
+  but state what kind of source it actually rests on (see "Historical
+  fact" above) rather than implying stronger contemporaneity than the
+  citation supports.
+
+### Turning points
+
+- Require a real shift — in trajectory, role, worldview, standing,
+  method, relationships, opportunity, or constraint. Not every dramatic
+  event qualifies. A thin candidate (Ada Lovelace's meeting with Babbage
+  at 17) was kept but tightened to make the actual "before → after"
+  shift explicit, rather than left as a vague origin note.
+
+### Strength / trade-off framing
+
+- No forced symmetry. "The same intensity that drove her performance
+  also showed up as jealousy" sounds good but often imports a general
+  characterization ("decades of excellence") to prop up one isolated
+  episode that doesn't, on its own, demonstrate the positive half of the
+  claim. Prefer letting the single episode stand on its own dual-edged
+  terms rather than reaching for an external claim to pair it with.
+  (Found and fixed: Anna Pavlova's stage-partner slap no longer claims
+  to be driven by "the same intensity" behind her career; it's now
+  interpreted as a moment where that intensity showed up as jealousy
+  *rather than* channeling into performance — asymmetric, and more
+  honest.)
+- Where a symmetric claim IS well-supported — both halves independently
+  evidenced from the same specific record, not stitched from distant
+  events — it's fine to keep (Joan of Arc's resistance-to-pressure
+  reading both her interrogation and her clothing charge, both drawn
+  from the same trial record, survived QA essentially unchanged).
+
+### Localization
+
+- Semantic parity, not literal translation: EN and KO must agree on the
+  historical claim, degree of certainty, causality, interpretation, and
+  chronology — they do not need sentence-for-sentence equivalence.
+  Every causality fix made during this QA pass was applied to BOTH
+  languages in the same edit, never English-only.
+- Natural Korean over transplanted English sentence shape — watch
+  specifically for em-dash-interrupted asides breaking a Korean
+  particle's attachment to its noun, which reads as translated rather
+  than composed. A consistent, deliberate choice to use "그" rather than
+  "그녀" for every pilot subject regardless of gender was reviewed and
+  kept — it's coherent throughout, matches a real, legitimate
+  contemporary Korean style option, and is not a translation artifact.
+
+### Deletion rule
+
+Weak or redundant content should be deleted, not padded to hit a quota.
+In practice, this pilot's QA pass found the episode selection itself was
+already sound in all 53 items — every fix was a rewrite (tightening a
+causal claim, correcting a provenance description, moving an
+interpretation to its correct anchor, diversifying an opening phrase),
+not a deletion. That is a real, checked outcome, not an assumption: if a
+future QA pass finds an item that fails the "still interesting without
+its interpretation" test, or a turning point with no real trajectory
+shift, remove it rather than keep it for the count.
+
+## Automated QA guardrails
+
+`src/core/people/editorialValidation.ts`'s `validateEditorial()` checks,
+in addition to the structural guards described above:
+
+- **Banned diagnostic language** (`findBannedLanguageIssues`) — a short,
+  deliberately narrow regex list ("this proves…", "was diagnosed with…",
+  "suffered from depression…", clinical/personality-disorder phrasing)
+  applied to every fact and interpretation string. This is NOT an
+  attempt to score prose quality or historical truth with keywords —
+  it's a tripwire for the one class of language CLAUDE.md's "Safety"
+  section already says must never appear anywhere in this product.
+- **Forced-symmetry-in-a-bare-fact** — flags a `"the same X that…
+  [caused/drove/produced/led to/enabled/prevented/kept … from/made …]"`
+  construction landing in an item's fact text when that item has NO
+  `interpretationKey`. This is the exact, specific bug class found twice
+  in the pilot (da Vinci, Atatürk) — a personality-causal claim smuggled
+  into what's presented as plain historical fact. It deliberately does
+  NOT fire on interpretation text, where the same phrase is a legitimate
+  (if worth using sparingly) interpretive device.
+
+**Deliberately NOT automated, and not attempted**: whether an
+interpretation is semantically well-matched to the episode it's attached
+to (the Ada Lovelace bug this QA pass found — an `interpretationKey`
+describing a different episode than the item it was attached to — was
+caught by a human reading every item closely, not by any tool); whether
+a causal claim is historically well-supported; whether prose reads as
+generic or template-voiced. These require actual judgment. Budget a full
+human read-through, item by item, before trusting a pilot or a backfill
+batch as a template — the tooling catches structural regressions, not
+editorial quality.
 
 ## Coverage today
 
