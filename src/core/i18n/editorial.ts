@@ -1011,7 +1011,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "rabindranath-tagore.moment.2":
     "He took up painting seriously only in his sixties, decades after his literary reputation was already internationally established, pursuing it purely from continued creative interest rather than any external need.",
   "rabindranath-tagore.turning_point.1":
-    "In 1919, Tagore publicly renounced the British knighthood he had been awarded, in protest of the Jallianwala Bagh massacre in Amritsar, where British colonial troops killed hundreds of unarmed civilians — a high-profile act of dissent against the same colonial establishment that had honored him, carrying real social and political risk within it.",
+    "In 1919, Tagore publicly renounced the British knighthood he had been awarded, in protest of the Jallianwala Bagh massacre in Amritsar — a high-profile act of dissent against the same colonial establishment that had honored him, carrying real social and political risk within it. In his own letter to the Viceroy explaining the decision, he wrote that he wished to \"stand, shorn of all special distinctions, by the side of my countrymen.\"",
   "rabindranath-tagore.interpretation.moment.2":
     "Beginning a new discipline from scratch well after mastery in another was already secure, and while there was nothing left to prove, is consistent with the profile's mastery_orientation score.",
   "rabindranath-tagore.interpretation.turning_point.1":
@@ -2007,7 +2007,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "rabindranath-tagore.moment.2":
     "그는 문학적 명성이 이미 국제적으로 확고히 자리 잡은 지 수십 년이 지난 예순 무렵에야 진지하게 그림을 시작했으며, 외부적 필요가 아니라 순전히 지속된 창작적 관심에서 비롯된 일이었다.",
   "rabindranath-tagore.turning_point.1":
-    "1919년 타고르는 영국 식민 군대가 수백 명의 비무장 민간인을 살해한 암리차르 잘리안왈라 바그 학살에 항의해 자신이 받은 영국 기사 작위를 공개적으로 반납했다 — 그를 그 작위로 서훈했던 바로 그 식민지 체제에 맞선 고위층 차원의 저항 행위였으며, 그 체제 안에서 실질적인 사회적·정치적 위험을 안고 있었다.",
+    "1919년 타고르는 암리차르에서 벌어진 잘리안왈라 바그 학살에 항의해 자신이 받은 영국 기사 작위를 공개적으로 반납했다 — 그를 그 작위로 서훈했던 바로 그 식민지 체제에 맞선 고위층 차원의 저항 행위였으며, 그 체제 안에서 실질적인 사회적·정치적 위험을 안고 있었다. 이 결정을 설명하며 총독에게 보낸 편지에서 그는 '모든 특별한 지위를 벗어던지고 동포들 곁에 서고자 한다'고 썼다.",
   "rabindranath-tagore.interpretation.moment.2":
     "이미 다른 분야에서 숙련이 확고히 자리 잡은 뒤에도, 더는 증명할 것이 남아 있지 않은 상태에서 처음부터 새로운 분야를 시작한 것은 프로필의 숙련 지향(mastery_orientation) 점수와 부합한다.",
   "rabindranath-tagore.interpretation.turning_point.1":
