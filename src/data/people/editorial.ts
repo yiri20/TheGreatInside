@@ -1698,23 +1698,33 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
 
   /**
-   * Batch 7 (2026-08, EXPOSURE-PRIORITY SELECTIVE BACKFILL): the first 8
-   * Tier-C entries selected NOT by roster-file order but by measured
-   * user-facing exposure (quiz-simulation #1/top-3 match frequency +
-   * Similar-People in-degree across the live 94-person eligible roster),
-   * per the product audit that found non-editorial profiles account for
-   * ~45% of #1-match outcomes. See docs/checkpoints/editorial.md. All 10
-   * remain Tier C (comment-only roster evidence) — content here draws on
-   * each person's own inline roster-file rationale plus, where a person is
-   * extremely well-documented, uncontested general knowledge consistent
-   * with their own cited `sources` (the explicit exception in
-   * docs/editorial-content.md's "What NOT to do"), never new research.
+   * Batch 7 (2026-08, EXPOSURE-PRIORITY SELECTIVE BACKFILL): 10 Tier-C
+   * entries selected NOT by roster-file order but by measured user-facing
+   * exposure (quiz-simulation #1/top-3 match frequency + Similar-People
+   * in-degree across the live 94-person eligible roster), per the product
+   * audit that found non-editorial profiles account for ~49% of #1-match
+   * outcomes. See docs/checkpoints/editorial.md.
+   *
+   * CLOSURE PASS (2026-08): the original batch leaned on a "uncontested
+   * general knowledge consistent with cited sources" provenance exception
+   * that was subsequently found too loose and revoked. Every item below
+   * was re-verified against ONLY this person's own roster-file `//`
+   * rationale comment (the sole repository-preserved evidence tier-C
+   * people have) — nothing else counts as evidence, including this
+   * person's own `sources` array, which is a citation for attribution,
+   * not a store of preserved content this pipeline is authorized to mine.
+   * Facts unsupported by that rationale were deleted outright (never
+   * replaced with other outside material); facts partially supported were
+   * narrowed to what the rationale actually says. See the per-person
+   * comments below for what was cut and why.
    */
   "alan-turing": {
-    achievements: [
-      { id: "alan-turing-achievement-1", textKey: "alan-turing.achievement.1", sourceIds: ["src_turing_wikipedia"] },
-      { id: "alan-turing-achievement-2", textKey: "alan-turing.achievement.2", sourceIds: ["src_turing_biography"] },
-    ],
+    // Batch-7-closure provenance pass (2026-08): both achievements removed —
+    // neither the 1936 "On Computable Numbers" claim nor the Bletchley Bombe
+    // design claim traces to this person's own roster-file rationale, which
+    // covers only the 1941 Churchill letter below. Left achievement-empty
+    // rather than backed by outside knowledge; see docs/checkpoints/editorial.md.
+    achievements: [],
     moments: [
       {
         id: "alan-turing-moment-1",
@@ -1752,9 +1762,12 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
 
   "rosalind-franklin": {
-    achievements: [
-      { id: "rosalind-franklin-achievement-1", textKey: "rosalind-franklin.achievement.1", sourceIds: ["src_rfranklin_biography"] },
-    ],
+    // Batch-7-closure provenance pass (2026-08): the Photograph-51/DNA
+    // achievement and the Watson-Crick credit-dispute turning point both
+    // removed — neither appears anywhere in this person's own roster-file
+    // rationale, which covers only the Paris relocation below. Left with
+    // that one item rather than backed by outside knowledge.
+    achievements: [],
     moments: [
       {
         id: "rosalind-franklin-moment-1",
@@ -1764,9 +1777,7 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_rfranklin_biography"],
       },
     ],
-    turningPoints: [
-      { id: "rosalind-franklin-turning-point-1", textKey: "rosalind-franklin.turning_point.1", sourceIds: ["src_rfranklin_biography", "src_rfranklin_wikipedia"] },
-    ],
+    turningPoints: [],
   },
 
   "jane-goodall": {
@@ -1830,7 +1841,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_ramanujan_wikipedia"],
       },
-      { id: "srinivasa-ramanujan-moment-2", textKey: "srinivasa-ramanujan.moment.2", sourceIds: ["src_ramanujan_wikipedia"] },
+      // Batch-7-closure provenance pass (2026-08): moment-2 (the taxicab-1729
+      // anecdote) removed — it does not appear in this person's own
+      // roster-file rationale, which covers only the Hardy letter above.
     ],
     turningPoints: [],
   },
@@ -1876,9 +1889,10 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
 
   "wolfgang-amadeus-mozart": {
-    achievements: [
-      { id: "wolfgang-amadeus-mozart-achievement-1", textKey: "wolfgang-amadeus-mozart.achievement.1", sourceIds: ["src_mozart_wikipedia"] },
-    ],
+    // Batch-7-closure provenance pass (2026-08): the child-prodigy-touring
+    // achievement removed — it does not appear anywhere in this person's own
+    // roster-file rationale, which covers only the 1781 Salzburg break below.
+    achievements: [],
     moments: [],
     turningPoints: [
       {

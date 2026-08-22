@@ -20,11 +20,30 @@ file's numbers are a snapshot as of the end of
 | C (inline `//` roster-file comments only) | 35 | 16 | 19 |
 | **Total** | **95** | **76** | **19** |
 
-388 total items (172 achievements, 143 moments, 73 turning points), 136
-with an interpretation, 524 distinct EN editorial keys (100% Korean
+382 total items (168 achievements, 142 moments, 72 turning points), 136
+with an interpretation, 518 distinct EN editorial keys (100% Korean
 coverage maintained). Run
 `corepack pnpm@10 exec tsx src/dev/editorialCoverageAudit.ts` for the
 live number.
+
+**Batch 7 provenance closure (2026-08, same day as Batch 7 itself):** a
+follow-up review found Batch 7 had leaned on an "uncontested general
+knowledge consistent with cited sources" exception that was too loose —
+several items stated specifics (dates, named actors/places, outcomes)
+that were not actually in the person's own roster-file rationale, the
+only repository-preserved evidence Tier-C people have. Every one of the
+29 Batch 7 items was re-verified directly against that rationale text
+(via `grep`, not memory): 6 items with no supporting rationale at all
+were deleted outright (Turing's two achievements, R. Franklin's
+achievement and turning point, Ramanujan's taxicab-1729 moment,
+Mozart's child-prodigy achievement); the remaining items were narrowed
+to drop invented specifics while keeping what the rationale actually
+supports (e.g. Turing's Churchill-letter quote corrected to match the
+rationale's own "action this day" wording; B. Franklin's "Cockpit
+hearing" claim kept because it's directly named, "Privy Council"/
+"Hutchinson letters" dropped because neither is). Item counts above are
+post-closure. No Batch 7 claim now relies on outside knowledge alone —
+every fact traces to this repository's own preserved rationale text.
 
 ## Status: Tier C is exposure-priority selective, not roster-order
 
