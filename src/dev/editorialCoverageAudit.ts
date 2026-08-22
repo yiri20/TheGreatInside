@@ -275,7 +275,18 @@ console.log(`    achievements:    ${itemStats.achievementCount}`);
 console.log(`    moments:         ${itemStats.momentCount}`);
 console.log(`    turning points:  ${itemStats.turningPointCount}`);
 console.log(`  Items with interpretation: ${itemStats.itemsWithInterpretation}`);
+console.log(`  EN editorial keys (distinct textKey+interpretationKey): ${itemStats.enKeyCount}`);
+console.log(`  KO editorial keys (of those, translated): ${itemStats.koKeyCount}`);
 console.log(`  Korean coverage: ${(itemStats.koreanCoverage * 100).toFixed(1)}%`);
+if (itemStats.achievementCount + itemStats.momentCount + itemStats.turningPointCount !== itemStats.totalItems) {
+  throw new Error("achievement+moment+turningPoint counts do not sum to totalItems — audit logic error.");
+}
+if (itemStats.itemsWithInterpretation > itemStats.totalItems) {
+  throw new Error("itemsWithInterpretation exceeds totalItems — audit logic error.");
+}
+if (itemStats.koKeyCount > itemStats.enKeyCount) {
+  throw new Error("koKeyCount exceeds enKeyCount — audit logic error.");
+}
 if (itemStats.peopleWithEditorial !== totalComplete) {
   throw new Error(
     `Mismatch: editorialCoverageStats reports ${itemStats.peopleWithEditorial} people with editorial content, ` +

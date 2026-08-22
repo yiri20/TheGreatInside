@@ -189,6 +189,10 @@ export interface EditorialCoverageStats {
   itemsWithInterpretation: number;
   /** Share of authored English item text keys that also have a Korean entry. */
   koreanCoverage: number;
+  /** Distinct EN keys actually referenced (textKey + interpretationKey) across all editorial items. */
+  enKeyCount: number;
+  /** Of those, how many also resolve in EDITORIAL_KO. */
+  koKeyCount: number;
 }
 
 /** Aggregate coverage stats — used by the audit report and by tests. */
@@ -216,7 +220,9 @@ export function editorialCoverageStats(people: readonly Person[]): EditorialCove
     }
   }
 
+  const distinctKeys = new Set(allKeys);
   const withKorean = allKeys.filter((k) => EDITORIAL_KO[k] !== undefined).length;
+  const distinctWithKorean = [...distinctKeys].filter((k) => EDITORIAL_KO[k] !== undefined).length;
 
   return {
     totalPeople: people.length,
@@ -227,5 +233,7 @@ export function editorialCoverageStats(people: readonly Person[]): EditorialCove
     turningPointCount,
     itemsWithInterpretation,
     koreanCoverage: allKeys.length === 0 ? 1 : withKorean / allKeys.length,
+    enKeyCount: distinctKeys.size,
+    koKeyCount: distinctWithKorean,
   };
 }
