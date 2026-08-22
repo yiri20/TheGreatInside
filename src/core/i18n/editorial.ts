@@ -338,6 +338,208 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This offers a clear instance of the profile's autonomy_need score: building the institutional position that wasn't being offered to her, rather than continuing to seek an existing one.",
   "elizabeth-blackwell.interpretation.turning_point.1":
     "This fits the profile's adaptability score: redirecting toward a different form of medical practice after a career-ending setback in the one she had originally pursued, rather than leaving the field.",
+
+  /* -------------------------------------------------- Batch 2: Darwin */
+  "charles-darwin.achievement.1":
+    "Darwin spent roughly twenty years gathering evidence — across selective breeding, the geographic distribution of species, and the fossil record — before publishing On the Origin of Species in 1859, building his case as an accumulation of independent lines of evidence rather than a single argument. He went on revising the book across six editions, incorporating direct responses to specific critics such as the naturalist St. George Mivart.",
+  "charles-darwin.achievement.2":
+    "Between 1846 and 1854, he produced an eight-year, multi-volume monograph cataloguing every known species of barnacle — an unglamorous, narrow subject he nonetheless saw through to exhaustive completion before returning to the theoretical work that became Origin.",
+  "charles-darwin.achievement.3":
+    "His published work spanned geology (a theory of coral reef formation), zoology (the barnacle monograph), botany (studies of orchid pollination and climbing plants), and psychology (The Expression of the Emotions in Man and Animals) — each a completed, serious body of work rather than a passing interest.",
+  "charles-darwin.moment.1":
+    "At the widely publicized 1860 Oxford debate over his theory, Darwin did not attend or speak in his own defense, leaving Thomas Huxley to argue publicly on his behalf.",
+  "charles-darwin.moment.2":
+    "Working from home at Down House rather than any institutional laboratory, he tested his ideas about seed dispersal by soaking seeds in seawater for weeks to see which still germinated, and ran controlled pollination experiments on orchids using ordinary garden equipment.",
+  "charles-darwin.moment.3":
+    "When the naturalist Alfred Russel Wallace independently arrived at a strikingly similar theory in 1858, Darwin's colleagues arranged a joint presentation to the Linnean Society crediting both men, rather than Darwin moving to assert sole priority over the idea.",
+  "charles-darwin.turning_point.1":
+    "Darwin held his theory of natural selection privately for roughly two decades, by his own account out of anxiety over its reception — in one letter comparing the prospect of publishing to 'confessing a murder.' He only moved to publish in 1858, after Wallace's letter describing an equivalent theory arrived and made further delay untenable.",
+  "charles-darwin.interpretation.moment.1":
+    "Set beside the broader pattern his correspondence and biographers describe — routing confrontation over the theory through allies rather than engaging it directly — this reads as one instance of a general operating mode, not an isolated act of nerves.",
+  "charles-darwin.interpretation.turning_point.1":
+    "The profile's low risk-tolerance score is one plausible reading of that two-decade wait; professional caution or sheer thoroughness would explain some of the same delay, but Darwin's own description of the decision makes a temperamental reading hard to set aside entirely.",
+
+  /* --------------------------------------------- Batch 2: Douglass */
+  "frederick-douglass.achievement.1":
+    "As an enslaved child, Douglass taught himself to read by trading bread for reading lessons from poor white children in his neighborhood and by studying discarded newspapers he came across — in direct defiance of laws that made teaching an enslaved person to read illegal. He later practiced writing by copying letters from timber markings at a shipyard and from a boy's used copybooks.",
+  "frederick-douglass.achievement.2":
+    "His 1845 autobiography, Narrative of the Life of Frederick Douglass, an American Slave, was an immediate bestseller, and he went on to become one of the most sought-after public speakers of his era on both sides of the Atlantic — a sustained, decades-long rhetorical career, not a single celebrated speech.",
+  "frederick-douglass.achievement.3":
+    "He founded and edited the abolitionist newspaper The North Star, and later held two federal appointments — Recorder of Deeds for the District of Columbia and Minister Resident to Haiti — sustained institutional leadership across markedly different roles.",
+  "frederick-douglass.moment.1":
+    "Douglass met directly with President Lincoln on two documented occasions to advocate for equal pay and equal treatment for Black Union soldiers, having already recruited soldiers for the Union Army himself, including his own sons.",
+  "frederick-douglass.moment.2":
+    "His 1838 escape from slavery was carefully prepared rather than impulsive: he secured a borrowed sailor's protection papers in advance and timed the journey around a specific train and boat schedule, carrying legal and physical risks that were severe and well understood if he were recaptured.",
+  "frederick-douglass.turning_point.1":
+    "Hired out to a man named Edward Covey, known locally for 'breaking' enslaved people who resisted, Douglass eventually made a deliberate decision to physically resist a beating rather than submit, and prevailed in the ensuing confrontation. He described this moment, across all three of his autobiographies, as the point after which he ceased to feel himself a slave in spirit, even though years of actual enslavement remained ahead of him.",
+  "frederick-douglass.turning_point.2":
+    "Douglass originally held William Lloyd Garrison's position that the U.S. Constitution was inherently a pro-slavery document. Influenced by the legal arguments of Lysander Spooner, he later publicly reversed this view, arguing the Constitution could be read as an anti-slavery text and used as a political tool — a reasoned position change that cost him his long alliance with Garrison's faction.",
+  "frederick-douglass.interpretation.moment.1":
+    "Read against the profile's proactive_agency score, this is the same pattern in a different arena: rather than waiting to see how Black soldiers' treatment would be decided, he sought out the country's most powerful office directly.",
+  "frederick-douglass.interpretation.turning_point.1":
+    "The profile's high autonomy_need score sits close to this account: Douglass frames the change not as a shift in legal status, which did not change that day, but as a shift in his own sense of who actually controlled him.",
+  "frederick-douglass.interpretation.turning_point.2":
+    "This is an unusually checkable case for the profile's belief_updating score: the position change is dated, reasoned, and openly acknowledged at the time, rather than something read back into his life from a later retelling.",
+
+  /* -------------------------------------------------- Batch 2: Ibn Sina */
+  "ibn-sina.achievement.1":
+    "His Canon of Medicine organized then-known medical knowledge — diseases, their causes, and their treatments — into a single, structured taxonomy rather than a loose compilation of case notes, and the resulting text was used as a standard medical reference in both the Islamic world and Europe for several centuries.",
+  "ibn-sina.achievement.2":
+    "Alongside medicine, he produced a separate philosophical encyclopedia, Kitab al-Shifa (The Book of Healing), covering logic, physics, mathematics, and metaphysics in its own deliberate book-and-section structure — a second, independently organized body of work rather than a byproduct of his medical writing.",
+  "ibn-sina.achievement.3":
+    "A surviving bibliography attributes him with more than 240 works across medicine, philosophy, logic, astronomy, and poetry — sustained written output he produced alongside a separate, demanding career as a court physician and, later, as vizier to a ruling court.",
+  "ibn-sina.moment.1":
+    "By his own account, he successfully treated the Samanid ruler Nuh ibn Mansur as a young physician still in his teens, and used the resulting favor specifically to gain access to the ruler's extensive royal library — a named, dated episode rather than a general claim about early ambition.",
+  "ibn-sina.moment.2":
+    "Historical accounts describe him escaping a period of imprisonment in disguise during one of the political upheavals of his career — a single vivid episode, not part of a broader documented pattern of similar escapes.",
+  "ibn-sina.moment.3":
+    "For an extended period, he worked closely with his student and secretary al-Juzjani, who assisted with his later writing and personally preserved the autobiography Ibn Sina dictated — nearly everything known about his early life comes down to us through this one working relationship.",
+  "ibn-sina.turning_point.1":
+    "By his own account, he reread Aristotle's Metaphysics roughly forty times as a young man without fully grasping it, until a short commentary by al-Farabi, encountered almost by chance, gave him the key to understanding it. Only after that breakthrough did he move on to writing his own original philosophical work, rather than remaining stalled on someone else's text.",
+  "ibn-sina.interpretation.moment.1":
+    "The sequence is the interesting part for the profile's opportunity_sensing score: the medical success came first, and by his own account the library access was something he deliberately pursued using the goodwill it created, not a passive perk that simply followed from being a talented young physician.",
+  "ibn-sina.interpretation.turning_point.1":
+    "Worth reading as more than a simple persistence anecdote: forty readings show real staying power, but what actually broke the impasse was someone else's short commentary, not further repetition of his own approach — a reminder that a high persistence score describes effort sustained, not necessarily the method that finally works.",
+
+  /* -------------------------------------------- Batch 2: MLK */
+  "martin-luther-king-jr.achievement.1":
+    "King led the 1955-56 Montgomery Bus Boycott, co-founded and led the Southern Christian Leadership Conference, and organized the Birmingham and Selma campaigns — sustained institutional civil-rights leadership across more than a decade, not a single high-profile moment.",
+  "martin-luther-king-jr.achievement.2":
+    "His speeches, most prominently the 1963 'I Have a Dream' address at the March on Washington, are among the most extensively documented and studied rhetorical performances of the 20th century, part of a public oratory career sustained across thirteen years.",
+  "martin-luther-king-jr.achievement.3":
+    "His campaigns were organized around securing specific, concrete legislative outcomes — publicly framed at the time around the Civil Rights Act of 1964 and the Voting Rights Act of 1965 — rather than protest for its own sake, and both pieces of legislation passed within that campaign period.",
+  "martin-luther-king-jr.moment.1":
+    "The 1963 Birmingham campaign, internally documented by organizers as 'Project C' for confrontation, was staged as a deliberately escalating sequence of actions, and the city was chosen specifically because its police response to protest was expected to be severe and visible enough to draw national media attention.",
+  "martin-luther-king-jr.moment.2":
+    "Written during his 1963 Birmingham jailing, 'Letter from Birmingham Jail' directly and systematically rebuts specific published criticisms from a group of fellow clergy point by point, addressing their argument that his campaign's timing was premature — a structured written rebuttal, not only a rhetorical appeal.",
+  "martin-luther-king-jr.moment.3":
+    "Before building the strategic framework he used in the American civil rights movement, he pursued formal theological doctoral study and specifically studied Gandhian nonviolent method in depth, adapting it rather than simply invoking it.",
+  "martin-luther-king-jr.turning_point.1":
+    "In his final years, King broadened his public focus from segregation specifically to economic justice — organizing the Poor People's Campaign — and, in his 1967 Riverside Church address, to public opposition to the Vietnam War. Both moves drew significant criticism, including from some longtime allies who saw them as a costly dilution of the civil rights message.",
+  "martin-luther-king-jr.interpretation.moment.1":
+    "The choice reads less like tolerating a conflict that happened to arise and more like locating, in advance, exactly where a confrontation would do the most strategic work — a pattern the profile's opportunity_sensing score also picks up on.",
+  "martin-luther-king-jr.interpretation.moment.3":
+    "Studying and adapting an existing method, rather than applying raw talent, is closer to what the profile's mastery_orientation score is picking up here: the approach he became known for was deliberately developed, not simply improvised.",
+  "martin-luther-king-jr.interpretation.turning_point.1":
+    "The profile's belief_updating score is easy to test against this specific record: this was a costly, publicly criticized expansion of position rather than a comfortable pivot, which is exactly the kind of evidence that should carry more weight than a change made under no real pressure at all.",
+
+  /* -------------------------------------------- Batch 2: Rachel Carson */
+  "rachel-carson.achievement.1":
+    "Silent Spring (1962) synthesized and cross-checked a large body of existing scientific research on pesticide effects into a single, rigorously sourced argument, backed by more than fifty pages of source notes — a book built to hold up under scrutiny, not only to persuade.",
+  "rachel-carson.achievement.2":
+    "The book is widely credited with catalyzing the modern environmental movement and with directly influencing U.S. pesticide policy, including the eventual domestic ban on DDT — a documented, traceable policy impact, not only a broad cultural one.",
+  "rachel-carson.achievement.3":
+    "Her career spanned marine-biology research, government science writing at the U.S. Bureau of Fisheries, and popular science writing — The Sea Around Us and Silent Spring among them — sustained, serious output in each rather than a single late-career turn toward advocacy.",
+  "rachel-carson.moment.1":
+    "After Silent Spring's publication, she continued to publicly defend its findings, including testimony before a U.S. Senate subcommittee, sustaining that defense through a well-funded industry campaign against her personally and professionally, up until her death not long after the book appeared.",
+  "rachel-carson.moment.2":
+    "She carried out the final stages of the Silent Spring project, and its public defense afterward, while privately managing a diagnosis of terminal cancer that she chose not to disclose publicly at the time.",
+  "rachel-carson.moment.3":
+    "Once her book royalties made it possible, she left her stable government position at the Bureau of Fisheries to write independently full-time — a documented, deliberate exit from institutional security rather than a continuation of it.",
+  "rachel-carson.turning_point.1":
+    "Carson published Silent Spring anticipating, correctly, that it would provoke a direct and sustained attack from the chemical industry on both her science and her personal credibility. Rather than retracting or softening her position under that pressure, she continued publicly defending the book's findings for the rest of her life.",
+  "rachel-carson.interpretation.moment.2":
+    "The profile's risk_tolerance score is worth reading alongside the fuller context here: this was sustained public exposure to a professional attack campaign, carried out while she was also managing a serious personal medical circumstance she chose not to disclose — two separate kinds of strain held at once, not one explaining the other.",
+  "rachel-carson.interpretation.turning_point.1":
+    "This is about as clean a test of the profile's high conflict_tolerance score as the record offers: she chose to publish already knowing what would follow, which is a stronger claim than simply refusing to back down once criticism arrived unexpectedly.",
+
+  /* -------------------------------------------- Batch 2: Hildegard of Bingen */
+  "hildegard-of-bingen.achievement.1":
+    "Hildegard authored Physica and Causae et Curae, systematic surviving texts cataloguing plants, animals, and minerals alongside their medicinal uses, with descriptions of human anatomy and reproduction that modern medieval scholars note as unusually direct and detailed for a 12th-century monastic author.",
+  "hildegard-of-bingen.achievement.2":
+    "She composed Ordo Virtutum, an original liturgical musical drama unusual in form for its era, and wrote Scivias, a visionary theological work organizing reported religious experience into a structured account of cosmology, salvation history, and ethics — both survive as her own direct output, not works attributed to her secondhand.",
+  "hildegard-of-bingen.achievement.3":
+    "She founded and led two monastic communities over her life, Rupertsberg and later Eibingen — sustained institutional leadership documented in the monastic records of the period.",
+  "hildegard-of-bingen.moment.1":
+    "Surviving letters show her sending unsolicited moral admonishment directly to Pope Eugenius III and to Emperor Frederick Barbarossa — she had also received a rare Church-sanctioned exception permitting her to preach publicly as a woman in the 12th century.",
+  "hildegard-of-bingen.moment.2":
+    "Founding the independent Rupertsberg monastery required first relocating her existing community, a move her own abbot initially resisted — a documented dispute she ultimately won, achieving the relocation against his resistance rather than deferring to it.",
+  "hildegard-of-bingen.moment.3":
+    "Her surviving musical compositions are noted by musicologists for an unusually wide vocal range and a distinctive melodic style for the period, evidence of a deliberate aesthetic approach rather than formulaic liturgical composition.",
+  "hildegard-of-bingen.turning_point.1":
+    "Late in her life, Hildegard's monastery was placed under a severe ecclesiastical penalty, an interdict, after she refused a church authority's demand to exhume and remove the body of a man buried in the community's cemetery whom the authority considered excommunicated. She refused to comply and directly petitioned church officials until the interdict — which barred her community from performing the liturgy and music central to its life — was lifted only shortly before her death.",
+  "hildegard-of-bingen.interpretation.moment.1":
+    "What matches the profile's independent_thinking score here is something more specific than general confidence: these were letters she initiated herself, addressed unprompted to the two most powerful offices of her world, not responses solicited from her.",
+  "hildegard-of-bingen.interpretation.moment.2":
+    "This sits well with the profile's autonomy_need score: the obstacle here was not a distant political power but her own monastic superior, which arguably makes the outcome a more direct test of the trait than the letters to popes and emperors.",
+  "hildegard-of-bingen.interpretation.turning_point.1":
+    "Both the profile's conflict_tolerance and risk_tolerance scores are live in this one episode, and worth separating: staying in the dispute rather than backing down is one thing, and accepting the real institutional exposure of defying an active interdict is a related but distinct one.",
+
+  /* -------------------------------------------- Batch 2: Florence Nightingale */
+  "florence-nightingale.achievement.1":
+    "During the Crimean War, Nightingale developed the polar-area diagram — now known as the 'coxcomb' chart — to statistically demonstrate that poor sanitation, not combat wounds, was the leading cause of soldiers' deaths, a specific and methodologically original piece of statistical analysis rather than a general observation.",
+  "florence-nightingale.achievement.2":
+    "In 1860 she founded the Nightingale Training School for Nurses and went on to lead sustained institutional reform of British military and civilian healthcare over several decades.",
+  "florence-nightingale.achievement.3":
+    "Her statistical presentations directly persuaded British military and government officials to act, prompting a Royal Commission and a series of sanitary reforms that followed from her reports.",
+  "florence-nightingale.moment.1":
+    "In 1854, rather than waiting to be officially deployed, she organized her own party of nurses and traveled with them to the Crimean War front to manage field hospital conditions directly, at real personal risk from disease in the war zone.",
+  "florence-nightingale.moment.2":
+    "She rejected her family's expectation of a conventional upper-class marriage in order to pursue nursing, a profession considered disreputable for a woman of her social class at the time.",
+  "florence-nightingale.turning_point.1":
+    "After the Crimean War, Nightingale's health declined into a chronic illness that left her largely confined to her bed for most of the remaining five decades of her life. Rather than stepping back from reform work, she continued it entirely through statistical writing and correspondence — moving from British Army medical reform to public health in India — conducted almost entirely from her sickroom.",
+  "florence-nightingale.interpretation.moment.1":
+    "This is the profile's proactive_agency score in a fairly literal form: the party of nurses existed because she assembled it herself, not because a role was created and offered to her.",
+  "florence-nightingale.interpretation.moment.2":
+    "The profile's independent_thinking score isn't just about privately holding an unconventional view here — she gave up a specific, expected path in order to act on it, which is a stronger form of the same evidence.",
+  "florence-nightingale.interpretation.turning_point.1":
+    "The profile's high persistence score has to account for a real change in method here, not just continued effort: the work carried on, but the physically active field nurse of 1854 and the correspondence-driven reformer of the decades after were operating under very different constraints.",
+
+  /* -------------------------------------------- Batch 2: Umm Kulthum */
+  "umm-kulthum.achievement.1":
+    "For decades, Umm Kulthum maintained a monthly performance tradition — a live radio concert broadcast on the first Thursday of each month — sustained consistently enough that much of Egypt and the wider Arab world organized parts of their evening around it.",
+  "umm-kulthum.achievement.2":
+    "Her performances are documented by musicologists as a mastery of tarab, the classical Arabic vocal-ornamentation tradition, analyzed across decades of surviving recordings rather than judged from a single celebrated performance.",
+  "umm-kulthum.achievement.3":
+    "She sustained a decades-long creative partnership with leading composers of her era, notably Riad Al Sunbati, and exercised an unusual degree of creative control over her own orchestra and repertoire selection for a performer of her time.",
+  "umm-kulthum.moment.1":
+    "As a child, she trained rigorously in vocal performance and was, per multiple biographical accounts, initially disguised as a boy so she could perform religious recitations in public — training that continued and deepened across a performing career that eventually spanned roughly fifty years.",
+  "umm-kulthum.moment.2":
+    "In performance, she would repeat a single line of a song many times in succession, varying the vocal ornamentation each time, extending it until she judged the emotional effect on the audience had landed — a documented, deliberate technique, not an occasional flourish.",
+  "umm-kulthum.turning_point.1":
+    "Following Egypt's defeat in the 1967 Arab-Israeli war, Umm Kulthum organized extensive fundraising concert tours on her own initiative, rather than in response to a government request, using her public standing to mobilize concrete financial support for the country.",
+  "umm-kulthum.interpretation.moment.2":
+    "This is closer to the profile's experimentation score than to simple repetition: each pass through the line was a variation being tested against the audience's response, not the same phrase repeated for effect.",
+  "umm-kulthum.interpretation.turning_point.1":
+    "The profile's impact_motivation score is worth reading against the specific timing here: this was a self-initiated expansion of her public role into a national one, arriving at a moment of genuine national crisis rather than as a routine extension of an existing charitable pattern.",
+
+  /* -------------------------------------------- Batch 2: Sor Juana */
+  "sor-juana-ines-de-la-cruz.achievement.1":
+    "By her own account she taught herself to read as a small child, learned Latin in a small number of lessons, and went on to assemble one of the largest private libraries in colonial Spanish America — roughly 4,000 volumes.",
+  "sor-juana-ines-de-la-cruz.achievement.2":
+    "She produced a substantial body of poetry and theatrical drama that literary scholarship regards as among the most original writing of the Spanish Golden Age.",
+  "sor-juana-ines-de-la-cruz.achievement.3":
+    "In La Respuesta a Sor Filotea de la Cruz, written directly to a bishop who had publicly criticized her, she built a systematic, point-by-point theological and philosophical argument defending women's right to intellectual life as a general principle, not only a defense of her own individual case.",
+  "sor-juana-ines-de-la-cruz.moment.1":
+    "As a teenager, she was examined by a panel of scholars at the viceregal court and, by contemporary and later accounts, impressed them with the range of her knowledge — a specific, documented instance of direct public intellectual engagement before she entered convent life.",
+  "sor-juana-ines-de-la-cruz.moment.2":
+    "She entered convent life as a deliberate, strategic choice rather than a purely religious calling: by her own documented account, it secured the time and personal autonomy for sustained study that marriage would not have allowed a woman in her era.",
+  "sor-juana-ines-de-la-cruz.turning_point.1":
+    "Late in her life, after years of sustained disagreement with Church authorities over her intellectual pursuits, Sor Juana was pressured into giving up both her library and her writing. The scholarly and literary output that had continued for decades effectively ended there, not long before her death.",
+  "sor-juana-ines-de-la-cruz.interpretation.moment.1":
+    "This episode is worth separating from her later, more solitary convent scholarship: it shows the same intellectual range on direct public display, in a setting she did not control, rather than developed privately on her own terms.",
+  "sor-juana-ines-de-la-cruz.interpretation.moment.2":
+    "This reads less as resignation to circumstance and more as the profile's resourcefulness score in a specific, well-documented form: locating an unconventional route to a goal — sustained scholarly life — that had no direct path open to her.",
+  "sor-juana-ines-de-la-cruz.interpretation.turning_point.1":
+    "Worth stating plainly rather than smoothing over: the profile's high persistence and conflict_tolerance scores describe how long she sustained her position, not that she prevailed in the end — the record includes a real defeat, not only a long resistance.",
+
+  /* -------------------------------------------- Batch 2: Emmy Noether */
+  "emmy-noether.achievement.1":
+    "Noether's theorem, proved in 1915, established that every differentiable symmetry of a physical system corresponds to a conservation law — a foundational result still in standard use across theoretical physics and mathematics.",
+  "emmy-noether.achievement.2":
+    "She developed the foundational abstract-algebra concepts now called Noetherian rings, restructuring how the field approached its core objects around general structural properties rather than case-by-case computation.",
+  "emmy-noether.achievement.3":
+    "She sustained roughly three decades of prolific mathematical output at Göttingen despite working for much of that career without a formal academic appointment or a salary commensurate with her male colleagues.",
+  "emmy-noether.moment.1":
+    "For years, formally barred from holding a lecturing position at Göttingen because she was a woman, she lectured under the university's official listing of David Hilbert's name instead — a specific, documented institutional workaround, not simply being blocked.",
+  "emmy-noether.moment.2":
+    "At Göttingen she informally led a lively circle of students who became known as the 'Noether boys,' working through mathematics with them in open, engaged discussion rather than through formal lecture alone.",
+  "emmy-noether.turning_point.1":
+    "In 1933, dismissed from her position under new Nazi racial laws, Noether fled Germany and rebuilt her career at Bryn Mawr College in the United States, teaching and continuing her research there until her death two years later.",
+  "emmy-noether.interpretation.moment.1":
+    "The barrier itself never moved; what changed is that she found a way to keep teaching and researching around it rather than through it — a fairly direct read on the profile's resourcefulness score.",
+  "emmy-noether.interpretation.turning_point.1":
+    "The profile's proactive_agency score is worth reading carefully here: leaving was not itself a choice under the actual circumstances, but where and how quickly she rebuilt a working research career afterward was.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -656,6 +858,208 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 자율성 욕구(autonomy_need) 점수를 뚜렷이 보여주는 대목이다 — 주어지지 않는 자리를 계속 구하는 대신, 스스로 그 자리를 만들어낸 것이다.",
   "elizabeth-blackwell.interpretation.turning_point.1":
     "프로필의 적응력(adaptability) 점수와 맞아떨어지는 대목이다 — 원래 추구하던 진료 형태가 경력을 가로막는 좌절을 겪은 뒤, 그 분야를 아예 떠나는 대신 다른 형태의 의료 활동으로 방향을 돌린 것이다.",
+
+  /* -------------------------------------------------- Batch 2: Darwin */
+  "charles-darwin.achievement.1":
+    "다윈은 사육 품종, 종의 지리적 분포, 화석 기록 등 여러 독립적인 증거 계열을 축적하며 약 20년에 걸쳐 근거를 모은 끝에 1859년 『종의 기원』을 출간했다 — 하나의 논증이 아니라 여러 갈래의 증거가 쌓여 만들어진 논리였다. 이후에도 그는 세인트 조지 마이바트 등 구체적인 비판자들의 반론에 직접 대응하며 이 책을 여섯 판에 걸쳐 계속 수정했다.",
+  "charles-darwin.achievement.2":
+    "1846년부터 1854년까지 8년에 걸쳐, 그는 당시 알려진 모든 따개비 종을 다룬 여러 권 분량의 방대한 분류학 저작을 완성했다 — 화려할 것 없는 좁은 주제였지만, 이후 『종의 기원』이 된 이론적 작업으로 돌아가기 전에 끝까지 철저하게 완수한 작업이었다.",
+  "charles-darwin.achievement.3":
+    "그의 출판된 연구는 지질학(산호초 형성 이론), 동물학(따개비 분류 연구), 식물학(난초 수분과 덩굴 식물 연구), 심리학(『인간과 동물의 감정 표현』)에 이르기까지 폭넓게 걸쳐 있었다 — 어느 하나도 스쳐 지나가는 관심이 아니라 완결된 저작으로 남았다.",
+  "charles-darwin.moment.1":
+    "1860년 그의 이론을 둘러싸고 널리 알려진 옥스퍼드 논쟁이 벌어졌을 때, 다윈은 그 자리에 참석하지도 직접 나서서 이론을 변호하지도 않았다 — 대신 토머스 헉슬리가 공개적으로 그를 대변했다.",
+  "charles-darwin.moment.2":
+    "그는 대학 실험실이 아니라 다운 하우스의 자택에서, 씨앗을 몇 주간 바닷물에 담가 두어 어떤 것이 발아하는지 확인하며 종자 확산에 관한 자신의 가설을 검증했고, 평범한 정원 도구만으로 난초의 통제된 수분 실험을 진행했다.",
+  "charles-darwin.moment.3":
+    "박물학자 알프레드 러셀 월리스가 1858년 독자적으로 매우 유사한 이론에 도달하자, 다윈의 동료들은 그가 단독 우선권을 주장하도록 두는 대신 린네 학회에서 두 사람 모두를 인정하는 공동 발표를 마련했다.",
+  "charles-darwin.turning_point.1":
+    "다윈은 자연선택 이론을 약 20년 동안 개인적으로만 간직했는데, 스스로 밝힌 바에 따르면 그 반응에 대한 불안 때문이었다 — 한 편지에서는 이론을 발표하는 일을 '살인을 자백하는 것 같다'고 표현하기도 했다. 그는 월리스가 동등한 이론을 설명한 편지를 보내와 더 이상 미룰 수 없게 된 1858년에야 비로소 발표에 나섰다.",
+  "charles-darwin.interpretation.moment.1":
+    "그의 서신과 전기 작가들이 기록한 더 넓은 패턴 — 이론에 대한 반박을 직접 맞서기보다 동료를 통해 처리하는 방식 — 과 나란히 놓고 보면, 이는 한 번의 예외적인 회피라기보다 그가 일반적으로 취한 대응 방식 중 하나로 읽힌다.",
+  "charles-darwin.interpretation.turning_point.1":
+    "프로필의 낮은 위험 감수(risk_tolerance) 점수는 그 20년의 유예를 설명하는 하나의 타당한 해석이다 — 직업적 신중함이나 순전한 철저함으로도 그 지연의 일부는 설명될 수 있겠지만, 다윈 스스로 그 결정을 묘사한 방식은 성향적 해석을 완전히 배제하기 어렵게 만든다.",
+
+  /* --------------------------------------------- Batch 2: Douglass */
+  "frederick-douglass.achievement.1":
+    "더글러스는 노예로 지내던 어린 시절, 이웃의 가난한 백인 아이들에게 빵을 주고 글 읽기를 배우거나 우연히 손에 넣은 헌 신문을 보며 독학으로 글을 익혔다 — 노예에게 글을 가르치는 것 자체가 불법이던 시절, 이를 정면으로 어긴 행동이었다. 이후에는 조선소의 목재에 새겨진 표시나 한 소년이 쓰던 낡은 습자책을 베껴 쓰며 글쓰기를 연습했다.",
+  "frederick-douglass.achievement.2":
+    "1845년 발표한 자서전 『미국인 노예, 프레더릭 더글러스의 삶에 관한 이야기』는 곧바로 베스트셀러가 되었고, 그는 이후 대서양 양쪽에서 가장 인기 있는 대중 연설가 중 한 명이 되었다 — 한 번의 유명한 연설이 아니라 수십 년에 걸쳐 이어진 화술의 경력이었다.",
+  "frederick-douglass.achievement.3":
+    "그는 노예제 폐지 신문 『노스 스타』를 창간해 편집을 맡았고, 이후 워싱턴 D.C. 증서 등기관과 아이티 주재 공사라는 두 개의 연방 공직을 잇달아 역임했다 — 서로 성격이 전혀 다른 역할들에 걸쳐 지속된 조직적 리더십이었다.",
+  "frederick-douglass.moment.1":
+    "더글러스는 흑인 연방군 병사들의 동등한 급여와 처우를 요구하며 링컨 대통령을 두 차례 직접 만났다 — 그 전에 이미 자신의 아들들을 포함해 연방군에 흑인 병사를 직접 모집한 뒤였다.",
+  "frederick-douglass.moment.2":
+    "1838년 노예 신분에서 벗어난 그의 탈출은 충동적인 도주가 아니라 치밀하게 준비된 것이었다 — 그는 미리 빌린 선원 신분증명서를 확보하고 구체적인 기차와 배편 일정에 맞춰 여정을 계획했으며, 붙잡힐 경우 법적으로나 신체적으로나 심각한 위험을 감수해야 했다.",
+  "frederick-douglass.turning_point.1":
+    "저항하는 노예를 '길들이는' 것으로 지역에 알려져 있던 에드워드 코비 밑에서 일하게 된 더글러스는 결국 매질에 굴복하는 대신 물리적으로 저항하기로 결심했고, 그 대결에서 이겼다. 그는 세 편의 자서전 모두에서 이 순간을, 이후로도 여러 해 동안 실제 노예 신분은 그대로였지만 스스로를 더 이상 정신적으로 노예라고 느끼지 않게 된 분기점으로 묘사했다.",
+  "frederick-douglass.turning_point.2":
+    "더글러스는 원래 미국 헌법이 본질적으로 노예제를 옹호하는 문서라는 윌리엄 로이드 개리슨의 입장을 따르고 있었다. 그러나 라이샌더 스푸너의 법률적 논증에 영향을 받아 이후 공개적으로 입장을 뒤집어, 헌법을 반노예제 문서로 읽고 정치적 도구로 활용할 수 있다고 주장했다 — 오랜 동맹이었던 개리슨 진영과의 결별이라는 대가를 치른, 근거를 갖춘 입장 변화였다.",
+  "frederick-douglass.interpretation.moment.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수에 비추어 보면, 이는 다른 무대에서 나타난 같은 패턴이다 — 흑인 병사들의 처우가 어떻게 결정될지 지켜보는 대신, 나라에서 가장 강력한 자리를 직접 찾아간 것이다.",
+  "frederick-douglass.interpretation.turning_point.1":
+    "프로필의 높은 자율성 욕구(autonomy_need) 점수는 이 서술과 가깝게 맞닿아 있다 — 더글러스는 이 변화를, 그날 바뀌지 않은 법적 신분의 변화가 아니라 자신을 실제로 통제하는 존재가 누구인가에 대한 스스로의 인식 변화로 그리고 있다.",
+  "frederick-douglass.interpretation.turning_point.2":
+    "프로필의 입장 수정 성향(belief_updating) 점수를 실제 역사적 기록에 비추어 검증하기 유난히 쉬운 사례다 — 이 입장 변화는 시점이 분명하고 근거가 제시되어 있으며, 나중에 와서야 재구성된 것이 아니라 당시에 공개적으로 인정된 변화였다.",
+
+  /* -------------------------------------------------- Batch 2: Ibn Sina */
+  "ibn-sina.achievement.1":
+    "그의 『의학정전』(Canon of Medicine)은 당시까지 알려진 의학 지식 — 질병과 그 원인, 치료법 — 을 단편적인 임상 기록 모음이 아니라 하나의 체계적인 분류 구조로 정리했으며, 이 저작은 이슬람 세계와 유럽 모두에서 여러 세기 동안 표준 의학 참고서로 쓰였다.",
+  "ibn-sina.achievement.2":
+    "의학과 별개로 그는 논리학, 자연학, 수학, 형이상학을 다루는 철학 백과사전 『치유의 서』(Kitab al-Shifa)를 독자적인 권·장 구조로 저술했다 — 의학 저술의 부산물이 아니라 그 자체로 독립적으로 구성된 별개의 저작이었다.",
+  "ibn-sina.achievement.3":
+    "현존하는 저작 목록에 따르면 그는 의학, 철학, 논리학, 천문학, 시에 걸쳐 240편이 넘는 저작을 남긴 것으로 알려져 있다 — 궁정 의사로, 후에는 재상으로 일하는 별도의 고된 직무를 병행하면서도 이어간 지속적인 저술 활동이었다.",
+  "ibn-sina.moment.1":
+    "그의 자서전에 따르면, 그는 아직 십 대이던 젊은 의사 시절 사만 왕조의 군주 누흐 이븐 만수르를 치료하는 데 성공했고, 그 호의를 발판 삼아 군주의 방대한 왕실 서고에 접근할 수 있게 되었다 — 막연한 야망에 대한 일반적 서술이 아니라, 인물과 시점이 특정된 일화다.",
+  "ibn-sina.moment.2":
+    "역사 기록에 따르면 그는 생애 중 한 차례의 정치적 격변기에 변장을 하고 투옥에서 벗어났다고 한다 — 여러 차례 반복된 탈출의 일부라기보다, 하나의 생생한 개별 일화다.",
+  "ibn-sina.moment.3":
+    "그는 오랜 기간 제자이자 서기였던 알 주즈자니와 긴밀하게 협력했는데, 알 주즈자니는 그의 후기 저술을 도왔을 뿐 아니라 이븐 시나가 구술한 자서전을 직접 기록해 남겼다 — 그의 초년기에 관해 알려진 사실 대부분이 바로 이 한 관계를 통해 오늘날까지 전해진다.",
+  "ibn-sina.turning_point.1":
+    "그의 자서전에 따르면, 그는 젊은 시절 아리스토텔레스의 『형이상학』을 완전히 이해하지 못한 채로 무려 마흔 번 가까이 다시 읽었는데, 우연히 접한 알 파라비의 짧은 주석서가 마침내 그 이해의 열쇠가 되어 주었다. 그 돌파구를 얻고 나서야 그는 남의 텍스트에 계속 머무르는 대신 자신만의 독창적인 철학 저작을 써 나가기 시작했다.",
+  "ibn-sina.interpretation.moment.1":
+    "프로필의 기회 감지(opportunity_sensing) 점수와 관련해 흥미로운 대목은 순서다 — 치료의 성공이 먼저였고, 그의 자서전에 따르면 서고 접근은 그로 인해 생긴 호의를 이용해 그가 의도적으로 추구한 것이지, 뛰어난 젊은 의사라는 지위에 그저 뒤따라온 부수적 혜택이 아니었다.",
+  "ibn-sina.interpretation.turning_point.1":
+    "단순한 끈기의 일화 이상으로 읽을 가치가 있다 — 마흔 번의 반복은 실제로 버텨낸 지속력을 보여주지만, 실제로 난관을 뚫어낸 것은 자신의 방식을 더 반복하는 것이 아니라 타인의 짧은 주석서였다 — 높은 끈기(persistence) 점수는 쏟아부은 노력을 설명할 뿐, 결국 통한 방법까지 설명해 주지는 않는다는 점을 보여준다.",
+
+  /* -------------------------------------------- Batch 2: MLK */
+  "martin-luther-king-jr.achievement.1":
+    "킹은 1955~56년 몽고메리 버스 보이콧을 이끌었고, 남부기독교지도자회의(SCLC)를 공동 창립해 이끌었으며, 버밍햄과 셀마 캠페인을 조직했다 — 한 번의 화제성 있는 순간이 아니라 10년 넘게 지속된 조직적 시민권 운동 지도력이었다.",
+  "martin-luther-king-jr.achievement.2":
+    "그의 연설, 특히 1963년 워싱턴 행진에서의 '나에게는 꿈이 있습니다' 연설은 20세기의 연설 중 가장 폭넓게 기록되고 연구된 축에 속하며, 13년에 걸쳐 이어진 공개 연설 활동의 일부였다.",
+  "martin-luther-king-jr.achievement.3":
+    "그의 캠페인들은 단순한 저항 자체가 아니라 구체적인 입법 성과를 확보하는 데 맞춰져 있었다 — 당시 공개적으로 1964년 민권법과 1965년 투표권법을 직접적인 목표로 내세웠고, 두 법안 모두 그 캠페인 기간 안에 통과되었다.",
+  "martin-luther-king-jr.moment.1":
+    "1963년 버밍햄 캠페인은 조직 내부에서 '대립'을 뜻하는 '프로젝트 C'로 기록되었을 만큼 단계적으로 고조되는 행동들로 치밀하게 설계되었고, 그 도시가 선택된 것은 경찰의 시위 대응이 전국적 언론의 주목을 끌 만큼 가혹하고 눈에 띌 것으로 예상되었기 때문이었다.",
+  "martin-luther-king-jr.moment.2":
+    "1963년 버밍햄 수감 중에 쓰인 '버밍햄 감옥에서 온 편지'는 캠페인의 시기가 너무 이르다고 주장한 일부 성직자 동료들의 구체적인 비판을 조목조목 체계적으로 반박한다 — 단순한 수사적 호소가 아니라 짜임새를 갖춘 반론이었다.",
+  "martin-luther-king-jr.moment.3":
+    "미국 시민권 운동에 사용할 전략 틀을 세우기 전, 그는 정식으로 신학 박사 과정을 밟았고 간디식 비폭력 방법을 깊이 연구했으며, 이를 그대로 가져다 쓰기보다 직접 변형해 적용했다.",
+  "martin-luther-king-jr.turning_point.1":
+    "말년에 킹은 자신의 공개적 초점을 인종 분리 문제에서 경제 정의(빈민 캠페인 조직)로, 그리고 1967년 리버사이드 교회 연설에서는 베트남 전쟁에 대한 공개적 반대로 넓혀 갔다. 두 움직임 모두 상당한 비판을 불러왔고, 오랜 동맹 중 일부는 이를 시민권 메시지를 희석시키는 값비싼 선택으로 여겼다.",
+  "martin-luther-king-jr.interpretation.moment.1":
+    "이 선택은 우연히 발생한 갈등을 감내한 것이라기보다, 어디서 대립이 벌어져야 가장 전략적인 효과를 낼지 미리 찾아낸 것에 더 가깝게 읽힌다 — 프로필의 기회 감지(opportunity_sensing) 점수도 같은 패턴을 짚어낸다.",
+  "martin-luther-king-jr.interpretation.moment.3":
+    "타고난 재능을 발휘했다기보다 기존 방법을 연구하고 변형했다는 점이, 여기서 프로필의 숙련 지향(mastery_orientation) 점수가 짚어내는 바에 더 가깝다 — 그가 훗날 대표하게 된 접근법은 즉흥이 아니라 의도적으로 다듬어진 것이었다.",
+  "martin-luther-king-jr.interpretation.turning_point.1":
+    "프로필의 입장 수정 성향(belief_updating) 점수는 이 구체적인 기록에 비추어 검증하기 쉬운 편이다 — 이것은 편안한 방향 전환이 아니라, 대가를 치르고 공개적으로 비판받은 입장 확장이었으며, 이는 아무런 실제 압박 없이 이뤄진 변화보다 더 무게 있게 다뤄야 할 증거다.",
+
+  /* -------------------------------------------- Batch 2: Rachel Carson */
+  "rachel-carson.achievement.1":
+    "『침묵의 봄』(1962)은 살충제의 영향에 관한 방대한 기존 과학 연구를 종합하고 교차 검증하여 하나의 치밀한 근거 위에 선 논증으로 엮어냈으며, 50쪽이 넘는 출처 주석이 이를 뒷받침한다 — 단순히 설득하기 위해서가 아니라 어떤 반박에도 흔들리지 않도록 쓰인 책이었다.",
+  "rachel-carson.achievement.2":
+    "이 책은 현대 환경 운동을 촉발한 계기로, 그리고 훗날 미국의 DDT 국내 사용 금지를 포함해 미국 살충제 정책에 직접 영향을 준 계기로 널리 인정받는다 — 막연한 문화적 영향력 주장이 아니라 추적 가능한 정책적 파급 효과다.",
+  "rachel-carson.achievement.3":
+    "그의 경력은 해양생물학 연구, 미국 어업국에서의 정부 과학 저술, 그리고 대중 과학 저술(『우리를 둘러싼 바다』, 『침묵의 봄』)에 걸쳐 있었다 — 말년에 갑자기 옹호 활동으로 전환한 것이 아니라, 각 영역에서 꾸준하고 진지한 성과를 낸 것이다.",
+  "rachel-carson.moment.1":
+    "『침묵의 봄』 출간 이후에도 그는 미국 상원 소위원회 증언을 포함해 계속해서 공개적으로 그 내용을 옹호했으며, 자신을 겨냥한 자금력 있는 업계 캠페인 속에서도 책이 나온 지 얼마 되지 않아 세상을 떠날 때까지 그 공개적 옹호를 이어 갔다.",
+  "rachel-carson.moment.2":
+    "그는 『침묵의 봄』의 마지막 작업 단계와 그 이후의 공개적 옹호 활동을, 당시에는 공개하지 않기로 한 말기 암 진단을 개인적으로 관리하면서 병행해 나갔다.",
+  "rachel-carson.moment.3":
+    "책 인세로 생계가 가능해지자, 그는 어업국이라는 안정된 정부 직책을 떠나 전업으로 독립적인 글쓰기를 시작했다 — 안정을 이어가는 대신 그것에서 의도적으로 벗어난, 기록으로 남은 선택이었다.",
+  "rachel-carson.turning_point.1":
+    "카슨은 『침묵의 봄』을 출간하면 화학 업계로부터 자신의 과학적 주장뿐 아니라 개인적 신뢰까지 겨냥한 직접적이고 지속적인 공격이 뒤따르리라는 것을 미리 예상하고도 책을 냈고, 실제로 그런 일이 벌어졌다. 그 압박 속에서 입장을 철회하거나 누그러뜨리는 대신, 그는 남은 생애 동안 계속해서 책의 주장을 공개적으로 옹호했다.",
+  "rachel-carson.interpretation.moment.2":
+    "여기서는 프로필의 위험 감수(risk_tolerance) 점수를 더 넓은 맥락과 함께 읽을 필요가 있다 — 이는 공개적으로 알리지 않기로 한 심각한 개인적 건강 문제를 관리하면서 동시에 겪어낸, 업계의 공개적 공격 캠페인에 대한 지속적 노출이었다 — 서로 다른 종류의 두 가지 부담이 동시에 있었던 것이지, 하나가 다른 하나를 설명해 주는 것은 아니다.",
+  "rachel-carson.interpretation.turning_point.1":
+    "프로필의 높은 갈등 감내(conflict_tolerance) 점수를 확인할 수 있는 가장 분명한 대목이다 — 예상 밖의 비판이 닥친 뒤에야 물러서지 않은 것이 아니라, 무슨 일이 뒤따를지 미리 알면서도 출간을 선택했다는 점에서 더 강한 근거가 된다.",
+
+  /* -------------------------------------------- Batch 2: Hildegard of Bingen */
+  "hildegard-of-bingen.achievement.1":
+    "힐데가르트는 식물과 동물, 광물, 그리고 그 약용법을 체계적으로 정리한 저작 『피지카』와 『원인과 치료』를 남겼다 — 인체 해부와 생식에 관한 서술은 12세기 수도원 저자로서는 이례적으로 직접적이고 상세하다고 현대 중세학자들이 평가한다.",
+  "hildegard-of-bingen.achievement.2":
+    "그는 당대로서는 형식이 이례적인 독창적 전례 음악극 『오르도 비르투툼』을 작곡했고, 종교적 체험을 우주론과 구원사, 윤리학을 아우르는 하나의 체계로 정리한 환시 신학 저작 『스키비아스』를 썼다 — 두 작품 모두 후대에 전해 들은 것이 아니라 그 자신의 직접적인 저작으로 현존한다.",
+  "hildegard-of-bingen.achievement.3":
+    "그는 평생 동안 루퍼츠베르크와 이후 아이빙엔, 두 곳의 수도 공동체를 세우고 이끌었다 — 당대의 수도원 기록에 남아 있는, 오랜 시간 지속된 조직적 지도력이었다.",
+  "hildegard-of-bingen.moment.1":
+    "현존하는 서신들은 그가 교황 에우제니오 3세와 신성로마제국 황제 프리드리히 바르바로사에게 직접 요청받지 않은 도덕적 훈계의 편지를 보냈음을 보여준다 — 그는 또한 12세기의 여성으로서 공개적으로 설교할 수 있는, 교회가 허락한 드문 예외를 받은 인물이기도 했다.",
+  "hildegard-of-bingen.moment.2":
+    "독립된 루퍼츠베르크 수도원을 세우려면 먼저 기존 공동체를 이전해야 했는데, 이는 그의 수도원장이 처음에 반대했던 일이었다 — 기록에 남은 이 갈등에서 그는 결국 뜻을 굽히지 않고 이전을 관철시켰다.",
+  "hildegard-of-bingen.moment.3":
+    "그의 현존하는 음악 작품들은 당대로서는 이례적으로 넓은 음역과 독특한 선율 양식으로 음악학자들의 주목을 받는다 — 정형화된 전례 작곡이 아니라 의도적인 미적 접근의 증거다.",
+  "hildegard-of-bingen.turning_point.1":
+    "말년에 힐데가르트의 수도원은 교회 성무 금지령이라는 중대한 징계를 받았는데, 이는 그가 공동체의 묘지에 묻힌 한 남성 — 교회 당국이 파문된 것으로 간주한 인물 — 의 유해를 파내어 옮기라는 요구를 거부했기 때문이었다. 그는 요구에 응하지 않고 교회 당국에 직접 청원을 이어 갔고, 공동체의 삶에서 핵심이었던 전례와 음악 활동을 금지했던 그 금지령은 그가 세상을 떠나기 얼마 전에야 비로소 풀렸다.",
+  "hildegard-of-bingen.interpretation.moment.1":
+    "여기서 프로필의 독립적 사고(independent_thinking) 점수와 잘 들어맞는 것은 막연한 자신감이 아니라 더 구체적인 사실이다 — 이 편지들은 요청받아 응답한 것이 아니라, 그 자신이 먼저 나서서 당대 가장 강력한 두 자리에 보낸 것이었다.",
+  "hildegard-of-bingen.interpretation.moment.2":
+    "이는 프로필의 자율성 욕구(autonomy_need) 점수와 잘 맞아떨어진다 — 여기서 부딪힌 상대는 멀리 있는 정치 권력이 아니라 자신의 수도원 상급자였다는 점에서, 교황과 황제에게 보낸 편지보다 오히려 이 특성을 더 직접적으로 시험한 사례라고 볼 수 있다.",
+  "hildegard-of-bingen.interpretation.turning_point.1":
+    "프로필의 갈등 감내(conflict_tolerance)와 위험 감수(risk_tolerance) 점수 모두 이 한 사건 안에서 확인되는데, 둘을 구분해 볼 필요가 있다 — 물러서지 않고 갈등을 이어간 것과, 발효 중인 금지령에 맞서는 실제 제도적 위험을 감수한 것은 서로 연관되지만 별개의 문제다.",
+
+  /* -------------------------------------------- Batch 2: Florence Nightingale */
+  "florence-nightingale.achievement.1":
+    "크림 전쟁 중 나이팅게일은 훗날 '콕스콤(수탉 볏)' 차트로 알려지게 되는 극좌표 다이어그램을 고안해, 병사 사망의 주된 원인이 전투 부상이 아니라 열악한 위생 상태였음을 통계적으로 입증했다 — 막연한 관찰이 아니라 구체적이고 방법론적으로 독창적인 통계 분석이었다.",
+  "florence-nightingale.achievement.2":
+    "1860년 그는 나이팅게일 간호학교를 설립했고, 이후 수십 년에 걸쳐 영국 군과 민간 의료 체계의 지속적인 제도 개혁을 이끌었다.",
+  "florence-nightingale.achievement.3":
+    "그의 통계 자료 제시는 영국 군과 정부 관료들을 직접 설득해 행동에 나서게 했으며, 그의 보고서에 따라 왕립위원회 구성과 일련의 위생 개혁으로 이어졌다.",
+  "florence-nightingale.moment.1":
+    "1854년, 그는 공식 파견을 기다리는 대신 자신이 직접 간호사 무리를 조직해 함께 크림 전쟁 전선으로 향해 야전병원 상황을 직접 관리했으며, 전쟁터의 질병으로 인한 실제 개인적 위험을 감수했다.",
+  "florence-nightingale.moment.2":
+    "그는 당시 자신의 사회 계급 여성에게 평판이 나쁜 직업으로 여겨지던 간호 일을 하기 위해, 관습적인 상류층 결혼을 기대하던 가족의 뜻을 거부했다.",
+  "florence-nightingale.turning_point.1":
+    "크림 전쟁이 끝난 뒤 나이팅게일의 건강은 만성 질환으로 악화되어, 남은 생애 50여 년의 대부분을 침상에 매인 채 지내야 했다. 그러나 그는 개혁 활동에서 물러나는 대신, 영국 육군 의료 개혁에서 인도의 공중보건에 이르기까지 그 활동을 전적으로 통계 저술과 서신을 통해 — 거의 전부 병상에서 — 이어 나갔다.",
+  "florence-nightingale.interpretation.moment.1":
+    "이는 프로필의 선제적 행동력(proactive_agency) 점수가 비교적 문자 그대로 드러난 사례다 — 그 간호사 무리가 존재했던 것은 누군가 마련해 준 자리를 받아들여서가 아니라, 그 자신이 직접 조직했기 때문이다.",
+  "florence-nightingale.interpretation.moment.2":
+    "여기서 프로필의 독립적 사고(independent_thinking) 점수는 단지 남모르게 관습에서 벗어난 생각을 품었다는 데 그치지 않는다 — 그는 기대되던 구체적인 삶의 경로를 실제로 포기하고 그 생각에 따라 행동했다는 점에서, 같은 증거의 더 강한 형태를 보여준다.",
+  "florence-nightingale.interpretation.turning_point.1":
+    "프로필의 높은 끈기(persistence) 점수는 단순히 지속된 노력만이 아니라 여기서 실제로 방법이 바뀌었다는 점까지 설명해야 한다 — 활동은 이어졌지만, 1854년의 활동적인 야전 간호사와 그 이후 수십 년간의 서신 중심 개혁가는 전혀 다른 제약 조건 속에서 일하고 있었다.",
+
+  /* -------------------------------------------- Batch 2: Umm Kulthum */
+  "umm-kulthum.achievement.1":
+    "수십 년 동안 움 쿨숨은 매달 첫째 목요일 라디오로 생중계되는 콘서트라는 월례 공연 전통을 이어갔으며, 이집트를 비롯한 아랍권 여러 나라에서 저녁 일과의 일부를 이 방송에 맞춰 짤 정도로 꾸준히 지속되었다.",
+  "umm-kulthum.achievement.2":
+    "그의 공연은 음악학자들에 의해 고전 아랍 성악 장식음 전통인 '타랍'의 대가로 평가받는데, 이는 단 한 번의 명연이 아니라 수십 년에 걸쳐 남아 있는 녹음 기록을 통해 분석된 결과다.",
+  "umm-kulthum.achievement.3":
+    "그는 당대의 주요 작곡가들, 특히 리야드 알순바티와 수십 년에 걸친 창작 협업을 이어갔고, 당시 공연자로서는 이례적일 만큼 자신의 오케스트라와 레퍼토리 선정에 대한 창작 주도권을 행사했다.",
+  "umm-kulthum.moment.1":
+    "어린 시절 그는 엄격한 성악 훈련을 받았는데, 여러 전기 기록에 따르면 처음에는 남자아이로 변장한 채 종교 낭송을 공개적으로 공연했다고 한다 — 이 훈련은 이후 약 50년에 이르는 공연 경력 내내 계속 이어지고 깊어졌다.",
+  "umm-kulthum.moment.2":
+    "공연 중 그는 한 소절을 여러 차례 반복해 부르면서 매번 다른 장식음을 얹었고, 청중에게 원하는 감정적 효과가 전해졌다고 판단할 때까지 이를 이어갔다 — 이는 이따금의 즉흥이 아니라 기록으로 남은 의도적인 기법이었다.",
+  "umm-kulthum.turning_point.1":
+    "1967년 제3차 중동전쟁에서 이집트가 패배한 뒤, 움 쿨숨은 정부의 요청이 아니라 스스로의 판단으로 대규모 모금 콘서트 순회공연을 조직해, 자신의 대중적 영향력을 활용해 나라를 위한 실질적인 재정 지원을 이끌어냈다.",
+  "umm-kulthum.interpretation.moment.2":
+    "이는 단순한 반복보다는 프로필의 실험 성향(experimentation) 점수에 더 가까운 대목이다 — 한 소절을 거듭 반복할 때마다 그것은 같은 구절을 효과를 위해 되풀이한 것이 아니라, 청중의 반응에 비추어 시험된 하나의 변주였다.",
+  "umm-kulthum.interpretation.turning_point.1":
+    "프로필의 영향 창출 동기(impact_motivation) 점수는 여기서 시점과 함께 읽어볼 필요가 있다 — 이는 기존의 자선 활동을 관행적으로 확장한 것이 아니라, 실제 국가적 위기의 순간에 스스로 자신의 공적 역할을 국가적 차원으로 넓힌 자발적 선택이었다.",
+
+  /* -------------------------------------------- Batch 2: Sor Juana */
+  "sor-juana-ines-de-la-cruz.achievement.1":
+    "그 자신의 기록에 따르면, 그는 어린 시절 스스로 글을 깨쳤고 몇 차례의 수업만으로 라틴어를 익혔으며, 이후 식민지 시대 스페인령 아메리카에서 손꼽히게 큰 개인 장서 — 약 4천 권 — 를 모았다.",
+  "sor-juana-ines-de-la-cruz.achievement.2":
+    "그는 방대한 분량의 시와 희곡을 남겼는데, 문학 연구자들은 이를 스페인 황금세기 문학 가운데 가장 독창적인 작품군의 하나로 평가한다.",
+  "sor-juana-ines-de-la-cruz.achievement.3":
+    "자신을 공개적으로 비판한 한 주교에게 직접 보낸 『소르 필로테아에게 보내는 답신』에서, 그는 여성의 지적 삶에 대한 권리를 자신 한 사람의 경우에 그치지 않고 하나의 일반 원칙으로 옹호하는, 조목조목 짜인 신학적·철학적 논증을 펼쳤다.",
+  "sor-juana-ines-de-la-cruz.moment.1":
+    "십 대 시절 그는 부왕청 궁정에서 학자들로 구성된 심사단 앞에서 시험을 치렀는데, 당대와 후대의 기록에 따르면 그 지식의 폭으로 심사단을 감탄시켰다고 한다 — 수녀원에 들어가기 전, 공개적인 지적 역량을 직접 드러낸 구체적이고 기록으로 남은 사례다.",
+  "sor-juana-ines-de-la-cruz.moment.2":
+    "그가 수녀원에 들어간 것은 순전히 종교적 소명이라기보다 신중하고 전략적인 선택이었다 — 그 자신의 기록에 따르면, 이는 당시 여성에게 결혼으로는 허락되지 않았을 학문에 몰두할 시간과 개인적 자율성을 확보하기 위한 것이었다.",
+  "sor-juana-ines-de-la-cruz.turning_point.1":
+    "말년에, 지적 활동을 둘러싸고 교회 권위와 오랜 세월 이어온 갈등 끝에 소르 후아나는 결국 자신의 장서와 저술 활동을 모두 포기하도록 압박받았다. 수십 년간 이어졌던 학문적·문학적 성과는 사실상 그 지점에서 끝났고, 그리 오래지 않아 그는 세상을 떠났다.",
+  "sor-juana-ines-de-la-cruz.interpretation.moment.1":
+    "이 일화는 이후 더 개인적이었던 수녀원 학문 활동과 구분해 볼 가치가 있다 — 여기서는 같은 지적 폭이 스스로 통제할 수 없는 자리에서, 사적으로 자신의 방식대로 길러진 것이 아니라 공개적으로 직접 드러난 것이다.",
+  "sor-juana-ines-de-la-cruz.interpretation.moment.2":
+    "이는 상황에 대한 체념이라기보다 프로필의 자원 활용 성향(resourcefulness) 점수가 구체적이고 잘 기록된 형태로 드러난 사례에 더 가깝게 읽힌다 — 직접 열려 있지 않았던 목표, 곧 지속적인 학문적 삶에 이르는 우회로를 스스로 찾아낸 것이다.",
+  "sor-juana-ines-de-la-cruz.interpretation.turning_point.1":
+    "이 부분은 얼버무리기보다 있는 그대로 말할 가치가 있다 — 프로필의 높은 끈기(persistence)와 갈등 감내(conflict_tolerance) 점수는 그가 자신의 입장을 얼마나 오래 지켜냈는지를 보여줄 뿐, 결국 뜻을 관철했다는 것을 보여주지는 않는다 — 이 기록에는 오랜 저항뿐 아니라 실제 패배도 함께 담겨 있다.",
+
+  /* -------------------------------------------- Batch 2: Emmy Noether */
+  "emmy-noether.achievement.1":
+    "1915년에 증명된 뇌터의 정리는 물리계의 모든 미분 가능한 대칭이 하나의 보존 법칙에 대응한다는 사실을 밝혔다 — 오늘날까지도 이론물리학과 수학 전반에서 표준적으로 쓰이는 근본적인 결과다.",
+  "emmy-noether.achievement.2":
+    "그는 오늘날 '뇌터 환'이라 불리는 추상대수학의 기초 개념을 발전시켜, 개별 사례별 계산이 아니라 일반적인 구조적 성질을 중심으로 그 분야가 다뤄지는 방식 자체를 재구성했다.",
+  "emmy-noether.achievement.3":
+    "그는 괴팅겐에서 약 30년에 걸쳐 왕성한 수학 연구를 이어갔는데, 그 경력의 상당 기간 동안 정식 교수직도, 남성 동료들과 대등한 급여도 받지 못한 채로였다.",
+  "emmy-noether.moment.1":
+    "여성이라는 이유로 괴팅겐에서 정식 강의 직위를 맡는 것이 오랫동안 금지되어 있었기에, 그는 대신 대학의 공식 강의 목록에 다비트 힐베르트의 이름으로 강의를 개설했다 — 그저 가로막힌 것이 아니라, 기록으로 남은 구체적인 제도적 우회 방법이었다.",
+  "emmy-noether.moment.2":
+    "괴팅겐에서 그는 이후 '뇌터의 아이들'로 알려지게 되는 활기찬 학생 모임을 비공식적으로 이끌었으며, 형식적인 강의만이 아니라 개방적이고 활발한 토론을 통해 수학을 함께 풀어나갔다.",
+  "emmy-noether.turning_point.1":
+    "1933년, 나치의 새로운 인종법에 따라 자리에서 해임된 뇌터는 독일을 떠나 미국의 브린모어 대학에서 경력을 다시 세웠고, 그곳에서 2년 뒤 세상을 떠날 때까지 강의와 연구를 이어갔다.",
+  "emmy-noether.interpretation.moment.1":
+    "장벽 자체는 끝내 사라지지 않았다 — 달라진 것은 그가 그것을 정면으로 뚫는 대신 우회해 가르치고 연구하는 길을 스스로 찾아냈다는 점이며, 이는 프로필의 자원 활용 성향(resourcefulness) 점수를 상당히 직접적으로 보여주는 대목이다.",
+  "emmy-noether.interpretation.turning_point.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수는 여기서 신중하게 읽을 필요가 있다 — 그 실제 상황에서 떠나는 것 자체는 선택의 문제가 아니었지만, 이후 어디서 어떻게 그토록 빠르게 다시 연구자로서의 경력을 세웠는가는 그 자신의 선택이었다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

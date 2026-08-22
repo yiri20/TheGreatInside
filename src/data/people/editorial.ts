@@ -500,4 +500,312 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  /* ------------------------------------------- Batch 2 (Tier-B, 10 people) */
+
+  "charles-darwin": {
+    achievements: [
+      { id: "charles-darwin-achievement-1", textKey: "charles-darwin.achievement.1", sourceIds: ["src_darwin_browne", "src_darwin_wikipedia"] },
+      { id: "charles-darwin-achievement-2", textKey: "charles-darwin.achievement.2", sourceIds: ["src_darwin_browne"] },
+      { id: "charles-darwin-achievement-3", textKey: "charles-darwin.achievement.3", sourceIds: ["src_darwin_wikipedia", "src_darwin_browne"] },
+    ],
+    moments: [
+      {
+        id: "charles-darwin-moment-1",
+        textKey: "charles-darwin.moment.1",
+        interpretationKey: "charles-darwin.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_darwin_browne"],
+      },
+      { id: "charles-darwin-moment-2", textKey: "charles-darwin.moment.2", sourceIds: ["src_darwin_browne"] },
+      { id: "charles-darwin-moment-3", textKey: "charles-darwin.moment.3", sourceIds: ["src_darwin_wikipedia", "src_darwin_browne"] },
+    ],
+    turningPoints: [
+      {
+        id: "charles-darwin-turning-point-1",
+        textKey: "charles-darwin.turning_point.1",
+        interpretationKey: "charles-darwin.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_darwin_browne", "src_darwin_correspondence"],
+      },
+    ],
+  },
+
+  "frederick-douglass": {
+    achievements: [
+      { id: "frederick-douglass-achievement-1", textKey: "frederick-douglass.achievement.1", sourceIds: ["src_douglass_narrative"] },
+      { id: "frederick-douglass-achievement-2", textKey: "frederick-douglass.achievement.2", sourceIds: ["src_douglass_narrative", "src_douglass_blight"] },
+      { id: "frederick-douglass-achievement-3", textKey: "frederick-douglass.achievement.3", sourceIds: ["src_douglass_blight", "src_douglass_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "frederick-douglass-moment-1",
+        textKey: "frederick-douglass.moment.1",
+        interpretationKey: "frederick-douglass.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_douglass_blight"],
+      },
+      { id: "frederick-douglass-moment-2", textKey: "frederick-douglass.moment.2", sourceIds: ["src_douglass_narrative", "src_douglass_blight"] },
+    ],
+    turningPoints: [
+      {
+        id: "frederick-douglass-turning-point-1",
+        textKey: "frederick-douglass.turning_point.1",
+        interpretationKey: "frederick-douglass.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_douglass_narrative"],
+      },
+      {
+        id: "frederick-douglass-turning-point-2",
+        textKey: "frederick-douglass.turning_point.2",
+        interpretationKey: "frederick-douglass.interpretation.turning_point.2",
+        attributeId: "belief_updating",
+        sourceIds: ["src_douglass_blight"],
+      },
+    ],
+  },
+
+  "ibn-sina": {
+    achievements: [
+      { id: "ibn-sina-achievement-1", textKey: "ibn-sina.achievement.1", sourceIds: ["src_ibnsina_sep", "src_ibnsina_wikipedia"] },
+      { id: "ibn-sina-achievement-2", textKey: "ibn-sina.achievement.2", sourceIds: ["src_ibnsina_sep"] },
+      { id: "ibn-sina-achievement-3", textKey: "ibn-sina.achievement.3", sourceIds: ["src_ibnsina_wikipedia", "src_ibnsina_autobiography"] },
+    ],
+    moments: [
+      {
+        id: "ibn-sina-moment-1",
+        textKey: "ibn-sina.moment.1",
+        interpretationKey: "ibn-sina.interpretation.moment.1",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_ibnsina_autobiography"],
+      },
+      { id: "ibn-sina-moment-2", textKey: "ibn-sina.moment.2", sourceIds: ["src_ibnsina_wikipedia"] },
+      { id: "ibn-sina-moment-3", textKey: "ibn-sina.moment.3", sourceIds: ["src_ibnsina_autobiography"] },
+    ],
+    turningPoints: [
+      {
+        id: "ibn-sina-turning-point-1",
+        textKey: "ibn-sina.turning_point.1",
+        interpretationKey: "ibn-sina.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_ibnsina_autobiography"],
+      },
+    ],
+  },
+
+  "martin-luther-king-jr": {
+    achievements: [
+      { id: "martin-luther-king-jr-achievement-1", textKey: "martin-luther-king-jr.achievement.1", sourceIds: ["src_mlk_branch", "src_mlk_institute"] },
+      { id: "martin-luther-king-jr-achievement-2", textKey: "martin-luther-king-jr.achievement.2", sourceIds: ["src_mlk_institute", "src_mlk_wikipedia"] },
+      { id: "martin-luther-king-jr-achievement-3", textKey: "martin-luther-king-jr.achievement.3", sourceIds: ["src_mlk_branch", "src_mlk_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "martin-luther-king-jr-moment-1",
+        textKey: "martin-luther-king-jr.moment.1",
+        interpretationKey: "martin-luther-king-jr.interpretation.moment.1",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_mlk_branch"],
+      },
+      { id: "martin-luther-king-jr-moment-2", textKey: "martin-luther-king-jr.moment.2", sourceIds: ["src_mlk_institute", "src_mlk_branch"] },
+      {
+        id: "martin-luther-king-jr-moment-3",
+        textKey: "martin-luther-king-jr.moment.3",
+        interpretationKey: "martin-luther-king-jr.interpretation.moment.3",
+        attributeId: "mastery_orientation",
+        sourceIds: ["src_mlk_branch"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "martin-luther-king-jr-turning-point-1",
+        textKey: "martin-luther-king-jr.turning_point.1",
+        interpretationKey: "martin-luther-king-jr.interpretation.turning_point.1",
+        attributeId: "belief_updating",
+        sourceIds: ["src_mlk_branch", "src_mlk_wikipedia"],
+      },
+    ],
+  },
+
+  "rachel-carson": {
+    achievements: [
+      { id: "rachel-carson-achievement-1", textKey: "rachel-carson.achievement.1", sourceIds: ["src_carson_lear"] },
+      { id: "rachel-carson-achievement-2", textKey: "rachel-carson.achievement.2", sourceIds: ["src_carson_wikipedia"] },
+      { id: "rachel-carson-achievement-3", textKey: "rachel-carson.achievement.3", sourceIds: ["src_carson_lear", "src_carson_wikipedia"] },
+    ],
+    moments: [
+      { id: "rachel-carson-moment-1", textKey: "rachel-carson.moment.1", sourceIds: ["src_carson_lear"] },
+      {
+        id: "rachel-carson-moment-2",
+        textKey: "rachel-carson.moment.2",
+        interpretationKey: "rachel-carson.interpretation.moment.2",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_carson_lear"],
+      },
+      { id: "rachel-carson-moment-3", textKey: "rachel-carson.moment.3", sourceIds: ["src_carson_lear"] },
+    ],
+    turningPoints: [
+      {
+        id: "rachel-carson-turning-point-1",
+        textKey: "rachel-carson.turning_point.1",
+        interpretationKey: "rachel-carson.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_carson_lear"],
+      },
+    ],
+  },
+
+  "hildegard-of-bingen": {
+    achievements: [
+      { id: "hildegard-of-bingen-achievement-1", textKey: "hildegard-of-bingen.achievement.1", sourceIds: ["src_hildegard_worldhistory", "src_hildegard_wikipedia"] },
+      { id: "hildegard-of-bingen-achievement-2", textKey: "hildegard-of-bingen.achievement.2", sourceIds: ["src_hildegard_worldhistory"] },
+      { id: "hildegard-of-bingen-achievement-3", textKey: "hildegard-of-bingen.achievement.3", sourceIds: ["src_hildegard_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "hildegard-of-bingen-moment-1",
+        textKey: "hildegard-of-bingen.moment.1",
+        interpretationKey: "hildegard-of-bingen.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_hildegard_correspondence"],
+      },
+      {
+        id: "hildegard-of-bingen-moment-2",
+        textKey: "hildegard-of-bingen.moment.2",
+        interpretationKey: "hildegard-of-bingen.interpretation.moment.2",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_hildegard_wikipedia"],
+      },
+      { id: "hildegard-of-bingen-moment-3", textKey: "hildegard-of-bingen.moment.3", sourceIds: ["src_hildegard_worldhistory"] },
+    ],
+    turningPoints: [
+      {
+        id: "hildegard-of-bingen-turning-point-1",
+        textKey: "hildegard-of-bingen.turning_point.1",
+        interpretationKey: "hildegard-of-bingen.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_hildegard_wikipedia", "src_hildegard_worldhistory"],
+      },
+    ],
+  },
+
+  "florence-nightingale": {
+    achievements: [
+      { id: "florence-nightingale-achievement-1", textKey: "florence-nightingale.achievement.1", sourceIds: ["src_nightingale_mcdonald", "src_nightingale_wikipedia"] },
+      { id: "florence-nightingale-achievement-2", textKey: "florence-nightingale.achievement.2", sourceIds: ["src_nightingale_wikipedia", "src_nightingale_smallbio"] },
+      { id: "florence-nightingale-achievement-3", textKey: "florence-nightingale.achievement.3", sourceIds: ["src_nightingale_mcdonald"] },
+    ],
+    moments: [
+      {
+        id: "florence-nightingale-moment-1",
+        textKey: "florence-nightingale.moment.1",
+        interpretationKey: "florence-nightingale.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_nightingale_smallbio"],
+      },
+      {
+        id: "florence-nightingale-moment-2",
+        textKey: "florence-nightingale.moment.2",
+        interpretationKey: "florence-nightingale.interpretation.moment.2",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_nightingale_smallbio"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "florence-nightingale-turning-point-1",
+        textKey: "florence-nightingale.turning_point.1",
+        interpretationKey: "florence-nightingale.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_nightingale_smallbio", "src_nightingale_mcdonald"],
+      },
+    ],
+  },
+
+  "umm-kulthum": {
+    achievements: [
+      { id: "umm-kulthum-achievement-1", textKey: "umm-kulthum.achievement.1", sourceIds: ["src_ummkulthum_wikipedia"] },
+      { id: "umm-kulthum-achievement-2", textKey: "umm-kulthum.achievement.2", sourceIds: ["src_ummkulthum_britannica", "src_ummkulthum_wikipedia"] },
+      { id: "umm-kulthum-achievement-3", textKey: "umm-kulthum.achievement.3", sourceIds: ["src_ummkulthum_wikipedia", "src_ummkulthum_britannica"] },
+    ],
+    moments: [
+      { id: "umm-kulthum-moment-1", textKey: "umm-kulthum.moment.1", sourceIds: ["src_ummkulthum_wikipedia", "src_ummkulthum_britannica"] },
+      {
+        id: "umm-kulthum-moment-2",
+        textKey: "umm-kulthum.moment.2",
+        interpretationKey: "umm-kulthum.interpretation.moment.2",
+        attributeId: "experimentation",
+        sourceIds: ["src_ummkulthum_britannica"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "umm-kulthum-turning-point-1",
+        textKey: "umm-kulthum.turning_point.1",
+        interpretationKey: "umm-kulthum.interpretation.turning_point.1",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_ummkulthum_wikipedia"],
+      },
+    ],
+  },
+
+  "sor-juana-ines-de-la-cruz": {
+    achievements: [
+      { id: "sor-juana-ines-de-la-cruz-achievement-1", textKey: "sor-juana-ines-de-la-cruz.achievement.1", sourceIds: ["src_sorjuana_paz", "src_sorjuana_wikipedia"] },
+      { id: "sor-juana-ines-de-la-cruz-achievement-2", textKey: "sor-juana-ines-de-la-cruz.achievement.2", sourceIds: ["src_sorjuana_paz"] },
+      { id: "sor-juana-ines-de-la-cruz-achievement-3", textKey: "sor-juana-ines-de-la-cruz.achievement.3", sourceIds: ["src_sorjuana_respuesta", "src_sorjuana_paz"] },
+    ],
+    moments: [
+      {
+        id: "sor-juana-ines-de-la-cruz-moment-1",
+        textKey: "sor-juana-ines-de-la-cruz.moment.1",
+        interpretationKey: "sor-juana-ines-de-la-cruz.interpretation.moment.1",
+        attributeId: "social_assertiveness",
+        sourceIds: ["src_sorjuana_paz"],
+      },
+      {
+        id: "sor-juana-ines-de-la-cruz-moment-2",
+        textKey: "sor-juana-ines-de-la-cruz.moment.2",
+        interpretationKey: "sor-juana-ines-de-la-cruz.interpretation.moment.2",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_sorjuana_paz"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "sor-juana-ines-de-la-cruz-turning-point-1",
+        textKey: "sor-juana-ines-de-la-cruz.turning_point.1",
+        interpretationKey: "sor-juana-ines-de-la-cruz.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_sorjuana_paz", "src_sorjuana_wikipedia"],
+      },
+    ],
+  },
+
+  "emmy-noether": {
+    achievements: [
+      { id: "emmy-noether-achievement-1", textKey: "emmy-noether.achievement.1", sourceIds: ["src_noether_wikipedia"] },
+      { id: "emmy-noether-achievement-2", textKey: "emmy-noether.achievement.2", sourceIds: ["src_noether_wikipedia"] },
+      { id: "emmy-noether-achievement-3", textKey: "emmy-noether.achievement.3", sourceIds: ["src_noether_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "emmy-noether-moment-1",
+        textKey: "emmy-noether.moment.1",
+        interpretationKey: "emmy-noether.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_noether_wikipedia"],
+      },
+      { id: "emmy-noether-moment-2", textKey: "emmy-noether.moment.2", sourceIds: ["src_noether_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "emmy-noether-turning-point-1",
+        textKey: "emmy-noether.turning_point.1",
+        interpretationKey: "emmy-noether.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_noether_wikipedia", "src_noether_einstein"],
+      },
+    ],
+  },
 };

@@ -359,3 +359,39 @@ evidence tier" section, added specifically so this can't silently recur):
 Tier-C is untouched (6 of its 35 covered, all by the pilot); Tier-A has
 6 of 8 remaining. Re-run the audit tool for the current live numbers
 rather than trusting this table once it goes stale.
+
+**Batch 2 (`feat/editorial-backfill-batch-2`).** A second 10-person
+Tier-B backfill: Charles Darwin, Frederick Douglass, Ibn Sina, Martin
+Luther King Jr., Rachel Carson, Hildegard of Bingen, Florence
+Nightingale, Umm Kulthum, Sor Juana Inés de la Cruz, and Emmy Noether —
+selected the same way as Batch 1 (rank the remaining Tier-B people by
+evidence richness, then choose among similarly-strong candidates for
+era/region/profession/gender diversity), with a deliberate correction
+this round: the top 10 by pure richness were all male, so 6 of the 10
+selected instead trade a modest amount of richness (still comfortably
+inside the `Rich` bucket, 546-723 words) for real gender/geography/
+profession balance — see the batch's own commit history for the full
+per-person rationale. All content drawn entirely from each person's
+existing `data-pipeline/candidates/*.json` rationale and sources — no
+external research. Structural validation clean (0 issues), Korean
+coverage 100%, matching/scoring untouched (confirmed: `git diff` against
+`src/core/matching`, `src/core/attributes`, and every roster/db file is
+empty). Opener diversity was checked DURING authoring, not only at the
+end — two internal near-duplicate openers (MLK's and Sor Juana's; Florence
+Nightingale's and Emmy Noether's) were caught and rewritten before commit;
+the final batch introduces zero repeated interpretation openers of its own
+(39 of its 44 distinct 4-word opener prefixes are used exactly once — the
+only reused openers in the full 30-person corpus are all pre-existing,
+from the pilot/Batch 1).
+
+Corrected, mechanically-computed figures after Batch 2:
+
+| Tier | Total | Complete | Remaining |
+|---|---|---|---|
+| A (full evidence ledger) | 8 | 2 | 6 |
+| B (qa_passed candidate JSON) | 52 | 22 | 30 |
+| C (inline TS comments only) | 35 | 6 | 29 |
+| **Total** | **95** | **30** | **65** |
+
+171 total items (79 achievements, 61 moments, 31 turning points), 57 with
+an interpretation. Re-run the audit tool for the current live numbers.
