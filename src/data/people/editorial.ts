@@ -1337,4 +1337,203 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  "wilbur-wright": {
+    achievements: [
+      { id: "wilbur-wright-achievement-1", textKey: "wilbur-wright.achievement.1", sourceIds: ["src_wright_mccullough", "src_wright_wikipedia"] },
+      { id: "wilbur-wright-achievement-2", textKey: "wilbur-wright.achievement.2", sourceIds: ["src_wright_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "wilbur-wright-moment-1",
+        textKey: "wilbur-wright.moment.1",
+        interpretationKey: "wilbur-wright.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_wright_mccullough"],
+      },
+      { id: "wilbur-wright-moment-2", textKey: "wilbur-wright.moment.2", sourceIds: ["src_wright_mccullough"] },
+      { id: "wilbur-wright-moment-3", textKey: "wilbur-wright.moment.3", sourceIds: ["src_wright_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "wilbur-wright-turning-point-1",
+        textKey: "wilbur-wright.turning_point.1",
+        interpretationKey: "wilbur-wright.interpretation.turning_point.1",
+        attributeId: "persuasiveness",
+        sourceIds: ["src_wright_mccullough", "src_wright_wikipedia"],
+      },
+    ],
+  },
+
+  "nicolaus-copernicus": {
+    achievements: [
+      { id: "nicolaus-copernicus-achievement-1", textKey: "nicolaus-copernicus.achievement.1", sourceIds: ["src_copernicus_revolutionibus", "src_copernicus_wikipedia"] },
+      { id: "nicolaus-copernicus-achievement-2", textKey: "nicolaus-copernicus.achievement.2", sourceIds: ["src_copernicus_wikipedia", "src_copernicus_mactutor"] },
+    ],
+    moments: [
+      {
+        id: "nicolaus-copernicus-moment-1",
+        textKey: "nicolaus-copernicus.moment.1",
+        interpretationKey: "nicolaus-copernicus.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_copernicus_mactutor"],
+      },
+      { id: "nicolaus-copernicus-moment-2", textKey: "nicolaus-copernicus.moment.2", sourceIds: ["src_copernicus_gingerich"] },
+    ],
+    turningPoints: [
+      {
+        id: "nicolaus-copernicus-turning-point-1",
+        textKey: "nicolaus-copernicus.turning_point.1",
+        interpretationKey: "nicolaus-copernicus.interpretation.turning_point.1",
+        attributeId: "perfectionism",
+        sourceIds: ["src_copernicus_gingerich", "src_copernicus_wikipedia"],
+      },
+    ],
+  },
+
+  "susan-b-anthony": {
+    achievements: [
+      { id: "susan-b-anthony-achievement-1", textKey: "susan-b-anthony.achievement.1", sourceIds: ["src_anthony_wikipedia", "src_anthony_nps"] },
+      { id: "susan-b-anthony-achievement-2", textKey: "susan-b-anthony.achievement.2", sourceIds: ["src_anthony_wikipedia"] },
+    ],
+    moments: [
+      { id: "susan-b-anthony-moment-1", textKey: "susan-b-anthony.moment.1", sourceIds: ["src_anthony_nps", "src_anthony_wikipedia"] },
+      {
+        id: "susan-b-anthony-moment-2",
+        textKey: "susan-b-anthony.moment.2",
+        interpretationKey: "susan-b-anthony.interpretation.moment.2",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_anthony_wikipedia", "src_anthony_nps"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "susan-b-anthony-turning-point-1",
+        textKey: "susan-b-anthony.turning_point.1",
+        interpretationKey: "susan-b-anthony.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_anthony_wikipedia"],
+      },
+    ],
+  },
+
+  "galileo-galilei": {
+    achievements: [
+      { id: "galileo-galilei-achievement-1", textKey: "galileo-galilei.achievement.1", sourceIds: ["src_galileo_wikipedia"] },
+      { id: "galileo-galilei-achievement-2", textKey: "galileo-galilei.achievement.2", sourceIds: ["src_galileo_drake"] },
+    ],
+    moments: [
+      { id: "galileo-galilei-moment-1", textKey: "galileo-galilei.moment.1", sourceIds: ["src_galileo_wikipedia"] },
+      {
+        id: "galileo-galilei-moment-2",
+        textKey: "galileo-galilei.moment.2",
+        interpretationKey: "galileo-galilei.interpretation.moment.2",
+        attributeId: "belief_updating",
+        sourceIds: ["src_galileo_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "galileo-galilei-turning-point-1",
+        textKey: "galileo-galilei.turning_point.1",
+        interpretationKey: "galileo-galilei.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_galileo_wikipedia"],
+      },
+    ],
+  },
+
+  "niels-bohr": {
+    achievements: [
+      { id: "niels-bohr-achievement-1", textKey: "niels-bohr.achievement.1", sourceIds: ["src_bohr_nobel", "src_bohr_pais"] },
+      { id: "niels-bohr-achievement-2", textKey: "niels-bohr.achievement.2", sourceIds: ["src_bohr_wikipedia", "src_bohr_pais"] },
+    ],
+    moments: [
+      {
+        id: "niels-bohr-moment-1",
+        textKey: "niels-bohr.moment.1",
+        interpretationKey: "niels-bohr.interpretation.moment.1",
+        attributeId: "persuasiveness",
+        sourceIds: ["src_bohr_pais"],
+      },
+      { id: "niels-bohr-moment-2", textKey: "niels-bohr.moment.2", sourceIds: ["src_bohr_pais", "src_bohr_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "niels-bohr-turning-point-1",
+        textKey: "niels-bohr.turning_point.1",
+        interpretationKey: "niels-bohr.interpretation.turning_point.1",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_bohr_pais"],
+      },
+    ],
+  },
+
+  "immanuel-kant": {
+    achievements: [
+      { id: "immanuel-kant-achievement-1", textKey: "immanuel-kant.achievement.1", sourceIds: ["src_kant_sep", "src_kant_wikipedia"] },
+      { id: "immanuel-kant-achievement-2", textKey: "immanuel-kant.achievement.2", sourceIds: ["src_kant_wikipedia", "src_kant_sep"] },
+    ],
+    moments: [
+      { id: "immanuel-kant-moment-1", textKey: "immanuel-kant.moment.1", sourceIds: ["src_kant_kuehn"] },
+      {
+        id: "immanuel-kant-moment-2",
+        textKey: "immanuel-kant.moment.2",
+        interpretationKey: "immanuel-kant.interpretation.moment.2",
+        attributeId: "perfectionism",
+        sourceIds: ["src_kant_kuehn"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "immanuel-kant-turning-point-1",
+        textKey: "immanuel-kant.turning_point.1",
+        interpretationKey: "immanuel-kant.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_kant_kuehn", "src_kant_wikipedia"],
+      },
+    ],
+  },
+
+  "octavia-butler": {
+    achievements: [{ id: "octavia-butler-achievement-1", textKey: "octavia-butler.achievement.1", sourceIds: ["src_butler_wikipedia"] }],
+    moments: [
+      {
+        id: "octavia-butler-moment-1",
+        textKey: "octavia-butler.moment.1",
+        interpretationKey: "octavia-butler.interpretation.moment.1",
+        attributeId: "achievement_drive",
+        sourceIds: ["src_butler_huntington"],
+      },
+      { id: "octavia-butler-moment-2", textKey: "octavia-butler.moment.2", sourceIds: ["src_butler_wikipedia"] },
+      { id: "octavia-butler-moment-3", textKey: "octavia-butler.moment.3", sourceIds: ["src_butler_wikipedia"] },
+    ],
+    turningPoints: [],
+  },
+
+  "rabindranath-tagore": {
+    achievements: [
+      { id: "rabindranath-tagore-achievement-1", textKey: "rabindranath-tagore.achievement.1", sourceIds: ["src_tagore_nobel", "src_tagore_wikipedia"] },
+      { id: "rabindranath-tagore-achievement-2", textKey: "rabindranath-tagore.achievement.2", sourceIds: ["src_tagore_wikipedia"] },
+    ],
+    moments: [
+      { id: "rabindranath-tagore-moment-1", textKey: "rabindranath-tagore.moment.1", sourceIds: ["src_tagore_wikipedia"] },
+      {
+        id: "rabindranath-tagore-moment-2",
+        textKey: "rabindranath-tagore.moment.2",
+        interpretationKey: "rabindranath-tagore.interpretation.moment.2",
+        attributeId: "mastery_orientation",
+        sourceIds: ["src_tagore_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "rabindranath-tagore-turning-point-1",
+        textKey: "rabindranath-tagore.turning_point.1",
+        interpretationKey: "rabindranath-tagore.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_tagore_wikipedia"],
+      },
+    ],
+  },
 };

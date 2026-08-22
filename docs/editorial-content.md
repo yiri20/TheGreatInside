@@ -560,5 +560,53 @@ coverage). Structural validation clean (0 issues,
 from the pre-batch baseline) — editorial content is presentation-only and
 touches no `src/core/matching`/`src/core/attributes`/roster file, confirmed
 by `git diff` scope (only `src/core/i18n/editorial.ts` and
-`src/data/people/editorial.ts` changed). Re-run the audit tool for the
+`src/data/people/editorial.ts` changed).
+
+**Batch 5 (`feat/editorial-backfill-batch-5`).** An eighth 8-person Tier-B
+backfill (a bounded batch, not the full 16 remaining): Wilbur Wright,
+Nicolaus Copernicus, Susan B. Anthony, Galileo Galilei, Niels Bohr,
+Immanuel Kant, Octavia Butler, and Rabindranath Tagore — selected as the
+top 8 of the 16 remaining Tier-B people by the audit tool's own
+evidence-richness ranking (612-558 words, all in the `Rich` bucket,
+comfortably above ranks 9-16's 501-442 words), a clean cut that happens
+to fall exactly on the audit's own Rich/Adequate bucket boundary. Unlike
+Batch 3, no richness was traded for diversity this round — the top 8
+already spans 6 geographies (US×3, Poland, Italy, Denmark, Germany,
+Bengal/British Raj), 5 domains (aviation, astronomy, activism, physics,
+philosophy, literature×2), the Renaissance through the 20th century, and
+2 women among 8, so no swap was needed. All content drawn entirely from
+each person's existing `data-pipeline/candidates/*.json` rationale and
+`sources` array (cross-checked against each person's live `roster*.ts`
+`sources` field before writing, not assumed identical) — no external
+research. Octavia Butler deliberately shipped with an asymmetric shape (1
+achievement, 3 moments, 0 turning points) rather than a forced turning
+point: her strongest evidence (day-job years, dated notebook
+affirmations, the Clarion workshop) never resolves into one specific,
+dated before/after trajectory shift, so no turning point was written for
+her, per the "some profiles may deserve fewer items" instruction. Opener
+diversity was checked mechanically before commit: of Batch 5's 15
+interpretations, all 15 use a distinct 4-word opening phrase, with zero
+overlap against the pre-existing corpus's own most-reused openers ("This
+is consistent with", 6 uses corpus-wide, unchanged and not added to by
+Batch 5). Structural validation clean (0 issues), Korean coverage 100%,
+matching health unaffected (`simulate.ts 10000 quiz`: Warren Buffett #1
+frequency 12.0%, unchanged), and `git diff` against `src/core/matching`,
+`src/core/attributes`, `db/`, and every roster file is empty — only
+`src/core/i18n/editorial.ts` and `src/data/people/editorial.ts` changed.
+
+Corrected, mechanically-computed figures after Batch 5:
+
+| Tier | Total | Complete | Remaining |
+|---|---|---|---|
+| A (full evidence ledger) | 8 | **8** | **0** |
+| B (qa_passed candidate JSON) | 52 | **44** | **8** |
+| C (inline TS comments only) | 35 | 6 | 29 |
+| **Total** | **95** | **58** | **37** |
+
+326 total items (143 achievements, 126 moments, 57 turning points), 112
+with an interpretation, 438 distinct EN keys / 438 KO keys (100%
+coverage). The 8 remaining Tier-B people (Aristotle, Simón Bolívar, Grace
+Hopper, C. V. Raman, Benjamin Banneker, Fela Kuti, Toussaint Louverture,
+Chinua Achebe — Aristotle/Bolívar in the `Rich` bucket, the other 6 in
+`Adequate`) are the natural Batch 6 pool. Re-run the audit tool for the
 current live numbers rather than trusting this table once it goes stale.

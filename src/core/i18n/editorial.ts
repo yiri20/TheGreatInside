@@ -890,6 +890,132 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This sustained, self-imposed program is the specific, self-narrated evidence behind the profile's deep_focus and discipline scores.",
   "malcolm-x.interpretation.turning_point.1":
     "This is among the more extensively self-documented instances of belief_updating in the roster: a first-person account of revising a deeply held public position after direct experience, not a characterization applied by others.",
+
+  /* --------------------------------------------------- Batch 5: Wilbur Wright */
+  "wilbur-wright.achievement.1":
+    "Between 1900 and 1903, Wilbur and his brother Orville ran a staged, systematic research program at Kitty Hawk — building their own wind tunnel once they found existing published lift data unreliable, then testing unpowered gliders across multiple seasons before ever attempting powered flight — culminating in the first sustained, controlled, powered flight in December 1903.",
+  "wilbur-wright.achievement.2":
+    "Their three-axis control system — wing-warping for roll paired with a movable rudder for yaw, alongside pitch control — was a genuinely original engineering solution to the flight-control problem that other aviation inventors of the era had not solved, documented via the patent record and subsequent aviation-history assessment.",
+  "wilbur-wright.moment.1":
+    "When their own glider tests failed to match Otto Lilienthal's previously published aerodynamic lift tables, the Wrights concluded the published data itself was wrong rather than assuming their own testing was flawed, and built their own wind tunnel to generate more reliable figures.",
+  "wilbur-wright.moment.2":
+    "For several years after their first successful flights, Wilbur and Orville deliberately avoided public demonstrations and press coverage, prioritizing patent protection for their still-unpatented invention over public recognition — a documented, sustained choice, not a brief period of caution.",
+  "wilbur-wright.moment.3":
+    "In the years after their invention became public, the Wrights pursued years of aggressive patent litigation against rival aviation developers, including Glenn Curtiss — a documented pattern that protected their invention but that some aviation historians also credit with slowing the broader development of American aviation in the following decade.",
+  "wilbur-wright.turning_point.1":
+    "After years of guarding their invention from public view, Wilbur organized public demonstration flights in France in 1908 that directly and successfully convinced skeptical press and government observers who had previously doubted their flight claims — a deliberate shift from years of secrecy to public proof, not a change forced by outside pressure.",
+  "wilbur-wright.interpretation.moment.1":
+    "Trusting first-hand test results over an established authority's published figures, and then building the tool needed to confirm it, is consistent with the profile's independent_thinking and resourcefulness scores.",
+  "wilbur-wright.interpretation.turning_point.1":
+    "Choosing exactly when to end years of self-imposed secrecy, rather than being forced into the open, is consistent with the profile's persuasiveness score — a strategic decision, not a change in temperament.",
+
+  /* ---------------------------------------------- Batch 5: Nicolaus Copernicus */
+  "nicolaus-copernicus.achievement.1":
+    "In De revolutionibus orbium coelestium, Copernicus built a complete, internally consistent heliocentric alternative to the geocentric model that had stood for over a millennium, developing detailed mathematical and geometric argument for a Sun-centered solar system directly within the text itself.",
+  "nicolaus-copernicus.achievement.2":
+    "Alongside his astronomical work, Copernicus wrote a treatise on currency debasement and personally presented monetary-reform proposals to the Diet of Graudenz in 1522 — a genuine second field of documented contribution, not incidental dabbling.",
+  "nicolaus-copernicus.moment.1":
+    "During the Polish–Teutonic Knights conflict of 1520–1521, Copernicus personally organized the defense of Allenstein Castle — a canon and astronomer taking direct, hands-on responsibility for a military defense well outside his scholarly and clerical duties, documented via the MacTutor History of Mathematics archive.",
+  "nicolaus-copernicus.moment.2":
+    "Copernicus completed the core mathematics of the heliocentric model by around 1514 but did not allow publication for nearly three decades; Georg Joachim Rheticus, the mathematician who eventually helped secure its release, described in his own correspondence Copernicus's \"prolonged reluctance to release his volume for publication\" (Gingerich).",
+  "nicolaus-copernicus.turning_point.1":
+    "Persuaded at last by Rheticus, Copernicus allowed De revolutionibus to be published in 1543, in the final weeks of his life — a model that had existed only as private, decades-long refinement became, almost overnight, the text that would reshape the following century of astronomy, largely without its author present to defend or extend it further.",
+  "nicolaus-copernicus.interpretation.moment.1":
+    "This documented episode, not his later astronomical reputation, is the concrete basis for the profile's proactive_agency score.",
+  "nicolaus-copernicus.interpretation.turning_point.1":
+    "The decades-long gap between finishing the mathematics and allowing it into the world is consistent with the profile's dual-edged perfectionism score — the same standard that produced an unusually developed model also delayed its influence for a generation.",
+
+  /* ------------------------------------------------- Batch 5: Susan B. Anthony */
+  "susan-b-anthony.achievement.1":
+    "Anthony co-founded the American Equal Rights Association in 1866 and the National Woman Suffrage Association in 1869, and held leadership roles in both organizations for decades — documented, sustained institutional leadership, not honorary positions.",
+  "susan-b-anthony.achievement.2":
+    "She sustained a working partnership with Elizabeth Cady Stanton across more than fifty years and multiple organizations, including co-authorship of the multi-volume History of Woman Suffrage — an extensively corroborated, long-duration collaborative record.",
+  "susan-b-anthony.moment.1":
+    "In the 1872 presidential election, Anthony deliberately registered to vote and cast a ballot alongside a small group that included family members, specifically to force a legal test case of the newly ratified 14th and 15th Amendments — a calculated act, not a spontaneous one, that led directly to her arrest and prosecution.",
+  "susan-b-anthony.moment.2":
+    "At her 1873 trial, the presiding judge directed the jury to a guilty verdict without deliberation — a widely noted irregularity — and Anthony delivered a sustained courtroom speech (\"may it please the court...\") refusing to recognize the court's authority over her, rather than accept the outcome quietly.",
+  "susan-b-anthony.turning_point.1":
+    "In 1852, after being refused the chance to speak at a temperance meeting because she was a woman, Anthony did not seek another platform — she organized the Woman's New York State Temperance Society herself. The same response to exclusion, building a new institution rather than seeking entry to an existing one, recurred in her later co-founding of the American Equal Rights Association and the National Woman Suffrage Association.",
+  "susan-b-anthony.interpretation.moment.2":
+    "Refusing to concede legitimacy to the court that convicted her, in one of the highest-stakes settings available to her, is consistent with the profile's independent_thinking and social_assertiveness scores.",
+  "susan-b-anthony.interpretation.turning_point.1":
+    "That this pattern repeats across a career spanning decades, not just this one early episode, is consistent with the profile's proactive_agency and autonomy_need scores.",
+
+  /* --------------------------------------------------- Batch 5: Galileo Galilei */
+  "galileo-galilei.achievement.1":
+    "On hearing secondhand reports of a Dutch spyglass in 1609, Galileo built and rapidly improved his own telescope within months, then turned it toward the sky rather than only the terrestrial and military uses it was marketed for — publishing Jupiter's moons and other findings in Sidereus Nuncius within about a year of his first observations.",
+  "galileo-galilei.achievement.2":
+    "His inclined-plane and pendulum experiments produced quantitative, repeatable measurements of falling-body motion — a documented, distinctly quantitative methodology apart from the qualitative physics that dominated the period, reconstructed in detail from his own notebooks by historian Stillman Drake.",
+  "galileo-galilei.moment.1":
+    "He wrote the 1632 Dialogue Concerning the Two Chief World Systems in vernacular Italian rather than scholarly Latin, deliberately reaching a wider lay readership, and structured it as a pointed dialogue that included a character widely read by contemporaries as mocking a Church-aligned position on cosmology.",
+  "galileo-galilei.moment.2":
+    "Despite Johannes Kepler's published evidence for elliptical planetary orbits, Galileo continued to favor circular orbits for the rest of his life — a specific, documented instance in which he did not revise a particular technical position after new evidence became available.",
+  "galileo-galilei.turning_point.1":
+    "In 1616 the Catholic Church formally prohibited Galileo from teaching or defending heliocentrism. He continued making the case for it regardless, including in the 1632 Dialogue, published after an explicit prior warning. In 1633 he was tried by the Roman Inquisition, forced to recant, and spent the remainder of his life under house arrest.",
+  "galileo-galilei.interpretation.moment.2":
+    "This is the concrete, source-grounded basis for the profile's comparatively low belief_updating score on this point — not a general claim about his openness to evidence elsewhere in his career, where the telescope itself shows the opposite pattern.",
+  "galileo-galilei.interpretation.turning_point.1":
+    "Continuing to argue a prohibited position rather than complying quietly is consistent with the profile's independent_thinking and risk_tolerance scores — though the consequence, house arrest until his death nine years later, was severe enough that this should not be read as a costless choice.",
+
+  /* ------------------------------------------------------- Batch 5: Niels Bohr */
+  "niels-bohr.achievement.1":
+    "The Bohr model of the atom and the later Copenhagen interpretation of quantum mechanics built a coherent conceptual framework reconciling classical and quantum phenomena — a genuinely novel departure from classical physics at the time, documented via its 1922 Nobel Prize citation and Abraham Pais's detailed intellectual biography.",
+  "niels-bohr.achievement.2":
+    "He founded and led the Institute for Theoretical Physics in Copenhagen, now the Niels Bohr Institute, which became an international hub drawing physicists including Werner Heisenberg, Wolfgang Pauli, and Paul Dirac for extended, genuinely collaborative visits, documented via the Institute's own well-recorded history.",
+  "niels-bohr.moment.1":
+    "Pais's biography and the accounts of the physicists themselves describe a distinctive mentoring style: extended one-on-one dialogue that led a generation of visitors — Heisenberg, Pauli, and Lev Landau among others — toward their own insights rather than through direct instruction.",
+  "niels-bohr.moment.2":
+    "Warned of imminent arrest as Nazi occupation authorities moved against Danish Jews in 1943 — his mother was Jewish — Bohr fled Denmark for Sweden and eventually Britain and the United States, where he went on to work on the Manhattan Project.",
+  "niels-bohr.turning_point.1":
+    "After his wartime work on the Manhattan Project, Bohr shifted his public efforts toward restraint: in 1944 he sent a direct memorandum to both Winston Churchill and Franklin Roosevelt warning of the dangers of an unrestrained postwar nuclear arms race and arguing for international openness around nuclear science, advocacy he continued for the rest of his life.",
+  "niels-bohr.interpretation.moment.1":
+    "This is a distinctive form of persuasive influence in the profile — not direct instruction or public rhetoric, but guiding others toward conclusions they arrive at themselves, consistent with the profile's persuasiveness score.",
+  "niels-bohr.interpretation.turning_point.1":
+    "This shift, from wartime contributor to postwar advocate for openness, is consistent with the profile's impact_motivation score, and echoes the same willingness to argue an unpopular position directly to power already visible in his decades-long public debates with Einstein over quantum theory.",
+
+  /* -------------------------------------------------- Batch 5: Immanuel Kant */
+  "immanuel-kant.achievement.1":
+    "Across the Critique of Pure Reason (1781), the Critique of Practical Reason, and the Critique of Judgment, Kant built a unified philosophical system spanning epistemology, ethics, and aesthetics under one coherent framework — work the Stanford Encyclopedia of Philosophy regards as among the most rigorous in the Western philosophical canon.",
+  "immanuel-kant.achievement.2":
+    "His moral philosophy, centered on the categorical imperative, was explicitly framed in the Groundwork of the Metaphysics of Morals as a standard of universal ethical duty applicable to all rational beings, not a code specific to any one place, tradition, or circumstance.",
+  "immanuel-kant.moment.1":
+    "Kant maintained such a precise, unvarying daily routine — including his afternoon walk — that residents of Königsberg reportedly set their clocks by it, a pattern corroborated across multiple contemporary and biographical accounts (Kuehn), not a single repeated anecdote.",
+  "immanuel-kant.moment.2":
+    "After early academic promise, Kant published comparatively little through his forties and early fifties while privately developing his mature philosophical system, releasing the Critique of Pure Reason only at 57 — a deliberate, extended period of private revision, according to Kuehn's biography, rather than a lack of activity.",
+  "immanuel-kant.turning_point.1":
+    "Kant's later work on religion, Religion within the Bounds of Bare Reason, drew formal censure from Prussian royal censors, who directed him not to write further on religious subjects — a real institutional consequence of a published position, in a career that Kuehn's biography otherwise describes as marked by institutional caution and an unusually careful, routine-bound public life.",
+  "immanuel-kant.interpretation.moment.2":
+    "The length of this private revision period, not merely its existence, is what grounds the profile's dual-edged perfectionism score — the same standard that produced a famously rigorous system also delayed it for over a decade.",
+  "immanuel-kant.interpretation.turning_point.1":
+    "This stands out precisely because it departs from the otherwise cautious pattern the rest of the profile describes — a considered risk taken within a careful life, not evidence of a broader pattern of confrontation.",
+
+  /* ------------------------------------------------------ Batch 5: Octavia Butler */
+  "octavia-butler.achievement.1":
+    "Her novel Kindred and the Xenogenesis and Parable series built distinctive thematic territory — genetic engineering, power and consent, an Afrofuturist blend of slavery-era history and time travel — largely unexplored in science fiction at the time she was writing, and established her as one of very few Black women publishing in the genre in the 1970s and 1980s.",
+  "octavia-butler.moment.1":
+    "Her surviving personal notebooks, now archived at the Huntington Library, include dated personal affirmations about becoming a bestselling author, written years before that outcome — a documented record of goal-directed intent that precedes the success, not a claim reconstructed after the fact.",
+  "octavia-butler.moment.2":
+    "By her own account in interviews, she worked a series of unrelated day jobs for years while sustaining her writing practice, continuing to submit work through documented years of rejection before her first novel sale.",
+  "octavia-butler.moment.3":
+    "Early in her career she attended the Clarion Science Fiction Writers' Workshop, a documented formative collaborative experience — notable in a career that she and her biographers otherwise describe as more comfortable in solitary writing than in public or group settings.",
+  "octavia-butler.interpretation.moment.1":
+    "This kind of self-authored, dated evidence is unusually direct for grounding a trait score — most items in this profile rely on secondhand biographical description; this one rests on her own hand.",
+
+  /* --------------------------------------------- Batch 5: Rabindranath Tagore */
+  "rabindranath-tagore.achievement.1":
+    "Tagore's 1913 Nobel Prize in Literature for Gitanjali was an internationally, independently verified recognition of a specific body of work: he had already produced thousands of poems and songs alongside novels and plays, and the Nobel citation and the collection's sustained international critical reception documented recognition of his aesthetic craft specifically, not only his volume of output.",
+  "rabindranath-tagore.achievement.2":
+    "He founded Visva-Bharati University at Santiniketan as an alternative, humanistic model of education distinct from colonial-era schooling — a self-initiated, sustained institution-building effort beyond his literary work, documented via the university's own founding history.",
+  "rabindranath-tagore.moment.1":
+    "Tagore composed both India's and Bangladesh's national anthems — a documented, unusual fact that reflects the reach of his creative output well beyond literature alone, into a form that would later become part of two nations' civic identity.",
+  "rabindranath-tagore.moment.2":
+    "He took up painting seriously only in his sixties, decades after his literary reputation was already internationally established, pursuing it purely from continued creative interest rather than any external need.",
+  "rabindranath-tagore.turning_point.1":
+    "In 1919, Tagore publicly renounced the British knighthood he had been awarded, in protest of the Jallianwala Bagh massacre in Amritsar, where British colonial troops killed hundreds of unarmed civilians — a high-profile act of dissent against the same colonial establishment that had honored him, carrying real social and political risk within it.",
+  "rabindranath-tagore.interpretation.moment.2":
+    "Beginning a new discipline from scratch well after mastery in another was already secure, and while there was nothing left to prove, is consistent with the profile's mastery_orientation score.",
+  "rabindranath-tagore.interpretation.turning_point.1":
+    "Giving up a formal honor already granted, rather than voicing private disapproval while keeping it, is consistent with the profile's independent_thinking and risk_tolerance scores.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -1760,6 +1886,132 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이 지속적이고 스스로 부과한 학습 프로그램은 프로필의 몰입(deep_focus) 및 자기 규율(discipline) 점수를 뒷받침하는, 본인이 직접 서술한 구체적인 증거다.",
   "malcolm-x.interpretation.turning_point.1":
     "이는 이 데이터셋 안에서도 손꼽히게 폭넓게 스스로 기록된 입장 수정 성향(belief_updating)의 사례다 — 타인이 규정한 특징이 아니라, 직접적인 경험 이후 깊이 지녔던 공적 입장을 수정한 과정을 1인칭으로 서술한 기록이다.",
+
+  /* --------------------------------------------------- Batch 5: Wilbur Wright */
+  "wilbur-wright.achievement.1":
+    "1900년부터 1903년까지 윌버와 동생 오빌은 키티호크에서 단계적이고 체계적인 연구 프로그램을 진행했다 — 기존에 발표된 양력 데이터가 신뢰할 수 없다는 것을 발견한 뒤 직접 풍동을 만들었고, 동력 비행을 시도하기 전 여러 시즌에 걸쳐 무동력 글라이더를 시험했으며, 1903년 12월 최초의 지속적이고 조종 가능한 동력 비행으로 이어졌다.",
+  "wilbur-wright.achievement.2":
+    "피치, 롤, 요를 아우르는 삼축 조종 시스템 — 롤을 위한 날개 뒤틀림과 요를 위한 가동식 방향타를 결합한 방식 — 은 당대 다른 항공 발명가들이 풀지 못했던 비행 제어 문제에 대한 진정으로 독창적인 공학적 해법이었으며, 특허 기록과 이후 항공사 연구를 통해 뒷받침된다.",
+  "wilbur-wright.moment.1":
+    "자신들의 글라이더 시험 결과가 오토 릴리엔탈이 이전에 발표한 공기역학 양력 표와 맞지 않자, 라이트 형제는 자신들의 시험이 잘못되었다고 가정하는 대신 발표된 데이터 자체가 틀렸다고 결론지었고, 더 신뢰할 수 있는 수치를 얻기 위해 직접 풍동을 제작했다.",
+  "wilbur-wright.moment.2":
+    "첫 성공적인 비행 이후 몇 년 동안 윌버와 오빌은 의도적으로 공개 시연이나 언론 노출을 피했으며, 아직 특허를 받지 못한 발명품의 보호를 대중적 인정보다 우선시했다 — 짧은 기간의 조심스러움이 아니라, 기록으로 확인되는 지속적인 선택이었다.",
+  "wilbur-wright.moment.3":
+    "발명품이 공개된 이후 몇 년 동안 라이트 형제는 글렌 커티스를 포함한 경쟁 항공 개발자들을 상대로 수년간의 공격적인 특허 소송을 벌였다 — 자신들의 발명을 보호한 기록된 패턴이지만, 일부 항공사 연구자들은 이후 수십 년간 미국 항공 산업 전반의 발전을 늦추는 데도 일조했다고 평가한다.",
+  "wilbur-wright.turning_point.1":
+    "발명품을 대중의 시야로부터 여러 해 동안 지켜온 뒤, 윌버는 1908년 프랑스에서 공개 시연 비행을 조직해 그동안 비행 주장을 의심해 온 회의적인 언론과 정부 관찰자들을 직접적이고 성공적으로 설득했다 — 오랜 비밀 유지에서 공개적 증명으로의 의도적인 전환이었지, 외부 압력에 의해 강요된 변화가 아니었다.",
+  "wilbur-wright.interpretation.moment.1":
+    "확립된 권위자가 발표한 수치보다 직접 얻은 시험 결과를 신뢰하고, 이를 확인할 도구를 직접 만든 것은 프로필의 독립적 사고(independent_thinking) 및 자원 활용 성향(resourcefulness) 점수와 부합한다.",
+  "wilbur-wright.interpretation.turning_point.1":
+    "여러 해에 걸친 자발적인 비밀 유지를 언제 끝낼지 스스로 선택한 것은, 외부에 의해 공개로 떠밀린 것이 아니라는 점에서 프로필의 설득력(persuasiveness) 점수와 부합한다 — 성격의 변화가 아니라 전략적 결정이다.",
+
+  /* ---------------------------------------------- Batch 5: Nicolaus Copernicus */
+  "nicolaus-copernicus.achievement.1":
+    "코페르니쿠스는 『천구의 회전에 관하여』에서 천 년 넘게 이어져 온 지구 중심 모델을 대체할, 완전하고 내적으로 일관된 태양 중심 모델을 구축했으며, 태양을 중심으로 한 태양계에 대한 상세한 수학적·기하학적 논증을 텍스트 안에 직접 전개했다.",
+  "nicolaus-copernicus.achievement.2":
+    "천문학 연구와 더불어 코페르니쿠스는 화폐 가치 하락에 관한 논고를 저술했고, 1522년 그라우덴츠 의회에 직접 통화 개혁안을 제출했다 — 부수적인 여가 활동이 아니라, 기록으로 확인되는 진정한 두 번째 분야에서의 기여였다.",
+  "nicolaus-copernicus.moment.1":
+    "1520~1521년 폴란드-튜튼 기사단 전쟁 중, 코페르니쿠스는 알렌슈타인 성의 방어를 직접 조직했다 — 성직자이자 천문학자가 자신의 학문적·성직 업무와는 전혀 다른 군사 방어를 직접 맡은 사례로, 매쿠터 수학사 아카이브를 통해 기록되어 있다.",
+  "nicolaus-copernicus.moment.2":
+    "코페르니쿠스는 1514년 무렵 태양 중심 모델의 핵심 수학을 완성했지만 거의 삼십 년 가까이 출판을 허락하지 않았다. 훗날 출판을 성사시키는 데 도움을 준 수학자 게오르크 요아힘 레티쿠스는 자신의 서신에서 코페르니쿠스의 태도를 '자신의 저작 출판을 미루려는 오랜 망설임'이라고 묘사했다(깅거리치).",
+  "nicolaus-copernicus.turning_point.1":
+    "결국 레티쿠스의 설득으로, 코페르니쿠스는 생의 마지막 몇 주 동안 『천구의 회전에 관하여』의 출판을 허락했다 — 수십 년간 사적으로 다듬어져 온 모델이 거의 하룻밤 사이에, 저자 본인이 이를 옹호하거나 더 발전시킬 기회도 없이 다음 세기 천문학을 뒤바꿀 텍스트가 되었다.",
+  "nicolaus-copernicus.interpretation.moment.1":
+    "이 기록된 일화는 그의 후대 천문학적 명성이 아니라, 프로필의 선제적 행동력(proactive_agency) 점수를 뒷받침하는 구체적인 근거다.",
+  "nicolaus-copernicus.interpretation.turning_point.1":
+    "수학을 완성한 시점과 그것을 세상에 내놓은 시점 사이의 수십 년에 이르는 간극은 프로필의 양면적인 완벽주의(perfectionism) 점수와 부합한다 — 이례적으로 발전된 모델을 만들어낸 바로 그 기준이, 그 영향력을 한 세대만큼 늦추기도 했다.",
+
+  /* ------------------------------------------------- Batch 5: Susan B. Anthony */
+  "susan-b-anthony.achievement.1":
+    "앤서니는 1866년 미국평등권협회를, 1869년 전국여성참정권협회를 공동 설립했고, 두 단체 모두에서 수십 년간 지도적 역할을 맡았다 — 명예직이 아니라 기록으로 확인되는 지속적인 조직 리더십이었다.",
+  "susan-b-anthony.achievement.2":
+    "그는 엘리자베스 케이디 스탠턴과 50년 넘게 여러 단체에 걸쳐 협력 관계를 이어갔으며, 여기에는 여러 권으로 이루어진 『여성 참정권의 역사』의 공동 저술도 포함된다 — 폭넓게 뒷받침되는, 장기간에 걸친 협업 기록이다.",
+  "susan-b-anthony.moment.1":
+    "1872년 대통령 선거에서 앤서니는 수정헌법 14조와 15조가 새로 비준된 것을 이용해 법적 시험 사례를 만들기 위해 가족을 포함한 소수의 인원과 함께 의도적으로 유권자 등록을 하고 투표했다 — 우발적인 행동이 아니라 계산된 행동이었으며, 이는 곧바로 그의 체포와 기소로 이어졌다.",
+  "susan-b-anthony.moment.2":
+    "1873년 재판에서 담당 판사는 배심원단에게 심의 없이 유죄 평결을 내리도록 지시했다 — 널리 지적된 절차상의 이례적 사건이다 — 그리고 앤서니는 '재판부가 허락한다면...'으로 시작하는 긴 법정 연설을 통해, 결과를 조용히 받아들이는 대신 자신에 대한 법원의 권한 자체를 인정하지 않겠다고 밝혔다.",
+  "susan-b-anthony.turning_point.1":
+    "1852년, 여성이라는 이유로 금주 집회에서 발언할 기회를 거부당한 뒤, 앤서니는 다른 발언 무대를 찾는 대신 직접 뉴욕주 여성금주협회를 조직했다. 배제에 대응해 기존 조직에 들어가려 하기보다 새로운 조직을 세우는 이 같은 방식은, 훗날 미국평등권협회와 전국여성참정권협회를 공동 설립할 때도 그대로 반복되었다.",
+  "susan-b-anthony.interpretation.moment.2":
+    "자신에게 유죄를 선고한 법원에 정당성을 인정하지 않은 것은, 그가 놓일 수 있었던 가장 위험 부담이 큰 상황 중 하나에서 이루어졌다는 점에서 프로필의 독립적 사고(independent_thinking) 및 사회적 적극성(social_assertiveness) 점수와 부합한다.",
+  "susan-b-anthony.interpretation.turning_point.1":
+    "이 패턴이 이 한 번의 초기 일화에 그치지 않고 수십 년에 걸친 경력 전반에서 반복된다는 점은 프로필의 선제적 행동력(proactive_agency) 및 자율성 욕구(autonomy_need) 점수와 부합한다.",
+
+  /* --------------------------------------------------- Batch 5: Galileo Galilei */
+  "galileo-galilei.achievement.1":
+    "1609년 네덜란드제 망원경에 대한 소문을 전해 듣자, 갈릴레오는 몇 달 만에 자신만의 망원경을 만들고 빠르게 개선했으며, 이를 판매 당시 강조되던 지상·군사적 용도가 아니라 하늘로 향하게 했다 — 첫 관측 이후 약 1년 만에 『별들의 소식』에서 목성의 위성 등의 발견을 발표했다.",
+  "galileo-galilei.achievement.2":
+    "그의 경사면 및 진자 실험은 낙하 운동에 대한 정량적이고 반복 가능한 측정 결과를 만들어냈다 — 당대를 지배하던 정성적 물리학과는 뚜렷이 구별되는 정량적 방법론으로, 역사학자 스틸먼 드레이크가 그의 노트를 바탕으로 상세히 재구성했다.",
+  "galileo-galilei.moment.1":
+    "그는 1632년 『두 우주 체계에 관한 대화』를 학술 라틴어가 아닌 이탈리아어로 저술해 더 폭넓은 일반 독자층에 의도적으로 다가갔으며, 당대 사람들이 교회 측 입장을 조롱한다고 널리 받아들인 등장인물을 포함시켜 날카로운 대화체로 구성했다.",
+  "galileo-galilei.moment.2":
+    "요하네스 케플러가 타원 궤도에 대한 증거를 발표했음에도, 갈릴레오는 여생 동안 원 궤도를 계속 선호했다 — 새로운 증거가 나온 뒤에도 특정한 기술적 입장을 수정하지 않은, 구체적으로 기록된 사례다.",
+  "galileo-galilei.turning_point.1":
+    "1616년 가톨릭교회는 갈릴레오가 태양 중심설을 가르치거나 옹호하는 것을 공식적으로 금지했다. 그럼에도 그는 1632년 『대화』를 포함해 계속해서 이를 주장했고, 이는 사전에 명시적인 경고를 받은 뒤 출판된 것이었다. 1633년 그는 로마 종교재판소에서 재판을 받았고, 철회를 강요받았으며, 남은 생애를 가택 연금 상태로 보냈다.",
+  "galileo-galilei.interpretation.moment.2":
+    "이는 이 지점에서 프로필의 상대적으로 낮은 입장 수정 성향(belief_updating) 점수를 뒷받침하는 구체적이고 사료에 근거한 대목이다 — 그의 경력 전반에 걸친 개방성에 대한 일반적 주장이 아니며, 오히려 망원경 관측 자체는 정반대의 패턴을 보여준다.",
+  "galileo-galilei.interpretation.turning_point.1":
+    "조용히 순응하는 대신 금지된 입장을 계속 주장한 것은 프로필의 독립적 사고(independent_thinking) 및 위험 감수(risk_tolerance) 점수와 부합한다 — 다만 그 결과, 즉 9년 뒤 세상을 떠날 때까지 이어진 가택 연금은 이를 대가 없는 선택으로 읽어서는 안 될 만큼 가혹했다.",
+
+  /* ------------------------------------------------------- Batch 5: Niels Bohr */
+  "niels-bohr.achievement.1":
+    "원자의 보어 모형과 이후의 코펜하겐 해석은 고전 물리학과 양자 현상을 조화시키는 일관된 개념적 틀을 구축했다 — 당시 고전 물리학으로부터의 진정으로 새로운 이탈로, 1922년 노벨상 수상 이유와 에이브러햄 파이스의 상세한 지적 전기를 통해 기록되어 있다.",
+  "niels-bohr.achievement.2":
+    "그는 코펜하겐에 이론물리학연구소(현재의 닐스 보어 연구소)를 설립하고 이끌었으며, 이 연구소는 베르너 하이젠베르크, 볼프강 파울리, 폴 디랙 등의 물리학자들을 오래 머물며 실질적으로 협업하도록 이끈 국제적 허브가 되었다 — 연구소 자체의 잘 기록된 역사를 통해 확인된다.",
+  "niels-bohr.moment.1":
+    "파이스의 전기와 물리학자들 자신의 회고는 독특한 멘토링 방식을 전한다 — 직접적인 가르침이 아니라 긴 일대일 대화를 통해, 하이젠베르크와 파울리, 레프 란다우를 비롯한 한 세대의 방문자들이 스스로 통찰에 이르도록 이끄는 방식이었다.",
+  "niels-bohr.moment.2":
+    "1943년 나치 점령 당국이 덴마크 유대인들을 상대로 조치를 취하기 시작하자 — 그의 어머니가 유대인이었다 — 곧 체포될 것이라는 경고를 받은 보어는 덴마크를 떠나 스웨덴으로, 이어서 영국과 미국으로 망명했으며, 이후 맨해튼 프로젝트에 참여했다.",
+  "niels-bohr.turning_point.1":
+    "맨해튼 프로젝트에서의 전시 활동 이후, 보어는 공적 활동의 방향을 자제 쪽으로 전환했다 — 1944년 그는 윈스턴 처칠과 프랭클린 루스벨트 양쪽에 직접 각서를 보내 억제되지 않은 전후 핵무기 경쟁의 위험을 경고하고 핵과학에 대한 국제적 개방을 주장했으며, 이러한 활동을 여생 동안 이어갔다.",
+  "niels-bohr.interpretation.moment.1":
+    "이는 프로필에서 독특한 형태의 설득력이다 — 직접적인 지시나 공개적인 수사가 아니라, 상대가 스스로 결론에 이르도록 이끄는 방식으로, 프로필의 설득력(persuasiveness) 점수와 부합한다.",
+  "niels-bohr.interpretation.turning_point.1":
+    "전시의 참여자에서 전후 개방을 주장하는 옹호자로의 이러한 전환은 프로필의 영향 창출 동기(impact_motivation) 점수와 부합하며, 아인슈타인과 수십 년간 이어간 양자론에 관한 공개 논쟁에서 이미 드러난, 권력을 향해 인기 없는 입장을 직접 주장하는 동일한 태도를 반영한다.",
+
+  /* -------------------------------------------------- Batch 5: Immanuel Kant */
+  "immanuel-kant.achievement.1":
+    "『순수이성비판』(1781), 『실천이성비판』, 『판단력비판』에 걸쳐 칸트는 인식론, 윤리학, 미학을 하나의 일관된 틀 아래 아우르는 통합된 철학 체계를 구축했다 — 스탠퍼드 철학 백과사전이 서양 철학사에서 가장 엄밀한 저작 중 하나로 평가하는 작업이다.",
+  "immanuel-kant.achievement.2":
+    "정언명령을 중심으로 한 그의 도덕철학은 『윤리형이상학 정초』에서 특정한 지역이나 전통, 상황에 국한되지 않고 모든 이성적 존재에게 적용되는 보편적 윤리적 의무의 기준으로 명시적으로 규정되었다.",
+  "immanuel-kant.moment.1":
+    "칸트는 오후 산책을 포함해 어찌나 정확하고 변함없는 일과를 유지했던지, 쾨니히스베르크 주민들이 그것을 보고 시계를 맞췄다고 전해질 정도였다 — 이는 하나의 일화가 아니라 여러 당대 및 전기적 기록(쿠엔)에 걸쳐 뒷받침되는 패턴이다.",
+  "immanuel-kant.moment.2":
+    "젊은 시절의 학문적 촉망을 받은 뒤, 칸트는 40대와 50대 초반 동안 상대적으로 적은 저작만을 발표하며 자신의 원숙한 철학 체계를 사적으로 발전시켰고, 57세가 되어서야 『순수이성비판』을 출간했다 — 쿠엔의 전기에 따르면 이는 활동의 부재가 아니라 의도적이고 장기간에 걸친 사적 수정의 시기였다.",
+  "immanuel-kant.turning_point.1":
+    "칸트의 후기 종교 저작인 『이성의 한계 안에서의 종교』는 프로이센 왕실 검열관들의 공식적인 견책을 받았고, 이후 종교 주제로 더는 저술하지 말라는 지시를 받았다 — 발표된 입장이 불러온 실제 제도적 결과였으며, 쿠엔의 전기가 그 외에는 대체로 제도적으로 신중하고 이례적으로 조심스러운 일과 중심의 공적 삶으로 묘사하는 경력 안에서 벌어진 일이다.",
+  "immanuel-kant.interpretation.moment.2":
+    "이 사적 수정 기간이 존재했다는 사실 자체보다 그 길이가 프로필의 양면적인 완벽주의(perfectionism) 점수를 뒷받침한다 — 유명할 만큼 엄밀한 체계를 만들어낸 바로 그 기준이 그것을 십 년 넘게 지연시키기도 했다.",
+  "immanuel-kant.interpretation.turning_point.1":
+    "이 일화가 두드러지는 것은 바로 프로필의 나머지 부분이 묘사하는 대체로 신중한 패턴에서 벗어나기 때문이다 — 폭넓은 대립 성향의 증거가 아니라, 조심스러운 삶 안에서 감수한 하나의 신중한 위험이다.",
+
+  /* ------------------------------------------------------ Batch 5: Octavia Butler */
+  "octavia-butler.achievement.1":
+    "그의 소설 『킨드레드』와 『제노제네시스』, 『패러블』 연작은 유전공학, 권력과 동의, 노예제 시대 역사와 시간여행을 결합한 아프리카미래주의적 서사 등 그가 집필하던 당시 SF에서 거의 다뤄지지 않았던 독특한 주제 영역을 구축했으며, 그를 1970~80년대 SF 장르에서 극히 드문 흑인 여성 작가 중 한 명으로 자리매김하게 했다.",
+  "octavia-butler.moment.1":
+    "헌팅턴 도서관에 소장된 그의 개인 노트에는 베스트셀러 작가가 되겠다는, 그 결과가 이루어지기 여러 해 전에 작성된 날짜 있는 자기 다짐이 담겨 있다 — 성공을 뒤늦게 재구성한 주장이 아니라, 그 성공에 앞서 존재했던 목표 지향적 의지에 대한 기록이다.",
+  "octavia-butler.moment.2":
+    "본인의 인터뷰에 따르면, 그는 첫 소설 판매 이전 여러 해 동안 거절이 이어지는 가운데서도 작품 투고를 계속하면서, 동시에 글쓰기와 무관한 여러 직업을 전전하며 집필 활동을 이어갔다.",
+  "octavia-butler.moment.3":
+    "경력 초기에 그는 클라리온 SF 작가 워크숍에 참여했는데, 이는 기록으로 남아 있는 형성기 협업 경험이다 — 본인과 전기 작가들이 대체로 공적·집단적 자리보다 혼자 글을 쓰는 것을 더 편안해했다고 묘사하는 경력 안에서 특히 눈에 띄는 사례다.",
+  "octavia-butler.interpretation.moment.1":
+    "이런 종류의, 스스로 작성하고 날짜까지 남긴 증거는 특성 점수의 근거로서 이례적으로 직접적이다 — 이 프로필의 대다수 항목은 간접적인 전기적 서술에 의존하지만, 이 항목은 그 자신의 손으로 남긴 기록에 근거한다.",
+
+  /* --------------------------------------------- Batch 5: Rabindranath Tagore */
+  "rabindranath-tagore.achievement.1":
+    "타고르가 『기탄잘리』로 받은 1913년 노벨 문학상은 특정한 작품 세계에 대한 국제적이고 독립적인 인정이었다 — 그는 이미 수천 편의 시와 노래, 소설과 희곡을 발표한 상태였고, 노벨상 선정 이유와 이 시집이 얻은 지속적인 국제적 비평적 반응은 단순히 작품의 양이 아니라 그의 미적 기교 자체에 대한 인정을 구체적으로 보여준다.",
+  "rabindranath-tagore.achievement.2":
+    "그는 식민지 시대 교육과는 구별되는 대안적이고 인문주의적인 교육 모델로서 산티니케탄에 비스바바라티 대학교를 설립했다 — 문학 작업을 넘어선, 스스로 시작하고 지속시킨 제도 구축의 노력으로, 대학 자체의 설립 역사를 통해 기록되어 있다.",
+  "rabindranath-tagore.moment.1":
+    "타고르는 인도와 방글라데시 양국의 국가를 모두 작곡했다 — 문학을 넘어선 그의 창작 활동의 범위를 보여주는, 훗날 두 나라의 시민적 정체성의 일부가 된 이례적이고 기록된 사실이다.",
+  "rabindranath-tagore.moment.2":
+    "그는 문학적 명성이 이미 국제적으로 확고히 자리 잡은 지 수십 년이 지난 예순 무렵에야 진지하게 그림을 시작했으며, 외부적 필요가 아니라 순전히 지속된 창작적 관심에서 비롯된 일이었다.",
+  "rabindranath-tagore.turning_point.1":
+    "1919년 타고르는 영국 식민 군대가 수백 명의 비무장 민간인을 살해한 암리차르 잘리안왈라 바그 학살에 항의해 자신이 받은 영국 기사 작위를 공개적으로 반납했다 — 그를 그 작위로 서훈했던 바로 그 식민지 체제에 맞선 고위층 차원의 저항 행위였으며, 그 체제 안에서 실질적인 사회적·정치적 위험을 안고 있었다.",
+  "rabindranath-tagore.interpretation.moment.2":
+    "이미 다른 분야에서 숙련이 확고히 자리 잡은 뒤에도, 더는 증명할 것이 남아 있지 않은 상태에서 처음부터 새로운 분야를 시작한 것은 프로필의 숙련 지향(mastery_orientation) 점수와 부합한다.",
+  "rabindranath-tagore.interpretation.turning_point.1":
+    "이미 받은 공식적인 서훈을 유지한 채 사적으로만 불만을 표하는 대신 그것을 반납한 것은 프로필의 독립적 사고(independent_thinking) 및 위험 감수(risk_tolerance) 점수와 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
