@@ -11,30 +11,47 @@ not workflow. For per-batch selection rationale and QA findings, see
 file's numbers are a snapshot as of the end of
 `feat/editorial-backfill-batch-6`, not guaranteed current.
 
-## Coverage by evidence tier (as of Batch 6 close)
+## Coverage by evidence tier (as of Batch 7 close)
 
 | Tier | Total | Complete | Remaining |
 |---|---|---|---|
 | A (full evidence ledger) | 8 | **8** | **0** |
 | B (`qa_passed` candidate JSON) | 52 | **52** | **0** |
-| C (inline `//` roster-file comments only) | 35 | 6 | 29 |
-| **Total** | **95** | **66** | **29** |
+| C (inline `//` roster-file comments only) | 35 | 16 | 19 |
+| **Total** | **95** | **76** | **19** |
 
-359 total items (159 achievements, 136 moments, 64 turning points), 122
-with an interpretation, 481 EN / 481 KO keys (100% Korean coverage).
+388 total items (172 achievements, 143 moments, 73 turning points), 136
+with an interpretation, 524 distinct EN editorial keys (100% Korean
+coverage maintained). Run
+`corepack pnpm@10 exec tsx src/dev/editorialCoverageAudit.ts` for the
+live number.
 
-**Tier A and Tier B are both fully editorialized.** The 29 remaining
-people are all Tier C — the original `seed.ts` (10 people) +
-`roster2.ts` (25 people) roster, whose only evidence source is inline
-roster-file comments (no separate candidate JSON or evidence ledger).
+## Status: Tier C is exposure-priority selective, not roster-order
 
-## Status: Tier C intentionally NOT started
+Batch 6's close deferred Tier C pending a product decision on scope. A
+subsequent product audit found non-editorial profiles accounted for
+~49% of simulated #1-match outcomes and ~55% of all "Similar People"
+recommendation slots — concentrated in the founding roster (`seed.ts` +
+`roster2.ts`), which happens to include some of the most recognizable
+names in the dataset (Buffett, B. Franklin, Turing, etc.), not obscure
+ones. The resulting decision: **rank remaining Tier-C people by
+measured quiz-simulation exposure (top-1/top-3 match frequency +
+Similar-People in-degree), not fame or roster order, and backfill in
+exposure-ranked batches** rather than either "all 29" or "none."
 
-Per the governing instruction at Batch 6's close, Tier C backfill is
-explicitly deferred pending a **product decision** on whether Tier A + B
-coverage (66/95, all the people with committed research evidence beyond
-bare inline comments) is already sufficient before scoping Tier C work.
-This is not a resource/time gap — it's a pending decision.
+**Batch 7 (2026-08)** backfilled the top 10 by this ranking: Alan
+Turing, Warren Buffett, Rosalind Franklin, Jane Goodall, Benjamin
+Franklin, Srinivasa Ramanujan, Oprah Winfrey, Wangari Maathai, Wolfgang
+Amadeus Mozart, Mahatma Gandhi. Effect (same simulation basis,
+before → after): non-editorial #1-match exposure ~49.3% → ~9.9%;
+Similar-People-rail slots pointing to a thin profile ~55% → ~27%. The
+19 remaining Tier-C people are now all low-exposure (highest single
+#1-match frequency ~2.15%, Simone Biles) — a full second exposure batch
+on the same #1-frequency criterion is not obviously justified; if a
+further pass happens, the next-strongest remaining signal is
+Similar-People-rail in-degree, concentrated in Beethoven (24),
+Yayoi Kusama (20), Nikola Tesla (19), Toni Morrison (18), and Hayao
+Miyazaki (16) despite their own low direct #1-match frequency.
 
 ## Architecture invariants (durable, see `docs/editorial-content.md` for the full version)
 

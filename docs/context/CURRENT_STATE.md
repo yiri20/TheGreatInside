@@ -32,11 +32,13 @@ Last updated: 2026-08 (end of `feat/editorial-backfill-batch-6`).
 - **Matching health**: max #1 match frequency ~12.0% (Warren Buffett),
   well under the 20%-at-n≥30 threshold. Stable across roster growth.
 - **Editorial content** (achievements/moments/turning points on person
-  pages): Tier A (8/8) and Tier B (52/52) fully covered — **66 of 95
-  people editorialized**. Tier C (35 people — the original `seed.ts` +
-  `roster2.ts` roster) is **deliberately not started**, pending a product
-  decision on whether A+B coverage is already sufficient. See
-  [`docs/checkpoints/editorial.md`](../checkpoints/editorial.md).
+  pages): Tier A (8/8) and Tier B (52/52) fully covered. Tier C backfill
+  is now **exposure-priority selective**, not roster-order: Batch 7
+  (2026-08) added the 10 highest quiz-simulation-exposure Tier-C people
+  (Turing, Buffett, R. Franklin, Goodall, B. Franklin, Ramanujan, Oprah,
+  Maathai, Mozart, Gandhi) — **76 of 95 people editorialized**, 19 Tier-C
+  remain, all now low-exposure (highest single #1-match frequency ~2%).
+  See [`docs/checkpoints/editorial.md`](../checkpoints/editorial.md).
 - **Custom domain**: `https://thegreatinside.com` is the canonical
   production origin (migrated from `the-great-inside.vercel.app`, which
   now permanently redirects). `www` also redirects to the apex.
