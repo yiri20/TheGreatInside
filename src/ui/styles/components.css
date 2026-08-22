@@ -652,6 +652,22 @@ fieldset.tgi-likert {
   outline: none;
   box-shadow: var(--tgi-focus-ring);
 }
+/* Seven 44px circles + six 8px gaps need 356px, but content width drops as
+   low as ~288px at 320px viewports (container padding eats the rest) —
+   always less than 356px on any phone, so nothing here is negotiable via
+   gap alone. Shrink the visible circle instead of letting the row wrap into
+   an orphaned split. The tap target stays close to 44px anyway: each
+   input's `inset` goes slightly negative, bleeding 2px past the visible
+   circle on every side; the 4px gap is exactly two bleeds wide, so
+   neighbouring invisible hit areas meet edge-to-edge with zero dead zone
+   and zero overlap, however narrow the viewport gets. Must come after the
+   base declarations above — equal-specificity rules resolve by source
+   order, not by which @media condition currently matches. */
+@media (max-width: 640px) {
+  .tgi-likert__options { gap: var(--tgi-space-1); }
+  .tgi-likert__label { width: 2.25rem; height: 2.25rem; }
+  .tgi-likert__input { inset: -0.125rem; width: auto; height: auto; }
+}
 
 .tgi-quiz-progress { display: flex; flex-direction: column; gap: var(--tgi-space-2); }
 .tgi-quiz-progress__track {

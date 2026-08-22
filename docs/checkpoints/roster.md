@@ -67,10 +67,11 @@ committing any session that touches a previously-committed candidate.
 
 ## Known open items
 
-- **Standing merge blocker** (unrelated to roster data): mobile quiz
-  answer-choice layout has real reported wrapping/proportion issues on
-  English mobile. Must be fixed before any merge to `main`. Not yet
-  investigated. See [`CURRENT_STATE.md`](../context/CURRENT_STATE.md).
+- ~~**Standing merge blocker**: mobile quiz Likert-scale wrapping~~ —
+  fixed on `fix/mobile-likert-wrap` (2026-08-22): `.tgi-likert__label`/
+  `__options`/`__input` now shrink under the existing 640px breakpoint
+  in `src/ui/styles/components.css`, verified at 320-1280px. No longer
+  blocks merge to `main`.
 - West Asia remains under-represented (1 person, Rumi) — several
   candidates are researched and held, not yet promoted.
 - A full manual rubric-consistency review of the pre-session-11 corpus

@@ -40,16 +40,6 @@ Last updated: 2026-08 (end of `feat/editorial-backfill-batch-6`).
 - **Monetization**: "Deep Inside" (one-time paid feature) implemented on
   `feat/monetization-v1`, intentionally unmerged, no live payment infra.
 
-## Known standing blocker (not yet fixed, blocks merge to `main`)
-
-**Mobile quiz answer-choice layout**: a real external user reported
-awkward forced wrapping / poor responsive proportions in the English
-mobile questionnaire's answer-choice layout. Reconfirmed still open
-across roster-1000 sessions 12–19. **Must be fixed and verified before
-any merge to `main`, regardless of roster headcount or editorial
-coverage.** Not investigated this session (out of scope for context
-architecture work).
-
 ## Completed major phases (durable summary — do not re-read the archive for these)
 
 - Phases 0–8: architecture, design system, dataset to 35→95 people, quiz
