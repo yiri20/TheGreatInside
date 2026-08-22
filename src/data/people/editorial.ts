@@ -1696,4 +1696,214 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  /**
+   * Batch 7 (2026-08, EXPOSURE-PRIORITY SELECTIVE BACKFILL): the first 8
+   * Tier-C entries selected NOT by roster-file order but by measured
+   * user-facing exposure (quiz-simulation #1/top-3 match frequency +
+   * Similar-People in-degree across the live 94-person eligible roster),
+   * per the product audit that found non-editorial profiles account for
+   * ~45% of #1-match outcomes. See docs/checkpoints/editorial.md. All 10
+   * remain Tier C (comment-only roster evidence) — content here draws on
+   * each person's own inline roster-file rationale plus, where a person is
+   * extremely well-documented, uncontested general knowledge consistent
+   * with their own cited `sources` (the explicit exception in
+   * docs/editorial-content.md's "What NOT to do"), never new research.
+   */
+  "alan-turing": {
+    achievements: [
+      { id: "alan-turing-achievement-1", textKey: "alan-turing.achievement.1", sourceIds: ["src_turing_wikipedia"] },
+      { id: "alan-turing-achievement-2", textKey: "alan-turing.achievement.2", sourceIds: ["src_turing_biography"] },
+    ],
+    moments: [
+      {
+        id: "alan-turing-moment-1",
+        textKey: "alan-turing.moment.1",
+        interpretationKey: "alan-turing.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_turing_biography"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "warren-buffett": {
+    achievements: [
+      { id: "warren-buffett-achievement-1", textKey: "warren-buffett.achievement.1", sourceIds: ["src_buffett_biography"] },
+      { id: "warren-buffett-achievement-2", textKey: "warren-buffett.achievement.2", sourceIds: ["src_buffett_biography", "src_buffett_wikipedia"] },
+    ],
+    moments: [],
+    turningPoints: [
+      {
+        id: "warren-buffett-turning-point-1",
+        textKey: "warren-buffett.turning_point.1",
+        interpretationKey: "warren-buffett.interpretation.turning_point.1",
+        attributeId: "belief_updating",
+        sourceIds: ["src_buffett_biography"],
+      },
+      {
+        id: "warren-buffett-turning-point-2",
+        textKey: "warren-buffett.turning_point.2",
+        interpretationKey: "warren-buffett.interpretation.turning_point.2",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_buffett_wikipedia", "src_buffett_biography"],
+      },
+    ],
+  },
+
+  "rosalind-franklin": {
+    achievements: [
+      { id: "rosalind-franklin-achievement-1", textKey: "rosalind-franklin.achievement.1", sourceIds: ["src_rfranklin_biography"] },
+    ],
+    moments: [
+      {
+        id: "rosalind-franklin-moment-1",
+        textKey: "rosalind-franklin.moment.1",
+        interpretationKey: "rosalind-franklin.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_rfranklin_biography"],
+      },
+    ],
+    turningPoints: [
+      { id: "rosalind-franklin-turning-point-1", textKey: "rosalind-franklin.turning_point.1", sourceIds: ["src_rfranklin_biography", "src_rfranklin_wikipedia"] },
+    ],
+  },
+
+  "jane-goodall": {
+    achievements: [
+      { id: "jane-goodall-achievement-1", textKey: "jane-goodall.achievement.1", sourceIds: ["src_goodall_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "jane-goodall-moment-1",
+        textKey: "jane-goodall.moment.1",
+        interpretationKey: "jane-goodall.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_goodall_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "jane-goodall-turning-point-1",
+        textKey: "jane-goodall.turning_point.1",
+        interpretationKey: "jane-goodall.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_goodall_wikipedia"],
+      },
+    ],
+  },
+
+  "benjamin-franklin": {
+    achievements: [
+      { id: "benjamin-franklin-achievement-1", textKey: "benjamin-franklin.achievement.1", sourceIds: ["src_bfranklin_wikipedia"] },
+      { id: "benjamin-franklin-achievement-2", textKey: "benjamin-franklin.achievement.2", sourceIds: ["src_bfranklin_biography"] },
+    ],
+    moments: [
+      {
+        id: "benjamin-franklin-moment-1",
+        textKey: "benjamin-franklin.moment.1",
+        interpretationKey: "benjamin-franklin.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_bfranklin_biography"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "benjamin-franklin-turning-point-1",
+        textKey: "benjamin-franklin.turning_point.1",
+        interpretationKey: "benjamin-franklin.interpretation.turning_point.1",
+        attributeId: "belief_updating",
+        sourceIds: ["src_bfranklin_biography", "src_bfranklin_wikipedia"],
+      },
+    ],
+  },
+
+  "srinivasa-ramanujan": {
+    achievements: [
+      { id: "srinivasa-ramanujan-achievement-1", textKey: "srinivasa-ramanujan.achievement.1", sourceIds: ["src_ramanujan_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "srinivasa-ramanujan-moment-1",
+        textKey: "srinivasa-ramanujan.moment.1",
+        interpretationKey: "srinivasa-ramanujan.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_ramanujan_wikipedia"],
+      },
+      { id: "srinivasa-ramanujan-moment-2", textKey: "srinivasa-ramanujan.moment.2", sourceIds: ["src_ramanujan_wikipedia"] },
+    ],
+    turningPoints: [],
+  },
+
+  "oprah-winfrey": {
+    achievements: [
+      { id: "oprah-winfrey-achievement-1", textKey: "oprah-winfrey.achievement.1", sourceIds: ["src_oprah_wikipedia"] },
+    ],
+    moments: [],
+    turningPoints: [
+      {
+        id: "oprah-winfrey-turning-point-1",
+        textKey: "oprah-winfrey.turning_point.1",
+        interpretationKey: "oprah-winfrey.interpretation.turning_point.1",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_oprah_wikipedia"],
+      },
+    ],
+  },
+
+  "wangari-maathai": {
+    achievements: [
+      { id: "wangari-maathai-achievement-1", textKey: "wangari-maathai.achievement.1", sourceIds: ["src_maathai_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "wangari-maathai-moment-1",
+        textKey: "wangari-maathai.moment.1",
+        interpretationKey: "wangari-maathai.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_maathai_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "wangari-maathai-turning-point-1",
+        textKey: "wangari-maathai.turning_point.1",
+        interpretationKey: "wangari-maathai.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_maathai_wikipedia"],
+      },
+    ],
+  },
+
+  "wolfgang-amadeus-mozart": {
+    achievements: [
+      { id: "wolfgang-amadeus-mozart-achievement-1", textKey: "wolfgang-amadeus-mozart.achievement.1", sourceIds: ["src_mozart_wikipedia"] },
+    ],
+    moments: [],
+    turningPoints: [
+      {
+        id: "wolfgang-amadeus-mozart-turning-point-1",
+        textKey: "wolfgang-amadeus-mozart.turning_point.1",
+        interpretationKey: "wolfgang-amadeus-mozart.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_mozart_wikipedia"],
+      },
+    ],
+  },
+
+  "mahatma-gandhi": {
+    achievements: [
+      { id: "mahatma-gandhi-achievement-1", textKey: "mahatma-gandhi.achievement.1", sourceIds: ["src_gandhi_biography", "src_gandhi_wikipedia"] },
+    ],
+    moments: [],
+    turningPoints: [
+      {
+        id: "mahatma-gandhi-turning-point-1",
+        textKey: "mahatma-gandhi.turning_point.1",
+        interpretationKey: "mahatma-gandhi.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_gandhi_wikipedia"],
+      },
+    ],
+  },
 };

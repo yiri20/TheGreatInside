@@ -1118,6 +1118,112 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In March 1990, a car accident in Nigeria left Achebe paralyzed from the waist down. He was flown to the United Kingdom for treatment and subsequently relocated to the United States, where he joined the faculty at Bard College and continued publishing essays, teaching, and speaking publicly for more than two decades until his death in 2013.",
   "chinua-achebe.interpretation.turning_point.1":
     "Rebuilding a full academic and literary career on a different continent, under permanently changed physical circumstances, is the specific kind of evidence this profile's adaptability score is built on.",
+
+  /* ------------------------------------------- Batch 7 (exposure-priority): Alan Turing */
+  "alan-turing.achievement.1":
+    "In a 1936 paper, \"On Computable Numbers,\" described an abstract computing device — now called a Turing machine — capable of carrying out any calculation that could be specified by a precise set of rules, laying the theoretical groundwork for the general-purpose computer more than a decade before one was built.",
+  "alan-turing.achievement.2":
+    "During WWII at Bletchley Park, led the design of the Bombe, an electromechanical machine that could search through the German Enigma cipher's possible daily settings fast enough to make its decryption operationally useful; intelligence historians credit the resulting codebreaking program with shortening the war, though estimates of by how much vary.",
+  "alan-turing.moment.1":
+    "In 1941, with the Bletchley Park codebreaking effort short on staff and equipment despite having already proven its intelligence value, Turing and three colleagues wrote directly to Winston Churchill, bypassing their own chain of command. Churchill's reply, ordering that they be given what they needed \"as a matter of extreme priority,\" survives in the archive.",
+  "alan-turing.interpretation.moment.1":
+    "This is consistent with the profile's high proactive_agency score: rather than escalate a resourcing problem through the ordinary channels available to him, he wrote directly to the one person positioned to act on it immediately.",
+
+  /* ------------------------------------------ Batch 7 (exposure-priority): Warren Buffett */
+  "warren-buffett.achievement.1":
+    "During the 1963 \"salad oil scandal,\" when fraud at an American Express subsidiary caused the stock to collapse, investigated the company's core card and travelers-cheque business separately from the damaged subsidiary, concluded it was undamaged, and invested heavily while the wider market was selling — a case still taught today as an early example of value investing.",
+  "warren-buffett.achievement.2":
+    "In 1965, after a dispute with Berkshire Hathaway's management over the terms of a tender offer for his own shares, bought enough additional stock to take control of the struggling textile manufacturer and replace its leadership himself, rather than simply selling his position and moving on.",
+  "warren-buffett.turning_point.1":
+    "In 1972, on Charlie Munger's advocacy, Berkshire acquired See's Candies at a price well above what Benjamin Graham's strict discount-to-asset-value method would have approved of — a departure from the \"cigar-butt\" style of buying statistically cheap, mediocre businesses that had defined Buffett's earlier investing.",
+  "warren-buffett.interpretation.turning_point.1":
+    "Buffett has described this himself as a case where new evidence about See's pricing power and brand strength overturned a long-held methodological commitment, which is consistent with the profile's high belief_updating score.",
+  "warren-buffett.turning_point.2":
+    "For decades, avoided investing in technology companies, citing an inability to reliably forecast their long-term economics under his own \"circle of competence\" principle. He has since acknowledged in shareholder letters that this caution came at a real cost, including missing years of gains in companies he eventually did invest in, such as Apple in 2016.",
+  "warren-buffett.interpretation.turning_point.2":
+    "Buffett has himself named this as the other side of the same narrow-frame discipline that protected Berkshire from the dot-com crash — a rare case of a public figure identifying his own blind spot rather than reframing it after the fact.",
+
+  /* --------------------------------------- Batch 7 (exposure-priority): Rosalind Franklin */
+  "rosalind-franklin.achievement.1":
+    "Using X-ray diffraction techniques she had gone to Paris specifically to learn, produced Photograph 51 in 1952 — an image of DNA fibers sharp enough to reveal the molecule's helical structure and key dimensions, providing critical physical evidence for what would become the double-helix model.",
+  "rosalind-franklin.moment.1":
+    "After WWII, moved to Paris for several years specifically to learn X-ray diffraction crystallography, a technique not readily available to her in England at the time, before returning to King's College London to apply it to DNA fibers.",
+  "rosalind-franklin.interpretation.moment.1":
+    "Read against the profile's proactive_agency score, this is a case of going abroad to acquire a specific technical capability a problem required, rather than working only with the tools already close at hand.",
+  "rosalind-franklin.turning_point.1":
+    "Her Photograph 51 and related unpublished data were shown to James Watson and Francis Crick by colleagues without her knowledge, and were used in building their 1953 double-helix model; her own contribution went substantially uncredited in the model's original publication and for years afterward.",
+
+  /* -------------------------------------------- Batch 7 (exposure-priority): Jane Goodall */
+  "jane-goodall.achievement.1":
+    "In 1960 at Gombe, observed a chimpanzee stripping leaves from a twig and using it to fish termites out of a mound — the first documented case of tool use and toolmaking in a non-human animal, directly challenging the then-standard definition of humans as the only tool-making species.",
+  "jane-goodall.moment.1":
+    "Arrived at Gombe in 1960 with no university degree, minimal equipment, and no formal scientific training, her fieldwork funded largely through Louis Leakey's efforts to find sponsors for a study most established researchers of the time considered unconventional.",
+  "jane-goodall.interpretation.moment.1":
+    "This sits alongside the profile's resourcefulness score: producing findings that reshaped the field from what amounted to a bare-minimum starting position.",
+  "jane-goodall.turning_point.1":
+    "In 1986, after decades focused on research at Gombe, attended a conference on chimpanzee habitat loss across Africa and shifted her own work from primarily research toward conservation and advocacy, founding the Jane Goodall Institute and, later, the Roots & Shoots youth program.",
+  "jane-goodall.interpretation.turning_point.1":
+    "This illustrates the profile's proactive_agency score: an unprompted, self-directed change in the shape of her own career, not a response to any employer's mandate.",
+
+  /* ---------------------------------------- Batch 7 (exposure-priority): Benjamin Franklin */
+  "benjamin-franklin.achievement.1":
+    "In 1754, proposed the Albany Plan of Union — a framework for the American colonies to coordinate defense and governance under a single council — more than twenty years before independence became a live political question. Every colonial assembly that considered it rejected it, but historians have since read it as a structural forerunner of the federal union that followed.",
+  "benjamin-franklin.achievement.2":
+    "Founded, on his own initiative rather than through any official appointment, a discussion club (the Junto), the first subscription library in the American colonies, a volunteer fire department, and the American Philosophical Society — a pattern of self-organized civic institution-building his own Autobiography returns to repeatedly.",
+  "benjamin-franklin.moment.1":
+    "Arrived in Philadelphia at seventeen with almost no money, having left his apprenticeship at his brother's Boston print shop under a broken legal indenture, and built his own printing business from that starting position — an episode he recounts in detail in his own Autobiography.",
+  "benjamin-franklin.interpretation.moment.1":
+    "This offers one example of the profile's resourcefulness score: a documented account, in his own words, of building a functioning business from close to nothing.",
+  "benjamin-franklin.turning_point.1":
+    "For years sought reconciliation between the colonies and Britain as a loyal subject of the Crown, but shifted decisively toward supporting independence after the 1774 \"Cockpit\" hearing, where he was publicly humiliated before the Privy Council over the Hutchinson letters affair — one of several failed reconciliation efforts that preceded the change in his position.",
+  "benjamin-franklin.interpretation.turning_point.1":
+    "This helps explain the profile's belief_updating score: a political reversal documented as a tracked change over time against accumulating evidence of British intransigence, not one dramatic conversion.",
+
+  /* ------------------------------------- Batch 7 (exposure-priority): Srinivasa Ramanujan */
+  "srinivasa-ramanujan.achievement.1":
+    "With no access to advanced mathematical literature in colonial-era India, taught himself higher mathematics largely from a single outdated textbook, G. S. Carr's Synopsis of Elementary Results, and went on to reconstruct and extend results in number theory — some already known in the West, others entirely his own.",
+  "srinivasa-ramanujan.moment.1":
+    "With no formal credentials, wrote directly to the Cambridge mathematician G. H. Hardy in 1913, enclosing pages of his own derived results; several other mathematicians he had written to previously had not replied. Hardy recognized the results as the work of a first-rate mathematician and arranged for him to come to Cambridge.",
+  "srinivasa-ramanujan.interpretation.moment.1":
+    "This is consistent with the profile's proactive_agency score: rather than waiting to be found through institutional channels that were largely closed to him, he sent his own work directly to the person best positioned to recognize it.",
+  "srinivasa-ramanujan.moment.2":
+    "During a hospital visit, Hardy remarked that the number of the taxicab he had arrived in, 1729, seemed a fairly dull one. Ramanujan replied immediately that it was actually quite interesting — the smallest number expressible as the sum of two cubes in two different ways.",
+
+  /* ----------------------------------------- Batch 7 (exposure-priority): Oprah Winfrey */
+  "oprah-winfrey.achievement.1":
+    "In 1986, founded Harpo Productions to own and control her own television show outright rather than remain a hired host for a network or syndicator — an unusually early move toward creator-owned media for the period, and the vehicle through which she would run her own career for decades afterward.",
+  "oprah-winfrey.turning_point.1":
+    "In the 1980s, while competing daytime talk shows moved toward sensationalist, tabloid-style formats, shifted her own show toward personal, empathetic, issue-driven conversation — a bet on a different direction than the rest of the genre was taking at the time.",
+  "oprah-winfrey.interpretation.turning_point.1":
+    "This illustrates the profile's opportunity_sensing score: reading a shift in what audiences actually wanted that ran counter to where competing shows were placing their own bets.",
+
+  /* --------------------------------------- Batch 7 (exposure-priority): Wangari Maathai */
+  "wangari-maathai.achievement.1":
+    "In 1977, founded the Green Belt Movement, connecting the deforestation and soil erosion she observed in Kenya directly to the daily burden rural women faced fetching water and firewood — linking environmental restoration and grassroots welfare in a way that was not the standard environmentalist framing of the time.",
+  "wangari-maathai.moment.1":
+    "In the movement's early years, organized rural women to plant tree seedlings using simple, low-cost local methods and without significant institutional funding — the approach that would eventually lead to tens of millions of trees planted across Kenya.",
+  "wangari-maathai.interpretation.moment.1":
+    "This offers one example of the profile's resourcefulness score: building a large, lasting program on deliberately minimal material means.",
+  "wangari-maathai.turning_point.1":
+    "The Green Belt Movement's work regularly put her in direct conflict with the Kenyan government of the time, including multiple arrests and documented violence against her; she continued organizing through this opposition, and in 2004 became the first African woman to win the Nobel Peace Prize, awarded specifically for this work.",
+  "wangari-maathai.interpretation.turning_point.1":
+    "This is consistent with the profile's proactive_agency score, marked dual-edged in this profile: the same self-initiated organizing that built the movement also brought direct personal and legal risk.",
+
+  /* -------------------------------- Batch 7 (exposure-priority): Wolfgang Amadeus Mozart */
+  "wolfgang-amadeus-mozart.achievement.1":
+    "As a child, toured the courts of Europe with his father and sister performing for royalty from roughly age six, developing a facility for composition and performance with little real precedent for someone his age, and went on to compose across nearly every major musical form of his era — over 600 works survive.",
+  "wolfgang-amadeus-mozart.turning_point.1":
+    "In 1781, formally broke from his employment as a court musician to the Prince-Archbishop of Salzburg, Hieronymus Colloredo — dismissed, according to his own letters, with a literal kick from the Archbishop's steward — and moved to Vienna to work as a freelance composer and performer rather than hold a fixed court position, an unusual arrangement for a composer of his time.",
+  "wolfgang-amadeus-mozart.interpretation.turning_point.1":
+    "Read against the profile's dual-edged proactive_agency score, this secured him creative and professional independence rare for a composer of the period, but also left him financially precarious for the rest of his life, dependent on commissions, concerts, and teaching rather than a stable salary.",
+
+  /* -------------------------------------- Batch 7 (exposure-priority): Mahatma Gandhi */
+  "mahatma-gandhi.achievement.1":
+    "Developed and first tested satyagraha — organized, disciplined civil disobedience against unjust law — in South Africa in the early 1900s, in campaigns against discriminatory laws targeting the Indian community there, years before applying the same method at national scale in India.",
+  "mahatma-gandhi.turning_point.1":
+    "In 1930, personally organized and led a 24-day, 240-mile march to the coast at Dandi to produce salt in defiance of the British salt tax and monopoly — a deliberately self-initiated act of civil disobedience, chosen specifically because it was a law that touched the daily life of the poorest Indians rather than an abstract political demand.",
+  "mahatma-gandhi.interpretation.turning_point.1":
+    "This tracks with the profile's high proactive_agency score, documented directly: a specific, planned act of civil disobedience he conceived and led himself, not a response to someone else's initiative.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -2216,6 +2322,112 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1990년 3월, 나이지리아에서 일어난 교통사고로 아체베는 하반신이 마비되었다. 그는 치료를 위해 영국으로 이송되었고 이후 미국으로 거처를 옮겨 바드 칼리지 교수진에 합류했으며, 2013년 세상을 떠날 때까지 20년 넘게 에세이 집필과 강의, 공개 강연을 이어갔다.",
   "chinua-achebe.interpretation.turning_point.1":
     "사고 이후 다른 대륙에서, 영구적으로 달라진 신체적 조건 속에서 온전한 학문적·문학적 경력을 다시 쌓아 올린 것은, 이 프로필의 적응력 점수가 근거로 삼는 구체적인 종류의 증거다.",
+
+  /* ------------------------------------------- Batch 7 (exposure-priority): Alan Turing */
+  "alan-turing.achievement.1":
+    "1936년 논문 「계산 가능한 수에 관하여」에서, 정확한 규칙의 집합으로 명시될 수 있는 모든 계산을 수행할 수 있는 추상적인 계산 장치 — 오늘날 튜링 기계라 불리는 개념 — 를 제시했다. 이는 실제 범용 컴퓨터가 만들어지기 십여 년도 더 전에 그 이론적 토대를 놓은 것이었다.",
+  "alan-turing.achievement.2":
+    "제2차 세계대전 중 블레츨리 파크에서, 독일군의 에니그마 암호가 매일 바뀌는 설정값을 실용적인 시간 안에 찾아낼 수 있는 전기기계식 장치인 봄브의 설계를 이끌었다. 정보사학자들은 이 암호 해독 프로그램이 전쟁 기간을 단축시켰다고 평가하지만, 그 정도에 대해서는 추정이 엇갈린다.",
+  "alan-turing.moment.1":
+    "1941년, 블레츨리 파크의 암호 해독 작업이 이미 그 정보적 가치를 입증했음에도 인력과 장비가 부족한 상황에 놓이자, 튜링은 동료 세 명과 함께 자신들의 지휘 계통을 건너뛰어 윈스턴 처칠에게 직접 편지를 보냈다. \"최우선 사안으로\" 필요한 것을 지원하라는 처칠의 답신은 지금도 기록으로 남아 있다.",
+  "alan-turing.interpretation.moment.1":
+    "프로필의 높은 선제적 행동력(proactive_agency) 점수와 일치하는 대목이다 — 자원 부족 문제를 정해진 통상적 절차를 통해 제기하는 대신, 즉시 조치를 취할 수 있는 바로 그 사람에게 직접 편지를 보낸 것이다.",
+
+  /* ------------------------------------------ Batch 7 (exposure-priority): Warren Buffett */
+  "warren-buffett.achievement.1":
+    "1963년 '샐러드유 스캔들'로 아메리칸 익스프레스의 한 자회사에서 발생한 사기 사건이 주가를 폭락시켰을 때, 손상된 자회사와는 별도로 회사의 핵심 사업인 카드와 여행자 수표 사업을 직접 조사해 그 부분은 손상되지 않았다고 판단하고, 시장 전체가 매도에 나선 와중에 대규모로 투자했다. 이는 오늘날까지도 가치 투자의 초기 사례로 가르쳐진다.",
+  "warren-buffett.achievement.2":
+    "1965년, 자신의 보유 주식에 대한 공개 매수 조건을 두고 벌어진 버크셔 해서웨이 경영진과의 분쟁 끝에, 지분을 더 사들여 이 부진한 방직 회사의 경영권을 직접 확보하고 경영진을 교체했다 — 지분을 정리하고 떠나는 대신 택한 길이었다.",
+  "warren-buffett.turning_point.1":
+    "1972년, 찰리 멍거의 설득으로 버크셔는 벤저민 그레이엄의 엄격한 자산가치 대비 저평가 기준으로는 승인되지 않았을 가격에 씨즈 캔디를 인수했다 — 통계적으로 저렴하지만 평범한 기업을 사들이는 '담배꽁초' 방식의 초기 투자 스타일에서 벗어난 결정이었다.",
+  "warren-buffett.interpretation.turning_point.1":
+    "버핏 스스로도 씨즈 캔디의 가격 결정력과 브랜드 힘에 대한 새로운 근거가 오랫동안 지녀온 투자 방법론을 뒤바꾼 사례라고 여러 차례 밝혀왔다 — 프로필의 높은 입장 수정 성향(belief_updating) 점수와 일치하는 대목이다.",
+  "warren-buffett.turning_point.2":
+    "수십 년 동안, 자신의 '능력범위' 원칙에 따라 장기적인 경제성을 신뢰성 있게 예측할 수 없다는 이유로 기술 기업 투자를 피해왔다. 이후 주주서한에서 이 신중함이 실제로 대가를 치렀다고 인정했는데, 2016년에야 투자한 애플처럼 결국 투자하게 된 기업들에서 여러 해의 수익 기회를 놓친 것이 그 예다.",
+  "warren-buffett.interpretation.turning_point.2":
+    "버핏 스스로 이를, 버크셔를 닷컴 붕괴로부터 지켜준 것과 같은 좁은 범위의 원칙이 만들어낸 또 다른 면이라고 표현했다 — 공적 인물이 이후에 다르게 포장하지 않고 자신의 사각지대를 스스로 짚어낸 흔치 않은 사례다.",
+
+  /* --------------------------------------- Batch 7 (exposure-priority): Rosalind Franklin */
+  "rosalind-franklin.achievement.1":
+    "파리까지 가서 직접 배운 X선 회절 기법을 이용해, 1952년 DNA 섬유의 나선 구조와 주요 치수를 드러낼 만큼 선명한 '사진 51번'을 만들어냈다 — 이후 이중나선 모델이 성립하는 데 결정적인 물리적 증거가 된 자료였다.",
+  "rosalind-franklin.moment.1":
+    "제2차 세계대전 이후, 당시 영국에서는 쉽게 접할 수 없었던 X선 회절 결정학 기법을 배우기 위해 몇 년간 파리로 건너갔고, 이후 킹스 칼리지 런던으로 돌아와 이 기법을 DNA 섬유 연구에 적용했다.",
+  "rosalind-franklin.interpretation.moment.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수에 비추어 보면, 이는 가까이 있는 도구만으로 버티는 대신 문제 해결에 필요한 특정 기술을 직접 배우러 외국으로 떠난 사례다.",
+  "rosalind-franklin.turning_point.1":
+    "그녀의 사진 51번과 관련 미공개 자료는 본인 동의 없이 동료들을 통해 제임스 왓슨과 프랜시스 크릭에게 전달되었고, 이들이 1953년 이중나선 모델을 세우는 데 쓰였다. 정작 그녀 자신의 기여는 모델의 최초 발표 당시는 물론 이후 오랫동안 제대로 인정받지 못했다.",
+
+  /* -------------------------------------------- Batch 7 (exposure-priority): Jane Goodall */
+  "jane-goodall.achievement.1":
+    "1960년 곰비에서, 침팬지가 나뭇가지의 잎을 훑어내고 그것을 흰개미집에 넣어 흰개미를 낚아 올리는 모습을 관찰했다 — 인간이 아닌 동물이 도구를 사용하고 만들어 쓴 것을 기록으로 남긴 최초의 사례로, 인간만이 도구를 만드는 존재라는 당시의 통설에 정면으로 맞서는 발견이었다.",
+  "jane-goodall.moment.1":
+    "1960년 곰비에 도착했을 때 그녀에게는 대학 학위도, 변변한 장비도, 정식 과학 훈련도 없었다. 당시 대부분의 기성 연구자들이 비관습적이라 여긴 이 연구는 루이스 리키가 후원자를 구하려 애쓴 노력에 크게 의존해 재정을 마련했다.",
+  "jane-goodall.interpretation.moment.1":
+    "프로필의 자원 활용 성향(resourcefulness) 점수와 나란히 놓고 볼 대목이다 — 사실상 아무것도 없는 출발점에서 학계의 판도를 바꾼 발견을 만들어낸 것이다.",
+  "jane-goodall.turning_point.1":
+    "1986년, 수십 년간 곰비에서의 연구에 집중해온 뒤, 아프리카 전역의 침팬지 서식지 파괴를 다룬 한 학회에 참석한 것을 계기로 자신의 활동 중심을 연구에서 보전과 옹호 활동으로 옮겼다. 이후 제인구달연구소를 설립했고, 나중에는 청소년 프로그램인 뿌리와새싹도 만들었다.",
+  "jane-goodall.interpretation.turning_point.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수가 실제로 드러나는 대목이다 — 어떤 고용주의 지시도 없이, 스스로 자기 경력의 방향을 바꾼 것이다.",
+
+  /* ---------------------------------------- Batch 7 (exposure-priority): Benjamin Franklin */
+  "benjamin-franklin.achievement.1":
+    "1754년, 독립이 현실적인 정치적 쟁점이 되기 20여 년 전에 미국 식민지들이 하나의 협의체 아래 방위와 통치를 조율하는 틀인 올버니 연합안을 제안했다. 당시 이를 검토한 모든 식민지 의회가 거부했지만, 후대 역사가들은 이를 훗날 연방 체제의 구조적 원형으로 평가한다.",
+  "benjamin-franklin.achievement.2":
+    "어떤 공식 임명도 없이 순전히 자신의 발의로 토론 모임인 준토, 미국 식민지 최초의 회원제 도서관, 자원 소방대, 미국철학회를 세웠다 — 그의 자서전이 거듭 되짚는, 스스로 시민 제도를 조직해내는 패턴이다.",
+  "benjamin-franklin.moment.1":
+    "형의 보스턴 인쇄소에서 맺은 도제 계약을 어기고 떠나, 열일곱 나이에 거의 무일푼으로 필라델피아에 도착했다. 그는 그 처지에서부터 자신의 인쇄업을 일으켰는데, 이는 그가 직접 자서전에서 상세히 들려주는 이야기다.",
+  "benjamin-franklin.interpretation.moment.1":
+    "프로필의 자원 활용 성향(resourcefulness) 점수를 보여주는 한 사례다 — 거의 아무것도 없는 상태에서 실제로 돌아가는 사업을 일으켰다는, 본인의 말로 남은 기록이다.",
+  "benjamin-franklin.turning_point.1":
+    "오랫동안 국왕에게 충성하는 신민으로서 식민지와 영국 사이의 화해를 모색했지만, 1774년 허친슨 서한 사건을 둘러싸고 추밀원 앞에서 공개적으로 굴욕을 당한 이른바 '콕핏' 청문회 이후 독립 지지 쪽으로 확실히 돌아섰다. 이는 그 전에 거듭 실패한 여러 화해 시도 가운데 하나였다.",
+  "benjamin-franklin.interpretation.turning_point.1":
+    "프로필의 입장 수정 성향(belief_updating) 점수를 이해하는 데 도움이 되는 대목이다 — 이는 한순간의 극적인 전향이 아니라, 영국의 완강한 태도가 쌓여가는 증거에 맞춰 시간을 두고 추적할 수 있는 정치적 입장 변화로 기록되어 있다.",
+
+  /* ------------------------------------- Batch 7 (exposure-priority): Srinivasa Ramanujan */
+  "srinivasa-ramanujan.achievement.1":
+    "식민지 시대 인도에서 고급 수학 문헌을 접할 길이 거의 없던 그는, 낡은 교재 한 권 — G. S. 카의 「초등 결과 개론」 — 에 주로 의지해 독학으로 고등수학을 익혔고, 이를 바탕으로 정수론의 여러 결과를 재구성하고 확장해냈다. 그중 일부는 서구에서 이미 알려진 것이었고, 다른 일부는 온전히 그 자신의 것이었다.",
+  "srinivasa-ramanujan.moment.1":
+    "아무런 공식 학력도 없이, 1913년 케임브리지의 수학자 G. H. 하디에게 자신이 직접 도출한 결과들을 담은 편지를 보냈다. 그전에 편지를 보낸 다른 수학자 여럿은 답장을 하지 않았지만, 하디는 이 결과들을 일류 수학자의 작업으로 알아보고 그를 케임브리지로 불러들였다.",
+  "srinivasa-ramanujan.interpretation.moment.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수와 일치하는 대목이다 — 자신에게 대부분 닫혀 있던 제도적 경로를 통해 발견되기를 기다리는 대신, 자신의 결과를 알아볼 수 있는 바로 그 사람에게 직접 전달한 것이다.",
+  "srinivasa-ramanujan.moment.2":
+    "병문안을 갔을 때 하디가, 타고 온 택시 번호 1729가 꽤 따분한 숫자 같다고 말했다. 라마누잔은 즉시 그렇지 않다고 답했다 — 두 개의 세제곱수의 합으로 두 가지 다른 방식으로 나타낼 수 있는 가장 작은 수라는 것이었다.",
+
+  /* ----------------------------------------- Batch 7 (exposure-priority): Oprah Winfrey */
+  "oprah-winfrey.achievement.1":
+    "1986년, 방송사나 배급사에 고용된 진행자로 남는 대신 자신의 프로그램을 직접 소유하고 통제하기 위해 하포 프로덕션을 설립했다 — 당시로서는 이례적으로 이른, 제작자가 스스로 소유하는 미디어를 향한 행보였고, 이후 수십 년간 자신의 경력을 스스로 이끌어가는 수단이 되었다.",
+  "oprah-winfrey.turning_point.1":
+    "1980년대에 경쟁 데이타임 토크쇼들이 선정적이고 타블로이드적인 형식으로 옮겨가는 동안, 자신의 프로그램을 개인적이고 공감을 이끌어내는 이슈 중심의 대화로 방향을 틀었다 — 당시 같은 장르의 다른 프로그램들이 향하던 방향과는 다른 쪽에 건 승부수였다.",
+  "oprah-winfrey.interpretation.turning_point.1":
+    "프로필의 기회 감지(opportunity_sensing) 점수가 실제로 드러나는 대목이다 — 경쟁 프로그램들이 다른 곳에 승부를 걸고 있을 때, 시청자들이 실제로 원하는 것이 달라지고 있음을 읽어낸 것이다.",
+
+  /* --------------------------------------- Batch 7 (exposure-priority): Wangari Maathai */
+  "wangari-maathai.achievement.1":
+    "1977년, 케냐에서 목격한 삼림 파괴와 토양 침식을 농촌 여성들이 물과 땔감을 구하러 다니며 짊어지는 일상적 부담과 직접 연결지어 그린벨트 운동을 창설했다 — 당시 환경운동의 통상적인 틀과는 다르게, 환경 복원과 풀뿌리 차원의 생활 개선을 하나로 엮은 접근이었다.",
+  "wangari-maathai.moment.1":
+    "운동 초기에는 별다른 제도적 자금 지원 없이, 간단하고 비용이 적게 드는 지역 방식으로 농촌 여성들을 조직해 묘목을 심게 했다 — 훗날 케냐 전역에서 수천만 그루의 나무를 심는 결과로 이어진 접근이었다.",
+  "wangari-maathai.interpretation.moment.1":
+    "프로필의 자원 활용 성향(resourcefulness) 점수를 보여주는 한 사례다 — 의도적으로 최소한의 물적 수단만으로 크고 지속적인 프로그램을 일구어낸 것이다.",
+  "wangari-maathai.turning_point.1":
+    "그린벨트 운동의 활동은 그녀를 당시 케냐 정부와 거듭 정면으로 충돌하게 만들었고, 여러 차례의 체포와 그녀를 향한 폭력이 기록으로 남아 있다. 그럼에도 그녀는 이 반대 속에서도 조직 활동을 이어갔고, 2004년에는 바로 이 활동으로 노벨 평화상을 수상한 최초의 아프리카 여성이 되었다.",
+  "wangari-maathai.interpretation.turning_point.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수와 일치하는 대목이며, 이 프로필에서는 양면적인 것으로 표시되어 있다 — 운동을 일구어낸 바로 그 자발적 조직 활동이 동시에 직접적인 개인적·법적 위험도 불러온 것이다.",
+
+  /* -------------------------------- Batch 7 (exposure-priority): Wolfgang Amadeus Mozart */
+  "wolfgang-amadeus-mozart.achievement.1":
+    "여섯 살 무렵부터 아버지, 누나와 함께 유럽 각국의 궁정을 돌며 왕족들 앞에서 연주했고, 그 또래로서는 유례를 찾기 힘든 작곡과 연주 능력을 키워나갔다. 이후 생애 동안 당대 거의 모든 주요 음악 형식에 걸쳐 왕성하게 작곡했으며, 600여 곡이 넘는 작품이 오늘날까지 전해진다.",
+  "wolfgang-amadeus-mozart.turning_point.1":
+    "1781년, 잘츠부르크 대주교 히에로니무스 콜로레도 밑에서 궁정 음악가로 일하던 자리를 공식적으로 그만두었다 — 본인의 편지에 따르면 대주교의 집사에게서 말 그대로 발길질을 당하며 해고되었다고 한다 — 그리고 빈으로 옮겨가, 고정된 궁정 자리 대신 프리랜서 작곡가 겸 연주자로 활동했는데, 이는 당대 작곡가로서는 이례적인 방식이었다.",
+  "wolfgang-amadeus-mozart.interpretation.turning_point.1":
+    "프로필의 양면적인 선제적 행동력(proactive_agency) 점수에 비추어 보면, 이 선택은 당대 작곡가로서는 드문 창작과 직업적 독립을 그에게 안겨주었지만, 동시에 안정적인 봉급 대신 위촉과 연주, 교습에 기대야 했던 만큼 남은 생애 내내 재정적으로 불안정한 처지에 놓이게도 했다.",
+
+  /* -------------------------------------- Batch 7 (exposure-priority): Mahatma Gandhi */
+  "mahatma-gandhi.achievement.1":
+    "부당한 법에 맞선 조직적이고 규율 있는 시민 불복종인 사티아그라하를, 1900년대 초 남아프리카에서 인도인 공동체를 겨냥한 차별법에 맞선 운동 속에서 처음으로 만들고 시험했다 — 훗날 같은 방법을 훨씬 더 큰 규모로 인도 독립운동에 적용하기 여러 해 전의 일이었다.",
+  "mahatma-gandhi.turning_point.1":
+    "1930년, 영국의 소금세와 전매 제도에 맞서 소금을 직접 만들기 위해 해안 마을 단디까지 24일간 240마일을 행진하는 운동을 스스로 조직하고 이끌었다 — 추상적인 정치적 요구가 아니라 가장 가난한 인도인들의 일상에 직접 와닿는 법을 골라, 의도적으로 계획한 시민 불복종 행위였다.",
+  "mahatma-gandhi.interpretation.turning_point.1":
+    "프로필의 높은 선제적 행동력(proactive_agency) 점수와 맞닿아 있으며, 기록으로 직접 확인되는 대목이다 — 누군가의 발의에 대응한 것이 아니라, 스스로 구상하고 이끈 구체적이고 계획된 시민 불복종 행위였다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
