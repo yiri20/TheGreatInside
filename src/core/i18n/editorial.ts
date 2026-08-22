@@ -1027,7 +1027,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "aristotle.moment.2":
     "Ancient biographical tradition — most fully preserved in Diogenes Laertius's and Plutarch's accounts, both written several centuries after Aristotle's death but corroborating one another — holds that Philip II of Macedon invited him to tutor his son, the future Alexander the Great, at the royal court at Mieza around 343 BCE.",
   "aristotle.turning_point.1":
-    "After Alexander's death in 323 BCE, anti-Macedonian sentiment in Athens turned against Aristotle over his earlier ties to the Macedonian court, and he was charged with impiety. According to a widely repeated ancient anecdote, he left Athens for his mother's family estate in Chalcis rather than stand trial, saying he would not let the city \"sin twice against philosophy\" — a reference to Socrates's earlier trial and execution. He died in Chalcis the following year, 322 BCE.",
+    "After Alexander's death in 323 BCE, anti-Macedonian sentiment in Athens turned against Aristotle over his earlier ties to the Macedonian court, and in 322 BCE he was charged with impiety. According to a widely repeated ancient anecdote, he left Athens for his mother's family estate in Chalcis rather than stand trial, saying he would not let the city \"sin twice against philosophy\" — a reference to Socrates's earlier trial and execution. He died in Chalcis later that same year.",
   "aristotle.interpretation.moment.1":
     "Fieldwork like this is a distinct form of curiosity from purely theoretical inquiry — evidence gathered by going and looking, not only by reasoning from first principles.",
   "aristotle.interpretation.turning_point.1":
@@ -1039,11 +1039,11 @@ export const EDITORIAL_EN: Record<string, string> = {
   "simon-bolivar.achievement.2":
     "Written from exile in Jamaica in 1815, after a series of early military defeats, his \"Letter from Jamaica\" laid out a detailed political analysis of Spanish American society and argued for a specific vision of independent, unified governance — a systematic piece of political theory, not only a rallying call, according to Lynch's biography.",
   "simon-bolivar.moment.1":
-    "In 1819, Bolívar led roughly 2,100 soldiers across the flooded high plains and freezing mountain passes of the Andes into New Granada, a route Spanish royalist forces considered impassable during the rainy season. The surprise arrival let his army win the decisive Battle of Boyacá on August 7, 1819, opening the way to Bogotá.",
+    "In 1819, Bolívar led more than 2,000 soldiers across the flooded high plains and freezing mountain passes of the Andes into New Granada, a route Spanish royalist forces considered impassable during the rainy season. The surprise arrival let his army win the decisive Battle of Boyacá on August 7, 1819, opening the way to Bogotá.",
   "simon-bolivar.moment.2":
     "In July 1822, Bolívar met privately with fellow independence leader José de San Martín at Guayaquil to discuss the political future of the newly liberated territories. No record of what was said survives, but San Martín withdrew from public and military life shortly afterward, leaving Bolívar as the dominant remaining figure in the continental independence movement.",
   "simon-bolivar.turning_point.1":
-    "By 1828, Gran Colombia was fracturing under regional resistance to centralized rule from Bogotá, and Bolívar assumed dictatorial powers in an attempt to hold the confederation together, surviving an assassination attempt that September. Unable to reverse the fragmentation, he resigned the presidency in April 1830, as Venezuela and Ecuador moved toward separation, and died of tuberculosis in Santa Marta that December — the union he had spent nearly two decades building coming apart in the same year he died.",
+    "By 1828, Gran Colombia was fracturing under regional resistance to centralized rule from Bogotá, and Bolívar assumed dictatorial powers in an attempt to hold the confederation together, surviving an assassination attempt that September. Unable to reverse the fragmentation, he resigned the presidency in April 1830, as Venezuela moved toward separation, and died of tuberculosis in Santa Marta that December — the union he had spent nearly two decades building coming apart in the same year he died.",
   "simon-bolivar.interpretation.moment.2":
     "The available record documents the outcome, not the disagreement itself, so this reading stays interpretive rather than settled — but it fits a wider pattern in the profile of real, working alliances that also carried real friction, not uncomplicated partnership.",
   "simon-bolivar.interpretation.turning_point.1":
@@ -1055,23 +1055,23 @@ export const EDITORIAL_EN: Record<string, string> = {
   "grace-hopper.achievement.2":
     "Beyer's account documents years of sustained argument, inside and outside her own organization, to convince both technical peers and military and corporate leadership that a computer could reliably execute instructions written in something resembling English — a claim many contemporaries in the early 1950s considered technically implausible — before compiler-based, standardized programming became industry practice.",
   "grace-hopper.moment.1":
-    "On September 9, 1947, while Hopper was part of the Harvard Mark II computer team, a technician found a moth trapped in one of the machine's relays, causing a malfunction; someone on the team taped the moth into the operations logbook with the note \"First actual case of bug being found.\" The term \"bug\" for a technical fault already existed in engineering before this — Hopper did not coin it — but she retold the story for decades afterward, and the logbook page survives today at the Smithsonian's National Museum of American History.",
+    "In 1947, while Hopper was part of the Harvard Mark II computer team, her associates found a moth trapped in one of the machine's relays, causing a malfunction; the moth was taped into the operations logbook with the note \"First actual case of bug being found.\" The term \"bug\" for a technical fault already existed in engineering before this — Hopper did not coin it — but she is credited with popularizing it, and the logbook page survives today at the Smithsonian's National Museum of American History.",
   "grace-hopper.turning_point.1":
-    "Hopper retired from the Naval Reserve in 1966 at the mandatory age of 60, but was recalled to active duty seven months later to help the Navy standardize its many incompatible versions of COBOL. She remained on active duty for nearly another two decades, retiring in 1986 at 79 as a rear admiral and, at the time, the oldest serving officer in the United States Navy.",
+    "Hopper retired from the Naval Reserve at the mandatory age of 60 at the end of 1966, but was recalled to active duty in August 1967 to help standardize COBOL across the Navy; she retired again in 1971 and was recalled again the following year. She remained in service after that, finally retiring in 1986 at age 79 as a rear admiral and, at the time, the oldest active-duty commissioned officer in the United States Navy.",
   "grace-hopper.interpretation.turning_point.1":
-    "Returning to a demanding standardization project after mandatory retirement, and staying with it for nearly two more decades, fits a mastery orientation this profile places well above the achievement of any single milestone.",
+    "Coming back to active duty not once but twice after mandatory retirement, and ultimately serving into her 80th year, fits a mastery orientation this profile places well above the achievement of any single milestone.",
 
   /* -------------------------------------------------------------- Batch 6: C. V. Raman */
   "cv-raman.achievement.1":
-    "In 1928, working with comparatively simple apparatus — sunlight, colour filters, and a spectrograph — Raman and his student and close collaborator K. S. Krishnan demonstrated that light changes wavelength when scattered by transparent matter, a phenomenon that became known as the Raman effect. The 1930 Nobel Prize in Physics was awarded to Raman alone, a recognition some historians of Indian science have since noted did not extend to Krishnan's substantial role in the experimental work.",
+    "In 1928, Raman and K. S. Krishnan — a research associate who, according to several historical accounts, carried out much of the day-to-day experimental work — demonstrated that light changes wavelength when scattered by transparent matter, using apparatus that began with sunlight and a simple prism before a spectrograph of Raman's own design made precise measurement possible. The Nobel committee proposed only Raman's name for the 1930 Physics Prize; Krishnan was never nominated, a decision some historians of Indian science have since described as not fully reflecting his role in the discovery.",
   "cv-raman.achievement.2":
     "Beyond the discovery itself, Raman went on to found and direct the Raman Research Institute in Bangalore and served as director of the Indian Institute of Science, sustaining a decades-long project of building Indian scientific institutions and training a generation of Indian physicists.",
   "cv-raman.moment.1":
     "Raman spent over a decade pursuing serious physics research — beginning with the physics of Indian musical instruments — as a side interest while working full-time in the Indian Finance Department, before leaving that stable, well-paid civil-service position in 1917 to take an academic physics chair at Calcutta University at considerably lower pay.",
   "cv-raman.turning_point.1":
-    "Raman later described, in his own subsequent lectures and writings, that his curiosity about why the sea appears blue — during a 1921 ocean voyage to England — led him to question the prevailing explanation that it merely reflected the sky, and to begin the systematic study of light scattering in transparent media that culminated seven years later in the discovery of the effect that bears his name.",
+    "In September 1921, during a voyage home to India from England aboard the S.S. Narkunda, Raman studied the deep blue colour of the Mediterranean Sea with a pocket spectroscope, and published his findings in Nature that November, directly challenging Lord Rayleigh's prevailing 1910 explanation that the sea's colour simply reflected the sky. That line of research into light scattering in transparent media culminated seven years later in the discovery of the effect that bears his name.",
   "cv-raman.interpretation.turning_point.1":
-    "Worth noting: this is Raman's own retrospective account of how the research direction began, not a contemporaneous record — the kind of origin story a scientist tells about their own curiosity after the fact, still consistent with the profile's curiosity score even if it carries less evidentiary weight than a dated document.",
+    "Noticing something the accepted explanation didn't quite cover, and turning it into a published challenge within weeks of returning home, is the kind of evidence this profile's curiosity score is built on.",
 
   /* --------------------------------------------------- Batch 6: Benjamin Banneker */
   "benjamin-banneker.achievement.1":
@@ -1103,7 +1103,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "toussaint-louverture.moment.1":
     "In 1794, after France's National Convention decreed the abolition of slavery in French territories, Louverture switched his forces' allegiance from Spain, which he had initially fought alongside, to France — a specific, dated strategic reversal based on his assessment of which side would more durably secure abolition, according to Dubois.",
   "toussaint-louverture.turning_point.1":
-    "In June 1802, French general Jean-Baptiste Brunet, acting on Napoleon Bonaparte's orders to restore French control over the colony, invited Louverture to a meeting under a promise of safe conduct, then arrested him. He was deported to France and imprisoned at Fort de Joux in the Jura mountains, where he died in April 1803 — nine months before his former lieutenants declared Haiti's independence in January 1804.",
+    "In June 1802, acting on orders from French expedition commander Charles Leclerc — dispatched by Napoleon Bonaparte to restore French control over the colony — General Jean-Baptiste Brunet lured Louverture into a meeting under false pretenses and had him arrested. He was deported to France and imprisoned at Fort de Joux in the Jura mountains, where he died in April 1803 — nine months before his former lieutenants declared Haiti's independence in January 1804.",
   "toussaint-louverture.interpretation.moment.1":
     "Reversing an existing alliance on the strength of one's own read of which side would better serve the actual goal, rather than loyalty to whichever side one started with, is the kind of evidence this profile's independent thinking score draws on.",
 
@@ -2125,7 +2125,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "aristotle.moment.2":
     "고대 전기 전통 — 아리스토텔레스가 세상을 떠난 지 수백 년 뒤에 쓰였지만 서로를 뒷받침하는 디오게네스 라에르티오스와 플루타르코스의 기록에 가장 온전히 남아 있다 — 에 따르면, 마케도니아의 필리포스 2세는 기원전 343년 무렵 아리스토텔레스를 미에자의 왕궁으로 초빙해 자신의 아들, 훗날의 알렉산드로스 대왕을 가르치게 했다.",
   "aristotle.turning_point.1":
-    "기원전 323년 알렉산드로스가 사망한 뒤, 아테네에서는 그가 이전에 마케도니아 궁정과 맺었던 관계를 문제 삼아 반(反)마케도니아 정서가 아리스토텔레스에게로 향했고, 그는 불경죄로 고발당했다. 널리 반복되어 전해지는 고대의 일화에 따르면, 그는 재판을 받는 대신 어머니 쪽 가문의 소유지가 있던 칼키스로 아테네를 떠났으며, \"아테네가 철학에 대해 두 번 죄를 짓게 하지 않겠다\"고 — 소크라테스의 이전 재판과 처형을 가리키는 말로 — 말했다고 전해진다. 그는 이듬해인 기원전 322년 칼키스에서 세상을 떠났다.",
+    "기원전 323년 알렉산드로스가 사망한 뒤, 아테네에서는 그가 이전에 마케도니아 궁정과 맺었던 관계를 문제 삼아 반(反)마케도니아 정서가 아리스토텔레스에게로 향했고, 기원전 322년 그는 불경죄로 고발당했다. 널리 반복되어 전해지는 고대의 일화에 따르면, 그는 재판을 받는 대신 어머니 쪽 가문의 소유지가 있던 칼키스로 아테네를 떠났으며, \"아테네가 철학에 대해 두 번 죄를 짓게 하지 않겠다\"고 — 소크라테스의 이전 재판과 처형을 가리키는 말로 — 말했다고 전해진다. 그는 바로 그해에 칼키스에서 세상을 떠났다.",
   "aristotle.interpretation.moment.1":
     "이런 종류의 현장 조사는 순전히 이론적인 탐구와는 다른 형태의 호기심이다 — 첫 원리로부터의 추론만이 아니라, 직접 가서 관찰함으로써 얻은 증거다.",
   "aristotle.interpretation.turning_point.1":
@@ -2137,11 +2137,11 @@ export const EDITORIAL_KO: Record<string, string> = {
   "simon-bolivar.achievement.2":
     "연이은 초기 군사적 패배 이후 1815년 자메이카 망명 중에 쓴 「자메이카 서한」은 에스파냐령 아메리카 사회에 대한 상세한 정치적 분석을 담고, 독립적이고 통합된 통치에 대한 구체적인 구상을 주장했다 — 린치의 전기에 따르면 이는 단순한 결집 호소가 아니라 체계적인 정치 이론서였다.",
   "simon-bolivar.moment.1":
-    "1819년, 볼리바르는 약 2,100명의 병력을 이끌고 우기에는 통과할 수 없다고 에스파냐 왕당파 군이 판단했던, 물에 잠긴 안데스 고원과 얼어붙은 산길을 넘어 누에바그라나다로 진격했다. 이 기습적인 도착으로 그의 군대는 1819년 8월 7일 보야카 전투에서 결정적인 승리를 거두었고, 보고타로 가는 길이 열렸다.",
+    "1819년, 볼리바르는 2,000명이 넘는 병력을 이끌고 우기에는 통과할 수 없다고 에스파냐 왕당파 군이 판단했던, 물에 잠긴 안데스 고원과 얼어붙은 산길을 넘어 누에바그라나다로 진격했다. 이 기습적인 도착으로 그의 군대는 1819년 8월 7일 보야카 전투에서 결정적인 승리를 거두었고, 보고타로 가는 길이 열렸다.",
   "simon-bolivar.moment.2":
     "1822년 7월, 볼리바르는 과야킬에서 동료 독립운동 지도자 호세 데 산마르틴과 비공개로 만나 새로 해방된 영토들의 정치적 미래를 논의했다. 그 자리에서 무슨 말이 오갔는지에 대한 기록은 남아 있지 않지만, 산마르틴은 얼마 지나지 않아 공직과 군무에서 물러났고, 볼리바르는 대륙 독립운동에서 남은 가장 두드러진 인물이 되었다.",
   "simon-bolivar.turning_point.1":
-    "1828년 무렵 그란콜롬비아는 보고타 중심의 중앙집권 통치에 대한 지역적 저항으로 분열하고 있었고, 볼리바르는 연합을 유지하려는 시도로 독재적 권한을 장악했으며 그해 9월 암살 시도에서 살아남았다. 분열을 되돌리지 못한 채, 그는 베네수엘라와 에콰도르가 분리를 향해 움직이던 1830년 4월 대통령직에서 물러났고, 그해 12월 산타마르타에서 결핵으로 세상을 떠났다 — 그가 거의 20년에 걸쳐 세운 연합이 그가 죽은 바로 그해에 무너져 내렸다.",
+    "1828년 무렵 그란콜롬비아는 보고타 중심의 중앙집권 통치에 대한 지역적 저항으로 분열하고 있었고, 볼리바르는 연합을 유지하려는 시도로 독재적 권한을 장악했으며 그해 9월 암살 시도에서 살아남았다. 분열을 되돌리지 못한 채, 그는 베네수엘라가 분리를 향해 움직이던 1830년 4월 대통령직에서 물러났고, 그해 12월 산타마르타에서 결핵으로 세상을 떠났다 — 그가 거의 20년에 걸쳐 세운 연합이 그가 죽은 바로 그해에 무너져 내렸다.",
   "simon-bolivar.interpretation.moment.2":
     "남아 있는 기록은 그 결과만을 보여줄 뿐 불화 자체를 보여주지는 않으므로, 이 해석은 확정된 사실이라기보다 여전히 해석적인 읽기로 남는다 — 다만 이는 이 프로필 전반에서 나타나는, 실질적인 마찰을 동반하면서도 실제로 작동했던 연대라는 더 넓은 패턴과 맞아떨어진다. 단순하고 매끄러운 협력이 아니라는 점에서다.",
   "simon-bolivar.interpretation.turning_point.1":
@@ -2153,23 +2153,23 @@ export const EDITORIAL_KO: Record<string, string> = {
   "grace-hopper.achievement.2":
     "바이어의 기록은 여러 해에 걸쳐 자신이 속한 조직 안팎의 동료들과 군·기업 지도부를 설득하려 애쓴 지속적인 노력을 보여준다 — 컴퓨터가 영어에 가까운 형태로 작성된 명령을 안정적으로 실행할 수 있다는 주장은 1950년대 초 많은 동시대인들이 기술적으로 불가능하다고 여겼던 것이었으며, 컴파일러 기반의 표준화된 프로그래밍이 업계 관행으로 자리 잡기까지 이런 설득이 이어졌다.",
   "grace-hopper.moment.1":
-    "1947년 9월 9일, 호퍼가 하버드 마크 II 컴퓨터 팀에 있던 무렵, 한 기술자가 기계의 릴레이 중 하나에 나방이 끼어 있어 오작동을 일으킨 것을 발견했다. 팀원 중 한 명이 그 나방을 운용 기록부에 테이프로 붙이며 \"버그(bug)가 발견된 최초의 실제 사례\"라고 적었다. 기술적 결함을 뜻하는 \"버그\"라는 용어는 이 사건 이전부터 공학 분야에 이미 존재했으며 — 호퍼가 만든 말이 아니다 — 다만 그녀는 이후 수십 년간 이 일화를 되풀이해 이야기했고, 그 기록부 페이지는 오늘날에도 스미소니언 국립미국사박물관에 보존되어 있다.",
+    "1947년, 호퍼가 하버드 마크 II 컴퓨터 팀에 있던 무렵, 동료들이 기계의 릴레이 중 하나에 나방이 끼어 있어 오작동을 일으킨 것을 발견했다. 그 나방은 운용 기록부에 테이프로 붙여졌고 \"버그(bug)가 발견된 최초의 실제 사례\"라는 메모가 남겨졌다. 기술적 결함을 뜻하는 \"버그\"라는 용어는 이 사건 이전부터 공학 분야에 이미 존재했으며 — 호퍼가 만든 말이 아니다 — 다만 그녀는 이 용어를 널리 알린 인물로 평가받으며, 그 기록부 페이지는 오늘날에도 스미소니언 국립미국사박물관에 보존되어 있다.",
   "grace-hopper.turning_point.1":
-    "호퍼는 1966년 만 60세 정년으로 해군 예비역에서 퇴역했지만, 7개월 뒤 해군이 서로 호환되지 않는 여러 버전의 코볼을 표준화하는 작업을 돕기 위해 현역으로 다시 소집되었다. 그녀는 이후 거의 20년 가까이 현역으로 복무했고, 1986년 79세의 나이로 해군 준장으로 퇴역했으며, 당시 미 해군에서 현역으로 복무 중인 최고령 장교였다.",
+    "호퍼는 1966년 말 만 60세 정년으로 해군 예비역에서 퇴역했지만, 1967년 8월 해군 전역에 걸쳐 코볼을 표준화하는 작업을 돕기 위해 현역으로 다시 소집되었다. 1971년에 다시 퇴역했다가 이듬해 또다시 소집되었고, 이후로는 계속 복무하며 1986년 79세의 나이로 해군 준장으로 최종 퇴역했는데, 당시 미 해군에서 현역으로 복무 중인 최고령 장교였다.",
   "grace-hopper.interpretation.turning_point.1":
-    "정년퇴임 이후 다시 까다로운 표준화 프로젝트로 복귀해 거의 20년을 더 그 일에 매달린 것은, 이 프로필이 단일한 성취보다 훨씬 위에 두는 숙련 지향(mastery_orientation)과 맞아떨어진다.",
+    "정년퇴임 이후 한 번이 아니라 두 번이나 현역으로 복귀했고, 결국 80세를 눈앞에 두고도 복무를 이어간 것은, 이 프로필이 단일한 성취보다 훨씬 위에 두는 숙련 지향(mastery_orientation)과 맞아떨어진다.",
 
   /* -------------------------------------------------------------- Batch 6: C. V. Raman */
   "cv-raman.achievement.1":
-    "1928년, 라만은 자신의 제자이자 가까운 협력자였던 K. S. 크리슈난과 함께 햇빛과 색 필터, 분광기라는 비교적 단순한 장비만으로 빛이 투명한 물질에 의해 산란될 때 파장이 변한다는 사실을 입증했으며, 이 현상은 훗날 라만 효과로 불리게 되었다. 1930년 노벨 물리학상은 라만 단독에게 수여되었는데, 일부 인도 과학사 연구자들은 이것이 실험 작업에서 크리슈난이 맡았던 상당한 역할을 충분히 인정하지 못한 것이라고 지적해 왔다.",
+    "1928년, 라만은 여러 역사적 기록에 따르면 실제 실험 작업의 상당 부분을 수행한 연구원이었던 K. S. 크리슈난과 함께, 처음에는 햇빛과 단순한 프리즘으로 관찰을 시작해 이후 라만 자신이 설계한 분광기로 정밀한 측정이 가능해진 방식을 통해, 빛이 투명한 물질에 의해 산란될 때 파장이 변한다는 사실을 입증했다 — 이 현상은 훗날 라만 효과로 불리게 되었다. 노벨위원회는 1930년 물리학상 후보로 라만의 이름만을 추천했고 크리슈난은 후보에도 오르지 못했는데, 일부 인도 과학사 연구자들은 이 결정이 발견 과정에서 그가 맡았던 역할을 온전히 반영하지 못했다고 평가해 왔다.",
   "cv-raman.achievement.2":
     "발견 자체를 넘어, 라만은 방갈로르에 라만 연구소를 설립해 이끌었고 인도과학원(IISc) 원장을 지내며 수십 년에 걸쳐 인도 과학 기관을 세우고 인도 물리학자 세대를 길러내는 작업을 이어갔다.",
   "cv-raman.moment.1":
     "라만은 인도 재무부에서 전임으로 근무하는 동안, 인도 전통 악기의 물리학 연구를 시작으로 십여 년 넘게 부업 삼아 진지한 물리학 연구를 이어갔으며, 1917년에는 안정적이고 보수가 좋은 그 공직을 떠나 상당히 낮은 급여를 받으며 캘커타 대학교의 물리학 교수직을 맡았다.",
   "cv-raman.turning_point.1":
-    "라만은 훗날 자신의 강연과 저술에서, 1921년 영국으로 가는 뱃길에서 바다가 왜 푸르게 보이는지에 대한 호기심이 — 단순히 하늘을 반사하는 것이라는 당시의 통설에 의문을 품게 했고 — 투명한 매질에서의 빛 산란에 대한 체계적 연구를 시작하는 계기가 되었으며, 그것이 7년 뒤 그의 이름을 딴 효과의 발견으로 이어졌다고 서술했다.",
+    "1921년 9월, 영국에서 인도로 돌아오는 S.S. 나르쿤다호 항해 중, 라만은 휴대용 분광경으로 지중해의 짙은 푸른빛을 살펴보았고, 그해 11월 『네이처』에 그 관찰 결과를 발표해 바다의 색이 단순히 하늘을 반사하는 것이라는 로드 레일리의 1910년 통설에 정면으로 이의를 제기했다. 투명한 매질에서의 빛 산란에 대한 이 연구의 흐름은 7년 뒤 그의 이름을 딴 효과의 발견으로 이어졌다.",
   "cv-raman.interpretation.turning_point.1":
-    "짚어둘 점은, 이는 연구 방향이 어떻게 시작되었는지에 대한 라만 자신의 회고적 서술이지 당대의 기록이 아니라는 것이다 — 과학자가 훗날 자신의 호기심에 대해 들려주는 이런 종류의 기원 이야기는, 날짜가 남은 문서만큼의 증거력을 갖지는 못하더라도, 이 프로필의 호기심 점수와는 여전히 부합한다.",
+    "기존 설명이 미처 짚어내지 못한 무언가를 알아차리고, 귀국 후 불과 몇 주 만에 그것을 학술지에 발표해 정면으로 이의를 제기한 것은, 이 프로필의 호기심 점수가 근거로 삼는 종류의 증거다.",
 
   /* --------------------------------------------------- Batch 6: Benjamin Banneker */
   "benjamin-banneker.achievement.1":
@@ -2201,7 +2201,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "toussaint-louverture.moment.1":
     "1794년, 프랑스 국민공회가 프랑스령 전역에서 노예제 폐지를 선포하자, 루베르튀르는 애초에 함께 싸웠던 에스파냐 쪽에서 프랑스 쪽으로 자신의 군대의 충성을 바꾸었다 — 뒤부아에 따르면, 어느 쪽이 노예제 폐지를 더 확실하게 지켜낼지에 대한 그 자신의 판단에 근거한, 날짜가 특정된 구체적인 전략적 전환이었다.",
   "toussaint-louverture.turning_point.1":
-    "1802년 6월, 나폴레옹 보나파르트의 명령에 따라 식민지에 대한 프랑스의 지배를 회복하려던 프랑스 장군 장바티스트 브뤼네는 안전한 통행을 약속하며 루베르튀르를 회담에 초청한 뒤 그를 체포했다. 그는 프랑스로 압송되어 쥐라산맥의 주 드 조 요새에 수감되었고, 1803년 4월 그곳에서 세상을 떠났다 — 그의 옛 부관들이 1804년 1월 아이티의 독립을 선언하기 아홉 달 전이었다.",
+    "1802년 6월, 나폴레옹 보나파르트가 식민지에 대한 프랑스의 지배를 회복하기 위해 파견한 원정군 사령관 샤를 르클레르의 명령에 따라, 프랑스 장군 장바티스트 브뤼네는 거짓 구실로 루베르튀르를 회담으로 유인해 체포했다. 그는 프랑스로 압송되어 쥐라산맥의 주 드 조 요새에 수감되었고, 1803년 4월 그곳에서 세상을 떠났다 — 그의 옛 부관들이 1804년 1월 아이티의 독립을 선언하기 아홉 달 전이었다.",
   "toussaint-louverture.interpretation.moment.1":
     "처음 함께했던 쪽에 대한 충성이 아니라, 어느 쪽이 실제 목표를 더 잘 지켜낼지에 대한 자신의 판단에 근거해 기존 동맹을 뒤집은 것은, 이 프로필의 독립적 사고 점수가 근거로 삼는 종류의 증거다.",
 

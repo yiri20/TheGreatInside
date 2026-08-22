@@ -725,3 +725,68 @@ Tier C backfill is explicitly NOT started here — see this file's closing
 note and `CLAUDE.md`'s Phase/Roadmap record for the next step, a
 deliberate product checkpoint on whether Tier A + Tier B coverage is
 already sufficient before any Tier C work is scoped.
+
+**Batch 6 provenance-verification pass (2026-08, before Tier B was
+declared closed).** A dedicated closure gate re-checked every Batch-6
+claim the original session had described as "general knowledge
+consistent with cited sources" against the actual, already-committed
+Wikipedia URL in that person's own `sources` array (via the MediaWiki
+API, fetching the specific relevant section — never broad new research),
+applying the stricter standard "consistent with a source is not enough;
+the source must actually support the claim." **8 of the 33 Batch-6 items
+required a correction** (all narrowing/precision fixes, none required
+removing an item entirely):
+- **Aristotle** turning point — the impiety charge and flight to Chalcis
+  is dated 322 BCE in the source, not 323 BCE (Alexander's death year);
+  his death followed the same year, not "the following year" as
+  originally written.
+- **Simón Bolívar** — the 1819 Andes-crossing force is "more than 2,000
+  soldiers" per the source, not the more precise "roughly 2,100" the
+  original draft stated; the 1829-30 turning point's claim that both
+  "Venezuela and Ecuador" moved toward separation was narrowed to
+  Venezuela only — the source's Final-years section documents Venezuela's
+  secession vote explicitly but does not state an Ecuadorian secession in
+  this same passage.
+- **C. V. Raman** — two corrections, one substantive: the Blue-of-the-Sea
+  voyage was **home to India from England**, not "to England" as
+  originally written (a reversed direction of travel); and the origin
+  account was published in *Nature* about two months after the September
+  1921 voyage, making the original interpretation's framing of it as a
+  non-contemporaneous "retrospective account... not a contemporaneous
+  record" actively false, not merely soft — corrected in both the fact
+  and the interpretation. The achievement item's "his student" for K. S.
+  Krishnan was also softened to "a research associate," matching the
+  source's own wording, and the apparatus description no longer implies
+  sunlight and the spectrograph were used in the same phase of the
+  experiment (the source shows sunlight/prism for the early visual
+  observations, a spectrograph and mercury-arc lamp for the later
+  precision measurements).
+- **Toussaint Louverture** — the 1802 arrest was ordered by expedition
+  commander Charles Leclerc (Napoleon's own instruction was to the
+  overall expedition, not this specific arrest order), and the source
+  describes contested, ambiguous accounts of exactly how Brunet lured
+  Louverture into the meeting — corrected from the more specific,
+  unsupported "a promise of safe conduct" to "false pretenses."
+- **Grace Hopper** — two corrections: the moth/bug moment's "September 9,
+  1947" date is not present in the specific Wikipedia passage this
+  person's own committed source resolves to (only "in 1947" is stated) —
+  narrowed accordingly. More substantively, the turning-point item's
+  claim that she "remained on active duty for nearly another two
+  decades" after her 1967 recall was false — the source's dedicated
+  Retirement section documents a SECOND retirement in 1971 and a second
+  recall in 1972, not one continuous stretch to 1986 — corrected in both
+  the fact and its interpretation.
+
+**Two items were independently re-checked and found to need no
+correction, worth recording since they demonstrate the audit was not
+rubber-stamped**: Chinua Achebe's 1990 accident/relocation turning point
+matched its source exactly on every detail, and Fela Kuti's 1977 raid
+turning point was confirmed accurate down to details more precise than
+the original draft had used (the exact raid date, 18 February 1977, and
+his mother's exact death date, 13 April 1978, both absent from the
+original text but confirmed supportable). Benjamin Banneker's clock date
+("around 1753") and Simón Bolívar's inclusion of Panama among the
+liberated territories were also independently verified and left
+unchanged. No item's `sourceIds`, `attributeId`, or structural shape
+changed — every correction is a same-item text refinement, confirmed by
+`validateEditorial(SEED_PEOPLE)` returning 0 issues before and after.
