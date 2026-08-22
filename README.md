@@ -70,13 +70,16 @@ e2e/         Playwright specs
 
 ## Where to go next
 
+- **What's true about the project right now** → `docs/context/CURRENT_STATE.md`
 - **Adding or editing a person in the roster** → `docs/adding-a-person.md`
 - **Deploying, environment variables, Google OAuth setup** → `docs/deployment.md`
 - **Something broke and you don't know why** → `docs/troubleshooting.md`
-- **Why a design/architecture decision was made** → `CLAUDE.md` (long —
-  it's a running decision log, not a tutorial; search it by keyword rather
-  than reading start to end)
+- **Why a design/architecture decision was made** → `docs/reference/` for
+  the current compact answer; `docs/archive/` for the full historical
+  narrative behind it (not needed for routine work)
 - **Scoring a new person's traits from evidence** → `docs/scoring-rubric-v1.md`
+- **Full task→context routing** → `CLAUDE.md` (short — a router, not a
+  decision log; it points to everything above by task type)
 
 ## Monetization
 
