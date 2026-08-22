@@ -20,6 +20,7 @@
 import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { SEED_PEOPLE } from "../data/people/seed.js";
+import { editorialCoverageStats } from "../core/people/editorialValidation.js";
 
 const ROOT = process.cwd();
 const CANDIDATES_DIR = join(ROOT, "data-pipeline/candidates");
@@ -122,6 +123,7 @@ interface PersonReport {
   sourcesWithUrls: number;
   sourcesTotal: number;
   bucket: "Rich" | "Adequate" | "Thin";
+  hasEditorial: boolean;
 }
 
 const reports: PersonReport[] = [];
@@ -195,6 +197,7 @@ for (const person of SEED_PEOPLE) {
     sourcesWithUrls,
     sourcesTotal,
     bucket,
+    hasEditorial: Boolean(person.editorial),
   });
 }
 
@@ -228,6 +231,64 @@ console.log(`  >=10 episode-like records: ${ge10}/${total}`);
 
 const sourcedGe2 = reports.filter((r) => r.sourcesWithUrls >= 2).length;
 console.log(`\n  Sources with real URLs >=2: ${sourcedGe2}/${total}`);
+
+// ---- Editorial-content coverage, cross-referenced by evidence tier ----
+// This is the section that actually answers "how many Tier-B people
+// remain unbackfilled" — computed here, mechanically, from person.editorial
+// presence, rather than inferred or hand-subtracted in a doc/report. A prior
+// session's own final report stated "52 Tier-B people remain" when 52 was
+// actually the TIER-B TOTAL, not the remaining count (it did not subtract
+// the Tier-B people already covered by the pilot + that same batch) — this
+// block exists specifically so that mistake can't recur silently.
+const tierTotals = { A: 0, B: 0, C: 0 };
+const tierComplete = { A: 0, B: 0, C: 0 };
+for (const r of reports) {
+  tierTotals[r.tier]++;
+  if (r.hasEditorial) tierComplete[r.tier]++;
+}
+const tierRemaining = {
+  A: tierTotals.A - tierComplete.A,
+  B: tierTotals.B - tierComplete.B,
+  C: tierTotals.C - tierComplete.C,
+};
+const totalComplete = tierComplete.A + tierComplete.B + tierComplete.C;
+const totalRemaining = tierRemaining.A + tierRemaining.B + tierRemaining.C;
+
+console.log("\n=== Editorial-content coverage by evidence tier (mechanical, not inferred) ===");
+console.log(`  Tier A — total: ${tierTotals.A}, complete: ${tierComplete.A}, remaining: ${tierTotals.A - tierComplete.A}`);
+console.log(`  Tier B — total: ${tierTotals.B}, complete: ${tierComplete.B}, remaining: ${tierTotals.B - tierComplete.B}`);
+console.log(`  Tier C — total: ${tierTotals.C}, complete: ${tierComplete.C}, remaining: ${tierTotals.C - tierComplete.C}`);
+console.log(`  ---`);
+console.log(`  Total  — total: ${total}, complete: ${totalComplete}, remaining: ${totalRemaining}`);
+if (tierTotals.A + tierTotals.B + tierTotals.C !== total) {
+  throw new Error("Tier totals do not sum to the full roster — audit logic error, do not trust this report.");
+}
+if (tierComplete.A + tierComplete.B + tierComplete.C !== totalComplete) {
+  throw new Error("Tier-complete counts do not sum to totalComplete — audit logic error.");
+}
+
+const itemStats = editorialCoverageStats(SEED_PEOPLE);
+console.log("\n=== Editorial item-level stats (src/core/people/editorialValidation.ts) ===");
+console.log(`  People with editorial content: ${itemStats.peopleWithEditorial}/${itemStats.totalPeople}`);
+console.log(`  Total items: ${itemStats.totalItems}`);
+console.log(`    achievements:    ${itemStats.achievementCount}`);
+console.log(`    moments:         ${itemStats.momentCount}`);
+console.log(`    turning points:  ${itemStats.turningPointCount}`);
+console.log(`  Items with interpretation: ${itemStats.itemsWithInterpretation}`);
+console.log(`  Korean coverage: ${(itemStats.koreanCoverage * 100).toFixed(1)}%`);
+if (itemStats.peopleWithEditorial !== totalComplete) {
+  throw new Error(
+    `Mismatch: editorialCoverageStats reports ${itemStats.peopleWithEditorial} people with editorial content, ` +
+      `but the tier cross-reference above computed ${totalComplete}. Do not trust either number until reconciled.`,
+  );
+}
+
+console.log("\n--- Remaining Tier-B people (evidence-audit order, richest first) ---");
+for (const r of reports
+  .filter((r) => r.tier === "B" && !r.hasEditorial)
+  .sort((a, b) => b.wordCount - a.wordCount)) {
+  console.log(`  ${r.slug.padEnd(28)} bucket=${r.bucket} words=${r.wordCount} episodes=${r.episodeCount} (${r.rosterFile})`);
+}
 
 console.log("\n--- Thin profiles (candidates to leave editorial-empty this session) ---");
 for (const r of reports.filter((r) => r.bucket === "Thin").sort((a, b) => a.wordCount - b.wordCount)) {

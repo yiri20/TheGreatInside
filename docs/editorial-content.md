@@ -338,7 +338,24 @@ Standard v1 this batch — the pattern that needed correcting (over-repeating
 opener) was already covered by the existing "vary the opening construction"
 rule above; it was simply under-applied in this batch's first draft and was
 caught and fixed during self-review before commit, which is exactly what
-that rule anticipates a future author will need to do. 52 Tier-B people
-remain unbackfilled; Tier-C (the original 35's `roster2.ts`/`seed.ts`
-inline-comment-only people, minus the 6 already covered by the pilot) is
-untouched.
+that rule anticipates a future author will need to do.
+
+**Correction (Batch 2 session):** this section previously stated "52
+Tier-B people remain unbackfilled." That was wrong — 52 is the Tier-B
+**total**, not the remaining count; it did not subtract the 12 Tier-B
+people already covered by the pilot (2: Albert Einstein, Joan of Arc) and
+this batch (10: the nine listed above plus Averroes). The correct,
+mechanically-computed figures, cross-referenced by evidence tier (see
+`src/dev/editorialCoverageAudit.ts`'s "Editorial-content coverage by
+evidence tier" section, added specifically so this can't silently recur):
+
+| Tier | Total | Complete | Remaining |
+|---|---|---|---|
+| A (full evidence ledger) | 8 | 2 | 6 |
+| B (qa_passed candidate JSON) | 52 | 12 | 40 |
+| C (inline TS comments only) | 35 | 6 | 29 |
+| **Total** | **95** | **20** | **75** |
+
+Tier-C is untouched (6 of its 35 covered, all by the pilot); Tier-A has
+6 of 8 remaining. Re-run the audit tool for the current live numbers
+rather than trusting this table once it goes stale.
