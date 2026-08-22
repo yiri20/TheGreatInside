@@ -474,5 +474,91 @@ Corrected, mechanically-computed figures after Batch 3:
 
 232 total items (109 achievements, 85 moments, 38 turning points), 77
 with an interpretation, 309 distinct EN keys / 309 KO keys (100%
-coverage). Re-run the audit tool for the current live numbers rather
-than trusting this table once it goes stale.
+coverage).
+
+**Batch 4 (`feat/editorial-backfill-batch-4`) — Tier-A editorial coverage
+now COMPLETE (8/8).** Unlike Batches 1-3, this batch deliberately did not
+simply take the next 10 Tier-B people: it finished all 6 remaining Tier-A
+people first (the highest-evidence category, sourced from full
+`src/dev/roster1000/production/<session>/<slug>/evidenceLedger.json`
+episode ledgers rather than `data-pipeline/candidates/*.json` rationale),
+then used the remaining 4 slots on the strongest available Tier-B `Rich`
+candidates by the same richness-first selection rule as earlier batches.
+
+Six Tier-A people: Fyodor Dostoevsky, Louis Pasteur, Louis Armstrong,
+Akio Morita, Oscar Niemeyer, Aung San Suu Kyi (990-2215 words, 23-45
+ledger episodes each — several times richer than any Tier-B/C source).
+Four Tier-B people (ranked richest-first among the 20 remaining, all
+comfortably `Rich`, 612-674 words): Ludwig Wittgenstein, Thomas Edison,
+Michelangelo, Malcolm X — the unadjusted top 4, kept as-is this round
+since (unlike Batch 3, which traded richness for diversity) Tier-A's own
+six people already delivered the batch's real diversity (three
+continents, four professions, two living-memory 20th-century political
+figures, the roster's first Southeast Asian and first Japanese
+entrepreneurial-builder editorial profiles).
+
+**A real per-episode provenance constraint, not previously encountered at
+this scale, shaped every Tier-A item.** Evidence-ledger episodes carry
+their own granular `sourceIds` tags (e.g. `"ENCYC"`, `"SEARCH-AGG"`,
+`"WIKI"`) that do NOT always correspond to an entry in that person's own
+`Person.sources` array — several of the most famous, richest episodes in
+the ledgers (Aung San Suu Kyi's Danubyu rifle-walking moment, several of
+Oscar Niemeyer's Wikipedia-only-tagged episodes) were found, checked, and
+deliberately excluded for exactly this reason: `SEARCH-AGG` and bare
+`WIKI` tags on a per-episode basis don't reliably map to a citable,
+committed source id, and inventing a citation to keep a good episode
+would have violated the same evidence discipline the Aquinas check (below)
+enforces. Every item actually authored traces to a `sourceIds` value that
+is a real, verified subset of that person's own committed `sources` array
+— checked person-by-person against the roster file, not assumed.
+
+**Aung San Suu Kyi's later-life turning point (2015 State Counsellor
+tenure through the 2017 Rohingya crisis, her 2019 ICJ defense, and her
+2021 arrest) was written with deliberate additional restraint**, given
+the subject: every claim traces to an institutional or press source
+already in her `Person.sources` (Human Rights Watch, Journal of
+Democracy, Al Jazeera's ICJ transcript, Asia Times), her own actions and
+words are reported as exactly that (not moralized), no interpretation
+sentence was attached to this specific item (permitted — "not every item
+needs one"), and where an interpretation WAS attached to her *other*
+turning point (the 1988 return), it deliberately mirrors language already
+present, reviewed, and approved in her own canonical `conflict_tolerance`
+row rationale in `roster10.ts`, rather than introducing a new causal
+claim. Omitting this period of her life entirely was considered and
+rejected — her own scored attribute rows (`leadership_drive`,
+`conflict_tolerance`, `belief_updating`) already draw directly on this
+period, so a profile silent about it would be a less complete, not a
+safer, account of a documented public record.
+
+**Thomas Aquinas provenance check (before Batch 4 proper began).** Batch
+3's closing note flagged the "straw" turning point (his December 1273
+mystical experience and cessation of writing) as resting on general
+historical knowledge rather than a rationale-string-cited episode. A
+narrow check — fetching the one repository-preserved source with a real
+URL, `src_aquinas_wikipedia` — found the episode fully supported,
+including the same hedging language ("reportedly," "is said to have")
+already used in the shipped copy. One real, minor inaccuracy was found
+and fixed: the copy stated Aquinas died "four months" after the event;
+the source's own stated dates (6 December 1273 to 7 March 1274) put it
+at roughly three months. Fixed in both `EDITORIAL_EN` and `EDITORIAL_KO`.
+No broader Aquinas research was performed, per instruction.
+
+Corrected, mechanically-computed figures after Batch 4:
+
+| Tier | Total | Complete | Remaining |
+|---|---|---|---|
+| A (full evidence ledger) | 8 | **8** | **0** |
+| B (qa_passed candidate JSON) | 52 | 36 | 16 |
+| C (inline TS comments only) | 35 | 6 | 29 |
+| **Total** | **95** | **50** | **45** |
+
+286 total items (128 achievements, 108 moments, 50 turning points), 97
+with an interpretation, 383 distinct EN keys / 383 KO keys (100%
+coverage). Structural validation clean (0 issues,
+`validateEditorial(SEED_PEOPLE)`). Matching health unaffected
+(`simulate.ts 10000 quiz`: Warren Buffett #1 frequency 12.0%, unchanged
+from the pre-batch baseline) — editorial content is presentation-only and
+touches no `src/core/matching`/`src/core/attributes`/roster file, confirmed
+by `git diff` scope (only `src/core/i18n/editorial.ts` and
+`src/data/people/editorial.ts` changed). Re-run the audit tool for the
+current live numbers rather than trusting this table once it goes stale.

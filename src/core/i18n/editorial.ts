@@ -593,7 +593,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "thomas-aquinas.moment.2":
     "He was widely known among fellow students by the nickname \"the Dumb Ox\" for his quiet, reserved manner — reportedly defended at the time by his teacher, Albert the Great, who predicted his eventual renown.",
   "thomas-aquinas.turning_point.1":
-    "A widely documented account holds that following a mystical experience during Mass on 6 December 1273, he stopped writing, reportedly telling his secretary that everything he had written now seemed like straw to him next to what he had witnessed. He never resumed the Summa, which remained unfinished at his death four months later.",
+    "A widely documented account holds that following a mystical experience during Mass on 6 December 1273, he stopped writing, reportedly telling his secretary that everything he had written now seemed like straw to him next to what he had witnessed. He never resumed the Summa, which remained unfinished at his death roughly three months later.",
   "thomas-aquinas.interpretation.achievement.3":
     "The profile's independent_thinking score is worth reading through what it cost him — formal posthumous condemnation, not merely a private disagreement never voiced publicly.",
   "thomas-aquinas.interpretation.turning_point.1":
@@ -722,6 +722,174 @@ export const EDITORIAL_EN: Record<string, string> = {
     "A structured, named rebuttal of specific Enlightenment authorities is what the profile's independent_thinking score is picking up on here, not a vaguer general dissatisfaction.",
   "mary-wollstonecraft.interpretation.moment.3":
     "Criticism that deepened after her death, not only pressure she withstood while still able to answer it, is the fuller shape of the profile's conflict_tolerance score here.",
+
+  /* -------------------------------------------------- Batch 4: F. Dostoevsky */
+  "fyodor-dostoevsky.achievement.1":
+    "He wrote his most enduring novels — Crime and Punishment, The Idiot, The Possessed — in direct parallel with the most acute period of his own financial crisis and gambling addiction abroad, rather than after resolving either.",
+  "fyodor-dostoevsky.achievement.2":
+    "He repeatedly converted real, observed events into major fiction across four decades: a courier's roadside cruelty witnessed as a teenager reappeared in two later novels, a newspaper account of a seamstress's suicide became The Meek One within the same publication cycle, and the 1869 murder by a radical political circle became The Possessed.",
+  "fyodor-dostoevsky.moment.1":
+    "Facing a publishing contract that required delivering an entirely new novel within about a month or forfeiting his rights to existing and future work for nine years, he hired a stenographer and dictated The Gambler to the deadline, then filed the finished manuscript with a notary roughly two hours before the publisher's office would have closed.",
+  "fyodor-dostoevsky.moment.2":
+    "His second wife Anna's contemporaneous 1867 diary records a repeating pattern in their early marriage: sharp quarrels — he would \"get into a terrible rage\" over something as small as poor restaurant service — followed by quick reconciliation within the same day, a firsthand account from the person who observed it daily.",
+  "fyodor-dostoevsky.turning_point.1":
+    "In December 1849 he was led through a staged mock execution — blindfolded, tied to a post, facing a raised firing squad — before a last-minute reprieve that had, unknown to the prisoners, already been decided the day before as deliberate psychological terror. In a letter to his brother written hours later, he described not despair but an intensified will to live: \"Life is a gift, life is happiness... I am living again!\"",
+  "fyodor-dostoevsky.turning_point.2":
+    "From the early 1870s he progressively ceded real financial and business authority — contract negotiation, pricing, publishing operations — to Anna, writing to her in 1876 that \"everything is in your power alone... I so highly value and trust in your mind.\" It reversed the previous decade's pattern of exclusively self-directed financial decisions, the same pattern that had produced his bankruptcy.",
+  "fyodor-dostoevsky.interpretation.achievement.1":
+    "This pattern — output sustained through crisis rather than only after it — is consistent with the profile's high persistence score.",
+  "fyodor-dostoevsky.interpretation.moment.1":
+    "This single, specific episode is the clearest documented instance behind the profile's high execution_speed score.",
+  "fyodor-dostoevsky.interpretation.turning_point.1":
+    "This response to a near-death event, before it was later revealed to have been staged terror, is consistent with the profile's high belief_updating and adaptability scores — reframing an extreme, unchosen circumstance rather than being paralyzed by it.",
+  "fyodor-dostoevsky.interpretation.turning_point.2":
+    "Handing over financial control, after a decade of solitary decisions had produced bankruptcy, is one specific documented instance behind the profile's collaboration score.",
+
+  /* ------------------------------------------------------ Batch 4: L. Pasteur */
+  "louis-pasteur.achievement.1":
+    "He founded the field of stereochemistry by hand-separating mirror-image forms of tartrate crystals under a microscope, sorting them one by one based on tiny asymmetric facets — a discovery built from unusually careful, repetitive manual observation rather than a single flash of insight.",
+  "louis-pasteur.achievement.2":
+    "At the French government's request, he spent five years investigating a silkworm disease in a field where he had essentially no prior background — a period historians describe as an \"epistemological rupture\" that converted him from a chemist into a biologist.",
+  "louis-pasteur.moment.1":
+    "At the 1881 public field trial of his anthrax vaccine at Pouilly-le-Fort, he deliberately built his most vocal skeptic — a veterinarian who rejected germ theory outright — into the trial's own oversight structure, letting him select the animals and supervise the exposure, then addressed the assembled politicians, journalists, and farmers in a plain, familiar tone that reportedly charmed the crowd.",
+  "louis-pasteur.moment.2":
+    "The vaccine actually administered at that public trial was not the method he had publicly implied — which had not reliably worked — but a chemically inactivated preparation developed by a rival he had publicly dismissed and refined by his own assistant. He ordered the substitution kept quiet, and it became known only when his private notebooks were published nearly a century later.",
+  "louis-pasteur.turning_point.1":
+    "Three of his five children died of typhoid fever within his lifetime, and the accumulated grief and overwork of this period is linked by multiple biographers to a stroke in 1868 that permanently paralyzed part of his left arm and leg. From that point he worked mainly through trusted assistants, directing the physical laboratory work rather than carrying it out himself.",
+  "louis-pasteur.turning_point.2":
+    "Facing a boy considered near-certain to die of rabies without intervention, he personally decided — despite holding no medical license, a real legal risk — to administer an experimental treatment previously tested only in animals; his own words describe the decision as made \"not without acute and harrowing anxiety.\" His most trusted collaborator initially refused to take part, believing it premature and unjust, and a second physician who did hold a license ultimately administered the injections.",
+  "louis-pasteur.interpretation.turning_point.1":
+    "Continuing to direct research while relying on others for the manual work is consistent with the profile's adaptability score — a real change in working method, not a change in ambition.",
+  "louis-pasteur.interpretation.turning_point.2":
+    "Proceeding under this much uncertainty, hedged by his own collaborator's initial refusal and his own admitted anxiety, is one of the more fully documented instances behind the profile's risk_tolerance score — not an act of simple confidence.",
+
+  /* ----------------------------------------------------- Batch 4: L. Armstrong */
+  "louis-armstrong.achievement.1":
+    "Back in Chicago, he formed the Hot Five, and later the Hot Seven, under his own name — drawing several musicians directly from his former mentor's own band — and built a body of recordings that established him as a bandleader in his own right.",
+  "louis-armstrong.achievement.2":
+    "He kept a self-driven practice of documenting his own life across five decades, entirely outside any publisher or ghostwriter — roughly 650 reel-to-reel tapes, 5,000 photographs, and 86 scrapbooks kept from 1926 onward, with hand-annotated mixtapes carrying his own collage artwork.",
+  "louis-armstrong.moment.1":
+    "Arrested for firing a pistol into the air on New Year's Eve 1912, the eleven-year-old Armstrong was sent to the Colored Waif's Home for Boys, where an instructor taught him proper cornet technique; he rose to lead the Home's own brass band before his release in 1914.",
+  "louis-armstrong.moment.2":
+    "Departing sharply from his usual public reticence about politics, he condemned the federal government's handling of the 1957 Little Rock school-desegregation crisis directly to a reporter, calling the president \"two-faced\" with \"no guts\" — and when his own manager later suggested publicly that he was \"sorry\" about the remarks, Armstrong immediately contradicted that framing and reaffirmed his position.",
+  "louis-armstrong.turning_point.1":
+    "In 1924 he married pianist Lil Hardin, a trained musician who pushed him to leave his mentor Joe Oliver's shadow rather than remain a sideman indefinitely. He tried Fletcher Henderson's New York orchestra the next year, found the year unsatisfying, and returned to Chicago — the point at which he began building a career under his own name instead of someone else's.",
+  "louis-armstrong.interpretation.moment.2":
+    "A rare public departure from an otherwise carefully maintained persona, made and then defended rather than walked back, is consistent with the profile's risk_tolerance score.",
+  "louis-armstrong.interpretation.turning_point.1":
+    "Leaving an established, secure position for one built on his own name is one specific documented instance behind the profile's autonomy_need and proactive_agency scores.",
+
+  /* -------------------------------------------------------- Batch 4: A. Morita */
+  "akio-morita.achievement.1":
+    "In 1953 he committed his still-small company to a large, largely non-recoverable licensing fee for transistor technology from Western Electric, at a time when the wider electronics industry considered transistors suited mainly to hearing aids rather than the consumer electronics he intended to build.",
+  "akio-morita.achievement.2":
+    "He pushed the Walkman project forward in 1979 against near-unanimous internal opposition — market research predicted rejection, sales projected an unachievable volume target, marketing called the name embarrassing — and personally told Sony's board he would resign if it failed.",
+  "akio-morita.moment.1":
+    "When the new pocket transistor radio (1957) proved slightly too large for a standard shirt pocket, he had sales staff wear specially tailored shirts with enlarged pockets during demonstrations, so the product would visibly read as pocket-sized to buyers.",
+  "akio-morita.moment.2":
+    "After a young musician, Norio Ohga, wrote a sharply critical letter comparing the company's poor tape-recorder sound quality to a dancer needing an accurate mirror, Morita brought Ohga on as a paid consultant rather than dismiss the criticism — Ohga later became Sony's own CEO and chairman.",
+  "akio-morita.moment.3":
+    "After Japan's Ministry of International Trade and Industry delayed releasing the foreign currency needed to pay the transistor licensing fee for roughly six months, he later drew a blunt lesson from the episode: \"government often impedes innovative change and developments by excessive intervention.\"",
+  "akio-morita.turning_point.1":
+    "From 1960 he rejected offers to market the company's products under established American brand names, insisting on building an independent identity abroad, and personally relocated to the United States with his wife and children to learn the market firsthand before committing further — sustaining roughly a decade of unprofitable U.S. operations before the American business became a major contributor.",
+  "akio-morita.interpretation.achievement.2":
+    "Telling the board he would resign over a product almost everyone around him doubted is consistent with the profile's high decisiveness and risk_tolerance scores.",
+  "akio-morita.interpretation.turning_point.1":
+    "Choosing an unproven independent identity over an established one, backed by personally relocating to learn the market rather than delegating it, is one of the clearer documented instances behind the profile's risk_tolerance and adaptability scores.",
+
+  /* ------------------------------------------------------ Batch 4: O. Niemeyer */
+  "oscar-niemeyer.achievement.1":
+    "He designed and built the entire government and civic core of Brasília — the presidential palace, national congress, cathedral, and supreme court — within four years, working alongside his own former mentor Lúcio Costa after being personally invited by President Kubitschek at Niemeyer's own home.",
+  "oscar-niemeyer.achievement.2":
+    "During two decades of exile from Brazil, he sustained an internationally distributed practice across France, Algeria, Italy, Portugal, and Lebanon — including two American commissions designed entirely by mail without ever visiting the sites — while collaborating with his daughter, Anna Maria, on furniture design.",
+  "oscar-niemeyer.moment.1":
+    "At 91 he won Britain's RIBA Royal Gold Medal but did not travel to London to accept it in person — reportedly because of a genuine fear of flying, a specific personal limit set against a career built substantially on remote and international commissions.",
+  "oscar-niemeyer.moment.2":
+    "At 101, when directly asked whether his signature curves referenced the female body — a claim repeated in coverage of his furniture designs and consistent with his own memoir's nature-derived language about curves — he flatly denied it: \"The form comes from nothing.\"",
+  "oscar-niemeyer.moment.3":
+    "At nearly 100 he described his continued daily work plainly rather than dramatizing it — \"I just did my work... I tried to do the things I liked to do\" — still climbing the stairs each morning to a full day of work in his penthouse office, and at 101 kept a fixed daily schedule of press meetings and design work rather than treating retirement as a live option.",
+  "oscar-niemeyer.turning_point.1":
+    "After the 1964 military coup, his office was raided and his clients disappeared; the following year he and roughly two hundred University of Brasília professors collectively resigned in protest of the government's treatment of the university. Facing direct professional persecution — one government minister reportedly said \"the place for a communist architect is Moscow\" — he left Brazil for exile in France in 1965 rather than moderate his politics to stay.",
+  "oscar-niemeyer.interpretation.turning_point.1":
+    "Accepting exile and lost commissions rather than disavowing a political commitment to preserve his career is consistent with the profile's independent_thinking and risk_tolerance scores.",
+
+  /* --------------------------------------------------- Batch 4: A.S. Suu Kyi */
+  "aung-san-suu-kyi.achievement.1":
+    "In 1990 the National League for Democracy, which she co-founded and led, won a landslide election victory while she remained under house arrest and unable to campaign; the ruling military junta refused to recognize the result or transfer power. She was awarded the 1991 Nobel Peace Prize the following year, still unable to travel to accept it in person, and directed the full prize money — roughly $1.3 million — into a health and education trust for the Burmese people rather than keep it.",
+  "aung-san-suu-kyi.moment.1":
+    "Her father, independence leader Aung San, was assassinated by political rivals when she was two years old, and she was raised largely on his posthumous reputation while her mother became a prominent public figure in her own right, serving as Burma's ambassador to India and Nepal. In her own essay \"Freedom from Fear,\" she later held up her father's willingness \"to speak the truth, to stand by his word, to accept criticism, to admit his faults, to correct his mistakes, to respect the opposition\" as her model for confronting fear.",
+  "aung-san-suu-kyi.moment.2":
+    "Across roughly fifteen of the twenty-one years she spent under house arrest between 1989 and 2010, she kept a routine of pre-dawn meditation, extensive reading — including biographies of Gandhi, Nehru, and Mandela — and household chores, following outside news by BBC radio without a telephone, computer, or internet connection for most of the period. She practiced piano regularly in the earlier part of her detention, reportedly Mozart, until Burma's humidity permanently warped the instrument out of tune.",
+  "aung-san-suu-kyi.turning_point.1":
+    "She returned to Burma in March 1988 only to nurse her mother after a stroke, with no stated political intention. Within six months she had addressed a rally of roughly half a million people at the Shwedagon Pagoda calling for democratic government, later explaining the shift in her own words: \"I could not as my father's daughter remain indifferent to all that was going on.\"",
+  "aung-san-suu-kyi.turning_point.2":
+    "After her party's 2015 election landslide, she led Myanmar's government as State Counsellor during a 2017 military campaign against Rohingya communities that international investigators characterized as involving mass killing, rape, and arson; her government maintained public silence on the military's conduct for an extended period and did not use its parliamentary majority to reform laws used to imprison journalists and critics. In December 2019 she personally led Myanmar's legal defense at the International Court of Justice, telling the court that the 2017 violence should be understood as a domestic counter-insurgency response rather than a campaign against civilians. In February 2021 the military she had defended at the Hague arrested her in a coup that rejected her party's re-election, and as of this writing she remains in military custody, more than five years later.",
+  "aung-san-suu-kyi.interpretation.turning_point.1":
+    "This account, told in her own words years later, is consistent with the profile's proactive_agency score — a stated shift from a private, literary life to national political leadership within months, prompted by circumstance rather than long premeditation.",
+  "aung-san-suu-kyi.interpretation.turning_point.2":
+    "The same sustained willingness to hold an unpopular, high-stakes position under pressure — opposing the military that once imprisoned her, and later defending that same military internationally — is what the profile's conflict_tolerance score is drawing on across both periods of her life.",
+
+  /* --------------------------------------------------- Batch 4: L. Wittgenstein */
+  "ludwig-wittgenstein.achievement.1":
+    "He published the Tractatus Logico-Philosophicus in 1921, then declared philosophy's fundamental problems \"solved\" and left academic philosophy for roughly a decade — working as a rural Austrian schoolteacher and later an architect — before returning once dissatisfied with his own earlier conclusions.",
+  "ludwig-wittgenstein.achievement.2":
+    "In the preface to Philosophical Investigations, published after his death, he stated the later work should be read alongside the Tractatus specifically because it corrected \"grave errors\" in his own earlier thinking — one philosopher publicly and substantively overturning his own prior major work.",
+  "ludwig-wittgenstein.moment.1":
+    "He renounced his entire inheritance — he was born into one of the wealthiest families in Austria — to live an ascetic life with essentially no financial security, a specific documented act rather than a general reputation for austerity.",
+  "ludwig-wittgenstein.moment.2":
+    "Students and colleagues, including Bertrand Russell, documented him for intense, sustained concentration during philosophical work, including reportedly pacing for hours while working through a single problem.",
+  "ludwig-wittgenstein.turning_point.1":
+    "During the First World War's aftermath he sustained six years of demanding work as a rural Austrian primary-school teacher — a role, and social position, far outside his prior academic standing and family wealth — part of what his biography describes as a deliberate, sustained pursuit of what he called \"the duty of full self-expression\" across a series of exacting roles: soldier, schoolteacher, architect, wartime hospital orderly, and returning philosopher.",
+  "ludwig-wittgenstein.interpretation.achievement.2":
+    "This is one of the more direct, self-documented instances of belief_updating in the roster: not a private reconsideration, but a public statement naming his own earlier work's errors.",
+  "ludwig-wittgenstein.interpretation.turning_point.1":
+    "This sequence — each role taken up with total commitment and completed rather than abandoned partway — is the central documented thesis of his biography, and is consistent with the profile's persistence score.",
+
+  /* -------------------------------------------------------- Batch 4: T. Edison */
+  "thomas-edison.achievement.1":
+    "He built not only a commercially viable incandescent light bulb but the full supporting electrical generation and distribution system needed to make it usable — the Pearl Street Station — a documented, genuinely systemic achievement beyond a single device.",
+  "thomas-edison.achievement.2":
+    "He established Menlo Park as one of the first organized industrial research laboratories, deliberately structuring invention as a systematic, resourced team process rather than individual, ad hoc tinkering, reportedly setting the lab a working goal of a minor invention roughly every ten days and a major one every few months.",
+  "thomas-edison.moment.1":
+    "His laboratory notebooks survive as thousands of pages documenting systematic testing of an unusually large number of filament materials before he arrived at a commercially viable design — corroborated across independent biographical accounts, not a single anecdote.",
+  "thomas-edison.moment.2":
+    "He waged a sustained public campaign — the \"War of Currents\" — against Westinghouse and Nikola Tesla's rival AC power system, including funding public electrocution demonstrations of animals specifically to discredit AC's safety record, a documented and, by most historical assessments, ethically questionable tactic within an otherwise commercially motivated dispute.",
+  "thomas-edison.moment.3":
+    "He personally invested heavily in ventures that documentedly failed, notably an iron-ore-mining enterprise that cost him substantial personal losses; multiple historians also document that a number of patents credited to him alone involved substantial uncredited or under-credited contributions from employees such as Lewis Latimer and Francis Jehl — a more mixed picture than the singular \"Wizard of Menlo Park\" image his own deliberately cultivated public persona and press relationships helped build.",
+  "thomas-edison.interpretation.achievement.2":
+    "This organizational choice — treating invention as a managed process with its own targets — is consistent with the profile's high planning_orientation and systems_abstraction scores, distinct from the popular image of a lone tinkerer.",
+
+  /* ---------------------------------------------------- Batch 4: Michelangelo */
+  "michelangelo.achievement.1":
+    "Across a nearly seventy-year working life he sustained major output across sculpture (David, the Pietà), painting (the Sistine Chapel ceiling and Last Judgment), architecture (the dome of St. Peter's Basilica, the Laurentian Library), and poetry — an unusually well-corroborated case of range across genuinely distinct disciplines, not merely dabbling in each.",
+  "michelangelo.achievement.2":
+    "In his seventies, decades into an established reputation as a painter and sculptor, he took on the role of chief architect for St. Peter's Basilica and fundamentally redesigned its structural plan, including the dome — a late-career shift into a substantially different discipline rather than remaining within his already-mastered domains.",
+  "michelangelo.moment.1":
+    "Giorgio Vasari's biography — written and revised while Michelangelo was alive, with his direct knowledge — documents that during intensive periods of work, including the Sistine ceiling commission, he sometimes slept in his clothes and boots for extended periods without undressing, so as not to interrupt the work.",
+  "michelangelo.moment.2":
+    "Vasari's biography also documents Michelangelo repeatedly abandoning and restarting major commissions — including more than one Pietà and tomb sculpture — reworking them to standards only he judged sufficient, rather than delivering a version he considered less than complete.",
+  "michelangelo.turning_point.1":
+    "In 1506, after a dispute with Pope Julius II over payment for the pope's own tomb commission, Michelangelo fled Rome without permission — an extraordinarily risky act for the era against the most powerful patron in it — and returned only after direct negotiation restored the relationship.",
+  "michelangelo.interpretation.moment.2":
+    "This is the specific, named documented pattern behind the profile's perfectionism score, not a general reputation inferred after the fact.",
+  "michelangelo.interpretation.turning_point.1":
+    "Confronting the era's most powerful patron directly, rather than accepting the dispute quietly, is consistent with the profile's risk_tolerance and autonomy_need scores.",
+
+  /* ------------------------------------------------------- Batch 4: Malcolm X */
+  "malcolm-x.achievement.1":
+    "Within roughly a decade of his release from incarceration, he became one of the most prominent, widely broadcast public speakers of the American civil rights era, a rise documented through extensive surviving footage, transcribed speeches, and press coverage.",
+  "malcolm-x.achievement.2":
+    "Within the final year of his life, after publicly breaking from the Nation of Islam, he founded two new organizations — Muslim Mosque, Inc. and the Organization of Afro-American Unity — rebuilding his public organizing work essentially from scratch rather than retiring from public life.",
+  "malcolm-x.moment.1":
+    "His autobiography documents an intense, self-directed prison education program: he systematically copied the dictionary by hand over an extended period, an effort he credited directly for his later intellectual development.",
+  "malcolm-x.moment.2":
+    "He continued public speaking and organizing after his home was firebombed and after receiving credible death threats in the weeks before his February 1965 assassination — a documented pattern of continuing under known, extreme personal danger rather than withdrawing from public life.",
+  "malcolm-x.turning_point.1":
+    "Following his 1964 pilgrimage to Mecca, he publicly and substantively revised his own worldview, breaking from the Nation of Islam's separatist theology toward a broader orthodox Islamic and pan-Africanist framework — a shift he narrated in detail in his own autobiography as a direct response to firsthand experience that contradicted his prior assumptions, not a change reported secondhand.",
+  "malcolm-x.interpretation.moment.1":
+    "This sustained, self-imposed program is the specific, self-narrated evidence behind the profile's deep_focus and discipline scores.",
+  "malcolm-x.interpretation.turning_point.1":
+    "This is among the more extensively self-documented instances of belief_updating in the roster: a first-person account of revising a deeply held public position after direct experience, not a characterization applied by others.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -1295,7 +1463,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "thomas-aquinas.moment.2":
     "그는 조용하고 내성적인 태도 때문에 동료 학생들 사이에서 '벙어리 소'라는 별명으로 널리 알려져 있었다 — 당시 그의 스승 알베르투스 마그누스가 그를 두둔하며 훗날 그의 명성을 예견했다고 전해진다.",
   "thomas-aquinas.turning_point.1":
-    "널리 전해지는 이야기에 따르면, 1273년 12월 6일 미사 중 신비 체험을 한 뒤 그는 집필을 멈추었고, 자신이 그동안 써온 모든 것이 자신이 목격한 것에 비하면 지푸라기처럼 여겨진다고 비서에게 말했다고 한다. 그는 이후 『신학대전』으로 다시 돌아가지 않았고, 그 저작은 넉 달 뒤 그가 세상을 떠날 때까지 미완성으로 남았다.",
+    "널리 전해지는 이야기에 따르면, 1273년 12월 6일 미사 중 신비 체험을 한 뒤 그는 집필을 멈추었고, 자신이 그동안 써온 모든 것이 자신이 목격한 것에 비하면 지푸라기처럼 여겨진다고 비서에게 말했다고 한다. 그는 이후 『신학대전』으로 다시 돌아가지 않았고, 그 저작은 약 석 달 뒤 그가 세상을 떠날 때까지 미완성으로 남았다.",
   "thomas-aquinas.interpretation.achievement.3":
     "프로필의 독립적 사고(independent_thinking) 점수는 이 입장이 그에게 치른 대가 — 결코 밖으로 드러내지 않은 사적인 이견 정도가 아니라 공식적인 사후 단죄 — 를 통해 읽어볼 가치가 있다.",
   "thomas-aquinas.interpretation.turning_point.1":
@@ -1424,6 +1592,174 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 독립적 사고(independent_thinking) 점수가 여기서 포착하는 것은 막연한 불만이 아니라, 특정한 계몽주의 권위자들을 명시적으로 겨냥한 체계적인 반박이다.",
   "mary-wollstonecraft.interpretation.moment.3":
     "프로필의 갈등 감내(conflict_tolerance) 점수는 그가 살아서 맞설 수 있었던 압박뿐 아니라, 사후에 오히려 더 깊어진 비판까지도 함께 설명해야 한다.",
+
+  /* -------------------------------------------------- Batch 4: F. Dostoevsky */
+  "fyodor-dostoevsky.achievement.1":
+    "그는 자신의 재정 위기와 해외에서의 도박 중독이 가장 심각했던 시기와 겹치는 동안, 어느 한쪽도 해결되기 전에 『죄와 벌』, 『백치』, 『악령』 등 자신의 가장 오래 남을 소설들을 집필했다.",
+  "fyodor-dostoevsky.achievement.2":
+    "그는 사십 년에 걸쳐 실제로 목격하거나 접한 사건들을 거듭 소설로 옮겼다 — 십대 시절 길에서 목격한 마부의 잔인한 행동은 훗날 두 편의 소설에 다시 등장했고, 재봉사의 자살을 다룬 신문 기사는 같은 발행 주기 안에 『온순한 여인』으로 완성되었으며, 1869년 급진 정치 집단 내부의 살인 사건은 『악령』이 되었다.",
+  "fyodor-dostoevsky.moment.1":
+    "출판 계약에 따라 약 한 달 안에 완전히 새로운 소설을 넘기지 못하면 향후 9년간 기존작과 신작 전체에 대한 권리를 잃게 될 위기에 처하자, 그는 속기사를 고용해 마감까지 『노름꾼』을 구술했고, 출판사 사무실이 문을 닫기 약 두 시간 전에 완성된 원고를 공증인에게 제출했다.",
+  "fyodor-dostoevsky.moment.2":
+    "그의 두 번째 아내 안나가 남긴 1867년 당시의 일기에는 신혼 초기의 반복되는 패턴이 기록되어 있다 — 식당의 형편없는 접대처럼 사소한 일에도 그는 '격렬하게 화를 냈'지만, 같은 날 안에 곧 화해가 이어졌다는, 그 모습을 매일 곁에서 지켜본 사람이 남긴 1인칭 기록이다.",
+  "fyodor-dostoevsky.turning_point.1":
+    "1849년 12월, 그는 눈가리개를 하고 기둥에 묶인 채 총살형 집행조 앞에 세워지는 모의 처형을 겪었다 — 마지막 순간의 사면은, 죄수들은 몰랐지만 이미 전날 의도적인 심리적 공포 조치로 결정되어 있던 것이었다. 몇 시간 뒤 형에게 쓴 편지에서 그는 절망이 아니라 오히려 더 강해진 삶에 대한 의지를 묘사했다 — '삶은 선물이다, 삶은 행복이다... 나는 다시 살고 있다!'",
+  "fyodor-dostoevsky.turning_point.2":
+    "1870년대 초부터 그는 계약 협상, 가격 책정, 출판 업무 등 실질적인 재정·사업 권한을 점차 안나에게 넘겼고, 1876년에는 그에게 '모든 것이 오직 당신 손에 달려 있다... 나는 당신의 판단을 매우 높이 평가하고 신뢰한다'고 편지에 썼다. 이는 그가 파산에 이르게 만들었던, 이전 십 년간 전적으로 혼자 재정을 결정하던 패턴을 뒤집는 변화였다.",
+  "fyodor-dostoevsky.interpretation.achievement.1":
+    "위기를 지나고 나서가 아니라 위기 한가운데서도 이어진 이 작업 패턴은 프로필의 높은 끈기(persistence) 점수와 부합한다.",
+  "fyodor-dostoevsky.interpretation.moment.1":
+    "이 하나의 구체적인 일화는 프로필의 높은 실행 속도(execution_speed) 점수를 뒷받침하는 가장 명확한 기록된 사례다.",
+  "fyodor-dostoevsky.interpretation.turning_point.1":
+    "훗날 조작된 공포극이었음이 밝혀지는 죽음 직전의 사건에 대한 이러한 반응은 프로필의 높은 입장 수정 성향(belief_updating) 및 적응력(adaptability) 점수와 부합한다 — 극단적이고 스스로 선택하지 않은 상황 앞에서 얼어붙는 대신 그것을 다시 해석해낸 것이다.",
+  "fyodor-dostoevsky.interpretation.turning_point.2":
+    "십 년간의 단독 결정이 파산으로 이어진 뒤 재정 통제권을 넘긴 이 사례는 프로필의 협업 성향(collaboration) 점수를 뒷받침하는 구체적인 기록 하나다.",
+
+  /* ------------------------------------------------------ Batch 4: L. Pasteur */
+  "louis-pasteur.achievement.1":
+    "그는 현미경 아래에서 타르타르산염 결정의 거울상 형태를 미세한 비대칭 면을 근거로 하나하나 손으로 분리해내며 입체화학이라는 분야를 창시했다 — 한순간의 통찰이 아니라 유별나게 세심하고 반복적인 손작업 관찰에서 나온 발견이었다.",
+  "louis-pasteur.achievement.2":
+    "프랑스 정부의 요청으로 그는 사전 지식이 거의 없던 분야인 누에병 연구에 5년을 쏟았다 — 역사가들은 이 시기를 그를 화학자에서 생물학자로 바꾸어 놓은 '인식론적 단절'이라고 표현한다.",
+  "louis-pasteur.moment.1":
+    "1881년 푸이유르포르에서 열린 탄저병 백신의 공개 현장 시험에서, 그는 세균설 자체를 거부하던 자신의 가장 강경한 비판자인 수의사를 시험의 감독 구조 자체에 의도적으로 끌어들여, 동물을 고르고 노출 과정을 감독하게 한 뒤, 모여든 정치인·언론인·농부들에게 평이하고 친근한 어조로 연설해 청중을 사로잡았다고 전해진다.",
+  "louis-pasteur.moment.2":
+    "그 공개 시험에서 실제로 투여된 백신은 그가 공개적으로 암시했던, 안정적으로 작동하지 않던 방법이 아니라 그가 공개적으로 무시했던 경쟁자가 개발하고 자신의 조수가 개량한 화학적으로 비활성화한 제제였다. 그는 이 대체 사실을 함구하라고 지시했고, 이는 거의 한 세기가 지나 그의 개인 실험 노트가 공개되면서야 알려졌다.",
+  "louis-pasteur.turning_point.1":
+    "그의 다섯 자녀 중 셋이 그의 생전에 장티푸스로 세상을 떠났으며, 여러 전기 작가들은 이 시기에 쌓인 슬픔과 과로를 1868년 그의 왼팔과 왼다리 일부를 영구히 마비시킨 뇌졸중과 연결 짓는다. 그 이후 그는 주로 신뢰하는 조수들을 통해 일했으며, 직접 실험을 수행하기보다 물리적인 실험실 작업을 지시하는 쪽으로 바뀌었다.",
+  "louis-pasteur.turning_point.2":
+    "개입하지 않으면 거의 확실히 광견병으로 죽을 것으로 여겨지던 한 소년 앞에서, 그는 — 의사 면허가 없어 실질적인 법적 위험을 안고 있었음에도 — 그전까지 동물에게만 실험되었던 치료법을 투여하기로 직접 결정했다. 그 자신의 표현에 따르면 이는 '격렬하고 고통스러운 불안이 없지 않았던' 결정이었다. 그가 가장 신뢰하던 협력자는 시기상조이며 부당하다고 여겨 처음에는 참여를 거부했고, 결국 면허를 가진 다른 의사가 실제로 주사를 놓았다.",
+  "louis-pasteur.interpretation.turning_point.1":
+    "직접 손을 쓰는 실험은 다른 이들에게 맡기면서도 연구 방향을 계속 이끌어간 것은 프로필의 적응력(adaptability) 점수와 부합한다 — 야망의 변화가 아니라 실질적인 작업 방식의 변화다.",
+  "louis-pasteur.interpretation.turning_point.2":
+    "자신의 협력자조차 처음에는 거부했고 그 자신도 불안을 인정했을 만큼 불확실성이 큰 상황에서 밀어붙인 이 결정은 프로필의 위험 감수(risk_tolerance) 점수를 뒷받침하는 가장 충분히 기록된 사례 중 하나다 — 단순한 자신감의 발로가 아니다.",
+
+  /* ----------------------------------------------------- Batch 4: L. Armstrong */
+  "louis-armstrong.achievement.1":
+    "시카고로 돌아온 그는 자신의 이름을 내건 핫 파이브, 이후 핫 세븐을 결성했다 — 옛 스승의 악단에서 여러 연주자를 직접 데려왔고, 이 시기의 녹음들은 그를 독자적인 밴드리더로 자리매김하게 했다.",
+  "louis-armstrong.achievement.2":
+    "그는 오십 년에 걸쳐 출판사나 대필 작가 없이 스스로 자신의 삶을 기록하는 작업을 이어갔다 — 약 650개의 릴테이프, 5,000장의 사진, 1926년부터 모아 온 86권의 스크랩북, 그리고 자신이 직접 그린 콜라주 작품이 담긴 손수 주석을 단 믹스테이프들이다.",
+  "louis-armstrong.moment.1":
+    "1912년 새해 전야에 공중에 권총을 발사한 혐의로 체포된 열한 살의 암스트롱은 흑인 고아 소년의 집으로 보내졌고, 그곳 교관에게서 제대로 된 코넷 연주법을 배워 1914년 석방되기 전까지 그 시설의 브라스 밴드를 이끄는 자리까지 올랐다.",
+  "louis-armstrong.moment.2":
+    "평소 정치적 발언을 극도로 자제하던 태도에서 크게 벗어나, 그는 1957년 리틀록 흑백통합 위기에 대한 연방 정부의 대응을 기자에게 직접 신랄하게 비판하며 대통령을 '이중적'이고 '배짱이 없다'고 표현했다 — 이후 그의 매니저가 공개적으로 그가 그 발언을 '후회한다'는 취지로 말하자, 암스트롱은 즉시 그 표현을 부인하며 자신의 입장을 재차 확인했다.",
+  "louis-armstrong.turning_point.1":
+    "1924년 그는 훈련받은 음악가였던 피아니스트 릴 하딘과 결혼했고, 그는 언제까지나 조연으로 남기보다 스승 조 올리버의 그늘에서 벗어나라고 그를 독려했다. 이듬해 그는 플레처 헨더슨의 뉴욕 오케스트라에 합류했지만 만족스럽지 못했던 한 해를 보내고 시카고로 돌아왔다 — 이때부터 그는 남의 이름이 아닌 자기 이름으로 경력을 쌓기 시작했다.",
+  "louis-armstrong.interpretation.moment.2":
+    "평소 신중하게 지켜오던 이미지에서 벗어난 이 드문 공개 발언을, 이후 철회하지 않고 오히려 재확인한 것은 프로필의 위험 감수(risk_tolerance) 점수와 부합한다.",
+  "louis-armstrong.interpretation.turning_point.1":
+    "안정적이고 자리 잡힌 위치를 떠나 자신의 이름으로 쌓아가는 경력을 선택한 것은 프로필의 자율성 욕구(autonomy_need)와 선제적 행동력(proactive_agency) 점수를 뒷받침하는 구체적인 기록 하나다.",
+
+  /* -------------------------------------------------------- Batch 4: A. Morita */
+  "akio-morita.achievement.1":
+    "1953년 그는 여전히 작은 규모였던 회사를 걸고 웨스턴 일렉트릭으로부터 트랜지스터 기술의 크고 사실상 회수 불가능한 라이선스 비용을 지불하기로 결정했다 — 당시 업계 전반은 트랜지스터가 그가 만들고자 했던 소비자 가전보다는 주로 보청기에나 어울린다고 여기던 시기였다.",
+  "akio-morita.achievement.2":
+    "1979년 그는 사내 거의 만장일치의 반대를 무릅쓰고 워크맨 프로젝트를 밀어붙였다 — 시장 조사는 실패를 예측했고, 영업 부서는 달성 불가능한 판매 목표를 제시했으며, 마케팅 부서는 제품명이 민망하다고 했다 — 그리고 그는 소니 이사회에 이 제품이 실패하면 사임하겠다고 직접 말했다.",
+  "akio-morita.moment.1":
+    "새로 나온 포켓형 트랜지스터 라디오(1957년)가 일반 셔츠 주머니에 넣기에는 조금 컸을 때, 그는 영업 직원들에게 시연 시 주머니를 크게 만든 특별 맞춤 셔츠를 입게 했다 — 그렇게 하면 구매자들 눈에 제품이 실제로 주머니에 들어가는 크기로 보이도록 하기 위해서였다.",
+  "akio-morita.moment.2":
+    "젊은 음악가 오가 노리오가 회사 녹음기의 형편없는 음질을 정확한 거울이 필요한 무용수에 빗대어 신랄하게 비판하는 편지를 보내오자, 모리타는 그 비판을 무시하는 대신 오가를 유급 컨설턴트로 영입했다 — 오가는 훗날 소니의 CEO이자 회장이 되었다.",
+  "akio-morita.moment.3":
+    "일본 통상산업성이 트랜지스터 라이선스 비용 지불에 필요한 외화 반출 승인을 약 6개월간 지연시키자, 그는 훗날 이 일에서 분명한 교훈을 끌어냈다 — '정부는 과도한 개입으로 혁신적인 변화와 발전을 가로막는 경우가 많다.'",
+  "akio-morita.turning_point.1":
+    "1960년부터 그는 기존의 미국 브랜드 이름으로 제품을 유통하자는 제안을 거절하고 해외에서 독자적인 정체성을 구축하겠다고 고집했으며, 시장을 직접 파악하기 위해 아내와 자녀들과 함께 미국으로 이주했다 — 미국 사업이 주요한 수익원이 되기까지 약 십 년간의 적자를 감내한 끝의 결정이었다.",
+  "akio-morita.interpretation.achievement.2":
+    "주변 거의 모두가 의심하던 제품을 두고 이사회에 사임까지 걸겠다고 말한 것은 프로필의 높은 결단력(decisiveness) 및 위험 감수(risk_tolerance) 점수와 부합한다.",
+  "akio-morita.interpretation.turning_point.1":
+    "검증된 기존 브랜드 대신 검증되지 않은 독자적인 정체성을 선택하고, 이를 남에게 맡기지 않고 직접 이주해 시장을 익힌 것은 프로필의 위험 감수(risk_tolerance)와 적응력(adaptability) 점수를 뒷받침하는 비교적 뚜렷한 기록 중 하나다.",
+
+  /* ------------------------------------------------------ Batch 4: O. Niemeyer */
+  "oscar-niemeyer.achievement.1":
+    "그는 대통령궁, 국회의사당, 대성당, 대법원을 포함한 브라질리아의 정부·행정 중심부 전체를 4년 만에 설계하고 완성했다 — 쿠비체크 대통령이 니에마이어의 자택으로 직접 찾아와 부탁한 뒤, 그의 옛 스승 루시우 코스타와 함께 작업한 결과였다.",
+  "oscar-niemeyer.achievement.2":
+    "브라질에서 망명해 지낸 20년 동안, 그는 프랑스·알제리·이탈리아·포르투갈·레바논에 걸쳐 국제적으로 분산된 설계 실무를 이어갔다 — 현장을 한 번도 방문하지 않고 우편만으로 완성한 미국 내 두 건의 의뢰를 포함해서였다 — 동시에 딸 안나 마리아와 함께 가구 디자인 작업도 함께했다.",
+  "oscar-niemeyer.moment.1":
+    "91세에 그는 영국 왕립건축가협회의 로열 골드 메달을 수상했지만 직접 런던을 방문해 상을 받지는 않았다 — 실제 비행 공포증 때문이었다고 전해지며, 원격·국제 의뢰 위주로 쌓아온 경력과는 대조되는 구체적인 개인적 한계였다.",
+  "oscar-niemeyer.moment.2":
+    "101세에, 그의 특유의 곡선이 여성의 몸을 형상화한 것이 아니냐는 — 그의 가구 디자인 보도에서도 되풀이되었고 자연에서 곡선의 언어를 끌어온다는 그 자신의 회고록과도 맞닿아 있던 — 질문을 직접 받자, 그는 딱 잘라 부인했다 — '형태는 아무것도 아닌 데서 나온다.'",
+  "oscar-niemeyer.moment.3":
+    "100세를 눈앞에 두고도 그는 자신의 계속되는 작업을 과장 없이 담담하게 표현했다 — '나는 그저 내 일을 했을 뿐이다... 내가 좋아하는 일들을 하려고 했을 뿐이다' — 여전히 매일 아침 계단을 올라 자신의 펜트하우스 사무실에서 하루 종일 일했고, 101세에도 은퇴를 실제 선택지로 여기지 않은 채 언론 미팅과 설계 작업이라는 고정된 일과를 지켰다.",
+  "oscar-niemeyer.turning_point.1":
+    "1964년 군사 쿠데타 이후 그의 사무실은 급습당했고 의뢰인들은 자취를 감췄다. 이듬해 그는 브라질리아 대학교 교수 약 200명과 함께 대학에 대한 정부의 처우에 항의하며 집단으로 사직했다. 한 정부 각료가 '공산주의 건축가가 있을 곳은 모스크바'라고 말했다고 전해질 만큼 직접적인 직업적 박해에 직면하자, 그는 자신의 정치적 입장을 누그러뜨려 브라질에 남는 대신 1965년 프랑스로 망명을 택했다.",
+  "oscar-niemeyer.interpretation.turning_point.1":
+    "경력을 지키기 위해 정치적 신념을 저버리는 대신 망명과 의뢰 상실을 감수한 것은 프로필의 독립적 사고(independent_thinking)와 위험 감수(risk_tolerance) 점수와 부합한다.",
+
+  /* --------------------------------------------------- Batch 4: A.S. Suu Kyi */
+  "aung-san-suu-kyi.achievement.1":
+    "1990년, 그가 공동 창당하고 이끌던 민족민주동맹은 그가 가택연금 상태로 선거운동을 할 수 없었음에도 압도적인 선거 승리를 거두었지만, 집권 군사정권은 그 결과를 인정하거나 권력을 이양하기를 거부했다. 이듬해 그는 1991년 노벨평화상을 수상했으나 여전히 직접 시상식에 참석할 수 없었고, 약 130만 달러에 이르는 상금 전액을 자신이 갖는 대신 버마 국민을 위한 보건·교육 신탁기금에 넣었다.",
+  "aung-san-suu-kyi.moment.1":
+    "그의 아버지이자 독립운동 지도자였던 아웅 산은 그가 두 살 때 정적들에게 암살당했고, 그는 아버지의 사후 명성 속에서 성장했으며 그의 어머니 역시 인도·네팔 주재 버마 대사를 지내며 독자적으로 저명한 공적 인물이 되었다. 그는 자신의 에세이 「두려움으로부터의 자유」에서 아버지가 지녔던 자세 — '진실을 말하고, 자신의 말에 책임을 지고, 비판을 받아들이고, 자신의 잘못을 인정하고, 실수를 바로잡고, 반대편을 존중하는' 태도 — 를 훗날 두려움에 맞서는 자신의 본보기로 꼽았다.",
+  "aung-san-suu-kyi.moment.2":
+    "1989년부터 2010년까지 가택연금 상태로 보낸 21년 가운데 약 15년 동안, 그는 새벽 명상과 폭넓은 독서 — 간디·네루·만델라의 전기를 포함해서 — 그리고 집안일로 이루어진 규칙적인 생활을 유지했으며, 대부분의 기간 동안 전화도 컴퓨터도 인터넷도 없이 BBC 라디오 방송으로만 바깥소식을 접했다. 연금 초기에는 정기적으로 피아노를 연주했다고 — 주로 모차르트를 — 전해지지만, 버마의 습도가 악기를 영구히 뒤틀리게 하면서 이를 그만두었다.",
+  "aung-san-suu-kyi.turning_point.1":
+    "그는 1988년 3월, 뇌졸중을 앓은 어머니를 간병하려는 목적만으로 버마에 돌아왔으며 당시에는 어떤 정치적 의도도 밝히지 않았다. 그러나 여섯 달 만에 그는 슈웨다곤 파고다에서 약 50만 명이 모인 집회에서 민주정부를 촉구하는 연설을 했고, 훗날 이 변화를 자신의 말로 이렇게 설명했다 — '아버지의 딸로서 나는 벌어지고 있는 그 모든 일에 무관심할 수 없었다.'",
+  "aung-san-suu-kyi.turning_point.2":
+    "2015년 총선에서 압승을 거둔 뒤, 그는 국가고문으로서 미얀마 정부를 이끌었으며, 이 재임 기간인 2017년 로힝야 공동체를 겨냥한 군사 작전이 벌어졌고 국제 조사관들은 이를 대규모 살해·강간·방화를 포함한 사건으로 규정했다. 그의 정부는 군의 행위에 대해 오랫동안 공개적으로 침묵을 지켰으며, 언론인과 비판자들을 처벌하는 데 쓰이던 법률을 개정할 수 있는 의회 다수 의석을 가지고도 이를 개정하지 않았다. 2019년 12월 그는 국제사법재판소에서 미얀마의 법률 대응단을 직접 이끌며, 2017년의 폭력 사태를 민간인을 겨냥한 작전이 아니라 국내 대테러 대응으로 이해해야 한다고 법정에서 주장했다. 2021년 2월, 그가 헤이그에서 변호했던 바로 그 군부는 그의 정당의 재선을 부정하는 쿠데타를 일으켜 그를 체포했으며, 이 글을 쓰는 현재까지 5년 넘게 그는 여전히 군의 구금 상태에 있다.",
+  "aung-san-suu-kyi.interpretation.turning_point.1":
+    "수년 뒤 그 자신의 말로 전해진 이 설명은 프로필의 선제적 행동력(proactive_agency) 점수와 부합한다 — 오랜 사전 계획이 아니라 상황에 떠밀려, 사적이고 문학적인 삶에서 국가적 정치 지도자로 몇 달 만에 바뀌었다고 스스로 말한 변화다.",
+  "aung-san-suu-kyi.interpretation.turning_point.2":
+    "한때 자신을 가두었던 군부에 맞섰던 시기와, 훗날 국제무대에서 바로 그 군부를 옹호했던 시기 — 이 두 시기를 관통하는, 인기 없고 위험 부담이 큰 입장을 꾸준히 견지하는 동일한 태도가 프로필의 갈등 감내(conflict_tolerance) 점수가 담아내는 부분이다.",
+
+  /* --------------------------------------------------- Batch 4: L. Wittgenstein */
+  "ludwig-wittgenstein.achievement.1":
+    "그는 1921년 『논리철학논고』를 출간한 뒤 철학의 근본 문제들이 '해결되었다'고 선언하고 약 10년간 학계 철학을 떠났다 — 오스트리아 시골에서 초등학교 교사로, 이후에는 건축가로 일했다 — 그리고 자신의 이전 결론에 만족하지 못하게 되어서야 돌아왔다.",
+  "ludwig-wittgenstein.achievement.2":
+    "사후에 출간된 『철학적 탐구』의 서문에서 그는 이 후기 저작을 『논리철학논고』와 함께 읽어야 한다고 밝혔는데, 그 이유는 이 저작이 자신의 이전 사고에 있던 '중대한 오류'를 바로잡았기 때문이라고 명시했다 — 한 철학자가 자신의 이전 주요 저작을 공개적으로 실질적으로 뒤엎은 사례다.",
+  "ludwig-wittgenstein.moment.1":
+    "그는 오스트리아에서 손꼽히는 부유한 가문 출신이었음에도 자신의 상속 재산 전부를 포기하고 사실상 아무런 경제적 안전망 없이 금욕적인 삶을 살았다 — 이는 검소함에 대한 막연한 평판이 아니라 구체적으로 기록된 행위다.",
+  "ludwig-wittgenstein.moment.2":
+    "버트런드 러셀을 포함한 학생과 동료들은 그가 철학적 작업을 할 때 강렬하고 지속적으로 집중했다고 기록했으며, 하나의 문제를 풀어내는 동안 몇 시간이고 서성거렸다고 전해진다.",
+  "ludwig-wittgenstein.turning_point.1":
+    "제1차 세계대전 직후 그는 오스트리아 시골 초등학교 교사로서 6년간의 고된 근무를 이어갔다 — 이전의 학문적 지위와 가문의 부와는 거리가 먼 역할이자 사회적 위치였다 — 그의 전기는 이를 군인, 초등학교 교사, 건축가, 전시 병원 잡역부, 그리고 다시 돌아온 철학자에 이르기까지 그가 스스로 '온전한 자기 표현의 의무'라 부른 것을 여러 힘든 역할을 통해 꾸준히 추구한 과정의 일부로 설명한다.",
+  "ludwig-wittgenstein.interpretation.achievement.2":
+    "이는 이 데이터셋 전체에서도 손꼽히게 직접적이고 스스로 기록한 입장 수정 성향(belief_updating)의 사례다 — 사적인 재고가 아니라, 자신의 이전 저작의 오류를 공개적으로 명시한 선언이었다.",
+  "ludwig-wittgenstein.interpretation.turning_point.1":
+    "각 역할을 온전히 헌신해 완수하고 중도에 그만두지 않았다는 이 흐름은 그의 전기가 다루는 핵심 논지이며, 프로필의 끈기(persistence) 점수와 부합한다.",
+
+  /* -------------------------------------------------------- Batch 4: T. Edison */
+  "thomas-edison.achievement.1":
+    "그는 실용적인 백열전구뿐 아니라 이를 실제로 사용 가능하게 만드는 데 필요한 발전·송전 체계 전체 — 펄 스트리트 발전소 — 까지 구축했다 — 단일 장치를 넘어선, 진정한 의미의 시스템적 성취로 기록되어 있다.",
+  "thomas-edison.achievement.2":
+    "그는 멘로파크를 최초의 조직화된 산업 연구소 중 하나로 세우고, 개인의 즉흥적인 땜질이 아니라 체계적이고 자원이 뒷받침되는 팀 작업으로 발명을 구조화했다 — 이 연구소는 대략 열흘에 하나꼴로 소소한 발명을, 몇 달마다 하나씩 큰 발명을 내놓는다는 목표를 스스로 세웠다고 전해진다.",
+  "thomas-edison.moment.1":
+    "그의 실험 노트는 수천 페이지 분량으로 남아 있으며, 상업적으로 쓸 만한 설계에 도달하기까지 이례적으로 많은 필라멘트 재료를 체계적으로 시험한 과정을 기록하고 있다 — 하나의 일화가 아니라 여러 독립적인 전기 자료를 통해 뒷받침되는 기록이다.",
+  "thomas-edison.moment.2":
+    "그는 웨스팅하우스와 니콜라 테슬라의 경쟁 교류 전력 체계를 겨냥해 '전류 전쟁'이라 불리는 지속적인 공개 캠페인을 벌였는데, 여기에는 교류의 안전성을 깎아내리기 위해 동물을 대상으로 한 공개 감전사 시연에 자금을 댄 일도 포함되어 있다 — 상업적 동기가 얽힌 분쟁 속에서도 대부분의 역사적 평가가 윤리적으로 문제 삼는, 잘 기록된 전술이다.",
+  "thomas-edison.moment.3":
+    "그는 훗날 실패로 끝난 사업, 특히 상당한 개인적 손실을 남긴 철광석 채굴 사업에 개인적으로 큰돈을 투자했다. 여러 역사가는 또한 그의 이름으로만 등록된 여러 특허가 루이스 라티머와 프랜시스 젤 등 직원들의 상당한, 그러나 제대로 인정받지 못한 기여를 포함하고 있다고 기록한다 — 그가 직접 공들여 구축한 언론 관계와 대중적 이미지인 '멘로파크의 마법사'라는 단일한 상과는 다른, 더 복잡한 그림이다.",
+  "thomas-edison.interpretation.achievement.2":
+    "발명을 목표를 갖춘 관리된 과정으로 다룬 이 조직적 선택은 프로필의 높은 계획 지향(planning_orientation) 및 시스템적 사고(systems_abstraction) 점수와 부합하며, 흔히 떠올리는 '홀로 땜질하는 발명가'라는 이미지와는 구별된다.",
+
+  /* ---------------------------------------------------- Batch 4: Michelangelo */
+  "michelangelo.achievement.1":
+    "거의 70년에 이르는 작업 인생 동안 그는 조각(다비드, 피에타), 회화(시스티나 성당 천장화와 최후의 심판), 건축(성 베드로 대성당의 돔, 라우렌치아나 도서관), 그리고 시에 이르기까지 폭넓은 분야에서 뛰어난 성과를 지속적으로 남겼다 — 단순히 여러 분야를 조금씩 건드린 것이 아니라, 서로 확연히 다른 분야에 걸친 범위임을 이례적으로 잘 뒷받침하는 사례다.",
+  "michelangelo.achievement.2":
+    "화가이자 조각가로서의 명성이 확고히 자리 잡은 지 수십 년이 지난 70대에, 그는 성 베드로 대성당의 수석 건축가 역할을 맡아 돔을 포함한 구조 설계를 근본적으로 다시 그렸다 — 이미 숙달한 분야에 머무르지 않고 만년에 상당히 다른 분야로 옮겨 간 사례다.",
+  "michelangelo.moment.1":
+    "미켈란젤로가 살아 있을 때 그의 직접적인 검토를 거쳐 집필되고 개정된 조르조 바사리의 전기에 따르면, 시스티나 천장화 작업을 포함한 집중적인 작업 기간 동안 그는 작업을 중단하지 않으려고 옷과 장화를 신은 채로 오랫동안 잠들곤 했다.",
+  "michelangelo.moment.2":
+    "바사리의 전기는 또한 미켈란젤로가 주요 의뢰작 — 두 점 이상의 피에타와 무덤 조각을 포함해 — 을 거듭 중단하고 다시 시작하며, 자신이 판단하기에 미흡하다고 여긴 결과물을 내놓기보다 오직 스스로 납득할 수 있는 수준에 이를 때까지 다시 손보았다는 사실을 기록하고 있다.",
+  "michelangelo.turning_point.1":
+    "1506년, 교황 율리우스 2세의 무덤 조성 의뢰에 대한 대금 지급을 둘러싼 분쟁 끝에 미켈란젤로는 허락 없이 로마를 떠났다 — 그 시대 최고 권력자를 상대로 한 극도로 위험한 행동이었다 — 그리고 직접적인 협상을 거친 뒤에야 관계를 회복하고 돌아왔다.",
+  "michelangelo.interpretation.moment.2":
+    "이는 프로필의 완벽주의(perfectionism) 점수를 뒷받침하는, 사후에 추정된 일반적 평판이 아니라 구체적으로 이름 붙여진 기록된 패턴이다.",
+  "michelangelo.interpretation.turning_point.1":
+    "분쟁을 조용히 받아들이는 대신 그 시대 최고 권력자와 직접 맞선 것은 프로필의 위험 감수(risk_tolerance) 및 자율성 욕구(autonomy_need) 점수와 부합한다.",
+
+  /* ------------------------------------------------------- Batch 4: Malcolm X */
+  "malcolm-x.achievement.1":
+    "출소한 지 약 십 년 만에 그는 미국 민권운동 시대의 가장 저명하고 널리 방송된 대중 연설가 중 한 명이 되었으며, 이는 지금까지 남아 있는 방대한 영상 자료·연설 기록·언론 보도를 통해 확인된다.",
+  "malcolm-x.achievement.2":
+    "생애 마지막 해에 네이션 오브 이슬람과 공개적으로 결별한 뒤, 그는 무슬림 모스크 주식회사와 아프리카계 미국인 통합 기구라는 두 새로운 조직을 설립했다 — 공적 활동에서 물러나는 대신 자신의 조직 활동을 사실상 처음부터 다시 쌓아 올린 것이다.",
+  "malcolm-x.moment.1":
+    "그의 자서전은 강도 높고 스스로 이끈 옥중 학습 프로그램을 기록하고 있다 — 그는 오랜 기간에 걸쳐 사전을 손으로 체계적으로 베껴 썼으며, 이 노력이 이후 자신의 지적 성장에 직접적인 밑거름이 되었다고 밝혔다.",
+  "malcolm-x.moment.2":
+    "그는 1965년 2월 암살당하기 몇 주 전, 자신의 집이 폭탄 공격을 받고 신빙성 있는 살해 위협을 받은 뒤에도 대중 연설과 조직 활동을 계속했다 — 알려진 극심한 신변 위협 속에서도 공적 활동에서 물러나지 않고 이어간, 기록으로 확인되는 패턴이다.",
+  "malcolm-x.turning_point.1":
+    "1964년 메카 순례 이후 그는 자신의 세계관을 공개적으로 실질적으로 수정했으며, 네이션 오브 이슬람의 분리주의 신학에서 벗어나 더 폭넓은 정통 이슬람 및 범아프리카주의 틀로 나아갔다 — 이는 다른 사람이 전한 이야기가 아니라, 자신의 이전 가정과 어긋난 직접적인 경험에 대한 반응으로 그 자신이 자서전에서 상세히 서술한 변화였다.",
+  "malcolm-x.interpretation.moment.1":
+    "이 지속적이고 스스로 부과한 학습 프로그램은 프로필의 몰입(deep_focus) 및 자기 규율(discipline) 점수를 뒷받침하는, 본인이 직접 서술한 구체적인 증거다.",
+  "malcolm-x.interpretation.turning_point.1":
+    "이는 이 데이터셋 안에서도 손꼽히게 폭넓게 스스로 기록된 입장 수정 성향(belief_updating)의 사례다 — 타인이 규정한 특징이 아니라, 직접적인 경험 이후 깊이 지녔던 공적 입장을 수정한 과정을 1인칭으로 서술한 기록이다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

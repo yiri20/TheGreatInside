@@ -1076,4 +1076,265 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     turningPoints: [],
   },
+
+  "fyodor-dostoevsky": {
+    achievements: [
+      {
+        id: "fyodor-dostoevsky-achievement-1",
+        textKey: "fyodor-dostoevsky.achievement.1",
+        interpretationKey: "fyodor-dostoevsky.interpretation.achievement.1",
+        attributeId: "persistence",
+        sourceIds: ["src_dostoevsky_encyc"],
+      },
+      { id: "fyodor-dostoevsky-achievement-2", textKey: "fyodor-dostoevsky.achievement.2", sourceIds: ["src_dostoevsky_encyc", "src_dostoevsky_yale"] },
+    ],
+    moments: [
+      {
+        id: "fyodor-dostoevsky-moment-1",
+        textKey: "fyodor-dostoevsky.moment.1",
+        interpretationKey: "fyodor-dostoevsky.interpretation.moment.1",
+        attributeId: "execution_speed",
+        sourceIds: ["src_dostoevsky_encyc"],
+      },
+      { id: "fyodor-dostoevsky-moment-2", textKey: "fyodor-dostoevsky.moment.2", sourceIds: ["src_dostoevsky_annadiary"] },
+    ],
+    turningPoints: [
+      {
+        id: "fyodor-dostoevsky-turning-point-1",
+        textKey: "fyodor-dostoevsky.turning_point.1",
+        interpretationKey: "fyodor-dostoevsky.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_dostoevsky_ubcwiki", "src_dostoevsky_encyc", "src_dostoevsky_frank"],
+      },
+      {
+        id: "fyodor-dostoevsky-turning-point-2",
+        textKey: "fyodor-dostoevsky.turning_point.2",
+        interpretationKey: "fyodor-dostoevsky.interpretation.turning_point.2",
+        attributeId: "collaboration",
+        sourceIds: ["src_dostoevsky_russianlife"],
+      },
+    ],
+  },
+
+  "louis-pasteur": {
+    achievements: [
+      { id: "louis-pasteur-achievement-1", textKey: "louis-pasteur.achievement.1", sourceIds: ["src_pasteur_shi"] },
+      { id: "louis-pasteur-achievement-2", textKey: "louis-pasteur.achievement.2", sourceIds: ["src_pasteur_acadsilk", "src_pasteur_shi"] },
+    ],
+    moments: [
+      { id: "louis-pasteur-moment-1", textKey: "louis-pasteur.moment.1", sourceIds: ["src_pasteur_gavi"] },
+      { id: "louis-pasteur-moment-2", textKey: "louis-pasteur.moment.2", sourceIds: ["src_pasteur_geison", "src_pasteur_gavi", "src_pasteur_hov"] },
+    ],
+    turningPoints: [
+      {
+        id: "louis-pasteur-turning-point-1",
+        textKey: "louis-pasteur.turning_point.1",
+        interpretationKey: "louis-pasteur.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_pasteur_shi"],
+      },
+      {
+        id: "louis-pasteur-turning-point-2",
+        textKey: "louis-pasteur.turning_point.2",
+        interpretationKey: "louis-pasteur.interpretation.turning_point.2",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_pasteur_iphist", "src_pasteur_iprabies", "src_pasteur_hov"],
+      },
+    ],
+  },
+
+  "louis-armstrong": {
+    achievements: [
+      { id: "louis-armstrong-achievement-1", textKey: "louis-armstrong.achievement.1", sourceIds: ["src_armstrong_hmbio"] },
+      { id: "louis-armstrong-achievement-2", textKey: "louis-armstrong.achievement.2", sourceIds: ["src_armstrong_nation"] },
+    ],
+    moments: [
+      { id: "louis-armstrong-moment-1", textKey: "louis-armstrong.moment.1", sourceIds: ["src_armstrong_hmbio"] },
+      {
+        id: "louis-armstrong-moment-2",
+        textKey: "louis-armstrong.moment.2",
+        interpretationKey: "louis-armstrong.interpretation.moment.2",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_armstrong_hmcivil"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "louis-armstrong-turning-point-1",
+        textKey: "louis-armstrong.turning_point.1",
+        interpretationKey: "louis-armstrong.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_armstrong_hmbio"],
+      },
+    ],
+  },
+
+  "akio-morita": {
+    achievements: [
+      { id: "akio-morita-achievement-1", textKey: "akio-morita.achievement.1", sourceIds: ["src_morita_memoir", "src_morita_ebsco", "src_morita_encyc"] },
+      {
+        id: "akio-morita-achievement-2",
+        textKey: "akio-morita.achievement.2",
+        interpretationKey: "akio-morita.interpretation.achievement.2",
+        attributeId: "decisiveness",
+        sourceIds: ["src_morita_commoncog"],
+      },
+    ],
+    moments: [
+      { id: "akio-morita-moment-1", textKey: "akio-morita.moment.1", sourceIds: ["src_morita_memoir"] },
+      { id: "akio-morita-moment-2", textKey: "akio-morita.moment.2", sourceIds: ["src_morita_nathan"] },
+      { id: "akio-morita-moment-3", textKey: "akio-morita.moment.3", sourceIds: ["src_morita_encyc"] },
+    ],
+    turningPoints: [
+      {
+        id: "akio-morita-turning-point-1",
+        textKey: "akio-morita.turning_point.1",
+        interpretationKey: "akio-morita.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_morita_ebsco", "src_morita_encyc"],
+      },
+    ],
+  },
+
+  "oscar-niemeyer": {
+    achievements: [
+      { id: "oscar-niemeyer-achievement-1", textKey: "oscar-niemeyer.achievement.1", sourceIds: ["src_niemeyer_wr"] },
+      { id: "oscar-niemeyer-achievement-2", textKey: "oscar-niemeyer.achievement.2", sourceIds: ["src_niemeyer_parisupdate", "src_niemeyer_wr"] },
+    ],
+    moments: [
+      { id: "oscar-niemeyer-moment-1", textKey: "oscar-niemeyer.moment.1", sourceIds: ["src_niemeyer_riba"] },
+      { id: "oscar-niemeyer-moment-2", textKey: "oscar-niemeyer.moment.2", sourceIds: ["src_niemeyer_vice"] },
+      { id: "oscar-niemeyer-moment-3", textKey: "oscar-niemeyer.moment.3", sourceIds: ["src_niemeyer_vice"] },
+    ],
+    turningPoints: [
+      {
+        id: "oscar-niemeyer-turning-point-1",
+        textKey: "oscar-niemeyer.turning_point.1",
+        interpretationKey: "oscar-niemeyer.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_niemeyer_wr", "src_niemeyer_parisupdate"],
+      },
+    ],
+  },
+
+  "aung-san-suu-kyi": {
+    achievements: [{ id: "aung-san-suu-kyi-achievement-1", textKey: "aung-san-suu-kyi.achievement.1", sourceIds: ["src_assk_hrw"] }],
+    moments: [
+      { id: "aung-san-suu-kyi-moment-1", textKey: "aung-san-suu-kyi.moment.1", sourceIds: ["src_assk_time", "src_assk_own_writing"] },
+      { id: "aung-san-suu-kyi-moment-2", textKey: "aung-san-suu-kyi.moment.2", sourceIds: ["src_assk_time"] },
+    ],
+    turningPoints: [
+      {
+        id: "aung-san-suu-kyi-turning-point-1",
+        textKey: "aung-san-suu-kyi.turning_point.1",
+        interpretationKey: "aung-san-suu-kyi.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_assk_own_writing", "src_assk_popham"],
+      },
+      {
+        id: "aung-san-suu-kyi-turning-point-2",
+        textKey: "aung-san-suu-kyi.turning_point.2",
+        interpretationKey: "aung-san-suu-kyi.interpretation.turning_point.2",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_assk_aj_trouble", "src_assk_jod", "src_assk_aj_icj", "src_assk_asiatimes"],
+      },
+    ],
+  },
+
+  "ludwig-wittgenstein": {
+    achievements: [
+      { id: "ludwig-wittgenstein-achievement-1", textKey: "ludwig-wittgenstein.achievement.1", sourceIds: ["src_wittgenstein_monk", "src_wittgenstein_wikipedia"] },
+      {
+        id: "ludwig-wittgenstein-achievement-2",
+        textKey: "ludwig-wittgenstein.achievement.2",
+        interpretationKey: "ludwig-wittgenstein.interpretation.achievement.2",
+        attributeId: "belief_updating",
+        sourceIds: ["src_wittgenstein_wikipedia", "src_wittgenstein_sep"],
+      },
+    ],
+    moments: [
+      { id: "ludwig-wittgenstein-moment-1", textKey: "ludwig-wittgenstein.moment.1", sourceIds: ["src_wittgenstein_monk"] },
+      { id: "ludwig-wittgenstein-moment-2", textKey: "ludwig-wittgenstein.moment.2", sourceIds: ["src_wittgenstein_monk", "src_wittgenstein_sep"] },
+    ],
+    turningPoints: [
+      {
+        id: "ludwig-wittgenstein-turning-point-1",
+        textKey: "ludwig-wittgenstein.turning_point.1",
+        interpretationKey: "ludwig-wittgenstein.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_wittgenstein_monk"],
+      },
+    ],
+  },
+
+  "thomas-edison": {
+    achievements: [
+      { id: "thomas-edison-achievement-1", textKey: "thomas-edison.achievement.1", sourceIds: ["src_edison_israel", "src_edison_wikipedia"] },
+      {
+        id: "thomas-edison-achievement-2",
+        textKey: "thomas-edison.achievement.2",
+        interpretationKey: "thomas-edison.interpretation.achievement.2",
+        attributeId: "planning_orientation",
+        sourceIds: ["src_edison_israel"],
+      },
+    ],
+    moments: [
+      { id: "thomas-edison-moment-1", textKey: "thomas-edison.moment.1", sourceIds: ["src_edison_israel"] },
+      { id: "thomas-edison-moment-2", textKey: "thomas-edison.moment.2", sourceIds: ["src_edison_wikipedia", "src_edison_israel"] },
+      { id: "thomas-edison-moment-3", textKey: "thomas-edison.moment.3", sourceIds: ["src_edison_israel"] },
+    ],
+    turningPoints: [],
+  },
+
+  michelangelo: {
+    achievements: [
+      { id: "michelangelo-achievement-1", textKey: "michelangelo.achievement.1", sourceIds: ["src_michelangelo_wikipedia", "src_michelangelo_vasari"] },
+      { id: "michelangelo-achievement-2", textKey: "michelangelo.achievement.2", sourceIds: ["src_michelangelo_wikipedia"] },
+    ],
+    moments: [
+      { id: "michelangelo-moment-1", textKey: "michelangelo.moment.1", sourceIds: ["src_michelangelo_vasari"] },
+      {
+        id: "michelangelo-moment-2",
+        textKey: "michelangelo.moment.2",
+        interpretationKey: "michelangelo.interpretation.moment.2",
+        attributeId: "perfectionism",
+        sourceIds: ["src_michelangelo_vasari"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "michelangelo-turning-point-1",
+        textKey: "michelangelo.turning_point.1",
+        interpretationKey: "michelangelo.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_michelangelo_vasari"],
+      },
+    ],
+  },
+
+  "malcolm-x": {
+    achievements: [
+      { id: "malcolm-x-achievement-1", textKey: "malcolm-x.achievement.1", sourceIds: ["src_malcolmx_wikipedia"] },
+      { id: "malcolm-x-achievement-2", textKey: "malcolm-x.achievement.2", sourceIds: ["src_malcolmx_wikipedia", "src_malcolmx_autobiography"] },
+    ],
+    moments: [
+      {
+        id: "malcolm-x-moment-1",
+        textKey: "malcolm-x.moment.1",
+        interpretationKey: "malcolm-x.interpretation.moment.1",
+        attributeId: "deep_focus",
+        sourceIds: ["src_malcolmx_autobiography"],
+      },
+      { id: "malcolm-x-moment-2", textKey: "malcolm-x.moment.2", sourceIds: ["src_malcolmx_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "malcolm-x-turning-point-1",
+        textKey: "malcolm-x.turning_point.1",
+        interpretationKey: "malcolm-x.interpretation.turning_point.1",
+        attributeId: "belief_updating",
+        sourceIds: ["src_malcolmx_autobiography", "src_malcolmx_wikipedia"],
+      },
+    ],
+  },
 };
