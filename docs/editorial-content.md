@@ -610,3 +610,118 @@ Hopper, C. V. Raman, Benjamin Banneker, Fela Kuti, Toussaint Louverture,
 Chinua Achebe — Aristotle/Bolívar in the `Rich` bucket, the other 6 in
 `Adequate`) are the natural Batch 6 pool. Re-run the audit tool for the
 current live numbers rather than trusting this table once it goes stale.
+
+**Batch 6 (`feat/editorial-backfill-batch-6`) — Tier-B editorial coverage
+now COMPLETE (52/52). Tier B is CLOSED.** The final 8 Tier-B people
+confirmed by the audit tool at session start (Aristotle, Simón Bolívar,
+Grace Hopper, C. V. Raman, Benjamin Banneker, Fela Kuti, Toussaint
+Louverture, Chinua Achebe) were all editorialized. Unlike every prior
+batch, this pool was evidence-mixed rather than uniformly `Rich`:
+Aristotle and Simón Bolívar remained in the `Rich` bucket (500-501
+words), the other 6 were `Adequate` (442-495 words) — the first batch to
+draw from that bucket. Per explicit instruction, quantity was reduced
+before quality: Aristotle and Bolívar shipped a full 5-item shape (2
+achievements, 2 moments, 1 turning point, matching earlier Rich-bucket
+batches), while the 6 Adequate people shipped 3-4 items each (2
+achievements, 1 moment, 0-1 turning points) — smaller than any prior
+batch's per-person average, deliberately, not from a failure to find
+material. Benjamin Banneker shipped with zero turning points (2
+achievements + 1 moment only) since no episode in his available evidence
+resolved into a clean before/after trajectory shift without stretching
+the record — the same "some profiles may deserve fewer items" principle
+Octavia Butler set in Batch 5.
+
+All content drawn entirely from each person's existing
+`data-pipeline/candidates/*.json` rationale and `sources` array
+(cross-checked against each person's live `roster*.ts` `sources` field
+before writing — confirmed byte-identical for all 8), plus one narrow
+class of well-established general historical knowledge consistent with
+already-cited sources (e.g. Simón Bolívar's 1828-1830 authoritarian turn
+and death, C. V. Raman's 1921 "blue of the sea" research-origin account,
+Toussaint Louverture's 1802 capture and 1803 death, Chinua Achebe's 1990
+accident and relocation) — no new external research beyond confirming
+these were uncontested, standard historical facts already implied by the
+person's own cited biography/Wikipedia sources.
+
+**Several profiles in this batch carried real historical-nuance risk,
+handled deliberately, per instruction:**
+- **Aristotle** — kept to corpus-grounded facts (the surviving corpus's
+  own breadth, the Prior Analytics, his own biological fieldwork) for 3
+  of 5 items; the 2 items resting on secondhand ancient biographical
+  tradition (the Alexander tutorship, the final exile and the "sin twice
+  against philosophy" line) are explicitly hedged as later tradition —
+  "written several centuries after Aristotle's death," "a widely
+  repeated ancient anecdote" — never presented with the same certainty
+  as the corpus-sourced items.
+- **Simón Bolívar** — the later 1828 assumption of dictatorial power and
+  1830 death are presented alongside, not smoothed into, his earlier
+  unification project; the interpretation explicitly states "how to read
+  Bolívar's motives in this later period is genuinely contested ground"
+  rather than resolving the tension.
+- **Grace Hopper** — the moth/"bug" anecdote is precise about
+  attribution (a team member found it, not confirmed to be Hopper
+  herself; the term "bug" predates the incident and she did not coin
+  it) and the A-0/COBOL achievement is framed as "led the team," never
+  sole invention.
+- **C. V. Raman** — the 1928 discovery achievement explicitly names his
+  collaborator K. S. Krishnan and states that historians of Indian
+  science have noted the sole 1930 Nobel award did not extend to
+  Krishnan's substantial role — the one item in this batch most directly
+  responding to a named caution (avoid lone-genius framing where
+  evidence is collaborative).
+- **Benjamin Banneker** — the wooden-clock achievement is stated without
+  embellishment (no claims about it running for decades or being
+  "first in America"); the Jefferson correspondence states what Jefferson's
+  actual reply said (forwarded the almanac to Condorcet) without implying
+  it changed his own practice of enslaving people; the debunked
+  L'Enfant-memory-reconstruction legend was not used.
+- **Fela Kuti** — the February 1977 Kalakuta Republic raid and his
+  mother's death are stated as historical fact with no moralizing
+  language; the interpretation explicitly separates "the specific
+  evidence behind this profile's conflict tolerance score" from "a
+  judgment on the underlying political conflict."
+- **Toussaint Louverture** — the 1801 constitution is presented with its
+  real internal tension intact (permanent abolition of slavery
+  co-existing with governor-for-life status and a coercive
+  plantation-labor regime that drew contemporary and historical
+  criticism); the 1802 capture and 1803 death carry no interpretation at
+  all, deliberately, to avoid any deterministic personality-causal
+  reading of his downfall.
+- **Chinua Achebe** — his literary achievement (Things Fall Apart, the
+  Conrad critique), his Biafra diplomatic work, and his 1990
+  accident/relocation are kept as three distinct items rather than
+  folded into one political narrative, per instruction.
+
+Opener diversity was checked mechanically before commit: Batch 6's 10
+interpretations use 10 distinct 4-word opening phrases with zero
+internal repeats, and zero overlap with the corpus's own most-reused
+openers ("This is consistent with," 6 uses corpus-wide; "This helps
+explain the," 5 uses; "The Great Inside reads," 3 uses — all unchanged
+by Batch 6). Structural validation clean (0 issues), Korean coverage
+100%, matching health unaffected (`simulate.ts 10000 quiz`: Warren
+Buffett #1 frequency 12.0%, unchanged), and `git diff` against
+`src/core/matching`, `src/core/attributes`, `db/`, and every roster file
+is empty — only `src/core/i18n/editorial.ts` and
+`src/data/people/editorial.ts` changed.
+
+Corrected, mechanically-computed figures after Batch 6:
+
+| Tier | Total | Complete | Remaining |
+|---|---|---|---|
+| A (full evidence ledger) | 8 | **8** | **0** |
+| B (qa_passed candidate JSON) | 52 | **52** | **0** |
+| C (inline TS comments only) | 35 | 6 | 29 |
+| **Total** | **95** | **66** | **29** |
+
+359 total items (159 achievements, 136 moments, 64 turning points), 122
+with an interpretation, 481 distinct EN keys / 481 KO keys (100%
+coverage). **Tier A and Tier B are both now fully editorialized — every
+person with committed research evidence beyond bare inline roster
+comments has editorial content.** The 29 remaining people are all Tier C
+(the original 10-person `seed.ts` roster plus `roster2.ts`'s 25 — the
+figures the project's inline `//` rationale comments are the only
+evidence source for). Per the governing instruction for this session,
+Tier C backfill is explicitly NOT started here — see this file's closing
+note and `CLAUDE.md`'s Phase/Roadmap record for the next step, a
+deliberate product checkpoint on whether Tier A + Tier B coverage is
+already sufficient before any Tier C work is scoped.

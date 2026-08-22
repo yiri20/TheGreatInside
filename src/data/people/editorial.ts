@@ -1536,4 +1536,164 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  "aristotle": {
+    achievements: [
+      { id: "aristotle-achievement-1", textKey: "aristotle.achievement.1", sourceIds: ["src_aristotle_corpus", "src_aristotle_sep"] },
+      { id: "aristotle-achievement-2", textKey: "aristotle.achievement.2", sourceIds: ["src_aristotle_corpus", "src_aristotle_sep"] },
+    ],
+    moments: [
+      {
+        id: "aristotle-moment-1",
+        textKey: "aristotle.moment.1",
+        interpretationKey: "aristotle.interpretation.moment.1",
+        attributeId: "curiosity",
+        sourceIds: ["src_aristotle_corpus"],
+      },
+      { id: "aristotle-moment-2", textKey: "aristotle.moment.2", sourceIds: ["src_aristotle_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "aristotle-turning-point-1",
+        textKey: "aristotle.turning_point.1",
+        interpretationKey: "aristotle.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_aristotle_wikipedia"],
+      },
+    ],
+  },
+
+  "simon-bolivar": {
+    achievements: [
+      { id: "simon-bolivar-achievement-1", textKey: "simon-bolivar.achievement.1", sourceIds: ["src_bolivar_wikipedia", "src_bolivar_lynch"] },
+      { id: "simon-bolivar-achievement-2", textKey: "simon-bolivar.achievement.2", sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"] },
+    ],
+    moments: [
+      { id: "simon-bolivar-moment-1", textKey: "simon-bolivar.moment.1", sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"] },
+      {
+        id: "simon-bolivar-moment-2",
+        textKey: "simon-bolivar.moment.2",
+        interpretationKey: "simon-bolivar.interpretation.moment.2",
+        attributeId: "collaboration",
+        sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "simon-bolivar-turning-point-1",
+        textKey: "simon-bolivar.turning_point.1",
+        interpretationKey: "simon-bolivar.interpretation.turning_point.1",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"],
+      },
+    ],
+  },
+
+  "grace-hopper": {
+    achievements: [
+      { id: "grace-hopper-achievement-1", textKey: "grace-hopper.achievement.1", sourceIds: ["src_hopper_beyer", "src_hopper_wikipedia"] },
+      { id: "grace-hopper-achievement-2", textKey: "grace-hopper.achievement.2", sourceIds: ["src_hopper_beyer"] },
+    ],
+    moments: [{ id: "grace-hopper-moment-1", textKey: "grace-hopper.moment.1", sourceIds: ["src_hopper_wikipedia"] }],
+    turningPoints: [
+      {
+        id: "grace-hopper-turning-point-1",
+        textKey: "grace-hopper.turning_point.1",
+        interpretationKey: "grace-hopper.interpretation.turning_point.1",
+        attributeId: "mastery_orientation",
+        sourceIds: ["src_hopper_wikipedia"],
+      },
+    ],
+  },
+
+  "cv-raman": {
+    achievements: [
+      { id: "cv-raman-achievement-1", textKey: "cv-raman.achievement.1", sourceIds: ["src_raman_wikipedia", "src_raman_nobel"] },
+      { id: "cv-raman-achievement-2", textKey: "cv-raman.achievement.2", sourceIds: ["src_raman_wikipedia"] },
+    ],
+    moments: [{ id: "cv-raman-moment-1", textKey: "cv-raman.moment.1", sourceIds: ["src_raman_wikipedia"] }],
+    turningPoints: [
+      {
+        id: "cv-raman-turning-point-1",
+        textKey: "cv-raman.turning_point.1",
+        interpretationKey: "cv-raman.interpretation.turning_point.1",
+        attributeId: "curiosity",
+        sourceIds: ["src_raman_wikipedia"],
+      },
+    ],
+  },
+
+  "benjamin-banneker": {
+    achievements: [
+      { id: "benjamin-banneker-achievement-1", textKey: "benjamin-banneker.achievement.1", sourceIds: ["src_banneker_bedini", "src_banneker_wikipedia"] },
+      { id: "benjamin-banneker-achievement-2", textKey: "benjamin-banneker.achievement.2", sourceIds: ["src_banneker_bedini"] },
+    ],
+    moments: [
+      {
+        id: "benjamin-banneker-moment-1",
+        textKey: "benjamin-banneker.moment.1",
+        interpretationKey: "benjamin-banneker.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_banneker_jefferson", "src_banneker_wikipedia"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "fela-kuti": {
+    achievements: [
+      { id: "fela-kuti-achievement-1", textKey: "fela-kuti.achievement.1", sourceIds: ["src_fela_veal", "src_fela_wikipedia"] },
+      { id: "fela-kuti-achievement-2", textKey: "fela-kuti.achievement.2", sourceIds: ["src_fela_veal"] },
+    ],
+    moments: [{ id: "fela-kuti-moment-1", textKey: "fela-kuti.moment.1", sourceIds: ["src_fela_wikipedia", "src_fela_veal"] }],
+    turningPoints: [
+      {
+        id: "fela-kuti-turning-point-1",
+        textKey: "fela-kuti.turning_point.1",
+        interpretationKey: "fela-kuti.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_fela_wikipedia", "src_fela_veal"],
+      },
+    ],
+  },
+
+  "toussaint-louverture": {
+    achievements: [
+      { id: "toussaint-louverture-achievement-1", textKey: "toussaint-louverture.achievement.1", sourceIds: ["src_toussaint_dubois", "src_toussaint_wikipedia"] },
+      { id: "toussaint-louverture-achievement-2", textKey: "toussaint-louverture.achievement.2", sourceIds: ["src_toussaint_dubois", "src_toussaint_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "toussaint-louverture-moment-1",
+        textKey: "toussaint-louverture.moment.1",
+        interpretationKey: "toussaint-louverture.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_toussaint_dubois", "src_toussaint_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "toussaint-louverture-turning-point-1",
+        textKey: "toussaint-louverture.turning_point.1",
+        sourceIds: ["src_toussaint_wikipedia"],
+      },
+    ],
+  },
+
+  "chinua-achebe": {
+    achievements: [
+      { id: "chinua-achebe-achievement-1", textKey: "chinua-achebe.achievement.1", sourceIds: ["src_achebe_ezenwa", "src_achebe_wikipedia"] },
+      { id: "chinua-achebe-achievement-2", textKey: "chinua-achebe.achievement.2", sourceIds: ["src_achebe_conrad", "src_achebe_wikipedia"] },
+    ],
+    moments: [{ id: "chinua-achebe-moment-1", textKey: "chinua-achebe.moment.1", sourceIds: ["src_achebe_wikipedia", "src_achebe_ezenwa"] }],
+    turningPoints: [
+      {
+        id: "chinua-achebe-turning-point-1",
+        textKey: "chinua-achebe.turning_point.1",
+        interpretationKey: "chinua-achebe.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_achebe_wikipedia"],
+      },
+    ],
+  },
 };

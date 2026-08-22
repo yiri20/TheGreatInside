@@ -1016,6 +1016,108 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Beginning a new discipline from scratch well after mastery in another was already secure, and while there was nothing left to prove, is consistent with the profile's mastery_orientation score.",
   "rabindranath-tagore.interpretation.turning_point.1":
     "Giving up a formal honor already granted, rather than voicing private disapproval while keeping it, is consistent with the profile's independent_thinking and risk_tolerance scores.",
+
+  /* ------------------------------------------------------------ Batch 6: Aristotle */
+  "aristotle.achievement.1":
+    "Aristotle's surviving works span logic, physics, metaphysics, ethics, politics, rhetoric, poetics, and biology — a documented breadth of original, cross-referenced work that the Stanford Encyclopedia of Philosophy describes as touching nearly every field of inquiry known in antiquity.",
+  "aristotle.achievement.2":
+    "In the Prior Analytics, Aristotle set out the first formal system of deductive reasoning, the syllogism — a structured account of valid inference that remained the standard framework for logic in the Western and Islamic philosophical traditions for roughly two thousand years.",
+  "aristotle.moment.1":
+    "His biological treatises, particularly the History of Animals, record detailed anatomical observations of marine animals — including, by his own account, direct dissection — built from firsthand fieldwork around the island of Lesbos rather than secondhand report.",
+  "aristotle.moment.2":
+    "Ancient biographical tradition — most fully preserved in Diogenes Laertius's and Plutarch's accounts, both written several centuries after Aristotle's death but corroborating one another — holds that Philip II of Macedon invited him to tutor his son, the future Alexander the Great, at the royal court at Mieza around 343 BCE.",
+  "aristotle.turning_point.1":
+    "After Alexander's death in 323 BCE, anti-Macedonian sentiment in Athens turned against Aristotle over his earlier ties to the Macedonian court, and he was charged with impiety. According to a widely repeated ancient anecdote, he left Athens for his mother's family estate in Chalcis rather than stand trial, saying he would not let the city \"sin twice against philosophy\" — a reference to Socrates's earlier trial and execution. He died in Chalcis the following year, 322 BCE.",
+  "aristotle.interpretation.moment.1":
+    "Fieldwork like this is a distinct form of curiosity from purely theoretical inquiry — evidence gathered by going and looking, not only by reasoning from first principles.",
+  "aristotle.interpretation.turning_point.1":
+    "Leaving a position of established authority rather than contest a politically charged charge is a different kind of risk calculus than the direct confrontations more common elsewhere in this profile — the same risk tolerance showing up as strategic withdrawal rather than defiance.",
+
+  /* ------------------------------------------------------- Batch 6: Simón Bolívar */
+  "simon-bolivar.achievement.1":
+    "Between 1813 and 1825, Bolívar led military campaigns that ended Spanish colonial rule across the territories that became Venezuela, Colombia, Ecuador, Panama, Peru, and Bolivia — the last named for him — and served as President of the short-lived confederation of Gran Colombia.",
+  "simon-bolivar.achievement.2":
+    "Written from exile in Jamaica in 1815, after a series of early military defeats, his \"Letter from Jamaica\" laid out a detailed political analysis of Spanish American society and argued for a specific vision of independent, unified governance — a systematic piece of political theory, not only a rallying call, according to Lynch's biography.",
+  "simon-bolivar.moment.1":
+    "In 1819, Bolívar led roughly 2,100 soldiers across the flooded high plains and freezing mountain passes of the Andes into New Granada, a route Spanish royalist forces considered impassable during the rainy season. The surprise arrival let his army win the decisive Battle of Boyacá on August 7, 1819, opening the way to Bogotá.",
+  "simon-bolivar.moment.2":
+    "In July 1822, Bolívar met privately with fellow independence leader José de San Martín at Guayaquil to discuss the political future of the newly liberated territories. No record of what was said survives, but San Martín withdrew from public and military life shortly afterward, leaving Bolívar as the dominant remaining figure in the continental independence movement.",
+  "simon-bolivar.turning_point.1":
+    "By 1828, Gran Colombia was fracturing under regional resistance to centralized rule from Bogotá, and Bolívar assumed dictatorial powers in an attempt to hold the confederation together, surviving an assassination attempt that September. Unable to reverse the fragmentation, he resigned the presidency in April 1830, as Venezuela and Ecuador moved toward separation, and died of tuberculosis in Santa Marta that December — the union he had spent nearly two decades building coming apart in the same year he died.",
+  "simon-bolivar.interpretation.moment.2":
+    "The available record documents the outcome, not the disagreement itself, so this reading stays interpretive rather than settled — but it fits a wider pattern in the profile of real, working alliances that also carried real friction, not uncomplicated partnership.",
+  "simon-bolivar.interpretation.turning_point.1":
+    "How to read Bolívar's motives in this later period is genuinely contested ground — the same person who once proposed a confederation beyond his own rule also concentrated power in his own hands when that project came under strain, which is why this profile keeps his impact motivation score toward the middle rather than the extreme.",
+
+  /* --------------------------------------------------------- Batch 6: Grace Hopper */
+  "grace-hopper.achievement.1":
+    "In the early 1950s, Hopper led the team at Remington Rand that built the A-0 System, generally credited as the first compiler — a program translating symbolic, English-like instructions into machine code — establishing the core idea that later made languages like COBOL possible, according to Beyer's history of her career.",
+  "grace-hopper.achievement.2":
+    "Beyer's account documents years of sustained argument, inside and outside her own organization, to convince both technical peers and military and corporate leadership that a computer could reliably execute instructions written in something resembling English — a claim many contemporaries in the early 1950s considered technically implausible — before compiler-based, standardized programming became industry practice.",
+  "grace-hopper.moment.1":
+    "On September 9, 1947, while Hopper was part of the Harvard Mark II computer team, a technician found a moth trapped in one of the machine's relays, causing a malfunction; someone on the team taped the moth into the operations logbook with the note \"First actual case of bug being found.\" The term \"bug\" for a technical fault already existed in engineering before this — Hopper did not coin it — but she retold the story for decades afterward, and the logbook page survives today at the Smithsonian's National Museum of American History.",
+  "grace-hopper.turning_point.1":
+    "Hopper retired from the Naval Reserve in 1966 at the mandatory age of 60, but was recalled to active duty seven months later to help the Navy standardize its many incompatible versions of COBOL. She remained on active duty for nearly another two decades, retiring in 1986 at 79 as a rear admiral and, at the time, the oldest serving officer in the United States Navy.",
+  "grace-hopper.interpretation.turning_point.1":
+    "Returning to a demanding standardization project after mandatory retirement, and staying with it for nearly two more decades, fits a mastery orientation this profile places well above the achievement of any single milestone.",
+
+  /* -------------------------------------------------------------- Batch 6: C. V. Raman */
+  "cv-raman.achievement.1":
+    "In 1928, working with comparatively simple apparatus — sunlight, colour filters, and a spectrograph — Raman and his student and close collaborator K. S. Krishnan demonstrated that light changes wavelength when scattered by transparent matter, a phenomenon that became known as the Raman effect. The 1930 Nobel Prize in Physics was awarded to Raman alone, a recognition some historians of Indian science have since noted did not extend to Krishnan's substantial role in the experimental work.",
+  "cv-raman.achievement.2":
+    "Beyond the discovery itself, Raman went on to found and direct the Raman Research Institute in Bangalore and served as director of the Indian Institute of Science, sustaining a decades-long project of building Indian scientific institutions and training a generation of Indian physicists.",
+  "cv-raman.moment.1":
+    "Raman spent over a decade pursuing serious physics research — beginning with the physics of Indian musical instruments — as a side interest while working full-time in the Indian Finance Department, before leaving that stable, well-paid civil-service position in 1917 to take an academic physics chair at Calcutta University at considerably lower pay.",
+  "cv-raman.turning_point.1":
+    "Raman later described, in his own subsequent lectures and writings, that his curiosity about why the sea appears blue — during a 1921 ocean voyage to England — led him to question the prevailing explanation that it merely reflected the sky, and to begin the systematic study of light scattering in transparent media that culminated seven years later in the discovery of the effect that bears his name.",
+  "cv-raman.interpretation.turning_point.1":
+    "Worth noting: this is Raman's own retrospective account of how the research direction began, not a contemporaneous record — the kind of origin story a scientist tells about their own curiosity after the fact, still consistent with the profile's curiosity score even if it carries less evidentiary weight than a dated document.",
+
+  /* --------------------------------------------------- Batch 6: Benjamin Banneker */
+  "benjamin-banneker.achievement.1":
+    "Beginning in 1792, Banneker calculated and published a series of annual almanacs containing his own original astronomical ephemerides — the tables of projected sun, moon, and planet positions used for practical purposes such as tide prediction — entirely self-taught, with no formal schooling in astronomy or advanced mathematics, according to Bedini's biography.",
+  "benjamin-banneker.achievement.2":
+    "Around 1753, having studied the mechanism of a borrowed pocket watch, Banneker carved and built a functioning striking clock almost entirely from wood — a documented technical achievement, per Bedini, produced with no prior training in clockmaking or access to formal instruction.",
+  "benjamin-banneker.moment.1":
+    "In August 1791, Banneker sent Thomas Jefferson, then Secretary of State, a letter directly challenging the contradiction between Jefferson's stated Enlightenment ideals and his ownership of enslaved people, enclosing a manuscript copy of his forthcoming almanac as evidence of Black intellectual capability. Jefferson's reply, which survives alongside Banneker's letter, thanked him and noted he had forwarded the almanac to the Marquis de Condorcet in France — a polite acknowledgment that did not extend to any change in Jefferson's own practice of enslaving people.",
+  "benjamin-banneker.interpretation.moment.1":
+    "Addressing a sitting cabinet secretary directly and personally on slavery was a real risk for a free Black man in 1791 Maryland — what this profile's risk tolerance score is actually drawn from here, not any claim about how the exchange was received.",
+
+  /* ----------------------------------------------------------- Batch 6: Fela Kuti */
+  "fela-kuti.achievement.1":
+    "Beginning in the late 1960s, Fela Kuti fused Yoruba music, jazz, highlife, and funk into a new genre he called Afrobeat — a distinct musical synthesis documented through musicological analysis of his recorded catalog (Veal).",
+  "fela-kuti.achievement.2":
+    "His 1976 album Zombie, a direct critique of the Nigerian military that portrayed soldiers as mindless automatons following orders, became one of the most widely known protest records in African music history and durably shaped Nigerian and pan-African political consciousness, according to Veal's account of the record's reception.",
+  "fela-kuti.moment.1":
+    "In 1970, Kuti declared his Lagos compound, which housed his band, recording studio, and extended community, the independent \"Kalakuta Republic,\" refusing entry to Nigerian police and asserting the compound operated outside the authority of the Nigerian state — a specific, extensively documented act of open defiance.",
+  "fela-kuti.turning_point.1":
+    "In February 1977, roughly 1,000 Nigerian soldiers raided the Kalakuta Republic and set it on fire; Kuti's mother, the activist Funmilayo Ransome-Kuti, was thrown from a window during the raid and died of her injuries the following year. Kuti responded by delivering her coffin to the gates of the military government's headquarters in Lagos and, in the years that followed, recorded the song \"Coffin for Head of State\" about the event — a shift from musical and rhetorical criticism of the regime to direct, personal confrontation with it.",
+  "fela-kuti.interpretation.turning_point.1":
+    "This marks a real escalation in how the confrontation with state power was expressed — from records and lyrics to a direct, physical act aimed at the government itself — which is the specific evidence behind this profile's conflict tolerance score, not a judgment on the underlying political conflict.",
+
+  /* ------------------------------------------------- Batch 6: Toussaint Louverture */
+  "toussaint-louverture.achievement.1":
+    "Rising from an enslaved coachman and cattle-driver to Commander-in-Chief and Governor-General of Saint-Domingue, Toussaint Louverture built and trained a disciplined military force from formerly enslaved people with limited resources, employing tactics adapted successively against Spanish, French, and British forces over roughly a decade, according to Dubois's history of the revolution.",
+  "toussaint-louverture.achievement.2":
+    "In 1801, Louverture promulgated a constitution for Saint-Domingue that permanently abolished slavery in the colony — while also naming himself governor-for-life and requiring former plantation workers to remain on the land under a strict labor regime intended to rebuild the colony's devastated agricultural economy, a policy that drew criticism at the time and from later historians.",
+  "toussaint-louverture.moment.1":
+    "In 1794, after France's National Convention decreed the abolition of slavery in French territories, Louverture switched his forces' allegiance from Spain, which he had initially fought alongside, to France — a specific, dated strategic reversal based on his assessment of which side would more durably secure abolition, according to Dubois.",
+  "toussaint-louverture.turning_point.1":
+    "In June 1802, French general Jean-Baptiste Brunet, acting on Napoleon Bonaparte's orders to restore French control over the colony, invited Louverture to a meeting under a promise of safe conduct, then arrested him. He was deported to France and imprisoned at Fort de Joux in the Jura mountains, where he died in April 1803 — nine months before his former lieutenants declared Haiti's independence in January 1804.",
+  "toussaint-louverture.interpretation.moment.1":
+    "Reversing an existing alliance on the strength of one's own read of which side would better serve the actual goal, rather than loyalty to whichever side one started with, is the kind of evidence this profile's independent thinking score draws on.",
+
+  /* ----------------------------------------------------------- Batch 6: Chinua Achebe */
+  "chinua-achebe.achievement.1":
+    "Published in 1958, Things Fall Apart wove Igbo oral narrative structures and proverbs directly into the form of the English-language novel, a deliberate technical choice rather than conventional Western narration, and is widely recognized as a founding text of modern African literature, according to Ezenwa-Ohaeto's biography.",
+  "chinua-achebe.achievement.2":
+    "In a 1975 lecture, later published as the essay \"An Image of Africa,\" Achebe argued that Joseph Conrad's Heart of Darkness — then a firmly canonical text in English literature — reduced Africa and African people to a backdrop for European psychological drama, a deliberately contrarian position against the dominant literary-critical consensus of the time that has been cited and debated in literary scholarship for decades since.",
+  "chinua-achebe.moment.1":
+    "During the Nigerian Civil War (1967–1970), Achebe served as a diplomatic envoy for the secessionist state of Biafra, traveling internationally to seek recognition and support for it — a period of direct political engagement separate from, and alongside, his literary career.",
+  "chinua-achebe.turning_point.1":
+    "In March 1990, a car accident in Nigeria left Achebe paralyzed from the waist down. He was flown to the United Kingdom for treatment and subsequently relocated to the United States, where he joined the faculty at Bard College and continued publishing essays, teaching, and speaking publicly for more than two decades until his death in 2013.",
+  "chinua-achebe.interpretation.turning_point.1":
+    "Rebuilding a full academic and literary career on a different continent, under permanently changed physical circumstances, is the specific kind of evidence this profile's adaptability score is built on.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -2012,6 +2114,108 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이미 다른 분야에서 숙련이 확고히 자리 잡은 뒤에도, 더는 증명할 것이 남아 있지 않은 상태에서 처음부터 새로운 분야를 시작한 것은 프로필의 숙련 지향(mastery_orientation) 점수와 부합한다.",
   "rabindranath-tagore.interpretation.turning_point.1":
     "이미 받은 공식적인 서훈을 유지한 채 사적으로만 불만을 표하는 대신 그것을 반납한 것은 프로필의 독립적 사고(independent_thinking) 및 위험 감수(risk_tolerance) 점수와 부합한다.",
+
+  /* ------------------------------------------------------------ Batch 6: Aristotle */
+  "aristotle.achievement.1":
+    "아리스토텔레스가 남긴 저작은 논리학, 자연학, 형이상학, 윤리학, 정치학, 수사학, 시학, 생물학에까지 이른다 — 스탠퍼드 철학 백과사전이 고대에 알려진 거의 모든 탐구 분야를 아우른다고 평가하는, 독창적이며 상호 참조된 방대한 저술이다.",
+  "aristotle.achievement.2":
+    "『분석론 전서』에서 아리스토텔레스는 최초의 형식적 연역 추론 체계인 삼단논법을 제시했다 — 타당한 추론에 대한 이 체계적인 설명은 이후 약 2천 년 동안 서양과 이슬람 철학 전통에서 논리학의 표준 틀로 자리 잡았다.",
+  "aristotle.moment.1":
+    "특히 『동물지』를 비롯한 그의 생물학 저작들은 해양 동물에 대한 상세한 해부학적 관찰을 기록하고 있으며, 본인의 서술에 따르면 직접 해부까지 수행했다 — 이는 전해 들은 이야기가 아니라 레스보스 섬 주변에서 직접 행한 현장 조사에 근거한다.",
+  "aristotle.moment.2":
+    "고대 전기 전통 — 아리스토텔레스가 세상을 떠난 지 수백 년 뒤에 쓰였지만 서로를 뒷받침하는 디오게네스 라에르티오스와 플루타르코스의 기록에 가장 온전히 남아 있다 — 에 따르면, 마케도니아의 필리포스 2세는 기원전 343년 무렵 아리스토텔레스를 미에자의 왕궁으로 초빙해 자신의 아들, 훗날의 알렉산드로스 대왕을 가르치게 했다.",
+  "aristotle.turning_point.1":
+    "기원전 323년 알렉산드로스가 사망한 뒤, 아테네에서는 그가 이전에 마케도니아 궁정과 맺었던 관계를 문제 삼아 반(反)마케도니아 정서가 아리스토텔레스에게로 향했고, 그는 불경죄로 고발당했다. 널리 반복되어 전해지는 고대의 일화에 따르면, 그는 재판을 받는 대신 어머니 쪽 가문의 소유지가 있던 칼키스로 아테네를 떠났으며, \"아테네가 철학에 대해 두 번 죄를 짓게 하지 않겠다\"고 — 소크라테스의 이전 재판과 처형을 가리키는 말로 — 말했다고 전해진다. 그는 이듬해인 기원전 322년 칼키스에서 세상을 떠났다.",
+  "aristotle.interpretation.moment.1":
+    "이런 종류의 현장 조사는 순전히 이론적인 탐구와는 다른 형태의 호기심이다 — 첫 원리로부터의 추론만이 아니라, 직접 가서 관찰함으로써 얻은 증거다.",
+  "aristotle.interpretation.turning_point.1":
+    "정치적으로 민감한 고발에 맞서 다투는 대신 이미 확립된 지위를 떠나는 것은, 이 프로필의 다른 곳에서 더 흔히 나타나는 직접적인 대립과는 다른 종류의 위험 계산이다 — 동일한 위험 감수 성향이 저항이 아니라 전략적 물러남으로 나타난 경우다.",
+
+  /* ------------------------------------------------------- Batch 6: Simón Bolívar */
+  "simon-bolivar.achievement.1":
+    "1813년부터 1825년 사이, 볼리바르는 군사 원정을 이끌어 오늘날의 베네수엘라, 콜롬비아, 에콰도르, 파나마, 페루, 그리고 그의 이름을 딴 볼리비아에 이르는 지역에서 에스파냐 식민 지배를 종식시켰으며, 단명한 연합체인 그란콜롬비아의 대통령을 지냈다.",
+  "simon-bolivar.achievement.2":
+    "연이은 초기 군사적 패배 이후 1815년 자메이카 망명 중에 쓴 「자메이카 서한」은 에스파냐령 아메리카 사회에 대한 상세한 정치적 분석을 담고, 독립적이고 통합된 통치에 대한 구체적인 구상을 주장했다 — 린치의 전기에 따르면 이는 단순한 결집 호소가 아니라 체계적인 정치 이론서였다.",
+  "simon-bolivar.moment.1":
+    "1819년, 볼리바르는 약 2,100명의 병력을 이끌고 우기에는 통과할 수 없다고 에스파냐 왕당파 군이 판단했던, 물에 잠긴 안데스 고원과 얼어붙은 산길을 넘어 누에바그라나다로 진격했다. 이 기습적인 도착으로 그의 군대는 1819년 8월 7일 보야카 전투에서 결정적인 승리를 거두었고, 보고타로 가는 길이 열렸다.",
+  "simon-bolivar.moment.2":
+    "1822년 7월, 볼리바르는 과야킬에서 동료 독립운동 지도자 호세 데 산마르틴과 비공개로 만나 새로 해방된 영토들의 정치적 미래를 논의했다. 그 자리에서 무슨 말이 오갔는지에 대한 기록은 남아 있지 않지만, 산마르틴은 얼마 지나지 않아 공직과 군무에서 물러났고, 볼리바르는 대륙 독립운동에서 남은 가장 두드러진 인물이 되었다.",
+  "simon-bolivar.turning_point.1":
+    "1828년 무렵 그란콜롬비아는 보고타 중심의 중앙집권 통치에 대한 지역적 저항으로 분열하고 있었고, 볼리바르는 연합을 유지하려는 시도로 독재적 권한을 장악했으며 그해 9월 암살 시도에서 살아남았다. 분열을 되돌리지 못한 채, 그는 베네수엘라와 에콰도르가 분리를 향해 움직이던 1830년 4월 대통령직에서 물러났고, 그해 12월 산타마르타에서 결핵으로 세상을 떠났다 — 그가 거의 20년에 걸쳐 세운 연합이 그가 죽은 바로 그해에 무너져 내렸다.",
+  "simon-bolivar.interpretation.moment.2":
+    "남아 있는 기록은 그 결과만을 보여줄 뿐 불화 자체를 보여주지는 않으므로, 이 해석은 확정된 사실이라기보다 여전히 해석적인 읽기로 남는다 — 다만 이는 이 프로필 전반에서 나타나는, 실질적인 마찰을 동반하면서도 실제로 작동했던 연대라는 더 넓은 패턴과 맞아떨어진다. 단순하고 매끄러운 협력이 아니라는 점에서다.",
+  "simon-bolivar.interpretation.turning_point.1":
+    "이 후기의 볼리바르를 어떻게 읽어야 할지는 실제로 논쟁의 여지가 있는 영역이다 — 한때 자기 자신의 통치를 넘어선 연합을 제안했던 바로 그 인물이, 그 구상이 흔들리자 스스로의 손에 권력을 집중시키기도 했다 — 이 프로필이 그의 영향 창출 동기 점수를 극단이 아니라 중간 쪽에 두는 이유가 여기에 있다.",
+
+  /* --------------------------------------------------------- Batch 6: Grace Hopper */
+  "grace-hopper.achievement.1":
+    "1950년대 초, 호퍼는 레밍턴 랜드 사에서 최초의 컴파일러로 널리 인정받는 A-0 시스템을 개발한 팀을 이끌었다 — 기호적이고 영어에 가까운 명령어를 기계어로 번역하는 프로그램으로, 훗날 코볼(COBOL) 같은 언어를 가능하게 한 핵심 개념을 확립했다 — 그녀의 경력을 다룬 바이어의 저작에 따른 것이다.",
+  "grace-hopper.achievement.2":
+    "바이어의 기록은 여러 해에 걸쳐 자신이 속한 조직 안팎의 동료들과 군·기업 지도부를 설득하려 애쓴 지속적인 노력을 보여준다 — 컴퓨터가 영어에 가까운 형태로 작성된 명령을 안정적으로 실행할 수 있다는 주장은 1950년대 초 많은 동시대인들이 기술적으로 불가능하다고 여겼던 것이었으며, 컴파일러 기반의 표준화된 프로그래밍이 업계 관행으로 자리 잡기까지 이런 설득이 이어졌다.",
+  "grace-hopper.moment.1":
+    "1947년 9월 9일, 호퍼가 하버드 마크 II 컴퓨터 팀에 있던 무렵, 한 기술자가 기계의 릴레이 중 하나에 나방이 끼어 있어 오작동을 일으킨 것을 발견했다. 팀원 중 한 명이 그 나방을 운용 기록부에 테이프로 붙이며 \"버그(bug)가 발견된 최초의 실제 사례\"라고 적었다. 기술적 결함을 뜻하는 \"버그\"라는 용어는 이 사건 이전부터 공학 분야에 이미 존재했으며 — 호퍼가 만든 말이 아니다 — 다만 그녀는 이후 수십 년간 이 일화를 되풀이해 이야기했고, 그 기록부 페이지는 오늘날에도 스미소니언 국립미국사박물관에 보존되어 있다.",
+  "grace-hopper.turning_point.1":
+    "호퍼는 1966년 만 60세 정년으로 해군 예비역에서 퇴역했지만, 7개월 뒤 해군이 서로 호환되지 않는 여러 버전의 코볼을 표준화하는 작업을 돕기 위해 현역으로 다시 소집되었다. 그녀는 이후 거의 20년 가까이 현역으로 복무했고, 1986년 79세의 나이로 해군 준장으로 퇴역했으며, 당시 미 해군에서 현역으로 복무 중인 최고령 장교였다.",
+  "grace-hopper.interpretation.turning_point.1":
+    "정년퇴임 이후 다시 까다로운 표준화 프로젝트로 복귀해 거의 20년을 더 그 일에 매달린 것은, 이 프로필이 단일한 성취보다 훨씬 위에 두는 숙련 지향(mastery_orientation)과 맞아떨어진다.",
+
+  /* -------------------------------------------------------------- Batch 6: C. V. Raman */
+  "cv-raman.achievement.1":
+    "1928년, 라만은 자신의 제자이자 가까운 협력자였던 K. S. 크리슈난과 함께 햇빛과 색 필터, 분광기라는 비교적 단순한 장비만으로 빛이 투명한 물질에 의해 산란될 때 파장이 변한다는 사실을 입증했으며, 이 현상은 훗날 라만 효과로 불리게 되었다. 1930년 노벨 물리학상은 라만 단독에게 수여되었는데, 일부 인도 과학사 연구자들은 이것이 실험 작업에서 크리슈난이 맡았던 상당한 역할을 충분히 인정하지 못한 것이라고 지적해 왔다.",
+  "cv-raman.achievement.2":
+    "발견 자체를 넘어, 라만은 방갈로르에 라만 연구소를 설립해 이끌었고 인도과학원(IISc) 원장을 지내며 수십 년에 걸쳐 인도 과학 기관을 세우고 인도 물리학자 세대를 길러내는 작업을 이어갔다.",
+  "cv-raman.moment.1":
+    "라만은 인도 재무부에서 전임으로 근무하는 동안, 인도 전통 악기의 물리학 연구를 시작으로 십여 년 넘게 부업 삼아 진지한 물리학 연구를 이어갔으며, 1917년에는 안정적이고 보수가 좋은 그 공직을 떠나 상당히 낮은 급여를 받으며 캘커타 대학교의 물리학 교수직을 맡았다.",
+  "cv-raman.turning_point.1":
+    "라만은 훗날 자신의 강연과 저술에서, 1921년 영국으로 가는 뱃길에서 바다가 왜 푸르게 보이는지에 대한 호기심이 — 단순히 하늘을 반사하는 것이라는 당시의 통설에 의문을 품게 했고 — 투명한 매질에서의 빛 산란에 대한 체계적 연구를 시작하는 계기가 되었으며, 그것이 7년 뒤 그의 이름을 딴 효과의 발견으로 이어졌다고 서술했다.",
+  "cv-raman.interpretation.turning_point.1":
+    "짚어둘 점은, 이는 연구 방향이 어떻게 시작되었는지에 대한 라만 자신의 회고적 서술이지 당대의 기록이 아니라는 것이다 — 과학자가 훗날 자신의 호기심에 대해 들려주는 이런 종류의 기원 이야기는, 날짜가 남은 문서만큼의 증거력을 갖지는 못하더라도, 이 프로필의 호기심 점수와는 여전히 부합한다.",
+
+  /* --------------------------------------------------- Batch 6: Benjamin Banneker */
+  "benjamin-banneker.achievement.1":
+    "1792년부터 배네커는 태양과 달, 행성의 예상 위치를 담아 조수 예측 등 실용적 목적에 쓰이는 천체력을, 독자적으로 계산해 매년 역서로 출간했다 — 베디니의 전기에 따르면 천문학이나 고등 수학에 대한 정규 교육을 전혀 받지 않은 채 전적으로 독학으로 이룬 성과였다.",
+  "benjamin-banneker.achievement.2":
+    "1753년 무렵, 빌린 회중시계의 작동 원리를 연구한 뒤 배네커는 거의 전부를 나무로 깎아 작동하는 타종 시계를 만들었다 — 베디니에 따르면 시계 제작에 대한 사전 훈련이나 정규 교육의 기회 없이 이루어진, 기록으로 남은 기술적 성취다.",
+  "benjamin-banneker.moment.1":
+    "1791년 8월, 배네커는 당시 국무장관이던 토머스 제퍼슨에게 편지를 보내, 제퍼슨이 표방한 계몽주의 이상과 그가 사람들을 노예로 소유하고 있다는 사실 사이의 모순을 직접 지적하며, 흑인의 지적 능력을 보여주는 증거로 곧 출간될 자신의 역서 필사본을 동봉했다. 배네커의 편지와 함께 남아 있는 제퍼슨의 답장은 감사의 뜻을 전하며 그 역서를 프랑스의 콩도르세 후작에게 전달했다고 밝혔지만 — 이는 정중한 인정이었을 뿐, 제퍼슨 자신이 사람들을 노예로 소유하는 관행을 바꾸는 데까지 이어지지는 않았다.",
+  "benjamin-banneker.interpretation.moment.1":
+    "현직 각료에게 노예제에 대해 직접적이고 개인적으로 문제를 제기한 것은 1791년 메릴랜드의 자유 흑인에게는 실제적인 위험이었다 — 이 프로필의 위험 감수 점수가 여기서 실제로 근거하는 부분이며, 그 서신 교환이 어떻게 받아들여졌는지에 대한 어떤 주장은 아니다.",
+
+  /* ----------------------------------------------------------- Batch 6: Fela Kuti */
+  "fela-kuti.achievement.1":
+    "1960년대 후반부터 펠라 쿠티는 요루바 음악과 재즈, 하이라이프, 펑크를 결합해 아프로비트라는 새로운 장르를 만들어냈다 — 그의 녹음 작품에 대한 음악학적 분석(비얼)을 통해 확인되는 독자적인 음악적 종합이다.",
+  "fela-kuti.achievement.2":
+    "군인을 명령에 따르는 생각 없는 자동인형에 빗대어 나이지리아 군부를 직접 비판한 1976년 앨범 『좀비』는 아프리카 음악 역사상 가장 널리 알려진 저항 음반 중 하나가 되었으며, 비얼이 그 음반의 반향을 서술한 바에 따르면 나이지리아와 범아프리카 정치의식에 지속적인 영향을 미쳤다.",
+  "fela-kuti.moment.1":
+    "1970년, 쿠티는 자신의 밴드와 녹음 스튜디오, 그리고 확장된 공동체가 자리한 라고스의 자택을 독립된 '칼라쿠타 공화국'으로 선포하고, 나이지리아 경찰의 진입을 거부하며 그 구역이 나이지리아 국가의 권한 밖에서 운영된다고 주장했다 — 구체적이고 상세히 기록된 공개적 저항 행위였다.",
+  "fela-kuti.turning_point.1":
+    "1977년 2월, 약 1,000명의 나이지리아 군인이 칼라쿠타 공화국을 습격해 불을 질렀다. 이 습격에서 쿠티의 어머니이자 활동가였던 펀밀레이오 랜섬쿠티는 창밖으로 내던져졌고, 이듬해 그 부상으로 세상을 떠났다. 쿠티는 어머니의 관을 라고스에 있는 군사정부 본부 정문까지 운구하는 것으로 대응했고, 이후 몇 해에 걸쳐 이 사건을 다룬 곡 「국가원수를 위한 관」을 발표했다 — 음악과 언사를 통한 정권 비판에서, 정권에 대한 직접적이고 개인적인 대결로 나아간 전환이었다.",
+  "fela-kuti.interpretation.turning_point.1":
+    "이는 국가 권력에 맞서는 방식이 실질적으로 격화되었음을 보여준다 — 음반과 가사에서 정부를 직접 겨냥한 물리적 행동으로 나아간 것으로, 이는 이 프로필의 갈등 감내 점수를 뒷받침하는 구체적인 증거이지, 그 근저의 정치적 갈등 자체에 대한 판단은 아니다.",
+
+  /* ------------------------------------------------- Batch 6: Toussaint Louverture */
+  "toussaint-louverture.achievement.1":
+    "노예 신분의 마부이자 가축 몰이꾼에서 생도맹그의 총사령관 겸 총독으로 올라선 투생 루베르튀르는, 뒤부아의 혁명사 저술에 따르면 제한된 자원으로 옛 노예들로 이루어진 규율 있는 군대를 조직하고 훈련시켰으며, 약 10년에 걸쳐 에스파냐와 프랑스, 영국 군대를 상대로 차례로 전술을 조정해 나갔다.",
+  "toussaint-louverture.achievement.2":
+    "1801년, 루베르튀르는 생도맹그에서 노예제를 영구히 폐지하는 헌법을 공포했다 — 동시에 스스로를 종신 총독으로 임명하고, 황폐해진 농업 경제를 재건하기 위해 옛 농장 노동자들에게 엄격한 노동 체제 아래 토지에 계속 머물도록 요구했으며, 이 정책은 당대에도 훗날의 역사가들 사이에서도 비판을 받았다.",
+  "toussaint-louverture.moment.1":
+    "1794년, 프랑스 국민공회가 프랑스령 전역에서 노예제 폐지를 선포하자, 루베르튀르는 애초에 함께 싸웠던 에스파냐 쪽에서 프랑스 쪽으로 자신의 군대의 충성을 바꾸었다 — 뒤부아에 따르면, 어느 쪽이 노예제 폐지를 더 확실하게 지켜낼지에 대한 그 자신의 판단에 근거한, 날짜가 특정된 구체적인 전략적 전환이었다.",
+  "toussaint-louverture.turning_point.1":
+    "1802년 6월, 나폴레옹 보나파르트의 명령에 따라 식민지에 대한 프랑스의 지배를 회복하려던 프랑스 장군 장바티스트 브뤼네는 안전한 통행을 약속하며 루베르튀르를 회담에 초청한 뒤 그를 체포했다. 그는 프랑스로 압송되어 쥐라산맥의 주 드 조 요새에 수감되었고, 1803년 4월 그곳에서 세상을 떠났다 — 그의 옛 부관들이 1804년 1월 아이티의 독립을 선언하기 아홉 달 전이었다.",
+  "toussaint-louverture.interpretation.moment.1":
+    "처음 함께했던 쪽에 대한 충성이 아니라, 어느 쪽이 실제 목표를 더 잘 지켜낼지에 대한 자신의 판단에 근거해 기존 동맹을 뒤집은 것은, 이 프로필의 독립적 사고 점수가 근거로 삼는 종류의 증거다.",
+
+  /* ----------------------------------------------------------- Batch 6: Chinua Achebe */
+  "chinua-achebe.achievement.1":
+    "1958년 출간된 『모든 것이 산산이 부서지다』는 이그보족의 구전 서사 구조와 속담을 영어 소설 형식 안에 직접 엮어 넣었다 — 관습적인 서구식 서술이 아닌 의도적인 기법적 선택이었으며, 에젠와오하에토의 전기에 따르면 현대 아프리카 문학의 기초를 놓은 작품으로 널리 인정받는다.",
+  "chinua-achebe.achievement.2":
+    "1975년 강연에서, 훗날 「아프리카의 이미지」라는 에세이로 출간된 발언을 통해, 아체베는 당시 영문학의 확고한 정전이었던 조지프 콘래드의 『암흑의 핵심』이 아프리카와 아프리카인들을 유럽인의 심리극을 위한 배경으로 축소시켰다고 주장했다 — 당대의 지배적인 문학 비평 흐름에 의도적으로 맞선 입장이었으며, 이후 수십 년간 문학 연구에서 인용되고 논쟁의 대상이 되어 왔다.",
+  "chinua-achebe.moment.1":
+    "나이지리아 내전(1967~1970) 동안 아체베는 분리독립을 선언한 비아프라의 외교 특사로서 국제적인 인정과 지원을 구하러 다녔다 — 자신의 문학 경력과는 별개로, 동시에 이루어진 직접적인 정치적 참여의 시기였다.",
+  "chinua-achebe.turning_point.1":
+    "1990년 3월, 나이지리아에서 일어난 교통사고로 아체베는 하반신이 마비되었다. 그는 치료를 위해 영국으로 이송되었고 이후 미국으로 거처를 옮겨 바드 칼리지 교수진에 합류했으며, 2013년 세상을 떠날 때까지 20년 넘게 에세이 집필과 강의, 공개 강연을 이어갔다.",
+  "chinua-achebe.interpretation.turning_point.1":
+    "사고 이후 다른 대륙에서, 영구적으로 달라진 신체적 조건 속에서 온전한 학문적·문학적 경력을 다시 쌓아 올린 것은, 이 프로필의 적응력 점수가 근거로 삼는 구체적인 종류의 증거다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
