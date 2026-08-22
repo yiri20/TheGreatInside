@@ -14,7 +14,10 @@ Last updated: 2026-08 (end of `feat/editorial-backfill-batch-6`).
 | `feat/editorial-backfill-batch-6` | Current editorial lineage tip — Tier A + Tier B editorial content complete. Not yet merged to `main`. |
 | `scale/roster-1000` | Fully subsumed by `main` (0 unique commits) — not deleted, no established convention to do so. |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
-| `chore/context-architecture` | This branch — documentation/context restructuring only. Do not merge to `main` from this session. |
+| `chore/context-architecture` | Documentation/context restructuring. Superseded as the dev tip by `chore/consolidated-dev-2026-08` below — do not branch new work from here. |
+| `fix/mobile-likert-wrap` | Mobile quiz Likert-scale wrap fix, off `chore/context-architecture`. Folded into `chore/consolidated-dev-2026-08` below. |
+| `chore/self-made-audit-2026-08` | Self-Made/Earned-Distinction roster audit docs, off `chore/context-architecture`. Folded into `chore/consolidated-dev-2026-08` below. |
+| `chore/consolidated-dev-2026-08` | **Canonical latest development branch** — merges `fix/mobile-likert-wrap` + `chore/self-made-audit-2026-08` (both off `chore/context-architecture`). Branch new work from here. Not merged to `main`. |
 
 ## Product
 
