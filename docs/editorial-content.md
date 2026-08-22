@@ -322,7 +322,23 @@ editorial quality.
 
 Run `corepack pnpm@10 exec tsx src/dev/editorialCoverageAudit.ts` for the
 current, live count — this file intentionally does not restate a number
-that will go stale. As of this session's close, 10 of 95 people have
-editorial content authored (a representative pilot spanning eras,
-professions, regions, and evidence-source tiers — see CLAUDE.md's
-editorial-content section for exactly which and why).
+that will go stale. As of this session's close, 20 of 95 people have
+editorial content authored: the original 10-person pilot (see CLAUDE.md's
+editorial-content section for exactly which and why) plus a first 10-person
+Tier-B backfill batch (`feat/editorial-backfill-batch-1`) — Isaac Newton,
+Harriet Tubman, Wu Zetian, Averroes, Julius Caesar, Jane Austen, Benito
+Juárez, Ernest Shackleton, Wole Soyinka, and Elizabeth Blackwell, selected
+by ranking the audit tool's `Rich`-tier candidates for episode/word-count
+richness first, then choosing for era/region/domain/gender diversity among
+the evidence-strongest candidates rather than by fame — see
+`docs/roster-1000-checkpoint.md`-style precedent in the batch's own commit
+history for the full selection rationale. No new rule was added to Writing
+Standard v1 this batch — the pattern that needed correcting (over-repeating
+"This is consistent with the profile's X score" as an interpretation
+opener) was already covered by the existing "vary the opening construction"
+rule above; it was simply under-applied in this batch's first draft and was
+caught and fixed during self-review before commit, which is exactly what
+that rule anticipates a future author will need to do. 52 Tier-B people
+remain unbackfilled; Tier-C (the original 35's `roster2.ts`/`seed.ts`
+inline-comment-only people, minus the 6 already covered by the pilot) is
+untouched.
