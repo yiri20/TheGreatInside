@@ -61,6 +61,83 @@ describe("validateEditorial — synthetic defect fixtures", () => {
     expect(issues.some((i: EditorialIssue) => i.problem.includes("sourceId"))).toBe(true);
   });
 
+  it("passes a valid sourceId that is one of this person's own sources", () => {
+    const person = basePerson({
+      editorial: {
+        achievements: [
+          { id: "test-person-a1", textKey: "leonardo-da-vinci.achievement.1", sourceIds: ["src_test_wikipedia"] },
+        ],
+        moments: [],
+        turningPoints: [],
+      },
+    });
+    const issues = validateEditorial([person]);
+    expect(issues.some((i: EditorialIssue) => i.problem.includes("sourceId"))).toBe(false);
+  });
+
+  it("passes multiple valid sourceIds on the same item", () => {
+    const person = basePerson({
+      sources: [
+        { id: "src_test_wikipedia", kind: "wikipedia", title: "Test Person" },
+        { id: "src_test_biography", kind: "biography", title: "A Biography of Test Person" },
+      ],
+      editorial: {
+        achievements: [
+          {
+            id: "test-person-a1",
+            textKey: "leonardo-da-vinci.achievement.1",
+            sourceIds: ["src_test_wikipedia", "src_test_biography"],
+          },
+        ],
+        moments: [],
+        turningPoints: [],
+      },
+    });
+    const issues = validateEditorial([person]);
+    expect(issues.some((i: EditorialIssue) => i.problem.includes("sourceId"))).toBe(false);
+  });
+
+  it("flags a sourceId that belongs to a different person's own sources, not this person's", () => {
+    const a = basePerson({
+      slug: "person-a",
+      sources: [{ id: "src_persona_wikipedia", kind: "wikipedia", title: "Person A" }],
+      editorial: {
+        achievements: [{ id: "person-a-a1", textKey: "leonardo-da-vinci.achievement.1", sourceIds: ["src_personb_wikipedia"] }],
+        moments: [],
+        turningPoints: [],
+      },
+    });
+    const b = basePerson({
+      slug: "person-b",
+      sources: [{ id: "src_personb_wikipedia", kind: "wikipedia", title: "Person B" }],
+      // Person B's own editorial content, correctly citing its own source —
+      // included to prove the same literal sourceId is valid for its real
+      // owner and invalid for anyone else, not merely unrecognized globally.
+      editorial: {
+        achievements: [{ id: "person-b-a1", textKey: "marie-curie.achievement.1", sourceIds: ["src_personb_wikipedia"] }],
+        moments: [],
+        turningPoints: [],
+      },
+    });
+    const issues = validateEditorial([a, b]);
+    const aIssues = issues.filter((i: EditorialIssue) => i.itemId === "person-a-a1");
+    const bIssues = issues.filter((i: EditorialIssue) => i.itemId === "person-b-a1");
+    expect(aIssues.some((i: EditorialIssue) => i.problem.includes("sourceId"))).toBe(true);
+    expect(bIssues.some((i: EditorialIssue) => i.problem.includes("sourceId"))).toBe(false);
+  });
+
+  it("an item with no sourceIds at all is valid (source attribution is optional)", () => {
+    const person = basePerson({
+      editorial: {
+        achievements: [{ id: "test-person-a1", textKey: "leonardo-da-vinci.achievement.1" }],
+        moments: [],
+        turningPoints: [],
+      },
+    });
+    const issues = validateEditorial([person]);
+    expect(issues.some((i: EditorialIssue) => i.problem.includes("sourceId"))).toBe(false);
+  });
+
   it("flags a textKey with no EDITORIAL_EN entry", () => {
     const person = basePerson({
       editorial: {
