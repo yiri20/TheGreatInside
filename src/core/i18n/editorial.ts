@@ -540,6 +540,188 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The barrier itself never moved; what changed is that she found a way to keep teaching and researching around it rather than through it — a fairly direct read on the profile's resourcefulness score.",
   "emmy-noether.interpretation.turning_point.1":
     "The profile's proactive_agency score is worth reading carefully here: leaving was not itself a choice under the actual circumstances, but where and how quickly she rebuilt a working research career afterward was.",
+
+  /* -------------------------------------------------- Batch 3: F. Kafka */
+  "franz-kafka.achievement.1":
+    "Developed a distinctive narrative mode blending exacting bureaucratic procedure with surreal menace — a style later given his own name, \"Kafkaesque\" — with no direct precedent in the literature of his time, documented via its lasting critical recognition and terminological legacy.",
+  "franz-kafka.achievement.2":
+    "Over a 14-year career (1908–1922) at the Workers' Accident Insurance Institute for the Kingdom of Bohemia, he rose from entry-level clerk to Senior Legal Secretary — a demanding position he held as one of only two Jewish employees among 263 in 1913 — while sustaining an intensive nightly private writing practice for the same period.",
+  "franz-kafka.achievement.3":
+    "At the Institute, he designed a risk-categorization system for classifying companies by their level of industrial accident risk and drafted workplace safety regulations — professional work documented to have materially reduced industrial accidents in one of the most heavily industrialized regions of Europe, entirely separate from his literary output.",
+  "franz-kafka.moment.1":
+    "Kafka instructed his friend Max Brod to burn his unpublished manuscripts, including the novels The Trial, The Castle, and Amerika, after his death. Brod did not comply, and all three were published posthumously.",
+  "franz-kafka.moment.2":
+    "His letters to Felice Bauer document a sustained, explicit conflict between wanting a conventional domestic life and needing solitary time to write — a conflict that ultimately ended both of his engagements to her.",
+  "franz-kafka.moment.3":
+    "His own letters and diaries, corroborated by contemporaries including Max Brod, consistently describe him as socially anxious and self-doubting in his personal relationships — an honestly low trait score drawn directly from that documented pattern rather than inferred from his literary reputation.",
+  "franz-kafka.interpretation.moment.1":
+    "A milder pattern of ordinary revision doesn't quite cover this — wanting nearly all of it erased is closer to what the profile's dual-edged perfectionism score is describing.",
+  "franz-kafka.interpretation.moment.2":
+    "Read against the profile's autonomy_need score, this isn't cold feet about marriage in general — his own letters name the specific thing marriage would have cost him.",
+
+  /* -------------------------------------------------- Batch 3: V. van Gogh */
+  "vincent-van-gogh.achievement.1":
+    "Left nearly 900 surviving letters, mostly to his brother Theo, directly documenting his deliberate reasoning about color relationships and composition alongside a body of more than 2,000 surviving works — a distinctive style built on thick impasto and expressive color choices that departed clearly from the academic and Impressionist conventions of his time.",
+  "vincent-van-gogh.achievement.2":
+    "During his final roughly fifteen months in Arles and Saint-Rémy alone, he produced around 200 paintings, with individual works documented to have sometimes been completed within a single sitting or day.",
+  "vincent-van-gogh.achievement.3":
+    "Continued producing work at a high rate for roughly a decade despite a documented, near-total absence of commercial success in his lifetime — he is recorded to have sold only one or two paintings while alive — evidence against a success- or reward-driven reading of his output.",
+  "vincent-van-gogh.moment.1":
+    "His attempt at a shared studio arrangement with the painter Paul Gauguin in Arles — the \"Yellow House\" period, which he had proactively invited Gauguin to join as the seed of a shared artists' colony — lasted only about two months before ending in a well-documented breakdown.",
+  "vincent-van-gogh.moment.2":
+    "He studied and collected Japanese ukiyo-e prints extensively, directly incorporating their flattened perspective and bold outlines into his own compositions — a documented interest that reached beyond his immediate painting practice.",
+  "vincent-van-gogh.moment.3":
+    "He moved to Arles specifically to secure his own independent studio space, which his letters describe as a deliberate choice for creative independence rather than a matter of circumstance.",
+  "vincent-van-gogh.turning_point.1":
+    "At 27, after leaving a series of earlier, more conventional paths — art dealing, teaching, lay preaching — with no proven ability as a painter, he committed to painting full-time, relying on his brother Theo's financial support to make the shift possible.",
+  "vincent-van-gogh.interpretation.moment.1":
+    "The profile's collaboration score is drawn narrowly from this one arrangement's documented outcome, not from a broader claim about how he got along with people.",
+  "vincent-van-gogh.interpretation.moment.3":
+    "Worth noting for the profile's autonomy_need score: the studio wasn't where he happened to end up, but a space his own letters describe seeking out deliberately.",
+  "vincent-van-gogh.interpretation.turning_point.1":
+    "The profile's risk_tolerance score is grounded in this one dated, comparatively late decision, not a general claim about risk running through his whole life.",
+
+  /* -------------------------------------------------- Batch 3: T. Aquinas */
+  "thomas-aquinas.achievement.1":
+    "The Summa Theologica organizes the whole of Christian theology and Aristotelian philosophy into one coherent structural framework, applying a consistent question-objection-response method across thousands of individual articles — directly observable in the surviving text's own organization.",
+  "thomas-aquinas.achievement.2":
+    "Produced this extraordinary documented volume of work within a working life of roughly two decades, while also teaching and traveling, using a documented method of dictating to multiple secretaries on different works simultaneously.",
+  "thomas-aquinas.achievement.3":
+    "Integrated newly translated, controversial \"pagan\" Aristotelian philosophy into Christian theology despite resistance from some Church authorities; several Thomistic propositions were formally condemned by the Bishop of Paris in 1277, a few years after his death.",
+  "thomas-aquinas.moment.1":
+    "A widely repeated account describes him becoming so absorbed in thought at a royal dinner that he struck the table, oblivious to the company, having just resolved a theological problem — a specific, often-cited anecdote rather than one of several independently corroborated episodes.",
+  "thomas-aquinas.moment.2":
+    "He was widely known among fellow students by the nickname \"the Dumb Ox\" for his quiet, reserved manner — reportedly defended at the time by his teacher, Albert the Great, who predicted his eventual renown.",
+  "thomas-aquinas.turning_point.1":
+    "A widely documented account holds that following a mystical experience during Mass on 6 December 1273, he stopped writing, reportedly telling his secretary that everything he had written now seemed like straw to him next to what he had witnessed. He never resumed the Summa, which remained unfinished at his death four months later.",
+  "thomas-aquinas.interpretation.achievement.3":
+    "The profile's independent_thinking score is worth reading through what it cost him — formal posthumous condemnation, not merely a private disagreement never voiced publicly.",
+  "thomas-aquinas.interpretation.turning_point.1":
+    "This complicates rather than confirms the profile's high mastery_orientation score: by his own reported account, the work didn't stop because it was finished, but because the whole undertaking had come to seem beside the point.",
+
+  /* -------------------------------------------------- Batch 3: Maimonides */
+  "maimonides.achievement.1":
+    "The Mishneh Torah systematically organizes the entire body of Jewish religious law into one coherent, topically structured code across fourteen books — a documented, unprecedented organizational undertaking directly observable in the surviving text.",
+  "maimonides.achievement.2":
+    "Sustained genuine professional achievement across three distinct domains: religious law (the Mishneh Torah), philosophy (the Guide for the Perplexed, reconciling Aristotelian rationalism with Jewish theology), and medicine, where he served as a court physician and wrote several surviving treatises.",
+  "maimonides.achievement.3":
+    "Served as physician to Saladin's vizier al-Qadi al-Fadil and as Nagid — recognized leader — of the Fustat Jewish community, applying his scholarship directly to public medical and communal service.",
+  "maimonides.moment.1":
+    "By his own surviving letters describing his schedule, he maintained a demanding daily medical practice at court while continuing major scholarly writing.",
+  "maimonides.moment.2":
+    "He self-initiated the Mishneh Torah project without royal or communal commission — his own undertaking, per the Stanford Encyclopedia of Philosophy's account of the work's origin.",
+  "maimonides.turning_point.1":
+    "He fled religious persecution under Almohad rule from Córdoba, and after years of displacement through Fez and Palestine, eventually settled in Fustat, Egypt, where he rebuilt both his medical and scholarly career.",
+  "maimonides.interpretation.moment.2":
+    "Nobody commissioned this — which is close to exactly what the profile's proactive_agency score is picking up on.",
+  "maimonides.interpretation.turning_point.1":
+    "The profile's resourcefulness score fits this account reasonably well, though the surviving record documents where he ended up more fully than exactly how he got there.",
+
+  /* -------------------------------------------------- Batch 3: Sequoyah */
+  "sequoyah.achievement.1":
+    "Single-handedly created the Cherokee syllabary — a complete 85-character writing system for the Cherokee language — despite being unable to read English or any other existing script, one of very few historically documented instances of a single person independently devising a functional writing system.",
+  "sequoyah.achievement.2":
+    "Worked on developing the syllabary for approximately 12 years, including working through skepticism and accusations of witchcraft from within his own community during the process.",
+  "sequoyah.achievement.3":
+    "Explicitly pursued the syllabary to give the Cherokee people their own means of written communication and preserve their language; the finished system was subsequently adopted as an official writing system by the Cherokee Nation.",
+  "sequoyah.moment.1":
+    "He faced documented accusations of witchcraft from within his own community during the syllabary's development — a real social risk he continued working through rather than abandoning the project.",
+  "sequoyah.moment.2":
+    "He developed the syllabary's methodology through iterative experimentation, including an early, unsuccessful attempt at a full logographic system before settling on the syllabic approach that ultimately succeeded.",
+  "sequoyah.turning_point.1":
+    "Reportedly after observing European settlers' use of writing, he recognized the transformative potential written language could have for the Cherokee people — before any formal institutional effort toward Cherokee literacy existed.",
+  "sequoyah.interpretation.moment.2":
+    "A narrower reading of the profile's adaptability score than his broader biography might suggest: revising one specific failing method, not a general flexibility.",
+  "sequoyah.interpretation.turning_point.1":
+    "The profile's opportunity_sensing score traces to this one observation, made well before any institutional Cherokee-literacy effort existed to prompt it.",
+
+  /* -------------------------------------------------- Batch 3: Sojourner Truth */
+  "sojourner-truth.achievement.1":
+    "In 1828, she sued a white man in court to recover her illegally sold son and won — a specific, legally recorded case, extraordinarily rare for a Black woman in that era.",
+  "sojourner-truth.achievement.2":
+    "Became a nationally sought-after extemporaneous speaker across the abolitionist and suffrage circuits for decades; multiple independent eyewitness accounts corroborate her powerful oratory, even though the exact wording of her most famous speech is separately disputed among historians — the sustained speaking career itself, not any one disputed transcript, is what's documented here.",
+  "sojourner-truth.achievement.3":
+    "Continued touring and speaking into her 80s, decades after emancipation had already been achieved.",
+  "sojourner-truth.moment.1":
+    "In 1843, she chose to rename herself from Isabella Baumfree to Sojourner Truth, explicitly framing the new name as her own chosen spiritual and political mission rather than an inherited identity.",
+  "sojourner-truth.moment.2":
+    "She sold cartes de visite of her own portrait, captioned \"I Sell the Shadow to Support the Substance,\" as a documented, self-devised method of funding her activism.",
+  "sojourner-truth.turning_point.1":
+    "In 1826, she made a documented decision to walk away from her enslaver to freedom, taking her infant daughter with her rather than waiting for New York's gradual emancipation law to take effect the following year.",
+  "sojourner-truth.interpretation.moment.1":
+    "Choosing a new name is one thing; the profile's independent_thinking score is picking up on how explicitly she framed it as her own chosen mission rather than an inherited one.",
+  "sojourner-truth.interpretation.turning_point.1":
+    "The profile's decisiveness score is anchored in this one dated choice not to wait for the law to catch up, separate from the more familiar public career that followed.",
+
+  /* -------------------------------------------------- Batch 3: B. R. Ambedkar */
+  "br-ambedkar.achievement.1":
+    "Earned multiple doctoral degrees, at Columbia University and the London School of Economics, while born into a caste facing severe documented educational discrimination, and went on to chair the committee that drafted India's constitution.",
+  "br-ambedkar.achievement.2":
+    "As chair of the Constitution's Drafting Committee, built a comprehensive framework integrating fundamental rights, federal structure, and social-reform provisions, and separately founded multiple political and social organizations, including the Independent Labour Party and the Scheduled Castes Federation.",
+  "br-ambedkar.achievement.3":
+    "Produced substantive work across economics (his doctoral dissertations, including The Problem of the Rupee), law (the constitutional drafting), and social and religious reform (his conversion to Buddhism and his writing on caste).",
+  "br-ambedkar.moment.1":
+    "He organized the 1927 Mahad Satyagraha, a public water-access protest, and later publicly burned the Manusmriti in protest — sustained, direct public confrontation with the caste system's institutional defenders across his career.",
+  "br-ambedkar.moment.2":
+    "He secured funding and access to elite international education at Columbia and the London School of Economics despite starting from a caste facing severe documented institutional barriers to basic schooling.",
+  "br-ambedkar.turning_point.1":
+    "In the 1932 Communal Award dispute, Ambedkar broke publicly and decisively with Gandhi over separate electorates for Dalits, ultimately negotiating the Poona Pact rather than accepting Gandhi's position unchanged — a documented rupture with the era's dominant nationalist leadership that reshaped his subsequent standing as an independent political voice for Dalit rights.",
+  "br-ambedkar.interpretation.moment.1":
+    "The profile's conflict_tolerance score describes a repeated strategy across specific, named incidents here, not a single isolated act of defiance.",
+  "br-ambedkar.interpretation.turning_point.1":
+    "Disagreeing with Gandhi's own stature carries more evidentiary weight for the profile's independent_thinking score than a lower-stakes dispute would.",
+
+  /* -------------------------------------------------- Batch 3: K. Johnson */
+  "katherine-johnson.achievement.1":
+    "Hand-calculated the trajectory for Alan Shepard's 1961 flight, and personally verified John Glenn's 1962 orbital trajectory at Glenn's own request before he would fly — documented, specific calculations with real mission consequences.",
+  "katherine-johnson.achievement.2":
+    "Sustained a 33-year career at NACA/NASA (1953–1986), navigating a segregated and then integrating workplace across the Mercury, Apollo, and Space Shuttle programs.",
+  "katherine-johnson.achievement.3":
+    "Pioneered novel analytic geometry techniques for calculating orbital trajectories, adapting existing mathematical methods to a genuinely new spaceflight context.",
+  "katherine-johnson.moment.1":
+    "She proactively requested inclusion in previously male-only editorial meetings for the Flight Research Division, rather than waiting to be invited.",
+  "katherine-johnson.moment.2":
+    "She completed high school by 14 and college by 18, advancing rapidly through West Virginia's segregated school system on the strength of sustained early mathematical interest.",
+  "katherine-johnson.moment.3":
+    "She is documented primarily as an individual technical contributor across her NASA career rather than in a formal team-leadership role — an honestly lower, specifically-scored finding rather than an assumption drawn from her wider public renown.",
+  "katherine-johnson.interpretation.moment.1":
+    "The profile's proactive_agency score is a fairly literal match here: she wasn't invited into that room, she asked to be.",
+
+  /* -------------------------------------------------- Batch 3: Muhammad Ali */
+  "muhammad-ali.achievement.1":
+    "A three-time heavyweight champion who repeatedly sought rematches against top rivals, including Joe Frazier and George Foreman, rather than avoiding difficult opponents, and who returned to boxing after a three-and-a-half-year ban to reclaim the title twice more.",
+  "muhammad-ali.achievement.2":
+    "Extensively documented across decades of recorded interviews and press conferences for direct, public, often deliberately provocative self-promotion and pre-fight psychological tactics against opponents.",
+  "muhammad-ali.achievement.3":
+    "Significantly adjusted his in-ring fighting style across his career — from early speed-based boxing to the \"rope-a-dope\" strategy against Foreman as he aged — documented via boxing-historical analysis of his fights.",
+  "muhammad-ali.moment.1":
+    "He converted to Islam and changed his name from Cassius Clay in 1964, and later took the position of refusing military induction, both against near-unanimous public and media condemnation at the time.",
+  "muhammad-ali.moment.2":
+    "He explicitly framed his later-career activism and public statements around broader civil rights and religious identity, not personal athletic legacy alone.",
+  "muhammad-ali.turning_point.1":
+    "In 1967, he publicly refused induction into the U.S. military on religious grounds, resulting in the loss of his boxing license and heavyweight title and a felony conviction, later overturned, at the height of his athletic career. He sustained the position through a multi-year legal battle and the full ban rather than reversing course.",
+  "muhammad-ali.interpretation.moment.1":
+    "Two separate, dated public stances taken against the era's dominant opinion carry more weight for the profile's independent_thinking score than either one alone would.",
+  "muhammad-ali.interpretation.turning_point.1":
+    "This is a real, dated cost, not a comfortable stance — losing his title and livelihood at his athletic peak is what the profile's risk_tolerance score is actually pricing in.",
+
+  /* -------------------------------------------------- Batch 3: M. Wollstonecraft */
+  "mary-wollstonecraft.achievement.1":
+    "A Vindication of the Rights of Woman (1792) directly argued against prevailing Enlightenment-era assumptions about women's education and rationality, including Rousseau's, building a structured, sustained philosophical rebuttal rather than a general objection.",
+  "mary-wollstonecraft.achievement.2":
+    "Established her own school and later supported herself entirely through professional writing — a path not conventionally available to women at the time.",
+  "mary-wollstonecraft.achievement.3":
+    "Produced real output across political philosophy (the Vindication), travel writing (Letters Written in Sweden), fiction, and educational theory.",
+  "mary-wollstonecraft.moment.1":
+    "She published under her own name arguing positions widely considered radical and reputation-damaging for a woman in 1792, and lived independently, unmarried, and self-supporting as a professional writer — unusual and stigmatized for a woman at the time.",
+  "mary-wollstonecraft.moment.2":
+    "A Vindication of the Rights of Woman was written during a documented, intense six-week period of sustained writing, per William Godwin's account of her working process.",
+  "mary-wollstonecraft.moment.3":
+    "Her public intellectual position drew significant contemporary criticism, which intensified after her death, when her husband William Godwin's posthumously published memoir revealed private details of her life that scandalized many contemporary readers.",
+  "mary-wollstonecraft.interpretation.achievement.1":
+    "A structured, named rebuttal of specific Enlightenment authorities is what the profile's independent_thinking score is picking up on here, not a vaguer general dissatisfaction.",
+  "mary-wollstonecraft.interpretation.moment.3":
+    "Criticism that deepened after her death, not only pressure she withstood while still able to answer it, is the fuller shape of the profile's conflict_tolerance score here.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -1060,6 +1242,188 @@ export const EDITORIAL_KO: Record<string, string> = {
     "장벽 자체는 끝내 사라지지 않았다 — 달라진 것은 그가 그것을 정면으로 뚫는 대신 우회해 가르치고 연구하는 길을 스스로 찾아냈다는 점이며, 이는 프로필의 자원 활용 성향(resourcefulness) 점수를 상당히 직접적으로 보여주는 대목이다.",
   "emmy-noether.interpretation.turning_point.1":
     "프로필의 선제적 행동력(proactive_agency) 점수는 여기서 신중하게 읽을 필요가 있다 — 그 실제 상황에서 떠나는 것 자체는 선택의 문제가 아니었지만, 이후 어디서 어떻게 그토록 빠르게 다시 연구자로서의 경력을 세웠는가는 그 자신의 선택이었다.",
+
+  /* -------------------------------------------------- Batch 3: F. Kafka */
+  "franz-kafka.achievement.1":
+    "그는 정교한 관료적 절차와 초현실적인 위협감을 결합한, 당대 문학에서 직접적인 선례를 찾기 힘든 독자적인 서사 양식을 만들어냈다. 이 문체는 이후 그의 이름을 딴 '카프카적(Kafkaesque)'이라는 용어로 불리게 되었으며, 이는 그 문체가 오늘날까지 이어지는 비평적 인정과 용어로서의 유산을 남겼다는 사실로 뒷받침된다.",
+  "franz-kafka.achievement.2":
+    "보헤미아 왕국 노동자 재해보험공사에서 보낸 14년(1908–1922)의 재직 기간 동안, 그는 말단 사무원에서 선임 법률 서기로 승진했다 — 1913년 기준 263명 중 유대인 직원이 단 둘뿐이었던 이 기관에서 맡은 힘겨운 자리였다 — 그러면서도 같은 기간 내내 밤마다 이어간 집중적인 개인 글쓰기를 병행했다.",
+  "franz-kafka.achievement.3":
+    "이 공사에서 그는 기업들을 산업재해 위험 수준에 따라 분류하는 위험등급 체계를 설계하고 산업안전 규정을 입안했다 — 문학적 명성과는 완전히 별개의 이 직무는 유럽에서 가장 산업화가 진전된 지역 중 한 곳에서 산업재해를 실질적으로 줄인 것으로 기록되어 있다.",
+  "franz-kafka.moment.1":
+    "카프카는 친구 막스 브로트에게 자신이 세상을 떠난 뒤 미완성으로 남긴 원고들 — 소설 『소송』, 『성』, 『아메리카』를 포함해 — 을 태워달라고 부탁했다. 브로트는 이를 따르지 않았고, 세 작품 모두 사후에 출간되었다.",
+  "franz-kafka.moment.2":
+    "펠리체 바우어에게 보낸 편지들은 평범한 가정생활에 대한 바람과 홀로 글을 쓸 시간에 대한 필요 사이의 지속적이고 명시적인 갈등을 담고 있다 — 이 갈등은 결국 그녀와의 두 차례 약혼을 모두 파혼으로 이끌었다.",
+  "franz-kafka.moment.3":
+    "그 자신의 편지와 일기, 그리고 막스 브로트를 비롯한 동시대인들의 증언은 한결같이 그를 사적인 관계에서 사회적으로 불안하고 자신에 대한 확신이 부족한 인물로 그린다 — 이는 그의 문학적 명성에서 유추한 것이 아니라 이 같은 기록된 패턴에서 직접 도출한, 있는 그대로의 낮은 점수다.",
+  "franz-kafka.interpretation.moment.1":
+    "단순한 통상적 퇴고로는 이 상황을 다 설명하지 못한다 — 거의 모든 것을 없애고 싶어 했다는 사실은 프로필의 양면적인 완벽주의(perfectionism) 점수가 가리키는 바에 더 가깝다.",
+  "franz-kafka.interpretation.moment.2":
+    "프로필의 자율성 욕구(autonomy_need) 점수에 비추어 보면, 이는 결혼 자체에 대한 막연한 망설임이 아니다 — 그 자신의 편지는 결혼이 앗아갈 구체적인 대가를 스스로 명시하고 있다.",
+
+  /* -------------------------------------------------- Batch 3: V. van Gogh */
+  "vincent-van-gogh.achievement.1":
+    "그는 주로 동생 테오에게 보낸 거의 900통에 이르는 편지를 남겼는데, 이는 색채 관계와 구도에 대한 그의 치밀한 사고를 직접 보여주며, 여기에 2,000점이 넘는 남아 있는 작품이 더해진다 — 두터운 임파스토와 과감한 색채 선택에 기반한 이 독자적인 화풍은 당대의 아카데미적 관습이나 인상주의 관습과는 뚜렷이 다른 것이었다.",
+  "vincent-van-gogh.achievement.2":
+    "아를과 생레미에서 보낸 생애 마지막 약 15개월 동안만 그는 약 200점의 그림을 그렸으며, 그 가운데 일부는 단 한 번의 작업 시간이나 하루 만에 완성된 것으로 기록되어 있다.",
+  "vincent-van-gogh.achievement.3":
+    "생전에 그림을 한두 점밖에 팔지 못했다고 기록될 만큼 상업적 성공을 거의 전혀 거두지 못했음에도, 그는 약 10년에 걸쳐 높은 생산성을 유지했다 — 이는 성공이나 보상에 이끌린 작업이라는 해석에 반하는 근거다.",
+  "vincent-van-gogh.moment.1":
+    "아를에서 화가 폴 고갱과 함께 작업실을 공유하려 한 시도 — 공동 예술가 마을의 씨앗으로 삼고자 그가 직접 고갱을 초대해 시작한 이른바 '노란 집' 시기 — 는 약 두 달 만에 잘 알려진 파국으로 끝났다.",
+  "vincent-van-gogh.moment.2":
+    "그는 일본 우키요에 판화를 폭넓게 수집하고 연구했으며, 그 평면적인 원근법과 대담한 윤곽선을 자신의 구도에 직접 반영했다 — 이는 그의 그림 작업을 넘어서는, 기록으로 남은 관심사였다.",
+  "vincent-van-gogh.moment.3":
+    "그는 자신만의 독립된 작업 공간을 확보하기 위해 특별히 아를로 이주했으며, 그의 편지는 이를 상황에 떠밀린 것이 아니라 창작의 독립을 위한 의도적인 선택으로 묘사한다.",
+  "vincent-van-gogh.turning_point.1":
+    "27세에, 미술상, 교사, 평신도 설교자 등 그 이전의 여러 관습적인 길을 떠난 뒤 — 화가로서 검증된 재능이 전혀 없는 상태에서 — 그는 전업 화가의 길을 택했으며, 동생 테오의 재정적 지원에 힘입어 이 전환을 감행할 수 있었다.",
+  "vincent-van-gogh.interpretation.moment.1":
+    "프로필의 협업 성향(collaboration) 점수는 이 한 차례 작업실 공유 시도의 기록된 결과만을 좁게 반영한 것이지, 그가 사람들과 전반적으로 어떻게 지냈는지에 대한 폭넓은 판단은 아니다.",
+  "vincent-van-gogh.interpretation.moment.3":
+    "프로필의 자율성 욕구(autonomy_need) 점수와 관련해 주목할 점은, 그 작업실이 우연히 머물게 된 곳이 아니라 그의 편지가 직접 밝히듯 스스로 찾아 나선 공간이었다는 사실이다.",
+  "vincent-van-gogh.interpretation.turning_point.1":
+    "프로필의 위험 감수(risk_tolerance) 점수는 이 한 차례의, 비교적 늦은 나이에 내린 결정에 근거를 둔 것이지, 그의 삶 전체를 관통하는 위험 성향에 대한 일반적인 주장은 아니다.",
+
+  /* -------------------------------------------------- Batch 3: T. Aquinas */
+  "thomas-aquinas.achievement.1":
+    "『신학대전』은 그리스도교 신학과 아리스토텔레스 철학 전체를 하나의 정합적인 구조적 틀 안에 조직했으며, 수천 개에 이르는 개별 항목 전반에 걸쳐 질문-반론-답변이라는 일관된 방법을 적용했다 — 이는 현존하는 텍스트 자체의 구성에서 직접 확인할 수 있는 사실이다.",
+  "thomas-aquinas.achievement.2":
+    "그는 가르치고 여행하는 와중에도 약 20년의 재직 기간 안에 이 방대한 분량의 저작을 완성했는데, 여러 명의 필경사에게 서로 다른 저작을 동시에 구술하는 방법을 사용했다는 기록이 남아 있다.",
+  "thomas-aquinas.achievement.3":
+    "일부 교회 당국의 반대에도 새로 번역되어 논쟁적이었던 '이교도' 아리스토텔레스 철학을 그리스도교 신학에 통합했다. 그의 사후 몇 년 뒤인 1277년, 토마스주의의 여러 명제가 파리 주교에 의해 공식적으로 단죄되었다.",
+  "thomas-aquinas.moment.1":
+    "널리 반복되어 전해지는 이야기에 따르면, 그는 한 왕실 만찬 자리에서 사색에 깊이 몰입한 나머지 신학적 문제 하나를 막 풀어낸 순간 좌중을 의식하지 못한 채 식탁을 내려쳤다고 한다 — 이는 여러 독립적으로 확인된 일화 중 하나라기보다, 자주 인용되는 하나의 구체적인 일화다.",
+  "thomas-aquinas.moment.2":
+    "그는 조용하고 내성적인 태도 때문에 동료 학생들 사이에서 '벙어리 소'라는 별명으로 널리 알려져 있었다 — 당시 그의 스승 알베르투스 마그누스가 그를 두둔하며 훗날 그의 명성을 예견했다고 전해진다.",
+  "thomas-aquinas.turning_point.1":
+    "널리 전해지는 이야기에 따르면, 1273년 12월 6일 미사 중 신비 체험을 한 뒤 그는 집필을 멈추었고, 자신이 그동안 써온 모든 것이 자신이 목격한 것에 비하면 지푸라기처럼 여겨진다고 비서에게 말했다고 한다. 그는 이후 『신학대전』으로 다시 돌아가지 않았고, 그 저작은 넉 달 뒤 그가 세상을 떠날 때까지 미완성으로 남았다.",
+  "thomas-aquinas.interpretation.achievement.3":
+    "프로필의 독립적 사고(independent_thinking) 점수는 이 입장이 그에게 치른 대가 — 결코 밖으로 드러내지 않은 사적인 이견 정도가 아니라 공식적인 사후 단죄 — 를 통해 읽어볼 가치가 있다.",
+  "thomas-aquinas.interpretation.turning_point.1":
+    "이는 프로필의 높은 숙련 지향(mastery_orientation) 점수를 단순히 확인해 주기보다 오히려 복잡하게 만든다 — 그 자신의 전언에 따르면, 그 작업이 멈춘 것은 완성되었기 때문이 아니라 그 일 전체가 더 이상 중요하지 않게 여겨졌기 때문이었다.",
+
+  /* -------------------------------------------------- Batch 3: Maimonides */
+  "maimonides.achievement.1":
+    "『미슈네 토라』는 유대 종교법 전체를 열네 권에 걸쳐 하나의 정합적이고 주제별로 체계화된 법전으로 조직했다 — 이는 전례 없는 조직화 작업으로, 현존하는 텍스트에서 직접 확인할 수 있다.",
+  "maimonides.achievement.2":
+    "그는 종교법(『미슈네 토라』), 철학(아리스토텔레스적 합리주의와 유대 신학을 조화시킨 『방황하는 자들을 위한 안내서』), 그리고 궁정 의사로 활동하며 여러 의학 논고를 남긴 의학이라는 세 개의 서로 다른 영역에서 실질적인 성취를 지속했다.",
+  "maimonides.achievement.3":
+    "그는 살라딘의 재상 알카디 알파딜의 주치의이자 푸스타트 유대인 공동체의 지도자(나기드)로 활동하며, 자신의 학문을 공적인 의료와 공동체 봉사에 직접 적용했다.",
+  "maimonides.moment.1":
+    "그 자신이 남긴, 자신의 일과를 묘사한 편지에 따르면, 그는 궁정에서 벅찬 일상 진료를 계속하는 동시에 주요 학문 저술도 이어갔다.",
+  "maimonides.moment.2":
+    "그는 왕실이나 공동체의 위촉 없이 『미슈네 토라』 편찬을 스스로 시작했다 — 『스탠퍼드 철학 백과사전』이 전하는 이 저작의 유래에 따르면, 이는 온전히 그 자신의 독자적인 기획이었다.",
+  "maimonides.turning_point.1":
+    "그는 알모하드 왕조의 종교 박해를 피해 코르도바를 떠났고, 페스와 팔레스타인을 거치는 몇 년간의 유랑 끝에 결국 이집트 푸스타트에 정착해 그곳에서 의학과 학문 양쪽의 경력을 다시 일으켜 세웠다.",
+  "maimonides.interpretation.moment.2":
+    "누구도 이 일을 위촉하지 않았다 — 이는 프로필의 선제적 행동력(proactive_agency) 점수가 가리키는 바에 거의 정확히 들어맞는다.",
+  "maimonides.interpretation.turning_point.1":
+    "프로필의 자원 활용 성향(resourcefulness) 점수는 이 사연에 대체로 잘 들어맞지만, 남아 있는 기록은 그가 정확히 어떻게 다시 일어섰는지보다 결국 어디에 이르렀는지를 더 온전히 전하고 있다.",
+
+  /* -------------------------------------------------- Batch 3: Sequoyah */
+  "sequoyah.achievement.1":
+    "그는 영어를 포함해 기존의 어떤 문자도 읽을 줄 몰랐음에도 체로키어를 위한 완전한 85자 문자 체계, 즉 체로키 음절문자를 홀로 만들어냈다 — 이는 한 개인이 독자적으로 기능하는 문자 체계를 고안해 낸, 역사적으로 매우 드문 사례 가운데 하나로 기록되어 있다.",
+  "sequoyah.achievement.2":
+    "그는 자신이 속한 공동체 내부에서 회의와 심지어 주술 혐의까지 제기되는 가운데서도 이를 견뎌내며, 이 음절문자를 개발하는 데 약 12년을 들였다.",
+  "sequoyah.achievement.3":
+    "그는 체로키 부족이 자신들만의 문자 소통 수단을 가지고 언어를 보존할 수 있도록 하려는 명확한 목적을 가지고 이 음절문자를 추진했다. 완성된 체계는 이후 체로키 네이션의 공식 문자로 채택되었다.",
+  "sequoyah.moment.1":
+    "그는 음절문자를 개발하는 동안 자신이 속한 공동체 내부에서 주술을 부린다는 혐의를 받은 것으로 기록되어 있다 — 실제적인 사회적 위험이었음에도 그는 이 작업을 포기하지 않고 계속해 나갔다.",
+  "sequoyah.moment.2":
+    "그는 처음에 완전한 표어문자 체계를 시도했다가 실패한 뒤, 최종적으로 성공을 거둔 음절 방식으로 방향을 바꾸는 등 반복적인 시행착오를 거쳐 음절문자의 방법론을 완성해 나갔다.",
+  "sequoyah.turning_point.1":
+    "전해지는 바에 따르면 유럽인 정착민들이 문자를 사용하는 모습을 지켜본 뒤, 그는 체로키어를 위한 그 어떤 공식적인 제도적 노력도 존재하지 않던 시기에 문자 언어가 체로키 부족에게 가져다줄 수 있는 변혁적 가능성을 알아차렸다.",
+  "sequoyah.interpretation.moment.2":
+    "이는 그의 전체 생애에서 짐작할 수 있는 것보다 더 좁은 의미에서의 프로필의 적응력(adaptability) 점수를 보여준다 — 일반적인 유연함이 아니라, 실패로 드러난 특정 방법 하나를 스스로 수정한 사례다.",
+  "sequoyah.interpretation.turning_point.1":
+    "프로필의 기회 감지(opportunity_sensing) 점수는 바로 이 한 번의 관찰에서 비롯되며, 이는 체로키어를 위한 그 어떤 제도적 노력도 존재하기 전에 이루어진 것이다.",
+
+  /* -------------------------------------------------- Batch 3: Sojourner Truth */
+  "sojourner-truth.achievement.1":
+    "1828년, 그는 불법으로 팔려간 아들을 되찾기 위해 백인 남성을 상대로 소송을 제기해 승소했다 — 당시 흑인 여성으로서는 극히 이례적인, 법정 기록으로 남은 구체적인 사건이다.",
+  "sojourner-truth.achievement.2":
+    "그는 수십 년에 걸쳐 노예제 폐지 운동과 여성 참정권 운동 진영에서 즉흥 연설을 요청받는 전국적인 연설가가 되었다. 여러 독립적인 목격담이 그의 뛰어난 웅변을 뒷받침하지만, 그의 가장 유명한 연설의 정확한 문구는 역사학자들 사이에서 별도로 논쟁의 대상이 되고 있다 — 여기서 기록으로 확인되는 것은 어느 한 편 논쟁적인 필사본이 아니라 그 지속적인 연설 활동 자체다.",
+  "sojourner-truth.achievement.3":
+    "그는 노예 해방이 이미 이루어지고도 수십 년이 지난 뒤, 80대에 이르러서도 순회 강연과 연설을 계속했다.",
+  "sojourner-truth.moment.1":
+    "1843년, 그는 이사벨라 바움프리라는 이름을 버리고 소저너 트루스로 스스로 개명했으며, 이 새 이름을 물려받은 정체성이 아니라 자신이 직접 선택한 영적·정치적 사명으로 명시적으로 규정했다.",
+  "sojourner-truth.moment.2":
+    "그는 자신의 초상 사진 명함을 '나는 실체를 지탱하기 위해 그림자를 판다'는 문구와 함께 판매했는데, 이는 자신의 활동 자금을 마련하기 위해 스스로 고안한, 기록으로 남은 방법이었다.",
+  "sojourner-truth.turning_point.1":
+    "1826년, 그는 뉴욕주의 점진적 노예해방법이 이듬해 발효되기를 기다리지 않고, 갓난 딸을 데리고 노예주를 떠나 자유를 찾아 나서기로 한 결정을 기록으로 남겼다.",
+  "sojourner-truth.interpretation.moment.1":
+    "새 이름을 선택하는 것과, 그것을 물려받은 것이 아니라 스스로 선택한 사명으로 명시적으로 규정한 것은 별개의 일이다 — 프로필의 독립적 사고(independent_thinking) 점수는 후자를 포착하고 있다.",
+  "sojourner-truth.interpretation.turning_point.1":
+    "프로필의 결단력(decisiveness) 점수는 이후 더 잘 알려진 공적 활동과는 별개로, 법이 따라잡기를 기다리지 않기로 한 이 하나의, 날짜가 분명한 선택에 근거를 두고 있다.",
+
+  /* -------------------------------------------------- Batch 3: B. R. Ambedkar */
+  "br-ambedkar.achievement.1":
+    "그는 기초적인 교육 접근조차 심각하게 제한받던 카스트 출신이었음에도 컬럼비아 대학교와 런던 정치경제대학교에서 복수의 박사 학위를 취득했고, 이후 인도 헌법 초안을 작성한 위원회의 의장을 맡았다.",
+  "br-ambedkar.achievement.2":
+    "헌법 기초위원회 의장으로서 그는 기본권, 연방 구조, 사회 개혁 조항을 통합한 포괄적인 틀을 구축했으며, 이와 별개로 독립노동당과 지정카스트연맹을 비롯한 여러 정치·사회 조직을 창설했다.",
+  "br-ambedkar.achievement.3":
+    "그는 경제학(『루피 문제』를 비롯한 박사 논문), 법학(헌법 기초 작업), 그리고 사회·종교 개혁(불교 개종과 카스트에 관한 저술)에 걸쳐 실질적인 저작을 남겼다.",
+  "br-ambedkar.moment.1":
+    "그는 1927년 공공 용수 접근권을 요구하는 마하드 사티아그라하를 조직했고, 이후 항의의 뜻으로 마누법전을 공개적으로 불태웠다 — 그의 경력 전반에 걸쳐 카스트 제도의 제도적 옹호자들과 지속적으로 직접 맞선 사례들이다.",
+  "br-ambedkar.moment.2":
+    "그는 기초 교육에조차 심각한 제도적 장벽이 있던 카스트 출신이었음에도 컬럼비아 대학교와 런던 정치경제대학교라는 최고 수준의 국제 교육에 필요한 자금과 접근권을 확보했다.",
+  "br-ambedkar.turning_point.1":
+    "1932년 공동체별 선거구 배정을 둘러싼 논쟁에서, 암베드카르는 불가촉천민을 위한 별도 선거구 문제로 간디와 공개적으로 결정적인 결별을 했고, 결국 간디의 입장을 그대로 받아들이는 대신 푸나 협약을 이끌어냈다 — 이는 당대의 지배적인 민족주의 지도부와의 기록된 균열이었으며, 이후 그가 불가촉천민 권리를 대변하는 독자적인 정치 세력으로 자리매김하는 계기가 되었다.",
+  "br-ambedkar.interpretation.moment.1":
+    "프로필의 갈등 감내(conflict_tolerance) 점수는 여기서 단발적인 저항 행위 하나가 아니라, 구체적으로 특정할 수 있는 여러 사건에 걸쳐 반복된 전략을 나타낸다.",
+  "br-ambedkar.interpretation.turning_point.1":
+    "간디만큼의 위상을 지닌 인물과 대립하는 것은 그보다 낮은 위험 부담의 이견보다 프로필의 독립적 사고(independent_thinking) 점수에 더 무거운 증거가 된다.",
+
+  /* -------------------------------------------------- Batch 3: K. Johnson */
+  "katherine-johnson.achievement.1":
+    "그는 앨런 셰퍼드의 1961년 비행 궤도를 수작업으로 계산했고, 존 글렌이 1962년 궤도 비행에 나서기 전 글렌 본인의 요청으로 그 궤도 계산을 직접 검증했다 — 실제 임무 결과와 직결된, 구체적으로 기록된 계산이다.",
+  "katherine-johnson.achievement.2":
+    "그는 미국항공자문위원회(NACA)와 NASA에서 1953년부터 1986년까지 33년에 걸친 경력을 이어가며, 인종 분리가 이루어지다가 점차 통합되어 간 직장 환경 속에서 머큐리, 아폴로, 스페이스 셔틀 계획을 모두 거쳤다.",
+  "katherine-johnson.achievement.3":
+    "그는 궤도 궤적을 계산하기 위한 새로운 해석 기하학 기법을 개척하여, 기존의 수학적 방법을 완전히 새로운 우주비행이라는 맥락에 맞게 응용했다.",
+  "katherine-johnson.moment.1":
+    "그는 초대받기를 기다리는 대신, 그동안 남성으로만 구성되었던 비행연구부의 편집 회의에 자신을 포함시켜 달라고 먼저 요청했다.",
+  "katherine-johnson.moment.2":
+    "그는 웨스트버지니아주의 인종 분리 학교 제도 속에서도 어릴 때부터 이어진 수학에 대한 관심을 바탕으로 빠르게 나아가, 14세에 고등학교를, 18세에 대학을 마쳤다.",
+  "katherine-johnson.moment.3":
+    "그는 NASA 경력 전반에 걸쳐 공식적인 팀 지도자 역할보다는 개인 기술 기여자로서의 활동이 주로 기록되어 있다 — 이는 그의 폭넓은 대중적 명성에서 짐작한 것이 아니라, 있는 그대로 구체적으로 낮게 매겨진 정직한 결과다.",
+  "katherine-johnson.interpretation.moment.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수는 이 사례에서 거의 문자 그대로 들어맞는다 — 그는 그 자리에 초대받은 것이 아니라, 스스로 요청해 들어간 것이다.",
+
+  /* -------------------------------------------------- Batch 3: Muhammad Ali */
+  "muhammad-ali.achievement.1":
+    "그는 조 프레이저와 조지 포먼을 포함한 최상위 라이벌들에게 어려운 상대를 피하지 않고 거듭 재대결을 청했던 3회 헤비급 챔피언이었으며, 3년 반의 출전 정지 이후에도 복싱계에 복귀해 타이틀을 두 차례 더 되찾았다.",
+  "muhammad-ali.achievement.2":
+    "그는 수십 년에 걸친 인터뷰와 기자회견 기록을 통해, 직접적이고 공개적이며 때로는 의도적으로 도발적인 자기 홍보와 경기 전 상대를 향한 심리전 전술로 폭넓게 기록되어 있다.",
+  "muhammad-ali.achievement.3":
+    "그는 경력 전반에 걸쳐 링 안에서의 스타일을 크게 바꾸었다 — 초기의 스피드 위주 복싱에서, 나이가 든 뒤 포먼을 상대할 때 사용한 '로프 어 도프' 전략으로의 변화는 복싱 역사 분석을 통해 기록되어 있다.",
+  "muhammad-ali.moment.1":
+    "그는 1964년 이슬람으로 개종하며 이름을 캐시어스 클레이에서 바꾸었고, 이후 병역 징집을 거부하는 입장을 취했다 — 두 가지 모두 당시 거의 만장일치에 가까웠던 여론과 언론의 비난에 정면으로 맞선 것이었다.",
+  "muhammad-ali.moment.2":
+    "그는 후반기 경력의 활동과 공개 발언들을 개인적인 복싱 유산이 아니라 더 폭넓은 시민권과 종교적 정체성의 문제로 명시적으로 규정했다.",
+  "muhammad-ali.turning_point.1":
+    "1967년, 그는 종교적 신념을 이유로 미군 징집을 공개적으로 거부했고, 그 결과 복싱 자격과 헤비급 타이틀을 박탈당했으며 훗날 뒤집힌 중범죄 유죄판결까지 받았다 — 이는 그의 운동 경력이 절정에 달했던 시점의 일이었다. 그는 입장을 번복하는 대신 여러 해에 걸친 법정 다툼과 전체 출전 정지 기간을 그대로 견뎌냈다.",
+  "muhammad-ali.interpretation.moment.1":
+    "당대의 지배적인 여론에 맞선, 시기가 분명한 두 차례의 공개적인 입장은 그중 하나만 있을 때보다 프로필의 독립적 사고(independent_thinking) 점수에 더 무거운 근거가 된다.",
+  "muhammad-ali.interpretation.turning_point.1":
+    "이는 편안한 태도가 아니라 실제로 치른, 시기가 분명한 대가다 — 전성기에 타이틀과 생계 수단을 잃은 것이야말로 프로필의 위험 감수(risk_tolerance) 점수가 실제로 반영하고 있는 대가다.",
+
+  /* -------------------------------------------------- Batch 3: M. Wollstonecraft */
+  "mary-wollstonecraft.achievement.1":
+    "1792년 『여성의 권리 옹호』는 루소를 포함해 여성의 교육과 이성적 능력에 관한 당대 계몽주의의 지배적 통념에 정면으로 맞섰으며, 막연한 반론이 아니라 체계적이고 지속적인 철학적 반박을 구축했다.",
+  "mary-wollstonecraft.achievement.2":
+    "그는 자신의 학교를 세웠고, 이후에는 당시 여성에게는 통상적으로 열려 있지 않았던 길인 전업 작가 활동만으로 스스로 생계를 꾸렸다.",
+  "mary-wollstonecraft.achievement.3":
+    "그는 정치철학(『여성의 권리 옹호』), 기행문(『스웨덴에서 보낸 편지』), 소설, 교육 이론에 걸쳐 실질적인 저작을 남겼다.",
+  "mary-wollstonecraft.moment.1":
+    "그는 1792년 당시 여성에게는 과격하고 평판을 해칠 만한 것으로 널리 여겨지던 주장을 자신의 이름으로 공개적으로 출간했고, 그 시대 여성으로서는 이례적이고 낙인이 따르던 방식으로 결혼하지 않은 채 독립적으로, 스스로 생계를 꾸리며 살았다.",
+  "mary-wollstonecraft.moment.2":
+    "윌리엄 고드윈의 기록에 따르면, 『여성의 권리 옹호』는 집중적인 집필이 이어진 약 6주라는 짧고 강도 높은 기간 동안 쓰였다.",
+  "mary-wollstonecraft.moment.3":
+    "그의 공개적인 지적 입장은 당대에 상당한 비판을 불러일으켰고, 이 비판은 그의 사후 남편 윌리엄 고드윈이 펴낸 회고록이 그의 사생활에 관한 세부 사실을 공개하면서 오히려 더 거세졌으며, 이는 당대 많은 독자에게 충격을 안겼다.",
+  "mary-wollstonecraft.interpretation.achievement.1":
+    "프로필의 독립적 사고(independent_thinking) 점수가 여기서 포착하는 것은 막연한 불만이 아니라, 특정한 계몽주의 권위자들을 명시적으로 겨냥한 체계적인 반박이다.",
+  "mary-wollstonecraft.interpretation.moment.3":
+    "프로필의 갈등 감내(conflict_tolerance) 점수는 그가 살아서 맞설 수 있었던 압박뿐 아니라, 사후에 오히려 더 깊어진 비판까지도 함께 설명해야 한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

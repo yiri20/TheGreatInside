@@ -808,4 +808,272 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  "franz-kafka": {
+    achievements: [
+      { id: "franz-kafka-achievement-1", textKey: "franz-kafka.achievement.1", sourceIds: ["src_kafka_wikipedia"] },
+      { id: "franz-kafka-achievement-2", textKey: "franz-kafka.achievement.2", sourceIds: ["src_kafka_museum"] },
+      { id: "franz-kafka-achievement-3", textKey: "franz-kafka.achievement.3", sourceIds: ["src_kafka_museum"] },
+    ],
+    moments: [
+      {
+        id: "franz-kafka-moment-1",
+        textKey: "franz-kafka.moment.1",
+        interpretationKey: "franz-kafka.interpretation.moment.1",
+        attributeId: "perfectionism",
+        sourceIds: ["src_kafka_letters", "src_kafka_wikipedia"],
+      },
+      {
+        id: "franz-kafka-moment-2",
+        textKey: "franz-kafka.moment.2",
+        interpretationKey: "franz-kafka.interpretation.moment.2",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_kafka_letters"],
+      },
+      { id: "franz-kafka-moment-3", textKey: "franz-kafka.moment.3", sourceIds: ["src_kafka_letters", "src_kafka_wikipedia"] },
+    ],
+    turningPoints: [],
+  },
+
+  "vincent-van-gogh": {
+    achievements: [
+      { id: "vincent-van-gogh-achievement-1", textKey: "vincent-van-gogh.achievement.1", sourceIds: ["src_vangogh_letters"] },
+      { id: "vincent-van-gogh-achievement-2", textKey: "vincent-van-gogh.achievement.2", sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"] },
+      { id: "vincent-van-gogh-achievement-3", textKey: "vincent-van-gogh.achievement.3", sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "vincent-van-gogh-moment-1",
+        textKey: "vincent-van-gogh.moment.1",
+        interpretationKey: "vincent-van-gogh.interpretation.moment.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"],
+      },
+      { id: "vincent-van-gogh-moment-2", textKey: "vincent-van-gogh.moment.2", sourceIds: ["src_vangogh_wikipedia"] },
+      {
+        id: "vincent-van-gogh-moment-3",
+        textKey: "vincent-van-gogh.moment.3",
+        interpretationKey: "vincent-van-gogh.interpretation.moment.3",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_vangogh_letters"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "vincent-van-gogh-turning-point-1",
+        textKey: "vincent-van-gogh.turning_point.1",
+        interpretationKey: "vincent-van-gogh.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"],
+      },
+    ],
+  },
+
+  "thomas-aquinas": {
+    achievements: [
+      { id: "thomas-aquinas-achievement-1", textKey: "thomas-aquinas.achievement.1", sourceIds: ["src_aquinas_wikipedia"] },
+      { id: "thomas-aquinas-achievement-2", textKey: "thomas-aquinas.achievement.2", sourceIds: ["src_aquinas_wikipedia"] },
+      {
+        id: "thomas-aquinas-achievement-3",
+        textKey: "thomas-aquinas.achievement.3",
+        interpretationKey: "thomas-aquinas.interpretation.achievement.3",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_aquinas_sep", "src_aquinas_wikipedia"],
+      },
+    ],
+    moments: [
+      { id: "thomas-aquinas-moment-1", textKey: "thomas-aquinas.moment.1", sourceIds: ["src_aquinas_sep"] },
+      { id: "thomas-aquinas-moment-2", textKey: "thomas-aquinas.moment.2", sourceIds: ["src_aquinas_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "thomas-aquinas-turning-point-1",
+        textKey: "thomas-aquinas.turning_point.1",
+        interpretationKey: "thomas-aquinas.interpretation.turning_point.1",
+        attributeId: "mastery_orientation",
+        sourceIds: ["src_aquinas_wikipedia", "src_aquinas_sep"],
+      },
+    ],
+  },
+
+  maimonides: {
+    achievements: [
+      { id: "maimonides-achievement-1", textKey: "maimonides.achievement.1", sourceIds: ["src_maimonides_wikipedia"] },
+      { id: "maimonides-achievement-2", textKey: "maimonides.achievement.2", sourceIds: ["src_maimonides_wikipedia", "src_maimonides_sep"] },
+      { id: "maimonides-achievement-3", textKey: "maimonides.achievement.3", sourceIds: ["src_maimonides_wikipedia"] },
+    ],
+    moments: [
+      { id: "maimonides-moment-1", textKey: "maimonides.moment.1", sourceIds: ["src_maimonides_wikipedia"] },
+      {
+        id: "maimonides-moment-2",
+        textKey: "maimonides.moment.2",
+        interpretationKey: "maimonides.interpretation.moment.2",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_maimonides_sep"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "maimonides-turning-point-1",
+        textKey: "maimonides.turning_point.1",
+        interpretationKey: "maimonides.interpretation.turning_point.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_maimonides_wikipedia"],
+      },
+    ],
+  },
+
+  sequoyah: {
+    achievements: [
+      { id: "sequoyah-achievement-1", textKey: "sequoyah.achievement.1", sourceIds: ["src_sequoyah_wikipedia"] },
+      { id: "sequoyah-achievement-2", textKey: "sequoyah.achievement.2", sourceIds: ["src_sequoyah_cherokee_nation", "src_sequoyah_wikipedia"] },
+      { id: "sequoyah-achievement-3", textKey: "sequoyah.achievement.3", sourceIds: ["src_sequoyah_cherokee_nation"] },
+    ],
+    moments: [
+      { id: "sequoyah-moment-1", textKey: "sequoyah.moment.1", sourceIds: ["src_sequoyah_wikipedia"] },
+      {
+        id: "sequoyah-moment-2",
+        textKey: "sequoyah.moment.2",
+        interpretationKey: "sequoyah.interpretation.moment.2",
+        attributeId: "adaptability",
+        sourceIds: ["src_sequoyah_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "sequoyah-turning-point-1",
+        textKey: "sequoyah.turning_point.1",
+        interpretationKey: "sequoyah.interpretation.turning_point.1",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_sequoyah_cherokee_nation", "src_sequoyah_wikipedia"],
+      },
+    ],
+  },
+
+  "sojourner-truth": {
+    achievements: [
+      { id: "sojourner-truth-achievement-1", textKey: "sojourner-truth.achievement.1", sourceIds: ["src_truth_wikipedia"] },
+      { id: "sojourner-truth-achievement-2", textKey: "sojourner-truth.achievement.2", sourceIds: ["src_truth_painter"] },
+      { id: "sojourner-truth-achievement-3", textKey: "sojourner-truth.achievement.3", sourceIds: ["src_truth_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "sojourner-truth-moment-1",
+        textKey: "sojourner-truth.moment.1",
+        interpretationKey: "sojourner-truth.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_truth_narrative", "src_truth_wikipedia"],
+      },
+      { id: "sojourner-truth-moment-2", textKey: "sojourner-truth.moment.2", sourceIds: ["src_truth_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "sojourner-truth-turning-point-1",
+        textKey: "sojourner-truth.turning_point.1",
+        interpretationKey: "sojourner-truth.interpretation.turning_point.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_truth_narrative", "src_truth_wikipedia"],
+      },
+    ],
+  },
+
+  "br-ambedkar": {
+    achievements: [
+      { id: "br-ambedkar-achievement-1", textKey: "br-ambedkar.achievement.1", sourceIds: ["src_ambedkar_wikipedia"] },
+      { id: "br-ambedkar-achievement-2", textKey: "br-ambedkar.achievement.2", sourceIds: ["src_ambedkar_wikipedia", "src_ambedkar_keer"] },
+      { id: "br-ambedkar-achievement-3", textKey: "br-ambedkar.achievement.3", sourceIds: ["src_ambedkar_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "br-ambedkar-moment-1",
+        textKey: "br-ambedkar.moment.1",
+        interpretationKey: "br-ambedkar.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_ambedkar_wikipedia", "src_ambedkar_keer"],
+      },
+      { id: "br-ambedkar-moment-2", textKey: "br-ambedkar.moment.2", sourceIds: ["src_ambedkar_keer"] },
+    ],
+    turningPoints: [
+      {
+        id: "br-ambedkar-turning-point-1",
+        textKey: "br-ambedkar.turning_point.1",
+        interpretationKey: "br-ambedkar.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_ambedkar_wikipedia", "src_ambedkar_keer"],
+      },
+    ],
+  },
+
+  "katherine-johnson": {
+    achievements: [
+      { id: "katherine-johnson-achievement-1", textKey: "katherine-johnson.achievement.1", sourceIds: ["src_johnson_nasa", "src_johnson_shetterly"] },
+      { id: "katherine-johnson-achievement-2", textKey: "katherine-johnson.achievement.2", sourceIds: ["src_johnson_wikipedia"] },
+      { id: "katherine-johnson-achievement-3", textKey: "katherine-johnson.achievement.3", sourceIds: ["src_johnson_nasa"] },
+    ],
+    moments: [
+      {
+        id: "katherine-johnson-moment-1",
+        textKey: "katherine-johnson.moment.1",
+        interpretationKey: "katherine-johnson.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_johnson_nasa", "src_johnson_shetterly"],
+      },
+      { id: "katherine-johnson-moment-2", textKey: "katherine-johnson.moment.2", sourceIds: ["src_johnson_nasa"] },
+      { id: "katherine-johnson-moment-3", textKey: "katherine-johnson.moment.3", sourceIds: ["src_johnson_wikipedia"] },
+    ],
+    turningPoints: [],
+  },
+
+  "muhammad-ali": {
+    achievements: [
+      { id: "muhammad-ali-achievement-1", textKey: "muhammad-ali.achievement.1", sourceIds: ["src_ali_wikipedia"] },
+      { id: "muhammad-ali-achievement-2", textKey: "muhammad-ali.achievement.2", sourceIds: ["src_ali_center", "src_ali_autobiography"] },
+      { id: "muhammad-ali-achievement-3", textKey: "muhammad-ali.achievement.3", sourceIds: ["src_ali_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "muhammad-ali-moment-1",
+        textKey: "muhammad-ali.moment.1",
+        interpretationKey: "muhammad-ali.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_ali_wikipedia", "src_ali_autobiography"],
+      },
+      { id: "muhammad-ali-moment-2", textKey: "muhammad-ali.moment.2", sourceIds: ["src_ali_autobiography"] },
+    ],
+    turningPoints: [
+      {
+        id: "muhammad-ali-turning-point-1",
+        textKey: "muhammad-ali.turning_point.1",
+        interpretationKey: "muhammad-ali.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_ali_wikipedia", "src_ali_center"],
+      },
+    ],
+  },
+
+  "mary-wollstonecraft": {
+    achievements: [
+      {
+        id: "mary-wollstonecraft-achievement-1",
+        textKey: "mary-wollstonecraft.achievement.1",
+        interpretationKey: "mary-wollstonecraft.interpretation.achievement.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_wollstonecraft_sep", "src_wollstonecraft_wikipedia"],
+      },
+      { id: "mary-wollstonecraft-achievement-2", textKey: "mary-wollstonecraft.achievement.2", sourceIds: ["src_wollstonecraft_todd"] },
+      { id: "mary-wollstonecraft-achievement-3", textKey: "mary-wollstonecraft.achievement.3", sourceIds: ["src_wollstonecraft_wikipedia"] },
+    ],
+    moments: [
+      { id: "mary-wollstonecraft-moment-1", textKey: "mary-wollstonecraft.moment.1", sourceIds: ["src_wollstonecraft_todd"] },
+      { id: "mary-wollstonecraft-moment-2", textKey: "mary-wollstonecraft.moment.2", sourceIds: ["src_wollstonecraft_todd"] },
+      {
+        id: "mary-wollstonecraft-moment-3",
+        textKey: "mary-wollstonecraft.moment.3",
+        interpretationKey: "mary-wollstonecraft.interpretation.moment.3",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_wollstonecraft_todd"],
+      },
+    ],
+    turningPoints: [],
+  },
 };
