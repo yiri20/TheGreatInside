@@ -35,7 +35,7 @@ the real, committed roster.
    memory QIDs were wrong, most pointing at unrelated entities (a German
    town, a botanical species, a calendar year, an amusement park) — this is
    the single most important process fix this checkpoint carries forward;
-   see `docs/roster-1000-checkpoint.md` §78 for the full incident record.
+   see `docs/archive/session-history/roster-1000-checkpoint.md` §78 for the full incident record.
 1. Create `<slug>.json` with `status: "draft"` and whatever identity fields
    are already known (name, birth/death years, region, occupation).
 2. Research sources, fill in `sources`, move to `status: "researching"`.
@@ -49,7 +49,7 @@ the real, committed roster.
    "localized"`.
 5. Research and record portrait status (`portrait.status`:
    `"found"` / `"held"` / `"rejected"` / `"not_available"`) — see Part 17 of
-   the roster-1000 brief and `docs/roster-1000-checkpoint.md` §7 for the
+   the roster-1000 brief and `docs/archive/session-history/roster-1000-checkpoint.md` §7 for the
    sourcing/verification discipline. Move to `status: "portrait_pending"`
    once attempted (portrait absence never blocks a candidate — most real
    people in this roster have none, and that's the expected, non-degraded

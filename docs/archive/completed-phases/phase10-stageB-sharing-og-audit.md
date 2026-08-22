@@ -1,3 +1,11 @@
+> **ARCHIVED — historical reference only. Do not load by default.**
+>
+> This file is preserved for provenance/traceability. For current project
+> state, see [`docs/context/CURRENT_STATE.md`](../../context/CURRENT_STATE.md).
+> For active workflows, see `docs/workflows/`, `docs/checkpoints/`, and
+> `docs/reference/`. Only open this file to resolve a specific historical
+> question this session actually needs answered.
+
 # Post-10D Stage B — Sharing UX & Open Graph Audit
 
 **Status: Stage B v1 is FORMALLY CLOSED, human visual-approved (2026-08).**

@@ -12,7 +12,7 @@ calls (`app/opengraph-image.tsx`, `app/[locale]/people/[slug]/opengraph-image.ts
 browser-oriented `.woff2` chunks (~3.28MB total, `next/font/google`'s own
 Unicode-range subsetting for lazy `@font-face` loading) — architecturally
 unusable here: wrong format, and far over budget even if reformatted. See
-`docs/phase10-stageB-sharing-og-audit.md` Section G for the full audit.
+`docs/archive/completed-phases/phase10-stageB-sharing-og-audit.md` Section G for the full audit.
 
 ## Provenance
 

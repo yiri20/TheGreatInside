@@ -116,7 +116,7 @@ Steps once that decision is made:
 ## 3. Google/Supabase OAuth — what actually needs to change for production
 
 **One precise, non-obvious point**: Google's own "Authorized redirect URI"
-(point A in `docs/phase9-provisional-checkpoint.md`'s two-callback
+(point A in `docs/archive/completed-phases/phase9-provisional-checkpoint.md`'s two-callback
 distinction) points at Supabase's own fixed callback
 (`https://<project-ref>.supabase.co/auth/v1/callback`) — this does **not**
 change between local dev and production, since it's Supabase's URL, not
@@ -264,5 +264,5 @@ Steps 1–4 can be smoke-tested on a bare `*.vercel.app` URL with zero
 Google/Supabase dashboard changes (they only need the env vars from §1).
 Step 5 onward requires the domain actually being deployed to first be
 added to Supabase's Redirect URLs (§3A) — expect it to fail with the same
-symptoms documented in `docs/phase9-provisional-checkpoint.md`'s Stage 9D
+symptoms documented in `docs/archive/completed-phases/phase9-provisional-checkpoint.md`'s Stage 9D
 record until that's done, which is expected, not a regression.

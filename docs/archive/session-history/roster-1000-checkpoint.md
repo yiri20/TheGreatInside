@@ -1,3 +1,11 @@
+> **ARCHIVED — historical reference only. Do not load by default.**
+>
+> This file is preserved for provenance/traceability. For current project
+> state, see [`docs/context/CURRENT_STATE.md`](../../context/CURRENT_STATE.md).
+> For active workflows, see `docs/workflows/`, `docs/checkpoints/`, and
+> `docs/reference/`. Only open this file to resolve a specific historical
+> question this session actually needs answered.
+
 # Roster 1,000 expansion — checkpoint
 
 **Read this file, plus `CLAUDE.md`, before doing any further roster-1000

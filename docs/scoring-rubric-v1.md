@@ -170,7 +170,7 @@ standard; it is the honest one.
 ## 9. What a completed evidence manifest entry looks like
 
 One attribute, one person, one entry — the unit the offline pipeline
-(`docs/roster-1000-checkpoint.md`) produces and a future reviewer can
+(`docs/archive/session-history/roster-1000-checkpoint.md`) produces and a future reviewer can
 audit without re-deriving the reasoning from scratch:
 
 ```
@@ -198,7 +198,7 @@ this kind of documented, reasoned score decision).
 
 ## 10. Scoring/eligibility separation and the confidence-change policy
 ## (added roster-1000 session 11, after a real threshold-driven-scoring
-## incident — see `docs/roster-1000-checkpoint.md` §75-77)
+## incident — see `docs/archive/session-history/roster-1000-checkpoint.md` §75-77)
 
 **Evidence extraction, attribute selection, `evidenceType`, `confidence`,
 and `score` must all be finalized BEFORE eligibility is evaluated.**

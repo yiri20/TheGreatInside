@@ -1,3 +1,11 @@
+> **ARCHIVED — historical reference only. Do not load by default.**
+>
+> This file is preserved for provenance/traceability. For current project
+> state, see [`docs/context/CURRENT_STATE.md`](../../context/CURRENT_STATE.md).
+> For active workflows, see `docs/workflows/`, `docs/checkpoints/`, and
+> `docs/reference/`. Only open this file to resolve a specific historical
+> question this session actually needs answered.
+
 # Phase 7 checkpoint — durable resume point (2026-08)
 
 ## Phase 7 is CLOSED (human-approved, 2026-08)

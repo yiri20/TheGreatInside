@@ -1,3 +1,11 @@
+> **ARCHIVED — historical reference only. Do not load by default.**
+>
+> This file is preserved for provenance/traceability. For current project
+> state, see [`docs/context/CURRENT_STATE.md`](../../context/CURRENT_STATE.md).
+> For active workflows, see `docs/workflows/`, `docs/checkpoints/`, and
+> `docs/reference/`. Only open this file to resolve a specific historical
+> question this session actually needs answered.
+
 # Phase 6.5B — `taxonomy_v1.1` + Quiz v2 Detailed Design Gate
 
 **Status: DESIGN-ONLY. Not implemented.** No production code was touched to

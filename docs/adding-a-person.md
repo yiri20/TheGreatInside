@@ -6,7 +6,7 @@ trait score (the four fields, confidence discipline, evidence types).
 See `CLAUDE.md`'s "Inclusion philosophy" section for whether a candidate
 belongs in the dataset at all before scoring anything. This file is the
 mechanical, "which command do I run" side, extracted from the frozen
-`Roster Research & Scoring Protocol v1` (`docs/roster-1000-checkpoint.md`
+`Roster Research & Scoring Protocol v1` (`docs/archive/session-history/roster-1000-checkpoint.md`
 §84 item 18) so it doesn't require reading an 85-section chronological
 session log to find.
 
@@ -14,7 +14,7 @@ session log to find.
 
 1. **Check the slug doesn't already exist.** Grep `src/data/people/*.ts`
    for the candidate's intended slug/canonical name before doing any
-   research — a real past incident (`docs/roster-1000-checkpoint.md`
+   research — a real past incident (`docs/archive/session-history/roster-1000-checkpoint.md`
    session 18) was catching a slug collision only after starting research
    on a person already in the roster.
 2. **Research and score the candidate** using `docs/scoring-rubric-v1.md`'s
@@ -125,7 +125,7 @@ session log to find.
 
 ## Full precedent and detailed session-by-session history
 
-`docs/roster-1000-checkpoint.md` — the narrative log every one of the
+`docs/archive/session-history/roster-1000-checkpoint.md` — the narrative log every one of the
 steps above was distilled from. Useful if you want to see a real worked
 example of a specific step (e.g. what an evidence ledger actually looks
 like, or how a past `eligibility_v2` near-miss was handled), but you
