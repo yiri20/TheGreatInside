@@ -254,4 +254,250 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // --- Tier-B backfill batch 1 (2026-08) ---
+
+  "isaac-newton": {
+    achievements: [
+      { id: "isaac-newton-achievement-1", textKey: "isaac-newton.achievement.1", sourceIds: ["src_newton_westfall"] },
+      { id: "isaac-newton-achievement-2", textKey: "isaac-newton.achievement.2", sourceIds: ["src_newton_wikipedia", "src_newton_westfall"] },
+      { id: "isaac-newton-achievement-3", textKey: "isaac-newton.achievement.3", sourceIds: ["src_newton_royalsociety"] },
+    ],
+    moments: [
+      {
+        id: "isaac-newton-moment-1",
+        textKey: "isaac-newton.moment.1",
+        interpretationKey: "isaac-newton.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_newton_westfall"],
+      },
+      {
+        id: "isaac-newton-moment-2",
+        textKey: "isaac-newton.moment.2",
+        interpretationKey: "isaac-newton.interpretation.moment.2",
+        attributeId: "collaboration",
+        sourceIds: ["src_newton_westfall", "src_newton_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "isaac-newton-turning-point-1",
+        textKey: "isaac-newton.turning_point.1",
+        interpretationKey: "isaac-newton.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_newton_westfall"],
+      },
+    ],
+  },
+
+  "harriet-tubman": {
+    achievements: [
+      { id: "harriet-tubman-achievement-1", textKey: "harriet-tubman.achievement.1", sourceIds: ["src_tubman_bradford", "src_tubman_wikipedia"] },
+      { id: "harriet-tubman-achievement-2", textKey: "harriet-tubman.achievement.2", sourceIds: ["src_tubman_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "harriet-tubman-moment-1",
+        textKey: "harriet-tubman.moment.1",
+        interpretationKey: "harriet-tubman.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_tubman_bradford"],
+      },
+      {
+        id: "harriet-tubman-moment-2",
+        textKey: "harriet-tubman.moment.2",
+        interpretationKey: "harriet-tubman.interpretation.moment.2",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_tubman_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      { id: "harriet-tubman-turning-point-1", textKey: "harriet-tubman.turning_point.1", sourceIds: ["src_tubman_bradford", "src_tubman_wikipedia"] },
+    ],
+  },
+
+  "wu-zetian": {
+    achievements: [
+      { id: "wu-zetian-achievement-1", textKey: "wu-zetian.achievement.1", sourceIds: ["src_wuzetian_wikipedia", "src_wuzetian_history"] },
+      { id: "wu-zetian-achievement-2", textKey: "wu-zetian.achievement.2", sourceIds: ["src_wuzetian_history"] },
+      { id: "wu-zetian-achievement-3", textKey: "wu-zetian.achievement.3", sourceIds: ["src_wuzetian_origins"] },
+    ],
+    moments: [
+      {
+        id: "wu-zetian-moment-1",
+        textKey: "wu-zetian.moment.1",
+        interpretationKey: "wu-zetian.interpretation.moment.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_wuzetian_history"],
+      },
+      { id: "wu-zetian-moment-2", textKey: "wu-zetian.moment.2", sourceIds: ["src_wuzetian_history", "src_wuzetian_origins"] },
+    ],
+    turningPoints: [
+      {
+        id: "wu-zetian-turning-point-1",
+        textKey: "wu-zetian.turning_point.1",
+        interpretationKey: "wu-zetian.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_wuzetian_wikipedia", "src_wuzetian_origins"],
+      },
+    ],
+  },
+
+  averroes: {
+    achievements: [
+      { id: "averroes-achievement-1", textKey: "averroes.achievement.1", sourceIds: ["src_averroes_sep"] },
+      { id: "averroes-achievement-2", textKey: "averroes.achievement.2", sourceIds: ["src_averroes_sep"] },
+      { id: "averroes-achievement-3", textKey: "averroes.achievement.3", sourceIds: ["src_averroes_wikipedia", "src_averroes_sep"] },
+    ],
+    moments: [
+      { id: "averroes-moment-1", textKey: "averroes.moment.1", sourceIds: ["src_averroes_sep"] },
+    ],
+    turningPoints: [
+      {
+        id: "averroes-turning-point-1",
+        textKey: "averroes.turning_point.1",
+        interpretationKey: "averroes.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_averroes_wikipedia", "src_averroes_sep"],
+      },
+    ],
+  },
+
+  "julius-caesar": {
+    achievements: [
+      { id: "julius-caesar-achievement-1", textKey: "julius-caesar.achievement.1", sourceIds: ["src_caesar_suetonius", "src_caesar_plutarch"] },
+      { id: "julius-caesar-achievement-2", textKey: "julius-caesar.achievement.2", sourceIds: ["src_caesar_wikipedia"] },
+      { id: "julius-caesar-achievement-3", textKey: "julius-caesar.achievement.3", sourceIds: ["src_caesar_commentaries"] },
+    ],
+    moments: [
+      { id: "julius-caesar-moment-1", textKey: "julius-caesar.moment.1", sourceIds: ["src_caesar_suetonius"] },
+      { id: "julius-caesar-moment-2", textKey: "julius-caesar.moment.2", sourceIds: ["src_caesar_suetonius"] },
+    ],
+    turningPoints: [
+      {
+        id: "julius-caesar-turning-point-1",
+        textKey: "julius-caesar.turning_point.1",
+        interpretationKey: "julius-caesar.interpretation.turning_point.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_caesar_wikipedia", "src_caesar_plutarch"],
+      },
+    ],
+  },
+
+  "jane-austen": {
+    achievements: [
+      { id: "jane-austen-achievement-1", textKey: "jane-austen.achievement.1", sourceIds: ["src_austen_tomalin"] },
+      { id: "jane-austen-achievement-2", textKey: "jane-austen.achievement.2", sourceIds: ["src_austen_tomalin"] },
+    ],
+    moments: [
+      {
+        id: "jane-austen-moment-1",
+        textKey: "jane-austen.moment.1",
+        interpretationKey: "jane-austen.interpretation.moment.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_austen_tomalin"],
+      },
+      { id: "jane-austen-moment-2", textKey: "jane-austen.moment.2", sourceIds: ["src_austen_letters"] },
+    ],
+    turningPoints: [
+      { id: "jane-austen-turning-point-1", textKey: "jane-austen.turning_point.1", sourceIds: ["src_austen_tomalin", "src_austen_wikipedia"] },
+    ],
+  },
+
+  "benito-juarez": {
+    achievements: [
+      { id: "benito-juarez-achievement-1", textKey: "benito-juarez.achievement.1", sourceIds: ["src_juarez_wikipedia"] },
+      { id: "benito-juarez-achievement-2", textKey: "benito-juarez.achievement.2", sourceIds: ["src_juarez_biography"] },
+      { id: "benito-juarez-achievement-3", textKey: "benito-juarez.achievement.3", sourceIds: ["src_juarez_biography"] },
+    ],
+    moments: [
+      {
+        id: "benito-juarez-moment-1",
+        textKey: "benito-juarez.moment.1",
+        interpretationKey: "benito-juarez.interpretation.moment.1",
+        attributeId: "discipline",
+        sourceIds: ["src_juarez_biography"],
+      },
+    ],
+    turningPoints: [
+      { id: "benito-juarez-turning-point-1", textKey: "benito-juarez.turning_point.1", sourceIds: ["src_juarez_biography", "src_juarez_wikipedia"] },
+    ],
+  },
+
+  "ernest-shackleton": {
+    achievements: [
+      { id: "ernest-shackleton-achievement-1", textKey: "ernest-shackleton.achievement.1", sourceIds: ["src_shackleton_lansing"] },
+      { id: "ernest-shackleton-achievement-2", textKey: "ernest-shackleton.achievement.2", sourceIds: ["src_shackleton_lansing"] },
+    ],
+    moments: [
+      {
+        id: "ernest-shackleton-moment-1",
+        textKey: "ernest-shackleton.moment.1",
+        interpretationKey: "ernest-shackleton.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_shackleton_wikipedia"],
+      },
+      { id: "ernest-shackleton-moment-2", textKey: "ernest-shackleton.moment.2", sourceIds: ["src_shackleton_lansing"] },
+    ],
+    turningPoints: [
+      {
+        id: "ernest-shackleton-turning-point-1",
+        textKey: "ernest-shackleton.turning_point.1",
+        interpretationKey: "ernest-shackleton.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_shackleton_lansing"],
+      },
+    ],
+  },
+
+  "wole-soyinka": {
+    achievements: [
+      { id: "wole-soyinka-achievement-1", textKey: "wole-soyinka.achievement.1", sourceIds: ["src_soyinka_nobel"] },
+      { id: "wole-soyinka-achievement-2", textKey: "wole-soyinka.achievement.2", sourceIds: ["src_soyinka_memoir"] },
+    ],
+    moments: [
+      {
+        id: "wole-soyinka-moment-1",
+        textKey: "wole-soyinka.moment.1",
+        interpretationKey: "wole-soyinka.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_soyinka_memoir"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "wole-soyinka-turning-point-1",
+        textKey: "wole-soyinka.turning_point.1",
+        interpretationKey: "wole-soyinka.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_soyinka_memoir", "src_soyinka_wikipedia"],
+      },
+    ],
+  },
+
+  "elizabeth-blackwell": {
+    achievements: [
+      { id: "elizabeth-blackwell-achievement-1", textKey: "elizabeth-blackwell.achievement.1", sourceIds: ["src_blackwell_nlm"] },
+      { id: "elizabeth-blackwell-achievement-2", textKey: "elizabeth-blackwell.achievement.2", sourceIds: ["src_blackwell_nps"] },
+    ],
+    moments: [
+      { id: "elizabeth-blackwell-moment-1", textKey: "elizabeth-blackwell.moment.1", sourceIds: ["src_blackwell_autobiography"] },
+      {
+        id: "elizabeth-blackwell-moment-2",
+        textKey: "elizabeth-blackwell.moment.2",
+        interpretationKey: "elizabeth-blackwell.interpretation.moment.2",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_blackwell_nps"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "elizabeth-blackwell-turning-point-1",
+        textKey: "elizabeth-blackwell.turning_point.1",
+        interpretationKey: "elizabeth-blackwell.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_blackwell_nlm"],
+      },
+    ],
+  },
 };

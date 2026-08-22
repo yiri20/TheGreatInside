@@ -178,6 +178,166 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is one expression of the profile's dual-edged competitiveness score: an intensity about her own standing that, in this moment, showed up as open jealousy toward a close collaborator rather than channeling into her performance.",
   "anna-pavlova.interpretation.turning_point.1":
     "This helps explain the profile's high risk_tolerance score, scored dual-edged for exactly this kind of moment — a willingness to accept the largest possible stakes rather than compromise on what mattered most to her.",
+
+  /* ------------------------------------------------- Tier-B backfill batch 1 */
+
+  /* ---------------------------------------------------------- I. Newton */
+  "isaac-newton.achievement.1":
+    "During the plague closures of 1665–1667, working alone at his family home in Woolsthorpe rather than at Cambridge, he laid the mathematical and experimental foundations of calculus, his theory of colors, and early gravitational theory — years before any of it reached print.",
+  "isaac-newton.achievement.2":
+    "Principia Mathematica (1687) unified terrestrial and celestial motion under a single law of gravitation, built axiomatically from a small set of definitions and laws of motion up through their derived consequences.",
+  "isaac-newton.achievement.3":
+    "Served as President of the Royal Society for 24 years (1703–1727) while also serving as Master of the Royal Mint — two sustained, demanding institutional leadership roles held simultaneously rather than in sequence.",
+  "isaac-newton.moment.1":
+    "To get around the chromatic-aberration problem that limited existing refracting telescopes, he designed and built his own reflecting telescope — a specific technical workaround rather than a wait for someone else to solve it.",
+  "isaac-newton.moment.2":
+    "When his priority dispute with Gottfried Leibniz over the invention of calculus reached the Royal Society, Newton anonymously chaired the Society's own committee investigating the claim — and it ruled in his favor.",
+  "isaac-newton.turning_point.1":
+    "In his mid-fifties, after roughly three decades as a reclusive Cambridge scholar, he accepted the Wardenship — and later Mastership — of the Royal Mint, moving to London to take on an administrative and law-enforcement role in an entirely different domain from his prior life, where by documented account he proved highly effective, personally investigating counterfeiters.",
+  "isaac-newton.interpretation.moment.1":
+    "This is consistent with the profile's resourcefulness score: solving an instrument-level problem himself rather than working within the limits of the equipment already available.",
+  "isaac-newton.interpretation.moment.2":
+    "This sits alongside the profile's very low collaboration score and high competitiveness score: settling a credit dispute by controlling the body meant to settle it impartially, rather than through open co-authorship or concession.",
+  "isaac-newton.interpretation.turning_point.1":
+    "The Great Inside reads this alongside the profile's much lower belief_updating score, not against it: adjusting to a demanding new institutional role is a different kind of change from revising an established theoretical conviction, and this profile treats the two as separate rather than in tension.",
+
+  /* ---------------------------------------------------------- H. Tubman */
+  "harriet-tubman.achievement.1":
+    "Between roughly 1850 and 1860, personally returned to slave-holding territory about thirteen times, leading approximately seventy enslaved people to freedom along the Underground Railroad — every documented mission completed without a single person lost.",
+  "harriet-tubman.achievement.2":
+    "In June 1863, planned and led the Combahee Ferry Raid, which freed more than 700 enslaved people — documented as the first US military operation of the Civil War planned and led by a woman.",
+  "harriet-tubman.moment.1":
+    "She carried a pistol on her rescue missions, and multiple independent accounts describe her as prepared to use its threat against escaping people who wanted to turn back partway — because one person turning back risked exposing the entire group to slave catchers.",
+  "harriet-tubman.moment.2":
+    "She approached Union Army command directly to propose serving as an armed scout and spy — an unprecedented role for a woman, let alone a formerly enslaved woman — and the Army granted it, a position that led directly to her planning the Combahee raid.",
+  "harriet-tubman.turning_point.1":
+    "Her own escape from slavery in 1849 was solo, with no plan to return for anyone else. Within about a year she began going back into the same territory to lead others out, beginning a sustained pattern of missions that continued for the next decade.",
+  "harriet-tubman.interpretation.moment.1":
+    "This is consistent with the profile's conflict_tolerance score: a willingness to force a hard choice when the group's safety was at stake, not a general account of her temperament.",
+  "harriet-tubman.interpretation.moment.2":
+    "This helps explain the profile's very high proactive_agency score: creating an institutional opportunity for herself rather than waiting for one to be offered.",
+
+  /* ---------------------------------------------------------- Wu Zetian */
+  "wu-zetian.achievement.1":
+    "Rose from a minor concubine position in Emperor Taizong's court to become the only woman in Chinese history to rule as emperor in her own name, founding her own Zhou dynasty in 690 and ruling directly until 705.",
+  "wu-zetian.achievement.2":
+    "Instituted the practice of ruling from behind a curtain specifically to work around court protocol that formally barred women from directly holding court — a procedural workaround that let her exercise real power despite a structural barrier with no established precedent to follow.",
+  "wu-zetian.achievement.3":
+    "In the years before her formal accession in 690, sponsored a reinterpreted Buddhist text prophesying a female ruler as a bodhisattva's incarnation, and had temples built empire-wide to spread the narrative — a sustained campaign of political legitimation with no precedent in Chinese imperial history to draw on.",
+  "wu-zetian.moment.1":
+    "She appointed Shangguan Wan'er — whose family Wu Zetian had previously had destroyed — to chief drafter of imperial edicts, one of the most sensitive positions at court.",
+  "wu-zetian.moment.2":
+    "She restructured mourning-ritual and ancestor-worship codes to require female ancestors be honored alongside male ones, and mourning periods for mothers to match those for fathers — changing the ritual and legal treatment of gender within the imperial system, not only exercising power within it unchanged.",
+  "wu-zetian.turning_point.1":
+    "Rather than continuing to rule only as regent for a male heir — the path traditionally available to a powerful court widow or mother — she formally founded her own dynasty and took the title of emperor herself in 690, a departure with no precedent to follow in Chinese history.",
+  "wu-zetian.interpretation.moment.1":
+    "This reflects the profile's adaptability score: a specific, pragmatic personnel decision that prioritized present political usefulness over past personal enmity, not a general claim about how she treated rivals.",
+  "wu-zetian.interpretation.turning_point.1":
+    "This helps explain the profile's autonomy_need score: choosing an unprecedented formal title over continuing to exercise the same real power through an existing, more conventional role.",
+
+  /* ------------------------------------------------------------ Averroes */
+  "averroes.achievement.1":
+    "Produced systematic short, middle, and long commentaries on nearly the entire surviving corpus of Aristotle over roughly three decades — a body of work that later shaped how Aristotle was read in medieval Europe as much as in the Islamic world.",
+  "averroes.achievement.2":
+    "Wrote The Incoherence of the Incoherence, a direct, sustained rebuttal of the influential philosopher al-Ghazali's earlier critique of philosophy itself — engaging the leading contemporary challenge head-on rather than working around it.",
+  "averroes.achievement.3":
+    "Served simultaneously as a qadi — first in Seville, later chief qadi of Córdoba — and as a royal physician, while continuing his philosophical commentary project across a career combining serious professional practice in more than one demanding field.",
+  "averroes.moment.1":
+    "He was introduced to the Almohad Caliph Abu Yaqub Yusuf by the philosopher Ibn Tufail, who then personally commissioned Averroes's systematic Aristotle commentaries — the project that became his major life's work began under another scholar's referral and a ruler's patronage, not from isolated independent initiative.",
+  "averroes.turning_point.1":
+    "Late in his life, under Almohad authority, his philosophical works were formally condemned and burned and he was briefly exiled — following decades in which the same rulers had themselves commissioned and supported his commentary project. By most accounts he continued philosophical work in the time that remained to him rather than recanting the positions that had drawn the condemnation.",
+  "averroes.interpretation.turning_point.1":
+    "This is consistent with the profile's persistence score: continuing a body of work despite institutional retaliation against it, though the surviving record does not document how he personally regarded the reversal at the time.",
+
+  /* -------------------------------------------------------- Julius Caesar */
+  "julius-caesar.achievement.1":
+    "In 49 BCE, crossed the Rubicon river into Italy at the head of his legion — an act illegal for a Roman general under arms and irreversible once taken, reportedly declaring \"alea iacta est\" (\"the die is cast\") — triggering the civil war that ended the Republic's existing political order.",
+  "julius-caesar.achievement.2":
+    "As dictator, replaced Rome's lunar calendar with a solar, 365.25-day calendar — the Julian calendar remained in use, with only minor later adjustment, for more than 1,500 years.",
+  "julius-caesar.achievement.3":
+    "Coordinated a multi-year military campaign across Gaul, managing supply lines, allied-tribe diplomacy, and seasonal timing across roughly eight years of continuous warfare, documented in detail in his own Commentarii de Bello Gallico.",
+  "julius-caesar.moment.1":
+    "As a young man, he was captured and held for ransom by pirates. Suetonius records that he considered the ransom demanded for him insultingly low and, after his release, personally raised a fleet, hunted down his former captors, and had them executed.",
+  "julius-caesar.moment.2":
+    "Suetonius quotes his own reported dispatch after the swift Battle of Zela — \"veni, vidi, vici\" (\"I came, I saw, I conquered\") — a tempo consistent with the compressed campaign timelines described throughout his own Commentarii.",
+  "julius-caesar.turning_point.1":
+    "For years, he maintained the First Triumvirate — an informal power-sharing alliance with Pompey and Crassus that had helped secure him the Gaul command — before it broke down into the civil war triggered by the Rubicon crossing, ending in conflict with the same ally who had once shared power with him.",
+  "julius-caesar.interpretation.turning_point.1":
+    "This lines up with the profile's moderate — not high — collaboration score: a real, sustained alliance that nonetheless ultimately failed, not a case of stable, ongoing cooperative partnership.",
+
+  /* ----------------------------------------------------------- J. Austen */
+  "jane-austen.achievement.1":
+    "Literary scholarship widely credits her with an early, sustained use of free indirect discourse — narrating through a character's internal perspective without switching into the first person — a technique later foundational to the novel form.",
+  "jane-austen.achievement.2":
+    "Published all six of her novels anonymously, as \"By a Lady,\" and by her family's and biographers' account deliberately avoided seeking public literary fame during her lifetime — wide recognition came only after her death.",
+  "jane-austen.moment.1":
+    "In December 1802, she accepted a marriage proposal from Harris Bigg-Wither — a match that would have secured her family's financial position — then withdrew her acceptance the following morning.",
+  "jane-austen.moment.2":
+    "She corresponded regularly with her sister Cassandra throughout her writing career, exchanging detailed feedback on drafts — a sustained editorial relationship documented across her surviving letters.",
+  "jane-austen.turning_point.1":
+    "An early manuscript that eventually became Pride and Prejudice was reportedly rejected by a publisher without being read in 1797. She continued revising it and pursuing publication over the next sixteen years rather than abandoning it, and it became her best-known novel.",
+  "jane-austen.interpretation.moment.1":
+    "Biographers read this as motivated substantially by a wish to preserve her own independence, though her family's financial circumstances complicate a purely autonomy-driven reading — this profile treats it as one plausible factor among several, not the whole explanation.",
+
+  /* --------------------------------------------------------- B. Juárez */
+  "benito-juarez.achievement.1":
+    "Born to a poor Zapotec family and orphaned young, he did not learn Spanish until around age twelve — and went on to train as a lawyer, serve as a state governor, and become Mexico's first Indigenous president.",
+  "benito-juarez.achievement.2":
+    "Led a Liberal government that continued operating and relocating under military pressure throughout the French intervention (1862–1867) rather than accepting exile or surrender, maintaining a functioning claim to legitimate government even without a fixed capital for years at a time.",
+  "benito-juarez.achievement.3":
+    "Championed the La Reforma laws — separating church and state, redistributing land, and establishing civil registry of births, marriages, and deaths — restructuring the legal basis of Mexican governance during his presidency.",
+  "benito-juarez.moment.1":
+    "After the Republic's victory over the French-backed empire, he insisted that captured Emperor Maximilian I receive a formal court-martial trial rather than summary execution, even while the country was still recovering from years of war.",
+  "benito-juarez.turning_point.1":
+    "Following the trial, he ordered Maximilian's execution despite extensive international pressure for clemency from the United States and European governments — a decision that closed off any negotiated restoration of the empire and set the terms on which the Republic was re-established.",
+  "benito-juarez.interpretation.moment.1":
+    "This tracks the profile's discipline score: a documented commitment to formal legal process even against a defeated adversary and even under pressure to act faster.",
+
+  /* ------------------------------------------------------ E. Shackleton */
+  "ernest-shackleton.achievement.1":
+    "Led the 1914–1917 Imperial Trans-Antarctic Expedition, keeping all 28 crew members alive for nearly two years after their ship, Endurance, was crushed by pack ice and sank — a sustained survival effort with zero fatalities, corroborated by multiple crew members' own diaries.",
+  "ernest-shackleton.achievement.2":
+    "With five companions, undertook an 800-mile open-boat journey across the Southern Ocean to South Georgia to seek rescue — navigating without standard instruments to reach a small island target across open water, rather than waiting with the main party for a rescue that was not coming.",
+  "ernest-shackleton.moment.1":
+    "On an earlier expedition in 1909, he turned back only 97 miles from the South Pole — closer than any previous expedition had reached — judging the remaining distance too dangerous for his team's survival.",
+  "ernest-shackleton.moment.2":
+    "Alfred Lansing's account of the ice-camp period describes Shackleton deliberately keeping a crew member who was reportedly more openly critical of him in closer physical proximity — managing potential dissent directly rather than avoiding the tension.",
+  "ernest-shackleton.turning_point.1":
+    "The expedition's original goal — an overland crossing of Antarctica — became entirely impossible once Endurance was crushed and sank. What followed was an improvised, nearly two-year survival operation built and adjusted in response to changing conditions as they occurred, with no advance plan for any of it.",
+  "ernest-shackleton.interpretation.moment.1":
+    "The Great Inside reads this alongside the 800-mile boat journey seven years later as two data points about the same risk_tolerance score, not one fixed disposition: real willingness to accept extraordinary personal risk when the goal was survival itself, paired with an earlier readiness to give up a historic prize rather than gamble with his team's lives.",
+  "ernest-shackleton.interpretation.turning_point.1":
+    "Both the profile's high adaptability score and its more moderate planning_orientation score fit this moment: the plan that mattered here was not the original one, but the sequence of adjustments made after it failed.",
+
+  /* ------------------------------------------------------- W. Soyinka */
+  "wole-soyinka.achievement.1":
+    "In 1986, became the first writer from sub-Saharan Africa to win the Nobel Prize in Literature — the citation specifically recognized his fusion of traditional Yoruba ritual drama with modern Western theatrical structure.",
+  "wole-soyinka.achievement.2":
+    "Continued writing and publishing across decades of repeated imprisonment and exile under Nigeria's successive governments — his prison memoir, The Man Died, was composed on notes smuggled out during his imprisonment and published after his release.",
+  "wole-soyinka.moment.1":
+    "During his 1967–1969 imprisonment, much of it in solitary confinement, he wrote in secret and had the notes smuggled out — later published as The Man Died.",
+  "wole-soyinka.turning_point.1":
+    "In 1967, with no official mandate, he personally attempted to broker a ceasefire in the early stages of the Nigerian Civil War — an unauthorized intervention that led directly to his imprisonment, much of it in solitary confinement, for roughly two years, and marked the point at which he became as widely known internationally for direct political confrontation with Nigeria's government as for his literary work.",
+  "wole-soyinka.interpretation.moment.1":
+    "This is one example of the profile's resourcefulness score: continuing his primary work under conditions specifically designed to prevent it.",
+  "wole-soyinka.interpretation.turning_point.1":
+    "This matches the profile's proactive_agency score: acting on his own initiative, entirely outside any official capacity, in a way that carried severe and immediate personal cost.",
+
+  /* ----------------------------------------------------- E. Blackwell */
+  "elizabeth-blackwell.achievement.1":
+    "In 1849, became the first woman to earn a medical degree in the United States, after being rejected by roughly twenty-nine medical schools before Geneva Medical College admitted her — reportedly after the faculty put her application to a student vote as a joke, expecting it to be rejected, and the students voted to admit her instead.",
+  "elizabeth-blackwell.achievement.2":
+    "Later founded a Women's Medical College, training other women as physicians at a time when almost no formal medical institution in the country would admit them.",
+  "elizabeth-blackwell.moment.1":
+    "She began pursuing medicine specifically after a dying friend told her that she would have been spared some of her worst indignities with a female doctor to attend her — a specific origin for a career choice that ran directly against the era's near-universal assumption that medicine was not a field for women.",
+  "elizabeth-blackwell.moment.2":
+    "After being turned down for a position at an existing dispensary's women's department, she founded her own dispensary in a rented room in 1853, growing it by 1857 into the New York Infirmary for Women and Children.",
+  "elizabeth-blackwell.turning_point.1":
+    "While undertaking further clinical training in Paris, she contracted a severe eye infection from a patient and lost sight in one eye, ending her earlier ambition to become a surgeon. Rather than leaving medicine, she redirected her career toward general practice and public health — the fields in which she went on to found her infirmary and college.",
+  "elizabeth-blackwell.interpretation.moment.2":
+    "This offers a clear instance of the profile's autonomy_need score: building the institutional position that wasn't being offered to her, rather than continuing to seek an existing one.",
+  "elizabeth-blackwell.interpretation.turning_point.1":
+    "This fits the profile's adaptability score: redirecting toward a different form of medical practice after a career-ending setback in the one she had originally pursued, rather than leaving the field.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -243,7 +403,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "yi-sun-sin.turning_point.1":
     "함정이라고 판단한 조정의 특정 명령을 따르지 않고 자신의 전술적 판단대로 행동했다가 파직·투옥·고문을 당했다. 그의 후임이 곧 함대 대부분을 잃자, 남은 병력으로 복귀해 명량해전에서 승리를 거두었다.",
   "yi-sun-sin.interpretation.turning_point.1":
-    "프로필의 양면적인 주도적 행동력(proactive_agency) 점수가 지닌 긴장을 보여주는 대목이다 — 조정의 직접적인 명령을 거스르고 자신의 전술적 판단대로 행동한 것은 즉각적이고 큰 개인적 대가로 이어졌다. 복귀 이후의 명량 승리는 다시 명령을 거스른 결과가 아니라 거의 궤멸된 함대를 이끈 전술적 역량에서 나온 것이지만, 그를 벌하게 만들었던 애초의 판단이 옳았음을 결과적으로 증명한 것은 후임 지휘관 아래서 함대가 거의 전멸했다는 사실이었다.",
+    "프로필의 양면적인 선제적 행동력(proactive_agency) 점수가 지닌 긴장을 보여주는 대목이다 — 조정의 직접적인 명령을 거스르고 자신의 전술적 판단대로 행동한 것은 즉각적이고 큰 개인적 대가로 이어졌다. 복귀 이후의 명량 승리는 다시 명령을 거스른 결과가 아니라 거의 궤멸된 함대를 이끈 전술적 역량에서 나온 것이지만, 그를 벌하게 만들었던 애초의 판단이 옳았음을 결과적으로 증명한 것은 후임 지휘관 아래서 함대가 거의 전멸했다는 사실이었다.",
   "yi-sun-sin.interpretation.achievement.3":
     "프로필의 매우 높은 자원 활용 성향(resourcefulness) 점수를 보여주는 한 사례다 — 오지 않을 지원군을 기다리는 대신, 극도로 제한된 자원을 결정적으로 활용한 것이다.",
 
@@ -271,7 +431,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "nelson-mandela.turning_point.1":
     "1990년 석방된 이후, 무장투쟁을 이어가는 대신 협상의 길을 선택했다 — 당시 자신이 속한 운동 내부에서도 논란이 되었던 노선이었고, 이는 1994년 선거로 이어진 길이었다.",
   "nelson-mandela.interpretation.moment.2":
-    "프로필의 양면적인 주도적 행동력(proactive_agency) 점수와 나란히 놓고 볼 대목이다 — 훗날 아파르트헤이트 종식에 기여한 바로 그 자발적 행동은, 만약 상황이 달랐다면 자신이 속한 운동으로부터 부인당할 실제 위험을 안고 있었다.",
+    "프로필의 양면적인 선제적 행동력(proactive_agency) 점수와 나란히 놓고 볼 대목이다 — 훗날 아파르트헤이트 종식에 기여한 바로 그 자발적 행동은, 만약 상황이 달랐다면 자신이 속한 운동으로부터 부인당할 실제 위험을 안고 있었다.",
   "nelson-mandela.interpretation.moment.1":
     "프로필의 높은 자원 활용 성향(resourcefulness) 점수를 반영하는 대목이다 — 바로 그것을 막기 위해 설계된 환경 안에서, 거의 아무것도 없는 상태로부터 실제로 작동하는 하나의 제도를 만들어낸 것이다.",
 
@@ -336,6 +496,166 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 양면적인 경쟁심(competitiveness) 점수가 드러나는 한 장면이다 — 자신의 위치에 대한 강렬한 의식이, 이 순간에는 무대가 아니라 가까운 동료를 향한 노골적인 질투로 표출되었다.",
   "anna-pavlova.interpretation.turning_point.1":
     "프로필의 높은 위험 감수(risk_tolerance) 점수를 이해하는 데 도움이 된다 — 바로 이런 순간을 염두에 두고 양면적으로 평가된 점수다 — 자신에게 가장 중요한 것을 타협하느니 가장 큰 위험을 감수하려는 태도다.",
+
+  /* ------------------------------------------------- Tier-B backfill batch 1 */
+
+  /* ---------------------------------------------------------- I. Newton */
+  "isaac-newton.achievement.1":
+    "1665~1667년 흑사병으로 케임브리지가 문을 닫았던 시기, 그는 대학 대신 울즈소프의 본가에서 홀로 지내며 미적분학과 색채 이론, 초기 중력 이론의 수학적·실험적 토대를 마련했다 — 이 성과들이 실제로 출판되기까지는 그 후로도 몇 년이 더 걸렸다.",
+  "isaac-newton.achievement.2":
+    "『프린키피아』(1687)는 소수의 정의와 운동 법칙에서 출발해 그로부터 도출되는 결과들을 공리적으로 쌓아 올리는 방식으로, 지상의 운동과 천체의 운동을 하나의 중력 법칙 아래 통합했다.",
+  "isaac-newton.achievement.3":
+    "1703년부터 1727년까지 24년간 왕립학회장을 지내는 동시에 왕립조폐국장도 겸임했다 — 두 개의 부담스러운 기관장 직무를 순차적으로가 아니라 동시에 오랫동안 수행한 것이다.",
+  "isaac-newton.moment.1":
+    "당시 굴절 망원경의 한계였던 색수차 문제를 피하기 위해, 그는 직접 반사 망원경을 설계하고 제작했다 — 누군가 해결해주기를 기다리는 대신 스스로 구체적인 기술적 해법을 찾아낸 것이다.",
+  "isaac-newton.moment.2":
+    "미적분학 발명을 둘러싼 고트프리트 라이프니츠와의 우선권 다툼이 왕립학회로 넘어가자, 뉴턴은 이를 조사할 학회 위원회를 익명으로 직접 주재했다 — 그리고 그 위원회는 그의 손을 들어주었다.",
+  "isaac-newton.turning_point.1":
+    "50대 중반, 케임브리지에서 은둔에 가까운 학자 생활을 30년 가까이 보낸 그는 왕립조폐국의 조폐국 관리관 — 이후 조폐국장 — 직을 수락하고 런던으로 옮겨갔다. 이전의 삶과는 전혀 다른 행정·사법 집행 영역에서, 그는 위조범을 직접 조사하는 등 기록상 뛰어난 성과를 보였다.",
+  "isaac-newton.interpretation.moment.1":
+    "프로필의 자원 활용 성향(resourcefulness) 점수와 일치하는 대목이다 — 이미 있는 장비의 한계 안에서 타협하는 대신, 도구 자체의 문제를 직접 해결한 것이다.",
+  "isaac-newton.interpretation.moment.2":
+    "프로필의 매우 낮은 협업 성향(collaboration) 점수, 그리고 높은 경쟁 성향(competitiveness) 점수와 함께 놓고 볼 대목이다 — 공동 저작이나 양보를 통해서가 아니라, 공정하게 판단해야 할 기구 자체를 직접 통제함으로써 공로 다툼을 매듭지은 것이다.",
+  "isaac-newton.interpretation.turning_point.1":
+    "더 그레이트 인사이드는 이 대목을 프로필의 훨씬 낮은 입장 수정(belief_updating) 점수와 대립시키지 않고 나란히 읽는다 — 부담스러운 새 직무에 적응하는 것과 확립된 이론적 신념을 수정하는 것은 서로 다른 종류의 변화이며, 이 프로필은 둘을 긴장 관계가 아니라 별개의 것으로 다룬다.",
+
+  /* ---------------------------------------------------------- H. Tubman */
+  "harriet-tubman.achievement.1":
+    "1850년경부터 1860년경까지, 그는 노예제가 시행되던 지역으로 직접 약 열세 차례 돌아가 '지하철도'를 통해 약 70명의 노예를 자유로 이끌었다 — 기록된 임무 가운데 단 한 명도 잃지 않고 완수했다.",
+  "harriet-tubman.achievement.2":
+    "1863년 6월, 컴바히강 습격 작전을 계획하고 지휘해 700명이 넘는 노예를 해방시켰다 — 남북전쟁 중 여성이 계획하고 지휘한 최초의 미군 군사작전으로 기록되어 있다.",
+  "harriet-tubman.moment.1":
+    "그는 구출 임무에 권총을 지니고 다녔으며, 여러 독립된 기록에 따르면 도중에 돌아가려는 도망자에게 그것을 겨눌 각오까지 되어 있었다고 한다 — 한 사람이라도 되돌아가면 노예 사냥꾼에게 일행 전체가 발각될 위험이 있었기 때문이다.",
+  "harriet-tubman.moment.2":
+    "그는 북군 지휘부에 직접 접근해 무장 정찰병 겸 첩보원으로 복무하겠다고 제안했다 — 여성으로서는, 더구나 전직 노예 출신 여성으로서는 전례 없는 역할이었다. 군은 이를 받아들였고, 이 자리는 훗날 그가 컴바히 습격을 계획하는 데로 직접 이어졌다.",
+  "harriet-tubman.turning_point.1":
+    "1849년 그가 노예 신분에서 탈출했을 때는 혼자였고, 다른 사람을 데리러 돌아갈 계획도 없었다. 그러나 약 1년 만에 그는 같은 지역으로 되돌아가 다른 사람들을 이끌어내기 시작했고, 이는 이후 10년 동안 이어질 임무의 시작이었다.",
+  "harriet-tubman.interpretation.moment.1":
+    "프로필의 갈등 감내(conflict_tolerance) 점수와 일치하는 대목이다 — 이는 그의 전반적인 성격에 대한 일반적 서술이 아니라, 집단의 안전이 걸린 순간 어려운 선택을 강행할 수 있었다는 뜻이다.",
+  "harriet-tubman.interpretation.moment.2":
+    "프로필의 매우 높은 선제적 행동력(proactive_agency) 점수를 이해하는 데 도움이 되는 대목이다 — 기회가 주어지기를 기다리는 대신, 스스로 제도적 기회를 만들어낸 것이다.",
+
+  /* ---------------------------------------------------------- Wu Zetian */
+  "wu-zetian.achievement.1":
+    "당 태종의 후궁 가운데 하급 지위에서 시작해, 중국 역사상 유일하게 여성의 이름으로 황제 자리에 오른 인물이 되었다. 690년 스스로 무주(周)를 세우고 705년까지 직접 통치했다.",
+  "wu-zetian.achievement.2":
+    "여성이 직접 조정에 나서는 것을 공식적으로 금지한 궁정 예법을 우회하기 위해, 발을 드리우고 그 뒤에서 정사를 돌보는 방식을 도입했다 — 참고할 선례가 없는 구조적 장벽 속에서도 실질적인 권력을 행사할 수 있게 한 절차상의 우회로였다.",
+  "wu-zetian.achievement.3":
+    "690년 공식 즉위 이전 수년에 걸쳐, 여성 통치자를 보살의 화신으로 예언하는 불경을 새롭게 해석해 보급했고, 이 서사를 퍼뜨리기 위해 제국 전역에 사찰을 세우게 했다 — 중국 황실 역사상 참고할 전례가 전혀 없는, 지속적인 정치적 정당화 작업이었다.",
+  "wu-zetian.moment.1":
+    "그는 이전에 자신이 일족을 몰락시킨 상관완아를, 조정에서 가장 민감한 자리 가운데 하나인 조서 작성 총책임자로 임명했다.",
+  "wu-zetian.moment.2":
+    "그는 상례와 조상 제사에 관한 규범을 고쳐 여성 조상도 남성 조상과 함께 모시도록 했고, 어머니를 위한 상기(喪期)도 아버지와 같도록 맞췄다 — 기존 제국 체제 안에서 권력만 행사한 것이 아니라, 그 체제 안에서 성별을 다루는 방식 자체를 의례와 법 차원에서 바꾼 것이다.",
+  "wu-zetian.turning_point.1":
+    "권세 있는 황실의 과부나 태후에게 전통적으로 허용되던 길, 즉 남성 후계자의 섭정으로만 남는 대신, 그는 690년 스스로 새 왕조를 세우고 황제라는 칭호를 직접 취했다 — 중국 역사상 따를 선례가 전혀 없는 파격이었다.",
+  "wu-zetian.interpretation.moment.1":
+    "프로필의 적응력(adaptability) 점수를 반영하는 대목이다 — 이는 그가 정적을 대체로 어떻게 대했는지에 대한 일반적 서술이 아니라, 과거의 개인적 원한보다 현재의 정치적 쓸모를 앞세운 구체적이고 실용적인 인사 결정이었다는 뜻이다.",
+  "wu-zetian.interpretation.turning_point.1":
+    "프로필의 자율성 욕구(autonomy_need) 점수를 이해하는 데 도움이 되는 대목이다 — 기존의 더 관습적인 지위를 통해서도 같은 실권을 계속 행사할 수 있었음에도, 전례 없는 공식 칭호를 선택한 것이다.",
+
+  /* ------------------------------------------------------------ Averroes */
+  "averroes.achievement.1":
+    "약 30년에 걸쳐, 현존하는 아리스토텔레스 저작 거의 전체에 대해 단편·중편·장편 주석을 체계적으로 작성했다 — 이 저작들은 이후 이슬람 세계뿐 아니라 중세 유럽에서 아리스토텔레스를 읽는 방식에도 큰 영향을 미쳤다.",
+  "averroes.achievement.2":
+    "『모순의 모순』을 저술해, 철학 자체를 비판했던 당대의 영향력 있는 철학자 알가잘리에게 직접적이고 지속적인 반박을 가했다 — 당대 최대의 도전을 피해가지 않고 정면으로 마주한 것이다.",
+  "averroes.achievement.3":
+    "세비야에서, 이후에는 코르도바의 수석 카디(재판관)로 재직하는 동시에 왕실 의사로도 활동하며 철학 주석 작업을 이어갔다 — 하나 이상의 까다로운 전문 분야에서 진지한 실무를 병행한 경력이었다.",
+  "averroes.moment.1":
+    "철학자 이븐 투파일의 소개로 알모하드 칼리프 아부 야쿠브 유수프를 만났고, 칼리프는 그에게 아리스토텔레스에 대한 체계적 주석 작업을 직접 위촉했다 — 그의 일생의 대작이 된 이 작업은 고립된 독자적 발의가 아니라 다른 학자의 소개와 통치자의 후원에서 시작된 것이었다.",
+  "averroes.turning_point.1":
+    "말년에 이르러 알모하드 정권 아래서 그의 철학 저작들은 공식적으로 단죄되어 불태워졌고, 그 자신도 잠시 추방당했다 — 바로 그 통치자들이 수십 년간 그의 주석 작업을 위촉하고 후원해왔던 뒤였다. 대체로 알려진 바에 따르면, 그는 단죄의 원인이 된 입장을 철회하기보다 남은 시간 동안 철학 작업을 계속한 것으로 보인다.",
+  "averroes.interpretation.turning_point.1":
+    "프로필의 끈기(persistence) 점수와 일치하는 대목이다 — 제도적 보복 속에서도 작업을 이어갔다는 뜻이지만, 그 반전을 그 자신이 당시 어떻게 받아들였는지는 남아있는 기록으로 확인되지 않는다.",
+
+  /* -------------------------------------------------------- Julius Caesar */
+  "julius-caesar.achievement.1":
+    "기원전 49년, 그는 자신의 군단을 이끌고 루비콘강을 건너 이탈리아 본토로 진입했다 — 로마 장군이 무장한 채 국경을 넘는 것은 불법이었고, 한번 건너면 되돌릴 수 없는 행위였다. 그는 이때 \"주사위는 던져졌다\"고 말했다고 전해지며, 이는 공화정의 기존 정치 질서를 끝낸 내전의 시작이 되었다.",
+  "julius-caesar.achievement.2":
+    "독재관으로서 로마의 태음력을 365.25일의 태양력으로 교체했다 — 이 율리우스력은 이후 사소한 조정만 거친 채 1,500년 넘게 사용되었다.",
+  "julius-caesar.achievement.3":
+    "갈리아 전역에서 여러 해에 걸친 군사 작전을 지휘하며, 약 8년에 걸친 연속된 전쟁 기간 동안 보급선, 동맹 부족과의 외교, 계절에 따른 작전 시점을 조율했다 — 그 자신의 저서 『갈리아 전기』에 상세히 기록되어 있다.",
+  "julius-caesar.moment.1":
+    "젊은 시절, 그는 해적에게 붙잡혀 몸값을 요구받은 적이 있다. 수에토니우스의 기록에 따르면 그는 자신에게 매겨진 몸값이 모욕적으로 낮다고 여겼고, 풀려난 뒤에는 직접 함대를 꾸려 예전의 납치범들을 추적해 처형했다.",
+  "julius-caesar.moment.2":
+    "수에토니우스는 젤라 전투가 신속히 끝난 뒤 그가 보냈다고 전해지는 보고문을 인용한다 — \"왔노라, 보았노라, 이겼노라.\" 이 속도감은 그 자신의 『전기』 전반에 묘사된 압축적인 작전 일정과도 맞아떨어진다.",
+  "julius-caesar.turning_point.1":
+    "그는 수년간 제1차 삼두정치 — 폼페이우스, 크라수스와의 비공식적 권력 분점 동맹으로, 갈리아 지휘권을 얻는 데도 도움이 되었다 — 를 유지했다. 그러나 이 동맹은 결국 루비콘강 도하로 촉발된 내전으로 무너졌고, 한때 권력을 나누었던 바로 그 동맹자와의 충돌로 끝을 맺었다.",
+  "julius-caesar.interpretation.turning_point.1":
+    "프로필의 협업 성향(collaboration) 점수가 높지 않고 중간 수준에 머무는 것과 맞아떨어지는 대목이다 — 실제로 오래 유지된 동맹이었지만 결국 깨졌다는 것이지, 안정적으로 지속되는 협력 관계였다는 뜻은 아니다.",
+
+  /* ----------------------------------------------------------- J. Austen */
+  "jane-austen.achievement.1":
+    "문학 연구자들은 대체로 그가 자유간접화법 — 1인칭으로 전환하지 않으면서 등장인물의 내면 시점으로 서술하는 기법 — 을 이른 시기부터 지속적으로 사용한 작가로 평가한다. 이 기법은 이후 소설 형식의 기초가 되었다.",
+  "jane-austen.achievement.2":
+    "여섯 편의 소설을 모두 \"어느 숙녀가\"라는 익명으로 발표했으며, 가족과 전기 작가들의 기록에 따르면 생전에는 공개적인 문학적 명성을 의도적으로 추구하지 않았다 — 폭넓은 인정은 사후에야 찾아왔다.",
+  "jane-austen.moment.1":
+    "1802년 12월, 그는 해리스 빅위더의 청혼을 수락했다 — 가족의 경제적 안정을 보장해줄 혼처였다 — 그러나 바로 다음 날 아침 그 수락을 철회했다.",
+  "jane-austen.moment.2":
+    "그는 작가 활동 내내 언니 카산드라와 꾸준히 편지를 주고받으며 초고에 대한 상세한 의견을 나누었다 — 남아있는 편지들에 걸쳐 확인되는, 지속적인 편집자적 관계였다.",
+  "jane-austen.turning_point.1":
+    "훗날 『오만과 편견』이 된 초기 원고는 1797년 한 출판사로부터 읽히지도 않은 채 거절당했다고 전해진다. 그는 이를 포기하지 않고 이후 16년에 걸쳐 계속 고쳐 쓰며 출판을 시도했고, 이는 결국 그의 가장 널리 알려진 소설이 되었다.",
+  "jane-austen.interpretation.moment.1":
+    "전기 작가들은 이를 상당 부분 자신의 독립성을 지키려는 바람에서 비롯된 행동으로 해석하지만, 가족의 경제적 상황을 고려하면 오직 자율성만으로 설명하기는 어렵다 — 이 프로필은 이를 여러 그럴듯한 요인 중 하나로 다룰 뿐, 전체 설명으로 취급하지 않는다.",
+
+  /* --------------------------------------------------------- B. Juárez */
+  "benito-juarez.achievement.1":
+    "가난한 사포텍 가정에서 태어나 어려서 고아가 된 그는 열두 살 무렵까지 스페인어를 배우지 못했다 — 그러나 이후 변호사가 되고 주지사를 지냈으며, 멕시코 최초의 원주민 출신 대통령이 되었다.",
+  "benito-juarez.achievement.2":
+    "프랑스 개입기(1862~1867년) 내내 군사적 압박 속에서도 망명이나 항복을 받아들이지 않고, 근거지를 옮겨가며 계속 운영되는 자유주의 정부를 이끌었다 — 여러 해 동안 고정된 수도조차 없이도, 합법 정부로서의 실질적 기능을 유지한 것이다.",
+  "benito-juarez.achievement.3":
+    "정교분리, 토지 재분배, 출생·혼인·사망에 대한 민간 등록 제도 도입을 골자로 한 '라 레포르마' 법을 주도해, 재임 기간 멕시코 통치의 법적 기반 자체를 다시 세웠다.",
+  "benito-juarez.moment.1":
+    "공화국이 프랑스가 후원한 제국을 상대로 승리를 거둔 뒤, 그는 나라가 아직 오랜 전쟁의 상처에서 벗어나지 못한 상황에서도 포로가 된 막시밀리아노 1세 황제에게 즉결 처형이 아니라 정식 군사재판을 받게 해야 한다고 고집했다.",
+  "benito-juarez.turning_point.1":
+    "재판 이후, 그는 미국과 유럽 각국 정부의 광범위한 선처 요청에도 불구하고 막시밀리아노의 처형을 명령했다 — 이는 제국의 협상을 통한 부활 가능성을 완전히 닫아버리는 결정이었고, 공화국이 재건되는 조건을 그 스스로 결정지은 것이었다.",
+  "benito-juarez.interpretation.moment.1":
+    "프로필의 자기 규율(discipline) 점수와 맞닿아 있는 대목이다 — 패배한 적을 상대로도, 더 빨리 처리하라는 압박 속에서도 정식 법적 절차를 고수한 것이 기록으로 남아 있다.",
+
+  /* ------------------------------------------------------ E. Shackleton */
+  "ernest-shackleton.achievement.1":
+    "1914~1917년 제국 남극 횡단 탐험대를 이끌었다. 탐험선 인듀어런스호가 유빙에 부서져 침몰한 뒤에도 28명의 대원 전원을 거의 2년 가까이 생존시켰다 — 단 한 명의 사망자도 없이 이어간 생존 노력이며, 여러 대원의 개인 일기로도 뒷받침된다.",
+  "ernest-shackleton.achievement.2":
+    "동료 다섯 명과 함께 구조를 요청하기 위해 남빙양을 가로질러 사우스조지아섬까지 800마일에 이르는 무개 보트 항해를 감행했다 — 표준 항해 장비도 없이 망망대해 위 작은 섬을 목표로 삼아 나아간 것으로, 오지 않을 구조를 본대와 함께 기다리는 대신 택한 길이었다.",
+  "ernest-shackleton.moment.1":
+    "그보다 앞선 1909년 탐험에서, 그는 남극점을 불과 97마일 앞두고 발길을 돌렸다 — 이전의 그 어떤 탐험대보다도 가까이 다가간 지점이었다. 남은 거리를 계속 가는 것은 대원들의 생존에 너무 위험하다고 판단했기 때문이다.",
+  "ernest-shackleton.moment.2":
+    "앨프리드 랜싱의 기록에 따르면, 빙상 야영 기간 동안 섀클턴은 자신에게 더 공공연히 비판적이었다고 전해지는 대원을 의도적으로 가까이 두었다고 한다 — 갈등을 피하기보다 잠재적인 불만을 직접 관리하려 한 것이다.",
+  "ernest-shackleton.turning_point.1":
+    "탐험의 원래 목표였던 남극 대륙 횡단은 인듀어런스호가 부서져 침몰한 순간 완전히 불가능해졌다. 그 뒤로 이어진 것은 사전 계획이 전혀 없던, 거의 2년에 걸쳐 상황이 변할 때마다 즉흥적으로 만들고 조정해나간 생존 작전이었다.",
+  "ernest-shackleton.interpretation.moment.1":
+    "더 그레이트 인사이드는 이 대목을 7년 뒤의 800마일 보트 항해와 나란히, 하나의 고정된 성향이 아니라 위험 감수(risk_tolerance) 점수에 대한 두 가지 사례로 읽는다 — 생존 그 자체가 목표일 때는 극단적인 개인적 위험도 기꺼이 감수했지만, 그보다 앞서 대원들의 생명을 걸고 도박하느니 역사적인 목표를 포기할 준비도 되어 있었다.",
+  "ernest-shackleton.interpretation.turning_point.1":
+    "프로필의 높은 적응력(adaptability) 점수와, 상대적으로 중간 수준에 머무는 계획 지향(planning_orientation) 점수 모두 이 순간과 맞아떨어진다 — 여기서 중요했던 계획은 원래의 계획이 아니라, 그것이 실패한 뒤 이어진 일련의 조정들이었다.",
+
+  /* ------------------------------------------------------- W. Soyinka */
+  "wole-soyinka.achievement.1":
+    "1986년, 사하라 이남 아프리카 출신 작가로는 최초로 노벨 문학상을 수상했다 — 수상 이유에는 전통 요루바 의례극과 현대 서구 연극 구조를 융합한 점이 구체적으로 언급되었다.",
+  "wole-soyinka.achievement.2":
+    "나이지리아의 여러 정권 아래서 거듭된 투옥과 망명을 겪으면서도 수십 년간 집필과 출판을 이어갔다 — 옥중 회고록 『그 남자는 죽었다』는 수감 중 몰래 반출한 메모를 바탕으로 쓰였고, 석방 이후 출간되었다.",
+  "wole-soyinka.moment.1":
+    "1967년부터 1969년까지, 대부분을 독방에서 보낸 수감 기간 동안에도 그는 몰래 글을 썼고 그 메모를 밖으로 빼돌렸다 — 이는 훗날 『그 남자는 죽었다』로 출간되었다.",
+  "wole-soyinka.turning_point.1":
+    "1967년, 아무런 공식 위임도 없이 그는 나이지리아 내전 초기 휴전을 직접 중재하려 했다 — 이 승인받지 않은 개입은 곧바로 그를 대부분 독방에서 보낸 약 2년간의 수감으로 이어졌고, 이때부터 그는 문학 작품 못지않게 나이지리아 정부와의 직접적인 정치적 대립으로도 국제적으로 널리 알려지게 되었다.",
+  "wole-soyinka.interpretation.moment.1":
+    "프로필의 자원 활용 성향(resourcefulness) 점수를 보여주는 한 사례다 — 바로 그것을 막기 위해 설계된 조건 속에서도 자신의 본업을 이어간 것이다.",
+  "wole-soyinka.interpretation.turning_point.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수와 맞아떨어지는 대목이다 — 어떤 공식적 지위도 없이 순전히 자신의 판단으로 행동했고, 그로 인해 즉각적이고 심각한 개인적 대가를 치렀다.",
+
+  /* ----------------------------------------------------- E. Blackwell */
+  "elizabeth-blackwell.achievement.1":
+    "1849년, 미국에서 의학 학위를 받은 최초의 여성이 되었다. 그전까지 약 스물아홉 개 의과대학에서 거절당했으며, 제네바 의과대학에 입학할 수 있었던 것도 교수진이 거절될 것으로 예상하고 장난삼아 학생 투표에 부친 결과 학생들이 오히려 입학을 찬성했기 때문이라고 전해진다.",
+  "elizabeth-blackwell.achievement.2":
+    "이후 여성 의과대학을 설립해, 정식 의학 교육기관이 여성을 거의 받아주지 않던 시절에 다른 여성들을 의사로 양성했다.",
+  "elizabeth-blackwell.moment.1":
+    "그는 죽어가던 친구가 여의사가 있었다면 가장 힘든 수모 가운데 일부는 겪지 않았을 것이라고 말한 뒤 의학의 길을 걷기 시작했다 — 의학이 여성의 분야가 아니라는, 당시 거의 보편적이던 통념에 정면으로 맞선 진로 선택의 구체적인 계기였다.",
+  "elizabeth-blackwell.moment.2":
+    "기존 진료소의 여성 부서 자리에서 거절당한 뒤, 1853년 셋집 한 칸을 빌려 자신만의 진료소를 열었고, 1857년에는 이를 뉴욕 여성·아동 진료소로 성장시켰다.",
+  "elizabeth-blackwell.turning_point.1":
+    "파리에서 추가 임상 수련을 받던 중, 환자로부터 심각한 눈 감염을 얻어 한쪽 눈의 시력을 잃었고, 이는 외과의사가 되겠다는 이전의 목표를 접게 만들었다. 그러나 그는 의학을 떠나는 대신 일반 진료와 공중보건 쪽으로 방향을 돌렸고, 바로 이 분야에서 이후 자신의 진료소와 대학을 세우게 된다.",
+  "elizabeth-blackwell.interpretation.moment.2":
+    "프로필의 자율성 욕구(autonomy_need) 점수를 뚜렷이 보여주는 대목이다 — 주어지지 않는 자리를 계속 구하는 대신, 스스로 그 자리를 만들어낸 것이다.",
+  "elizabeth-blackwell.interpretation.turning_point.1":
+    "프로필의 적응력(adaptability) 점수와 맞아떨어지는 대목이다 — 원래 추구하던 진료 형태가 경력을 가로막는 좌절을 겪은 뒤, 그 분야를 아예 떠나는 대신 다른 형태의 의료 활동으로 방향을 돌린 것이다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
