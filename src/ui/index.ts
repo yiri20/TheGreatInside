@@ -60,6 +60,7 @@ export {
   formatScore,
   gapGeometry,
   impactPresentation,
+  initialsFromName,
 } from "./lib/display.js";
 
 export type { ConfidenceLevel, ImpactPresentation } from "./lib/display.js";

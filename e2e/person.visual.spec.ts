@@ -144,16 +144,65 @@ test("person page without a portrait still renders a coherent hero (en-US, yi-su
   // gained a real, verified portrait this session (Chalon 1840 watercolor),
   // so she no longer exercises the no-portrait branch. yi-sun-sin remains
   // portrait-less and was already part of this suite's own matrix above.
+  //
+  // Missing-portrait fallback (added after this test previously asserted
+  // .tgi-identity-hero__portrait had COUNT 0 — that was pinning the bug:
+  // IdentityHero rendered no visual identity element at all when the
+  // portrait was absent, unlike PersonCard's initials placeholder. The
+  // portrait column now always renders, holding either the image or the
+  // same initials-on-sunken-surface fallback PersonCard already used.
   await page.setViewportSize({ width: 1600, height: 1100 });
   const console_ = captureConsole(page);
   await page.goto("/en-US/people/yi-sun-sin", { waitUntil: "networkidle" });
 
-  await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(0);
+  await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(1);
+  await expect(page.locator(".tgi-identity-hero__portrait img")).toHaveCount(0);
+  const placeholder = page.locator(".tgi-identity-hero__placeholder");
+  await expect(placeholder).toBeVisible();
+  await expect(placeholder).toHaveText("YS");
+  await expect(placeholder).toHaveAttribute("aria-hidden", "true");
+  // Decorative only — no accessible name of its own, so the h1 right next
+  // to it remains the single thing assistive tech announces as "the name".
+  await expect(placeholder).not.toHaveAttribute("aria-label");
+  await expect(placeholder).not.toHaveAttribute("role", "img");
   await expect(page.locator("h1.tgi-person-name")).toHaveText(/Yi Sun-sin/);
   await assertNoHorizontalOverflow(page);
 
   expect(console_.errors).toEqual([]);
   expect(console_.pageErrors).toEqual([]);
+});
+
+test("person page without a portrait renders the Korean initials fallback too (ko-KR, yi-sun-sin)", async ({ page }) => {
+  await page.setViewportSize({ width: 1600, height: 1100 });
+  const console_ = captureConsole(page);
+  await page.goto("/ko-KR/people/yi-sun-sin", { waitUntil: "networkidle" });
+
+  const placeholder = page.locator(".tgi-identity-hero__placeholder");
+  await expect(placeholder).toBeVisible();
+  // "이순신" has no internal whitespace, so the shared initials helper
+  // takes its single leading grapheme — same rule as the English case
+  // above, just a different (correct) result for a single-word name.
+  await expect(placeholder).toHaveText("이");
+  await expect(page.locator("h1.tgi-person-name")).toHaveText("이순신");
+  await assertNoHorizontalOverflow(page);
+
+  expect(console_.errors).toEqual([]);
+  expect(console_.pageErrors).toEqual([]);
+});
+
+test("missing-portrait fallback occupies the same column width as a real portrait would, at every viewport (yi-sun-sin)", async ({
+  page,
+}) => {
+  for (const width of [320, 328, 390, 768, 1280, 1920]) {
+    await page.setViewportSize({ width, height: 1000 });
+    await page.goto("/en-US/people/yi-sun-sin", { waitUntil: "networkidle" });
+    const box = await page.locator(".tgi-identity-hero__portrait").boundingBox();
+    expect(box, `portrait column missing at ${width}px`).not.toBeNull();
+    // Person page passes portraitWidth="12rem" (192px) regardless of
+    // portrait presence — the column must hold that width, not collapse.
+    expect(box!.width, `portrait column width at ${width}px`).toBeCloseTo(192, 0);
+    await assertNoHorizontalOverflow(page);
+  }
 });
 
 // ============================================================================

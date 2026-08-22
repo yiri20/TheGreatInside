@@ -6,6 +6,7 @@ import { createElement, type ReactElement } from "react";
 import {
   ComparisonBar,
   ConfidenceIndicator,
+  IdentityHero,
   ImpactBadge,
   PersonCard,
   ScoreBar,
@@ -25,6 +26,7 @@ import {
   formatScore,
   gapGeometry,
   impactPresentation,
+  initialsFromName,
 } from "./lib/display.js";
 import { en } from "../core/i18n/en.js";
 import { t } from "../core/i18n/index.js";
@@ -209,6 +211,80 @@ describe("accessible data display", () => {
     });
     expect(html.match(/<a /g)).toHaveLength(1);
     expect(html).toContain("84%");
+  });
+});
+
+describe("initialsFromName", () => {
+  it("takes the first grapheme of up to two words", () => {
+    expect(initialsFromName("Yi Sun-sin")).toBe("YS");
+    expect(initialsFromName("Marie Curie")).toBe("MC");
+  });
+
+  it("degrades to a single grapheme for a single-word display name (e.g. Korean)", () => {
+    expect(initialsFromName("이순신")).toBe("이");
+  });
+});
+
+describe("IdentityHero", () => {
+  // Results/Person/Compare hero — the reported defect was that this
+  // component rendered NOTHING for the portrait column when `portraitUrl`
+  // was absent (unlike PersonCard, which already had an initials
+  // fallback). These tests pin the fixed contract directly against the
+  // shared component, ahead of the Playwright coverage per surface.
+
+  it("renders the portrait image unchanged when a portrait is present", () => {
+    const html = render(IdentityHero, {
+      name: "Marie Curie",
+      portraitUrl: "/p/curie.jpg",
+      children: createElement("h1", null, "Marie Curie"),
+    });
+    expect(html).toContain("<img");
+    expect(html).toContain('src="/p/curie.jpg"');
+    expect(html).toContain('alt=""');
+    expect(html).not.toContain("tgi-identity-hero__placeholder");
+  });
+
+  it("renders a decorative initials placeholder instead of nothing when the portrait is absent", () => {
+    const html = render(IdentityHero, {
+      name: "Ibn Khaldun",
+      children: createElement("h1", null, "Ibn Khaldun"),
+    });
+    expect(html).not.toContain("<img");
+    expect(html).toContain("tgi-identity-hero__placeholder");
+    expect(html).toContain("IK");
+    expect(html).toContain('aria-hidden="true"');
+  });
+
+  it("gives the initials placeholder no accessible name of its own, so the adjacent heading is the only name announced", () => {
+    const html = render(IdentityHero, {
+      name: "Socrates",
+      children: createElement("h1", null, "Socrates"),
+    });
+    const placeholder = html.match(/<div class="tgi-identity-hero__placeholder"[^>]*>/)?.[0];
+    expect(placeholder).toBeDefined();
+    expect(placeholder).not.toContain("aria-label");
+    expect(placeholder).not.toContain('role="img"');
+  });
+
+  it("keeps the portrait column at the same instance-specific width whether or not a portrait exists", () => {
+    const withPortrait = render(IdentityHero, {
+      name: "A",
+      portraitUrl: "/x.jpg",
+      portraitWidth: "12rem",
+      children: "A",
+    });
+    const without = render(IdentityHero, { name: "B", portraitWidth: "12rem", children: "B" });
+    expect(withPortrait).toContain("width:12rem");
+    expect(without).toContain("width:12rem");
+  });
+
+  it("derives Korean initials the same way for the fallback as for the portrait-present heading path", () => {
+    const html = render(IdentityHero, {
+      name: "이순신",
+      children: createElement("h1", null, "이순신"),
+    });
+    expect(html).toContain("이");
+    expect(html).not.toContain("<img");
   });
 });
 

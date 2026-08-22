@@ -204,7 +204,10 @@ export default async function ResultsPage({
               <Stack gap={4}>
                 {/* Phase 10D-1: extracted into IdentityHero — see that
                     file's doc comment. Rendered output unchanged. */}
-                <IdentityHero {...(closest.person.portrait ? { portraitUrl: closest.person.portrait.url } : {})}>
+                <IdentityHero
+                  name={personDisplayName(locale, closest.person)}
+                  {...(closest.person.portrait ? { portraitUrl: closest.person.portrait.url } : {})}
+                >
                   <Stack gap={2}>
                     <Heading level={3} className="tgi-person-name">{personDisplayName(locale, closest.person)}</Heading>
                     <Text tone="muted">

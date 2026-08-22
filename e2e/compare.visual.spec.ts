@@ -53,6 +53,10 @@ const FIXTURES = {
   shortNameConfucius: { token: CLOSE_TOKEN, target: "confucius" },
   /** Single-section fallback: Share present, Differ genuinely absent. */
   shareOnlyConfucius: { token: SHARE_ONLY_TOKEN, target: "confucius" },
+  /** Portrait-less target (checked directly against src/data/people, not
+   *  assumed — benjamin-franklin above gained a real portrait since this
+   *  file's fixtures were first written, so it no longer serves this role). */
+  noPortraitSocrates: { token: CLOSE_TOKEN, target: "socrates" },
 } as const;
 
 const VIEWPORTS = [
@@ -177,6 +181,28 @@ test("compare: portrait-present target (da Vinci) — hero unaffected, Learn Fro
   const clipped = await assertNoClippedElements(page);
   expect(clipped).toEqual([]);
 });
+
+for (const locale of LOCALES) {
+  test(`compare: portrait-less target (Socrates) renders an initials fallback, not an empty portrait column (${locale})`, async ({
+    page,
+  }) => {
+    const console_ = captureConsole(page);
+    const response = await page.goto(url(locale, FIXTURES.noPortraitSocrates), { waitUntil: "networkidle" });
+    expect(response?.status()).toBe(200);
+
+    await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(1);
+    await expect(page.locator(".tgi-identity-hero__portrait img")).toHaveCount(0);
+    const placeholder = page.locator(".tgi-identity-hero__placeholder");
+    await expect(placeholder).toBeVisible();
+    await expect(placeholder).toHaveAttribute("aria-hidden", "true");
+    await expect(placeholder).not.toHaveAttribute("aria-label");
+    await expect(page.locator("h1.tgi-person-name")).toBeVisible();
+
+    await assertNoHorizontalOverflow(page);
+    expect(console_.errors).toEqual([]);
+    expect(console_.pageErrors).toEqual([]);
+  });
+}
 
 test("compare: short target name (Confucius) — no wrapping/overflow regression", async ({ page }) => {
   await page.setViewportSize({ width: 1600, height: 1200 });

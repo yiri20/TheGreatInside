@@ -143,3 +143,18 @@ export function formatLifespan(
 export function cx(...parts: Array<string | false | null | undefined>): string {
   return parts.filter(Boolean).join(" ");
 }
+
+/**
+ * Up to two leading grapheme clusters from a display name, one per
+ * whitespace-separated word — the shared portrait-placeholder convention
+ * (`PersonCard`, `IdentityHero`). Takes whatever the caller's locale already
+ * produced as the display name, so "Yi Sun-sin" yields "YS" and the
+ * single-word Korean form "이순신" (no internal spaces) yields "이".
+ */
+export function initialsFromName(name: string): string {
+  return name
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((part) => [...part][0] ?? "")
+    .join("");
+}

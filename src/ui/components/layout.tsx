@@ -10,7 +10,7 @@
  * compare).
  */
 import type { ReactNode } from "react";
-import { cx } from "../lib/display.js";
+import { cx, initialsFromName } from "../lib/display.js";
 import { Stack } from "./primitives.js";
 
 /* -------------------------------------------------------------------- Rail */
@@ -60,8 +60,18 @@ export function Rail({
  * links/CTA, and that content difference is real, not incidental duplication.
  * Only the structural shell (portrait sizing/shrink behaviour + the flex
  * row + the info column's flex-basis/min-width fix) is shared.
+ *
+ * Missing-portrait fallback: when `portraitUrl` is absent (most of the
+ * roster — see `PersonPortrait`'s doc comment in `core/types.ts`), this
+ * used to render NOTHING for the portrait column at all — the one visual
+ * identity element of the product's highest-visibility hero silently
+ * disappearing, unlike `PersonCard`'s initials placeholder. Now renders the
+ * same initials-on-sunken-surface treatment as `PersonCard`, scaled to
+ * `portraitWidth`, so the column always occupies its real width and every
+ * hero reads as intentionally designed rather than broken.
  */
 export function IdentityHero({
+  name,
   portraitUrl,
   portraitWidth = "8rem",
   /** Intrinsic dimensions (CLS prevention) — only the person page currently
@@ -72,6 +82,9 @@ export function IdentityHero({
   align = "center",
   children,
 }: {
+  /** Display name (already localised by the caller) — feeds the initials
+   *  fallback only; the visible name heading itself lives in `children`. */
+  name: string;
   portraitUrl?: string;
   /** Matches each call site's existing value (person: 12rem, results/compare: 8rem). */
   portraitWidth?: string;
@@ -83,7 +96,7 @@ export function IdentityHero({
   align?: "start" | "center";
   children: ReactNode;
 }) {
-  const img = (
+  const img = portraitUrl ? (
     // eslint-disable-next-line @next/next/no-img-element -- external, licence-attributed portraits; see person/results/compare pages' own prior comments.
     <img
       className="tgi-identity-hero__img"
@@ -92,21 +105,31 @@ export function IdentityHero({
       {...(portraitImgWidth ? { width: portraitImgWidth } : {})}
       {...(portraitImgHeight ? { height: portraitImgHeight } : {})}
     />
+  ) : (
+    // Decorative: the adjacent heading in `children` already names this
+    // person, so an accessible name here would be redundant, not additive.
+    // font-size is 30% of portraitWidth so the initials scale with whichever
+    // hero size this instance uses (8rem results/compare, 12rem person).
+    <div
+      className="tgi-identity-hero__placeholder"
+      aria-hidden="true"
+      style={{ fontSize: `calc(${portraitWidth} * 0.3)` }}
+    >
+      {initialsFromName(name)}
+    </div>
   );
   return (
     <div className={cx("tgi-identity-hero", align === "start" && "tgi-identity-hero--align-start")}>
-      {portraitUrl ? (
-        <div className="tgi-identity-hero__portrait" style={{ width: portraitWidth }}>
-          {portraitCaption ? (
-            <Stack gap={2}>
-              {img}
-              {portraitCaption}
-            </Stack>
-          ) : (
-            img
-          )}
-        </div>
-      ) : null}
+      <div className="tgi-identity-hero__portrait" style={{ width: portraitWidth }}>
+        {portraitCaption ? (
+          <Stack gap={2}>
+            {img}
+            {portraitCaption}
+          </Stack>
+        ) : (
+          img
+        )}
+      </div>
       <div className="tgi-identity-hero__info">{children}</div>
     </div>
   );

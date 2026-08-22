@@ -133,6 +133,33 @@ for (const locale of LOCALES) {
   }
 }
 
+for (const locale of LOCALES) {
+  test(`closest-match hero renders an initials fallback, not an empty portrait column, when the match has no portrait (${locale})`, async ({
+    page,
+  }) => {
+    // FIXTURES.neutral's closest match against the current roster is Ibn
+    // Khaldun, a real portrait-less person (checked directly against
+    // src/data/people, not assumed) — exercises the fix for the reported
+    // defect: IdentityHero used to render nothing at all for the portrait
+    // column here, unlike PersonCard's initials fallback used elsewhere on
+    // this same page (Category Matches, Unexpected Match, etc.).
+    const console_ = captureConsole(page);
+    await page.goto(`/${locale}/results?r=${encodeURIComponent(FIXTURES.neutral)}`, { waitUntil: "networkidle" });
+
+    await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(1);
+    await expect(page.locator(".tgi-identity-hero__portrait img")).toHaveCount(0);
+    const placeholder = page.locator(".tgi-identity-hero__placeholder");
+    await expect(placeholder).toBeVisible();
+    await expect(placeholder).toHaveAttribute("aria-hidden", "true");
+    await expect(placeholder).not.toHaveAttribute("aria-label");
+    await expect(page.locator("h3.tgi-person-name")).toBeVisible();
+
+    await assertNoHorizontalOverflow(page);
+    expect(console_.errors).toEqual([]);
+    expect(console_.pageErrors).toEqual([]);
+  });
+}
+
 test("SignInCta remains after Closest Match and before deeper sections (Phase 10C contract)", async ({ page }) => {
   await page.goto(`/en-US/results?r=${encodeURIComponent(FIXTURES.neutral)}`, { waitUntil: "networkidle" });
   const positions = await page.evaluate(() => {

@@ -929,6 +929,27 @@ details > summary:focus-visible {
   border-radius: var(--tgi-radius-lg);
   display: block;
 }
+/* Missing-portrait fallback: same "initials, not a broken-image icon"
+   language as .tgi-personcard__placeholder, scaled to this hero's own
+   portrait width so the column occupies the same footprint a real portrait
+   would rather than collapsing — the common case for this roster (see
+   PersonPortrait's doc comment), not a degraded one. */
+.tgi-identity-hero__placeholder {
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--tgi-surface-sunken);
+  border-radius: var(--tgi-radius-lg);
+  font-family: var(--tgi-font-display);
+  /* font-size is set inline per instance (30% of portraitWidth — see
+     IdentityHero in layout.tsx) so both hero sizes (8rem results/compare,
+     12rem person) keep the same proportion PersonCard establishes between
+     its own portrait width and its 2xl initials size, rather than one fixed
+     token serving two different portrait widths. */
+  color: var(--tgi-ink-muted);
+}
 /* Same fix documented in CLAUDE.md ("Layout regression from the portrait
    hero"): flex:1 claims the row's real remaining width instead of being
    sized by content, and min-width:0 is what lets the name/heading wrap

@@ -23,6 +23,7 @@ import {
   formatScore,
   gapGeometry,
   impactPresentation,
+  initialsFromName,
 } from "../lib/display.js";
 import { Card, Cluster, Stack, Text, VisuallyHidden } from "./primitives.js";
 
@@ -266,11 +267,7 @@ export function PersonCard({
   locale,
   footer,
 }: PersonCardProps) {
-  const initials = name
-    .split(/\s+/)
-    .slice(0, 2)
-    .map((part) => [...part][0] ?? "")
-    .join("");
+  const initials = initialsFromName(name);
 
   return (
     <Card as="article" variant="flush" interactive={href !== undefined} className={cx(href && "tgi-personcard--linked")}>

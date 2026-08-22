@@ -187,7 +187,7 @@ export default async function ComparePage({
           <Eyebrow>{t(locale, "compare.hero.eyebrow", { person: targetName })}</Eyebrow>
           {/* Phase 10D-1: extracted into IdentityHero — see that file's doc
               comment. Rendered output unchanged. */}
-          <IdentityHero {...(target.portrait ? { portraitUrl: target.portrait.url } : {})}>
+          <IdentityHero name={targetName} {...(target.portrait ? { portraitUrl: target.portrait.url } : {})}>
             <Stack gap={2}>
               <Heading level={1} className="tgi-person-name">{targetName}</Heading>
               <Text tone="muted">

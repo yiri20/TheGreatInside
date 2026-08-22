@@ -188,6 +188,7 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
         {(() => {
           const hero = (
             <IdentityHero
+              name={personDisplayName(locale, person)}
               {...(person.portrait ? { portraitUrl: person.portrait.url } : {})}
               portraitWidth="12rem"
               align="start"
