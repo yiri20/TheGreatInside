@@ -39,6 +39,13 @@ Last updated: 2026-08 (end of `feat/editorial-backfill-batch-6`).
   Maathai, Mozart, Gandhi) — **76 of 95 people editorialized**, 19 Tier-C
   remain, all now low-exposure (highest single #1-match frequency ~2%).
   See [`docs/checkpoints/editorial.md`](../checkpoints/editorial.md).
+- **`IdentityHero` missing-portrait fallback** (2026-08, `chore/consolidated-dev-2026-08`): the Results/Person/Compare hero used to
+  render nothing at all for the portrait column when a person had no
+  portrait — unlike `PersonCard`, which already showed initials. Fixed by
+  reusing that same initials-on-sunken-surface treatment inside
+  `IdentityHero` (`src/ui/components/layout.tsx`), scaled to each call
+  site's `portraitWidth`. Portrait coverage itself is unchanged (42/95);
+  this only fixes how the other 53 already render.
 - **Custom domain**: `https://thegreatinside.com` is the canonical
   production origin (migrated from `the-great-inside.vercel.app`, which
   now permanently redirects). `www` also redirects to the apex.
