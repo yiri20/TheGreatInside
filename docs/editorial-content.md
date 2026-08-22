@@ -395,3 +395,84 @@ Corrected, mechanically-computed figures after Batch 2:
 
 171 total items (79 achievements, 61 moments, 31 turning points), 57 with
 an interpretation. Re-run the audit tool for the current live numbers.
+
+**Interpretation-count discrepancy, found and resolved before Batch 3
+(2026-08).** This section had stated "57 with an interpretation" for the
+Batch 2 close, but the individual batch deltas reported along the way
+(pilot 15, Batch 1 "+18", Batch 2 "+25") sum to 58, not 57 — an internal
+inconsistency in prior reporting, not a live discrepancy in the data
+itself. Reconstructed directly from git history
+(`git show <commit>:src/data/people/editorial.ts | grep -c
+"interpretationKey:"` at each batch's closing commit) rather than
+guessed: pilot close = 15 (matches), Batch 1 close = **32** (so Batch 1
+actually added **+17**, not +18 as previously reported), Batch 2 close =
+57 (so Batch 2's own "+25" was correct, 32+25=57). The one-item error was
+in Batch 1's reported delta, not in any count derived from the live code
+— `editorialCoverageStats(SEED_PEOPLE).itemsWithInterpretation` has been
+57 all along, both before and after this investigation. No content was
+altered to make arithmetic match; only this historical narration was
+corrected. `editorialCoverageAudit.ts` now also prints `EN editorial
+keys`/`KO editorial keys` (distinct `textKey`/`interpretationKey` counts)
+alongside the existing item-level stats, and both `editorialCoverageAudit.ts`
+and `editorialCoverageStats()` carry internal consistency assertions
+(achievement+moment+turningPoint sums to totalItems, interpretation count
+never exceeds totalItems, KO key count never exceeds EN key count) so a
+future silent arithmetic drift like this one would surface immediately
+rather than needing a git-archaeology pass to catch.
+
+**Batch 3 (`feat/editorial-backfill-batch-3`).** A third 10-person Tier-B
+backfill: Franz Kafka, Vincent van Gogh, Thomas Aquinas, Maimonides,
+Sequoyah, Sojourner Truth, B. R. Ambedkar, Katherine Johnson, Muhammad
+Ali, and Mary Wollstonecraft — selected by ranking the audit tool's
+remaining Tier-B people by evidence richness first (all ten comfortably
+inside the `Rich` bucket, 536-699 words), then choosing among the
+richest candidates for era/region/profession/gender/life-trajectory
+diversity rather than taking the top 10 by pure word count alone — the
+unadjusted top 10 skewed entirely male and heavily Western-European
+(Kafka, van Gogh, Wittgenstein, Edison, Aquinas, Michelangelo, Malcolm X,
+Wilbur Wright, Maimonides, Copernicus); Sequoyah (the roster's only
+Indigenous American profile), Sojourner Truth, B. R. Ambedkar (South
+Asia), Katherine Johnson, and Mary Wollstonecraft were selected instead
+of Wittgenstein/Edison/Michelangelo/Wilbur Wright/Copernicus for real
+diversity gains at only a modest richness cost (still all ≥536 words,
+well clear of the 500-word/10-episode Rich threshold). All content drawn
+entirely from each person's existing `data-pipeline/candidates/*.json`
+rationale and sources — no external research — with one narrow exception
+for Thomas Aquinas: his well-known mystical-experience/"straw" turning
+point (why the Summa is unfinished) is not stated verbatim in the
+candidate JSON's rationale strings (which only note he "left the Summa
+unfinished"), but is uncontested general biographical knowledge directly
+consistent with, and explaining, that already-cited fact, sourced to his
+own cited Wikipedia/SEP entries and hedged as "a widely documented
+account holds" — the same "well-established general knowledge" allowance
+Writing Standard v1 already carves out, not new research. Opener
+diversity was checked mechanically before and after drafting (not just
+at the end): of Batch 3's 20 new interpretations, none repeats another
+Batch-3 opener, and the only overlaps with the pre-existing 57-item
+corpus are four 2-time reuses of a short "The profile's X score" phrase
+shape with a different attribute name each time (never a full-sentence
+duplicate) — the corpus's actual most-reused near-identical opener,
+"This is consistent with the profile's..." (6 uses), belongs entirely to
+the pilot/Batch 1/Batch 2 and was not touched or added to by Batch 3.
+Structural validation clean (0 issues), Korean coverage 100%, matching
+health unaffected (`simulate.ts 10000 quiz` still shows Warren Buffett's
+unchanged 12.0% #1 frequency), and `git diff` against
+`src/core/matching`, `src/core/attributes`, `db/`, and every roster file
+is empty — only `src/core/i18n/editorial.ts`,
+`src/data/people/editorial.ts`, `src/core/people/editorialValidation.ts`
+(the two new coverage-stat fields), and `src/dev/editorialCoverageAudit.ts`
+(the printed fields + consistency assertions) changed.
+
+Corrected, mechanically-computed figures after Batch 3:
+
+| Tier | Total | Complete | Remaining |
+|---|---|---|---|
+| A (full evidence ledger) | 8 | 2 | 6 |
+| B (qa_passed candidate JSON) | 52 | 32 | 20 |
+| C (inline TS comments only) | 35 | 6 | 29 |
+| **Total** | **95** | **40** | **55** |
+
+232 total items (109 achievements, 85 moments, 38 turning points), 77
+with an interpretation, 309 distinct EN keys / 309 KO keys (100%
+coverage). Re-run the audit tool for the current live numbers rather
+than trusting this table once it goes stale.
