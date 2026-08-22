@@ -65,6 +65,18 @@ until eligibility passed — 17 of 20 candidates from that batch had to be
 reverted. Run `src/dev/roster1000/checkScoringLockIntegrity.ts` before
 committing any session that touches a previously-committed candidate.
 
+## Self-Made / Earned-Distinction Roster Philosophy Audit (2026-08)
+
+Full 3-tier audit (Strong Self-Made Fit / Earned but Advantaged / Weak
+Fit) of all 95 people against `inclusion_v1`'s counterfactual test:
+**69 Strong, 26 Earned but Advantaged, 0 Weak Fit** (1 Borderline flag —
+Aung San Suu Kyi — within Earned but Advantaged, no action required).
+No one removed or replaced; no KEEP/REVIEW/REPLACE-CANDIDATE action
+applies to anyone, since that step is scoped to the Weak-Fit tier and
+it's empty. Full per-person record, calibration walkthrough, and a
+proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
+[`self-made-earned-distinction-audit-2026-08.md`](self-made-earned-distinction-audit-2026-08.md).
+
 ## Known open items
 
 - **Standing merge blocker** (unrelated to roster data): mobile quiz

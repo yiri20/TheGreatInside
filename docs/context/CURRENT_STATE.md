@@ -39,6 +39,11 @@ Last updated: 2026-08 (end of `feat/editorial-backfill-batch-6`).
   now permanently redirects). `www` also redirects to the apex.
 - **Monetization**: "Deep Inside" (one-time paid feature) implemented on
   `feat/monetization-v1`, intentionally unmerged, no live payment infra.
+- **Self-made/earned-distinction philosophy audit (2026-08)**: all 95
+  people classified against `inclusion_v1`'s counterfactual test — 69
+  Strong Self-Made Fit, 26 Earned but Advantaged, 0 Weak Fit. No roster
+  change resulted. Full record + proposed future-candidate gate:
+  [`docs/checkpoints/self-made-earned-distinction-audit-2026-08.md`](../checkpoints/self-made-earned-distinction-audit-2026-08.md).
 
 ## Known standing blocker (not yet fixed, blocks merge to `main`)
 
