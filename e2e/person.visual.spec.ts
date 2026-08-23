@@ -22,16 +22,24 @@ import {
  *    session 5 (2026-08, Chalon 1840 watercolor) — no longer a no-portrait
  *    fixture, but still exercises IdentityHero's align="start" +
  *    portraitCaption path alongside leonardo-da-vinci
- *  - yi-sun-sin: no portrait, and Korean display name ("이순신") is much
- *    shorter than the English one ("Yi Sun-sin") — real localisation-driven
- *    length variation on the no-portrait layout, not a synthetic string.
- *    Also the fixture for the dedicated "no portrait" hero test below,
- *    since ada-lovelace can no longer serve that role.
+ *  - socrates: no portrait, single-word name in both locales ("Socrates" /
+ *    "소크라테스") — real localisation-driven layout on the no-portrait
+ *    hero. Was yi-sun-sin until the Exposure-Priority Portrait Pass
+ *    (2026-08) gave Yi Sun-sin a real portrait (a modern reconstruction
+ *    bust — no lifetime depiction survives him), so he no longer exercises
+ *    the no-portrait branch. Also the fixture for the dedicated "no
+ *    portrait" hero test below. Note this swap loses the specific
+ *    multi-word-English/single-token-Korean initials contrast yi-sun-sin
+ *    had (Yi Sun-sin is the roster's only Korean-nationality person, so no
+ *    portrait-less replacement reproduces it) — that exact string mapping
+ *    ("YS" vs "이") is still pinned directly by `initialsFromName` unit
+ *    tests in `src/ui/ui.test.ts`, so no coverage is actually lost, just
+ *    relocated to a cheaper test.
  *
  * All three have non-empty `impactDomains`, so all three exercise the new
  * Rail(hero, Known For) composition, not just the no-secondary fallback.
  */
-const PEOPLE = ["leonardo-da-vinci", "ada-lovelace", "yi-sun-sin"] as const;
+const PEOPLE = ["leonardo-da-vinci", "ada-lovelace", "socrates"] as const;
 const LOCALES = ["en-US", "ko-KR"] as const;
 
 const VIEWPORTS = [
@@ -139,11 +147,11 @@ test("person page CTA/link integrity: wikipedia and compare links resolve (en-US
   expect(console_.pageErrors).toEqual([]);
 });
 
-test("person page without a portrait still renders a coherent hero (en-US, yi-sun-sin)", async ({ page }) => {
-  // Was ada-lovelace, swapped roster-1000 session 5 (2026-08): Ada Lovelace
-  // gained a real, verified portrait this session (Chalon 1840 watercolor),
-  // so she no longer exercises the no-portrait branch. yi-sun-sin remains
-  // portrait-less and was already part of this suite's own matrix above.
+test("person page without a portrait still renders a coherent hero (en-US, socrates)", async ({ page }) => {
+  // Was yi-sun-sin until the Exposure-Priority Portrait Pass (2026-08) gave
+  // him a real portrait (see PEOPLE comment above for the full rationale).
+  // socrates is portrait-less and was already part of this suite's own
+  // matrix above.
   //
   // Missing-portrait fallback (added after this test previously asserted
   // .tgi-identity-hero__portrait had COUNT 0 — that was pinning the bug:
@@ -153,49 +161,51 @@ test("person page without a portrait still renders a coherent hero (en-US, yi-su
   // same initials-on-sunken-surface fallback PersonCard already used.
   await page.setViewportSize({ width: 1600, height: 1100 });
   const console_ = captureConsole(page);
-  await page.goto("/en-US/people/yi-sun-sin", { waitUntil: "networkidle" });
+  await page.goto("/en-US/people/socrates", { waitUntil: "networkidle" });
 
   await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(1);
   await expect(page.locator(".tgi-identity-hero__portrait img")).toHaveCount(0);
   const placeholder = page.locator(".tgi-identity-hero__placeholder");
   await expect(placeholder).toBeVisible();
-  await expect(placeholder).toHaveText("YS");
+  // "Socrates" has no internal whitespace, so the shared initials helper
+  // takes its single leading grapheme, same rule as the Korean case below.
+  await expect(placeholder).toHaveText("S");
   await expect(placeholder).toHaveAttribute("aria-hidden", "true");
   // Decorative only — no accessible name of its own, so the h1 right next
   // to it remains the single thing assistive tech announces as "the name".
   await expect(placeholder).not.toHaveAttribute("aria-label");
   await expect(placeholder).not.toHaveAttribute("role", "img");
-  await expect(page.locator("h1.tgi-person-name")).toHaveText(/Yi Sun-sin/);
+  await expect(page.locator("h1.tgi-person-name")).toHaveText(/Socrates/);
   await assertNoHorizontalOverflow(page);
 
   expect(console_.errors).toEqual([]);
   expect(console_.pageErrors).toEqual([]);
 });
 
-test("person page without a portrait renders the Korean initials fallback too (ko-KR, yi-sun-sin)", async ({ page }) => {
+test("person page without a portrait renders the Korean initials fallback too (ko-KR, socrates)", async ({ page }) => {
   await page.setViewportSize({ width: 1600, height: 1100 });
   const console_ = captureConsole(page);
-  await page.goto("/ko-KR/people/yi-sun-sin", { waitUntil: "networkidle" });
+  await page.goto("/ko-KR/people/socrates", { waitUntil: "networkidle" });
 
   const placeholder = page.locator(".tgi-identity-hero__placeholder");
   await expect(placeholder).toBeVisible();
-  // "이순신" has no internal whitespace, so the shared initials helper
+  // "소크라테스" has no internal whitespace, so the shared initials helper
   // takes its single leading grapheme — same rule as the English case
   // above, just a different (correct) result for a single-word name.
-  await expect(placeholder).toHaveText("이");
-  await expect(page.locator("h1.tgi-person-name")).toHaveText("이순신");
+  await expect(placeholder).toHaveText("소");
+  await expect(page.locator("h1.tgi-person-name")).toHaveText("소크라테스");
   await assertNoHorizontalOverflow(page);
 
   expect(console_.errors).toEqual([]);
   expect(console_.pageErrors).toEqual([]);
 });
 
-test("missing-portrait fallback occupies the same column width as a real portrait would, at every viewport (yi-sun-sin)", async ({
+test("missing-portrait fallback occupies the same column width as a real portrait would, at every viewport (socrates)", async ({
   page,
 }) => {
   for (const width of [320, 328, 390, 768, 1280, 1920]) {
     await page.setViewportSize({ width, height: 1000 });
-    await page.goto("/en-US/people/yi-sun-sin", { waitUntil: "networkidle" });
+    await page.goto("/en-US/people/socrates", { waitUntil: "networkidle" });
     const box = await page.locator(".tgi-identity-hero__portrait").boundingBox();
     expect(box, `portrait column missing at ${width}px`).not.toBeNull();
     // Person page passes portraitWidth="12rem" (192px) regardless of

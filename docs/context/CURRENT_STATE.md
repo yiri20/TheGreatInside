@@ -44,8 +44,27 @@ Last updated: 2026-08 (end of `feat/editorial-backfill-batch-6`).
   portrait — unlike `PersonCard`, which already showed initials. Fixed by
   reusing that same initials-on-sunken-surface treatment inside
   `IdentityHero` (`src/ui/components/layout.tsx`), scaled to each call
-  site's `portraitWidth`. Portrait coverage itself is unchanged (42/95);
-  this only fixes how the other 53 already render.
+  site's `portraitWidth`.
+- **Portrait coverage: 55/95** (was 42/95). Exposure-Priority Portrait
+  Pass (2026-08, `chore/consolidated-dev-2026-08`) added 13 portraits
+  (Gandhi, Atatürk, Julius Caesar, Ibn Sina, Toni Morrison, Wangari
+  Maathai, Aung San Suu Kyi, Oprah Winfrey, Maimonides, Averroes, Yi
+  Sun-sin, Hayao Miyazaki, Yayoi Kusama), selected by deterministic
+  exposure signals (#1-match frequency, Similar-People in-degree,
+  Opposite selection, editorial status) rather than raw coverage —
+  targeted portrait-less people are the highest-exposure ones. Result:
+  Top-20 Similar-in-degree coverage 11→20/20, Top-20 #1-match coverage
+  13→16/20, portrait-less share of Similar-rail exposure mass 48.2%→16.5%,
+  of #1-match mass 33.6%→19.8%. All sourced from Wikimedia
+  Commons/PD/CC-compatible licenses only (several historical figures
+  deliberately skipped — Akira Kurosawa, Akio Morita — over unresolved
+  US-copyright/URAA ambiguity on the only candidate images found; Yi
+  Sun-sin, Ibn Sina, Maimonides, Averroes use later depictions with an
+  explicit not-a-lifetime-likeness caveat in `portrait.attribution`, the
+  existing caption mechanism). `e2e/person.visual.spec.ts`'s no-portrait
+  fixture moved from yi-sun-sin (now has a portrait) to socrates.
+  Remaining portrait-less: 40 (Zheng He non-eligible, 39 eligible, all
+  now lower-exposure than this batch's floor).
 - **Custom domain**: `https://thegreatinside.com` is the canonical
   production origin (migrated from `the-great-inside.vercel.app`, which
   now permanently redirects). `www` also redirects to the apex.
