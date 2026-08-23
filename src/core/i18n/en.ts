@@ -389,6 +389,7 @@ export const en = {
   "quiz.nav.required": "Choose an answer to continue.",
   "quiz.likert.disagree": "Strongly disagree",
   "quiz.likert.agree": "Strongly agree",
+  "quiz.likert.instruction": "Choose whichever description feels closer to you.",
 
   "quiz.resume.title": "Continue where you left off?",
   "quiz.resume.body": "You already answered {count} of {total} questions in an earlier visit.",

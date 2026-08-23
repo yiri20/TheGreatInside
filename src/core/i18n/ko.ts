@@ -450,6 +450,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "quiz.nav.required": "계속하려면 답변을 선택해 주세요.",
   "quiz.likert.disagree": "전혀 그렇지 않다",
   "quiz.likert.agree": "매우 그렇다",
+  "quiz.likert.instruction": "두 설명 중 나에게 더 가까운 쪽을 선택하세요.",
 
   "quiz.resume.title": "이어서 진행하시겠어요?",
   "quiz.resume.body": "이전에 {total}문항 중 {count}문항에 답변하셨습니다.",

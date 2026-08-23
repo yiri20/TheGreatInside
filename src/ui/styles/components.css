@@ -587,30 +587,39 @@ fieldset.tgi-likert {
   box-shadow: var(--tgi-focus-ring);
 }
 
-.tgi-likert__row {
-  display: flex;
-  align-items: center;
-  gap: var(--tgi-space-4);
+/* Endpoint-clarity hotfix (2026-08): ONE layout at every viewport — an
+   instruction line, the 1-7 row, then both anchors together directly below
+   it (space-between: left anchor sits under "1", right anchor under "7").
+   Previously the anchors flanked the row and that row became a COLUMN
+   below 640px, stacking "left anchor ABOVE / right anchor BELOW" the
+   options with no visual tie to either end — see quiz.tsx's LikertScale
+   doc comment for the full incident. */
+.tgi-likert__instruction {
+  margin: 0 0 var(--tgi-space-3) 0;
+  font-size: var(--tgi-text-sm);
+  color: var(--tgi-ink-secondary);
 }
-@media (max-width: 640px) {
-  .tgi-likert__row {
-    flex-direction: column;
-    gap: var(--tgi-space-3);
-  }
+.tgi-likert__anchors {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--tgi-space-3);
+  margin-top: var(--tgi-space-2);
 }
 .tgi-likert__anchor {
-  flex: 0 0 auto;
-  max-width: 7rem;
+  max-width: 46%;
   font-size: var(--tgi-text-xs);
   color: var(--tgi-ink-muted);
-  text-align: center;
 }
+.tgi-likert__anchor--left { text-align: left; }
+.tgi-likert__anchor--right { text-align: right; }
 .tgi-likert__options {
   display: flex;
-  flex-wrap: wrap;
+  /* Explicit, not the previous implicit "never actually wraps because the
+     circles happen to be small enough" — see the shrink-at-640px comment
+     below for why this is guaranteed, not assumed. */
+  flex-wrap: nowrap;
   justify-content: center;
   gap: var(--tgi-space-2);
-  flex: 1;
 }
 .tgi-likert__option {
   position: relative;

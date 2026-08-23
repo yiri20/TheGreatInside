@@ -193,3 +193,81 @@ test("quiz Likert @ ko-KR: 7 options render in a single unwrapped row at 320px (
   expect(new Set(tops).size, `expected all 7 options on one row at 320px (ko-KR), got tops: ${tops.join(",")}`).toBe(1);
   await assertNoHorizontalOverflow(page);
 });
+
+/**
+ * Endpoint-clarity hotfix (2026-08): a real user reported that the left/
+ * right endpoint descriptions were impossible to associate with the
+ * correct end of the 1-7 scale — because the anchors used to flank the
+ * options row in a flex row that became a COLUMN below 640px, stacking
+ * "left anchor ABOVE the row, right anchor BELOW it" with no tie to either
+ * end. Fixed by moving both anchors into their own row directly beneath
+ * the options, at every viewport, space-between so the left one sits under
+ * "1" and the right one under "7". This locks in: (a) an instruction line
+ * exists, (b) both anchors share one row (never stacked vertically) at
+ * both a narrow and a wide viewport, (c) that row sits BELOW the options
+ * row, (d) the left anchor is left of the right anchor (still the correct
+ * 1<->left / 7<->right order), and (e) the no-wrap fix from the prior
+ * session still holds.
+ */
+const ENDPOINT_WIDTHS = [320, 390, 1280];
+
+for (const width of ENDPOINT_WIDTHS) {
+  for (const locale of ["en-US", "ko-KR"] as const) {
+    test(`quiz Likert endpoint clarity @ ${locale} @ ${width}px: instruction shown, both anchors in one row below the scale, left<->1 / right<->7 order preserved`, async ({
+      page,
+    }) => {
+      await page.setViewportSize({ width, height: 900 });
+      await startQuiz(page, locale);
+
+      const instruction = page.locator(".tgi-likert__instruction").first();
+      await expect(instruction, "instruction line must be present and visible").toBeVisible();
+      const instructionText = (await instruction.textContent())!.trim();
+      expect(instructionText.length, "instruction text must not be empty").toBeGreaterThan(0);
+
+      const group = page.locator(".tgi-likert").first();
+      const leftAnchor = group.locator(".tgi-likert__anchor--left");
+      const rightAnchor = group.locator(".tgi-likert__anchor--right");
+      await expect(leftAnchor).toBeVisible();
+      await expect(rightAnchor).toBeVisible();
+
+      const [leftBox, rightBox, optionsBox, firstOptionBox, lastOptionBox] = await Promise.all([
+        leftAnchor.boundingBox(),
+        rightAnchor.boundingBox(),
+        group.locator(".tgi-likert__options").boundingBox(),
+        group.locator(".tgi-likert__option").first().boundingBox(),
+        group.locator(".tgi-likert__option").last().boundingBox(),
+      ]);
+      expect(leftBox && rightBox && optionsBox && firstOptionBox && lastOptionBox).toBeTruthy();
+
+      // (b) Both anchors share one row — never one above/one below the other.
+      expect(
+        Math.abs(leftBox!.y - rightBox!.y),
+        `left/right anchors must be in the same row, got left.y=${leftBox!.y} right.y=${rightBox!.y}`,
+      ).toBeLessThan(2);
+
+      // (c) The anchor row sits below the 1-7 options row, never above or
+      // interleaved with it (the exact bug: anchor ABOVE the row on mobile).
+      expect(leftBox!.y, "anchor row must render below the options row").toBeGreaterThanOrEqual(optionsBox!.y + optionsBox!.height - 1);
+
+      // (d) Left anchor stays left of right anchor (1<->left, 7<->right),
+      // and each sits on the correct side of the options row's horizontal
+      // centre — "left under 1, right under 7", not swapped or centred.
+      expect(leftBox!.x, "left anchor must start left of the right anchor").toBeLessThan(rightBox!.x);
+      const optionsCenter = optionsBox!.x + optionsBox!.width / 2;
+      expect(leftBox!.x, "left anchor must sit left of the scale's horizontal centre").toBeLessThan(optionsCenter);
+      expect(rightBox!.x + rightBox!.width, "right anchor must sit right of the scale's horizontal centre").toBeGreaterThan(
+        optionsCenter,
+      );
+
+      // (e) Still exactly one row of 7 unwrapped options (no-wrap fix intact).
+      const optionTops = await group
+        .locator(".tgi-likert__option")
+        .evaluateAll((els) => els.map((el) => Math.round(el.getBoundingClientRect().top)));
+      expect(optionTops).toHaveLength(7);
+      expect(new Set(optionTops).size, `options must render on one row, got tops: ${optionTops.join(",")}`).toBe(1);
+      expect(firstOptionBox!.x).toBeLessThan(lastOptionBox!.x);
+
+      await assertNoHorizontalOverflow(page);
+    });
+  }
+}
