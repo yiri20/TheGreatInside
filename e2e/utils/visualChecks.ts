@@ -70,6 +70,16 @@ export async function assertNoClippedElements(page: Page): Promise<string[]> {
       // ImpactBadge/ConfidenceIndicator/ScoreBar's real sr-only text, which
       // the Person page exercises far more than Landing did.
       if (el.closest(".tgi-visually-hidden")) continue;
+      // .tgi-taxonomy-chip__check (People Directory chip redesign, 2026-08):
+      // a decorative, aria-hidden checkmark glyph deliberately collapsed to
+      // width:0/overflow:hidden while its chip is unchecked, expanding to
+      // its natural width only on selection (see components.css's directory
+      // taxonomy chip block) — the same "deliberately clipped, not a
+      // defect" shape as .tgi-visually-hidden above, just for a decorative
+      // state indicator instead of sr-only text. Excluding by class (not a
+      // blanket aria-hidden exclusion) keeps this check strict for any
+      // OTHER aria-hidden element that gets accidentally, visibly clipped.
+      if (el.closest(".tgi-taxonomy-chip__check")) continue;
       if (el.scrollWidth > el.clientWidth + 2 && getComputedStyle(el).overflow !== "visible") {
         offenders.push(`${el.tagName}.${el.className || "(no class)"}: "${(el.textContent ?? "").slice(0, 40)}"`);
       }

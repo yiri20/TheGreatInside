@@ -37,9 +37,13 @@ for (const locale of LOCALES) {
       expect(response?.status(), "landing page did not respond 200").toBe(200);
 
       // Structural presence: eyebrow, headline, both CTAs, AI disclaimer.
+      // Located by their stable class, not exact wording — entry-flow
+      // polish (2026-08) changed the primary CTA to outcome-oriented
+      // copy ("Find My Historical Match" / "나와 닮은 인물 찾기"), which no
+      // longer contains "quiz"/"퀴즈"/"시작" the way the old wording did.
       await expect(page.locator(".tgi-display")).toBeVisible();
-      const quizCta = page.getByRole("link", { name: /quiz|퀴즈|시작/i }).first();
-      const exploreCta = page.getByRole("link", { name: /explore|people|둘러보기|탐색/i }).first();
+      const quizCta = page.locator("a.tgi-landing-cta-primary");
+      const exploreCta = page.locator("a.tgi-landing-cta-secondary");
       await expect(quizCta).toBeVisible();
       await expect(exploreCta).toBeVisible();
 
@@ -80,7 +84,9 @@ test("landing keyboard tab order follows DOM order (en-US, wide desktop)", async
   // stops relative to DOM order via CSS `order`. We assert this indirectly:
   // the header brand link, then landing's own two CTAs, must appear in that
   // relative sequence somewhere in the first several tab stops.
-  const quizIdx = focusSequence.findIndex((s) => /quiz/i.test(s));
+  // Matches the entry-flow polish (2026-08) outcome-oriented primary CTA
+  // wording ("Find My Historical Match"), not the old "Take the Quiz" text.
+  const quizIdx = focusSequence.findIndex((s) => /historical match/i.test(s));
   const peopleIdx = focusSequence.findIndex((s) => /explore|people/i.test(s));
   expect(quizIdx, `focus sequence: ${JSON.stringify(focusSequence)}`).toBeGreaterThanOrEqual(0);
   expect(peopleIdx, `focus sequence: ${JSON.stringify(focusSequence)}`).toBeGreaterThanOrEqual(0);
@@ -159,11 +165,57 @@ test("landing wide-desktop (>=1280px) composition is pixel-unchanged by the mobi
   );
 });
 
+/**
+ * Entry-flow polish (2026-08): "the first CTA chooses the experience; the
+ * second CTA begins it" — Landing's primary CTA and the Quiz intro's Start
+ * button must never say the exact same thing, or the second screen reads
+ * as redundant. Also locks in the width-harmonization pass: at >=1280px
+ * both Landing CTAs are still full pill buttons (rule 2's chrome change
+ * only applies below 1280px), so a wording-length mismatch between them
+ * would read as accidental rather than intentionally paired.
+ */
+const START_BUTTON_TEXT: Record<string, string> = { "en-US": "Start", "ko-KR": "시작하기" };
+
+for (const locale of LOCALES) {
+  test(`entry flow @ ${locale}: Landing primary CTA and Quiz intro Start never say the same thing`, async ({
+    page,
+  }) => {
+    await page.goto(`/${locale}`, { waitUntil: "networkidle" });
+    const landingCtaText = (await page.locator("a.tgi-landing-cta-primary").textContent())!.trim();
+    expect(landingCtaText).not.toBe(START_BUTTON_TEXT[locale]);
+
+    await page.locator("a.tgi-landing-cta-primary").click();
+    await page.waitForURL(new RegExp(`/${locale}/quiz`));
+    const quizStartText = (await page.getByRole("button", { name: START_BUTTON_TEXT[locale] }).textContent())!.trim();
+    expect(quizStartText).toBe(START_BUTTON_TEXT[locale]);
+    expect(quizStartText).not.toBe(landingCtaText);
+  });
+}
+
+test("landing @ 1280px+: primary and secondary CTA widths are harmonized, not accidentally mismatched", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/en-US", { waitUntil: "networkidle" });
+  const primaryWidth = await page.locator("a.tgi-landing-cta-primary").evaluate((el) => el.getBoundingClientRect().width);
+  const secondaryWidth = await page
+    .locator("a.tgi-landing-cta-secondary")
+    .evaluate((el) => el.getBoundingClientRect().width);
+  expect(primaryWidth).toBeCloseTo(secondaryWidth, 0);
+
+  // Hierarchy is still communicated through fill vs. outline, not width.
+  const primaryBg = await page.locator("a.tgi-landing-cta-primary").evaluate((el) => getComputedStyle(el).backgroundColor);
+  const secondaryBg = await page
+    .locator("a.tgi-landing-cta-secondary")
+    .evaluate((el) => getComputedStyle(el).backgroundColor);
+  expect(primaryBg).not.toBe(secondaryBg);
+});
+
 test("landing navigates to quiz and people without console errors (en-US)", async ({ page }) => {
   const console_ = captureConsole(page);
   await page.goto("/en-US", { waitUntil: "networkidle" });
 
-  await page.getByRole("link", { name: /quiz/i }).first().click();
+  await page.locator("a.tgi-landing-cta-primary").click();
   await page.waitForURL(/\/en-US\/quiz/);
   await expect(page.locator("h1, .tgi-heading--1")).toBeVisible();
 

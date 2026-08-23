@@ -428,7 +428,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "landing.title": "역사 속 누구와 생각이 닮았을까요?",
   "landing.subtitle":
     "생각하고, 만들고, 일하고, 결정을 내리는 방식에 대한 질문에 답해보세요. 당신의 프로필을 {count}명의 비범한 인물들과 비교해, 실제로 누구와 가장 닮았는지 보여드립니다.",
-  "landing.cta_primary": "설문 시작하기",
+  "landing.cta_primary": "나와 닮은 인물 찾기",
   "landing.cta_secondary": "먼저 인물들 둘러보기",
   "landing.ai_disclaimer":
     "모든 결과는 당신의 답변으로부터 결정적으로 계산됩니다 — 점수 산출이나 매칭 과정에 생성형 AI는 사용되지 않습니다.",
@@ -437,9 +437,9 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "quiz.intro.eyebrow": "시작하기 전에",
   "quiz.intro.title": "솔직한 답변이면 충분합니다",
   "quiz.intro.body":
-    "생각하는 방식, 만드는 방식, 일하는 방식, 좌절에 대처하는 방식, 사람을 대하는 방식, 주변 세상의 변화를 감지하고 행동하는 방식, 그리고 무엇이 당신을 움직이는지에 대한 64개의 짧은 질문입니다. 대부분 10~15분 정도 걸립니다. 처음 떠오르는 대로 답해주세요 — 정답은 없으며, 어떤 선택도 좋고 나쁨으로 평가되지 않습니다.",
+    "생각하는 방식, 만드는 방식, 일하는 방식, 좌절에 대처하는 방식, 사람을 대하는 방식, 주변 세상의 변화를 감지하고 행동하는 방식, 그리고 무엇이 당신을 움직이는지에 대한 질문입니다. 처음 떠오르는 대로 답해주세요 — 정답은 없으며, 어떤 선택도 좋고 나쁨으로 평가되지 않습니다.",
   "quiz.intro.privacy": "답변은 이 브라우저와 결과 링크 안에만 남습니다. 서버로 전송되거나 계정에 저장되지 않습니다.",
-  "quiz.intro.start": "설문 시작하기",
+  "quiz.intro.start": "시작하기",
   "quiz.intro.meta": "{count}문항 · 약 10–15분 · 로그인 필요 없음",
 
   "quiz.progress": "{total}문항 중 {current}번째",

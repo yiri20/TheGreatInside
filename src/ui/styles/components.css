@@ -793,29 +793,88 @@ details > summary:focus-visible {
 }
 
 /* ------------------------------------------- directory taxonomy filters
-   directory_taxonomy_v1 (2026-08): Profession/Activity and Personality/
-   Trait are two always-visible sections (Part C/F of the redesign) instead
-   of the one flat tagIds <details> dropdown above — see
+   directory_taxonomy_v1 (2026-08, density/chip polish pass): Profession/
+   Activity and Personality/Trait are two always-visible sections — see
    src/core/people/directoryTaxonomy.ts's module doc for why these are two
-   separate axes. Each option is still a real <label><input type=checkbox>>
-   (the same accessible primitive .tgi-tags-filter__option above already
-   uses) — :has() only adds a pill-chip "selected" treatment on top; the
-   checkbox itself remains the actual accessible/keyboard state, so nothing
-   here depends on :has() being supported for correctness, only for the
-   richer visual. */
-.tgi-taxonomy-section { display: flex; flex-direction: column; gap: var(--tgi-space-4); }
-.tgi-taxonomy-category { display: flex; flex-direction: column; gap: var(--tgi-space-2); }
+   separate axes. This block is presentation-only; taxonomy membership,
+   thresholds, and filter semantics live entirely in directoryTaxonomy.ts
+   and explorer.ts and are untouched here.
+
+   DENSITY: two structural changes bring heading-to-first-card distance down
+   substantially without hiding anything behind a dropdown/accordion:
+   1. `.tgi-taxonomy-columns` puts the Profession and Personality sections
+      side by side at the wide-desktop breakpoint (>=1280px, this project's
+      one intentional breakpoint — architecture.md) instead of stacked.
+   2. `.tgi-taxonomy-category` becomes a two-column row — a narrow label
+      column beside a wrapping chip column — down to 640px (this project's
+      existing mobile-collapse breakpoint, matching .tgi-filter-bar/
+      .tgi-results-discovery-grid), instead of "heading on its own row,
+      chips on the row below" for every single subgroup. Below 640px there
+      is too little width for a label column without wrapping single words,
+      so it collapses to label-above-chips — still tighter than before via
+      the chip redesign below, not a dropdown regression.
+
+   CHIP: replaces the earlier <label><input></label> + :has() treatment
+   with this project's OWN established accessible custom-control pattern
+   (see quiz.tsx's ChoiceGroup / .tgi-choicecard above and its doc comment:
+   a real input, invisible via opacity:0 but stretched via position:absolute;
+   inset:0 to cover the whole visible chip — not display:none, so it stays
+   focusable/announced — styled via the adjacent-sibling combinator on its
+   <label>). Reusing this instead of :has() means the chip's accessibility
+   and keyboard behavior is the exact same proven mechanism already used
+   for every other custom control in this app, not a second bespoke one.
+   Selected state is a border/fill change AND a checkmark glyph that
+   expands in — never colour alone (CLAUDE.md design-system invariant). */
+.tgi-taxonomy-columns { display: flex; flex-direction: column; gap: var(--tgi-space-6); }
+@media (min-width: 1280px) {
+  .tgi-taxonomy-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--tgi-space-7);
+    align-items: start;
+  }
+}
+.tgi-taxonomy-section { display: flex; flex-direction: column; gap: var(--tgi-space-3); }
+.tgi-taxonomy-category {
+  display: grid;
+  grid-template-columns: minmax(7rem, 9rem) 1fr;
+  gap: var(--tgi-space-3);
+  align-items: baseline;
+}
+@media (max-width: 640px) {
+  .tgi-taxonomy-category {
+    grid-template-columns: 1fr;
+    gap: var(--tgi-space-2);
+  }
+}
 .tgi-taxonomy-category__heading {
   font-size: var(--tgi-text-xs);
   font-weight: var(--tgi-weight-medium);
   color: var(--tgi-ink-secondary);
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  /* Baseline-aligns with the first line of chips in the row layout;
+     harmless when the category stacks to one column below 640px. */
+  padding-top: 0.4rem;
 }
-.tgi-chip-option {
+.tgi-taxonomy-chip {
+  position: relative;
+  display: inline-flex;
+}
+.tgi-taxonomy-chip__input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.tgi-taxonomy-chip__label {
   display: inline-flex;
   align-items: center;
-  gap: var(--tgi-space-2);
+  gap: 0.3em;
   min-height: 2.25rem;
   padding: 0.35rem var(--tgi-space-3);
   border: var(--tgi-border-width) solid var(--tgi-rule);
@@ -827,23 +886,48 @@ details > summary:focus-visible {
   transition: background var(--tgi-duration-fast) var(--tgi-ease),
     border-color var(--tgi-duration-fast) var(--tgi-ease);
 }
-.tgi-chip-option:has(input:checked) {
+.tgi-taxonomy-chip__label:hover { border-color: var(--tgi-ink-muted); }
+/* Collapsed to zero width when unchecked so the chip stays compact — the
+   whole point of this pass — and expands in on selection rather than
+   reserving a permanent checkbox-sized gap either way. */
+.tgi-taxonomy-chip__check {
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: width var(--tgi-duration-fast) var(--tgi-ease), opacity var(--tgi-duration-fast) var(--tgi-ease);
+}
+.tgi-taxonomy-chip__input:checked + .tgi-taxonomy-chip__label {
   background: var(--tgi-accent-soft);
   border-color: var(--tgi-accent);
   color: var(--tgi-accent);
   font-weight: var(--tgi-weight-medium);
 }
-.tgi-chip-option:has(input:focus-visible) {
+.tgi-taxonomy-chip__input:checked + .tgi-taxonomy-chip__label .tgi-taxonomy-chip__check {
+  width: 1em;
+  opacity: 1;
+}
+.tgi-taxonomy-chip__input:focus-visible + .tgi-taxonomy-chip__label {
+  outline: none;
   box-shadow: var(--tgi-focus-ring);
 }
-.tgi-chip-option input {
-  /* Same 20px floor as .tgi-tags-filter__option's checkbox — label text
-     extends the actual touch target well past the 44px minimum. */
-  width: 1.25rem;
-  height: 1.25rem;
-  accent-color: var(--tgi-accent);
-  cursor: pointer;
-  flex-shrink: 0;
+
+/* Mobile-specific tightening: the two-column desktop layout above doesn't
+   apply below 1280px, and the label-left/chip-right row collapses to
+   stacked below 640px, so mobile needed its own density pass rather than
+   inheriting the desktop win for free. None of this removes anything —
+   still zero-JS, still fully visible, just closer-set. */
+@media (max-width: 640px) {
+  .tgi-taxonomy-columns { gap: var(--tgi-space-5); }
+  .tgi-taxonomy-section { gap: var(--tgi-space-2); }
+  .tgi-taxonomy-category__heading {
+    /* Only exists to baseline-align with the row layout's first chip line
+       — dead space once the category has collapsed to one column. */
+    padding-top: 0;
+  }
+  .tgi-taxonomy-chip__label { padding-inline: var(--tgi-space-2); }
+  .tgi-taxonomy-chip-row.tgi-cluster--2 { gap: var(--tgi-space-1); row-gap: var(--tgi-space-2); }
+  .tgi-taxonomy-category { gap: var(--tgi-space-1); }
 }
 
 /* Selected-filter summary row (Part G) */
@@ -973,6 +1057,24 @@ details > summary:focus-visible {
   }
   .tgi-landing-cta-secondary__arrow {
     display: inline;
+  }
+}
+
+/* 3. Width harmonization (density/entry-flow polish pass): at >=1280px both
+   CTAs are still full pill buttons side by side (rule 2 above only changes
+   the secondary CTA's chrome BELOW 1280px), so a wording-length mismatch
+   between them reads as accidental rather than intentionally paired. A
+   shared min-width — sized just above both buttons' measured natural width
+   in both locales (EN ~259px/~248px, KO ~219px/~230px) — equalizes them
+   without stretching either into an oversized block or touching the
+   primary/secondary fill-vs-outline hierarchy that already communicates
+   which is primary. Scoped the same way as rules 1-2: does nothing below
+   1280px, so mobile/tablet sizing is completely unaffected. */
+@media (min-width: 1280px) {
+  .tgi-landing-cta-primary,
+  .tgi-landing-cta-secondary {
+    min-width: 17rem;
+    justify-content: center;
   }
 }
 

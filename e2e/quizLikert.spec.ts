@@ -15,9 +15,14 @@ import { assertNoHorizontalOverflow, captureConsole } from "./utils/visualChecks
  * overlap). `ChoiceGroup` (multi-choice cards) was never affected — this
  * file also guards that it stays that way.
  */
+// Entry-flow polish (2026-08): the intro CTA is deliberately just "Start" /
+// "시작하기" now — the outcome-oriented wording ("Find My Historical Match" /
+// "나와 닮은 인물 찾기") lives on Landing's own CTA (landing.cta_primary), so
+// this second screen doesn't repeat it. See CLAUDE.md governing principle:
+// "the first CTA chooses the experience; the second CTA begins it."
 const START_LABEL: Record<string, string> = {
-  "en-US": "Start the Quiz",
-  "ko-KR": "설문 시작하기",
+  "en-US": "Start",
+  "ko-KR": "시작하기",
 };
 const NEXT_LABEL: Record<string, string> = {
   "en-US": "Next",
@@ -195,12 +200,15 @@ test("quiz Likert @ ko-KR: 7 options render in a single unwrapped row at 320px (
 });
 
 /**
- * Quiz intro time/sign-in cue (2026-08 quick win): a restrained metadata
- * line near the Start button — question count, time estimate, and
- * confirmation that no sign-in is required for the free quiz/result path.
- * The count must be the SAME number the intro body prose states (both are
- * ultimately backed by the live question bank via `orderedQuestions`, not
- * two independently hardcoded numbers that could drift apart).
+ * Quiz intro time/sign-in cue (2026-08 quick win, body copy trimmed further
+ * in the 2026-08 entry-flow polish pass): a restrained metadata line near
+ * the Start button — question count, time estimate, and confirmation that
+ * no sign-in is required for the free quiz/result path. The body copy
+ * (`quiz.intro.body`) used to ALSO restate the count and duration inline
+ * ("64 short questions... Most people finish in around 10-15 minutes"),
+ * which is exactly the duplication this metadata line was meant to replace
+ * — trimmed once the metadata line existed to carry that information, so
+ * the count/duration now appears exactly once on the screen, not twice.
  */
 const META_LOCALES: Record<string, RegExp> = {
   "en-US": /^\d+ questions · about \d+–\d+ min · no sign-in required$/,
@@ -208,7 +216,9 @@ const META_LOCALES: Record<string, RegExp> = {
 };
 
 for (const [locale, pattern] of Object.entries(META_LOCALES)) {
-  test(`quiz intro @ ${locale}: shows question count / time / no-sign-in cue near Start`, async ({ page }) => {
+  test(`quiz intro @ ${locale}: shows question count / time / no-sign-in cue near Start, not duplicated in body`, async ({
+    page,
+  }) => {
     await page.goto(`/${locale}/quiz`, { waitUntil: "networkidle" });
     const startButton = page.getByRole("button", { name: START_LABEL[locale] });
     await expect(startButton).toBeVisible();
@@ -216,14 +226,15 @@ for (const [locale, pattern] of Object.entries(META_LOCALES)) {
     const meta = page.getByText(pattern);
     await expect(meta).toBeVisible();
     const metaText = (await meta.textContent())!;
-    const count = metaText.match(/\d+/)![0];
+    const count = Number(metaText.match(/\d+/)![0]);
+    expect(count).toBeGreaterThan(0);
 
-    // Same live question count the intro body prose already states — not a
-    // second, independently hardcoded number.
+    // The body copy must NOT also restate the count/duration inline — that
+    // redundancy is exactly what this metadata line replaced.
     const bodyText = (await page.locator("main").textContent())!;
-    expect(bodyText.includes(`${count} `) || bodyText.includes(`${count}개`) || bodyText.includes(`${count}문항`)).toBe(
-      true,
-    );
+    const metaLessBody = bodyText.replace(metaText, "");
+    expect(metaLessBody).not.toMatch(/\d+\s*(short questions|questions|문항)/);
+    expect(metaLessBody).not.toMatch(/\d+[-–]\d+\s*(minutes|min|분)/);
 
     // Physically near the Start button, not buried elsewhere on the screen.
     const startBox = await startButton.boundingBox();

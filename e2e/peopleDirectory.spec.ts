@@ -113,6 +113,54 @@ test("people directory: Profession/Activity and Personality/Trait sections are v
   await expect(page.getByRole("checkbox", { name: "Curiosity" })).toBeVisible();
 });
 
+/**
+ * Chip visual/accessibility polish pass (2026-08): replaced the earlier
+ * <label><input></label> + :has() treatment with this project's OWN
+ * established accessible custom-control pattern (quiz.tsx's ChoiceGroup —
+ * a real input, invisible via opacity:0 but stretched to cover the whole
+ * chip, styled via the adjacent-sibling combinator on its <label>). This
+ * locks in that the swap didn't regress anything: the checkbox is still a
+ * real, keyboard-focusable, checked/unchecked-announced control, and the
+ * selected state is shown via BOTH a fill/border change AND a checkmark
+ * glyph that expands in — never colour alone (CLAUDE.md design invariant).
+ */
+test("people directory: chip selected state is a real checkbox, shown via fill+checkmark, not colour alone", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const checkbox = page.getByRole("checkbox", { name: "Philosophy" });
+  const label = page.locator('label[for="field-filter-philosophy"]');
+  const checkGlyph = label.locator(".tgi-taxonomy-chip__check");
+
+  const bgBefore = await label.evaluate((el) => getComputedStyle(el).backgroundColor);
+  const checkWidthBefore = await checkGlyph.evaluate((el) => getComputedStyle(el).width);
+  expect(parseFloat(checkWidthBefore)).toBe(0);
+
+  await checkbox.check();
+  await expect(checkbox).toBeChecked();
+
+  const bgAfter = await label.evaluate((el) => getComputedStyle(el).backgroundColor);
+  const checkWidthAfter = await checkGlyph.evaluate((el) => getComputedStyle(el).width);
+  expect(bgAfter, "background must change on selection, not stay identical").not.toBe(bgBefore);
+  expect(parseFloat(checkWidthAfter), "checkmark glyph must become visible on selection").toBeGreaterThan(0);
+
+  // Keyboard: the real input is reachable and toggleable via Space, exactly
+  // like any native checkbox — no custom-control keyboard regression.
+  await checkbox.uncheck();
+  await checkbox.focus();
+  await page.keyboard.press("Space");
+  await expect(checkbox).toBeChecked();
+});
+
+test("people directory: chip checkbox shows a visible focus ring on the label when tabbed to", async ({ page }) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const checkbox = page.getByRole("checkbox", { name: "Philosophy" });
+  const label = page.locator('label[for="field-filter-philosophy"]');
+  await checkbox.focus();
+  const boxShadow = await label.evaluate((el) => getComputedStyle(el).boxShadow);
+  expect(boxShadow, "focused chip label must show a visible focus ring").not.toBe("none");
+});
+
 test("people directory: selecting two chips in the same taxonomy group ORs (either qualifies)", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
   const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
@@ -293,4 +341,58 @@ test("people directory ko-KR: taxonomy section headings and chip labels are loca
   // No raw underscored ids leaking into the UI (e.g. "natural_science").
   const bodyText = (await page.locator("main").textContent())!;
   expect(bodyText).not.toMatch(/[a-z]+_[a-z]+/);
+});
+
+/**
+ * Density polish pass (2026-08): Profession/Activity and Personality/Trait
+ * sit side by side at the wide-desktop breakpoint (>=1280px, this project's
+ * one intentional breakpoint), and each category row collapses from a
+ * label-left/chips-right layout to stacked below 640px (matching the
+ * existing .tgi-filter-bar/.tgi-results-discovery-grid mobile threshold).
+ * Structural checks, not pixel-exact height assertions — those would be
+ * brittle to future roster/taxonomy growth; the point under test is that
+ * the layout mechanism is actually active at each breakpoint.
+ */
+test("people directory @ 1280px: Profession/Activity and Personality/Trait render as two columns", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const columns = await page
+    .locator(".tgi-taxonomy-columns")
+    .evaluate((el) => getComputedStyle(el).gridTemplateColumns.trim().split(/\s+/).length);
+  expect(columns, "two-column layout should be active at 1280px").toBe(2);
+  await assertNoHorizontalOverflow(page);
+});
+
+test("people directory @ 768px: category rows use a label-left/chips-right layout, sections stay stacked", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 768, height: 1000 });
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const columnsDisplay = await page.locator(".tgi-taxonomy-columns").evaluate((el) => getComputedStyle(el).display);
+  expect(columnsDisplay, "Profession/Personality sections should be stacked below 1280px").toBe("flex");
+
+  const categoryColumns = await page
+    .locator(".tgi-taxonomy-category")
+    .first()
+    .evaluate((el) => getComputedStyle(el).gridTemplateColumns.trim().split(/\s+/).length);
+  expect(categoryColumns, "category rows should be a 2-column label/chips grid at 768px").toBe(2);
+  await assertNoHorizontalOverflow(page);
+});
+
+test("people directory @ 390px: category rows collapse to a single stacked column, taxonomy still visible", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 900 });
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const categoryColumns = await page
+    .locator(".tgi-taxonomy-category")
+    .first()
+    .evaluate((el) => getComputedStyle(el).gridTemplateColumns.trim().split(/\s+/).length);
+  expect(categoryColumns, "category rows should collapse to 1 column below 640px").toBe(1);
+  await expect(page.getByRole("heading", { name: "Profession & Activity" })).toBeVisible();
+  await expect(page.getByRole("checkbox", { name: "Philosophy" })).toBeVisible();
+  expect(await page.locator("details").count()).toBe(0);
+  await assertNoHorizontalOverflow(page);
 });

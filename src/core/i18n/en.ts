@@ -362,7 +362,7 @@ export const en = {
   "landing.title": "Who in history thinks like you?",
   "landing.subtitle":
     "Answer a set of questions about how you think, create, work, and make decisions. We'll compare your profile against {count} extraordinary people — and show you who you actually resemble.",
-  "landing.cta_primary": "Take the Quiz",
+  "landing.cta_primary": "Find My Historical Match",
   "landing.cta_secondary": "Explore the People First",
   "landing.ai_disclaimer":
     "Every result is calculated deterministically from your answers — no generative AI is involved in scoring or matching.",
@@ -375,10 +375,10 @@ export const en = {
   "quiz.intro.eyebrow": "Before you begin",
   "quiz.intro.title": "A few honest answers",
   "quiz.intro.body":
-    "64 short questions about how you think, create, work, handle setbacks, relate to people, sense and act on the world around you, and what drives you. Most people finish in around 10-15 minutes. Answer with your first instinct — there's no right answer, and nothing you choose is judged as good or bad.",
+    "Questions about how you think, create, work, handle setbacks, relate to people, sense and act on the world around you, and what drives you. Answer with your first instinct — there's no right answer, and nothing you choose is judged as good or bad.",
   "quiz.intro.privacy":
     "Your answers stay in this browser and in the link to your results. Nothing is sent to a server or saved to an account.",
-  "quiz.intro.start": "Start the Quiz",
+  "quiz.intro.start": "Start",
   "quiz.intro.meta": "{count} questions · about 10–15 min · no sign-in required",
 
   "quiz.progress": "Question {current} of {total}",

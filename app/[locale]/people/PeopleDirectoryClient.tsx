@@ -204,75 +204,89 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
             />
           </Cluster>
 
-          <Stack gap={3} as="section">
-            <Heading level={2} visualLevel={3}>
-              {t(locale, "people.directory.section.profession")}
-            </Heading>
-            <div className="tgi-taxonomy-section">
-              {PROFESSION_CATEGORIES.filter((category) => category.fieldIds.some((id) => visibleFieldIds.has(id))).map(
-                (category) => (
+          <div className="tgi-taxonomy-columns">
+            <Stack gap={3} as="section">
+              <Heading level={2} visualLevel={3}>
+                {t(locale, "people.directory.section.profession")}
+              </Heading>
+              <div className="tgi-taxonomy-section">
+                {PROFESSION_CATEGORIES.filter((category) =>
+                  category.fieldIds.some((id) => visibleFieldIds.has(id)),
+                ).map((category) => (
                   <div className="tgi-taxonomy-category" key={category.id}>
                     <Text tone="muted" className="tgi-taxonomy-category__heading">
                       {t(locale, category.labelKey)}
                     </Text>
-                    <Cluster gap={2}>
+                    <Cluster gap={2} className="tgi-taxonomy-chip-row">
                       {category.fieldIds
                         .filter((id) => visibleFieldIds.has(id))
                         .map((id) => {
                           const inputId = `field-filter-${id}`;
                           return (
-                            <label key={id} htmlFor={inputId} className="tgi-chip-option">
+                            <div className="tgi-taxonomy-chip" key={id}>
                               <input
                                 id={inputId}
                                 type="checkbox"
                                 checked={fieldIds.includes(id)}
                                 onChange={() => toggleField(id)}
+                                className="tgi-taxonomy-chip__input"
                               />
-                              <span>{t(locale, `field.${id}` as MessageKey)}</span>
-                            </label>
+                              <label htmlFor={inputId} className="tgi-taxonomy-chip__label">
+                                <span className="tgi-taxonomy-chip__check" aria-hidden="true">
+                                  ✓
+                                </span>
+                                <span>{t(locale, `field.${id}` as MessageKey)}</span>
+                              </label>
+                            </div>
                           );
                         })}
                     </Cluster>
                   </div>
-                ),
-              )}
-            </div>
-          </Stack>
+                ))}
+              </div>
+            </Stack>
 
-          <Stack gap={3} as="section">
-            <Heading level={2} visualLevel={3}>
-              {t(locale, "people.directory.section.personality")}
-            </Heading>
-            <div className="tgi-taxonomy-section">
-              {PERSONALITY_TAXONOMY.filter((group) => group.attributeIds.some((id) => visibleAttributeIds.has(id))).map(
-                (group) => (
+            <Stack gap={3} as="section">
+              <Heading level={2} visualLevel={3}>
+                {t(locale, "people.directory.section.personality")}
+              </Heading>
+              <div className="tgi-taxonomy-section">
+                {PERSONALITY_TAXONOMY.filter((group) =>
+                  group.attributeIds.some((id) => visibleAttributeIds.has(id)),
+                ).map((group) => (
                   <div className="tgi-taxonomy-category" key={group.facet}>
                     <Text tone="muted" className="tgi-taxonomy-category__heading">
                       {t(locale, group.labelKey)}
                     </Text>
-                    <Cluster gap={2}>
+                    <Cluster gap={2} className="tgi-taxonomy-chip-row">
                       {group.attributeIds
                         .filter((id) => visibleAttributeIds.has(id))
                         .map((id) => {
                           const inputId = `trait-filter-${id}`;
                           return (
-                            <label key={id} htmlFor={inputId} className="tgi-chip-option">
+                            <div className="tgi-taxonomy-chip" key={id}>
                               <input
                                 id={inputId}
                                 type="checkbox"
                                 checked={traitIds.includes(id)}
                                 onChange={() => toggleTrait(id)}
+                                className="tgi-taxonomy-chip__input"
                               />
-                              <span>{t(locale, `attribute.${id}` as MessageKey)}</span>
-                            </label>
+                              <label htmlFor={inputId} className="tgi-taxonomy-chip__label">
+                                <span className="tgi-taxonomy-chip__check" aria-hidden="true">
+                                  ✓
+                                </span>
+                                <span>{t(locale, `attribute.${id}` as MessageKey)}</span>
+                              </label>
+                            </div>
                           );
                         })}
                     </Cluster>
                   </div>
-                ),
-              )}
-            </div>
-          </Stack>
+                ))}
+              </div>
+            </Stack>
+          </div>
 
           {selectedChips.length > 0 && (
             <Cluster gap={2} className="tgi-selected-filters">

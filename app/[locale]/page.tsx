@@ -76,7 +76,7 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
               {t(locale, "landing.subtitle", { count: MATCH_ELIGIBLE_PEOPLE_COUNT })}
             </Text>
             <Cluster gap={3}>
-              <Button href={`/${locale}/quiz`} size="lg">
+              <Button href={`/${locale}/quiz`} size="lg" className="tgi-landing-cta-primary">
                 {t(locale, "landing.cta_primary")}
               </Button>
               <Button
