@@ -22,6 +22,7 @@ this file only if you need the full picture of the doc tree itself.
 | `docs/reference/localization.md` | i18n rules, EN/KO parity discipline | Any UI-copy or localization work |
 | `docs/reference/architecture.md` | Directory map, design system, stack, safety rules | UI/product work, general orientation |
 | `docs/reference/data-model.md` | `Person` type, roster storage, DB schema | Roster/editorial/data work |
+| `docs/reference/directory-taxonomy.md` | People Directory filter taxonomy (profession/activity + personality/trait) | Directory filter/taxonomy work |
 | `docs/quiz-structure.md` | Full 64-item quiz display-order inspection | Quiz-item-specific work only |
 | `docs/archive/**` | Historical narrative, superseded decisions | Only to resolve a specific historical question |
 

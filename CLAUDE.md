@@ -59,7 +59,7 @@ active docs don't answer.
 | **Roster research/scoring** | `CURRENT_STATE.md`, `docs/workflows/roster-research.md` | `docs/adding-a-person.md`, `docs/scoring-rubric-v1.md`, `docs/checkpoints/roster.md` | monetization docs, editorial docs, `docs/archive/` |
 | **Roster philosophy audit** (e.g. self-made/earned-distinction review) | `CURRENT_STATE.md`, `docs/reference/architecture.md` (Inclusion philosophy) | `docs/checkpoints/roster.md`, actual roster/evidence files | editorial batch history, monetization, deployment/domain narrative |
 | **Editorial content** (achievements/moments/turning points) | `CURRENT_STATE.md`, `docs/editorial-content.md` | `docs/checkpoints/editorial.md` | roster research internals, monetization, `docs/archive/` |
-| **UI/product work** | `CURRENT_STATE.md`, `docs/reference/architecture.md` | `docs/reference/data-model.md`, `docs/context/TESTING.md` | research archives, roster/editorial checkpoint diaries |
+| **UI/product work** | `CURRENT_STATE.md`, `docs/reference/architecture.md` | `docs/reference/data-model.md`, `docs/context/TESTING.md`, `docs/reference/directory-taxonomy.md` (Directory filters only) | research archives, roster/editorial checkpoint diaries |
 | **Matching/scoring/taxonomy** | `CURRENT_STATE.md`, `docs/reference/matching.md` | `docs/checkpoints/roster.md`, `docs/context/TESTING.md` | monetization, editorial docs |
 | **Localization/i18n** | `CURRENT_STATE.md`, `docs/reference/localization.md` | relevant workflow doc for the content type | unrelated archives |
 | **Deployment/production/domain** | `CURRENT_STATE.md`, `docs/deployment.md` | `docs/checkpoints/production.md` | editorial archives, roster research internals |
