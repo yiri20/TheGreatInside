@@ -14,7 +14,11 @@ questions, not routine deployment work.
   legacy `the-great-inside.vercel.app` both permanently (308) redirect
   to the apex, path/query preserved.
 - **Hosting**: Vercel, auto-deploy from `main` on GitHub
-  (`github.com/yiri20/TheGreatInside`, private).
+  (`github.com/yiri20/TheGreatInside`, private). Last release gate:
+  2026-08-22, `main` at `1d9004e` (consolidated dev lineage — editorial
+  Batch 7, 13 exposure-priority portraits, IdentityHero initials
+  fallback, mobile Likert fix), full automated + live production
+  verification passed, no monetization.
 - **Auth**: Google OAuth via Supabase Auth (`@supabase/ssr`), identity-only
   scopes (`openid`/`email`/`profile`) — this app's own code never reads
   email/name/picture, only `user.id`. This scope set qualifies for
