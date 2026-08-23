@@ -299,6 +299,20 @@ const seeds: PersonSeed[] = [
     impactDomains: ["historical", "social"],
     tagIds: ["leader", "nonviolence", "ascetic"],
     archetypeIds: ["organizational_leader", "social_influencer"],
+    // Verified 2026-08 via a direct fetch of the Commons file page. Chosen
+    // over the more commonly used 1931 studio portrait (Elliott & Fry)
+    // specifically because that file carries an active US-copyright warning
+    // (URAA restoration risk, publication history unclear) — this one has an
+    // explicit, unambiguous PD-US rationale instead. License/attribution
+    // reproduced as given, not paraphrased or translated.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gandhi_as_a_student_in_London.png",
+      width: 534,
+      height: 734,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Gandhi_as_a_student_in_London.png",
+    },
     sources: [wiki("gandhi", "Mahatma Gandhi"), bio("gandhi", "Gandhi, An Autobiography: The Story of My Experiments with Truth (1927)")],
     doNotCopyKeys: ["dontcopy.gandhi.self_denial"],
     rows: {
@@ -1048,6 +1062,18 @@ const seeds: PersonSeed[] = [
     impactDomains: ["social", "scientific", "historical"],
     tagIds: ["nobel_laureate", "founder", "grassroots_organizer"],
     archetypeIds: ["organizational_leader", "social_influencer"],
+    // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
+    // photograph (2006 interview, Salvador, Brazil) — not a posed portrait,
+    // but a real likeness with a clean, unambiguous license.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Wangari_Maathai%2C_2006_%28cropped%29.jpg",
+      width: 1360,
+      height: 1923,
+      source: "Wikimedia Commons",
+      license: "CC BY 3.0 BR",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Wangari_Maathai,_2006_(cropped).jpg",
+      attribution: "Antônio Cruz/Agência Brasil",
+    },
     sources: [wiki("maathai", "Wangari Maathai")],
     rows: {
       curiosity: [70, 0.55, "s", "N"],
@@ -1301,6 +1327,17 @@ const seeds: PersonSeed[] = [
     impactDomains: ["literary", "cultural"],
     tagIds: ["nobel_laureate", "independent"],
     archetypeIds: ["creative_creator", "independent_creator"],
+    // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
+    // photograph, 1998.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Toni_Morrison.jpg",
+      width: 1540,
+      height: 2195,
+      source: "Wikimedia Commons",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg",
+      attribution: "John Mathew Smith",
+    },
     sources: [wiki("morrison", "Toni Morrison")],
     rows: {
       curiosity: [82, 0.65, "s", "A"],
@@ -1634,6 +1671,18 @@ const seeds: PersonSeed[] = [
     impactDomains: ["cultural", "entrepreneurial", "social"],
     tagIds: ["founder", "communicator", "overcame_adversity"],
     archetypeIds: ["social_influencer", "entrepreneurial_builder"],
+    // Verified 2026-08 via a direct fetch of the Commons file page. US State
+    // Dept official-duty photograph (2016) — public domain as a work of a
+    // federal employee, not merely US-government-hosted.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oprah_Winfrey_2016.jpg",
+      width: 1108,
+      height: 1604,
+      source: "Wikimedia Commons",
+      license: "Public Domain (U.S. Government work)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
+      attribution: "U.S. Embassy South Africa",
+    },
     sources: [wiki("oprah", "Oprah Winfrey")],
     rows: {
       curiosity: [78, 0.62, "s", "N"],
@@ -1751,6 +1800,18 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["independent", "prolific"],
     archetypeIds: ["independent_creator", "creative_creator"],
+    // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
+    // photograph (video still, c. 2002-2005) from George Quasha's "art is
+    // (Speaking Portraits)" project.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Yayoi_Kusama_circa_2004.jpg",
+      width: 1435,
+      height: 1078,
+      source: "Wikimedia Commons",
+      license: "CC BY 3.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_circa_2004.jpg",
+      attribution: "George Quasha",
+    },
     sources: [wiki("kusama", "Yayoi Kusama")],
     rows: {
       curiosity: [70, 0.55, "s", "N"],

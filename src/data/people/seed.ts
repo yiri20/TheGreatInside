@@ -462,6 +462,17 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["perfectionist", "independent", "craft_focused"],
     archetypeIds: ["creative_creator", "independent_creator"],
+    // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
+    // photograph, 2009.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/f/ff/HayaoMiyazakiCCJuly09.jpg",
+      width: 342,
+      height: 519,
+      source: "Wikimedia Commons",
+      license: "CC BY 2.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg",
+      attribution: "Natasha Baucas",
+    },
     sources: [
       wiki("miyazaki", "Hayao Miyazaki"),
       bio("miyazaki", "Hayao Miyazaki, Starting Point: 1979-1996 (1996)"),
@@ -539,6 +550,19 @@ const seeds: PersonSeed[] = [
         "en-US": "https://en.wikipedia.org/wiki/Yi_Sun-sin",
         "ko-KR": "https://ko.wikipedia.org/wiki/이순신",
       },
+    },
+    // Verified 2026-08 via a direct fetch of the Commons file page. NOT a
+    // lifetime likeness — no contemporary depiction or photograph of Yi
+    // Sun-sin survives (16th century, predates photography); a modern
+    // reconstruction bust at the War Memorial of Korea, photographed 2019.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bust_of_Yi_Sun-sin_01.jpg",
+      width: 2000,
+      height: 3000,
+      source: "Wikimedia Commons",
+      license: "Korea Open Government License Type 1",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Bust_of_Yi_Sun-sin_01.jpg",
+      attribution: "War Memorial of Korea (modern reconstruction — no contemporary depiction survives)",
     },
     sources: [wiki("yisunsin", "Yi Sun-sin"), bio("yisunsin", "Nanjung Ilgi (War Diary of Yi Sun-sin)")],
     rows: {

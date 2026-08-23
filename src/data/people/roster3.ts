@@ -479,6 +479,19 @@ const seeds: PersonSeed[] = [
     tagIds: ["polymath", "prolific", "systematic_thinker"],
     archetypeIds: ["scholarly_specialist", "cross_disciplinary_generalist"],
     externalIdentity: { wikidataId: "Q8011" },
+    // Verified 2026-08 via a direct fetch of the Commons file page. NOT a
+    // lifetime likeness — no contemporary depiction of Ibn Sina survives; a
+    // modern sculptural bust (1952, National Library of Medicine), tagged
+    // "no known copyright restrictions."
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Avicenna_Bust%2C_left_profile_%28cropped%29.jpg",
+      width: 2294,
+      height: 2957,
+      source: "Wikimedia Commons",
+      license: "No known copyright restrictions",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Avicenna_Bust,_left_profile_(cropped).jpg",
+      attribution: "U.S. National Library of Medicine (modern bust, 1952 — not a lifetime likeness)",
+    },
     sources: [{ id: "src_ibnsina_wikipedia", kind: "wikipedia", title: "Avicenna", url: "https://en.wikipedia.org/wiki/Avicenna" }, { id: "src_ibnsina_autobiography", kind: "archive", title: "Ibn Sina's autobiography (dictated to his student al-Juzjani)" }, { id: "src_ibnsina_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Ibn Sina" }],
     rows: {
       // His own dictated autobiography describes mastering logic, physics, mathematics, and medicine in sequence as a teenager, unprompted, before beginning formal study of Aristotelian metaphysics — a self-reported but historically treated-as-reliable primary account; medieval sourcing caps confidence.

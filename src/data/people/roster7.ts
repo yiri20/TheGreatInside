@@ -48,6 +48,20 @@ const seeds: PersonSeed[] = [
     tagIds: ["polymath", "systematic_thinker", "nonconformist"],
     archetypeIds: ["scholarly_specialist"],
     externalIdentity: { wikidataId: "Q39837" },
+    // Verified 2026-08 via a direct fetch of the Commons file page. NOT a
+    // lifetime likeness — a later traditional depiction: Andrea di
+    // Bonaiuto's 1366 fresco "Apotheosis of St. Thomas Aquinas" (Basilica
+    // of Santa Maria Novella, Florence), painted ~168 years after Averroes'
+    // death.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Andrea_di_bonaiuto%2C_apoteosi_di_san_tommaso_d%27aquino%2C_11_averro%C3%A8.jpg",
+      width: 1408,
+      height: 1516,
+      source: "Wikimedia Commons",
+      license: "CC BY 3.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d%27aquino,_11_averro%C3%A8.jpg",
+      attribution: "Andrea di Bonaiuto, fresco, 1366 (later traditional depiction, not a lifetime likeness)",
+    },
     sources: [{ id: "src_averroes_wikipedia", kind: "wikipedia", title: "Averroes", url: "https://en.wikipedia.org/wiki/Averroes" }, { id: "src_averroes_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Ibn Rushd [Averroes]" }],
     rows: {
       // Produced systematic long, middle, and short commentaries on nearly the entire Aristotelian corpus, a documented, multi-tiered analytical methodology directly observable in the surviving texts.
@@ -322,6 +336,19 @@ const seeds: PersonSeed[] = [
     tagIds: ["polymath", "systematic_thinker", "prolific"],
     archetypeIds: ["scholarly_specialist", "cross_disciplinary_generalist"],
     externalIdentity: { wikidataId: "Q127398" },
+    // Verified 2026-08 via a direct fetch of the Commons file page. NOT a
+    // lifetime likeness — Maimonides predates portraiture of him by
+    // centuries; this is a photograph of a modern statue, released CC0 by
+    // its photographer.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/5/56/Maimonides_crop1.jpg",
+      width: 781,
+      height: 853,
+      source: "Wikimedia Commons",
+      license: "CC0 1.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Maimonides_crop1.jpg",
+      attribution: "Modern statue (not a lifetime likeness)",
+    },
     sources: [{ id: "src_maimonides_wikipedia", kind: "wikipedia", title: "Maimonides", url: "https://en.wikipedia.org/wiki/Maimonides" }, { id: "src_maimonides_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Maimonides" }],
     rows: {
       // The Mishneh Torah systematically organizes the entire body of Jewish religious law into one coherent, topically structured code — a documented, unprecedented organizational undertaking directly observable in the surviving text.

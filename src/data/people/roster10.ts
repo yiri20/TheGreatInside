@@ -181,6 +181,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["leader", "nonviolence", "endured_imprisonment", "founder"],
     archetypeIds: ["organizational_leader", "social_influencer"],
     externalIdentity: { wikidataId: "Q36740" },
+    // Verified 2026-08 via a direct fetch of the Commons file page. Official
+    // Japanese government photograph (2019).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_%281%29.jpg",
+      width: 444,
+      height: 592,
+      source: "Wikimedia Commons",
+      license: "CC BY 4.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg",
+      attribution: "Cabinet Public Relations Office, Japan",
+    },
     sources: [{ id: "src_assk_hrw", kind: "institution", title: "Human Rights Watch — \"Burma: Chronology of Aung San Suu Kyi's Detention\"", url: "https://www.hrw.org/news/2010/11/13/burma-chronology-aung-san-suu-kyis-detention" }, { id: "src_assk_aj_trouble", kind: "press", title: "Al Jazeera — \"The trouble with Aung San Suu Kyi\" (2017)", url: "https://www.aljazeera.com/features/2017/5/12/the-trouble-with-aung-san-suu-kyi" }, { id: "src_assk_jod", kind: "archive", title: "Journal of Democracy — \"Burma: Suu Kyi's Missteps\"", url: "https://www.journalofdemocracy.org/articles/burma-suu-kyis-missteps/" }, { id: "src_assk_aj_icj", kind: "press", title: "Al Jazeera — \"Transcript: Aung San Suu Kyi's speech at the ICJ in full\" (2019)", url: "https://www.aljazeera.com/news/2019/12/12/transcript-aung-san-suu-kyis-speech-at-the-icj-in-full" }, { id: "src_assk_time", kind: "press", title: "TIME Magazine — Aung San Suu Kyi profile (May 2009)", url: "https://time.com/archive/6946675/aung-san-suu-kyi-2/" }, { id: "src_assk_popham", kind: "biography", title: "Peter Popham, The Lady and the Peacock: The Life of Aung San Suu Kyi (Rider/Random House, 2011)" }, { id: "src_assk_own_writing", kind: "archive", title: "Aung San Suu Kyi's own writings and speeches — Freedom from Fear, Letters from Burma, the 1988 Shwedagon Pagoda speech, the Nobel Peace Prize lecture" }, { id: "src_assk_asiatimes", kind: "press", title: "Asia Times — \"The unavoidable prisoner: Aung San Suu Kyi at 81\" (June 2026)", url: "https://asiatimes.com/2026/06/the-unavoidable-prisoner-aung-san-suu-kyi-at-81/" }],
     rows: {
       // At the International Court of Justice, carefully distinguished between different legal categories under real scrutiny — not entirely ruling out disproportionate force as a legal matter while flatly denying the much higher bar of genocidal intent, and invoking a specific doctrine (complementarity) rather than a general denial. Session 19 evidence ASSK-E41.
@@ -251,6 +262,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["leader", "founder", "strategist", "nonconformist"],
     archetypeIds: ["organizational_leader", "social_influencer"],
     externalIdentity: { wikidataId: "Q5152" },
+    // Verified 2026-08 via a direct fetch of the Commons file page. Public
+    // domain in Turkey (life+70); no US-copyright warning present on the
+    // file page, unlike some other 1930s-era candidates checked for this
+    // batch.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ataturk1930s.jpg",
+      width: 732,
+      height: 987,
+      source: "Wikimedia Commons",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Ataturk1930s.jpg",
+    },
     sources: [{ id: "src_ataturk_belleten_caliphate", kind: "archive", title: "Belleten (Turkish Historical Society journal) — \"The Caliphate and Atatürk's İnkılâb\"", url: "https://belleten.gov.tr/tam-metin/1733/eng" }, { id: "src_ataturk_ajc", kind: "archive", title: "Anatolian Journal of Cardiology — \"The Hidden Burden of Premature Cardiovascular Disease in a National Leader: Mustafa Kemal Atatürk's Familial Risk, Lifestyle, and Occupational Stress\"", url: "https://anatoljcardiol.com/article/AJC-31035" }, { id: "src_ataturk_newlines", kind: "press", title: "New Lines Magazine — \"How Turkey Replaced the Ottoman Language\"", url: "https://newlinesmag.com/essays/how-turkey-replaced-the-ottoman-language/" }, { id: "src_ataturk_executed", kind: "press", title: "Executed Today — \"1926: Ziya Hursit and others for a plot against Ataturk\" (cites contemporaneous London Times reporting)", url: "https://www.executedtoday.com/2010/07/14/1926-ziya-hursit-mustafa-kemal-ataturk/" }, { id: "src_ataturk_mango", kind: "biography", title: "Andrew Mango, Atatürk: The Biography of the Founder of Modern Turkey (John Murray, 1999)" }, { id: "src_ataturk_hanioglu", kind: "biography", title: "M. Şükrü Hanioğlu, Atatürk: An Intellectual Biography (Princeton University Press, 2011)" }, { id: "src_ataturk_kinross", kind: "biography", title: "Patrick Kinross, Atatürk: The Rebirth of a Nation (Weidenfeld & Nicolson, 1964)" }, { id: "src_ataturk_nutuk", kind: "archive", title: "Nutuk (\"The Great Speech\"), delivered by Mustafa Kemal Atatürk, 15–20 October 1927 — primary source" }, { id: "src_ataturk_belleten_libya", kind: "archive", title: "Belleten — \"Beginnings of Leadership: Mustafa Kemal's First Visit to Libya, 1908\"" }],
     rows: {
       // Sequenced the Caliphate abolition through explicit political calculation (delaying until public support waned, timing the move to specific trigger events, pre-building a loyal coalition and a legal deterrent) and personally overruled his own alphabet commission's plan with an explicit behavioral argument about long deadlines. Session 19 evidence MKA-E13, MKA-E14, MKA-E15, MKA-E17, MKA-E23.

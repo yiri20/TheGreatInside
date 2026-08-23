@@ -173,6 +173,21 @@ const seeds: PersonSeed[] = [
     tagIds: ["strategist", "conqueror", "leader"],
     archetypeIds: ["organizational_leader"],
     externalIdentity: { wikidataId: "Q1048" },
+    // Verified 2026-08 via a direct fetch of the Commons file page. NOT a
+    // lifetime likeness — the Tusculum portrait, a Roman marble bust (44
+    // BCE), the only extant contemporary sculpture of Caesar (Archaeological
+    // Museum of Turin). The photograph of the bust is separately licensed
+    // CC BY 2.0 by its photographer; the underlying sculpture is itself
+    // public domain (ancient work).
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
+      width: 1752,
+      height: 2379,
+      source: "Wikimedia Commons",
+      license: "CC BY 2.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg",
+      attribution: "Ángel M. Felicísimo (photograph of the Tusculum portrait, 44 BCE)",
+    },
     sources: [{ id: "src_caesar_wikipedia", kind: "wikipedia", title: "Julius Caesar", url: "https://en.wikipedia.org/wiki/Julius_Caesar" }, { id: "src_caesar_commentaries", kind: "archive", title: "Caesar's own Commentarii de Bello Gallico and de Bello Civili (first-person campaign accounts)" }, { id: "src_caesar_suetonius", kind: "biography", title: "Suetonius, The Twelve Caesars (Life of Julius Caesar)" }, { id: "src_caesar_plutarch", kind: "biography", title: "Plutarch, Life of Caesar" }],
     rows: {
       // Crossed the Rubicon with his legion in 49 BCE, a single irreversible act triggering civil war, reportedly with the words "alea iacta est" (the die is cast) -- documented across multiple ancient sources (Suetonius, Plutarch, Appian) converging on the same decisive act.
