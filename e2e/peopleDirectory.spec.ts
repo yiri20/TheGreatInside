@@ -128,6 +128,114 @@ test("people directory: selecting two chips in the same taxonomy group ORs (eith
   expect(mathOrPhysics).toBeGreaterThanOrEqual(mathOnly);
 });
 
+test("people directory: two personality chips in the SAME facet OR (Curiosity + Analytical Rigour, both Thinking)", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
+
+  await page.getByRole("checkbox", { name: "Curiosity" }).check();
+  const curiosityOnly = Number((await countText())!.match(/^\d+/)![0]);
+
+  await page.getByRole("checkbox", { name: "Analytical Rigour" }).check();
+  const eitherThinkingTrait = Number((await countText())!.match(/^\d+/)![0]);
+
+  // Same-facet selections OR — adding a second Thinking chip can only add
+  // matches, never shrink the result set.
+  expect(eitherThinkingTrait).toBeGreaterThanOrEqual(curiosityOnly);
+});
+
+test("people directory: two personality chips in DIFFERENT facets AND (Curiosity/Thinking + Collaboration/Social) — the cross-facet fix", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
+
+  await page.getByRole("checkbox", { name: "Curiosity" }).check();
+  const curiosityOnly = Number((await countText())!.match(/^\d+/)![0]);
+  await page.getByRole("checkbox", { name: "Collaboration" }).check();
+  const both = Number((await countText())!.match(/^\d+/)![0]);
+  await page.getByRole("checkbox", { name: "Curiosity" }).uncheck();
+  const collaborationOnly = Number((await countText())!.match(/^\d+/)![0]);
+
+  // Cross-facet AND can only narrow, never exceed either single-facet result
+  // — this is the exact behavior that was broken (previously a flat OR
+  // across every selected personality attribute regardless of facet).
+  expect(both).toBeLessThanOrEqual(Math.min(curiosityOnly, collaborationOnly));
+  expect(both).toBeGreaterThan(0);
+
+  // Recheck curiosity and verify every visible result is a real person card
+  // (i.e. the narrowed set is non-trivial, not an accidental empty state).
+  await page.getByRole("checkbox", { name: "Curiosity" }).check();
+  await expect(page.locator(".tgi-personcard").first()).toBeVisible();
+});
+
+test("people directory: profession OR-group + 2 personality facets ANDs all three conditions (full example from spec)", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  // Profession/Activity OR-group: Mathematics OR Physics.
+  await page.getByRole("checkbox", { name: "Mathematics" }).check();
+  await page.getByRole("checkbox", { name: "Physics" }).check();
+  // Personality: Experimentation (Creativity facet) + Adaptability (Resilience facet).
+  await page.getByRole("checkbox", { name: "Experimentation" }).check();
+  await page.getByRole("checkbox", { name: "Adaptability" }).check();
+
+  const cards = page.locator(".tgi-personcard");
+  const count = await cards.count();
+  expect(count).toBeGreaterThanOrEqual(0); // may legitimately be 0 — the assertion below is what matters
+
+  // Verify every returned person actually satisfies every condition by
+  // cross-checking against the person detail page's own rendered data would
+  // be excessive here; instead assert the algebraic invariant: this 4-
+  // condition result can never exceed any single condition's own count.
+  const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
+  const combined = Number((await countText())!.match(/^\d+/)![0]);
+
+  await page.getByRole("checkbox", { name: "Experimentation" }).uncheck();
+  await page.getByRole("checkbox", { name: "Adaptability" }).uncheck();
+  const professionOnly = Number((await countText())!.match(/^\d+/)![0]);
+
+  expect(combined).toBeLessThanOrEqual(professionOnly);
+});
+
+test("people directory ko-KR: cross-facet personality AND gives the same result as en-US (locale-independent semantics)", async ({
+  page,
+}) => {
+  await page.goto("/ko-KR/people", { waitUntil: "networkidle" });
+  await page.getByRole("checkbox", { name: "호기심" }).check(); // Curiosity (Thinking)
+  await page.getByRole("checkbox", { name: "협업 성향" }).check(); // Collaboration (Social)
+  // "전체 {total}명 중 {count}명" — independently confirmed (via a direct
+  // SEED_PEOPLE check) that exactly 4 people satisfy curiosity AND
+  // collaboration: Benjamin Franklin, Charles Darwin, Jane Goodall, Oprah
+  // Winfrey. This regression-locks the cross-facet AND fix in the locale
+  // that renders count text in a different word order than en-US.
+  const bodyText = (await page.locator("main").textContent())!;
+  expect(bodyText).toMatch(/전체\s*95명\s*중\s*4명/);
+});
+
+test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
+
+  await page.getByRole("checkbox", { name: "Curiosity" }).check();
+  await page.getByRole("checkbox", { name: "Collaboration" }).check();
+  const traitOnly = Number((await countText())!.match(/^\d+/)![0]);
+
+  await page.getByRole("combobox", { name: "Era" }).selectOption({ label: "19th Century" });
+  const traitAndEra = Number((await countText())!.match(/^\d+/)![0]);
+
+  // Adding an era filter on top can only narrow further.
+  expect(traitAndEra).toBeLessThanOrEqual(traitOnly);
+
+  // Every visible card must actually be 19th Century.
+  const subtitles = await page.locator(".tgi-personcard").allTextContents();
+  for (const text of subtitles) {
+    if (text.trim().length === 0) continue;
+    expect(text).toContain("19th Century");
+  }
+});
+
 test("people directory: a profession chip AND a personality chip ANDs across the two axes", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
   const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();

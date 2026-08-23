@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { AttributeId } from "@core/attributes/attributes";
+import { ATTRIBUTES, type AttributeId } from "@core/attributes/attributes";
 import type { Era, Locale } from "@core/types";
 import { personDisplayName, t, type MessageKey } from "@core/i18n/index";
 // Compact, client-safe projection of SEED_PEOPLE — never the full dataset
@@ -81,22 +81,36 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
 
   const options = useMemo(() => availableFilterOptions(people), [people]);
 
+  // Selected personality chips OR within the facet they belong to, AND
+  // across different facets: partition the flat selection by
+  // ATTRIBUTES[id].facet (the canonical facet assignment — not a second,
+  // directory-specific grouping) into one traitScoreGroups entry per
+  // facet that has >=1 selection. A single-facet selection reproduces
+  // plain OR; multiple facets is what makes it AND across them.
+  const traitScoreGroups = useMemo(() => {
+    if (traitIds.length === 0) return [];
+    const byFacet = new Map<string, AttributeId[]>();
+    for (const id of traitIds) {
+      const facet = ATTRIBUTES[id].facet;
+      const group = byFacet.get(facet);
+      if (group) group.push(id);
+      else byFacet.set(facet, [id]);
+    }
+    return [...byFacet.values()].map((attributeIds) => ({
+      attributeIds,
+      minZ: DIRECTORY_TRAIT_MIN_Z,
+      minConfidence: DIRECTORY_TRAIT_MIN_CONFIDENCE,
+    }));
+  }, [traitIds]);
+
   const filter: PeopleFilter = useMemo(
     () => ({
       ...(era !== ALL_VALUE ? { eras: [era as Era] } : {}),
       ...(region !== ALL_VALUE ? { regionCodes: [region] } : {}),
       ...(fieldIds.length > 0 ? { fieldIds } : {}),
-      ...(traitIds.length > 0
-        ? {
-            traitScoreAny: {
-              attributeIds: traitIds,
-              minZ: DIRECTORY_TRAIT_MIN_Z,
-              minConfidence: DIRECTORY_TRAIT_MIN_CONFIDENCE,
-            },
-          }
-        : {}),
+      ...(traitScoreGroups.length > 0 ? { traitScoreGroups } : {}),
     }),
-    [era, region, fieldIds, traitIds],
+    [era, region, fieldIds, traitScoreGroups],
   );
 
   const results = useMemo(() => explorePeople(people, { query, filter, sort }), [people, query, filter, sort]);

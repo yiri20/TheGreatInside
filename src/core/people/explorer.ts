@@ -114,22 +114,30 @@ export interface PeopleFilter {
    *  scored with that exact impact for this specific person — impact is
    *  never global, so this filter is inherently person x attribute. */
   attributeImpacts?: Readonly<Partial<Record<AttributeId, TraitImpact>>>;
-  /** OR semantics across `attributeIds` (unlike `minAttributeScores`, which
-   *  ANDs): a person passes if they clear `minZ` standard deviations above
-   *  `reference_v3`'s mean, with confidence >= `minConfidence`, on ANY ONE
-   *  of the listed attributes. This is the general-purpose primitive the
-   *  People Directory's Personality/Trait filter chips are built from
-   *  (`src/core/people/directoryTaxonomy.ts` decides WHICH attributes are
-   *  exposed as chips and with what labels; this module only knows how to
-   *  evaluate the query, deliberately staying unaware of "directory"
-   *  concerns — see explorer.ts's own module doc on not hardcoding named
-   *  presets). Selecting multiple trait chips is "match any of these",
-   *  mirroring how multiple `tagIds` selections already OR via `intersects`. */
-  traitScoreAny?: {
+  /** Grouped trait-score query: OR *within* one group's `attributeIds`
+   *  (unlike `minAttributeScores`, which ANDs), AND *across* the groups in
+   *  this array. A person passes a single group if they clear `minZ`
+   *  standard deviations above `reference_v3`'s mean, with confidence >=
+   *  `minConfidence`, on ANY ONE of that group's attributes; they pass the
+   *  whole filter only if EVERY group is satisfied. A single-group array
+   *  reproduces plain "match any of these" OR semantics; multiple groups is
+   *  how "this condition AND that condition, each itself an OR of several
+   *  attributes" is expressed.
+   *
+   *  This is the general-purpose primitive the People Directory's
+   *  Personality/Trait filter chips are built from — grouped by FACET
+   *  (`ATTRIBUTES[id].facet`, `src/core/attributes/attributes.ts`), so
+   *  chips selected within one facet OR and chips selected across
+   *  different facets AND. `explorer.ts` itself stays unaware of
+   *  "facet"/"directory" as a concept — it only knows how to evaluate an
+   *  already-partitioned list of groups, deliberately staying general (see
+   *  this module's own doc on not hardcoding named presets); the caller
+   *  decides how attributes get partitioned into groups. */
+  traitScoreGroups?: readonly {
     attributeIds: readonly AttributeId[];
     minZ: number;
     minConfidence: number;
-  };
+  }[];
 }
 
 function intersects<T>(values: readonly T[] | undefined, has: (value: T) => boolean): boolean {
@@ -155,14 +163,21 @@ function passesAttributeFilters(person: ExplorablePerson, filter: PeopleFilter):
   return true;
 }
 
-function passesTraitScoreAny(person: ExplorablePerson, query: PeopleFilter["traitScoreAny"]): boolean {
-  if (!query || query.attributeIds.length === 0) return true;
-  return query.attributeIds.some((attributeId) => {
+type TraitScoreGroup = NonNullable<PeopleFilter["traitScoreGroups"]>[number];
+
+function passesTraitScoreGroup(person: ExplorablePerson, group: TraitScoreGroup): boolean {
+  if (group.attributeIds.length === 0) return true;
+  return group.attributeIds.some((attributeId) => {
     const attr = person.attributes.find((a) => a.attributeId === attributeId);
-    if (!attr || attr.confidence < query.minConfidence) return false;
+    if (!attr || attr.confidence < group.minConfidence) return false;
     const ref = ATTRIBUTES[attributeId].reference;
-    return (attr.score - ref.mean) / ref.sd >= query.minZ;
+    return (attr.score - ref.mean) / ref.sd >= group.minZ;
   });
+}
+
+function passesTraitScoreGroups(person: ExplorablePerson, groups: PeopleFilter["traitScoreGroups"]): boolean {
+  if (!groups || groups.length === 0) return true;
+  return groups.every((group) => passesTraitScoreGroup(person, group));
 }
 
 export function filterPeople<T extends ExplorablePerson>(people: readonly T[], filter: PeopleFilter): T[] {
@@ -178,7 +193,7 @@ export function filterPeople<T extends ExplorablePerson>(people: readonly T[], f
     if (!intersects(filter.impactDomains, (v) => p.impactDomains.includes(v))) return false;
     if (!intersects(filter.archetypeIds, (v) => p.archetypeIds.includes(v))) return false;
     if (!passesAttributeFilters(p, filter)) return false;
-    if (!passesTraitScoreAny(p, filter.traitScoreAny)) return false;
+    if (!passesTraitScoreGroups(p, filter.traitScoreGroups)) return false;
     return true;
   });
 }

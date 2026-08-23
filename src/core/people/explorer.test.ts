@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import type { AttributeId } from "../attributes/attributes.js";
 import { SEED_PEOPLE } from "../../data/people/seed.js";
 import {
   availableFilterOptions,
@@ -128,10 +129,16 @@ describe("filterPeople", () => {
     expect(living.length).toBeLessThan(SEED_PEOPLE.length);
   });
 
-  describe("traitScoreAny (People Directory Personality/Trait chips)", () => {
+  describe("traitScoreGroups (People Directory Personality/Trait chips)", () => {
+    const q = (attributeIds: readonly AttributeId[]) => ({
+      attributeIds,
+      minZ: 1.0,
+      minConfidence: 0.5,
+    });
+
     it("matches a person who clears the z/confidence bar on the attribute", () => {
       const result = filterPeople(SEED_PEOPLE, {
-        traitScoreAny: { attributeIds: ["curiosity"], minZ: 1.0, minConfidence: 0.5 },
+        traitScoreGroups: [q(["curiosity"])],
       });
       for (const p of result) {
         const attr = p.attributes.find((a) => a.attributeId === "curiosity");
@@ -142,32 +149,94 @@ describe("filterPeople", () => {
       expect(result.length).toBeLessThan(SEED_PEOPLE.length);
     });
 
-    it("ORs across multiple selected attributes, unlike minAttributeScores' AND", () => {
+    it("ORs across multiple attributes WITHIN one group, unlike minAttributeScores' AND", () => {
       const curiosityOnly = filterPeople(SEED_PEOPLE, {
-        traitScoreAny: { attributeIds: ["curiosity"], minZ: 1.0, minConfidence: 0.5 },
+        traitScoreGroups: [q(["curiosity"])],
         matchEligibleOnly: false,
       });
       const eitherOne = filterPeople(SEED_PEOPLE, {
-        traitScoreAny: { attributeIds: ["curiosity", "collaboration"], minZ: 1.0, minConfidence: 0.5 },
+        traitScoreGroups: [q(["curiosity", "collaboration"])],
         matchEligibleOnly: false,
       });
       // OR can only add matches, never remove them.
       expect(eitherOne.length).toBeGreaterThanOrEqual(curiosityOnly.length);
       for (const p of curiosityOnly) {
-        expect(eitherOne.some((q) => q.id === p.id)).toBe(true);
+        expect(eitherOne.some((q_) => q_.id === p.id)).toBe(true);
       }
       // At least one person must qualify via collaboration alone (not curiosity),
       // proving this is a real OR, not curiosity swallowing the result.
       const collaborationOnly = filterPeople(SEED_PEOPLE, {
-        traitScoreAny: { attributeIds: ["collaboration"], minZ: 1.0, minConfidence: 0.5 },
+        traitScoreGroups: [q(["collaboration"])],
         matchEligibleOnly: false,
       });
-      expect(collaborationOnly.some((p) => !curiosityOnly.some((q) => q.id === p.id))).toBe(true);
+      expect(collaborationOnly.some((p) => !curiosityOnly.some((q_) => q_.id === p.id))).toBe(true);
     });
 
-    it("an empty attributeIds list matches everyone (no-op filter)", () => {
+    it("ANDs ACROSS separate groups — this is the People Directory's cross-facet fix", () => {
+      // curiosity (facet: thinking) and collaboration (facet: social) — two
+      // DIFFERENT facets, so the Directory must pass them as two separate
+      // groups, not merged into one OR'd list.
+      const curiosityOnly = filterPeople(SEED_PEOPLE, {
+        traitScoreGroups: [q(["curiosity"])],
+        matchEligibleOnly: false,
+      });
+      const collaborationOnly = filterPeople(SEED_PEOPLE, {
+        traitScoreGroups: [q(["collaboration"])],
+        matchEligibleOnly: false,
+      });
+      const both = filterPeople(SEED_PEOPLE, {
+        traitScoreGroups: [q(["curiosity"]), q(["collaboration"])],
+        matchEligibleOnly: false,
+      });
+
+      // AND across groups can only narrow, never exceed either single group.
+      expect(both.length).toBeLessThanOrEqual(Math.min(curiosityOnly.length, collaborationOnly.length));
+      expect(both.length).toBeGreaterThan(0);
+      for (const p of both) {
+        expect(curiosityOnly.some((q_) => q_.id === p.id), `${p.slug} must qualify on curiosity too`).toBe(true);
+        expect(collaborationOnly.some((q_) => q_.id === p.id), `${p.slug} must qualify on collaboration too`).toBe(
+          true,
+        );
+      }
+      // The two-group result must be a strict subset of the flat-OR
+      // (single-group, all attributes merged) result — proving the bug this
+      // fixes (merging cross-facet selections into one OR'd group) really
+      // would have over-matched.
+      const flatOr = filterPeople(SEED_PEOPLE, {
+        traitScoreGroups: [q(["curiosity", "collaboration"])],
+        matchEligibleOnly: false,
+      });
+      expect(both.length).toBeLessThan(flatOr.length);
+      expect(both.every((p) => flatOr.some((q_) => q_.id === p.id))).toBe(true);
+    });
+
+    it("a 3-group AND (mirrors Directory's Scientist/Mathematician + Experimental + Independent example shape)", () => {
+      // Three facets: thinking (curiosity), work_style (perfectionism),
+      // social (collaboration) — every group must be independently satisfied.
+      const groups = [q(["curiosity"]), q(["perfectionism"]), q(["collaboration"])];
+      const result = filterPeople(SEED_PEOPLE, { traitScoreGroups: groups, matchEligibleOnly: false });
+      for (const p of result) {
+        for (const group of groups) {
+          const passes = group.attributeIds.some((id) => {
+            const attr = p.attributes.find((a) => a.attributeId === id);
+            return attr !== undefined && attr.confidence >= 0.5;
+          });
+          expect(passes, `${p.slug} must satisfy every group`).toBe(true);
+        }
+      }
+    });
+
+    it("an empty attributeIds group is a no-op (matches everyone within that group)", () => {
       const result = filterPeople(SEED_PEOPLE, {
-        traitScoreAny: { attributeIds: [], minZ: 1.0, minConfidence: 0.5 },
+        traitScoreGroups: [q([])],
+        matchEligibleOnly: false,
+      });
+      expect(result).toHaveLength(SEED_PEOPLE.length);
+    });
+
+    it("an empty traitScoreGroups array matches everyone (no-op filter)", () => {
+      const result = filterPeople(SEED_PEOPLE, {
+        traitScoreGroups: [],
         matchEligibleOnly: false,
       });
       expect(result).toHaveLength(SEED_PEOPLE.length);
@@ -176,16 +245,30 @@ describe("filterPeople", () => {
     it("composes with fieldIds (profession) as an AND across the two axes", () => {
       const professionOnly = filterPeople(SEED_PEOPLE, { fieldIds: ["philosophy"] });
       const traitOnly = filterPeople(SEED_PEOPLE, {
-        traitScoreAny: { attributeIds: ["curiosity"], minZ: 1.0, minConfidence: 0.5 },
+        traitScoreGroups: [q(["curiosity"])],
       });
       const both = filterPeople(SEED_PEOPLE, {
         fieldIds: ["philosophy"],
-        traitScoreAny: { attributeIds: ["curiosity"], minZ: 1.0, minConfidence: 0.5 },
+        traitScoreGroups: [q(["curiosity"])],
       });
       expect(both.every((p) => p.fieldIds.includes("philosophy"))).toBe(true);
-      expect(both.every((p) => professionOnly.some((q) => q.id === p.id))).toBe(true);
-      expect(both.every((p) => traitOnly.some((q) => q.id === p.id))).toBe(true);
+      expect(both.every((p) => professionOnly.some((q_) => q_.id === p.id))).toBe(true);
+      expect(both.every((p) => traitOnly.some((q_) => q_.id === p.id))).toBe(true);
       expect(both.length).toBeLessThanOrEqual(Math.min(professionOnly.length, traitOnly.length));
+    });
+
+    it("composes with era/region alongside fieldIds and multi-facet trait groups", () => {
+      const options = availableFilterOptions(SEED_PEOPLE);
+      const era = options.eras[0]!;
+      const result = filterPeople(SEED_PEOPLE, {
+        eras: [era],
+        fieldIds: ["philosophy"],
+        traitScoreGroups: [q(["curiosity"]), q(["collaboration"])],
+      });
+      for (const p of result) {
+        expect(p.era).toBe(era);
+        expect(p.fieldIds.includes("philosophy")).toBe(true);
+      }
     });
   });
 });
