@@ -4,15 +4,16 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-22 (consolidated release merge to `main`).
+Last updated: 2026-08-22 (Likert endpoint-clarity hotfix merge to `main`).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `1d9004e` — fast-forward merge of `chore/consolidated-dev-2026-08` (2026-08-22 production release gate). Live-verified. |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `e66e43d` — fast-forward merge of `fix/quiz-likert-endpoint-clarity` (2026-08-22 emergency hotfix, ahead of a high-school group using the site). Live-verified (landing EN/KO, quiz through to results, people/person/compare all clean, no console errors). |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
-| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth` | Fully subsumed by `main` (0 unique commits each, confirmed 2026-08-22) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
+| `feat/directory-taxonomy-filter-ux` | In-progress Directory taxonomy redesign + Landing/Quiz entry-flow polish (profession/personality filter facets, quiz intro time cue). **Not merged** — deliberately branched before this hotfix and not rebased onto it; the next session continuing that work should merge/rebase onto this new `main` HEAD to pick up the Likert fix. |
+| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth` | Fully subsumed by `main` (0 unique commits each, confirmed 2026-08-22) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
 ## Product
 
@@ -65,6 +66,15 @@ Last updated: 2026-08-22 (consolidated release merge to `main`).
   now permanently redirects). `www` also redirects to the apex.
 - **Monetization**: "Deep Inside" (one-time paid feature) implemented on
   `feat/monetization-v1`, intentionally unmerged, no live payment infra.
+- **Quiz Likert endpoint-clarity hotfix (2026-08)**: a real user reported
+  the 1-7 Likert scale confusing — the two endpoint descriptions used to
+  flank the options row in a flex row that became a COLUMN below 640px,
+  stacking "left anchor above / right anchor below" with no visual tie to
+  either end. Fixed with one layout at every viewport: an instruction line,
+  the unchanged 1-7 row, then both anchors together in their own row
+  directly beneath (space-between, left under "1", right under "7").
+  Presentation only — all 7 answer values and scoring unchanged.
+  `src/ui/components/quiz.tsx`'s `LikertScale`.
 - **Self-made/earned-distinction philosophy audit (2026-08)**: all 95
   people classified against `inclusion_v1`'s counterfactual test — 69
   Strong Self-Made Fit, 26 Earned but Advantaged, 0 Weak Fit. No roster
@@ -96,16 +106,16 @@ to resolve a specific historical question, not by default.
 
 ## Test baseline (last known-good, re-verify before trusting)
 
-Verified on `main` at the 2026-08-22 production release gate (commit
-`1d9004e`): `tsc --noEmit` clean · `vitest run` 638/638 · `next build
---webpack` clean, 190 localized person pages, static/dynamic split
-unchanged · Playwright 248/248 (`--workers=2`, sandbox-friendly) ·
-editorial validation 0 issues · `ko-KR` i18n coverage 100.00% · matching
-simulation max #1 frequency 12.0% (Warren Buffett, unchanged) · live
-production smoke test (canonical/hreflang/redirects/robots/sitemap,
-EN/KO, mobile Likert, portrait + initials-fallback rendering) all clean,
-zero console errors. See [`docs/context/TESTING.md`](TESTING.md) for
-what to run per change type.
+Verified on `main` at the 2026-08-22 Likert endpoint-clarity hotfix
+(commit `e66e43d`): `tsc --noEmit` clean · `vitest run` 638/638 · `next
+build --webpack` clean, 190 localized person pages, static/dynamic split
+unchanged · Playwright 254/254 (6 new endpoint-clarity tests) · `ko-KR`
+i18n coverage 100.00% · matching simulation max #1 frequency 12.0% (Warren
+Buffett, unchanged) · live production smoke test (landing EN/KO, quiz
+through to results, people/person/compare all rendering, Likert endpoint
+association verified live at 320px EN/KO) all clean, zero console errors.
+See [`docs/context/TESTING.md`](TESTING.md) for what to run per change
+type.
 
 ## Next product checkpoint
 
