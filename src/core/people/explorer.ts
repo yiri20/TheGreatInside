@@ -23,7 +23,7 @@
  * belong with the presentation layer, not the core selector.
  */
 
-import type { AttributeId } from "../attributes/attributes.js";
+import { ATTRIBUTES, type AttributeId } from "../attributes/attributes.js";
 import { IMPACT_DOMAINS, type Era, type ImpactDomain, type Person, type TraitImpact } from "../types.js";
 import { en } from "../i18n/en.js";
 import { ko } from "../i18n/ko.js";
@@ -61,7 +61,7 @@ export interface ExplorablePerson {
   archetypeIds: string[];
   isMatchEligible: boolean;
   overallProfileConfidence: number;
-  attributes: { attributeId: AttributeId; score: number; impact: TraitImpact }[];
+  attributes: { attributeId: AttributeId; score: number; confidence: number; impact: TraitImpact }[];
 }
 
 /* ------------------------------------------------------------------ search */
@@ -114,6 +114,22 @@ export interface PeopleFilter {
    *  scored with that exact impact for this specific person — impact is
    *  never global, so this filter is inherently person x attribute. */
   attributeImpacts?: Readonly<Partial<Record<AttributeId, TraitImpact>>>;
+  /** OR semantics across `attributeIds` (unlike `minAttributeScores`, which
+   *  ANDs): a person passes if they clear `minZ` standard deviations above
+   *  `reference_v3`'s mean, with confidence >= `minConfidence`, on ANY ONE
+   *  of the listed attributes. This is the general-purpose primitive the
+   *  People Directory's Personality/Trait filter chips are built from
+   *  (`src/core/people/directoryTaxonomy.ts` decides WHICH attributes are
+   *  exposed as chips and with what labels; this module only knows how to
+   *  evaluate the query, deliberately staying unaware of "directory"
+   *  concerns — see explorer.ts's own module doc on not hardcoding named
+   *  presets). Selecting multiple trait chips is "match any of these",
+   *  mirroring how multiple `tagIds` selections already OR via `intersects`. */
+  traitScoreAny?: {
+    attributeIds: readonly AttributeId[];
+    minZ: number;
+    minConfidence: number;
+  };
 }
 
 function intersects<T>(values: readonly T[] | undefined, has: (value: T) => boolean): boolean {
@@ -139,6 +155,16 @@ function passesAttributeFilters(person: ExplorablePerson, filter: PeopleFilter):
   return true;
 }
 
+function passesTraitScoreAny(person: ExplorablePerson, query: PeopleFilter["traitScoreAny"]): boolean {
+  if (!query || query.attributeIds.length === 0) return true;
+  return query.attributeIds.some((attributeId) => {
+    const attr = person.attributes.find((a) => a.attributeId === attributeId);
+    if (!attr || attr.confidence < query.minConfidence) return false;
+    const ref = ATTRIBUTES[attributeId].reference;
+    return (attr.score - ref.mean) / ref.sd >= query.minZ;
+  });
+}
+
 export function filterPeople<T extends ExplorablePerson>(people: readonly T[], filter: PeopleFilter): T[] {
   const eligibleOnly = filter.matchEligibleOnly ?? true;
   return people.filter((p) => {
@@ -152,6 +178,7 @@ export function filterPeople<T extends ExplorablePerson>(people: readonly T[], f
     if (!intersects(filter.impactDomains, (v) => p.impactDomains.includes(v))) return false;
     if (!intersects(filter.archetypeIds, (v) => p.archetypeIds.includes(v))) return false;
     if (!passesAttributeFilters(p, filter)) return false;
+    if (!passesTraitScoreAny(p, filter.traitScoreAny)) return false;
     return true;
   });
 }

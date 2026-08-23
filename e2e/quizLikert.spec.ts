@@ -193,3 +193,42 @@ test("quiz Likert @ ko-KR: 7 options render in a single unwrapped row at 320px (
   expect(new Set(tops).size, `expected all 7 options on one row at 320px (ko-KR), got tops: ${tops.join(",")}`).toBe(1);
   await assertNoHorizontalOverflow(page);
 });
+
+/**
+ * Quiz intro time/sign-in cue (2026-08 quick win): a restrained metadata
+ * line near the Start button — question count, time estimate, and
+ * confirmation that no sign-in is required for the free quiz/result path.
+ * The count must be the SAME number the intro body prose states (both are
+ * ultimately backed by the live question bank via `orderedQuestions`, not
+ * two independently hardcoded numbers that could drift apart).
+ */
+const META_LOCALES: Record<string, RegExp> = {
+  "en-US": /^\d+ questions · about \d+–\d+ min · no sign-in required$/,
+  "ko-KR": /^\d+문항 · 약 \d+–\d+분 · 로그인 필요 없음$/,
+};
+
+for (const [locale, pattern] of Object.entries(META_LOCALES)) {
+  test(`quiz intro @ ${locale}: shows question count / time / no-sign-in cue near Start`, async ({ page }) => {
+    await page.goto(`/${locale}/quiz`, { waitUntil: "networkidle" });
+    const startButton = page.getByRole("button", { name: START_LABEL[locale] });
+    await expect(startButton).toBeVisible();
+
+    const meta = page.getByText(pattern);
+    await expect(meta).toBeVisible();
+    const metaText = (await meta.textContent())!;
+    const count = metaText.match(/\d+/)![0];
+
+    // Same live question count the intro body prose already states — not a
+    // second, independently hardcoded number.
+    const bodyText = (await page.locator("main").textContent())!;
+    expect(bodyText.includes(`${count} `) || bodyText.includes(`${count}개`) || bodyText.includes(`${count}문항`)).toBe(
+      true,
+    );
+
+    // Physically near the Start button, not buried elsewhere on the screen.
+    const startBox = await startButton.boundingBox();
+    const metaBox = await meta.boundingBox();
+    expect(startBox && metaBox).toBeTruthy();
+    expect(Math.abs(metaBox!.y - startBox!.y)).toBeLessThan(120);
+  });
+}

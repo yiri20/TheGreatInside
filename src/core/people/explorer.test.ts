@@ -127,6 +127,67 @@ describe("filterPeople", () => {
     expect(living.length).toBeGreaterThan(0);
     expect(living.length).toBeLessThan(SEED_PEOPLE.length);
   });
+
+  describe("traitScoreAny (People Directory Personality/Trait chips)", () => {
+    it("matches a person who clears the z/confidence bar on the attribute", () => {
+      const result = filterPeople(SEED_PEOPLE, {
+        traitScoreAny: { attributeIds: ["curiosity"], minZ: 1.0, minConfidence: 0.5 },
+      });
+      for (const p of result) {
+        const attr = p.attributes.find((a) => a.attributeId === "curiosity");
+        expect(attr, p.slug).toBeDefined();
+        expect(attr!.confidence).toBeGreaterThanOrEqual(0.5);
+      }
+      expect(result.length).toBeGreaterThan(0);
+      expect(result.length).toBeLessThan(SEED_PEOPLE.length);
+    });
+
+    it("ORs across multiple selected attributes, unlike minAttributeScores' AND", () => {
+      const curiosityOnly = filterPeople(SEED_PEOPLE, {
+        traitScoreAny: { attributeIds: ["curiosity"], minZ: 1.0, minConfidence: 0.5 },
+        matchEligibleOnly: false,
+      });
+      const eitherOne = filterPeople(SEED_PEOPLE, {
+        traitScoreAny: { attributeIds: ["curiosity", "collaboration"], minZ: 1.0, minConfidence: 0.5 },
+        matchEligibleOnly: false,
+      });
+      // OR can only add matches, never remove them.
+      expect(eitherOne.length).toBeGreaterThanOrEqual(curiosityOnly.length);
+      for (const p of curiosityOnly) {
+        expect(eitherOne.some((q) => q.id === p.id)).toBe(true);
+      }
+      // At least one person must qualify via collaboration alone (not curiosity),
+      // proving this is a real OR, not curiosity swallowing the result.
+      const collaborationOnly = filterPeople(SEED_PEOPLE, {
+        traitScoreAny: { attributeIds: ["collaboration"], minZ: 1.0, minConfidence: 0.5 },
+        matchEligibleOnly: false,
+      });
+      expect(collaborationOnly.some((p) => !curiosityOnly.some((q) => q.id === p.id))).toBe(true);
+    });
+
+    it("an empty attributeIds list matches everyone (no-op filter)", () => {
+      const result = filterPeople(SEED_PEOPLE, {
+        traitScoreAny: { attributeIds: [], minZ: 1.0, minConfidence: 0.5 },
+        matchEligibleOnly: false,
+      });
+      expect(result).toHaveLength(SEED_PEOPLE.length);
+    });
+
+    it("composes with fieldIds (profession) as an AND across the two axes", () => {
+      const professionOnly = filterPeople(SEED_PEOPLE, { fieldIds: ["philosophy"] });
+      const traitOnly = filterPeople(SEED_PEOPLE, {
+        traitScoreAny: { attributeIds: ["curiosity"], minZ: 1.0, minConfidence: 0.5 },
+      });
+      const both = filterPeople(SEED_PEOPLE, {
+        fieldIds: ["philosophy"],
+        traitScoreAny: { attributeIds: ["curiosity"], minZ: 1.0, minConfidence: 0.5 },
+      });
+      expect(both.every((p) => p.fieldIds.includes("philosophy"))).toBe(true);
+      expect(both.every((p) => professionOnly.some((q) => q.id === p.id))).toBe(true);
+      expect(both.every((p) => traitOnly.some((q) => q.id === p.id))).toBe(true);
+      expect(both.length).toBeLessThanOrEqual(Math.min(professionOnly.length, traitOnly.length));
+    });
+  });
 });
 
 describe("sortPeople", () => {

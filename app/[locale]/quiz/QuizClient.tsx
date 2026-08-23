@@ -245,11 +245,14 @@ export function QuizClient({ locale }: { locale: Locale }) {
           <Heading level={1}>{t(locale, "quiz.intro.title")}</Heading>
           <Text tone="secondary">{t(locale, "quiz.intro.body")}</Text>
           <Text tone="muted">{t(locale, "quiz.intro.privacy")}</Text>
-          <div>
-            <Button size="lg" onClick={() => setStage("question")}>
-              {t(locale, "quiz.intro.start")}
-            </Button>
-          </div>
+          <Stack gap={2}>
+            <div>
+              <Button size="lg" onClick={() => setStage("question")}>
+                {t(locale, "quiz.intro.start")}
+              </Button>
+            </div>
+            <Text tone="muted">{t(locale, "quiz.intro.meta", { count: total })}</Text>
+          </Stack>
         </Stack>
       </main>
     );

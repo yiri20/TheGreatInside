@@ -379,6 +379,7 @@ export const en = {
   "quiz.intro.privacy":
     "Your answers stay in this browser and in the link to your results. Nothing is sent to a server or saved to an account.",
   "quiz.intro.start": "Start the Quiz",
+  "quiz.intro.meta": "{count} questions · about 10–15 min · no sign-in required",
 
   "quiz.progress": "Question {current} of {total}",
   "quiz.progress.range": "Questions {from}–{to} of {total}",
@@ -882,7 +883,7 @@ export const en = {
 
   /* -------------------------------------------------------------- explorer */
   "people.directory.title": "Explore Great Minds",
-  "people.directory.intro": "Browse the people in The Great Inside by era, region, and trait.",
+  "people.directory.intro": "Browse the people in The Great Inside by era, region, profession, and personality.",
   // ROSTER-1000: text search now focuses on what a person can reasonably
   // type — name or occupation. Tags moved to their own discoverable
   // structured filter (people.directory.tags_*) below, since a search box
@@ -900,9 +901,42 @@ export const en = {
   "people.directory.count": "{count} people",
   "people.directory.count_filtered": "{count} of {total} people",
   "people.directory.results_heading": "Results",
-  "people.directory.tags_label": "Tags",
-  "people.directory.tags_label_selected": "Tags ({count})",
-  "people.directory.tags_clear": "Clear tags",
+
+  // -------- Directory taxonomy (directory_taxonomy_v1) — see
+  // src/core/people/directoryTaxonomy.ts for the derivation of both axes.
+  "people.directory.section.profession": "Profession & Activity",
+  "people.directory.section.personality": "Personality & Traits",
+  "people.directory.profession_category.science_knowledge": "Science & Knowledge",
+  "people.directory.profession_category.arts_culture": "Arts & Culture",
+  "people.directory.profession_category.leadership_society": "Leadership & Society",
+  "people.directory.profession_category.building_discovery": "Building & Discovery",
+  "people.directory.selected_label": "Selected:",
+  "people.directory.clear_all": "Clear all",
+  "people.directory.remove_filter": "Remove {label} filter",
+
+  "field.philosophy": "Philosophy",
+  "field.natural_science": "Natural Science",
+  "field.mathematics": "Mathematics",
+  "field.physics": "Physics",
+  "field.engineering": "Engineering",
+  "field.medicine": "Medicine",
+  "field.environmental_science": "Environmental Science",
+  "field.literature": "Literature",
+  "field.music": "Music",
+  "field.art": "Visual Art",
+  "field.film": "Film",
+  "field.design": "Design",
+  "field.politics": "Politics",
+  "field.civil_rights": "Civil Rights",
+  "field.military": "Military",
+  "field.education": "Education",
+  "field.law": "Law",
+  "field.social_reform": "Social Reform",
+  "field.business": "Business",
+  "field.technology": "Technology",
+  "field.computing": "Computing",
+  "field.sport": "Sport",
+  "field.exploration": "Exploration",
 
   "sort.name_asc": "Name (A–Z)",
   "sort.name_desc": "Name (Z–A)",

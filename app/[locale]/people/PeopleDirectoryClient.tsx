@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import type { AttributeId } from "@core/attributes/attributes";
 import type { Era, Locale } from "@core/types";
 import { personDisplayName, t, type MessageKey } from "@core/i18n/index";
 // Compact, client-safe projection of SEED_PEOPLE — never the full dataset
@@ -8,12 +9,13 @@ import { personDisplayName, t, type MessageKey } from "@core/i18n/index";
 // See src/core/people/personIndex.ts for the full architectural reasoning.
 import { PEOPLE_INDEX } from "@data/people/peopleIndex.generated";
 import { expandPeopleIndex } from "@core/people/personIndex";
+import { availableFilterOptions, explorePeople, type PeopleFilter, type PeopleSortKey } from "@core/people/explorer";
 import {
-  availableFilterOptions,
-  explorePeople,
-  type PeopleFilter,
-  type PeopleSortKey,
-} from "@core/people/explorer";
+  DIRECTORY_TRAIT_MIN_CONFIDENCE,
+  DIRECTORY_TRAIT_MIN_Z,
+  PERSONALITY_TAXONOMY,
+  PROFESSION_CATEGORIES,
+} from "@core/people/directoryTaxonomy";
 import {
   Cluster,
   Eyebrow,
@@ -38,6 +40,14 @@ const SORT_KEYS: readonly PeopleSortKey[] = [
 
 const ALL_VALUE = "";
 
+/** One entry per selected taxonomy chip, for the selected-filter summary
+ *  row (Part G) — carries enough to render a label and to remove itself. */
+interface SelectedChip {
+  key: string;
+  labelKey: MessageKey;
+  onRemove: () => void;
+}
+
 /**
  * POST-10D STAGE A: extracted from `page.tsx` unchanged (interactive
  * search/filter/sort state can't live in a Server Component) so `page.tsx`
@@ -46,13 +56,22 @@ const ALL_VALUE = "";
  * Components, which a `"use client"` page structurally can never be. `locale`
  * is now a prop instead of `useParams()`, since the server parent already
  * resolves and validates it. No UI, behavior, or route-shape change.
+ *
+ * DIRECTORY TAXONOMY REDESIGN (2026-08, `directory_taxonomy_v1`): the old
+ * single flat `tagIds` checklist (hidden in a `<details>` dropdown) is
+ * replaced by two always-visible sections driven by
+ * `src/core/people/directoryTaxonomy.ts` — Profession/Activity (grouped
+ * `fieldIds`) and Personality/Trait (grouped canonical attributes). See
+ * that module's doc comment for the full derivation rationale. `tagIds`
+ * itself is untouched and still powers search.
  */
 export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
   const [query, setQuery] = useState("");
   const [era, setEra] = useState<string>(ALL_VALUE);
   const [region, setRegion] = useState<string>(ALL_VALUE);
-  const [tagIds, setTagIds] = useState<readonly string[]>([]);
   const [sort, setSort] = useState<PeopleSortKey>("name_asc");
+  const [fieldIds, setFieldIds] = useState<readonly string[]>([]);
+  const [traitIds, setTraitIds] = useState<readonly AttributeId[]>([]);
 
   // Expands the compact, tuple-encoded PEOPLE_INDEX (small on the wire) back
   // into the object-shaped attributes explorer.ts's existing, already-tested
@@ -66,21 +85,63 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
     () => ({
       ...(era !== ALL_VALUE ? { eras: [era as Era] } : {}),
       ...(region !== ALL_VALUE ? { regionCodes: [region] } : {}),
-      ...(tagIds.length > 0 ? { tagIds } : {}),
+      ...(fieldIds.length > 0 ? { fieldIds } : {}),
+      ...(traitIds.length > 0
+        ? {
+            traitScoreAny: {
+              attributeIds: traitIds,
+              minZ: DIRECTORY_TRAIT_MIN_Z,
+              minConfidence: DIRECTORY_TRAIT_MIN_CONFIDENCE,
+            },
+          }
+        : {}),
     }),
-    [era, region, tagIds],
+    [era, region, fieldIds, traitIds],
   );
 
-  const results = useMemo(
-    () => explorePeople(people, { query, filter, sort }),
-    [people, query, filter, sort],
-  );
+  const results = useMemo(() => explorePeople(people, { query, filter, sort }), [people, query, filter, sort]);
 
-  const isFiltered = query.trim() !== "" || era !== ALL_VALUE || region !== ALL_VALUE || tagIds.length > 0;
+  const isFiltered =
+    query.trim() !== "" || era !== ALL_VALUE || region !== ALL_VALUE || fieldIds.length > 0 || traitIds.length > 0;
 
-  function toggleTag(id: string) {
-    setTagIds((current) => (current.includes(id) ? current.filter((t) => t !== id) : [...current, id]));
+  function toggleField(id: string) {
+    setFieldIds((current) => (current.includes(id) ? current.filter((f) => f !== id) : [...current, id]));
   }
+
+  function toggleTrait(id: AttributeId) {
+    setTraitIds((current) => (current.includes(id) ? current.filter((t) => t !== id) : [...current, id]));
+  }
+
+  function clearAll() {
+    setQuery("");
+    setEra(ALL_VALUE);
+    setRegion(ALL_VALUE);
+    setFieldIds([]);
+    setTraitIds([]);
+  }
+
+  // Only taxonomy chip selections appear in the summary row — era/region
+  // already show their own state in their own <select>, and the search box
+  // shows its own text; repeating them here would be redundant, not helpful.
+  const selectedChips: SelectedChip[] = [
+    ...fieldIds.map(
+      (id): SelectedChip => ({
+        key: `field-${id}`,
+        labelKey: `field.${id}` as MessageKey,
+        onRemove: () => toggleField(id),
+      }),
+    ),
+    ...traitIds.map(
+      (id): SelectedChip => ({
+        key: `trait-${id}`,
+        labelKey: `attribute.${id}` as MessageKey,
+        onRemove: () => toggleTrait(id),
+      }),
+    ),
+  ];
+
+  const visibleFieldIds = new Set(options.fieldIds);
+  const visibleAttributeIds = new Set(people.flatMap((p) => p.attributes.map((a) => a.attributeId)));
 
   return (
     <main className="tgi-container" style={{ paddingTop: "3rem", paddingBottom: "5rem" }}>
@@ -91,7 +152,7 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
           <Text tone="secondary">{t(locale, "people.directory.intro")}</Text>
         </Stack>
 
-        <Stack gap={4}>
+        <Stack gap={5}>
           <Cluster gap={3} className="tgi-filter-bar">
             <TextField
               value={query}
@@ -127,41 +188,103 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
               ariaLabel={t(locale, "people.directory.sort_label")}
               options={SORT_KEYS.map((key) => ({ value: key, label: t(locale, `sort.${key}` as MessageKey) }))}
             />
-            <details className="tgi-tags-filter">
-              <summary className="tgi-field tgi-tags-filter__summary">
-                {tagIds.length > 0
-                  ? t(locale, "people.directory.tags_label_selected", { count: tagIds.length })
-                  : t(locale, "people.directory.tags_label")}
-              </summary>
-              <div className="tgi-details-body tgi-tags-filter__panel">
-                <Cluster gap={3}>
-                  {options.tagIds.map((id) => {
-                    const inputId = `tag-filter-${id}`;
-                    return (
-                      <label key={id} htmlFor={inputId} className="tgi-tags-filter__option">
-                        <input
-                          id={inputId}
-                          type="checkbox"
-                          checked={tagIds.includes(id)}
-                          onChange={() => toggleTag(id)}
-                        />
-                        <span>{t(locale, `tag.${id}` as MessageKey)}</span>
-                      </label>
-                    );
-                  })}
-                </Cluster>
-                {tagIds.length > 0 && (
-                  <button
-                    type="button"
-                    className="tgi-tags-filter__clear"
-                    onClick={() => setTagIds([])}
-                  >
-                    {t(locale, "people.directory.tags_clear")}
-                  </button>
-                )}
-              </div>
-            </details>
           </Cluster>
+
+          <Stack gap={3} as="section">
+            <Heading level={2} visualLevel={3}>
+              {t(locale, "people.directory.section.profession")}
+            </Heading>
+            <div className="tgi-taxonomy-section">
+              {PROFESSION_CATEGORIES.filter((category) => category.fieldIds.some((id) => visibleFieldIds.has(id))).map(
+                (category) => (
+                  <div className="tgi-taxonomy-category" key={category.id}>
+                    <Text tone="muted" className="tgi-taxonomy-category__heading">
+                      {t(locale, category.labelKey)}
+                    </Text>
+                    <Cluster gap={2}>
+                      {category.fieldIds
+                        .filter((id) => visibleFieldIds.has(id))
+                        .map((id) => {
+                          const inputId = `field-filter-${id}`;
+                          return (
+                            <label key={id} htmlFor={inputId} className="tgi-chip-option">
+                              <input
+                                id={inputId}
+                                type="checkbox"
+                                checked={fieldIds.includes(id)}
+                                onChange={() => toggleField(id)}
+                              />
+                              <span>{t(locale, `field.${id}` as MessageKey)}</span>
+                            </label>
+                          );
+                        })}
+                    </Cluster>
+                  </div>
+                ),
+              )}
+            </div>
+          </Stack>
+
+          <Stack gap={3} as="section">
+            <Heading level={2} visualLevel={3}>
+              {t(locale, "people.directory.section.personality")}
+            </Heading>
+            <div className="tgi-taxonomy-section">
+              {PERSONALITY_TAXONOMY.filter((group) => group.attributeIds.some((id) => visibleAttributeIds.has(id))).map(
+                (group) => (
+                  <div className="tgi-taxonomy-category" key={group.facet}>
+                    <Text tone="muted" className="tgi-taxonomy-category__heading">
+                      {t(locale, group.labelKey)}
+                    </Text>
+                    <Cluster gap={2}>
+                      {group.attributeIds
+                        .filter((id) => visibleAttributeIds.has(id))
+                        .map((id) => {
+                          const inputId = `trait-filter-${id}`;
+                          return (
+                            <label key={id} htmlFor={inputId} className="tgi-chip-option">
+                              <input
+                                id={inputId}
+                                type="checkbox"
+                                checked={traitIds.includes(id)}
+                                onChange={() => toggleTrait(id)}
+                              />
+                              <span>{t(locale, `attribute.${id}` as MessageKey)}</span>
+                            </label>
+                          );
+                        })}
+                    </Cluster>
+                  </div>
+                ),
+              )}
+            </div>
+          </Stack>
+
+          {selectedChips.length > 0 && (
+            <Cluster gap={2} className="tgi-selected-filters">
+              <Text tone="muted" className="tgi-taxonomy-category__heading">
+                {t(locale, "people.directory.selected_label")}
+              </Text>
+              {selectedChips.map((chip) => (
+                <button
+                  key={chip.key}
+                  type="button"
+                  className="tgi-selected-chip"
+                  onClick={chip.onRemove}
+                  aria-label={t(locale, "people.directory.remove_filter", { label: t(locale, chip.labelKey) })}
+                >
+                  <span>{t(locale, chip.labelKey)}</span>
+                  <span className="tgi-selected-chip__x" aria-hidden="true">
+                    ×
+                  </span>
+                </button>
+              ))}
+              <button type="button" className="tgi-selected-clear-all" onClick={clearAll}>
+                {t(locale, "people.directory.clear_all")}
+              </button>
+            </Cluster>
+          )}
+
           <Text tone="muted">
             {isFiltered
               ? t(locale, "people.directory.count_filtered", { count: results.length, total: people.length })

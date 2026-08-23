@@ -92,3 +92,97 @@ test("people directory grid is NOT forced to 2 columns at 1024px+ (discovery-gri
   expect(columns).not.toBeNull();
   expect(columns!, "directory grid must not be pinned to 2 columns above the discovery-grid breakpoint").toBeGreaterThan(2);
 });
+
+/**
+ * Directory taxonomy redesign (directory_taxonomy_v1, 2026-08) — Part J/M
+ * browser QA for the new Profession/Activity + Personality/Trait sections
+ * (src/core/people/directoryTaxonomy.ts). Both are real <label><input
+ * type=checkbox>> controls, always visible (no <details>/dropdown), so
+ * they're driven with role-based locators exactly like any other form
+ * control, not JS-evaluated state.
+ */
+test("people directory: Profession/Activity and Personality/Trait sections are visible without expanding anything", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await expect(page.getByRole("heading", { name: "Profession & Activity" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Personality & Traits" })).toBeVisible();
+  // No <details> element left over from the old flat tagIds dropdown.
+  expect(await page.locator("details").count()).toBe(0);
+  await expect(page.getByRole("checkbox", { name: "Philosophy" })).toBeVisible();
+  await expect(page.getByRole("checkbox", { name: "Curiosity" })).toBeVisible();
+});
+
+test("people directory: selecting two chips in the same taxonomy group ORs (either qualifies)", async ({ page }) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
+
+  await page.getByRole("checkbox", { name: "Mathematics" }).check();
+  const mathOnly = Number((await countText())!.match(/^\d+/)![0]);
+
+  await page.getByRole("checkbox", { name: "Physics" }).check();
+  const mathOrPhysics = Number((await countText())!.match(/^\d+/)![0]);
+
+  // OR can only add matches, never remove — selecting a second profession
+  // chip must not shrink the result set.
+  expect(mathOrPhysics).toBeGreaterThanOrEqual(mathOnly);
+});
+
+test("people directory: a profession chip AND a personality chip ANDs across the two axes", async ({ page }) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
+
+  await page.getByRole("checkbox", { name: "Philosophy" }).check();
+  const professionOnly = Number((await countText())!.match(/^\d+/)![0]);
+
+  await page.getByRole("checkbox", { name: "Curiosity" }).check();
+  const both = Number((await countText())!.match(/^\d+/)![0]);
+
+  // AND across axes can only narrow the result set, never widen it.
+  expect(both).toBeLessThanOrEqual(professionOnly);
+
+  // Selected-filter summary shows both chips with working remove controls.
+  await expect(page.getByRole("button", { name: "Remove Philosophy filter" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Remove Curiosity filter" })).toBeVisible();
+
+  await page.getByRole("button", { name: "Clear all" }).click();
+  await expect(page.getByRole("checkbox", { name: "Philosophy" })).not.toBeChecked();
+  await expect(page.getByRole("checkbox", { name: "Curiosity" })).not.toBeChecked();
+  await expect(page.getByRole("button", { name: "Clear all" })).toHaveCount(0);
+});
+
+test("people directory: search composes with taxonomy filters and the empty state recovers", async ({ page }) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await page.getByRole("checkbox", { name: "Sport" }).check();
+  await page.getByPlaceholder(/search/i).fill("zzzzzzzznotarealperson");
+  await page.waitForTimeout(150);
+  await expect(page.getByText(/no one matches/i)).toBeVisible();
+  // Taxonomy stays visible and scannable even on the empty state.
+  await expect(page.getByRole("heading", { name: "Profession & Activity" })).toBeVisible();
+
+  await page.getByPlaceholder(/search/i).fill("");
+  await page.waitForTimeout(150);
+  await expect(page.getByText(/no one matches/i)).toHaveCount(0);
+});
+
+test("people directory @ 328px: taxonomy stays visible, no horizontal scroll, chips wrap", async ({ page }) => {
+  await page.setViewportSize({ width: 328, height: 1200 });
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await expect(page.getByRole("heading", { name: "Profession & Activity" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Personality & Traits" })).toBeVisible();
+  expect(await page.locator("details").count()).toBe(0);
+  await assertNoHorizontalOverflow(page);
+});
+
+test("people directory ko-KR: taxonomy section headings and chip labels are localized, not raw ids", async ({
+  page,
+}) => {
+  await page.goto("/ko-KR/people", { waitUntil: "networkidle" });
+  await expect(page.getByRole("heading", { name: "직업과 활동 분야" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "성격과 성향" })).toBeVisible();
+  await expect(page.getByRole("checkbox", { name: "철학" })).toBeVisible();
+  await expect(page.getByRole("checkbox", { name: "호기심" })).toBeVisible();
+  // No raw underscored ids leaking into the UI (e.g. "natural_science").
+  const bodyText = (await page.locator("main").textContent())!;
+  expect(bodyText).not.toMatch(/[a-z]+_[a-z]+/);
+});
