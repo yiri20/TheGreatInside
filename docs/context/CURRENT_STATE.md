@@ -4,15 +4,15 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-26 (Directory taxonomy + progressive-disclosure release merged to `main`).
+Last updated: 2026-08-26 (Landing CTA hierarchy polish merged to `main`).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `e88ac24` — fast-forward merge of `feat/directory-taxonomy-filter-ux` (2026-08-26): Directory taxonomy redesign (Profession/Activity + Personality/Trait facets), the cross-facet-AND filter-semantics fix, progressive disclosure (both sections collapsed by default, native `<details>`), the right-aligned-chevron summary polish, plus the already-merged Likert endpoint-clarity hotfix. Live-verified (landing EN/KO, quiz intro/Likert EN/KO, a full quiz run through to Results/Compare, a person page, Directory collapsed-by-default/expand/collapse/selected-count/clear-all/OR-AND-semantics/no-overflow-at-390px/EN-KO labels — all clean, no console errors). |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `dfda94b` — fast-forward merge of `feat/landing-cta-hierarchy` (2026-08-26): Landing's secondary CTA demoted from an outlined pill to this project's established `variant="quiet"` text-link treatment at every width (previously only below 1280px), stacked directly below the primary CTA (never side-by-side), plus an EN copy tightening ("Explore the People First" → "Explore People First"; KO unchanged). Also includes the prior Directory taxonomy + progressive-disclosure release. Live-verified (Landing EN/KO at 390px/1280px: primary still the dominant filled action, secondary a quiet text link directly below it, keyboard Tab order reaches both CTAs with a visible focus ring, zero horizontal overflow, no console errors). |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
-| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
+| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux`, `feat/landing-cta-hierarchy` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
 ## Product
 

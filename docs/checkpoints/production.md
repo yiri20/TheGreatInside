@@ -15,11 +15,11 @@ questions, not routine deployment work.
   to the apex, path/query preserved.
 - **Hosting**: Vercel, auto-deploy from `main` on GitHub
   (`github.com/yiri20/TheGreatInside`, private). Last release gate:
-  2026-08-26, `main` at `e88ac24` (Directory taxonomy redesign,
-  cross-facet-AND filter-semantics fix, progressive disclosure, chevron
-  summary polish, plus the already-merged Likert endpoint-clarity
-  hotfix), full automated + live production verification passed, no
-  monetization.
+  2026-08-26, `main` at `dfda94b` (Landing secondary CTA demoted to a
+  quiet text link at every width, stacked below the primary CTA, plus an
+  EN copy tightening; also includes the prior Directory taxonomy +
+  progressive-disclosure release), full automated + live production
+  verification passed, no monetization.
 - **Auth**: Google OAuth via Supabase Auth (`@supabase/ssr`), identity-only
   scopes (`openid`/`email`/`profile`) — this app's own code never reads
   email/name/picture, only `user.id`. This scope set qualifies for
