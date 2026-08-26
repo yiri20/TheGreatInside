@@ -810,12 +810,28 @@ details > summary:focus-visible {
    directoryTaxonomy.ts and explorer.ts and are untouched here.
 
    PROGRESSIVE DISCLOSURE: each section is now its own native `<details>`
-   (`.tgi-taxonomy-disclosure`), collapsed by default — the chevron/focus-
-   ring styling comes for free from the shared `details > summary` rule
-   above (same pattern as the Results page's all-traits/how-it-was-
-   calculated disclosures). This, not the density tuning below, is what
-   now gets the results grid close to the fold; the density rules remain
-   in place for whichever section a person actually opens.
+   (`.tgi-taxonomy-disclosure`), collapsed by default — the focus-ring
+   styling comes for free from the shared `details > summary` rule above
+   (same pattern as the Results page's all-traits/how-it-was-calculated
+   disclosures). This, not the density tuning below, is what now gets the
+   results grid close to the fold; the density rules remain in place for
+   whichever section a person actually opens.
+
+   SUMMARY POLISH (2026-08 micro-polish pass): the shared rule's left-side
+   "▸" reads fine for the Results page's inline toggles, but these two are
+   full-width section headers, where a left triangle before the heading
+   text reads as a leftover browser default rather than a deliberate
+   control. Scoped to ONLY `.tgi-taxonomy-disclosure > summary` — the
+   shared rule and the Results page disclosures that still use it are
+   untouched. The inherited `::before` triangle is suppressed and a
+   chevron is drawn on `::after` instead, at the far right via
+   `justify-content: space-between`. The chevron is a plain two-border
+   corner rotated with `transform` (see below) rather than an SVG/mask, so
+   its colour is `--tgi-ink-muted`/`--tgi-ink` via real custom properties —
+   it already matches both themes with no separate dark-mode rule needed.
+   The hairline `border-bottom` is the only spacing addition, and it's on
+   the summary only — `.tgi-details-body`'s padding (the expanded content
+   below) is untouched.
 
    DENSITY (inside an open section): two structural changes keep an
    expanded section compact:
@@ -844,6 +860,42 @@ details > summary:focus-visible {
    for every other custom control in this app, not a second bespoke one.
    Selected state is a border/fill change AND a checkmark glyph that
    expands in — never colour alone (CLAUDE.md design-system invariant). */
+.tgi-taxonomy-disclosure > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--tgi-space-3);
+  padding-block: var(--tgi-space-2);
+  border-bottom: var(--tgi-border-width) solid var(--tgi-rule);
+}
+/* Suppress the shared rule's left-side triangle for these two only. */
+.tgi-taxonomy-disclosure > summary::before {
+  content: none;
+}
+.tgi-taxonomy-disclosure > summary::after {
+  content: "";
+  flex-shrink: 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1.5px solid var(--tgi-ink-muted);
+  border-bottom: 1.5px solid var(--tgi-ink-muted);
+  /* A corner of the box, rotated to point down — the classic border-corner
+     chevron. No SVG/data-URI/mask: this project has no other embedded
+     icon asset, and it keeps the whole thing to two `border` declarations
+     plus a `transform`, nothing that needs an asset to load or a
+     compositor-promoted layer to resolve. */
+  transform: rotate(45deg);
+  transition: transform var(--tgi-duration-fast) var(--tgi-ease), border-color var(--tgi-duration-fast) var(--tgi-ease);
+}
+.tgi-taxonomy-disclosure[open] > summary::after {
+  /* Same corner, turned a further 180° to point up instead of down. */
+  transform: rotate(225deg);
+}
+.tgi-taxonomy-disclosure > summary:hover::after,
+.tgi-taxonomy-disclosure > summary:focus-visible::after {
+  border-color: var(--tgi-ink);
+}
+
 .tgi-taxonomy-columns { display: flex; flex-direction: column; gap: var(--tgi-space-6); }
 @media (min-width: 1280px) {
   .tgi-taxonomy-columns {
