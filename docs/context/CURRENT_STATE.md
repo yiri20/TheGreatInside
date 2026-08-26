@@ -4,16 +4,15 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-22 (Likert endpoint-clarity hotfix merge to `main`).
+Last updated: 2026-08-26 (Directory taxonomy + progressive-disclosure release merged to `main`).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `e66e43d` — fast-forward merge of `fix/quiz-likert-endpoint-clarity` (2026-08-22 emergency hotfix, ahead of a high-school group using the site). Live-verified (landing EN/KO, quiz through to results, people/person/compare all clean, no console errors). |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `e88ac24` — fast-forward merge of `feat/directory-taxonomy-filter-ux` (2026-08-26): Directory taxonomy redesign (Profession/Activity + Personality/Trait facets), the cross-facet-AND filter-semantics fix, progressive disclosure (both sections collapsed by default, native `<details>`), the right-aligned-chevron summary polish, plus the already-merged Likert endpoint-clarity hotfix. Live-verified (landing EN/KO, quiz intro/Likert EN/KO, a full quiz run through to Results/Compare, a person page, Directory collapsed-by-default/expand/collapse/selected-count/clear-all/OR-AND-semantics/no-overflow-at-390px/EN-KO labels — all clean, no console errors). |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
-| `feat/directory-taxonomy-filter-ux` | In-progress Directory taxonomy redesign + Landing/Quiz entry-flow polish (profession/personality filter facets, quiz intro time cue). **Not merged** — deliberately branched before this hotfix and not rebased onto it; the next session continuing that work should merge/rebase onto this new `main` HEAD to pick up the Likert fix. |
-| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth` | Fully subsumed by `main` (0 unique commits each, confirmed 2026-08-22) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
+| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
 ## Product
 
@@ -75,6 +74,20 @@ Last updated: 2026-08-22 (Likert endpoint-clarity hotfix merge to `main`).
   directly beneath (space-between, left under "1", right under "7").
   Presentation only — all 7 answer values and scoring unchanged.
   `src/ui/components/quiz.tsx`'s `LikertScale`.
+- **Directory taxonomy + progressive disclosure (`directory_taxonomy_v1`,
+  2026-08)**: the People Directory's filter UI is two axes — Profession/
+  Activity (`Person.fieldIds`, grouped) and Personality/Trait (the
+  canonical 34-attribute/7-facet taxonomy, grouped) — replacing the old
+  flat `tagIds` checklist. Same-facet selections OR, cross-facet AND
+  (fixed from an earlier flat-OR bug), profession OR, exactly like every
+  other filter-facet pair in `explorer.ts`. Both sections are collapsed
+  by default (native `<details>`) — a collapsed section with an active
+  selection shows the count in its own heading (e.g. "Personality &
+  Traits · 2 selected"); the summary's chevron sits at the far right via
+  a plain two-border corner (no SVG/mask), rotating on open. Filter
+  selection state survives collapse/reopen. See
+  [`docs/reference/directory-taxonomy.md`](../reference/directory-taxonomy.md)
+  for the derivation rationale and where to add/move a filter.
 - **Self-made/earned-distinction philosophy audit (2026-08)**: all 95
   people classified against `inclusion_v1`'s counterfactual test — 69
   Strong Self-Made Fit, 26 Earned but Advantaged, 0 Weak Fit. No roster
@@ -106,16 +119,24 @@ to resolve a specific historical question, not by default.
 
 ## Test baseline (last known-good, re-verify before trusting)
 
-Verified on `main` at the 2026-08-22 Likert endpoint-clarity hotfix
-(commit `e66e43d`): `tsc --noEmit` clean · `vitest run` 638/638 · `next
-build --webpack` clean, 190 localized person pages, static/dynamic split
-unchanged · Playwright 254/254 (6 new endpoint-clarity tests) · `ko-KR`
-i18n coverage 100.00% · matching simulation max #1 frequency 12.0% (Warren
-Buffett, unchanged) · live production smoke test (landing EN/KO, quiz
-through to results, people/person/compare all rendering, Likert endpoint
-association verified live at 320px EN/KO) all clean, zero console errors.
-See [`docs/context/TESTING.md`](TESTING.md) for what to run per change
-type.
+Verified on `main` at the 2026-08-26 Directory taxonomy + progressive-
+disclosure release (commit `e88ac24`): `tsc --noEmit` clean · `vitest run`
+662/662 · `next build --webpack` clean, 190 localized person pages,
+static/dynamic split unchanged · Playwright 278/278 (confirmed at the
+stable `--workers=1` configuration; a couple of `page.goto`/networkidle
+timeouts appeared under the default ~11-worker run, both isolated and
+re-confirmed passing — the documented parallel-worker navigation-flake
+signature already recorded in `playwright.config.ts`'s own comment, not a
+regression) · `ko-KR` i18n coverage 100.00% · matching simulation max #1
+frequency 12.0% (Warren Buffett, unchanged — this release touched no
+matching/scoring code) · live production smoke test (landing EN/KO, quiz
+intro + Likert EN/KO, a full quiz run through to Results and Compare with
+real computed scores, a person page, and the full Directory checklist —
+both taxonomy sections collapsed by default, expand/collapse, collapsed
+active-filter count in the heading, chevron at the far right, same-facet
+OR / cross-facet AND semantics, clear-all, no horizontal overflow at
+390px, EN/KO labels) all clean, zero console errors. See
+[`docs/context/TESTING.md`](TESTING.md) for what to run per change type.
 
 ## Next product checkpoint
 
