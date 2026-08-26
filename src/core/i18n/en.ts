@@ -363,7 +363,7 @@ export const en = {
   "landing.subtitle":
     "Answer a set of questions about how you think, create, work, and make decisions. We'll compare your profile against {count} extraordinary people — and show you who you actually resemble.",
   "landing.cta_primary": "Find My Historical Match",
-  "landing.cta_secondary": "Explore the People First",
+  "landing.cta_secondary": "Explore People First",
   "landing.ai_disclaimer":
     "Every result is calculated deterministically from your answers — no generative AI is involved in scoring or matching.",
   // Phase 10D-1: label for the wide-desktop rail's secondary region — same
