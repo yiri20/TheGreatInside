@@ -161,12 +161,12 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
     : undefined;
 
   return (
-    <main className="tgi-container" style={{ paddingTop: "3rem", paddingBottom: "5rem" }}>
-      <Stack gap={7}>
-        <Button variant="quiet" href={`/${locale}/people`}>
-          ← {t(locale, "person.back_to_people")}
-        </Button>
+    <main className="tgi-container tgi-person-main" style={{ paddingBottom: "5rem" }}>
+      <Button variant="quiet" href={`/${locale}/people`} className="tgi-person-back-link">
+        ← {t(locale, "person.back_to_people")}
+      </Button>
 
+      <Stack gap={7}>
         {/* Phase 10D-1: extracted into IdentityHero (src/ui/components/layout.tsx)
             — was a hand-written flex row duplicated across this page, results,
             and compare. IdentityHero itself is untouched this stage (Phase

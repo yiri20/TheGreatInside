@@ -143,6 +143,39 @@ body {
   padding-inline: var(--tgi-container-padding);
 }
 
+/* Person page shell: header-to-back-link spacing. Human visual review
+   (2026-08) found the flat 3rem/3rem rhythm this replaced left excessive
+   empty space above the hero on mobile — this pairs with
+   .tgi-person-back-link below for the header/link/hero rhythm as a whole. */
+.tgi-person-main {
+  padding-top: var(--tgi-space-7);
+}
+@media (max-width: 640px) {
+  .tgi-person-main {
+    padding-top: var(--tgi-space-6);
+  }
+}
+
+/* Back-nav link: deliberately NOT a child of the hero's gap-7 Stack (see
+   page.tsx) -- that Stack's gap also spaces every section below the hero,
+   so folding this link into it would mean any fix here ripples further
+   down the page. Sitting outside it as a plain block-context sibling is
+   also what fixes the original bug: as a flex item of that column Stack
+   the link (an inline-flex .tgi-button) was stretched full-width by the
+   Stack's default align-items:stretch, and its own justify-content:center
+   then centered the label inside that stretched box -- reading as "floats
+   centered above the hero." Outside the Stack it's a normal inline-level
+   box again, so it left-aligns to the container edge on its own, matching
+   the hero/portrait's left edge with no extra alignment rule needed. */
+.tgi-person-back-link {
+  margin-bottom: var(--tgi-space-6);
+}
+@media (max-width: 640px) {
+  .tgi-person-back-link {
+    margin-bottom: var(--tgi-space-5);
+  }
+}
+
 /* ---------------------------------------------------------------- header */
 /* Phase 9 Stage 9D: minimal, non-sticky (position: static — nothing yet
    justifies fixed/sticky), deliberately not a full site-nav — one compact
