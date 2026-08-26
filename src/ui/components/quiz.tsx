@@ -104,38 +104,56 @@ export function LikertScale({
   leftAnchor: string | undefined;
   rightAnchor: string | undefined;
 }) {
+  const resolvedLeftAnchor = leftAnchor ?? t(locale, "quiz.likert.disagree");
+  const resolvedRightAnchor = rightAnchor ?? t(locale, "quiz.likert.agree");
+
   return (
     <fieldset className="tgi-likert">
       <legend className="tgi-visually-hidden">{prompt}</legend>
-      <div className="tgi-likert__row">
-        <span className="tgi-likert__anchor" aria-hidden="true">
-          {leftAnchor ?? t(locale, "quiz.likert.disagree")}
+      {/*
+        Endpoint-clarity hotfix (2026-08): the two anchor descriptions used
+        to flank the 1-7 row left/right in a row that became a COLUMN below
+        640px (flex-direction switch) — collapsing to "left anchor ABOVE the
+        row, right anchor BELOW it", which reads as two independent captions
+        rather than "this end vs. that end" (a real user report, ahead of a
+        high-school group using the site). Replaced with ONE layout at every
+        viewport: an explicit instruction line, then the 1-7 row, then BOTH
+        anchors together in their own row directly underneath — left-aligned
+        under "1", right-aligned under "7" via space-between — the same
+        "min/max caption under a scale" pattern most Likert/NPS UIs use, so
+        the left<->1 / right<->7 association reads the same way at 320px and
+        at desktop, instead of two different layouts per breakpoint.
+      */}
+      <p className="tgi-likert__instruction">{t(locale, "quiz.likert.instruction")}</p>
+      <div className="tgi-likert__options">
+        {LIKERT_VALUES.map((n) => {
+          const inputId = `${questionId}-${n}`;
+          const checked = value === n;
+          return (
+            <span key={n} className="tgi-likert__option">
+              <input
+                type="radio"
+                id={inputId}
+                name={questionId}
+                value={n}
+                checked={checked}
+                onChange={() => onChange(n)}
+                className="tgi-likert__input"
+                aria-label={String(n)}
+              />
+              <label htmlFor={inputId} className="tgi-likert__label">
+                {n}
+              </label>
+            </span>
+          );
+        })}
+      </div>
+      <div className="tgi-likert__anchors">
+        <span className="tgi-likert__anchor tgi-likert__anchor--left" aria-hidden="true">
+          {resolvedLeftAnchor}
         </span>
-        <div className="tgi-likert__options">
-          {LIKERT_VALUES.map((n) => {
-            const inputId = `${questionId}-${n}`;
-            const checked = value === n;
-            return (
-              <span key={n} className="tgi-likert__option">
-                <input
-                  type="radio"
-                  id={inputId}
-                  name={questionId}
-                  value={n}
-                  checked={checked}
-                  onChange={() => onChange(n)}
-                  className="tgi-likert__input"
-                  aria-label={String(n)}
-                />
-                <label htmlFor={inputId} className="tgi-likert__label">
-                  {n}
-                </label>
-              </span>
-            );
-          })}
-        </div>
-        <span className="tgi-likert__anchor" aria-hidden="true">
-          {rightAnchor ?? t(locale, "quiz.likert.agree")}
+        <span className="tgi-likert__anchor tgi-likert__anchor--right" aria-hidden="true">
+          {resolvedRightAnchor}
         </span>
       </div>
     </fieldset>

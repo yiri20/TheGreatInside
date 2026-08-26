@@ -4,20 +4,16 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08 (end of `feat/editorial-backfill-batch-6`).
+Last updated: 2026-08-22 (Likert endpoint-clarity hotfix merge to `main`).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | Production. Deployed to `https://thegreatinside.com`. Last merge: "Record 95-person production release." |
-| `feat/editorial-backfill-batch-6` | Current editorial lineage tip — Tier A + Tier B editorial content complete. Not yet merged to `main`. |
-| `scale/roster-1000` | Fully subsumed by `main` (0 unique commits) — not deleted, no established convention to do so. |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `e66e43d` — fast-forward merge of `fix/quiz-likert-endpoint-clarity` (2026-08-22 emergency hotfix, ahead of a high-school group using the site). Live-verified (landing EN/KO, quiz through to results, people/person/compare all clean, no console errors). |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
-| `chore/context-architecture` | Documentation/context restructuring. Superseded as the dev tip by `chore/consolidated-dev-2026-08` below — do not branch new work from here. |
-| `fix/mobile-likert-wrap` | Mobile quiz Likert-scale wrap fix, off `chore/context-architecture`. Folded into `chore/consolidated-dev-2026-08` below. |
-| `chore/self-made-audit-2026-08` | Self-Made/Earned-Distinction roster audit docs, off `chore/context-architecture`. Folded into `chore/consolidated-dev-2026-08` below. |
-| `chore/consolidated-dev-2026-08` | **Canonical latest development branch** — merges `fix/mobile-likert-wrap` + `chore/self-made-audit-2026-08` (both off `chore/context-architecture`). Branch new work from here. Not merged to `main`. |
+| `feat/directory-taxonomy-filter-ux` | In-progress Directory taxonomy redesign + Landing/Quiz entry-flow polish (profession/personality filter facets, quiz intro time cue). **Not merged** — deliberately branched before this hotfix and not rebased onto it; the next session continuing that work should merge/rebase onto this new `main` HEAD to pick up the Likert fix. |
+| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth` | Fully subsumed by `main` (0 unique commits each, confirmed 2026-08-22) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
 ## Product
 
@@ -70,6 +66,15 @@ Last updated: 2026-08 (end of `feat/editorial-backfill-batch-6`).
   now permanently redirects). `www` also redirects to the apex.
 - **Monetization**: "Deep Inside" (one-time paid feature) implemented on
   `feat/monetization-v1`, intentionally unmerged, no live payment infra.
+- **Quiz Likert endpoint-clarity hotfix (2026-08)**: a real user reported
+  the 1-7 Likert scale confusing — the two endpoint descriptions used to
+  flank the options row in a flex row that became a COLUMN below 640px,
+  stacking "left anchor above / right anchor below" with no visual tie to
+  either end. Fixed with one layout at every viewport: an instruction line,
+  the unchanged 1-7 row, then both anchors together in their own row
+  directly beneath (space-between, left under "1", right under "7").
+  Presentation only — all 7 answer values and scoring unchanged.
+  `src/ui/components/quiz.tsx`'s `LikertScale`.
 - **Self-made/earned-distinction philosophy audit (2026-08)**: all 95
   people classified against `inclusion_v1`'s counterfactual test — 69
   Strong Self-Made Fit, 26 Earned but Advantaged, 0 Weak Fit. No roster
@@ -101,8 +106,22 @@ to resolve a specific historical question, not by default.
 
 ## Test baseline (last known-good, re-verify before trusting)
 
-`tsc --noEmit` clean · `vitest run` ~621/621 (pre-batch-6 baseline; batch
-6 added source-reference-integrity tests, so current count is slightly
-higher — run `pnpm test` for the authoritative number) · `next build
---webpack` clean, static/dynamic split unchanged · Playwright ~230/230.
-See [`docs/context/TESTING.md`](TESTING.md) for what to run per change type.
+Verified on `main` at the 2026-08-22 Likert endpoint-clarity hotfix
+(commit `e66e43d`): `tsc --noEmit` clean · `vitest run` 638/638 · `next
+build --webpack` clean, 190 localized person pages, static/dynamic split
+unchanged · Playwright 254/254 (6 new endpoint-clarity tests) · `ko-KR`
+i18n coverage 100.00% · matching simulation max #1 frequency 12.0% (Warren
+Buffett, unchanged) · live production smoke test (landing EN/KO, quiz
+through to results, people/person/compare all rendering, Likert endpoint
+association verified live at 320px EN/KO) all clean, zero console errors.
+See [`docs/context/TESTING.md`](TESTING.md) for what to run per change
+type.
+
+## Next product checkpoint
+
+Post-release, no blocking work outstanding. Candidates for a future
+session (none started here — out of scope for this release gate): the
+remaining 19 low-exposure Tier-C editorial backfill people, the 40
+remaining portrait-less people (all below this release's exposure
+floor), and a human decision on deleting the now-fully-subsumed dev
+branches listed above.
