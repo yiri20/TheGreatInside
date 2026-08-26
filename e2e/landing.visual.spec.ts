@@ -94,14 +94,18 @@ test("landing keyboard tab order follows DOM order (en-US, wide desktop)", async
 });
 
 /**
- * Mobile-polish checks (Phase 10D-1 follow-up) — computed-style assertions,
- * not just visual inspection, so the narrow/wide split is mechanically
- * verified rather than only screenshot-judged. All three scoped classes
- * (.tgi-landing-headline / .tgi-landing-cta-secondary / .tgi-landing-
- * howitworks) are expected to do nothing at >=1280px and something below it.
+ * Mobile-polish checks (Phase 10D-1 follow-up; secondary-CTA assertions
+ * still hold after the 2026-08 CTA hierarchy polish, since the quiet
+ * text-link treatment is now unconditional — see the dedicated >=1280px
+ * test below for what changed there) — computed-style assertions, not just
+ * visual inspection, so the narrow/wide split is mechanically verified
+ * rather than only screenshot-judged. `.tgi-landing-headline` and
+ * `.tgi-landing-howitworks` are still narrow-viewport-only; the secondary
+ * CTA's transparent/no-border/arrow-visible look is no longer scoped to
+ * this viewport, it's just also true here.
  */
 for (const locale of LOCALES) {
-  test(`landing mobile rhythm @ ${locale}: headline shrinks, secondary CTA loses chrome, How It Works loses card treatment (390px)`, async ({
+  test(`landing mobile rhythm @ ${locale}: headline shrinks, secondary CTA is a quiet text link, How It Works loses card treatment (390px)`, async ({
     page,
   }) => {
     await page.setViewportSize({ width: 390, height: 900 });
@@ -145,7 +149,17 @@ for (const locale of LOCALES) {
   });
 }
 
-test("landing wide-desktop (>=1280px) composition is pixel-unchanged by the mobile-polish pass", async ({ page }) => {
+/**
+ * CTA hierarchy polish (2026-08): the headline-size and How It Works
+ * narrow-viewport rules are still exactly as before at >=1280px (this is
+ * what "pixel-unchanged by the mobile-polish pass" originally asserted).
+ * The secondary CTA is the one deliberate exception now — it keeps its
+ * quiet text-link look at every width, including here, instead of
+ * reverting to an outlined pill.
+ */
+test("landing wide-desktop (>=1280px): headline and How It Works are pixel-unchanged; secondary CTA stays a quiet text link", async ({
+  page,
+}) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/en-US", { waitUntil: "networkidle" });
 
@@ -153,11 +167,17 @@ test("landing wide-desktop (>=1280px) composition is pixel-unchanged by the mobi
   expect(headlineSize, `headline font-size at 1280px was ${headlineSize}px, expected the unchanged 56px`).toBeCloseTo(56, 0);
 
   const secondaryCta = page.locator("a.tgi-landing-cta-secondary");
-  const secondaryStyle = await secondaryCta.evaluate((el) => getComputedStyle(el).borderColor);
-  expect(secondaryStyle, "secondary CTA must keep its outlined-pill border at >=1280px").not.toMatch(
+  const secondaryStyle = await secondaryCta.evaluate((el) => {
+    const s = getComputedStyle(el);
+    return { borderColor: s.borderColor, background: s.backgroundColor };
+  });
+  expect(secondaryStyle.borderColor, "secondary CTA must have no visible border at >=1280px too").toMatch(
     /transparent|rgba\(0, 0, 0, 0\)/,
   );
-  await expect(page.locator(".tgi-landing-cta-secondary__arrow")).toBeHidden();
+  expect(secondaryStyle.background, "secondary CTA must have no filled background at >=1280px too").toMatch(
+    /transparent|rgba\(0, 0, 0, 0\)/,
+  );
+  await expect(page.locator(".tgi-landing-cta-secondary__arrow"), "the arrow is no longer mobile-only").toBeVisible();
 
   const howItWorksBg = await page.locator(".tgi-landing-howitworks").evaluate((el) => getComputedStyle(el).backgroundColor);
   expect(howItWorksBg, "How It Works must keep its sunken-card background at >=1280px").not.toMatch(
@@ -192,24 +212,58 @@ for (const locale of LOCALES) {
   });
 }
 
-test("landing @ 1280px+: primary and secondary CTA widths are harmonized, not accidentally mismatched", async ({
-  page,
-}) => {
-  await page.setViewportSize({ width: 1280, height: 900 });
-  await page.goto("/en-US", { waitUntil: "networkidle" });
-  const primaryWidth = await page.locator("a.tgi-landing-cta-primary").evaluate((el) => el.getBoundingClientRect().width);
-  const secondaryWidth = await page
-    .locator("a.tgi-landing-cta-secondary")
-    .evaluate((el) => el.getBoundingClientRect().width);
-  expect(primaryWidth).toBeCloseTo(secondaryWidth, 0);
+/**
+ * CTA hierarchy polish (2026-08): supersedes the old width-harmonization
+ * test — that test asserted the two CTAs were matched-width pills side by
+ * side, which is exactly the treatment this pass removes. The new
+ * invariant: the secondary CTA is sized to its own (shorter) text, not
+ * matched to the primary, and hierarchy is communicated through fill vs.
+ * quiet-text-link, not width. Checked at both viewports named in the brief.
+ */
+for (const width of [390, 1280]) {
+  test(`landing @ ${width}px: secondary CTA is narrower than the primary (text-sized, not width-matched)`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto("/en-US", { waitUntil: "networkidle" });
+    const primaryWidth = await page.locator("a.tgi-landing-cta-primary").evaluate((el) => el.getBoundingClientRect().width);
+    const secondaryWidth = await page
+      .locator("a.tgi-landing-cta-secondary")
+      .evaluate((el) => el.getBoundingClientRect().width);
+    expect(secondaryWidth, "secondary CTA should be sized to its own text, not matched to the primary's width").toBeLessThan(
+      primaryWidth,
+    );
 
-  // Hierarchy is still communicated through fill vs. outline, not width.
-  const primaryBg = await page.locator("a.tgi-landing-cta-primary").evaluate((el) => getComputedStyle(el).backgroundColor);
-  const secondaryBg = await page
-    .locator("a.tgi-landing-cta-secondary")
-    .evaluate((el) => getComputedStyle(el).backgroundColor);
-  expect(primaryBg).not.toBe(secondaryBg);
-});
+    const primaryBg = await page.locator("a.tgi-landing-cta-primary").evaluate((el) => getComputedStyle(el).backgroundColor);
+    const secondaryBg = await page
+      .locator("a.tgi-landing-cta-secondary")
+      .evaluate((el) => getComputedStyle(el).backgroundColor);
+    expect(primaryBg, "hierarchy must still be visible via fill vs. quiet text, not just width").not.toBe(secondaryBg);
+  });
+}
+
+/**
+ * The explicit "never side-by-side" requirement: the secondary CTA must
+ * render directly below the primary CTA (its box starts at or after the
+ * primary's bottom edge), at both a narrow and a wide viewport — not next
+ * to it in the same row, which `Cluster` (a wrapping flex row) used to
+ * risk once both buttons' widths happened to fit.
+ */
+for (const width of [390, 1280]) {
+  test(`landing @ ${width}px: secondary CTA sits directly below the primary CTA, never side-by-side`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto("/en-US", { waitUntil: "networkidle" });
+    const primaryBox = (await page.locator("a.tgi-landing-cta-primary").boundingBox())!;
+    const secondaryBox = (await page.locator("a.tgi-landing-cta-secondary").boundingBox())!;
+    expect(primaryBox && secondaryBox).toBeTruthy();
+    expect(
+      secondaryBox.y,
+      `secondary CTA (y=${secondaryBox.y}) must start at or below the primary CTA's bottom edge (y=${primaryBox.y + primaryBox.height}), never beside it`,
+    ).toBeGreaterThanOrEqual(primaryBox.y + primaryBox.height - 1);
+    // Left-aligned under the primary, not centered/indented independently.
+    expect(Math.abs(secondaryBox.x - primaryBox.x), "secondary CTA should align to the primary CTA's left edge").toBeLessThan(2);
+  });
+}
 
 test("landing navigates to quiz and people without console errors (en-US)", async ({ page }) => {
   const console_ = captureConsole(page);

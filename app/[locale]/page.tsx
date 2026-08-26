@@ -4,7 +4,7 @@ import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { t } from "@core/i18n/index";
 import { localizedAlternates } from "@lib/seo";
 import { SEED_PEOPLE } from "@data/people/seed";
-import { Button, Card, Cluster, Display, Eyebrow, Rail, Stack, Text } from "@ui/index";
+import { Button, Card, Display, Eyebrow, Rail, Stack, Text } from "@ui/index";
 
 /**
  * The landing subtitle's "N extraordinary people" figure is computed live
@@ -58,6 +58,17 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
  * >=1280px — see components.css's "Landing mobile polish" block for the
  * full reasoning. Content, DOM order, and the wide-desktop composition are
  * all unchanged; this is presentation-only, narrow-viewport rhythm work.
+ *
+ * CTA hierarchy polish (2026-08): the secondary CTA's "loses chrome below
+ * 1280px" treatment above is now how it looks at every width, not just
+ * mobile — a full outlined pill next to the filled primary CTA read as two
+ * competing actions at wide desktop specifically. Demoted to this project's
+ * own established `variant="quiet"` (the same text-link treatment already
+ * used for every subordinate action elsewhere — Results' "back to people",
+ * Compare's "closest match", Account's row actions), stacked directly
+ * below the primary CTA (`Stack`, not `Cluster`) so the two are never
+ * side-by-side at any width. Primary CTA, copy, and page structure
+ * otherwise unchanged.
  */
 export default async function LandingPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: localeParam } = await params;
@@ -75,23 +86,18 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
             <Text tone="secondary">
               {t(locale, "landing.subtitle", { count: MATCH_ELIGIBLE_PEOPLE_COUNT })}
             </Text>
-            <Cluster gap={3}>
+            <Stack gap={2} className="tgi-landing-cta-stack">
               <Button href={`/${locale}/quiz`} size="lg" className="tgi-landing-cta-primary">
                 {t(locale, "landing.cta_primary")}
               </Button>
-              <Button
-                href={`/${locale}/people`}
-                variant="secondary"
-                size="lg"
-                className="tgi-landing-cta-secondary"
-              >
+              <Button href={`/${locale}/people`} variant="quiet" className="tgi-landing-cta-secondary">
                 {t(locale, "landing.cta_secondary")}
                 <span aria-hidden="true" className="tgi-landing-cta-secondary__arrow">
                   {" "}
                   →
                 </span>
               </Button>
-            </Cluster>
+            </Stack>
           </Stack>
         }
         secondary={

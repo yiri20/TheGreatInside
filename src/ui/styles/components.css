@@ -1089,12 +1089,13 @@ details > summary:focus-visible {
 }
 
 /* ------------------------------------------------- Landing mobile polish
-   Phase 10D-1 follow-up. Narrow-viewport-only refinements — every rule here
-   is scoped to a Landing-specific class (never a bare .tgi-display/
-   .tgi-button/.tgi-card selector), so nothing here can leak into Person,
-   Results, Account, or any other page that shares those base classes. At
-   >=1280px none of these rules apply at all, so the already-approved wide
-   desktop composition is untouched by construction, not by care alone. */
+   Phase 10D-1 follow-up, CTA hierarchy polish (2026-08). Every rule here is
+   scoped to a Landing-specific class (never a bare .tgi-display/.tgi-button/
+   .tgi-card selector), so nothing here can leak into Person, Results,
+   Account, or any other page that shares those base classes. Rules 1 and 3
+   are still narrow-viewport-only (do nothing at >=1280px); rule 2 (the
+   secondary CTA's demoted, quiet text-link treatment) is now unconditional
+   at every width — see its own comment for why. */
 
 /* 1. Headline: modestly smaller below the wide breakpoint (56px -> 50px,
    ~11%) so the description and primary action connect within the first
@@ -1106,47 +1107,25 @@ details > summary:focus-visible {
   }
 }
 
-/* 2. Secondary CTA: at >=1280px this class does nothing, so the button
-   keeps its current approved outlined-pill treatment unchanged. Below
-   1280px it sheds button chrome for a restrained text-link + arrow —
-   still a real 44px+ tap target (min-height preserved, chrome removed
-   rather than the box shrunk), just visually subordinate to the solid
-   primary CTA next to it instead of an equally heavy second pill. */
-.tgi-landing-cta-secondary__arrow {
-  display: none;
+/* 2. CTA hierarchy (2026-08 polish, supersedes the old "chrome only below
+   1280px" split): the secondary CTA is `variant="quiet"` now (see
+   page.tsx), so the text-link look — transparent background, no border,
+   muted ink, real 44px+ tap target via the shared `.tgi-button` min-height
+   — applies at every width, not just below 1280px. Only two Landing-
+   specific tweaks remain: the arrow (permanently visible, previously
+   mobile-only) and hover feedback (an underline, since a quiet button has
+   no border to darken). No width-harmonization rule any more either —
+   that existed to pair two same-size pill buttons side by side, which no
+   longer happens at any width now that the two CTAs stack (`Stack`, not
+   `Cluster`, in page.tsx) with the secondary sized to its own text. */
+.tgi-landing-cta-secondary:hover:not([disabled]) {
+  text-decoration: underline;
 }
-@media (max-width: 1279px) {
-  .tgi-landing-cta-secondary {
-    background: transparent;
-    border-color: transparent;
-    padding-inline: var(--tgi-space-2);
-  }
-  .tgi-landing-cta-secondary:hover:not([disabled]) {
-    border-color: transparent;
-    background: transparent;
-    text-decoration: underline;
-  }
-  .tgi-landing-cta-secondary__arrow {
-    display: inline;
-  }
-}
-
-/* 3. Width harmonization (density/entry-flow polish pass): at >=1280px both
-   CTAs are still full pill buttons side by side (rule 2 above only changes
-   the secondary CTA's chrome BELOW 1280px), so a wording-length mismatch
-   between them reads as accidental rather than intentionally paired. A
-   shared min-width — sized just above both buttons' measured natural width
-   in both locales (EN ~259px/~248px, KO ~219px/~230px) — equalizes them
-   without stretching either into an oversized block or touching the
-   primary/secondary fill-vs-outline hierarchy that already communicates
-   which is primary. Scoped the same way as rules 1-2: does nothing below
-   1280px, so mobile/tablet sizing is completely unaffected. */
-@media (min-width: 1280px) {
-  .tgi-landing-cta-primary,
-  .tgi-landing-cta-secondary {
-    min-width: 17rem;
-    justify-content: center;
-  }
+.tgi-landing-cta-stack {
+  /* Stack's default cross-axis is `stretch`, which would blow both CTAs
+     out to the full measure-stack width — including the primary button,
+     which must stay exactly as sized as it always has been. */
+  align-items: flex-start;
 }
 
 /* 3. "How It Works": at >=1280px this class does nothing, so the sunken
