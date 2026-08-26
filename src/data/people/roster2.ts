@@ -1800,17 +1800,34 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["independent", "prolific"],
     archetypeIds: ["independent_creator", "creative_creator"],
-    // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
-    // photograph (video still, c. 2002-2005) from George Quasha's "art is
-    // (Speaking Portraits)" project.
+    // Portrait-quality emergency fix (2026-08): the prior portrait (George
+    // Quasha's "circa 2004" video still) was an extreme, uncomfortably close
+    // face crop — eyes/nose/mouth filling the entire frame — that read
+    // poorly in both PersonCard and the profile hero. Replaced after
+    // evaluating every candidate in Commons' own Category:Yayoi_Kusama:
+    // the 2013 courtesy-call-to-PM-Abe photo set (same Cabinet Public
+    // Relations Office source) has three other frames (File:20130918Yayoi
+    // Kusama1.jpg, ...2.jpg, ...3.jpg), all showing Abe and/or several other
+    // officials in the same frame — unsuitable for a solo portrait hero,
+    // where the source image renders edge-to-edge with no auto-crop. This
+    // "(cropped)" derivative is the one exception: a clean solo bust crop
+    // with no other people visible, verified 2026-08 via a direct fetch of
+    // the Commons file page and the MediaWiki imageinfo API (extmetadata) —
+    // notably also the exact file English Wikipedia's own infobox uses for
+    // her. Lower resolution than most portraits in this roster (160x240,
+    // vs. this project's usual few-hundred-px-wide floor), but still above
+    // the Aung San Suu Kyi portrait already in this file from the same
+    // office at a comparable resolution (444x592) — accepted as the actual
+    // display sizes here (person-page hero maxes out at 12rem/192px) don't
+    // need much more than this.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Yayoi_Kusama_circa_2004.jpg",
-      width: 1435,
-      height: 1078,
+      url: "https://upload.wikimedia.org/wikipedia/commons/6/69/20130918Yayoi_Kusama1_%28cropped%29.jpg",
+      width: 160,
+      height: 240,
       source: "Wikimedia Commons",
-      license: "CC BY 3.0",
-      licenseUrl: "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_circa_2004.jpg",
-      attribution: "George Quasha",
+      license: "CC BY 4.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:20130918Yayoi_Kusama1_(cropped).jpg",
+      attribution: "Cabinet Public Relations Office, Japan, 2013",
     },
     sources: [wiki("kusama", "Yayoi Kusama")],
     rows: {
