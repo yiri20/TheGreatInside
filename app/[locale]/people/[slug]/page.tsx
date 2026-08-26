@@ -20,7 +20,6 @@ import {
   Heading,
   IdentityHero,
   PersonCard,
-  Rail,
   ShareButton,
   Stack,
   Text,
@@ -50,11 +49,19 @@ function resolveEditorialItems(locale: Locale, items: readonly PersonEditorialIt
 
 /**
  * One editorial section (achievements / moments / turning points). Fact and
- * interpretation are rendered as two visually AND textually distinct
- * elements — the interpretation line carries its own "What this reveals:"
- * label (never a colour-only distinction) and is itself written in
- * calibrated language ("is consistent with", "helps explain") rather than a
- * diagnostic claim, per CLAUDE.md "Safety".
+ * interpretation are rendered as two visually distinct elements — a plain
+ * fact statement followed by a muted-tone interpretation paragraph, spaced
+ * apart by the surrounding Stack — itself written in calibrated language
+ * ("is consistent with", "helps explain") rather than a diagnostic claim,
+ * per CLAUDE.md "Safety". Profile Hero polish (2026-08): the interpretation
+ * line previously carried a visible "What this reveals:" / "이것이 보여주는
+ * 것:" label ahead of the text; human visual review asked for it removed
+ * without a replacement label, leaving tone + spacing to carry the
+ * distinction (the muted tone is a real typographic difference, not a
+ * colour-only one, so this isn't a color-alone distinction either). The
+ * `person.editorial.interpretation_label` message key is unused as of this
+ * change but left in place in en.ts/ko.ts rather than deleted, since
+ * removing it isn't part of this task's scope.
  */
 function EditorialSection({
   locale,
@@ -76,7 +83,7 @@ function EditorialSection({
               <Text>{text}</Text>
               {interpretation ? (
                 <Text tone="muted">
-                  <strong>{t(locale, "person.editorial.interpretation_label")}</strong> {interpretation}
+                  {interpretation}
                   {item.attributeId ? (
                     <>
                       {" "}
@@ -169,127 +176,131 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
       <Stack gap={7}>
         {/* Phase 10D-1: extracted into IdentityHero (src/ui/components/layout.tsx)
             — was a hand-written flex row duplicated across this page, results,
-            and compare. IdentityHero itself is untouched this stage (Phase
-            10D-2) — see CLAUDE.md's "Layout regression from the portrait
+            and compare. See CLAUDE.md's "Layout regression from the portrait
             hero" for why the width-tie fix inside it matters.
 
-            Phase 10D-2: previously this hero stretched across the FULL
-            1280px container on its own — a 12rem portrait plus a short
-            name/meta column with nothing to its right, exactly the "large
-            visually unused region" the Phase 10D audit named. Now paired
-            with Known For (real, already-existing content, not invented)
-            as Rail's secondary region at >=1280px, using the same
-            `.tgi-rail--tight` modifier Landing introduced so the whole
-            identity block reads as one composed unit instead of the
-            secondary drifting to the container's far edge. Below 1280px
-            Rail collapses to one column and Known For renders directly
-            after the hero — the exact position and order it already
-            occupied before this change, so narrow/tablet is unaffected. */}
-        {(() => {
-          const hero = (
-            <IdentityHero
-              name={personDisplayName(locale, person)}
-              {...(person.portrait ? { portraitUrl: person.portrait.url } : {})}
-              portraitWidth="12rem"
-              align="start"
-              {...(person.portrait?.width ? { portraitImgWidth: person.portrait.width } : {})}
-              {...(person.portrait?.height ? { portraitImgHeight: person.portrait.height } : {})}
-              {...(person.portrait
-                ? {
-                    // Required by most free licences (e.g. CC BY-SA): the credit
-                    // line is reproduced as given, not translated or paraphrased.
-                    portraitCaption: (
-                      <Text tone="muted">
-                        {person.portrait.source}
-                        {person.portrait.attribution ? ` · ${person.portrait.attribution}` : ""} ·{" "}
-                        {person.portrait.licenseUrl ? (
-                          <a href={person.portrait.licenseUrl} target="_blank" rel="noreferrer">
-                            {person.portrait.license}
-                          </a>
-                        ) : (
-                          person.portrait.license
-                        )}
-                      </Text>
-                    ),
-                  }
-                : {})}
-            >
-              <Stack gap={3}>
-                <Eyebrow>
-                  {[occupationLabel(locale, person.occupationIds[0]), t(locale, `era.${person.era}` as MessageKey)]
-                    .filter(Boolean)
-                    .join(" · ")}
-                </Eyebrow>
-                <Heading level={1} className="tgi-person-name">{personDisplayName(locale, person)}</Heading>
-                <Text tone="muted" className="tgi-numeric">
-                  {formatLifespan(person.birthYear, person.deathYear, person.isLiving)}
-                </Text>
-                {polityText ? <Text tone="muted">{polityText}</Text> : null}
-                <ConfidenceIndicator confidence={person.overallProfileConfidence} locale={locale} />
-                {wikipediaUrl || person.externalIdentity?.wikidataId ? (
-                  <Cluster gap={3}>
-                    {wikipediaUrl ? (
-                      <a href={wikipediaUrl} target="_blank" rel="noreferrer">
-                        {t(locale, "person.wikipedia_link")}
-                      </a>
+            Profile Hero polish (2026-08): Phase 10D-2 had paired the hero
+            with Known For as a `Rail` secondary column at >=1280px, to fill
+            the "large visually unused region" the original flat hero left.
+            Human visual review found that fix read as three disconnected
+            regions instead (portrait / identity text / Known For) rather
+            than one composition. Known For now lives INSIDE the identity
+            column below (a Stack child, same as the name/dates/confidence
+            it sits among) instead of beside the whole hero, so there's
+            exactly one primary column split — portrait, identity — not
+            three. `portraitWidthLg` (see IdentityHero) gives the portrait
+            itself more of the freed-up width at >=1280px rather than
+            leaving it fixed while a now-larger identity column absorbs all
+            the gain alone. */}
+        <IdentityHero
+          name={personDisplayName(locale, person)}
+          {...(person.portrait ? { portraitUrl: person.portrait.url } : {})}
+          portraitWidth="12rem"
+          portraitWidthLg="15rem"
+          align="start"
+          {...(person.portrait?.width ? { portraitImgWidth: person.portrait.width } : {})}
+          {...(person.portrait?.height ? { portraitImgHeight: person.portrait.height } : {})}
+          {...(person.portrait
+            ? {
+                // Concise, legally-sufficient credit line (name/source/
+                // licence), not the full provenance sentence — human visual
+                // review found the previous full-attribution prose too
+                // heavy directly under the hero image. The complete
+                // attribution text is preserved verbatim (required by most
+                // free licences, e.g. CC BY-SA, to reproduce as given, not
+                // paraphrase) — CSS-clamped to one line rather than dropped,
+                // so it's still fully present for screen readers, page
+                // search and copy/paste, and available on hover via
+                // `title`; only the visual rendering is shortened. Source
+                // and the licence link itself are never clamped.
+                portraitCaption: (
+                  <Text tone="muted" className="tgi-portrait-credit">
+                    {person.portrait.attribution ? (
+                      <span className="tgi-portrait-credit__prose" title={person.portrait.attribution}>
+                        {person.portrait.attribution}
+                      </span>
                     ) : null}
-                    {person.externalIdentity?.wikidataId ? (
-                      <a
-                        href={`https://www.wikidata.org/wiki/${person.externalIdentity.wikidataId}`}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {t(locale, "person.wikidata_link")}
-                      </a>
-                    ) : null}
-                  </Cluster>
-                ) : null}
-                {/* Stage 7E: gated on isMatchEligible so an under-evidenced
-                    profile (e.g. Zheng He) never offers a "Compare Yourself"
-                    CTA that would just dead-end on /compare's own eligibility
-                    check — the person stays fully browsable per this
-                    project's "browsable but not matchable" rule, it just
-                    doesn't advertise an action that can't complete. */}
-                <Cluster gap={3}>
-                  {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
-                  {/* Stage B Part 5: priority #3 Share surface — peer
-                      action to CompareCta, not gated on match eligibility
-                      (every published person stays fully shareable, same
-                      "browsable but not matchable" rule). Public dataset
-                      content, no privacy disclosure needed (Section B of
-                      the audit). */}
-                  <ShareButton
-                    locale={locale}
-                    label={t(locale, "share.person.label")}
-                    shareTitle={`${personDisplayName(locale, person)} — The Great Inside`}
-                    url={`${siteUrl()}/${locale}/people/${person.slug}`}
-                  />
+                    <span>
+                      {person.portrait.attribution ? " · " : ""}
+                      {person.portrait.source} ·{" "}
+                      {person.portrait.licenseUrl ? (
+                        <a href={person.portrait.licenseUrl} target="_blank" rel="noreferrer">
+                          {person.portrait.license}
+                        </a>
+                      ) : (
+                        person.portrait.license
+                      )}
+                    </span>
+                  </Text>
+                ),
+              }
+            : {})}
+        >
+          <Stack gap={3}>
+            <Eyebrow>
+              {[occupationLabel(locale, person.occupationIds[0]), t(locale, `era.${person.era}` as MessageKey)]
+                .filter(Boolean)
+                .join(" · ")}
+            </Eyebrow>
+            <Heading level={1} className="tgi-person-name">{personDisplayName(locale, person)}</Heading>
+            <Text tone="muted" className="tgi-numeric">
+              {formatLifespan(person.birthYear, person.deathYear, person.isLiving)}
+            </Text>
+            {polityText ? <Text tone="muted">{polityText}</Text> : null}
+            <ConfidenceIndicator confidence={person.overallProfileConfidence} locale={locale} />
+            {person.impactDomains.length > 0 ? (
+              <Stack gap={2}>
+                <Heading level={2} visualLevel={3}>{t(locale, "person.known_for")}</Heading>
+                <Cluster gap={2}>
+                  {person.impactDomains.map((domain) => (
+                    <span key={domain} className="tgi-chip">
+                      {t(locale, `impact_domain.${domain}` as MessageKey)}
+                    </span>
+                  ))}
                 </Cluster>
               </Stack>
-            </IdentityHero>
-          );
-
-          return person.impactDomains.length > 0 ? (
-            <Rail
-              className="tgi-rail--tight"
-              primary={hero}
-              secondary={
-                <Stack gap={2}>
-                  <Heading level={2} visualLevel={3}>{t(locale, "person.known_for")}</Heading>
-                  <Cluster gap={2}>
-                    {person.impactDomains.map((domain) => (
-                      <span key={domain} className="tgi-chip">
-                        {t(locale, `impact_domain.${domain}` as MessageKey)}
-                      </span>
-                    ))}
-                  </Cluster>
-                </Stack>
-              }
-            />
-          ) : (
-            hero
-          );
-        })()}
+            ) : null}
+            {wikipediaUrl || person.externalIdentity?.wikidataId ? (
+              <Cluster gap={3}>
+                {wikipediaUrl ? (
+                  <a href={wikipediaUrl} target="_blank" rel="noreferrer">
+                    {t(locale, "person.wikipedia_link")}
+                  </a>
+                ) : null}
+                {person.externalIdentity?.wikidataId ? (
+                  <a
+                    href={`https://www.wikidata.org/wiki/${person.externalIdentity.wikidataId}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {t(locale, "person.wikidata_link")}
+                  </a>
+                ) : null}
+              </Cluster>
+            ) : null}
+            {/* Stage 7E: gated on isMatchEligible so an under-evidenced
+                profile (e.g. Zheng He) never offers a "Compare Yourself"
+                CTA that would just dead-end on /compare's own eligibility
+                check — the person stays fully browsable per this
+                project's "browsable but not matchable" rule, it just
+                doesn't advertise an action that can't complete. */}
+            <Cluster gap={3}>
+              {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
+              {/* Stage B Part 5: priority #3 Share surface — peer
+                  action to CompareCta, not gated on match eligibility
+                  (every published person stays fully shareable, same
+                  "browsable but not matchable" rule). Public dataset
+                  content, no privacy disclosure needed (Section B of
+                  the audit). */}
+              <ShareButton
+                locale={locale}
+                label={t(locale, "share.person.label")}
+                shareTitle={`${personDisplayName(locale, person)} — The Great Inside`}
+                url={`${siteUrl()}/${locale}/people/${person.slug}`}
+              />
+            </Cluster>
+          </Stack>
+        </IdentityHero>
 
         {/* Client island, reads a plain `?why=match&trait=...` query param
             already computed and passed by Results' Closest Match link —

@@ -74,6 +74,7 @@ export function IdentityHero({
   name,
   portraitUrl,
   portraitWidth = "8rem",
+  portraitWidthLg,
   /** Intrinsic dimensions (CLS prevention) — only the person page currently
    *  has this data on `Person.portrait`; results/compare pass neither. */
   portraitImgWidth,
@@ -88,6 +89,11 @@ export function IdentityHero({
   portraitUrl?: string;
   /** Matches each call site's existing value (person: 12rem, results/compare: 8rem). */
   portraitWidth?: string;
+  /** Optional larger width applied only at the >=1280px desktop breakpoint
+   *  (see .tgi-identity-hero__portrait in components.css) — mobile/tablet
+   *  always render at `portraitWidth`. Omitted by results/compare, which
+   *  keep one fixed size at every viewport. */
+  portraitWidthLg?: string;
   portraitImgWidth?: number;
   portraitImgHeight?: number;
   /** Licence/attribution text shown under the portrait (person page only). */
@@ -108,19 +114,24 @@ export function IdentityHero({
   ) : (
     // Decorative: the adjacent heading in `children` already names this
     // person, so an accessible name here would be redundant, not additive.
-    // font-size is 30% of portraitWidth so the initials scale with whichever
-    // hero size this instance uses (8rem results/compare, 12rem person).
-    <div
-      className="tgi-identity-hero__placeholder"
-      aria-hidden="true"
-      style={{ fontSize: `calc(${portraitWidth} * 0.3)` }}
-    >
+    // Font-size is driven purely by CSS now (calc() off the same
+    // --tgi-hero-portrait-w custom property the box width uses, inherited
+    // from the portrait wrapper below) so it tracks whichever width is
+    // active at the current breakpoint, including the >=1280px lg override,
+    // without needing a second JS-computed value here.
+    <div className="tgi-identity-hero__placeholder" aria-hidden="true">
       {initialsFromName(name)}
     </div>
   );
   return (
     <div className={cx("tgi-identity-hero", align === "start" && "tgi-identity-hero--align-start")}>
-      <div className="tgi-identity-hero__portrait" style={{ width: portraitWidth }}>
+      <div
+        className="tgi-identity-hero__portrait"
+        style={{
+          ["--tgi-hero-portrait-w" as string]: portraitWidth,
+          ...(portraitWidthLg ? { ["--tgi-hero-portrait-w-lg" as string]: portraitWidthLg } : {}),
+        }}
+      >
         {portraitCaption ? (
           <Stack gap={2}>
             {img}

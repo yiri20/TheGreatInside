@@ -274,8 +274,15 @@ describe("IdentityHero", () => {
       children: "A",
     });
     const without = render(IdentityHero, { name: "B", portraitWidth: "12rem", children: "B" });
-    expect(withPortrait).toContain("width:12rem");
-    expect(without).toContain("width:12rem");
+    // The wrapper's actual `width` comes from the stylesheet
+    // (.tgi-identity-hero__portrait { width: var(--tgi-hero-portrait-w) },
+    // components.css) resolving this custom property, not a direct inline
+    // `width` — see the Profile Hero polish (2026-08) note in layout.tsx for
+    // why: it's what lets a page opt into a larger width at >=1280px only
+    // (portraitWidthLg) without a plain inline `width` winning over any
+    // stylesheet media query unconditionally.
+    expect(withPortrait).toContain("--tgi-hero-portrait-w:12rem");
+    expect(without).toContain("--tgi-hero-portrait-w:12rem");
   });
 
   it("derives Korean initials the same way for the fallback as for the portrait-present heading path", () => {

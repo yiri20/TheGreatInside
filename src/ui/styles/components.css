@@ -1193,6 +1193,17 @@ details > summary:focus-visible {
 .tgi-identity-hero__portrait {
   flex-shrink: 0;
   max-width: 100%;
+  width: var(--tgi-hero-portrait-w);
+}
+/* Profile Hero polish (2026-08): person page passes a --tgi-hero-portrait-w-lg
+   (see page.tsx) so the portrait reads as meaningfully larger once there's
+   room for a real 2-column composition; results/compare pass no lg value, so
+   this rule falls back to the same fixed width they've always rendered at
+   every viewport. */
+@media (min-width: 1280px) {
+  .tgi-identity-hero__portrait {
+    width: var(--tgi-hero-portrait-w-lg, var(--tgi-hero-portrait-w));
+  }
 }
 .tgi-identity-hero__img {
   width: 100%;
@@ -1214,12 +1225,19 @@ details > summary:focus-visible {
   background: var(--tgi-surface-sunken);
   border-radius: var(--tgi-radius-lg);
   font-family: var(--tgi-font-display);
-  /* font-size is set inline per instance (30% of portraitWidth — see
-     IdentityHero in layout.tsx) so both hero sizes (8rem results/compare,
-     12rem person) keep the same proportion PersonCard establishes between
-     its own portrait width and its 2xl initials size, rather than one fixed
-     token serving two different portrait widths. */
+  /* 30% of the portrait box's own current width (inherited custom property,
+     same one .tgi-identity-hero__portrait's width comes from) so the
+     initials keep the same proportion PersonCard establishes between its
+     own portrait width and its 2xl initials size — automatically, at every
+     hero size (8rem results/compare, 12rem/15rem-lg person) and at the
+     >=1280px breakpoint, with no JS-computed value needed. */
+  font-size: calc(var(--tgi-hero-portrait-w) * 0.3);
   color: var(--tgi-ink-muted);
+}
+@media (min-width: 1280px) {
+  .tgi-identity-hero__placeholder {
+    font-size: calc(var(--tgi-hero-portrait-w-lg, var(--tgi-hero-portrait-w)) * 0.3);
+  }
 }
 /* Same fix documented in CLAUDE.md ("Layout regression from the portrait
    hero"): flex:1 claims the row's real remaining width instead of being
@@ -1228,6 +1246,24 @@ details > summary:focus-visible {
 .tgi-identity-hero__info {
   flex: 1 1 16rem;
   min-width: 0;
+}
+
+/* Compact portrait credit (person page only — see page.tsx's portraitCaption).
+   The free-text attribution clause is a block on its own line, clamped with
+   an ellipsis; source and the licence link follow as normal inline text on
+   the next line and wrap normally — never clamped, so the legally-load-
+   bearing part of the credit is always fully visible regardless of length.
+   The full attribution stays in the DOM (screen readers/copy/search all see
+   it in full) and in `title` for a hover tooltip — only the visual
+   rendering is shortened. Deliberately plain block flow, not flexbox — a
+   flex item's default min-width:auto would otherwise stop the ellipsis
+   from ever actually engaging. */
+.tgi-portrait-credit__prose {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* ------------------------------------------------------------- Results
