@@ -802,18 +802,28 @@ details > summary:focus-visible {
 }
 
 /* ------------------------------------------- directory taxonomy filters
-   directory_taxonomy_v1 (2026-08, density/chip polish pass): Profession/
-   Activity and Personality/Trait are two always-visible sections — see
-   src/core/people/directoryTaxonomy.ts's module doc for why these are two
-   separate axes. This block is presentation-only; taxonomy membership,
-   thresholds, and filter semantics live entirely in directoryTaxonomy.ts
-   and explorer.ts and are untouched here.
+   directory_taxonomy_v1 (2026-08, density/chip polish pass; progressive-
+   disclosure follow-up 2026-08): Profession/Activity and Personality/Trait
+   are two sections — see src/core/people/directoryTaxonomy.ts's module doc
+   for why these are two separate axes. This block is presentation-only;
+   taxonomy membership, thresholds, and filter semantics live entirely in
+   directoryTaxonomy.ts and explorer.ts and are untouched here.
 
-   DENSITY: two structural changes bring heading-to-first-card distance down
-   substantially without hiding anything behind a dropdown/accordion:
-   1. `.tgi-taxonomy-columns` puts the Profession and Personality sections
-      side by side at the wide-desktop breakpoint (>=1280px, this project's
-      one intentional breakpoint — architecture.md) instead of stacked.
+   PROGRESSIVE DISCLOSURE: each section is now its own native `<details>`
+   (`.tgi-taxonomy-disclosure`), collapsed by default — the chevron/focus-
+   ring styling comes for free from the shared `details > summary` rule
+   above (same pattern as the Results page's all-traits/how-it-was-
+   calculated disclosures). This, not the density tuning below, is what
+   now gets the results grid close to the fold; the density rules remain
+   in place for whichever section a person actually opens.
+
+   DENSITY (inside an open section): two structural changes keep an
+   expanded section compact:
+   1. `.tgi-taxonomy-columns` puts the Profession and Personality
+      disclosures side by side at the wide-desktop breakpoint (>=1280px,
+      this project's one intentional breakpoint — architecture.md) instead
+      of stacked; `align-items: start` so one section being open and the
+      other closed never stretches the closed one to match.
    2. `.tgi-taxonomy-category` becomes a two-column row — a narrow label
       column beside a wrapping chip column — down to 640px (this project's
       existing mobile-collapse breakpoint, matching .tgi-filter-bar/

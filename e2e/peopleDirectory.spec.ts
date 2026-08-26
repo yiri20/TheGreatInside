@@ -1,5 +1,33 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
 import { assertHeadingHierarchy, assertNoHorizontalOverflow, captureConsole } from "./utils/visualChecks";
+
+/**
+ * Progressive-disclosure helpers (2026-08): Profession/Activity and
+ * Personality/Trait are each their own native `<details>`, collapsed by
+ * default, so any test that needs to touch a chip inside one must open it
+ * first — closed `<details>` content isn't visible/interactable. Locate by
+ * the disclosure's own heading text rather than by index, so these helpers
+ * work identically for both locales and don't care which one is first.
+ */
+function disclosureFor(page: Page, headingName: string | RegExp) {
+  return page.locator(".tgi-taxonomy-disclosure").filter({ has: page.getByRole("heading", { name: headingName }) });
+}
+
+async function isSectionOpen(page: Page, headingName: string | RegExp): Promise<boolean> {
+  return disclosureFor(page, headingName).evaluate((el) => (el as HTMLDetailsElement).open);
+}
+
+async function openSection(page: Page, headingName: string | RegExp): Promise<void> {
+  if (!(await isSectionOpen(page, headingName))) {
+    await disclosureFor(page, headingName).locator("summary").click();
+  }
+}
+
+async function collapseSection(page: Page, headingName: string | RegExp): Promise<void> {
+  if (await isSectionOpen(page, headingName)) {
+    await disclosureFor(page, headingName).locator("summary").click();
+  }
+}
 
 /**
  * People Directory — Public Beta Finish Line heading-hierarchy coverage
@@ -95,22 +123,54 @@ test("people directory grid is NOT forced to 2 columns at 1024px+ (discovery-gri
 
 /**
  * Directory taxonomy redesign (directory_taxonomy_v1, 2026-08) — Part J/M
- * browser QA for the new Profession/Activity + Personality/Trait sections
+ * browser QA for the Profession/Activity + Personality/Trait sections
  * (src/core/people/directoryTaxonomy.ts). Both are real <label><input
- * type=checkbox>> controls, always visible (no <details>/dropdown), so
- * they're driven with role-based locators exactly like any other form
- * control, not JS-evaluated state.
+ * type=checkbox>> controls driven with role-based locators exactly like any
+ * other form control, not JS-evaluated state.
+ *
+ * PROGRESSIVE DISCLOSURE (2026-08 follow-up): both sections are now their
+ * own native <details>, collapsed by default — the opposite of the
+ * "always-visible, no <details>" assertion this test used to make. The
+ * headings themselves are still visible without expanding anything (that's
+ * the whole point of a <summary>); the chips inside are not, until opened.
  */
-test("people directory: Profession/Activity and Personality/Trait sections are visible without expanding anything", async ({
+test("people directory: taxonomy disclosures render collapsed by default — headings visible, chips hidden until expanded", async ({
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
   await expect(page.getByRole("heading", { name: "Profession & Activity" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Personality & Traits" })).toBeVisible();
-  // No <details> element left over from the old flat tagIds dropdown.
-  expect(await page.locator("details").count()).toBe(0);
+
+  // Exactly the two taxonomy sections use <details>, and both start closed.
+  const disclosures = page.locator(".tgi-taxonomy-disclosure");
+  await expect(disclosures).toHaveCount(2);
+  const openStates = await disclosures.evaluateAll((els) => els.map((el) => (el as HTMLDetailsElement).open));
+  for (const isOpen of openStates) {
+    expect(isOpen, "taxonomy disclosures must start collapsed").toBe(false);
+  }
+
+  await expect(page.getByRole("checkbox", { name: "Philosophy" })).not.toBeVisible();
+  await expect(page.getByRole("checkbox", { name: "Curiosity" })).not.toBeVisible();
+
+  await openSection(page, "Profession & Activity");
   await expect(page.getByRole("checkbox", { name: "Philosophy" })).toBeVisible();
+  await openSection(page, "Personality & Traits");
   await expect(page.getByRole("checkbox", { name: "Curiosity" })).toBeVisible();
+});
+
+test("people directory: a section's <summary> is keyboard-reachable and toggles with Enter, with a visible focus ring", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const summary = disclosureFor(page, "Profession & Activity").locator("summary");
+  await summary.focus();
+  const boxShadow = await summary.evaluate((el) => getComputedStyle(el).boxShadow);
+  expect(boxShadow, "focused summary must show a visible focus ring").not.toBe("none");
+
+  expect(await isSectionOpen(page, "Profession & Activity")).toBe(false);
+  await page.keyboard.press("Enter");
+  expect(await isSectionOpen(page, "Profession & Activity")).toBe(true);
+  await expect(page.getByRole("checkbox", { name: "Philosophy" })).toBeVisible();
 });
 
 /**
@@ -128,6 +188,7 @@ test("people directory: chip selected state is a real checkbox, shown via fill+c
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Profession & Activity");
   const checkbox = page.getByRole("checkbox", { name: "Philosophy" });
   const label = page.locator('label[for="field-filter-philosophy"]');
   const checkGlyph = label.locator(".tgi-taxonomy-chip__check");
@@ -154,6 +215,16 @@ test("people directory: chip selected state is a real checkbox, shown via fill+c
 
 test("people directory: chip checkbox shows a visible focus ring on the label when tabbed to", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  // Open via keyboard (focus the summary, press Enter) rather than
+  // openSection()'s mouse click — Chromium's :focus-visible heuristic
+  // attributes a later programmatic .focus() to whichever input modality
+  // (mouse/keyboard) most recently touched the page, so an intervening
+  // mouse click here would make the checkbox's focus ring assertion below
+  // fail even though a real keyboard user (Tab to summary, Enter, Tab to
+  // the chip) would see the ring exactly as expected.
+  const summary = disclosureFor(page, "Profession & Activity").locator("summary");
+  await summary.focus();
+  await page.keyboard.press("Enter");
   const checkbox = page.getByRole("checkbox", { name: "Philosophy" });
   const label = page.locator('label[for="field-filter-philosophy"]');
   await checkbox.focus();
@@ -163,6 +234,7 @@ test("people directory: chip checkbox shows a visible focus ring on the label wh
 
 test("people directory: selecting two chips in the same taxonomy group ORs (either qualifies)", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Profession & Activity");
   const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
 
   await page.getByRole("checkbox", { name: "Mathematics" }).check();
@@ -180,6 +252,7 @@ test("people directory: two personality chips in the SAME facet OR (Curiosity + 
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Personality & Traits");
   const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
 
   await page.getByRole("checkbox", { name: "Curiosity" }).check();
@@ -197,6 +270,7 @@ test("people directory: two personality chips in DIFFERENT facets AND (Curiosity
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Personality & Traits");
   const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
 
   await page.getByRole("checkbox", { name: "Curiosity" }).check();
@@ -222,6 +296,8 @@ test("people directory: profession OR-group + 2 personality facets ANDs all thre
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Profession & Activity");
+  await openSection(page, "Personality & Traits");
   // Profession/Activity OR-group: Mathematics OR Physics.
   await page.getByRole("checkbox", { name: "Mathematics" }).check();
   await page.getByRole("checkbox", { name: "Physics" }).check();
@@ -251,6 +327,7 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   page,
 }) => {
   await page.goto("/ko-KR/people", { waitUntil: "networkidle" });
+  await openSection(page, "성격과 성향");
   await page.getByRole("checkbox", { name: "호기심" }).check(); // Curiosity (Thinking)
   await page.getByRole("checkbox", { name: "협업 성향" }).check(); // Collaboration (Social)
   // "전체 {total}명 중 {count}명" — independently confirmed (via a direct
@@ -264,6 +341,7 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Personality & Traits");
   const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
 
   await page.getByRole("checkbox", { name: "Curiosity" }).check();
@@ -286,6 +364,8 @@ test("people directory: era + region compose correctly with cross-facet personal
 
 test("people directory: a profession chip AND a personality chip ANDs across the two axes", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Profession & Activity");
+  await openSection(page, "Personality & Traits");
   const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
 
   await page.getByRole("checkbox", { name: "Philosophy" }).check();
@@ -307,8 +387,48 @@ test("people directory: a profession chip AND a personality chip ANDs across the
   await expect(page.getByRole("button", { name: "Clear all" })).toHaveCount(0);
 });
 
+/**
+ * Progressive disclosure: a collapsed section with an active selection must
+ * say so in its own heading, and re-opening it must show the exact same
+ * selection that was there before it collapsed — collapsing is presentation
+ * only, never a reset of `fieldIds`/`traitIds` state.
+ */
+test("people directory: collapsing a section with an active filter shows the count in its heading, and the selection survives collapse/reopen", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Personality & Traits");
+  await page.getByRole("checkbox", { name: "Curiosity" }).check();
+  await page.getByRole("checkbox", { name: "Collaboration" }).check();
+  const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
+  const beforeCollapse = (await countText())!;
+
+  await collapseSection(page, "Personality & Traits");
+  await expect(page.getByRole("heading", { name: "Personality & Traits · 2 selected" })).toBeVisible();
+  // The chips themselves are no longer interactable while collapsed, but the
+  // outside-the-accordion selected-filter summary still shows both.
+  await expect(page.getByRole("button", { name: "Remove Curiosity filter" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Remove Collaboration filter" })).toBeVisible();
+  expect(await countText()).toBe(beforeCollapse);
+
+  await openSection(page, "Personality & Traits");
+  await expect(page.getByRole("checkbox", { name: "Curiosity" })).toBeChecked();
+  await expect(page.getByRole("checkbox", { name: "Collaboration" })).toBeChecked();
+  expect(await countText()).toBe(beforeCollapse);
+});
+
+test("people directory: one section can be expanded while the other stays collapsed, independently", async ({ page }) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Profession & Activity");
+  expect(await isSectionOpen(page, "Profession & Activity")).toBe(true);
+  expect(await isSectionOpen(page, "Personality & Traits")).toBe(false);
+  await expect(page.getByRole("checkbox", { name: "Philosophy" })).toBeVisible();
+  await expect(page.getByRole("checkbox", { name: "Curiosity" })).not.toBeVisible();
+});
+
 test("people directory: search composes with taxonomy filters and the empty state recovers", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Profession & Activity");
   await page.getByRole("checkbox", { name: "Sport" }).check();
   await page.getByPlaceholder(/search/i).fill("zzzzzzzznotarealperson");
   await page.waitForTimeout(150);
@@ -321,12 +441,18 @@ test("people directory: search composes with taxonomy filters and the empty stat
   await expect(page.getByText(/no one matches/i)).toHaveCount(0);
 });
 
-test("people directory @ 328px: taxonomy stays visible, no horizontal scroll, chips wrap", async ({ page }) => {
+test("people directory @ 328px: taxonomy stays visible collapsed, no horizontal scroll, chips wrap once expanded", async ({
+  page,
+}) => {
   await page.setViewportSize({ width: 328, height: 1200 });
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
   await expect(page.getByRole("heading", { name: "Profession & Activity" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Personality & Traits" })).toBeVisible();
-  expect(await page.locator("details").count()).toBe(0);
+  expect(await page.locator(".tgi-taxonomy-disclosure").count()).toBe(2);
+  await assertNoHorizontalOverflow(page);
+
+  await openSection(page, "Profession & Activity");
+  await openSection(page, "Personality & Traits");
   await assertNoHorizontalOverflow(page);
 });
 
@@ -336,6 +462,8 @@ test("people directory ko-KR: taxonomy section headings and chip labels are loca
   await page.goto("/ko-KR/people", { waitUntil: "networkidle" });
   await expect(page.getByRole("heading", { name: "직업과 활동 분야" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "성격과 성향" })).toBeVisible();
+  await openSection(page, "직업과 활동 분야");
+  await openSection(page, "성격과 성향");
   await expect(page.getByRole("checkbox", { name: "철학" })).toBeVisible();
   await expect(page.getByRole("checkbox", { name: "호기심" })).toBeVisible();
   // No raw underscored ids leaking into the UI (e.g. "natural_science").
@@ -358,6 +486,8 @@ test("people directory @ 1280px: Profession/Activity and Personality/Trait rende
 }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Profession & Activity");
+  await openSection(page, "Personality & Traits");
   const columns = await page
     .locator(".tgi-taxonomy-columns")
     .evaluate((el) => getComputedStyle(el).gridTemplateColumns.trim().split(/\s+/).length);
@@ -370,6 +500,7 @@ test("people directory @ 768px: category rows use a label-left/chips-right layou
 }) => {
   await page.setViewportSize({ width: 768, height: 1000 });
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await openSection(page, "Profession & Activity");
   const columnsDisplay = await page.locator(".tgi-taxonomy-columns").evaluate((el) => getComputedStyle(el).display);
   expect(columnsDisplay, "Profession/Personality sections should be stacked below 1280px").toBe("flex");
 
@@ -386,13 +517,14 @@ test("people directory @ 390px: category rows collapse to a single stacked colum
 }) => {
   await page.setViewportSize({ width: 390, height: 900 });
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await expect(page.getByRole("heading", { name: "Profession & Activity" })).toBeVisible();
+  expect(await page.locator(".tgi-taxonomy-disclosure").count()).toBe(2);
+  await openSection(page, "Profession & Activity");
   const categoryColumns = await page
     .locator(".tgi-taxonomy-category")
     .first()
     .evaluate((el) => getComputedStyle(el).gridTemplateColumns.trim().split(/\s+/).length);
   expect(categoryColumns, "category rows should collapse to 1 column below 640px").toBe(1);
-  await expect(page.getByRole("heading", { name: "Profession & Activity" })).toBeVisible();
   await expect(page.getByRole("checkbox", { name: "Philosophy" })).toBeVisible();
-  expect(await page.locator("details").count()).toBe(0);
   await assertNoHorizontalOverflow(page);
 });

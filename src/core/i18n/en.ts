@@ -914,6 +914,10 @@ export const en = {
   "people.directory.selected_label": "Selected:",
   "people.directory.clear_all": "Clear all",
   "people.directory.remove_filter": "Remove {label} filter",
+  // Progressive disclosure (2026-08): appended to a section's <summary>
+  // heading when it has >=1 active selection, so a collapsed section still
+  // communicates its state instead of hiding it silently.
+  "people.directory.section_selected_count": "{count} selected",
 
   "field.philosophy": "Philosophy",
   "field.natural_science": "Natural Science",

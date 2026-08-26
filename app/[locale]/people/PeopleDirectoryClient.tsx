@@ -58,12 +58,23 @@ interface SelectedChip {
  * resolves and validates it. No UI, behavior, or route-shape change.
  *
  * DIRECTORY TAXONOMY REDESIGN (2026-08, `directory_taxonomy_v1`): the old
- * single flat `tagIds` checklist (hidden in a `<details>` dropdown) is
- * replaced by two always-visible sections driven by
- * `src/core/people/directoryTaxonomy.ts` — Profession/Activity (grouped
- * `fieldIds`) and Personality/Trait (grouped canonical attributes). See
- * that module's doc comment for the full derivation rationale. `tagIds`
- * itself is untouched and still powers search.
+ * single flat `tagIds` checklist (hidden in a `<details>` dropdown) was
+ * replaced by two sections driven by `src/core/people/directoryTaxonomy.ts`
+ * — Profession/Activity (grouped `fieldIds`) and Personality/Trait (grouped
+ * canonical attributes). See that module's doc comment for the full
+ * derivation rationale. `tagIds` itself is untouched and still powers
+ * search.
+ *
+ * PROGRESSIVE DISCLOSURE (2026-08 follow-up): those two sections rendered
+ * fully expanded by default, pushing the results grid far down the page.
+ * Each is now its own native `<details>`, collapsed by default — same
+ * zero-JS accessible pattern already used for the all-traits/how-it-was-
+ * calculated disclosures on the Results page (see components.css's shared
+ * `details > summary` chevron rule). Filter STATE (`fieldIds`/`traitIds`)
+ * lives in this component regardless of a section's open/closed DOM state,
+ * so collapsing/reopening never loses a selection. A collapsed section
+ * that still has an active selection says so in its own heading (e.g.
+ * "Personality & Traits · 2 selected") rather than hiding that fact.
  */
 export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
   const [query, setQuery] = useState("");
@@ -205,11 +216,16 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
           </Cluster>
 
           <div className="tgi-taxonomy-columns">
-            <Stack gap={3} as="section">
-              <Heading level={2} visualLevel={3}>
-                {t(locale, "people.directory.section.profession")}
-              </Heading>
-              <div className="tgi-taxonomy-section">
+            <details className="tgi-taxonomy-disclosure">
+              <summary>
+                <Heading level={2} visualLevel={3} className="tgi-inline-heading">
+                  {t(locale, "people.directory.section.profession")}
+                  {fieldIds.length > 0
+                    ? ` · ${t(locale, "people.directory.section_selected_count", { count: fieldIds.length })}`
+                    : null}
+                </Heading>
+              </summary>
+              <div className="tgi-taxonomy-section tgi-details-body">
                 {PROFESSION_CATEGORIES.filter((category) =>
                   category.fieldIds.some((id) => visibleFieldIds.has(id)),
                 ).map((category) => (
@@ -244,13 +260,18 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
                   </div>
                 ))}
               </div>
-            </Stack>
+            </details>
 
-            <Stack gap={3} as="section">
-              <Heading level={2} visualLevel={3}>
-                {t(locale, "people.directory.section.personality")}
-              </Heading>
-              <div className="tgi-taxonomy-section">
+            <details className="tgi-taxonomy-disclosure">
+              <summary>
+                <Heading level={2} visualLevel={3} className="tgi-inline-heading">
+                  {t(locale, "people.directory.section.personality")}
+                  {traitIds.length > 0
+                    ? ` · ${t(locale, "people.directory.section_selected_count", { count: traitIds.length })}`
+                    : null}
+                </Heading>
+              </summary>
+              <div className="tgi-taxonomy-section tgi-details-body">
                 {PERSONALITY_TAXONOMY.filter((group) =>
                   group.attributeIds.some((id) => visibleAttributeIds.has(id)),
                 ).map((group) => (
@@ -285,7 +306,7 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
                   </div>
                 ))}
               </div>
-            </Stack>
+            </details>
           </div>
 
           {selectedChips.length > 0 && (

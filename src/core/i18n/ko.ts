@@ -638,6 +638,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "people.directory.selected_label": "선택됨:",
   "people.directory.clear_all": "전체 해제",
   "people.directory.remove_filter": "{label} 필터 해제",
+  "people.directory.section_selected_count": "{count}개 선택",
 
   "field.philosophy": "철학",
   "field.natural_science": "자연과학",
