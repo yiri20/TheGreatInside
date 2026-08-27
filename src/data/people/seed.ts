@@ -778,7 +778,20 @@ const seeds: PersonSeed[] = [
     impactDomains: ["scientific", "technological", "historical", "innovation"],
     tagIds: ["theorist", "independent", "early_computing"],
     archetypeIds: ["technical_innovator", "scientific_explorer"],
-    sources: [wiki("turing", "Alan Turing"), bio("turing", "Andrew Hodges, Alan Turing: The Enigma (1983)")],
+    // Profile V2 evidence closure (2026-08): src_turing_aps_burglary added,
+    // directly fetched and inspected, to close the January 1952 burglary
+    // detail -- src_turing_wikipedia's own article text does not state how
+    // Turing came to police attention, only that he was prosecuted.
+    sources: [
+      wiki("turing", "Alan Turing"),
+      bio("turing", "Andrew Hodges, Alan Turing: The Enigma (1983)"),
+      {
+        id: "src_turing_aps_burglary",
+        kind: "press",
+        title: "American Physical Society — \"January 23, 1952: Alan Turing's House Is Burglarized\"",
+        url: "https://www.aps.org/apsnews/2014/01/alan-turing-house-burglarized",
+      },
+    ],
     // Verified 2026-08 via a direct fetch of the Commons file page: Elliott
     // & Fry studio photograph, dated 29 March 1951. Public domain (Creative
     // Commons Public Domain Mark 1.0) in both the UK and US.

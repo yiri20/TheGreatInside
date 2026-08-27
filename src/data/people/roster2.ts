@@ -75,7 +75,25 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_(1819).jpg",
       attribution: "Painted by Barbara Krafft, 1819 — a posthumous portrait (Mozart died in 1791), Gesellschaft der Musikfreunde, Vienna, Public Domain",
     },
-    sources: [wiki("mozart", "Wolfgang Amadeus Mozart")],
+    // Profile V2 evidence closure (2026-08): two additional Wikipedia
+    // articles, each directly fetched and inspected, close specific claims
+    // (the 1762 Vienna/grand-tour details; the exact three-symphony dates)
+    // the general biography article doesn't itself state in enough detail.
+    sources: [
+      wiki("mozart", "Wolfgang Amadeus Mozart"),
+      {
+        id: "src_mozart_grand_tour_wikipedia",
+        kind: "wikipedia",
+        title: "Mozart family grand tour",
+        url: "https://en.wikipedia.org/wiki/Mozart_family_grand_tour",
+      },
+      {
+        id: "src_mozart_symphony41_wikipedia",
+        kind: "wikipedia",
+        title: "Symphony No. 41 (Mozart)",
+        url: "https://en.wikipedia.org/wiki/Symphony_No._41_(Mozart)",
+      },
+    ],
     rows: {
       curiosity: [78, 0.6, "s", "N"],
       analytical_rigor: [68, 0.5, "i", "N"],
@@ -514,7 +532,27 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Warren_Buffett_in_2010_(cropped).jpg",
       attribution: "The White House, 2010",
     },
-    sources: [wiki("buffett", "Warren Buffett"), bio("buffett", "Alice Schroeder, The Snowball (2008)")],
+    // Profile V2 evidence closure (2026-08): two primary-source additions,
+    // both directly fetched and inspected (not assumed from a general
+    // Wikipedia/biography citation) to close specific claims the original
+    // pilot pass had mis-cited to src_buffett_wikipedia without the article
+    // actually stating them.
+    sources: [
+      wiki("buffett", "Warren Buffett"),
+      bio("buffett", "Alice Schroeder, The Snowball (2008)"),
+      {
+        id: "src_buffett_1998_letter",
+        kind: "archive",
+        title: "Berkshire Hathaway 1998 Chairman's Letter to Shareholders",
+        url: "https://www.berkshirehathaway.com/letters/1998htm.html",
+      },
+      {
+        id: "src_buffett_1996_annual_report",
+        kind: "archive",
+        title: "Berkshire Hathaway 1996 Annual Report (Chairman's Letter)",
+        url: "https://www.berkshirehathaway.com/1996ar/1996.html",
+      },
+    ],
     rows: {
       curiosity: [65, 0.55, "s", "N"],
       analytical_rigor: [92, 0.85, "d", "A"],

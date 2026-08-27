@@ -533,10 +533,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     // point deliberately left untouched above -- only Life Arc and Legacy
     // added, both basic uncontested chronology already within this person's
     // existing sources.
+    //
+    // Profile V2 evidence-closure pass (2026-08): re-verified all six Life
+    // Arc beats against a fresh direct fetch of src_darwin_wikipedia (not
+    // memory, despite how well-established these facts are). One precision
+    // fix: life_arc.3's year was "1839" for both the marriage AND the move
+    // to Down House, but the article dates the move to September 1842, not
+    // 1839 -- the beat's "later settled" wording already avoided a false
+    // precise claim, but the year label itself was tightened to
+    // "1839-1842" and src_darwin_wikipedia added alongside src_darwin_browne
+    // for this beat. All other beats and the Legacy paragraph confirmed
+    // accurate as written; achievements/moments/turningPoints untouched, as
+    // this profile is the control case.
     lifeArc: [
       { year: "1809", textKey: "charles-darwin.life_arc.1", sourceIds: ["src_darwin_browne"] },
       { year: "1831–1836", textKey: "charles-darwin.life_arc.2", sourceIds: ["src_darwin_browne"] },
-      { year: "1839", textKey: "charles-darwin.life_arc.3", sourceIds: ["src_darwin_browne"] },
+      { year: "1839–1842", textKey: "charles-darwin.life_arc.3", sourceIds: ["src_darwin_browne", "src_darwin_wikipedia"] },
       { year: "1858", textKey: "charles-darwin.life_arc.4", sourceIds: ["src_darwin_correspondence"] },
       { year: "1859", textKey: "charles-darwin.life_arc.5", sourceIds: ["src_darwin_wikipedia", "src_darwin_browne"] },
       { year: "1882", textKey: "charles-darwin.life_arc.6", sourceIds: ["src_darwin_browne"] },
@@ -1258,11 +1270,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     // the historical record itself (not just a trait trade-off) is genuinely
     // contested here. No interpretationKey -- see the i18n comment for why
     // an interpretation was judged riskier than none at all for this item.
+    //
+    // Profile V2 evidence-closure pass (2026-08): re-verified this item
+    // directly against src_assk_aj_icj (her actual ICJ speech transcript)
+    // and against the underlying UN investigation itself, not just
+    // secondary press summarizing it. Her ICJ argument was previously
+    // paraphrased ("domestic counter-insurgency response") -- replaced
+    // with her own quoted words ("dealing with an internal armed
+    // conflict" / the military "responded"), directly confirmed in the
+    // transcript. The prior "mass killing, rape, and arson" characterization
+    // understated what the UN Independent International Fact-Finding
+    // Mission itself concluded (a specific "genocidal intent" finding,
+    // recommending prosecution for genocide) -- strengthened to name that
+    // finding accurately, attributed to the Mission, not asserted as this
+    // profile's own verdict. New source src_assk_un_ffm added (the
+    // OHCHR press release on the Mission's report), directly fetched and
+    // inspected.
     complexities: [
       {
         id: "aung-san-suu-kyi-complexities-1",
         textKey: "aung-san-suu-kyi.complexities.1",
-        sourceIds: ["src_assk_aj_trouble", "src_assk_jod", "src_assk_aj_icj", "src_assk_asiatimes"],
+        sourceIds: ["src_assk_aj_trouble", "src_assk_jod", "src_assk_aj_icj", "src_assk_asiatimes", "src_assk_un_ffm"],
       },
     ],
     lifeArc: [
@@ -1762,6 +1790,25 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // the "general knowledge consistent with cited sources" exception
   // docs/editorial-content.md already describes, applied against a source
   // already on this person's own record.
+  //
+  // Profile V2 evidence-closure pass (2026-08): re-verified every claim
+  // above against a fresh direct fetch of src_turing_wikipedia, not memory.
+  // Found and fixed: (1) achievement.2/life_arc.3's "led the design of the
+  // Bombe" overstated sole credit -- the article and Alexander's own
+  // assessment give shared credit to Gordon Welchman (diagonal-board
+  // enhancement) and Harold Keen; corrected to shared framing, avoiding the
+  // "single-handedly broke Enigma" overclaim; (2) moment.2's 1974
+  // Winterbotham/"Ultra Secret" declassification detail dropped -- not
+  // stated in src_turing_wikipedia's own text (it was surfaced by an
+  // earlier, less rigorous WebSearch pass, not a direct fetch of a cited
+  // source); kept only the Official Secrets Act framing the article does
+  // state; (3) turning_point.1's burglary detail was NOT in
+  // src_turing_wikipedia either -- confirmed via a new, directly-fetched
+  // source (src_turing_aps_burglary) and re-sourced accordingly; also
+  // added the article's own nuance that the suicide ruling is "also
+  // consistent with accidental poisoning," which the original draft had
+  // omitted, presenting the inquest verdict as more settled than the
+  // source itself does.
   "alan-turing": {
     achievements: [
       { id: "alan-turing-achievement-1", textKey: "alan-turing.achievement.1", sourceIds: ["src_turing_wikipedia"] },
@@ -1782,7 +1829,11 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     // adding a trait-interpretive gloss to a account of his prosecution risked
     // reading as "explaining" it via a personality trait. Facts stand alone.
     turningPoints: [
-      { id: "alan-turing-turning-point-1", textKey: "alan-turing.turning_point.1", sourceIds: ["src_turing_wikipedia"] },
+      {
+        id: "alan-turing-turning-point-1",
+        textKey: "alan-turing.turning_point.1",
+        sourceIds: ["src_turing_wikipedia", "src_turing_aps_burglary"],
+      },
     ],
     lifeArc: [
       { year: "1912", textKey: "alan-turing.life_arc.1", sourceIds: ["src_turing_wikipedia"] },
@@ -1801,14 +1852,45 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // to Turning Points, now first chronologically; the two original turning
   // points renumber after it. Two new Achievements researched and verified
   // directly against src_buffett_wikipedia (live fetch, not memory).
+  //
+  // Profile V2 evidence-closure pass (2026-08): re-verified every claim
+  // above against a fresh direct fetch of src_buffett_wikipedia, not
+  // memory. Found and fixed: (1) achievement.1's "19-20% compounded...
+  // over five decades" figure was NOT stated anywhere in
+  // src_buffett_wikipedia -- it had been carried over from an earlier,
+  // less rigorous WebSearch pass. Replaced with a precise, primary-source
+  // figure (24.7% compounded annually, $19->$37,801 per share over 34
+  // years) directly quoted from Berkshire's own 1998 shareholder letter
+  // (new source src_buffett_1998_letter, fetched and inspected); (2)
+  // achievement.2's "See's Candies" clause was also unsupported by
+  // src_buffett_wikipedia (the article never mentions See's Candies at
+  // all) -- removed from this item; the fact remains correctly sourced to
+  // src_buffett_biography in turning_point.2 below, where it was already
+  // properly cited; (3) moment.2's "Berkshire acquired GEICO outright"
+  // was too vague to verify against any cited source -- closed with a
+  // precise date/figure ($2.3B, January 2 1996, the remaining 49%) from
+  // a new, directly-fetched primary source (src_buffett_1996_annual_report,
+  // Berkshire's own 1996 annual report); (4) life_arc.4 stated "Founded
+  // Buffett Partnership Ltd." in 1956 -- src_buffett_wikipedia actually
+  // states the single entity "Buffett Partnership, Ltd." was formed by
+  // merging earlier partnerships in 1962, not 1956; corrected to describe
+  // 1956 accurately (beginning to manage partnerships that later merged).
   "warren-buffett": {
     achievements: [
-      { id: "warren-buffett-achievement-1", textKey: "warren-buffett.achievement.1", sourceIds: ["src_buffett_wikipedia"] },
+      {
+        id: "warren-buffett-achievement-1",
+        textKey: "warren-buffett.achievement.1",
+        sourceIds: ["src_buffett_wikipedia", "src_buffett_1998_letter"],
+      },
       { id: "warren-buffett-achievement-2", textKey: "warren-buffett.achievement.2", sourceIds: ["src_buffett_wikipedia"] },
     ],
     moments: [
       { id: "warren-buffett-moment-1", textKey: "warren-buffett.moment.1", sourceIds: ["src_buffett_biography"] },
-      { id: "warren-buffett-moment-2", textKey: "warren-buffett.moment.2", sourceIds: ["src_buffett_wikipedia"] },
+      {
+        id: "warren-buffett-moment-2",
+        textKey: "warren-buffett.moment.2",
+        sourceIds: ["src_buffett_wikipedia", "src_buffett_1996_annual_report"],
+      },
     ],
     turningPoints: [
       {
@@ -1852,6 +1934,24 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // already on this person's own record. achievement.1 states what she
   // demonstrably did without asserting a resolution to the Watson/Crick
   // credit question either way.
+  //
+  // Profile V2 evidence-closure pass (2026-08): re-verified every claim
+  // above against a fresh direct fetch of src_rfranklin_wikipedia, not
+  // memory. Found and fixed: achievement.1 originally stated Watson and
+  // Crick "drew on her unpublished data and measurements, without her
+  // knowledge at the time" -- broader than what the article actually
+  // supports. The article specifically documents Wilkins showing
+  // Photograph 51 to Watson without Franklin's permission, and Crick and
+  // Watson's published paper crediting being "stimulated by a general
+  // knowledge of Franklin and Wilkins' unpublished contribution" in one
+  // footnote -- it does not state that all of her unpublished data and
+  // measurements were used without her knowledge. Narrowed to the
+  // specific, directly-quoted facts rather than the broader
+  // characterization, per this task's explicit instruction not to
+  // overstate the credit question. All other claims (coal research,
+  // Paris/Mering, the Wilkins role-conflict turning point, Birkbeck virus
+  // work, cause and age at death) were re-verified and confirmed accurate
+  // as written; no other changes made.
   "rosalind-franklin": {
     achievements: [
       { id: "rosalind-franklin-achievement-1", textKey: "rosalind-franklin.achievement.1", sourceIds: ["src_rfranklin_wikipedia"] },
@@ -1996,14 +2096,38 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // child-prodigy touring the closure pass had removed, restored here with
   // real dates/venues), Life Arc, and Legacy -- all researched and verified
   // directly against src_mozart_wikipedia (live fetch, not memory).
+  //
+  // Profile V2 evidence-closure pass (2026-08): re-verified every claim
+  // above against a fresh direct fetch of src_mozart_wikipedia, not memory.
+  // Found and fixed: (1) achievement.1's "written around age six" for K.1
+  // dropped -- genuine, documented scholarly dating debate over K.1, not
+  // settled fact; (2) moment.1's "October" and "Schönbrunn Palace" detail
+  // dropped and the 1762 Vienna visit separated from the 1763-1766 grand
+  // tour proper (the two were conflated into one date range before, which
+  // was itself internally inconsistent -- "1763-1766" containing an
+  // "October 1762" event) -- re-sourced to the more specific
+  // src_mozart_grand_tour_wikipedia, fetched and inspected directly; (3)
+  // moment.2's "without a specific commission" claim removed -- the
+  // dedicated Symphony No. 41 article states this is NOT established,
+  // one musicologist's speculative alternative theory noted instead --
+  // re-sourced to src_mozart_symphony41_wikipedia with exact composition
+  // dates (26 June / 25 July / 10 August 1788) confirmed there.
   "wolfgang-amadeus-mozart": {
     achievements: [
       { id: "wolfgang-amadeus-mozart-achievement-1", textKey: "wolfgang-amadeus-mozart.achievement.1", sourceIds: ["src_mozart_wikipedia"] },
       { id: "wolfgang-amadeus-mozart-achievement-2", textKey: "wolfgang-amadeus-mozart.achievement.2", sourceIds: ["src_mozart_wikipedia"] },
     ],
     moments: [
-      { id: "wolfgang-amadeus-mozart-moment-1", textKey: "wolfgang-amadeus-mozart.moment.1", sourceIds: ["src_mozart_wikipedia"] },
-      { id: "wolfgang-amadeus-mozart-moment-2", textKey: "wolfgang-amadeus-mozart.moment.2", sourceIds: ["src_mozart_wikipedia"] },
+      {
+        id: "wolfgang-amadeus-mozart-moment-1",
+        textKey: "wolfgang-amadeus-mozart.moment.1",
+        sourceIds: ["src_mozart_wikipedia", "src_mozart_grand_tour_wikipedia"],
+      },
+      {
+        id: "wolfgang-amadeus-mozart-moment-2",
+        textKey: "wolfgang-amadeus-mozart.moment.2",
+        sourceIds: ["src_mozart_wikipedia", "src_mozart_symphony41_wikipedia"],
+      },
     ],
     turningPoints: [
       {
