@@ -61,19 +61,24 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["prodigy", "specialist"],
     archetypeIds: ["creative_creator"],
-    // ROSTER-1000 portrait sourcing (2026-08): a posthumous portrait, not a
-    // lifetime likeness -- Mozart died in 1791, this was painted in 1819 --
-    // but the best-known and most widely reproduced portrait of him,
-    // commissioned by people who had known him. Verified live against the
-    // Commons file page.
+    // Portrait Sourcing Batch 1 (2026-08): REPLACES the prior Barbara Krafft
+    // 1819 painting, which was posthumous (Mozart died 1791). This Lange
+    // portrait was painted from life in 1782 by Mozart's own brother-in-law,
+    // when Mozart was 26, and is regarded by historians as the most accurate
+    // surviving likeness of Mozart -- the splotchy cheek texture visible in
+    // the original (Mozart Museum, Salzburg) was verified by his own
+    // contemporaries as true to life. Originally a small study later
+    // affixed to a larger canvas intended to show Mozart at the piano,
+    // which was never completed -- hence "unfinished." Verified live
+    // against the Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_%281819%29.jpg/1447px-Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_%281819%29.jpg",
-      width: 1447,
-      height: 1784,
+      url: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mozart_%28unfinished%29_by_Lange_1782.jpg",
+      width: 4180,
+      height: 5776,
       source: "Wikimedia Commons",
-      license: "Public Domain",
-      licenseUrl: "https://commons.wikimedia.org/wiki/File:Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_(1819).jpg",
-      attribution: "Painted by Barbara Krafft, 1819 — a posthumous portrait (Mozart died in 1791), Gesellschaft der Musikfreunde, Vienna, Public Domain",
+      license: "Public Domain (artist died 1831)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Mozart_(unfinished)_by_Lange_1782.jpg",
+      attribution: "Painted from life by Joseph Lange, 1782 — Mozart Museum, Salzburg",
     },
     // Profile V2 evidence closure (2026-08): two additional Wikipedia
     // articles, each directly fetched and inspected, close specific claims

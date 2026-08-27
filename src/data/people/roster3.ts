@@ -189,6 +189,26 @@ const seeds: PersonSeed[] = [
     tagIds: ["explorer", "leader", "overcame_adversity"],
     archetypeIds: ["organizational_leader", "independent_creator"],
     externalIdentity: { wikidataId: "Q957543" },
+    // Portrait Sourcing Batch 1 (2026-08): the Commons original is a scan of
+    // the entire mounted print (tan card mount plus Shackleton's own
+    // handwritten signature beneath the photo), which reads poorly at both
+    // Profile hero and PersonCard sizes — face small, pushed toward the top
+    // edge, dominated by dead mount-board space. No pre-cropped derivative
+    // exists on Commons (checked). Hosted locally at
+    // public/portraits/ernest-shackleton-hurley-1916-cropped.jpg: a plain
+    // non-destructive rectangular crop isolating the photographic image
+    // itself (no facial content altered, no AI enhancement) — see
+    // licenseUrl for the unmodified original. Underlying photograph remains
+    // Public Domain; a mechanical crop creates no new copyright.
+    portrait: {
+      url: "/portraits/ernest-shackleton-hurley-1916-cropped.jpg",
+      width: 850,
+      height: 1136,
+      source: "Wikimedia Commons (cropped for this app from the original scan)",
+      license: "Public Domain (life+70 or fewer)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Shakleton_by_Hurley,_1916.jpg",
+      attribution: "Frank Hurley, 1916 — the expedition's own official photographer; cropped by this project from the full mounted print to remove the card mount and signature",
+    },
     sources: [{ id: "src_shackleton_wikipedia", kind: "wikipedia", title: "Ernest Shackleton", url: "https://en.wikipedia.org/wiki/Ernest_Shackleton" }, { id: "src_shackleton_lansing", kind: "biography", title: "Alfred Lansing, Endurance: Shackleton's Incredible Voyage (1959)" }],
     rows: {
       // Led the 1914-1917 Imperial Trans-Antarctic Expedition, keeping all 28 crew members alive for nearly two years after their ship Endurance was crushed by pack ice — one of the most extensively documented leadership case studies in exploration history, corroborated by multiple crew members' own diaries.

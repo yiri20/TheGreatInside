@@ -128,6 +128,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["nobel_laureate", "self_taught", "independent"],
     archetypeIds: ["scientific_explorer"],
     externalIdentity: { wikidataId: "Q60429" },
+    // Portrait Sourcing Batch 1 (2026-08): verified live via a direct fetch
+    // of the Commons file page.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Sir_CV_Raman.JPG",
+      width: 992,
+      height: 1488,
+      source: "Wikimedia Commons",
+      license: "Public Domain (published 1930)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Sir_CV_Raman.JPG",
+      attribution: "Nobel Lectures, Physics 1922–1941, Elsevier Publishing Company, Amsterdam, 1965 — © The Nobel Foundation, 1930",
+    },
     sources: [{ id: "src_raman_wikipedia", kind: "wikipedia", title: "C. V. Raman", url: "https://en.wikipedia.org/wiki/C._V._Raman" }, { id: "src_raman_nobel", kind: "award_body", title: "The Nobel Prize — C.V. Raman, Physics 1930" }],
     rows: {
       // Documented to have pursued serious original physics research (on the physics of musical instruments) as a side interest while working full-time in the Indian Finance Department, before formally entering physics as a career — self-directed inquiry with no institutional requirement.

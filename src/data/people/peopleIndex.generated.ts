@@ -222,7 +222,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5774193548387098,
     attributes: [["curiosity", 78, 0.6, "neutral"], ["analytical_rigor", 68, 0.5, "neutral"], ["intuitive_synthesis", 96, 0.85, "advantage"], ["systems_abstraction", 72, 0.55, "neutral"], ["independent_thinking", 78, 0.6, "neutral"], ["creative_originality", 94, 0.88, "advantage"], ["experimentation", 75, 0.6, "neutral"], ["cross_domain_range", 55, 0.45, "neutral"], ["aesthetic_sensitivity", 97, 0.92, "advantage"], ["discipline", 72, 0.6, "neutral"], ["deep_focus", 88, 0.75, "advantage"], ["detail_orientation", 80, 0.65, "neutral"], ["perfectionism", 78, 0.6, "neutral"], ["execution_speed", 90, 0.8, "advantage"], ["planning_orientation", 42, 0.5, "neutral"], ["persistence", 78, 0.6, "neutral"], ["adaptability", 72, 0.55, "neutral"], ["risk_tolerance", 58, 0.45, "neutral"], ["ambiguity_tolerance", 65, 0.45, "neutral"], ["decisiveness", 75, 0.55, "neutral"], ["social_assertiveness", 68, 0.55, "neutral"], ["collaboration", 62, 0.5, "neutral"], ["leadership_drive", 45, 0.45, "neutral"], ["persuasiveness", 55, 0.4, "neutral"], ["conflict_tolerance", 55, 0.4, "neutral"], ["mastery_orientation", 92, 0.8, "advantage"], ["achievement_drive", 68, 0.5, "neutral"], ["competitiveness", 55, 0.4, "neutral"], ["autonomy_need", 65, 0.5, "neutral"], ["impact_motivation", 58, 0.4, "neutral"], ["proactive_agency", 68, 0.55, "dual_edged"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_%281819%29.jpg/1447px-Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_%281819%29.jpg",
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mozart_%28unfinished%29_by_Lange_1782.jpg",
   },
   {
     id: "p_beethoven",
@@ -746,6 +746,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6009523809523808,
     attributes: [["leadership_drive", 94, 0.85, "advantage"], ["persistence", 92, 0.8, "advantage"], ["risk_tolerance", 76, 0.62, "advantage"], ["decisiveness", 85, 0.7, "advantage"], ["adaptability", 90, 0.78, "advantage"], ["collaboration", 82, 0.68, "advantage"], ["proactive_agency", 88, 0.72, "advantage"], ["planning_orientation", 52, 0.48, "neutral"], ["discipline", 78, 0.6, "advantage"], ["persuasiveness", 70, 0.55, "advantage"], ["conflict_tolerance", 62, 0.5, "advantage"], ["resourcefulness", 90, 0.75, "advantage"], ["opportunity_sensing", 68, 0.52, "advantage"], ["competitiveness", 55, 0.45, "neutral"], ["independent_thinking", 65, 0.5, "advantage"], ["execution_speed", 68, 0.52, "advantage"], ["detail_orientation", 60, 0.48, "advantage"], ["cross_domain_range", 28, 0.5, "neutral"], ["social_assertiveness", 84, 0.68, "advantage"], ["creative_originality", 65, 0.52, "advantage"], ["perfectionism", 45, 0.42, "neutral"]],
+    portraitUrl: "/portraits/ernest-shackleton-hurley-1916-cropped.jpg",
   },
   {
     id: "p_frederick_douglass",
@@ -1195,6 +1196,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.550952380952381,
     attributes: [["systems_abstraction", 88, 0.72, "advantage"], ["collaboration", 85, 0.7, "advantage"], ["persuasiveness", 78, 0.6, "advantage"], ["conflict_tolerance", 76, 0.6, "advantage"], ["risk_tolerance", 74, 0.58, "risk"], ["creative_originality", 82, 0.65, "advantage"], ["impact_motivation", 70, 0.55, "advantage"], ["independent_thinking", 72, 0.55, "advantage"], ["discipline", 68, 0.5, "advantage"], ["achievement_drive", 62, 0.46, "neutral"], ["leadership_drive", 68, 0.52, "advantage"], ["detail_orientation", 60, 0.44, "neutral"], ["social_assertiveness", 62, 0.58, "advantage"], ["analytical_rigor", 82, 0.65, "advantage"], ["cross_domain_range", 60, 0.46, "advantage"], ["deep_focus", 76, 0.58, "advantage"], ["persistence", 72, 0.55, "advantage"], ["mastery_orientation", 66, 0.52, "advantage"], ["curiosity", 58, 0.44, "advantage"], ["planning_orientation", 64, 0.5, "advantage"], ["adaptability", 58, 0.42, "neutral"]],
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg",
   },
   {
     id: "p_rachel_carson",
@@ -1509,6 +1511,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5225,
     attributes: [["curiosity", 84, 0.68, "advantage"], ["independent_thinking", 76, 0.6, "advantage"], ["experimentation", 82, 0.65, "advantage"], ["resourcefulness", 74, 0.58, "advantage"], ["risk_tolerance", 60, 0.46, "neutral"], ["discipline", 70, 0.55, "advantage"], ["leadership_drive", 68, 0.52, "advantage"], ["mastery_orientation", 66, 0.5, "advantage"], ["proactive_agency", 68, 0.52, "advantage"], ["persistence", 65, 0.48, "neutral"], ["cross_domain_range", 55, 0.42, "neutral"], ["achievement_drive", 62, 0.45, "neutral"], ["autonomy_need", 58, 0.42, "neutral"], ["detail_orientation", 60, 0.44, "neutral"], ["systems_abstraction", 74, 0.58, "advantage"], ["social_assertiveness", 58, 0.44, "neutral"], ["deep_focus", 80, 0.62, "advantage"], ["planning_orientation", 68, 0.54, "advantage"], ["impact_motivation", 64, 0.5, "advantage"], ["analytical_rigor", 68, 0.5, "advantage"]],
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Sir_CV_Raman.JPG",
   },
   {
     id: "p_franz_kafka",
@@ -1723,6 +1726,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5425,
     attributes: [["curiosity", 65, 0.42, "advantage"], ["intuitive_synthesis", 78, 0.55, "advantage"], ["independent_thinking", 80, 0.65, "advantage"], ["belief_updating", 82, 0.62, "advantage"], ["creative_originality", 88, 0.6, "advantage"], ["experimentation", 78, 0.65, "advantage"], ["discipline", 82, 0.55, "advantage"], ["deep_focus", 68, 0.5, "advantage"], ["execution_speed", 85, 0.62, "advantage"], ["planning_orientation", 32, 0.45, "dual_edged"], ["persistence", 80, 0.6, "advantage"], ["adaptability", 75, 0.58, "advantage"], ["risk_tolerance", 78, 0.62, "dual_edged"], ["decisiveness", 65, 0.42, "advantage"], ["collaboration", 78, 0.65, "advantage"], ["leadership_drive", 68, 0.5, "neutral"], ["persuasiveness", 75, 0.6, "advantage"], ["conflict_tolerance", 78, 0.62, "dual_edged"], ["mastery_orientation", 65, 0.42, "advantage"], ["competitiveness", 62, 0.42, "neutral"], ["autonomy_need", 72, 0.5, "advantage"], ["impact_motivation", 70, 0.5, "advantage"], ["resourcefulness", 78, 0.48, "advantage"], ["proactive_agency", 75, 0.5, "advantage"]],
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/6/64/Fjodor_Michailowitsch_Dostojewski.jpg",
   },
   {
     id: "p_louis_armstrong",
@@ -1761,6 +1765,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6153846153846154,
     attributes: [["curiosity", 85, 0.72, "advantage"], ["analytical_rigor", 68, 0.55, "dual_edged"], ["independent_thinking", 82, 0.68, "advantage"], ["belief_updating", 62, 0.42, "advantage"], ["experimentation", 88, 0.72, "advantage"], ["cross_domain_range", 90, 0.72, "advantage"], ["discipline", 85, 0.68, "advantage"], ["deep_focus", 82, 0.6, "advantage"], ["detail_orientation", 85, 0.62, "advantage"], ["planning_orientation", 70, 0.6, "advantage"], ["persistence", 90, 0.78, "advantage"], ["adaptability", 82, 0.68, "advantage"], ["risk_tolerance", 82, 0.7, "advantage"], ["ambiguity_tolerance", 75, 0.58, "advantage"], ["decisiveness", 68, 0.5, "neutral"], ["social_assertiveness", 78, 0.6, "advantage"], ["collaboration", 62, 0.55, "dual_edged"], ["leadership_drive", 72, 0.6, "dual_edged"], ["persuasiveness", 78, 0.55, "advantage"], ["conflict_tolerance", 88, 0.72, "dual_edged"], ["mastery_orientation", 85, 0.62, "advantage"], ["competitiveness", 82, 0.68, "dual_edged"], ["autonomy_need", 78, 0.55, "dual_edged"], ["impact_motivation", 82, 0.6, "advantage"], ["opportunity_sensing", 75, 0.48, "advantage"], ["proactive_agency", 75, 0.5, "advantage"]],
+    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/5/58/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit_%28cropped%29.jpg",
   },
   {
     id: "p_akio_morita",

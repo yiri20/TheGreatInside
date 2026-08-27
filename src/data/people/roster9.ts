@@ -44,6 +44,17 @@ const seeds: PersonSeed[] = [
     tagIds: ["endured_imprisonment", "overcame_adversity", "prolific", "nonconformist"],
     archetypeIds: ["creative_creator", "independent_creator"],
     externalIdentity: { wikidataId: "Q991" },
+    // Portrait Sourcing Batch 1 (2026-08): verified live via a direct fetch
+    // of the Commons file page and Google Arts & Culture source record.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/6/64/Fjodor_Michailowitsch_Dostojewski.jpg",
+      width: 1681,
+      height: 2381,
+      source: "Wikimedia Commons",
+      license: "Public Domain (published before 1931)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Fjodor_Michailowitsch_Dostojewski.jpg",
+      attribution: "Photographer unknown, 9 February 1881 — the last known photograph of Dostoevsky, taken six months before his death",
+    },
     sources: [{ id: "src_dostoevsky_frank", kind: "biography", title: "Joseph Frank -- five-volume definitive scholarly biography of Dostoevsky (Princeton University Press, 1976-2002)" }, { id: "src_dostoevsky_annadiary", kind: "archive", title: "Anna Grigoryevna Dostoevskaya -- shorthand diary of 1867 (published 1923) and Reminiscences (published 1925)" }, { id: "src_dostoevsky_encyc", kind: "press", title: "Encyclopedia.com -- \"Fyodor Mikhailovich Dostoevsky\" (Encyclopedia of World Biography)", url: "https://www.encyclopedia.com/people/literature-and-arts/russian-and-eastern-european-literature-biographies/fyodor-mikhailovich-dostoevsky" }, { id: "src_dostoevsky_yale", kind: "institution", title: "Yale University course-page biography of Dostoevsky", url: "https://meek.yalepages.org/dostoevsky_bio.html" }, { id: "src_dostoevsky_ubcwiki", kind: "institution", title: "\"The Mock-execution of Fyodor Dostoevsky\", University of British Columbia Wiki", url: "https://wiki.ubc.ca/The_Mock-execution_of_Fyodor_Dostoevsky" }, { id: "src_dostoevsky_russianlife", kind: "press", title: "\"Dostoyevsky's Brilliant Wife Anna\", Russian Life magazine", url: "https://russianlife.com/the-russia-file/dostoyevskys-brilliant-wife-anna/" }],
     rows: {
       // Sustained deep, self-directed interest in literature (Schiller, Homer) throughout his military-engineering academy years, diverging from the assigned technical curriculum -- a single documented instance. Session 18 evidence FD-E2.
@@ -174,6 +185,20 @@ const seeds: PersonSeed[] = [
     tagIds: ["career_changer", "innovator", "founder", "overcame_adversity"],
     archetypeIds: ["scientific_explorer", "cross_disciplinary_generalist"],
     externalIdentity: { wikidataId: "Q529" },
+    // Portrait Sourcing Batch 1 (2026-08): verified live via a direct fetch
+    // of the Commons file page. Preferred over an alternative Getty/Hulton-
+    // credited file with a murkier attribution chain ("Paul Rochas & Bannel")
+    // researched in the same pass — this Smithsonian-restored Nadar print has
+    // clean, well-documented provenance.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/5/58/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit_%28cropped%29.jpg",
+      width: 1257,
+      height: 1669,
+      source: "Wikimedia Commons",
+      license: "Public Domain (photographer died 1939; also published before 1931)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit_(cropped).jpg",
+      attribution: "Paul Nadar, before 1895 — restored from a print held by the Smithsonian Institution",
+    },
     sources: [{ id: "src_pasteur_shi", kind: "institution", title: "Science History Institute -- Louis Pasteur biography", url: "https://www.sciencehistory.org/education/scientific-biographies/louis-pasteur/" }, { id: "src_pasteur_iphist", kind: "institution", title: "Institut Pasteur -- official History page", url: "https://www.pasteur.fr/en/institut-pasteur/history" }, { id: "src_pasteur_iprabies", kind: "institution", title: "Institut Pasteur research journal -- First rabies vaccination, 1885" }, { id: "src_pasteur_gavi", kind: "press", title: "Gavi.org -- \"Scrutiny or public spectacle?\" (the Pouilly-le-Fort anthrax trial)" }, { id: "src_pasteur_hov", kind: "institution", title: "History of Vaccines (College of Physicians of Philadelphia) -- \"The Other Side of Louis Pasteur's Discoveries\"" }, { id: "src_pasteur_geison", kind: "biography", title: "Gerald Geison, The Private Science of Louis Pasteur (Princeton University Press, 1995)" }, { id: "src_pasteur_debre", kind: "biography", title: "Patrice Debre, Louis Pasteur (Johns Hopkins University Press)" }, { id: "src_pasteur_acadsilk", kind: "archive", title: "Academie des Sciences (Comptes Rendus Chimie) -- peer-reviewed article on Pasteur's silkworm-disease period" }, { id: "src_pasteur_pouchet", kind: "archive", title: "History and Philosophy of the Life Sciences (Springer) -- peer-reviewed article on the Pouchet spontaneous-generation controversy" }],
     rows: {
       // Sustained investigation across widely differing domains he had to learn essentially from scratch -- crystallography, fermentation microbiology, silkworm pathology, immunology -- each a genuine new-field commitment, not a single flash of interest. Session 18 evidence LP-E2, LP-E8.

@@ -602,6 +602,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["founder", "nobel_laureate", "innovator"],
     archetypeIds: ["scholarly_specialist", "visionary_pioneer"],
     externalIdentity: { wikidataId: "Q7085" },
+    // Portrait Sourcing Batch 1 (2026-08): verified live via a direct fetch
+    // of the Commons file page. George Grantham Bain Collection, restored by
+    // a Commons contributor; a featured picture on English Wikipedia.
+    portrait: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg",
+      width: 3415,
+      height: 4723,
+      source: "Wikimedia Commons",
+      license: "Public Domain (no known copyright restrictions — Library of Congress, Bain News Service)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg",
+      attribution: "Bain News Service, c. 1910 — George Grantham Bain Collection, Library of Congress Prints and Photographs Division",
+    },
     sources: [{ id: "src_bohr_wikipedia", kind: "wikipedia", title: "Niels Bohr", url: "https://en.wikipedia.org/wiki/Niels_Bohr" }, { id: "src_bohr_nobel", kind: "award_body", title: "The Nobel Prize — Niels Bohr, Physics 1922" }, { id: "src_bohr_pais", kind: "biography", title: "Abraham Pais, Niels Bohr's Times (1991)" }],
     rows: {
       // The Bohr model of the atom and the later Copenhagen interpretation of quantum mechanics required building a coherent conceptual framework that reconciled classical and quantum phenomena, documented via his Nobel-cited work and Pais's detailed intellectual biography.
