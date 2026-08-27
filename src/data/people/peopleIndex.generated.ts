@@ -686,7 +686,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.590625,
     attributes: [["curiosity", 70, 0.55, "neutral"], ["analytical_rigor", 48, 0.4, "neutral"], ["intuitive_synthesis", 90, 0.75, "advantage"], ["systems_abstraction", 55, 0.42, "neutral"], ["independent_thinking", 95, 0.85, "advantage"], ["creative_originality", 96, 0.88, "advantage"], ["experimentation", 85, 0.7, "advantage"], ["cross_domain_range", 58, 0.45, "neutral"], ["aesthetic_sensitivity", 94, 0.82, "advantage"], ["discipline", 90, 0.75, "advantage"], ["deep_focus", 92, 0.78, "advantage"], ["detail_orientation", 85, 0.68, "advantage"], ["perfectionism", 82, 0.65, "dual_edged"], ["execution_speed", 72, 0.55, "neutral"], ["planning_orientation", 45, 0.42, "neutral"], ["persistence", 92, 0.78, "advantage"], ["adaptability", 65, 0.5, "neutral"], ["risk_tolerance", 72, 0.55, "neutral"], ["ambiguity_tolerance", 78, 0.6, "advantage"], ["decisiveness", 68, 0.5, "neutral"], ["social_assertiveness", 45, 0.5, "neutral"], ["collaboration", 38, 0.5, "neutral"], ["leadership_drive", 42, 0.45, "neutral"], ["persuasiveness", 55, 0.42, "neutral"], ["conflict_tolerance", 55, 0.42, "neutral"], ["mastery_orientation", 82, 0.65, "advantage"], ["achievement_drive", 72, 0.55, "neutral"], ["competitiveness", 45, 0.4, "neutral"], ["autonomy_need", 92, 0.78, "advantage"], ["impact_motivation", 70, 0.52, "neutral"], ["resourcefulness", 75, 0.58, "advantage"], ["proactive_agency", 70, 0.55, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Yayoi_Kusama_circa_2004.jpg",
+    portraitUrl: "/portraits/yayoi-kusama-japan-2013-cropped.jpg",
   },
   {
     id: "p_albert_einstein",

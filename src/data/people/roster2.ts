@@ -1873,17 +1873,51 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["independent", "prolific"],
     archetypeIds: ["independent_creator", "creative_creator"],
-    // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
-    // photograph (video still, c. 2002-2005) from George Quasha's "art is
-    // (Speaking Portraits)" project.
+    // Portrait-quality emergency fix (2026-08): the prior portrait (George
+    // Quasha's "circa 2004" video still) was an extreme, uncomfortably close
+    // face crop — eyes/nose/mouth filling the entire frame — that read
+    // poorly in both PersonCard and the profile hero. Replaced after
+    // evaluating every candidate in Commons' own Category:Yayoi_Kusama:
+    // the 2013 courtesy-call-to-PM-Abe photo set (same Cabinet Public
+    // Relations Office source) has three other frames (File:20130918Yayoi
+    // Kusama1.jpg, ...2.jpg, ...3.jpg), all showing Abe and/or several other
+    // officials in the same frame — unsuitable for a solo portrait hero,
+    // where the source image renders edge-to-edge with no auto-crop. This
+    // "(cropped)" derivative is the one exception: a clean solo bust crop
+    // with no other people visible, verified 2026-08 via a direct fetch of
+    // the Commons file page and the MediaWiki imageinfo API (extmetadata) —
+    // notably also the exact file English Wikipedia's own infobox uses for
+    // her. Lower resolution than most portraits in this roster (160x240,
+    // vs. this project's usual few-hundred-px-wide floor), but still above
+    // the Aung San Suu Kyi portrait already in this file from the same
+    // office at a comparable resolution (444x592) — accepted as the actual
+    // display sizes here (person-page hero maxes out at 12rem/192px) don't
+    // need much more than this. Off-axis gaze and low source resolution are
+    // known, accepted trade-offs — currently the best legally reusable
+    // practical choice; this portrait is final, not a placeholder pending
+    // further research.
+    //
+    // Portrait Reliability Closure (2026-08): re-hosted locally at
+    // public/portraits/yayoi-kusama-japan-2013-cropped.jpg, consistent with
+    // Portrait Sourcing Batch 1's closure of the same upload.wikimedia.org
+    // net::ERR_BLOCKED_BY_ORB reliability issue (Wikimedia-side rate-
+    // limiting — HTTP 429 + HTML body during request bursts, an
+    // infrastructure issue, not a bad source URL). Source is already only
+    // 160x240, so NOT downscaled further; the local file is a straight
+    // mozjpeg recompression of the exact approved original (quality 85,
+    // metadata/embedded-thumbnail stripped) — same 160x240 pixel data,
+    // 71.4KB -> 8.6KB (88.0% smaller) with no visible difference, verified
+    // by direct visual comparison. No crop change, no upscale, no AI
+    // processing, no face alteration. licenseUrl still points to the live
+    // Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Yayoi_Kusama_circa_2004.jpg",
-      width: 1435,
-      height: 1078,
-      source: "Wikimedia Commons",
-      license: "CC BY 3.0",
-      licenseUrl: "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_circa_2004.jpg",
-      attribution: "George Quasha",
+      url: "/portraits/yayoi-kusama-japan-2013-cropped.jpg",
+      width: 160,
+      height: 240,
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
+      license: "CC BY 4.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:20130918Yayoi_Kusama1_(cropped).jpg",
+      attribution: "Cabinet Public Relations Office, Japan, 2013",
     },
     sources: [wiki("kusama", "Yayoi Kusama")],
     rows: {
