@@ -605,11 +605,22 @@ const seeds: PersonSeed[] = [
     // Portrait Sourcing Batch 1 (2026-08): verified live via a direct fetch
     // of the Commons file page. George Grantham Bain Collection, restored by
     // a Commons contributor; a featured picture on English Wikipedia.
+    //
+    // Portrait Reliability Closure (2026-08): re-hosted locally at
+    // public/portraits/niels-bohr-loc-bain-c1910.jpg after real Playwright/
+    // Chromium verification reproduced intermittent net::ERR_BLOCKED_BY_ORB
+    // on upload.wikimedia.org hotlinks (the CDN returning HTTP 429 + an HTML
+    // body during request bursts, which Chromium then blocks as a non-image
+    // response — affected both new and pre-existing portraits, an
+    // infrastructure issue, not a bad URL). The exact same original file
+    // bytes as the URL below (3415x4723, unmodified, no crop/enhancement/
+    // upscale) — only the delivery path changed. licenseUrl still points to
+    // the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg",
+      url: "/portraits/niels-bohr-loc-bain-c1910.jpg",
       width: 3415,
       height: 4723,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
       license: "Public Domain (no known copyright restrictions — Library of Congress, Bain News Service)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg",
       attribution: "Bain News Service, c. 1910 — George Grantham Bain Collection, Library of Congress Prints and Photographs Division",

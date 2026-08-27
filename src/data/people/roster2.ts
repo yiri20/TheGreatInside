@@ -71,11 +71,22 @@ const seeds: PersonSeed[] = [
     // affixed to a larger canvas intended to show Mozart at the piano,
     // which was never completed -- hence "unfinished." Verified live
     // against the Commons file page.
+    //
+    // Portrait Reliability Closure (2026-08): re-hosted locally at
+    // public/portraits/wolfgang-amadeus-mozart-lange-1782.jpg after real
+    // Playwright/Chromium verification reproduced intermittent
+    // net::ERR_BLOCKED_BY_ORB on upload.wikimedia.org hotlinks (the CDN
+    // returning HTTP 429 + an HTML body during request bursts, which
+    // Chromium then blocks as a non-image response -- affected both new and
+    // pre-existing portraits, an infrastructure issue, not a bad URL). The
+    // exact same original file bytes as the URL below (4180x5776,
+    // unmodified, no crop/enhancement/upscale) -- only the delivery path
+    // changed. licenseUrl still points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mozart_%28unfinished%29_by_Lange_1782.jpg",
+      url: "/portraits/wolfgang-amadeus-mozart-lange-1782.jpg",
       width: 4180,
       height: 5776,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
       license: "Public Domain (artist died 1831)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Mozart_(unfinished)_by_Lange_1782.jpg",
       attribution: "Painted from life by Joseph Lange, 1782 — Mozart Museum, Salzburg",

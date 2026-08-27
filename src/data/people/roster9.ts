@@ -46,11 +46,22 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q991" },
     // Portrait Sourcing Batch 1 (2026-08): verified live via a direct fetch
     // of the Commons file page and Google Arts & Culture source record.
+    //
+    // Portrait Reliability Closure (2026-08): re-hosted locally at
+    // public/portraits/fyodor-dostoevsky-1881.jpg after real Playwright/
+    // Chromium verification reproduced intermittent net::ERR_BLOCKED_BY_ORB
+    // on upload.wikimedia.org hotlinks (the CDN returning HTTP 429 + an HTML
+    // body during request bursts, which Chromium then blocks as a non-image
+    // response — affected both new and pre-existing portraits, an
+    // infrastructure issue, not a bad URL). The exact same original file
+    // bytes as the URL below (1681x2381, unmodified, no crop/enhancement/
+    // upscale) — only the delivery path changed. licenseUrl still points to
+    // the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/6/64/Fjodor_Michailowitsch_Dostojewski.jpg",
+      url: "/portraits/fyodor-dostoevsky-1881.jpg",
       width: 1681,
       height: 2381,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
       license: "Public Domain (published before 1931)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Fjodor_Michailowitsch_Dostojewski.jpg",
       attribution: "Photographer unknown, 9 February 1881 — the last known photograph of Dostoevsky, taken six months before his death",
@@ -190,11 +201,22 @@ const seeds: PersonSeed[] = [
     // credited file with a murkier attribution chain ("Paul Rochas & Bannel")
     // researched in the same pass — this Smithsonian-restored Nadar print has
     // clean, well-documented provenance.
+    // Portrait Reliability Closure (2026-08): re-hosted locally at
+    // public/portraits/louis-pasteur-nadar.jpg after real Playwright/
+    // Chromium verification reproduced intermittent net::ERR_BLOCKED_BY_ORB
+    // on upload.wikimedia.org hotlinks (the CDN returning HTTP 429 + an HTML
+    // body during request bursts, which Chromium then blocks as a non-image
+    // response — this was the specific failure that triggered this closure
+    // pass; also reproduced on the pre-existing Benjamin Franklin portrait
+    // in the same session, confirming an infrastructure issue, not a bad
+    // URL). The exact same original file bytes as the URL below (1257x1669,
+    // unmodified, no crop/enhancement/upscale) — only the delivery path
+    // changed. licenseUrl still points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/5/58/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit_%28cropped%29.jpg",
+      url: "/portraits/louis-pasteur-nadar.jpg",
       width: 1257,
       height: 1669,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
       license: "Public Domain (photographer died 1939; also published before 1931)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit_(cropped).jpg",
       attribution: "Paul Nadar, before 1895 — restored from a print held by the Smithsonian Institution",

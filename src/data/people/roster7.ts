@@ -130,11 +130,22 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q60429" },
     // Portrait Sourcing Batch 1 (2026-08): verified live via a direct fetch
     // of the Commons file page.
+    //
+    // Portrait Reliability Closure (2026-08): re-hosted locally at
+    // public/portraits/cv-raman-nobel-foundation-1930.jpg after real
+    // Playwright/Chromium verification reproduced intermittent
+    // net::ERR_BLOCKED_BY_ORB on upload.wikimedia.org hotlinks (the CDN
+    // returning HTTP 429 + an HTML body during request bursts, which
+    // Chromium then blocks as a non-image response — affected both new and
+    // pre-existing portraits, an infrastructure issue, not a bad URL). The
+    // exact same original file bytes as the URL below (992x1488,
+    // unmodified, no crop/enhancement/upscale) — only the delivery path
+    // changed. licenseUrl still points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Sir_CV_Raman.JPG",
+      url: "/portraits/cv-raman-nobel-foundation-1930.jpg",
       width: 992,
       height: 1488,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
       license: "Public Domain (published 1930)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Sir_CV_Raman.JPG",
       attribution: "Nobel Lectures, Physics 1922–1941, Elsevier Publishing Company, Amsterdam, 1965 — © The Nobel Foundation, 1930",
