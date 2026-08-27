@@ -211,17 +211,38 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // Key Achievements Correction Batch 1 (2026-08): achievement.1 (Gallipoli)
   // moved to turning_point.2 -- a single battlefield episode/quote, not a
   // career-level body of work; it marks the point his career pivoted from
-  // junior officer toward national prominence, which is what Turning Point
-  // exists for. Text and sourceIds unchanged (moved verbatim); this leaves
-  // the profile with a single achievement (the Republic/reforms), which is
-  // acceptable for a concentrated case per the Achievement standard, but
-  // this batch's brief for this person was limited to the move only -- a
-  // richer replacement achievement describing his specific reforms (this
-  // person's own evidence ledger,
+  // relative obscurity toward national prominence, which is what Turning
+  // Point exists for. This leaves the profile with a single achievement
+  // (the Republic/reforms), which is acceptable for a concentrated case per
+  // the Achievement standard, but this batch's brief for this person was
+  // limited to the move only -- a richer replacement achievement describing
+  // his specific reforms (this person's own evidence ledger,
   // src/dev/roster1000/production/session19/mustafa-kemal-ataturk/, has
   // ample material for one: alphabet reform, legal code, women's suffrage)
   // was out of scope here and is left for a future pass. achievement.2 is
   // unrelated and left untouched.
+  //
+  // Release-blocker fix (2026-08, same batch): turning_point.2's move had
+  // carried over its achievement-era sourceIds verbatim, one of which --
+  // src_ataturk_belleten_libya, "Beginnings of Leadership: Mustafa Kemal's
+  // First Visit to Libya, 1908" -- does not support a claim about the 1915
+  // Gallipoli campaign at all; it's about an unrelated 1908 episode.
+  // Re-verified directly against this person's own session19 research file
+  // (src/dev/roster1000/production/session19/mustafa-kemal-ataturk/
+  // rawNotes.md, episode-cited [SEARCH-AGG, MANGO]): every clause in the
+  // rewritten text below traces to that file. Two corrections beyond the
+  // sourceId itself: (1) "a relatively junior officer" was dropped -- that
+  // phrase belongs to a DIFFERENT episode in this person's own evidence
+  // (co-founding a secret society in 1905, per the candidate JSON's
+  // independent_thinking/proactive_agency rationale), not to Gallipoli,
+  // where he in fact commanded the Ottoman 19th Division; (2) "Most of the
+  // regiment were killed in the resulting engagement" was added back --
+  // the source states this directly, and omitting it understated the cost
+  // of the order the quote describes. src_ataturk_kinross was dropped from
+  // sourceIds: this person's own research file cites Kinross for a
+  // different characterization (Gallipoli performance attributed to
+  // "anticipatory reasoning," a separate bullet) than the specific facts
+  // asserted here, which the file itself attributes only to Mango.
   "mustafa-kemal-ataturk": {
     achievements: [
       { id: "mustafa-kemal-ataturk-achievement-2", textKey: "mustafa-kemal-ataturk.achievement.2", sourceIds: ["src_ataturk_mango", "src_ataturk_nutuk"] },
@@ -238,7 +259,7 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "conflict_tolerance",
         sourceIds: ["src_ataturk_executed", "src_ataturk_mango"],
       },
-      { id: "mustafa-kemal-ataturk-turning-point-2", textKey: "mustafa-kemal-ataturk.turning_point.2", sourceIds: ["src_ataturk_kinross", "src_ataturk_belleten_libya"] },
+      { id: "mustafa-kemal-ataturk-turning-point-2", textKey: "mustafa-kemal-ataturk.turning_point.2", sourceIds: ["src_ataturk_mango"] },
     ],
   },
 

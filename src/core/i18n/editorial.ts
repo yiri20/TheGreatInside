@@ -157,7 +157,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "mustafa-kemal-ataturk.turning_point.1":
     "After founding the Republic, he closed the country's only organized opposition party in 1925, and an Independence Tribunal — established that same year — executed dozens of people, including the leader of the Sheikh Said rebellion, within days of sentencing.",
   "mustafa-kemal-ataturk.turning_point.2":
-    "As a relatively junior officer at Gallipoli in 1915, personally identified the strategic ridge Allied forces were advancing toward and committed an outnumbered regiment to hold it immediately: \"I do not order you to attack, I order you to die.\" The position held.",
+    "As commander of the Ottoman 19th Division at Gallipoli on 25 April 1915, personally identified the strategic high ground the landing ANZAC forces were moving toward and ordered the troops present — the badly outnumbered 57th Regiment — to engage immediately, before his own full regiment had even arrived: \"I do not order you to attack, I order you to die.\" Most of the regiment were killed in the resulting engagement, but the assault held the ridge.",
   "mustafa-kemal-ataturk.interpretation.turning_point.1":
     "The Great Inside reads this as a contrast rather than a single throughline: the same decisiveness and conflict_tolerance the profile scores highly for his conduct at Gallipoli are also visible in how quickly and forcefully he moved against domestic political opposition years later. The shift from battlefield command to suppressing a nascent multi-party opposition involved state-building pressures, security concerns after the rebellion, and specific political calculation well beyond any one personal disposition — this profile does not claim his decisiveness alone explains it, only that the same trait is legible in both moments.",
 
@@ -1494,7 +1494,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "mustafa-kemal-ataturk.turning_point.1":
     "공화국을 세운 뒤, 1925년 유일하게 조직된 야당을 해산시켰다. 같은 해 설치된 독립법정은 셰이흐 사이드 봉기의 지도자를 포함해 수십 명에게 판결 며칠 만에 사형을 집행했다.",
   "mustafa-kemal-ataturk.turning_point.2":
-    "1915년 갈리폴리에서 비교적 하급 장교였던 그는 연합군이 향하던 전략적 능선을 스스로 파악하고, 열세에 놓인 연대에 즉각 그 위치를 사수하라고 명령했다: \"나는 너희에게 공격하라 명령하지 않는다, 죽으라 명령한다.\" 그 능선은 지켜졌다.",
+    "1915년 4월 25일 갈리폴리에서 오스만 제19사단장이었던 그는, 상륙한 안작(ANZAC) 부대가 향하던 전략적 고지를 직접 파악하고, 자신의 연대 전체가 도착하기도 전에 현장에 있던 병력 — 심하게 열세였던 제57연대 — 에게 즉각 교전하라고 명령했다: \"나는 너희에게 공격하라 명령하지 않는다, 죽으라 명령한다.\" 그 전투에서 연대 대부분이 전사했지만, 그 능선은 지켜졌다.",
   "mustafa-kemal-ataturk.interpretation.turning_point.1":
     "더 그레이트 인사이드는 이 대목을 하나로 이어지는 인과관계가 아니라 하나의 대조로 읽는다 — 갈리폴리에서의 행동에서 프로필이 높게 평가한 바로 그 결단력과 갈등 감내가, 훗날 국내 정치적 반대 세력을 상대할 때도 신속하고 강압적인 방식으로 나타난다. 전장의 지휘에서 갓 태어난 다당제 반대 세력을 억누르는 데까지 이어진 이 변화에는 국가 건설의 압박, 봉기 이후의 안보 우려, 구체적인 정치적 판단 등 한 사람의 성향만으로는 설명할 수 없는 요인들이 함께 작용했다 — 이 프로필은 그의 결단력만으로 이를 설명할 수 있다고 주장하지 않으며, 다만 같은 성향이 두 순간 모두에서 읽힌다고 말할 뿐이다.",
 
