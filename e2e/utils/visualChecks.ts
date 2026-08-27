@@ -80,6 +80,16 @@ export async function assertNoClippedElements(page: Page): Promise<string[]> {
       // blanket aria-hidden exclusion) keeps this check strict for any
       // OTHER aria-hidden element that gets accidentally, visibly clipped.
       if (el.closest(".tgi-taxonomy-chip__check")) continue;
+      // .tgi-portrait-credit__prose (Profile Hero polish, 2026-08): the
+      // free-text attribution clause under a person-page portrait is
+      // deliberately clamped to one line with an ellipsis (see
+      // components.css's own comment on the class) — the full text stays in
+      // the DOM for screen readers/copy/search and in `title` for a hover
+      // tooltip, only the visual rendering is shortened. Same "deliberately
+      // clipped, not a defect" shape as the two exclusions above, just for a
+      // licence-attribution line instead of sr-only text or a decorative
+      // glyph.
+      if (el.closest(".tgi-portrait-credit__prose")) continue;
       if (el.scrollWidth > el.clientWidth + 2 && getComputedStyle(el).overflow !== "visible") {
         offenders.push(`${el.tagName}.${el.className || "(no class)"}: "${(el.textContent ?? "").slice(0, 40)}"`);
       }

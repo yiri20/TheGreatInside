@@ -30,14 +30,44 @@ test.describe("Editorial sections — present for a pilot person", () => {
   });
 
   test("fact and interpretation are textually distinguished, not color-only", async ({ page }) => {
+    // Profile Hero polish (2026-08): the visible "What this reveals:" label
+    // ahead of the interpretation line was removed on human visual review's
+    // request, with no replacement label — see EditorialSection's own
+    // comment in page.tsx. The distinction is now carried by the `Text
+    // tone="muted"` treatment alone, which this test must actually verify
+    // is a REAL typographic difference (not merely a colour swap a
+    // colorblind or grayscale-rendering reader couldn't perceive), per the
+    // same comment's own claim.
     await page.goto("/en-US/people/leonardo-da-vinci", { waitUntil: "networkidle" });
-    const bodyText = await page.locator("main").innerText();
-    // The interpretation label itself is real, visible text — not merely a
-    // CSS class — so a screen reader or a colorblind reader gets the same
-    // distinction a sighted reader gets from the muted tone.
-    expect(bodyText).toContain("What this reveals:");
+    const distinction = await page.evaluate(() => {
+      // Find one editorial Card that has BOTH a plain fact paragraph and a
+      // muted interpretation paragraph, so the comparison is the actual
+      // fact/interpretation pair this test is about, not any two unrelated
+      // pieces of text on the page.
+      const cards = Array.from(document.querySelectorAll(".tgi-card"));
+      for (const card of cards) {
+        const muted = card.querySelector(".tgi-text--muted");
+        const fact = card.querySelector(".tgi-text:not(.tgi-text--muted)");
+        if (muted && fact) {
+          const mutedStyle = getComputedStyle(muted);
+          const factStyle = getComputedStyle(fact);
+          return {
+            mutedText: muted.textContent ?? "",
+            colorDiffers: mutedStyle.color !== factStyle.color,
+            fontSizeDiffers: mutedStyle.fontSize !== factStyle.fontSize,
+          };
+        }
+      }
+      return null;
+    });
+    expect(distinction, "expected both a fact paragraph and a muted interpretation paragraph on the page").not.toBeNull();
     // Calibrated language, never a diagnostic claim.
-    expect(bodyText).toMatch(/is consistent with|helps explain/);
+    expect(distinction!.mutedText).toMatch(/is consistent with|helps explain/);
+    expect(distinction!.colorDiffers, "muted tone must differ in colour from a plain fact paragraph").toBe(true);
+    expect(
+      distinction!.fontSizeDiffers,
+      "muted tone must ALSO differ in font-size, not colour alone, so the distinction survives grayscale/colorblind rendering",
+    ).toBe(true);
   });
 
   test("an interpretation with an attributeId renders a trait reference chip", async ({ page }) => {
@@ -70,7 +100,12 @@ test.describe("Editorial sections — locale-strict, no silent English fallback"
     await page.goto("/ko-KR/people/leonardo-da-vinci", { waitUntil: "networkidle" });
     const bodyText = await page.locator("main").innerText();
     expect(bodyText).toContain("주요 업적"); // Key Achievements heading, Korean
-    expect(bodyText).toContain("이것이 보여주는 것:"); // interpretation label, Korean
+    // Profile Hero polish (2026-08): the "이것이 보여주는 것:" interpretation
+    // label was removed on human visual review's request (see the sibling
+    // en-US test above) — replaced with a real Korean interpretation
+    // sentence actually rendering in the muted-tone paragraph, which is the
+    // thing this test cares about (Korean prose, not the label).
+    expect(bodyText).toContain("프로필의 높은 기회 포착"); // real KO interpretation prose (leonardo-da-vinci.interpretation.moment.1)
     // The specific English achievement sentence must not leak onto the
     // Korean page for an item that has a real Korean translation.
     expect(bodyText).not.toContain("Left behind thousands of notebook pages");

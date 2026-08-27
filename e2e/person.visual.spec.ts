@@ -5,7 +5,7 @@ import {
   assertNoHorizontalOverflow,
   assertProseMeasureBounded,
   captureConsole,
-  railIsSideBySide,
+  elementsAreSideBySide,
 } from "./utils/visualChecks";
 
 /**
@@ -84,14 +84,35 @@ for (const slug of PEOPLE) {
         // level={2}/visualLevel={3}, real h2 tag, unchanged h3 visual size.
         await assertHeadingHierarchy(page);
 
-        // Rail layout contract: side by side only at >=1280px, stacked below it.
-        const sideBySide = await railIsSideBySide(page);
-        if (viewport.width >= 1280) {
-          expect(sideBySide, `expected hero + Known For side by side at ${viewport.width}px`).toBe(true);
+        // Profile Hero polish (2026-08): the old Rail(hero, Known For)
+        // composition -- two independent regions, side by side only at the
+        // wide-desktop >=1280px breakpoint -- was replaced by a single
+        // IdentityHero flex-wrap row (portrait | identity info, Known For
+        // now living INSIDE the identity info block, not beside it as its
+        // own region). `.tgi-rail__primary`/`.tgi-rail__secondary` no
+        // longer exist on this page at all, so this now checks the actual
+        // two flex children (`.tgi-identity-hero__portrait` and
+        // `.tgi-identity-hero__info`) with the same reusable side-by-side
+        // heuristic `railIsSideBySide` used, applied via the generic
+        // `elementsAreSideBySide` helper (already used elsewhere for
+        // non-Rail pairings, e.g. Results' Signature+Dual-Edged). The
+        // layout is a fluid `flex-wrap`, not a hard-coded breakpoint
+        // switch, so the actual wrap point was measured live rather than
+        // assumed to still be 1280px: side by side from 768px up, stacked
+        // only at the 390px mobile viewport, confirmed on both a person
+        // with a real portrait and the no-portrait (initials) fixture.
+        const sideBySide = await elementsAreSideBySide(
+          page,
+          ".tgi-identity-hero__portrait",
+          ".tgi-identity-hero__info",
+        );
+        if (viewport.width >= 768) {
+          expect(sideBySide, `expected portrait + identity info side by side at ${viewport.width}px`).toBe(true);
         } else {
-          expect(sideBySide, `expected hero + Known For stacked (not side by side) at ${viewport.width}px`).toBe(
-            false,
-          );
+          expect(
+            sideBySide,
+            `expected portrait + identity info stacked (not side by side) at ${viewport.width}px`,
+          ).toBe(false);
         }
 
         await page.screenshot({
@@ -106,23 +127,31 @@ for (const slug of PEOPLE) {
   }
 }
 
-test("person page DOM order: hero before Known For, no CSS order reordering (en-US, wide desktop)", async ({
+test("person page DOM order: portrait before identity info (incl. Known For), no CSS order reordering (en-US, wide desktop)", async ({
   page,
 }) => {
+  // Profile Hero polish (2026-08): `.tgi-rail__primary`/`.tgi-rail__secondary`
+  // no longer exist on this page (see the per-viewport test above) -- Known
+  // For now renders inside `.tgi-identity-hero__info` alongside the name/
+  // dates/confidence, not as its own Rail-secondary region. The invariant
+  // this test actually guards -- a keyboard/reading-order user reaches the
+  // portrait before the identity content, never reordered ahead of it via
+  // CSS `order` -- still applies to the new two-element composition.
   await page.setViewportSize({ width: 1600, height: 1100 });
   await page.goto("/en-US/people/leonardo-da-vinci", { waitUntil: "networkidle" });
 
   const order = await page.evaluate(() => {
     const all = Array.from(document.querySelectorAll("*"));
-    const primary = document.querySelector(".tgi-rail__primary");
-    const secondary = document.querySelector(".tgi-rail__secondary");
-    return { primary: primary ? all.indexOf(primary) : -1, secondary: secondary ? all.indexOf(secondary) : -1 };
+    const portrait = document.querySelector(".tgi-identity-hero__portrait");
+    const info = document.querySelector(".tgi-identity-hero__info");
+    return { portrait: portrait ? all.indexOf(portrait) : -1, info: info ? all.indexOf(info) : -1 };
   });
-  expect(order.primary).toBeGreaterThanOrEqual(0);
-  expect(order.secondary).toBeGreaterThanOrEqual(0);
-  expect(order.primary, "hero (.tgi-rail__primary) must precede Known For (.tgi-rail__secondary) in DOM order").toBeLessThan(
-    order.secondary,
-  );
+  expect(order.portrait).toBeGreaterThanOrEqual(0);
+  expect(order.info).toBeGreaterThanOrEqual(0);
+  expect(
+    order.portrait,
+    "portrait (.tgi-identity-hero__portrait) must precede identity info (.tgi-identity-hero__info) in DOM order",
+  ).toBeLessThan(order.info);
 });
 
 test("person page CTA/link integrity: wikipedia and compare links resolve (en-US, leonardo-da-vinci)", async ({
@@ -210,7 +239,14 @@ test("missing-portrait fallback occupies the same column width as a real portrai
     expect(box, `portrait column missing at ${width}px`).not.toBeNull();
     // Person page passes portraitWidth="12rem" (192px) regardless of
     // portrait presence — the column must hold that width, not collapse.
-    expect(box!.width, `portrait column width at ${width}px`).toBeCloseTo(192, 0);
+    // Profile Hero polish (2026-08): also passes portraitWidthLg="15rem"
+    // (240px), applied only at the >=1280px breakpoint (see
+    // .tgi-identity-hero__portrait in components.css) so the portrait reads
+    // larger once there's room for the full 2-column composition — the
+    // no-portrait fallback must track that same widened column, not stay
+    // pinned to the base width.
+    const expectedWidth = width >= 1280 ? 240 : 192;
+    expect(box!.width, `portrait column width at ${width}px`).toBeCloseTo(expectedWidth, 0);
     await assertNoHorizontalOverflow(page);
   }
 });
