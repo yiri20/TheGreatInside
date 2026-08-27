@@ -4,18 +4,19 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-27 (Editorial Achievements Correction Batch 1 +
-Profile V2 pilot + Person Profile Hero redesign + mobile Trait
-Constellation progressive disclosure merged to `main`).
+Last updated: 2026-08-27 (Portrait Sourcing Batch 1 merged to `main`,
+following the 2026-08-27 Editorial Achievements Correction Batch 1 /
+Profile V2 / Hero redesign release).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `b7a30ec` — fast-forward merge of `feat/editorial-achievements-correction-batch-1` (2026-08-27), 9 commits: back-nav left-align; Person Profile Hero redesign (2-column portrait+identity composition, Known For moved inside the identity column, compact one-line-clamped portrait credit); Profile V2 pilot (Life Arc/Complexities/Legacy) on 6 people with a strict evidence-closure re-verification pass; Key Achievements Correction Batch 1 — evidence-verified rewrite/reclassification for 10 people (Jane Goodall, Mahatma Gandhi, Benjamin Franklin, Srinivasa Ramanujan, Louis Armstrong, Louis Pasteur, Oprah Winfrey, Wangari Maathai, Julius Caesar, Mustafa Kemal Atatürk); a same-day release-blocker fix for an Atatürk source/provenance error found in that batch; mobile-only Trait Constellation progressive disclosure (strongest 4 by default, quiet expand/collapse, desktop unchanged); and a full e2e reconciliation pass (Playwright 281/281, zero unexplained failures). Live-verified in production (Landing EN/KO, full quiz run to Results, People Directory, 5 named person profiles + one representative, mobile 390px, trait progressive disclosure, all editorial section types, zero console errors, zero horizontal overflow, EN+KO). Portraits untouched this release — see the two branches below. |
-| `feat/portrait-sourcing-batch-1`, `fix/yayoi-kusama-portrait-v2` | Deliberately **not merged** this release — portrait work is scoped separately. |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `4a88cd6` — fast-forward merge of `feat/portrait-sourcing-batch-1-integration` (2026-08-27), 3 commits: Portrait Sourcing Batch 1 (add Bohr/Raman/Dostoevsky/Pasteur, replace Mozart's Krafft 1819 with the Lange 1782 life portrait, add Shackleton via a locally-cropped Hurley 1916 derivative); a reliability closure re-hosting all 5 remote-sourced portraits locally under `public/portraits/` after real Playwright/Chromium testing reproduced intermittent `net::ERR_BLOCKED_BY_ORB` on `upload.wikimedia.org` (Wikimedia-side rate-limiting — HTTP 429 + HTML body under request bursts, confirmed on both a new and a pre-existing portrait, not a bad source URL); and an asset-weight closure (sharp/mozjpeg, ≤1600px longest side, quality 85) shrinking those 5 files ~22.1MB→~1.05MB (95.2% smaller), no visible quality loss. Cherry-picked from `feat/portrait-sourcing-batch-1` onto latest `main`, excluding that branch's own stale back-nav commit. Live-verified in production: all 6 portraits at Profile hero + PersonCard/Directory, 1280px + 390px, EN + KO — correct rendering/attribution, zero Wikimedia requests for the 6 at render time, zero broken images/console errors/overflow. |
+| `feat/portrait-sourcing-batch-1` | Superseded, **not merged as-is** — its portrait-data commit was cherry-picked into `feat/portrait-sourcing-batch-1-integration` (now merged, see above); its own back-nav commit was intentionally dropped as stale. Cleanup candidate, not deleted. |
+| `fix/yayoi-kusama-portrait-v2` | Deliberately **not merged** — Kusama portrait v2 remains a separate follow-up, untouched by the Portrait Batch 1 release above (confirmed: Kusama's `portraitUrl` is byte-identical pre/post-release). |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
-| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `fix/yayoi-kusama-portrait`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux`, `feat/landing-cta-hierarchy`, `feat/profile-hero-polish`, `feat/profile-v2-pilot-batch-1`, `feat/profile-v2-pilot-clean`, `feat/editorial-achievements-correction-batch-1` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
+| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `fix/yayoi-kusama-portrait`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux`, `feat/landing-cta-hierarchy`, `feat/profile-hero-polish`, `feat/profile-v2-pilot-batch-1`, `feat/profile-v2-pilot-clean`, `feat/editorial-achievements-correction-batch-1`, `feat/portrait-sourcing-batch-1-integration` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
 ## Product
 
@@ -61,8 +62,14 @@ Constellation progressive disclosure merged to `main`).
   `IdentityHero`'s missing-portrait initials fallback
   (`src/ui/components/layout.tsx`) predates this redesign (2026-08,
   `chore/consolidated-dev-2026-08`) and is unchanged by it.
-- **Portrait coverage: 55/95** (was 42/95, unchanged this release —
-  portraits deliberately untouched, see the branch table above).
+- **Portrait coverage: 60/95** (55→60 this release). **Portrait Sourcing
+  Batch 1** (2026-08, see the branch table above) added Niels Bohr,
+  C. V. Raman, Fyodor Dostoevsky, Louis Pasteur, and Ernest Shackleton;
+  replaced Mozart's posthumous 1819 Krafft painting with the Lange 1782
+  life portrait (net portrait-count unchanged by the replacement
+  itself). All 6 are now hosted locally under `public/portraits/`
+  (reliability + asset-weight closures, see branch table). Remaining
+  portrait-less: 35 (Zheng He non-eligible, 34 eligible).
   Exposure-Priority Portrait Pass (2026-08, `chore/consolidated-dev-2026-08`)
   added 13 portraits (Gandhi, Atatürk, Julius Caesar, Ibn Sina, Toni
   Morrison, Wangari Maathai, Aung San Suu Kyi, Oprah Winfrey, Maimonides,
@@ -77,8 +84,7 @@ Constellation progressive disclosure merged to `main`).
   ambiguity; Yi Sun-sin, Ibn Sina, Maimonides, Averroes use later
   depictions with an explicit not-a-lifetime-likeness caveat in
   `portrait.attribution`). `e2e/person.visual.spec.ts`'s no-portrait
-  fixture: socrates. Remaining portrait-less: 40 (Zheng He non-eligible,
-  39 eligible, all below this pass's exposure floor).
+  fixture: socrates.
 - **Custom domain**: `https://thegreatinside.com` is the canonical
   production origin (migrated from `the-great-inside.vercel.app`, which
   now permanently redirects). `www` also redirects to the apex.
@@ -125,28 +131,23 @@ to resolve a specific historical question, not by default.
 
 ## Test baseline (last known-good, re-verify before trusting)
 
-Verified on `main` at the 2026-08-27 Editorial Achievements Correction
-Batch 1 / Profile V2 / Hero redesign release (commit `b7a30ec`):
-`tsc --noEmit` clean · `vitest run` 662/662 · `next build --webpack`
-clean · `editorialValidation.test.ts` 20/20 · `i18n-audit.ts` zero
-missing keys in any bucket · Playwright **281/281** at the stable
-`--workers=1` configuration, confirmed stable across two consecutive
-full runs (a same-release test-hardening pass replaced a
-`getComputedStyle`-immediately-after-click read in one Likert test with
-`expect.poll`, since it raced the browser's paint pipeline under
-sustained full-suite load — reproducible 3/3 in-suite, never in
-isolation; product CSS/behavior was already correct, test-only fix) ·
-matching simulation max #1 frequency 12.0% (Warren Buffett, unchanged —
-this release touched no matching/scoring code) · live production smoke
-test (Landing EN/KO; a full anonymous quiz run through to Results with
-real computed scores, zero console errors; People Directory; Warren
-Buffett, Rosalind Franklin, Aung San Suu Kyi, Jane Goodall, and Mustafa
-Kemal Atatürk person pages at 1280px plus Rosalind Franklin at 390px;
-mobile Trait Constellation collapsed-to-4/expand-to-all confirmed live;
-Life Arc/Key Achievements/Moments/Turning Points/Complexities/Legacy
-all confirmed rendering where present, EN and KO; zero horizontal
-overflow at 390px or 1280px in either locale) all clean. See
-[`docs/context/TESTING.md`](TESTING.md) for what to run per change type.
+Verified on `main` at the 2026-08-27 Portrait Sourcing Batch 1 release
+(commit `4a88cd6`): `tsc --noEmit` clean · `vitest run` 662/662 ·
+`next build --webpack` clean · Person + Directory Playwright specs
+72/72 · Playwright **281/281** at `--workers=1` (run twice, clean both
+times). Live production check (all 6 portraits, hero + PersonCard/
+Directory, 1280px + 390px, EN + KO): correct rendering/attribution,
+zero Wikimedia requests for the 6 at render time, zero broken images/
+console errors/overflow. See the branch table above for the
+`ERR_BLOCKED_BY_ORB` finding this release resolved (for these 6 only —
+other pre-existing remote portraits remain a known, tracked,
+out-of-scope condition). Prior baseline (2026-08 Editorial Achievements
+Correction Batch 1 / Profile V2 / Hero redesign, commit `b7a30ec`):
+`editorialValidation.test.ts` 20/20, `i18n-audit.ts` zero missing keys,
+matching simulation max #1 frequency 12.0% (Warren Buffett) —
+unaffected by this release, which touched no editorial or
+matching/scoring code. See [`docs/context/TESTING.md`](TESTING.md) for
+what to run per change type.
 
 ## Next product checkpoint
 
@@ -155,7 +156,11 @@ session (none started here — out of scope for this release gate): a
 trait-card click-to-explain affordance (needs a new lightweight
 popover/dialog primitive plus attribute-description content — see
 "Person Profile Hero redesign" above), the remaining 19 low-exposure
-Tier-C editorial backfill people, the separate unmerged Portrait
-Sourcing Batch 1 / Yayoi Kusama v2 branches, the 40 remaining
-portrait-less people, and a human decision on deleting the now-fully-
-subsumed dev branches listed above.
+Tier-C editorial backfill people, the separate unmerged Yayoi Kusama v2
+portrait branch, the 35 remaining portrait-less people, a roster-wide
+decision on Wikimedia-hotlink reliability (the `ERR_BLOCKED_BY_ORB`
+condition found and resolved for this release's 6 portraits still
+affects other pre-existing remote-hosted portraits — explicitly not
+addressed here), and a human decision on deleting the now-fully-
+subsumed dev branches listed above (now including
+`feat/portrait-sourcing-batch-1-integration`).
