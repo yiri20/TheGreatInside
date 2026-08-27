@@ -148,8 +148,6 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This illustrates the profile's dual-edged independent_thinking score: the same resistance to pressure to conform that let her withstand weeks of interrogation without breaking also showed up, in a different form, as the specific charge used to convict her.",
 
   /* ----------------------------------------------------------- Atatürk */
-  "mustafa-kemal-ataturk.achievement.1":
-    "As a relatively junior officer at Gallipoli in 1915, personally identified the strategic ridge Allied forces were advancing toward and committed an outnumbered regiment to hold it immediately: \"I do not order you to attack, I order you to die.\" The position held.",
   "mustafa-kemal-ataturk.achievement.2":
     "Led the Turkish National Movement after the First World War and founded the Republic of Turkey in 1923, then carried out sweeping legal and secularizing reforms in the years that followed.",
   "mustafa-kemal-ataturk.moment.1":
@@ -158,6 +156,8 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1919, used an official Ottoman government assignment to disarm and demobilize remaining Anatolian forces as the platform to instead begin organizing national resistance — the opposite of what the assignment was for.",
   "mustafa-kemal-ataturk.turning_point.1":
     "After founding the Republic, he closed the country's only organized opposition party in 1925, and an Independence Tribunal — established that same year — executed dozens of people, including the leader of the Sheikh Said rebellion, within days of sentencing.",
+  "mustafa-kemal-ataturk.turning_point.2":
+    "As a relatively junior officer at Gallipoli in 1915, personally identified the strategic ridge Allied forces were advancing toward and committed an outnumbered regiment to hold it immediately: \"I do not order you to attack, I order you to die.\" The position held.",
   "mustafa-kemal-ataturk.interpretation.turning_point.1":
     "The Great Inside reads this as a contrast rather than a single throughline: the same decisiveness and conflict_tolerance the profile scores highly for his conduct at Gallipoli are also visible in how quickly and forcefully he moved against domestic political opposition years later. The shift from battlefield command to suppressing a nascent multi-party opposition involved state-building pressures, security concerns after the rebellion, and specific political calculation well beyond any one personal disposition — this profile does not claim his decisiveness alone explains it, only that the same trait is legible in both moments.",
 
@@ -250,8 +250,6 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's persistence score: continuing a body of work despite institutional retaliation against it, though the surviving record does not document how he personally regarded the reversal at the time.",
 
   /* -------------------------------------------------------- Julius Caesar */
-  "julius-caesar.achievement.1":
-    "In 49 BCE, crossed the Rubicon river into Italy at the head of his legion — an act illegal for a Roman general under arms and irreversible once taken, reportedly declaring \"alea iacta est\" (\"the die is cast\") — triggering the civil war that ended the Republic's existing political order.",
   "julius-caesar.achievement.2":
     "As dictator, replaced Rome's lunar calendar with a solar, 365.25-day calendar — the Julian calendar remained in use, with only minor later adjustment, for more than 1,500 years.",
   "julius-caesar.achievement.3":
@@ -262,6 +260,8 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Suetonius quotes his own reported dispatch after the swift Battle of Zela — \"veni, vidi, vici\" (\"I came, I saw, I conquered\") — a tempo consistent with the compressed campaign timelines described throughout his own Commentarii.",
   "julius-caesar.turning_point.1":
     "For years, he maintained the First Triumvirate — an informal power-sharing alliance with Pompey and Crassus that had helped secure him the Gaul command — before it broke down into the civil war triggered by the Rubicon crossing, ending in conflict with the same ally who had once shared power with him.",
+  "julius-caesar.turning_point.2":
+    "In 49 BCE, crossed the Rubicon river into Italy at the head of his legion — an act illegal for a Roman general under arms and irreversible once taken, reportedly declaring \"alea iacta est\" (\"the die is cast\") — triggering the civil war that ended the Republic's existing political order.",
   "julius-caesar.interpretation.turning_point.1":
     "This lines up with the profile's moderate — not high — collaboration score: a real, sustained alliance that nonetheless ultimately failed, not a case of stable, ongoing cooperative partnership.",
 
@@ -766,7 +766,9 @@ export const EDITORIAL_EN: Record<string, string> = {
   "louis-pasteur.achievement.1":
     "He founded the field of stereochemistry by hand-separating mirror-image forms of tartrate crystals under a microscope, sorting them one by one based on tiny asymmetric facets — a discovery built from unusually careful, repetitive manual observation rather than a single flash of insight.",
   "louis-pasteur.achievement.2":
-    "At the French government's request, he spent five years investigating a silkworm disease in a field where he had essentially no prior background — a period historians describe as an \"epistemological rupture\" that converted him from a chemist into a biologist.",
+    "Beginning in 1857, Pasteur demonstrated that fermentation was caused by living microorganisms rather than a purely chemical process — a minority scientific position he advanced against the dominant view of the time. He extended this into a direct public refutation of spontaneous generation, most decisively in an 1864 debate at the Académie des Sciences against Félix Pouchet, helping establish that microorganisms arise only from other microorganisms — a foundational premise of modern germ theory and microbiology.",
+  "louis-pasteur.achievement.3":
+    "In 1881, at a widely publicized public field trial at Pouilly-le-Fort, Pasteur demonstrated that vaccination could protect livestock against anthrax, convincing skeptical scientists and the wider agricultural public that vaccination worked against bacterial disease generally. Four years later, in July 1885, he administered an experimental rabies treatment to nine-year-old Joseph Meister — the first successful human rabies vaccination — and the resulting surge in demand for treatment directly led to the founding of the Institut Pasteur in 1887–88, which by 2014 had produced ten Nobel Prize laureates among its researchers.",
   "louis-pasteur.moment.1":
     "At the 1881 public field trial of his anthrax vaccine at Pouilly-le-Fort, he deliberately built his most vocal skeptic — a veterinarian who rejected germ theory outright — into the trial's own oversight structure, letting him select the animals and supervise the exposure, then addressed the assembled politicians, journalists, and farmers in a plain, familiar tone that reportedly charmed the crowd.",
   "louis-pasteur.moment.2":
@@ -779,16 +781,20 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Continuing to direct research while relying on others for the manual work is consistent with the profile's adaptability score — a real change in working method, not a change in ambition.",
   "louis-pasteur.interpretation.turning_point.2":
     "Proceeding under this much uncertainty, hedged by his own collaborator's initial refusal and his own admitted anxiety, is one of the more fully documented instances behind the profile's risk_tolerance score — not an act of simple confidence.",
+  "louis-pasteur.turning_point.3":
+    "At the French government's request, he spent five years investigating a silkworm disease in a field where he had essentially no prior background — a period historians describe as an \"epistemological rupture\" that converted him from a chemist into a biologist.",
 
   /* ----------------------------------------------------- Batch 4: L. Armstrong */
   "louis-armstrong.achievement.1":
     "Back in Chicago, he formed the Hot Five, and later the Hot Seven, under his own name — drawing several musicians directly from his former mentor's own band — and built a body of recordings that established him as a bandleader in his own right.",
   "louis-armstrong.achievement.2":
-    "He kept a self-driven practice of documenting his own life across five decades, entirely outside any publisher or ghostwriter — roughly 650 reel-to-reel tapes, 5,000 photographs, and 86 scrapbooks kept from 1926 onward, with hand-annotated mixtapes carrying his own collage artwork.",
+    "In the mid-to-late 1920s, his improvised solo playing on the records he made under his own name — the Hot Five and Hot Seven sessions — is credited with transforming jazz from a primarily ensemble-based music into a genre centered on the individual improvising soloist; his biographer Terry Teachout writes that he \"essentially created the idea of the jazz man as soloist.\" In the same period he also helped develop and popularize scat singing, wordless vocal improvisation that became a lasting technique in jazz vocal performance.",
   "louis-armstrong.moment.1":
     "Arrested for firing a pistol into the air on New Year's Eve 1912, the eleven-year-old Armstrong was sent to the Colored Waif's Home for Boys, where an instructor taught him proper cornet technique; he rose to lead the Home's own brass band before his release in 1914.",
   "louis-armstrong.moment.2":
     "Departing sharply from his usual public reticence about politics, he condemned the federal government's handling of the 1957 Little Rock school-desegregation crisis directly to a reporter, calling the president \"two-faced\" with \"no guts\" — and when his own manager later suggested publicly that he was \"sorry\" about the remarks, Armstrong immediately contradicted that framing and reaffirmed his position.",
+  "louis-armstrong.moment.3":
+    "He kept a self-driven practice of documenting his own life across five decades, entirely outside any publisher or ghostwriter — roughly 650 reel-to-reel tapes, 5,000 photographs, and 86 scrapbooks kept from 1926 onward, with hand-annotated mixtapes carrying his own collage artwork.",
   "louis-armstrong.turning_point.1":
     "In 1924 he married pianist Lil Hardin, a trained musician who pushed him to leave his mentor Joe Oliver's shadow rather than remain a sideman indefinitely. He tried Fletcher Henderson's New York orchestra the next year, found the year unsatisfying, and returned to Chicago — the point at which he began building a career under his own name instead of someone else's.",
   "louis-armstrong.interpretation.moment.2":
@@ -1250,7 +1256,9 @@ export const EDITORIAL_EN: Record<string, string> = {
   /* -------------------------------------------- Batch 7 (exposure-priority): Jane Goodall */
   /* CLOSURE PASS: moment.1 narrowed to drop an invented "no university degree" claim and an invented "most established researchers... unconventional" characterization not in this person's own roster rationale. turning_point.1 narrowed to drop an invented 1986/conference detail. CLOSURE PASS round 2: achievement.1 and moment.1 also had an invented "1960" date (not in the rationale) and achievement.1 an invented "first documented case... in a non-human animal" superlative; both dropped. */
   "jane-goodall.achievement.1":
-    "At Gombe, observed a chimpanzee stripping leaves from a twig and using it to fish termites out of a mound — tool use that directly challenged the then-standard definition of humans as the only tool-making species.",
+    "At Gombe in 1960, observed a chimpanzee stripping the leaves from a grass stalk and using it to fish termites out of a mound — direct evidence of both tool use and toolmaking in a non-human species. Her mentor Louis Leakey received the news by writing that scientists would now have to \"redefine man, redefine tool, or accept chimpanzees as human,\" since toolmaking had until then been treated as a defining line between humans and other animals.",
+  "jane-goodall.achievement.2":
+    "Over more than six decades of continuous field research at Gombe beginning in 1960, documented that chimpanzees have distinct individual personalities and complex emotional lives, and form family and social bonds that can last more than fifty years, alongside a capacity for organized violence, including hunting other primates — a body of findings that fundamentally reshaped scientific understanding of chimpanzee behavior and, by extension, of what separates humans from other animals.",
   "jane-goodall.moment.1":
     "Arrived at Gombe with minimal equipment and no formal scientific training, her fieldwork funded largely through Louis Leakey's efforts to find sponsors — extensively documented as under-resourced, with basic field conditions throughout.",
   "jane-goodall.interpretation.moment.1":
@@ -1266,6 +1274,10 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1754, proposed the Albany Plan of Union — a framework for unified colonial governance that read a structural need others hadn't yet judged urgent — decades before independence became a live political question. It was rejected at the time, but has since been seen historically as prescient.",
   "benjamin-franklin.achievement.2":
     "Founded, on his own initiative rather than through any official appointment, a discussion club (the Junto), the Library Company of Philadelphia, a volunteer fire department, and the American Philosophical Society — a pattern of self-organized civic institution-building his own Autobiography returns to repeatedly.",
+  "benjamin-franklin.achievement.3":
+    "In June 1752, Franklin's kite experiment provided evidence that lightning and electricity were the same phenomenon — using a kite, a metal key, and a Leyden jar to draw a charge induced by a nearby storm cloud, rather than a direct lightning strike. The work led directly to his invention of the lightning rod, a practical safety device adopted on buildings across Europe and America, and made him a major figure of the American Enlightenment and in the history of physics.",
+  "benjamin-franklin.achievement.4":
+    "From 1776, Franklin represented the United States in France, where his diplomatic efforts helped secure the February 1778 Treaty of Alliance — French recognition of American independence and a formal military partnership that brought French troops, ships, and financing into the war. He went on to serve as United States Minister to France (1779–1785) and was among the American negotiators of the 1783 Treaty of Paris that ended the war; he remains the only person to have signed the Declaration of Independence, the Treaty of Paris, and the Constitution.",
   "benjamin-franklin.moment.1":
     "Arrived in Philadelphia essentially penniless after leaving his Boston apprenticeship, and built his own printing business from that starting position — an episode he recounts in his own Autobiography.",
   "benjamin-franklin.interpretation.moment.1":
@@ -1279,6 +1291,8 @@ export const EDITORIAL_EN: Record<string, string> = {
   /* CLOSURE PASS: moment.1 narrowed to drop an invented 1913 date and an invented Hardy-reaction/Cambridge-invitation outcome not in this person's own roster rationale. moment.2 (the taxicab-1729 anecdote) deleted outright — it is not in that rationale either. CLOSURE PASS round 2: achievement.1 narrowed — the rationale says "vast areas of mathematics," not "number theory" specifically, and gives the book only as "Carr's Synopsis," not its expanded title. */
   "srinivasa-ramanujan.achievement.1":
     "With no access to advanced mathematical literature in colonial-era India, reconstructed and extended vast areas of mathematics using essentially one outdated textbook, G. S. Carr's Synopsis — a severe resource constraint met by independent reconstruction from what little was available.",
+  "srinivasa-ramanujan.achievement.2":
+    "At Cambridge from 1914 to 1919, working with G. H. Hardy, Ramanujan produced results across number theory, including an asymptotic formula for the partition function developed jointly with Hardy, and, in the final year of his life, an entirely new class of objects he called \"mock theta functions.\" In May 1918 he was elected a Fellow of the Royal Society — one of the youngest in the Society's history, and only the second Indian ever admitted — and that October became the first Indian elected a Fellow of Trinity College, Cambridge. A notebook of his results, lost for decades and rediscovered by the mathematician George Andrews in 1976, caused what colleagues described as great excitement in the field; as late as 2012, mathematicians were still confirming that offhand remarks in his writings held genuine, previously unproven results.",
   "srinivasa-ramanujan.moment.1":
     "With no formal credentials or introduction, wrote directly to the Cambridge mathematician G. H. Hardy, enclosing pages of his own derived results — one of several mathematicians he had written to, most of whom had not replied.",
   "srinivasa-ramanujan.interpretation.moment.1":
@@ -1287,6 +1301,8 @@ export const EDITORIAL_EN: Record<string, string> = {
   /* ----------------------------------------- Batch 7 (exposure-priority): Oprah Winfrey */
   "oprah-winfrey.achievement.1":
     "In 1986, founded Harpo Productions to own and control her own television show outright rather than remain a hired host for a network or syndicator — an unusually early move toward creator-owned media for the period, and the vehicle through which she would run her own career for decades afterward.",
+  "oprah-winfrey.achievement.2":
+    "The Oprah Winfrey Show ran in national syndication for 25 years, from 1986 to 2011, and became the highest-rated, most-watched daytime talk show in the United States for most of that run. Her 1993 interview with Michael Jackson drew an estimated 36.5 million viewers, making it one of the most-watched interviews in American television history. Beginning in 1996, her on-air book club recommendations routinely drove roughly a million additional copies in sales for the authors she selected, a documented effect on the publishing industry that became known as \"the Oprah Effect.\"",
   "oprah-winfrey.turning_point.1":
     "In the 1980s, while competing daytime talk shows moved toward sensationalist, tabloid-style formats, shifted her own show toward personal, empathetic, issue-driven conversation — a bet on a different direction than the rest of the genre was taking at the time.",
   "oprah-winfrey.interpretation.turning_point.1":
@@ -1296,6 +1312,8 @@ export const EDITORIAL_EN: Record<string, string> = {
   /* CLOSURE PASS: moment.1 narrowed to drop an invented "tens of millions of trees" outcome. turning_point.1 narrowed to drop the 2004/Nobel Peace Prize claim entirely — this person's own roster rationale documents the government opposition/arrests but never mentions the Nobel Prize by name, date, or specific award rationale (only a bare `nobel_laureate` tag, which is not prose content this pipeline may narrate from). */
   "wangari-maathai.achievement.1":
     "In 1977, founded the Green Belt Movement, connecting the deforestation and soil erosion she observed in Kenya directly to the daily burden rural women faced fetching water and firewood — linking environmental restoration and grassroots welfare in a way that was not the standard environmentalist framing of the time.",
+  "wangari-maathai.achievement.2":
+    "In 2004, Maathai was awarded the Nobel Peace Prize \"for her contribution to sustainable development, democracy and peace\" — becoming the first African woman, and the first environmentalist, to receive the award. In 2006 she went on to spearhead the United Nations' Billion Tree Campaign, extending the reforestation and civic-education model she had built through the Green Belt Movement to a global initiative.",
   "wangari-maathai.moment.1":
     "In the movement's early years, organized rural women to plant tree seedlings using simple, low-cost local methods and without significant institutional funding.",
   "wangari-maathai.interpretation.moment.1":
@@ -1333,6 +1351,8 @@ export const EDITORIAL_EN: Record<string, string> = {
   /* CLOSURE PASS: achievement.1 narrowed to drop an invented "early 1900s" date and an invented "discriminatory laws targeting the Indian community" characterization — this person's own roster rationale describes only "local grievances in South Africa." CLOSURE PASS round 2: turning_point.1 also had an invented "Dandi" destination, "salt tax and monopoly" legal mechanism, and a "chosen specifically because..." motivation — none in the rationale, which names only "the Salt March... in deliberate defiance of British law"; narrowed to that. */
   "mahatma-gandhi.achievement.1":
     "Developed and first tested satyagraha — organized, disciplined civil disobedience against unjust law — in response to local grievances in South Africa, years before applying the same method at national scale in India.",
+  "mahatma-gandhi.achievement.2":
+    "Between 1920 and 1942, led three nationwide campaigns of organized civil disobedience against British rule — the Non-Cooperation Movement, the Salt Satyagraha (including the 1930 Salt March), and the Quit India Movement — each built around sustained, coordinated mass nonviolent resistance rather than armed struggle, and each met with mass arrests, including his own repeated imprisonment. He led these campaigns as one senior figure within a broader Indian National Congress and independence movement that included other leaders and regional campaigns already under way before his involvement; Britain granted India's independence in August 1947, months after his final imprisonment during Quit India, with the country partitioned into India and Pakistan.",
   "mahatma-gandhi.turning_point.1":
     "In 1930, personally organized and led the Salt March — a 24-day, 240-mile march in deliberate defiance of British law — a specific, self-initiated act of civil disobedience.",
   "mahatma-gandhi.interpretation.turning_point.1":
@@ -1465,8 +1485,6 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 양면적인 독립적 사고(independent_thinking) 점수를 보여주는 대목이다 — 몇 주간의 심문을 무너지지 않고 견디게 해준 바로 그, 순응 압력에 굴하지 않는 태도가, 다른 형태로는 그를 유죄로 이끈 구체적인 혐의가 되기도 했다.",
 
   /* ----------------------------------------------------------- Atatürk */
-  "mustafa-kemal-ataturk.achievement.1":
-    "1915년 갈리폴리에서 비교적 하급 장교였던 그는 연합군이 향하던 전략적 능선을 스스로 파악하고, 열세에 놓인 연대에 즉각 그 위치를 사수하라고 명령했다: \"나는 너희에게 공격하라 명령하지 않는다, 죽으라 명령한다.\" 그 능선은 지켜졌다.",
   "mustafa-kemal-ataturk.achievement.2":
     "제1차 세계대전 이후 터키 민족운동을 이끌었고 1923년 터키 공화국을 건국했으며, 이후 몇 년에 걸쳐 광범위한 법적·세속화 개혁을 단행했다.",
   "mustafa-kemal-ataturk.moment.1":
@@ -1475,6 +1493,8 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1919년, 아나톨리아 잔여 병력을 무장 해제하고 해산시키라는 오스만 정부의 공식 임무를 오히려 민족 저항을 조직하는 발판으로 삼았다 — 임무의 본래 목적과는 정반대의 행동이었다.",
   "mustafa-kemal-ataturk.turning_point.1":
     "공화국을 세운 뒤, 1925년 유일하게 조직된 야당을 해산시켰다. 같은 해 설치된 독립법정은 셰이흐 사이드 봉기의 지도자를 포함해 수십 명에게 판결 며칠 만에 사형을 집행했다.",
+  "mustafa-kemal-ataturk.turning_point.2":
+    "1915년 갈리폴리에서 비교적 하급 장교였던 그는 연합군이 향하던 전략적 능선을 스스로 파악하고, 열세에 놓인 연대에 즉각 그 위치를 사수하라고 명령했다: \"나는 너희에게 공격하라 명령하지 않는다, 죽으라 명령한다.\" 그 능선은 지켜졌다.",
   "mustafa-kemal-ataturk.interpretation.turning_point.1":
     "더 그레이트 인사이드는 이 대목을 하나로 이어지는 인과관계가 아니라 하나의 대조로 읽는다 — 갈리폴리에서의 행동에서 프로필이 높게 평가한 바로 그 결단력과 갈등 감내가, 훗날 국내 정치적 반대 세력을 상대할 때도 신속하고 강압적인 방식으로 나타난다. 전장의 지휘에서 갓 태어난 다당제 반대 세력을 억누르는 데까지 이어진 이 변화에는 국가 건설의 압박, 봉기 이후의 안보 우려, 구체적인 정치적 판단 등 한 사람의 성향만으로는 설명할 수 없는 요인들이 함께 작용했다 — 이 프로필은 그의 결단력만으로 이를 설명할 수 있다고 주장하지 않으며, 다만 같은 성향이 두 순간 모두에서 읽힌다고 말할 뿐이다.",
 
@@ -1567,8 +1587,6 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 끈기(persistence) 점수와 일치하는 대목이다 — 제도적 보복 속에서도 작업을 이어갔다는 뜻이지만, 그 반전을 그 자신이 당시 어떻게 받아들였는지는 남아있는 기록으로 확인되지 않는다.",
 
   /* -------------------------------------------------------- Julius Caesar */
-  "julius-caesar.achievement.1":
-    "기원전 49년, 그는 자신의 군단을 이끌고 루비콘강을 건너 이탈리아 본토로 진입했다 — 로마 장군이 무장한 채 국경을 넘는 것은 불법이었고, 한번 건너면 되돌릴 수 없는 행위였다. 그는 이때 \"주사위는 던져졌다\"고 말했다고 전해지며, 이는 공화정의 기존 정치 질서를 끝낸 내전의 시작이 되었다.",
   "julius-caesar.achievement.2":
     "독재관으로서 로마의 태음력을 365.25일의 태양력으로 교체했다 — 이 율리우스력은 이후 사소한 조정만 거친 채 1,500년 넘게 사용되었다.",
   "julius-caesar.achievement.3":
@@ -1579,6 +1597,8 @@ export const EDITORIAL_KO: Record<string, string> = {
     "수에토니우스는 젤라 전투가 신속히 끝난 뒤 그가 보냈다고 전해지는 보고문을 인용한다 — \"왔노라, 보았노라, 이겼노라.\" 이 속도감은 그 자신의 『전기』 전반에 묘사된 압축적인 작전 일정과도 맞아떨어진다.",
   "julius-caesar.turning_point.1":
     "그는 수년간 제1차 삼두정치 — 폼페이우스, 크라수스와의 비공식적 권력 분점 동맹으로, 갈리아 지휘권을 얻는 데도 도움이 되었다 — 를 유지했다. 그러나 이 동맹은 결국 루비콘강 도하로 촉발된 내전으로 무너졌고, 한때 권력을 나누었던 바로 그 동맹자와의 충돌로 끝을 맺었다.",
+  "julius-caesar.turning_point.2":
+    "기원전 49년, 그는 자신의 군단을 이끌고 루비콘강을 건너 이탈리아 본토로 진입했다 — 로마 장군이 무장한 채 국경을 넘는 것은 불법이었고, 한번 건너면 되돌릴 수 없는 행위였다. 그는 이때 \"주사위는 던져졌다\"고 말했다고 전해지며, 이는 공화정의 기존 정치 질서를 끝낸 내전의 시작이 되었다.",
   "julius-caesar.interpretation.turning_point.1":
     "프로필의 협업 성향(collaboration) 점수가 높지 않고 중간 수준에 머무는 것과 맞아떨어지는 대목이다 — 실제로 오래 유지된 동맹이었지만 결국 깨졌다는 것이지, 안정적으로 지속되는 협력 관계였다는 뜻은 아니다.",
 
@@ -2077,7 +2097,9 @@ export const EDITORIAL_KO: Record<string, string> = {
   "louis-pasteur.achievement.1":
     "그는 현미경 아래에서 타르타르산염 결정의 거울상 형태를 미세한 비대칭 면을 근거로 하나하나 손으로 분리해내며 입체화학이라는 분야를 창시했다 — 한순간의 통찰이 아니라 유별나게 세심하고 반복적인 손작업 관찰에서 나온 발견이었다.",
   "louis-pasteur.achievement.2":
-    "프랑스 정부의 요청으로 그는 사전 지식이 거의 없던 분야인 누에병 연구에 5년을 쏟았다 — 역사가들은 이 시기를 그를 화학자에서 생물학자로 바꾸어 놓은 '인식론적 단절'이라고 표현한다.",
+    "1857년부터 파스퇴르는 발효가 순수한 화학 작용이 아니라 살아있는 미생물에 의해 일어난다는 것을 입증했다 — 당시의 지배적 견해에 맞서 내세운 소수 의견이었다. 그는 이 발견을 확장해 자연발생설을 정면으로 반박했으며, 1864년 과학아카데미에서 펠릭스 푸셰와 벌인 논쟁에서 결정적으로 승리하여 미생물은 오직 다른 미생물로부터만 생겨난다는 것을 확립하는 데 기여했다 — 이는 근대 세균설과 미생물학의 토대가 된 원리다.",
+  "louis-pasteur.achievement.3":
+    "1881년 푸이유르포르에서 열린 널리 알려진 공개 현장 실험에서, 파스퇴르는 백신 접종이 가축을 탄저병으로부터 보호할 수 있음을 입증하여, 회의적이던 과학자들과 농업계 전반에 백신이 세균성 질병 일반에 효과가 있다는 확신을 심어주었다. 4년 뒤인 1885년 7월에는 아홉 살 소년 조제프 마이스터에게 실험적인 광견병 치료를 시행했는데 — 인간을 대상으로 한 최초의 성공적인 광견병 백신 접종이었다 — 이로 인해 치료를 요청하는 사람이 급증하면서 1887~88년 파스퇴르 연구소 설립으로 곧장 이어졌고, 이 연구소는 2014년까지 열 명의 노벨상 수상자를 배출했다.",
   "louis-pasteur.moment.1":
     "1881년 푸이유르포르에서 열린 탄저병 백신의 공개 현장 시험에서, 그는 세균설 자체를 거부하던 자신의 가장 강경한 비판자인 수의사를 시험의 감독 구조 자체에 의도적으로 끌어들여, 동물을 고르고 노출 과정을 감독하게 한 뒤, 모여든 정치인·언론인·농부들에게 평이하고 친근한 어조로 연설해 청중을 사로잡았다고 전해진다.",
   "louis-pasteur.moment.2":
@@ -2090,16 +2112,20 @@ export const EDITORIAL_KO: Record<string, string> = {
     "직접 손을 쓰는 실험은 다른 이들에게 맡기면서도 연구 방향을 계속 이끌어간 것은 프로필의 적응력(adaptability) 점수와 부합한다 — 야망의 변화가 아니라 실질적인 작업 방식의 변화다.",
   "louis-pasteur.interpretation.turning_point.2":
     "자신의 협력자조차 처음에는 거부했고 그 자신도 불안을 인정했을 만큼 불확실성이 큰 상황에서 밀어붙인 이 결정은 프로필의 위험 감수(risk_tolerance) 점수를 뒷받침하는 가장 충분히 기록된 사례 중 하나다 — 단순한 자신감의 발로가 아니다.",
+  "louis-pasteur.turning_point.3":
+    "프랑스 정부의 요청으로 그는 사전 지식이 거의 없던 분야인 누에병 연구에 5년을 쏟았다 — 역사가들은 이 시기를 그를 화학자에서 생물학자로 바꾸어 놓은 '인식론적 단절'이라고 표현한다.",
 
   /* ----------------------------------------------------- Batch 4: L. Armstrong */
   "louis-armstrong.achievement.1":
     "시카고로 돌아온 그는 자신의 이름을 내건 핫 파이브, 이후 핫 세븐을 결성했다 — 옛 스승의 악단에서 여러 연주자를 직접 데려왔고, 이 시기의 녹음들은 그를 독자적인 밴드리더로 자리매김하게 했다.",
   "louis-armstrong.achievement.2":
-    "그는 오십 년에 걸쳐 출판사나 대필 작가 없이 스스로 자신의 삶을 기록하는 작업을 이어갔다 — 약 650개의 릴테이프, 5,000장의 사진, 1926년부터 모아 온 86권의 스크랩북, 그리고 자신이 직접 그린 콜라주 작품이 담긴 손수 주석을 단 믹스테이프들이다.",
+    "1920년대 중후반, 자신의 이름으로 발표한 음반 — 핫 파이브와 핫 세븐 세션 — 에서 선보인 즉흥 솔로 연주는 재즈를 앙상블 중심 음악에서 즉흥 연주자 개인을 중심에 두는 장르로 바꾸어 놓았다는 평가를 받는다. 전기 작가 테리 티치아웃은 그가 '재즈맨은 곧 솔로이스트라는 발상을 사실상 만들어냈다'고 썼다. 같은 시기에 그는 스캣 창법 — 가사 없이 목소리로 즉흥 연주를 하는 기법 — 을 발전시키고 널리 알리는 데에도 기여했으며, 이는 이후 재즈 보컬의 지속적인 기법으로 자리 잡았다.",
   "louis-armstrong.moment.1":
     "1912년 새해 전야에 공중에 권총을 발사한 혐의로 체포된 열한 살의 암스트롱은 흑인 고아 소년의 집으로 보내졌고, 그곳 교관에게서 제대로 된 코넷 연주법을 배워 1914년 석방되기 전까지 그 시설의 브라스 밴드를 이끄는 자리까지 올랐다.",
   "louis-armstrong.moment.2":
     "평소 정치적 발언을 극도로 자제하던 태도에서 크게 벗어나, 그는 1957년 리틀록 흑백통합 위기에 대한 연방 정부의 대응을 기자에게 직접 신랄하게 비판하며 대통령을 '이중적'이고 '배짱이 없다'고 표현했다 — 이후 그의 매니저가 공개적으로 그가 그 발언을 '후회한다'는 취지로 말하자, 암스트롱은 즉시 그 표현을 부인하며 자신의 입장을 재차 확인했다.",
+  "louis-armstrong.moment.3":
+    "그는 오십 년에 걸쳐 출판사나 대필 작가 없이 스스로 자신의 삶을 기록하는 작업을 이어갔다 — 약 650개의 릴테이프, 5,000장의 사진, 1926년부터 모아 온 86권의 스크랩북, 그리고 자신이 직접 그린 콜라주 작품이 담긴 손수 주석을 단 믹스테이프들이다.",
   "louis-armstrong.turning_point.1":
     "1924년 그는 훈련받은 음악가였던 피아니스트 릴 하딘과 결혼했고, 그는 언제까지나 조연으로 남기보다 스승 조 올리버의 그늘에서 벗어나라고 그를 독려했다. 이듬해 그는 플레처 헨더슨의 뉴욕 오케스트라에 합류했지만 만족스럽지 못했던 한 해를 보내고 시카고로 돌아왔다 — 이때부터 그는 남의 이름이 아닌 자기 이름으로 경력을 쌓기 시작했다.",
   "louis-armstrong.interpretation.moment.2":
@@ -2543,7 +2569,9 @@ export const EDITORIAL_KO: Record<string, string> = {
   /* -------------------------------------------- Batch 7 (exposure-priority): Jane Goodall */
   /* CLOSURE PASS: moment.1 narrowed to drop an invented "no university degree" claim and an invented "most established researchers... unconventional" characterization not in this person's own roster rationale. turning_point.1 narrowed to drop an invented 1986/conference detail. */
   "jane-goodall.achievement.1":
-    "곰비에서, 침팬지가 나뭇가지의 잎을 훑어내고 그것을 흰개미집에 넣어 흰개미를 낚아 올리는 모습을 관찰했다 — 인간만이 도구를 만드는 존재라는 당시의 통설에 정면으로 맞서는 도구 사용이었다.",
+    "1960년 곰비에서, 침팬지가 나뭇가지의 잎을 훑어내고 그것을 흰개미집에 넣어 흰개미를 낚아 올리는 모습을 관찰했다 — 인간이 아닌 동물의 도구 사용과 도구 제작을 보여주는 직접적인 증거였다. 이 소식을 접한 스승 루이스 리키는 \"이제 우리는 인간을 다시 정의하거나, 도구를 다시 정의하거나, 아니면 침팬지를 인간으로 받아들여야 한다\"고 썼다 — 그때까지 도구 제작은 인간과 다른 동물을 가르는 결정적 경계로 여겨져 왔다.",
+  "jane-goodall.achievement.2":
+    "1960년부터 60년이 넘는 기간 동안 곰비에서 이어간 현장 연구를 통해, 침팬지가 저마다 뚜렷한 개성과 복잡한 감정을 지니며 50년 넘게 이어지는 가족·사회적 유대를 맺는다는 사실과 더불어, 다른 영장류를 사냥하는 등 조직적인 폭력성을 지니고 있다는 사실을 함께 기록했다 — 침팬지의 행동, 나아가 인간과 다른 동물을 가르는 경계에 대한 과학적 이해 자체를 근본적으로 바꾸어 놓은 연구 성과다.",
   "jane-goodall.moment.1":
     "곰비에 도착했을 때 그녀에게는 변변한 장비도, 정식 과학 훈련도 없었다. 이 연구는 루이스 리키가 후원자를 구하려 애쓴 노력에 크게 의존해 재정을 마련했으며, 기초적인 현장 여건 속에서 자원 부족 상태였다고 널리 기록되어 있다.",
   "jane-goodall.interpretation.moment.1":
@@ -2559,6 +2587,10 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1754년, 독립이 현실적인 정치적 쟁점이 되기 수십 년 전에, 당시 다른 사람들은 아직 시급하다고 여기지 않았던 구조적 필요를 읽어낸 올버니 연합안 — 식민지들의 통합된 통치를 위한 틀 — 을 내놓았다. 당시에는 거부되었지만, 이후 역사적으로 선견지명이 있었다고 평가받아 왔다.",
   "benjamin-franklin.achievement.2":
     "어떤 공식 임명도 없이 순전히 자신의 발의로 토론 모임인 준토, 필라델피아 도서관 조합, 자원 소방대, 미국철학회를 세웠다 — 그의 자서전이 거듭 되짚는, 스스로 시민 제도를 조직해내는 패턴이다.",
+  "benjamin-franklin.achievement.3":
+    "1752년 6월, 프랭클린은 연 실험을 통해 번개와 전기가 동일한 현상임을 보여주는 증거를 얻었다 — 연과 금속 열쇠, 라이덴병을 이용해, 벼락이 직접 내리친 것이 아니라 근처 폭풍우 구름에 의해 유도된 전하를 끌어낸 것이었다. 이 연구는 곧바로 피뢰침의 발명으로 이어졌고, 피뢰침은 유럽과 아메리카 전역의 건물에 실용적인 안전장치로 도입되었다. 이 업적으로 그는 미국 계몽주의와 물리학사의 주요 인물로 자리매김했다.",
+  "benjamin-franklin.achievement.4":
+    "1776년부터 프랭클린은 프랑스 주재 미국 대표로 활동했으며, 그의 외교적 노력은 1778년 2월 프랑스-미국 동맹 조약 체결에 결정적으로 기여했다 — 프랑스가 미국의 독립을 인정하고 프랑스군과 함대, 자금 지원을 전쟁에 끌어들인 공식적인 군사 동맹이었다. 이후 그는 주프랑스 미국 공사(1779~1785)를 지냈고, 전쟁을 끝맺은 1783년 파리 조약의 미국 측 협상 대표 중 한 명이었다 — 그는 독립선언서와 파리 조약, 헌법 모두에 서명한 유일한 인물로 남아 있다.",
   "benjamin-franklin.moment.1":
     "보스턴에서의 도제 생활을 떠나, 거의 무일푼으로 필라델피아에 도착했다. 그는 그 처지에서부터 자신의 인쇄업을 일으켰는데, 이는 그가 직접 자서전에서 들려주는 이야기다.",
   "benjamin-franklin.interpretation.moment.1":
@@ -2572,6 +2604,8 @@ export const EDITORIAL_KO: Record<string, string> = {
   /* CLOSURE PASS: moment.1 narrowed to drop an invented 1913 date and an invented Hardy-reaction/Cambridge-invitation outcome not in this person's own roster rationale. moment.2 (the taxicab-1729 anecdote) deleted outright — it is not in that rationale either. */
   "srinivasa-ramanujan.achievement.1":
     "식민지 시대 인도에서 고급 수학 문헌을 접할 길이 거의 없던 그는, 낡은 교재 한 권 — G. S. 카의 「시놉시스」 — 에 거의 전적으로 의지해 수학의 광범위한 영역을 재구성하고 확장해냈다 — 가진 것이 거의 없는 상태에서 독자적으로 재구성해낸, 심각한 자원 제약의 사례다.",
+  "srinivasa-ramanujan.achievement.2":
+    "라마누잔은 1914년부터 1919년까지 케임브리지에서 G. H. 하디와 함께 연구하며 정수론 전반에 걸친 성과를 냈다 — 하디와 공동으로 분할함수에 대한 점근 공식을 도출했고, 생애 마지막 해에는 '가짜 세타 함수(mock theta functions)'라 이름 붙인 완전히 새로운 종류의 대상을 발견했다. 1918년 5월에는 왕립학회 회원으로 선출되었는데, 학회 역사상 가장 젊은 회원 중 한 명이었을 뿐 아니라 인도인으로서는 두 번째로 선출된 회원이었으며, 같은 해 10월에는 인도인 최초로 케임브리지 트리니티 칼리지 펠로로 선출되었다. 그의 연구 결과가 담긴 노트 한 권은 수십 년간 잊혀 있다가 1976년 수학자 조지 앤드루스에 의해 재발견되어 학계에 큰 흥분을 불러일으켰다고 전해지며, 2012년까지도 수학자들은 그가 무심코 적어 놓은 언급들 속에서 이전에는 증명되지 않았던 진짜 정리들을 계속 확인해 냈다.",
   "srinivasa-ramanujan.moment.1":
     "아무런 공식 학력도, 소개도 없이, 케임브리지의 수학자 G. H. 하디에게 자신이 직접 도출한 결과들을 담은 편지를 보냈다 — 그전에 편지를 보낸 여러 수학자 중 대부분이 답장을 하지 않았다.",
   "srinivasa-ramanujan.interpretation.moment.1":
@@ -2580,6 +2614,8 @@ export const EDITORIAL_KO: Record<string, string> = {
   /* ----------------------------------------- Batch 7 (exposure-priority): Oprah Winfrey */
   "oprah-winfrey.achievement.1":
     "1986년, 방송사나 배급사에 고용된 진행자로 남는 대신 자신의 프로그램을 직접 소유하고 통제하기 위해 하포 프로덕션을 설립했다 — 당시로서는 이례적으로 이른, 제작자가 스스로 소유하는 미디어를 향한 행보였고, 이후 수십 년간 자신의 경력을 스스로 이끌어가는 수단이 되었다.",
+  "oprah-winfrey.achievement.2":
+    "오프라 윈프리 쇼는 1986년부터 2011년까지 25년간 전국 신디케이션 방송으로 이어졌으며, 그 기간 대부분 미국에서 시청률이 가장 높은 낮 시간대 토크쇼로 자리 잡았다. 1993년 마이클 잭슨과의 인터뷰는 약 3,650만 명의 시청자를 끌어모아, 미국 텔레비전 역사상 가장 많이 시청된 인터뷰 중 하나로 남았다. 1996년부터는 그녀가 방송에서 추천한 도서들이 저자에게 통상 100만 부 가량의 추가 판매로 이어지는 것이 확인되었으며, 이는 출판업계에 '오프라 효과'로 알려진 뚜렷한 영향을 남겼다.",
   "oprah-winfrey.turning_point.1":
     "1980년대에 경쟁 데이타임 토크쇼들이 선정적이고 타블로이드적인 형식으로 옮겨가는 동안, 자신의 프로그램을 개인적이고 공감을 이끌어내는 이슈 중심의 대화로 방향을 틀었다 — 당시 같은 장르의 다른 프로그램들이 향하던 방향과는 다른 쪽에 건 승부수였다.",
   "oprah-winfrey.interpretation.turning_point.1":
@@ -2589,6 +2625,8 @@ export const EDITORIAL_KO: Record<string, string> = {
   /* CLOSURE PASS: moment.1 narrowed to drop an invented "tens of millions of trees" outcome. turning_point.1 narrowed to drop the 2004/Nobel Peace Prize claim entirely — this person's own roster rationale documents the government opposition/arrests but never mentions the Nobel Prize by name, date, or specific award rationale (only a bare `nobel_laureate` tag, which is not prose content this pipeline may narrate from). */
   "wangari-maathai.achievement.1":
     "1977년, 케냐에서 목격한 삼림 파괴와 토양 침식을 농촌 여성들이 물과 땔감을 구하러 다니며 짊어지는 일상적 부담과 직접 연결지어 그린벨트 운동을 창설했다 — 당시 환경운동의 통상적인 틀과는 다르게, 환경 복원과 풀뿌리 차원의 생활 개선을 하나로 엮은 접근이었다.",
+  "wangari-maathai.achievement.2":
+    "2004년 마타이는 '지속가능한 발전과 민주주의, 평화에 기여한 공로'로 노벨 평화상을 수상했다 — 아프리카 여성으로서는 최초, 환경운동가로서도 최초의 수상이었다. 2006년에는 그린벨트 운동을 통해 구축한 조림과 시민 교육 모델을 전 지구적 차원으로 확장한 유엔의 '10억 그루 나무 심기 캠페인'을 주도했다.",
   "wangari-maathai.moment.1":
     "운동 초기에는 별다른 제도적 자금 지원 없이, 간단하고 비용이 적게 드는 지역 방식으로 농촌 여성들을 조직해 묘목을 심게 했다.",
   "wangari-maathai.interpretation.moment.1":
@@ -2625,6 +2663,8 @@ export const EDITORIAL_KO: Record<string, string> = {
   /* CLOSURE PASS: achievement.1 narrowed to drop an invented "early 1900s" date and an invented "discriminatory laws targeting the Indian community" characterization — this person's own roster rationale describes only "local grievances in South Africa." CLOSURE PASS round 2: turning_point.1 also had an invented "Dandi" destination, "salt tax and monopoly" legal mechanism, and a "chosen specifically because..." motivation — none in the rationale, which names only "the Salt March... in deliberate defiance of British law"; narrowed to that. */
   "mahatma-gandhi.achievement.1":
     "부당한 법에 맞선 조직적이고 규율 있는 시민 불복종인 사티아그라하를, 남아프리카에서의 여러 지역적 불만에 대응해 처음으로 만들고 시험했다 — 훗날 같은 방법을 훨씬 더 큰 규모로 인도 독립운동에 적용하기 여러 해 전의 일이었다.",
+  "mahatma-gandhi.achievement.2":
+    "간디는 1920년부터 1942년까지 비협조 운동, (1930년 소금 행진을 포함한) 소금 사티아그라하, 인도 철수 운동이라는 세 차례의 전국적 시민 불복종 운동을 이끌었다 — 무력 투쟁이 아니라 지속적이고 조직적인 비폭력 저항에 기반한 운동들이었으며, 그때마다 대규모 체포가 뒤따랐고 그 자신도 거듭 투옥되었다. 그는 이 운동들을 인도국민회의와 더 넓은 독립운동 안에서 여러 지도자 가운데 한 사람으로서 이끌었으며, 그가 관여하기 전부터 이미 진행 중이던 다른 지역 운동들도 있었다. 영국은 인도 철수 운동으로 그가 마지막으로 투옥된 지 몇 달 뒤인 1947년 8월 인도의 독립을 승인했고, 이때 인도는 인도와 파키스탄으로 분할되었다.",
   "mahatma-gandhi.turning_point.1":
     "1930년, 영국법에 대한 의도적인 저항으로서 소금 행진을 스스로 조직하고 이끌었다 — 24일간 240마일을 행진한, 구체적이고 스스로 시작한 시민 불복종 행위였다.",
   "mahatma-gandhi.interpretation.turning_point.1":

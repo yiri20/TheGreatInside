@@ -1496,7 +1496,17 @@ const seeds: PersonSeed[] = [
     impactDomains: ["historical", "scientific", "engineering", "entrepreneurial"],
     tagIds: ["generalist", "self_taught", "founder"],
     archetypeIds: ["cross_disciplinary_generalist", "entrepreneurial_builder"],
-    sources: [wiki("bfranklin", "Benjamin Franklin"), bio("bfranklin", "Walter Isaacson, Benjamin Franklin: An American Life (2003)")],
+    // Key Achievements Correction Batch 1 (2026-08): two additional
+    // Wikipedia articles, each directly fetched and inspected, close
+    // specific claims (the kite experiment's actual mechanism and date; the
+    // 1778 Treaty of Alliance's terms and signatories) the general
+    // biography article doesn't itself state in enough detail.
+    sources: [
+      wiki("bfranklin", "Benjamin Franklin"),
+      bio("bfranklin", "Walter Isaacson, Benjamin Franklin: An American Life (2003)"),
+      wiki("bfranklin_kite", "Kite experiment"),
+      wiki("bfranklin_treaty", "Treaty of Alliance (1778)"),
+    ],
     // Verified 2026-08 via a direct fetch of the Commons file page: Joseph-
     // Siffred Duplessis's c. 1785 oil portrait. Public domain (published
     // before 1931; artist died 1802).

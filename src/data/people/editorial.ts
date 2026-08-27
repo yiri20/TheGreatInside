@@ -208,9 +208,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.1 (Gallipoli)
+  // moved to turning_point.2 -- a single battlefield episode/quote, not a
+  // career-level body of work; it marks the point his career pivoted from
+  // junior officer toward national prominence, which is what Turning Point
+  // exists for. Text and sourceIds unchanged (moved verbatim); this leaves
+  // the profile with a single achievement (the Republic/reforms), which is
+  // acceptable for a concentrated case per the Achievement standard, but
+  // this batch's brief for this person was limited to the move only -- a
+  // richer replacement achievement describing his specific reforms (this
+  // person's own evidence ledger,
+  // src/dev/roster1000/production/session19/mustafa-kemal-ataturk/, has
+  // ample material for one: alphabet reform, legal code, women's suffrage)
+  // was out of scope here and is left for a future pass. achievement.2 is
+  // unrelated and left untouched.
   "mustafa-kemal-ataturk": {
     achievements: [
-      { id: "mustafa-kemal-ataturk-achievement-1", textKey: "mustafa-kemal-ataturk.achievement.1", sourceIds: ["src_ataturk_kinross", "src_ataturk_belleten_libya"] },
       { id: "mustafa-kemal-ataturk-achievement-2", textKey: "mustafa-kemal-ataturk.achievement.2", sourceIds: ["src_ataturk_mango", "src_ataturk_nutuk"] },
     ],
     moments: [
@@ -225,6 +238,7 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "conflict_tolerance",
         sourceIds: ["src_ataturk_executed", "src_ataturk_mango"],
       },
+      { id: "mustafa-kemal-ataturk-turning-point-2", textKey: "mustafa-kemal-ataturk.turning_point.2", sourceIds: ["src_ataturk_kinross", "src_ataturk_belleten_libya"] },
     ],
   },
 
@@ -363,9 +377,18 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.1 (the
+  // Rubicon) moved to turning_point.2 -- a single dated, irreversible act
+  // with a clear before/after (Roman general under Senate authority ->
+  // civil war, end of the Republic), not a body of work. Text and
+  // sourceIds unchanged; this person's own data-pipeline candidate
+  // (data-pipeline/candidates/julius-caesar.json, decisiveness/
+  // risk_tolerance rows) already frames it as exactly this kind of single
+  // decisive act, so no new claim was introduced. achievement.2 and
+  // achievement.3 (the calendar reform, the Gallic campaign) are unrelated
+  // and left untouched, per this task's scope.
   "julius-caesar": {
     achievements: [
-      { id: "julius-caesar-achievement-1", textKey: "julius-caesar.achievement.1", sourceIds: ["src_caesar_suetonius", "src_caesar_plutarch"] },
       { id: "julius-caesar-achievement-2", textKey: "julius-caesar.achievement.2", sourceIds: ["src_caesar_wikipedia"] },
       { id: "julius-caesar-achievement-3", textKey: "julius-caesar.achievement.3", sourceIds: ["src_caesar_commentaries"] },
     ],
@@ -381,6 +404,7 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "collaboration",
         sourceIds: ["src_caesar_wikipedia", "src_caesar_plutarch"],
       },
+      { id: "julius-caesar-turning-point-2", textKey: "julius-caesar.turning_point.2", sourceIds: ["src_caesar_suetonius", "src_caesar_plutarch"] },
     ],
   },
 
@@ -1141,10 +1165,26 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): the prior profile's only
+  // two achievements were stereochemistry and a career-pivot framing of the
+  // silkworm-disease period -- germ theory, the anthrax/rabies vaccines, and
+  // founding the Institut Pasteur (arguably his single most famous
+  // contributions) were entirely absent. Fix: achievement.2's silkworm text
+  // is a genuine before/after career-domain shift (chemist -> biologist),
+  // moved verbatim to turning_point.3 rather than deleted; achievement.2 and
+  // achievement.3 are newly written to state germ theory and the vaccine/
+  // Institut Pasteur work directly, per this task's "add 2-3 strongest
+  // distinct achievements, do not turn this into a laundry list" guidance.
+  // Every claim traces to this person's own repository research notes
+  // (src/dev/roster1000/production/session18/louis-pasteur/rawNotes.md,
+  // "Key achievements" #2 and #4) and existing sourceIds already in this
+  // person's own `sources` array -- no new source added, no external
+  // knowledge relied on beyond what that file documents.
   "louis-pasteur": {
     achievements: [
       { id: "louis-pasteur-achievement-1", textKey: "louis-pasteur.achievement.1", sourceIds: ["src_pasteur_shi"] },
-      { id: "louis-pasteur-achievement-2", textKey: "louis-pasteur.achievement.2", sourceIds: ["src_pasteur_acadsilk", "src_pasteur_shi"] },
+      { id: "louis-pasteur-achievement-2", textKey: "louis-pasteur.achievement.2", sourceIds: ["src_pasteur_shi", "src_pasteur_pouchet"] },
+      { id: "louis-pasteur-achievement-3", textKey: "louis-pasteur.achievement.3", sourceIds: ["src_pasteur_gavi", "src_pasteur_iprabies", "src_pasteur_iphist"] },
     ],
     moments: [
       { id: "louis-pasteur-moment-1", textKey: "louis-pasteur.moment.1", sourceIds: ["src_pasteur_gavi"] },
@@ -1165,13 +1205,23 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "risk_tolerance",
         sourceIds: ["src_pasteur_iphist", "src_pasteur_iprabies", "src_pasteur_hov"],
       },
+      { id: "louis-pasteur-turning-point-3", textKey: "louis-pasteur.turning_point.3", sourceIds: ["src_pasteur_acadsilk", "src_pasteur_shi"] },
     ],
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.2 rewritten
+  // -- the personal-archiving habit it previously described is real and
+  // interesting but is a Life Scene (moved to moment.3, unchanged), not a
+  // career-level achievement; the profile had no achievement at all
+  // describing his actual musical innovation. Replaced with the
+  // soloist/scat-singing achievement, sourced to this person's own
+  // src_armstrong_hmbio and src_armstrong_teachout (both already in
+  // roster9.ts's sources array), directly matching evidence episode #15 in
+  // src/dev/roster1000/production/session18/louis-armstrong/rawNotes.md.
   "louis-armstrong": {
     achievements: [
       { id: "louis-armstrong-achievement-1", textKey: "louis-armstrong.achievement.1", sourceIds: ["src_armstrong_hmbio"] },
-      { id: "louis-armstrong-achievement-2", textKey: "louis-armstrong.achievement.2", sourceIds: ["src_armstrong_nation"] },
+      { id: "louis-armstrong-achievement-2", textKey: "louis-armstrong.achievement.2", sourceIds: ["src_armstrong_hmbio", "src_armstrong_teachout"] },
     ],
     moments: [
       { id: "louis-armstrong-moment-1", textKey: "louis-armstrong.moment.1", sourceIds: ["src_armstrong_hmbio"] },
@@ -1182,6 +1232,7 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "risk_tolerance",
         sourceIds: ["src_armstrong_hmcivil"],
       },
+      { id: "louis-armstrong-moment-3", textKey: "louis-armstrong.moment.3", sourceIds: ["src_armstrong_nation"] },
     ],
     turningPoints: [
       {
@@ -1982,9 +2033,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     legacy: { textKey: "rosalind-franklin.legacy", sourceIds: ["src_rfranklin_wikipedia"] },
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.1 rewritten
+  // (restored the 1960 date and added the Leakey quote, both re-verified via
+  // a fresh direct fetch of src_goodall_wikipedia, not memory -- the
+  // Batch-7 closure pass had dropped the date for lacking roster-rationale
+  // support, but this person's own cited source directly confirms it).
+  // achievement.2 added: the prior profile's only achievement was a single
+  // field observation: this restores the actual career-level finding
+  // (60+ years of Gombe research reshaping the scientific understanding of
+  // chimpanzee behavior) that the observation itself only exemplifies.
   "jane-goodall": {
     achievements: [
       { id: "jane-goodall-achievement-1", textKey: "jane-goodall.achievement.1", sourceIds: ["src_goodall_wikipedia"] },
+      { id: "jane-goodall-achievement-2", textKey: "jane-goodall.achievement.2", sourceIds: ["src_goodall_wikipedia"] },
     ],
     moments: [
       {
@@ -2006,10 +2067,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.3 (electricity/
+  // kite experiment) and achievement.4 (French Alliance diplomacy) added --
+  // the prior profile covered only his civic/political-foresight side and
+  // was missing the two facts most people would name first. Sourced to two
+  // new, directly fetched and inspected Wikipedia sub-articles (Kite
+  // experiment; Treaty of Alliance (1778)) added to this person's own
+  // `sources` array in roster2.ts, not general knowledge.
   "benjamin-franklin": {
     achievements: [
       { id: "benjamin-franklin-achievement-1", textKey: "benjamin-franklin.achievement.1", sourceIds: ["src_bfranklin_wikipedia"] },
       { id: "benjamin-franklin-achievement-2", textKey: "benjamin-franklin.achievement.2", sourceIds: ["src_bfranklin_biography"] },
+      { id: "benjamin-franklin-achievement-3", textKey: "benjamin-franklin.achievement.3", sourceIds: ["src_bfranklin_kite_wikipedia", "src_bfranklin_wikipedia"] },
+      { id: "benjamin-franklin-achievement-4", textKey: "benjamin-franklin.achievement.4", sourceIds: ["src_bfranklin_treaty_wikipedia", "src_bfranklin_wikipedia"] },
     ],
     moments: [
       {
@@ -2031,9 +2101,15 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.2 added --
+  // the prior profile stopped at his pre-Cambridge, self-taught origin
+  // story and never stated what he actually produced or why his work
+  // still matters, re-verified via a fresh direct fetch of
+  // src_ramanujan_wikipedia (not memory).
   "srinivasa-ramanujan": {
     achievements: [
       { id: "srinivasa-ramanujan-achievement-1", textKey: "srinivasa-ramanujan.achievement.1", sourceIds: ["src_ramanujan_wikipedia"] },
+      { id: "srinivasa-ramanujan-achievement-2", textKey: "srinivasa-ramanujan.achievement.2", sourceIds: ["src_ramanujan_wikipedia"] },
     ],
     moments: [
       {
@@ -2050,9 +2126,16 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     turningPoints: [],
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.2 added --
+  // the prior profile stated only the Harpo Productions corporate
+  // structure, never the actual scale/impact of the show itself. Uses
+  // concrete, checkable figures (syndication years, viewership, book-sales
+  // effect) rather than prestige adjectives, per a fresh direct fetch of
+  // src_oprah_wikipedia (not memory).
   "oprah-winfrey": {
     achievements: [
       { id: "oprah-winfrey-achievement-1", textKey: "oprah-winfrey.achievement.1", sourceIds: ["src_oprah_wikipedia"] },
+      { id: "oprah-winfrey-achievement-2", textKey: "oprah-winfrey.achievement.2", sourceIds: ["src_oprah_wikipedia"] },
     ],
     moments: [],
     turningPoints: [
@@ -2066,9 +2149,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.2 added
+  // after a fresh direct fetch of src_maathai_wikipedia (not memory,
+  // and not the bare "nobel_laureate" tag the earlier closure pass declined
+  // to narrate from). The Nobel Peace Prize citation, and her being the
+  // first African woman and first environmentalist to win it, are both
+  // directly stated on that page and restored here. A specific
+  // Green-Belt-Movement tree-count figure was deliberately NOT restored:
+  // this fetch found no cumulative count on the page at all (not merely an
+  // unconfirmed one), so no such figure was written.
   "wangari-maathai": {
     achievements: [
       { id: "wangari-maathai-achievement-1", textKey: "wangari-maathai.achievement.1", sourceIds: ["src_maathai_wikipedia"] },
+      { id: "wangari-maathai-achievement-2", textKey: "wangari-maathai.achievement.2", sourceIds: ["src_maathai_wikipedia"] },
     ],
     moments: [
       {
@@ -2149,9 +2242,18 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     legacy: { textKey: "wolfgang-amadeus-mozart.legacy", sourceIds: ["src_mozart_wikipedia"] },
   },
 
+  // Key Achievements Correction Batch 1 (2026-08): achievement.2 added --
+  // the prior profile stated only the South African origin of satyagraha,
+  // never the actual independence-movement campaigns it enabled. Worded
+  // deliberately to avoid implying Gandhi alone caused or "led India to"
+  // independence -- states his role as one senior leader within a broader
+  // Congress/independence movement that included other leaders and
+  // regional campaigns already under way before his involvement, per a
+  // fresh direct fetch of src_gandhi_wikipedia (not memory).
   "mahatma-gandhi": {
     achievements: [
       { id: "mahatma-gandhi-achievement-1", textKey: "mahatma-gandhi.achievement.1", sourceIds: ["src_gandhi_biography", "src_gandhi_wikipedia"] },
+      { id: "mahatma-gandhi-achievement-2", textKey: "mahatma-gandhi.achievement.2", sourceIds: ["src_gandhi_wikipedia"] },
     ],
     moments: [],
     turningPoints: [
