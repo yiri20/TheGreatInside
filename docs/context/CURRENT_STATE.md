@@ -4,15 +4,18 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-26 (Landing CTA hierarchy polish merged to `main`).
+Last updated: 2026-08-27 (Editorial Achievements Correction Batch 1 +
+Profile V2 pilot + Person Profile Hero redesign + mobile Trait
+Constellation progressive disclosure merged to `main`).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `dfda94b` — fast-forward merge of `feat/landing-cta-hierarchy` (2026-08-26): Landing's secondary CTA demoted from an outlined pill to this project's established `variant="quiet"` text-link treatment at every width (previously only below 1280px), stacked directly below the primary CTA (never side-by-side), plus an EN copy tightening ("Explore the People First" → "Explore People First"; KO unchanged). Also includes the prior Directory taxonomy + progressive-disclosure release. Live-verified (Landing EN/KO at 390px/1280px: primary still the dominant filled action, secondary a quiet text link directly below it, keyboard Tab order reaches both CTAs with a visible focus ring, zero horizontal overflow, no console errors). |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `b7a30ec` — fast-forward merge of `feat/editorial-achievements-correction-batch-1` (2026-08-27), 9 commits: back-nav left-align; Person Profile Hero redesign (2-column portrait+identity composition, Known For moved inside the identity column, compact one-line-clamped portrait credit); Profile V2 pilot (Life Arc/Complexities/Legacy) on 6 people with a strict evidence-closure re-verification pass; Key Achievements Correction Batch 1 — evidence-verified rewrite/reclassification for 10 people (Jane Goodall, Mahatma Gandhi, Benjamin Franklin, Srinivasa Ramanujan, Louis Armstrong, Louis Pasteur, Oprah Winfrey, Wangari Maathai, Julius Caesar, Mustafa Kemal Atatürk); a same-day release-blocker fix for an Atatürk source/provenance error found in that batch; mobile-only Trait Constellation progressive disclosure (strongest 4 by default, quiet expand/collapse, desktop unchanged); and a full e2e reconciliation pass (Playwright 281/281, zero unexplained failures). Live-verified in production (Landing EN/KO, full quiz run to Results, People Directory, 5 named person profiles + one representative, mobile 390px, trait progressive disclosure, all editorial section types, zero console errors, zero horizontal overflow, EN+KO). Portraits untouched this release — see the two branches below. |
+| `feat/portrait-sourcing-batch-1`, `fix/yayoi-kusama-portrait-v2` | Deliberately **not merged** this release — portrait work is scoped separately. |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
-| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux`, `feat/landing-cta-hierarchy` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
+| `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `fix/yayoi-kusama-portrait`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux`, `feat/landing-cta-hierarchy`, `feat/profile-hero-polish`, `feat/profile-v2-pilot-batch-1`, `feat/profile-v2-pilot-clean`, `feat/editorial-achievements-correction-batch-1` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
 ## Product
 
@@ -28,70 +31,73 @@ Last updated: 2026-08-26 (Landing CTA hierarchy polish merged to `main`).
   well under the 20%-at-n≥30 threshold. Stable across roster growth.
 - **Editorial content** (achievements/moments/turning points on person
   pages): Tier A (8/8) and Tier B (52/52) fully covered. Tier C backfill
-  is now **exposure-priority selective**, not roster-order: Batch 7
-  (2026-08) added the 10 highest quiz-simulation-exposure Tier-C people
-  (Turing, Buffett, R. Franklin, Goodall, B. Franklin, Ramanujan, Oprah,
-  Maathai, Mozart, Gandhi) — **76 of 95 people editorialized**, 19 Tier-C
-  remain, all now low-exposure (highest single #1-match frequency ~2%).
-  See [`docs/checkpoints/editorial.md`](../checkpoints/editorial.md).
-- **`IdentityHero` missing-portrait fallback** (2026-08, `chore/consolidated-dev-2026-08`): the Results/Person/Compare hero used to
-  render nothing at all for the portrait column when a person had no
-  portrait — unlike `PersonCard`, which already showed initials. Fixed by
-  reusing that same initials-on-sunken-surface treatment inside
-  `IdentityHero` (`src/ui/components/layout.tsx`), scaled to each call
-  site's `portraitWidth`.
-- **Portrait coverage: 55/95** (was 42/95). Exposure-Priority Portrait
-  Pass (2026-08, `chore/consolidated-dev-2026-08`) added 13 portraits
-  (Gandhi, Atatürk, Julius Caesar, Ibn Sina, Toni Morrison, Wangari
-  Maathai, Aung San Suu Kyi, Oprah Winfrey, Maimonides, Averroes, Yi
-  Sun-sin, Hayao Miyazaki, Yayoi Kusama), selected by deterministic
-  exposure signals (#1-match frequency, Similar-People in-degree,
-  Opposite selection, editorial status) rather than raw coverage —
-  targeted portrait-less people are the highest-exposure ones. Result:
-  Top-20 Similar-in-degree coverage 11→20/20, Top-20 #1-match coverage
-  13→16/20, portrait-less share of Similar-rail exposure mass 48.2%→16.5%,
-  of #1-match mass 33.6%→19.8%. All sourced from Wikimedia
-  Commons/PD/CC-compatible licenses only (several historical figures
-  deliberately skipped — Akira Kurosawa, Akio Morita — over unresolved
-  US-copyright/URAA ambiguity on the only candidate images found; Yi
-  Sun-sin, Ibn Sina, Maimonides, Averroes use later depictions with an
-  explicit not-a-lifetime-likeness caveat in `portrait.attribution`, the
-  existing caption mechanism). `e2e/person.visual.spec.ts`'s no-portrait
-  fixture moved from yi-sun-sin (now has a portrait) to socrates.
-  Remaining portrait-less: 40 (Zheng He non-eligible, 39 eligible, all
-  now lower-exposure than this batch's floor).
+  is **exposure-priority selective**, not roster-order — **76 of 95
+  people editorialized**, 19 Tier-C remain, all low-exposure. **Key
+  Achievements Correction Batch 1** (2026-08) then re-audited and fixed
+  Achievement-section semantic placement/evidence for 10 of those 76
+  (see the `main` branch-table row above for the name list), plus a
+  same-batch Atatürk source-provenance fix — 382→409 total editorial
+  items, 100% Korean coverage maintained throughout. See
+  [`docs/checkpoints/editorial.md`](../checkpoints/editorial.md).
+- **Profile V2 pilot** (`lifeArc`/`complexities`/`legacy` fields on
+  `PersonEditorial`, 2026-08): piloted on 6 people (Warren Buffett,
+  Rosalind Franklin, Aung San Suu Kyi, Alan Turing, Benjamin Franklin,
+  Wolfgang Amadeus Mozart) with a strict follow-up evidence-closure
+  re-verification pass. Most of the roster has none of these three
+  fields yet — that's expected, not a gap; `achievements`/`moments`/
+  `turningPoints` alone is still a complete profile.
+- **Person Profile Hero redesign + mobile Trait Constellation
+  progressive disclosure** (2026-08): the hero moved from a fragmented
+  3-column `Rail(hero, Known For)` composition to one coherent
+  `IdentityHero` (portrait | identity info, Known For now living inside
+  the identity column), with a compact one-line-clamped portrait credit
+  and a left-aligned back-nav link. Below 640px, Trait Constellation now
+  shows only the strongest 4 trait cards by default (already
+  distinctiveness-ordered, no re-ranking) behind a quiet "Show all
+  traits" / "모든 특성 보기" toggle — desktop/tablet grid unchanged. A
+  trait-card click-to-explain affordance was evaluated and deliberately
+  deferred (no existing popover/dialog primitive to reuse, no
+  attribute-description content yet) — recommended as a future task.
+  `IdentityHero`'s missing-portrait initials fallback
+  (`src/ui/components/layout.tsx`) predates this redesign (2026-08,
+  `chore/consolidated-dev-2026-08`) and is unchanged by it.
+- **Portrait coverage: 55/95** (was 42/95, unchanged this release —
+  portraits deliberately untouched, see the branch table above).
+  Exposure-Priority Portrait Pass (2026-08, `chore/consolidated-dev-2026-08`)
+  added 13 portraits (Gandhi, Atatürk, Julius Caesar, Ibn Sina, Toni
+  Morrison, Wangari Maathai, Aung San Suu Kyi, Oprah Winfrey, Maimonides,
+  Averroes, Yi Sun-sin, Hayao Miyazaki, Yayoi Kusama), selected by
+  deterministic exposure signals (#1-match frequency, Similar-People
+  in-degree, Opposite selection, editorial status) rather than raw
+  coverage. Result: Top-20 Similar-in-degree coverage 11→20/20, Top-20
+  #1-match coverage 13→16/20, portrait-less share of Similar-rail
+  exposure mass 48.2%→16.5%, of #1-match mass 33.6%→19.8%. All sourced
+  from Wikimedia Commons/PD/CC-compatible licenses only (Akira Kurosawa,
+  Akio Morita deliberately skipped over unresolved US-copyright/URAA
+  ambiguity; Yi Sun-sin, Ibn Sina, Maimonides, Averroes use later
+  depictions with an explicit not-a-lifetime-likeness caveat in
+  `portrait.attribution`). `e2e/person.visual.spec.ts`'s no-portrait
+  fixture: socrates. Remaining portrait-less: 40 (Zheng He non-eligible,
+  39 eligible, all below this pass's exposure floor).
 - **Custom domain**: `https://thegreatinside.com` is the canonical
   production origin (migrated from `the-great-inside.vercel.app`, which
   now permanently redirects). `www` also redirects to the apex.
 - **Monetization**: "Deep Inside" (one-time paid feature) implemented on
   `feat/monetization-v1`, intentionally unmerged, no live payment infra.
-- **Quiz Likert endpoint-clarity hotfix (2026-08)**: a real user reported
-  the 1-7 Likert scale confusing — the two endpoint descriptions used to
-  flank the options row in a flex row that became a COLUMN below 640px,
-  stacking "left anchor above / right anchor below" with no visual tie to
-  either end. Fixed with one layout at every viewport: an instruction line,
-  the unchanged 1-7 row, then both anchors together in their own row
-  directly beneath (space-between, left under "1", right under "7").
-  Presentation only — all 7 answer values and scoring unchanged.
+- **Quiz Likert endpoint-clarity hotfix (2026-08)**: the 1-7 scale's two
+  endpoint descriptions now sit together in one row beneath the
+  unchanged 1-7 options row at every viewport, instead of splitting
+  awkwardly into a column below 640px. Presentation only —
   `src/ui/components/quiz.tsx`'s `LikertScale`.
-- **Directory taxonomy + progressive disclosure (`directory_taxonomy_v1`,
-  2026-08)**: the People Directory's filter UI is two axes — Profession/
-  Activity (`Person.fieldIds`, grouped) and Personality/Trait (the
-  canonical 34-attribute/7-facet taxonomy, grouped) — replacing the old
-  flat `tagIds` checklist. Same-facet selections OR, cross-facet AND
-  (fixed from an earlier flat-OR bug), profession OR, exactly like every
-  other filter-facet pair in `explorer.ts`. Both sections are collapsed
-  by default (native `<details>`) — a collapsed section with an active
-  selection shows the count in its own heading (e.g. "Personality &
-  Traits · 2 selected"); the summary's chevron sits at the far right via
-  a plain two-border corner (no SVG/mask), rotating on open. Filter
-  selection state survives collapse/reopen. See
-  [`docs/reference/directory-taxonomy.md`](../reference/directory-taxonomy.md)
-  for the derivation rationale and where to add/move a filter.
+- **Directory taxonomy + progressive disclosure** (`directory_taxonomy_v1`,
+  2026-08): the People Directory's filter UI is two collapsed-by-default
+  axes — Profession/Activity and the 34-attribute/7-facet Personality/
+  Trait taxonomy — replacing the old flat `tagIds` checklist. See
+  [`docs/reference/directory-taxonomy.md`](../reference/directory-taxonomy.md).
 - **Self-made/earned-distinction philosophy audit (2026-08)**: all 95
   people classified against `inclusion_v1`'s counterfactual test — 69
   Strong Self-Made Fit, 26 Earned but Advantaged, 0 Weak Fit. No roster
-  change resulted. Full record + proposed future-candidate gate:
+  change. Full record:
   [`docs/checkpoints/self-made-earned-distinction-audit-2026-08.md`](../checkpoints/self-made-earned-distinction-audit-2026-08.md).
 
 ## Completed major phases (durable summary — do not re-read the archive for these)
@@ -119,30 +125,37 @@ to resolve a specific historical question, not by default.
 
 ## Test baseline (last known-good, re-verify before trusting)
 
-Verified on `main` at the 2026-08-26 Directory taxonomy + progressive-
-disclosure release (commit `e88ac24`): `tsc --noEmit` clean · `vitest run`
-662/662 · `next build --webpack` clean, 190 localized person pages,
-static/dynamic split unchanged · Playwright 278/278 (confirmed at the
-stable `--workers=1` configuration; a couple of `page.goto`/networkidle
-timeouts appeared under the default ~11-worker run, both isolated and
-re-confirmed passing — the documented parallel-worker navigation-flake
-signature already recorded in `playwright.config.ts`'s own comment, not a
-regression) · `ko-KR` i18n coverage 100.00% · matching simulation max #1
-frequency 12.0% (Warren Buffett, unchanged — this release touched no
-matching/scoring code) · live production smoke test (landing EN/KO, quiz
-intro + Likert EN/KO, a full quiz run through to Results and Compare with
-real computed scores, a person page, and the full Directory checklist —
-both taxonomy sections collapsed by default, expand/collapse, collapsed
-active-filter count in the heading, chevron at the far right, same-facet
-OR / cross-facet AND semantics, clear-all, no horizontal overflow at
-390px, EN/KO labels) all clean, zero console errors. See
+Verified on `main` at the 2026-08-27 Editorial Achievements Correction
+Batch 1 / Profile V2 / Hero redesign release (commit `b7a30ec`):
+`tsc --noEmit` clean · `vitest run` 662/662 · `next build --webpack`
+clean · `editorialValidation.test.ts` 20/20 · `i18n-audit.ts` zero
+missing keys in any bucket · Playwright **281/281** at the stable
+`--workers=1` configuration, confirmed stable across two consecutive
+full runs (a same-release test-hardening pass replaced a
+`getComputedStyle`-immediately-after-click read in one Likert test with
+`expect.poll`, since it raced the browser's paint pipeline under
+sustained full-suite load — reproducible 3/3 in-suite, never in
+isolation; product CSS/behavior was already correct, test-only fix) ·
+matching simulation max #1 frequency 12.0% (Warren Buffett, unchanged —
+this release touched no matching/scoring code) · live production smoke
+test (Landing EN/KO; a full anonymous quiz run through to Results with
+real computed scores, zero console errors; People Directory; Warren
+Buffett, Rosalind Franklin, Aung San Suu Kyi, Jane Goodall, and Mustafa
+Kemal Atatürk person pages at 1280px plus Rosalind Franklin at 390px;
+mobile Trait Constellation collapsed-to-4/expand-to-all confirmed live;
+Life Arc/Key Achievements/Moments/Turning Points/Complexities/Legacy
+all confirmed rendering where present, EN and KO; zero horizontal
+overflow at 390px or 1280px in either locale) all clean. See
 [`docs/context/TESTING.md`](TESTING.md) for what to run per change type.
 
 ## Next product checkpoint
 
 Post-release, no blocking work outstanding. Candidates for a future
-session (none started here — out of scope for this release gate): the
-remaining 19 low-exposure Tier-C editorial backfill people, the 40
-remaining portrait-less people (all below this release's exposure
-floor), and a human decision on deleting the now-fully-subsumed dev
-branches listed above.
+session (none started here — out of scope for this release gate): a
+trait-card click-to-explain affordance (needs a new lightweight
+popover/dialog primitive plus attribute-description content — see
+"Person Profile Hero redesign" above), the remaining 19 low-exposure
+Tier-C editorial backfill people, the separate unmerged Portrait
+Sourcing Batch 1 / Yayoi Kusama v2 branches, the 40 remaining
+portrait-less people, and a human decision on deleting the now-fully-
+subsumed dev branches listed above.

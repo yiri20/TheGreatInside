@@ -45,6 +45,33 @@ hearing" claim kept because it's directly named, "Privy Council"/
 post-closure. No Batch 7 claim now relies on outside knowledge alone —
 every fact traces to this repository's own preserved rationale text.
 
+## Key Achievements Correction Batch 1 (2026-08, merged to `main`)
+
+A roster-wide semantic audit of the `achievements` category (does each
+item genuinely belong there vs. Life Scene/Turning Point/Legacy/
+Complexity, and is any career-level achievement missing) flagged the
+10 highest-severity/highest-exposure profiles for correction: Jane
+Goodall, Mahatma Gandhi, Benjamin Franklin, Srinivasa Ramanujan, Louis
+Armstrong, Louis Pasteur, Oprah Winfrey, Wangari Maathai, Julius
+Caesar, and Mustafa Kemal Atatürk. For each: misplaced items were
+moved to the correct category (e.g. Julius Caesar's and Atatürk's
+single-event achievements moved to Turning Points; Louis Pasteur's
+career-pivot item moved to a new Turning Point), and missing core
+achievements were added, each newly-verified against a directly
+inspected, person-specific source (a live Wikipedia fetch already
+cited in that person's own `sources` array, or this project's own
+`src/dev/roster1000/production/session*/` research files) — never
+general knowledge alone. A same-batch follow-up found and fixed a
+release-blocking provenance error (Atatürk's Gallipoli item had
+carried over a sourceId for an unrelated 1908 episode). Net effect:
+382→409 total editorial items (168→183 achievements, 142→149 moments,
+72→77 turning points), 100% Korean coverage maintained. Full
+per-person disposition, evidence citations, and rejected-claim record:
+this session's own transcript (not re-summarized into a separate
+archive file, since the branch's own commit messages already carry
+the detail — see `git log` on the merge commits for
+`feat/editorial-achievements-correction-batch-1`).
+
 ## Status: Tier C is exposure-priority selective, not roster-order
 
 Batch 6's close deferred Tier C pending a product decision on scope. A

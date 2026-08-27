@@ -15,11 +15,15 @@ questions, not routine deployment work.
   to the apex, path/query preserved.
 - **Hosting**: Vercel, auto-deploy from `main` on GitHub
   (`github.com/yiri20/TheGreatInside`, private). Last release gate:
-  2026-08-26, `main` at `dfda94b` (Landing secondary CTA demoted to a
-  quiet text link at every width, stacked below the primary CTA, plus an
-  EN copy tightening; also includes the prior Directory taxonomy +
-  progressive-disclosure release), full automated + live production
-  verification passed, no monetization.
+  2026-08-27, `main` at `b7a30ec` (Person Profile Hero redesign, Profile
+  V2 pilot on 6 people, Key Achievements Correction Batch 1 on 10
+  people plus an Atatürk provenance fix, mobile Trait Constellation
+  progressive disclosure — see `docs/context/CURRENT_STATE.md`'s branch
+  table for the full commit list), full automated (tsc/vitest/build/
+  Playwright 281/281) + live production verification passed (Landing
+  EN/KO, full quiz run to Results, Directory, 5 named person profiles +
+  mobile, all editorial section types, zero console errors/overflow),
+  no monetization, portraits untouched this release.
 - **Auth**: Google OAuth via Supabase Auth (`@supabase/ssr`), identity-only
   scopes (`openid`/`email`/`profile`) — this app's own code never reads
   email/name/picture, only `user.id`. This scope set qualifies for
