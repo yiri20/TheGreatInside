@@ -53,15 +53,24 @@ const seeds: PersonSeed[] = [
     // on upload.wikimedia.org hotlinks (the CDN returning HTTP 429 + an HTML
     // body during request bursts, which Chromium then blocks as a non-image
     // response — affected both new and pre-existing portraits, an
-    // infrastructure issue, not a bad URL). The exact same original file
-    // bytes as the URL below (1681x2381, unmodified, no crop/enhancement/
-    // upscale) — only the delivery path changed. licenseUrl still points to
-    // the live Commons file page.
+    // infrastructure issue, not a bad URL).
+    //
+    // Asset-Weight Closure (2026-08): the initially-localized file was the
+    // untouched original (1681x2381, 517KB) — larger than any actual render
+    // size (hero maxes out around 240px wide). Re-encoded via sharp/
+    // mozjpeg, proportional resize to a 1600px longest side (lanczos3, no
+    // sharpening) + quality-85 mozjpeg re-encode, metadata stripped — no
+    // crop, no upscale, no AI processing, aspect ratio preserved to within
+    // integer-pixel rounding (0.706006 -> 0.706250). 1681x2381 -> 1130x1600,
+    // 529KB -> 215KB (59.4% smaller). This is now a resized/recompressed
+    // derivative of the approved original, not a byte-identical copy —
+    // licenseUrl below still points to the live, full-resolution Commons
+    // file page.
     portrait: {
       url: "/portraits/fyodor-dostoevsky-1881.jpg",
-      width: 1681,
-      height: 2381,
-      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
+      width: 1130,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain (published before 1931)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Fjodor_Michailowitsch_Dostojewski.jpg",
       attribution: "Photographer unknown, 9 February 1881 — the last known photograph of Dostoevsky, taken six months before his death",
@@ -209,14 +218,24 @@ const seeds: PersonSeed[] = [
     // response — this was the specific failure that triggered this closure
     // pass; also reproduced on the pre-existing Benjamin Franklin portrait
     // in the same session, confirming an infrastructure issue, not a bad
-    // URL). The exact same original file bytes as the URL below (1257x1669,
-    // unmodified, no crop/enhancement/upscale) — only the delivery path
-    // changed. licenseUrl still points to the live Commons file page.
+    // URL).
+    //
+    // Asset-Weight Closure (2026-08): the initially-localized file was the
+    // untouched original (1257x1669, 1.2MB) — larger than any actual render
+    // size (hero maxes out around 240px wide). Re-encoded via sharp/
+    // mozjpeg, proportional resize to a 1600px longest side (lanczos3, no
+    // sharpening) + quality-85 mozjpeg re-encode, metadata stripped — no
+    // crop, no upscale, no AI processing, aspect ratio preserved to within
+    // integer-pixel rounding (0.753146 -> 0.753125). 1257x1669 -> 1205x1600,
+    // 1.2MB -> 212KB (82.5% smaller). This is now a resized/recompressed
+    // derivative of the approved original, not a byte-identical copy —
+    // licenseUrl below still points to the live, full-resolution Commons
+    // file page.
     portrait: {
       url: "/portraits/louis-pasteur-nadar.jpg",
-      width: 1257,
-      height: 1669,
-      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
+      width: 1205,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain (photographer died 1939; also published before 1931)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit_(cropped).jpg",
       attribution: "Paul Nadar, before 1895 — restored from a print held by the Smithsonian Institution",

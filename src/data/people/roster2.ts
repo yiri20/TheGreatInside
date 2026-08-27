@@ -78,15 +78,24 @@ const seeds: PersonSeed[] = [
     // net::ERR_BLOCKED_BY_ORB on upload.wikimedia.org hotlinks (the CDN
     // returning HTTP 429 + an HTML body during request bursts, which
     // Chromium then blocks as a non-image response -- affected both new and
-    // pre-existing portraits, an infrastructure issue, not a bad URL). The
-    // exact same original file bytes as the URL below (4180x5776,
-    // unmodified, no crop/enhancement/upscale) -- only the delivery path
-    // changed. licenseUrl still points to the live Commons file page.
+    // pre-existing portraits, an infrastructure issue, not a bad URL).
+    //
+    // Asset-Weight Closure (2026-08): the initially-localized file was the
+    // untouched original (4180x5776, 11.2MB) -- far larger than any actual
+    // render size (hero maxes out around 240px wide). Re-encoded via sharp/
+    // mozjpeg, proportional resize to a 1600px longest side (lanczos3, no
+    // sharpening) + quality-85 mozjpeg re-encode, metadata stripped -- no
+    // crop, no upscale, no AI processing, aspect ratio preserved to within
+    // integer-pixel rounding (0.723684 -> 0.723750). 4180x5776 -> 1158x1600,
+    // 11.2MB -> 207KB (98.2% smaller). This is now a resized/recompressed
+    // derivative of the approved original, not a byte-identical copy --
+    // licenseUrl below still points to the live, full-resolution Commons
+    // file page.
     portrait: {
       url: "/portraits/wolfgang-amadeus-mozart-lange-1782.jpg",
-      width: 4180,
-      height: 5776,
-      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
+      width: 1158,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain (artist died 1831)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Mozart_(unfinished)_by_Lange_1782.jpg",
       attribution: "Painted from life by Joseph Lange, 1782 — Mozart Museum, Salzburg",

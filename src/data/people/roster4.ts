@@ -612,15 +612,24 @@ const seeds: PersonSeed[] = [
     // on upload.wikimedia.org hotlinks (the CDN returning HTTP 429 + an HTML
     // body during request bursts, which Chromium then blocks as a non-image
     // response — affected both new and pre-existing portraits, an
-    // infrastructure issue, not a bad URL). The exact same original file
-    // bytes as the URL below (3415x4723, unmodified, no crop/enhancement/
-    // upscale) — only the delivery path changed. licenseUrl still points to
-    // the live Commons file page.
+    // infrastructure issue, not a bad URL).
+    //
+    // Asset-Weight Closure (2026-08): the initially-localized file was the
+    // untouched original (3415x4723, 8.9MB) — far larger than any actual
+    // render size (hero maxes out around 240px wide). Re-encoded via sharp/
+    // mozjpeg, proportional resize to a 1600px longest side (lanczos3, no
+    // sharpening) + quality-85 mozjpeg re-encode, metadata stripped — no
+    // crop, no upscale, no AI processing, aspect ratio preserved to within
+    // integer-pixel rounding (0.723057 -> 0.723125). 3415x4723 -> 1157x1600,
+    // 8.9MB -> 251KB (97.2% smaller). This is now a resized/recompressed
+    // derivative of the approved original, not a byte-identical copy —
+    // licenseUrl below still points to the live, full-resolution Commons
+    // file page.
     portrait: {
       url: "/portraits/niels-bohr-loc-bain-c1910.jpg",
-      width: 3415,
-      height: 4723,
-      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
+      width: 1157,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain (no known copyright restrictions — Library of Congress, Bain News Service)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg",
       attribution: "Bain News Service, c. 1910 — George Grantham Bain Collection, Library of Congress Prints and Photographs Division",

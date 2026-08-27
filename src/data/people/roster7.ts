@@ -137,15 +137,21 @@ const seeds: PersonSeed[] = [
     // net::ERR_BLOCKED_BY_ORB on upload.wikimedia.org hotlinks (the CDN
     // returning HTTP 429 + an HTML body during request bursts, which
     // Chromium then blocks as a non-image response — affected both new and
-    // pre-existing portraits, an infrastructure issue, not a bad URL). The
-    // exact same original file bytes as the URL below (992x1488,
-    // unmodified, no crop/enhancement/upscale) — only the delivery path
-    // changed. licenseUrl still points to the live Commons file page.
+    // pre-existing portraits, an infrastructure issue, not a bad URL).
+    //
+    // Asset-Weight Closure (2026-08): dimensions were already reasonable
+    // (992x1488, under the 1600px-longest-side ceiling used for the other
+    // four), so this one was NOT resized — only re-encoded via sharp/
+    // mozjpeg at quality 85 with metadata stripped, no crop/upscale/AI
+    // processing, same 992x1488. 240KB -> 201KB (16.0% smaller). This is
+    // now a recompressed derivative of the approved original, not a byte-
+    // identical copy — licenseUrl below still points to the live Commons
+    // file page.
     portrait: {
       url: "/portraits/cv-raman-nobel-foundation-1930.jpg",
       width: 992,
       height: 1488,
-      source: "Wikimedia Commons (hosted locally by this app; see licenseUrl for the original)",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain (published 1930)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Sir_CV_Raman.JPG",
       attribution: "Nobel Lectures, Physics 1922–1941, Elsevier Publishing Company, Amsterdam, 1965 — © The Nobel Foundation, 1930",
