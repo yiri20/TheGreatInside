@@ -529,6 +529,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_darwin_browne", "src_darwin_correspondence"],
       },
     ],
+    // Profile V2 pilot (2026-08), control case: achievements/moments/turning
+    // point deliberately left untouched above -- only Life Arc and Legacy
+    // added, both basic uncontested chronology already within this person's
+    // existing sources.
+    lifeArc: [
+      { year: "1809", textKey: "charles-darwin.life_arc.1", sourceIds: ["src_darwin_browne"] },
+      { year: "1831–1836", textKey: "charles-darwin.life_arc.2", sourceIds: ["src_darwin_browne"] },
+      { year: "1839", textKey: "charles-darwin.life_arc.3", sourceIds: ["src_darwin_browne"] },
+      { year: "1858", textKey: "charles-darwin.life_arc.4", sourceIds: ["src_darwin_correspondence"] },
+      { year: "1859", textKey: "charles-darwin.life_arc.5", sourceIds: ["src_darwin_wikipedia", "src_darwin_browne"] },
+      { year: "1882", textKey: "charles-darwin.life_arc.6", sourceIds: ["src_darwin_browne"] },
+    ],
+    legacy: { textKey: "charles-darwin.legacy", sourceIds: ["src_darwin_browne", "src_darwin_wikipedia"] },
   },
 
   "frederick-douglass": {
@@ -1217,8 +1230,17 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Profile V2 pilot (2026-08), Complexities pilot -- see docs/editorial-content.md
+  // and the i18n comment above this person's EN block for the full rationale.
+  // turning_point.2 (Rohingya-era conduct) moved to `complexities`, its old
+  // forced-symmetry interpretation dropped rather than carried over.
+  // achievement.2 is new: the 2015 election / State Counsellor role, sourced
+  // from citations already on this person's own record.
   "aung-san-suu-kyi": {
-    achievements: [{ id: "aung-san-suu-kyi-achievement-1", textKey: "aung-san-suu-kyi.achievement.1", sourceIds: ["src_assk_hrw"] }],
+    achievements: [
+      { id: "aung-san-suu-kyi-achievement-1", textKey: "aung-san-suu-kyi.achievement.1", sourceIds: ["src_assk_hrw"] },
+      { id: "aung-san-suu-kyi-achievement-2", textKey: "aung-san-suu-kyi.achievement.2", sourceIds: ["src_assk_jod", "src_assk_time"] },
+    ],
     moments: [
       { id: "aung-san-suu-kyi-moment-1", textKey: "aung-san-suu-kyi.moment.1", sourceIds: ["src_assk_time", "src_assk_own_writing"] },
       { id: "aung-san-suu-kyi-moment-2", textKey: "aung-san-suu-kyi.moment.2", sourceIds: ["src_assk_time"] },
@@ -1231,14 +1253,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_assk_own_writing", "src_assk_popham"],
       },
+    ],
+    // Evidence-gated, deliberately the only person in this pilot with one:
+    // the historical record itself (not just a trait trade-off) is genuinely
+    // contested here. No interpretationKey -- see the i18n comment for why
+    // an interpretation was judged riskier than none at all for this item.
+    complexities: [
       {
-        id: "aung-san-suu-kyi-turning-point-2",
-        textKey: "aung-san-suu-kyi.turning_point.2",
-        interpretationKey: "aung-san-suu-kyi.interpretation.turning_point.2",
-        attributeId: "conflict_tolerance",
+        id: "aung-san-suu-kyi-complexities-1",
+        textKey: "aung-san-suu-kyi.complexities.1",
         sourceIds: ["src_assk_aj_trouble", "src_assk_jod", "src_assk_aj_icj", "src_assk_asiatimes"],
       },
     ],
+    lifeArc: [
+      { year: "1945", textKey: "aung-san-suu-kyi.life_arc.1", sourceIds: ["src_assk_popham"] },
+      { year: "1988", textKey: "aung-san-suu-kyi.life_arc.2", sourceIds: ["src_assk_own_writing"] },
+      { year: "1989–2010", textKey: "aung-san-suu-kyi.life_arc.3", sourceIds: ["src_assk_hrw"] },
+      { year: "1991", textKey: "aung-san-suu-kyi.life_arc.4", sourceIds: ["src_assk_hrw"] },
+      { year: "2015", textKey: "aung-san-suu-kyi.life_arc.5", sourceIds: ["src_assk_jod", "src_assk_time"] },
+      { year: "2021", textKey: "aung-san-suu-kyi.life_arc.6", sourceIds: ["src_assk_asiatimes"] },
+    ],
+    legacy: { textKey: "aung-san-suu-kyi.legacy", sourceIds: ["src_assk_popham", "src_assk_hrw"] },
   },
 
   "ludwig-wittgenstein": {
@@ -1718,13 +1753,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
    * narrowed to what the rationale actually says. See the per-person
    * comments below for what was cut and why.
    */
+  // Profile V2 pilot (2026-08): the closure pass below correctly refused to
+  // back claims from outside knowledge, but left this profile without a
+  // single Achievement for one of the most consequential figures in
+  // computer science. Repaired by researching and verifying, directly
+  // against src_turing_wikipedia (live fetch, not memory), his 1936
+  // computability paper, Bletchley Park work, and 1950 AI paper -- exactly
+  // the "general knowledge consistent with cited sources" exception
+  // docs/editorial-content.md already describes, applied against a source
+  // already on this person's own record.
   "alan-turing": {
-    // Batch-7-closure provenance pass (2026-08): both achievements removed —
-    // neither the 1936 "On Computable Numbers" claim nor the Bletchley Bombe
-    // design claim traces to this person's own roster-file rationale, which
-    // covers only the 1941 Churchill letter below. Left achievement-empty
-    // rather than backed by outside knowledge; see docs/checkpoints/editorial.md.
-    achievements: [],
+    achievements: [
+      { id: "alan-turing-achievement-1", textKey: "alan-turing.achievement.1", sourceIds: ["src_turing_wikipedia"] },
+      { id: "alan-turing-achievement-2", textKey: "alan-turing.achievement.2", sourceIds: ["src_turing_wikipedia"] },
+      { id: "alan-turing-achievement-3", textKey: "alan-turing.achievement.3", sourceIds: ["src_turing_wikipedia"] },
+    ],
     moments: [
       {
         id: "alan-turing-moment-1",
@@ -1733,41 +1776,88 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_turing_biography"],
       },
+      { id: "alan-turing-moment-2", textKey: "alan-turing.moment.2", sourceIds: ["src_turing_wikipedia"] },
     ],
-    turningPoints: [],
+    // No interpretationKey, deliberately -- see Editorial Writing Standard v1:
+    // adding a trait-interpretive gloss to a account of his prosecution risked
+    // reading as "explaining" it via a personality trait. Facts stand alone.
+    turningPoints: [
+      { id: "alan-turing-turning-point-1", textKey: "alan-turing.turning_point.1", sourceIds: ["src_turing_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "1912", textKey: "alan-turing.life_arc.1", sourceIds: ["src_turing_wikipedia"] },
+      { year: "1936", textKey: "alan-turing.life_arc.2", sourceIds: ["src_turing_wikipedia"] },
+      { year: "1939–1945", textKey: "alan-turing.life_arc.3", sourceIds: ["src_turing_wikipedia"] },
+      { year: "1950", textKey: "alan-turing.life_arc.4", sourceIds: ["src_turing_wikipedia"] },
+      { year: "1952", textKey: "alan-turing.life_arc.5", sourceIds: ["src_turing_wikipedia"] },
+      { year: "1954", textKey: "alan-turing.life_arc.6", sourceIds: ["src_turing_wikipedia"] },
+    ],
+    legacy: { textKey: "alan-turing.legacy", sourceIds: ["src_turing_wikipedia"] },
   },
 
+  // Profile V2 pilot (2026-08): the AmEx episode (was achievement.1) is a
+  // single dated stock pick -- moved to Life Scenes. The 1965 Berkshire
+  // acquisition (was achievement.2) is a genuine trajectory shift -- moved
+  // to Turning Points, now first chronologically; the two original turning
+  // points renumber after it. Two new Achievements researched and verified
+  // directly against src_buffett_wikipedia (live fetch, not memory).
   "warren-buffett": {
     achievements: [
-      { id: "warren-buffett-achievement-1", textKey: "warren-buffett.achievement.1", sourceIds: ["src_buffett_biography"] },
-      { id: "warren-buffett-achievement-2", textKey: "warren-buffett.achievement.2", sourceIds: ["src_buffett_biography", "src_buffett_wikipedia"] },
+      { id: "warren-buffett-achievement-1", textKey: "warren-buffett.achievement.1", sourceIds: ["src_buffett_wikipedia"] },
+      { id: "warren-buffett-achievement-2", textKey: "warren-buffett.achievement.2", sourceIds: ["src_buffett_wikipedia"] },
     ],
-    moments: [],
+    moments: [
+      { id: "warren-buffett-moment-1", textKey: "warren-buffett.moment.1", sourceIds: ["src_buffett_biography"] },
+      { id: "warren-buffett-moment-2", textKey: "warren-buffett.moment.2", sourceIds: ["src_buffett_wikipedia"] },
+    ],
     turningPoints: [
       {
         id: "warren-buffett-turning-point-1",
         textKey: "warren-buffett.turning_point.1",
-        interpretationKey: "warren-buffett.interpretation.turning_point.1",
-        attributeId: "belief_updating",
-        sourceIds: ["src_buffett_biography"],
+        sourceIds: ["src_buffett_biography", "src_buffett_wikipedia"],
       },
       {
         id: "warren-buffett-turning-point-2",
         textKey: "warren-buffett.turning_point.2",
         interpretationKey: "warren-buffett.interpretation.turning_point.2",
+        attributeId: "belief_updating",
+        sourceIds: ["src_buffett_biography"],
+      },
+      {
+        id: "warren-buffett-turning-point-3",
+        textKey: "warren-buffett.turning_point.3",
+        interpretationKey: "warren-buffett.interpretation.turning_point.3",
         attributeId: "opportunity_sensing",
         sourceIds: ["src_buffett_wikipedia", "src_buffett_biography"],
       },
     ],
+    lifeArc: [
+      { year: "1930", textKey: "warren-buffett.life_arc.1", sourceIds: ["src_buffett_wikipedia"] },
+      { year: "1951", textKey: "warren-buffett.life_arc.2", sourceIds: ["src_buffett_wikipedia"] },
+      { year: "1954–1956", textKey: "warren-buffett.life_arc.3", sourceIds: ["src_buffett_wikipedia"] },
+      { year: "1956", textKey: "warren-buffett.life_arc.4", sourceIds: ["src_buffett_wikipedia"] },
+      { year: "1965", textKey: "warren-buffett.life_arc.5", sourceIds: ["src_buffett_biography", "src_buffett_wikipedia"] },
+      { year: "Present", textKey: "warren-buffett.life_arc.6", sourceIds: ["src_buffett_wikipedia"] },
+    ],
+    legacy: { textKey: "warren-buffett.legacy", sourceIds: ["src_buffett_wikipedia", "src_buffett_biography"] },
   },
 
+  // Profile V2 pilot (2026-08): the closure pass below left this profile
+  // with a single item and no sense of what Franklin actually did as a
+  // scientist. Repaired by researching and verifying, directly against
+  // src_rfranklin_wikipedia (live fetch, not memory), her coal research,
+  // DNA/X-ray crystallography work, and later virus-structure research --
+  // the "general knowledge consistent with cited sources" exception
+  // docs/editorial-content.md already describes, applied against a source
+  // already on this person's own record. achievement.1 states what she
+  // demonstrably did without asserting a resolution to the Watson/Crick
+  // credit question either way.
   "rosalind-franklin": {
-    // Batch-7-closure provenance pass (2026-08): the Photograph-51/DNA
-    // achievement and the Watson-Crick credit-dispute turning point both
-    // removed — neither appears anywhere in this person's own roster-file
-    // rationale, which covers only the Paris relocation below. Left with
-    // that one item rather than backed by outside knowledge.
-    achievements: [],
+    achievements: [
+      { id: "rosalind-franklin-achievement-1", textKey: "rosalind-franklin.achievement.1", sourceIds: ["src_rfranklin_wikipedia"] },
+      { id: "rosalind-franklin-achievement-2", textKey: "rosalind-franklin.achievement.2", sourceIds: ["src_rfranklin_wikipedia"] },
+      { id: "rosalind-franklin-achievement-3", textKey: "rosalind-franklin.achievement.3", sourceIds: ["src_rfranklin_wikipedia"] },
+    ],
     moments: [
       {
         id: "rosalind-franklin-moment-1",
@@ -1776,8 +1866,20 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_rfranklin_biography"],
       },
+      { id: "rosalind-franklin-moment-2", textKey: "rosalind-franklin.moment.2", sourceIds: ["src_rfranklin_wikipedia"] },
     ],
-    turningPoints: [],
+    turningPoints: [
+      { id: "rosalind-franklin-turning-point-1", textKey: "rosalind-franklin.turning_point.1", sourceIds: ["src_rfranklin_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "1920", textKey: "rosalind-franklin.life_arc.1", sourceIds: ["src_rfranklin_wikipedia"] },
+      { year: "1941–1945", textKey: "rosalind-franklin.life_arc.2", sourceIds: ["src_rfranklin_wikipedia"] },
+      { year: "1947–1950", textKey: "rosalind-franklin.life_arc.3", sourceIds: ["src_rfranklin_wikipedia"] },
+      { year: "1951–1953", textKey: "rosalind-franklin.life_arc.4", sourceIds: ["src_rfranklin_wikipedia"] },
+      { year: "1953–1958", textKey: "rosalind-franklin.life_arc.5", sourceIds: ["src_rfranklin_wikipedia"] },
+      { year: "1958", textKey: "rosalind-franklin.life_arc.6", sourceIds: ["src_rfranklin_wikipedia"] },
+    ],
+    legacy: { textKey: "rosalind-franklin.legacy", sourceIds: ["src_rfranklin_wikipedia"] },
   },
 
   "jane-goodall": {
@@ -1888,12 +1990,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Profile V2 pilot (2026-08): the closure pass below left this profile
+  // with a single turning point and nothing describing his actual musical
+  // output. Repaired with 2 Achievements and 2 Life Scenes (including the
+  // child-prodigy touring the closure pass had removed, restored here with
+  // real dates/venues), Life Arc, and Legacy -- all researched and verified
+  // directly against src_mozart_wikipedia (live fetch, not memory).
   "wolfgang-amadeus-mozart": {
-    // Batch-7-closure provenance pass (2026-08): the child-prodigy-touring
-    // achievement removed — it does not appear anywhere in this person's own
-    // roster-file rationale, which covers only the 1781 Salzburg break below.
-    achievements: [],
-    moments: [],
+    achievements: [
+      { id: "wolfgang-amadeus-mozart-achievement-1", textKey: "wolfgang-amadeus-mozart.achievement.1", sourceIds: ["src_mozart_wikipedia"] },
+      { id: "wolfgang-amadeus-mozart-achievement-2", textKey: "wolfgang-amadeus-mozart.achievement.2", sourceIds: ["src_mozart_wikipedia"] },
+    ],
+    moments: [
+      { id: "wolfgang-amadeus-mozart-moment-1", textKey: "wolfgang-amadeus-mozart.moment.1", sourceIds: ["src_mozart_wikipedia"] },
+      { id: "wolfgang-amadeus-mozart-moment-2", textKey: "wolfgang-amadeus-mozart.moment.2", sourceIds: ["src_mozart_wikipedia"] },
+    ],
     turningPoints: [
       {
         id: "wolfgang-amadeus-mozart-turning-point-1",
@@ -1903,6 +2014,15 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_mozart_wikipedia"],
       },
     ],
+    lifeArc: [
+      { year: "1756", textKey: "wolfgang-amadeus-mozart.life_arc.1", sourceIds: ["src_mozart_wikipedia"] },
+      { year: "1762–1766", textKey: "wolfgang-amadeus-mozart.life_arc.2", sourceIds: ["src_mozart_wikipedia"] },
+      { year: "1770s", textKey: "wolfgang-amadeus-mozart.life_arc.3", sourceIds: ["src_mozart_wikipedia"] },
+      { year: "1781", textKey: "wolfgang-amadeus-mozart.life_arc.4", sourceIds: ["src_mozart_wikipedia"] },
+      { year: "1786–1791", textKey: "wolfgang-amadeus-mozart.life_arc.5", sourceIds: ["src_mozart_wikipedia"] },
+      { year: "1791", textKey: "wolfgang-amadeus-mozart.life_arc.6", sourceIds: ["src_mozart_wikipedia"] },
+    ],
+    legacy: { textKey: "wolfgang-amadeus-mozart.legacy", sourceIds: ["src_mozart_wikipedia"] },
   },
 
   "mahatma-gandhi": {

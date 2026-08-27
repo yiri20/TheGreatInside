@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { LAUNCH_LOCALES, type Locale, type PersonEditorialItem } from "@core/types";
+import { LAUNCH_LOCALES, type Locale, type PersonEditorialItem, type LifeArcBeat } from "@core/types";
 import { personDisplayName, t, tOptional, type MessageKey } from "@core/i18n/index";
 import { editorialText } from "@core/i18n/editorial";
 import { localizedAlternates } from "@lib/seo";
@@ -45,6 +45,14 @@ function resolveEditorialItems(locale: Locale, items: readonly PersonEditorialIt
       interpretation: item.interpretationKey ? editorialText(locale, item.interpretationKey) : undefined,
     }))
     .filter((r): r is { item: PersonEditorialItem; text: string; interpretation: string | undefined } => r.text !== undefined);
+}
+
+/** Life Arc beats resolve like editorial items but never carry an
+ *  interpretation — chronological orientation only, see `LifeArcBeat`. */
+function resolveLifeArc(locale: Locale, beats: readonly LifeArcBeat[]) {
+  return beats
+    .map((beat) => ({ beat, text: editorialText(locale, beat.textKey) }))
+    .filter((r): r is { beat: LifeArcBeat; text: string } => r.text !== undefined);
 }
 
 /**
@@ -331,12 +339,39 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
         {(() => {
           const editorial = person.editorial;
           if (!editorial) return null;
+          const lifeArc = resolveLifeArc(locale, editorial.lifeArc ?? []);
           const achievements = resolveEditorialItems(locale, editorial.achievements);
           const moments = resolveEditorialItems(locale, editorial.moments);
           const turningPoints = resolveEditorialItems(locale, editorial.turningPoints);
-          if (achievements.length === 0 && moments.length === 0 && turningPoints.length === 0) return null;
+          const complexities = resolveEditorialItems(locale, editorial.complexities ?? []);
+          const legacyText = editorial.legacy ? editorialText(locale, editorial.legacy.textKey) : undefined;
+          if (
+            lifeArc.length === 0 &&
+            achievements.length === 0 &&
+            moments.length === 0 &&
+            turningPoints.length === 0 &&
+            complexities.length === 0 &&
+            legacyText === undefined
+          ) {
+            return null;
+          }
           return (
             <>
+              {lifeArc.length > 0 ? (
+                <>
+                  <Divider />
+                  <Stack gap={4}>
+                    <Heading level={2}>{t(locale, "person.life_arc_heading")}</Heading>
+                    <Stack gap={2}>
+                      {lifeArc.map(({ beat, text }) => (
+                        <Text key={beat.textKey}>
+                          <strong className="tgi-numeric">{beat.year}</strong> — {text}
+                        </Text>
+                      ))}
+                    </Stack>
+                  </Stack>
+                </>
+              ) : null}
               {achievements.length > 0 ? (
                 <>
                   <Divider />
@@ -353,6 +388,21 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
                 <>
                   <Divider />
                   <EditorialSection locale={locale} heading={t(locale, "person.turning_points_heading")} resolved={turningPoints} />
+                </>
+              ) : null}
+              {complexities.length > 0 ? (
+                <>
+                  <Divider />
+                  <EditorialSection locale={locale} heading={t(locale, "person.complexities_heading")} resolved={complexities} />
+                </>
+              ) : null}
+              {legacyText !== undefined ? (
+                <>
+                  <Divider />
+                  <Stack gap={4}>
+                    <Heading level={2}>{t(locale, "person.legacy_heading")}</Heading>
+                    <Text className="tgi-measure-stack">{legacyText}</Text>
+                  </Stack>
                 </>
               ) : null}
             </>

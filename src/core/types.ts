@@ -141,12 +141,47 @@ export interface PersonEditorialItem {
 }
 
 /**
- * Deliberately three separate, independently-optional arrays rather than a
- * fixed-shape "3 achievements + 2 moments + 1 turning point" template —
- * different lives have different evidence, and a person with two excellent
- * moments and no turning point should render that way, not be padded with
- * filler to hit a uniform count. An absent or empty array means the UI
- * section is omitted entirely, never rendered as an empty shell.
+ * One beat of a `lifeArc` — chronological orientation only. A short factual
+ * sentence, not a mini-essay, and never carries an interpretation: Life Arc's
+ * whole job is to let a reader place every Achievement/Scene/Turning Point
+ * that follows in time, not to itself argue a reading of the person.
+ */
+export interface LifeArcBeat {
+  /** Display year or range, e.g. "1809" or "1763–1766" — a plain string
+   *  rendered as given, not parsed. Beats must already be listed in the
+   *  chronological order they should render in. */
+  year: string;
+  /** Resolved via `editorialText()` — one concise factual sentence. */
+  textKey: string;
+  /** Same provenance discipline as `PersonEditorialItem.sourceIds` — a
+   *  subset of this person's own `Person.sources` ids. Optional because a
+   *  beat's date/place is often already covered by an Achievement/Scene/
+   *  Turning Point elsewhere on the same profile, not because Life Arc is
+   *  exempt from sourcing. */
+  sourceIds?: string[];
+}
+
+/** Closing synthesis, not a fact/interpretation pair (it already is one) —
+ *  what demonstrably endured or changed because of this person's work or
+ *  life. 2–4 sentences. Never eulogy language. */
+export interface PersonLegacy {
+  /** Resolved via `editorialText()`. */
+  textKey: string;
+  sourceIds?: string[];
+}
+
+/**
+ * Deliberately independently-optional fields rather than a fixed-shape
+ * template — different lives have different evidence, and a person with two
+ * excellent moments and no turning point should render that way, not be
+ * padded with filler to hit a uniform count. An absent or empty array/field
+ * means the UI section is omitted entirely, never rendered as an empty shell.
+ *
+ * Profile V2 pilot (2026-08, `feat/profile-v2-pilot-batch-1`): adds
+ * `lifeArc`/`complexities`/`legacy` to the original three. Piloted on 6
+ * people only — most of the roster has none of these three yet, which is
+ * expected, not a bug; `achievements`/`moments`/`turningPoints` alone is
+ * still a complete, valid profile.
  */
 export interface PersonEditorial {
   /** What they did, and why it mattered — concrete, not résumé bullets. */
@@ -155,6 +190,17 @@ export interface PersonEditorial {
   moments: PersonEditorialItem[];
   /** Failures, pivots, or reversals — what changed afterward. */
   turningPoints: PersonEditorialItem[];
+  /** Chronological skeleton, 5–7 beats. Optional — new field, most of the
+   *  roster doesn't have one yet. */
+  lifeArc?: LifeArcBeat[];
+  /** Evidence-gated and deliberately rare — only where the historical
+   *  record itself is genuinely contested or complicates an otherwise
+   *  positive read, never manufactured "balance." Most people should never
+   *  have one. Same `PersonEditorialItem` shape as the other three, so the
+   *  same fact/interpretation separation and sourcing discipline applies. */
+  complexities?: PersonEditorialItem[];
+  /** 2–4 closing sentences. Optional. */
+  legacy?: PersonLegacy;
 }
 
 /**

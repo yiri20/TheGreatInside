@@ -12,7 +12,7 @@
  * have English-only editorial content while translation catches up (see
  * `editorialText()`'s locale-strict, no-fallback design).
  */
-import type { Person, PersonEditorialItem } from "../types.js";
+import type { Person, PersonEditorialItem, LifeArcBeat, PersonLegacy } from "../types.js";
 import { ATTRIBUTE_IDS } from "../attributes/attributes.js";
 import { EDITORIAL_EN, EDITORIAL_KO } from "../i18n/editorial.js";
 
@@ -103,7 +103,7 @@ function checkBannedLanguage(
 
 function checkItem(
   personSlug: string,
-  category: "achievements" | "moments" | "turningPoints",
+  category: "achievements" | "moments" | "turningPoints" | "complexities",
   item: PersonEditorialItem,
   seenIds: Map<string, string>,
   validSourceIds: Set<string>,
@@ -158,6 +158,64 @@ function checkItem(
   checkBannedLanguage(personSlug, item, issues);
 }
 
+/** Life Arc beats never carry an interpretation, so this is a narrower check
+ *  than `checkItem` — textKey resolution and sourceId validity only, plus a
+ *  banned-language scan on the fact text itself (a beat is still a
+ *  historical claim, even a one-line one). */
+function checkLifeArcBeat(
+  personSlug: string,
+  beat: LifeArcBeat,
+  index: number,
+  validSourceIds: Set<string>,
+  issues: EditorialIssue[],
+): void {
+  const label = `lifeArc[${index}] (${beat.year || "(empty year)"})`;
+  if (!beat.year || beat.year.trim().length === 0) {
+    issues.push({ personSlug, itemId: label, problem: "lifeArc: empty year" });
+  }
+  if (!beat.textKey || beat.textKey.trim().length === 0) {
+    issues.push({ personSlug, itemId: label, problem: "lifeArc: empty textKey" });
+  } else {
+    const resolved = EDITORIAL_EN[beat.textKey];
+    if (resolved === undefined) {
+      issues.push({ personSlug, itemId: label, problem: `textKey "${beat.textKey}" has no EDITORIAL_EN entry` });
+    } else {
+      for (const problem of findBannedLanguageIssues(resolved, true)) {
+        issues.push({ personSlug, itemId: label, problem: `fact text ${problem}` });
+      }
+    }
+  }
+  for (const sourceId of beat.sourceIds ?? []) {
+    if (!validSourceIds.has(sourceId)) {
+      issues.push({ personSlug, itemId: label, problem: `sourceId "${sourceId}" is not one of this person's own Person.sources ids` });
+    }
+  }
+}
+
+/** Legacy is a single closing paragraph, not a fact/interpretation pair (it's
+ *  already synthesis) — checked for resolution, sourcing, and banned
+ *  language, same as any other published claim. */
+function checkLegacy(personSlug: string, legacy: PersonLegacy, validSourceIds: Set<string>, issues: EditorialIssue[]): void {
+  const label = "legacy";
+  if (!legacy.textKey || legacy.textKey.trim().length === 0) {
+    issues.push({ personSlug, itemId: label, problem: "legacy: empty textKey" });
+    return;
+  }
+  const resolved = EDITORIAL_EN[legacy.textKey];
+  if (resolved === undefined) {
+    issues.push({ personSlug, itemId: label, problem: `textKey "${legacy.textKey}" has no EDITORIAL_EN entry` });
+  } else {
+    for (const problem of findBannedLanguageIssues(resolved, true)) {
+      issues.push({ personSlug, itemId: label, problem: `fact text ${problem}` });
+    }
+  }
+  for (const sourceId of legacy.sourceIds ?? []) {
+    if (!validSourceIds.has(sourceId)) {
+      issues.push({ personSlug, itemId: label, problem: `sourceId "${sourceId}" is not one of this person's own Person.sources ids` });
+    }
+  }
+}
+
 /**
  * Every structural issue found across the whole roster's editorial content.
  * Empty array = clean. Never throws — a validation function that can only
@@ -170,10 +228,13 @@ export function validateEditorial(people: readonly Person[]): EditorialIssue[] {
   for (const person of people) {
     if (!person.editorial) continue;
     const validSourceIds = new Set(person.sources.map((s) => s.id));
-    const { achievements, moments, turningPoints } = person.editorial;
+    const { achievements, moments, turningPoints, lifeArc, complexities, legacy } = person.editorial;
     for (const item of achievements) checkItem(person.slug, "achievements", item, seenIds, validSourceIds, issues);
     for (const item of moments) checkItem(person.slug, "moments", item, seenIds, validSourceIds, issues);
     for (const item of turningPoints) checkItem(person.slug, "turningPoints", item, seenIds, validSourceIds, issues);
+    for (const item of complexities ?? []) checkItem(person.slug, "complexities", item, seenIds, validSourceIds, issues);
+    (lifeArc ?? []).forEach((beat, index) => checkLifeArcBeat(person.slug, beat, index, validSourceIds, issues));
+    if (legacy) checkLegacy(person.slug, legacy, validSourceIds, issues);
   }
 
   return issues;
@@ -186,6 +247,9 @@ export interface EditorialCoverageStats {
   achievementCount: number;
   momentCount: number;
   turningPointCount: number;
+  complexitiesCount: number;
+  peopleWithLifeArc: number;
+  peopleWithLegacy: number;
   itemsWithInterpretation: number;
   /** Share of authored English item text keys that also have a Korean entry. */
   koreanCoverage: number;
@@ -201,23 +265,31 @@ export function editorialCoverageStats(people: readonly Person[]): EditorialCove
   let achievementCount = 0;
   let momentCount = 0;
   let turningPointCount = 0;
+  let complexitiesCount = 0;
+  let peopleWithLifeArc = 0;
+  let peopleWithLegacy = 0;
   let itemsWithInterpretation = 0;
   const allKeys: string[] = [];
 
   for (const person of people) {
     if (!person.editorial) continue;
     peopleWithEditorial++;
-    const { achievements, moments, turningPoints } = person.editorial;
+    const { achievements, moments, turningPoints, lifeArc, complexities, legacy } = person.editorial;
     achievementCount += achievements.length;
     momentCount += moments.length;
     turningPointCount += turningPoints.length;
-    for (const item of [...achievements, ...moments, ...turningPoints]) {
+    complexitiesCount += complexities?.length ?? 0;
+    if (lifeArc && lifeArc.length > 0) peopleWithLifeArc++;
+    if (legacy) peopleWithLegacy++;
+    for (const item of [...achievements, ...moments, ...turningPoints, ...(complexities ?? [])]) {
       allKeys.push(item.textKey);
       if (item.interpretationKey) {
         itemsWithInterpretation++;
         allKeys.push(item.interpretationKey);
       }
     }
+    for (const beat of lifeArc ?? []) allKeys.push(beat.textKey);
+    if (legacy) allKeys.push(legacy.textKey);
   }
 
   const distinctKeys = new Set(allKeys);
@@ -231,6 +303,9 @@ export function editorialCoverageStats(people: readonly Person[]): EditorialCove
     achievementCount,
     momentCount,
     turningPointCount,
+    complexitiesCount,
+    peopleWithLifeArc,
+    peopleWithLegacy,
     itemsWithInterpretation,
     koreanCoverage: allKeys.length === 0 ? 1 : withKorean / allKeys.length,
     enKeyCount: distinctKeys.size,

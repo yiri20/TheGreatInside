@@ -356,6 +356,23 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Darwin held his theory of natural selection privately for roughly two decades, by his own account out of anxiety over its reception — in one letter comparing the prospect of publishing to 'confessing a murder.' He only moved to publish in 1858, after Wallace's letter describing an equivalent theory arrived and made further delay untenable.",
   "charles-darwin.interpretation.moment.1":
     "Set beside the broader pattern his correspondence and biographers describe — routing confrontation over the theory through allies rather than engaging it directly — this reads as one instance of a general operating mode, not an isolated act of nerves.",
+  /* Profile V2 pilot (2026-08), control case: existing achievements/moments/
+     turning point are already strong and deliberately left unrewritten --
+     only Life Arc and Legacy added, both basic uncontested chronology
+     already well within what this person's existing sources (Janet
+     Browne's definitive two-volume biography, the Darwin Correspondence
+     Project) support; re-verified live rather than assumed. */
+  "charles-darwin.life_arc.1": "Born in Shrewsbury, England.",
+  "charles-darwin.life_arc.2":
+    "Sailed as ship's naturalist aboard HMS Beagle, gathering the observations that shaped his later theory.",
+  "charles-darwin.life_arc.3":
+    "Married his cousin Emma Wedgwood; the family later settled at Down House in Kent.",
+  "charles-darwin.life_arc.4":
+    "Alfred Russel Wallace's letter describing an equivalent theory prompted a joint presentation to the Linnean Society.",
+  "charles-darwin.life_arc.5": "Published On the Origin of Species.",
+  "charles-darwin.life_arc.6": "Died at Down House; buried at Westminster Abbey.",
+  "charles-darwin.legacy":
+    "Darwin's theory of evolution by natural selection became the unifying framework of modern biology, and On the Origin of Species remains one of the most consequential books in the history of science. His extensive notebooks and correspondence, preserved and studied for more than a century after his death, continue to shape how historians of science understand the development of his ideas.",
   "charles-darwin.interpretation.turning_point.1":
     "The profile's low risk-tolerance score is one plausible reading of that two-decade wait; professional caution or sheer thoroughness would explain some of the same delay, but Darwin's own description of the decision makes a temperamental reading hard to set aside entirely.",
 
@@ -814,20 +831,51 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Accepting exile and lost commissions rather than disavowing a political commitment to preserve his career is consistent with the profile's independent_thinking and risk_tolerance scores.",
 
   /* --------------------------------------------------- Batch 4: A.S. Suu Kyi */
+  /* Profile V2 pilot (2026-08), Complexities pilot: turning_point.2's Rohingya-era
+     material is not really a personal-trajectory turning point in the sense
+     turning_point.1 is -- it's later conduct that complicates an otherwise
+     heroic reputation, exactly the shape Complexities exists for. Moved there
+     verbatim (facts unchanged, already well-hedged: "international
+     investigators characterized," her own words quoted for her defense
+     rather than the profile asserting a verdict). Its old interpretation
+     read both this period AND the 1988 return as one continuous expression
+     of conflict_tolerance -- a forced-symmetry reading that risked morally
+     flattening two very differently-valenced episodes into one neutral
+     trait descriptor. Dropped rather than kept or rewritten: per the Writing
+     Standard, not every item needs an interpretation, and this is exactly
+     the case where adding one is riskier than leaving the facts to stand on
+     their own. achievement.2 (the 2015 election / State Counsellor role) is
+     new, giving the 2015 shift its own home as a genuine accomplishment
+     distinct from the later Complexities material, sourced from this
+     person's own existing citations (src_assk_jod, src_assk_time) --
+     already on her record, re-verified for this specific claim rather than
+     assumed to cover it. */
   "aung-san-suu-kyi.achievement.1":
     "In 1990 the National League for Democracy, which she co-founded and led, won a landslide election victory while she remained under house arrest and unable to campaign; the ruling military junta refused to recognize the result or transfer power. She was awarded the 1991 Nobel Peace Prize the following year, still unable to travel to accept it in person, and directed the full prize money — roughly $1.3 million — into a health and education trust for the Burmese people rather than keep it.",
+  "aung-san-suu-kyi.achievement.2":
+    "In November 2015, she led the National League for Democracy to a landslide election victory, forming Myanmar's first government led by her party after five decades of military-dominated rule. Barred from the presidency by a constitutional provision aimed specifically at her because her sons hold foreign citizenship, she took the newly created role of State Counsellor to lead the government in practice.",
   "aung-san-suu-kyi.moment.1":
     "Her father, independence leader Aung San, was assassinated by political rivals when she was two years old, and she was raised largely on his posthumous reputation while her mother became a prominent public figure in her own right, serving as Burma's ambassador to India and Nepal. In her own essay \"Freedom from Fear,\" she later held up her father's willingness \"to speak the truth, to stand by his word, to accept criticism, to admit his faults, to correct his mistakes, to respect the opposition\" as her model for confronting fear.",
   "aung-san-suu-kyi.moment.2":
     "Across roughly fifteen of the twenty-one years she spent under house arrest between 1989 and 2010, she kept a routine of pre-dawn meditation, extensive reading — including biographies of Gandhi, Nehru, and Mandela — and household chores, following outside news by BBC radio without a telephone, computer, or internet connection for most of the period. She practiced piano regularly in the earlier part of her detention, reportedly Mozart, until Burma's humidity permanently warped the instrument out of tune.",
   "aung-san-suu-kyi.turning_point.1":
     "She returned to Burma in March 1988 only to nurse her mother after a stroke, with no stated political intention. Within six months she had addressed a rally of roughly half a million people at the Shwedagon Pagoda calling for democratic government, later explaining the shift in her own words: \"I could not as my father's daughter remain indifferent to all that was going on.\"",
-  "aung-san-suu-kyi.turning_point.2":
-    "After her party's 2015 election landslide, she led Myanmar's government as State Counsellor during a 2017 military campaign against Rohingya communities that international investigators characterized as involving mass killing, rape, and arson; her government maintained public silence on the military's conduct for an extended period and did not use its parliamentary majority to reform laws used to imprison journalists and critics. In December 2019 she personally led Myanmar's legal defense at the International Court of Justice, telling the court that the 2017 violence should be understood as a domestic counter-insurgency response rather than a campaign against civilians. In February 2021 the military she had defended at the Hague arrested her in a coup that rejected her party's re-election, and as of this writing she remains in military custody, more than five years later.",
   "aung-san-suu-kyi.interpretation.turning_point.1":
     "This account, told in her own words years later, is consistent with the profile's proactive_agency score — a stated shift from a private, literary life to national political leadership within months, prompted by circumstance rather than long premeditation.",
-  "aung-san-suu-kyi.interpretation.turning_point.2":
-    "The same sustained willingness to hold an unpopular, high-stakes position under pressure — opposing the military that once imprisoned her, and later defending that same military internationally — is what the profile's conflict_tolerance score is drawing on across both periods of her life.",
+  "aung-san-suu-kyi.complexities.1":
+    "As State Counsellor from 2016, she led Myanmar's civilian government during a 2017 military campaign against Rohingya communities that international investigators characterized as involving mass killing, rape, and arson; her government did not publicly criticize the military's conduct during this period. In December 2019 she personally represented Myanmar at the International Court of Justice, arguing that the 2017 violence should be understood as a domestic counter-insurgency response rather than a campaign against civilians. In February 2021, the same military arrested her in a coup that annulled her party's re-election; she remains in military custody as of this writing.",
+  "aung-san-suu-kyi.life_arc.1":
+    "Born in Rangoon, British Burma; her father, independence leader Aung San, was assassinated when she was two.",
+  "aung-san-suu-kyi.life_arc.2":
+    "Returned to Burma to nurse her mother, and within months became the leading figure of the pro-democracy movement.",
+  "aung-san-suu-kyi.life_arc.3": "Spent most of two decades under house arrest imposed by the military government.",
+  "aung-san-suu-kyi.life_arc.4": "Awarded the Nobel Peace Prize, unable to travel to accept it in person.",
+  "aung-san-suu-kyi.life_arc.5":
+    "Led her party to a landslide election victory and became State Counsellor, Myanmar's de facto civilian head of government.",
+  "aung-san-suu-kyi.life_arc.6":
+    "Arrested in a military coup that annulled her party's re-election; remains in custody as of this writing.",
+  "aung-san-suu-kyi.legacy":
+    "Aung San Suu Kyi became one of the most recognized symbols of nonviolent resistance to military rule in the late twentieth century, and her decades under house arrest drew sustained international attention to Myanmar's democracy movement. Her later record as head of Myanmar's civilian government, particularly its response to the 2017 Rohingya crisis, is judged far more critically, and she remains in military custody following the 2021 coup as of this writing.",
 
   /* --------------------------------------------------- Batch 4: L. Wittgenstein */
   "ludwig-wittgenstein.achievement.1":
@@ -1120,33 +1168,83 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Rebuilding a full academic and literary career on a different continent, under permanently changed physical circumstances, is the specific kind of evidence this profile's adaptability score is built on.",
 
   /* ------------------------------------------- Batch 7 (exposure-priority): Alan Turing */
-  /* CLOSURE PASS: achievements 1-2 deleted (unsupported by this person's roster rationale). moment.1 corrected to match the rationale's own quoted phrase and dropped an invented colleague count. */
+  /* CLOSURE PASS: achievements 1-2 deleted (unsupported by this person's roster rationale). moment.1 corrected to match the rationale's own quoted phrase and dropped an invented colleague count. Profile V2 pilot (2026-08): restored genuine Achievements, added a second Life Scene, a Turning Point, Life Arc and Legacy -- all newly researched and verified directly against src_turing_wikipedia (live fetch, not memory), not this person's roster-file rationale. See docs/editorial-content.md's "general knowledge consistent with cited sources" exception -- the closure pass had read that exception more narrowly than the doc itself states; this pilot applies it as written, against a source already on this person's own record. */
+  "alan-turing.achievement.1":
+    "In a 1936 paper, \"On Computable Numbers, with an Application to the Entscheidungsproblem,\" Turing introduced the concept of a universal computing machine capable of carrying out any computation expressible as an algorithm — a theoretical foundation later described as one of the most influential mathematics papers in history, and the conceptual basis of the modern computer, years before any such machine was physically built.",
+  "alan-turing.achievement.2":
+    "At Bletchley Park from 1939, Turing led the design of the Bombe, an electromechanical machine that automated the search for the German military's Enigma cipher settings; official war historian Harry Hinsley later estimated that the codebreaking work Turing's methods enabled shortened the war in Europe by more than two years.",
+  "alan-turing.achievement.3":
+    "In a 1950 paper, \"Computing Machinery and Intelligence,\" Turing proposed what became known as the Turing test — judging whether a machine could be considered to \"think\" by whether its conversation was indistinguishable from a human's — a framing that still structures debates about artificial intelligence more than seventy years later.",
   "alan-turing.moment.1":
     "In 1941, with the Bletchley Park codebreaking effort short on staff and equipment despite official channels not acting with urgency, Turing wrote directly to Winston Churchill with colleagues, bypassing the normal chain of command. Churchill's \"Action this day\" response, ordering that they be given what they needed, is documented.",
   "alan-turing.interpretation.moment.1":
     "This is consistent with the profile's high proactive_agency score: rather than escalate a resourcing problem through the ordinary channels available to him, he wrote directly to the one person positioned to act on it immediately.",
+  "alan-turing.moment.2":
+    "Turing's wartime codebreaking work remained officially classified for decades after his death, and was not disclosed to the public until Frederick Winterbotham's 1974 memoir The Ultra Secret began revealing what had happened at Bletchley Park — meaning his public reputation during his own lifetime rested almost entirely on his mathematical and computing work, with his wartime contribution unknown outside a small circle.",
+  "alan-turing.turning_point.1":
+    "In 1952, Turing was prosecuted under British law for homosexual acts, then a criminal offense, after reporting a burglary that led police to his relationship with another man. He accepted a course of hormone treatment as an alternative to prison, lost the security clearance that had let him continue government cryptography work, and died of cyanide poisoning in June 1954, ruled a suicide by the inquest at the time. Queen Elizabeth II granted him a posthumous royal pardon in 2013.",
+  "alan-turing.life_arc.1": "Born in London.",
+  "alan-turing.life_arc.2": "Published \"On Computable Numbers,\" introducing the theoretical concept of a universal computing machine.",
+  "alan-turing.life_arc.3": "Worked at Bletchley Park leading the design of the Bombe, breaking German Enigma-coded messages.",
+  "alan-turing.life_arc.4": "Published \"Computing Machinery and Intelligence,\" proposing the Turing test.",
+  "alan-turing.life_arc.5": "Prosecuted for homosexuality and stripped of his security clearance.",
+  "alan-turing.life_arc.6": "Died in Wilmslow, England, at age 41.",
+  "alan-turing.legacy":
+    "Turing is now widely regarded as a founding figure of both theoretical computer science and artificial intelligence, and Bletchley Park's codebreaking work — kept secret for decades after the war — is understood as a major contribution to the Allied victory. The 2013 royal pardon formally acknowledged the injustice of his 1952 prosecution, and his name is now attached to computing's highest honor, the ACM A.M. Turing Award.",
 
   /* ------------------------------------------ Batch 7 (exposure-priority): Warren Buffett */
-  /* CLOSURE PASS (round 2 — re-verified against the roster file directly rather than from memory): achievement.1 also had an unsourced 1963 date and "reputation as a value investor" framing; narrowed further to the rationale's own "central to his identity" phrase. achievement.2 also had an unsourced "struggling textile manufacturer" characterization; removed. */
+  /* CLOSURE PASS (round 2 — re-verified against the roster file directly rather than from memory): achievement.1 also had an unsourced 1963 date and "reputation as a value investor" framing; narrowed further to the rationale's own "central to his identity" phrase. achievement.2 also had an unsourced "struggling textile manufacturer" characterization; removed. Profile V2 pilot (2026-08): the AmEx episode (originally achievement.1) is a single dated stock pick, not a career-level accomplishment -- moved to Life Scenes. The 1965 Berkshire acquisition (originally achievement.2) is a genuine before/after trajectory shift -- moved to Turning Points, now first chronologically. Two new Achievements added describing what Buffett actually built over five decades, researched and verified directly against src_buffett_wikipedia (live fetch, not memory). */
   "warren-buffett.achievement.1":
-    "Recognized mispriced opportunities before the wider market within his own analytical frame — notably American Express during the \"salad-oil scandal\" and GEICO — a skill central to his identity as an investor, extensively documented.",
+    "Beginning in 1965, Buffett transformed Berkshire Hathaway from a failing textile manufacturer he bought at $14.86 a share into a diversified holding company, closing its last textile mills in 1985; under his leadership Berkshire's book value per share grew at a compounded annual rate of roughly 19–20% over the following five decades, one of the most sustained investment track records on record.",
   "warren-buffett.achievement.2":
-    "In 1965, took control of Berkshire Hathaway by buying up shares after a dispute with its existing management, rather than waiting to be invited onto its board.",
+    "Rather than trading individual stocks, Buffett built most of Berkshire's scale by acquiring whole businesses outright and holding them indefinitely — including GEICO and See's Candies — while its 1988 purchase of roughly 7% of Coca-Cola for $1.02 billion and its 2009 acquisition of Burlington Northern Santa Fe for $34 billion became two of the largest and most enduring commitments of his career.",
+  "warren-buffett.moment.1":
+    "Recognized mispriced opportunities before the wider market within his own analytical frame — notably American Express during the \"salad-oil scandal\" and GEICO — a skill central to his identity as an investor, extensively documented.",
+  "warren-buffett.moment.2":
+    "In 1951, as a 20-year-old graduate student, Buffett traveled to GEICO's Washington, D.C. headquarters on a Saturday and was received by Lorimer Davidson, one of the only executives on site, for a conversation about the insurance business that shaped his early investment thinking; decades later, Berkshire acquired GEICO outright.",
   "warren-buffett.turning_point.1":
-    "On Charlie Munger's influence, and using See's Candies as the specific evidence, shifted from Benjamin Graham's \"cigar-butt\" style of buying statistically cheap, mediocre businesses toward paying fair prices for \"wonderful companies\" — one of his most clearly self-articulated reversals.",
-  "warren-buffett.interpretation.turning_point.1":
-    "Buffett has described this shift himself, in shareholder letters and interviews, as one of the clearest reversals in his investing approach — consistent with the profile's high belief_updating score.",
+    "In 1965, took control of Berkshire Hathaway by buying up shares after a dispute with its existing management, rather than waiting to be invited onto its board.",
   "warren-buffett.turning_point.2":
-    "For decades, avoided investing in technology companies, citing an inability to reliably forecast their long-term economics under his own \"circle of competence\" principle. He has since acknowledged in shareholder letters that this caution came at a real cost, including missing years of gains in companies he eventually did invest in, such as Apple in 2016.",
+    "On Charlie Munger's influence, and using See's Candies as the specific evidence, shifted from Benjamin Graham's \"cigar-butt\" style of buying statistically cheap, mediocre businesses toward paying fair prices for \"wonderful companies\" — one of his most clearly self-articulated reversals.",
   "warren-buffett.interpretation.turning_point.2":
+    "Buffett has described this shift himself, in shareholder letters and interviews, as one of the clearest reversals in his investing approach — consistent with the profile's high belief_updating score.",
+  "warren-buffett.turning_point.3":
+    "For decades, avoided investing in technology companies, citing an inability to reliably forecast their long-term economics under his own \"circle of competence\" principle. He has since acknowledged in shareholder letters that this caution came at a real cost, including missing years of gains in companies he eventually did invest in, such as Apple in 2016.",
+  "warren-buffett.interpretation.turning_point.3":
     "This profile marks the trade-off dual-edged, matching the roster's own reasoning: the same narrow-frame discipline behind the tech-investing miss also protected Berkshire from the dot-com crash.",
+  "warren-buffett.life_arc.1": "Born in Omaha, Nebraska.",
+  "warren-buffett.life_arc.2": "Earned a master's degree in economics at Columbia University, studying under Benjamin Graham.",
+  "warren-buffett.life_arc.3": "Worked as a securities analyst at Graham's firm, Graham-Newman Corporation, in New York.",
+  "warren-buffett.life_arc.4": "Founded the investment partnership Buffett Partnership Ltd. in Omaha.",
+  "warren-buffett.life_arc.5": "Took control of Berkshire Hathaway, then a struggling textile manufacturer.",
+  "warren-buffett.life_arc.6": "Continues to serve as Berkshire Hathaway's chairman and CEO into his mid-nineties, one of the longest tenures of any public company leader.",
+  "warren-buffett.legacy":
+    "Buffett's decades-long track record at Berkshire Hathaway is among the most closely studied in investing history, and his annual shareholder letters have shaped how generations of investors think about value, patience, and capital allocation. Under his leadership, Berkshire grew from a failing textile mill into one of the largest companies in the world, and he built a public reputation — captured in the nickname \"the Oracle of Omaha\" — as one of the most consistently successful investors of his era.",
 
   /* --------------------------------------- Batch 7 (exposure-priority): Rosalind Franklin */
-  /* CLOSURE PASS: achievement.1 (Photograph 51) and turning_point.1 (Watson-Crick credit dispute) deleted — neither is in this person's own roster rationale. moment.1 narrowed to drop an invented "King's College / DNA fibers" return detail not in that rationale either. */
+  /* CLOSURE PASS: achievement.1 (Photograph 51) and turning_point.1 (Watson-Crick credit dispute) deleted — neither is in this person's own roster rationale. moment.1 narrowed to drop an invented "King's College / DNA fibers" return detail not in that rationale either. Profile V2 pilot (2026-08): the closure pass left this profile with a single item and no sense of what Franklin actually did as a scientist. Repaired by researching and verifying, directly against src_rfranklin_wikipedia (live fetch), her coal research, her DNA/X-ray crystallography work, and her later virus-structure research at Birkbeck. achievement.1 states what she demonstrably did and found without asserting a resolution to the Watson/Crick credit question either way -- it says her data was used without her knowledge, and that her own paper ran alongside theirs, both directly supported facts, and stops there. */
+  "rosalind-franklin.achievement.1":
+    "At King's College London between 1951 and 1953, Franklin used X-ray diffraction to capture the sharpest images yet made of DNA fibers, including the image later known as Photograph 51, and was the first to establish that DNA existed in two distinct structural forms depending on humidity and that its phosphate backbone sat on the outside of the molecule. James Watson and Francis Crick drew on her unpublished data and measurements, without her knowledge at the time, in building the double-helix model they published in Nature in April 1953; her own paper, presenting independently derived supporting evidence, was published alongside theirs in the same issue.",
+  "rosalind-franklin.achievement.2":
+    "Her PhD research on the physical chemistry of coal at the British Coal Utilisation Research Association (1942–1945) established relationships between coal's microstructure and its density and permeability that became part of the standard science of coal and carbon materials; her subsequent postdoctoral work in Paris (1947–1950) under Jacques Mering made her an accomplished X-ray crystallographer and produced the terms \"graphitizing\" and \"non-graphitizing\" carbon still used in the field today.",
+  "rosalind-franklin.achievement.3":
+    "At Birkbeck College from 1953 until her death in 1958, Franklin led X-ray studies of virus structure, establishing in 1955 that all tobacco mosaic virus particles were a uniform length — contradicting the prevailing view among virologists at the time — and secured the largest research grant Birkbeck had received to that point to study the structure of poliovirus, work left unfinished at her death.",
   "rosalind-franklin.moment.1":
     "After WWII, moved to Paris for several years specifically to learn X-ray diffraction crystallography, a technique not readily available to her in England at the time — an entirely self-directed piece of skill acquisition.",
   "rosalind-franklin.interpretation.moment.1":
     "Read against the profile's proactive_agency score, this is a case of going abroad to acquire a specific technical capability, rather than working only with the tools already close at hand.",
+  "rosalind-franklin.moment.2":
+    "At King's College, Franklin built and refined a specialized camera to precisely control the humidity of her DNA samples during X-ray exposure, reasoning that the fiber's structure changed measurably with moisture — a months-long technical refinement, not a single fortunate exposure, and what let her capture the unusually sharp Photograph 51.",
+  "rosalind-franklin.turning_point.1":
+    "In early 1953, after months of a difficult working relationship with colleague Maurice Wilkins at King's College — the two had been given conflicting understandings of her role, he expecting a supporting collaborator and she an independent researcher leading her own project — Franklin left DNA research and moved to Birkbeck College to lead an entirely new research program on virus structure.",
+  "rosalind-franklin.life_arc.1": "Born in London.",
+  "rosalind-franklin.life_arc.2": "Completed a PhD in physical chemistry at Cambridge, researching the porosity of coal.",
+  "rosalind-franklin.life_arc.3": "Worked in Paris under Jacques Mering, becoming an expert X-ray crystallographer.",
+  "rosalind-franklin.life_arc.4": "Researched DNA structure at King's College London, producing Photograph 51.",
+  "rosalind-franklin.life_arc.5": "Led virus-structure research at Birkbeck College, including work on the tobacco mosaic virus and poliovirus.",
+  "rosalind-franklin.life_arc.6": "Died of ovarian cancer in London, at age 37, with her poliovirus research unfinished.",
+  "rosalind-franklin.legacy":
+    "Franklin's X-ray data was essential evidence in determining the structure of DNA, and her later work on virus structure is recognized as foundational to structural virology; she died four years before the 1962 Nobel Prize that recognized Watson, Crick, and Wilkins for the DNA discovery, a prize not normally awarded posthumously. Her contribution has since been widely re-examined and credited: the Royal Society's Rosalind Franklin Award, established in 2003, recognizes outstanding contributions to STEM by women, and the European Space Agency's ExoMars rover is named in her honor.",
 
   /* -------------------------------------------- Batch 7 (exposure-priority): Jane Goodall */
   /* CLOSURE PASS: moment.1 narrowed to drop an invented "no university degree" claim and an invented "most established researchers... unconventional" characterization not in this person's own roster rationale. turning_point.1 narrowed to drop an invented 1986/conference detail. CLOSURE PASS round 2: achievement.1 and moment.1 also had an invented "1960" date (not in the rationale) and achievement.1 an invented "first documented case... in a non-human animal" superlative; both dropped. */
@@ -1207,11 +1305,28 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's proactive_agency score, marked dual-edged in this profile: the same self-initiated organizing that built the movement also brought direct personal and legal risk.",
 
   /* -------------------------------- Batch 7 (exposure-priority): Wolfgang Amadeus Mozart */
-  /* CLOSURE PASS: achievement.1 (child-prodigy touring) deleted — not in this person's own roster rationale. turning_point.1 narrowed to drop an invented Archbishop's name and the invented "literal kick from a steward" anecdote; Vienna and the freelance-vs-fixed-position framing are retained since both are directly in that rationale. */
+  /* CLOSURE PASS: achievement.1 (child-prodigy touring) deleted — not in this person's own roster rationale. turning_point.1 narrowed to drop an invented Archbishop's name and the invented "literal kick from a steward" anecdote; Vienna and the freelance-vs-fixed-position framing are retained since both are directly in that rationale. Profile V2 pilot (2026-08): the closure pass left this profile with a single turning point and nothing describing his actual musical output -- repaired with 2 Achievements, 2 Life Scenes (including the child-prodigy touring the closure pass had removed, restored here with real dates/venues rather than the earlier undated version), Life Arc, and Legacy, all researched and verified directly against src_mozart_wikipedia (live fetch, not memory). */
+  "wolfgang-amadeus-mozart.achievement.1":
+    "Across roughly three decades of composing, Mozart completed more than 800 works, catalogued by Köchel number from K. 1 (a minuet, written around age six) to K. 626 (the unfinished Requiem) — an output spanning symphony (41 completed), concerto (27 for piano alone), opera, chamber music, and sacred music, each pursued as a sustained body of work rather than an occasional exercise.",
+  "wolfgang-amadeus-mozart.achievement.2":
+    "His mature operas with librettist Lorenzo Da Ponte — The Marriage of Figaro (1786) and Don Giovanni (1787) — combined comic and serious material in ways that departed from the conventions of opera buffa at the time, and remain core repertoire for opera companies today alongside his final opera, The Magic Flute (1791).",
+  "wolfgang-amadeus-mozart.moment.1":
+    "Between 1763 and 1766, Mozart's father took him and his sister on a continuous tour of European courts, including an October 1762 performance for Empress Maria Theresa at Schönbrunn Palace in Vienna and later appearances before the French and British royal families — years of public performance before his professional composing career had properly begun.",
+  "wolfgang-amadeus-mozart.moment.2":
+    "In the summer of 1788, without a specific commission driving the work, Mozart completed his last three symphonies — No. 39, No. 40, and No. 41 (\"Jupiter\") — within a span of roughly six weeks, one of the most concentrated productive stretches documented in his output.",
   "wolfgang-amadeus-mozart.turning_point.1":
     "In 1781, broke from his employment as a court musician to the Archbishop of Salzburg, actively pursuing an independent freelance career as a composer and performer in Vienna rather than continuing in an assigned court position — an unusual arrangement for a composer of his time.",
   "wolfgang-amadeus-mozart.interpretation.turning_point.1":
     "Read against the profile's dual-edged proactive_agency score, this secured him creative and professional independence rare for a composer of the period, but also left him financially precarious for the rest of his life, dependent on commissions, concerts, and teaching rather than a stable salary.",
+  "wolfgang-amadeus-mozart.life_arc.1": "Born in Salzburg.",
+  "wolfgang-amadeus-mozart.life_arc.2": "Toured European courts as a child prodigy performer with his father and sister.",
+  "wolfgang-amadeus-mozart.life_arc.3": "Worked as a court musician for the Archbishop of Salzburg.",
+  "wolfgang-amadeus-mozart.life_arc.4": "Broke from court employment and settled in Vienna as an independent composer.",
+  "wolfgang-amadeus-mozart.life_arc.5":
+    "Composed his most enduring operas and final symphonies, including The Marriage of Figaro, Don Giovanni, and The Magic Flute.",
+  "wolfgang-amadeus-mozart.life_arc.6": "Died in Vienna at age 35, leaving the Requiem unfinished.",
+  "wolfgang-amadeus-mozart.legacy":
+    "Mozart's operas, symphonies, and chamber works have remained in continuous performance since his death, and he is regarded as one of the most significant composers in the Western classical tradition. His harmonic and structural innovations, and the sheer range of his output across nearly every musical form of his time, influenced generations of composers who followed him.",
 
   /* -------------------------------------- Batch 7 (exposure-priority): Mahatma Gandhi */
   /* CLOSURE PASS: achievement.1 narrowed to drop an invented "early 1900s" date and an invented "discriminatory laws targeting the Indian community" characterization — this person's own roster rationale describes only "local grievances in South Africa." CLOSURE PASS round 2: turning_point.1 also had an invented "Dandi" destination, "salt tax and monopoly" legal mechanism, and a "chosen specifically because..." motivation — none in the rationale, which names only "the Salt March... in deliberate defiance of British law"; narrowed to that. */
@@ -1557,6 +1672,17 @@ export const EDITORIAL_KO: Record<string, string> = {
     "다윈은 자연선택 이론을 약 20년 동안 개인적으로만 간직했는데, 스스로 밝힌 바에 따르면 그 반응에 대한 불안 때문이었다 — 한 편지에서는 이론을 발표하는 일을 '살인을 자백하는 것 같다'고 표현하기도 했다. 그는 월리스가 동등한 이론을 설명한 편지를 보내와 더 이상 미룰 수 없게 된 1858년에야 비로소 발표에 나섰다.",
   "charles-darwin.interpretation.moment.1":
     "그의 서신과 전기 작가들이 기록한 더 넓은 패턴 — 이론에 대한 반박을 직접 맞서기보다 동료를 통해 처리하는 방식 — 과 나란히 놓고 보면, 이는 한 번의 예외적인 회피라기보다 그가 일반적으로 취한 대응 방식 중 하나로 읽힌다.",
+  /* Profile V2 pilot (2026-08), control case: see the EN block's comment for
+     what changed and why -- only Life Arc and Legacy added. */
+  "charles-darwin.life_arc.1": "잉글랜드 슈루즈베리에서 태어났다.",
+  "charles-darwin.life_arc.2": "비글호의 박물학자로 항해하며, 훗날 이론의 토대가 된 관찰 자료를 수집했다.",
+  "charles-darwin.life_arc.3": "사촌 엠마 웨지우드와 결혼했으며, 가족은 이후 켄트주의 다운 하우스에 정착했다.",
+  "charles-darwin.life_arc.4":
+    "앨프리드 러셀 월리스가 동일한 이론을 설명한 편지를 보내오면서 린네학회에서의 공동 발표가 성사되었다.",
+  "charles-darwin.life_arc.5": "「종의 기원」을 출간했다.",
+  "charles-darwin.life_arc.6": "다운 하우스에서 사망했으며, 웨스트민스터 사원에 안장되었다.",
+  "charles-darwin.legacy":
+    "다윈의 자연선택에 의한 진화론은 현대 생물학을 하나로 묶는 틀이 되었으며, 「종의 기원」은 과학사에서 가장 중대한 저작 가운데 하나로 남아 있다. 그의 방대한 노트와 서신은 사후 한 세기가 넘도록 보존되고 연구되며, 오늘날까지도 과학사가들이 그의 사상이 발전한 과정을 이해하는 데 계속 활용되고 있다.",
   "charles-darwin.interpretation.turning_point.1":
     "프로필의 낮은 위험 감수(risk_tolerance) 점수는 그 20년의 유예를 설명하는 하나의 타당한 해석이다 — 직업적 신중함이나 순전한 철저함으로도 그 지연의 일부는 설명될 수 있겠지만, 다윈 스스로 그 결정을 묘사한 방식은 성향적 해석을 완전히 배제하기 어렵게 만든다.",
 
@@ -2015,20 +2141,32 @@ export const EDITORIAL_KO: Record<string, string> = {
     "경력을 지키기 위해 정치적 신념을 저버리는 대신 망명과 의뢰 상실을 감수한 것은 프로필의 독립적 사고(independent_thinking)와 위험 감수(risk_tolerance) 점수와 부합한다.",
 
   /* --------------------------------------------------- Batch 4: A.S. Suu Kyi */
+  /* Profile V2 pilot (2026-08), Complexities pilot: see the EN block's comment
+     for what changed and why -- old turning_point.2 moved to complexities.1
+     (facts unchanged), its forced-symmetry interpretation dropped rather than
+     kept, achievement.2 (2015 election / State Counsellor role) new. */
   "aung-san-suu-kyi.achievement.1":
     "1990년, 그가 공동 창당하고 이끌던 민족민주동맹은 그가 가택연금 상태로 선거운동을 할 수 없었음에도 압도적인 선거 승리를 거두었지만, 집권 군사정권은 그 결과를 인정하거나 권력을 이양하기를 거부했다. 이듬해 그는 1991년 노벨평화상을 수상했으나 여전히 직접 시상식에 참석할 수 없었고, 약 130만 달러에 이르는 상금 전액을 자신이 갖는 대신 버마 국민을 위한 보건·교육 신탁기금에 넣었다.",
+  "aung-san-suu-kyi.achievement.2":
+    "2015년 11월, 그는 민족민주동맹을 압도적인 선거 승리로 이끌며 군부 지배가 이어진 지 50여 년 만에 처음으로 자신의 정당이 이끄는 정부를 미얀마에 세웠다. 아들들이 외국 국적을 가지고 있다는 이유로 그를 겨냥해 만들어진 헌법 조항 때문에 대통령직에 오를 수 없었던 그는, 새로 만들어진 국가고문직을 맡아 실질적으로 정부를 이끌었다.",
   "aung-san-suu-kyi.moment.1":
     "그의 아버지이자 독립운동 지도자였던 아웅 산은 그가 두 살 때 정적들에게 암살당했고, 그는 아버지의 사후 명성 속에서 성장했으며 그의 어머니 역시 인도·네팔 주재 버마 대사를 지내며 독자적으로 저명한 공적 인물이 되었다. 그는 자신의 에세이 「두려움으로부터의 자유」에서 아버지가 지녔던 자세 — '진실을 말하고, 자신의 말에 책임을 지고, 비판을 받아들이고, 자신의 잘못을 인정하고, 실수를 바로잡고, 반대편을 존중하는' 태도 — 를 훗날 두려움에 맞서는 자신의 본보기로 꼽았다.",
   "aung-san-suu-kyi.moment.2":
     "1989년부터 2010년까지 가택연금 상태로 보낸 21년 가운데 약 15년 동안, 그는 새벽 명상과 폭넓은 독서 — 간디·네루·만델라의 전기를 포함해서 — 그리고 집안일로 이루어진 규칙적인 생활을 유지했으며, 대부분의 기간 동안 전화도 컴퓨터도 인터넷도 없이 BBC 라디오 방송으로만 바깥소식을 접했다. 연금 초기에는 정기적으로 피아노를 연주했다고 — 주로 모차르트를 — 전해지지만, 버마의 습도가 악기를 영구히 뒤틀리게 하면서 이를 그만두었다.",
   "aung-san-suu-kyi.turning_point.1":
     "그는 1988년 3월, 뇌졸중을 앓은 어머니를 간병하려는 목적만으로 버마에 돌아왔으며 당시에는 어떤 정치적 의도도 밝히지 않았다. 그러나 여섯 달 만에 그는 슈웨다곤 파고다에서 약 50만 명이 모인 집회에서 민주정부를 촉구하는 연설을 했고, 훗날 이 변화를 자신의 말로 이렇게 설명했다 — '아버지의 딸로서 나는 벌어지고 있는 그 모든 일에 무관심할 수 없었다.'",
-  "aung-san-suu-kyi.turning_point.2":
-    "2015년 총선에서 압승을 거둔 뒤, 그는 국가고문으로서 미얀마 정부를 이끌었으며, 이 재임 기간인 2017년 로힝야 공동체를 겨냥한 군사 작전이 벌어졌고 국제 조사관들은 이를 대규모 살해·강간·방화를 포함한 사건으로 규정했다. 그의 정부는 군의 행위에 대해 오랫동안 공개적으로 침묵을 지켰으며, 언론인과 비판자들을 처벌하는 데 쓰이던 법률을 개정할 수 있는 의회 다수 의석을 가지고도 이를 개정하지 않았다. 2019년 12월 그는 국제사법재판소에서 미얀마의 법률 대응단을 직접 이끌며, 2017년의 폭력 사태를 민간인을 겨냥한 작전이 아니라 국내 대테러 대응으로 이해해야 한다고 법정에서 주장했다. 2021년 2월, 그가 헤이그에서 변호했던 바로 그 군부는 그의 정당의 재선을 부정하는 쿠데타를 일으켜 그를 체포했으며, 이 글을 쓰는 현재까지 5년 넘게 그는 여전히 군의 구금 상태에 있다.",
   "aung-san-suu-kyi.interpretation.turning_point.1":
     "수년 뒤 그 자신의 말로 전해진 이 설명은 프로필의 선제적 행동력(proactive_agency) 점수와 부합한다 — 오랜 사전 계획이 아니라 상황에 떠밀려, 사적이고 문학적인 삶에서 국가적 정치 지도자로 몇 달 만에 바뀌었다고 스스로 말한 변화다.",
-  "aung-san-suu-kyi.interpretation.turning_point.2":
-    "한때 자신을 가두었던 군부에 맞섰던 시기와, 훗날 국제무대에서 바로 그 군부를 옹호했던 시기 — 이 두 시기를 관통하는, 인기 없고 위험 부담이 큰 입장을 꾸준히 견지하는 동일한 태도가 프로필의 갈등 감내(conflict_tolerance) 점수가 담아내는 부분이다.",
+  "aung-san-suu-kyi.complexities.1":
+    "2016년부터 국가고문으로서 그는 미얀마의 민간정부를 이끌었으며, 이 재임 기간인 2017년 로힝야 공동체를 겨냥한 군사 작전이 벌어졌고 국제 조사관들은 이를 대규모 살해·강간·방화를 포함한 사건으로 규정했다. 그의 정부는 이 시기 군의 행위를 공개적으로 비판하지 않았다. 2019년 12월 그는 국제사법재판소에서 미얀마를 직접 대표해, 2017년의 폭력 사태를 민간인을 겨냥한 작전이 아니라 국내 대테러 대응으로 이해해야 한다고 주장했다. 2021년 2월, 바로 그 군부는 그의 정당의 재선을 무효로 하는 쿠데타를 일으켜 그를 체포했으며, 이 글을 쓰는 현재까지도 그는 군의 구금 상태에 있다.",
+  "aung-san-suu-kyi.life_arc.1": "영국령 버마 랑군에서 태어났다. 독립운동 지도자였던 아버지 아웅 산은 그가 두 살 때 암살당했다.",
+  "aung-san-suu-kyi.life_arc.2": "어머니를 간병하러 버마로 돌아왔다가, 몇 달 만에 민주화 운동의 구심점이 되었다.",
+  "aung-san-suu-kyi.life_arc.3": "군사정부에 의해 21년 중 대부분을 가택연금 상태로 보냈다.",
+  "aung-san-suu-kyi.life_arc.4": "노벨평화상을 수상했으나 직접 시상식에 참석하지는 못했다.",
+  "aung-san-suu-kyi.life_arc.5": "정당을 압도적 승리로 이끌며 미얀마의 사실상 민간정부 수반인 국가고문이 되었다.",
+  "aung-san-suu-kyi.life_arc.6": "정당의 재선을 무효로 한 군사 쿠데타로 체포되어, 이 글을 쓰는 현재까지 구금 상태에 있다.",
+  "aung-san-suu-kyi.legacy":
+    "아웅 산 수 치는 20세기 후반 군사 통치에 대한 비폭력 저항의 가장 널리 알려진 상징 가운데 한 명이 되었으며, 그가 가택연금 상태로 보낸 수십 년은 미얀마 민주화 운동에 국제사회의 지속적인 관심을 불러일으켰다. 이후 미얀마 민간정부 수반으로서의 행적, 특히 2017년 로힝야 위기에 대한 정부의 대응은 훨씬 더 비판적으로 평가받고 있으며, 그는 2021년 쿠데타 이후 이 글을 쓰는 현재까지도 군의 구금 상태에 있다.",
 
   /* --------------------------------------------------- Batch 4: L. Wittgenstein */
   "ludwig-wittgenstein.achievement.1":
@@ -2321,31 +2459,83 @@ export const EDITORIAL_KO: Record<string, string> = {
     "사고 이후 다른 대륙에서, 영구적으로 달라진 신체적 조건 속에서 온전한 학문적·문학적 경력을 다시 쌓아 올린 것은, 이 프로필의 적응력 점수가 근거로 삼는 구체적인 종류의 증거다.",
 
   /* ------------------------------------------- Batch 7 (exposure-priority): Alan Turing */
-  /* CLOSURE PASS: achievements 1-2 deleted (unsupported by this person's roster rationale). moment.1 corrected to match the rationale's own quoted phrase and dropped an invented colleague count. */
+  /* CLOSURE PASS: achievements 1-2 deleted (unsupported by this person's roster rationale). moment.1 corrected to match the rationale's own quoted phrase and dropped an invented colleague count. Profile V2 pilot (2026-08): see the EN block's comment for what changed and why. */
+  "alan-turing.achievement.1":
+    "1936년 논문 「계산 가능한 수에 관하여, 결정문제에의 응용과 함께」에서 튜링은 알고리즘으로 표현 가능한 모든 계산을 수행할 수 있는 '보편 계산 기계'라는 개념을 제시했다 — 훗날 수학사에서 가장 영향력 있는 논문 가운데 하나로 평가받는 이 이론적 토대는, 그런 기계가 실제로 만들어지기 수년 전에 나온 현대 컴퓨터 개념의 근간이다.",
+  "alan-turing.achievement.2":
+    "1939년부터 블레츨리 파크에서 튜링은 독일군의 에니그마 암호 설정을 자동으로 찾아내는 전기기계식 장치 '봄브'의 설계를 주도했다. 전쟁사 공식 역사가 해리 힌슬리는 튜링의 방법이 가능하게 한 암호 해독 작업이 유럽 전선의 전쟁을 2년 이상 단축시켰다고 추산했다.",
+  "alan-turing.achievement.3":
+    "1950년 논문 「계산 기계와 지능」에서 튜링은 훗날 '튜링 테스트'로 알려지게 될 개념을 제안했다 — 기계와의 대화가 인간과 구별되지 않는지를 기준으로 그 기계가 '생각한다'고 볼 수 있는지를 판단하는 방법이며, 이 틀은 70여 년이 지난 지금도 인공지능 논쟁의 기본 구도로 쓰인다.",
   "alan-turing.moment.1":
     "1941년, 공식 채널이 시급하게 움직이지 않는 가운데 블레츨리 파크의 암호 해독 작업이 인력과 장비 부족에 놓이자, 튜링은 동료들과 함께 자신들의 지휘 계통을 건너뛰어 윈스턴 처칠에게 직접 편지를 보냈다. 필요한 것을 지원하라는 처칠의 \"오늘 안에 조치할 것\" 답신은 기록으로 남아 있다.",
   "alan-turing.interpretation.moment.1":
     "프로필의 높은 선제적 행동력(proactive_agency) 점수와 일치하는 대목이다 — 자원 부족 문제를 정해진 통상적 절차를 통해 제기하는 대신, 즉시 조치를 취할 수 있는 바로 그 사람에게 직접 편지를 보낸 것이다.",
+  "alan-turing.moment.2":
+    "튜링의 전시 암호 해독 작업은 그의 사후에도 수십 년간 공식적으로 기밀로 남아 있었고, 프레더릭 윈터보텀의 1974년 회고록 「울트라 시크릿」이 블레츨리 파크에서 있었던 일을 밝히기 시작하면서야 대중에게 알려졌다 — 즉 그의 생전 평판은 거의 전적으로 수학과 컴퓨팅 분야의 업적에 근거했을 뿐, 전시의 기여는 소수의 관계자 밖에서는 알려지지 않았다.",
+  "alan-turing.turning_point.1":
+    "1952년 튜링은 당시 영국에서 범죄였던 동성애 행위 혐의로 기소되었는데, 그가 신고한 절도 사건을 수사하던 경찰이 그와 다른 남성의 관계를 알게 된 것이 발단이었다. 그는 수감 대신 호르몬 치료 — 이른바 화학적 거세 — 를 받아들였고, 이로 인해 정부 암호 해독 작업을 계속할 수 있게 해주던 보안 등급을 잃었으며, 1954년 6월 청산가리 중독으로 사망했는데 당시 검시에서는 자살로 판정되었다. 엘리자베스 2세 여왕은 2013년 그에게 사후 특별사면을 내렸다.",
+  "alan-turing.life_arc.1": "런던에서 태어났다.",
+  "alan-turing.life_arc.2": "「계산 가능한 수에 관하여」를 발표해 보편 계산 기계라는 이론적 개념을 제시했다.",
+  "alan-turing.life_arc.3": "블레츨리 파크에서 봄브 설계를 주도하며 독일군의 에니그마 암호 통신을 해독했다.",
+  "alan-turing.life_arc.4": "「계산 기계와 지능」을 발표해 튜링 테스트를 제안했다.",
+  "alan-turing.life_arc.5": "동성애 혐의로 기소되어 보안 등급을 박탈당했다.",
+  "alan-turing.life_arc.6": "잉글랜드 윌름슬로에서 41세로 사망했다.",
+  "alan-turing.legacy":
+    "튜링은 오늘날 이론 컴퓨터 과학과 인공지능 두 분야 모두의 창시자로 널리 평가받으며, 종전 후 수십 년간 비밀로 유지되었던 블레츨리 파크의 암호 해독 작업은 연합군 승리에 크게 기여한 것으로 이해되고 있다. 2013년의 왕실 사면은 그에 대한 기소가 부당했음을 공식적으로 인정한 것이었고, 그의 이름은 오늘날 컴퓨팅 분야 최고 권위의 상인 ACM 튜링상에 남아 있다.",
 
   /* ------------------------------------------ Batch 7 (exposure-priority): Warren Buffett */
-  /* CLOSURE PASS (round 2 — re-verified against the roster file directly rather than from memory): achievement.1 also had an unsourced 1963 date and "reputation as a value investor" framing; narrowed further to the rationale's own "central to his identity" phrase. achievement.2 also had an unsourced "struggling textile manufacturer" characterization; removed. */
+  /* CLOSURE PASS (round 2 — re-verified against the roster file directly rather than from memory): achievement.1 also had an unsourced 1963 date and "reputation as a value investor" framing; narrowed further to the rationale's own "central to his identity" phrase. achievement.2 also had an unsourced "struggling textile manufacturer" characterization; removed. Profile V2 pilot (2026-08): see the EN block's comment for what changed and why. */
   "warren-buffett.achievement.1":
-    "'샐러드유 스캔들' 당시, 아메리칸 익스프레스의 기회가 시장에서 잘못 평가되고 있음을 자신의 분석 틀 안에서 남들보다 먼저 알아보고 투자했다 — 가이코 투자와 함께, 투자자로서 그의 정체성에 핵심이 되며 폭넓게 기록된 능력이다.",
+    "1965년부터 버핏은 주당 14.86달러에 인수한, 쇠퇴해가던 방직회사 버크셔 해서웨이를 다각화된 지주회사로 탈바꿈시켰고 1985년에는 남아 있던 방직 공장들을 모두 정리했다. 그의 경영 아래 이후 50년 동안 버크셔의 주당 순자산가치는 연평균 약 19~20%의 복리 수익률로 성장했는데, 이는 기록상 가장 오래 지속된 투자 실적 가운데 하나로 꼽힌다.",
   "warren-buffett.achievement.2":
-    "1965년, 기존 경영진과의 분쟁 끝에 지분을 더 사들여 버크셔 해서웨이의 경영권을 직접 확보했다 — 이사회에 초대받기를 기다리는 대신 택한 길이었다.",
+    "버핏은 개별 주식을 사고파는 대신, 기업 전체를 인수해 무기한 보유하는 방식으로 버크셔의 규모 대부분을 키웠다 — 가이코와 씨즈 캔디가 그 예이며, 1988년 약 10억 2천만 달러를 들여 코카콜라 지분 약 7%를 매입한 것과 2009년 340억 달러에 벌링턴 노던 산타페를 인수한 것은 그의 경력에서 가장 크고 오래 지속된 투자 결정으로 꼽힌다.",
+  "warren-buffett.moment.1":
+    "'샐러드유 스캔들' 당시, 아메리칸 익스프레스의 기회가 시장에서 잘못 평가되고 있음을 자신의 분석 틀 안에서 남들보다 먼저 알아보고 투자했다 — 가이코 투자와 함께, 투자자로서 그의 정체성에 핵심이 되며 폭넓게 기록된 능력이다.",
+  "warren-buffett.moment.2":
+    "1951년, 스무 살의 대학원생이었던 버핏은 토요일에 워싱턴 D.C.에 있는 가이코 본사를 찾아가 당시 현장에 남아 있던 몇 안 되는 임원 중 한 명이었던 로리머 데이비드슨을 만나 보험업에 관한 대화를 나눴다 — 이 대화는 그의 초기 투자관에 영향을 주었고, 수십 년 뒤 버크셔는 가이코를 완전히 인수하게 된다.",
   "warren-buffett.turning_point.1":
-    "찰리 멍거의 영향을 받아, 그리고 씨즈 캔디를 구체적인 근거로 삼아, 통계적으로 저렴하지만 평범한 기업을 사들이는 벤저민 그레이엄의 '담배꽁초' 방식에서 벗어나 '훌륭한 기업'에 정당한 값을 치르는 쪽으로 옮겨갔다 — 그의 투자 경력에서 가장 명확하게 스스로 밝힌 입장 전환 가운데 하나다.",
-  "warren-buffett.interpretation.turning_point.1":
-    "버핏 본인이 주주서한과 인터뷰에서 이 전환을 자신의 투자 방식 중 가장 뚜렷한 전환 사례로 직접 설명해왔다 — 프로필의 높은 입장 수정 성향(belief_updating) 점수와 일치하는 대목이다.",
+    "1965년, 기존 경영진과의 분쟁 끝에 지분을 더 사들여 버크셔 해서웨이의 경영권을 직접 확보했다 — 이사회에 초대받기를 기다리는 대신 택한 길이었다.",
   "warren-buffett.turning_point.2":
-    "수십 년 동안, 자신의 '능력범위' 원칙에 따라 장기적인 경제성을 신뢰성 있게 예측할 수 없다는 이유로 기술 기업 투자를 피해왔다. 이후 주주서한에서 이 신중함이 실제로 대가를 치렀다고 인정했는데, 2016년에야 투자한 애플처럼 결국 투자하게 된 기업들에서 여러 해의 수익 기회를 놓친 것이 그 예다.",
+    "찰리 멍거의 영향을 받아, 그리고 씨즈 캔디를 구체적인 근거로 삼아, 통계적으로 저렴하지만 평범한 기업을 사들이는 벤저민 그레이엄의 '담배꽁초' 방식에서 벗어나 '훌륭한 기업'에 정당한 값을 치르는 쪽으로 옮겨갔다 — 그의 투자 경력에서 가장 명확하게 스스로 밝힌 입장 전환 가운데 하나다.",
   "warren-buffett.interpretation.turning_point.2":
+    "버핏 본인이 주주서한과 인터뷰에서 이 전환을 자신의 투자 방식 중 가장 뚜렷한 전환 사례로 직접 설명해왔다 — 프로필의 높은 입장 수정 성향(belief_updating) 점수와 일치하는 대목이다.",
+  "warren-buffett.turning_point.3":
+    "수십 년 동안, 자신의 '능력범위' 원칙에 따라 장기적인 경제성을 신뢰성 있게 예측할 수 없다는 이유로 기술 기업 투자를 피해왔다. 이후 주주서한에서 이 신중함이 실제로 대가를 치렀다고 인정했는데, 2016년에야 투자한 애플처럼 결국 투자하게 된 기업들에서 여러 해의 수익 기회를 놓친 것이 그 예다.",
+  "warren-buffett.interpretation.turning_point.3":
     "이 프로필은 이 대목을 양면적인 것으로 평가하며, 이는 애초의 평가 근거와도 일치한다 — 기술 투자를 놓치게 만든 바로 그 좁은 범위의 원칙이 동시에 버크셔를 닷컴 붕괴로부터 지켜주었다.",
+  "warren-buffett.life_arc.1": "네브래스카주 오마하에서 태어났다.",
+  "warren-buffett.life_arc.2": "컬럼비아 대학교에서 벤저민 그레이엄에게 배우며 경제학 석사 학위를 받았다.",
+  "warren-buffett.life_arc.3": "뉴욕에서 그레이엄의 회사인 그레이엄-뉴먼에서 증권분석가로 일했다.",
+  "warren-buffett.life_arc.4": "오마하에서 투자조합 버핏 파트너십을 설립했다.",
+  "warren-buffett.life_arc.5": "당시 쇠퇴해가던 방직회사였던 버크셔 해서웨이의 경영권을 확보했다.",
+  "warren-buffett.life_arc.6":
+    "90대 중반에 이른 지금도 버크셔 해서웨이의 회장 겸 CEO로 재직 중이며, 상장기업 최고경영자 중 가장 오랜 재임 기록 가운데 하나다.",
+  "warren-buffett.legacy":
+    "버크셔 해서웨이에서 버핏이 남긴 수십 년의 실적은 투자 역사상 가장 면밀히 연구된 사례로 꼽히며, 그의 연례 주주서한은 여러 세대의 투자자들이 가치·인내·자본배분을 사고하는 방식에 영향을 끼쳤다. 그의 경영 아래 버크셔는 쇠퇴해가던 방직회사에서 세계 최대 기업 중 하나로 성장했으며, 그는 '오마하의 현인'이라는 별명으로 대표되는, 당대 가장 일관되게 성공적인 투자자라는 대중적 평판을 얻었다.",
 
   /* --------------------------------------- Batch 7 (exposure-priority): Rosalind Franklin */
-  /* CLOSURE PASS: achievement.1 (Photograph 51) and turning_point.1 (Watson-Crick credit dispute) deleted — neither is in this person's own roster rationale. moment.1 narrowed to drop an invented "King's College / DNA fibers" return detail not in that rationale either. */
+  /* CLOSURE PASS: achievement.1 (Photograph 51) and turning_point.1 (Watson-Crick credit dispute) deleted — neither is in this person's own roster rationale. moment.1 narrowed to drop an invented "King's College / DNA fibers" return detail not in that rationale either. Profile V2 pilot (2026-08): see the EN block's comment for what changed and why. */
+  "rosalind-franklin.achievement.1":
+    "1951년부터 1953년까지 킹스칼리지 런던에서 프랭클린은 X선 회절을 이용해 그때까지 나온 것 중 가장 선명한 DNA 섬유 이미지 — 훗날 '사진 51번'으로 알려지는 이미지를 포함해 — 를 촬영했고, DNA가 습도에 따라 두 가지 뚜렷한 구조 형태로 존재한다는 것과 인산기 골격이 분자 바깥쪽에 위치한다는 것을 처음으로 규명했다. 제임스 왓슨과 프랜시스 크릭은 당시 그의 동의 없이, 그가 모르는 사이에 그의 미발표 자료와 측정값을 활용해 1953년 4월 네이처에 발표한 이중나선 모델을 구성했다. 프랭클린 자신의 논문은 독자적으로 도출한 근거자료를 담아 같은 호에 나란히 게재되었다.",
+  "rosalind-franklin.achievement.2":
+    "영국석탄이용연구협회(1942~1945)에서 진행한 석탄의 물리화학에 관한 박사 연구에서 그는 석탄의 미세구조와 다공성·투과성 사이의 관계를 규명했으며, 이는 이후 석탄·탄소 연구의 표준적인 지식이 되었다. 이어 파리에서 자크 메링 아래 진행한 박사후 연구(1947~1950)를 통해 뛰어난 X선 결정학자로 성장했고, 오늘날에도 이 분야에서 쓰이는 '흑연화 탄소'와 '비흑연화 탄소'라는 용어를 만들어냈다.",
+  "rosalind-franklin.achievement.3":
+    "1953년부터 1958년 사망할 때까지 버크벡 칼리지에서 프랭클린은 바이러스 구조에 관한 X선 연구를 이끌었다. 1955년에는 당시 바이러스학자들의 통념과 달리 담배모자이크바이러스 입자가 모두 균일한 길이를 갖는다는 것을 밝혀냈고, 버크벡이 그때까지 받은 것 중 가장 큰 규모의 연구비를 확보해 폴리오바이러스 구조 연구에 나섰으나 이 연구는 그의 사망으로 마무리되지 못했다.",
   "rosalind-franklin.moment.1":
     "제2차 세계대전 이후, 당시 영국에서는 쉽게 접할 수 없었던 X선 회절 결정학 기법을 배우기 위해 몇 년간 파리로 건너갔다 — 전적으로 스스로 결정한 기술 습득이었다.",
+  "rosalind-franklin.moment.2":
+    "킹스칼리지에서 프랭클린은 X선 촬영 중 DNA 시료의 습도를 정밀하게 조절할 수 있는 전용 카메라를 직접 제작하고 개선했다 — 습도에 따라 섬유의 구조가 측정 가능한 수준으로 달라진다는 판단에서였다. 이는 한 번의 우연한 촬영이 아니라 몇 달에 걸친 기술적 개선의 결과였으며, 바로 이 작업 덕분에 유난히 선명한 사진 51번을 얻을 수 있었다.",
+  "rosalind-franklin.turning_point.1":
+    "1953년 초, 킹스칼리지의 동료 모리스 윌킨스와 몇 달째 이어진 껄끄러운 관계 끝에 — 두 사람은 그의 역할을 서로 다르게 이해하고 있었는데, 윌킨스는 그를 자신을 보조하는 협력자로 여겼고 그는 스스로를 자신의 프로젝트를 이끄는 독립 연구자로 여겼다 — 프랭클린은 DNA 연구를 완전히 떠나 버크벡 칼리지로 옮겨 이전에 다뤄본 적 없는 바이러스 구조 연구를 새로 이끌게 되었다.",
+  "rosalind-franklin.life_arc.1": "런던에서 태어났다.",
+  "rosalind-franklin.life_arc.2": "케임브리지에서 석탄의 다공성을 연구해 물리화학 박사 학위를 받았다.",
+  "rosalind-franklin.life_arc.3": "파리에서 자크 메링 아래 연구하며 뛰어난 X선 결정학자로 성장했다.",
+  "rosalind-franklin.life_arc.4": "킹스칼리지 런던에서 DNA 구조를 연구하며 사진 51번을 촬영했다.",
+  "rosalind-franklin.life_arc.5":
+    "버크벡 칼리지에서 담배모자이크바이러스와 폴리오바이러스를 포함한 바이러스 구조 연구를 이끌었다.",
+  "rosalind-franklin.life_arc.6": "런던에서 37세에 난소암으로 사망했으며, 폴리오바이러스 연구는 마무리되지 못했다.",
+  "rosalind-franklin.legacy":
+    "프랭클린의 X선 자료는 DNA 구조를 규명하는 데 결정적인 근거였으며, 이후 그의 바이러스 구조 연구는 구조바이러스학의 토대로 평가받는다. 그는 왓슨·크릭·윌킨스가 DNA 발견으로 노벨상을 받은 1962년보다 4년 앞서 사망했는데, 노벨상은 통상 사후에 수여되지 않는다. 그의 기여는 이후 폭넓게 재조명되고 인정받았다 — 2003년 제정된 왕립학회의 로절린드 프랭클린상은 여성의 과학기술 공헌을 기리며, 유럽우주국의 화성 탐사 로버 역시 그의 이름을 따 명명되었다.",
   "rosalind-franklin.interpretation.moment.1":
     "프로필의 선제적 행동력(proactive_agency) 점수에 비추어 보면, 이는 가까이 있는 도구만으로 버티는 대신 특정 기술을 직접 배우러 외국으로 떠난 사례다.",
 
@@ -2407,11 +2597,28 @@ export const EDITORIAL_KO: Record<string, string> = {
   "wangari-maathai.interpretation.turning_point.1":
     "프로필의 선제적 행동력(proactive_agency) 점수와 일치하는 대목이며, 이 프로필에서는 양면적인 것으로 표시되어 있다 — 운동을 일구어낸 바로 그 자발적 조직 활동이 동시에 직접적인 개인적·법적 위험도 불러온 것이다.",
 
-  /* CLOSURE PASS: achievement.1 (child-prodigy touring) deleted — not in this person's own roster rationale. turning_point.1 narrowed to drop an invented Archbishop's name and the invented "literal kick from a steward" anecdote; Vienna and the freelance-vs-fixed-position framing are retained since both are directly in that rationale. */
+  /* CLOSURE PASS: achievement.1 (child-prodigy touring) deleted — not in this person's own roster rationale. turning_point.1 narrowed to drop an invented Archbishop's name and the invented "literal kick from a steward" anecdote; Vienna and the freelance-vs-fixed-position framing are retained since both are directly in that rationale. Profile V2 pilot (2026-08): see the EN block's comment for what changed and why. */
+  "wolfgang-amadeus-mozart.achievement.1":
+    "약 30년에 걸친 작곡 활동 동안 모차르트는 쾨헬 번호로 정리된 800곡이 넘는 작품을 남겼다 — 여섯 살 무렵 쓴 미뉴에트인 K.1부터 미완성으로 남은 레퀴엠 K.626까지다. 그의 작품은 교향곡(41곡), 협주곡(피아노협주곡만 27곡), 오페라, 실내악, 종교음악에 이르기까지 각 장르를 일회성이 아닌 지속적인 작업으로 다뤘다.",
+  "wolfgang-amadeus-mozart.achievement.2":
+    "대본가 로렌초 다 폰테와 함께 작업한 원숙기 오페라 「피가로의 결혼」(1786)과 「돈 조반니」(1787)은 당대 오페라 부파의 관습에서 벗어나 희극적 요소와 진지한 요소를 결합했으며, 마지막 오페라 「마술피리」(1791)와 함께 오늘날에도 오페라 극장의 핵심 레퍼토리로 남아 있다.",
+  "wolfgang-amadeus-mozart.moment.1":
+    "1763년부터 1766년까지 모차르트의 아버지는 그와 누나를 데리고 유럽 궁정들을 도는 순회공연에 나섰다 — 1762년 10월 빈 쇤브룬 궁전에서 마리아 테레지아 여제 앞에서 연주한 것을 시작으로, 이후 프랑스와 영국 왕실 앞에서도 공연했다. 이는 그의 전문 작곡가 경력이 본격적으로 시작되기 훨씬 전, 대중 앞에서 연주로 다져진 시간이었다.",
+  "wolfgang-amadeus-mozart.moment.2":
+    "1788년 여름, 특별한 위촉 없이 모차르트는 마지막 세 교향곡 — 39번, 40번, 41번('주피터') — 을 약 6주 만에 완성했다. 그의 작품 활동 전체에서 가장 집중적인 생산성을 보인 시기 중 하나로 기록된다.",
   "wolfgang-amadeus-mozart.turning_point.1":
     "1781년, 잘츠부르크 대주교 밑에서 궁정 음악가로 일하던 자리를 그만두고, 고정된 궁정 자리 대신 빈에서 프리랜서 작곡가 겸 연주자로서 독립적인 경력을 적극적으로 추구했다 — 당대 작곡가로서는 이례적인 방식이었다.",
   "wolfgang-amadeus-mozart.interpretation.turning_point.1":
     "프로필의 양면적인 선제적 행동력(proactive_agency) 점수에 비추어 보면, 이 선택은 당대 작곡가로서는 드문 창작과 직업적 독립을 그에게 안겨주었지만, 동시에 안정적인 봉급 대신 위촉과 연주, 교습에 기대야 했던 만큼 남은 생애 내내 재정적으로 불안정한 처지에 놓이게도 했다.",
+  "wolfgang-amadeus-mozart.life_arc.1": "잘츠부르크에서 태어났다.",
+  "wolfgang-amadeus-mozart.life_arc.2": "아버지·누나와 함께 유럽 궁정을 순회하며 신동 연주자로 활동했다.",
+  "wolfgang-amadeus-mozart.life_arc.3": "잘츠부르크 대주교의 궁정악사로 일했다.",
+  "wolfgang-amadeus-mozart.life_arc.4": "궁정 고용에서 벗어나 빈에 정착해 독립 작곡가로 활동하기 시작했다.",
+  "wolfgang-amadeus-mozart.life_arc.5":
+    "「피가로의 결혼」, 「돈 조반니」, 「마술피리」 등 가장 오래 사랑받는 오페라와 후기 교향곡들을 작곡했다.",
+  "wolfgang-amadeus-mozart.life_arc.6": "35세에 빈에서 사망했으며, 레퀴엠은 미완성으로 남았다.",
+  "wolfgang-amadeus-mozart.legacy":
+    "모차르트의 오페라·교향곡·실내악 작품들은 그의 사후에도 끊임없이 연주되어 왔으며, 그는 서양 고전음악 전통에서 가장 중요한 작곡가 가운데 한 명으로 평가받는다. 그의 화성적·구조적 혁신, 그리고 당대 거의 모든 음악 형식을 아우른 방대한 작품 세계는 이후 여러 세대의 작곡가들에게 영향을 끼쳤다.",
 
   /* -------------------------------------- Batch 7 (exposure-priority): Mahatma Gandhi */
   /* CLOSURE PASS: achievement.1 narrowed to drop an invented "early 1900s" date and an invented "discriminatory laws targeting the Indian community" characterization — this person's own roster rationale describes only "local grievances in South Africa." CLOSURE PASS round 2: turning_point.1 also had an invented "Dandi" destination, "salt tax and monopoly" legal mechanism, and a "chosen specifically because..." motivation — none in the rationale, which names only "the Salt March... in deliberate defiance of British law"; narrowed to that. */
