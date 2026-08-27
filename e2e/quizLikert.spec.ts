@@ -136,19 +136,35 @@ test("quiz Likert: selected state changes both border-weight and fill (not colou
   await expect(checkedInput).toHaveCount(1);
   await expect(checkedInput).toHaveAttribute("aria-label", "5");
 
-  const selectedStyle = await page
-    .locator(".tgi-likert__input:checked + .tgi-likert__label")
-    .evaluate((el) => {
-      const cs = getComputedStyle(el);
-      return { bg: cs.backgroundColor, borderWidth: cs.borderTopWidth };
-    });
-
-  expect(selectedStyle.borderWidth, "selected option should render a heavier border than an unselected one").not.toBe(
-    unselectedStyle.borderWidth,
-  );
-  expect(selectedStyle.bg, "selected option should render a different fill than an unselected one").not.toBe(
-    unselectedStyle.bg,
-  );
+  // The selected-state border/fill are applied via a CSS transition (see
+  // `.tgi-likert__input:checked + .tgi-likert__label` in components.css) —
+  // reading computed style exactly once, immediately after `.click()`, can
+  // race the browser's own style/paint pipeline under load (observed
+  // intermittently under the full suite's sustained run, never in
+  // isolation). Poll for the settled state instead of a single snapshot:
+  // this still requires BOTH the border and the fill to actually differ
+  // from the unselected baseline — same assertion, just given time to
+  // become true rather than asserted on whatever happened to be painted in
+  // this exact tick.
+  const selectedLabel = page.locator(".tgi-likert__input:checked + .tgi-likert__label");
+  await expect
+    .poll(
+      async () => {
+        const cs = await selectedLabel.evaluate((el) => {
+          const s = getComputedStyle(el);
+          return { bg: s.backgroundColor, borderWidth: s.borderTopWidth };
+        });
+        return {
+          borderChanged: cs.borderWidth !== unselectedStyle.borderWidth,
+          fillChanged: cs.bg !== unselectedStyle.bg,
+        };
+      },
+      {
+        message:
+          "selected option should render both a heavier border AND a different fill than an unselected one",
+      },
+    )
+    .toEqual({ borderChanged: true, fillChanged: true });
 });
 
 test("quiz Likert: keyboard focus reaches an option and shows a visible focus ring", async ({ page }) => {
