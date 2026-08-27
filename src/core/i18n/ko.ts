@@ -671,6 +671,8 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "sort.confidence_desc": "근거가 충분한 순",
 
   "person.trait_constellation": "핵심 특성",
+  "person.traits.show_all": "모든 특성 보기",
+  "person.traits.show_fewer": "특성 접기",
   "person.similar_people": "비슷한 인물",
   "person.opposite_profile": "반대 프로필",
   "person.sources": "출처",

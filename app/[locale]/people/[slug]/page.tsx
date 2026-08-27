@@ -23,10 +23,10 @@ import {
   ShareButton,
   Stack,
   Text,
-  TraitCard,
 } from "@ui/index";
 import { CompareCta } from "./CompareCta";
 import { MatchContextBanner } from "./MatchContextBanner";
+import { TraitConstellationGrid } from "./TraitConstellationGrid";
 
 /**
  * Resolves each item's fact text (and, if present, its interpretation text)
@@ -322,18 +322,7 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
 
         <Stack gap={4}>
           <Heading level={2}>{t(locale, "person.trait_constellation")}</Heading>
-          <Grid min="15rem">
-            {constellation.map((trait) => (
-              <TraitCard
-                key={trait.attributeId}
-                label={t(locale, `attribute.${trait.attributeId}` as MessageKey)}
-                score={trait.score}
-                impact={trait.impact}
-                confidence={trait.confidence}
-                locale={locale}
-              />
-            ))}
-          </Grid>
+          <TraitConstellationGrid locale={locale} traits={constellation} />
         </Stack>
 
         {(() => {

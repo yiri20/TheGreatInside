@@ -951,6 +951,8 @@ export const en = {
 
   /* --------------------------------------------------------- person page */
   "person.trait_constellation": "Trait Constellation",
+  "person.traits.show_all": "Show all traits",
+  "person.traits.show_fewer": "Show fewer traits",
   "person.similar_people": "Similar People",
   "person.opposite_profile": "Opposite Profile",
   "person.sources": "Sources",
