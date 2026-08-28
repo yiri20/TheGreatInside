@@ -64,7 +64,7 @@ const seeds: PersonSeed[] = [
     // Verified 2026-08 via a direct fetch of the Commons file page, license
     // and attribution reproduced as given, not paraphrased or translated.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Leonardo_self.jpg",
+      url: "/portraits/leonardo-da-vinci-self-portrait.jpg",
       width: 420,
       height: 659,
       source: "Wikimedia Commons",
@@ -252,7 +252,7 @@ const seeds: PersonSeed[] = [
     // photographer unknown. Public domain in the US as a federal
     // government work (17 U.S.C. §105).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Feynman_at_Los_Alamos.jpg",
+      url: "/portraits/richard-feynman-los-alamos.jpg",
       width: 265,
       height: 284,
       source: "Wikimedia Commons",
@@ -479,7 +479,7 @@ const seeds: PersonSeed[] = [
     // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
     // photograph, 2009.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/ff/HayaoMiyazakiCCJuly09.jpg",
+      url: "/portraits/hayao-miyazaki-2009.jpg",
       width: 342,
       height: 519,
       source: "Wikimedia Commons",
@@ -668,9 +668,9 @@ const seeds: PersonSeed[] = [
     // gelatin silver print by her father, Guillermo Kahlo, dated 16 October
     // 1932. Public domain (artist died 1941, in both Mexico and the US).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg",
-      width: 1197,
-      height: 1795,
+      url: "/portraits/frida-kahlo-1932.jpg",
+      width: 1067,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "Public Domain (artist died 1941)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg",

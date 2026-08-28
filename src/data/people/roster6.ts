@@ -121,9 +121,9 @@ const seeds: PersonSeed[] = [
     // carte-de-visite by Benjamin F. Powelson, Auburn NY, c. 1868-69. Public
     // domain (photographer died 1885; published before 1931).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Harriet_Tubman_c1868-69.jpg",
-      width: 5400,
-      height: 8651,
+      url: "/portraits/harriet-tubman-1868.jpg",
+      width: 999,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "Public Domain (photographer died 1885; published before 1931)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Harriet_Tubman_c1868-69.jpg",

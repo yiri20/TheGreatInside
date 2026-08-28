@@ -26,7 +26,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6572727272727272,
     attributes: [["curiosity", 97, 0.92, "advantage"], ["analytical_rigor", 82, 0.7, "neutral"], ["intuitive_synthesis", 88, 0.7, "neutral"], ["systems_abstraction", 86, 0.72, "advantage"], ["independent_thinking", 91, 0.82, "advantage"], ["creative_originality", 96, 0.89, "advantage"], ["experimentation", 92, 0.85, "advantage"], ["cross_domain_range", 98, 0.94, "advantage"], ["aesthetic_sensitivity", 95, 0.9, "advantage"], ["discipline", 58, 0.55, "dual_edged"], ["deep_focus", 78, 0.65, "neutral"], ["detail_orientation", 90, 0.85, "advantage"], ["perfectionism", 88, 0.78, "dual_edged"], ["execution_speed", 32, 0.8, "dual_edged"], ["planning_orientation", 45, 0.5, "neutral"], ["persistence", 62, 0.55, "dual_edged"], ["adaptability", 78, 0.6, "neutral"], ["risk_tolerance", 55, 0.5, "neutral"], ["ambiguity_tolerance", 88, 0.7, "advantage"], ["decisiveness", 40, 0.6, "dual_edged"], ["social_assertiveness", 55, 0.5, "neutral"], ["collaboration", 58, 0.5, "neutral"], ["leadership_drive", 45, 0.5, "neutral"], ["persuasiveness", 62, 0.5, "neutral"], ["conflict_tolerance", 45, 0.45, "neutral"], ["mastery_orientation", 92, 0.85, "advantage"], ["achievement_drive", 65, 0.5, "neutral"], ["competitiveness", 55, 0.45, "neutral"], ["autonomy_need", 85, 0.7, "advantage"], ["impact_motivation", 70, 0.5, "neutral"], ["opportunity_sensing", 78, 0.6, "advantage"], ["proactive_agency", 75, 0.62, "neutral"], ["belief_updating", 65, 0.5, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Leonardo_self.jpg",
+    portraitUrl: "/portraits/leonardo-da-vinci-self-portrait.jpg",
   },
   {
     id: "p_marie_curie",
@@ -66,7 +66,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6958064516129033,
     attributes: [["curiosity", 97, 0.94, "advantage"], ["analytical_rigor", 90, 0.88, "advantage"], ["intuitive_synthesis", 92, 0.85, "advantage"], ["systems_abstraction", 90, 0.85, "advantage"], ["independent_thinking", 95, 0.92, "advantage"], ["creative_originality", 88, 0.8, "advantage"], ["experimentation", 88, 0.85, "advantage"], ["cross_domain_range", 80, 0.75, "advantage"], ["aesthetic_sensitivity", 62, 0.5, "neutral"], ["discipline", 70, 0.6, "neutral"], ["deep_focus", 90, 0.85, "advantage"], ["detail_orientation", 68, 0.5, "neutral"], ["perfectionism", 55, 0.5, "neutral"], ["execution_speed", 72, 0.55, "neutral"], ["planning_orientation", 40, 0.55, "neutral"], ["persistence", 85, 0.75, "advantage"], ["adaptability", 82, 0.7, "advantage"], ["risk_tolerance", 68, 0.5, "neutral"], ["ambiguity_tolerance", 90, 0.8, "advantage"], ["decisiveness", 75, 0.5, "neutral"], ["social_assertiveness", 82, 0.85, "neutral"], ["collaboration", 72, 0.65, "neutral"], ["leadership_drive", 48, 0.55, "neutral"], ["persuasiveness", 85, 0.85, "advantage"], ["conflict_tolerance", 70, 0.6, "neutral"], ["mastery_orientation", 92, 0.88, "advantage"], ["achievement_drive", 70, 0.5, "neutral"], ["competitiveness", 62, 0.5, "neutral"], ["autonomy_need", 88, 0.85, "advantage"], ["impact_motivation", 72, 0.5, "neutral"], ["proactive_agency", 82, 0.7, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Feynman_at_Los_Alamos.jpg",
+    portraitUrl: "/portraits/richard-feynman-los-alamos.jpg",
   },
   {
     id: "p_ada_lovelace",
@@ -124,7 +124,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6787096774193548,
     attributes: [["curiosity", 85, 0.7, "advantage"], ["analytical_rigor", 62, 0.5, "neutral"], ["intuitive_synthesis", 85, 0.7, "neutral"], ["systems_abstraction", 65, 0.5, "neutral"], ["independent_thinking", 92, 0.88, "advantage"], ["creative_originality", 95, 0.92, "advantage"], ["experimentation", 70, 0.55, "neutral"], ["cross_domain_range", 62, 0.5, "neutral"], ["aesthetic_sensitivity", 98, 0.95, "advantage"], ["discipline", 92, 0.88, "advantage"], ["deep_focus", 95, 0.9, "advantage"], ["detail_orientation", 96, 0.94, "dual_edged"], ["perfectionism", 96, 0.92, "dual_edged"], ["execution_speed", 42, 0.75, "dual_edged"], ["planning_orientation", 55, 0.5, "neutral"], ["persistence", 94, 0.88, "advantage"], ["adaptability", 58, 0.5, "neutral"], ["risk_tolerance", 62, 0.5, "neutral"], ["ambiguity_tolerance", 68, 0.5, "neutral"], ["decisiveness", 78, 0.6, "neutral"], ["social_assertiveness", 52, 0.5, "neutral"], ["collaboration", 55, 0.6, "neutral"], ["leadership_drive", 72, 0.65, "dual_edged"], ["persuasiveness", 62, 0.5, "neutral"], ["conflict_tolerance", 72, 0.65, "dual_edged"], ["mastery_orientation", 96, 0.92, "advantage"], ["achievement_drive", 72, 0.5, "neutral"], ["competitiveness", 48, 0.45, "neutral"], ["autonomy_need", 90, 0.85, "advantage"], ["impact_motivation", 82, 0.7, "advantage"], ["proactive_agency", 78, 0.65, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/f/ff/HayaoMiyazakiCCJuly09.jpg",
+    portraitUrl: "/portraits/hayao-miyazaki-2009.jpg",
   },
   {
     id: "p_yi_sun_sin",
@@ -164,7 +164,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6324999999999998,
     attributes: [["curiosity", 75, 0.55, "neutral"], ["analytical_rigor", 48, 0.45, "neutral"], ["intuitive_synthesis", 90, 0.75, "neutral"], ["systems_abstraction", 52, 0.45, "neutral"], ["independent_thinking", 95, 0.9, "advantage"], ["creative_originality", 96, 0.92, "advantage"], ["experimentation", 78, 0.65, "neutral"], ["cross_domain_range", 58, 0.5, "neutral"], ["aesthetic_sensitivity", 95, 0.92, "advantage"], ["discipline", 78, 0.65, "neutral"], ["deep_focus", 85, 0.72, "advantage"], ["detail_orientation", 82, 0.7, "neutral"], ["perfectionism", 82, 0.65, "dual_edged"], ["execution_speed", 62, 0.5, "neutral"], ["planning_orientation", 42, 0.45, "neutral"], ["persistence", 95, 0.9, "advantage"], ["adaptability", 72, 0.6, "neutral"], ["risk_tolerance", 78, 0.65, "neutral"], ["ambiguity_tolerance", 75, 0.55, "neutral"], ["decisiveness", 78, 0.5, "neutral"], ["social_assertiveness", 82, 0.7, "neutral"], ["collaboration", 55, 0.5, "neutral"], ["leadership_drive", 48, 0.45, "neutral"], ["persuasiveness", 72, 0.55, "neutral"], ["conflict_tolerance", 82, 0.7, "neutral"], ["mastery_orientation", 82, 0.68, "advantage"], ["achievement_drive", 68, 0.5, "neutral"], ["competitiveness", 45, 0.45, "neutral"], ["autonomy_need", 92, 0.88, "advantage"], ["impact_motivation", 78, 0.65, "advantage"], ["resourcefulness", 85, 0.72, "advantage"], ["proactive_agency", 65, 0.5, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg",
+    portraitUrl: "/portraits/frida-kahlo-1932.jpg",
   },
   {
     id: "p_serena_williams",
@@ -379,7 +379,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6251612903225806,
     attributes: [["curiosity", 95, 0.85, "advantage"], ["analytical_rigor", 85, 0.7, "advantage"], ["intuitive_synthesis", 88, 0.72, "advantage"], ["systems_abstraction", 92, 0.8, "advantage"], ["independent_thinking", 95, 0.85, "advantage"], ["creative_originality", 92, 0.8, "advantage"], ["experimentation", 90, 0.78, "advantage"], ["cross_domain_range", 62, 0.5, "neutral"], ["aesthetic_sensitivity", 58, 0.42, "neutral"], ["discipline", 78, 0.6, "neutral"], ["deep_focus", 92, 0.8, "advantage"], ["detail_orientation", 75, 0.58, "neutral"], ["perfectionism", 80, 0.62, "dual_edged"], ["execution_speed", 55, 0.5, "neutral"], ["planning_orientation", 45, 0.45, "neutral"], ["persistence", 88, 0.72, "advantage"], ["adaptability", 55, 0.45, "neutral"], ["risk_tolerance", 82, 0.68, "dual_edged"], ["ambiguity_tolerance", 82, 0.65, "advantage"], ["decisiveness", 68, 0.5, "neutral"], ["social_assertiveness", 45, 0.55, "neutral"], ["collaboration", 30, 0.6, "risk"], ["leadership_drive", 42, 0.5, "neutral"], ["persuasiveness", 40, 0.45, "neutral"], ["conflict_tolerance", 55, 0.45, "neutral"], ["mastery_orientation", 90, 0.78, "advantage"], ["achievement_drive", 72, 0.55, "neutral"], ["competitiveness", 60, 0.48, "neutral"], ["autonomy_need", 95, 0.85, "advantage"], ["impact_motivation", 80, 0.62, "advantage"], ["proactive_agency", 72, 0.58, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg",
+    portraitUrl: "/portraits/nikola-tesla-circa-1890.jpg",
   },
   {
     id: "p_rosalind_franklin",
@@ -418,7 +418,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5796969696969696,
     attributes: [["curiosity", 92, 0.8, "advantage"], ["analytical_rigor", 68, 0.55, "neutral"], ["intuitive_synthesis", 80, 0.62, "advantage"], ["systems_abstraction", 65, 0.5, "neutral"], ["independent_thinking", 85, 0.72, "advantage"], ["creative_originality", 72, 0.55, "neutral"], ["experimentation", 68, 0.52, "neutral"], ["cross_domain_range", 55, 0.42, "neutral"], ["aesthetic_sensitivity", 55, 0.42, "neutral"], ["discipline", 82, 0.68, "advantage"], ["deep_focus", 88, 0.75, "advantage"], ["detail_orientation", 78, 0.6, "neutral"], ["perfectionism", 55, 0.42, "neutral"], ["execution_speed", 45, 0.4, "neutral"], ["planning_orientation", 58, 0.45, "neutral"], ["persistence", 95, 0.85, "advantage"], ["adaptability", 85, 0.72, "advantage"], ["risk_tolerance", 72, 0.58, "neutral"], ["ambiguity_tolerance", 85, 0.7, "advantage"], ["decisiveness", 62, 0.48, "neutral"], ["social_assertiveness", 65, 0.52, "neutral"], ["collaboration", 78, 0.62, "advantage"], ["leadership_drive", 65, 0.5, "neutral"], ["persuasiveness", 78, 0.62, "advantage"], ["conflict_tolerance", 58, 0.45, "neutral"], ["mastery_orientation", 82, 0.65, "advantage"], ["achievement_drive", 65, 0.48, "neutral"], ["competitiveness", 30, 0.45, "neutral"], ["autonomy_need", 72, 0.55, "neutral"], ["impact_motivation", 92, 0.78, "advantage"], ["opportunity_sensing", 78, 0.65, "advantage"], ["resourcefulness", 72, 0.58, "advantage"], ["proactive_agency", 70, 0.55, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Jane_Goodall_2015.jpg",
+    portraitUrl: "/portraits/jane-goodall-2015.jpg",
   },
   {
     id: "p_genghis_khan",
@@ -476,7 +476,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6117857142857143,
     attributes: [["curiosity", 70, 0.55, "neutral"], ["analytical_rigor", 72, 0.55, "neutral"], ["systems_abstraction", 75, 0.58, "advantage"], ["independent_thinking", 85, 0.7, "advantage"], ["creative_originality", 70, 0.55, "neutral"], ["experimentation", 62, 0.48, "neutral"], ["cross_domain_range", 58, 0.45, "neutral"], ["discipline", 85, 0.7, "advantage"], ["deep_focus", 72, 0.55, "neutral"], ["planning_orientation", 78, 0.6, "advantage"], ["persistence", 95, 0.82, "advantage"], ["adaptability", 82, 0.65, "advantage"], ["risk_tolerance", 78, 0.6, "dual_edged"], ["ambiguity_tolerance", 75, 0.58, "advantage"], ["decisiveness", 78, 0.6, "advantage"], ["social_assertiveness", 82, 0.65, "neutral"], ["collaboration", 88, 0.72, "advantage"], ["leadership_drive", 88, 0.72, "advantage"], ["persuasiveness", 85, 0.68, "advantage"], ["conflict_tolerance", 82, 0.65, "dual_edged"], ["mastery_orientation", 68, 0.5, "neutral"], ["achievement_drive", 78, 0.6, "neutral"], ["competitiveness", 42, 0.42, "neutral"], ["autonomy_need", 70, 0.55, "neutral"], ["impact_motivation", 95, 0.82, "advantage"], ["opportunity_sensing", 75, 0.6, "advantage"], ["resourcefulness", 72, 0.58, "advantage"], ["proactive_agency", 82, 0.68, "dual_edged"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Wangari_Maathai%2C_2006_%28cropped%29.jpg",
+    portraitUrl: "/portraits/wangari-maathai-2006.jpg",
   },
   {
     id: "p_malala_yousafzai",
@@ -553,7 +553,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5996774193548388,
     attributes: [["curiosity", 82, 0.65, "advantage"], ["analytical_rigor", 78, 0.6, "neutral"], ["intuitive_synthesis", 88, 0.72, "advantage"], ["systems_abstraction", 72, 0.55, "neutral"], ["independent_thinking", 92, 0.8, "advantage"], ["creative_originality", 95, 0.85, "advantage"], ["experimentation", 80, 0.65, "advantage"], ["cross_domain_range", 55, 0.45, "neutral"], ["aesthetic_sensitivity", 92, 0.8, "advantage"], ["discipline", 85, 0.68, "advantage"], ["deep_focus", 88, 0.72, "advantage"], ["detail_orientation", 78, 0.6, "neutral"], ["perfectionism", 80, 0.62, "dual_edged"], ["execution_speed", 55, 0.45, "neutral"], ["planning_orientation", 62, 0.48, "neutral"], ["persistence", 88, 0.72, "advantage"], ["adaptability", 68, 0.52, "neutral"], ["risk_tolerance", 65, 0.5, "neutral"], ["ambiguity_tolerance", 80, 0.62, "advantage"], ["decisiveness", 68, 0.5, "neutral"], ["social_assertiveness", 68, 0.52, "neutral"], ["collaboration", 62, 0.48, "neutral"], ["leadership_drive", 58, 0.45, "neutral"], ["persuasiveness", 78, 0.6, "advantage"], ["conflict_tolerance", 72, 0.55, "neutral"], ["mastery_orientation", 85, 0.68, "advantage"], ["achievement_drive", 72, 0.55, "neutral"], ["competitiveness", 48, 0.42, "neutral"], ["autonomy_need", 85, 0.68, "advantage"], ["impact_motivation", 85, 0.68, "advantage"], ["proactive_agency", 65, 0.5, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Toni_Morrison.jpg",
+    portraitUrl: "/portraits/toni-morrison-1998.jpg",
   },
   {
     id: "p_akira_kurosawa",
@@ -649,7 +649,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5887500000000001,
     attributes: [["curiosity", 78, 0.62, "neutral"], ["analytical_rigor", 58, 0.45, "neutral"], ["intuitive_synthesis", 85, 0.7, "advantage"], ["systems_abstraction", 55, 0.42, "neutral"], ["independent_thinking", 80, 0.65, "advantage"], ["creative_originality", 72, 0.55, "neutral"], ["experimentation", 65, 0.5, "neutral"], ["cross_domain_range", 60, 0.48, "neutral"], ["aesthetic_sensitivity", 58, 0.45, "neutral"], ["discipline", 82, 0.65, "advantage"], ["deep_focus", 68, 0.52, "neutral"], ["detail_orientation", 62, 0.48, "neutral"], ["perfectionism", 65, 0.5, "neutral"], ["execution_speed", 78, 0.6, "advantage"], ["planning_orientation", 68, 0.52, "neutral"], ["persistence", 90, 0.75, "advantage"], ["adaptability", 85, 0.7, "advantage"], ["risk_tolerance", 72, 0.55, "neutral"], ["ambiguity_tolerance", 68, 0.52, "neutral"], ["decisiveness", 78, 0.6, "advantage"], ["social_assertiveness", 92, 0.82, "advantage"], ["collaboration", 78, 0.62, "advantage"], ["leadership_drive", 85, 0.7, "advantage"], ["persuasiveness", 92, 0.8, "advantage"], ["conflict_tolerance", 62, 0.48, "neutral"], ["mastery_orientation", 68, 0.5, "neutral"], ["achievement_drive", 88, 0.72, "neutral"], ["competitiveness", 70, 0.52, "neutral"], ["autonomy_need", 78, 0.6, "neutral"], ["impact_motivation", 88, 0.72, "advantage"], ["opportunity_sensing", 68, 0.55, "advantage"], ["proactive_agency", 75, 0.6, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oprah_Winfrey_2016.jpg",
+    portraitUrl: "/portraits/oprah-winfrey-2016.jpg",
   },
   {
     id: "p_simone_biles",
@@ -706,7 +706,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6395652173913043,
     attributes: [["curiosity", 88, 0.75, "advantage"], ["analytical_rigor", 90, 0.8, "advantage"], ["intuitive_synthesis", 94, 0.82, "advantage"], ["systems_abstraction", 92, 0.8, "advantage"], ["independent_thinking", 86, 0.72, "advantage"], ["belief_updating", 26, 0.72, "risk"], ["creative_originality", 90, 0.78, "advantage"], ["experimentation", 42, 0.5, "neutral"], ["cross_domain_range", 55, 0.45, "neutral"], ["discipline", 85, 0.7, "advantage"], ["deep_focus", 82, 0.68, "advantage"], ["execution_speed", 88, 0.75, "advantage"], ["planning_orientation", 65, 0.52, "neutral"], ["persistence", 88, 0.72, "advantage"], ["risk_tolerance", 68, 0.52, "advantage"], ["social_assertiveness", 62, 0.5, "neutral"], ["collaboration", 55, 0.45, "neutral"], ["persuasiveness", 68, 0.55, "advantage"], ["conflict_tolerance", 78, 0.65, "risk"], ["mastery_orientation", 82, 0.65, "advantage"], ["autonomy_need", 70, 0.55, "advantage"], ["impact_motivation", 70, 0.55, "advantage"], ["proactive_agency", 74, 0.58, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/1/11/Albert_Einstein_photo_1921.jpg",
+    portraitUrl: "/portraits/albert-einstein-1921.jpg",
   },
   {
     id: "p_charles_darwin",
@@ -1331,7 +1331,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5730000000000001,
     attributes: [["systems_abstraction", 92, 0.78, "advantage"], ["analytical_rigor", 88, 0.75, "advantage"], ["cross_domain_range", 90, 0.75, "advantage"], ["curiosity", 85, 0.68, "advantage"], ["discipline", 82, 0.65, "advantage"], ["deep_focus", 80, 0.62, "advantage"], ["creative_originality", 78, 0.6, "advantage"], ["independent_thinking", 76, 0.58, "advantage"], ["leadership_drive", 68, 0.55, "advantage"], ["mastery_orientation", 72, 0.55, "advantage"], ["planning_orientation", 66, 0.5, "advantage"], ["persistence", 65, 0.48, "advantage"], ["achievement_drive", 64, 0.46, "neutral"], ["impact_motivation", 62, 0.46, "advantage"], ["detail_orientation", 70, 0.52, "advantage"], ["autonomy_need", 58, 0.48, "neutral"], ["social_assertiveness", 60, 0.55, "neutral"], ["risk_tolerance", 62, 0.52, "neutral"], ["belief_updating", 62, 0.52, "advantage"], ["experimentation", 58, 0.46, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Aristotle_Altemps_Inv8575.jpg",
+    portraitUrl: "/portraits/aristotle-altemps-bust.jpg",
   },
   {
     id: "p_br_ambedkar",
@@ -1371,7 +1371,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5515000000000001,
     attributes: [["creative_originality", 92, 0.68, "advantage"], ["persistence", 88, 0.65, "advantage"], ["independent_thinking", 84, 0.65, "advantage"], ["autonomy_need", 78, 0.65, "advantage"], ["risk_tolerance", 66, 0.65, "risk"], ["resourcefulness", 72, 0.65, "advantage"], ["analytical_rigor", 76, 0.65, "advantage"], ["impact_motivation", 74, 0.65, "advantage"], ["experimentation", 70, 0.65, "advantage"], ["discipline", 68, 0.5, "advantage"], ["achievement_drive", 68, 0.5, "advantage"], ["proactive_agency", 72, 0.65, "advantage"], ["adaptability", 58, 0.42, "neutral"], ["deep_focus", 66, 0.46, "advantage"], ["detail_orientation", 62, 0.44, "advantage"], ["mastery_orientation", 60, 0.42, "neutral"], ["curiosity", 58, 0.42, "neutral"], ["opportunity_sensing", 62, 0.44, "advantage"], ["planning_orientation", 64, 0.5, "advantage"], ["leadership_drive", 55, 0.4, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/a/af/Henry_Inman_-_Sequoyah_-_Google_Art_Project.jpg",
+    portraitUrl: "/portraits/sequoyah-inman-portrait.jpg",
   },
   {
     id: "p_elizabeth_blackwell",
@@ -1411,7 +1411,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.56,
     attributes: [["risk_tolerance", 95, 0.85, "advantage"], ["persistence", 92, 0.85, "advantage"], ["leadership_drive", 90, 0.75, "advantage"], ["proactive_agency", 88, 0.7, "advantage"], ["resourcefulness", 84, 0.65, "advantage"], ["planning_orientation", 82, 0.6, "advantage"], ["discipline", 80, 0.6, "advantage"], ["decisiveness", 80, 0.55, "advantage"], ["impact_motivation", 85, 0.6, "advantage"], ["autonomy_need", 76, 0.5, "neutral"], ["conflict_tolerance", 70, 0.65, "neutral"], ["achievement_drive", 76, 0.48, "neutral"], ["adaptability", 74, 0.46, "neutral"], ["opportunity_sensing", 74, 0.46, "neutral"], ["independent_thinking", 72, 0.44, "neutral"], ["social_assertiveness", 66, 0.4, "neutral"], ["collaboration", 62, 0.4, "neutral"], ["detail_orientation", 62, 0.4, "neutral"], ["mastery_orientation", 58, 0.4, "neutral"], ["experimentation", 56, 0.4, "neutral"], ["ambiguity_tolerance", 88, 0.6, "advantage"], ["persuasiveness", 80, 0.58, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Harriet_Tubman_c1868-69.jpg",
+    portraitUrl: "/portraits/harriet-tubman-1868.jpg",
   },
   {
     id: "p_ludwig_wittgenstein",
@@ -1551,7 +1551,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5365,
     attributes: [["analytical_rigor", 90, 0.75, "advantage"], ["curiosity", 82, 0.65, "advantage"], ["risk_tolerance", 70, 0.55, "advantage"], ["proactive_agency", 78, 0.62, "advantage"], ["persistence", 76, 0.6, "advantage"], ["social_assertiveness", 68, 0.52, "advantage"], ["detail_orientation", 84, 0.68, "advantage"], ["discipline", 78, 0.6, "advantage"], ["mastery_orientation", 72, 0.55, "advantage"], ["adaptability", 68, 0.52, "advantage"], ["achievement_drive", 65, 0.48, "neutral"], ["independent_thinking", 62, 0.46, "neutral"], ["collaboration", 58, 0.44, "neutral"], ["autonomy_need", 55, 0.42, "neutral"], ["conflict_tolerance", 58, 0.44, "neutral"], ["cross_domain_range", 45, 0.4, "neutral"], ["creative_originality", 62, 0.5, "advantage"], ["deep_focus", 78, 0.6, "advantage"], ["planning_orientation", 70, 0.55, "advantage"], ["leadership_drive", 42, 0.4, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg",
+    portraitUrl: "/portraits/katherine-johnson-nasa-1966.jpg",
   },
   {
     id: "p_maimonides",
@@ -1571,7 +1571,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5286363636363636,
     attributes: [["systems_abstraction", 88, 0.65, "advantage"], ["analytical_rigor", 82, 0.62, "advantage"], ["cross_domain_range", 84, 0.65, "advantage"], ["discipline", 80, 0.6, "advantage"], ["mastery_orientation", 76, 0.58, "advantage"], ["independent_thinking", 72, 0.55, "advantage"], ["planning_orientation", 78, 0.58, "advantage"], ["persistence", 72, 0.55, "advantage"], ["conflict_tolerance", 62, 0.48, "neutral"], ["leadership_drive", 68, 0.5, "advantage"], ["detail_orientation", 70, 0.52, "advantage"], ["achievement_drive", 65, 0.48, "neutral"], ["curiosity", 68, 0.5, "advantage"], ["resourcefulness", 58, 0.42, "neutral"], ["adaptability", 62, 0.45, "neutral"], ["proactive_agency", 60, 0.44, "neutral"], ["experimentation", 55, 0.4, "neutral"], ["creative_originality", 78, 0.6, "advantage"], ["deep_focus", 76, 0.58, "advantage"], ["impact_motivation", 66, 0.56, "advantage"], ["risk_tolerance", 62, 0.52, "risk"], ["belief_updating", 50, 0.4, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/5/56/Maimonides_crop1.jpg",
+    portraitUrl: "/portraits/maimonides-statue.jpg",
   },
   {
     id: "p_mary_wollstonecraft",

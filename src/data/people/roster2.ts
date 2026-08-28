@@ -784,7 +784,7 @@ const seeds: PersonSeed[] = [
     // ROSTER-1000 portrait pilot (2026-08): verified live against the
     // actual Commons file page before being added.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg",
+      url: "/portraits/nikola-tesla-circa-1890.jpg",
       width: 940,
       height: 1260,
       source: "Wikimedia Commons",
@@ -950,7 +950,7 @@ const seeds: PersonSeed[] = [
     // Department of State photograph, dated 27 October 2015. Public domain
     // as a US federal government work (17 U.S.C. §105).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Jane_Goodall_2015.jpg",
+      url: "/portraits/jane-goodall-2015.jpg",
       width: 617,
       height: 898,
       source: "Wikimedia Commons",
@@ -1178,9 +1178,9 @@ const seeds: PersonSeed[] = [
     // photograph (2006 interview, Salvador, Brazil) — not a posed portrait,
     // but a real likeness with a clean, unambiguous license.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Wangari_Maathai%2C_2006_%28cropped%29.jpg",
-      width: 1360,
-      height: 1923,
+      url: "/portraits/wangari-maathai-2006.jpg",
+      width: 1132,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "CC BY 3.0 BR",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Wangari_Maathai,_2006_(cropped).jpg",
@@ -1449,9 +1449,9 @@ const seeds: PersonSeed[] = [
     // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
     // photograph, 1998.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Toni_Morrison.jpg",
-      width: 1540,
-      height: 2195,
+      url: "/portraits/toni-morrison-1998.jpg",
+      width: 1123,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "CC BY-SA 2.0",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg",
@@ -1816,9 +1816,9 @@ const seeds: PersonSeed[] = [
     // Dept official-duty photograph (2016) — public domain as a work of a
     // federal employee, not merely US-government-hosted.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oprah_Winfrey_2016.jpg",
-      width: 1108,
-      height: 1604,
+      url: "/portraits/oprah-winfrey-2016.jpg",
+      width: 1105,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "Public Domain (U.S. Government work)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",

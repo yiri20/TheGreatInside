@@ -42,9 +42,9 @@ const seeds: PersonSeed[] = [
     // "traditional depiction, explicitly labelled as such" discipline as
     // Confucius's existing portrait.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Aristotle_Altemps_Inv8575.jpg",
-      width: 1700,
-      height: 2275,
+      url: "/portraits/aristotle-altemps-bust.jpg",
+      width: 1196,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "Public Domain (released by the copyright holder)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
@@ -191,9 +191,9 @@ const seeds: PersonSeed[] = [
     // Portrait Gallery. Inman died in 1846, so this is public domain via
     // pre-1931 publication + life-plus-100 expiry.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/a/af/Henry_Inman_-_Sequoyah_-_Google_Art_Project.jpg",
-      width: 3869,
-      height: 4644,
+      url: "/portraits/sequoyah-inman-portrait.jpg",
+      width: 1333,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "Public Domain (published before 1931; artist died 1846)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Henry_Inman_-_Sequoyah_-_Google_Art_Project.jpg",

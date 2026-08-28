@@ -38,7 +38,7 @@ const seeds: PersonSeed[] = [
     // & Underwood, New York, April 1921. Public domain (published before
     // 1931, no renewal).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/1/11/Albert_Einstein_photo_1921.jpg",
+      url: "/portraits/albert-einstein-1921.jpg",
       width: 600,
       height: 969,
       source: "Wikimedia Commons",

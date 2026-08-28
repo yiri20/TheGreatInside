@@ -306,9 +306,9 @@ const seeds: PersonSeed[] = [
     // government (Template:PD-USGov). Real pixel dimensions confirmed
     // from the original file, not the page description.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg",
-      width: 3173,
-      height: 4000,
+      url: "/portraits/katherine-johnson-nasa-1966.jpg",
+      width: 1269,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg",
@@ -381,7 +381,7 @@ const seeds: PersonSeed[] = [
     // centuries; this is a photograph of a modern statue, released CC0 by
     // its photographer.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/5/56/Maimonides_crop1.jpg",
+      url: "/portraits/maimonides-statue.jpg",
       width: 781,
       height: 853,
       source: "Wikimedia Commons",
