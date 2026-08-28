@@ -4,16 +4,17 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-28 (No-Portrait Fill Batch 1 merged to `main` —
-9 of the 35 portrait-less people now have real portraits; **0
-remote-Wikimedia portraits remain anywhere in the roster**).
+Last updated: 2026-08-28 (No-Portrait Fill Batch 2 merged to `main` —
+18 of the original 35 portrait-less people now have real portraits
+across two batches; **0 remote-Wikimedia portraits remain anywhere in
+the roster**).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `a1b9376` — fast-forward merge of `feat/no-portrait-fill-batch-1` (2026-08-28). No-Portrait Fill Batch 1 sourced and localized real portraits for 9 of the 35 previously portrait-less people — Simone Biles (Ocoudis, CC BY-SA 4.0), Serena Williams (Vinod Divakaran/Doha Stadium Plus Qatar, CC BY 2.0, cropped to remove a microphone), Steve Jobs (Matthew Yohe, CC BY-SA 3.0/GFDL), Malala Yousafzai (Simon Davis/DFID, CC BY 2.0 — a real photograph, not the Nasser Azam commissioned painting), Wole Soyinka (Frankie Fouganthin, CC BY-SA 4.0), Thomas Aquinas (Carlo Crivelli, 1476, National Gallery London, Public Domain — explicit non-lifetime/idealized-depiction caveat), Louis Armstrong (William P. Gottlieb, Library of Congress, Public Domain), Florence Nightingale (Henry Hering, c.1860, Public Domain via expired copyright, not an NPG-granted-reuse claim), and Toussaint Louverture (engraving after Marcus Rainsford/John Kay, 1805, Public Domain — explicit not-made-from-life caveat, kept as the full uncropped engraving after a strict visual review passed at hero desktop/mobile and PersonCard). All hosted locally under `public/portraits/` from the start (no remote-Wikimedia step), processed with sharp/mozjpeg (1600px-longest-side ceiling, quality 85, no upscale, no AI processing). **Coco Chanel deliberately held** — no adequate candidate clears both the resolution and reusable-rights bars (see the batch's sourcing research for the three candidates considered); still portrait-less pending a future human decision. Verified via a dedicated Chromium script (36/36 checks: all 9 people × EN/KO × 1280px/390px, zero broken images, zero console errors, zero overflow, zero Wikimedia network requests) both pre-merge and again live post-deploy, plus a precise `<img src>` check across **all 95 live person pages** confirming zero Wikimedia references anywhere in the roster. Full validation gate: `tsc` clean, `vitest` 662/662, `next build --webpack` clean, 72/72 relevant Playwright specs, full Playwright **281/281** at `--workers=1`. **Portrait delivery split: 69 local / 0 remote-Wikimedia / 26 no-portrait**, coverage 60/95 → 69/95. |
-| `feat/no-portrait-fill-batch-1`, `fix/portrait-final-remote-replacement`, `fix/portrait-reliability-batch-4`, `fix/portrait-reliability-batch-3`, `fix/portrait-reliability-batch-2`, `feat/portrait-sourcing-batch-1`, `fix/yayoi-kusama-portrait-v2` | Superseded/subsumed, cleanup candidates, not deleted. All are 0 commits ahead of `main` after their respective fast-forward merges (the latter two's portrait-data commits were cherry-picked into their own `-integration` branches, already merged into the history above; stale/unrelated commits on the originals were intentionally dropped). |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `8b328ae` — fast-forward merge of `feat/no-portrait-fill-batch-2` (2026-08-28). No-Portrait Fill Batch 2 sourced and localized real portraits for 9 more of the remaining portrait-less people — Anna Pavlova (unknown photographer, early 20th c., Public Domain), Benito Juárez (unknown, c.1868, SMU Digital Collections, Public Domain — a genuine lifetime photograph; two recently-uploaded 2025 "photographs" were rejected outright, one with metadata explicitly noting Google AI editing, and a Flickr Commons file that looked promising by title was rejected on visual inspection as depicting unrelated children, not Juárez), Oscar Niemeyer (Roger Pic, 1977, Public Domain via the photographer's own dedication, sourced through BnF Gallica), Grace Hopper (James S. Davis, U.S. Navy, 1984, Public Domain — the iconic uniformed portrait), Rachel Carson (US Fish and Wildlife Service, Public Domain), Chinua Achebe (Stuart C. Shapiro, 2008, CC BY 3.0, VRT-verified — a 3/4-angle lectern photo, not cropped tighter per instruction, passed strict hero/PersonCard visual review), Sor Juana Inés de la Cruz (Miguel Cabrera, c.1750, Public Domain — explicit posthumous/idealized-depiction caveat, painted ~55 years after her death), Mary Wollstonecraft (John Opie, c.1797, National Portrait Gallery London, Public Domain — painted from life), and Michelangelo (Jacopino del Conte, c.1535, Casa Buonarroti, Public Domain — painted from life; this was the pre-approved fallback slot for Fela Kuti, whose every candidate failed on resolution, provenance, or jurisdiction-fragmented rights). All hosted locally under `public/portraits/` from the start, processed with sharp/mozjpeg (1600px-longest-side ceiling, quality 85, no upscale, no AI processing). **Fela Kuti deliberately held** — no candidate cleared the resolution + provenance + globally-clear-rights bar simultaneously; still portrait-less pending a future human decision, and (per instruction) no further Fela research was performed this batch. Verified via a dedicated Chromium script (36/36 checks: all 9 people × EN/KO × 1280px/390px, zero broken images, zero console errors, zero overflow, zero Wikimedia network requests) both pre-merge and again live post-deploy, plus a precise `<img src>` check across **all 95 live person pages** confirming zero Wikimedia references anywhere in the roster. Full validation gate: `tsc` clean, `vitest` 662/662, `next build --webpack` clean, 72/72 relevant Playwright specs, full Playwright **281/281** at `--workers=1` (one pre-merge run hit 16 Directory-spec failures traced to a stale `next start` process left over from a prior session occupying the test port with an old build — killed and re-verified clean, not a regression). **Portrait delivery split: 78 local / 0 remote-Wikimedia / 17 no-portrait**, coverage 69/95 → 78/95. |
+| `feat/no-portrait-fill-batch-2`, `feat/no-portrait-fill-batch-1`, `fix/portrait-final-remote-replacement`, `fix/portrait-reliability-batch-4`, `fix/portrait-reliability-batch-3`, `fix/portrait-reliability-batch-2`, `feat/portrait-sourcing-batch-1`, `fix/yayoi-kusama-portrait-v2` | Superseded/subsumed, cleanup candidates, not deleted. All are 0 commits ahead of `main` after their respective fast-forward merges (the latter two's portrait-data commits were cherry-picked into their own `-integration` branches, already merged into the history above; stale/unrelated commits on the originals were intentionally dropped). |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
 | `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `fix/yayoi-kusama-portrait`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux`, `feat/landing-cta-hierarchy`, `feat/profile-hero-polish`, `feat/profile-v2-pilot-batch-1`, `feat/profile-v2-pilot-clean`, `feat/editorial-achievements-correction-batch-1`, `feat/portrait-sourcing-batch-1-integration`, `fix/yayoi-kusama-portrait-v2-integration`, `fix/portrait-reliability-batch-1`, `fix/malcolm-x-ko-name-spelling`, `fix/landing-cta-arrow-spacing` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
@@ -61,17 +62,17 @@ remote-Wikimedia portraits remain anywhere in the roster**).
   `IdentityHero`'s missing-portrait initials fallback
   (`src/ui/components/layout.tsx`) predates this redesign (2026-08,
   `chore/consolidated-dev-2026-08`) and is unchanged by it.
-- **Portrait coverage: 69/95** (55→60, Portrait Sourcing Batch 1;
-  60→69, No-Portrait Fill Batch 1, 2026-08-28 — see branch table
-  above for the 9 names and sources; every subsequent release between
-  those two was replacement/delivery-only). **Portrait delivery: 69
-  local / 0 remote-Wikimedia / 26 no-portrait** (Zheng He
-  non-eligible, 25 eligible) — every portrait in the roster is
-  self-hosted under `public/portraits/`, so the categorical
+- **Portrait coverage: 78/95** (55→60, Portrait Sourcing Batch 1;
+  60→69, No-Portrait Fill Batch 1; 69→78, No-Portrait Fill Batch 2,
+  2026-08-28 — see branch table above for both batches' names and
+  sources; every other release was replacement/delivery-only).
+  **Portrait delivery: 78 local / 0 remote-Wikimedia / 17 no-portrait**
+  (Zheng He non-eligible, 16 eligible) — every portrait in the roster
+  is self-hosted under `public/portraits/`, so the categorical
   `ERR_BLOCKED_BY_ORB` risk this whole program existed to fix no
-  longer applies to any person page. Coco Chanel is the only person
-  in the No-Portrait Fill Batch 1 target list still without a
-  portrait (deliberately held, see branch table). Full batch-by-batch
+  longer applies to any person page. Coco Chanel and Fela Kuti are the
+  two people across both No-Portrait Fill batches still without a
+  portrait (both deliberately held, see branch table). Full batch-by-batch
   history lives in `git log` (each release's own commit message), not
   restated here.
   Exposure-Priority Portrait Pass (2026-08, `chore/consolidated-dev-2026-08`)
@@ -135,8 +136,8 @@ to resolve a specific historical question, not by default.
 
 ## Test baseline (last known-good, re-verify before trusting)
 
-Verified on `main` at the 2026-08-28 No-Portrait Fill Batch 1 release
-(commit `a1b9376`): `tsc --noEmit` clean · `vitest run` 662/662 ·
+Verified on `main` at the 2026-08-28 No-Portrait Fill Batch 2 release
+(commit `8b328ae`): `tsc --noEmit` clean · `vitest run` 662/662 ·
 `next build --webpack` clean · `peopleDirectory.spec.ts` +
 `person.visual.spec.ts` 72/72 · Playwright **281/281** at
 `--workers=1`. Live production check for all 9 newly-portraited people
@@ -163,6 +164,7 @@ started here): a trait-card click-to-explain affordance (needs a new
 lightweight popover/dialog primitive plus attribute-description content
 — see "Person Profile Hero redesign" above); the remaining 19
 low-exposure Tier-C editorial backfill people; a human decision on
-Coco Chanel's held portrait (see branch table above) and the other 25
-remaining portrait-less people; and a human decision on deleting the
+Coco Chanel's and Fela Kuti's held portraits (see branch table above)
+and the other 15 remaining portrait-less people; and a human decision
+on deleting the
 now-fully-subsumed dev branches listed above.
