@@ -275,11 +275,18 @@ const seeds: PersonSeed[] = [
     // originally sourced from Flickr (South Africa The Good News), dated
     // 13 May 2008, verified by a Commons administrator in 2010. Licensed
     // CC BY 2.0 — reuse permitted with attribution, not public domain.
+    // Portrait Reliability Localization Batch 2 (2026-08): high
+    // Similar-People in-degree (27), 2.2% #1-match. Already a modest
+    // source, so NOT resized -- re-hosted locally at
+    // public/portraits/nelson-mandela-2008.jpg via a mozjpeg quality-85
+    // re-encode only (no crop/upscale/AI processing): 657x778/328KB ->
+    // 657x778/69KB (79.0% smaller). licenseUrl still points to the live
+    // Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg",
+      url: "/portraits/nelson-mandela-2008.jpg",
       width: 657,
       height: 778,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "CC BY 2.0",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Nelson_Mandela-2008_(edit).jpg",
       attribution: "South Africa The Good News (sagoodnews.co.za), 2008, CC BY 2.0",
@@ -361,13 +368,26 @@ const seeds: PersonSeed[] = [
     // (URAA restoration risk, publication history unclear) — this one has an
     // explicit, unambiguous PD-US rationale instead. License/attribution
     // reproduced as given, not paraphrased or translated.
+    // Portrait Reliability Localization Batch 2 (2026-08): highest
+    // Similar-People in-degree of all 39 remaining remote portraits (30).
+    // Data-hygiene correction while here (flagged by the prior reliability
+    // audit): `attribution` was empty -- filled in from the Commons file
+    // page's own extmetadata (photographer genuinely unrecorded; image
+    // description + credit trace to the Gandhi Heritage Portal's Collected
+    // Works of Mahatma Gandhi archive). No change to license/licenseUrl/
+    // the image itself. Already a modest source, so NOT resized --
+    // re-hosted locally at public/portraits/mahatma-gandhi-london-student.jpg
+    // via a mozjpeg quality-85 re-encode only (no crop/upscale/AI
+    // processing): 534x734/607KB -> 534x734/76KB (87.5% smaller).
+    // licenseUrl still points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gandhi_as_a_student_in_London.png",
+      url: "/portraits/mahatma-gandhi-london-student.jpg",
       width: 534,
       height: 734,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Gandhi_as_a_student_in_London.png",
+      attribution: "Photographer unknown — Gandhi as a law student in London, c. 1888–1891; reproduced via the Gandhi Heritage Portal (Collected Works of Mahatma Gandhi archive)",
     },
     sources: [wiki("gandhi", "Mahatma Gandhi"), bio("gandhi", "Gandhi, An Autobiography: The Story of My Experiments with Truth (1927)")],
     doNotCopyKeys: ["dontcopy.gandhi.self_denial"],
@@ -561,11 +581,19 @@ const seeds: PersonSeed[] = [
     // verified live against the Commons file page. Low resolution
     // (231x228) is a real, honestly-recorded limitation of this specific
     // source image, not a licensing concern.
+    // Portrait Reliability Localization Batch 2 (2026-08): highest-
+    // exposure remaining remote portrait in the reliability audit
+    // (12.0% #1-match frequency, in-degree 12). Already a small source,
+    // so NOT resized -- re-hosted locally at
+    // public/portraits/warren-buffett-white-house-2010.jpg via a mozjpeg
+    // quality-85 re-encode only (no crop/upscale/AI processing):
+    // 231x228/26KB -> 231x228/8KB (68.8% smaller). licenseUrl still
+    // points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/d/df/Warren_Buffett_in_2010_%28cropped%29.jpg",
+      url: "/portraits/warren-buffett-white-house-2010.jpg",
       width: 231,
       height: 228,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Warren_Buffett_in_2010_(cropped).jpg",
       attribution: "The White House, 2010",
@@ -839,11 +867,19 @@ const seeds: PersonSeed[] = [
     // Laboratory of Molecular Biology, from Jennifer Glynn's personal
     // collection, dated 1955. Licensed CC BY-SA 4.0 — reuse permitted with
     // attribution, not public domain.
+    // Portrait Reliability Localization Batch 2 (2026-08): high exposure
+    // (9.2% #1-match, in-degree 13). Re-hosted locally at
+    // public/portraits/rosalind-franklin-1955.jpg as the literal
+    // downloaded original -- a mozjpeg quality-85 re-encode was tried and
+    // only saved 0.6% (41.4KB -> 41.2KB, already efficiently encoded), so
+    // per "avoid pointless recompression" the original bytes were kept
+    // unchanged instead. Only the delivery path changed. licenseUrl still
+    // points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Rosalind_Franklin.jpg",
+      url: "/portraits/rosalind-franklin-1955.jpg",
       width: 521,
       height: 626,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app; byte-identical to the original — recompression saved a negligible amount here — see licenseUrl for the original)",
       license: "CC BY-SA 4.0",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg",
       attribution: "MRC Laboratory of Molecular Biology / Jennifer Glynn, 1955, CC BY-SA 4.0",
@@ -1328,11 +1364,18 @@ const seeds: PersonSeed[] = [
     archetypeIds: ["scholarly_specialist", "scientific_explorer"],
     // ROSTER-1000 portrait pilot (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 2 (2026-08): high
+    // Similar-People in-degree (21), 1.5% #1-match. Already a modest
+    // source, so NOT resized -- re-hosted locally at
+    // public/portraits/srinivasa-ramanujan-opc.jpg via a mozjpeg
+    // quality-85 re-encode only (no crop/upscale/AI processing):
+    // 960x1315/522KB -> 960x1315/108KB (79.4% smaller). licenseUrl still
+    // points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Srinivasa_Ramanujan_-_OPC_-_1.jpg",
+      url: "/portraits/srinivasa-ramanujan-opc.jpg",
       width: 960,
       height: 1315,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan_-_OPC_-_1.jpg",
       attribution: "Oberwolfach Photo Collection",
@@ -1548,11 +1591,23 @@ const seeds: PersonSeed[] = [
     // Verified 2026-08 via a direct fetch of the Commons file page: Joseph-
     // Siffred Duplessis's c. 1785 oil portrait. Public domain (published
     // before 1931; artist died 1802).
+    // Portrait Reliability Localization Batch 2 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB on a live production Directory burst-load
+    // (mandatory first target — see the reliability audit). Unlike Batch
+    // 1's finding, this file's stored URL was still current (verified via
+    // the MediaWiki API: same hash-path, same 5679x6992 source dimensions
+    // — no stale-path issue here, this is Wikimedia-side rate-limiting
+    // under load on an unusually large source file). Re-hosted locally at
+    // public/portraits/benjamin-franklin-duplessis-1778.jpg -- resized to
+    // a 1600px longest side + mozjpeg quality-85 re-encode (lanczos3, no
+    // sharpening/upscale/crop/AI processing): 5679x6992/10.3MB ->
+    // 1300x1600/145KB (98.6% smaller). licenseUrl still points to the
+    // live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/2/25/Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
-      width: 5679,
-      height: 6992,
-      source: "Wikimedia Commons",
+      url: "/portraits/benjamin-franklin-duplessis-1778.jpg",
+      width: 1300,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain (published before 1931; artist died 1802)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
       attribution: "Joseph-Siffred Duplessis, c. 1785",

@@ -162,11 +162,18 @@ const seeds: PersonSeed[] = [
     // ROSTER-1000 portrait pilot (2026-08): verified live against the
     // actual Commons file page (license reason, author, dimensions) before
     // being added — same discipline as da Vinci's portrait above.
+    // Portrait Reliability Localization Batch 2 (2026-08): high
+    // Similar-People in-degree (18), 1.7% #1-match. Already a modest
+    // source, so NOT resized -- re-hosted locally at
+    // public/portraits/marie-curie-portrait-1900.jpg via a mozjpeg
+    // quality-85 re-encode only (no crop/upscale/AI processing):
+    // 609x894/313KB -> 609x894/67KB (78.7% smaller). licenseUrl still
+    // points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/d/db/Marie_Curie%2C_portrait%2C_1900.jpg",
+      url: "/portraits/marie-curie-portrait-1900.jpg",
       width: 609,
       height: 894,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Marie_Curie,_portrait,_1900.jpg",
       attribution: "Collection Guy et Marie José Pallardy",
@@ -321,11 +328,18 @@ const seeds: PersonSeed[] = [
     // Edward Chalon's 1840 watercolor, held by the Science Museum, London
     // (accession 1995-0796). Public domain — faithful photographic
     // reproduction of a 2D public-domain work of art, published before 1931.
+    // Portrait Reliability Localization Batch 2 (2026-08): high
+    // Similar-People in-degree (21), 1.1% #1-match. Already a modest
+    // source, so NOT resized -- re-hosted locally at
+    // public/portraits/ada-lovelace-chalon-1840.jpg via a mozjpeg
+    // quality-85 re-encode only (no crop/upscale/AI processing):
+    // 1118x1118/586KB -> 1118x1118/280KB (52.2% smaller). licenseUrl
+    // still points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ada_Lovelace_Chalon_portrait.jpg",
+      url: "/portraits/ada-lovelace-chalon-1840.jpg",
       width: 1118,
       height: 1118,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain (published before 1931; artist died 1860)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_Chalon_portrait.jpg",
       attribution: "Alfred Edward Chalon, 1840 — Science Museum, London",
@@ -555,11 +569,23 @@ const seeds: PersonSeed[] = [
     // lifetime likeness — no contemporary depiction or photograph of Yi
     // Sun-sin survives (16th century, predates photography); a modern
     // reconstruction bust at the War Memorial of Korea, photographed 2019.
+    // Portrait Reliability Localization Batch 2 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB on a live production Directory burst-load
+    // (mandatory first target — see the reliability audit). Stored URL
+    // was still current (verified via the MediaWiki API: same hash-path,
+    // same 2000x3000 source dimensions — Wikimedia-side rate-limiting
+    // under load, not a stale path). Re-hosted locally at
+    // public/portraits/yi-sun-sin-war-memorial-bust.jpg -- resized to a
+    // 1600px longest side + mozjpeg quality-85 re-encode (lanczos3, no
+    // sharpening/upscale/crop/AI processing): 2000x3000/2.6MB ->
+    // 1067x1600/172KB (93.4% smaller). licenseUrl still points to the
+    // live Commons file page. Depiction caveat unchanged: modern
+    // reconstruction bust, no contemporary depiction survives.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bust_of_Yi_Sun-sin_01.jpg",
-      width: 2000,
-      height: 3000,
-      source: "Wikimedia Commons",
+      url: "/portraits/yi-sun-sin-war-memorial-bust.jpg",
+      width: 1067,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Korea Open Government License Type 1",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Bust_of_Yi_Sun-sin_01.jpg",
       attribution: "War Memorial of Korea (modern reconstruction — no contemporary depiction survives)",
@@ -795,11 +821,18 @@ const seeds: PersonSeed[] = [
     // Verified 2026-08 via a direct fetch of the Commons file page: Elliott
     // & Fry studio photograph, dated 29 March 1951. Public domain (Creative
     // Commons Public Domain Mark 1.0) in both the UK and US.
+    // Portrait Reliability Localization Batch 2 (2026-08): highest
+    // Similar-People in-degree remaining remote portrait in the
+    // reliability audit (28). Already a modest source, so NOT resized --
+    // re-hosted locally at public/portraits/alan-turing-1951.jpg via a
+    // mozjpeg quality-85 re-encode only (no crop/upscale/AI processing):
+    // 800x1067/93KB -> 800x1067/76KB (17.6% smaller). licenseUrl still
+    // points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Alan_Turing_%281951%29.jpg",
+      url: "/portraits/alan-turing-1951.jpg",
       width: 800,
       height: 1067,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg",
       attribution: "Elliott & Fry, 29 March 1951",

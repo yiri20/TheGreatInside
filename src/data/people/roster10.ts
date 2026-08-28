@@ -183,11 +183,18 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q36740" },
     // Verified 2026-08 via a direct fetch of the Commons file page. Official
     // Japanese government photograph (2019).
+    // Portrait Reliability Localization Batch 2 (2026-08): high
+    // Similar-People in-degree (23), 0.5% #1-match. Already a modest
+    // source, so NOT resized -- re-hosted locally at
+    // public/portraits/aung-san-suu-kyi-naruhito-enthronement.jpg via a
+    // mozjpeg quality-85 re-encode only (no crop/upscale/AI processing):
+    // 444x592/112KB -> 444x592/50KB (55.1% smaller). licenseUrl still
+    // points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_%281%29.jpg",
+      url: "/portraits/aung-san-suu-kyi-naruhito-enthronement.jpg",
       width: 444,
       height: 592,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "CC BY 4.0",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg",
       attribution: "Cabinet Public Relations Office, Japan",
@@ -271,13 +278,25 @@ const seeds: PersonSeed[] = [
     // domain in Turkey (life+70); no US-copyright warning present on the
     // file page, unlike some other 1930s-era candidates checked for this
     // batch.
+    // Portrait Reliability Localization Batch 2 (2026-08): high
+    // Similar-People in-degree (20), 0.4% #1-match. Data-hygiene
+    // correction while here (flagged by the prior reliability audit):
+    // `attribution` was empty -- filled in from the Commons file page's
+    // own extmetadata (photographer genuinely unrecorded; exact date and
+    // source citation available). No change to license/licenseUrl/the
+    // image itself. Already a modest source, so NOT resized -- re-hosted
+    // locally at public/portraits/mustafa-kemal-ataturk-1930s.jpg via a
+    // mozjpeg quality-85 re-encode only (no crop/upscale/AI processing):
+    // 732x987/404KB -> 732x987/78KB (80.7% smaller). licenseUrl still
+    // points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ataturk1930s.jpg",
+      url: "/portraits/mustafa-kemal-ataturk-1930s.jpg",
       width: 732,
       height: 987,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Ataturk1930s.jpg",
+      attribution: "Photographer unknown, 29 March 1932",
     },
     sources: [{ id: "src_ataturk_belleten_caliphate", kind: "archive", title: "Belleten (Turkish Historical Society journal) — \"The Caliphate and Atatürk's İnkılâb\"", url: "https://belleten.gov.tr/tam-metin/1733/eng" }, { id: "src_ataturk_ajc", kind: "archive", title: "Anatolian Journal of Cardiology — \"The Hidden Burden of Premature Cardiovascular Disease in a National Leader: Mustafa Kemal Atatürk's Familial Risk, Lifestyle, and Occupational Stress\"", url: "https://anatoljcardiol.com/article/AJC-31035" }, { id: "src_ataturk_newlines", kind: "press", title: "New Lines Magazine — \"How Turkey Replaced the Ottoman Language\"", url: "https://newlinesmag.com/essays/how-turkey-replaced-the-ottoman-language/" }, { id: "src_ataturk_executed", kind: "press", title: "Executed Today — \"1926: Ziya Hursit and others for a plot against Ataturk\" (cites contemporaneous London Times reporting)", url: "https://www.executedtoday.com/2010/07/14/1926-ziya-hursit-mustafa-kemal-ataturk/" }, { id: "src_ataturk_mango", kind: "biography", title: "Andrew Mango, Atatürk: The Biography of the Founder of Modern Turkey (John Murray, 1999)" }, { id: "src_ataturk_hanioglu", kind: "biography", title: "M. Şükrü Hanioğlu, Atatürk: An Intellectual Biography (Princeton University Press, 2011)" }, { id: "src_ataturk_kinross", kind: "biography", title: "Patrick Kinross, Atatürk: The Rebirth of a Nation (Weidenfeld & Nicolson, 1964)" }, { id: "src_ataturk_nutuk", kind: "archive", title: "Nutuk (\"The Great Speech\"), delivered by Mustafa Kemal Atatürk, 15–20 October 1927 — primary source" }, { id: "src_ataturk_belleten_libya", kind: "archive", title: "Belleten — \"Beginnings of Leadership: Mustafa Kemal's First Visit to Libya, 1908\"" }],
     rows: {

@@ -46,7 +46,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.68875,
     attributes: [["curiosity", 92, 0.85, "advantage"], ["analytical_rigor", 94, 0.9, "advantage"], ["intuitive_synthesis", 60, 0.5, "neutral"], ["systems_abstraction", 82, 0.7, "advantage"], ["independent_thinking", 88, 0.82, "advantage"], ["creative_originality", 78, 0.65, "neutral"], ["experimentation", 90, 0.9, "advantage"], ["cross_domain_range", 55, 0.6, "neutral"], ["aesthetic_sensitivity", 40, 0.4, "neutral"], ["discipline", 96, 0.92, "advantage"], ["deep_focus", 95, 0.9, "advantage"], ["detail_orientation", 92, 0.88, "advantage"], ["perfectionism", 84, 0.7, "dual_edged"], ["execution_speed", 60, 0.55, "neutral"], ["planning_orientation", 78, 0.65, "advantage"], ["persistence", 97, 0.94, "advantage"], ["adaptability", 62, 0.5, "neutral"], ["risk_tolerance", 70, 0.7, "dual_edged"], ["ambiguity_tolerance", 78, 0.65, "advantage"], ["decisiveness", 72, 0.5, "neutral"], ["social_assertiveness", 42, 0.65, "neutral"], ["collaboration", 68, 0.7, "neutral"], ["leadership_drive", 55, 0.5, "neutral"], ["persuasiveness", 50, 0.45, "neutral"], ["conflict_tolerance", 62, 0.6, "neutral"], ["mastery_orientation", 95, 0.9, "advantage"], ["achievement_drive", 82, 0.7, "neutral"], ["competitiveness", 48, 0.45, "neutral"], ["autonomy_need", 82, 0.7, "advantage"], ["impact_motivation", 80, 0.7, "advantage"], ["resourcefulness", 90, 0.8, "advantage"], ["proactive_agency", 80, 0.68, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/d/db/Marie_Curie%2C_portrait%2C_1900.jpg",
+    portraitUrl: "/portraits/marie-curie-portrait-1900.jpg",
   },
   {
     id: "p_richard_feynman",
@@ -86,7 +86,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6264516129032257,
     attributes: [["curiosity", 92, 0.8, "advantage"], ["analytical_rigor", 90, 0.85, "advantage"], ["intuitive_synthesis", 82, 0.7, "neutral"], ["systems_abstraction", 94, 0.88, "advantage"], ["independent_thinking", 88, 0.78, "advantage"], ["creative_originality", 90, 0.82, "advantage"], ["experimentation", 72, 0.55, "neutral"], ["cross_domain_range", 88, 0.82, "advantage"], ["aesthetic_sensitivity", 70, 0.6, "neutral"], ["discipline", 78, 0.65, "neutral"], ["deep_focus", 85, 0.72, "advantage"], ["detail_orientation", 82, 0.72, "advantage"], ["perfectionism", 72, 0.55, "neutral"], ["execution_speed", 55, 0.5, "neutral"], ["planning_orientation", 68, 0.5, "neutral"], ["persistence", 80, 0.68, "advantage"], ["adaptability", 65, 0.5, "neutral"], ["risk_tolerance", 60, 0.5, "neutral"], ["ambiguity_tolerance", 82, 0.68, "advantage"], ["decisiveness", 62, 0.45, "neutral"], ["social_assertiveness", 62, 0.5, "neutral"], ["collaboration", 70, 0.65, "neutral"], ["leadership_drive", 45, 0.45, "neutral"], ["persuasiveness", 68, 0.55, "neutral"], ["conflict_tolerance", 55, 0.45, "neutral"], ["mastery_orientation", 85, 0.72, "advantage"], ["achievement_drive", 75, 0.55, "neutral"], ["competitiveness", 50, 0.45, "neutral"], ["autonomy_need", 80, 0.65, "neutral"], ["impact_motivation", 78, 0.55, "neutral"], ["opportunity_sensing", 80, 0.65, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ada_Lovelace_Chalon_portrait.jpg",
+    portraitUrl: "/portraits/ada-lovelace-chalon-1840.jpg",
   },
   {
     id: "p_steve_jobs",
@@ -144,7 +144,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.7109090909090909,
     attributes: [["curiosity", 68, 0.5, "neutral"], ["analytical_rigor", 88, 0.82, "advantage"], ["intuitive_synthesis", 78, 0.6, "neutral"], ["systems_abstraction", 90, 0.85, "advantage"], ["independent_thinking", 88, 0.85, "advantage"], ["creative_originality", 82, 0.75, "advantage"], ["experimentation", 78, 0.7, "advantage"], ["cross_domain_range", 60, 0.5, "neutral"], ["aesthetic_sensitivity", 45, 0.4, "neutral"], ["discipline", 96, 0.94, "advantage"], ["deep_focus", 82, 0.65, "neutral"], ["detail_orientation", 90, 0.88, "advantage"], ["perfectionism", 78, 0.6, "neutral"], ["execution_speed", 80, 0.7, "advantage"], ["planning_orientation", 95, 0.92, "advantage"], ["persistence", 96, 0.94, "advantage"], ["adaptability", 88, 0.85, "advantage"], ["risk_tolerance", 72, 0.65, "neutral"], ["ambiguity_tolerance", 82, 0.7, "advantage"], ["decisiveness", 90, 0.88, "advantage"], ["social_assertiveness", 68, 0.5, "neutral"], ["collaboration", 70, 0.6, "neutral"], ["leadership_drive", 92, 0.9, "advantage"], ["persuasiveness", 75, 0.6, "neutral"], ["conflict_tolerance", 85, 0.8, "dual_edged"], ["mastery_orientation", 88, 0.75, "advantage"], ["achievement_drive", 72, 0.5, "neutral"], ["competitiveness", 62, 0.45, "neutral"], ["autonomy_need", 72, 0.65, "dual_edged"], ["impact_motivation", 92, 0.85, "advantage"], ["opportunity_sensing", 82, 0.68, "advantage"], ["resourcefulness", 92, 0.85, "advantage"], ["proactive_agency", 78, 0.65, "dual_edged"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bust_of_Yi_Sun-sin_01.jpg",
+    portraitUrl: "/portraits/yi-sun-sin-war-memorial-bust.jpg",
   },
   {
     id: "p_frida_kahlo",
@@ -202,7 +202,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6758064516129031,
     attributes: [["curiosity", 94, 0.88, "advantage"], ["analytical_rigor", 96, 0.94, "advantage"], ["intuitive_synthesis", 82, 0.7, "neutral"], ["systems_abstraction", 97, 0.95, "advantage"], ["independent_thinking", 95, 0.92, "advantage"], ["creative_originality", 92, 0.88, "advantage"], ["experimentation", 82, 0.75, "advantage"], ["cross_domain_range", 82, 0.8, "advantage"], ["aesthetic_sensitivity", 52, 0.45, "neutral"], ["discipline", 82, 0.68, "neutral"], ["deep_focus", 95, 0.9, "advantage"], ["detail_orientation", 80, 0.65, "neutral"], ["perfectionism", 70, 0.5, "neutral"], ["execution_speed", 68, 0.5, "neutral"], ["planning_orientation", 58, 0.5, "neutral"], ["persistence", 92, 0.85, "advantage"], ["adaptability", 72, 0.6, "neutral"], ["risk_tolerance", 65, 0.5, "neutral"], ["ambiguity_tolerance", 92, 0.82, "advantage"], ["decisiveness", 72, 0.5, "neutral"], ["social_assertiveness", 35, 0.7, "neutral"], ["collaboration", 58, 0.6, "neutral"], ["leadership_drive", 38, 0.55, "neutral"], ["persuasiveness", 45, 0.5, "neutral"], ["conflict_tolerance", 50, 0.45, "neutral"], ["mastery_orientation", 92, 0.85, "advantage"], ["achievement_drive", 72, 0.5, "neutral"], ["competitiveness", 55, 0.45, "neutral"], ["autonomy_need", 88, 0.78, "advantage"], ["impact_motivation", 78, 0.65, "advantage"], ["proactive_agency", 78, 0.65, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Alan_Turing_%281951%29.jpg",
+    portraitUrl: "/portraits/alan-turing-1951.jpg",
   },
   {
     id: "p_mozart",
@@ -262,7 +262,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6015151515151513,
     attributes: [["curiosity", 60, 0.45, "neutral"], ["analytical_rigor", 68, 0.55, "neutral"], ["intuitive_synthesis", 72, 0.5, "neutral"], ["systems_abstraction", 72, 0.55, "neutral"], ["independent_thinking", 85, 0.75, "advantage"], ["creative_originality", 55, 0.4, "neutral"], ["experimentation", 50, 0.4, "neutral"], ["cross_domain_range", 52, 0.4, "neutral"], ["aesthetic_sensitivity", 42, 0.35, "neutral"], ["discipline", 88, 0.78, "advantage"], ["deep_focus", 72, 0.6, "neutral"], ["detail_orientation", 58, 0.45, "neutral"], ["perfectionism", 52, 0.4, "neutral"], ["execution_speed", 52, 0.4, "neutral"], ["planning_orientation", 80, 0.65, "advantage"], ["persistence", 98, 0.94, "advantage"], ["adaptability", 88, 0.78, "advantage"], ["risk_tolerance", 82, 0.7, "dual_edged"], ["ambiguity_tolerance", 82, 0.65, "advantage"], ["decisiveness", 80, 0.65, "advantage"], ["social_assertiveness", 82, 0.7, "neutral"], ["collaboration", 85, 0.75, "advantage"], ["leadership_drive", 92, 0.85, "advantage"], ["persuasiveness", 90, 0.82, "advantage"], ["conflict_tolerance", 90, 0.8, "dual_edged"], ["mastery_orientation", 62, 0.45, "neutral"], ["achievement_drive", 75, 0.58, "neutral"], ["competitiveness", 38, 0.4, "neutral"], ["autonomy_need", 58, 0.45, "neutral"], ["impact_motivation", 96, 0.9, "advantage"], ["resourcefulness", 75, 0.6, "advantage"], ["proactive_agency", 78, 0.62, "dual_edged"], ["belief_updating", 72, 0.58, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg",
+    portraitUrl: "/portraits/nelson-mandela-2008.jpg",
   },
   {
     id: "p_mahatma_gandhi",
@@ -282,7 +282,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5709090909090908,
     attributes: [["curiosity", 62, 0.45, "neutral"], ["analytical_rigor", 58, 0.42, "neutral"], ["intuitive_synthesis", 78, 0.55, "neutral"], ["systems_abstraction", 68, 0.5, "neutral"], ["independent_thinking", 90, 0.8, "advantage"], ["creative_originality", 68, 0.5, "neutral"], ["experimentation", 72, 0.55, "neutral"], ["cross_domain_range", 50, 0.4, "neutral"], ["aesthetic_sensitivity", 38, 0.35, "neutral"], ["discipline", 95, 0.85, "advantage"], ["deep_focus", 78, 0.6, "neutral"], ["detail_orientation", 55, 0.4, "neutral"], ["perfectionism", 72, 0.5, "dual_edged"], ["execution_speed", 42, 0.4, "neutral"], ["planning_orientation", 65, 0.48, "neutral"], ["persistence", 96, 0.88, "advantage"], ["adaptability", 75, 0.58, "neutral"], ["risk_tolerance", 78, 0.62, "dual_edged"], ["ambiguity_tolerance", 78, 0.58, "advantage"], ["decisiveness", 70, 0.5, "neutral"], ["social_assertiveness", 78, 0.6, "neutral"], ["collaboration", 78, 0.62, "advantage"], ["leadership_drive", 88, 0.75, "advantage"], ["persuasiveness", 92, 0.82, "advantage"], ["conflict_tolerance", 85, 0.7, "dual_edged"], ["mastery_orientation", 65, 0.48, "neutral"], ["achievement_drive", 68, 0.48, "neutral"], ["competitiveness", 28, 0.42, "neutral"], ["autonomy_need", 65, 0.48, "neutral"], ["impact_motivation", 97, 0.88, "advantage"], ["opportunity_sensing", 65, 0.5, "advantage"], ["proactive_agency", 88, 0.75, "advantage"], ["belief_updating", 60, 0.45, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gandhi_as_a_student_in_London.png",
+    portraitUrl: "/portraits/mahatma-gandhi-london-student.jpg",
   },
   {
     id: "p_confucius",
@@ -340,7 +340,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5775757575757575,
     attributes: [["curiosity", 65, 0.55, "neutral"], ["analytical_rigor", 92, 0.85, "advantage"], ["intuitive_synthesis", 55, 0.45, "neutral"], ["systems_abstraction", 82, 0.68, "advantage"], ["independent_thinking", 85, 0.75, "advantage"], ["creative_originality", 45, 0.4, "neutral"], ["experimentation", 35, 0.4, "neutral"], ["cross_domain_range", 50, 0.42, "neutral"], ["aesthetic_sensitivity", 30, 0.35, "neutral"], ["discipline", 95, 0.88, "advantage"], ["deep_focus", 88, 0.75, "advantage"], ["detail_orientation", 85, 0.72, "advantage"], ["perfectionism", 58, 0.45, "neutral"], ["execution_speed", 42, 0.5, "neutral"], ["planning_orientation", 82, 0.68, "advantage"], ["persistence", 92, 0.82, "advantage"], ["adaptability", 55, 0.45, "neutral"], ["risk_tolerance", 25, 0.72, "advantage"], ["ambiguity_tolerance", 60, 0.48, "neutral"], ["decisiveness", 70, 0.55, "neutral"], ["social_assertiveness", 62, 0.5, "neutral"], ["collaboration", 58, 0.45, "neutral"], ["leadership_drive", 58, 0.48, "neutral"], ["persuasiveness", 70, 0.55, "neutral"], ["conflict_tolerance", 45, 0.4, "neutral"], ["mastery_orientation", 90, 0.78, "advantage"], ["achievement_drive", 78, 0.6, "neutral"], ["competitiveness", 65, 0.5, "neutral"], ["autonomy_need", 72, 0.55, "neutral"], ["impact_motivation", 55, 0.42, "neutral"], ["opportunity_sensing", 60, 0.58, "dual_edged"], ["proactive_agency", 75, 0.65, "neutral"], ["belief_updating", 85, 0.75, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/d/df/Warren_Buffett_in_2010_%28cropped%29.jpg",
+    portraitUrl: "/portraits/warren-buffett-white-house-2010.jpg",
   },
   {
     id: "p_coco_chanel",
@@ -399,7 +399,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5912903225806452,
     attributes: [["curiosity", 82, 0.68, "advantage"], ["analytical_rigor", 95, 0.88, "advantage"], ["intuitive_synthesis", 55, 0.45, "neutral"], ["systems_abstraction", 78, 0.62, "neutral"], ["independent_thinking", 85, 0.75, "advantage"], ["creative_originality", 68, 0.52, "neutral"], ["experimentation", 88, 0.75, "advantage"], ["cross_domain_range", 45, 0.4, "neutral"], ["aesthetic_sensitivity", 55, 0.42, "neutral"], ["discipline", 92, 0.8, "advantage"], ["deep_focus", 92, 0.8, "advantage"], ["detail_orientation", 96, 0.88, "advantage"], ["perfectionism", 88, 0.75, "dual_edged"], ["execution_speed", 58, 0.48, "neutral"], ["planning_orientation", 82, 0.65, "advantage"], ["persistence", 88, 0.72, "advantage"], ["adaptability", 50, 0.42, "neutral"], ["risk_tolerance", 50, 0.42, "neutral"], ["ambiguity_tolerance", 55, 0.42, "neutral"], ["decisiveness", 68, 0.5, "neutral"], ["social_assertiveness", 40, 0.55, "neutral"], ["collaboration", 45, 0.6, "dual_edged"], ["leadership_drive", 38, 0.5, "neutral"], ["persuasiveness", 42, 0.42, "neutral"], ["conflict_tolerance", 62, 0.5, "neutral"], ["mastery_orientation", 90, 0.78, "advantage"], ["achievement_drive", 78, 0.6, "neutral"], ["competitiveness", 55, 0.42, "neutral"], ["autonomy_need", 80, 0.65, "advantage"], ["impact_motivation", 68, 0.5, "neutral"], ["proactive_agency", 62, 0.5, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/9/97/Rosalind_Franklin.jpg",
+    portraitUrl: "/portraits/rosalind-franklin-1955.jpg",
   },
   {
     id: "p_jane_goodall",
@@ -533,7 +533,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5715625000000001,
     attributes: [["curiosity", 88, 0.72, "advantage"], ["analytical_rigor", 78, 0.6, "neutral"], ["intuitive_synthesis", 98, 0.88, "advantage"], ["systems_abstraction", 92, 0.8, "advantage"], ["independent_thinking", 90, 0.78, "advantage"], ["creative_originality", 90, 0.78, "advantage"], ["experimentation", 60, 0.48, "neutral"], ["cross_domain_range", 35, 0.4, "neutral"], ["aesthetic_sensitivity", 65, 0.5, "neutral"], ["discipline", 70, 0.55, "neutral"], ["deep_focus", 95, 0.85, "advantage"], ["detail_orientation", 55, 0.45, "neutral"], ["perfectionism", 55, 0.42, "neutral"], ["execution_speed", 45, 0.42, "neutral"], ["planning_orientation", 30, 0.45, "neutral"], ["persistence", 90, 0.75, "advantage"], ["adaptability", 45, 0.4, "neutral"], ["risk_tolerance", 55, 0.42, "neutral"], ["ambiguity_tolerance", 88, 0.7, "advantage"], ["decisiveness", 55, 0.4, "neutral"], ["social_assertiveness", 30, 0.55, "neutral"], ["collaboration", 42, 0.55, "neutral"], ["leadership_drive", 25, 0.55, "neutral"], ["persuasiveness", 35, 0.4, "neutral"], ["conflict_tolerance", 40, 0.4, "neutral"], ["mastery_orientation", 95, 0.82, "advantage"], ["achievement_drive", 62, 0.45, "neutral"], ["competitiveness", 35, 0.4, "neutral"], ["autonomy_need", 82, 0.65, "advantage"], ["impact_motivation", 55, 0.42, "neutral"], ["resourcefulness", 88, 0.7, "advantage"], ["proactive_agency", 78, 0.65, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Srinivasa_Ramanujan_-_OPC_-_1.jpg",
+    portraitUrl: "/portraits/srinivasa-ramanujan-opc.jpg",
   },
   {
     id: "p_toni_morrison",
@@ -592,7 +592,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6217647058823529,
     attributes: [["curiosity", 95, 0.82, "advantage"], ["analytical_rigor", 80, 0.65, "neutral"], ["intuitive_synthesis", 72, 0.55, "neutral"], ["systems_abstraction", 78, 0.6, "advantage"], ["independent_thinking", 85, 0.7, "advantage"], ["creative_originality", 82, 0.65, "advantage"], ["experimentation", 90, 0.78, "advantage"], ["cross_domain_range", 95, 0.85, "advantage"], ["aesthetic_sensitivity", 55, 0.42, "neutral"], ["discipline", 85, 0.68, "advantage"], ["deep_focus", 68, 0.52, "neutral"], ["detail_orientation", 70, 0.55, "neutral"], ["perfectionism", 55, 0.42, "neutral"], ["execution_speed", 78, 0.6, "advantage"], ["planning_orientation", 75, 0.58, "advantage"], ["persistence", 85, 0.68, "advantage"], ["adaptability", 88, 0.72, "advantage"], ["risk_tolerance", 68, 0.52, "neutral"], ["ambiguity_tolerance", 78, 0.6, "advantage"], ["decisiveness", 75, 0.58, "neutral"], ["social_assertiveness", 85, 0.7, "neutral"], ["collaboration", 78, 0.6, "advantage"], ["leadership_drive", 72, 0.55, "neutral"], ["persuasiveness", 88, 0.72, "advantage"], ["conflict_tolerance", 65, 0.5, "neutral"], ["mastery_orientation", 72, 0.55, "neutral"], ["achievement_drive", 82, 0.65, "neutral"], ["competitiveness", 62, 0.48, "neutral"], ["autonomy_need", 72, 0.55, "neutral"], ["impact_motivation", 80, 0.62, "advantage"], ["opportunity_sensing", 85, 0.7, "advantage"], ["resourcefulness", 78, 0.65, "advantage"], ["proactive_agency", 88, 0.75, "advantage"], ["belief_updating", 78, 0.65, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/2/25/Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
+    portraitUrl: "/portraits/benjamin-franklin-duplessis-1778.jpg",
   },
   {
     id: "p_zheng_he",
@@ -726,7 +726,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.65,
     attributes: [["curiosity", 92, 0.85, "advantage"], ["analytical_rigor", 84, 0.72, "advantage"], ["intuitive_synthesis", 76, 0.62, "advantage"], ["systems_abstraction", 88, 0.75, "advantage"], ["independent_thinking", 78, 0.65, "advantage"], ["belief_updating", 78, 0.68, "advantage"], ["creative_originality", 84, 0.7, "advantage"], ["experimentation", 82, 0.68, "advantage"], ["cross_domain_range", 86, 0.7, "advantage"], ["discipline", 88, 0.75, "advantage"], ["deep_focus", 80, 0.65, "advantage"], ["persistence", 88, 0.75, "advantage"], ["risk_tolerance", 32, 0.62, "risk"], ["planning_orientation", 76, 0.62, "advantage"], ["adaptability", 68, 0.55, "advantage"], ["ambiguity_tolerance", 80, 0.65, "advantage"], ["social_assertiveness", 32, 0.55, "neutral"], ["collaboration", 82, 0.7, "advantage"], ["conflict_tolerance", 30, 0.55, "risk"], ["mastery_orientation", 85, 0.7, "advantage"], ["autonomy_need", 58, 0.48, "neutral"], ["resourcefulness", 62, 0.48, "neutral"], ["competitiveness", 28, 0.55, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Charles_Darwin_01.jpg",
+    portraitUrl: "/portraits/charles-darwin-cameron-1869.jpg",
   },
   {
     id: "p_ernest_shackleton",
@@ -826,7 +826,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.552,
     attributes: [["curiosity", 82, 0.62, "advantage"], ["analytical_rigor", 80, 0.65, "advantage"], ["systems_abstraction", 85, 0.65, "advantage"], ["independent_thinking", 68, 0.55, "advantage"], ["creative_originality", 66, 0.52, "advantage"], ["cross_domain_range", 84, 0.65, "advantage"], ["discipline", 72, 0.55, "advantage"], ["mastery_orientation", 78, 0.6, "advantage"], ["achievement_drive", 68, 0.5, "neutral"], ["adaptability", 74, 0.55, "advantage"], ["resourcefulness", 70, 0.48, "advantage"], ["risk_tolerance", 62, 0.48, "neutral"], ["leadership_drive", 65, 0.5, "neutral"], ["detail_orientation", 72, 0.52, "advantage"], ["persistence", 68, 0.5, "advantage"], ["social_assertiveness", 62, 0.46, "neutral"], ["opportunity_sensing", 68, 0.56, "advantage"], ["planning_orientation", 74, 0.58, "advantage"], ["proactive_agency", 70, 0.56, "advantage"], ["collaboration", 62, 0.56, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Avicenna_Bust%2C_left_profile_%28cropped%29.jpg",
+    portraitUrl: "/portraits/ibn-sina-profile-portrait-nlm.jpg",
   },
   {
     id: "p_isaac_newton",
@@ -1822,7 +1822,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5732,
     attributes: [["analytical_rigor", 68, 0.48, "advantage"], ["independent_thinking", 82, 0.65, "advantage"], ["belief_updating", 22, 0.6, "risk"], ["discipline", 75, 0.55, "advantage"], ["deep_focus", 68, 0.48, "advantage"], ["detail_orientation", 62, 0.42, "advantage"], ["execution_speed", 30, 0.55, "risk"], ["planning_orientation", 65, 0.42, "neutral"], ["persistence", 92, 0.78, "advantage"], ["adaptability", 62, 0.48, "advantage"], ["risk_tolerance", 92, 0.78, "advantage"], ["ambiguity_tolerance", 72, 0.5, "advantage"], ["decisiveness", 78, 0.58, "advantage"], ["social_assertiveness", 80, 0.6, "advantage"], ["collaboration", 32, 0.65, "risk"], ["leadership_drive", 90, 0.72, "advantage"], ["persuasiveness", 75, 0.58, "advantage"], ["conflict_tolerance", 90, 0.72, "dual_edged"], ["mastery_orientation", 62, 0.4, "advantage"], ["achievement_drive", 85, 0.65, "advantage"], ["autonomy_need", 80, 0.6, "dual_edged"], ["impact_motivation", 82, 0.62, "advantage"], ["opportunity_sensing", 75, 0.55, "advantage"], ["resourcefulness", 60, 0.42, "advantage"], ["proactive_agency", 78, 0.55, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/9/97/Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_%281%29.jpg",
+    portraitUrl: "/portraits/aung-san-suu-kyi-naruhito-enthronement.jpg",
   },
   {
     id: "p_mustafa_kemal_ataturk",
@@ -1842,7 +1842,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5779310344827586,
     attributes: [["analytical_rigor", 78, 0.62, "advantage"], ["intuitive_synthesis", 65, 0.45, "advantage"], ["systems_abstraction", 72, 0.52, "advantage"], ["independent_thinking", 85, 0.7, "advantage"], ["belief_updating", 60, 0.48, "advantage"], ["cross_domain_range", 76, 0.6, "advantage"], ["discipline", 75, 0.58, "dual_edged"], ["deep_focus", 75, 0.55, "advantage"], ["detail_orientation", 66, 0.42, "advantage"], ["execution_speed", 80, 0.6, "advantage"], ["planning_orientation", 82, 0.65, "advantage"], ["persistence", 85, 0.68, "advantage"], ["adaptability", 62, 0.45, "advantage"], ["risk_tolerance", 90, 0.75, "advantage"], ["ambiguity_tolerance", 70, 0.5, "advantage"], ["decisiveness", 82, 0.6, "advantage"], ["social_assertiveness", 80, 0.6, "advantage"], ["collaboration", 55, 0.55, "dual_edged"], ["leadership_drive", 90, 0.75, "advantage"], ["persuasiveness", 78, 0.58, "advantage"], ["conflict_tolerance", 88, 0.7, "dual_edged"], ["mastery_orientation", 68, 0.48, "advantage"], ["achievement_drive", 88, 0.65, "advantage"], ["competitiveness", 68, 0.48, "advantage"], ["autonomy_need", 82, 0.62, "advantage"], ["impact_motivation", 80, 0.55, "advantage"], ["opportunity_sensing", 78, 0.55, "advantage"], ["resourcefulness", 68, 0.45, "advantage"], ["proactive_agency", 85, 0.65, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ataturk1930s.jpg",
+    portraitUrl: "/portraits/mustafa-kemal-ataturk-1930s.jpg",
   },
   {
     id: "p_oscar_niemeyer",

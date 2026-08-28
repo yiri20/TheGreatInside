@@ -115,11 +115,19 @@ const seeds: PersonSeed[] = [
     // Verified 2026-08 via a direct fetch of the Commons file page:
     // photograph by Julia Margaret Cameron, 1869. Public domain (artist
     // died 1879).
+    // Portrait Reliability Localization Batch 2 (2026-08): the largest
+    // remaining remote source file among the 39 (4.6MB) -- selected for
+    // preventive weight reduction, not a confirmed ORB failure. Re-hosted
+    // locally at public/portraits/charles-darwin-cameron-1869.jpg --
+    // resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 3256x4183/
+    // 4.6MB -> 1245x1600/145KB (96.8% smaller). licenseUrl still points
+    // to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Charles_Darwin_01.jpg",
-      width: 3256,
-      height: 4183,
-      source: "Wikimedia Commons",
+      url: "/portraits/charles-darwin-cameron-1869.jpg",
+      width: 1245,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain (artist died 1879)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Charles_Darwin_01.jpg",
       attribution: "Julia Margaret Cameron, 1869",
@@ -543,14 +551,34 @@ const seeds: PersonSeed[] = [
     // lifetime likeness — no contemporary depiction of Ibn Sina survives; a
     // modern sculptural bust (1952, National Library of Medicine), tagged
     // "no known copyright restrictions."
+    // Portrait Reliability Localization Batch 2 (2026-08): near-oversized
+    // (915KB), plus a data-hygiene correction flagged by the prior
+    // reliability audit. The Commons file title/our own prior attribution
+    // both said "bust", which reads as a sculpture -- but a direct visual
+    // check of the actual downloaded file (not just its metadata) shows a
+    // painted/hand-tinted profile portrait (halftone color reproduction),
+    // not a photograph of a 3-D bust. Commons' own extmetadata confirms:
+    // "Format: Still image... Technique: halftone, color", credited to
+    // the National Library of Medicine, categorized "Portraits of
+    // Avicenna" -- "bust" here is Commons' own portrait-composition
+    // terminology (head-and-shoulders framing), not a sculpture claim,
+    // but our attribution text read ambiguously, so it's corrected to
+    // describe what's actually shown. Identity/license/source unaffected
+    // -- same file, same URL, verified via the MediaWiki API before
+    // downloading. Depiction caveat (not a lifetime likeness) preserved.
+    // Resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing), re-hosted at
+    // public/portraits/ibn-sina-profile-portrait-nlm.jpg: 2294x2957/915KB
+    // -> 1241x1600/335KB (63.4% smaller). licenseUrl still points to the
+    // live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Avicenna_Bust%2C_left_profile_%28cropped%29.jpg",
-      width: 2294,
-      height: 2957,
-      source: "Wikimedia Commons",
+      url: "/portraits/ibn-sina-profile-portrait-nlm.jpg",
+      width: 1241,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "No known copyright restrictions",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Avicenna_Bust,_left_profile_(cropped).jpg",
-      attribution: "U.S. National Library of Medicine (modern bust, 1952 — not a lifetime likeness)",
+      attribution: "U.S. National Library of Medicine — painted profile portrait, colorized halftone reproduction dated 1952 (not a lifetime likeness)",
     },
     sources: [{ id: "src_ibnsina_wikipedia", kind: "wikipedia", title: "Avicenna", url: "https://en.wikipedia.org/wiki/Avicenna" }, { id: "src_ibnsina_autobiography", kind: "archive", title: "Ibn Sina's autobiography (dictated to his student al-Juzjani)" }, { id: "src_ibnsina_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Ibn Sina" }],
     rows: {
