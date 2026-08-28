@@ -539,6 +539,21 @@ const seeds: PersonSeed[] = [
     tagIds: ["overcame_adversity", "self_taught", "endured_imprisonment"],
     archetypeIds: ["social_influencer"],
     externalIdentity: { wikidataId: "Q43303" },
+    // FINAL Tier-A Portrait Recovery (2026-08): verified live against the
+    // Commons file page. Unmodified original scan (only a 3:4 crop applied
+    // upstream on Commons in 2018) — deliberately NOT the colorized
+    // derivative of this same photo, and not the AI-upscaled ("Remini
+    // enhanced") derivative of a different photo, both of which exist on
+    // Commons and were rejected.
+    portrait: {
+      url: "/portraits/malcolm-x-trikosko-1964.jpg",
+      width: 1200,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative; see licenseUrl for the original)",
+      license: "Public Domain (rights dedicated to the public via U.S. News & World Report's deed of gift to the Library of Congress)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Malcolm-x.jpg",
+      attribution: "Marion S. Trikosko, 26 March 1964 — Library of Congress, U.S. News & World Report Collection",
+    },
     sources: [{ id: "src_malcolmx_wikipedia", kind: "wikipedia", title: "Malcolm X", url: "https://en.wikipedia.org/wiki/Malcolm_X" }, { id: "src_malcolmx_autobiography", kind: "archive", title: "Alex Haley, The Autobiography of Malcolm X (1965, as told to Haley)" }],
     rows: {
       // Became one of the most prominent, widely broadcast public speakers of the American civil rights era, documented through extensive surviving footage, transcribed speeches, and press coverage of his public appearances.

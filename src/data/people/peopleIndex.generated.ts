@@ -578,6 +578,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6240000000000001,
     attributes: [["curiosity", 78, 0.6, "neutral"], ["analytical_rigor", 75, 0.58, "neutral"], ["intuitive_synthesis", 82, 0.65, "advantage"], ["systems_abstraction", 72, 0.55, "neutral"], ["independent_thinking", 88, 0.72, "advantage"], ["creative_originality", 92, 0.78, "advantage"], ["experimentation", 72, 0.55, "neutral"], ["cross_domain_range", 55, 0.42, "neutral"], ["aesthetic_sensitivity", 96, 0.85, "advantage"], ["discipline", 90, 0.75, "advantage"], ["deep_focus", 90, 0.75, "advantage"], ["detail_orientation", 92, 0.78, "advantage"], ["perfectionism", 95, 0.85, "dual_edged"], ["execution_speed", 48, 0.5, "dual_edged"], ["planning_orientation", 78, 0.6, "advantage"], ["persistence", 90, 0.75, "advantage"], ["adaptability", 62, 0.48, "neutral"], ["risk_tolerance", 65, 0.5, "neutral"], ["ambiguity_tolerance", 58, 0.45, "neutral"], ["decisiveness", 82, 0.65, "advantage"], ["social_assertiveness", 72, 0.55, "neutral"], ["collaboration", 58, 0.5, "neutral"], ["leadership_drive", 88, 0.72, "dual_edged"], ["persuasiveness", 72, 0.55, "neutral"], ["conflict_tolerance", 78, 0.6, "dual_edged"], ["mastery_orientation", 88, 0.72, "advantage"], ["achievement_drive", 80, 0.62, "neutral"], ["competitiveness", 65, 0.5, "neutral"], ["autonomy_need", 82, 0.65, "advantage"], ["impact_motivation", 72, 0.55, "neutral"]],
+    portraitUrl: "/portraits/akira-kurosawa-seven-samurai-set-1953.jpg",
   },
   {
     id: "p_benjamin_franklin",
@@ -892,6 +893,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6171428571428571,
     attributes: [["persuasiveness", 94, 0.82, "advantage"], ["leadership_drive", 90, 0.8, "advantage"], ["risk_tolerance", 88, 0.75, "risk"], ["persistence", 88, 0.75, "advantage"], ["conflict_tolerance", 80, 0.68, "advantage"], ["social_assertiveness", 82, 0.68, "advantage"], ["independent_thinking", 70, 0.58, "advantage"], ["collaboration", 65, 0.52, "dual_edged"], ["planning_orientation", 78, 0.62, "advantage"], ["belief_updating", 68, 0.55, "advantage"], ["mastery_orientation", 68, 0.52, "advantage"], ["discipline", 74, 0.58, "advantage"], ["proactive_agency", 84, 0.68, "advantage"], ["opportunity_sensing", 76, 0.6, "advantage"], ["creative_originality", 62, 0.5, "advantage"], ["cross_domain_range", 60, 0.48, "neutral"], ["adaptability", 62, 0.48, "neutral"], ["achievement_drive", 72, 0.55, "advantage"], ["impact_motivation", 85, 0.7, "advantage"], ["analytical_rigor", 78, 0.62, "advantage"], ["execution_speed", 65, 0.5, "neutral"]],
+    portraitUrl: "/portraits/martin-luther-king-jr-nywts-1964.jpg",
   },
   {
     id: "p_rabindranath_tagore",
@@ -1168,6 +1170,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.577,
     attributes: [["social_assertiveness", 90, 0.75, "advantage"], ["independent_thinking", 86, 0.7, "advantage"], ["conflict_tolerance", 84, 0.68, "risk"], ["risk_tolerance", 88, 0.72, "risk"], ["persistence", 82, 0.65, "advantage"], ["belief_updating", 85, 0.68, "advantage"], ["achievement_drive", 74, 0.58, "advantage"], ["leadership_drive", 78, 0.6, "advantage"], ["adaptability", 72, 0.55, "advantage"], ["analytical_rigor", 60, 0.46, "advantage"], ["cross_domain_range", 58, 0.44, "advantage"], ["deep_focus", 74, 0.58, "advantage"], ["mastery_orientation", 68, 0.55, "advantage"], ["curiosity", 62, 0.5, "advantage"], ["proactive_agency", 78, 0.6, "advantage"], ["collaboration", 60, 0.48, "neutral"], ["autonomy_need", 64, 0.5, "advantage"], ["detail_orientation", 55, 0.4, "neutral"], ["discipline", 68, 0.5, "advantage"], ["impact_motivation", 80, 0.62, "advantage"]],
+    portraitUrl: "/portraits/malcolm-x-trikosko-1964.jpg",
   },
   {
     id: "p_muhammad_ali",
@@ -1804,6 +1807,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5526923076923076,
     attributes: [["intuitive_synthesis", 75, 0.52, "advantage"], ["independent_thinking", 82, 0.65, "advantage"], ["belief_updating", 65, 0.5, "advantage"], ["experimentation", 78, 0.58, "advantage"], ["cross_domain_range", 75, 0.55, "advantage"], ["discipline", 65, 0.45, "advantage"], ["detail_orientation", 62, 0.42, "neutral"], ["planning_orientation", 72, 0.52, "advantage"], ["persistence", 75, 0.55, "advantage"], ["adaptability", 80, 0.62, "advantage"], ["risk_tolerance", 88, 0.72, "dual_edged"], ["ambiguity_tolerance", 68, 0.45, "advantage"], ["decisiveness", 80, 0.6, "advantage"], ["social_assertiveness", 75, 0.55, "advantage"], ["collaboration", 85, 0.62, "advantage"], ["leadership_drive", 88, 0.68, "advantage"], ["persuasiveness", 78, 0.58, "advantage"], ["conflict_tolerance", 68, 0.5, "dual_edged"], ["mastery_orientation", 60, 0.4, "advantage"], ["achievement_drive", 85, 0.62, "advantage"], ["competitiveness", 62, 0.42, "dual_edged"], ["autonomy_need", 75, 0.55, "advantage"], ["impact_motivation", 75, 0.52, "advantage"], ["opportunity_sensing", 82, 0.62, "advantage"], ["resourcefulness", 78, 0.58, "advantage"], ["proactive_agency", 82, 0.6, "advantage"]],
+    portraitUrl: "/portraits/akio-morita-sao-paulo-1972.jpg",
   },
   {
     id: "p_anna_pavlova",

@@ -1564,6 +1564,24 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["perfectionist", "leader"],
     archetypeIds: ["creative_creator", "organizational_leader"],
+    // FINAL Tier-A Portrait Recovery (2026-08): verified live against the
+    // Commons file page. NOT CC-licensed — public domain under the old
+    // (pre-1971) Japanese Copyright Act's short term for photographs
+    // (published before 1957, ~13 years from publication), so this
+    // specific photo's Japanese copyright had already expired by 1970,
+    // well before the 1996 URAA reference date — there was nothing left
+    // for URAA to restore. This is a different legal basis from the
+    // post-1957 Japanese corporate/press photos rejected in this same
+    // recovery pass (those were still in-term in 1996 and URAA-restored).
+    portrait: {
+      url: "/portraits/akira-kurosawa-seven-samurai-set-1953.jpg",
+      width: 955,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative; see licenseUrl for the original)",
+      license: "Public Domain (Japan: pre-1957 photograph, old Copyright Act term expired by 1970; not restored by the Uruguay Round Agreements Act)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+      attribution: "映画の友 (Eiga no Tomo) magazine, December 1953 — photographer uncredited",
+    },
     sources: [wiki("kurosawa", "Akira Kurosawa")],
     rows: {
       curiosity: [78, 0.6, "s", "N"],

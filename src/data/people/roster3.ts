@@ -810,6 +810,22 @@ const seeds: PersonSeed[] = [
     tagIds: ["nonviolence", "grassroots_organizer", "advocate"],
     archetypeIds: ["social_influencer", "organizational_leader"],
     externalIdentity: { wikidataId: "Q8027" },
+    // FINAL Tier-A Portrait Recovery (2026-08): verified live against the
+    // Commons file page and the underlying Library of Congress record.
+    // Distinct from a federal-government-work photo (e.g. LBJ Library
+    // official White House photography) — this is a pre-1968 NYWTS staff
+    // work-for-hire whose reproduction rights were transferred to the
+    // Library of Congress via Instrument of Gift, not a §105 US-government
+    // work. That distinction was verified, not assumed.
+    portrait: {
+      url: "/portraits/martin-luther-king-jr-nywts-1964.jpg",
+      width: 1319,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative; see licenseUrl for the original)",
+      license: "Public Domain (pre-1968 work-for-hire; Library of Congress, no copyright restriction known)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr_NYWTS.jpg",
+      attribution: "Dick DeMarsico, 1964 — Library of Congress, New York World-Telegram & Sun Collection",
+    },
     sources: [{ id: "src_mlk_wikipedia", kind: "wikipedia", title: "Martin Luther King Jr.", url: "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr." }, { id: "src_mlk_institute", kind: "institution", title: "The Martin Luther King, Jr. Research and Education Institute, Stanford University" }, { id: "src_mlk_branch", kind: "biography", title: "Taylor Branch, Parting the Waters: America in the King Years 1954-63 (1988)" }],
     rows: {
       // The 1963 'I Have a Dream' address and sustained public oratory across a 13-year public career are among the most extensively documented rhetorical achievements of the 20th century, corroborated across independent archives.

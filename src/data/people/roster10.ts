@@ -40,6 +40,22 @@ const seeds: PersonSeed[] = [
     tagIds: ["founder", "innovator", "product_leader"],
     archetypeIds: ["entrepreneurial_builder", "technical_innovator"],
     externalIdentity: { wikidataId: "Q310845" },
+    // FINAL Tier-A Portrait Recovery (2026-08): verified live against the
+    // Commons file page. Source photo shows Morita with São Paulo governor
+    // Laudo Natel and two other men; cropped to isolate Morita alone
+    // (approx. source region x:891-1572, y:378-1350 of the 2620x2699
+    // original) — a candid conversational photo, not a posed portrait, but
+    // the only source family found this pass free of the Japan-published/
+    // URAA problem that blocked every earlier Morita attempt.
+    portrait: {
+      url: "/portraits/akio-morita-sao-paulo-1972.jpg",
+      width: 681,
+      height: 972,
+      source: "Wikimedia Commons (cropped/recompressed derivative; see licenseUrl for the original)",
+      license: "Public Domain (Brazilian pre-1983 government work — Law 3071/1916 art. 662, Law 5988/1973 art. 46)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Akio_Morita_e_Laudo_Natel_(1972).jpg",
+      attribution: "Avelino Ginjo, 8 May 1972 — Arquivo Público do Estado de São Paulo",
+    },
     sources: [{ id: "src_morita_encyc", kind: "archive", title: "Encyclopedia.com — \"Akio Morita\" (Business Leader Profiles for Students)", url: "https://www.encyclopedia.com/people/social-sciences-and-law/business-leaders/akio-morita" }, { id: "src_morita_ebsco", kind: "archive", title: "EBSCO Research Starters — \"Akio Morita\"", url: "https://www.ebsco.com/research-starters/history/akio-morita" }, { id: "src_morita_ces", kind: "institution", title: "CES.tech (Consumer Technology Association) — \"Akio Morita, Sony and the Power of Inventive Leadership\"", url: "https://www.ces.tech/articles/akio-morita-sony-and-the-power-of-inventive-leadership/" }, { id: "src_morita_commoncog", kind: "press", title: "Commoncog — \"The Sony Walkman\" (Case Library)", url: "https://commoncog.com/c/cases/sony-walkman/" }, { id: "src_morita_time", kind: "press", title: "Time (magazine archive) — \"Akio Morita & Masaru Ibuka\"", url: "https://time.com/archive/6679021/akio-morita-masaru-ibuka/" }, { id: "src_morita_memoir", kind: "biography", title: "Akio Morita (with Edwin M. Reingold and Mitsuko Shimomura), Made in Japan: Akio Morita and Sony (Dutton, 1986)" }, { id: "src_morita_nathan", kind: "biography", title: "John Nathan, Sony: The Private Life (Houghton Mifflin, 1999)" }, { id: "src_morita_springer", kind: "archive", title: "Springer Nature — \"Masaru Ibuka, Akio Morita, Soichiro Honda, and Takeo Fujisawa\" (business-history case-study chapter)" }],
     rows: {
       // Explicitly rejected market-research-led product development in favor of his own anticipatory judgment ("The public does not know what is possible, but we do"), and recognized a hostile letter-writer's genuine ear for sound quality rather than reading it only as an insult. Session 19 evidence AM-E8, AM-E19.
