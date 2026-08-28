@@ -4,18 +4,18 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-28 (FINAL Tier-A Portrait Recovery batch merged to
-`main` — Akio Morita, Akira Kurosawa, Martin Luther King Jr., and
-Malcolm X now have real portraits, closing out the exposure-audit-
-selected Tier A queue; **0 remote-Wikimedia portraits remain anywhere
-in the roster**).
+Last updated: 2026-08-28 (Portrait Completion Phase 2A-1 merged to
+`main` — Benjamin Banneker now has a real portrait, a lifetime-
+contemporary 1795 almanac woodcut honestly caveated as an unconfirmed
+likeness; Rumi remains HOLD, untouched this batch; **0 remote-Wikimedia
+portraits remain anywhere in the roster**).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `1a31807` — fast-forward merge of `feat/final-tier-a-portrait-recovery` (2026-08-28). A prior exposure-weighted audit (#1-match frequency, Similar-People in-degree, Directory clustering) ranked Akio Morita, Akira Kurosawa, Martin Luther King Jr., and Malcolm X as the highest-payoff remaining no-portrait people; this batch sourced all four from source families genuinely distinct from whatever blocked each of them before — Morita: a Brazilian state-archive photo (Avelino Ginjo, 1972, Arquivo Público do Estado de São Paulo), a pre-1983 government work so URAA restoration never attaches, cropped from a 4-person meeting scene per an approved crop region; Kurosawa: a 1953 Eiga no Tomo set photo whose Japanese copyright had already expired by 1970 under the old pre-1957-photograph term, before the 1996 URAA reference date, unlike the post-1957 corporate photos rejected earlier in the program; MLK: Dick DeMarsico, 1964, Library of Congress NYWTS collection, pre-1968 work-for-hire via Instrument of Gift (explicitly not the separate federal-§105 LBJ-Library backup found in the same pass); Malcolm X: Marion S. Trikosko, 1964, Library of Congress U.S. News & World Report collection, rights affirmatively dedicated to the public via USNWR's deed of gift, the unmodified original scan (not the colorized or "Remini enhanced" AI-upscaled derivatives found and rejected on Commons). All processed with sharp/mozjpeg (quality 85, 1600px-longest-side ceiling, no upscale, no AI processing); Morita's is the only one requiring a documented crop, the other three are already-solo compositions. Full validation gate: `tsc` clean, `vitest` 662/662, `next build --webpack` clean, `peopleDirectory.spec.ts`/`person.visual.spec.ts`/`compare.visual.spec.ts` 104/104, full Playwright **281/281** at `--workers=1`, plus a fresh roster-wide live sweep of all 95 production person pages (0 broken, 0 external/non-local portrait `src`). **Portrait delivery: 85 local / 0 remote / 10 no-portrait**, coverage 81/95 → 85/95 (89.5%). Prior HEAD `1278609` — fast-forward merge of `feat/final-no-portrait-coverage` (2026-08-28), closing out the No-Portrait Coverage program's active sourcing phase. Sourced and localized 3 more portraits — Octavia Butler (Nikolas Coukouma, CC BY 2.5, 2006 — a real event/signing photograph, not a publisher publicity portrait), Genghis Khan (Yuan dynasty imperial portrait album, c.1350, National Palace Museum Taipei, Public Domain — explicitly posthumous, painted ~120+ years after his death, part of a Yuan court ancestor-portrait tradition, not a lifetime/eyewitness likeness), and Socrates (Eric Gaba/"Sting", CC BY-SA 2.5, Louvre Ma 59 — a Roman-era copy within the ancient Socrates portrait tradition, explicitly not a lifetime or contemporary likeness). All hosted locally under `public/portraits/`, processed with sharp/mozjpeg (1600px-longest-side ceiling, quality 85, no upscale, no AI processing). **Umm Kulthum and Joan of Arc deliberately held**: every Umm Kulthum candidate traced to Pinterest/Facebook with no photographer credit and, on visual inspection, one didn't even resemble her; the sole contemporary Joan of Arc depiction (the 1429 Fauquembergue marginal sketch) is a crude schematic doodle with no discernible facial features, failing the strict hero/PersonCard visual threshold — no later invented likeness was substituted. **Socrates's E2E no-portrait fixture role was migrated to Coco Chanel** (`e2e/person.visual.spec.ts`, `e2e/compare.visual.spec.ts`) after verifying live that no remaining no-portrait person has a single-word display name in both locales (Rumi's English display falls back to the full multi-word canonicalName, no `en.ts` override shortens it); Coco Chanel is firmly HOLD after three separate rounds of sourcing research this program, so a stable long-term fixture, with assertions rewritten to match her real two-grapheme initials ("CC" / "코샤") rather than the old single-word assumption — original test intent (initials fallback renders, sizing matches, EN/KO both covered) fully preserved and re-verified live post-deploy. Verified via a dedicated Chromium script (zero broken images, zero console errors, zero overflow, zero Wikimedia network requests, correct attribution/caveat text) both pre-merge and again live post-deploy, plus a precise `<img src>` check across **all 95 live person pages** confirming zero Wikimedia references anywhere in the roster. Full validation gate: `tsc` clean, `vitest` 662/662, `next build --webpack` clean, 72/72 relevant Playwright specs, full Playwright **281/281** at `--workers=1` (this session repeatedly found a stale `next start` process left over from a prior session occupying the shared test port with an old build — now a known recurring gotcha, not a regression, killed before each run). **Portrait delivery split: 81 local / 0 remote-Wikimedia / 14 no-portrait**, coverage 78/95 → 81/95. |
-| `feat/final-tier-a-portrait-recovery`, `fix/ko-person-name-corrections-batch-1`, `feat/final-no-portrait-coverage`, `feat/no-portrait-fill-batch-2`, `feat/no-portrait-fill-batch-1`, `fix/portrait-final-remote-replacement`, `fix/portrait-reliability-batch-4`, `fix/portrait-reliability-batch-3`, `fix/portrait-reliability-batch-2`, `feat/portrait-sourcing-batch-1`, `fix/yayoi-kusama-portrait-v2` | Superseded/subsumed, cleanup candidates, not deleted. All are 0 commits ahead of `main` after their respective fast-forward merges (the latter two's portrait-data commits were cherry-picked into their own `-integration` branches, already merged into the history above; stale/unrelated commits on the originals were intentionally dropped). |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `844eca4` — fast-forward merge of `feat/portrait-phase2a-benjamin-banneker` (2026-08-28), the first completed item of Portrait Completion Phase 2 (see the Portrait Completion Phase 2 strategy audit for the full 10-person breakdown into free-source/rights-acquisition/historical-depiction tiers). Benjamin Banneker: the cover woodcut of his own 1795 almanac (*Pennsylvania, Delaware, Maryland, and Virginia Almanac, for the Year of our Lord 1795*; printed for and sold by John Fisher, Stationer, Baltimore; engraver unknown) — published in his lifetime and traditionally associated with him, but explicitly **not** presented as drawn from life, authenticated, or a confirmed likeness (no confirmed portrait of Banneker survives; his possessions were destroyed by fire the day of his funeral). Provenance cross-checked against PBS, the Maryland Center for History and Culture, the People's Graphic Design Archive, and Bedini's biography, which all independently converge on the same account. Recompressed only (mozjpeg quality 85, ~18.5% smaller, no visible linework damage at 4x magnification) — not resized, not upscaled, not AI-processed; native resolution (339×413) exceeds every UI slot's rendered size at every checked breakpoint, so the browser only ever downscales it. Full validation gate: `tsc` clean, `vitest` 662/662, `next build --webpack` clean, `peopleDirectory.spec.ts`/`person.visual.spec.ts`/`compare.visual.spec.ts` 104/104, full Playwright **281/281** at `--workers=1`, plus a fresh roster-wide live sweep of all 95 production person pages (0 broken, 0 external/non-local portrait `src`). **Portrait delivery: 86 local / 0 remote / 9 no-portrait**, coverage 85/95 → 86/95 (90.5%). **Rumi investigated and left at HOLD, deliberately untouched**: the genuinely-traceable source (Morgan Library MS M.466, a 1590s Ottoman illustrated manuscript of Aflākī's hagiography of Rumi, confirmed via the Morgan's own collection records) turned out to be a busy multi-figure narrative miniature with no confidently isolatable solo figure; the one compositionally-plausible alternative found on Commons had no traceable provenance at all. Neither clears this project's evidence bar. Prior HEAD `1a31807` — fast-forward merge of `feat/final-tier-a-portrait-recovery` (2026-08-28). A prior exposure-weighted audit (#1-match frequency, Similar-People in-degree, Directory clustering) ranked Akio Morita, Akira Kurosawa, Martin Luther King Jr., and Malcolm X as the highest-payoff remaining no-portrait people; this batch sourced all four from source families genuinely distinct from whatever blocked each of them before — Morita: a Brazilian state-archive photo (Avelino Ginjo, 1972, Arquivo Público do Estado de São Paulo), a pre-1983 government work so URAA restoration never attaches, cropped from a 4-person meeting scene per an approved crop region; Kurosawa: a 1953 Eiga no Tomo set photo whose Japanese copyright had already expired by 1970 under the old pre-1957-photograph term, before the 1996 URAA reference date, unlike the post-1957 corporate photos rejected earlier in the program; MLK: Dick DeMarsico, 1964, Library of Congress NYWTS collection, pre-1968 work-for-hire via Instrument of Gift (explicitly not the separate federal-§105 LBJ-Library backup found in the same pass); Malcolm X: Marion S. Trikosko, 1964, Library of Congress U.S. News & World Report collection, rights affirmatively dedicated to the public via USNWR's deed of gift, the unmodified original scan (not the colorized or "Remini enhanced" AI-upscaled derivatives found and rejected on Commons). All processed with sharp/mozjpeg (quality 85, 1600px-longest-side ceiling, no upscale, no AI processing); Morita's is the only one requiring a documented crop, the other three are already-solo compositions. Full validation gate: `tsc` clean, `vitest` 662/662, `next build --webpack` clean, `peopleDirectory.spec.ts`/`person.visual.spec.ts`/`compare.visual.spec.ts` 104/104, full Playwright **281/281** at `--workers=1`, plus a fresh roster-wide live sweep of all 95 production person pages (0 broken, 0 external/non-local portrait `src`). **Portrait delivery: 85 local / 0 remote / 10 no-portrait**, coverage 81/95 → 85/95 (89.5%). Prior HEAD `1278609` — fast-forward merge of `feat/final-no-portrait-coverage` (2026-08-28), closing out the No-Portrait Coverage program's active sourcing phase. Sourced and localized 3 more portraits — Octavia Butler (Nikolas Coukouma, CC BY 2.5, 2006 — a real event/signing photograph, not a publisher publicity portrait), Genghis Khan (Yuan dynasty imperial portrait album, c.1350, National Palace Museum Taipei, Public Domain — explicitly posthumous, painted ~120+ years after his death, part of a Yuan court ancestor-portrait tradition, not a lifetime/eyewitness likeness), and Socrates (Eric Gaba/"Sting", CC BY-SA 2.5, Louvre Ma 59 — a Roman-era copy within the ancient Socrates portrait tradition, explicitly not a lifetime or contemporary likeness). All hosted locally under `public/portraits/`, processed with sharp/mozjpeg (1600px-longest-side ceiling, quality 85, no upscale, no AI processing). **Umm Kulthum and Joan of Arc deliberately held**: every Umm Kulthum candidate traced to Pinterest/Facebook with no photographer credit and, on visual inspection, one didn't even resemble her; the sole contemporary Joan of Arc depiction (the 1429 Fauquembergue marginal sketch) is a crude schematic doodle with no discernible facial features, failing the strict hero/PersonCard visual threshold — no later invented likeness was substituted. **Socrates's E2E no-portrait fixture role was migrated to Coco Chanel** (`e2e/person.visual.spec.ts`, `e2e/compare.visual.spec.ts`) after verifying live that no remaining no-portrait person has a single-word display name in both locales (Rumi's English display falls back to the full multi-word canonicalName, no `en.ts` override shortens it); Coco Chanel is firmly HOLD after three separate rounds of sourcing research this program, so a stable long-term fixture, with assertions rewritten to match her real two-grapheme initials ("CC" / "코샤") rather than the old single-word assumption — original test intent (initials fallback renders, sizing matches, EN/KO both covered) fully preserved and re-verified live post-deploy. Verified via a dedicated Chromium script (zero broken images, zero console errors, zero overflow, zero Wikimedia network requests, correct attribution/caveat text) both pre-merge and again live post-deploy, plus a precise `<img src>` check across **all 95 live person pages** confirming zero Wikimedia references anywhere in the roster. Full validation gate: `tsc` clean, `vitest` 662/662, `next build --webpack` clean, 72/72 relevant Playwright specs, full Playwright **281/281** at `--workers=1` (this session repeatedly found a stale `next start` process left over from a prior session occupying the shared test port with an old build — now a known recurring gotcha, not a regression, killed before each run). **Portrait delivery split: 81 local / 0 remote-Wikimedia / 14 no-portrait**, coverage 78/95 → 81/95. |
+| `feat/portrait-phase2a-benjamin-banneker`, `feat/final-tier-a-portrait-recovery`, `fix/ko-person-name-corrections-batch-1`, `feat/final-no-portrait-coverage`, `feat/no-portrait-fill-batch-2`, `feat/no-portrait-fill-batch-1`, `fix/portrait-final-remote-replacement`, `fix/portrait-reliability-batch-4`, `fix/portrait-reliability-batch-3`, `fix/portrait-reliability-batch-2`, `feat/portrait-sourcing-batch-1`, `fix/yayoi-kusama-portrait-v2` | Superseded/subsumed, cleanup candidates, not deleted. All are 0 commits ahead of `main` after their respective fast-forward merges (the latter two's portrait-data commits were cherry-picked into their own `-integration` branches, already merged into the history above; stale/unrelated commits on the originals were intentionally dropped). |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
 | `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `fix/yayoi-kusama-portrait`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux`, `feat/landing-cta-hierarchy`, `feat/profile-hero-polish`, `feat/profile-v2-pilot-batch-1`, `feat/profile-v2-pilot-clean`, `feat/editorial-achievements-correction-batch-1`, `feat/portrait-sourcing-batch-1-integration`, `fix/yayoi-kusama-portrait-v2-integration`, `fix/portrait-reliability-batch-1`, `fix/malcolm-x-ko-name-spelling`, `fix/landing-cta-arrow-spacing` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
@@ -63,32 +63,32 @@ in the roster**).
   `IdentityHero`'s missing-portrait initials fallback
   (`src/ui/components/layout.tsx`) predates this redesign (2026-08,
   `chore/consolidated-dev-2026-08`) and is unchanged by it.
-- **Portrait coverage: 85/95** (55→60, Portrait Sourcing Batch 1;
+- **Portrait coverage: 86/95** (55→60, Portrait Sourcing Batch 1;
   60→69, No-Portrait Fill Batch 1; 69→78, No-Portrait Fill Batch 2;
   78→81, Final No-Portrait Coverage batch; 81→85, FINAL Tier-A Portrait
-  Recovery batch, 2026-08-28 — see branch table above for names/sources;
+  Recovery batch; 85→86, Portrait Completion Phase 2A-1 (Benjamin
+  Banneker), 2026-08-28 — see branch table above for names/sources;
   every other release was replacement/delivery-only). **Portrait
-  delivery: 85 local / 0 remote-Wikimedia / 10 no-portrait** (Zheng He
-  non-eligible, 9 eligible) — every portrait in the roster is self-hosted
+  delivery: 86 local / 0 remote-Wikimedia / 9 no-portrait** (Zheng He
+  non-eligible, 8 eligible) — every portrait in the roster is self-hosted
   under `public/portraits/`, so the categorical `ERR_BLOCKED_BY_ORB` risk
   this whole program existed to fix no longer applies to any person
-  page. **Tier-A Free-Source Recovery is COMPLETE** — the high-
-  probability/free-source phase (generic Commons/institutional-PD
-  sourcing) has run its course for this roster. That is not portrait
-  completion: the long-term target remains **95/95**. **Portrait
-  Completion Phase 2 is ACTIVE/PLANNED** for the remaining 10, per the
-  completed exposure audit's recovery tiers: Bruce Lee, Ibn Khaldun,
-  Rumi, Benjamin Banneker, Muhammad Ali, Fela Kuti (Tier B) and Coco
-  Chanel, Umm Kulthum, Joan of Arc, Zheng He (Tier C). Repeating generic
-  Commons searches on these 10 is not expected to succeed — Phase 2
-  instead needs differentiated strategies per person: rights
-  acquisition/special-source recovery (e.g. direct contact with an
-  estate, archive, or rights-holder), institutional archive recovery
+  page. **Tier-A Free-Source Recovery is COMPLETE**; the long-term
+  target remains **95/95**. **Portrait Completion Phase 2 is ACTIVE**,
+  one person resolved (Benjamin Banneker, historically-grounded
+  later-depiction path) of the remaining 9: Bruce Lee, Ibn Khaldun,
+  Rumi, Muhammad Ali, Fela Kuti (Tier B) and Coco Chanel, Umm Kulthum,
+  Joan of Arc, Zheng He (Tier C). Rumi was specifically investigated
+  (Phase 2A-1) and left at HOLD — see the branch table row above for
+  why. Repeating generic Commons searches on the rest is not expected to
+  succeed — Phase 2 instead needs differentiated strategies per person:
+  rights acquisition/special-source recovery (e.g. direct contact with
+  an estate, archive, or rights-holder), institutional archive recovery
   (unindexed/undigitized holdings a general web search won't surface),
   and — for pre-photography subjects — historically defensible
   depiction resolution (an image whose artistic/reconstruction status is
   itself honestly documented, not a search problem to solve). "HOLD" on
-  any of these 10 means no acceptable path exists under the sourcing
+  any of these means no acceptable path exists under the sourcing
   methods tried so far, not permanent abandonment — every one stays
   revisitable under a new strategy, while provenance honesty and the
   existing rights standards stay non-negotiable. See the exposure audit
@@ -156,21 +156,24 @@ to resolve a specific historical question, not by default.
 
 ## Test baseline (last known-good, re-verify before trusting)
 
-Verified on `main` at the 2026-08-28 FINAL Tier-A Portrait Recovery
-batch release (commit `1a31807`): `tsc --noEmit` clean · `vitest run`
+Verified on `main` at the 2026-08-28 Portrait Completion Phase 2A-1
+release (commit `844eca4`): `tsc --noEmit` clean · `vitest run`
 662/662 · `next build --webpack` clean · `peopleDirectory.spec.ts` +
 `person.visual.spec.ts` + `compare.visual.spec.ts` 104/104 · Playwright
-**281/281** at `--workers=1`. Live production check for the 4
-newly-portraited people (hero/PersonCard, 1280px + 390px, EN + KO): all
-checks pass — serve from `/portraits/`, correct attribution/license
-text, zero console errors, zero horizontal overflow; Morita's approved
-crop specifically re-inspected (neighboring shoulder sliver shows no
-face/identifying feature, reads as background, not a distracting second
-person). A roster-wide live sweep of all 95 production person pages
-confirmed 85 with a portrait `<img>`, 10 without, 0 broken, and 0
-external/non-Wikimedia-free — **zero** Wikimedia image references
-anywhere in the roster. Prior baseline (2026-08 Final No-Portrait
-Coverage batch, commit `1278609`): `tsc` clean, `vitest` 662/662, full
+**281/281** at `--workers=1`. Live production check for Benjamin
+Banneker (hero/PersonCard, 1280px + 390px, EN + KO): all checks pass —
+serves from `/portraits/`, byte-identical to the approved local file
+(no surprise deployment reprocessing), correct attribution/caveat text,
+zero console errors, zero horizontal overflow; native resolution
+(339×413) confirmed larger than every rendered UI slot at every checked
+breakpoint, so the browser only ever downscales, never upscales. A
+roster-wide live sweep of all 95 production person pages confirmed 86
+with a portrait `<img>`, 9 without, 0 broken, and 0 external/non-local
+`src` — **zero** Wikimedia image references anywhere in the roster.
+Prior baseline (2026-08-28 FINAL Tier-A Portrait Recovery batch, commit
+`1a31807`): same full gate, 85 local / 0 remote / 10 no-portrait at
+that point. Earlier baseline (2026-08 Final No-Portrait Coverage
+batch, commit `1278609`): `tsc` clean, `vitest` 662/662, full
 Playwright 281/281, a precise `<img src>` check across all 95 live
 person pages confirming zero Wikimedia references anywhere in the
 roster at that point too. Earlier baseline (2026-08 Editorial
@@ -188,18 +191,22 @@ Post-release, no blocking work outstanding. Zero remote-Wikimedia
 portrait dependency remains anywhere in the roster; the categorical
 `ERR_BLOCKED_BY_ORB` risk the Portrait Reliability Localization program
 existed to fix stays closed. The Tier-A portrait-recovery queue (Martin
-Luther King Jr., Malcolm X, Akira Kurosawa, Akio Morita) is now fully
-resolved, closing out the free-source/high-probability recovery phase —
-**not** portrait completion overall, which stays open with a long-term
-target of 95/95. Portrait Completion Phase 2 (planned, not started) is
-the next step for the remaining 10: differentiated strategies per
-person rather than another generic Commons pass — rights
-acquisition/special-source recovery, institutional archive recovery, or
-historically defensible depiction resolution for pre-photography
-subjects (Tier B: Bruce Lee, Ibn Khaldun, Rumi, Benjamin Banneker,
-Muhammad Ali, Fela Kuti; Tier C: Coco Chanel, Umm Kulthum, Joan of Arc,
-Zheng He) — with "HOLD" meaning no acceptable path yet, not permanent
-abandonment. Candidates for a future session (none started
+Luther King Jr., Malcolm X, Akira Kurosawa, Akio Morita) is fully
+resolved, closing out the free-source/high-probability recovery phase.
+Portrait Completion Phase 2 is now **active**: Benjamin Banneker
+resolved (Phase 2A-1, a historically-grounded later-depiction path);
+Rumi investigated in the same pass and left at HOLD (a genuinely
+traceable 1590s Ottoman manuscript source exists but is a multi-figure
+narrative scene with no isolatable solo figure). Portrait completion
+overall stays open with a long-term target of 95/95, 9 people
+remaining: differentiated strategies per person rather than another
+generic Commons pass — rights acquisition/special-source recovery,
+institutional archive recovery, or historically defensible depiction
+resolution for pre-photography subjects (Tier B: Bruce Lee, Ibn
+Khaldun, Rumi, Muhammad Ali, Fela Kuti; Tier C: Coco Chanel, Umm
+Kulthum, Joan of Arc, Zheng He) — with "HOLD" meaning no acceptable
+path yet, not permanent abandonment. Candidates for a future session
+(none started
 here): a trait-card click-to-explain affordance (needs a new
 lightweight popover/dialog primitive plus attribute-description content
 — see "Person Profile Hero redesign" above); the remaining 19
