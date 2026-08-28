@@ -1176,6 +1176,29 @@ details > summary:focus-visible {
 .tgi-landing-cta-secondary:hover:not([disabled]) {
   text-decoration: underline;
 }
+/* Arrow-spacing micro-polish (2026-08): previously the label text and the
+   arrow were two SIBLING flex items of `.tgi-button` (itself
+   `display: inline-flex`) — the base `gap` (--tgi-space-2, 8px, sized for
+   icon+label pairings elsewhere) plus a leading space character baked
+   into the arrow span's own text content put them ~12px+ apart, enough to
+   read as a second control. Worse, as two independent flex items, a long
+   label wrapping to two lines left the arrow vertically centred beside
+   the whole two-line block instead of sitting next to the last word.
+   Fix: page.tsx now wraps the label text and the arrow together in ONE
+   `.tgi-landing-cta-secondary__label` span, so `.tgi-button` has a single
+   flex child (centred exactly as before via its unchanged
+   `justify-content: center`) and, inside that span, the label and arrow
+   are normal inline content that wraps as one paragraph — the arrow
+   simply flows onto whichever line the last word lands on. Spacing moves
+   from flex `gap` to a plain inline margin on the arrow itself, since gap
+   no longer applies once it's not a flex item; `--tgi-space-1` (4px) is
+   the smallest existing token and matches the "immediately after the
+   text" pairing this button wants without inventing a new value. Scoped
+   to these two classes only — both are exclusive to this one button, so
+   nothing else is affected. */
+.tgi-landing-cta-secondary__arrow {
+  margin-inline-start: var(--tgi-space-1);
+}
 .tgi-landing-cta-stack {
   /* Stack's default cross-axis is `stretch`, which would blow both CTAs
      out to the full measure-stack width — including the primary button,

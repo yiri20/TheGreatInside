@@ -91,10 +91,11 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
                 {t(locale, "landing.cta_primary")}
               </Button>
               <Button href={`/${locale}/people`} variant="quiet" className="tgi-landing-cta-secondary">
-                {t(locale, "landing.cta_secondary")}
-                <span aria-hidden="true" className="tgi-landing-cta-secondary__arrow">
-                  {" "}
-                  →
+                <span className="tgi-landing-cta-secondary__label">
+                  {t(locale, "landing.cta_secondary")}
+                  <span aria-hidden="true" className="tgi-landing-cta-secondary__arrow">
+                    →
+                  </span>
                 </span>
               </Button>
             </Stack>
