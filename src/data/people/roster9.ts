@@ -143,6 +143,24 @@ const seeds: PersonSeed[] = [
     tagIds: ["prolific", "overcame_adversity", "innovator", "self_taught"],
     archetypeIds: ["creative_creator", "competitive_performer"],
     externalIdentity: { wikidataId: "Q1779" },
+    // No-Portrait Fill Batch 1 (2026-08): William P. Gottlieb studio
+    // portrait, Library of Congress Gottlieb Collection (Gottlieb dedicated
+    // the whole collection to the public domain in 2010) -- chosen over the
+    // higher-resolution "Louis Armstrong restored.jpg" because that file's
+    // restoration method (manual vs. AI) is not documented on its file
+    // page, and over a 1947 New York Sunday News print because it is
+    // currently sourced via an eBay resale with weaker provenance and has
+    // text baked into the image. Recompressed derivative, no resize needed,
+    // no crop. Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/louis-armstrong-gottlieb-loc.jpg",
+      width: 1024,
+      height: 1348,
+      source: "Wikimedia Commons (recompressed derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:(Portrait_of_Louis_Armstrong,_between_1938_and_1948)_(LOC)_(5189336741).jpg",
+      attribution: "Photograph by William P. Gottlieb, between 1938 and 1948, Library of Congress, Public Domain",
+    },
     sources: [{ id: "src_armstrong_hmbio", kind: "institution", title: "Louis Armstrong House Museum -- official Biography page" }, { id: "src_armstrong_hmcivil", kind: "institution", title: "Louis Armstrong House Museum -- \"I'm Still Louis Armstrong-Colored\" civil-rights virtual exhibit" }, { id: "src_armstrong_teachout", kind: "biography", title: "Terry Teachout -- Pops: A Life of Louis Armstrong" }, { id: "src_armstrong_nation", kind: "press", title: "The Nation -- \"Louis Armstrong Gets the Last Word on Louis Armstrong\"" }, { id: "src_armstrong_gage", kind: "press", title: "Jerry Jazz Musician -- \"Louis Armstrong and 'Gage'\"" }],
     rows: {
       // Archive material shows deliberate written notations on his own performance scores and substantive personal edits to his own arrangements -- a technically precise, craft-conscious relationship to his material rather than pure instinct alone. Session 18 evidence LA-E27.

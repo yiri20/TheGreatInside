@@ -961,6 +961,22 @@ const seeds: PersonSeed[] = [
     tagIds: ["systematic_thinker", "prolific", "philosopher"],
     archetypeIds: ["scholarly_specialist"],
     externalIdentity: { wikidataId: "Q9438" },
+    // No-Portrait Fill Batch 1 (2026-08): historical-ceiling case -- Aquinas
+    // died in 1274, no lifetime likeness exists. This is Carlo Crivelli's
+    // 1476 devotional panel (National Gallery, London, NG788.9), the
+    // standard, widely-reproduced depiction -- painted roughly two centuries
+    // after his death. Idealized/devotional convention (halo, symbolic
+    // objects), explicitly NOT a lifetime likeness. Resized derivative,
+    // uncropped. Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/thomas-aquinas-crivelli-1476.jpg",
+      width: 1065,
+      height: 1600,
+      source: "Wikimedia Commons (resized derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Saint_Thomas_Aquinas_(Crivelli,_15th-century).jpg",
+      attribution: "Carlo Crivelli, Saint Thomas Aquinas, 1476, National Gallery, London (NG788.9) — a later idealized/devotional depiction, painted approximately two centuries after Aquinas's death, not a lifetime likeness",
+    },
     sources: [{ id: "src_aquinas_wikipedia", kind: "wikipedia", title: "Thomas Aquinas", url: "https://en.wikipedia.org/wiki/Thomas_Aquinas" }, { id: "src_aquinas_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Thomas Aquinas" }],
     rows: {
       // The Summa Theologica's question-objection-response structure, applied across thousands of individual articles, is directly documented in the surviving text's own organization — a specific, sustained methodology, not a single instance.

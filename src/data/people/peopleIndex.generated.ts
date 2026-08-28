@@ -106,6 +106,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.7675757575757577,
     attributes: [["curiosity", 82, 0.7, "advantage"], ["analytical_rigor", 62, 0.55, "neutral"], ["intuitive_synthesis", 92, 0.85, "advantage"], ["systems_abstraction", 78, 0.65, "advantage"], ["independent_thinking", 92, 0.9, "advantage"], ["creative_originality", 88, 0.78, "advantage"], ["experimentation", 72, 0.6, "neutral"], ["cross_domain_range", 80, 0.8, "advantage"], ["aesthetic_sensitivity", 96, 0.94, "advantage"], ["discipline", 78, 0.6, "neutral"], ["deep_focus", 82, 0.7, "advantage"], ["detail_orientation", 92, 0.88, "dual_edged"], ["perfectionism", 95, 0.92, "dual_edged"], ["execution_speed", 82, 0.7, "neutral"], ["planning_orientation", 62, 0.5, "neutral"], ["persistence", 92, 0.88, "advantage"], ["adaptability", 78, 0.65, "neutral"], ["risk_tolerance", 88, 0.85, "dual_edged"], ["ambiguity_tolerance", 72, 0.6, "neutral"], ["decisiveness", 92, 0.88, "dual_edged"], ["social_assertiveness", 90, 0.9, "neutral"], ["collaboration", 48, 0.75, "dual_edged"], ["leadership_drive", 95, 0.92, "dual_edged"], ["persuasiveness", 95, 0.94, "advantage"], ["conflict_tolerance", 92, 0.9, "dual_edged"], ["mastery_orientation", 78, 0.6, "neutral"], ["achievement_drive", 92, 0.85, "neutral"], ["competitiveness", 88, 0.82, "dual_edged"], ["autonomy_need", 85, 0.7, "neutral"], ["impact_motivation", 92, 0.85, "advantage"], ["opportunity_sensing", 90, 0.8, "advantage"], ["proactive_agency", 85, 0.75, "dual_edged"], ["belief_updating", 68, 0.62, "neutral"]],
+    portraitUrl: "/portraits/steve-jobs-yohe-2010.jpg",
   },
   {
     id: "p_hayao_miyazaki",
@@ -183,6 +184,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.684516129032258,
     attributes: [["curiosity", 62, 0.45, "neutral"], ["analytical_rigor", 70, 0.5, "neutral"], ["intuitive_synthesis", 78, 0.5, "neutral"], ["systems_abstraction", 58, 0.45, "neutral"], ["independent_thinking", 82, 0.7, "advantage"], ["creative_originality", 62, 0.45, "neutral"], ["experimentation", 65, 0.5, "neutral"], ["cross_domain_range", 68, 0.6, "neutral"], ["aesthetic_sensitivity", 72, 0.6, "neutral"], ["discipline", 97, 0.94, "advantage"], ["deep_focus", 90, 0.85, "advantage"], ["detail_orientation", 82, 0.7, "advantage"], ["perfectionism", 88, 0.8, "dual_edged"], ["execution_speed", 85, 0.7, "advantage"], ["planning_orientation", 80, 0.65, "advantage"], ["persistence", 97, 0.94, "advantage"], ["adaptability", 85, 0.8, "advantage"], ["risk_tolerance", 72, 0.6, "neutral"], ["ambiguity_tolerance", 68, 0.5, "neutral"], ["decisiveness", 88, 0.8, "advantage"], ["social_assertiveness", 88, 0.85, "neutral"], ["collaboration", 65, 0.5, "neutral"], ["leadership_drive", 80, 0.7, "advantage"], ["persuasiveness", 78, 0.65, "neutral"], ["conflict_tolerance", 85, 0.8, "dual_edged"], ["mastery_orientation", 95, 0.9, "advantage"], ["achievement_drive", 96, 0.94, "advantage"], ["competitiveness", 98, 0.95, "dual_edged"], ["autonomy_need", 78, 0.6, "neutral"], ["impact_motivation", 85, 0.8, "advantage"], ["proactive_agency", 62, 0.5, "advantage"]],
+    portraitUrl: "/portraits/serena-williams-doha-2013.jpg",
   },
   {
     id: "p_alan_turing",
@@ -495,6 +497,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5877272727272728,
     attributes: [["curiosity", 68, 0.55, "neutral"], ["analytical_rigor", 62, 0.48, "neutral"], ["independent_thinking", 82, 0.68, "advantage"], ["creative_originality", 55, 0.42, "neutral"], ["discipline", 75, 0.58, "neutral"], ["deep_focus", 65, 0.48, "neutral"], ["planning_orientation", 62, 0.48, "neutral"], ["persistence", 90, 0.75, "advantage"], ["adaptability", 80, 0.65, "advantage"], ["risk_tolerance", 85, 0.72, "dual_edged"], ["ambiguity_tolerance", 72, 0.55, "neutral"], ["decisiveness", 72, 0.55, "neutral"], ["social_assertiveness", 85, 0.7, "neutral"], ["collaboration", 72, 0.55, "neutral"], ["leadership_drive", 78, 0.62, "advantage"], ["persuasiveness", 88, 0.72, "advantage"], ["conflict_tolerance", 78, 0.62, "dual_edged"], ["achievement_drive", 72, 0.55, "neutral"], ["competitiveness", 45, 0.4, "neutral"], ["autonomy_need", 65, 0.48, "neutral"], ["impact_motivation", 92, 0.78, "advantage"], ["proactive_agency", 78, 0.62, "dual_edged"]],
+    portraitUrl: "/portraits/malala-yousafzai-dfid-2015.jpg",
   },
   {
     id: "p_bruce_lee",
@@ -668,6 +671,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6077777777777778,
     attributes: [["curiosity", 55, 0.45, "neutral"], ["analytical_rigor", 55, 0.42, "neutral"], ["independent_thinking", 72, 0.58, "neutral"], ["creative_originality", 68, 0.52, "neutral"], ["experimentation", 70, 0.55, "neutral"], ["discipline", 97, 0.88, "advantage"], ["deep_focus", 88, 0.72, "advantage"], ["detail_orientation", 82, 0.65, "advantage"], ["perfectionism", 85, 0.68, "dual_edged"], ["execution_speed", 80, 0.62, "advantage"], ["planning_orientation", 75, 0.58, "advantage"], ["persistence", 95, 0.82, "advantage"], ["adaptability", 82, 0.65, "advantage"], ["risk_tolerance", 78, 0.62, "neutral"], ["ambiguity_tolerance", 58, 0.45, "neutral"], ["decisiveness", 80, 0.62, "advantage"], ["social_assertiveness", 70, 0.55, "neutral"], ["collaboration", 65, 0.5, "neutral"], ["leadership_drive", 65, 0.5, "neutral"], ["persuasiveness", 62, 0.48, "neutral"], ["conflict_tolerance", 58, 0.45, "neutral"], ["mastery_orientation", 95, 0.82, "advantage"], ["achievement_drive", 95, 0.85, "advantage"], ["competitiveness", 92, 0.8, "dual_edged"], ["autonomy_need", 68, 0.52, "neutral"], ["impact_motivation", 75, 0.58, "advantage"], ["proactive_agency", 65, 0.55, "dual_edged"]],
+    portraitUrl: "/portraits/simone-biles-national-team-2024.jpg",
   },
   {
     id: "p_yayoi_kusama",
@@ -925,6 +929,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5600000000000002,
     attributes: [["analytical_rigor", 92, 0.8, "advantage"], ["systems_abstraction", 90, 0.75, "advantage"], ["curiosity", 68, 0.52, "advantage"], ["independent_thinking", 78, 0.62, "risk"], ["discipline", 84, 0.68, "advantage"], ["deep_focus", 68, 0.5, "advantage"], ["mastery_orientation", 74, 0.58, "advantage"], ["planning_orientation", 82, 0.65, "advantage"], ["persistence", 78, 0.6, "advantage"], ["cross_domain_range", 62, 0.5, "neutral"], ["collaboration", 55, 0.45, "neutral"], ["conflict_tolerance", 70, 0.55, "risk"], ["leadership_drive", 58, 0.48, "neutral"], ["detail_orientation", 76, 0.58, "advantage"], ["persuasiveness", 64, 0.5, "advantage"], ["creative_originality", 70, 0.55, "advantage"], ["risk_tolerance", 62, 0.48, "neutral"], ["social_assertiveness", 32, 0.48, "neutral"], ["execution_speed", 72, 0.55, "advantage"], ["competitiveness", 58, 0.46, "neutral"], ["adaptability", 62, 0.48, "advantage"]],
+    portraitUrl: "/portraits/thomas-aquinas-crivelli-1476.jpg",
   },
   {
     id: "p_thomas_edison",
@@ -1100,6 +1105,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5515,
     attributes: [["analytical_rigor", 88, 0.75, "advantage"], ["independent_thinking", 78, 0.62, "advantage"], ["risk_tolerance", 68, 0.55, "advantage"], ["systems_abstraction", 82, 0.65, "advantage"], ["deep_focus", 78, 0.6, "advantage"], ["curiosity", 62, 0.48, "advantage"], ["leadership_drive", 80, 0.65, "advantage"], ["discipline", 82, 0.65, "advantage"], ["persistence", 84, 0.68, "advantage"], ["detail_orientation", 78, 0.6, "advantage"], ["persuasiveness", 74, 0.58, "advantage"], ["proactive_agency", 76, 0.6, "advantage"], ["mastery_orientation", 70, 0.55, "advantage"], ["achievement_drive", 65, 0.48, "neutral"], ["conflict_tolerance", 62, 0.48, "neutral"], ["autonomy_need", 60, 0.45, "neutral"], ["collaboration", 55, 0.42, "neutral"], ["resourcefulness", 58, 0.42, "neutral"], ["cross_domain_range", 55, 0.42, "neutral"], ["experimentation", 52, 0.4, "neutral"]],
+    portraitUrl: "/portraits/florence-nightingale-hering-1860.jpg",
   },
   {
     id: "p_grace_hopper",
@@ -1294,6 +1300,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.590952380952381,
     attributes: [["leadership_drive", 90, 0.72, "advantage"], ["analytical_rigor", 78, 0.6, "advantage"], ["risk_tolerance", 88, 0.72, "advantage"], ["planning_orientation", 76, 0.6, "advantage"], ["independent_thinking", 80, 0.65, "advantage"], ["adaptability", 82, 0.68, "advantage"], ["persuasiveness", 72, 0.55, "advantage"], ["decisiveness", 78, 0.6, "advantage"], ["persistence", 84, 0.68, "advantage"], ["discipline", 76, 0.6, "advantage"], ["proactive_agency", 78, 0.62, "advantage"], ["conflict_tolerance", 80, 0.65, "risk"], ["autonomy_need", 68, 0.52, "advantage"], ["collaboration", 55, 0.45, "dual_edged"], ["achievement_drive", 74, 0.56, "advantage"], ["resourcefulness", 74, 0.58, "advantage"], ["cross_domain_range", 66, 0.52, "advantage"], ["systems_abstraction", 62, 0.48, "advantage"], ["deep_focus", 74, 0.56, "advantage"], ["mastery_orientation", 66, 0.52, "advantage"], ["opportunity_sensing", 70, 0.55, "advantage"]],
+    portraitUrl: "/portraits/toussaint-louverture-rainsford-1805.jpg",
   },
   {
     id: "p_wole_soyinka",
@@ -1312,6 +1319,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5504545454545456,
     attributes: [["risk_tolerance", 84, 0.68, "risk"], ["independent_thinking", 80, 0.65, "advantage"], ["creative_originality", 82, 0.65, "advantage"], ["conflict_tolerance", 82, 0.65, "risk"], ["social_assertiveness", 78, 0.62, "advantage"], ["proactive_agency", 78, 0.62, "advantage"], ["persuasiveness", 70, 0.6, "advantage"], ["aesthetic_sensitivity", 74, 0.65, "advantage"], ["autonomy_need", 62, 0.5, "advantage"], ["resourcefulness", 66, 0.52, "advantage"], ["deep_focus", 68, 0.52, "advantage"], ["curiosity", 60, 0.44, "advantage"], ["collaboration", 58, 0.46, "neutral"], ["planning_orientation", 62, 0.5, "advantage"], ["discipline", 70, 0.55, "advantage"], ["persistence", 76, 0.58, "advantage"], ["cross_domain_range", 68, 0.52, "advantage"], ["impact_motivation", 74, 0.58, "advantage"], ["leadership_drive", 60, 0.46, "neutral"], ["achievement_drive", 64, 0.48, "neutral"], ["detail_orientation", 55, 0.42, "neutral"], ["mastery_orientation", 62, 0.46, "neutral"]],
+    portraitUrl: "/portraits/wole-soyinka-2018.jpg",
   },
   {
     id: "p_aristotle",
@@ -1746,6 +1754,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5371428571428571,
     attributes: [["analytical_rigor", 68, 0.42, "advantage"], ["independent_thinking", 82, 0.65, "advantage"], ["belief_updating", 35, 0.42, "dual_edged"], ["creative_originality", 85, 0.5, "advantage"], ["aesthetic_sensitivity", 78, 0.42, "advantage"], ["discipline", 88, 0.65, "advantage"], ["deep_focus", 80, 0.58, "advantage"], ["detail_orientation", 72, 0.42, "advantage"], ["planning_orientation", 65, 0.42, "advantage"], ["persistence", 90, 0.72, "advantage"], ["adaptability", 68, 0.5, "advantage"], ["risk_tolerance", 78, 0.62, "dual_edged"], ["decisiveness", 70, 0.42, "advantage"], ["social_assertiveness", 75, 0.5, "advantage"], ["collaboration", 72, 0.55, "advantage"], ["leadership_drive", 78, 0.58, "advantage"], ["conflict_tolerance", 85, 0.68, "advantage"], ["mastery_orientation", 82, 0.58, "advantage"], ["autonomy_need", 72, 0.5, "advantage"], ["impact_motivation", 78, 0.55, "advantage"], ["proactive_agency", 80, 0.6, "advantage"]],
+    portraitUrl: "/portraits/louis-armstrong-gottlieb-loc.jpg",
   },
   {
     id: "p_louis_pasteur",

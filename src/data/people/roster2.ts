@@ -1248,6 +1248,19 @@ const seeds: PersonSeed[] = [
     impactDomains: ["social", "educational"],
     tagIds: ["nobel_laureate", "young_leader"],
     archetypeIds: ["social_influencer"],
+    // No-Portrait Fill Batch 1 (2026-08): resized derivative of a real
+    // photograph, deliberately preferred over the commissioned Nasser Azam
+    // portrait painting that also circulates under her name. Verified live
+    // against the Commons file page.
+    portrait: {
+      url: "/portraits/malala-yousafzai-dfid-2015.jpg",
+      width: 1034,
+      height: 1600,
+      source: "Wikimedia Commons (resized derivative)",
+      license: "CC BY 2.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_close-up_(cropped).jpg",
+      attribution: "Photograph by Simon Davis / DFID (UK Department for International Development), 2015, CC BY 2.0",
+    },
     sources: [wiki("malala", "Malala Yousafzai")],
     rows: {
       curiosity: [68, 0.55, "s", "N"],
@@ -1888,6 +1901,20 @@ const seeds: PersonSeed[] = [
     impactDomains: ["athletic", "cultural"],
     tagIds: ["competitor", "advocate"],
     archetypeIds: ["competitive_performer"],
+    // No-Portrait Fill Batch 1 (2026-08): resized derivative, uncropped --
+    // an earlier crop attempt to remove a teammate's arm at the frame edge
+    // instead clipped her smile, so the full frame was kept (the arms of
+    // teammates on both sides read as an incidental team-photo frame, not a
+    // distraction). Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/simone-biles-national-team-2024.jpg",
+      width: 1109,
+      height: 1600,
+      source: "Wikimedia Commons (resized derivative)",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg",
+      attribution: "Ocoudis, CC BY-SA 4.0, via Wikimedia Commons",
+    },
     sources: [wiki("biles", "Simone Biles")],
     rows: {
       curiosity: [55, 0.45, "i", "N"],

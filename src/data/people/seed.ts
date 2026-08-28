@@ -406,6 +406,18 @@ const seeds: PersonSeed[] = [
     impactDomains: ["entrepreneurial", "technological", "industrial", "cultural"],
     tagIds: ["founder", "perfectionist", "product_leader"],
     archetypeIds: ["entrepreneurial_builder", "organizational_leader"],
+    // No-Portrait Fill Batch 1 (2026-08): resized/recompressed derivative of
+    // the Matthew Yohe headshot (2010 WWDC), the tightest well-composed crop
+    // in the Yohe series -- verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/steve-jobs-yohe-2010.jpg",
+      width: 1001,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative)",
+      license: "CC BY-SA 3.0 / GFDL 1.2+",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg",
+      attribution: "Photograph by Matthew Yohe, 2010, CC BY-SA 3.0",
+    },
     sources: [wiki("jobs", "Steve Jobs"), bio("jobs", "Walter Isaacson, Steve Jobs (2011)")],
     doNotCopyKeys: ["dontcopy.jobs.demandingness"],
     rows: {
@@ -736,6 +748,21 @@ const seeds: PersonSeed[] = [
     impactDomains: ["athletic", "cultural", "social"],
     tagIds: ["competitor", "career_changer", "sustained_excellence"],
     archetypeIds: ["competitive_performer"],
+    // No-Portrait Fill Batch 1 (2026-08): cropped/resized derivative of the
+    // Doha 2013 press-conference photo -- the neutral, non-branded
+    // composition preferred over a brighter Australian Open 2015 alternate
+    // that shows her in bright competition kit with visible logos. A bottom
+    // crop removes a microphone that was in the original frame; no other
+    // alteration. Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/serena-williams-doha-2013.jpg",
+      width: 1360,
+      height: 1600,
+      source: "Wikimedia Commons (cropped/resized derivative)",
+      license: "CC BY 2.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Serena_Williams_Doha_2013_(cropped).jpg",
+      attribution: "Photograph by Vinod Divakaran / Doha Stadium Plus Qatar, 2013, CC BY 2.0",
+    },
     sources: [
       wiki("serena", "Serena Williams"),
       bio("serena", "Serena Williams, On the Line (2009)"),

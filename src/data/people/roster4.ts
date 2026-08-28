@@ -287,6 +287,22 @@ const seeds: PersonSeed[] = [
     tagIds: ["founder", "systematic_thinker", "independent"],
     archetypeIds: ["scholarly_specialist", "organizational_leader"],
     externalIdentity: { wikidataId: "Q37103" },
+    // No-Portrait Fill Batch 1 (2026-08): Henry Hering photograph, c.1860.
+    // Public Domain basis is the photographer's death (1893) plus pre-1931
+    // publication (life+100 years expired) -- an independent copyright-
+    // expiry basis, not a claim of NPG-granted reuse permission; the file
+    // happens to be a Commons-hosted digitization of an NPG (x82368) print.
+    // Recompressed derivative, no resize needed (already under the 1600px
+    // ceiling), no crop. Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/florence-nightingale-hering-1860.jpg",
+      width: 1105,
+      height: 1536,
+      source: "Wikimedia Commons (recompressed derivative)",
+      license: "Public Domain (photographer's copyright expired)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_(H_Hering_NPG_x82368).jpg",
+      attribution: "Photograph by Henry Hering, c.1860, Public Domain",
+    },
     sources: [{ id: "src_nightingale_wikipedia", kind: "wikipedia", title: "Florence Nightingale", url: "https://en.wikipedia.org/wiki/Florence_Nightingale" }, { id: "src_nightingale_mcdonald", kind: "archive", title: "Lynn McDonald (ed.), The Collected Works of Florence Nightingale" }, { id: "src_nightingale_smallbio", kind: "biography", title: "Mark Bostridge, Florence Nightingale: The Woman and Her Legend (2008)" }],
     rows: {
       // Developed and used polar-area diagrams (the 'coxcomb' chart) to statistically demonstrate that poor sanitation, not combat, caused most Crimean War deaths — a documented, specific, methodologically original statistical analysis, corroborated by the surviving charts and reports themselves.
@@ -1006,6 +1022,27 @@ const seeds: PersonSeed[] = [
     tagIds: ["overcame_adversity", "leader", "strategist"],
     archetypeIds: ["organizational_leader"],
     externalIdentity: { wikidataId: "Q205783" },
+    // No-Portrait Fill Batch 1 (2026-08), conditional on strict visual
+    // review: the Marcus Rainsford / John Kay engraving, 1805, published in
+    // Rainsford's "An Historical Account of the Black Empire of Hayti", two
+    // years after Louverture's 1803 death -- the standard near-contemporary
+    // depiction. Explicitly NOT made from life; no confirmed lifetime
+    // portrait of Louverture is known to exist (consistent with the NPG's
+    // own position on this figure). Kept as the full uncropped engraving
+    // per instruction -- at 667x924 source resolution, an aggressive
+    // face-only crop would leave too little detail, so hero/PersonCard show
+    // the full three-quarter-length figure rather than a tight headshot.
+    // Recompressed derivative (PNG->JPEG), no resize needed, no crop.
+    // Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/toussaint-louverture-rainsford-1805.jpg",
+      width: 667,
+      height: 924,
+      source: "Wikimedia Commons (recompressed derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Toussaint_Louverture_by_Marcus_Rainsford.png",
+      attribution: "Engraving after Marcus Rainsford / John Kay, 1805 — a near-contemporary standard depiction, not made from life; no lifetime portrait of Louverture is known to exist",
+    },
     sources: [{ id: "src_toussaint_wikipedia", kind: "wikipedia", title: "Toussaint Louverture", url: "https://en.wikipedia.org/wiki/Toussaint_Louverture" }, { id: "src_toussaint_dubois", kind: "biography", title: "Laurent Dubois, Avengers of the New World: The Story of the Haitian Revolution (2004)" }],
     rows: {
       // Rose from enslaved coachman to Commander-in-Chief and Governor-General of Saint-Domingue, documented via the extensive military and administrative record of the Haitian Revolution.
@@ -1067,6 +1104,21 @@ const seeds: PersonSeed[] = [
     tagIds: ["independent", "nonconformist", "advocate"],
     archetypeIds: ["creative_creator", "social_influencer"],
     externalIdentity: { wikidataId: "Q41488" },
+    // No-Portrait Fill Batch 1 (2026-08): resized derivative, uncropped.
+    // The pose is ~30-40 degrees off-axis (mid-gesture at a Stockholm
+    // library talk), not a fully front-facing headshot -- accepted as the
+    // best-available CC candidate after comparing against a 2015 Brazil
+    // Senate photo with a less flattering open-mouth expression. Verified
+    // live against the Commons file page.
+    portrait: {
+      url: "/portraits/wole-soyinka-2018.jpg",
+      width: 1507,
+      height: 1600,
+      source: "Wikimedia Commons (resized derivative)",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Wole_Soyinka_in_2018.jpg",
+      attribution: "Photograph by Frankie Fouganthin, 2018, CC BY-SA 4.0",
+    },
     sources: [{ id: "src_soyinka_wikipedia", kind: "wikipedia", title: "Wole Soyinka", url: "https://en.wikipedia.org/wiki/Wole_Soyinka" }, { id: "src_soyinka_nobel", kind: "award_body", title: "The Nobel Prize — Wole Soyinka, Literature 1986" }, { id: "src_soyinka_memoir", kind: "archive", title: "Wole Soyinka, The Man Died: Prison Notes (1972 memoir)" }],
     rows: {
       // Was imprisoned for roughly two years (1967-1969), much of it in solitary confinement, after publicly attempting to broker a ceasefire during the Nigerian Civil War — a specific, documented, extreme personal risk taken for a political cause outside any formal role.
