@@ -1546,14 +1546,11 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.ibn-khaldun": "이븐 할둔",
   "person.name.wangari-maathai": "왕가리 마타이",
   "person.name.malala-yousafzai": "말랄라 유사프자이",
-  // FLAG (real ambiguity, human decision needed): implemented as "브루스
-  // 리" (matches canonicalName's Western form and is itself a genuinely
-  // well-established Korean rendering), but "이소룡" — the Sino-Korean
-  // reading of his Chinese name (李小龍) — is at least as established in
-  // Korean, arguably more so for his film career specifically. Not a
-  // transliteration-confidence question; a real choice between two
-  // legitimate established forms.
-  "person.name.bruce-lee": "브루스 리",
+  // Corrected 2026-08 (Korean Person-Name Localization Audit): "이소룡" is
+  // the Sino-Korean reading of his Chinese name (李小龍) and the
+  // established Korean name in books/media/encyclopedias — not a
+  // transliteration of the English stage name "Bruce Lee".
+  "person.name.bruce-lee": "이소룡",
   "person.name.srinivasa-ramanujan": "스리니바사 라마누잔",
   "person.name.toni-morrison": "토니 모리슨",
   "person.name.akira-kurosawa": "구로사와 아키라",
@@ -1585,11 +1582,17 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.ernest-shackleton": "어니스트 섀클턴",
   "person.name.frederick-douglass": "프레더릭 더글러스",
   "person.name.galileo-galilei": "갈릴레오 갈릴레이",
-  "person.name.hildegard-of-bingen": "빙엔의 힐데가르트",
+  // Corrected 2026-08 (Korean Person-Name Localization Audit): "폰 빙엔"
+  // matches established Korean usage (Korean Wikipedia et al.); the prior
+  // "빙엔의 힐데가르트" was a literal translation of the English "of Bingen".
+  "person.name.hildegard-of-bingen": "힐데가르트 폰 빙엔",
   "person.name.ibn-sina": "이븐 시나",
   "person.name.isaac-newton": "아이작 뉴턴",
   "person.name.jane-austen": "제인 오스틴",
-  "person.name.martin-luther-king-jr": "마틴 루서 킹 주니어",
+  // Corrected 2026-08 (Korean Person-Name Localization Audit): "루터" is
+  // the established Korean media/encyclopedia form, despite strict NIKL
+  // transliteration rules favoring "루서".
+  "person.name.martin-luther-king-jr": "마틴 루터 킹 주니어",
   "person.name.rabindranath-tagore": "라빈드라나트 타고르",
   "person.name.thomas-aquinas": "토마스 아퀴나스",
   "person.name.thomas-edison": "토머스 에디슨",
@@ -1657,7 +1660,10 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
 
   // ROSTER-1000 session 19 (roster10.ts, 5 people).
   "person.name.mustafa-kemal-ataturk": "무스타파 케말 아타튀르크",
-  "person.name.aung-san-suu-kyi": "아웅 산 수 치",
+  // Corrected 2026-08 (Korean Person-Name Localization Audit): "아웅산
+  // 수치" matches mainstream Korean media usage over the strict
+  // syllable-by-syllable NIKL spacing rule.
+  "person.name.aung-san-suu-kyi": "아웅산 수치",
   "person.name.anna-pavlova": "안나 파블로바",
   "person.name.akio-morita": "모리타 아키오",
   "person.name.oscar-niemeyer": "오스카 니마이어",
