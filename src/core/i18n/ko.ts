@@ -1605,7 +1605,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.florence-nightingale": "플로렌스 나이팅게일",
   "person.name.grace-hopper": "그레이스 호퍼",
   "person.name.immanuel-kant": "임마누엘 칸트",
-  "person.name.malcolm-x": "맬컴 엑스",
+  "person.name.malcolm-x": "말콤 엑스",
   "person.name.muhammad-ali": "무하마드 알리",
   "person.name.niels-bohr": "닐스 보어",
   "person.name.rachel-carson": "레이첼 카슨",
