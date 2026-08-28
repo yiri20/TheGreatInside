@@ -4,18 +4,17 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-27 (Portrait Reliability Localization Batch 3
-merged to `main`, following the same-day Malcolm X Korean-spelling fix,
-Landing CTA arrow-spacing fix, Batch 1/Batch 2 / Portrait Sourcing
-Batch 1 / Yayoi Kusama v2 / Editorial Achievements Correction Batch 1 /
-Profile V2 / Hero redesign releases).
+Last updated: 2026-08-27 (Portrait Reliability Localization Batch 4
+merged to `main` — the final reliability batch; only Averroes and
+B. R. Ambedkar remain remote, held for a separate replacement-research
+task, not a reliability one).
 
 ## Branches
 
 | Branch | Status |
 |---|---|
-| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `9777d8c` — fast-forward merge of `fix/portrait-reliability-batch-3` (2026-08-27): localized the next 15 REMOTE WIKIMEDIA portraits. A fresh production reliability burst-load on all 25 then-remaining remote portraits found **zero fresh ORB/HTTP failures** (Batch 2 had already caught and fixed the two unrelated failures a prior burst found), so this batch's selection ran entirely on the next-priority signals: combined #1-match exposure / Similar-People in-degree (Maimonides, Leonardo da Vinci, Aristotle, Katherine Johnson, Jane Goodall, Oprah Winfrey, Albert Einstein, Wangari Maathai, Richard Feynman, Nikola Tesla, Frida Kahlo, Toni Morrison, Hayao Miyazaki), plus 2 weight-driven picks (Harriet Tubman, 3.72MB — the single largest remaining remote source; Sequoyah, 2.88MB — second-largest). All 15 stored URLs resolved to the same hash-path already recorded (MediaWiki API-verified, sha1-verified downloads) — no stale paths, no substitutions. License/attribution cross-checked against each file's Commons extmetadata: all 15 already accurate, **no metadata corrections needed this batch** (unlike Batch 2's Ibn Sina/Gandhi/Atatürk fixes). Localized under `public/portraits/` (1600px-longest-side + mozjpeg q85 for the 8 oversized sources; recompress-only for the other 7; Leonardo da Vinci and Jane Goodall kept their original bytes since recompression saved under 5%) — aggregate ~15.45MB→~2.02MB (~87% smaller). Human review approved via 4 representative Playwright/Chromium screenshots (Katherine Johnson, Harriet Tubman, Aristotle, Maimonides — the highest compression ratios / known depiction-quality caveats) showing no visible compression/crop regression before merge. Full pre-release gate passed on `fix/portrait-reliability-batch-3` before merge: `tsc --noEmit` clean, `vitest run` 662/662, `next build --webpack` clean, Playwright **281/281** at `--workers=1`. Live-verified in production post-deploy (hero + Directory, 1280px/390px, EN/KO, all 15): all 15 hero images serve from `/portraits/` (byte-identical to the commit, confirmed via HTTP HEAD), zero Wikimedia requests for the 15 at hero render time, zero console errors, zero horizontal overflow. A live Directory burst-load (3 concurrent-fetch iterations over the page's 60 rendered portraits) found zero HTTP-level failures this run, 10 remote-Wikimedia images remaining on that page as expected — the same HTTP-status-proxy caveat as prior batches applies (not a byte-identical reproduction of Chrome's image-decode-time ORB block). Portrait delivery split: **50 local / 10 remote-Wikimedia / 35 no-portrait**, coverage unchanged at 60/95. This stacks on Portrait Reliability Localization Batch 2 (commit `ba3b1e8`) and Batch 1 (`f48227b`, both same day) and two earlier same-day releases (Portrait Sourcing Batch 1, `4a88cd6`; Yayoi Kusama Portrait v2, `cfbc21f`) — all five share the same add/replace-then-localize pattern. Two small unrelated fixes landed on `main` between Batch 2 and Batch 3: a Malcolm X Korean-spelling correction (commit `bbe472d`, `person.name.malcolm-x` in `ko.ts`, presentation-only) and a Landing secondary CTA arrow-spacing polish (commit `7f3c446`, `app/[locale]/page.tsx` + `components.css` — label and arrow now wrap together as one inline unit instead of two independent flex items; 23/23 `landing.visual.spec.ts` passed). |
-| `fix/portrait-reliability-batch-3`, `fix/portrait-reliability-batch-2`, `feat/portrait-sourcing-batch-1`, `fix/yayoi-kusama-portrait-v2` | Superseded/subsumed, cleanup candidates, not deleted. The first two are 0 commits ahead of `main` after their respective fast-forward merges. The latter two's portrait-data commits were cherry-picked into their own `-integration` branches (already merged into the history above); stale/unrelated commits on the originals were intentionally dropped. |
+| `main` | **Production.** Deployed to `https://thegreatinside.com`. HEAD `b46df75` — fast-forward merge of `fix/portrait-reliability-batch-4` (2026-08-27): localizes the final 8 REMOTE WIKIMEDIA portraits a dedicated triage approved as-is (Confucius, Isaac Newton, Emmy Noether, Elizabeth Blackwell, Ludwig Wittgenstein, Nicolaus Copernicus, Wu Zetian, Julius Caesar), explicitly holding back **Averroes** (awkward fresco crop — a tighter existing crop of the same artwork likely exists) and **B. R. Ambedkar** (degraded scan + loose composition on a well-documented 20th-century figure — a cleaner photo likely exists) for future replacement research, not reliability work. All 8 resolved to the same hash-path already recorded (MediaWiki API + sha1-verified) — no stale paths, no substitutions, no metadata corrections needed (already verified accurate in the triage). Localized under `public/portraits/` (1600px-longest-side + mozjpeg q85 for the 3 oversized sources — Isaac Newton, Julius Caesar, plus Emmy Noether's disproportionately-heavy file; recompress-only for the other 5; Confucius and Ludwig Wittgenstein kept original bytes since recompression saved under 5%; Elizabeth Blackwell's 288×405 explicitly not upscaled) — aggregate ~2.03MB→~716KB (~65% smaller). Historical-depiction caveats (Confucius/Wu Zetian "idealized, not a lifetime likeness"; Julius Caesar's Tusculum-portrait context) verified preserved verbatim. Human review approved via 6 Playwright/Chromium screenshots (Isaac Newton/Elizabeth Blackwell/Wu Zetian/Julius Caesar at 1280px, Elizabeth Blackwell/Wu Zetian at 390px) showing no compression artifacts, no awkward crop, caveats rendering, zero overflow. Full pre-release gate: `tsc --noEmit` clean, `vitest run` 662/662, `next build --webpack` clean, 72/72 relevant Person/Directory Playwright specs, Playwright **281/281** at `--workers=1`. Live-verified in production post-deploy (hero + Directory, 1280px/390px, EN/KO, all 8): all 8 hero images serve from `/portraits/` (byte-identical via HTTP HEAD), zero Wikimedia requests for the 8, correct attribution links to original Commons pages, zero console errors, zero horizontal overflow. A live Directory burst-load (3 iterations, 60 rendered portraits) found zero failures, confirming exactly 2 remote URLs remain — Averroes and B. R. Ambedkar, matching the release's exact requirement. Portrait delivery split: **58 local / 2 remote-Wikimedia / 35 no-portrait**, coverage unchanged at 60/95. This stacks on Batch 3 (`9777d8c`), Batch 2 (`ba3b1e8`), Batch 1 (`f48227b`), Portrait Sourcing Batch 1 (`4a88cd6`), and Yayoi Kusama Portrait v2 (`cfbc21f`) — the same add/replace-then-localize pattern throughout. Two small unrelated fixes landed on `main` between Batch 2 and Batch 3 (Malcolm X Korean-spelling correction, `bbe472d`; Landing CTA arrow-spacing polish, `7f3c446`) — see archive/prior commits for detail, not restated here. |
+| `fix/portrait-reliability-batch-4`, `fix/portrait-reliability-batch-3`, `fix/portrait-reliability-batch-2`, `feat/portrait-sourcing-batch-1`, `fix/yayoi-kusama-portrait-v2` | Superseded/subsumed, cleanup candidates, not deleted. The first three are 0 commits ahead of `main` after their respective fast-forward merges. The latter two's portrait-data commits were cherry-picked into their own `-integration` branches (already merged into the history above); stale/unrelated commits on the originals were intentionally dropped. |
 | `feat/monetization-v1` | Deliberately isolated, **not merged**, no external payment infra activated. Do not read its docs unless the task is monetization. |
 | `chore/consolidated-dev-2026-08`, `chore/context-architecture`, `chore/domain-migration`, `chore/self-made-audit-2026-08`, `fix/mobile-likert-wrap`, `fix/quiz-likert-endpoint-clarity`, `fix/yayoi-kusama-portrait`, `scale/roster-1000`, `feat/editorial-backfill-batch-1..6`, `feat/editorial-qa-pilot`, `feat/launch-readiness-95`, `feat/profile-editorial-depth`, `feat/directory-taxonomy-filter-ux`, `feat/landing-cta-hierarchy`, `feat/profile-hero-polish`, `feat/profile-v2-pilot-batch-1`, `feat/profile-v2-pilot-clean`, `feat/editorial-achievements-correction-batch-1`, `feat/portrait-sourcing-batch-1-integration`, `fix/yayoi-kusama-portrait-v2-integration`, `fix/portrait-reliability-batch-1`, `fix/malcolm-x-ko-name-spelling`, `fix/landing-cta-arrow-spacing` | Fully subsumed by `main` (0 unique commits each) — cleanup candidates, not deleted (no established convention to do so; deletion needs an explicit human decision, not made here). Branch new work from `main`. |
 
@@ -64,7 +63,7 @@ Profile V2 / Hero redesign releases).
   (`src/ui/components/layout.tsx`) predates this redesign (2026-08,
   `chore/consolidated-dev-2026-08`) and is unchanged by it.
 - **Portrait coverage: 60/95** (55→60, Portrait Sourcing Batch 1;
-  unchanged by the subsequent Kusama v2 replacement and all three
+  unchanged by the subsequent Kusama v2 replacement and all four
   Portrait Reliability Localization passes, all replacement/
   delivery-only). **Portrait Sourcing Batch 1** (2026-08) added Niels
   Bohr, C. V. Raman, Fyodor Dostoevsky, Louis Pasteur, and Ernest
@@ -72,21 +71,21 @@ Profile V2 / Hero redesign releases).
   the Lange 1782 life portrait. **Yayoi Kusama Portrait v2** (2026-08)
   replaced her prior extreme-close-up portrait with
   `File:20130918Yayoi_Kusama1_(cropped).jpg`. **Portrait Reliability
-  Localization Batch 1** (2026-08) localized 14 pre-existing portraits
-  a roster-wide audit found reproducibly ORB-failing. **Batch 2**
-  (2026-08) localized the next 14 by the same audit's priority order
-  (plus two attribution-text data-hygiene fixes, Ibn Sina and
-  Gandhi/Atatürk). **Batch 3** (2026-08, see branch table above) then
-  localized 15 more — a fresh reliability check found no new failures,
-  so selection ran purely on exposure/in-degree/weight signals, with no
-  metadata corrections needed. **Portrait delivery split: 50 local / 10
-  remote-Wikimedia / 35 no-portrait** (Zheng He non-eligible, 34
-  eligible). The remaining 10 remote-Wikimedia portraits carry the same
-  categorical `ERR_BLOCKED_BY_ORB` risk (Wikimedia storage-path/rate-
-  limit fragility) but haven't been individually localized yet — see
-  the audit artifact referenced in the branch-table entries above for
-  the full roster-wide reliability table and prioritization if a future
-  session picks this up again.
+  Localization** ran four batches (2026-08): Batch 1 localized 14
+  ORB-failing portraits; Batch 2 the next 14 (plus Ibn Sina/Gandhi/
+  Atatürk attribution fixes); Batch 3 the next 15 (pure exposure/
+  in-degree/weight selection, a fresh reliability check found no new
+  failures); **Batch 4** (see branch table above) then closed out the
+  reliability program with the final 8 a dedicated triage approved
+  as-is, deliberately holding back **Averroes** (crop problem — a
+  tighter existing crop of the same fresco likely exists) and
+  **B. R. Ambedkar** (degraded scan + loose composition on a
+  well-documented figure — a cleaner alternative likely exists) as a
+  **separate replacement-research task**, distinct from reliability
+  work. **Portrait delivery split: 58 local / 2 remote-Wikimedia / 35
+  no-portrait** (Zheng He non-eligible, 34 eligible). The reliability
+  program is now complete — the 2 remaining remote portraits are a
+  quality decision, not a delivery-reliability gap.
   Exposure-Priority Portrait Pass (2026-08, `chore/consolidated-dev-2026-08`)
   added 13 portraits (Gandhi, Atatürk, Julius Caesar, Ibn Sina, Toni
   Morrison, Wangari Maathai, Aung San Suu Kyi, Oprah Winfrey, Maimonides,
@@ -149,53 +148,50 @@ to resolve a specific historical question, not by default.
 ## Test baseline (last known-good, re-verify before trusting)
 
 Verified on `main` at the 2026-08-27 Portrait Reliability Localization
-Batch 3 release (commit `9777d8c`): `tsc --noEmit` clean · `vitest run`
-662/662 · `next build --webpack` clean · Playwright **281/281** at
-`--workers=1` (the release gate for this batch). Human review approved
-via 4 representative Playwright/Chromium screenshots (Katherine
-Johnson, Harriet Tubman, Aristotle, Maimonides — highest compression
-ratios / known depiction-quality caveats) before merge, showing no
-visible compression/crop regression. Live production check of all 15
-localized portraits (hero, 1280px + 390px, EN + KO): all 15 hero images
-serve from `/portraits/` and are byte-identical to the commit (verified
-via HTTP HEAD content-length), zero Wikimedia requests for the 15 at
-hero render time, zero console errors, zero horizontal overflow. A live
-Directory burst-load (3 concurrent-fetch iterations over the page's 60
-rendered portraits) found zero HTTP-level failures this run, 10
-remote-Wikimedia images remaining on that page as expected — the same
-HTTP-status-proxy caveat as prior batches applies (not a byte-identical
-reproduction of Chrome's image-decode-time ORB block, so absence of
-failures here doesn't prove the remaining 10 are now immune). Same
-baseline holds for Batch 2 (commit `ba3b1e8`), Batch 1 (`f48227b`),
+Batch 4 release (commit `b46df75`, the final reliability batch):
+`tsc --noEmit` clean · `vitest run` 662/662 · `next build --webpack`
+clean · `peopleDirectory.spec.ts` + `person.visual.spec.ts` 72/72 ·
+Playwright **281/281** at `--workers=1`. Human review approved via 6
+Playwright/Chromium screenshots (Isaac Newton/Elizabeth Blackwell/
+Wu Zetian/Julius Caesar at 1280px, Elizabeth Blackwell/Wu Zetian at
+390px) before merge — no compression artifacts, no awkward crop,
+caveats rendering correctly, zero overflow. Live production check of
+all 8 localized portraits (hero, 1280px + 390px, EN + KO): all 8 serve
+from `/portraits/` and are byte-identical to the commit (HTTP HEAD),
+zero Wikimedia requests for the 8, correct attribution links to
+original Commons pages, zero console errors, zero horizontal overflow.
+A live Directory burst-load (3 iterations, 60 rendered portraits) found
+zero failures and confirmed exactly 2 remote URLs remain — Averroes and
+B. R. Ambedkar, matching the exact expected set. Same baseline holds
+for Batch 3 (`9777d8c`), Batch 2 (`ba3b1e8`), Batch 1 (`f48227b`),
 Yayoi Kusama Portrait v2 (`cfbc21f`), and Portrait Sourcing Batch 1
-(`4a88cd6`) — all five share the `ERR_BLOCKED_BY_ORB` finding/fix
-described in the branch table above (the remaining 10 remote-Wikimedia
-portraits are a known, tracked, out-of-scope condition). The two
-small unrelated fixes between Batch 2 and Batch 3 (Malcolm X Korean
-spelling, `bbe472d`; Landing CTA arrow-spacing, `7f3c446`) each carried
-their own narrow test evidence (full `vitest`/`tsc`/build for the
-former; `tsc` + `vitest` + build + `landing.visual.spec.ts` 23/23 for
-the latter) rather than a full portrait-release gate, since neither
-touched portrait code. Prior baseline (2026-08 Editorial Achievements
-Correction Batch 1 / Profile V2 / Hero redesign, commit `b7a30ec`):
-`editorialValidation.test.ts` 20/20, `i18n-audit.ts` zero missing keys,
-matching simulation max #1 frequency 12.0% (Warren Buffett) —
-unaffected by any portrait release, none of which touched editorial or
-matching/scoring code. See [`docs/context/TESTING.md`](TESTING.md) for
-what to run per change type.
+(`4a88cd6`) — all five share the same reliability-localization pattern.
+Prior baseline (2026-08 Editorial Achievements Correction Batch 1 /
+Profile V2 / Hero redesign, commit `b7a30ec`): `editorialValidation
+.test.ts` 20/20, `i18n-audit.ts` zero missing keys, matching simulation
+max #1 frequency 12.0% (Warren Buffett) — unaffected by any portrait
+release, none of which touched editorial or matching/scoring code. See
+[`docs/context/TESTING.md`](TESTING.md) for what to run per change
+type.
 
 ## Next product checkpoint
 
-Post-release, no blocking work outstanding. Candidates for a future
-session (none started here — out of scope for this release gate): a
+Post-release, no blocking work outstanding. The Portrait Reliability
+Localization program (Batches 1–4) is now **complete** — every
+remaining remote-Wikimedia portrait has been individually triaged, and
+the only two left (Averroes, B. R. Ambedkar) are a deliberate quality
+hold, not a reliability gap. Candidates for a future session (none
+started here — out of scope for this release gate): the
+replacement-research task for Averroes (find a tighter existing crop
+of the same Andrea di Bonaiuto fresco) and B. R. Ambedkar (find a
+cleaner scan of the same 1922 photo or a comparably iconic
+alternative) — a small, separate task from reliability localization; a
 trait-card click-to-explain affordance (needs a new lightweight
 popover/dialog primitive plus attribute-description content — see
-"Person Profile Hero redesign" above), the remaining 19 low-exposure
-Tier-C editorial backfill people, the 35 remaining portrait-less
-people, the remaining 10 remote-Wikimedia portraits still carrying the
-same categorical `ERR_BLOCKED_BY_ORB` risk (50 of the original 60+7 are
-now localized across five 2026-08-27 releases; a roster-wide audit
-already ranked the rest by exposure/reliability signal if a future
-session continues this work — a "Batch 4" would be a small final
-mop-up of the last 10), and a human decision on deleting the
-now-fully-subsumed dev branches listed above.
+"Person Profile Hero redesign" above); the remaining 19 low-exposure
+Tier-C editorial backfill people; the 35 remaining portrait-less
+people; and a human decision on deleting the now-fully-subsumed dev
+branches listed above. This file has grown past its ~150-line soft
+budget across the four portrait-batch updates — worth a consolidation
+pass into `docs/checkpoints/` at some point, per CLAUDE.md's
+maintenance rule, though not done in this release turn.
