@@ -48,19 +48,24 @@ const seeds: PersonSeed[] = [
     tagIds: ["polymath", "systematic_thinker", "nonconformist"],
     archetypeIds: ["scholarly_specialist"],
     externalIdentity: { wikidataId: "Q39837" },
-    // Verified 2026-08 via a direct fetch of the Commons file page. NOT a
-    // lifetime likeness — a later traditional depiction: Andrea di
+    // Re-cropped 2026-08 (dedicated replacement-research task): the prior
+    // file included excessive surrounding drapery and a stray fragment of
+    // a decorative throne-base medallion. No tighter existing Commons crop
+    // of this fresco was found, so this is a same-license (CC BY 3.0)
+    // derivative crop made from Sailko's own higher-resolution (3456x2304)
+    // photograph of the same scene, isolating Averroes cleanly. Still NOT
+    // a lifetime likeness — a later traditional depiction: Andrea di
     // Bonaiuto's 1366 fresco "Apotheosis of St. Thomas Aquinas" (Basilica
     // of Santa Maria Novella, Florence), painted ~168 years after Averroes'
     // death.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Andrea_di_bonaiuto%2C_apoteosi_di_san_tommaso_d%27aquino%2C_11_averro%C3%A8.jpg",
-      width: 1408,
-      height: 1516,
+      url: "/portraits/averroes-bonaiuto-fresco-crop.jpg",
+      width: 1330,
+      height: 1538,
       source: "Wikimedia Commons",
       license: "CC BY 3.0",
-      licenseUrl: "https://commons.wikimedia.org/wiki/File:Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d%27aquino,_11_averro%C3%A8.jpg",
-      attribution: "Andrea di Bonaiuto, fresco, 1366 (later traditional depiction, not a lifetime likeness)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d%27aquino,_11_sabello,_nestore_e_averro%C3%A8.jpg",
+      attribution: "Andrea di Bonaiuto, fresco, 1366 — photograph by Sailko (CC BY 3.0); locally hosted image is a cropped derivative of the photograph isolating Averroes; later traditional depiction, not a lifetime likeness",
     },
     sources: [{ id: "src_averroes_wikipedia", kind: "wikipedia", title: "Averroes", url: "https://en.wikipedia.org/wiki/Averroes" }, { id: "src_averroes_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Ibn Rushd [Averroes]" }],
     rows: {

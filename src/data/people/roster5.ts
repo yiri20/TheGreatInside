@@ -111,17 +111,22 @@ const seeds: PersonSeed[] = [
     tagIds: ["overcame_adversity", "founder", "advocate"],
     archetypeIds: ["social_influencer", "organizational_leader"],
     externalIdentity: { wikidataId: "Q231690" },
-    // Verified 2026-08 via a direct fetch of the Commons file page: a real
-    // lifetime photograph (28 June 1922), documented as taken when he
-    // received his Bar-at-Law qualification from Gray's Inn, London.
+    // Replaced 2026-08 (dedicated replacement-research task): the prior
+    // 1922 Barrister photo had visible edge staining and a loose, off-
+    // center composition; no cleaner scan of that same photo exists on
+    // Commons. This is the image English Wikipedia's own infobox uses,
+    // a later lifetime photograph (Ambedkar as Minister of Law and
+    // Justice), verified via a direct fetch of the Commons file page.
+    // Commons' own extmetadata tags this file plain "Public domain" —
+    // not CC0 — correcting the prior entry's inaccurate CC0 phrasing.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Dr_B_R_Ambedkar_as_Barrister_in_1922.jpg",
-      width: 640,
-      height: 960,
+      url: "/portraits/br-ambedkar-1950s-portrait.jpg",
+      width: 1229,
+      height: 1600,
       source: "Wikimedia Commons",
-      license: "Public Domain (CC0 1.0 Universal)",
-      licenseUrl: "https://commons.wikimedia.org/wiki/File:Dr_B_R_Ambedkar_as_Barrister_in_1922.jpg",
-      attribution: "B. R. Ambedkar as Barrister, 1922, photographer unknown",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Dr._Bhimrao_Ambedkar.jpg",
+      attribution: "B. R. Ambedkar, photographer unknown, after 1948 or the 1950s",
     },
     sources: [{ id: "src_ambedkar_wikipedia", kind: "wikipedia", title: "B. R. Ambedkar", url: "https://en.wikipedia.org/wiki/B._R._Ambedkar" }, { id: "src_ambedkar_keer", kind: "biography", title: "Dhananjay Keer, Dr. Ambedkar: Life and Mission (1954)" }],
     rows: {

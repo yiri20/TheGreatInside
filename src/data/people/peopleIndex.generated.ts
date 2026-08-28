@@ -1351,7 +1351,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5642857142857145,
     attributes: [["independent_thinking", 88, 0.68, "advantage"], ["achievement_drive", 86, 0.65, "advantage"], ["conflict_tolerance", 84, 0.65, "advantage"], ["impact_motivation", 88, 0.68, "advantage"], ["persistence", 80, 0.65, "advantage"], ["leadership_drive", 82, 0.65, "advantage"], ["analytical_rigor", 76, 0.65, "advantage"], ["systems_abstraction", 74, 0.65, "advantage"], ["cross_domain_range", 72, 0.65, "advantage"], ["resourcefulness", 70, 0.65, "advantage"], ["discipline", 70, 0.5, "advantage"], ["risk_tolerance", 66, 0.48, "risk"], ["proactive_agency", 68, 0.65, "advantage"], ["autonomy_need", 66, 0.48, "advantage"], ["detail_orientation", 64, 0.46, "advantage"], ["planning_orientation", 62, 0.46, "advantage"], ["mastery_orientation", 62, 0.44, "advantage"], ["social_assertiveness", 66, 0.48, "advantage"], ["collaboration", 58, 0.42, "neutral"], ["curiosity", 62, 0.46, "advantage"], ["deep_focus", 64, 0.46, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Dr_B_R_Ambedkar_as_Barrister_in_1922.jpg",
+    portraitUrl: "/portraits/br-ambedkar-1950s-portrait.jpg",
   },
   {
     id: "p_sequoyah",
@@ -1491,7 +1491,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5104545454545456,
     attributes: [["analytical_rigor", 84, 0.62, "advantage"], ["systems_abstraction", 80, 0.6, "advantage"], ["independent_thinking", 76, 0.58, "advantage"], ["conflict_tolerance", 74, 0.55, "risk"], ["risk_tolerance", 68, 0.52, "risk"], ["curiosity", 72, 0.52, "advantage"], ["discipline", 74, 0.55, "advantage"], ["cross_domain_range", 76, 0.58, "advantage"], ["mastery_orientation", 70, 0.52, "advantage"], ["persistence", 68, 0.5, "advantage"], ["creative_originality", 62, 0.48, "advantage"], ["detail_orientation", 66, 0.48, "advantage"], ["leadership_drive", 55, 0.42, "neutral"], ["planning_orientation", 60, 0.45, "advantage"], ["achievement_drive", 58, 0.42, "neutral"], ["adaptability", 55, 0.42, "neutral"], ["belief_updating", 45, 0.4, "neutral"], ["persuasiveness", 68, 0.56, "advantage"], ["deep_focus", 78, 0.58, "advantage"], ["impact_motivation", 64, 0.56, "advantage"], ["collaboration", 55, 0.52, "neutral"], ["experimentation", 52, 0.4, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Andrea_di_bonaiuto%2C_apoteosi_di_san_tommaso_d%27aquino%2C_11_averro%C3%A8.jpg",
+    portraitUrl: "/portraits/averroes-bonaiuto-fresco-crop.jpg",
   },
   {
     id: "p_cv_raman",
