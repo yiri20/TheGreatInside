@@ -1032,6 +1032,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5774999999999999,
     attributes: [["curiosity", 88, 0.72, "advantage"], ["independent_thinking", 82, 0.68, "advantage"], ["analytical_rigor", 84, 0.68, "advantage"], ["risk_tolerance", 76, 0.6, "advantage"], ["discipline", 82, 0.65, "advantage"], ["resourcefulness", 78, 0.62, "advantage"], ["mastery_orientation", 76, 0.6, "advantage"], ["persistence", 74, 0.58, "advantage"], ["proactive_agency", 78, 0.62, "advantage"], ["social_assertiveness", 70, 0.55, "advantage"], ["cross_domain_range", 65, 0.5, "advantage"], ["achievement_drive", 62, 0.48, "neutral"], ["detail_orientation", 72, 0.55, "advantage"], ["impact_motivation", 74, 0.58, "advantage"], ["autonomy_need", 68, 0.52, "advantage"], ["planning_orientation", 60, 0.46, "neutral"], ["systems_abstraction", 66, 0.52, "advantage"], ["creative_originality", 74, 0.6, "advantage"], ["deep_focus", 72, 0.58, "advantage"], ["conflict_tolerance", 60, 0.46, "neutral"]],
+    portraitUrl: "/portraits/benjamin-banneker-almanac-woodcut-1795.jpg",
   },
   {
     id: "p_chinua_achebe",

@@ -34,6 +34,26 @@ const seeds: PersonSeed[] = [
     tagIds: ["self_taught", "independent", "prolific"],
     archetypeIds: ["scholarly_specialist", "independent_creator"],
     externalIdentity: { wikidataId: "Q557600" },
+    // Portrait Completion Phase 2A-1 (2026-08): verified live against the
+    // Commons file page and cross-checked against multiple independent
+    // sources (PBS, Maryland Center for History and Culture, People's
+    // Graphic Design Archive, Bedini's own biography). This is a
+    // lifetime-contemporary published woodcut whose likeness is
+    // unconfirmed — not drawn from life, not an authenticated portrait,
+    // not equivalent in evidentiary status to a modern reconstruction.
+    // No confirmed portrait of Banneker survives; his own possessions
+    // were destroyed by fire the day of his funeral. Recompressed
+    // (mozjpeg quality 85, ~18.5% smaller, no visible linework damage at
+    // 4x magnification) — not resized, not upscaled, not AI-processed.
+    portrait: {
+      url: "/portraits/benjamin-banneker-almanac-woodcut-1795.jpg",
+      width: 339,
+      height: 413,
+      source: "Wikimedia Commons (recompressed derivative; see licenseUrl for the original)",
+      license: "Public Domain (published 1795, well before 1931)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Benjamin_Banneker_woodcut,_age_64.jpg",
+      attribution: "A woodcut published on the cover of Banneker's own 1795 almanac (John Fisher, Stationer, Baltimore), in his lifetime, and traditionally associated with him; it is not confirmed to be an authentic likeness — no confirmed portrait of Banneker survives.",
+    },
     sources: [{ id: "src_banneker_wikipedia", kind: "wikipedia", title: "Benjamin Banneker", url: "https://en.wikipedia.org/wiki/Benjamin_Banneker" }, { id: "src_banneker_jefferson", kind: "archive", title: "Correspondence between Benjamin Banneker and Thomas Jefferson (1791)" }, { id: "src_banneker_bedini", kind: "biography", title: "Silvio A. Bedini, The Life of Benjamin Banneker (1972)" }],
     rows: {
       // Documented (Bedini) to have taught himself advanced astronomy and mathematics as an adult from borrowed books and instruments with no formal schooling beyond a brief rural education, then built his own working wooden clock from studying a borrowed pocket watch.
