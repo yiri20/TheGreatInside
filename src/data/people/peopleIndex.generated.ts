@@ -1709,6 +1709,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5066666666666667,
     attributes: [["decisiveness", 90, 0.68, "advantage"], ["conflict_tolerance", 85, 0.68, "advantage"], ["risk_tolerance", 84, 0.62, "advantage"], ["persuasiveness", 80, 0.58, "advantage"], ["independent_thinking", 82, 0.62, "dual_edged"], ["achievement_drive", 78, 0.55, "advantage"], ["social_assertiveness", 76, 0.55, "advantage"], ["leadership_drive", 72, 0.5, "advantage"], ["autonomy_need", 78, 0.55, "neutral"], ["persistence", 74, 0.52, "advantage"], ["adaptability", 55, 0.45, "neutral"], ["impact_motivation", 68, 0.48, "neutral"], ["curiosity", 40, 0.42, "neutral"], ["discipline", 62, 0.52, "advantage"], ["competitiveness", 45, 0.4, "neutral"], ["planning_orientation", 42, 0.4, "neutral"], ["collaboration", 58, 0.4, "neutral"], ["cross_domain_range", 35, 0.4, "neutral"], ["deep_focus", 78, 0.5, "advantage"], ["creative_originality", 55, 0.42, "neutral"], ["mastery_orientation", 40, 0.4, "neutral"]],
+    portraitUrl: "/portraits/joan-of-arc-vigiles-charles-vii-1484-crop.jpg",
   },
   {
     id: "p_julius_caesar",

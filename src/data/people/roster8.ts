@@ -128,6 +128,28 @@ const seeds: PersonSeed[] = [
     tagIds: ["young_leader", "nonconformist", "endured_imprisonment"],
     archetypeIds: ["organizational_leader", "independent_creator"],
     externalIdentity: { wikidataId: "Q7226" },
+    // Portrait Completion Phase 2C-4 (2026-08): the only surviving
+    // depiction from Joan's own lifetime (Clément de Fauquembergue's 1429
+    // marginal sketch, Archives Nationales) is a crude doodle with no
+    // discernible face -- explicitly rejected as a production portrait in
+    // an earlier pass. This is a different, later source: a miniature from
+    // Les Vigiles du roi Charles VII (Martial d'Auvergne, c.1484, BnF
+    // Français 5054, fol. 55v), depicting the documented scene of Joan
+    // being conducted to Chinon -- painted roughly 50 years after her
+    // death, not a lifetime or eyewitness likeness. Locally hosted crop
+    // isolates Joan (the sole female figure, explicitly named in the BnF
+    // catalog description) from the full procession miniature; native
+    // resolution, no upscale, no AI processing, recompressed only.
+    portrait: {
+      url: "/portraits/joan-of-arc-vigiles-charles-vii-1484-crop.jpg",
+      width: 640,
+      height: 1090,
+      source: "Wikimedia Commons (BnF/Gallica, cropped derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Vigiles_du_roi_Charles_VII_08.jpg",
+      attribution: "From Les Vigiles du roi Charles VII by Martial d'Auvergne, c.1484, Bibliothèque nationale de France (Français 5054, fol. 55v) — a late-15th-century illuminated chronicle created roughly 50 years after Joan of Arc's death and depicting documented events of her life. It is not a lifetime likeness; no authenticated contemporary portrait of Joan is known to survive.",
+      kind: "historical_depiction",
+    },
     sources: [{ id: "src_joanofarc_wikipedia", kind: "wikipedia", title: "Joan of Arc", url: "https://en.wikipedia.org/wiki/Joan_of_Arc" }, { id: "src_joanofarc_trial", kind: "archive", title: "The Trial of Condemnation (1431) -- scribal transcript of Joan's own recorded testimony under interrogation" }, { id: "src_joanofarc_nullification", kind: "archive", title: "The Nullification Trial (1455-1456) -- witness testimony from those who knew her, gathered to posthumously overturn her conviction" }],
     rows: {
       // As an unknown peasant teenager with no rank or family standing, traveled to the Dauphin's court and insisted on an audience, then insisted on being given troops and equipment to relieve the siege of Orléans -- documented in both the trial testimony and contemporary court chronicles.
