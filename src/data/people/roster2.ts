@@ -180,11 +180,24 @@ const seeds: PersonSeed[] = [
     // ROSTER-1000 portrait sourcing (2026-08): the best-known portrait of
     // Beethoven, painted from life in 1820. Verified live against the
     // Commons file page.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 6/6f/, current 2/2d/) -- the stored URL was pointing at a stale path
+    // that now 404s from Wikimedia's own Swift storage, not a deleted or
+    // replaced file. Identity verified via the API before downloading:
+    // same file title/page, same 1598x1986 source dimensions. Re-hosted
+    // locally at public/portraits/ludwig-van-beethoven-stieler-1820.jpg --
+    // resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 1598x1986/
+    // 494KB -> 1287x1600/364KB (26.4% smaller). licenseUrl still points to
+    // the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ludwig_van_Beethoven_%28Stieler%2C_1820%29.jpg",
-      width: 1598,
-      height: 1986,
-      source: "Wikimedia Commons",
+      url: "/portraits/ludwig-van-beethoven-stieler-1820.jpg",
+      width: 1287,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_(Stieler,_1820).jpg",
       attribution: "Painted from life by Joseph Karl Stieler, 1820, Beethoven-Haus, Bonn, Public Domain",

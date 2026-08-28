@@ -411,11 +411,24 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q9312" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 8/85/, current a/a2/) -- the stored URL was pointing at a stale path
+    // that now 404s from Wikimedia's own Swift storage, not a deleted or
+    // replaced file. Identity verified via the API before downloading:
+    // same file title/page, same 1617x1802 source dimensions. Re-hosted
+    // locally at public/portraits/immanuel-kant-portrait-c1790.jpg --
+    // resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 1617x1802/
+    // 1.1MB -> 1436x1600/419KB (61.9% smaller). licenseUrl still points to
+    // the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/8/85/Immanuel_Kant_portrait_c1790.jpg",
-      width: 1617,
-      height: 1802,
-      source: "Wikimedia Commons",
+      url: "/portraits/immanuel-kant-portrait-c1790.jpg",
+      width: 1436,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_portrait_c1790.jpg",
       attribution: "Unknown painter, possibly Elisabeth von Stägemann (Anton Graff school), circa 1790, Public Domain",
@@ -762,11 +775,24 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q8605" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 8/85/, current 6/6b/) -- the stored URL was pointing at a stale path
+    // that now returns HTTP 429 under load, not a deleted or replaced
+    // file. Identity verified via the API before downloading: same file
+    // title/page, same 1920x2528 source dimensions. Re-hosted locally at
+    // public/portraits/simon-bolivar-gil-de-castro.jpg -- resized to a
+    // 1600px longest side + mozjpeg quality-85 re-encode (lanczos3, no
+    // sharpening/upscale/crop/AI processing): 1920x2528/846KB ->
+    // 1215x1600/276KB (67.3% smaller). licenseUrl still points to the live
+    // Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/8/85/Sim%C3%B3n_Bol%C3%ADvar_by_Jos%C3%A9_Gil_de_Castro.jpg",
-      width: 1920,
-      height: 2528,
-      source: "Wikimedia Commons",
+      url: "/portraits/simon-bolivar-gil-de-castro.jpg",
+      width: 1215,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar_by_Jos%C3%A9_Gil_de_Castro.jpg",
       attribution: "Painted by José Gil de Castro, circa 1823-1825, Lima Art Museum, Public Domain",
@@ -836,11 +862,23 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q105180" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB (HTTP 429) in the roster-wide reliability
+    // audit. Root cause resolved via the MediaWiki API (imageinfo):
+    // Wikimedia's storage hash-path for this file changed since it was
+    // first sourced (old path 9/94/, current 5/54/) -- the stored URL was
+    // pointing at a stale path. Identity verified via the API before
+    // downloading: same file title/page, same 3035x4210 source
+    // dimensions. Re-hosted locally at public/portraits/sojourner-truth-1870.jpg
+    // -- resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 3035x4210/
+    // 12.5MB -> 1153x1600/164KB (98.7% smaller). licenseUrl still points
+    // to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/9/94/Sojourner_Truth%2C_1870_%28cropped%2C_restored%29.jpg",
-      width: 3035,
-      height: 4210,
-      source: "Wikimedia Commons",
+      url: "/portraits/sojourner-truth-1870.jpg",
+      width: 1153,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Sojourner_Truth,_1870_(cropped,_restored).jpg",
       attribution: "Randall Studio, circa 1870, National Portrait Gallery, Smithsonian Institution (NPG.79.220), Public Domain",

@@ -273,11 +273,24 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q215562" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 7/72/, current c/c5/) -- the stored URL was pointing at a stale path
+    // that now 404s from Wikimedia's own Swift storage, not a deleted or
+    // replaced file. Identity verified via the API before downloading:
+    // same file title/page, same 2089x3000 source dimensions. Re-hosted
+    // locally at public/portraits/frederick-douglass-circa-1879.jpg --
+    // resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 2089x3000/
+    // 1.2MB -> 1114x1600/242KB (79.3% smaller). licenseUrl still points to
+    // the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/7/72/Frederick_Douglass_%28circa_1879%29.jpg",
-      width: 2089,
-      height: 3000,
-      source: "Wikimedia Commons",
+      url: "/portraits/frederick-douglass-circa-1879.jpg",
+      width: 1114,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_(circa_1879).jpg",
       attribution: "George Kendall Warren, circa 1879, US National Archives (NAID 558770), Public Domain",
@@ -346,11 +359,22 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q307" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB (HTTP 400) in the roster-wide reliability
+    // audit. The stored URL was a /thumb/ rendition path (2500px-wide
+    // derivative), which the MediaWiki API's imageinfo resolved to a
+    // simpler, more stable full-original path (d/d4/) -- same file title/
+    // page, same 2500x3176 source dimensions, verified before downloading.
+    // Re-hosted locally at public/portraits/galileo-galilei-sustermans-1636.jpg
+    // -- resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 2500x3176/
+    // 785KB -> 1259x1600/351KB (55.3% smaller). licenseUrl still points to
+    // the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg/2500px-Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg",
-      width: 2500,
-      height: 3176,
-      source: "Wikimedia Commons",
+      url: "/portraits/galileo-galilei-sustermans-1636.jpg",
+      width: 1259,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Justus_Sustermans_-_Portrait_of_Galileo_Galilei,_1636.jpg",
       attribution: "Painted by Justus Sustermans, 1636, National Maritime Museum, Greenwich, Public Domain",
@@ -426,11 +450,27 @@ const seeds: PersonSeed[] = [
     // "non-photographic historical representations... acceptable when
     // defensibly identified" (the same Confucius/Tang-Dynasty precedent).
     // Verified live against the Commons file page.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 9/9c/, current b/ba/) -- the stored URL was pointing at a stale path
+    // that now 404s from Wikimedia's own Swift storage, not a deleted or
+    // replaced file. Identity verified via the API before downloading:
+    // same file title/page, same 1354x1980 source dimensions. Re-hosted
+    // locally at public/portraits/hildegard-of-bingen-rupertsberg-codex.jpg
+    // -- resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 1354x1980/
+    // 1.1MB -> 1094x1600/687KB (36.1% smaller — a lower ratio than the
+    // rest of this batch since the source illumination's fine linework/
+    // color detail compresses less than a photograph; visually inspected
+    // directly, no artifacts). licenseUrl still points to the live Commons
+    // file page. Depiction caveat unchanged: not a lifetime likeness.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Hildegard_von_Bingen.jpg",
-      width: 1354,
-      height: 1980,
-      source: "Wikimedia Commons",
+      url: "/portraits/hildegard-of-bingen-rupertsberg-codex.jpg",
+      width: 1094,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Hildegard_von_Bingen.jpg",
       attribution: "Illumination from the Rupertsberg Codex of the Liber Scivias, c. 1175 — a traditional depiction, not a lifetime likeness, showing Hildegard receiving a vision and dictating to her scribe Volmar, Public Domain",
@@ -660,11 +700,22 @@ const seeds: PersonSeed[] = [
     // ROSTER-1000 portrait sourcing (2026-08): the only surviving portrait
     // of Jane Austen made during her own lifetime showing her face,
     // sketched by her sister. Verified live against the Commons file page.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB (HTTP 400) in the roster-wide reliability
+    // audit. The stored URL was a /thumb/ rendition path, which the
+    // MediaWiki API's imageinfo resolved to a stable full-original path
+    // (1/18/) -- same file title/page, same 800x850 source dimensions,
+    // verified before downloading. Already well within a reasonable
+    // display size, so NOT resized -- re-hosted locally at
+    // public/portraits/jane-austen-cassandra-sketch-c1810.jpg via a
+    // mozjpeg quality-85 re-encode only (no crop/upscale/AI processing):
+    // 800x850/305KB -> 800x850/83KB (72.7% smaller). licenseUrl still
+    // points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cassandra_Austen-Jane_Austen%28c.1810%29_hires.jpg/800px-Cassandra_Austen-Jane_Austen%28c.1810%29_hires.jpg",
+      url: "/portraits/jane-austen-cassandra-sketch-c1810.jpg",
       width: 800,
       height: 850,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Cassandra_Austen-Jane_Austen(c.1810).jpg",
       attribution: "Watercolor and pencil sketch by Cassandra Austen, c. 1810 — the only surviving portrait of Jane Austen made during her own lifetime showing her face, National Portrait Gallery, London (NPG 3630), Public Domain",
@@ -796,11 +847,26 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q7241" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 9/9e/, current 9/91/) -- the stored URL was pointing at a stale path
+    // that now 404s from Wikimedia's own Swift storage, not a deleted or
+    // replaced file. Identity verified via the API before downloading:
+    // same file title/page, same 1071x1500 source dimensions. Re-hosted
+    // locally at public/portraits/rabindranath-tagore-1909.jpg as the
+    // literal downloaded original -- a mozjpeg quality-85 re-encode was
+    // tried and made the file LARGER (132KB -> 156KB, since the original
+    // was already efficiently encoded), so per "recompress only when
+    // materially useful" the original bytes were kept unchanged instead.
+    // Only the delivery path changed. licenseUrl still points to the live
+    // Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Rabindranath_Tagore_in_1909.jpg",
+      url: "/portraits/rabindranath-tagore-1909.jpg",
       width: 1071,
       height: 1500,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app; byte-identical to the original — recompression was tested and found counterproductive here — see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg",
       attribution: "Generalstabens litografiska anstalt, 1909, published in Les Prix Nobel 1913 (1914), Public Domain",
@@ -932,11 +998,24 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q8743" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 6/6b/, current 9/9f/) -- the stored URL was pointing at a stale path
+    // that now 404s from Wikimedia's own Swift storage, not a deleted or
+    // replaced file. Identity verified via the API before downloading:
+    // same file title/page, same 496x717 source dimensions. Already a
+    // small source, so NOT resized -- re-hosted locally at
+    // public/portraits/thomas-edison-c1878.jpg via a mozjpeg quality-85
+    // re-encode only (no crop/upscale/AI processing): 496x717/57KB ->
+    // 496x717/47KB (18.3% smaller). licenseUrl still points to the live
+    // Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Thomas_Alva_Edison%2C_c._1878.jpg",
+      url: "/portraits/thomas-edison-c1878.jpg",
       width: 496,
       height: 717,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Thomas_Alva_Edison,_c._1878.jpg",
       attribution: "Photographer unknown, circa 1878, Public Domain (published before 1931)",
@@ -1067,11 +1146,24 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q5582" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 1/16/, current b/b2/) -- the stored URL was pointing at a stale path
+    // that now 404s from Wikimedia's own Swift storage, not a deleted or
+    // replaced file. Identity verified via the API before downloading:
+    // same file title/page, same 3142x3820 source dimensions. Re-hosted
+    // locally at public/portraits/vincent-van-gogh-self-portrait-1889.jpg
+    // -- resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 3142x3820/
+    // 3.9MB -> 1316x1600/446KB (88.4% smaller). licenseUrl still points to
+    // the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/1/16/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg",
-      width: 3142,
-      height: 3820,
-      source: "Wikimedia Commons",
+      url: "/portraits/vincent-van-gogh-self-portrait-1889.jpg",
+      width: 1316,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg",
       attribution: "Vincent van Gogh, self-portrait, 1889, Musée d'Orsay, Paris, Public Domain",
@@ -1140,11 +1232,24 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q1396131" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB in the roster-wide reliability audit. Root
+    // cause resolved via the MediaWiki API (imageinfo): Wikimedia's storage
+    // hash-path for this file changed since it was first sourced (old path
+    // 2/2b/, current 3/38/) -- the stored URL was pointing at a stale path
+    // that now 404s from Wikimedia's own Swift storage, not a deleted or
+    // replaced file. Identity verified via the API before downloading:
+    // same file title/page, same 3284x4105 source dimensions. Re-hosted
+    // locally at public/portraits/wilbur-wright-loc-1905.jpg -- resized to
+    // a 1600px longest side + mozjpeg quality-85 re-encode (lanczos3, no
+    // sharpening/upscale/crop/AI processing): 3284x4105/6.2MB ->
+    // 1280x1600/135KB (97.8% smaller). licenseUrl still points to the live
+    // Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Wilbur_Wright-crop.jpg",
-      width: 3284,
-      height: 4105,
-      source: "Wikimedia Commons",
+      url: "/portraits/wilbur-wright-loc-1905.jpg",
+      width: 1280,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Wilbur_Wright-crop.jpg",
       attribution: "Library of Congress, Prints and Photographs Division, 1905, Public Domain",

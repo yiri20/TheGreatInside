@@ -218,11 +218,23 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q905" },
     // ROSTER-1000 portrait sourcing (2026-08): the last known photograph of
     // Franz Kafka. Verified live against the Commons file page.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB (HTTP 429) in the roster-wide reliability
+    // audit. Root cause resolved via the MediaWiki API (imageinfo):
+    // Wikimedia's storage hash-path for this file changed since it was
+    // first sourced (old path 9/9b/, current 2/26/) -- the stored URL was
+    // pointing at a stale path. Identity verified via the API before
+    // downloading: same file title/page, same 1992x2656 source
+    // dimensions. Re-hosted locally at public/portraits/franz-kafka-1923.jpg
+    // -- resized to a 1600px longest side + mozjpeg quality-85 re-encode
+    // (lanczos3, no sharpening/upscale/crop/AI processing): 1992x2656/
+    // 1.1MB -> 1200x1600/109KB (90.5% smaller). licenseUrl still points to
+    // the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Franz_Kafka%2C_1923.jpg",
-      width: 1992,
-      height: 2656,
-      source: "Wikimedia Commons",
+      url: "/portraits/franz-kafka-1923.jpg",
+      width: 1200,
+      height: 1600,
+      source: "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg",
       attribution: "Photographer unknown, probably September 1923, Wertheim department store, Berlin — the last known photograph of Franz Kafka, Public Domain",
@@ -626,11 +638,23 @@ const seeds: PersonSeed[] = [
     externalIdentity: { wikidataId: "Q192245" },
     // ROSTER-1000 portrait sourcing (2026-08): verified live against the
     // actual Commons file page before being added.
+    // Portrait Reliability Localization Batch 1 (2026-08): confirmed
+    // net::ERR_BLOCKED_BY_ORB (HTTP 429) in the roster-wide reliability
+    // audit. Root cause resolved via the MediaWiki API (imageinfo):
+    // Wikimedia's storage hash-path for this file changed since it was
+    // first sourced (old path 9/97/, current c/c7/) -- the stored URL was
+    // pointing at a stale path. Identity verified via the API before
+    // downloading: same file title/page, same 1154x1475 source
+    // dimensions. Already a modest source size, so NOT resized --
+    // re-hosted locally at public/portraits/susan-b-anthony-johnston.jpg
+    // via a mozjpeg quality-85 re-encode only (no crop/upscale/AI
+    // processing): 1154x1475/700KB -> 1154x1475/112KB (84.1% smaller).
+    // licenseUrl still points to the live Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Susan_B._Anthony_by_Frances_Benjamin_Johnston.jpg",
+      url: "/portraits/susan-b-anthony-johnston.jpg",
       width: 1154,
       height: 1475,
-      source: "Wikimedia Commons",
+      source: "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Susan_B._Anthony_by_Frances_Benjamin_Johnston.jpg",
       attribution: "Frances Benjamin Johnston, circa 1900, Public Domain (published before 1931)",
