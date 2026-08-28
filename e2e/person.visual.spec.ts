@@ -22,24 +22,32 @@ import {
  *    session 5 (2026-08, Chalon 1840 watercolor) — no longer a no-portrait
  *    fixture, but still exercises IdentityHero's align="start" +
  *    portraitCaption path alongside leonardo-da-vinci
- *  - socrates: no portrait, single-word name in both locales ("Socrates" /
- *    "소크라테스") — real localisation-driven layout on the no-portrait
- *    hero. Was yi-sun-sin until the Exposure-Priority Portrait Pass
- *    (2026-08) gave Yi Sun-sin a real portrait (a modern reconstruction
- *    bust — no lifetime depiction survives him), so he no longer exercises
- *    the no-portrait branch. Also the fixture for the dedicated "no
- *    portrait" hero test below. Note this swap loses the specific
- *    multi-word-English/single-token-Korean initials contrast yi-sun-sin
- *    had (Yi Sun-sin is the roster's only Korean-nationality person, so no
- *    portrait-less replacement reproduces it) — that exact string mapping
- *    ("YS" vs "이") is still pinned directly by `initialsFromName` unit
- *    tests in `src/ui/ui.test.ts`, so no coverage is actually lost, just
- *    relocated to a cheaper test.
+ *  - coco-chanel: no portrait, two-word name in both locales ("Coco
+ *    Chanel" / "코코 샤넬") — real localisation-driven layout on the
+ *    no-portrait hero. Was socrates until the Final No-Portrait Coverage
+ *    batch (2026-08) gave Socrates a real portrait (the Louvre's Roman-era
+ *    bust, Ma 59 — a later copy within the ancient portrait tradition, not
+ *    a lifetime likeness), so he no longer exercises the no-portrait
+ *    branch. Also the fixture for the dedicated "no portrait" hero test
+ *    below. Verified live against current repo state before the swap: no
+ *    remaining no-portrait person has a single-word display name in both
+ *    locales (Rumi's English display falls back to the full multi-word
+ *    canonicalName "Jalal ad-Din Muhammad Rumi" — there's no `en.ts`
+ *    override shortening it — so it doesn't reproduce socrates's
+ *    single-grapheme case either). Coco Chanel was chosen instead: firmly
+ *    HOLD after three separate rounds of sourcing research (Batch 1, this
+ *    session's Final-17 triage, and this session's 5-person sourcing pass
+ *    all declined her for the same unresolved resolution/rights gap), so
+ *    she's a stable long-term no-portrait fixture, and both her English
+ *    and Korean display names are two whitespace-separated words, giving
+ *    deterministic two-grapheme initials ("CC" / "코샤") via the shared
+ *    `initialsFromName` helper (`src/ui/lib/display.ts`) — asserted
+ *    directly below rather than assumed.
  *
  * All three have non-empty `impactDomains`, so all three exercise the new
  * Rail(hero, Known For) composition, not just the no-secondary fallback.
  */
-const PEOPLE = ["leonardo-da-vinci", "ada-lovelace", "socrates"] as const;
+const PEOPLE = ["leonardo-da-vinci", "ada-lovelace", "coco-chanel"] as const;
 const LOCALES = ["en-US", "ko-KR"] as const;
 
 const VIEWPORTS = [
@@ -176,11 +184,12 @@ test("person page CTA/link integrity: wikipedia and compare links resolve (en-US
   expect(console_.pageErrors).toEqual([]);
 });
 
-test("person page without a portrait still renders a coherent hero (en-US, socrates)", async ({ page }) => {
-  // Was yi-sun-sin until the Exposure-Priority Portrait Pass (2026-08) gave
-  // him a real portrait (see PEOPLE comment above for the full rationale).
-  // socrates is portrait-less and was already part of this suite's own
-  // matrix above.
+test("person page without a portrait still renders a coherent hero (en-US, coco-chanel)", async ({ page }) => {
+  // Was socrates until the Final No-Portrait Coverage batch (2026-08) gave
+  // him a real portrait (see PEOPLE comment above for the full rationale
+  // and the verification that no single-word-in-both-locales replacement
+  // currently exists in the roster). coco-chanel is portrait-less and was
+  // already part of this suite's own matrix above.
   //
   // Missing-portrait fallback (added after this test previously asserted
   // .tgi-identity-hero__portrait had COUNT 0 — that was pinning the bug:
@@ -190,51 +199,51 @@ test("person page without a portrait still renders a coherent hero (en-US, socra
   // same initials-on-sunken-surface fallback PersonCard already used.
   await page.setViewportSize({ width: 1600, height: 1100 });
   const console_ = captureConsole(page);
-  await page.goto("/en-US/people/socrates", { waitUntil: "networkidle" });
+  await page.goto("/en-US/people/coco-chanel", { waitUntil: "networkidle" });
 
   await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(1);
   await expect(page.locator(".tgi-identity-hero__portrait img")).toHaveCount(0);
   const placeholder = page.locator(".tgi-identity-hero__placeholder");
   await expect(placeholder).toBeVisible();
-  // "Socrates" has no internal whitespace, so the shared initials helper
-  // takes its single leading grapheme, same rule as the Korean case below.
-  await expect(placeholder).toHaveText("S");
+  // "Coco Chanel" is two whitespace-separated words, so the shared
+  // initials helper takes one leading grapheme from each: "C" + "C".
+  await expect(placeholder).toHaveText("CC");
   await expect(placeholder).toHaveAttribute("aria-hidden", "true");
   // Decorative only — no accessible name of its own, so the h1 right next
   // to it remains the single thing assistive tech announces as "the name".
   await expect(placeholder).not.toHaveAttribute("aria-label");
   await expect(placeholder).not.toHaveAttribute("role", "img");
-  await expect(page.locator("h1.tgi-person-name")).toHaveText(/Socrates/);
+  await expect(page.locator("h1.tgi-person-name")).toHaveText(/Coco Chanel/);
   await assertNoHorizontalOverflow(page);
 
   expect(console_.errors).toEqual([]);
   expect(console_.pageErrors).toEqual([]);
 });
 
-test("person page without a portrait renders the Korean initials fallback too (ko-KR, socrates)", async ({ page }) => {
+test("person page without a portrait renders the Korean initials fallback too (ko-KR, coco-chanel)", async ({ page }) => {
   await page.setViewportSize({ width: 1600, height: 1100 });
   const console_ = captureConsole(page);
-  await page.goto("/ko-KR/people/socrates", { waitUntil: "networkidle" });
+  await page.goto("/ko-KR/people/coco-chanel", { waitUntil: "networkidle" });
 
   const placeholder = page.locator(".tgi-identity-hero__placeholder");
   await expect(placeholder).toBeVisible();
-  // "소크라테스" has no internal whitespace, so the shared initials helper
-  // takes its single leading grapheme — same rule as the English case
-  // above, just a different (correct) result for a single-word name.
-  await expect(placeholder).toHaveText("소");
-  await expect(page.locator("h1.tgi-person-name")).toHaveText("소크라테스");
+  // "코코 샤넬" is two whitespace-separated words, so the shared initials
+  // helper takes one leading grapheme from each: "코" + "샤" — same rule as
+  // the English case above, just a different (still two-grapheme) result.
+  await expect(placeholder).toHaveText("코샤");
+  await expect(page.locator("h1.tgi-person-name")).toHaveText("코코 샤넬");
   await assertNoHorizontalOverflow(page);
 
   expect(console_.errors).toEqual([]);
   expect(console_.pageErrors).toEqual([]);
 });
 
-test("missing-portrait fallback occupies the same column width as a real portrait would, at every viewport (socrates)", async ({
+test("missing-portrait fallback occupies the same column width as a real portrait would, at every viewport (coco-chanel)", async ({
   page,
 }) => {
   for (const width of [320, 328, 390, 768, 1280, 1920]) {
     await page.setViewportSize({ width, height: 1000 });
-    await page.goto("/en-US/people/socrates", { waitUntil: "networkidle" });
+    await page.goto("/en-US/people/coco-chanel", { waitUntil: "networkidle" });
     const box = await page.locator(".tgi-identity-hero__portrait").boundingBox();
     expect(box, `portrait column missing at ${width}px`).not.toBeNull();
     // Person page passes portraitWidth="12rem" (192px) regardless of

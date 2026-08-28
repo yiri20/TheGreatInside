@@ -612,6 +612,22 @@ const seeds: PersonSeed[] = [
     tagIds: ["self_taught", "independent", "late_recognition"],
     archetypeIds: ["creative_creator", "independent_creator"],
     externalIdentity: { wikidataId: "Q239739" },
+    // Final No-Portrait Coverage batch (2026-08): a real event photograph,
+    // not a publisher publicity portrait -- CC BY 2.5, real named
+    // photographer. Cropped from the wider "Butler signing.jpg" by the
+    // uploader; the book/signing context is kept per instruction, not
+    // cropped further, since doing so would gain nothing at this
+    // resolution. Recompressed derivative, no resize needed. Verified live
+    // against the Commons file page.
+    portrait: {
+      url: "/portraits/octavia-butler-signing-2006.jpg",
+      width: 716,
+      height: 960,
+      source: "Wikimedia Commons (recompressed derivative)",
+      license: "CC BY 2.5",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Butler_signing_portrait.jpg",
+      attribution: "Photograph by Nikolas Coukouma, 2006-02-27, CC BY 2.5",
+    },
     sources: [{ id: "src_butler_wikipedia", kind: "wikipedia", title: "Octavia E. Butler", url: "https://en.wikipedia.org/wiki/Octavia_E._Butler" }, { id: "src_butler_huntington", kind: "archive", title: "The Huntington Library — Octavia E. Butler Papers (notebooks, journals, correspondence)" }],
     rows: {
       // Her surviving personal notebooks, held at the Huntington Library, document a sustained daily writing routine maintained through years of rejection before her first sale, corroborated directly from her own archived working papers, not secondhand characterization.

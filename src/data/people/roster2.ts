@@ -527,6 +527,22 @@ const seeds: PersonSeed[] = [
     impactDomains: ["historical", "educational"],
     tagIds: ["philosopher", "nonconformist"],
     archetypeIds: ["independent_creator", "scholarly_specialist"],
+    // Final No-Portrait Coverage batch (2026-08): historical-ceiling case --
+    // Socrates left no image made in his lifetime. This is the Louvre's
+    // Roman-era marble bust (Ma 59), a copy of a lost Greek original
+    // possibly by Lysippos, within the established ancient Socrates
+    // portrait tradition -- NOT contemporary with him and NOT a lifetime
+    // likeness; the tradition itself postdates him by centuries. Resized/
+    // recompressed derivative. Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/socrates-louvre-ma59.jpg",
+      width: 1200,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative)",
+      license: "CC BY-SA 2.5",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Socrate_du_Louvre.jpg",
+      attribution: "Photograph by Eric Gaba (\"Sting\"), 2005, CC BY-SA 2.5 — Louvre, Ma 59, a Roman-era copy (1st century AD) within the later ancient Socrates portrait tradition, not a lifetime likeness",
+    },
     sources: [wiki("socrates", "Socrates"), bio("socrates", "Plato's dialogues (secondary account)")],
     rows: {
       curiosity: [90, 0.65, "s", "A"],
@@ -1026,6 +1042,23 @@ const seeds: PersonSeed[] = [
     impactDomains: ["historical", "social"],
     tagIds: ["conqueror", "organizer"],
     archetypeIds: ["organizational_leader"],
+    // Final No-Portrait Coverage batch (2026-08): historical-ceiling case --
+    // no contemporaneous depiction of Genghis Khan exists. This is the Yuan
+    // dynasty imperial portrait album piece (National Palace Museum,
+    // Taipei), painted circa 1350 -- roughly 120+ years after his 1227
+    // death -- as part of a standardized Yuan court ancestor-portrait
+    // series. Explicitly POSTHUMOUS, not a lifetime or eyewitness likeness.
+    // Resized/recompressed derivative. Verified live against the Commons
+    // file page.
+    portrait: {
+      url: "/portraits/genghis-khan-yuan-portrait-c1350.jpg",
+      width: 1259,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg",
+      attribution: "Yuan dynasty imperial portrait album, c.1350, National Palace Museum, Taipei — a posthumous portrait painted roughly 120+ years after Genghis Khan's death, part of a Yuan court ancestor-portrait tradition, not a lifetime or eyewitness likeness",
+    },
     sources: [wiki("genghiskhan", "Genghis Khan")],
     doNotCopyKeys: ["dontcopy.genghiskhan.ruthlessness"],
     rows: {

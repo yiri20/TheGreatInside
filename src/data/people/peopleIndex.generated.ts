@@ -324,6 +324,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5604761904761905,
     attributes: [["curiosity", 90, 0.65, "advantage"], ["analytical_rigor", 82, 0.6, "advantage"], ["independent_thinking", 95, 0.68, "advantage"], ["creative_originality", 70, 0.5, "neutral"], ["discipline", 65, 0.5, "neutral"], ["deep_focus", 78, 0.55, "neutral"], ["execution_speed", 35, 0.5, "neutral"], ["planning_orientation", 30, 0.5, "neutral"], ["persistence", 82, 0.6, "advantage"], ["ambiguity_tolerance", 85, 0.6, "advantage"], ["decisiveness", 55, 0.45, "neutral"], ["social_assertiveness", 88, 0.62, "neutral"], ["collaboration", 45, 0.5, "neutral"], ["leadership_drive", 40, 0.5, "neutral"], ["persuasiveness", 82, 0.6, "advantage"], ["conflict_tolerance", 92, 0.68, "dual_edged"], ["mastery_orientation", 78, 0.55, "neutral"], ["competitiveness", 55, 0.42, "neutral"], ["autonomy_need", 90, 0.65, "advantage"], ["impact_motivation", 72, 0.52, "neutral"], ["proactive_agency", 82, 0.6, "dual_edged"]],
+    portraitUrl: "/portraits/socrates-louvre-ma59.jpg",
   },
   {
     id: "p_warren_buffett",
@@ -440,6 +441,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.6177272727272728,
     attributes: [["analytical_rigor", 65, 0.5, "neutral"], ["systems_abstraction", 78, 0.58, "advantage"], ["independent_thinking", 80, 0.6, "advantage"], ["discipline", 85, 0.62, "advantage"], ["execution_speed", 82, 0.6, "advantage"], ["planning_orientation", 82, 0.62, "advantage"], ["persistence", 90, 0.68, "advantage"], ["adaptability", 85, 0.65, "advantage"], ["risk_tolerance", 92, 0.7, "dual_edged"], ["ambiguity_tolerance", 78, 0.58, "neutral"], ["decisiveness", 92, 0.7, "advantage"], ["social_assertiveness", 80, 0.58, "neutral"], ["collaboration", 55, 0.5, "neutral"], ["leadership_drive", 96, 0.72, "advantage"], ["persuasiveness", 82, 0.6, "advantage"], ["conflict_tolerance", 95, 0.72, "dual_edged"], ["achievement_drive", 88, 0.62, "neutral"], ["competitiveness", 90, 0.65, "dual_edged"], ["autonomy_need", 78, 0.55, "neutral"], ["impact_motivation", 90, 0.65, "advantage"], ["opportunity_sensing", 75, 0.55, "advantage"], ["proactive_agency", 90, 0.62, "dual_edged"]],
+    portraitUrl: "/portraits/genghis-khan-yuan-portrait-c1350.jpg",
   },
   {
     id: "p_ibn_khaldun",
@@ -1643,6 +1645,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5325,
     attributes: [["discipline", 86, 0.72, "advantage"], ["persistence", 84, 0.68, "advantage"], ["independent_thinking", 80, 0.62, "advantage"], ["creative_originality", 82, 0.65, "advantage"], ["resourcefulness", 74, 0.58, "advantage"], ["autonomy_need", 68, 0.52, "advantage"], ["achievement_drive", 70, 0.55, "advantage"], ["systems_abstraction", 64, 0.5, "advantage"], ["cross_domain_range", 58, 0.46, "advantage"], ["deep_focus", 82, 0.65, "advantage"], ["planning_orientation", 66, 0.52, "advantage"], ["impact_motivation", 62, 0.5, "advantage"], ["collaboration", 55, 0.48, "neutral"], ["conflict_tolerance", 58, 0.44, "neutral"], ["detail_orientation", 62, 0.46, "neutral"], ["mastery_orientation", 66, 0.5, "advantage"], ["curiosity", 64, 0.48, "advantage"], ["risk_tolerance", 60, 0.45, "neutral"], ["social_assertiveness", 40, 0.45, "neutral"], ["experimentation", 60, 0.44, "neutral"]],
+    portraitUrl: "/portraits/octavia-butler-signing-2006.jpg",
   },
   {
     id: "p_susan_b_anthony",

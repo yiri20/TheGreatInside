@@ -55,8 +55,11 @@ const FIXTURES = {
   shareOnlyConfucius: { token: SHARE_ONLY_TOKEN, target: "confucius" },
   /** Portrait-less target (checked directly against src/data/people, not
    *  assumed — benjamin-franklin above gained a real portrait since this
-   *  file's fixtures were first written, so it no longer serves this role). */
-  noPortraitSocrates: { token: CLOSE_TOKEN, target: "socrates" },
+   *  file's fixtures were first written, so it no longer serves this role;
+   *  socrates gained a real portrait in the Final No-Portrait Coverage
+   *  batch, 2026-08, so it was swapped for coco-chanel, firmly HOLD after
+   *  three separate rounds of sourcing research). */
+  noPortraitCocoChanel: { token: CLOSE_TOKEN, target: "coco-chanel" },
 } as const;
 
 const VIEWPORTS = [
@@ -183,11 +186,11 @@ test("compare: portrait-present target (da Vinci) — hero unaffected, Learn Fro
 });
 
 for (const locale of LOCALES) {
-  test(`compare: portrait-less target (Socrates) renders an initials fallback, not an empty portrait column (${locale})`, async ({
+  test(`compare: portrait-less target (Coco Chanel) renders an initials fallback, not an empty portrait column (${locale})`, async ({
     page,
   }) => {
     const console_ = captureConsole(page);
-    const response = await page.goto(url(locale, FIXTURES.noPortraitSocrates), { waitUntil: "networkidle" });
+    const response = await page.goto(url(locale, FIXTURES.noPortraitCocoChanel), { waitUntil: "networkidle" });
     expect(response?.status()).toBe(200);
 
     await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(1);
