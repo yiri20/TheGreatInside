@@ -73,8 +73,18 @@ portraits remain anywhere in the roster**).
   non-eligible, 8 eligible) — every portrait in the roster is self-hosted
   under `public/portraits/`, so the categorical `ERR_BLOCKED_BY_ORB` risk
   this whole program existed to fix no longer applies to any person
-  page. **Tier-A Free-Source Recovery is COMPLETE**; the long-term
-  target remains **95/95**. **Portrait Completion Phase 2 is ACTIVE**,
+  page. `PersonPortrait.kind?` (`likeness`/`historical_depiction`/
+  `editorial_nonlikeness`, added 2026-08) is now available — optional,
+  structural only, zero rendering change; see
+  [`docs/reference/data-model.md`](../reference/data-model.md). 7
+  already-implemented portraits (Genghis Khan, Socrates, Thomas Aquinas,
+  Averroes, Wu Zetian, Sor Juana Inés de la Cruz, Benjamin Banneker)
+  are backfilled `historical_depiction`; Ibn Sina, Maimonides, and Yi
+  Sun-sin were deliberately left unclassified (modern institutional
+  custody or a modern reconstruction, no established historical
+  tradition — see each entry's own roster comment). **Tier-A
+  Free-Source Recovery is COMPLETE**; the long-term target remains
+  **95/95**. **Portrait Completion Phase 2 is ACTIVE**,
   one person resolved (Benjamin Banneker, historically-grounded
   later-depiction path) of the remaining 9: Bruce Lee, Ibn Khaldun,
   Rumi, Muhammad Ali, Fela Kuti (Tier B) and Coco Chanel, Umm Kulthum,

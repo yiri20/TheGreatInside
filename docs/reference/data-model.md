@@ -20,6 +20,22 @@ Core identity + scored attributes + metadata. Key groups:
   enforced by mutation tests): `nationalityCodes`, `regionCode`,
   `tagIds`, `occupationIds`, `historicalPolityKey`, `externalIdentity`
   (Wikidata QID + Wikipedia links), `portrait`, `impactDomains`.
+- **`PersonPortrait.kind?`** (`"likeness"` | `"historical_depiction"` |
+  `"editorial_nonlikeness"`, added 2026-08): optional and structural
+  only — no component renders it yet, and `undefined` means
+  *unclassified*, never "likeness". Historical-depiction eligibility
+  depends on a defensible historical relationship to the subject —
+  traceable provenance, an established historical tradition, or
+  scholarly attribution. **Image age alone does not qualify it** — a
+  modern statue, a modern reconstruction, or a popular-but-untraceable
+  image is not `historical_depiction` merely for being old or widely
+  reproduced. Most already-implemented portraits are deliberately left
+  unclassified rather than backfilled wholesale; see the roster files'
+  own "Visual Provenance Schema" comments for the worked examples and
+  the deliberate non-qualifying cases. `editorial_nonlikeness` has no
+  production instances yet and requires an explicit, visible UI
+  treatment before its first use — it must never be presented as a
+  likeness.
 - **Editorial** (`Person.editorial?`, `PersonEditorial`): optional —
   merged in from the `PERSON_EDITORIAL` side-table (see below), not
   stored inline on the roster files.

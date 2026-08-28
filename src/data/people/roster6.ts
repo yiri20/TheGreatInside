@@ -344,6 +344,10 @@ const seeds: PersonSeed[] = [
     // contemporary likeness -- no portrait from her own lifetime (7th
     // century) survives, the same discipline already applied to Confucius's
     // portrait elsewhere in this roster. Public domain.
+    // Visual Provenance Schema backfill (2026-08): kind classified
+    // historical_depiction -- a real, named institutional collection
+    // (British Library) and a documented Chinese imperial ancestor-
+    // portrait-album genre, not a modern invention.
     portrait: {
       url: "/portraits/wu-zetian-tang-dynasty.jpg",
       width: 347,
@@ -352,6 +356,7 @@ const seeds: PersonSeed[] = [
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:A_Tang_Dynasty_Empress_Wu_Zetian.JPG",
       attribution: "Unknown artist, 18th century (idealized traditional depiction) — British Library",
+      kind: "historical_depiction",
     },
     rows: {
       // Rose from a relatively minor concubine position in Emperor Taizong's court to become the only woman in Chinese history to rule as emperor in her own name, entirely through her own sustained political maneuvering rather than any inherited claim — documented via the well-established historical consensus on her rise, corroborated across multiple Tang and later dynastic-era chronicles.

@@ -571,6 +571,15 @@ const seeds: PersonSeed[] = [
     // public/portraits/ibn-sina-profile-portrait-nlm.jpg: 2294x2957/915KB
     // -> 1241x1600/335KB (63.4% smaller). licenseUrl still points to the
     // live Commons file page.
+    // Visual Provenance Schema audit (2026-08): kind deliberately left
+    // UNCLASSIFIED, not backfilled. This is a 1952 painted/hand-tinted
+    // reproduction held by a modern institution (National Library of
+    // Medicine) with no claimed lineage to any earlier portrait tradition
+    // -- unlike Socrates/Genghis Khan/Aquinas/Averroes/Wu Zetian/Sor Juana,
+    // nothing here establishes a defensible historical relationship beyond
+    // "a 20th-century institution catalogued it as a portrait of him".
+    // Modern-institution custody does not by itself qualify a depiction as
+    // historical_depiction.
     portrait: {
       url: "/portraits/ibn-sina-profile-portrait-nlm.jpg",
       width: 1241,
@@ -984,6 +993,10 @@ const seeds: PersonSeed[] = [
     // after his death. Idealized/devotional convention (halo, symbolic
     // objects), explicitly NOT a lifetime likeness. Resized derivative,
     // uncropped. Verified live against the Commons file page.
+    // Visual Provenance Schema backfill (2026-08): kind classified
+    // historical_depiction -- a named artist, a real institutionally-held
+    // (catalogued) work, and an established devotional-portrait convention
+    // for canonized theologians, not a modern invention.
     portrait: {
       url: "/portraits/thomas-aquinas-crivelli-1476.jpg",
       width: 1065,
@@ -992,6 +1005,7 @@ const seeds: PersonSeed[] = [
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Saint_Thomas_Aquinas_(Crivelli,_15th-century).jpg",
       attribution: "Carlo Crivelli, Saint Thomas Aquinas, 1476, National Gallery, London (NG788.9) — a later idealized/devotional depiction, painted approximately two centuries after Aquinas's death, not a lifetime likeness",
+      kind: "historical_depiction",
     },
     sources: [{ id: "src_aquinas_wikipedia", kind: "wikipedia", title: "Thomas Aquinas", url: "https://en.wikipedia.org/wiki/Thomas_Aquinas" }, { id: "src_aquinas_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Thomas Aquinas" }],
     rows: {

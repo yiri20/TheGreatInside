@@ -75,6 +75,10 @@ export interface CandidatePortraitStatus {
   attributionUrl?: string;
   creator?: string;
   date?: string;
+  /** Mirrors `PersonPortrait.kind` (`src/core/types.ts`) — kept identical
+   *  so the intake pipeline and the committed roster's type cannot drift.
+   *  Optional; undefined means unclassified, same semantics as on `Person`. */
+  kind?: "likeness" | "historical_depiction" | "editorial_nonlikeness";
   /** The Commons file page (or equivalent) actually checked — required
    *  whenever status is "found", so licensing can be re-verified later
    *  without re-searching from scratch. */
@@ -235,6 +239,7 @@ export function toPersonSeed(candidate: Candidate): PersonSeed {
             ...(candidate.portrait.attributionUrl !== undefined
               ? { attributionUrl: candidate.portrait.attributionUrl }
               : {}),
+            ...(candidate.portrait.kind !== undefined ? { kind: candidate.portrait.kind } : {}),
           },
         }
       : {}),

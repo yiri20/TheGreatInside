@@ -58,6 +58,10 @@ const seeds: PersonSeed[] = [
     // Bonaiuto's 1366 fresco "Apotheosis of St. Thomas Aquinas" (Basilica
     // of Santa Maria Novella, Florence), painted ~168 years after Averroes'
     // death.
+    // Visual Provenance Schema backfill (2026-08): kind classified
+    // historical_depiction -- a named artist, a real, located artwork, and
+    // an established medieval allegorical-philosopher iconography
+    // (Averroes at Aquinas's feet), not a modern invention.
     portrait: {
       url: "/portraits/averroes-bonaiuto-fresco-crop.jpg",
       width: 1330,
@@ -66,6 +70,7 @@ const seeds: PersonSeed[] = [
       license: "CC BY 3.0",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d%27aquino,_11_sabello,_nestore_e_averro%C3%A8.jpg",
       attribution: "Andrea di Bonaiuto, fresco, 1366 — photograph by Sailko (CC BY 3.0); locally hosted image is a cropped derivative of the photograph isolating Averroes; later traditional depiction, not a lifetime likeness",
+      kind: "historical_depiction",
     },
     sources: [{ id: "src_averroes_wikipedia", kind: "wikipedia", title: "Averroes", url: "https://en.wikipedia.org/wiki/Averroes" }, { id: "src_averroes_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Ibn Rushd [Averroes]" }],
     rows: {
@@ -385,6 +390,12 @@ const seeds: PersonSeed[] = [
     // lifetime likeness — Maimonides predates portraiture of him by
     // centuries; this is a photograph of a modern statue, released CC0 by
     // its photographer.
+    // Visual Provenance Schema audit (2026-08): kind deliberately left
+    // UNCLASSIFIED, not backfilled. A modern commemorative statue with no
+    // named sculptor, no institution, and no claimed historical tradition
+    // does not automatically qualify as historical_depiction merely for
+    // being non-lifetime -- this is exactly the case the policy warns
+    // against forcing.
     portrait: {
       url: "/portraits/maimonides-statue.jpg",
       width: 781,

@@ -45,6 +45,11 @@ const seeds: PersonSeed[] = [
     // were destroyed by fire the day of his funeral. Recompressed
     // (mozjpeg quality 85, ~18.5% smaller, no visible linework damage at
     // 4x magnification) — not resized, not upscaled, not AI-processed.
+    // Visual Provenance Schema backfill (2026-08): kind classified
+    // historical_depiction -- the key worked example for this category:
+    // published during his lifetime and traditionally associated with
+    // him, but not confirmed as an authentic likeness, distinct from
+    // "posthumous"/"non-lifetime" cases elsewhere in this roster.
     portrait: {
       url: "/portraits/benjamin-banneker-almanac-woodcut-1795.jpg",
       width: 339,
@@ -53,6 +58,7 @@ const seeds: PersonSeed[] = [
       license: "Public Domain (published 1795, well before 1931)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Benjamin_Banneker_woodcut,_age_64.jpg",
       attribution: "A woodcut published on the cover of Banneker's own 1795 almanac (John Fisher, Stationer, Baltimore), in his lifetime, and traditionally associated with him; it is not confirmed to be an authentic likeness — no confirmed portrait of Banneker survives.",
+      kind: "historical_depiction",
     },
     sources: [{ id: "src_banneker_wikipedia", kind: "wikipedia", title: "Benjamin Banneker", url: "https://en.wikipedia.org/wiki/Benjamin_Banneker" }, { id: "src_banneker_jefferson", kind: "archive", title: "Correspondence between Benjamin Banneker and Thomas Jefferson (1791)" }, { id: "src_banneker_bedini", kind: "biography", title: "Silvio A. Bedini, The Life of Benjamin Banneker (1972)" }],
     rows: {
@@ -1045,6 +1051,10 @@ const seeds: PersonSeed[] = [
     // her death -- an idealized memorial likeness, the historically
     // standard depiction, explicitly NOT a lifetime likeness. Resized
     // derivative, uncropped. Verified live against the Commons file page.
+    // Visual Provenance Schema backfill (2026-08): kind classified
+    // historical_depiction -- a named master painter, a real institutional
+    // holding, and the historically standard depiction within her
+    // established portrait tradition, not a modern invention.
     portrait: {
       url: "/portraits/sor-juana-ines-de-la-cruz-cabrera-1750.jpg",
       width: 890,
@@ -1053,6 +1063,7 @@ const seeds: PersonSeed[] = [
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Retrato_de_Sor_Juana_In%C3%A9s_de_la_Cruz_-_c.1750_-_Miguel_Cabrera_-_Museo_Nacional_de_Historia_-_Castillo_Chapultepec.jpg",
       attribution: "Miguel Cabrera, c.1750, Museo Nacional de Historia, Castillo de Chapultepec, Mexico City — a posthumous portrait painted approximately 55 years after Sor Juana's death, not a lifetime likeness",
+      kind: "historical_depiction",
     },
     sources: [{ id: "src_sorjuana_wikipedia", kind: "wikipedia", title: "Sor Juana Inés de la Cruz", url: "https://en.wikipedia.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz" }, { id: "src_sorjuana_respuesta", kind: "archive", title: "La Respuesta a Sor Filotea de la Cruz (1691)" }, { id: "src_sorjuana_paz", kind: "biography", title: "Octavio Paz, Sor Juana, or, The Traps of Faith (1988)" }],
     rows: {

@@ -534,6 +534,10 @@ const seeds: PersonSeed[] = [
     // portrait tradition -- NOT contemporary with him and NOT a lifetime
     // likeness; the tradition itself postdates him by centuries. Resized/
     // recompressed derivative. Verified live against the Commons file page.
+    // Visual Provenance Schema backfill (2026-08): kind classified
+    // historical_depiction -- a real, named ancient portrait tradition
+    // (attributed original, documented Roman-era copying practice), not a
+    // modern invention.
     portrait: {
       url: "/portraits/socrates-louvre-ma59.jpg",
       width: 1200,
@@ -542,6 +546,7 @@ const seeds: PersonSeed[] = [
       license: "CC BY-SA 2.5",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Socrate_du_Louvre.jpg",
       attribution: "Photograph by Eric Gaba (\"Sting\"), 2005, CC BY-SA 2.5 — Louvre, Ma 59, a Roman-era copy (1st century AD) within the later ancient Socrates portrait tradition, not a lifetime likeness",
+      kind: "historical_depiction",
     },
     sources: [wiki("socrates", "Socrates"), bio("socrates", "Plato's dialogues (secondary account)")],
     rows: {
@@ -1050,6 +1055,10 @@ const seeds: PersonSeed[] = [
     // series. Explicitly POSTHUMOUS, not a lifetime or eyewitness likeness.
     // Resized/recompressed derivative. Verified live against the Commons
     // file page.
+    // Visual Provenance Schema backfill (2026-08): kind classified
+    // historical_depiction -- a real, named institution (National Palace
+    // Museum) and a documented Yuan court ancestor-portrait genre, not a
+    // modern invention.
     portrait: {
       url: "/portraits/genghis-khan-yuan-portrait-c1350.jpg",
       width: 1259,
@@ -1058,6 +1067,7 @@ const seeds: PersonSeed[] = [
       license: "Public Domain",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg",
       attribution: "Yuan dynasty imperial portrait album, c.1350, National Palace Museum, Taipei — a posthumous portrait painted roughly 120+ years after Genghis Khan's death, part of a Yuan court ancestor-portrait tradition, not a lifetime or eyewitness likeness",
+      kind: "historical_depiction",
     },
     sources: [wiki("genghiskhan", "Genghis Khan")],
     doNotCopyKeys: ["dontcopy.genghiskhan.ruthlessness"],

@@ -593,6 +593,12 @@ const seeds: PersonSeed[] = [
     // 1067x1600/172KB (93.4% smaller). licenseUrl still points to the
     // live Commons file page. Depiction caveat unchanged: modern
     // reconstruction bust, no contemporary depiction survives.
+    // Visual Provenance Schema audit (2026-08): kind deliberately left
+    // UNCLASSIFIED, not backfilled. This is a modern (photographed 2019)
+    // commemorative reconstruction at a national memorial, not a period
+    // artifact or an established historical portrait tradition -- the
+    // same "modern reconstruction" case the policy explicitly warns
+    // against assuming qualifies.
     portrait: {
       url: "/portraits/yi-sun-sin-war-memorial-bust.jpg",
       width: 1067,

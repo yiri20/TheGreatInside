@@ -225,6 +225,37 @@ export interface PersonPortrait {
   /** Creator/photographer credit line, reproduced as the source requires. */
   attribution?: string;
   attributionUrl?: string;
+  /**
+   * Historical-provenance category. Optional and structural only — no
+   * component renders it yet (2026-08); it exists so future tooling
+   * (audits, an eventual UI treatment) can reason about provenance
+   * category without parsing `attribution` prose. `undefined` means
+   * UNCLASSIFIED — it must never be read as "likeness". Most of the
+   * roster's already-implemented portraits are unclassified today
+   * (deliberately not backfilled wholesale — see
+   * `docs/reference/data-model.md`).
+   *
+   * - `"likeness"`: a photograph, from-life portrait, or other depiction
+   *   for which there is credible evidence the living subject directly
+   *   informed the image.
+   * - `"historical_depiction"`: a defensible historical relationship to
+   *   the person exists, but it is NOT established as a direct likeness.
+   *   Not synonymous with "posthumous" or "non-lifetime" — it may be
+   *   contemporary-but-unconfirmed, posthumous, a historical copy, a
+   *   court/devotional portrait tradition, a period artifact, or another
+   *   scholarly-attributed historical depiction. Must carry non-empty
+   *   `attribution`. A modern statue, a modern reconstruction, or a
+   *   popular-but-untraceable image does NOT automatically qualify —
+   *   the relationship must be genuinely defensible, not merely old or
+   *   widely reproduced.
+   * - `"editorial_nonlikeness"`: an original visual created for this
+   *   product that explicitly makes no claim about the person's physical
+   *   appearance (e.g. a manuscript motif, a symbolic historical object).
+   *   Must carry non-empty `attribution`. No production instances yet —
+   *   using this value requires an explicit, visible UI treatment first
+   *   so it is never mistaken for a likeness.
+   */
+  kind?: "likeness" | "historical_depiction" | "editorial_nonlikeness";
 }
 
 /**

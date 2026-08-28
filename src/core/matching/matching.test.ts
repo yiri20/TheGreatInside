@@ -171,6 +171,10 @@ describe("metadata must never influence matching", () => {
           source: "Test Source",
           license: "CC0",
           attribution: "Someone",
+          // Visual Provenance Schema (2026-08): kind is presentation-only,
+          // same as every other portrait field — confirm it too never
+          // reaches scoring.
+          kind: "historical_depiction",
         },
       },
     ],

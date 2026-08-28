@@ -39,6 +39,20 @@ describe("rosterQuality gates against the current committed roster (baseline)", 
     expect(report.contentQualityFailures).toEqual([]);
     expect(report.eligibility.length).toBe(SEED_PEOPLE.length);
   });
+
+  // Visual Provenance Schema (2026-08): a historical_depiction or
+  // editorial_nonlikeness portrait must never be presented without its
+  // caveat/credit text -- unlike a plain photographic likeness, the whole
+  // point of these two categories is that a reader needs the attribution
+  // to understand what they're looking at.
+  it("every historical_depiction or editorial_nonlikeness portrait carries non-empty attribution", () => {
+    const violations = SEED_PEOPLE.filter(
+      (p) =>
+        (p.portrait?.kind === "historical_depiction" || p.portrait?.kind === "editorial_nonlikeness") &&
+        !p.portrait?.attribution?.trim(),
+    ).map((p) => p.slug);
+    expect(violations).toEqual([]);
+  });
 });
 
 describe("rosterQuality gates catch real defects (mechanical checks, not evidence judgment)", () => {
