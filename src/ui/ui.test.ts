@@ -9,12 +9,14 @@ import {
   IdentityHero,
   ImpactBadge,
   PersonCard,
+  PortraitCredit,
   ScoreBar,
   Select,
   TextField,
   TraitCard,
   TraitChip,
 } from "./index.js";
+import type { PersonPortrait } from "../core/types.js";
 import {
   ALL_IMPACTS,
   clampScore,
@@ -292,6 +294,78 @@ describe("IdentityHero", () => {
     });
     expect(html).toContain("이");
     expect(html).not.toContain("<img");
+  });
+});
+
+describe("PortraitCredit", () => {
+  // Portrait Completion Phase 2D-1: the "not a likeness" label must appear
+  // for editorial_nonlikeness ONLY. No production person carries this kind
+  // yet, so these fixtures are fabricated PersonPortrait objects rather than
+  // a real roster entry — see the task's own instruction not to repurpose a
+  // real person's provenance just to exercise this UI path.
+  const basePortrait: PersonPortrait = {
+    url: "/portraits/fixture.jpg",
+    source: "Test Source",
+    license: "Public Domain",
+    attribution: "A fixture attribution string",
+  };
+
+  it("shows the editorial-visual label, above the unchanged attribution caption, when kind is editorial_nonlikeness", () => {
+    const html = render(PortraitCredit, {
+      locale: "en-US",
+      portrait: { ...basePortrait, kind: "editorial_nonlikeness" },
+    });
+    expect(html).toContain("Editorial visual");
+    expect(html).toContain("Not a likeness");
+    expect(html).toContain("A fixture attribution string");
+    // The label must precede the attribution caption in DOM order (a
+    // standalone line ABOVE it, not folded into the same clamped block).
+    expect(html.indexOf("Editorial visual")).toBeLessThan(html.indexOf("A fixture attribution string"));
+    // Not clamped: the label's own <p> must never carry the single-line-clamp
+    // class that the attribution prose <span> (a different element) uses.
+    expect(html).toContain('<p class="tgi-text tgi-portrait-credit__nonlikeness">');
+  });
+
+  it("does NOT show the label for historical_depiction", () => {
+    const html = render(PortraitCredit, {
+      locale: "en-US",
+      portrait: { ...basePortrait, kind: "historical_depiction" },
+    });
+    expect(html).not.toContain("Editorial visual");
+    expect(html).not.toContain("Not a likeness");
+    expect(html).toContain("A fixture attribution string");
+  });
+
+  it("does NOT show the label for an unclassified (kind undefined) portrait", () => {
+    const html = render(PortraitCredit, { locale: "en-US", portrait: basePortrait });
+    expect(html).not.toContain("Editorial visual");
+    expect(html).not.toContain("Not a likeness");
+    expect(html).toContain("A fixture attribution string");
+  });
+
+  it("does NOT show the label for a likeness portrait", () => {
+    const html = render(PortraitCredit, {
+      locale: "en-US",
+      portrait: { ...basePortrait, kind: "likeness" },
+    });
+    expect(html).not.toContain("Editorial visual");
+    expect(html).not.toContain("Not a likeness");
+  });
+
+  it("resolves the Korean label text for editorial_nonlikeness, not the English fallback", () => {
+    const html = render(PortraitCredit, {
+      locale: "ko-KR",
+      portrait: { ...basePortrait, kind: "editorial_nonlikeness" },
+    });
+    expect(html).toContain("편집용 이미지");
+    expect(html).toContain("실제 초상 아님");
+    expect(html).not.toContain("Editorial visual");
+  });
+
+  it("EN and KO bundles both carry a non-empty portrait.editorial_nonlikeness string", () => {
+    expect(t("en-US", "portrait.editorial_nonlikeness").length).toBeGreaterThan(0);
+    expect(t("ko-KR", "portrait.editorial_nonlikeness").length).toBeGreaterThan(0);
+    expect(en["portrait.editorial_nonlikeness"]).toBe(t("en-US", "portrait.editorial_nonlikeness"));
   });
 });
 

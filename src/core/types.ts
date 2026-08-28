@@ -226,14 +226,18 @@ export interface PersonPortrait {
   attribution?: string;
   attributionUrl?: string;
   /**
-   * Historical-provenance category. Optional and structural only — no
-   * component renders it yet (2026-08); it exists so future tooling
-   * (audits, an eventual UI treatment) can reason about provenance
+   * Historical-provenance category. Optional and structural; it exists so
+   * tooling (audits, the UI treatment below) can reason about provenance
    * category without parsing `attribution` prose. `undefined` means
    * UNCLASSIFIED — it must never be read as "likeness". Most of the
    * roster's already-implemented portraits are unclassified today
    * (deliberately not backfilled wholesale — see
-   * `docs/reference/data-model.md`).
+   * `docs/reference/data-model.md`). Only `"editorial_nonlikeness"` has a
+   * visible UI treatment (Phase 2D-1): `PortraitCredit`
+   * (`src/ui/components/portraitCredit.tsx`) renders one standalone
+   * "not a likeness" line above the attribution/license caption on the
+   * Person detail page. `"historical_depiction"` and unclassified
+   * portraits render no differently than before that treatment existed.
    *
    * - `"likeness"`: a photograph, from-life portrait, or other depiction
    *   for which there is credible evidence the living subject directly

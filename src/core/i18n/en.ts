@@ -950,6 +950,10 @@ export const en = {
   "sort.confidence_desc": "Best documented",
 
   /* --------------------------------------------------------- person page */
+  // Portrait Completion Phase 2D-1 (2026-08): shown above the existing
+  // attribution/license caption, only when portrait.kind ===
+  // "editorial_nonlikeness" — see src/ui/components/portraitCredit.tsx.
+  "portrait.editorial_nonlikeness": "Editorial visual · Not a likeness",
   "person.trait_constellation": "Trait Constellation",
   "person.traits.show_all": "Show all traits",
   "person.traits.show_fewer": "Show fewer traits",

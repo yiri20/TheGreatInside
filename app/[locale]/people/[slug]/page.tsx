@@ -20,6 +20,7 @@ import {
   Heading,
   IdentityHero,
   PersonCard,
+  PortraitCredit,
   ShareButton,
   Stack,
   Text,
@@ -220,27 +221,12 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
                 // so it's still fully present for screen readers, page
                 // search and copy/paste, and available on hover via
                 // `title`; only the visual rendering is shortened. Source
-                // and the licence link itself are never clamped.
-                portraitCaption: (
-                  <Text tone="muted" className="tgi-portrait-credit">
-                    {person.portrait.attribution ? (
-                      <span className="tgi-portrait-credit__prose" title={person.portrait.attribution}>
-                        {person.portrait.attribution}
-                      </span>
-                    ) : null}
-                    <span>
-                      {person.portrait.attribution ? " · " : ""}
-                      {person.portrait.source} ·{" "}
-                      {person.portrait.licenseUrl ? (
-                        <a href={person.portrait.licenseUrl} target="_blank" rel="noreferrer">
-                          {person.portrait.license}
-                        </a>
-                      ) : (
-                        person.portrait.license
-                      )}
-                    </span>
-                  </Text>
-                ),
+                // and the licence link itself are never clamped. Extracted
+                // to `PortraitCredit` (Phase 2D-1) so the standalone
+                // "not a likeness" line for `kind === "editorial_nonlikeness"`
+                // has somewhere testable to live — see that component's own
+                // doc comment for why it isn't in `layout.tsx` instead.
+                portraitCaption: <PortraitCredit locale={locale} portrait={person.portrait} />,
               }
             : {})}
         >

@@ -670,6 +670,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "sort.birth_year_desc": "출생 늦은 순",
   "sort.confidence_desc": "근거가 충분한 순",
 
+  "portrait.editorial_nonlikeness": "편집용 이미지 · 실제 초상 아님",
   "person.trait_constellation": "핵심 특성",
   "person.traits.show_all": "모든 특성 보기",
   "person.traits.show_fewer": "특성 접기",
