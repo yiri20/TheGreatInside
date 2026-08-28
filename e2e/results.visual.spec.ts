@@ -35,6 +35,17 @@ const FIXTURES = {
    *  below as `unexpectedAbsent`) the Unexpected Match empty state /
    *  standalone-Opposite-Profile branch in the same fixture. */
   advantagePresent: "quiz_v2.b666b66b666b6b666666b66666b66bb66b6666b6666b6b6666b6666666666666",
+  /** Closest match is coco-chanel, a real portrait-less person — checked
+   *  directly against the live roster (via a random-search script over
+   *  `scoreQuiz`/`buildResultSet`, not handcrafted or assumed) at the time
+   *  this fixture was added. Was `neutral` until Portrait Completion Phase
+   *  2D-2 (2026-08) gave that fixture's closest match, Ibn Khaldun, a real
+   *  portrait — the same kind of migration `person.visual.spec.ts`'s
+   *  no-portrait fixture (socrates -> coco-chanel) already went through for
+   *  the same reason. Only used by the one test below that specifically
+   *  needs a portrait-less closest match; every other test keeps using
+   *  `neutral`. */
+  noPortraitClosest: "quiz_v2.b243a33b346b7c411734b73347b14cc77a4542b1713b1a6467a2355733353415",
 } as const;
 
 /** A dedicated token for the specific branch (`results.unexpected ===
@@ -137,14 +148,16 @@ for (const locale of LOCALES) {
   test(`closest-match hero renders an initials fallback, not an empty portrait column, when the match has no portrait (${locale})`, async ({
     page,
   }) => {
-    // FIXTURES.neutral's closest match against the current roster is Ibn
-    // Khaldun, a real portrait-less person (checked directly against
+    // FIXTURES.noPortraitClosest's closest match against the current roster
+    // is Coco Chanel, a real portrait-less person (checked directly against
     // src/data/people, not assumed) — exercises the fix for the reported
     // defect: IdentityHero used to render nothing at all for the portrait
     // column here, unlike PersonCard's initials fallback used elsewhere on
     // this same page (Category Matches, Unexpected Match, etc.).
     const console_ = captureConsole(page);
-    await page.goto(`/${locale}/results?r=${encodeURIComponent(FIXTURES.neutral)}`, { waitUntil: "networkidle" });
+    await page.goto(`/${locale}/results?r=${encodeURIComponent(FIXTURES.noPortraitClosest)}`, {
+      waitUntil: "networkidle",
+    });
 
     await expect(page.locator(".tgi-identity-hero__portrait")).toHaveCount(1);
     await expect(page.locator(".tgi-identity-hero__portrait img")).toHaveCount(0);

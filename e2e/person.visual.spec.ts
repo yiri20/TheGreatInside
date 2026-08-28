@@ -364,3 +364,74 @@ for (const [slug, hasContent] of [
     ).toBe(3 + result.editorialSectionCount);
   });
 }
+
+/**
+ * Editorial non-likeness UI, Portrait Completion Phase 2D-2 — the first
+ * production `kind: "editorial_nonlikeness"` person is ibn-khaldun. Real
+ * production data throughout (not a mocked fixture, unlike the component
+ * -level tests in src/ui/ui.test.ts): genghis-khan (`historical_depiction`)
+ * and leonardo-da-vinci (unclassified `kind`) confirm the label stays
+ * scoped to editorial_nonlikeness only, against real roster entries.
+ */
+test("editorial-nonlikeness label renders on ibn-khaldun's hero, above the attribution caption (en-US)", async ({
+  page,
+}) => {
+  const console_ = captureConsole(page);
+  await page.goto("/en-US/people/ibn-khaldun", { waitUntil: "networkidle" });
+
+  await expect(page.locator(".tgi-portrait-credit__nonlikeness")).toHaveText("Editorial visual · Not a likeness");
+  await expect(page.locator(".tgi-portrait-credit__prose")).toContainText("folio 7a");
+
+  const box = await page.locator(".tgi-portrait-credit__nonlikeness").boundingBox();
+  const creditBox = await page.locator(".tgi-portrait-credit").boundingBox();
+  expect(box, "label must be present").not.toBeNull();
+  expect(creditBox, "attribution caption must be present").not.toBeNull();
+  expect(box!.y).toBeLessThan(creditBox!.y);
+
+  await assertNoHorizontalOverflow(page);
+  expect(console_.errors).toEqual([]);
+  expect(console_.pageErrors).toEqual([]);
+});
+
+test("editorial-nonlikeness label renders in Korean on ibn-khaldun's hero (ko-KR)", async ({ page }) => {
+  const console_ = captureConsole(page);
+  await page.goto("/ko-KR/people/ibn-khaldun", { waitUntil: "networkidle" });
+
+  await expect(page.locator(".tgi-portrait-credit__nonlikeness")).toHaveText("편집용 이미지 · 실제 초상 아님");
+
+  await assertNoHorizontalOverflow(page);
+  expect(console_.errors).toEqual([]);
+  expect(console_.pageErrors).toEqual([]);
+});
+
+test("editorial-nonlikeness label survives at 390px mobile without wrapping the caption awkwardly (en-US, ibn-khaldun)", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 900 });
+  const console_ = captureConsole(page);
+  await page.goto("/en-US/people/ibn-khaldun", { waitUntil: "networkidle" });
+
+  await expect(page.locator(".tgi-portrait-credit__nonlikeness")).toBeVisible();
+  await expect(page.locator(".tgi-identity-hero__img")).toBeVisible();
+  await assertNoHorizontalOverflow(page);
+  await assertNoClippedElements(page);
+
+  expect(console_.errors).toEqual([]);
+  expect(console_.pageErrors).toEqual([]);
+});
+
+test("editorial-nonlikeness label does NOT render for a historical_depiction person (en-US, genghis-khan)", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people/genghis-khan", { waitUntil: "networkidle" });
+  await expect(page.locator(".tgi-portrait-credit__nonlikeness")).toHaveCount(0);
+  await expect(page.locator(".tgi-portrait-credit__prose")).toContainText("Yuan dynasty");
+});
+
+test("editorial-nonlikeness label does NOT render for an unclassified portrait (en-US, leonardo-da-vinci)", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people/leonardo-da-vinci", { waitUntil: "networkidle" });
+  await expect(page.locator(".tgi-portrait-credit__nonlikeness")).toHaveCount(0);
+  await expect(page.locator(".tgi-identity-hero__img")).toBeVisible();
+});

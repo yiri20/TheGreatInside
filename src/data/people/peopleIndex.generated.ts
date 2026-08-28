@@ -461,6 +461,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5954545454545456,
     attributes: [["curiosity", 86, 0.65, "advantage"], ["analytical_rigor", 90, 0.7, "advantage"], ["systems_abstraction", 92, 0.7, "advantage"], ["independent_thinking", 88, 0.65, "advantage"], ["cross_domain_range", 90, 0.68, "advantage"], ["discipline", 85, 0.6, "advantage"], ["deep_focus", 85, 0.62, "advantage"], ["persistence", 85, 0.62, "advantage"], ["adaptability", 85, 0.6, "dual_edged"], ["risk_tolerance", 72, 0.55, "dual_edged"], ["ambiguity_tolerance", 75, 0.55, "advantage"], ["planning_orientation", 72, 0.5, "advantage"], ["social_assertiveness", 75, 0.52, "advantage"], ["leadership_drive", 72, 0.55, "dual_edged"], ["persuasiveness", 80, 0.58, "advantage"], ["conflict_tolerance", 78, 0.55, "advantage"], ["autonomy_need", 65, 0.5, "neutral"], ["achievement_drive", 82, 0.55, "advantage"], ["mastery_orientation", 82, 0.58, "advantage"], ["impact_motivation", 85, 0.6, "advantage"], ["opportunity_sensing", 88, 0.65, "advantage"], ["proactive_agency", 80, 0.6, "dual_edged"]],
+    portraitUrl: "/portraits/ibn-khaldun-atif-efendi-1936-f7a.jpg",
   },
   {
     id: "p_wangari_maathai",

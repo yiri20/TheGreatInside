@@ -1141,6 +1141,36 @@ const seeds: PersonSeed[] = [
         "ko-KR": "https://ko.wikipedia.org/wiki/이븐_할둔",
       },
     },
+    // Portrait Completion Phase 2D-2 (2026-08): a final documentary-visual
+    // re-audit found no defensible historical likeness of Ibn Khaldun --
+    // every widely-circulated "portrait" (stock-image bust, the Tunisian
+    // banknote engraving, the Tunis monument) traces to a modern invented
+    // face with no historical source; the one Wikimedia file specifically
+    // named "Ibn Khaldun.jpg" was deleted from Commons twice (2007, 2017)
+    // as a copyright violation. This is instead a real folio (7a) from a
+    // lifetime manuscript of his own al-Muqaddima -- MS Atif Efendi 1936,
+    // Suleymaniye Library, Istanbul -- whose own on-page annotation
+    // identifies the boxed inscription as being in his handwriting. NOT
+    // upgraded to an unconditional autograph claim: Rosenthal's scholarly
+    // account places this manuscript's confirmed authorial subscription
+    // elsewhere in the codex (near the end of the text), a discrepancy
+    // this session could not independently reconcile with fol. 7a's
+    // annotation. First production instance of `editorial_nonlikeness`.
+    // Resized to 1600px longest side (native 1788x1282), recompressed,
+    // no upscale, no AI processing, no crop -- the boxed inscription and
+    // its adjacent attribution annotation are both preserved in frame.
+    portrait: {
+      url: "/portraits/ibn-khaldun-atif-efendi-1936-f7a.jpg",
+      width: 1600,
+      height: 1147,
+      source: "Wikimedia Commons (faithful reproduction of the historical manuscript, resized derivative)",
+      license: "Public Domain",
+      licenseUrl:
+        "https://commons.wikimedia.org/wiki/File:Handwriting_of_Ibn_Khald%C5%ABn,_al-Muqaddima,_MS_At%C4%B1f_Efendi_1936,_f._7a.png",
+      attribution:
+        "This is not a portrait. No authenticated likeness of Ibn Khaldun survives. This image shows folio 7a from a lifetime manuscript of his al-Muqaddima (MS Atıf Efendi 1936, Süleymaniye Library, Istanbul), which the manuscript's own annotation identifies as carrying his handwriting.",
+      kind: "editorial_nonlikeness",
+    },
     sources: [
       wiki("ibnkhaldun", "Ibn Khaldun"),
       bio("ibnkhaldun", "Ibn Khaldun, The Muqaddimah (1377), trans. Franz Rosenthal (1958)"),

@@ -53,6 +53,19 @@ describe("rosterQuality gates against the current committed roster (baseline)", 
     ).map((p) => p.slug);
     expect(violations).toEqual([]);
   });
+
+  // Portrait Completion Phase 2D-2: first production editorial_nonlikeness
+  // instance. Pinned directly (not just via the generic scan above) so a
+  // future edit to his portrait block that silently drops `kind` or the
+  // caveat text fails loudly here, not just via a Playwright label check.
+  it("ibn-khaldun carries kind: editorial_nonlikeness with a caveat naming the manuscript, not a likeness claim", () => {
+    const person = SEED_PEOPLE.find((p) => p.slug === "ibn-khaldun");
+    expect(person?.portrait?.kind).toBe("editorial_nonlikeness");
+    expect(person?.portrait?.attribution).toContain("not a portrait");
+    expect(person?.portrait?.attribution).toContain("No authenticated likeness");
+    expect(person?.portrait?.attribution).toContain("Atıf Efendi 1936");
+    expect(person?.portrait?.attribution?.toLowerCase()).not.toContain("autograph");
+  });
 });
 
 describe("rosterQuality gates catch real defects (mechanical checks, not evidence judgment)", () => {
