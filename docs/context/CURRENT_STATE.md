@@ -72,15 +72,29 @@ in the roster**).
   non-eligible, 9 eligible) — every portrait in the roster is self-hosted
   under `public/portraits/`, so the categorical `ERR_BLOCKED_BY_ORB` risk
   this whole program existed to fix no longer applies to any person
-  page. Remaining no-portrait people, per the completed exposure audit's
-  recovery tiers: Bruce Lee, Ibn Khaldun, Rumi, Benjamin Banneker,
-  Muhammad Ali, Fela Kuti (Tier B, opportunistic-only — rights-hard or
-  pre-photography, with prior exhausted rounds) and Coco Chanel, Umm
-  Kulthum, Joan of Arc, Zheng He (Tier C, permanent/long-term HOLD).
-  Active dedicated portrait sourcing is recommended to stop here; see
-  the exposure audit for the full priority-score derivation. Full
-  batch-by-batch history lives in `git log` (each release's own commit
-  message), not restated here.
+  page. **Tier-A Free-Source Recovery is COMPLETE** — the high-
+  probability/free-source phase (generic Commons/institutional-PD
+  sourcing) has run its course for this roster. That is not portrait
+  completion: the long-term target remains **95/95**. **Portrait
+  Completion Phase 2 is ACTIVE/PLANNED** for the remaining 10, per the
+  completed exposure audit's recovery tiers: Bruce Lee, Ibn Khaldun,
+  Rumi, Benjamin Banneker, Muhammad Ali, Fela Kuti (Tier B) and Coco
+  Chanel, Umm Kulthum, Joan of Arc, Zheng He (Tier C). Repeating generic
+  Commons searches on these 10 is not expected to succeed — Phase 2
+  instead needs differentiated strategies per person: rights
+  acquisition/special-source recovery (e.g. direct contact with an
+  estate, archive, or rights-holder), institutional archive recovery
+  (unindexed/undigitized holdings a general web search won't surface),
+  and — for pre-photography subjects — historically defensible
+  depiction resolution (an image whose artistic/reconstruction status is
+  itself honestly documented, not a search problem to solve). "HOLD" on
+  any of these 10 means no acceptable path exists under the sourcing
+  methods tried so far, not permanent abandonment — every one stays
+  revisitable under a new strategy, while provenance honesty and the
+  existing rights standards stay non-negotiable. See the exposure audit
+  for the full priority-score derivation. Full batch-by-batch history
+  lives in `git log` (each release's own commit message), not restated
+  here.
   Exposure-Priority Portrait Pass (2026-08, `chore/consolidated-dev-2026-08`)
   added 13 portraits (Gandhi, Atatürk, Julius Caesar, Ibn Sina, Toni
   Morrison, Wangari Maathai, Aung San Suu Kyi, Oprah Winfrey, Maimonides,
@@ -175,12 +189,17 @@ portrait dependency remains anywhere in the roster; the categorical
 `ERR_BLOCKED_BY_ORB` risk the Portrait Reliability Localization program
 existed to fix stays closed. The Tier-A portrait-recovery queue (Martin
 Luther King Jr., Malcolm X, Akira Kurosawa, Akio Morita) is now fully
-resolved — active dedicated portrait sourcing is recommended to stop
-here per the completed exposure audit; any further portrait for the
-remaining 10 no-portrait people should be opportunistic only (Tier B:
-Bruce Lee, Ibn Khaldun, Rumi, Benjamin Banneker, Muhammad Ali, Fela
-Kuti) or held for an external trigger (Tier C: Coco Chanel, Umm Kulthum,
-Joan of Arc, Zheng He). Candidates for a future session (none started
+resolved, closing out the free-source/high-probability recovery phase —
+**not** portrait completion overall, which stays open with a long-term
+target of 95/95. Portrait Completion Phase 2 (planned, not started) is
+the next step for the remaining 10: differentiated strategies per
+person rather than another generic Commons pass — rights
+acquisition/special-source recovery, institutional archive recovery, or
+historically defensible depiction resolution for pre-photography
+subjects (Tier B: Bruce Lee, Ibn Khaldun, Rumi, Benjamin Banneker,
+Muhammad Ali, Fela Kuti; Tier C: Coco Chanel, Umm Kulthum, Joan of Arc,
+Zheng He) — with "HOLD" meaning no acceptable path yet, not permanent
+abandonment. Candidates for a future session (none started
 here): a trait-card click-to-explain affordance (needs a new
 lightweight popover/dialog primitive plus attribute-description content
 — see "Person Profile Hero redesign" above); the remaining 19
