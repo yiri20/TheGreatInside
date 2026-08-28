@@ -94,6 +94,23 @@ const seeds: PersonSeed[] = [
     tagIds: ["founder", "nonconformist", "independent"],
     archetypeIds: ["creative_creator", "independent_creator"],
     externalIdentity: { wikidataId: "Q155845" },
+    // No-Portrait Fill Batch 2 (2026-08): VRT-verified CC BY 3.0 photograph,
+    // chosen over a higher-profile 1966 photo (Carlo Bavagnoli) that is
+    // currently nominated for deletion on Commons over a plausible Time-Life
+    // copyright claim overriding its Nigerian PD tag. Composition is 3/4
+    // angle with a lectern microphone in frame -- not tightly cropped out
+    // per instruction, since doing so at this resolution would harm the
+    // composition; requires human visual sign-off. Recompressed derivative,
+    // no resize needed, no crop. Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/chinua-achebe-buffalo-2008.jpg",
+      width: 1340,
+      height: 980,
+      source: "Wikimedia Commons (recompressed derivative)",
+      license: "CC BY 3.0",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Chinua_Achebe_-_Buffalo_25Sep2008_crop.jpg",
+      attribution: "Photograph by Stuart C. Shapiro, 2008, CC BY 3.0",
+    },
     sources: [{ id: "src_achebe_wikipedia", kind: "wikipedia", title: "Chinua Achebe", url: "https://en.wikipedia.org/wiki/Chinua_Achebe" }, { id: "src_achebe_conrad", kind: "archive", title: "Chinua Achebe, 'An Image of Africa: Racism in Conrad's Heart of Darkness' (1975 lecture)" }, { id: "src_achebe_ezenwa", kind: "biography", title: "Ezenwa-Ohaeto, Chinua Achebe: A Biography (1997)" }],
     rows: {
       // Things Fall Apart (1958) pioneered blending Igbo oral narrative tradition with the English-language novel form — documented via the work's own structure and its recognized place as a founding text of modern African literature.
@@ -363,6 +380,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["early_computing", "innovator", "founder"],
     archetypeIds: ["technical_innovator"],
     externalIdentity: { wikidataId: "Q11641" },
+    // No-Portrait Fill Batch 2 (2026-08): official US Navy portrait.
+    // Resized/recompressed derivative. Verified live against the Commons
+    // file page.
+    portrait: {
+      url: "/portraits/grace-hopper-usn-1984.jpg",
+      width: 1280,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg",
+      attribution: "Photograph by James S. Davis, U.S. Navy, 1984, Public Domain",
+    },
     sources: [{ id: "src_hopper_wikipedia", kind: "wikipedia", title: "Grace Hopper", url: "https://en.wikipedia.org/wiki/Grace_Hopper" }, { id: "src_hopper_beyer", kind: "biography", title: "Kurt W. Beyer, Grace Hopper and the Invention of the Information Age (2009)" }],
     rows: {
       // Led development of the first compiler (A-0) and the concept of machine-independent programming languages, directly leading to COBOL — documented via the patent and publication record of these specific technical contributions.
@@ -725,6 +754,19 @@ const seeds: PersonSeed[] = [
     tagIds: ["founder", "cross_disciplinary", "advocate"],
     archetypeIds: ["scholarly_specialist", "social_influencer"],
     externalIdentity: { wikidataId: "Q100948" },
+    // No-Portrait Fill Batch 2 (2026-08): US Fish and Wildlife Service
+    // staff photograph. Recompression saved a negligible amount here, so
+    // the byte-identical original is hosted unchanged. Verified live
+    // against the Commons file page.
+    portrait: {
+      url: "/portraits/rachel-carson-fws.jpg",
+      width: 1117,
+      height: 1414,
+      source: "Wikimedia Commons (hosted locally by this app; byte-identical to the original -- recompression saved a negligible amount here)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Rachel-Carson.jpg",
+      attribution: "U.S. Fish and Wildlife Service, Public Domain",
+    },
     sources: [{ id: "src_carson_wikipedia", kind: "wikipedia", title: "Rachel Carson", url: "https://en.wikipedia.org/wiki/Rachel_Carson" }, { id: "src_carson_lear", kind: "biography", title: "Linda Lear, Rachel Carson: Witness for Nature (1997)" }],
     rows: {
       // Published Silent Spring (1962) knowing it would provoke direct, sustained attack from the chemical industry — documented via Lear's biography detailing the well-funded public campaign against her personally and professionally that followed, which she continued to publicly defend her work through despite it.
@@ -962,6 +1004,21 @@ const seeds: PersonSeed[] = [
     tagIds: ["self_taught", "nonconformist", "polymath"],
     archetypeIds: ["creative_creator", "independent_creator"],
     externalIdentity: { wikidataId: "Q183074" },
+    // No-Portrait Fill Batch 2 (2026-08): historical-ceiling case -- Sor
+    // Juana died in 1695; NO lifetime portrait exists. This is Miguel
+    // Cabrera's posthumous portrait, painted c.1750, roughly 55 years after
+    // her death -- an idealized memorial likeness, the historically
+    // standard depiction, explicitly NOT a lifetime likeness. Resized
+    // derivative, uncropped. Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/sor-juana-ines-de-la-cruz-cabrera-1750.jpg",
+      width: 890,
+      height: 1235,
+      source: "Wikimedia Commons (recompressed derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Retrato_de_Sor_Juana_In%C3%A9s_de_la_Cruz_-_c.1750_-_Miguel_Cabrera_-_Museo_Nacional_de_Historia_-_Castillo_Chapultepec.jpg",
+      attribution: "Miguel Cabrera, c.1750, Museo Nacional de Historia, Castillo de Chapultepec, Mexico City — a posthumous portrait painted approximately 55 years after Sor Juana's death, not a lifetime likeness",
+    },
     sources: [{ id: "src_sorjuana_wikipedia", kind: "wikipedia", title: "Sor Juana Inés de la Cruz", url: "https://en.wikipedia.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz" }, { id: "src_sorjuana_respuesta", kind: "archive", title: "La Respuesta a Sor Filotea de la Cruz (1691)" }, { id: "src_sorjuana_paz", kind: "biography", title: "Octavio Paz, Sor Juana, or, The Traps of Faith (1988)" }],
     rows: {
       // Documented (including in her own account) to have taught herself to read as a small child, learned Latin in a small number of lessons, and assembled one of the largest private libraries in colonial Spanish America (~4,000 volumes).

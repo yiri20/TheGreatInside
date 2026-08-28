@@ -112,6 +112,18 @@ const seeds: PersonSeed[] = [
     tagIds: ["founder", "craft_focused", "sustained_excellence", "overcame_adversity"],
     archetypeIds: ["creative_creator", "independent_creator"],
     externalIdentity: { wikidataId: "Q151874" },
+    // No-Portrait Fill Batch 2 (2026-08): a pre-1931 lifetime studio
+    // photograph (Pavlova died 1931). Resized/recompressed derivative.
+    // Verified live against the Commons file page.
+    portrait: {
+      url: "/portraits/anna-pavlova-portrait-early1900s.jpg",
+      width: 1236,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative)",
+      license: "Public Domain (life+70 years or fewer)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Anna_Pavlova,_portrait.jpg",
+      attribution: "Photographer unknown, early 20th century, Public Domain",
+    },
     sources: [{ id: "src_pavlova_enc1", kind: "archive", title: "Encyclopedia.com — \"Anna Matveyevna Pavlova\" (aggregating UXL Encyclopedia of World Biography / Encyclopedia of Modern Europe / Encyclopedia of Russian History / World Encyclopedia)", url: "https://www.encyclopedia.com/people/literature-and-arts/dance-biographies/anna-matveyevna-pavlova" }, { id: "src_pavlova_enc2", kind: "archive", title: "Encyclopedia.com — \"Pavlova, Anna (1881–1931)\" (Women in World History: A Biographical Encyclopedia)", url: "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/pavlova-anna-1881-1931" }, { id: "src_pavlova_hh", kind: "press", title: "History Hit — \"Anna Pavlova: The Most Influential Ballerina In History\"", url: "https://www.historyhit.com/culture/who-was-famed-ballerina-anna-pavlova/" }, { id: "src_pavlova_nwe", kind: "archive", title: "New World Encyclopedia — \"Anna Pavlova\"", url: "https://www.newworldencyclopedia.org/entry/Anna_Pavlova" }, { id: "src_pavlova_ebsco", kind: "archive", title: "EBSCO Research Starters — \"Anna Pavlova\"", url: "https://www.ebsco.com/research-starters/biography/anna-pavlova" }, { id: "src_pavlova_saha", kind: "press", title: "Sahapedia — \"Anna Pavlova\"", url: "https://www.sahapedia.org/anna-pavlova" }, { id: "src_pavlova_vam", kind: "institution", title: "Victoria and Albert Museum Collections — \"Anna Pavlova: The Immortal Swan\" poster record", url: "https://collections.vam.ac.uk/item/O1257131/anna-pavlova-the-immortal-swan-poster-unknown/" }, { id: "src_pavlova_ausd", kind: "institution", title: "Ausdance (Australian Dance Advocacy) — \"Pavlova's 1929 Australian Tour\"" }],
     rows: {
       // Learned dance forms entirely outside her own classical training (Mexican, Japanese, East Indian) from local teachers during her travels, engaged deeply enough with Indian culture to commission an original work inspired by cave frescoes, and personally experimented with new recording/film technology across several countries. Session 19 evidence AP-E20, AP-E27.
@@ -376,6 +388,25 @@ const seeds: PersonSeed[] = [
     tagIds: ["innovator", "nonconformist", "sustained_excellence"],
     archetypeIds: ["creative_creator", "independent_creator"],
     externalIdentity: { wikidataId: "Q134165" },
+    // No-Portrait Fill Batch 2 (2026-08): photographer Roger Pic personally
+    // released this into the public domain ("grants anyone the right to use
+    // this work for any purpose"), sourced via the Bibliothèque nationale
+    // de France's Gallica archive. Chosen over an Agência Brasil CC BY 3.0
+    // BR 2008 photo (a source family already used elsewhere in this
+    // roster) after visual inspection: that photo shows him looking down at
+    // an object he's holding, with another person's hand intruding at the
+    // frame edge -- this file's direct, engaged gaze is the stronger
+    // composition. Resized/recompressed derivative. Verified live against
+    // the Commons file page.
+    portrait: {
+      url: "/portraits/oscar-niemeyer-pic-1977.jpg",
+      width: 1399,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Oscar_Niemeyer,_Pic,_9_-_edit.jpg",
+      attribution: "Photograph by Roger Pic, 1977, Public Domain (released by the photographer)",
+    },
     sources: [{ id: "src_niemeyer_vice", kind: "press", title: "Vice Magazine — \"Oscar Niemeyer: The 101-Year-Old Man Who Invented Brazil's Capital\"", url: "https://www.vice.com/en/article/oscar-niemeyer-856-v16n5/" }, { id: "src_niemeyer_parisupdate", kind: "press", title: "Paris Update — \"Oscar Niemeyer in France: Creative Exile\"", url: "https://www.parisupdate.com/oscar-niemeyer-in-france/" }, { id: "src_niemeyer_wr", kind: "press", title: "Whipple Russell Architects — \"The Genius of Oscar Niemeyer\" (Parts I & II)", url: "https://whipplerussell.com/blog/the-genius-of-oscar-niemeyer-part-1" }, { id: "src_niemeyer_pritzker", kind: "award_body", title: "The Pritzker Architecture Prize — 1988 Laureate page and Jury Citation" }, { id: "src_niemeyer_un", kind: "institution", title: "UN Archives (official United Nations archival record) — \"Oscar Niemeyer and the United Nations Headquarters\"", url: "https://archives.un.org/en/node/245" }, { id: "src_niemeyer_philippou", kind: "biography", title: "Styliane Philippou, Oscar Niemeyer: Curves of Irreverence (Yale University Press, 2008)" }, { id: "src_niemeyer_wapo", kind: "press", title: "The Washington Post — Oscar Niemeyer obituary (December 2012)" }, { id: "src_niemeyer_nyt", kind: "press", title: "The New York Times — Nicolai Ouroussoff, obituary and prior critical coverage" }, { id: "src_niemeyer_riba", kind: "award_body", title: "RIBA Royal Gold Medal (1998) — Architects' Journal coverage" }, { id: "src_niemeyer_domus", kind: "press", title: "Domus (Domus Web archive) — \"Oscar Niemeyer: the French Communist Party headquarters in Paris\"" }],
     rows: {
       // Structurally unified wall and roof into a single curved concrete shell, abandoning the conventional pillar-beam-slab approach, and later described his forms as emerging from spatial and structural calculation rather than pure decoration. Session 19 evidence ON-E4, ON-E26.

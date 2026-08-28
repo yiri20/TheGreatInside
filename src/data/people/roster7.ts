@@ -458,6 +458,20 @@ const seeds: PersonSeed[] = [
     tagIds: ["nonconformist", "independent", "founder"],
     archetypeIds: ["independent_creator"],
     externalIdentity: { wikidataId: "Q101638" },
+    // No-Portrait Fill Batch 2 (2026-08): John Opie was a personal friend
+    // of Wollstonecraft's and painted this PAINTED FROM LIFE, c.1797, the
+    // same year she died in childbirth shortly after it was completed.
+    // Resized/recompressed derivative. Verified live against the Commons
+    // file page.
+    portrait: {
+      url: "/portraits/mary-wollstonecraft-opie-1797.jpg",
+      width: 1020,
+      height: 1244,
+      source: "Wikimedia Commons (resized/recompressed derivative)",
+      license: "Public Domain (artist died 1807; life+100 years expired)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_by_John_Opie_(c._1797).jpg",
+      attribution: "John Opie, c.1797, National Portrait Gallery, London (NPG 1237) — painted from life",
+    },
     sources: [{ id: "src_wollstonecraft_wikipedia", kind: "wikipedia", title: "Mary Wollstonecraft", url: "https://en.wikipedia.org/wiki/Mary_Wollstonecraft" }, { id: "src_wollstonecraft_sep", kind: "institution", title: "Stanford Encyclopedia of Philosophy — Mary Wollstonecraft" }, { id: "src_wollstonecraft_todd", kind: "biography", title: "Janet Todd, Mary Wollstonecraft: A Revolutionary Life (2000)" }],
     rows: {
       // A Vindication of the Rights of Woman (1792) directly argued against prevailing Enlightenment-era assumptions (including Rousseau's) about women's education and rationality — a documented, sustained, specifically-targeted philosophical rebuttal.
@@ -518,6 +532,23 @@ const seeds: PersonSeed[] = [
     tagIds: ["generalist", "perfectionist"],
     archetypeIds: ["creative_creator", "cross_disciplinary_generalist"],
     externalIdentity: { wikidataId: "Q5592" },
+    // No-Portrait Fill Batch 2 (2026-08): the approved Jacopino del Conte
+    // portrait, painted c.1535 -- Michelangelo was alive until 1564, and
+    // del Conte was a contemporary active in Rome, so this is a genuine
+    // lifetime portrait, not a posthumous depiction. (A tighter, more
+    // frontal Daniele da Volterra detail was also researched and is NOT
+    // used here per instruction -- this file is the approved winner.)
+    // Resized/recompressed derivative. Verified live against the Commons
+    // file page.
+    portrait: {
+      url: "/portraits/michelangelo-delconte-1535.jpg",
+      width: 727,
+      height: 937,
+      source: "Wikimedia Commons (resized/recompressed derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Michelangelo-Buonarroti1.jpg",
+      attribution: "Jacopino del Conte, c.1535, Casa Buonarroti, Florence — painted from life",
+    },
     sources: [{ id: "src_michelangelo_wikipedia", kind: "wikipedia", title: "Michelangelo", url: "https://en.wikipedia.org/wiki/Michelangelo" }, { id: "src_michelangelo_vasari", kind: "biography", title: "Giorgio Vasari, Lives of the Most Excellent Painters, Sculptors, and Architects (1550/1568) -- the only artist Vasari included while still alive, the longest biography in the collection" }],
     rows: {
       // Vasari's biography (written and revised while Michelangelo was alive, with his direct knowledge) documents repeated, extensive reworking of major commissions -- e.g. abandoning and restarting multiple Pieta and tomb sculptures -- to standards he alone judged sufficient.

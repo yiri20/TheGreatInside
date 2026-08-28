@@ -1047,6 +1047,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5825,
     attributes: [["creative_originality", 88, 0.75, "advantage"], ["independent_thinking", 86, 0.72, "advantage"], ["persuasiveness", 78, 0.65, "advantage"], ["discipline", 72, 0.58, "advantage"], ["risk_tolerance", 74, 0.6, "risk"], ["social_assertiveness", 76, 0.6, "advantage"], ["conflict_tolerance", 78, 0.62, "risk"], ["leadership_drive", 68, 0.52, "advantage"], ["mastery_orientation", 65, 0.5, "advantage"], ["proactive_agency", 80, 0.65, "advantage"], ["cross_domain_range", 72, 0.55, "advantage"], ["collaboration", 60, 0.46, "neutral"], ["impact_motivation", 82, 0.65, "advantage"], ["analytical_rigor", 74, 0.58, "advantage"], ["experimentation", 64, 0.5, "advantage"], ["adaptability", 78, 0.6, "advantage"], ["achievement_drive", 68, 0.52, "advantage"], ["deep_focus", 68, 0.52, "advantage"], ["curiosity", 62, 0.48, "advantage"], ["persistence", 76, 0.6, "advantage"]],
+    portraitUrl: "/portraits/chinua-achebe-buffalo-2008.jpg",
   },
   {
     id: "p_emmy_noether",
@@ -1125,6 +1126,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5514285714285715,
     attributes: [["creative_originality", 86, 0.72, "advantage"], ["independent_thinking", 78, 0.62, "advantage"], ["persuasiveness", 80, 0.65, "advantage"], ["discipline", 78, 0.6, "advantage"], ["leadership_drive", 76, 0.6, "advantage"], ["risk_tolerance", 68, 0.52, "advantage"], ["persistence", 76, 0.58, "advantage"], ["mastery_orientation", 70, 0.55, "advantage"], ["cross_domain_range", 60, 0.46, "neutral"], ["social_assertiveness", 74, 0.58, "advantage"], ["proactive_agency", 76, 0.58, "advantage"], ["detail_orientation", 68, 0.52, "advantage"], ["conflict_tolerance", 62, 0.48, "neutral"], ["achievement_drive", 65, 0.48, "neutral"], ["collaboration", 60, 0.45, "neutral"], ["analytical_rigor", 76, 0.6, "advantage"], ["deep_focus", 74, 0.58, "advantage"], ["impact_motivation", 64, 0.5, "advantage"], ["curiosity", 64, 0.48, "neutral"], ["experimentation", 66, 0.48, "advantage"], ["systems_abstraction", 72, 0.55, "advantage"]],
+    portraitUrl: "/portraits/grace-hopper-usn-1984.jpg",
   },
   {
     id: "p_immanuel_kant",
@@ -1222,6 +1224,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5513636363636364,
     attributes: [["conflict_tolerance", 84, 0.68, "risk"], ["risk_tolerance", 80, 0.65, "risk"], ["analytical_rigor", 84, 0.68, "advantage"], ["cross_domain_range", 78, 0.62, "advantage"], ["impact_motivation", 80, 0.65, "advantage"], ["independent_thinking", 76, 0.6, "advantage"], ["discipline", 74, 0.58, "advantage"], ["detail_orientation", 76, 0.58, "advantage"], ["creative_originality", 68, 0.52, "advantage"], ["persistence", 72, 0.55, "advantage"], ["systems_abstraction", 78, 0.62, "advantage"], ["persuasiveness", 74, 0.6, "advantage"], ["autonomy_need", 60, 0.46, "advantage"], ["opportunity_sensing", 64, 0.5, "advantage"], ["deep_focus", 78, 0.6, "advantage"], ["mastery_orientation", 62, 0.48, "advantage"], ["planning_orientation", 68, 0.54, "advantage"], ["collaboration", 55, 0.44, "neutral"], ["adaptability", 58, 0.46, "advantage"], ["achievement_drive", 62, 0.46, "neutral"], ["social_assertiveness", 45, 0.42, "neutral"], ["curiosity", 58, 0.44, "neutral"]],
+    portraitUrl: "/portraits/rachel-carson-fws.jpg",
   },
   {
     id: "p_simon_bolivar",
@@ -1281,6 +1284,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.602,
     attributes: [["curiosity", 92, 0.75, "advantage"], ["independent_thinking", 88, 0.72, "advantage"], ["creative_originality", 84, 0.68, "advantage"], ["analytical_rigor", 82, 0.68, "advantage"], ["risk_tolerance", 78, 0.62, "risk"], ["persuasiveness", 74, 0.58, "advantage"], ["discipline", 78, 0.62, "advantage"], ["resourcefulness", 76, 0.6, "advantage"], ["opportunity_sensing", 74, 0.58, "advantage"], ["mastery_orientation", 82, 0.65, "advantage"], ["cross_domain_range", 78, 0.62, "advantage"], ["conflict_tolerance", 72, 0.55, "risk"], ["autonomy_need", 76, 0.6, "advantage"], ["social_assertiveness", 68, 0.52, "advantage"], ["persistence", 80, 0.62, "advantage"], ["proactive_agency", 76, 0.6, "advantage"], ["systems_abstraction", 66, 0.5, "advantage"], ["achievement_drive", 66, 0.52, "advantage"], ["impact_motivation", 68, 0.55, "advantage"], ["deep_focus", 64, 0.48, "advantage"]],
+    portraitUrl: "/portraits/sor-juana-ines-de-la-cruz-cabrera-1750.jpg",
   },
   {
     id: "p_toussaint_louverture",
@@ -1599,6 +1603,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5225000000000001,
     attributes: [["independent_thinking", 88, 0.72, "advantage"], ["risk_tolerance", 76, 0.6, "advantage"], ["analytical_rigor", 78, 0.62, "advantage"], ["proactive_agency", 78, 0.6, "advantage"], ["autonomy_need", 76, 0.6, "advantage"], ["discipline", 70, 0.55, "advantage"], ["persuasiveness", 72, 0.55, "advantage"], ["conflict_tolerance", 68, 0.52, "risk"], ["cross_domain_range", 66, 0.5, "advantage"], ["creative_originality", 68, 0.52, "advantage"], ["achievement_drive", 60, 0.45, "neutral"], ["social_assertiveness", 65, 0.48, "advantage"], ["resourcefulness", 62, 0.46, "advantage"], ["detail_orientation", 50, 0.4, "neutral"], ["impact_motivation", 66, 0.52, "advantage"], ["persistence", 74, 0.56, "advantage"], ["mastery_orientation", 62, 0.46, "advantage"], ["curiosity", 60, 0.44, "advantage"], ["deep_focus", 68, 0.5, "advantage"], ["experimentation", 55, 0.4, "neutral"]],
+    portraitUrl: "/portraits/mary-wollstonecraft-opie-1797.jpg",
   },
   {
     id: "p_michelangelo",
@@ -1618,6 +1623,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5480952380952383,
     attributes: [["perfectionism", 92, 0.7, "advantage"], ["cross_domain_range", 95, 0.75, "advantage"], ["creative_originality", 90, 0.65, "advantage"], ["autonomy_need", 82, 0.6, "advantage"], ["conflict_tolerance", 74, 0.65, "neutral"], ["achievement_drive", 88, 0.6, "advantage"], ["deep_focus", 85, 0.65, "advantage"], ["detail_orientation", 80, 0.52, "advantage"], ["independent_thinking", 78, 0.5, "neutral"], ["persistence", 82, 0.5, "advantage"], ["discipline", 76, 0.65, "neutral"], ["aesthetic_sensitivity", 90, 0.55, "advantage"], ["risk_tolerance", 68, 0.65, "neutral"], ["social_assertiveness", 64, 0.42, "neutral"], ["mastery_orientation", 84, 0.5, "advantage"], ["curiosity", 70, 0.42, "neutral"], ["experimentation", 68, 0.4, "neutral"], ["planning_orientation", 62, 0.4, "neutral"], ["leadership_drive", 58, 0.4, "neutral"], ["collaboration", 45, 0.4, "neutral"], ["adaptability", 82, 0.6, "advantage"]],
+    portraitUrl: "/portraits/michelangelo-delconte-1535.jpg",
   },
   {
     id: "p_octavia_butler",
@@ -1676,6 +1682,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.4904761904761905,
     attributes: [["persistence", 92, 0.68, "advantage"], ["decisiveness", 82, 0.62, "dual_edged"], ["discipline", 78, 0.58, "advantage"], ["achievement_drive", 85, 0.6, "advantage"], ["conflict_tolerance", 76, 0.55, "dual_edged"], ["leadership_drive", 74, 0.52, "advantage"], ["impact_motivation", 70, 0.5, "advantage"], ["resourcefulness", 68, 0.52, "advantage"], ["risk_tolerance", 70, 0.52, "dual_edged"], ["planning_orientation", 62, 0.52, "advantage"], ["adaptability", 64, 0.55, "advantage"], ["autonomy_need", 58, 0.42, "neutral"], ["collaboration", 55, 0.42, "neutral"], ["detail_orientation", 60, 0.5, "advantage"], ["independent_thinking", 58, 0.4, "neutral"], ["social_assertiveness", 56, 0.4, "neutral"], ["curiosity", 48, 0.4, "neutral"], ["opportunity_sensing", 52, 0.4, "neutral"], ["deep_focus", 58, 0.4, "advantage"], ["mastery_orientation", 50, 0.4, "advantage"], ["creative_originality", 46, 0.4, "neutral"]],
+    portraitUrl: "/portraits/benito-juarez-circa-1868.jpg",
   },
   {
     id: "p_joan_of_arc",
@@ -1813,6 +1820,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5824000000000001,
     attributes: [["curiosity", 70, 0.5, "advantage"], ["independent_thinking", 78, 0.58, "advantage"], ["creative_originality", 78, 0.55, "advantage"], ["experimentation", 78, 0.55, "advantage"], ["cross_domain_range", 58, 0.42, "neutral"], ["aesthetic_sensitivity", 88, 0.62, "advantage"], ["discipline", 88, 0.72, "advantage"], ["deep_focus", 82, 0.55, "dual_edged"], ["perfectionism", 85, 0.6, "dual_edged"], ["detail_orientation", 68, 0.45, "advantage"], ["persistence", 90, 0.75, "advantage"], ["adaptability", 78, 0.6, "advantage"], ["risk_tolerance", 88, 0.72, "dual_edged"], ["decisiveness", 78, 0.58, "advantage"], ["collaboration", 45, 0.55, "dual_edged"], ["leadership_drive", 82, 0.62, "advantage"], ["conflict_tolerance", 72, 0.55, "dual_edged"], ["mastery_orientation", 90, 0.72, "advantage"], ["achievement_drive", 88, 0.68, "advantage"], ["competitiveness", 65, 0.45, "dual_edged"], ["autonomy_need", 85, 0.65, "advantage"], ["impact_motivation", 78, 0.55, "advantage"], ["opportunity_sensing", 72, 0.5, "advantage"], ["resourcefulness", 75, 0.55, "advantage"], ["proactive_agency", 78, 0.55, "advantage"]],
+    portraitUrl: "/portraits/anna-pavlova-portrait-early1900s.jpg",
   },
   {
     id: "p_aung_san_suu_kyi",
@@ -1871,5 +1879,6 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5825,
     attributes: [["analytical_rigor", 62, 0.42, "advantage"], ["independent_thinking", 85, 0.68, "advantage"], ["creative_originality", 92, 0.75, "advantage"], ["experimentation", 75, 0.55, "advantage"], ["cross_domain_range", 68, 0.5, "advantage"], ["aesthetic_sensitivity", 90, 0.7, "advantage"], ["discipline", 82, 0.62, "advantage"], ["deep_focus", 80, 0.58, "advantage"], ["persistence", 88, 0.68, "advantage"], ["adaptability", 80, 0.62, "advantage"], ["risk_tolerance", 82, 0.62, "advantage"], ["decisiveness", 70, 0.5, "advantage"], ["social_assertiveness", 72, 0.52, "advantage"], ["collaboration", 68, 0.55, "advantage"], ["leadership_drive", 75, 0.55, "advantage"], ["persuasiveness", 70, 0.5, "advantage"], ["conflict_tolerance", 82, 0.62, "dual_edged"], ["mastery_orientation", 85, 0.65, "advantage"], ["achievement_drive", 90, 0.7, "advantage"], ["autonomy_need", 78, 0.58, "advantage"], ["impact_motivation", 80, 0.6, "advantage"], ["opportunity_sensing", 65, 0.42, "advantage"], ["resourcefulness", 65, 0.42, "advantage"], ["proactive_agency", 85, 0.65, "advantage"]],
+    portraitUrl: "/portraits/oscar-niemeyer-pic-1977.jpg",
   }
 ];

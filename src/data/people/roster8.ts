@@ -48,6 +48,24 @@ const seeds: PersonSeed[] = [
     tagIds: ["overcame_adversity", "reconciliation", "leader"],
     archetypeIds: ["organizational_leader"],
     externalIdentity: { wikidataId: "Q182276" },
+    // No-Portrait Fill Batch 2 (2026-08): a genuine lifetime photograph,
+    // circa 1868 (Juárez died 1872), sourced from SMU Digital Collections.
+    // Two recently-uploaded (2025) "photographs" of Juárez claimed as the
+    // uploader's own work -- one with metadata explicitly noting Google AI
+    // editing -- were rejected outright per the no-AI-restoration rule; a
+    // Flickr Commons file that seemed promising by title was rejected after
+    // visual inspection showed it depicts unrelated children, not Juárez.
+    // Recompressed derivative, no resize needed, no crop. Verified live
+    // against the Commons file page.
+    portrait: {
+      url: "/portraits/benito-juarez-circa-1868.jpg",
+      width: 901,
+      height: 1197,
+      source: "Wikimedia Commons (recompressed derivative)",
+      license: "Public Domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Benito_juarez_circa_1868.jpg",
+      attribution: "Photographer unknown, circa 1868, SMU Digital Collections, Public Domain",
+    },
     sources: [{ id: "src_juarez_wikipedia", kind: "wikipedia", title: "Benito Juarez", url: "https://en.wikipedia.org/wiki/Benito_Ju%C3%A1rez" }, { id: "src_juarez_biography", kind: "biography", title: "Historical biographical accounts of the La Reforma period and the French intervention in Mexico" }],
     rows: {
       // Led a government that operated continuously, often relocating under military pressure, throughout the French intervention (1862-1867) rather than accepting exile or capitulation, documented via the sustained historical record of his government's movements and continued functioning during that period.
