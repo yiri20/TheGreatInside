@@ -180,9 +180,9 @@ const seeds: PersonSeed[] = [
     // CC BY 2.0 by its photographer; the underlying sculpture is itself
     // public domain (ancient work).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
-      width: 1752,
-      height: 2379,
+      url: "/portraits/julius-caesar-tusculum-bust.jpg",
+      width: 1178,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "CC BY 2.0",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg",

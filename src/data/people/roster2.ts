@@ -468,7 +468,7 @@ const seeds: PersonSeed[] = [
     // across encyclopedic sources for exactly this reason, not an
     // arbitrary pick. Verified live against the Commons file page.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Confucius_Tang_Dynasty.jpg",
+      url: "/portraits/confucius-tang-dynasty.jpg",
       width: 350,
       height: 640,
       source: "Wikimedia Commons",

@@ -47,7 +47,7 @@ const seeds: PersonSeed[] = [
     // from the National Library of Medicine, photographer unknown, public
     // domain (published before 1931).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Elizabeth_Blackwell.jpg",
+      url: "/portraits/elizabeth-blackwell-portrait.jpg",
       width: 288,
       height: 405,
       source: "Wikimedia Commons",
@@ -197,7 +197,7 @@ const seeds: PersonSeed[] = [
     // Nähr, 1930 ("The Fellowship Portrait"). Public domain (photographer
     // died 1945).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/d/db/36._Portrait_of_Ludwig_Wittgenstein%2C_1930.jpg",
+      url: "/portraits/ludwig-wittgenstein-1930.jpg",
       width: 326,
       height: 500,
       source: "Wikimedia Commons",
@@ -269,7 +269,7 @@ const seeds: PersonSeed[] = [
     // portrait, c. 1580, Toruń Town Hall (District Museum, Toruń). Public
     // domain (published before 1931, artist unknown/anonymous work).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Nikolaus_Kopernikus.jpg",
+      url: "/portraits/nicolaus-copernicus-torun-portrait.jpg",
       width: 1024,
       height: 1001,
       source: "Wikimedia Commons",
@@ -345,7 +345,7 @@ const seeds: PersonSeed[] = [
     // century) survives, the same discipline already applied to Confucius's
     // portrait elsewhere in this roster. Public domain.
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/a/aa/A_Tang_Dynasty_Empress_Wu_Zetian.JPG",
+      url: "/portraits/wu-zetian-tang-dynasty.jpg",
       width: 347,
       height: 393,
       source: "Wikimedia Commons",

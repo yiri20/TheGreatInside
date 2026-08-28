@@ -302,7 +302,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.572857142857143,
     attributes: [["curiosity", 68, 0.6, "neutral"], ["analytical_rigor", 62, 0.55, "neutral"], ["systems_abstraction", 80, 0.62, "advantage"], ["independent_thinking", 68, 0.55, "neutral"], ["discipline", 90, 0.68, "advantage"], ["deep_focus", 76, 0.58, "neutral"], ["detail_orientation", 68, 0.55, "neutral"], ["perfectionism", 60, 0.5, "neutral"], ["planning_orientation", 80, 0.62, "advantage"], ["persistence", 85, 0.65, "advantage"], ["risk_tolerance", 32, 0.55, "neutral"], ["social_assertiveness", 60, 0.5, "neutral"], ["collaboration", 68, 0.55, "neutral"], ["leadership_drive", 62, 0.5, "neutral"], ["persuasiveness", 78, 0.6, "advantage"], ["conflict_tolerance", 40, 0.55, "neutral"], ["mastery_orientation", 88, 0.68, "advantage"], ["achievement_drive", 60, 0.5, "neutral"], ["competitiveness", 28, 0.55, "neutral"], ["impact_motivation", 82, 0.6, "advantage"], ["proactive_agency", 72, 0.55, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/5/54/Confucius_Tang_Dynasty.jpg",
+    portraitUrl: "/portraits/confucius-tang-dynasty.jpg",
   },
   {
     id: "p_socrates",
@@ -846,7 +846,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.693846153846154,
     attributes: [["curiosity", 92, 0.88, "advantage"], ["analytical_rigor", 96, 0.9, "advantage"], ["intuitive_synthesis", 85, 0.75, "advantage"], ["systems_abstraction", 94, 0.85, "advantage"], ["independent_thinking", 88, 0.78, "advantage"], ["belief_updating", 34, 0.62, "risk"], ["creative_originality", 90, 0.8, "advantage"], ["experimentation", 84, 0.72, "advantage"], ["cross_domain_range", 74, 0.6, "advantage"], ["discipline", 90, 0.8, "advantage"], ["deep_focus", 92, 0.8, "advantage"], ["detail_orientation", 78, 0.62, "advantage"], ["perfectionism", 62, 0.5, "dual_edged"], ["execution_speed", 72, 0.58, "neutral"], ["planning_orientation", 68, 0.55, "advantage"], ["persistence", 90, 0.78, "advantage"], ["adaptability", 66, 0.55, "advantage"], ["social_assertiveness", 38, 0.5, "neutral"], ["collaboration", 22, 0.75, "risk"], ["leadership_drive", 78, 0.68, "advantage"], ["conflict_tolerance", 82, 0.7, "risk"], ["mastery_orientation", 88, 0.72, "advantage"], ["competitiveness", 85, 0.78, "risk"], ["autonomy_need", 82, 0.68, "advantage"], ["resourcefulness", 68, 0.55, "advantage"], ["proactive_agency", 76, 0.6, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sir_Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt_%28cropped%29.jpg",
+    portraitUrl: "/portraits/isaac-newton-kneller-1702.jpg",
   },
   {
     id: "p_jane_austen",
@@ -1061,7 +1061,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5535,
     attributes: [["analytical_rigor", 90, 0.75, "advantage"], ["persistence", 84, 0.68, "advantage"], ["resourcefulness", 78, 0.62, "advantage"], ["creative_originality", 86, 0.7, "advantage"], ["systems_abstraction", 84, 0.68, "advantage"], ["risk_tolerance", 62, 0.48, "neutral"], ["discipline", 78, 0.6, "advantage"], ["mastery_orientation", 76, 0.58, "advantage"], ["collaboration", 62, 0.46, "neutral"], ["achievement_drive", 68, 0.5, "advantage"], ["independent_thinking", 70, 0.52, "advantage"], ["curiosity", 64, 0.46, "neutral"], ["detail_orientation", 60, 0.44, "neutral"], ["cross_domain_range", 72, 0.6, "advantage"], ["deep_focus", 76, 0.58, "advantage"], ["social_assertiveness", 60, 0.46, "neutral"], ["autonomy_need", 66, 0.5, "advantage"], ["adaptability", 62, 0.5, "advantage"], ["impact_motivation", 58, 0.44, "advantage"], ["proactive_agency", 64, 0.52, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Noether_retusche_nachcoloriert.jpg",
+    portraitUrl: "/portraits/emmy-noether-portrait.jpg",
   },
   {
     id: "p_fela_kuti",
@@ -1391,7 +1391,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5561904761904763,
     attributes: [["persistence", 86, 0.65, "advantage"], ["risk_tolerance", 78, 0.65, "risk"], ["independent_thinking", 82, 0.65, "advantage"], ["achievement_drive", 76, 0.65, "advantage"], ["leadership_drive", 74, 0.65, "advantage"], ["resourcefulness", 70, 0.65, "advantage"], ["impact_motivation", 78, 0.65, "advantage"], ["discipline", 66, 0.48, "advantage"], ["autonomy_need", 66, 0.65, "advantage"], ["proactive_agency", 68, 0.65, "advantage"], ["conflict_tolerance", 62, 0.46, "risk"], ["detail_orientation", 58, 0.42, "neutral"], ["collaboration", 58, 0.42, "neutral"], ["mastery_orientation", 58, 0.42, "neutral"], ["social_assertiveness", 55, 0.4, "neutral"], ["planning_orientation", 58, 0.42, "neutral"], ["curiosity", 55, 0.4, "neutral"], ["adaptability", 56, 0.65, "neutral"], ["deep_focus", 64, 0.46, "advantage"], ["cross_domain_range", 58, 0.65, "advantage"], ["decisiveness", 62, 0.65, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Elizabeth_Blackwell.jpg",
+    portraitUrl: "/portraits/elizabeth-blackwell-portrait.jpg",
   },
   {
     id: "p_harriet_tubman",
@@ -1431,7 +1431,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5565000000000002,
     attributes: [["independent_thinking", 90, 0.68, "advantage"], ["belief_updating", 84, 0.65, "advantage"], ["perfectionism", 78, 0.65, "dual_edged"], ["risk_tolerance", 62, 0.65, "neutral"], ["autonomy_need", 74, 0.65, "advantage"], ["deep_focus", 76, 0.65, "advantage"], ["detail_orientation", 68, 0.65, "advantage"], ["conflict_tolerance", 60, 0.44, "neutral"], ["creative_originality", 80, 0.65, "advantage"], ["discipline", 58, 0.65, "neutral"], ["achievement_drive", 55, 0.4, "neutral"], ["social_assertiveness", 42, 0.65, "neutral"], ["leadership_drive", 55, 0.4, "neutral"], ["mastery_orientation", 62, 0.44, "advantage"], ["systems_abstraction", 72, 0.65, "advantage"], ["curiosity", 58, 0.42, "neutral"], ["planning_orientation", 55, 0.4, "neutral"], ["collaboration", 48, 0.4, "neutral"], ["persistence", 66, 0.65, "advantage"], ["resourcefulness", 55, 0.4, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/d/db/36._Portrait_of_Ludwig_Wittgenstein%2C_1930.jpg",
+    portraitUrl: "/portraits/ludwig-wittgenstein-1930.jpg",
   },
   {
     id: "p_nicolaus_copernicus",
@@ -1451,7 +1451,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5735000000000001,
     attributes: [["independent_thinking", 90, 0.7, "advantage"], ["perfectionism", 82, 0.65, "dual_edged"], ["risk_tolerance", 70, 0.52, "neutral"], ["analytical_rigor", 84, 0.65, "advantage"], ["persistence", 76, 0.65, "advantage"], ["deep_focus", 74, 0.65, "advantage"], ["detail_orientation", 72, 0.65, "advantage"], ["cross_domain_range", 62, 0.65, "advantage"], ["discipline", 66, 0.65, "advantage"], ["creative_originality", 80, 0.65, "advantage"], ["autonomy_need", 64, 0.46, "advantage"], ["conflict_tolerance", 58, 0.42, "neutral"], ["achievement_drive", 60, 0.44, "neutral"], ["mastery_orientation", 62, 0.44, "advantage"], ["planning_orientation", 60, 0.65, "advantage"], ["systems_abstraction", 78, 0.65, "advantage"], ["curiosity", 60, 0.44, "advantage"], ["collaboration", 52, 0.4, "neutral"], ["leadership_drive", 50, 0.5, "neutral"], ["proactive_agency", 58, 0.65, "neutral"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Nikolaus_Kopernikus.jpg",
+    portraitUrl: "/portraits/nicolaus-copernicus-torun-portrait.jpg",
   },
   {
     id: "p_wu_zetian",
@@ -1471,7 +1471,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.566818181818182,
     attributes: [["proactive_agency", 86, 0.65, "advantage"], ["leadership_drive", 84, 0.65, "advantage"], ["risk_tolerance", 82, 0.65, "risk"], ["decisiveness", 76, 0.65, "advantage"], ["planning_orientation", 74, 0.65, "advantage"], ["conflict_tolerance", 74, 0.65, "risk"], ["achievement_drive", 72, 0.52, "advantage"], ["resourcefulness", 68, 0.65, "advantage"], ["persistence", 70, 0.5, "advantage"], ["systems_abstraction", 62, 0.65, "advantage"], ["adaptability", 60, 0.65, "advantage"], ["autonomy_need", 64, 0.46, "advantage"], ["impact_motivation", 56, 0.65, "neutral"], ["detail_orientation", 58, 0.42, "neutral"], ["social_assertiveness", 68, 0.48, "advantage"], ["mastery_orientation", 58, 0.42, "neutral"], ["collaboration", 55, 0.4, "neutral"], ["discipline", 58, 0.42, "neutral"], ["independent_thinking", 68, 0.65, "advantage"], ["deep_focus", 55, 0.4, "neutral"], ["persuasiveness", 78, 0.65, "advantage"], ["opportunity_sensing", 80, 0.65, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/a/aa/A_Tang_Dynasty_Empress_Wu_Zetian.JPG",
+    portraitUrl: "/portraits/wu-zetian-tang-dynasty.jpg",
   },
   {
     id: "p_averroes",
@@ -1706,7 +1706,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5157142857142857,
     attributes: [["decisiveness", 90, 0.68, "advantage"], ["risk_tolerance", 86, 0.65, "dual_edged"], ["execution_speed", 88, 0.62, "advantage"], ["analytical_rigor", 80, 0.62, "advantage"], ["planning_orientation", 78, 0.58, "advantage"], ["leadership_drive", 84, 0.6, "dual_edged"], ["persuasiveness", 76, 0.55, "advantage"], ["adaptability", 74, 0.52, "advantage"], ["conflict_tolerance", 82, 0.58, "dual_edged"], ["achievement_drive", 82, 0.55, "dual_edged"], ["systems_abstraction", 70, 0.5, "advantage"], ["collaboration", 50, 0.42, "neutral"], ["competitiveness", 78, 0.42, "dual_edged"], ["curiosity", 62, 0.42, "neutral"], ["impact_motivation", 72, 0.48, "neutral"], ["discipline", 68, 0.42, "advantage"], ["cross_domain_range", 64, 0.42, "advantage"], ["autonomy_need", 66, 0.4, "neutral"], ["persistence", 76, 0.5, "advantage"], ["independent_thinking", 72, 0.48, "dual_edged"], ["deep_focus", 62, 0.42, "advantage"]],
-    portraitUrl: "https://upload.wikimedia.org/wikipedia/commons/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
+    portraitUrl: "/portraits/julius-caesar-tusculum-bust.jpg",
   },
   {
     id: "p_fyodor_dostoevsky",

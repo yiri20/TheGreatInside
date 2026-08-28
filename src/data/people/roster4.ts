@@ -159,7 +159,7 @@ const seeds: PersonSeed[] = [
     // photographer unknown, before 1910. Public domain (published before
     // 1931; life+70 years expired).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Noether_retusche_nachcoloriert.jpg",
+      url: "/portraits/emmy-noether-portrait.jpg",
       width: 464,
       height: 658,
       source: "Wikimedia Commons",

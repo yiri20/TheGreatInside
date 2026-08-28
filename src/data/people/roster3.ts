@@ -646,9 +646,9 @@ const seeds: PersonSeed[] = [
     // Kneller, 1702, National Portrait Gallery London (NPG 2881). Public
     // domain (artist died 1723).
     portrait: {
-      url: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sir_Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt_%28cropped%29.jpg",
-      width: 1254,
-      height: 1612,
+      url: "/portraits/isaac-newton-kneller-1702.jpg",
+      width: 1245,
+      height: 1600,
       source: "Wikimedia Commons",
       license: "Public Domain (artist died 1723)",
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Sir_Isaac_Newton_by_Sir_Godfrey_Kneller,_Bt_(cropped).jpg",
