@@ -1192,6 +1192,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5725,
     attributes: [["risk_tolerance", 88, 0.72, "risk"], ["independent_thinking", 84, 0.7, "advantage"], ["social_assertiveness", 90, 0.75, "advantage"], ["conflict_tolerance", 82, 0.68, "risk"], ["persuasiveness", 80, 0.65, "advantage"], ["persistence", 84, 0.68, "advantage"], ["competitiveness", 86, 0.7, "advantage"], ["proactive_agency", 78, 0.6, "advantage"], ["impact_motivation", 74, 0.58, "advantage"], ["adaptability", 68, 0.52, "advantage"], ["achievement_drive", 78, 0.6, "advantage"], ["discipline", 68, 0.52, "advantage"], ["leadership_drive", 55, 0.42, "neutral"], ["autonomy_need", 74, 0.58, "advantage"], ["deep_focus", 76, 0.58, "advantage"], ["mastery_orientation", 64, 0.5, "advantage"], ["curiosity", 55, 0.42, "neutral"], ["resourcefulness", 60, 0.45, "neutral"], ["detail_orientation", 52, 0.4, "neutral"], ["collaboration", 50, 0.4, "neutral"]],
+    portraitUrl: "/portraits/muhammad-ali-nywts-1967.jpg",
   },
   {
     id: "p_niels_bohr",

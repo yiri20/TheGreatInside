@@ -641,6 +641,26 @@ const seeds: PersonSeed[] = [
     tagIds: ["sustained_excellence", "nonconformist", "advocate"],
     archetypeIds: ["competitive_performer", "social_influencer"],
     externalIdentity: { wikidataId: "Q36107" },
+    // Final Free-Source Recovery Pass (2026-08): verified at item level
+    // against both the Commons file page and the Library of Congress's own
+    // catalog record (digital IDs LC-DIG-ds-13998 / cph.3c15435) -- not
+    // inferred from a different NYWTS photo being clean elsewhere. Same
+    // rights basis already verified for Martin Luther King Jr. and Malcolm
+    // X earlier in this program: a pre-1968 NYWTS staff work-for-hire whose
+    // reproduction rights were transferred to the Library of Congress via
+    // the collection's Instrument of Gift, not a federal-government work.
+    // LOC's own rights advisory reads "No known copyright restriction" --
+    // preserved verbatim below rather than strengthened to an unconditional
+    // claim.
+    portrait: {
+      url: "/portraits/muhammad-ali-nywts-1967.jpg",
+      width: 1279,
+      height: 1600,
+      source: "Wikimedia Commons (resized/recompressed derivative; see licenseUrl for the original)",
+      license: "Public Domain (pre-1968 work-for-hire; Library of Congress rights advisory: no known copyright restriction)",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg",
+      attribution: "Ira Rosenberg, 1967 — Library of Congress, New York World-Telegram & Sun Collection",
+    },
     sources: [{ id: "src_ali_wikipedia", kind: "wikipedia", title: "Muhammad Ali", url: "https://en.wikipedia.org/wiki/Muhammad_Ali" }, { id: "src_ali_autobiography", kind: "archive", title: "Muhammad Ali (with Richard Durham), The Greatest: My Own Story (1975)" }, { id: "src_ali_center", kind: "institution", title: "Muhammad Ali Center — biography and archives" }],
     rows: {
       // Publicly refused induction into the U.S. military in 1967 on religious grounds, resulting in the documented loss of his boxing license and heavyweight title, and a felony conviction (later overturned), at the height of his athletic career.
