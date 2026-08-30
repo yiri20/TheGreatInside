@@ -8,23 +8,54 @@ not workflow. For per-batch selection rationale and QA findings, see
 
 **Authority for the live number**: run
 `corepack pnpm@10 exec tsx src/dev/editorialCoverageAudit.ts` — this
-file's numbers are a snapshot as of the end of
-`feat/editorial-backfill-batch-6`, not guaranteed current.
+file's numbers are a snapshot as of the Remaining-19 Editorial
+Completion program's close (`main` `37bfc23`, 2026-08-30), not
+guaranteed current.
 
-## Coverage by evidence tier (as of Batch 7 close)
+## Coverage by evidence tier — COMPLETE (95/95)
 
 | Tier | Total | Complete | Remaining |
 |---|---|---|---|
 | A (full evidence ledger) | 8 | **8** | **0** |
 | B (`qa_passed` candidate JSON) | 52 | **52** | **0** |
-| C (inline `//` roster-file comments only) | 35 | 16 | 19 |
-| **Total** | **95** | **76** | **19** |
+| C (inline `//` roster-file comments only) | 35 | **35** | **0** |
+| **Total** | **95** | **95** | **0** |
 
-382 total items (168 achievements, 142 moments, 72 turning points), 136
-with an interpretation, 518 distinct EN editorial keys (100% Korean
-coverage maintained). Run
-`corepack pnpm@10 exec tsx src/dev/editorialCoverageAudit.ts` for the
-live number.
+**Every roster person now has editorial content.** 504 total items (222
+achievements, 187 moments, 95 turning points), 151 with an
+interpretation, 834 distinct EN editorial keys, **100% Korean
+coverage**. Run `corepack pnpm@10 exec tsx
+src/dev/editorialCoverageAudit.ts` for the live number.
+
+Profile V2 sections (`lifeArc`/`complexities`/`legacy`) remain
+evidence-gated and asymmetric by design — a section is omitted, not
+padded, when the record doesn't support it (e.g. most people have no
+`complexities`; a few, like Rumi, have a single `moments` item rather
+than the typical 2–3). This is expected, not a gap.
+
+## Remaining-19 Editorial Completion (2026-08, `main` `37bfc23`)
+
+Closed out Tier C — the last 19 people with zero editorial content —
+in two exposure-ranked batches, merged as a fast-forward from
+`integration/editorial-remaining-19` (5 commits, none squashed:
+`c1ed67c` Kusama factual correction, `194d6f3` Batch 1, `fdae862`
+Kusama stale-comment cleanup, `cafebd4` Batch 2, `37bfc23` closure
+provenance fix).
+
+- **Batch 1** (10): Feynman, Ibn Khaldun, Confucius, Beethoven, Tesla,
+  Kurosawa, Biles, S. Williams, Kusama, Miyazaki.
+- **Batch 2** (9): Steve Jobs, Socrates, Coco Chanel, Genghis Khan,
+  Malala Yousafzai, Bruce Lee, Toni Morrison, Zheng He, Rumi.
+- Same evidence discipline as every prior batch: every claim traces to
+  a dated, person-specific rationale comment in `roster2.ts`/`seed.ts`,
+  verified via a direct fetch of that person's own source — never
+  inferred from a source URL's mere presence.
+- Bundled in the same lineage: a pre-existing roster-data correction
+  (Yayoi Kusama's `isLiving`/`deathYear`, now `1929–2026` — she died
+  2026-08-14, independently confirmed via CNN/NPR/Washington Post/ABC
+  News/her official site) — a factual fix, not editorial content.
+- No `rows` (scored attributes), matching/scoring code, portraits, or
+  monetization touched by this program.
 
 **Batch 7 provenance closure (2026-08, same day as Batch 7 itself):** a
 follow-up review found Batch 7 had leaned on an "uncontested general
@@ -72,7 +103,7 @@ archive file, since the branch's own commit messages already carry
 the detail — see `git log` on the merge commits for
 `feat/editorial-achievements-correction-batch-1`).
 
-## Status: Tier C is exposure-priority selective, not roster-order
+## Status: Tier C — CLOSED (was exposure-priority selective, not roster-order)
 
 Batch 6's close deferred Tier C pending a product decision on scope. A
 subsequent product audit found non-editorial profiles accounted for
@@ -91,13 +122,13 @@ Franklin, Srinivasa Ramanujan, Oprah Winfrey, Wangari Maathai, Wolfgang
 Amadeus Mozart, Mahatma Gandhi. Effect (same simulation basis,
 before → after): non-editorial #1-match exposure ~49.3% → ~9.9%;
 Similar-People-rail slots pointing to a thin profile ~55% → ~27%. The
-19 remaining Tier-C people are now all low-exposure (highest single
-#1-match frequency ~2.15%, Simone Biles) — a full second exposure batch
-on the same #1-frequency criterion is not obviously justified; if a
-further pass happens, the next-strongest remaining signal is
-Similar-People-rail in-degree, concentrated in Beethoven (24),
+remaining 19 were all low-exposure (highest single #1-match frequency
+~2.15%, Simone Biles) — closed in two further batches (see "Remaining-19
+Editorial Completion" above), by the same Similar-People-rail
+in-degree signal where #1-frequency alone was flat: Beethoven (24),
 Yayoi Kusama (20), Nikola Tesla (19), Toni Morrison (18), and Hayao
-Miyazaki (16) despite their own low direct #1-match frequency.
+Miyazaki (16) among the highest. **Tier C is now 35/35 — this whole
+section is historical record, not an open status.**
 
 ## Architecture invariants (durable, see `docs/editorial-content.md` for the full version)
 
@@ -117,5 +148,7 @@ Miyazaki (16) despite their own low direct #1-match frequency.
 
 ## Next recommended step
 
-A product decision on Tier C scope, before any further editorial
-authoring session.
+None outstanding — editorial coverage is complete (95/95). Any further
+editorial work (e.g. a normalization/consistency pass across
+achievement wording, or broader Complexity coverage) is a new,
+separately-scoped initiative, not a continuation of this program.
