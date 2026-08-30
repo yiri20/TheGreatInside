@@ -2385,33 +2385,41 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_goodall_wikipedia"],
       },
     ],
-    // Life Arc Backfill Batch 1 (2026-08): 6 beats. Three facts were not
-    // preserved anywhere in this profile before now (P2, verified directly
+    // Life Arc Backfill Batch 1 (2026-08): 6 beats. Two facts were not
+    // preserved anywhere in this profile before then (P2, verified directly
     // against src_goodall_wikipedia, live fetch, not memory): the Jane
     // Goodall Institute founding year (1977) and Roots & Shoots founding
     // year (1991) -- turning_point.1 above states the founding as fact but
-    // gives no year for either -- and, for the final, living-subject beat,
-    // her January 2025 Presidential Medal of Freedom.
+    // gives no year for either. That batch's fetch also surfaced that Jane
+    // Goodall had died (October 1, 2025), which the roster record
+    // (src/data/people/roster2.ts) did not yet reflect; rather than act on
+    // that outside the batch's scope, the final beat was left as her
+    // January 2025 Presidential Medal of Freedom -- a fact true regardless
+    // of living/deceased status -- and the discrepancy was flagged for a
+    // dedicated follow-up.
     //
-    // IMPORTANT — flagged for human review, not acted on in this batch:
-    // the same fetch confirms Jane Goodall died on October 1, 2025. This
-    // profile's roster record (src/data/people/seed.ts) still carries no
-    // `deathYear`, i.e. she is recorded here as living. Updating
-    // `deathYear` is a roster-metadata edit outside this batch's explicit
-    // scope ("Add a concise Life Arc... Do NOT touch... roster
-    // membership"), so it was deliberately NOT made. The final beat below
-    // (2025 Medal of Freedom) is written as a plain past-tense fact that is
-    // true regardless of her living/deceased status, specifically so this
-    // Life Arc does not read as false the moment that separate correction
-    // is made. Recommend a dedicated follow-up task to set `deathYear:
-    // 2025` and, at that point, add a seventh, final "Died" beat.
+    // Jane Goodall factual-closure fix (2026-08, follow-up): independently
+    // re-verified she died 1 October 2025 at 91, of natural causes, via a
+    // direct fetch of the Jane Goodall Institute's own memorial page
+    // (src_goodall_jgi_memorial, janegoodall.org/remembering-jane/: "died
+    // of natural causes on October 1, 2025, at the age of 91"),
+    // cross-checked against src_goodall_wikipedia's own "Death" section
+    // (same date; Beverly Hills, California; cardiac arrest in her sleep).
+    // `roster2.ts` now carries `deathYear: 2025, isLiving: false`. Per
+    // house style (deceased subject -> final beat is death) and this
+    // task's instruction not to pad past 6 beats, life_arc.6 is replaced:
+    // the January 2025 Medal of Freedom is dropped in favor of her death,
+    // the more life-orienting of the two for a 5-6 beat arc. Cause of
+    // death omitted from the beat text itself -- "natural causes" is
+    // accurate but not a specific, orienting detail the way e.g. Rosalind
+    // Franklin's "ovarian cancer" is.
     lifeArc: [
       { year: "1934", textKey: "jane-goodall.life_arc.1", sourceIds: ["src_goodall_wikipedia"] },
       { year: "1960", textKey: "jane-goodall.life_arc.2", sourceIds: ["src_goodall_wikipedia"] },
       { year: "1960–2020s", textKey: "jane-goodall.life_arc.3", sourceIds: ["src_goodall_wikipedia"] },
       { year: "1977", textKey: "jane-goodall.life_arc.4", sourceIds: ["src_goodall_wikipedia"] },
       { year: "1991", textKey: "jane-goodall.life_arc.5", sourceIds: ["src_goodall_wikipedia"] },
-      { year: "2025", textKey: "jane-goodall.life_arc.6", sourceIds: ["src_goodall_wikipedia"] },
+      { year: "2025", textKey: "jane-goodall.life_arc.6", sourceIds: ["src_goodall_wikipedia", "src_goodall_jgi_memorial"] },
     ],
   },
 

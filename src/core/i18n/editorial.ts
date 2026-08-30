@@ -1323,7 +1323,7 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Decades of continuous field research reshaped scientific understanding of chimpanzee behavior.",
   "jane-goodall.life_arc.4": "Founded the Jane Goodall Institute, shifting her focus from research toward conservation.",
   "jane-goodall.life_arc.5": "Founded the Roots & Shoots youth program.",
-  "jane-goodall.life_arc.6": "Awarded the Presidential Medal of Freedom.",
+  "jane-goodall.life_arc.6": "Died in Beverly Hills, California, at age 91.",
 
   /* ---------------------------------------- Batch 7 (exposure-priority): Benjamin Franklin */
   /* CLOSURE PASS: achievement.1 narrowed to drop an invented "single council" mechanism (round 2: also dropped an invented "more than twenty years" figure — the rationale says only "decades"). achievement.2 narrowed to use this person's own rationale's exact institution name rather than an added "first in the colonies" superlative. moment.1 narrowed to drop an invented age/indenture detail. turning_point.1 narrowed to drop invented "Privy Council" / "Hutchinson letters" specifics not in the rationale (the Cockpit-hearing claim itself is retained — it is directly named there). */
@@ -3165,7 +3165,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "jane-goodall.life_arc.3": "수십 년에 걸친 현장 연구로 침팬지 행동에 대한 과학적 이해를 새롭게 바꾸어 놓았다.",
   "jane-goodall.life_arc.4": "제인구달연구소를 설립하며 연구에서 보전 활동으로 초점을 옮겼다.",
   "jane-goodall.life_arc.5": "청소년 프로그램 '뿌리와새싹'을 설립했다.",
-  "jane-goodall.life_arc.6": "대통령 자유훈장을 받았다.",
+  "jane-goodall.life_arc.6": "91세에 미국 캘리포니아주 베벌리힐스에서 사망했다.",
 
   /* ---------------------------------------- Batch 7 (exposure-priority): Benjamin Franklin */
   /* CLOSURE PASS: achievement.1 narrowed to drop an invented "single council" mechanism (round 2: also dropped an invented "more than twenty years" figure — the rationale says only "decades"). achievement.2 narrowed to use this person's own rationale's exact institution name rather than an added "first in the colonies" superlative. moment.1 narrowed to drop an invented age/indenture detail. turning_point.1 narrowed to drop invented "Privy Council" / "Hutchinson letters" specifics not in the rationale (the Cockpit-hearing claim itself is retained — it is directly named there). */

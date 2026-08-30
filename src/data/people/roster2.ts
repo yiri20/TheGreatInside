@@ -1135,7 +1135,20 @@ const seeds: PersonSeed[] = [
     slug: "jane-goodall",
     canonicalName: "Jane Goodall",
     birthYear: 1934,
-    isLiving: true,
+    // Jane Goodall factual-closure fix (2026-08): independently verified
+    // she died 1 October 2025 at age 91, of natural causes -- confirmed via
+    // a direct fetch of the Jane Goodall Institute's own memorial page
+    // (src_goodall_jgi_memorial, janegoodall.org/remembering-jane/: "Dr.
+    // Jane Goodall...died of natural causes on October 1, 2025, at the age
+    // of 91"), cross-checked against src_goodall_wikipedia's own "Death"
+    // section (same date, Beverly Hills, California, cardiac arrest in her
+    // sleep) and independent press coverage (NPR, NBC News). This repo's
+    // roster had not been updated since her death; flagged in the Life Arc
+    // Backfill Batch 1 report rather than silently corrected there, per
+    // that task's scope. Corrected here as its own bounded factual-closure
+    // task.
+    deathYear: 2025,
+    isLiving: false,
     era: "contemporary",
     nationalityCodes: ["GB"],
     regionCode: "western_europe",
@@ -1144,7 +1157,15 @@ const seeds: PersonSeed[] = [
     impactDomains: ["scientific", "educational", "social"],
     tagIds: ["field_researcher", "self_taught", "patient"],
     archetypeIds: ["scientific_explorer"],
-    sources: [wiki("goodall", "Jane Goodall")],
+    sources: [
+      wiki("goodall", "Jane Goodall"),
+      {
+        id: "src_goodall_jgi_memorial",
+        kind: "institution",
+        title: "Jane Goodall Institute — \"Dr. Jane Goodall's Passing\"",
+        url: "https://janegoodall.org/remembering-jane/",
+      },
+    ],
     // Verified 2026-08 via a direct fetch of the Commons file page: a U.S.
     // Department of State photograph, dated 27 October 2015. Public domain
     // as a US federal government work (17 U.S.C. §105).
