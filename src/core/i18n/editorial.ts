@@ -1357,6 +1357,242 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1930, personally organized and led the Salt March — a 24-day, 240-mile march in deliberate defiance of British law — a specific, self-initiated act of civil disobedience.",
   "mahatma-gandhi.interpretation.turning_point.1":
     "This tracks with the profile's high proactive_agency score, documented directly: a specific, planned act of civil disobedience he conceived and led himself, not a response to someone else's initiative.",
+
+  /* -------------------------------- Remaining-19 Completion Batch 1 (2026-08) */
+  /* Selection: exposure-ranked (top-1/top-3 quiz-simulation match frequency,
+     N=10,000, plus Similar-People-rail in-degree), exposure weighted to
+     dominate per this batch's brief. All facts below researched directly
+     against this person's own already-cited src_*_wikipedia entry (a live
+     fetch, not memory); every sourceId traces to that same fetch unless
+     noted. Confucius and Ibn Khaldun (ancient/medieval) are held to the
+     stricter chronology discipline the brief requires for premodern figures:
+     later tradition is explicitly flagged as such, never presented as
+     contemporary record. */
+
+  /* --- Simone Biles --- */
+  "simone-biles.achievement.1":
+    "Across three Olympic Games (2016, 2020, 2024) and six World Championships, became the most decorated gymnast in history, male or female: 11 Olympic medals and 30 World Championship medals, 23 of them gold. At the 2018 World Championships in Doha, she became the first American and only the tenth gymnast from any country to win a medal on every event at a single World Championships.",
+  "simone-biles.achievement.2":
+    "Four distinct skills across vault, floor exercise, and balance beam have been given the difficulty-rated name \"the Biles\" after her, at gymnastics' highest difficulty ratings — skills rated so difficult that, years after each was introduced, few or no other competitors have repeated them in competition.",
+  "simone-biles.moment.1":
+    "On January 18, 2018, Biles publicly stated that former USA Gymnastics team physician Larry Nassar had sexually assaulted her and that USA Gymnastics had helped cover it up. She and other survivors were awarded the Arthur Ashe Courage Award later that year, and at the 2018 U.S. National Championships she wore a teal leotard in solidarity with other survivors of Nassar's abuse.",
+  "simone-biles.moment.2":
+    "At the 2018 World Championships in Doha, Biles went to an emergency room the night before qualifying with a kidney stone, then won the all-around final by 1.7 points despite falls on vault and balance beam, and won the first-ever world title on vault with a new skill later named after her.",
+  "simone-biles.turning_point.1":
+    "At the 2020 Tokyo Olympics, withdrew from most team and individual event finals after developing \"the twisties\" — a loss of spatial awareness while airborne that made completing her twisting skills unsafe — citing her mental health as the reason. The decision drew significant public criticism at the time from commentators who argued she owed her team a title defense regardless; it was more broadly reassessed within the following years as elite sport's institutions and press began discussing athlete mental health more openly. She returned to competition in 2023 and won Olympic all-around and vault gold again in 2024.",
+  "simone-biles.interpretation.turning_point.1":
+    "This is consistent with the profile's dual-edged proactive_agency score: a self-directed decision against strong institutional and public pressure to continue, whose reception shifted substantially between 2021 and her 2024 comeback.",
+  "simone-biles.life_arc.1": "Born in Columbus, Ohio; later adopted, along with her younger sister, by her maternal grandfather and his wife after a period in foster care.",
+  "simone-biles.life_arc.2": "Won her first world all-around title at age 16, the first Black woman to do so.",
+  "simone-biles.life_arc.3": "Won a then-American-record four gold medals at the 2016 Rio Olympics.",
+  "simone-biles.life_arc.4": "Publicly disclosed that USA Gymnastics team physician Larry Nassar had sexually assaulted her.",
+  "simone-biles.life_arc.5": "Withdrew from most of her events at the Tokyo Olympics, citing her mental health.",
+  "simone-biles.life_arc.6": "Returned to competition and won Olympic all-around and vault gold at the 2024 Paris Games.",
+  "simone-biles.legacy":
+    "Biles's technical difficulty redefined the sport's competitive ceiling — the skills bearing her name remain, years later, among the hardest attempted in competition — while her 2021 Tokyo withdrawal became a widely cited reference point in broader conversations about balancing athlete mental health against institutional and public expectations to compete through injury or distress.",
+
+  /* --- Serena Williams --- */
+  "serena-williams.achievement.1":
+    "Won 23 Grand Slam singles titles across a professional career from 1995 to 2022, the most of any player in the Open Era, and completed a Career Golden Slam in both singles and doubles.",
+  "serena-williams.achievement.2":
+    "Held all four Grand Slam singles titles simultaneously on two separate occasions (2002–2003 and 2014–2015), a feat — informally called the \"Serena Slam\" — achieved only a handful of times in the sport's history.",
+  "serena-williams.moment.1":
+    "Her father, Richard Williams, moved the family to Compton, California, and began coaching Serena and her sister Venus there from early childhood, a training path he had deliberately planned before either daughter was born.",
+  "serena-williams.moment.2":
+    "Won the 2017 Australian Open, her 23rd major singles title, while approximately eight weeks pregnant, defeating her sister Venus in the final.",
+  "serena-williams.turning_point.1":
+    "After giving birth in September 2017, Williams developed a pulmonary embolism and related complications; she has said that medical staff did not initially act on her own account of her symptoms, drawn from her prior history of blood clots, until she insisted on the specific tests. In the years afterward, she became a prominent public advocate for Black maternal health and childbirth safety.",
+  "serena-williams.interpretation.turning_point.1":
+    "This is consistent with the profile's independent_thinking and proactive_agency scores: having to advocate for her own diagnosis against initial medical skepticism appears to have been the direct impetus for advocacy work she had not previously taken on.",
+  "serena-williams.life_arc.1": "Born in Saginaw, Michigan; the family later moved to Compton, California, where her father began coaching her.",
+  "serena-williams.life_arc.2": "Turned professional at age 14.",
+  "serena-williams.life_arc.3": "Won her first Grand Slam singles title at the 1999 US Open.",
+  "serena-williams.life_arc.4": "Held all four major titles at once for the first time, a run known as the \"Serena Slam.\"",
+  "serena-williams.life_arc.5": "Won the 2017 Australian Open while pregnant, her 23rd major title, then faced serious childbirth complications later that year.",
+  "serena-williams.life_arc.6": "Announced her retirement from professional tennis in 2022.",
+  "serena-williams.legacy":
+    "Williams's 23 Grand Slam singles titles and sustained dominance across nearly two decades reshaped expectations for longevity and power in women's tennis, and her public account of her own childbirth complications helped raise the profile of Black maternal health as a mainstream advocacy issue beyond sport.",
+
+  /* --- Richard Feynman --- */
+  "richard-feynman.achievement.1":
+    "Developed, alongside Julian Schwinger and Sin-Itiro Tomonaga, the modern formulation of quantum electrodynamics — including the diagrammatic technique now called Feynman diagrams and a path-integral approach to quantum mechanics — for which the three shared the 1965 Nobel Prize in Physics.",
+  "richard-feynman.achievement.2":
+    "His undergraduate lecture course at Caltech (1961–1964) was transcribed and published as The Feynman Lectures on Physics, which has remained in wide use as a physics teaching resource for more than six decades.",
+  "richard-feynman.moment.1":
+    "During the Manhattan Project at Los Alamos, Feynman spent off-hours testing the combination locks on colleagues' filing cabinets, found many left at factory-default settings, and left notes inside as pranks — one of several anecdotes later collected in his memoir Surely You're Joking, Mr. Feynman!",
+  "richard-feynman.moment.2":
+    "While a visiting professor in Brazil from 1949 to 1952, Feynman learned to play the frigideira, a metal percussion instrument, and became an enthusiastic amateur bongo and conga player, later sitting in with pit orchestras for musicals — a hobby he kept alongside his physics career for the rest of his life.",
+  "richard-feynman.turning_point.1":
+    "At a 1986 Rogers Commission public hearing into the Space Shuttle Challenger disaster, Feynman placed a piece of the shuttle's O-ring material in a clamp and submerged it in a glass of ice water on live television, demonstrating that the material lost its resilience at low temperature — the specific mechanical failure investigators would identify as a cause of the disaster. It was his own initiative, conducted outside the commission's planned proceedings.",
+  "richard-feynman.interpretation.turning_point.1":
+    "This matches the profile's high proactive_agency score: a specific, unauthorized act that went around an official process he judged too slow, and one that shifted his public standing from a physicist known within his field to a nationally recognized figure.",
+  "richard-feynman.life_arc.1": "Born in Queens, New York.",
+  "richard-feynman.life_arc.2": "Worked on the Manhattan Project at Los Alamos in Hans Bethe's Theoretical Division, present at the July 1945 Trinity test.",
+  "richard-feynman.life_arc.3": "Joined Caltech, where he developed his diagrammatic approach to quantum electrodynamics and delivered the lecture course later published as The Feynman Lectures on Physics.",
+  "richard-feynman.life_arc.4": "Shared the 1965 Nobel Prize in Physics with Julian Schwinger and Sin-Itiro Tomonaga.",
+  "richard-feynman.life_arc.5": "Served on the Rogers Commission investigating the 1986 Challenger disaster.",
+  "richard-feynman.life_arc.6": "Died in Los Angeles.",
+  "richard-feynman.complexities.1":
+    "Feynman's own published writing about his personal life — most notably his memoir Surely You're Joking, Mr. Feynman! — recounts episodes of his own conduct toward women that later readers and commentators have increasingly scrutinized, including pretending to be an undergraduate to deceive younger women he wanted to date and holding some work-related meetings in strip clubs. These are his own accounts of his own behavior, not allegations from others, and they complicate a straightforwardly admiring modern reading of a figure otherwise remembered primarily for his scientific and teaching legacy.",
+  "richard-feynman.legacy":
+    "Feynman diagrams and the path-integral formulation remain standard tools throughout theoretical physics, and The Feynman Lectures on Physics is still assigned or consulted by physics students decades after it was recorded. His public role in identifying the Challenger disaster's cause also established a model, still cited today, of a working scientist communicating a technical finding directly and demonstrably to a general public audience.",
+
+  /* --- Ibn Khaldun --- */
+  /* Ancient/medieval discipline: every claim below traces to Ibn Khaldun's
+     own autobiography (At-Ta'rif, as described in the Wikipedia article) or
+     directly attested career record, not later legend — flagged inline
+     where the article itself notes the source is his own account. */
+  "ibn-khaldun.achievement.1":
+    "Wrote the Muqaddimah (1377), the methodological introduction to a planned universal history, developing the concept of asabiyyah — group solidarity — as a driver of dynasties' rise and eventual decline. The work is widely credited as a founding text of historiography, sociology, and economic thought.",
+  "ibn-khaldun.achievement.2":
+    "Across a second career as a jurist in Cairo, was appointed Grand Qadi (chief judge) of the Maliki legal school six separate times between 1384 and his death in 1406 — repeatedly dismissed, and repeatedly reappointed, reflecting the Mamluk court's continued reliance on him as a legal authority even as his own attempts at judicial reform repeatedly put him at odds with the same court.",
+  "ibn-khaldun.moment.1":
+    "In 1401, while the Mongol conqueror Timur besieged Damascus, Ibn Khaldun was lowered by rope over the city walls to negotiate with him directly. According to his own autobiography, Timur questioned him in detail about the geography and politics of the Maghreb; Ibn Khaldun later wrote an extensive account of the meetings and prepared a separate report on Timur for the Marinid rulers of Fez.",
+  "ibn-khaldun.moment.2":
+    "In 1357, while serving the Marinid sultan in Fez, was imprisoned for 22 months following a political dispute — one of several imprisonments and abrupt dismissals across a career spent moving among rival courts in Tunis, Fez, Granada, and Béjaïa.",
+  "ibn-khaldun.turning_point.1":
+    "In 1375, after roughly two decades moving between rival North African and Andalusian courts, withdrew with his family to the remote fortress of Qal'at Ibn Salama for about three years to write, largely from memory rather than a working library. The Muqaddimah he completed there, not his preceding administrative career, became the basis of his lasting reputation.",
+  "ibn-khaldun.interpretation.turning_point.1":
+    "This profile scores the underlying pattern of self-directed career moves as dual-edged, and this episode illustrates why: a deliberate, self-initiated retreat from the same cycle of patronage and political instability his own career had followed, which produced his most enduring work.",
+  "ibn-khaldun.life_arc.1": "Born in Tunis to an Andalusian family of scholars and officials.",
+  "ibn-khaldun.life_arc.2": "Lost both parents to the Black Death plague at age 17.",
+  "ibn-khaldun.life_arc.3": "Served in a series of administrative and diplomatic posts under rulers in Tunis, Fez, Granada, and Béjaïa, including a 22-month imprisonment in Fez.",
+  "ibn-khaldun.life_arc.4": "Withdrew to the fortress of Qal'at Ibn Salama and wrote the Muqaddimah.",
+  "ibn-khaldun.life_arc.5": "Settled in Cairo, where he was repeatedly appointed and dismissed as the city's Grand Qadi.",
+  "ibn-khaldun.life_arc.6": "Negotiated directly with Timur outside besieged Damascus in 1401, then died in Cairo in 1406, one month after his sixth appointment as qadi.",
+  "ibn-khaldun.legacy":
+    "The Muqaddimah's theoretical framework — group solidarity as the engine of dynastic rise and decline, and a cyclical account of how conquering groups assimilate and are in turn displaced — is now recognized as a founding contribution to sociology, historiography, and economic thought, still studied by historians of ideas centuries after a career spent for the most part as a working jurist and administrator rather than a full-time scholar.",
+
+  /* --- Confucius --- */
+  /* Ancient discipline: life_arc and achievement below use only what this
+     person's own Wikipedia article marks as well-attested; the Chen/Cai
+     travel period and the "transmitter, not a maker" self-description are
+     flagged as resting on the Analects, itself compiled by disciples after
+     his death, not a contemporary record. Zero turning points: no single
+     documented before/after break in the well-attested record — his own
+     political program went unadopted in his lifetime and gained influence
+     only posthumously, which is a sustained pattern, not a discrete pivot. */
+  "confucius.achievement.1":
+    "Pioneered a form of private teaching explicitly open beyond hereditary aristocratic status, organized around the traditional Six Arts, to students tradition puts in the thousands — a documented departure, in his own lifetime, from an ethos in which formal education had been reserved for the nobility.",
+  "confucius.moment.1":
+    "During a decade or more spent traveling among neighboring states after leaving Lu, tradition holds that he and his followers were once cut off from food between the states of Chen and Cai; later accounts describe Confucius treating the episode as a test of a follower's constancy rather than grounds to abandon his teaching, though the story is known mainly through retellings compiled well after his death rather than a contemporary record.",
+  "confucius.moment.2":
+    "According to the Analects — compiled by his disciples after his death, not during his lifetime — Confucius described his own role as \"a transmitter, not a maker,\" positioning himself as preserving inherited wisdom rather than originating new doctrine.",
+  "confucius.life_arc.1": "Born c. 551 BCE in the state of Lu (present-day Qufu, Shandong); his father died when he was three, and he was raised in modest circumstances by his mother.",
+  "confucius.life_arc.2": "Held a series of official posts in Lu, reportedly rising to Minister of Crime.",
+  "confucius.life_arc.3": "Left Lu around 497 BCE after his political proposals went unadopted, beginning more than a decade traveling among neighboring states.",
+  "confucius.life_arc.4": "Returned to Lu in his later years and devoted himself to teaching until his death, c. 479 BCE.",
+  "confucius.life_arc.5": "After his death, his sayings were compiled by disciples as the Analects; from around 140 BCE, ideas developed under his name became the Han dynasty's official state philosophy.",
+  "confucius.legacy":
+    "Beginning under the Han dynasty and, with interruptions, continuing into the early twentieth century, ideas compiled and elaborated under Confucius's name — substantially the work of Han-dynasty compilers and later interpreters such as Zhu Xi, built on texts assembled long after his death — became imperial China's official state philosophy and the basis of its civil-service examination system, shaping social and political life across East Asia for two millennia. How much of that later tradition reflects Confucius's own recorded teaching, as opposed to subsequent political and philosophical elaboration, remains debated by historians, and the same institutionalized tradition was itself later blamed, notably during 20th-century China's Cultural Revolution, for entrenching rigid social hierarchy — a charge aimed at the later imperial institution built in his name, not at his own attested teaching directly. Whatever that distance, Confucius is credited with founding one of the most durable strands of ethical and political thought in world history.",
+
+  /* --- Yayoi Kusama --- */
+  "yayoi-kusama.achievement.1":
+    "From the early 1960s, developed a body of immersive, participatory installation work — most enduringly the mirrored \"Infinity Mirror Room\" installations she began in 1965, alongside recurring polka-dot and pumpkin motifs — that helped establish a mode of installation art built around infinite, participatory visual space. A 2017 Hirshhorn Museum retrospective of six of these rooms drew record attendance and traveled to five more North American museums.",
+  "yayoi-kusama.achievement.2":
+    "Represented Japan at the 1993 Venice Biennale and, after roughly two decades of comparative international obscurity following her 1973 return to Japan, became one of the world's top-selling living artists at auction, ranked among the top 50 artists in Sotheby's 2023 market survey.",
+  "yayoi-kusama.moment.1":
+    "In 1957, after corresponding with the American painter Georgia O'Keeffe for advice, moved first to Seattle and then, in 1958, to New York with very limited money, supporting herself with odd jobs and by sewing her own clothes while working to establish herself in a country and an art scene where she had no prior standing.",
+  "yayoi-kusama.moment.2":
+    "After Kusama exhibited a soft sculpture covered in protruding forms at New York's Green Gallery in June 1963, fellow artist Claes Oldenburg began exhibiting visually similar sewn soft sculptures that September; an art historian's later scholarship on the period concluded Oldenburg was likely influenced by Kusama's work, and Kusama has said she found the episode depressing at the time. A similar pattern — Andy Warhol covering an exhibit space with repeated photographic imagery not long after Kusama had covered gallery walls with photographs in her own installation — has since been cited as a further example of her underrecognized influence on artists more widely credited for ideas she originated first.",
+  "yayoi-kusama.turning_point.1":
+    "In 1977, after a difficult reception on returning to Japan in 1973 and a period of declining health, Kusama took up residence, by her own choice, at a psychiatric hospital in Tokyo, continuing to work daily at a studio near the hospital for the rest of her life. She has said that making art was what allowed her to keep going through this period.",
+  "yayoi-kusama.interpretation.turning_point.1":
+    "This is consistent with the profile's high autonomy_need score: rather than stopping work, she restructured her entire living arrangement so that making art could continue on her own terms.",
+  "yayoi-kusama.complexities.1":
+    "In October 2023, ahead of a major U.S. museum retrospective, Kusama apologized after decades-old passages in her own published writing — including a 2003 memoir — describing Black people in derogatory and racially essentializing terms drew renewed public criticism. She said in a statement that she deeply regretted the language and that her work's message had always been about universal love and respect. The episode is now part of how critics and institutions discuss her work alongside her artistic influence.",
+  "yayoi-kusama.life_arc.1": "Born in Matsumoto, Japan, into a family running a plant nursery and seed business.",
+  "yayoi-kusama.life_arc.2": "Moved to the United States in 1957–1958 after corresponding with Georgia O'Keeffe, settling in New York.",
+  "yayoi-kusama.life_arc.3": "Became part of New York's avant-garde art scene, developing her Infinity Net paintings, soft sculptures, and Infinity Mirror Rooms.",
+  "yayoi-kusama.life_arc.4": "Returned to Japan in 1973.",
+  "yayoi-kusama.life_arc.5": "Took up permanent, voluntary residence at a Tokyo psychiatric hospital in 1977, continuing to work at a nearby studio.",
+  "yayoi-kusama.life_arc.6": "Represented Japan at the 1993 Venice Biennale; died in Tokyo in August 2026 at age 97.",
+  "yayoi-kusama.legacy":
+    "Kusama's Infinity Mirror Rooms and polka-dot motifs became among the most widely recognized and reproduced images in contemporary art, and by the 2010s she was regularly named among the world's most-exhibited and highest-selling artists — a striking reversal of the international obscurity she faced for roughly two decades after leaving New York in the 1970s.",
+
+  /* --- Nikola Tesla --- */
+  "nikola-tesla.achievement.1":
+    "Patented an alternating-current induction motor in 1888 that avoided the sparking commutator design of earlier motors, then licensed it to George Westinghouse. The resulting Westinghouse AC system won the contract to power the 1893 World's Columbian Exposition in Chicago and to transmit power from Niagara Falls, establishing alternating current — over Thomas Edison's competing direct-current system — as the technical basis for long-distance electrical power transmission still in use today.",
+  "nikola-tesla.achievement.2":
+    "Held patents across power transmission and high-frequency, high-voltage devices, including the resonant transformer he introduced in 1891 and still known as the Tesla coil, work that fed directly into early 20th-century radio and electrical engineering.",
+  "nikola-tesla.moment.1":
+    "While working for Thomas Edison's manufacturing company in New York in 1884–1885, Tesla later said he had been promised a $50,000 bonus for redesigning the company's dynamos; when he asked to be paid after completing the work, he was told, by his own account, that the offer had been a joke. He resigned shortly afterward.",
+  "nikola-tesla.moment.2":
+    "In 1891, facing financial pressure on Westinghouse after the Panic of 1890, Tesla voluntarily released the company from its royalty contract with him — worth $2.50 per horsepower of AC equipment sold — to help keep it solvent, forgoing income that would likely have made him one of the wealthiest people of his era.",
+  "nikola-tesla.turning_point.1":
+    "After leaving Edison's company in 1885 over the disputed bonus, partnered with George Westinghouse to develop and commercialize alternating current — a direct technical and commercial challenge to his former employer's competing direct-current system.",
+  "nikola-tesla.interpretation.turning_point.1":
+    "This matches the profile's proactive_agency score: a shift from an employee executing an employer's plans to an independent inventor backing his own technical conviction against that same employer's competing standard.",
+  "nikola-tesla.life_arc.1": "Born in Smiljan, in the Austrian Empire (present-day Croatia).",
+  "nikola-tesla.life_arc.2": "Emigrated to the United States in 1884 and briefly worked for Thomas Edison's manufacturing company.",
+  "nikola-tesla.life_arc.3": "Patented his AC induction motor and partnered with George Westinghouse.",
+  "nikola-tesla.life_arc.4": "Westinghouse's AC system, built on Tesla's patents, powered the 1893 Chicago World's Fair and the Niagara Falls power project.",
+  "nikola-tesla.life_arc.5": "Built the Wardenclyffe Tower on Long Island as a wireless transmission station; the project collapsed after financial backer J.P. Morgan withdrew support.",
+  "nikola-tesla.life_arc.6": "Died in New York in 1943, in debt, having outlived most of his patents.",
+  "nikola-tesla.legacy":
+    "Tesla's alternating-current system remains the technical basis of long-distance electrical power transmission worldwide. His later-life financial collapse and the failure of Wardenclyffe also made him, in popular memory, a symbol of visionary invention undercut by business misfortune — a reputation genuinely reflected in the documented record, not only in legend.",
+
+  /* --- Akira Kurosawa --- */
+  "akira-kurosawa.achievement.1":
+    "Rashomon's Golden Lion at the 1951 Venice Film Festival, and its subsequent commercial success in the United States, introduced postwar Japanese cinema to Western audiences at scale for the first time and touched off a decade of Western critical and commercial interest in Japanese film.",
+  "akira-kurosawa.achievement.2":
+    "Seven Samurai (1954), made over nearly a year of production including a 45-day screenplay retreat and 148 days of shooting, became one of the most influential films in cinema history — voted the best Japanese film ever made in a 1999 critics' poll and ranked 20th among all films worldwide in the 2022 Sight & Sound critics' poll — and its structure directly influenced later films including Star Wars (1977).",
+  "akira-kurosawa.moment.1":
+    "For The Most Beautiful (1944), Kurosawa had his cast live in a real factory during the shoot, eat the factory's food, and address each other only by their characters' names — an immersive production method he returned to, in various forms, throughout his career.",
+  "akira-kurosawa.moment.2":
+    "In 1968, three weeks into directing the American co-production Tora! Tora! Tora!, Kurosawa was fired from the film, officially attributed to fatigue — a specific professional setback that preceded a deeper career crisis over the following years.",
+  "akira-kurosawa.turning_point.1":
+    "After being fired from Tora! Tora! Tora! (1968) and then seeing his next film, Dodesukaden (1970), fail commercially, Kurosawa attempted suicide in December 1971; he survived, and his health recovered within months. He continued directing afterward: his next film, Dersu Uzala (1975), was funded not by a Japanese studio but by the Soviet agency Mosfilm and won the Academy Award for Best Foreign Language Film, and Kagemusha (1980, backed in part with help from American directors George Lucas and Francis Ford Coppola) and Ran (1985) followed, both financed internationally rather than by a Japanese studio.",
+  "akira-kurosawa.life_arc.1": "Born in Tokyo.",
+  "akira-kurosawa.life_arc.2": "Joined the P.C.L. film studio (later Toho) as an assistant director in 1936.",
+  "akira-kurosawa.life_arc.3": "Directed his first feature, Sanshiro Sugata, in 1943.",
+  "akira-kurosawa.life_arc.4": "Rashomon (1950) won the Golden Lion at Venice in 1951; Seven Samurai followed in 1954.",
+  "akira-kurosawa.life_arc.5": "Fired from Tora! Tora! Tora! in 1968 and attempted suicide in 1971 after Dodesukaden's commercial failure, then rebuilt his career with the Soviet-funded Dersu Uzala (1975).",
+  "akira-kurosawa.life_arc.6": "Returned to international acclaim with Kagemusha (1980) and Ran (1985); received an Academy Honorary Award in 1990 and died in Tokyo in 1998.",
+  "akira-kurosawa.legacy":
+    "Kurosawa is now widely regarded as one of the most influential filmmakers in cinema history, and directors including George Lucas, Francis Ford Coppola, and others who backed his later work have credited his influence on their own filmmaking. The arc of his own career — a postwar breakthrough, an acute domestic crisis in the early 1970s, and an internationally financed late-career renaissance — is itself often cited as emblematic of the difficulty Japanese studio-era auteurs faced sustaining backing through the industry's contraction in the 1960s and 1970s.",
+
+  /* --- Ludwig van Beethoven --- */
+  "ludwig-van-beethoven.achievement.1":
+    "Composed nine symphonies, thirty-two piano sonatas, and numerous chamber and choral works across roughly three creative periods, including the Third (\"Eroica\") and Fifth Symphonies and the late Ninth Symphony (1824) — the last completed and premiered after he had lost nearly all of his hearing — output regarded as a central pivot between the Classical and Romantic eras of Western music.",
+  "ludwig-van-beethoven.achievement.2":
+    "His middle-period \"heroic\" works — including the Third Symphony (1803–04), Fifth Symphony (1808), and the opera Fidelio (premiered 1805) — expanded the emotional scale and formal ambition of instrumental music beyond the conventions he had inherited from Haydn and Mozart, and became a starting point later composers drew on for Romantic-era orchestral writing.",
+  "ludwig-van-beethoven.moment.1":
+    "On medical advice, secluded himself at Heiligenstadt, outside Vienna, from April to October 1802, where he composed a private letter to his brothers — never sent, discovered only after his death — recording his despair over his advancing deafness and thoughts of suicide, alongside his resolution to continue composing.",
+  "ludwig-van-beethoven.moment.2":
+    "In 1809, facing a court appointment offer from Napoleon's brother Jérôme Bonaparte that would have taken him from Vienna, personally negotiated an annual pension of 4,000 florins from three aristocratic patrons — Archduke Rudolph, Prince Kinsky, and Prince Lobkowitz — to remain in the city. The arrangement proved unreliable in practice (Kinsky died in 1812, Lobkowitz went bankrupt in 1811), and Beethoven had to pursue legal action to recover part of what he was owed.",
+  "ludwig-van-beethoven.turning_point.1":
+    "Beethoven's hearing loss, which he told a friend in 1815 had begun as early as 1798, progressed over roughly two decades until, by his own account, he could still distinguish only low tones and sudden loud sounds. He continued composing major works — completing and conducting the premiere of his Ninth Symphony in 1824 — through methods adapted to the loss, rather than by continuing to rely on hearing performances directly.",
+  "ludwig-van-beethoven.interpretation.turning_point.1":
+    "This is consistent with the profile's high resourcefulness score: a genuine constraint met by substituting his method of composing, not simply persistence despite adversity in the abstract.",
+  "ludwig-van-beethoven.life_arc.1": "Born in Bonn.",
+  "ludwig-van-beethoven.life_arc.2": "Moved permanently to Vienna in November 1792, shortly before learning of his father's death.",
+  "ludwig-van-beethoven.life_arc.3": "Secluded himself at Heiligenstadt in 1802 and wrote the private letter later known as the Heiligenstadt Testament.",
+  "ludwig-van-beethoven.life_arc.4": "Composed his middle-period \"heroic\" works, including the Third and Fifth Symphonies.",
+  "ludwig-van-beethoven.life_arc.5": "Negotiated an annual pension from three aristocratic patrons in 1809 to remain in Vienna.",
+  "ludwig-van-beethoven.life_arc.6": "Completed and premiered his Ninth Symphony in 1824, after losing nearly all his hearing; died in Vienna in 1827.",
+  "ludwig-van-beethoven.legacy":
+    "Beethoven's expansion of symphonic and chamber forms, sustained through the loss of the sense most central to his profession, is often cited as one of the most striking examples in Western art of work outlasting personal circumstance. His symphonies, sonatas, and quartets remain core orchestral and chamber repertoire two centuries later.",
+
+  /* --- Hayao Miyazaki --- */
+  "hayao-miyazaki.achievement.1":
+    "Co-founded Studio Ghibli in 1985 with longtime collaborator Isao Takahata, following the success of Nausicaä of the Valley of the Wind (1984), adapted from his own manga. The studio became one of the most internationally acclaimed animation houses in the world, with Miyazaki directing or co-writing most of its landmark films over the following four decades.",
+  "hayao-miyazaki.achievement.2":
+    "Directed Spirited Away (2001), which became Japan's highest-grossing film at the time of release and won the Academy Award for Best Animated Feature, and The Boy and the Heron (2023), which won the same award more than two decades later — an unusually long span between two Academy Award-winning films by the same director.",
+  "hayao-miyazaki.achievement.3":
+    "Princess Mononoke (1997) became the first animated film to win the Japan Academy Film Prize for Picture of the Year and, at a budget of ¥2.35 billion, was the most expensive Japanese animated film made up to that time; it went on to become Japan's highest-grossing domestic film for several months after release.",
+  "hayao-miyazaki.moment.1":
+    "In 1964, as a young animator at Toei Doga, became chief secretary of the studio's labor union, forming a lifelong friendship and creative partnership with the union's vice-chairman, Isao Takahata, with whom he would later found Studio Ghibli.",
+  "hayao-miyazaki.moment.2":
+    "Announced his retirement from feature filmmaking in January 1998, but returned within days to direct Spirited Away after the sudden death, on January 21, 1998, of Yoshifumi Kondō, the director who had been slated to succeed him — one of several announced-then-reversed retirements across his career, the last reversed in 2016 to make The Boy and the Heron (2023).",
+  "hayao-miyazaki.life_arc.1": "Born in Tokyo in 1941, the second of four sons; his father directed a company manufacturing aircraft parts during World War II.",
+  "hayao-miyazaki.life_arc.2": "Evacuated during the war; among his earliest memories are of bombed-out cities.",
+  "hayao-miyazaki.life_arc.3": "Joined the animation studio Toei Doga in 1963.",
+  "hayao-miyazaki.life_arc.4": "Directed Nausicaä of the Valley of the Wind (1984), then co-founded Studio Ghibli with Isao Takahata in 1985.",
+  "hayao-miyazaki.life_arc.5": "Directed Princess Mononoke (1997) and Spirited Away (2001), the latter winning the Academy Award for Best Animated Feature.",
+  "hayao-miyazaki.life_arc.6": "Announced his retirement from feature films in 2013, then returned to direct The Boy and the Heron (2023), which won a second Academy Award for Best Animated Feature.",
+  "hayao-miyazaki.legacy":
+    "His combination of hand-drawn craft discipline, recurring environmentalist and anti-war themes, and strong female protagonists helped establish Studio Ghibli's films as some of the most internationally acclaimed animated work of the era. Spirited Away and The Boy and the Heron's Academy Awards, won more than twenty years apart, reflect a sustained international critical standing rare for any director working primarily in animation.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -2669,6 +2905,213 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1930년, 영국법에 대한 의도적인 저항으로서 소금 행진을 스스로 조직하고 이끌었다 — 24일간 240마일을 행진한, 구체적이고 스스로 시작한 시민 불복종 행위였다.",
   "mahatma-gandhi.interpretation.turning_point.1":
     "프로필의 높은 선제적 행동력(proactive_agency) 점수와 맞닿아 있으며, 기록으로 직접 확인되는 대목이다 — 누군가의 발의에 대응한 것이 아니라, 스스로 구상하고 이끈 구체적이고 계획된 시민 불복종 행위였다.",
+
+  /* -------------------------------- Remaining-19 Completion Batch 1 (2026-08) */
+  "simone-biles.achievement.1":
+    "2016·2020·2024년 세 차례의 올림픽과 여섯 차례의 세계선수권을 거치며 남녀를 통틀어 역대 가장 많은 메달을 딴 체조 선수가 되었다 — 올림픽 메달 11개, 세계선수권 메달 30개(그중 금메달 23개). 2018년 도하 세계선수권에서는 미국인 최초로, 또한 국적을 불문하고 역대 열 번째로 단일 세계선수권 대회 전 종목에서 메달을 딴 선수가 되었다.",
+  "simone-biles.achievement.2":
+    "도마·마루·평균대 세 종목에 걸쳐 그의 이름을 딴 \"바일스\"라는 기술이 네 개나 존재한다 — 모두 체조 최고 난도로 인정받는 기술로, 처음 선보인 뒤 여러 해가 지나도록 다른 선수들이 거의 시도조차 하지 못하고 있다.",
+  "simone-biles.moment.1":
+    "2018년 1월 18일, 바일스는 전 미국체조협회 팀 주치의 래리 나사르가 자신을 성폭행했으며 협회가 이를 은폐하는 데 관여했다고 공개적으로 밝혔다. 그해 그는 다른 피해자들과 함께 아서 애시 용기상을 받았고, 2018년 미국 내셔널 챔피언십에서는 나사르의 다른 피해자들과 연대하는 뜻으로 청록색 레오타드를 입고 경기에 나섰다.",
+  "simone-biles.moment.2":
+    "2018년 도하 세계선수권 예선 전날 밤, 바일스는 신장결석으로 응급실을 찾았다. 그런데도 도마와 평균대에서 실수가 있었음에도 개인종합 결선에서 1.7점 차로 우승했고, 이후 자신의 이름이 붙게 되는 새로운 기술로 도마 종목 세계선수권 첫 금메달을 따냈다.",
+  "simone-biles.turning_point.1":
+    "2020 도쿄 올림픽에서 바일스는 공중에서 방향감각을 잃는 이른바 \"트위스티스\" 증상을 겪어 회전 기술을 안전하게 수행할 수 없게 되자, 자신의 정신건강을 이유로 단체전과 개인전 대부분의 결선에서 기권했다. 이 결정은 당시 \"어떤 상황에서도 팀을 위해 출전을 지켜야 한다\"는 논조의 거센 비판을 받았지만, 이후 몇 년 사이 엘리트 스포츠 안팎에서 선수 정신건강을 더 공개적으로 논의하게 되면서 평가가 크게 달라졌다. 그는 2023년 복귀했고, 2024년에는 올림픽 개인종합과 도마에서 다시 금메달을 땄다.",
+  "simone-biles.interpretation.turning_point.1":
+    "프로필의 양면적인 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 강한 제도적·대중적 압박에 맞서 스스로 내린 결정이었고, 그에 대한 평가는 2021년과 2024년 복귀 사이에 크게 달라졌다.",
+  "simone-biles.life_arc.1": "오하이오주 콜럼버스에서 태어났으며, 위탁 가정에서 지내던 시기를 거쳐 여동생과 함께 외조부와 그 배우자에게 입양되었다.",
+  "simone-biles.life_arc.2": "16세에 첫 세계선수권 개인종합 우승을 차지하며, 이 타이틀을 딴 최초의 흑인 여성이 되었다.",
+  "simone-biles.life_arc.3": "2016년 리우 올림픽에서 당시 미국 신기록인 금메달 4개를 땄다.",
+  "simone-biles.life_arc.4": "미국체조협회 팀 주치의 래리 나사르에게 성폭행당했다는 사실을 공개적으로 밝혔다.",
+  "simone-biles.life_arc.5": "정신건강을 이유로 도쿄 올림픽 대부분의 종목에서 기권했다.",
+  "simone-biles.life_arc.6": "경기에 복귀해 2024년 파리 올림픽 개인종합과 도마에서 금메달을 땄다.",
+  "simone-biles.legacy":
+    "바일스는 기술 난도의 기준 자체를 다시 썼다 — 그의 이름이 붙은 기술들은 처음 등장한 지 여러 해가 지나도록 여전히 실전에서 가장 어려운 축에 속한다. 동시에 2021년 도쿄에서의 기권은, 부상이나 심리적 고통 속에서도 경기를 지속해야 한다는 제도적·대중적 기대와 선수의 정신건강 사이의 균형을 둘러싼 논의에서 널리 인용되는 사례가 되었다.",
+
+  "serena-williams.achievement.1":
+    "1995년부터 2022년까지 이어진 프로 선수 생활 동안 그랜드슬램 단식 타이틀 23회를 차지해 오픈 시대 최다 기록을 세웠고, 단식과 복식 모두에서 커리어 골든 슬램을 달성했다.",
+  "serena-williams.achievement.2":
+    "두 차례(2002~2003년, 2014~2015년)에 걸쳐 4대 메이저 단식 타이틀을 동시에 보유했다 — 흔히 \"세리나 슬램\"이라 불리는 이 기록은 테니스 역사에서 손에 꼽을 만큼 드문 성취다.",
+  "serena-williams.moment.1":
+    "아버지 리처드 윌리엄스는 가족을 캘리포니아주 콤프턴으로 이주시킨 뒤 세리나와 언니 비너스를 어린 시절부터 직접 지도했는데, 이는 두 딸이 태어나기도 전부터 계획해 둔 훈련 경로였다.",
+  "serena-williams.moment.2":
+    "2017년 호주오픈에서, 임신 약 8주차의 몸으로 언니 비너스를 결승에서 꺾고 자신의 23번째 메이저 단식 타이틀을 차지했다.",
+  "serena-williams.turning_point.1":
+    "2017년 9월 출산 이후 윌리엄스는 폐색전증과 그에 따른 합병증을 겪었다. 그는 이전에 혈전증을 앓았던 자신의 병력에 근거해 증상을 알렸지만, 의료진이 곧바로 필요한 검사를 진행하지 않았고 결국 자신이 직접 특정 검사를 요구하고 나서야 대응이 이루어졌다고 말한 바 있다. 이후 몇 년 사이 그는 흑인 여성의 출산 건강을 위한 대표적인 공적 옹호자로 활동하게 되었다.",
+  "serena-williams.interpretation.turning_point.1":
+    "프로필의 독립적 사고(independent_thinking)와 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 의료진의 초기 회의적 반응에 맞서 자신의 진단을 스스로 관철해야 했던 경험이, 이전에는 하지 않았던 옹호 활동으로 직접 이어진 것으로 보인다.",
+  "serena-williams.life_arc.1": "미시간주 새기노에서 태어났으며, 이후 가족이 캘리포니아주 콤프턴으로 이주해 아버지에게 테니스를 배우기 시작했다.",
+  "serena-williams.life_arc.2": "14세에 프로로 전향했다.",
+  "serena-williams.life_arc.3": "1999년 US오픈에서 첫 그랜드슬램 단식 타이틀을 차지했다.",
+  "serena-williams.life_arc.4": "\"세리나 슬램\"이라 불리는, 4대 메이저 타이틀 동시 보유를 처음으로 달성했다.",
+  "serena-williams.life_arc.5": "2017년 임신한 몸으로 호주오픈에서 23번째 메이저 타이틀을 땄고, 그해 말 출산 후 심각한 합병증을 겪었다.",
+  "serena-williams.life_arc.6": "2022년 프로 테니스 은퇴를 발표했다.",
+  "serena-williams.legacy":
+    "23회의 그랜드슬램 단식 우승과 거의 20년에 이르는 꾸준한 지배력은 여자 테니스에서 선수 생명과 파워에 대한 기대치 자체를 바꿔 놓았고, 자신의 출산 합병증 경험을 공개적으로 알린 일은 흑인 여성의 출산 건강 문제를 스포츠를 넘어 주류 옹호 의제로 끌어올리는 데 기여했다.",
+
+  "richard-feynman.achievement.1":
+    "줄리언 슈윙거, 도모나가 신이치로와 함께 양자전기역학의 현대적 정식화를 이루어냈다 — 오늘날 파인먼 다이어그램이라 불리는 도식화 기법과 양자역학의 경로적분 접근법이 그것이다. 세 사람은 이 업적으로 1965년 노벨 물리학상을 공동 수상했다.",
+  "richard-feynman.achievement.2":
+    "1961년부터 1964년까지 캘리포니아 공과대학에서 진행한 학부 강의는 이후 《파인먼의 물리학 강의》로 출간되어, 60년이 넘도록 물리학 교육 자료로 널리 활용되고 있다.",
+  "richard-feynman.moment.1":
+    "로스앨러모스에서 맨해튼 프로젝트에 참여하던 시절, 파인먼은 여가 시간에 동료들의 서류함 자물쇠 다이얼을 풀어보곤 했는데, 상당수가 공장 초기 설정 그대로 방치되어 있음을 발견하고는 서류함 안에 장난 쪽지를 남기곤 했다 — 훗날 회고록 《파인먼 씨, 농담도 잘하시네!》에 실린 여러 일화 중 하나다.",
+  "richard-feynman.moment.2":
+    "1949년부터 1952년까지 브라질에서 방문교수로 지내는 동안, 파인먼은 타악기인 프리지데이라 연주법을 익혔고 아마추어 봉고·콩가 연주자로서 뮤지컬 오케스트라 피트에 앉아 연주할 정도로 열정을 쏟았다 — 이후 평생 물리학과 나란히 이어간 취미였다.",
+  "richard-feynman.turning_point.1":
+    "1986년 우주왕복선 챌린저호 참사를 조사한 로저스 위원회의 공개 청문회에서, 파인먼은 셔틀의 오링 소재 조각을 클램프에 고정해 얼음물에 담그는 실험을 생방송 중에 직접 시연했다 — 저온에서 소재의 탄력이 사라진다는 사실을 보여준 것으로, 훗날 조사단이 참사의 원인 중 하나로 지목한 바로 그 기계적 결함이었다. 이는 위원회의 예정된 절차 밖에서 그가 스스로 벌인 일이었다.",
+  "richard-feynman.interpretation.turning_point.1":
+    "프로필의 높은 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 그가 너무 느리다고 판단한 공식 절차를 우회한, 승인받지 않은 구체적 행동이었으며, 이를 계기로 그의 대중적 위상도 자기 분야 안에서만 알려진 물리학자에서 전국적으로 알려진 인물로 바뀌었다.",
+  "richard-feynman.life_arc.1": "뉴욕주 퀸스에서 태어났다.",
+  "richard-feynman.life_arc.2": "로스앨러모스에서 한스 베테가 이끄는 이론분과 소속으로 맨해튼 프로젝트에 참여했고, 1945년 7월 트리니티 핵실험 현장에 있었다.",
+  "richard-feynman.life_arc.3": "캘리포니아 공과대학에 합류해 양자전기역학에 대한 도식적 접근법을 발전시켰고, 훗날 《파인먼의 물리학 강의》로 출간되는 강의를 진행했다.",
+  "richard-feynman.life_arc.4": "줄리언 슈윙거, 도모나가 신이치로와 함께 1965년 노벨 물리학상을 공동 수상했다.",
+  "richard-feynman.life_arc.5": "1986년 챌린저호 참사를 조사한 로저스 위원회에 참여했다.",
+  "richard-feynman.life_arc.6": "로스앤젤레스에서 세상을 떠났다.",
+  "richard-feynman.complexities.1":
+    "파인먼 자신이 직접 쓴 글, 특히 회고록 《파인먼 씨, 농담도 잘하시네!》에는 훗날 독자와 평론가들 사이에서 점점 더 비판적으로 재조명되고 있는, 여성을 대하는 그의 행동에 관한 일화들이 담겨 있다 — 데이트하고 싶었던 어린 여성들을 속이기 위해 학부생 행세를 했다거나, 업무 관련 회의 중 일부를 스트립클럽에서 가졌다는 내용 등이다. 이는 타인의 주장이 아니라 그 자신이 직접 밝힌 자기 행동에 대한 기록이며, 주로 과학적 업적과 교육자로서의 유산으로 기억되는 이 인물에 대한 단순히 호의적이기만 한 현대적 평가를 한층 복잡하게 만든다.",
+  "richard-feynman.legacy":
+    "파인먼 다이어그램과 경로적분 정식화는 오늘날까지도 이론물리학 전반의 표준 도구로 쓰이며, 《파인먼의 물리학 강의》는 강의가 녹음된 지 수십 년이 지난 지금도 물리학도들 사이에서 참고서로 남아 있다. 챌린저호 참사의 원인을 밝혀낸 그의 공개적 역할은 오늘날까지도 회자되는 하나의 모범을 남겼다 — 현직 과학자가 기술적 발견을 일반 대중에게 직접, 눈에 보이는 방식으로 전달한 사례다.",
+
+  /* --- 이븐 할둔: 고대·중세 인물에 대한 엄격한 사료 구분 원칙을 적용 --- */
+  "ibn-khaldun.achievement.1":
+    "1377년 저술한 《무깟디마》는 그가 계획한 보편사(普遍史)의 방법론적 서론으로, 왕조의 흥망을 이끄는 원동력으로서 아사비야(집단적 결속력) 개념을 발전시켰다. 이 저작은 역사학·사회학·경제사상의 시조 격 문헌으로 널리 평가받는다.",
+  "ibn-khaldun.achievement.2":
+    "카이로에서 법학자로서 쌓은 또 다른 경력에서, 1384년부터 1406년 사망할 때까지 말리키 법학파의 대카디(수석 판관)에 여섯 차례나 임명되었다 — 거듭 해임되고도 거듭 재임명되었다는 사실은, 그의 사법 개혁 시도가 번번이 조정과 마찰을 빚었음에도 맘루크 조정이 그를 법률 권위자로 계속 필요로 했음을 보여준다.",
+  "ibn-khaldun.moment.1":
+    "1401년, 몽골 정복자 티무르가 다마스쿠스를 포위했을 때, 이븐 할둔은 밧줄에 매달려 성벽을 내려가 그와 직접 협상했다. 그 자신의 자서전에 따르면 티무르는 마그레브 지역의 지리와 정세에 대해 그에게 상세히 캐물었고, 이븐 할둔은 이후 이 만남에 대한 상세한 기록을 남겼을 뿐 아니라 페스의 마린 왕조 통치자들을 위해 티무르에 관한 별도의 보고서를 작성했다.",
+  "ibn-khaldun.moment.2":
+    "1357년, 페스에서 마린 왕조 술탄을 섬기던 중 정치적 갈등으로 22개월간 투옥되었다 — 튀니스·페스·그라나다·베자이아의 여러 경쟁 왕조를 오가며 보낸 경력에서 겪은 여러 차례의 투옥과 갑작스러운 해임 가운데 하나였다.",
+  "ibn-khaldun.turning_point.1":
+    "1375년, 북아프리카와 안달루시아의 여러 경쟁 왕조를 오가며 약 20년을 보낸 끝에, 이븐 할둔은 가족과 함께 외딴 요새 칼라트 이븐 살라마로 물러나 약 3년간 머물며 제대로 된 서고도 없이 대부분 기억에 의존해 글을 썼다. 그곳에서 완성한 《무깟디마》가, 그 이전의 행정 경력이 아니라, 그의 오랜 명성의 토대가 되었다.",
+  "ibn-khaldun.interpretation.turning_point.1":
+    "이 프로필은 그의 자기주도적 이직 패턴 자체를 양면적으로 평가하는데, 이 일화가 바로 그 이유를 보여준다 — 자신의 경력을 지배해 온 후원과 정치적 불안정의 순환에서 스스로 벗어나기로 한 결정이, 결과적으로 그의 가장 오래 남을 저작을 낳았다.",
+  "ibn-khaldun.life_arc.1": "튀니스에서 학자·관료 가문 출신의 안달루시아계 가정에서 태어났다.",
+  "ibn-khaldun.life_arc.2": "17세에 흑사병으로 부모를 모두 잃었다.",
+  "ibn-khaldun.life_arc.3": "튀니스·페스·그라나다·베자이아의 여러 통치자 아래에서 행정·외교 관직을 두루 지냈으며, 그중 페스에서는 22개월간 투옥되기도 했다.",
+  "ibn-khaldun.life_arc.4": "칼라트 이븐 살라마 요새로 물러나 《무깟디마》를 저술했다.",
+  "ibn-khaldun.life_arc.5": "카이로에 정착해 대카디에 거듭 임명되고 해임되기를 반복했다.",
+  "ibn-khaldun.life_arc.6": "1401년 포위된 다마스쿠스 밖에서 티무르와 직접 협상했고, 1406년 여섯 번째 카디 임명 한 달 만에 카이로에서 세상을 떠났다.",
+  "ibn-khaldun.legacy":
+    "《무깟디마》의 이론적 틀 — 집단적 결속력을 왕조 흥망의 원동력으로 보고, 정복 집단이 기존 문명을 흡수했다가 다시 새로운 세력에 밀려나는 순환을 설명하는 관점 — 은 오늘날 사회학·역사학·경제사상의 시조적 기여로 인정받으며, 그가 평생 대부분을 전업 학자가 아니라 현직 법학자·관료로 지냈음에도 불구하고 수 세기가 지난 지금까지도 사상사 연구자들 사이에서 연구되고 있다.",
+
+  /* --- 공자: 고대 인물에 대한 엄격한 사료 구분 원칙을 적용 --- */
+  "confucius.achievement.1":
+    "육예(六藝)를 중심으로 한 사학(私學)을 열어, 세습 신분에 관계없이 배움의 문을 열었다 — 전통에 따르면 수천 명에 이르는 제자를 두었다고 하며, 이는 그가 살아있던 당대에 이미 귀족만이 정규 교육을 받을 수 있던 통념에서 벗어난, 기록으로 뒷받침되는 행보였다.",
+  "confucius.moment.1":
+    "노나라를 떠나 여러 나라를 떠돌던 10여 년 사이, 진(陳)과 채(蔡) 사이에서 그와 제자들이 식량이 끊겨 곤경에 처했다는 이야기가 전해진다. 후대의 기록들은 이때 공자가 이를 가르침을 포기할 이유가 아니라 제자의 지조를 시험하는 계기로 삼았다고 전하지만, 이 일화는 그의 사후 한참 뒤에 정리된 전승을 통해 주로 알려진 것이며 동시대의 기록은 아니다.",
+  "confucius.moment.2":
+    "그의 사후 제자들이 정리한 《논어》에 따르면, 공자는 스스로를 \"짓는 자가 아니라 전하는 자(述而不作)\"라 표현했다고 한다 — 새로운 학설을 만들어내기보다 이어받은 지혜를 전하는 사람으로 자신을 자리매김한 것이다.",
+  "confucius.life_arc.1": "기원전 551년 무렵 노나라(오늘날의 산둥성 취푸)에서 태어났다. 세 살 때 아버지를 여의고 어머니 밑에서 넉넉지 않게 자랐다.",
+  "confucius.life_arc.2": "노나라에서 여러 관직을 지냈고, 전하는 바로는 사구(司寇, 형벌을 담당하는 대신) 자리까지 올랐다.",
+  "confucius.life_arc.3": "자신의 정치적 구상이 받아들여지지 않자 기원전 497년 무렵 노나라를 떠나, 10년 넘게 여러 나라를 떠돌았다.",
+  "confucius.life_arc.4": "말년에 노나라로 돌아와 세상을 떠날 때까지(기원전 479년 무렵) 가르치는 일에 전념했다.",
+  "confucius.life_arc.5": "사후 제자들이 그의 말을 모아 《논어》로 엮었고, 기원전 140년 무렵부터는 그의 이름 아래 발전된 사상이 한나라의 공식 통치 이념이 되었다.",
+  "confucius.legacy":
+    "한나라 때부터, 중간의 단절을 거치면서도 20세기 초까지, 공자의 이름으로 정리되고 발전한 사상 — 상당 부분 한나라 시대 편찬자들과 훗날의 주희 같은 해석자들이 그의 사후 한참 뒤에 정리된 문헌을 바탕으로 만들어낸 것이다 — 은 제국 중국의 공식 통치 이념이자 과거 시험 제도의 근간이 되어 동아시아 전역의 사회·정치적 삶을 이천 년 가까이 규정했다. 그 후대의 전통이 공자 자신의 기록된 가르침을 얼마나 반영하는지, 아니면 후대의 정치적·철학적 재해석의 산물인지는 역사학자들 사이에서 여전히 논쟁거리이며, 바로 그 제도화된 전통은 훗날 — 특히 20세기 중국의 문화대혁명 시기에 — 경직된 신분 질서를 고착시켰다는 비판을 받기도 했다. 다만 이는 그의 이름으로 세워진 후대 제국 체제를 겨냥한 비판이지, 그 자신의 기록된 가르침을 직접 겨냥한 것은 아니다. 그런 거리에도 불구하고, 공자는 세계 사상사에서 가장 오래 지속된 윤리·정치 사상의 흐름 가운데 하나를 세운 인물로 평가받는다.",
+
+  /* --- 쿠사마 야요이: 생존 여부를 단정하지 않는 시제로 서술 --- */
+  "yayoi-kusama.achievement.1":
+    "1960년대 초부터 몰입형·참여형 설치미술 작업을 발전시켰다 — 1965년부터 시작한 거울로 이루어진 \"무한 거울방\" 연작과 반복되는 물방울무늬·호박 모티프가 대표적이다. 이 작업은 무한히 확장되는 참여형 시각 공간을 중심으로 한 설치미술의 한 양식을 정립하는 데 기여했다. 2017년 허시혼 미술관에서 열린, 무한 거울방 여섯 점을 모은 회고전은 기록적인 관람객 수를 기록했고 이후 북미 다섯 개 미술관을 순회했다.",
+  "yayoi-kusama.achievement.2":
+    "1993년 베네치아 비엔날레 일본관 대표로 참여했으며, 1973년 일본으로 돌아온 이후 약 20년간 국제적으로 상대적인 무명 시기를 겪은 뒤 세계에서 작품이 가장 높은 가격에 거래되는 작가 중 한 명으로 떠올라, 2023년 소더비 시장 조사에서 상위 50대 작가에 이름을 올렸다.",
+  "yayoi-kusama.moment.1":
+    "1957년 미국 화가 조지아 오키프에게 편지로 조언을 구한 뒤, 얼마 되지 않는 자금을 들고 먼저 시애틀로, 이어 1958년 뉴욕으로 이주했다. 아무런 기반도 없던 나라와 미술계에서 자리 잡기 위해 애쓰는 동안 온갖 허드렛일과 직접 옷을 지어 파는 일로 생계를 이어갔다.",
+  "yayoi-kusama.moment.2":
+    "1963년 6월 쿠사마가 뉴욕 그린 갤러리에서 돌기 형태로 뒤덮인 소프트 스컬프처를 선보인 지 얼마 지나지 않은 그해 9월, 동료 작가 클래스 올든버그가 시각적으로 매우 흡사한 봉제 소프트 스컬프처를 전시하기 시작했다. 이 시기를 연구한 한 미술사학자는 훗날 올든버그가 쿠사마의 작업에서 영향을 받았을 가능성이 크다고 결론지었고, 쿠사마 본인은 당시 이 일로 크게 낙담했다고 말한 바 있다. 비슷한 패턴 — 쿠사마가 자신의 설치작품에서 갤러리 벽을 사진으로 뒤덮은 지 얼마 지나지 않아 앤디 워홀이 전시 공간을 반복되는 사진 이미지로 뒤덮은 일 — 도, 훗날 더 널리 공로를 인정받은 다른 작가들에게 정작 그가 먼저 시도한 아이디어의 영향력이 충분히 인정받지 못했다는 사례로 거론되어 왔다.",
+  "yayoi-kusama.turning_point.1":
+    "1973년 일본으로 돌아온 뒤 냉담한 반응에 부딪히고 건강도 나빠지던 시기를 지나, 1977년 쿠사마는 스스로 선택해 도쿄의 한 정신병원에 입주했고, 이후 평생 그 병원 근처의 작업실에서 매일 작업을 이어갔다. 그는 예술을 만드는 일이 그 시기를 버텨낼 수 있게 해 준 힘이었다고 말한 바 있다.",
+  "yayoi-kusama.interpretation.turning_point.1":
+    "프로필의 높은 자율성 욕구(autonomy_need) 점수와 맞닿아 있다 — 작업을 멈추는 대신, 자신만의 방식으로 창작을 이어갈 수 있도록 생활 방식 자체를 재구성한 것이다.",
+  "yayoi-kusama.complexities.1":
+    "2023년 10월, 미국의 한 주요 미술관 회고전을 앞두고, 2003년 자서전을 포함한 쿠사마의 과거 저술 속에 흑인을 비하하고 인종적으로 본질화하는 표현이 담겨 있다는 사실이 다시 알려지며 거센 비판이 일었다. 쿠사마는 성명을 통해 그런 표현을 사용한 것을 깊이 후회하며, 자신의 작업이 전하고자 한 메시지는 언제나 모든 이를 향한 사랑과 존중이었다고 밝혔다. 이 일은 이제 그의 예술적 영향력과 함께 그의 작업을 논할 때 함께 다뤄지는 부분이 되었다.",
+  "yayoi-kusama.life_arc.1": "일본 마쓰모토에서, 묘목과 종자를 취급하는 집안에서 태어났다.",
+  "yayoi-kusama.life_arc.2": "조지아 오키프와 편지를 주고받은 뒤 1957~1958년 미국으로 건너가 뉴욕에 정착했다.",
+  "yayoi-kusama.life_arc.3": "뉴욕의 아방가르드 미술계에 합류해 인피니티 넷 회화, 소프트 스컬프처, 무한 거울방 연작을 발전시켰다.",
+  "yayoi-kusama.life_arc.4": "1973년 일본으로 돌아왔다.",
+  "yayoi-kusama.life_arc.5": "1977년 스스로 선택해 도쿄의 한 정신병원에 입주했고, 이후에도 인근 작업실에서 작업을 이어갔다.",
+  "yayoi-kusama.life_arc.6": "1993년 베네치아 비엔날레 일본관 대표를 맡았으며, 2026년 8월 도쿄에서 97세로 세상을 떠났다.",
+  "yayoi-kusama.legacy":
+    "쿠사마의 무한 거울방과 물방울무늬 모티프는 현대미술에서 가장 널리 알려지고 가장 자주 복제되는 이미지 가운데 하나가 되었으며, 2010년대에 이르러 그는 세계에서 가장 많이 전시되고 가장 높은 가격에 거래되는 작가 중 한 명으로 꾸준히 꼽혔다 — 1970년대 뉴욕을 떠난 뒤 약 20년간 겪었던 국제적 무명 시기를 생각하면 극적인 반전이다.",
+
+  "nikola-tesla.achievement.1":
+    "1888년, 기존 모터의 스파크를 일으키는 정류자 구조를 피한 교류 유도전동기를 특허로 등록한 뒤 조지 웨스팅하우스에게 그 권리를 넘겼다. 이렇게 탄생한 웨스팅하우스의 교류 시스템은 1893년 시카고 만국박람회에 전력을 공급하고 나이아가라 폭포 발전 사업의 계약을 따냈으며, 이를 계기로 토머스 에디슨의 경쟁 상대였던 직류 방식을 제치고 교류가 오늘날까지 쓰이는 장거리 송전의 기술적 기반으로 자리 잡았다.",
+  "nikola-tesla.achievement.2":
+    "송전 기술은 물론, 1891년 그가 선보인 이래 오늘날까지도 \"테슬라 코일\"이라 불리는 고전압·고주파 공진 변압기를 포함한 여러 특허를 보유했으며, 이 작업들은 20세기 초 라디오와 전기공학 발전에 직접적인 밑거름이 되었다.",
+  "nikola-tesla.moment.1":
+    "1884~1885년 뉴욕의 토머스 에디슨 제작사에서 일하던 시절, 테슬라는 훗날 회사의 발전기 설계 개선 작업을 마치면 5만 달러의 보너스를 받기로 약속받았다고 말했다. 그러나 작업을 마친 뒤 지급을 요청하자, 본인 말에 따르면 그것이 농담이었다는 답을 들었다고 한다. 그는 얼마 지나지 않아 회사를 떠났다.",
+  "nikola-tesla.moment.2":
+    "1891년, 1890년 공황 이후 웨스팅하우스가 재정적 어려움에 처하자 테슬라는 자신에게 지급되던 로열티 계약 — 판매되는 교류 장비 1마력당 2.5달러 — 을 스스로 포기해 회사가 위기를 넘기도록 도왔다. 이는 그를 당대 최고의 부호 중 한 명으로 만들었을 수도 있었던 수입을 스스로 내려놓은 결정이었다.",
+  "nikola-tesla.turning_point.1":
+    "보너스 분쟁 끝에 1885년 에디슨의 회사를 떠난 뒤, 조지 웨스팅하우스와 손잡고 교류 전력을 개발·상용화하는 길에 나섰다 — 옛 고용주의 경쟁 방식이던 직류 시스템에 기술적으로도 상업적으로도 정면으로 맞서는 선택이었다.",
+  "nikola-tesla.interpretation.turning_point.1":
+    "프로필의 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 고용주의 계획을 실행하던 직원에서, 바로 그 고용주가 내세운 경쟁 표준에 맞서 자신의 기술적 확신을 밀어붙이는 독립적 발명가로 전환한 순간이다.",
+  "nikola-tesla.life_arc.1": "오스트리아 제국(오늘날의 크로아티아) 스밀랸에서 태어났다.",
+  "nikola-tesla.life_arc.2": "1884년 미국으로 이주해 잠시 토머스 에디슨의 제작사에서 일했다.",
+  "nikola-tesla.life_arc.3": "교류 유도전동기를 특허로 등록하고 조지 웨스팅하우스와 손잡았다.",
+  "nikola-tesla.life_arc.4": "테슬라의 특허를 바탕으로 한 웨스팅하우스의 교류 시스템이 1893년 시카고 만국박람회와 나이아가라 폭포 발전 사업에 전력을 공급했다.",
+  "nikola-tesla.life_arc.5": "롱아일랜드에 무선 송신소인 워든클리프 타워를 건설했으나, 후원자 J. P. 모건이 지원을 철회하며 사업이 무산되었다.",
+  "nikola-tesla.life_arc.6": "1943년 뉴욕에서 빚에 시달리다 세상을 떠났으며, 그 무렵 대부분의 특허는 이미 만료된 상태였다.",
+  "nikola-tesla.legacy":
+    "테슬라의 교류 시스템은 오늘날에도 전 세계 장거리 송전의 기술적 근간으로 남아 있다. 말년의 재정적 몰락과 워든클리프 사업의 실패는 그를 대중의 기억 속에서 '사업적 불운에 발목 잡힌 비전 있는 발명가'의 상징으로 만들었는데, 이는 전설이 아니라 실제 기록으로도 뒷받침되는 평가다.",
+
+  "akira-kurosawa.achievement.1":
+    "《라쇼몽》이 1951년 베니스 영화제에서 황금사자상을 받고 이어 미국에서도 흥행에 성공하면서, 전후 일본 영화가 처음으로 대규모로 서구 관객에게 소개되었고 이후 10년간 서구의 일본 영화에 대한 관심이 이어지는 계기가 되었다.",
+  "akira-kurosawa.achievement.2":
+    "45일간의 시나리오 합숙과 148일간의 촬영을 포함해 거의 1년에 걸쳐 제작된 《7인의 사무라이》(1954)는 영화사에서 가장 영향력 있는 작품 중 하나가 되었다 — 1999년 평론가 설문에서 일본 영화 사상 최고작으로 뽑혔고, 2022년 영국영화협회(BFI) 「사이트 앤 사운드」 평론가 투표에서는 전 세계 영화를 통틀어 20위에 올랐다. 이 작품의 이야기 구조는 훗날 《스타워즈》(1977)에도 직접적인 영향을 끼쳤다.",
+  "akira-kurosawa.moment.1":
+    "《가장 아름답게》(1944)를 찍을 때, 구로사와는 배우들을 실제 공장에서 지내게 하고 공장 음식을 먹게 하며 서로를 배역 이름으로만 부르게 했다 — 이후에도 여러 형태로 그의 작품 활동 내내 이어간 몰입형 연출 방식이었다.",
+  "akira-kurosawa.moment.2":
+    "1968년, 미국과의 합작영화 《도라! 도라! 도라!》 연출을 맡은 지 3주 만에 구로사와는 공식적으로는 \"피로\"를 이유로 해임되었다 — 이후 몇 년간 이어질 더 깊은 경력의 위기에 앞서 닥친 구체적인 좌절이었다.",
+  "akira-kurosawa.turning_point.1":
+    "《도라! 도라! 도라!》(1968)에서 해임된 데 이어 다음 작품 《도데스카덴》(1970)마저 흥행에 실패하자, 구로사와는 1971년 12월 스스로 목숨을 끊으려 했다. 그는 살아남았고 건강은 몇 달 만에 회복되었다. 이후에도 그는 계속 연출을 이어갔다 — 다음 작품 《데르수 우잘라》(1975)는 일본 영화사가 아니라 소련의 모스필름이 제작비를 댔으며 아카데미 외국어영화상을 받았고, 뒤이어 미국 감독 조지 루카스와 프랜시스 포드 코폴라의 도움을 일부 받은 《카게무샤》(1980)와 《란》(1985) 역시 일본 영화사가 아닌 국제 자본으로 제작되었다.",
+  "akira-kurosawa.life_arc.1": "도쿄에서 태어났다.",
+  "akira-kurosawa.life_arc.2": "1936년 영화사 P.C.L.(훗날의 도호)에 조감독으로 입사했다.",
+  "akira-kurosawa.life_arc.3": "1943년 첫 장편 연출작 《스가타 산시로》를 선보였다.",
+  "akira-kurosawa.life_arc.4": "《라쇼몽》(1950)이 1951년 베니스에서 황금사자상을 받았고, 뒤이어 1954년 《7인의 사무라이》를 발표했다.",
+  "akira-kurosawa.life_arc.5": "1968년 《도라! 도라! 도라!》에서 해임되었고, 1970년 《도데스카덴》의 흥행 실패 뒤인 1971년 자살을 시도했다가 회복한 뒤 소련의 지원을 받은 《데르수 우잘라》(1975)로 경력을 재건했다.",
+  "akira-kurosawa.life_arc.6": "《카게무샤》(1980)와 《란》(1985)으로 다시 국제적 찬사를 받았고, 1990년 아카데미 명예상을 받았으며 1998년 도쿄에서 세상을 떠났다.",
+  "akira-kurosawa.legacy":
+    "구로사와는 오늘날 영화사에서 가장 영향력 있는 감독 중 한 명으로 널리 평가받으며, 그의 후반기 작품을 지원했던 조지 루카스와 프랜시스 포드 코폴라를 비롯한 여러 감독이 그에게서 받은 영향을 공개적으로 밝혀 왔다. 전후의 화려한 데뷔, 1970년대 초의 극심한 국내 활동 위기, 그리고 국제 자본에 의지한 후반기의 부활로 이어지는 그의 경력 자체가, 1960~70년대 일본 영화 산업이 위축되는 가운데 스튜디오 시대의 거장 감독들이 겪어야 했던 어려움을 보여주는 상징적인 사례로 자주 인용된다.",
+
+  "ludwig-van-beethoven.achievement.1":
+    "대략 세 시기에 걸쳐 교향곡 9곡, 피아노 소나타 32곡, 그리고 수많은 실내악·합창 작품을 작곡했다 — 제3번(《에로이카》)과 제5번 교향곡, 그리고 청력을 거의 완전히 잃은 뒤 완성하고 초연한 후기의 제9번 교향곡(1824)이 대표적이다. 이 작품 세계는 서양음악사에서 고전주의에서 낭만주의로 넘어가는 중심축으로 평가받는다.",
+  "ludwig-van-beethoven.achievement.2":
+    "제3번 교향곡(1803~04년), 제5번 교향곡(1808년), 오페라 《피델리오》(1805년 초연) 등 중기 \"영웅적\" 시기의 작품들은 하이든과 모차르트에게서 물려받은 관습을 넘어 기악음악의 감정적 폭과 형식적 야심을 확장시켰고, 이후 낭만주의 시대 관현악 작곡가들이 출발점으로 삼는 전범이 되었다.",
+  "ludwig-van-beethoven.moment.1":
+    "의사의 권고에 따라 1802년 4월부터 10월까지 빈 외곽의 하일리겐슈타트에 은거하던 시기, 베토벤은 형제들에게 보내는 편지 한 통을 썼다 — 끝내 부치지 않은 채 그의 사후에야 발견된 이 편지에는 심해지는 청력 상실에 대한 절망과 자살 충동, 그리고 그럼에도 작곡을 계속하겠다는 다짐이 함께 담겨 있었다.",
+  "ludwig-van-beethoven.moment.2":
+    "1809년, 나폴레옹의 동생 제롬 보나파르트로부터 빈을 떠나게 될 궁정 자리를 제안받자, 베토벤은 루돌프 대공, 킨스키 공, 로프코비츠 공 세 귀족 후원자로부터 연간 4천 플로린의 연금을 받는 조건으로 직접 협상해 빈에 남았다. 그러나 이 약속은 실제로는 순탄치 않아서, 킨스키는 1812년 사망했고 로프코비츠는 1811년 파산했으며, 베토벤은 자신이 받아야 할 몫의 일부를 되찾기 위해 소송까지 벌여야 했다.",
+  "ludwig-van-beethoven.turning_point.1":
+    "베토벤이 1815년 한 지인에게 밝힌 바로는 1798년부터 시작되었다는 청력 상실은 이후 약 20년에 걸쳐 진행되어, 본인의 말에 따르면 말년에는 낮은 음과 갑작스러운 큰 소리 정도만 구별할 수 있는 상태가 되었다. 그럼에도 그는 연주를 직접 듣고 확인하는 방식이 아니라 청력 상실에 맞춰 조정한 작곡 방식으로 주요 작품들을 계속 써 나갔고, 1824년에는 제9번 교향곡을 완성해 직접 초연을 지휘했다.",
+  "ludwig-van-beethoven.interpretation.turning_point.1":
+    "프로필의 높은 자원 활용력(resourcefulness) 점수와 맞닿아 있다 — 단순히 역경 속에서도 버텨냈다는 차원을 넘어, 실질적인 제약에 맞서 작곡 방식 자체를 대체 수단으로 바꾼 구체적인 사례다.",
+  "ludwig-van-beethoven.life_arc.1": "본에서 태어났다.",
+  "ludwig-van-beethoven.life_arc.2": "1792년 11월 빈으로 완전히 거처를 옮겼고, 그 직후 아버지의 부고를 접했다.",
+  "ludwig-van-beethoven.life_arc.3": "1802년 하일리겐슈타트에 은거하며 훗날 '하일리겐슈타트 유서'로 알려지는 편지를 썼다.",
+  "ludwig-van-beethoven.life_arc.4": "제3번·제5번 교향곡을 비롯한 중기 \"영웅적\" 시기의 작품들을 작곡했다.",
+  "ludwig-van-beethoven.life_arc.5": "1809년 세 귀족 후원자로부터 연금을 확보해 빈에 남았다.",
+  "ludwig-van-beethoven.life_arc.6": "청력을 거의 완전히 잃은 뒤인 1824년 제9번 교향곡을 완성·초연했고, 1827년 빈에서 세상을 떠났다.",
+  "ludwig-van-beethoven.legacy":
+    "자신의 직업에서 가장 핵심적인 감각을 잃고도 이를 견뎌내며 교향곡과 실내악의 형식을 확장해 나간 베토벤의 행보는, 서양 예술사에서 작품이 개인의 처지를 넘어서는 가장 인상적인 사례 가운데 하나로 흔히 꼽힌다. 그의 교향곡·소나타·현악사중주는 이백 년이 지난 지금도 관현악과 실내악의 핵심 레퍼토리로 남아 있다.",
+
+  "hayao-miyazaki.achievement.1":
+    "자신의 만화를 원작으로 한 《바람계곡의 나우시카》(1984)의 성공에 힘입어, 1985년 오랜 동료 다카하타 이사오와 함께 스튜디오 지브리를 설립했다. 이 스튜디오는 세계적으로 가장 높은 평가를 받는 애니메이션 제작사 중 하나가 되었고, 미야자키는 이후 40년 가까이 스튜디오의 대표작 대부분을 연출하거나 각본에 참여했다.",
+  "hayao-miyazaki.achievement.2":
+    "《센과 치히로의 행방불명》(2001)을 연출해 개봉 당시 일본 역대 흥행 1위에 오르고 아카데미 장편 애니메이션상을 받았으며, 20여 년이 지난 뒤 《그대들은 어떻게 살 것인가》(2023)로 같은 상을 다시 받았다 — 같은 감독이 아카데미상을 두 번 받기까지 이례적으로 긴 간격이었다.",
+  "hayao-miyazaki.achievement.3":
+    "《모노노케 히메》(1997)는 일본 아카데미상 최우수작품상을 받은 최초의 애니메이션 영화가 되었고, 23억 5천만 엔의 제작비로 당시 일본 애니메이션 사상 최고 제작비 기록을 세웠으며, 개봉 이후 여러 달 동안 일본 국내 흥행 1위 자리를 지켰다.",
+  "hayao-miyazaki.moment.1":
+    "1964년, 도에이 동화의 젊은 애니메이터였던 시절 노동조합 서기장을 맡았고, 이를 계기로 당시 부위원장이던 다카하타 이사오와 평생에 걸친 우정과 창작 동반자 관계를 맺었다 — 훗날 두 사람은 함께 스튜디오 지브리를 세우게 된다.",
+  "hayao-miyazaki.moment.2":
+    "1998년 1월, 장편 연출에서 은퇴하겠다고 발표했지만, 후계자로 지목되었던 감독 곤도 요시후미가 같은 해 1월 21일 갑작스레 세상을 떠나자 며칠 만에 복귀해 《센과 치히로의 행방불명》을 연출했다 — 그의 경력에서 여러 차례 있었던 '은퇴 선언 후 번복' 가운데 하나였으며, 마지막 번복은 2016년으로, 이후 《그대들은 어떻게 살 것인가》(2023)를 만들었다.",
+  "hayao-miyazaki.life_arc.1": "1941년 도쿄에서 네 형제 중 둘째로 태어났다. 아버지는 제2차 세계대전 당시 항공기 부품을 제조하는 회사를 경영했다.",
+  "hayao-miyazaki.life_arc.2": "전쟁 중 소개(疏開)를 겪었으며, 그의 가장 오래된 기억 중 일부는 폭격으로 폐허가 된 도시의 모습이다.",
+  "hayao-miyazaki.life_arc.3": "1963년 애니메이션 제작사 도에이 동화에 입사했다.",
+  "hayao-miyazaki.life_arc.4": "《바람계곡의 나우시카》(1984)를 연출한 뒤, 1985년 다카하타 이사오와 함께 스튜디오 지브리를 설립했다.",
+  "hayao-miyazaki.life_arc.5": "《모노노케 히메》(1997)와 《센과 치히로의 행방불명》(2001)을 연출했으며, 후자로 아카데미 장편 애니메이션상을 받았다.",
+  "hayao-miyazaki.life_arc.6": "2013년 장편영화 연출에서 은퇴를 선언했으나 이후 복귀해 《그대들은 어떻게 살 것인가》(2023)를 연출, 두 번째 아카데미 장편 애니메이션상을 받았다.",
+  "hayao-miyazaki.legacy":
+    "손으로 그린 작화에 대한 엄격한 원칙, 반복적으로 등장하는 자연·반전(反戰) 주제의식, 그리고 주체적인 여성 주인공들의 결합은 스튜디오 지브리의 작품들을 그 시대 가장 국제적으로 인정받는 애니메이션 작품의 반열에 올려놓는 데 기여했다. 20여 년의 간격을 두고 각각 아카데미상을 받은 《센과 치히로의 행방불명》과 《그대들은 어떻게 살 것인가》는, 애니메이션을 주로 다루는 감독으로서는 보기 드문 꾸준한 국제적 평가를 보여준다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

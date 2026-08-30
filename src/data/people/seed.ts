@@ -246,6 +246,30 @@ const seeds: PersonSeed[] = [
     impactDomains: ["scientific", "educational"],
     tagIds: ["nobel_laureate", "generalist", "communicator"],
     archetypeIds: ["scientific_explorer", "cross_disciplinary_generalist"],
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): the proactive_agency rationale below already documents the
+    // Rogers Commission O-ring demonstration this profile's Turning Point
+    // is built on. The following ADDITIONAL editorial-content claims were
+    // verified via a direct fetch and inspection of src_feynman_wikipedia
+    // on 2026-08-29, not assumed from the URL's mere presence in this
+    // array --
+    //   - shared the 1965 Nobel Prize in Physics with Julian Schwinger and
+    //     Sin-Itiro Tomonaga for quantum electrodynamics work, including
+    //     Feynman diagrams and the path-integral formulation;
+    //   - delivered the 1961-1964 Caltech undergraduate lectures published
+    //     as The Feynman Lectures on Physics;
+    //   - at Los Alamos, spent off-hours testing colleagues' combination
+    //     locks and leaving prank notes, later recounted in his memoir
+    //     Surely You're Joking, Mr. Feynman!;
+    //   - while a visiting professor in Brazil (1949-1952), learned the
+    //     frigideira and became an amateur bongo/conga player, later
+    //     sitting in with pit orchestras for musicals;
+    //   - the same article/memoir also documents him "holding meetings in
+    //     strip clubs," "hiring a student as a nude life model," and
+    //     "pretending to be an undergraduate to deceive younger women" --
+    //     his own self-reported conduct, used for this profile's
+    //     Complexity item as plain documented fact, not inferred, not
+    //     diagnosed, and not extended beyond what the article states.
     sources: [wiki("feynman", "Richard Feynman"), bio("feynman", "James Gleick, Genius (1992)")],
     // Verified 2026-08 via a direct fetch of the Commons file page: a
     // Manhattan-Project-era Los Alamos National Laboratory archive photo,
@@ -499,6 +523,27 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg",
       attribution: "Natasha Baucas",
     },
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): the proactive_agency rationale below already documents
+    // the 1985 Ghibli founding this profile's Achievement 1 is built on.
+    // The following ADDITIONAL claims were verified via a direct fetch and
+    // inspection of src_miyazaki_wikipedia on 2026-08-29 --
+    //   - directed Nausicaä of the Valley of the Wind (1984, adapted from
+    //     his own manga), whose success preceded Ghibli's founding;
+    //   - Princess Mononoke (1997): first animated film to win the Japan
+    //     Academy Film Prize for Picture of the Year, ¥2.35 billion budget
+    //     (then the most expensive Japanese animated film), Japan's top
+    //     domestic grosser for several months after release;
+    //   - Spirited Away (2001): Japan's highest-grossing film at release,
+    //     Academy Award for Best Animated Feature; The Boy and the Heron
+    //     (2023) won the same award more than two decades later;
+    //   - in 1964 at Toei Doga, became the labor union's chief secretary,
+    //     forming a lifelong friendship/creative partnership with the
+    //     union's vice-chairman, Isao Takahata;
+    //   - announced retirement in January 1998, returned within days after
+    //     Yoshifumi Kondō's death on January 21, 1998 to direct Spirited
+    //     Away; announced retirement again in 2013, reversed in 2016 to
+    //     make The Boy and the Heron.
     sources: [
       wiki("miyazaki", "Hayao Miyazaki"),
       bio("miyazaki", "Hayao Miyazaki, Starting Point: 1979-1996 (1996)"),
@@ -769,6 +814,25 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Serena_Williams_Doha_2013_(cropped).jpg",
       attribution: "Photograph by Vinod Divakaran / Doha Stadium Plus Qatar, 2013, CC BY 2.0",
     },
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): the proactive_agency rationale below already documents
+    // the maternal-health advocacy following her childbirth complications
+    // this profile's Turning Point is built on. The following ADDITIONAL
+    // claims were verified via a direct fetch and inspection of
+    // src_serena_wikipedia on 2026-08-29 --
+    //   - 23 Grand Slam singles titles (1995-2022 career), most in the
+    //     Open Era; Career Golden Slam in singles and doubles;
+    //   - held all four major titles at once twice (2002-2003, 2014-2015,
+    //     the "Serena Slam");
+    //   - father Richard Williams moved the family to Compton, California
+    //     and coached Serena and Venus there from early childhood;
+    //   - won the 2017 Australian Open (23rd major) at ~8 weeks pregnant,
+    //     defeating Venus in the final;
+    //   - after her September 2017 childbirth, developed a pulmonary
+    //     embolism and related complications; the article states medical
+    //     staff did not initially act on her own account of her symptoms
+    //     until she pressed for specific tests; announced retirement
+    //     ("evolution") in 2022.
     sources: [
       wiki("serena", "Serena Williams"),
       bio("serena", "Serena Williams, On the Line (2009)"),

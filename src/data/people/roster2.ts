@@ -202,6 +202,28 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_(Stieler,_1820).jpg",
       attribution: "Painted from life by Joseph Karl Stieler, 1820, Beethoven-Haus, Bonn, Public Domain",
     },
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): this profile's own rationale below already documents the
+    // deafness-driven method change and the 1809 three-patron annuity this
+    // profile's Turning Point and a Moment are built on. The following
+    // ADDITIONAL specifics were verified via a direct fetch and inspection
+    // of src_beethoven_wikipedia on 2026-08-29 --
+    //   - moved permanently to Vienna in November 1792, shortly before
+    //     learning of his father's death;
+    //   - told pianist Charles Neate in 1815 that his hearing loss began
+    //     in 1798; secluded himself at Heiligenstadt April-October 1802,
+    //     where he wrote the never-sent letter to his brothers (discovered
+    //     posthumously) now called the Heiligenstadt Testament; the
+    //     article states he "never became totally deaf," still able to
+    //     distinguish low tones and sudden loud sounds in his final years;
+    //   - completed and premiered the Ninth Symphony in 1824;
+    //   - the three 1809 patrons were Archduke Rudolph, Prince Kinsky, and
+    //     Prince Lobkowitz; Kinsky died in a riding accident in 1812,
+    //     Lobkowitz went bankrupt in 1811, and Beethoven pursued legal
+    //     action, recovering part of what he was owed by 1815;
+    //   - middle-period ("heroic") works cited in Achievements: the Third
+    //     Symphony (Eroica, 1803-04), Fifth Symphony (1808), opera Fidelio
+    //     (premiered 1805).
     sources: [wiki("beethoven", "Ludwig van Beethoven")],
     doNotCopyKeys: ["dontcopy.beethoven.volatility"],
     rows: {
@@ -478,6 +500,39 @@ const seeds: PersonSeed[] = [
     },
     // Ancient sourcing: scored on a smaller, better-corroborated subset rather
     // than diluted across all 30. See file header.
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): the proactive_agency rationale below already documents
+    // the private teaching pioneered open to all social classes, and the
+    // Chen/Cai hardship anecdote, that this profile's Achievement and one
+    // Moment are built on. The following ADDITIONAL claims were verified
+    // via a direct fetch and inspection of src_confucius_wikipedia on
+    // 2026-08-29, preserving the article's own chronology caveats rather
+    // than flattening them --
+    //   - born c. 551 BCE in the state of Lu (present-day Qufu, Shandong);
+    //     father died when he was three, raised by his mother;
+    //   - held official posts in Lu, reportedly rising to Minister of
+    //     Crime, by 501 BCE; left Lu c. 497 BCE after his reforms went
+    //     unadopted, then traveled among neighboring states for over a
+    //     decade;
+    //   - per the Analects (the article states this was compiled by
+    //     disciples "not until many years after his death," not a
+    //     contemporary record), Confucius described himself as "a
+    //     transmitter, not a maker" -- consistent with, and more specific
+    //     than, this profile's own existing "positions him as preserving
+    //     received wisdom" framing above;
+    //   - from c. 140 BCE, ideas developed under his name became the Han
+    //     dynasty's official state philosophy and the basis of its
+    //     civil-service examinations, a status that endured (with
+    //     interruptions) into 1912; the article distinguishes Confucius's
+    //     own teaching from later elaboration by Mencius, Xunzi, and
+    //     Han/Song compilers (Zhu Xi named specifically), and separately
+    //     notes 20th-century Cultural Revolution attacks on the LATER
+    //     Confucian tradition. EVIDENCE-REMEDIATION DECISION: this material
+    //     is about later reception/institutional transformation of his
+    //     name, not a contested fact about Confucius's OWN conduct or
+    //     legacy -- moved into this profile's Legacy synthesis, not kept
+    //     as a Complexity item (a prior draft of this profile had
+    //     mis-categorized it as one; corrected here).
     sources: [wiki("confucius", "Confucius"), bio("confucius", "The Analects (compiled by disciples)")],
     rows: {
       curiosity: [68, 0.6, "s", "N"],
@@ -813,6 +868,27 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg",
       attribution: "Napoleon Sarony",
     },
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): the proactive_agency rationale below already documents
+    // the Edison pay dispute and the self-directed shift to Westinghouse
+    // this profile's Turning Point and a Moment are built on. The
+    // following ADDITIONAL claims were verified via a direct fetch and
+    // inspection of src_tesla_wikipedia on 2026-08-29 --
+    //   - patented an AC induction motor in 1888, licensed to Westinghouse
+    //     that year ($60,000 cash/stock plus $2.50/horsepower royalty);
+    //     Westinghouse's AC system powered the 1893 World's Columbian
+    //     Exposition and won the Niagara Falls power contract;
+    //   - introduced the resonant high-voltage transformer known as the
+    //     Tesla coil in 1891;
+    //   - in 1891, released Westinghouse from its royalty-payment clause
+    //     to help the company survive the aftermath of the Panic of 1890;
+    //   - built the Wardenclyffe Tower (1901-1905) on Long Island as a
+    //     wireless transmission station after J.P. Morgan's $150,000
+    //     investment; the project collapsed in 1905 after Marconi's
+    //     December 1901 transatlantic transmission and the loss of
+    //     further backing;
+    //   - died in New York in January 1943, effectively bankrupt, most
+    //     patents already expired.
     sources: [wiki("tesla", "Nikola Tesla")],
     doNotCopyKeys: ["dontcopy.tesla.commercialisation"],
     rows: {
@@ -1171,6 +1247,26 @@ const seeds: PersonSeed[] = [
         "This is not a portrait. No authenticated likeness of Ibn Khaldun survives. This image shows folio 7a from a lifetime manuscript of his al-Muqaddima (MS Atıf Efendi 1936, Süleymaniye Library, Istanbul), which the manuscript's own annotation identifies as carrying his handwriting.",
       kind: "editorial_nonlikeness",
     },
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): the opportunity_sensing/proactive_agency rationale below
+    // already documents the Muqaddimah/asabiyyah achievement and the
+    // self-initiated Qalat Ibn Salama retreat this profile's Achievement
+    // and Turning Point are built on. The following ADDITIONAL claims were
+    // verified via a direct fetch and inspection of
+    // src_ibnkhaldun_wikipedia on 2026-08-29 --
+    //   - born 27 May 1332 in Tunis; lost both parents to the Black Death
+    //     in 1348-1349 at age 17;
+    //   - imprisoned 22 months (1357) under the Marinid sultan in Fez
+    //     after a political dispute;
+    //   - appointed Grand Qadi (Maliki) in Cairo by Sultan Barquq in 1384;
+    //     six separate appointments/dismissals to that post through his
+    //     death in 1406;
+    //   - during Timur's 1401 siege of Damascus, was lowered by rope over
+    //     the city wall and held a series of meetings with him, an episode
+    //     his own autobiography (At-Ta'rif) reports firsthand; afterward
+    //     wrote a report on Timur for the Marinid rulers of Fez;
+    //   - died 17 March 1406 in Cairo, one month after his sixth
+    //     appointment as qadi.
     sources: [
       wiki("ibnkhaldun", "Ibn Khaldun"),
       bio("ibnkhaldun", "Ibn Khaldun, The Muqaddimah (1377), trans. Franz Rosenthal (1958)"),
@@ -1622,6 +1718,39 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
       attribution: "映画の友 (Eiga no Tomo) magazine, December 1953 — photographer uncredited",
     },
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): this profile's own rationale below already references the
+    // Dodesukaden commercial failure and Dersu Uzala's Soviet (not
+    // Japanese) funding. The following ADDITIONAL facts, INCLUDING THE
+    // 1971 SUICIDE ATTEMPT this profile's Turning Point is built on, were
+    // verified via a direct fetch and inspection of src_kurosawa_wikipedia
+    // on 2026-08-29 --
+    //   - Rashomon (1950) won the Golden Lion at the 1951 Venice Film
+    //     Festival, then earned $35,000 in three weeks at a single New
+    //     York theater on U.S. release;
+    //   - Seven Samurai (1954): 45-day screenplay retreat, 148 days of
+    //     shooting; voted best Japanese film ever in a 1999 critics' poll,
+    //     ranked 20th worldwide in the 2022 Sight & Sound poll; influenced
+    //     Star Wars (1977);
+    //   - for The Most Beautiful (1944), had his cast live in a real
+    //     factory, eat factory food, and use only their character names;
+    //   - fired from the Hollywood co-production Tora! Tora! Tora! in
+    //     1968, three weeks in, officially cited as fatigue;
+    //   - the article states plainly: "On December 22, 1971, he slit his
+    //     wrists and throat multiple times. He survived the suicide
+    //     attempt, with his health recovering fairly quickly." Reported in
+    //     this profile as a plain historical fact the article itself
+    //     states, sequenced directly after the Tora! Tora! Tora! firing
+    //     and Dodesukaden's failure -- no diagnostic gloss added, no
+    //     speculation about cause beyond what the article itself
+    //     sequences, no claim that the attempt itself produced his later
+    //     international funding (Dersu Uzala's Soviet backing is a
+    //     separate, already-documented fact, not presented as caused by
+    //     the attempt);
+    //   - Dersu Uzala (1975) won the Academy Award for Best Foreign
+    //     Language Film; Kagemusha (1980, Cannes Palme d'Or, backed in
+    //     part with help from George Lucas and Francis Ford Coppola) and
+    //     Ran (1985) followed; received an Academy Honorary Award in 1990.
     sources: [wiki("kurosawa", "Akira Kurosawa")],
     rows: {
       curiosity: [78, 0.6, "s", "N"],
@@ -2006,6 +2135,32 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg",
       attribution: "Ocoudis, CC BY-SA 4.0, via Wikimedia Commons",
     },
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): the proactive_agency rationale below already documents
+    // the 2021 Tokyo Olympics withdrawal this profile's Turning Point is
+    // built on. The following ADDITIONAL claims were verified via a
+    // direct fetch and inspection of src_biles_wikipedia on 2026-08-29 --
+    //   - born in Columbus, Ohio; adopted in 2003, with her younger
+    //     sister, by her maternal grandfather and his wife after a period
+    //     in foster care;
+    //   - across 2016/2020/2024 Olympics and six World Championships:
+    //     11 Olympic medals, 30 World Championship medals (23 gold);
+    //     first American and tenth gymnast from any country to medal on
+    //     every event at a single Worlds (2018, Doha); four skills across
+    //     vault/floor/beam carry the difficulty-rated name "the Biles";
+    //   - January 18, 2018: publicly stated USA Gymnastics team physician
+    //     Larry Nassar had sexually assaulted her and the organization
+    //     helped cover it up; awarded the Arthur Ashe Courage Award later
+    //     that year; wore a teal leotard at the 2018 U.S. Nationals in
+    //     solidarity with other survivors;
+    //   - at the 2018 Doha Worlds, went to the ER the night before
+    //     qualifying with a kidney stone, then won the all-around final by
+    //     1.7 points despite falls, and the first-ever world vault title
+    //     with a new named skill;
+    //   - withdrew from most Tokyo 2020 events citing "the twisties" (a
+    //     loss of spatial awareness while airborne) and her mental health;
+    //     returned in 2023, won Olympic all-around/vault gold again in
+    //     2024.
     sources: [wiki("biles", "Simone Biles")],
     rows: {
       curiosity: [55, 0.45, "i", "N"],
@@ -2116,7 +2271,63 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:20130918Yayoi_Kusama1_(cropped).jpg",
       attribution: "Cabinet Public Relations Office, Japan, 2013",
     },
-    sources: [wiki("kusama", "Yayoi Kusama")],
+    // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
+    // (2026-08): the resourcefulness/proactive_agency rationale below
+    // already documents the 1957 US move and O'Keeffe letter this
+    // profile's Moment 1 is built on. The following ADDITIONAL claims were
+    // verified via a direct fetch and inspection of src_kusama_wikipedia
+    // on 2026-08-29 --
+    //   - began the mirrored "Infinity Mirror Room" installations in
+    //     1965; a 2017 Hirshhorn Museum retrospective of six of these
+    //     rooms drew record attendance and traveled to five more North
+    //     American museums;
+    //   - represented Japan at the 1993 Venice Biennale; ranked among
+    //     Sotheby's top 50 artists by 2023 auction market survey, after
+    //     roughly two decades of comparative international obscurity
+    //     following her 1973 return to Japan;
+    //   - after her June 1963 Green Gallery soft-sculpture show, Claes
+    //     Oldenburg exhibited visually similar sewn soft sculptures that
+    //     September; the article cites art historian Midori Yamamura's
+    //     scholarship concluding Oldenburg was likely influenced by
+    //     Kusama's work, and states Kusama "became depressed over the
+    //     incident"; a similar pattern is noted with an Andy Warhol
+    //     installation shortly after Kusama's own photo-covered exhibit;
+    //   - returned to Japan in 1973 to an "unsympathetic" reception; in
+    //     1977, by her own choice, took up residence at a Tokyo
+    //     psychiatric hospital, continuing to work at a nearby studio "for
+    //     the rest of her life, by choice" (the article's own phrasing,
+    //     preserved rather than a diagnostic gloss) -- she has said making
+    //     art was what allowed her to keep going through this period,
+    //     paraphrased rather than directly quoted in the published
+    //     editorial text out of respect for the source's gravity.
+    // Racism-apology Complexity -- separately and additionally verified
+    // (2026-08) beyond src_kusama_wikipedia's own brief mention, via NBC
+    // News (see the new src_kusama_nbc_apology source added below): her
+    // 2003 memoir and other published writing contained derogatory,
+    // racially essentializing descriptions of Black people; ahead of her
+    // 2023 SFMOMA retrospective she apologized, telling the San Francisco
+    // Chronicle (as quoted by NBC News) that she "deeply regret[ted] using
+    // hurtful and offensive language" and that her work's message "has
+    // always been one of love, hope, compassion, and respect for all
+    // people."
+    // KUSAMA DIED 2026-08-14 (confirmed independently via CNN/NPR/
+    // Washington Post/ABC News/her official site, checked 2026-08-29) --
+    // this roster entry's isLiving/deathYear fields are now stale. NOT
+    // corrected here: out of scope for this editorial-content branch,
+    // flagged separately as its own roster-data follow-up task. The
+    // editorial content in src/data/people/editorial.ts and
+    // src/core/i18n/editorial.ts is deliberately written in tense-neutral
+    // language -- it states the death as a fact in Life Arc/Legacy without
+    // the rest of the profile asserting she is currently alive.
+    sources: [
+      wiki("kusama", "Yayoi Kusama"),
+      {
+        id: "src_kusama_nbc_apology",
+        kind: "press",
+        title: "NBC News — \"Yayoi Kusama apologizes for past derogatory comments about Black people ahead of new show\" (2023)",
+        url: "https://www.nbcnews.com/news/asian-america/yayoi-kusama-apologizes-racist-comments-black-people-ahead-new-art-sho-rcna121272",
+      },
+    ],
     rows: {
       curiosity: [70, 0.55, "s", "N"],
       analytical_rigor: [48, 0.4, "i", "N"],

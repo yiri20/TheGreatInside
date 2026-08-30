@@ -79,10 +79,16 @@ test.describe("Editorial sections — present for a pilot person", () => {
 });
 
 test.describe("Editorial sections — graceful absence for a non-pilot person", () => {
-  test("richard-feynman (no editorial content yet) shows none of the three headings and no orphan dividers", async ({
+  // Fixture migrated from richard-feynman (2026-08, Remaining-19 Editorial
+  // Completion Batch 1): feynman gained editorial content, so this now
+  // points at socrates, one of the 9 Tier-C people still with none -- same
+  // migration pattern already used when Ibn Khaldun and Socrates each
+  // gained a portrait and stopped being usable as the no-portrait fixture
+  // elsewhere in this suite.
+  test("socrates (no editorial content yet) shows none of the three headings and no orphan dividers", async ({
     page,
   }) => {
-    await page.goto("/en-US/people/richard-feynman", { waitUntil: "networkidle" });
+    await page.goto("/en-US/people/socrates", { waitUntil: "networkidle" });
     const headings = await page.locator("h2").allTextContents();
     expect(headings.some((h) => h.includes("Key Achievements"))).toBe(false);
     expect(headings.some((h) => h.includes("Moments That Reveal Them"))).toBe(false);

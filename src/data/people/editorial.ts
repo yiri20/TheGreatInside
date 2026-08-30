@@ -2287,4 +2287,352 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // Remaining-19 Editorial Completion Batch 1 (2026-08): the 10 highest-
+  // exposure of the 19 Tier-C people with zero editorial content, selected
+  // by a fresh composite of top-1/top-3 quiz-simulation match frequency
+  // (N=10,000) and Similar-People-rail in-degree, exposure weighted to
+  // dominate per this batch's brief. Every item's sourceIds trace to each
+  // person's own pre-existing src_*_wikipedia entry, directly re-fetched
+  // and inspected this session (not memory). See docs/checkpoints/
+  // editorial.md for the full ranking and selection record.
+  "simone-biles": {
+    achievements: [
+      { id: "simone-biles-achievement-1", textKey: "simone-biles.achievement.1", sourceIds: ["src_biles_wikipedia"] },
+      { id: "simone-biles-achievement-2", textKey: "simone-biles.achievement.2", sourceIds: ["src_biles_wikipedia"] },
+    ],
+    moments: [
+      { id: "simone-biles-moment-1", textKey: "simone-biles.moment.1", sourceIds: ["src_biles_wikipedia"] },
+      { id: "simone-biles-moment-2", textKey: "simone-biles.moment.2", sourceIds: ["src_biles_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "simone-biles-turning-point-1",
+        textKey: "simone-biles.turning_point.1",
+        interpretationKey: "simone-biles.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_biles_wikipedia"],
+      },
+    ],
+    lifeArc: [
+      { year: "1997", textKey: "simone-biles.life_arc.1", sourceIds: ["src_biles_wikipedia"] },
+      { year: "2013", textKey: "simone-biles.life_arc.2", sourceIds: ["src_biles_wikipedia"] },
+      { year: "2016", textKey: "simone-biles.life_arc.3", sourceIds: ["src_biles_wikipedia"] },
+      { year: "2018", textKey: "simone-biles.life_arc.4", sourceIds: ["src_biles_wikipedia"] },
+      { year: "2021", textKey: "simone-biles.life_arc.5", sourceIds: ["src_biles_wikipedia"] },
+      { year: "2024", textKey: "simone-biles.life_arc.6", sourceIds: ["src_biles_wikipedia"] },
+    ],
+    legacy: { textKey: "simone-biles.legacy", sourceIds: ["src_biles_wikipedia"] },
+  },
+
+  "serena-williams": {
+    achievements: [
+      { id: "serena-williams-achievement-1", textKey: "serena-williams.achievement.1", sourceIds: ["src_serena_wikipedia"] },
+      { id: "serena-williams-achievement-2", textKey: "serena-williams.achievement.2", sourceIds: ["src_serena_wikipedia"] },
+    ],
+    moments: [
+      { id: "serena-williams-moment-1", textKey: "serena-williams.moment.1", sourceIds: ["src_serena_wikipedia"] },
+      { id: "serena-williams-moment-2", textKey: "serena-williams.moment.2", sourceIds: ["src_serena_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "serena-williams-turning-point-1",
+        textKey: "serena-williams.turning_point.1",
+        interpretationKey: "serena-williams.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_serena_wikipedia"],
+      },
+    ],
+    lifeArc: [
+      { year: "1981", textKey: "serena-williams.life_arc.1", sourceIds: ["src_serena_wikipedia"] },
+      { year: "1995", textKey: "serena-williams.life_arc.2", sourceIds: ["src_serena_wikipedia"] },
+      { year: "1999", textKey: "serena-williams.life_arc.3", sourceIds: ["src_serena_wikipedia"] },
+      { year: "2002–2003", textKey: "serena-williams.life_arc.4", sourceIds: ["src_serena_wikipedia"] },
+      { year: "2017", textKey: "serena-williams.life_arc.5", sourceIds: ["src_serena_wikipedia"] },
+      { year: "2022", textKey: "serena-williams.life_arc.6", sourceIds: ["src_serena_wikipedia"] },
+    ],
+    legacy: { textKey: "serena-williams.legacy", sourceIds: ["src_serena_wikipedia"] },
+  },
+
+  // Evidence-remediation correction (2026-08, same batch): re-evaluated the
+  // earlier decision to omit a Complexity for Feynman's own documented
+  // conduct toward women. The prior justification ("not part of his
+  // primary domain of physics/teaching") was not the correct standard.
+  // Re-applying the actual Complexity test -- does well-supported evidence
+  // about his own conduct materially complicate a responsible modern
+  // profile? -- the answer is yes: it is described in his own memoir
+  // (Surely You're Joking, Mr. Feynman!), not an allegation, and it is
+  // exactly the kind of documented personal conduct increasingly
+  // discussed in modern reassessments of his legacy. Included below.
+  "richard-feynman": {
+    achievements: [
+      { id: "richard-feynman-achievement-1", textKey: "richard-feynman.achievement.1", sourceIds: ["src_feynman_wikipedia"] },
+      { id: "richard-feynman-achievement-2", textKey: "richard-feynman.achievement.2", sourceIds: ["src_feynman_wikipedia"] },
+    ],
+    moments: [
+      { id: "richard-feynman-moment-1", textKey: "richard-feynman.moment.1", sourceIds: ["src_feynman_wikipedia"] },
+      { id: "richard-feynman-moment-2", textKey: "richard-feynman.moment.2", sourceIds: ["src_feynman_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "richard-feynman-turning-point-1",
+        textKey: "richard-feynman.turning_point.1",
+        interpretationKey: "richard-feynman.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_feynman_wikipedia"],
+      },
+    ],
+    complexities: [
+      { id: "richard-feynman-complexities-1", textKey: "richard-feynman.complexities.1", sourceIds: ["src_feynman_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "1918", textKey: "richard-feynman.life_arc.1", sourceIds: ["src_feynman_wikipedia"] },
+      { year: "1943–1945", textKey: "richard-feynman.life_arc.2", sourceIds: ["src_feynman_wikipedia"] },
+      { year: "1950s–1960s", textKey: "richard-feynman.life_arc.3", sourceIds: ["src_feynman_wikipedia"] },
+      { year: "1965", textKey: "richard-feynman.life_arc.4", sourceIds: ["src_feynman_wikipedia"] },
+      { year: "1986", textKey: "richard-feynman.life_arc.5", sourceIds: ["src_feynman_wikipedia"] },
+      { year: "1988", textKey: "richard-feynman.life_arc.6", sourceIds: ["src_feynman_wikipedia"] },
+    ],
+    legacy: { textKey: "richard-feynman.legacy", sourceIds: ["src_feynman_wikipedia"] },
+  },
+
+  "ibn-khaldun": {
+    achievements: [
+      { id: "ibn-khaldun-achievement-1", textKey: "ibn-khaldun.achievement.1", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+      { id: "ibn-khaldun-achievement-2", textKey: "ibn-khaldun.achievement.2", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+    ],
+    moments: [
+      { id: "ibn-khaldun-moment-1", textKey: "ibn-khaldun.moment.1", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+      { id: "ibn-khaldun-moment-2", textKey: "ibn-khaldun.moment.2", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "ibn-khaldun-turning-point-1",
+        textKey: "ibn-khaldun.turning_point.1",
+        interpretationKey: "ibn-khaldun.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_ibnkhaldun_wikipedia"],
+      },
+    ],
+    lifeArc: [
+      { year: "1332", textKey: "ibn-khaldun.life_arc.1", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+      { year: "1348–1349", textKey: "ibn-khaldun.life_arc.2", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+      { year: "1352–1374", textKey: "ibn-khaldun.life_arc.3", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+      { year: "1375–1378", textKey: "ibn-khaldun.life_arc.4", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+      { year: "1384–1406", textKey: "ibn-khaldun.life_arc.5", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+      { year: "1401–1406", textKey: "ibn-khaldun.life_arc.6", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+    ],
+    legacy: { textKey: "ibn-khaldun.legacy", sourceIds: ["src_ibnkhaldun_wikipedia"] },
+  },
+
+  // Ancient-figure discipline (2026-08): Confucius's evidence is thin and
+  // his own political program went unadopted in his lifetime, so this
+  // profile deliberately runs 1 achievement / 2 moments / 0 turning points
+  // rather than padding for symmetry.
+  //
+  // Evidence-remediation correction (2026-08, same batch): an earlier
+  // draft carried a "complexities" item about later Han-dynasty
+  // Confucianism diverging from Confucius's own teaching. On review
+  // against the Complexity standard ("the person's OWN actions/legacy are
+  // historically contested"), that material is about later reception and
+  // institutional transformation of his name, not a contested fact about
+  // Confucius himself -- it has been moved into Legacy below, where "what
+  // endured or changed because of the person" is the correct place for it,
+  // and the complexities field removed rather than kept for structural
+  // richness.
+  "confucius": {
+    achievements: [{ id: "confucius-achievement-1", textKey: "confucius.achievement.1", sourceIds: ["src_confucius_wikipedia"] }],
+    moments: [
+      { id: "confucius-moment-1", textKey: "confucius.moment.1", sourceIds: ["src_confucius_wikipedia"] },
+      { id: "confucius-moment-2", textKey: "confucius.moment.2", sourceIds: ["src_confucius_wikipedia"] },
+    ],
+    turningPoints: [],
+    lifeArc: [
+      { year: "c. 551 BCE", textKey: "confucius.life_arc.1", sourceIds: ["src_confucius_wikipedia"] },
+      { year: "c. 501 BCE", textKey: "confucius.life_arc.2", sourceIds: ["src_confucius_wikipedia"] },
+      { year: "c. 497 BCE", textKey: "confucius.life_arc.3", sourceIds: ["src_confucius_wikipedia"] },
+      { year: "c. 484–479 BCE", textKey: "confucius.life_arc.4", sourceIds: ["src_confucius_wikipedia"] },
+      { year: "After 479 BCE", textKey: "confucius.life_arc.5", sourceIds: ["src_confucius_wikipedia"] },
+    ],
+    legacy: { textKey: "confucius.legacy", sourceIds: ["src_confucius_wikipedia"] },
+  },
+
+  // Tense-neutral by design (2026-08): Kusama died 2026-08-14, confirmed
+  // independently (CNN/NPR/Washington Post/ABC/her official site) but the
+  // roster record (isLiving/deathYear in roster2.ts) has not been updated
+  // yet -- that is an out-of-scope roster-data fix, flagged separately, not
+  // this editorial task's to make. life_arc.6 and legacy below state the
+  // death date as fact (it is one) without the rest of the profile
+  // asserting she is currently alive or dead either way.
+  //
+  // Complexities provenance (2026-08, evidence-remediation pass): the
+  // racism-apology item is backed by both this person's existing
+  // src_kusama_wikipedia entry (which already states the 2023 apology
+  // briefly) AND a newly-added src_kusama_nbc_apology press source (NBC
+  // News, Oct 2023) carrying the specific detail (her 2003 memoir, the
+  // SFMOMA context, her direct quote) -- not just the bare fact that a
+  // Wikipedia URL exists in this person's sources array.
+  "yayoi-kusama": {
+    achievements: [
+      { id: "yayoi-kusama-achievement-1", textKey: "yayoi-kusama.achievement.1", sourceIds: ["src_kusama_wikipedia"] },
+      { id: "yayoi-kusama-achievement-2", textKey: "yayoi-kusama.achievement.2", sourceIds: ["src_kusama_wikipedia"] },
+    ],
+    moments: [
+      { id: "yayoi-kusama-moment-1", textKey: "yayoi-kusama.moment.1", sourceIds: ["src_kusama_wikipedia"] },
+      { id: "yayoi-kusama-moment-2", textKey: "yayoi-kusama.moment.2", sourceIds: ["src_kusama_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "yayoi-kusama-turning-point-1",
+        textKey: "yayoi-kusama.turning_point.1",
+        interpretationKey: "yayoi-kusama.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_kusama_wikipedia"],
+      },
+    ],
+    complexities: [
+      {
+        id: "yayoi-kusama-complexities-1",
+        textKey: "yayoi-kusama.complexities.1",
+        sourceIds: ["src_kusama_wikipedia", "src_kusama_nbc_apology"],
+      },
+    ],
+    lifeArc: [
+      { year: "1929", textKey: "yayoi-kusama.life_arc.1", sourceIds: ["src_kusama_wikipedia"] },
+      { year: "1957–1958", textKey: "yayoi-kusama.life_arc.2", sourceIds: ["src_kusama_wikipedia"] },
+      { year: "1960s", textKey: "yayoi-kusama.life_arc.3", sourceIds: ["src_kusama_wikipedia"] },
+      { year: "1973", textKey: "yayoi-kusama.life_arc.4", sourceIds: ["src_kusama_wikipedia"] },
+      { year: "1977", textKey: "yayoi-kusama.life_arc.5", sourceIds: ["src_kusama_wikipedia"] },
+      { year: "1993–2026", textKey: "yayoi-kusama.life_arc.6", sourceIds: ["src_kusama_wikipedia"] },
+    ],
+    legacy: { textKey: "yayoi-kusama.legacy", sourceIds: ["src_kusama_wikipedia"] },
+  },
+
+  "nikola-tesla": {
+    achievements: [
+      { id: "nikola-tesla-achievement-1", textKey: "nikola-tesla.achievement.1", sourceIds: ["src_tesla_wikipedia"] },
+      { id: "nikola-tesla-achievement-2", textKey: "nikola-tesla.achievement.2", sourceIds: ["src_tesla_wikipedia"] },
+    ],
+    moments: [
+      { id: "nikola-tesla-moment-1", textKey: "nikola-tesla.moment.1", sourceIds: ["src_tesla_wikipedia"] },
+      { id: "nikola-tesla-moment-2", textKey: "nikola-tesla.moment.2", sourceIds: ["src_tesla_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "nikola-tesla-turning-point-1",
+        textKey: "nikola-tesla.turning_point.1",
+        interpretationKey: "nikola-tesla.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_tesla_wikipedia"],
+      },
+    ],
+    lifeArc: [
+      { year: "1856", textKey: "nikola-tesla.life_arc.1", sourceIds: ["src_tesla_wikipedia"] },
+      { year: "1884", textKey: "nikola-tesla.life_arc.2", sourceIds: ["src_tesla_wikipedia"] },
+      { year: "1888", textKey: "nikola-tesla.life_arc.3", sourceIds: ["src_tesla_wikipedia"] },
+      { year: "1893", textKey: "nikola-tesla.life_arc.4", sourceIds: ["src_tesla_wikipedia"] },
+      { year: "1901–1905", textKey: "nikola-tesla.life_arc.5", sourceIds: ["src_tesla_wikipedia"] },
+      { year: "1943", textKey: "nikola-tesla.life_arc.6", sourceIds: ["src_tesla_wikipedia"] },
+    ],
+    legacy: { textKey: "nikola-tesla.legacy", sourceIds: ["src_tesla_wikipedia"] },
+  },
+
+  // Kurosawa's 1971 suicide attempt (turning_point.1) is reported here only
+  // as the well-documented historical event this person's own Wikipedia
+  // article states plainly -- no diagnosis, no speculation about cause
+  // beyond the two professional setbacks (the Tora! Tora! Tora! firing,
+  // Dodesukaden's commercial failure) the article itself sequences
+  // immediately beforehand.
+  //
+  // Evidence-remediation re-review (2026-08, same batch): re-checked
+  // against the sensitive-content standard -- directly sourced (yes, the
+  // article states it plainly), genuinely marks a documented career
+  // before/after (yes), written neutrally (the wording was tightened this
+  // pass to remove "the start of an internationally financed final act"
+  // framing, which read as implying the attempt itself produced his later
+  // international funding rather than merely preceding it), no diagnostic
+  // speculation (none added), no sensational wording ("attempted suicide,"
+  // not the article's more graphic phrasing), no causal claim that the
+  // attempt produced his later success (Dersu Uzala's Soviet funding is
+  // stated as a separate, already-documented fact that followed, not one
+  // the attempt caused). Retained as a Turning Point on this basis.
+  "akira-kurosawa": {
+    achievements: [
+      { id: "akira-kurosawa-achievement-1", textKey: "akira-kurosawa.achievement.1", sourceIds: ["src_kurosawa_wikipedia"] },
+      { id: "akira-kurosawa-achievement-2", textKey: "akira-kurosawa.achievement.2", sourceIds: ["src_kurosawa_wikipedia"] },
+    ],
+    moments: [
+      { id: "akira-kurosawa-moment-1", textKey: "akira-kurosawa.moment.1", sourceIds: ["src_kurosawa_wikipedia"] },
+      { id: "akira-kurosawa-moment-2", textKey: "akira-kurosawa.moment.2", sourceIds: ["src_kurosawa_wikipedia"] },
+    ],
+    turningPoints: [
+      { id: "akira-kurosawa-turning-point-1", textKey: "akira-kurosawa.turning_point.1", sourceIds: ["src_kurosawa_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "1910", textKey: "akira-kurosawa.life_arc.1", sourceIds: ["src_kurosawa_wikipedia"] },
+      { year: "1936", textKey: "akira-kurosawa.life_arc.2", sourceIds: ["src_kurosawa_wikipedia"] },
+      { year: "1943", textKey: "akira-kurosawa.life_arc.3", sourceIds: ["src_kurosawa_wikipedia"] },
+      { year: "1950–1954", textKey: "akira-kurosawa.life_arc.4", sourceIds: ["src_kurosawa_wikipedia"] },
+      { year: "1968–1975", textKey: "akira-kurosawa.life_arc.5", sourceIds: ["src_kurosawa_wikipedia"] },
+      { year: "1980–1998", textKey: "akira-kurosawa.life_arc.6", sourceIds: ["src_kurosawa_wikipedia"] },
+    ],
+    legacy: { textKey: "akira-kurosawa.legacy", sourceIds: ["src_kurosawa_wikipedia"] },
+  },
+
+  "ludwig-van-beethoven": {
+    achievements: [
+      { id: "ludwig-van-beethoven-achievement-1", textKey: "ludwig-van-beethoven.achievement.1", sourceIds: ["src_beethoven_wikipedia"] },
+      { id: "ludwig-van-beethoven-achievement-2", textKey: "ludwig-van-beethoven.achievement.2", sourceIds: ["src_beethoven_wikipedia"] },
+    ],
+    moments: [
+      { id: "ludwig-van-beethoven-moment-1", textKey: "ludwig-van-beethoven.moment.1", sourceIds: ["src_beethoven_wikipedia"] },
+      { id: "ludwig-van-beethoven-moment-2", textKey: "ludwig-van-beethoven.moment.2", sourceIds: ["src_beethoven_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "ludwig-van-beethoven-turning-point-1",
+        textKey: "ludwig-van-beethoven.turning_point.1",
+        interpretationKey: "ludwig-van-beethoven.interpretation.turning_point.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_beethoven_wikipedia"],
+      },
+    ],
+    lifeArc: [
+      { year: "1770", textKey: "ludwig-van-beethoven.life_arc.1", sourceIds: ["src_beethoven_wikipedia"] },
+      { year: "1792", textKey: "ludwig-van-beethoven.life_arc.2", sourceIds: ["src_beethoven_wikipedia"] },
+      { year: "1802", textKey: "ludwig-van-beethoven.life_arc.3", sourceIds: ["src_beethoven_wikipedia"] },
+      { year: "1803–1808", textKey: "ludwig-van-beethoven.life_arc.4", sourceIds: ["src_beethoven_wikipedia"] },
+      { year: "1809", textKey: "ludwig-van-beethoven.life_arc.5", sourceIds: ["src_beethoven_wikipedia"] },
+      { year: "1824–1827", textKey: "ludwig-van-beethoven.life_arc.6", sourceIds: ["src_beethoven_wikipedia"] },
+    ],
+    legacy: { textKey: "ludwig-van-beethoven.legacy", sourceIds: ["src_beethoven_wikipedia"] },
+  },
+
+  // 3 achievements / 2 moments / 0 turning points, deliberately: his
+  // repeatedly announced-then-reversed retirements are a documented pattern
+  // but not a single before/after break (already the roster file's own
+  // reasoning for leaving belief_updating unscored on this person) -- not
+  // padded with a manufactured turning point to hit symmetry with the rest
+  // of this batch.
+  "hayao-miyazaki": {
+    achievements: [
+      { id: "hayao-miyazaki-achievement-1", textKey: "hayao-miyazaki.achievement.1", sourceIds: ["src_miyazaki_wikipedia"] },
+      { id: "hayao-miyazaki-achievement-2", textKey: "hayao-miyazaki.achievement.2", sourceIds: ["src_miyazaki_wikipedia"] },
+      { id: "hayao-miyazaki-achievement-3", textKey: "hayao-miyazaki.achievement.3", sourceIds: ["src_miyazaki_wikipedia"] },
+    ],
+    moments: [
+      { id: "hayao-miyazaki-moment-1", textKey: "hayao-miyazaki.moment.1", sourceIds: ["src_miyazaki_wikipedia"] },
+      { id: "hayao-miyazaki-moment-2", textKey: "hayao-miyazaki.moment.2", sourceIds: ["src_miyazaki_wikipedia"] },
+    ],
+    turningPoints: [],
+    lifeArc: [
+      { year: "1941", textKey: "hayao-miyazaki.life_arc.1", sourceIds: ["src_miyazaki_wikipedia"] },
+      { year: "1944–1945", textKey: "hayao-miyazaki.life_arc.2", sourceIds: ["src_miyazaki_wikipedia"] },
+      { year: "1963", textKey: "hayao-miyazaki.life_arc.3", sourceIds: ["src_miyazaki_wikipedia"] },
+      { year: "1984–1985", textKey: "hayao-miyazaki.life_arc.4", sourceIds: ["src_miyazaki_wikipedia"] },
+      { year: "1997–2001", textKey: "hayao-miyazaki.life_arc.5", sourceIds: ["src_miyazaki_wikipedia"] },
+      { year: "2013–2023", textKey: "hayao-miyazaki.life_arc.6", sourceIds: ["src_miyazaki_wikipedia"] },
+    ],
+    legacy: { textKey: "hayao-miyazaki.legacy", sourceIds: ["src_miyazaki_wikipedia"] },
+  },
 };
