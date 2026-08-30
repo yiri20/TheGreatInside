@@ -22,6 +22,18 @@
 import type { PersonEditorial } from "../../core/types.js";
 
 export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
+  // Life Arc Backfill Batch 1 (2026-08): 6 beats. Birthplace (Vinci, near
+  // Florence), the Verrocchio apprenticeship start (~1466, derived from "age
+  // 14" + birth year 1452), the Milan move year (1482), the Mona Lisa start
+  // year (1503), the move to France (1516), and the death location (Clos
+  // Lucé, near Amboise) were not preserved anywhere in this profile before
+  // now (P2) -- verified directly against src_davinci_wikipedia (live
+  // fetch, not memory) per this batch's provenance rule, since the
+  // person-specific instruction for this profile was to use factual
+  // career/location/work milestones rather than bare birth/death beats.
+  // The dissection/notebook and Mona Lisa-adjustment facts were already
+  // preserved (achievement.1/3, turning_point.1, moment.2) and are reused
+  // as-is (P1), not re-researched.
   "leonardo-da-vinci": {
     achievements: [
       { id: "leonardo-da-vinci-achievement-1", textKey: "leonardo-da-vinci.achievement.1", sourceIds: ["src_davinci_biography"] },
@@ -47,8 +59,25 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_davinci_biography"],
       },
     ],
+    lifeArc: [
+      { year: "1452", textKey: "leonardo-da-vinci.life_arc.1", sourceIds: ["src_davinci_wikipedia"] },
+      { year: "c. 1466", textKey: "leonardo-da-vinci.life_arc.2", sourceIds: ["src_davinci_wikipedia"] },
+      { year: "1482", textKey: "leonardo-da-vinci.life_arc.3", sourceIds: ["src_davinci_wikipedia", "src_davinci_biography"] },
+      { year: "1503", textKey: "leonardo-da-vinci.life_arc.4", sourceIds: ["src_davinci_wikipedia"] },
+      { year: "1516", textKey: "leonardo-da-vinci.life_arc.5", sourceIds: ["src_davinci_wikipedia"] },
+      { year: "1519", textKey: "leonardo-da-vinci.life_arc.6", sourceIds: ["src_davinci_wikipedia"] },
+    ],
   },
 
+  // Life Arc Backfill Batch 1 (2026-08): 6 beats. The 1898 discovery year
+  // for polonium and radium was not preserved anywhere in this profile (the
+  // existing moment.1/achievement.2 describe the pitchblende-processing
+  // labor and the discovery itself but give no year) -- P2, verified
+  // directly against src_curie_wikipedia (live fetch: "In July 1898...
+  // announcing...'polonium'"; "On 26 December 1898...a second element...
+  // 'radium'"). Birth/death beats left bare per the minimal-evidence
+  // principle -- birthplace was not worth a separate verification pass for
+  // this profile's orientation value.
   "marie-curie": {
     achievements: [
       { id: "marie-curie-achievement-1", textKey: "marie-curie.achievement.1", sourceIds: ["src_curie_wikipedia"] },
@@ -74,6 +103,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_curie_biography"],
       },
     ],
+    lifeArc: [
+      { year: "1867", textKey: "marie-curie.life_arc.1", sourceIds: ["src_curie_wikipedia"] },
+      { year: "1898", textKey: "marie-curie.life_arc.2", sourceIds: ["src_curie_wikipedia"] },
+      { year: "1903", textKey: "marie-curie.life_arc.3", sourceIds: ["src_curie_wikipedia"] },
+      { year: "1906", textKey: "marie-curie.life_arc.4", sourceIds: ["src_curie_biography"] },
+      { year: "1911", textKey: "marie-curie.life_arc.5", sourceIds: ["src_curie_wikipedia"] },
+      { year: "1934", textKey: "marie-curie.life_arc.6", sourceIds: ["src_curie_wikipedia"] },
+    ],
   },
 
   "ada-lovelace": {
@@ -93,6 +130,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     turningPoints: [
       { id: "ada-lovelace-turning-point-1", textKey: "ada-lovelace.turning_point.1", sourceIds: ["src_lovelace_biography"] },
+    ],
+    // Life Arc Backfill Batch 1 (2026-08): 6 beats, entirely P1 -- every
+    // beat reuses a fact already preserved in achievements/moments/turning
+    // points above (the ~1832 Babbage-meeting age is arithmetic on the
+    // already-preserved "seventeen-year-old" + birthYear 1815, not new
+    // research). No new verification performed for this profile.
+    lifeArc: [
+      { year: "1815", textKey: "ada-lovelace.life_arc.1", sourceIds: ["src_lovelace_wikipedia"] },
+      { year: "Teens", textKey: "ada-lovelace.life_arc.2", sourceIds: ["src_lovelace_biography"] },
+      { year: "c. 1832", textKey: "ada-lovelace.life_arc.3", sourceIds: ["src_lovelace_biography"] },
+      { year: "1843", textKey: "ada-lovelace.life_arc.4", sourceIds: ["src_lovelace_wikipedia"] },
+      { year: "1843", textKey: "ada-lovelace.life_arc.5", sourceIds: ["src_lovelace_biography"] },
+      { year: "1852", textKey: "ada-lovelace.life_arc.6", sourceIds: ["src_lovelace_wikipedia"] },
     ],
   },
 
@@ -119,6 +169,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_yisunsin_wikipedia", "src_yisunsin_biography"],
       },
+    ],
+    // Life Arc Backfill Batch 1 (2026-08): 6 beats, entirely P1 -- the
+    // demotion (life_arc.4) and Myeongnyang (life_arc.5) years are both
+    // anchored to 1597, already stated in achievement.3 ("At the 1597
+    // Battle of Myeongnyang") and directly implied by turning_point.1's
+    // "His replacement lost most of the fleet soon after" sequencing. No
+    // new research; per the person-specific instruction, battles are
+    // described no more dramatically than the existing text already
+    // supports.
+    lifeArc: [
+      { year: "1545", textKey: "yi-sun-sin.life_arc.1", sourceIds: ["src_yisunsin_wikipedia"] },
+      { year: "Before 1592", textKey: "yi-sun-sin.life_arc.2", sourceIds: ["src_yisunsin_wikipedia"] },
+      { year: "1592–1598", textKey: "yi-sun-sin.life_arc.3", sourceIds: ["src_yisunsin_wikipedia"] },
+      { year: "1597", textKey: "yi-sun-sin.life_arc.4", sourceIds: ["src_yisunsin_wikipedia"] },
+      { year: "1597", textKey: "yi-sun-sin.life_arc.5", sourceIds: ["src_yisunsin_wikipedia"] },
+      { year: "1598", textKey: "yi-sun-sin.life_arc.6", sourceIds: ["src_yisunsin_wikipedia"] },
     ],
   },
 
@@ -184,6 +250,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     turningPoints: [
       { id: "frida-kahlo-turning-point-1", textKey: "frida-kahlo.turning_point.1", sourceIds: ["src_kahlo_biography", "src_kahlo_wikipedia"] },
     ],
+    // Life Arc Backfill Batch 1 (2026-08): 5 beats (not forced to 6), all
+    // P1 -- reuses moment.1/2 and turning_point.1 as-is. "Soon after" and
+    // "Mature work" are relative labels, not invented years: no exact date
+    // for the Rivera approach or her stylistic maturity is preserved
+    // anywhere in this profile, and per the minimal-evidence principle this
+    // batch does not perform new research to manufacture one. The
+    // posthumous-recognition timeline (1982 retrospective, 1983 biography,
+    // 2025 auction) already lives in `legacy` and is deliberately not
+    // duplicated into lifeArc, which ends on her own death per house style.
+    lifeArc: [
+      { year: "1907", textKey: "frida-kahlo.life_arc.1", sourceIds: ["src_kahlo_wikipedia"] },
+      { year: "1925", textKey: "frida-kahlo.life_arc.2", sourceIds: ["src_kahlo_biography", "src_kahlo_wikipedia"] },
+      { year: "Soon after", textKey: "frida-kahlo.life_arc.3", sourceIds: ["src_kahlo_biography"] },
+      { year: "Mature work", textKey: "frida-kahlo.life_arc.4", sourceIds: ["src_kahlo_wikipedia"] },
+      { year: "1954", textKey: "frida-kahlo.life_arc.5", sourceIds: ["src_kahlo_wikipedia"] },
+    ],
     legacy: {
       textKey: "frida-kahlo.legacy",
       sourceIds: ["src_kahlo_wikipedia", "src_kahlo_biography", "src_kahlo_nlr", "src_kahlo_auction2025", "src_kahlo_herrera_film"],
@@ -213,6 +295,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     turningPoints: [
       { id: "nelson-mandela-turning-point-1", textKey: "nelson-mandela.turning_point.1", sourceIds: ["src_mandela_biography", "src_mandela_wikipedia"] },
+    ],
+    // Life Arc Backfill Batch 1 (2026-08): 6 beats. The 1962 arrest year
+    // (the start of his "27 years" already stated in achievement.1) was not
+    // preserved anywhere in this profile -- P2, verified directly against
+    // src_mandela_wikipedia (live fetch: "In 1962, he was arrested for
+    // conspiring to overthrow the state and sentenced to life imprisonment
+    // in the Rivonia Trial... released him in 1990... 27 years (1962-1990)").
+    // All other beats reuse already-preserved facts (moment.1,
+    // turning_point.1, achievement.1/2) as-is.
+    lifeArc: [
+      { year: "1918", textKey: "nelson-mandela.life_arc.1", sourceIds: ["src_mandela_wikipedia"] },
+      { year: "1962", textKey: "nelson-mandela.life_arc.2", sourceIds: ["src_mandela_wikipedia"] },
+      { year: "Robben Island", textKey: "nelson-mandela.life_arc.3", sourceIds: ["src_mandela_biography"] },
+      { year: "1990", textKey: "nelson-mandela.life_arc.4", sourceIds: ["src_mandela_biography", "src_mandela_wikipedia"] },
+      { year: "1994", textKey: "nelson-mandela.life_arc.5", sourceIds: ["src_mandela_wikipedia"] },
+      { year: "2013", textKey: "nelson-mandela.life_arc.6", sourceIds: ["src_mandela_wikipedia"] },
     ],
   },
 
@@ -2287,6 +2385,34 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_goodall_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 1 (2026-08): 6 beats. Three facts were not
+    // preserved anywhere in this profile before now (P2, verified directly
+    // against src_goodall_wikipedia, live fetch, not memory): the Jane
+    // Goodall Institute founding year (1977) and Roots & Shoots founding
+    // year (1991) -- turning_point.1 above states the founding as fact but
+    // gives no year for either -- and, for the final, living-subject beat,
+    // her January 2025 Presidential Medal of Freedom.
+    //
+    // IMPORTANT — flagged for human review, not acted on in this batch:
+    // the same fetch confirms Jane Goodall died on October 1, 2025. This
+    // profile's roster record (src/data/people/seed.ts) still carries no
+    // `deathYear`, i.e. she is recorded here as living. Updating
+    // `deathYear` is a roster-metadata edit outside this batch's explicit
+    // scope ("Add a concise Life Arc... Do NOT touch... roster
+    // membership"), so it was deliberately NOT made. The final beat below
+    // (2025 Medal of Freedom) is written as a plain past-tense fact that is
+    // true regardless of her living/deceased status, specifically so this
+    // Life Arc does not read as false the moment that separate correction
+    // is made. Recommend a dedicated follow-up task to set `deathYear:
+    // 2025` and, at that point, add a seventh, final "Died" beat.
+    lifeArc: [
+      { year: "1934", textKey: "jane-goodall.life_arc.1", sourceIds: ["src_goodall_wikipedia"] },
+      { year: "1960", textKey: "jane-goodall.life_arc.2", sourceIds: ["src_goodall_wikipedia"] },
+      { year: "1960–2020s", textKey: "jane-goodall.life_arc.3", sourceIds: ["src_goodall_wikipedia"] },
+      { year: "1977", textKey: "jane-goodall.life_arc.4", sourceIds: ["src_goodall_wikipedia"] },
+      { year: "1991", textKey: "jane-goodall.life_arc.5", sourceIds: ["src_goodall_wikipedia"] },
+      { year: "2025", textKey: "jane-goodall.life_arc.6", sourceIds: ["src_goodall_wikipedia"] },
+    ],
   },
 
   // Key Achievements Correction Batch 1 (2026-08): achievement.3 (electricity/
@@ -2321,6 +2447,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_bfranklin_biography", "src_bfranklin_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 1 (2026-08): 6 beats, entirely P1 -- every
+    // beat reuses a fact and year already stated in achievements/turning
+    // points above. No new verification performed. Note: prior
+    // docs/context/CURRENT_STATE.md text listed Benjamin Franklin among the
+    // 6 Profile V2 pilot people as already having a Life Arc; this was
+    // stale documentation, not content evidence -- he had none before this
+    // batch (confirmed mechanically before starting).
+    lifeArc: [
+      { year: "1706", textKey: "benjamin-franklin.life_arc.1", sourceIds: ["src_bfranklin_wikipedia"] },
+      { year: "1752", textKey: "benjamin-franklin.life_arc.2", sourceIds: ["src_bfranklin_kite_wikipedia", "src_bfranklin_wikipedia"] },
+      { year: "1754", textKey: "benjamin-franklin.life_arc.3", sourceIds: ["src_bfranklin_wikipedia"] },
+      { year: "1774", textKey: "benjamin-franklin.life_arc.4", sourceIds: ["src_bfranklin_biography", "src_bfranklin_wikipedia"] },
+      { year: "1776–1785", textKey: "benjamin-franklin.life_arc.5", sourceIds: ["src_bfranklin_treaty_wikipedia", "src_bfranklin_wikipedia"] },
+      { year: "1790", textKey: "benjamin-franklin.life_arc.6", sourceIds: ["src_bfranklin_wikipedia"] },
+    ],
   },
 
   // Key Achievements Correction Batch 1 (2026-08): achievement.2 added --
@@ -2346,6 +2487,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       // roster-file rationale, which covers only the Hardy letter above.
     ],
     turningPoints: [],
+    // Life Arc Backfill Batch 1 (2026-08): 6 beats. The exact year of the
+    // Hardy letter (moment.1 states the fact but gives no year) was not
+    // preserved -- P2, verified directly against src_ramanujan_wikipedia
+    // (live fetch: "On 16 January 1913, Ramanujan wrote to G. H. Hardy").
+    // All other beats reuse already-preserved facts (achievement.1/2) as-is.
+    lifeArc: [
+      { year: "1887", textKey: "srinivasa-ramanujan.life_arc.1", sourceIds: ["src_ramanujan_wikipedia"] },
+      { year: "Colonial India", textKey: "srinivasa-ramanujan.life_arc.2", sourceIds: ["src_ramanujan_wikipedia"] },
+      { year: "1913", textKey: "srinivasa-ramanujan.life_arc.3", sourceIds: ["src_ramanujan_wikipedia"] },
+      { year: "1914–1919", textKey: "srinivasa-ramanujan.life_arc.4", sourceIds: ["src_ramanujan_wikipedia"] },
+      { year: "1918", textKey: "srinivasa-ramanujan.life_arc.5", sourceIds: ["src_ramanujan_wikipedia"] },
+      { year: "1920", textKey: "srinivasa-ramanujan.life_arc.6", sourceIds: ["src_ramanujan_wikipedia"] },
+    ],
   },
 
   // Key Achievements Correction Batch 1 (2026-08): achievement.2 added --
@@ -2368,6 +2522,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "opportunity_sensing",
         sourceIds: ["src_oprah_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 1 (2026-08): 5 beats (not forced to 6),
+    // entirely P1 -- every beat reuses a fact and year already stated in
+    // achievement.1/2 and turning_point.1 above. Living subject: per the
+    // person-specific instruction, the final beat is the 2011 syndication
+    // finale (already dated in achievement.2), a concrete documented
+    // milestone -- not "Present"/"Still active". No beat was added for the
+    // 1954-1986 early-career period or anything after 2011: neither is
+    // preserved anywhere in this profile, and per the minimal-evidence
+    // principle this batch does not perform new research to fill either gap.
+    lifeArc: [
+      { year: "1954", textKey: "oprah-winfrey.life_arc.1", sourceIds: ["src_oprah_wikipedia"] },
+      { year: "1986", textKey: "oprah-winfrey.life_arc.2", sourceIds: ["src_oprah_wikipedia"] },
+      { year: "1980s", textKey: "oprah-winfrey.life_arc.3", sourceIds: ["src_oprah_wikipedia"] },
+      { year: "1993", textKey: "oprah-winfrey.life_arc.4", sourceIds: ["src_oprah_wikipedia"] },
+      { year: "2011", textKey: "oprah-winfrey.life_arc.5", sourceIds: ["src_oprah_wikipedia"] },
     ],
   },
 
@@ -2402,6 +2572,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_maathai_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 1 (2026-08): 6 beats, entirely P1 -- every
+    // beat reuses a fact already stated in achievement.1/2, moment.1, and
+    // turning_point.1 above. "Movement's early years" and "Amid government
+    // opposition" are relative labels, not invented years -- neither the
+    // early organizing nor the arrests/violence has an exact year anywhere
+    // in this profile, and per the minimal-evidence principle this batch
+    // does not perform new research to manufacture one.
+    lifeArc: [
+      { year: "1940", textKey: "wangari-maathai.life_arc.1", sourceIds: ["src_maathai_wikipedia"] },
+      { year: "1977", textKey: "wangari-maathai.life_arc.2", sourceIds: ["src_maathai_wikipedia"] },
+      { year: "Movement's early years", textKey: "wangari-maathai.life_arc.3", sourceIds: ["src_maathai_wikipedia"] },
+      { year: "Amid government opposition", textKey: "wangari-maathai.life_arc.4", sourceIds: ["src_maathai_wikipedia"] },
+      { year: "2004", textKey: "wangari-maathai.life_arc.5", sourceIds: ["src_maathai_wikipedia"] },
+      { year: "2011", textKey: "wangari-maathai.life_arc.6", sourceIds: ["src_maathai_wikipedia"] },
     ],
   },
 
@@ -2472,6 +2657,13 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // Congress/independence movement that included other leaders and
   // regional campaigns already under way before his involvement, per a
   // fresh direct fetch of src_gandhi_wikipedia (not memory).
+  // Life Arc Backfill Batch 1 (2026-08): chronology only, per this batch's
+  // explicit person-specific instruction not to begin the separately
+  // deferred Gandhi Complexity research. 6 beats, entirely P1 -- every beat
+  // reuses a fact already stated in achievement.1/2 and turning_point.1
+  // above. "South Africa" is a relative label, not an invented year -- no
+  // exact year for the satyagraha origin is preserved anywhere in this
+  // profile.
   "mahatma-gandhi": {
     achievements: [
       { id: "mahatma-gandhi-achievement-1", textKey: "mahatma-gandhi.achievement.1", sourceIds: ["src_gandhi_biography", "src_gandhi_wikipedia"] },
@@ -2486,6 +2678,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_gandhi_wikipedia"],
       },
+    ],
+    lifeArc: [
+      { year: "1869", textKey: "mahatma-gandhi.life_arc.1", sourceIds: ["src_gandhi_wikipedia"] },
+      { year: "South Africa", textKey: "mahatma-gandhi.life_arc.2", sourceIds: ["src_gandhi_wikipedia", "src_gandhi_biography"] },
+      { year: "1920–1942", textKey: "mahatma-gandhi.life_arc.3", sourceIds: ["src_gandhi_wikipedia"] },
+      { year: "1930", textKey: "mahatma-gandhi.life_arc.4", sourceIds: ["src_gandhi_wikipedia"] },
+      { year: "1947", textKey: "mahatma-gandhi.life_arc.5", sourceIds: ["src_gandhi_wikipedia"] },
+      { year: "1948", textKey: "mahatma-gandhi.life_arc.6", sourceIds: ["src_gandhi_wikipedia"] },
     ],
   },
 

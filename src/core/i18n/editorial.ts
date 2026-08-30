@@ -40,6 +40,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's high opportunity_sensing score: the letter reads the patron's actual priorities rather than leading with the work he is remembered for today — a specific-situation read, not a general claim about what he valued most.",
   "leonardo-da-vinci.interpretation.turning_point.1":
     "This helps explain the profile's moderate belief_updating score: a willingness to revise an established drawing once observation contradicted it, though the surviving evidence for this is closer to a documented pattern of practice than an explicit written reversal.",
+  "leonardo-da-vinci.life_arc.1": "Born in Vinci, near Florence.",
+  "leonardo-da-vinci.life_arc.2": "Apprenticed under the painter Andrea del Verrocchio in Florence.",
+  "leonardo-da-vinci.life_arc.3":
+    "Moved to Milan to work for Ludovico Sforza; kept notebooks of anatomy, engineering, and flight studies.",
+  "leonardo-da-vinci.life_arc.4": "Began painting the Mona Lisa, continuing to adjust it for over a decade.",
+  "leonardo-da-vinci.life_arc.5": "Entered the service of King Francis I of France.",
+  "leonardo-da-vinci.life_arc.6": "Died at Clos Lucé, near Amboise.",
 
   /* ----------------------------------------------------------- M. Curie */
   "marie-curie.achievement.1":
@@ -58,6 +65,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's very high discipline and persistence scores — years of unglamorous, physically demanding labor with no guarantee the ore would yield anything at all.",
   "marie-curie.interpretation.turning_point.1":
     "This helps explain the profile's high autonomy_need score: choosing to carry a shared research program forward alone, in public, rather than let it end with her collaborator.",
+  "marie-curie.life_arc.1": "Born.",
+  "marie-curie.life_arc.2": "Discovered the elements polonium and radium with Pierre Curie.",
+  "marie-curie.life_arc.3": "Won the Nobel Prize in Physics — the first of two Nobel Prizes in different sciences.",
+  "marie-curie.life_arc.4": "After Pierre died in an accident, took over his Sorbonne professorship — its first female professor.",
+  "marie-curie.life_arc.5": "Won a second Nobel Prize, in Chemistry.",
+  "marie-curie.life_arc.6": "Died.",
 
   /* ---------------------------------------------------------- A. Lovelace */
   "ada-lovelace.achievement.1":
@@ -72,6 +85,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Meeting Charles Babbage as a seventeen-year-old and seeing his prototype Difference Engine set the direction of the mathematical work she pursued for the rest of her short life — work she returned to a decade later, when a routine translation assignment about Babbage's newer Analytical Engine became the occasion for her own extensive, original \"Notes.\"",
   "ada-lovelace.interpretation.achievement.2":
     "This shows the profile's high opportunity_sensing score in practice: noticing an implication of someone else's machine that its own inventor had not emphasized.",
+  "ada-lovelace.life_arc.1": "Born.",
+  "ada-lovelace.life_arc.2": "Steered toward the study of mathematics and science by her mother.",
+  "ada-lovelace.life_arc.3": "Met Charles Babbage as a teenager and saw his prototype Difference Engine.",
+  "ada-lovelace.life_arc.4":
+    "Published \"Notes\" on Babbage's Analytical Engine, including an algorithm for computing Bernoulli numbers.",
+  "ada-lovelace.life_arc.5": "Also proposed the machine could go beyond numbers — for instance, composing music.",
+  "ada-lovelace.life_arc.6": "Died.",
 
   /* ----------------------------------------------------------- Yi Sun-sin */
   "yi-sun-sin.achievement.1":
@@ -88,6 +108,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This reflects the tension in the profile's dual-edged proactive_agency score: acting on his own tactical judgment against a direct court order carried a severe, immediate personal cost. The Myeongnyang victory that followed his reinstatement came from tactical skill with a nearly destroyed fleet, not from a further act of defiance — but it was the fleet's near-total loss under his replacement that ultimately vindicated the original judgment he had been punished for.",
   "yi-sun-sin.interpretation.achievement.3":
     "This offers one example of the profile's very high resourcefulness score: making decisive use of severely limited material means rather than waiting for reinforcement that was not coming.",
+  "yi-sun-sin.life_arc.1": "Born.",
+  "yi-sun-sin.life_arc.2": "Pushed for turtle-ship construction and coastal defenses ahead of Japan's invasion.",
+  "yi-sun-sin.life_arc.3": "Commanded the Joseon navy through the Imjin War without losing a naval engagement.",
+  "yi-sun-sin.life_arc.4": "Demoted, imprisoned, and tortured after defying a court order he judged a trap.",
+  "yi-sun-sin.life_arc.5":
+    "Reinstated with a small remaining fleet; won the Battle of Myeongnyang against overwhelming odds.",
+  "yi-sun-sin.life_arc.6": "Died in the war's final battles.",
 
   /* ------------------------------------------------------------ F. Kahlo */
   "frida-kahlo.achievement.1":
@@ -102,6 +129,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Kahlo's international reputation was largely posthumous. Her work reached a wide audience beyond Mexico only after a 1982 retrospective at London's Whitechapel Gallery — the first exhibition of her work outside Mexico — and Hayden Herrera's 1983 biography Frida, which introduced her life and work to a broad English-language readership and was later adapted into the 2002 film Frida starring Salma Hayek. She is now widely read as a symbol of Mexican national identity and of the feminist art movements that took shape mostly after her death — a later reception distinct from her own paintings' declared subject matter of pain, identity, and the body. In November 2025, her 1940 painting El Sueño (La Cama) sold at auction for $54.7 million, the highest price ever paid at auction for a work by a female artist.",
   "frida-kahlo.interpretation.moment.1":
     "This is a clear instance of the profile's high resourcefulness score: continuing creative work under a severe physical constraint by improvising the equipment that made it possible, rather than waiting for the constraint to lift.",
+  "frida-kahlo.life_arc.1": "Born.",
+  "frida-kahlo.life_arc.2":
+    "A near-fatal bus accident ended her plan to study medicine; she began painting during recovery.",
+  "frida-kahlo.life_arc.3": "Approached the muralist Diego Rivera, unprompted, for his opinion of her paintings.",
+  "frida-kahlo.life_arc.4": "Developed a distinctive style blending Mexican folk art with symbolic self-portraiture.",
+  "frida-kahlo.life_arc.5": "Died.",
 
   /* --------------------------------------------------------- N. Mandela */
   "nelson-mandela.achievement.1":
@@ -118,6 +151,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This sits alongside the profile's dual-edged proactive_agency score: the same self-initiated act that later helped end apartheid carried real risk of being disowned by his own movement if it had gone differently.",
   "nelson-mandela.interpretation.moment.1":
     "This reflects the profile's high resourcefulness score: building a functioning institution out of almost nothing, inside conditions designed to prevent exactly that.",
+  "nelson-mandela.life_arc.1": "Born.",
+  "nelson-mandela.life_arc.2": "Arrested; began 27 years in prison, most of it on Robben Island.",
+  "nelson-mandela.life_arc.3": "Organized informal prisoner education — what other inmates called \"the university.\"",
+  "nelson-mandela.life_arc.4": "Released; chose negotiation over continued armed struggle.",
+  "nelson-mandela.life_arc.5":
+    "Became South Africa's first Black president; established the Truth and Reconciliation Commission.",
+  "nelson-mandela.life_arc.6": "Died.",
 
   /* ---------------------------------------------------------- Einstein */
   "albert-einstein.achievement.1":
@@ -1277,6 +1317,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "After decades focused on research at Gombe, shifted her own work from primarily research toward conservation and advocacy — founding the Jane Goodall Institute and, later, the Roots & Shoots youth program, unprompted by any employer.",
   "jane-goodall.interpretation.turning_point.1":
     "This illustrates the profile's proactive_agency score: an unprompted, self-directed change in the shape of her own career, not a response to any employer's mandate.",
+  "jane-goodall.life_arc.1": "Born.",
+  "jane-goodall.life_arc.2": "Arrived at Gombe with no formal training; observed a chimpanzee making and using a tool.",
+  "jane-goodall.life_arc.3":
+    "Decades of continuous field research reshaped scientific understanding of chimpanzee behavior.",
+  "jane-goodall.life_arc.4": "Founded the Jane Goodall Institute, shifting her focus from research toward conservation.",
+  "jane-goodall.life_arc.5": "Founded the Roots & Shoots youth program.",
+  "jane-goodall.life_arc.6": "Awarded the Presidential Medal of Freedom.",
 
   /* ---------------------------------------- Batch 7 (exposure-priority): Benjamin Franklin */
   /* CLOSURE PASS: achievement.1 narrowed to drop an invented "single council" mechanism (round 2: also dropped an invented "more than twenty years" figure — the rationale says only "decades"). achievement.2 narrowed to use this person's own rationale's exact institution name rather than an added "first in the colonies" superlative. moment.1 narrowed to drop an invented age/indenture detail. turning_point.1 narrowed to drop invented "Privy Council" / "Hutchinson letters" specifics not in the rationale (the Cockpit-hearing claim itself is retained — it is directly named there). */
@@ -1296,6 +1343,16 @@ export const EDITORIAL_EN: Record<string, string> = {
     "For years sought reconciliation between the colonies and Britain as a loyal subject of the Crown, but shifted decisively toward supporting independence after the 1774 \"Cockpit\" hearing humiliation — one of several failed reconciliation efforts that preceded the change in his position.",
   "benjamin-franklin.interpretation.turning_point.1":
     "This helps explain the profile's belief_updating score: a political reversal documented as a tracked change over time against accumulating evidence of British intransigence, not one dramatic conversion.",
+  "benjamin-franklin.life_arc.1": "Born.",
+  "benjamin-franklin.life_arc.2":
+    "His kite experiment showed lightning was electrical, leading to his invention of the lightning rod.",
+  "benjamin-franklin.life_arc.3":
+    "Proposed the Albany Plan of Union, decades before independence became a live political question.",
+  "benjamin-franklin.life_arc.4":
+    "After the humiliating \"Cockpit\" hearing, shifted from seeking reconciliation with Britain toward independence.",
+  "benjamin-franklin.life_arc.5":
+    "Represented the United States in France; helped secure the Treaty of Alliance and the Treaty of Paris.",
+  "benjamin-franklin.life_arc.6": "Died.",
 
   /* ------------------------------------- Batch 7 (exposure-priority): Srinivasa Ramanujan */
   /* CLOSURE PASS: moment.1 narrowed to drop an invented 1913 date and an invented Hardy-reaction/Cambridge-invitation outcome not in this person's own roster rationale. moment.2 (the taxicab-1729 anecdote) deleted outright — it is not in that rationale either. CLOSURE PASS round 2: achievement.1 narrowed — the rationale says "vast areas of mathematics," not "number theory" specifically, and gives the book only as "Carr's Synopsis," not its expanded title. */
@@ -1307,6 +1364,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "With no formal credentials or introduction, wrote directly to the Cambridge mathematician G. H. Hardy, enclosing pages of his own derived results — one of several mathematicians he had written to, most of whom had not replied.",
   "srinivasa-ramanujan.interpretation.moment.1":
     "This is consistent with the profile's proactive_agency score: rather than waiting to be found through institutional channels that were largely closed to him, he sent his own work directly to mathematicians positioned to recognize it.",
+  "srinivasa-ramanujan.life_arc.1": "Born.",
+  "srinivasa-ramanujan.life_arc.2":
+    "With no access to advanced literature, reconstructed vast areas of mathematics from a single outdated textbook.",
+  "srinivasa-ramanujan.life_arc.3": "Wrote directly to the Cambridge mathematician G. H. Hardy, enclosing his own derived results.",
+  "srinivasa-ramanujan.life_arc.4":
+    "Worked with Hardy at Cambridge, producing results across number theory and mock theta functions.",
+  "srinivasa-ramanujan.life_arc.5": "Elected a Fellow of the Royal Society and of Trinity College, Cambridge.",
+  "srinivasa-ramanujan.life_arc.6": "Died.",
 
   /* ----------------------------------------- Batch 7 (exposure-priority): Oprah Winfrey */
   "oprah-winfrey.achievement.1":
@@ -1317,6 +1382,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In the 1980s, while competing daytime talk shows moved toward sensationalist, tabloid-style formats, shifted her own show toward personal, empathetic, issue-driven conversation — a bet on a different direction than the rest of the genre was taking at the time.",
   "oprah-winfrey.interpretation.turning_point.1":
     "This illustrates the profile's opportunity_sensing score: reading a shift in what audiences actually wanted that ran counter to where competing shows were placing their own bets.",
+  "oprah-winfrey.life_arc.1": "Born.",
+  "oprah-winfrey.life_arc.2": "Founded Harpo Productions to own and control her own television show outright.",
+  "oprah-winfrey.life_arc.3":
+    "Shifted her show toward personal, empathetic conversation, against the genre's sensationalist trend.",
+  "oprah-winfrey.life_arc.4": "Her interview with Michael Jackson drew an estimated 36.5 million viewers.",
+  "oprah-winfrey.life_arc.5": "Ended The Oprah Winfrey Show's 25-year, highest-rated syndication run.",
 
   /* --------------------------------------- Batch 7 (exposure-priority): Wangari Maathai */
   /* CLOSURE PASS: moment.1 narrowed to drop an invented "tens of millions of trees" outcome. turning_point.1 narrowed to drop the 2004/Nobel Peace Prize claim entirely — this person's own roster rationale documents the government opposition/arrests but never mentions the Nobel Prize by name, date, or specific award rationale (only a bare `nobel_laureate` tag, which is not prose content this pipeline may narrate from). */
@@ -1332,6 +1403,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The Green Belt Movement's work regularly put her in direct conflict with the Kenyan government of the time, including multiple arrests and documented violence against her; she continued organizing through this opposition regardless of the personal cost.",
   "wangari-maathai.interpretation.turning_point.1":
     "This is consistent with the profile's proactive_agency score, marked dual-edged in this profile: the same self-initiated organizing that built the movement also brought direct personal and legal risk.",
+  "wangari-maathai.life_arc.1": "Born.",
+  "wangari-maathai.life_arc.2": "Founded the Green Belt Movement, linking reforestation to rural women's daily welfare.",
+  "wangari-maathai.life_arc.3": "Organized rural women to plant tree seedlings using simple, low-cost local methods.",
+  "wangari-maathai.life_arc.4":
+    "Repeatedly arrested and faced violence for her organizing under the Kenyan government of the time.",
+  "wangari-maathai.life_arc.5":
+    "Awarded the Nobel Peace Prize — the first African woman and first environmentalist laureate.",
+  "wangari-maathai.life_arc.6": "Died.",
 
   /* -------------------------------- Batch 7 (exposure-priority): Wolfgang Amadeus Mozart */
   /* CLOSURE PASS: achievement.1 (child-prodigy touring) deleted — not in this person's own roster rationale. turning_point.1 narrowed to drop an invented Archbishop's name and the invented "literal kick from a steward" anecdote; Vienna and the freelance-vs-fixed-position framing are retained since both are directly in that rationale. Profile V2 pilot (2026-08): the closure pass left this profile with a single turning point and nothing describing his actual musical output -- repaired with 2 Achievements, 2 Life Scenes (including the child-prodigy touring the closure pass had removed, restored here with real dates/venues rather than the earlier undated version), Life Arc, and Legacy, all researched and verified directly against src_mozart_wikipedia (live fetch, not memory). */
@@ -1367,6 +1446,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1930, personally organized and led the Salt March — a 24-day, 240-mile march in deliberate defiance of British law — a specific, self-initiated act of civil disobedience.",
   "mahatma-gandhi.interpretation.turning_point.1":
     "This tracks with the profile's high proactive_agency score, documented directly: a specific, planned act of civil disobedience he conceived and led himself, not a response to someone else's initiative.",
+  "mahatma-gandhi.life_arc.1": "Born.",
+  "mahatma-gandhi.life_arc.2": "Developed and first tested satyagraha, organized civil disobedience, against local grievances.",
+  "mahatma-gandhi.life_arc.3": "Led three nationwide civil disobedience campaigns against British rule.",
+  "mahatma-gandhi.life_arc.4":
+    "Personally organized and led the Salt March, 240 miles in defiance of British law.",
+  "mahatma-gandhi.life_arc.5":
+    "India gained independence, months after his final imprisonment; the country was partitioned.",
+  "mahatma-gandhi.life_arc.6": "Died.",
 
   /* -------------------------------- Remaining-19 Completion Batch 1 (2026-08) */
   /* Selection: exposure-ranked (top-1/top-3 quiz-simulation match frequency,
@@ -1825,6 +1912,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 높은 기회 포착(opportunity_sensing) 점수와 일치하는 대목이다 — 이 편지는 오늘날 그가 기억되는 모습이 아니라 후원자가 그 순간 실제로 필요로 하는 것을 먼저 읽어낸다. 그가 무엇을 가장 중요하게 여겼는지에 대한 일반적인 주장이 아니라, 그 특정 상황을 읽어낸 사례다.",
   "leonardo-da-vinci.interpretation.turning_point.1":
     "프로필의 중간 수준 입장 수정(belief_updating) 점수를 이해하는 데 도움이 된다 — 관찰이 이전 가정과 어긋나자 이미 완성해둔 그림조차 다시 손본 태도지만, 남아있는 근거는 명시적인 기록이라기보다 반복된 실천 패턴에 가깝다.",
+  "leonardo-da-vinci.life_arc.1": "피렌체 인근 빈치에서 태어났다.",
+  "leonardo-da-vinci.life_arc.2": "피렌체에서 화가 안드레아 델 베로키오 밑에서 도제 생활을 했다.",
+  "leonardo-da-vinci.life_arc.3": "루도비코 스포르차 밑에서 일하기 위해 밀라노로 이주했으며, 해부학·공학·비행 연구를 담은 노트를 남겼다.",
+  "leonardo-da-vinci.life_arc.4": "모나리자를 그리기 시작했으며, 이후 십여 년간 계속 손질했다.",
+  "leonardo-da-vinci.life_arc.5": "프랑스 국왕 프랑수아 1세를 섬기게 되었다.",
+  "leonardo-da-vinci.life_arc.6": "앙부아즈 인근 클로 뤼세에서 사망했다.",
 
   /* ----------------------------------------------------------- M. Curie */
   "marie-curie.achievement.1":
@@ -1843,6 +1936,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 매우 높은 성실성(discipline)과 끈기(persistence) 점수와 일치하는 대목이다 — 원광에서 무언가 얻어낼 수 있다는 보장도 없이, 몇 년에 걸친 고되고 화려할 것 없는 노동을 감수한 것이다.",
   "marie-curie.interpretation.turning_point.1":
     "프로필의 높은 자율성 욕구(autonomy_need) 점수를 이해하는 데 도움이 된다 — 함께 시작한 연구를 동료의 죽음과 함께 끝내는 대신, 홀로, 그것도 공개적으로 이어가기로 한 선택이다.",
+  "marie-curie.life_arc.1": "태어났다.",
+  "marie-curie.life_arc.2": "피에르 퀴리와 함께 폴로늄과 라듐 원소를 발견했다.",
+  "marie-curie.life_arc.3": "노벨 물리학상을 수상했다 — 서로 다른 두 과학 분야에서 노벨상을 받은 첫 사례였다.",
+  "marie-curie.life_arc.4": "피에르가 사고로 사망한 뒤 그의 소르본 대학 교수직을 이어받아, 최초의 여성 교수가 되었다.",
+  "marie-curie.life_arc.5": "두 번째 노벨상인 화학상을 수상했다.",
+  "marie-curie.life_arc.6": "사망했다.",
 
   /* ---------------------------------------------------------- A. Lovelace */
   "ada-lovelace.achievement.1":
@@ -1857,6 +1956,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "열일곱 살에 찰스 배비지를 만나 그의 차분기관 시제품을 본 일이, 그가 짧은 생애 내내 이어갈 수학 작업의 방향을 정했다 — 그는 십 년 뒤, 배비지의 새로운 해석기관에 관한 평범한 번역 의뢰를 계기로 그 작업으로 돌아왔고, 이 번역은 그 자신의 방대하고 독창적인 '주석'으로 이어졌다.",
   "ada-lovelace.interpretation.achievement.2":
     "프로필의 높은 기회 포착(opportunity_sensing) 점수가 실제로 드러나는 대목이다 — 다른 사람이 만든 기계에서, 그 발명가조차 강조하지 않았던 함의를 알아챈 것이다.",
+  "ada-lovelace.life_arc.1": "태어났다.",
+  "ada-lovelace.life_arc.2": "어머니의 권유로 십 대 시절부터 수학과 과학을 공부했다.",
+  "ada-lovelace.life_arc.3": "십 대 시절 찰스 배비지를 만나 그의 시제품 차분기관을 보았다.",
+  "ada-lovelace.life_arc.4": "배비지의 해석기관에 관한 '주석'을 발표했으며, 베르누이 수를 계산하는 알고리즘을 포함했다.",
+  "ada-lovelace.life_arc.5": "같은 글에서 이 기계가 숫자를 넘어 음악 작곡 등에도 쓰일 수 있다고 제안했다.",
+  "ada-lovelace.life_arc.6": "사망했다.",
 
   /* ----------------------------------------------------------- Yi Sun-sin */
   "yi-sun-sin.achievement.1":
@@ -1873,6 +1978,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 양면적인 선제적 행동력(proactive_agency) 점수가 지닌 긴장을 보여주는 대목이다 — 조정의 직접적인 명령을 거스르고 자신의 전술적 판단대로 행동한 것은 즉각적이고 큰 개인적 대가로 이어졌다. 복귀 이후의 명량 승리는 다시 명령을 거스른 결과가 아니라 거의 궤멸된 함대를 이끈 전술적 역량에서 나온 것이지만, 그를 벌하게 만들었던 애초의 판단이 옳았음을 결과적으로 증명한 것은 후임 지휘관 아래서 함대가 거의 전멸했다는 사실이었다.",
   "yi-sun-sin.interpretation.achievement.3":
     "프로필의 매우 높은 자원 활용 성향(resourcefulness) 점수를 보여주는 한 사례다 — 오지 않을 지원군을 기다리는 대신, 극도로 제한된 자원을 결정적으로 활용한 것이다.",
+  "yi-sun-sin.life_arc.1": "태어났다.",
+  "yi-sun-sin.life_arc.2": "일본의 침략에 앞서 거북선 건조와 해안 방어 태세 강화를 추진했다.",
+  "yi-sun-sin.life_arc.3": "임진왜란 내내 조선 수군을 지휘하며 단 한 번도 해전에서 패하지 않았다.",
+  "yi-sun-sin.life_arc.4": "함정이라 판단한 조정의 명령을 거부한 뒤 파직·투옥되어 고문을 당했다.",
+  "yi-sun-sin.life_arc.5": "얼마 남지 않은 함대로 복직해, 압도적인 열세 속에서 명량 해전을 승리로 이끌었다.",
+  "yi-sun-sin.life_arc.6": "전쟁 막바지 전투에서 전사했다.",
 
   /* ------------------------------------------------------------ F. Kahlo */
   "frida-kahlo.achievement.1":
@@ -1887,6 +1998,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "칼로의 국제적 명성은 대부분 사후에 형성되었다. 그의 작품이 멕시코를 넘어 폭넓은 대중에게 알려진 것은 1982년 런던 화이트채플 갤러리에서 열린 회고전 — 멕시코 밖에서 열린 첫 전시 — 과, 그의 삶과 작품을 영어권 독자에게 널리 소개하고 훗날 살마 헤이엑 주연의 2002년 영화 《프리다》로 각색된 헤이든 헤레라의 1983년 전기 『프리다』가 나온 뒤였다. 오늘날 그는 멕시코 민족 정체성의 상징이자, 대부분 그의 사후에 형성된 여성주의 미술 운동의 상징으로 널리 읽히는데, 이는 고통·정체성·몸을 다룬 그 자신의 회화가 내세운 주제와는 구별되는, 나중에 덧붙여진 해석이다. 2025년 11월, 그의 1940년작 《꿈(침대)》(El Sueño (La Cama))은 경매에서 5470만 달러에 낙찰되어 여성 작가의 작품으로는 역대 최고가를 기록했다.",
   "frida-kahlo.interpretation.moment.1":
     "프로필의 높은 자원 활용 성향(resourcefulness) 점수를 뚜렷이 보여주는 사례다 — 제약이 사라지길 기다리는 대신, 창작을 가능하게 할 도구를 즉석에서 만들어내며 심각한 신체적 제약 속에서도 작업을 이어간 것이다.",
+  "frida-kahlo.life_arc.1": "태어났다.",
+  "frida-kahlo.life_arc.2": "치명적일 뻔한 버스 사고로 의학 공부의 꿈을 접었으며, 회복 기간 중 그림을 그리기 시작했다.",
+  "frida-kahlo.life_arc.3": "자청해서 벽화가 디에고 리베라를 찾아가 자신의 그림에 대한 평가를 구했다.",
+  "frida-kahlo.life_arc.4": "멕시코 민속 미술과 상징적인 자화상을 결합한 독자적인 화풍을 발전시켰다.",
+  "frida-kahlo.life_arc.5": "사망했다.",
 
   /* --------------------------------------------------------- N. Mandela */
   "nelson-mandela.achievement.1":
@@ -1903,6 +2019,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 양면적인 선제적 행동력(proactive_agency) 점수와 나란히 놓고 볼 대목이다 — 훗날 아파르트헤이트 종식에 기여한 바로 그 자발적 행동은, 만약 상황이 달랐다면 자신이 속한 운동으로부터 부인당할 실제 위험을 안고 있었다.",
   "nelson-mandela.interpretation.moment.1":
     "프로필의 높은 자원 활용 성향(resourcefulness) 점수를 반영하는 대목이다 — 바로 그것을 막기 위해 설계된 환경 안에서, 거의 아무것도 없는 상태로부터 실제로 작동하는 하나의 제도를 만들어낸 것이다.",
+  "nelson-mandela.life_arc.1": "태어났다.",
+  "nelson-mandela.life_arc.2": "체포되어 27년에 걸친 수감 생활을 시작했으며, 대부분을 로벤 섬에서 보냈다.",
+  "nelson-mandela.life_arc.3": "비공식 재소자 교육을 조직했으며, 다른 수감자들은 이를 '대학'이라 불렀다.",
+  "nelson-mandela.life_arc.4": "석방된 뒤 무장 투쟁을 이어가는 대신 협상을 선택했다.",
+  "nelson-mandela.life_arc.5": "남아프리카공화국 최초의 흑인 대통령이 되었으며, 진실화해위원회를 설립했다.",
+  "nelson-mandela.life_arc.6": "사망했다.",
 
   /* ---------------------------------------------------------- Einstein */
   "albert-einstein.achievement.1":
@@ -3038,6 +3160,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "수십 년간 곰비에서의 연구에 집중해온 뒤, 자신의 활동 중심을 연구에서 보전과 옹호 활동으로 옮겼다 — 제인구달연구소를, 이후에는 청소년 프로그램인 뿌리와새싹을 세웠으며, 어떤 고용주의 지시도 없이 이루어진 일이었다.",
   "jane-goodall.interpretation.turning_point.1":
     "프로필의 선제적 행동력(proactive_agency) 점수가 실제로 드러나는 대목이다 — 어떤 고용주의 지시도 없이, 스스로 자기 경력의 방향을 바꾼 것이다.",
+  "jane-goodall.life_arc.1": "태어났다.",
+  "jane-goodall.life_arc.2": "정식 훈련 없이 곰비에 도착했으며, 침팬지가 도구를 만들어 사용하는 모습을 관찰했다.",
+  "jane-goodall.life_arc.3": "수십 년에 걸친 현장 연구로 침팬지 행동에 대한 과학적 이해를 새롭게 바꾸어 놓았다.",
+  "jane-goodall.life_arc.4": "제인구달연구소를 설립하며 연구에서 보전 활동으로 초점을 옮겼다.",
+  "jane-goodall.life_arc.5": "청소년 프로그램 '뿌리와새싹'을 설립했다.",
+  "jane-goodall.life_arc.6": "대통령 자유훈장을 받았다.",
 
   /* ---------------------------------------- Batch 7 (exposure-priority): Benjamin Franklin */
   /* CLOSURE PASS: achievement.1 narrowed to drop an invented "single council" mechanism (round 2: also dropped an invented "more than twenty years" figure — the rationale says only "decades"). achievement.2 narrowed to use this person's own rationale's exact institution name rather than an added "first in the colonies" superlative. moment.1 narrowed to drop an invented age/indenture detail. turning_point.1 narrowed to drop invented "Privy Council" / "Hutchinson letters" specifics not in the rationale (the Cockpit-hearing claim itself is retained — it is directly named there). */
@@ -3057,6 +3185,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "오랫동안 국왕에게 충성하는 신민으로서 식민지와 영국 사이의 화해를 모색했지만, 1774년의 '콕핏' 청문회에서 공개적으로 굴욕을 당한 이후 독립 지지 쪽으로 확실히 돌아섰다. 이는 그 전에 거듭 실패한 여러 화해 시도 가운데 하나였다.",
   "benjamin-franklin.interpretation.turning_point.1":
     "프로필의 입장 수정 성향(belief_updating) 점수를 이해하는 데 도움이 되는 대목이다 — 이는 한순간의 극적인 전향이 아니라, 영국의 완강한 태도가 쌓여가는 증거에 맞춰 시간을 두고 추적할 수 있는 정치적 입장 변화로 기록되어 있다.",
+  "benjamin-franklin.life_arc.1": "태어났다.",
+  "benjamin-franklin.life_arc.2": "연 실험을 통해 번개가 전기 현상임을 보였고, 이는 피뢰침 발명으로 이어졌다.",
+  "benjamin-franklin.life_arc.3": "독립이 현실적 쟁점이 되기 수십 년 전, 올버니 연합안을 제안했다.",
+  "benjamin-franklin.life_arc.4": "굴욕적인 '코크핏' 청문회 이후, 영국과의 화해 모색에서 독립 지지로 입장을 바꾸었다.",
+  "benjamin-franklin.life_arc.5": "프랑스에서 미국을 대표했으며, 동맹 조약과 파리 조약 체결을 이끄는 데 기여했다.",
+  "benjamin-franklin.life_arc.6": "사망했다.",
 
   /* ------------------------------------- Batch 7 (exposure-priority): Srinivasa Ramanujan */
   /* CLOSURE PASS: moment.1 narrowed to drop an invented 1913 date and an invented Hardy-reaction/Cambridge-invitation outcome not in this person's own roster rationale. moment.2 (the taxicab-1729 anecdote) deleted outright — it is not in that rationale either. */
@@ -3068,6 +3202,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "아무런 공식 학력도, 소개도 없이, 케임브리지의 수학자 G. H. 하디에게 자신이 직접 도출한 결과들을 담은 편지를 보냈다 — 그전에 편지를 보낸 여러 수학자 중 대부분이 답장을 하지 않았다.",
   "srinivasa-ramanujan.interpretation.moment.1":
     "프로필의 선제적 행동력(proactive_agency) 점수와 일치하는 대목이다 — 자신에게 대부분 닫혀 있던 제도적 경로를 통해 발견되기를 기다리는 대신, 자신의 결과를 알아볼 수 있는 수학자들에게 직접 전달한 것이다.",
+  "srinivasa-ramanujan.life_arc.1": "태어났다.",
+  "srinivasa-ramanujan.life_arc.2": "고급 문헌을 접할 수 없는 상황에서, 낡은 교재 한 권만으로 수학의 여러 영역을 독자적으로 재구성했다.",
+  "srinivasa-ramanujan.life_arc.3": "케임브리지의 수학자 G. H. 하디에게 직접 편지를 보내 자신이 도출한 결과를 동봉했다.",
+  "srinivasa-ramanujan.life_arc.4": "케임브리지에서 하디와 함께 연구하며 정수론과 모크 세타 함수에 걸친 성과를 냈다.",
+  "srinivasa-ramanujan.life_arc.5": "왕립학회 회원 및 케임브리지 트리니티 칼리지 펠로로 선출되었다.",
+  "srinivasa-ramanujan.life_arc.6": "사망했다.",
 
   /* ----------------------------------------- Batch 7 (exposure-priority): Oprah Winfrey */
   "oprah-winfrey.achievement.1":
@@ -3078,6 +3218,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1980년대에 경쟁 데이타임 토크쇼들이 선정적이고 타블로이드적인 형식으로 옮겨가는 동안, 자신의 프로그램을 개인적이고 공감을 이끌어내는 이슈 중심의 대화로 방향을 틀었다 — 당시 같은 장르의 다른 프로그램들이 향하던 방향과는 다른 쪽에 건 승부수였다.",
   "oprah-winfrey.interpretation.turning_point.1":
     "프로필의 기회 감지(opportunity_sensing) 점수가 실제로 드러나는 대목이다 — 경쟁 프로그램들이 다른 곳에 승부를 걸고 있을 때, 시청자들이 실제로 원하는 것이 달라지고 있음을 읽어낸 것이다.",
+  "oprah-winfrey.life_arc.1": "태어났다.",
+  "oprah-winfrey.life_arc.2": "자신의 텔레비전 프로그램을 온전히 소유하고 통제하기 위해 하포 프로덕션을 설립했다.",
+  "oprah-winfrey.life_arc.3": "선정적인 경향이 강하던 장르 흐름과 달리, 자신의 프로그램을 개인적이고 공감적인 대화 중심으로 바꾸었다.",
+  "oprah-winfrey.life_arc.4": "마이클 잭슨과의 인터뷰가 약 3,650만 명의 시청자를 끌어모은 것으로 추산되었다.",
+  "oprah-winfrey.life_arc.5": "25년간 최고 시청률을 기록한 '오프라 윈프리 쇼'의 신디케이션 방영을 마쳤다.",
 
   /* --------------------------------------- Batch 7 (exposure-priority): Wangari Maathai */
   /* CLOSURE PASS: moment.1 narrowed to drop an invented "tens of millions of trees" outcome. turning_point.1 narrowed to drop the 2004/Nobel Peace Prize claim entirely — this person's own roster rationale documents the government opposition/arrests but never mentions the Nobel Prize by name, date, or specific award rationale (only a bare `nobel_laureate` tag, which is not prose content this pipeline may narrate from). */
@@ -3093,6 +3238,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "그린벨트 운동의 활동은 그녀를 당시 케냐 정부와 거듭 정면으로 충돌하게 만들었고, 여러 차례의 체포와 그녀를 향한 폭력이 기록으로 남아 있다. 그럼에도 그녀는 그 개인적 대가와 무관하게 이 반대 속에서도 조직 활동을 이어갔다.",
   "wangari-maathai.interpretation.turning_point.1":
     "프로필의 선제적 행동력(proactive_agency) 점수와 일치하는 대목이며, 이 프로필에서는 양면적인 것으로 표시되어 있다 — 운동을 일구어낸 바로 그 자발적 조직 활동이 동시에 직접적인 개인적·법적 위험도 불러온 것이다.",
+  "wangari-maathai.life_arc.1": "태어났다.",
+  "wangari-maathai.life_arc.2": "그린벨트 운동을 설립해 재조림을 농촌 여성들의 일상적 삶과 연결지었다.",
+  "wangari-maathai.life_arc.3": "운동 초기, 농촌 여성들을 조직해 간단하고 저비용인 현지 방식으로 묘목을 심게 했다.",
+  "wangari-maathai.life_arc.4": "당시 케냐 정부 아래에서 조직 활동으로 인해 여러 차례 체포되고 폭력을 겪었다.",
+  "wangari-maathai.life_arc.5": "노벨 평화상을 받았다 — 아프리카 여성 최초, 환경운동가 최초의 수상이었다.",
+  "wangari-maathai.life_arc.6": "사망했다.",
 
   /* CLOSURE PASS: achievement.1 (child-prodigy touring) deleted — not in this person's own roster rationale. turning_point.1 narrowed to drop an invented Archbishop's name and the invented "literal kick from a steward" anecdote; Vienna and the freelance-vs-fixed-position framing are retained since both are directly in that rationale. Profile V2 pilot (2026-08): see the EN block's comment for what changed and why. */
   "wolfgang-amadeus-mozart.achievement.1":
@@ -3127,6 +3278,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1930년, 영국법에 대한 의도적인 저항으로서 소금 행진을 스스로 조직하고 이끌었다 — 24일간 240마일을 행진한, 구체적이고 스스로 시작한 시민 불복종 행위였다.",
   "mahatma-gandhi.interpretation.turning_point.1":
     "프로필의 높은 선제적 행동력(proactive_agency) 점수와 맞닿아 있으며, 기록으로 직접 확인되는 대목이다 — 누군가의 발의에 대응한 것이 아니라, 스스로 구상하고 이끈 구체적이고 계획된 시민 불복종 행위였다.",
+  "mahatma-gandhi.life_arc.1": "태어났다.",
+  "mahatma-gandhi.life_arc.2": "남아프리카에서 지역 현안에 맞서 조직적 시민 불복종인 사티아그라하를 처음 시도하고 발전시켰다.",
+  "mahatma-gandhi.life_arc.3": "영국 지배에 맞서 전국적인 시민 불복종 운동을 세 차례 이끌었다.",
+  "mahatma-gandhi.life_arc.4": "영국 법에 맞서 240마일에 이르는 소금 행진을 직접 조직하고 이끌었다.",
+  "mahatma-gandhi.life_arc.5": "그의 마지막 투옥 이후 몇 달 만에 인도가 독립했으며, 국가는 분할되었다.",
+  "mahatma-gandhi.life_arc.6": "사망했다.",
 
   /* -------------------------------- Remaining-19 Completion Batch 1 (2026-08) */
   "simone-biles.achievement.1":
