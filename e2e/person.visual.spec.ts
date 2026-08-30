@@ -335,7 +335,20 @@ for (const [slug, hasContent] of [
       // Editorial-depth session: each present editorial section (Key
       // Achievements / Moments That Reveal Them / Turning Points) is its own
       // divided block, same pattern as every other section on this page.
-      const editorialHeadings = ["Key Achievements", "Moments That Reveal Them", "Turning Points"];
+      // Life Arc Backfill Batch 1 (2026-08): da Vinci and Lovelace, this
+      // fixture's own two people, each gained a Life Arc section in that
+      // batch -- Life Arc/Complexities/Legacy are each their own divided
+      // block too (see PersonEditorial in src/core/types.ts), so all six
+      // possible optional-section headings must be counted here, not only
+      // the original three.
+      const editorialHeadings = [
+        "Key Achievements",
+        "Moments That Reveal Them",
+        "Turning Points",
+        "Life Arc",
+        "Complexities",
+        "Legacy",
+      ];
       const editorialSectionCount = editorialHeadings.filter((h) => headings.includes(h)).length;
       return {
         similarIdx,
