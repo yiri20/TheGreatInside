@@ -783,6 +783,12 @@ const seeds: PersonSeed[] = [
         title: "Smithsonian Magazine — \"A Frida Kahlo Painting Just Became the Most Expensive Work by a Female Artist Ever Auctioned\"",
         url: "https://www.smithsonianmag.com/smart-news/a-frida-kahlo-painting-just-became-the-most-expensive-work-by-a-female-artist-ever-auctioned-180987735/",
       },
+      {
+        id: "src_kahlo_herrera_film",
+        kind: "wikipedia",
+        title: "Frida: A Biography of Frida Kahlo (book article — 2002 film adaptation)",
+        url: "https://en.wikipedia.org/wiki/Frida:_A_Biography_of_Frida_Kahlo",
+      },
     ],
     // Verified 2026-08 via a direct fetch of the Commons file page: a
     // gelatin silver print by her father, Guillermo Kahlo, dated 16 October

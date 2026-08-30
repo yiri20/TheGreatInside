@@ -131,20 +131,42 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // roster at all. Deliberately distinguishes her own work (already
   // covered in achievement.1 -- pain, identity, the body) from LATER
   // reception/iconization, per this task's explicit instruction not to
-  // project later meanings backward onto her own intentions. Targeted
-  // research this session (existing preserved evidence -- Wikipedia +
-  // Herrera's biography -- had nothing about the posthumous reception
-  // itself): the 1982 Whitechapel Gallery retrospective, corroborated by
-  // co-curator Peter Wollen's own account in New Left Review (direct
-  // fetch); the 2025 auction record, corroborated by Smithsonian Magazine
-  // (direct fetch) -- stated here as the highest price reported, without
-  // the inflation-adjusted O'Keeffe comparison the same source itself
-  // raises, since that nuance doesn't change the plain claim being made
-  // (posthumous market value, not a precise historical ranking). Two new
-  // dedicated sources added to this person's own `sources` array
-  // (src_kahlo_nlr, src_kahlo_auction2025) per the provenance rule; the
-  // 1983 biography's own role in the revival, and the 2002 film it
-  // inspired, reuse the two sources already on this person's record.
+  // project later meanings backward onto her own intentions.
+  //
+  // Provenance-closure remediation (2026-08, same batch): the original
+  // comment named sources fetched but didn't tie each published claim to
+  // the specific source that verified it -- itemized below, per claim.
+  // - "reached a wide audience...after" the 1982 Whitechapel retrospective
+  //   AND Herrera's 1983 biography: Peter Wollen, "Fridamania," New Left
+  //   Review 22 (src_kahlo_nlr, fetched 2026-08, PDF). Wollen -- the
+  //   exhibition's own co-curator -- writes it was "the conjunction of
+  //   these two events, the exhibition and the book, that sparked off"
+  //   her international rise. This is the actual support for BOTH halves
+  //   of that clause; src_kahlo_biography (the book itself) cannot
+  //   evidence its own reception, so it is not the operative source here
+  //   even though it remains attached (it does support that the book
+  //   exists, is hers, and is dated 1983).
+  // - The 2002 film Frida (Salma Hayek), adapted from Herrera's biography:
+  //   Wikipedia's dedicated article on the biography itself (fetched
+  //   2026-08) -- a different page from her main src_kahlo_wikipedia
+  //   article, which a direct fetch this session did not confirm contains
+  //   this fact (it has a "Posthumous recognition and 'Fridamania'"
+  //   section, but repeated fetch attempts truncated before reaching it).
+  //   Added as a new dedicated source, src_kahlo_herrera_film, since
+  //   that's where this specific fact was actually verified.
+  // - "Symbol of Mexican national identity and...feminist art movements":
+  //   her main Wikipedia article (src_kahlo_wikipedia, re-fetched 2026-08)
+  //   states plainly, "By the early 1990s...she was...regarded as an icon
+  //   for Chicanos, the feminism movement, and the LGBTQ+ community." This
+  //   profile's wording is narrower than that (omits the LGBTQ+ clause,
+  //   not otherwise evidenced in this person's preserved record) rather
+  //   than broader than what was verified.
+  // - The November 2025 auction record ($54.7M, El Sueño (La Cama)):
+  //   Smithsonian Magazine (src_kahlo_auction2025, fetched 2026-08) --
+  //   stated as the highest price reported, without the inflation-
+  //   adjusted O'Keeffe comparison the same source itself raises, since
+  //   that nuance doesn't change the plain claim being made (posthumous
+  //   market value, not a precise historical ranking).
   "frida-kahlo": {
     achievements: [
       { id: "frida-kahlo-achievement-1", textKey: "frida-kahlo.achievement.1", sourceIds: ["src_kahlo_wikipedia"] },
@@ -164,7 +186,7 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     legacy: {
       textKey: "frida-kahlo.legacy",
-      sourceIds: ["src_kahlo_wikipedia", "src_kahlo_biography", "src_kahlo_nlr", "src_kahlo_auction2025"],
+      sourceIds: ["src_kahlo_wikipedia", "src_kahlo_biography", "src_kahlo_nlr", "src_kahlo_auction2025", "src_kahlo_herrera_film"],
     },
   },
 
@@ -952,25 +974,58 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // Profile Quality Normalization Batch B (2026-08): added legacy for
   // minimal biographical closure -- this profile previously had no
   // mention of his death at all. Handled carefully per this task's
-  // explicit instructions: no diagnosis, no presenting either the
-  // traditional self-inflicted account or the Naifeh/Smith alternative as
-  // certain, no turning this into a personality explanation, and no
-  // Turning Point (there's no subsequent trajectory). The
-  // already-preserved src_vangogh_naifeh source is exactly the disputing
-  // account the audit finding referred to -- Naifeh and Smith's 2011
-  // biography argued he was shot accidentally by two local teenagers, not
-  // self-inflicted. Targeted research this session confirmed the current
-  // weight of evidence precisely, so as not to overstate the dispute in
-  // either direction: the Van Gogh Museum's own official account (direct
-  // fetch) still describes his death as self-inflicted and quotes his own
-  // words to police; museum researchers published a formal rebuttal of
-  // the Naifeh/Smith theory in the Burlington Magazine (2013); and most
-  // mainstream scholarship has not accepted the alternative theory. The
-  // text below reflects that asymmetry -- it does not present the two
-  // accounts as equally weighted, only notes that not every source this
-  // profile draws on agrees. Two new dedicated sources added to this
-  // person's own `sources` array (src_vangogh_museum_death,
-  // src_vangogh_death_wiki) per the provenance rule.
+  // explicit instructions: no diagnosis, no presenting either account as
+  // certain, no personality explanation, no Turning Point (no subsequent
+  // trajectory). The already-preserved src_vangogh_naifeh source is
+  // exactly the disputing account the audit finding referred to. The
+  // text below does not present the two accounts as equally weighted, only
+  // notes that not every source this profile draws on agrees.
+  //
+  // Provenance-closure remediation (2026-08, same batch): itemized below,
+  // per claim. This also corrects an inaccuracy in the original comment,
+  // which described the Van Gogh Museum's own page as verified via
+  // "direct fetch" -- re-checked this session and that was not accurate;
+  // corrected below.
+  // - Death date (29 July 1890, two days after the 27 July shooting) and
+  //   the exact quote to police ("Do not accuse anybody, it is I that
+  //   wished to commit suicide"): a direct, successful fetch of
+  //   Wikipedia's dedicated "Death of Vincent van Gogh" article
+  //   (src_vangogh_death_wiki, 2026-08). This is the actual source for
+  //   the quote.
+  // - "The Van Gogh Museum's own account...still describes it as
+  //   self-inflicted": vangoghmuseum.nl is a JS-rendered page WebFetch
+  //   cannot retrieve directly -- re-confirmed this session with two
+  //   separate direct-fetch attempts against both src_vangogh_museum_
+  //   death's URL and the museum's own FAQ page ("Why Did Vincent van
+  //   Gogh Commit Suicide?"), both returning placeholder text only, no
+  //   body content. The claim is grounded instead in WebSearch results
+  //   that quoted indexed body content from those same museum pages
+  //   directly ("On 27 July 1890...Vincent shot himself in the chest with
+  //   a revolver. He died two days later..."), corroborated independently
+  //   by the Wikipedia article above. This is a real but different kind
+  //   of verification than a full page fetch, documented honestly here
+  //   rather than left as the earlier comment's inaccurate "direct fetch"
+  //   claim.
+  // - Naifeh/Smith's 2011 theory (shot accidentally by two local
+  //   teenagers, covered for them), the Van Gogh Museum researchers'
+  //   formal 2013 Burlington Magazine rebuttal, and "not accepted by most
+  //   scholars": all from the same Wikipedia "Death of..." fetch above,
+  //   which names the rebuttal's authors (Louis van Tilborgh and Teio
+  //   Meedendorp) and describes the theory as widely criticized (citing
+  //   Martin Bailey) as unconvincing -- corroborated by a separate
+  //   WebSearch pass returning the same Van Tilborgh/Meedendorp rebuttal
+  //   and a Today.com piece headlined "Experts unconvinced by new Van
+  //   Gogh death theory."
+  // - Posthumous value/reception ("among the most sought-after and
+  //   expensive...in Western art"): a general, low-specificity claim
+  //   consistent with achievement.3's already-preserved "sold only one or
+  //   two paintings while alive" and this person's own main
+  //   src_vangogh_wikipedia article; not independently re-verified this
+  //   session, since it makes no specific figure or ranking claim (unlike
+  //   Kahlo's dated, numbered auction-record claim above, which was).
+  // Two new dedicated sources added to this person's own `sources` array
+  // (src_vangogh_museum_death, src_vangogh_death_wiki) per the provenance
+  // rule.
   "vincent-van-gogh": {
     achievements: [
       { id: "vincent-van-gogh-achievement-1", textKey: "vincent-van-gogh.achievement.1", sourceIds: ["src_vangogh_letters"] },
@@ -1721,23 +1776,50 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // legacy. The audit flagged the MacArthur Fellowship as a possible gap;
   // per this batch's explicit instruction, the award is used only as
   // evidence for a larger claim (her body of work's standing in the
-  // genre), never as the achievement itself -- achievement.2 leads with
-  // her Hugo/Nebula wins for specific named works and the MacArthur
-  // Foundation's own citation language about her body of work, not "she
-  // won an award." Targeted research this session (existing preserved
-  // evidence had nothing on the MacArthur Fellowship, NASA naming, or her
-  // posthumous reception at all): MacArthur Foundation's own class-of-1995
-  // citation page (direct fetch), Smithsonian Magazine's retrospective
-  // profile (direct fetch, corrects an initial over-claim -- it explicitly
-  // does NOT call her "Mother of Afrofuturism," only "situated in the
-  // vanguard of Afrofuturism," so that's the wording used here), NASA's
-  // own Octavia E. Butler Landing page, and her own Wikipedia page
-  // (direct fetch, cross-checked against the Smithsonian piece for the
-  // Hugo/Nebula count -- both independently agree on two Hugos/two
-  // Nebulas). Three new dedicated sources added to this person's own
-  // `sources` array (src_butler_macfound, src_butler_nasa,
-  // src_butler_smithsonian) per the provenance rule -- a generic existing
-  // URL was not enough for these specific new claims.
+  // genre), never as the achievement itself. Existing preserved evidence
+  // (Wikipedia + Huntington archive) had nothing on any of the following.
+  //
+  // Provenance-closure remediation (2026-08, same batch): itemized below,
+  // per claim, tying each published fact to the specific source that
+  // verified it (the original comment named sources fetched but didn't
+  // do this per-claim).
+  // - Hugo/Nebula wins ("Bloodchild" Hugo+Nebula 1984-85; Parable of the
+  //   Talents, 1999 Nebula Best Novel): en.wikipedia.org/wiki/
+  //   Octavia_E._Butler (src_butler_wikipedia, direct fetch, 2026-08)
+  //   lists Hugo 1984 Best Short Story ("Speech Sounds"), Hugo 1985 Best
+  //   Novelette ("Bloodchild"), Nebula 1984 Best Novelette ("Bloodchild"),
+  //   Nebula 1999 Best Novel (Parable of the Talents) -- achievement.2's
+  //   "1984-85" phrasing spans Bloodchild's two separate award years.
+  // - MacArthur Fellowship (1995) + the Foundation's own "transcendent
+  //   fables" citation language: macfound.org/fellows/class-of-1995/
+  //   octavia-butler (src_butler_macfound, direct fetch, 2026-08), quoted
+  //   directly, not paraphrased. "First science-fiction writer" to
+  //   receive one: Smithsonian Magazine (src_butler_smithsonian, direct
+  //   fetch, 2026-08) states this explicitly; the Foundation's own page
+  //   doesn't rank/compare fellows, so that specific superlative is
+  //   attributed to Smithsonian, not macfound.org.
+  // - "Vanguard of Afrofuturism" (not "Mother of Afrofuturism," an
+  //   earlier draft's over-claim caught and corrected this session):
+  //   Smithsonian Magazine (src_butler_smithsonian, same fetch), which
+  //   also independently confirms "two Nebula Awards, two Hugo Awards" --
+  //   cross-checked against the Wikipedia count above; both agree.
+  // - Kindred graphic novel (2017, NYT bestseller) and FX series (Dec
+  //   2022), Parable of the Sower opera (2015), the Carl Brandon
+  //   Society's Octavia E. Butler Memorial Scholarship (established 2006,
+  //   the year she died, funding writers of color attending Clarion):
+  //   the same en.wikipedia.org/wiki/Octavia_E._Butler fetch above
+  //   ("Adaptations" and "Memorial Programs" sections).
+  // - NASA naming the Perseverance rover's landing site "Octavia E.
+  //   Butler Landing" (2021): science.nasa.gov/resource/welcome-to-
+  //   octavia-e-butler-landing (src_butler_nasa, direct fetch, 2026-08;
+  //   that page itself gives no rationale for the naming beyond the fact
+  //   of it, so this profile's legacy text states only the fact, not a
+  //   claimed motivation), cross-checked against the Wikipedia fetch
+  //   above for the year.
+  // Three new dedicated sources added to this person's own `sources`
+  // array (src_butler_macfound, src_butler_nasa, src_butler_smithsonian)
+  // per the provenance rule -- a generic existing URL was not enough for
+  // these specific new claims.
   "octavia-butler": {
     achievements: [
       { id: "octavia-butler-achievement-1", textKey: "octavia-butler.achievement.1", sourceIds: ["src_butler_wikipedia"] },
