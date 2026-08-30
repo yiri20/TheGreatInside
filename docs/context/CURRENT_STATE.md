@@ -67,13 +67,21 @@ Zheng He remain)).
   Gogh each gained a Legacy; Edison and Bolívar were audited and kept
   unchanged. See
   [`docs/checkpoints/editorial.md`](../checkpoints/editorial.md).
-- **Profile V2 pilot** (`lifeArc`/`complexities`/`legacy` fields on
-  `PersonEditorial`, 2026-08): piloted on 6 people (Warren Buffett,
-  Rosalind Franklin, Aung San Suu Kyi, Alan Turing, Benjamin Franklin,
-  Wolfgang Amadeus Mozart) with a strict follow-up evidence-closure
-  re-verification pass. Most of the roster has none of these three
-  fields yet — that's expected, not a gap; `achievements`/`moments`/
-  `turningPoints` alone is still a complete profile.
+- **Profile V2 fields** (`lifeArc`/`complexities`/`legacy` on
+  `PersonEditorial`): `complexities`/`legacy` remain evidence-gated and
+  asymmetric by design — present only where the record supports them,
+  never padded. **Life Arc coverage: 37/95** (2026-08, mechanically
+  verified — not the earlier "piloted on 6 people" figure, which was
+  stale and also mis-listed Benjamin Franklin as having one when he did
+  not). 25 profiles predate the Life Arc Backfill program; **Batch 1**
+  (2026-08, branch `feat/life-arc-backfill-batch-1`, unmerged) added the
+  other 12 (Ada Lovelace, Frida Kahlo, Leonardo da Vinci, Marie Curie, Yi
+  Sun-sin, Benjamin Franklin, Jane Goodall, Mahatma Gandhi, Nelson
+  Mandela, Oprah Winfrey, Srinivasa Ramanujan, Wangari Maathai) under a
+  P1/P2/P3 provenance model (see that commit for the full audit). The
+  remaining 58 profiles still have none of these three fields — expected
+  for now, not a gap; `achievements`/`moments`/`turningPoints` alone is
+  still a complete profile.
 - **Person Profile Hero redesign + mobile Trait Constellation
   progressive disclosure** (2026-08): the hero moved from a fragmented
   3-column `Rail(hero, Known For)` composition to one coherent
