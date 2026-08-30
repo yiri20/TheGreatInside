@@ -319,7 +319,15 @@ here is done — see **Profile Trait Explanation UX** below.
   an anchored, edge-aware popover (non-modal `<dialog>` — a true modal
   would block clicking a different trait card to switch, which the spec
   requires). Mobile (≤640px, the existing breakpoint): the same `<dialog>`
-  restyled as a bottom sheet. `tsc` clean, `vitest` 687/687 (+17),
-  `playwright` 166/166 including a dedicated `e2e/traitExplanation.spec.ts`
-  (13 specs). No roster/editorial/matching/scoring/portrait/monetization
-  files touched.
+  restyled as a bottom sheet, opened as a genuine modal (`showModal()`,
+  not `.show()`) — corrected by a follow-up semantic/accessibility audit
+  (`cdf6e9e`) after the original non-modal-everywhere version was found
+  to let Tab/Shift+Tab reach trait cards still visible behind the sheet;
+  `showModal()`'s native inert background/focus containment fixes this
+  without a hand-rolled focus trap. That same audit also replaced the
+  score bands' boundaries — originally mirrored from the unrelated
+  Greatness Potential bands — with `docs/scoring-rubric-v1.md` §4's own
+  center-out structure (45-55 as the rubric's explicit neutral center,
+  not the low end). `tsc` clean, `vitest` 689/689,
+  `e2e/traitExplanation.spec.ts` 14/14. No roster/editorial/matching/
+  scoring/portrait/monetization files touched (either commit).
