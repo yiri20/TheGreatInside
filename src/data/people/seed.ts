@@ -768,7 +768,22 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural", "social"],
     tagIds: ["independent", "self_taught", "late_recognition"],
     archetypeIds: ["independent_creator", "creative_creator"],
-    sources: [wiki("kahlo", "Frida Kahlo"), bio("kahlo", "Hayden Herrera, Frida: A Biography of Frida Kahlo (1983)")],
+    sources: [
+      wiki("kahlo", "Frida Kahlo"),
+      bio("kahlo", "Hayden Herrera, Frida: A Biography of Frida Kahlo (1983)"),
+      {
+        id: "src_kahlo_nlr",
+        kind: "press",
+        title: "Peter Wollen, \"Fridamania\", New Left Review 22 (July–August 2003)",
+        url: "https://newleftreview.org/issues/ii22/articles/peter-wollen-fridamania.pdf",
+      },
+      {
+        id: "src_kahlo_auction2025",
+        kind: "press",
+        title: "Smithsonian Magazine — \"A Frida Kahlo Painting Just Became the Most Expensive Work by a Female Artist Ever Auctioned\"",
+        url: "https://www.smithsonianmag.com/smart-news/a-frida-kahlo-painting-just-became-the-most-expensive-work-by-a-female-artist-ever-auctioned-180987735/",
+      },
+    ],
     // Verified 2026-08 via a direct fetch of the Commons file page: a
     // gelatin silver print by her father, Guillermo Kahlo, dated 16 October
     // 1932. Public domain (artist died 1941, in both Mexico and the US).

@@ -98,6 +98,8 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Biographical accounts describe her, as an unknown young artist, approaching the already-famous muralist Diego Rivera directly and unprompted to ask for his honest opinion of her paintings.",
   "frida-kahlo.turning_point.1":
     "The 1925 accident, and the many operations and long convalescences that followed for the rest of her life, redirected her from an earlier ambition toward medicine into painting as her primary occupation.",
+  "frida-kahlo.legacy":
+    "Kahlo's international reputation was largely posthumous. Her work reached a wide audience beyond Mexico only after a 1982 retrospective at London's Whitechapel Gallery — the first exhibition of her work outside Mexico — and Hayden Herrera's 1983 biography Frida, which introduced her life and work to a broad English-language readership and was later adapted into the 2002 film Frida starring Salma Hayek. She is now widely read as a symbol of Mexican national identity and of the feminist art movements that took shape mostly after her death — a later reception distinct from her own paintings' declared subject matter of pain, identity, and the body. In November 2025, her 1940 painting El Sueño (La Cama) sold at auction for $54.7 million, the highest price ever paid at auction for a work by a female artist.",
   "frida-kahlo.interpretation.moment.1":
     "This is a clear instance of the profile's high resourcefulness score: continuing creative work under a severe physical constraint by improvising the equipment that made it possible, rather than waiting for the constraint to lift.",
 
@@ -150,6 +152,8 @@ export const EDITORIAL_EN: Record<string, string> = {
   /* ----------------------------------------------------------- Atatürk */
   "mustafa-kemal-ataturk.achievement.2":
     "Led the Turkish National Movement after the First World War and founded the Republic of Turkey in 1923, then carried out sweeping legal and secularizing reforms in the years that followed.",
+  "mustafa-kemal-ataturk.achievement.3":
+    "Between 1926 and 1934 he carried out a sweeping legal and social modernization program: a new civil code modeled on Switzerland's replaced Islamic sharia-based family law, ending legal polygamy and establishing equal inheritance rights, while a new penal code was adopted from Italy's. In 1928 he personally overruled his own alphabet-reform commission's cautious multi-year timeline for replacing the Ottoman Perso-Arabic script with a new Latin-based alphabet, then spent months touring the country himself, teaching the new letters in village squares and schools under the adopted title \"Head Teacher.\" Women gained the right to vote and stand in municipal elections in 1930 and full national suffrage in 1934 — years ahead of several Western European democracies of the same era.",
   "mustafa-kemal-ataturk.moment.1":
     "At Chunuk Bair in 1915, shrapnel struck his chest directly over his pocket watch, shattering it but sparing him serious injury; when an aide cried out in alarm believing him hit, he covered the aide's mouth with his own hand and said only, \"No such thing.\"",
   "mustafa-kemal-ataturk.moment.2":
@@ -597,6 +601,8 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Worth noting for the profile's autonomy_need score: the studio wasn't where he happened to end up, but a space his own letters describe seeking out deliberately.",
   "vincent-van-gogh.interpretation.turning_point.1":
     "The profile's risk_tolerance score is grounded in this one dated, comparatively late decision, not a general claim about risk running through his whole life.",
+  "vincent-van-gogh.legacy":
+    "Van Gogh died on 29 July 1890, two days after being shot in the chest in a wheat field near Auvers-sur-Oise; questioned by police, he said only, \"Do not accuse anybody, it is I that wished to commit suicide,\" and the Van Gogh Museum's own account of his death still describes it as self-inflicted. A 2011 biography by Steven Naifeh and Gregory White Smith, already cited elsewhere in this profile, argued instead that he was shot accidentally by two local teenagers and covered for them — a theory Van Gogh Museum researchers formally rebutted in 2013 and that has not been accepted by most scholars, but that means the manner of his death is not treated as fully settled across every account this profile draws on. His posthumous reputation diverged sharply from his lifetime obscurity: paintings that went almost entirely unsold while he lived are now among the most sought-after and expensive in the history of Western art.",
 
   /* -------------------------------------------------- Batch 3: T. Aquinas */
   "thomas-aquinas.achievement.1":
@@ -1046,6 +1052,10 @@ export const EDITORIAL_EN: Record<string, string> = {
   /* ------------------------------------------------------ Batch 5: Octavia Butler */
   "octavia-butler.achievement.1":
     "Her novel Kindred and the Xenogenesis and Parable series built distinctive thematic territory — genetic engineering, power and consent, an Afrofuturist blend of slavery-era history and time travel — largely unexplored in science fiction at the time she was writing, and established her as one of very few Black women publishing in the genre in the 1970s and 1980s.",
+  "octavia-butler.achievement.2":
+    "By the mid-1990s her body of work had established her as one of the genre's most decorated writers: her novelette \"Bloodchild\" won both the Hugo and Nebula Awards in 1984–85, and Parable of the Talents won the 1999 Nebula Award for Best Novel. In 1995 she became the first science-fiction writer to receive a MacArthur Fellowship. The Foundation's own citation described her novels as \"transcendent fables, which have as much to do with the future as with the present and the past,\" pointing specifically to Kindred's introduction of a slavery narrative into science fiction through time travel and the Xenogenesis trilogy's treatment of prejudice, class conflict, and violence.",
+  "octavia-butler.legacy":
+    "Butler's influence continued to grow after her death in 2006: Kindred became a bestselling 2017 graphic novel and a 2022 FX television series, Parable of the Sower was adapted into a stage opera in 2015, and she is now widely situated in the vanguard of Afrofuturism, a movement whose name was coined only in 1993, after most of her major work had already been published. In 2021, NASA named the Mars Perseverance rover's landing site \"Octavia E. Butler Landing\" in her honor, and the Carl Brandon Society's Octavia E. Butler Memorial Scholarship, established the year she died, continues to fund writers of color attending the Clarion workshop she once attended herself as a student.",
   "octavia-butler.moment.1":
     "Her surviving personal notebooks, now archived at the Huntington Library, include dated personal affirmations about becoming a bestselling author, written years before that outcome — a documented record of goal-directed intent that precedes the success, not a claim reconstructed after the fact.",
   "octavia-butler.moment.2":
@@ -1873,6 +1883,8 @@ export const EDITORIAL_KO: Record<string, string> = {
     "전기적 기록에 따르면, 무명 화가였던 시절 이미 유명했던 벽화가 디에고 리베라를 직접 찾아가 자신의 그림에 대한 솔직한 평가를 청했다고 한다.",
   "frida-kahlo.turning_point.1":
     "1925년의 사고와 이후 평생에 걸쳐 이어진 수많은 수술과 긴 요양 기간은, 원래 의학을 꿈꾸던 그를 그림을 본업으로 삼는 방향으로 이끌었다.",
+  "frida-kahlo.legacy":
+    "칼로의 국제적 명성은 대부분 사후에 형성되었다. 그의 작품이 멕시코를 넘어 폭넓은 대중에게 알려진 것은 1982년 런던 화이트채플 갤러리에서 열린 회고전 — 멕시코 밖에서 열린 첫 전시 — 과, 그의 삶과 작품을 영어권 독자에게 널리 소개하고 훗날 살마 헤이엑 주연의 2002년 영화 《프리다》로 각색된 헤이든 헤레라의 1983년 전기 『프리다』가 나온 뒤였다. 오늘날 그는 멕시코 민족 정체성의 상징이자, 대부분 그의 사후에 형성된 여성주의 미술 운동의 상징으로 널리 읽히는데, 이는 고통·정체성·몸을 다룬 그 자신의 회화가 내세운 주제와는 구별되는, 나중에 덧붙여진 해석이다. 2025년 11월, 그의 1940년작 《꿈(침대)》(El Sueño (La Cama))은 경매에서 5470만 달러에 낙찰되어 여성 작가의 작품으로는 역대 최고가를 기록했다.",
   "frida-kahlo.interpretation.moment.1":
     "프로필의 높은 자원 활용 성향(resourcefulness) 점수를 뚜렷이 보여주는 사례다 — 제약이 사라지길 기다리는 대신, 창작을 가능하게 할 도구를 즉석에서 만들어내며 심각한 신체적 제약 속에서도 작업을 이어간 것이다.",
 
@@ -1925,6 +1937,8 @@ export const EDITORIAL_KO: Record<string, string> = {
   /* ----------------------------------------------------------- Atatürk */
   "mustafa-kemal-ataturk.achievement.2":
     "제1차 세계대전 이후 터키 민족운동을 이끌었고 1923년 터키 공화국을 건국했으며, 이후 몇 년에 걸쳐 광범위한 법적·세속화 개혁을 단행했다.",
+  "mustafa-kemal-ataturk.achievement.3":
+    "1926년부터 1934년까지 그는 광범위한 법적·사회적 근대화 프로그램을 추진했다. 스위스 민법을 본떠 만든 새 민법이 이슬람 샤리아 기반의 가족법을 대체해 일부다처제를 폐지하고 남녀 동등한 상속권을 확립했으며, 이탈리아 형법을 본뜬 새 형법도 함께 도입되었다. 1928년에는 오스만 페르시아·아랍 문자를 대체할 새 라틴 문자 도입을 두고 자신이 설치한 알파벳 개혁 위원회가 제안한 신중한 수년 단위 이행 계획을 직접 뒤엎었고, 이후 몇 달간 전국을 직접 순회하며 '수석 교사'라는 자칭 직함 아래 마을 광장과 학교에서 새 문자를 몸소 가르쳤다. 여성은 1930년 지방선거에서, 1934년에는 전국 선거에서 각각 투표권과 피선거권을 얻었는데, 이는 같은 시기 여러 서유럽 민주주의 국가보다 앞선 것이었다.",
   "mustafa-kemal-ataturk.moment.1":
     "1915년 추누크 바이르에서, 포탄 파편이 회중시계 바로 위 가슴을 강타해 시계는 산산조각 났지만 그는 큰 부상을 면했다. 곁에 있던 부관이 그가 다친 줄 알고 놀라 소리치자, 그는 손으로 부관의 입을 막고 이렇게만 말했다. \"아무 일도 아니다.\"",
   "mustafa-kemal-ataturk.moment.2":
@@ -2366,6 +2380,8 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 자율성 욕구(autonomy_need) 점수와 관련해 주목할 점은, 그 작업실이 우연히 머물게 된 곳이 아니라 그의 편지가 직접 밝히듯 스스로 찾아 나선 공간이었다는 사실이다.",
   "vincent-van-gogh.interpretation.turning_point.1":
     "프로필의 위험 감수(risk_tolerance) 점수는 이 한 차례의, 비교적 늦은 나이에 내린 결정에 근거를 둔 것이지, 그의 삶 전체를 관통하는 위험 성향에 대한 일반적인 주장은 아니다.",
+  "vincent-van-gogh.legacy":
+    "반 고흐는 1890년 7월 29일, 오베르쉬르우아즈 근교 밀밭에서 가슴에 총상을 입은 지 이틀 만에 세상을 떠났다. 경찰의 심문에 그는 \"내 몸은 내 것이니 내가 원하는 대로 할 자유가 있다. 아무도 탓하지 마라, 자살하고 싶었던 것은 나 자신이다\"라고만 답했으며, 반 고흐 미술관 자체의 공식 설명 역시 지금도 이를 자해로 서술한다. 이 프로필의 다른 곳에서도 인용된 스티븐 네이페와 그레고리 화이트 스미스의 2011년 전기는 이와 달리 그가 인근의 십대 청소년 둘에게 우발적으로 총을 맞고 그들을 감싸주었다고 주장했다 — 반 고흐 미술관 연구진이 2013년 이 주장을 정식으로 반박했고 대다수 학자도 받아들이지 않고 있지만, 이는 이 프로필이 참고하는 모든 자료가 사망 경위에 대해 완전히 합의하지는 않는다는 뜻이기도 하다. 그의 사후 명성은 생전의 무명과는 뚜렷이 대조되었다 — 살아 있을 때는 거의 팔리지 않았던 그림들이 지금은 서양 미술사에서 가장 값비싸고 인기 있는 작품으로 손꼽힌다.",
 
   /* -------------------------------------------------- Batch 3: T. Aquinas */
   "thomas-aquinas.achievement.1":
@@ -2796,6 +2812,10 @@ export const EDITORIAL_KO: Record<string, string> = {
   /* ------------------------------------------------------ Batch 5: Octavia Butler */
   "octavia-butler.achievement.1":
     "그의 소설 『킨드레드』와 『제노제네시스』, 『패러블』 연작은 유전공학, 권력과 동의, 노예제 시대 역사와 시간여행을 결합한 아프리카미래주의적 서사 등 그가 집필하던 당시 SF에서 거의 다뤄지지 않았던 독특한 주제 영역을 구축했으며, 그를 1970~80년대 SF 장르에서 극히 드문 흑인 여성 작가 중 한 명으로 자리매김하게 했다.",
+  "octavia-butler.achievement.2":
+    "1990년대 중반에 이르러 그의 작품 세계는 이 장르에서 가장 많은 상을 받은 작가 중 한 명이라는 평가를 확립했다. 중편소설 『블러드차일드』는 1984~85년 휴고상과 네뷸러상을 모두 수상했고, 『은총을 받은 사람의 우화』는 1999년 네뷸러상 장편 부문을 수상했다. 1995년에는 SF 작가로서는 최초로 맥아더 펠로십을 받았다. 재단은 선정 사유에서 그의 소설을 \"미래뿐 아니라 현재와 과거에도 깊이 관련된 초월적 우화\"라고 평가하며, 시간여행을 통해 노예제 서사를 SF에 도입한 『킨드레드』와 편견·계급 갈등·폭력을 다룬 『제노제네시스』 3부작을 구체적으로 언급했다.",
+  "octavia-butler.legacy":
+    "버틀러의 영향력은 2006년 세상을 떠난 뒤에도 계속 커졌다. 『킨드레드』는 2017년 베스트셀러 그래픽노블로, 2022년에는 FX 텔레비전 시리즈로 각색되었고, 『씨앗을 뿌리는 사람의 우화』는 2015년 무대 오페라로 만들어졌으며, 그는 오늘날 아프로퓨처리즘 — 그의 주요 작품 대부분이 이미 발표된 뒤인 1993년에야 이름이 붙은 사조 — 의 선구자 대열에 놓인다. 2021년 나사(NASA)는 화성 탐사선 퍼서비어런스의 착륙 지점을 그를 기려 '옥타비아 E. 버틀러 착륙지'로 명명했으며, 그가 세상을 떠난 해에 설립된 칼 브랜던 소사이어티의 '옥타비아 E. 버틀러 기념 장학금'은 그 자신이 학생으로 참여했던 클라리온 워크숍에 유색인종 작가들이 참가할 수 있도록 지금도 지원을 이어가고 있다.",
   "octavia-butler.moment.1":
     "헌팅턴 도서관에 소장된 그의 개인 노트에는 베스트셀러 작가가 되겠다는, 그 결과가 이루어지기 여러 해 전에 작성된 날짜 있는 자기 다짐이 담겨 있다 — 성공을 뒤늦게 재구성한 주장이 아니라, 그 성공에 앞서 존재했던 목표 지향적 의지에 대한 기록이다.",
   "octavia-butler.moment.2":

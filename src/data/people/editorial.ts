@@ -122,6 +122,29 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Profile Quality Normalization Batch B (2026-08): added legacy. Her
+  // achievement.1 already notes recognition came "well after her death" --
+  // this profile otherwise never says what that posthumous reception
+  // actually was, and without it a reader has no way to understand why a
+  // painter with one Achievement, two Moments, and no exhibitions/awards
+  // recorded in this profile during her own lifetime belongs in the
+  // roster at all. Deliberately distinguishes her own work (already
+  // covered in achievement.1 -- pain, identity, the body) from LATER
+  // reception/iconization, per this task's explicit instruction not to
+  // project later meanings backward onto her own intentions. Targeted
+  // research this session (existing preserved evidence -- Wikipedia +
+  // Herrera's biography -- had nothing about the posthumous reception
+  // itself): the 1982 Whitechapel Gallery retrospective, corroborated by
+  // co-curator Peter Wollen's own account in New Left Review (direct
+  // fetch); the 2025 auction record, corroborated by Smithsonian Magazine
+  // (direct fetch) -- stated here as the highest price reported, without
+  // the inflation-adjusted O'Keeffe comparison the same source itself
+  // raises, since that nuance doesn't change the plain claim being made
+  // (posthumous market value, not a precise historical ranking). Two new
+  // dedicated sources added to this person's own `sources` array
+  // (src_kahlo_nlr, src_kahlo_auction2025) per the provenance rule; the
+  // 1983 biography's own role in the revival, and the 2002 film it
+  // inspired, reuse the two sources already on this person's record.
   "frida-kahlo": {
     achievements: [
       { id: "frida-kahlo-achievement-1", textKey: "frida-kahlo.achievement.1", sourceIds: ["src_kahlo_wikipedia"] },
@@ -139,6 +162,10 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     turningPoints: [
       { id: "frida-kahlo-turning-point-1", textKey: "frida-kahlo.turning_point.1", sourceIds: ["src_kahlo_biography", "src_kahlo_wikipedia"] },
     ],
+    legacy: {
+      textKey: "frida-kahlo.legacy",
+      sourceIds: ["src_kahlo_wikipedia", "src_kahlo_biography", "src_kahlo_nlr", "src_kahlo_auction2025"],
+    },
   },
 
   "nelson-mandela": {
@@ -243,9 +270,26 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // different characterization (Gallipoli performance attributed to
   // "anticipatory reasoning," a separate bullet) than the specific facts
   // asserted here, which the file itself attributes only to Mango.
+  // Profile Quality Normalization Batch B (2026-08): added achievement.3 --
+  // the reform program (civil/penal code, alphabet reform, women's
+  // suffrage), previously flagged in the comment above as "out of scope"
+  // and "left for a future pass." This is genuinely distinct from
+  // achievement.2 (founding the Republic/leading the national movement,
+  // a political-military achievement) -- a decade-long legal/social
+  // modernization program is a separate durable contribution, not a
+  // restatement of the founding. Checked against turning_point.1 and
+  // moment.1/moment.2 for duplication: turning_point.1 covers closing the
+  // opposition party and the Sheikh Said Rebellion executions (political
+  // suppression), not the reform program's own specific content, so no
+  // overlap. Every claim traces to this person's own preserved evidence
+  // file (src/dev/roster1000/production/session19/mustafa-kemal-ataturk/
+  // rawNotes.md, Life Period 6 and the file's own "Key achievements" #3),
+  // using existing sourceIds already on this person's record -- no new
+  // research, no new source added.
   "mustafa-kemal-ataturk": {
     achievements: [
       { id: "mustafa-kemal-ataturk-achievement-2", textKey: "mustafa-kemal-ataturk.achievement.2", sourceIds: ["src_ataturk_mango", "src_ataturk_nutuk"] },
+      { id: "mustafa-kemal-ataturk-achievement-3", textKey: "mustafa-kemal-ataturk.achievement.3", sourceIds: ["src_ataturk_mango", "src_ataturk_newlines"] },
     ],
     moments: [
       { id: "mustafa-kemal-ataturk-moment-1", textKey: "mustafa-kemal-ataturk.moment.1", sourceIds: ["src_ataturk_kinross"] },
@@ -905,6 +949,28 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     turningPoints: [],
   },
 
+  // Profile Quality Normalization Batch B (2026-08): added legacy for
+  // minimal biographical closure -- this profile previously had no
+  // mention of his death at all. Handled carefully per this task's
+  // explicit instructions: no diagnosis, no presenting either the
+  // traditional self-inflicted account or the Naifeh/Smith alternative as
+  // certain, no turning this into a personality explanation, and no
+  // Turning Point (there's no subsequent trajectory). The
+  // already-preserved src_vangogh_naifeh source is exactly the disputing
+  // account the audit finding referred to -- Naifeh and Smith's 2011
+  // biography argued he was shot accidentally by two local teenagers, not
+  // self-inflicted. Targeted research this session confirmed the current
+  // weight of evidence precisely, so as not to overstate the dispute in
+  // either direction: the Van Gogh Museum's own official account (direct
+  // fetch) still describes his death as self-inflicted and quotes his own
+  // words to police; museum researchers published a formal rebuttal of
+  // the Naifeh/Smith theory in the Burlington Magazine (2013); and most
+  // mainstream scholarship has not accepted the alternative theory. The
+  // text below reflects that asymmetry -- it does not present the two
+  // accounts as equally weighted, only notes that not every source this
+  // profile draws on agrees. Two new dedicated sources added to this
+  // person's own `sources` array (src_vangogh_museum_death,
+  // src_vangogh_death_wiki) per the provenance rule.
   "vincent-van-gogh": {
     achievements: [
       { id: "vincent-van-gogh-achievement-1", textKey: "vincent-van-gogh.achievement.1", sourceIds: ["src_vangogh_letters"] },
@@ -937,6 +1003,10 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"],
       },
     ],
+    legacy: {
+      textKey: "vincent-van-gogh.legacy",
+      sourceIds: ["src_vangogh_museum_death", "src_vangogh_death_wiki", "src_vangogh_naifeh"],
+    },
   },
 
   "thomas-aquinas": {
@@ -1647,8 +1717,36 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Profile Quality Normalization Batch B (2026-08): added achievement.2 and
+  // legacy. The audit flagged the MacArthur Fellowship as a possible gap;
+  // per this batch's explicit instruction, the award is used only as
+  // evidence for a larger claim (her body of work's standing in the
+  // genre), never as the achievement itself -- achievement.2 leads with
+  // her Hugo/Nebula wins for specific named works and the MacArthur
+  // Foundation's own citation language about her body of work, not "she
+  // won an award." Targeted research this session (existing preserved
+  // evidence had nothing on the MacArthur Fellowship, NASA naming, or her
+  // posthumous reception at all): MacArthur Foundation's own class-of-1995
+  // citation page (direct fetch), Smithsonian Magazine's retrospective
+  // profile (direct fetch, corrects an initial over-claim -- it explicitly
+  // does NOT call her "Mother of Afrofuturism," only "situated in the
+  // vanguard of Afrofuturism," so that's the wording used here), NASA's
+  // own Octavia E. Butler Landing page, and her own Wikipedia page
+  // (direct fetch, cross-checked against the Smithsonian piece for the
+  // Hugo/Nebula count -- both independently agree on two Hugos/two
+  // Nebulas). Three new dedicated sources added to this person's own
+  // `sources` array (src_butler_macfound, src_butler_nasa,
+  // src_butler_smithsonian) per the provenance rule -- a generic existing
+  // URL was not enough for these specific new claims.
   "octavia-butler": {
-    achievements: [{ id: "octavia-butler-achievement-1", textKey: "octavia-butler.achievement.1", sourceIds: ["src_butler_wikipedia"] }],
+    achievements: [
+      { id: "octavia-butler-achievement-1", textKey: "octavia-butler.achievement.1", sourceIds: ["src_butler_wikipedia"] },
+      {
+        id: "octavia-butler-achievement-2",
+        textKey: "octavia-butler.achievement.2",
+        sourceIds: ["src_butler_wikipedia", "src_butler_macfound"],
+      },
+    ],
     moments: [
       {
         id: "octavia-butler-moment-1",
@@ -1661,6 +1759,10 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "octavia-butler-moment-3", textKey: "octavia-butler.moment.3", sourceIds: ["src_butler_wikipedia"] },
     ],
     turningPoints: [],
+    legacy: {
+      textKey: "octavia-butler.legacy",
+      sourceIds: ["src_butler_wikipedia", "src_butler_nasa", "src_butler_smithsonian"],
+    },
   },
 
   "rabindranath-tagore": {

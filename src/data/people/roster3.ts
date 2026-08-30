@@ -1242,7 +1242,7 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg",
       attribution: "Vincent van Gogh, self-portrait, 1889, Musée d'Orsay, Paris, Public Domain",
     },
-    sources: [{ id: "src_vangogh_wikipedia", kind: "wikipedia", title: "Vincent van Gogh", url: "https://en.wikipedia.org/wiki/Vincent_van_Gogh" }, { id: "src_vangogh_letters", kind: "archive", title: "Van Gogh Museum — Vincent van Gogh: The Letters (complete surviving correspondence)" }, { id: "src_vangogh_naifeh", kind: "biography", title: "Steven Naifeh and Gregory White Smith, Van Gogh: The Life (2011)" }],
+    sources: [{ id: "src_vangogh_wikipedia", kind: "wikipedia", title: "Vincent van Gogh", url: "https://en.wikipedia.org/wiki/Vincent_van_Gogh" }, { id: "src_vangogh_letters", kind: "archive", title: "Van Gogh Museum — Vincent van Gogh: The Letters (complete surviving correspondence)" }, { id: "src_vangogh_naifeh", kind: "biography", title: "Steven Naifeh and Gregory White Smith, Van Gogh: The Life (2011)" }, { id: "src_vangogh_museum_death", kind: "institution", title: "Van Gogh Museum — Vincent's Death", url: "https://www.vangoghmuseum.nl/en/art-and-stories/stories/all-stories/vincents-death" }, { id: "src_vangogh_death_wiki", kind: "wikipedia", title: "Death of Vincent van Gogh", url: "https://en.wikipedia.org/wiki/Death_of_Vincent_van_Gogh" }],
     rows: {
       // Nearly 900 surviving letters, mostly to his brother Theo, directly document his deliberate reasoning about color relationships, composition, and technique alongside a body of over 2,000 surviving works — an unusually direct, first-person documentary record.
       aesthetic_sensitivity: [94, 0.85, "d", "A"],
