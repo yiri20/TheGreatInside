@@ -1201,6 +1201,17 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // "Key achievements" #2 and #4) and existing sourceIds already in this
   // person's own `sources` array -- no new source added, no external
   // knowledge relied on beyond what that file documents.
+  // Profile Quality Normalization Batch A (2026-08): moment.2 (the Pouilly-le-Fort
+  // vaccine substitution, kept quiet and revealed only when his private notebooks
+  // were published nearly a century later) reclassified Moment -> Complexity. This
+  // is his own documented decision, directly bearing on how the same trial
+  // described in achievement.3 as his defining public triumph should be
+  // understood -- not merely a revealing anecdote about working style, the shape
+  // Moments exist for. Moved verbatim (facts and sourceIds unchanged, no wording
+  // strengthened) per this task's evidence-gate review; renumbered
+  // louis-pasteur.moment.2 -> louis-pasteur.complexities.1 following the
+  // aung-san-suu-kyi.complexities.1 precedent (a rename of the same verbatim text,
+  // not new content).
   "louis-pasteur": {
     achievements: [
       { id: "louis-pasteur-achievement-1", textKey: "louis-pasteur.achievement.1", sourceIds: ["src_pasteur_shi"] },
@@ -1209,7 +1220,6 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     moments: [
       { id: "louis-pasteur-moment-1", textKey: "louis-pasteur.moment.1", sourceIds: ["src_pasteur_gavi"] },
-      { id: "louis-pasteur-moment-2", textKey: "louis-pasteur.moment.2", sourceIds: ["src_pasteur_geison", "src_pasteur_gavi", "src_pasteur_hov"] },
     ],
     turningPoints: [
       {
@@ -1227,6 +1237,13 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_pasteur_iphist", "src_pasteur_iprabies", "src_pasteur_hov"],
       },
       { id: "louis-pasteur-turning-point-3", textKey: "louis-pasteur.turning_point.3", sourceIds: ["src_pasteur_acadsilk", "src_pasteur_shi"] },
+    ],
+    complexities: [
+      {
+        id: "louis-pasteur-complexities-1",
+        textKey: "louis-pasteur.complexities.1",
+        sourceIds: ["src_pasteur_geison", "src_pasteur_gavi", "src_pasteur_hov"],
+      },
     ],
   },
 

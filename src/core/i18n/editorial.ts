@@ -771,8 +771,6 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1881, at a widely publicized public field trial at Pouilly-le-Fort, Pasteur demonstrated that vaccination could protect livestock against anthrax, convincing skeptical scientists and the wider agricultural public that vaccination worked against bacterial disease generally. Four years later, in July 1885, he administered an experimental rabies treatment to nine-year-old Joseph Meister — the first successful human rabies vaccination — and the resulting surge in demand for treatment directly led to the founding of the Institut Pasteur in 1887–88, which by 2014 had produced ten Nobel Prize laureates among its researchers.",
   "louis-pasteur.moment.1":
     "At the 1881 public field trial of his anthrax vaccine at Pouilly-le-Fort, he deliberately built his most vocal skeptic — a veterinarian who rejected germ theory outright — into the trial's own oversight structure, letting him select the animals and supervise the exposure, then addressed the assembled politicians, journalists, and farmers in a plain, familiar tone that reportedly charmed the crowd.",
-  "louis-pasteur.moment.2":
-    "The vaccine actually administered at that public trial was not the method he had publicly implied — which had not reliably worked — but a chemically inactivated preparation developed by a rival he had publicly dismissed and refined by his own assistant. He ordered the substitution kept quiet, and it became known only when his private notebooks were published nearly a century later.",
   "louis-pasteur.turning_point.1":
     "Three of his five children died of typhoid fever within his lifetime, and the accumulated grief and overwork of this period is linked by multiple biographers to a stroke in 1868 that permanently paralyzed part of his left arm and leg. From that point he worked mainly through trusted assistants, directing the physical laboratory work rather than carrying it out himself.",
   "louis-pasteur.turning_point.2":
@@ -783,6 +781,8 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Proceeding under this much uncertainty, hedged by his own collaborator's initial refusal and his own admitted anxiety, is one of the more fully documented instances behind the profile's risk_tolerance score — not an act of simple confidence.",
   "louis-pasteur.turning_point.3":
     "At the French government's request, he spent five years investigating a silkworm disease in a field where he had essentially no prior background — a period historians describe as an \"epistemological rupture\" that converted him from a chemist into a biologist.",
+  "louis-pasteur.complexities.1":
+    "The vaccine actually administered at that public trial was not the method he had publicly implied — which had not reliably worked — but a chemically inactivated preparation developed by a rival he had publicly dismissed and refined by his own assistant. He ordered the substitution kept quiet, and it became known only when his private notebooks were published nearly a century later.",
 
   /* ----------------------------------------------------- Batch 4: L. Armstrong */
   "louis-armstrong.achievement.1":
@@ -2540,8 +2540,6 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1881년 푸이유르포르에서 열린 널리 알려진 공개 현장 실험에서, 파스퇴르는 백신 접종이 가축을 탄저병으로부터 보호할 수 있음을 입증하여, 회의적이던 과학자들과 농업계 전반에 백신이 세균성 질병 일반에 효과가 있다는 확신을 심어주었다. 4년 뒤인 1885년 7월에는 아홉 살 소년 조제프 마이스터에게 실험적인 광견병 치료를 시행했는데 — 인간을 대상으로 한 최초의 성공적인 광견병 백신 접종이었다 — 이로 인해 치료를 요청하는 사람이 급증하면서 1887~88년 파스퇴르 연구소 설립으로 곧장 이어졌고, 이 연구소는 2014년까지 열 명의 노벨상 수상자를 배출했다.",
   "louis-pasteur.moment.1":
     "1881년 푸이유르포르에서 열린 탄저병 백신의 공개 현장 시험에서, 그는 세균설 자체를 거부하던 자신의 가장 강경한 비판자인 수의사를 시험의 감독 구조 자체에 의도적으로 끌어들여, 동물을 고르고 노출 과정을 감독하게 한 뒤, 모여든 정치인·언론인·농부들에게 평이하고 친근한 어조로 연설해 청중을 사로잡았다고 전해진다.",
-  "louis-pasteur.moment.2":
-    "그 공개 시험에서 실제로 투여된 백신은 그가 공개적으로 암시했던, 안정적으로 작동하지 않던 방법이 아니라 그가 공개적으로 무시했던 경쟁자가 개발하고 자신의 조수가 개량한 화학적으로 비활성화한 제제였다. 그는 이 대체 사실을 함구하라고 지시했고, 이는 거의 한 세기가 지나 그의 개인 실험 노트가 공개되면서야 알려졌다.",
   "louis-pasteur.turning_point.1":
     "그의 다섯 자녀 중 셋이 그의 생전에 장티푸스로 세상을 떠났으며, 여러 전기 작가들은 이 시기에 쌓인 슬픔과 과로를 1868년 그의 왼팔과 왼다리 일부를 영구히 마비시킨 뇌졸중과 연결 짓는다. 그 이후 그는 주로 신뢰하는 조수들을 통해 일했으며, 직접 실험을 수행하기보다 물리적인 실험실 작업을 지시하는 쪽으로 바뀌었다.",
   "louis-pasteur.turning_point.2":
@@ -2552,6 +2550,8 @@ export const EDITORIAL_KO: Record<string, string> = {
     "자신의 협력자조차 처음에는 거부했고 그 자신도 불안을 인정했을 만큼 불확실성이 큰 상황에서 밀어붙인 이 결정은 프로필의 위험 감수(risk_tolerance) 점수를 뒷받침하는 가장 충분히 기록된 사례 중 하나다 — 단순한 자신감의 발로가 아니다.",
   "louis-pasteur.turning_point.3":
     "프랑스 정부의 요청으로 그는 사전 지식이 거의 없던 분야인 누에병 연구에 5년을 쏟았다 — 역사가들은 이 시기를 그를 화학자에서 생물학자로 바꾸어 놓은 '인식론적 단절'이라고 표현한다.",
+  "louis-pasteur.complexities.1":
+    "그 공개 시험에서 실제로 투여된 백신은 그가 공개적으로 암시했던, 안정적으로 작동하지 않던 방법이 아니라 그가 공개적으로 무시했던 경쟁자가 개발하고 자신의 조수가 개량한 화학적으로 비활성화한 제제였다. 그는 이 대체 사실을 함구하라고 지시했고, 이는 거의 한 세기가 지나 그의 개인 실험 노트가 공개되면서야 알려졌다.",
 
   /* ----------------------------------------------------- Batch 4: L. Armstrong */
   "louis-armstrong.achievement.1":
