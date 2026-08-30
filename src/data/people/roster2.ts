@@ -2312,13 +2312,13 @@ const seeds: PersonSeed[] = [
     // people."
     // KUSAMA DIED 2026-08-14 (confirmed independently via CNN/NPR/
     // Washington Post/ABC News/her official site, checked 2026-08-29) --
-    // this roster entry's isLiving/deathYear fields are now stale. NOT
-    // corrected here: out of scope for this editorial-content branch,
-    // flagged separately as its own roster-data follow-up task. The
-    // editorial content in src/data/people/editorial.ts and
-    // src/core/i18n/editorial.ts is deliberately written in tense-neutral
-    // language -- it states the death as a fact in Life Arc/Legacy without
-    // the rest of the profile asserting she is currently alive.
+    // this roster entry's isLiving/deathYear fields now correctly reflect
+    // that (see the roster factual correction note near birthYear above,
+    // applied earlier in this integration lineage). The editorial content
+    // in src/data/people/editorial.ts and src/core/i18n/editorial.ts is
+    // still deliberately written in tense-neutral language -- it states
+    // the death as a fact in Life Arc/Legacy without the rest of the
+    // profile asserting she is currently alive.
     sources: [
       wiki("kusama", "Yayoi Kusama"),
       {
