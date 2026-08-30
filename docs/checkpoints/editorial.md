@@ -21,9 +21,9 @@ guaranteed current.
 | C (inline `//` roster-file comments only) | 35 | **35** | **0** |
 | **Total** | **95** | **95** | **0** |
 
-**Every roster person now has editorial content.** 504 total items (222
-achievements, 187 moments, 95 turning points), 151 with an
-interpretation, 834 distinct EN editorial keys, **100% Korean
+**Every roster person now has editorial content.** 505 total items (224
+achievements, 186 moments, 95 turning points), 151 with an
+interpretation, 839 distinct EN editorial keys, **100% Korean
 coverage**. Run `corepack pnpm@10 exec tsx
 src/dev/editorialCoverageAudit.ts` for the live number.
 
@@ -148,7 +148,14 @@ section is historical record, not an open status.**
 
 ## Next recommended step
 
-None outstanding — editorial coverage is complete (95/95). Any further
-editorial work (e.g. a normalization/consistency pass across
-achievement wording, or broader Complexity coverage) is a new,
-separately-scoped initiative, not a continuation of this program.
+None outstanding — editorial coverage is complete (95/95). Profile
+Quality Normalization Batches A and B (2026-08, `main` `022f274`) each
+ran the audit-then-edit process this section once described only
+hypothetically: Batch A reclassified one Pasteur item Moment →
+Complexity; Batch B added a second core Achievement for Atatürk
+(reform program), an Achievement + Legacy for Octavia Butler, a Legacy
+for Frida Kahlo, and a Legacy (minimal biographical closure around his
+death) for Vincent van Gogh — Simón Bolívar was audited and kept
+unchanged. Further normalization passes over the rest of the roster
+remain a new, separately-scoped initiative, not a continuation of this
+program.

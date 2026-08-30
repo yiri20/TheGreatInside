@@ -54,11 +54,18 @@ Zheng He remain)).
   well under the 20%-at-n≥30 threshold. Stable across roster growth.
 - **Editorial content** (achievements/moments/turning points on person
   pages): **95/95 COMPLETE** (2026-08-30, Remaining-19 Editorial
-  Completion) — Tier A 8/8, Tier B 52/52, Tier C 35/35. 504 total
+  Completion) — Tier A 8/8, Tier B 52/52, Tier C 35/35. 505 total
   editorial items, 100% Korean coverage. Profile V2 sections
   (`lifeArc`/`complexities`/`legacy`) remain evidence-gated and
   asymmetric by design — omitted, not padded, where the record doesn't
-  support them. See
+  support them. **Profile Quality Normalization Batches A + B**
+  (2026-08, `main` `022f274`) then ran an evidence-gated audit/edit pass
+  on 7 profiles (Pasteur, Edison, Atatürk, Octavia Butler, Frida Kahlo,
+  Vincent van Gogh, Simón Bolívar): Pasteur's vaccine-substitution item
+  moved Moment → Complexity; Atatürk gained a second core Achievement
+  (reform program); Butler gained an Achievement + Legacy; Kahlo and Van
+  Gogh each gained a Legacy; Edison and Bolívar were audited and kept
+  unchanged. See
   [`docs/checkpoints/editorial.md`](../checkpoints/editorial.md).
 - **Profile V2 pilot** (`lifeArc`/`complexities`/`legacy` fields on
   `PersonEditorial`, 2026-08): piloted on 6 people (Warren Buffett,
