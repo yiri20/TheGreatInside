@@ -100,6 +100,46 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   //     doesn't overlap with leadership_drive's "directing a group" sense.
   "attribute.proactive_agency": "선제적 행동력",
 
+  /* ------------------------------------------- 특성 설명 (2026-08, trait
+     explanation UX). 영어 원문의 의미를 그대로 옮기되, 자연스러운 한국어 제품
+     문체로 다시 쓴 것 — 축자 번역이 아니다. "정도"/"얼마나 ~는지" 구문으로
+     통일해 "좋고 나쁨이 아니라 차원 위의 위치"라는 영어 원문의 중립적 어조를
+     유지한다. */
+  "attribute.description.curiosity": "새로운 아이디어나 주제를 그 자체로 얼마나 궁금해하며 파고드는지.",
+  "attribute.description.analytical_rigor": "행동에 옮기기 전에 문제를 얼마나 체계적으로 쪼개고 근거를 따져보는지.",
+  "attribute.description.intuitive_synthesis": "단계적 분석보다 패턴 감지와 직관적 판단에 얼마나 의존하는지.",
+  "attribute.description.systems_abstraction": "겉보기에 따로인 요소들을 잇는 구조를 얼마나 자연스럽게 파악하는지.",
+  "attribute.description.independent_thinking": "주변의 지배적인 의견과 다르더라도 스스로 결론에 이르려는 정도.",
+  "attribute.description.creative_originality": "기존 방식을 다듬기보다 얼마나 새로운 방향으로 벗어나는지.",
+  "attribute.description.experimentation": "검증된 방법을 반복하기보다 새로운 접근을 얼마나 자주 시도하는지.",
+  "attribute.description.cross_domain_range": "관심사나 활동이 서로 다른 분야에 걸쳐 얼마나 폭넓게 뻗어 있는지.",
+  "attribute.description.aesthetic_sensitivity": "작업의 형태와 스타일, 감각적 완성도에 얼마나 신경 쓰는지.",
+  "attribute.description.discipline": "외부의 압박 없이도 세운 계획을 얼마나 꾸준히 지켜내는지.",
+  "attribute.description.deep_focus": "흐트러지지 않고 한 가지 작업에 얼마나 오래 집중할 수 있는지.",
+  "attribute.description.detail_orientation": "전체 그림보다 작은 디테일을 얼마나 꼼꼼히 챙기는지.",
+  "attribute.description.perfectionism": "자신의 결과물을 마무리로 인정하기까지 요구하는 기준이 얼마나 높은지.",
+  "attribute.description.execution_speed": "결정을 내린 뒤 실제 결과물로 이어지기까지 얼마나 빠른지.",
+  "attribute.description.planning_orientation": "그때그때 판단하기보다 미리 단계를 얼마나 촘촘히 짜두는지.",
+  "attribute.description.persistence": "거듭된 좌절 속에서도 얼마나 오래 시도를 이어가는지.",
+  "attribute.description.adaptability": "상황이 바뀌었을 때 접근 방식을 얼마나 선뜻 바꾸는지.",
+  "attribute.description.risk_tolerance": "실제 손실 가능성이나 불확실성 앞에서 얼마나 편안하게 행동하는지.",
+  "attribute.description.ambiguity_tolerance": "그림이 명확하지 않은 상태에서도 얼마나 편안하게 움직이는지.",
+  "attribute.description.decisiveness": "필요한 정보가 갖춰졌을 때 얼마나 빠르게 결정을 내리는지.",
+  "attribute.description.social_assertiveness": "집단 안에서 얼마나 선뜻 나서서 발언하거나 주도권을 잡는지.",
+  "attribute.description.collaboration": "성과가 다른 사람과의 긴밀하고 지속적인 협력에 얼마나 의존하는지.",
+  "attribute.description.leadership_drive": "집단의 방향을 정하고 결과를 책임지려는 의지가 얼마나 강한지.",
+  "attribute.description.persuasiveness": "다른 사람을 자신의 관점으로 얼마나 효과적으로 이끄는지.",
+  "attribute.description.conflict_tolerance": "갈등을 서둘러 봉합하기보다 드러난 채로 두는 데 얼마나 편안한지.",
+  "attribute.description.mastery_orientation": "당장 필요한 수준을 넘어서까지 기술을 갈고닦으려는 의지가 얼마나 강한지.",
+  "attribute.description.achievement_drive": "구체적이고 측정 가능한 성과를 이루려는 동기가 얼마나 강한지.",
+  "attribute.description.competitiveness": "내적 기준보다 다른 사람을 앞서는 데 얼마나 더 동기부여되는지.",
+  "attribute.description.autonomy_need": "남이 정한 틀 안에서 일하기보다 자신의 작업을 스스로 통제하려는 욕구가 얼마나 강한지.",
+  "attribute.description.impact_motivation": "자신의 작업 자체를 넘어 세상에 만들고 싶은 변화에 얼마나 동기부여되는지.",
+  "attribute.description.belief_updating": "새로운 근거가 기존 입장과 어긋날 때 얼마나 선뜻 입장을 바꾸는지.",
+  "attribute.description.opportunity_sensing": "다른 사람 눈에 뚜렷해지기 전에 움직일 만한 기회나 변화를 얼마나 빨리 알아채는지.",
+  "attribute.description.resourcefulness": "제한되거나 불완전한 수단으로도 실질적인 해법을 얼마나 잘 만들어내는지.",
+  "attribute.description.proactive_agency": "기회가 주어지길 기다리기보다 스스로 기회를 만들어내는 정도가 얼마나 강한지.",
+
   "facet.thinking": "사고",
   "facet.creativity": "창의성",
   "facet.work_style": "일하는 방식",
@@ -674,6 +714,22 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.trait_constellation": "핵심 특성",
   "person.traits.show_all": "모든 특성 보기",
   "person.traits.show_fewer": "특성 접기",
+  /* ------------------------------------------- 특성 설명 UX (2026-08)
+     데스크톱 팝오버 / 모바일 하단 시트 — TraitExplanationDialog.tsx 참고.
+     점수 구간 문구는 greatness.band.*와 구조만 같고 내용은 다르다: 특성 점수
+     구간은 0-100 척도 위 원점수의 위치만 설명하며, 다른 사람이나 인구 집단과의
+     비교를 주장하지 않는다. */
+  "person.traits.explanation.close": "닫기",
+  "trait.band.very_low": "매우 낮음",
+  "trait.band.low": "낮음",
+  "trait.band.moderate": "보통",
+  "trait.band.high": "높음",
+  "trait.band.very_high": "매우 높음",
+  "trait.band.very_low.meaning": "이 특성 범위에서 낮은 쪽 끝에 가까운 수준.",
+  "trait.band.low.meaning": "이 특성 범위에서 낮은 절반에 속하는 수준.",
+  "trait.band.moderate.meaning": "이 특성 범위에서 중간에 가까운 수준.",
+  "trait.band.high.meaning": "이 특성 범위에서 높은 절반에 속하는 수준.",
+  "trait.band.very_high.meaning": "이 특성 범위에서 높은 쪽 끝에 가까운 수준.",
   "person.similar_people": "비슷한 인물",
   "person.opposite_profile": "반대 프로필",
   "person.sources": "출처",

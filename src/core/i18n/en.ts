@@ -42,6 +42,82 @@ export const en = {
   "attribute.resourcefulness": "Resourcefulness",
   "attribute.proactive_agency": "Proactive Agency",
 
+  /* ------------------------------------------------- attribute definitions
+     Profile Trait Explanation UX (2026-08). One short, neutral, jargon-free
+     sentence per attribute: what the dimension measures, never whether a
+     score on it is good or bad (CLAUDE.md "Score is not impact"). This is
+     the ONE centralized definition source for all 34 attributes — reused
+     verbatim by the trait explanation popover/sheet; do not duplicate this
+     text into a second store. */
+  "attribute.description.curiosity":
+    "How strongly someone is drawn to explore new ideas or subjects for their own sake.",
+  "attribute.description.analytical_rigor":
+    "How systematically someone breaks a problem down and checks their reasoning before acting on it.",
+  "attribute.description.intuitive_synthesis":
+    "How much someone relies on pattern-sensing and judgment rather than step-by-step analysis.",
+  "attribute.description.systems_abstraction":
+    "How naturally someone sees the underlying structure connecting separate parts of a problem.",
+  "attribute.description.independent_thinking":
+    "How willing someone is to reach their own conclusions even against prevailing opinion.",
+  "attribute.description.creative_originality":
+    "How much someone's output departs from existing conventions rather than refining them.",
+  "attribute.description.experimentation":
+    "How often someone tries a new approach rather than repeating a proven method.",
+  "attribute.description.cross_domain_range":
+    "How widely someone's interests or work span genuinely different fields.",
+  "attribute.description.aesthetic_sensitivity":
+    "How much someone attends to form, style, and sensory quality in their work.",
+  "attribute.description.discipline":
+    "How consistently someone follows through on a plan without needing outside pressure.",
+  "attribute.description.deep_focus":
+    "How long someone can sustain concentrated attention on one task without drifting.",
+  "attribute.description.detail_orientation":
+    "How closely someone tracks small specifics rather than working from the general picture.",
+  "attribute.description.perfectionism":
+    "How high a personal standard someone holds their own work to before considering it finished.",
+  "attribute.description.execution_speed":
+    "How quickly someone moves from decision to visible output.",
+  "attribute.description.planning_orientation":
+    "How much someone maps out steps in advance rather than working it out as they go.",
+  "attribute.description.persistence":
+    "How long someone keeps working at something through repeated setbacks.",
+  "attribute.description.adaptability":
+    "How readily someone changes approach when circumstances shift.",
+  "attribute.description.risk_tolerance":
+    "How comfortable someone is acting under real uncertainty or possible loss.",
+  "attribute.description.ambiguity_tolerance":
+    "How comfortable someone is operating without a clear or complete picture.",
+  "attribute.description.decisiveness":
+    "How quickly someone commits to a choice once the relevant facts are in front of them.",
+  "attribute.description.social_assertiveness":
+    "How readily someone speaks up, takes the floor, or puts themselves forward in a group.",
+  "attribute.description.collaboration":
+    "How much someone's work depends on close, sustained partnership with others.",
+  "attribute.description.leadership_drive":
+    "How strongly someone seeks to set direction and be responsible for a group's outcome.",
+  "attribute.description.persuasiveness":
+    "How effectively someone brings other people around to their own view.",
+  "attribute.description.conflict_tolerance":
+    "How willing someone is to stay in open disagreement rather than smooth it over.",
+  "attribute.description.mastery_orientation":
+    "How much someone is driven to keep improving a skill for its own sake, past the point it's needed.",
+  "attribute.description.achievement_drive":
+    "How strongly someone is motivated by completing concrete, measurable accomplishments.",
+  "attribute.description.competitiveness":
+    "How much someone is motivated by outperforming others specifically, rather than an internal standard.",
+  "attribute.description.autonomy_need":
+    "How strongly someone needs to control their own work rather than operate inside someone else's structure.",
+  "attribute.description.impact_motivation":
+    "How much someone is driven by a change they want to see in the world beyond their own work.",
+  "attribute.description.belief_updating":
+    "How readily someone revises a position when new evidence contradicts it.",
+  "attribute.description.opportunity_sensing":
+    "How quickly someone notices an opening or shift worth acting on before it's obvious to others.",
+  "attribute.description.resourcefulness":
+    "How well someone improvises a working solution from limited or imperfect means.",
+  "attribute.description.proactive_agency":
+    "How much someone creates their own opportunities rather than waiting for one to appear.",
+
   /* ---------------------------------------------------------------- facets */
   "facet.thinking": "Thinking",
   "facet.creativity": "Creativity",
@@ -957,6 +1033,23 @@ export const en = {
   "person.trait_constellation": "Trait Constellation",
   "person.traits.show_all": "Show all traits",
   "person.traits.show_fewer": "Show fewer traits",
+  /* ------------------------------------------- trait explanation UX (2026-08)
+     Popover (desktop) / bottom sheet (mobile) opened by clicking or tapping
+     a trait card — see TraitExplanationDialog.tsx. Score-band labels/meaning
+     mirror greatness.band.* (src/core/greatness/greatness.ts) in structure,
+     not content: a trait score band describes where the raw score sits on
+     its own 0-100 scale, never a population comparison. */
+  "person.traits.explanation.close": "Close",
+  "trait.band.very_low": "Very Low",
+  "trait.band.low": "Low",
+  "trait.band.moderate": "Moderate",
+  "trait.band.high": "High",
+  "trait.band.very_high": "Very High",
+  "trait.band.very_low.meaning": "Near the low end of this dimension.",
+  "trait.band.low.meaning": "On the lower half of this dimension.",
+  "trait.band.moderate.meaning": "Near the middle of this dimension.",
+  "trait.band.high.meaning": "On the upper half of this dimension.",
+  "trait.band.very_high.meaning": "Near the high end of this dimension.",
   "person.similar_people": "Similar People",
   "person.opposite_profile": "Opposite Profile",
   "person.sources": "Sources",

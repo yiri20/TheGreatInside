@@ -397,6 +397,48 @@ describe("trait card", () => {
     expect(html).toContain(en["label.the_cost"]);
   });
 
+  // Profile Trait Explanation UX (2026-08) — TraitCard's `explain` prop.
+  it("renders as a plain non-interactive article when `explain` is omitted (Results page, unaffected)", () => {
+    const html = render(TraitCard, { label: "Curiosity", score: 91, impact: "advantage", locale: "en-US" });
+    expect(html).toContain("<article");
+    expect(html).not.toContain("<button");
+    expect(html).not.toContain("aria-haspopup");
+  });
+
+  it("renders as a single interactive button when `explain` is provided, with no duplicate interactive nesting", () => {
+    const html = render(TraitCard, {
+      label: "Curiosity",
+      score: 91,
+      impact: "advantage",
+      locale: "en-US",
+      explain: { expanded: false, controls: "trait-explain-dialog", onActivate: () => {} },
+    });
+    expect(html).toContain("<button");
+    expect(html).toContain('aria-haspopup="dialog"');
+    expect(html).toContain('aria-expanded="false"');
+    expect(html).toContain('aria-controls="trait-explain-dialog"');
+    // No nested <button>/<a> inside the trigger — the internal score bar and
+    // confidence pips stay non-interactive presentational markup.
+    expect((html.match(/<button/g) ?? []).length).toBe(1);
+    expect(html).not.toContain("<a ");
+  });
+
+  it("reflects `explain.expanded` in aria-expanded and does not regress the visible trait name/score", () => {
+    const html = render(TraitCard, {
+      label: "Curiosity",
+      score: 91,
+      impact: "advantage",
+      confidence: 0.7,
+      locale: "en-US",
+      explain: { expanded: true, controls: "trait-explain-dialog", onActivate: () => {} },
+    });
+    expect(html).toContain('aria-expanded="true"');
+    expect(html).toContain("Curiosity");
+    expect(html).toContain("91");
+    // The score bar's own accessible text is untouched by the explain wrapper.
+    expect(html).toContain("Curiosity 91 / 100");
+  });
+
   it("renders a trait chip without a percent sign", () => {
     const html = render(TraitChip, { label: "Curiosity", score: 94, locale: "en-US" });
     expect(html).toContain("94");

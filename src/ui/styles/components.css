@@ -480,6 +480,102 @@ body {
 .tgi-traitcard__edge { display: grid; gap: var(--tgi-space-1); }
 .tgi-traitcard__edge-label { font-size: var(--tgi-text-xs); font-weight: var(--tgi-weight-semibold); letter-spacing: var(--tgi-tracking-wide); text-transform: uppercase; color: var(--tgi-ink-muted); }
 
+/* ---------------------------------------- trait explanation UX (2026-08)
+   `.tgi-traitcard-trigger`: a <button> carrying the exact same visual
+   classes as `<Card as="article" interactive>` (see TraitCard.tsx) plus a
+   plain button-reset (buttons don't inherit text-align/font/cursor from
+   their container the way a div does) — the whole card becomes one click/
+   tap target with zero visual change from the non-interactive card. The
+   "selected/pressed state is visually subtle" requirement is `aria-
+   expanded="true"`'s rule below: a faint fill, not a border/colour change
+   that could read as an impact signal. */
+.tgi-traitcard-trigger {
+  /* Deliberately NOT `all: unset` — `.tgi-card`'s own background/border/
+     padding/border-radius/box-shadow already beat the UA <button>
+     stylesheet regardless of source order (author styles always outrank
+     the UA origin), so resetting `all` here would instead clobber THOSE
+     author rules via ordinary same-specificity/later-in-file precedence.
+     Only the button-specific UA defaults `.tgi-card` doesn't already
+     cover are reset below. */
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.tgi-traitcard-trigger[aria-expanded="true"] {
+  background: var(--tgi-surface-sunken);
+}
+
+/* `<dialog>` styled two ways from one markup — see TraitExplanationDialog.tsx
+   for why this is a native <dialog> rather than a hand-rolled overlay, and
+   TraitConstellationGrid.tsx for why desktop positioning is inline-style
+   (JS-measured, anchored near the trigger card) while mobile is plain CSS
+   (no inline top/left set at all below 640px, so this rule's `inset`
+   applies with ordinary specificity, no !important tug-of-war). */
+.tgi-trait-explain {
+  position: fixed;
+  z-index: 51;
+  margin: 0;
+  padding: 0;
+  width: min(22.5rem, calc(100vw - 2 * var(--tgi-space-4)));
+  max-width: 22.5rem;
+  border: var(--tgi-border-width) solid var(--tgi-rule-strong);
+  border-radius: var(--tgi-radius-md);
+  background: var(--tgi-surface);
+  box-shadow: var(--tgi-shadow-raised);
+}
+.tgi-trait-explain__body {
+  display: grid;
+  gap: var(--tgi-space-3);
+  padding: var(--tgi-space-5);
+  max-height: 70vh;
+  overflow-y: auto;
+}
+.tgi-trait-explain__heading { margin: 0; }
+.tgi-trait-explain__meta { display: flex; align-items: baseline; gap: var(--tgi-space-1); }
+
+/* Decorative only (`pointer-events: none`) — the explanation is a non-modal
+   <dialog> (see TraitConstellationGrid.tsx's header comment for why: a true
+   modal's inert background would block clicking a different trait card to
+   switch, which this spec requires), so nothing actually depends on this
+   for the outside-click-closes or click-another-card-switches behaviour —
+   both are hand-rolled in JS regardless of whether this is present. Desktop
+   gets none at all (a popover dimming the whole page reads as a modal, not
+   a popover); mobile gets a quiet scrim behind the sheet, the expected
+   bottom-sheet convention. Visibility is driven purely by the sibling
+   combinator off the dialog's own native `open` attribute (never a React
+   prop) — see TraitExplanationDialog.tsx for why this element's presence in
+   the DOM must stay unconditional. */
+.tgi-trait-explain-scrim {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  background: var(--tgi-scrim);
+}
+
+@media (max-width: 640px) {
+  .tgi-trait-explain {
+    position: fixed;
+    inset: auto 0 0 0;
+    width: 100%;
+    max-width: 100%;
+    border-radius: var(--tgi-radius-lg) var(--tgi-radius-lg) 0 0;
+    border-bottom: none;
+  }
+  .tgi-trait-explain__body {
+    max-height: 80vh;
+    padding-bottom: var(--tgi-space-6);
+  }
+  .tgi-trait-explain[open] ~ .tgi-trait-explain-scrim {
+    display: block;
+  }
+}
+
 /* Person page Trait Constellation, mobile progressive disclosure (2026-08).
    Every trait card is always in the DOM (see TraitConstellationGrid) --
    hiding the rest of the stack below the strongest 4, and showing the

@@ -187,6 +187,22 @@ export function ComparisonBar({
 
 /* -------------------------------------------------------------- TraitCard */
 
+/**
+ * Makes the whole card one activation target for the Profile Trait
+ * Explanation UX (2026-08) — clicking/tapping anywhere on the card opens
+ * the explanation popover/sheet for this attribute. Optional and additive:
+ * every existing call site (Results' signature-trait/dual-edged cards, which
+ * pass `edge`/`cost`/`context` instead) omits this entirely and renders
+ * byte-identical to before.
+ */
+export interface TraitCardExplain {
+  /** Whether this trait's explanation is currently open. */
+  expanded: boolean;
+  /** `id` of the explanation surface, for `aria-controls`. */
+  controls: string;
+  onActivate: (trigger: HTMLButtonElement) => void;
+}
+
 export function TraitCard({
   label,
   score,
@@ -196,6 +212,7 @@ export function TraitCard({
   edge,
   cost,
   context,
+  explain,
 }: {
   label: string;
   score: number;
@@ -206,40 +223,63 @@ export function TraitCard({
   edge?: string;
   cost?: string;
   context?: string;
+  explain?: TraitCardExplain;
 }) {
-  return (
-    <Card as="article">
-      <div className="tgi-traitcard">
-        <div className="tgi-traitcard__head">
-          <Stack gap={1}>
-            <span>{label}</span>
-            <ImpactBadge impact={impact} locale={locale} />
-          </Stack>
-          <span className="tgi-traitcard__score">{formatScore(score)}</span>
-        </div>
-
-        <ScoreBar label={label} score={score} impact={impact} locale={locale} />
-
-        {edge ? (
-          <div className="tgi-traitcard__edge">
-            <span className="tgi-traitcard__edge-label">{t(locale, "label.the_edge")}</span>
-            <Text tone="secondary">{edge}</Text>
-          </div>
-        ) : null}
-        {cost ? (
-          <div className="tgi-traitcard__edge">
-            <span className="tgi-traitcard__edge-label">{t(locale, "label.the_cost")}</span>
-            <Text tone="secondary">{cost}</Text>
-          </div>
-        ) : null}
-        {context ? <Text tone="muted">{context}</Text> : null}
-
-        {confidence !== undefined ? (
-          <ConfidenceIndicator confidence={confidence} locale={locale} />
-        ) : null}
+  const body = (
+    <div className="tgi-traitcard">
+      <div className="tgi-traitcard__head">
+        <Stack gap={1}>
+          <span>{label}</span>
+          <ImpactBadge impact={impact} locale={locale} />
+        </Stack>
+        <span className="tgi-traitcard__score">{formatScore(score)}</span>
       </div>
-    </Card>
+
+      <ScoreBar label={label} score={score} impact={impact} locale={locale} />
+
+      {edge ? (
+        <div className="tgi-traitcard__edge">
+          <span className="tgi-traitcard__edge-label">{t(locale, "label.the_edge")}</span>
+          <Text tone="secondary">{edge}</Text>
+        </div>
+      ) : null}
+      {cost ? (
+        <div className="tgi-traitcard__edge">
+          <span className="tgi-traitcard__edge-label">{t(locale, "label.the_cost")}</span>
+          <Text tone="secondary">{cost}</Text>
+        </div>
+      ) : null}
+      {context ? <Text tone="muted">{context}</Text> : null}
+
+      {confidence !== undefined ? (
+        <ConfidenceIndicator confidence={confidence} locale={locale} />
+      ) : null}
+    </div>
   );
+
+  if (explain) {
+    // Same visual output as `<Card as="article">` (see primitives.tsx) —
+    // reproduced directly rather than widening Card's own `as` union to
+    // "button" for one call site. A <button> may not contain sectioning
+    // content like <article>, so this changes the wrapper tag, not the
+    // class names, and the hover/focus-within treatment (`tgi-card--
+    // interactive`, already defined, previously unused) already IS the
+    // "subtle selected/pressed state" the trait explanation spec calls for.
+    return (
+      <button
+        type="button"
+        className="tgi-card tgi-card--interactive tgi-traitcard-trigger"
+        aria-haspopup="dialog"
+        aria-expanded={explain.expanded}
+        aria-controls={explain.controls}
+        onClick={(e) => explain.onActivate(e.currentTarget)}
+      >
+        {body}
+      </button>
+    );
+  }
+
+  return <Card as="article">{body}</Card>;
 }
 
 /* ------------------------------------------------------------- PersonCard */

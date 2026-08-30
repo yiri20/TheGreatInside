@@ -131,6 +131,20 @@ describe("taxonomy_v1.1 structural invariants", () => {
     }
   });
 
+  it("has an English and Korean definition for every attribute (Profile Trait Explanation UX, 2026-08)", () => {
+    // The one centralized attribute-definition source — see
+    // src/core/interpretation/traitScoreBands.ts and TraitExplanationDialog.tsx.
+    for (const id of ATTRIBUTE_IDS) {
+      const enDef = en[`attribute.description.${id}` as keyof typeof en];
+      const koDef = ko[`attribute.description.${id}` as keyof typeof ko];
+      expect(enDef, id).toBeTruthy();
+      expect(koDef, id).toBeTruthy();
+      // A definition describes the dimension, never a goodness judgement —
+      // a cheap lexical tripwire, not a substitute for human review.
+      expect(enDef?.toLowerCase(), id).not.toMatch(/\b(good|bad|better|worse|superior|inferior)\b/);
+    }
+  });
+
   it("keeps attribute identity (id, facet, shape, reference) locale-independent", () => {
     // Swapping which locale's strings render must never change what an
     // attribute IS — only en/ko display names differ; every other field on

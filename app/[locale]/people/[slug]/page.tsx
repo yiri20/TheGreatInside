@@ -1,12 +1,14 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { LAUNCH_LOCALES, type Locale, type PersonEditorialItem, type LifeArcBeat } from "@core/types";
+import { LAUNCH_LOCALES, type Locale, type Person, type PersonEditorialItem, type LifeArcBeat } from "@core/types";
 import { personDisplayName, t, tOptional, type MessageKey } from "@core/i18n/index";
 import { editorialText } from "@core/i18n/editorial";
 import { localizedAlternates } from "@lib/seo";
 import { siteUrl } from "@lib/env";
 import { SEED_PEOPLE } from "@data/people/seed";
-import { traitConstellation } from "@core/interpretation/constellation";
+import { traitConstellation, type ConstellationTrait } from "@core/interpretation/constellation";
+import { personTraitExplanationItem } from "@core/interpretation/traitExplanation";
+import type { AttributeId } from "@core/attributes/attributes";
 import { rankSimilarPeople, selectOppositePerson } from "@core/matching/personSimilarity";
 import {
   Button,
@@ -54,6 +56,33 @@ function resolveLifeArc(locale: Locale, beats: readonly LifeArcBeat[]) {
   return beats
     .map((beat) => ({ beat, text: editorialText(locale, beat.textKey) }))
     .filter((r): r is { beat: LifeArcBeat; text: string } => r.text !== undefined);
+}
+
+/**
+ * Profile Trait Explanation UX (2026-08): for each constellation trait,
+ * looks up whether THIS person's own editorial content already ties that
+ * attribute to a concrete episode (`personTraitExplanationItem`,
+ * src/core/interpretation/traitExplanation.ts) and, if so, resolves its
+ * interpretation text for the current locale. Locale-strict like every
+ * other `editorialText()` call — a missing Korean translation simply
+ * leaves that attribute absent from the map, not rendered untranslated,
+ * and the explanation dialog falls back to definition + score + band only
+ * for it. Deliberately does NOT infer anything from the score; every
+ * string surfaced here already exists in the editorial corpus.
+ */
+function personTraitContext(
+  locale: Locale,
+  person: Person,
+  constellation: readonly ConstellationTrait[],
+): Partial<Record<AttributeId, string>> {
+  const map: Partial<Record<AttributeId, string>> = {};
+  for (const trait of constellation) {
+    const item = personTraitExplanationItem(person, trait.attributeId);
+    if (!item?.interpretationKey) continue;
+    const text = editorialText(locale, item.interpretationKey);
+    if (text) map[trait.attributeId] = text;
+  }
+  return map;
 }
 
 /**
@@ -308,7 +337,11 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
 
         <Stack gap={4}>
           <Heading level={2}>{t(locale, "person.trait_constellation")}</Heading>
-          <TraitConstellationGrid locale={locale} traits={constellation} />
+          <TraitConstellationGrid
+            locale={locale}
+            traits={constellation}
+            personTraitContext={personTraitContext(locale, person, constellation)}
+          />
         </Stack>
 
         {(() => {

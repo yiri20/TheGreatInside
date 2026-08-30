@@ -40,6 +40,7 @@ export {
   TraitCard,
   TraitChip,
 } from "./components/data.js";
+export type { TraitCardExplain } from "./components/data.js";
 
 export type { PersonCardProps } from "./components/data.js";
 

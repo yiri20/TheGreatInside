@@ -75,6 +75,7 @@ export function Heading({
   visualLevel,
   children,
   className,
+  id,
 }: {
   level?: 1 | 2 | 3;
   /**
@@ -88,10 +89,12 @@ export function Heading({
   visualLevel?: 1 | 2 | 3;
   children: ReactNode;
   className?: string;
+  /** For `aria-labelledby` (e.g. a dialog naming itself by its own heading) — optional, every pre-existing call site is unaffected. */
+  id?: string;
 }) {
   const Tag = (["h1", "h2", "h3"] as const)[level - 1] ?? "h2";
   return (
-    <Tag className={cx("tgi-heading", `tgi-heading--${visualLevel ?? level}`, className)}>
+    <Tag id={id} className={cx("tgi-heading", `tgi-heading--${visualLevel ?? level}`, className)}>
       {children}
     </Tag>
   );
