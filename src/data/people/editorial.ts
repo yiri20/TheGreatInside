@@ -2635,4 +2635,281 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     legacy: { textKey: "hayao-miyazaki.legacy", sourceIds: ["src_miyazaki_wikipedia"] },
   },
+
+  // Remaining-19 Editorial Completion Batch 2 (2026-08): the final 9 people
+  // with no editorial content, bringing coverage to 95/95. Same evidence
+  // discipline as Batch 1 — every claim traces to a dated rationale comment
+  // in roster2.ts/seed.ts, verified via a direct fetch of the person's own
+  // Wikipedia article (and, where noted, a dedicated additional source).
+  "steve-jobs": {
+    achievements: [
+      { id: "steve-jobs-achievement-1", textKey: "steve-jobs.achievement.1", sourceIds: ["src_jobs_wikipedia"] },
+      { id: "steve-jobs-achievement-2", textKey: "steve-jobs.achievement.2", sourceIds: ["src_jobs_wikipedia"] },
+      { id: "steve-jobs-achievement-3", textKey: "steve-jobs.achievement.3", sourceIds: ["src_jobs_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "steve-jobs-moment-1",
+        textKey: "steve-jobs.moment.1",
+        interpretationKey: "steve-jobs.interpretation.moment.1",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_jobs_wikipedia"],
+      },
+      { id: "steve-jobs-moment-2", textKey: "steve-jobs.moment.2", sourceIds: ["src_jobs_wikipedia"] },
+    ],
+    turningPoints: [
+      { id: "steve-jobs-turning-point-1", textKey: "steve-jobs.turning_point.1", sourceIds: ["src_jobs_wikipedia"] },
+      {
+        id: "steve-jobs-turning-point-2",
+        textKey: "steve-jobs.turning_point.2",
+        interpretationKey: "steve-jobs.interpretation.turning_point.2",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_jobs_wikipedia"],
+      },
+    ],
+    complexities: [
+      { id: "steve-jobs-complexities-1", textKey: "steve-jobs.complexities.1", sourceIds: ["src_jobs_wikipedia", "src_jobs_biography"] },
+    ],
+    lifeArc: [
+      { year: "1955", textKey: "steve-jobs.life_arc.1", sourceIds: ["src_jobs_wikipedia"] },
+      { year: "1976", textKey: "steve-jobs.life_arc.2", sourceIds: ["src_jobs_wikipedia"] },
+      { year: "1984", textKey: "steve-jobs.life_arc.3", sourceIds: ["src_jobs_wikipedia"] },
+      { year: "1985", textKey: "steve-jobs.life_arc.4", sourceIds: ["src_jobs_wikipedia"] },
+      { year: "1997–2007", textKey: "steve-jobs.life_arc.5", sourceIds: ["src_jobs_wikipedia"] },
+      { year: "2011", textKey: "steve-jobs.life_arc.6", sourceIds: ["src_jobs_wikipedia"] },
+    ],
+    legacy: { textKey: "steve-jobs.legacy", sourceIds: ["src_jobs_wikipedia"] },
+  },
+
+  "socrates": {
+    achievements: [
+      { id: "socrates-achievement-1", textKey: "socrates.achievement.1", sourceIds: ["src_socrates_wikipedia"] },
+      { id: "socrates-achievement-2", textKey: "socrates.achievement.2", sourceIds: ["src_socrates_wikipedia"] },
+    ],
+    moments: [
+      { id: "socrates-moment-1", textKey: "socrates.moment.1", sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"] },
+      {
+        id: "socrates-moment-2",
+        textKey: "socrates.moment.2",
+        interpretationKey: "socrates.interpretation.moment.2",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"],
+      },
+    ],
+    turningPoints: [
+      { id: "socrates-turning-point-1", textKey: "socrates.turning_point.1", sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"] },
+    ],
+    lifeArc: [
+      { year: "c. 470 BC", textKey: "socrates.life_arc.1", sourceIds: ["src_socrates_wikipedia"] },
+      { year: "5th c. BC", textKey: "socrates.life_arc.2", sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"] },
+      { year: "By his mid-40s", textKey: "socrates.life_arc.3", sourceIds: ["src_socrates_wikipedia"] },
+      { year: "404 BC", textKey: "socrates.life_arc.4", sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"] },
+      { year: "399 BC", textKey: "socrates.life_arc.5", sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"] },
+      { year: "399 BC", textKey: "socrates.life_arc.6", sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"] },
+    ],
+    legacy: { textKey: "socrates.legacy", sourceIds: ["src_socrates_wikipedia"] },
+  },
+
+  "coco-chanel": {
+    achievements: [
+      { id: "coco-chanel-achievement-1", textKey: "coco-chanel.achievement.1", sourceIds: ["src_chanel_wikipedia"] },
+      { id: "coco-chanel-achievement-2", textKey: "coco-chanel.achievement.2", sourceIds: ["src_chanel_wikipedia"] },
+    ],
+    moments: [
+      { id: "coco-chanel-moment-1", textKey: "coco-chanel.moment.1", sourceIds: ["src_chanel_wikipedia"] },
+      {
+        id: "coco-chanel-moment-2",
+        textKey: "coco-chanel.moment.2",
+        interpretationKey: "coco-chanel.interpretation.moment.2",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_chanel_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      { id: "coco-chanel-turning-point-1", textKey: "coco-chanel.turning_point.1", sourceIds: ["src_chanel_wikipedia"] },
+    ],
+    complexities: [
+      {
+        id: "coco-chanel-complexities-1",
+        textKey: "coco-chanel.complexities.1",
+        sourceIds: ["src_chanel_wikipedia", "src_chanel_vaughan_biography"],
+      },
+    ],
+    lifeArc: [
+      { year: "1883", textKey: "coco-chanel.life_arc.1", sourceIds: ["src_chanel_wikipedia"] },
+      { year: "1910–1913", textKey: "coco-chanel.life_arc.2", sourceIds: ["src_chanel_wikipedia"] },
+      { year: "1921", textKey: "coco-chanel.life_arc.3", sourceIds: ["src_chanel_wikipedia"] },
+      { year: "1939", textKey: "coco-chanel.life_arc.4", sourceIds: ["src_chanel_wikipedia"] },
+      { year: "1954", textKey: "coco-chanel.life_arc.5", sourceIds: ["src_chanel_wikipedia"] },
+      { year: "1971", textKey: "coco-chanel.life_arc.6", sourceIds: ["src_chanel_wikipedia"] },
+    ],
+    legacy: { textKey: "coco-chanel.legacy", sourceIds: ["src_chanel_wikipedia"] },
+  },
+
+  "genghis-khan": {
+    achievements: [
+      { id: "genghis-khan-achievement-1", textKey: "genghis-khan.achievement.1", sourceIds: ["src_genghiskhan_wikipedia"] },
+      { id: "genghis-khan-achievement-2", textKey: "genghis-khan.achievement.2", sourceIds: ["src_genghiskhan_wikipedia"] },
+    ],
+    moments: [
+      { id: "genghis-khan-moment-1", textKey: "genghis-khan.moment.1", sourceIds: ["src_genghiskhan_wikipedia"] },
+      { id: "genghis-khan-moment-2", textKey: "genghis-khan.moment.2", sourceIds: ["src_genghiskhan_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "genghis-khan-turning-point-1",
+        textKey: "genghis-khan.turning_point.1",
+        interpretationKey: "genghis-khan.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_genghiskhan_wikipedia"],
+      },
+      { id: "genghis-khan-turning-point-2", textKey: "genghis-khan.turning_point.2", sourceIds: ["src_genghiskhan_wikipedia"] },
+    ],
+    complexities: [
+      { id: "genghis-khan-complexities-1", textKey: "genghis-khan.complexities.1", sourceIds: ["src_genghiskhan_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "c. 1162", textKey: "genghis-khan.life_arc.1", sourceIds: ["src_genghiskhan_wikipedia"] },
+      { year: "Early adulthood", textKey: "genghis-khan.life_arc.2", sourceIds: ["src_genghiskhan_wikipedia"] },
+      { year: "1204", textKey: "genghis-khan.life_arc.3", sourceIds: ["src_genghiskhan_wikipedia"] },
+      { year: "1206", textKey: "genghis-khan.life_arc.4", sourceIds: ["src_genghiskhan_wikipedia"] },
+      { year: "1219–1221", textKey: "genghis-khan.life_arc.5", sourceIds: ["src_genghiskhan_wikipedia"] },
+      { year: "1227", textKey: "genghis-khan.life_arc.6", sourceIds: ["src_genghiskhan_wikipedia"] },
+    ],
+    legacy: { textKey: "genghis-khan.legacy", sourceIds: ["src_genghiskhan_wikipedia"] },
+  },
+
+  "malala-yousafzai": {
+    achievements: [
+      { id: "malala-yousafzai-achievement-1", textKey: "malala-yousafzai.achievement.1", sourceIds: ["src_malala_wikipedia"] },
+      { id: "malala-yousafzai-achievement-2", textKey: "malala-yousafzai.achievement.2", sourceIds: ["src_malala_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "malala-yousafzai-moment-1",
+        textKey: "malala-yousafzai.moment.1",
+        interpretationKey: "malala-yousafzai.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_malala_wikipedia"],
+      },
+      { id: "malala-yousafzai-moment-2", textKey: "malala-yousafzai.moment.2", sourceIds: ["src_malala_wikipedia"] },
+    ],
+    turningPoints: [
+      { id: "malala-yousafzai-turning-point-1", textKey: "malala-yousafzai.turning_point.1", sourceIds: ["src_malala_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "1997", textKey: "malala-yousafzai.life_arc.1", sourceIds: ["src_malala_wikipedia"] },
+      { year: "2009", textKey: "malala-yousafzai.life_arc.2", sourceIds: ["src_malala_wikipedia"] },
+      { year: "2012", textKey: "malala-yousafzai.life_arc.3", sourceIds: ["src_malala_wikipedia"] },
+      { year: "2013", textKey: "malala-yousafzai.life_arc.4", sourceIds: ["src_malala_wikipedia"] },
+      { year: "2014", textKey: "malala-yousafzai.life_arc.5", sourceIds: ["src_malala_wikipedia"] },
+      { year: "2020", textKey: "malala-yousafzai.life_arc.6", sourceIds: ["src_malala_wikipedia"] },
+    ],
+    legacy: { textKey: "malala-yousafzai.legacy", sourceIds: ["src_malala_wikipedia"] },
+  },
+
+  "bruce-lee": {
+    achievements: [
+      { id: "bruce-lee-achievement-1", textKey: "bruce-lee.achievement.1", sourceIds: ["src_brucelee_wikipedia"] },
+      { id: "bruce-lee-achievement-2", textKey: "bruce-lee.achievement.2", sourceIds: ["src_brucelee_wikipedia"] },
+    ],
+    moments: [
+      { id: "bruce-lee-moment-1", textKey: "bruce-lee.moment.1", sourceIds: ["src_brucelee_wikipedia"] },
+      {
+        id: "bruce-lee-moment-2",
+        textKey: "bruce-lee.moment.2",
+        interpretationKey: "bruce-lee.interpretation.moment.2",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_brucelee_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      { id: "bruce-lee-turning-point-1", textKey: "bruce-lee.turning_point.1", sourceIds: ["src_brucelee_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "1940", textKey: "bruce-lee.life_arc.1", sourceIds: ["src_brucelee_wikipedia"] },
+      { year: "1953–1958", textKey: "bruce-lee.life_arc.2", sourceIds: ["src_brucelee_wikipedia"] },
+      { year: "1959", textKey: "bruce-lee.life_arc.3", sourceIds: ["src_brucelee_wikipedia"] },
+      { year: "1966–1967", textKey: "bruce-lee.life_arc.4", sourceIds: ["src_brucelee_wikipedia"] },
+      { year: "1971–1973", textKey: "bruce-lee.life_arc.5", sourceIds: ["src_brucelee_wikipedia"] },
+      { year: "1973", textKey: "bruce-lee.life_arc.6", sourceIds: ["src_brucelee_wikipedia"] },
+    ],
+    legacy: { textKey: "bruce-lee.legacy", sourceIds: ["src_brucelee_wikipedia"] },
+  },
+
+  "toni-morrison": {
+    achievements: [
+      { id: "toni-morrison-achievement-1", textKey: "toni-morrison.achievement.1", sourceIds: ["src_morrison_wikipedia"] },
+      { id: "toni-morrison-achievement-2", textKey: "toni-morrison.achievement.2", sourceIds: ["src_morrison_wikipedia"] },
+    ],
+    moments: [
+      { id: "toni-morrison-moment-1", textKey: "toni-morrison.moment.1", sourceIds: ["src_morrison_wikipedia"] },
+      {
+        id: "toni-morrison-moment-2",
+        textKey: "toni-morrison.moment.2",
+        interpretationKey: "toni-morrison.interpretation.moment.2",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_morrison_wikipedia"],
+      },
+      { id: "toni-morrison-moment-3", textKey: "toni-morrison.moment.3", sourceIds: ["src_morrison_wikipedia"] },
+    ],
+    turningPoints: [],
+    lifeArc: [
+      { year: "1931", textKey: "toni-morrison.life_arc.1", sourceIds: ["src_morrison_wikipedia"] },
+      { year: "1953–1955", textKey: "toni-morrison.life_arc.2", sourceIds: ["src_morrison_wikipedia"] },
+      { year: "1965–1983", textKey: "toni-morrison.life_arc.3", sourceIds: ["src_morrison_wikipedia"] },
+      { year: "1970", textKey: "toni-morrison.life_arc.4", sourceIds: ["src_morrison_wikipedia"] },
+      { year: "1987–1993", textKey: "toni-morrison.life_arc.5", sourceIds: ["src_morrison_wikipedia"] },
+      { year: "2019", textKey: "toni-morrison.life_arc.6", sourceIds: ["src_morrison_wikipedia"] },
+    ],
+    legacy: { textKey: "toni-morrison.legacy", sourceIds: ["src_morrison_wikipedia"] },
+  },
+
+  "zheng-he": {
+    achievements: [
+      { id: "zheng-he-achievement-1", textKey: "zheng-he.achievement.1", sourceIds: ["src_zhenghe_wikipedia"] },
+      { id: "zheng-he-achievement-2", textKey: "zheng-he.achievement.2", sourceIds: ["src_zhenghe_wikipedia"] },
+    ],
+    moments: [
+      { id: "zheng-he-moment-1", textKey: "zheng-he.moment.1", sourceIds: ["src_zhenghe_wikipedia"] },
+      { id: "zheng-he-moment-2", textKey: "zheng-he.moment.2", sourceIds: ["src_zhenghe_wikipedia"] },
+    ],
+    turningPoints: [
+      { id: "zheng-he-turning-point-1", textKey: "zheng-he.turning_point.1", sourceIds: ["src_zhenghe_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "c. 1371", textKey: "zheng-he.life_arc.1", sourceIds: ["src_zhenghe_wikipedia"] },
+      { year: "1381", textKey: "zheng-he.life_arc.2", sourceIds: ["src_zhenghe_wikipedia"] },
+      { year: "1402–1404", textKey: "zheng-he.life_arc.3", sourceIds: ["src_zhenghe_wikipedia"] },
+      { year: "1405", textKey: "zheng-he.life_arc.4", sourceIds: ["src_zhenghe_wikipedia"] },
+      { year: "1424", textKey: "zheng-he.life_arc.5", sourceIds: ["src_zhenghe_wikipedia"] },
+      { year: "1433", textKey: "zheng-he.life_arc.6", sourceIds: ["src_zhenghe_wikipedia"] },
+    ],
+    legacy: { textKey: "zheng-he.legacy", sourceIds: ["src_zhenghe_wikipedia"] },
+  },
+
+  "rumi": {
+    achievements: [
+      { id: "rumi-achievement-1", textKey: "rumi.achievement.1", sourceIds: ["src_rumi_wikipedia"] },
+      { id: "rumi-achievement-2", textKey: "rumi.achievement.2", sourceIds: ["src_rumi_wikipedia"] },
+    ],
+    moments: [{ id: "rumi-moment-1", textKey: "rumi.moment.1", sourceIds: ["src_rumi_wikipedia"] }],
+    turningPoints: [
+      {
+        id: "rumi-turning-point-1",
+        textKey: "rumi.turning_point.1",
+        interpretationKey: "rumi.interpretation.turning_point.1",
+        attributeId: "belief_updating",
+        sourceIds: ["src_rumi_wikipedia"],
+      },
+    ],
+    lifeArc: [
+      { year: "1207", textKey: "rumi.life_arc.1", sourceIds: ["src_rumi_wikipedia"] },
+      { year: "c. 1215–1220", textKey: "rumi.life_arc.2", sourceIds: ["src_rumi_wikipedia"] },
+      { year: "c. 1228", textKey: "rumi.life_arc.3", sourceIds: ["src_rumi_wikipedia"] },
+      { year: "1244", textKey: "rumi.life_arc.4", sourceIds: ["src_rumi_wikipedia"] },
+      { year: "1273", textKey: "rumi.life_arc.5", sourceIds: ["src_rumi_wikipedia"] },
+    ],
+    legacy: { textKey: "rumi.legacy", sourceIds: ["src_rumi_wikipedia"] },
+  },
 };

@@ -78,26 +78,36 @@ test.describe("Editorial sections — present for a pilot person", () => {
   });
 });
 
-test.describe("Editorial sections — graceful absence for a non-pilot person", () => {
-  // Fixture migrated from richard-feynman (2026-08, Remaining-19 Editorial
-  // Completion Batch 1): feynman gained editorial content, so this now
-  // points at socrates, one of the 9 Tier-C people still with none -- same
-  // migration pattern already used when Ibn Khaldun and Socrates each
-  // gained a portrait and stopped being usable as the no-portrait fixture
-  // elsewhere in this suite.
-  test("socrates (no editorial content yet) shows none of the three headings and no orphan dividers", async ({
+test.describe("Editorial sections — graceful absence of optional fields", () => {
+  // Fixture retired (2026-08, Remaining-19 Editorial Completion Batch 2):
+  // socrates -- the last of this suite's "zero editorial content" fixtures,
+  // itself a migration from richard-feynman in Batch 1 -- gained editorial
+  // content in Batch 2, which brought roster-wide coverage to 95/95. No
+  // roster person now has an entirely absent `person.editorial`, so the
+  // "whole block missing" scenario this test used to cover can no longer be
+  // demonstrated against real data. `PersonEditorial`'s lifeArc/
+  // complexities/legacy fields are independently optional per person
+  // (see src/core/types.ts), and every non-pilot person leaves at least one
+  // of them empty, so the still-real invariant this test protects --
+  // no heading and no orphan Divider for a missing optional section -- is
+  // now verified against leonardo-da-vinci itself: it has achievements/
+  // moments/turningPoints (covered by the sibling test above) but NO
+  // lifeArc, complexities, or legacy entry at all (see editorial.ts).
+  test("da Vinci (no lifeArc/complexities/legacy) shows none of those three headings and no orphan dividers", async ({
     page,
   }) => {
-    await page.goto("/en-US/people/socrates", { waitUntil: "networkidle" });
+    await page.goto("/en-US/people/leonardo-da-vinci", { waitUntil: "networkidle" });
     const headings = await page.locator("h2").allTextContents();
-    expect(headings.some((h) => h.includes("Key Achievements"))).toBe(false);
-    expect(headings.some((h) => h.includes("Moments That Reveal Them"))).toBe(false);
-    expect(headings.some((h) => h.includes("Turning Points"))).toBe(false);
-    // Base page still has exactly 3 dividers (hero, constellation, sources) —
-    // no empty editorial block was rendered, per the "no awkward blank
-    // sections for missing optional fields" requirement.
+    expect(headings.some((h) => h.includes("Life Arc"))).toBe(false);
+    expect(headings.some((h) => h.includes("Complexities"))).toBe(false);
+    expect(headings.some((h) => h.includes("Legacy"))).toBe(false);
+    // Base page has 3 unconditional dividers (hero, constellation, sources)
+    // plus exactly one per POPULATED editorial section -- da Vinci has
+    // achievements/moments/turningPoints (3) and no lifeArc/complexities/
+    // legacy, so 3 + 3 = 6, not 3 + 6, confirming the three absent optional
+    // sections contribute no orphan divider each.
     const dividerCount = await page.locator(".tgi-divider").count();
-    expect(dividerCount).toBe(3);
+    expect(dividerCount).toBe(6);
   });
 });
 

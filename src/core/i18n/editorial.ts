@@ -1593,6 +1593,208 @@ export const EDITORIAL_EN: Record<string, string> = {
   "hayao-miyazaki.life_arc.6": "Announced his retirement from feature films in 2013, then returned to direct The Boy and the Heron (2023), which won a second Academy Award for Best Animated Feature.",
   "hayao-miyazaki.legacy":
     "His combination of hand-drawn craft discipline, recurring environmentalist and anti-war themes, and strong female protagonists helped establish Studio Ghibli's films as some of the most internationally acclaimed animated work of the era. Spirited Away and The Boy and the Heron's Academy Awards, won more than twenty years apart, reflect a sustained international critical standing rare for any director working primarily in animation.",
+
+  // Remaining-19 Editorial Completion Batch 2 (2026-08).
+  "steve-jobs.achievement.1":
+    "Co-founded Apple with Steve Wozniak (and Ronald Wayne) in 1976; the Apple II (1977) was among the first mass-produced microcomputers, and the 1984 Macintosh — the first mass-produced computer with a graphical user interface — launched the desktop-publishing industry alongside the Apple LaserWriter.",
+  "steve-jobs.achievement.2":
+    "After returning to Apple in 1997, directed its design and engineering teams through the iMac, iTunes and iPod, the iPhone (2007), the App Store, and the iPad — an integrated hardware-software-services model that became a template across much of the consumer technology industry.",
+  "steve-jobs.achievement.3":
+    "As Pixar's majority shareholder and chairman from 1986 to 2006, after buying Lucasfilm's Graphics Group for $10 million, backed the studio that released Toy Story (1995), the first feature-length computer-animated film; Disney's 2006 acquisition of Pixar for $7.4 billion made him Disney's largest individual shareholder.",
+  "steve-jobs.moment.1":
+    "On a 1979 visit to Xerox PARC, Jobs immediately recognized the transformative potential of the graphical user interface and mouse Xerox's own researchers had built but never turned into a product, and had Apple's engineers build the ideas into the Lisa and then the Macintosh.",
+  "steve-jobs.interpretation.moment.1":
+    "This matches the profile's high opportunity_sensing score: perceiving the significance of something another organization had already built but hadn't grasped the importance of.",
+  "steve-jobs.moment.2":
+    "At NeXT, Jobs pursued aesthetic perfection even where it strained the business — most visibly in the NeXTcube's costly magnesium case — and by 1993, after selling only about 50,000 machines, the company abandoned hardware and pivoted to software.",
+  "steve-jobs.turning_point.1":
+    "In September 1985, after a boardroom power struggle with CEO John Sculley over whether the Macintosh should remain a closed system or open like the Apple II, Jobs was removed from the Macintosh group and resigned from the company he had co-founded; five senior Apple employees left with him to start NeXT, and his newly bought Pixar lost money for years afterward.",
+  "steve-jobs.turning_point.2":
+    "Apple acquired NeXT for $400 million in a deal finalized in February 1997; when CEO Gil Amelio was ousted that July, Jobs became Apple's de facto leader, was named interim CEO that September, and dropped the \"interim\" title in March 2000 — canceling underperforming projects like Newton and ending Macintosh-clone licensing before the company's actual product turnaround, the 1998 iMac, arrived the following year.",
+  "steve-jobs.interpretation.turning_point.2":
+    "This matches the profile's high proactive_agency score: rather than simply being reinstated, Jobs maneuvered through the acquisition and its aftermath into direct control of the company that had removed him twelve years earlier.",
+  "steve-jobs.life_arc.1": "Born in San Francisco.",
+  "steve-jobs.life_arc.2": "Co-founded Apple with Steve Wozniak; the Apple II followed in 1977.",
+  "steve-jobs.life_arc.3": "Directed the release of the Macintosh, the first mass-produced computer with a graphical user interface.",
+  "steve-jobs.life_arc.4": "Forced out of Apple after a boardroom power struggle; founded NeXT and bought the company that became Pixar.",
+  "steve-jobs.life_arc.5": "Returned to Apple through its acquisition of NeXT, became CEO by 2000, and later launched the iPhone in 2007.",
+  "steve-jobs.life_arc.6": "Died of complications from a pancreatic neuroendocrine tumor first diagnosed in 2003.",
+  "steve-jobs.complexities.1":
+    "Jobs's own conduct in several documented episodes complicates a purely celebratory account. In a 1975 Atari deal, he told Steve Wozniak — who had done the actual circuit design — that a bonus was $750 when it was actually $5,000, splitting only the smaller figure with him; Wozniak learned the real amount only years later. He denied paternity of his daughter Lisa, born in 1978, until a court-ordered test found a 94.1% probability he was the father, and paid minimal support until his own Apple-IPO wealth made continued denial harder to sustain, though he later named the Apple Lisa computer for her. His biographer Walter Isaacson also documents a post-1997 management style staff described as rare but real \"summary executions\" of underperforming employees and projects — frequent enough that some reported dreading an encounter with him in an elevator.",
+  "steve-jobs.legacy":
+    "The integrated hardware-software-services model Jobs directed at Apple — building the device, its operating system, and the store or service around it as one designed whole — became a template much of the consumer technology industry has since followed, built in each case by large design and engineering teams under his direction rather than by his invention alone. Pixar's early features, released while he controlled the studio, helped establish computer animation as a mainstream medium. The iPhone he introduced in 2007 remains a category-defining product line more than a decade after his death.",
+
+  "socrates.achievement.1":
+    "Practiced the elenchus — sustained questioning that tests a claimed expert's own stated beliefs for internal contradiction — as an open, unpaid activity conducted across the whole of Athenian society, from elite discussion partners to ordinary craftsmen, unlike the professional Sophists of his time who charged fees for instruction.",
+  "socrates.achievement.2":
+    "His method and manner, preserved and developed above all by his student Plato, became the founding template for the philosophical dialogue form and much of subsequent Western philosophical method — though how much of what Plato wrote reflects the historical Socrates rather than Plato's own later thought remains genuinely debated by scholars, the so-called Socratic problem.",
+  "socrates.moment.1":
+    "According to Plato, Socrates served in and was noted for personal courage during three Athenian campaigns of the Peloponnesian War — Potidaea, Delium, and Amphipolis. A later tradition additionally credits him with saving the life of the young Alcibiades at Potidaea, though the article's own sourcing treats that specific detail as less certain than his service itself.",
+  "socrates.moment.2":
+    "In 404 BC, under the oligarchic regime known as the Thirty Tyrants, Socrates was ordered — along with several others — to help arrest a fellow Athenian, Leon of Salamis, so that he could be executed. Plato's Apology reports that Socrates alone refused to take part, risking the regime's own retribution rather than participate in what he judged a crime.",
+  "socrates.interpretation.moment.2":
+    "This matches the profile's proactive_agency score: an unassigned, self-initiated refusal under real personal risk, distinct from his general practice of questioning others' beliefs.",
+  "socrates.turning_point.1":
+    "In 399 BC, an Athenian jury of several hundred citizens tried Socrates on charges of impiety and corrupting the city's youth. Plato's Apology depicts him mounting a deliberately unconventional defense — including, once convicted, proposing free meals for life at public expense as his own penalty rather than exile or silence. The jury sentenced him to death instead, and he was executed the next morning by drinking hemlock, an event Plato's Phaedo describes in more detail than modern scholarship treats as strictly reliable. The trial ended his own active practice of public questioning and began his far larger influence as a figure known almost entirely through his students' writing about him.",
+  "socrates.life_arc.1":
+    "Born in the Athenian deme of Alopece to a stoneworker father and a midwife mother; inherited enough of the family estate to be free of serious financial need despite his later reputation for poverty.",
+  "socrates.life_arc.2": "Served in the Peloponnesian War at Potidaea, Delium, and Amphipolis, according to Plato's account; married Xanthippe and had three sons.",
+  "socrates.life_arc.3": "Had become a well-known, polarizing figure in Athens for publicly questioning politicians, poets, and craftsmen who claimed expertise.",
+  "socrates.life_arc.4": "Refused an order from the ruling Thirty Tyrants to help arrest a fellow Athenian, Leon of Salamis, for execution.",
+  "socrates.life_arc.5": "Tried and convicted by the restored Athenian democracy on charges of impiety and corrupting the youth.",
+  "socrates.life_arc.6": "Executed by drinking hemlock, as described in Plato's Phaedo.",
+  "socrates.legacy":
+    "Nearly every major philosophical school active in the centuries after his death — Plato's Academy, Aristotle's Lyceum, the Cynics, the Stoics — traced its origins back to him in some form, and \"elenchus\" remains a working term for structured dialectical questioning today. Because Socrates left no writing of his own, this legacy runs almost entirely through Plato's dialogues, supplemented by Xenophon's more matter-of-fact portrait and Aristophanes's satirical one in The Clouds — a genuine, unresolved source problem rather than a settled biography. His insistence on questioning claimed authority, and his choice to accept death rather than abandon that practice, have made him a recurring reference point for later philosophers far removed from his own century, including Kierkegaard and Nietzsche.",
+
+  "coco-chanel.achievement.1":
+    "Founded her fashion house with a millinery boutique in Paris in 1910, expanding it into a couture, jewelry, handbag, and fragrance business that employed 4,000 people by 1935; her 1921 perfume, Chanel No. 5, became one of the best-known fragrances in the world.",
+  "coco-chanel.achievement.2":
+    "Introduced or popularized design elements that reshaped mainstream women's fashion, including jersey as a couture fabric, the 1926 \"little black dress,\" the tailored 1923 Chanel suit designed for freedom of movement rather than display, and the 1955 quilted 2.55 handbag.",
+  "coco-chanel.moment.1":
+    "After her mother's death, Chanel entered the Aubazine orphanage at age 11, where she learned to sew — the skill that eventually launched her career; she later worked as a seamstress and a cabaret singer in Moulins, where she acquired the nickname \"Coco.\"",
+  "coco-chanel.moment.2":
+    "In 1913, with financial backing from her lover Arthur \"Boy\" Capel, Chanel opened a boutique in Deauville selling casual clothing made from jersey and tricot — fabrics until then used mainly for undergarments and workwear. The business succeeded quickly enough that she repaid Capel's investment by 1916.",
+  "coco-chanel.interpretation.moment.2":
+    "This matches the profile's opportunity_sensing score: recognizing a shift toward practical, comfortable clothing for women, and an available cheap material suited to it, ahead of the mainstream fashion houses of the time.",
+  "coco-chanel.turning_point.1":
+    "Chanel closed her fashion house at the outbreak of World War II in 1939, putting roughly 4,000 employees out of work, and did not return to design for fifteen years. In 1954, at 70, financed again by Pierre Wertheimer, she reopened it to an initially skeptical American and British press; a March 1954 Vogue feature on her new suit reversed that reception, and orders poured in from the United States, restoring the house's standing.",
+  "coco-chanel.complexities.1":
+    "During the German occupation of Paris, Chanel resided at the Hôtel Ritz — also German military headquarters — and began a relationship with Baron Hans Günther von Dincklage, a German diplomat with intelligence ties. She separately petitioned German officials to gain sole control of Parfums Chanel by invoking Aryan property law against her Jewish business partners, the Wertheimer family, who had preemptively transferred nominal ownership to a non-Jewish associate. Historian Hal Vaughan's research into declassified French intelligence files found her listed under an agent number and described a wartime mission, later called \"Operation Modellhut,\" to carry a German peace feeler to Winston Churchill — a mission that collapsed when her own intermediary denounced her to British intelligence. What is documented: the Ritz residence, the Dincklage relationship, and the attempt on the Wertheimers' ownership. What remains disputed among historians is how far her active participation in German intelligence work went, versus a wartime relationship of convenience; French Nazi-hunter and historian Serge Klarsfeld has cautioned that \"having a spy number doesn't necessarily mean she was personally involved.\" She was interrogated after Paris's 1944 liberation but never charged, then lived in Switzerland for several years before her 1954 return to Paris.",
+  "coco-chanel.life_arc.1":
+    "Born in Saumur, France; after her mother's death, entered the Aubazine orphanage at 11, where she learned to sew.",
+  "coco-chanel.life_arc.2": "Opened a millinery boutique in Paris in 1910, followed by a Deauville shop in 1913 financed by her then-lover, Arthur \"Boy\" Capel.",
+  "coco-chanel.life_arc.3": "Introduced Chanel No. 5.",
+  "coco-chanel.life_arc.4": "Closed her fashion house at the outbreak of World War II.",
+  "coco-chanel.life_arc.5": "Returned to fashion at 70, financed again by Pierre Wertheimer.",
+  "coco-chanel.life_arc.6": "Died in Paris.",
+  "coco-chanel.legacy":
+    "Chanel's move away from corsetry toward comfortable, practical clothing reshaped what mainstream Western fashion considered elegant for women, and elements she introduced or popularized — jersey as a couture fabric, the tailored suit, costume jewelry, the quilted shoulder bag — remain in wide use in fashion design today. Time magazine later named her the only fashion designer among the 100 most influential people of the 20th century, and the company she founded remains one of the world's most valuable luxury houses. Her own wartime conduct, documented above, complicates any account of her legacy that treats it as purely a design story.",
+
+  "genghis-khan.achievement.1":
+    "Unified the fragmented Mongol tribes and was proclaimed Genghis Khan at a 1206 kurultai, founding the Mongol Empire; restructured Mongol society into a military-administrative system organized by units of ten, a hundred, and a thousand rather than tribal loyalty — a change credited with keeping the empire from fragmenting along old tribal lines even after his death.",
+  "genghis-khan.achievement.2":
+    "His conquests, extending across Central Asia and into northern China, created the largest contiguous land empire in history and enabled an unprecedented volume of Eurasian trade, travel, and cultural exchange along routes including the Silk Road, alongside an explicit policy of religious tolerance across the Christian, Muslim, Buddhist, and shamanist faiths represented among his followers.",
+  "genghis-khan.moment.1":
+    "After his father Yesügei, a tribal chief, was poisoned by rival Tatars when Temüjin was about eight, his own clan renounced the family in favor of a rival branch, forcing his mother and siblings to survive by foraging roots and nuts, hunting small game, and fishing.",
+  "genghis-khan.moment.2":
+    "As a boy, Temüjin swore the anda (blood-brother) pact with a companion, Jamukha; the two later became rivals for dominance of the steppe. After Temüjin's 1204 victory over the Naimans, whom Jamukha had joined, Jamukha was betrayed by his own remaining followers and delivered to Temüjin, who had him executed — accounts differ on the manner of his death.",
+  "genghis-khan.turning_point.1":
+    "At a 1206 kurultai (assembly), Temüjin was proclaimed Genghis Khan, formally unifying the Mongol tribes under a single ruler and a new military-administrative structure that replaced the tribal loyalties his own family had once been abandoned under. It marked the shift from a fragmented steppe of competing tribes and lineages to a centralized state capable of the campaigns that followed.",
+  "genghis-khan.interpretation.turning_point.1":
+    "This matches the profile's high proactive_agency score: the unification was built, alliance by alliance, on his own initiative after his own clan had abandoned his family — not an inherited or assigned position.",
+  "genghis-khan.turning_point.2":
+    "In 1219, after the Khwarazmian governor of the city of Otrar executed a Mongol trade caravan and Shah Muhammad II executed or mutilated the envoys Genghis sent to demand redress, Genghis launched an invasion that toppled the Khwarazmian state and devastated the regions of Transoxiana and Khorasan, including the cities of Otrar, Bukhara, Samarkand, and Urgench. It shifted his campaigns from a posture oriented around trade relationships with neighboring states to one applying, at unprecedented scale, a doctrine that resistance meant destruction and submission meant comparative mercy.",
+  "genghis-khan.life_arc.1":
+    "Born Temüjin; his father Yesügei, a tribal chief, was poisoned by rival Tatars when he was about eight, after which his own clan abandoned the family.",
+  "genghis-khan.life_arc.2": "Married Börte and rebuilt alliances among the fragmented Mongol and Turkic tribes despite his clan's earlier abandonment of his family.",
+  "genghis-khan.life_arc.3": "Defeated the Naimans and the remaining coalition of his former blood-brother Jamukha, ending his last major rival on the steppe.",
+  "genghis-khan.life_arc.4": "Proclaimed Genghis Khan at a kurultai formalizing the unification of the Mongol tribes.",
+  "genghis-khan.life_arc.5": "Invaded and destroyed the Khwarazmian Empire after the killing of Mongol envoys at Otrar.",
+  "genghis-khan.life_arc.6": "Died while campaigning against Western Xia; his burial site remains unknown.",
+  "genghis-khan.complexities.1":
+    "From at least the 1219 Khwarazmian campaign on, Genghis Khan's forces applied a consistent and explicit policy: cities and populations that resisted were subject to destruction as a deterrent to further resistance, while those that surrendered were typically spared comparable violence. Applied against Khwarazmian cities including Otrar, Bukhara, Samarkand, and Urgench, this produced enormous, historically significant loss of life and destruction. Reliable casualty figures are difficult to establish: the fullest surviving accounts come from Persian chroniclers writing under later, often hostile political circumstances, and modern scholarship treats their specific numbers as unreliable even while treating the broader pattern of deliberate large-scale destruction as well established — no specific casualty figure is asserted here for that reason. His own family's Secret History of the Mongols additionally records him killing his half-brother Behter to secure succession, an episode later official chronicles omitted. His reputation remains sharply divided by tradition: revered in Mongolia as the state's founding figure, remembered in some Russian and Arab historical memory principally as a destructive conqueror, with recent Western scholarship attempting a more documentary-based reassessment between those poles.",
+  "genghis-khan.legacy":
+    "His conquests created the largest contiguous land empire in history, and the relative security across it — often called the Pax Mongolica — enabled an unprecedented volume of trade, travel, and cultural and technological exchange along Eurasian routes including the Silk Road, even though that security was established through large-scale violence. His administrative reforms, especially replacing tribal loyalty with a unified military-administrative structure, kept the empire from fragmenting along old tribal lines even after his death. His reputation remains sharply divided by region and tradition to this day, as described above.",
+
+  "malala-yousafzai.achievement.1":
+    "Co-founded the Malala Fund with Shiza Shahid in 2013, a nonprofit focused on funding and advocating for girls' education, which has continued operating and expanding years after the initial period of attention that followed the attack on her.",
+  "malala-yousafzai.achievement.2":
+    "Co-authored the international bestseller I Am Malala (2013) and, in 2014, became the youngest Nobel Peace Prize laureate, sharing the award with Indian children's rights activist Kailash Satyarthi; graduated from Lady Margaret Hall, Oxford, in 2020 with a degree in Philosophy, Politics and Economics, continuing her advocacy work from within that platform.",
+  "malala-yousafzai.moment.1":
+    "Starting in January 2009, at age 11, Yousafzai wrote an anonymous blog for BBC Urdu under the pseudonym \"Gul Makai,\" describing daily life under Taliban rule in Pakistan's Swat Valley — a self-initiated act, encouraged but not directed by her education-activist father, undertaken well before any resulting attention.",
+  "malala-yousafzai.interpretation.moment.1":
+    "This matches the profile's dual-edged proactive_agency score: a specific, self-initiated act taken at real risk, which this profile's Turning Point shows led directly and severely to that risk materializing.",
+  "malala-yousafzai.moment.2":
+    "By September 2008, still under her own name and in public, 11-year-old Yousafzai was already delivering speeches on education rights, including asking publicly, \"How dare the Taliban take away my basic right to education?\" — a more exposed, named act than the anonymous blog that followed months later.",
+  "malala-yousafzai.turning_point.1":
+    "On October 9, 2012, while returning home on a school bus after an exam, Yousafzai was shot by a Taliban gunman in the Swat Valley; the bullet entered near her left eye and lodged in her shoulder, and two classmates were also wounded. She was airlifted to a military hospital in Peshawar for emergency surgery, then transferred to Queen Elizabeth Hospital in Birmingham, England, for further treatment including facial nerve reconstruction and a cochlear implant. The attack shifted her from a regional activist and blogger in Swat Valley to a global figure whose recovery and subsequent life have largely taken place in England; on July 12, 2013 — her 16th birthday — she addressed the United Nations in a speech that came to be known as \"Malala Day.\"",
+  "malala-yousafzai.life_arc.1": "Born in Mingora, Swat Valley, Pakistan; her father, Ziauddin, ran a school and was himself an education activist.",
+  "malala-yousafzai.life_arc.2": "Wrote an anonymous blog for BBC Urdu under the pseudonym \"Gul Makai,\" describing life under Taliban rule in Swat.",
+  "malala-yousafzai.life_arc.3": "Shot by a Taliban gunman on her school bus on October 9; evacuated for treatment, eventually to Birmingham, England.",
+  "malala-yousafzai.life_arc.4": "Co-founded the Malala Fund; addressed the United Nations on July 12.",
+  "malala-yousafzai.life_arc.5": "Became the youngest Nobel Peace Prize laureate, sharing the award with Kailash Satyarthi.",
+  "malala-yousafzai.life_arc.6": "Graduated from Lady Margaret Hall, Oxford, with a degree in Philosophy, Politics and Economics.",
+  "malala-yousafzai.legacy":
+    "The Malala Fund, and the international profile the 2012 attack and its aftermath gave her, have made her one of the most recognized advocates for girls' education worldwide, credited with helping keep the issue on international policy agendas well beyond the initial period of global attention. Her reception within Pakistan has been more divided: alongside wide admiration, she has also faced criticism from conservative and nationalist voices who frame her advocacy, Oxford education, and life in England as evidence of foreign alignment — Pakistan's All Private Schools Federation banned her autobiography in 2015. Her advocacy has since extended to Afghan girls' education and Rohingya refugees.",
+
+  "bruce-lee.achievement.1":
+    "Founded Jeet Kune Do, a hybrid martial-arts philosophy combining elements of Wing Chun, boxing, and fencing with Zen Buddhist and Taoist principles, built around practicality, directness, and adaptability rather than the fixed forms of traditional styles.",
+  "bruce-lee.achievement.2":
+    "Starred in and helped shape The Big Boss (1971), Fist of Fury (1972), Way of the Dragon (1972), and Enter the Dragon (1973), establishing himself as the first global Chinese film star and shifting martial-arts film choreography toward realistic, direct movement rather than fantastical staging.",
+  "bruce-lee.moment.1":
+    "Raised in Hong Kong from infancy, Lee took part in street fighting as a teenager and won the Hong Kong Crown Colony Cha-Cha Championship in 1958, before training in Wing Chun under Ip Man from 1953 to 1957 — a period marked, per the record, by tension over the traditional rule against teaching students of mixed or non-Chinese heritage.",
+  "bruce-lee.moment.2":
+    "In 1964, Lee took part in a private match with fellow martial artist Wong Jack-Man; the two sides describe it inconsistently — Lee's supporters say he won decisively in about three minutes, while Wong described a 20-25 minute inconclusive bout ending only when Lee tired. Whatever its precise course, the experience is reported to have prompted Lee to move away from rigid classical technique.",
+  "bruce-lee.interpretation.moment.2":
+    "This matches the profile's opportunity_sensing score: treating an unsatisfying real fight as evidence against classical form generally, ahead of most contemporaries, rather than as a one-off result.",
+  "bruce-lee.turning_point.1":
+    "Lee was reportedly passed over for the lead role in the Kung Fu television series — a concept he had pitched himself in 1971 — reportedly over ethnicity and accent concerns in Hollywood casting. On producer Fred Weintraub's advice to build his own showcase film instead, he returned to Hong Kong and starred in The Big Boss, Fist of Fury, and Way of the Dragon; that run of box-office success gave him the leverage for Enter the Dragon, the first US-Hong Kong co-production, which shifted his career from seeking roles inside the Hollywood studio system to building an international audience through his own films.",
+  "bruce-lee.life_arc.1": "Born in San Francisco; raised in Hong Kong from infancy.",
+  "bruce-lee.life_arc.2": "Trained in Wing Chun under Ip Man; won the Hong Kong Crown Colony Cha-Cha Championship in 1958.",
+  "bruce-lee.life_arc.3": "Moved to Seattle and began teaching martial arts.",
+  "bruce-lee.life_arc.4": "Played Kato in the television series The Green Hornet, his introduction to American audiences.",
+  "bruce-lee.life_arc.5": "Returned to Hong Kong and starred in The Big Boss, Fist of Fury, and Way of the Dragon, then Enter the Dragon, the first US-Hong Kong co-production.",
+  "bruce-lee.life_arc.6": "Died in Kowloon, Hong Kong, at age 32; officially attributed to cerebral edema, though the wider circumstances remain debated.",
+  "bruce-lee.legacy":
+    "Lee's emphasis on practicality, adaptability, and cross-style synthesis anticipated mixed martial arts by decades and continues to influence how combat sports and martial-arts training are approached. His fight choreography reshaped action cinema toward grounded, realistic movement, and his international stardom — as the first globally successful Chinese film star — opened space in Western popular culture for Asian leading roles that Hollywood had denied him directly during his own career.",
+
+  "toni-morrison.achievement.1":
+    "Published a body of novels spanning five decades that centered Black American life, memory, and historical trauma — including The Bluest Eye (1970), Song of Solomon (1977), Beloved (1987, drawing on the true story of Margaret Garner), Jazz (1992), and Paradise (1997) — establishing a body of work rather than any single title as her central claim on American letters.",
+  "toni-morrison.achievement.2":
+    "As Random House's first Black female senior fiction editor (1967–1983), acquired and championed writers the mainstream industry wasn't prioritizing, including Toni Cade Bambara, Angela Davis, and Gayl Jones, and edited the anthology Contemporary African Literature (1972) and The Black Book (1974), a visual history of Black American life from slavery through the 1920s.",
+  "toni-morrison.moment.1":
+    "Morrison wrote her debut novel, The Bluest Eye, while working full-time and raising two children alone, rising at 4am to write before the day's other demands began — the novel was published in 1970, when she was 39.",
+  "toni-morrison.moment.2":
+    "At Random House, beyond her scored acquisitions, Morrison brought Muhammad Ali's 1975 autobiography The Greatest: My Own Story to publication and posthumously championed the poet Henry Dumas, who had been shot dead by New York City transit police in 1968 — using her editorial position to bring attention to work the industry had otherwise let go unnoticed.",
+  "toni-morrison.interpretation.moment.2":
+    "This matches the profile's proactive_agency score: acquisitions and advocacy that went beyond her formally assigned editorial duties, self-directed rather than requested.",
+  "toni-morrison.moment.3":
+    "When her son Slade died of pancreatic cancer in 2010, Morrison halted work on the novel Home, then resumed it, reasoning: \"He would be really put out if he thought that he had caused me to stop.\"",
+  "toni-morrison.life_arc.1": "Born Chloe Ardelia Wofford in Lorain, Ohio.",
+  "toni-morrison.life_arc.2": "Graduated Howard University, then earned a master's degree from Cornell.",
+  "toni-morrison.life_arc.3": "Worked at Random House, becoming its first Black female senior fiction editor.",
+  "toni-morrison.life_arc.4": "Published her debut novel, The Bluest Eye, at 39 while raising two children alone.",
+  "toni-morrison.life_arc.5": "Published Beloved (Pulitzer Prize, 1988) and won the 1993 Nobel Prize in Literature, the first Black woman of any nationality to do so.",
+  "toni-morrison.life_arc.6": "Died in New York, age 88.",
+  "toni-morrison.legacy":
+    "Morrison centered Black women's inner lives and America's history of slavery and its aftermath on their own terms, without organizing the work around a white readership's expectations. Her reception was not uniformly smooth even at its height: Beloved's exclusion from the 1987 National Book Award prompted a public protest from 48 Black writers and critics, including Maya Angelou, before the novel won the Pulitzer Prize the following year; in 2006 the New York Times named it the best American work of fiction of the previous 25 years. Oprah Winfrey's book club, which selected four of her novels beginning in 1996, introduced her work to a far larger readership than her literary prizes alone had reached.",
+
+  "zheng-he.achievement.1":
+    "Commanded seven major maritime expeditions (1405–1433) for the Ming court; the first fleet alone, which departed in July 1405, comprised 317 ships and nearly 28,000 crew, reaching Southeast Asia, South Asia, the Arabian Peninsula, and the East African coast — among the largest state naval operations of the pre-modern world.",
+  "zheng-he.achievement.2":
+    "Established and maintained extensive diplomatic and tribute relationships across the Indian Ocean world on the Ming court's behalf, exchanging Chinese goods such as silk, porcelain, gold, and silver for regional goods, and suppressed piracy disrupting regional shipping, including defeating the pirate captain Chen Zuyi near Palembang and returning him to China for execution.",
+  "zheng-he.moment.1":
+    "During one of the voyages, local officials on Ceylon threatened the fleet, and Zheng He's forces waged a land engagement against the Kingdom of Kotte in response — a reminder that the expeditions carried real military capacity behind their trade and diplomacy.",
+  "zheng-he.moment.2":
+    "On one voyage the fleet brought back a giraffe from Malindi, on the East African coast, which was presented at the Ming court as a qilin — a mythical auspicious creature — and read there as confirming the dynasty's legitimacy, illustrating the symbolic as well as commercial purpose the voyages served for the court.",
+  "zheng-he.turning_point.1":
+    "Captured as a boy, around 1381, during the Ming conquest of Yunnan, he was castrated between the ages of 10 and 14 and placed in the household of the Prince of Yan, later the Yongle Emperor — an externally imposed, violent shift in circumstance, not a path he is documented to have chosen, that set the entire course of his subsequent life as a court eunuch-official. He aided the prince's household militarily, notably defending Beiping's Zhenglunba reservoir during the 1399 rebellion, and after the prince's 1402 victory made him emperor, was granted the surname Zheng in 1404 in recognition of that service — the household he had been placed in as a captive became, two decades later, the seat of the authority that made him admiral.",
+  "zheng-he.life_arc.1": "Born Ma He in Kunming, Yunnan.",
+  "zheng-he.life_arc.2": "Captured during the Ming conquest of Yunnan and castrated; placed in the household of the Prince of Yan.",
+  "zheng-he.life_arc.3": "The prince's Jingnan campaign victory made him the Yongle Emperor; Zheng He was granted his surname in 1404 in recognition of his service.",
+  "zheng-he.life_arc.4": "Departed on the first of seven treasure-fleet voyages.",
+  "zheng-he.life_arc.5": "The voyages were suspended after the Yongle Emperor's death; one further expedition later took place under the Xuande Emperor before the program ended for good.",
+  "zheng-he.life_arc.6": "Died during or shortly after the seventh voyage, probably near Calicut; formally buried at sea.",
+  "zheng-he.legacy":
+    "After his death, official Ming annals recorded the voyages incompletely and, per later scholarship, erroneously, and later official publications omitted them entirely as the dynasty turned toward the more inward-looking policy the founder's edicts had originally prescribed; the voyages remained largely forgotten until historian Liang Qichao's 1904 biography revived interest in them. Today, July 11 — the anniversary of his first voyage's departure — is observed in China as National Maritime Day, and Zheng He is commemorated across Southeast Asia through temples and monuments built by communities along the routes his fleets once traveled.",
+
+  "rumi.achievement.1":
+    "Wrote the Masnavi, a six-volume spiritual epic of roughly 27,000 lines often called \"a Qur'an in Persian,\" alongside the Diwan-e Shams-e Tabrizi, roughly 35,000 Persian couplets — a body of work that ranks him today among the most widely read poets in the world.",
+  "rumi.achievement.2":
+    "After his death, his followers founded the Mevlevi Sufi order, which developed the whirling-dervish sema ceremony — a devotional practice combining music, movement, and recitation that remains central to Mevlevi Sufism and is still performed today.",
+  "rumi.moment.1":
+    "As Mongol invasions swept Central Asia in the 1210s and 1220s, Rumi's father led the family west through Iran, Baghdad, and Damascus, eventually settling in Konya, Anatolia, around 1228. There Rumi inherited his father's position as an Islamic jurist and teacher, issuing legal opinions and preaching in mosques — a conventional scholarly role, well before he became known as a mystic poet.",
+  "rumi.turning_point.1":
+    "On November 15, 1244, Rumi met the wandering mystic Shams-e Tabrizi in Konya, an encounter that transformed him from a respected jurist and teacher into a devotee of intense mystical practice. Their relationship was close but brief: on December 5, 1248, Shams disappeared, with several competing explanations circulating, including murder, none established with certainty. Rumi's grief and search for Shams afterward became the wellspring of the lyric poetry later collected as the Diwan-e Shams-e Tabrizi.",
+  "rumi.interpretation.turning_point.1":
+    "This matches the profile's belief_updating score, the strongest such case in this cohort: a documented, repeatedly attested reorientation from formal legal and scholarly religious authority toward direct mystical experience, reflected extensively in his own later poetry rather than inferred from silence.",
+  "rumi.life_arc.1": "Born in Wakhsh, in Persian-speaking Greater Khorasan (present-day Tajikistan).",
+  "rumi.life_arc.2": "As Mongol invasions swept Central Asia, his father led the family west through Iran, Baghdad, and Damascus.",
+  "rumi.life_arc.3": "The family settled in Konya, Anatolia, where Rumi inherited his father's position as a jurist and teacher.",
+  "rumi.life_arc.4": "Met the mystic Shams-e Tabrizi, an encounter that transformed him from scholar to mystic poet.",
+  "rumi.life_arc.5": "Died in Konya.",
+  "rumi.legacy":
+    "The Mevlevi order his followers founded, and its sema ceremony, carried his teaching forward as a living devotional practice rather than only a text. His global popularity today, however, rests heavily on English versions — most famously Coleman Barks's — that are loose interpretive paraphrases rather than literal translations, distinct from the more rigorous scholarly translations by Arberry, Nicholson, and Lewis; much of what circulates in Western popular culture as a \"Rumi quote\" should be read with that distinction in mind rather than taken as his own exact words.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -3112,6 +3314,206 @@ export const EDITORIAL_KO: Record<string, string> = {
   "hayao-miyazaki.life_arc.6": "2013년 장편영화 연출에서 은퇴를 선언했으나 이후 복귀해 《그대들은 어떻게 살 것인가》(2023)를 연출, 두 번째 아카데미 장편 애니메이션상을 받았다.",
   "hayao-miyazaki.legacy":
     "손으로 그린 작화에 대한 엄격한 원칙, 반복적으로 등장하는 자연·반전(反戰) 주제의식, 그리고 주체적인 여성 주인공들의 결합은 스튜디오 지브리의 작품들을 그 시대 가장 국제적으로 인정받는 애니메이션 작품의 반열에 올려놓는 데 기여했다. 20여 년의 간격을 두고 각각 아카데미상을 받은 《센과 치히로의 행방불명》과 《그대들은 어떻게 살 것인가》는, 애니메이션을 주로 다루는 감독으로서는 보기 드문 꾸준한 국제적 평가를 보여준다.",
+
+  // Remaining-19 Editorial Completion Batch 2 (2026-08).
+  "steve-jobs.achievement.1":
+    "스티브 워즈니악(그리고 로널드 웨인)과 함께 1976년 애플을 공동 창업했다. 애플 II(1977)는 최초로 대량 생산된 마이크로컴퓨터 중 하나였으며, 1984년 매킨토시는 그래픽 사용자 인터페이스를 갖춘 최초의 대량 생산 컴퓨터로 애플 레이저라이터와 함께 데스크톱 퍼블리싱 산업을 열었다.",
+  "steve-jobs.achievement.2":
+    "1997년 애플에 복귀한 뒤, 아이맥, 아이튠즈와 아이팟, 아이폰(2007), 앱 스토어, 아이패드에 이르는 디자인·엔지니어링 작업을 이끌었다 — 기기와 소프트웨어, 서비스를 하나로 통합한 이 모델은 이후 소비자 기술 산업 상당 부분이 뒤따르는 하나의 표준이 되었다.",
+  "steve-jobs.achievement.3":
+    "루카스필름의 그래픽스 그룹을 1,000만 달러에 인수한 뒤 1986년부터 2006년까지 픽사의 대주주이자 회장으로서, 최초의 장편 컴퓨터 애니메이션 영화 《토이 스토리》(1995)를 낸 스튜디오를 뒷받침했다. 2006년 디즈니가 픽사를 74억 달러에 인수하면서 그는 디즈니의 최대 개인 주주가 되었다.",
+  "steve-jobs.moment.1":
+    "1979년 제록스 PARC를 방문한 잡스는, 제록스 연구원들이 만들어 놓고도 제품화하지 않았던 그래픽 사용자 인터페이스와 마우스의 혁신적 잠재력을 즉각 알아보았고, 애플 엔지니어들에게 이 아이디어를 리사, 이어 매킨토시에 구현하도록 했다.",
+  "steve-jobs.interpretation.moment.1":
+    "프로필의 높은 기회 포착(opportunity_sensing) 점수와 맞닿아 있다 — 다른 조직이 이미 만들어 놓았지만 그 중요성을 알아차리지 못한 무언가의 의미를 포착해낸 사례다.",
+  "steve-jobs.moment.2":
+    "넥스트에서 잡스는 사업에 부담이 되는 상황에서도 미학적 완성을 추구했다 — 가장 두드러진 예가 고가의 마그네슘 소재 넥스트큐브 케이스였다 — 결국 약 5만 대 판매에 그친 1993년, 회사는 하드웨어를 포기하고 소프트웨어로 전환했다.",
+  "steve-jobs.turning_point.1":
+    "1985년 9월, 매킨토시를 폐쇄형 시스템으로 유지할지 애플 II처럼 개방형으로 바꿀지를 둘러싸고 최고경영자 존 스컬리와 이사회 내 권력 다툼을 벌인 끝에, 잡스는 매킨토시 그룹에서 배제되었고 자신이 공동 창업한 회사를 떠났다 — 애플 고위 임원 다섯 명이 그와 함께 회사를 떠나 넥스트를 설립했으며, 그가 새로 인수한 픽사는 이후 수년간 적자를 이어갔다.",
+  "steve-jobs.turning_point.2":
+    "1997년 2월 애플이 넥스트를 4억 달러에 인수했고, 그해 7월 최고경영자 길 아멜리오가 물러나자 잡스는 사실상 애플을 이끄는 인물이 되었다 — 9월에는 임시 최고경영자로 임명되었고, 2000년 3월에는 '임시'라는 꼬리표를 뗐다. 그는 뉴턴을 비롯한 부진한 프로젝트를 정리하고 매킨토시 호환기종 라이선스를 종료했으며, 애플의 실질적인 제품 반등이었던 1998년 아이맥은 그 이듬해에야 등장했다.",
+  "steve-jobs.interpretation.turning_point.2":
+    "프로필의 높은 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 그저 복직되기를 기다린 것이 아니라, 인수 과정과 그 이후 상황을 스스로 헤쳐나가 12년 전 자신을 몰아냈던 회사를 직접 장악하는 데까지 이르렀다.",
+  "steve-jobs.life_arc.1": "샌프란시스코에서 태어났다.",
+  "steve-jobs.life_arc.2": "스티브 워즈니악과 함께 애플을 공동 창업했다. 애플 II는 1977년에 뒤이어 나왔다.",
+  "steve-jobs.life_arc.3": "그래픽 사용자 인터페이스를 갖춘 최초의 대량 생산 컴퓨터인 매킨토시 출시를 이끌었다.",
+  "steve-jobs.life_arc.4": "이사회 내 권력 다툼 끝에 애플에서 밀려났다. 넥스트를 설립했고, 훗날 픽사가 되는 회사를 인수했다.",
+  "steve-jobs.life_arc.5": "넥스트 인수를 계기로 애플에 복귀해 2000년까지 최고경영자가 되었고, 이후 2007년 아이폰을 출시했다.",
+  "steve-jobs.life_arc.6": "2003년 처음 진단받은 췌장 신경내분비 종양의 합병증으로 세상을 떠났다.",
+  "steve-jobs.complexities.1":
+    "잡스 자신의 행적을 보여주는 몇몇 기록은 온전히 미화된 서사에 균열을 낸다. 1975년 아타리 건에서, 그는 실제 회로 설계를 맡았던 스티브 워즈니악에게 보너스가 750달러라고 말했지만 실제로는 5,000달러였고, 자신은 더 적은 금액만을 나눠주었다 — 워즈니악은 수년 뒤에야 실제 액수를 알게 되었다. 1978년 태어난 딸 리사의 친자 관계를, 법원이 명령한 검사에서 부성 확률 94.1%가 나올 때까지 부인했으며, 애플 상장으로 부를 쌓기 전까지는 최소한의 양육비만 지급했다 — 이후 부인을 계속하기 어려워지자 애플 리사 컴퓨터에 딸의 이름을 붙였다. 전기 작가 월터 아이작슨은 또한 1997년 복귀 이후 직원들 사이에서 '즉결 처형'이라 불렸던 그의 경영 방식을 기록했다 — 실제로는 드물었지만 실재했으며, 일부 직원은 엘리베이터에서 그와 마주칠까 봐 불안해했을 정도였다.",
+  "steve-jobs.legacy":
+    "잡스가 애플에서 이끈, 기기와 운영체제, 그 위의 스토어나 서비스를 하나로 설계된 전체로 묶는 통합 하드웨어-소프트웨어-서비스 모델은 이후 소비자 기술 산업 상당 부분이 뒤따르는 하나의 표준이 되었다 — 다만 이는 매번 그의 지휘 아래 일한 대규모 디자인·엔지니어링 팀들이 만들어낸 것이지, 그 혼자만의 발명은 아니었다. 그가 지분을 쥐고 있던 시기 픽사가 내놓은 초기 작품들은 컴퓨터 애니메이션을 주류 매체로 자리 잡게 하는 데 기여했다. 2007년 그가 선보인 아이폰은 그의 사후 십 년이 넘도록 해당 제품군을 정의하는 위치를 지키고 있다.",
+
+  "socrates.achievement.1":
+    "자신이 전문가라고 주장하는 상대의 발언 속 내적 모순을 시험하는 지속적 질문법, 즉 엘렝코스(elenchus)를 실천했다 — 강의료를 받았던 당대의 소피스트들과 달리, 엘리트 대화 상대부터 평범한 장인에 이르기까지 아테네 사회 전반을 대상으로 대가 없이 공개적으로 이를 행했다.",
+  "socrates.achievement.2":
+    "그의 방법과 태도는 무엇보다 제자 플라톤에 의해 보존되고 발전되어, 철학적 대화 형식과 이후 서양 철학 방법론 대부분의 토대가 되었다 — 다만 플라톤이 쓴 내용 가운데 얼마만큼이 역사적 소크라테스를 반영하는지, 얼마만큼이 플라톤 자신의 후기 사상인지는 이른바 '소크라테스 문제'로 여전히 학계에서 진지하게 논쟁 중이다.",
+  "socrates.moment.1":
+    "플라톤에 따르면 소크라테스는 펠로폰네소스 전쟁의 세 차례 아테네 원정 — 포테이다이아, 델리온, 암피폴리스 — 에 참전해 개인적 용맹함으로 이름을 알렸다. 후대 전승에서는 포테이다이아 전투에서 젊은 알키비아데스의 목숨을 구했다는 이야기도 덧붙지만, 원 자료 자체는 이 구체적인 일화를 그의 참전 사실 자체보다 확실성이 낮은 것으로 다룬다.",
+  "socrates.moment.2":
+    "기원전 404년, 과두정 '30인 참주' 체제 아래에서 소크라테스는 다른 이들과 함께 동료 시민 레온 폰 살라미스를 처형하기 위해 체포하라는 명령을 받았다. 플라톤의 《변명》에 따르면 소크라테스만이 유일하게 이를 거부하며, 자신이 범죄라고 판단한 일에 가담하느니 정권의 보복을 감수하는 쪽을 택했다.",
+  "socrates.interpretation.moment.2":
+    "프로필의 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 누구의 지시도 아닌 자발적 거부였으며, 실제 신변의 위험을 감수했다는 점에서 타인의 신념을 캐묻는 그의 일반적인 활동과는 구별된다.",
+  "socrates.turning_point.1":
+    "기원전 399년, 수백 명의 아테네 시민으로 구성된 배심원단이 불경죄와 청년 타락죄로 소크라테스를 재판에 회부했다. 플라톤의 《변명》은 그가 의도적으로 관행을 벗어난 변론을 펼쳤다고 전한다 — 유죄 판결 후 스스로 형량을 제안하라는 요구를 받자, 추방이나 침묵 대신 평생 국가의 비용으로 식사를 제공받겠다고 제안했을 정도다. 배심원단은 대신 사형을 선고했고, 그는 다음 날 아침 독미나리즙을 마시고 처형되었다 — 플라톤의 《파이돈》이 이 장면을 자세히 묘사하지만, 현대 학계는 이를 엄밀한 사실 기록이라기보다는 문학적 각색이 더해진 것으로 본다. 이 재판으로 그 자신의 공개적 질문 활동은 막을 내렸지만, 이후 제자들의 기록을 통해 전해지는 인물로서 그가 지니는 훨씬 더 큰 영향력이 시작되었다.",
+  "socrates.life_arc.1":
+    "석공인 아버지와 산파인 어머니 사이에서 아테네의 구역 알로페케에서 태어났다 — 훗날 청빈한 삶으로 알려졌지만, 실제로는 집안 재산의 일부를 물려받아 심각한 경제적 어려움 없이 지낼 수 있었다.",
+  "socrates.life_arc.2": "플라톤의 기록에 따르면 펠로폰네소스 전쟁 중 포테이다이아, 델리온, 암피폴리스 전투에 참전했다. 크산티페와 결혼해 세 아들을 두었다.",
+  "socrates.life_arc.3": "정치인, 시인, 그리고 스스로 전문성을 주장하는 장인들을 공개적으로 캐묻는 것으로 아테네에서 잘 알려진, 그러면서도 호불호가 크게 갈리는 인물이 되어 있었다.",
+  "socrates.life_arc.4": "집권 세력이던 '30인 참주'의 명령을 거부하고, 동료 시민 레온 폰 살라미스를 처형을 위해 체포하는 데 가담하지 않았다.",
+  "socrates.life_arc.5": "복권된 아테네 민주정 아래 불경죄와 청년 타락죄로 재판에 회부되어 유죄를 선고받았다.",
+  "socrates.life_arc.6": "플라톤의 《파이돈》에 묘사된 대로, 독미나리즙을 마시고 처형되었다.",
+  "socrates.legacy":
+    "그의 사후 수 세기 동안 활동한 주요 철학 유파 대부분 — 플라톤의 아카데메이아, 아리스토텔레스의 리케이온, 견유학파, 스토아학파 — 이 어떤 형태로든 그를 뿌리로 삼았으며, '엘렝코스'라는 말은 오늘날에도 체계적인 변증법적 질문을 가리키는 용어로 쓰인다. 소크라테스 자신이 남긴 글이 전혀 없기에, 이 유산은 거의 전적으로 플라톤의 대화편을 통해 전해지며, 여기에 더 담담한 어조의 크세노폰의 초상과 아리스토파네스의 《구름》 속 풍자적 초상이 더해진다 — 이는 정리된 전기라기보다는 진짜로 풀리지 않은 사료 문제다. 주장된 권위에 의문을 제기하기를 고집했던 태도, 그리고 그 실천을 포기하느니 죽음을 택한 결단은 그를 자신의 시대에서 한참 떨어진 후대 철학자들 — 키르케고르와 니체를 포함해 — 에게까지 반복적으로 소환되는 준거점으로 만들었다.",
+
+  "coco-chanel.achievement.1":
+    "1910년 파리에서 모자 전문점을 열며 패션 하우스를 창업했고, 이를 오트 쿠튀르와 주얼리, 핸드백, 향수 사업으로 확장해 1935년에는 4,000명을 고용하는 규모로 키웠다. 1921년 출시한 향수 샤넬 No.5는 세계에서 가장 잘 알려진 향수 중 하나가 되었다.",
+  "coco-chanel.achievement.2":
+    "저지 원단을 오트 쿠튀르 소재로 끌어올린 것, 1926년의 '리틀 블랙 드레스', 과시보다는 활동의 자유를 위해 설계된 1923년의 샤넬 수트, 1955년의 퀼팅 백 2.55 등, 그가 소개하거나 널리 퍼뜨린 디자인 요소들은 여성복의 주류 흐름 자체를 바꾸어 놓았다.",
+  "coco-chanel.moment.1":
+    "어머니가 세상을 떠난 뒤, 샤넬은 11살에 오바진 고아원에 들어가 바느질을 배웠다 — 훗날 그의 경력을 열어준 바로 그 기술이었다. 이후 물랭에서 재봉사이자 카바레 가수로 일했고, 그곳에서 '코코'라는 애칭을 얻었다.",
+  "coco-chanel.moment.2":
+    "1913년, 연인이었던 아서 '보이' 카펠의 재정적 후원을 받아 도빌에 저지와 트리코 원단으로 만든 캐주얼 의류를 파는 부티크를 열었다 — 그때까지 이 원단들은 주로 속옷이나 작업복에 쓰이던 소재였다. 사업은 빠르게 성공해, 1916년에는 카펠의 투자금을 모두 갚을 수 있었다.",
+  "coco-chanel.interpretation.moment.2":
+    "프로필의 기회 포착(opportunity_sensing) 점수와 맞닿아 있다 — 당시 주류 패션 하우스들보다 앞서, 여성복이 실용적이고 편안한 방향으로 옮겨가는 흐름과 그에 걸맞은 값싼 소재를 알아본 사례다.",
+  "coco-chanel.turning_point.1":
+    "샤넬은 1939년 제2차 세계대전 발발과 함께 패션 하우스를 닫아 약 4,000명의 직원이 일자리를 잃었고, 이후 15년간 디자인 일선으로 돌아오지 않았다. 1954년, 70세의 나이에 피에르 베르트하이머의 재정 지원을 다시 받아 하우스를 재개장했지만, 미국과 영국 언론의 반응은 처음엔 회의적이었다 — 그의 새 수트를 다룬 1954년 3월 《보그》 기사가 이 분위기를 뒤집었고, 미국에서 주문이 쏟아지며 하우스의 위상이 되살아났다.",
+  "coco-chanel.complexities.1":
+    "독일 점령기 파리에서 샤넬은 독일군 사령부이기도 했던 리츠 호텔에 머물렀으며, 정보기관과 관련된 독일 외교관 한스 귄터 폰 딩클라게 남작과 관계를 맺었다. 이와 별개로 그는 아리아인 재산법을 근거로 삼아, 자신의 유대인 사업 파트너인 베르트하이머 가문으로부터 파르팡 샤넬의 단독 지배권을 얻어내고자 독일 당국에 청원했다 — 베르트하이머 가문은 이를 예상하고 미리 명목상 소유권을 유대인이 아닌 인물에게 넘겨둔 상태였다. 역사학자 할 본이 기밀 해제된 프랑스 정보기관 문서를 조사한 결과, 그는 요원 번호로 등재되어 있었고, 훗날 '오퍼레이션 모델후트'로 알려진 임무 — 독일 측의 평화 타진안을 윈스턴 처칠에게 전달하는 임무 — 를 맡았던 것으로 기록되어 있는데, 이 임무는 그의 중개인이 영국 정보기관에 그를 밀고하면서 무산되었다. 확실히 기록된 사실은 리츠 거주, 딩클라게와의 관계, 베르트하이머 가문의 소유권을 노린 시도다. 역사학자들 사이에서 여전히 논쟁이 되는 지점은 그가 독일 정보 활동에 얼마나 적극적으로 관여했는지, 아니면 전시의 편의적 관계였는지다 — 나치 사냥꾼이자 역사학자인 세르주 클라르스펠드는 '요원 번호가 있다고 해서 반드시 본인이 직접 관여했다는 뜻은 아니다'라고 경계한 바 있다. 그는 1944년 파리 해방 이후 조사를 받았지만 기소되지는 않았고, 이후 몇 년간 스위스에서 지내다 1954년 파리로 돌아왔다.",
+  "coco-chanel.life_arc.1": "프랑스 소뮈르에서 태어났다. 어머니가 세상을 떠난 뒤 11살에 오바진 고아원에 들어가 바느질을 배웠다.",
+  "coco-chanel.life_arc.2": "1910년 파리에 모자 전문점을 열었고, 1913년에는 당시 연인이었던 아서 '보이' 카펠의 재정 지원으로 도빌에 부티크를 열었다.",
+  "coco-chanel.life_arc.3": "샤넬 No.5를 출시했다.",
+  "coco-chanel.life_arc.4": "제2차 세계대전 발발과 함께 패션 하우스를 닫았다.",
+  "coco-chanel.life_arc.5": "70세에 피에르 베르트하이머의 재정 지원을 다시 받아 패션계로 복귀했다.",
+  "coco-chanel.life_arc.6": "파리에서 세상을 떠났다.",
+  "coco-chanel.legacy":
+    "코르셋에서 벗어나 편안하고 실용적인 옷으로 나아간 샤넬의 행보는 서구 주류 패션이 여성에게 무엇을 우아함으로 여기는지 그 기준 자체를 바꾸어 놓았고, 그가 소개하거나 널리 퍼뜨린 요소들 — 오트 쿠튀르 소재로서의 저지, 테일러드 수트, 코스튬 주얼리, 퀼팅 숄더백 — 은 오늘날에도 패션 디자인에서 널리 쓰이고 있다. 《타임》은 훗날 20세기 가장 영향력 있는 인물 100인 가운데 유일한 패션 디자이너로 그를 선정했으며, 그가 세운 회사는 오늘날에도 세계에서 가장 가치 있는 럭셔리 하우스 가운데 하나로 남아 있다. 앞서 기록한 그의 전시 행적은, 이 유산을 순전히 디자인의 이야기로만 다루려는 어떤 서술도 복잡하게 만든다.",
+
+  "genghis-khan.achievement.1":
+    "분열되어 있던 몽골 부족들을 통일하고 1206년 쿠릴타이에서 칭기즈 칸으로 추대되어 몽골 제국을 세웠다. 부족에 대한 충성을 대신해 십호·백호·천호 단위로 조직되는 군사·행정 체계로 몽골 사회를 재편했는데, 이 체계는 그의 사후에도 제국이 옛 부족 경계를 따라 분열되지 않도록 지탱해 주었다고 평가받는다.",
+  "genghis-khan.achievement.2":
+    "중앙아시아를 넘어 화북까지 이어진 그의 정복은 역사상 가장 넓은 육상 단일 제국을 만들어냈고, 실크로드를 비롯한 유라시아 교역로를 따라 전례 없는 규모의 교역·이동·문화 교류를 가능케 했다 — 동시에 그를 따르던 기독교, 이슬람교, 불교, 샤머니즘 신앙을 명시적으로 관용하는 정책을 폈다.",
+  "genghis-khan.moment.1":
+    "부족장이던 아버지 예수게이가 테무진이 여덟 살 무렵 라이벌 타타르족에게 독살당한 뒤, 그의 씨족은 경쟁 씨족 편에 서서 가족을 버렸고, 어머니와 형제들은 뿌리와 열매를 캐고 작은 짐승을 사냥하고 물고기를 잡아 연명해야 했다.",
+  "genghis-khan.moment.2":
+    "어린 시절 테무진은 동료 자무카와 안다(의형제) 서약을 맺었지만, 두 사람은 훗날 초원 패권을 두고 라이벌이 되었다. 자무카가 가담했던 나이만 부족을 테무진이 1204년에 무찌른 뒤, 자무카는 남은 자신의 부하들에게 배신당해 테무진에게 넘겨졌고 처형되었다 — 다만 그 최후의 구체적인 방식에 대해서는 기록마다 차이가 있다.",
+  "genghis-khan.turning_point.1":
+    "1206년 쿠릴타이(집회)에서 테무진은 칭기즈 칸으로 추대되어, 몽골 부족들을 하나의 통치자 아래 공식적으로 통일하고, 한때 자신의 가족을 버렸던 부족적 충성 체계를 대신할 새로운 군사·행정 구조를 세웠다. 이는 경쟁하는 부족과 씨족들이 흩어져 있던 초원이 이후의 원정을 가능케 한 중앙집권 국가로 넘어가는 전환점이었다.",
+  "genghis-khan.interpretation.turning_point.1":
+    "프로필의 높은 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 이 통일은 물려받거나 부여받은 지위가 아니라, 자신의 씨족이 가족을 버렸던 상황에서 동맹을 하나하나 스스로의 힘으로 쌓아 올린 결과였다.",
+  "genghis-khan.turning_point.2":
+    "1219년, 오트라르의 호라즘 총독이 몽골 대상단을 처형하고 샤 무함마드 2세가 칭기즈 칸이 해명을 요구하며 보낸 사절단을 처형하거나 훼손하자, 칭기즈 칸은 호라즘 제국을 무너뜨리고 트란스옥시아나와 호라산 일대 — 오트라르, 부하라, 사마르칸트, 우르겐치를 비롯한 도시들 — 를 초토화한 원정을 감행했다. 이는 인접 국가들과의 교역 관계를 중심에 두었던 그의 원정 기조가, 저항하면 파괴하고 항복하면 상대적으로 자비를 베푼다는 원칙을 전례 없는 규모로 적용하는 쪽으로 바뀐 전환점이었다.",
+  "genghis-khan.life_arc.1": "테무진이라는 이름으로 태어났다. 부족장이던 아버지 예수게이가 여덟 살 무렵 라이벌 타타르족에게 독살당한 뒤, 그의 씨족은 가족을 버렸다.",
+  "genghis-khan.life_arc.2": "부르테와 결혼했고, 씨족이 가족을 버렸던 과거에도 불구하고 분열되어 있던 몽골·튀르크계 부족들 사이에서 동맹을 다시 쌓아 나갔다.",
+  "genghis-khan.life_arc.3": "나이만 부족과, 한때 의형제였던 자무카의 남은 연합 세력을 무찔러 초원의 마지막 주요 라이벌을 제거했다.",
+  "genghis-khan.life_arc.4": "쿠릴타이에서 칭기즈 칸으로 추대되어 몽골 부족의 통일을 공식화했다.",
+  "genghis-khan.life_arc.5": "오트라르에서 몽골 사절단이 살해된 뒤 호라즘 제국을 침공해 무너뜨렸다.",
+  "genghis-khan.life_arc.6": "서하 원정 중 세상을 떠났다. 그의 매장지는 지금까지 알려지지 않았다.",
+  "genghis-khan.complexities.1":
+    "적어도 1219년 호라즘 원정 이후로, 칭기즈 칸의 군대는 일관되고 명시적인 원칙을 적용했다 — 저항하는 도시와 주민은 추가 저항을 억제하기 위한 본보기로 파괴 대상이 되었고, 항복한 쪽은 대체로 그에 준하는 폭력을 면했다. 오트라르, 부하라, 사마르칸트, 우르겐치를 비롯한 호라즘 도시들에 적용된 이 원칙은 막대하고 역사적으로 중대한 인명 손실과 파괴를 낳았다. 신뢰할 만한 사상자 수를 확정하기는 어렵다 — 가장 상세하게 남아 있는 기록은 훗날, 종종 적대적인 정치적 상황 속에서 쓰인 페르시아 연대기이며, 현대 학계는 대규모의 의도적 파괴라는 큰 흐름은 충분히 입증된 것으로 보면서도 그 구체적인 수치는 신뢰하기 어렵다고 본다 — 이런 이유로 이 프로필에서는 특정 사상자 수를 제시하지 않는다. 그의 집안 자체의 기록인 《몽골비사》는 그가 승계를 확실히 하기 위해 이복형제 벡테르를 죽였다는 사실도 전하는데, 이는 훗날의 공식 연대기에서는 빠진 대목이다. 그에 대한 평가는 전통에 따라 뚜렷하게 갈린다 — 몽골에서는 건국 시조로 추앙받는 반면, 일부 러시아와 아랍권의 역사적 기억 속에서는 주로 파괴적인 정복자로 남아 있으며, 최근 서구 학계는 이 양극단 사이에서 좀 더 사료에 근거한 재평가를 시도하고 있다.",
+  "genghis-khan.legacy":
+    "그의 정복은 역사상 가장 넓은 육상 단일 제국을 만들어냈고, 그 안에서의 상대적 안정 — 흔히 '팍스 몽골리카'라 불리는 상태 — 은 실크로드를 비롯한 유라시아 교역로를 따라 전례 없는 규모의 교역·이동·문화적·기술적 교류를 가능하게 했다. 다만 그 안정은 대규모 폭력을 통해 확립된 것이었다. 부족적 충성을 통일된 군사·행정 구조로 대체한 그의 행정 개혁은 그의 사후에도 제국이 옛 부족 경계를 따라 분열되지 않도록 지탱해 주었다. 그에 대한 평가는 오늘날까지도 지역과 전통에 따라 앞서 서술한 대로 뚜렷하게 갈린다.",
+
+  "malala-yousafzai.achievement.1":
+    "2013년 시자 샤히드와 함께 말랄라 기금(Malala Fund)을 공동 설립했다 — 여학생 교육에 대한 지원과 옹호 활동을 펼치는 이 비영리 단체는, 그에 대한 공격 이후 처음 쏟아졌던 관심이 잦아든 뒤로도 오랫동안 활동을 이어가며 규모를 키워 왔다.",
+  "malala-yousafzai.achievement.2":
+    "2013년 국제적 베스트셀러 《나는 말랄라》를 공동 집필했고, 2014년에는 인도의 아동 인권 운동가 카일라시 사티아르티와 함께 노벨 평화상을 공동 수상하며 역대 최연소 수상자가 되었다. 2020년에는 옥스퍼드 대학교 레이디 마거릿 홀에서 철학·정치학·경제학 학위를 받고 졸업했으며, 이 위치에서 계속해서 옹호 활동을 이어갔다.",
+  "malala-yousafzai.moment.1":
+    "2009년 1월, 11살이던 유사프자이는 '굴 마카이'라는 필명으로 BBC 우르두어 서비스에 익명 블로그를 쓰기 시작해 파키스탄 스와트 계곡에서 탈레반 치하의 일상을 기록했다 — 교육운동가였던 아버지의 격려는 있었지만 지시받은 것이 아닌 자발적인 행동이었고, 이후 이어진 어떤 주목보다도 앞선 일이었다.",
+  "malala-yousafzai.interpretation.moment.1":
+    "프로필의 양면적인 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 실제 위험을 무릅쓴 자발적 행동이었으며, 이 프로필의 전환점 항목이 보여주듯 그 위험은 이후 곧바로, 그리고 심각하게 현실화되었다.",
+  "malala-yousafzai.moment.2":
+    "2008년 9월 무렵, 아직 익명 블로그를 쓰기 몇 달 전인 이때 11살의 유사프자이는 이미 본명으로, 그리고 공개적으로 교육권에 관한 연설을 하고 있었다 — \"탈레반이 나의 기본적 교육받을 권리를 빼앗아 갈 수 있는가\"라고 공공연히 묻기도 했다 — 익명이었던 블로그보다 더 노출된, 실명의 행동이었다.",
+  "malala-yousafzai.turning_point.1":
+    "2012년 10월 9일, 시험을 마치고 스쿨버스로 귀가하던 유사프자이는 스와트 계곡에서 탈레반 총격범의 총에 맞았다. 총알은 왼쪽 눈 근처로 들어가 어깨에 박혔고, 급우 두 명도 함께 부상을 입었다. 그는 페샤와르의 군 병원으로 후송되어 응급 수술을 받은 뒤, 이후 영국 버밍엄의 퀸 엘리자베스 병원으로 옮겨져 안면 신경 재건과 인공와우 이식 등 추가 치료를 받았다. 이 공격은 그를 스와트 계곡의 지역 활동가이자 블로거에서, 이후 회복과 삶의 대부분을 영국에서 보내게 된 세계적 인물로 바꾸어 놓았다 — 2013년 7월 12일, 그의 열여섯 번째 생일에 그는 유엔에서 훗날 '말랄라의 날'로 불리게 될 연설을 했다.",
+  "malala-yousafzai.life_arc.1": "파키스탄 스와트 계곡의 밍고라에서 태어났다. 아버지 지아우딘은 학교를 운영했고 그 자신이 교육운동가였다.",
+  "malala-yousafzai.life_arc.2": "'굴 마카이'라는 필명으로 BBC 우르두어 서비스에 익명 블로그를 써 스와트에서의 탈레반 치하 생활을 기록했다.",
+  "malala-yousafzai.life_arc.3": "10월 9일 스쿨버스에서 탈레반 총격범의 총에 맞았다. 치료를 위해 후송되어 결국 영국 버밍엄으로 옮겨졌다.",
+  "malala-yousafzai.life_arc.4": "말랄라 기금을 공동 설립했다. 7월 12일 유엔에서 연설했다.",
+  "malala-yousafzai.life_arc.5": "카일라시 사티아르티와 함께 노벨 평화상을 공동 수상하며 역대 최연소 수상자가 되었다.",
+  "malala-yousafzai.life_arc.6": "옥스퍼드 대학교 레이디 마거릿 홀에서 철학·정치학·경제학 학위를 받고 졸업했다.",
+  "malala-yousafzai.legacy":
+    "말랄라 기금과, 2012년 공격 및 그 여파가 그에게 안겨준 국제적 위상은 그를 전 세계에서 가장 널리 알려진 여학생 교육 옹호자 중 한 사람으로 만들었으며, 초기의 전 세계적 관심이 잦아든 뒤로도 이 의제를 국제 정책 논의의 테이블 위에 계속 올려놓는 데 기여했다는 평가를 받는다. 파키스탄 국내에서의 반응은 더 엇갈린다 — 폭넓은 존경을 받는 한편, 그의 활동과 옥스퍼드 유학, 영국에서의 삶을 외세에 편승한 증거로 보는 보수·민족주의 진영의 비판도 받아 왔다 — 파키스탄 사립학교연맹은 2015년 그의 자서전을 금지하기도 했다. 이후 그의 활동은 아프가니스탄 여학생 교육과 로힝야 난민 문제로도 확장되었다.",
+
+  "bruce-lee.achievement.1":
+    "위칭춘, 복싱, 펜싱의 요소에 선불교와 도교 사상을 결합한 혼합 무술 철학, 절권도(截拳道)를 창시했다 — 전통 유파의 고정된 형(型)보다 실용성과 직접성, 유연한 적응력을 중심에 두었다.",
+  "bruce-lee.achievement.2":
+    "《당산대형》(1971), 《정무문》(1972), 《맹룡과강》(1972), 《용쟁호투》(1973)에 출연하며 이 작품들의 색깔을 함께 빚어냈고, 이를 통해 최초의 세계적 중국인 영화 스타로 자리 잡는 동시에, 무술 영화의 액션 연출을 환상적인 무협 연출에서 사실적이고 직접적인 움직임으로 옮겨 놓았다.",
+  "bruce-lee.moment.1":
+    "홍콩에서 어릴 적부터 자란 리는 십 대 시절 거리 싸움에 나섰고, 1958년에는 홍콩 왕실령 차차차 챔피언십에서 우승했다. 이에 앞서 1953년부터 1957년까지는 엽문(葉問) 문하에서 위칭춘을 익혔는데, 기록에 따르면 이 시기는 혼혈이거나 중국인이 아닌 제자를 가르치는 것을 금기시하던 전통적 관행을 둘러싼 갈등으로 얼룩진 때였다.",
+  "bruce-lee.moment.2":
+    "1964년, 리는 동료 무술가 웡잭만과 비공개 대련을 벌였다. 양측의 증언은 서로 엇갈린다 — 리 쪽 지지자들은 그가 약 3분 만에 확실하게 승리했다고 말하는 반면, 웡은 20~25분간 이어진 승부가 리가 지치면서 흐지부지 끝났다고 전한다. 정확한 경위가 무엇이었든, 이 경험은 리가 경직된 고전적 기법에서 멀어지게 만든 계기가 된 것으로 전해진다.",
+  "bruce-lee.interpretation.moment.2":
+    "프로필의 기회 포착(opportunity_sensing) 점수와 맞닿아 있다 — 만족스럽지 못했던 실전 대련 한 번을, 일회성 결과가 아니라 고전적 형식 전반에 대한 반증으로 받아들인 것으로, 당대 대다수 동료들보다 앞선 판단이었다.",
+  "bruce-lee.turning_point.1":
+    "리는 자신이 직접 1971년에 기획안을 낸 TV 시리즈 《쿵후》의 주연 자리에서, 할리우드 캐스팅 관행 속 인종·억양에 대한 우려 때문이었던 것으로 전해지는 이유로 배제되었다. 대신 자신만의 대표작을 먼저 만들라는 제작자 프레드 와인트라웁의 조언에 따라 홍콩으로 돌아와 《당산대형》, 《정무문》, 《맹룡과강》에 출연했다. 이 흥행 연타는 그에게 최초의 미국-홍콩 합작영화인 《용쟁호투》를 만들 수 있는 발판을 마련해 주었고, 그의 경력은 할리우드 스튜디오 체제 안에서 배역을 구하던 방식에서 자신의 영화로 직접 세계적 관객을 만들어가는 방식으로 옮겨갔다.",
+  "bruce-lee.life_arc.1": "샌프란시스코에서 태어났다. 아주 어릴 때부터 홍콩에서 자랐다.",
+  "bruce-lee.life_arc.2": "엽문 문하에서 위칭춘을 익혔다. 1958년 홍콩 왕실령 차차차 챔피언십에서 우승했다.",
+  "bruce-lee.life_arc.3": "시애틀로 이주해 무술을 가르치기 시작했다.",
+  "bruce-lee.life_arc.4": "TV 시리즈 《그린 호넷》에서 가토 역을 맡아 미국 관객에게 처음 이름을 알렸다.",
+  "bruce-lee.life_arc.5": "홍콩으로 돌아와 《당산대형》, 《정무문》, 《맹룡과강》에 출연했고, 이어 최초의 미국-홍콩 합작영화인 《용쟁호투》를 찍었다.",
+  "bruce-lee.life_arc.6": "홍콩 카오룽에서 32세의 나이로 세상을 떠났다. 공식적으로는 뇌부종이 원인으로 알려졌지만, 그 배경을 둘러싼 논란은 여전히 남아 있다.",
+  "bruce-lee.legacy":
+    "실용성과 적응력, 여러 유파를 가로지르는 종합을 강조한 리의 접근은 수십 년 앞서 종합격투기(MMA)의 흐름을 예고했으며, 오늘날에도 격투 스포츠와 무술 훈련이 다뤄지는 방식에 영향을 미치고 있다. 그의 액션 연출은 무술 영화를 더 사실적이고 절제된 움직임 쪽으로 옮겨 놓았고, 최초로 세계적 성공을 거둔 중국인 영화 스타로서 그의 명성은, 정작 자신의 경력 중에는 할리우드가 직접적으로 허락하지 않았던 아시아인 주연 배역의 자리를 서구 대중문화 안에 열어주었다.",
+
+  "toni-morrison.achievement.1":
+    "《가장 파란 눈》(1970), 《솔로몬의 노래》(1977), 《빌러비드》(1987, 마거릿 가너의 실화에 바탕을 둠), 《재즈》(1992), 《낙원》(1997)을 비롯해, 다섯 개 시대에 걸쳐 흑인 미국인의 삶과 기억, 역사적 트라우마를 중심에 둔 소설들을 펴냈다 — 단일한 대표작이 아니라 이 작품군 전체가 미국 문학사에서 그가 지니는 위치의 핵심이다.",
+  "toni-morrison.achievement.2":
+    "랜덤하우스 최초의 흑인 여성 수석 소설 편집자(1967~1983)로 일하며 토니 케이드 밤바라, 안젤라 데이비스, 게일 존스 등 당시 주류 출판계가 크게 주목하지 않던 작가들을 발굴하고 지원했으며, 선집 《현대 아프리카 문학》(1972)과 노예제 시대부터 1920년대까지 흑인 미국인의 삶을 담은 시각 자료집 《더 블랙 북》(1974)을 편집했다.",
+  "toni-morrison.moment.1":
+    "모리슨은 데뷔작 《가장 파란 눈》을, 정규직으로 일하며 홀로 두 아이를 키우던 시절에 하루 일과가 시작되기 전인 새벽 4시에 일어나 써 내려갔다 — 이 소설은 그가 서른아홉 살이던 1970년에 출간되었다.",
+  "toni-morrison.moment.2":
+    "랜덤하우스에서, 이미 점수에 반영된 저자 발굴 외에도 모리슨은 무하마드 알리의 1975년 자서전 《가장 위대한 자: 나만의 이야기》를 출간으로 이끌었고, 1968년 뉴욕시 지하철 경찰에 의해 사살된 시인 헨리 듀마스의 작품을 사후에 알리는 데 힘을 쏟았다 — 업계가 그냥 지나쳤을 작품에 편집자로서의 자신의 위치를 활용해 관심을 불러일으킨 것이다.",
+  "toni-morrison.interpretation.moment.2":
+    "프로필의 선제적 행동력(proactive_agency) 점수와 맞닿아 있다 — 공식적으로 주어진 편집 업무를 넘어선 발굴과 지원 활동으로, 요청받은 것이 아니라 스스로 나선 일이었다.",
+  "toni-morrison.moment.3":
+    "2010년 아들 슬레이드가 췌장암으로 세상을 떠나자, 모리슨은 집필 중이던 소설 《홈》 작업을 중단했다가 다시 이어갔다 — 그는 이렇게 말했다. \"내가 (작업을) 멈췄다고 생각하면, 그 애가 정말 속상해할 거예요.\"",
+  "toni-morrison.life_arc.1": "오하이오주 로레인에서 클로이 아델리아 워포드라는 이름으로 태어났다.",
+  "toni-morrison.life_arc.2": "하워드 대학교를 졸업한 뒤 코넬 대학교에서 석사 학위를 받았다.",
+  "toni-morrison.life_arc.3": "랜덤하우스에서 일하며 이 회사 최초의 흑인 여성 수석 소설 편집자가 되었다.",
+  "toni-morrison.life_arc.4": "홀로 두 아이를 키우며 서른아홉 살에 데뷔작 《가장 파란 눈》을 출간했다.",
+  "toni-morrison.life_arc.5": "《빌러비드》를 출간해 1988년 퓰리처상을 받았고, 1993년에는 흑인 여성으로서는 최초로 노벨 문학상을 받았다.",
+  "toni-morrison.life_arc.6": "뉴욕에서 88세로 세상을 떠났다.",
+  "toni-morrison.legacy":
+    "모리슨은 흑인 여성들의 내면과 미국의 노예제 및 그 이후의 역사를, 백인 독자층의 기대에 맞춰 조율하지 않고 그 자체의 방식으로 중심에 놓았다. 그의 평가가 전성기에도 늘 순탄했던 것은 아니다 — 《빌러비드》가 1987년 전미도서상 후보에서 제외되자 마야 안젤루를 포함한 흑인 작가·평론가 48명이 공개적으로 항의했고, 이듬해 이 작품은 퓰리처상을 받았다. 2006년 《뉴욕타임스》는 이 작품을 지난 25년간 나온 최고의 미국 소설로 꼽았다. 1996년부터 그의 소설 네 편을 선정한 오프라 윈프리의 북클럽은, 문학상만으로는 닿지 못했을 훨씬 더 넓은 독자층에게 그의 작품을 소개했다.",
+
+  "zheng-he.achievement.1":
+    "명 조정을 위해 1405년부터 1433년까지 일곱 차례의 대규모 해상 원정을 지휘했다. 1405년 7월 출항한 첫 함대만 해도 배 317척과 승선 인원 약 2만 8천 명 규모로, 동남아시아, 남아시아, 아라비아반도, 동아프리카 해안까지 이르렀다 — 전근대 세계에서 가장 큰 규모의 국가 해군 작전 가운데 하나였다.",
+  "zheng-he.achievement.2":
+    "명 조정을 대신해 인도양 세계 전역에 걸쳐 폭넓은 외교·조공 관계를 수립하고 유지했으며, 비단·도자기·금·은 등 중국 물품을 각지의 물산과 교환했다. 또한 지역 해상 교역을 방해하던 해적을 소탕해, 팔렘방 인근에서 해적 두목 진조의를 붙잡아 중국으로 압송해 처형시켰다.",
+  "zheng-he.moment.1":
+    "한 원정 도중, 실론(스리랑카)의 현지 관리들이 함대를 위협하자 정화의 병력은 이에 대응해 코테 왕국을 상대로 지상전을 벌였다 — 이 원정대가 교역과 외교 이면에 실제 군사력을 갖추고 있었음을 보여주는 사례다.",
+  "zheng-he.moment.2":
+    "한 원정에서 함대는 동아프리카 해안의 말린디에서 기린 한 마리를 가지고 돌아왔는데, 이는 명 조정에서 상서로운 전설의 동물인 '기린(麒麟)'으로 소개되어 왕조의 정통성을 확인해 주는 것으로 받아들여졌다 — 이 원정이 조정에 대해 지녔던 상업적 목적뿐 아니라 상징적 목적까지 보여주는 일화다.",
+  "zheng-he.turning_point.1":
+    "1381년 무렵, 소년이었던 그는 명나라의 윈난 정복 과정에서 붙잡혀 10세에서 14세 사이의 나이에 거세당한 뒤 훗날 영락제가 되는 연왕(燕王)의 가문에 소속되었다 — 이는 그가 선택했다고 볼 근거가 없는, 외부에서 강제된 폭력적인 처지의 전환이었으며, 이후 궁정 환관 관료로서 그의 삶 전체의 방향을 결정지었다. 그는 1399년 반란 당시 베이핑의 정룬바 저수지 방어에 힘을 보태는 등 연왕 가문을 군사적으로 도왔고, 1402년 연왕이 정난의 변에서 승리해 황제가 된 뒤에는 그 공로를 인정받아 1404년 '정(鄭)'이라는 성을 하사받았다 — 포로로서 편입되었던 그 가문이, 20여 년 뒤에는 그를 제독으로 만든 권력의 근원이 된 셈이다.",
+  "zheng-he.life_arc.1": "윈난 쿤밍에서 마화(馬和)라는 이름으로 태어났다.",
+  "zheng-he.life_arc.2": "명나라의 윈난 정복 과정에서 붙잡혀 거세당했다. 연왕의 가문에 소속되었다.",
+  "zheng-he.life_arc.3": "연왕이 정난의 변에서 승리해 영락제가 되었다. 정화는 그 공로를 인정받아 1404년 성을 하사받았다.",
+  "zheng-he.life_arc.4": "일곱 차례의 보선(寶船) 함대 원정 가운데 첫 번째 원정을 떠났다.",
+  "zheng-he.life_arc.5": "영락제가 세상을 떠난 뒤 원정이 중단되었다. 이후 선덕제 치세에 한 차례 더 원정이 이루어졌으나, 그것을 끝으로 이 사업은 완전히 막을 내렸다.",
+  "zheng-he.life_arc.6": "일곱 번째 원정 도중 또는 그 직후, 아마도 캘리컷 부근에서 세상을 떠났다. 공식적으로는 수장(水葬)되었다.",
+  "zheng-he.legacy":
+    "그의 사후, 명나라의 공식 연대기는 이 원정들을 불완전하게, 그리고 훗날의 학계 평가에 따르면 부정확하게 기록했으며, 이후의 공식 간행물들은 이를 아예 빠뜨렸다 — 왕조가 창건자의 칙령이 애초에 정해 둔, 더 내향적인 정책 쪽으로 돌아섰기 때문이다. 이 원정들은 역사가 량치차오가 1904년 그의 전기를 펴내면서 다시 주목받기 전까지 오랫동안 잊혀 있었다. 오늘날 그의 첫 원정 출항일인 7월 11일은 중국에서 '항해일'로 기념되며, 정화는 한때 그의 함대가 지났던 항로를 따라 자리한 동남아시아 각지의 공동체가 세운 사원과 기념물을 통해 지금도 기려지고 있다.",
+
+  "rumi.achievement.1":
+    "약 2만 7천 행에 이르는 6권짜리 영적 서사시 《마스나비》를 남겼는데, 흔히 '페르시아어로 된 코란'이라 불린다. 여기에 약 3만 5천 연으로 이루어진 페르시아어 시집 《샴스 에 타브리지 시집》이 더해져, 오늘날 그를 세계에서 가장 널리 읽히는 시인 중 한 사람으로 자리매김하게 한 작품군을 이룬다.",
+  "rumi.achievement.2":
+    "그의 사후, 제자들이 메블레비 수피 교단을 세웠고, 이 교단은 음악과 움직임, 낭송이 어우러진 예배 의식인 세마(빙글빙글 도는 춤) 의식을 발전시켰다 — 오늘날에도 메블레비 수피즘의 핵심 의식으로 남아 계속 행해지고 있다.",
+  "rumi.moment.1":
+    "1210년대와 1220년대에 걸쳐 몽골이 중앙아시아를 침공해 오자, 루미의 아버지는 가족을 이끌고 이란, 바그다드, 다마스쿠스를 거쳐 서쪽으로 이주했고, 결국 1228년 무렵 아나톨리아의 코니아에 정착했다. 그곳에서 루미는 아버지의 지위 — 이슬람 법학자이자 교사 — 를 물려받아 법적 견해(파트와)를 내리고 모스크에서 설교를 했다 — 훗날 신비주의 시인으로 알려지기 훨씬 이전의, 정통 학자로서의 모습이었다.",
+  "rumi.turning_point.1":
+    "1244년 11월 15일, 루미는 코니아에서 방랑하는 신비주의자 샴스 에 타브리지를 만났다 — 이 만남은 그를 존경받는 법학자이자 교사에서 강렬한 신비주의적 수행에 몰두하는 인물로 바꾸어 놓았다. 두 사람의 관계는 가까웠지만 짧았다 — 1248년 12월 5일, 샴스는 자취를 감추었고, 살해설을 포함해 여러 설명이 엇갈려 전해지지만 확실히 밝혀진 것은 없다. 이후 샴스를 향한 그리움과 그를 찾아 헤맨 경험은, 훗날 《샴스 에 타브리지 시집》으로 묶이는 서정시의 원천이 되었다.",
+  "rumi.interpretation.turning_point.1":
+    "프로필의 신념 개정(belief_updating) 점수와 맞닿아 있다 — 이 배치 안에서 가장 강력한 사례로, 침묵으로부터 추론한 것이 아니라 그의 후기 시 전반에 걸쳐 폭넓게 반영된, 공식적인 법학·종교적 권위에서 직접적인 신비 체험으로의 방향 전환이 거듭 입증되어 있다.",
+  "rumi.life_arc.1": "페르시아어권 대(大)호라산 지역의 바흐시(현재의 타지키스탄)에서 태어났다.",
+  "rumi.life_arc.2": "몽골이 중앙아시아를 침공해 오자, 아버지가 가족을 이끌고 이란, 바그다드, 다마스쿠스를 거쳐 서쪽으로 이주했다.",
+  "rumi.life_arc.3": "가족은 아나톨리아의 코니아에 정착했고, 루미는 그곳에서 아버지의 지위인 법학자이자 교사의 자리를 물려받았다.",
+  "rumi.life_arc.4": "신비주의자 샴스 에 타브리지를 만났고, 이 만남은 그를 학자에서 신비주의 시인으로 바꾸어 놓았다.",
+  "rumi.life_arc.5": "코니아에서 세상을 떠났다.",
+  "rumi.legacy":
+    "제자들이 세운 메블레비 교단과 그 세마 의식은 그의 가르침을 단순한 텍스트가 아니라 살아 있는 예배 전통으로 이어 왔다. 다만 오늘날 그의 세계적 인기는 상당 부분 영어 번역본 — 그중에서도 가장 유명한 콜먼 바크스의 번역 — 에 기대고 있는데, 이는 직역이라기보다는 느슨한 해석적 의역에 가까우며, 아버리, 니컬슨, 루이스 등의 좀 더 엄밀한 학술적 번역과는 구별된다. 서구 대중문화 속에서 '루미의 명언'으로 떠도는 문구 상당수는, 그의 실제 언어 그대로라기보다는 이러한 구분을 염두에 두고 받아들여야 한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

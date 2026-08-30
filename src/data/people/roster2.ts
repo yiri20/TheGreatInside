@@ -603,7 +603,64 @@ const seeds: PersonSeed[] = [
       attribution: "Photograph by Eric Gaba (\"Sting\"), 2005, CC BY-SA 2.5 — Louvre, Ma 59, a Roman-era copy (1st century AD) within the later ancient Socrates portrait tradition, not a lifetime likeness",
       kind: "historical_depiction",
     },
-    sources: [wiki("socrates", "Socrates"), bio("socrates", "Plato's dialogues (secondary account)")],
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): verified via a
+    // direct fetch and inspection of src_socrates_wikipedia on 2026-08-30.
+    // Ancient-evidence discipline applied throughout this profile: claims
+    // are attributed to WHICH source they come from (Plato, Xenophon,
+    // Aristophanes) rather than presented as flat historical fact, per the
+    // article's own framing of the unresolved "Socratic problem" --
+    //   - the elenchus (his questioning method) and his refusal of payment,
+    //     unlike the fee-charging Sophists, are the closest things to
+    //     consensus historical fact about his practice;
+    //   - Plato's dialogues are the primary source for Socratic philosophy,
+    //     but Plato outlived him by 50 years and "likely imported his own
+    //     philosophical views into later dialogues" per the article --
+    //     scholarly consensus does NOT treat Plato's Socrates as a verbatim
+    //     historical transcript;
+    //   - Xenophon's Memorabilia/Apology give an independent, "duller, less
+    //     ironic" portrait lacking Plato's elenchus/ignorance themes --
+    //     added as its own dedicated source below rather than folded into
+    //     the existing Plato bio entry, so claims can cite the specific
+    //     account they rest on;
+    //   - Aristophanes's The Clouds (performed in his lifetime) caricatures
+    //     him as an atheist Sophist; the article itself says "it is not
+    //     clear whether [it] is useful in reconstructing the historical
+    //     Socrates" -- used here only to note the caricature existed, not
+    //     as evidence of his actual views;
+    //   - born c. 470 BC in the Athenian deme of Alopece to a stoneworker
+    //     father and a midwife mother; inherited enough of the family
+    //     estate to be free of serious financial need despite his later
+    //     reputation for poverty/asceticism;
+    //   - married Xanthippe (in his fifties) and had three sons
+    //     (Lamprocles, Menexenus, Sophroniscus);
+    //   - per Plato, served in three Peloponnesian War campaigns (Potidaea,
+    //     Delium, Amphipolis) and was noted for personal courage; a later
+    //     tradition additionally credits him with saving Alcibiades's life
+    //     at Potidaea, a specific detail the article flags as less certain
+    //     than his service itself;
+    //   - in 404 BC, under the oligarchic Thirty Tyrants, was ordered to
+    //     help arrest a fellow Athenian, Leon of Salamis, for execution and
+    //     was "the sole abstainer," risking the regime's retribution rather
+    //     than comply (Plato's Apology);
+    //   - tried in 399 BC on charges of impiety and corrupting the city's
+    //     youth; per Plato's Apology, when the jury -- having convicted him
+    //     -- asked him to propose his own penalty, he suggested free meals
+    //     for life at public expense rather than exile or silence; the
+    //     jury instead sentenced him to death;
+    //   - executed the next morning by drinking hemlock, as depicted in
+    //     Plato's Phaedo; the article notes only three trial-related works
+    //     survive at all (Plato's Apology, Xenophon's Apology, Xenophon's
+    //     Memorabilia), and more recent scholarship treats Plato's Apology
+    //     as carrying more historical weight than the more literary Phaedo
+    //     death scene;
+    //   - nearly every major philosophical school of the following
+    //     centuries -- Plato's Academy, Aristotle's Lyceum, the Cynics, the
+    //     Stoics -- traced its roots back to him in some form.
+    sources: [
+      wiki("socrates", "Socrates"),
+      bio("socrates", "Plato's dialogues (secondary account)"),
+      bio("socrates_xenophon", "Xenophon, Memorabilia and Apology of Socrates (secondary account)"),
+    ],
     rows: {
       curiosity: [90, 0.65, "s", "A"],
       analytical_rigor: [82, 0.6, "s", "A"],
@@ -791,7 +848,52 @@ const seeds: PersonSeed[] = [
     impactDomains: ["cultural", "entrepreneurial", "industrial"],
     tagIds: ["founder", "self_taught", "independent"],
     archetypeIds: ["creative_creator", "entrepreneurial_builder"],
-    sources: [wiki("chanel", "Coco Chanel")],
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): the opportunity_
+    // sensing/proactive_agency rationale below already documents the
+    // post-WWI jersey-fabric shift and the Boy Capel buyout this profile's
+    // Moment/Achievement are built on. The following ADDITIONAL claims were
+    // verified via a direct fetch and inspection of src_chanel_wikipedia on
+    // 2026-08-30 --
+    //   - born 1883 in Saumur; entered the Aubazine orphanage at 11 after
+    //     her mother's death, where she learned to sew;
+    //   - opened a millinery boutique at 21 rue Cambon, Paris, in 1910, and
+    //     a Deauville shop in 1913 financed by her then-lover Arthur "Boy"
+    //     Capel; by 1935 her house employed 4,000 people;
+    //   - introduced Chanel No. 5 in 1921; the 1926 "little black dress"
+    //     (Vogue compared its democratizing reach to the Ford Model T); the
+    //     1923 Chanel suit (functional pockets, no restrictive darts,
+    //     tested on models performing ordinary movement); the 1955 2.55
+    //     quilted bag;
+    //   - closed her house at the outbreak of WWII in 1939, putting roughly
+    //     4,000 employees out of work, and did not return to design for
+    //     fifteen years; reopened in 1954 at 70, financed again by Pierre
+    //     Wertheimer, to initial press skepticism that Vogue's March 1954
+    //     feature reversed, restoring the house's standing;
+    //   - died in Paris in 1971.
+    // WARTIME CONDUCT (COMPLEXITY): during the German occupation of Paris
+    // she resided at the Hotel Ritz (also German military headquarters)
+    // and began a relationship with Baron Hans Gunther von Dincklage, a
+    // German diplomat with intelligence ties; she separately petitioned
+    // German officials to gain sole control of Parfums Chanel by invoking
+    // Aryan property law against her Jewish business partners, the
+    // Wertheimer family, who had preemptively transferred nominal
+    // ownership to a non-Jewish associate. This is verified via a
+    // dedicated additional source (Hal Vaughan's Sleeping with the Enemy,
+    // added below as its own bio() entry, not folded into the general
+    // Wikipedia citation) which examined declassified French intelligence
+    // files listing her under an agent number and describing a wartime
+    // mission ("Operation Modellhut") to carry a German peace feeler to
+    // Winston Churchill that collapsed when her own intermediary denounced
+    // her to British intelligence. What the article treats as documented:
+    // the Ritz residence, the Dincklage relationship, the attempt on the
+    // Wertheimers' ownership. What it treats as disputed among historians:
+    // the extent of her active participation in German intelligence work
+    // versus a wartime relationship of convenience -- French Resistance
+    // historian Serge Klarsfeld is quoted cautioning "having a spy number
+    // doesn't necessarily mean she was personally involved." She was
+    // interrogated after Paris's 1944 liberation but never charged, then
+    // lived in Switzerland for several years before her 1954 return.
+    sources: [wiki("chanel", "Coco Chanel"), bio("chanel_vaughan", "Hal Vaughan, Sleeping with the Enemy: Coco Chanel's Secret War (2011)")],
     rows: {
       curiosity: [72, 0.55, "s", "N"],
       analytical_rigor: [58, 0.45, "i", "N"],
@@ -1145,6 +1247,59 @@ const seeds: PersonSeed[] = [
       attribution: "Yuan dynasty imperial portrait album, c.1350, National Palace Museum, Taipei — a posthumous portrait painted roughly 120+ years after Genghis Khan's death, part of a Yuan court ancestor-portrait tradition, not a lifetime or eyewitness likeness",
       kind: "historical_depiction",
     },
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): the opportunity_
+    // sensing/proactive_agency rationale below already documents the
+    // shifting-alliance exploitation and the self-directed rebuilding
+    // after his clan's abandonment this profile's Turning Point/Moment are
+    // built on. The following ADDITIONAL claims were verified via a direct
+    // fetch and inspection of src_genghiskhan_wikipedia on 2026-08-30 --
+    //   - born Temujin c. 1162; his father Yesugei, a tribal chief, was
+    //     poisoned by rival Tatars when he was about eight, after which
+    //     his own clan renounced the family in favor of a rival branch,
+    //     forcing his mother and siblings to survive by foraging roots and
+    //     nuts, hunting small game, and fishing;
+    //   - swore the anda (blood-brother) pact with Jamukha at age eleven;
+    //     the two later became rivals; after Temujin's 1204 victory over
+    //     the Naimans (whom Jamukha had joined), Jamukha was betrayed by
+    //     his own remaining followers and delivered to Temujin, then
+    //     executed -- the article notes sources differ on the manner of
+    //     his death;
+    //   - proclaimed Genghis Khan at a 1206 kurultai (assembly) that
+    //     formalized the unification of the Mongol tribes; restructured
+    //     society into a military-administrative "decimal system" (units
+    //     of ten/hundred/thousand) replacing tribal loyalty, deliberately
+    //     dispersing defeated groups -- a structure the article credits
+    //     with keeping the empire from fragmenting along old tribal lines
+    //     even after his death; the Baljuna Covenant united followers from
+    //     nine different tribes across Christian, Muslim, and Buddhist
+    //     faiths on loyalty to him alone;
+    //   - in 1219, after the Khwarazmian governor of Otrar executed a
+    //     Mongol trade caravan and Shah Muhammad II executed or mutilated
+    //     the envoys Genghis sent to demand redress, launched an invasion
+    //     that "toppled the Khwarazmian state and devastated the regions
+    //     of Transoxiana and Khorasan" (Otrar, Bukhara, Samarkand, Urgench
+    //     among the cities destroyed);
+    //   - died August 1227 while campaigning against Western Xia; his
+    //     burial site remains unknown, and a two-year interregnum preceded
+    //     his son Ogedei's enthronement in 1229.
+    // CONTESTED LEGACY (COMPLEXITY): the article documents a consistent,
+    // explicit policy -- cities/populations that resisted faced
+    // destruction as a deterrent, those that surrendered were typically
+    // spared -- applied at Khwarazmian-campaign scale from 1219. It
+    // explicitly flags unreliable casualty precision: the fullest
+    // surviving accounts are Persian chronicles written under later, often
+    // hostile political circumstances, and "the neutrality and
+    // reliability are often suspect" for many such accounts, even though
+    // the broader pattern of deliberate large-scale destruction is well
+    // established. No specific casualty figure is asserted in this
+    // profile for that reason. The article also notes his own family's
+    // Secret History records him killing his half-brother Behter to
+    // secure succession -- "a taboo act omitted from official chronicles
+    // but not from the Secret History." Regional memory is sharply split:
+    // founding national hero in Mongolia; "a backwards, savage tyrant" in
+    // some Russian and Arab historical memory (the article's own phrase),
+    // with recent Western scholarship attempting reassessment between
+    // those poles.
     sources: [wiki("genghiskhan", "Genghis Khan")],
     doNotCopyKeys: ["dontcopy.genghiskhan.ruthlessness"],
     rows: {
@@ -1430,6 +1585,46 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_close-up_(cropped).jpg",
       attribution: "Photograph by Simon Davis / DFID (UK Department for International Development), 2015, CC BY 2.0",
     },
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): the proactive_
+    // agency rationale below already documents the anonymous BBC Urdu blog
+    // this profile's Moment/Achievement are built on. The following
+    // ADDITIONAL claims were verified via a direct fetch and inspection of
+    // src_malala_wikipedia on 2026-08-30, INCLUDING THE OCT 2012 ATTACK
+    // this profile's Turning Point is built on --
+    //   - born 1997 in Mingora, Swat Valley, Pakistan; her father Ziauddin
+    //     ran a school and was himself an education activist who
+    //     encouraged her public speaking; by September 2008 she was
+    //     already delivering speeches publicly, e.g. "How dare the Taliban
+    //     take away my basic right to education?";
+    //   - wrote the anonymous BBC Urdu blog under the pseudonym "Gul
+    //     Makai" starting January 2009, chronicling life under Taliban
+    //     rule in Swat;
+    //   - on October 9, 2012, shot by a Taliban gunman while returning
+    //     home on her school bus after an exam; the bullet entered near
+    //     her left eye and lodged in her shoulder; two classmates, Kainat
+    //     Riaz and Shazia Ramzan, were also wounded; airlifted to a
+    //     military hospital in Peshawar for emergency surgery, then
+    //     transferred October 15 to Queen Elizabeth Hospital in
+    //     Birmingham, England, for further treatment including facial
+    //     nerve reconstruction and a cochlear implant;
+    //   - co-founded the Malala Fund with Shiza Shahid in 2013;
+    //     co-authored the bestseller I Am Malala the same year; addressed
+    //     the United Nations on July 12, 2013 (her 16th birthday), in a
+    //     speech that came to be called "Malala Day," wearing one of
+    //     Benazir Bhutto's shawls;
+    //   - became the youngest Nobel Peace Prize laureate in 2014, sharing
+    //     the award with Kailash Satyarthi;
+    //   - graduated from Lady Margaret Hall, Oxford, in 2020 with a degree
+    //     in Philosophy, Politics and Economics;
+    //   - the article documents divided domestic reception: alongside wide
+    //     admiration, she faces criticism from conservative/nationalist
+    //     Pakistani voices who frame her advocacy, Oxford education, and
+    //     life in England as evidence of foreign alignment; the All
+    //     Pakistan Private Schools Federation banned her autobiography in
+    //     2015. Reported here as documented reception, not her own
+    //     conduct -- kept in Legacy, not treated as a Complexity, per this
+    //     project's own rule that reception material belongs in Legacy
+    //     unless the person's own conduct is genuinely at issue.
     sources: [wiki("malala", "Malala Yousafzai")],
     rows: {
       curiosity: [68, 0.55, "s", "N"],
@@ -1479,6 +1674,40 @@ const seeds: PersonSeed[] = [
     impactDomains: ["athletic", "cultural"],
     tagIds: ["cross_disciplinary", "founder"],
     archetypeIds: ["independent_creator", "competitive_performer"],
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): the opportunity_
+    // sensing/proactive_agency rationale below already documents his read
+    // on traditional martial arts' limits and the founding of Jeet Kune Do
+    // this profile's Achievement/Turning Point are built on. The following
+    // ADDITIONAL claims were verified via a direct fetch and inspection of
+    // src_brucelee_wikipedia on 2026-08-30 --
+    //   - born 1940 in San Francisco, raised in Hong Kong from infancy;
+    //     engaged in street fighting there and won the Hong Kong Crown
+    //     Colony Cha-Cha Championship in 1958;
+    //   - trained in Wing Chun under Ip Man from 1953 to 1957, a period
+    //     the article says was marked by tension over the traditional
+    //     rule against teaching students of mixed or non-Chinese heritage;
+    //   - a 1964 private match with fellow martial artist Wong Jack-Man is
+    //     reported inconsistently by the two sides -- Lee's supporters
+    //     describe a decisive win in about three minutes; Wong described a
+    //     20-25 minute inconclusive bout ending only when Lee tired.
+    //     Reported here as a disputed episode, not a settled account. The
+    //     article states the experience prompted Lee to move away from
+    //     rigid classical technique;
+    //   - played Kato in the TV series The Green Hornet (1966-1967), his
+    //     introduction to American audiences; was reportedly passed over
+    //     for the lead role he had pitched in the Kung Fu TV series
+    //     (1971) due to ethnicity/accent concerns in Hollywood casting;
+    //   - on producer Fred Weintraub's advice to build a showcase film
+    //     first, returned to Hong Kong and starred in The Big Boss (1971),
+    //     Fist of Fury (1972), and Way of the Dragon (1972), then Enter
+    //     the Dragon (1973), the first US-Hong Kong co-production, filmed
+    //     Feb-Apr 1973 and released six days after his death;
+    //   - died July 20, 1973, in Kowloon, Hong Kong, age 32; the article
+    //     states the official finding was cerebral edema (brain swelling)
+    //     but that "the causes of which remain a matter of dispute" --
+    //     reported here only as the documented medical finding, with no
+    //     endorsement of the wider speculative theories the article
+    //     itself declines to detail.
     sources: [wiki("brucelee", "Bruce Lee")],
     rows: {
       curiosity: [78, 0.6, "s", "N"],
@@ -1639,6 +1868,51 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg",
       attribution: "John Mathew Smith",
     },
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): the proactive_
+    // agency rationale below already documents her Random House
+    // acquisitions of Black authors this profile's Moment/Achievement are
+    // built on. The following ADDITIONAL claims were verified via a
+    // direct fetch and inspection of src_morrison_wikipedia on
+    // 2026-08-30 --
+    //   - born Chloe Ardelia Wofford, February 18, 1931, in Lorain, Ohio;
+    //     graduated Howard University (1953) and earned an MA from
+    //     Cornell (1955);
+    //   - joined Random House in 1965, becoming its first Black female
+    //     senior fiction editor (1967-1983); beyond the authors already
+    //     scored, edited the anthology Contemporary African Literature
+    //     (1972) and The Black Book (1974), a visual history of Black
+    //     American life from slavery through the 1920s; brought Muhammad
+    //     Ali's 1975 autobiography The Greatest: My Own Story to
+    //     publication, and championed poet Henry Dumas -- shot dead by
+    //     NYC transit police in 1968 -- posthumously;
+    //   - wrote her debut novel The Bluest Eye (1970, published at 39)
+    //     while working full-time and raising two children alone, rising
+    //     at 4am to write before the day's other demands;
+    //   - Song of Solomon (1977) became the first novel by a Black writer
+    //     selected by the Book of the Month Club since Richard Wright's
+    //     Native Son in 1940, and won the National Book Critics Circle
+    //     Award;
+    //   - Beloved (1987), drawing on the true story of Margaret Garner,
+    //     did NOT win the National Book Award that year -- 48 Black
+    //     writers and critics, including Maya Angelou, publicly protested
+    //     the omission -- but won the 1988 Pulitzer Prize; Jazz (1992)
+    //     and Paradise (1997) completed an informal trilogy;
+    //   - won the 1993 Nobel Prize in Literature, the first Black woman of
+    //     any nationality to do so; in 2006 the New York Times named
+    //     Beloved the best American work of fiction of the previous 25
+    //     years; received the Presidential Medal of Freedom in 2012;
+    //   - taught at Princeton (1989-2006), holding the Robert F. Goheen
+    //     Chair and developing the Princeton Atelier;
+    //   - Oprah Winfrey's book club selected four Morrison novels
+    //     beginning in 1996, producing a sales surge (roughly 800,000
+    //     additional copies of The Bluest Eye alone in 2000) the article
+    //     describes as exceeding the commercial impact of her Nobel Prize;
+    //   - when her son Slade died of pancreatic cancer in 2010, she halted
+    //     work on the novel Home, then resumed, reasoning (per the
+    //     article) "He would be really put out if he thought that he had
+    //     caused me to stop";
+    //   - died August 5, 2019, in the Bronx, New York, of pneumonia
+    //     complications, age 88.
     sources: [wiki("morrison", "Toni Morrison")],
     rows: {
       curiosity: [82, 0.65, "s", "A"],
@@ -1930,6 +2204,47 @@ const seeds: PersonSeed[] = [
         "ko-KR": "https://ko.wikipedia.org/wiki/정화_(명나라)",
       },
     },
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): the "Zheng He
+    // hard gate" rationale below already documents, and explicitly
+    // defends, the attribution problem this project applies to him -- the
+    // strategic decisions behind the voyages were the Yongle Emperor's,
+    // not demonstrably Zheng He's own. The editorial content below
+    // follows the same discipline: it reports what he DID (command,
+    // execute, defend) without claiming what he personally wanted, chose,
+    // or intended beyond what the record supports. Verified via a direct
+    // fetch and inspection of src_zhenghe_wikipedia on 2026-08-30 --
+    //   - born Ma He c. 1371 in Kunming, Yunnan; captured by Ming forces
+    //     during the 1381 conquest of Yunnan and castrated between the
+    //     ages of 10 and 14, then placed in the household of the Prince
+    //     of Yan (later the Yongle Emperor) -- an externally imposed
+    //     circumstance, not a documented choice of his own;
+    //   - defended Beiping's Zhenglunba reservoir during the 1399
+    //     rebellion; after the prince's 1402 Jingnan campaign victory made
+    //     him emperor, was granted the surname Zheng in 1404;
+    //   - commanded seven treasure-fleet voyages (1405-1433); the first
+    //     fleet alone (departed July 11, 1405) comprised 317 ships and
+    //     nearly 28,000 crew, reaching Southeast Asia, South Asia, the
+    //     Arabian Peninsula, and the East African coast;
+    //   - defeated the pirate captain Chen Zuyi near Palembang and
+    //     returned him to China for execution; during one voyage waged a
+    //     land engagement against the Kingdom of Kotte on Ceylon after
+    //     local officials threatened the fleet; brought back a giraffe
+    //     from Malindi that was presented at the Ming court as a qilin, a
+    //     mythical auspicious creature;
+    //   - the voyages were suspended after the Yongle Emperor's death in
+    //     1424; his successor ended further expeditions that September as
+    //     contrary to the dynastic founder's frugality/isolationism
+    //     edicts, though one further voyage later took place under the
+    //     Xuande Emperor before the program ended for good;
+    //   - died in 1433 during or shortly after the seventh voyage,
+    //     probably near Calicut; formally buried at sea -- he has a
+    //     commemorative tomb in China, but it is empty;
+    //   - after his death, official Ming annals recorded the voyages
+    //     "incomplete and even erroneous," and later official publications
+    //     omitted them entirely; the voyages remained largely forgotten
+    //     until historian Liang Qichao's 1904 biography revived interest.
+    //     Reported here as the historical record's fate, not a claim
+    //     about how Zheng He himself was regarded in his own lifetime.
     sources: [wiki("zhenghe", "Zheng He")],
     rows: {
       systems_abstraction: [78, 0.6, "s", "A"],
@@ -1992,6 +2307,40 @@ const seeds: PersonSeed[] = [
     impactDomains: ["literary", "cultural", "historical"],
     tagIds: ["mystic", "specialist"],
     archetypeIds: ["independent_creator"],
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): the belief_
+    // updating/proactive_agency rationale below already documents the
+    // Shams-e Tabrizi encounter and reorientation this profile's Turning
+    // Point is built on -- called "the single strongest case in this
+    // batch" for belief_updating. The following ADDITIONAL claims were
+    // verified via a direct fetch and inspection of src_rumi_wikipedia on
+    // 2026-08-30. Evidence kept deliberately lean rather than padded, per
+    // the person-specific caution against treating popular Western "Rumi
+    // quotes" or later hagiographic elaboration as settled history --
+    //   - born September 30, 1207, in Wakhsh, in Persian-speaking Greater
+    //     Khorasan (present-day Tajikistan);
+    //   - as Mongol invasions swept Central Asia between roughly 1215 and
+    //     1220, his father led the family west through Iran, Baghdad, and
+    //     Damascus; the family settled in Konya, Anatolia, around 1228,
+    //     where Rumi inherited his father's position as an Islamic jurist
+    //     and teacher, issuing fatwas and preaching in mosques -- a
+    //     conventional scholarly role, well before his mystic-poet period;
+    //   - met the wandering mystic Shams-e Tabrizi in Konya on November
+    //     15, 1244; on December 5, 1248, Shams disappeared -- the article
+    //     states "there are many theories as to Shams's disappearance,"
+    //     including murder, none established with certainty here;
+    //   - his major works: the Masnavi, a six-volume, roughly 27,000-line
+    //     spiritual epic "often called a 'Qur'an in Persian'"; and the
+    //     Diwan-e Shams-e Tabrizi, roughly 35,000 Persian couplets;
+    //   - died in Konya in 1273; his followers founded the Mevlevi Sufi
+    //     order afterward, developing the whirling-dervish sema ceremony;
+    //   - today ranks among the world's most widely read poets -- per the
+    //     article, "the best-selling poet in recent years" in the United
+    //     States -- but the article explicitly cautions that many "Rumi
+    //     quotes" circulating in Western popular culture are loose
+    //     paraphrases rather than faithful translations; Coleman Barks's
+    //     popular English renderings are interpretive adaptations, not
+    //     literal translations, distinct from more rigorous scholarly
+    //     translations (Arberry, Nicholson, Lewis).
     sources: [wiki("rumi", "Rumi")],
     rows: {
       intuitive_synthesis: [95, 0.68, "s", "A"],

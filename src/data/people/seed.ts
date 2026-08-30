@@ -442,6 +442,48 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg",
       attribution: "Photograph by Matthew Yohe, 2010, CC BY-SA 3.0",
     },
+    // Remaining-19 Editorial Completion Batch 2 (2026-08): the opportunity_
+    // sensing/proactive_agency/belief_updating rationale below already
+    // documents the Xerox PARC visit, the NeXT/Apple return, and the App
+    // Store reversal this profile's Moment/Turning Point/Achievement are
+    // built on. The following ADDITIONAL claims were verified via a direct
+    // fetch and inspection of src_jobs_wikipedia on 2026-08-30, not assumed
+    // from the URL's mere presence in this array --
+    //   - co-founded Apple with Steve Wozniak (and Ronald Wayne) on April 1,
+    //     1976; the Apple II (1977) was among the first mass-produced
+    //     microcomputers; the 1984 Macintosh was the first mass-produced
+    //     computer with a graphical user interface, and launched the
+    //     desktop-publishing industry alongside the Apple LaserWriter;
+    //   - forced out of the Macintosh group in September 1985 after a
+    //     boardroom power struggle with CEO John Sculley over open vs.
+    //     closed architecture; resigned, and five senior Apple employees
+    //     left with him to found NeXT; NeXT sold only about 50,000
+    //     machines by 1993 and pivoted to software;
+    //   - bought Lucasfilm's Graphics Group in 1986 for $10 million,
+    //     renamed it Pixar; as majority shareholder/chairman backed Toy
+    //     Story (1995), the first feature-length computer-animated film;
+    //     Disney's 2006 acquisition of Pixar for $7.4 billion made him
+    //     Disney's largest individual shareholder;
+    //   - launched the iPhone on June 29, 2007;
+    //   - diagnosed with a pancreatic neuroendocrine tumor in 2003; died of
+    //     tumor-related respiratory arrest on October 5, 2011, age 56;
+    //   - regarding a 1975 Atari deal, per Wozniak's own account cited in
+    //     the article: Jobs told him Atari had paid a $750 bonus for a
+    //     Breakout circuit-design job (Wozniak had done the actual
+    //     engineering) when the real payment was $5,000, and split only
+    //     the smaller figure with him; Wozniak did not learn the real
+    //     amount for years;
+    //   - denied paternity of his daughter Lisa (born May 17, 1978) until a
+    //     court-ordered DNA test found a 94.1% probability he was the
+    //     father; initially paid $385/month in child support, raised to
+    //     $500/month only after Apple's IPO made him wealthy; he later
+    //     named the Apple Lisa computer for her, telling Walter Isaacson
+    //     directly "obviously, it was named for my daughter" (per the
+    //     article, citing the Isaacson biography);
+    //   - the article, again citing Isaacson, describes Jobs's post-1997
+    //     management style: "summary executions" of underperforming
+    //     employees/projects were rare in practice but frequent enough that
+    //     staff reported anxiety about encountering him in an elevator.
     sources: [wiki("jobs", "Steve Jobs"), bio("jobs", "Walter Isaacson, Steve Jobs (2011)")],
     doNotCopyKeys: ["dontcopy.jobs.demandingness"],
     rows: {
