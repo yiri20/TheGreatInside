@@ -2707,7 +2707,15 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { year: "399 BC", textKey: "socrates.life_arc.5", sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"] },
       { year: "399 BC", textKey: "socrates.life_arc.6", sourceIds: ["src_socrates_wikipedia", "src_socrates_biography"] },
     ],
-    legacy: { textKey: "socrates.legacy", sourceIds: ["src_socrates_wikipedia"] },
+    // Final closure audit (2026-08-30): src_socrates_xenophon_biography was
+    // added to sources specifically so claims could cite Xenophon's account
+    // separately from Plato's, per the rationale comment above -- but no
+    // item actually referenced it, leaving it orphaned. Legacy is the one
+    // item that makes a claim specifically about Xenophon's portrait
+    // ("more matter-of-fact... lacking Plato's elenchus/ignorance themes"),
+    // so it is the correct item to carry this sourceId. Wiring only --
+    // no prose changed.
+    legacy: { textKey: "socrates.legacy", sourceIds: ["src_socrates_wikipedia", "src_socrates_xenophon_biography"] },
   },
 
   "coco-chanel": {
