@@ -2050,7 +2050,18 @@ const seeds: PersonSeed[] = [
     slug: "yayoi-kusama",
     canonicalName: "Yayoi Kusama",
     birthYear: 1929,
-    isLiving: true,
+    // Roster factual correction (2026-08): Kusama died 2026-08-14 in Tokyo
+    // (multiple organ failure, age 97), publicly announced 2026-08-27 --
+    // independently confirmed via CNN, NPR, The Washington Post, Legacy.com,
+    // and her own official site (verified twice, most recently 2026-08-29;
+    // see the "Remaining-19 Editorial Completion Batch 1" editorial-content
+    // branch, which found this and flagged it as a separate follow-up
+    // rather than editing roster data itself). Narrow correction only:
+    // isLiving/deathYear below, and the era field, are unaffected by
+    // isLiving (deceased "contemporary"-era people are the existing norm
+    // in this file, e.g. Steve Jobs) -- no other field changed.
+    deathYear: 2026,
+    isLiving: false,
     era: "contemporary",
     nationalityCodes: ["JP"],
     regionCode: "east_asia",
