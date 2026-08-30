@@ -38,21 +38,25 @@
  * `expanded` collapse state above — opening/closing an explanation never
  * touches, and is never touched by, Show all/Show fewer.
  *
- * NON-MODAL `<dialog>` (`.show()`, not `.showModal()`) — a deliberate choice,
- * not an oversight. `showModal()` puts the rest of the document in the
- * browser's "inert" state while open: EVERY other element, including every
- * other trait card, stops receiving pointer events at all. That's exactly
- * right for a true modal, but it makes "click a different trait card while
- * one is already open" — an explicit requirement here — structurally
- * impossible to satisfy (found via an actual failing Playwright run, not
- * theorised: the second card's click never reached it, `<dialog open>`
- * itself intercepted the pointer event). `.show()` keeps the rest of the
- * page fully interactive, so Escape-to-close, outside-click-to-close, and
- * focus-in/out are all hand-rolled below instead of inherited for free —
- * the trade this project accepts for the interaction the spec actually asks
- * for. Mobile gets the same non-modal behaviour for the same reason: one
- * unified interaction model, not a desktop/mobile behavioural fork on top
- * of the CSS one that already exists for popover-vs-sheet layout.
+ * MODALITY SPLITS BY BREAKPOINT (semantic/accessibility audit, 2026-08):
+ * desktop (>640px) uses non-modal `.show()`; mobile (<=640px) uses modal
+ * `.showModal()`. This was NOT the original design — the first version used
+ * `.show()` everywhere, reasoning that `showModal()`'s inert background
+ * makes "click a different trait card while one is open" (a real desktop
+ * requirement, confirmed via an actual failing Playwright run) structurally
+ * impossible. That reasoning is still correct FOR DESKTOP. It does not
+ * transfer to mobile: the mobile bottom sheet never claims to support
+ * switching traits by tapping a card behind it (that was always a desktop-
+ * only interaction in the spec), and a follow-up accessibility audit found
+ * the non-modal mobile sheet let Tab/Shift+Tab reach trait cards still
+ * visible above the sheet — a real focus-containment defect a screen-reader
+ * or keyboard user could hit, not a theoretical one. `showModal()` on
+ * mobile fixes this for free (native inert background + native focus
+ * containment), which is exactly why the spec prefers it over hand-rolling
+ * a focus trap. Escape/outside-click stay hand-rolled for BOTH modes for
+ * one shared code path (harmless redundancy on mobile: native Escape/
+ * backdrop-click already work there too) rather than forking the listener
+ * logic by breakpoint as well as the open-call itself.
  */
 import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import type { Locale } from "@core/types";
@@ -125,7 +129,8 @@ export function TraitConstellationGrid({
     if (!dialog) return;
     triggerRef.current = trigger;
     setActiveId(attributeId);
-    if (!isMobileViewport()) {
+    const mobile = isMobileViewport();
+    if (!mobile) {
       const pos = anchorPosition(trigger.getBoundingClientRect());
       dialog.style.top = `${pos.top}px`;
       dialog.style.left = `${pos.left}px`;
@@ -137,21 +142,33 @@ export function TraitConstellationGrid({
       dialog.style.removeProperty("top");
       dialog.style.removeProperty("left");
     }
-    // `.show()` is a no-op if already open (HTML spec), so switching
-    // between two already-open traits doesn't need its own branch here.
-    dialog.show();
+    // Only call the opening method when NOT already open — `.show()` on an
+    // already-open dialog is a documented no-op (safe to call every time),
+    // but `.showModal()` on an already-open dialog THROWS regardless of its
+    // current modality (HTML spec: "if this has an open attribute, then
+    // throw an InvalidStateError"). Switching between two already-open
+    // traits on the SAME breakpoint (the common case) skips this entirely —
+    // the dialog stays open and only its content changes underneath it. A
+    // mode mismatch (viewport crossed the breakpoint while open) is instead
+    // handled by the resize effect below, which closes the dialog first —
+    // by the time a fresh `openExplanation` call reaches here, `dialog.open`
+    // is reliably false in that case too.
+    if (!dialog.open) {
+      if (mobile) dialog.showModal();
+      else dialog.show();
+    }
     // Move focus into the new content every time, including a straight
     // switch from one trait to another — a mouse user won't notice (their
     // attention already moved with the click), and a keyboard/AT user gets
     // consistent, correct focus placement regardless of which trigger
     // opened it. `tabIndex={-1}` on the dialog (TraitExplanationDialog.tsx)
     // is what makes a plain, non-interactive element focusable for this.
-    // Called directly, not wrapped in requestAnimationFrame — an <dialog>
-    // that's already `.show()`n is focusable immediately, no frame needed
-    // (rAF was tried here first and found, via manual QA in an automation-
-    // driven browser context, to sometimes never fire at all in a
-    // non-compositing/headless-style environment — the position-correction
-    // effect below hit the exact same issue and no longer depends on it).
+    // Called directly, not wrapped in requestAnimationFrame — an open
+    // <dialog> is focusable immediately, no frame needed (rAF was tried
+    // here first and found, via manual QA in an automation-driven browser
+    // context, to sometimes never fire at all in a non-compositing/
+    // headless-style environment — the position-correction effect below
+    // hit the exact same issue and no longer depends on it).
     dialog.focus();
   }
 
@@ -160,12 +177,17 @@ export function TraitConstellationGrid({
     triggerRef.current?.focus();
   }
 
-  // Escape and outside-click, hand-rolled because `.show()` (see the header
-  // comment above) doesn't provide either for free the way `showModal()`
-  // would. A click on ANOTHER trigger is deliberately excluded from
-  // "outside" — that trigger's own onClick already calls `openExplanation`
-  // and switches the content; treating it as an outside-click-to-close too
-  // would just close what that same click had just opened.
+  // Escape and outside-click, hand-rolled for BOTH modes even though
+  // `.showModal()` (mobile) provides native Escape-to-cancel — one shared
+  // code path, harmless redundancy on mobile (closing an already-closed
+  // dialog is a no-op) rather than forking listener logic by breakpoint on
+  // top of the open-call already being forked in `openExplanation`. A click
+  // on ANOTHER trigger is deliberately excluded from "outside" — that
+  // trigger's own onClick already calls `openExplanation` and switches the
+  // content; treating it as an outside-click-to-close too would just close
+  // what that same click had just opened. Desktop only, in practice: mobile
+  // triggers are inert while the modal sheet is open, so they can never be
+  // the click target there in the first place.
   useEffect(() => {
     if (!activeId) return;
     function handleKeydown(e: KeyboardEvent) {
@@ -175,6 +197,15 @@ export function TraitConstellationGrid({
       const dialog = dialogRef.current;
       if (!dialog) return;
       const target = e.target as Node;
+      // A click that lands on the <dialog> element ITSELF (not a
+      // descendant) is a backdrop click — native `showModal()` targets the
+      // dialog for a backdrop hit, and `Node.contains()` would otherwise
+      // treat "target === dialog" as "inside" (a node contains itself),
+      // silently swallowing this exact case.
+      if (target === dialog) {
+        dialog.close();
+        return;
+      }
       if (dialog.contains(target)) return;
       if (target instanceof Element && target.closest(".tgi-traitcard-trigger")) return;
       dialog.close();
@@ -223,16 +254,27 @@ export function TraitConstellationGrid({
     dialog.style.left = `${left}px`;
   }, [activeId]);
 
-  // Keeps the anchor sane across a resize/rotation while open, and clears
-  // any desktop inline position if the viewport crosses into mobile width
-  // (see the comment in `openExplanation` on why that clear matters).
+  // Keeps the anchor sane across a resize/rotation while open. A mode
+  // mismatch (e.g. a phone rotated to landscape crosses the 640px
+  // breakpoint while the sheet is open) closes the dialog outright rather
+  // than trying to reopen it in the new mode in place — native <dialog>
+  // has no "convert modal <-> non-modal without closing" operation, and
+  // `.showModal()` on an already-open dialog throws regardless of its
+  // current modality (see `openExplanation`). Closing is a reasonable,
+  // unsurprising response to a mid-read orientation change; the trait
+  // stays one tap away again.
   useEffect(() => {
     if (!activeId) return;
     function handleResize() {
       const dialog = dialogRef.current;
       const trigger = triggerRef.current;
       if (!dialog || !trigger) return;
-      if (isMobileViewport()) {
+      const mobile = isMobileViewport();
+      if (dialog.open && mobile !== dialog.matches(":modal")) {
+        dialog.close();
+        return;
+      }
+      if (mobile) {
         dialog.style.removeProperty("top");
         dialog.style.removeProperty("left");
         return;

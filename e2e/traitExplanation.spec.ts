@@ -38,6 +38,13 @@ test.describe("desktop trait explanation (albert-einstein, en-US)", () => {
     // Content model: name, score+band, definition all present.
     const bodyText = await open.locator(".tgi-trait-explain__body").innerText();
     expect(bodyText.length).toBeGreaterThan(0);
+    // Desktop stays deliberately NON-modal (semantic/accessibility audit,
+    // 2026-08) -- mobile switched to a true modal `.showModal()` for its
+    // own focus-containment reasons (see the mobile describe block below),
+    // but desktop still needs the rest of the page clickable so a user can
+    // select a different trait card directly, which `:modal` would block.
+    const isModal = await page.evaluate(() => document.querySelector(".tgi-trait-explain")!.matches(":modal"));
+    expect(isModal).toBe(false);
     expect(console_.errors, console_.errors.join("\n")).toEqual([]);
     expect(console_.pageErrors, console_.pageErrors.join("\n")).toEqual([]);
   });
@@ -183,6 +190,65 @@ test.describe("mobile trait explanation (leonardo-da-vinci)", () => {
     await page.getByRole("button", { name: "Close" }).click();
     await expect(page.locator(".tgi-trait-explain[open]")).toHaveCount(0);
     expect(console_.errors, console_.errors.join("\n")).toEqual([]);
+  });
+
+  test("focus stays contained in the sheet -- Tab/Shift+Tab cannot reach trait cards or any other page control behind it", async ({
+    page,
+  }) => {
+    // Regression test for the exact defect a semantic/accessibility audit
+    // found in the original all-`.show()` implementation: a non-modal
+    // mobile sheet left the rest of the page (including other trait cards
+    // still visible above/behind the sheet) fully focusable, so Tab could
+    // walk keyboard/screen-reader focus straight into visually-obscured
+    // content. Mobile now opens via `.showModal()`
+    // (TraitConstellationGrid.tsx), which makes the rest of the document
+    // natively inert -- this test would have failed against the pre-fix
+    // implementation and is what should catch any regression back to it.
+    await page.goto("/en-US/people/leonardo-da-vinci", { waitUntil: "networkidle" });
+    const trigger = traitTrigger(page).first();
+    await trigger.click();
+    await expect(dialog(page)).toBeVisible();
+
+    // Confirm the dialog is genuinely modal (native inert background) --
+    // the mechanism the rest of this test relies on, not just an assumption.
+    const isModal = await page.evaluate(() => document.querySelector(".tgi-trait-explain")!.matches(":modal"));
+    expect(isModal).toBe(true);
+
+    // Tab forward well past the sheet's own focusable-element count (name
+    // heading isn't focusable, so realistically just the Close button) --
+    // if focus ever escaped, it would show up well within this many presses.
+    for (let i = 0; i < 15; i++) {
+      await page.keyboard.press("Tab");
+      const containedOrBody = await page.evaluate(() => {
+        const dialogEl = document.querySelector(".tgi-trait-explain")!;
+        const active = document.activeElement;
+        // A focus ring returning to <body> (nothing left to tab to inside
+        // the dialog) is fine; landing on any REAL page control outside the
+        // dialog is the failure this test exists to catch.
+        return dialogEl.contains(active) || active === document.body;
+      });
+      expect(containedOrBody, `Tab press #${i + 1} moved focus outside the modal sheet`).toBe(true);
+    }
+
+    // Same check in reverse.
+    for (let i = 0; i < 15; i++) {
+      await page.keyboard.press("Shift+Tab");
+      const containedOrBody = await page.evaluate(() => {
+        const dialogEl = document.querySelector(".tgi-trait-explain")!;
+        const active = document.activeElement;
+        return dialogEl.contains(active) || active === document.body;
+      });
+      expect(containedOrBody, `Shift+Tab press #${i + 1} moved focus outside the modal sheet`).toBe(true);
+    }
+
+    // The other trait cards are still genuinely present and visible behind
+    // the sheet (this isn't testing an empty page) -- just confirmed
+    // unreachable by keyboard while the sheet is open.
+    await expect(traitTrigger(page).nth(1)).toBeVisible();
+
+    await page.keyboard.press("Escape");
+    await expect(page.locator(".tgi-trait-explain[open]")).toHaveCount(0);
+    await expect(trigger).toBeFocused();
   });
 
   test("Show all -> open a trait -> close preserves the expanded strongest-4 state", async ({ page }) => {

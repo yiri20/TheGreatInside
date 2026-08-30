@@ -9,18 +9,21 @@
  * trait replaces the first" and "only one open at a time" automatic rather
  * than something to coordinate by hand.
  *
- * Native <dialog>, non-modal (`.show()`, driven by the parent,
- * TraitConstellationGrid, which owns the ref/open state and — see its own
- * header comment for why — hand-rolls Escape/outside-click instead of using
- * `showModal()`'s free but too-strict inert-background version of those).
- * Still a real `<dialog>` rather than a plain `<div>`: it carries the
- * correct implicit ARIA dialog role and the `close` event regardless of
- * modality, and this project's own documented convention is "no modal
- * component exists anywhere else in the product" (see
- * app/[locale]/account/DeleteSavedResultsButton.tsx's doc comment) — a real
- * popover/bottom-sheet requirement (this spec) is the first place that
- * inline-disclosure convention genuinely doesn't fit, so this reaches for the
- * platform primitive rather than adding a dependency, not for a bespoke one.
+ * Native <dialog>, driven by the parent (TraitConstellationGrid, which owns
+ * the ref/open state) via `.show()` on desktop and `.showModal()` on mobile
+ * — see that file's own header comment for the full modality rationale
+ * (a semantic/accessibility audit found the original all-`.show()` version
+ * let mobile Tab/Shift+Tab reach trait cards behind the sheet). This
+ * component doesn't know or care which mode is active; it renders the same
+ * markup either way and lets `dialogRef`'s owner decide how to open it.
+ * A real `<dialog>` rather than a plain `<div>`: it carries the correct
+ * implicit ARIA dialog role and the `close` event regardless of modality,
+ * and this project's own documented convention is "no modal component
+ * exists anywhere else in the product" (see app/[locale]/account/
+ * DeleteSavedResultsButton.tsx's doc comment) — a real popover/bottom-sheet
+ * requirement (this spec) is the first place that inline-disclosure
+ * convention genuinely doesn't fit, so this reaches for the platform
+ * primitive rather than adding a dependency, not for a bespoke one.
  *
  * DESKTOP vs MOBILE is the same DOM/markup, styled two ways by a single
  * `.tgi-trait-explain` rule set at this project's existing 640px mobile
@@ -85,16 +88,16 @@ export function TraitExplanationDialog({
   }, [dialogRef]);
 
   // `active` can be undefined (nothing has ever been opened yet) — the
-  // <dialog>/scrim pair below is ALWAYS the same tree shape regardless, on
-  // purpose. An early-return that swapped the outer shape between "just a
-  // bare <dialog>" and "a fragment wrapping a scrim + a <dialog>" was tried
-  // first and found, via an actual failing Playwright run, to break the
-  // very next open: React sees a different tree shape and remounts a FRESH
-  // <dialog> DOM node on the state-driven re-render that follows a click,
-  // discarding the `open` attribute `dialog.show()` had just set on the old
-  // node a moment earlier. Keeping the shape constant and only branching the
-  // INNER content keeps the same DOM node (and the same ref) across every
-  // open/close/switch.
+  // <dialog> below is ALWAYS returned (never swapped for a differently-
+  // shaped tree), on purpose. An early-return that returned a structurally
+  // different tree depending on `active` was tried first and found, via an
+  // actual failing Playwright run, to break the very next open: React sees
+  // a different tree shape and remounts a FRESH <dialog> DOM node on the
+  // state-driven re-render that follows a click, discarding the `open`
+  // attribute/modality `dialog.show()`/`.showModal()` had just set on the
+  // old node a moment earlier. Keeping the outer shape constant and only
+  // branching the INNER content keeps the same DOM node (and the same ref,
+  // and the same open/modal state) across every open/close/switch.
   const label = active ? t(locale, `attribute.${active.attributeId}` as MessageKey) : "";
   const definition = active ? t(locale, `attribute.description.${active.attributeId}` as MessageKey) : "";
   const band = active ? traitScoreBandFor(active.score) : undefined;
@@ -103,39 +106,32 @@ export function TraitExplanationDialog({
   const personContext = active ? personTraitContext[active.attributeId] : undefined;
 
   return (
-    <>
-      <dialog ref={dialogRef} id={id} tabIndex={-1} className="tgi-trait-explain" aria-labelledby={headingId}>
-        {active ? (
-          <div className="tgi-trait-explain__body">
-            <Cluster between>
-              <Heading level={3} className="tgi-trait-explain__heading" id={headingId}>
-                {label}
-              </Heading>
-              <Button variant="quiet" onClick={() => dialogRef.current?.close()}>
-                {t(locale, "person.traits.explanation.close")}
-              </Button>
-            </Cluster>
+    <dialog ref={dialogRef} id={id} tabIndex={-1} className="tgi-trait-explain" aria-labelledby={headingId}>
+      {active ? (
+        <div className="tgi-trait-explain__body">
+          <Cluster between>
+            <Heading level={3} className="tgi-trait-explain__heading" id={headingId}>
+              {label}
+            </Heading>
+            <Button variant="quiet" onClick={() => dialogRef.current?.close()}>
+              {t(locale, "person.traits.explanation.close")}
+            </Button>
+          </Cluster>
 
-            <Text tone="secondary" className="tgi-trait-explain__meta">
-              <Numeric>{formatScore(active.score)}</Numeric> · {bandLabel} — {bandMeaning}
-            </Text>
+          <Text tone="secondary" className="tgi-trait-explain__meta">
+            <Numeric>{formatScore(active.score)}</Numeric> · {bandLabel} — {bandMeaning}
+          </Text>
 
-            <Text>{definition}</Text>
+          <Text>{definition}</Text>
 
-            {personContext ? (
-              <>
-                <Divider />
-                <Text tone="muted">{personContext}</Text>
-              </>
-            ) : null}
-          </div>
-        ) : null}
-      </dialog>
-      {/* Decorative only (see the CSS rule's own comment) — its visibility
-          is driven entirely by the sibling combinator off the dialog's own
-          native `open` attribute, not a React condition, so this element
-          never needs to change shape/presence either. */}
-      <div className="tgi-trait-explain-scrim" aria-hidden="true" />
-    </>
+          {personContext ? (
+            <>
+              <Divider />
+              <Text tone="muted">{personContext}</Text>
+            </>
+          ) : null}
+        </div>
+      ) : null}
+    </dialog>
   );
 }

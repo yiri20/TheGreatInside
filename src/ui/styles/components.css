@@ -537,24 +537,17 @@ body {
 .tgi-trait-explain__heading { margin: 0; }
 .tgi-trait-explain__meta { display: flex; align-items: baseline; gap: var(--tgi-space-1); }
 
-/* Decorative only (`pointer-events: none`) — the explanation is a non-modal
-   <dialog> (see TraitConstellationGrid.tsx's header comment for why: a true
-   modal's inert background would block clicking a different trait card to
-   switch, which this spec requires), so nothing actually depends on this
-   for the outside-click-closes or click-another-card-switches behaviour —
-   both are hand-rolled in JS regardless of whether this is present. Desktop
-   gets none at all (a popover dimming the whole page reads as a modal, not
-   a popover); mobile gets a quiet scrim behind the sheet, the expected
-   bottom-sheet convention. Visibility is driven purely by the sibling
-   combinator off the dialog's own native `open` attribute (never a React
-   prop) — see TraitExplanationDialog.tsx for why this element's presence in
-   the DOM must stay unconditional. */
-.tgi-trait-explain-scrim {
-  display: none;
-  position: fixed;
-  inset: 0;
-  z-index: 50;
-  pointer-events: none;
+/* A real `::backdrop` — semantic/accessibility audit (2026-08): mobile now
+   opens via `.showModal()`, not `.show()` (see TraitConstellationGrid.tsx's
+   header comment: a non-modal sheet let Tab/Shift+Tab reach trait cards
+   still visible above it, a real focus-containment defect). `::backdrop`
+   only ever renders for a `showModal()`'d dialog, so this rule is
+   automatically a no-op on desktop (still `.show()`n there) without any
+   media-query gating of its own — no separate scrim element needed
+   anymore; the earlier version's hand-rolled, pointer-events:none scrim
+   `<div>` existed only because `.show()` never produces a `::backdrop` to
+   style. */
+.tgi-trait-explain::backdrop {
   background: var(--tgi-scrim);
 }
 
@@ -570,9 +563,6 @@ body {
   .tgi-trait-explain__body {
     max-height: 80vh;
     padding-bottom: var(--tgi-space-6);
-  }
-  .tgi-trait-explain[open] ~ .tgi-trait-explain-scrim {
-    display: block;
   }
 }
 
