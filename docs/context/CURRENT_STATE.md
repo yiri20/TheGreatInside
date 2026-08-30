@@ -84,8 +84,9 @@ Zheng He remain)).
   distinctiveness-ordered, no re-ranking) behind a quiet "Show all
   traits" / "모든 특성 보기" toggle — desktop/tablet grid unchanged. A
   trait-card click-to-explain affordance was evaluated and deliberately
-  deferred (no existing popover/dialog primitive to reuse, no
-  attribute-description content yet) — recommended as a future task.
+  deferred at the time (no existing popover/dialog primitive to reuse, no
+  attribute-description content yet) — since implemented, see **Profile
+  Trait Explanation UX** below.
   `IdentityHero`'s missing-portrait initials fallback
   (`src/ui/components/layout.tsx`) predates this redesign (2026-08,
   `chore/consolidated-dev-2026-08`) and is unchanged by it.
@@ -299,10 +300,26 @@ recovery, institutional archive recovery, or historically defensible
 depiction resolution for pre-photography subjects (Tier B: Bruce Lee,
 Fela Kuti; Tier C: Coco Chanel, Umm Kulthum)
 — with "HOLD"/"RIGHTS INQUIRY REQUIRED" meaning no acceptable path yet,
-not permanent abandonment. Candidates for a future session
-(none started
-here): a trait-card click-to-explain affordance (needs a new
-lightweight popover/dialog primitive plus attribute-description content
-— see "Person Profile Hero redesign" above); and a human decision on
-deleting the now-fully-subsumed dev branches listed above. Editorial
-content is fully closed (95/95, see above) — not a candidate.
+not permanent abandonment. Candidates for a future session (none started
+here): a human decision on deleting the now-fully-subsumed dev branches
+listed above. Editorial content is fully closed (95/95, see above) —
+not a candidate. The trait-card click-to-explain affordance once listed
+here is done — see **Profile Trait Explanation UX** below.
+
+- **Profile Trait Explanation UX** (2026-08, `feat/trait-explanation-ux`,
+  **not yet merged**): clicking/tapping a Trait Constellation card opens
+  an explanation — trait name, score + a 5-band 0-100 reading (Very Low
+  … Very High, `src/core/interpretation/traitScoreBands.ts`), a
+  centralized plain-language definition for all 34 attributes
+  (`attribute.description.*` in `en.ts`/`ko.ts`), and, only when this
+  person's own editorial content already ties that attribute to a
+  concrete episode (`src/core/interpretation/traitExplanation.ts` reuses
+  `PersonEditorialItem.attributeId`/`interpretationKey` — no new
+  interpretation content authored), that interpretation text. Desktop:
+  an anchored, edge-aware popover (non-modal `<dialog>` — a true modal
+  would block clicking a different trait card to switch, which the spec
+  requires). Mobile (≤640px, the existing breakpoint): the same `<dialog>`
+  restyled as a bottom sheet. `tsc` clean, `vitest` 687/687 (+17),
+  `playwright` 166/166 including a dedicated `e2e/traitExplanation.spec.ts`
+  (13 specs). No roster/editorial/matching/scoring/portrait/monetization
+  files touched.
