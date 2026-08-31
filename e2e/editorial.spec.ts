@@ -101,18 +101,23 @@ test.describe("Editorial sections — graceful absence of optional fields", () =
   //
   // Fixture migrated a third time (2026-08, Life Arc Backfill Batch 2):
   // Einstein himself gained a Life Arc in that batch. Migrated to
-  // malcolm-x, which has the same 3-populated-sections shape and no
+  // malcolm-x, which had the same 3-populated-sections shape and no
+  // lifeArc, complexities, or legacy entry at the time.
+  //
+  // Fixture migrated a fourth time (2026-08, Life Arc Backfill Batch 3):
+  // Malcolm X himself gained a Life Arc in that batch. Migrated to
+  // niels-bohr, which has the same 3-populated-sections shape and no
   // lifeArc, complexities, or legacy entry (see editorial.ts).
-  test("Malcolm X (no lifeArc/complexities/legacy) shows none of those three headings and no orphan dividers", async ({
+  test("Niels Bohr (no lifeArc/complexities/legacy) shows none of those three headings and no orphan dividers", async ({
     page,
   }) => {
-    await page.goto("/en-US/people/malcolm-x", { waitUntil: "networkidle" });
+    await page.goto("/en-US/people/niels-bohr", { waitUntil: "networkidle" });
     const headings = await page.locator("h2").allTextContents();
     expect(headings.some((h) => h.includes("Life Arc"))).toBe(false);
     expect(headings.some((h) => h.includes("Complexities"))).toBe(false);
     expect(headings.some((h) => h.includes("Legacy"))).toBe(false);
     // Base page has 3 unconditional dividers (hero, constellation, sources)
-    // plus exactly one per POPULATED editorial section -- Malcolm X has
+    // plus exactly one per POPULATED editorial section -- Niels Bohr has
     // achievements/moments/turningPoints (3) and no lifeArc/complexities/
     // legacy, so 3 + 3 = 6, not 3 + 6, confirming the three absent optional
     // sections contribute no orphan divider each.
