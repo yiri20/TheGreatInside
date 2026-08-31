@@ -70,7 +70,7 @@ Zheng He remain)).
 - **Profile V2 fields** (`lifeArc`/`complexities`/`legacy` on
   `PersonEditorial`): `complexities`/`legacy` remain evidence-gated and
   asymmetric by design — present only where the record supports them,
-  never padded. **Life Arc coverage: 61/95** (2026-08, mechanically
+  never padded. **Life Arc coverage: 73/95** (2026-08, mechanically
   verified). 25 profiles predate the Life Arc Backfill program. **Batch 1**
   (2026-08, merged to `main`) added 12 (Ada Lovelace, Frida Kahlo, Leonardo
   da Vinci, Marie Curie, Yi Sun-sin, Benjamin Franklin, Jane Goodall,
@@ -80,13 +80,17 @@ Zheng He remain)).
   `main`) added a further 12 (Albert Einstein, Ernest Shackleton, Frederick
   Douglass, Galileo Galilei, Hildegard of Bingen, Ibn Sina, Isaac Newton,
   Jane Austen, Martin Luther King Jr., Rabindranath Tagore, Thomas Aquinas,
-  Thomas Edison). **Batch 3** (2026-08, branch
-  `feat/life-arc-backfill-batch-3`, unmerged) added a further 12 (Umm
-  Kulthum, Vincent van Gogh, Wilbur Wright, Benjamin Banneker, Chinua
+  Thomas Edison). **Batch 3** (2026-08, merged to `main`) added a further 12
+  (Umm Kulthum, Vincent van Gogh, Wilbur Wright, Benjamin Banneker, Chinua
   Achebe, Emmy Noether, Fela Kuti, Florence Nightingale, Grace Hopper,
-  Immanuel Kant, Malcolm X, Muhammad Ali), same P1/P2/P3 provenance model
-  (see that batch's commits for the full audit). The remaining 34 profiles
-  still have none of these three fields — expected for now, not a gap;
+  Immanuel Kant, Malcolm X, Muhammad Ali). **Batch 4** (2026-08, branch
+  `feat/life-arc-backfill-batch-4`, unmerged) added a further 12 (Niels
+  Bohr, Rachel Carson, Simón Bolívar, Sojourner Truth, Sor Juana Inés de la
+  Cruz, Toussaint Louverture, Wole Soyinka, Aristotle, B. R. Ambedkar,
+  Sequoyah, Elizabeth Blackwell, Harriet Tubman — Aristotle at 5 beats,
+  D-caution, all others at 6), same P1/P2/P3 provenance model (see that
+  batch's commits for the full audit). The remaining 22 profiles still have
+  none of these three fields — expected for now, not a gap;
   `achievements`/`moments`/`turningPoints` alone is still a complete
   profile.
 - **Person Profile Hero redesign + mobile Trait Constellation
