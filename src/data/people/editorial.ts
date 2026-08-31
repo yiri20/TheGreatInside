@@ -1121,6 +1121,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_nightingale_smallbio", "src_nightingale_mcdonald"],
       },
     ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats, entirely P1 -- every
+    // beat reuses a fact already stated in achievements/moments/
+    // turning_point.1 above. Per the person-specific instruction, the arc
+    // foregrounds her statistical/institutional-reform work (the coxcomb
+    // chart, the Training School, decades of reform reaching public health
+    // in India) rather than battlefield-nursing imagery -- no "lamp"
+    // reference anywhere, and the Crimean front beat (moment.1) is framed
+    // as her organizing her own party, not a caretaking cliche.
+    lifeArc: [
+      { year: "1820", textKey: "florence-nightingale.life_arc.1", sourceIds: ["src_nightingale_wikipedia"] },
+      { year: "Young adulthood", textKey: "florence-nightingale.life_arc.2", sourceIds: ["src_nightingale_smallbio"] },
+      { year: "1854", textKey: "florence-nightingale.life_arc.3", sourceIds: ["src_nightingale_smallbio"] },
+      { year: "Crimean War", textKey: "florence-nightingale.life_arc.4", sourceIds: ["src_nightingale_mcdonald", "src_nightingale_wikipedia"] },
+      { year: "1860", textKey: "florence-nightingale.life_arc.5", sourceIds: ["src_nightingale_wikipedia", "src_nightingale_smallbio"] },
+      { year: "1910", textKey: "florence-nightingale.life_arc.6", sourceIds: ["src_nightingale_smallbio", "src_nightingale_mcdonald"] },
+    ],
   },
 
   "umm-kulthum": {
@@ -1147,6 +1163,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "impact_motivation",
         sourceIds: ["src_ummkulthum_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats. Her 1923 move to Cairo
+    // and 1934 radio-broadcast debut (the start of the already-preserved
+    // "monthly performance tradition" in achievement.1, which itself gives
+    // no year) were not preserved anywhere in this profile -- P2, verified
+    // directly against src_ummkulthum_wikipedia (live fetch: "waited until
+    // 1923 before permanently moving" to Cairo; "In 1934, Umm Kulthum sang
+    // for the inaugural broadcast of the Egyptian Radio... From then
+    // onwards, she performed in a concert on the first Thursday of every
+    // month for forty years"). Per the person-specific instruction, no
+    // claim about political intent or her relationship with the Egyptian
+    // state is made beyond what turning_point.1 already documents (a
+    // self-initiated fundraising response to the 1967 war), and no beat
+    // asserts more than the plain chronology.
+    lifeArc: [
+      { year: "1904", textKey: "umm-kulthum.life_arc.1", sourceIds: ["src_ummkulthum_wikipedia"] },
+      { year: "1923", textKey: "umm-kulthum.life_arc.2", sourceIds: ["src_ummkulthum_wikipedia"] },
+      { year: "1934", textKey: "umm-kulthum.life_arc.3", sourceIds: ["src_ummkulthum_wikipedia"] },
+      { year: "Across her career", textKey: "umm-kulthum.life_arc.4", sourceIds: ["src_ummkulthum_wikipedia", "src_ummkulthum_britannica"] },
+      { year: "1967", textKey: "umm-kulthum.life_arc.5", sourceIds: ["src_ummkulthum_wikipedia"] },
+      { year: "1975", textKey: "umm-kulthum.life_arc.6", sourceIds: ["src_ummkulthum_wikipedia"] },
     ],
   },
 
@@ -1207,6 +1244,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_noether_wikipedia", "src_noether_einstein"],
       },
+    ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats. Her doctorate year
+    // (1907, Erlangen) and the exact span of the already-preserved
+    // unpaid Hilbert-name lecturing arrangement (moment.1) were not
+    // preserved -- P2, verified directly against src_noether_wikipedia
+    // (live fetch: doctorate "in 1907 from the University of Erlangen-
+    // Nuremberg"; lectured under Hilbert's name "from approximately 1915
+    // to 1919 ... During her first years teaching at Göttingen, she had
+    // no official position and was not paid," until her habilitation was
+    // approved in 1919). Per the person-specific instruction, life_arc.4
+    // states plainly that the position was unpaid and unofficial rather
+    // than glossing it as an ordinary appointment, and the arc is
+    // chronological (education -> barrier -> theorem -> displacement ->
+    // death), not a list of her mathematical results.
+    lifeArc: [
+      { year: "1882", textKey: "emmy-noether.life_arc.1", sourceIds: ["src_noether_wikipedia"] },
+      { year: "1907", textKey: "emmy-noether.life_arc.2", sourceIds: ["src_noether_wikipedia"] },
+      { year: "1915", textKey: "emmy-noether.life_arc.3", sourceIds: ["src_noether_wikipedia"] },
+      { year: "1915–1919", textKey: "emmy-noether.life_arc.4", sourceIds: ["src_noether_wikipedia"] },
+      { year: "1933", textKey: "emmy-noether.life_arc.5", sourceIds: ["src_noether_wikipedia", "src_noether_einstein"] },
+      { year: "1935", textKey: "emmy-noether.life_arc.6", sourceIds: ["src_noether_wikipedia"] },
     ],
   },
 
@@ -1322,6 +1380,29 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "risk_tolerance",
         sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats. His Arles move (moment.3
+    // gives no year) and the Gauguin "Yellow House" period (moment.1 gives
+    // no year) were not preserved -- P2, verified directly against
+    // src_vangogh_wikipedia (live fetch: moved to Arles "in February 1888";
+    // Gauguin joined him there the same year). life_arc.2's 1880 derives
+    // from turning_point.1's already-preserved "At 27" + birthYear 1853,
+    // not new research.
+    //
+    // Per the person-specific instruction: this batch does NOT reopen the
+    // death controversy already resolved in `legacy` above. The final beat
+    // is deliberately bare ("Died.") -- no cause, no theory, no mention of
+    // Auvers-sur-Oise -- so Life Arc stays chronological orientation and
+    // `legacy` remains the single place this profile discusses the manner
+    // of his death. No diagnosis or mental-illness language appears in
+    // either field.
+    lifeArc: [
+      { year: "1853", textKey: "vincent-van-gogh.life_arc.1", sourceIds: ["src_vangogh_wikipedia"] },
+      { year: "1880", textKey: "vincent-van-gogh.life_arc.2", sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"] },
+      { year: "1888", textKey: "vincent-van-gogh.life_arc.3", sourceIds: ["src_vangogh_letters", "src_vangogh_wikipedia"] },
+      { year: "1888", textKey: "vincent-van-gogh.life_arc.4", sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"] },
+      { year: "1889–1890", textKey: "vincent-van-gogh.life_arc.5", sourceIds: ["src_vangogh_naifeh", "src_vangogh_wikipedia"] },
+      { year: "1890", textKey: "vincent-van-gogh.life_arc.6", sourceIds: ["src_vangogh_wikipedia"] },
     ],
     legacy: {
       textKey: "vincent-van-gogh.legacy",
@@ -1542,6 +1623,26 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "risk_tolerance",
         sourceIds: ["src_ali_wikipedia", "src_ali_center"],
       },
+    ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats. Three dates that
+    // achievement.1/3 describe but don't give years for -- the 1960
+    // Olympic gold, the 1964 Liston fight that first won him the
+    // heavyweight title, and the 1974 Foreman "Rumble in the Jungle" that
+    // reclaimed it -- were not preserved -- P2, verified directly against
+    // src_ali_wikipedia (live fetch: 1960 Rome Olympics light-heavyweight
+    // gold; 25 February 1964 defeat of Sonny Liston; 30 October 1974
+    // defeat of Foreman in Kinshasa via rope-a-dope, "winning by knockout
+    // and reclaiming the heavyweight title"). Per the person-specific
+    // instruction, the arc orients boxing rise / title / conversion / draft
+    // refusal / return / death and does not list records, and death
+    // (life_arc.6) is left bare with no mention of his later health.
+    lifeArc: [
+      { year: "1942", textKey: "muhammad-ali.life_arc.1", sourceIds: ["src_ali_wikipedia"] },
+      { year: "1960", textKey: "muhammad-ali.life_arc.2", sourceIds: ["src_ali_wikipedia"] },
+      { year: "1964", textKey: "muhammad-ali.life_arc.3", sourceIds: ["src_ali_wikipedia", "src_ali_autobiography"] },
+      { year: "1967", textKey: "muhammad-ali.life_arc.4", sourceIds: ["src_ali_wikipedia", "src_ali_center"] },
+      { year: "1974", textKey: "muhammad-ali.life_arc.5", sourceIds: ["src_ali_wikipedia"] },
+      { year: "2016", textKey: "muhammad-ali.life_arc.6", sourceIds: ["src_ali_wikipedia"] },
     ],
   },
 
@@ -1937,6 +2038,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_malcolmx_autobiography", "src_malcolmx_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats. His incarceration and
+    // release years (moment.1 describes the prison education program but
+    // gives no dates) were not preserved -- P2, verified directly against
+    // src_malcolmx_wikipedia (live fetch: "sentenced in February 1946 and
+    // released on parole in August 1952"; conversion to the Nation of Islam
+    // confirmed as happening during that sentence). Per the person-specific
+    // instruction, the arc keeps early life/incarceration-conversion/NOI
+    // rise/1964 break-pilgrimage/later evolution/assassination distinct
+    // rather than compressing his post-1964 change into a single
+    // redemption beat -- life_arc.4 and life_arc.5 separate the pilgrimage-
+    // driven worldview revision from the concrete organizational rebuilding
+    // that followed it, both already dated 1964 in achievement.2/
+    // turning_point.1.
+    lifeArc: [
+      { year: "1925", textKey: "malcolm-x.life_arc.1", sourceIds: ["src_malcolmx_wikipedia"] },
+      { year: "1946–1952", textKey: "malcolm-x.life_arc.2", sourceIds: ["src_malcolmx_autobiography", "src_malcolmx_wikipedia"] },
+      { year: "Early 1960s", textKey: "malcolm-x.life_arc.3", sourceIds: ["src_malcolmx_wikipedia"] },
+      { year: "1964", textKey: "malcolm-x.life_arc.4", sourceIds: ["src_malcolmx_autobiography", "src_malcolmx_wikipedia"] },
+      { year: "1964", textKey: "malcolm-x.life_arc.5", sourceIds: ["src_malcolmx_wikipedia", "src_malcolmx_autobiography"] },
+      { year: "1965", textKey: "malcolm-x.life_arc.6", sourceIds: ["src_malcolmx_wikipedia"] },
+    ],
   },
 
   "wilbur-wright": {
@@ -1963,6 +2085,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "persuasiveness",
         sourceIds: ["src_wright_mccullough", "src_wright_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats, entirely P1 -- every
+    // beat and year reuses a fact already stated in achievements/moments/
+    // turning_point.1 above. Per the person-specific instruction, every
+    // beat covering jointly-developed aviation work explicitly credits
+    // Orville too ("with his brother Orville" / "with Orville") rather
+    // than attributing it to Wilbur alone -- the source material already
+    // frames these as joint work (achievement.1: "Wilbur and his brother
+    // Orville ran..."), and this Life Arc preserves that framing.
+    lifeArc: [
+      { year: "1867", textKey: "wilbur-wright.life_arc.1", sourceIds: ["src_wright_wikipedia"] },
+      { year: "1900–1903", textKey: "wilbur-wright.life_arc.2", sourceIds: ["src_wright_mccullough", "src_wright_wikipedia"] },
+      { year: "December 1903", textKey: "wilbur-wright.life_arc.3", sourceIds: ["src_wright_mccullough", "src_wright_wikipedia"] },
+      { year: "1903–1908", textKey: "wilbur-wright.life_arc.4", sourceIds: ["src_wright_mccullough"] },
+      { year: "1908", textKey: "wilbur-wright.life_arc.5", sourceIds: ["src_wright_mccullough", "src_wright_wikipedia"] },
+      { year: "1912", textKey: "wilbur-wright.life_arc.6", sourceIds: ["src_wright_wikipedia"] },
     ],
   },
 
@@ -2112,6 +2250,29 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "risk_tolerance",
         sourceIds: ["src_kant_kuehn", "src_kant_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats. His professorship year
+    // and birth/death city were not preserved (moment.2's "published...
+    // only at 57" is age-relative, not a stated year) -- P2, verified
+    // directly against src_kant_wikipedia (live fetch: "In 1770, Kant was
+    // appointed Full Professor of Logic and Metaphysics at the University
+    // of Königsberg"; born and died in Königsberg, spending his entire
+    // professional life there). life_arc.3's 1781 is arithmetic on
+    // moment.2's already-preserved "at 57" + birthYear 1724, not new
+    // research. Per the person-specific instruction, no dramatic turning
+    // point is manufactured and no trait is inferred from his routine --
+    // moment.1 (the clockwork-precise daily walk) is deliberately left out
+    // of the arc, and life_arc.4/.5 use relative labels ("Following years,"
+    // "Later years") rather than invented exact dates for his later works
+    // and the censorship episode, since neither is dated in the preserved
+    // text.
+    lifeArc: [
+      { year: "1724", textKey: "immanuel-kant.life_arc.1", sourceIds: ["src_kant_wikipedia"] },
+      { year: "1770", textKey: "immanuel-kant.life_arc.2", sourceIds: ["src_kant_wikipedia"] },
+      { year: "1781", textKey: "immanuel-kant.life_arc.3", sourceIds: ["src_kant_kuehn", "src_kant_wikipedia"] },
+      { year: "Following years", textKey: "immanuel-kant.life_arc.4", sourceIds: ["src_kant_sep", "src_kant_wikipedia"] },
+      { year: "Later years", textKey: "immanuel-kant.life_arc.5", sourceIds: ["src_kant_kuehn", "src_kant_wikipedia"] },
+      { year: "1804", textKey: "immanuel-kant.life_arc.6", sourceIds: ["src_kant_wikipedia"] },
     ],
   },
 
@@ -2305,6 +2466,25 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_hopper_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats, entirely P1 -- every
+    // beat and year reuses a fact already stated in achievements/moment.1/
+    // turning_point.1 above (life_arc.4/.5 split turning_point.1's own
+    // retire-recall-retire narrative into a summary range and its final,
+    // most specific milestone, the same nesting pattern already used
+    // elsewhere in this Life Arc system, e.g. Aung San Suu Kyi's shipped
+    // arc). Per the person-specific instruction, achievement.1 already
+    // credits "the team at Remington Rand" she led, not her alone, and this
+    // Life Arc reuses that framing rather than a lone-inventor account; her
+    // final rank (rear admiral) appears only as the endpoint of a decades-
+    // long documented service arc, not as a standalone achievement.
+    lifeArc: [
+      { year: "1906", textKey: "grace-hopper.life_arc.1", sourceIds: ["src_hopper_wikipedia"] },
+      { year: "1947", textKey: "grace-hopper.life_arc.2", sourceIds: ["src_hopper_wikipedia"] },
+      { year: "Early 1950s", textKey: "grace-hopper.life_arc.3", sourceIds: ["src_hopper_beyer", "src_hopper_wikipedia"] },
+      { year: "1966–1986", textKey: "grace-hopper.life_arc.4", sourceIds: ["src_hopper_wikipedia"] },
+      { year: "1986", textKey: "grace-hopper.life_arc.5", sourceIds: ["src_hopper_wikipedia"] },
+      { year: "1992", textKey: "grace-hopper.life_arc.6", sourceIds: ["src_hopper_wikipedia"] },
+    ],
   },
 
   "cv-raman": {
@@ -2339,6 +2519,28 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
     turningPoints: [],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats. His role assisting the
+    // 1791 District of Columbia boundary survey was not preserved anywhere
+    // in this profile -- P2, verified directly against
+    // src_banneker_wikipedia (live fetch): hired by Andrew Ellicott in
+    // February 1791, left in April 1791 "due to other commitments,
+    // particularly the calculation of an ephemeris for the year of 1792"
+    // -- about three months. Per the person-specific instruction against
+    // claims amplified by later popular retelling, this Life Arc states
+    // only that he assisted the survey, not that he planned or designed
+    // the city: the same source is explicit that "there is little
+    // documentation to confirm Banneker's role" beyond the hiring itself,
+    // and a contemporary report crediting the first boundary stone's
+    // location "did not mention Banneker." life_arc.3's wording reflects
+    // that documented uncertainty rather than overstating his contribution.
+    lifeArc: [
+      { year: "1731", textKey: "benjamin-banneker.life_arc.1", sourceIds: ["src_banneker_wikipedia"] },
+      { year: "c. 1753", textKey: "benjamin-banneker.life_arc.2", sourceIds: ["src_banneker_bedini"] },
+      { year: "Feb–Apr 1791", textKey: "benjamin-banneker.life_arc.3", sourceIds: ["src_banneker_wikipedia"] },
+      { year: "August 1791", textKey: "benjamin-banneker.life_arc.4", sourceIds: ["src_banneker_jefferson", "src_banneker_wikipedia"] },
+      { year: "1792", textKey: "benjamin-banneker.life_arc.5", sourceIds: ["src_banneker_bedini", "src_banneker_wikipedia"] },
+      { year: "1806", textKey: "benjamin-banneker.life_arc.6", sourceIds: ["src_banneker_wikipedia"] },
+    ],
   },
 
   "fela-kuti": {
@@ -2355,6 +2557,23 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "conflict_tolerance",
         sourceIds: ["src_fela_wikipedia", "src_fela_veal"],
       },
+    ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats, entirely P1 -- every
+    // beat and year reuses a fact already stated in achievements/moment.1/
+    // turning_point.1 above; death year is bare roster metadata, no cause
+    // given (not preserved, and not required by house style). Per the
+    // person-specific instruction, the 1977 raid beat states only the
+    // documented facts already in turning_point.1 (soldiers raided and
+    // burned the compound; his mother died of injuries from the raid) with
+    // no added violence-glamorizing language, and no motive is inferred
+    // beyond what that item already states.
+    lifeArc: [
+      { year: "1938", textKey: "fela-kuti.life_arc.1", sourceIds: ["src_fela_wikipedia"] },
+      { year: "Late 1960s", textKey: "fela-kuti.life_arc.2", sourceIds: ["src_fela_veal", "src_fela_wikipedia"] },
+      { year: "1970", textKey: "fela-kuti.life_arc.3", sourceIds: ["src_fela_wikipedia", "src_fela_veal"] },
+      { year: "1976", textKey: "fela-kuti.life_arc.4", sourceIds: ["src_fela_veal"] },
+      { year: "1977", textKey: "fela-kuti.life_arc.5", sourceIds: ["src_fela_wikipedia", "src_fela_veal"] },
+      { year: "1997", textKey: "fela-kuti.life_arc.6", sourceIds: ["src_fela_wikipedia"] },
     ],
   },
 
@@ -2395,6 +2614,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "adaptability",
         sourceIds: ["src_achebe_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 3 (2026-08): 6 beats, entirely P1 -- every
+    // beat and year reuses a fact already stated in achievements/moment.1/
+    // turning_point.1 above (turning_point.1 itself already spans the 1990
+    // accident through "his death in 2013," giving life_arc.5/.6 both
+    // years directly). Per the person-specific instruction, the arc is not
+    // reduced to Things Fall Apart alone: it also orients his Biafra
+    // envoy period, his literary-critical Conrad essay, and his later
+    // academic/public role at Bard College.
+    lifeArc: [
+      { year: "1930", textKey: "chinua-achebe.life_arc.1", sourceIds: ["src_achebe_wikipedia"] },
+      { year: "1958", textKey: "chinua-achebe.life_arc.2", sourceIds: ["src_achebe_ezenwa", "src_achebe_wikipedia"] },
+      { year: "1967–1970", textKey: "chinua-achebe.life_arc.3", sourceIds: ["src_achebe_wikipedia", "src_achebe_ezenwa"] },
+      { year: "1975", textKey: "chinua-achebe.life_arc.4", sourceIds: ["src_achebe_conrad", "src_achebe_wikipedia"] },
+      { year: "1990", textKey: "chinua-achebe.life_arc.5", sourceIds: ["src_achebe_wikipedia"] },
+      { year: "2013", textKey: "chinua-achebe.life_arc.6", sourceIds: ["src_achebe_wikipedia"] },
     ],
   },
 

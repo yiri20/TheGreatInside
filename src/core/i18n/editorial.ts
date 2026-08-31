@@ -607,6 +607,16 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The profile's independent_thinking score isn't just about privately holding an unconventional view here — she gave up a specific, expected path in order to act on it, which is a stronger form of the same evidence.",
   "florence-nightingale.interpretation.turning_point.1":
     "The profile's high persistence score has to account for a real change in method here, not just continued effort: the work carried on, but the physically active field nurse of 1854 and the correspondence-driven reformer of the decades after were operating under very different constraints.",
+  "florence-nightingale.life_arc.1": "Born.",
+  "florence-nightingale.life_arc.2":
+    "Rejected her family's expectation of a conventional marriage to pursue nursing, then considered disreputable for her class.",
+  "florence-nightingale.life_arc.3": "Organized her own party of nurses and traveled to the Crimean War front.",
+  "florence-nightingale.life_arc.4":
+    "Developed the statistical \"coxcomb\" chart showing poor sanitation, not combat wounds, as the leading cause of death.",
+  "florence-nightingale.life_arc.5":
+    "Founded the Nightingale Training School for Nurses, then led decades of healthcare reform, later extending to public health in India.",
+  "florence-nightingale.life_arc.6":
+    "Died, after five decades of illness during which she continued reform work almost entirely from her sickroom.",
 
   /* -------------------------------------------- Batch 2: Umm Kulthum */
   "umm-kulthum.achievement.1":
@@ -625,6 +635,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is closer to the profile's experimentation score than to simple repetition: each pass through the line was a variation being tested against the audience's response, not the same phrase repeated for effect.",
   "umm-kulthum.interpretation.turning_point.1":
     "The profile's impact_motivation score is worth reading against the specific timing here: this was a self-initiated expansion of her public role into a national one, arriving at a moment of genuine national crisis rather than as a routine extension of an existing charitable pattern.",
+  "umm-kulthum.life_arc.1": "Born.",
+  "umm-kulthum.life_arc.2": "Moved permanently to Cairo to pursue a public singing career.",
+  "umm-kulthum.life_arc.3": "Began a monthly radio concert tradition that continued for decades.",
+  "umm-kulthum.life_arc.4":
+    "Sustained a decades-long creative partnership with composer Riad Al Sunbati, exercising unusual creative control over her own repertoire.",
+  "umm-kulthum.life_arc.5":
+    "After Egypt's defeat in the Arab-Israeli war, organized fundraising concert tours on her own initiative.",
+  "umm-kulthum.life_arc.6": "Died.",
 
   /* -------------------------------------------- Batch 2: Sor Juana */
   "sor-juana-ines-de-la-cruz.achievement.1":
@@ -663,6 +681,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The barrier itself never moved; what changed is that she found a way to keep teaching and researching around it rather than through it — a fairly direct read on the profile's resourcefulness score.",
   "emmy-noether.interpretation.turning_point.1":
     "The profile's proactive_agency score is worth reading carefully here: leaving was not itself a choice under the actual circumstances, but where and how quickly she rebuilt a working research career afterward was.",
+  "emmy-noether.life_arc.1": "Born.",
+  "emmy-noether.life_arc.2": "Earned her doctorate in mathematics at Erlangen, one of few women in Germany to do so.",
+  "emmy-noether.life_arc.3": "Proved Noether's theorem, linking every differentiable symmetry to a conservation law.",
+  "emmy-noether.life_arc.4":
+    "Lectured at Göttingen under David Hilbert's name, unpaid and without an official position, until her own habilitation was approved.",
+  "emmy-noether.life_arc.5": "Dismissed under Nazi racial laws; fled to teach at Bryn Mawr College in the US.",
+  "emmy-noether.life_arc.6": "Died.",
 
   /* -------------------------------------------------- Batch 3: F. Kafka */
   "franz-kafka.achievement.1":
@@ -703,6 +728,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Worth noting for the profile's autonomy_need score: the studio wasn't where he happened to end up, but a space his own letters describe seeking out deliberately.",
   "vincent-van-gogh.interpretation.turning_point.1":
     "The profile's risk_tolerance score is grounded in this one dated, comparatively late decision, not a general claim about risk running through his whole life.",
+  "vincent-van-gogh.life_arc.1": "Born.",
+  "vincent-van-gogh.life_arc.2":
+    "Committed to painting full-time at 27, after leaving earlier paths in art dealing, teaching, and preaching.",
+  "vincent-van-gogh.life_arc.3": "Moved to Arles to secure his own independent studio.",
+  "vincent-van-gogh.life_arc.4": "Invited Paul Gauguin to share the studio; the arrangement ended within two months.",
+  "vincent-van-gogh.life_arc.5": "Produced roughly 200 paintings in his final fifteen months, in Arles and Saint-Rémy.",
+  "vincent-van-gogh.life_arc.6": "Died.",
   "vincent-van-gogh.legacy":
     "Van Gogh died on 29 July 1890, two days after being shot in the chest in a wheat field near Auvers-sur-Oise; questioned by police, he said only, \"Do not accuse anybody, it is I that wished to commit suicide,\" and the Van Gogh Museum's own account of his death still describes it as self-inflicted. A 2011 biography by Steven Naifeh and Gregory White Smith, already cited elsewhere in this profile, argued instead that he was shot accidentally by two local teenagers and covered for them — a theory Van Gogh Museum researchers formally rebutted in 2013 and that has not been accepted by most scholars, but that means the manner of his death is not treated as fully settled across every account this profile draws on. His posthumous reputation diverged sharply from his lifetime obscurity: paintings that went almost entirely unsold while he lived are now among the most sought-after and expensive in the history of Western art.",
 
@@ -838,6 +870,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Two separate, dated public stances taken against the era's dominant opinion carry more weight for the profile's independent_thinking score than either one alone would.",
   "muhammad-ali.interpretation.turning_point.1":
     "This is a real, dated cost, not a comfortable stance — losing his title and livelihood at his athletic peak is what the profile's risk_tolerance score is actually pricing in.",
+  "muhammad-ali.life_arc.1": "Born.",
+  "muhammad-ali.life_arc.2": "Won Olympic gold as a light-heavyweight boxer.",
+  "muhammad-ali.life_arc.3":
+    "Won the heavyweight title from Sonny Liston; converted to Islam and changed his name from Cassius Clay.",
+  "muhammad-ali.life_arc.4":
+    "Refused induction into the U.S. military on religious grounds; stripped of his title and boxing license, convicted of a felony later overturned.",
+  "muhammad-ali.life_arc.5":
+    "Returned from a three-and-a-half-year ban to reclaim the heavyweight title, using the \"rope-a-dope\" strategy against George Foreman.",
+  "muhammad-ali.life_arc.6": "Died.",
 
   /* -------------------------------------------------- Batch 3: M. Wollstonecraft */
   "mary-wollstonecraft.achievement.1":
@@ -1067,6 +1108,16 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This sustained, self-imposed program is the specific, self-narrated evidence behind the profile's deep_focus and discipline scores.",
   "malcolm-x.interpretation.turning_point.1":
     "This is among the more extensively self-documented instances of belief_updating in the roster: a first-person account of revising a deeply held public position after direct experience, not a characterization applied by others.",
+  "malcolm-x.life_arc.1": "Born.",
+  "malcolm-x.life_arc.2":
+    "Incarcerated; converted to the Nation of Islam and undertook an intense self-directed education, copying the dictionary by hand.",
+  "malcolm-x.life_arc.3": "Became one of the most prominent, widely broadcast public speakers of the civil rights era.",
+  "malcolm-x.life_arc.4":
+    "After a pilgrimage to Mecca, publicly broke from the Nation of Islam's separatist theology toward a broader orthodox Islamic and pan-Africanist framework.",
+  "malcolm-x.life_arc.5":
+    "Founded Muslim Mosque, Inc. and the Organization of Afro-American Unity, rebuilding his public organizing from scratch.",
+  "malcolm-x.life_arc.6":
+    "Assassinated, after continuing to speak publicly despite his home being firebombed and credible death threats.",
 
   /* --------------------------------------------------- Batch 5: Wilbur Wright */
   "wilbur-wright.achievement.1":
@@ -1085,6 +1136,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Trusting first-hand test results over an established authority's published figures, and then building the tool needed to confirm it, is consistent with the profile's independent_thinking and resourcefulness scores.",
   "wilbur-wright.interpretation.turning_point.1":
     "Choosing exactly when to end years of self-imposed secrecy, rather than being forced into the open, is consistent with the profile's persuasiveness score — a strategic decision, not a change in temperament.",
+  "wilbur-wright.life_arc.1": "Born.",
+  "wilbur-wright.life_arc.2":
+    "With his brother Orville, ran a systematic research program at Kitty Hawk, building their own wind tunnel after published lift data proved unreliable.",
+  "wilbur-wright.life_arc.3": "Achieved the first sustained, controlled, powered flight, with Orville.",
+  "wilbur-wright.life_arc.4": "With Orville, avoided public demonstrations, prioritizing patent protection over public recognition.",
+  "wilbur-wright.life_arc.5": "Organized public demonstration flights in France that convinced skeptical observers.",
+  "wilbur-wright.life_arc.6": "Died.",
 
   /* ---------------------------------------------- Batch 5: Nicolaus Copernicus */
   "nicolaus-copernicus.achievement.1":
@@ -1171,6 +1229,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The length of this private revision period, not merely its existence, is what grounds the profile's dual-edged perfectionism score — the same standard that produced a famously rigorous system also delayed it for over a decade.",
   "immanuel-kant.interpretation.turning_point.1":
     "This stands out precisely because it departs from the otherwise cautious pattern the rest of the profile describes — a considered risk taken within a careful life, not evidence of a broader pattern of confrontation.",
+  "immanuel-kant.life_arc.1": "Born in Königsberg.",
+  "immanuel-kant.life_arc.2": "Appointed full professor of Logic and Metaphysics at the University of Königsberg.",
+  "immanuel-kant.life_arc.3": "Published the Critique of Pure Reason at 57, after a long period of quiet private development.",
+  "immanuel-kant.life_arc.4":
+    "Completed his critical system with the Critique of Practical Reason and the Critique of Judgment, framing the categorical imperative as a universal standard of duty.",
+  "immanuel-kant.life_arc.5":
+    "Drew formal censure from Prussian royal censors for his writing on religion; ordered not to write further on the subject.",
+  "immanuel-kant.life_arc.6": "Died in Königsberg.",
 
   /* ------------------------------------------------------ Batch 5: Octavia Butler */
   "octavia-butler.achievement.1":
@@ -1253,6 +1319,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Hopper retired from the Naval Reserve at the mandatory age of 60 at the end of 1966, but was recalled to active duty in August 1967 to help standardize COBOL across the Navy; she retired again in 1971 and was recalled again the following year. She remained in service after that, finally retiring in 1986 at age 79 as a rear admiral and, at the time, the oldest active-duty commissioned officer in the United States Navy.",
   "grace-hopper.interpretation.turning_point.1":
     "Coming back to active duty not once but twice after mandatory retirement, and ultimately serving into her 80th year, fits a mastery orientation this profile places well above the achievement of any single milestone.",
+  "grace-hopper.life_arc.1": "Born.",
+  "grace-hopper.life_arc.2":
+    "Found and documented an actual moth causing a Harvard Mark II relay malfunction, helping popularize the term \"bug.\"",
+  "grace-hopper.life_arc.3": "Led the team at Remington Rand that built the A-0 System, generally credited as the first compiler.",
+  "grace-hopper.life_arc.4":
+    "Retired and was repeatedly recalled to active Naval duty, including work standardizing COBOL across the Navy.",
+  "grace-hopper.life_arc.5":
+    "Retired for the final time at 79, as a rear admiral and the Navy's oldest active-duty commissioned officer.",
+  "grace-hopper.life_arc.6": "Died.",
 
   /* -------------------------------------------------------------- Batch 6: C. V. Raman */
   "cv-raman.achievement.1":
@@ -1275,6 +1350,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In August 1791, Banneker sent Thomas Jefferson, then Secretary of State, a letter directly challenging the contradiction between Jefferson's stated Enlightenment ideals and his ownership of enslaved people, enclosing a manuscript copy of his forthcoming almanac as evidence of Black intellectual capability. Jefferson's reply, which survives alongside Banneker's letter, thanked him and noted he had forwarded the almanac to the Marquis de Condorcet in France — a polite acknowledgment that did not extend to any change in Jefferson's own practice of enslaving people.",
   "benjamin-banneker.interpretation.moment.1":
     "Addressing a sitting cabinet secretary directly and personally on slavery was a real risk for a free Black man in 1791 Maryland — what this profile's risk tolerance score is actually drawn from here, not any claim about how the exchange was received.",
+  "benjamin-banneker.life_arc.1": "Born.",
+  "benjamin-banneker.life_arc.2":
+    "Built a functioning wooden striking clock, self-taught, after studying a borrowed pocket watch.",
+  "benjamin-banneker.life_arc.3":
+    "Assisted Andrew Ellicott's survey of the future District of Columbia's boundary, for about three months.",
+  "benjamin-banneker.life_arc.4":
+    "Sent Thomas Jefferson a letter challenging the contradiction between his Enlightenment ideals and his ownership of enslaved people.",
+  "benjamin-banneker.life_arc.5": "Began publishing an annual almanac series with his own astronomical calculations.",
+  "benjamin-banneker.life_arc.6": "Died.",
 
   /* ----------------------------------------------------------- Batch 6: Fela Kuti */
   "fela-kuti.achievement.1":
@@ -1287,6 +1371,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In February 1977, roughly 1,000 Nigerian soldiers raided the Kalakuta Republic and set it on fire; Kuti's mother, the activist Funmilayo Ransome-Kuti, was thrown from a window during the raid and died of her injuries the following year. Kuti responded by delivering her coffin to the gates of the military government's headquarters in Lagos and, in the years that followed, recorded the song \"Coffin for Head of State\" about the event — a shift from musical and rhetorical criticism of the regime to direct, personal confrontation with it.",
   "fela-kuti.interpretation.turning_point.1":
     "This marks a real escalation in how the confrontation with state power was expressed — from records and lyrics to a direct, physical act aimed at the government itself — which is the specific evidence behind this profile's conflict tolerance score, not a judgment on the underlying political conflict.",
+  "fela-kuti.life_arc.1": "Born.",
+  "fela-kuti.life_arc.2": "Fused Yoruba music, jazz, highlife, and funk into a new genre he called Afrobeat.",
+  "fela-kuti.life_arc.3": "Declared his Lagos compound the independent \"Kalakuta Republic.\"",
+  "fela-kuti.life_arc.4": "Released Zombie, a direct musical critique of the Nigerian military.",
+  "fela-kuti.life_arc.5":
+    "Kalakuta Republic raided and burned by soldiers; his mother died from injuries sustained in the raid.",
+  "fela-kuti.life_arc.6": "Died.",
 
   /* ------------------------------------------------- Batch 6: Toussaint Louverture */
   "toussaint-louverture.achievement.1":
@@ -1311,6 +1402,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In March 1990, a car accident in Nigeria left Achebe paralyzed from the waist down. He was flown to the United Kingdom for treatment and subsequently relocated to the United States, where he joined the faculty at Bard College and continued publishing essays, teaching, and speaking publicly for more than two decades until his death in 2013.",
   "chinua-achebe.interpretation.turning_point.1":
     "Rebuilding a full academic and literary career on a different continent, under permanently changed physical circumstances, is the specific kind of evidence this profile's adaptability score is built on.",
+  "chinua-achebe.life_arc.1": "Born.",
+  "chinua-achebe.life_arc.2": "Published Things Fall Apart, weaving Igbo oral narrative into the English-language novel form.",
+  "chinua-achebe.life_arc.3": "Served as a diplomatic envoy for Biafra during the Nigerian Civil War.",
+  "chinua-achebe.life_arc.4": "Delivered \"An Image of Africa,\" a contrarian critique of Conrad's Heart of Darkness.",
+  "chinua-achebe.life_arc.5": "Paralyzed in a car accident; relocated to the US and joined Bard College's faculty.",
+  "chinua-achebe.life_arc.6": "Died, having continued teaching and publishing for more than two decades after the accident.",
 
   /* ------------------------------------------- Batch 7 (exposure-priority): Alan Turing */
   /* CLOSURE PASS: achievements 1-2 deleted (unsupported by this person's roster rationale). moment.1 corrected to match the rationale's own quoted phrase and dropped an invented colleague count. Profile V2 pilot (2026-08): restored genuine Achievements, added a second Life Scene, a Turning Point, Life Arc and Legacy -- all newly researched and verified directly against src_turing_wikipedia (live fetch, not memory), not this person's roster-file rationale. See docs/editorial-content.md's "general knowledge consistent with cited sources" exception -- the closure pass had read that exception more narrowly than the doc itself states; this pilot applies it as written, against a source already on this person's own record. */
@@ -2544,6 +2641,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "여기서 프로필의 독립적 사고(independent_thinking) 점수는 단지 남모르게 관습에서 벗어난 생각을 품었다는 데 그치지 않는다 — 그는 기대되던 구체적인 삶의 경로를 실제로 포기하고 그 생각에 따라 행동했다는 점에서, 같은 증거의 더 강한 형태를 보여준다.",
   "florence-nightingale.interpretation.turning_point.1":
     "프로필의 높은 끈기(persistence) 점수는 단순히 지속된 노력만이 아니라 여기서 실제로 방법이 바뀌었다는 점까지 설명해야 한다 — 활동은 이어졌지만, 1854년의 활동적인 야전 간호사와 그 이후 수십 년간의 서신 중심 개혁가는 전혀 다른 제약 조건 속에서 일하고 있었다.",
+  "florence-nightingale.life_arc.1": "태어났다.",
+  "florence-nightingale.life_arc.2": "당시 자신의 계층에서는 평판이 좋지 않던 간호 일을 하기 위해, 가족이 기대하던 통상적인 결혼을 거부했다.",
+  "florence-nightingale.life_arc.3": "자신이 직접 간호사 무리를 조직해 크림전쟁 전선으로 향했다.",
+  "florence-nightingale.life_arc.4": "전투 부상이 아니라 열악한 위생이 사망의 주된 원인임을 보여주는 통계 도표 '콕스콤'을 개발했다.",
+  "florence-nightingale.life_arc.5": "나이팅게일 간호학교를 설립했고, 이후 수십 년에 걸쳐 의료 개혁을 이끌며 인도의 공중보건 문제로까지 활동을 넓혔다.",
+  "florence-nightingale.life_arc.6": "오랜 투병 끝에 사망했으며, 그 오십 년 가까운 기간 동안에도 병상에서 개혁 활동을 거의 멈추지 않았다.",
 
   /* -------------------------------------------- Batch 2: Umm Kulthum */
   "umm-kulthum.achievement.1":
@@ -2562,6 +2665,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 단순한 반복보다는 프로필의 실험 성향(experimentation) 점수에 더 가까운 대목이다 — 한 소절을 거듭 반복할 때마다 그것은 같은 구절을 효과를 위해 되풀이한 것이 아니라, 청중의 반응에 비추어 시험된 하나의 변주였다.",
   "umm-kulthum.interpretation.turning_point.1":
     "프로필의 영향 창출 동기(impact_motivation) 점수는 여기서 시점과 함께 읽어볼 필요가 있다 — 이는 기존의 자선 활동을 관행적으로 확장한 것이 아니라, 실제 국가적 위기의 순간에 스스로 자신의 공적 역할을 국가적 차원으로 넓힌 자발적 선택이었다.",
+  "umm-kulthum.life_arc.1": "태어났다.",
+  "umm-kulthum.life_arc.2": "카이로로 완전히 이주해 대중 가수로서의 경력을 쌓기 시작했다.",
+  "umm-kulthum.life_arc.3": "수십 년간 이어진 월례 라디오 콘서트 전통을 시작했다.",
+  "umm-kulthum.life_arc.4": "작곡가 리야드 알순바티와 수십 년에 걸친 창작 협업을 이어가며, 자신의 레퍼토리에 대해 이례적인 창작 주도권을 행사했다.",
+  "umm-kulthum.life_arc.5": "제3차 중동전쟁에서 이집트가 패배한 뒤, 스스로의 판단으로 모금 콘서트 순회공연을 조직했다.",
+  "umm-kulthum.life_arc.6": "사망했다.",
 
   /* -------------------------------------------- Batch 2: Sor Juana */
   "sor-juana-ines-de-la-cruz.achievement.1":
@@ -2600,6 +2709,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "장벽 자체는 끝내 사라지지 않았다 — 달라진 것은 그가 그것을 정면으로 뚫는 대신 우회해 가르치고 연구하는 길을 스스로 찾아냈다는 점이며, 이는 프로필의 자원 활용 성향(resourcefulness) 점수를 상당히 직접적으로 보여주는 대목이다.",
   "emmy-noether.interpretation.turning_point.1":
     "프로필의 선제적 행동력(proactive_agency) 점수는 여기서 신중하게 읽을 필요가 있다 — 그 실제 상황에서 떠나는 것 자체는 선택의 문제가 아니었지만, 이후 어디서 어떻게 그토록 빠르게 다시 연구자로서의 경력을 세웠는가는 그 자신의 선택이었다.",
+  "emmy-noether.life_arc.1": "태어났다.",
+  "emmy-noether.life_arc.2": "에를랑겐 대학에서 수학 박사 학위를 받았으며, 당시 독일에서는 드문 여성 박사 중 한 명이었다.",
+  "emmy-noether.life_arc.3": "모든 미분 가능한 대칭이 하나의 보존 법칙에 대응한다는 뇌터 정리를 증명했다.",
+  "emmy-noether.life_arc.4":
+    "괴팅겐에서 데이비트 힐베르트의 이름으로 강의를 맡아, 정식 직위도 보수도 없이 자신의 교수자격을 인정받을 때까지 강의를 이어갔다.",
+  "emmy-noether.life_arc.5": "나치의 인종법에 따라 해임된 뒤 독일을 떠나, 미국 브린모어 대학에서 새로 경력을 쌓았다.",
+  "emmy-noether.life_arc.6": "사망했다.",
 
   /* -------------------------------------------------- Batch 3: F. Kafka */
   "franz-kafka.achievement.1":
@@ -2640,6 +2756,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 자율성 욕구(autonomy_need) 점수와 관련해 주목할 점은, 그 작업실이 우연히 머물게 된 곳이 아니라 그의 편지가 직접 밝히듯 스스로 찾아 나선 공간이었다는 사실이다.",
   "vincent-van-gogh.interpretation.turning_point.1":
     "프로필의 위험 감수(risk_tolerance) 점수는 이 한 차례의, 비교적 늦은 나이에 내린 결정에 근거를 둔 것이지, 그의 삶 전체를 관통하는 위험 성향에 대한 일반적인 주장은 아니다.",
+  "vincent-van-gogh.life_arc.1": "태어났다.",
+  "vincent-van-gogh.life_arc.2": "화상, 교사, 전도사 등 앞서 거친 여러 진로를 뒤로하고 27세에 전업 화가의 길을 택했다.",
+  "vincent-van-gogh.life_arc.3": "독립된 자신만의 작업실을 마련하기 위해 아를로 이주했다.",
+  "vincent-van-gogh.life_arc.4": "폴 고갱을 초대해 작업실을 함께 썼으나, 그 공동생활은 두 달 만에 끝났다.",
+  "vincent-van-gogh.life_arc.5": "아를과 생레미에서 보낸 생애 마지막 15개월 동안 약 200점의 그림을 그렸다.",
+  "vincent-van-gogh.life_arc.6": "사망했다.",
   "vincent-van-gogh.legacy":
     "반 고흐는 1890년 7월 29일, 오베르쉬르우아즈 근교 밀밭에서 가슴에 총상을 입은 지 이틀 만에 세상을 떠났다. 경찰의 심문에 그는 \"내 몸은 내 것이니 내가 원하는 대로 할 자유가 있다. 아무도 탓하지 마라, 자살하고 싶었던 것은 나 자신이다\"라고만 답했으며, 반 고흐 미술관 자체의 공식 설명 역시 지금도 이를 자해로 서술한다. 이 프로필의 다른 곳에서도 인용된 스티븐 네이페와 그레고리 화이트 스미스의 2011년 전기는 이와 달리 그가 인근의 십대 청소년 둘에게 우발적으로 총을 맞고 그들을 감싸주었다고 주장했다 — 반 고흐 미술관 연구진이 2013년 이 주장을 정식으로 반박했고 대다수 학자도 받아들이지 않고 있지만, 이는 이 프로필이 참고하는 모든 자료가 사망 경위에 대해 완전히 합의하지는 않는다는 뜻이기도 하다. 그의 사후 명성은 생전의 무명과는 뚜렷이 대조되었다 — 살아 있을 때는 거의 팔리지 않았던 그림들이 지금은 서양 미술사에서 가장 값비싸고 인기 있는 작품으로 손꼽힌다.",
 
@@ -2774,6 +2896,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "당대의 지배적인 여론에 맞선, 시기가 분명한 두 차례의 공개적인 입장은 그중 하나만 있을 때보다 프로필의 독립적 사고(independent_thinking) 점수에 더 무거운 근거가 된다.",
   "muhammad-ali.interpretation.turning_point.1":
     "이는 편안한 태도가 아니라 실제로 치른, 시기가 분명한 대가다 — 전성기에 타이틀과 생계 수단을 잃은 것이야말로 프로필의 위험 감수(risk_tolerance) 점수가 실제로 반영하고 있는 대가다.",
+  "muhammad-ali.life_arc.1": "태어났다.",
+  "muhammad-ali.life_arc.2": "라이트헤비급 복서로 올림픽 금메달을 땄다.",
+  "muhammad-ali.life_arc.3": "소니 리스턴을 꺾고 헤비급 타이틀을 처음 차지했으며, 이슬람으로 개종해 캐시어스 클레이에서 이름을 바꾸었다.",
+  "muhammad-ali.life_arc.4":
+    "종교적 신념을 이유로 병역 입대를 거부해 타이틀과 복싱 라이선스를 박탈당하고, 훗날 무효화된 중죄 유죄판결을 받았다.",
+  "muhammad-ali.life_arc.5": "3년 반의 출전 정지에서 복귀해, 조지 포먼을 상대로 '로프어도프' 전략을 써서 헤비급 타이틀을 되찾았다.",
+  "muhammad-ali.life_arc.6": "사망했다.",
 
   /* -------------------------------------------------- Batch 3: M. Wollstonecraft */
   "mary-wollstonecraft.achievement.1":
@@ -2984,6 +3113,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이 지속적이고 스스로 부과한 학습 프로그램은 프로필의 몰입(deep_focus) 및 자기 규율(discipline) 점수를 뒷받침하는, 본인이 직접 서술한 구체적인 증거다.",
   "malcolm-x.interpretation.turning_point.1":
     "이는 이 데이터셋 안에서도 손꼽히게 폭넓게 스스로 기록된 입장 수정 성향(belief_updating)의 사례다 — 타인이 규정한 특징이 아니라, 직접적인 경험 이후 깊이 지녔던 공적 입장을 수정한 과정을 1인칭으로 서술한 기록이다.",
+  "malcolm-x.life_arc.1": "태어났다.",
+  "malcolm-x.life_arc.2": "수감되었으며, 이 시기 네이션 오브 이슬람으로 개종하고 사전을 손으로 옮겨 적는 등 치열한 독학을 이어갔다.",
+  "malcolm-x.life_arc.3": "민권 운동 시대의 가장 널리 알려진 공적 연설가 중 한 명으로 떠올랐다.",
+  "malcolm-x.life_arc.4":
+    "메카 순례 이후, 네이션 오브 이슬람의 분리주의 신학에서 벗어나 더 폭넓은 정통 이슬람과 범아프리카주의적 관점으로 공개적으로 입장을 바꾸었다.",
+  "malcolm-x.life_arc.5": "무슬림 모스크와 아프리카계 미국인 단결 기구를 새로 설립하며, 자신의 대중 조직 활동을 처음부터 다시 쌓아 올렸다.",
+  "malcolm-x.life_arc.6": "자택이 화염병 공격을 받고 구체적인 살해 협박을 받은 뒤에도 공개 활동을 이어가다가, 암살당했다.",
 
   /* --------------------------------------------------- Batch 5: Wilbur Wright */
   "wilbur-wright.achievement.1":
@@ -3002,6 +3138,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "확립된 권위자가 발표한 수치보다 직접 얻은 시험 결과를 신뢰하고, 이를 확인할 도구를 직접 만든 것은 프로필의 독립적 사고(independent_thinking) 및 자원 활용 성향(resourcefulness) 점수와 부합한다.",
   "wilbur-wright.interpretation.turning_point.1":
     "여러 해에 걸친 자발적인 비밀 유지를 언제 끝낼지 스스로 선택한 것은, 외부에 의해 공개로 떠밀린 것이 아니라는 점에서 프로필의 설득력(persuasiveness) 점수와 부합한다 — 성격의 변화가 아니라 전략적 결정이다.",
+  "wilbur-wright.life_arc.1": "태어났다.",
+  "wilbur-wright.life_arc.2":
+    "동생 오빌과 함께 키티호크에서 체계적인 연구를 진행했으며, 기존에 발표된 양력 데이터를 신뢰할 수 없다고 판단해 직접 풍동을 제작했다.",
+  "wilbur-wright.life_arc.3": "오빌과 함께 최초로 지속적이고 조종 가능한 동력 비행에 성공했다.",
+  "wilbur-wright.life_arc.4": "오빌과 함께 대중 공개보다 특허 보호를 우선시하며 공개 시연을 피했다.",
+  "wilbur-wright.life_arc.5": "프랑스에서 공개 시연 비행을 조직해, 회의적이던 관측자들을 직접 설득해냈다.",
+  "wilbur-wright.life_arc.6": "사망했다.",
 
   /* ---------------------------------------------- Batch 5: Nicolaus Copernicus */
   "nicolaus-copernicus.achievement.1":
@@ -3088,6 +3231,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이 사적 수정 기간이 존재했다는 사실 자체보다 그 길이가 프로필의 양면적인 완벽주의(perfectionism) 점수를 뒷받침한다 — 유명할 만큼 엄밀한 체계를 만들어낸 바로 그 기준이 그것을 십 년 넘게 지연시키기도 했다.",
   "immanuel-kant.interpretation.turning_point.1":
     "이 일화가 두드러지는 것은 바로 프로필의 나머지 부분이 묘사하는 대체로 신중한 패턴에서 벗어나기 때문이다 — 폭넓은 대립 성향의 증거가 아니라, 조심스러운 삶 안에서 감수한 하나의 신중한 위험이다.",
+  "immanuel-kant.life_arc.1": "쾨니히스베르크에서 태어났다.",
+  "immanuel-kant.life_arc.2": "쾨니히스베르크 대학의 논리학·형이상학 정교수로 임용되었다.",
+  "immanuel-kant.life_arc.3": "오랜 조용한 사색의 시간을 거쳐, 57세에 『순수이성비판』을 출간했다.",
+  "immanuel-kant.life_arc.4":
+    "『실천이성비판』과 『판단력비판』으로 자신의 비판철학 체계를 완성했으며, 정언명령을 모든 이성적 존재에 적용되는 보편적 의무의 기준으로 제시했다.",
+  "immanuel-kant.life_arc.5": "종교에 관한 저술로 프로이센 왕실 검열 당국의 공식 견책을 받아, 더 이상 종교 주제로 글을 쓰지 말라는 지시를 받았다.",
+  "immanuel-kant.life_arc.6": "쾨니히스베르크에서 사망했다.",
 
   /* ------------------------------------------------------ Batch 5: Octavia Butler */
   "octavia-butler.achievement.1":
@@ -3170,6 +3320,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "호퍼는 1966년 말 만 60세 정년으로 해군 예비역에서 퇴역했지만, 1967년 8월 해군 전역에 걸쳐 코볼을 표준화하는 작업을 돕기 위해 현역으로 다시 소집되었다. 1971년에 다시 퇴역했다가 이듬해 또다시 소집되었고, 이후로는 계속 복무하며 1986년 79세의 나이로 해군 준장으로 최종 퇴역했는데, 당시 미 해군에서 현역으로 복무 중인 최고령 장교였다.",
   "grace-hopper.interpretation.turning_point.1":
     "정년퇴임 이후 한 번이 아니라 두 번이나 현역으로 복귀했고, 결국 80세를 눈앞에 두고도 복무를 이어간 것은, 이 프로필이 단일한 성취보다 훨씬 위에 두는 숙련 지향(mastery_orientation)과 맞아떨어진다.",
+  "grace-hopper.life_arc.1": "태어났다.",
+  "grace-hopper.life_arc.2": "하버드 마크 II의 계전기에서 실제로 나방을 발견해 기록했으며, 이는 '버그'라는 용어가 널리 쓰이는 데 기여했다.",
+  "grace-hopper.life_arc.3": "레밍턴 랜드에서 팀을 이끌고 최초의 컴파일러로 널리 인정받는 A-0 시스템을 개발했다.",
+  "grace-hopper.life_arc.4": "퇴역과 현역 복귀를 반복했으며, 이 기간 해군 전체의 코볼 표준화 작업에도 참여했다.",
+  "grace-hopper.life_arc.5": "79세에 마지막으로 퇴역했으며, 당시 미 해군에서 가장 나이 많은 현역 장교이자 준장이었다.",
+  "grace-hopper.life_arc.6": "사망했다.",
 
   /* -------------------------------------------------------------- Batch 6: C. V. Raman */
   "cv-raman.achievement.1":
@@ -3192,6 +3348,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1791년 8월, 배네커는 당시 국무장관이던 토머스 제퍼슨에게 편지를 보내, 제퍼슨이 표방한 계몽주의 이상과 그가 사람들을 노예로 소유하고 있다는 사실 사이의 모순을 직접 지적하며, 흑인의 지적 능력을 보여주는 증거로 곧 출간될 자신의 역서 필사본을 동봉했다. 배네커의 편지와 함께 남아 있는 제퍼슨의 답장은 감사의 뜻을 전하며 그 역서를 프랑스의 콩도르세 후작에게 전달했다고 밝혔지만 — 이는 정중한 인정이었을 뿐, 제퍼슨 자신이 사람들을 노예로 소유하는 관행을 바꾸는 데까지 이어지지는 않았다.",
   "benjamin-banneker.interpretation.moment.1":
     "현직 각료에게 노예제에 대해 직접적이고 개인적으로 문제를 제기한 것은 1791년 메릴랜드의 자유 흑인에게는 실제적인 위험이었다 — 이 프로필의 위험 감수 점수가 여기서 실제로 근거하는 부분이며, 그 서신 교환이 어떻게 받아들여졌는지에 대한 어떤 주장은 아니다.",
+  "benjamin-banneker.life_arc.1": "태어났다.",
+  "benjamin-banneker.life_arc.2": "빌린 회중시계의 구조를 연구한 뒤, 독학으로 작동하는 나무 타종 시계를 만들었다.",
+  "benjamin-banneker.life_arc.3": "약 세 달간 앤드루 엘리콧의 측량팀을 도와 훗날 컬럼비아 특별구가 될 지역의 경계 측량에 참여했다.",
+  "benjamin-banneker.life_arc.4":
+    "토머스 제퍼슨에게 편지를 보내, 그가 내세운 계몽주의 이상과 노예 소유 사이의 모순을 직접 지적했다.",
+  "benjamin-banneker.life_arc.5": "자신의 천문 계산을 담은 연간 역서 시리즈를 발간하기 시작했다.",
+  "benjamin-banneker.life_arc.6": "사망했다.",
 
   /* ----------------------------------------------------------- Batch 6: Fela Kuti */
   "fela-kuti.achievement.1":
@@ -3204,6 +3367,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1977년 2월, 약 1,000명의 나이지리아 군인이 칼라쿠타 공화국을 습격해 불을 질렀다. 이 습격에서 쿠티의 어머니이자 활동가였던 펀밀레이오 랜섬쿠티는 창밖으로 내던져졌고, 이듬해 그 부상으로 세상을 떠났다. 쿠티는 어머니의 관을 라고스에 있는 군사정부 본부 정문까지 운구하는 것으로 대응했고, 이후 몇 해에 걸쳐 이 사건을 다룬 곡 「국가원수를 위한 관」을 발표했다 — 음악과 언사를 통한 정권 비판에서, 정권에 대한 직접적이고 개인적인 대결로 나아간 전환이었다.",
   "fela-kuti.interpretation.turning_point.1":
     "이는 국가 권력에 맞서는 방식이 실질적으로 격화되었음을 보여준다 — 음반과 가사에서 정부를 직접 겨냥한 물리적 행동으로 나아간 것으로, 이는 이 프로필의 갈등 감내 점수를 뒷받침하는 구체적인 증거이지, 그 근저의 정치적 갈등 자체에 대한 판단은 아니다.",
+  "fela-kuti.life_arc.1": "태어났다.",
+  "fela-kuti.life_arc.2": "요루바 음악과 재즈, 하이라이프, 펑크를 결합해 스스로 '아프로비트'라 부른 새로운 장르를 만들어냈다.",
+  "fela-kuti.life_arc.3": "자신의 라고스 거주지를 독립된 '칼라쿠타 공화국'으로 선포했다.",
+  "fela-kuti.life_arc.4": "나이지리아 군부를 직접 비판한 음반 《좀비》를 발표했다.",
+  "fela-kuti.life_arc.5": "군인들이 칼라쿠타 공화국을 급습해 불태웠고, 이때 입은 부상으로 그의 어머니가 세상을 떠났다.",
+  "fela-kuti.life_arc.6": "사망했다.",
 
   /* ------------------------------------------------- Batch 6: Toussaint Louverture */
   "toussaint-louverture.achievement.1":
@@ -3228,6 +3397,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1990년 3월, 나이지리아에서 일어난 교통사고로 아체베는 하반신이 마비되었다. 그는 치료를 위해 영국으로 이송되었고 이후 미국으로 거처를 옮겨 바드 칼리지 교수진에 합류했으며, 2013년 세상을 떠날 때까지 20년 넘게 에세이 집필과 강의, 공개 강연을 이어갔다.",
   "chinua-achebe.interpretation.turning_point.1":
     "사고 이후 다른 대륙에서, 영구적으로 달라진 신체적 조건 속에서 온전한 학문적·문학적 경력을 다시 쌓아 올린 것은, 이 프로필의 적응력 점수가 근거로 삼는 구체적인 종류의 증거다.",
+  "chinua-achebe.life_arc.1": "태어났다.",
+  "chinua-achebe.life_arc.2": "이보족 구술 서사를 영어 소설 형식에 녹여낸 『모든 것이 산산이 부서지다』를 출간했다.",
+  "chinua-achebe.life_arc.3": "나이지리아 내전 기간, 비아프라의 외교 특사로 활동했다.",
+  "chinua-achebe.life_arc.4": "콘래드의 『암흑의 핵심』을 반박하는 논쟁적인 글 '아프리카의 이미지'를 발표했다.",
+  "chinua-achebe.life_arc.5": "교통사고로 하반신이 마비되었으며, 이후 미국으로 이주해 바드 칼리지 교수진에 합류했다.",
+  "chinua-achebe.life_arc.6": "사고 이후에도 20년 넘게 강의와 집필을 이어가다가 사망했다.",
 
   /* ------------------------------------------- Batch 7 (exposure-priority): Alan Turing */
   /* CLOSURE PASS: achievements 1-2 deleted (unsupported by this person's roster rationale). moment.1 corrected to match the rationale's own quoted phrase and dropped an invented colleague count. Profile V2 pilot (2026-08): see the EN block's comment for what changed and why. */
