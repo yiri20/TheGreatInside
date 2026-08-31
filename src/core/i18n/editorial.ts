@@ -276,6 +276,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's conflict_tolerance score: a willingness to force a hard choice when the group's safety was at stake, not a general account of her temperament.",
   "harriet-tubman.interpretation.moment.2":
     "This helps explain the profile's very high proactive_agency score: creating an institutional opportunity for herself rather than waiting for one to be offered.",
+  "harriet-tubman.life_arc.1": "Born into slavery.",
+  "harriet-tubman.life_arc.2": "Escaped slavery alone, with no plan to return for anyone else.",
+  "harriet-tubman.life_arc.3":
+    "Returned to slave-holding territory roughly thirteen times, leading approximately seventy enslaved people to freedom via the Underground Railroad.",
+  "harriet-tubman.life_arc.4":
+    "Served as a Union Army scout and spy, then planned and led the Combahee Ferry Raid, freeing more than 700 enslaved people.",
+  "harriet-tubman.life_arc.5": "Remained active in the women's suffrage movement until illness overtook her.",
+  "harriet-tubman.life_arc.6": "Died.",
 
   /* ---------------------------------------------------------- Wu Zetian */
   "wu-zetian.achievement.1":
@@ -396,6 +404,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is one example of the profile's resourcefulness score: continuing his primary work under conditions specifically designed to prevent it.",
   "wole-soyinka.interpretation.turning_point.1":
     "This matches the profile's proactive_agency score: acting on his own initiative, entirely outside any official capacity, in a way that carried severe and immediate personal cost.",
+  "wole-soyinka.life_arc.1": "Born.",
+  "wole-soyinka.life_arc.2":
+    "Began writing plays in earnest while studying in England, staging his first works there.",
+  "wole-soyinka.life_arc.3": "Attempted, without official mandate, to broker a ceasefire in the early Nigerian Civil War.",
+  "wole-soyinka.life_arc.4":
+    "Imprisoned, much of it in solitary confinement; secretly wrote notes later published as The Man Died.",
+  "wole-soyinka.life_arc.5": "Became the first sub-Saharan African writer to win the Nobel Prize in Literature.",
+  "wole-soyinka.life_arc.6":
+    "Published his first novel in nearly fifty years, Chronicles from the Land of the Happiest People on Earth.",
 
   /* ----------------------------------------------------- E. Blackwell */
   "elizabeth-blackwell.achievement.1":
@@ -412,6 +429,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This offers a clear instance of the profile's autonomy_need score: building the institutional position that wasn't being offered to her, rather than continuing to seek an existing one.",
   "elizabeth-blackwell.interpretation.turning_point.1":
     "This fits the profile's adaptability score: redirecting toward a different form of medical practice after a career-ending setback in the one she had originally pursued, rather than leaving the field.",
+  "elizabeth-blackwell.life_arc.1": "Born.",
+  "elizabeth-blackwell.life_arc.2":
+    "Became the first woman to earn a medical degree in the United States, after rejection by around twenty-nine schools.",
+  "elizabeth-blackwell.life_arc.3":
+    "Lost sight in one eye to an infection during clinical training in Paris, ending her ambition to become a surgeon; redirected toward general practice and public health.",
+  "elizabeth-blackwell.life_arc.4":
+    "Founded her own dispensary, growing it into the New York Infirmary for Women and Children.",
+  "elizabeth-blackwell.life_arc.5": "Founded a Women's Medical College to train other women as physicians.",
+  "elizabeth-blackwell.life_arc.6": "Died.",
 
   /* -------------------------------------------------- Batch 2: Darwin */
   "charles-darwin.achievement.1":
@@ -557,6 +583,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The profile's risk_tolerance score is worth reading alongside the fuller context here: this was sustained public exposure to a professional attack campaign, carried out while she was also managing a serious personal medical circumstance she chose not to disclose — two separate kinds of strain held at once, not one explaining the other.",
   "rachel-carson.interpretation.turning_point.1":
     "This is about as clean a test of the profile's high conflict_tolerance score as the record offers: she chose to publish already knowing what would follow, which is a stronger claim than simply refusing to back down once criticism arrived unexpectedly.",
+  "rachel-carson.life_arc.1": "Born.",
+  "rachel-carson.life_arc.2": "Began her career as a scientist and writer at the U.S. Bureau of Fisheries.",
+  "rachel-carson.life_arc.3": "Published The Sea Around Us, her breakthrough work of popular nature writing.",
+  "rachel-carson.life_arc.4": "Published Silent Spring, a rigorously sourced case against pesticide overuse.",
+  "rachel-carson.life_arc.5":
+    "Testified before a U.S. Senate subcommittee, defending the book's findings against industry attacks.",
+  "rachel-carson.life_arc.6": "Died, having continued defending the book's findings until her death.",
 
   /* -------------------------------------------- Batch 2: Hildegard of Bingen */
   "hildegard-of-bingen.achievement.1":
@@ -663,6 +696,17 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This reads less as resignation to circumstance and more as the profile's resourcefulness score in a specific, well-documented form: locating an unconventional route to a goal — sustained scholarly life — that had no direct path open to her.",
   "sor-juana-ines-de-la-cruz.interpretation.turning_point.1":
     "Worth stating plainly rather than smoothing over: the profile's high persistence and conflict_tolerance scores describe how long she sustained her position, not that she prevailed in the end — the record includes a real defeat, not only a long resistance.",
+  "sor-juana-ines-de-la-cruz.life_arc.1": "Born.",
+  "sor-juana-ines-de-la-cruz.life_arc.2":
+    "Joined the viceregal court in Mexico City, where scholars examined and were impressed by her knowledge.",
+  "sor-juana-ines-de-la-cruz.life_arc.3":
+    "Entered convent life, a deliberate choice to secure time and autonomy for study rather than marriage.",
+  "sor-juana-ines-de-la-cruz.life_arc.4":
+    "Produced a body of poetry and drama regarded as among the most original writing of the Spanish Golden Age.",
+  "sor-juana-ines-de-la-cruz.life_arc.5":
+    "Wrote La Respuesta, systematically defending women's right to intellectual life.",
+  "sor-juana-ines-de-la-cruz.life_arc.6":
+    "Pressured by Church authorities to give up her library and writing; died not long after, in 1695.",
 
   /* -------------------------------------------- Batch 2: Emmy Noether */
   "emmy-noether.achievement.1":
@@ -800,6 +844,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "A narrower reading of the profile's adaptability score than his broader biography might suggest: revising one specific failing method, not a general flexibility.",
   "sequoyah.interpretation.turning_point.1":
     "The profile's opportunity_sensing score traces to this one observation, made well before any institutional Cherokee-literacy effort existed to prompt it.",
+  "sequoyah.life_arc.1": "Born.",
+  "sequoyah.life_arc.2":
+    "Began developing a writing system for the Cherokee language, working through skepticism and accusations of witchcraft from his own community.",
+  "sequoyah.life_arc.3": "Completed the 85-character Cherokee syllabary after about twelve years of work.",
+  "sequoyah.life_arc.4": "The Cherokee Nation officially adopted the syllabary.",
+  "sequoyah.life_arc.5": "Traveled to Mexico in search of Cherokee communities that had relocated there.",
+  "sequoyah.life_arc.6": "Last reliably documented in Mexico; the exact date and site of his death were never confirmed.",
 
   /* -------------------------------------------------- Batch 3: Sojourner Truth */
   "sojourner-truth.achievement.1":
@@ -818,6 +869,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Choosing a new name is one thing; the profile's independent_thinking score is picking up on how explicitly she framed it as her own chosen mission rather than an inherited one.",
   "sojourner-truth.interpretation.turning_point.1":
     "The profile's decisiveness score is anchored in this one dated choice not to wait for the law to catch up, separate from the more familiar public career that followed.",
+  "sojourner-truth.life_arc.1": "Born into slavery in New York.",
+  "sojourner-truth.life_arc.2":
+    "Walked away from her enslaver to freedom with her infant daughter, rather than wait for New York's emancipation law to take effect.",
+  "sojourner-truth.life_arc.3": "Sued in court to recover her illegally sold son, and won.",
+  "sojourner-truth.life_arc.4": "Renamed herself Sojourner Truth, framing it as a chosen spiritual and political mission.",
+  "sojourner-truth.life_arc.5": "Became a nationally sought-after speaker across the abolitionist and suffrage circuits.",
+  "sojourner-truth.life_arc.6": "Died, having continued touring and speaking into her 80s.",
 
   /* -------------------------------------------------- Batch 3: B. R. Ambedkar */
   "br-ambedkar.achievement.1":
@@ -836,6 +894,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The profile's conflict_tolerance score describes a repeated strategy across specific, named incidents here, not a single isolated act of defiance.",
   "br-ambedkar.interpretation.turning_point.1":
     "Disagreeing with Gandhi's own stature carries more evidentiary weight for the profile's independent_thinking score than a lower-stakes dispute would.",
+  "br-ambedkar.life_arc.1": "Born into a caste facing severe educational discrimination.",
+  "br-ambedkar.life_arc.2": "Earned doctoral degrees at Columbia University and the London School of Economics.",
+  "br-ambedkar.life_arc.3":
+    "Led the Mahad Satyagraha for public water access, and later burned the Manusmriti in protest.",
+  "br-ambedkar.life_arc.4":
+    "Broke publicly with Gandhi over separate electorates for Dalits, negotiating the Poona Pact instead.",
+  "br-ambedkar.life_arc.5":
+    "Chaired the committee that drafted India's constitution, building its framework for fundamental rights and federal structure.",
+  "br-ambedkar.life_arc.6": "Converted to Buddhism in protest of caste discrimination; died weeks later.",
 
   /* -------------------------------------------------- Batch 3: K. Johnson */
   "katherine-johnson.achievement.1":
@@ -1213,6 +1280,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is a distinctive form of persuasive influence in the profile — not direct instruction or public rhetoric, but guiding others toward conclusions they arrive at themselves, consistent with the profile's persuasiveness score.",
   "niels-bohr.interpretation.turning_point.1":
     "This shift, from wartime contributor to postwar advocate for openness, is consistent with the profile's impact_motivation score, and echoes the same willingness to argue an unpopular position directly to power already visible in his decades-long public debates with Einstein over quantum theory.",
+  "niels-bohr.life_arc.1": "Born.",
+  "niels-bohr.life_arc.2": "Proposed the Bohr model of the atom, later recognized with the 1922 Nobel Prize in Physics.",
+  "niels-bohr.life_arc.3":
+    "Founded the Institute for Theoretical Physics in Copenhagen, drawing physicists such as Heisenberg and Pauli for extended visits.",
+  "niels-bohr.life_arc.4":
+    "Fled Nazi-occupied Denmark for Sweden, then Britain and the United States, where he joined the Manhattan Project.",
+  "niels-bohr.life_arc.5":
+    "Sent Churchill and Roosevelt a memorandum warning against an unrestrained postwar nuclear arms race.",
+  "niels-bohr.life_arc.6": "Died.",
 
   /* -------------------------------------------------- Batch 5: Immanuel Kant */
   "immanuel-kant.achievement.1":
@@ -1291,6 +1367,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Fieldwork like this is a distinct form of curiosity from purely theoretical inquiry — evidence gathered by going and looking, not only by reasoning from first principles.",
   "aristotle.interpretation.turning_point.1":
     "Leaving a position of established authority rather than contest a politically charged charge is a different kind of risk calculus than the direct confrontations more common elsewhere in this profile — the same risk tolerance showing up as strategic withdrawal rather than defiance.",
+  "aristotle.life_arc.1": "Born.",
+  "aristotle.life_arc.2": "Joined Plato's Academy in Athens, remaining for about twenty years.",
+  "aristotle.life_arc.3":
+    "Invited by Philip II of Macedon to tutor his son, the future Alexander the Great, according to ancient biographical tradition written centuries later.",
+  "aristotle.life_arc.4": "Founded his own school, the Lyceum, in Athens.",
+  "aristotle.life_arc.5":
+    "Charged with impiety amid anti-Macedonian sentiment after Alexander's death; left Athens for Chalcis, where he died the same year.",
 
   /* ------------------------------------------------------- Batch 6: Simón Bolívar */
   "simon-bolivar.achievement.1":
@@ -1307,6 +1390,17 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The available record documents the outcome, not the disagreement itself, so this reading stays interpretive rather than settled — but it fits a wider pattern in the profile of real, working alliances that also carried real friction, not uncomplicated partnership.",
   "simon-bolivar.interpretation.turning_point.1":
     "How to read Bolívar's motives in this later period is genuinely contested ground — the same person who once proposed a confederation beyond his own rule also concentrated power in his own hands when that project came under strain, which is why this profile keeps his impact motivation score toward the middle rather than the extreme.",
+  "simon-bolivar.life_arc.1": "Born.",
+  "simon-bolivar.life_arc.2":
+    "Led military campaigns ending Spanish colonial rule across six future nations; served as President of Gran Colombia.",
+  "simon-bolivar.life_arc.3":
+    "Wrote the \"Letter from Jamaica\" from exile, laying out his vision for independent governance.",
+  "simon-bolivar.life_arc.4":
+    "Led his army across the Andes in a surprise campaign, winning the decisive Battle of Boyacá.",
+  "simon-bolivar.life_arc.5":
+    "Assumed dictatorial powers in an attempt to hold the fracturing Gran Colombia together; survived an assassination attempt.",
+  "simon-bolivar.life_arc.6":
+    "Resigned the presidency as Venezuela moved toward separation; died of tuberculosis in Santa Marta.",
 
   /* --------------------------------------------------------- Batch 6: Grace Hopper */
   "grace-hopper.achievement.1":
@@ -1390,6 +1484,16 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In June 1802, acting on orders from French expedition commander Charles Leclerc — dispatched by Napoleon Bonaparte to restore French control over the colony — General Jean-Baptiste Brunet lured Louverture into a meeting under false pretenses and had him arrested. He was deported to France and imprisoned at Fort de Joux in the Jura mountains, where he died in April 1803 — nine months before his former lieutenants declared Haiti's independence in January 1804.",
   "toussaint-louverture.interpretation.moment.1":
     "Reversing an existing alliance on the strength of one's own read of which side would better serve the actual goal, rather than loyalty to whichever side one started with, is the kind of evidence this profile's independent thinking score draws on.",
+  "toussaint-louverture.life_arc.1": "Born into slavery.",
+  "toussaint-louverture.life_arc.2": "Joined the uprising that became the Haitian Revolution.",
+  "toussaint-louverture.life_arc.3":
+    "Switched his forces' allegiance from Spain to France after France abolished slavery in its territories.",
+  "toussaint-louverture.life_arc.4":
+    "Rose to Commander-in-Chief and Governor-General of Saint-Domingue, building a disciplined army from formerly enslaved people.",
+  "toussaint-louverture.life_arc.5":
+    "Promulgated a constitution permanently abolishing slavery, while naming himself governor-for-life.",
+  "toussaint-louverture.life_arc.6":
+    "Arrested by French forces and deported to France; died imprisoned at Fort de Joux in April 1803.",
 
   /* ----------------------------------------------------------- Batch 6: Chinua Achebe */
   "chinua-achebe.achievement.1":
@@ -2325,6 +2429,14 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 갈등 감내(conflict_tolerance) 점수와 일치하는 대목이다 — 이는 그의 전반적인 성격에 대한 일반적 서술이 아니라, 집단의 안전이 걸린 순간 어려운 선택을 강행할 수 있었다는 뜻이다.",
   "harriet-tubman.interpretation.moment.2":
     "프로필의 매우 높은 선제적 행동력(proactive_agency) 점수를 이해하는 데 도움이 되는 대목이다 — 기회가 주어지기를 기다리는 대신, 스스로 제도적 기회를 만들어낸 것이다.",
+  "harriet-tubman.life_arc.1": "노예 신분으로 태어났다.",
+  "harriet-tubman.life_arc.2": "홀로 노예 상태에서 탈출했으며, 당시에는 다른 누군가를 데리러 돌아갈 계획이 없었다.",
+  "harriet-tubman.life_arc.3":
+    "약 열세 차례에 걸쳐 노예제가 시행되던 지역으로 돌아가, 지하철도를 통해 약 일흔 명의 노예를 자유의 몸으로 이끌었다.",
+  "harriet-tubman.life_arc.4":
+    "북군의 정찰병이자 첩보원으로 활동했으며, 이후 컴바히강 습격 작전을 계획하고 이끌어 700명이 넘는 노예를 해방시켰다.",
+  "harriet-tubman.life_arc.5": "병으로 활동이 어려워질 때까지 여성 참정권 운동에 계속 참여했다.",
+  "harriet-tubman.life_arc.6": "사망했다.",
 
   /* ---------------------------------------------------------- Wu Zetian */
   "wu-zetian.achievement.1":
@@ -2444,6 +2556,14 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 자원 활용 성향(resourcefulness) 점수를 보여주는 한 사례다 — 바로 그것을 막기 위해 설계된 조건 속에서도 자신의 본업을 이어간 것이다.",
   "wole-soyinka.interpretation.turning_point.1":
     "프로필의 선제적 행동력(proactive_agency) 점수와 맞아떨어지는 대목이다 — 어떤 공식적 지위도 없이 순전히 자신의 판단으로 행동했고, 그로 인해 즉각적이고 심각한 개인적 대가를 치렀다.",
+  "wole-soyinka.life_arc.1": "태어났다.",
+  "wole-soyinka.life_arc.2": "영국 유학 중 본격적으로 희곡을 쓰기 시작했으며, 그곳에서 초기 작품들을 무대에 올렸다.",
+  "wole-soyinka.life_arc.3": "공식적인 위임 없이 나이지리아 내전 초기에 휴전을 중재하려 시도했다.",
+  "wole-soyinka.life_arc.4":
+    "대부분 독방에 갇힌 채로 투옥되었으며, 그 기간 몰래 쓴 기록이 훗날 『그 남자는 죽었다』로 출간되었다.",
+  "wole-soyinka.life_arc.5": "사하라 이남 아프리카 출신 작가로는 최초로 노벨 문학상을 수상했다.",
+  "wole-soyinka.life_arc.6":
+    "거의 50년 만에 첫 장편소설인 『지구에서 가장 행복한 사람들의 나라 연대기』를 발표했다.",
 
   /* ----------------------------------------------------- E. Blackwell */
   "elizabeth-blackwell.achievement.1":
@@ -2460,6 +2580,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 자율성 욕구(autonomy_need) 점수를 뚜렷이 보여주는 대목이다 — 주어지지 않는 자리를 계속 구하는 대신, 스스로 그 자리를 만들어낸 것이다.",
   "elizabeth-blackwell.interpretation.turning_point.1":
     "프로필의 적응력(adaptability) 점수와 맞아떨어지는 대목이다 — 원래 추구하던 진료 형태가 경력을 가로막는 좌절을 겪은 뒤, 그 분야를 아예 떠나는 대신 다른 형태의 의료 활동으로 방향을 돌린 것이다.",
+  "elizabeth-blackwell.life_arc.1": "태어났다.",
+  "elizabeth-blackwell.life_arc.2": "약 스물아홉 개 의과대학에서 거절당한 끝에, 미국에서 의학 학위를 받은 최초의 여성이 되었다.",
+  "elizabeth-blackwell.life_arc.3":
+    "파리에서 임상 훈련을 받던 중 감염으로 한쪽 눈의 시력을 잃어 외과의사가 되려던 꿈을 접었고, 일반 진료와 공중보건 쪽으로 방향을 돌렸다.",
+  "elizabeth-blackwell.life_arc.4": "자신의 진료소를 세웠으며, 이는 훗날 뉴욕 여성·아동 진료소로 성장했다.",
+  "elizabeth-blackwell.life_arc.5": "여성 의사를 양성하기 위한 여성 의과대학을 설립했다.",
+  "elizabeth-blackwell.life_arc.6": "사망했다.",
 
   /* -------------------------------------------------- Batch 2: Darwin */
   "charles-darwin.achievement.1":
@@ -2593,6 +2720,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "여기서는 프로필의 위험 감수(risk_tolerance) 점수를 더 넓은 맥락과 함께 읽을 필요가 있다 — 이는 공개적으로 알리지 않기로 한 심각한 개인적 건강 문제를 관리하면서 동시에 겪어낸, 업계의 공개적 공격 캠페인에 대한 지속적 노출이었다 — 서로 다른 종류의 두 가지 부담이 동시에 있었던 것이지, 하나가 다른 하나를 설명해 주는 것은 아니다.",
   "rachel-carson.interpretation.turning_point.1":
     "프로필의 높은 갈등 감내(conflict_tolerance) 점수를 확인할 수 있는 가장 분명한 대목이다 — 예상 밖의 비판이 닥친 뒤에야 물러서지 않은 것이 아니라, 무슨 일이 뒤따를지 미리 알면서도 출간을 선택했다는 점에서 더 강한 근거가 된다.",
+  "rachel-carson.life_arc.1": "태어났다.",
+  "rachel-carson.life_arc.2": "미국 어업국에서 과학자이자 작가로서 경력을 시작했다.",
+  "rachel-carson.life_arc.3": "대중적인 자연 저술의 대표작인 『우리를 둘러싼 바다』를 출간했다.",
+  "rachel-carson.life_arc.4": "살충제 남용에 맞선 치밀한 논증을 담은 『침묵의 봄』을 출간했다.",
+  "rachel-carson.life_arc.5": "미국 상원 소위원회에 출석해, 업계의 공격에 맞서 책의 내용을 옹호했다.",
+  "rachel-carson.life_arc.6": "사망할 때까지 책의 주장을 계속 옹호한 뒤 세상을 떠났다.",
 
   /* -------------------------------------------- Batch 2: Hildegard of Bingen */
   "hildegard-of-bingen.achievement.1":
@@ -2691,6 +2824,15 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 상황에 대한 체념이라기보다 프로필의 자원 활용 성향(resourcefulness) 점수가 구체적이고 잘 기록된 형태로 드러난 사례에 더 가깝게 읽힌다 — 직접 열려 있지 않았던 목표, 곧 지속적인 학문적 삶에 이르는 우회로를 스스로 찾아낸 것이다.",
   "sor-juana-ines-de-la-cruz.interpretation.turning_point.1":
     "이 부분은 얼버무리기보다 있는 그대로 말할 가치가 있다 — 프로필의 높은 끈기(persistence)와 갈등 감내(conflict_tolerance) 점수는 그가 자신의 입장을 얼마나 오래 지켜냈는지를 보여줄 뿐, 결국 뜻을 관철했다는 것을 보여주지는 않는다 — 이 기록에는 오랜 저항뿐 아니라 실제 패배도 함께 담겨 있다.",
+  "sor-juana-ines-de-la-cruz.life_arc.1": "태어났다.",
+  "sor-juana-ines-de-la-cruz.life_arc.2": "멕시코시티의 부왕궁에 들어갔으며, 그곳 학자들이 그의 학식에 감탄했다.",
+  "sor-juana-ines-de-la-cruz.life_arc.3": "결혼 대신 학문에 전념할 시간과 자율성을 확보하기 위해 수녀원 생활을 선택했다.",
+  "sor-juana-ines-de-la-cruz.life_arc.4":
+    "스페인 황금세기 문학 중에서도 가장 독창적인 작품으로 평가받는 시와 희곡을 다수 남겼다.",
+  "sor-juana-ines-de-la-cruz.life_arc.5":
+    "여성의 지적 삶에 대한 권리를 체계적으로 옹호한 『소르 필로테아에게 보내는 답신』을 썼다.",
+  "sor-juana-ines-de-la-cruz.life_arc.6":
+    "교회 당국의 압박으로 서재와 집필을 포기했으며, 그로부터 오래지 않은 1695년 세상을 떠났다.",
 
   /* -------------------------------------------- Batch 2: Emmy Noether */
   "emmy-noether.achievement.1":
@@ -2826,6 +2968,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 그의 전체 생애에서 짐작할 수 있는 것보다 더 좁은 의미에서의 프로필의 적응력(adaptability) 점수를 보여준다 — 일반적인 유연함이 아니라, 실패로 드러난 특정 방법 하나를 스스로 수정한 사례다.",
   "sequoyah.interpretation.turning_point.1":
     "프로필의 기회 감지(opportunity_sensing) 점수는 바로 이 한 번의 관찰에서 비롯되며, 이는 체로키어를 위한 그 어떤 제도적 노력도 존재하기 전에 이루어진 것이다.",
+  "sequoyah.life_arc.1": "태어났다.",
+  "sequoyah.life_arc.2": "체로키어를 위한 문자 체계를 개발하기 시작했으며, 자신이 속한 공동체의 회의적인 시선과 주술 혐의를 견뎌내며 작업을 이어갔다.",
+  "sequoyah.life_arc.3": "약 12년에 걸친 작업 끝에 85개 글자로 이루어진 체로키 음절문자를 완성했다.",
+  "sequoyah.life_arc.4": "체로키 네이션이 이 음절문자를 공식 문자로 채택했다.",
+  "sequoyah.life_arc.5": "그곳으로 이주한 체로키 공동체를 찾아 멕시코로 떠났다.",
+  "sequoyah.life_arc.6": "멕시코에서 마지막으로 확실하게 기록된 뒤, 그의 정확한 사망 날짜와 장소는 끝내 확인되지 않았다.",
 
   /* -------------------------------------------------- Batch 3: Sojourner Truth */
   "sojourner-truth.achievement.1":
@@ -2844,6 +2992,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "새 이름을 선택하는 것과, 그것을 물려받은 것이 아니라 스스로 선택한 사명으로 명시적으로 규정한 것은 별개의 일이다 — 프로필의 독립적 사고(independent_thinking) 점수는 후자를 포착하고 있다.",
   "sojourner-truth.interpretation.turning_point.1":
     "프로필의 결단력(decisiveness) 점수는 이후 더 잘 알려진 공적 활동과는 별개로, 법이 따라잡기를 기다리지 않기로 한 이 하나의, 날짜가 분명한 선택에 근거를 두고 있다.",
+  "sojourner-truth.life_arc.1": "뉴욕에서 노예 신분으로 태어났다.",
+  "sojourner-truth.life_arc.2":
+    "뉴욕주의 노예해방법이 발효되기를 기다리지 않고, 갓난 딸을 데리고 노예 신분에서 벗어나 걸어 나왔다.",
+  "sojourner-truth.life_arc.3": "불법으로 팔려간 아들을 되찾기 위해 소송을 제기해 승소했다.",
+  "sojourner-truth.life_arc.4": "이자벨라 바움프리에서 소저너 트루스로 이름을 바꾸었으며, 이를 스스로 택한 영적·정치적 소명으로 규정했다.",
+  "sojourner-truth.life_arc.5": "노예제 폐지 운동과 여성 참정권 운동에서 전국적으로 명성 높은 연설가가 되었다.",
+  "sojourner-truth.life_arc.6": "80대에도 순회 강연을 이어가다가 세상을 떠났다.",
 
   /* -------------------------------------------------- Batch 3: B. R. Ambedkar */
   "br-ambedkar.achievement.1":
@@ -2862,6 +3017,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 갈등 감내(conflict_tolerance) 점수는 여기서 단발적인 저항 행위 하나가 아니라, 구체적으로 특정할 수 있는 여러 사건에 걸쳐 반복된 전략을 나타낸다.",
   "br-ambedkar.interpretation.turning_point.1":
     "간디만큼의 위상을 지닌 인물과 대립하는 것은 그보다 낮은 위험 부담의 이견보다 프로필의 독립적 사고(independent_thinking) 점수에 더 무거운 증거가 된다.",
+  "br-ambedkar.life_arc.1": "심각한 교육 차별을 겪던 카스트에서 태어났다.",
+  "br-ambedkar.life_arc.2": "컬럼비아 대학교와 런던정치경제대학교에서 박사 학위를 받았다.",
+  "br-ambedkar.life_arc.3": "식수 접근권을 위한 마하드 사티아그라하를 이끌었고, 이후 마누법전을 불태우는 항의 행동을 벌였다.",
+  "br-ambedkar.life_arc.4": "달리트를 위한 분리 선거구 문제를 두고 간디와 공개적으로 결별했으며, 대신 푸나 협약을 이끌어냈다.",
+  "br-ambedkar.life_arc.5":
+    "인도 헌법 초안을 작성한 위원회의 의장을 맡아, 기본권과 연방 체제의 틀을 세웠다.",
+  "br-ambedkar.life_arc.6": "카스트 차별에 항의해 불교로 개종했으며, 몇 주 뒤 세상을 떠났다.",
 
   /* -------------------------------------------------- Batch 3: K. Johnson */
   "katherine-johnson.achievement.1":
@@ -3215,6 +3377,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 프로필에서 독특한 형태의 설득력이다 — 직접적인 지시나 공개적인 수사가 아니라, 상대가 스스로 결론에 이르도록 이끄는 방식으로, 프로필의 설득력(persuasiveness) 점수와 부합한다.",
   "niels-bohr.interpretation.turning_point.1":
     "전시의 참여자에서 전후 개방을 주장하는 옹호자로의 이러한 전환은 프로필의 영향 창출 동기(impact_motivation) 점수와 부합하며, 아인슈타인과 수십 년간 이어간 양자론에 관한 공개 논쟁에서 이미 드러난, 권력을 향해 인기 없는 입장을 직접 주장하는 동일한 태도를 반영한다.",
+  "niels-bohr.life_arc.1": "태어났다.",
+  "niels-bohr.life_arc.2": "원자의 보어 모형을 제시했으며, 이는 훗날 1922년 노벨 물리학상으로 인정받았다.",
+  "niels-bohr.life_arc.3":
+    "코펜하겐에 이론물리학연구소를 설립해, 하이젠베르크와 파울리 같은 물리학자들이 장기간 머물며 연구하도록 이끌었다.",
+  "niels-bohr.life_arc.4": "나치 점령하의 덴마크를 떠나 스웨덴을 거쳐 영국과 미국으로 갔으며, 그곳에서 맨해튼 프로젝트에 참여했다.",
+  "niels-bohr.life_arc.5": "처칠과 루스벨트에게 각서를 보내, 통제되지 않는 전후 핵무기 경쟁의 위험을 경고했다.",
+  "niels-bohr.life_arc.6": "사망했다.",
 
   /* -------------------------------------------------- Batch 5: Immanuel Kant */
   "immanuel-kant.achievement.1":
@@ -3292,6 +3461,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이런 종류의 현장 조사는 순전히 이론적인 탐구와는 다른 형태의 호기심이다 — 첫 원리로부터의 추론만이 아니라, 직접 가서 관찰함으로써 얻은 증거다.",
   "aristotle.interpretation.turning_point.1":
     "정치적으로 민감한 고발에 맞서 다투는 대신 이미 확립된 지위를 떠나는 것은, 이 프로필의 다른 곳에서 더 흔히 나타나는 직접적인 대립과는 다른 종류의 위험 계산이다 — 동일한 위험 감수 성향이 저항이 아니라 전략적 물러남으로 나타난 경우다.",
+  "aristotle.life_arc.1": "태어났다.",
+  "aristotle.life_arc.2": "아테네의 플라톤 아카데미에 들어가 약 20년간 머물렀다.",
+  "aristotle.life_arc.3":
+    "마케도니아의 필리포스 2세로부터 아들이자 훗날 알렉산드로스 대왕이 되는 인물의 스승으로 초빙되었다고, 수백 년 뒤에 기록된 고대 전기 전승은 전한다.",
+  "aristotle.life_arc.4": "아테네에 자신의 학교인 리케이온을 설립했다.",
+  "aristotle.life_arc.5":
+    "알렉산드로스 사후 반마케도니아 정서가 고조되는 가운데 불경죄로 고발되었고, 아테네를 떠나 칼키스로 갔으며, 같은 해 그곳에서 사망했다.",
 
   /* ------------------------------------------------------- Batch 6: Simón Bolívar */
   "simon-bolivar.achievement.1":
@@ -3308,6 +3484,14 @@ export const EDITORIAL_KO: Record<string, string> = {
     "남아 있는 기록은 그 결과만을 보여줄 뿐 불화 자체를 보여주지는 않으므로, 이 해석은 확정된 사실이라기보다 여전히 해석적인 읽기로 남는다 — 다만 이는 이 프로필 전반에서 나타나는, 실질적인 마찰을 동반하면서도 실제로 작동했던 연대라는 더 넓은 패턴과 맞아떨어진다. 단순하고 매끄러운 협력이 아니라는 점에서다.",
   "simon-bolivar.interpretation.turning_point.1":
     "이 후기의 볼리바르를 어떻게 읽어야 할지는 실제로 논쟁의 여지가 있는 영역이다 — 한때 자기 자신의 통치를 넘어선 연합을 제안했던 바로 그 인물이, 그 구상이 흔들리자 스스로의 손에 권력을 집중시키기도 했다 — 이 프로필이 그의 영향 창출 동기 점수를 극단이 아니라 중간 쪽에 두는 이유가 여기에 있다.",
+  "simon-bolivar.life_arc.1": "태어났다.",
+  "simon-bolivar.life_arc.2":
+    "군사 원정을 이끌어 훗날 여섯 개 나라가 되는 지역에서 스페인 식민 지배를 끝냈으며, 그란콜롬비아의 대통령을 지냈다.",
+  "simon-bolivar.life_arc.3": "망명 중 '자메이카에서 보낸 편지'를 써서, 독립된 통치에 대한 자신의 구상을 밝혔다.",
+  "simon-bolivar.life_arc.4": "군대를 이끌고 안데스산맥을 넘는 기습 작전을 감행해, 결정적인 보야카 전투에서 승리했다.",
+  "simon-bolivar.life_arc.5": "분열되어 가던 그란콜롬비아를 지키기 위해 독재적 권한을 장악했으며, 암살 시도에서 살아남았다.",
+  "simon-bolivar.life_arc.6":
+    "베네수엘라가 분리 독립으로 향하는 가운데 대통령직에서 물러났으며, 산타마르타에서 결핵으로 사망했다.",
 
   /* --------------------------------------------------------- Batch 6: Grace Hopper */
   "grace-hopper.achievement.1":
@@ -3385,6 +3569,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1802년 6월, 나폴레옹 보나파르트가 식민지에 대한 프랑스의 지배를 회복하기 위해 파견한 원정군 사령관 샤를 르클레르의 명령에 따라, 프랑스 장군 장바티스트 브뤼네는 거짓 구실로 루베르튀르를 회담으로 유인해 체포했다. 그는 프랑스로 압송되어 쥐라산맥의 주 드 조 요새에 수감되었고, 1803년 4월 그곳에서 세상을 떠났다 — 그의 옛 부관들이 1804년 1월 아이티의 독립을 선언하기 아홉 달 전이었다.",
   "toussaint-louverture.interpretation.moment.1":
     "처음 함께했던 쪽에 대한 충성이 아니라, 어느 쪽이 실제 목표를 더 잘 지켜낼지에 대한 자신의 판단에 근거해 기존 동맹을 뒤집은 것은, 이 프로필의 독립적 사고 점수가 근거로 삼는 종류의 증거다.",
+  "toussaint-louverture.life_arc.1": "노예 신분으로 태어났다.",
+  "toussaint-louverture.life_arc.2": "훗날 아이티 혁명이 되는 봉기에 가담했다.",
+  "toussaint-louverture.life_arc.3": "프랑스가 자국 영토에서 노예제를 폐지하자, 자신의 군대를 스페인에서 프랑스 편으로 돌렸다.",
+  "toussaint-louverture.life_arc.4":
+    "생도맹그의 총사령관 겸 총독으로 올라서며, 해방된 노예들로 이루어진 규율 잡힌 군대를 만들어냈다.",
+  "toussaint-louverture.life_arc.5": "노예제를 영구히 폐지하는 헌법을 공포하는 한편, 스스로를 종신 총독으로 임명했다.",
+  "toussaint-louverture.life_arc.6": "프랑스군에 체포되어 프랑스로 압송되었으며, 1803년 4월 주 드 조 요새에 수감된 채 사망했다.",
 
   /* ----------------------------------------------------------- Batch 6: Chinua Achebe */
   "chinua-achebe.achievement.1":

@@ -547,6 +547,32 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     turningPoints: [
       { id: "harriet-tubman-turning-point-1", textKey: "harriet-tubman.turning_point.1", sourceIds: ["src_tubman_bradford", "src_tubman_wikipedia"] },
     ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats. Birth year is genuinely
+    // uncertain -- verified directly against src_tubman_wikipedia (live
+    // fetch): "neither the exact year nor place of Tubman's birth is
+    // known," with sources variously giving 1815/1820/1822/1825; the
+    // roster's existing birthYear (1822) already matches the modern
+    // scholarly consensus (Kate Larson, 2004), so NOT changed -- only
+    // hedged with "c." in the beat itself, per the person-specific
+    // instruction not to "correct" an already-defensible approximate year.
+    // Her later women's-suffrage activity (life_arc.5) was not preserved
+    // anywhere in this profile -- P2, verified against the same source
+    // ("active in the women's suffrage movement until illness overtook
+    // her"), but that source gives no specific years, so a relative label
+    // is used rather than invented precision. life_arc.1 deliberately omits
+    // a birthplace ("Maryland") since it was not verified this session and
+    // the minimal-evidence principle doesn't require it for orientation.
+    // achievement.1's own "roughly"/"approximately" hedges on trip/rescue
+    // counts are preserved exactly in life_arc.3, not tightened into exact
+    // statistics.
+    lifeArc: [
+      { year: "c. 1822", textKey: "harriet-tubman.life_arc.1", sourceIds: ["src_tubman_wikipedia"] },
+      { year: "1849", textKey: "harriet-tubman.life_arc.2", sourceIds: ["src_tubman_bradford", "src_tubman_wikipedia"] },
+      { year: "1850–1860", textKey: "harriet-tubman.life_arc.3", sourceIds: ["src_tubman_bradford", "src_tubman_wikipedia"] },
+      { year: "1863", textKey: "harriet-tubman.life_arc.4", sourceIds: ["src_tubman_wikipedia"] },
+      { year: "Later years", textKey: "harriet-tubman.life_arc.5", sourceIds: ["src_tubman_wikipedia"] },
+      { year: "1913", textKey: "harriet-tubman.life_arc.6", sourceIds: ["src_tubman_wikipedia"] },
+    ],
   },
 
   "wu-zetian": {
@@ -754,6 +780,29 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_soyinka_memoir", "src_soyinka_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats. His early-career start
+    // (1957, writing plays while studying at Leeds) and his most recent
+    // well-documented milestone were not preserved -- P2, verified
+    // directly against src_soyinka_wikipedia (live fetch): began "writing
+    // plays in earnest around 1957" at Leeds ("The Swamp Dwellers," "The
+    // Lion and the Jewel"); most recently, published "Chronicles from the
+    // Land of the Happiest People on Earth" in September 2021, his first
+    // novel in nearly 50 years. Per the person-specific instruction (living
+    // subject, final beat must be a concrete recent milestone, not
+    // "Present"), life_arc.6 uses that 2021 novel rather than a placeholder
+    // -- a 2024 institutional honor (a theatre renamed for him) was also
+    // found and considered, but the novel was preferred as his own
+    // documented output rather than an honor bestowed on him. Nobel
+    // recognition (life_arc.5) is placed as one milestone among six, not
+    // the profile's opening or closing beat.
+    lifeArc: [
+      { year: "1934", textKey: "wole-soyinka.life_arc.1", sourceIds: ["src_soyinka_wikipedia"] },
+      { year: "1957", textKey: "wole-soyinka.life_arc.2", sourceIds: ["src_soyinka_wikipedia"] },
+      { year: "1967", textKey: "wole-soyinka.life_arc.3", sourceIds: ["src_soyinka_memoir", "src_soyinka_wikipedia"] },
+      { year: "1967–1969", textKey: "wole-soyinka.life_arc.4", sourceIds: ["src_soyinka_memoir"] },
+      { year: "1986", textKey: "wole-soyinka.life_arc.5", sourceIds: ["src_soyinka_nobel"] },
+      { year: "2021", textKey: "wole-soyinka.life_arc.6", sourceIds: ["src_soyinka_wikipedia"] },
+    ],
   },
 
   "elizabeth-blackwell": {
@@ -779,6 +828,20 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "adaptability",
         sourceIds: ["src_blackwell_nlm"],
       },
+    ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats, entirely P1 -- every
+    // beat reuses a fact already stated in achievements/moments/
+    // turning_point.1 above. achievement.1 already correctly scopes the
+    // "first woman doctor" claim to "the first woman to earn a medical
+    // degree in the United States," per the person-specific instruction;
+    // life_arc.2 reuses that exact scoping rather than a broader claim.
+    lifeArc: [
+      { year: "1821", textKey: "elizabeth-blackwell.life_arc.1", sourceIds: ["src_blackwell_nlm"] },
+      { year: "1849", textKey: "elizabeth-blackwell.life_arc.2", sourceIds: ["src_blackwell_nlm"] },
+      { year: "Following her degree", textKey: "elizabeth-blackwell.life_arc.3", sourceIds: ["src_blackwell_nlm"] },
+      { year: "1853–1857", textKey: "elizabeth-blackwell.life_arc.4", sourceIds: ["src_blackwell_nps"] },
+      { year: "Later career", textKey: "elizabeth-blackwell.life_arc.5", sourceIds: ["src_blackwell_nps"] },
+      { year: "1910", textKey: "elizabeth-blackwell.life_arc.6", sourceIds: ["src_blackwell_nlm"] },
     ],
   },
 
@@ -1026,6 +1089,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_carson_lear"],
       },
     ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats. Three dates that
+    // achievement.3/moment.1 describe but don't give years for -- her 1936
+    // Bureau of Fisheries hire, her 1951 The Sea Around Us, and her 1963
+    // Senate testimony -- were not preserved -- P2, verified directly
+    // against src_carson_wikipedia (live fetch: "became the second woman
+    // hired by the Bureau of Fisheries... in 1936"; The Sea Around Us
+    // "published by Oxford University Press" 2 July 1951; Senate testimony
+    // in 1963 following the President's Science Advisory Committee's May
+    // 1963 report). Per the person-specific instruction, life_arc is not
+    // reduced to Silent Spring alone -- her earlier Bureau/Sea Around Us
+    // career gets two beats of its own -- and achievement.2's own hedge
+    // ("widely credited with catalyzing," not "created") is not
+    // strengthened anywhere in this arc.
+    lifeArc: [
+      { year: "1907", textKey: "rachel-carson.life_arc.1", sourceIds: ["src_carson_wikipedia"] },
+      { year: "1936", textKey: "rachel-carson.life_arc.2", sourceIds: ["src_carson_wikipedia"] },
+      { year: "1951", textKey: "rachel-carson.life_arc.3", sourceIds: ["src_carson_wikipedia", "src_carson_lear"] },
+      { year: "1962", textKey: "rachel-carson.life_arc.4", sourceIds: ["src_carson_lear"] },
+      { year: "1963", textKey: "rachel-carson.life_arc.5", sourceIds: ["src_carson_lear", "src_carson_wikipedia"] },
+      { year: "1964", textKey: "rachel-carson.life_arc.6", sourceIds: ["src_carson_lear"] },
+    ],
   },
 
   "hildegard-of-bingen": {
@@ -1217,6 +1301,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "persistence",
         sourceIds: ["src_sorjuana_paz", "src_sorjuana_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats. Her court arrival
+    // (moment.1 gives no year) and permanent convent entry (moment.2 gives
+    // no year) were not preserved -- P2, verified directly against
+    // src_sorjuana_wikipedia (live fetch): joined the viceregal court in
+    // Mexico City in 1664 at 16; after a brief unrelated stay with the
+    // Discalced Carmelites, entered the Hieronymite convent permanently in
+    // 1669, where she took the name used throughout this profile. The
+    // final beat merges turning_point.1's already-preserved late-life
+    // pressure with her death (1695, roster metadata), per house style and
+    // to stay at 6 beats. Per the person-specific instruction, no beat
+    // frames her as a "genius nun" -- each beat states a documented action
+    // (examined by scholars, entered convent, wrote a specific defense),
+    // not an innate-genius characterization.
+    lifeArc: [
+      { year: "1648", textKey: "sor-juana-ines-de-la-cruz.life_arc.1", sourceIds: ["src_sorjuana_paz"] },
+      { year: "1664", textKey: "sor-juana-ines-de-la-cruz.life_arc.2", sourceIds: ["src_sorjuana_wikipedia", "src_sorjuana_paz"] },
+      { year: "1669", textKey: "sor-juana-ines-de-la-cruz.life_arc.3", sourceIds: ["src_sorjuana_wikipedia", "src_sorjuana_paz"] },
+      { year: "Following decades", textKey: "sor-juana-ines-de-la-cruz.life_arc.4", sourceIds: ["src_sorjuana_paz"] },
+      { year: "1691", textKey: "sor-juana-ines-de-la-cruz.life_arc.5", sourceIds: ["src_sorjuana_respuesta", "src_sorjuana_paz"] },
+      { year: "Late life", textKey: "sor-juana-ines-de-la-cruz.life_arc.6", sourceIds: ["src_sorjuana_paz", "src_sorjuana_wikipedia"] },
     ],
   },
 
@@ -1523,6 +1628,35 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_sequoyah_cherokee_nation", "src_sequoyah_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats, with real chronology
+    // caution. Verified directly against src_sequoyah_wikipedia (live
+    // fetch): (1) birth year is disputed between "c. 1770" (the article's
+    // own infobox figure, matching this roster's birthYear) and "around
+    // 1778" elsewhere in the same article -- kept at the roster's existing
+    // 1770 with a "c." hedge, not changed, since historiography itself is
+    // split, not merely approximate (matches the person-specific
+    // instruction not to "correct" one convention over another under live
+    // uncertainty). (2) Syllabary timeline: began "around 1809," finished
+    // in 1821 (matching achievement.2's already-preserved "approximately
+    // 12 years"), Cherokee Nation officially adopted it in 1825 -- none of
+    // these three years were preserved before now (P2). (3) Death is
+    // NOT given a clean final beat, per the person-specific instruction:
+    // he traveled to Mexico in spring 1842 searching for relocated
+    // Cherokee communities and was last reliably documented there; the
+    // source's own account states "the exact location and date lack
+    // conclusive verification," and a 1939 expedition could not even
+    // confirm a grave site. life_arc.6 states that uncertainty directly
+    // rather than asserting a settled death. Roster's existing deathYear
+    // (1843) matches one contemporaneous letter's account and was left
+    // unchanged, consistent with not "correcting" a defensible convention.
+    lifeArc: [
+      { year: "c. 1770", textKey: "sequoyah.life_arc.1", sourceIds: ["src_sequoyah_wikipedia"] },
+      { year: "c. 1809", textKey: "sequoyah.life_arc.2", sourceIds: ["src_sequoyah_wikipedia"] },
+      { year: "1821", textKey: "sequoyah.life_arc.3", sourceIds: ["src_sequoyah_wikipedia", "src_sequoyah_cherokee_nation"] },
+      { year: "1825", textKey: "sequoyah.life_arc.4", sourceIds: ["src_sequoyah_wikipedia", "src_sequoyah_cherokee_nation"] },
+      { year: "1842", textKey: "sequoyah.life_arc.5", sourceIds: ["src_sequoyah_wikipedia"] },
+      { year: "1843", textKey: "sequoyah.life_arc.6", sourceIds: ["src_sequoyah_wikipedia"] },
+    ],
   },
 
   "sojourner-truth": {
@@ -1550,6 +1684,26 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_truth_narrative", "src_truth_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats. Birthplace (New York)
+    // was not preserved anywhere in this profile -- P2, verified directly
+    // against src_truth_wikipedia (live fetch: "born into slavery in
+    // Swartekill, New York"). Birth year itself is confirmed genuinely
+    // uncertain by the same source ("she once estimated... between 1797
+    // and 1800"; "c. 1797" is the article's own convention) -- the
+    // roster's existing birthYear (1797) already matches that convention,
+    // so left unchanged, only hedged with "c." in the beat. Per the
+    // person-specific instruction, the disputed "Ain't I a Woman?"
+    // wording is not reproduced anywhere in this arc -- life_arc.5 reuses
+    // only achievement.2's own already-hedged framing (a sustained
+    // speaking career, not any specific transcript).
+    lifeArc: [
+      { year: "c. 1797", textKey: "sojourner-truth.life_arc.1", sourceIds: ["src_truth_wikipedia"] },
+      { year: "1826", textKey: "sojourner-truth.life_arc.2", sourceIds: ["src_truth_narrative", "src_truth_wikipedia"] },
+      { year: "1828", textKey: "sojourner-truth.life_arc.3", sourceIds: ["src_truth_wikipedia"] },
+      { year: "1843", textKey: "sojourner-truth.life_arc.4", sourceIds: ["src_truth_narrative", "src_truth_wikipedia"] },
+      { year: "Following decades", textKey: "sojourner-truth.life_arc.5", sourceIds: ["src_truth_painter"] },
+      { year: "1883", textKey: "sojourner-truth.life_arc.6", sourceIds: ["src_truth_wikipedia"] },
+    ],
   },
 
   "br-ambedkar": {
@@ -1576,6 +1730,28 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "independent_thinking",
         sourceIds: ["src_ambedkar_wikipedia", "src_ambedkar_keer"],
       },
+    ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats. His Columbia/LSE
+    // doctoral years, the Constitution Drafting Committee's exact span,
+    // and his Buddhism conversion date's relation to his death were not
+    // preserved -- P2, verified directly against src_ambedkar_wikipedia
+    // (live fetch): Columbia 1913-1916 (M.A. 1915, Ph.D. 1927), LSE from
+    // October 1916 (M.Sc. 1921, D.Sc. 1923); chaired the Drafting
+    // Committee 29 August 1947 to 24 January 1950, Constitution adopted
+    // 26 November 1949; converted to Buddhism 14 October 1956 and died 6
+    // December 1956, 53 days later. Per the person-specific instruction,
+    // life_arc.5 credits "the committee" he chaired, not him alone, for
+    // building the constitutional framework, matching achievement.2's own
+    // team/institutional framing, and his significance is not reduced to
+    // the Constitution beat alone -- five other beats orient his legal
+    // training, anti-caste leadership, and 1932 break with Gandhi.
+    lifeArc: [
+      { year: "1891", textKey: "br-ambedkar.life_arc.1", sourceIds: ["src_ambedkar_wikipedia"] },
+      { year: "1913–1923", textKey: "br-ambedkar.life_arc.2", sourceIds: ["src_ambedkar_wikipedia"] },
+      { year: "1927", textKey: "br-ambedkar.life_arc.3", sourceIds: ["src_ambedkar_wikipedia", "src_ambedkar_keer"] },
+      { year: "1932", textKey: "br-ambedkar.life_arc.4", sourceIds: ["src_ambedkar_wikipedia", "src_ambedkar_keer"] },
+      { year: "1947–1950", textKey: "br-ambedkar.life_arc.5", sourceIds: ["src_ambedkar_wikipedia"] },
+      { year: "1956", textKey: "br-ambedkar.life_arc.6", sourceIds: ["src_ambedkar_wikipedia"] },
     ],
   },
 
@@ -2225,6 +2401,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_bohr_pais"],
       },
     ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats. The Bohr-model year
+    // (1913) and the Institute's founding year (1921) were not preserved
+    // -- achievement.1/2 describe both but give no dates -- P2, verified
+    // directly against src_bohr_wikipedia (live fetch: the atomic-model
+    // "trilogy" published in Philosophical Magazine in 1913; Institute
+    // "officially opened on March 3, 1921"). Per the person-specific
+    // instruction, this arc is not a physics-discovery list: life_arc.2
+    // covers the model+Nobel together in one beat specifically so wartime
+    // displacement and postwar advocacy (life_arc.4/5) get their own
+    // beats rather than being crowded out, and life_arc.4/5 are precise
+    // that he worked ON the Manhattan Project and then advocated AGAINST
+    // an unrestrained arms race -- not that he was a sole or central bomb
+    // designer, which the preserved evidence does not support.
+    lifeArc: [
+      { year: "1885", textKey: "niels-bohr.life_arc.1", sourceIds: ["src_bohr_wikipedia"] },
+      { year: "1913", textKey: "niels-bohr.life_arc.2", sourceIds: ["src_bohr_wikipedia", "src_bohr_nobel"] },
+      { year: "1921", textKey: "niels-bohr.life_arc.3", sourceIds: ["src_bohr_wikipedia", "src_bohr_pais"] },
+      { year: "1943", textKey: "niels-bohr.life_arc.4", sourceIds: ["src_bohr_pais", "src_bohr_wikipedia"] },
+      { year: "1944", textKey: "niels-bohr.life_arc.5", sourceIds: ["src_bohr_pais"] },
+      { year: "1962", textKey: "niels-bohr.life_arc.6", sourceIds: ["src_bohr_wikipedia"] },
+    ],
   },
 
   "immanuel-kant": {
@@ -2423,6 +2620,29 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_aristotle_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 4 (2026-08): D-CAUTION profile, 5 beats (not
+    // forced to 6 -- a sixth would require fake precision this evidence
+    // doesn't support). The two gaps the earlier feasibility audit
+    // flagged -- the Academy period and the Lyceum founding -- were
+    // verified directly against src_aristotle_wikipedia (live fetch): he
+    // joined Plato's Academy "at the age of seventeen or eighteen," c. 367
+    // BCE, remaining "nearly twenty years" until Plato's death in 348/347
+    // BCE; he founded the Lyceum shortly after returning to Athens "a year
+    // after Philip II's assassination" in 336 BCE, i.e. c. 335 BCE, and
+    // taught there for the next twelve years. Both P2, both given "c."
+    // rather than a bare year. life_arc.3 (the Alexander tutoring) and
+    // life_arc.5 (the death) reuse moment.2 and turning_point.1 exactly as
+    // already hedged in this profile ("ancient biographical tradition...
+    // written several centuries after," "a widely repeated ancient
+    // anecdote") -- neither is presented as settled fact, and no anecdotal
+    // saying is treated as a chronological fact on its own.
+    lifeArc: [
+      { year: "c. 384 BCE", textKey: "aristotle.life_arc.1", sourceIds: ["src_aristotle_wikipedia"] },
+      { year: "c. 367 BCE", textKey: "aristotle.life_arc.2", sourceIds: ["src_aristotle_wikipedia"] },
+      { year: "c. 343 BCE", textKey: "aristotle.life_arc.3", sourceIds: ["src_aristotle_wikipedia"] },
+      { year: "c. 335 BCE", textKey: "aristotle.life_arc.4", sourceIds: ["src_aristotle_wikipedia"] },
+      { year: "322 BCE", textKey: "aristotle.life_arc.5", sourceIds: ["src_aristotle_wikipedia"] },
+    ],
   },
 
   "simon-bolivar": {
@@ -2448,6 +2668,24 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "impact_motivation",
         sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats, entirely P1 -- every
+    // beat and year reuses a fact already stated in achievements/moment.1/
+    // turning_point.1 above. Per the person-specific instruction, this
+    // batch does NOT reopen the Batch B audit's decision to keep
+    // turning_point.1's existing classification of the 1828-1830
+    // dictatorial/crisis period -- life_arc.5/.6 reuse that item's exact
+    // wording and framing, unmodified, rather than re-deriving a new
+    // characterization. Contested motives are kept out of this arc: no
+    // beat asserts why he assumed dictatorial powers, only what happened
+    // and when.
+    lifeArc: [
+      { year: "1783", textKey: "simon-bolivar.life_arc.1", sourceIds: ["src_bolivar_wikipedia"] },
+      { year: "1813–1825", textKey: "simon-bolivar.life_arc.2", sourceIds: ["src_bolivar_wikipedia", "src_bolivar_lynch"] },
+      { year: "1815", textKey: "simon-bolivar.life_arc.3", sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"] },
+      { year: "1819", textKey: "simon-bolivar.life_arc.4", sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"] },
+      { year: "1828", textKey: "simon-bolivar.life_arc.5", sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"] },
+      { year: "1830", textKey: "simon-bolivar.life_arc.6", sourceIds: ["src_bolivar_lynch", "src_bolivar_wikipedia"] },
     ],
   },
 
@@ -2597,6 +2835,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         textKey: "toussaint-louverture.turning_point.1",
         sourceIds: ["src_toussaint_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 4 (2026-08): 6 beats. The year he joined the
+    // uprising that became the Haitian Revolution was not preserved --
+    // achievement.1 describes "roughly a decade" of rise but doesn't
+    // anchor its start -- P2, verified directly against
+    // src_toussaint_wikipedia (live fetch): joined the August 1791
+    // uprising, initially as "a secretary and lieutenant" under Georges
+    // Biassou, not as its leader from the outset. Per the person-specific
+    // instruction, life_arc.2 reflects that he joined an existing
+    // collective uprising rather than single-handedly starting the
+    // revolution, and life_arc.4's "rose to" phrasing (from achievement.1
+    // itself) keeps the decade-long rise as a process, not an instant
+    // achievement. No motive is inferred beyond what turning_point.1
+    // already documents for the 1802 arrest and 1803 death.
+    lifeArc: [
+      { year: "1743", textKey: "toussaint-louverture.life_arc.1", sourceIds: ["src_toussaint_wikipedia"] },
+      { year: "1791", textKey: "toussaint-louverture.life_arc.2", sourceIds: ["src_toussaint_wikipedia"] },
+      { year: "1794", textKey: "toussaint-louverture.life_arc.3", sourceIds: ["src_toussaint_dubois", "src_toussaint_wikipedia"] },
+      { year: "Over the following decade", textKey: "toussaint-louverture.life_arc.4", sourceIds: ["src_toussaint_dubois", "src_toussaint_wikipedia"] },
+      { year: "1801", textKey: "toussaint-louverture.life_arc.5", sourceIds: ["src_toussaint_dubois", "src_toussaint_wikipedia"] },
+      { year: "1802–1803", textKey: "toussaint-louverture.life_arc.6", sourceIds: ["src_toussaint_wikipedia"] },
     ],
   },
 
