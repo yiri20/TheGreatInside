@@ -332,6 +332,25 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_einstein_isaacson", "src_einstein_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats. His 1933 emigration year
+    // was not preserved anywhere in this profile -- P2, verified directly
+    // against src_einstein_wikipedia (live fetch: "while Einstein was
+    // visiting the United States, Adolf Hitler came to power," and he
+    // emigrated in 1933, "horrified by the Nazi persecution of his fellow
+    // Jews"). Per this batch's person-specific instruction, the arc balances
+    // two science beats (1905, 1915) against two major life/historical
+    // beats (1933 emigration, 1939 Szilard letter) rather than listing
+    // physics achievements; the Nobel Prize and the late-life quantum-
+    // mechanics/unified-field-theory turning point were deliberately left
+    // out as less orientation-critical within a 6-beat budget.
+    lifeArc: [
+      { year: "1879", textKey: "albert-einstein.life_arc.1", sourceIds: ["src_einstein_wikipedia"] },
+      { year: "1905", textKey: "albert-einstein.life_arc.2", sourceIds: ["src_einstein_isaacson"] },
+      { year: "1915", textKey: "albert-einstein.life_arc.3", sourceIds: ["src_einstein_isaacson"] },
+      { year: "1933", textKey: "albert-einstein.life_arc.4", sourceIds: ["src_einstein_wikipedia"] },
+      { year: "1939", textKey: "albert-einstein.life_arc.5", sourceIds: ["src_einstein_wikipedia"] },
+      { year: "1955", textKey: "albert-einstein.life_arc.6", sourceIds: ["src_einstein_wikipedia"] },
+    ],
   },
 
   "joan-of-arc": {
@@ -487,6 +506,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_newton_westfall"],
       },
     ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats, entirely P1 -- every
+    // beat reuses a fact and year already stated in achievements/turning
+    // points above; life_arc.4's "mid-1690s" is arithmetic on
+    // turning_point.1's already-preserved "in his mid-fifties" + birthYear
+    // 1643, not new research. Per the person-specific instruction, the
+    // apple anecdote is deliberately excluded as not well-grounded for a
+    // Life Arc beat.
+    lifeArc: [
+      { year: "1643", textKey: "isaac-newton.life_arc.1", sourceIds: ["src_newton_wikipedia"] },
+      { year: "1665–1667", textKey: "isaac-newton.life_arc.2", sourceIds: ["src_newton_westfall"] },
+      { year: "1687", textKey: "isaac-newton.life_arc.3", sourceIds: ["src_newton_wikipedia", "src_newton_westfall"] },
+      { year: "Mid-1690s", textKey: "isaac-newton.life_arc.4", sourceIds: ["src_newton_westfall"] },
+      { year: "1703–1727", textKey: "isaac-newton.life_arc.5", sourceIds: ["src_newton_royalsociety"] },
+      { year: "1727", textKey: "isaac-newton.life_arc.6", sourceIds: ["src_newton_wikipedia"] },
+    ],
   },
 
   "harriet-tubman": {
@@ -611,6 +645,25 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     turningPoints: [
       { id: "jane-austen-turning-point-1", textKey: "jane-austen.turning_point.1", sourceIds: ["src_austen_tomalin", "src_austen_wikipedia"] },
     ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats. Her first novel's
+    // publication year (1811, Sense and Sensibility) was not preserved
+    // anywhere in this profile -- P2, verified directly against
+    // src_austen_wikipedia (live fetch: "Sense and Sensibility appeared in
+    // October 1811," published anonymously as "By a Lady"). life_arc.5's
+    // 1813 date for Pride and Prejudice is arithmetic on turning_point.1's
+    // already-preserved "1797" rejection + "revising it... over the next
+    // sixteen years," not new research (also confirmed by the same fetch).
+    // Per the person-specific instruction, publication chronology is kept
+    // factual and anonymous publication is framed as publishing context,
+    // not personality.
+    lifeArc: [
+      { year: "1775", textKey: "jane-austen.life_arc.1", sourceIds: ["src_austen_wikipedia"] },
+      { year: "1797", textKey: "jane-austen.life_arc.2", sourceIds: ["src_austen_tomalin", "src_austen_wikipedia"] },
+      { year: "1802", textKey: "jane-austen.life_arc.3", sourceIds: ["src_austen_tomalin"] },
+      { year: "1811", textKey: "jane-austen.life_arc.4", sourceIds: ["src_austen_wikipedia", "src_austen_tomalin"] },
+      { year: "1813", textKey: "jane-austen.life_arc.5", sourceIds: ["src_austen_tomalin", "src_austen_wikipedia"] },
+      { year: "1817", textKey: "jane-austen.life_arc.6", sourceIds: ["src_austen_wikipedia", "src_austen_tomalin"] },
+    ],
   },
 
   "benito-juarez": {
@@ -656,6 +709,25 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "adaptability",
         sourceIds: ["src_shackleton_lansing"],
       },
+    ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats. His first expedition
+    // (Discovery, 1901-1904, under Scott) and his final expedition and
+    // death (Quest, 1921-1922; heart attack at South Georgia, 5 January
+    // 1922) were not preserved anywhere in this profile -- P2, verified
+    // directly against src_shackleton_wikipedia (live fetch). Per the
+    // person-specific instruction, the arc deliberately orients his wider
+    // exploratory career rather than retelling Endurance alone:
+    // achievement.1 and achievement.2 (Endurance survival + the open-boat
+    // rescue journey) are combined into one beat so the arc has room for
+    // his career's start and end, and survival language is kept plain
+    // ("kept all 28 crew alive"), not dramatized.
+    lifeArc: [
+      { year: "1874", textKey: "ernest-shackleton.life_arc.1", sourceIds: ["src_shackleton_wikipedia"] },
+      { year: "1901–1904", textKey: "ernest-shackleton.life_arc.2", sourceIds: ["src_shackleton_wikipedia"] },
+      { year: "1909", textKey: "ernest-shackleton.life_arc.3", sourceIds: ["src_shackleton_wikipedia"] },
+      { year: "1914–1917", textKey: "ernest-shackleton.life_arc.4", sourceIds: ["src_shackleton_lansing"] },
+      { year: "1921", textKey: "ernest-shackleton.life_arc.5", sourceIds: ["src_shackleton_wikipedia"] },
+      { year: "1922", textKey: "ernest-shackleton.life_arc.6", sourceIds: ["src_shackleton_wikipedia"] },
     ],
   },
 
@@ -797,6 +869,26 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_douglass_blight"],
       },
     ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats. Per the person-specific
+    // instruction on birth-year uncertainty: his birthplace and the fact
+    // that his exact birth date was unknown even to him were not preserved
+    // -- P2, verified directly against src_douglass_wikipedia (live fetch:
+    // born Talbot County, Maryland; Douglass himself wrote "I have no
+    // accurate knowledge of my age"; historian Dickson Preston's research
+    // places it at February 1818, the modern consensus year already used
+    // as this profile's `birthYear`). The Covey confrontation's year (1833,
+    // turning_point.1 gives no year) and his Recorder of Deeds appointment
+    // year (1881, achievement.3 gives no year) were likewise verified there.
+    // Life Arc beat 1 uses "c. 1818" rather than a bare year, reflecting
+    // that documented uncertainty rather than false precision.
+    lifeArc: [
+      { year: "c. 1818", textKey: "frederick-douglass.life_arc.1", sourceIds: ["src_douglass_wikipedia"] },
+      { year: "1833", textKey: "frederick-douglass.life_arc.2", sourceIds: ["src_douglass_narrative", "src_douglass_wikipedia"] },
+      { year: "1838", textKey: "frederick-douglass.life_arc.3", sourceIds: ["src_douglass_narrative", "src_douglass_blight"] },
+      { year: "1845", textKey: "frederick-douglass.life_arc.4", sourceIds: ["src_douglass_narrative", "src_douglass_blight"] },
+      { year: "1881", textKey: "frederick-douglass.life_arc.5", sourceIds: ["src_douglass_blight", "src_douglass_wikipedia"] },
+      { year: "1895", textKey: "frederick-douglass.life_arc.6", sourceIds: ["src_douglass_wikipedia"] },
+    ],
   },
 
   "ibn-sina": {
@@ -824,6 +916,32 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "persistence",
         sourceIds: ["src_ibnsina_autobiography"],
       },
+    ],
+    // Life Arc Backfill Batch 2 (2026-08): 5 beats (not forced to 6) --
+    // D-caution profile. His two major works' completion years were not
+    // preserved anywhere in this profile -- P2, verified directly against
+    // src_ibnsina_wikipedia (live fetch): the Canon of Medicine was largely
+    // finished in Ray/Hamadan "around 1014-1015 and the years following,"
+    // and the Shifa was begun in 1014 and "completed around 1020," published
+    // 1027 -- both landing in roughly the same period, close enough that
+    // this profile combines them into a single "c. 1020s" beat rather than
+    // asserting two falsely precise, near-identical dates. Death location
+    // (Hamadan) is likewise from that fetch.
+    //
+    // Final chronology/attribution review (per this batch's D-caution
+    // requirement): moment.1 and turning_point.1 are both explicitly
+    // "by his own account" in the already-preserved text, sourced to his
+    // dictated autobiography rather than later biographical tradition --
+    // this Life Arc reuses that framing verbatim (life_arc.2/.3) rather
+    // than flattening it into unhedged narration. No claim in this Life
+    // Arc treats his intellectual development as psychologically caused;
+    // beats state what he reported and what he completed, not why.
+    lifeArc: [
+      { year: "980", textKey: "ibn-sina.life_arc.1", sourceIds: ["src_ibnsina_wikipedia"] },
+      { year: "Teens", textKey: "ibn-sina.life_arc.2", sourceIds: ["src_ibnsina_autobiography"] },
+      { year: "Young adulthood", textKey: "ibn-sina.life_arc.3", sourceIds: ["src_ibnsina_autobiography"] },
+      { year: "c. 1020s", textKey: "ibn-sina.life_arc.4", sourceIds: ["src_ibnsina_wikipedia", "src_ibnsina_sep"] },
+      { year: "1037", textKey: "ibn-sina.life_arc.5", sourceIds: ["src_ibnsina_wikipedia"] },
     ],
   },
 
@@ -858,6 +976,27 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "belief_updating",
         sourceIds: ["src_mlk_branch", "src_mlk_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats, entirely P1 -- every
+    // beat reuses a fact and year already stated in achievements/moments/
+    // turning_point.1 above. Per the person-specific instruction: early
+    // ministry/pre-movement study (moment.3) and Montgomery (achievement.1)
+    // are kept distinct from national leadership (Birmingham/March on
+    // Washington, Civil Rights/Voting Rights Acts); the final beat combines
+    // his 1967-68 broadening to economic justice and Vietnam opposition
+    // with his assassination, matching this Life Arc system's own
+    // established pattern for a deceased subject's final beat (a preceding
+    // fact plus death in one beat, e.g. Yayoi Kusama's shipped Life Arc);
+    // he is not reduced to an awards list, and Vietnam/the Poor People's
+    // Campaign are named only as what turning_point.1 already documents,
+    // not compressed into an unsupported "became more radical" framing.
+    lifeArc: [
+      { year: "1929", textKey: "martin-luther-king-jr.life_arc.1", sourceIds: ["src_mlk_wikipedia"] },
+      { year: "Before 1955", textKey: "martin-luther-king-jr.life_arc.2", sourceIds: ["src_mlk_branch"] },
+      { year: "1955–1956", textKey: "martin-luther-king-jr.life_arc.3", sourceIds: ["src_mlk_branch", "src_mlk_institute"] },
+      { year: "1963", textKey: "martin-luther-king-jr.life_arc.4", sourceIds: ["src_mlk_branch", "src_mlk_institute", "src_mlk_wikipedia"] },
+      { year: "1964–1965", textKey: "martin-luther-king-jr.life_arc.5", sourceIds: ["src_mlk_branch", "src_mlk_wikipedia"] },
+      { year: "1967–1968", textKey: "martin-luther-king-jr.life_arc.6", sourceIds: ["src_mlk_branch", "src_mlk_wikipedia"] },
     ],
   },
 
@@ -920,6 +1059,34 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "conflict_tolerance",
         sourceIds: ["src_hildegard_wikipedia", "src_hildegard_worldhistory"],
       },
+    ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats -- D-caution profile,
+    // near-entirely P2 since this profile's preserved text carries almost
+    // no years at all. Verified directly against src_hildegard_wikipedia
+    // (live fetch): her enclosure with the anchoress Jutta in 1112 (her
+    // exact age is disputed among sources -- some place her oblation at 8,
+    // Jutta's own enclosure record firmly dates to 1112, when Hildegard
+    // "would have been 14" -- this Life Arc anchors to the firmer 1112 date
+    // rather than asserting a disputed age); her reported call, c. 1141, to
+    // record the visions later written down as Scivias over 1142-1151;
+    // Rupertsberg founded 1150 (moment.2's already-preserved relocation
+    // dispute); Eibingen founded 1165 (achievement.3's already-preserved
+    // "later" second monastery).
+    //
+    // Final chronology/attribution review (per this batch's D-caution
+    // requirement): life_arc.3 uses "Reported receiving a call..." per the
+    // person-specific instruction's required framing for visionary
+    // material -- it is never narrated as an externally verified event.
+    // Her own surviving correspondence and monastic-founding records
+    // (moment.1, achievement.3) are preferred throughout over later
+    // hagiographic tradition, consistent with what was already preserved.
+    lifeArc: [
+      { year: "1098", textKey: "hildegard-of-bingen.life_arc.1", sourceIds: ["src_hildegard_wikipedia"] },
+      { year: "1112", textKey: "hildegard-of-bingen.life_arc.2", sourceIds: ["src_hildegard_wikipedia"] },
+      { year: "c. 1141", textKey: "hildegard-of-bingen.life_arc.3", sourceIds: ["src_hildegard_wikipedia"] },
+      { year: "1150", textKey: "hildegard-of-bingen.life_arc.4", sourceIds: ["src_hildegard_wikipedia"] },
+      { year: "1165", textKey: "hildegard-of-bingen.life_arc.5", sourceIds: ["src_hildegard_wikipedia"] },
+      { year: "1179", textKey: "hildegard-of-bingen.life_arc.6", sourceIds: ["src_hildegard_wikipedia", "src_hildegard_worldhistory"] },
     ],
   },
 
@@ -1186,6 +1353,40 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "mastery_orientation",
         sourceIds: ["src_aquinas_wikipedia", "src_aquinas_sep"],
       },
+    ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats -- D-caution profile.
+    // His Dominican entry, his family's confinement of him, his study
+    // under Albert the Great, and his exact death location were not
+    // preserved anywhere in this profile -- P2, verified directly against
+    // src_aquinas_wikipedia (live fetch, per this batch's explicit
+    // instruction that the family-confinement episode "must remain factual
+    // and carefully sourced"): at 19 he resolved to join the Dominican
+    // Order; his mother had his brothers seize him en route to Rome, and he
+    // "was held prisoner for almost one year in the family castles at Monte
+    // San Giovanni and Roccasecca" specifically to pressure him into
+    // renouncing his vocation; he then followed his teacher Albert the
+    // Great to Cologne in 1248; he died 7 March 1274 at Fossanova Abbey, a
+    // Cistercian monastery, after falling ill en route to the Second
+    // Council of Lyon.
+    //
+    // Final chronology/attribution review (per this batch's D-caution
+    // requirement): life_arc.1 uses "c. 1225" -- his birth year is not
+    // settled among historians (sources vary 1224-1226) and roster
+    // birthYear 1225 is a point-estimate convention, not a fixed fact.
+    // life_arc.5 reuses turning_point.1's already-preserved, already-hedged
+    // "reportedly stopped writing, telling his secretary..." framing
+    // verbatim rather than asserting the mystical experience as fact; that
+    // account, and moment.1's "widely repeated account" royal-dinner
+    // anecdote, are both left out of or kept hedged in this Life Arc so
+    // later saintly/hagiographic tradition is not presented as settled
+    // history.
+    lifeArc: [
+      { year: "c. 1225", textKey: "thomas-aquinas.life_arc.1", sourceIds: ["src_aquinas_wikipedia"] },
+      { year: "c. 1244", textKey: "thomas-aquinas.life_arc.2", sourceIds: ["src_aquinas_wikipedia"] },
+      { year: "1248", textKey: "thomas-aquinas.life_arc.3", sourceIds: ["src_aquinas_wikipedia"] },
+      { year: "1250s–1273", textKey: "thomas-aquinas.life_arc.4", sourceIds: ["src_aquinas_wikipedia"] },
+      { year: "6 December 1273", textKey: "thomas-aquinas.life_arc.5", sourceIds: ["src_aquinas_wikipedia", "src_aquinas_sep"] },
+      { year: "1274", textKey: "thomas-aquinas.life_arc.6", sourceIds: ["src_aquinas_wikipedia"] },
     ],
   },
 
@@ -1659,6 +1860,31 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "thomas-edison-moment-3", textKey: "thomas-edison.moment.3", sourceIds: ["src_edison_israel"] },
     ],
     turningPoints: [],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats, chronology only, per
+    // the person-specific instruction not to reopen the completed Batch-A
+    // Complexity/Moment classification decision (nothing above this
+    // comment was touched). None of this profile's existing items carry a
+    // year at all, so every beat below required P2 verification, directly
+    // against src_edison_wikipedia (live fetch, not memory): telegraph-
+    // operator years (1863-1869, "a succession of night-shift telegraphy
+    // positions across Ontario, Michigan, Kentucky, Ohio, and
+    // Massachusetts" -- not previously mentioned anywhere in this profile
+    // at all); Menlo Park founded 1876; Pearl Street Station opened
+    // 4 September 1882; the "War of Currents" (moment.2) ran roughly
+    // 1886-1892 (Westinghouse's first AC systems in 1886 through the 1892
+    // Edison General Electric/Thomson-Houston merger). Per the person-
+    // specific instruction, the arc is a neutral career skeleton, not
+    // lone-inventor mythology: it includes moment.3's uncredited-employee-
+    // contributions and failed iron-ore venture in the closing beat rather
+    // than omitting the more mixed later picture.
+    lifeArc: [
+      { year: "1847", textKey: "thomas-edison.life_arc.1", sourceIds: ["src_edison_wikipedia"] },
+      { year: "1863–1869", textKey: "thomas-edison.life_arc.2", sourceIds: ["src_edison_wikipedia"] },
+      { year: "1876", textKey: "thomas-edison.life_arc.3", sourceIds: ["src_edison_israel", "src_edison_wikipedia"] },
+      { year: "1882", textKey: "thomas-edison.life_arc.4", sourceIds: ["src_edison_wikipedia", "src_edison_israel"] },
+      { year: "1886–1892", textKey: "thomas-edison.life_arc.5", sourceIds: ["src_edison_wikipedia", "src_edison_israel"] },
+      { year: "1931", textKey: "thomas-edison.life_arc.6", sourceIds: ["src_edison_wikipedia", "src_edison_israel"] },
+    ],
   },
 
   michelangelo: {
@@ -1816,6 +2042,25 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_galileo_wikipedia"],
       },
     ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats, entirely P1 -- every
+    // beat and year reuses a fact already stated in achievement.1 and
+    // turning_point.1 above (1642 death derives from turning_point.1's
+    // already-preserved "spent the remainder of his life under house
+    // arrest" + roster deathYear). Per the person-specific instruction,
+    // the trial/condemnation beats are kept to the plain documented
+    // sequence -- prohibited, published anyway, tried, recanted, house
+    // arrest -- with no "proved the Church wrong" framing or other
+    // science-vs-religion slogan, and the falling-body experiments
+    // (achievement.2, undated in this profile) were left out rather than
+    // given an invented year.
+    lifeArc: [
+      { year: "1564", textKey: "galileo-galilei.life_arc.1", sourceIds: ["src_galileo_wikipedia"] },
+      { year: "1609", textKey: "galileo-galilei.life_arc.2", sourceIds: ["src_galileo_wikipedia"] },
+      { year: "1616", textKey: "galileo-galilei.life_arc.3", sourceIds: ["src_galileo_wikipedia"] },
+      { year: "1632", textKey: "galileo-galilei.life_arc.4", sourceIds: ["src_galileo_wikipedia"] },
+      { year: "1633", textKey: "galileo-galilei.life_arc.5", sourceIds: ["src_galileo_wikipedia"] },
+      { year: "1642", textKey: "galileo-galilei.life_arc.6", sourceIds: ["src_galileo_wikipedia"] },
+    ],
   },
 
   "niels-bohr": {
@@ -1968,6 +2213,28 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "independent_thinking",
         sourceIds: ["src_tagore_wikipedia"],
       },
+    ],
+    // Life Arc Backfill Batch 2 (2026-08): 6 beats. Achievement.2 states he
+    // "founded Visva-Bharati University at Santiniketan" but gives no year
+    // -- P2, verified directly against src_tagore_wikipedia (live fetch:
+    // "in 1901 Tagore moved to Santiniketan to found an ashram... an
+    // experimental school"). The fetch did not surface a separate, more
+    // specific year for the school's formal university charter, so
+    // life_arc.2 anchors to the 1901 founding itself and describes it as
+    // growing into the university, rather than asserting an unverified
+    // later charter date. Per the person-specific instruction, the Nobel
+    // Prize (life_arc.3) is one of four beats, not the whole arc: literary
+    // work (life_arc.3), institutional work (life_arc.2), and his
+    // international/civic role (life_arc.4's knighthood renunciation) are
+    // all represented, and the anthem-composing fact (moment.1) was left
+    // out as unanchored to any year and secondary to orientation.
+    lifeArc: [
+      { year: "1861", textKey: "rabindranath-tagore.life_arc.1", sourceIds: ["src_tagore_wikipedia"] },
+      { year: "1901", textKey: "rabindranath-tagore.life_arc.2", sourceIds: ["src_tagore_wikipedia"] },
+      { year: "1913", textKey: "rabindranath-tagore.life_arc.3", sourceIds: ["src_tagore_nobel", "src_tagore_wikipedia"] },
+      { year: "1919", textKey: "rabindranath-tagore.life_arc.4", sourceIds: ["src_tagore_wikipedia"] },
+      { year: "In his sixties", textKey: "rabindranath-tagore.life_arc.5", sourceIds: ["src_tagore_wikipedia"] },
+      { year: "1941", textKey: "rabindranath-tagore.life_arc.6", sourceIds: ["src_tagore_wikipedia"] },
     ],
   },
 

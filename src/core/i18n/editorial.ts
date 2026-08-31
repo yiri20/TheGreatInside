@@ -172,6 +172,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Despite having helped found quantum theory himself — his 1905 light-quantum hypothesis and his 1924–25 work with Bose on quantum statistics were both foundational — he never accepted quantum mechanics' later probabilistic account of nature as complete, summarizing his objection as \"God does not play dice.\" He spent his last several decades pursuing an unsuccessful unified field theory, well after his reputation was already secure, while the mainstream of physics moved past the debate without him.",
   "albert-einstein.interpretation.turning_point.1":
     "This is consistent with the profile's low belief_updating score: the same conviction that let him defend a genuinely new theory against early skeptics also meant he never revised his view that quantum mechanics was incomplete — even though his own objections, especially the 1935 EPR paper he co-authored, became a foundational and still-influential part of the very field he continued to resist.",
+  "albert-einstein.life_arc.1": "Born.",
+  "albert-einstein.life_arc.2":
+    "Published four papers in a single year, including special relativity, while working as a patent clerk.",
+  "albert-einstein.life_arc.3": "Completed the general theory of relativity after a decade of iterative work.",
+  "albert-einstein.life_arc.4": "Emigrated to the United States as the Nazis rose to power in Germany.",
+  "albert-einstein.life_arc.5":
+    "Signed the Einstein–Szilárd letter warning President Roosevelt of nuclear fission's military potential.",
+  "albert-einstein.life_arc.6": "Died.",
 
   /* -------------------------------------------------------- Joan of Arc */
   "joan-of-arc.achievement.1":
@@ -244,6 +252,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This sits alongside the profile's very low collaboration score and high competitiveness score: settling a credit dispute by controlling the body meant to settle it impartially, rather than through open co-authorship or concession.",
   "isaac-newton.interpretation.turning_point.1":
     "The Great Inside reads this alongside the profile's much lower belief_updating score, not against it: adjusting to a demanding new institutional role is a different kind of change from revising an established theoretical conviction, and this profile treats the two as separate rather than in tension.",
+  "isaac-newton.life_arc.1": "Born.",
+  "isaac-newton.life_arc.2":
+    "During plague closures, worked alone at home, laying the foundations of calculus, optics, and gravitational theory.",
+  "isaac-newton.life_arc.3":
+    "Published Principia Mathematica, unifying terrestrial and celestial motion under one law of gravitation.",
+  "isaac-newton.life_arc.4": "Left Cambridge for London to lead the Royal Mint, an entirely different, publicly administrative role.",
+  "isaac-newton.life_arc.5": "Served as President of the Royal Society while continuing as Master of the Mint.",
+  "isaac-newton.life_arc.6": "Died.",
 
   /* ---------------------------------------------------------- H. Tubman */
   "harriet-tubman.achievement.1":
@@ -322,6 +338,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "An early manuscript that eventually became Pride and Prejudice was reportedly rejected by a publisher without being read in 1797. She continued revising it and pursuing publication over the next sixteen years rather than abandoning it, and it became her best-known novel.",
   "jane-austen.interpretation.moment.1":
     "Biographers read this as motivated substantially by a wish to preserve her own independence, though her family's financial circumstances complicate a purely autonomy-driven reading — this profile treats it as one plausible factor among several, not the whole explanation.",
+  "jane-austen.life_arc.1": "Born.",
+  "jane-austen.life_arc.2": "An early manuscript that later became Pride and Prejudice was rejected by a publisher, unread.",
+  "jane-austen.life_arc.3": "Accepted a marriage proposal from Harris Bigg-Wither, then withdrew her acceptance the next morning.",
+  "jane-austen.life_arc.4": "Published her first novel, Sense and Sensibility, anonymously as \"By a Lady.\"",
+  "jane-austen.life_arc.5": "Published Pride and Prejudice, the manuscript she had revised for sixteen years.",
+  "jane-austen.life_arc.6": "Died; wide recognition of her work came only after her death.",
 
   /* --------------------------------------------------------- B. Juárez */
   "benito-juarez.achievement.1":
@@ -352,6 +374,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The Great Inside reads this alongside the 800-mile boat journey seven years later as two data points about the same risk_tolerance score, not one fixed disposition: real willingness to accept extraordinary personal risk when the goal was survival itself, paired with an earlier readiness to give up a historic prize rather than gamble with his team's lives.",
   "ernest-shackleton.interpretation.turning_point.1":
     "Both the profile's high adaptability score and its more moderate planning_orientation score fit this moment: the plan that mattered here was not the original one, but the sequence of adjustments made after it failed.",
+  "ernest-shackleton.life_arc.1": "Born.",
+  "ernest-shackleton.life_arc.2": "Served on Scott's Discovery Expedition, his first Antarctic voyage.",
+  "ernest-shackleton.life_arc.3":
+    "Turned back just 97 miles from the South Pole on his own expedition, judging the risk too great.",
+  "ernest-shackleton.life_arc.4":
+    "Led the Trans-Antarctic Expedition; after Endurance was crushed by ice, kept all 28 crew alive via an 800-mile open-boat rescue journey.",
+  "ernest-shackleton.life_arc.5": "Set out on a fourth expedition, aboard Quest.",
+  "ernest-shackleton.life_arc.6": "Died of a heart attack at South Georgia, at the start of that expedition.",
 
   /* ------------------------------------------------------- W. Soyinka */
   "wole-soyinka.achievement.1":
@@ -441,6 +471,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The profile's high autonomy_need score sits close to this account: Douglass frames the change not as a shift in legal status, which did not change that day, but as a shift in his own sense of who actually controlled him.",
   "frederick-douglass.interpretation.turning_point.2":
     "This is an unusually checkable case for the profile's belief_updating score: the position change is dated, reasoned, and openly acknowledged at the time, rather than something read back into his life from a later retelling.",
+  "frederick-douglass.life_arc.1": "Born into slavery in Talbot County, Maryland; his exact birth date was unknown even to him.",
+  "frederick-douglass.life_arc.2":
+    "Physically resisted a beating from an overseer known for \"breaking\" enslaved people, and prevailed.",
+  "frederick-douglass.life_arc.3": "Escaped slavery using a carefully prepared plan and borrowed papers.",
+  "frederick-douglass.life_arc.4":
+    "Published his autobiography and became a leading abolitionist speaker; later founded the newspaper The North Star.",
+  "frederick-douglass.life_arc.5":
+    "Appointed Recorder of Deeds for Washington, D.C.; later served as Minister Resident to Haiti.",
+  "frederick-douglass.life_arc.6": "Died.",
 
   /* -------------------------------------------------- Batch 2: Ibn Sina */
   "ibn-sina.achievement.1":
@@ -461,6 +500,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The sequence is the interesting part for the profile's opportunity_sensing score: the medical success came first, and by his own account the library access was something he deliberately pursued using the goodwill it created, not a passive perk that simply followed from being a talented young physician.",
   "ibn-sina.interpretation.turning_point.1":
     "Worth reading as more than a simple persistence anecdote: forty readings show real staying power, but what actually broke the impasse was someone else's short commentary, not further repetition of his own approach — a reminder that a high persistence score describes effort sustained, not necessarily the method that finally works.",
+  "ibn-sina.life_arc.1": "Born.",
+  "ibn-sina.life_arc.2": "By his own account, treated the Samanid ruler Nuh ibn Mansur and gained access to the royal library.",
+  "ibn-sina.life_arc.3": "By his own account, a commentary by al-Farabi gave him the key to understanding Aristotle's Metaphysics.",
+  "ibn-sina.life_arc.4": "Completed his two major works: the Canon of Medicine and Kitab al-Shifa (The Book of Healing).",
+  "ibn-sina.life_arc.5": "Died in Hamadan.",
 
   /* -------------------------------------------- Batch 2: MLK */
   "martin-luther-king-jr.achievement.1":
@@ -483,6 +527,16 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Studying and adapting an existing method, rather than applying raw talent, is closer to what the profile's mastery_orientation score is picking up here: the approach he became known for was deliberately developed, not simply improvised.",
   "martin-luther-king-jr.interpretation.turning_point.1":
     "The profile's belief_updating score is easy to test against this specific record: this was a costly, publicly criticized expansion of position rather than a comfortable pivot, which is exactly the kind of evidence that should carry more weight than a change made under no real pressure at all.",
+  "martin-luther-king-jr.life_arc.1": "Born.",
+  "martin-luther-king-jr.life_arc.2":
+    "Pursued doctoral theological study, studying Gandhian nonviolent method in depth before applying it.",
+  "martin-luther-king-jr.life_arc.3": "Led the Montgomery Bus Boycott, his first major civil-rights campaign.",
+  "martin-luther-king-jr.life_arc.4":
+    "Led the Birmingham campaign and delivered the \"I Have a Dream\" address at the March on Washington.",
+  "martin-luther-king-jr.life_arc.5":
+    "Saw the Civil Rights Act and Voting Rights Act pass during his Selma-era campaigns.",
+  "martin-luther-king-jr.life_arc.6":
+    "Broadened his focus to economic justice and Vietnam War opposition; assassinated in 1968.",
 
   /* -------------------------------------------- Batch 2: Rachel Carson */
   "rachel-carson.achievement.1":
@@ -525,6 +579,14 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This sits well with the profile's autonomy_need score: the obstacle here was not a distant political power but her own monastic superior, which arguably makes the outcome a more direct test of the trait than the letters to popes and emperors.",
   "hildegard-of-bingen.interpretation.turning_point.1":
     "Both the profile's conflict_tolerance and risk_tolerance scores are live in this one episode, and worth separating: staying in the dispute rather than backing down is one thing, and accepting the real institutional exposure of defying an active interdict is a related but distinct one.",
+  "hildegard-of-bingen.life_arc.1": "Born.",
+  "hildegard-of-bingen.life_arc.2":
+    "Enclosed as a young nun with the anchoress Jutta, having been given to religious life some years earlier.",
+  "hildegard-of-bingen.life_arc.3": "Reported receiving a call from God to record the visions that became Scivias.",
+  "hildegard-of-bingen.life_arc.4":
+    "Founded the independent monastery of Rupertsberg, over her abbot's initial resistance.",
+  "hildegard-of-bingen.life_arc.5": "Founded a second monastery, at Eibingen.",
+  "hildegard-of-bingen.life_arc.6": "Died shortly after a church-imposed interdict on her community was lifted.",
 
   /* -------------------------------------------- Batch 2: Florence Nightingale */
   "florence-nightingale.achievement.1":
@@ -661,6 +723,15 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The profile's independent_thinking score is worth reading through what it cost him — formal posthumous condemnation, not merely a private disagreement never voiced publicly.",
   "thomas-aquinas.interpretation.turning_point.1":
     "This complicates rather than confirms the profile's high mastery_orientation score: by his own reported account, the work didn't stop because it was finished, but because the whole undertaking had come to seem beside the point.",
+  "thomas-aquinas.life_arc.1": "Born; the exact year is not settled among historians.",
+  "thomas-aquinas.life_arc.2":
+    "Resolved to join the Dominican Order at nineteen; his family had him seized and held for nearly a year to change his mind.",
+  "thomas-aquinas.life_arc.3": "Followed his teacher Albert the Great to Cologne to continue his studies.",
+  "thomas-aquinas.life_arc.4":
+    "Taught and wrote across Paris, Rome, and Naples, dictating to multiple secretaries at once, including the Summa Theologica.",
+  "thomas-aquinas.life_arc.5":
+    "After a mystical experience during Mass, reportedly stopped writing, telling his secretary his work now seemed like straw to him.",
+  "thomas-aquinas.life_arc.6": "Died at Fossanova Abbey, three months later, leaving the Summa unfinished.",
 
   /* -------------------------------------------------- Batch 3: Maimonides */
   "maimonides.achievement.1":
@@ -958,6 +1029,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "He personally invested heavily in ventures that documentedly failed, notably an iron-ore-mining enterprise that cost him substantial personal losses; multiple historians also document that a number of patents credited to him alone involved substantial uncredited or under-credited contributions from employees such as Lewis Latimer and Francis Jehl — a more mixed picture than the singular \"Wizard of Menlo Park\" image his own deliberately cultivated public persona and press relationships helped build.",
   "thomas-edison.interpretation.achievement.2":
     "This organizational choice — treating invention as a managed process with its own targets — is consistent with the profile's high planning_orientation and systems_abstraction scores, distinct from the popular image of a lone tinkerer.",
+  "thomas-edison.life_arc.1": "Born.",
+  "thomas-edison.life_arc.2": "Worked as a telegraph operator across several U.S. states before turning to invention full-time.",
+  "thomas-edison.life_arc.3": "Established Menlo Park, one of the first organized industrial research laboratories.",
+  "thomas-edison.life_arc.4": "Built the Pearl Street Station, the electrical distribution system supporting his light bulb.",
+  "thomas-edison.life_arc.5": "Waged the \"War of Currents\" against Westinghouse and Tesla's rival AC system.",
+  "thomas-edison.life_arc.6": "Died, after later ventures including a costly iron-ore-mining enterprise.",
 
   /* ---------------------------------------------------- Batch 4: Michelangelo */
   "michelangelo.achievement.1":
@@ -1056,6 +1133,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is the concrete, source-grounded basis for the profile's comparatively low belief_updating score on this point — not a general claim about his openness to evidence elsewhere in his career, where the telescope itself shows the opposite pattern.",
   "galileo-galilei.interpretation.turning_point.1":
     "Continuing to argue a prohibited position rather than complying quietly is consistent with the profile's independent_thinking and risk_tolerance scores — though the consequence, house arrest until his death nine years later, was severe enough that this should not be read as a costless choice.",
+  "galileo-galilei.life_arc.1": "Born.",
+  "galileo-galilei.life_arc.2": "Built and rapidly improved his own telescope; published Jupiter's moons and other findings.",
+  "galileo-galilei.life_arc.3": "Formally prohibited by the Catholic Church from teaching or defending heliocentrism.",
+  "galileo-galilei.life_arc.4": "Published the Dialogue Concerning the Two Chief World Systems, defying the prohibition.",
+  "galileo-galilei.life_arc.5": "Tried by the Roman Inquisition, forced to recant, and placed under house arrest.",
+  "galileo-galilei.life_arc.6": "Died, still under house arrest.",
 
   /* ------------------------------------------------------- Batch 5: Niels Bohr */
   "niels-bohr.achievement.1":
@@ -1120,6 +1203,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Beginning a new discipline from scratch well after mastery in another was already secure, and while there was nothing left to prove, is consistent with the profile's mastery_orientation score.",
   "rabindranath-tagore.interpretation.turning_point.1":
     "Giving up a formal honor already granted, rather than voicing private disapproval while keeping it, is consistent with the profile's independent_thinking and risk_tolerance scores.",
+  "rabindranath-tagore.life_arc.1": "Born.",
+  "rabindranath-tagore.life_arc.2": "Founded an experimental school at Santiniketan that grew into Visva-Bharati University.",
+  "rabindranath-tagore.life_arc.3": "Awarded the Nobel Prize in Literature for Gitanjali.",
+  "rabindranath-tagore.life_arc.4": "Renounced his British knighthood in protest of the Jallianwala Bagh massacre.",
+  "rabindranath-tagore.life_arc.5": "Took up painting seriously, decades after his literary reputation was established.",
+  "rabindranath-tagore.life_arc.6": "Died.",
 
   /* ------------------------------------------------------------ Batch 6: Aristotle */
   "aristotle.achievement.1":
@@ -2039,6 +2128,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "그 자신이 양자론의 토대를 놓은 사람 중 하나였음에도 — 1905년의 광양자 가설과 1924~25년 보스와 함께한 양자 통계 연구 모두 그 토대의 일부였다 — 그는 훗날 양자역학이 제시한 확률적 자연관을 끝내 완전한 것으로 받아들이지 않았고, 이 반대 입장을 '신은 주사위 놀이를 하지 않는다'는 말로 요약했다. 이미 명성이 확고해진 뒤에도 남은 생애의 수십 년을 성과 없는 통일장 이론 연구에 쏟았으며, 그 사이 물리학계의 논의는 그를 남겨둔 채 앞으로 나아갔다.",
   "albert-einstein.interpretation.turning_point.1":
     "프로필의 낮은 입장 수정(belief_updating) 점수와 일치하는 대목이다 — 새로운 이론을 초기 회의론자들로부터 지켜낼 수 있게 해준 바로 그 확신이, 양자역학이 불완전하다는 그의 입장을 끝내 바꾸지 않게 만들기도 했다. 다만 그가 공동 집필한 1935년 EPR 논문을 비롯한 그의 반박 자체는, 그가 끝까지 저항했던 바로 그 분야에서 지금까지도 영향력 있는 토대의 일부로 남아 있다.",
+  "albert-einstein.life_arc.1": "태어났다.",
+  "albert-einstein.life_arc.2": "특허청 직원으로 일하면서 한 해에 특수상대성이론을 포함한 논문 네 편을 발표했다.",
+  "albert-einstein.life_arc.3": "10년에 걸친 반복적인 연구 끝에 일반상대성이론을 완성했다.",
+  "albert-einstein.life_arc.4": "나치가 독일에서 권력을 잡자 미국으로 이주했다.",
+  "albert-einstein.life_arc.5": "핵분열의 군사적 잠재력을 경고하는 아인슈타인-실라르드 편지에 서명해 루스벨트 대통령에게 보냈다.",
+  "albert-einstein.life_arc.6": "사망했다.",
 
   /* -------------------------------------------------------- Joan of Arc */
   "joan-of-arc.achievement.1":
@@ -2111,6 +2206,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 매우 낮은 협업 성향(collaboration) 점수, 그리고 높은 경쟁 성향(competitiveness) 점수와 함께 놓고 볼 대목이다 — 공동 저작이나 양보를 통해서가 아니라, 공정하게 판단해야 할 기구 자체를 직접 통제함으로써 공로 다툼을 매듭지은 것이다.",
   "isaac-newton.interpretation.turning_point.1":
     "더 그레이트 인사이드는 이 대목을 프로필의 훨씬 낮은 입장 수정(belief_updating) 점수와 대립시키지 않고 나란히 읽는다 — 부담스러운 새 직무에 적응하는 것과 확립된 이론적 신념을 수정하는 것은 서로 다른 종류의 변화이며, 이 프로필은 둘을 긴장 관계가 아니라 별개의 것으로 다룬다.",
+  "isaac-newton.life_arc.1": "태어났다.",
+  "isaac-newton.life_arc.2": "흑사병으로 대학이 문을 닫은 시기, 홀로 지내며 미적분학과 광학, 중력 이론의 토대를 마련했다.",
+  "isaac-newton.life_arc.3": "지상과 천체의 운동을 하나의 중력 법칙으로 통합한 『프린키피아』를 출판했다.",
+  "isaac-newton.life_arc.4": "케임브리지를 떠나 런던에서 왕립조폐국을 이끄는, 전혀 다른 행정직을 맡았다.",
+  "isaac-newton.life_arc.5": "조폐국장을 겸임하며 왕립학회장을 지냈다.",
+  "isaac-newton.life_arc.6": "사망했다.",
 
   /* ---------------------------------------------------------- H. Tubman */
   "harriet-tubman.achievement.1":
@@ -2189,6 +2290,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "훗날 『오만과 편견』이 된 초기 원고는 1797년 한 출판사로부터 읽히지도 않은 채 거절당했다고 전해진다. 그는 이를 포기하지 않고 이후 16년에 걸쳐 계속 고쳐 쓰며 출판을 시도했고, 이는 결국 그의 가장 널리 알려진 소설이 되었다.",
   "jane-austen.interpretation.moment.1":
     "전기 작가들은 이를 상당 부분 자신의 독립성을 지키려는 바람에서 비롯된 행동으로 해석하지만, 가족의 경제적 상황을 고려하면 오직 자율성만으로 설명하기는 어렵다 — 이 프로필은 이를 여러 그럴듯한 요인 중 하나로 다룰 뿐, 전체 설명으로 취급하지 않는다.",
+  "jane-austen.life_arc.1": "태어났다.",
+  "jane-austen.life_arc.2": "훗날 『오만과 편견』이 된 초기 원고가 읽히지도 않은 채 출판사로부터 거절당했다.",
+  "jane-austen.life_arc.3": "해리스 빅위더의 청혼을 받아들였다가, 다음 날 아침 이를 철회했다.",
+  "jane-austen.life_arc.4": "첫 소설 『이성과 감성』을 '어느 여성이'라는 익명으로 출판했다.",
+  "jane-austen.life_arc.5": "16년에 걸쳐 고쳐 쓴 원고인 『오만과 편견』을 출판했다.",
+  "jane-austen.life_arc.6": "사망했다; 그의 작품이 널리 알려진 것은 사후의 일이었다.",
 
   /* --------------------------------------------------------- B. Juárez */
   "benito-juarez.achievement.1":
@@ -2219,6 +2326,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "더 그레이트 인사이드는 이 대목을 7년 뒤의 800마일 보트 항해와 나란히, 하나의 고정된 성향이 아니라 위험 감수(risk_tolerance) 점수에 대한 두 가지 사례로 읽는다 — 생존 그 자체가 목표일 때는 극단적인 개인적 위험도 기꺼이 감수했지만, 그보다 앞서 대원들의 생명을 걸고 도박하느니 역사적인 목표를 포기할 준비도 되어 있었다.",
   "ernest-shackleton.interpretation.turning_point.1":
     "프로필의 높은 적응력(adaptability) 점수와, 상대적으로 중간 수준에 머무는 계획 지향(planning_orientation) 점수 모두 이 순간과 맞아떨어진다 — 여기서 중요했던 계획은 원래의 계획이 아니라, 그것이 실패한 뒤 이어진 일련의 조정들이었다.",
+  "ernest-shackleton.life_arc.1": "태어났다.",
+  "ernest-shackleton.life_arc.2": "스콧의 디스커버리 탐험대에 참가하며 첫 남극 항해를 경험했다.",
+  "ernest-shackleton.life_arc.3": "자신의 탐험에서 남극점을 불과 97마일 앞두고 발길을 돌렸다, 위험이 너무 크다고 판단해서였다.",
+  "ernest-shackleton.life_arc.4":
+    "남극 횡단 탐험대를 이끌었다; 인듀어런스호가 유빙에 부서진 뒤, 800마일 무개 보트 구조 항해를 통해 28명의 대원 전원을 생존시켰다.",
+  "ernest-shackleton.life_arc.5": "탐험선 퀘스트호를 타고 네 번째 탐험에 나섰다.",
+  "ernest-shackleton.life_arc.6": "그 탐험 초입, 사우스조지아섬에서 심장마비로 사망했다.",
 
   /* ------------------------------------------------------- W. Soyinka */
   "wole-soyinka.achievement.1":
@@ -2302,6 +2416,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 높은 자율성 욕구(autonomy_need) 점수는 이 서술과 가깝게 맞닿아 있다 — 더글러스는 이 변화를, 그날 바뀌지 않은 법적 신분의 변화가 아니라 자신을 실제로 통제하는 존재가 누구인가에 대한 스스로의 인식 변화로 그리고 있다.",
   "frederick-douglass.interpretation.turning_point.2":
     "프로필의 입장 수정 성향(belief_updating) 점수를 실제 역사적 기록에 비추어 검증하기 유난히 쉬운 사례다 — 이 입장 변화는 시점이 분명하고 근거가 제시되어 있으며, 나중에 와서야 재구성된 것이 아니라 당시에 공개적으로 인정된 변화였다.",
+  "frederick-douglass.life_arc.1": "메릴랜드주 탤벗 카운티에서 노예로 태어났다; 정확한 생일은 그 자신도 알지 못했다.",
+  "frederick-douglass.life_arc.2": "노예를 '길들이기'로 알려진 감독관의 매질에 맞서 몸으로 저항했고, 그를 제압했다.",
+  "frederick-douglass.life_arc.3": "치밀하게 준비한 계획과 빌린 서류를 이용해 노예 신분에서 탈출했다.",
+  "frederick-douglass.life_arc.4":
+    "자서전을 출판하고 대표적인 노예제 폐지 연설가가 되었다; 이후 신문 《노스 스타》를 창간했다.",
+  "frederick-douglass.life_arc.5": "워싱턴 D.C. 증서등기관에 임명되었고, 이후 아이티 주재 공사를 지냈다.",
+  "frederick-douglass.life_arc.6": "사망했다.",
 
   /* -------------------------------------------------- Batch 2: Ibn Sina */
   "ibn-sina.achievement.1":
@@ -2322,6 +2443,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 기회 감지(opportunity_sensing) 점수와 관련해 흥미로운 대목은 순서다 — 치료의 성공이 먼저였고, 그의 자서전에 따르면 서고 접근은 그로 인해 생긴 호의를 이용해 그가 의도적으로 추구한 것이지, 뛰어난 젊은 의사라는 지위에 그저 뒤따라온 부수적 혜택이 아니었다.",
   "ibn-sina.interpretation.turning_point.1":
     "단순한 끈기의 일화 이상으로 읽을 가치가 있다 — 마흔 번의 반복은 실제로 버텨낸 지속력을 보여주지만, 실제로 난관을 뚫어낸 것은 자신의 방식을 더 반복하는 것이 아니라 타인의 짧은 주석서였다 — 높은 끈기(persistence) 점수는 쏟아부은 노력을 설명할 뿐, 결국 통한 방법까지 설명해 주지는 않는다는 점을 보여준다.",
+  "ibn-sina.life_arc.1": "태어났다.",
+  "ibn-sina.life_arc.2": "본인의 기록에 따르면, 사만 왕조의 통치자 누흐 이븐 만수르를 치료하고 왕실 도서관 이용 권한을 얻었다.",
+  "ibn-sina.life_arc.3": "본인의 기록에 따르면, 알파라비의 주석서를 통해 아리스토텔레스의 『형이상학』을 이해하는 실마리를 얻었다.",
+  "ibn-sina.life_arc.4": "두 대표작인 『의학정전』과 『치유의 서』를 완성했다.",
+  "ibn-sina.life_arc.5": "하마단에서 사망했다.",
 
   /* -------------------------------------------- Batch 2: MLK */
   "martin-luther-king-jr.achievement.1":
@@ -2344,6 +2470,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "타고난 재능을 발휘했다기보다 기존 방법을 연구하고 변형했다는 점이, 여기서 프로필의 숙련 지향(mastery_orientation) 점수가 짚어내는 바에 더 가깝다 — 그가 훗날 대표하게 된 접근법은 즉흥이 아니라 의도적으로 다듬어진 것이었다.",
   "martin-luther-king-jr.interpretation.turning_point.1":
     "프로필의 입장 수정 성향(belief_updating) 점수는 이 구체적인 기록에 비추어 검증하기 쉬운 편이다 — 이것은 편안한 방향 전환이 아니라, 대가를 치르고 공개적으로 비판받은 입장 확장이었으며, 이는 아무런 실제 압박 없이 이뤄진 변화보다 더 무게 있게 다뤄야 할 증거다.",
+  "martin-luther-king-jr.life_arc.1": "태어났다.",
+  "martin-luther-king-jr.life_arc.2": "신학 박사 과정을 밟으며 간디의 비폭력 방법론을 깊이 연구했다, 이를 실천에 옮기기 전이었다.",
+  "martin-luther-king-jr.life_arc.3": "몽고메리 버스 보이콧을 이끌었다, 그의 첫 주요 민권 운동이었다.",
+  "martin-luther-king-jr.life_arc.4": "버밍엄 운동을 이끌었고, 워싱턴 행진에서 '나에게는 꿈이 있습니다' 연설을 했다.",
+  "martin-luther-king-jr.life_arc.5": "셀마 시기 운동 중 민권법과 투표권법이 통과되는 것을 지켜보았다.",
+  "martin-luther-king-jr.life_arc.6": "경제 정의와 베트남전 반대로 관심을 넓혔다; 1968년 암살당했다.",
 
   /* -------------------------------------------- Batch 2: Rachel Carson */
   "rachel-carson.achievement.1":
@@ -2386,6 +2518,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 프로필의 자율성 욕구(autonomy_need) 점수와 잘 맞아떨어진다 — 여기서 부딪힌 상대는 멀리 있는 정치 권력이 아니라 자신의 수도원 상급자였다는 점에서, 교황과 황제에게 보낸 편지보다 오히려 이 특성을 더 직접적으로 시험한 사례라고 볼 수 있다.",
   "hildegard-of-bingen.interpretation.turning_point.1":
     "프로필의 갈등 감내(conflict_tolerance)와 위험 감수(risk_tolerance) 점수 모두 이 한 사건 안에서 확인되는데, 둘을 구분해 볼 필요가 있다 — 물러서지 않고 갈등을 이어간 것과, 발효 중인 금지령에 맞서는 실제 제도적 위험을 감수한 것은 서로 연관되지만 별개의 문제다.",
+  "hildegard-of-bingen.life_arc.1": "태어났다.",
+  "hildegard-of-bingen.life_arc.2": "은수자 유타와 함께 봉쇄 수녀로 입회했다, 그보다 몇 해 전 이미 수도 생활에 맡겨진 뒤였다.",
+  "hildegard-of-bingen.life_arc.3": "『쉬비아스』로 남긴 환시를 기록하라는 하느님의 부름을 받았다고 전한다.",
+  "hildegard-of-bingen.life_arc.4": "원장의 초기 반대를 무릅쓰고 독립 수도원인 루페르츠베르크를 설립했다.",
+  "hildegard-of-bingen.life_arc.5": "아이빙엔에 두 번째 수도원을 설립했다.",
+  "hildegard-of-bingen.life_arc.6": "교회가 그의 공동체에 내린 금지령이 풀린 직후 사망했다.",
 
   /* -------------------------------------------- Batch 2: Florence Nightingale */
   "florence-nightingale.achievement.1":
@@ -2522,6 +2660,14 @@ export const EDITORIAL_KO: Record<string, string> = {
     "프로필의 독립적 사고(independent_thinking) 점수는 이 입장이 그에게 치른 대가 — 결코 밖으로 드러내지 않은 사적인 이견 정도가 아니라 공식적인 사후 단죄 — 를 통해 읽어볼 가치가 있다.",
   "thomas-aquinas.interpretation.turning_point.1":
     "이는 프로필의 높은 숙련 지향(mastery_orientation) 점수를 단순히 확인해 주기보다 오히려 복잡하게 만든다 — 그 자신의 전언에 따르면, 그 작업이 멈춘 것은 완성되었기 때문이 아니라 그 일 전체가 더 이상 중요하지 않게 여겨졌기 때문이었다.",
+  "thomas-aquinas.life_arc.1": "태어났다; 정확한 연도는 역사가들 사이에서도 확정되지 않았다.",
+  "thomas-aquinas.life_arc.2":
+    "열아홉 살에 도미니코회 입회를 결심했다; 가족이 그를 붙잡아 마음을 돌리려 거의 1년간 가두었다.",
+  "thomas-aquinas.life_arc.3": "스승 알베르투스 마그누스를 따라 쾰른으로 가서 학업을 이어갔다.",
+  "thomas-aquinas.life_arc.4":
+    "파리·로마·나폴리를 오가며 가르치고 저술했다, 여러 비서에게 동시에 구술하는 방식으로 『신학대전』을 포함한 저작을 남겼다.",
+  "thomas-aquinas.life_arc.5": "미사 중 신비 체험을 겪은 뒤 집필을 멈추었다고 전해지며, 비서에게 자신의 글이 지푸라기처럼 느껴진다고 말했다고 한다.",
+  "thomas-aquinas.life_arc.6": "석 달 뒤 포사노바 수도원에서 사망했다, 『신학대전』은 미완으로 남았다.",
 
   /* -------------------------------------------------- Batch 3: Maimonides */
   "maimonides.achievement.1":
@@ -2800,6 +2946,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "그는 훗날 실패로 끝난 사업, 특히 상당한 개인적 손실을 남긴 철광석 채굴 사업에 개인적으로 큰돈을 투자했다. 여러 역사가는 또한 그의 이름으로만 등록된 여러 특허가 루이스 라티머와 프랜시스 젤 등 직원들의 상당한, 그러나 제대로 인정받지 못한 기여를 포함하고 있다고 기록한다 — 그가 직접 공들여 구축한 언론 관계와 대중적 이미지인 '멘로파크의 마법사'라는 단일한 상과는 다른, 더 복잡한 그림이다.",
   "thomas-edison.interpretation.achievement.2":
     "발명을 목표를 갖춘 관리된 과정으로 다룬 이 조직적 선택은 프로필의 높은 계획 지향(planning_orientation) 및 시스템적 사고(systems_abstraction) 점수와 부합하며, 흔히 떠올리는 '홀로 땜질하는 발명가'라는 이미지와는 구별된다.",
+  "thomas-edison.life_arc.1": "태어났다.",
+  "thomas-edison.life_arc.2": "여러 주를 옮겨 다니며 전신 기사로 일하다가, 이후 발명에 전념하기 시작했다.",
+  "thomas-edison.life_arc.3": "초창기 조직적 산업 연구소 가운데 하나인 멘로파크 연구소를 설립했다.",
+  "thomas-edison.life_arc.4": "백열전구를 뒷받침하는 전력 배전 시스템인 펄스트리트 발전소를 건설했다.",
+  "thomas-edison.life_arc.5": "웨스팅하우스와 테슬라의 경쟁 교류 전력망을 상대로 '전류 전쟁'을 벌였다.",
+  "thomas-edison.life_arc.6": "훗날 손실이 컸던 철광산 사업 등 여러 후기 사업을 거친 뒤 사망했다.",
 
   /* ---------------------------------------------------- Batch 4: Michelangelo */
   "michelangelo.achievement.1":
@@ -2898,6 +3050,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 이 지점에서 프로필의 상대적으로 낮은 입장 수정 성향(belief_updating) 점수를 뒷받침하는 구체적이고 사료에 근거한 대목이다 — 그의 경력 전반에 걸친 개방성에 대한 일반적 주장이 아니며, 오히려 망원경 관측 자체는 정반대의 패턴을 보여준다.",
   "galileo-galilei.interpretation.turning_point.1":
     "조용히 순응하는 대신 금지된 입장을 계속 주장한 것은 프로필의 독립적 사고(independent_thinking) 및 위험 감수(risk_tolerance) 점수와 부합한다 — 다만 그 결과, 즉 9년 뒤 세상을 떠날 때까지 이어진 가택 연금은 이를 대가 없는 선택으로 읽어서는 안 될 만큼 가혹했다.",
+  "galileo-galilei.life_arc.1": "태어났다.",
+  "galileo-galilei.life_arc.2": "직접 망원경을 만들어 빠르게 개량했다; 목성의 위성 등 관측 결과를 발표했다.",
+  "galileo-galilei.life_arc.3": "가톨릭교회로부터 지동설을 가르치거나 옹호하는 것을 공식적으로 금지당했다.",
+  "galileo-galilei.life_arc.4": "그 금지령을 어기고 『두 우주 체계에 관한 대화』를 출판했다.",
+  "galileo-galilei.life_arc.5": "로마 종교재판에 회부되어 철회를 강요받았고, 가택 연금에 처해졌다.",
+  "galileo-galilei.life_arc.6": "가택 연금 상태로 사망했다.",
 
   /* ------------------------------------------------------- Batch 5: Niels Bohr */
   "niels-bohr.achievement.1":
@@ -2962,6 +3120,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이미 다른 분야에서 숙련이 확고히 자리 잡은 뒤에도, 더는 증명할 것이 남아 있지 않은 상태에서 처음부터 새로운 분야를 시작한 것은 프로필의 숙련 지향(mastery_orientation) 점수와 부합한다.",
   "rabindranath-tagore.interpretation.turning_point.1":
     "이미 받은 공식적인 서훈을 유지한 채 사적으로만 불만을 표하는 대신 그것을 반납한 것은 프로필의 독립적 사고(independent_thinking) 및 위험 감수(risk_tolerance) 점수와 부합한다.",
+  "rabindranath-tagore.life_arc.1": "태어났다.",
+  "rabindranath-tagore.life_arc.2": "산티니케탄에 실험 학교를 세웠고, 이는 훗날 비스바바라티 대학교로 성장했다.",
+  "rabindranath-tagore.life_arc.3": "시집 『기탄잘리』로 노벨 문학상을 수상했다.",
+  "rabindranath-tagore.life_arc.4": "잘리안왈라 바그 학살에 항의하며 영국 기사 작위를 반납했다.",
+  "rabindranath-tagore.life_arc.5": "예순 무렵부터 본격적으로 그림을 그리기 시작했다, 문학적 명성이 이미 확립된 지 수십 년이 지난 뒤였다.",
+  "rabindranath-tagore.life_arc.6": "사망했다.",
 
   /* ------------------------------------------------------------ Batch 6: Aristotle */
   "aristotle.achievement.1":
