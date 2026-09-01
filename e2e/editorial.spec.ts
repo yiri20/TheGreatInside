@@ -111,21 +111,26 @@ test.describe("Editorial sections — graceful absence of optional fields", () =
   //
   // Fixture migrated a fifth time (2026-08, Life Arc Backfill Batch 4):
   // Niels Bohr himself gained a Life Arc in that batch. Migrated to
-  // ludwig-wittgenstein, which has the same 3-populated-sections shape and
+  // ludwig-wittgenstein, which had the same 3-populated-sections shape and
+  // no lifeArc, complexities, or legacy entry at the time.
+  //
+  // Fixture migrated a sixth time (2026-08, Life Arc Backfill Batch 5):
+  // Ludwig Wittgenstein himself gained a Life Arc in that batch. Migrated
+  // to susan-b-anthony, which has the same 3-populated-sections shape and
   // no lifeArc, complexities, or legacy entry (see editorial.ts).
-  test("Ludwig Wittgenstein (no lifeArc/complexities/legacy) shows none of those three headings and no orphan dividers", async ({
+  test("Susan B. Anthony (no lifeArc/complexities/legacy) shows none of those three headings and no orphan dividers", async ({
     page,
   }) => {
-    await page.goto("/en-US/people/ludwig-wittgenstein", { waitUntil: "networkidle" });
+    await page.goto("/en-US/people/susan-b-anthony", { waitUntil: "networkidle" });
     const headings = await page.locator("h2").allTextContents();
     expect(headings.some((h) => h.includes("Life Arc"))).toBe(false);
     expect(headings.some((h) => h.includes("Complexities"))).toBe(false);
     expect(headings.some((h) => h.includes("Legacy"))).toBe(false);
     // Base page has 3 unconditional dividers (hero, constellation, sources)
-    // plus exactly one per POPULATED editorial section -- Ludwig
-    // Wittgenstein has achievements/moments/turningPoints (3) and no
-    // lifeArc/complexities/legacy, so 3 + 3 = 6, not 3 + 6, confirming the
-    // three absent optional sections contribute no orphan divider each.
+    // plus exactly one per POPULATED editorial section -- Susan B. Anthony
+    // has achievements/moments/turningPoints (3) and no lifeArc/
+    // complexities/legacy, so 3 + 3 = 6, not 3 + 6, confirming the three
+    // absent optional sections contribute no orphan divider each.
     const dividerCount = await page.locator(".tgi-divider").count();
     expect(dividerCount).toBe(6);
   });
