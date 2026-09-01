@@ -2182,6 +2182,143 @@ export const EDITORIAL_EN: Record<string, string> = {
   "rumi.life_arc.5": "Died in Konya.",
   "rumi.legacy":
     "The Mevlevi order his followers founded, and its sema ceremony, carried his teaching forward as a living devotional practice rather than only a text. His global popularity today, however, rests heavily on English versions — most famously Coleman Barks's — that are loose interpretive paraphrases rather than literal translations, distinct from the more rigorous scholarly translations by Arberry, Nicholson, and Lewis; much of what circulates in Western popular culture as a \"Rumi quote\" should be read with that distinction in mind rather than taken as his own exact words.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: L. Wittgenstein */
+  "ludwig-wittgenstein.life_arc.1": "Born in Vienna into one of Austria's wealthiest families.",
+  "ludwig-wittgenstein.life_arc.2":
+    "Studied engineering, first in Berlin and then aeronautical research at Manchester, before turning to philosophy and arriving at Cambridge in 1911 to study logic under Bertrand Russell.",
+  "ludwig-wittgenstein.life_arc.3":
+    "Served in the Austro-Hungarian Army through the First World War, continuing to write during his service and later Italian captivity.",
+  "ludwig-wittgenstein.life_arc.4":
+    "Published the Tractatus Logico-Philosophicus in 1921, then renounced his family inheritance and left academic philosophy, working for most of the 1920s as a rural Austrian schoolteacher and later an architect.",
+  "ludwig-wittgenstein.life_arc.5":
+    "Returned to Cambridge in 1929, and over the following two decades developed a substantially different later philosophy that he said corrected \"grave errors\" in his own earlier work.",
+  "ludwig-wittgenstein.life_arc.6":
+    "Died in Cambridge; Philosophical Investigations was published posthumously two years later.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: N. Copernicus */
+  "nicolaus-copernicus.life_arc.1": "Born in Toruń, in Royal Prussia.",
+  "nicolaus-copernicus.life_arc.2":
+    "Studied at the University of Kraków, then law, medicine, and astronomy in Bologna, Padua, and Ferrara, earning a doctorate in canon law in 1503.",
+  "nicolaus-copernicus.life_arc.3":
+    "Returned to Poland to a career as a canon and administrator, eventually settling at Frombork around 1510.",
+  "nicolaus-copernicus.life_arc.4":
+    "Completed the core mathematics of a Sun-centered model in a short manuscript, circulated only privately among a small circle rather than published.",
+  "nicolaus-copernicus.life_arc.5":
+    "Personally organized the defense of Allenstein Castle during the Polish–Teutonic Knights conflict, alongside his clerical and astronomical work.",
+  "nicolaus-copernicus.life_arc.6":
+    "Allowed publication of De revolutionibus orbium coelestium in the final weeks of his life; its wider influence on astronomy unfolded mostly after his death.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: Wu Zetian */
+  "wu-zetian.life_arc.1": "Born; entered Emperor Taizong's court at 14 as a low-ranking consort.",
+  "wu-zetian.life_arc.2":
+    "After Taizong's death, spent time at a Buddhist convent per custom, then returned to court under his successor, Emperor Gaozong.",
+  "wu-zetian.life_arc.3": "Became empress consort after Gaozong deposed his previous empress.",
+  "wu-zetian.life_arc.4":
+    "Took on a growing share of imperial decision-making as Gaozong's health declined, becoming his co-ruler in practice, then continued as regent for their sons after his death in 683.",
+  "wu-zetian.life_arc.5":
+    "Proclaimed the Zhou dynasty and took the title of emperor in her own right in 690, the only woman in Chinese history to do so.",
+  "wu-zetian.life_arc.6":
+    "Removed from power in a palace coup that restored the Tang dynasty; died the same year.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: Averroes */
+  "averroes.life_arc.1":
+    "Born in Córdoba into a family of jurists; his father and grandfather both served as qadis.",
+  "averroes.life_arc.2":
+    "Trained in law, medicine, and philosophy in Córdoba; the surviving record documents his teachers in medicine but is thinner on the rest of his education.",
+  "averroes.life_arc.3":
+    "Introduced by the philosopher Ibn Tufail to the Almohad Caliph Abu Yaqub Yusuf, who commissioned him to write systematic commentaries on Aristotle. Across a career spanning multiple Almohad rulers, he also served as a judge — first in Seville, later as chief qadi of Córdoba — and eventually as a royal physician.",
+  "averroes.life_arc.4":
+    "Over the following decades, produced short, middle, and long commentaries on nearly the entire surviving Aristotelian corpus, alongside other major philosophical works including The Incoherence of the Incoherence.",
+  "averroes.life_arc.5":
+    "Late in his life, his philosophical works were formally condemned and burned under Almohad authority, and he was briefly exiled to Lucena, for reasons the surviving record does not fully explain.",
+  "averroes.life_arc.6":
+    "Died in Marrakesh, according to the most commonly cited account, in 1198.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: C. V. Raman */
+  "cv-raman.life_arc.1": "Born in Tiruchirappalli.",
+  "cv-raman.life_arc.2":
+    "Joined the Indian Finance Department after finishing his physics education at Presidency College, Madras, and pursued physics as a side interest — beginning with the physics of Indian musical instruments — before leaving the civil service in 1917 to take the Palit Professorship of Physics at Calcutta University, at considerably lower pay.",
+  "cv-raman.life_arc.3":
+    "During a voyage home from England, observed the Mediterranean Sea's blue color and published a direct challenge to the prevailing explanation for it.",
+  "cv-raman.life_arc.4":
+    "With research associate K. S. Krishnan, discovered that light changes wavelength when scattered by transparent matter; the 1930 Nobel Prize recognized the discovery under Raman's name alone.",
+  "cv-raman.life_arc.5":
+    "Directed the Indian Institute of Science in Bangalore, then founded and led the Raman Research Institute after retiring from it.",
+  "cv-raman.life_arc.6": "Died.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: F. Kafka */
+  "franz-kafka.life_arc.1": "Born in Prague.",
+  "franz-kafka.life_arc.2": "Earned a law degree from Charles University, then completed a period of unpaid legal clerkship.",
+  "franz-kafka.life_arc.3":
+    "Worked at the Workers' Accident Insurance Institute for the Kingdom of Bohemia, rising from clerk to Senior Legal Secretary, while sustaining an intensive nightly private writing practice across the same years.",
+  "franz-kafka.life_arc.4":
+    "Wrote The Metamorphosis and began The Trial, during the same period as his first engagement to Felice Bauer.",
+  "franz-kafka.life_arc.5": "Tuberculosis was confirmed, beginning years of declining health.",
+  "franz-kafka.life_arc.6":
+    "Died near Vienna; his three unfinished novels were published posthumously after his friend Max Brod declined to destroy them as instructed.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: K. Johnson */
+  "katherine-johnson.life_arc.1": "Born in White Sulphur Springs, West Virginia.",
+  "katherine-johnson.life_arc.2": "Graduated from West Virginia State College at 18, with degrees in mathematics and French.",
+  "katherine-johnson.life_arc.3":
+    "Joined NACA, NASA's predecessor, at Langley Research Center, working as a human \"computer\" in the segregated West Area Computers section.",
+  "katherine-johnson.life_arc.4":
+    "Calculated the trajectory for Alan Shepard's first American spaceflight, and, at John Glenn's own request, verified the electronic computer's calculations for his 1962 orbital mission.",
+  "katherine-johnson.life_arc.5":
+    "Contributed trajectory work to the Apollo 11 Moon landing and backup navigation procedures for Apollo 13's safe return.",
+  "katherine-johnson.life_arc.6":
+    "Died at 101; her 33-year NASA career had been recognized in 2015 with the Presidential Medal of Freedom.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: Maimonides */
+  "maimonides.life_arc.1": "Born in Córdoba.",
+  "maimonides.life_arc.2":
+    "Fled Córdoba when the Almohads conquered the city, and spent roughly a decade moving through southern Spain and North Africa before reaching Fez, Morocco, around 1160.",
+  "maimonides.life_arc.3":
+    "Traveled on to Acre and briefly visited Jerusalem and Hebron, before the family moved toward Egypt, settling in Fustat within the next few years — accounts place the exact date anywhere from 1166 to 1171.",
+  "maimonides.life_arc.4":
+    "Wrote the Mishneh Torah, organizing the entire body of Jewish religious law into one coherent code, while serving as physician to Saladin's vizier al-Qadi al-Fadil and, later, the Ayyubid court.",
+  "maimonides.life_arc.5": "Completed the Guide for the Perplexed, reconciling Aristotelian philosophy with Jewish theology.",
+  "maimonides.life_arc.6":
+    "Died in Fustat; later tradition places his burial in Tiberias, though this is not documented at the time of his death.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: M. Wollstonecraft */
+  "mary-wollstonecraft.life_arc.1": "Born in London.",
+  "mary-wollstonecraft.life_arc.2":
+    "Worked as a governess and ran a school at Newington Green, then published Thoughts on the Education of Daughters.",
+  "mary-wollstonecraft.life_arc.3":
+    "Moved to London to write for the publisher Joseph Johnson, supporting herself independently as a professional writer.",
+  "mary-wollstonecraft.life_arc.4":
+    "Published A Vindication of the Rights of Woman, then moved to France that December to witness the Revolution firsthand.",
+  "mary-wollstonecraft.life_arc.5":
+    "Married William Godwin in March 1797, having already had a daughter, Fanny, with Gilbert Imlay in France.",
+  "mary-wollstonecraft.life_arc.6":
+    "Died of complications from childbirth eleven days after the birth of her second daughter, Mary, the future Mary Shelley.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: Michelangelo */
+  "michelangelo.life_arc.1": "Born near Arezzo, Tuscany.",
+  "michelangelo.life_arc.2":
+    "Apprenticed to the painter Domenico Ghirlandaio in Florence at 13, then trained in the Medici household's sculpture garden.",
+  "michelangelo.life_arc.3":
+    "Completed the Pietà in Rome under a cardinal's commission, then the statue of David in Florence.",
+  "michelangelo.life_arc.4": "Painted the Sistine Chapel ceiling for Pope Julius II.",
+  "michelangelo.life_arc.5":
+    "In his seventies, took on the role of chief architect of St. Peter's Basilica, redesigning its structure, including the dome.",
+  "michelangelo.life_arc.6":
+    "Died in Rome, still working; the Basilica's dome was completed after his death, based on his design.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: O. Butler */
+  "octavia-butler.life_arc.1": "Born in Pasadena, California.",
+  "octavia-butler.life_arc.2":
+    "Studied writing through Pasadena City College and the Clarion Science Fiction Writers' Workshop, selling her first professional stories there.",
+  "octavia-butler.life_arc.3":
+    "Published her first novel, Patternmaster, beginning what became a five-book Patternist series.",
+  "octavia-butler.life_arc.4":
+    "Published Kindred, then the Xenogenesis trilogy, building a distinctive body of work blending science fiction with African American history.",
+  "octavia-butler.life_arc.5":
+    "Published Parable of the Sower, and in 1995 became the first science-fiction writer to receive a MacArthur Fellowship.",
+  "octavia-butler.life_arc.6":
+    "Died near Seattle, having published her final novel, Fledgling, the year before.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -4221,6 +4358,138 @@ export const EDITORIAL_KO: Record<string, string> = {
   "rumi.life_arc.5": "코니아에서 세상을 떠났다.",
   "rumi.legacy":
     "제자들이 세운 메블레비 교단과 그 세마 의식은 그의 가르침을 단순한 텍스트가 아니라 살아 있는 예배 전통으로 이어 왔다. 다만 오늘날 그의 세계적 인기는 상당 부분 영어 번역본 — 그중에서도 가장 유명한 콜먼 바크스의 번역 — 에 기대고 있는데, 이는 직역이라기보다는 느슨한 해석적 의역에 가까우며, 아버리, 니컬슨, 루이스 등의 좀 더 엄밀한 학술적 번역과는 구별된다. 서구 대중문화 속에서 '루미의 명언'으로 떠도는 문구 상당수는, 그의 실제 언어 그대로라기보다는 이러한 구분을 염두에 두고 받아들여야 한다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: L. Wittgenstein */
+  "ludwig-wittgenstein.life_arc.1": "오스트리아에서 손꼽히는 부유한 가문 출신으로 빈에서 태어났다.",
+  "ludwig-wittgenstein.life_arc.2":
+    "먼저 베를린에서, 이후 맨체스터에서 항공공학을 연구하며 공학을 공부했고, 이후 철학으로 방향을 돌려 1911년 케임브리지에 도착해 버트런드 러셀 밑에서 논리학을 공부했다.",
+  "ludwig-wittgenstein.life_arc.3":
+    "제1차 세계대전 동안 오스트리아-헝가리 군에 복무했으며, 복무 중과 이후 이탈리아군의 포로로 있는 동안에도 계속 글을 썼다.",
+  "ludwig-wittgenstein.life_arc.4":
+    "1921년 『논리철학논고』를 출간한 뒤 가문의 상속 재산을 포기하고 학계 철학을 떠나, 1920년대 대부분을 오스트리아 시골의 초등학교 교사로, 이후에는 건축가로 일하며 보냈다.",
+  "ludwig-wittgenstein.life_arc.5":
+    "1929년 케임브리지로 돌아왔고, 이후 20년에 걸쳐 자신의 이전 저작에 있던 '중대한 오류'를 바로잡았다고 말한, 상당히 다른 후기 철학을 발전시켰다.",
+  "ludwig-wittgenstein.life_arc.6":
+    "케임브리지에서 세상을 떠났다. 『철학적 탐구』는 2년 뒤 사후에 출간되었다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: N. Copernicus */
+  "nicolaus-copernicus.life_arc.1": "왕령 프로이센의 토룬에서 태어났다.",
+  "nicolaus-copernicus.life_arc.2":
+    "크라쿠프 대학교에서 공부한 뒤 볼로냐·파도바·페라라에서 법학·의학·천문학을 공부했고, 1503년 교회법 박사 학위를 받았다.",
+  "nicolaus-copernicus.life_arc.3":
+    "폴란드로 돌아와 성직자이자 행정가로서의 경력을 이어갔고, 1510년 무렵 프롬보르크에 정착했다.",
+  "nicolaus-copernicus.life_arc.4":
+    "태양 중심 모델의 핵심 수학을 짧은 원고로 완성했지만, 출판하지 않고 소수의 측근에게만 사적으로 회람시켰다.",
+  "nicolaus-copernicus.life_arc.5":
+    "폴란드-튜튼 기사단 전쟁 중 알렌슈타인 성의 방어를 직접 조직했으며, 그러면서도 성직과 천문학 연구를 함께 이어갔다.",
+  "nicolaus-copernicus.life_arc.6":
+    "생의 마지막 몇 주 동안 『천구의 회전에 관하여』의 출판을 허락했다. 천문학에 미친 폭넓은 영향은 대부분 그의 사후에 나타났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: Wu Zetian */
+  "wu-zetian.life_arc.1": "태어났다. 14세에 당 태종의 후궁으로 궁에 들어가 하급 지위를 받았다.",
+  "wu-zetian.life_arc.2":
+    "태종이 세상을 떠난 뒤 관례에 따라 한동안 절에 들어가 지냈고, 이후 태종의 뒤를 이은 고종 치세에 다시 궁으로 돌아왔다.",
+  "wu-zetian.life_arc.3": "고종이 기존의 황후를 폐위한 뒤, 그 자리를 이어받아 황후가 되었다.",
+  "wu-zetian.life_arc.4":
+    "고종의 건강이 나빠지면서 국정 결정에서 차지하는 몫이 점점 커져 사실상의 공동 통치자가 되었고, 683년 고종이 세상을 떠난 뒤에는 아들들을 대신해 섭정을 이어갔다.",
+  "wu-zetian.life_arc.5":
+    "690년 스스로 무주(周)를 세우고 황제라는 칭호를 직접 취했다 — 중국 역사상 여성으로서는 유일한 사례였다.",
+  "wu-zetian.life_arc.6": "당 왕조를 복원한 궁정 정변으로 권좌에서 물러났으며, 같은 해 세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: Averroes */
+  "averroes.life_arc.1": "코르도바에서 법률가 가문에 태어났다. 아버지와 할아버지 모두 카디(재판관)를 지냈다.",
+  "averroes.life_arc.2":
+    "코르도바에서 법학·의학·철학을 공부했다. 의학 스승에 관한 기록은 남아 있지만, 그 밖의 수학 과정에 대한 기록은 상대적으로 빈약하다.",
+  "averroes.life_arc.3":
+    "철학자 이븐 투파일의 소개로 알모하드 칼리프 아부 야쿠브 유수프를 만났고, 칼리프는 그에게 아리스토텔레스에 대한 체계적 주석 작업을 위촉했다. 여러 알모하드 통치자에 걸친 경력 동안, 세비야에서, 이후에는 코르도바의 수석 카디로도 재직했고, 훗날 왕실 의사로도 활동했다.",
+  "averroes.life_arc.4":
+    "이후 수십 년에 걸쳐, 현존하는 아리스토텔레스 저작 거의 전체에 대한 단편·중편·장편 주석과 더불어 『모순의 모순』을 포함한 다른 주요 철학 저작들을 남겼다.",
+  "averroes.life_arc.5":
+    "말년에 이르러 알모하드 정권 아래서 그의 철학 저작들은 공식적으로 단죄되어 불태워졌고, 그 자신도 코르도바 인근 루세나로 잠시 추방당했다 — 그 이유는 남아 있는 기록으로 온전히 설명되지 않는다.",
+  "averroes.life_arc.6": "가장 널리 인용되는 기록에 따르면, 1198년 마라케시에서 세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: C. V. Raman */
+  "cv-raman.life_arc.1": "티루치라팔리에서 태어났다.",
+  "cv-raman.life_arc.2":
+    "마드라스 프레지던시 칼리지에서 물리학 교육을 마친 뒤 인도 재무부에 들어갔고, 인도 전통 악기의 물리학 연구를 시작으로 부업 삼아 물리학 연구를 이어가다가, 1917년 그 공직을 떠나 상당히 낮은 급여를 받으며 캘커타 대학교의 팔리트 물리학 교수직을 맡았다.",
+  "cv-raman.life_arc.3":
+    "영국에서 귀국하는 항해 중 지중해의 푸른빛을 관찰했고, 당시의 통설에 정면으로 이의를 제기하는 논문을 발표했다.",
+  "cv-raman.life_arc.4":
+    "연구원 K. S. 크리슈난과 함께, 빛이 투명한 물질에 의해 산란될 때 파장이 변한다는 사실을 밝혀냈다. 1930년 노벨상은 이 발견을 라만의 이름으로만 인정했다.",
+  "cv-raman.life_arc.5":
+    "방갈로르 인도과학원(IISc) 원장을 지낸 뒤, 그곳에서 은퇴한 후 라만 연구소를 설립해 이끌었다.",
+  "cv-raman.life_arc.6": "세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: F. Kafka */
+  "franz-kafka.life_arc.1": "프라하에서 태어났다.",
+  "franz-kafka.life_arc.2": "카를 대학교에서 법학 학위를 받은 뒤, 일정 기간 무급 법률 실습을 마쳤다.",
+  "franz-kafka.life_arc.3":
+    "보헤미아 왕국 노동자 재해보험공사에서 근무하며 사무원에서 선임 법률 서기로 승진했고, 같은 기간 내내 밤마다 이어간 집중적인 개인 글쓰기를 병행했다.",
+  "franz-kafka.life_arc.4":
+    "『변신』을 쓰고 『소송』 집필을 시작했다. 같은 시기에 펠리체 바우어와 첫 번째 약혼을 했다.",
+  "franz-kafka.life_arc.5": "결핵이 확인되면서 이후 건강이 서서히 나빠지기 시작했다.",
+  "franz-kafka.life_arc.6":
+    "빈 근교에서 세상을 떠났다. 그의 미완성 장편소설 세 편은, 친구 막스 브로트가 그것들을 태워달라는 부탁을 따르지 않으면서 사후에 출간되었다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: K. Johnson */
+  "katherine-johnson.life_arc.1": "웨스트버지니아주 화이트설퍼스프링스에서 태어났다.",
+  "katherine-johnson.life_arc.2": "18세에 웨스트버지니아 주립 대학을 수학과 프랑스어 전공으로 졸업했다.",
+  "katherine-johnson.life_arc.3":
+    "NASA의 전신인 NACA에 들어가 랭글리 연구센터에서, 인종이 분리되어 있던 서부지구 계산원 부서 소속의 인간 '계산원'으로 일했다.",
+  "katherine-johnson.life_arc.4":
+    "앨런 셰퍼드의 첫 미국인 우주비행 궤도를 계산했고, 존 글렌 본인의 요청으로 그의 1962년 궤도 비행에 쓰인 전자컴퓨터의 계산 결과를 직접 검증했다.",
+  "katherine-johnson.life_arc.5":
+    "아폴로 11호의 달 착륙 궤도 계산에 기여했고, 아폴로 13호의 안전한 귀환을 위한 예비 항법 절차 작업에도 참여했다.",
+  "katherine-johnson.life_arc.6":
+    "101세로 세상을 떠났다. 33년에 걸친 그의 NASA 경력은 2015년 대통령 자유훈장으로 인정받았다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: Maimonides */
+  "maimonides.life_arc.1": "코르도바에서 태어났다.",
+  "maimonides.life_arc.2":
+    "알모하드 왕조가 코르도바를 정복하자 그곳을 떠났고, 이후 약 10년간 이베리아 남부와 북아프리카를 전전하다가 1160년 무렵 모로코의 페스에 이르렀다.",
+  "maimonides.life_arc.3":
+    "이어 아크레로 이동해 예루살렘과 헤브론을 잠시 방문했고, 이후 가족과 함께 이집트 쪽으로 이동해 몇 년 안에 푸스타트에 정착했다 — 정확한 정착 시기는 자료에 따라 1166년에서 1171년 사이로 엇갈린다.",
+  "maimonides.life_arc.4":
+    "유대 종교법 전체를 하나의 정합적인 법전으로 조직한 『미슈네 토라』를 저술하는 한편, 살라딘의 재상 알카디 알파딜의 주치의로, 훗날에는 아이유브 왕조 궁정의 의사로 활동했다.",
+  "maimonides.life_arc.5": "아리스토텔레스 철학과 유대 신학을 조화시킨 『방황하는 자들을 위한 안내서』를 완성했다.",
+  "maimonides.life_arc.6":
+    "푸스타트에서 세상을 떠났다. 훗날의 전승은 그의 매장지를 티베리아스로 전하지만, 이는 사망 당시의 기록으로 확인되지는 않는다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: M. Wollstonecraft */
+  "mary-wollstonecraft.life_arc.1": "런던에서 태어났다.",
+  "mary-wollstonecraft.life_arc.2":
+    "가정교사로 일하다가 뉴잉턴 그린에서 학교를 운영했고, 이후 『딸들의 교육에 관한 생각』을 출간했다.",
+  "mary-wollstonecraft.life_arc.3":
+    "런던으로 옮겨 출판업자 조지프 존슨을 위해 글을 썼고, 전업 작가로서 스스로 생계를 꾸렸다.",
+  "mary-wollstonecraft.life_arc.4":
+    "『여성의 권리 옹호』를 출간했고, 그해 12월 프랑스로 건너가 혁명을 직접 목격했다.",
+  "mary-wollstonecraft.life_arc.5":
+    "프랑스에서 길버트 임레이와의 사이에 딸 패니를 낳은 뒤, 1797년 3월 윌리엄 고드윈과 결혼했다.",
+  "mary-wollstonecraft.life_arc.6":
+    "둘째 딸 메리 — 훗날의 메리 셸리 — 를 낳은 지 11일 만에 출산 후유증으로 세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: Michelangelo */
+  "michelangelo.life_arc.1": "토스카나의 아레초 인근에서 태어났다.",
+  "michelangelo.life_arc.2":
+    "13세에 피렌체에서 화가 도메니코 기를란다요에게 도제로 들어갔고, 이후 메디치 가문의 조각 정원에서 수련했다.",
+  "michelangelo.life_arc.3": "추기경의 의뢰로 로마에서 피에타를 완성했고, 이어 피렌체에서 다비드상을 완성했다.",
+  "michelangelo.life_arc.4": "교황 율리우스 2세를 위해 시스티나 성당 천장화를 그렸다.",
+  "michelangelo.life_arc.5": "70대에 성 베드로 대성당의 수석 건축가를 맡아 돔을 포함한 구조 설계를 다시 그렸다.",
+  "michelangelo.life_arc.6":
+    "로마에서, 작업을 계속하던 중 세상을 떠났다. 대성당의 돔은 그의 설계를 바탕으로 사후에 완성되었다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 5: O. Butler */
+  "octavia-butler.life_arc.1": "캘리포니아주 패서디나에서 태어났다.",
+  "octavia-butler.life_arc.2":
+    "패서디나 시립 대학과 클라리온 SF 작가 워크숍을 통해 글쓰기를 공부했고, 그곳에서 첫 전문 작품들을 판매했다.",
+  "octavia-butler.life_arc.3":
+    "첫 장편소설 『패턴마스터』를 출간하며, 이후 5부작으로 이어지는 '패턴 시리즈'를 시작했다.",
+  "octavia-butler.life_arc.4":
+    "『킨드레드』를 출간한 뒤 『제노제네시스』 3부작을 발표하며, SF와 아프리카계 미국인의 역사를 결합한 독자적인 작품 세계를 구축했다.",
+  "octavia-butler.life_arc.5":
+    "『씨앗을 뿌리는 사람의 우화』를 출간했고, 1995년에는 SF 작가로서는 최초로 맥아더 펠로십을 받았다.",
+  "octavia-butler.life_arc.6":
+    "시애틀 인근에서 세상을 떠났다. 그 전해에 마지막 장편소설 『플레들링』을 출간한 바 있었다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

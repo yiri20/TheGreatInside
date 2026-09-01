@@ -575,6 +575,20 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): D-CAUTION profile, dedicated
+  // chronology/attribution review performed (see that review's own record
+  // for the full pass). Birth year (624) and every regnal-transition date
+  // below are P2, verified via a direct fetch of src_wuzetian_wikipedia --
+  // not previously preserved anywhere in this profile's existing items,
+  // which give the 690-705 reign span (achievement.1) but no earlier
+  // chronology. The fetch explicitly flags the infanticide allegation
+  // against her as a later (c. 400-years-post-mortem) hostile-chronicle
+  // claim, not verified historical fact -- life_arc deliberately omits it
+  // entirely, per the person-specific instruction. No purge/terror claims
+  // are included, consistent with the same instruction. life_arc.2's
+  // "Buddhist convent" interval and life_arc.4's Gaozong co-rule/regency
+  // sequencing both come from the same fetch, not from the pre-existing
+  // achievement/moment/turning-point items. No Complexity section added.
   "wu-zetian": {
     achievements: [
       { id: "wu-zetian-achievement-1", textKey: "wu-zetian.achievement.1", sourceIds: ["src_wuzetian_wikipedia", "src_wuzetian_history"] },
@@ -600,8 +614,35 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_wuzetian_wikipedia", "src_wuzetian_origins"],
       },
     ],
+    lifeArc: [
+      { year: "624", textKey: "wu-zetian.life_arc.1", sourceIds: ["src_wuzetian_wikipedia"] },
+      { year: "c. 650", textKey: "wu-zetian.life_arc.2", sourceIds: ["src_wuzetian_wikipedia"] },
+      { year: "655", textKey: "wu-zetian.life_arc.3", sourceIds: ["src_wuzetian_wikipedia"] },
+      { year: "660s–683", textKey: "wu-zetian.life_arc.4", sourceIds: ["src_wuzetian_wikipedia"] },
+      { year: "690", textKey: "wu-zetian.life_arc.5", sourceIds: ["src_wuzetian_wikipedia", "src_wuzetian_history", "src_wuzetian_origins"] },
+      { year: "705", textKey: "wu-zetian.life_arc.6", sourceIds: ["src_wuzetian_wikipedia"] },
+    ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): D-CAUTION profile, dedicated
+  // chronology/attribution review performed. Birth year (1126) and death
+  // year (1198) were already implicit in this profile's own achievement/
+  // turning-point text but not given as a beat-worthy timeline; verified
+  // P2 via a direct fetch of src_averroes_sep (Stanford Encyclopedia of
+  // Philosophy). That source is explicit that his judicial-appointment
+  // dates (Seville, then chief qadi of Córdoba) and his exile date are NOT
+  // documented -- life_arc.2/3 deliberately use relative labels ("Early
+  // career", "Under Caliph Abu Yaqub Yusuf (r. 1163-1184)") rather than
+  // inventing exact years, and life_arc.3 explicitly notes his judicial
+  // roles spanned "multiple Almohad rulers" rather than implying they
+  // fell within this one caliph's reign just because that reign anchors
+  // the beat's year label. life_arc.6 preserves the source's own hedge
+  // ("According to one account...") on his 1198 death in Marrakesh; an
+  // earlier draft of this beat added an unverified "recalled from exile
+  // before death" claim not actually present in the fetched source --
+  // caught on review and removed rather than left as smuggled-in general
+  // knowledge. No later "Latin Averroism" reading is projected onto his
+  // own intentions anywhere in this arc.
   averroes: {
     achievements: [
       { id: "averroes-achievement-1", textKey: "averroes.achievement.1", sourceIds: ["src_averroes_sep"] },
@@ -619,6 +660,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "persistence",
         sourceIds: ["src_averroes_wikipedia", "src_averroes_sep"],
       },
+    ],
+    lifeArc: [
+      { year: "1126", textKey: "averroes.life_arc.1", sourceIds: ["src_averroes_sep"] },
+      { year: "Early career", textKey: "averroes.life_arc.2", sourceIds: ["src_averroes_sep"] },
+      { year: "Under Caliph Abu Yaqub Yusuf (r. 1163–1184)", textKey: "averroes.life_arc.3", sourceIds: ["src_averroes_sep"] },
+      { year: "Over the following decades", textKey: "averroes.life_arc.4", sourceIds: ["src_averroes_sep"] },
+      { year: "Late in his life", textKey: "averroes.life_arc.5", sourceIds: ["src_averroes_sep"] },
+      { year: "1198", textKey: "averroes.life_arc.6", sourceIds: ["src_averroes_sep"] },
     ],
   },
 
@@ -1373,6 +1422,18 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): 6 beats. The insurance career
+  // (achievement.2) and Brod manuscript episode (moment.1) were already
+  // preserved -- P1. Law degree year (1906), the 1914 Felice Bauer
+  // engagement's overlap with The Metamorphosis/The Trial, the 1917
+  // tuberculosis diagnosis, and the exact death date/location were not
+  // preserved anywhere in this profile -- P2, verified directly against
+  // src_kafka_wikipedia (live fetch, not memory). Per the person-specific
+  // instruction, illness gets exactly one beat (life_arc.5) and death
+  // (life_arc.6) is stated plainly, without dwelling on the cause beyond
+  // the source's own account, so illness/posthumous fame do not dominate
+  // the arc; no diagnosis beyond the documented tuberculosis is stated or
+  // implied anywhere.
   "franz-kafka": {
     achievements: [
       { id: "franz-kafka-achievement-1", textKey: "franz-kafka.achievement.1", sourceIds: ["src_kafka_wikipedia"] },
@@ -1397,6 +1458,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "franz-kafka-moment-3", textKey: "franz-kafka.moment.3", sourceIds: ["src_kafka_letters", "src_kafka_wikipedia"] },
     ],
     turningPoints: [],
+    lifeArc: [
+      { year: "1883", textKey: "franz-kafka.life_arc.1", sourceIds: ["src_kafka_wikipedia"] },
+      { year: "1906", textKey: "franz-kafka.life_arc.2", sourceIds: ["src_kafka_wikipedia"] },
+      { year: "1908–1922", textKey: "franz-kafka.life_arc.3", sourceIds: ["src_kafka_museum", "src_kafka_wikipedia"] },
+      { year: "1912–1915", textKey: "franz-kafka.life_arc.4", sourceIds: ["src_kafka_wikipedia"] },
+      { year: "1917", textKey: "franz-kafka.life_arc.5", sourceIds: ["src_kafka_wikipedia"] },
+      { year: "1924", textKey: "franz-kafka.life_arc.6", sourceIds: ["src_kafka_letters", "src_kafka_wikipedia"] },
+    ],
   },
 
   // Profile Quality Normalization Batch B (2026-08): added legacy for
@@ -1576,6 +1645,22 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): D-CAUTION profile, ranges used
+  // deliberately per the person-specific instruction. The Córdoba exile
+  // (turning_point.1) and the Mishneh Torah/Guide achievements were
+  // already preserved -- P1 -- but with no exact chronology attached. The
+  // full migration timeline (Córdoba 1148 -> c. 1160 Fez -> 1165 Acre/
+  // Jerusalem/Hebron -> Fustat 1166-1171), the Guide's 1190 completion,
+  // and the burial-tradition caveat are P2, verified via two direct
+  // fetches: src_maimonides_sep (Stanford Encyclopedia of Philosophy,
+  // which gives the Mishneh Torah's "1170-1180" range as its own
+  // information-box estimate, not a documented date) and a follow-up
+  // src_maimonides_wikipedia fetch specifically for the Fustat arrival-
+  // year dispute (1166 vs. 1168 vs. 1171, sources disagree) and the
+  // Tiberias burial tradition, which Wikipedia itself flags as having "no
+  // contemporary evidence." life_arc.3 and life_arc.6 both preserve these
+  // hedges explicitly rather than presenting either as settled fact, per
+  // the instruction not to flatten later tradition into exact biography.
   maimonides: {
     achievements: [
       { id: "maimonides-achievement-1", textKey: "maimonides.achievement.1", sourceIds: ["src_maimonides_wikipedia"] },
@@ -1600,6 +1685,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "resourcefulness",
         sourceIds: ["src_maimonides_wikipedia"],
       },
+    ],
+    lifeArc: [
+      { year: "1138", textKey: "maimonides.life_arc.1", sourceIds: ["src_maimonides_wikipedia", "src_maimonides_sep"] },
+      { year: "1148–c. 1160", textKey: "maimonides.life_arc.2", sourceIds: ["src_maimonides_wikipedia", "src_maimonides_sep"] },
+      { year: "1165", textKey: "maimonides.life_arc.3", sourceIds: ["src_maimonides_wikipedia"] },
+      { year: "c. 1170–1180", textKey: "maimonides.life_arc.4", sourceIds: ["src_maimonides_sep", "src_maimonides_wikipedia"] },
+      { year: "1190", textKey: "maimonides.life_arc.5", sourceIds: ["src_maimonides_sep"] },
+      { year: "1204", textKey: "maimonides.life_arc.6", sourceIds: ["src_maimonides_wikipedia"] },
     ],
   },
 
@@ -1755,6 +1848,18 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): 6 beats. The Shepard/Glenn
+  // calculations (achievement.1) and the 1953-1986 career span
+  // (achievement.2) were already preserved -- P1. Her college graduation
+  // year (1937), the exact NACA entry year (1953) and its West Area
+  // Computers section context, the Apollo 11/13 contributions, and her
+  // 2015 Presidential Medal of Freedom were not previously dated in this
+  // profile -- P2, verified directly against src_johnson_wikipedia (live
+  // fetch). Per the person-specific instruction, every beat keeps NASA/
+  // institutional framing (NACA, Langley, the segregated West Area
+  // Computers section, "at John Glenn's own request") rather than
+  // lone-hero language, and the 2015 award in the closing beat is framed
+  // as recognition of the career, not as the substance of it.
   "katherine-johnson": {
     achievements: [
       { id: "katherine-johnson-achievement-1", textKey: "katherine-johnson.achievement.1", sourceIds: ["src_johnson_nasa", "src_johnson_shetterly"] },
@@ -1773,6 +1878,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "katherine-johnson-moment-3", textKey: "katherine-johnson.moment.3", sourceIds: ["src_johnson_wikipedia"] },
     ],
     turningPoints: [],
+    lifeArc: [
+      { year: "1918", textKey: "katherine-johnson.life_arc.1", sourceIds: ["src_johnson_wikipedia"] },
+      { year: "1937", textKey: "katherine-johnson.life_arc.2", sourceIds: ["src_johnson_wikipedia"] },
+      { year: "1953", textKey: "katherine-johnson.life_arc.3", sourceIds: ["src_johnson_nasa", "src_johnson_wikipedia"] },
+      { year: "1961–1962", textKey: "katherine-johnson.life_arc.4", sourceIds: ["src_johnson_nasa", "src_johnson_shetterly"] },
+      { year: "1969–1970", textKey: "katherine-johnson.life_arc.5", sourceIds: ["src_johnson_wikipedia"] },
+      { year: "2020", textKey: "katherine-johnson.life_arc.6", sourceIds: ["src_johnson_wikipedia"] },
+    ],
   },
 
   "muhammad-ali": {
@@ -1822,6 +1935,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): 6 beats. The Vindication
+  // (achievement.1) and the fact of her death shortly after her second
+  // daughter's birth (implied but never dated in moment.3) were already
+  // preserved -- P1. Every exact date below -- the Newington Green school,
+  // her move to London to write for Joseph Johnson, the France period's
+  // internal chronology (Imlay, Fanny's birth, Letters Written in Sweden),
+  // the March 1797 Godwin marriage, and the exact childbirth-death
+  // sequence (married 29 March, second daughter born 30 August, died of
+  // septicaemia 10 September) -- is P2, verified directly against
+  // src_wollstonecraft_wikipedia (live fetch). Per the person-specific
+  // instruction, the arc stays biographical rather than reducing her to
+  // later feminist canonization: no beat frames her as a movement founder
+  // or icon, only what she did and when.
   "mary-wollstonecraft": {
     achievements: [
       {
@@ -1846,6 +1972,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
     turningPoints: [],
+    lifeArc: [
+      { year: "1759", textKey: "mary-wollstonecraft.life_arc.1", sourceIds: ["src_wollstonecraft_wikipedia"] },
+      { year: "1784–1787", textKey: "mary-wollstonecraft.life_arc.2", sourceIds: ["src_wollstonecraft_wikipedia"] },
+      { year: "1787", textKey: "mary-wollstonecraft.life_arc.3", sourceIds: ["src_wollstonecraft_wikipedia"] },
+      { year: "1792", textKey: "mary-wollstonecraft.life_arc.4", sourceIds: ["src_wollstonecraft_wikipedia"] },
+      { year: "March 1797", textKey: "mary-wollstonecraft.life_arc.5", sourceIds: ["src_wollstonecraft_wikipedia"] },
+      { year: "September 1797", textKey: "mary-wollstonecraft.life_arc.6", sourceIds: ["src_wollstonecraft_wikipedia"] },
+    ],
   },
 
   "fyodor-dostoevsky": {
@@ -2094,6 +2228,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     legacy: { textKey: "aung-san-suu-kyi.legacy", sourceIds: ["src_assk_popham", "src_assk_hrw"] },
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): 6 beats. The Tractatus/decade-
+  // away-from-philosophy arc (achievement.1) and the inheritance
+  // renunciation (moment.1) were already preserved -- P1. The engineering
+  // years (Berlin 1906, Manchester aeronautics research from 1908), the
+  // exact 1911 arrival at Cambridge under Russell, the 1914-1918 WWI
+  // service and Italian POW camp, and the 1929 return to Cambridge were
+  // not previously dated in this profile -- P2, verified directly against
+  // src_wittgenstein_wikipedia (live fetch). This profile's own e2e
+  // fixture role (the "graceful absence of optional fields" test) is
+  // migrated off this person in the same batch -- see e2e/editorial.spec.ts.
+  // Per the person-specific instruction, no beat infers a psychological
+  // motive for the engineering-to-philosophy shift or the inheritance
+  // renunciation; each is stated as a documented act only.
   "ludwig-wittgenstein": {
     achievements: [
       { id: "ludwig-wittgenstein-achievement-1", textKey: "ludwig-wittgenstein.achievement.1", sourceIds: ["src_wittgenstein_monk", "src_wittgenstein_wikipedia"] },
@@ -2117,6 +2264,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "persistence",
         sourceIds: ["src_wittgenstein_monk"],
       },
+    ],
+    lifeArc: [
+      { year: "1889", textKey: "ludwig-wittgenstein.life_arc.1", sourceIds: ["src_wittgenstein_wikipedia"] },
+      { year: "1906–1911", textKey: "ludwig-wittgenstein.life_arc.2", sourceIds: ["src_wittgenstein_wikipedia"] },
+      { year: "1914–1918", textKey: "ludwig-wittgenstein.life_arc.3", sourceIds: ["src_wittgenstein_wikipedia"] },
+      { year: "1921", textKey: "ludwig-wittgenstein.life_arc.4", sourceIds: ["src_wittgenstein_wikipedia", "src_wittgenstein_monk"] },
+      { year: "1929", textKey: "ludwig-wittgenstein.life_arc.5", sourceIds: ["src_wittgenstein_wikipedia", "src_wittgenstein_sep"] },
+      { year: "1951", textKey: "ludwig-wittgenstein.life_arc.6", sourceIds: ["src_wittgenstein_wikipedia"] },
     ],
   },
 
@@ -2164,6 +2319,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): 6 beats. The Sistine ceiling and
+  // late-career architectural shift (achievement.1/2) were already
+  // preserved -- P1. The Ghirlandaio apprenticeship year (1488), the
+  // Medici sculpture-garden training, the Pietà (1498-1499) and David
+  // (1501-1504) dates, and the 1546 St. Peter's appointment were not
+  // previously dated in this profile -- P2, verified directly against
+  // src_michelangelo_wikipedia (live fetch). Per the person-specific
+  // instruction, the arc keeps workshop/patron context rather than
+  // lone-genius framing throughout: life_arc.2 names Ghirlandaio and the
+  // Medici household, life_arc.3 states the Pietà was completed "under a
+  // cardinal's commission," and life_arc.4 names Pope Julius II as the
+  // Sistine ceiling's patron. This profile's own 1506 Rome-flight Turning
+  // Point (already covered elsewhere on the page) is deliberately not
+  // re-listed here, since the arc's six phase-level beats already give
+  // complete chronological orientation without it.
   michelangelo: {
     achievements: [
       { id: "michelangelo-achievement-1", textKey: "michelangelo.achievement.1", sourceIds: ["src_michelangelo_wikipedia", "src_michelangelo_vasari"] },
@@ -2187,6 +2357,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "risk_tolerance",
         sourceIds: ["src_michelangelo_vasari"],
       },
+    ],
+    lifeArc: [
+      { year: "1475", textKey: "michelangelo.life_arc.1", sourceIds: ["src_michelangelo_wikipedia"] },
+      { year: "1488", textKey: "michelangelo.life_arc.2", sourceIds: ["src_michelangelo_wikipedia"] },
+      { year: "1498–1504", textKey: "michelangelo.life_arc.3", sourceIds: ["src_michelangelo_wikipedia"] },
+      { year: "1508–1512", textKey: "michelangelo.life_arc.4", sourceIds: ["src_michelangelo_wikipedia"] },
+      { year: "1546", textKey: "michelangelo.life_arc.5", sourceIds: ["src_michelangelo_wikipedia"] },
+      { year: "1564", textKey: "michelangelo.life_arc.6", sourceIds: ["src_michelangelo_wikipedia"] },
     ],
   },
 
@@ -2280,6 +2458,19 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): 6 beats. The Allenstein Castle
+  // defense (moment.1) and the decades-long publication delay
+  // (moment.2/turning_point.1) were already preserved -- P1. His
+  // education years (Kraków 1491-1495, then Bologna/Padua/Ferrara through
+  // his 1503 canon-law doctorate), the c.1510 Frombork settlement, and the
+  // exact 1543 death date were not previously dated in this profile -- P2,
+  // verified directly against src_copernicus_wikipedia (live fetch). Per
+  // the person-specific instruction, life_arc.4/6 do not claim he "proved"
+  // heliocentrism -- life_arc.4 says he "completed the core mathematics,"
+  // life_arc.6 explicitly states the wider astronomical influence
+  // "unfolded mostly after his death," preserving the same
+  // limited-immediate-impact framing this profile's own turning_point.1
+  // already established.
   "nicolaus-copernicus": {
     achievements: [
       { id: "nicolaus-copernicus-achievement-1", textKey: "nicolaus-copernicus.achievement.1", sourceIds: ["src_copernicus_revolutionibus", "src_copernicus_wikipedia"] },
@@ -2303,6 +2494,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "perfectionism",
         sourceIds: ["src_copernicus_gingerich", "src_copernicus_wikipedia"],
       },
+    ],
+    lifeArc: [
+      { year: "1473", textKey: "nicolaus-copernicus.life_arc.1", sourceIds: ["src_copernicus_wikipedia"] },
+      { year: "1491–1503", textKey: "nicolaus-copernicus.life_arc.2", sourceIds: ["src_copernicus_wikipedia"] },
+      { year: "1503–c. 1510", textKey: "nicolaus-copernicus.life_arc.3", sourceIds: ["src_copernicus_wikipedia"] },
+      { year: "c. 1514", textKey: "nicolaus-copernicus.life_arc.4", sourceIds: ["src_copernicus_gingerich", "src_copernicus_wikipedia"] },
+      { year: "1520–1521", textKey: "nicolaus-copernicus.life_arc.5", sourceIds: ["src_copernicus_mactutor"] },
+      { year: "1543", textKey: "nicolaus-copernicus.life_arc.6", sourceIds: ["src_copernicus_revolutionibus", "src_copernicus_wikipedia"] },
     ],
   },
 
@@ -2521,6 +2720,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // array (src_butler_macfound, src_butler_nasa, src_butler_smithsonian)
   // per the provenance rule -- a generic existing URL was not enough for
   // these specific new claims.
+  // Life Arc Backfill Batch 5 (2026-08): 6 beats. Does not reopen the
+  // Profile Quality Normalization Batch B achievement/legacy decisions
+  // (nothing above this comment touched). The Clarion workshop (moment.3)
+  // and MacArthur Fellowship (achievement.2/legacy) were already
+  // preserved -- P1. Patternmaster's 1976 publication year, the Kindred
+  // (1979) / Xenogenesis (1987-1989) dates, Parable of the Sower's 1993
+  // publication, and Fledgling (2005) as her last published novel were
+  // not previously dated in this profile -- P2, verified directly against
+  // src_butler_wikipedia (live fetch). Per the person-specific
+  // instruction, the MacArthur Fellowship appears inside life_arc.5
+  // alongside Parable of the Sower's publication -- one milestone among
+  // several, not the beat's sole content. life_arc.6 states her death
+  // plainly (near Seattle, 2006) without asserting a specific medical
+  // cause: the Wikipedia fetch itself flags contemporary news accounts of
+  // the cause as inconsistent, so no cause is stated here.
   "octavia-butler": {
     achievements: [
       { id: "octavia-butler-achievement-1", textKey: "octavia-butler.achievement.1", sourceIds: ["src_butler_wikipedia"] },
@@ -2542,6 +2756,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "octavia-butler-moment-3", textKey: "octavia-butler.moment.3", sourceIds: ["src_butler_wikipedia"] },
     ],
     turningPoints: [],
+    lifeArc: [
+      { year: "1947", textKey: "octavia-butler.life_arc.1", sourceIds: ["src_butler_wikipedia"] },
+      { year: "1968–1971", textKey: "octavia-butler.life_arc.2", sourceIds: ["src_butler_wikipedia"] },
+      { year: "1976", textKey: "octavia-butler.life_arc.3", sourceIds: ["src_butler_wikipedia"] },
+      { year: "1979–1989", textKey: "octavia-butler.life_arc.4", sourceIds: ["src_butler_wikipedia"] },
+      { year: "1993–1995", textKey: "octavia-butler.life_arc.5", sourceIds: ["src_butler_wikipedia", "src_butler_macfound"] },
+      { year: "2006", textKey: "octavia-butler.life_arc.6", sourceIds: ["src_butler_wikipedia"] },
+    ],
     legacy: {
       textKey: "octavia-butler.legacy",
       sourceIds: ["src_butler_wikipedia", "src_butler_nasa", "src_butler_smithsonian"],
@@ -2725,6 +2947,18 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 5 (2026-08): 6 beats. The Krishnan
+  // collaboration and calibrated Nobel-attribution framing (achievement.1)
+  // and the 1921 sea-voyage turning point (turning_point.1) were already
+  // preserved -- P1, and life_arc.4's Krishnan/Nobel wording is drawn
+  // directly from achievement.1's own already-calibrated language rather
+  // than restated independently. His Presidency College education years,
+  // the 1907 Finance Department entry, the 1933 IISc directorship, and
+  // the 1948-1949 Raman Research Institute founding were not previously
+  // dated in this profile -- P2, verified directly against
+  // src_raman_wikipedia (live fetch). Per the person-specific instruction,
+  // life_arc.4 states the 1928 discovery as the achievement and the 1930
+  // Nobel Prize as recognition of it, not as the accomplishment itself.
   "cv-raman": {
     achievements: [
       { id: "cv-raman-achievement-1", textKey: "cv-raman.achievement.1", sourceIds: ["src_raman_wikipedia", "src_raman_nobel"] },
@@ -2739,6 +2973,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "curiosity",
         sourceIds: ["src_raman_wikipedia"],
       },
+    ],
+    lifeArc: [
+      { year: "1888", textKey: "cv-raman.life_arc.1", sourceIds: ["src_raman_wikipedia"] },
+      { year: "1907–1917", textKey: "cv-raman.life_arc.2", sourceIds: ["src_raman_wikipedia"] },
+      { year: "1921", textKey: "cv-raman.life_arc.3", sourceIds: ["src_raman_wikipedia"] },
+      { year: "1928", textKey: "cv-raman.life_arc.4", sourceIds: ["src_raman_wikipedia", "src_raman_nobel"] },
+      { year: "1933–1948", textKey: "cv-raman.life_arc.5", sourceIds: ["src_raman_wikipedia"] },
+      { year: "1970", textKey: "cv-raman.life_arc.6", sourceIds: ["src_raman_wikipedia"] },
     ],
   },
 
