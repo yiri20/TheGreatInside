@@ -116,23 +116,35 @@ test.describe("Editorial sections — graceful absence of optional fields", () =
   //
   // Fixture migrated a sixth time (2026-08, Life Arc Backfill Batch 5):
   // Ludwig Wittgenstein himself gained a Life Arc in that batch. Migrated
-  // to susan-b-anthony, which has the same 3-populated-sections shape and
-  // no lifeArc, complexities, or legacy entry (see editorial.ts).
-  test("Susan B. Anthony (no lifeArc/complexities/legacy) shows none of those three headings and no orphan dividers", async ({
+  // to susan-b-anthony, which had the same 3-populated-sections shape and
+  // no lifeArc, complexities, or legacy entry at the time.
+  //
+  // Scope narrowed (2026-08, Life Arc Backfill Batch 6 -- the FINAL Life
+  // Arc batch): Batch 6 brings Life Arc coverage to 95/95 -- every roster
+  // person now has one. The "lifeArc absent" dimension this test covered
+  // can therefore never be demonstrated against real data again, the same
+  // structural retirement the "whole editorial block absent" dimension hit
+  // in 2026-08 (see the top comment above). Life Arc is dropped from this
+  // test's assertions; it now covers only the still-real, still-common
+  // case -- complexities/legacy remain evidence-gated and deliberately
+  // rare (see PersonEditorial in src/core/types.ts), so most profiles
+  // genuinely lack both. Migrated to benjamin-franklin, which has a Life
+  // Arc (Batch 1) plus achievements/moments/turningPoints, and no
+  // complexities or legacy entry.
+  test("Benjamin Franklin (no complexities/legacy) shows neither heading and no orphan dividers", async ({
     page,
   }) => {
-    await page.goto("/en-US/people/susan-b-anthony", { waitUntil: "networkidle" });
+    await page.goto("/en-US/people/benjamin-franklin", { waitUntil: "networkidle" });
     const headings = await page.locator("h2").allTextContents();
-    expect(headings.some((h) => h.includes("Life Arc"))).toBe(false);
     expect(headings.some((h) => h.includes("Complexities"))).toBe(false);
     expect(headings.some((h) => h.includes("Legacy"))).toBe(false);
     // Base page has 3 unconditional dividers (hero, constellation, sources)
-    // plus exactly one per POPULATED editorial section -- Susan B. Anthony
-    // has achievements/moments/turningPoints (3) and no lifeArc/
-    // complexities/legacy, so 3 + 3 = 6, not 3 + 6, confirming the three
+    // plus exactly one per POPULATED editorial section -- Benjamin Franklin
+    // has achievements/moments/turningPoints/lifeArc (4) and no
+    // complexities/legacy, so 3 + 4 = 7, not 3 + 6, confirming the two
     // absent optional sections contribute no orphan divider each.
     const dividerCount = await page.locator(".tgi-divider").count();
-    expect(dividerCount).toBe(6);
+    expect(dividerCount).toBe(7);
   });
 });
 
