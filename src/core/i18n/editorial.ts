@@ -2318,6 +2318,130 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Published Parable of the Sower, and in 1995 became the first science-fiction writer to receive a MacArthur Fellowship.",
   "octavia-butler.life_arc.6":
     "Died near Seattle, having published her final novel, Fledgling, the year before.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Susan B. Anthony */
+  "susan-b-anthony.life_arc.1": "Born.",
+  "susan-b-anthony.life_arc.2":
+    "After being refused the chance to speak at a temperance meeting because she was a woman, organized the Woman's New York State Temperance Society.",
+  "susan-b-anthony.life_arc.3":
+    "Co-founded the American Equal Rights Association, then, with Elizabeth Cady Stanton, the National Woman Suffrage Association.",
+  "susan-b-anthony.life_arc.4":
+    "Deliberately registered and voted in the presidential election to force a legal test case, leading to her arrest.",
+  "susan-b-anthony.life_arc.5":
+    "Convicted at trial after the judge directed the jury to a guilty verdict without deliberation; continued organizing for suffrage for the rest of her life.",
+  "susan-b-anthony.life_arc.6":
+    "Died; national women's suffrage was not achieved until the 19th Amendment's ratification fourteen years later, in 1920.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Benito Juárez */
+  "benito-juarez.life_arc.1":
+    "Born to a poor Zapotec family in rural Oaxaca; orphaned young and did not learn Spanish until around age twelve.",
+  "benito-juarez.life_arc.2": "Trained as a lawyer and rose through Oaxaca politics, eventually becoming the state's governor.",
+  "benito-juarez.life_arc.3":
+    "Became president amid the political crisis following Mexico's 1857 Constitution, as Liberal and Conservative forces fought the Reform War.",
+  "benito-juarez.life_arc.4":
+    "Led a government that continued operating and relocating under military pressure throughout the French intervention, without a fixed capital for years.",
+  "benito-juarez.life_arc.5":
+    "After the Republic's restoration, insisted captured Emperor Maximilian I receive a formal trial rather than summary execution; Maximilian was convicted and executed.",
+  "benito-juarez.life_arc.6": "Died in office, having been reelected president after the restoration.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Joan of Arc */
+  "joan-of-arc.life_arc.1": "Born in Domrémy.",
+  "joan-of-arc.life_arc.2":
+    "Testified that visions had directed her since around age thirteen to help the Dauphin; traveled to his court and persuaded him to grant her troops and equipment.",
+  "joan-of-arc.life_arc.3": "Helped lift the siege of Orléans, and was wounded by a crossbow bolt during the fighting before returning to it.",
+  "joan-of-arc.life_arc.4": "Led the campaign culminating in the Dauphin's coronation as Charles VII at Reims.",
+  "joan-of-arc.life_arc.5":
+    "Captured, then tried by an ecclesiastical court over months of interrogation; the trial record shows her defending her choice to continue wearing male clothing as her own repeated decision.",
+  "joan-of-arc.life_arc.6": "Executed.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Julius Caesar */
+  "julius-caesar.life_arc.1": "Born.",
+  "julius-caesar.life_arc.2": "Held a series of Roman magistracies before securing the governorship of Gaul.",
+  "julius-caesar.life_arc.3": "Led the Gallic Wars, a roughly eight-year campaign chronicled in his own Commentarii de Bello Gallico.",
+  "julius-caesar.life_arc.4": "Crossed the Rubicon with his legion, beginning a civil war against Pompey.",
+  "julius-caesar.life_arc.5": "Consolidated power as dictator, eventually proclaimed dictator for life, and reformed the Roman calendar.",
+  "julius-caesar.life_arc.6": "Assassinated by a group of senators on the Ides of March.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Fyodor Dostoevsky */
+  "fyodor-dostoevsky.life_arc.1": "Born.",
+  "fyodor-dostoevsky.life_arc.2": "Published his first novel, Poor Folk, launching his literary career.",
+  "fyodor-dostoevsky.life_arc.3":
+    "Arrested for involvement in a radical discussion circle; sentenced to death, then subjected to a staged mock execution before a last-minute reprieve, followed by four years of Siberian imprisonment.",
+  "fyodor-dostoevsky.life_arc.4": "Returned to literary life in St. Petersburg after further military service following his release.",
+  "fyodor-dostoevsky.life_arc.5":
+    "Published his major mature novels — Crime and Punishment, The Idiot, Demons — in parallel with an acute period of financial crisis and gambling.",
+  "fyodor-dostoevsky.life_arc.6": "Died.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Louis Armstrong */
+  "louis-armstrong.life_arc.1": "Born in New Orleans.",
+  "louis-armstrong.life_arc.2":
+    "After an arrest, was sent to the Colored Waif's Home for Boys, where he learned cornet technique and rose to lead the Home's brass band.",
+  "louis-armstrong.life_arc.3":
+    "Moved to Chicago at his mentor King Oliver's invitation, briefly joined Fletcher Henderson's orchestra in New York, then returned to Chicago to build a career under his own name.",
+  "louis-armstrong.life_arc.4":
+    "Formed the Hot Five and Hot Seven; the improvised solo playing on these recordings helped shift jazz toward the individual soloist, and he helped popularize scat singing in the same period.",
+  "louis-armstrong.life_arc.5":
+    "Toured internationally, including under US State Department sponsorship, becoming a widely recognized cultural figure nicknamed \"Ambassador Satch.\"",
+  "louis-armstrong.life_arc.6": "Died.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Louis Pasteur */
+  "louis-pasteur.life_arc.1": "Born.",
+  "louis-pasteur.life_arc.2":
+    "Studied chemistry at the École Normale Supérieure, and discovered molecular chirality by hand-separating mirror-image tartrate crystals.",
+  "louis-pasteur.life_arc.3":
+    "Demonstrated that fermentation is caused by living microorganisms, defending the finding in a public 1864 debate at the Académie des Sciences.",
+  "louis-pasteur.life_arc.4":
+    "Had a stroke that permanently paralyzed part of his left arm and leg, after years of grief following the deaths of three of his children.",
+  "louis-pasteur.life_arc.5":
+    "Publicly demonstrated an anthrax vaccine at Pouilly-le-Fort, then administered an experimental rabies treatment to nine-year-old Joseph Meister, the first successful human rabies vaccination.",
+  "louis-pasteur.life_arc.6":
+    "The resulting demand led to the founding of the Institut Pasteur, which he directed for the rest of his life; died in 1895.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Akio Morita */
+  "akio-morita.life_arc.1": "Born.",
+  "akio-morita.life_arc.2":
+    "Co-founded Tokyo Tsushin Kogyo with Masaru Ibuka, a partnership that shaped the company for decades; renamed Sony in 1958.",
+  "akio-morita.life_arc.3":
+    "Committed the still-small company to a costly transistor-technology licensing fee from Western Electric, when transistors were considered suited mainly to hearing aids.",
+  "akio-morita.life_arc.4":
+    "Rejected private-label deals for Sony's own brand name abroad, and personally relocated to the United States to learn the market firsthand.",
+  "akio-morita.life_arc.5": "Pushed the Walkman into production against near-unanimous internal opposition.",
+  "akio-morita.life_arc.6":
+    "A stroke ended his active leadership; stepped down as chairman the following year, and died in 1999.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Anna Pavlova */
+  "anna-pavlova.life_arc.1": "Born.",
+  "anna-pavlova.life_arc.2":
+    "Admitted to the Imperial Ballet School a year after being rejected at her first audition for being too young and frail.",
+  "anna-pavlova.life_arc.3":
+    "First danced The Dying Swan, choreographed by Michel Fokine, a role she performed for the rest of her career; named prima ballerina the following year.",
+  "anna-pavlova.life_arc.4":
+    "Left the Imperial Ballet to found and lead an independent touring company, performing across six continents for the next eighteen years.",
+  "anna-pavlova.life_arc.5": "Died of pleurisy in The Hague.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Mustafa Kemal Atatürk */
+  "mustafa-kemal-ataturk.life_arc.1": "Born in Salonica.",
+  "mustafa-kemal-ataturk.life_arc.2":
+    "Trained at Ottoman military academies, graduating from the Ottoman Military College in 1905.",
+  "mustafa-kemal-ataturk.life_arc.3":
+    "As a division commander at Gallipoli, ordered heavily outnumbered troops to hold the ridge at Chunuk Bair, an action that helped repel the Allied landing.",
+  "mustafa-kemal-ataturk.life_arc.4":
+    "Used an official Ottoman assignment to demobilize Anatolian forces as the platform to instead organize national resistance, leading the Turkish National Movement to found the Republic of Turkey in 1923.",
+  "mustafa-kemal-ataturk.life_arc.5":
+    "Closed the country's sole organized opposition party in 1925, and over the following years carried out sweeping legal and social reforms, including a new civil code and women's suffrage.",
+  "mustafa-kemal-ataturk.life_arc.6": "Died at Dolmabahçe Palace, Istanbul.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Oscar Niemeyer */
+  "oscar-niemeyer.life_arc.1": "Born in Rio de Janeiro.",
+  "oscar-niemeyer.life_arc.2":
+    "Graduated in architecture from Rio's National School of Fine Arts, then joined Lúcio Costa's team on major modernist commissions through the following decade.",
+  "oscar-niemeyer.life_arc.3":
+    "Designed and built the government and civic core of Brasília within four years, working alongside Costa after President Kubitschek personally invited him.",
+  "oscar-niemeyer.life_arc.4":
+    "After the military coup, his office was raided and his clients disappeared; he resigned from the University of Brasília in protest alongside roughly two hundred colleagues, and left for exile in France.",
+  "oscar-niemeyer.life_arc.5":
+    "Sustained an internationally distributed practice across several countries during two decades of exile, before returning to Brazil after the dictatorship ended.",
+  "oscar-niemeyer.life_arc.6": "Died in Rio de Janeiro at 104.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -4489,6 +4613,130 @@ export const EDITORIAL_KO: Record<string, string> = {
     "『씨앗을 뿌리는 사람의 우화』를 출간했고, 1995년에는 SF 작가로서는 최초로 맥아더 펠로십을 받았다.",
   "octavia-butler.life_arc.6":
     "시애틀 인근에서 세상을 떠났다. 그 전해에 마지막 장편소설 『플레들링』을 출간한 바 있었다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Susan B. Anthony */
+  "susan-b-anthony.life_arc.1": "태어났다.",
+  "susan-b-anthony.life_arc.2":
+    "여성이라는 이유로 금주 집회에서 발언 기회를 거부당한 뒤, 뉴욕주 여성 금주 협회를 직접 조직했다.",
+  "susan-b-anthony.life_arc.3":
+    "미국 평등권 협회를 공동 설립했고, 이어 엘리자베스 케이디 스탠턴과 함께 전국 여성 참정권 협회를 세웠다.",
+  "susan-b-anthony.life_arc.4":
+    "법적 시험 사례를 만들기 위해 대통령 선거에서 의도적으로 유권자 등록을 하고 투표했다가 체포되었다.",
+  "susan-b-anthony.life_arc.5":
+    "재판에서 판사가 배심원에게 숙의 없이 유죄 평결을 지시한 가운데 유죄 판결을 받았다. 이후에도 평생 참정권 운동을 계속했다.",
+  "susan-b-anthony.life_arc.6":
+    "세상을 떠났다. 전국적인 여성 참정권은 그로부터 14년 뒤인 1920년 수정헌법 제19조가 비준되고 나서야 이루어졌다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Benito Juárez */
+  "benito-juarez.life_arc.1":
+    "오악사카의 가난한 사포텍 가정에서 태어났다. 어려서 고아가 되었고, 열두 살 무렵까지 스페인어를 배우지 못했다.",
+  "benito-juarez.life_arc.2": "변호사로 훈련받은 뒤 오악사카 정계에서 두각을 나타내 결국 주지사가 되었다.",
+  "benito-juarez.life_arc.3":
+    "1857년 헌법 제정 이후의 정치적 위기 속에서, 자유파와 보수파가 개혁 전쟁을 벌이는 가운데 대통령이 되었다.",
+  "benito-juarez.life_arc.4":
+    "프랑스 개입 기간 내내 군사적 압박 속에서도 정부를 계속 운영하며, 여러 해 동안 고정된 수도 없이 이동했다.",
+  "benito-juarez.life_arc.5":
+    "공화국이 회복된 뒤, 사로잡힌 막시밀리아노 1세 황제에게 즉결 처형이 아닌 정식 재판을 받게 했다. 막시밀리아노는 유죄 판결을 받고 처형되었다.",
+  "benito-juarez.life_arc.6": "재임 중 세상을 떠났다. 공화국 회복 이후 대통령에 재선된 상태였다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Joan of Arc */
+  "joan-of-arc.life_arc.1": "동레미에서 태어났다.",
+  "joan-of-arc.life_arc.2":
+    "13세 무렵부터 환영이 자신에게 도팽을 도우라고 지시했다고 증언했다. 도팽의 궁정으로 가서 병력과 장비를 지원받도록 설득했다.",
+  "joan-of-arc.life_arc.3": "오를레앙 포위전 해제를 도왔고, 전투 중 석궁 화살에 부상을 입었지만 다시 전장으로 돌아갔다.",
+  "joan-of-arc.life_arc.4": "도팽이 샤를 7세로 대관식을 치르는 원정을 이끌었다.",
+  "joan-of-arc.life_arc.5":
+    "붙잡힌 뒤 종교 재판을 받으며 몇 달에 걸쳐 심문당했다. 재판 기록에 따르면 남장을 계속하겠다는 선택을 스스로 거듭 내린 결정이라고 옹호했다.",
+  "joan-of-arc.life_arc.6": "처형되었다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Julius Caesar */
+  "julius-caesar.life_arc.1": "태어났다.",
+  "julius-caesar.life_arc.2": "일련의 로마 관직을 거친 뒤 갈리아 총독직을 확보했다.",
+  "julius-caesar.life_arc.3": "자신의 『갈리아 전기』에 기록된, 약 8년에 걸친 갈리아 전쟁을 이끌었다.",
+  "julius-caesar.life_arc.4": "군단을 이끌고 루비콘강을 건너 폼페이우스와의 내전을 시작했다.",
+  "julius-caesar.life_arc.5": "독재관으로서 권력을 다졌고, 이후 종신 독재관으로 선포되었으며, 로마 달력을 개혁했다.",
+  "julius-caesar.life_arc.6": "3월 15일, 원로원 의원들에게 암살당했다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Fyodor Dostoevsky */
+  "fyodor-dostoevsky.life_arc.1": "태어났다.",
+  "fyodor-dostoevsky.life_arc.2": "첫 소설 『가난한 사람들』을 출간하며 문학 경력을 시작했다.",
+  "fyodor-dostoevsky.life_arc.3":
+    "급진적 토론 모임에 가담한 혐의로 체포되었다. 사형을 선고받았으나 조작된 처형 상황에서 마지막 순간에 감형되었고, 이후 4년간 시베리아 유형에 처해졌다.",
+  "fyodor-dostoevsky.life_arc.4":
+    "석방 후 추가 군 복무를 마치고 상트페테르부르크로 돌아와 다시 문학 활동을 시작했다.",
+  "fyodor-dostoevsky.life_arc.5":
+    "재정 위기와 도박이 극심했던 시기와 겹쳐, 『죄와 벌』, 『백치』, 『악령』 등 원숙기의 주요 장편소설들을 발표했다.",
+  "fyodor-dostoevsky.life_arc.6": "세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Louis Armstrong */
+  "louis-armstrong.life_arc.1": "뉴올리언스에서 태어났다.",
+  "louis-armstrong.life_arc.2":
+    "체포된 뒤 유색인 소년 보호소로 보내졌고, 그곳에서 코넷 연주법을 배워 보호소 관악대를 이끌게 되었다.",
+  "louis-armstrong.life_arc.3":
+    "스승 킹 올리버의 초청으로 시카고로 이주했고, 이후 잠시 뉴욕에서 플레처 헨더슨 악단에 합류했다가 다시 시카고로 돌아와 자기 이름을 내건 경력을 쌓기 시작했다.",
+  "louis-armstrong.life_arc.4":
+    "핫 파이브와 핫 세븐을 결성했다. 이 녹음들에 담긴 즉흥 솔로 연주는 재즈를 개인 즉흥연주자 중심의 장르로 바꾸는 데 기여했고, 같은 시기 스캣 창법의 대중화에도 힘을 보탰다.",
+  "louis-armstrong.life_arc.5":
+    "미국 국무부 후원 투어를 포함해 국제적으로 순회공연을 다니며, '앰배서더 새치'라는 별명으로 불리는 널리 알려진 문화적 인물이 되었다.",
+  "louis-armstrong.life_arc.6": "세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Louis Pasteur */
+  "louis-pasteur.life_arc.1": "태어났다.",
+  "louis-pasteur.life_arc.2":
+    "고등사범학교에서 화학을 공부했고, 주석산 결정의 거울상 형태를 손으로 분리해 분자 카이랄성을 발견했다.",
+  "louis-pasteur.life_arc.3":
+    "발효가 살아 있는 미생물에 의해 일어난다는 사실을 입증했고, 1864년 프랑스 과학아카데미에서 열린 공개 논쟁에서 이 발견을 옹호했다.",
+  "louis-pasteur.life_arc.4":
+    "세 자녀를 잃은 슬픔이 이어진 시기를 거친 뒤, 뇌졸중으로 왼쪽 팔과 다리 일부가 영구히 마비되었다.",
+  "louis-pasteur.life_arc.5":
+    "푸이유르포르에서 탄저병 백신을 공개적으로 시연했고, 이후 아홉 살 소년 조제프 마이스터에게 실험적인 광견병 치료를 시행해 인체 대상 광견병 백신의 첫 성공 사례를 남겼다.",
+  "louis-pasteur.life_arc.6":
+    "치료 수요가 급증하면서 파스퇴르 연구소 설립으로 이어졌고, 그는 평생 이 연구소를 이끌었다. 1895년 세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Akio Morita */
+  "akio-morita.life_arc.1": "태어났다.",
+  "akio-morita.life_arc.2":
+    "이부카 마사루와 함께 도쿄통신공업을 공동 설립했다. 이후 수십 년을 함께한 이 동업 관계는 1958년 회사명을 소니로 바꾸는 데까지 이어졌다.",
+  "akio-morita.life_arc.3":
+    "트랜지스터가 주로 보청기에나 어울린다고 여겨지던 시절, 웨스턴 일렉트릭으로부터 값비싼 트랜지스터 기술 사용권을 사들이기로 결정했다.",
+  "akio-morita.life_arc.4":
+    "해외에서 대여 상표 계약을 거절하고 소니 자체 브랜드를 고수했으며, 시장을 직접 파악하기 위해 미국으로 이주했다.",
+  "akio-morita.life_arc.5": "거의 만장일치에 가까운 사내 반대를 무릅쓰고 워크맨을 생산으로 밀어붙였다.",
+  "akio-morita.life_arc.6":
+    "뇌졸중으로 경영 일선에서 물러났다. 이듬해 회장직에서도 물러났고, 1999년 세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Anna Pavlova */
+  "anna-pavlova.life_arc.1": "태어났다.",
+  "anna-pavlova.life_arc.2":
+    "첫 오디션에서 너무 어리고 허약하다는 이유로 탈락한 지 1년 뒤 황실발레학교에 입학했다.",
+  "anna-pavlova.life_arc.3":
+    "미하일 포킨이 안무한 《빈사의 백조》를 처음 선보였다. 이후 평생 이 배역을 연기했으며, 이듬해 프리마 발레리나로 임명되었다.",
+  "anna-pavlova.life_arc.4":
+    "황실발레단을 떠나 독립 순회 무용단을 세워 이끌었고, 이후 18년 동안 여섯 대륙을 돌며 공연했다.",
+  "anna-pavlova.life_arc.5": "헤이그에서 흉막염으로 세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Mustafa Kemal Atatürk */
+  "mustafa-kemal-ataturk.life_arc.1": "테살로니키에서 태어났다.",
+  "mustafa-kemal-ataturk.life_arc.2": "오스만 육군사관학교들에서 훈련받았고, 1905년 오스만 육군대학을 졸업했다.",
+  "mustafa-kemal-ataturk.life_arc.3":
+    "갈리폴리에서 사단 지휘관으로서, 병력이 크게 열세였던 부대에 추누크바이르 능선을 사수하라고 명령했고, 이는 연합군의 상륙을 저지하는 데 도움이 되었다.",
+  "mustafa-kemal-ataturk.life_arc.4":
+    "아나톨리아 병력을 무장 해제하라는 오스만 정부의 공식 임무를 오히려 민족 저항 조직화의 발판으로 삼았고, 튀르키예 민족운동을 이끌어 1923년 튀르키예 공화국을 세웠다.",
+  "mustafa-kemal-ataturk.life_arc.5":
+    "1925년 국내 유일한 조직 야당을 폐쇄했고, 이후 몇 년에 걸쳐 새로운 민법 제정과 여성 참정권 도입을 포함한 대대적인 법률·사회 개혁을 단행했다.",
+  "mustafa-kemal-ataturk.life_arc.6": "이스탄불의 돌마바흐체 궁전에서 세상을 떠났다.",
+
+  /* --------------------------------- Life Arc Backfill Batch 6 (FINAL): Oscar Niemeyer */
+  "oscar-niemeyer.life_arc.1": "리우데자네이루에서 태어났다.",
+  "oscar-niemeyer.life_arc.2":
+    "리우 국립미술학교에서 건축을 전공해 졸업한 뒤, 루시우 코스타의 팀에 합류해 이후 10년간 주요 모더니즘 작업에 참여했다.",
+  "oscar-niemeyer.life_arc.3":
+    "쿠비체크 대통령의 직접 초청을 받아 코스타와 함께 브라질리아의 정부·행정 중심부를 4년 만에 설계하고 건설했다.",
+  "oscar-niemeyer.life_arc.4":
+    "군사 쿠데타 이후 그의 사무실이 수색당하고 의뢰인들이 자취를 감췄다. 브라질리아 대학교 동료 약 200명과 함께 항의의 뜻으로 사임했고, 프랑스로 망명했다.",
+  "oscar-niemeyer.life_arc.5":
+    "20년에 걸친 망명 기간 동안 여러 나라에 걸친 국제적인 활동을 이어갔고, 군사 독재가 끝난 뒤 브라질로 돌아왔다.",
+  "oscar-niemeyer.life_arc.6": "104세로 리우데자네이루에서 세상을 떠났다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

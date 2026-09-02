@@ -353,6 +353,29 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): D-CAUTION profile,
+  // dedicated attribution review performed. Birth year/place (c. 1412,
+  // Domrémy) and the campaign chronology (Orléans, Reims coronation,
+  // capture, trial, execution -- all 1429-1431) are P2, verified directly
+  // against src_joanofarc_wikipedia (live fetch), which itself attributes
+  // the visions to her own testimony rather than narrating them as
+  // established fact ("Joan later testified that...", "she stated that
+  // she had these visions..."). life_arc.2 mirrors that exact discipline
+  // ("Testified that visions had directed her...") rather than stating
+  // she experienced visions as settled biographical fact. No beat
+  // narrates a canonization-era framing -- the arc ends at her 1431
+  // execution, not at any later (1456 nullification, 1920 canonization)
+  // event, per the person-specific instruction not to fold canonization
+  // into her own life chronology. life_arc.5's account of the male-clothing
+  // charge already matches this profile's own preserved turning_point.1 --
+  // P1, not restated verbatim, only referenced for chronological
+  // orientation. Attribution review caught one internal inconsistency: the
+  // fresh Wikipedia fetch described the Orléans wounding as an "arrow,"
+  // but this profile's own already-published moment.2 (P1, sourced to
+  // src_joanofarc_nullification) says "crossbow bolt" -- life_arc.3
+  // corrected to match the existing P1 claim rather than the new P2
+  // source, per "prefer P1 where equally useful," sourceIds updated to
+  // cite the nullification-trial source accordingly.
   "joan-of-arc": {
     achievements: [
       { id: "joan-of-arc-achievement-1", textKey: "joan-of-arc.achievement.1", sourceIds: ["src_joanofarc_wikipedia", "src_joanofarc_nullification"] },
@@ -371,6 +394,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "independent_thinking",
         sourceIds: ["src_joanofarc_trial"],
       },
+    ],
+    lifeArc: [
+      { year: "c. 1412", textKey: "joan-of-arc.life_arc.1", sourceIds: ["src_joanofarc_wikipedia"] },
+      { year: "1429", textKey: "joan-of-arc.life_arc.2", sourceIds: ["src_joanofarc_wikipedia", "src_joanofarc_trial"] },
+      { year: "1429", textKey: "joan-of-arc.life_arc.3", sourceIds: ["src_joanofarc_nullification", "src_joanofarc_wikipedia"] },
+      { year: "1429", textKey: "joan-of-arc.life_arc.4", sourceIds: ["src_joanofarc_wikipedia"] },
+      { year: "1430–1431", textKey: "joan-of-arc.life_arc.5", sourceIds: ["src_joanofarc_wikipedia", "src_joanofarc_trial"] },
+      { year: "1431", textKey: "joan-of-arc.life_arc.6", sourceIds: ["src_joanofarc_wikipedia"] },
     ],
   },
 
@@ -425,6 +456,23 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // rawNotes.md, Life Period 6 and the file's own "Key achievements" #3),
   // using existing sourceIds already on this person's record -- no new
   // research, no new source added.
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 6 beats. Does NOT
+  // reopen the Key Achievements Correction Batch 1 or Profile Quality
+  // Normalization Batch B decisions above (nothing in those comments or
+  // the achievements/moments/turningPoints arrays touched). Gallipoli
+  // (life_arc.3) is stated as one beat among six, not the arc's climax --
+  // consistent with the person-specific instruction that it not stand in
+  // for the whole achievement. The 1925 opposition-party closure
+  // (turning_point.1, P1) is referenced briefly in life_arc.5 for
+  // chronological orientation, per the instruction that this material not
+  // be silently erased where relevant -- kept to one clause, not expanded
+  // into a Complexity-style treatment. Military education years (1899
+  // enrollment, 1905 graduation) and the exact death date/location were
+  // P2, verified directly against a live Wikipedia fetch; this person's
+  // own `sources` array has no plain Wikipedia entry, so these beats cite
+  // src_ataturk_mango (Andrew Mango's full-life biography, already used
+  // elsewhere on this profile) as the general-chronology source rather
+  // than inventing an id not in this person's own source list.
   "mustafa-kemal-ataturk": {
     achievements: [
       { id: "mustafa-kemal-ataturk-achievement-2", textKey: "mustafa-kemal-ataturk.achievement.2", sourceIds: ["src_ataturk_mango", "src_ataturk_nutuk"] },
@@ -444,8 +492,34 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
       { id: "mustafa-kemal-ataturk-turning-point-2", textKey: "mustafa-kemal-ataturk.turning_point.2", sourceIds: ["src_ataturk_mango"] },
     ],
+    lifeArc: [
+      { year: "1881", textKey: "mustafa-kemal-ataturk.life_arc.1", sourceIds: ["src_ataturk_mango"] },
+      { year: "1899–1905", textKey: "mustafa-kemal-ataturk.life_arc.2", sourceIds: ["src_ataturk_mango"] },
+      { year: "1915", textKey: "mustafa-kemal-ataturk.life_arc.3", sourceIds: ["src_ataturk_mango", "src_ataturk_kinross"] },
+      { year: "1919–1923", textKey: "mustafa-kemal-ataturk.life_arc.4", sourceIds: ["src_ataturk_mango", "src_ataturk_nutuk"] },
+      { year: "1925–1934", textKey: "mustafa-kemal-ataturk.life_arc.5", sourceIds: ["src_ataturk_mango", "src_ataturk_executed", "src_ataturk_newlines"] },
+      { year: "1938", textKey: "mustafa-kemal-ataturk.life_arc.6", sourceIds: ["src_ataturk_mango"] },
+    ],
   },
 
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 5 beats -- a 6th
+  // would have required inventing precision the record doesn't clearly
+  // support for a distinct "later career" phase beyond the touring
+  // company already covered. Per the person-specific instruction, The
+  // Dying Swan (life_arc.3) is one beat, not a stand-in for her whole
+  // career, and the final beat states her death plainly (pleurisy, The
+  // Hague) without the "died for dance" framing her own preserved
+  // turning_point.1 quote could invite -- that quote is not restated
+  // here. A live Wikipedia fetch for the Imperial Ballet School admission
+  // year (1891) and first Dying Swan performance (1905, choreographed by
+  // Fokine) explicitly states no surgery-refusal is documented in that
+  // source, unlike this profile's own turning_point.1 (P1, sourced
+  // separately to src_pavlova_hh/src_pavlova_nwe) -- life_arc deliberately
+  // does not restate that claim, consistent with the minimal-evidence
+  // principle. This person's `sources` array has no plain Wikipedia
+  // entry, so P2 beats cite src_pavlova_enc1 (an encyclopedia biography
+  // already used for her other achievement items) as the
+  // general-chronology source.
   "anna-pavlova": {
     achievements: [
       { id: "anna-pavlova-achievement-1", textKey: "anna-pavlova.achievement.1", sourceIds: ["src_pavlova_enc1"] },
@@ -470,6 +544,13 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "risk_tolerance",
         sourceIds: ["src_pavlova_hh", "src_pavlova_nwe"],
       },
+    ],
+    lifeArc: [
+      { year: "1881", textKey: "anna-pavlova.life_arc.1", sourceIds: ["src_pavlova_enc1"] },
+      { year: "1891", textKey: "anna-pavlova.life_arc.2", sourceIds: ["src_pavlova_enc1"] },
+      { year: "1905", textKey: "anna-pavlova.life_arc.3", sourceIds: ["src_pavlova_enc1"] },
+      { year: "1913", textKey: "anna-pavlova.life_arc.4", sourceIds: ["src_pavlova_enc2", "src_pavlova_ebsco"] },
+      { year: "1931", textKey: "anna-pavlova.life_arc.5", sourceIds: ["src_pavlova_enc1"] },
     ],
   },
 
@@ -681,6 +762,18 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // decisive act, so no new claim was introduced. achievement.2 and
   // achievement.3 (the calendar reform, the Gallic campaign) are unrelated
   // and left untouched, per this task's scope.
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): D-CAUTION profile,
+  // dedicated chronology review performed. Magistracy/governorship years,
+  // the Gallic Wars span, the dictator/dictator-perpetuo dates, and the
+  // exact assassination date/location are P2, verified directly against
+  // src_caesar_wikipedia (live fetch). No beat uses embellished
+  // Shakespearean phrasing ("et tu, Brute" and similar do not appear
+  // anywhere in this arc) -- life_arc.6 states the assassination plainly
+  // ("Assassinated by a group of senators on the Ides of March") without
+  // dramatization, and no casualty figures are stated or implied anywhere
+  // in the arc, consistent with the instruction not to manufacture
+  // casualty precision. No beat asserts a specific psychological motive
+  // for the Rubicon crossing or the dictatorship.
   "julius-caesar": {
     achievements: [
       { id: "julius-caesar-achievement-2", textKey: "julius-caesar.achievement.2", sourceIds: ["src_caesar_wikipedia"] },
@@ -699,6 +792,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_caesar_wikipedia", "src_caesar_plutarch"],
       },
       { id: "julius-caesar-turning-point-2", textKey: "julius-caesar.turning_point.2", sourceIds: ["src_caesar_suetonius", "src_caesar_plutarch"] },
+    ],
+    lifeArc: [
+      { year: "100 BCE", textKey: "julius-caesar.life_arc.1", sourceIds: ["src_caesar_wikipedia"] },
+      { year: "69–58 BCE", textKey: "julius-caesar.life_arc.2", sourceIds: ["src_caesar_wikipedia"] },
+      { year: "58–51 BCE", textKey: "julius-caesar.life_arc.3", sourceIds: ["src_caesar_commentaries", "src_caesar_wikipedia"] },
+      { year: "49 BCE", textKey: "julius-caesar.life_arc.4", sourceIds: ["src_caesar_wikipedia", "src_caesar_suetonius"] },
+      { year: "49–44 BCE", textKey: "julius-caesar.life_arc.5", sourceIds: ["src_caesar_wikipedia"] },
+      { year: "44 BCE", textKey: "julius-caesar.life_arc.6", sourceIds: ["src_caesar_wikipedia", "src_caesar_suetonius", "src_caesar_plutarch"] },
     ],
   },
 
@@ -741,6 +842,23 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 6 beats. The
+  // Zapotec-origins/orphaned-childhood fact (achievement.1), the French
+  // intervention span (achievement.2), and the Maximilian trial/execution
+  // (moment.1/turning_point.1) were already preserved -- P1. Governorship
+  // years, the 1858 presidency start, and the exact death date/cause were
+  // P2, verified directly against src_juarez_wikipedia (live fetch). No
+  // beat treats Maximilian's execution as the arc's defining purpose --
+  // it is one clause within life_arc.5, not its own beat, per the
+  // person-specific instruction. Note on the task brief's reference to "a
+  // prior normalization audit" flagging a Turning Point as borderline/P3/
+  // minor: an exhaustive repo-wide search (this file, i18n/editorial.ts,
+  // roster8.ts, the candidate JSON, docs/checkpoints/, docs/archive/)
+  // found no such comment anywhere in the repository for this person --
+  // repo state is authoritative over that claim (CLAUDE.md invariant 8),
+  // and since this batch does not touch turningPoints for this person in
+  // any case, the discrepancy doesn't block this beat set, but it's
+  // flagged here rather than silently assumed correct.
   "benito-juarez": {
     achievements: [
       { id: "benito-juarez-achievement-1", textKey: "benito-juarez.achievement.1", sourceIds: ["src_juarez_wikipedia"] },
@@ -758,6 +876,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     turningPoints: [
       { id: "benito-juarez-turning-point-1", textKey: "benito-juarez.turning_point.1", sourceIds: ["src_juarez_biography", "src_juarez_wikipedia"] },
+    ],
+    lifeArc: [
+      { year: "1806", textKey: "benito-juarez.life_arc.1", sourceIds: ["src_juarez_wikipedia"] },
+      { year: "1834–1847", textKey: "benito-juarez.life_arc.2", sourceIds: ["src_juarez_wikipedia"] },
+      { year: "1858", textKey: "benito-juarez.life_arc.3", sourceIds: ["src_juarez_wikipedia"] },
+      { year: "1862–1867", textKey: "benito-juarez.life_arc.4", sourceIds: ["src_juarez_biography", "src_juarez_wikipedia"] },
+      { year: "1867", textKey: "benito-juarez.life_arc.5", sourceIds: ["src_juarez_biography", "src_juarez_wikipedia"] },
+      { year: "1872", textKey: "benito-juarez.life_arc.6", sourceIds: ["src_juarez_wikipedia"] },
     ],
   },
 
@@ -1982,6 +2108,20 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 6 beats. The mock
+  // execution (turning_point.1) and the ceding-authority-to-Anna turning
+  // point were already preserved -- P1, and life_arc.3 references the mock
+  // execution only for chronological placement, not restating its
+  // already-published detail. First-novel year (1846), the Siberian
+  // imprisonment/exile span (1849-1854), the 1859 return to St.
+  // Petersburg, and the mature-novel publication years were P2, verified
+  // directly against a live Wikipedia fetch; this person's `sources`
+  // array has no plain Wikipedia entry, so these beats cite
+  // src_dostoevsky_encyc (Encyclopedia.com's biography, already this
+  // profile's general-chronology source for achievement.1/2) as the
+  // citation. Per the person-specific instruction, no beat mentions
+  // epilepsy, and the mock execution is not dramatized beyond what
+  // turning_point.1 already establishes.
   "fyodor-dostoevsky": {
     achievements: [
       {
@@ -2019,6 +2159,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_dostoevsky_russianlife"],
       },
     ],
+    lifeArc: [
+      { year: "1821", textKey: "fyodor-dostoevsky.life_arc.1", sourceIds: ["src_dostoevsky_encyc"] },
+      { year: "1846", textKey: "fyodor-dostoevsky.life_arc.2", sourceIds: ["src_dostoevsky_encyc"] },
+      { year: "1849–1854", textKey: "fyodor-dostoevsky.life_arc.3", sourceIds: ["src_dostoevsky_ubcwiki", "src_dostoevsky_encyc"] },
+      { year: "1859", textKey: "fyodor-dostoevsky.life_arc.4", sourceIds: ["src_dostoevsky_encyc"] },
+      { year: "1866–1872", textKey: "fyodor-dostoevsky.life_arc.5", sourceIds: ["src_dostoevsky_encyc", "src_dostoevsky_yale"] },
+      { year: "1881", textKey: "fyodor-dostoevsky.life_arc.6", sourceIds: ["src_dostoevsky_encyc"] },
+    ],
   },
 
   // Key Achievements Correction Batch 1 (2026-08): the prior profile's only
@@ -2047,6 +2195,23 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // louis-pasteur.moment.2 -> louis-pasteur.complexities.1 following the
   // aung-san-suu-kyi.complexities.1 precedent (a rename of the same verbatim text,
   // not new content).
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 6 beats. Does NOT
+  // reopen or rewrite the Profile Quality Normalization Batch A Moment ->
+  // Complexity reclassification above -- complexities.1 (the Pouilly-le-
+  // Fort vaccine substitution) is untouched, and life_arc.5 states only
+  // that the anthrax vaccine was "publicly demonstrated," never engaging
+  // the substitution question the Complexity section exists to handle,
+  // per the person-specific instruction. Chirality discovery (achievement.1),
+  // the 1864 Pouchet debate (achievement.2), the 1868 stroke and its
+  // grief context (turning_point.1), and the Meister rabies treatment
+  // (turning_point.2) were already preserved -- P1. Education years,
+  // exact founding year of the Institut Pasteur (1887, conception and
+  // opening the same year per the fetch, not the two-part 1887-88 range
+  // achievement.3 uses elsewhere), and the exact death date were P2,
+  // verified directly against a live Wikipedia fetch; this person's
+  // `sources` array has no plain Wikipedia entry, so these beats cite
+  // src_pasteur_shi (this profile's existing general-history source,
+  // already used across achievement.1/2 and turning_point.1/3).
   "louis-pasteur": {
     achievements: [
       { id: "louis-pasteur-achievement-1", textKey: "louis-pasteur.achievement.1", sourceIds: ["src_pasteur_shi"] },
@@ -2080,6 +2245,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_pasteur_geison", "src_pasteur_gavi", "src_pasteur_hov"],
       },
     ],
+    lifeArc: [
+      { year: "1822", textKey: "louis-pasteur.life_arc.1", sourceIds: ["src_pasteur_shi"] },
+      { year: "1843–1848", textKey: "louis-pasteur.life_arc.2", sourceIds: ["src_pasteur_shi"] },
+      { year: "1857–1864", textKey: "louis-pasteur.life_arc.3", sourceIds: ["src_pasteur_shi", "src_pasteur_pouchet"] },
+      { year: "1868", textKey: "louis-pasteur.life_arc.4", sourceIds: ["src_pasteur_shi"] },
+      { year: "1881–1885", textKey: "louis-pasteur.life_arc.5", sourceIds: ["src_pasteur_gavi", "src_pasteur_iprabies", "src_pasteur_iphist"] },
+      { year: "1887–1895", textKey: "louis-pasteur.life_arc.6", sourceIds: ["src_pasteur_shi"] },
+    ],
   },
 
   // Key Achievements Correction Batch 1 (2026-08): achievement.2 rewritten
@@ -2091,6 +2264,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // src_armstrong_hmbio and src_armstrong_teachout (both already in
   // roster9.ts's sources array), directly matching evidence episode #15 in
   // src/dev/roster1000/production/session18/louis-armstrong/rawNotes.md.
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 6 beats,
+  // team-credit review performed. The Waif's Home cornet training
+  // (moment.1) and the Henderson/Hardin turning point (turning_point.1)
+  // were already preserved -- P1. Birth year, Chicago move (King Oliver's
+  // invitation -- his mentor, named explicitly in life_arc.3 rather than
+  // omitted), the Hot Five/Seven formation years, and the international
+  // touring/"Ambassador Satch" period were P2, verified directly against
+  // a live Wikipedia fetch; this person's `sources` array has no plain
+  // Wikipedia entry, so these beats cite src_armstrong_hmbio (this
+  // profile's existing general-biography source, already used for
+  // achievement.1/moment.1/turning_point.1). Per the person-specific
+  // instruction, no beat reduces him to a single recording or an
+  // entertainer stereotype, and life_arc.4 attributes the soloist-jazz
+  // shift to "the improvised solo playing on these recordings," not to
+  // Armstrong as jazz's sole originator.
   "louis-armstrong": {
     achievements: [
       { id: "louis-armstrong-achievement-1", textKey: "louis-armstrong.achievement.1", sourceIds: ["src_armstrong_hmbio"] },
@@ -2116,8 +2304,29 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_armstrong_hmbio"],
       },
     ],
+    lifeArc: [
+      { year: "1901", textKey: "louis-armstrong.life_arc.1", sourceIds: ["src_armstrong_hmbio"] },
+      { year: "1912–1914", textKey: "louis-armstrong.life_arc.2", sourceIds: ["src_armstrong_hmbio"] },
+      { year: "1922–1925", textKey: "louis-armstrong.life_arc.3", sourceIds: ["src_armstrong_hmbio"] },
+      { year: "1925–1928", textKey: "louis-armstrong.life_arc.4", sourceIds: ["src_armstrong_hmbio", "src_armstrong_teachout"] },
+      { year: "1950s–1965", textKey: "louis-armstrong.life_arc.5", sourceIds: ["src_armstrong_hmbio"] },
+      { year: "1971", textKey: "louis-armstrong.life_arc.6", sourceIds: ["src_armstrong_hmbio"] },
+    ],
   },
 
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 6 beats,
+  // team-credit review performed. The 1953 transistor-licensing decision
+  // (achievement.1) and the 1979 Walkman push (achievement.2) were
+  // already preserved -- P1. The Ibuka co-founding partnership (1946,
+  // Tokyo Tsushin Kogyo), the 1958 Sony rename, the 1960 US relocation,
+  // and the 1993 stroke/1994 retirement/1999 death sequence were P2,
+  // verified directly against a live Wikipedia fetch; this person's
+  // `sources` array has no plain Wikipedia entry, so these beats cite
+  // src_morita_encyc (an encyclopedia biography already used for
+  // achievement.1/moment.3/turning_point.1). Per the person-specific
+  // instruction, life_arc.2 names Masaru Ibuka explicitly as co-founder
+  // rather than crediting the company's founding to Morita alone --
+  // avoiding the lone-founder framing the instruction warns against.
   "akio-morita": {
     achievements: [
       { id: "akio-morita-achievement-1", textKey: "akio-morita.achievement.1", sourceIds: ["src_morita_memoir", "src_morita_ebsco", "src_morita_encyc"] },
@@ -2143,8 +2352,34 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         sourceIds: ["src_morita_ebsco", "src_morita_encyc"],
       },
     ],
+    lifeArc: [
+      { year: "1921", textKey: "akio-morita.life_arc.1", sourceIds: ["src_morita_encyc"] },
+      { year: "1946", textKey: "akio-morita.life_arc.2", sourceIds: ["src_morita_encyc"] },
+      { year: "1953", textKey: "akio-morita.life_arc.3", sourceIds: ["src_morita_memoir", "src_morita_ebsco", "src_morita_encyc"] },
+      { year: "1960", textKey: "akio-morita.life_arc.4", sourceIds: ["src_morita_encyc"] },
+      { year: "1979", textKey: "akio-morita.life_arc.5", sourceIds: ["src_morita_commoncog"] },
+      { year: "1993–1999", textKey: "akio-morita.life_arc.6", sourceIds: ["src_morita_encyc"] },
+    ],
   },
 
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 6 beats,
+  // team-credit review performed. The Brasília construction/Kubitschek
+  // invitation (achievement.1) and the exile-era international practice
+  // (achievement.2) were already preserved -- P1, and life_arc.3/5 draw on
+  // that same P1 text rather than restating it verbatim. Education year
+  // (1934 graduation), the pre-Brasília early-modernist period (joining
+  // Lúcio Costa's team from 1936), and the exact death date were P2,
+  // verified directly against a live Wikipedia fetch; this person's
+  // `sources` array has no plain Wikipedia entry, so these beats cite
+  // src_niemeyer_wr (this profile's existing general source, already used
+  // for achievement.1/2 and turning_point.1). life_arc.4's exile-departure
+  // year is kept at 1965 to match this profile's own already-published
+  // turning_point.1 (P1) rather than the fresh fetch's 1966 for the Paris
+  // move -- preferring the already-established P1 claim over a new,
+  // slightly conflicting P2 one, per the provenance model's "prefer P1
+  // where equally useful" rule. Per the person-specific instruction,
+  // life_arc.2/3 keep Costa's and Kubitschek's roles visible rather than
+  // reducing the career to Brasília alone or to solo authorship.
   "oscar-niemeyer": {
     achievements: [
       { id: "oscar-niemeyer-achievement-1", textKey: "oscar-niemeyer.achievement.1", sourceIds: ["src_niemeyer_wr"] },
@@ -2163,6 +2398,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "independent_thinking",
         sourceIds: ["src_niemeyer_wr", "src_niemeyer_parisupdate"],
       },
+    ],
+    lifeArc: [
+      { year: "1907", textKey: "oscar-niemeyer.life_arc.1", sourceIds: ["src_niemeyer_wr"] },
+      { year: "1934–1943", textKey: "oscar-niemeyer.life_arc.2", sourceIds: ["src_niemeyer_wr"] },
+      { year: "1956–1960", textKey: "oscar-niemeyer.life_arc.3", sourceIds: ["src_niemeyer_wr", "src_niemeyer_parisupdate"] },
+      { year: "1964–1965", textKey: "oscar-niemeyer.life_arc.4", sourceIds: ["src_niemeyer_wr", "src_niemeyer_parisupdate"] },
+      { year: "1965–1985", textKey: "oscar-niemeyer.life_arc.5", sourceIds: ["src_niemeyer_parisupdate", "src_niemeyer_wr"] },
+      { year: "2012", textKey: "oscar-niemeyer.life_arc.6", sourceIds: ["src_niemeyer_wr"] },
     ],
   },
 
@@ -2505,6 +2748,21 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
+  // Life Arc Backfill Batch 6 -- FINAL batch (2026-08): 6 beats. The 1852
+  // temperance-society founding (turning_point.1), the 1866/1869
+  // organization co-foundings (achievement.1), and the 1872/1873
+  // vote-and-trial episode (moment.1/2) were already preserved -- P1.
+  // Exact birth/death dates and confirmation that she led NAWSA after
+  // 1890 were P2, verified directly against src_anthony_wikipedia (live
+  // fetch); life_arc.6 deliberately does not name NAWSA specifically,
+  // since the fetch could not confirm an end date for her presidency
+  // before her death, so the beat states only that she "continued
+  // organizing," per the minimal-evidence principle (don't add detail
+  // merely because available when it isn't fully pinned down). Per the
+  // person-specific instruction, life_arc.6 explicitly separates her 1906
+  // death from the 19th Amendment's 1920 ratification -- fourteen years
+  // later -- rather than implying she witnessed national suffrage, and no
+  // beat frames her as having single-handedly created the movement.
   "susan-b-anthony": {
     achievements: [
       { id: "susan-b-anthony-achievement-1", textKey: "susan-b-anthony.achievement.1", sourceIds: ["src_anthony_wikipedia", "src_anthony_nps"] },
@@ -2528,6 +2786,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
         attributeId: "proactive_agency",
         sourceIds: ["src_anthony_wikipedia"],
       },
+    ],
+    lifeArc: [
+      { year: "1820", textKey: "susan-b-anthony.life_arc.1", sourceIds: ["src_anthony_wikipedia"] },
+      { year: "1852", textKey: "susan-b-anthony.life_arc.2", sourceIds: ["src_anthony_wikipedia"] },
+      { year: "1866–1869", textKey: "susan-b-anthony.life_arc.3", sourceIds: ["src_anthony_wikipedia"] },
+      { year: "1872", textKey: "susan-b-anthony.life_arc.4", sourceIds: ["src_anthony_wikipedia", "src_anthony_nps"] },
+      { year: "1873", textKey: "susan-b-anthony.life_arc.5", sourceIds: ["src_anthony_wikipedia", "src_anthony_nps"] },
+      { year: "1906", textKey: "susan-b-anthony.life_arc.6", sourceIds: ["src_anthony_wikipedia"] },
     ],
   },
 
