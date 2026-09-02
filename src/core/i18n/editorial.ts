@@ -2190,9 +2190,9 @@ export const EDITORIAL_EN: Record<string, string> = {
   "ludwig-wittgenstein.life_arc.3":
     "Served in the Austro-Hungarian Army through the First World War, continuing to write during his service and later Italian captivity.",
   "ludwig-wittgenstein.life_arc.4":
-    "Published the Tractatus Logico-Philosophicus in 1921, then renounced his family inheritance and left academic philosophy, working for most of the 1920s as a rural Austrian schoolteacher and later an architect.",
+    "Published the Tractatus Logico-Philosophicus, then renounced his family inheritance and left academic philosophy, working for most of the 1920s as a rural Austrian schoolteacher and later an architect.",
   "ludwig-wittgenstein.life_arc.5":
-    "Returned to Cambridge in 1929, and over the following two decades developed a substantially different later philosophy that he said corrected \"grave errors\" in his own earlier work.",
+    "Returned to Cambridge, and over the following two decades developed a substantially different later philosophy that he said corrected \"grave errors\" in his own earlier work.",
   "ludwig-wittgenstein.life_arc.6":
     "Died in Cambridge; Philosophical Investigations was published posthumously two years later.",
 
@@ -2217,7 +2217,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "wu-zetian.life_arc.4":
     "Took on a growing share of imperial decision-making as Gaozong's health declined, becoming his co-ruler in practice, then continued as regent for their sons after his death in 683.",
   "wu-zetian.life_arc.5":
-    "Proclaimed the Zhou dynasty and took the title of emperor in her own right in 690, the only woman in Chinese history to do so.",
+    "Proclaimed the Zhou dynasty and took the title of emperor in her own right, the only woman in Chinese history to do so.",
   "wu-zetian.life_arc.6":
     "Removed from power in a palace coup that restored the Tang dynasty; died the same year.",
 
@@ -2229,11 +2229,10 @@ export const EDITORIAL_EN: Record<string, string> = {
   "averroes.life_arc.3":
     "Introduced by the philosopher Ibn Tufail to the Almohad Caliph Abu Yaqub Yusuf, who commissioned him to write systematic commentaries on Aristotle. Across a career spanning multiple Almohad rulers, he also served as a judge — first in Seville, later as chief qadi of Córdoba — and eventually as a royal physician.",
   "averroes.life_arc.4":
-    "Over the following decades, produced short, middle, and long commentaries on nearly the entire surviving Aristotelian corpus, alongside other major philosophical works including The Incoherence of the Incoherence.",
+    "Produced short, middle, and long commentaries on nearly the entire surviving Aristotelian corpus, alongside other major philosophical works including The Incoherence of the Incoherence.",
   "averroes.life_arc.5":
-    "Late in his life, his philosophical works were formally condemned and burned under Almohad authority, and he was briefly exiled to Lucena, for reasons the surviving record does not fully explain.",
-  "averroes.life_arc.6":
-    "Died in Marrakesh, according to the most commonly cited account, in 1198.",
+    "His philosophical works were formally condemned and burned under Almohad authority, and he was briefly exiled to Lucena, for reasons the surviving record does not fully explain.",
+  "averroes.life_arc.6": "Died in Marrakesh, according to the most commonly cited account.",
 
   /* --------------------------------- Life Arc Backfill Batch 5: C. V. Raman */
   "cv-raman.life_arc.1": "Born in Tiruchirappalli.",
@@ -2291,7 +2290,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "mary-wollstonecraft.life_arc.4":
     "Published A Vindication of the Rights of Woman, then moved to France that December to witness the Revolution firsthand.",
   "mary-wollstonecraft.life_arc.5":
-    "Married William Godwin in March 1797, having already had a daughter, Fanny, with Gilbert Imlay in France.",
+    "Married William Godwin, having already had a daughter, Fanny, with Gilbert Imlay in France.",
   "mary-wollstonecraft.life_arc.6":
     "Died of complications from childbirth eleven days after the birth of her second daughter, Mary, the future Mary Shelley.",
 
@@ -4366,9 +4365,9 @@ export const EDITORIAL_KO: Record<string, string> = {
   "ludwig-wittgenstein.life_arc.3":
     "제1차 세계대전 동안 오스트리아-헝가리 군에 복무했으며, 복무 중과 이후 이탈리아군의 포로로 있는 동안에도 계속 글을 썼다.",
   "ludwig-wittgenstein.life_arc.4":
-    "1921년 『논리철학논고』를 출간한 뒤 가문의 상속 재산을 포기하고 학계 철학을 떠나, 1920년대 대부분을 오스트리아 시골의 초등학교 교사로, 이후에는 건축가로 일하며 보냈다.",
+    "『논리철학논고』를 출간한 뒤 가문의 상속 재산을 포기하고 학계 철학을 떠나, 1920년대 대부분을 오스트리아 시골의 초등학교 교사로, 이후에는 건축가로 일하며 보냈다.",
   "ludwig-wittgenstein.life_arc.5":
-    "1929년 케임브리지로 돌아왔고, 이후 20년에 걸쳐 자신의 이전 저작에 있던 '중대한 오류'를 바로잡았다고 말한, 상당히 다른 후기 철학을 발전시켰다.",
+    "케임브리지로 돌아왔고, 이후 20년에 걸쳐 자신의 이전 저작에 있던 '중대한 오류'를 바로잡았다고 말한, 상당히 다른 후기 철학을 발전시켰다.",
   "ludwig-wittgenstein.life_arc.6":
     "케임브리지에서 세상을 떠났다. 『철학적 탐구』는 2년 뒤 사후에 출간되었다.",
 
@@ -4393,7 +4392,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "wu-zetian.life_arc.4":
     "고종의 건강이 나빠지면서 국정 결정에서 차지하는 몫이 점점 커져 사실상의 공동 통치자가 되었고, 683년 고종이 세상을 떠난 뒤에는 아들들을 대신해 섭정을 이어갔다.",
   "wu-zetian.life_arc.5":
-    "690년 스스로 무주(周)를 세우고 황제라는 칭호를 직접 취했다 — 중국 역사상 여성으로서는 유일한 사례였다.",
+    "스스로 무주(周)를 세우고 황제라는 칭호를 직접 취했다 — 중국 역사상 여성으로서는 유일한 사례였다.",
   "wu-zetian.life_arc.6": "당 왕조를 복원한 궁정 정변으로 권좌에서 물러났으며, 같은 해 세상을 떠났다.",
 
   /* --------------------------------- Life Arc Backfill Batch 5: Averroes */
@@ -4403,10 +4402,10 @@ export const EDITORIAL_KO: Record<string, string> = {
   "averroes.life_arc.3":
     "철학자 이븐 투파일의 소개로 알모하드 칼리프 아부 야쿠브 유수프를 만났고, 칼리프는 그에게 아리스토텔레스에 대한 체계적 주석 작업을 위촉했다. 여러 알모하드 통치자에 걸친 경력 동안, 세비야에서, 이후에는 코르도바의 수석 카디로도 재직했고, 훗날 왕실 의사로도 활동했다.",
   "averroes.life_arc.4":
-    "이후 수십 년에 걸쳐, 현존하는 아리스토텔레스 저작 거의 전체에 대한 단편·중편·장편 주석과 더불어 『모순의 모순』을 포함한 다른 주요 철학 저작들을 남겼다.",
+    "현존하는 아리스토텔레스 저작 거의 전체에 대한 단편·중편·장편 주석과 더불어 『모순의 모순』을 포함한 다른 주요 철학 저작들을 남겼다.",
   "averroes.life_arc.5":
-    "말년에 이르러 알모하드 정권 아래서 그의 철학 저작들은 공식적으로 단죄되어 불태워졌고, 그 자신도 코르도바 인근 루세나로 잠시 추방당했다 — 그 이유는 남아 있는 기록으로 온전히 설명되지 않는다.",
-  "averroes.life_arc.6": "가장 널리 인용되는 기록에 따르면, 1198년 마라케시에서 세상을 떠났다.",
+    "알모하드 정권 아래서 그의 철학 저작들은 공식적으로 단죄되어 불태워졌고, 그 자신도 코르도바 인근 루세나로 잠시 추방당했다 — 그 이유는 남아 있는 기록으로 온전히 설명되지 않는다.",
+  "averroes.life_arc.6": "가장 널리 인용되는 기록에 따르면, 마라케시에서 세상을 떠났다.",
 
   /* --------------------------------- Life Arc Backfill Batch 5: C. V. Raman */
   "cv-raman.life_arc.1": "티루치라팔리에서 태어났다.",
@@ -4464,7 +4463,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "mary-wollstonecraft.life_arc.4":
     "『여성의 권리 옹호』를 출간했고, 그해 12월 프랑스로 건너가 혁명을 직접 목격했다.",
   "mary-wollstonecraft.life_arc.5":
-    "프랑스에서 길버트 임레이와의 사이에 딸 패니를 낳은 뒤, 1797년 3월 윌리엄 고드윈과 결혼했다.",
+    "프랑스에서 길버트 임레이와의 사이에 딸 패니를 낳은 뒤, 윌리엄 고드윈과 결혼했다.",
   "mary-wollstonecraft.life_arc.6":
     "둘째 딸 메리 — 훗날의 메리 셸리 — 를 낳은 지 11일 만에 출산 후유증으로 세상을 떠났다.",
 
