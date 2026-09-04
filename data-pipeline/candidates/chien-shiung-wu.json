@@ -47,6 +47,16 @@
       "kind": "institution",
       "title": "Atomic Heritage Foundation -- Chien-Shiung Wu",
       "url": "https://ahf.nuclearmuseum.org/ahf/profile/chien-shiung-wu/"
+    },
+    {
+      "id": "src_wu_mit1964",
+      "kind": "institution",
+      "title": "Stanford Physics 241 course page and multiple independent secondary accounts documenting her 1964 MIT symposium address on \"American Women in Science\" (alongside Lillian Gilbreth), including her own quoted remarks"
+    },
+    {
+      "id": "src_wu_michigan_berkeley",
+      "kind": "press",
+      "title": "Biographical accounts (The Matilda Project; Eileen McGinnis) of her decision to attend Berkeley rather than the University of Michigan specifically after learning women were barred from the Michigan student union's front door"
     }
   ],
   "rows": {
@@ -142,12 +152,11 @@
       "rationale": "Working directly with theoretical physicists Lee and Yang to translate their theoretical prediction into a testable experiment implies real collaborative capacity across the theory/experiment divide, inferred from the documented working relationship."
     },
     "social_assertiveness": {
-      "score": 58,
-      "confidence": 0.4,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Later publicly and repeatedly advocating for recognition of her uncredited role in the parity discovery suggests real willingness to assert her own professional standing, inferred from the documented pattern of this advocacy."
-    },
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, this session] A second, independent, differently-motivated instance now corroborates the Nobel-credit advocacy: at a 1964 MIT symposium on \"American Women in Science,\" she is directly quoted publicly challenging the exclusion of women from science generally (\"I wonder whether the tiny atoms and nuclei... have any preference for either masculine or feminine treatment\") -- public advocacy for systemic change, not only her own personal recognition. Two independent documented instances in different motivational domains meets this rubric's strong_inference standard." },
     "adaptability": {
       "score": 64,
       "confidence": 0.4,
@@ -170,12 +179,11 @@
       "rationale": "Designing a novel experimental apparatus to test a specific theoretical prediction implies real methodical planning, inferred from the documented technical complexity of the parity experiment's design."
     },
     "proactive_agency": {
-      "score": 68,
-      "confidence": 0.4,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Identifying and reporting the xenon-poisoning cause of the Hanford reactor shutdown, beyond her formally assigned task, suggests self-initiated problem-solving, inferred from the documented account of this contribution."
-    },
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, this session] A second, independent-domain instance now corroborates the Hanford episode: as a student, upon learning women were barred from the University of Michigan student union's main entrance, she made a specific, documented decision to attend Berkeley instead -- a concrete, self-directed career/institutional choice made in direct response to a specific discriminatory signal, not a passive reaction." },
     "opportunity_sensing": {
       "score": 60,
       "confidence": 0.4,
@@ -193,9 +201,9 @@
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- no inherited position; her scientific reputation rests entirely on her own individually credited experimental work, most notably the parity experiment (for which she was controversially NOT awarded a share of the resulting 1957 Nobel Prize -- documented and referenced here factually, not as grounds for a higher score, per this project's own \"never rig results\" rule). Diversity value: the roster's first Chinese-American physicist and a distinctive \"the experimentalist whose confirmation work was Nobel-worthy but uncredited\" shape. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+    "notes": "Track C evidence-deepening pass (2026-09-03): targeted research specifically for personal/behavioral evidence beyond her scientific achievement, per this task's own concern that 'excellent experimental physicist' must not be converted into personality evidence without behavioral support. Found and used 2 genuinely new, different-domain instances: the Michigan/Berkeley discrimination-response decision, and the 1964 MIT gender-equity advocacy speech (distinct from her already-scored personal Nobel-credit advocacy). 2 rows upgraded (proactive_agency, social_assertiveness). Did NOT touch achievement_drive, discipline, or any row whose evidence is purely about her scientific output -- those remain honestly at their existing, lower-confidence tier, since no new personal-domain evidence was found this pass that bore on them specifically. Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- no inherited position; her scientific reputation rests entirely on her own individually credited experimental work, most notably the parity experiment (for which she was controversially NOT awarded a share of the resulting 1957 Nobel Prize -- documented and referenced here factually, not as grounds for a higher score, per this project's own \"never rig results\" rule). Diversity value: the roster's first Chinese-American physicist and a distinctive \"the experimentalist whose confirmation work was Nobel-worthy but uncredited\" shape. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record. [Labeled NEW_EVIDENCE, added on final-QA sweep: the proactive_agency/social_assertiveness confidence changes above are the Michigan/Berkeley decision and 1964 MIT symposium findings described in this same note, not a rubric or error correction.]"
   },
   "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing the Atomic Heritage Foundation, then a real second round adding the documented xenon-poisoning independent-discovery episode and her later advocacy for Nobel-credit recognition): avgConf 0.465 vs 0.55 floor, coverage 0.604 (clear). Similar to Sanger and Champollion, the record documents her scientific achievements (the parity experiment, the Manhattan Project contributions) far more thoroughly than personal/interpersonal behavioral evidence."
 }

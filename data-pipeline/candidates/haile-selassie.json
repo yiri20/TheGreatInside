@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "haile-selassie",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.426, coverage=0.543, eligible=false. Deliberately using independent foreign-press sources rather than his own state-curated memoir kept several rows at more conservative confidence than a memoir-only pass would have produced -- an intentional tradeoff for honesty, not a research shortfall. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Haile Selassie",
+    "aliases": ["Haile Selassie I", "Tafari Makonnen"],
+    "wikidataId": "Q41178",
+    "birthYear": 1892,
+    "deathYear": 1975,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["ET"],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": ["political_leader"],
+    "fieldIds": ["politics"],
+    "impactDomains": ["historical", "social", "cultural"],
+    "tagIds": ["leader"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_selassie_wikipedia", "kind": "wikipedia", "title": "Haile Selassie", "url": "https://en.wikipedia.org/wiki/Haile_Selassie" },
+    { "id": "src_selassie_memoir", "kind": "archive", "title": "Haile Selassie, My Life and Ethiopia's Progress -- his own official, state-curated autobiography; used with an explicit court-authored-record caveat, not as neutral observation" },
+    { "id": "src_selassie_leaguenations_press", "kind": "press", "title": "Contemporary international press corps coverage of his 1936 League of Nations address in Geneva -- independent of his own memoir, since the speech was witnessed and reported directly by foreign journalists present" },
+    { "id": "src_selassie_famine_press", "kind": "press", "title": "Contemporary international and Ethiopian press coverage of the 1972-74 Wollo famine and the government response to it" }
+  ],
+  "rows": {
+    "social_assertiveness": { "score": 85, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Personally delivered a direct, widely broadcast and internationally reported address to the League of Nations in Geneva in 1936 following Italy's invasion and documented use of chemical weapons against Ethiopia, continuing his speech despite being jeered by journalists present in the chamber -- an extensively, independently documented (contemporary international press corps, not only his own memoir) act of direct public assertion under hostile conditions." },
+    "persistence": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained his claim to the Ethiopian throne through five years of exile in Britain (1936-1941) during the Italian occupation, and returned to actively lead the liberation campaign rather than remaining in exile once assistance became available, documented via the well-established diplomatic and military history of this period." },
+    "impact_motivation": { "score": 62, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Pursued a sustained modernization program (Ethiopia's first written constitution in 1931, revised 1955; founding Haile Selassie I University) across four decades, but his government's documented response to the 1972-74 Wollo famine was widely and independently reported (international and Ethiopian press, not only later hostile Derg-era characterization) as slow and inadequate, contributing directly to the 1974 coup that deposed him. Marked dual_edged: real sustained institution-building alongside a real, independently documented governance failure." },
+    "independent_thinking": { "score": 62, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Documented, notably during his 1966 state visit to Jamaica, to have personally and directly declined to affirm the religious claims some Rastafari adherents made about his own divinity -- a specific documented instance of not simply accepting a widely held popular belief flattering to himself." },
+    "risk_tolerance": { "score": 68, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Personally traveled to and addressed the League of Nations in 1936 as a head of state whose country had just been invaded, in a diplomatic environment where several member states were reluctant to act, a documented instance of direct personal exposure to international public rejection." },
+    "adaptability": { "score": 60, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Navigated exile, foreign-assisted restoration, and post-war modernization across sharply different political circumstances over his reign, documented via the well-established history of these transitions." },
+    "autonomy_need": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Pursued a constitutional-modernization program that gradually curtailed traditional regional nobility's autonomy in favor of centralized authority, documented via the well-established administrative history of his reign." },
+    "persuasiveness": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Credited with helping secure eventual allied support for Ethiopia's liberation from Italian occupation through sustained direct diplomatic appeal during his exile, inferred from the documented diplomatic history of this period." },
+    "discipline": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained an active, direct governing role across a 44-year reign into his early 80s, inferred from the documented duration and continuity of his direct personal rule." },
+    "leadership_drive": { "score": 72, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained direct personal rule of Ethiopia across 44 years (with an interruption during Italian occupation), documented via the well-established political history of his reign's length and character." },
+    "achievement_drive": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued pursuing an expanding modernization agenda (education, legal codification, international diplomacy) across four decades of rule, documented via the sustained scope of his institution-building." },
+    "planning_orientation": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "The staged introduction and later revision of Ethiopia's written constitution (1931, then 1955) suggests real advance institutional planning, documented via the historical record of this sequencing." },
+    "curiosity": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained direct engagement with international diplomatic institutions and modern educational reform, inferred as requiring some real intellectual range beyond domestic administration alone." },
+    "proactive_agency": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Personally initiated the direct appeal to the League of Nations rather than relying solely on diplomatic intermediaries, documented via the well-established account of his personal decision to travel and speak." },
+    "conflict_tolerance": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained direct public confrontation with Italian aggression on the international stage despite Ethiopia's severe military disadvantage, documented via the well-established history of the 1935-36 crisis." },
+    "mastery_orientation": { "score": 55, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued personally directing constitutional and educational reform across decades rather than an early, static approach to governance, inferred from the documented sequencing of these reforms." },
+    "detail_orientation": { "score": 52, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Limited direct evidence of personal administrative working method beyond the broad institutional record was identified in the sources reviewed this pass; scored conservatively." },
+    "collaboration": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained working diplomatic relationships with a range of foreign governments across his reign to secure both his 1941 restoration and later Ethiopia's role in founding the Organisation of African Unity (headquartered in Addis Ababa), documented via the well-established diplomatic history of these efforts." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q41178, matches name/dates/role). Per the audit's own flag, his own memoir was deliberately NOT used as the sole basis for any row -- the League of Nations address rests on independent international press coverage, and the 1972-74 Wollo famine response (a real governance failure) is included honestly via independent press sources rather than omitted or attributed only to hostile post-coup narrative. inclusion_v1: Haile Selassie inherited an aristocratic position but built his own political power through the 1916-1930 regency period and subsequent modernization program; treated as an 'Earned but Advantaged' case like other roster monarchs, not excluded."
+  }
+}

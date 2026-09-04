@@ -188,6 +188,16 @@ Zheng He remain)).
   Strong Self-Made Fit, 26 Earned but Advantaged, 0 Weak Fit. No roster
   change. Full record:
   [`docs/checkpoints/self-made-earned-distinction-audit-2026-08.md`](../checkpoints/self-made-earned-distinction-audit-2026-08.md).
+- **Roster Expansion 125 evidence program (2026-09, uncommitted working
+  tree)**: 30 candidates researched/scored toward a future 95->125
+  expansion — 26 adequately evidenced (1, Miriam Makeba, `qa_passed`;
+  rest `held`), 2 `IMPROVED_BUT_CEILING_REMAINS`, 2 `STRUCTURALLY_THIN`
+  (Ibn Battuta, Ashoka). Alternate search for both `STRUCTURALLY_THIN`
+  candidates is closed (`NO_PROVEN_REPLACEMENT` for both Chandragupta
+  Maurya and Rabban Bar Sauma) — no swap performed. **No live-roster or
+  `src/` change**; still 95/95. Current state, reconciled matrix, and
+  next action:
+  [`docs/checkpoints/roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md`](../checkpoints/roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md).
 
 ## Completed major phases (durable summary — do not re-read the archive for these)
 

@@ -56,6 +56,11 @@
       "id": "src_beauvoir_letters",
       "kind": "archive",
       "title": "Her own published correspondence, including letters to Jean-Paul Sartre and Nelson Algren"
+    },
+    {
+      "id": "src_beauvoir_bair",
+      "kind": "biography",
+      "title": "Deirdre Bair, Simone de Beauvoir: A Biography (1990) -- based on 5 years of interviews with de Beauvoir herself, written with her cooperation, an independent (non-self-authored) source"
     }
   ],
   "rows": {
@@ -85,8 +90,7 @@
       "confidence": 0.58,
       "evidenceType": "documented",
       "impact": "dual_edged",
-      "rationale": "Maintained a deliberately unconventional, non-marital, non-monogamous partnership with Jean-Paul Sartre by explicit mutual choice for over five decades, documented directly via her own memoirs and published correspondence describing and defending this arrangement."
-    },
+      "rationale": "[RATIONALE ENRICHED, this session -- score/confidence deliberately UNCHANGED, contradiction preserved rather than smoothed away] Maintained a deliberately unconventional, non-marital, non-monogamous partnership with Jean-Paul Sartre by explicit mutual choice for over five decades, documented directly via her own memoirs and published correspondence describing and defending this arrangement. An independent biography (Bair, 1990, based on 5 years of interviews with de Beauvoir herself) complicates a purely clean reading of this: it documents that despite the arrangement's stated openness, she is reported to have 'guarded Sartre jealously' -- a real, preserved tension between the relationship's stated philosophy and its documented emotional texture, not resolved in either direction here." },
     "discipline": {
       "score": 76,
       "confidence": 0.55,
@@ -179,12 +183,11 @@
       "rationale": "Identified an underexamined philosophical question (women's social construction as \"Other\" within existentialist thought) that her own existing philosophical training positioned her well to address, inferred from the documented originality of the resulting work relative to prior existentialist scholarship."
     },
     "adaptability": {
-      "score": 55,
-      "confidence": 0.4,
-      "evidenceType": "inference",
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
       "impact": "neutral",
-      "rationale": "Moved between teaching, fiction writing, philosophy, memoir, and political journalism across her career, inferred as requiring real adaptability from the documented range of these distinct working modes."
-    },
+      "rationale": "[NEW_EVIDENCE, this session] A more specific, interpersonal-domain instance now corroborates the career-breadth evidence: she sustained multiple serious, overlapping long-term relationships across decades (Sartre as primary partner, plus documented long-term relationships with Nelson Algren and Claude Lanzmann), corroborated independently by both her own published Algren correspondence and Bair's biography -- real sustained interpersonal adaptability, not just professional role-switching." },
     "creative_originality": {
       "score": 80,
       "confidence": 0.55,
@@ -209,9 +212,9 @@
   },
   "provenance": {
     "createdAt": "2026-08-16T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 11: one of only two modern-Western-European picks in this batch (deliberately limited per the instruction to avoid overconcentration in already-well-represented categories -- Western Europe was already at 19/84). Included for genuine historical significance (The Second Sex is a foundational text of modern feminist philosophy) and a distinct profile shape not otherwise represented. Well documented via her own extensive memoirs and published correspondence."
+    "notes": "Roster-1000 session 11: one of only two modern-Western-European picks in this batch (deliberately limited per the instruction to avoid overconcentration in already-well-represented categories -- Western Europe was already at 19/84). Included for genuine historical significance (The Second Sex is a foundational text of modern feminist philosophy) and a distinct profile shape not otherwise represented. Well documented via her own extensive memoirs and published correspondence. Evidence-deepening pass (2026-09-03, Track B batch 2b): added Deirdre Bair's independent (non-self-authored) biography -- exactly the kind of independent corroboration the SS76 multi-instance standard requires, and the specific source this audit named. 1 row upgraded (adaptability, NEW_EVIDENCE), 1 row rationale-enriched without a score/confidence change (autonomy_need -- a genuine complicating fact, preserved rather than smoothed away, per this task's explicit instruction). Did not re-run eligibility mid-edit."
   },
   "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

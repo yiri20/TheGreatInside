@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "baruch-spinoza",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.448, coverage=0.542, eligible=false. His correspondence provides genuine, firsthand, dateable episodes across financial, intellectual-conflict, and career domains, but the volume is genuinely thinner than a modern memoir-rich candidate's, and the deliberate decision to keep the weakly-sourced 'ultimi barbarorum' anecdote out of any row's primary evidence (per this pass's own source-verification discipline) removed what would otherwise have been an easy, if less rigorous, confidence boost. Held, not rejected -- a future pass with direct access to more of his ~80 surviving letters (rather than secondary discussion of a subset) could plausibly add coverage without lowering the sourcing bar.",
+  "identity": {
+    "canonicalName": "Baruch Spinoza",
+    "aliases": ["Benedictus de Spinoza", "Benedict de Spinoza"],
+    "wikidataId": "Q35802",
+    "birthYear": 1632,
+    "deathYear": 1677,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": ["NL"],
+    "regionCode": "western_europe",
+    "historicalPolityKey": "polity.dutch_republic"
+  },
+  "classification": {
+    "occupationIds": ["philosopher"],
+    "fieldIds": ["philosophy"],
+    "impactDomains": ["cultural", "historical", "educational"],
+    "tagIds": ["nonconformist", "independent", "philosopher"],
+    "archetypeIds": ["independent_creator", "scholarly_specialist"]
+  },
+  "sources": [
+    { "id": "src_spinoza_wikipedia", "kind": "wikipedia", "title": "Baruch Spinoza", "url": "https://en.wikipedia.org/wiki/Baruch_Spinoza" },
+    { "id": "src_spinoza_herem", "kind": "institution", "title": "The 1656 herem (writ of excommunication) against Spinoza, preserved in the Amsterdam Portuguese-Jewish community's own Livro dos Acordos de Nacao e Ascamot -- an institutional record, not an anecdote. The document itself does not specify his particular offense." },
+    { "id": "src_spinoza_correspondence", "kind": "archive", "title": "Spinoza's own published Epistolae, specifically his 1663 exchange with Simon de Vries (Letters XXVI-XXVIII), his 1664-1665 exchange with Willem van Blijenbergh (8 letters), and his 1673 reply to Johann Ludwig Fabricius declining the Heidelberg professorship" },
+    { "id": "src_spinoza_ttp_ban", "kind": "institution", "title": "The 1670 anonymous publication of the Tractatus Theologico-Politicus and its formal banning by the States of Holland in 1674 -- a matter of public record, independent of any single biographer" },
+    { "id": "src_spinoza_ultimibarbarorum", "kind": "biography", "title": "The 'ultimi barbarorum' 1672 anecdote (Spinoza restrained by his landlord from publicly protesting the lynching of the de Witt brothers) -- traced in this pass only to Freudenthal's 1899 scholarly compilation (as cited by the Stanford Encyclopedia of Philosophy); a verified near-contemporary source for the episode was not established this session, so it is used at low confidence only" }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Excommunicated (herem) by the Amsterdam Portuguese-Jewish community in July 1656 via an unusually severe, permanent writ of banishment -- a documented institutional consequence for positions the community's own leadership found irreconcilable, preserved in the community's own Book of Ordinances. The surviving document does not specify his exact offense, so only the severity and permanence of the community's response is documented here, not the specific content of the heresy."
+    },
+    "autonomy_need": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly declined direct financial gifts and a full inheritance offer from his friend Simon de Vries (1663), negotiating instead for only a modest, sufficient annuity; separately and independently, declined an offered professorship at Heidelberg University (1673) in his own surviving reply letter to Johann Ludwig Fabricius, citing a wish to preserve his philosophical independence from institutional constraint. Two independent documented instances across different domains (financial security, institutional career position) meets this rubric's top confidence band."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained an eight-letter philosophical correspondence with Willem van Blijenbergh (Dec 1664-June 1665, including an in-person visit) engaging repeated theological objections to his determinism, before directly and explicitly asking Blijenbergh to stop writing once he judged further exchange futile -- his own quoted words survive: 'I can hardly think that we can derive any mutual instruction from further correspondence.' Marked dual_edged: sustained engagement for months, but a deliberate, self-aware limit once he judged the disagreement irreconcilable, not indefinite openness."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Published the Theological-Political Treatise (1670) anonymously and without a named printer specifically because of its politically and religiously dangerous content -- a deliberate, documented risk-management act; the book was formally banned by the States of Holland in 1674, a matter of public record. Kept distinct from the more cautiously-sourced 1672 'ultimi barbarorum' anecdote, which is not used to inflate this score."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The same repeated pattern of declining more money than he judged necessary, sustained across multiple separate financial offers from de Vries over time, suggests real habitual self-regulation around material consumption rather than a single one-off refusal."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Published the Theological-Political Treatise anticipating (and receiving) severe backlash specifically to advance an argument for freedom of philosophical and religious thought as a public good, inferred from the documented stated aims and reception of the work."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Maintained a wide correspondence network (Oldenburg, Leibniz, de Vries, Blijenbergh, Jelles, and others) sustained over years on technical philosophical matters, inferred as requiring real capacity to engage and hold serious interlocutors' attention on difficult material."
+    },
+    "planning_orientation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Earned his living for years through the exacting, methodical craft of lens-grinding alongside his philosophical writing, suggesting some real capacity for sustained, precise practical work, though direct documentation of his personal working method is limited in the sources reviewed this pass."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Supported himself financially through lens-grinding and self-limited gifts/annuities rather than a stable institutional position (he separately declined the Heidelberg professorship), suggesting real capacity to sustain himself outside conventional institutional support."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained an unusually wide-ranging correspondence covering optics, theology, politics, and metaphysics with a diverse set of interlocutors across several countries, inferred from the documented range of his surviving correspondence topics."
+    },
+    "detail_orientation": {
+      "score": 65,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His professional craft of precision lens-grinding, sustained as his primary livelihood for years, suggests real sustained attention to exacting technical detail."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued producing major philosophical work (the Ethics, left unpublished at his death for safety, and other treatises) across a shortened working life while supporting himself through manual craft work, suggesting sustained ambition despite modest material circumstances."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued his philosophical project across the disruption of excommunication, relocation, and sustained religious/political hostility (including the risky 1670 publication of the Theological-Political Treatise), suggesting real sustained persistence through adversity."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Engaged directly and substantively with prominent contemporaries -- Leibniz visited him in person in 1676; Henry Oldenburg corresponded with him for years as secretary of the Royal Society -- suggesting some real capacity for direct intellectual engagement with prominent figures despite his generally reclusive reputation."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained correspondence relationships with a genuine circle of friends and intellectual contacts (Jelles, Oldenburg, de Vries, Meyer) over many years, a moderate signal of real capacity for sustained collegial relationship alongside his largely solitary working life."
+    },
+    "adaptability": {
+      "score": 52,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Relocated multiple times after the 1656 excommunication (Amsterdam to Rijnsburg to Voorburg to The Hague) while sustaining his philosophical work and craft livelihood across each move, suggesting some real capacity to rebuild a stable working life after major social rupture."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued refining and expanding his philosophical system across multiple major works (the Short Treatise, the Theological-Political Treatise, the Ethics) over roughly two decades rather than resting on an early formulation, inferred from the documented development across his corpus."
+    },
+    "proactive_agency": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued an independent philosophical program and craft livelihood self-directedly after the 1656 excommunication severed his position within his birth community, rather than seeking reintegration or an alternative institutional home, inferred from the documented trajectory of his post-excommunication life."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track D fresh evidence pack + first scoring (2026-09-03). Deliberately traced the famous 'ultimi barbarorum' anecdote to its earliest identified source (Freudenthal 1899, per the Stanford Encyclopedia of Philosophy's own citation) before using it, per this task's explicit source-verification discipline -- since a clean chain to a near-contemporary eyewitness was not established this session, it is kept out of any row's primary evidence and used only as a disclosed, low-confidence side note (risk_tolerance instead rests on the independently, publicly documented 1670/1674 Theological-Political Treatise publication-and-banning). autonomy_need is the strongest row in this file specifically because it rests on two independent documented instances in different domains (a friend's financial gift, a university's institutional offer), both in his own surviving correspondence. slug uses 'baruch-spinoza' (matching common English usage and this project's own prior audit references) rather than bare 'spinoza', to avoid ambiguity with any future candidate sharing a surname. inclusion_v1: clearly passes -- no inherited position; excommunicated from his birth community and supported himself independently thereafter."
+  }
+}

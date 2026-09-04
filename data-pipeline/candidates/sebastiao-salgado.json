@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sebastiao-salgado",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.476, coverage=0.545, eligible=false. His life-narrative arc (economist to photographer to reforester) supports several strong documented rows, but day-to-day working-method detail rests mostly at inference tier. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Sebastiao Salgado",
+    "aliases": ["Sebastião Ribeiro Salgado Júnior"],
+    "wikidataId": "Q358158",
+    "birthYear": 1944,
+    "deathYear": 2025,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": ["BR", "FR"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["photographer"],
+    "fieldIds": ["art"],
+    "impactDomains": ["artistic", "cultural", "social", "historical"],
+    "tagIds": ["field_researcher", "overcame_adversity"],
+    "archetypeIds": ["creative_creator"]
+  },
+  "sources": [
+    { "id": "src_salgado_wikipedia", "kind": "wikipedia", "title": "Sebastiao Salgado", "url": "https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Salgado" },
+    { "id": "src_salgado_saltoftheearth", "kind": "archive", "title": "The Salt of the Earth (2014 documentary, dir. Juliano Ribeiro Salgado and Wim Wenders) -- extensive first-person, on-camera interview material" },
+    { "id": "src_salgado_institutoterra", "kind": "institution", "title": "Instituto Terra -- the reforestation institution he co-founded with his wife Lelia Wanick Salgado on his family's former cattle ranch in Minas Gerais, Brazil" },
+    { "id": "src_salgado_death_press", "kind": "press", "title": "CNN, Washington Post, and PBS obituary coverage confirming his death on 23 May 2025 in Paris, age 81" }
+  ],
+  "rows": {
+    "adaptability": { "score": 88, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Trained and worked as an economist (including doctoral-level work for the International Coffee Organization) before entirely abandoning that career in his early 30s to become a photographer, and later, after a severe personal crisis following his 1994 Rwandan genocide-aftermath reporting, shifted his life's focus again toward large-scale ecological restoration (co-founding Instituto Terra) before eventually returning to photography -- two independent, well-documented major life-direction changes, not a single pivot." },
+    "discipline": { "score": 85, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained multi-year, deeply embedded field projects (Workers, Migrations, Genesis) requiring months of continuous difficult fieldwork per project across several decades, documented via the well-established scale and duration of these projects and his own account of the working method in The Salt of the Earth." },
+    "risk_tolerance": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained embedded documentary work in active conflict zones, disease-affected regions, and physically hazardous industrial/mining sites across his career, documented via the specific locations and conditions described in his major projects." },
+    "impact_motivation": { "score": 82, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented, in his own on-camera account (The Salt of the Earth), to have suffered a severe personal crisis of purpose after photographing the 1994 Rwandan genocide aftermath, to the point of stepping back from photography entirely -- and subsequently redirected that same motivation into founding Instituto Terra with his wife Lelia, a specific, documented redirection of purpose rather than a static, unchanging motivation." },
+    "collaboration": { "score": 78, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained a decades-long creative and institutional partnership with his wife Lelia Wanick Salgado, documented as co-founder of Instituto Terra and as the designer/curator of his major photographic books and exhibitions -- a specific, named, sustained collaborative relationship, not a general inference from marriage alone." },
+    "persistence": { "score": 80, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained a multi-decade reforestation project (Instituto Terra, founded in the late 1990s) restoring his family's severely degraded former cattle ranch to viable Atlantic Forest, planting millions of trees over more than two decades, documented via the project's own long-term institutional record." },
+    "autonomy_need": { "score": 68, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Left an established economics career to become a self-directed independent photographer, and later stepped away from commercial photographic assignment work to pursue his own long-form, self-funded projects, documented via the well-established career trajectory of his work." },
+    "curiosity": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained embedded, long-form documentary attention across radically different subject domains (industrial labor, human migration, unspoiled wilderness) across his career, documented via the range of his major project subjects." },
+    "proactive_agency": { "score": 72, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Self-initiated and self-funded his major long-form documentary projects over years each, rather than working only on assigned commercial commissions, documented via the well-established independent-project structure of his career." },
+    "detail_orientation": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "His large-format black-and-white documentary photography is widely noted for its exacting technical and compositional precision, inferred from the well-established critical regard for this aspect of his work." },
+    "achievement_drive": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained an ambitious, expanding scope of long-form projects (from single-country labor documentation to the global-scale Migrations and Genesis projects) across four decades." },
+    "resourcefulness": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained embedded fieldwork in resource-poor and logistically difficult locations across his career, inferred as requiring real capacity to operate under material constraint." },
+    "deep_focus": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained singular embedded attention to individual multi-year projects (Genesis alone took eight years) rather than working across many shorter assignments simultaneously, documented via the well-established project timelines of his major work." },
+    "social_assertiveness": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained direct, extended personal engagement with subjects in difficult and sometimes dangerous field conditions over months at a time, inferred as requiring real capacity for direct interpersonal engagement across cultural and language barriers." },
+    "independent_thinking": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Maintained a deliberately unfashionable commitment to black-and-white large-format documentary photography across a career in which color and digital methods became increasingly dominant, inferred from the well-established, distinctive stylistic consistency of his work." },
+    "planning_orientation": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Multi-year projects spanning dozens of countries (Migrations, Genesis) required sustained advance logistical planning, inferred from the documented scale and geographic scope of these projects." },
+    "mastery_orientation": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued developing his documentary method and technical approach across five decades of work rather than repeating an early formula, inferred from the documented evolution of his major project styles." },
+    "cross_domain_range": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained substantive prior work as a trained economist before his photography career, and later as a co-founder/director of an ecological-restoration institution, inferred from the documented range of his professional life beyond photography alone." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q358158, matches name/dates). Death date (2025-05-23, Paris, age 81) previously verified via CNN/Washington Post/PBS in an earlier session, correct from the start rather than needing a later correction. inclusion_v1: clearly passes -- no inherited position."
+  }
+}

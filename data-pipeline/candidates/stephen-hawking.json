@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "stephen-hawking",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.466, coverage=0.536, eligible=false. His remarkable adaptation/persistence arc supports several strong documented rows, but many others rest at inference tier once his scientific fame is not treated as automatic personality evidence. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Stephen Hawking",
+    "aliases": ["Stephen William Hawking"],
+    "wikidataId": "Q17714",
+    "birthYear": 1942,
+    "deathYear": 2018,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": ["GB"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["physicist", "writer"],
+    "fieldIds": ["physics"],
+    "impactDomains": ["scientific", "educational", "cultural"],
+    "tagIds": ["overcame_adversity", "communicator", "prolific"],
+    "archetypeIds": ["scientific_explorer"]
+  },
+  "sources": [
+    { "id": "src_hawking_wikipedia", "kind": "wikipedia", "title": "Stephen Hawking", "url": "https://en.wikipedia.org/wiki/Stephen_Hawking" },
+    { "id": "src_hawking_memoir", "kind": "archive", "title": "Stephen Hawking, My Brief History (2013) -- his own memoir" },
+    { "id": "src_hawking_janehawking", "kind": "biography", "title": "Jane Hawking, Travelling to Infinity: My Life with Stephen (2007) -- an independent account by his first wife" }
+  ],
+  "rows": {
+    "persistence": { "score": 95, "confidence": 0.7, "evidenceType": "documented", "impact": "advantage", "rationale": "Continued active theoretical physics research, public lecturing, and writing across roughly five decades following a 1963 ALS diagnosis that doctors initially expected would be fatal within two years, and specifically continued this work after losing his natural speech entirely in 1985, adapting to a speech-synthesizer device -- an extensively, independently documented (Jane Hawking's own memoir, decades of press coverage, his own account) sustained pattern, not a single moment of resilience." },
+    "adaptability": { "score": 90, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Adopted and sustained use of a computer-based speech-synthesizer system after losing natural speech in 1985, and progressively adapted his research and communication methods across decades of advancing paralysis, documented via the well-established medical and biographical record of this progression." },
+    "discipline": { "score": 82, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained a demanding schedule of original theoretical research, public lecturing, and writing (including the bestselling A Brief History of Time, 1988) across decades in which composing even a single sentence required significant physical effort via his speech device, documented via the well-established account of his working method in this period." },
+    "achievement_drive": { "score": 78, "confidence": 0.54, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued pursuing increasingly ambitious theoretical projects and public-communication work throughout his life rather than settling for early academic achievement alone, documented via the sustained scope and escalating public reach of his work across five decades." },
+    "persuasiveness": { "score": 80, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "A Brief History of Time is documented to have become one of the best-selling science books in publishing history, credited with making advanced cosmology broadly accessible to a lay public, inferred as requiring real communicative/persuasive capacity from this sustained, exceptional reception." },
+    "curiosity": { "score": 75, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained original theoretical contributions across multiple distinct areas of cosmology and gravitational physics (singularity theorems, black hole radiation) over a decades-long career, documented via the sustained range of his credited scientific contributions." },
+    "autonomy_need": { "score": 68, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Continued directing his own research agenda and public communication choices despite requiring extensive personal care assistance for most of his adult life, documented via the well-established continuity of his independent professional direction across this period." },
+    "social_assertiveness": { "score": 65, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained an extensive direct public lecturing and media presence across decades communicated entirely through a speech-synthesizer device, documented via the well-established volume and continuity of his public appearances." },
+    "proactive_agency": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented, via Jane Hawking's own memoir, to have specifically chosen to complete his PhD and pursue his most ambitious research program after his diagnosis rather than withdrawing from academic work -- a self-directed response to the diagnosis rather than a passive one." },
+    "risk_tolerance": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued advancing genuinely novel, sometimes contested theoretical positions throughout his career, inferred as requiring some real intellectual risk tolerance from the documented pattern of publicly revising major positions." },
+    "impact_motivation": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Consistently directed significant personal effort toward public science communication and advocacy for disability rights and access, alongside his primary research career, documented via the sustained public record of both strands of his work." },
+    "collaboration": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained substantive research collaborations with other physicists (notably Roger Penrose and Kip Thorne) across his career despite the communication burden his condition imposed, documented via the credited joint scientific work." },
+    "mastery_orientation": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued developing and revising his theoretical positions across a five-decade research career rather than resting on his early singularity-theorem work, inferred from the documented evolution of his scientific positions over time." },
+    "planning_orientation": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained research and communication requiring extensive advance preparation given the physical effort each communicated sentence required via his speech device, inferred from the documented nature of this working method." },
+    "detail_orientation": { "score": 55, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Limited direct evidence of personal working-method detail beyond the documented physical constraints of his communication method was identified in the sources reviewed this pass; scored conservatively." },
+    "conflict_tolerance": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented to have publicly reversed a major prior scientific position (the black hole information paradox) in response to sustained peer challenge, suggesting some real capacity to engage rather than avoid scientific disagreement." },
+    "leadership_drive": { "score": 50, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Held a senior academic chair (the Lucasian Professorship of Mathematics at Cambridge) for three decades, suggesting some institutional stature, though direct evidence of active administrative leadership beyond the role's prestige is limited in the sources reviewed." },
+    "cross_domain_range": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained substantive activity as both a research physicist and a bestselling popular-science author/public communicator concurrently across his career, inferred from the documented range of his credited output." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q17714, matches name/dates). Deliberately did NOT use his second marriage (to Elaine Mason) in any row -- that period involved specific mistreatment allegations that were investigated by police but not prosecuted, and this project's safety rule against inferring unproven behavior means those allegations are not treated as documented fact here in either direction; the first marriage's documented strain (Jane Hawking's own memoir, not the disputed second-marriage allegations) was the only marital-context material considered, and was not used to score any row given its sensitivity and tangential relevance to the traits scored. inclusion_v1: clearly passes -- no inherited position."
+  }
+}
