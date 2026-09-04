@@ -1912,5 +1912,6 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isMatchEligible: true,
     overallProfileConfidence: 0.5485000000000001,
     attributes: [["risk_tolerance", 84, 0.8, "risk"], ["social_assertiveness", 86, 0.68, "advantage"], ["conflict_tolerance", 78, 0.6, "risk"], ["persuasiveness", 76, 0.58, "advantage"], ["persistence", 82, 0.65, "advantage"], ["proactive_agency", 78, 0.62, "advantage"], ["curiosity", 55, 0.42, "neutral"], ["detail_orientation", 58, 0.44, "neutral"], ["independent_thinking", 78, 0.78, "advantage"], ["deep_focus", 62, 0.46, "advantage"], ["mastery_orientation", 58, 0.44, "advantage"], ["creative_originality", 68, 0.52, "advantage"], ["adaptability", 74, 0.58, "advantage"], ["leadership_drive", 62, 0.46, "neutral"], ["impact_motivation", 80, 0.62, "advantage"], ["discipline", 66, 0.5, "advantage"], ["achievement_drive", 58, 0.44, "neutral"], ["autonomy_need", 62, 0.56, "neutral"], ["collaboration", 55, 0.42, "neutral"], ["cross_domain_range", 48, 0.4, "neutral"]],
+    portraitUrl: "/portraits/miriam-makeba-grand-gala-1969.jpg",
   }
 ];

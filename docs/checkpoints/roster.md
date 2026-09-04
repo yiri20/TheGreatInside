@@ -12,9 +12,12 @@ arithmetic), see
 ## Current numbers
 
 - **96 people, 95 match-eligible** (Zheng He is the sole exception —
-  browsable, fails only the coverage gate). Miriam Makeba (`roster11.ts`)
-  promoted from the roster-expansion-125 evidence program — see "Known
-  open items" below.
+  browsable, fails only the coverage gate). The People Directory's
+  default (unfiltered) view shows the match-eligible count (95), not the
+  raw total (96) — `filterPeople()` defaults `matchEligibleOnly` to true
+  (`src/core/people/explorer.ts`). Miriam Makeba (`roster11.ts`) promoted
+  from the roster-expansion-125 evidence program — see "Known open
+  items" below.
 - Branch history: `scale/roster-1000` (19 sessions) is fully merged into
   `main`; roster growth now continues via the frozen protocol below,
   directly on top of `main`-derived branches.
@@ -101,14 +104,23 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
   still not live-roster or production-code-referenced. Full evidence
   state and the reconciled 30-primary matrix:
   [`roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md`](roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md).
-- **Miriam Makeba promoted (2026-09, `feat/roster11-miriam-makeba`
-  worktree, not yet committed)**: the roster-expansion-125 program's sole
-  `qa_passed` candidate, promoted via `generateRoster11.ts` (single-slug
-  allowlist) into `roster11.ts`. 95->96 people, 94->95 match-eligible.
-  No portrait (consistent with 6 other roster members — portrait
-  coverage remains opportunistic, not blocking). Full record, exact
-  before/after delta, and validation results:
-  [`roster11-miriam-makeba-promotion-DRAFT.md`](roster11-miriam-makeba-promotion-DRAFT.md).
+- **Miriam Makeba promoted and profile-completed (2026-09, merged to
+  `main`)**: the roster-expansion-125 program's sole `qa_passed`
+  candidate, promoted via `generateRoster11.ts` (single-slug allowlist)
+  into `roster11.ts`. 95->96 people, 94->95 match-eligible (see the
+  count-semantics note above). The original promotion was declared
+  production-complete from data-layer checks alone and, per a live
+  browser check the same day, was actually incomplete: no portrait, no
+  editorial content. A corrective fix
+  (`fix/miriam-makeba-complete-profile`) closed both gaps using only her
+  already-approved candidate evidence (no new research, no
+  score/confidence/evidence change): a CC0-licensed portrait (Rob
+  Mieremet/Anefo, 1969, Nationaal Archief) and editorial content (2
+  achievements, 2 moments, 1 turning point, 2 interpretations, EN+KO),
+  verified live in-browser in both locales. Full record for both the
+  promotion and the fix:
+  [`roster11-miriam-makeba-promotion-DRAFT.md`](roster11-miriam-makeba-promotion-DRAFT.md),
+  [`roster11-miriam-makeba-profile-fix.md`](roster11-miriam-makeba-profile-fix.md).
 - A full manual rubric-consistency review of the pre-session-11 corpus
   (52 held + 38 accepted candidates) is real, unfinished work — an
   automated pass was tried and found unreliable by spot-check.

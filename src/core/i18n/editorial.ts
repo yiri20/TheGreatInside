@@ -2442,6 +2442,22 @@ export const EDITORIAL_EN: Record<string, string> = {
   "oscar-niemeyer.life_arc.5":
     "Sustained an internationally distributed practice across several countries during two decades of exile, before returning to Brazil after the dictatorship ended.",
   "oscar-niemeyer.life_arc.6": "Died in Rio de Janeiro at 104.",
+
+  /* ---------------------------------------------------- Roster 11: Miriam Makeba */
+  "miriam-makeba.achievement.1":
+    "In 1963 she testified before the United Nations Special Committee on Apartheid, using her international platform to bring direct global attention to South Africa's apartheid system. In retaliation, the South African government revoked her passport and citizenship, barring her from returning to her home country for more than three decades.",
+  "miriam-makeba.achievement.2":
+    "Across roughly five decades of international recording and performing — much of it conducted in exile — she is credited with popularizing South African musical styles, including click-consonant Xhosa singing, to audiences that had not previously heard them in that form.",
+  "miriam-makeba.moment.1":
+    "In 1968 she married Black Power activist Stokely Carmichael, a decision that led her record label to drop her and led to the cancellation of her American concerts; she described the effect directly at the time: \"My concerts are being canceled left and right. I learn that people are afraid that my shows will finance radical activities.\"",
+  "miriam-makeba.moment.2":
+    "Her exile was not merely professional: for more than thirty years, her revoked citizenship meant she could not return to South Africa even when her mother died.",
+  "miriam-makeba.turning_point.1":
+    "The collapse of her US career following her 1968 marriage led her to relocate to Guinea with Carmichael rather than distance herself from him to preserve that career, redirecting the remainder of her working life toward international recording and touring built around sustained anti-apartheid advocacy rather than the US commercial platform she had already built.",
+  "miriam-makeba.interpretation.moment.1":
+    "This is consistent with the profile's high, documented risk_tolerance score: a choice made with the foreseeable, and then realized, cost of an already-established commercial career.",
+  "miriam-makeba.interpretation.turning_point.1":
+    "This sits alongside the profile's autonomy_need and independent_thinking scores: a documented instance of prioritizing a personal and political commitment over an institutional and commercial one, at a moment when the two were in direct conflict.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -4737,6 +4753,22 @@ export const EDITORIAL_KO: Record<string, string> = {
   "oscar-niemeyer.life_arc.5":
     "20년에 걸친 망명 기간 동안 여러 나라에 걸친 국제적인 활동을 이어갔고, 군사 독재가 끝난 뒤 브라질로 돌아왔다.",
   "oscar-niemeyer.life_arc.6": "104세로 리우데자네이루에서 세상을 떠났다.",
+
+  /* ---------------------------------------------------- Roster 11: Miriam Makeba */
+  "miriam-makeba.achievement.1":
+    "1963년 그녀는 유엔 반(反)아파르트헤이트 특별위원회에서 증언하며, 자신의 국제적 영향력을 이용해 남아프리카공화국의 아파르트헤이트 체제에 전 세계의 이목을 직접 집중시켰다. 이에 대한 보복으로 남아공 정부는 그녀의 여권과 시민권을 박탈했고, 그녀는 30년 넘게 고국으로 돌아가지 못했다.",
+  "miriam-makeba.achievement.2":
+    "약 50년에 걸친 국제 음반 활동과 공연 — 그 상당 부분이 망명 중에 이루어졌다 — 을 통해, 그녀는 코사어 흡착음(클릭 자음) 창법을 포함한 남아프리카의 음악 양식을 이전에 접해본 적 없는 해외 청중에게 널리 알린 인물로 평가받는다.",
+  "miriam-makeba.moment.1":
+    "1968년 그녀는 블랙파워 운동가 스토클리 카마이클과 결혼했는데, 이 결정으로 소속 음반사와의 계약이 끊기고 미국 내 공연이 줄줄이 취소되었다. 그녀는 당시 그 여파를 직접 이렇게 말했다. \"내 공연들이 여기저기서 취소되고 있어요. 사람들이 내 공연이 급진적인 활동에 자금을 댈까 봐 두려워한다는 걸 알게 됐죠.\"",
+  "miriam-makeba.moment.2":
+    "그녀의 망명은 단지 직업적인 문제만이 아니었다. 시민권이 박탈된 30여 년 동안, 그녀는 어머니가 세상을 떠났을 때조차 남아프리카공화국으로 돌아갈 수 없었다.",
+  "miriam-makeba.turning_point.1":
+    "1968년 결혼 이후 미국 내 활동 기반이 무너지자, 그녀는 이미 쌓아온 경력을 지키기 위해 카마이클과 거리를 두는 대신 그와 함께 기니로 거처를 옮겼다. 이후 남은 활동 기간은 이미 구축했던 미국 중심의 상업적 무대 대신, 지속적인 반아파르트헤이트 활동을 축으로 한 국제 음반·공연 활동으로 방향을 틀게 되었다.",
+  "miriam-makeba.interpretation.moment.1":
+    "이는 이 프로필에서 높게 평가된, 문서로 뒷받침되는 위험 감수성 점수와 부합한다 — 이미 자리 잡은 상업적 경력에 예견 가능한, 그리고 실제로 뒤따른 대가를 감수하고 내린 선택이다.",
+  "miriam-makeba.interpretation.turning_point.1":
+    "이는 이 프로필의 자율성 욕구 및 독립적 사고 점수와 함께 놓고 볼 수 있다 — 개인적·정치적 신념과 제도적·상업적 이해가 정면으로 충돌하는 순간, 전자를 우선시한 것으로 문서화된 사례다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

@@ -4,7 +4,24 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-08-30 (Remaining-19 Editorial Completion merged to
+Last updated: 2026-09-04 (corrective fix, `fix/miriam-makeba-complete-profile`:
+the prior Miriam Makeba promotion was declared production-complete from
+data-layer checks alone and was incomplete in the actual product — no
+portrait, no editorial content, and an unverified user-visible-count
+claim. Corrected: added a CC0-licensed portrait (Rob Mieremet/Anefo,
+1969, Nationaal Archief — `roster11.ts`) and editorial content (2
+achievements, 2 moments, 1 turning point, 2 interpretations, EN+KO) using
+only her already-approved candidate evidence, no new research. Verified
+live in-browser (not just data-layer): portrait renders on both her
+PersonCard and detail hero, editorial sections render in both locales
+with no raw i18n keys. Count semantics clarified: 96 total roster
+(`SEED_PEOPLE`/`peopleIndex.generated.ts`) vs the People Directory's
+default unfiltered view, which shows 95 — `filterPeople()`
+(`src/core/people/explorer.ts`) defaults `matchEligibleOnly` to true,
+which has always excluded Zheng He; both counts are correct and measure
+different things, this fix did not change either filtering rule. Full
+record: [`roster11-miriam-makeba-profile-fix.md`](../checkpoints/roster11-miriam-makeba-profile-fix.md).
+Prior update, 2026-08-30 (Remaining-19 Editorial Completion merged to
 `main`, fast-forward `9828fdd` → `37bfc23`, pushed and live in
 production. **Editorial coverage is now 95/95, COMPLETE** — every
 roster person has content; Tier A 8/8, Tier B 52/52, Tier C 35/35
@@ -47,9 +64,9 @@ Zheng He remain)).
   Authority: `evaluateMatchEligibility()` in `src/core/matching/similarity.ts`;
   re-run `corepack pnpm@10 exec tsx src/dev/simulate.ts 10000 quiz` for a
   live health check. Miriam Makeba (`roster11.ts`) promoted 2026-09 from
-  the roster-expansion-125 evidence program — see the Roster Expansion
-  125 entry below; implemented and fully verified in an isolated
-  worktree, `READY_TO_COMMIT` but not yet committed/merged.
+  the roster-expansion-125 evidence program, merged to `main`, and its
+  profile completed (portrait + editorial content) by a 2026-09-04
+  corrective fix — see the Roster Expansion 125 entry below.
 - **Eligibility rule: `eligibility_v2`** (`scored>=18`, `coverage>=0.6`,
   high-confidence-subset `count>=12`/`avgConf>=0.55`). See
   [`docs/reference/matching.md`](../reference/matching.md).
@@ -245,15 +262,24 @@ Zheng He remain)).
   Maurya and Rabban Bar Sauma) — no swap performed. The other 29
   candidates: no live-roster or `src/` change. Full evidence state:
   [`docs/checkpoints/roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md`](../checkpoints/roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md).
-- **Miriam Makeba promoted (2026-09, `feat/roster11-miriam-makeba`
-  worktree, `READY_TO_COMMIT`, not yet committed/merged)**: 95->96
-  people, 94->95 match-eligible, via `generateRoster11.ts` (single-slug
-  allowlist). No portrait (opportunistic, consistent with 6 other
-  no-portrait members). Editorial coverage is unaffected and remains
-  95/95 for the pre-existing roster — Miriam Makeba has no editorial
-  content yet (a separate, later workstream, not part of this
-  promotion). Full record, delta, and validation:
-  [`docs/checkpoints/roster11-miriam-makeba-promotion-DRAFT.md`](../checkpoints/roster11-miriam-makeba-promotion-DRAFT.md).
+- **Miriam Makeba promoted and profile-completed (2026-09, merged to
+  `main`)**: promoted via `generateRoster11.ts` (single-slug allowlist,
+  `feat/roster11-miriam-makeba`) — 95->96 people (`SEED_PEOPLE`/
+  `peopleIndex.generated.ts`), 94->95 in the People Directory's default
+  match-eligible-filtered view (both counts correct — see the
+  count-semantics note at the top of this file). A follow-up corrective
+  fix (`fix/miriam-makeba-complete-profile`) then completed her live
+  profile, which the original promotion had left incomplete: a
+  CC0-licensed portrait (Rob Mieremet/Anefo, 1969, Nationaal Archief) and
+  editorial content (2 achievements, 2 moments, 1 turning point, 2
+  interpretations, EN+KO), sourced entirely from her already-approved
+  candidate evidence — no new research, no score/confidence/evidence
+  changes. Editorial coverage for the pre-existing 95-person roster is
+  unaffected (remains complete); Miriam Makeba now has editorial content
+  too. Full record, delta, and validation for both the promotion and the
+  corrective fix:
+  [`roster11-miriam-makeba-promotion-DRAFT.md`](../checkpoints/roster11-miriam-makeba-promotion-DRAFT.md),
+  [`roster11-miriam-makeba-profile-fix.md`](../checkpoints/roster11-miriam-makeba-profile-fix.md).
 
 ## Completed major phases (durable summary — do not re-read the archive for these)
 
