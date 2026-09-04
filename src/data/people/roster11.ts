@@ -35,6 +35,22 @@ const seeds: PersonSeed[] = [
     tagIds: ["overcame_adversity", "advocate", "founder"],
     archetypeIds: ["social_influencer", "creative_creator"],
     externalIdentity: { wikidataId: "Q146256" },
+    // Corrective profile-completion pass (2026-09): a backstage portrait,
+    // candid rather than posed (dressing-room mirror visible in frame), but
+    // the strongest rights-clear match found. CC0 (Nationaal Archief/Anefo),
+    // no rights ambiguity. Resized/recompressed derivative (2455x2230 ->
+    // 1236x1123, mozjpeg-equivalent quality-85 re-encode, no crop/upscale/AI
+    // processing) of the Commons "(cropped)" extract. licenseUrl points to
+    // the live Commons file page for re-verification.
+    portrait: {
+      url: "/portraits/miriam-makeba-grand-gala-1969.jpg",
+      width: 1236,
+      height: 1123,
+      source: "Wikimedia Commons (resized/recompressed derivative of a Nationaal Archief/Anefo cropped extract; see licenseUrl for the original)",
+      license: "CC0 1.0 Universal Public Domain Dedication",
+      licenseUrl: "https://commons.wikimedia.org/wiki/File:Miriam_Makeba,_Bestanddeelnr_922-1835_(cropped).jpg",
+      attribution: "Rob Mieremet / Anefo, 7 March 1969 — Nationaal Archief (Dutch National Archives), CC0",
+    },
     sources: [{ id: "src_makeba_wikipedia", kind: "wikipedia", title: "Miriam Makeba", url: "https://en.wikipedia.org/wiki/Miriam_Makeba" }, { id: "src_makeba_britannica", kind: "institution", title: "Encyclopaedia Britannica — Miriam Makeba" }, { id: "src_makeba_memoir", kind: "archive", title: "Miriam Makeba with James Hall, Makeba: My Story (1988)" }, { id: "src_makeba_safundi", kind: "institution", title: "\"A marriage of inconvenience: Miriam Makeba's relationship with Stokely Carmichael and her music career in the United States\", Safundi 17(3), 2016 — peer-reviewed scholarly treatment of the 1968 marriage and its documented career consequences" }],
     rows: {
       // [NEW_EVIDENCE, this session] Two independent, well-corroborated documented instances of accepting severe, foreseeable personal cost for principle: (1) the 1963 UN apartheid testimony, after which South Africa revoked her passport and citizenship for over 30 years; (2) her 1968 marriage to Black Power activist Stokely Carmichael, which she pursued knowing (and which then caused) her US record label to drop her and her American concerts to be cancelled — she is directly quoted at the time: "My concerts are being canceled left and right. I learn that people are afraid that my shows will finance radical activities." Two independent documented instances from more than one source meets this rubric's top confidence band.

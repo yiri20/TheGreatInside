@@ -4598,4 +4598,46 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     legacy: { textKey: "rumi.legacy", sourceIds: ["src_rumi_wikipedia"] },
   },
+
+  // Roster 11 (roster-expansion-125 evidence program): Miriam Makeba.
+  // Every fact below traces to her own candidate rationale
+  // (data-pipeline/candidates/miriam-makeba.json, carried into
+  // roster11.ts) and her existing sources — no new research performed.
+  "miriam-makeba": {
+    achievements: [
+      {
+        id: "miriam-makeba-achievement-1",
+        textKey: "miriam-makeba.achievement.1",
+        sourceIds: ["src_makeba_wikipedia", "src_makeba_britannica"],
+      },
+      {
+        id: "miriam-makeba-achievement-2",
+        textKey: "miriam-makeba.achievement.2",
+        sourceIds: ["src_makeba_wikipedia", "src_makeba_britannica"],
+      },
+    ],
+    moments: [
+      {
+        id: "miriam-makeba-moment-1",
+        textKey: "miriam-makeba.moment.1",
+        interpretationKey: "miriam-makeba.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_makeba_memoir", "src_makeba_safundi"],
+      },
+      {
+        id: "miriam-makeba-moment-2",
+        textKey: "miriam-makeba.moment.2",
+        sourceIds: ["src_makeba_wikipedia", "src_makeba_britannica"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "miriam-makeba-turning-point-1",
+        textKey: "miriam-makeba.turning_point.1",
+        interpretationKey: "miriam-makeba.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_makeba_safundi"],
+      },
+    ],
+  },
 };
