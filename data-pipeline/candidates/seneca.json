@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "seneca",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Seneca",
+    "aliases": [
+      "Seneca the Younger",
+      "Lucius Annaeus Seneca"
+    ],
+    "wikidataId": "Q2054",
+    "birthYear": -4,
+    "deathYear": 65,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "statesman",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "politics",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "historical",
+      "literary"
+    ],
+    "tagIds": [
+      "philosopher"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sen_letters",
+      "kind": "archive",
+      "title": "Seneca, Epistulae Morales ad Lucilium (Letters to Lucilius) — his own extended philosophical correspondence, written for eventual circulation"
+    },
+    {
+      "id": "src_sen_essays",
+      "kind": "archive",
+      "title": "Seneca, De Ira, De Clementia, De Vita Beata, and Naturales Quaestiones — his own essays and natural-science treatise"
+    },
+    {
+      "id": "src_sen_tacitus",
+      "kind": "archive",
+      "title": "Tacitus, Annals, Books 13-15 — near-contemporary Roman historian's account of Seneca's role at Nero's court and his death"
+    },
+    {
+      "id": "src_sen_cassius_dio",
+      "kind": "archive",
+      "title": "Cassius Dio, Roman History, Book 61 — includes the British loan-recall allegation and a more hostile assessment of Seneca's wealth"
+    },
+    {
+      "id": "src_sen_wikipedia",
+      "kind": "wikipedia",
+      "title": "Seneca the Younger",
+      "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive output across philosophy (letters, essays), tragedy, and natural science (Naturales Quaestiones) across decades — genuine breadth of engagement evidenced by surviving distinct bodies of work, not a single claim of curiosity."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained a sustained, decades-long philosophical writing practice through exile, court service, and political turbulence — a well-supported pattern across his whole surviving corpus rather than one productive period."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Survived eight years of exile on Corsica (41-49 CE, on adultery charges under Claudius) and rebuilt his career and influence to become one of Rome's most powerful advisors afterward — a specific, dated, well-documented episode."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Remained at Nero's court for years after clear warning signs of danger — including publicly helping justify Nero's matricide of Agrippina to the Senate in 59 CE (Tacitus) — continuing to accept proximity to increasingly dangerous power in exchange for influence, a choice that ultimately cost him his life."
+    },
+    "conflict_tolerance": {
+      "score": 35,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Consistently sought accommodation with Nero over open confrontation for years, and when he finally broke with the court did so via a formal retirement request rather than public opposition — a documented pattern of conflict-avoidance rather than conflict-seeking."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved through exile, return to prominence, top court advisor, voluntary retirement, and finally forced suicide — a documented sequence of dramatic status changes across one life, each period producing real, adapted output."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Letters to Lucilius repeatedly and extensively grapples with mortality, uncertainty, and fear of death as a recurring theme across many separate letters, not a single reflection."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Tacitus's detailed near-contemporary account of his forced suicide (implicated in the 65 CE Pisonian conspiracy) describes him proceeding calmly and methodically — opening his veins, continuing philosophical instruction to those present, then taking further measures when bleeding proved too slow — one specific, richly documented episode from a reliable source."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Formally requested retirement from Nero's court and offered to return his accumulated wealth (Tacitus records the request; Nero refused the wealth but granted the withdrawal) — a specific, dated act of seeking independence from an increasingly compromised position, after years of remaining engaged."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Letters to Lucilius were written for eventual circulation to instruct a broader readership in Stoic ethics, suggesting real motivation to influence others' conduct — tempered by the well-documented personal wealth-accumulation that sits in tension with that stated aim, so scored at inference rather than higher confidence."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained decades-long output across philosophy, drama, and natural science, each representing genuine depth of engagement rather than dabbling, evidenced by the surviving corpus itself."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced substantial surviving work across four genuinely distinct domains — Stoic philosophy, tragic drama (Medea, Thyestes, and others, which later shaped European Renaissance theatre), natural science, and practical statecraft as Nero's advisor — an objectively verifiable range, not an inferred pattern."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned as Nero's speechwriter for several years early in the reign; a number of Nero's public addresses of that period are historically attributed to Seneca's composition — a specific, documented functional role."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "A multi-decade career navigating exile, return, and shifting court favor implies some sustained planning, but no single cited planning episode survives — inferred from career trajectory rather than documented directly."
+    },
+    "leadership_drive": {
+      "score": 45,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Held only an honorary consulship and functioned throughout his career as an advisor/tutor to Nero rather than pursuing higher magistracies or independent political power himself — a documented pattern of advisory rather than power-seeking orientation."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His preference for practical, letter-form ethical instruction over abstract systematic treatise represents a documented stylistic departure from earlier Stoic writers, though the underlying philosophical content remains within the existing Stoic tradition, so scored at inference."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Both the retirement request and the extensive unsolicited philosophical writing aimed at a broad readership were self-initiated rather than externally commissioned."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Accumulated wealth legendary even by Roman standards — Cassius Dio links a recall of Seneca's British loans to a contributing cause of the Boudican revolt — a documented material-accumulation pattern that sits in direct, well-known tension with his own philosophical writing against wealth-seeking; scored from the behavior, per the rubric, not the stated ideology."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Occupied one of the most influential advisory positions in the Roman world for over a decade, but the surviving record documents his institutional position more than specific assertive episodes, hence inference-level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Ancient era diversity pick. Seneca is unusually well-documented for antiquity via his own extensive, genuinely personal Letters to Lucilius plus Tacitus's near-contemporary, detailed independent account of his court role and death. The wealth-vs-preached-simplicity contradiction is scored honestly as dual_edged evidence (achievement_drive, impact_motivation) rather than smoothed into a fake middle, per the rubric's contradiction-handling guidance. Confidence capped per the rubric's ancient-era discipline. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=19 attributes (>=18 required, met), avgConf=0.512, coverage=0.569 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 19,
+    "averageConfidence": 0.512,
+    "coverage": 0.569,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "che-guevara",
+  "status": "qa_passed",
+  "computedEligibility": {
+    "scoredAttributeCount": 21,
+    "averageConfidence": 0.581,
+    "coverage": 0.625,
+    "eligible": true,
+    "computedAt": "2026-09-04T00:00:00Z"
+  },
+  "identity": {
+    "canonicalName": "Che Guevara",
+    "aliases": ["Ernesto Guevara"],
+    "wikidataId": "Q5809",
+    "birthYear": 1928,
+    "deathYear": 1967,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["AR", "CU"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["political_activist", "physician", "military_leader"],
+    "fieldIds": ["politics", "military", "medicine"],
+    "impactDomains": ["social", "historical"],
+    "tagIds": ["overcame_adversity", "strategist", "career_changer"],
+    "archetypeIds": ["social_influencer"]
+  },
+  "sources": [
+    { "id": "src_che_motorcycle", "kind": "archive", "title": "Ernesto Guevara, The Motorcycle Diaries (Notas de viaje) — his own memoir of the 1951-52 journey across South America" },
+    { "id": "src_che_congo_diary", "kind": "archive", "title": "Ernesto Guevara, Congo Diary (Pasajes de la guerra revolucionaria: Congo) — his own day-by-day account of the failed 1965 Congo campaign, including self-critical assessment" },
+    { "id": "src_che_bolivian_diary", "kind": "archive", "title": "Ernesto Guevara, The Bolivian Diary — kept until days before his October 1967 capture and execution; published posthumously" },
+    { "id": "src_che_farewell_letter", "kind": "archive", "title": "Guevara's 1965 farewell letter to Fidel Castro, read publicly by Castro, renouncing his Cuban government positions and citizenship" },
+    { "id": "src_che_anderson", "kind": "biography", "title": "Jon Lee Anderson, Che Guevara: A Revolutionary Life (1997) — the standard scholarly biography, drawing on Cuban archives and family papers" },
+    { "id": "src_che_wikipedia", "kind": "wikipedia", "title": "Che Guevara", "url": "https://en.wikipedia.org/wiki/Che_Guevara" }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 90,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Repeatedly chose extreme physical and political danger across decades and independent episodes: the 1952 motorcycle trip through remote, poorly mapped terrain on an unreliable machine; the 1956-59 Cuban guerrilla campaign; and, after voluntarily relinquishing a senior government position, the 1965 Congo and 1966-67 Bolivia campaigns, the last of which killed him. Multiple independent, well-documented instances across his whole adult life."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Moved between medical student, guerrilla fighter, senior government administrator (National Bank president, Minister of Industry), and guerrilla fighter again across three different countries and political contexts, each documented by specific dated roles."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Completed full medical training (University of Buenos Aires), authored a substantive military-strategy manual (La Guerra de Guerrillas, 1961), and served as a functioning economic administrator (National Bank, Ministry of Industry) — three genuinely distinct domains with real documented output in each, not dabbling."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After the 1965 Congo campaign's documented failure, moved directly into planning and launching the Bolivia campaign rather than retiring from armed struggle — a specific, dated continuation despite recent, self-acknowledged defeat."
+    },
+    "conflict_tolerance": {
+      "score": 75,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained years of armed conflict across three countries and personally oversaw harsh, contested disciplinary and judicial actions (including executions at La Cabaña fortress in 1959) — a documented pattern with real, lasting historical and reputational cost to him."
+    },
+    "impact_motivation": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His 1965 farewell letter to Castro explicitly renounces his senior government position and material comforts to continue the revolutionary struggle elsewhere — a specific, dated, directly documented statement of motivation over material security."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Voluntarily relinquished senior Cuban government office and citizenship in 1965 to pursue an independent path rather than remain in an established position of power — a specific, dated, well-documented act, not an inferred preference."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Both the Congo and Bolivia campaigns were self-initiated rather than assigned by any higher authority — the entire post-1965 phase of his life was self-directed, documented via his own diaries and the farewell letter."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Led decisive battlefield actions during the Cuban revolutionary campaign, including command at the Battle of Santa Clara, a well-documented turning point, though most of the surviving record describes outcomes more than his specific decision process."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Commanded significant guerrilla forces and held senior government office, but the documented pattern of voluntarily relinquishing that office (autonomy_need) suggests the underlying motivation read as ideological rather than personal-power-seeking, distinguishing this from raw dominance drive."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Enforced strict discipline within his own guerrilla units, including documented executions of deserters, and sustained rigorous physical activity throughout despite severe lifelong asthma — a real, consequential pattern with genuine costs to those under his command, not an unqualified virtue."
+    },
+    "achievement_drive": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The documented record centers on ideological/collective revolutionary goals rather than personal achievement or recognition-seeking specifically, so this is inferred rather than directly evidenced."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed and published his own \"foco\" theory of guerrilla revolution (a small vanguard group igniting broader uprising), a specific documented theoretical departure from orthodox Marxist-Leninist party-building doctrine of the period."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His writings, including the widely circulated essay \"Man and Socialism in Cuba,\" had substantial documented influence on revolutionary movements internationally, though this is inferred from reception and reach rather than a single cited persuasive episode."
+    },
+    "ambiguity_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Congo Diary explicitly and repeatedly documents his own uncertainty and doubt about the campaign's viability while he continued to operate under those conditions for months — an unusually direct, self-authored record of sustained operation under acknowledged doubt."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Worked closely and effectively with Castro's core group during the Cuban campaign, but his own Congo Diary documents real friction with his Congolese allies, attributing some of the campaign's failure to communication and coordination breakdowns he was part of."
+    },
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Authored a systematic strategic manual, La Guerra de Guerrillas (1961), setting out guerrilla warfare doctrine in structured form — a specific, documented strategic output rather than an inferred planning tendency."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Completed full medical training to the point of qualification before changing fields, then developed genuine, applied military-strategic expertise afterward — a documented credential plus a documented second competence, not a claimed reputation."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Maintained detailed day-by-day diaries through both the Congo and Bolivia campaigns, continuing the Bolivian diary until days before his capture — a sustained documentary habit evidenced by the surviving texts themselves."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At a leper colony in San Pablo, Peru, during the 1952 journey, he insisted on shaking hands with patients without gloves against prevailing protocol, a specific documented act recorded in his own Motorcycle Diaries."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chose to undertake an extended, largely unplanned motorcycle journey across an entire continent as a medical student rather than complete his studies on a conventional timeline, documented in detail in his own memoir of the trip."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Latin America diversity pick. Unusually rich self-report evidence base — three of his own diaries survive (Motorcycle Diaries, Congo Diary, Bolivian Diary), the Congo Diary in particular providing a rare, genuinely self-critical first-person account of his own failure, used honestly here (persistence, ambiguity_tolerance, collaboration) rather than smoothed over. The La Cabaña executions and harsh internal discipline are scored as documented, consequential, dual_edged/risk evidence rather than omitted — per the rubric's contradiction-handling guidance, a real complexity is itself information, not something to average away. Scored to completion before any eligibility check was run."
+  }
+}

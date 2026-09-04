@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "winnie-madikizela-mandela",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Winnie Madikizela-Mandela",
+    "wikidataId": "Q239062",
+    "birthYear": 1936,
+    "deathYear": 2018,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "ZA"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_activist",
+      "activist"
+    ],
+    "fieldIds": [
+      "politics",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "endured_imprisonment",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_wmm_491days",
+      "kind": "archive",
+      "title": "Winnie Madikizela-Mandela, 491 Days: Prisoner Number 1323/69 (2013) — her own account of 491 days in solitary confinement, 1969-1970"
+    },
+    {
+      "id": "src_wmm_trc",
+      "kind": "institution",
+      "title": "South Africa Truth and Reconciliation Commission (TRC) findings, 1997, including hearings on the Mandela United Football Club and the killing of Stompie Moeketsi"
+    },
+    {
+      "id": "src_wmm_press",
+      "kind": "press",
+      "title": "Decades of South African and international press coverage, 1960s anti-apartheid activism through her 2018 death as a sitting Member of Parliament"
+    },
+    {
+      "id": "src_wmm_wikipedia",
+      "kind": "wikipedia",
+      "title": "Winnie Madikizela-Mandela",
+      "url": "https://en.wikipedia.org/wiki/Winnie_Madikizela-Mandela"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained anti-apartheid activism across nearly three decades of banning orders, repeated detention, and her husband's 27-year imprisonment, without withdrawing from the movement."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct, high-risk confrontation with the apartheid state across decades, repeatedly accepting detention and banning orders as a known consequence rather than moderating her activism to avoid them."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued high-profile public activism despite documented banning orders, solitary confinement, and sustained state surveillance and harassment across decades, evidenced across multiple separate periods of detention."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued operating as an independent political force during Mandela's imprisonment, repeatedly violating banning orders specifically intended to silence her rather than complying to avoid further consequence."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Became a globally recognized leader and symbol of the anti-apartheid movement during Mandela's imprisonment and later held elected office for two decades; the 1997 Truth and Reconciliation Commission also formally found her \"politically and morally accountable\" for violence committed by the Mandela United Football Club, a group operating under her patronage, including the killing of fourteen-year-old activist Stompie Moeketsi — a specific, institutional finding of real harm connected to that same leadership role, not omitted from the profile."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained highly public, confrontational activist rhetoric across decades, including a specific, widely reported and controversial 1986 public statement about \"necklacing\" that drew criticism even from within the movement — assertive with real, documented reputational cost."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and expanded her own independent activist network and public profile during Mandela's imprisonment rather than remaining a passive figure awaiting his release."
+    },
+    "ambiguity_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her own memoir, 491 Days, documents sustained psychological endurance through prolonged solitary confinement — a rare, direct first-person account of enduring severe, extended uncertainty and isolation."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of political relevance and leadership across decades, remaining an elected Member of Parliament until her death despite sustained controversy, inferred from that consistency."
+    },
+    "independent_thinking": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Her own account of the Stompie Moeketsi case never fully aligned with the Truth and Reconciliation Commission's institutional findings — a documented, sustained divergence from the official record that is honestly ambiguous between principled disagreement and unresolved denial, scored as dual_edged rather than resolved in either direction."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining decades of political engagement and organizing despite repeated state suppression implies real personal discipline, but no single cited working-discipline episode survives independent of the broader activism record, hence inference-level."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved through documented, distinct roles — young activist and imprisoned dissident's wife, independent movement symbol during his imprisonment, and post-apartheid elected politician — across dramatically different eras."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained lifelong commitment to the anti-apartheid cause and, later, documented continued local popularity and re-election specifically in Soweto despite national controversy, suggesting sustained motivation tied to a specific constituency."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Retained a documented, sustained political base and popularity in Soweto across decades despite significant national controversy — real evidence of an enduring persuasive connection with a specific constituency, not inferred from general fame."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Returned immediately to high-profile public activism after her release from 491 days of solitary confinement rather than withdrawing from public life — a specific, documented choice at a clear decision point."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Trained and worked as South Africa's first Black medical social worker before her activism career, a documented credential, though the deeper evidence for sustained mastery-seeking beyond that credential is thinner, hence inference-level."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained, coordinated activist network-building during Mandela's imprisonment implies real organizational planning, but no single cited planning episode survives independent of the outcome, hence inference-level."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Functioned as a trained social worker, a movement activist/organizer, and later a parliamentarian — a documented range of roles, though the depth of evidence in each beyond the activism itself is thinner, hence inference-level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Sub-Saharan Africa / contemporary pick, chosen specifically for the genuine documented complexity in her record — the 1997 TRC's formal finding of accountability for real violence connected to the Mandela United Football Club sits alongside decades of genuinely significant anti-apartheid activism and sustained local popularity, and both are scored honestly (leadership_drive, social_assertiveness, independent_thinking all marked dual_edged) rather than the record being smoothed toward either an uncomplicated hero or villain reading. This is exactly the kind of real, well-documented contradiction the scoring rubric treats as information, not noise. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes (>=18 required, met), avgConf=0.508, coverage=0.536 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.508,
+    "coverage": 0.536,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

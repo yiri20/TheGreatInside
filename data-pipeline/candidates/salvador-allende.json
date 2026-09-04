@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "salvador-allende",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Salvador Allende",
+    "wikidataId": "Q440",
+    "birthYear": 1908,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CL"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "physician"
+    ],
+    "fieldIds": [
+      "politics",
+      "medicine"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sa_final_speech",
+      "kind": "archive",
+      "title": "Salvador Allende's final radio address, broadcast live from La Moneda Palace, 11 September 1973, during the military coup"
+    },
+    {
+      "id": "src_sa_un_speech",
+      "kind": "archive",
+      "title": "Allende's address to the UN General Assembly, 4 December 1972"
+    },
+    {
+      "id": "src_sa_church_committee",
+      "kind": "institution",
+      "title": "US Senate Church Committee hearings and report, 1975 — declassified documentation of US covert action against Allende's government"
+    },
+    {
+      "id": "src_sa_press",
+      "kind": "press",
+      "title": "International press coverage of his 1970-1973 presidency and the September 1973 coup"
+    },
+    {
+      "id": "src_sa_wikipedia",
+      "kind": "wikipedia",
+      "title": "Salvador Allende",
+      "url": "https://en.wikipedia.org/wiki/Salvador_Allende"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ran for the Chilean presidency unsuccessfully three times (1952, 1958, 1964) before finally winning in 1970 — a specific, extremely well-documented eighteen-year persistence pattern, not a single campaign."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Remained in La Moneda Palace during the 11 September 1973 military coup rather than accepting safe passage into exile, delivering a final radio address refusing to resign as the palace was under military assault, and died there during the attack — an extreme, well-corroborated, final documented act."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His decision to remain in the palace and refuse resignation was made explicitly and in real time, documented in the surviving broadcast recording of his own final address."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct political conflict with Chile's conservative establishment, the military, and documented US destabilization efforts (later detailed in the Church Committee's 1975 report) throughout his three-year presidency."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His final radio address explicitly frames his refusal to resign in terms of principle and the Chilean people's future rather than personal survival — a directly documented statement of motivation made at the moment of maximum personal stakes."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an eighteen-year, four-election campaign to reach the presidency on top of an earlier documented career as physician, public health reformer, and senator."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Earned a medical degree and wrote a specific documented thesis on the social and medical dimensions of mental illness and crime before his political career developed further."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real documented output as a physician, as Minister of Health implementing specific public-health reforms in the 1930s, as a senator, and as president — four genuinely distinct phases, not superficial involvement."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Initiated and sustained his own repeated presidential campaigns across two decades despite three prior losses, rather than abandoning the goal after an early defeat."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued a specifically Chilean, democratic \"path to socialism\" (la vía chilena al socialismo) explicitly distinct from the Soviet and Cuban models — a documented, deliberate strategic choice asserting independence from other socialist states' approaches."
+    },
+    "independent_thinking": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same \"Chilean path to socialism\" framework represents a genuinely original, documented theoretical departure from prevailing socialist models of the period, not an inherited doctrine applied unchanged."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of the presidency across two decades and, once elected, sustained active governance for three years under severe internal and external pressure."
+    },
+    "planning_orientation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Implemented substantial, systematic nationalization programs covering copper mining and banking, requiring documented policy planning rather than improvised measures."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Governed for three years under sustained, escalating internal political conflict and documented external destabilization pressure without abandoning his program, evidenced by the continuity of his policy agenda through that period."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Won the 1970 election and sustained the multi-party Unidad Popular governing coalition despite deep national polarization, inferred from that documented electoral and coalition outcome."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His December 1972 address to the UN General Assembly directly and publicly confronted documented US interference in Chilean affairs on an international stage, a specific high-profile assertive act."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained medical training, public-health reform work, and a twenty-year political campaign trajectory implies real sustained discipline, inferred from that overall arc rather than a single cited episode."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and sustained the Unidad Popular coalition of multiple left-wing parties to achieve his 1970 election win, a specific, documented multi-party collaborative effort."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His early medical thesis addressing the social dimensions of mental illness and criminology suggests intellectual engagement beyond conventional clinical practice, though inferred from that one documented work rather than a broader pattern."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Latin America pick. The final chapter of his life is unusually well documented for a single compressed episode — his own broadcast final address survives directly, and the surrounding US destabilization campaign is independently documented via the declassified 1975 Church Committee report, not reliant on partisan retrospective narrative alone. The specific manner of his death during the coup has a long-disputed forensic and political history; this record deliberately states only the undisputed core fact (he remained in the palace and died there during the military assault) and does not assert a specific cause of death, consistent with this project's safety discipline against unsupported claims. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=19 attributes (>=18 required, met), avgConf=0.562, coverage=0.569 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 19,
+    "averageConfidence": 0.562,
+    "coverage": 0.569,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marcus-aurelius",
+  "status": "qa_passed",
+  "computedEligibility": {
+    "scoredAttributeCount": 20,
+    "averageConfidence": 0.547,
+    "coverage": 0.604,
+    "eligible": true,
+    "computedAt": "2026-09-04T00:00:00Z"
+  },
+  "identity": {
+    "canonicalName": "Marcus Aurelius",
+    "wikidataId": "Q1430",
+    "birthYear": 121,
+    "deathYear": 180,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": ["political_leader", "philosopher"],
+    "fieldIds": ["politics", "philosophy", "military"],
+    "impactDomains": ["cultural", "historical"],
+    "tagIds": ["philosopher", "leader"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_ma_meditations", "kind": "archive", "title": "Marcus Aurelius, Meditations (Ta eis heauton) — a private philosophical journal, not written for publication, composed largely during his Danube frontier campaigns" },
+    { "id": "src_ma_cassius_dio", "kind": "archive", "title": "Cassius Dio, Roman History, Book 71/72 — near-contemporary Roman senator's account of Marcus Aurelius's reign" },
+    { "id": "src_ma_historia_augusta", "kind": "archive", "title": "Historia Augusta, \"Life of Marcus Aurelius\" — later (c. 4th century) imperial biography of variable reliability; used here only for specific episodes corroborated or plausible alongside Cassius Dio" },
+    { "id": "src_ma_wikipedia", "kind": "wikipedia", "title": "Marcus Aurelius", "url": "https://en.wikipedia.org/wiki/Marcus_Aurelius" }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 65,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Across all twelve books of Meditations he sustains a running, self-directed examination of his own reactions, judgments, and philosophical positions rather than restating fixed doctrine — a well-supported pattern of active self-questioning across the whole surviving text, not one isolated remark."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Meditations is itself the direct evidence: a sustained private philosophical practice maintained through years of active campaigning on the Danube frontier during the Marcomannic Wars, not composed in leisure. The practice's survival across that period is documented by the text's own internal references to camp locations."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Ruled 19 years through the Antonine Plague, sustained multi-year wars on the German/Danube frontier, and Avidius Cassius's revolt, continuing to govern and campaign personally through each — a documented pattern of enduring compounding crises rather than a single instance."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "When his own general Avidius Cassius declared himself emperor, Marcus Aurelius personally marched east to confront the revolt (Cassius Dio) while reportedly stating he wished to spare Cassius's life and offer clemency rather than pursue vengeance (Historia Augusta, corroborated in substance by Cassius Dio) — engaged the threat directly but visibly avoided escalation to reprisal once it collapsed."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Did not seek the throne (became emperor via Antoninus Pius's adoption) and then made the unprecedented choice to rule as co-emperor with Lucius Verus rather than alone — a specific, documented institutional decision suggesting rule was accepted as duty rather than pursued for personal dominance."
+    },
+    "autonomy_need": {
+      "score": 40,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Multiple ancient sources describe a sustained practice of convening and consulting his imperial consilium before major decisions rather than acting unilaterally — a documented governing pattern, not a single anecdote."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The co-emperorship with Lucius Verus (a specific, unprecedented institutional arrangement) and the well-attested consilium practice are both directly documented collaborative structures he created or sustained."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Meditations repeatedly returns to duty toward the common good over personal gratification (e.g. its recurring bee/hive framing of the individual's relation to the whole) as a sustained theme across many separate passages, not one quotable line."
+    },
+    "achievement_drive": {
+      "score": 42,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Meditations explicitly and repeatedly disparages the pursuit of personal fame and posthumous reputation as vanity — a documented, recurring self-corrective theme that argues against strong personal-glory-seeking rather than for it."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained a years-long, multi-front military campaign requiring real logistics and strategy, but the surviving record documents outcomes and duration more than his specific planning process — inferred from the campaign's sustained coherence rather than a cited planning episode, hence capped at inference."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Book 1 of Meditations is a structured, specific catalog crediting named teachers (Junius Rusticus, Sextus, others) for particular lessons learned — an unusually detailed, self-authored record of sustained deliberate intellectual formation, not a general reputation for wisdom."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Governed through the Antonine Plague and simultaneous multi-front wars, but the surviving record documents institutional/military responses more than personally attributable adaptive behavior — inference-level rather than a specific cited instance."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Chose to personally command from the dangerous Danube frontier for years rather than direct the wars from Rome, an unusual choice among emperors of the era and one that likely contributed to his death near the front — a sustained pattern across the whole Marcomannic War period, not a single episode."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The clemency-over-vengeance response to the Cassius revolt and the consistent application of Stoic restraint against the era's normal imperial reprisal practice both show a self-directed ethical standard distinct from surrounding political convention, evidenced across more than one documented episode."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The philosophical journal was self-initiated with no audience or reward (never intended for publication), and the choice to personally campaign at the front rather than delegate was his own — both self-directed rather than externally compelled."
+    },
+    "decisiveness": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Marched east immediately on learning of the Cassius revolt rather than waiting on events — one specific, dated crisis-response decision, moderate confidence given Historia Augusta's variable reliability as a source for this episode's particulars."
+    },
+    "ambiguity_tolerance": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Meditations repeatedly and explicitly grapples with uncertainty, mortality, and the limits of human control as a recurring theme across many passages rather than a single reflection."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-dabbling engagement across philosophy, law/governance, and military command simultaneously for nearly two decades, each with real documented output or decisions, not superficial involvement."
+    },
+    "deep_focus": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The structured, sustained philosophical practice documented across all twelve books, maintained over years including under active campaign conditions, shows sustained deliberate engagement rather than sporadic reflection."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "A private, self-directed philosophical journal is an unusual genre for a reigning Roman emperor and shows personal synthesis of Stoic tradition rather than restatement, but this is inferred from the text's unusual form rather than a directly documented claim of originality, hence inference-level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Ancient era is the roster's most underrepresented (4/96 before this batch). Marcus Aurelius is one of antiquity's best-documented interior lives via Meditations, a private journal never intended for publication, corroborated by Cassius Dio (near-contemporary) and cautiously by Historia Augusta (later, variable reliability, used only for specific episodes). Confidence capped per the rubric's ancient/medieval discipline (roughly 0.7 ceiling, strong_inference not documented for most rows) — never pushed toward eligibility_v2's threshold. Scored to completion before any eligibility check was run."
+  }
+}

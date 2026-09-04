@@ -4640,4 +4640,46 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // Roster 12 (new-intake batch, 2026-09): Marcus Aurelius. Every fact below
+  // traces to his own candidate rationale (data-pipeline/candidates/
+  // marcus-aurelius.json, carried into roster12.ts) and his existing sources
+  // (Meditations, Cassius Dio, Historia Augusta) — no new research performed.
+  "marcus-aurelius": {
+    achievements: [
+      {
+        id: "marcus-aurelius-achievement-1",
+        textKey: "marcus-aurelius.achievement.1",
+        sourceIds: ["src_ma_meditations"],
+      },
+      {
+        id: "marcus-aurelius-achievement-2",
+        textKey: "marcus-aurelius.achievement.2",
+        sourceIds: ["src_ma_cassius_dio"],
+      },
+    ],
+    moments: [
+      {
+        id: "marcus-aurelius-moment-1",
+        textKey: "marcus-aurelius.moment.1",
+        interpretationKey: "marcus-aurelius.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_ma_cassius_dio", "src_ma_historia_augusta"],
+      },
+      {
+        id: "marcus-aurelius-moment-2",
+        textKey: "marcus-aurelius.moment.2",
+        sourceIds: ["src_ma_meditations"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "marcus-aurelius-turning-point-1",
+        textKey: "marcus-aurelius.turning_point.1",
+        interpretationKey: "marcus-aurelius.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_ma_cassius_dio", "src_ma_wikipedia"],
+      },
+    ],
+  },
 };

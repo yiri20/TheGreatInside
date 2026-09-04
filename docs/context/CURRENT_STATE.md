@@ -4,7 +4,25 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-04 (corrective fix, `fix/miriam-makeba-complete-profile`:
+Last updated: 2026-09-04 (roster-12 new-intake batch,
+`feat/roster12-new-intake-batch`, implemented in an isolated worktree,
+`READY_TO_COMMIT` but not yet committed/merged: with zero unpromoted
+`qa_passed` candidates left after Miriam Makeba, built a fresh 27-person
+discovery pool, froze 15 for full evidence packs and first scoring. 2
+crossed `eligibility_v2` honestly: Marcus Aurelius (promoted, with a real
+CC BY 2.5 Louvre-bust portrait and full EN/KO editorial content from
+first promotion — 96->97 people, 95->96 match-eligible) and Che Guevara
+(NOT promoted — no rights-clear, non-AI-generated portrait could be
+sourced this cycle; the iconic Korda photograph's international
+copyright status is genuinely disputed; his `qa_passed` candidate JSON is
+untouched, next-in-line once a portrait is resolved). The other 13 frozen
+candidates remain `held` — real evidence packs, genuine first scores, all
+missed only on `eligibility_v2`'s weighted coverage floor, not attribute
+count or confidence. No previously-committed candidate's score,
+confidence, evidence, or lifecycle was altered (scoring-lock integrity: 0
+flagged). Full record:
+[`roster12-new-intake-batch.md`](../checkpoints/roster12-new-intake-batch.md).
+Prior update, 2026-09-04 (corrective fix, `fix/miriam-makeba-complete-profile`:
 the prior Miriam Makeba promotion was declared production-complete from
 data-layer checks alone and was incomplete in the actual product — no
 portrait, no editorial content, and an unverified user-visible-count
@@ -59,14 +77,17 @@ Zheng He remain)).
 
 ## Product
 
-- **Roster: 96 people, 95 match-eligible.** Zheng He is the sole
-  non-match-eligible exception (browsable, fails only the coverage gate).
-  Authority: `evaluateMatchEligibility()` in `src/core/matching/similarity.ts`;
-  re-run `corepack pnpm@10 exec tsx src/dev/simulate.ts 10000 quiz` for a
-  live health check. Miriam Makeba (`roster11.ts`) promoted 2026-09 from
-  the roster-expansion-125 evidence program, merged to `main`, and its
-  profile completed (portrait + editorial content) by a 2026-09-04
-  corrective fix — see the Roster Expansion 125 entry below.
+- **Roster: 97 people, 96 match-eligible** (implemented in the
+  `feat/roster12-new-intake-batch` worktree, `READY_TO_COMMIT`, not yet
+  merged). Zheng He is the sole non-match-eligible exception (browsable,
+  fails only the coverage gate). Authority: `evaluateMatchEligibility()`
+  in `src/core/matching/similarity.ts`; re-run `corepack pnpm@10 exec tsx
+  src/dev/simulate.ts 10000 quiz` for a live health check. Miriam Makeba
+  (`roster11.ts`) promoted 2026-09 from the roster-expansion-125 evidence
+  program, merged to `main`, profile completed by a corrective fix. Marcus
+  Aurelius (`roster12.ts`) promoted 2026-09 from the roster-12 new-intake
+  batch, with a real portrait and editorial content from first promotion —
+  see the Roster 12 entry below. Target: 125, remaining gap: 28.
 - **Eligibility rule: `eligibility_v2`** (`scored>=18`, `coverage>=0.6`,
   high-confidence-subset `count>=12`/`avgConf>=0.55`). See
   [`docs/reference/matching.md`](../reference/matching.md).
@@ -280,6 +301,29 @@ Zheng He remain)).
   corrective fix:
   [`roster11-miriam-makeba-promotion-DRAFT.md`](../checkpoints/roster11-miriam-makeba-promotion-DRAFT.md),
   [`roster11-miriam-makeba-profile-fix.md`](../checkpoints/roster11-miriam-makeba-profile-fix.md).
+- **Roster-12 new-intake batch (2026-09, `feat/roster12-new-intake-batch`,
+  `READY_TO_COMMIT`, not yet merged)**: with zero unpromoted `qa_passed`
+  candidates left after Miriam Makeba, built a fresh 27-person discovery
+  pool (none previously scored, none already live), froze 15 for full
+  evidence packs and first scoring — 2 crossed `eligibility_v2` honestly.
+  **Marcus Aurelius** promoted via `generateRoster12.ts` (single-slug
+  allowlist) into `roster12.ts` — 96->97 people, 95->96 match-eligible —
+  with a real portrait (Louvre Antonine-period bust, CC BY 2.5) and full
+  EN/KO editorial content from first promotion, not a follow-up fix.
+  **Che Guevara is `qa_passed` but not promoted**: no rights-clear,
+  non-AI-generated portrait could be sourced this cycle (the Korda
+  "Guerrillero Heroico" photograph's international copyright status is
+  genuinely disputed — Korda himself successfully sued over commercial
+  use in 2000; several Commons alternatives were rejected for the same
+  reason, a false rights claim, or an AI-modification flag); his
+  candidate JSON and lifecycle are untouched. The other 13 frozen
+  candidates remain `held` — real evidence packs, genuine first scores,
+  all missed only on `eligibility_v2`'s weighted coverage floor (not
+  attribute count or confidence), a concrete target for a future
+  evidence-deepening pass rather than new research. No previously-
+  committed candidate's score/confidence/evidence/lifecycle changed
+  (scoring-lock integrity: 0 flagged). Target remains 125; gap now 28.
+  Full record: [`roster12-new-intake-batch.md`](../checkpoints/roster12-new-intake-batch.md).
 
 ## Completed major phases (durable summary — do not re-read the archive for these)
 

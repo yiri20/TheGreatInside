@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jawaharlal-nehru",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Jawaharlal Nehru",
+    "wikidataId": "Q1047",
+    "birthYear": 1889,
+    "deathYear": 1964,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "writer",
+      "statesman"
+    ],
+    "fieldIds": [
+      "politics",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "social",
+      "literary"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nehru_letters_daughter",
+      "kind": "archive",
+      "title": "Jawaharlal Nehru, Letters from a Father to His Daughter (1928) — his own letters to a young Indira Gandhi"
+    },
+    {
+      "id": "src_nehru_glimpses",
+      "kind": "archive",
+      "title": "Jawaharlal Nehru, Glimpses of World History (1934) — letters to Indira written from prison, 1930-33"
+    },
+    {
+      "id": "src_nehru_discovery",
+      "kind": "archive",
+      "title": "Jawaharlal Nehru, The Discovery of India (1946) — written substantially during his 1944 imprisonment"
+    },
+    {
+      "id": "src_nehru_toward_freedom",
+      "kind": "archive",
+      "title": "Jawaharlal Nehru, Toward Freedom: The Autobiography of Jawaharlal Nehru (1936)"
+    },
+    {
+      "id": "src_nehru_gopal",
+      "kind": "biography",
+      "title": "Sarvepalli Gopal, Jawaharlal Nehru: A Biography (three volumes) — drawing on extensive personal and government archives"
+    },
+    {
+      "id": "src_nehru_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jawaharlal Nehru",
+      "url": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Discovery of India and Glimpses of World History both show sustained, genuinely wide-ranging engagement across history, philosophy, science, and culture, written as personal exploration rather than a commissioned reference work."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Accumulated roughly nine years of imprisonment across multiple specific, dated terms between 1921 and 1945 for independence-movement activity, continuing the same activity after each release rather than withdrawing."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Repeatedly led and participated in civil disobedience campaigns with imprisonment as the near-certain, well-understood consequence, across multiple separate documented campaigns over two decades."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained real, documented philosophical differences with Gandhi over secularism, industrialization, and economic policy — recorded directly in their surviving correspondence — while remaining a close political ally, showing sustained independent judgment rather than deference."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Moved from Cambridge-educated lawyer to imprisoned independence activist to head of government of a newly partitioned, massive, diverse nation — documented, distinct role transitions."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents choosing repeated imprisonment over a comfortable legal career as a specific, deliberate trade-off in favor of the independence movement, sustained across two decades."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Initiated and sustained India's Five-Year Plans as a systematic national economic planning framework — a specific, documented structural output, not an inferred tendency."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-founded the Non-Aligned Movement with Nasser and Tito, a self-initiated foreign-policy stance deliberately outside both Cold War blocs, rather than a default alignment inherited from either bloc's pressure."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a close, decades-long political partnership with Gandhi despite the documented, real ideological differences between them — evidence of genuine collaboration through disagreement rather than simple discipleship."
+    },
+    "decisiveness": {
+      "score": 52,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The 1962 Sino-Indian War is documented as exposing real weaknesses in his government's military preparedness and strategic decision-making — a specific, well-documented setback in this exact domain, scored honestly rather than omitted."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced several substantial books, including The Discovery of India, written in roughly five months during his 1944 imprisonment without research-assistant support — a specific, documented instance of sustained deep output under real constraint."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with genuine substantive output as a trained lawyer, a published historian/writer, and a head of government — three distinct domains, each documented by surviving work or record, not superficial involvement."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the dominant political figure of the independence movement's governing wing and served as Prime Minister for seventeen years (1947-1964) — a sustained, documented leadership role, not a brief tenure."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His advocacy was a founding influence in drawing a large number of newly independent nations toward the Non-Aligned Movement, inferred from that movement's documented reach rather than a single persuasive episode."
+    },
+    "ambiguity_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Governed a newly independent nation through partition violence, the integration of hundreds of princely states, and sustained Cold War pressure for seventeen years, evidenced by the continuity of functioning government across that whole uncertain period."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The volume and coherence of his prison-written work, produced under real physical and time constraints across multiple separate imprisonments, is direct evidence of sustained working discipline."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founding the Non-Aligned Movement specifically to avoid subordinating India's foreign policy to either Cold War superpower bloc is a specific, documented act of prioritizing independence at the national-policy level."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of both a substantial personal intellectual output and long-term national development goals across decades, inferred from the consistency of that dual output rather than a single stated ambition."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly and publicly led direct civil-disobedience confrontations with British colonial authority, resulting in his own arrest on multiple specific, dated occasions."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of direct confrontation with British colonial authority, accepting repeated imprisonment as a known, accepted consequence rather than seeking accommodation."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): South Asia pick. Unusually rich self-report base for a 20th-century political leader — several substantial books written largely from prison (Letters from a Father to His Daughter, Glimpses of World History, The Discovery of India), corroborated by his own surviving correspondence with Gandhi documenting real, specific ideological disagreements rather than simple alliance. The 1962 Sino-Indian War is scored honestly as a documented decisiveness/preparedness setback (dual_edged) rather than omitted to protect the profile. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=20 attributes (>=18 required, met), avgConf=0.574, coverage=0.599 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 20,
+    "averageConfidence": 0.574,
+    "coverage": 0.599,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "king-hussein-jordan",
+  "status": "held",
+  "identity": {
+    "canonicalName": "King Hussein of Jordan",
+    "wikidataId": "Q146906",
+    "birthYear": 1935,
+    "deathYear": 1999,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JO"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "reconciliation"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_kh_uneasy_lies",
+      "kind": "archive",
+      "title": "King Hussein, Uneasy Lies the Head (1962) — his own early memoir"
+    },
+    {
+      "id": "src_kh_state_dept",
+      "kind": "archive",
+      "title": "Declassified US State Department diplomatic records covering four decades of Jordanian foreign policy and the Israel-Jordan peace process"
+    },
+    {
+      "id": "src_kh_press",
+      "kind": "press",
+      "title": "International press coverage across his 46-year reign (1952-1999), including the 1957 coup attempt, the 1970 Black September conflict, and the 1994 peace treaty with Israel"
+    },
+    {
+      "id": "src_kh_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hussein of Jordan",
+      "url": "https://en.wikipedia.org/wiki/Hussein_of_Jordan"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Survived multiple documented assassination attempts and coup plots across his reign, including personally going to a besieged loyalist army camp during the 1957 coup attempt rather than fleeing; also a licensed pilot who personally flew aircraft including on official duties — risk evidenced across distinct political and personal domains."
+    },
+    "decisiveness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Made the specific, high-stakes decision to move militarily against PLO forces operating within Jordan during the September 1970 \"Black September\" crisis — decisive and consequential, with real, documented human cost that remains historically contested."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Held the throne for 46 years (1953-1999) through multiple existential threats — coup attempts, regional wars, and Black September — a sustained, documented pattern rather than an uneventful reign."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Navigated and survived Black September and multiple coup attempts, sustaining decades of regional conflict management under direct personal threat."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained secret back-channel diplomatic contact with Israeli leaders for years before the 1994 peace treaty was signed, documented in later-declassified accounts and memoirs from both sides — sustained interpersonal diplomacy across a hostile political divide."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The decades-long secret diplomacy culminating in the 1994 peace treaty with Israel required sustained, careful strategic planning, evidenced by the documented multi-year back-channel effort preceding the formal agreement."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued secret peace diplomacy with Israel years before such contact was broadly politically acceptable in the regional Arab context of the time — a documented, genuinely independent policy stance."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally initiated and sustained the Israel back-channel diplomacy, and, in his final weeks, personally returned from cancer treatment at the Mayo Clinic specifically to intervene in a succession dispute — both self-initiated interventions."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Navigated dramatically different regional political contexts across nearly five decades — Cold War-era regional politics, Black September, and the eventual peace process — evidenced by his sustained rule through each."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became king at seventeen and sustained active, hands-on rule for 46 years — personally confronting coup attempts and personally negotiating peace — rather than functioning as a figurehead."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1994 peace treaty with Israel, the second such treaty by an Arab state, represents sustained, documented relationship-building with a former adversary over years, not a single signing ceremony."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Took a controversial, comparatively neutral stance toward Iraq during the 1990-91 Gulf War that strained relations with other Arab states and the US — a real, documented independent policy choice with genuine diplomatic cost at the time."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a decades-long pursuit of regional stability and peace culminating in the 1994 treaty, inferred from the consistency of that long-term goal across a reign otherwise marked by repeated crises."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Earned and maintained a pilot's license and personally flew a range of aircraft over decades, a specific, documented personal interest pursued seriously alongside his official role."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained skill development in aviation to a licensed, practicing level over decades — a documented, specific competence maintained outside his primary political role."
+    },
+    "discipline": {
+      "score": 55,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining a 46-year reign through repeated crises implies real personal discipline, but no single cited working-discipline episode survives independent of the broader reign record, hence inference-level."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rule through decades of profound regional uncertainty — multiple Arab-Israeli wars, Cold War pressure, and the Gulf War — evidenced by the continuity of his rule across that whole period."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his final weeks, chose to return from cancer treatment specifically to personally manage a succession dispute, prioritizing the state's stability over his own remaining time and comfort — a specific, documented, late-life act."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): West Asia pick (region was among the most underrepresented in the pre-batch roster at 2/96). The Black September decision is scored honestly as dual_edged (decisiveness) given its real, documented, contested human cost, rather than presented as an unqualified strength. Evidence draws on his own early memoir, declassified US diplomatic records, and independent international press across a 46-year public record, not a single tradition. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes (>=18 required, met), avgConf=0.546, coverage=0.543 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.546,
+    "coverage": 0.543,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

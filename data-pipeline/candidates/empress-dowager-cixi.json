@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "empress-dowager-cixi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Empress Dowager Cixi",
+    "wikidataId": "Q47842",
+    "birthYear": 1835,
+    "deathYear": 1908,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_cixi_carl",
+      "kind": "archive",
+      "title": "Katharine Carl, With the Empress Dowager of China (1905) — memoir of the American painter who lived at court roughly nine months to paint Cixi's official portrait; independent Western firsthand account"
+    },
+    {
+      "id": "src_cixi_der_ling",
+      "kind": "archive",
+      "title": "Princess Der Ling, Two Years in the Forbidden City (1911) — memoir of a lady-in-waiting; firsthand but treated cautiously, as later historians dispute some specifics"
+    },
+    {
+      "id": "src_cixi_chang",
+      "kind": "biography",
+      "title": "Jung Chang, Empress Dowager Cixi: The Concubine Who Launched Modern China (2013) — recent scholarly reassessment drawing on newly available Qing archives"
+    },
+    {
+      "id": "src_cixi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Empress Dowager Cixi",
+      "url": "https://en.wikipedia.org/wiki/Empress_Dowager_Cixi"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Staged the 1861 Xinyou Coup within weeks of her husband's death, arresting and executing the regents appointed to rule in her son's place, then sustained effective control of the Qing state for 47 years through successive regencies — multiple independent documented instances across nearly five decades, meeting this rubric's top confidence band."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Xinyou Coup was swift and coordinated, executed within weeks of the succession crisis it resolved — a specific, dated, well-documented action, not a gradual consolidation."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Backed the Boxer Rebellion and declared war on multiple foreign powers simultaneously in 1900 despite a documented, severe military mismatch — a specific, dated decision that ended in the foreign occupation of Beijing, a real risk that did not pay off."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After the Boxer Rebellion's catastrophic outcome, reversed course and implemented sweeping \"New Policies\" reforms (education, military, and administrative modernization) that closely resembled reforms she had suppressed only two years earlier — a specific, documented behavioral change following a major failure."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Placed her own adopted nephew, the reforming Guangxu Emperor, under house arrest after the 1898 Hundred Days' Reform crisis — a specific, high-stakes family and political confrontation, part of a documented decades-long pattern of sustained court conflict."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ruled effectively for decades within a rigidly patriarchal imperial system by working through the formal institution of \"ruling from behind a screen\" as regent — a specific, documented institutional workaround that secured real independent authority despite structural constraints on her holding the throne directly."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustaining effective personal rule as a woman in the Qing court system for nearly five decades, against strong institutional expectation, is a well-supported pattern across her whole reign rather than one documented episode."
+    },
+    "planning_orientation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The coordinated 1861 coup and the sustained multi-decade political maneuvering that kept her in power afterward both suggest real strategic planning capacity, evidenced by the outcomes' consistency more than a single cited planning episode."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Retained supreme political power through the 1861 succession crisis, repeated court rivalries, foreign wars, and the Boxer Rebellion's disastrous aftermath — a documented, sustained pattern across 47 years, not a single reign of unbroken calm."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit and retention of supreme political power for nearly five decades despite the formal constraints of gender and position in the Qing system — a documented, consistent pattern, not an isolated act."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from a comparatively modest Manchu background to supreme power through direct, specific political action (the 1861 coup), a documented assertive act rather than an inherited position."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The record documents both genuine periods of supporting modernization (the Self-Strengthening Movement, then the post-1901 New Policies) and periods of actively suppressing reform (1898) — a real, well-documented tension rather than a single consistent motivation, scored honestly as dual_edged."
+    },
+    "ambiguity_tolerance": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rule through repeated wars, court intrigue, and foreign pressure across decades, evidenced by the continuity of her hold on power through that whole uncertain period."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Katharine Carl's independent account documents genuine personal charm and warmth in private interactions that visibly surprised the American painter, contrasting with the more fearsome public reputation in contemporaneous Western press — one specific documented account, scored moderately per the rubric's single-instance cap."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Held a formal co-regency with Empress Dowager Ci'an from 1861 until Ci'an's death in 1881, a documented two-decade power-sharing arrangement, though court records also document real underlying tension between the two regents."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Qing court records suggest close personal attention to administrative appointments and patronage networks across her reign, but the surviving record documents outcomes more than a specific cited episode of close attention, hence inference-level."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Both the 1861 coup and the post-Boxer reform reversal were self-initiated actions rather than responses dictated by any higher authority."
+    },
+    "curiosity": {
+      "score": 52,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The later embrace of Western-modeled education and military reform suggests some genuine engagement with new ideas, but the evidence is inferred from policy outcomes rather than a directly documented personal curiosity."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining effective governance across a 47-year reign implies real administrative discipline, but no single cited episode of personal working discipline survives, hence inference-level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): East Asia / 19th-century diversity pick (19th century was under-covered in the pre-batch roster at 21/96). Cixi's reform-vs-suppression record is scored honestly as dual_edged (impact_motivation) rather than resolved into a single clean narrative — the 1898 suppression and the 1901+ reform reversal are both real, well-documented, and in tension, matching the rubric's guidance that a genuine documented contradiction is itself information. Confidence anchored to two genuinely independent Western firsthand accounts (Carl, an outside observer who lived at court; Der Ling, an insider, treated more cautiously) plus recent archive-based scholarship (Chang), not a single tradition. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=19 attributes (>=18 required, met), avgConf=0.523, coverage=0.566 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 19,
+    "averageConfidence": 0.523,
+    "coverage": 0.566,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

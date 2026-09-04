@@ -6,7 +6,7 @@ export const PERSON_INDEX_VERSION = "person_index_v1";
 
 /** Compact, client-safe projection of SEED_PEOPLE — see
  *  src/core/people/personIndex.ts for what's included/excluded and why.
- *  96 entries. */
+ *  97 entries. */
 export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
   {
     id: "p_leonardo_da_vinci",
@@ -1913,5 +1913,25 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     overallProfileConfidence: 0.5485000000000001,
     attributes: [["risk_tolerance", 84, 0.8, "risk"], ["social_assertiveness", 86, 0.68, "advantage"], ["conflict_tolerance", 78, 0.6, "risk"], ["persuasiveness", 76, 0.58, "advantage"], ["persistence", 82, 0.65, "advantage"], ["proactive_agency", 78, 0.62, "advantage"], ["curiosity", 55, 0.42, "neutral"], ["detail_orientation", 58, 0.44, "neutral"], ["independent_thinking", 78, 0.78, "advantage"], ["deep_focus", 62, 0.46, "advantage"], ["mastery_orientation", 58, 0.44, "advantage"], ["creative_originality", 68, 0.52, "advantage"], ["adaptability", 74, 0.58, "advantage"], ["leadership_drive", 62, 0.46, "neutral"], ["impact_motivation", 80, 0.62, "advantage"], ["discipline", 66, 0.5, "advantage"], ["achievement_drive", 58, 0.44, "neutral"], ["autonomy_need", 62, 0.56, "neutral"], ["collaboration", 55, 0.42, "neutral"], ["cross_domain_range", 48, 0.4, "neutral"]],
     portraitUrl: "/portraits/miriam-makeba-grand-gala-1969.jpg",
+  },
+  {
+    id: "p_marcus_aurelius",
+    slug: "marcus-aurelius",
+    canonicalName: "Marcus Aurelius",
+    aliases: [],
+    birthYear: 121,
+    deathYear: 180,
+    isLiving: false,
+    era: "ancient",
+    regionCode: "southern_europe",
+    occupationIds: ["political_leader","philosopher"],
+    fieldIds: ["politics","philosophy","military"],
+    impactDomains: ["cultural","historical"],
+    tagIds: ["philosopher","leader"],
+    archetypeIds: ["organizational_leader"],
+    isMatchEligible: true,
+    overallProfileConfidence: 0.5469999999999999,
+    attributes: [["curiosity", 65, 0.62, "advantage"], ["discipline", 78, 0.68, "advantage"], ["persistence", 74, 0.6, "advantage"], ["conflict_tolerance", 70, 0.6, "dual_edged"], ["leadership_drive", 55, 0.55, "neutral"], ["autonomy_need", 40, 0.55, "neutral"], ["collaboration", 68, 0.65, "advantage"], ["impact_motivation", 72, 0.62, "advantage"], ["achievement_drive", 42, 0.5, "neutral"], ["planning_orientation", 62, 0.35, "advantage"], ["mastery_orientation", 76, 0.7, "advantage"], ["adaptability", 58, 0.35, "neutral"], ["risk_tolerance", 68, 0.58, "risk"], ["independent_thinking", 62, 0.5, "advantage"], ["proactive_agency", 65, 0.55, "advantage"], ["decisiveness", 60, 0.5, "neutral"], ["ambiguity_tolerance", 66, 0.52, "advantage"], ["cross_domain_range", 64, 0.52, "advantage"], ["deep_focus", 70, 0.55, "advantage"], ["creative_originality", 58, 0.45, "advantage"]],
+    portraitUrl: "/portraits/marcus-aurelius-louvre-bust.jpg",
   }
 ];

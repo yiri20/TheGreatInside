@@ -2458,6 +2458,22 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's high, documented risk_tolerance score: a choice made with the foreseeable, and then realized, cost of an already-established commercial career.",
   "miriam-makeba.interpretation.turning_point.1":
     "This sits alongside the profile's autonomy_need and independent_thinking scores: a documented instance of prioritizing a personal and political commitment over an institutional and commercial one, at a moment when the two were in direct conflict.",
+
+  /* ------------------------------------------------------- Roster 12: Marcus Aurelius */
+  "marcus-aurelius.achievement.1":
+    "Meditations, his private philosophical journal, was composed largely during years of active campaigning on the Danube frontier during the Marcomannic Wars — a sustained personal practice maintained under real military pressure, never intended for publication.",
+  "marcus-aurelius.achievement.2":
+    "Rather than ruling alone, he made the unprecedented choice to share the imperial throne with his adoptive brother Lucius Verus as co-emperor, an institutional arrangement Rome had not used before.",
+  "marcus-aurelius.moment.1":
+    "When his own general Avidius Cassius declared himself emperor, Marcus Aurelius marched east to confront the revolt directly — and, according to Cassius Dio and Historia Augusta, said he wished to spare Cassius's life and offer clemency rather than pursue vengeance once the revolt collapsed.",
+  "marcus-aurelius.moment.2":
+    "Book 1 of Meditations is a structured, specific catalog crediting named teachers — Junius Rusticus, Sextus, and others — for particular lessons learned, an unusually detailed self-authored record of his own intellectual formation.",
+  "marcus-aurelius.turning_point.1":
+    "Rather than direct the Marcomannic Wars from Rome, as many emperors of the era would have, he chose to personally command from the dangerous Danube frontier for years — a choice that likely contributed to his death near the front.",
+  "marcus-aurelius.interpretation.moment.1":
+    "This is consistent with the profile's documented pattern of engaging conflict directly while avoiding escalation once a threat had passed — decisive but not vindictive.",
+  "marcus-aurelius.interpretation.turning_point.1":
+    "This sits alongside the profile's documented risk_tolerance: a sustained choice to accept personal danger at the front rather than direct the war from a place of safety.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -4769,6 +4785,22 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 이 프로필에서 높게 평가된, 문서로 뒷받침되는 위험 감수성 점수와 부합한다 — 이미 자리 잡은 상업적 경력에 예견 가능한, 그리고 실제로 뒤따른 대가를 감수하고 내린 선택이다.",
   "miriam-makeba.interpretation.turning_point.1":
     "이는 이 프로필의 자율성 욕구 및 독립적 사고 점수와 함께 놓고 볼 수 있다 — 개인적·정치적 신념과 제도적·상업적 이해가 정면으로 충돌하는 순간, 전자를 우선시한 것으로 문서화된 사례다.",
+
+  /* ------------------------------------------------------- Roster 12: Marcus Aurelius */
+  "marcus-aurelius.achievement.1":
+    "《명상록》은 그가 사적으로 남긴 철학적 성찰의 기록으로, 다뉴브강 전선에서 마르코만니 전쟁을 치르며 종군하던 시기에 상당 부분이 쓰였다 — 출판을 염두에 두지 않은 채 실제 군사적 압박 속에서도 유지된 지속적인 개인적 수행이었다.",
+  "marcus-aurelius.achievement.2":
+    "그는 홀로 통치하는 대신, 양자로 삼은 동생 루키우스 베루스와 황위를 공동으로 나누는 전례 없는 선택을 했다 — 로마에서 그 이전에는 쓰인 적 없는 제도적 장치였다.",
+  "marcus-aurelius.moment.1":
+    "그의 부하 장군 아비디우스 카시우스가 스스로 황제를 자처하자, 마르쿠스 아우렐리우스는 반란을 직접 진압하기 위해 동쪽으로 진군했다. 카시우스 디오와 《히스토리아 아우구스타》에 따르면, 반란이 무너진 뒤 그는 복수보다는 카시우스의 목숨을 살리고 관용을 베풀고자 했다고 전해진다.",
+  "marcus-aurelius.moment.2":
+    "《명상록》 1권은 유니우스 루스티쿠스, 섹스투스 등 이름을 구체적으로 밝힌 스승들에게서 배운 가르침들을 조목조목 정리한 기록으로, 자신의 지적 형성 과정을 이례적으로 상세히 스스로 남긴 자료다.",
+  "marcus-aurelius.turning_point.1":
+    "당대의 많은 황제들처럼 로마에서 마르코만니 전쟁을 지휘할 수도 있었지만, 그는 수년간 직접 다뉴브강의 위험한 전선에서 지휘하는 쪽을 택했다 — 이 선택은 그가 전선 인근에서 사망하는 데 영향을 미쳤을 가능성이 크다.",
+  "marcus-aurelius.interpretation.moment.1":
+    "이는 이 프로필에서 문서로 뒷받침되는 패턴, 즉 위협에는 직접 맞서면서도 위협이 사라진 뒤에는 확전을 피하는 경향과 부합한다 — 결단력은 있으나 보복적이지 않은 모습이다.",
+  "marcus-aurelius.interpretation.turning_point.1":
+    "이는 이 프로필에서 문서로 뒷받침되는 위험 감수성과 함께 놓고 볼 수 있다 — 안전한 곳에서 전쟁을 지휘하는 대신 전선에서 개인적 위험을 감수하기로 한 지속적인 선택이다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
