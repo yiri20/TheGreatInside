@@ -4,23 +4,37 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-04 (roster-12 new-intake batch,
-`feat/roster12-new-intake-batch`, implemented in an isolated worktree,
-`READY_TO_COMMIT` but not yet committed/merged: with zero unpromoted
-`qa_passed` candidates left after Miriam Makeba, built a fresh 27-person
-discovery pool, froze 15 for full evidence packs and first scoring. 2
-crossed `eligibility_v2` honestly: Marcus Aurelius (promoted, with a real
-CC BY 2.5 Louvre-bust portrait and full EN/KO editorial content from
-first promotion — 96->97 people, 95->96 match-eligible) and Che Guevara
-(NOT promoted — no rights-clear, non-AI-generated portrait could be
-sourced this cycle; the iconic Korda photograph's international
-copyright status is genuinely disputed; his `qa_passed` candidate JSON is
-untouched, next-in-line once a portrait is resolved). The other 13 frozen
-candidates remain `held` — real evidence packs, genuine first scores, all
-missed only on `eligibility_v2`'s weighted coverage floor, not attribute
-count or confidence. No previously-committed candidate's score,
-confidence, evidence, or lifecycle was altered (scoring-lock integrity: 0
-flagged). Full record:
+Last updated: 2026-09-04 (roster-13 new-intake batch,
+`feat/roster13-new-intake-batch`, candidate-intake-only PR, not yet
+committed/merged at time of writing: built a fresh 29-person discovery
+pool, froze 18 for full evidence packs and first scoring. **0 of 18
+crossed `eligibility_v2`** — every one missed solely on the weighted
+coverage floor (0.6), Fidel Castro closest at 0.599. All 18 are `held`
+with exact numbers recorded. A bounded, single-check portrait retry for
+Che Guevara found no rights-clear alternative (a newly-checked 1964
+photo carries an explicit, self-acknowledged Cuban-state-copyright-
+transfer risk and a questionable rationale for a non-Cuban photographer;
+another lead was released only "by a webmaster" with no actual rights to
+grant) — his portrait blocker from roster-12 stands unchanged. No
+candidate promoted this cycle; no `roster13.ts` created. Roster counts
+unchanged: 97 people, 96 match-eligible, gap to 125 still 28. No
+previously-committed candidate's score/confidence/evidence/lifecycle
+altered (scoring-lock integrity: 0 flagged). Full record:
+[`roster13-new-intake-batch.md`](../checkpoints/roster13-new-intake-batch.md).
+Prior update, 2026-09-04 (roster-12 new-intake batch,
+`feat/roster12-new-intake-batch`, now merged to `main`: with zero
+unpromoted `qa_passed` candidates left after Miriam Makeba, built a fresh
+27-person discovery pool, froze 15 for full evidence packs and first
+scoring. 2 crossed `eligibility_v2` honestly: Marcus Aurelius (promoted,
+with a real CC BY 2.5 Louvre-bust portrait and full EN/KO editorial
+content from first promotion — 96->97 people, 95->96 match-eligible) and
+Che Guevara (NOT promoted — no rights-clear, non-AI-generated portrait
+could be sourced that cycle; his `qa_passed` candidate JSON left
+untouched). The other 13 frozen candidates remain `held` — real evidence
+packs, genuine first scores, all missed only on `eligibility_v2`'s
+weighted coverage floor, not attribute count or confidence. No
+previously-committed candidate's score, confidence, evidence, or
+lifecycle was altered (scoring-lock integrity: 0 flagged). Full record:
 [`roster12-new-intake-batch.md`](../checkpoints/roster12-new-intake-batch.md).
 Prior update, 2026-09-04 (corrective fix, `fix/miriam-makeba-complete-profile`:
 the prior Miriam Makeba promotion was declared production-complete from
@@ -77,9 +91,9 @@ Zheng He remain)).
 
 ## Product
 
-- **Roster: 97 people, 96 match-eligible** (implemented in the
-  `feat/roster12-new-intake-batch` worktree, `READY_TO_COMMIT`, not yet
-  merged). Zheng He is the sole non-match-eligible exception (browsable,
+- **Roster: 97 people, 96 match-eligible** (roster-12's Marcus Aurelius
+  promotion merged to `main`; roster-13 produced zero new promotions —
+  see below). Zheng He is the sole non-match-eligible exception (browsable,
   fails only the coverage gate). Authority: `evaluateMatchEligibility()`
   in `src/core/matching/similarity.ts`; re-run `corepack pnpm@10 exec tsx
   src/dev/simulate.ts 10000 quiz` for a live health check. Miriam Makeba
@@ -301,9 +315,8 @@ Zheng He remain)).
   corrective fix:
   [`roster11-miriam-makeba-promotion-DRAFT.md`](../checkpoints/roster11-miriam-makeba-promotion-DRAFT.md),
   [`roster11-miriam-makeba-profile-fix.md`](../checkpoints/roster11-miriam-makeba-profile-fix.md).
-- **Roster-12 new-intake batch (2026-09, `feat/roster12-new-intake-batch`,
-  `READY_TO_COMMIT`, not yet merged)**: with zero unpromoted `qa_passed`
-  candidates left after Miriam Makeba, built a fresh 27-person discovery
+- **Roster-12 new-intake batch (2026-09, merged to `main`)**: with zero
+  unpromoted `qa_passed` candidates left after Miriam Makeba, built a fresh 27-person discovery
   pool (none previously scored, none already live), froze 15 for full
   evidence packs and first scoring — 2 crossed `eligibility_v2` honestly.
   **Marcus Aurelius** promoted via `generateRoster12.ts` (single-slug
@@ -324,6 +337,23 @@ Zheng He remain)).
   committed candidate's score/confidence/evidence/lifecycle changed
   (scoring-lock integrity: 0 flagged). Target remains 125; gap now 28.
   Full record: [`roster12-new-intake-batch.md`](../checkpoints/roster12-new-intake-batch.md).
+- **Roster-13 new-intake batch (2026-09, `feat/roster13-new-intake-batch`,
+  candidate-intake-only, not yet merged)**: built a fresh 29-person
+  discovery pool, froze 18 for full evidence packs and first scoring.
+  **0 of 18 crossed `eligibility_v2`** — every one missed solely on the
+  weighted coverage floor (0.6), Fidel Castro closest at 0.599; two
+  candidates (Robert Mugabe, Juan Perón) also came in at 17 rather than
+  the intended 18 scored attributes due to a disclosed drafting
+  miscount, left uncorrected since it does not change either outcome
+  (both sit at coverage 0.505). All 18 `held` with exact numbers
+  recorded. A bounded, single-check portrait retry for Che Guevara found
+  no rights-clear alternative; his roster-12 blocker stands unchanged,
+  candidate JSON untouched. No candidate promoted; no `roster13.ts`
+  created (nothing product-ready to allowlist). Roster counts unchanged:
+  97 people, 96 match-eligible, gap to 125 still 28. No previously-
+  committed candidate's score/confidence/evidence/lifecycle altered
+  (scoring-lock integrity: 0 flagged). Full record:
+  [`roster13-new-intake-batch.md`](../checkpoints/roster13-new-intake-batch.md).
 
 ## Completed major phases (durable summary — do not re-read the archive for these)
 

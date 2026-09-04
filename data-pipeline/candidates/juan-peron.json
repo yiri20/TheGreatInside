@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "juan-peron",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Juan Perón",
+    "wikidataId": "Q93330",
+    "birthYear": 1895,
+    "deathYear": 1974,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_jp_press",
+      "kind": "press",
+      "title": "Argentine and international historical accounts of the 1943 military coup, the 1946 election, the 1955 overthrow, the 18-year exile (1955-1973), and the 1973 return to power"
+    },
+    {
+      "id": "src_jp_biography",
+      "kind": "biography",
+      "title": "Joseph Page, Perón: A Biography (1983)"
+    },
+    {
+      "id": "src_jp_wikipedia",
+      "kind": "wikipedia",
+      "title": "Juan Perón",
+      "url": "https://en.wikipedia.org/wiki/Juan_Per%C3%B3n"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained political relevance and eventually returned to the presidency after 18 years in exile across five different countries — an extraordinarily long, well-documented persistence, not a brief absence."
+    },
+    "adaptability": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Adapted to residing in five different host countries (Paraguay, Panama, Venezuela, the Dominican Republic, Spain) over 18 years while sustaining his political movement remotely, then successfully re-entered Argentine politics via democratic election in 1973."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and sustained a political movement (Peronism/Justicialism) that remained the dominant force in Argentine politics even while officially banned and its founder in exile for nearly two decades."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Systematically built a labor and union political base during his tenure as Labor Secretary (1943-1945), before ever holding the presidency — a documented, deliberate base-building strategy."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained massive documented popular support across nearly three decades, including through his party's official ban and his own 18-year absence from the country — a remarkable, well-documented persuasive durability."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of political power and legacy across an unusually long career, returning to and winning the presidency again at age 78."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained ideological commitment to Justicialism and labor rights across decades, including during exile when there was no immediate personal power benefit to maintaining the movement, inferred from that sustained commitment."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct conflict with the Argentine military and political establishment across decades — the 1955 coup that removed him, sustained opposition during exile, and continued tension after his 1973 return."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally organized his own return from exile and re-entry into Argentine politics after nearly two decades away, a self-directed undertaking rather than one arranged by others."
+    },
+    "collaboration": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a well-documented political partnership with Eva Perón, whose own independent political activity in the labor ministry and on women's suffrage substantially amplified the movement's reach — a genuine, sustained collaborative partnership, not a figurehead relationship."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Rose through military ranks to the rank of General, a documented career credential preceding his political career."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained political relevance through 18 years of uncertain, shifting exile circumstances across five different countries, inferred from that documented sustained relevance despite the uncertainty."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed Justicialism as a documented, deliberately distinct \"third way\" ideology positioned as neither capitalist nor communist, a specific ideological departure from the era's dominant Cold War frameworks."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained direct public leadership and confrontation with political rivals across his career, inferred from the documented pattern of his public political conduct."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Returned to Argentina in 1973 despite ongoing political violence, documented by the fact that a massacre occurred at the airport rally welcoming him back — a real, foreseeable danger he returned into."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Functioned as a career military officer, a labor minister, and a president — a documented range of roles, though the depth of evidence outside the political domain specifically is thinner, hence inference-level."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Maintained an independent \"Justicialist\" ideological path distinct from both Cold War blocs, inferred from the sustained, consistent positioning of the movement he founded."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): Latin America pick. The 18-year exile and 1973 return is treated as the strongest single piece of evidence, corroborated across independent Argentine and international historical accounts, not a single tradition. His documented press-restriction and political-prisoner record during his rule is a real, known gap in this evidence pack's coverage — not reaching the same instance-level specificity as the exile/return material — rather than an oversight. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=17 attributes, avgConf=0.514, coverage=0.505 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Also below the raw 18-attribute floor (a drafting miscount during evidence-pack authoring, disclosed honestly here rather than corrected post-validator, since correcting it would not change the outcome — coverage is far below 0.6 regardless). Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 17,
+    "averageConfidence": 0.514,
+    "coverage": 0.505,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

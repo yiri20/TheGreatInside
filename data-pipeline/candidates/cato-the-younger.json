@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cato-the-younger",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Cato the Younger",
+    "wikidataId": "Q193506",
+    "birthYear": -95,
+    "deathYear": -46,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "statesman"
+    ],
+    "fieldIds": [
+      "politics",
+      "military"
+    ],
+    "impactDomains": [
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_cty_plutarch",
+      "kind": "archive",
+      "title": "Plutarch, Life of Cato the Younger — written roughly 150 years later, drawing on earlier sources including Cato's contemporaries"
+    },
+    {
+      "id": "src_cty_cicero",
+      "kind": "archive",
+      "title": "Cicero's surviving letters and speeches — a genuinely independent, contemporary source that both praises and criticizes Cato directly"
+    },
+    {
+      "id": "src_cty_sallust",
+      "kind": "archive",
+      "title": "Sallust, Bellum Catilinae — an independent, contemporary, and at points critical account"
+    },
+    {
+      "id": "src_cty_wikipedia",
+      "kind": "wikipedia",
+      "title": "Cato the Younger",
+      "url": "https://en.wikipedia.org/wiki/Cato_the_Younger"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a rigid Stoic-principled political stance even when it conflicted with pragmatic political alliances, corroborated across multiple sources including Cicero's own contemporary, sometimes critical letters."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades-long direct political opposition to Julius Caesar and the First Triumvirate, documented across Plutarch, Cicero, and other contemporary Roman sources."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Chose suicide rather than accept Julius Caesar's clemency after the 46 BCE Battle of Thapsus — an extreme, final, well-corroborated act consistent with his lifelong principled opposition, documented across multiple independent Roman accounts."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "As quaestor, refused bribes and personally audited and cleaned up corruption in the Roman treasury — a specific, documented act of institutional independence and incorruptibility."
+    },
+    "achievement_drive": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The documented record shows him declining to pursue certain honors and higher offices as aggressively as contemporaries did, suggesting personal-glory-seeking was not a dominant motivation, scored modestly rather than assumed high from his prominence."
+    },
+    "discipline": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Plutarch documents a sustained personal asceticism — including walking without a hat or shoes in bad weather to toughen himself — scored at moderate rather than extreme confidence since this rests on a single anecdotal source, per the rubric's rule against extreme scores from one uncorroborated account."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained consistent political opposition to Caesar across nearly two decades of Roman political conflict, documented across multiple independent sources spanning that period."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented use of filibuster-style tactics, speaking for hours to block Senate votes he opposed — a specific, well-documented, direct assertive political method."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ended his own life swiftly and resolutely once the Battle of Thapsus was lost, rather than deliberating over accepting Caesar's rule — a specific, documented, final decisive act."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained an important, documented political alliance with Cicero, though Cicero's own letters also document real frustration at points with Cato's rigid idealism working against pragmatic political outcomes — a genuine, corroborated tension in the partnership."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a lifelong, documented commitment to Republican institutional integrity over personal advancement, evidenced across his career from refusing bribes to opposing Caesar at ultimately fatal personal cost."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally initiated the treasury anti-corruption efforts during his quaestorship, a self-directed reform rather than one assigned to him."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The documented record does not show him aggressively pursuing the highest offices for their own sake, in contrast to many Roman political contemporaries, scored modestly rather than assumed high."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained engagement with Stoic philosophy as a genuine intellectual practice, including formal study under Stoic teachers, not merely political posturing."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Functioned as a financial magistrate (quaestor), senator, and at points military commander, a documented range concentrated within Roman public life broadly rather than genuinely distinct domains."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His filibuster tactics and sustained Senate speeches suggest real rhetorical persistence, though Cicero's own letters suggest this was at points counterproductive rather than straightforwardly persuasive, hence a neutral rather than advantage reading."
+    },
+    "adaptability": {
+      "score": 35,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented rigidity was itself his defining, consistent character trait — Cicero's own contemporary letters describe frustration with Cato's inflexibility even when circumstances argued for compromise — an honest low score reflecting the record rather than an inferred deficiency."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Sustained serious philosophical study under Stoic teachers throughout his life alongside his political career, a documented sustained secondary practice."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): Ancient era pick (era remains the roster's most underrepresented). Evidence draws on Cicero's genuinely contemporary, independent letters (which both praise and criticize him directly) alongside Plutarch's later synthesis and Sallust's independent, critical account, rather than a single tradition. His documented rigidity is scored honestly as a low adaptability score rather than smoothed over, and the single-anecdote asceticism detail (Plutarch) is capped at moderate rather than extreme confidence per the rubric's single-instance rule. Confidence capped overall per the rubric's ancient-era discipline. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.518, coverage=0.543 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.518,
+    "coverage": 0.543,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

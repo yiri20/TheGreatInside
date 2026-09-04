@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lu-xun",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Lu Xun",
+    "wikidataId": "Q23114",
+    "birthYear": 1881,
+    "deathYear": 1936,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "career_changer",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_lx_diary_madman",
+      "kind": "archive",
+      "title": "Lu Xun, \"Diary of a Madman\" (1918) and \"The True Story of Ah Q\" (1921-22) — his own major fiction"
+    },
+    {
+      "id": "src_lx_zawen",
+      "kind": "archive",
+      "title": "Lu Xun's own extensive personal essays (zawen) and letters, including his account of the slide-show episode that led him to abandon medicine for literature"
+    },
+    {
+      "id": "src_lx_biography",
+      "kind": "biography",
+      "title": "Julia Lovell's translations and critical introductions to Lu Xun's collected fiction, drawing on his correspondence"
+    },
+    {
+      "id": "src_lx_wikipedia",
+      "kind": "wikipedia",
+      "title": "Lu Xun",
+      "url": "https://en.wikipedia.org/wiki/Lu_Xun"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own account, abandoned medical training in Japan after witnessing a slide show depicting a Chinese man about to be executed as a spy while Chinese onlookers watched apathetically — he concluded that curing his countrymen's \"spiritual\" apathy mattered more than curing physical ailments, a specific, self-reported, well-documented turning point."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated a complete career change from medicine to literature based on his own philosophical conclusion, not external pressure or circumstance."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a distinct, sometimes controversial critical stance on Chinese culture and tradition, embodied in the character Ah Q as satire of national character — a documented, original literary and social critique, not an inherited position."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained numerous, well-documented public literary and political feuds with contemporaries throughout his career, evidenced by his own polemical essays and others' accounts."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Completed medical training in Japan before switching fields, then developed genuine, historically significant literary mastery — Diary of a Madman is documented as the first major work of modern vernacular Chinese literature."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Diary of a Madman is documented and historically verified as the first major work of modern vernacular Chinese literature, a specific, objectively assessable originality claim."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained a documented, prolific writing schedule despite chronic tuberculosis in his later years, sustaining output until close to his death."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained direct public confrontation with rival intellectual and political figures through published polemical essays, a documented, consistent pattern across his career."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Specifically declined informal Nobel Prize consideration, stating that no Chinese writer of the time — including himself — deserved it yet, a documented act of independent, self-critical judgment against the pull of prestige."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained prolific output across multiple genres — fiction, essays, and translation — over a career cut short by illness, a documented, sustained pattern of production."
+    },
+    "curiosity": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Studied medicine, then shifted to literature, and extensively translated foreign literary works into Chinese — a documented, genuinely broad intellectual engagement across distinct fields."
+    },
+    "cross_domain_range": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real documented output as a trained physician, a fiction writer, an essayist, and a translator — four genuinely distinct domains, not superficial involvement."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a demanding literary and critical career despite chronic illness through the final years of his life, documented by his continued publication until close to his death."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Sustained public criticism of powerful political and cultural figures within the volatile political climate of Republican China, inferred as carrying real personal danger given that context."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Became a documented central intellectual influence on the League of Left-Wing Writers, though the record shows him functioning more as an influential figure than a formal organizational leader, hence a modest, inference-level score."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His essays had extensive, well-documented influence on a generation of Chinese writers and political thought, inferred from that documented reach rather than a single persuasive episode."
+    },
+    "decisiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The career switch from medicine to literature followed directly and swiftly from the slide-show episode, a specific, documented, decisive turning point rather than a gradual drift."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Supported and was associated with the League of Left-Wing Writers alongside other literary figures, but the surviving record documents the League's activity more than his specific collaborative process, hence inference-level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): East Asia pick. The medical-to-literature career pivot is treated as the strongest single piece of evidence, directly self-reported by Lu Xun himself in specific, concrete terms (the slide-show episode) rather than inferred from general reputation. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.532, coverage=0.546 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.532,
+    "coverage": 0.546,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

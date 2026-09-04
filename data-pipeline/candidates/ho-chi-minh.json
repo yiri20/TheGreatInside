@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ho-chi-minh",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Ho Chi Minh",
+    "wikidataId": "Q36014",
+    "birthYear": 1890,
+    "deathYear": 1969,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "VN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "political_activist",
+      "writer"
+    ],
+    "fieldIds": [
+      "politics",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hcm_prison_diary",
+      "kind": "archive",
+      "title": "Ho Chi Minh, Nhật ký trong tù (Diary in Prison) — his own classical-style poems written during his 1942-43 imprisonment in China"
+    },
+    {
+      "id": "src_hcm_surete",
+      "kind": "institution",
+      "title": "French colonial intelligence (Sûreté générale indochinoise) surveillance records tracking him across decades under dozens of documented aliases"
+    },
+    {
+      "id": "src_hcm_independence_speech",
+      "kind": "archive",
+      "title": "Ho Chi Minh's Declaration of Independence speech, 2 September 1945, Hanoi"
+    },
+    {
+      "id": "src_hcm_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ho Chi Minh",
+      "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Traveled and worked in numerous countries under numerous documented aliases and occupations — including as a ship's galley hand and a photo retoucher in Paris — for decades before returning to lead Vietnam, an extraordinary documented range of adaptation."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the Vietnamese independence movement across nearly five decades, from early exile activism through leading North Vietnam in war until his death, without abandoning the cause."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of clandestine revolutionary activity under dozens of documented aliases, facing imprisonment by both British authorities in Hong Kong (1931-33) and Chinese Nationalist authorities (1942-43)."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained sustained operational security across decades using dozens of documented aliases, evading capture by French colonial intelligence for most of his career despite active, sustained surveillance."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-founded the French Communist Party in 1920 and self-initiated decades of independent organizing before ever returning to lead in Vietnam, a self-directed rather than assigned path."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote a substantial body of classical-style Chinese poetry during his 1942-43 imprisonment, a specific, genuine literary output produced under direct confinement."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own prison diary poems document sustained psychological endurance and even aesthetic and philosophical reflection during actual imprisonment — direct self-report evidence of tolerating extreme uncertainty."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a consistent, documented lifelong commitment to Vietnamese independence across nearly five decades regardless of personal cost, including repeated imprisonment and decades of exile."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained leadership of the Vietnamese independence and revolutionary movement for decades, through both the First Indochina War and the early Vietnam War."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained decades-long clandestine organizational building — founding and leading the Viet Minh and coordinating with the Comintern — documented, sustained strategic planning rather than opportunistic action."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His 1945 independence declaration explicitly and strategically invoked the language of the US Declaration of Independence, a specific, documented rhetorical choice aimed at securing international legitimacy."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of Vietnamese independence and unification across his entire life, a goal not fully realized until 1975, six years after his 1969 death — a documented pursuit larger than his own lifespan."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Learned multiple languages, including French, English, Chinese, and Russian, and worked in varied occupations across his itinerant years, documented sustained skill acquisition beyond his primary political role."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained decades of travel, varied occupations, and intellectual engagement with Comintern politics across many countries, inferred from that documented range of experience."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of armed conflict leadership, first against France and then against the US-backed South, as well as earlier decades of clandestine political conflict."
+    },
+    "social_assertiveness": {
+      "score": 50,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented by many visiting observers, including Western journalists, as maintaining a notably modest, understated personal style even as head of state — a real documented personal choice, distinct from (and not necessarily lower than) the more publicly flamboyant styles of some contemporary revolutionary leaders."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built and sustained the Viet Minh as a broad coalition of nationalists, communists, and other groups against French rule, a documented, sustained coalition-building achievement."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a synthesis of Marxist-Leninist ideology specifically adapted to Vietnamese nationalist and agrarian conditions rather than importing an unmodified Soviet or Chinese template, a documented ideological adaptation."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): South Asia region-code pick (this project's regional taxonomy folds Southeast Asia into south_asia, matching precedent for Jose Rizal, Lee Kuan Yew, and Kartini). Evidence draws on his own prison diary poems, independent French colonial surveillance records tracking him under dozens of aliases, and his own declaration speech, rather than a single tradition. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.546, coverage=0.549 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.546,
+    "coverage": 0.549,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-mugabe",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Robert Mugabe",
+    "wikidataId": "Q10707",
+    "birthYear": 1924,
+    "deathYear": 2019,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "ZW"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_rm_meredith",
+      "kind": "biography",
+      "title": "Martin Meredith, Mugabe: Power, Plunder, and the Struggle for Zimbabwe's Future"
+    },
+    {
+      "id": "src_rm_press_early",
+      "kind": "press",
+      "title": "International press coverage of the 1960s-80s liberation struggle, his 11-year imprisonment (1964-1974), and Zimbabwean independence (1980)"
+    },
+    {
+      "id": "src_rm_press_later",
+      "kind": "press",
+      "title": "International press coverage of the 1980s Gukurahundi violence in Matabeleland, the 2000s land reform program and economic collapse, and the 2017 removal from power"
+    },
+    {
+      "id": "src_rm_wikipedia",
+      "kind": "wikipedia",
+      "title": "Robert Mugabe",
+      "url": "https://en.wikipedia.org/wiki/Robert_Mugabe"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of Zimbabwean independence through eleven years of imprisonment (1964-1974) by the Rhodesian government, continuing the liberation struggle after his release rather than withdrawing from politics."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained leadership of the liberation movement under direct threat of imprisonment before his 1964 arrest, and continued political and armed struggle leadership after his 1974 release rather than seeking safety abroad."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of armed liberation struggle followed by decades of authoritarian conflict maintenance, documented across independent international press spanning his entire career."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained personal rule for 37 years (1980-2017) — an extraordinary duration achieved partly through documented, serious methods including the 1980s Gukurahundi violence in Matabeleland and suppression of opposition in the 2000s, not an unqualified strength."
+    },
+    "decisiveness": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The 2000 launch of the fast-track land reform program was a specific, documented, decisive policy action, with dramatic and well-documented negative economic consequences that followed."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained pursuit and retention of political power and personal legacy across an extraordinarily long career, from liberation fighter to 37-year head of state — a real documented achievement that came at a documented, serious human cost to others."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Earned multiple academic degrees by correspondence during his eleven-year imprisonment, a specific, well-documented intellectual achievement sustained under extreme confinement."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained disciplined correspondence study toward multiple degrees across more than a decade of imprisonment, directly documented by the degrees themselves."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated his correspondence education during imprisonment rather than remaining idle, a documented choice made under confinement with no external pressure to do so."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained political support sufficient to hold power for 37 years, including early internationally praised reconciliation rhetoric toward white Zimbabweans, inferred from that documented longevity rather than a single persuasive episode."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained direct public leadership confronting British colonial and then Rhodesian authority throughout the liberation period, documented across independent press coverage of the era."
+    },
+    "ambiguity_tolerance": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Sustained rule through Zimbabwe's 2000s hyperinflation crisis, one of the most extreme in recorded economic history, without relinquishing power for years — read here as neutral rather than advantage, since this could equally reflect rigid unwillingness to change course as genuine tolerance of uncertainty."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned as a guerrilla movement leader, a self-taught academic (multiple correspondence degrees), and head of state — three genuinely distinct, documented domains."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Early post-independence rhetoric documented a genuine reconciliation and nation-building motivation; the documented later shift toward violent land seizures and opposition suppression to retain power represents a real, well-corroborated change in the dominant motivation over his life, scored honestly as dual_edged rather than resolved to one reading."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Maintained an independent African nationalist and socialist-inflected political stance somewhat distinct from Western-aligned regional counterparts for decades, inferred from his consistent public positioning."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Co-led the liberation struggle in a real documented political coalition with Joshua Nkomo's ZAPU (the Patriotic Front alliance) — a coalition later marked by the Gukurahundi violence, which was directed substantially against ZAPU-aligned Ndebele populations, a serious, documented rupture of that same partnership."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Moved through documented, distinct contexts — guerrilla fighter, prisoner-scholar, head of state, and internationally sanctioned ruler navigating economic isolation — inferred from that range of circumstances."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): Sub-Saharan Africa pick, chosen specifically for genuinely rich, well-documented longitudinal change (liberation hero to long-ruling authoritarian leader), corroborated across decades of independent international press rather than a single tradition. Serious, well-documented human rights violations (the Gukurahundi massacres, 2000s opposition suppression) are scored honestly as dual_edged/documented evidence directly connected to specific attributes (leadership_drive, decisiveness, achievement_drive, impact_motivation, collaboration) rather than omitted or read as unqualified strength — per the rubric's guidance that a genuine, well-documented complexity is itself information. No diagnosis or moral characterization is asserted beyond the documented facts themselves. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=17 attributes, avgConf=0.524, coverage=0.505 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Also below the raw 18-attribute floor (a drafting miscount during evidence-pack authoring, disclosed honestly here rather than corrected post-validator, since correcting it would not change the outcome — coverage is far below 0.6 regardless). Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 17,
+    "averageConfidence": 0.524,
+    "coverage": 0.505,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

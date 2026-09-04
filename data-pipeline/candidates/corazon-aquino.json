@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "corazon-aquino",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Corazon Aquino",
+    "wikidataId": "Q1480",
+    "birthYear": 1933,
+    "deathYear": 2009,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "PH"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ca_press",
+      "kind": "press",
+      "title": "International press coverage of the 1983 assassination of Ninoy Aquino, the 1986 People Power (EDSA) Revolution, and Aquino's 1986-1992 presidency, including seven documented coup attempts against her"
+    },
+    {
+      "id": "src_ca_constitution",
+      "kind": "institution",
+      "title": "1987 Philippine Constitution, restoring democratic constitutional government after the Marcos dictatorship"
+    },
+    {
+      "id": "src_ca_wikipedia",
+      "kind": "wikipedia",
+      "title": "Corazon Aquino",
+      "url": "https://en.wikipedia.org/wiki/Corazon_Aquino"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Transformed from a self-described \"plain housewife\" with no prior political office into a national revolutionary leader and president within a few years of her husband's 1983 assassination — a dramatic, well-documented transition."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained the presidency through seven separate documented coup attempts (1986-1992), continuing to govern rather than yielding to any of them."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued the political struggle against the Marcos government after her husband's assassination rather than withdrawing from public life, a sustained path that led to the presidency three years later."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally led the political campaign against Marcos following her husband's death, a self-directed political emergence from private life rather than one arranged by a party apparatus."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Voluntarily stepped down after her constitutional term ended rather than seeking to extend her rule — a specific, documented adherence to term limits notable given the dictatorship that had just preceded her."
+    },
+    "ambiguity_tolerance": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained functioning leadership through seven coup attempts and severe political instability across a single term, documented by the continuity of her government through each crisis."
+    },
+    "decisiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Responded to each of seven separate coup attempts with specific public actions, including broadcasts and calls to loyal military units, inferred from the documented pattern of her government surviving each one."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct confrontation with entrenched Marcos-era interests and repeated military factions across her term, documented by the sustained frequency of attempted coups."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained public commitment to restoring democratic constitutional government, documented directly in the 1987 Constitution enacted under her administration."
+    },
+    "achievement_drive": {
+      "score": 50,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Widely documented as a reluctant political figure who took on leadership from circumstance following her husband's assassination rather than from prior personal political ambition, scored honestly as modest rather than inferred as high from her ultimate office."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly and publicly led the massive EDSA People Power demonstrations, a documented public leadership role at the center of a mass movement."
+    },
+    "leadership_drive": {
+      "score": 52,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented as having been thrust into a leadership role by circumstance rather than having sought power for its own sake, scored honestly as modest rather than assumed high from the presidency she ultimately held."
+    },
+    "collaboration": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The People Power movement she came to lead was a broad, documented coalition of the Catholic Church, military reformists, and civil society groups, not a movement she built alone."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Successfully rallied millions to the EDSA demonstrations and secured broad international support against an entrenched dictatorship, a documented mobilizing and persuasive achievement."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Transitioned from private family life to revolutionary leader to head of state within a compressed period, a documented range of roles concentrated in a short span rather than developed over a long career."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued a genuinely non-violent resistance strategy specifically as an alternative to the armed rebellion some opposition factions favored, a documented distinct strategic choice."
+    },
+    "discipline": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Maintained sustained daily religious practice, documented as a personal source of stability throughout the crises of her presidency, including public prayer rallies during coup attempts."
+    },
+    "mastery_orientation": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Completed college studies in political science before her marriage interrupted further legal studies — a modest, documented educational credential preceding her later political role."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): South Asia region-code pick (Southeast Asia convention). Achievement_drive and leadership_drive are scored honestly modest, reflecting the well-documented account of her as a reluctant leader thrust into the role by her husband's assassination rather than personal ambition, rather than inferring high drive from the presidency she ultimately held. Her family's own large land holdings (Hacienda Luisita) and their documented complexity relative to her land reform program are a real, known gap in this evidence pack's coverage — not reaching the same instance-level specificity as the other rows here — rather than an oversight. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.522, coverage=0.539 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.522,
+    "coverage": 0.539,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

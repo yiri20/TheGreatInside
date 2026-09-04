@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "muhammad-ali-jinnah",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Muhammad Ali Jinnah",
+    "wikidataId": "Q160554",
+    "birthYear": 1876,
+    "deathYear": 1948,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "PK"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "lawyer"
+    ],
+    "fieldIds": [
+      "politics",
+      "law"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "founder"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_maj_wolpert",
+      "kind": "biography",
+      "title": "Stanley Wolpert, Jinnah of Pakistan (1984) — drawing on extensive archival research"
+    },
+    {
+      "id": "src_maj_1947_speech",
+      "kind": "archive",
+      "title": "Jinnah's address to the Constituent Assembly of Pakistan, 11 August 1947"
+    },
+    {
+      "id": "src_maj_press",
+      "kind": "press",
+      "title": "Contemporary accounts from Gandhi, Nehru, and British colonial officials documenting the Lahore Resolution (1940) and the 1947 partition negotiations"
+    },
+    {
+      "id": "src_maj_wikipedia",
+      "kind": "wikipedia",
+      "title": "Muhammad Ali Jinnah",
+      "url": "https://en.wikipedia.org/wiki/Muhammad_Ali_Jinnah"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built one of Bombay's most successful independent legal careers before ever entering politics, a specific, documented professional achievement preceding his political life entirely."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Shifted from an early, documented advocacy of Hindu-Muslim unity within the Congress movement to leading the movement for a separate Muslim state — a significant, well-documented ideological evolution based on his own reassessment, not inherited doctrine."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Led the Muslim League to the successful creation of Pakistan in 1947, a sustained, documented achievement of an extraordinarily difficult political goal against significant resistance."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Famously meticulous personal habits — formal dress and strict punctuality — are consistently documented by biographers and contemporaries across his entire life, not a single anecdote."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally led the decades-long political campaign for Pakistan's creation, a self-directed undertaking rather than one assigned to him by an outside body."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the campaign for a separate Muslim state across decades of political negotiation and resistance from both the Congress and British authorities."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built genuine, documented professional legal mastery — one of the most successful barristers in Bombay — before his political career began."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Concealed his terminal tuberculosis diagnosis throughout the final, intense 1947 independence negotiations, continuing to personally lead at severe physical cost — a specific, extraordinary, well-documented act confirmed by later medical and historical accounts."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Concealing his illness specifically so it would not jeopardize the final negotiations for Pakistan's creation is a documented, specific act prioritizing the cause over his own health and self-interest."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a sophisticated, documented political and legal strategy — including the 1940 Lahore Resolution and systematic negotiation with both the British and Congress — over years, culminating in Pakistan's creation."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The shift toward advocating a separate state, and later his specific 1947 speech advocating secular, tolerant governance for the new nation, were both specific, documented, decisively stated positions."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Successfully built and led a mass political movement (the Muslim League) to achieve an extraordinarily difficult political goal, a documented organizational and persuasive achievement."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct political conflict with both British colonial authorities and Congress leadership, including Gandhi and Nehru, documented across decades of negotiation and dispute."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued a distinct political path for Muslim self-determination even against the dominant Congress-led independence movement he had once been part of, a documented departure from his earlier institutional home."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real, documented substantive achievement as both a highly successful lawyer and a political leader/statesman — two genuinely distinct domains."
+    },
+    "ambiguity_tolerance": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Navigated the extraordinarily uncertain, high-stakes partition negotiations of 1947 while personally terminally ill, documented by the sustained continuity of his leadership through that period."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His famously meticulous personal presentation and precise legal habits, noted by biographers as extending into his political conduct, suggest a sustained detail-oriented working style, inferred from that documented reputation."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained public leadership through direct, formal political address, a documented public communication style distinct from more informal contemporaries, inferred from that pattern rather than a single cited episode."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): South Asia pick. Concealing his terminal illness through the 1947 negotiations is treated as the single strongest piece of evidence in the pack, confirmed by later medical/historical accounts rather than speculative. His personal life outside law and politics is famously private and thinly documented compared to figures like Nehru — a known, honest gap in this evidence pack's coverage of interpersonal domains, not an oversight. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.539, coverage=0.533 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.539,
+    "coverage": 0.533,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

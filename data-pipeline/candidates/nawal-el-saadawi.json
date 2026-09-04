@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nawal-el-saadawi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Nawal El Saadawi",
+    "wikidataId": "Q238514",
+    "birthYear": 1931,
+    "deathYear": 2021,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "physician",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "literature",
+      "medicine",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "literary",
+      "social",
+      "medical"
+    ],
+    "tagIds": [
+      "endured_imprisonment",
+      "advocate",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nes_prison_memoirs",
+      "kind": "archive",
+      "title": "Nawal El Saadawi, Memoirs from the Women's Prison (1983) — written during her actual September 1981 imprisonment, using smuggled writing materials by her own account"
+    },
+    {
+      "id": "src_nes_daughter_of_isis",
+      "kind": "archive",
+      "title": "Nawal El Saadawi, A Daughter of Isis and Walking Through Fire — her autobiographical volumes"
+    },
+    {
+      "id": "src_nes_women_and_sex",
+      "kind": "archive",
+      "title": "Nawal El Saadawi, Women and Sex (1972) and its documented professional consequences (dismissal from the Ministry of Health)"
+    },
+    {
+      "id": "src_nes_press",
+      "kind": "press",
+      "title": "International press coverage across five decades, including the 1991 banning of the Arab Women's Solidarity Association and 1990s death threats/exile"
+    },
+    {
+      "id": "src_nes_wikipedia",
+      "kind": "wikipedia",
+      "title": "Nawal El Saadawi",
+      "url": "https://en.wikipedia.org/wiki/Nawal_El_Saadawi"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued publishing controversial work on women's health and sexuality despite documented professional dismissal (1972), imprisonment (1981), and death threats from Islamist groups in the 1990s — multiple independent, escalating documented consequences across decades, not a single instance."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued writing and activism across a career spanning more than five decades despite dismissal, imprisonment, organizational bans, and exile, resuming work after each disruption rather than withdrawing."
+    },
+    "proactive_agency": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote Memoirs from the Women's Prison during her own actual September 1981 imprisonment, using smuggled writing materials by her own account — a specific, self-initiated act of creative production under direct confinement, not resumed afterward but undertaken during it."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct conflict with the Egyptian state under Sadat, religious authorities, and later Islamist groups across decades, documented through her dismissal, imprisonment, and the 1991 banning of her organization."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed and sustained a specific, controversial intellectual position on women's sexuality and health directly informed by her own clinical practice as a physician, distinct from prevailing social and religious norms of her context."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded the independent Arab Women's Solidarity Association (1982) rather than working solely within existing state institutions, and continued independent writing after losing her official government position in 1972."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a decades-long commitment to women's health and rights advocacy despite severe, escalating personal cost (job loss, imprisonment, exile, death threats), rather than moderating her public positions for safety."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Completed a full manuscript under actual prison conditions using smuggled materials (an eyebrow pencil and toilet paper, by her own account) — a specific, extraordinary, directly documented act of sustained working discipline."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a prolific written output of dozens of books across decades alongside a medical career and organizational activism, a documented, sustained pattern of production."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Completed full medical training and practiced clinically before and alongside her writing career — a documented, credentialed second competence, not a claimed interest."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and led the Arab Women's Solidarity Association, a documented organizational leadership role that continued until the government banned the group in 1991."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly and directly challenged government policy and religious authority through her writing and public statements, with documented direct consequences (dismissal, imprisonment) rather than working through indirect or anonymous channels."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with genuine, documented substantive output as a physician, novelist, memoirist, and organizational activist — four distinct domains, not superficial involvement."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained activity under prolonged, direct, escalating threat and uncertainty — imprisonment, a documented death list, and exile — across decades, evidenced by the continuity of her output through each period."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her medical training was directly extended into a broader socio-literary investigation of women's lives across her writing career, inferred from that documented cross-disciplinary body of work."
+    },
+    "decisiveness": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Ran for President of Egypt in 2004, a specific, documented political act, though she withdrew before the election itself, moderating the confidence of this as a completed decisive act."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founding the Arab Women's Solidarity Association required organizing with other activists, but the surviving record documents the organization's outcomes more than her specific collaborative process, hence inference-level."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Adapted across a documented medical career, a literary career, imprisonment, and a period of exile at Duke University, inferred from that range of life circumstances."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): North Africa pick. Unusually rich self-report base for a contemporary figure, including a manuscript literally written during her own imprisonment using smuggled materials — a rare, directly documented act of creative persistence under real confinement, used honestly here (proactive_agency, discipline) rather than treated as a footnote. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.568, coverage=0.545 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.568,
+    "coverage": 0.545,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

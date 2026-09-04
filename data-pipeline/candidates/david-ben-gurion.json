@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "david-ben-gurion",
+  "status": "held",
+  "identity": {
+    "canonicalName": "David Ben-Gurion",
+    "wikidataId": "Q37610",
+    "birthYear": 1886,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IL"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "statesman"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "founder"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_dbg_diaries",
+      "kind": "archive",
+      "title": "Ben-Gurion's own diaries, kept across decades — a genuinely personal, extensive primary source held at the Ben-Gurion Archives"
+    },
+    {
+      "id": "src_dbg_declaration",
+      "kind": "archive",
+      "title": "Israeli Declaration of Independence, 14 May 1948, and the surrounding cabinet deliberation record"
+    },
+    {
+      "id": "src_dbg_teveth",
+      "kind": "biography",
+      "title": "Shabtai Teveth, Ben-Gurion: The Burning Ground and other volumes — biography drawing extensively on the diaries"
+    },
+    {
+      "id": "src_dbg_wikipedia",
+      "kind": "wikipedia",
+      "title": "David Ben-Gurion",
+      "url": "https://en.wikipedia.org/wiki/David_Ben-Gurion"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Declared Israeli independence on 14 May 1948 knowing multi-front war with neighboring Arab states was highly likely — which occurred the following day — a specific, dated, documented decision made against colleagues who urged delay."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "During the 1948 Altalena Affair, ordered the shelling of a ship carrying arms for the rival Irgun faction, a swift and controversial decision resulting in deaths — decisive but with real, lasting, documented cost and controversy."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct conflict with both rival Zionist factions (the Irgun) and neighboring Arab states in the founding period, documented across multiple independent accounts of 1948."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Voluntarily resigned as Prime Minister on two separate occasions to retire to Sde Boker, a small Negev desert kibbutz, choosing a simple pioneering life over continued power — a specific, unusual, well-documented act repeated twice."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally drove and announced the Declaration of Independence process rather than deferring the decision, a self-initiated action at the moment of highest stakes."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Learned ancient Greek later in life specifically to read Plato in the original language — a specific, documented intellectual pursuit undertaken well outside his political role."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same sustained language-learning project, alongside decades of disciplined diary-keeping, shows deliberate, sustained self-directed development beyond what his political role required."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained detailed personal diaries across decades, now held at the Ben-Gurion Archives — direct documented evidence of a sustained personal practice, not an inferred trait."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served as the founding Prime Minister and sustained central leadership of the Zionist movement and then the Israeli state across decades, documented across multiple terms."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of Jewish statehood across decades of Zionist political organizing before 1948, inferred from that sustained, documented, multi-decade campaign."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The voluntary retirement to a kibbutz specifically to \"return to the land\" and live a simple pioneering life, rather than retain comfortable power, is a specific documented choice suggesting ideological motivation over personal comfort."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained a documented strategic and ideological split from more militant factions like the Irgun over tactics and the path to statehood, evidenced by the Altalena confrontation itself."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Extensive pre-1948 diplomatic groundwork, including securing early recognition from both the US and USSR, was sustained over years, inferred from that documented outcome."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained leadership through the profound existential uncertainty of the 1948 war and the state's founding years, evidenced by the continuity of functioning government through that period."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained decades of Zionist political organizing before finally achieving statehood in 1948, inferred from that multi-decade documented campaign."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Functioned as a labor organizer, political leader, and — after retirement — a writer engaging seriously with philosophy and history, evidenced by his post-political published output."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained direct public confrontation of British Mandate authorities and rival Zionist factions rather than working only through quieter channels, evidenced across the founding period."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved through documented, distinct roles — labor union organizer, wartime state founder, and retired kibbutz farmer/scholar — across one long, eventful life."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): West Asia pick. Unusually rich self-report base via his own decades-spanning diaries, corroborated by biography drawing on the same archive. The Altalena Affair is scored honestly as a documented dual_edged decisiveness/conflict-tolerance episode rather than omitted. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.548, coverage=0.542 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.548,
+    "coverage": 0.542,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

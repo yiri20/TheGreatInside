@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yasser-arafat",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Yasser Arafat",
+    "wikidataId": "Q34211",
+    "birthYear": 1929,
+    "deathYear": 2004,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "PS"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "reconciliation"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ya_un_1974",
+      "kind": "archive",
+      "title": "Arafat's address to the UN General Assembly, 13 November 1974 (\"olive branch\" speech)"
+    },
+    {
+      "id": "src_ya_oslo",
+      "kind": "archive",
+      "title": "1993 Oslo Accords signing ceremony and the 1994 Nobel Peace Prize citation (shared with Yitzhak Rabin and Shimon Peres)"
+    },
+    {
+      "id": "src_ya_press",
+      "kind": "press",
+      "title": "International press coverage across four decades (1960s Fatah/PLO founding through the 2004 death), including the 1970 Jordan expulsion, 1982 Lebanon expulsion, and 1992 plane crash"
+    },
+    {
+      "id": "src_ya_wikipedia",
+      "kind": "wikipedia",
+      "title": "Yasser Arafat",
+      "url": "https://en.wikipedia.org/wiki/Yasser_Arafat"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of leadership under constant, credible assassination threat and survived a 1992 plane crash in the Libyan desert — multiple independent documented instances across his career, not a single episode."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained leadership of the Palestinian national movement for nearly four decades despite forced expulsions from Jordan (1970) and Lebanon (1982), continuing to lead from each new base rather than stepping aside."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Shifted from armed-struggle commander to Nobel Peace Prize-sharing negotiator with the 1993 Oslo Accords — a specific, dramatic, well-documented strategic pivot after decades of a different stated position."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of armed conflict and political confrontation across multiple countries and factions, documented across independent international press coverage."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His 1974 UN address, with its widely quoted \"olive branch and freedom-fighter's gun\" framing, secured the PLO's first UN observer recognition — a specific, documented rhetorical and diplomatic achievement."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Signing the 1993 Oslo Accords and publicly shaking Yitzhak Rabin's hand was a specific, dated, high-stakes decision reversing decades of prior stated position."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained decades-long public commitment to Palestinian statehood, reinforced by his Nobel Peace Prize acceptance; documented reporting from the Second Intifada period also raised real, contested questions about tacit tolerance of violence alongside his public diplomatic position — scored as dual_edged rather than resolved in either direction."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained undisputed central leadership of Fatah, the PLO, and later the Palestinian Authority for over three decades."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally initiated the strategic pivot toward the Oslo negotiations rather than being pressured into it by a single external event."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The Oslo Accords represent a real, documented collaborative agreement with a former adversary, formally recognized by a shared Nobel Peace Prize — though the peace process subsequently broke down amid documented mutual blame, a real limit on the collaboration's durability."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained decades of building Fatah and PLO institutional structures, inferred from the documented organizational continuity of those bodies across his leadership."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of Palestinian statehood and international recognition across decades, culminating in the Nobel Peace Prize and Palestinian Authority self-governance structures."
+    },
+    "social_assertiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly and directly confronted international bodies, including the 1974 UN address, and negotiated personally with heads of state rather than through intermediaries alone."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained an independent Palestinian nationalist position distinct from sponsor Arab states, documented by the fact that both Jordan (1970) and Lebanon (1982) expelled him after conflicts arising from his independent operations on their territory."
+    },
+    "ambiguity_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained leadership through decades of shifting alliances, forced exile, and uncertain diplomatic status, evidenced by the continuity of his leadership role through each disruption."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Functioned as militant commander, international diplomat, and head of a quasi-state administration (the Palestinian Authority), though the depth of documented evidence in the administrative domain specifically is thinner, hence inference-level."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Pursued a hybrid strategy combining armed resistance and diplomacy simultaneously, a distinct approach relative to other regional movements of the period, inferred from that documented dual-track positioning."
+    },
+    "discipline": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained organizational leadership for over three decades despite repeated displacement and external pressure implies real personal discipline, inferred from that overall record rather than a single cited episode."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): West Asia pick. The Second Intifada-era ambiguity between his public diplomatic position and contested reporting about tacit tolerance of violence is scored honestly as dual_edged (impact_motivation) rather than resolved. His 2004 death and its long-disputed circumstances are deliberately not referenced in any row — this record does not assert a cause of death, consistent with this project's safety discipline against unsupported claims. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.526, coverage=0.533 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.526,
+    "coverage": 0.533,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}
