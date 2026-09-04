@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "deng-xiaoping",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.482, coverage=0.536, eligible=false. Vogel's biography supports several documented-tier rows on major decisions, but much of the remaining coverage rests at inference tier once policy achievement is not treated as automatic personality evidence. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Deng Xiaoping",
+    "aliases": [],
+    "wikidataId": "Q16977",
+    "birthYear": 1904,
+    "deathYear": 1997,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["CN"],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["political_leader"],
+    "fieldIds": ["politics"],
+    "impactDomains": ["historical", "social", "industrial"],
+    "tagIds": ["leader", "strategist", "overcame_adversity"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_deng_wikipedia", "kind": "wikipedia", "title": "Deng Xiaoping", "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping" },
+    { "id": "src_deng_vogel", "kind": "biography", "title": "Ezra Vogel, Deng Xiaoping and the Transformation of China (Harvard/Belknap, 2011) -- the definitive scholarly biography" },
+    { "id": "src_deng_press", "kind": "press", "title": "Historical press/scholarly record of the Cultural Revolution purges, the 1989 Tiananmen Square crackdown, and the 1992 Southern Tour" }
+  ],
+  "rows": {
+    "persistence": { "score": 92, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Was politically purged and stripped of power three separate times across his career (1933, 1966-69, 1976) and returned to senior leadership after each purge -- an extensively documented, specific, repeated pattern of political survival and re-ascension, not a single comeback." },
+    "risk_tolerance": { "score": 85, "confidence": 0.6, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Personally authorized the military crackdown on the 1989 Tiananmen Square protests, a specific, historically consequential, and still-controversial decision extensively documented via Vogel's biography and the broader historical record; separately, at age 87 and after being politically sidelined following Tiananmen, undertook the 1992 'Southern Tour' to personally overrule internal party resistance and re-accelerate market reforms. Marked dual_edged: both decisions show a documented willingness to take extreme, high-stakes action, in sharply different directions." },
+    "proactive_agency": { "score": 82, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Personally initiated the 1992 Southern Tour of China's Special Economic Zones specifically to reassert and accelerate market-oriented reform against internal party resistance after being politically sidelined post-Tiananmen, documented via Vogel's biography's detailed account of the tour's origin and effect." },
+    "independent_thinking": { "score": 84, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Pursued market-oriented economic reform explicitly breaking with prior CCP ideological orthodoxy, publicly justified via his own pragmatic maxim about a cat's color mattering less than whether it catches mice, documented via the well-established historical record of this policy shift and its ideological justification." },
+    "adaptability": { "score": 78, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Shifted position and strategy substantially across a seven-decade political career spanning the Long March era, the Cultural Revolution's ideological extremism, and market-oriented reform, documented via the well-established political history of these transitions." },
+    "discipline": { "score": 65, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained active political engagement and strategic patience through extended periods of purge and internal exile (including manual-labor assignment during the Cultural Revolution) before each return to power, documented via the biographical record of these periods." },
+    "impact_motivation": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Consistently framed his reform program around national economic development and modernization rather than personal power consolidation alone, documented via his own stated policy rationale and its sustained implementation across his tenure." },
+    "persuasiveness": { "score": 74, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented, including via Vogel's biography, to have directly and personally negotiated the 1984 Sino-British Joint Declaration on Hong Kong with Margaret Thatcher, securing a specific negotiated outcome (the 'one country, two systems' framework) through direct engagement." },
+    "planning_orientation": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Designed and sequenced a specific, staged economic-reform program (rural decollectivization, then Special Economic Zones, then broader market liberalization) across more than a decade, documented via the well-established policy-history sequencing of these reforms." },
+    "conflict_tolerance": { "score": 75, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Sustained decades of internal factional conflict within the CCP, including surviving direct personal attacks during the Cultural Revolution (during which his son was permanently paralyzed after a fall during Red Guard persecution), and later personally bore responsibility for the lethal 1989 crackdown -- documented across both directions of this trait's real, severe cost." },
+    "achievement_drive": { "score": 72, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Continued expanding and defending the reform program for over a decade after initially securing power in 1978, well beyond basic political survival, documented via the sustained scope of his policy agenda." },
+    "autonomy_need": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Maintained and ultimately imposed his own reformist policy direction against sustained internal party opposition on multiple documented occasions (including the 1992 Southern Tour), suggesting real independent political judgment." },
+    "leadership_drive": { "score": 70, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Held de facto paramount leadership of China for over a decade (1978-1989) without ever holding the formal top state or party title, documented via the well-established political-structure history of his actual authority during this period." },
+    "social_assertiveness": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained a prominent direct diplomatic role, including in-person negotiation with foreign heads of government (Thatcher, and a well-documented 1979 visit to the United States), documented via the historical record of these engagements." },
+    "decisiveness": { "score": 76, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Committed to specific, consequential courses of action at clear decision points (the 1978 turn to reform, the 1989 crackdown, the 1992 Southern Tour) rather than prolonged indecision, documented via the well-established timing of each." },
+    "collaboration": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Built and sustained a working reformist coalition within the CCP leadership (including figures like Hu Yaobang and Zhao Ziyang, though he later also removed both from power), a genuinely mixed collaborative signal rather than a uniformly positive one." },
+    "mastery_orientation": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued personally directing and adjusting economic policy detail well into his 80s, suggesting sustained engagement rather than early disengagement from the specifics of governance." },
+    "detail_orientation": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented, via Vogel's biography, as personally engaging with specific policy implementation detail (e.g., the precise design of Special Economic Zone incentives) rather than only setting broad direction." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q16977, matches name/role). Follows this project's own political-candidate admission rule (see the closure audit): political controversy is not itself an exclusion criterion, and the 1989 Tiananmen crackdown is scored honestly (risk_tolerance, conflict_tolerance, decisiveness all marked dual_edged/documented with the episode named directly) rather than omitted or softened -- the same discipline already applied to other complex leaders in this roster (Atatürk, Wu Zetian, Genghis Khan). inclusion_v1: clearly passes -- no inherited position; every position was attained and repeatedly re-attained through his own political career."
+  }
+}

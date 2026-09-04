@@ -53,6 +53,16 @@
       "kind": "institution",
       "title": "Asia Society -- Sun Yat-sen",
       "url": "https://sites.asiasociety.org/chinawealthpower/chapters/sun-yat-sen/"
+    },
+    {
+      "id": "src_sunyatsen_kidnapped",
+      "kind": "archive",
+      "title": "Sun Yat-sen (with James Cantlie and Edwin Collins), Kidnapped in London (1897) -- his own English-language, first-person account of the 1896 legation captivity, written and published within weeks of his release"
+    },
+    {
+      "id": "src_sunyatsen_jmch",
+      "kind": "institution",
+      "title": "\"Sun Yat-sen's English writing and revolutionary image after his kidnapping and imprisonment in London\", Journal of Modern Chinese History 15(2), 2021 -- scholarly analysis of how he used the published account strategically"
     }
   ],
   "rows": {
@@ -106,12 +116,11 @@
       "rationale": "After the 1911 Revolution succeeded, he voluntarily ceded the provisional presidency to Yuan Shikai to preserve national unity -- a specific, documented, genuinely collaborative/conciliatory act, though historians differ on whether it was strategically wise."
     },
     "persuasiveness": {
-      "score": 76,
-      "confidence": 0.44,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Successfully raising sustained funding from overseas Chinese communities across four decades and multiple continents implies real persuasive capability, inferred from the documented fundraising outcomes."
-    },
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, this session] Beyond the fundraising-outcome evidence, a second, more specific instance now corroborates it from a different domain: Kidnapped in London (1897), his own written account, is documented to have made him globally famous within weeks and built substantial Western sympathy for the Chinese revolutionary cause -- a concrete instance of persuasive written communication achieving a specific, traceable public-opinion effect, not just a general fundraising result." },
     "achievement_drive": {
       "score": 78,
       "confidence": 0.42,
@@ -141,12 +150,11 @@
       "rationale": "Sustaining organizing and fundraising activity across two decades of exile implies real behavioral discipline, inferred from the documented duration of the effort."
     },
     "opportunity_sensing": {
-      "score": 68,
-      "confidence": 0.4,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Recognizing and acting on the specific 1911 political opening created by a local military mutiny (the Wuchang Uprising) to bring the broader revolutionary movement to power suggests real opportunity recognition, inferred from the documented timing of the Revolution's success."
-    },
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, this session] A second, independent, temporally-earlier instance of the same underlying pattern now corroborates the 1911 Wuchang-timing evidence: in 1896, rather than simply recovering privately from his London captivity, he and collaborators wrote and published his own first-person account within weeks, in English, aimed at foreign audiences -- a documented, scholarly-analyzed (Journal of Modern Chinese History, 2021) instance of converting a personal crisis into international sympathy and revolutionary publicity, 15 years before the 1911 example. Two independent instances, in different domains (media/propaganda vs. military-political timing), meets this rubric's strong_inference standard." },
     "independent_thinking": {
       "score": 68,
       "confidence": 0.4,
@@ -192,9 +200,9 @@
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- no inherited position; a physician by training whose political role was entirely self-built through decades of organizing."
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- no inherited position; a physician by training whose political role was entirely self-built through decades of organizing. Evidence-deepening pass (2026-09-03, Track B batch 2a): added his own 1897 published account of the 1896 kidnapping (previously only used for risk_tolerance) plus a 2021 scholarly analysis of its strategic/propaganda use. 2 rows upgraded (opportunity_sensing, persuasiveness) via a genuinely distinct instance, not a re-count of the same risk_tolerance anecdote. Bergere's full 1998 biography was NOT separately mined this pass (a real limitation, disclosed rather than papered over) -- only secondary discussion of it was available. Did not re-run eligibility mid-edit. [Labeled NEW_EVIDENCE, added on final-QA sweep: the opportunity_sensing/persuasiveness changes above are the 1897 published kidnapping account and 2021 scholarly analysis described in this same note, not a rubric or error correction.]"
   },
   "holdReason": "Held after a genuine source-first research/scoring pass this session (citing Lyon Sharman's and Harold Schiffrin's standard biographies): avgConf 0.464 vs 0.55 floor, coverage 0.572 vs 0.6 floor. The documented 1896 London kidnapping and the quantified 20-year fundraising/organizing record support several strong rows, but much of his personal working style and decision process beyond the organizational/political record is comparatively thin in the English-language secondary literature consulted this session."
 }

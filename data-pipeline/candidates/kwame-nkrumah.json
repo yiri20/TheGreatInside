@@ -48,6 +48,11 @@
       "id": "src_nkrumah_autobiography",
       "kind": "archive",
       "title": "Kwame Nkrumah, Ghana: The Autobiography of Kwame Nkrumah (1957)"
+    },
+    {
+      "id": "src_nkrumah_davidson",
+      "kind": "biography",
+      "title": "Basil Davidson, Black Star: A View of the Life and Times of Kwame Nkrumah (1973) -- written by a personal friend, presenting an objective if sympathetic portrayal alongside real criticism of specific political choices"
     }
   ],
   "rows": {
@@ -150,12 +155,11 @@
       "rationale": "Moved between grassroots organizing, formal electoral politics, and international diplomacy across his career, suggesting real flexibility in political approach."
     },
     "collaboration": {
-      "score": 55,
-      "confidence": 0.4,
-      "evidenceType": "inference",
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
       "impact": "neutral",
-      "rationale": "Worked with a broad coalition of Gold Coast political organizers to build the Convention People's Party into a mass movement, suggesting real capacity for coalition-building despite his own strong personal leadership style."
-    },
+      "rationale": "[NEW_EVIDENCE, this session] A second, distinct-domain instance now corroborates the internal coalition-building pattern: Davidson's biography (written by a personal friend, not a hagiography) documents that Nkrumah made real, specific negotiated compromises directly WITH British colonial authorities to smooth the path to independence -- collaboration with an adversary under real constraint, not only coalition-building among allies. Pre-independence period only, consistent with this file's own established scope boundary excluding the post-1960 period." },
     "mastery_orientation": {
       "score": 58,
       "confidence": 0.42,
@@ -201,9 +205,9 @@
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: 20th_century, sub_saharan_africa, politics/decolonization domain — a distinct trait shape and historical moment from the existing sub_saharan_africa roster (Mandela, Wangari Maathai, Chinua Achebe, Fela Kuti, Wole Soyinka), specifically the first-wave decolonization/pan-Africanist leadership era. Later authoritarian turn in his own presidency (post-1960, culminating in the 1966 coup that removed him) was reviewed and NOT scored as a personality trait per this project's own rule against reading outcomes backward into traits without direct behavioral evidence — the scored attributes here are grounded in the well-documented independence-era organizing period specifically."
+    "notes": "Third-batch diversity pick: 20th_century, sub_saharan_africa, politics/decolonization domain — a distinct trait shape and historical moment from the existing sub_saharan_africa roster (Mandela, Wangari Maathai, Chinua Achebe, Fela Kuti, Wole Soyinka), specifically the first-wave decolonization/pan-Africanist leadership era. Later authoritarian turn in his own presidency (post-1960, culminating in the 1966 coup that removed him) was reviewed and NOT scored as a personality trait per this project's own rule against reading outcomes backward into traits without direct behavioral evidence — the scored attributes here are grounded in the well-documented independence-era organizing period specifically. Evidence-deepening pass (2026-09-03, Track B batch 2b): added Basil Davidson's Black Star. 1 row upgraded (collaboration). Deliberately did NOT use Davidson's own discussion of the post-1960 corruption/autocratic-tendencies material, preserving this file's already-established, deliberate scope boundary rather than reopening it. Did not re-run eligibility mid-edit. [Labeled NEW_EVIDENCE, added on final-QA sweep: the collaboration change above is the Basil Davidson finding described in this same note, not a rubric or error correction.]"
   },
   "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.503 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
 }

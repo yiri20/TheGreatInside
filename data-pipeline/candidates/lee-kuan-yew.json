@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lee-kuan-yew",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.499, coverage=0.540, eligible=false. State-building achievement is exceptionally well documented, but much of the personal-behavioral record (as opposed to policy record) rests at inference tier. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Lee Kuan Yew",
+    "aliases": ["Harry Lee Kuan Yew"],
+    "wikidataId": "Q131248",
+    "birthYear": 1923,
+    "deathYear": 2015,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["SG"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["political_leader"],
+    "fieldIds": ["politics", "law"],
+    "impactDomains": ["historical", "social", "technological"],
+    "tagIds": ["leader", "founder", "strategist"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_lky_wikipedia", "kind": "wikipedia", "title": "Lee Kuan Yew", "url": "https://en.wikipedia.org/wiki/Lee_Kuan_Yew" },
+    { "id": "src_lky_memoirs", "kind": "archive", "title": "Lee Kuan Yew, The Singapore Story (1998) and From Third World to First (2000) -- his own two-volume memoir" },
+    { "id": "src_lky_grandmaster", "kind": "biography", "title": "Graham Allison, Robert D. Blackwill, Ali Wyne, Lee Kuan Yew: The Grand Master's Insights on China, the United States, and the World (2013) -- a compiled interview-based volume with extensive direct quotation" },
+    { "id": "src_lky_coldstore_press", "kind": "press", "title": "Historical press/scholarly accounts of Operation Coldstore (1963) and subsequent decades of defamation litigation against political opponents and journalists" }
+  ],
+  "rows": {
+    "leadership_drive": { "score": 92, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Founded and led the People's Action Party to power in 1959, then served continuously as Singapore's first Prime Minister for 31 years (1959-1990), extensively documented via the well-established political history of the period and his own memoirs." },
+    "planning_orientation": { "score": 88, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Personally directed a specific, sustained long-range economic and social development program (attracting multinational investment, mandatory bilingual education, public housing) across three decades, documented via his own memoirs' detailed account of the deliberate sequencing of these policies." },
+    "decisiveness": { "score": 85, "confidence": 0.6, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Ordered the mass detention without trial of dozens of leftist political opponents and labor organizers in Operation Coldstore (1963), a specific, documented act eliminating his most significant political rivals; separately, made and executed the decision to withdraw from the Malaysian Federation in 1965 within days of the breakdown of negotiations. Marked dual_edged: decisive action that also entrenched single-party dominance via documented suppression of opposition." },
+    "conflict_tolerance": { "score": 80, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Sustained a documented pattern of pursuing defamation lawsuits against political opponents and journalists throughout his premiership and after -- a specific, repeated behavioral pattern independently corroborated across decades of press coverage, not a single incident. Marked dual_edged: effective at suppressing challenges to his authority, at real documented cost to press/political freedom." },
+    "risk_tolerance": { "score": 75, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Led Singapore's separation from the Malaysian Federation in 1965 into full, sudden independence as a small, resource-poor state with no assured economic viability, a documented high-stakes decision Lee himself described in his own memoirs as personally traumatic." },
+    "achievement_drive": { "score": 82, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued directing Singapore's development program for three decades after independence was secured, well beyond the point of basic state survival, documented via the sustained scope of his policy agenda across his premiership." },
+    "discipline": { "score": 74, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented, including via his own memoirs, to have undertaken sustained personal study of Mandarin as an adult and to have maintained a demanding daily working routine into his 80s and 90s." },
+    "persuasiveness": { "score": 78, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Credited, including by international counterparts documented in compiled interviews, with directly shaping the views of multiple US presidents and foreign leaders on China and Asian development through sustained direct personal engagement." },
+    "independent_thinking": { "score": 76, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Pursued a state-development model explicitly rejecting both Western liberal-democratic and Soviet-style planning templates, documented via his own extensive published and interview commentary on pragmatic governance." },
+    "autonomy_need": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Broke from the Malaysian Federation and from close alignment with either Cold War bloc, documented via the well-established diplomatic history of Singapore's early independence." },
+    "proactive_agency": { "score": 75, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Personally initiated Singapore's specific strategy of attracting multinational manufacturing investment in the 1960s against prevailing regional import-substitution orthodoxy, documented via his own account of the policy's origin." },
+    "collaboration": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Built and sustained a small, stable core cabinet (notably with Goh Keng Swee and S. Rajaratnam) across decades of policymaking, suggesting some real capacity for sustained senior collaborative relationships, though his own dominant leadership style is also well documented." },
+    "adaptability": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Shifted Singapore's economic strategy multiple times across his premiership (labor-intensive manufacturing, then higher-value electronics, then financial/services), documented via the well-established economic-policy history of the period." },
+    "mastery_orientation": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued personally engaging with and revising Singapore's economic and foreign-policy strategy well into his post-premiership 'Minister Mentor' role, suggesting sustained engagement rather than early disengagement." },
+    "curiosity": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained direct, documented personal study of comparative economic and governance models across many countries throughout his career, reflected in his own extensive written and interview commentary." },
+    "persistence": { "score": 70, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained a single, consistent development strategy across repeated early setbacks (including the 1965 separation crisis) rather than abandoning course, documented via the continuity of his policy agenda." },
+    "detail_orientation": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented, including in his own memoirs, as personally reviewing granular policy implementation details (e.g., specific housing and education program design) rather than delegating entirely." },
+    "social_assertiveness": { "score": 72, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained a prominent, direct international diplomatic role across six decades, engaging heads of state and international media personally and repeatedly, documented via the extensive record of his public statements and diplomatic meetings." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified via live entity page search (Q131248, matches name/dates/role). regionCode is the same south_asia placeholder used elsewhere pending the region.southeast_asia i18n addition. Deliberately preserved the well-documented authoritarian dimension of his rule (Operation Coldstore, sustained defamation litigation against opponents) as dual_edged/risk rather than omitting it or scoring only the state-building achievement -- consistent with this project's existing treatment of other complex political leaders already in the roster (Atatürk, Wu Zetian, Genghis Khan). inclusion_v1: clearly passes -- no inherited position; every office was attained through his own political career."
+  }
+}

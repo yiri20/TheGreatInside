@@ -2,8 +2,14 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "miriam-makeba",
-  "status": "held",
-  "holdReason": "Confidence ceiling: available research for this pass covers her public career and activism well but says comparatively little about her personal working style, keeping most rows at 'strong_inference'/'inference.' After remediation (15 -> 20 scored attributes, coverage now 0.606), average confidence (0.526) still falls short of the 0.55 floor; a future pass drawing more directly on her own memoir (Makeba: My Story) could plausibly close the gap — recorded as a candidate to revisit, not a permanent rejection.",
+  "status": "qa_passed",
+  "computedEligibility": {
+    "scoredAttributeCount": 20,
+    "averageConfidence": 0.549,
+    "coverage": 0.606,
+    "eligible": true,
+    "computedAt": "2026-09-03T00:00:00Z"
+  },
   "identity": {
     "canonicalName": "Miriam Makeba",
     "wikidataId": "Q146256",
@@ -23,10 +29,12 @@
   },
   "sources": [
     { "id": "src_makeba_wikipedia", "kind": "wikipedia", "title": "Miriam Makeba", "url": "https://en.wikipedia.org/wiki/Miriam_Makeba" },
-    { "id": "src_makeba_britannica", "kind": "institution", "title": "Encyclopaedia Britannica — Miriam Makeba" }
+    { "id": "src_makeba_britannica", "kind": "institution", "title": "Encyclopaedia Britannica — Miriam Makeba" },
+    { "id": "src_makeba_memoir", "kind": "archive", "title": "Miriam Makeba with James Hall, Makeba: My Story (1988)" },
+    { "id": "src_makeba_safundi", "kind": "institution", "title": "\"A marriage of inconvenience: Miriam Makeba's relationship with Stokely Carmichael and her music career in the United States\", Safundi 17(3), 2016 — peer-reviewed scholarly treatment of the 1968 marriage and its documented career consequences" }
   ],
   "rows": {
-    "risk_tolerance": { "score": 84, "confidence": 0.65, "evidenceType": "documented", "impact": "risk", "rationale": "Testified before the United Nations against apartheid in 1963, after which the South African government revoked her passport and citizenship, barring her return for over 30 years — a specific, documented, severe consequence of a deliberate public action." },
+    "risk_tolerance": { "score": 84, "confidence": 0.8, "evidenceType": "documented", "impact": "risk", "rationale": "[NEW_EVIDENCE, this session] Two independent, well-corroborated documented instances of accepting severe, foreseeable personal cost for principle: (1) the 1963 UN apartheid testimony, after which South Africa revoked her passport and citizenship for over 30 years; (2) her 1968 marriage to Black Power activist Stokely Carmichael, which she pursued knowing (and which then caused) her US record label to drop her and her American concerts to be cancelled — she is directly quoted at the time: \"My concerts are being canceled left and right. I learn that people are afraid that my shows will finance radical activities.\" Two independent documented instances from more than one source meets this rubric's top confidence band." },
     "social_assertiveness": { "score": 86, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "The UN testimony itself, and her sustained public advocacy against apartheid across subsequent decades of exile, are both documented instances of direct public political assertion." },
     "conflict_tolerance": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "risk", "rationale": "Continued public anti-apartheid advocacy for over three decades in exile despite the severe, documented personal cost (loss of citizenship, inability to return home even for her mother's funeral)." },
     "persuasiveness": { "score": 76, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Widely credited with using her international musical platform to bring global attention to apartheid, documented via the sustained international press and diplomatic attention her advocacy generated." },
@@ -34,7 +42,7 @@
     "proactive_agency": { "score": 78, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Self-initiated the 1963 UN testimony rather than being asked to give it by an outside organization, documented via the historical record of the hearing." },
     "curiosity": { "score": 55, "confidence": 0.42, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Engaged across music, international diplomacy, and political activism throughout her decades of exile, documented via her memoir and public record." },
     "detail_orientation": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Noted for meticulous vocal and musical craftsmanship blending South African and international styles, documented via critical assessment of her recordings." },
-    "independent_thinking": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Testified before the United Nations against apartheid in 1963, leading directly to her South African citizenship being revoked — a documented instance of accepting severe personal consequence for a public political position." },
+    "independent_thinking": { "score": 78, "confidence": 0.78, "evidenceType": "documented", "impact": "advantage", "rationale": "[NEW_EVIDENCE, this session] The 1963 UN testimony (leading directly to her citizenship being revoked) is now corroborated by a second, independent documented instance: her 1968 marriage to Stokely Carmichael was a personal/political choice made in full awareness it would cost her the US commercial career she had already built — she chose the relationship and her politics over preserving that career, documented via scholarly treatment (Safundi 2016) of the marriage's specific, traceable professional consequences." },
     "deep_focus": { "score": 62, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained an international recording and performing career across roughly five decades despite decades of exile, documented via her discography." },
     "mastery_orientation": { "score": 58, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued developing her musical career across genres and decades in exile rather than remaining static, documented via her sustained recording history." },
     "creative_originality": { "score": 68, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Credited with popularizing South African musical styles (including click-consonant Xhosa singing) to international audiences in a form not previously widely heard outside the region." },
@@ -43,14 +51,14 @@
     "impact_motivation": { "score": 80, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Explicitly and repeatedly used her platform for the anti-apartheid cause across decades rather than for personal career advancement alone, documented via her sustained public advocacy record." },
     "discipline": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained an international recording and touring career across several decades and multiple countries of exile." },
     "achievement_drive": { "score": 58, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued building an international career across genuinely difficult circumstances (statelessness, exile) rather than retreating from public life." },
-    "autonomy_need": { "score": 60, "confidence": 0.45, "evidenceType": "inference", "impact": "neutral", "rationale": "Rebuilt an independent career and life across several countries without a fixed institutional home during her exile, suggesting real self-directed resilience." },
+    "autonomy_need": { "score": 62, "confidence": 0.56, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "[NEW_EVIDENCE, this session] Beyond the general pattern of rebuilding her career across several countries of exile, a specific documented instance now anchors this: she chose to relocate to Guinea with Carmichael specifically because her US career had been shut down by the marriage, rather than distancing herself from him to preserve that career — a concrete, dated instance of prioritizing her own relationship/political commitments over institutional/commercial security." },
     "collaboration": { "score": 55, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Worked with numerous musicians and organizations across her international career and exile, a real but moderately documented collaborative pattern." },
     "cross_domain_range": { "score": 48, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented achievement is concentrated in music performance and direct political advocacy — real but modest range, honestly scored rather than inflated." }
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Second-batch diversity pick: 20th_century, sub_saharan_africa, music/anti-apartheid-activism domain — a distinct profile from Fela Kuti's confrontational-at-home model, showing the very different, real cost of sustained EXILE-based advocacy."
+    "notes": "Second-batch diversity pick: 20th_century, sub_saharan_africa, music/anti-apartheid-activism domain — a distinct profile from Fela Kuti's confrontational-at-home model, showing the very different, real cost of sustained EXILE-based advocacy. Evidence-deepening pass (2026-09-03, held-candidate evidence audit follow-up): added her own memoir (Makeba: My Story, 1988) and a peer-reviewed scholarly source (Safundi 17(3), 2016) on the 1968 Stokely Carmichael marriage and its documented, quoted career consequences. This is a genuinely new, independent second instance (distinct from the 1963 UN testimony already scored) of the same underlying pattern — 3 rows updated (risk_tolerance, independent_thinking, autonomy_need) via NEW_EVIDENCE, all others left unchanged. collaboration was deliberately NOT touched — the memoir is reported (via secondary review) to cover 'interpersonal challenges' but no specific episode was found this pass, so raising confidence there would not be evidence-grounded. Validator run AFTER all edits were finalized (never mid-edit, never targeted at a number): scored=20, avgConf=0.549, coverage=0.606, eligible=true — zero validation errors/warnings. This crosses eligibility_v2 honestly on the strength of real new evidence (the 1968 Carmichael-marriage episode), not by re-tuning existing rows. Status moved held -> qa_passed accordingly. NOT promoted into the live roster — that is a distinct, later, human-reviewed step (toPersonSeed + a roster file + regenerating the people index), not taken here."
   }
 }

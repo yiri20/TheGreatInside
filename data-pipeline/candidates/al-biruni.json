@@ -57,6 +57,16 @@
       "id": "src_albiruni_india",
       "kind": "archive",
       "title": "Al-Biruni, Kitab al-Hind (Book of India, c. 1030)"
+    },
+    {
+      "id": "src_albiruni_ibnsina_correspondence",
+      "kind": "archive",
+      "title": "The Ibn Sina-Al-Biruni Correspondence -- an actual surviving epistolary exchange (c. 998, when Al-Biruni was ~25 and Ibn Sina ~18), 10 questions on Aristotle's De Caelo and 8 on the Physics, with Al-Biruni's own recorded dissatisfaction with most of Ibn Sina's replies -- a direct, firsthand, interpersonal source, distinct in kind from his solo-authored works"
+    },
+    {
+      "id": "src_albiruni_ghazni_capture",
+      "kind": "institution",
+      "title": "Scholarly accounts (MacTutor History of Mathematics; Syed Nomanul Haq, \"Al-Biruni in chains\") of the 1017 Ghaznavid conquest of Khwarazm, during which Al-Biruni was taken to Mahmud of Ghazni's court -- by several accounts literally in chains as a war-captive -- yet was subsequently given scholarly resources and produced major work there"
     }
   ],
   "rows": {
@@ -89,12 +99,11 @@
       "rationale": "Kitab al-Hind systematically compares Indian and Greek/Islamic scientific and philosophical frameworks side by side, documented via the work's own comparative structure."
     },
     "independent_thinking": {
-      "score": 76,
-      "confidence": 0.65,
+      "score": 80,
+      "confidence": 0.78,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Approached Indian religious and scientific thought with documented methodological even-handedness unusual for his era, explicitly stating in Kitab al-Hind's preface his intent to describe Indian views 'in their own words,' a specific documented editorial stance."
-    },
+      "rationale": "[NEW_EVIDENCE, this session] A second, independent, genuinely interpersonal instance now corroborates the Kitab al-Hind editorial-stance evidence: his real, surviving correspondence with Ibn Sina (c. 998) shows him taking and sustaining an independent Democritean-leaning position against the dominant Aristotelian/Peripatetic physics Ibn Sina defended, recorded as dissatisfied with most of Ibn Sina's responses rather than deferring to the era's other great authority. Two independent documented instances, one solo-authored and one direct dialectical exchange, meets this rubric's top confidence band." },
     "detail_orientation": {
       "score": 74,
       "confidence": 0.65,
@@ -124,12 +133,11 @@
       "rationale": "Recognized and pursued the scholarly opportunity presented by extended access to India following Mahmud of Ghazni's campaigns, using the circumstance to conduct sustained direct research rather than treating it as incidental."
     },
     "adaptability": {
-      "score": 62,
-      "confidence": 0.44,
-      "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Worked productively under multiple different royal patrons across his career (Khwarazmian and later Ghaznavid courts) following political upheaval, documented via the well-established biographical record of his career transitions."
-    },
+      "score": 66,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[NEW_EVIDENCE, this session] A specific, well-corroborated documented episode now replaces the previous generic 'changed patron courts' framing: multiple scholarly accounts (MacTutor; Syed Nomanul Haq's \"Al-Biruni in chains\") describe him being brought to Mahmud of Ghazni's court in 1017 as a literal war-captive following the Ghaznavid conquest of Khwarazm, yet subsequently given scholarly resources and producing major work (including Kitab al-Hind) under the very court that had captured him. Marked dual_edged -- this was coerced circumstance, not a freely chosen adaptation, and the same episode is a real, documented instance of both severe constraint and genuine resilience within it." },
     "achievement_drive": {
       "score": 58,
       "confidence": 0.42,
@@ -206,13 +214,19 @@
       "evidenceType": "strong_inference",
       "impact": "advantage",
       "rationale": "His Earth-radius calculation via horizon-dip measurement from a mountain was a direct empirical test of a geometric prediction, evidencing a genuinely experimental orientation toward verifying theoretical claims."
-    }
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[NEW ROW, NEW_EVIDENCE, this session] The surviving Ibn Sina correspondence documents sustained intellectual disagreement, not a single exchanged pleasantry -- across two rounds of pointed objections, he is recorded as dissatisfied with most of Ibn Sina's replies, continuing to press an independent position against the era's other towering intellect rather than deferring or dropping the matter. A specific, textually-preserved instance of sustained (if purely intellectual, not physical or political) conflict tolerance." }
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: medieval, central_asia (Khwarazm/Ghaznavid empire), genuine polymath profile complementing Ibn Sina's central_asia representation with a distinct trait shape (extreme cross_domain_range/curiosity, more comparative-anthropological than purely medical/philosophical). Kitab al-Hind's methodological even-handedness is unusually well documented for this era via the text's own explicit editorial statements."
+    "notes": "Third-batch diversity pick: medieval, central_asia (Khwarazm/Ghaznavid empire), genuine polymath profile complementing Ibn Sina's central_asia representation with a distinct trait shape (extreme cross_domain_range/curiosity, more comparative-anthropological than purely medical/philosophical). Kitab al-Hind's methodological even-handedness is unusually well documented for this era via the text's own explicit editorial statements. Track C evidence-deepening pass (2026-09-03): targeted research specifically for non-scholarly-output behavioral evidence (per this task's own concern that surviving evidence may be dominated by intellectual achievement rather than conduct). Found and used two genuinely new categories: (1) the real Ibn Sina correspondence -- direct interpersonal/dialectical evidence, not solo authorship -- and (2) the 1017 Ghazni war-captive episode -- displacement/coercion evidence, not a vague patron-change narrative. 2 rows upgraded (independent_thinking, adaptability), 1 new row added (conflict_tolerance, coverage 21->22). Did NOT infer personality directly from the sophistication of his scholarship anywhere in this pass -- every change traces to a specific behavioral/interpersonal episode, not to the impressiveness of his output. [Labeled NEW_EVIDENCE, added on final-QA sweep: the independent_thinking/adaptability confidence changes above are the Track C Ibn Sina correspondence and 1017 Ghazni-captivity findings described in this same note, not a rubric or error correction.]"
   },
   "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.517 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
 }

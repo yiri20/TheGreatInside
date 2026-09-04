@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edward-said",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.467, coverage=0.546, eligible=false. Scholarly/public-intellectual achievement is exceptionally well documented, but much of the personal/interpersonal-conduct record rests at inference tier once documented achievement is not treated as automatic personality evidence. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Edward Said",
+    "aliases": ["Edward Wadie Said"],
+    "wikidataId": "Q201538",
+    "birthYear": 1935,
+    "deathYear": 2003,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["PS", "US"],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": ["writer", "professor"],
+    "fieldIds": ["literature", "philosophy"],
+    "impactDomains": ["cultural", "literary", "historical", "educational"],
+    "tagIds": ["theorist", "cross_disciplinary"],
+    "archetypeIds": ["scholarly_specialist", "social_influencer"]
+  },
+  "sources": [
+    { "id": "src_said_wikipedia", "kind": "wikipedia", "title": "Edward Said", "url": "https://en.wikipedia.org/wiki/Edward_Said" },
+    { "id": "src_said_memoir", "kind": "archive", "title": "Edward Said, Out of Place: A Memoir (1999) -- his own memoir" },
+    { "id": "src_said_orientalism", "kind": "archive", "title": "Edward Said, Orientalism (1978) -- his own foundational work" },
+    { "id": "src_said_press", "kind": "press", "title": "Contemporary press coverage of his 1993 public break with the PLO leadership over the Oslo Accords, and of the widely-photographed 2000 stone-throwing incident at the Israel-Lebanon border" }
+  ],
+  "rows": {
+    "independent_thinking": { "score": 85, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "[NARROWED on provenance review, this session] Verified this session specifically: in his own October 1993 London Review of Books essay 'The Morning After,' directly denounced the Oslo Accords as 'an instrument of Arab surrender' and publicly called for Yasser Arafat's resignation -- a specific, quoted, documented public break with the dominant Palestinian leadership position of the time. Narrowed from an earlier, less specific claim about a formal advisory-role resignation, which was not independently re-confirmed this session -- the sustained public criticism itself is the well-documented part." },
+    "creative_originality": { "score": 85, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Orientalism (1978) is widely credited with founding postcolonial literary/cultural theory as a field, documented via its sustained, extensively cited scholarly reception across disciplines." },
+    "conflict_tolerance": { "score": 78, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Sustained direct public advocacy and criticism of both Israeli and Palestinian Authority policy across decades, drawing sustained controversy from multiple directions, including a widely photographed and reported 2000 incident of throwing a stone across the Israel-Lebanon border fence during a family visit -- a specific, documented, controversial act. Marked dual_edged given the genuine public controversy this generated." },
+    "discipline": { "score": 72, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued producing major scholarly and public-intellectual work, including his memoir Out of Place, throughout a twelve-year illness (diagnosed with leukemia in 1991) until his death in 2003, documented via the sustained output of this period." },
+    "risk_tolerance": { "score": 68, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained public political criticism of powerful institutions (the PLO leadership, the Israeli government, US Middle East policy) that generated documented professional and personal backlash, including threats, across his career." },
+    "persuasiveness": { "score": 78, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Orientalism and his subsequent public writing are documented to have directly reshaped academic discourse across multiple disciplines (literature, history, anthropology), inferred as requiring real persuasive/rhetorical capacity from this sustained, cross-disciplinary influence." },
+    "achievement_drive": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained a demanding dual career as a practicing academic (Columbia University professor) and internationally engaged public intellectual/political advocate simultaneously across three decades." },
+    "autonomy_need": { "score": 72, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "[NARROWED on provenance review, this session] Maintained an independent public position sharply critical of the Oslo Accords and of Arafat's leadership at a time when this was a minority position among Palestinian intellectuals, documented via his own 1993 published essay's direct language and public call for Arafat's resignation. Narrowed from an earlier, more specific claim about a formal PLO advisory role, which was not independently re-confirmed this session." },
+    "curiosity": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained substantive work across literary criticism, musicology (he was also a trained pianist and wrote music criticism), and political commentary throughout his career, documented via the range of his published output." },
+    "detail_orientation": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Orientalism's argument rests on close textual analysis across a wide range of primary colonial-era sources, inferred as requiring sustained close-reading discipline from the documented scholarly method of the work." },
+    "cross_domain_range": { "score": 72, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained substantive, documented activity as a literary scholar, trained classical pianist and music critic, and political essayist concurrently across his career." },
+    "social_assertiveness": { "score": 70, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained a prominent, direct public media and lecture presence across decades on politically contentious topics, documented via the extensive record of his public interviews and appearances." },
+    "impact_motivation": { "score": 75, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Consistently directed his scholarly and public work toward Palestinian political representation and postcolonial critique rather than academic career-building alone, documented via the sustained thematic focus of his public work across decades." },
+    "adaptability": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued producing and adapting his public and scholarly output as his illness progressed in his final decade, including shifting toward more explicitly memoiristic and reflective writing (Out of Place), suggesting real adaptability under physical constraint." },
+    "persistence": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained his public political advocacy and scholarly output across sustained controversy and, in his final decade, serious illness, rather than withdrawing from public life." },
+    "mastery_orientation": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued developing his critical framework and range across new domains (music criticism, memoir) well into his established career rather than resting on Orientalism's success alone." },
+    "collaboration": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Co-founded the West-Eastern Divan Orchestra with conductor Daniel Barenboim, bringing together young Israeli and Arab musicians -- a documented, specific collaborative institutional undertaking distinct from his individual scholarly work." },
+    "leadership_drive": { "score": 55, "confidence": 0.35, "evidenceType": "inference", "impact": "neutral", "rationale": "[NARROWED on Phase-1 row-level provenance audit] Co-founded the West-Eastern Divan Orchestra with Daniel Barenboim, a specific, documented institutional undertaking. The PLO/Palestinian National Council advisory-role claim, present in an earlier draft of this row, was not independently re-confirmed in the prior provenance-review session (it was already removed from the independent_thinking and autonomy_need rows for the same reason) and is removed here too rather than left standing on a single unchecked mention. Confidence lowered slightly (0.38->0.35) to reflect the row now resting on one institutional fact rather than two." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified via live search (Q201538, matches name/dates/role). Deliberately included the widely-photographed 2000 stone-throwing incident and marked conflict_tolerance dual_edged rather than omitting a genuinely controversial documented episode. inclusion_v1: clearly passes -- no inherited position."
+  }
+}

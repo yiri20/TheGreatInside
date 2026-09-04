@@ -47,6 +47,16 @@
       "id": "src_ibnbattuta_rihla",
       "kind": "archive",
       "title": "The Rihla (\"A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling\") -- dictated by Ibn Battuta himself to the scribe Ibn Juzayy upon his return to Morocco, c. 1355. Historians note some later passages (particularly on China) may include secondhand or embellished material, a known limitation of the source."
+    },
+    {
+      "id": "src_ibnbattuta_dunn",
+      "kind": "biography",
+      "title": "Ross E. Dunn, The Adventures of Ibn Battuta: A Muslim Traveler of the 14th Century (1986; rev. ed. 2005) -- scholarly cross-referencing of Rihla claims against independent regional records; explicitly assesses the China chapters as the least reliable (confused chronology, a description of Chinese ceramics judged inaccurate) and the Maldives material as comparatively more credible, since no competing period source exists to contradict it either"
+    },
+    {
+      "id": "src_ibnbattuta_barani",
+      "kind": "archive",
+      "title": "Ziauddin Barani, Tarikh-i-Firuz Shahi -- an independent contemporary chronicle by a Nadim (companion) actually present at Muhammad bin Tughluq's court, establishing the court's well-documented volatility toward officials/scholars generally. Note: Barani is independently known to have deliberately omitted a specific incriminating episode about Tughluq out of deference to his successor -- used here only as evidence the source is politically constrained, not as a clean, unbiased corroboration of every Ibn Battuta claim about that court"
     }
   ],
   "rows": {
@@ -66,11 +76,10 @@
     },
     "adaptability": {
       "score": 78,
-      "confidence": 0.52,
+      "confidence": 0.62,
       "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Held functioning professional roles (qadi, an Islamic judge) in radically different courts -- the Delhi Sultanate under Muhammad bin Tughluq and later the Maldives -- inferred as requiring real adaptation to very different legal, linguistic, and political contexts from the documented sequence of his appointments."
-    },
+      "impact": "dual_edged",
+      "rationale": "[NEW_EVIDENCE, this session] A more specific instance now sharpens the generic 'different courts' framing: at Tughluq's court -- independently established as genuinely volatile toward officials via Barani's contemporary chronicle, not just Ibn Battuta's own account -- he carried two specific, separately-noted liabilities (marriage to the daughter of an executed rebel official; friendship with a Sufi who avoided political entanglement, itself viewed with suspicion), yet continued his judicial career there without the fate that befell others at that same court. Kept at strong_inference, not documented -- Barani's chronicle is independently confirmed to have politically self-censored other episodes about this same court, so it corroborates the court's general danger, not this specific personal episode's every detail." },
     "autonomy_need": {
       "score": 80,
       "confidence": 0.52,
@@ -200,9 +209,9 @@
   },
   "provenance": {
     "createdAt": "2026-08-16T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 11: medieval-era + North Africa diversity pick, explorer occupation (previously only Ernest Shackleton). Sourced from his own dictated Rihla -- a rare case of direct first-person medieval travel narrative -- but confidence is held at a genuinely moderate ceiling (0.62 max) reflecting the real, acknowledged historiographical caveat that some later passages (especially on China) may include secondhand or embellished material; several rows honestly scored low/moderate (planning_orientation 38, conflict_tolerance 48) rather than defaulting every explorer trait to a high score."
+    "notes": "Roster-1000 session 11: medieval-era + North Africa diversity pick, explorer occupation (previously only Ernest Shackleton). Sourced from his own dictated Rihla -- a rare case of direct first-person medieval travel narrative -- but confidence is held at a genuinely moderate ceiling (0.62 max) reflecting the real, acknowledged historiographical caveat that some later passages (especially on China) may include secondhand or embellished material; several rows honestly scored low/moderate (planning_orientation 38, conflict_tolerance 48) rather than defaulting every explorer trait to a high score. Track C evidence-deepening pass (2026-09-03): added Dunn's scholarly cross-referencing (confirms China chapters are the least reliable part of the Rihla, Maldives comparatively more credible -- no row here draws on China specifically, so no existing row needed to be walked back) and Barani's independent Delhi-court chronicle. Explicitly tested whether Barani provides clean independent corroboration and found it does NOT -- Barani is independently documented to have politically self-censored a separate episode about the same court, so it corroborates general court volatility only, not Ibn Battuta's specific personal account. 1 row upgraded (adaptability) using a genuinely more specific version of an already-scored fact, not a new independent witness to a new episode. This is the expected, honest outcome for this candidate: real, disclosed improvement within a structural ceiling that further ordinary source-mining is unlikely to lift, since the single-dictated-narrative problem is not a research-effort problem. [Labeled NEW_EVIDENCE, added on final-QA sweep: the adaptability change above is the Track C Dunn/Barani cross-referencing pass described in this same note, not a rubric or error correction. Disposition since revised to STRUCTURALLY_THIN per `roster-expansion-125-track-c-structural-ceiling-DRAFT.md` §4b -- see `roster-expansion-125-decisive-alternate-decision-DRAFT.md` for the final, closed alternate-search outcome (Rabban Bar Sauma: NO_PROVEN_REPLACEMENT); this candidate remains a working placeholder, not adequately evidenced.]"
   },
   "holdReason": "Session-11 blind scoring-integrity re-audit (docs/roster-1000-checkpoint.md SS76): the confidence-tier reclassification that originally admitted this candidate under eligibility_v2 was found, on eligibility-blind manual re-review against scoring-rubric-v1 SS2/SS3, to include rows that did not meet the objective multi-instance-convergence standard for strong_inference (single-fact templated inferences reclassified upward primarily to clear the eligibility threshold). Those specific rows were reverted to inference/0.42. No score value was changed. Re-promotable in a future session only via genuinely new evidence, a rubric-consistent correction meeting the SS76 multi-instance standard, or explicit human review -- not by re-tuning confidence to cross the threshold again."
 }

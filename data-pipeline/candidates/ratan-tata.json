@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ratan-tata",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.441, coverage=0.531, eligible=false. Major strategic decisions are well documented via press/legal record, but day-to-day operational and interpersonal conduct rests mostly at inference tier. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Ratan Tata",
+    "aliases": ["Ratan Naval Tata"],
+    "wikidataId": "Q333460",
+    "birthYear": 1937,
+    "deathYear": 2024,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["executive", "entrepreneur"],
+    "fieldIds": ["business"],
+    "impactDomains": ["entrepreneurial", "industrial", "historical"],
+    "tagIds": ["leader", "product_leader"],
+    "archetypeIds": ["entrepreneurial_builder", "organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_tata_wikipedia", "kind": "wikipedia", "title": "Ratan Tata", "url": "https://en.wikipedia.org/wiki/Ratan_Tata" },
+    { "id": "src_tata_press_acquisitions", "kind": "press", "title": "International press coverage of the Corus Steel (2007) and Jaguar Land Rover (2008) acquisitions and the Tata Nano project" },
+    { "id": "src_tata_press_mistry", "kind": "press", "title": "Press and legal-record coverage of the October 2016 removal of Cyrus Mistry as Tata Sons chairman and the subsequent multi-year public dispute" },
+    { "id": "src_tata_press_mumbai2008", "kind": "press", "title": "Contemporary press coverage of the November 2008 Mumbai terror attacks on the Taj Mahal Palace Hotel and Tata's documented personal role in the response" }
+  ],
+  "rows": {
+    "decisiveness": { "score": 82, "confidence": 0.58, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Personally led the abrupt October 2016 removal of Cyrus Mistry as chairman of Tata Sons, a specific, documented, controversial corporate governance action that triggered a prolonged public legal battle; separately, personally directed the company's crisis response to the November 2008 Mumbai terror attacks on the Taj Mahal Palace Hotel, including its subsequent rebuilding. Marked dual_edged: decisive action in both cases, with the Mistry removal specifically remaining publicly contested." },
+    "risk_tolerance": { "score": 78, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Personally directed the large, internationally scrutinized acquisitions of Corus Steel (2007) and Jaguar Land Rover (2008), both significantly larger than Tata's existing operations at the time, and championed the ambitious, ultimately commercially unsuccessful Tata Nano 'world's cheapest car' project aimed at affordable mobility -- documented, high-stakes decisions with mixed outcomes, not selectively reported successes only." },
+    "impact_motivation": { "score": 75, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Directed the Tata Nano project specifically toward affordable transportation access for lower-income families rather than only commercial return, and personally directed continued philanthropic control of the group via the Tata Trusts, documented via the stated aims and structure of both initiatives." },
+    "discipline": { "score": 65, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented to have begun his career working manual-labor floor rotations at Tata Steel and Tata Motors before advancing through the company's ranks, rather than entering directly into senior management, documented via the well-established biographical record of his early career." },
+    "persistence": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued pursuing the Tata Nano project through years of engineering and manufacturing setbacks (including a documented factory-relocation crisis in West Bengal) despite its ultimately limited commercial success, rather than abandoning it early." },
+    "conflict_tolerance": { "score": 72, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Sustained the prolonged, high-profile public and legal conflict with Cyrus Mistry following the 2016 boardroom removal, documented via the extensive press and legal record of this multi-year dispute." },
+    "proactive_agency": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Personally initiated the Tata Nano project and the Corus/Jaguar Land Rover acquisitions as his own strategic direction for the group, documented via the well-established account of his personal role in originating these initiatives." },
+    "social_assertiveness": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented to have personally attended funerals and directly supported the families of Tata employees killed in the 2008 Mumbai terror attacks, a specific, direct personal act distinct from a purely corporate/institutional response." },
+    "achievement_drive": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Continued directing an expanding, increasingly international scope of Tata Group activity across his roughly two-decade tenure as chairman (1991-2012), documented via the sustained scope of his strategic initiatives." },
+    "leadership_drive": { "score": 74, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Led the Tata Group as chairman for over two decades and retained substantial influence as Chairman Emeritus afterward, including in the 2016 leadership crisis, documented via the well-established corporate-governance history of the group during and after his tenure." },
+    "resourcefulness": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Directed the Tata Nano's engineering toward an unusually low price target under significant material and manufacturing constraints, inferred as requiring real resourcefulness from the documented cost target of the project." },
+    "autonomy_need": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Maintained direct personal control over Tata Group's strategic direction throughout his tenure and after, including during the 2016 conflict, suggesting real preference for retaining direct influence rather than full delegation." },
+    "planning_orientation": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "The large-scale, multi-year international acquisitions (Corus, Jaguar Land Rover) required sustained advance strategic and financial planning, inferred from the documented scale and complexity of these transactions." },
+    "adaptability": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Shifted Tata Group's strategy across his tenure from a primarily domestic Indian conglomerate toward a genuinely multinational one via major international acquisitions, documented via the well-established corporate history of this expansion." },
+    "collaboration": { "score": 52, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained working relationships with a rotating set of senior Tata Group executives across a two-decade tenure, a moderate signal given the also well-documented, more unilateral nature of the 2016 leadership decision." },
+    "persuasiveness": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Credited with sustaining investor and public confidence through several large, initially controversial acquisitions and the Nano project's setbacks, inferred from the documented continuity of Tata Group's market position across this period." },
+    "mastery_orientation": { "score": 55, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued directing group strategy across multiple industries and geographies over decades rather than remaining within a single early area of expertise, inferred from the documented breadth of his strategic direction." },
+    "detail_orientation": { "score": 52, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Limited direct evidence of personal day-to-day operational involvement beyond strategic-level decisions was identified in the sources reviewed this pass; scored conservatively." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q333460, matches name/dates). Deliberately included the 2016 Mistry removal as a documented, contested episode (decisiveness and conflict_tolerance both marked dual_edged) rather than only the more flattering acquisition/philanthropy narrative -- the Tata Nano's ultimately limited commercial success is also named directly rather than presented as an unqualified triumph. inclusion_v1: clearly passes -- no inherited position; every achievement is his own within the family firm."
+  }
+}

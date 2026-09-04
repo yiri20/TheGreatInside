@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kartini",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.477, coverage=0.540, eligible=false. Confirms this evidence pack's own honest assessment -- a short (25-year) life with a correspondence-heavy record genuinely supports fewer confidently-scoreable attributes than a longer-lived or more institutionally-documented figure, even with the Cote unexpurgated archive used as the anchor source and real behavioral episodes (the scholarship transfer, the negotiated marriage terms, the school) prioritized over repeated statements of belief. Held, not rejected -- a future pass with direct access to more of the Cote archive's specific dated letters (rather than secondary discussion of it) could plausibly add coverage without inventing anything.",
+  "identity": {
+    "canonicalName": "Raden Ajeng Kartini",
+    "aliases": ["Kartini", "R.A. Kartini"],
+    "wikidataId": "Q1373764",
+    "birthYear": 1879,
+    "deathYear": 1904,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["ID"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["writer", "activist"],
+    "fieldIds": ["education", "civil_rights"],
+    "impactDomains": ["social", "historical", "cultural"],
+    "tagIds": ["founder", "advocate", "overcame_adversity"],
+    "archetypeIds": ["social_influencer"]
+  },
+  "sources": [
+    { "id": "src_kartini_wikipedia", "kind": "wikipedia", "title": "Raden Ajeng Kartini", "url": "https://en.wikipedia.org/wiki/Kartini" },
+    { "id": "src_kartini_cote_complete_writings", "kind": "archive", "title": "Joost Coté (ed./trans.), Kartini: The Complete Writings 1898-1904 (Monash University Publishing, 2014) -- the first complete, unexpurgated edition, drawn directly from the archive donated to KITLV in the late 1980s; explicitly distinguished here from the older Abendanon-edited selection below, since it restores material (including her own family's polygamous household) that the earlier edition omitted" },
+    { "id": "src_kartini_abendanon_1911", "kind": "archive", "title": "J.H. Abendanon (ed.), Door Duisternis tot Licht (1911) / trans. Agnes L. Symmers, Letters of a Javanese Princess -- the original posthumous publication, an editorial selection (the English edition is roughly two-thirds of the original); used here only where independently corroborated by Cote's complete edition or an institutional record, given its documented selection effects" },
+    { "id": "src_kartini_scholarship_record", "kind": "institution", "title": "Historical/institutional accounts of the 1902-1903 Dutch government teacher-training scholarship proceedings (States General) awarded to Kartini and her declination/attempted transfer to Agus Salim" },
+    { "id": "src_kartini_marriage_school", "kind": "institution", "title": "Biographical/historical accounts (Britannica; Encyclopedia.com) of the November 1903 marriage negotiation with Raden Mas Ario Djojo Adiningrat, Regent of Rembang, and her subsequent operation of a girls' school at the Rembang regency" }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "When forced to relinquish her own 1903 Dutch government teacher-training scholarship (awarded via the States General, 4,800 guilders) due to her marriage, she specifically attempted to have it transferred to fellow student Agus Salim rather than let it lapse -- a documented, costly, other-directed act, not merely a stated ideal in correspondence."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained and specific written opposition to polygamy and secluded womanhood -- practices normal within her own aristocratic Javanese milieu and, per the unexpurgated Cote edition, within her own father's household -- documented across her correspondence. Scored as one consistent documented position, not inflated by the number of pen-friends who received it."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented resistance to the pingitan (seclusion) expected of aristocratic Javanese girls after age 12, and later (1903) negotiating specific independent conditions -- continuing her school -- as part of her arranged marriage: two temporally distinct instances of asserting self-directed terms within family/social constraint."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally opened and ran a school for local girls at the Rembang regency (ten students, four days a week) rather than only writing about the aspiration -- a specific, self-initiated action distinct in kind from her correspondence."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Responded to a marriage she had actively opposed in her own writing (to a much older widower regent with existing wives and children) by negotiating a compromise rather than open refusal or unconditional compliance. Marked dual_edged: the same compromise directly contradicted her own stated anti-polygamy position -- a real, preserved tension, not a clean adaptive success."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Negotiated specific, named conditions (continued schooling, permission to run her own school) as an explicit part of the 1903 marriage agreement rather than accepting its terms as given -- documented forethought applied to a constrained circumstance."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a multi-year (1899-1904) correspondence practice with roughly ten distinct pen-friends alongside actually operating her school, documented via the surviving volume and continuity of her correspondence archive."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued self-directed reading of Dutch newspapers, journals, and books obtained through her father and Dutch correspondents after her formal schooling ended at age 12 and she entered secluded family life, documented via her own letters describing this reading."
+    },
+    "resourcefulness": {
+      "score": 65,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The same self-directed-education-under-seclusion pattern -- continuing to access ideas and formal Dutch-language material through her father's and correspondents' cooperation despite formal schooling having ended -- a specific documented instance of working around a real institutional constraint."
+    },
+    "opportunity_sensing": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Treated an arranged marriage she did not choose as a venue to secure concessions for her educational goals rather than only as an ending point, documented via the specific negotiated terms of that marriage."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of women's-education reform across correspondence, negotiation, and direct school-founding despite compounding family and colonial-social constraints over her short adult life (1898-1904)."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Personally founded and operated a school for native girls at the Rembang regency -- a specific, if modest-scale, institutional leadership act rather than only an aspiration expressed in correspondence."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Successfully secured concrete concessions (continued schooling) from her prospective husband and family as part of marriage negotiations, inferred as requiring real persuasive capacity from the documented negotiated outcome."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained substantive correspondence relationships with roughly ten distinct pen-friends (chiefly Dutch women, including Rosa Abendanon and Stella Zeehandelaar) over several years, suggesting real capacity for sustained collaborative intellectual relationships across a cultural divide."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued circulating explicit criticism of practices central to her own aristocratic milieu (polygamy, forced seclusion) despite the real social cost this risked within her own family and community, inferred from the documented content and circulation of her letters."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained publicly unconventional positions on polygamy and women's seclusion despite these directly implicating practices within her own family and social class, suggesting some real willingness to hold a position at odds with her immediate community; no specific direct interpersonal confrontation is documented in the sources reviewed this pass."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Directly corresponded with and petitioned Dutch colonial officials and the Netherlands government regarding scholarship and educational opportunities for herself and other Indonesian women, documented via the institutional scholarship record and her correspondence with Dutch officials."
+    },
+    "creative_originality": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her correspondence and essays are credited by modern Indonesian literary and political historiography as an early, original articulation of native-Indonesian feminist and proto-nationalist thought, inferred from the documented scholarly regard for her writing's historical originality."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track D fresh evidence pack + first scoring (2026-09-03). identity.regionCode is a deliberate placeholder: the controlled 11-region vocabulary has no southeast_asia entry (flagged in an earlier audit as a needed 2-line i18n addition); south_asia is used here only because it is the same placeholder already used for Aung San Suu Kyi (Myanmar) elsewhere in this pipeline, for internal consistency pending that fix -- re-tag once region.southeast_asia exists. Deliberately scored fewer attributes at capped confidence given her short life (25 years) and correspondence-heavy record, matching this project's existing thin-evidence discipline (scoring-rubric-v1.md SS8) extended to a short-life/correspondence-heavy case rather than forcing all 34. Explicitly did NOT treat her repeated anti-polygamy/anti-seclusion statements to ~10 different pen-friends as multiple independent behavioral instances -- scored as one consistent documented position. Explicitly used Cote's 2014 unexpurgated Complete Writings as the anchor source rather than the 1911 Abendanon-edited selection, since the earlier edition is independently documented to have omitted material (her own family's polygamy) -- exactly the selection-effect risk this evidence pack was built to test for. inclusion_v1: passes -- no inherited position; her advocacy, negotiated marriage terms, and school were her own initiative, constrained by but not granted by her family's status."
+  }
+}

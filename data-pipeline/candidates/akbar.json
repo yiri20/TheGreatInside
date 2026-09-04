@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "akbar",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.478, coverage=0.543, eligible=false. Despite genuine multi-source triangulation (Akbarnama, Badauni, Monserrate) on several rows, most of the surviving record is still state/religious-policy behavior rather than ordinary personal conduct, and several rows honestly rest on a single source-family (the Akbarnama-derived Adham Khan episode) or on inference from institutional design rather than direct testimony. Held, not rejected -- a future pass mining Badauni and Monserrate's full texts directly (rather than secondary scholarly discussion of them) could plausibly add coverage.",
+  "identity": {
+    "canonicalName": "Akbar",
+    "aliases": ["Akbar the Great", "Jalal-ud-Din Muhammad Akbar"],
+    "wikidataId": "Q8597",
+    "birthYear": 1542,
+    "deathYear": 1605,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "south_asia",
+    "historicalPolityKey": "polity.mughal_empire"
+  },
+  "classification": {
+    "occupationIds": ["political_leader", "military_leader"],
+    "fieldIds": ["politics", "military"],
+    "impactDomains": ["historical", "social", "cultural"],
+    "tagIds": ["leader", "administrator", "innovator"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_akbar_wikipedia", "kind": "wikipedia", "title": "Akbar", "url": "https://en.wikipedia.org/wiki/Akbar" },
+    { "id": "src_akbar_akbarnama", "kind": "archive", "title": "Abul Fazl, Akbarnama -- the official court chronicle, commissioned by and glorifying Akbar; used here only with an explicit panegyric-bias caveat, never as neutral observation" },
+    { "id": "src_akbar_badauni", "kind": "archive", "title": "Abd al-Qadir Badauni, Muntakhab-ut-Tawarikh -- an independent contemporary chronicle by Akbar's own appointed court Imam, written secretly and not published in Akbar's lifetime, explicitly critical of his religious policy; used as a corrective counter-source to the Akbarnama, not as neutral observation either" },
+    { "id": "src_akbar_monserrate", "kind": "archive", "title": "Antonio Monserrate, Commentary on his journey to the court of Akbar -- an external Jesuit eyewitness account of two years (1580-1582) resident at Akbar's court, independent of both the Mughal court chronicle tradition and Badauni's Islamic-orthodox critique; carries its own theological/cultural incentive (favorable framing of Akbar's openness to Christianity), also not treated as neutral" }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 92,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Convened the Ibadat Khana ('House of Worship') from 1575 for late-night interfaith debate among Muslim, Christian, Hindu, Jain, and Zoroastrian scholars, and is independently documented via the external eyewitness Monserrate to have personally practiced rites from multiple traditions himself (praying in the Christian manner, performing Zoroastrian fire veneration) rather than only listening. This is convergent, cross-incentive evidence: Badauni (hostile) and Monserrate (favorable) disagree sharply on whether this was admirable or heretical, but agree on the underlying behavior -- exactly the kind of triangulation this rubric treats as strong evidence."
+    },
+    "independent_thinking": {
+      "score": 86,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Pursued a syncretic religious/philosophical program (formalized as Din-i-Ilahi) that broke explicitly with orthodox Sunni religious authority, independently corroborated by Badauni's hostile contemporary account -- Badauni, himself an appointed court Imam, privately condemned this in a chronicle he dared not publish during Akbar's lifetime, not merely a claim from the sympathetic Akbarnama. Marked dual_edged: the same conduct that shows independent judgment provoked genuine, documented religious backlash from his own court clergy."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly hosted Ibadat Khana debates independently documented (not only via the Akbarnama) to have 'turned into heated fights' among religious factions, and sustained his syncretic program for roughly two decades despite the sustained hostility of orthodox clergy including his own appointed Imam -- inferred as requiring real tolerance for ongoing ideological conflict close to his own court."
+    },
+    "leadership_drive": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Consolidated and administered the Mughal Empire across a 49-year reign, including creating the Mansabdari ranked-service administrative system -- extensively documented across all three source traditions (Akbarnama, Badauni, Monserrate) despite their differing agendas, all agreeing on the scale of his direct personal rule."
+    },
+    "decisiveness": {
+      "score": 82,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Upon learning his foster-brother Adham Khan had murdered his minister Ataga Khan in 1562, personally ordered Adham Khan thrown from the fort ramparts, and had him thrown a second time after he survived the first fall -- a specific, immediate, extreme response. Kept at strong_inference rather than documented and marked dual_edged: the primary source for this episode is the Akbarnama/court-chronicle tradition itself (including its own commissioned illustrations), so it is not independent of the same panegyric-prone source family this file otherwise triangulates around."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Personally practiced rites of minority/foreign religious traditions (Zoroastrian fire ritual, Christian prayer) in a Muslim empire where orthodox clergy already viewed such conduct as apostasy -- a real, documented reputational and political risk, independently attested by Badauni's hostile account of the same underlying behavior Monserrate reports favorably."
+    },
+    "social_assertiveness": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Directly and personally engaged foreign Jesuit missionaries in extended religious conversation and debate over a two-year visit (1580-1582), documented via Monserrate's own external account of these direct exchanges."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Shifted his religious and administrative policy substantially over a multi-decade reign, from an early orthodox-adjacent posture to the syncretic Din-i-Ilahi program and a centralized administrative system, documented via the convergence of the Akbarnama's own chronology and Badauni's independent, critical account of the same shift."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued a religious/administrative program that his own appointed religious officials, including Badauni, actively opposed, documented via Badauni's independent account of sustained, unresolved disagreement with the emperor's chosen course."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained the Ibadat Khana as an ongoing institution over years despite documented internal conflict among participants, inferred as requiring some real capacity to keep disparate, mutually hostile factions engaged rather than the format collapsing."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Personally initiated the Ibadat Khana debates and invited the 1580 Jesuit mission to his court rather than these arrangements being externally imposed, documented via Monserrate's own account of being invited."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued expanding and formalizing his administrative and religious program (the Mansabdari system, Din-i-Ilahi) well beyond the point of basic imperial consolidation, evidencing sustained ambition beyond initial military conquest."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained the Ibadat Khana as a regular, recurring late-night institution over multiple years, suggesting real sustained personal engagement rather than a single episode."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Convened and personally participated in multi-faction interfaith dialogue over years, suggesting some real capacity to operate within a genuinely plural, disputatious intellectual environment rather than only issuing directives."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Mansabdari system's structured, ranked administrative design evidences real advance institutional planning, inferred from the documented structure of the system itself."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued deepening his personal engagement with an increasing range of religious and philosophical traditions over decades rather than settling on an early position, inferred from the documented chronological development of his religious program."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Ibadat Khana and Din-i-Ilahi programs were explicitly aimed at broader imperial religious reconciliation (sulh-i-kul, 'universal peace') rather than personal doctrinal conviction alone, documented via the stated aims of the institutions themselves."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained the syncretic religious program for roughly two decades despite ongoing, documented clerical opposition (Badauni), rather than abandoning it under pressure."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track D fresh evidence pack + first scoring (2026-09-03). This file specifically corrects an error flagged in an earlier audit turn: the claim that no independent, non-court contemporary source existed for Akbar was wrong, and this file was built by actually triangulating three sources with different incentives (the panegyric Akbarnama, the hostile secret chronicle of Badauni -- Akbar's own court Imam -- and the external Jesuit eyewitness Monserrate) rather than listing them without use. Where sources agree only on the underlying behavior and disagree on its moral valence (the interfaith-practice pattern), that convergence is treated as the strongest evidence in this file and flagged explicitly in the rationale. Where a dramatic episode (Adham Khan's execution) traces only to the court-chronicle tradition, it is kept at strong_inference and marked dual_edged rather than documented, specifically to avoid crediting court panegyric as neutral observation. inclusion_v1: Akbar inherited the throne (age 13, following his father Humayun) -- an 'Earned but Advantaged' case like several already in the roster (e.g. Wu Zetian, Atatürk), not excluded on that basis, since the administrative/religious program scored here was his own subsequent, independently notable achievement, not the inherited title itself."
+  }
+}

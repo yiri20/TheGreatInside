@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bob-marley",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.468, coverage=0.549, eligible=false. Public career and specific dated episodes (the 1976 shooting, the 1978 concert) are well documented, but ordinary working-method/interpersonal detail (e.g. detail_orientation) is genuinely thin in the sources reviewed this pass. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Bob Marley",
+    "aliases": ["Robert Nesta Marley"],
+    "wikidataId": "Q409",
+    "birthYear": 1945,
+    "deathYear": 1981,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["JM"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["musician", "composer"],
+    "fieldIds": ["music"],
+    "impactDomains": ["artistic", "cultural", "social", "historical"],
+    "tagIds": ["innovator", "overcame_adversity"],
+    "archetypeIds": ["creative_creator", "social_influencer"]
+  },
+  "sources": [
+    { "id": "src_marley_wikipedia", "kind": "wikipedia", "title": "Bob Marley", "url": "https://en.wikipedia.org/wiki/Bob_Marley" },
+    { "id": "src_marley_white", "kind": "biography", "title": "Timothy White, Catch a Fire: The Life of Bob Marley (1983, rev. ed.) -- the standard biography" },
+    { "id": "src_marley_press", "kind": "press", "title": "Contemporary press coverage of the December 1976 assassination attempt and the April 1978 One Love Peace Concert" }
+  ],
+  "rows": {
+    "risk_tolerance": { "score": 88, "confidence": 0.62, "evidenceType": "documented", "impact": "risk", "rationale": "Continued performing at the December 1976 'Smile Jamaica' peace concert two days after surviving an assassination attempt at his home that wounded him, his wife, and his manager -- a specific, extensively documented act of continuing under direct, recently-realized physical danger." },
+    "persistence": { "score": 85, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Continued touring and recording at a demanding pace through 1980 despite a 1977 melanoma diagnosis, documented via the continuity of his performance and recording schedule across this period." },
+    "impact_motivation": { "score": 82, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "At the April 1978 One Love Peace Concert, brought rival Jamaican political leaders Michael Manley and Edward Seaga on stage and joined their hands above his head while performing -- a specific, documented, deliberate act of using his platform for political reconciliation rather than only entertainment." },
+    "autonomy_need": { "score": 70, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Initially declined recommended amputation of a cancerous toe in 1977 for reasons documented as tied to his religious beliefs, continuing to perform and tour on his own terms until the cancer had spread significantly. Marked dual_edged: a documented instance of personal/religious autonomy asserted against medical advice, with a severe eventual health cost." },
+    "creative_originality": { "score": 85, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Credited with a substantial, sustained original songwriting catalogue (Catch a Fire, Natty Dread, Exodus, and others) within roughly a decade of major-label output, documented via the sustained critical and commercial reception of this body of work." },
+    "discipline": { "score": 70, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained a demanding songwriting, recording, and touring schedule across the final decade of his life, including while managing his illness, documented via the continuity and volume of his output in this period." },
+    "conflict_tolerance": { "score": 65, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Continued public political commentary and peace-oriented activism in a documented climate of real Jamaican political violence, including the direct attempt on his own life, rather than withdrawing from public political engagement afterward." },
+    "persuasiveness": { "score": 78, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Credited with substantially building global mainstream audience acceptance of reggae as a genre from a Jamaican regional style, documented via the sustained international commercial and critical reception of his catalogue." },
+    "social_assertiveness": { "score": 72, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Directly and publicly orchestrated the reconciliatory handshake moment between Manley and Seaga on stage at the 1978 concert, a specific documented act of direct social intervention rather than passive performance." },
+    "proactive_agency": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Documented to have specifically agreed to perform the 'Smile Jamaica' concert as a deliberate act to ease political violence, a self-initiated act of using his own concert platform for a stated peace purpose." },
+    "adaptability": { "score": 60, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Adapted his musical style and international touring strategy over his career to build a genuinely global (not only Jamaican or diaspora) audience, inferred from the documented breadth of his international commercial reach." },
+    "independent_thinking": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained public commitment to Rastafari beliefs and associated lifestyle practices throughout his career despite these being a minority, sometimes stigmatized position even within Jamaica at the time, documented via the well-established record of his public religious identity." },
+    "achievement_drive": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained an ambitious, expanding international touring and recording program across a relatively short career (roughly 1973-1980 as a major-label artist), inferred from the documented pace and scope of his output." },
+    "collaboration": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained a long-running core creative partnership with his backing band, The Wailers, across most of his recording career, documented via the credited continuity of this collaboration." },
+    "curiosity": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Incorporated a range of musical influences (ska, rocksteady, American soul and R&B) into his developing reggae style, inferred from the documented stylistic evolution of his catalogue." },
+    "leadership_drive": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Served as the primary bandleader and creative director of The Wailers across most of his career, documented via the credited structure of the group." },
+    "detail_orientation": { "score": 52, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Limited direct evidence of personal working method beyond his general songwriting/recording output was identified in the sources reviewed this pass; scored conservatively rather than inflated." },
+    "mastery_orientation": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued developing his songwriting and vocal style across his catalogue's decade-long arc rather than repeating an early formula, inferred from the documented stylistic development of his work." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q409, matches name/dates/role). Deliberately marked autonomy_need dual_edged for the toe-amputation decision rather than omitting a real, documented, medically-costly choice or presenting it as purely admirable. regionCode uses latin_america for Jamaica/Caribbean per this project's existing regional-bucket convention. inclusion_v1: clearly passes -- no inherited position."
+  }
+}

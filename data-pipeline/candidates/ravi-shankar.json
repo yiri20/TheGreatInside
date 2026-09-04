@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ravi-shankar",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.460, coverage=0.542, eligible=false. Career achievement is exceptionally well documented, but personal-behavioral texture beyond the Monterey/Bangladesh episodes rests mostly at inference tier. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Ravi Shankar",
+    "aliases": ["Robindro Shaunkor Chowdhury", "Pandit Ravi Shankar"],
+    "wikidataId": "Q103774",
+    "birthYear": 1920,
+    "deathYear": 2012,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["musician", "composer"],
+    "fieldIds": ["music"],
+    "impactDomains": ["artistic", "cultural", "historical"],
+    "tagIds": ["innovator", "prolific"],
+    "archetypeIds": ["creative_creator"]
+  },
+  "sources": [
+    { "id": "src_shankar_wikipedia", "kind": "wikipedia", "title": "Ravi Shankar", "url": "https://en.wikipedia.org/wiki/Ravi_Shankar" },
+    { "id": "src_shankar_autobiography", "kind": "archive", "title": "Ravi Shankar, Raga Mala: The Autobiography of Ravi Shankar (1997, ed. George Harrison) and My Music, My Life (1968) -- his own memoirs" },
+    { "id": "src_shankar_press", "kind": "press", "title": "Contemporary press/historical accounts of the 1967 Monterey Pop Festival and the 1971 Concert for Bangladesh" }
+  ],
+  "rows": {
+    "discipline": { "score": 90, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "At age 18 abandoned his established career as a touring dancer in his brother Uday Shankar's internationally successful dance company to undertake a documented seven-year traditional guru-shishya apprenticeship under Allauddin Khan, living an ascetic, isolated student life focused solely on sitar technique -- a specific, dated, well-corroborated career pivot and sustained discipline." },
+    "mastery_orientation": { "score": 88, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained active concert performance and technical development across roughly 70 years (1930s-2012), documented via the continuous record of his performing career from childhood dance touring through his final recorded concerts in his 90s." },
+    "proactive_agency": { "score": 82, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Personally proposed and organized the 1971 Concert for Bangladesh with George Harrison in direct response to the Bangladesh Liberation War refugee crisis, a specific, self-initiated humanitarian act documented via both his own and Harrison's accounts of the concert's origin." },
+    "cross_domain_range": { "score": 75, "confidence": 0.52, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained substantive activity as a concert soloist, film composer (scoring Satyajit Ray's Apu Trilogy), and cross-cultural music educator across his career, documented via the range of his credited work." },
+    "persuasiveness": { "score": 72, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Is widely credited with building sustained Western audience interest in Indian classical music from the 1960s onward, including his documented influence on George Harrison and the Beatles, inferred as requiring real persuasive/communicative capacity from this sustained cross-cultural impact." },
+    "social_assertiveness": { "score": 60, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "[CORRECTED on provenance review, this session] Earlier drafting misattributed this to Monterey Pop (1967); verified this session that the documented anecdote is from the 1971 Concert for Bangladesh, where he and Ustad Ali Akbar Khan were applauded for tuning their instruments, and Shankar responded directly to the crowd: 'If you like our tuning so much, I hope you will enjoy the playing more' -- a specific, quoted instance of direct public communication under an awkward cross-cultural circumstance; kept moderate per this rubric's single-anecdote ceiling." },
+    "achievement_drive": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Continued expanding into new domains (Western orchestral composition, film scoring, cross-genre collaboration) throughout a career already secure in classical concert success, evidencing sustained ambition beyond an established niche." },
+    "adaptability": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Performed and composed across radically different musical contexts over his career -- traditional Indian classical concert settings, Western rock festivals (Monterey, Woodstock), film scoring, and orchestral collaboration -- documented via the range of his credited performances and compositions." },
+    "curiosity": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained cross-genre musical exploration and collaboration across six decades, inferred from the documented breadth of his creative output beyond classical concert performance alone." },
+    "impact_motivation": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Organized the Concert for Bangladesh specifically to direct humanitarian aid toward refugees of the Bangladesh Liberation War rather than for personal career benefit, documented via the concert's own stated charitable purpose and proceeds." },
+    "persistence": { "score": 70, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained the demanding seven-year apprenticeship under Allauddin Khan to full completion despite its documented rigor and isolation, and continued performing at a high technical level into his 90s." },
+    "autonomy_need": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Left an already-successful career in his brother's dance company to pursue an entirely different, initially uncertain musical training path, suggesting real self-directed career independence." },
+    "detail_orientation": { "score": 62, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Indian classical sitar performance at his documented level of mastery requires exceptionally precise technical control, inferred from the well-established technical demands of his instrument and tradition rather than occupational stereotype alone -- scored conservatively given the risk of that exact anti-pattern." },
+    "collaboration": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained substantive collaborative relationships across genre and culture (George Harrison, Yehudi Menuhin, Philip Glass), documented via the credited output of these collaborations." },
+    "leadership_drive": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Founded music schools (the Kinnara School of Music) to formally teach Indian classical music, suggesting some real institutional leadership beyond individual performance, documented via the schools' own founding record." },
+    "planning_orientation": { "score": 55, "confidence": 0.38, "evidenceType": "inference", "impact": "neutral", "rationale": "Organizing a large benefit concert (Concert for Bangladesh) on short notice with a defined charitable structure suggests real organizational planning capacity." },
+    "risk_tolerance": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Introduced traditional Indian classical forms to skeptical or unfamiliar Western concert and festival audiences repeatedly across his career, a real if modest documented reputational risk." },
+    "creative_originality": { "score": 72, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Is credited with original cross-genre compositional work (film scores, orchestral concertos for sitar, collaborations spanning multiple traditions) beyond traditional classical repertoire alone, documented via the range of his credited original compositions." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q103774, matches name/dates/role -- distinguished from any other person of the same name). Deliberately capped the Monterey Pop tuning-episode row at a moderate score per this rubric's single-anecdote ceiling rather than treating a single vivid story as extreme evidence. inclusion_v1: clearly passes -- no inherited position."
+  }
+}

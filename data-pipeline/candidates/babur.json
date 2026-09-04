@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "babur",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.473, coverage=0.536, eligible=false. The Baburnama's candor supports several strong rows, but much of the coverage still rests at inference tier once fame/achievement is not treated as automatic evidence. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Babur",
+    "aliases": ["Zahir-ud-Din Muhammad Babur"],
+    "wikidataId": "Q797848",
+    "birthYear": 1483,
+    "deathYear": 1530,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "central_asia",
+    "historicalPolityKey": "polity.mughal_empire"
+  },
+  "classification": {
+    "occupationIds": ["political_leader", "military_leader", "writer"],
+    "fieldIds": ["politics", "military", "literature"],
+    "impactDomains": ["historical", "social", "literary"],
+    "tagIds": ["founder", "leader"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_babur_wikipedia", "kind": "wikipedia", "title": "Babur", "url": "https://en.wikipedia.org/wiki/Babur" },
+    { "id": "src_babur_baburnama", "kind": "archive", "title": "The Baburnama -- his own autobiography/memoir" }
+  ],
+  "rows": {
+    "persistence": { "score": 90, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "His own memoir documents that he lost and recaptured Samarkand multiple times as a young prince (twice losing it entirely) and spent years as a dispossessed, wandering commander before eventually conquering northern India in 1526 -- a specific, self-narrated pattern of repeated failure followed by renewed attempts, not a single success narrative." },
+    "creative_originality": { "score": 78, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Baburnama is widely regarded by literary historians as an unusually candid and psychologically direct autobiography for a pre-modern ruler, documented via its own distinctive first-person voice and its sustained scholarly regard as an innovation in the memoir genre." },
+    "adaptability": { "score": 82, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Adopted gunpowder artillery and novel field tactics (a wagon-fort/tulughma formation) at the First Battle of Panipat (1526) against a numerically superior opponent, and shifted his entire political base from Central Asia to India after his prior territorial base proved unrecoverable, documented via his own account and the well-established military-historical record of the battle." },
+    "risk_tolerance": { "score": 80, "confidence": 0.55, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Committed to the decisive 1527 Battle of Khanwa against Rana Sanga's larger Rajput confederacy despite his own troops' documented anxiety about the odds, and is recorded in his own memoir to have publicly renounced wine before the battle as a symbolic act of total commitment." },
+    "curiosity": { "score": 75, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The Baburnama contains extensive, detailed firsthand natural-historical observation of the flora, fauna, and geography of every region he traveled through, documented via the text's own well-noted descriptive density." },
+    "discipline": { "score": 62, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "His own memoir documents both a sustained early-life pattern of heavy drinking and a specific, decisive act of renunciation (giving up wine before Khanwa, 1527) -- a genuine documented behavioral change, not a uniform pattern in either direction, preserved here as dual_edged rather than smoothed into either 'self-indulgent' or 'disciplined.'" },
+    "autonomy_need": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Repeatedly refused to accept permanent subordinate status under rival Central Asian rulers after his early territorial losses, instead continuing independent campaigns over more than two decades before establishing his own empire in India, documented via his own memoir's account of this period." },
+    "achievement_drive": { "score": 74, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued active campaigning and empire-consolidation in India for the remaining four years of his life after Panipat rather than resting on that single victory, documented via the continuity of his campaigns recorded in his own memoir." },
+    "leadership_drive": { "score": 78, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained personal command of his own forces across four decades of campaigning from adolescence (he first became a ruling prince at age 12) to his death, documented via the continuous military-political record of his life." },
+    "decisiveness": { "score": 72, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Committed to engaging both Ibrahim Lodi at Panipat and Rana Sanga at Khanwa at specific chosen moments despite being outnumbered in both cases, documented via the well-established military-historical record." },
+    "planning_orientation": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "The specific tactical innovations deployed at Panipat (wagon-fort defensive works combined with artillery and cavalry envelopment) evidence real advance battlefield planning, documented via the military-historical record of the battle." },
+    "social_assertiveness": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained direct personal negotiation and alliance-building with a shifting set of Central Asian and Indian regional rulers across his career, inferred from the documented complexity of these relationships in his own memoir." },
+    "impact_motivation": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "His own memoir frames his campaigns partly in terms of restoring what he saw as his rightful Timurid inheritance, inferred as a specific, stated motivation rather than conquest for its own sake." },
+    "persuasiveness": { "score": 62, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Rebuilt a personal following of soldiers and commanders multiple times after suffering major territorial losses, inferred as requiring real persuasive/loyalty-building capacity from the documented pattern of his repeated recoveries." },
+    "detail_orientation": { "score": 65, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "The Baburnama's precise, specific descriptions of terrain, logistics, and natural detail across his campaigns suggest real habitual close observation, documented via the text's own descriptive method." },
+    "mastery_orientation": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued refining his military tactics across decades of campaigning, from early Central Asian cavalry warfare to the gunpowder-artillery tactics used at Panipat, suggesting real developing technical mastery." },
+    "conflict_tolerance": { "score": 68, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained near-continuous military conflict across four decades against a shifting set of rivals, documented via the continuous campaign record of his life." },
+    "cross_domain_range": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented substantive activity as a military commander, a naturalist observer, and a literary memoirist/poet concurrently, inferred from the range of content in his own surviving writing." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q797848, matches name/dates). historicalPolityKey reuses the same 'polity.mughal_empire' key already used for Akbar (Track D) for internal consistency; i18n text for this key would need authoring before any future promotion, not before qa_passed/held. Deliberately preserved the documented tension in the wine-renunciation episode as dual_edged rather than smoothing it into a single clean discipline narrative. inclusion_v1: Babur did not inherit a stable throne -- he inherited a small, contested Ferghana principality at 12 and lost it entirely more than once before building his own empire through his own campaigns; treated as an 'Earned but Advantaged' case like other roster monarchs, not excluded."
+  }
+}

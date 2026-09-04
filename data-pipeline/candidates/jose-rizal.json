@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jose-rizal",
+  "status": "held",
+  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.505, coverage=0.539, eligible=false. His documented life is unusually well-attested across multiple domains (medicine, literature, science, correspondence) for a 19th-century figure, but much of the coverage genuinely falls at inference tier once fame-based inflation is avoided. Held, not rejected.",
+  "identity": {
+    "canonicalName": "Jose Rizal",
+    "aliases": ["Jose Protasio Rizal Mercado y Alonso Realonda"],
+    "wikidataId": "Q1500",
+    "birthYear": 1861,
+    "deathYear": 1896,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["PH"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["writer", "activist"],
+    "fieldIds": ["literature", "politics"],
+    "impactDomains": ["historical", "cultural", "literary", "social"],
+    "tagIds": ["founder", "polymath", "endured_imprisonment"],
+    "archetypeIds": ["social_influencer", "creative_creator"]
+  },
+  "sources": [
+    { "id": "src_rizal_wikipedia", "kind": "wikipedia", "title": "Jose Rizal", "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Rizal" },
+    { "id": "src_rizal_trial", "kind": "archive", "title": "Court-martial trial record (1896) -- his own defense testimony disputing the charge that his writings incited the Katipunan uprising" },
+    { "id": "src_rizal_correspondence", "kind": "archive", "title": "The Rizal-Blumentritt Correspondence -- his own extensive surviving letters to Austrian ethnologist Ferdinand Blumentritt" },
+    { "id": "src_rizal_novels", "kind": "archive", "title": "Noli Me Tangere (1887) and El Filibusterismo (1891) -- his own novels" },
+    { "id": "src_rizal_coates", "kind": "biography", "title": "Austin Coates, Rizal: Philippine Nationalist and Martyr (1968) -- standard English-language biography" }
+  ],
+  "rows": {
+    "risk_tolerance": { "score": 90, "confidence": 0.68, "evidenceType": "documented", "impact": "risk", "rationale": "Voluntarily returned to the Philippines from the relative safety of Europe in 1892 specifically to found La Liga Filipina despite knowing this invited colonial retaliation, and again returned to Manila in 1896 (agreeing to serve as a volunteer army doctor in Cuba, then diverted and arrested) rather than remaining in exile once already implicated -- two independent documented instances of voluntarily accepting severe personal risk." },
+    "independent_thinking": { "score": 82, "confidence": 0.6, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Publicly and consistently maintained, including in his own trial defense, that he favored gradual reform and specifically opposed the Katipunan's 1896 armed uprising -- a documented position that put him at odds with both the colonial government (which executed him anyway) and the more radical wing of the independence movement. Marked dual_edged: a genuinely held, independent position that satisfied neither side and did not save his life." },
+    "creative_originality": { "score": 88, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Authored Noli Me Tangere (1887) and El Filibusterismo (1891), original works of social-critical fiction banned by colonial authorities for their direct depiction of clerical and administrative abuse, documented via their well-established literary-historical reception and the specific colonial response to them." },
+    "discipline": { "score": 78, "confidence": 0.58, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained formal medical training (ophthalmology) across multiple European universities while simultaneously producing his major literary works and extensive correspondence, and during his 1892-1896 internment in Dapitan continued practicing medicine, teaching, and scientific specimen collection under significant material constraint." },
+    "cross_domain_range": { "score": 85, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented substantive activity as a novelist, practicing ophthalmological surgeon, linguist (competent in over twenty languages per his own correspondence and biographers), and naturalist (several species were later named after specimens he collected and sent to European scientists) -- a genuinely wide and independently corroborated range rather than dabbling." },
+    "social_assertiveness": { "score": 70, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Mounted his own defense at his 1896 trial, directly and publicly disputing the prosecution's characterization of his writings and political aims, documented via the trial record." },
+    "persuasiveness": { "score": 74, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "His two novels are credited with directly shaping Filipino national political consciousness and are documented to have been read and discussed clandestinely despite being banned, inferred as requiring real persuasive/rhetorical capacity from their documented reception and influence." },
+    "collaboration": { "score": 62, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Sustained an extensive, decades-long correspondence and collaborative scholarly relationship with the Austrian ethnologist Ferdinand Blumentritt, exchanging detailed research and personal confidences, documented via the surviving correspondence." },
+    "adaptability": { "score": 63, "confidence": 0.44, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "[NARROWED on provenance review, this session] Continued substantive medical, agricultural, and educational activity during his 1892-1896 forced internment in the remote town of Dapitan -- practicing medicine, farming, fishing, running a small hospital, and teaching pupils -- verified this session via multiple independent historical accounts of this period. The specific water-supply-system claim in an earlier draft was not independently re-confirmed this session and has been removed from this row's basis rather than left uncorroborated." },
+    "persistence": { "score": 72, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Continued producing major literary and scientific work across sustained periods of surveillance, exile, and eventual internment rather than withdrawing from public engagement, documented via the continuity of his output across these periods." },
+    "achievement_drive": { "score": 68, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained simultaneous high-level achievement across medicine, literature, and natural science over a compressed adult life (he died at 35), inferred as requiring strong achievement drive from the documented breadth and level of his output." },
+    "autonomy_need": { "score": 66, "confidence": 0.44, "evidenceType": "inference", "impact": "neutral", "rationale": "Maintained an independent reformist political position distinct from both colonial loyalism and the armed-revolutionary Katipunan faction, documented via his own trial testimony and correspondence." },
+    "detail_orientation": { "score": 64, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "His scientific specimen collection during the Dapitan period was systematic enough that several species were later formally named in his honor, inferred as requiring real methodical attention to natural-historical detail." },
+    "curiosity": { "score": 75, "confidence": 0.48, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Sustained self-directed study across medicine, linguistics, natural science, and fine art (he was also a sculptor and painter) throughout his life, documented via the breadth of his surviving output and correspondence." },
+    "impact_motivation": { "score": 78, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Consistently framed his literary and scientific work, in his own correspondence and trial testimony, around Filipino social reform and dignity rather than personal literary reputation alone." },
+    "planning_orientation": { "score": 55, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Founded La Liga Filipina with a specific organizational charter and structure in 1892, suggesting real advance organizational planning, though the plan was disrupted almost immediately by his arrest." },
+    "conflict_tolerance": { "score": 60, "confidence": 0.42, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained direct public criticism of the Spanish colonial administration and clergy in his published fiction despite the accumulating personal danger this generated over nearly a decade (1887 first novel to 1896 execution), inferred from the documented escalation of official response to his work over that period." },
+    "proactive_agency": { "score": 70, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Personally and voluntarily returned to the Philippines in 1892 to found La Liga Filipina rather than continuing his safer European career, documented via the well-established timeline of his return and its stated purpose." }
+  },
+  "provenance": {
+    "createdAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q1500, matches name/dates). regionCode is the same south_asia placeholder used for Kartini pending the region.southeast_asia i18n addition flagged in an earlier audit. Deliberately preserved the documented tension between his reformist self-presentation and his execution for a revolt he publicly opposed, rather than flattening him into a simple revolutionary-hero narrative (independent_thinking marked dual_edged). inclusion_v1: clearly passes -- no inherited position; every achievement is his own."
+  }
+}
