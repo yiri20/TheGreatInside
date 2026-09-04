@@ -6,7 +6,7 @@ export const PERSON_INDEX_VERSION = "person_index_v1";
 
 /** Compact, client-safe projection of SEED_PEOPLE — see
  *  src/core/people/personIndex.ts for what's included/excluded and why.
- *  95 entries. */
+ *  96 entries. */
 export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
   {
     id: "p_leonardo_da_vinci",
@@ -1893,5 +1893,24 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     overallProfileConfidence: 0.5825,
     attributes: [["analytical_rigor", 62, 0.42, "advantage"], ["independent_thinking", 85, 0.68, "advantage"], ["creative_originality", 92, 0.75, "advantage"], ["experimentation", 75, 0.55, "advantage"], ["cross_domain_range", 68, 0.5, "advantage"], ["aesthetic_sensitivity", 90, 0.7, "advantage"], ["discipline", 82, 0.62, "advantage"], ["deep_focus", 80, 0.58, "advantage"], ["persistence", 88, 0.68, "advantage"], ["adaptability", 80, 0.62, "advantage"], ["risk_tolerance", 82, 0.62, "advantage"], ["decisiveness", 70, 0.5, "advantage"], ["social_assertiveness", 72, 0.52, "advantage"], ["collaboration", 68, 0.55, "advantage"], ["leadership_drive", 75, 0.55, "advantage"], ["persuasiveness", 70, 0.5, "advantage"], ["conflict_tolerance", 82, 0.62, "dual_edged"], ["mastery_orientation", 85, 0.65, "advantage"], ["achievement_drive", 90, 0.7, "advantage"], ["autonomy_need", 78, 0.58, "advantage"], ["impact_motivation", 80, 0.6, "advantage"], ["opportunity_sensing", 65, 0.42, "advantage"], ["resourcefulness", 65, 0.42, "advantage"], ["proactive_agency", 85, 0.65, "advantage"]],
     portraitUrl: "/portraits/oscar-niemeyer-pic-1977.jpg",
+  },
+  {
+    id: "p_miriam_makeba",
+    slug: "miriam-makeba",
+    canonicalName: "Miriam Makeba",
+    aliases: [],
+    birthYear: 1932,
+    deathYear: 2008,
+    isLiving: false,
+    era: "20th_century",
+    regionCode: "sub_saharan_africa",
+    occupationIds: ["singer","political_activist"],
+    fieldIds: ["music"],
+    impactDomains: ["artistic","cultural","social"],
+    tagIds: ["overcame_adversity","advocate","founder"],
+    archetypeIds: ["social_influencer","creative_creator"],
+    isMatchEligible: true,
+    overallProfileConfidence: 0.5485000000000001,
+    attributes: [["risk_tolerance", 84, 0.8, "risk"], ["social_assertiveness", 86, 0.68, "advantage"], ["conflict_tolerance", 78, 0.6, "risk"], ["persuasiveness", 76, 0.58, "advantage"], ["persistence", 82, 0.65, "advantage"], ["proactive_agency", 78, 0.62, "advantage"], ["curiosity", 55, 0.42, "neutral"], ["detail_orientation", 58, 0.44, "neutral"], ["independent_thinking", 78, 0.78, "advantage"], ["deep_focus", 62, 0.46, "advantage"], ["mastery_orientation", 58, 0.44, "advantage"], ["creative_originality", 68, 0.52, "advantage"], ["adaptability", 74, 0.58, "advantage"], ["leadership_drive", 62, 0.46, "neutral"], ["impact_motivation", 80, 0.62, "advantage"], ["discipline", 66, 0.5, "advantage"], ["achievement_drive", 58, 0.44, "neutral"], ["autonomy_need", 62, 0.56, "neutral"], ["collaboration", 55, 0.42, "neutral"], ["cross_domain_range", 48, 0.4, "neutral"]],
   }
 ];

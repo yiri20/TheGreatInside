@@ -42,11 +42,14 @@ Zheng He remain)).
 
 ## Product
 
-- **Roster: 95 people, 94 match-eligible.** Zheng He is the sole
+- **Roster: 96 people, 95 match-eligible.** Zheng He is the sole
   non-match-eligible exception (browsable, fails only the coverage gate).
   Authority: `evaluateMatchEligibility()` in `src/core/matching/similarity.ts`;
   re-run `corepack pnpm@10 exec tsx src/dev/simulate.ts 10000 quiz` for a
-  live health check.
+  live health check. Miriam Makeba (`roster11.ts`) promoted 2026-09 from
+  the roster-expansion-125 evidence program — see the Roster Expansion
+  125 entry below; implemented and fully verified in an isolated
+  worktree, `READY_TO_COMMIT` but not yet committed/merged.
 - **Eligibility rule: `eligibility_v2`** (`scored>=18`, `coverage>=0.6`,
   high-confidence-subset `count>=12`/`avgConf>=0.55`). See
   [`docs/reference/matching.md`](../reference/matching.md).
@@ -233,16 +236,24 @@ Zheng He remain)).
   Strong Self-Made Fit, 26 Earned but Advantaged, 0 Weak Fit. No roster
   change. Full record:
   [`docs/checkpoints/self-made-earned-distinction-audit-2026-08.md`](../checkpoints/self-made-earned-distinction-audit-2026-08.md).
-- **Roster Expansion 125 evidence program (2026-09, uncommitted working
-  tree)**: 30 candidates researched/scored toward a future 95->125
-  expansion — 26 adequately evidenced (1, Miriam Makeba, `qa_passed`;
+- **Roster Expansion 125 evidence program (2026-09)**: 30 candidates
+  researched/scored toward a future 96->125 expansion — 26 adequately
+  evidenced (1, Miriam Makeba, `qa_passed` -> **promoted**, see below;
   rest `held`), 2 `IMPROVED_BUT_CEILING_REMAINS`, 2 `STRUCTURALLY_THIN`
   (Ibn Battuta, Ashoka). Alternate search for both `STRUCTURALLY_THIN`
   candidates is closed (`NO_PROVEN_REPLACEMENT` for both Chandragupta
-  Maurya and Rabban Bar Sauma) — no swap performed. **No live-roster or
-  `src/` change**; still 95/95. Current state, reconciled matrix, and
-  next action:
+  Maurya and Rabban Bar Sauma) — no swap performed. The other 29
+  candidates: no live-roster or `src/` change. Full evidence state:
   [`docs/checkpoints/roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md`](../checkpoints/roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md).
+- **Miriam Makeba promoted (2026-09, `feat/roster11-miriam-makeba`
+  worktree, `READY_TO_COMMIT`, not yet committed/merged)**: 95->96
+  people, 94->95 match-eligible, via `generateRoster11.ts` (single-slug
+  allowlist). No portrait (opportunistic, consistent with 6 other
+  no-portrait members). Editorial coverage is unaffected and remains
+  95/95 for the pre-existing roster — Miriam Makeba has no editorial
+  content yet (a separate, later workstream, not part of this
+  promotion). Full record, delta, and validation:
+  [`docs/checkpoints/roster11-miriam-makeba-promotion-DRAFT.md`](../checkpoints/roster11-miriam-makeba-promotion-DRAFT.md).
 
 ## Completed major phases (durable summary — do not re-read the archive for these)
 
