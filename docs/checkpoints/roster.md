@@ -11,8 +11,10 @@ arithmetic), see
 
 ## Current numbers
 
-- **95 people, 94 match-eligible** (Zheng He is the sole exception —
-  browsable, fails only the coverage gate).
+- **96 people, 95 match-eligible** (Zheng He is the sole exception —
+  browsable, fails only the coverage gate). Miriam Makeba (`roster11.ts`)
+  promoted from the roster-expansion-125 evidence program — see "Known
+  open items" below.
 - Branch history: `scale/roster-1000` (19 sessions) is fully merged into
   `main`; roster growth now continues via the frozen protocol below,
   directly on top of `main`-derived branches.
@@ -86,23 +88,27 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
   blocks merge to `main`.
 - West Asia remains under-represented (1 person, Rumi) — several
   candidates are researched and held, not yet promoted.
-- **Roster Expansion 125 evidence program (2026-09, `feat/trait-explanation-ux`
-  working tree, not yet committed)**: 30 candidates researched/scored
-  toward a future 95->125 expansion; 26 adequately evidenced (all
-  `held` except **Miriam Makeba, `qa_passed`**), 2
-  `IMPROVED_BUT_CEILING_REMAINS` (Al-Biruni, Chien-Shiung Wu), 2
-  `STRUCTURALLY_THIN` (Ibn Battuta — scored but thin; Ashoka —
-  deliberately never scored). A bounded alternate search for both
-  `STRUCTURALLY_THIN` candidates is **closed**: Chandragupta Maurya and
-  Rabban Bar Sauma both `NO_PROVEN_REPLACEMENT`, Leo Africanus rejected
-  — no swap performed, no further alternate sourcing authorized. None of
-  these 30 candidates (nor any evaluated alternate) is live-roster or
-  production-code-referenced yet. Full state, the reconciled 30-primary
-  matrix, and the exact next action (a `generateRoster11.ts` promotion
-  batch for Miriam Makeba, not yet written) are in
-  [`roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md`](roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md)
-  — **read that file, not the 12 earlier roster-expansion-125 DRAFT
-  checkpoints, for current state.**
+- **Roster Expansion 125 evidence program (2026-09)**: 30 candidates
+  researched/scored toward a future 96->125 expansion; 26 adequately
+  evidenced (all `held` except **Miriam Makeba, `qa_passed` ->
+  PROMOTED**, see below), 2 `IMPROVED_BUT_CEILING_REMAINS` (Al-Biruni,
+  Chien-Shiung Wu), 2 `STRUCTURALLY_THIN` (Ibn Battuta — scored but thin;
+  Ashoka — deliberately never scored). A bounded alternate search for
+  both `STRUCTURALLY_THIN` candidates is **closed**: Chandragupta Maurya
+  and Rabban Bar Sauma both `NO_PROVEN_REPLACEMENT`, Leo Africanus
+  rejected — no swap performed, no further alternate sourcing
+  authorized. The other 29 candidates (nor any evaluated alternate) are
+  still not live-roster or production-code-referenced. Full evidence
+  state and the reconciled 30-primary matrix:
+  [`roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md`](roster-expansion-125-FINAL-CONVERGENCE-DRAFT.md).
+- **Miriam Makeba promoted (2026-09, `feat/roster11-miriam-makeba`
+  worktree, not yet committed)**: the roster-expansion-125 program's sole
+  `qa_passed` candidate, promoted via `generateRoster11.ts` (single-slug
+  allowlist) into `roster11.ts`. 95->96 people, 94->95 match-eligible.
+  No portrait (consistent with 6 other roster members — portrait
+  coverage remains opportunistic, not blocking). Full record, exact
+  before/after delta, and validation results:
+  [`roster11-miriam-makeba-promotion-DRAFT.md`](roster11-miriam-makeba-promotion-DRAFT.md).
 - A full manual rubric-consistency review of the pre-session-11 corpus
   (52 held + 38 accepted candidates) is real, unfinished work — an
   automated pass was tried and found unreliable by spot-check.
@@ -116,12 +122,12 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
 
 ## Next recommended step
 
-The Roster Expansion 125 evidence program (see "Known open items" above)
-is evidence-complete and converged, but not yet promoted: if continuing
-it, the next action is writing `generateRoster11.ts` (allowlisting at
-least `miriam-makeba`, the program's one `qa_passed` candidate) and
-running the full promotion pipeline (`docs/adding-a-person.md` steps
-7-12) — not more candidate research. Otherwise, continue Launch Roster
-Expansion in fresh batches using the frozen protocol, toward a
+Miriam Makeba's promotion (see "Known open items" above) is implemented
+and fully verified in an isolated worktree, `READY_TO_COMMIT` but not yet
+committed/merged — that commit/merge decision is the immediate next
+action if continuing this thread. The other 29 roster-expansion-125
+candidates remain `held`/`STRUCTURALLY_THIN`/unscored with no further
+action queued (alternate search closed). Otherwise, continue Launch
+Roster Expansion in fresh batches using the frozen protocol, toward a
 100-person lightweight review checkpoint — routine production work, not
 a methodology audit, unless a genuinely new finding surfaces.
