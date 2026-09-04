@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "timur",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Timur",
+    "aliases": [
+      "Tamerlane",
+      "Timur the Lame"
+    ],
+    "wikidataId": "Q8462",
+    "birthYear": 1336,
+    "deathYear": 1405,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "central_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_leader",
+      "political_leader"
+    ],
+    "fieldIds": [
+      "military",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical"
+    ],
+    "tagIds": [
+      "conqueror",
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tim_clavijo",
+      "kind": "archive",
+      "title": "Ruy González de Clavijo, Embajada a Tamorlán (Embassy to Tamerlane), 1403-1406 — a Castilian ambassador's detailed firsthand account of Timur's court at Samarkand"
+    },
+    {
+      "id": "src_tim_ibn_khaldun",
+      "kind": "archive",
+      "title": "Ibn Khaldun's own account of his 1401 meeting with Timur outside Damascus, recorded in his autobiography (al-Ta'rif) — an independent, non-flattering primary source"
+    },
+    {
+      "id": "src_tim_yazdi",
+      "kind": "archive",
+      "title": "Sharaf ad-Din Ali Yazdi, Zafarnama (Book of Victory) — a Persian court chronicle, generally favorable"
+    },
+    {
+      "id": "src_tim_arabshah",
+      "kind": "archive",
+      "title": "Ahmad ibn Arabshah, Ajaib al-Maqdur (Wonders of Destiny) — a hostile, independent Arab account by a writer deported as a youth by Timur's forces"
+    },
+    {
+      "id": "src_tim_wikipedia",
+      "kind": "wikipedia",
+      "title": "Timur",
+      "url": "https://en.wikipedia.org/wiki/Timur"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ibn Khaldun's own first-person account of their 1401 meeting describes Timur's sustained, probing interest in extracting detailed knowledge about distant lands and history across multiple extended sessions — a specific, credible episode from a formidable scholar with no particular reason to flatter him."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally led military campaigns across an extraordinary geographic range for nearly four decades, including beginning a new campaign against Ming China at approximately 68-69 years old, on which he died — a sustained pattern rather than a single risky venture."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained near-continuous military campaigning from the 1360s until his death in 1405, a documented pattern spanning nearly four decades."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Launched a major new campaign against Ming China in his late sixties rather than consolidating existing gains — a specific, documented instance of sustained ambition late in life, not an inferred general trait."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of continuous warfare across Central Asia, Persia, the Indian subcontinent, the Levant, and Anatolia, documented independently across multiple source traditions."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1402 Battle of Ankara against Ottoman Sultan Bayezid I was a specific, high-stakes, well-documented military decision with major regional consequences."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, documented patronage of scholarship and architecture at his capital Samarkand, deliberately bringing skilled artisans and scholars from conquered territories to build it up — a real, sustained pattern distinct from campaigns of pure conquest."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained personal command of a vast multi-decade military and political enterprise from a comparatively modest starting position, evidenced by the documented scale and duration of his campaigns."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The geographic scope of his campaigns — from Central Asia to India to Anatolia, with a further campaign toward China planned — required extraordinary sustained logistical coordination, inferred from that documented scope."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully campaigned across radically different terrains and opponents — the Indian subcontinent, the Persian plateau, and Anatolian highlands — evidenced by the documented range of his campaigns rather than a single theatre of war."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built his position from a comparatively modest Barlas clan background through self-directed military and political action, rather than inheriting supreme power, documented across the record of his early career."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Clavijo's account documents sophisticated, effective diplomatic hosting of multiple simultaneous foreign embassies (Castilian, Chinese, and others) at his court — a specific documented capacity for managing complex diplomatic relationships."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The deliberate, sustained cultural investment in Samarkand alongside the scale of territory unified suggests a legacy-building motivation beyond conquest alone, inferred from that pattern rather than a directly stated ambition."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustaining nearly four decades of continuous military campaigning across vast distances implies real organizational discipline, inferred from that documented duration and scope."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Functioned as military commander, political administrator, and cultural patron, though the surviving record is dominated by the military and political domains, hence inference-level for the range claim as a whole."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained operations across constantly shifting alliances, terrain, and opponents for decades, inferred from the documented continuity of campaigning rather than a specific cited episode."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Never took the title \"khan\" himself, not being a direct descendant of Genghis Khan, and instead ruled through nominal puppet khans while holding real power as \"amir\" — a specific, documented institutional workaround around a legitimacy constraint he did not accept as limiting his actual authority."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Engaged directly and personally with Ibn Khaldun over multiple sessions despite being the overwhelmingly dominant power in that encounter, rather than delegating the exchange — inferred from that specific episode rather than a broader documented pattern."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Central Asia pick (region was among the most underrepresented in the pre-batch roster at 2/96). Evidence draws on three genuinely independent traditions with different vantage points and biases — Clavijo (an outside European diplomatic observer), Yazdi (a favorable court chronicler), and Arabshah (a hostile source with personal grievance) — plus Ibn Khaldun's own firsthand, non-flattering account of meeting him, rather than a single narrative. Confidence capped per the rubric's medieval-era discipline (roughly 0.6-0.65 ceiling for most rows, strong_inference/inference rather than documented for the more speculative attributes). Real documented brutality across his campaigns, corroborated beyond Arabshah alone, is acknowledged here but not separately scored, since the evidence pack available did not reach the same instance-level specificity as the other rows — a known gap, not an oversight. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes (>=18 required, met), avgConf=0.528, coverage=0.536 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.528,
+    "coverage": 0.536,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

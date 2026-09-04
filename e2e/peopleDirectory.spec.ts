@@ -336,10 +336,12 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // Winfrey. This regression-locks the cross-facet AND fix in the locale
   // that renders count text in a different word order than en-US.
   // Total updated 95->96 (roster-expansion-125, Miriam Makeba promoted via
-  // roster11.ts) — the filtered count of 4 is unchanged; she does not
-  // satisfy this specific curiosity+collaboration combination.
+  // roster11.ts), then 96->97 (roster-12 new-intake batch, Marcus Aurelius
+  // promoted via roster12.ts) — the filtered count of 4 is unchanged;
+  // neither addition satisfies this specific curiosity+collaboration
+  // combination.
   const bodyText = (await page.locator("main").textContent())!;
-  expect(bodyText).toMatch(/전체\s*96명\s*중\s*4명/);
+  expect(bodyText).toMatch(/전체\s*97명\s*중\s*4명/);
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {

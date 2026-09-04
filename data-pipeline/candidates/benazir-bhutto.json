@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "benazir-bhutto",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Benazir Bhutto",
+    "wikidataId": "Q34413",
+    "birthYear": 1953,
+    "deathYear": 2007,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "PK"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "statesman"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_bb_daughter_of_destiny",
+      "kind": "archive",
+      "title": "Benazir Bhutto, Daughter of Destiny: An Autobiography (1988)"
+    },
+    {
+      "id": "src_bb_reconciliation",
+      "kind": "archive",
+      "title": "Benazir Bhutto, Reconciliation: Islam, Democracy, and the West (2008) — completed shortly before her assassination"
+    },
+    {
+      "id": "src_bb_press",
+      "kind": "press",
+      "title": "International press coverage of her 1988-2007 political career (Reuters, BBC, New York Times), including the October 2007 return and December 2007 assassination"
+    },
+    {
+      "id": "src_bb_wikipedia",
+      "kind": "wikipedia",
+      "title": "Benazir Bhutto",
+      "url": "https://en.wikipedia.org/wiki/Benazir_Bhutto"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Returned to Pakistan in October 2007 despite explicit, publicly reported assassination threats; survived a bombing attack on her arrival convoy that killed many nearby, and continued campaigning rather than leaving the country again — multiple independent documented instances culminating in her assassination two months later."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued a return to political leadership across decades despite her father's 1979 execution, her own repeated imprisonment and house arrest in the 1980s, two dismissed governments (1990, 1996), and eight years of exile — a sustained, well-documented pattern, not a single comeback."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct political confrontation with Pakistan's military establishment across her entire adult life, from her father's overthrow through her own repeated clashes with the Zia and Musharraf governments — a documented, decades-long pattern."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her own writing and her repeated choice to return to active politics despite catastrophic, well-understood personal risk both document a sustained framing of political return as duty rather than personal advancement alone."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chose to return to Pakistan and campaign in person in 2007 rather than continue directing party politics remotely from exile — a specific, documented choice to retain direct personal control despite the greater safety of remote leadership."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the first female head of government of a Muslim-majority nation, serving as Prime Minister twice (1988-1990, 1993-1996) — a documented, sustained pursuit of top leadership despite each term ending in dismissal."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The decision to return to Pakistan in October 2007 was made despite specific, documented threat intelligence known to her at the time — a dated, high-stakes decision, not a gradual drift into danger."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Moved through documented, distinct roles — young woman under house arrest, exiled party leader directing politics from abroad, twice Prime Minister, and opposition leader — across a genuinely turbulent multi-decade career."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued actively seeking a third term and pursuing specific policy initiatives during her terms despite two prior dismissed governments, inferred from the sustained pattern of renewed pursuit after each setback."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Her final book, Reconciliation, argues a specific, then-genuinely-contested position on the compatibility of Islam and democracy — a documented intellectual stance, though its direct evidentiary weight for a personality trait is inferential rather than a specific behavioral episode."
+    },
+    "social_assertiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Consistently pursued public, direct political confrontation with the military establishment through open campaigning rather than quieter behind-the-scenes negotiation, evidenced across her whole public career."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated her 2007 political return against the documented advice of security-conscious advisors, rather than waiting for conditions to improve."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained functioning leadership of the Pakistan Peoples Party through eight years of exile, keeping it electorally competitive for her eventual return, inferred from that organizational continuity."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Led her party to national election victories twice as its public face and campaigner, inferred from that documented electoral success rather than a single persuasive episode."
+    },
+    "ambiguity_tolerance": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued public campaigning for two months under sustained, specific, publicly acknowledged death threats between her October 2007 return and her December 2007 assassination — documented, sustained operation under extreme uncertainty."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-authored the 2006 Charter of Democracy with her longstanding political rival Nawaz Sharif's party, a specific, documented cross-party agreement bridging a historic rivalry."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Organizing a return under complex security conditions implies real logistical planning, but no specific cited planning episode survives independent of the outcome, hence inference-level."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Earned degrees from Harvard/Radcliffe and Oxford, and became the first Asian woman elected president of the Oxford Union — specific, documented credentialed achievement preceding her political career."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): South Asia / contemporary pick. Evidence is unusually well-corroborated for a compressed but extreme final chapter (the October 2007 return through the December 2007 assassination is documented in detail across independent international press, not a single tradition), plus her own two books spanning her whole career. Risk-tolerance and ambiguity-tolerance rows are scored at the high end because the underlying documented behavior (returning despite explicit threats, surviving a bombing, continuing to campaign) is itself extreme, not because the person is treated favorably by default. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes (>=18 required, met), avgConf=0.547, coverage=0.539 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.547,
+    "coverage": 0.539,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

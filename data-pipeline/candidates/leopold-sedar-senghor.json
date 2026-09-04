@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "leopold-sedar-senghor",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Léopold Sédar Senghor",
+    "wikidataId": "Q154545",
+    "birthYear": 1906,
+    "deathYear": 2001,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "SN"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "politics",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "founder"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ls_chants_ombre",
+      "kind": "archive",
+      "title": "Léopold Sédar Senghor, Chants d'ombre (1945) and Hosties noires (1948) — his own poetry collections, the latter written substantially from his WWII POW experience"
+    },
+    {
+      "id": "src_ls_negritude",
+      "kind": "archive",
+      "title": "Senghor's own Négritude essays, co-developed with Aimé Césaire and Léon Damas in 1930s Paris"
+    },
+    {
+      "id": "src_ls_biography",
+      "kind": "biography",
+      "title": "Janet Vaillant, Black, French, and African: A Life of Léopold Sédar Senghor (1990)"
+    },
+    {
+      "id": "src_ls_wikipedia",
+      "kind": "wikipedia",
+      "title": "Léopold Sédar Senghor",
+      "url": "https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Voluntarily resigned Senegal's presidency in 1980 after twenty years in office — one of very few African heads of state of his generation to leave power voluntarily rather than through coup, death, or force, and a specific, dated, well-documented act."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-founded the Négritude literary and philosophical movement with Aimé Césaire and Léon Damas in 1930s Paris, a specific, documented original intellectual contribution with lasting influence on later African and diaspora thought."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued writing poetry through nearly two years as a German POW (1940-1942) after his capture serving in the French army — a specific, dated episode of sustained creative output under real, documented hardship."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained continuous literary output — including work composed during POW captivity — alongside two decades of active state leadership, a documented sustained dual practice, not a single productive period."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a documented, decades-long intellectual partnership with Aimé Césaire in developing Négritude, evidenced by their extensive surviving correspondence and co-published work."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Served as Senegal's first president for twenty years (1960-1980), a documented sustained leadership role, though the voluntary-resignation pattern (autonomy_need) suggests power was not held as an end in itself."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a consistent, documented dual commitment across his life to African cultural affirmation and to Senegalese nation-building, without the major personal-enrichment scandals documented for some contemporaries."
+    },
+    "cross_domain_range": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned at a verifiably high level in two genuinely distinct domains — internationally recognized poetry (culminating in his 1983 election as the first African member of the Académie française) and two decades as an active head of state."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained decades of serious poetic output recognized at the highest institutional level available to a Francophone writer — his 1983 election to the Académie française is a specific, documented mark of sustained mastery, not a general reputation."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved through documented, distinct life phases — POW captivity, colonial-era French legislator, head of a newly independent state, and elder statesman/academician — across one unusually eventful life."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Négritude was a genuinely original intellectual departure at the time — asserting African cultural identity and values on their own terms rather than through inherited European frameworks — a documented, specific theoretical contribution."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained the genuinely difficult, often criticized balance of maintaining close diplomatic and economic ties with France while championing African cultural independence across two decades in office — a real, sustained tension, not a resolved position."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Both the founding of Négritude and the 1980 resignation were self-initiated decisions, not actions forced by external circumstance in the moment."
+    },
+    "planning_orientation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Executed an orderly, planned 1980 transfer of power to his chosen successor Abdou Diouf rather than a chaotic exit — a specific, documented act of succession planning."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of recognition in two demanding domains simultaneously across decades, evidenced by the range of documented achievement (the presidency, the Académie française) rather than a single stated ambition."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Broad intellectual engagement across poetry, cultural theory, and governance is documented by the range of his output, though inferred from that breadth rather than a directly stated account of curiosity."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Négritude's documented lasting influence on later Pan-African and diaspora intellectual movements suggests real persuasive reach, inferred from that reception rather than a single persuasive episode."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Chose to return to lead a newly independent Senegal in 1960 with genuinely uncertain prospects, rather than remain in his already-established literary career in France — inferred from that choice rather than a directly documented statement of risk acceptance."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Sub-Saharan Africa pick. The 1980 voluntary resignation is treated as the strongest single piece of evidence in the pack — genuinely rare among his contemporaries and independently corroborated by the historical record of the transition itself, not just his own account. The France/Africa balance is scored honestly as dual_edged (ambiguity_tolerance) rather than resolved in his favor, since it was a real, contested tension in his own record. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes (>=18 required, met), avgConf=0.531, coverage=0.549 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.531,
+    "coverage": 0.549,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "queen-nzinga",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Nzinga of Ndongo and Matamba",
+    "aliases": [
+      "Nzinga Mbande",
+      "Ana de Sousa Nzinga Mbande"
+    ],
+    "wikidataId": "Q467650",
+    "birthYear": 1583,
+    "deathYear": 1663,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nz_cavazzi",
+      "kind": "archive",
+      "title": "Giovanni Antonio Cavazzi da Montecuccolo, Istorica Descrizione de' tre regni Congo, Matamba et Angola (1687) — Capuchin missionary's detailed firsthand account of time spent at her court"
+    },
+    {
+      "id": "src_nz_portuguese_archives",
+      "kind": "archive",
+      "title": "Portuguese colonial correspondence and administrative records, Arquivo Histórico Ultramarino — an independent, frequently adversarial source given her recurring conflict with Portugal"
+    },
+    {
+      "id": "src_nz_dutch_records",
+      "kind": "archive",
+      "title": "Dutch West India Company (WIC) trading and military records from the 1641-1648 alliance period — a third, independent European source tradition"
+    },
+    {
+      "id": "src_nz_heywood",
+      "kind": "biography",
+      "title": "Linda M. Heywood, Njinga of Angola: Africa's Warrior Queen (2017) — scholarly biography drawing on all three source traditions"
+    },
+    {
+      "id": "src_nz_wikipedia",
+      "kind": "wikipedia",
+      "title": "Nzinga of Ndongo and Matamba",
+      "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba"
+    }
+  ],
+  "rows": {
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At a 1622 diplomatic meeting, the Portuguese governor offered her no seat as a calculated insult; she had one of her own attendants kneel to serve as her seat, meeting him eye-to-eye — a specific episode documented by Cavazzi and corroborated in substance by Portuguese colonial records."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally led troops in battle at multiple documented points across four decades of armed resistance against Portuguese colonial forces, not a single campaign."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Shifted from opposing all European powers to a formal military and trade alliance with the Dutch West India Company against Portugal (1641-1648), then adapted her strategy again after the Dutch were expelled in 1648 — two specific, dated geopolitical realignments, not a fixed strategy."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained armed and diplomatic resistance to Portuguese colonization for roughly four decades (1620s-1663), through multiple military defeats and displacements, until negotiating a peace treaty near the end of her life on her own terms."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of direct armed conflict with Portuguese colonial forces, documented across Portuguese, Dutch, and missionary source traditions independently."
+    },
+    "independent_thinking": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Converted to Christianity for diplomatic purposes during Portuguese negotiations, then documented adapting her religious and political practice again as circumstances shifted — genuine strategic flexibility that is also, honestly, in tension with a claim of fixed principle, scored as dual_edged rather than resolved in one direction."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Initiated the alliance with the Dutch herself as a deliberate countermove against Portuguese pressure, rather than accepting Portuguese terms or waiting on events."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a decades-long strategy of shifting alliances between European powers while deliberately absorbing refugees and escaped enslaved people to rebuild her population and military base — a documented, sustained strategic pattern, not a single tactical decision."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ruled as queen of Ndongo from 1624 and Matamba from 1631, personally commanding forces, for nearly four decades until her death — a sustained, documented pattern of holding and exercising authority."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1622 seating episode required immediate, in-the-moment improvisation during a live diplomatic encounter with no time to plan a response in advance."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Consistently refused Portuguese demands for vassalage across four decades, even when accepting subordinate status would have been the materially easier path, evidenced by the sustained conflict itself."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of territorial rule and sovereignty across an unusually long life — she was still actively ruling and negotiating a peace treaty on her own terms at approximately eighty years old."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a real, multi-year military and trade partnership with the Dutch West India Company (1641-1648), documented independently in Dutch trading and military records."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Successfully negotiated both the Dutch alliance and, later, a peace treaty with Portugal near the end of her life, inferred from the documented outcomes of those negotiations."
+    },
+    "cross_domain_range": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned across military command, cross-cultural diplomacy with two rival European powers, and internal state administration (population and refugee policy) — three genuinely distinct domains with real documented activity in each."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rule and resistance through decades of shifting alliances, military reversals, and displacement, evidenced by the continuity of her rule across that whole uncertain period."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a four-decade commitment to resisting colonization and preserving her kingdom's sovereignty rather than accepting an easier, earlier accommodation with Portugal, evidenced by the consistency of that resistance across her whole reign."
+    },
+    "discipline": {
+      "score": 55,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining organized resistance and governance across four decades implies real personal and organizational discipline, but no single cited discipline-specific episode survives independent of the broader resistance record, hence inference-level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Sub-Saharan Africa / early_modern pick, and a genuinely rare case of three independently-sourced European traditions (Portuguese colonial records, Dutch WIC records, an Italian Capuchin missionary's firsthand account) plus modern archive-based scholarship (Heywood) converging on the same figure rather than a single tradition. The religious-conversion pragmatism is scored honestly as dual_edged (independent_thinking) rather than read only as strategic genius. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes (>=18 required, met), avgConf=0.558, coverage=0.533 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.558,
+    "coverage": 0.533,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

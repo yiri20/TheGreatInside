@@ -1727,6 +1727,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
 
   // ROSTER-11 — roster-expansion-125 evidence program (1 person).
   "person.name.miriam-makeba": "미리엄 마케바",
+  "person.name.marcus-aurelius": "마르쿠스 아우렐리우스",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

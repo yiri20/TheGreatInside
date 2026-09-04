@@ -31,7 +31,11 @@ test("people directory default (unfiltered) view shows exactly 95 people, and Mi
   const console_ = captureConsole(page);
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
 
-  await expect(page.getByText(/^95 people$/)).toBeVisible();
+  // Total updated 95->96 (roster-12 new-intake batch, Marcus Aurelius
+  // promoted via roster12.ts) — Miriam Makeba's own presence and count
+  // are unaffected; see e2e/roster12MarcusAurelius.spec.ts for the
+  // roster-12-specific coverage.
+  await expect(page.getByText(/^96 people$/)).toBeVisible();
 
   const cards = page.locator('a.tgi-personcard__link[href="/en-US/people/miriam-makeba"]');
   await expect(cards).toHaveCount(1);

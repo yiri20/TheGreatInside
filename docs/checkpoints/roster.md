@@ -11,13 +11,14 @@ arithmetic), see
 
 ## Current numbers
 
-- **96 people, 95 match-eligible** (Zheng He is the sole exception —
+- **97 people, 96 match-eligible** (Zheng He is the sole exception —
   browsable, fails only the coverage gate). The People Directory's
-  default (unfiltered) view shows the match-eligible count (95), not the
-  raw total (96) — `filterPeople()` defaults `matchEligibleOnly` to true
+  default (unfiltered) view shows the match-eligible count (96), not the
+  raw total (97) — `filterPeople()` defaults `matchEligibleOnly` to true
   (`src/core/people/explorer.ts`). Miriam Makeba (`roster11.ts`) promoted
-  from the roster-expansion-125 evidence program — see "Known open
-  items" below.
+  from the roster-expansion-125 evidence program; Marcus Aurelius
+  (`roster12.ts`) promoted from the roster-12 new-intake batch — see
+  "Known open items" below. Target: 125. Remaining gap: 28.
 - Branch history: `scale/roster-1000` (19 sessions) is fully merged into
   `main`; roster growth now continues via the frozen protocol below,
   directly on top of `main`-derived branches.
@@ -121,6 +122,27 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
   promotion and the fix:
   [`roster11-miriam-makeba-promotion-DRAFT.md`](roster11-miriam-makeba-promotion-DRAFT.md),
   [`roster11-miriam-makeba-profile-fix.md`](roster11-miriam-makeba-profile-fix.md).
+- **Roster-12 new-intake batch (2026-09)**: with zero unpromoted
+  `qa_passed` candidates remaining after Miriam Makeba, this cycle built a
+  fresh 27-person discovery pool (none previously present as scored
+  candidate JSON, none already live), froze 15 for full evidence packs
+  and first scoring. 2 of 15 crossed `eligibility_v2` honestly: Marcus
+  Aurelius and Che Guevara. **Marcus Aurelius promoted** via
+  `generateRoster12.ts` (single-slug allowlist) into `roster12.ts` —
+  96->97 people, 95->96 match-eligible — with a real portrait (Louvre
+  Antonine-period bust, CC BY 2.5) and full EN/KO editorial content from
+  first promotion, not a follow-up fix. **Che Guevara is `qa_passed` but
+  NOT promoted** — no rights-clear, non-AI-generated portrait could be
+  sourced this cycle (the iconic Korda photograph's international
+  copyright status is genuinely disputed; several Commons alternatives
+  were investigated and rejected for the same reason, a false rights
+  claim, or an AI-modified-file flag); his candidate JSON and lifecycle
+  are untouched, next-in-line once a portrait is resolved. The other 13
+  frozen candidates remain `held` — real evidence packs, genuine first
+  scores, all missed only on `eligibility_v2`'s weighted coverage floor
+  (0.6), not on attribute count or confidence — a concrete target for a
+  future evidence-deepening pass, not new research. Full record:
+  [`roster12-new-intake-batch.md`](roster12-new-intake-batch.md).
 - A full manual rubric-consistency review of the pre-session-11 corpus
   (52 held + 38 accepted candidates) is real, unfinished work — an
   automated pass was tried and found unreliable by spot-check.
@@ -134,12 +156,20 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
 
 ## Next recommended step
 
-Miriam Makeba's promotion (see "Known open items" above) is implemented
-and fully verified in an isolated worktree, `READY_TO_COMMIT` but not yet
-committed/merged — that commit/merge decision is the immediate next
-action if continuing this thread. The other 29 roster-expansion-125
+Miriam Makeba's promotion is merged and complete. Marcus Aurelius's
+promotion is implemented and fully verified in this isolated worktree,
+`READY_TO_COMMIT` but not yet committed/merged — that commit/merge
+decision is the immediate next action if continuing this thread (see
+"Known open items" above). Other candidates for a future cycle:
+(1) resolve a rights-clear portrait for Che Guevara and promote him via a
+small follow-up generator; (2) an evidence-deepening pass on the 13
+roster-12 `held` candidates, specifically targeting higher-weight
+attributes from their existing evidence packs to close the coverage gap
+each one has (all 13 missed coverage by 0.05 or less — see
+[`roster12-new-intake-batch.md`](roster12-new-intake-batch.md) §6 for the
+exact numbers) rather than new research. The 29 roster-expansion-125
 candidates remain `held`/`STRUCTURALLY_THIN`/unscored with no further
-action queued (alternate search closed). Otherwise, continue Launch
-Roster Expansion in fresh batches using the frozen protocol, toward a
+action queued (alternate search closed). Otherwise, continue roster
+expansion in fresh discovery-pool batches using the protocol below, toward a
 100-person lightweight review checkpoint — routine production work, not
 a methodology audit, unless a genuinely new finding surfaces.

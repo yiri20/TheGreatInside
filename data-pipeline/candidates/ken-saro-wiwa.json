@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ken-saro-wiwa",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Ken Saro-Wiwa",
+    "wikidataId": "Q316292",
+    "birthYear": 1941,
+    "deathYear": 1995,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "NG"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "activist",
+      "environmentalist"
+    ],
+    "fieldIds": [
+      "literature",
+      "civil_rights",
+      "environmental_science"
+    ],
+    "impactDomains": [
+      "literary",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "endured_imprisonment",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ksw_detention_diary",
+      "kind": "archive",
+      "title": "Ken Saro-Wiwa, A Month and a Day: A Detention Diary (1995) — his own account of an earlier detention period"
+    },
+    {
+      "id": "src_ksw_sozaboy",
+      "kind": "archive",
+      "title": "Ken Saro-Wiwa, Sozaboy (1985) — his own novel, evidence of sustained literary output before his activism career"
+    },
+    {
+      "id": "src_ksw_mosop",
+      "kind": "institution",
+      "title": "Movement for the Survival of the Ogoni People (MOSOP) founding documents and the Ogoni Bill of Rights (1990)"
+    },
+    {
+      "id": "src_ksw_press",
+      "kind": "press",
+      "title": "International press and human rights organization coverage (including Amnesty International) of the January 1993 Ogoni demonstration, his 1995 trial, and execution"
+    },
+    {
+      "id": "src_ksw_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ken Saro-Wiwa",
+      "url": "https://en.wikipedia.org/wiki/Ken_Saro-Wiwa"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded MOSOP specifically to campaign for Ogoni environmental and political rights and sustained that campaign for its final five years despite escalating personal danger; his documented final words before execution affirmed continued commitment to \"the struggle.\""
+    },
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued organizing and leading MOSOP through multiple documented arrests and escalating government pressure, up to and through a widely-regarded-as-politically-motivated trial and his 1995 execution — multiple independent documented instances across five years, meeting this rubric's top confidence band."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the Ogoni rights campaign from MOSOP's 1990 founding through repeated arrests and escalating government crackdowns until his 1995 execution, without abandoning the movement."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally founded MOSOP and organized the January 1993 mass demonstration — both self-initiated undertakings, not actions assigned or requested by any outside body."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Organized and mobilized an estimated 300,000 people to a single peaceful demonstration in January 1993 — a specific, extremely well-documented mass-mobilization outcome, not inferred from general reputation."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct, simultaneous confrontation with both the Nigerian military government and Shell Oil, a powerful multinational corporation, across a documented multi-year campaign."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built a successful career as a published novelist and as creator/producer of the popular Nigerian television series Basi and Company before turning to activism — genuine, documented achievement in a distinct domain preceding his political career."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and led MOSOP as its central organizing figure from 1990 to his 1995 execution, a documented, sustained organizational leadership role."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued organizing under an increasingly dangerous, uncertain political climate for years, evidenced by the documented escalation of government crackdowns across that period without the campaign stopping."
+    },
+    "decisiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The decision to organize the January 1993 mass demonstration was a specific, dated, high-stakes organizational choice with foreseeable government retaliation."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a successful literary and television production career, evidenced by published, credited work, before shifting focus to full-time activism."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Framed Ogoni rights specifically around environmental damage and corporate accountability alongside indigenous political rights, a framing that was comparatively uncommon in Nigerian activist discourse of the period."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a productive writing and television-production career while simultaneously building and leading a political movement, evidenced by the documented dual output across those years."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of recognition and success across literary, television, and activist domains, evidenced by the documented range of accomplishment rather than a single stated ambition."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained direct, public confrontation of both government and corporate power through organizing and public statements rather than working only through quieter channels."
+    },
+    "planning_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Organizing a demonstration of an estimated 300,000 people required real, sustained logistical and organizational planning, inferred from that documented scale."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Building MOSOP as a coalition required working with Ogoni traditional and community leaders, but the surviving record documents the movement's outcomes more than his specific collaborative process, hence inference-level."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Transitioned from a successful entertainment and business career to full-time political activism in his later years, a documented life-stage shift, though the specific adaptive process is inferred rather than directly recorded."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-12 new-intake batch (2026-09): Sub-Saharan Africa / contemporary pick. Multi-domain evidence base (published novels, a produced television series, MOSOP's own founding documents, independent international press and human-rights-organization coverage of the 1993 demonstration and 1995 trial) rather than a single self-narrative. His pre-activism creative career is scored honestly as a distinct domain (cross_domain_range, mastery_orientation) rather than treated as a footnote to the activism. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes (>=18 required, met), avgConf=0.542, coverage=0.536 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.542,
+    "coverage": 0.536,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}
