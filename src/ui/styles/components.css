@@ -314,6 +314,11 @@ body {
 @media (max-width: 640px) {
   .tgi-filter-bar {
     flex-direction: column;
+    /* Mobile UI review (2026-09): search + 3 selects stacked at gap-3
+       (12px) each is the single biggest contributor to the pre-results
+       filter height on a phone -- gap-2 (8px) keeps them clearly separate
+       without shrinking any control's own 44px touch-target height. */
+    gap: var(--tgi-space-2);
   }
   .tgi-filter-bar > * {
     width: 100%;
@@ -610,6 +615,45 @@ body {
 .tgi-personcard__body { display: flex; flex-direction: column; gap: var(--tgi-space-2); padding: var(--tgi-space-4); flex: 1; }
 .tgi-personcard__name { font-family: var(--tgi-font-display); font-size: var(--tgi-text-md); line-height: var(--tgi-leading-snug); margin: 0; }
 .tgi-personcard__meta { font-size: var(--tgi-text-xs); color: var(--tgi-ink-muted); }
+
+/* People Directory mobile UI review (2026-09): PersonCard is a SHARED
+   component (Results/Saved Result/Person's Similar People all render it
+   too, several with longer, deliberately-wrapping labels like "Closest
+   World-Sense Match" that must NOT be truncated) -- every rule below is
+   scoped to `.tgi-directory-grid`, a class that exists ONLY on the People
+   Directory's own <Grid> (PeopleDirectoryClient.tsx), so none of it can
+   affect any other page. An earlier version of this pass applied these
+   directly to the bare `.tgi-personcard__meta` class and broke 8 Results/
+   Saved-Result Playwright specs by clipping their longer labels -- this
+   scoping is what fixes that. */
+.tgi-directory-grid .tgi-personcard__meta {
+  /* --tgi-ink-muted measured 4.53:1 against the dark card surface (WCAG
+     AA's 4.5:1 floor for this text size, essentially no margin) and
+     3.88:1-4.48:1 against the light-theme surfaces, both too close to
+     comfortable in real mobile viewing conditions; --tgi-ink-secondary
+     measures 7.52:1 dark / comfortably over 4.5:1 light, still visibly a
+     step down from the name's full-contrast --tgi-ink so it doesn't
+     compete with it. */
+  color: var(--tgi-ink-secondary);
+  /* A long "Occupation · Era" combination truncates gracefully on a
+     narrow directory card instead of wrapping to 2-3 lines and inflating
+     card height -- a no-op wherever the text already fits on one line
+     (unaffected at desktop's wider cards). */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  /* Card-density pass: shorter portrait crop (5/6 instead of 4/5) and
+     tighter body padding/inter-row gap, directory cards only. Desktop/
+     tablet directory cards (>640px) and every other page's cards at any
+     width are untouched. */
+  .tgi-directory-grid .tgi-personcard__portrait { aspect-ratio: 5 / 6; }
+  .tgi-directory-grid .tgi-personcard__body {
+    padding: var(--tgi-space-3);
+    gap: var(--tgi-space-1);
+  }
+}
 .tgi-personcard__match { margin-top: auto; padding-top: var(--tgi-space-3); }
 .tgi-personcard__match-value { font-family: var(--tgi-font-numeric); font-variant-numeric: tabular-nums; font-size: var(--tgi-text-lg); }
 .tgi-personcard__link { color: inherit; text-decoration: none; }
@@ -641,6 +685,51 @@ body {
 }
 .tgi-field:focus-visible { outline: none; box-shadow: var(--tgi-focus-ring); }
 .tgi-field--grow { flex: 1; min-width: min(12rem, 100%); }
+
+/* Mobile UI review (2026-09): the native <select> arrow (browser-drawn,
+   appearance left as "auto") sat almost flush against the box's right edge
+   on mobile Chrome/Safari -- there's no author control over a native
+   arrow's exact inset, only over the box's own padding, and 12px of
+   padding-right doesn't visually read the same as 12px once the browser's
+   own glyph is factored in. Fixed the same way the taxonomy disclosure
+   summary's chevron already is elsewhere in this file: appearance:none
+   suppresses the native arrow entirely and a plain two-border corner
+   (rotate, no SVG/data-URI/mask) replaces it, positioned at the same
+   --tgi-space-4 inset the left-side label text uses, so both edges read as
+   equally padded. The wrapper only exists to host the decorative chevron
+   as an absolutely-positioned sibling (native <select>s don't reliably
+   support ::after content across browsers) -- pointer-events:none on the
+   chevron means the whole box, edge to edge, is still the real <select>'s
+   click/tap target, exactly as before. */
+.tgi-select {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  max-width: 100%;
+}
+.tgi-select__control {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  /* Room for the chevron (0.4rem box) plus its own inset, so real option
+     text never renders underneath it. */
+  padding-right: calc(var(--tgi-space-4) * 2);
+}
+.tgi-select__chevron {
+  position: absolute;
+  top: 50%;
+  right: var(--tgi-space-4);
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1.5px solid var(--tgi-ink-muted);
+  border-bottom: 1.5px solid var(--tgi-ink-muted);
+  transform: translateY(-65%) rotate(45deg);
+  pointer-events: none;
+}
+.tgi-select:focus-within .tgi-select__chevron,
+.tgi-select:hover .tgi-select__chevron {
+  border-color: var(--tgi-ink);
+}
 
 /* ------------------------------------------------------------------- a11y */
 .tgi-visually-hidden {
@@ -942,6 +1031,73 @@ details > summary:focus-visible {
   padding-top: var(--tgi-space-4);
 }
 
+/* ------------------------------------------ people directory: mobile UI
+   refinement (2026-09, product-owner mobile review). Compacts the vertical
+   space the filter stack (hero copy, search/Era/Region/Sort, the two
+   taxonomy disclosures) takes up before the results grid on a phone, so
+   the first row of people appears materially sooner. Every rule is scoped
+   to a .tgi-directory-* class unique to PeopleDirectoryClient.tsx or gated
+   behind the existing 640px mobile breakpoint (.tgi-filter-bar/
+   .tgi-results-discovery-grid's own threshold) -- nothing here touches
+   another page or changes desktop/tablet spacing. Combined with two
+   classes on each selector (e.g. `.tgi-directory-shell.tgi-stack--7`) so
+   these reliably win over the bare `.tgi-stack`/`.tgi-cluster` utility
+   rules regardless of source order, the same technique already used for
+   `.tgi-results-discovery-grid.tgi-grid` above. */
+.tgi-directory-main {
+  padding-top: var(--tgi-space-7);
+  padding-bottom: var(--tgi-space-8);
+}
+@media (max-width: 640px) {
+  .tgi-directory-main {
+    padding-top: var(--tgi-space-5);
+    padding-bottom: var(--tgi-space-6);
+  }
+  .tgi-directory-shell.tgi-stack--7 {
+    gap: var(--tgi-space-5);
+  }
+  .tgi-directory-filters.tgi-stack--5 {
+    gap: var(--tgi-space-4);
+  }
+}
+
+/* Part 5 (result-count header): previously one more `tone="muted"` line
+   inside the filter Stack, with no visual separation from the controls
+   above it. Pulled out as its own element (see PeopleDirectoryClient.tsx)
+   with a hairline top rule -- the same divider language
+   `.tgi-taxonomy-disclosure`'s own border-bottom already uses -- so it
+   reads as "filters end here, results start below" at every viewport, not
+   only on mobile; the disconnect wasn't mobile-specific. `tone="secondary"`
+   (not "muted") for the same reason as the personcard metadata contrast
+   fix below: a result count is information the user is meant to read, not
+   filler text. */
+.tgi-directory-count {
+  padding-top: var(--tgi-space-4);
+  border-top: var(--tgi-border-width) solid var(--tgi-rule);
+}
+
+/* Part 4 (filter-section heading dominance, mobile only): "Profession &
+   Activity" and "Personality & Traits" are filter-group labels, not
+   primary content -- at the default `tgi-heading--3` size (1.375rem
+   serif) they visually outweigh the search/Era/Region/Sort row directly
+   above them on a phone and can read as more important than the people
+   the page is actually about. Scoped to <=640px only -- at desktop/tablet
+   widths the same headings sit beside a much wider filter row and don't
+   dominate the layout the same way, and this is a mobile-review ask, not
+   a sitewide typography change. Font-family stays the inherited serif
+   display face (this project's typography character, per CLAUDE.md's
+   design-system invariants) -- only size and colour step down, both
+   already-defined tokens, not new ad hoc values. Specificity
+   (.tgi-taxonomy-disclosure > summary .tgi-heading, two classes + one
+   element) beats the bare `.tgi-heading--3` rule regardless of source
+   order. */
+@media (max-width: 640px) {
+  .tgi-taxonomy-disclosure > summary .tgi-heading {
+    font-size: var(--tgi-text-base);
+    color: var(--tgi-ink-secondary);
+  }
+}
+
 /* ------------------------------------------- directory taxonomy filters
    directory_taxonomy_v1 (2026-08, density/chip polish pass; progressive-
    disclosure follow-up 2026-08): Profession/Activity and Personality/Trait
@@ -1035,6 +1191,19 @@ details > summary:focus-visible {
 .tgi-taxonomy-disclosure > summary:hover::after,
 .tgi-taxonomy-disclosure > summary:focus-visible::after {
   border-color: var(--tgi-ink);
+}
+@media (max-width: 640px) {
+  /* Mobile UI review (2026-09): the heading-dominance fix above shrinks
+     this summary's own text, which would otherwise shrink its tap height
+     to ~34px (the original was already a sub-44px ~41px) -- extra
+     padding-block restores a reasonable ~42px tap height without bringing
+     back the larger font's visual weight. Placed after the base rule
+     above (equal specificity) so source order, not a specificity trick,
+     is what makes this win, matching how the rest of this file resolves
+     mobile overrides. */
+  .tgi-taxonomy-disclosure > summary {
+    padding-block: var(--tgi-space-3);
+  }
 }
 
 .tgi-taxonomy-columns { display: flex; flex-direction: column; gap: var(--tgi-space-6); }
@@ -1130,7 +1299,11 @@ details > summary:focus-visible {
    inheriting the desktop win for free. None of this removes anything —
    still zero-JS, still fully visible, just closer-set. */
 @media (max-width: 640px) {
-  .tgi-taxonomy-columns { gap: var(--tgi-space-5); }
+  /* Mobile UI review (2026-09): tightened from space-5 (24px) -- the two
+     collapsed summaries are now shorter themselves (heading-dominance
+     fix above), so the gap between them can shrink too without the pair
+     reading as cramped together. */
+  .tgi-taxonomy-columns { gap: var(--tgi-space-4); }
   .tgi-taxonomy-section { gap: var(--tgi-space-2); }
   .tgi-taxonomy-category__heading {
     /* Only exists to baseline-align with the row layout's first chip line
