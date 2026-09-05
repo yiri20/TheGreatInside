@@ -345,9 +345,13 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // 108->116 (roster-15 coverage-aware intake, 8 people promoted via
   // roster15.ts) — none of the 8 new people satisfy this specific
   // curiosity+collaboration combination, so the filtered count of 5 is
-  // unchanged.
+  // unchanged. Total updated 116->125 (roster-16 final intake, 9 people
+  // promoted via roster16.ts) — verified directly against the real
+  // traitScoreGroups z-score filter (minZ=1.0, minConfidence=0.5) that
+  // none of the 9 new people cross both thresholds simultaneously, so the
+  // filtered count of 5 is unchanged.
   const bodyText = (await page.locator("main").textContent())!;
-  expect(bodyText).toMatch(/전체\s*116명\s*중\s*5명/);
+  expect(bodyText).toMatch(/전체\s*125명\s*중\s*5명/);
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {

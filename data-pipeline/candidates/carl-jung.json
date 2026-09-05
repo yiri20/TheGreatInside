@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "carl-jung",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Carl Jung",
+    "wikidataId": "Q41532",
+    "birthYear": 1875,
+    "deathYear": 1961,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CH"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "scientist"
+    ],
+    "fieldIds": [
+      "medicine",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural",
+      "medical"
+    ],
+    "tagIds": [
+      "theorist",
+      "mystic",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_cj_red_book",
+      "kind": "archive",
+      "title": "C. G. Jung, The Red Book (Liber Novus, written 1913-1930, published 2009) — his own private self-experimentation record, not intended for publication in his lifetime"
+    },
+    {
+      "id": "src_cj_bair",
+      "kind": "biography",
+      "title": "Deirdre Bair, Jung: A Biography (2003) — an independent, extensively archive-sourced biography"
+    },
+    {
+      "id": "src_cj_freud_correspondence",
+      "kind": "archive",
+      "title": "The Freud/Jung Letters (ed. William McGuire, 1974) — the surviving correspondence documenting the collaboration and rupture from both sides"
+    },
+    {
+      "id": "src_cj_wikipedia",
+      "kind": "wikipedia",
+      "title": "Carl Jung",
+      "url": "https://en.wikipedia.org/wiki/Carl_Jung"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal investigation across psychiatry, comparative mythology, alchemy, and Eastern religious texts over decades, corroborated by the surviving breadth of his own research notes and correspondence with specialists in each field, not general reputation."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as breaking definitively from Freud over the libido theory's exclusively sexual basis, a rupture independently corroborated by both sides' surviving correspondence (the Freud/Jung Letters), not Jung's account alone, and sustained despite the professional cost of losing Freud's designated successorship."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal practice of recording and illustrating his own inner experiences in the Red Book across roughly 16 years (1913-1930), corroborated by the surviving manuscript itself as an independently verifiable, dated body of work, not merely his own later claim."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing his self-directed psychological exploration through a period biographers describe as a severe personal crisis following the Freud break (roughly 1913-1919), sustained until he began publishing new theoretical work again, corroborated by the dated gap and resumption in his publication record."
+    },
+    "risk_tolerance": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented, corroborated from both sides of the surviving Freud/Jung correspondence, as breaking from Freud despite this ending his position as heir-apparent to the psychoanalytic movement and costing him most of his professional relationships within it -- a specific, well-attested professional risk accepted rather than avoided."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing self-directed inner exploration for years without a clear theoretical resolution or public framework to present, inferred tolerance for that sustained personal and professional uncertainty."
+    },
+    "decisiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Freud break unfolded over an extended period of documented ambivalent correspondence before the final rupture, suggesting a gradual rather than sudden decisiveness — scored near center rather than assumed high."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as commanding authority within the circle of followers who gathered around him in Zurich, though Bair's independent biography also describes periods of documented withdrawal and social isolation, particularly during the post-Freud crisis years — genuinely mixed, scored near center."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded and led his own analytical psychology movement and training institute (the C. G. Jung Institute, Zurich) after the Freud break, documented as retaining doctrinal authority over the movement's direction for decades."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as building an international following for analytical psychology from a position of having lost the mainstream psychoanalytic movement's institutional backing, inferred persuasive/communicative skill from the movement's documented growth."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, corroborated from both sides of the Freud/Jung correspondence, as sustaining an increasingly strained theoretical and personal disagreement over several years before the final, public break, rather than either resolving it quietly or ending the relationship abruptly."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-directed study of alchemical texts and comparative religion over decades specifically to develop his theory of archetypes and individuation, corroborated by the scholarly depth independently recognized in his later published work on alchemy."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented sustained theoretical output across a long career, though direct evidence of explicit status-seeking as distinct from genuine intellectual conviction is thinner, hence inference-level."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as deliberately forgoing the secure, prestigious position as Freud's designated successor to pursue his own independent theoretical direction, a specific, well-corroborated act of prioritizing intellectual independence over institutional security."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His own writing frames his psychological work primarily in terms of individual self-understanding (individuation) rather than explicit broad social reform, scored moderately rather than inflated toward a social-impact motivation the evidence doesn't directly support."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-dabbling engagement across clinical psychiatry, comparative mythology, alchemy, and Eastern religious philosophy, each with real documented scholarly output (published books specifically on alchemical symbolism, on I Ching commentary) rather than superficial interest."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the entire Red Book project as a private, self-directed practice with no external audience or professional requirement, and self-initiated the founding of his own training institute after the Freud break rather than seeking readmission to an existing institution."
+    },
+    "collaboration": {
+      "score": 42,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented, corroborated from both sides of the surviving Freud/Jung correspondence, as ending his most significant professional collaboration in a rupture neither side fully repaired, and separately documented (Bair's biography) as having serially difficult relationships with several of his own students and followers over subsequent decades — a repeated pattern, not one relationship."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as substantially revising his own earlier acceptance of Freudian libido theory after his personal crisis and independent research, a specific, corroborated instance of publicly revising a foundational earlier theoretical commitment rather than defending it indefinitely."
+    },
+    "opportunity_sensing": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Thin direct evidence of deliberate opportunity-timing distinct from his general career development; scored at the safe default."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as rebuilding a viable clinical and theoretical career after losing the psychoanalytic movement's institutional backing, inferred resourcefulness from the documented recovery rather than one specific resourceful act."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented meticulous cross-referencing of alchemical and mythological source texts in his later scholarly work, per independent reviewers of his published research, though the broader evidentiary base is thinner, hence inference-level."
+    },
+    "aesthetic_sensitivity": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Red Book's own extensive, elaborate illuminated illustrations (created entirely by Jung himself) are documented by art historians who have studied the manuscript as a genuine, sustained visual practice, not incidental doodling."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q41532) before scoring. Depth-focused this cycle: rows corroborated by both sides of the surviving Freud/Jung correspondence and by Bair's independent biography (independent_thinking, conflict_tolerance, collaboration, autonomy_need, belief_updating, risk_tolerance) were prioritized for the higher confidence band, distinguished from rows resting mainly on Jung's own later self-interpretation. Scored to 23 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 23,
+    "averageConfidence": 0.501,
+    "coverage": 0.682,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  }
+}

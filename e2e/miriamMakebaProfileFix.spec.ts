@@ -25,7 +25,7 @@ import { captureConsole } from "./utils/visualChecks";
  * different things.
  */
 
-test("people directory default (unfiltered) view shows exactly 115 people, and Miriam Makeba appears exactly once (en-US)", async ({
+test("people directory default (unfiltered) view shows exactly 124 people, and Miriam Makeba appears exactly once (en-US)", async ({
   page,
 }) => {
   const console_ = captureConsole(page);
@@ -35,10 +35,11 @@ test("people directory default (unfiltered) view shows exactly 115 people, and M
   // promoted via roster12.ts), then 96->107 (roster-14 coverage-aware
   // intake, 11 people promoted via roster14.ts, all match-eligible), then
   // 107->115 (roster-15 coverage-aware intake, 8 people promoted via
-  // roster15.ts, all match-eligible) — Miriam Makeba's own presence and
-  // count are unaffected; see e2e/roster12MarcusAurelius.spec.ts for the
-  // roster-12-specific coverage.
-  await expect(page.getByText(/^115 people$/)).toBeVisible();
+  // roster15.ts, all match-eligible), then 115->124 (roster-16 final
+  // intake, 9 people promoted via roster16.ts, all match-eligible) —
+  // Miriam Makeba's own presence and count are unaffected; see
+  // e2e/roster12MarcusAurelius.spec.ts for the roster-12-specific coverage.
+  await expect(page.getByText(/^124 people$/)).toBeVisible();
 
   const cards = page.locator('a.tgi-personcard__link[href="/en-US/people/miriam-makeba"]');
   await expect(cards).toHaveCount(1);

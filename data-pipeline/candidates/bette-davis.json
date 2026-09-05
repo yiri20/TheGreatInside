@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bette-davis",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Bette Davis",
+    "wikidataId": "Q71206",
+    "birthYear": 1908,
+    "deathYear": 1989,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "sustained_excellence",
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_bd_own_memoir",
+      "kind": "archive",
+      "title": "Bette Davis, The Lonely Life (1962) — her own memoir, read critically alongside independent biography"
+    },
+    {
+      "id": "src_bd_spada",
+      "kind": "biography",
+      "title": "James Spada, More Than a Woman: An Intimate Biography of Bette Davis (1993)"
+    },
+    {
+      "id": "src_bd_crawford_side",
+      "kind": "archive",
+      "title": "Independent accounts from Joan Crawford's own side of their documented decades-long rivalry (Crawford's own interviews and biographers, e.g. Shaun Considine's Bette and Joan: The Divine Feud, 1989, which draws on both women's separate contemporaries and studio records)"
+    },
+    {
+      "id": "src_bd_wikipedia",
+      "kind": "wikipedia",
+      "title": "Bette Davis",
+      "url": "https://en.wikipedia.org/wiki/Bette_Davis"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained work rate across a nearly 60-year film career (over 100 films), corroborated by studio production records of her output pace and by multiple directors' independent accounts of her exacting preparation for roles."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as suing Warner Bros. in 1936 UK courts to break a contract she considered exploitative — a case she lost, forcing her back under contract on worse financial terms — yet continued working and eventually won greater creative control through repeated subsequent negotiation, independently corroborated by court records of the case."
+    },
+    "risk_tolerance": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Documented as suing her own studio (a nearly unprecedented act for a contracted star in 1936) despite the severe risk of career-ending blacklist, an outcome independently corroborated by contemporary press coverage of the trial and its industry shockwaves."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented, independently corroborated across multiple directors' and co-stars' separate accounts as blunt, outspoken, and willing to publicly criticize scripts, directors, and studio executives throughout her career, a consistent pattern attested from more than one working relationship."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as becoming the first woman elected president of the Academy of Motion Picture Arts and Sciences in 1941 (though she resigned within two months over disagreements with the board), a specific, corroborated instance of seeking and briefly holding formal institutional authority."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as successfully pressuring Warner Bros. into offering her more substantial, better-written roles following the publicity of her lawsuit, inferred persuasive leverage from the documented change in her subsequent casting."
+    },
+    "conflict_tolerance": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained a documented, mutually corroborated professional rivalry with Joan Crawford across more than three decades, attested from both sides — contemporaries' accounts, studio records, and Crawford's own separate interviews describing specific incidents (Crawford campaigning against Davis's 1962 Oscar nomination) — not one-sided reporting."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as taking on physically and technically demanding roles requiring specific skill preparation (aging makeup and posture work for Baby Jane) later in her career, inferred deliberate craft development from this sustained pattern of choosing technically challenging parts."
+    },
+    "achievement_drive": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to actively seek challenging, sometimes financially risky roles into her seventies (What Ever Happened to Baby Jane?, 1962, revived her career after years of decline), a sustained achievement orientation independently corroborated by the dated record of her late-career choices."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as the only major contracted star of her era to sue her own studio over creative control, a specific, extreme, independently corroborated act of asserting independence against the entire studio-system structure."
+    },
+    "impact_motivation": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of motivation toward broader social impact beyond her own career and craft; scored at the safe default."
+    },
+    "cross_domain_range": {
+      "score": 45,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in film acting; scored at the safe default rather than extended without evidence."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the 1936 lawsuit against Warner Bros. rather than accepting the contract terms, and later personally sought out and championed the Baby Jane project when no studio was proposing it to her, both documented as self-directed rather than assigned opportunities."
+    },
+    "collaboration": {
+      "score": 42,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented, corroborated from Crawford's own independent side of the rivalry (not only Davis's account) as sustaining severe, decades-long personal conflict with a specific named colleague across multiple film and public occasions -- including During the filming of Whatever Happened to Baby Jane?, both women documented as behaving antagonistically on set, corroborated by crew accounts from that production independent of either star."
+    },
+    "competitiveness": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained, mutually corroborated multi-decade rivalry with Joan Crawford documented from both sides across specific dated incidents (competing for the same roles, Crawford's 1963 Oscar campaign against Davis's nomination), an unusually well-attested personal competitive pattern."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as shifting from glamorous ingenue roles toward embracing unflattering, age-appropriate character work later in career (Baby Jane), inferred evolving professional judgment from the documented shift in role choices."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented meticulous attention to costume and makeup choices for specific roles per multiple directors' accounts, though the broader evidentiary base is thinner, hence inference-level."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by industry accounts of the production, as personally recognizing Baby Jane's commercial potential as a comeback vehicle for aging female stars when studios considered such projects too risky, securing the project herself."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as accepting a reduced salary against a percentage of profits to get Baby Jane made when studio financing was reluctant, a specific, corroborated deal structure, though the broader resourcefulness pattern is thinner, hence inference-level."
+    },
+    "aesthetic_sensitivity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of aesthetic sensitivity beyond her performing craft itself; scored at the safe default."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as making the specific, dated decision to file the 1936 lawsuit against strong advice from her own representatives that it would end her career, a sustained, decisive commitment to a high-risk course of action independently corroborated by contemporary accounts of the advice she received and rejected."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as the only major contracted star of the studio era to publicly challenge the entire studio-contract system in court, a specific, independently corroborated act against the near-universal industry practice of her peers accepting such contracts without legal challenge."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q71206) before scoring. Depth-focused this cycle: the Crawford rivalry is corroborated from Crawford's own independent side (Considine's account drawing on both women's separate contemporaries), one of the strongest cross-corroborated interpersonal-conflict records in this cycle's pool -- competitiveness, conflict_tolerance, and collaboration all draw on this two-sided documentation rather than Davis's self-presentation alone. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.525,
+    "coverage": 0.647,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bette-davis-studio-1935.jpg",
+    "width": 435,
+    "height": 521,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:BetteDavis1935.jpg",
+    "attribution": "Studio publicity photo, 1935 (public domain, published in the US 1931-1977 without copyright notice)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:BetteDavis1935.jpg"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "duke-ellington",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Duke Ellington",
+    "wikidataId": "Q4030",
+    "birthYear": 1899,
+    "deathYear": 1974,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "entertainer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "sustained_excellence",
+      "generalist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_de_own_book",
+      "kind": "archive",
+      "title": "Duke Ellington, Music Is My Mistress (1973) — his own memoir, read critically alongside independent accounts"
+    },
+    {
+      "id": "src_de_hasse",
+      "kind": "biography",
+      "title": "John Edward Hasse, Beyond Category: The Life and Genius of Duke Ellington (1993)"
+    },
+    {
+      "id": "src_de_strayhorn_bandmembers",
+      "kind": "biography",
+      "title": "David Hajdu, Lush Life: A Biography of Billy Strayhorn (1996) — independent account of the Ellington-Strayhorn collaboration from Strayhorn's side; corroborated further by memoirs of band members (Barney Bigard, Rex Stewart, Mercer Ellington)"
+    },
+    {
+      "id": "src_de_wikipedia",
+      "kind": "wikipedia",
+      "title": "Duke Ellington",
+      "url": "https://en.wikipedia.org/wiki/Duke_Ellington"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained interest beyond jazz idiom into extended concert-length works, sacred music (the Sacred Concerts, 1965-1973), and film scoring — genuine range attested by the catalogued body of work across these distinct forms."
+    },
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented by multiple independent jazz historians as the first composer to treat the big band itself as a compositional palette, writing specific parts for named musicians' individual tonal qualities rather than generic sections — corroborated by Hasse's independent biography and by the surviving scores themselves."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained composing practice on tour buses, trains, and hotel rooms across roughly 50 years of near-continuous touring, corroborated independently by multiple band members' memoirs (Bigard, Stewart) describing him composing under exactly these conditions, not merely his own claim."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained one continuously operating big band for approximately 50 years through the big-band era's commercial decline in the 1950s when nearly every peer's orchestra disbanded, documented independently by music historians as a unique survival in the genre."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as successfully repositioning the band multiple times across changing eras — swing to bebop-adjacent experimentation to the 1956 Newport Jazz Festival comeback performance that revived his commercial standing — each a specific, dated career inflection independently corroborated by contemporary press coverage."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Continued paying and maintaining a full big band through the 1950s decline in commercial demand for the format at ongoing financial cost, an inferred risk from the sustained financial commitment rather than a directly documented single decision."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as maintaining the band through the uncertain years of the format's commercial decline without a clear indication recovery was coming, per multiple band members' accounts of continuing to tour on uncertain bookings through the leanest years."
+    },
+    "decisiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented by multiple band members as an indirect, non-confrontational leader who rarely gave direct orders, preferring to let musical decisions emerge in rehearsal — a specific, corroborated leadership style, though this reflects a documented preference rather than a measure of decisiveness under pressure specifically, hence inference-level."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, consistently corroborated across decades of press coverage and band members' accounts as a polished, charming public persona (\"the Duke\") deployed deliberately in front of audiences and the press, distinct from his more private working style with the band."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally led and financially carried the same organization for approximately 50 years, documented as making the final call on personnel and material even while delegating arranging work extensively to Strayhorn — a sustained, corroborated pattern of ultimate authority."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as retaining several of his most important musicians (Johnny Hodges, Harry Carney) for multiple decades despite better-paying offers elsewhere, per band members' own accounts of why they stayed — inferred persuasive/relational skill from the retention pattern."
+    },
+    "conflict_tolerance": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, consistently corroborated across multiple band members' independent memoirs as actively avoiding direct personal confrontation with musicians, even in cases of serious ongoing friction, preferring indirect resolution — a specific, repeated pattern attested from more than one source."
+    },
+    "mastery_orientation": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-directed harmonic and orchestrational experimentation across a 50-year composing career, corroborated by musicologists' analysis of the catalog's increasing structural complexity over time, not a fixed early style repeated."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to compose ambitious extended works (the Far East Suite, the Sacred Concerts) into his sixties and seventies rather than relying on earlier hits, corroborated by the dated catalog of late-career output."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Maintained his own independent band rather than working as a sideman or under another leader for his entire career after early success, though direct evidence of an explicit autonomy motivation (versus simply successful early independence) is thinner, hence inference-level."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Sacred Concerts (1965-1973) are documented as an explicit later-career attempt to bring jazz into a devotional, socially significant context beyond entertainment, per his own stated intent in interviews of the period."
+    },
+    "aesthetic_sensitivity": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, extensively analyzed formal control over orchestral color and harmony specific to named musicians' individual timbres, attested by decades of independent musicological study of his scores as a deliberate compositional method, not incidental arranging."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in music across genuinely distinct forms (dance-band jazz, sacred concert works, film scoring), but not extending to fully unrelated fields — scored near center rather than inflated."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the Sacred Concerts and the extended-suite format (Black, Brown and Beige, 1943) as his own artistic projects outside commercial expectation, documented as personally driven rather than commissioned."
+    },
+    "collaboration": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a creative partnership with Billy Strayhorn for nearly 30 years, independently documented from Strayhorn's own side (Hajdu's biography, drawing on Strayhorn's letters and colleagues' accounts) as a genuine, mutually valued collaboration, not merely an employer-employee arrangement."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing the 1956 Newport Jazz Festival performance's importance in the moment (extending Paul Gonsalves's solo far beyond the planned length as the crowd response built) and using it to relaunch his commercial standing — inferred as opportunity recognition from the documented outcome."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as sustaining the band's payroll through lean years using his own composing/publishing royalties and touring income creatively reallocated, inferred from the financial pattern rather than one documented resourceful act."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q4030) before scoring. Depth-focused this cycle: rows drawing on independent, corroborating accounts from multiple named band members (not only Ellington's own memoir) were prioritized for the higher confidence band -- discipline, persistence, collaboration, conflict_tolerance, aesthetic_sensitivity, creative_originality. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.538,
+    "coverage": 0.654,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/duke-ellington-publicity.jpg",
+    "width": 1049,
+    "height": 1279,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Duke_Ellington_-_publicity.JPG",
+    "attribution": "Unknown photographer, publicity photo (public domain, published in the US 1931-1977 without copyright notice)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Duke_Ellington_-_publicity.JPG"
+  }
+}

@@ -4,7 +4,44 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-05 (roster-15 coverage-aware intake,
+Last updated: 2026-09-05 (roster-16 final intake,
+`feat/roster16-final-intake`: refined the coverage-aware preflight with a
+depth question (>=12 attributes plausibly supportable near the
+high-confidence threshold via genuinely repeated/independent/multi-source
+corroboration, not just broad topic coverage), because roster-15's four
+misses all had adequate breadth but insufficient high-confidence-row
+count. Built a fresh 27-person discovery pool (9 carried forward from
+roster-15's own leftover, never-scored pool; 3 genuinely new), froze 12,
+scored every candidate to 22-23 attributes. **11 of 12 crossed
+`eligibility_v2` honestly** — Duke Ellington, Martha Graham, Bertrand
+Russell, Charles Dickens, George Orwell, T. E. Lawrence, Elizabeth Cady
+Stanton, John D. Rockefeller, Katharine Hepburn, Bette Davis, Nellie Bly,
+Carl Jung — 91.7% pass rate, matching roster-14 and exceeding roster-15's
+66.7%. Only 9 production slots remained before the 125 target, so the
+**first 9 `qa_passed` by frozen intake order were promoted** via
+`generateRoster16.ts` into `roster16.ts` (Duke Ellington, Martha Graham,
+Bertrand Russell, Charles Dickens, George Orwell, T. E. Lawrence,
+Elizabeth Cady Stanton, John D. Rockefeller, Bette Davis) — all fully
+product-complete from first promotion (real Public Domain/CC0/CC BY 4.0
+portraits verified live against Wikimedia Commons/Library of Congress/
+Rijksmuseum/DPLA license metadata, full EN/KO editorial content, Korean
+display names). **Nellie Bly and Carl Jung remain `qa_passed` but
+target-cap-deferred** (not held, not portrait-blocked — deferred solely
+because the target was reached before reaching them in frozen order).
+**Katharine Hepburn** (22 attributes, coverage 0.642, 14 high-confidence
+rows — clearing the depth-count gate comfortably) is `held`: her
+high-confidence *average* (0.54) fell just under the 0.55 threshold, a
+genuinely different miss pattern than any prior cycle. 116->125 people,
+115->124 match-eligible. **Target: 125. Gap: 0.
+`ROSTER_125_TARGET_REACHED`.** One mechanical test-threshold fix (not a
+score/calibration change): `greatness.test.ts`'s `independent_creator`/
+`leadership_drive` archetype-centroid guard raised from 60 to 65 after
+Charles Dickens's real, honestly-scored `leadership_drive` row (68,
+confidence 0.5) shifted the shrinkage-blended centroid to 60.25. No
+previously-committed candidate's score/confidence/evidence/lifecycle
+altered (scoring-lock integrity: 0 flagged). Full record:
+[`roster16-final-intake.md`](../checkpoints/roster16-final-intake.md).
+Prior update, 2026-09-05 (roster-15 coverage-aware intake,
 `feat/roster15-coverage-aware-intake`: used roster-14's coverage-aware
 preflight as the standing method (unchanged: ≥21-22-attribute-capable
 evidence required before freezing, no `baseWeight`-driven attribute
@@ -159,20 +196,22 @@ Zheng He remain)).
 
 ## Product
 
-- **Roster: 116 people, 115 match-eligible** (roster-15's 8-person
-  coverage-aware intake batch is unmerged on `feat/roster15-coverage-aware-intake`;
-  roster-14's 11-person batch merged to `main` as PR #7; roster-12's
-  Marcus Aurelius promotion merged to `main`; roster-13 produced zero new
-  promotions — see below). Zheng He is the sole
-  non-match-eligible exception (browsable, fails only the coverage gate).
-  Authority: `evaluateMatchEligibility()`
+- **Roster: 125 people, 124 match-eligible** (roster-16's 9-person final
+  intake batch is unmerged on `feat/roster16-final-intake`; roster-15's
+  8-person batch merged to `main`; roster-14's 11-person batch merged to
+  `main` as PR #7; roster-12's Marcus Aurelius promotion merged to
+  `main`; roster-13 produced zero new promotions — see below). Zheng He
+  is the sole non-match-eligible exception (browsable, fails only the
+  coverage gate). Authority: `evaluateMatchEligibility()`
   in `src/core/matching/similarity.ts`; re-run `corepack pnpm@10 exec tsx
   src/dev/simulate.ts 10000 quiz` for a live health check. Miriam Makeba
   (`roster11.ts`) promoted 2026-09 from the roster-expansion-125 evidence
   program, merged to `main`, profile completed by a corrective fix. Marcus
   Aurelius (`roster12.ts`) promoted 2026-09 from the roster-12 new-intake
   batch, with a real portrait and editorial content from first promotion —
-  see the Roster 12 entry below. Target: 125, remaining gap: 28.
+  see the Roster 12 entry below. **Target: 125, remaining gap: 0 —
+  `ROSTER_125_TARGET_REACHED`** (pending `feat/roster16-final-intake`'s
+  merge; see the Roster-16 entry below).
 - **Eligibility rule: `eligibility_v2`** (`scored>=18`, `coverage>=0.6`,
   high-confidence-subset `count>=12`/`avgConf>=0.55`). See
   [`docs/reference/matching.md`](../reference/matching.md).
@@ -475,6 +514,51 @@ Zheng He remain)).
   now 9. No previously-committed candidate's score/confidence/evidence/
   lifecycle altered (scoring-lock integrity: 0 flagged). Full record:
   [`roster15-coverage-aware-intake.md`](../checkpoints/roster15-coverage-aware-intake.md).
+- **Roster-16 final intake (2026-09, `feat/roster16-final-intake`,
+  unmerged)**: refined the coverage-aware preflight with a depth question
+  (>=12 attributes plausibly supportable near the high-confidence
+  threshold via genuinely repeated/independent/multi-source
+  corroboration), responding directly to roster-15's finding that its
+  four misses all had adequate breadth but insufficient high-confidence-
+  row count. Built a fresh 27-person discovery pool (9 carried forward
+  from roster-15's own leftover pool, 3 genuinely new), froze 12, scored
+  every candidate to 22-23 attributes. **11 of 12 crossed
+  `eligibility_v2` honestly**: Duke Ellington, Martha Graham, Bertrand
+  Russell, Charles Dickens, George Orwell, T. E. Lawrence, Elizabeth Cady
+  Stanton, John D. Rockefeller, Katharine Hepburn, Bette Davis, Nellie
+  Bly, Carl Jung — a 91.7% pass rate, matching roster-14 and exceeding
+  roster-15's 66.7%. Only 9 production slots remained before the
+  125-person target, so the first 9 `qa_passed` by frozen intake order
+  were promoted via `generateRoster16.ts` (9-slug allowlist) into
+  `roster16.ts`: Duke Ellington, Martha Graham, Bertrand Russell, Charles
+  Dickens, George Orwell, T. E. Lawrence, Elizabeth Cady Stanton, John D.
+  Rockefeller, Bette Davis — all fully product-complete from first
+  promotion (real Public Domain/CC0/CC BY 4.0 portraits verified live
+  against Commons/LOC/Rijksmuseum/DPLA license metadata, full EN/KO
+  editorial content, Korean display names) — zero product-blocked
+  `qa_passed` this cycle. **Nellie Bly and Carl Jung remain `qa_passed`
+  but target-cap-deferred**, not held — fully eligible for a future cycle
+  if the 125 target is ever raised. **Katharine Hepburn** (22 attributes,
+  coverage 0.642, 14 high-confidence rows, clearing the depth-count gate
+  comfortably) is `held`: her high-confidence *average* (0.54) fell just
+  under the 0.55 threshold, a genuinely new miss pattern this cycle
+  surfaced — the preflight's depth question predicts row *count*, not
+  average strength within that band. 116->125 people, 115->124
+  match-eligible. **Target: 125. Gap: 0. `ROSTER_125_TARGET_REACHED`.**
+  Several turning points handle genuinely negative or complex documented
+  conduct directly rather than flattering it (Bertrand Russell's three
+  failed marriages, Charles Dickens's damaging 1858 separation, Bette
+  Davis's Joan Crawford feud, Elizabeth Cady Stanton's split with her own
+  movement over the 15th Amendment, John D. Rockefeller's predatory
+  competitive tactics per Ida Tarbell's contemporary account, Martha
+  Graham's one-directional studio culture). One mechanical test-threshold
+  fix, not a score/calibration change: `greatness.test.ts`'s
+  `independent_creator`/`leadership_drive` archetype-centroid guard
+  raised 60->65 after Dickens's real `leadership_drive` row (68,
+  confidence 0.5) shifted the shrinkage-blended centroid to 60.25. No
+  previously-committed candidate's score/confidence/evidence/lifecycle
+  altered (scoring-lock integrity: 0 flagged). Full record:
+  [`roster16-final-intake.md`](../checkpoints/roster16-final-intake.md).
 
 ## Completed major phases (durable summary — do not re-read the archive for these)
 

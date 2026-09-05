@@ -2778,6 +2778,142 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's high persistence: building a defining legal career from a starting point of explicit, documented professional exclusion.",
   "ruth-bader-ginsburg.interpretation.turning_point.1":
     "This tracks the profile's high analytical_rigor and risk_tolerance: a calculated strategic choice that ran against conventional legal advice at the time.",
+
+  /* ------------------------------------------------------- roster 16 */
+  "duke-ellington.achievement.1":
+    "Documented by multiple independent jazz historians as the first composer to treat the big band itself as a compositional palette, writing individual parts for named musicians' specific tonal qualities rather than generic sections.",
+  "duke-ellington.achievement.2":
+    "Sustained one continuously operating big band for roughly 50 years through the format's commercial collapse in the 1950s, when nearly every peer's orchestra disbanded.",
+  "duke-ellington.moment.1":
+    "At the 1956 Newport Jazz Festival, let Paul Gonsalves's solo run far beyond its planned length as the crowd's response built, using the moment to relaunch his commercial standing.",
+  "duke-ellington.moment.2":
+    "Self-initiated the Sacred Concerts (1965-1973), extended devotional works outside any commercial expectation, continuing to compose ambitious new material into his sixties and seventies.",
+  "duke-ellington.turning_point.1":
+    "Documented, corroborated across multiple band members' independent memoirs, as consistently avoiding direct confrontation with musicians even amid serious ongoing friction, preferring indirect resolution to addressing conflict head-on.",
+  "duke-ellington.interpretation.moment.1":
+    "This is consistent with the profile's high aesthetic_sensitivity and mastery_orientation: recognizing and acting on a specific, unplanned opportunity in the moment rather than sticking to a fixed plan.",
+  "duke-ellington.interpretation.turning_point.1":
+    "This is scored directly in the profile's moderate conflict_tolerance score with dual-edged impact — a real, corroborated leadership limitation, not smoothed over for a more flattering profile.",
+
+  "martha-graham.achievement.1":
+    "Developed the \"contraction and release\" technique as a systematized alternative to classical ballet vocabulary, documented by dance historians as a foundational technique still taught internationally today.",
+  "martha-graham.achievement.2":
+    "Performed into her mid-seventies despite severe arthritis; after being forced to stop, rebuilt a second career as company director and choreographer into her nineties, producing over 180 works across her lifetime.",
+  "martha-graham.moment.1":
+    "Left the established Denishawn company in 1923 to found her own company with no guaranteed audience for a deliberately difficult new form.",
+  "martha-graham.moment.2":
+    "After being forced to stop performing, entered a well-documented period of depression and alcohol dependency before rebuilding her second career phase as director.",
+  "martha-graham.turning_point.1":
+    "Sustained multi-decade working partnerships with composer Louis Horst and designer Isamu Noguchi, but multiple former dancers — including Erick Hawkins, her former husband, whose departure from the company is documented as acrimonious — independently describe its overall working culture as one-directional rather than collaborative.",
+  "martha-graham.interpretation.moment.1":
+    "This is consistent with the profile's high persistence and autonomy_need: a specific, corroborated instance of rebuilding after losing the only professional identity she had held for 50 years.",
+  "martha-graham.interpretation.turning_point.1":
+    "This is scored directly in the profile's moderate, dual-edged collaboration score — documented from more than one dancer's account, not smoothed over for a more flattering profile.",
+
+  "bertrand-russell.achievement.1":
+    "Principia Mathematica (with Alfred North Whitehead, 1910-1913) is documented by mathematicians and logicians as a foundational, rigorously systematic attempt to derive mathematics from logical axioms, still cited in the field today.",
+  "bertrand-russell.achievement.2":
+    "A History of Western Philosophy (1945) is documented as directly responsible for bringing philosophy to a mass general readership, contributing to his 1950 Nobel Prize in Literature.",
+  "bertrand-russell.moment.1":
+    "Publicly opposed World War I, a position that cost him his Trinity College fellowship in 1916 and led to a six-month prison sentence in 1918 — during which he wrote Introduction to Mathematical Philosophy.",
+  "bertrand-russell.moment.2":
+    "At age 89, was arrested and briefly imprisoned for civil disobedience during his anti-nuclear disarmament activism.",
+  "bertrand-russell.turning_point.1":
+    "Three of his four marriages ended in documented estrangement or divorce, corroborated independently by more than one of his wives' own separately published accounts across different decades.",
+  "bertrand-russell.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance and independent_thinking: a specific, accepted professional and personal cost for a public position, repeated decades apart.",
+  "bertrand-russell.interpretation.turning_point.1":
+    "This is scored directly in the profile's low collaboration score with risk impact — documented across separate relationships, not omitted for a more flattering profile.",
+
+  "charles-dickens.achievement.1":
+    "Documented by literary historians as pioneering the serialized novel's narrative techniques — cliffhanger chapter endings tuned to monthly publication — later widely adopted by other novelists.",
+  "charles-dickens.achievement.2":
+    "Personally co-founded and ran Urania Cottage, a home for homeless and formerly incarcerated women, for over a decade, directly involved in individual admissions decisions per the home's own surviving case records.",
+  "charles-dickens.moment.1":
+    "Worked in a blacking factory as a child after his father's imprisonment for debt, an experience biographers trace directly to his relentless adult work ethic and fear of poverty.",
+  "charles-dickens.moment.2":
+    "Toured extensively as a public reader in his final years against his doctor's explicit warnings about his declining health.",
+  "charles-dickens.turning_point.1":
+    "Conducted a public, damaging separation from his wife of 22 years, Catherine, in 1858, and published a self-justifying public statement about it — corroborated by sources independent of his own self-presentation.",
+  "charles-dickens.interpretation.moment.1":
+    "This is consistent with the profile's high achievement_drive and persistence, which biographers trace directly to his childhood poverty.",
+  "charles-dickens.interpretation.turning_point.1":
+    "This is scored directly in the profile's low collaboration score with risk impact — conduct independent observers criticized at the time, not omitted for a more flattering profile.",
+
+  "george-orwell.achievement.1":
+    "His political essays, including \"Politics and the English Language\" and his Spanish Civil War analysis, are independently cited by later scholars as methodically precise in tracing specific causal claims.",
+  "george-orwell.achievement.2":
+    "Wrote Nineteen Eighty-Four to completion while severely ill with tuberculosis on the remote island of Jura.",
+  "george-orwell.moment.1":
+    "Volunteered to fight with the POUM militia in the Spanish Civil War and was shot through the throat at the front, documented in Homage to Catalonia and corroborated by fellow militia members' independent accounts.",
+  "george-orwell.moment.2":
+    "Resigned his secure position in the Indian Imperial Police in Burma to become a writer with no guaranteed income.",
+  "george-orwell.turning_point.1":
+    "Published Homage to Catalonia's account of Communist-aligned suppression of the POUM despite this alienating much of the pro-Soviet British left he had previously been associated with, sustained across the book's poor initial sales and years of criticism from former allies.",
+  "george-orwell.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance: a specific, severe, well-corroborated risk accepted at the front.",
+  "george-orwell.interpretation.turning_point.1":
+    "This is scored directly in the profile's high independent_thinking: a documented ideological break made against his own political milieu's prevailing view, at real and sustained cost.",
+
+  "t-e-lawrence.achievement.1":
+    "Personally planned and led the 1917 Aqaba raid via an overland desert crossing considered impassable, corroborated by both British and Arab accounts of the campaign.",
+  "t-e-lawrence.achievement.2":
+    "Seven Pillars of Wisdom is independently regarded by literary critics as a significant work of prose craft, not merely a military memoir.",
+  "t-e-lawrence.moment.1":
+    "Captured and beaten at Deraa in 1917 during the Arab Revolt campaign, documented in Seven Pillars of Wisdom.",
+  "t-e-lawrence.moment.2":
+    "After the war, declined a knighthood offered by King George V and enlisted as a private in the Royal Air Force under an assumed name.",
+  "t-e-lawrence.turning_point.1":
+    "Achieved major wartime success leading the Arab Revolt, then deliberately retreated from public recognition and formal status afterward — a documented, contradictory arc rather than a simple pattern of ambition.",
+  "t-e-lawrence.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance: a specific, severe, independently corroborated risk accepted in the campaign.",
+  "t-e-lawrence.interpretation.turning_point.1":
+    "This is scored directly in the profile's moderate, dual-edged achievement_drive and leadership_drive — a documented ambivalence about fame and formal status, not smoothed into a simple narrative of ambition.",
+
+  "elizabeth-cady-stanton.achievement.1":
+    "Personally drafted the Declaration of Sentiments (1848), a structurally precise legal and rhetorical argument historians credit with framing the emerging women's rights movement's core arguments for decades afterward.",
+  "elizabeth-cady-stanton.achievement.2":
+    "Co-authored the multi-volume History of Woman Suffrage across two decades while raising seven children.",
+  "elizabeth-cady-stanton.moment.1":
+    "Insisted on including a demand for women's suffrage in the 1848 Declaration of Sentiments against the explicit objection of co-organizers, including Lucretia Mott, who considered it too radical for the moment.",
+  "elizabeth-cady-stanton.moment.2":
+    "Published The Woman's Bible (1895) despite a formal censure from her own suffrage organization, the National American Woman Suffrage Association.",
+  "elizabeth-cady-stanton.turning_point.1":
+    "Opposed ratification of the 15th Amendment without simultaneous women's suffrage, a position that split the women's rights movement and estranged some of her former allies.",
+  "elizabeth-cady-stanton.interpretation.moment.1":
+    "This is consistent with the profile's high independent_thinking: a specific, dated instance of holding a minority position within her own movement.",
+  "elizabeth-cady-stanton.interpretation.turning_point.1":
+    "This is scored directly in the profile's dual-edged conflict_tolerance — a documented split within her own movement, not omitted for a more flattering profile.",
+
+  "john-d-rockefeller.achievement.1":
+    "Personally reviewed detailed cost-accounting ledgers down to fractions of a cent per barrel across Standard Oil's operations, and developed byproduct-utilization methods to cut costs below competitors' reach.",
+  "john-d-rockefeller.achievement.2":
+    "Directed systematic, professionally-staffed philanthropy — founding the Rockefeller Foundation and the General Education Board — for over 40 years after retirement, applying the same cost-efficiency principles he had used in business.",
+  "john-d-rockefeller.moment.1":
+    "Executed the 1872 \"Cleveland Massacre,\" rapidly acquiring 22 of 26 Cleveland-area competitor refineries within about six weeks.",
+  "john-d-rockefeller.moment.2":
+    "Rebuilt his health and public standing across a decade-long retirement following a severe stress-induced illness in his fifties.",
+  "john-d-rockefeller.turning_point.1":
+    "Sustained a decades-long pattern of systematically outcompeting and acquiring rival refiners through calculated pressure tactics, independently corroborated by Ida Tarbell's contemporary adversarial account naming specific competitors driven out or bought out — culminating in a 1911 Supreme Court-ordered breakup of Standard Oil under antitrust law.",
+  "john-d-rockefeller.interpretation.moment.1":
+    "This is consistent with the profile's high decisiveness and opportunity_sensing: a specific, rapidly executed consolidation independently corroborated by contemporary business records and by an adversarial contemporary account of the same events.",
+  "john-d-rockefeller.interpretation.turning_point.1":
+    "This is scored directly in the profile's dual-edged competitiveness score — tactics independently attested by an adversarial contemporary source, not smoothed over by his later philanthropic reputation.",
+
+  "bette-davis.achievement.1":
+    "Sued Warner Bros. in 1936 UK courts to break a contract she considered exploitative — the only major contracted star of the studio era to publicly challenge the entire studio-contract system in court.",
+  "bette-davis.achievement.2":
+    "Personally sought out and championed What Ever Happened to Baby Jane? (1962) when no studio was proposing it, reviving her career in her fifties.",
+  "bette-davis.moment.1":
+    "Became the first woman elected president of the Academy of Motion Picture Arts and Sciences in 1941, though she resigned within two months over disagreements with the board.",
+  "bette-davis.moment.2":
+    "Accepted a reduced salary against a percentage of profits to get Baby Jane made when studio financing was reluctant.",
+  "bette-davis.turning_point.1":
+    "Sustained a mutually corroborated professional rivalry with Joan Crawford across more than three decades, attested from both sides, including documented antagonistic behavior between the two on the set of Baby Jane itself, corroborated independently by crew accounts from that production.",
+  "bette-davis.interpretation.moment.1":
+    "This is consistent with the profile's high autonomy_need and proactive_agency: the only major contracted star of her era to sue her own studio over creative control.",
+  "bette-davis.interpretation.turning_point.1":
+    "This is scored directly in the profile's low collaboration score with risk impact — documented from both sides of the rivalry, not softened for a more flattering profile.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -5409,6 +5545,142 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 이 프로필의 높은 인내력과 부합한다 — 명백하고 기록으로 남은 직업적 배제라는 출발점에서 대표적인 법조 경력을 쌓아 올린 사례다.",
   "ruth-bader-ginsburg.interpretation.turning_point.1":
     "이는 이 프로필의 높은 분석적 엄밀성과 위험 감수성과 부합한다 — 당시의 통상적인 법률 자문에 반하는 계산된 전략적 선택이었다.",
+
+  /* ------------------------------------------------------- roster 16 */
+  "duke-ellington.achievement.1":
+    "여러 독립적인 재즈 역사가들에 따르면, 그는 빅밴드 자체를 작곡의 팔레트로 다룬 최초의 작곡가로 기록되어 있다 — 특정 연주자들의 개별적인 음색을 위해 일반적인 파트가 아닌 맞춤형 파트를 직접 써 주었다.",
+  "duke-ellington.achievement.2":
+    "1950년대에 빅밴드 형식이 상업적으로 붕괴하여 거의 모든 동시대 오케스트라가 해체될 때에도, 약 50년간 하나의 밴드를 계속 운영했다.",
+  "duke-ellington.moment.1":
+    "1956년 뉴포트 재즈 페스티벌에서 관객의 반응이 고조되자 폴 곤살베스의 솔로를 예정보다 훨씬 길게 이어가도록 두었고, 이 순간을 이용해 자신의 상업적 입지를 되살렸다.",
+  "duke-ellington.moment.2":
+    "어떠한 상업적 기대도 없는 확장된 종교적 작품인 새크리드 콘서트(1965-1973)를 스스로 시작했으며, 60대와 70대에도 야심 찬 신작을 계속 작곡했다.",
+  "duke-ellington.turning_point.1":
+    "여러 밴드 단원들의 독립적인 회고록을 통해 뒷받침되는 바에 따르면, 심각하고 지속적인 마찰이 있을 때조차 연주자들과의 직접적인 대립을 일관되게 피했으며, 갈등을 정면으로 다루기보다 간접적인 해결을 선호했다.",
+  "duke-ellington.interpretation.moment.1":
+    "이는 이 프로필의 높은 심미적 감수성과 숙련 지향성과 부합한다 — 고정된 계획을 고수하기보다 그 순간의 구체적이고 예정에 없던 기회를 포착해 행동에 옮긴 사례다.",
+  "duke-ellington.interpretation.turning_point.1":
+    "이는 이 프로필에서 이중적 영향을 지닌 중간 수준의 갈등 감내 점수로 직접 반영되어 있다 — 더 나은 인상을 위해 완화되지 않은, 실제로 뒷받침되는 리더십의 한계다.",
+
+  "martha-graham.achievement.1":
+    "고전 발레 어휘의 체계화된 대안으로 '수축과 이완' 기법을 개발했으며, 무용사가들은 이를 오늘날까지 국제적으로 교육되는 기초적인 기법으로 기록하고 있다.",
+  "martha-graham.achievement.2":
+    "심각한 관절염에도 불구하고 70대 중반까지 무대에 섰고, 더 이상 춤출 수 없게 된 후에는 예술감독 겸 안무가로서 90대까지 이어지는 두 번째 경력을 다시 쌓아 평생 180편이 넘는 작품을 남겼다.",
+  "martha-graham.moment.1":
+    "1923년 이미 자리 잡은 데니숀 무용단을 떠나, 확실한 관객도 없는 상태에서 의도적으로 난해한 새로운 형식을 추구하는 자신의 무용단을 창단했다.",
+  "martha-graham.moment.2":
+    "더 이상 무대에 설 수 없게 된 후, 감독으로서 두 번째 경력 단계를 다시 쌓아 올리기 전까지 기록으로 남아 있는 심각한 우울증과 알코올 의존의 시기를 겪었다.",
+  "martha-graham.turning_point.1":
+    "작곡가 루이 호스트, 무대 디자이너 이사무 노구치와는 수십 년에 걸친 생산적인 협업을 유지했지만, 그녀의 전 남편이자 무용단 단원이었던 에릭 호킨스를 포함한 여러 전직 무용수들은 각자 독립적으로 무용단의 전반적인 작업 문화가 협업적이라기보다 일방적이었다고 증언한다 — 호킨스의 무용단 탈퇴 자체가 불화로 인한 것으로 기록되어 있다.",
+  "martha-graham.interpretation.moment.1":
+    "이는 이 프로필의 높은 인내심과 자율성 욕구와 부합한다 — 50년간 지녔던 유일한 직업적 정체성을 잃은 뒤 다시 일어선, 구체적이고 뒷받침되는 사례다.",
+  "martha-graham.interpretation.turning_point.1":
+    "이는 이 프로필에서 이중적 영향을 지닌 중간 수준의 협업 점수로 직접 반영되어 있다 — 한 사람이 아닌 여러 무용수의 증언으로 뒷받침되며, 더 나은 인상을 위해 완화되지 않았다.",
+
+  "bertrand-russell.achievement.1":
+    "화이트헤드와 함께 쓴 《수학 원리》(1910-1913)는 수학자와 논리학자들에 의해 논리적 공리로부터 수학을 도출하려는 근본적이고 엄밀하게 체계적인 시도로 기록되어 있으며, 오늘날에도 이 분야에서 계속 인용된다.",
+  "bertrand-russell.achievement.2":
+    "《서양철학사》(1945)는 철학을 대중 일반 독자에게 전달한 직접적인 공로로 기록되어 있으며, 1950년 노벨 문학상 수상에도 기여했다.",
+  "bertrand-russell.moment.1":
+    "제1차 세계대전에 공개적으로 반대해 1916년 트리니티 칼리지 특별연구원 자리를 잃었고, 1918년에는 6개월의 실형을 선고받았다 — 수감 중에 《수리철학입문》을 집필했다.",
+  "bertrand-russell.moment.2":
+    "89세의 나이에 반핵 시민불복종 운동으로 체포되어 잠시 수감되었다.",
+  "bertrand-russell.turning_point.1":
+    "네 번의 결혼 중 세 번이 기록으로 남아 있는 별거 또는 이혼으로 끝났으며, 이는 서로 다른 시기의 아내들 각자가 별도로 출판한 기록을 통해 독립적으로 뒷받침된다.",
+  "bertrand-russell.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 독립적 사고와 부합한다 — 수십 년의 간격을 두고 반복적으로, 공개적 입장을 위해 감수한 구체적이고 뒷받침되는 직업적·개인적 대가다.",
+  "bertrand-russell.interpretation.turning_point.1":
+    "이는 이 프로필에서 위험 요소를 지닌 낮은 협업 점수로 직접 반영되어 있다 — 서로 다른 관계들에 걸쳐 뒷받침되며, 더 나은 인상을 위해 생략되지 않았다.",
+
+  "charles-dickens.achievement.1":
+    "문학사가들에 따르면, 그는 월간 연재 출판에 맞춘 각 장 말미의 클리프행어 기법 등 연재소설의 서사 기법을 개척한 것으로 기록되어 있으며, 이후 다른 소설가들에게 널리 채택되었다.",
+  "charles-dickens.achievement.2":
+    "노숙 여성과 출소한 여성들을 위한 시설인 유라니아 코티지를 10년 넘게 직접 공동 설립하고 운영했으며, 그 시설 자체의 현존하는 사례 기록에 따르면 개별 입소 결정에 직접 관여했다.",
+  "charles-dickens.moment.1":
+    "아버지가 빚으로 수감된 후 어린 시절 구두약 공장에서 일했으며, 전기 작가들은 이 경험이 그의 성인기의 끊임없는 근면과 빈곤에 대한 두려움으로 직접 이어졌다고 본다.",
+  "charles-dickens.moment.2":
+    "말년에는 의사가 건강 악화를 명시적으로 경고했음에도 불구하고 대규모 낭독 순회공연을 계속했다.",
+  "charles-dickens.turning_point.1":
+    "1858년 22년간의 아내 캐서린과 공개적이고 파괴적인 별거를 겪었고, 이에 대해 자기 정당화적인 공개 성명을 발표했다 — 이는 그 자신의 자기 서술과는 무관한 독립적인 출처들로 뒷받침된다.",
+  "charles-dickens.interpretation.moment.1":
+    "이는 전기 작가들이 그의 어린 시절 빈곤과 직접 연결짓는 프로필의 높은 성취 욕구와 인내심과 부합한다.",
+  "charles-dickens.interpretation.turning_point.1":
+    "이는 이 프로필에서 위험 요소를 지닌 낮은 협업 점수로 직접 반영되어 있다 — 당대의 독립적인 관찰자들에게 비판받은 행동이며, 더 나은 인상을 위해 생략되지 않았다.",
+
+  "george-orwell.achievement.1":
+    "〈정치와 영어〉를 비롯한 그의 정치 에세이와 스페인 내전 분석은, 인상비평이 아니라 구체적인 인과 관계를 체계적으로 추적했다는 점에서 이후 학자들에 의해 독립적으로 인용된다.",
+  "george-orwell.achievement.2":
+    "결핵으로 심각하게 앓고 있던 상태에서 외딴 섬 주라에서 《1984》 집필을 완성했다.",
+  "george-orwell.moment.1":
+    "스페인 내전에서 POUM 민병대에 자원해 싸웠고, 전선에서 목에 총상을 입었다 — 이는 《카탈로니아 찬가》에 기록되어 있으며 동료 민병대원들의 독립적인 증언으로도 뒷받침된다.",
+  "george-orwell.moment.2":
+    "버마에서 안정적이었던 인도 제국 경찰직을 사임하고, 소득이 보장되지 않는 작가의 길을 선택했다.",
+  "george-orwell.turning_point.1":
+    "《카탈로니아 찬가》에서 공산주의 세력의 POUM 탄압을 다룬 것이 이전에 자신이 속해 있던 친소련 성향의 영국 좌파 상당수를 소외시켰음에도 이를 출판했으며, 이 책의 초기 부진한 판매와 이후 수년간 옛 동료들의 비판을 견뎌냈다.",
+  "george-orwell.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 부합한다 — 전선에서 감수한 구체적이고 심각하며 충분히 뒷받침되는 위험이다.",
+  "george-orwell.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 독립적 사고 점수로 직접 반영되어 있다 — 실질적이고 지속적인 대가를 치르면서도 자신이 속한 정치적 진영의 지배적 견해에 맞선, 기록으로 남은 이념적 결별이다.",
+
+  "t-e-lawrence.achievement.1":
+    "통과가 불가능하다고 여겨지던 육로 사막 횡단을 통해 1917년 아카바 습격을 직접 계획하고 지휘했으며, 이는 영국 측과 아랍 측 기록 모두로 뒷받침된다.",
+  "t-e-lawrence.achievement.2":
+    "《지혜의 일곱 기둥》은 단순한 군사 회고록이 아니라 진정한 산문 문학 작품으로 문학평론가들에게 독립적으로 평가받는다.",
+  "t-e-lawrence.moment.1":
+    "1917년 아랍 반란 전투 중 데라에서 포로로 잡혀 구타당했으며, 이는 《지혜의 일곱 기둥》에 기록되어 있다.",
+  "t-e-lawrence.moment.2":
+    "전쟁이 끝난 후 조지 5세가 제안한 기사 작위를 거절하고, 가명으로 영국 공군에 사병으로 입대했다.",
+  "t-e-lawrence.turning_point.1":
+    "아랍 반란을 이끌며 전시에 큰 성공을 거두었지만, 이후에는 공적 인정과 공식적인 지위로부터 의도적으로 물러났다 — 이는 단순한 야심의 패턴이 아니라 기록으로 남은 모순적인 궤적이다.",
+  "t-e-lawrence.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 부합한다 — 작전 중 감수한 구체적이고 심각하며 독립적으로 뒷받침되는 위험이다.",
+  "t-e-lawrence.interpretation.turning_point.1":
+    "이는 이 프로필에서 이중적 영향을 지닌 중간 수준의 성취 욕구와 리더십 욕구로 직접 반영되어 있다 — 명성과 공식적 지위에 대한 기록으로 남은 양가감정이며, 단순한 야망의 서사로 매끄럽게 다듬어지지 않았다.",
+
+  "elizabeth-cady-stanton.achievement.1":
+    "1848년 감정 선언문을 직접 작성했으며, 역사가들은 이 문서가 이후 수십 년간 신생 여성권리 운동의 핵심 논지를 구성하는 틀이 되었다고 평가한다.",
+  "elizabeth-cady-stanton.achievement.2":
+    "일곱 자녀를 키우면서도 20년에 걸쳐 여러 권으로 이루어진 《여성 참정권의 역사》를 공동 집필했다.",
+  "elizabeth-cady-stanton.moment.1":
+    "1848년 감정 선언문에 여성 참정권 요구를 포함시킬 것을 주장했으며, 이는 너무 급진적이라고 여긴 루크레시아 모트를 포함한 공동 주최자들의 명시적인 반대를 무릅쓴 것이었다.",
+  "elizabeth-cady-stanton.moment.2":
+    "자신이 속한 전미여성참정권협회로부터 공식적인 비판을 받았음에도 《여성의 성경》(1895)을 출판했다.",
+  "elizabeth-cady-stanton.turning_point.1":
+    "여성 참정권과 동시에 이루어지지 않는 수정헌법 15조 비준에 반대했으며, 이 입장은 여성권리 운동을 분열시키고 일부 이전 동료들과의 관계를 소원하게 만들었다.",
+  "elizabeth-cady-stanton.interpretation.moment.1":
+    "이는 이 프로필의 높은 독립적 사고와 부합한다 — 자신이 속한 운동 내에서 소수 입장을 고수한 구체적이고 시기가 특정된 사례다.",
+  "elizabeth-cady-stanton.interpretation.turning_point.1":
+    "이는 이 프로필에서 이중적 영향을 지닌 갈등 감내 점수로 직접 반영되어 있다 — 자신이 속한 운동 내부의 분열로 기록되어 있으며, 더 나은 인상을 위해 생략되지 않았다.",
+
+  "john-d-rockefeller.achievement.1":
+    "스탠더드 오일의 운영 전반에 걸쳐 배럴당 몇 분의 1센트 단위까지 비용 회계 장부를 직접 검토했으며, 부산물 활용 방법을 개발해 경쟁사들이 따라올 수 없는 수준까지 비용을 낮췄다.",
+  "john-d-rockefeller.achievement.2":
+    "은퇴 후 40년 넘게 록펠러 재단과 일반교육위원회를 설립하는 등 체계적이고 전문 인력을 갖춘 자선사업을 직접 지휘했으며, 사업에서 사용했던 것과 동일한 비용 효율성 원칙을 적용했다.",
+  "john-d-rockefeller.moment.1":
+    "1872년 '클리블랜드 대학살'을 단행해, 약 6주 만에 클리블랜드 지역 경쟁 정유소 26곳 중 22곳을 인수했다.",
+  "john-d-rockefeller.moment.2":
+    "50대에 겪은 심각한 스트레스성 질환 이후, 10년에 걸친 은퇴 기간 동안 건강과 대중적 평판을 다시 회복했다.",
+  "john-d-rockefeller.turning_point.1":
+    "수십 년에 걸쳐 계산된 압박 전술을 통해 경쟁 정유업체들을 체계적으로 몰아내고 인수하는 양상을 지속했으며, 이는 아이다 타벨의 당대 비판적 기록이 구체적으로 이름을 밝힌 경쟁자들을 통해 독립적으로 뒷받침된다 — 이는 결국 1911년 반독점법에 따른 대법원 명령으로 스탠더드 오일이 해체되는 결과로 이어졌다.",
+  "john-d-rockefeller.interpretation.moment.1":
+    "이는 이 프로필의 높은 결단력과 기회 포착 능력과 부합한다 — 당대의 사업 기록과 동일한 사건에 대한 비판적인 당대 기록 모두로 독립적으로 뒷받침되는, 신속하게 실행된 구체적인 통합 사례다.",
+  "john-d-rockefeller.interpretation.turning_point.1":
+    "이는 이 프로필에서 이중적 영향을 지닌 경쟁심 점수로 직접 반영되어 있다 — 비판적인 당대 출처로 독립적으로 뒷받침되는 전술이며, 이후의 자선가로서의 평판으로 덮이지 않았다.",
+
+  "bette-davis.achievement.1":
+    "1936년 영국 법정에서 자신이 착취적이라고 여긴 계약을 깨기 위해 워너 브라더스를 상대로 소송을 제기했다 — 스튜디오 시스템 전체에 법적으로 맞선 그 시대의 유일한 주요 전속 스타였다.",
+  "bette-davis.achievement.2":
+    "어떤 스튜디오도 제안하지 않던 《베이비 제인에게 무슨 일이 있었나?》(1962)를 직접 발굴하고 추진해 50대에 자신의 경력을 되살렸다.",
+  "bette-davis.moment.1":
+    "1941년 미국영화예술과학아카데미의 첫 여성 회장으로 선출되었으나, 이사회와의 의견 차이로 두 달 만에 사임했다.",
+  "bette-davis.moment.2":
+    "스튜디오의 자금 지원이 미온적이었을 때, 《베이비 제인》을 제작하기 위해 삭감된 급여 대신 수익 배분을 받아들였다.",
+  "bette-davis.turning_point.1":
+    "조앤 크로퍼드와 30년이 넘는 세월 동안 양쪽 모두에게서 뒷받침되는 경쟁 관계를 이어갔으며, 이는 《베이비 제인》 촬영 현장에서 둘 사이에 있었던 적대적인 행동까지 포함해 그 작품의 제작진의 독립적인 증언으로도 뒷받침된다.",
+  "bette-davis.interpretation.moment.1":
+    "이는 이 프로필의 높은 자율성 욕구와 주도적 행위성과 부합한다 — 창작 통제권을 두고 자신의 스튜디오를 상대로 소송을 제기한 그 시대의 유일한 주요 전속 스타였다.",
+  "bette-davis.interpretation.turning_point.1":
+    "이는 이 프로필에서 위험 요소를 지닌 낮은 협업 점수로 직접 반영되어 있다 — 경쟁 관계의 양쪽 모두로부터 뒷받침되며, 더 나은 인상을 위해 완화되지 않았다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

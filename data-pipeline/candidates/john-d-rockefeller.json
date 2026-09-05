@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-d-rockefeller",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "John D. Rockefeller",
+    "wikidataId": "Q160278",
+    "birthYear": 1839,
+    "deathYear": 1937,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "industrial",
+      "entrepreneurial",
+      "wealth_creation"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_jdr_chernow",
+      "kind": "biography",
+      "title": "Ron Chernow, Titan: The Life of John D. Rockefeller, Sr. (1998) — an independent, extensively archive-sourced biography"
+    },
+    {
+      "id": "src_jdr_own_reminiscences",
+      "kind": "archive",
+      "title": "John D. Rockefeller, Random Reminiscences of Men and Events (1909) — his own account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_jdr_business_rivals",
+      "kind": "archive",
+      "title": "Ida Tarbell, The History of the Standard Oil Company (1904) — a contemporary investigative journalist's independent, adversarial account based on court records and competitors' testimony, corroborating specific business practices from outside Rockefeller's own circle"
+    },
+    {
+      "id": "src_jdr_wikipedia",
+      "kind": "wikipedia",
+      "title": "John D. Rockefeller",
+      "url": "https://en.wikipedia.org/wiki/John_D._Rockefeller"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal practice of reviewing detailed cost-accounting ledgers down to fractions of a cent per barrel across Standard Oil's operations, independently corroborated by Chernow's review of surviving company records, not merely his own claimed frugality."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained daily practice of detailed personal bookkeeping beginning at age 16 and continuing throughout his life (his own ledger books survive and are held in archives), corroborated independently by Chernow's direct examination of these records."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as rebuilding Standard Oil's public standing and his own health across a decade-long retirement following a severe stress-induced illness (alopecia and digestive collapse in his fifties, independently documented by Chernow), redirecting sustained energy into systematic philanthropy for the following 40 years."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented as borrowing heavily and reinvesting nearly all profits into refinery expansion during the volatile early oil industry's frequent price crashes, a specific pattern of sustained capital risk independently corroborated by business historians' review of Standard Oil's early financial records."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as sustaining major capital commitments through the genuinely volatile and unregulated early oil industry's boom-bust cycles across two decades, inferred tolerance for that sustained market uncertainty from the documented investment pattern."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as executing the 1872 \"Cleveland Massacre\" (rapidly acquiring 22 of 26 Cleveland-area competitor refineries within about six weeks), a specific, dated, rapidly executed consolidation independently corroborated by contemporary business records and by Tarbell's adversarial account of the same events."
+    },
+    "social_assertiveness": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented and independently corroborated across multiple business associates' accounts (collected by Chernow) as personally soft-spoken and unassuming in direct manner, notably at odds with his public reputation for ruthlessness — a specific, repeated observation from people who negotiated with him directly."
+    },
+    "leadership_drive": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as retaining controlling operational authority over Standard Oil for nearly 30 years as it grew into the dominant force in the American oil industry, independently corroborated by corporate records and by Tarbell's adversarial account of his direct involvement in strategic decisions."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally negotiating the majority of Standard Oil's competitor buyouts directly and privately rather than through intermediaries, corroborated by multiple acquired competitors' own later accounts (some hostile, some grateful) of these one-on-one negotiations."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as sustaining decades of public vilification, congressional investigation, and eventually a 1911 Supreme Court-ordered breakup of Standard Oil under antitrust law, continuing operations and public philanthropy throughout rather than withdrawing from public life."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally studying and mastering oil refining's technical and logistical detail (transportation costs, byproduct utilization) well beyond what a purely financial executive would need, corroborated by Chernow's review of his direct technical correspondence with refinery managers."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, explicit lifelong ambition recorded in his own early diary entries (\"I was afraid I would not be a rich man\") sustained across a nearly 70-year business and philanthropic career, corroborated independently by the scale and duration of Standard Oil's expansion under his direction."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as consistently maneuvering to secure controlling ownership stakes rather than accept a minority position in ventures he led, a sustained pattern independently corroborated by corporate ownership records across Standard Oil's formation and growth."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as personally directing systematic, professionally-staffed philanthropy (founding the Rockefeller Foundation and the General Education Board) for over 40 years after retirement, explicitly modeled on the same rigorous cost-efficiency principles he applied to business — a documented, sustained later-life reorientation."
+    },
+    "cross_domain_range": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in oil-industry business and, later, philanthropic administration — real but modest range, scored at the safe default."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated his first refinery investment at 24 with borrowed capital and no family wealth behind him, and later personally initiated the systematic philanthropic institutions rather than simply donating to existing charities — both documented as self-directed undertakings."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing oil refining's consolidation potential earlier than most competitors, using the 1872 South Improvement Company railroad-rebate scheme to gain a decisive cost advantage before rivals organized a response, independently corroborated by business historians' analysis of the episode's timing."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as developing byproduct-utilization methods (finding commercial uses for refining waste products) to reduce costs below competitors' reach, independently corroborated by industry historians as a specific, attested cost-engineering innovation."
+    },
+    "belief_updating": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as substantially shifting from an intensely private, business-focused public posture toward large-scale, publicly visible systematic philanthropy following the public relations crisis of the Ludlow Massacre and Tarbell's exposé, a specific, dated reorientation in response to public criticism."
+    },
+    "competitiveness": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, sustained pattern of systematically outcompeting and acquiring rival refiners across decades, independently corroborated by Tarbell's adversarial contemporary account naming specific competitors driven out or bought out through calculated pressure tactics."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, extensively corroborated personal attention to fractional-cent cost accounting across Standard Oil's operations, attested both by his own surviving ledgers and independently by Chernow's direct archival review of company financial records."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The systematic, multi-year consolidation of the American oil refining industry under Standard Oil is documented as a deliberately sequenced strategy rather than opportunistic accumulation, independently corroborated by business historians' analysis of the trust's formation timeline."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q160278) before scoring. Depth-focused this cycle: rows corroborated by sources independent of and often adversarial to Rockefeller's own account (Tarbell's contemporary investigative history, Chernow's independent archival biography) were prioritized for the higher confidence band -- analytical_rigor, discipline, decisiveness, social_assertiveness, leadership_drive, persuasiveness, competitiveness, detail_orientation. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.538,
+    "coverage": 0.644,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-d-rockefeller-edmondson-1911.jpg",
+    "width": 1279,
+    "height": 1600,
+    "source": "Digital Public Library of America",
+    "license": "Public domain",
+    "licenseUrl": "https://dp.la/",
+    "attribution": "George Mountain Edmondson (1866-1948), 1911",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rockefeller,_John_D._1911-b_-_DPLA_-_70a190ed37886c2349cb4b4bfcd036d5.jpg"
+  }
+}

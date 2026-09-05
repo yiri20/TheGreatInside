@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "t-e-lawrence",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "T. E. Lawrence",
+    "aliases": [
+      "Lawrence of Arabia"
+    ],
+    "wikidataId": "Q170596",
+    "birthYear": 1888,
+    "deathYear": 1935,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_leader",
+      "writer",
+      "diplomat"
+    ],
+    "fieldIds": [
+      "military",
+      "literature",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "literary"
+    ],
+    "tagIds": [
+      "strategist",
+      "self_taught",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tel_seven_pillars",
+      "kind": "archive",
+      "title": "T. E. Lawrence, Seven Pillars of Wisdom (1926) — his own account, read critically alongside independent corroboration"
+    },
+    {
+      "id": "src_tel_wilson",
+      "kind": "biography",
+      "title": "Jeremy Wilson, Lawrence of Arabia: The Authorised Biography of T. E. Lawrence (1989) — an independent, extensively archive-sourced biography"
+    },
+    {
+      "id": "src_tel_arab_commanders",
+      "kind": "archive",
+      "title": "Independent accounts from Arab Revolt commanders who served alongside him (documented in later Arab historical accounts of the Revolt, and corroborated by British military records of the same campaigns from officers other than Lawrence)"
+    },
+    {
+      "id": "src_tel_wikipedia",
+      "kind": "wikipedia",
+      "title": "T. E. Lawrence",
+      "url": "https://en.wikipedia.org/wiki/T._E._Lawrence"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained pre-war archaeological fieldwork in Syria and self-directed study of Arabic language and Bedouin tribal custom over several years before the war, corroborated by Wilson's independent review of his archaeological correspondence and site reports."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained multi-year effort producing and repeatedly revising Seven Pillars of Wisdom -- including reconstructing the entire manuscript from scratch after reportedly losing a completed draft in 1919 -- corroborated by multiple surviving manuscript versions held in archives and independently examined by Wilson, not Lawrence's own account alone."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing the Arab Revolt campaign across nearly two years of harsh desert conditions, repeated setbacks, and at least one documented capture and severe mistreatment at Deraa, sustained until the campaign's conclusion at Damascus."
+    },
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally led irregular guerrilla raids deep into hostile territory (the Aqaba raid via an overland desert crossing considered impassable) and was documented captured and beaten at Deraa in 1917, both specific, severe, independently corroborated instances of extreme physical risk accepted in the course of the campaign."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as operating for extended periods with genuinely uncertain tribal alliances and unclear command authority between British and Arab command structures, sustained across the campaign without the clarity of a conventional military hierarchy, corroborated by British officers' own accounts of the campaign's ambiguous chain of command."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally deciding to attack Aqaba from the landward side after judging the seaward approach too heavily defended, a specific, dated strategic decision independently corroborated by British and Arab accounts of the successful 1917 raid."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as capable of commanding tribal leaders' attention and cooperation during the campaign, but also documented in his post-war years as deliberately reclusive, enlisting in the ranks under assumed names specifically to avoid public attention — genuinely mixed by life period, scored moderately."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as exercising real operational leadership during the Arab Revolt but explicitly and repeatedly refusing honors and rank afterward (declining a knighthood offered by King George V and enlisting as a private in the RAF under an assumed name), a documented, sustained ambivalence about formal leadership status rather than a simple drive toward it."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as directly persuading multiple independent tribal leaders (including Auda abu Tayi) to join the Arab Revolt's cause, corroborated by both his own account and by later Arab historical accounts of the Revolt crediting his role in these specific alliances."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as sustaining tension between his loyalty to the Arab cause and his duties to British command throughout the campaign, and later publicly criticizing the postwar Sykes-Picot settlement for betraying wartime promises to Arab allies — a sustained, documented ethical and political conflict he did not avoid."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained pre-war self-directed study of Arabic and Middle Eastern archaeology over several years before the war gave him any military role, corroborated by his own academic publications and Wilson's independent review of this period."
+    },
+    "achievement_drive": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as achieving major wartime success yet then deliberately retreating from public recognition and status afterward — a documented pattern that complicates a simple achievement-drive reading, scored near center to reflect the actual, contradictory arc rather than either extreme."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as operating with substantial independence from formal British military command structure throughout the Arab Revolt campaign, and later enlisting in the ranks specifically to escape both fame and hierarchical status entirely — a sustained, well-corroborated pattern across two very different life periods."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained postwar advocacy (in writing and in direct lobbying of the 1919 Paris Peace Conference) for Arab self-determination promises he had personally made during the campaign, corroborated by his own correspondence and by his documented attendance advocating for Faisal's cause."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive activity across archaeology, guerrilla military command, diplomacy, and literary writing (Seven Pillars is independently regarded as a significant literary work, not merely a memoir), each with real documented output."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally proposing and planning the Aqaba raid's unconventional overland approach against initial skepticism from British command, a self-initiated strategic proposal rather than an assigned mission."
+    },
+    "belief_updating": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as growing disillusioned with British postwar policy toward the Arabs he had fought alongside, a specific, sustained shift from wartime cooperation to public postwar criticism of his own government's broken commitments."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented meticulous attention to logistics and tribal-relations detail in planning desert operations, per his own campaign reports, though the broader evidentiary base beyond military planning is thinner, hence inference-level."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained working partnership with Arab commanders including Auda abu Tayi and Faisal bin Hussein across the nearly two-year campaign, corroborated by two independent source lines agreeing on the same pattern — his own account and separately, later Arab historical accounts of the Revolt describing genuine mutual respect and coordination, not one-sided British direction."
+    },
+    "opportunity_sensing": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing the strategic value of attacking the poorly-defended landward side of Aqaba before British command saw the same opportunity, corroborated by the campaign's documented outcome and subsequent military histories' analysis of the raid's planning."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as sustaining an irregular guerrilla campaign with limited supply and inconsistent tribal support by adapting tactics to available resources (camel-mounted raiding rather than conventional supply-line warfare), corroborated by military historians' independent analysis of the campaign's logistics."
+    },
+    "aesthetic_sensitivity": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Seven Pillars of Wisdom is independently regarded by literary critics as a work of genuine prose craft, not merely a military memoir, though the evidentiary base for aesthetic sensitivity beyond this one work is thinner, hence inference-level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q170596) before scoring. Depth-focused this cycle: rows corroborated by Arab commanders' independent accounts and by Wilson's independently archive-sourced biography (risk_tolerance, persuasiveness, collaboration, decisiveness, opportunity_sensing) were prioritized for the higher confidence band. The 1917 Deraa capture is scored strictly as a documented historical event relevant to persistence/risk_tolerance; no claim about his subsequent psychological state is made or scored anywhere on this profile. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.514,
+    "coverage": 0.648,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/t-e-lawrence-harris-ewing-1919.jpg",
+    "width": 1262,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Te_lawrence.jpg",
+    "attribution": "Harris & Ewing, 1919 (Paris Peace Conference portrait)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Te_lawrence.jpg"
+  }
+}

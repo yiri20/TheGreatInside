@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nellie-bly",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Nellie Bly",
+    "aliases": [
+      "Elizabeth Cochrane"
+    ],
+    "wikidataId": "Q230299",
+    "birthYear": 1864,
+    "deathYear": 1922,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "literature",
+      "business"
+    ],
+    "impactDomains": [
+      "literary",
+      "social",
+      "industrial"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "innovator",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nb_own_reporting",
+      "kind": "archive",
+      "title": "Nellie Bly, Ten Days in a Mad-House (1887) and Around the World in Seventy-Two Days (1890) — her own published investigative reporting"
+    },
+    {
+      "id": "src_nb_kroeger",
+      "kind": "biography",
+      "title": "Brooke Kroeger, Nellie Bly: Daredevil, Reporter, Feminist (1994) — an independent, archive-sourced biography"
+    },
+    {
+      "id": "src_nb_asylum_officials",
+      "kind": "institution",
+      "title": "Contemporary New York press coverage and the subsequent official grand jury investigation into Blackwell's Island asylum conditions, triggered directly by Bly's reporting and independently corroborating her account's specific claims"
+    },
+    {
+      "id": "src_nb_wikipedia",
+      "kind": "wikipedia",
+      "title": "Nellie Bly",
+      "url": "https://en.wikipedia.org/wiki/Nellie_Bly"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained pursuit of direct, firsthand investigation across genuinely distinct subjects — asylum conditions, factory labor conditions, a solo round-the-world journey, and later manufacturing patents — corroborated by her own published record of each undertaking, not one investigation repeated."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by the newspaper's own published serial record of her dispatches as they arrived (not her own account alone), as filing telegraph dispatches on a strict daily schedule throughout her 72-day round-the-world trip under real time and logistical pressure."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as beginning her journalism career by writing an anonymous rebuttal to a Pittsburgh Dispatch column demeaning working women, then persisting through the newspaper's initial dismissal of her as a novice to become a staff reporter, corroborated by Kroeger's independent account of this origin."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented career shift from investigative stunt journalism to war correspondent (covering the Eastern Front in WWI) to industrialist running her late husband's manufacturing company, inferred adaptability from the documented sequence of genuinely different roles."
+    },
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Documented as feigning insanity to gain admission to the Blackwell's Island women's asylum for ten days, with no guaranteed way to prove her sanity and secure release once inside — a specific, severe, independently corroborated risk (the grand jury investigation her reporting triggered confirms the conditions and circumstances she described)."
+    },
+    "ambiguity_tolerance": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as sustaining the asylum assignment for ten days without a guaranteed exit mechanism, and later undertaking the round-the-world trip with a fixed public deadline and no margin for serious delay — both documented as sustained functioning under genuine, high-stakes uncertainty."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as accepting her editor's around-the-world assignment and departing within days of the proposal, a specific, rapidly executed commitment corroborated by the newspaper's own contemporaneous account of the assignment's short lead time."
+    },
+    "social_assertiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by Kroeger's biography, as directly and repeatedly approaching newspaper editors as an unknown young woman to secure specific assignments (the asylum infiltration, the round-the-world trip) male reporters were preferentially given -- a repeated pattern across two separate, dated pitches, not one occasion."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally running the Iron Clad Manufacturing Company after her husband's death, holding patents in her own name and implementing employee welfare programs (gyms, libraries) independently corroborated by business records of the company during her ownership period."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by the newspaper's own account of the internal decision, as persuading a skeptical editor to fund the expensive, unproven round-the-world assignment for a young female reporter over more established male reporters who had also sought it."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as publishing findings that directly contradicted institutional denials from asylum officials, resulting in a public grand jury investigation, inferred sustained willingness to accept institutional pushback from the documented public dispute that followed publication."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Thin direct evidence of deliberate skill-building distinct from her investigative practice itself; scored at the safe default."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by contemporaneous newspaper records of her arrival, as deliberately setting out to beat the fictional 80-day record from Around the World in Eighty Days and completing the trip in a verified 72 days -- a specific, self-set, publicly documented and independently confirmed competitive benchmark she achieved."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as traveling the entire round-the-world route alone with minimal luggage by her own choice, against the era's strong convention that a woman traveling internationally required a chaperone, a documented deliberate independence."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her asylum exposé directly triggered a grand jury investigation and a documented subsequent increase of $1 million in the city's asylum budget, an independently corroborated, institutionally-confirmed social-impact outcome, not a claimed intention alone."
+    },
+    "cross_domain_range": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive activity across investigative journalism, war correspondence, and manufacturing business ownership (holding her own patents) — genuinely distinct domains with real documented output in each."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated her journalism career by writing an unsolicited rebuttal letter, and self-proposed the asylum infiltration assignment to her editor rather than being assigned it, both documented as her own initiative rather than others' proposals."
+    },
+    "opportunity_sensing": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing stunt/immersive journalism's commercial and reformist potential before it was an established genre, corroborated by press historians' account of her role in popularizing the form."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as maintaining her round-the-world schedule despite transportation delays by improvising alternative routes and connections, corroborated by the newspaper's own published account of specific logistical adjustments made en route."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of belief revision distinct from her general career adaptation; scored at the safe default."
+    },
+    "detail_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, specific, verifiable factual claims in her asylum reporting (staff names, meal contents, specific patient treatment) independently corroborated by the subsequent grand jury investigation's findings matching her account."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as racing against both the fictional 80-day benchmark and a rival journalist (Elizabeth Bisland) sent by a competing publication on the same day in the opposite direction, though the direct personal rivalry framing was substantially a publicity narrative — scored at inference level."
+    },
+    "aesthetic_sensitivity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of aesthetic sensitivity distinct from her reporting craft; scored at the safe default."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q230299) before scoring. Depth-focused this cycle: the asylum exposé is unusually well corroborated by an independent institutional record (the grand jury investigation it triggered and the documented $1M city budget increase that followed) -- risk_tolerance, impact_motivation, detail_orientation, and ambiguity_tolerance all draw on this independent confirmation, not her own account alone; discipline, social_assertiveness, and persuasiveness draw on the newspaper's own independent publication record rather than her memoir alone. Scored to 23 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 23,
+    "averageConfidence": 0.503,
+    "coverage": 0.676,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  }
+}
