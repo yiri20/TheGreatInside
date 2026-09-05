@@ -220,17 +220,27 @@ Zheng He remain)).
 
 ## Product
 
-- **Roster: 126 people, 125 match-eligible.** The 125-person target was
-  reached and closed out by roster-16 (below); roster-17 (2026-09) then
-  added one further person, John von Neumann (`roster17.ts`), from a
-  genuinely fresh, deliberately scaled-down intake cycle — see
-  [`docs/checkpoints/roster17-intake-and-safety.md`](../checkpoints/roster17-intake-and-safety.md)
-  for the full discovery-pool, preflight, and scoring record, including 6
-  other candidates from the same cycle (Andrei Sakharov, J. R. R. Tolkien,
-  George Bernard Shaw, Thurgood Marshall, Dolores Huerta, Paul Erdős) that
-  remain `held` — evidence-limited by a single-source research pass this
-  cycle, not by weak underlying evidence; each `holdReason` names what a
-  deeper pass would need.
+- **Roster: 125 people, 124 match-eligible.** The 125-person target was
+  reached and closed out by roster-16 (below). A roster-17 intake cycle
+  (2026-09) researched 13 genuinely new candidates and initially promoted
+  one, John von Neumann; a subsequent evidence-integrity audit found that
+  promotion's evidence pack rested on a single actually-consulted source
+  (Wikipedia) with two named biographies cited but never independently
+  read, and a large share of its rows re-derived from the same 2-4
+  achievement facts. A genuine multi-source correction (reading the real
+  1958 National Academy of Sciences biographical memoir and a 2023
+  scholarly essay quoting his own resignation letter and several firsthand
+  witnesses) produced a stronger but narrower profile that honestly came
+  out **below** `eligibility_v2`'s attribute-count floor — the promotion
+  was reverted rather than kept or rescued. Roster remains 125/124,
+  unchanged by this cycle. Full record, including the complete before/
+  after row-by-row audit:
+  [`docs/checkpoints/roster17-intake-and-safety.md`](../checkpoints/roster17-intake-and-safety.md).
+  6 other candidates from the same cycle (Andrei Sakharov, J. R. R.
+  Tolkien, George Bernard Shaw, Thurgood Marshall, Dolores Huerta, Paul
+  Erdős) remain `held` — evidence-limited by the same single-source
+  research pass, not by weak underlying evidence; each `holdReason` names
+  what a deeper pass would need.
   All roster-11 through roster-16 batches are merged to `main`: roster-16's
   9-person final intake batch merged as PR #9 (merge commit `7a6e306`);
   roster-15's 8-person batch merged as PR #8 (merge commit `33654c3` —
@@ -250,31 +260,28 @@ Zheng He remain)).
   Aurelius (`roster12.ts`) promoted 2026-09 from the roster-12 new-intake
   batch, with a real portrait and editorial content from first promotion —
   see the Roster 12 entry below. **The 125-person target was reached and
-  closed exactly (roster-16); roster-17 is one additional person beyond
-  it, not a resumption of the 1,000-person program** — see the
+  closed exactly (roster-16) and remains 125/124 after the roster-17
+  cycle's promotion was reverted on evidence-integrity grounds** — see the
   scalability audit
   ([`docs/checkpoints/scalability-audit-2026-09.md`](../checkpoints/scalability-audit-2026-09.md))
   for the architecture basis (`CURRENT_ARCHITECTURE_SAFE_TO_250`) and the
-  roster17 checkpoint for why this cycle intentionally stopped at 1
-  promotion instead of continuing to a larger batch.
+  roster17 checkpoint for the full audit/correction/reversion record.
 - **Eligibility rule: `eligibility_v2`** (`scored>=18`, `coverage>=0.6`,
   high-confidence-subset `count>=12`/`avgConf>=0.55`). See
   [`docs/reference/matching.md`](../reference/matching.md).
 - **Matching health**: max #1 match frequency ~9.8-12.0% (Warren Buffett)
-  across sessions/roster sizes, well under the 20%-at-n≥30 threshold.
-  Stable across roster growth, including the roster-17 addition (verified
-  via `sensitivity.ts seeds` at 126 people: mean 9.8%, range 9.2-10.4%
-  across 5 independent seed offsets).
+  across sessions, well under the 20%-at-n≥30 threshold. Stable across
+  roster growth.
 - **Editorial content** (achievements/moments/turning points on person
-  pages): **126/126 COMPLETE**, 660 total editorial items — re-verified
-  live via `src/dev/editorialCoverageAudit.ts` (2026-09, roster17 cycle).
-  The Remaining-19 Editorial Completion program reached **95/95 COMPLETE**
+  pages): **125/125 COMPLETE**, 655 total editorial items — re-verified
+  live via `src/dev/editorialCoverageAudit.ts` (2026-09). The
+  Remaining-19 Editorial Completion program reached **95/95 COMPLETE**
   on 2026-08-30 (Tier A 8/8, Tier B 52/52, Tier C 35/35, 505 total
   editorial items, 100% Korean coverage) for the roster as it stood then;
-  roster11 through roster17's 31 new people (2026-09) each shipped with
+  roster11 through roster16's 30 new people (2026-09) each shipped with
   full EN/KO editorial content from their own first promotion (see each
-  batch's own checkpoint), bringing evidence tiers to A 8/8, B 83/83, C
-  35/35 — 126/126 total — without a dedicated backfill program. Profile V2 sections
+  batch's own checkpoint), bringing evidence tiers to A 8/8, B 82/82, C
+  35/35 — 125/125 total — without a dedicated backfill program. Profile V2 sections
   (`lifeArc`/`complexities`/`legacy`) remain evidence-gated and
   asymmetric by design — omitted, not padded, where the record doesn't
   support them. **Profile Quality Normalization Batches A + B**

@@ -345,3 +345,259 @@ discover fresh candidates from scratch. Separately, resolving the
 Oceania/Pacific region-taxonomy gap (a `region.*` id, EN+KO i18n strings,
 directory-filter wiring) would unlock Edmund Hillary and similar future
 candidates without needing to research around it again.
+
+---
+
+## EVIDENCE-INTEGRITY AUDIT AND CORRECTION (2026-09, supersedes John von
+## Neumann's promotion above)
+
+**This section supersedes the "John von Neumann" promotion recorded
+above. It does not delete or hide that record — everything above this
+line is exactly what happened first, preserved as the audit trail.**
+What follows is a later, separate review that found the original
+23-row evidence pack inadequate for a live promotion, and a genuine
+re-research/rescore that corrected it. This is an evidence-integrity
+correction, not a deepening exercise performed to rescue eligibility —
+the corrected profile came out *less* eligible, not more, and that
+outcome was accepted rather than worked around.
+
+### Why the original evidence pack failed
+
+A final review before merge read every one of the original 23 rows
+against what research had actually been done, rather than what the
+file claimed. Two defects, both real:
+
+1. **The provenance note overstated its own methodology.** It claimed
+   evidence was "cross-checked against known biographical works Macrae
+   1992 and Ulam's own 1976 memoir rather than training-data recall
+   alone." In fact only one source had actually been fetched and read
+   (Wikipedia) — Macrae and Ulam were named because they are real,
+   well-known books about von Neumann, not because their text was
+   independently opened. This is precisely the "do not count Wikipedia
+   plus books cited by Wikipedia as multiple sources" failure mode.
+2. **A large cluster of rows re-derived from the same 2-4 underlying
+   facts.** Of the 23 original rows, 16 (70%) traced to just four fact
+   clusters: (a) "founded game theory and computer architecture" fed 8
+   rows (`systems_abstraction`, `independent_thinking`,
+   `creative_originality`, `cross_domain_range`, `adaptability`,
+   `ambiguity_tolerance`, `mastery_orientation`, `opportunity_sensing`);
+   (b) "high publication rate" fed 3 (`discipline`, `persistence`,
+   `achievement_drive`); (c) "ICBM/AEC committee membership" fed 3
+   (`risk_tolerance`, `leadership_drive`, `proactive_agency`); (d) two
+   Ulam-memoir-attributed anecdotes, never independently verified, fed
+   2 more (`curiosity`, `intuitive_synthesis`). Zero rows represented
+   genuine conflict, setback, or constraint evidence — every row was
+   achievement- or trait-flattering.
+
+### Newly consulted sources (this correction, all actually read)
+
+1. **Wikipedia** — unchanged, tertiary, kept for the facts it alone
+   still supports.
+2. **S. Bochner, "John von Neumann 1903-1957," National Academy of
+   Sciences Biographical Memoirs, vol. 32 (1958)** — fetched directly
+   as a PDF from `nasonline.org` and read in full (all 22 pages,
+   including the full bibliography). A near-primary institutional/
+   scholarly source: Bochner was a mathematician colleague writing
+   shortly after von Neumann's death.
+3. **Melvyn B. Nathanson, "Three Questions About John von Neumann,"**
+   **arXiv:2306.00741 (2023)** — fetched directly from arxiv.org and
+   read in full. A scholarly historical essay that itself quotes
+   several primary/near-primary voices: von Neumann's own March 19,
+   1956 resignation letter to Oppenheimer, his wife Klara von Neumann's
+   firsthand account, Benoit Mandelbrot's firsthand account, Eugene
+   Wigner's firsthand account, and the Atomic Energy Commission General
+   Advisory Committee's October 30, 1949 memorandum. These are cited in
+   the corrected candidate file as quoted within Nathanson's essay, not
+   as independently verified against Bhattacharya's 2021 biography or
+   the IAS archives directly — an honest distinction the corrected
+   file's provenance notes preserve.
+4. **atomicarchive.com institutional biography** — fetched and read;
+   yielded only already-known institutional facts, no new behavioral
+   content, not a meaningful contributor to the correction.
+
+**Not accessible this cycle, despite genuine attempts**: Norman
+Macrae's 1992 biography and Ulam's own 1976 memoir / 1958 AMS obituary
+(Project Euclid paywalled the latter; Internet Archive blocked full-text
+access to both the book and a scanned reprint of the obituary). Neither
+is listed as a consulted source in the corrected file, and no row is
+attributed to either.
+
+### Behavioral incident ledger (selected; full detail in the corrected
+
+candidate JSON's row rationales)
+
+- **Genuine, multi-witness interpersonal conflict** (previously
+  entirely absent): Bochner's memoir and Nathanson's essay (quoting
+  Klara von Neumann, Benoit Mandelbrot, Marston Morse, George Dyson,
+  Freeman Dyson) document roughly a decade of real professional/social
+  ostracism at the Institute for Advanced Study over von Neumann's
+  computer project — "not received with applause, to say the least"
+  (Klara von Neumann); "Von Neumann was simply being shunned. And he
+  was not a man to take it" (Mandelbrot). He sustained his direction,
+  accepted an alternate UCLA offer in 1954, and formally resigned via a
+  letter to Oppenheimer in March 1956 (quoted directly) that
+  nonetheless called his 22 years at the Institute "the most fruitful
+  ones of my life and scientific career" — only his diagnosis with
+  terminal illness prevented the actual move.
+- **A genuine, twice-independently-documented "being scooped" pattern**:
+  Bochner describes Elie Cartan immediately generalizing and publishing
+  past a 1929 von Neumann result; Nathanson independently describes
+  Godel's incompleteness theorem and Birkhoff's ergodic theorem each
+  superseding related von Neumann work within roughly the same window.
+  Temper's the flattering "sole originator" framing the original file
+  used uncomplicated.
+- **A specific, dated perfectionism incident** (Bochner): dissatisfied
+  with galley proofs, demanded costly revisions; the publisher (Springer)
+  absorbed the cost rather than lose him as an author.
+- **A specific, dated, named collaboration incident** (Bochner):
+  the F. J. Murray operator-algebra partnership from 1935, "many
+  discussions between them with a brisk give-and-take throughout."
+  - **A real primary-source policy reversal** (Nathanson): abandoned
+  advocacy for a pre-emptive strike on the USSR specifically once its
+  retaliatory capability became clear — a dated, concrete belief-update,
+  distinct from the position itself.
+- **A corrected, more honest social-behavior picture** (Bochner):
+  "would drink but rarely, although he would sometimes simulate gaiety
+  as if he had imbibed" — replacing an unverified "partied until early
+  hours" claim with an independently-sourced, more nuanced one.
+- **A previously-undocumented mixed-motivation finding** (Nathanson):
+  "Von Neumann wanted to be rich. Money was important to him... most
+  comfortable with people who were also from wealthy families" —
+  complicating a purely achievement/impact-driven motivational
+  narrative.
+
+### Old-row disposition (all 23 original rows)
+
+| Row | Disposition | Outcome |
+|---|---|---|
+| curiosity | SUPPORTED_BUT_OVERSTATED | Kept, rescored down (90/0.7 -> 78/0.55), regrounded in Bochner (Ulam claim unverifiable) |
+| analytical_rigor | SUPPORTED_AS_WRITTEN | Kept, confidence raised (0.82 -> 0.85), now doubly-sourced |
+| intuitive_synthesis | UNSUPPORTED | Removed — Ulam-only claim, unverifiable this cycle |
+| systems_abstraction | SUPPORTED_AS_WRITTEN | Kept, minor adjustment |
+| independent_thinking | DUPLICATIVE_INFERENCE | Removed — repackaged "founded new fields" fact; also complicated by new evidence of early-career caution |
+| creative_originality | SUPPORTED_BUT_OVERSTATED | Kept, tempered to dual_edged (Cartan/Godel/Birkhoff pattern) |
+| cross_domain_range | SUPPORTED_AS_WRITTEN | Kept, doubly-sourced |
+| discipline | SUPPORTED_BUT_OVERSTATED | Kept, corrected the "one paper/month" claim to the real count (45 papers/decade) |
+| deep_focus | UNSUPPORTED | Removed — single uncorroborated Wikipedia claim |
+| execution_speed | SUPPORTED_BUT_OVERSTATED | Kept, tempered — tutor relationship confirmed, specific anecdote not |
+| persistence | DUPLICATIVE_INFERENCE | Removed — repackaged output-rate fact |
+| adaptability | DUPLICATIVE_INFERENCE | Removed — repackaged cross_domain_range fact |
+| risk_tolerance | SUPPORTED_BUT_OVERSTATED | Kept, strengthened and upgraded to `documented` with a direct quote + AEC objection |
+| ambiguity_tolerance | SUPPORTED_AS_WRITTEN | Kept as a distinct facet |
+| decisiveness | UNSUPPORTED | Removed — single uncorroborated Wikipedia claim |
+| social_assertiveness | SUPPORTED_BUT_OVERSTATED | Kept, rewritten around Bochner's actual (different, more nuanced) account |
+| collaboration | SUPPORTED_AS_WRITTEN | Kept, strengthened with the specific Murray incident |
+| leadership_drive | DUPLICATIVE_INFERENCE | Removed — repackaged ICBM/AEC fact, no distinct behavior found |
+| mastery_orientation | SUPPORTED_BUT_OVERSTATED | Kept as a distinct facet, tempered (scooped-results pattern) |
+| achievement_drive | DUPLICATIVE_INFERENCE (rewritten, not removed) | Kept, rewritten around the newly-found money/status motivation rather than restated output volume |
+| impact_motivation | SUPPORTED_BUT_OVERSTATED | Kept, nuanced for the co-occurring financial motivation |
+| opportunity_sensing | DUPLICATIVE_INFERENCE | Removed — repackaged computer-architecture fact |
+| proactive_agency | DUPLICATIVE_INFERENCE | Removed — repackaged ICBM/AEC fact |
+
+**New rows added** (evidence genuinely supports, previously absent):
+`conflict_tolerance` (documented, 0.68 — the IAS-ostracism incident),
+`belief_updating` (strong_inference, 0.55 — the pre-emptive-strike
+reversal).
+
+### Corrected scoring result (real `validateCandidates.ts` output)
+
+- Scored attributes: **16** (down from 23; need 18)
+- Average confidence: **0.608** (up from 0.585)
+- Coverage: **0.479** (down from 0.695; need 0.6)
+- High-confidence count: **15 of 16** (comfortably clears the >=12 gate —
+  this profile is not thin on quality, only on breadth)
+- **Eligible: false**
+
+This is a real, unforced, mechanical result of applying the same
+`eligibility_v2` gate to a genuinely stronger but narrower evidence
+base — not a target. The scoring-lock integrity checker's own A/B/C/D
+policy tag was applied honestly: `ERROR_CORRECTION` (the false
+provenance claim) and `NEW_EVIDENCE` (the two newly-read sources) both
+apply, and are recorded as such in the candidate file's
+`provenance.notes`.
+
+### Production reversion (Part 8B)
+
+Because the corrected profile is ineligible, the promotion was fully
+reverted:
+
+- `john-von-neumann.json`: `status` changed `qa_passed` -> `held`, with
+  a `holdReason` naming the exact gap (16/18 attributes, coverage 0.48)
+  and what would close it (continued access to Macrae/Ulam, not more
+  reinterpretation of the same two sources used here).
+- `src/data/people/roster17.ts` and
+  `src/dev/roster1000/generateRoster17.ts` — deleted (the batch is now
+  empty).
+- `seed.ts` — the `ROSTER_17` import and spread removed.
+- `src/data/people/peopleIndex.generated.ts` and
+  `src/core/matching/dispersion.generated.ts` — regenerated; both are
+  now **byte-identical to `origin/main`** (verified via `git diff`).
+- `src/data/people/editorial.ts` and `src/core/i18n/editorial.ts` (EN +
+  KO) — the John von Neumann editorial block and text keys removed.
+- `src/core/i18n/ko.ts` — the Korean display name entry removed.
+- `public/portraits/john-von-neumann-los-alamos-1943.jpg` — deleted (an
+  orphaned production asset for an aborted promotion). The verified
+  portrait *metadata* (source, license, dimensions, Commons URL) is
+  preserved in the held candidate JSON's `portrait` field, so a future
+  cycle that closes the evidence gap does not need to re-source or
+  re-verify it from scratch.
+- `e2e/peopleDirectory.spec.ts`, `e2e/miriamMakebaProfileFix.spec.ts`,
+  `e2e/roster12MarcusAurelius.spec.ts` — restored exactly to
+  `origin/main` (the 124/125-people, 125/5-match assertions from before
+  this cycle).
+
+**Kept, not reverted** (these are real, independent of the promotion
+outcome): the roster-batch import-completeness test (Part 1), the
+`CURRENT_STATE.md` editorial-coverage correction and the
+scalability-audit correction (Part 1), and this checkpoint's full,
+honest record of both what happened and why it was corrected.
+
+### Final counts after reversion
+
+| Metric | Value |
+|---|---|
+| Internal roster | **125** (unchanged from before this cycle) |
+| Match-eligible / default-visible | **124** (unchanged) |
+| Editorial-complete | 125/125 (unchanged) |
+| `john-von-neumann` in `SEED_PEOPLE` | **false**, confirmed directly |
+
+### Six held candidates from Phase 2 — reaudited for honesty only, not
+
+deepened
+
+Andrei Sakharov, J. R. R. Tolkien, George Bernard Shaw, Thurgood
+Marshall, Dolores Huerta, Paul Erdős: confirmed unchanged (`git status`
+against the committed PR state showed zero diff on these five files —
+only `john-von-neumann.json` was touched this session). All remain
+`held`, all validator-clean, all correctly disclosing their own
+single-source research limitation in `provenance.notes`. Not deepened,
+not rescued, not otherwise touched.
+
+### Validation gate after reversion (all real, this session)
+
+- Candidate validator: 0 errors, 0 warnings (258 files; 93 qa_passed +
+  165 held)
+- Scoring-lock integrity: 0 flagged (after adding the required
+  `ERROR_CORRECTION`/`NEW_EVIDENCE` policy tag to
+  `john-von-neumann.json`'s `provenance.notes`)
+- TypeScript: clean
+- Vitest: 692/692
+- `peopleIndex.generated.ts`, `dispersion.generated.ts`: byte-identical
+  to `origin/main`
+- Production build: clean (see PR for exact page count on this build)
+- Full Playwright suite: to be reconfirmed as part of this correction's
+  own commit before push
+
+### Immediate next action
+
+PR #12 is corrected to a research/safety-only diff: the two pre-250
+hygiene fixes, plus 7 genuinely-researched (not fabricated) candidate
+evidence packs — 1 corrected to an honest `held` disposition after
+failing a stricter evidence-integrity bar, 6 unchanged from Phase 2 —
+and this full audit trail. No live roster17 promotion survives. A
+future cycle should not repeat the single-source shortcut; the fastest
+path to a genuine promotion is deepening one of the 7 held candidates
+(now including John von Neumann himself, whose remaining gap is
+specifically about accessing Macrae/Ulam, not about redoing this
+correction's own two sources) with real access to the sources this
+cycle could not open.

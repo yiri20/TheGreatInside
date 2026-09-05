@@ -1,8 +1,8 @@
 {
   "schemaVersion": "candidate_v1",
-  "processingVersion": "scoring_rubric_v1",
+  "processingVersion": "scoring_rubric_v1_evidence_correction",
   "slug": "john-von-neumann",
-  "status": "qa_passed",
+  "status": "held",
   "identity": {
     "canonicalName": "John von Neumann",
     "aliases": [
@@ -62,190 +62,143 @@
       "url": "https://www.wikidata.org/wiki/Q17455"
     },
     {
-      "id": "src_jvn_macrae",
-      "kind": "biography",
-      "title": "Norman Macrae, John von Neumann: The Scientific Genius (1992)"
+      "id": "src_jvn_bochner_nas",
+      "kind": "institution",
+      "title": "S. Bochner, \"John von Neumann 1903-1957\", National Academy of Sciences Biographical Memoirs, vol. 32 (1958) -- written by a mathematician colleague shortly after von Neumann's death. Fully read in this cycle (PDF fetched directly from nasonline.org).",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/von-neumann-john.pdf"
     },
     {
-      "id": "src_jvn_ulam",
-      "kind": "biography",
-      "title": "Stanisław Ulam, Adventures of a Mathematician (1976) -- independent firsthand account from his closest US friend and collaborator"
+      "id": "src_jvn_nathanson_2023",
+      "kind": "press",
+      "title": "Melvyn B. Nathanson, \"Three Questions About John von Neumann\", arXiv:2306.00741 (2023) -- a mathematician-historian's scholarly essay, itself quoting several primary/near-primary sources: von Neumann's own March 19, 1956 resignation letter to Oppenheimer, Klara von Neumann's firsthand account, Benoit Mandelbrot's firsthand account, Eugene Wigner's firsthand account, and the Atomic Energy Commission General Advisory Committee's October 30, 1949 memorandum. Fully read in this cycle (PDF fetched directly from arxiv.org). These embedded quotes are cited here AS QUOTED IN Nathanson, not as independently verified against Bhattacharya's 2021 biography or the IAS archives directly.",
+      "url": "https://arxiv.org/pdf/2306.00741"
     }
   ],
   "rows": {
     "curiosity": {
-      "score": 90,
-      "confidence": 0.7,
+      "score": 78,
+      "confidence": 0.55,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Documented encyclopedic interest well outside his professional fields -- passionate, sustained study of Ancient Greek historians in the original language and a 46-volume world history series -- corroborated independently by Ulam's memoir, not just his own reputation."
+      "rationale": "EVIDENCE-INTEGRITY CORRECTION (2026-09): originally scored 90/0.7 citing 'Ulam's memoir' as independent corroboration for a specific claim (Ancient Greek historians in the original language, a 46-volume history series) that was never actually verified -- Ulam's own book/obituary could not be accessed this cycle. Rescored down to what an actually-read independent source supports: Bochner's 1958 NAS memoir states directly, as a colleague with personal knowledge, that he 'was also a great reader of books on history throughout his life, and in both science and history his retentive memory was most remarkable' -- though Bochner himself hedges the strongest version of this ('legend has it that he knew all the facts and dates from many volumes of standard histories by heart') as hearsay, not witnessed firsthand. Confidence lowered to reflect that hedge."
     },
     "analytical_rigor": {
       "score": 95,
-      "confidence": 0.82,
+      "confidence": 0.85,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Doctoral thesis on axiomatic set theory (1925) and foundational axiomatization of quantum mechanics -- rigor attested by the surviving published work itself, independent of anecdote."
-    },
-    "intuitive_synthesis": {
-      "score": 82,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Ulam's own account that von Neumann's problem-solving 'might not be visual, but more aural' and the repeated pattern of going to sleep with a problem unsolved and waking with the answer -- a specific, named-source anecdote about his synthesis style, not a generic reputation claim."
+      "rationale": "SUPPORTED_AS_WRITTEN, confidence raised. Now independently corroborated by two actually-read sources: Bochner's NAS memoir gives a detailed technical account of the 1925 axiomatic set theory thesis and the Hilbert-space operator-theory work ('the naturalness with which he axiomatized the Hilbert space... was breathtaking to specialist and nonspecialist alike'), and Nathanson's 2023 essay independently confirms the same body of work's foundational character. Rigor attested by the surviving technical record itself, described directly by a mathematician colleague, not by anecdote or reputation alone."
     },
     "systems_abstraction": {
-      "score": 92,
-      "confidence": 0.75,
+      "score": 90,
+      "confidence": 0.72,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Founding contributions to game theory (with Morgenstern), the von Neumann computer architecture, and cellular automata / universal constructor theory -- each a documented, named, surviving body of formal abstraction work."
-    },
-    "independent_thinking": {
-      "score": 78,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Founded or co-founded entire new fields (game theory, digital computer architecture) with no established precedent to follow -- inferred independence from the documented novelty of the work itself."
+      "rationale": "SUPPORTED_AS_WRITTEN. Bochner's memoir gives a detailed, technical, independent account of the operator-algebra work (with F. J. Murray) and game theory's axiomatic development; Nathanson's essay independently confirms both as foundational contributions. Kept as a distinct dimension from cross_domain_range (this row concerns his mode of thought -- formal abstraction -- not the breadth of fields he applied it to)."
     },
     "creative_originality": {
-      "score": 85,
-      "confidence": 0.68,
-      "evidenceType": "documented",
-      "impact": "advantage",
-      "rationale": "Documented as the originator of the stored-program computer architecture still bearing his name and of modern game theory as a mathematical discipline -- both independently attested, named contributions."
-    },
-    "cross_domain_range": {
-      "score": 96,
-      "confidence": 0.8,
-      "evidenceType": "documented",
-      "impact": "advantage",
-      "rationale": "Documented substantive published contributions across pure mathematics, quantum mechanics, economics/game theory, computer science, and nuclear-weapons engineering (Manhattan Project implosion lens design) -- an unusually wide, independently verifiable span."
-    },
-    "discipline": {
-      "score": 80,
+      "score": 75,
       "confidence": 0.6,
       "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Documented publication pace of 'nearly one major mathematics paper per month' sustained from his late teens, corroborated by the surviving bibliography, not self-report."
-    },
-    "deep_focus": {
-      "score": 58,
-      "confidence": 0.5,
-      "evidenceType": "documented",
       "impact": "dual_edged",
-      "rationale": "Documented as doing 'some of his best work in noisy, chaotic environments' and receiving neighbor complaints for playing loud music while working -- a specific, corroborated pattern that cuts against conventional solitary deep-focus, scored dual-edged rather than assumed high."
+      "rationale": "SUPPORTED_BUT_OVERSTATED in the original file (85/0.68, impact: advantage, no complicating evidence). Two independently-read sources reveal a genuine, repeated pattern complicating a flat 'originator' narrative: Bochner's memoir describes Elie Cartan immediately recognizing and publishing a more general version of von Neumann's 1929 Lie-group result days after Cartan saw it ('There is hardly a young mathematician today who realizes that this familiar general proposition was von Neumann's discovery originally'); Nathanson's essay independently describes Godel's 1931 incompleteness theorem superseding a line von Neumann had been pursuing, and Birkhoff's 1931 'more fundamental' individual ergodic theorem following close on von Neumann's own mean ergodic theorem. Real, repeated originality is still documented, but scored dual-edged and at reduced confidence rather than an uncomplicated advantage."
     },
-    "execution_speed": {
-      "score": 90,
-      "confidence": 0.65,
+    "cross_domain_range": {
+      "score": 94,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "SUPPORTED_AS_WRITTEN, now doubly-sourced. Bochner's memoir and Nathanson's essay both independently confirm substantive, technically deep work across pure mathematics, quantum mechanics, game theory/economics, computing, and nuclear-weapons engineering (Nathanson: 'he moved from pure mathematics to physics to economics to engineering')."
+    },
+    "ambiguity_tolerance": {
+      "score": 75,
+      "confidence": 0.52,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Repeated, independently witnessed incidents of extremely fast mental calculation (Szegő's own account of being moved to tears meeting the teenage von Neumann) and rapid formal output -- corroborated by more than one named contemporary."
+      "rationale": "Retained as a distinct facet from cross_domain_range/systems_abstraction (comfort working with no established framework, rather than breadth or abstraction ability per se), grounded in the same independently-documented pattern of entering fields (game theory, computer architecture) with no precedent to follow. Confidence kept moderate since this is an interpretive angle on already-cited facts rather than a separately-observed incident."
     },
-    "persistence": {
-      "score": 72,
+    "mastery_orientation": {
+      "score": 78,
       "confidence": 0.5,
-      "evidenceType": "inference",
-      "impact": "advantage",
-      "rationale": "Inferred from a documented career of sustained, decades-long formal output across changing institutional contexts (Berlin, Princeton, wartime and postwar government work) rather than a single named persistence incident."
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "SUPPORTED_BUT_OVERSTATED originally (90/0.68, advantage only). Retained as a distinct facet (depth within each field, not breadth across fields), but tempered to dual_edged and lower confidence for the same Cartan/Godel/Birkhoff pattern noted under creative_originality -- his depth was real but not always the final or dominant word in a field he helped found."
     },
-    "adaptability": {
-      "score": 85,
+    "discipline": {
+      "score": 78,
       "confidence": 0.62,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Documented sequence of moving between substantively different fields at the frontier of each (pure mathematics to physics to economics to computing to weapons/defense policy) across a single career, each transition independently attested by the historical record of his published work."
+      "rationale": "SUPPORTED_BUT_OVERSTATED originally: the claim 'nearly one major paper per month' is not what the actual record shows. Nathanson's essay gives a precise, independently-sourced count: 45 papers on mathematics and mathematical physics between 1922 and 1932 -- a genuinely prolific rate (roughly 4-5 papers/year sustained for a decade) but well short of monthly. Corrected to the accurate figure."
     },
-    "risk_tolerance": {
-      "score": 68,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
-      "impact": "dual_edged",
-      "rationale": "Documented advocacy for hawkish Cold War nuclear policy positions and central role in the ICBM program -- a real, sourced, controversial stance scored dual-edged rather than flattened to a simple advantage."
-    },
-    "ambiguity_tolerance": {
+    "achievement_drive": {
       "score": 80,
       "confidence": 0.58,
       "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Inferred from documented, repeated work at the genuine frontier of entirely new fields with no existing formal framework to lean on (game theory, computer architecture) at the time he began each."
+      "impact": "dual_edged",
+      "rationale": "SUPPORTED_BUT_OVERSTATED originally (framed as pure output-volume drive). Nathanson's essay adds real, previously-missing evidence of mixed motivation: 'Von Neumann wanted to be rich. Money was important to him... he was most comfortable with people who were also from wealthy families,' and his later government consulting was partly to 'replenish his bank account.' Rescored dual-edged to reflect a genuinely more complex motivational picture (achievement AND status/financial motivation) rather than a flattering, single-cause drive narrative."
     },
-    "decisiveness": {
-      "score": 62,
-      "confidence": 0.45,
-      "evidenceType": "inference",
-      "impact": "neutral",
-      "rationale": "Documented committee style of 'deferring rather easily on personal or organizational matters but pressing on technical ones' -- a specific, sourced but narrow behavioral pattern, kept at inference level since it describes one context (committee work), not decisiveness generally."
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "SUPPORTED_AS_WRITTEN, strengthened and upgraded from strong_inference to documented. Originally a vague 'hawkish Cold War positions' claim; Nathanson's essay supplies a specific, dated, directly-quoted 1950 remark advocating a preemptive strike on the USSR ('If you say why not bomb them tomorrow, I say why not today?'), and independently documents that the Atomic Energy Commission's own General Advisory Committee formally objected in writing (Oct. 30, 1949) that the hydrogen bomb's use 'would involve a decision to slaughter a vast number of civilians' -- a real, on-record moral objection from his own professional peers to the position he championed. Kept dual-edged; this is now the best-evidenced row in the file precisely because it does not flatter him."
+    },
+    "execution_speed": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "SUPPORTED_BUT_OVERSTATED originally (90/0.65). The specific 'Szego moved to tears' anecdote remains single-sourced (Wikipedia only -- neither Bochner nor Nathanson repeats it). However, Nathanson's essay independently confirms Szego was a real, documented childhood tutor ('His father hired private tutors, first Gabor Szego and then Michael Fekete'), lending real convergent support to the relationship even though the specific emotional anecdote is not independently corroborated. Score and confidence reduced to reflect partial, not full, independent corroboration."
     },
     "social_assertiveness": {
-      "score": 62,
-      "confidence": 0.48,
-      "evidenceType": "strong_inference",
-      "impact": "neutral",
-      "rationale": "Documented as sociable and able to 'attend parties until the early hours' while still working -- corroborated pattern, but this is closer to gregariousness than assertive self-promotion, so scored moderate rather than high."
-    },
-    "collaboration": {
-      "score": 78,
+      "score": 68,
       "confidence": 0.55,
       "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Documented as 'always being happy to provide others of all ability levels with scientific and mathematical advice' and sustained close working partnerships (Ulam, Wigner, Morgenstern, the Manhattan Project team) -- corroborated by more than one named collaborator."
-    },
-    "leadership_drive": {
-      "score": 55,
-      "confidence": 0.42,
-      "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Held real committee and advisory authority (Atomic Energy Commission, ICBM program) but the documented style is advisory/technical influence rather than a documented drive to hold top formal command -- kept at inference level and a moderate score."
+      "rationale": "SUPPORTED_BUT_OVERSTATED originally, and REWRITTEN: the original 'attend parties until the early hours' claim was single-sourced (Wikipedia) and not corroborated. Bochner's memoir gives a different, independently-sourced, more nuanced account: 'nothing awkward about his manner in later life... courteous and could be quite jovial. In company he was an excellent raconteur... he never smoked, and would drink but rarely, although he would sometimes simulate gaiety as if he had imbibed.' Rescored around this actually-corroborated, more nuanced picture -- genuine social ease, but with a documented element of performance rather than substance-driven conviviality."
     },
-    "mastery_orientation": {
-      "score": 90,
-      "confidence": 0.68,
-      "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Inferred from the documented pattern of reaching foundational, discipline-defining depth in each field he entered (set theory, quantum axiomatics, game theory, computer architecture) rather than surface engagement."
-    },
-    "achievement_drive": {
-      "score": 85,
+    "collaboration": {
+      "score": 80,
       "confidence": 0.6,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Documented sustained high-volume, high-impact output across a compressed career (dead at 53) -- inferred drive from the sheer independently-verifiable rate and range of completed, published work."
+      "rationale": "SUPPORTED_AS_WRITTEN, strengthened. Bochner's memoir independently supplies a specific, named collaboration incident beyond the original's generic 'partnerships' claim: working with F. J. Murray on operator algebras from 1935, 'Murray's partnership was not a nominal one. There were many discussions between them with a brisk give-and-take throughout.'"
     },
     "impact_motivation": {
-      "score": 75,
-      "confidence": 0.5,
-      "evidenceType": "inference",
-      "impact": "advantage",
-      "rationale": "Documented deliberate move from pure theory into high-stakes applied defense and computing work during and after WWII, inferred as motivated by wanting real-world impact rather than continuing purely theoretical work."
-    },
-    "opportunity_sensing": {
-      "score": 78,
-      "confidence": 0.5,
-      "evidenceType": "inference",
-      "impact": "advantage",
-      "rationale": "Documented early move into digital computer design at its true infancy, inferred as recognizing the field's importance well before it was an established discipline."
-    },
-    "proactive_agency": {
-      "score": 75,
+      "score": 65,
       "confidence": 0.48,
       "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "SUPPORTED_BUT_OVERSTATED originally as a clean 'wanted real-world impact' narrative. Nathanson's essay reveals this was genuinely mixed with the financial/status motivation documented under achievement_drive -- his shift into applied defense/computing work cannot honestly be attributed to impact-seeking alone. Rescored down and to neutral impact to reflect that complexity rather than a single flattering motive."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Documented initiative in pressing for the ICBM program alongside Schriever and Gardner rather than merely responding to assigned tasks -- inferred proactive agency from this specific, named episode."
+      "rationale": "NEW ROW -- this personality dimension was entirely absent from the original 23-row profile, which the evidence-integrity audit correctly flagged as containing no genuine conflict/setback/constraint evidence. Nathanson's essay, quoting multiple independent named firsthand witnesses, documents years of real professional and social ostracism at the Institute for Advanced Study over von Neumann's computer project: his own wife Klara von Neumann wrote his 1945-46 proposal 'was not received with applause, to say the least' and that colleagues were 'stunned, or even horrified'; mathematician Benoit Mandelbrot (present at Princeton) described him as 'under extreme pressure... from mathematicians, who were despising him for no longer being a mathematician; by the physicists, who were despising him for never having been a real physicist; and by everyone for having brought to Princeton this collection of low-class individuals called programmers... Von Neumann was simply being shunned.' Rather than retreating, he sustained his direction for roughly a decade, accepted an alternative UCLA position in 1954, and formally resigned via a letter to Oppenheimer (March 19, 1956) that -- despite the documented years of friction -- described his 22 years at the Institute as 'the most fruitful ones of my life and scientific career.' A real, sourced, multi-witness incident, not an inference from achievement."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "NEW ROW. Nathanson's essay documents a specific, dated instance of revising a strongly-held position: von Neumann 'abandoned the effort to launch a pre-emptive strike [on the USSR] when it became obvious that the Soviet Union had enough nuclear weapons to retaliate' -- a concrete change of policy stance in direct response to changed strategic facts, distinct from the risk_tolerance row (which describes the original stance, not its revision)."
     }
   },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
     "updatedAt": "2026-09-05T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q17455) before scoring. Evidence drawn from a live Wikipedia fetch (cross-checked against known biographical works Macrae 1992 and Ulam's own 1976 memoir) rather than training-data recall alone. Scored to 22 attributes on genuine evidence availability; several plausible attributes (aesthetic_sensitivity, planning_orientation, competitiveness, autonomy_need, conflict_tolerance) were deliberately left unscored -- evidence gathered this cycle did not clear the bar for a defensible row, not because they'd hurt eligibility."
+    "notes": "Change reason: ERROR_CORRECTION and NEW_EVIDENCE (both apply -- see below). EVIDENCE-INTEGRITY CORRECTION (2026-09), superseding the original roster-17 scoring pass. The original file's provenance note claimed evidence was 'cross-checked against known biographical works Macrae 1992 and Ulam's own 1976 memoir' -- this was inaccurate. Only one source (Wikipedia) was actually fetched in the original pass; Macrae and Ulam were named because they are real, well-known books about von Neumann, not because their text was independently read. That overstatement is the specific defect this correction fixes. This cycle actually consulted and read in full: (1) Wikipedia (unchanged, tertiary), (2) S. Bochner's 1958 National Academy of Sciences Biographical Memoir, fetched directly as a PDF from nasonline.org and read in full -- a near-primary institutional/scholarly source authored by a mathematician colleague, (3) Melvyn Nathanson's 2023 arXiv scholarly essay, fetched directly and read in full, which itself quotes von Neumann's own March 1956 resignation letter, his wife Klara von Neumann, Benoit Mandelbrot, Eugene Wigner, and the AEC General Advisory Committee's 1949 memorandum -- these are cited here as quoted within Nathanson's essay, not as independently verified against their original publications. Direct attempts to access Macrae's biography and Ulam's own memoir/AMS obituary this cycle were unsuccessful (paywalled/access-restricted at Project Euclid and the Internet Archive) -- they are NOT listed as consulted sources, and every row previously attributed solely to them was either rescored against an actually-verified source or removed. This correction removed 9 of the original 23 rows as duplicative repackaging of the same 2-3 achievement facts (independent_thinking, adaptability, opportunity_sensing, persistence, leadership_drive, proactive_agency) or as unverifiable single-source claims (intuitive_synthesis, deep_focus, decisiveness), rewrote or tempered 7 more against newly-verified evidence, and added 2 new rows (conflict_tolerance, belief_updating) that the original profile lacked entirely -- interpersonal conflict/setback evidence that a genuinely independent, multi-witness source base actually supports. This is an evidence-integrity correction, not a deepening exercise performed to preserve or improve eligibility; the resulting row count and coverage were not targeted in advance and are accepted as computed."
   },
   "computedEligibility": {
-    "scoredAttributeCount": 23,
-    "averageConfidence": 0.585,
-    "coverage": 0.695,
-    "eligible": true,
+    "scoredAttributeCount": 16,
+    "averageConfidence": 0.608125,
+    "coverage": 0.4788321167883211,
+    "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
   },
   "portrait": {
@@ -258,5 +211,6 @@
     "licenseUrl": "https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.jpg",
     "attribution": "Los Alamos National Laboratory, from \"Los Alamos: Beginning of an era, 1943-1945\" (1986) -- LANL released this image for use by anyone, provided the copyright holder is properly attributed",
     "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.jpg"
-  }
+  },
+  "holdReason": "EVIDENCE-INTEGRITY CORRECTION (2026-09): originally promoted to roster17 as qa_passed on a 23-row profile that a subsequent audit found rested on a single actually-consulted source (Wikipedia) plus two named biographies (Macrae, Ulam) that were cited but never independently read. A genuine multi-source re-research pass (National Academy of Sciences Biographical Memoir by S. Bochner 1958, and Melvyn Nathanson's 2023 scholarly essay quoting von Neumann's own resignation letter and multiple firsthand witnesses) replaced 9 duplicative/unverifiable rows, corrected 7 more, and added 2 genuinely new rows (conflict_tolerance, belief_updating) the original profile lacked. Honest result: 16 scored attributes (need 18) and coverage 0.479 (need 0.6) -- held purely on breadth, not on the quality of what is scored (15 of 16 rows clear the high-confidence threshold). A future cycle could plausibly close this gap with continued access to Macrae's and Ulam's actual texts (both were access-blocked this cycle) rather than further reinterpretation of the same two sources already used here."
 }
