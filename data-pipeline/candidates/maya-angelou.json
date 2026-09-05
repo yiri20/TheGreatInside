@@ -1,0 +1,253 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maya-angelou",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Maya Angelou",
+    "wikidataId": "Q19526",
+    "birthYear": 1928,
+    "deathYear": 2014,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet",
+      "activist",
+      "entertainer"
+    ],
+    "fieldIds": [
+      "literature",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "polymath",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ma2_caged_bird",
+      "kind": "archive",
+      "title": "Maya Angelou, I Know Why the Caged Bird Sings (1969) and the six subsequent autobiography volumes — her own account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_ma2_gillespie",
+      "kind": "biography",
+      "title": "Marcia Ann Gillespie et al., Maya Angelou: A Glorious Celebration (2008)"
+    },
+    {
+      "id": "src_ma2_lupton",
+      "kind": "biography",
+      "title": "Mary Jane Lupton, Maya Angelou: A Critical Companion (1998)"
+    },
+    {
+      "id": "src_ma2_wikipedia",
+      "kind": "wikipedia",
+      "title": "Maya Angelou",
+      "url": "https://en.wikipedia.org/wiki/Maya_Angelou"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained work across genuinely distinct fields across her life — dance, calypso singing, journalism in Ghana and Egypt, film directing, university teaching — each with real, attributable output, not dabbling."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "I Know Why the Caged Bird Sings is documented by literary historians as a formally distinctive entry in the autobiography genre (a self-contained narrative unit later extended across six further volumes, an unusual serial structure for the form), corroborated by its immediate critical reception in 1969."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, self-reported daily writing routine of renting a bare hotel room to write in, sustained across decades of producing seven autobiography volumes plus poetry collections, corroborated in multiple interviews describing the same specific practice."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as mute for almost five years after a childhood trauma (a specific, well-corroborated biographical fact from Caged Bird and independent biography), before rebuilding voice and public career from very limited early opportunity into sustained literary success only reaching wide recognition in her forties."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sequence of genuinely distinct careers across decades — dancer, singer, journalist based in Ghana and Egypt, civil rights organizer, writer, film director — each a real occupational shift rather than a single sustained path."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Relocated to Ghana and Egypt during the early 1960s pan-Africanist movement with no guaranteed position, and published Caged Bird's account of childhood sexual abuse in 1969 when such disclosure was rare in mainstream publishing — both documented, specific choices carrying real personal and professional exposure."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained years without a stable single career track before her forties, per the documented occupational record, suggesting tolerance for prolonged uncertainty — inferred from the pattern rather than a direct statement of comfort with it."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as the Northern Coordinator for the Southern Christian Leadership Conference at Martin Luther King Jr.'s personal request, and as a sought-after public speaker across decades — a specific organizational role and sustained public function, not general fame."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Accepted and executed the SCLC coordinator role and later directed her own film (Down in the Delta, 1998) as the first Black woman to direct a major studio film — both documented positions of real organizational authority she actively took on."
+    },
+    "persuasiveness": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Delivered the inaugural poem at Bill Clinton's 1993 inauguration, a specific documented instance of her rhetorical work reaching and moving a national audience, corroborated by contemporary press coverage of the event's reception."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of interpersonal conflict-seeking or avoidance beyond her documented civil-rights organizing work, which involved institutional rather than personal confrontation — scored at the safe default."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-directed study of multiple languages (she is credited with proficiency in six) alongside formal dance training under Alvin Ailey and Pearl Primus — depth pursued deliberately across distinct disciplines."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained pursuit of recognition across multiple fields into her later career (continuing to publish, teach at Wake Forest, and accept public honors into her eighties) rather than settling after Caged Bird's initial success."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her sustained civil-rights organizing work and her own stated intent (in interviews) that Caged Bird should speak for others who had experienced similar trauma but lacked a public voice reflect a documented motivation beyond personal career-building."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented pattern of leaving stable arrangements (a marriage, established roles) to pursue self-directed relocation and career changes across her twenties and thirties, per the biographical record of this period."
+    },
+    "aesthetic_sensitivity": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained formal dance training and a documented sensitivity to rhythm and oral tradition in her poetry (reviewers note her verse's roots in spoken/preached cadence) — real but inferred from craft reception rather than her own direct statement."
+    },
+    "cross_domain_range": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-dabbling activity across dance, music, journalism, activism, film direction, and writing — each with real documented output (professional performances, published journalism, a directed feature film), not superficial involvement."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the relocation to Africa, the approach to SCLC for an organizing role, and the decision to write Caged Bird after an editor's suggestion she turned into a serious project — a documented, sustained pattern of self-directed action."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as accepting a specific editorial suggestion (Robert Loomis's) to write an autobiography and turning it into her defining work — inferred as opportunity recognition from the documented outcome rather than a stated strategy."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as supporting herself and her son through a series of jobs (including as the first Black female cable car conductor in San Francisco, a specific, dated first) across a financially unstable early adulthood — a real but narrower resourcefulness record."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented evolution from Christian evangelist Reverend Ike associations and Nation of Islam sympathies in different periods toward her later, more ecumenical public persona — a real but thinly documented shift, scored at inference level."
+    },
+    "competitiveness": {
+      "score": 50,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Little direct documented evidence of competitive orientation toward specific rivals; scored at the safe default given thin, non-extreme evidence."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained working relationships within SCLC under King's direction and later with editor Robert Loomis across all seven autobiography volumes — real but concentrated evidence, hence inference-level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q19526) before scoring. Childhood trauma (five years of selective mutism after sexual abuse) scored only as a documented biographical fact underlying persistence, never as an inferred diagnosis. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 23,
+    "averageConfidence": 0.509,
+    "coverage": 0.685,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maya-angelou-inauguration-1993.jpg",
+    "width": 1600,
+    "height": 1065,
+    "source": "Wikimedia Commons (Digital Public Library of America / William J. Clinton Presidential Library)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Poet_Maya_Angelou_recites_a_poem_during_President_Clinton%27s_first_inauguration_-_DPLA_-_d4c2b0445361fbc3a46e1cf187041df9.jpg",
+    "attribution": "William J. Clinton Presidential Library, 1993 inauguration (U.S. federal government work)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Poet_Maya_Angelou_recites_a_poem_during_President_Clinton%27s_first_inauguration_-_DPLA_-_d4c2b0445361fbc3a46e1cf187041df9.jpg"
+  }
+}

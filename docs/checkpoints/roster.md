@@ -11,15 +11,17 @@ arithmetic), see
 
 ## Current numbers
 
-- **108 people, 107 match-eligible** (Zheng He is the sole exception —
+- **116 people, 115 match-eligible** (Zheng He is the sole exception —
   browsable, fails only the coverage gate). The People Directory's
-  default (unfiltered) view shows the match-eligible count (107), not the
-  raw total (108) — `filterPeople()` defaults `matchEligibleOnly` to true
+  default (unfiltered) view shows the match-eligible count (115), not the
+  raw total (116) — `filterPeople()` defaults `matchEligibleOnly` to true
   (`src/core/people/explorer.ts`). Miriam Makeba (`roster11.ts`) promoted
   from the roster-expansion-125 evidence program; Marcus Aurelius
   (`roster12.ts`) promoted from the roster-12 new-intake batch; 11 people
-  (`roster14.ts`) promoted from the roster-14 coverage-aware intake — see
-  "Known open items" below. Target: 125. Remaining gap: 17.
+  (`roster14.ts`) promoted from the roster-14 coverage-aware intake; 8
+  people (`roster15.ts`) promoted from the roster-15 coverage-aware
+  intake — see
+  "Known open items" below. Target: 125. Remaining gap: 9.
 - Branch history: `scale/roster-1000` (19 sessions) is fully merged into
   `main`; roster growth now continues via the frozen protocol below,
   directly on top of `main`-derived branches.
@@ -104,6 +106,23 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
   coverage or attribute count — and remains `held`, untouched after the
   determination. 96->107 match-eligible, 97->108 total. Full record:
   [`roster14-coverage-aware-intake.md`](roster14-coverage-aware-intake.md).
+- **Roster-15 coverage-aware intake (2026-09)**: used roster-14's
+  coverage-aware preflight as the standing method. Built a fresh
+  34-person discovery pool (19 carried forward from roster-14's own
+  preflighted-but-never-scored pool, 15 genuinely new), froze 12, scored
+  every candidate to 22 attributes. **8 of 12 crossed `eligibility_v2`
+  honestly** (Catherine the Great, Frederick the Great, James Joyce,
+  Marlene Dietrich, Maya Angelou, Miles Davis, Nina Simone, Ruth Bader
+  Ginsburg) — all fully product-complete from first promotion, including
+  four recent-enough deaths (Angelou, Davis, Simone, Dietrich) where
+  portrait rights were a genuine risk, resolved via U.S. federal
+  government works and Dutch Nationaal Archief/Anefo CC0 photographs.
+  Agatha Christie, Thomas Jefferson, Ulysses S. Grant, and Henry Ford (all
+  22 attributes, all coverage >=0.648) missed solely on the
+  high-confidence-count gate and remain `held` — a real, honest outcome,
+  not a coverage or attribute-count failure. 107->115 match-eligible,
+  108->116 total. Full record:
+  [`roster15-coverage-aware-intake.md`](roster15-coverage-aware-intake.md).
 - ~~**Standing merge blocker**: mobile quiz Likert-scale wrapping~~ —
   fixed on `fix/mobile-likert-wrap` (2026-08-22): `.tgi-likert__label`/
   `__options`/`__input` now shrink under the existing 640px breakpoint
@@ -193,29 +212,42 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
 
 ## Next recommended step
 
-Roster-14's coverage-aware intake ([`roster14-coverage-aware-intake.md`](roster14-coverage-aware-intake.md))
-closed out the postmortem's own recommended next action: raising the
-pre-freeze evidence target to ≥21-22-attribute-capable and freezing a
-smaller, stronger batch produced **11 of 12 honest `eligibility_v2` passes**
-(all product-complete and promoted via `roster14.ts`), against
-roster-12/13's combined 2 of 33 — confirming the postmortem's mathematical
-prediction in practice, not just in theory. Queen Victoria is the sole
-`held` result this cycle, missing only the high-confidence-count gate, not
-coverage or attribute count. 108 people, 107 match-eligible; gap to 125 now
-17. Separately: Che Guevara remains `qa_passed`, portrait-blocked, parked
-with no further search scheduled (not reopened this cycle, per instruction).
-The 29 roster-expansion-125 candidates remain `held`/`STRUCTURALLY_THIN`/
-unscored with no further action queued (alternate search closed). This
-cycle's own discovery pool also preflighted 22 further candidates not
-frozen this round (Abigail Adams, Elizabeth Cady Stanton, Harriet Beecher
-Stowe, F. Scott Fitzgerald, Zelda Fitzgerald, George Orwell, Bertrand
-Russell, Charles Dickens, Giuseppe Garibaldi, Carl Jung, Charlie Chaplin,
-Harry Houdini, Eva Perón, T. E. Lawrence, Qiu Jin, Édith Piaf, Duke
-Ellington, John D. Rockefeller, and others per the full list in the roster-14
-checkpoint) — a reasonable starting point for a future roster-15 discovery
-pool, though a fresh preflight against the corpus at that time should still
-be run rather than a blanket carry-forward. Otherwise, continue roster
-expansion in fresh discovery-pool batches using the protocol below (now
-including the roster-14 preflight refinement as standard practice, not a
-one-off), toward the 125-person target — routine production work, not a
-methodology audit, unless a genuinely new finding surfaces.
+Roster-15's coverage-aware intake ([`roster15-coverage-aware-intake.md`](roster15-coverage-aware-intake.md))
+confirmed roster-14's preflight method as reliable, repeatable practice,
+not a one-off result: **8 of 12 honest `eligibility_v2` passes** this
+cycle (all product-complete and promoted via `roster15.ts`), against
+roster-12/13's combined 2 of 33 and roster-14's 11 of 12 — a lower pass
+rate than roster-14 but still far above the pre-postmortem baseline, and
+the attribute-count preflight itself was again 100% accurate (all 12
+frozen candidates reached exactly the ≥22 attributes predicted). All 4
+misses this cycle (Agatha Christie, Thomas Jefferson, Ulysses S. Grant,
+Henry Ford) failed only on the high-confidence-count gate, not coverage or
+attribute count — a genuine, useful finding that the preflight predicts
+attribute *breadth* reliably but not confidence *distribution*, which
+depends on how directly the surviving sources speak to each specific
+trait, not just how many domains they cover. 116 people, 115
+match-eligible; gap to 125 now 9. Separately: Che Guevara remains
+`qa_passed`, portrait-blocked, parked with no further search scheduled
+(not reopened this cycle). Queen Victoria remains `held` from roster-14,
+untouched. The 29 roster-expansion-125 candidates remain
+`held`/`STRUCTURALLY_THIN`/unscored with no further action queued
+(alternate search closed). This cycle's own discovery pool preflighted a
+further 3 new names not frozen this round (Andrew Jackson, Salvador Dalí,
+Nellie Bly) plus carried forward 12 names from roster-14's own unfrozen
+pool that remain unscored (John Adams, Abigail Adams, Elizabeth Cady
+Stanton, Harriet Beecher Stowe, F. Scott Fitzgerald, Zelda Fitzgerald,
+George Orwell, Bertrand Russell, Charles Dickens, Giuseppe Garibaldi, Carl
+Jung, Charlie Chaplin, Harry Houdini, Eva Perón, T. E. Lawrence, Qiu Jin,
+Édith Piaf, Duke Ellington, John D. Rockefeller — per the full list in the
+roster-15 checkpoint) — a starting point for roster-16's discovery pool,
+subject to a fresh preflight at that time rather than a blanket
+carry-forward. The four roster-15 `held` candidates (all with broad,
+22-attribute evidence packs short only on confidence distribution) are a
+concrete target for a future confidence-deepening pass — re-examining
+specific rows for additional corroborating sources — rather than fresh
+research, should a future cycle choose to pursue that instead of new
+candidates. Otherwise, continue roster expansion in fresh discovery-pool
+batches using the protocol below (the roster-14/15 preflight refinement is
+now standard practice, not a one-off), toward the 125-person target —
+routine production work, not a methodology audit, unless a genuinely new
+finding surfaces.

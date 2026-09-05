@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nina-simone",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Nina Simone",
+    "aliases": [
+      "Eunice Kathleen Waymon"
+    ],
+    "wikidataId": "Q174957",
+    "birthYear": 1933,
+    "deathYear": 2003,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer",
+      "composer",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "music",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "nonconformist",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ns_memoir",
+      "kind": "archive",
+      "title": "Nina Simone with Stephen Cleary, I Put a Spell on You (1992) — her own memoir, read critically alongside independent biography"
+    },
+    {
+      "id": "src_ns_cohodas",
+      "kind": "biography",
+      "title": "Nadine Cohodas, Princess Noire: The Tumultuous Reign of Nina Simone (2010)"
+    },
+    {
+      "id": "src_ns_daughter",
+      "kind": "archive",
+      "title": "The Amazing Nina Simone (2015 documentary) and Lisa Simone Kelly's own public interviews about her mother — a family member's firsthand account, read as documented but not neutral third-party testimony"
+    },
+    {
+      "id": "src_ns_wikipedia",
+      "kind": "wikipedia",
+      "title": "Nina Simone",
+      "url": "https://en.wikipedia.org/wiki/Nina_Simone"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained fusion of classical piano training with jazz, blues, folk, and gospel across her recorded output — a specific, attested cross-genre practice rather than a single style, corroborated by musicologists' analysis of her catalog."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her classically-trained piano technique combined with jazz/blues vocal phrasing is documented by music critics as a genre-defying signature style unlike her contemporaries, attested across decades of critical reception, not a single review."
+    },
+    "discipline": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Underwent years of rigorous classical piano training from childhood (local community-funded lessons, then Juilliard preparatory study) documented as a sustained, demanding practice regimen before any performing career began."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as rejected by the Curtis Institute of Music in 1951 despite her preparation, a rejection she and biographers attribute partly to racial discrimination; continued a professional music career afterward rather than abandoning performance, and rebuilt her career after a self-imposed exile from the US music industry in the 1970s-80s."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented shift from aspiring classical concert pianist to nightclub singer (a career she had not planned and initially resisted, per her own memoir) after the Curtis rejection closed her intended path, then again from mainstream jazz/pop performer to explicitly political civil-rights-era artist in the 1960s."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Released \"Mississippi Goddam\" in 1964 as a direct, unambiguous response to the Birmingham church bombing and Medgar Evers's assassination, documented as costing her bookings and radio play in parts of the US South — a specific, attested professional cost accepted for the statement."
+    },
+    "ambiguity_tolerance": {
+      "score": 40,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Biographers and her daughter's own public accounts document volatile mood patterns and documented later-life psychiatric treatment — described here only as a behavioral pattern from the record, not as an inferred diagnosis; scored below center on tolerance for unresolved uncertainty rather than assumed neutral."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Widely documented by concert reviewers and biographers as commanding, sometimes confrontational stage presence — including documented instances of stopping performances to address audience behavior directly — a specific, repeated pattern rather than general temperament."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Became a prominent civil-rights-movement voice through her music and public statements but did not build or lead a formal organization — influence through artistic platform rather than institutional leadership, scored near center."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "\"Mississippi Goddam\" and \"To Be Young, Gifted and Black\" are documented by music historians as directly influential civil-rights-era anthems adopted by the movement, a specific, attributable persuasive/cultural effect beyond commercial performance."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as willing to publicly criticize the pace of the mainstream civil-rights movement and to advocate more confrontational positions than some contemporaries, sustained across interviews and public statements through the 1960s."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented years of formal classical piano study under a specific mentor (Muriel Mazzanovich, who arranged funding for her early training) with the explicit stated goal of becoming the first major Black American classical concert pianist — a sustained, deliberate mastery pursuit predating her actual career."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, explicit lifelong ambition specifically toward classical concert-pianist status, sustained even after her actual career diverged into popular music, per her own repeatedly stated disappointment in her memoir about not achieving that original goal."
+    },
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly reoriented her music toward civil-rights themes starting in 1964, stating in later interviews that she felt an obligation to use her platform for the movement — a documented, self-articulated shift in purpose, not inferred from output alone."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Left the mainstream US music industry for Barbados, Liberia, and later Europe across the 1970s-80s on her own terms rather than through label or management direction, documented as a sustained self-directed period of relocation."
+    },
+    "aesthetic_sensitivity": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained formal classical training combined with a widely analyzed distinctive vocal and arrangement style — musicologists specifically cite her chord voicings and phrasing as a deliberate aesthetic signature, not incidental style."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive work across classical piano, jazz/blues/soul performance, songwriting, and political activism — genuine range within and adjacent to music, though not extending to fully unrelated fields, hence inference-level."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the shift to explicitly political material in 1964 and the later self-imposed exile from the US, both documented as her own decisions rather than externally directed career moves."
+    },
+    "competitiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of rivalry-oriented competitiveness with named peers; scored at the safe default."
+    },
+    "collaboration": {
+      "score": 42,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "Biographers and family accounts document a pattern of volatile, sometimes short-lived working relationships with bandmates and business managers across her career — real but relying substantially on secondhand and family accounts, hence inference-level rather than documented."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The 1964 political turn represents a real, documented shift in artistic direction, though the underlying personal belief change is inferred from the output shift rather than a detailed first-person account of reconsidering her prior views."
+    },
+    "opportunity_sensing": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Took the nightclub singing opportunity that funded her family after the Curtis rejection, documented as a pragmatic pivot rather than her original intent, inferred as opportunity-taking under constraint."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q174957) before scoring. Later-life psychiatric treatment (bipolar disorder has been publicly discussed by her family and biographers) is used only to inform ambiguity_tolerance as a documented behavioral pattern, never asserted or scored as a diagnosis on this profile. collaboration and some interpersonal rows draw partly on her daughter's public accounts, treated as documented family testimony rather than neutral third-party corroboration per the rubric. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.505,
+    "coverage": 0.655,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nina-simone-schiphol.jpg",
+    "width": 1061,
+    "height": 1600,
+    "source": "Wikimedia Commons (Nationaal Archief / Anefo)",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nina_Simone_op_Schiphol,_Bestanddeelnr_922-2009.jpg",
+    "attribution": "Jack de Nijs / Anefo -- Nationaal Archief (Dutch National Archives)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nina_Simone_op_Schiphol,_Bestanddeelnr_922-2009.jpg"
+  }
+}

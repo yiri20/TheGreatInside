@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marlene-dietrich",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Marlene Dietrich",
+    "wikidataId": "Q4612",
+    "birthYear": 1901,
+    "deathYear": 1992,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor",
+      "singer",
+      "entertainer"
+    ],
+    "fieldIds": [
+      "film",
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "career_changer",
+      "nonconformist",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_md_riva",
+      "kind": "biography",
+      "title": "Maria Riva, Marlene Dietrich (1992) — written by her own daughter, a firsthand but not neutral account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_md_bach",
+      "kind": "biography",
+      "title": "Steven Bach, Marlene Dietrich: Life and Legend (1992)"
+    },
+    {
+      "id": "src_md_letters",
+      "kind": "archive",
+      "title": "Marlene Dietrich's USO tour correspondence and wartime broadcast scripts (US National Archives / Marlene Dietrich Collection Berlin)"
+    },
+    {
+      "id": "src_md_wikipedia",
+      "kind": "wikipedia",
+      "title": "Marlene Dietrich",
+      "url": "https://en.wikipedia.org/wiki/Marlene_Dietrich"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented formal training in violin before an injury ended that path and she moved to acting, and a later documented interest in practical wartime engineering (she trained on and demonstrated the Bulova wartime device, the M2 mine detector, on USO tours) — genuine but narrower evidence, scored at inference level."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained physical regimen and meticulous self-presentation maintained across a decades-long film and stage career into her seventies, corroborated by directors' and co-stars' accounts of her exacting personal preparation before filming."
+    },
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented, specific accounts from directors (including Josef von Sternberg, with whom she made seven films) of her personally directing lighting adjustments for her own scenes and insisting on repeated takes for precise effect — a specific technical perfectionism, not general reputation."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rebuilt a second career as a cabaret and concert performer beginning in her fifties after her film career declined, documented as a sustained, successful reinvention rather than retirement, continuing to tour into her mid-seventies."
+    },
+    "adaptability": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, substantial career reinvention from 1920s German stage actress to Hollywood film star to WWII entertainer/propagandist to 1950s-70s cabaret headliner — each a genuinely distinct professional register with real, attributable success in each."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Publicly rejected overtures from the Nazi government (documented offers to return to Germany as a star performer) and instead became a US citizen in 1939 and toured extensively for Allied troops at the front, including near-front-line locations, at a time when this made her and her German relatives specific targets of Nazi propaganda condemning her as a traitor."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Widely documented across her entire performing career as constructing and controlling a specific, deliberate public persona (androgynous dress, controlled star image) rather than a passive subject of studio publicity, attested by biographers' review of her own correspondence about image control."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Exercised significant creative control over her own image and performances but did not build or lead a formal organization — influence through personal platform rather than institutional leadership, scored near center."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as a specifically effective and requested USO performer credited by military accounts with sustaining troop morale across over 500 shows near the front, a directly attributable persuasive/motivational effect distinct from box-office success."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, sustained public estrangement from Nazi Germany (and from some German public opinion that considered her a traitor for decades after the war) accepted as a consequence of her wartime position — real but the evidence for direct personal confrontation as a pattern beyond this one stance is thinner, hence inference-level."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented formal musical training on violin in her youth, and later self-directed study of practical bomb-detection technology and firearms handling specifically to be a credible presence entertaining troops near combat zones, per USO records."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained pursuit of star status across multiple reinventions and into old age (continuing to perform into her seventies, meticulously managing her public image even in reclusive final decades) rather than retiring after initial film success."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as negotiating unusually strong contractual control over her own image and roles for a woman in the studio system of her era, and living for decades in an open, unconventional marriage arrangement with documented independent relationships on both sides — a sustained pattern of self-directed personal and professional life."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Her wartime anti-Nazi broadcasts (recording German-language songs and messages for psychological-warfare use) reflect a documented motivation beyond personal career, though this is more consistently attested for the war years specifically than across her whole career."
+    },
+    "aesthetic_sensitivity": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal control over lighting, costume, and staging across her career (the specific, corroborated lighting-direction anecdotes with von Sternberg and later collaborators) show deliberate visual craft judgment, not incidental glamour."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive work across film acting, cabaret singing, and wartime USO entertainment/propaganda work — genuine range within and adjacent to performance, not extending to fully unrelated fields, hence inference-level."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated her US citizenship application and her own USO touring commitment rather than accepting a passive Hollywood publicity role, documented as her own repeatedly stated choice in wartime interviews and later memoir material."
+    },
+    "opportunity_sensing": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as reinventing her act specifically for the cabaret/concert format when film roles dried up in the 1950s, taking advantage of an available performance market rather than waiting for film offers — inferred from career timing."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented long working partnership with director Josef von Sternberg across seven films, though her daughter's memoir (a firsthand but not neutral source) also documents a demanding, sometimes difficult working style with others — genuinely mixed, scored near center."
+    },
+    "competitiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of rivalry-oriented competitiveness with named peers beyond general Hollywood star competition; scored at the safe default."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally overseeing minute details of her own lighting and camera angle across her filmed career, corroborated by cinematographers' accounts of her technical involvement beyond a performer's usual role."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained an unconventional, decades-long open marriage arrangement and a career built on repeated reinvention with no guaranteed next act — both documented patterns of tolerating sustained personal and professional uncertainty rather than seeking a fixed, settled arrangement."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q4612) before scoring. Primary biographical source (Maria Riva's memoir) is her own daughter's account, not a neutral third party — used per the rubric as a documented but non-independent source, cross-checked against Bach's independent biography where possible. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.5,
+    "coverage": 0.65,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/marlene-dietrich-signal-corps.jpg",
+    "width": 790,
+    "height": 978,
+    "source": "Wikimedia Commons (Library of Congress)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marlene_Dietrich_going_over_her_radio_script_3c04024_150px.jpg",
+    "attribution": "Charles Ray, U.S. Army Signal Corps, War Department -- Library of Congress",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Marlene_Dietrich_going_over_her_radio_script_3c04024_150px.jpg"
+  }
+}

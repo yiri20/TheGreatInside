@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ruth-bader-ginsburg",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Ruth Bader Ginsburg",
+    "wikidataId": "Q11116",
+    "birthYear": 1933,
+    "deathYear": 2020,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "jurist",
+      "lawyer"
+    ],
+    "fieldIds": [
+      "law",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "strategist",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_rbg_denotorious",
+      "kind": "biography",
+      "title": "Irin Carmon & Shana Knizhnik, Notorious RBG: The Life and Times of Ruth Bader Ginsburg (2015)"
+    },
+    {
+      "id": "src_rbg_hirshman",
+      "kind": "biography",
+      "title": "Linda Hirshman, Sisters in Law: How Sandra Day O'Connor and Ruth Bader Ginsburg Went to the Supreme Court and Changed the World (2015)"
+    },
+    {
+      "id": "src_rbg_own_writing",
+      "kind": "archive",
+      "title": "Ruth Bader Ginsburg, My Own Words (2016, co-edited essay/speech collection) — her own writing, read alongside independent biography"
+    },
+    {
+      "id": "src_rbg_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ruth Bader Ginsburg",
+      "url": "https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Designed and executed a deliberate, sequenced litigation strategy at the ACLU Women's Rights Project in the 1970s, choosing specific plaintiffs (including male plaintiffs, e.g. Moritz v. Commissioner) to build sex-discrimination precedent incrementally — a documented, systematic legal method, not case-by-case improvisation."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained record of dissenting opinions on the Supreme Court (Ledbetter v. Goodyear among the most cited) written and read from the bench specifically to signal disagreement to Congress and the public, a deliberate practice distinct from routine dissent."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued working through five separate cancer diagnoses and treatments across two decades on the Court, documented via her own and colleagues' accounts of maintaining her full opinion-writing and argument schedule during treatment."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Graduated tied for first in her Columbia Law class yet documented as unable to secure a law firm position or clerkship on the basis of her sex in the late 1950s, before building an academic and litigation career that eventually reached the Supreme Court — a documented multi-decade arc from exclusion to institutional authority."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Chose deliberately unconventional plaintiffs (men denied benefits available only to women) for her 1970s sex-discrimination cases specifically to make the doctrinal point starker to an all-male bench — a calculated, documented strategic risk rather than the more straightforward case selection colleagues initially proposed."
+    },
+    "decisiveness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as a methodical, incremental legal strategist rather than a rapid decision-maker; case selection for the Women's Rights Project took deliberate, extended planning per contemporaneous accounts — scored at inference level given the record shows process more than snap decisions."
+    },
+    "social_assertiveness": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Widely documented by colleagues and biographers as personally reserved and soft-spoken in direct interaction, in contrast to the forcefulness of her written opinions — scored below center rather than assumed high from her public reputation."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained close working and personal friendship with ideological opposite Justice Antonin Scalia for over two decades (shared opera attendance, joint public appearances explaining the friendship), a specific, well-attested cross-ideological collaboration."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Argued six gender-discrimination cases before the Supreme Court in the 1970s and won five, a directly attributable, documented persuasive record before the specific audience of the Court, not general reputation."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained a public, sometimes sharply worded dissent practice against the Court's majority for years on issues she considered fundamental (voting rights, pay equity), documented as a deliberate choice to remain publicly on record rather than defer to institutional consensus."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as learning Swedish specifically to co-author a comparative civil procedure book with a Swedish jurist early in her academic career, a specific, sustained instance of deep, self-directed skill acquisition outside her existing expertise."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to seek new legal challenges and a Supreme Court nomination well into her career rather than settling into academic tenure, corroborated by the sustained trajectory from professor to appellate judge to Supreme Court justice."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked within institutional structures (ACLU, then the federal judiciary) for her entire career rather than striking out independently — genuinely more institutionally embedded than autonomy-seeking, scored near center."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly designed her 1970s litigation strategy around building durable legal precedent for future cases rather than winning any single case for its own sake, documented in her own later writing and speeches describing the sequenced strategy's purpose."
+    },
+    "planning_orientation": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Women's Rights Project's case sequence was documented as a deliberately planned, multi-year litigation campaign building precedent step by step, not a reactive series of individual cases — a specific, structured, attributable plan."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Colleagues and clerks documented her opinions and briefs as unusually precise in citation and wording, corroborated by her own reputation among law clerks for meticulous editing of draft opinions."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as maintaining a consistent core legal philosophy across her career (incremental, precedent-based equality litigation) rather than substantially revising her approach — scored near center rather than assumed high or low."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in law (litigation, academia, judging) rather than genuinely disparate fields — scored near center rather than extended without evidence."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Co-founded the ACLU's Women's Rights Project herself in 1972 rather than joining an existing initiative, documented as her own self-initiated institutional creation."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as building a legal academic career and then a litigation practice despite explicit hiring discrimination that closed the conventional path, using teaching positions as an alternative route into the field — inferred from the career pattern."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing male-plaintiff cases as strategically stronger vehicles for sex-discrimination doctrine than more obvious female-plaintiff cases, a specific strategic insight attributed to her in multiple accounts of the Women's Rights Project's case selection."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented sustained interest in opera and comparative (Swedish) law beyond her core practice, though the broader evidentiary base for general intellectual curiosity is thinner than for her specific legal-strategic focus — scored near center."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q11116) before scoring. Health-related persistence evidence (five cancer treatments while continuing to work) scored only as documented behavior, no diagnosis-adjacent trait inferred beyond the discipline/persistence rows it directly supports. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.516,
+    "coverage": 0.653,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ruth-bader-ginsburg-scotus.jpg",
+    "width": 1067,
+    "height": 1600,
+    "source": "Wikimedia Commons (Collection of the Supreme Court of the United States)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_official_SCOTUS_portrait.jpg",
+    "attribution": "Official portrait, Collection of the Supreme Court of the United States (U.S. federal government work)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_official_SCOTUS_portrait.jpg"
+  }
+}

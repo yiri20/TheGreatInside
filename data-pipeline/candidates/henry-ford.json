@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henry-ford",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Henry Ford",
+    "wikidataId": "Q8768",
+    "birthYear": 1863,
+    "deathYear": 1947,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "engineer"
+    ],
+    "fieldIds": [
+      "business",
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "industrial",
+      "technological",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hf_watts",
+      "kind": "biography",
+      "title": "Steven Watts, The People's Tycoon: Henry Ford and the American Century (2005)"
+    },
+    {
+      "id": "src_hf_baldwin",
+      "kind": "biography",
+      "title": "Neil Baldwin, Henry Ford and the Jews: The Mass Production of Hate (2001) — documents the Dearborn Independent/\"International Jew\" campaign in detail"
+    },
+    {
+      "id": "src_hf_own_autobiography",
+      "kind": "archive",
+      "title": "Henry Ford with Samuel Crowther, My Life and Work (1922) — his own account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_hf_wikipedia",
+      "kind": "wikipedia",
+      "title": "Henry Ford",
+      "url": "https://en.wikipedia.org/wiki/Henry_Ford"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as a self-taught mechanic from adolescence, disassembling and repairing watches and farm equipment before any formal engineering training, and personally building his own experimental Quadricycle automobile in 1896 — sustained, hands-on technical exploration attested by surviving early devices and contemporaries' accounts."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The moving assembly line's development (1913) is documented as the product of systematic time-and-motion study of his own factory floor, applying incremental measured changes rather than a single inspired leap — a specific, attested engineering method."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The moving assembly line combined with a standardized, interchangeable-parts vehicle design is documented by industrial historians as a genuinely novel production-system synthesis at the time, independently corroborated by its near-universal subsequent adoption across manufacturing."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally spending years of nights and weekends building his first working automobile while still employed full-time as a chief engineer at Edison Illuminating Company, sustained until the 1896 Quadricycle was complete."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as failing with two earlier automobile ventures (the Detroit Automobile Company and the Henry Ford Company, both ending in his departure or the company's failure) before founding the Ford Motor Company successfully in 1903 at age 40."
+    },
+    "adaptability": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "Documented as refusing for nearly two decades to substantially update the Model T's basic design even as competitors innovated and market share eroded, resisting internal pressure (including from his own son Edsel) for change until the 1927 Model A — a documented, costly rigidity rather than adaptability."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented as doubling factory wages to $5/day in 1914, an unprecedented, widely-criticized-at-the-time move by industry peers, made as a calculated bet to reduce turnover and enable his workers to afford the cars they built — a specific, dated, high-stakes business decision."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The $5 day and the assembly line's implementation are documented as decisively executed once decided, though his multi-year resistance to updating the Model T shows the opposite pattern in a different domain — genuinely mixed, scored at inference level."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as maintaining direct personal control over Ford Motor Company's major decisions for decades, including forcing out professional managers and his own son's preferred initiatives when they conflicted with his own judgment, corroborated by company records of the period."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Documented as personally directing and funding the Dearborn Independent's sustained, multi-year antisemitic publishing campaign (\"The International Jew\") through the early 1920s despite public criticism and boycotts, only issuing a retraction and apology in 1927 under mounting legal and commercial pressure — a sustained, documented pattern of conflict pursued directly rather than avoided."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as a largely self-taught engineer who developed genuine mechanical expertise through hands-on practice rather than formal schooling, though the evidentiary base for sustained deliberate study beyond his early mechanical apprenticeship is thinner, hence inference-level."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained ambition across two failed ventures before founding a third, successful company, and later pursuing large-scale, personally directed projects beyond automobiles (the Ford Trimotor aircraft, the Fordlandia rubber plantation) into his later career."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as buying out virtually all outside shareholders in Ford Motor Company by 1919 specifically to eliminate outside influence over his decisions, a directly attributable, dated corporate action taken explicitly for that stated purpose."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "His own writing (My Life and Work) frames the $5 day and affordable-car mission in terms of broad social benefit (workers as consumers), a documented stated motivation, though this sits alongside the antisemitic publishing campaign's clearly harmful and explicitly acknowledged impact — the trait is scored dual-edged to reflect both documented sides rather than only the self-flattering account."
+    },
+    "cross_domain_range": {
+      "score": 45,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in automotive engineering and manufacturing, with later ventures (aviation, agriculture at Fordlandia) still within industrial production — scored at the safe default rather than inflated for range that stayed within a similar domain."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the Quadricycle project and later Ford Motor Company's founding after two prior venture failures, documented as his own repeated, self-directed attempts rather than a single opportunity handed to him."
+    },
+    "opportunity_sensing": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing, ahead of most competitors, that a mass market existed for a low-cost, standardized automobile rather than the expensive, custom-built vehicles most manufacturers focused on — a specific, attested strategic insight underlying the Model T's design brief."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as applying time-and-motion study techniques borrowed and adapted from meatpacking disassembly lines to automobile assembly, a specific, attested cross-industry adaptation of an existing method to a new problem."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The assembly line's development required granular measurement of individual task times documented in company records, though the broader evidentiary base for a general detail-oriented disposition beyond this specific project is thinner, hence inference-level."
+    },
+    "independent_thinking": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "The $5 day and mass-market pricing strategy both broke sharply from contemporary industrial norms and drew criticism from industry peers at the time — a documented instance of independent judgment, though his later refusal to update the Model T despite clear market evidence shows the same trait tipping into stubbornness, hence the moderate, dual-edged score."
+    },
+    "belief_updating": {
+      "score": 30,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented as sustaining the antisemitic Dearborn Independent campaign for years despite mounting public criticism, only retracting after a direct legal threat (a defamation suit from Aaron Sapiro) forced a formal apology in 1927 — a documented, sustained failure to revise a harmful position until externally compelled, scored low rather than omitted."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as an active public communicator later in his career (a nationally syndicated newspaper column, radio appearances, the widely-read My Life and Work), though earlier in life described by associates as more reserved and mechanically focused — genuinely mixed across his life stages, scored near center."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q8768) before scoring. The Dearborn Independent antisemitic publishing campaign is extensively documented historical fact (Baldwin's independent scholarly treatment, Ford's own eventual 1927 apology) and is scored directly and honestly here (impact_motivation dual-edged, conflict_tolerance and belief_updating both reflecting the documented harm), per CLAUDE.md's instruction to never rig results to flatter or to sanitize the historical record. No score infers a private mental state; all rows trace to documented public conduct. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.493,
+    "coverage": 0.661,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.661 (>=0.6 OK) but only 11 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the structural limits of this person's evidence base. Not rescued: no confidence raised post-validation."
+}

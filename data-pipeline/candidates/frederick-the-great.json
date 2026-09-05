@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "frederick-the-great",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Frederick the Great",
+    "aliases": [
+      "Frederick II of Prussia"
+    ],
+    "wikidataId": "Q33550",
+    "birthYear": 1712,
+    "deathYear": 1786,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader",
+      "writer"
+    ],
+    "fieldIds": [
+      "politics",
+      "military",
+      "music"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_fg_voltaire",
+      "kind": "archive",
+      "title": "The correspondence of Frederick II and Voltaire (spanning roughly 1736-1778) — a large, mutually preserved body of letters read by both sides for centuries"
+    },
+    {
+      "id": "src_fg_maccdonogh",
+      "kind": "biography",
+      "title": "Giles MacDonogh, Frederick the Great: A Life in Deed and Letters (1999)"
+    },
+    {
+      "id": "src_fg_blanning",
+      "kind": "biography",
+      "title": "Tim Blanning, Frederick the Great: King of Prussia (2015)"
+    },
+    {
+      "id": "src_fg_wikipedia",
+      "kind": "wikipedia",
+      "title": "Frederick the Great",
+      "url": "https://en.wikipedia.org/wiki/Frederick_the_Great"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a 40-plus-year correspondence with Voltaire ranging across philosophy, literature, and science, and personally composed and performed flute music (over 100 surviving compositions), corroborated by both the preserved letters and independently catalogued musical output."
+    },
+    "independent_thinking": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as attempting to flee his father's court and abdicate his succession at 18 rather than accept the military-focused upbringing forced on him, and later governing according to Enlightenment administrative principles (religious toleration, codified law) that broke from his father's more rigidly militarist model."
+    },
+    "discipline": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal work schedule of predawn rising and direct administrative review maintained across a 46-year reign, corroborated by his own correspondence describing the routine and by court records of his direct involvement in state minutiae."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Survived the Seven Years' War (1756-1763) against a coalition of Austria, Russia, and France that repeatedly brought Prussia to the edge of destruction (including the near-fatal 1759 defeat at Kunersdorf), continuing to lead the war effort for years rather than accepting terms that would have dismembered Prussia."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as repeatedly revising Prussian military tactics mid-war (the oblique order refined across several battles of the Seven Years' War) in direct response to specific battlefield outcomes, rather than applying a fixed doctrine throughout."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally led troops in numerous battles at direct physical risk (his coat was pierced by bullets at Kunersdorf, documented by multiple contemporary accounts), and launched the surprise 1740 invasion of Silesia that began his reign's defining and highest-stakes conflict."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to direct Prussian strategy through years of the Seven Years' War when the outcome was genuinely uncertain and Prussia's survival was in doubt, per his own wartime correspondence describing sustained resolve amid that uncertainty."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The 1740 Silesian invasion was launched within months of his accession, a documented, rapid strategic decision rather than a long-deliberated policy, per contemporaneous accounts of the invasion's short planning window."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented as sustaining direct, prolonged military conflict across three separate wars (the two Silesian Wars and the Seven Years' War) rather than pursuing diplomatic accommodation once initial territorial gains were secured."
+    },
+    "mastery_orientation": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained formal flute study under Johann Joachim Quantz maintained across decades even during active military campaigns, with over 100 surviving compositions independently catalogued by musicologists as a genuine, sustained practice, not a nominal royal hobby."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained pursuit of Prussia's elevation to great-power status across his entire reign (territorial expansion, administrative and legal reform, cultural patronage explicitly framed in his own writing as building lasting national standing), not a single campaign's ambition."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally directing military and administrative decisions throughout his reign rather than delegating broadly to ministers or generals, a sustained pattern corroborated by the volume of his own directive correspondence."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own political writings (Anti-Machiavel, written before his accession) explicitly frame the ideal ruler's duty in terms of the state's and subjects' long-term welfare rather than personal glory, though the degree to which his actual conduct as king matched this stated philosophy is a documented point of historical debate."
+    },
+    "aesthetic_sensitivity": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal composition and performance of flute music across decades, and direct involvement in commissioning Sanssouci palace's design, both attested by independently catalogued output rather than reputation alone."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-nominal activity across military command, statecraft, philosophy (his own published political and philosophical writing), and music composition — genuinely distinct domains with real documented output in each."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally initiating the 1740 Silesian invasion as his own strategic judgment rather than executing an inherited policy, and independently commissioning Sanssouci as his own designed retreat rather than accepting a conventional royal residence."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented tension between his youthful Anti-Machiavel philosophy (opposing wars of aggression) and his own later conduct (initiating Silesia's invasion) is read by historians as either genuine evolution under the pressures of rule or as a gap between stated ideals and practice — genuinely contested, scored near center at inference level."
+    },
+    "detail_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally reviewing detailed state administrative reports and military logistics rather than delegating them wholesale, corroborated by the volume and specificity of his surviving directive correspondence."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as ruling in a highly centralized, personally directive style with limited power-sharing even with senior generals and ministers — a real but inferred pattern from his governing style rather than a single documented statement of preference."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as maintaining an intellectual court at Sanssouci hosting Voltaire and other Enlightenment figures for extended stays, though his own later correspondence and biographers also describe a guarded, sometimes solitary personal temperament — genuinely mixed, scored moderately."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing and acting on the succession crisis following Emperor Charles VI's death in 1740 as the specific window to invade Silesia, timing the invasion to that narrow diplomatic opportunity rather than acting independent of it."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally commanding Prussian armies in the field across three wars rather than directing from the rear, and personally directing state administration for 46 years — a sustained, hands-on exercise of command authority rather than a ceremonial or delegated kingship."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q33550) before scoring. His father's forced witnessing of a close companion's (Hans Hermann von Katte) 1730 execution after their attempted flight is a documented, well-corroborated traumatic biographical fact, used here only to inform persistence/independent_thinking as documented history, never as grounds for a psychological diagnosis. Early-modern evidence discipline applied per scoring-rubric-v1 §8 despite an unusually rich surviving primary-source base (the Voltaire correspondence). Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.531,
+    "coverage": 0.654,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/frederick-the-great-graff.jpg",
+    "width": 1317,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Friedrich_der_Gro%C3%9Fe_(1781_or_1786)_-_Google_Art_Project.jpg",
+    "attribution": "Anton Graff, 1781 or 1786",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Friedrich_der_Gro%C3%9Fe_(1781_or_1786)_-_Google_Art_Project.jpg"
+  }
+}

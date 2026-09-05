@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "catherine-the-great",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Catherine the Great",
+    "aliases": [
+      "Catherine II of Russia"
+    ],
+    "wikidataId": "Q36450",
+    "birthYear": 1729,
+    "deathYear": 1796,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_cg_memoirs",
+      "kind": "archive",
+      "title": "Catherine the Great, The Memoirs of Catherine the Great (written across her life, various manuscript sections, first published in edited form 1859) — her own account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_cg_montefiore",
+      "kind": "biography",
+      "title": "Simon Sebag Montefiore, Catherine the Great and Potemkin (2000)"
+    },
+    {
+      "id": "src_cg_massie",
+      "kind": "biography",
+      "title": "Robert K. Massie, Catherine the Great: Portrait of a Woman (2011)"
+    },
+    {
+      "id": "src_cg_wikipedia",
+      "kind": "wikipedia",
+      "title": "Catherine the Great",
+      "url": "https://en.wikipedia.org/wiki/Catherine_the_Great"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained correspondence with Voltaire and Diderot across decades on philosophy and Enlightenment ideas, and personal patronage of specific scientific and cultural institutions (the Hermitage's founding collection, the Smolny Institute), corroborated independently by the surviving correspondence itself."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally drafted the Nakaz (Instruction, 1767), a detailed legal-reform document synthesizing Montesquieu and Beccaria into a proposed legal code for Russia, documented as her own sustained intellectual labor over an extended drafting period, not a delegated document."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as deposing her own husband, Peter III, in the 1762 coup and ruling in her own right rather than as a regent for their son Paul, a specific, unprecedented institutional choice for a non-native-born consort to make and sustain for 34 years."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal working routine of early rising and extensive correspondence and administrative review maintained across her 34-year reign, corroborated by her own letters describing the schedule and by court records."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as enduring years of a difficult, loveless arranged marriage and being deliberately marginalized at the Russian court before the 1762 coup, then sustaining the empire through the Pugachev Rebellion (1773-1775), a major existential threat to her rule, without abdicating or seeking external rescue."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented shift from an initially idealistic Enlightenment-reform agenda (the Nakaz, intended emancipation-adjacent proposals) toward more conservative, security-focused governance after the Pugachev Rebellion demonstrated the risks of destabilizing the nobility's support — a specific, dated policy pivot."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally organized and led the 1762 coup against her own husband, the reigning emperor, a specific documented act carrying severe personal risk (execution or lifelong imprisonment were plausible outcomes had it failed) that she planned and executed rather than merely supported."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as governing through the prolonged uncertainty of the Pugachev Rebellion and repeated wars with the Ottoman Empire across years without destabilizing decision-making, per contemporaneous accounts of her steady conduct during these crises."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The 1762 coup was executed within a tight, specific timeframe once set in motion, documented in multiple contemporary and near-contemporary accounts as swift and decisively carried out over a matter of days."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally cultivating relationships with foreign ambassadors, philosophers, and her own court favorites through direct correspondence and audience, described consistently across independent accounts as commanding and socially confident rather than withdrawn."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as actively seeking and securing sole rule rather than a regency or ceremonial role, and personally directing major state initiatives (legal reform, territorial expansion, cultural patronage) throughout a 34-year reign rather than delegating governance broadly."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as successfully securing the guards regiments' loyalty for the 1762 coup through personal persuasion and cultivated relationships beforehand, a specific, attributed persuasive achievement preceding the coup's execution."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as sustaining multiple wars with the Ottoman Empire and suppressing the Pugachev Rebellion through direct military action rather than negotiated accommodation, evidenced across separate multi-year conflicts."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as learning Russian and Orthodox religious practice deliberately and thoroughly after arriving as a German-born princess with no prior connection to Russia, specifically to be accepted as a legitimate Russian ruler — a sustained, self-directed cultural and linguistic study documented in her own memoirs."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, explicit ambition recorded in her own memoirs from a young age to rule in her own right rather than remain a consort, pursued deliberately over years before the opportunity to act on it arose in 1762."
+    },
+    "autonomy_need": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as ruling independently of any regency council or dominant advisor for the whole of her reign, and maintaining relationships with court favorites on her own terms rather than through arranged political marriage after Peter III's death."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Nakaz and her correspondence with Enlightenment philosophers document an explicit, articulated aim to modernize Russian law and administration for lasting effect, though the degree to which this reflected genuine conviction versus reputation management is a documented point of historical debate, capping confidence."
+    },
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal art acquisition building the founding Hermitage collection over decades, with specific attested involvement in individual purchase decisions via her own correspondence with agents and artists."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive engagement across statecraft, legal philosophy, military strategy, and art patronage — genuine range concentrated around the functions of rule, hence inference-level rather than extended into fully unrelated domains."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated and personally organized the 1762 coup rather than being placed on the throne by others, a documented, sustained pattern of self-directed political action from a position (a foreign-born consort) with no institutional claim to rule."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing and acting on Peter III's rapid loss of guards-regiment and court support in the weeks before the coup, timing her own action to that specific, narrow window rather than acting earlier or later."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as building political support networks from a position of initial isolation at court (a foreign, unpopular consort with no independent income or allies) into the coalition that carried out the coup — inferred as resourceful coalition-building from the outcome."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q36450) before scoring. Early-modern evidence discipline applied per scoring-rubric-v1 §8 despite an unusually rich surviving primary-source base (her own memoirs and Enlightenment correspondence) for the period — several rows capped at strong_inference rather than documented. Numerous romantic relationships with court favorites (Orlov, Potemkin, others) are well documented but scored here only where they bear directly on autonomy_need/social_assertiveness, not treated as evidence for unrelated traits. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.536,
+    "coverage": 0.655,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/catherine-the-great-levitzky.jpg",
+    "width": 1296,
+    "height": 1584,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Levitzky_Catherine_the_Great.jpg",
+    "attribution": "Dmitry Levitzky, c. 1780",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Levitzky_Catherine_the_Great.jpg"
+  }
+}

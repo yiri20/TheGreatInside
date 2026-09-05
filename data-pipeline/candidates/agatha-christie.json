@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "agatha-christie",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Agatha Christie",
+    "wikidataId": "Q35064",
+    "birthYear": 1890,
+    "deathYear": 1976,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "self_taught",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ac_autobiography",
+      "kind": "archive",
+      "title": "Agatha Christie, An Autobiography (written across decades, published posthumously 1977) — her own account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_ac_thompson",
+      "kind": "biography",
+      "title": "Laura Thompson, Agatha Christie: An English Mystery (2007)"
+    },
+    {
+      "id": "src_ac_morgan",
+      "kind": "biography",
+      "title": "Janet Morgan, Agatha Christie: A Biography (1984)"
+    },
+    {
+      "id": "src_ac_wikipedia",
+      "kind": "wikipedia",
+      "title": "Agatha Christie",
+      "url": "https://en.wikipedia.org/wiki/Agatha_Christie"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, self-taught acquisition of pharmacological knowledge while volunteering in a hospital dispensary during both World Wars, directly informing the technically accurate poisoning methods in her novels — a sustained, specific area of applied study, not general reading."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her detective plots are documented by genre historians as unusually rigorous in their logical fair-play construction (clues genuinely available to the reader, misdirection built on genuine logical gaps rather than withheld information) — a specific structural discipline recognized across her body of work, not a single novel's trick."
+    },
+    "creative_originality": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Murder of Roger Ackroyd (1926) and Murder on the Orient Express (1934) are documented by mystery historians as introducing narrative devices (an unreliable-narrator solution; a collective-culprit solution) genuinely novel to the genre at time of publication, independently attested by their lasting influence on the form."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained output of roughly one novel per year across a nearly 56-year career (66 novels total), maintained even through a highly publicized personal crisis in 1926 — an independently verifiable, sustained production record."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her first novel was rejected by multiple publishers over several years before The Mysterious Affair at Styles was accepted in 1920, documented via her own account and independent biography, after which she rebuilt a stable, prolific career following her well-documented 1926 personal crisis."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented shift from writing primarily detective fiction to also authoring Mary Westmacott romance novels under a pseudonym, and later adapting her own novels for the stage (The Mousetrap, still running) — real but narrower range than a full career reinvention, hence inference-level."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Little documented evidence of deliberate personal risk-taking; her famous 1926 disappearance is documented as a response to acute personal distress rather than a calculated risk, so it is not scored here as evidence of risk tolerance — scored at the safe default."
+    },
+    "ambiguity_tolerance": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The well-documented 11-day disappearance in December 1926, following her mother's death and her husband's announcement of an affair, is read by biographers as a genuine psychological crisis under acute unresolved stress — evidence pointing toward lower tolerance for that specific compounded uncertainty, scored below center rather than assumed neutral."
+    },
+    "decisiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as quickly divorcing her first husband once his affair was confirmed and, separately, deciding within a short courtship to marry archaeologist Max Mallowan 14 years her junior — specific, dated decisions, though the broader evidentiary base for a general decisiveness pattern is thinner, hence inference-level."
+    },
+    "social_assertiveness": {
+      "score": 40,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented and widely corroborated by her own autobiography and by biographers as personally shy and publicity-averse throughout her life, notably declining most interviews and public appearances despite her fame — a specific, sustained, well-attested pattern."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-directed study of poisons and forensic pharmacology (verified by pharmacists and toxicologists as generally accurate for the era) maintained and refined across her whole writing career, not a single research burst."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained a prolific, decades-long output and continued writing well past financial necessity, though her own autobiography frames writing more as a sustained craft and livelihood than an explicitly ambitious drive for status — scored moderately."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as maintaining tight personal control over her literary estate and adaptations (including the still-running stage rights to The Mousetrap) but otherwise working within conventional publishing relationships — scored near center."
+    },
+    "impact_motivation": {
+      "score": 50,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of motivation toward broader social or historical impact beyond her craft and career; her own writing frames her work primarily in craft and commercial terms — scored at the safe default rather than inflated from her enduring cultural influence, which is a separate question from her own motivation."
+    },
+    "detail_orientation": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, verified technical accuracy in poison dosages and effects across her novels (independently checked by toxicologists in later academic review) reflects sustained, careful factual research rather than atmospheric approximation."
+    },
+    "perfectionism": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as a fast, workmanlike writer who did not extensively revise drafts once a plot structure was set, per her own autobiography's description of her process — genuinely more efficient than perfectionist, scored near center."
+    },
+    "execution_speed": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as typically completing a novel manuscript within a few months once she had worked out the plot mechanics in advance, per her own account and publishers' records of her delivery schedule across decades."
+    },
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as working out a mystery's solution and clue structure in detailed notebooks before drafting prose, per surviving notebook archives held and studied at the Christie estate — a specific, attested planning method preceding composition."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented substantive activity across detective fiction, romance writing (as Mary Westmacott), stage adaptation, and hands-on archaeological fieldwork alongside her second husband — genuine range, though concentrated in literary and adjacent domains, hence inference-level."
+    },
+    "proactive_agency": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the Mary Westmacott pseudonymous novels specifically to write outside genre expectations without affecting her detective-fiction reputation, a documented deliberate choice though the broader pattern of self-directed career initiative is less extensively documented, hence inference-level."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained decades-long collaboration accompanying her second husband, archaeologist Max Mallowan, on excavations in Syria and Iraq, contributing photography and object-cataloguing to his expeditions per his own published acknowledgments."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as rebuilding her finances and public standing after her costly 1926 divorce by continuing steady novel production rather than any single dramatic recovery, and later using her hospital-dispensary access itself as a practical, self-taught source of technical material for her books."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q35064) before scoring. The 1926 disappearance is treated strictly as a documented event under acute personal stress, not as evidence for risk_tolerance and not as grounds for any diagnosis — used only to inform ambiguity_tolerance, per the rubric's discipline against inferring mental illness. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.466,
+    "coverage": 0.654,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.654 (>=0.6 OK) but only 8 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the structural limits of this person's evidence base. Not rescued: no confidence raised post-validation."
+}

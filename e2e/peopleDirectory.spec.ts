@@ -341,9 +341,13 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // either addition. Total updated 97->108 (roster-14 coverage-aware
   // intake, 11 people promoted via roster14.ts) — Abraham Lincoln (scored
   // curiosity 78, collaboration 75, both "advantage") newly satisfies this
-  // specific combination, raising the filtered count to 5.
+  // specific combination, raising the filtered count to 5. Total updated
+  // 108->116 (roster-15 coverage-aware intake, 8 people promoted via
+  // roster15.ts) — none of the 8 new people satisfy this specific
+  // curiosity+collaboration combination, so the filtered count of 5 is
+  // unchanged.
   const bodyText = (await page.locator("main").textContent())!;
-  expect(bodyText).toMatch(/전체\s*108명\s*중\s*5명/);
+  expect(bodyText).toMatch(/전체\s*116명\s*중\s*5명/);
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {

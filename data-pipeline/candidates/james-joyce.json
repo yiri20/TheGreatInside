@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "james-joyce",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "James Joyce",
+    "wikidataId": "Q6882",
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "self_taught",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_jj_ellmann",
+      "kind": "biography",
+      "title": "Richard Ellmann, James Joyce (1959, rev. 1982) — the standard scholarly biography"
+    },
+    {
+      "id": "src_jj_letters",
+      "kind": "archive",
+      "title": "Stuart Gilbert & Richard Ellmann, eds., Letters of James Joyce (3 volumes) — including his extensive, documented correspondence with Nora Barnacle"
+    },
+    {
+      "id": "src_jj_pound_weaver",
+      "kind": "archive",
+      "title": "Joyce's documented correspondence with Ezra Pound and his patron Harriet Shaw Weaver regarding Ulysses's serialization, funding, and the 1921 obscenity trial"
+    },
+    {
+      "id": "src_jj_wikipedia",
+      "kind": "wikipedia",
+      "title": "James Joyce",
+      "url": "https://en.wikipedia.org/wiki/James_Joyce"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-directed study of multiple languages (he taught English in Trieste while learning Italian, German, and some Norwegian specifically to read Ibsen in the original) and Homeric structure for Ulysses's schema, corroborated by his own letters describing the research."
+    },
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ulysses's stream-of-consciousness technique and Finnegans Wake's invented composite language are documented by literary scholars as genuinely unprecedented formal innovations at time of publication, independently corroborated by the scale of subsequent literary influence and academic study, not self-claimed."
+    },
+    "perfectionism": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented via surviving manuscript proofs that he continued making extensive revisions to Ulysses at the galley-proof stage, reportedly adding as much as a third of the final text during proofreading — a specific, quantifiable, corroborated instance of extreme revision discipline."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as spending seven years writing Ulysses and seventeen years writing Finnegans Wake while supporting his family through unstable teaching and translation work, sustained output corroborated by the dated correspondence tracking each work's progress."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to write and revise Ulysses and later Finnegans Wake through severe, progressive eye disease requiring over a dozen surgeries and periods of near-blindness, per his own letters describing dictating and using magnifying aids to continue."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as relocating repeatedly across Europe (Trieste, Zurich, Paris) largely for practical/financial and wartime reasons rather than career reinvention — genuine adjustment to circumstance but not a change in creative direction, scored near center."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Continued writing and publishing Ulysses in serialized form knowing it faced obscenity charges (it was in fact prosecuted and banned in the US and UK for over a decade), documented as a deliberate artistic choice not to self-censor despite the known legal exposure to his publishers and himself."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained years of financial precarity and uncertain critical reception (Finnegans Wake in particular was received with open bewilderment by many contemporary critics) without abandoning the project, inferred as tolerance for that sustained uncertainty."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as capable of commanding attention in Dublin literary circles in his youth (his early confrontations with literary figures like Yeats and George Russell are recorded) but later more reclusive and dependent on a small circle of patrons and friends — genuinely mixed, scored near center."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as engaging in sustained public and private disputes with Dublin publishers over Dubliners' content for nearly a decade before publication, and separately with early supporters over Ulysses's demands on their resources — real but the broader pattern beyond these specific disputes is thinner, hence inference-level."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-directed study of Homer's Odyssey structure and Dublin's exact 1904 geography (he famously claimed the city could be rebuilt from Ulysses's detail) to underpin the novel's schema, corroborated by his own working notebooks."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as explicitly and repeatedly stating (in letters to Pound and others) an ambition to write a defining modern epic, sustained across the seventeen years of Finnegans Wake's composition despite limited contemporary understanding of the project's value."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as leaving Ireland permanently at 22 and refusing repeated suggestions from patrons and editors to write more conventionally marketable work, sustaining his own formal experiments despite the direct financial cost of reduced sales."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His own correspondence frames his ambition primarily in terms of literary achievement and personal artistic vision rather than explicit social or political impact — scored moderately rather than inflated toward a social-impact motivation the evidence doesn't directly support."
+    },
+    "aesthetic_sensitivity": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained formal control across radically different linguistic registers within single works (Ulysses's chapter-by-chapter stylistic shifts, each independently studied by scholars as deliberate formal choices) — an unusually well-documented technical range."
+    },
+    "cross_domain_range": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in literature (with language teaching as a means of financial support rather than a second genuine domain of achievement) — scored at the safe default rather than extended without evidence."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated his permanent departure from Ireland with Nora Barnacle in 1904 against his family's wishes, and personally sought out Ezra Pound's patronage network rather than working through conventional publishing channels alone."
+    },
+    "opportunity_sensing": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as securing Harriet Shaw Weaver's ongoing financial patronage at a critical point when his teaching income was insufficient to sustain Ulysses's writing — inferred as recognizing and cultivating a crucial support opportunity rather than a stated strategy."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as sustaining his family through a patchwork of language teaching, translation, and bank clerking across multiple cities during the years before literary income was reliable — a real but thinly-detailed resourcefulness record."
+    },
+    "detail_orientation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, verified precision in Ulysses's Dublin geography and timeline (independently checked by Joyce scholars against 1904 city records and found substantially accurate), reflecting sustained, deliberate factual research rather than atmospheric approximation."
+    },
+    "competitiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented occasional sharp comments about literary contemporaries in his letters, but no sustained, well-corroborated rivalry pattern with a specific named peer — scored at the safe default."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as heavily dependent on a small circle of editors, translators, and patrons (Pound, Weaver, Sylvia Beach) for the practical realization of his work, though he is also documented as difficult to work with over deadlines and revisions — genuinely mixed, scored near center."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q6882) before scoring. His documented, sometimes explicitly jealous correspondence with Nora Barnacle is used only where directly relevant (social_assertiveness/conflict_tolerance context), not treated as evidence for unrelated traits. His daughter Lucia's later mental illness is not scored anywhere on this profile — irrelevant to Joyce's own trait record and excluded per the rubric's discipline against inferring conditions even by association. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.514,
+    "coverage": 0.653,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/james-joyce-man-ray-1922.jpg",
+    "width": 595,
+    "height": 810,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:James_Joyce_-_Sep_1922_Shadowland.jpg",
+    "attribution": "Man Ray, 1922 (Shadowland magazine)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:James_Joyce_-_Sep_1922_Shadowland.jpg"
+  }
+}
