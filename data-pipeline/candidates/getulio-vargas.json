@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "getulio-vargas",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Getúlio Vargas",
+    "wikidataId": "Q156844",
+    "birthYear": 1882,
+    "deathYear": 1954,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_gv_diaries",
+      "kind": "archive",
+      "title": "Getúlio Vargas's own diaries, kept across much of his political career"
+    },
+    {
+      "id": "src_gv_suicide_note",
+      "kind": "archive",
+      "title": "Vargas's own final letter (\"carta testamento\"), written and made public on 24 August 1954"
+    },
+    {
+      "id": "src_gv_press",
+      "kind": "press",
+      "title": "Brazilian and international historical accounts of the 1930 Revolution, the 1937 Estado Novo self-coup, the 1945 removal, and the 1950 democratic return to power"
+    },
+    {
+      "id": "src_gv_wikipedia",
+      "kind": "wikipedia",
+      "title": "Getúlio Vargas",
+      "url": "https://en.wikipedia.org/wiki/Get%C3%BAlio_Vargas"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained pursuit of political power across 24 years through both extralegal means (the 1930 Revolution, the 1937 Estado Novo self-coup) and legal means (the 1950 democratic election) — a documented, sustained drive that included real, documented departures from democratic process."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The 1937 self-coup establishing the authoritarian Estado Novo was a specific, decisive, documented act — decisive but representing a documented suspension of the constitution and democratic process."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Returned to power via legitimate democratic election in 1950 after having been deposed as an authoritarian ruler in 1945 — a rare, well-documented political reinvention using a fundamentally different method than the one that had first brought him to power."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of political relevance and power across 24 years (1930-1954) despite being forcibly removed from office in 1945, documented by his eventual return via the 1950 election."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Chose to remain in office through the severe 1954 political crisis rather than resign under military pressure, a specific documented decision that preceded his death by suicide days later."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained documented commitment to labor and social welfare reform — minimum wage laws, labor courts, and early social security provisions — across his terms, a consistent policy record."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit and repeated recapture of supreme political power across 24 years via multiple distinct methods, documented across the full arc of his career."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The sustained labor and social reform program represented a specific, systematic policy achievement carried out across multiple years, not an improvised measure."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct political conflict with rivals across decades, including the tension that culminated in the 1954 crisis involving his own bodyguard and a rival journalist, Carlos Lacerda."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally initiated both the 1930 uprising that first brought him to power and the 1937 self-coup that extended it, both self-directed actions rather than responses forced by external actors."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained broad public and populist appeal across decades and multiple political forms (as both authoritarian ruler and elected president), inferred from that documented sustained support."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kept personal diaries across much of his political career, a documented, sustained personal record-keeping practice."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Governed through the sustained instability of 1930s-40s Brazilian politics and international pressures around WWII, evidenced by his continued political relevance through that period."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued a distinctly Brazilian corporatist political and economic model, documented as a deliberate alternative to both liberal-democratic and Soviet-communist templates prevalent elsewhere in the era."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained broad popular support across decades and across two very different political forms of rule (authoritarian and democratically elected), a documented, sustained populist connection."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Built and sustained a broad multi-class political coalition — military, organized labor, and industrialists — across different periods of his rule, inferred from the documented breadth of that coalition."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The diaries themselves, kept consistently with specific entries across decades, suggest a sustained personal record-keeping habit, inferred from the surviving documents rather than a single cited episode."
+    },
+    "mastery_orientation": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Trained and qualified as a lawyer before entering politics, a specific documented credential preceding his political career."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): Latin America pick. His 1937 self-coup and its suspension of democratic process are scored honestly as dual_edged (achievement_drive, decisiveness) rather than treated as unqualified strength. His 1954 death by suicide, following a documented political crisis, is stated only as the historical fact it is (widely covered in Brazilian history, including his own public final letter) — no diagnosis or characterization of mental state is asserted, consistent with this project's safety discipline. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.500, coverage=0.536 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.5,
+    "coverage": 0.536,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "subhas-chandra-bose",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Subhas Chandra Bose",
+    "wikidataId": "Q2153",
+    "birthYear": 1897,
+    "deathYear": 1945,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_scb_letters",
+      "kind": "archive",
+      "title": "Subhas Chandra Bose's own published correspondence and writings"
+    },
+    {
+      "id": "src_scb_ina_records",
+      "kind": "institution",
+      "title": "Indian National Army (INA) organizational records"
+    },
+    {
+      "id": "src_scb_british_intelligence",
+      "kind": "institution",
+      "title": "British colonial intelligence surveillance files tracking Bose across decades — an independent institutional record"
+    },
+    {
+      "id": "src_scb_wikipedia",
+      "kind": "wikipedia",
+      "title": "Subhas Chandra Bose",
+      "url": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Escaped British house arrest in 1941 and undertook an extraordinary documented journey — disguise, overland travel through Afghanistan, then a submarine transfer between German and Japanese vessels in the Indian Ocean — to reach Japan, a specific, extreme, multiply-documented episode."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally organized and executed his own escape and the subsequent formation of the Indian National Army — entirely self-directed undertakings, not actions assigned by any authority."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Broke from Gandhi and the Indian National Congress leadership over a fundamental strategic disagreement — non-violent resistance versus armed struggle — a specific, well-documented ideological split, not a minor policy disagreement."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct conflict with both British colonial authorities (multiple documented imprisonments) and his own party's leadership, evidenced across his whole political career."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Elected Congress President twice before founding and leading the Indian National Army — sustained pursuit of leadership through two entirely different institutional paths."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Resigned the Congress presidency rather than compromise his strategic vision, then pursued an entirely independent organizational path outside the Congress structure — a specific, documented choice favoring independence over institutional position."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The decision to break from Congress and pursue armed resistance via alliance with Axis powers was a specific, high-stakes, documented choice — decisive, though the Axis alliance itself remains a genuinely contested part of his legacy."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of Indian independence through multiple imprisonments and political setbacks across his career, never abandoning the goal despite repeated confinement."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of leadership through both political (Congress presidency) and eventually military (INA command) paths, a documented range of pursued routes to the same underlying goal."
+    },
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The multi-stage 1941 escape — disguise, overland travel, and a submarine transfer coordinated between two Axis powers' navies — required extensive, documented advance planning, not improvisation."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a lifelong, documented commitment to Indian independence, evidenced by his willingness to risk his career, safety, and reputation on a controversial alliance strategy in pursuit of that singular goal."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Won election to the Congress presidency twice through direct political contest, a documented public leadership achievement."
+    },
+    "cross_domain_range": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real, documented substantive leadership as both an elected political figure (Congress President) and a military commander (INA) — two genuinely distinct domains."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Successfully organized and led the Indian National Army, recruiting substantial numbers of Indian prisoners of war and expatriates to the cause — a documented organizational and persuasive achievement."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Operated for years under extreme, sustained uncertainty as a fugitive dependent on foreign alliances with uncertain military outcomes, evidenced by that documented sustained situation."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained the extraordinarily demanding secret journey and subsequent military campaign organization under continuous pressure, inferred from the documented duration and complexity of that effort."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Built working alliances with both German and Japanese governments to advance a shared anti-British goal — a real, documented collaboration across significant cultural and political differences, though the choice of Axis allies remains a genuinely contested part of his historical legacy."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved through documented, dramatically different circumstances — mainstream Congress politician, underground fugitive, and foreign-allied military commander — within a few years of each other."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): South Asia pick. The 1941 escape is corroborated across British intelligence records (an independent institutional source that was actively tracking him) and his own later accounts, not a single tradition. The Axis alliance is scored honestly as dual_edged (decisiveness, collaboration) — a real, documented, still-contested part of his record, not smoothed into unqualified strategic genius. His 1945 death in a plane crash in Taiwan is not referenced in any row; this record does not take a position on the long-disputed circumstances, consistent with this project's safety discipline against unsupported claims. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.560, coverage=0.533 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.56,
+    "coverage": 0.533,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

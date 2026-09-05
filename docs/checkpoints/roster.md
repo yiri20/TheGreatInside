@@ -143,6 +143,21 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
   (0.6), not on attribute count or confidence — a concrete target for a
   future evidence-deepening pass, not new research. Full record:
   [`roster12-new-intake-batch.md`](roster12-new-intake-batch.md).
+- **Roster-13 new-intake batch (2026-09)**: built a fresh 29-person
+  discovery pool, froze 18 for full evidence packs and first scoring.
+  **0 of 18 crossed `eligibility_v2`** — every candidate missed solely on
+  the weighted coverage floor (0.6), Fidel Castro closest at 0.599. All
+  18 are `held` with exact numbers in each `holdReason`. A bounded,
+  one-check-only portrait retry for Che Guevara found no rights-clear
+  alternative (a newly-checked 1964 photo carries an explicit,
+  self-acknowledged Cuban-state-copyright-transfer risk and a
+  questionable rationale for a non-Cuban photographer; another lead was
+  released only "by a webmaster" with no actual rights to grant) — his
+  portrait blocker from roster-12 stands unchanged, candidate JSON
+  untouched. No candidate promoted; no `roster13.ts` created (nothing
+  product-ready to allowlist). Roster counts unchanged (97 / 96
+  match-eligible). Full record:
+  [`roster13-new-intake-batch.md`](roster13-new-intake-batch.md).
 - A full manual rubric-consistency review of the pre-session-11 corpus
   (52 held + 38 accepted candidates) is real, unfinished work — an
   automated pass was tried and found unreliable by spot-check.
@@ -156,18 +171,20 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
 
 ## Next recommended step
 
-Miriam Makeba's promotion is merged and complete. Marcus Aurelius's
-promotion is implemented and fully verified in this isolated worktree,
-`READY_TO_COMMIT` but not yet committed/merged — that commit/merge
-decision is the immediate next action if continuing this thread (see
-"Known open items" above). Other candidates for a future cycle:
-(1) resolve a rights-clear portrait for Che Guevara and promote him via a
-small follow-up generator; (2) an evidence-deepening pass on the 13
-roster-12 `held` candidates, specifically targeting higher-weight
-attributes from their existing evidence packs to close the coverage gap
-each one has (all 13 missed coverage by 0.05 or less — see
-[`roster12-new-intake-batch.md`](roster12-new-intake-batch.md) §6 for the
-exact numbers) rather than new research. The 29 roster-expansion-125
+Miriam Makeba's and Marcus Aurelius's promotions are both merged and
+complete. Roster-13's 18-person cycle produced zero new promotions (see
+"Known open items" above) — implemented as a candidate-intake-only PR,
+`feat/roster13-new-intake-batch`, not yet committed/merged at the time
+this checkpoint was written. Candidates for a future cycle: (1) resolve
+a rights-clear portrait for Che Guevara and promote him via a small
+follow-up generator; (2) an evidence-deepening pass on the 31 combined
+roster-12/roster-13 `held` candidates, specifically targeting
+higher-weight attributes from their existing evidence packs to close
+the coverage gap each one has (every one of them missed only on
+`eligibility_v2`'s weighted coverage floor, most within 0.05-0.1 of it —
+see [`roster12-new-intake-batch.md`](roster12-new-intake-batch.md) §6
+and [`roster13-new-intake-batch.md`](roster13-new-intake-batch.md) §6
+for the exact numbers) rather than new research. The 29 roster-expansion-125
 candidates remain `held`/`STRUCTURALLY_THIN`/unscored with no further
 action queued (alternate search closed). Otherwise, continue roster
 expansion in fresh discovery-pool batches using the protocol below, toward a

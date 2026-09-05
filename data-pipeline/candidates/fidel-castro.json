@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fidel-castro",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Fidel Castro",
+    "wikidataId": "Q11256",
+    "birthYear": 1926,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "CU"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "politics",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_fc_ramonet",
+      "kind": "archive",
+      "title": "Ignacio Ramonet, Fidel Castro: My Life (2006) — an extensive book-length personal interview"
+    },
+    {
+      "id": "src_fc_history_absolve",
+      "kind": "archive",
+      "title": "Fidel Castro, History Will Absolve Me (1953/1961) — his own trial defense speech after the Moncada Barracks attack, later reconstructed and published"
+    },
+    {
+      "id": "src_fc_press",
+      "kind": "press",
+      "title": "International press coverage across six decades, including the 1956 Granma landing, the 1961 Bay of Pigs invasion, and the 1962 Cuban Missile Crisis"
+    },
+    {
+      "id": "src_fc_church_committee",
+      "kind": "institution",
+      "title": "US Senate Church Committee records documenting multiple CIA assassination plots against him"
+    },
+    {
+      "id": "src_fc_wikipedia",
+      "kind": "wikipedia",
+      "title": "Fidel Castro",
+      "url": "https://en.wikipedia.org/wiki/Fidel_Castro"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After his invasion force was nearly annihilated at Alegría de Pío in 1956 (only around 20 of 82 men survived), rebuilt a guerrilla campaign from the Sierra Maestra mountains over two years to eventual victory in 1959 — an extraordinary, multiply-documented recovery from near-total failure."
+    },
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally led the 1953 Moncada Barracks attack, the 1956 Granma landing, and the subsequent guerrilla campaign, each under severe, sustained, well-documented personal danger across multiple years and independent episodes."
+    },
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His \"History Will Absolve Me\" trial defense speech transformed a legal defeat into a lasting political rallying document, later reconstructed and widely disseminated by his own effort — a specific, documented rhetorical achievement."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Made specific, documented, high-stakes decisions during both the 1961 Bay of Pigs invasion and the 1962 Cuban Missile Crisis, two of the most scrutinized crisis episodes of the 20th century."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained personal rule of Cuba for 49 years (1959-2008), among the longest tenures of any 20th-century head of state."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of direct conflict with the United States and survived multiple documented CIA assassination plots (per the Church Committee record), a sustained pattern across his entire rule."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally initiated both the Moncada attack and the Granma expedition from a position with no formal backing or resources — self-directed, high-risk actions rather than responses to external pressure."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained a consistent, documented ideological commitment across nearly five decades of rule, evidenced by his own extensive interviews and consistent policy — alongside a well-documented record of suppressing internal political dissent, a real tension rather than a simple positive motivation."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly adapted guerrilla tactics during the Sierra Maestra campaign in response to setbacks, and decades later navigated the collapse of Soviet support in the 1990s \"Special Period\" without losing power — documented adaptability under two, decades-apart, existential threats."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of revolutionary victory over years despite catastrophic early setbacks, then sustained the resulting state for nearly five decades — a documented, consistent long-term goal-directed pattern."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Governed through the Cuban Missile Crisis, one of history's closest approaches to nuclear war, and through the post-Soviet economic collapse of the 1990s — sustained functioning leadership through both, documented independently."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The multi-year guerrilla campaign strategy — rural-based insurgency combined with alliance-building among rebel factions — shows real, sustained, documented strategic planning rather than improvisation."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Did not publicly declare Marxism-Leninism until after the revolution's military success, a documented and debated strategic sequencing distinct from simply importing an existing external template."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Trained and qualified as a lawyer before his revolutionary career, a specific documented credential, and later developed substantial self-taught expertise in military strategy and state governance."
+    },
+    "discipline": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a rigorous guerrilla campaign under extremely difficult mountain conditions for over two years, inferred from the documented duration and outcome of that campaign."
+    },
+    "social_assertiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained direct, prolonged public confrontation with the US government and international bodies across decades, including some of the longest speeches on record at the UN General Assembly."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Built real, documented alliances with other Cuban rebel factions (the Directorio Revolucionario) and internationally with the Soviet Union, though also documented friction and rivalry with some allied factions and, at points, with Soviet leadership itself."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Maintained documented instances of independent Cuban positioning even while allied with and dependent on the Soviet Union, including friction with Soviet leadership over specific policy choices in the aftermath of the Missile Crisis."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His extensive interviews (the Ramonet book in particular) document wide-ranging, self-directed reading and intellectual engagement across his life, inferred from that documented breadth rather than a single cited instance."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real, documented substantive engagement as a trained lawyer, a guerrilla military commander, and a head of state — three genuinely distinct domains."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): Latin America pick. The Sierra Maestra recovery from near-total military failure is treated as the single strongest piece of evidence in the pack, corroborated across multiple independent historical accounts, not self-reported alone. Suppression of internal dissent is scored honestly as dual_edged evidence connected to impact_motivation, not omitted. No score/confidence/evidence altered after the first validator run. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=20 attributes, avgConf=0.564, coverage=0.599 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 20,
+    "averageConfidence": 0.564,
+    "coverage": 0.599,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

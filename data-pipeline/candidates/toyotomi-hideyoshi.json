@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "toyotomi-hideyoshi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Toyotomi Hideyoshi",
+    "wikidataId": "Q187550",
+    "birthYear": 1537,
+    "deathYear": 1598,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_leader",
+      "political_leader"
+    ],
+    "fieldIds": [
+      "military",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_th_frois",
+      "kind": "archive",
+      "title": "Luís Fróis, Jesuit missionary letters and Historia de Japam — independent European firsthand observation of Hideyoshi's court"
+    },
+    {
+      "id": "src_th_letters_wife",
+      "kind": "archive",
+      "title": "Hideyoshi's own surviving letters to his wife, One (Nene)"
+    },
+    {
+      "id": "src_th_records",
+      "kind": "archive",
+      "title": "Japanese chronicles and administrative records of the Sword Hunt edict (1588) and land survey program"
+    },
+    {
+      "id": "src_th_wikipedia",
+      "kind": "wikipedia",
+      "title": "Toyotomi Hideyoshi",
+      "url": "https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from peasant origins to become the most powerful man in Japan through self-directed military and political achievement in a rigid class society — an extraordinary, well-documented ascent unprecedented for the era."
+    },
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of ever-greater power from peasant birth to supreme ruler of a unified Japan, documented across the full, unbroken arc of his career."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Defeated Oda Nobunaga's assassin, Akechi Mitsuhide, within weeks of the 1582 assassination, seizing the succession opportunity swiftly — a specific, extremely well-documented decisive act at a critical moment."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Unified much of Japan substantially through diplomacy and alliance-building with former rivals rather than pure military conquest — a documented strategic approach distinct from his predecessor Nobunaga's."
+    },
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Implemented the 1588 Sword Hunt edict disarming the peasant class and a systematic nationwide land survey — documented, sophisticated administrative planning, not improvised policy."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Adapted successfully from serving under Nobunaga to independently ruling, and adapted his own strategic approach toward diplomacy rather than continuing Nobunaga's purely military conquest style."
+    },
+    "risk_tolerance": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Launched two large-scale invasions of Korea (1592, 1597), extraordinarily ambitious campaigns that ultimately failed and caused immense documented suffering — a real risk that did not pay off."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Demonstrated sustained military and administrative skill development from a very low social starting position, documented by his steady rise through progressively greater responsibility under Nobunaga before independent rule."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit and consolidation of supreme power over a unified Japan, documented by the completeness of that unification under his rule."
+    },
+    "social_assertiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained direct assertion of authority and status across a career that began from the lowest social rank, evidenced by his documented progressive rise within Nobunaga's own hierarchy."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His surviving personal letters to his wife One document a genuine, sustained relationship, and his unification strategy relied heavily on documented alliance-building with former rivals rather than their elimination alone."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, documented commitment to unifying Japan and establishing lasting social and administrative order (the Sword Hunt and land surveys), extending beyond his own personal rule."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of military campaigning, culminating in the costly and ultimately unsuccessful Korean invasions — a documented, sustained pattern of accepting large-scale conflict."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a distinctly diplomatic and administrative approach to unification, documented as different from Nobunaga's more purely military style — a specific strategic departure, not an inherited template."
+    },
+    "ambiguity_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Navigated the extraordinarily unstable Sengoku (\"Warring States\") period for decades to eventual unification, evidenced by the sustained continuity of his rise through that instability."
+    },
+    "discipline": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining a decades-long, incremental rise from peasant origins to supreme power implies real personal discipline, inferred from that overall trajectory rather than a single cited episode."
+    },
+    "cross_domain_range": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real, documented substantive output as military commander, diplomat, and administrator (including the land survey program and the construction of Osaka Castle) — three genuinely distinct domains."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Rose to supreme power despite starting with no inherited status or hereditary claim, building entirely independent authority, inferred from that documented absence of inherited position."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): East Asia pick. Evidence draws on an independent European source (Jesuit missionary Luís Fróis, who observed his court directly) alongside Japanese chronicles and his own surviving personal letters, rather than a single tradition. The failed Korean invasions are scored honestly as a real, documented risk that did not pay off (risk_tolerance), not omitted to protect the profile. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.547, coverage=0.530 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.547,
+    "coverage": 0.53,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

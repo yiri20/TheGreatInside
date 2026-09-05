@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ellen-johnson-sirleaf",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Ellen Johnson Sirleaf",
+    "wikidataId": "Q43179",
+    "birthYear": 1938,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "LR"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ejs_memoir",
+      "kind": "archive",
+      "title": "Ellen Johnson Sirleaf, This Child Will Be Great: Memoir of a Remarkable Life by Africa's First Woman President (2009)"
+    },
+    {
+      "id": "src_ejs_nobel",
+      "kind": "institution",
+      "title": "2011 Nobel Peace Prize citation, shared with Leymah Gbowee and Tawakkol Karman, \"for their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work\""
+    },
+    {
+      "id": "src_ejs_press",
+      "kind": "press",
+      "title": "International press coverage across four decades, including her 1980s imprisonment under Samuel Doe, exile under Charles Taylor, and 2006-2018 presidency"
+    },
+    {
+      "id": "src_ejs_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ellen Johnson Sirleaf",
+      "url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued publicly opposing Samuel Doe's government despite documented imprisonment and, by her own account, coming close to execution at one point, then later opposed Charles Taylor's government as well — sustained, escalating documented risk across two separate authoritarian regimes."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued political leadership across decades despite repeated imprisonment, forced exile, and an earlier unsuccessful presidential run, before winning the presidency in 2005 — a sustained, documented pattern, not a single campaign."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained direct political opposition to two successive authoritarian Liberian governments (Doe, then Taylor), documented across her own memoir and independent press coverage."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained pursuit of both an international finance career (World Bank, Citibank, UN) and top political office across a career spanning five decades, documented by the range of credentialed positions she held before the presidency."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Became the first elected female head of state in Africa in 2006 and sustained twelve years in office, a documented, extended leadership tenure."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built substantial documented professional credentials at the World Bank, Citibank, and the UN before entering electoral politics, evidence of sustained deliberate career development in a distinct domain."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 2011 Nobel Peace Prize citation specifically recognized her sustained work on women's rights and peace-building, an externally validated, documented record of motivation consistent across her public career."
+    },
+    "planning_orientation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Negotiated significant international debt relief for Liberia during her presidency, a specific, documented, complex diplomatic and financial achievement requiring sustained planning."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Shared the 2011 Nobel Peace Prize with two other women (Leymah Gbowee and Tawakkol Karman) for collective peace-building work, a documented, externally recognized collaborative achievement."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Returned to Liberia from an established international finance career specifically to challenge Samuel Doe's government, a self-directed choice made with real, foreseeable personal risk."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly and directly criticized the Doe government, a documented specific assertive act that led to her imprisonment as a direct consequence."
+    },
+    "decisiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The decision to run for president of a country just emerging from prolonged civil war implies real decisiveness under uncertainty, inferred from that documented context rather than a single cited decision-making episode."
+    },
+    "discipline": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining both a long international finance career and a political career implies real personal discipline, inferred from that dual record rather than a single documented episode."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Governed through Liberia's post-civil-war reconstruction for twelve years under immense uncertainty, evidenced by the continuity of functioning government across that period."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real documented output as an international finance professional (World Bank, Citibank, UN) and as an elected political leader — two genuinely distinct domains."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Securing substantial international debt relief and diplomatic support for Liberia during her presidency is inferred as evidence of persuasive capacity, though drawn from the documented outcome rather than a single persuasive episode."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved through documented, distinct roles — international finance professional, opposition politician, prisoner, exile, and head of state — across one eventful career."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly chose to leave an established, comfortable international finance career to contest Liberian politics despite personal risk, a documented, repeated pattern of prioritizing independent political conviction over career security."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): Sub-Saharan Africa pick, a living contemporary figure. Later criticism of her presidency (a corruption scandal involving her own son, and broader nepotism criticism) is a real, documented part of her record; the evidence pack available this cycle did not reach the same instance-level specificity needed to score it as a distinct row, a known gap rather than an oversight, so it is not separately scored here. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.517, coverage=0.531 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.517,
+    "coverage": 0.531,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

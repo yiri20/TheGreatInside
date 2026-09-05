@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "muhammad-ali-pasha",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Muhammad Ali of Egypt",
+    "aliases": [
+      "Muhammad Ali Pasha"
+    ],
+    "wikidataId": "Q182781",
+    "birthYear": 1769,
+    "deathYear": 1849,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "founder"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_map_records",
+      "kind": "archive",
+      "title": "Ottoman and Egyptian administrative records of his 1805-1848 rule"
+    },
+    {
+      "id": "src_map_consular",
+      "kind": "archive",
+      "title": "British and French consular reports on Egypt during his reign — independent European diplomatic observation"
+    },
+    {
+      "id": "src_map_biography",
+      "kind": "biography",
+      "title": "Khaled Fahmy, All the Pasha's Men: Mehmed Ali, His Army and the Making of Modern Egypt (1997)"
+    },
+    {
+      "id": "src_map_wikipedia",
+      "kind": "wikipedia",
+      "title": "Muhammad Ali of Egypt",
+      "url": "https://en.wikipedia.org/wiki/Muhammad_Ali_of_Egypt"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The 1811 Massacre of the Mamluks — inviting his chief rivals to a citadel banquet ostensibly to celebrate his son's military appointment, then having them systematically killed — was an extraordinarily calculated, decisive act eliminating organized opposition in a single coordinated strike, decisive but carrying major, documented, brutal cost."
+    },
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Mamluk massacre required careful, documented advance planning, staged specifically as a ceremonial event to lower his rivals' guard — evidence of real strategic planning capacity, considered here separately from the act's moral weight."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rose from relatively modest Ottoman-Albanian military origins to become the effectively independent ruler of Egypt and founder of a ruling dynasty that lasted until 1952, a documented, sustained rise."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Learned to read in his forties after being illiterate for most of his life, a specific, remarkable, well-documented act of self-directed learning undertaken while already ruling Egypt."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally initiated an extensive modernization program — military, educational, agricultural, and print technology — rather than maintaining the existing Ottoman provincial administrative structure he inherited."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained documented commitment to modernizing Egypt across his more than four decades of rule, evidenced by the range and persistence of his reform programs rather than a single initiative."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of military campaigning, eventually escalating to direct military conflict with his own nominal Ottoman sovereign in pursuit of greater autonomy — a specific, high-stakes, documented risk."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained personal rule and founded a hereditary dynasty across more than four decades, documented by the dynasty's continuation long after his death."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of military conflict across multiple fronts — the Arabian campaign against the Saudi-Wahhabi state, the Greek war on behalf of the Ottoman Sultan, and eventually direct conflict with that same Sultan."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Learned to read as an adult and sustained a long, documented process of importing and adapting European military and educational expertise into his modernization program."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pursued increasing autonomy from, and eventually direct military conflict with, his own nominal Ottoman sovereign — a specific, documented, sustained pattern of asserting independence from formal hierarchy."
+    },
+    "persistence": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a decades-long modernization and expansion program despite setbacks, including European intervention that forced him to scale back territorial ambitions in 1840."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued a distinctly independent path of state modernization, selectively borrowing European military and educational models while retaining his own political structure, inferred from the documented specific character of his reforms."
+    },
+    "cross_domain_range": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real, documented substantive output as military commander, state administrator, and architect of modernization programs spanning education, agriculture, and printing — genuinely distinct domains."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rule through significant, shifting international pressure from European powers and his Ottoman overlord across decades, inferred from that documented sustained rule despite the pressure."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the self-directed process of learning to read as an adult alongside full ruling responsibilities, a specific documented instance of personal discipline."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained direct personal assertion of authority over rival power centers, including the Mamluks and eventually the Ottoman Sultan, rather than accepting a subordinate role, inferred from that documented pattern."
+    },
+    "persuasiveness": {
+      "score": 55,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Successfully recruited European military and technical advisors and negotiated with multiple foreign powers across his reign, inferred from the documented scale of his modernization program rather than a single persuasive episode."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): North Africa pick. The 1811 Massacre of the Mamluks is scored honestly as dual_edged (decisiveness), separated from the planning capacity it also evidences (planning_orientation), rather than omitted or read as unqualified strength. His self-taught literacy in his forties is treated as a specific, unusually well-documented personal fact rather than inferred general curiosity. Personal/interpersonal domain evidence is thinner than his administrative/military record, a known gap rather than an oversight. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.527, coverage=0.540 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.527,
+    "coverage": 0.54,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

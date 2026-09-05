@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "puyi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Puyi",
+    "aliases": [
+      "Xuantong Emperor",
+      "Henry Puyi"
+    ],
+    "wikidataId": "Q185152",
+    "birthYear": 1906,
+    "deathYear": 1967,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_py_autobiography",
+      "kind": "archive",
+      "title": "Puyi, From Emperor to Citizen (Wo De Qian Ban Sheng) — his own autobiography, written during and after Communist reeducation at the Fushun War Criminals Management Centre; a documented provenance risk given the political pressure to demonstrate reform, used here only where corroborated"
+    },
+    {
+      "id": "src_py_johnston",
+      "kind": "archive",
+      "title": "Reginald Johnston, Twilight in the Forbidden City (1934) — independent firsthand memoir by his British tutor, 1919-1924"
+    },
+    {
+      "id": "src_py_manchukuo_records",
+      "kind": "archive",
+      "title": "Japanese and Manchukuo administrative records, 1934-1945"
+    },
+    {
+      "id": "src_py_wikipedia",
+      "kind": "wikipedia",
+      "title": "Puyi",
+      "url": "https://en.wikipedia.org/wiki/Puyi"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Moved through an extraordinary, well-documented sequence of entirely different life circumstances — child emperor, abdicated ceremonial figure, Japanese-installed puppet ruler, Soviet prisoner, Chinese prisoner, and finally ordinary citizen (gardener, then editor) — across six decades."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented eager embrace of Western ideas and technology under his tutor Reginald Johnston — learning English, wearing Western dress and glasses, and having the Forbidden City's thresholds physically cut down so he could ride a bicycle — specific, independently corroborated youthful curiosity against strong court tradition."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Specifically arranged for the Forbidden City's thresholds to be cut down to accommodate his bicycle — a small but specific, self-directed act of practical initiative against tradition, documented in Johnston's independent memoir."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Accepted the role of Japanese-installed ruler of Manchukuo in 1934, a decision with real, eventually realized personal risk — he was later held for years as a Soviet and then Chinese prisoner as a direct consequence."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "His acceptance of the Manchukuo throne is documented as driven substantially by a personal desire to reclaim imperial status and dignity after years of powerless ceremonial existence — an understandable personal motivation that also led to serious, documented complicity with Japanese imperial rule in China."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Survived and was eventually released from a combined fourteen years of Soviet (1945-1950) and Chinese (1950-1959) captivity, a specific, documented span of sustained endurance."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Completed a substantial autobiographical manuscript during and after his reeducation process — a documented sustained effort, though scored at moderate confidence given the acknowledged political pressure on him to produce a narrative of reform at the time."
+    },
+    "independent_thinking": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "His youthful embrace of Western customs against documented resistance from palace eunuchs and officials shows some independent-mindedness within severe institutional constraints, though his life was largely shaped by external actors (regents, Japanese handlers, Communist reeducators) rather than sustained independent political judgment."
+    },
+    "ambiguity_tolerance": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained personal continuity through an extraordinary, repeated sequence of status reversals — emperor to citizen, more than once — across six decades, documented by his survival through each transition."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Johnston's independent memoir documents a genuinely warm, sustained tutor-student relationship over five years (1919-1924), a specific, corroborated collaborative bond."
+    },
+    "decisiveness": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The decision to accept the Manchukuo throne was a specific, documented, high-stakes choice made with awareness of Chinese nationalist opposition, though it is better understood as circumstance-driven than as a demonstration of sustained independent decisiveness."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Repeatedly sought to reclaim personal agency and status across his life, most notably by accepting the Manchukuo role specifically to regain some form of relevance after years of powerless ceremonial existence — a documented but genuinely complicated motivation."
+    },
+    "leadership_drive": {
+      "score": 35,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Despite carrying the titles of emperor and later Manchukuo head of state, the documented record shows him functioning largely as a figurehead controlled by regents and then by Japanese handlers, not as a genuine independent commander — scored from the documented absence of real command, not from the title itself, per this rubric's explicit rule against inferring traits from office alone."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "In his final years (after 1959) worked first as a gardener and then as an editor at a historical research institute, drawing on his unique personal knowledge of Qing history — a documented, if modest, late-life range of ordinary civic roles very different from his earlier circumstances."
+    },
+    "social_assertiveness": {
+      "score": 40,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The documented record shows a figure largely acted upon by external forces (regents, Japanese handlers, Communist authorities) across most of his life rather than one who initiated direct public assertions of his own, an honest low score rather than an inferred passive-figure assumption from his circumstances alone."
+    },
+    "achievement_drive": {
+      "score": 50,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The pursuit of the Manchukuo role suggests some documented drive to reclaim status, but the broader record shows a life shaped more by external circumstance than sustained self-directed achievement-seeking, hence a modest, inference-level score."
+    },
+    "mastery_orientation": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "His post-1959 work as an editor specifically on Qing-era historical research shows some sustained engagement building on his unique personal knowledge, a modest but documented late-life pattern."
+    },
+    "conflict_tolerance": {
+      "score": 50,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Accepting the Manchukuo role meant accepting intense, foreseeable Chinese nationalist opposition and eventual international condemnation, a specific documented instance of accepting serious conflict and controversy in pursuit of the role."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): East Asia pick, chosen specifically for an unusually dramatic, well-documented longitudinal arc (emperor to war-crimes prisoner to ordinary citizen). Several rows (leadership_drive, social_assertiveness, achievement_drive) are scored honestly low or modest, reflecting a documented record of a figure substantially controlled by others across most of his life, rather than inferring agentic traits from his imperial/ruler titles alone — a deliberate application of the rubric's rule against occupational-stereotype scoring. His own autobiography is corroborated with Johnston's independent, earlier memoir wherever possible rather than relied on alone, given its documented composition under political pressure. The Manchukuo complicity is scored honestly as dual_edged/documented rather than omitted. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.477, coverage=0.545 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 18,
+    "averageConfidence": 0.477,
+    "coverage": 0.545,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}

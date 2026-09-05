@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "suleiman-the-magnificent",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Suleiman the Magnificent",
+    "wikidataId": "Q8474",
+    "birthYear": 1494,
+    "deathYear": 1566,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "military",
+      "law"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sm_bailo_dispatches",
+      "kind": "archive",
+      "title": "Venetian ambassador (bailo) dispatches to the Ottoman court, 1520s-1560s — decades of continuous, independent diplomatic reporting"
+    },
+    {
+      "id": "src_sm_muhibbi_divan",
+      "kind": "archive",
+      "title": "Suleiman's own poetry, written under the pen name \"Muhibbi\" — a substantial surviving divan, including poems to Hürrem Sultan"
+    },
+    {
+      "id": "src_sm_kanunname",
+      "kind": "archive",
+      "title": "The Kanunname (legal code) compiled under his reign, earning him the epithet \"Kanuni\" (the Lawgiver)"
+    },
+    {
+      "id": "src_sm_wikipedia",
+      "kind": "wikipedia",
+      "title": "Suleiman the Magnificent",
+      "url": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Ordered the execution of his own son, Şehzade Mustafa, in 1553 on suspicion of conspiracy — a swift, dramatic, well-documented decision, but one historians regard as likely based on false accusations engineered by court rivals, a real and lasting cost."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained decades of military campaigning across Europe, North Africa, and the Middle East (including the 1529 Siege of Vienna), documented across Ottoman chronicles and independent Venetian reports."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally led major military campaigns, including the 1529 Vienna siege, rather than directing them from the capital — a sustained pattern across a 46-year reign, not a single expedition."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Compiled and sustained a comprehensive legal reform program (the Kanunname) across his reign, a specific documented legislative achievement earning him the epithet \"Kanuni.\""
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The legal reform program's aim at systematic, empire-wide governance improvement, sustained across decades, suggests motivation beyond personal enrichment or conquest alone."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained an unusually close, documented governing partnership with Grand Vizier Ibrahim Pasha for over a decade, delegating extensive authority to him — before having him executed in 1536, a real, sustained collaboration that ended in betrayal-perceived rupture."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The willingness to eliminate even his closest, longest-serving ally (Ibrahim Pasha) and his own son (Mustafa) when he judged them a threat shows a documented capacity to prioritize his own judgment over personal loyalty or sentiment."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Venetian ambassadorial dispatches across decades describe him as a formidable, persuasive presence in diplomatic negotiation, inferred from the sustained pattern of favorable treaty outcomes those reports document."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained personal command and legal authority over one of the era's largest empires for 46 years, documented across both Ottoman and independent Venetian sources."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The systematic Kanunname legal code is a specific, documented planning and systematizing achievement, not an inferred organizational tendency."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained military campaigning and governance across a 46-year reign, documented continuously via Venetian dispatches spanning that whole period."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally initiated the legal reform program and personally led major campaigns rather than delegating either entirely to subordinates."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote a substantial surviving body of poetry under the pen name \"Muhibbi\" — one of the most extensive personal literary outputs of any Ottoman sultan, a genuine creative practice beyond his political role."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained patronage of architecture and scholarship across his reign (including the flourishing of chief architect Mimar Sinan's career) suggests genuine engagement beyond governance and war."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Venetian dispatches document a consistent pattern of personally receiving and negotiating with foreign ambassadors rather than delegating diplomacy entirely, though the specific instances are inferred from the pattern rather than individually cited here."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a serious personal poetic practice across decades, evidenced by the surviving divan's scale, alongside his primary role as ruler."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained rule through constant multi-front military and political pressure across 46 years, evidenced by the continuity of his reign through that period."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Functioned with real, documented substantive output as military commander, legal reformer, and poet — three genuinely distinct domains, not superficial involvement in any."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustaining a serious poetic practice and a systematic legal reform program alongside full governing responsibilities across decades implies real personal discipline, inferred from that dual output."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-13 new-intake batch (2026-09): West Asia pick. Evidence draws on decades of independent Venetian ambassadorial reporting (a genuinely separate tradition from Ottoman court chronicles) plus his own substantial surviving poetry. The Mustafa execution and Ibrahim Pasha reversal are scored honestly as dual_edged/documented rather than omitted or treated as unqualified strength. Confidence capped per the rubric's early-modern discipline. Scored to completion before any eligibility check was run."
+  },
+  "holdReason": "eligibility_v2 not met on first score: scored=19 attributes, avgConf=0.527, coverage=0.568 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
+  "computedEligibility": {
+    "scoredAttributeCount": 19,
+    "averageConfidence": 0.527,
+    "coverage": 0.568,
+    "eligible": false,
+    "computedAt": "2026-09-04T00:00:00Z"
+  }
+}
