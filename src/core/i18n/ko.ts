@@ -1729,6 +1729,19 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.miriam-makeba": "미리엄 마케바",
   "person.name.marcus-aurelius": "마르쿠스 아우렐리우스",
 
+  // ROSTER-14 — coverage-aware intake (2026-09).
+  "person.name.abraham-lincoln": "에이브러햄 링컨",
+  "person.name.theodore-roosevelt": "시어도어 루스벨트",
+  "person.name.alexander-hamilton": "알렉산더 해밀턴",
+  "person.name.mark-twain": "마크 트웨인",
+  "person.name.ernest-hemingway": "어니스트 헤밍웨이",
+  "person.name.elizabeth-i": "엘리자베스 1세",
+  "person.name.otto-von-bismarck": "오토 폰 비스마르크",
+  "person.name.leo-tolstoy": "레프 톨스토이",
+  "person.name.sigmund-freud": "지그문트 프로이트",
+  "person.name.pablo-picasso": "파블로 피카소",
+  "person.name.gertrude-bell": "거트루드 벨",
+
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal
   // rendering of the English strings.

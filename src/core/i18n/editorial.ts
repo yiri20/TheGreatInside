@@ -2474,6 +2474,182 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's documented pattern of engaging conflict directly while avoiding escalation once a threat had passed — decisive but not vindictive.",
   "marcus-aurelius.interpretation.turning_point.1":
     "This sits alongside the profile's documented risk_tolerance: a sustained choice to accept personal danger at the front rather than direct the war from a place of safety.",
+
+  /* ------------------------------------------------------- Roster 14: Abraham Lincoln */
+  "abraham-lincoln.achievement.1":
+    "Taught himself law with no formal schooling while working as a store clerk and surveyor, reaching the bar in 1836 — then, as president, drafted the Gettysburg Address and Second Inaugural in his own hand, both still quoted for how they reframed the war's purpose.",
+  "abraham-lincoln.achievement.2":
+    "Built his cabinet out of the men who had run against him for the 1860 nomination — Seward, Chase, Bates — rather than sidelining them, and issued the Emancipation Proclamation in 1863 while its legal and political standing was still genuinely contested.",
+  "abraham-lincoln.moment.1":
+    "Tolerated years of public insubordination from General McClellan and open ambition for his job from Treasury Secretary Chase, escalating to removal only once each one's failure became undeniable rather than at the first provocation.",
+  "abraham-lincoln.moment.2":
+    "Cabinet members and aides independently recorded him defusing tense meetings with a folksy story or joke — a specific, repeated social technique, not a general reputation for humor.",
+  "abraham-lincoln.turning_point.1":
+    "His own recorded position on slavery moved in three documented stages as the war's meaning changed: preserving the Union without touching it (his 1861 letter to Horace Greeley), the Emancipation Proclamation as a wartime measure (1863), then actively pushing the Thirteenth Amendment to end slavery outright (1865).",
+  "abraham-lincoln.interpretation.moment.1":
+    "This is consistent with the profile's high conflict_tolerance and dual_edged decisiveness: sustained tolerance for friction before a final, complete break, rather than either avoiding conflict or reacting to it immediately.",
+  "abraham-lincoln.interpretation.turning_point.1":
+    "This tracks the profile's high adaptability score: a documented, staged change in position driven by circumstances, recorded in his own words at each stage rather than reconstructed afterward.",
+
+  /* ------------------------------------------------------- Roster 14: Theodore Roosevelt */
+  "theodore-roosevelt.achievement.1":
+    "Rebuilt a severely asthmatic, frail childhood body through a self-directed exercise regimen his father set him on, then used the Presidency's \"bully pulpit\" to build public support for trust-busting and conservation, protecting over 230 million acres of land.",
+  "theodore-roosevelt.achievement.2":
+    "Wrote a naval history at 23 still cited by historians for its use of primary sources, then personally led the charge up Kettle Hill in Cuba under fire — two genuinely distinct forms of achievement, scholarly and physical, in the same decade of his life.",
+  "theodore-roosevelt.moment.1":
+    "Resigned a safe post as Assistant Secretary of the Navy within days of the 1898 war declaration specifically to raise and personally lead a volunteer cavalry regiment, rather than direct the war effort from Washington.",
+  "theodore-roosevelt.moment.2":
+    "Undertook the near-fatal 1913-14 Amazon \"River of Doubt\" expedition against the Royal Geographical Society's own warning that it was reckless at his age, and continued it after losing supplies and boats to rapids and contracting a near-fatal infection.",
+  "theodore-roosevelt.turning_point.1":
+    "Broke from the Republican party he had led for two terms to mount a third-party 1912 \"Bull Moose\" campaign against his own hand-picked successor, William Howard Taft, splitting the vote and costing them both the election.",
+  "theodore-roosevelt.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance and proactive_agency: a specific, self-initiated choice to seek personal danger rather than direct events from safety, evidenced more than once across his life.",
+  "theodore-roosevelt.interpretation.turning_point.1":
+    "This matches the profile's high independent_thinking score: a costly, public break from his own party's establishment made on personal judgment rather than institutional loyalty.",
+
+  /* ------------------------------------------------------- Roster 14: Alexander Hamilton */
+  "alexander-hamilton.achievement.1":
+    "Designed the entire early US federal financial system — funding the national debt, the First Bank of the United States, the mint — as one interlocking, sequenced program laid out in his own written Treasury reports within roughly two years in office.",
+  "alexander-hamilton.achievement.2":
+    "Co-wrote 51 of the 85 Federalist essays with Madison and Jay in under a year, a body of political argument historians still credit with directly influencing several state ratification votes for the US Constitution.",
+  "alexander-hamilton.moment.1":
+    "Published the Reynolds Pamphlet in 1797, publicly confessing a private affair in specific detail, on the calculation that the personal scandal was less damaging than the corruption charge it was written to refute.",
+  "alexander-hamilton.moment.2":
+    "Negotiated directly with Jefferson and Madison — men who largely opposed his financial program — to secure the votes needed to pass the assumption of state debts, trading his support for relocating the capital to the Potomac.",
+  "alexander-hamilton.turning_point.1":
+    "Accepted Aaron Burr's 1804 duel challenge at the end of a decade-long public rivalry that had already cost him politically more than once, rather than continue avoiding the confrontation as he reportedly had before.",
+  "alexander-hamilton.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance: a deliberate choice to accept a smaller, self-inflicted public cost rather than an outcome he judged worse, evidenced by his own explicit reasoning in the pamphlet itself.",
+  "alexander-hamilton.interpretation.turning_point.1":
+    "This sits alongside the profile's high, sustained conflict_tolerance score: an escalating personal rivalry pursued over a decade rather than resolved or dropped, ending in the most extreme possible outcome.",
+
+  /* ------------------------------------------------------- Roster 14: Mark Twain */
+  "mark-twain.achievement.1":
+    "Adventures of Huckleberry Finn's sustained use of vernacular first-person narration was a deliberate departure from the era's formal literary English, later credited by Hemingway and others as foundational to modern American prose style.",
+  "mark-twain.achievement.2":
+    "After his publishing house's 1894 bankruptcy left him deeply in debt in his late fifties, he undertook a grueling round-the-world lecture tour specifically to repay creditors in full rather than accept the legal discharge available to him.",
+  "mark-twain.moment.1":
+    "Set Adventures of Huckleberry Finn aside mid-manuscript for several years during a fallow period before returning to finish it, a specific, documented gap rather than one continuous creative run.",
+  "mark-twain.moment.2":
+    "Invested and lost the bulk of his literary fortune in the Paige typesetting machine over more than a decade, continuing to fund it past clear warning signs recorded in his own letters.",
+  "mark-twain.turning_point.1":
+    "The deaths of his daughter Susy in 1896 and, later, his wife Olivia, documented in his own letters and later autobiography as periods of acute grief that darkened the tone of his final decade's writing.",
+  "mark-twain.interpretation.moment.1":
+    "This is consistent with the profile's moderate, mood-dependent discipline score: real but uneven productivity, rather than the sustained daily-output pattern a more disciplined writer's record would show.",
+  "mark-twain.interpretation.turning_point.1":
+    "This is scored at lower ambiguity_tolerance and ties to the profile's documented anxiety during this period — grief and financial uncertainty together, rather than either alone, correspond to the lowest-confidence stretch of his recorded life.",
+
+  /* ------------------------------------------------------- Roster 14: Ernest Hemingway */
+  "ernest-hemingway.achievement.1":
+    "Developed the spare \"iceberg theory\" prose style — omitting rather than explaining emotional context — as a deliberate departure from 1920s literary convention, with acknowledged wide influence on later American fiction.",
+  "ernest-hemingway.achievement.2":
+    "Volunteered as an ambulance driver on the Italian front at 18 and was severely wounded, then insisted on covering the Spanish Civil War and the D-Day landings from the front lines as a journalist two decades later.",
+  "ernest-hemingway.moment.1":
+    "Told an interviewer late in life that he rewrote the ending of A Farewell to Arms 39 times before he was satisfied — a specific, quantified instance of revision rather than a general claim of care.",
+  "ernest-hemingway.moment.2":
+    "Documented across his own letters and later biography as ending several close friendships permanently over perceived rivalry, most publicly with F. Scott Fitzgerald, whom he criticized by name in his posthumously published memoir A Moveable Feast.",
+  "ernest-hemingway.turning_point.1":
+    "Survived two plane crashes on the same 1954 African trip, sustaining injuries from which he never fully recovered, a physical decline that coincided with the last, sparser phase of his writing career before his 1961 death.",
+  "ernest-hemingway.interpretation.moment.1":
+    "This is consistent with the profile's documented perfectionism and competitiveness: exacting revision paired with a pattern of measuring his own standing directly against specific named rivals.",
+  "ernest-hemingway.interpretation.turning_point.1":
+    "This is scored at low ambiguity_tolerance in the profile — the documented behavioral pattern of his final years, not a claimed diagnosis, is the basis for that score.",
+
+  /* ------------------------------------------------------- Roster 14: Elizabeth I */
+  "elizabeth-i.achievement.1":
+    "Held the English throne for 44 years through a Protestant-Catholic settlement she designed as deliberately moderate, and personally addressed troops at Tilbury in 1588 as the Spanish Armada approached rather than withdrawing to safety.",
+  "elizabeth-i.achievement.2":
+    "Sustained one of the most stable governments of the era around a single long-serving chief advisor, William Cecil, who served her for four decades — an unusually durable working partnership for the period.",
+  "elizabeth-i.moment.1":
+    "Refused sustained, decades-long pressure from her own Privy Council and Parliament to marry and name a successor, holding to that specific position against near-universal advice for the whole of her reign.",
+  "elizabeth-i.moment.2":
+    "Ordered the 1587 execution of her own cousin, Mary Queen of Scots, after years of treating the question with visible, deliberate delay before finally acting.",
+  "elizabeth-i.turning_point.1":
+    "Survived imprisonment in the Tower of London under her sister Mary I on suspicion of treason, maintaining her claim and composure throughout — an early, formative test years before she took the throne.",
+  "elizabeth-i.interpretation.moment.1":
+    "This is consistent with the profile's high, sustained autonomy_need: refusing marriage specifically to retain sole authority, held to for the whole of a 44-year reign rather than a single early refusal.",
+  "elizabeth-i.interpretation.turning_point.1":
+    "This aligns with the profile's high persistence and ambiguity_tolerance: composure sustained through a genuinely uncertain, personally dangerous period rather than a single resolved incident.",
+
+  /* ------------------------------------------------------- Roster 14: Otto von Bismarck */
+  "otto-von-bismarck.achievement.1":
+    "Engineered German unification through three separate wars — against Denmark, Austria, and France — each preceded by deliberate diplomatic isolation of the target state beforehand, a repeatable method rather than a single success.",
+  "otto-von-bismarck.achievement.2":
+    "Built the post-1871 \"honest broker\" alliance system specifically to preserve the new German Empire's peace once created, a documented shift from the confrontational diplomacy of the unification years to sustained stabilization.",
+  "otto-von-bismarck.moment.1":
+    "Edited the Ems Dispatch on the day he received it in 1870, sharpening its wording specifically to provoke France into declaring war — a same-day, dated act he later described plainly in his own account of the episode.",
+  "otto-von-bismarck.moment.2":
+    "Sustained direct institutional conflict with the Catholic Church (the Kulturkampf) and later the socialist movement for years despite significant domestic opposition, rather than moderating course after early resistance.",
+  "otto-von-bismarck.turning_point.1":
+    "Resisted the young Kaiser Wilhelm II's demand to share foreign-policy authority in the late 1880s, a conflict that ended in his forced 1890 dismissal after 28 years running Prussian and then German policy.",
+  "otto-von-bismarck.interpretation.moment.1":
+    "This is consistent with the profile's high decisiveness and risk_tolerance: a specific, dated act that deliberately manufactured a high-stakes confrontation once he judged the odds favored Prussia.",
+  "otto-von-bismarck.interpretation.turning_point.1":
+    "This matches the profile's high, sustained autonomy_need: a documented refusal to share authority even as the political ground shifted against him, ending his career rather than being resolved through compromise.",
+
+  /* ------------------------------------------------------- Roster 14: Leo Tolstoy */
+  "leo-tolstoy.achievement.1":
+    "War and Peace's structural departure from the conventional novel — interleaving fiction with historical and philosophical essay — is documented by literary scholarship as a deliberate, widely influential formal innovation.",
+  "leo-tolstoy.achievement.2":
+    "Founded and personally ran a school for peasant children on his own estate and organized famine relief efforts in the 1890s, self-initiated projects entirely outside his literary career.",
+  "leo-tolstoy.moment.1":
+    "Underwent a documented, radical mid-life conversion described in his own Confession (1882) — from celebrated novelist to ascetic Christian anarchist — explicitly renouncing his earlier work and lifestyle.",
+  "leo-tolstoy.moment.2":
+    "His and his wife Sophia's own diaries — a rare case of corroborating accounts from both sides of the same marriage — document an escalating, decades-long inability to reconcile his ascetic ideals with their shared family life.",
+  "leo-tolstoy.turning_point.1":
+    "Fled his own home at 82, days before his death, after years of unresolved conflict with his family over giving away his property and copyrights, having been unable to resolve the question any other way.",
+  "leo-tolstoy.interpretation.moment.1":
+    "This is consistent with the profile's high belief_updating score: a rare, self-authored account of large-scale personal and philosophical revision, not inferred from behavior alone.",
+  "leo-tolstoy.interpretation.turning_point.1":
+    "This is scored at low decisiveness on this specific question despite his generally high persistence — years of documented agonizing before an action taken only at the very end of his life.",
+
+  /* ------------------------------------------------------- Roster 14: Sigmund Freud */
+  "sigmund-freud.achievement.1":
+    "Published The Interpretation of Dreams in 1899, a documented, genuinely novel theoretical synthesis at the time, independently attested by the scale of the field — psychoanalysis — that developed directly from it.",
+  "sigmund-freud.achievement.2":
+    "Conducted his own systematic self-analysis through daily dream recording over several years while simultaneously maintaining a full clinical practice and prolific writing output, documented in his letters to Wilhelm Fliess.",
+  "sigmund-freud.moment.1":
+    "Ended his collaborations with Carl Jung and Alfred Adler at specific, dated points once he judged their theoretical departures irreconcilable, following extended periods of documented ambivalence beforehand.",
+  "sigmund-freud.moment.2":
+    "The Interpretation of Dreams sold poorly for years after publication and psychoanalysis was widely dismissed by the medical establishment for over a decade, documented in his own correspondence describing sustained professional isolation.",
+  "sigmund-freud.turning_point.1":
+    "Fled Nazi-annexed Vienna for London in 1938, at 82 and after 33 operations for the cancer first diagnosed in 1923, specifically to continue his work and protect his papers and his daughter Anna.",
+  "sigmund-freud.interpretation.moment.1":
+    "This is consistent with the profile's high autonomy_need and low collaboration score: a documented, repeated pattern of prioritizing theoretical control over preserving close working relationships.",
+  "sigmund-freud.interpretation.turning_point.1":
+    "This matches the profile's high persistence and impact_motivation: continued, self-directed work pursued under severe physical and political threat rather than abandoned for safety alone.",
+
+  /* ------------------------------------------------------- Roster 14: Pablo Picasso */
+  "pablo-picasso.achievement.1":
+    "Co-developed Cubism with Georges Braque around 1907-1909, a documented, dated break from prior representational convention independently corroborated by contemporary critics and later art historians, not self-claimed.",
+  "pablo-picasso.achievement.2":
+    "Sustained a documented, catalogued output of roughly 50,000 works across painting, sculpture, printmaking, and ceramics over more than 75 years, reinventing his own style roughly once per decade rather than repeating an early breakthrough.",
+  "pablo-picasso.moment.1":
+    "Les Demoiselles d'Avignon (1907) shocked and alienated even his own close circle — Braque's and Matisse's initial reactions are recorded as hostile — before Cubism gained any acceptance at all.",
+  "pablo-picasso.moment.2":
+    "Painted Guernica in 1937 as a deliberate response to the bombing of the Basque town, a specific documented instance of political statement in a career otherwise largely apolitical in subject matter.",
+  "pablo-picasso.turning_point.1":
+    "Documented lifelong rivalry with Henri Matisse, referenced directly by both artists in relation to each other's work across decades — a sustained competitive dynamic both men treated as genuinely productive rather than purely hostile.",
+  "pablo-picasso.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance and creative_originality: pursuing a direction against the immediate judgment of his own closest peers, before any external validation existed.",
+  "pablo-picasso.interpretation.turning_point.1":
+    "This matches the profile's high, dual-edged competitiveness score: a rivalry both artists treated as a genuine spur to their own work, not simply personal animosity.",
+
+  /* ------------------------------------------------------- Roster 14: Gertrude Bell */
+  "gertrude-bell.achievement.1":
+    "Achieved a first-class Oxford history degree in two years — unusual for the period and for one of the first women admitted — then independently mastered six languages and academic-standard archaeological field method.",
+  "gertrude-bell.achievement.2":
+    "Founded Iraq's Department of Antiquities and the Baghdad Archaeological Museum specifically to keep excavated artifacts in the country rather than exported abroad, a deliberate institution-building choice she wrote about directly.",
+  "gertrude-bell.moment.1":
+    "Was detained by a hostile emir during her solo 1913-14 desert expedition to Ha'il, and documented negotiating her own release through personal diplomacy rather than waiting for external rescue.",
+  "gertrude-bell.moment.2":
+    "Was the only woman with independent standing among the British delegation at the 1921 Cairo Conference, personally advocating for Faisal's selection as king of the new Iraqi state to both British officials and Arab tribal and urban leaders.",
+  "gertrude-bell.turning_point.1":
+    "Volunteered her unmatched personal knowledge of Mesopotamian tribal politics — built over a decade of pre-war travel most Europeans had never attempted — to British intelligence at the outbreak of WWI, without waiting to be asked.",
+  "gertrude-bell.interpretation.moment.1":
+    "This is consistent with the profile's high resourcefulness and risk_tolerance: a specific, corroborated instance of managing a genuinely dangerous situation herself rather than depending on outside help.",
+  "gertrude-bell.interpretation.turning_point.1":
+    "This matches the profile's high proactive_agency and opportunity_sensing: self-initiated action that positioned her as institutionally indispensable exactly when it mattered most, rather than a role assigned to her.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -4801,6 +4977,182 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 이 프로필에서 문서로 뒷받침되는 패턴, 즉 위협에는 직접 맞서면서도 위협이 사라진 뒤에는 확전을 피하는 경향과 부합한다 — 결단력은 있으나 보복적이지 않은 모습이다.",
   "marcus-aurelius.interpretation.turning_point.1":
     "이는 이 프로필에서 문서로 뒷받침되는 위험 감수성과 함께 놓고 볼 수 있다 — 안전한 곳에서 전쟁을 지휘하는 대신 전선에서 개인적 위험을 감수하기로 한 지속적인 선택이다.",
+
+  /* ------------------------------------------------------- Roster 14: Abraham Lincoln */
+  "abraham-lincoln.achievement.1":
+    "정규 교육 없이 상점 점원과 측량사로 일하며 독학으로 법을 공부해 1836년 변호사가 되었고, 대통령이 된 뒤에는 게티즈버그 연설과 두 번째 취임 연설을 직접 손으로 써 전쟁의 의미를 다시 규정했다 — 오늘날까지도 인용되는 글이다.",
+  "abraham-lincoln.achievement.2":
+    "1860년 후보 지명 경쟁에서 자신과 맞섰던 인물들(수어드, 체이스, 베이츠)로 내각을 구성해 이들을 밀어내지 않았고, 법적·정치적 지위가 여전히 논란이던 1863년에 노예해방 선언을 발표했다.",
+  "abraham-lincoln.moment.1":
+    "매클렐런 장군의 공공연한 항명과 재무장관 체이스의 노골적인 자리 욕심을 수년간 감내하다가, 실패가 명백해진 뒤에야 각각을 해임했다 — 처음 도발이 있었을 때 바로 조치한 것이 아니었다.",
+  "abraham-lincoln.moment.2":
+    "내각 각료들과 보좌관들은 그가 긴장된 회의 자리를 소박한 일화나 농담으로 풀어내는 모습을 각자 독립적으로 기록했다 — 막연한 유머 감각 평판이 아니라 구체적이고 반복된 사회적 기술이었다.",
+  "abraham-lincoln.turning_point.1":
+    "노예제에 대한 그의 입장은 본인이 남긴 기록에 따라 전쟁의 의미가 바뀌어 가며 세 단계로 변화했다 — 노예제를 건드리지 않고 연방을 지키겠다던 1861년(호레이스 그릴리에게 보낸 편지), 전시 조치로서의 노예해방 선언(1863년), 그리고 노예제 자체를 폐지하기 위한 수정헌법 제13조 추진(1865년)이다.",
+  "abraham-lincoln.interpretation.moment.1":
+    "이는 이 프로필의 높은 갈등 감내력과 양면적 결단력 점수와 부합한다 — 갈등을 피하거나 즉각 반응하기보다, 마찰을 오래 견디다 마지막에 완전히 결별하는 패턴이다.",
+  "abraham-lincoln.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 적응력 점수와 맞닿아 있다 — 사후에 재구성된 것이 아니라, 각 단계마다 본인의 말로 기록된, 상황에 따른 단계적 입장 변화다.",
+
+  /* ------------------------------------------------------- Roster 14: Theodore Roosevelt */
+  "theodore-roosevelt.achievement.1":
+    "아버지가 마련해 준 운동 요법으로 심한 천식을 앓던 허약한 어린 시절의 몸을 스스로 단련해 극복했고, 대통령이 된 뒤에는 '불리 풀핏(연단의 힘)'을 활용해 트러스트 해체와 자연보전에 대한 여론을 형성하며 2억 3천만 에이커 이상의 땅을 보호했다.",
+  "theodore-roosevelt.achievement.2":
+    "23세에 쓴 해군사(海軍史)는 오늘날까지 사료 활용 방식으로 역사가들의 인용을 받고 있으며, 같은 10년 사이에 쿠바 케틀힐 전투에서는 직접 총탄 속에서 돌격을 지휘했다 — 학문적 성취와 육체적 성취가 뚜렷이 다른 형태로 공존한 사례다.",
+  "theodore-roosevelt.moment.1":
+    "1898년 전쟁 선포 직후 며칠 만에 해군 차관보라는 안정된 자리를 내려놓고, 워싱턴에서 전쟁을 지휘하는 대신 직접 의용 기병연대를 조직해 이끌었다.",
+  "theodore-roosevelt.moment.2":
+    "왕립지리학회가 그의 나이에 무모하다고 경고했음에도 1913~14년 아마존 '의혹의 강' 탐험을 강행했고, 급류에 보급품과 보트를 잃고 거의 치명적인 감염까지 겪은 뒤에도 탐험을 끝까지 이어갔다.",
+  "theodore-roosevelt.turning_point.1":
+    "두 임기 동안 이끌었던 공화당을 떠나 1912년 자신이 직접 후계자로 지명했던 윌리엄 하워드 태프트에 맞서 제3당 '불 무스' 후보로 출마했고, 그 결과 표가 갈려 둘 다 선거에서 패했다.",
+  "theodore-roosevelt.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 주도적 행위성 점수와 부합한다 — 안전한 곳에서 상황을 지켜보는 대신 스스로 위험을 자처한 구체적 선택으로, 그의 삶에서 한 번이 아니라 여러 차례 확인된다.",
+  "theodore-roosevelt.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 독립적 사고 점수와 맞닿아 있다 — 조직에 대한 충성이 아니라 개인적 판단에 따라 자신이 속한 정당 기득권과 공개적으로, 값비싼 대가를 치르며 결별한 사례다.",
+
+  /* ------------------------------------------------------- Roster 14: Alexander Hamilton */
+  "alexander-hamilton.achievement.1":
+    "국가 부채 조달, 미국 제1은행 설립, 조폐국 창설을 하나로 엮은 초기 연방 재정 체계 전체를 설계했다 — 재임 약 2년 사이에 그가 직접 작성한 재무부 보고서들에 담긴, 순서까지 짜인 하나의 통합 프로그램이었다.",
+  "alexander-hamilton.achievement.2":
+    "매디슨, 제이와 함께 1년도 안 되는 기간에 85편의 페더럴리스트 논집 중 51편을 집필했으며, 역사가들은 이 정치적 논변이 미국 헌법 비준을 위한 여러 주의 표결에 실제로 영향을 미쳤다고 평가한다.",
+  "alexander-hamilton.moment.1":
+    "1797년 레이놀즈 팸플릿을 발표해 사적인 불륜 관계를 구체적으로 공개 고백했다 — 이 팸플릿이 반박하려던 부패 혐의보다 개인적 스캔들의 피해가 덜하다는 계산에 따른 것이었다.",
+  "alexander-hamilton.moment.2":
+    "자신의 재정 프로그램에 대체로 반대했던 제퍼슨, 매디슨과 직접 협상해 주(州) 부채 인수안 통과에 필요한 표를 확보했으며, 그 대가로 수도를 포토맥 강변으로 옮기는 데 동의했다.",
+  "alexander-hamilton.turning_point.1":
+    "10년 가까이 이어진 공개적 경쟁 관계 끝에, 이전에는 여러 차례 피했던 것으로 전해지는 대결을 더는 피하지 않고 1804년 애런 버의 결투 신청을 받아들였다.",
+  "alexander-hamilton.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 부합한다 — 팸플릿 자체에 담긴 그의 명시적 논리처럼, 더 나쁘다고 판단한 결과 대신 스스로 감수할 만한 작은 대가를 선택한 사례다.",
+  "alexander-hamilton.interpretation.turning_point.1":
+    "이는 이 프로필의 높고 지속적인 갈등 감내력 점수와 맞닿아 있다 — 해소되거나 정리되지 않고 10년에 걸쳐 격화된 개인적 경쟁 관계가 결국 가장 극단적인 결말로 이어졌다.",
+
+  /* ------------------------------------------------------- Roster 14: Mark Twain */
+  "mark-twain.achievement.1":
+    "《허클베리 핀의 모험》에서 지속적으로 사용한 구어체 1인칭 서술은 당대의 격식 있는 문어체에서 의도적으로 벗어난 시도였으며, 이후 헤밍웨이를 비롯한 여러 작가들이 현대 미국 산문의 토대로 꼽았다.",
+  "mark-twain.achievement.2":
+    "1894년 자신의 출판사가 파산해 50대 후반에 큰 빚을 지게 되자, 법적으로 가능했던 채무 면제 대신 전 세계를 도는 고된 강연 여행을 떠나 채권자들에게 빚을 전액 갚았다.",
+  "mark-twain.moment.1":
+    "《허클베리 핀의 모험》 집필 도중 몇 년간 원고를 손대지 않고 묵혀 두었다가 다시 돌아와 완성했다 — 하나의 연속된 창작 흐름이 아니라 구체적으로 확인되는 공백이 있었다.",
+  "mark-twain.moment.2":
+    "10년 넘게 페이지 식자기에 자신의 문학적 재산 대부분을 투자해 잃었으며, 본인의 편지에 남아 있는 분명한 경고 신호들을 지나치고도 계속 자금을 투입했다.",
+  "mark-twain.turning_point.1":
+    "1896년 딸 수지의 죽음, 그리고 훗날 아내 올리비아의 죽음은 본인의 편지와 후일 자서전에서 극심한 슬픔의 시기로 기록되어 있으며, 이는 그의 마지막 10년 글쓰기의 어조를 어둡게 만들었다.",
+  "mark-twain.interpretation.moment.1":
+    "이는 이 프로필의 중간 수준이면서 기분에 좌우되는 규율성 점수와 부합한다 — 더 규율적인 작가의 기록에서 보일 법한 꾸준한 산출 패턴이 아니라, 실재하지만 고르지 않은 생산성이다.",
+  "mark-twain.interpretation.turning_point.1":
+    "이 시기는 낮은 모호함 감내력으로 평가되며, 이 프로필에 기록된 이 시기의 불안과도 맞닿아 있다 — 슬픔과 재정적 불확실성이 겹친 이 구간은 그의 생애 기록 중 확신도가 가장 낮은 대목에 해당한다.",
+
+  /* ------------------------------------------------------- Roster 14: Ernest Hemingway */
+  "ernest-hemingway.achievement.1":
+    "감정적 맥락을 설명하기보다 생략하는 간결한 '빙산 이론' 문체를 개발해 1920년대 문학적 관습에서 의도적으로 벗어났으며, 이후 미국 소설에 폭넓은 영향을 미친 것으로 인정받는다.",
+  "ernest-hemingway.achievement.2":
+    "18세에 이탈리아 전선에서 구급차 운전병으로 자원했다가 중상을 입었고, 20년 뒤에는 스페인 내전과 노르망디 상륙작전을 종군기자로서 굳이 최전선에서 취재하겠다고 고집했다.",
+  "ernest-hemingway.moment.1":
+    "말년의 한 인터뷰에서 《무기여 잘 있거라》의 결말을 만족할 때까지 39번 다시 썼다고 밝혔다 — 막연한 성실함의 주장이 아니라 구체적으로 수치화된 퇴고 사례다.",
+  "ernest-hemingway.moment.2":
+    "자신의 편지와 후일 전기에 따르면 경쟁 관계로 여겨지는 감정 때문에 가까운 우정을 여러 차례 완전히 끊었으며, 가장 공개적인 사례는 F. 스콧 피츠제럴드로, 사후에 출판된 회고록 《movable Feast》에서 그를 실명으로 비판했다.",
+  "ernest-hemingway.turning_point.1":
+    "1954년 아프리카 여행 중 같은 해에 두 차례 비행기 추락 사고에서 살아남았으나 완전히 회복하지 못할 부상을 입었고, 이 육체적 쇠락은 1961년 사망하기 전 더 성겨진 마지막 창작 시기와 겹친다.",
+  "ernest-hemingway.interpretation.moment.1":
+    "이는 이 프로필에 기록된 완벽주의 및 경쟁심과 부합한다 — 엄격한 퇴고와 더불어, 특정하게 이름을 밝힌 경쟁자들과 자신의 위치를 직접 견주는 패턴이 함께 나타난다.",
+  "ernest-hemingway.interpretation.turning_point.1":
+    "이 프로필에서 모호함 감내력이 낮게 평가된 근거는 진단을 내리는 것이 아니라, 말년에 기록된 행동 패턴 자체다.",
+
+  /* ------------------------------------------------------- Roster 14: Elizabeth I */
+  "elizabeth-i.achievement.1":
+    "의도적으로 온건하게 설계한 개신교-가톨릭 종교 정착안을 통해 44년간 잉글랜드 왕위를 지켰으며, 1588년 스페인 무적함대가 다가올 때 안전한 곳으로 피하는 대신 틸버리에서 직접 병사들 앞에 나서 연설했다.",
+  "elizabeth-i.achievement.2":
+    "40년간 재임한 단 한 명의 수석 자문관 윌리엄 세실을 중심으로 당대 가장 안정적인 정부 중 하나를 유지했다 — 그 시대치고는 이례적으로 오래 지속된 협력 관계였다.",
+  "elizabeth-i.moment.1":
+    "자신의 추밀원과 의회로부터 수십 년에 걸쳐 결혼하고 후계자를 정하라는 압력을 받았지만, 재위 기간 내내 거의 모든 조언에 맞서 그 입장을 고수했다.",
+  "elizabeth-i.moment.2":
+    "사촌인 스코틀랜드 여왕 메리의 처형을 1587년에 명령했는데, 그 이전까지 수년간 의도적으로 결정을 미룬 뒤에야 내린 조치였다.",
+  "elizabeth-i.turning_point.1":
+    "왕위에 오르기 여러 해 전, 반역 혐의로 언니 메리 1세에 의해 런던탑에 갇혔을 때도 자신의 정당성 주장과 침착함을 끝까지 유지했다 — 즉위 훨씬 이전의 초기 시련이었다.",
+  "elizabeth-i.interpretation.moment.1":
+    "이는 이 프로필의 높고 지속적인 자율성 욕구와 부합한다 — 단독 권력을 유지하기 위해 결혼을 거부했고, 이는 재위 초기 한 차례의 거절이 아니라 44년 재위 내내 지켜낸 입장이었다.",
+  "elizabeth-i.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 인내력과 모호함 감내력과 부합한다 — 단발성으로 해소된 사건이 아니라, 실제로 불확실하고 신변이 위태로웠던 기간 내내 유지된 침착함이다.",
+
+  /* ------------------------------------------------------- Roster 14: Otto von Bismarck */
+  "otto-von-bismarck.achievement.1":
+    "덴마크, 오스트리아, 프랑스를 상대로 한 세 차례의 전쟁을 통해 독일 통일을 성사시켰으며, 각 전쟁 전에는 상대국을 외교적으로 고립시키는 작업을 의도적으로 선행했다 — 단발적 성공이 아니라 반복 가능한 방법이었다.",
+  "otto-von-bismarck.achievement.2":
+    "1871년 이후에는 새로 세운 독일제국의 평화를 지키기 위한 '정직한 중개자' 동맹 체제를 구축했다 — 통일 시기의 대결적 외교에서 지속적인 안정화로의 문서화된 전환이었다.",
+  "otto-von-bismarck.moment.1":
+    "1870년 엠스 급전을 받은 당일 그 문구를 손질해 프랑스가 전쟁을 선포하도록 의도적으로 자극했다 — 훗날 자신의 회고에서도 담담히 밝힌, 날짜까지 특정되는 당일의 조치였다.",
+  "otto-von-bismarck.moment.2":
+    "상당한 국내 반발에도 불구하고 가톨릭교회(문화투쟁)와 이후 사회주의 운동과의 직접적인 제도적 대립을 초기 저항 이후에도 노선을 바꾸지 않고 수년간 이어갔다.",
+  "otto-von-bismarck.turning_point.1":
+    "1880년대 후반 젊은 카이저 빌헬름 2세가 외교 정책 권한을 나누자고 요구한 것에 맞섰고, 이 갈등은 프로이센과 이후 독일 정책을 28년간 이끈 끝에 1890년 강제 사임으로 마무리되었다.",
+  "otto-von-bismarck.interpretation.moment.1":
+    "이는 이 프로필의 높은 결단력과 위험 감수성과 부합한다 — 승산이 프로이센에 있다고 판단했을 때 고위험 대결을 의도적으로 만들어낸, 날짜까지 특정되는 구체적 행동이다.",
+  "otto-von-bismarck.interpretation.turning_point.1":
+    "이는 이 프로필의 높고 지속적인 자율성 욕구와 부합한다 — 정치적 상황이 자신에게 불리하게 바뀌어도 권한을 나누기를 거부한 사례로, 타협이 아니라 경력의 종결로 이어졌다.",
+
+  /* ------------------------------------------------------- Roster 14: Leo Tolstoy */
+  "leo-tolstoy.achievement.1":
+    "《전쟁과 평화》는 소설과 역사적·철학적 에세이를 교차시키며 전통적인 소설 형식에서 벗어난 구조적 시도를 보여주었고, 문학 연구자들은 이를 의도적이고 널리 영향을 미친 형식적 혁신으로 평가한다.",
+  "leo-tolstoy.achievement.2":
+    "자신의 영지에 농민 자녀를 위한 학교를 세우고 직접 운영했으며, 1890년대에는 기근 구호 활동을 조직했다 — 문학 활동과는 완전히 별개로 스스로 시작한 사업들이었다.",
+  "leo-tolstoy.moment.1":
+    "자신의 저서 《고백록》(1882)에 기록된 급진적인 중년의 전향을 겪었다 — 명성 높은 소설가에서 금욕적인 기독교 아나키스트로, 이전의 작품과 생활방식을 명시적으로 부정했다.",
+  "leo-tolstoy.moment.2":
+    "그와 아내 소피아 각자가 남긴 일기는 같은 결혼 생활을 양쪽 모두의 시점에서 뒷받침하는 드문 사례로, 그의 금욕적 이상과 가족 공동생활을 조화시키지 못한 채 수십 년간 심화된 갈등을 보여준다.",
+  "leo-tolstoy.turning_point.1":
+    "재산과 저작권을 포기하는 문제를 두고 가족과 수년간 풀리지 않은 갈등을 겪은 끝에, 사망 며칠 전인 82세에 다른 방법으로는 해결할 수 없었던 그 문제 때문에 집을 떠났다.",
+  "leo-tolstoy.interpretation.moment.1":
+    "이는 이 프로필의 높은 신념 갱신 점수와 부합한다 — 행동만으로 추정한 것이 아니라, 대규모의 개인적·철학적 전환을 스스로 기록한 드문 사례다.",
+  "leo-tolstoy.interpretation.turning_point.1":
+    "전반적으로 높은 인내력에도 불구하고 이 특정 사안에 대해서는 낮은 결단력으로 평가된다 — 생애 맨 마지막에 이르러서야 행동에 옮기기까지, 수년간 문서로 확인되는 고뇌가 있었다.",
+
+  /* ------------------------------------------------------- Roster 14: Sigmund Freud */
+  "sigmund-freud.achievement.1":
+    "1899년 《꿈의 해석》을 출판했다 — 당시로서는 진정으로 새로운 이론적 종합이었으며, 이로부터 직접 발전한 정신분석학이라는 학문 분야의 규모 자체가 이를 독립적으로 뒷받침한다.",
+  "sigmund-freud.achievement.2":
+    "빌헬름 플리스에게 보낸 편지에 기록된 대로, 수년에 걸쳐 매일 꿈을 기록하며 체계적인 자기분석을 진행하는 동시에 임상 진료와 왕성한 저술 활동도 함께 유지했다.",
+  "sigmund-freud.moment.1":
+    "칼 융, 알프레트 아들러와의 협력을 각각 이론적 결별이 돌이킬 수 없다고 판단한 특정 시점에 끝냈으며, 그 이전에는 문서로 확인되는 오랜 망설임의 기간이 있었다.",
+  "sigmund-freud.moment.2":
+    "《꿈의 해석》은 출판 이후 수년간 판매가 저조했고 정신분석학은 10년 넘게 의학계에서 널리 배척당했다 — 이는 자신의 서신에 기록된 지속적인 직업적 고립 상태를 보여준다.",
+  "sigmund-freud.turning_point.1":
+    "1923년 처음 진단받은 암으로 33차례 수술을 받은 뒤인 82세에, 나치가 병합한 빈을 떠나 런던으로 망명했다 — 연구를 계속하고 자신의 자료와 딸 안나를 지키기 위해서였다.",
+  "sigmund-freud.interpretation.moment.1":
+    "이는 이 프로필의 높은 자율성 욕구와 낮은 협업 점수와 부합한다 — 가까운 협력 관계를 유지하는 것보다 이론적 통제를 우선시하는 패턴이 반복적으로 문서화되어 있다.",
+  "sigmund-freud.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 인내력과 영향 동기와 맞닿아 있다 — 단순히 안전을 위해서가 아니라, 심각한 신체적·정치적 위협 속에서도 스스로 이어간 연구 활동이다.",
+
+  /* ------------------------------------------------------- Roster 14: Pablo Picasso */
+  "pablo-picasso.achievement.1":
+    "1907~1909년 무렵 조르주 브라크와 함께 입체주의를 개발했다 — 당대 비평가들과 훗날 미술사가들이 독립적으로 인정한, 이전의 재현 관습에서 벗어난 날짜까지 특정되는 단절이었다.",
+  "pablo-picasso.achievement.2":
+    "75년 넘는 활동 기간 동안 회화, 조각, 판화, 도자기를 아울러 약 5만 점에 이르는 방대한 작품을 남겼으며, 초기의 성공에 안주하지 않고 10년마다 한 번꼴로 자신의 화풍을 새롭게 바꾸었다.",
+  "pablo-picasso.moment.1":
+    "1907년 작 《아비뇽의 처녀들》은 입체주의가 아직 어떤 인정도 받기 전, 브라크와 마티스 같은 가까운 동료들조차 충격을 받고 거부감을 드러냈던 작품이었다.",
+  "pablo-picasso.moment.2":
+    "1937년 바스크 지역 도시에 대한 폭격에 대한 의도적인 대응으로 《게르니카》를 그렸다 — 대체로 비정치적인 소재를 다뤄 온 그의 경력에서 구체적으로 확인되는 정치적 발언의 사례다.",
+  "pablo-picasso.turning_point.1":
+    "앙리 마티스와 평생에 걸친 경쟁 관계를 이어갔으며, 두 화가 모두 수십 년간 서로의 작품을 직접 언급했다 — 순전한 적대감이 아니라 둘 다 진정으로 생산적이라 여긴 지속적인 경쟁 구도였다.",
+  "pablo-picasso.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 창의적 독창성과 부합한다 — 어떤 외부적 인정도 존재하지 않던 시점에, 가장 가까운 동료들의 즉각적인 판단에 맞서 자신의 방향을 밀어붙인 사례다.",
+  "pablo-picasso.interpretation.turning_point.1":
+    "이는 이 프로필의 높고 양면적인 경쟁심 점수와 부합한다 — 두 화가 모두 단순한 개인적 적대감이 아니라 서로에게 진정한 자극이 되는 경쟁으로 받아들였다.",
+
+  /* ------------------------------------------------------- Roster 14: Gertrude Bell */
+  "gertrude-bell.achievement.1":
+    "옥스퍼드에서 여성이 처음 입학할 수 있게 된 시기에 단 2년 만에 역사학 최우등 학위를 받았고, 이후 스스로 여섯 개 언어와 학술 수준의 고고학 현장 조사 방법을 익혔다.",
+  "gertrude-bell.achievement.2":
+    "발굴된 유물이 해외로 반출되지 않고 이라크 내에 남도록 하기 위해 이라크 고대유물국과 바그다드 고고학박물관을 직접 설립했다 — 스스로 글로 밝힌, 의도적인 제도 구축 사례다.",
+  "gertrude-bell.moment.1":
+    "1913~14년 단독으로 하일까지 이어진 사막 탐험 중 적대적인 에미르에게 억류되었으나, 외부의 구조를 기다리는 대신 직접 협상해 스스로 풀려났다고 기록되어 있다.",
+  "gertrude-bell.moment.2":
+    "1921년 카이로 회의에 참석한 영국 대표단 중 독자적인 지위를 가진 유일한 여성으로서, 새로 세워질 이라크의 왕으로 파이살을 세우자고 영국 관리들과 아랍 부족·도시 지도자들 양쪽 모두에게 직접 설득했다.",
+  "gertrude-bell.turning_point.1":
+    "1차 세계대전이 발발하자 요청받기도 전에 먼저 나서서, 전쟁 이전 10년간의 여행으로 쌓은 — 당시 유럽인 대부분은 시도조차 하지 못했던 — 메소포타미아 부족 정치에 대한 독보적인 지식을 영국 정보기관에 제공했다.",
+  "gertrude-bell.interpretation.moment.1":
+    "이는 이 프로필의 높은 자원 활용력과 위험 감수성과 부합한다 — 외부 도움에 기대지 않고 실제로 위험한 상황을 스스로 수습한, 구체적으로 뒷받침되는 사례다.",
+  "gertrude-bell.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 주도적 행위성과 기회 포착력과 맞닿아 있다 — 누군가 맡긴 역할이 아니라, 가장 필요한 순간에 스스로 나서 제도적으로 대체 불가능한 위치를 만들어낸 사례다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

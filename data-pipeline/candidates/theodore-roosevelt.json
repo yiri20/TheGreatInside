@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "theodore-roosevelt",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Theodore Roosevelt",
+    "wikidataId": "Q33866",
+    "birthYear": 1858,
+    "deathYear": 1919,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "writer",
+      "explorer",
+      "naturalist"
+    ],
+    "fieldIds": [
+      "politics",
+      "exploration",
+      "environmental_science",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "overcame_adversity",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tr_morris_rise",
+      "kind": "biography",
+      "title": "Edmund Morris, The Rise of Theodore Roosevelt (1979)"
+    },
+    {
+      "id": "src_tr_morris_tr",
+      "kind": "biography",
+      "title": "Edmund Morris, Theodore Rex (2001)"
+    },
+    {
+      "id": "src_tr_autobiography",
+      "kind": "archive",
+      "title": "Theodore Roosevelt, An Autobiography (1913) — his own account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_tr_letters",
+      "kind": "archive",
+      "title": "Elting E. Morison, ed., The Letters of Theodore Roosevelt"
+    },
+    {
+      "id": "src_tr_wikipedia",
+      "kind": "wikipedia",
+      "title": "Theodore Roosevelt",
+      "url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 85,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kept detailed naturalist field journals from childhood through his final African and Amazon expeditions, personally collected and catalogued specimens for the Smithsonian, and authored serious ornithological notes alongside his political writing — a documented, lifelong pattern, not a single interest."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His naval history The Naval War of 1812 (written at 23) is still cited by historians for its use of primary tactical sources, but his general public rhetoric was often impressionistic rather than systematic — scored moderate, reflecting real but domain-specific rigor rather than a uniform trait."
+    },
+    "independent_thinking": {
+      "score": 75,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Broke from the Republican party he had led to run a third-party 1912 Progressive (\"Bull Moose\") campaign against his own hand-picked successor Taft — a specific, documented, costly institutional break rather than a rhetorical claim of independence."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Prolific and wide-ranging as a writer (natural history, history, memoir), but his own genres were largely conventional for the period rather than formally innovative — inference-level, scored near center rather than extreme."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented self-directed physical rebuilding of a severely asthmatic, frail childhood body through a sustained boxing/exercise regimen his father set him on, which he continued as an adult ranching and hunting regimen — corroborated by his own account and by Morris's independent biography."
+    },
+    "deep_focus": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Contemporaries (including his own family) describe an almost frenetic breadth of simultaneous activity rather than prolonged single-subject absorption; scored near center as a genuine, if less-documented, dimension rather than inferred from his general energy."
+    },
+    "experimentation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly moved into entirely new domains and tested himself directly in them rather than staying in one lane — ranching in the Dakota Badlands, commanding cavalry in Cuba, undertaking the near-fatal 1913-14 Amazon River of Doubt expedition — a documented pattern across separate ventures."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued the near-fatal 1913-14 Amazon expedition (malaria, a leg infection that nearly killed him, starvation rationing) to its completion rather than turning back, and rebuilt his political career after being effectively pushed out of the New York political machine in the 1880s."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, repeated reinvention across genuinely distinct roles — police commissioner, Assistant Secretary of the Navy, cavalry commander, governor, vice president, president, explorer — each requiring different skills he had not previously exercised professionally."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Personally led the charge up Kettle Hill in Cuba under fire (documented by multiple soldiers present, not only his own account) and undertook the 1913-14 Amazon expedition despite being told by the Royal Geographical Society it was reckless at his age and condition — both specific, corroborated instances of accepting severe physical risk."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Made the snap decision to resign his Navy post and raise the Rough Riders regiment within days of the war declaration, and unilaterally ordered the fleet to the Philippines while Acting Secretary of the Navy before formal authorization — both specific, dated, documented actions taken without prolonged deliberation."
+    },
+    "social_assertiveness": {
+      "score": 85,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Extensively and consistently documented across his entire public life as commanding a room through sheer physical and verbal energy — a specific, repeatable public persona attested by journalists, political allies, and rivals alike, not a single performance."
+    },
+    "leadership_drive": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Actively sought and accepted command at every level available to him — regiment, city police board, state, nation — and after leaving the presidency mounted the 1912 third-party campaign specifically to regain it, a documented sustained drive rather than reluctant duty."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Credited by contemporary political historians with personally building and sustaining public support for trust-busting and conservation policy against entrenched business interests through direct \"bully pulpit\" speechmaking — a specific documented use of the presidency's rhetorical reach that he himself named."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct, public confrontation with major trusts (Northern Securities case), his own former ally Taft, and the Senate over conservation policy across his career — a documented willingness to escalate conflict rather than avoid it, cutting both ways for his political alliances."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Produced a scholarly naval history at 23 still cited by later historians, and maintained detailed original ornithological field records across decades — documented sustained depth in specific domains alongside his generalism, not dabbling."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented across his entire life by both his own letters and independent biography as needing constant new projects and honors to pursue — his own family privately joked he wanted to be \"the bride at every wedding\" — corroborated by the sheer number of simultaneous professional tracks he pursued."
+    },
+    "competitiveness": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented lifelong pattern of measuring himself directly against others — boxing and wrestling into his White House years, insisting on leading (not just joining) the Rough Riders' charge, running specifically to defeat his own former protégé in 1912 — evidenced across multiple separate episodes."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly acted unilaterally ahead of formal authorization (the Philippine fleet order) or against his own party's establishment (1912) rather than waiting for institutional consensus — a documented pattern across distinct institutional contexts."
+    },
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Used the presidency specifically to create the national conservation system (over 230 million acres protected) framed explicitly in his own speeches as a duty to future generations beyond his own term — a specific documented policy program with an articulated long-horizon rationale."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented pattern of moving decisively into openings as they appeared — resigning a safe Navy post to raise a volunteer regiment when war was declared, accepting the vice-presidential nomination when it was offered as a way back into national politics after being sidelined in New York — evidenced across separate career turns."
+    },
+    "proactive_agency": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the Rough Riders regiment, the Amazon expedition, and the 1912 campaign — none assigned to him, all self-directed undertakings he sought out and organized personally, documented across his entire adult life."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "During the Amazon expedition, documented as personally organizing rationing, navigation, and morale under starvation conditions after the expedition's food and boats were lost to rapids — a specific, corroborated crisis-response episode, not a general reputation for capability."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q33866) before scoring. Scored to 22 attributes on genuine evidence availability (unusually broad multi-domain documented life), not attribute baseWeight. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 23,
+    "averageConfidence": 0.608,
+    "coverage": 0.695,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/theodore-roosevelt-pach-bros.jpg",
+    "width": 1341,
+    "height": 1600,
+    "source": "Wikimedia Commons (Library of Congress)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg",
+    "attribution": "Pach Bros., New York — Library of Congress",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg"
+  }
+}

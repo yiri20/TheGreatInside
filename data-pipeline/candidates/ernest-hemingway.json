@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ernest-hemingway",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Ernest Hemingway",
+    "wikidataId": "Q23434",
+    "birthYear": 1899,
+    "deathYear": 1961,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "overcame_adversity",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_eh_reynolds",
+      "kind": "biography",
+      "title": "Michael Reynolds, The Hemingway biography series (The Young Hemingway, Hemingway: The Paris Years, etc.)"
+    },
+    {
+      "id": "src_eh_letters",
+      "kind": "archive",
+      "title": "Sandra Spanier et al., eds., The Letters of Ernest Hemingway (Cambridge University Press)"
+    },
+    {
+      "id": "src_eh_movable_feast",
+      "kind": "archive",
+      "title": "Ernest Hemingway, A Moveable Feast (posthumous memoir) — read critically alongside independent biography"
+    },
+    {
+      "id": "src_eh_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ernest Hemingway",
+      "url": "https://en.wikipedia.org/wiki/Ernest_Hemingway"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented sustained engagement with bullfighting, deep-sea fishing, and big-game hunting as subjects he researched in real technical depth (Death in the Afternoon's bullfighting detail is documented as drawing on years of firsthand study) — genuine but narrower than a general intellectual curiosity, hence inference-level."
+    },
+    "creative_originality": {
+      "score": 85,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The spare \"iceberg theory\" prose style is documented across his own essays on craft and by decades of literary scholarship as a deliberate, original departure from the ornate prose conventions of the 1920s, with acknowledged wide influence on subsequent American fiction."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Deliberately tested his stripped-down style against traditional models early in his Paris apprenticeship (documented in his own letters to Gertrude Stein and Ezra Pound describing specific stylistic experiments), then continued to vary form across the short story, novel, and nonfiction (Death in the Afternoon, Green Hills of Africa)."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, self-reported habit (in interviews and letters) of a fixed daily word count and stopping mid-scene at a known point specifically to make the next day's start easier — a specific, repeatable working method, not a general reputation for productivity."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Death in the Afternoon and his fishing/hunting writing are documented as containing precise, technically accurate procedural detail that specialists in those fields have independently verified, reflecting deliberate close observation rather than impressionistic description."
+    },
+    "perfectionism": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented (by his own later interview statement) to have rewritten the ending of A Farewell to Arms 39 times before satisfaction — a specific, quantified instance of revision discipline, not a general claim of carefulness."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued writing and publishing through severe, repeated physical trauma (WWI shrapnel wounds, two plane crashes in 1954 that caused lasting injury) and successive personal crises across four marriages, sustaining major literary output into his final decade."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Reused a consistent style and thematic territory (war, sport, masculinity, loss) across a long career rather than substantially reinventing his approach — genuinely more continuity than change, scored near center rather than assumed high from his eventful life."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Volunteered as an ambulance driver on the Italian front at 18 and was severely wounded, later insisted on covering the Spanish Civil War and D-Day from the front lines as a journalist, and survived two plane crashes on the same 1954 African trip he had chosen to take — a sustained pattern across decades, not one episode."
+    },
+    "ambiguity_tolerance": {
+      "score": 35,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "Documented deteriorating mental health, paranoia, and eventual suicide in 1961 following his father's earlier suicide — the biographical record does not support high tolerance for prolonged uncertainty in his final years; scored low rather than defaulting to his adventurous public image, consistent with the rubric's caution against inferring a clinical diagnosis while still honestly scoring the documented behavioral pattern."
+    },
+    "decisiveness": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as making sudden, large life decisions (relocating countries, ending marriages, volunteering for war zones) with limited visible deliberation in the surviving record — inference-level given the record shows outcomes more than decision process."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Widely documented by his 1920s Paris circle (Stein, Fitzgerald, Pound) as dominating social settings and cultivating a public tough-guy persona (boxing, deep-sea fishing exploits reported in the press) that shaped his own celebrity."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His public reputation and literary influence are well documented, but direct evidence of interpersonal persuasive skill (as distinct from writing influence) is thinner in the surviving record — scored moderate at inference level."
+    },
+    "conflict_tolerance": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented public and permanent breaks with several close friends and mentors over perceived slights or rivalry — Gertrude Stein, and especially F. Scott Fitzgerald, whom he criticized in print in A Moveable Feast — a sustained pattern across more than one named relationship."
+    },
+    "competitiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented lifelong pattern of measuring his own literary standing directly against contemporaries (explicitly disparaging Fitzgerald's and Faulkner's work in his own letters and interviews) and of amateur boxing challenges to other writers — evidenced across multiple separate rivalries, not one remark."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly relocated (Paris, Key West, Cuba, Idaho) and changed publishers and personal circles on his own initiative across his career rather than settling into one institutional or social arrangement, a documented pattern across multiple life stages."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His war reporting and fiction are documented as aimed at conveying the direct human reality of violence to readers who had not experienced it, per his own stated intent in interviews, though this motivation is less consistently documented across his whole body of work than his stylistic aims."
+    },
+    "achievement_drive": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained pursuit of major literary recognition across decades (explicit competitiveness about the Nobel and Pulitzer in his own letters, satisfaction recorded on finally winning both) alongside continued writing well past financial necessity."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented years of deliberate stylistic apprenticeship under Gertrude Stein's and Ezra Pound's direct mentorship in 1920s Paris, described in his own letters as active study rather than casual association."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Worked substantively as a journalist, novelist, and short-story writer, but all three are closely adjacent literary forms rather than genuinely distinct domains — scored near center rather than inflated for range that is real but modest."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated his move to Paris on a journalist's modest salary specifically to pursue serious literary apprenticeship, and later independently arranged his own war-correspondent access to Spain and the WWII front outside any institutional assignment requiring it."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Positioned himself early in 1920s Paris literary circles before his own reputation was established, gaining mentorship and connections that materially advanced his career — inferred from the documented timing and outcome rather than a stated intent."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q23434) before scoring. ambiguity_tolerance scored low from the documented behavioral record of his final years (paranoia, suicide) per the rubric's instruction to score from behavior, not from a retrospective diagnosis — no mental-illness label is asserted or scored; only the documented pattern is used. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.536,
+    "coverage": 0.653,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ernest-hemingway-passport-1923.jpg",
+    "width": 810,
+    "height": 1080,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_1923_passport_photo.jpg",
+    "attribution": "1923 U.S. passport photograph",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_1923_passport_photo.jpg"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "queen-victoria",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Queen Victoria",
+    "wikidataId": "Q9439",
+    "birthYear": 1819,
+    "deathYear": 1901,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_qv_diaries",
+      "kind": "archive",
+      "title": "Queen Victoria's Journals (Royal Archives / Bodleian, digitized) — her own diary, kept from age 13 to shortly before her death"
+    },
+    {
+      "id": "src_qv_hibbert",
+      "kind": "biography",
+      "title": "Christopher Hibbert, Queen Victoria: A Personal History (2000)"
+    },
+    {
+      "id": "src_qv_letters",
+      "kind": "archive",
+      "title": "Arthur Christopher Benson & Viscount Esher, eds., The Letters of Queen Victoria"
+    },
+    {
+      "id": "src_qv_wikipedia",
+      "kind": "wikipedia",
+      "title": "Queen Victoria",
+      "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her journals document steady engagement with government papers and an active interest in the arts (music, painting lessons continued into adulthood) but not a documented pattern of intellectual exploration beyond conventional royal education — scored near center rather than inflated from the sheer diary volume."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Her Crimean War correspondence with commanders and ministers documents specific, pointed questioning about supply and medical conditions rather than passive receipt of reports, per Hibbert's review of the archival record — a real but narrower-than-extreme pattern, hence inference-level."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The 1839 Bedchamber Crisis shows a documented willingness to resist a prime minister's specific request against constitutional convention, though this is a single well-attested episode rather than a sustained pattern, capping the score below the documented-instance band."
+    },
+    "discipline": {
+      "score": 75,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kept a personal diary nearly every day from age 13 until shortly before her death at 81 — a directly documented, sustained 68-year self-imposed practice, among the longest continuous personal records of any monarch."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her surviving correspondence with ministers documents close, specific engagement with individual appointments, protocol, and policy wording rather than only broad approval, corroborated by Hibbert's review of the archival record."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued the daily diary and core constitutional duties across an extended period of severe, documented grief and withdrawal following Prince Albert's 1861 death, eventually resuming full public functions after roughly a decade — a sustained pattern across a genuinely difficult multi-year period, not a brief setback."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, substantial personality and role change across her 64-year reign — from an assertive, sociable young queen who clashed publicly with ministers (the 1839 Bedchamber Crisis), through prolonged withdrawal after Albert's death, to the more ceremonial, symbolically unifying \"Grandmother of Europe\" role of her final decades."
+    },
+    "risk_tolerance": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Little documented evidence of personal risk-taking behavior in the surviving record beyond the ordinary demands of the role; scored at the safe default rather than inferred from the political risks of her reign generally, which were mostly her ministers' to manage."
+    },
+    "ambiguity_tolerance": {
+      "score": 40,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her own letters document repeated distress at political uncertainty and a documented preference for clear, resolved outcomes over prolonged ambiguity, particularly visible in her urgent wartime correspondence during the Crimean War — scored below center rather than assumed neutral."
+    },
+    "decisiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The 1839 Bedchamber Crisis (refusing to replace her ladies-in-waiting at a new prime minister's request, nearly causing a constitutional standoff) is a documented, specific instance of firm refusal, though her broader pattern of governance shows heavy reliance on ministerial advice rather than independent decisive action, hence moderate scoring."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as confident and assertive with ministers in her early reign (the Bedchamber Crisis, open preference for Melbourne over Peel) but became notably withdrawn from public appearance for a decade after Albert's death — genuinely mixed across her life, scored near center."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained, close working and personal partnership with Prince Albert on policy matters during their marriage, and later a comparable close working relationship with Disraeli — real but concentrated in a small number of specific relationships rather than a broad pattern."
+    },
+    "leadership_drive": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Ascended by hereditary succession rather than by pursuing power, and her own letters show more sense of duty than desire for authority — scored at the safe default given the constitutional monarch's structurally limited and largely inherited leadership role."
+    },
+    "conflict_tolerance": {
+      "score": 45,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Bedchamber Crisis shows a willingness to stand firm in one specific documented confrontation, but her general documented preference (per Hibbert) was to work through favored ministers rather than sustain open conflict — scored at the safe default given genuinely thin, mixed evidence."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented continued music and drawing lessons into adulthood and sustained close study of government papers, though without evidence of the kind of deep specialist mastery documented for some other rulers — scored near center."
+    },
+    "achievement_drive": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of personal ambition beyond fulfilling the inherited role competently; scored at the safe default rather than inferred from the era's achievements, which were substantially her ministers' and the broader state's doing."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Bedchamber Crisis documents a specific instance of resisting external direction over her own household, balanced against a broader constitutional role built on ministerial deference — scored near center."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her later diaries and public statements frame the monarchy's symbolic and unifying role in explicit terms, but this reads as much as institutional duty as personal motivation for lasting impact — scored near center at inference level."
+    },
+    "aesthetic_sensitivity": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal practice of drawing and watercolor painting throughout her life (a substantial body of her own sketches survives in the Royal Collection), and active patronage of specific artists and composers named in her own diaries."
+    },
+    "proactive_agency": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The Bedchamber Crisis and her documented personal initiative in continuing the diary for 68 years show some self-directed agency, but the role of hereditary constitutional monarch structurally limits how much of her life reflects self-initiated action rather than inherited duty — scored near center."
+    },
+    "resourcefulness": {
+      "score": 52,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of resourceful crisis response distinct from ministerial management; scored at the safe default."
+    },
+    "persuasiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented influence over specific ministerial appointments and public sentiment (her later popularity was a real political asset for the government of the day), but the mechanism is thinly evidenced as personal persuasive skill specifically — scored near center."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q9439) before scoring. Evidence base is unusually voluminous (68 years of diary) but structurally weighted toward institutional/constitutional behavior rather than dense, varied personal incident — most rows scored at inference/strong_inference near the safe default (45-62) rather than inflated from the sheer volume of surviving material, per the rubric's anti-halo-effect discipline. This is a genuinely thinner evidence pack than the batch's other candidates and was frozen anyway for its exceptional longitudinal-change value (60+ years of self-documented life stages); flagged in the preflight-accuracy analysis if it does not clear eligibility_v2. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.445,
+    "coverage": 0.655,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.655 (>=0.6 OK) but only 4 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the constitutional-monarch role's structural evidence limits (see provenance.notes). Not rescued: no confidence raised post-validation."
+}

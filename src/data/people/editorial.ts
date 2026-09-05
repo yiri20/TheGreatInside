@@ -4682,4 +4682,294 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // Roster 14 (coverage-aware intake, 2026-09). Every fact below traces to
+  // each person's own candidate rationale (data-pipeline/candidates/<slug>.json,
+  // carried into roster14.ts) and their existing sources — no new research
+  // performed for editorial content.
+  "abraham-lincoln": {
+    achievements: [
+      { id: "abraham-lincoln-achievement-1", textKey: "abraham-lincoln.achievement.1", sourceIds: ["src_al_collected_works"] },
+      { id: "abraham-lincoln-achievement-2", textKey: "abraham-lincoln.achievement.2", sourceIds: ["src_al_goodwin", "src_al_collected_works"] },
+    ],
+    moments: [
+      {
+        id: "abraham-lincoln-moment-1",
+        textKey: "abraham-lincoln.moment.1",
+        interpretationKey: "abraham-lincoln.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_al_goodwin"],
+      },
+      { id: "abraham-lincoln-moment-2", textKey: "abraham-lincoln.moment.2", sourceIds: ["src_al_goodwin"] },
+    ],
+    turningPoints: [
+      {
+        id: "abraham-lincoln-turning-point-1",
+        textKey: "abraham-lincoln.turning_point.1",
+        interpretationKey: "abraham-lincoln.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_al_collected_works"],
+      },
+    ],
+  },
+
+  "theodore-roosevelt": {
+    achievements: [
+      { id: "theodore-roosevelt-achievement-1", textKey: "theodore-roosevelt.achievement.1", sourceIds: ["src_tr_autobiography", "src_tr_morris_tr"] },
+      { id: "theodore-roosevelt-achievement-2", textKey: "theodore-roosevelt.achievement.2", sourceIds: ["src_tr_morris_rise"] },
+    ],
+    moments: [
+      {
+        id: "theodore-roosevelt-moment-1",
+        textKey: "theodore-roosevelt.moment.1",
+        interpretationKey: "theodore-roosevelt.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_tr_morris_rise"],
+      },
+      { id: "theodore-roosevelt-moment-2", textKey: "theodore-roosevelt.moment.2", sourceIds: ["src_tr_morris_tr"] },
+    ],
+    turningPoints: [
+      {
+        id: "theodore-roosevelt-turning-point-1",
+        textKey: "theodore-roosevelt.turning_point.1",
+        interpretationKey: "theodore-roosevelt.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_tr_morris_tr"],
+      },
+    ],
+  },
+
+  "alexander-hamilton": {
+    achievements: [
+      { id: "alexander-hamilton-achievement-1", textKey: "alexander-hamilton.achievement.1", sourceIds: ["src_ah_papers"] },
+      { id: "alexander-hamilton-achievement-2", textKey: "alexander-hamilton.achievement.2", sourceIds: ["src_ah_federalist"] },
+    ],
+    moments: [
+      {
+        id: "alexander-hamilton-moment-1",
+        textKey: "alexander-hamilton.moment.1",
+        interpretationKey: "alexander-hamilton.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_ah_papers"],
+      },
+      { id: "alexander-hamilton-moment-2", textKey: "alexander-hamilton.moment.2", sourceIds: ["src_ah_chernow"] },
+    ],
+    turningPoints: [
+      {
+        id: "alexander-hamilton-turning-point-1",
+        textKey: "alexander-hamilton.turning_point.1",
+        interpretationKey: "alexander-hamilton.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_ah_chernow"],
+      },
+    ],
+  },
+
+  "mark-twain": {
+    achievements: [
+      { id: "mark-twain-achievement-1", textKey: "mark-twain.achievement.1", sourceIds: ["src_mt_powers"] },
+      { id: "mark-twain-achievement-2", textKey: "mark-twain.achievement.2", sourceIds: ["src_mt_powers"] },
+    ],
+    moments: [
+      {
+        id: "mark-twain-moment-1",
+        textKey: "mark-twain.moment.1",
+        interpretationKey: "mark-twain.interpretation.moment.1",
+        attributeId: "discipline",
+        sourceIds: ["src_mt_powers"],
+      },
+      { id: "mark-twain-moment-2", textKey: "mark-twain.moment.2", sourceIds: ["src_mt_letters"] },
+    ],
+    turningPoints: [
+      {
+        id: "mark-twain-turning-point-1",
+        textKey: "mark-twain.turning_point.1",
+        interpretationKey: "mark-twain.interpretation.turning_point.1",
+        attributeId: "ambiguity_tolerance",
+        sourceIds: ["src_mt_autobiography"],
+      },
+    ],
+  },
+
+  "ernest-hemingway": {
+    achievements: [
+      { id: "ernest-hemingway-achievement-1", textKey: "ernest-hemingway.achievement.1", sourceIds: ["src_eh_reynolds"] },
+      { id: "ernest-hemingway-achievement-2", textKey: "ernest-hemingway.achievement.2", sourceIds: ["src_eh_reynolds"] },
+    ],
+    moments: [
+      {
+        id: "ernest-hemingway-moment-1",
+        textKey: "ernest-hemingway.moment.1",
+        interpretationKey: "ernest-hemingway.interpretation.moment.1",
+        attributeId: "perfectionism",
+        sourceIds: ["src_eh_letters"],
+      },
+      { id: "ernest-hemingway-moment-2", textKey: "ernest-hemingway.moment.2", sourceIds: ["src_eh_movable_feast"] },
+    ],
+    turningPoints: [
+      {
+        id: "ernest-hemingway-turning-point-1",
+        textKey: "ernest-hemingway.turning_point.1",
+        interpretationKey: "ernest-hemingway.interpretation.turning_point.1",
+        attributeId: "ambiguity_tolerance",
+        sourceIds: ["src_eh_reynolds"],
+      },
+    ],
+  },
+
+  "elizabeth-i": {
+    achievements: [
+      { id: "elizabeth-i-achievement-1", textKey: "elizabeth-i.achievement.1", sourceIds: ["src_e1_collected_works"] },
+      { id: "elizabeth-i-achievement-2", textKey: "elizabeth-i.achievement.2", sourceIds: ["src_e1_starkey"] },
+    ],
+    moments: [
+      {
+        id: "elizabeth-i-moment-1",
+        textKey: "elizabeth-i.moment.1",
+        interpretationKey: "elizabeth-i.interpretation.moment.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_e1_somerset"],
+      },
+      { id: "elizabeth-i-moment-2", textKey: "elizabeth-i.moment.2", sourceIds: ["src_e1_starkey"] },
+    ],
+    turningPoints: [
+      {
+        id: "elizabeth-i-turning-point-1",
+        textKey: "elizabeth-i.turning_point.1",
+        interpretationKey: "elizabeth-i.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_e1_starkey"],
+      },
+    ],
+  },
+
+  "otto-von-bismarck": {
+    achievements: [
+      { id: "otto-von-bismarck-achievement-1", textKey: "otto-von-bismarck.achievement.1", sourceIds: ["src_ob_taylor"] },
+      { id: "otto-von-bismarck-achievement-2", textKey: "otto-von-bismarck.achievement.2", sourceIds: ["src_ob_memoirs"] },
+    ],
+    moments: [
+      {
+        id: "otto-von-bismarck-moment-1",
+        textKey: "otto-von-bismarck.moment.1",
+        interpretationKey: "otto-von-bismarck.interpretation.moment.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_ob_memoirs"],
+      },
+      { id: "otto-von-bismarck-moment-2", textKey: "otto-von-bismarck.moment.2", sourceIds: ["src_ob_steinberg"] },
+    ],
+    turningPoints: [
+      {
+        id: "otto-von-bismarck-turning-point-1",
+        textKey: "otto-von-bismarck.turning_point.1",
+        interpretationKey: "otto-von-bismarck.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_ob_steinberg"],
+      },
+    ],
+  },
+
+  "leo-tolstoy": {
+    achievements: [
+      { id: "leo-tolstoy-achievement-1", textKey: "leo-tolstoy.achievement.1", sourceIds: ["src_lt_wilson"] },
+      { id: "leo-tolstoy-achievement-2", textKey: "leo-tolstoy.achievement.2", sourceIds: ["src_lt_troyat"] },
+    ],
+    moments: [
+      {
+        id: "leo-tolstoy-moment-1",
+        textKey: "leo-tolstoy.moment.1",
+        interpretationKey: "leo-tolstoy.interpretation.moment.1",
+        attributeId: "belief_updating",
+        sourceIds: ["src_lt_wilson"],
+      },
+      { id: "leo-tolstoy-moment-2", textKey: "leo-tolstoy.moment.2", sourceIds: ["src_lt_diaries"] },
+    ],
+    turningPoints: [
+      {
+        id: "leo-tolstoy-turning-point-1",
+        textKey: "leo-tolstoy.turning_point.1",
+        interpretationKey: "leo-tolstoy.interpretation.turning_point.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_lt_diaries"],
+      },
+    ],
+  },
+
+  "sigmund-freud": {
+    achievements: [
+      { id: "sigmund-freud-achievement-1", textKey: "sigmund-freud.achievement.1", sourceIds: ["src_sf_gay"] },
+      { id: "sigmund-freud-achievement-2", textKey: "sigmund-freud.achievement.2", sourceIds: ["src_sf_fliess"] },
+    ],
+    moments: [
+      {
+        id: "sigmund-freud-moment-1",
+        textKey: "sigmund-freud.moment.1",
+        interpretationKey: "sigmund-freud.interpretation.moment.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_sf_jones"],
+      },
+      { id: "sigmund-freud-moment-2", textKey: "sigmund-freud.moment.2", sourceIds: ["src_sf_fliess"] },
+    ],
+    turningPoints: [
+      {
+        id: "sigmund-freud-turning-point-1",
+        textKey: "sigmund-freud.turning_point.1",
+        interpretationKey: "sigmund-freud.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_sf_gay"],
+      },
+    ],
+  },
+
+  "pablo-picasso": {
+    achievements: [
+      { id: "pablo-picasso-achievement-1", textKey: "pablo-picasso.achievement.1", sourceIds: ["src_pp_richardson"] },
+      { id: "pablo-picasso-achievement-2", textKey: "pablo-picasso.achievement.2", sourceIds: ["src_pp_richardson"] },
+    ],
+    moments: [
+      {
+        id: "pablo-picasso-moment-1",
+        textKey: "pablo-picasso.moment.1",
+        interpretationKey: "pablo-picasso.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_pp_stein"],
+      },
+      { id: "pablo-picasso-moment-2", textKey: "pablo-picasso.moment.2", sourceIds: ["src_pp_richardson"] },
+    ],
+    turningPoints: [
+      {
+        id: "pablo-picasso-turning-point-1",
+        textKey: "pablo-picasso.turning_point.1",
+        interpretationKey: "pablo-picasso.interpretation.turning_point.1",
+        attributeId: "competitiveness",
+        sourceIds: ["src_pp_richardson"],
+      },
+    ],
+  },
+
+  "gertrude-bell": {
+    achievements: [
+      { id: "gertrude-bell-achievement-1", textKey: "gertrude-bell.achievement.1", sourceIds: ["src_gb_howell"] },
+      { id: "gertrude-bell-achievement-2", textKey: "gertrude-bell.achievement.2", sourceIds: ["src_gb_wallach"] },
+    ],
+    moments: [
+      {
+        id: "gertrude-bell-moment-1",
+        textKey: "gertrude-bell.moment.1",
+        interpretationKey: "gertrude-bell.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_gb_letters"],
+      },
+      { id: "gertrude-bell-moment-2", textKey: "gertrude-bell.moment.2", sourceIds: ["src_gb_wallach"] },
+    ],
+    turningPoints: [
+      {
+        id: "gertrude-bell-turning-point-1",
+        textKey: "gertrude-bell.turning_point.1",
+        interpretationKey: "gertrude-bell.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_gb_letters"],
+      },
+    ],
+  },
 };

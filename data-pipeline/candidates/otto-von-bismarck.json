@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "otto-von-bismarck",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Otto von Bismarck",
+    "wikidataId": "Q8442",
+    "birthYear": 1815,
+    "deathYear": 1898,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "diplomat",
+      "statesman"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist",
+      "administrator"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ob_steinberg",
+      "kind": "biography",
+      "title": "Jonathan Steinberg, Bismarck: A Life (2011)"
+    },
+    {
+      "id": "src_ob_memoirs",
+      "kind": "archive",
+      "title": "Otto von Bismarck, Gedanken und Erinnerungen (Reflections and Reminiscences, his own memoirs, dictated 1890s) — read critically alongside independent biography"
+    },
+    {
+      "id": "src_ob_taylor",
+      "kind": "biography",
+      "title": "A. J. P. Taylor, Bismarck: The Man and the Statesman (1955)"
+    },
+    {
+      "id": "src_ob_wikipedia",
+      "kind": "wikipedia",
+      "title": "Otto von Bismarck",
+      "url": "https://en.wikipedia.org/wiki/Otto_von_Bismarck"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The three wars of unification (against Denmark, Austria, France) are documented by independent diplomatic historians as each engineered through specific, deliberately sequenced diplomatic isolation of the target state beforehand — a repeatable analytical method attested across three separate campaigns, not a single success."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly pursued policy against his own king's initial instincts (pressing Wilhelm I toward war with Austria in 1866 when the king favored caution) and against conservative allies' preference when he judged the situation required it, documented across more than one major decision."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained personal control over Prussian and then German foreign policy in exhaustive procedural detail for nearly three decades (1862-1890), documented in his own dispatches and Steinberg's review of the archival volume he personally handled."
+    },
+    "planning_orientation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1866 and 1870 wars are documented as each preceded by specific, dated diplomatic maneuvering (the Ems Dispatch's calculated editing before the Franco-Prussian War is directly attested in his own later account and independently corroborated) designed to secure a particular desired outcome before the first shot was fired."
+    },
+    "persistence": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued German unification across multiple setbacks and over a decade (from his 1862 appointment through 1871), and later sustained the Kulturkampf and anti-socialist campaigns for years despite incomplete success, documented across separate multi-year policy programs."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Shifted from confrontational unification-era diplomacy to the explicitly stabilizing, alliance-balancing \"honest broker\" role after 1871 once his objective changed from creating the German state to preserving it — a documented strategic pivot attested by diplomatic historians."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Deliberately provoked war with Austria in 1866 and edited the Ems Dispatch specifically to provoke France into declaring war in 1870, both documented instances of manufacturing a high-stakes confrontation rather than avoiding one, when he judged the odds favored Prussia."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Ems Dispatch edit was a same-day, specific documented act that decisively escalated a diplomatic incident into a declared war within days — attested by his own later account of the episode."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented across diplomatic accounts and parliamentary records as dominating negotiations and cabinet discussion through sheer personal forcefulness, including his 1862 \"Blood and Iron\" speech to the Prussian legislature, a specific and famous instance of confrontational public assertion."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Held and personally directed the office of Chancellor for the entirety of the new German Empire's first 19 years, documented as resisting delegation of core foreign-policy authority even to the Kaiser's court until his 1890 dismissal by Wilhelm II."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally securing the cooperation of the southern German states into the new Empire through direct negotiation rather than coercion alone, and sustaining the Congress of Berlin's (1878) outcome through his own chairing and personal diplomacy, per independent diplomatic-history accounts."
+    },
+    "conflict_tolerance": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct, prolonged institutional conflict with the Catholic Church (the Kulturkampf) and with the socialist movement for years despite significant domestic opposition, and provoked three separate wars rather than avoiding confrontation — a well-documented pattern across multiple named adversaries."
+    },
+    "competitiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented rivalry with Austria specifically for leadership of the German-speaking states, pursued deliberately to Austria's exclusion from the new Empire (the 1866 war's explicit aim) rather than accommodation — a specific, dated strategic choice."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as resisting sustained pressure from the new, more assertive Kaiser Wilhelm II to share foreign-policy authority in the late 1880s, a conflict that led directly to his 1890 dismissal rather than his own choice to step back — evidenced by the dismissal itself as much as by his resistance to it."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own memoirs and the post-1871 \"honest broker\" alliance system are documented as explicitly aimed at securing a durable, decades-long European peace rather than further conquest, a specific articulated long-horizon aim distinct from the earlier unification wars' objectives."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally studying and directing the fine detail of treaty language and diplomatic correspondence across decades rather than delegating substance to career diplomats, per Steinberg's review of his working papers."
+    },
+    "achievement_drive": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained pursuit of German unification under Prussian leadership across nearly a decade of setbacks and incremental steps (the Danish war, the Austrian war, the French war) before achieving it, corroborated by his own later account of the strategy's deliberate staging."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as repeatedly timing each war to exploit a specific, temporary window of diplomatic isolation of the target power (Austria's isolation before 1866, France's before 1870) rather than acting opportunistically without preparation — a pattern attested across separate campaigns."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Ems Dispatch episode documents a specific, improvised use of a minor diplomatic incident, edited on the spot, to achieve a major strategic outcome — a concrete, attested instance of resourceful use of an available situation."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally initiating and driving the unification strategy from his own appointment as Minister President rather than executing a plan set by the king, per Taylor's independent account of his early tenure."
+    },
+    "detail_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His surviving diplomatic correspondence documents close personal attention to specific treaty wording and protocol detail rather than only strategic generalities, corroborated by archival review."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Shifted from a younger, more rigidly conservative political outlook to the pragmatic, alliance-building realism of his chancellorship, documented across his career's arc though the underlying reasoning is inferred from the change in behavior rather than a stated reversal."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Almost entirely concentrated in statecraft and diplomacy across his career, with comparatively little documented substantive activity outside it — scored near center rather than extended without evidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q8442) before scoring. Scored to 22 attributes on genuine evidence availability, not attribute baseWeight. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 23,
+    "averageConfidence": 0.544,
+    "coverage": 0.677,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/otto-von-bismarck-bundesarchiv.jpg",
+    "width": 530,
+    "height": 749,
+    "source": "Wikimedia Commons (Bundesarchiv)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2005-0057,_Otto_von_Bismarck_(cropped).jpg",
+    "attribution": "Bundesarchiv, Bild 146-2005-0057, 31 August 1890",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2005-0057,_Otto_von_Bismarck_(cropped).jpg"
+  }
+}
