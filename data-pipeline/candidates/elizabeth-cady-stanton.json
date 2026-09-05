@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "elizabeth-cady-stanton",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Elizabeth Cady Stanton",
+    "wikidataId": "Q465335",
+    "birthYear": 1815,
+    "deathYear": 1902,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_activist",
+      "writer"
+    ],
+    "fieldIds": [
+      "civil_rights",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "nonconformist",
+      "grassroots_organizer"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ecs_letters",
+      "kind": "archive",
+      "title": "Elizabeth Cady Stanton, Susan B. Anthony: Correspondence, Writings, Speeches (ed. Ellen Carol DuBois) — her own extensive surviving correspondence, mostly with Susan B. Anthony over 50 years"
+    },
+    {
+      "id": "src_ecs_griffith",
+      "kind": "biography",
+      "title": "Elisabeth Griffith, In Her Own Right: The Life of Elizabeth Cady Stanton (1984)"
+    },
+    {
+      "id": "src_ecs_anthony_side",
+      "kind": "archive",
+      "title": "Susan B. Anthony's own separate correspondence and diaries documenting the 50-year working partnership from her own side, independent of Stanton's self-presentation"
+    },
+    {
+      "id": "src_ecs_wikipedia",
+      "kind": "wikipedia",
+      "title": "Elizabeth Cady Stanton",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as pursuing self-directed legal and theological study specifically to research the specific statutes she later campaigned against (married women's property law, biblical justifications for female subordination), inferred sustained intellectual engagement from this documented research pattern."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Declaration of Sentiments (1848), which she personally drafted, is documented as a structurally precise point-by-point legal and rhetorical argument modeled deliberately on the Declaration of Independence, independently analyzed by historians as a rigorously constructed document, not an emotional appeal."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as insisting on including a demand for women's suffrage in the 1848 Declaration of Sentiments against the explicit objection of several of her own co-organizers (including Lucretia Mott), who considered it too radical for the moment — a specific, dated instance of holding a minority position within her own movement."
+    },
+    "discipline": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained co-authorship of the multi-volume History of Woman Suffrage across two decades while raising seven children, corroborated by the dated publication record and by her own correspondence describing writing sessions fit around domestic responsibilities."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing suffrage and women's rights advocacy for over 50 years from the 1848 Seneca Falls Convention until her death in 1902, never seeing the goal achieved in her lifetime (the 19th Amendment passed in 1920), sustained across a documented multi-decade campaign with no resolution during her life."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as shifting emphasis over her career from a broad range of women's legal rights toward increasing focus on suffrage specifically as the movement matured, inferred as strategic adaptation from the documented shift in her public writing's emphasis over time."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented as publishing The Woman's Bible (1895), a direct critique of religious justifications for women's subordination, despite this being condemned even by many within her own suffrage movement (the National American Woman Suffrage Association formally censured it) — a specific, dated instance of accepting internal movement backlash for a position she judged correct."
+    },
+    "ambiguity_tolerance": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained decades of activism toward a goal with no clear timeline or guarantee of success within her lifetime, inferred tolerance for that prolonged uncertainty from the documented decades-long commitment."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The decision to include the suffrage demand in the 1848 Declaration despite co-organizer objection is a specific, documented instance of firm commitment, though the broader pattern is thinner, hence inference-level."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as a prominent public speaker and convention organizer across five decades, corroborated independently by contemporary press coverage of her speeches and by Anthony's own correspondence describing her as the movement's most effective public voice in its early decades."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Co-founded and served as president of the National Woman Suffrage Association for over 20 years, documented as retaining significant influence over movement strategy and public messaging throughout, corroborated by organizational records of the period."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Declaration of Sentiments is documented by historians as directly effective in framing the emerging women's rights movement's core arguments for decades afterward, an attributable rhetorical achievement independent of the movement's eventual, later success."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as sustaining public disagreement with her own movement's leadership over The Woman's Bible and over strategic priorities (opposing the 15th Amendment's passage without simultaneous women's suffrage, a position that split the movement and estranged some former allies) — evidenced across more than one internal conflict, not one dispute."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented self-directed study of law and theology specifically to build arguments against specific statutes and religious doctrines, inferred sustained skill-building from this documented, purposeful research pattern."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented sustained pursuit of movement goals across decades, though direct evidence of personal status-seeking as distinct from commitment to the cause is thinner, hence inference-level."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as publishing The Woman's Bible and pursuing the suffrage demand against her own movement's collective preference on more than one occasion, a sustained pattern of independent judgment over deference to consensus."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Declaration of Sentiments itself is a directly self-authored, explicit statement of intended durable legal and social change, and she is documented as continuing this same explicit mission across the entire remainder of her public life."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in activism, organizing, and writing within the women's rights movement, not extending to fully unrelated fields — scored near center."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally organized the 1848 Seneca Falls Convention with Lucretia Mott and drafted the Declaration of Sentiments herself, documented as self-initiated organizing rather than joining an existing movement structure, since none yet existed for this specific cause."
+    },
+    "collaboration": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained a documented, mutually corroborated 50-year working partnership with Susan B. Anthony, attested from both sides — Stanton's own letters and Anthony's own separate correspondence and diaries — describing a genuine, durable collaborative division of labor (Stanton as writer/theorist, Anthony as organizer), not a one-sided account."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as growing more religiously skeptical and more singularly focused on suffrage over her career, inferred belief evolution from the documented change in her public writing's emphasis and content over five decades."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Declaration of Sentiments' point-by-point legal structure documents careful, specific argument construction, though the broader evidentiary base for a general detail-oriented disposition is thinner, hence inference-level."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as timing the Seneca Falls Convention to follow directly from her own frustration at being excluded from full participation at the 1840 World Anti-Slavery Convention in London, inferred as recognizing and acting on a specific grievance-driven opportunity."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q465335) before scoring. Depth-focused this cycle: collaboration is scored from both sides of the Stanton-Anthony partnership (Stanton's own letters and Anthony's own separate correspondence/diaries), one of the strongest-corroborated relationships in the discovery pool this cycle; independent_thinking, risk_tolerance, and conflict_tolerance are corroborated by Griffith's independent biography and organizational records, not Stanton's self-presentation alone. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 23,
+    "averageConfidence": 0.495,
+    "coverage": 0.686,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/elizabeth-cady-stanton-loc.jpg",
+    "width": 1110,
+    "height": 1536,
+    "source": "Library of Congress (Prints and Photographs Division)",
+    "license": "Public domain",
+    "licenseUrl": "https://www.loc.gov/item/2004670381/",
+    "attribution": "Library of Congress, photographic print",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Elizabeth_Cady_Stanton_LCCN2004670381.jpg"
+  }
+}

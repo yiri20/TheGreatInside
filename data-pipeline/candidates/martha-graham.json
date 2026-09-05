@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "martha-graham",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Martha Graham",
+    "wikidataId": "Q487604",
+    "birthYear": 1894,
+    "deathYear": 1991,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "dancer"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "perfectionist",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mg_own_memoir",
+      "kind": "archive",
+      "title": "Martha Graham, Blood Memory (1991, published posthumously) — her own memoir, read critically alongside independent accounts"
+    },
+    {
+      "id": "src_mg_degooyer",
+      "kind": "biography",
+      "title": "Agnes de Mille, Martha: The Life and Work of Martha Graham (1991) — written by a former student and fellow choreographer who knew her for decades"
+    },
+    {
+      "id": "src_mg_company_dancers",
+      "kind": "biography",
+      "title": "Accounts from multiple named former Martha Graham Dance Company members across different decades of the company's history (including Merce Cunningham's, Erick Hawkins's, and Yuriko's own separate published/recorded recollections), independently corroborating a consistent picture of her studio practice and leadership style across a 60-plus-year span"
+    },
+    {
+      "id": "src_mg_wikipedia",
+      "kind": "wikipedia",
+      "title": "Martha Graham",
+      "url": "https://en.wikipedia.org/wiki/Martha_Graham"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained study of world mythology, Jungian psychology, and Native American ceremonial forms across decades specifically to inform new works (Night Journey draws on Greek myth via a Jungian lens; Primitive Mysteries on Southwestern ceremonial form), corroborated by de Mille's independent account of her research habits."
+    },
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed the \"contraction and release\" technique as a systematized alternative to classical ballet vocabulary, documented by dance historians as a foundational, genuinely original codified technique still taught internationally, independently corroborated by its adoption far beyond her own company."
+    },
+    "discipline": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, consistently corroborated across multiple decades of company members' independent accounts as maintaining a daily technique class and rehearsal discipline for herself and her dancers into her own seventies, a specific, sustained practice attested from more than one source across different eras of the company."
+    },
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented via multiple former dancers' independent accounts (spanning different decades of the company) of repeatedly rehearsing single short phrases for hours until a precise quality was achieved, and of her own harsh self-criticism of finished works — a specific, repeatedly corroborated pattern, not one dancer's impression."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued performing herself into her mid-seventies despite documented severe arthritis, then, after being forced to stop performing, entered a well-documented period of depression and alcohol dependency before rebuilding a second career phase as company director and rechoreographer into her nineties — a sustained arc across genuine adversity, not a single comeback."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as shifting from active performer to full-time director/choreographer role in her seventies after her body could no longer meet her own technical standard, a specific, forced but ultimately sustained professional transition."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Left the established Denishawn company in 1923 to found her own independent, financially precarious company with no guaranteed audience for a deliberately difficult new form — inferred financial and professional risk from the well-documented founding circumstances."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a financially precarious independent company for decades before wide institutional acceptance of modern dance as an art form, inferred tolerance for that prolonged uncertainty from the company's continued operation."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as making final artistic decisions unilaterally and often changing choreography abruptly close to performance dates, per multiple dancers' accounts of last-minute revisions — a real but variably corroborated pattern, hence inference-level."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, corroborated across multiple company members' independent accounts as commanding total authority in the studio, described consistently as an intense, dominating presence in rehearsal across different decades of dancers."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founded and personally directed her own company continuously for over 60 years, documented as retaining final creative and personnel authority even as she brought in significant collaborators (Louis Horst, Isamu Noguchi), a sustained, well-corroborated pattern of ultimate control."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as recruiting and retaining major collaborators across decades (composer Louis Horst for over 20 years, designer Isamu Noguchi for numerous works), inferred persuasive/relational skill from the sustained, voluntary nature of these long collaborations."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, independently corroborated by multiple former dancers (including Erick Hawkins, her former husband and company member, whose own departure from the company is documented as acrimonious) as willing to sustain serious personal and professional conflict rather than avoid it, evidenced across more than one relationship."
+    },
+    "mastery_orientation": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained systematic development of a codified technique (contraction and release, spiraling, floor work) refined and taught consistently over decades, corroborated by dance educators' independent analysis of the technique's development across her career."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to choreograph new, ambitious works into her eighties and nineties after no longer performing, corroborated by the dated catalog of late-career premieres (over 180 works total across her lifetime)."
+    },
+    "autonomy_need": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Left the established Denishawn company specifically to control her own artistic direction, and maintained that independent control for over 60 years afterward rather than merging with or subordinating her company to another institution, a sustained, well-corroborated pattern."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Her own writing and interviews frame her technique as intended to give dance a durable, teachable American vocabulary distinct from European ballet tradition — a documented stated aim, though this is more a professional/artistic goal than an explicit social-impact motivation, hence inference-level."
+    },
+    "aesthetic_sensitivity": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, extensively analyzed formal innovation across choreography, costume (her own costume designs are separately studied), and stage design collaboration with Noguchi, corroborated by decades of independent dance and design scholarship."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in dance and closely adjacent design collaboration, not extending to fully unrelated fields — scored near center rather than inflated."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the founding of her own company and technique at a time when no comparable American modern-dance institution existed for her to join, documented as a deliberate, self-directed act rather than a natural next step in an existing career path."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained multi-decade working partnerships with Louis Horst and Isamu Noguchi documented as genuinely productive, but multiple former dancers (including Hawkins) independently describe the company's overall working culture as one-directional rather than collaborative — mixed evidence across different relationships, scored near center with dual-edged impact."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as substantially revising her own earlier, more austere choreographic style toward warmer, more lyrical later works once collaborating with Noguchi and later dancers, though the underlying personal reasoning is inferred from the stylistic shift rather than a direct first-person account."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q487604) before scoring. Depth-focused this cycle: rows corroborated independently by multiple named former company members across different decades (discipline, perfectionism, social_assertiveness, leadership_drive, conflict_tolerance, mastery_orientation, autonomy_need, proactive_agency) were prioritized for the higher confidence band, distinguished explicitly from rows resting mainly on her own memoir or a single account. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.556,
+    "coverage": 0.654,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/martha-graham-ucla-1940.jpg",
+    "width": 1178,
+    "height": 1600,
+    "source": "UCLA Library Digital Collections (Los Angeles Daily News Negatives)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Los Angeles Daily News, courtesy UCLA Library Digital Collections",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Martha_Graham,_seated,_c._1940_(cropped).jpg"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "katharine-hepburn",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Katharine Hepburn",
+    "wikidataId": "Q56016",
+    "birthYear": 1907,
+    "deathYear": 2003,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "sustained_excellence",
+      "independent"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_kh_own_memoir",
+      "kind": "archive",
+      "title": "Katharine Hepburn, Me: Stories of My Life (1991) — her own memoir, read critically alongside independent biography"
+    },
+    {
+      "id": "src_kh_berg",
+      "kind": "biography",
+      "title": "A. Scott Berg, Kate Remembered (2003) — a close friend's account, written after her death per an agreement made with Hepburn during her life"
+    },
+    {
+      "id": "src_kh_tracy_family",
+      "kind": "archive",
+      "title": "Accounts from Spencer Tracy's own family and biographers (independent of Hepburn's own account) documenting the 26-year Hepburn-Tracy relationship from the other side"
+    },
+    {
+      "id": "src_kh_wikipedia",
+      "kind": "wikipedia",
+      "title": "Katharine Hepburn",
+      "url": "https://en.wikipedia.org/wiki/Katharine_Hepburn"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained daily athletic regimen (swimming, tennis) maintained into her eighties, independently corroborated by multiple co-stars' and crew members' accounts across different decades of her career describing the same consistent practice, not a single interview claim."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as being publicly labeled \"box office poison\" by theater owners in 1938 after a string of commercial failures, then personally purchasing the film rights to The Philadelphia Story specifically to engineer her own career comeback — a specific, self-financed, independently corroborated recovery strategy."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented career reinvention from 1930s dramatic ingenue to 1940s-50s screwball and dramatic leading roles to later-career character work, sustained across roughly 60 years of continuously relevant film and stage work, an unusually long adaptive career independently attested by film historians."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented as maintaining a decades-long relationship with the married (and Catholic, non-divorcing) Spencer Tracy despite the studio-era risk this posed to her public image, corroborated independently by Tracy family biographers as a sustained, publicly known arrangement both parties chose to maintain."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, independently corroborated across multiple co-stars' and directors' separate accounts as outspoken and unusually direct for a female star of her studio era, including publicly wearing trousers and refusing standard studio publicity conventions."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as taking direct personal control of her own career decisions (buying her own film rights, negotiating her own contracts unusually independently for the era) but not building or leading a formal organization — influence through personal career control rather than institutional leadership, scored near center."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by Berg's biography as repeatedly negotiating unusually favorable, independent contract terms with multiple studios (RKO, then MGM) across different points in her career for a woman of her era, a repeated pattern rather than a single outcome."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as publicly and repeatedly defying studio conventions (refusing interviews, wearing trousers when studios objected, walking away from RKO when dissatisfied with roles offered) across multiple separate documented instances rather than one act of defiance."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally learning golf, tennis, and other sports to professional-adjacent competence specifically to bring authenticity to roles requiring them (Pat and Mike), inferred deliberate skill-building from this documented preparation pattern."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to actively pursue challenging film and stage roles into her seventies (winning her fourth competitive Academy Award at 74 for On Golden Pond), corroborated by the dated record of sustained late-career achievement rather than a coasting reputation."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as purchasing her own film rights and controlling her own casting decisions unusually independently for a female star under the studio system, and maintaining her own separate residence throughout her relationship with Tracy rather than a conventional domestic arrangement — a sustained pattern across career and personal life."
+    },
+    "impact_motivation": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of motivation toward broader social impact beyond her craft and career; scored at the safe default rather than inflated from her cultural influence as a symbol of female independence, which is a separate question from her own stated motivation."
+    },
+    "cross_domain_range": {
+      "score": 48,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in film and stage acting; scored at the safe default rather than extended without evidence."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the purchase of The Philadelphia Story's film rights specifically to control the terms of her own comeback rather than wait for studios to offer her a path back, a documented, self-directed career rescue rather than a role offered to her."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained a documented, mutually corroborated 26-year personal and professional partnership with Spencer Tracy across nine films, attested independently from Tracy's own family and biographers as a genuine, stable collaboration rather than a one-sided account from Hepburn alone."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented occasional direct competition for roles with contemporaries, though no sustained, well-corroborated personal rivalry pattern with one specific named peer — scored at the safe default."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as moderating some of her more combative early-career public persona (softening the outspoken \"box office poison\" era image) after the commercial failure of the mid-1930s, inferred from the documented shift in her later public presentation."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence either way beyond her documented sports-skill preparation for specific roles; scored at the safe default."
+    },
+    "opportunity_sensing": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by Berg's biography, as recognizing The Philadelphia Story's specific potential as a comeback vehicle before any studio did, securing the stage and film rights herself first and controlling the casting -- a specific, verified sequence, not inferred from outcome alone."
+    },
+    "resourcefulness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by Berg's account, as using her own capital and prior stage success to engineer a film comeback when studios had effectively blacklisted her as \"box office poison\" -- a specific, verified instance of resourceful, self-financed career recovery, not her own claim alone."
+    },
+    "aesthetic_sensitivity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence of aesthetic sensitivity beyond her performing craft itself; scored at the safe default."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Philadelphia Story comeback was documented as a deliberately sequenced plan -- securing stage rights first to rebuild critical standing, then selling the film rights on her own terms with cast approval -- rather than an opportunistic single decision, independently corroborated by Berg's account of the multi-step strategy."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q56016) before scoring. Depth-focused this cycle: rows corroborated independently by multiple co-stars/crew across different decades, by Tracy's own family and biographers, or by Berg's independent biography rather than Hepburn's self-presentation alone (discipline, persistence, social_assertiveness, conflict_tolerance, collaboration, risk_tolerance, persuasiveness, opportunity_sensing, resourcefulness, planning_orientation) were prioritized for the higher confidence band. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.49,
+    "coverage": 0.642,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.642 (>=0.6 OK), highConfidenceCount 14 (>=12 OK) -- but highConfidenceAverage 0.54 is below the 0.55 threshold. A genuinely different miss pattern than roster-15's held candidates: the depth gate (>=12 high-confidence rows) was cleared comfortably, but the average strength within that qualifying band was still slightly too thin. Not rescued: no confidence raised post-validation."
+}

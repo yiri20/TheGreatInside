@@ -5184,4 +5184,214 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  "duke-ellington": {
+    achievements: [
+      { id: "duke-ellington-achievement-1", textKey: "duke-ellington.achievement.1", sourceIds: ["src_de_hasse"] },
+      { id: "duke-ellington-achievement-2", textKey: "duke-ellington.achievement.2", sourceIds: ["src_de_hasse"] },
+    ],
+    moments: [
+      { id: "duke-ellington-moment-1", textKey: "duke-ellington.moment.1", sourceIds: ["src_de_hasse"] },
+      { id: "duke-ellington-moment-2", textKey: "duke-ellington.moment.2", sourceIds: ["src_de_own_book"] },
+    ],
+    turningPoints: [
+      {
+        id: "duke-ellington-turning-point-1",
+        textKey: "duke-ellington.turning_point.1",
+        interpretationKey: "duke-ellington.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_de_strayhorn_bandmembers"],
+      },
+    ],
+  },
+
+  "martha-graham": {
+    achievements: [
+      { id: "martha-graham-achievement-1", textKey: "martha-graham.achievement.1", sourceIds: ["src_mg_degooyer"] },
+      { id: "martha-graham-achievement-2", textKey: "martha-graham.achievement.2", sourceIds: ["src_mg_degooyer"] },
+    ],
+    moments: [
+      { id: "martha-graham-moment-1", textKey: "martha-graham.moment.1", sourceIds: ["src_mg_degooyer"] },
+      { id: "martha-graham-moment-2", textKey: "martha-graham.moment.2", sourceIds: ["src_mg_degooyer"] },
+    ],
+    turningPoints: [
+      {
+        id: "martha-graham-turning-point-1",
+        textKey: "martha-graham.turning_point.1",
+        interpretationKey: "martha-graham.interpretation.turning_point.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_mg_company_dancers"],
+      },
+    ],
+  },
+
+  "bertrand-russell": {
+    achievements: [
+      { id: "bertrand-russell-achievement-1", textKey: "bertrand-russell.achievement.1", sourceIds: ["src_br_monk"] },
+      { id: "bertrand-russell-achievement-2", textKey: "bertrand-russell.achievement.2", sourceIds: ["src_br_monk"] },
+    ],
+    moments: [
+      { id: "bertrand-russell-moment-1", textKey: "bertrand-russell.moment.1", sourceIds: ["src_br_autobiography", "src_br_monk"] },
+      { id: "bertrand-russell-moment-2", textKey: "bertrand-russell.moment.2", sourceIds: ["src_br_monk"] },
+    ],
+    turningPoints: [
+      {
+        id: "bertrand-russell-turning-point-1",
+        textKey: "bertrand-russell.turning_point.1",
+        interpretationKey: "bertrand-russell.interpretation.turning_point.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_br_wives"],
+      },
+    ],
+  },
+
+  "charles-dickens": {
+    achievements: [
+      { id: "charles-dickens-achievement-1", textKey: "charles-dickens.achievement.1", sourceIds: ["src_cd_tomalin"] },
+      { id: "charles-dickens-achievement-2", textKey: "charles-dickens.achievement.2", sourceIds: ["src_cd_wife_and_staff"] },
+    ],
+    moments: [
+      { id: "charles-dickens-moment-1", textKey: "charles-dickens.moment.1", sourceIds: ["src_cd_tomalin"] },
+      { id: "charles-dickens-moment-2", textKey: "charles-dickens.moment.2", sourceIds: ["src_cd_letters"] },
+    ],
+    turningPoints: [
+      {
+        id: "charles-dickens-turning-point-1",
+        textKey: "charles-dickens.turning_point.1",
+        interpretationKey: "charles-dickens.interpretation.turning_point.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_cd_wife_and_staff"],
+      },
+    ],
+  },
+
+  "george-orwell": {
+    achievements: [
+      { id: "george-orwell-achievement-1", textKey: "george-orwell.achievement.1", sourceIds: ["src_go_taylor"] },
+      { id: "george-orwell-achievement-2", textKey: "george-orwell.achievement.2", sourceIds: ["src_go_orwell_diaries"] },
+    ],
+    moments: [
+      {
+        id: "george-orwell-moment-1",
+        textKey: "george-orwell.moment.1",
+        interpretationKey: "george-orwell.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_go_ilp_comrades"],
+      },
+      { id: "george-orwell-moment-2", textKey: "george-orwell.moment.2", sourceIds: ["src_go_taylor"] },
+    ],
+    turningPoints: [
+      {
+        id: "george-orwell-turning-point-1",
+        textKey: "george-orwell.turning_point.1",
+        interpretationKey: "george-orwell.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_go_taylor"],
+      },
+    ],
+  },
+
+  "t-e-lawrence": {
+    achievements: [
+      { id: "t-e-lawrence-achievement-1", textKey: "t-e-lawrence.achievement.1", sourceIds: ["src_tel_wilson"] },
+      { id: "t-e-lawrence-achievement-2", textKey: "t-e-lawrence.achievement.2", sourceIds: ["src_tel_wilson"] },
+    ],
+    moments: [
+      {
+        id: "t-e-lawrence-moment-1",
+        textKey: "t-e-lawrence.moment.1",
+        interpretationKey: "t-e-lawrence.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_tel_seven_pillars"],
+      },
+      { id: "t-e-lawrence-moment-2", textKey: "t-e-lawrence.moment.2", sourceIds: ["src_tel_wilson"] },
+    ],
+    turningPoints: [
+      {
+        id: "t-e-lawrence-turning-point-1",
+        textKey: "t-e-lawrence.turning_point.1",
+        interpretationKey: "t-e-lawrence.interpretation.turning_point.1",
+        attributeId: "achievement_drive",
+        sourceIds: ["src_tel_wilson"],
+      },
+    ],
+  },
+
+  "elizabeth-cady-stanton": {
+    achievements: [
+      { id: "elizabeth-cady-stanton-achievement-1", textKey: "elizabeth-cady-stanton.achievement.1", sourceIds: ["src_ecs_griffith"] },
+      { id: "elizabeth-cady-stanton-achievement-2", textKey: "elizabeth-cady-stanton.achievement.2", sourceIds: ["src_ecs_letters"] },
+    ],
+    moments: [
+      {
+        id: "elizabeth-cady-stanton-moment-1",
+        textKey: "elizabeth-cady-stanton.moment.1",
+        interpretationKey: "elizabeth-cady-stanton.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_ecs_griffith"],
+      },
+      { id: "elizabeth-cady-stanton-moment-2", textKey: "elizabeth-cady-stanton.moment.2", sourceIds: ["src_ecs_griffith"] },
+    ],
+    turningPoints: [
+      {
+        id: "elizabeth-cady-stanton-turning-point-1",
+        textKey: "elizabeth-cady-stanton.turning_point.1",
+        interpretationKey: "elizabeth-cady-stanton.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_ecs_griffith"],
+      },
+    ],
+  },
+
+  "john-d-rockefeller": {
+    achievements: [
+      { id: "john-d-rockefeller-achievement-1", textKey: "john-d-rockefeller.achievement.1", sourceIds: ["src_jdr_chernow"] },
+      { id: "john-d-rockefeller-achievement-2", textKey: "john-d-rockefeller.achievement.2", sourceIds: ["src_jdr_chernow"] },
+    ],
+    moments: [
+      {
+        id: "john-d-rockefeller-moment-1",
+        textKey: "john-d-rockefeller.moment.1",
+        interpretationKey: "john-d-rockefeller.interpretation.moment.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_jdr_business_rivals", "src_jdr_chernow"],
+      },
+      { id: "john-d-rockefeller-moment-2", textKey: "john-d-rockefeller.moment.2", sourceIds: ["src_jdr_chernow"] },
+    ],
+    turningPoints: [
+      {
+        id: "john-d-rockefeller-turning-point-1",
+        textKey: "john-d-rockefeller.turning_point.1",
+        interpretationKey: "john-d-rockefeller.interpretation.turning_point.1",
+        attributeId: "competitiveness",
+        sourceIds: ["src_jdr_business_rivals"],
+      },
+    ],
+  },
+
+  "bette-davis": {
+    achievements: [
+      { id: "bette-davis-achievement-1", textKey: "bette-davis.achievement.1", sourceIds: ["src_bd_spada"] },
+      { id: "bette-davis-achievement-2", textKey: "bette-davis.achievement.2", sourceIds: ["src_bd_spada"] },
+    ],
+    moments: [
+      {
+        id: "bette-davis-moment-1",
+        textKey: "bette-davis.moment.1",
+        interpretationKey: "bette-davis.interpretation.moment.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_bd_spada"],
+      },
+      { id: "bette-davis-moment-2", textKey: "bette-davis.moment.2", sourceIds: ["src_bd_spada"] },
+    ],
+    turningPoints: [
+      {
+        id: "bette-davis-turning-point-1",
+        textKey: "bette-davis.turning_point.1",
+        interpretationKey: "bette-davis.interpretation.turning_point.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_bd_crawford_side"],
+      },
+    ],
+  },
 };

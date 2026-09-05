@@ -1,0 +1,247 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bertrand-russell",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Bertrand Russell",
+    "wikidataId": "Q33760",
+    "birthYear": 1872,
+    "deathYear": 1970,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "mathematician",
+      "political_activist",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "mathematics",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "polymath",
+      "nonconformist",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_br_autobiography",
+      "kind": "archive",
+      "title": "Bertrand Russell, The Autobiography of Bertrand Russell (3 volumes, 1967-1969) — his own account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_br_monk",
+      "kind": "biography",
+      "title": "Ray Monk, Bertrand Russell: The Spirit of Solitude (1996) and Bertrand Russell: The Ghost of Madness (2000) — an independent, critical two-volume biography"
+    },
+    {
+      "id": "src_br_wives",
+      "kind": "archive",
+      "title": "Correspondence and separately published accounts from more than one of Russell's four wives and long-term partners (including Dora Russell's own memoir The Tamarisk Tree, 1975), providing independent corroboration from multiple distinct relationships across different decades"
+    },
+    {
+      "id": "src_br_wikipedia",
+      "kind": "wikipedia",
+      "title": "Bertrand Russell",
+      "url": "https://en.wikipedia.org/wiki/Bertrand_Russell"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained substantive published work across mathematical logic, epistemology, political theory, and popular science across a 70-year writing career, independently corroborated by the breadth of his own bibliography rather than reputation alone."
+    },
+    "analytical_rigor": {
+      "score": 88,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Principia Mathematica (with Whitehead, 1910-1913) is documented by mathematicians and logicians as a foundational, rigorously systematic attempt to derive mathematics from logical axioms, independently corroborated by its continued citation in the field, not self-claimed."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as publicly opposing both World War I (resulting in his 1918 imprisonment) and later Cold War nuclear armament (founding the Campaign for Nuclear Disarmament in 1958) against the prevailing establishment position of his own country in both cases, decades apart."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained productive writing output across seven decades including during his imprisonment (he wrote Introduction to Mathematical Philosophy while jailed in 1918), corroborated by the dated bibliography of published work spanning this period without major gaps."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued anti-nuclear activism into his nineties, including a documented 1961 arrest and brief imprisonment at age 89 for civil disobedience, sustained decades after his initial WWI-era pacifist activism first cost him his Trinity College fellowship in 1916."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Publicly opposed WWI knowing it would cost him his Cambridge fellowship (it did, in 1916) and later result in a six-month prison sentence (1918), both specific, documented, accepted professional and personal costs for a public position."
+    },
+    "ambiguity_tolerance": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing philosophical and political work through sustained public unpopularity during both World War I and the early Cold War period without resolution in sight, inferred tolerance for that prolonged social and professional uncertainty."
+    },
+    "decisiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as changing philosophical positions substantially more than once across his career (logicism, then later skepticism about some of his own earlier logicist claims), suggesting a documented pattern of revision more than rapid final commitment, inferred rather than directly evidenced as decisiveness specifically."
+    },
+    "social_assertiveness": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, independently corroborated across multiple of his own wives' and partners' separate published accounts as dominating conversation and holding forth confidently in company, a consistent pattern attested from more than one relationship across different decades."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded and led the Campaign for Nuclear Disarmament (1958) and later the more confrontational Committee of 100, documented as personally directing strategy for both organizations rather than serving as a figurehead."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His popular philosophical writing (A History of Western Philosophy, 1945) is documented as directly responsible for bringing philosophy to a mass general readership and for his 1950 Nobel Prize in Literature, an independently attributed persuasive/communicative achievement distinct from his technical work."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct public conflict with the British government and public opinion across two separate historical periods (WWI pacifism, Cold War disarmament), each resulting in real documented consequences (dismissal, imprisonment) he accepted rather than moderated his position to avoid."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained specialist depth in mathematical logic maintained across a decade of collaborative work with Whitehead on Principia Mathematica, corroborated independently by the technical complexity of the finished work as reviewed by subsequent logicians."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to publish and campaign into his late nineties rather than retiring after his Nobel Prize and international reputation were secured, corroborated by the dated record of late-career activism and publication."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as repeatedly taking public positions against his own institution's and country's prevailing view (Cambridge, the British state) at direct professional cost, a sustained pattern of independent judgment over institutional belonging."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His sustained, decades-long anti-war and anti-nuclear activism, undertaken at real personal cost across two different historical periods, reflects a documented motivation toward broad social consequence beyond his own academic career or comfort."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-dabbling output across mathematical logic, epistemology, political activism, and popular science writing across his career, each with real documented achievement (Principia Mathematica, the Nobel Prize in Literature, CND's founding) rather than superficial involvement."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the founding of the Campaign for Nuclear Disarmament and the earlier 1920s founding of an experimental school (Beacon Hill School, with Dora Russell) as his own projects rather than roles assigned to him."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented, corroborated from multiple of his own wives' independent accounts across different marriages as personally difficult in sustained close relationships, with three of his four marriages ending in documented estrangement or divorce — a repeated pattern across separate relationships, not one account."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented occasional sharp intellectual disputes with contemporaries (G. E. Moore, later Wittgenstein) but no sustained, well-corroborated personal rivalry pattern beyond ordinary academic disagreement — scored at the safe default."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as substantially revising his own earlier logicist confidence later in life (acknowledging Gödel's incompleteness results undermined the Principia Mathematica project's original ambition), a specific, corroborated instance of publicly revising a foundational earlier position."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as positioning his popular philosophical writing to reach a mass audience at a time few academic philosophers wrote for general readers, inferred as market/opportunity recognition from the documented commercial and critical success of A History of Western Philosophy."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q33760) before scoring. Depth-focused this cycle: rows corroborated independently by more than one of his wives' own separate accounts, or by Monk's independent critical biography rather than Russell's own autobiography alone (social_assertiveness, collaboration, independent_thinking, conflict_tolerance, risk_tolerance) were prioritized for the higher confidence band. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.567,
+    "coverage": 0.658,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bertrand-russell-anefo-1950.jpg",
+    "width": 1203,
+    "height": 1600,
+    "source": "Rijksmuseum Amsterdam",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photographer: Keystone, Rijksmuseum Amsterdam (RP-F-F01636), Nobel Prize press conference, 10 Nov 1950",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nobelprijswinnaar_Bertrand_Russell,_10-11-1950,_RP-F-F01636.jpg"
+  }
+}

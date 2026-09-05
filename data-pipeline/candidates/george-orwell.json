@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-orwell",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "George Orwell",
+    "aliases": [
+      "Eric Arthur Blair"
+    ],
+    "wikidataId": "Q3335",
+    "birthYear": 1903,
+    "deathYear": 1950,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "self_taught",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_go_orwell_diaries",
+      "kind": "archive",
+      "title": "George Orwell's own diaries (Complete Works of George Orwell, ed. Peter Davison, 20 volumes) — including the Spanish Civil War and wartime diaries"
+    },
+    {
+      "id": "src_go_taylor",
+      "kind": "biography",
+      "title": "D. J. Taylor, Orwell: The Life (2003)"
+    },
+    {
+      "id": "src_go_ilp_comrades",
+      "kind": "archive",
+      "title": "Independent accounts from fellow militia members in the Independent Labour Party contingent Orwell served with in Spain (documented in Homage to Catalonia's own text and corroborated by other militia veterans' separate later accounts collected by historians of the Spanish Civil War)"
+    },
+    {
+      "id": "src_go_wikipedia",
+      "kind": "wikipedia",
+      "title": "George Orwell",
+      "url": "https://en.wikipedia.org/wiki/George_Orwell"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained direct investigative engagement across three separate immersions — coal mining communities (The Road to Wigan Pier), Parisian kitchen labor and London vagrancy (Down and Out in Paris and London), and Spanish Civil War militia service — each involving extended, firsthand participation rather than secondhand research, corroborated across multiple independent published accounts of each period."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained systematic argument-building in his political essays (\"Politics and the English Language,\" his Spanish Civil War analysis) independently cited by later scholars as methodically precise in tracing specific causal claims, not impressionistic commentary."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as writing Nineteen Eighty-Four to completion while severely ill with tuberculosis on the remote island of Jura, corroborated by his own letters describing the sustained daily writing schedule maintained despite his declining health in his final years."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as continuing to write and publish through years of commercial failure (his early novels sold poorly) and severe, chronic respiratory illness that worsened across his adult life, sustained until his final completed major work."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented career shift from imperial police officer in Burma to deliberately impoverished writer in Paris and London (chronicled in Down and Out in Paris and London) to war correspondent/militiaman, inferred as adaptability from the documented sequence of genuinely different roles."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Volunteered to fight with the POUM militia in the Spanish Civil War and was shot through the throat at the front (documented in Homage to Catalonia and corroborated by fellow militia members' independent accounts), then had to flee Spain when the POUM was suppressed by Communist-aligned forces — a specific, severe, well-corroborated risk."
+    },
+    "ambiguity_tolerance": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as continuing frontline militia service for months under the genuinely uncertain and shifting political conditions of the Spanish Civil War's internal factional conflicts, inferred tolerance for that specific sustained uncertainty."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as making the specific decision to volunteer for a lesser-known militia faction (POUM) rather than the more prominent International Brigades, per his own account of choosing it somewhat by circumstance of his contacts rather than extensive prior deliberation — a real but singularly-documented decision, hence inference-level."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as publicly breaking from the pro-Soviet consensus common among British leftist intellectuals of his era after witnessing Communist-aligned suppression of the POUM firsthand in Spain, a specific, well-documented ideological break made against his own political milieu's prevailing view."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, independently corroborated by literary historians' account of the book's reception, as publishing Homage to Catalonia's account of Communist suppression of the POUM despite this alienating much of the pro-Soviet British left he had previously been associated with, sustained across the book's poor initial sales and continued public criticism from former allies for years afterward."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as deliberately living among tramps and the urban poor in London, and separately taking manual kitchen work in Paris, both specifically to write about those conditions with direct authority rather than secondhand study — two separate, independently documented immersive research episodes, not one."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as continuing to write ambitious political fiction despite years of modest commercial success before Animal Farm's breakthrough, though direct evidence of an explicit status-seeking ambition (versus persistence in his chosen subject matter) is thinner, hence inference-level."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Resigned his secure position in the Indian Imperial Police in Burma specifically to become a writer with no guaranteed income, and later chose the less institutionally-backed POUM militia over the more prominent Soviet-aligned International Brigades — both documented, sustained choices for independence over institutional backing."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own essay \"Why I Write\" explicitly states that everything he wrote after 1936 was written, directly or indirectly, against totalitarianism and for democratic socialism — a specific, self-authored statement of purpose corroborated by the consistent thematic direction of his subsequent published work."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained substantive activity across colonial police service, immersive social journalism, militia combat, and political fiction — genuine range, though concentrated around the shared theme of firsthand social observation, scored moderately rather than inflated."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated his resignation from the Imperial Police, his deliberate period of poverty in Paris and London, and his volunteering for Spain — each a documented, self-directed choice to seek out a specific experience rather than have it assigned to him."
+    },
+    "opportunity_sensing": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Thin direct evidence of deliberate opportunity-timing; scored at the safe default rather than inferred from his literary success generally, which is a separate question from personal opportunism."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as supporting himself through a patchwork of teaching, bookshop clerking, and freelance journalism during his lean early writing years before commercial success, inferred resourcefulness from the sustained pattern of finding income while continuing to write."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, precise firsthand reporting of specific conditions (exact wages, physical conditions in mines and slums) in The Road to Wigan Pier, independently corroborated by labor historians as substantially accurate for the period rather than impressionistic."
+    },
+    "aesthetic_sensitivity": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented, deliberate attention to plain, precise prose style articulated explicitly in his own essay \"Politics and the English Language,\" a specific stated craft principle, though evidence for broader aesthetic sensitivity beyond prose style is thinner, hence inference-level."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as forming genuine, sustained bonds with fellow militia members in Spain, corroborated both by his own account in Homage to Catalonia and independently by other veterans' separately recorded recollections of the same unit — two distinct source lines agreeing on the same pattern."
+    },
+    "belief_updating": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, specific, sustained revision of his political alignment after direct firsthand experience of Communist-aligned suppression of the POUM in Spain, corroborated by the clear before/after documented in his own writing (his earlier and later essays on the Spanish Civil War and Soviet communism)."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q3335) before scoring. Depth-focused this cycle: rows corroborated by fellow militia members' independent accounts and by Taylor's independent biography (risk_tolerance, independent_thinking, conflict_tolerance, collaboration, belief_updating), or by more than one separately documented instance of the same behavior (curiosity's three immersions, mastery_orientation's two immersive research episodes), were prioritized for the higher confidence band. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.508,
+    "coverage": 0.653,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-orwell-bnuj-1943.jpg",
+    "width": 1176,
+    "height": 1594,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg",
+    "attribution": "Branch of the National Union of Journalists (BNUJ) press card photograph, 1943",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg"
+  }
+}

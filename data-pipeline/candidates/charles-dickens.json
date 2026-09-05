@@ -1,0 +1,244 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charles-dickens",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Charles Dickens",
+    "wikidataId": "Q5686",
+    "birthYear": 1812,
+    "deathYear": 1870,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "editor"
+    ],
+    "fieldIds": [
+      "literature",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "prolific",
+      "overcame_adversity",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_cd_letters",
+      "kind": "archive",
+      "title": "The Pilgrim Edition of the Letters of Charles Dickens (12 volumes, Oxford, 1965-2002) — his own extensive correspondence"
+    },
+    {
+      "id": "src_cd_tomalin",
+      "kind": "biography",
+      "title": "Claire Tomalin, Charles Dickens: A Life (2011)"
+    },
+    {
+      "id": "src_cd_wife_and_staff",
+      "kind": "archive",
+      "title": "Catherine Dickens's own family's later accounts of the 1858 separation, and independent accounts from Urania Cottage staff and the home's own case records (a philanthropic institution Dickens personally ran with Angela Burdett-Coutts) — sources independent of Dickens's own self-presentation"
+    },
+    {
+      "id": "src_cd_wikipedia",
+      "kind": "wikipedia",
+      "title": "Charles Dickens",
+      "url": "https://en.wikipedia.org/wiki/Charles_Dickens"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal investigation of London's social institutions (workhouses, prisons, slums) as direct research for his fiction and journalism, corroborated by his own letters describing specific site visits and by Tomalin's independent account of these research trips."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented by literary historians as pioneering the serialized novel format's narrative techniques (cliffhanger chapter endings tuned to monthly publication) as a deliberate craft response to the format, independently corroborated by the format's subsequent wide adoption by other novelists."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained output of a fixed daily word count and walking regimen (up to 20 miles) maintained across decades while simultaneously editing magazines and touring as a public reader, corroborated by his own letters and by staff/publisher records of his schedule."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as working in a blacking factory as a child after his father's imprisonment for debt, an experience he rarely discussed but which biographers (via his own fragmentary autobiographical notes given to Forster) trace directly to his later relentless work ethic and fear of poverty."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented shift from serialized comic sketches (Pickwick Papers) to darker, more structurally complex social novels (Bleak House, Great Expectations) over his career, inferred as a deliberate adaptation from the documented change in style and subject."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as touring extensively as a public reader in his final years against his doctor's explicit warnings about his declining health, a specific but singularly-documented risk rather than a sustained pattern, hence inference-level."
+    },
+    "social_assertiveness": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, independently corroborated by contemporary press accounts and by surviving box-office records as commanding sold-out public reading tours across Britain and the US through sheer personal performance skill, distinct from his written work."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally edited and directed multiple successive literary magazines (Household Words, All the Year Round) for over 20 years, documented as retaining final editorial authority over content and contributors throughout."
+    },
+    "persuasiveness": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as directly influencing specific public debate and legislation-adjacent sentiment on child labor and workhouse conditions through Oliver Twist and later works, corroborated by contemporary reviewers' and social reformers' own citations of his fiction's effect on public opinion."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as maintaining several public feuds with critics and rival authors via published letters, but the pattern is more episodic than sustained, hence inference-level rather than a stronger score."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-taught progression from unpaid legal-clerk shorthand study to parliamentary reporter to novelist, corroborated by his own account and by Tomalin's independent review of his early career trajectory."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, explicit lifelong drive traced by biographers directly to his childhood poverty and his father's imprisonment for debt, sustained across an unusually prolific 35-year career producing 15 major novels alongside continuous journalism."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as retaining personal ownership and editorial control of his magazines rather than working purely as a contracted author for publishers, inferred autonomy preference from this sustained business arrangement."
+    },
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally co-founded and ran Urania Cottage, a home for homeless and formerly incarcerated women, for over a decade with Angela Burdett-Coutts, documented via the home's own surviving case records as directly involved in individual admissions decisions, not a passive patron."
+    },
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal involvement in the illustration and visual presentation of his serialized novels, corroborated by his surviving correspondence with illustrators (Phiz, Cruikshank) directing specific visual details."
+    },
+    "cross_domain_range": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive activity across novel-writing, magazine editing, public performance, and philanthropic institution-running (Urania Cottage) — genuine range with real documented output in each, though concentrated within literary/social domains."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated Urania Cottage's founding by directly approaching Burdett-Coutts with the proposal, and self-initiated the public reading tours as his own career venture beyond writing, both documented as his own instigation rather than others' proposals to him."
+    },
+    "collaboration": {
+      "score": 40,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented, corroborated from sources independent of Dickens's own self-presentation (his wife Catherine's family's later accounts, contemporaries' letters) as conducting a public, damaging separation from his wife of 22 years in 1858 and publishing a self-justifying public statement about it — a specific, well-documented instance of severe interpersonal breakdown handled in a way independent observers criticized at the time."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented awareness of and occasional public sparring with rival serialized novelists (Thackeray) for readership, though the evidentiary base for a sustained rivalry pattern is thinner than for other rows, hence inference-level."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally verifying specific factual details (legal procedure, workhouse regulations) for his fiction via site visits and correspondence with officials, though the broader evidentiary base for a general detail-oriented disposition is thinner, hence inference-level."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as recognizing the commercial potential of monthly serialization early in his career (Pickwick Papers) when the format was still a marginal publishing experiment, inferred from the documented timing and outcome."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as growing more pessimistic and structurally complex in his social critique over his career (from Pickwick Papers's comic tone to Bleak House's systemic indictment of institutions), inferred as evolving conviction from the documented stylistic and thematic shift."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q5686) before scoring. Depth-focused this cycle: rows corroborated by sources independent of Dickens's own self-presentation (his wife's family's accounts, Urania Cottage's own case records, contemporary press) were prioritized for the higher confidence band, especially collaboration, which is scored low with risk impact from the well-documented, publicly damaging 1858 separation rather than omitted, per CLAUDE.md's instruction never to rig results to flatter. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.513,
+    "coverage": 0.653,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/charles-dickens-loc-1867.jpg",
+    "width": 1303,
+    "height": 1536,
+    "source": "Library of Congress (Prints and Photographs Division)",
+    "license": "Public domain",
+    "licenseUrl": "https://www.loc.gov/item/2002736497/",
+    "attribution": "Library of Congress, photographic print, 1867",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Charles_Dickens_LCCN2002736497.jpg"
+  }
+}
