@@ -1,0 +1,244 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gertrude-bell",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Gertrude Bell",
+    "wikidataId": "Q231360",
+    "birthYear": 1868,
+    "deathYear": 1926,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "diplomat",
+      "explorer",
+      "historian"
+    ],
+    "fieldIds": [
+      "politics",
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "generalist"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_gb_letters",
+      "kind": "archive",
+      "title": "Gertrude Bell's letters and diaries (Gertrude Bell Archive, Newcastle University) — thousands of published letters to her family across her entire adult life"
+    },
+    {
+      "id": "src_gb_wallach",
+      "kind": "biography",
+      "title": "Janet Wallach, Desert Queen: The Extraordinary Life of Gertrude Bell (1996)"
+    },
+    {
+      "id": "src_gb_howell",
+      "kind": "biography",
+      "title": "Georgina Howell, Daughter of the Desert: The Remarkable Life of Gertrude Bell (2006)"
+    },
+    {
+      "id": "src_gb_wikipedia",
+      "kind": "wikipedia",
+      "title": "Gertrude Bell",
+      "url": "https://en.wikipedia.org/wiki/Gertrude_Bell"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented mastery of Arabic, Persian, French, German, Italian, and Turkish, sustained archaeological survey work across Mesopotamia and Anatolia published in her own academic reports, and years of self-directed desert travel to map and record tribal geography no European had documented — evidenced across her own extensive published letters and field reports, not one trip."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her archaeological survey publications (The Thousand and One Churches, Amurath to Amurath) and her later intelligence reports for the British administration are documented by historians as methodically detailed and evidentially careful for their period, not impressionistic travel writing."
+    },
+    "independent_thinking": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained public disagreement with T. E. Lawrence and British colonial policy over how post-Ottoman Iraq should be governed, advocating specifically for greater self-determination against the preferences of her own superiors — attested in her own official correspondence, not reconstructed after the fact."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote a detailed letter to her family nearly every day for most of her adult life regardless of location or circumstance, a directly documented, decades-long sustained practice, alongside rigorous, sustained archaeological fieldwork under harsh desert conditions."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued desert exploration and mapping work across repeated serious illness, harsh conditions, and the 1913-14 journey to Ha'il that nearly ended in her death or capture, documented in her own contemporaneous letters describing the specific hardships endured and her decision to continue regardless."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, substantial career reinvention from mountaineer and archaeologist to wartime intelligence officer to the principal British architect of the new Iraqi state's administration, each requiring genuinely different skills she had not been trained for institutionally."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Undertook solo desert expeditions into hostile tribal territory with minimal escort, documented as resulting in actual detention by a hostile emir during the 1913-14 Ha'il journey — a specific, corroborated instance of severe risk accepted and survived, not a general adventurous reputation."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as operating for extended periods in genuinely unresolved, high-stakes political conditions during and after WWI (competing tribal claims, uncertain British policy) without withdrawing, per her own official correspondence describing the ongoing uncertainty she was managing."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as making a specific, dated recommendation for Faisal as king of Iraq during the 1921 Cairo Conference process and acting on it directly through her own local influence, a concrete attributable decision rather than a diffuse advisory role."
+    },
+    "social_assertiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as the only woman with independent standing among the British Cairo Conference delegation (1921) and as personally cultivating direct relationships with Arab tribal leaders, attested in her own letters describing specific meetings and negotiations she conducted alone."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained working partnership with T. E. Lawrence and Percy Cox despite real, recorded policy disagreements with both, working within the same institutional structure toward the shared goal of Iraqi statehood rather than withdrawing from it."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Effectively built and ran Iraq's founding Department of Antiquities and functioned as the principal British advisor shaping the new state's administrative structure, a documented position of real institutional authority she actively sought and exercised rather than a nominal advisory title."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as directly influential in securing Faisal's selection as king through personal advocacy with both British officials and Iraqi tribal and urban leaders, corroborated by Wallach's independent account of the 1921 process."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, sustained policy disagreement with senior British officials over the pace of Iraqi self-rule, maintained in her own official correspondence over years rather than dropped after initial pushback, though she generally worked within institutional channels rather than public confrontation."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Achieved a first-class Oxford history degree in only two years (unusual for the period and for a woman being one of the first admitted), and independently mastered six languages and academic-standard archaeological method — a documented, sustained pattern of deep, deliberate skill acquisition across multiple domains."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as consistently seeking recognition as a serious scholar and political actor in fields almost entirely closed to women in her era, evidenced by her sustained publication record and pursuit of official position despite institutional resistance to her gender."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly organized and led her own independent expeditions rather than joining existing ones, and maintained her own directly reported channel to British officials in London separate from the standard colonial hierarchy, documented in her letters and Howell's biography."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded Iraq's Department of Antiquities and the Baghdad Archaeological Museum specifically to keep excavated artifacts in Iraq rather than exported abroad, a documented, deliberate institution-building choice framed in her own writing as securing a lasting national heritage."
+    },
+    "cross_domain_range": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-dabbling output across archaeology, mountaineering (several first ascents in the Alps credited to her), desert cartography, and colonial administration — genuinely distinct fields with real documented achievement in each, not superficial involvement."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-organized and funded her own expeditions and archaeological surveys independent of any institution's assignment, and volunteered her Middle East expertise to British intelligence at the outbreak of WWI rather than waiting to be asked, documented in her own correspondence."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Positioned her unmatched personal knowledge of Mesopotamian tribal politics (built over a decade of pre-war travel) to become institutionally indispensable exactly when British wartime and post-war administration needed it most, documented in the timing of her recruitment into intelligence and administrative roles."
+    },
+    "resourcefulness": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as negotiating her own release during the 1913-14 detention by the Emir of Ha'il through personal diplomacy rather than external rescue, a specific, corroborated crisis-response episode."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q231360) before scoring. Scored to 22 attributes on genuine evidence availability, drawing on her own extensive published letters as the primary self-report source, cross-checked against Wallach's and Howell's independent biographies. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.567,
+    "coverage": 0.66,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gertrude-bell-iraq-1909.jpg",
+    "width": 1209,
+    "height": 1600,
+    "source": "Wikimedia Commons (Gertrude Bell Archive, Newcastle University)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:BellK_218_Gertrude_Bell_in_Iraq_in_1909_age_41.jpg",
+    "attribution": "Gertrude Bell, 1909 (Gertrude Bell Archive, Newcastle University)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:BellK_218_Gertrude_Bell_in_Iraq_in_1909_age_41.jpg"
+  }
+}

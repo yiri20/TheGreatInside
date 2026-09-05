@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "leo-tolstoy",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Leo Tolstoy",
+    "wikidataId": "Q7243",
+    "birthYear": 1828,
+    "deathYear": 1910,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "literature",
+      "philosophy",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "prolific",
+      "ascetic",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_lt_diaries",
+      "kind": "archive",
+      "title": "Leo Tolstoy's Diaries (kept most of his adult life) and Sophia Tolstaya's own diaries — cross-corroborating firsthand accounts of the same marriage from both sides"
+    },
+    {
+      "id": "src_lt_wilson",
+      "kind": "biography",
+      "title": "A. N. Wilson, Tolstoy: A Biography (1988)"
+    },
+    {
+      "id": "src_lt_troyat",
+      "kind": "biography",
+      "title": "Henri Troyat, Tolstoy (1965)"
+    },
+    {
+      "id": "src_lt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Leo Tolstoy",
+      "url": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained self-directed study across genuinely distinct domains in his diaries and later writing — Greek in his fifties, agricultural experiments on his estate, and deep, self-taught engagement with comparative religion and moral philosophy in his final decades — a pattern across separate life stages, not one period."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "War and Peace's structural departure from the conventional novel form (interleaving fiction with historical/philosophical essay) is documented by literary scholarship as a deliberate, widely influential formal innovation, not incidental."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kept a private diary across most of his adult life, documented as a sustained, decades-long self-examination practice that itself became a primary historical source, alongside sustained multi-year work on the very long novels."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "War and Peace was written and revised over roughly six years documented via surviving manuscript drafts, and he sustained his later moral/religious reform project for three decades despite excommunication by the Russian Orthodox Church in 1901 and ongoing family conflict over it."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Underwent a well-documented, radical mid-life conversion (his own Confession, 1882) from celebrated novelist to ascetic Christian anarchist, renouncing his earlier work and lifestyle — a genuine, sustained personal transformation, though his rigidity after the change (refusing later compromise with his family) tempers the score."
+    },
+    "risk_tolerance": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Publicly renounced his copyrights and attempted to give away his estate late in life against his family's and legal advisors' strong objection, a documented, sustained conflict over years that ended only with his final flight from home at 82, days before his death — a specific, consequential choice."
+    },
+    "ambiguity_tolerance": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His diaries document persistent, unresolved moral anguish over the contradiction between his ascetic ideals and his continued wealth and family life for the last three decades of his life — genuinely mixed evidence of tolerance for unresolved tension, scored near center."
+    },
+    "decisiveness": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as agonizing over the copyright and property question for years without resolving it decisively until his final flight from home at 82 — a specific, extended pattern of indecision on this central late-life question, scored below center rather than assumed."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as commanding intense intellectual authority among the disciples who gathered at Yasnaya Polyana in his final decades, but his own diaries and Sophia's describe a more withdrawn, conflict-avoidant private temperament within the marriage — mixed, scored near center."
+    },
+    "collaboration": {
+      "score": 35,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Both his own and Sophia Tolstaya's diaries — an unusually rare case of corroborating accounts from both sides of the same marriage — document escalating, sustained inability to reconcile his ascetic ideals with a shared family life, ending in profound marital breakdown documented across decades, not one dispute."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Attracted a real, documented following (the \"Tolstoyan\" movement) around his moral teaching in later life, but the surviving record shows this arose from his writing's influence rather than active institution-building or pursuit of followers — scored near center."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Sustained open conflict with the Russian Orthodox Church (leading to his 1901 excommunication) and with his own wife over his final wishes for years without softening his position, documented from both sides of each conflict."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-directed study of ancient Greek in his fifties specifically to read scripture and philosophy in the original, and years of direct, hands-on agricultural and educational experiments on his own estate (he personally ran a school for peasant children)."
+    },
+    "achievement_drive": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Pursued literary greatness intensely in his earlier career (documented competitive comparison of his own work against contemporaries in his diaries) but explicitly renounced and disparaged that same ambition after his conversion — a genuine, documented reversal, scored near center to reflect the actual arc rather than either period alone."
+    },
+    "autonomy_need": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as sustaining his post-conversion beliefs and lifestyle choices (vegetarianism, manual labor, plain dress) against near-universal disapproval from his own family, the church, and the state for three decades, ending in his final departure from his own household at 82 rather than continue compromising."
+    },
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His post-conversion writing (The Kingdom of God Is Within You and others) is explicitly, documentedly aimed at moral and social reform beyond literature, and is independently attested as a direct influence on Gandhi's nonviolent-resistance philosophy via their own surviving correspondence."
+    },
+    "aesthetic_sensitivity": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "War and Peace and Anna Karenina's sustained, precise sensory and psychological detail is documented by literary scholars as a distinctive craft signature, corroborated by his own diary notes on composition."
+    },
+    "belief_updating": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Explicitly documented in his own Confession (1882) as a deliberate, thorough repudiation of his earlier worldview and even his own celebrated novels following a self-described spiritual crisis — a rare directly self-authored account of large-scale belief revision, not inferred from behavior alone."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally founded and ran a school for peasant children on his own estate and organized famine relief efforts in the 1890s, both self-initiated projects outside his literary career, documented by independent biographers."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Surviving manuscript drafts of War and Peace document extensive, meticulous historical research (troop movements, period detail) cross-checked against military records of the 1812 campaign, per Wilson's independent review."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive activity across the novel, moral philosophy, educational reform (his peasant school), and agricultural experimentation on his own estate — genuinely distinct domains with real documented output in each, not dabbling."
+    },
+    "perfectionism": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, extensive multi-draft revision of War and Peace over years (surviving manuscripts show entire sections rewritten), balanced against his later disparagement of that same careful craftsmanship as vanity — scored moderately given the two documented but conflicting phases."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q7243) before scoring. Unusual source strength: his own and Sophia Tolstaya's diaries independently corroborate the same marital conflict from both sides, used carefully per the rubric's contradiction-handling guidance (§5) rather than averaged to a fake middle. collaboration scored low with risk impact specifically from this cross-corroborated marital evidence, not from a single side's account. Scored to 23 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.529,
+    "coverage": 0.653,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/leo-tolstoy-1897.jpg",
+    "width": 1320,
+    "height": 1600,
+    "source": "Wikimedia Commons (Library of Congress)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_1897,_black_and_white,_37767u.jpg",
+    "attribution": "1897 photograph — Library of Congress",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_1897,_black_and_white,_37767u.jpg"
+  }
+}

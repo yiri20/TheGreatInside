@@ -4,7 +4,33 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-05 (roster-12/13 coverage-bottleneck postmortem,
+Last updated: 2026-09-05 (roster-14 coverage-aware intake,
+`feat/roster14-coverage-aware-intake`: applied the roster-12/13 coverage
+postmortem's finding directly — raised the pre-freeze evidence-depth target
+to ≥21-22-attribute-capable, built a fresh 33-person discovery pool, froze
+12 (down from roster-12/13's 15-18), and scored every frozen candidate to
+22-23 attributes before running `eligibility_v2` once. **11 of 12 crossed
+eligibility_v2 honestly** — Abraham Lincoln, Theodore Roosevelt, Alexander
+Hamilton, Mark Twain, Ernest Hemingway, Elizabeth I, Otto von Bismarck, Leo
+Tolstoy, Sigmund Freud, Pablo Picasso, Gertrude Bell — a sharp reversal from
+roster-12/13's combined 2 of 33, confirming the postmortem's mathematical
+prediction (n=22 scored attributes essentially guarantees the 0.6 coverage
+floor) in practice. Queen Victoria (22 attributes, coverage 0.655) is the
+sole miss, short only on the high-confidence-count gate (4 of 22 at
+confidence ≥0.5, need 12) — remains `held`, untouched. All 11 promoted are
+fully product-complete from first promotion: real rights-clear Public
+Domain portraits (verified live against Wikimedia Commons license
+metadata — 2 are `historical_depiction`, Alexander Hamilton's 1805
+posthumous Trumbull painting and Elizabeth I's c.1600 copy-of-a-lost-
+original; the other 9 are lifetime photographs), full EN/KO editorial
+content, Korean display names. Roster: 97→108 people, 96→107
+match-eligible; gap to 125 now 17. Two objectively-stale hardcoded
+roster-count Playwright fixtures updated (97→108/4→5 filtered,
+96→107 unfiltered ×2) — mechanical count corrections, no calibration/
+matching/scoring code touched. No previously-committed candidate's score,
+confidence, evidence, or lifecycle altered (scoring-lock integrity: 0
+flagged). Full record: [`roster14-coverage-aware-intake.md`](../checkpoints/roster14-coverage-aware-intake.md).
+Prior update, 2026-09-05 (roster-12/13 coverage-bottleneck postmortem,
 analysis-only, no candidate changed: a mechanical review of all 33
 roster-12+13 first-scored candidates found `eligibility_v2`'s weighted
 `coverage` floor (0.6) is mathematically unreachable at 18-19 scored
@@ -102,10 +128,12 @@ Zheng He remain)).
 
 ## Product
 
-- **Roster: 97 people, 96 match-eligible** (roster-12's Marcus Aurelius
-  promotion merged to `main`; roster-13 produced zero new promotions —
-  see below). Zheng He is the sole non-match-eligible exception (browsable,
-  fails only the coverage gate). Authority: `evaluateMatchEligibility()`
+- **Roster: 108 people, 107 match-eligible** (roster-14's 11-person
+  coverage-aware intake batch is unmerged on `feat/roster14-coverage-aware-intake`;
+  roster-12's Marcus Aurelius promotion merged to `main`; roster-13
+  produced zero new promotions — see below). Zheng He is the sole
+  non-match-eligible exception (browsable, fails only the coverage gate).
+  Authority: `evaluateMatchEligibility()`
   in `src/core/matching/similarity.ts`; re-run `corepack pnpm@10 exec tsx
   src/dev/simulate.ts 10000 quiz` for a live health check. Miriam Makeba
   (`roster11.ts`) promoted 2026-09 from the roster-expansion-125 evidence
@@ -365,6 +393,29 @@ Zheng He remain)).
   committed candidate's score/confidence/evidence/lifecycle altered
   (scoring-lock integrity: 0 flagged). Full record:
   [`roster13-new-intake-batch.md`](../checkpoints/roster13-new-intake-batch.md).
+- **Roster-14 coverage-aware intake (2026-09,
+  `feat/roster14-coverage-aware-intake`, unmerged)**: applied the
+  roster-12/13 coverage postmortem's finding directly — raised the
+  pre-freeze evidence target to ≥21-22-attribute-capable, built a fresh
+  33-person discovery pool, froze 12 (smaller than roster-12/13's 15-18),
+  scored every frozen candidate to 22-23 attributes. **11 of 12 crossed
+  `eligibility_v2` honestly**: Abraham Lincoln, Theodore Roosevelt,
+  Alexander Hamilton, Mark Twain, Ernest Hemingway, Elizabeth I, Otto von
+  Bismarck, Leo Tolstoy, Sigmund Freud, Pablo Picasso, Gertrude Bell — all
+  promoted via `generateRoster14.ts` (11-slug allowlist) into `roster14.ts`,
+  all fully product-complete from first promotion (real Public Domain
+  portraits verified live against Commons license metadata, full EN/KO
+  editorial content, Korean display names) — zero product-blocked
+  `qa_passed` this cycle. Queen Victoria (22 attributes, coverage 0.655) is
+  the sole miss, short only on the high-confidence-count gate (4 of 22 at
+  confidence ≥0.5, need 12) — remains `held`, untouched. 97->108 people,
+  96->107 match-eligible, gap to 125 now 17. Two mechanical data-entry
+  fixes made before eligibility was first computed (an invalid
+  `impactDomains` value, five invalid `impact: "contextual"` values) — no
+  score/confidence/evidenceType touched. No previously-committed
+  candidate's score/confidence/evidence/lifecycle altered (scoring-lock
+  integrity: 0 flagged). Full record:
+  [`roster14-coverage-aware-intake.md`](../checkpoints/roster14-coverage-aware-intake.md).
 
 ## Completed major phases (durable summary — do not re-read the archive for these)
 

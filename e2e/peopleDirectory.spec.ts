@@ -331,17 +331,19 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   await page.getByRole("checkbox", { name: "호기심" }).check(); // Curiosity (Thinking)
   await page.getByRole("checkbox", { name: "협업 성향" }).check(); // Collaboration (Social)
   // "전체 {total}명 중 {count}명" — independently confirmed (via a direct
-  // SEED_PEOPLE check) that exactly 4 people satisfy curiosity AND
-  // collaboration: Benjamin Franklin, Charles Darwin, Jane Goodall, Oprah
-  // Winfrey. This regression-locks the cross-facet AND fix in the locale
-  // that renders count text in a different word order than en-US.
+  // SEED_PEOPLE check) that exactly 5 people satisfy curiosity AND
+  // collaboration: Abraham Lincoln, Benjamin Franklin, Charles Darwin, Jane
+  // Goodall, Oprah Winfrey. This regression-locks the cross-facet AND fix in
+  // the locale that renders count text in a different word order than en-US.
   // Total updated 95->96 (roster-expansion-125, Miriam Makeba promoted via
   // roster11.ts), then 96->97 (roster-12 new-intake batch, Marcus Aurelius
-  // promoted via roster12.ts) — the filtered count of 4 is unchanged;
-  // neither addition satisfies this specific curiosity+collaboration
-  // combination.
+  // promoted via roster12.ts) — the filtered count of 4 was unchanged by
+  // either addition. Total updated 97->108 (roster-14 coverage-aware
+  // intake, 11 people promoted via roster14.ts) — Abraham Lincoln (scored
+  // curiosity 78, collaboration 75, both "advantage") newly satisfies this
+  // specific combination, raising the filtered count to 5.
   const bodyText = (await page.locator("main").textContent())!;
-  expect(bodyText).toMatch(/전체\s*97명\s*중\s*4명/);
+  expect(bodyText).toMatch(/전체\s*108명\s*중\s*5명/);
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {

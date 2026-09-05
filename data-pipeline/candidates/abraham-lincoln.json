@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "abraham-lincoln",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Abraham Lincoln",
+    "wikidataId": "Q91",
+    "birthYear": 1809,
+    "deathYear": 1865,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "lawyer"
+    ],
+    "fieldIds": [
+      "politics",
+      "law",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "self_taught",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_al_herndon",
+      "kind": "biography",
+      "title": "William H. Herndon & Jesse W. Weik, Herndon's Lincoln (1889) — Lincoln's own law partner's firsthand account of his temperament, self-education, and law practice"
+    },
+    {
+      "id": "src_al_goodwin",
+      "kind": "biography",
+      "title": "Doris Kearns Goodwin, Team of Rivals: The Political Genius of Abraham Lincoln (2005) — cabinet formation and wartime decision-making, drawn from diaries/letters of Seward, Chase, Welles, Stanton"
+    },
+    {
+      "id": "src_al_donald",
+      "kind": "biography",
+      "title": "David Herbert Donald, Lincoln (1995)"
+    },
+    {
+      "id": "src_al_collected_works",
+      "kind": "archive",
+      "title": "Roy P. Basler, ed., The Collected Works of Abraham Lincoln — Lincoln's own letters, speeches, and public documents"
+    },
+    {
+      "id": "src_al_wikipedia",
+      "kind": "wikipedia",
+      "title": "Abraham Lincoln",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained self-education with almost no formal schooling — borrowed and re-read a small set of books (the Bible, Aesop, Weems's Washington, Shakespeare), and as an adult took up Euclid's geometry specifically to sharpen his own reasoning, per his own account and Herndon's firsthand record."
+    },
+    "analytical_rigor": {
+      "score": 75,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Lincoln-Douglas debates and his legal briefs show a consistent habit of breaking an opponent's argument into its component premises before answering — a documented rhetorical method, not a general reputation for intelligence, corroborated by multiple transcripts of his courtroom and debate performance."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Deliberately built a cabinet of his own defeated rivals (Seward, Chase, Bates) against the conventional political advice of the time, and moved on emancipation on his own timetable against pressure from both abolitionists and conservatives — a pattern across more than one major decision, not a single episode."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Gettysburg Address and Second Inaugural are documented as his own compositions, drafted and redrafted by his own hand, and are treated by rhetoric scholars as structurally distinctive rather than derivative of the period's florid oratorical convention."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Read law by himself while working as a store clerk and surveyor, with no institutional support, to formal bar admission in 1836 — a documented, sustained self-directed course of study, not a claimed trait."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Multiple cabinet members' diaries (Welles, Hay, Nicolay) document long solitary hours in the War Department telegraph office tracking single campaigns in detail across the war's duration, a sustained pattern rather than one recorded night."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly replaced Union commanders (McClellan, Burnside, Hooker, Meade) specifically over their failure to execute a coherent offensive plan, before finding it in Grant — a documented, iterative strategic-management pattern across multiple personnel decisions, not a single choice."
+    },
+    "persistence": {
+      "score": 85,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Lost a Senate race in 1855, lost the 1858 Senate race to Douglas after the debates, and had failed in business and lost prior elections earlier in his career, continuing to seek office each time — a documented sequence of setbacks followed by renewed effort, then sustained the war effort through Union defeats in 1861-1862 without seeking a negotiated peace."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own position on emancipation moved from preserving the Union without touching slavery (1861 letter to Horace Greeley) to the Emancipation Proclamation (1863) to actively pushing the Thirteenth Amendment (1865) as the war's meaning changed — a documented, staged evolution in his own recorded words, not attributed after the fact."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Issued the Emancipation Proclamation as a wartime measure of uncertain legal and political standing, and ran for re-election in 1864 while himself privately expecting to lose (his own August 1864 memorandum, sealed and shown to the cabinet after the election) — a specific, documented instance of proceeding despite believing the political risk was against him."
+    },
+    "ambiguity_tolerance": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Cabinet members' contemporaneous diaries (Welles, Chase) repeatedly describe a calm demeanor sustained through years of militarily uncertain outcomes, including the 1862-1863 period when the war's result was genuinely in doubt — a pattern across multiple named observers, not one anecdote."
+    },
+    "decisiveness": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented as slow and deliberative before major personnel and policy decisions (months of private drafting before issuing the Emancipation Proclamation), but capable of sudden, final action once decided (dismissing McClellan by telegram) — the contrast is itself the documented pattern, hence scored near center with dual_edged impact rather than uniformly high or low."
+    },
+    "social_assertiveness": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Widely and consistently documented by contemporaries as using storytelling and humor to command a room and defuse tension in cabinet meetings and with visitors, a specific social technique attested by multiple independent witnesses (Hay, Nicolay, cabinet members), not a general reputation."
+    },
+    "collaboration": {
+      "score": 75,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The cabinet of former rivals (Seward as Secretary of State, Chase as Treasury Secretary, Bates as Attorney General) is a specific, documented institutional choice to work with strong, often hostile personalities rather than a compliant circle."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained personal authority over a fractious cabinet and a string of insubordinate generals (most pointedly McClellan) for four years of war, documented across many specific confrontations rather than a single test of will."
+    },
+    "persuasiveness": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1860 Cooper Union speech is documented by contemporaries and later historians as directly responsible for his viability as a presidential candidate, and the Lincoln-Douglas debate transcripts show a specific, repeatable method of argument that shifted public opinion in the 1858 race even though he lost it."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Tolerated sustained, documented friction with McClellan's public insubordination, Chase's open ambition for his job, and Radical Republican criticism for years before acting, only escalating to removal when performance failure was undeniable — a pattern of high tolerance followed by decisive correction, evidenced across several separate relationships."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, deliberate self-directed study of law to bar admission with no formal institution, and later personal study of military strategy manuals during the war to be able to evaluate his generals' plans directly rather than defer entirely to professional judgment."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Herndon's firsthand account describes an unusually restless, sustained ambition running through repeated candidacies for state legislature, Congress, and Senate before reaching the presidency — corroborated by Lincoln's own admission in an 1860 campaign autobiography that ambition was a lifelong, self-recognized trait."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Overrode General Frémont's unauthorized 1861 emancipation order and set his own timetable for the Emancipation Proclamation independent of cabinet pressure in either direction, but also relied heavily and habitually on cabinet consultation — genuinely mixed evidence, so scored near center at inference level rather than resolved toward either pole."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Gettysburg Address and Second Inaugural both explicitly frame the war's stakes in terms of a durable historical and moral consequence beyond his own tenure (\"government of the people, by the people, for the people\"), in his own drafted words, repeated as a theme across multiple major speeches rather than one address."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated every stage of his rise — leaving home at 22 for New Salem, self-teaching law with no sponsor, seeking office repeatedly with no institutional backing — a documented pattern of self-directed career construction rather than advancement through patronage or inheritance."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09): scored to 22 attributes per the roster12-13 postmortem's revised pre-freeze target, chosen on genuine evidence availability, not attribute baseWeight. Wikidata identity verified live (Q91) before scoring. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.618,
+    "coverage": 0.664,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/abraham-lincoln-loc.jpg",
+    "width": 1219,
+    "height": 1600,
+    "source": "Wikimedia Commons (Library of Congress)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_head_on_shoulders_photo_portrait.jpg",
+    "attribution": "Alexander Gardner (attributed), Library of Congress",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_head_on_shoulders_photo_portrait.jpg"
+  }
+}

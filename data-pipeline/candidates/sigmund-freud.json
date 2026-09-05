@@ -1,0 +1,251 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sigmund-freud",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Sigmund Freud",
+    "wikidataId": "Q9215",
+    "birthYear": 1856,
+    "deathYear": 1939,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "scientist"
+    ],
+    "fieldIds": [
+      "medicine",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural",
+      "medical"
+    ],
+    "tagIds": [
+      "founder",
+      "theorist",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sf_gay",
+      "kind": "biography",
+      "title": "Peter Gay, Freud: A Life for Our Time (1988)"
+    },
+    {
+      "id": "src_sf_fliess",
+      "kind": "archive",
+      "title": "Jeffrey Moussaieff Masson, ed., The Complete Letters of Sigmund Freud to Wilhelm Fliess"
+    },
+    {
+      "id": "src_sf_jones",
+      "kind": "biography",
+      "title": "Ernest Jones, The Life and Work of Sigmund Freud (1953-57) — written by a close colleague, read critically alongside later independent biography"
+    },
+    {
+      "id": "src_sf_wikipedia",
+      "kind": "wikipedia",
+      "title": "Sigmund Freud",
+      "url": "https://en.wikipedia.org/wiki/Sigmund_Freud"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained, self-directed investigation across neurology, cocaine's clinical effects, hypnosis, and eventually his own dreams and childhood memories as primary data — his own Fliess letters show a working scientist actively pursuing new lines of inquiry across two decades, not settled doctrine from the start."
+    },
+    "analytical_rigor": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Constructed detailed, internally systematic theoretical models (the topographic and later structural models of mind) from clinical case material, though the case-based method itself is documented by historians of science as methodologically looser than his own claims of scientific rigor — scored moderately rather than at either extreme."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, repeated willingness to break from influential mentors and collaborators once he judged them wrong — from Josef Breuer (over the sexual etiology of neurosis) to Carl Jung and Alfred Adler (over the libido theory) — a sustained pattern across multiple named, costly professional ruptures."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Interpretation of Dreams (1899) is documented as a genuinely novel theoretical synthesis at the time of publication, independently attested by the scale of the field (psychoanalysis) that developed directly from it, not merely his own claim of originality."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Conducted his own systematic self-analysis via daily dream recording over several years (documented in the Fliess letters) while simultaneously maintaining a full clinical practice and prolific writing output — a sustained, self-imposed practice, not a claimed habit."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Interpretation of Dreams sold poorly for years after publication and psychoanalysis was widely dismissed by the medical establishment for over a decade before gaining acceptance, documented in his own correspondence describing sustained isolation and continued work regardless."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Revised his own theoretical models substantially over his career (moving from the seduction theory to the drive theory, and later adding the structural id/ego/superego model), but documented as doing so slowly and often only after sustained internal resistance — scored near center rather than assumed high."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Published sexually explicit case material and theory in a conservative Viennese medical establishment specifically knowing it would provoke professional censure, documented in his own letters anticipating exactly that reaction before publication."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained years of professional isolation and uncertain reception of his core theory before any validation, documented in his own correspondence as a deliberately endured period rather than one he abandoned the work to escape."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented as ending the Jung and Adler collaborations at specific, dated points once he judged the theoretical differences irreconcilable, though his own letters show these decisions followed extended, documented ambivalence beforehand — scored moderately."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented as commanding intense authority within his own founded institutions (the Vienna Psychoanalytic Society, the Wednesday Psychological Society) though colleagues' accounts (including Jung's own later reflections) describe a more reserved, controlling style than an extroverted one — scored moderately."
+    },
+    "collaboration": {
+      "score": 38,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented pattern of serial ruptures with his closest collaborators and intended successors — Breuer, Adler, Jung, and later others — each ending in permanent estrangement rather than working accommodation of disagreement, evidenced across multiple named, independently documented relationships, not one falling-out."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally founded and controlled the Vienna Psychoanalytic Society and the broader international psychoanalytic movement's doctrinal boundaries for decades, documented as actively vetting who could be considered orthodox, not a passive figurehead role."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built an international movement of practicing followers from a position of initial medical-establishment rejection, documented as substantially achieved through his own writing and personal training of early adherents (Jung, Ferenczi, Jones) rather than institutional backing."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained public theoretical disputes with the Vienna medical establishment for over a decade and later with his own former disciples for years, documented across multiple separate, named, extended conflicts rather than one dispute avoided or resolved quickly."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly broke from collaborators specifically when they proposed modifications to core theory he had not authorized, documented as prioritizing theoretical control over preserving the collaboration itself in more than one instance."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued writing and refining theory even after his 1923 cancer diagnosis and through 33 subsequent operations, and fled Nazi-annexed Vienna for London in 1938 specifically to continue his work and protect his papers and daughter Anna, documented via his own and his physician's accounts."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented years of serious neurological research (his early work on cerebral palsy and aphasia was independently respected before psychoanalysis) before shifting fields, showing sustained deliberate depth rather than an untrained leap."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own Fliess letters document explicit, sustained ambition to establish a durable, named scientific theory (not merely clinical practice), pursued despite the financial security a purely clinical career would have offered."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Documented sensitivity to priority disputes over specific concepts (with Janet, with early rivals over the unconscious) in his own correspondence, though this is narrower than a general competitive drive — scored moderately at inference level."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Moved from neurology to psychology/psychoanalysis but remained within medicine and mind-science broadly rather than genuinely disparate fields — scored near center rather than inflated for a domain shift that, while real, is not extremely wide."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated the entire theoretical and institutional apparatus of psychoanalysis (the Wednesday society, the journal, the training standards) with no prior institution to build from, documented as his own sustained personal project from the outset."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Did substantially revise core theory more than once (abandoning the seduction theory, later adding the death-drive concept), but documented as doing so reluctantly and after long internal resistance rather than readily — scored near center rather than either extreme."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q9215) before scoring. collaboration scored low with risk impact from the well-documented pattern of serial ruptures with named close collaborators (Breuer, Adler, Jung), evidenced across multiple separate relationships rather than one falling-out. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 23,
+    "averageConfidence": 0.538,
+    "coverage": 0.691,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sigmund-freud-schmutzer-1926.jpg",
+    "width": 1067,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud_1926.jpg",
+    "attribution": "Ferdinand Schmutzer, 1926",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud_1926.jpg"
+  }
+}

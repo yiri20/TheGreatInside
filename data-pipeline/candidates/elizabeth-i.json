@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "elizabeth-i",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Elizabeth I of England",
+    "aliases": [
+      "Elizabeth I",
+      "The Virgin Queen"
+    ],
+    "wikidataId": "Q7207",
+    "birthYear": 1533,
+    "deathYear": 1603,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "overcame_adversity",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_e1_starkey",
+      "kind": "biography",
+      "title": "David Starkey, Elizabeth: The Struggle for the Throne (2000)"
+    },
+    {
+      "id": "src_e1_collected_works",
+      "kind": "archive",
+      "title": "Leah S. Marcus, Janel Mueller, Mary Beth Rose, eds., Elizabeth I: Collected Works — her own speeches, letters, and poems"
+    },
+    {
+      "id": "src_e1_somerset",
+      "kind": "biography",
+      "title": "Anne Somerset, Elizabeth I (1991)"
+    },
+    {
+      "id": "src_e1_wikipedia",
+      "kind": "wikipedia",
+      "title": "Elizabeth I",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_I"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as fluent in multiple languages (Latin, French, Italian, some Greek) through a sustained humanist education continued by her own choice well past the point required of a monarch, corroborated by her tutor Roger Ascham's own surviving accounts of her study habits."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her surviving council correspondence and her own annotated state papers show sustained, detailed engagement with the specifics of financial and diplomatic policy rather than delegation of substance, corroborated by Starkey's independent review of the archival record."
+    },
+    "independent_thinking": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeatedly refused sustained, decades-long pressure from her own Privy Council and Parliament to marry and name a successor, a documented specific policy she held to against near-universal advice for the whole of her reign, not a single refusal."
+    },
+    "discipline": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained a rigorous, sustained personal correspondence and council-attendance schedule across a 44-year reign into old age, documented in her own surviving papers and household records."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Survived imprisonment in the Tower of London under her sister Mary I on suspicion of treason, maintaining her claim and composure throughout (documented via her own recorded protestations and contemporary accounts), then sustained the Protestant settlement against domestic plots and foreign pressure for over four decades."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Navigated the religious whiplash of her father's, brother's, and sister's reigns (Protestant, more Protestant, then violently Catholic) by outwardly conforming as required to survive each, then constructed the deliberately moderate Elizabethan Religious Settlement once in power — a documented pattern of situational adjustment across distinct political regimes."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Ordered the 1587 execution of her own cousin, Mary Queen of Scots, and confronted the 1588 Spanish Armada by personally addressing troops at Tilbury rather than withdrawing to safety — both specific, documented decisions with severe possible consequences she visibly accepted."
+    },
+    "ambiguity_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, deliberate policy of prolonged ambiguity on the marriage question and the royal succession for decades, sustained despite intense pressure to resolve it — contemporaries and modern historians alike read this as a controlled strategy rather than mere indecision, evidenced across the full length of her reign."
+    },
+    "decisiveness": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "The marriage/succession question shows documented, sustained non-decision as deliberate strategy, while the Mary Queen of Scots execution and Armada response show swift, final action — genuinely mixed by domain, scored near center rather than resolved toward either extreme."
+    },
+    "social_assertiveness": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 1588 Tilbury speech (\"I know I have the body of a weak and feeble woman, but I have the heart and stomach of a king\") is a directly preserved, documented public performance specifically constructed to command an army's confidence in person."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Insisted on ruling personally rather than through a regent or husband-king for the entirety of her reign, a specific, sustained institutional choice documented across 44 years against contemporary expectation that a queen would rule through marriage."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Her surviving Golden Speech (1601) and Tilbury address are documented as directly effective in specific political moments (defusing parliamentary anger over monopolies; rallying troops before the Armada), preserved in near-contemporary transcription, not attributed reputation alone."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as often avoiding direct personal confrontation with councillors, preferring to let ministers absorb blame for unpopular decisions while she retained deniability — a real but indirect pattern, scored moderately rather than extreme given its inferential basis."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Refused marriage proposals from multiple foreign princes and her own councillors' preferred candidates across her entire reign specifically to retain sole authority, a documented and sustained pattern rather than a single refusal."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Framed her rule in the Tilbury and Golden Speech texts explicitly in terms of duty to her country and people rather than personal glory, though the surviving record is more performative political rhetoric than private reflection, hence inference-level."
+    },
+    "mastery_orientation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Ascham's tutoring records document a specific, sustained daily study regimen in classical languages continued well past what court protocol required of a princess, corroborated by her own fluent surviving translations of Latin and Italian texts."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her sustained pursuit and defense of the throne itself is well documented, but evidence of ambition beyond securing and holding the crown (as distinct from governing competently once secure) is thinner in the surviving record, hence a moderate score at inference level."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained an unusually stable, long-serving Privy Council (William Cecil served as her chief advisor for four decades) documented as built on sustained mutual working trust rather than frequent replacement, an institutional pattern distinct from many contemporary rulers."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally initiating the religious settlement's specific moderate terms rather than deferring entirely to factional advisors on either side, and personally choosing to appear at Tilbury rather than being persuaded to do so by councillors, per contemporary accounts of the debate preceding it."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Navigated her precarious position during Mary I's reign (a plausible execution target) into eventual secure succession partly through documented careful timing of her own public statements and conformity — inferred from the pattern of survival and outcome rather than a stated strategy."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Governed a chronically underfunded treasury for most of her reign without provoking the kind of tax revolt that troubled predecessors and successors, inferred from the fiscal record rather than a single documented resourceful act."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Genuine but modest range beyond statecraft — documented linguistic and literary competence (her own translations and poems survive) alongside governance — scored near center rather than extended into domains without direct evidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q7207) before scoring. Early-modern evidence discipline applied per scoring-rubric-v1 §8 — several rows capped at strong_inference/inference rather than documented despite an unusually rich surviving primary-source base (her own speeches and letters) for the period. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.528,
+    "coverage": 0.66,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/elizabeth-i-coronation-robes.jpg",
+    "width": 1191,
+    "height": 1600,
+    "source": "Wikimedia Commons (National Portrait Gallery, London)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elizabeth_I_in_coronation_robes.jpg",
+    "attribution": "Unknown artist, c. 1600-1610, copy of a lost original of c. 1559 — National Portrait Gallery, London",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Elizabeth_I_in_coronation_robes.jpg",
+    "kind": "historical_depiction"
+  }
+}

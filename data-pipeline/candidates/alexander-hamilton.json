@@ -1,0 +1,247 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alexander-hamilton",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Alexander Hamilton",
+    "wikidataId": "Q178903",
+    "birthYear": 1757,
+    "deathYear": 1804,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "lawyer",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "law",
+      "business",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ah_chernow",
+      "kind": "biography",
+      "title": "Ron Chernow, Alexander Hamilton (2004)"
+    },
+    {
+      "id": "src_ah_papers",
+      "kind": "archive",
+      "title": "Harold C. Syrett et al., eds., The Papers of Alexander Hamilton — his own correspondence, published essays, and the Reynolds Pamphlet"
+    },
+    {
+      "id": "src_ah_federalist",
+      "kind": "archive",
+      "title": "The Federalist Papers (Hamilton's 51 of 85 essays, published under \"Publius\")"
+    },
+    {
+      "id": "src_ah_wikipedia",
+      "kind": "wikipedia",
+      "title": "Alexander Hamilton",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Hamilton"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented self-directed reading as a teenage clerk in the Caribbean before any formal education, then rapid, largely self-taught mastery of law, economics, and constitutional theory sufficient to design the entire federal financial system from first principles — a sustained pattern across distinct fields, not one subject."
+    },
+    "analytical_rigor": {
+      "score": 85,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote 51 of the 85 Federalist essays and the full financial reports (Report on Public Credit, Report on Manufactures) as detailed, systematically argued policy documents under real legislative deadlines — a large, directly attributable, still-analyzed body of documented reasoning."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Broke publicly with his own Federalist party's presidential candidate (Adams) in 1800 and again opposed his own party's Burr in the 1801 and 1804 elections, on principle rather than party loyalty — documented across more than one election, at real political cost to himself."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced the full first-term Treasury program (funding the debt, the Bank, the mint, the Report on Manufactures) as one sustained, self-directed body of written work within roughly two years while also maintaining a law practice — a documented volume and pace of output, not a claimed work ethic."
+    },
+    "execution_speed": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Co-wrote the 85 Federalist essays with Madison and Jay in under a year under active publication deadlines, and drafted detailed Treasury reports on tight congressional timelines — a documented pace of production under real time pressure."
+    },
+    "planning_orientation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The funding/assumption/Bank/mint program was designed as one interlocking system with an explicit multi-year sequence and stated long-term objective (establishing US credit) in his own written reports — a documented, structured plan, not an improvised response to crises."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Continued to press for the Bank and assumption of state debts through sustained, multi-round congressional opposition (including the documented Compromise of 1790 negotiation with Jefferson and Madison to secure votes) rather than abandoning the program after early defeat."
+    },
+    "risk_tolerance": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Published the Reynolds Pamphlet (1797), publicly confessing a private affair in detail specifically to refute a corruption charge he judged worse than the personal scandal — a specific, documented, self-damaging choice made deliberately; separately, accepted Burr's 1804 duel challenge knowing the mortal risk."
+    },
+    "decisiveness": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented as acting quickly and unilaterally at key moments — publishing the Reynolds Pamphlet against the advice of allies, throwing his support to Jefferson over Burr in the contested 1800 election tie despite disliking Jefferson — specific, dated choices rather than a general reputation."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Widely documented by contemporaries (including hostile ones) as dominating cabinet discussion and pamphlet warfare more than any other founding-era figure of comparable rank — a specific, repeated pattern that also generated an unusual number of personal rivalries."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Effectively built and ran the Treasury Department's initial institutional structure from nothing, and continued to direct Federalist party strategy from outside office after leaving the cabinet — documented sustained authority-seeking beyond his formal position."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Federalist essays are documented by historians as directly influential in several state ratification votes, and his direct negotiation with Jefferson and Madison secured the votes needed to pass the assumption program — both specific, attributed persuasive outcomes, not a general reputation for eloquence."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Sustained public pamphlet wars with Jefferson, Adams, and Burr for over a decade, escalating rather than de-escalating on several documented occasions, ending in the fatal 1804 duel with Burr — an unusually well-documented, extreme pattern across multiple named adversaries."
+    },
+    "mastery_orientation": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Taught himself law well enough to pass the bar in months rather than years, and independently studied European financial systems (British and French precedent) to design a novel American one — documented depth of self-directed technical mastery across two distinct fields."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, explicit lifelong ambition from an 1769 teenage letter (\"I wish there was a war\") through building an entire federal institution from an illegitimate, impoverished Caribbean origin with no family standing — a sustained, self-articulated drive corroborated by Chernow's independently sourced biography."
+    },
+    "competitiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented rivalry with Burr across a decade of overlapping legal and political careers, escalating specifically when Burr's ambitions crossed his own, ending in the duel — a sustained pattern of personal rivalry, not one dispute."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Broke with his own party's presidential candidates twice on his own judgment (1800, 1804), but also worked closely and durably within Washington's cabinet for years — mixed evidence, scored moderate rather than extreme."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own Treasury reports explicitly frame the financial program in terms of the young nation's long-term survival and credibility (\"a national debt, if it is not excessive, will be to us a national blessing\" as an instrument of durable union) rather than short-term political gain."
+    },
+    "aesthetic_sensitivity": {
+      "score": 45,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Little direct documented evidence either way beyond conventional period taste in his personal correspondence and home (The Grange) — scored at the safe default given thin, non-extreme evidence."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-dabbling output simultaneously as a practicing lawyer, a published constitutional theorist, and the architect of the federal financial system within the same decade — three genuinely distinct domains with real, attributable output in each."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wrote and published a detailed hurricane account at 17 that was circulated specifically to raise funds to send him to the American colonies for education — a documented, self-initiated act with no family sponsorship, followed by a lifelong pattern of self-directed institution-building rather than advancement through inherited position."
+    },
+    "opportunity_sensing": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Consistently positioned himself early in each institution he later dominated (Washington's wartime staff, the Constitutional Convention's aftermath, the new Treasury) before the roles carried the prestige they later would — inferred from the pattern of timing rather than a single documented statement of intent."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q178903) before scoring; birth year genuinely disputed between 1755 and 1757 in the historical record and on Wikidata itself — 1757 used per current majority scholarly convention, noted here rather than silently resolved. Scored to 22 attributes on genuine evidence availability, not attribute baseWeight."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.59,
+    "coverage": 0.65,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alexander-hamilton-trumbull-1806.jpg",
+    "width": 1350,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Hamilton_portrait_by_John_Trumbull_1806.jpg",
+    "attribution": "John Trumbull, 1805 (posthumous)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Hamilton_portrait_by_John_Trumbull_1806.jpg",
+    "kind": "historical_depiction"
+  }
+}

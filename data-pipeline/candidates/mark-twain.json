@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mark-twain",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Mark Twain",
+    "aliases": [
+      "Samuel Clemens",
+      "Samuel Langhorne Clemens"
+    ],
+    "wikidataId": "Q7245",
+    "birthYear": 1835,
+    "deathYear": 1910,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "entertainer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "overcame_adversity",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mt_powers",
+      "kind": "biography",
+      "title": "Ron Powers, Mark Twain: A Life (2005)"
+    },
+    {
+      "id": "src_mt_autobiography",
+      "kind": "archive",
+      "title": "Mark Twain, Autobiography of Mark Twain (dictated 1906-1909, published posthumously per his own instruction) — read critically alongside independent biography"
+    },
+    {
+      "id": "src_mt_letters",
+      "kind": "archive",
+      "title": "Mark Twain Project, Mark Twain's Letters (University of California)"
+    },
+    {
+      "id": "src_mt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Mark Twain",
+      "url": "https://en.wikipedia.org/wiki/Mark_Twain"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained interest across genuinely distinct fields beyond writing — held multiple technology patents (a self-pasting scrapbook, a garment strap), invested heavily in the Paige typesetting machine, and wrote extensively on then-current science and technology — a pattern across separate ventures, not one hobby."
+    },
+    "analytical_rigor": {
+      "score": 45,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His business and investment decisions (the Paige typesetting machine, his own publishing house) are documented as driven more by enthusiasm than by systematic financial analysis, per his own later self-critical account and biographers — scored at the safe default given genuinely mixed, non-extreme evidence."
+    },
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Adventures of Huckleberry Finn's sustained use of vernacular first-person narration is documented by literary historians (and by Twain's own stated intent in his working notes) as a deliberate, novel departure from the era's formal literary English, later credited by Hemingway and others as foundational to modern American prose style."
+    },
+    "experimentation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly tested new commercial and technical ventures outside writing (his own publishing house, the Paige machine, several patents) — a documented pattern of venture-taking, though its net evidentiary base is more about the ventures existing than about a deliberate creative-experimentation process, hence inference-level."
+    },
+    "discipline": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as an erratic, mood-dependent writer by his own letters and by Powers's biography — long fallow periods (Huckleberry Finn itself was set aside for several years mid-manuscript) alternating with intense bursts — genuinely mixed evidence, scored near center."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After his publishing house's bankruptcy in 1894 left him deeply in debt in his late fifties, he undertook a grueling round-the-world lecture tour specifically to repay creditors in full rather than declare full legal discharge — a documented, dated, sustained multi-year effort corroborated by his own account and by contemporary press coverage."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Reinvented his profession multiple times across a documented career arc — steamboat pilot, itinerant printer, journalist, lecture-circuit humorist, novelist, publisher — each a genuinely distinct occupation he had to newly learn."
+    },
+    "risk_tolerance": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Invested and lost the bulk of his literary fortune in the Paige typesetting machine over more than a decade despite repeated warning signs documented in his own letters — a specific, sustained pattern of high-risk financial commitment rather than a single bad bet."
+    },
+    "ambiguity_tolerance": {
+      "score": 42,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented bouts of acute anxiety and depression during the bankruptcy years and after his daughter Susy's death in 1896, per his own letters and Powers's biography — evidence points toward lower tolerance for prolonged uncertainty than the public humorist persona suggests, scored accordingly rather than defaulting to the public image."
+    },
+    "decisiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The decision to commit to full pay-back of creditors after 1894 was documented and specific, but his broader financial and career choices (extended commitment to the Paige machine years past clear warning signs) suggest slower-than-average correction — mixed evidence, scored near center."
+    },
+    "social_assertiveness": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Built an entire second career as a lecture-circuit performer, documented across decades of sold-out appearances and press accounts of his stage persona, distinct from his identity as a writer."
+    },
+    "persuasiveness": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Lecture tours documented by contemporary newspapers as reliably filling halls specifically on his personal reputation as a speaker, and his essays (\"The War Prayer,\" anti-imperialist writings) are documented as directly shaping public debate on specific issues of his day."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Publicly and repeatedly attacked specific public figures and institutions (King Leopold II's Congo regime, US imperialism in the Philippines, organized religion) in print under his own name late in life, accepting the resulting controversy — a documented pattern across several separate targets."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented years-long, formal apprenticeship to earn his steamboat pilot's license (detailed in Life on the Mississippi) shows genuine deliberate skill-building in that domain specifically, though his later career shows less of this pattern — inference-level given the domain-specific nature of the evidence."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented drive to be recognized as a serious literary figure and not merely a comic entertainer, pursued across decades of increasingly ambitious work (Huckleberry Finn, Pudd'nhead Wilson) and pursuit of financial independence through his own publishing house rather than depending on others' terms."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Late-career anti-imperialist and anti-racist writing (his Congo and Philippines essays, and Huckleberry Finn's own treatment of Jim) is documented as deliberately aimed at shifting public moral opinion, not merely commercial output."
+    },
+    "collaboration": {
+      "score": 48,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Business ventures (the publishing house, the Paige machine investment) were largely driven by his own judgment with limited documented deference to partners' caution — thin, non-extreme evidence, scored near the safe default."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Sustained real activity as a writer, lecturer, publisher, and inventor/investor across the same period of his life — genuine range, though the non-writing ventures are documented mainly by their financial outcomes rather than by evidence of sustained personal engagement, hence inference-level."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Left home at 18 to become an itinerant printer with no family backing, later self-taught the highly technical steamboat pilot trade to licensure, and independently founded his own publishing company rather than working only through others' — a documented, self-directed career pattern."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Founded his own publishing house specifically to control his own output and terms rather than depend on established publishers — a specific, documented choice, though the broader evidence for a general autonomy need beyond this one domain is thinner, hence inference-level."
+    },
+    "resourcefulness": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as rebuilding his entire financial position in his late fifties through an international lecture tour after total bankruptcy, using the one asset (his own performing reputation) still available to him — a specific, corroborated crisis-response episode."
+    },
+    "aesthetic_sensitivity": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, deliberate attention to vernacular speech rhythm and regional dialect precision in his fiction (his own prefatory note to Huckleberry Finn specifies the several distinct dialects used and his care in rendering them), a specific craft concern beyond general storytelling."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q7245) before scoring. Several attributes scored at or near the safe default (45-55) where evidence was genuinely mixed or thin (analytical_rigor, discipline, ambiguity_tolerance, collaboration) rather than inflated toward his public comic persona — per the rubric's anti-halo-effect discipline. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.506,
+    "coverage": 0.653,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mark-twain-bradley.jpg",
+    "width": 756,
+    "height": 1061,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley.jpg",
+    "attribution": "A. F. Bradley, New York",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley.jpg"
+  }
+}

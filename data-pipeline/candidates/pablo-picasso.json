@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pablo-picasso",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Pablo Picasso",
+    "wikidataId": "Q5593",
+    "birthYear": 1881,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ES",
+      "FR"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "innovator",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_pp_richardson",
+      "kind": "biography",
+      "title": "John Richardson, A Life of Picasso (4 volumes, 1991-2021)"
+    },
+    {
+      "id": "src_pp_gilot",
+      "kind": "biography",
+      "title": "Françoise Gilot & Carlton Lake, Life with Picasso (1964) — a former partner's own firsthand account"
+    },
+    {
+      "id": "src_pp_stein",
+      "kind": "archive",
+      "title": "Gertrude Stein, correspondence and memoir accounts of Picasso during the early Cubist period"
+    },
+    {
+      "id": "src_pp_wikipedia",
+      "kind": "wikipedia",
+      "title": "Pablo Picasso",
+      "url": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained engagement with African and Iberian sculpture, printmaking, ceramics, and stage design across his career (not only painting), each a genuinely new technical domain he took up seriously and produced substantial work in, per Richardson's documented catalogue of his output."
+    },
+    "creative_originality": {
+      "score": 92,
+      "confidence": 0.82,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-developed Cubism (with Braque) as a documented, dated, verifiable break from prior representational convention around 1907-1909, independently corroborated by contemporary critics' and later art historians' consistent account of its originality, not self-claimed."
+    },
+    "experimentation": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, repeated deliberate shifts across distinct stylistic periods (Blue, Rose, Analytic Cubism, Synthetic Cubism, Neoclassicism, Surrealist-adjacent work, late expressive style) across six decades, each a verifiable, dated departure rather than a single innovation repeated."
+    },
+    "discipline": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Produced a documented, catalogued output of roughly 50,000 works across paintings, sculptures, prints, and ceramics over a working life of more than 75 years — an independently verifiable, sustained volume of production, not a claimed work ethic."
+    },
+    "execution_speed": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented (by studio visitors and photographers, notably the filmed 1956 documentary Le Mystère Picasso) as completing large, complex compositions in single extended sessions, a specific attested working method rather than general prolific reputation."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Les Demoiselles d'Avignon (1907) was documented as shocking and alienating even his own close circle (Braque and Matisse's initial reactions are recorded as hostile) before Cubism gained any acceptance — a specific instance of pursuing a direction against immediate peer judgment."
+    },
+    "adaptability": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, repeated, successful reinvention of his own style roughly once per decade across a 75-year career, each shift independently catalogued and dated by art historians rather than a single early breakthrough coasted on."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented across multiple partners' and contemporaries' accounts (Gilot's memoir most directly) as dominating personal and professional relationships and social settings through sheer personal force, a specific, sustained interpersonal pattern rather than general fame."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as the acknowledged, deliberately dominant figure of the Cubist circle he co-founded with Braque, with contemporaries' accounts describing him as setting direction rather than following it, though the movement was genuinely a two-person collaboration at its origin."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His dealer relationships (Kahnweiler) and ability to sustain sequential major relationships with intelligent, accomplished partners are documented, but direct evidence of persuasive skill as distinct from fame and charisma is thinner — scored at inference level."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented pattern (Gilot's account, corroborated by other partners' and biographers' records) of deliberately provoking rivalry and tension among people close to him, and of abrupt, permanent ruptures with former partners and some friends — evidenced across more than one relationship."
+    },
+    "competitiveness": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented lifelong rivalry with Matisse, described by both artists' own contemporaries and later scholarship as a sustained, productive competitive dynamic that each artist referenced directly in relation to the other's work across decades."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as controlling his own market and representation unusually tightly for an artist of his era (dictating terms to dealers rather than the reverse, per Richardson), and repeatedly changing personal and professional circles on his own initiative."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Guernica (1937) is documented as a deliberate political statement responding to a specific atrocity, evidence of motivation beyond aesthetics or personal ambition in at least this instance, though this is less consistently documented across his wider body of largely apolitical work."
+    },
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained an unusually high level of productive output and public relevance for over 70 years past his initial success, continuing to seek new stylistic ground into his nineties — documented via the catalogued body of late work, not merely coasting on early reputation."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, rigorous formal academic training from childhood (his father was a drawing instructor; he was admitted to advanced classes years ahead of his age), producing technically accomplished academic work before he began breaking from it deliberately."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-dabbling output across painting, sculpture, ceramics, printmaking, and stage/costume design (his Ballets Russes collaborations with Diaghilev) — genuinely distinct media with real catalogued output in each, not one medium repeated."
+    },
+    "aesthetic_sensitivity": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, extensively catalogued formal control across radically different visual languages (academic realism, Cubist fragmentation, Neoclassical line, late expressive gesture), attested by decades of independent art-historical analysis of his technique."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the move from Barcelona to Paris as a young, unknown artist with no institutional backing, and personally drove the Cubist break with Braque rather than working within an existing school's direction — documented pattern of self-directed artistic risk."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as building relationships early with dealers (Kahnweiler) and collectors (the Steins) before his reputation was established, positioning himself for the market's later development — inferred from timing and outcome."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His academic-period work documents strong technical precision, though his mature style deliberately favored expressive gesture over fine finish — genuinely mixed by period, scored near center."
+    },
+    "perfectionism": {
+      "score": 48,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented (Le Mystère Picasso footage, studio accounts) as often completing work rapidly and moving on rather than extensively revising — genuinely lower than a perfectionist pattern for most of his output, scored at the safe default given some documented exceptions (Guernica's extensively revised preparatory studies)."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-14 coverage-aware intake (2026-09). Wikidata identity verified live (Q5593) before scoring. Interpersonal evidence drawn primarily from Françoise Gilot's own published firsthand account (a former partner, not a neutral third party) — treated per the rubric as a documented account rather than automatically corroborated, and cross-checked where possible against Richardson's independent biography. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.572,
+    "coverage": 0.645,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pablo-picasso-canals-1904.jpg",
+    "width": 830,
+    "height": 970,
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pablo_Picasso,_1904,_Paris,_photograph_by_Ricard_Canals_i_Llamb%C3%AD_cut_restored.jpg",
+    "attribution": "Ricard Canals, 1904, Paris",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pablo_Picasso,_1904,_Paris,_photograph_by_Ricard_Canals_i_Llamb%C3%AD_cut_restored.jpg"
+  }
+}
