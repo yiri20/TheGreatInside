@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "miles-davis",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "Miles Davis",
+    "wikidataId": "Q93341",
+    "birthYear": 1926,
+    "deathYear": 1991,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "entertainer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "innovator",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_md2_autobiography",
+      "kind": "archive",
+      "title": "Miles Davis with Quincy Troupe, Miles: The Autobiography (1989) — his own account, read critically alongside independent biography"
+    },
+    {
+      "id": "src_md2_szwed",
+      "kind": "biography",
+      "title": "John Szwed, So What: The Life of Miles Davis (2002)"
+    },
+    {
+      "id": "src_md2_davis_ex_wife",
+      "kind": "archive",
+      "title": "Frances Taylor Davis, Frances Taylor Davis: Miles and Me (2010) — a former spouse's own memoir, a firsthand but not neutral account, read as documented testimony rather than independent corroboration"
+    },
+    {
+      "id": "src_md2_wikipedia",
+      "kind": "wikipedia",
+      "title": "Miles Davis",
+      "url": "https://en.wikipedia.org/wiki/Miles_Davis"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained engagement across genuinely distinct musical idioms over his career — bebop, cool jazz, modal jazz, fusion, and 1980s funk/pop-inflected work — each a real, attested stylistic period with recorded output, not a single sound repeated."
+    },
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kind of Blue (1959) and Bitches Brew (1970) are documented by music historians as genre-founding works (modal jazz and jazz fusion respectively), independently corroborated by their lasting influence across multiple subsequent genres, not self-claimed innovation."
+    },
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, repeated, deliberate reinvention of his own sound roughly once per decade across a 40-year recording career, each shift independently catalogued and dated by discographers as a distinct period, not incremental variation."
+    },
+    "discipline": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as maintaining a rigorous personal practice regimen and studio recording schedule across most of his active career, corroborated by bandmates' accounts of demanding rehearsal standards, though this discipline is also documented as breaking down during his most severe addiction periods."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as overcoming a severe heroin addiction in the mid-1950s through a self-directed detox at his father's farm (described in his own autobiography and corroborated by biographers), then rebuilding his career to its most commercially and critically successful period afterward."
+    },
+    "adaptability": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, repeated, successful reinvention of his musical style and band lineups across five decades, each transition independently attested by critics and discographers as a deliberate, successful pivot rather than a forced or failed one."
+    },
+    "risk_tolerance": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Bitches Brew's electric, rock-influenced direction is documented as alienating a substantial part of his existing jazz audience and critics at the time of release, a specific, accepted commercial and critical risk taken deliberately rather than sustaining his established, successful acoustic sound."
+    },
+    "ambiguity_tolerance": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented periods of retreat from public performance (most notably a five-year hiatus in the late 1970s) suggest limited tolerance for sustained professional uncertainty during difficult periods, balanced against his otherwise-adventurous career pattern — scored near center."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Widely documented by bandmates, critics, and his own autobiography as commanding and often confrontational — famously playing with his back to audiences and giving terse, sometimes hostile interview responses, a specific, sustained public persona rather than incidental behavior."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally assembling and directing a sequence of highly influential bands across decades (his 1950s quintet, the 1960s second great quintet, the Bitches Brew ensemble), each documented as built and led by his own specific personnel choices and direction."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as recruiting major talents (John Coltrane, Herbie Hancock, Wayne Shorter, others) to his bands at pivotal points in their careers, though the specific mechanism of persuasion is less directly documented than the outcome, hence inference-level."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, sustained pattern of publicly and privately confrontational relationships with critics, record labels, and at points his own bandmates over creative control and pay, evidenced across multiple separate documented disputes rather than a single conflict."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented formal training at Juilliard (which he left to pursue jazz directly but drew on for harmonic theory), combined with sustained, deliberate absorption of Gil Evans's arranging techniques across the Birth of the Cool and Sketches of Spain periods, per his own and Evans's accounts of their collaboration."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained pursuit of new artistic ground across five decades rather than repeating earlier commercial successes, corroborated by the consistent stylistic reinvention itself as much as by any single ambitious statement."
+    },
+    "autonomy_need": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as repeatedly leaving established, successful arrangements (leaving Charlie Parker's band, later moving on from each of his own successful groups) to pursue self-directed new musical directions rather than remaining in a comfortable, proven setting."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His own autobiography frames his work primarily in terms of artistic and personal expression rather than explicit social or political impact, though his refusal to perform for segregated audiences in the 1950s South is a documented specific exception — scored moderately."
+    },
+    "aesthetic_sensitivity": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, extensively catalogued formal control across radically different musical languages (modal harmony, electric fusion textures, minimalist trumpet phrasing praised specifically for restraint), attested by decades of independent musicological analysis of his technique and choices."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career substantively concentrated in music across genuinely different subgenres, but not extending to fully unrelated fields — scored near center rather than inflated for range that, while real within music, is not extremely wide across domains."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-initiated each major stylistic pivot and band reformation across his career, documented as his own creative direction rather than label or market pressure — corroborated by musicians' accounts of him personally setting each new group's direction."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as recruiting specific young musicians (Hancock, Shorter, Tony Williams) before their reputations were established, positioning his bands ahead of where jazz talent was heading — inferred from the pattern and outcome rather than a stated scouting strategy."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as rebuilding his career and finances after the mid-1980s hiatus and after earlier addiction-driven periods of reduced output, using session work and smaller-scale performances to sustain himself before each major comeback recording — inferred from the career pattern rather than a single documented resourceful act."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented, sustained pattern of difficult and at points abusive personal relationships, including physical violence toward his first wife Frances Taylor Davis documented in her own published memoir and corroborated in his own autobiography's admission of the behavior — treated here as documented conduct directly relevant to interpersonal-trait scoring, not omitted."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q93341) before scoring. Documented domestic violence toward Frances Taylor Davis, corroborated by both her own memoir and his own autobiography's admission, is scored directly in collaboration (low, risk impact) rather than omitted, per CLAUDE.md's instruction to never rig results to flatter. Documented heroin addiction is used only as a behavioral/historical fact relevant to persistence (the self-directed recovery), never as a diagnosis. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.531,
+    "coverage": 0.657,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/miles-davis-north-sea-jazz-1984.jpg",
+    "width": 1062,
+    "height": 1600,
+    "source": "Wikimedia Commons (Nationaal Archief / Anefo)",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:North_Sea_Jazzfestival_in_Den_Haag_Miles_Davis,_Bestanddeelnr_933-0325.jpg",
+    "attribution": "Nationaal Archief (Dutch National Archives) / Anefo, 15 July 1984",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:North_Sea_Jazzfestival_in_Den_Haag_Miles_Davis,_Bestanddeelnr_933-0325.jpg"
+  }
+}

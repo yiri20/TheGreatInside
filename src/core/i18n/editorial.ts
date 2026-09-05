@@ -2650,6 +2650,134 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's high resourcefulness and risk_tolerance: a specific, corroborated instance of managing a genuinely dangerous situation herself rather than depending on outside help.",
   "gertrude-bell.interpretation.turning_point.1":
     "This matches the profile's high proactive_agency and opportunity_sensing: self-initiated action that positioned her as institutionally indispensable exactly when it mattered most, rather than a role assigned to her.",
+
+  /* ------------------------------------------------------- Roster 15: Catherine the Great */
+  "catherine-the-great.achievement.1":
+    "Personally drafted the Nakaz (1767), a detailed legal-reform document synthesizing Montesquieu and Beccaria into a proposed code for Russia — a sustained intellectual project, not a delegated document.",
+  "catherine-the-great.achievement.2":
+    "Built the founding Hermitage art collection over decades through her own direct correspondence with agents and artists, and sustained a 40-plus-year correspondence with Voltaire and Diderot on Enlightenment philosophy.",
+  "catherine-the-great.moment.1":
+    "Personally organized and led the 1762 coup that deposed her own husband, Emperor Peter III, then ruled in her own right for 34 years rather than as a regent for their son.",
+  "catherine-the-great.moment.2":
+    "Continued governing through the Pugachev Rebellion (1773-1775), a major existential threat to her rule, without abdicating or seeking external rescue, then shifted from her earlier idealistic reform agenda toward more security-focused governance once the rebellion exposed its risks.",
+  "catherine-the-great.turning_point.1":
+    "Endured a difficult, loveless arranged marriage and deliberate marginalization at the Russian court as a foreign-born, unpopular consort with no independent income or allies, before building the coalition that carried out the 1762 coup.",
+  "catherine-the-great.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance and independent_thinking: a specific, personally executed act carrying severe personal risk, and an unprecedented institutional choice to rule alone rather than as a regent.",
+  "catherine-the-great.interpretation.turning_point.1":
+    "This tracks the profile's high persistence and resourcefulness: building political capital from a position of real isolation into the coalition that secured her the throne.",
+
+  /* ------------------------------------------------------- Roster 15: Frederick the Great */
+  "frederick-the-great.achievement.1":
+    "Sustained a 40-plus-year correspondence with Voltaire spanning philosophy, literature, and science, and personally composed and performed flute music — over 100 surviving compositions independently catalogued by musicologists.",
+  "frederick-the-great.achievement.2":
+    "Personally directed Prussian state administration and military strategy for 46 years, refining the Prussian army's tactics mid-war across the Seven Years' War in direct response to specific battlefield outcomes.",
+  "frederick-the-great.moment.1":
+    "Personally led troops in numerous battles at direct physical risk — his coat was pierced by bullets at Kunersdorf, documented by multiple contemporary accounts — and launched the surprise 1740 invasion of Silesia that began his reign's defining conflict.",
+  "frederick-the-great.moment.2":
+    "Maintained composure and continued directing Prussian strategy through the Seven Years' War (1756-1763), when a coalition of Austria, Russia, and France repeatedly brought Prussia to the edge of destruction, including the near-fatal 1759 defeat at Kunersdorf.",
+  "frederick-the-great.turning_point.1":
+    "Attempted to flee his father's court and abdicate his succession at 18 rather than accept the militarist upbringing forced on him — an escape attempt that ended with his own father forcing him to witness the execution of his close companion Hans Hermann von Katte.",
+  "frederick-the-great.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance and persistence: a documented, sustained willingness to accept severe personal and national risk rather than withdraw once committed.",
+  "frederick-the-great.interpretation.turning_point.1":
+    "This connects to the profile's high independent_thinking: an early, costly break from his father's model of rule that nonetheless shaped the more personally directive style he carried into his own reign.",
+
+  /* ------------------------------------------------------- Roster 15: James Joyce */
+  "james-joyce.achievement.1":
+    "Ulysses's stream-of-consciousness technique and Finnegans Wake's invented composite language are documented by literary scholars as genuinely unprecedented formal innovations, independently corroborated by their scale of subsequent literary influence.",
+  "james-joyce.achievement.2":
+    "Verified, precise Dublin geography and a 1904 timeline run through Ulysses — independently checked by Joyce scholars against city records and found substantially accurate — reflect sustained, deliberate research rather than atmospheric approximation.",
+  "james-joyce.moment.1":
+    "Continued making extensive revisions to Ulysses at the galley-proof stage, reportedly adding as much as a third of the final text during proofreading, documented via surviving manuscript proofs.",
+  "james-joyce.moment.2":
+    "Continued writing and revising Ulysses and later Finnegans Wake through severe, progressive eye disease requiring over a dozen surgeries and periods of near-blindness, dictating passages and using magnifying aids to keep working.",
+  "james-joyce.turning_point.1":
+    "Left Ireland permanently at 22 with Nora Barnacle against his family's wishes, and continued publishing Ulysses in serialized form knowing it faced obscenity charges — it was in fact prosecuted and banned in the US and UK for over a decade.",
+  "james-joyce.interpretation.moment.1":
+    "This is consistent with the profile's exceptionally high perfectionism score: a specific, quantified instance of extreme revision discipline rather than a general reputation for care.",
+  "james-joyce.interpretation.turning_point.1":
+    "This matches the profile's high autonomy_need and risk_tolerance: a deliberate choice to accept real legal and financial exposure rather than self-censor or stay within a safer, more conventional path.",
+
+  /* ------------------------------------------------------- Roster 15: Marlene Dietrich */
+  "marlene-dietrich.achievement.1":
+    "Reinvented her career across genuinely distinct professional registers — 1920s German stage actress, Hollywood film star, WWII entertainer, then 1950s-70s cabaret headliner — each with real, attributable success rather than a single sustained path.",
+  "marlene-dietrich.achievement.2":
+    "Documented as personally directing lighting and camera-angle adjustments for her own film scenes across her career with Josef von Sternberg and later collaborators, a specific technical craft control unusual for a performer of her era.",
+  "marlene-dietrich.moment.1":
+    "Publicly rejected offers from the Nazi government to return to Germany as a star performer, instead becoming a US citizen in 1939 and touring over 500 shows for Allied troops near the front, at a time when this made her a specific target of Nazi propaganda condemning her as a traitor.",
+  "marlene-dietrich.moment.2":
+    "Rebuilt a second career as a cabaret and concert performer beginning in her fifties after her film career declined, touring successfully into her mid-seventies rather than retiring.",
+  "marlene-dietrich.turning_point.1":
+    "Chose US citizenship and frontline USO touring over the security of returning to Germany, accepting a Nazi-propagated \"traitor\" label and lasting estrangement from parts of German public opinion that persisted for decades after the war.",
+  "marlene-dietrich.interpretation.moment.1":
+    "This is consistent with the profile's exceptionally high risk_tolerance: a deliberate, sustained choice accepting severe personal and reputational risk rather than the safer, more comfortable option available to her.",
+  "marlene-dietrich.interpretation.turning_point.1":
+    "This tracks the profile's high autonomy_need: a self-directed stance held for years against her country of origin's official position, sustained regardless of personal cost.",
+
+  /* ------------------------------------------------------- Roster 15: Maya Angelou */
+  "maya-angelou.achievement.1":
+    "I Know Why the Caged Bird Sings (1969) is documented by literary historians as a formally distinctive entry in the autobiography genre, later extended across six further volumes — an unusual serial structure for the form.",
+  "maya-angelou.achievement.2":
+    "Delivered the inaugural poem at Bill Clinton's 1993 inauguration, and directed Down in the Delta (1998), becoming the first Black woman to direct a major studio film.",
+  "maya-angelou.moment.1":
+    "Documented as mute for almost five years after a childhood trauma, before rebuilding her voice and a public career that only reached wide recognition in her forties.",
+  "maya-angelou.moment.2":
+    "Relocated to Ghana and Egypt during the early 1960s pan-Africanist movement with no guaranteed position, and later served as the Southern Christian Leadership Conference's Northern Coordinator at Martin Luther King Jr.'s personal request.",
+  "maya-angelou.turning_point.1":
+    "Published Caged Bird's account of childhood sexual abuse in 1969, when such disclosure was rare in mainstream publishing, reframing her own most private trauma into the foundation of her public literary career.",
+  "maya-angelou.interpretation.moment.1":
+    "This is consistent with the profile's high persistence: rebuilding a public voice and eventually a defining literary career from a period of complete withdrawal, rather than an unbroken, steady rise.",
+  "maya-angelou.interpretation.turning_point.1":
+    "This matches the profile's high risk_tolerance and proactive_agency: a self-initiated, specific choice to make private trauma public at a time when doing so carried real professional exposure.",
+
+  /* ------------------------------------------------------- Roster 15: Miles Davis */
+  "miles-davis.achievement.1":
+    "Kind of Blue (1959) and Bitches Brew (1970) are documented by music historians as genre-founding works — modal jazz and jazz fusion respectively — independently corroborated by their lasting influence across multiple later genres.",
+  "miles-davis.achievement.2":
+    "Reinvented his musical style roughly once per decade across a 40-year recording career — bebop, cool jazz, modal jazz, fusion, 1980s funk-inflected work — each an independently catalogued, distinct period.",
+  "miles-davis.moment.1":
+    "Overcame a severe heroin addiction in the mid-1950s through a self-directed detox at his father's farm, then rebuilt his career into its most commercially and critically successful period afterward.",
+  "miles-davis.moment.2":
+    "Bitches Brew's electric, rock-influenced direction alienated a substantial part of his existing jazz audience and critics at release, a specific, accepted risk taken deliberately rather than sustaining his established, successful acoustic sound.",
+  "miles-davis.turning_point.1":
+    "Documented as physically violent toward his first wife, Frances Taylor Davis, corroborated by both her own published memoir and his own autobiography's admission of the behavior, alongside his otherwise adventurous and reinventive career.",
+  "miles-davis.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance and creative_originality: a specific, corroborated instance of pursuing a new direction despite the certain cost of alienating his existing audience.",
+  "miles-davis.interpretation.turning_point.1":
+    "This is scored directly in the profile's low collaboration score with risk impact — documented conduct, not omitted for the sake of a more flattering profile.",
+
+  /* ------------------------------------------------------- Roster 15: Nina Simone */
+  "nina-simone.achievement.1":
+    "Fused classical piano training with jazz, blues, folk, and gospel across her recorded output, a specific cross-genre practice documented by musicologists as a signature style distinct from her contemporaries.",
+  "nina-simone.achievement.2":
+    "Released \"Mississippi Goddam\" in 1964 as a direct response to the Birmingham church bombing and Medgar Evers's assassination — later adopted by the civil rights movement as an anthem — documented as costing her bookings and radio play in parts of the US South.",
+  "nina-simone.moment.1":
+    "Rejected by the Curtis Institute of Music in 1951 despite her preparation, a decision she and biographers attribute partly to racial discrimination — she continued a professional music career rather than abandoning performance.",
+  "nina-simone.moment.2":
+    "Documented as willing to publicly criticize the pace of the mainstream civil rights movement and to advocate more confrontational positions than some contemporaries, sustained across interviews through the 1960s.",
+  "nina-simone.turning_point.1":
+    "Left the mainstream US music industry for Barbados, Liberia, and later Europe across the 1970s-80s on her own terms, a sustained period of self-directed relocation rather than a label- or management-driven career move.",
+  "nina-simone.interpretation.moment.1":
+    "This is consistent with the profile's high risk_tolerance: a specific, documented instance of accepting real professional cost for a political statement, not made lightly or without consequence.",
+  "nina-simone.interpretation.turning_point.1":
+    "This matches the profile's high autonomy_need: leaving an established, remunerative industry position specifically to regain control over her own life and work.",
+
+  /* ------------------------------------------------------- Roster 15: Ruth Bader Ginsburg */
+  "ruth-bader-ginsburg.achievement.1":
+    "Designed and executed a deliberate, sequenced litigation strategy at the ACLU Women's Rights Project in the 1970s, choosing specific plaintiffs — including male plaintiffs — to build sex-discrimination precedent incrementally.",
+  "ruth-bader-ginsburg.achievement.2":
+    "Argued six gender-discrimination cases before the Supreme Court in the 1970s and won five, a directly attributable persuasive record before that specific audience.",
+  "ruth-bader-ginsburg.moment.1":
+    "Graduated tied for first in her Columbia Law class yet was unable to secure a law firm position or clerkship on the basis of her sex in the late 1950s, before building the academic and litigation career that eventually reached the Supreme Court.",
+  "ruth-bader-ginsburg.moment.2":
+    "Continued working through five separate cancer diagnoses and treatments across two decades on the Court, maintaining her full opinion-writing and argument schedule during treatment.",
+  "ruth-bader-ginsburg.turning_point.1":
+    "Chose deliberately unconventional plaintiffs — men denied benefits available only to women — for her 1970s sex-discrimination cases specifically to make the doctrinal point starker to an all-male bench, a calculated departure from the more straightforward case selection colleagues initially proposed.",
+  "ruth-bader-ginsburg.interpretation.moment.1":
+    "This is consistent with the profile's high persistence: building a defining legal career from a starting point of explicit, documented professional exclusion.",
+  "ruth-bader-ginsburg.interpretation.turning_point.1":
+    "This tracks the profile's high analytical_rigor and risk_tolerance: a calculated strategic choice that ran against conventional legal advice at the time.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -5153,6 +5281,134 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 이 프로필의 높은 자원 활용력과 위험 감수성과 부합한다 — 외부 도움에 기대지 않고 실제로 위험한 상황을 스스로 수습한, 구체적으로 뒷받침되는 사례다.",
   "gertrude-bell.interpretation.turning_point.1":
     "이는 이 프로필의 높은 주도적 행위성과 기회 포착력과 맞닿아 있다 — 누군가 맡긴 역할이 아니라, 가장 필요한 순간에 스스로 나서 제도적으로 대체 불가능한 위치를 만들어낸 사례다.",
+
+  /* ------------------------------------------------------- Roster 15: Catherine the Great */
+  "catherine-the-great.achievement.1":
+    "몽테스키외와 베카리아의 사상을 종합해 러시아를 위한 법전 초안인 나카즈(1767)를 직접 작성했다 — 위임한 문서가 아니라 그녀가 직접 수행한 지속적인 지적 작업이었다.",
+  "catherine-the-great.achievement.2":
+    "수십 년에 걸쳐 대리인과 예술가들과 직접 서신을 주고받으며 예르미타시 박물관의 기초 소장품을 구축했고, 볼테르, 디드로와 40년 넘게 계몽주의 철학에 관한 서신을 주고받았다.",
+  "catherine-the-great.moment.1":
+    "1762년 쿠데타를 직접 조직하고 이끌어 자신의 남편인 표트르 3세 황제를 폐위시킨 뒤, 아들 파벨을 위한 섭정이 아니라 34년간 스스로 통치했다.",
+  "catherine-the-great.moment.2":
+    "자신의 통치에 대한 중대한 실존적 위협이었던 푸가초프 반란(1773~1775년) 기간에도 퇴위하거나 외부의 구조를 구하지 않고 통치를 이어갔으며, 반란이 위험성을 드러낸 이후에는 초기의 이상주의적 개혁 의제에서 안보 중심의 통치로 방향을 틀었다.",
+  "catherine-the-great.turning_point.1":
+    "1762년 쿠데타를 성사시킬 연합 세력을 구축하기 전, 외국 태생에 독자적인 수입이나 동맹도 없는 인기 없는 배우자로서 힘겹고 애정 없는 정략결혼과 러시아 궁정에서의 의도적인 소외를 견뎌냈다.",
+  "catherine-the-great.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 독립적 사고와 부합한다 — 심각한 개인적 위험을 감수한 구체적이고 직접적인 행동이자, 섭정이 아니라 홀로 통치하겠다는 전례 없는 제도적 선택이다.",
+  "catherine-the-great.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 인내력과 자원 활용력과 부합한다 — 실제로 고립된 상황에서부터 정치적 자산을 쌓아 왕위를 확보한 연합 세력으로 발전시켰다.",
+
+  /* ------------------------------------------------------- Roster 15: Frederick the Great */
+  "frederick-the-great.achievement.1":
+    "볼테르와 40년 넘게 철학, 문학, 과학을 아우르는 서신을 주고받았고, 직접 플루트 음악을 작곡하고 연주했다 — 음악학자들이 독립적으로 정리한 현존 작품만 100곡이 넘는다.",
+  "frederick-the-great.achievement.2":
+    "46년간 프로이센의 국정 운영과 군사 전략을 직접 지휘했으며, 7년 전쟁 동안 구체적인 전황 결과에 직접 대응해 프로이센 군의 전술을 전쟁 중에도 여러 차례 수정했다.",
+  "frederick-the-great.moment.1":
+    "여러 전투에서 직접 병력을 이끌며 신체적 위험을 감수했다 — 쿠너스도르프 전투에서는 여러 동시대 기록이 증언하듯 그의 외투가 총탄에 뚫렸다 — 그리고 1740년 실레지아 기습 침공을 감행해 그의 치세를 규정짓는 분쟁을 시작했다.",
+  "frederick-the-great.moment.2":
+    "오스트리아, 러시아, 프랑스 연합군이 프로이센을 거듭 멸망 직전까지 몰아붙였던 7년 전쟁(1756~1763년) 동안, 1759년 쿠너스도르프에서의 거의 치명적인 패배를 포함해서도 침착함을 유지하며 계속 프로이센의 전략을 지휘했다.",
+  "frederick-the-great.turning_point.1":
+    "18세에 아버지의 궁정을 벗어나 왕위 계승을 포기하려 시도했다 — 아버지가 강요한 군사 중심의 양육 방식을 받아들이지 않으려 한 것이었다 — 그러나 이 탈출 시도는 아버지가 그의 가까운 벗 한스 헤르만 폰 카테의 처형을 강제로 지켜보게 하는 것으로 끝났다.",
+  "frederick-the-great.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 인내력과 부합한다 — 일단 시작한 일에서 물러서기보다 심각한 개인적·국가적 위험을 지속적으로 감수하려는 문서로 뒷받침되는 태도다.",
+  "frederick-the-great.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 독립적 사고와 연결된다 — 아버지의 통치 방식에서 일찍이 값비싼 대가를 치르며 벗어난 경험이었지만, 훗날 그 자신의 치세에서 더욱 직접적이고 주도적인 통치 방식으로 이어졌다.",
+
+  /* ------------------------------------------------------- Roster 15: James Joyce */
+  "james-joyce.achievement.1":
+    "《율리시스》의 의식의 흐름 기법과 《피네간의 경야》의 독창적인 합성 언어는 문학 연구자들에게 당대로서는 전례 없는 형식적 혁신으로 평가받으며, 이후 문학에 미친 폭넓은 영향이 이를 독립적으로 뒷받침한다.",
+  "james-joyce.achievement.2":
+    "《율리시스》 전체에 걸쳐 구현된 정확한 더블린 지리와 1904년의 시간대는 조이스 연구자들이 실제 도시 기록과 대조해 검증한 결과 상당히 정확한 것으로 확인되었다 — 분위기를 흉내 낸 것이 아니라 치밀하고 의도적인 조사의 결과다.",
+  "james-joyce.moment.1":
+    "현존하는 교정쇄 원고에 따르면, 《율리시스》 교정 단계에서도 방대한 수정을 계속했으며 최종 분량의 약 3분의 1을 교정 과정에서 새로 추가했다고 전해진다.",
+  "james-joyce.moment.2":
+    "십여 차례의 수술과 실명에 가까운 시기를 거치게 한 심각하고 진행성인 눈 질환 속에서도 《율리시스》를 계속 수정했고 이후 《피네간의 경야》도 계속 집필했으며, 구술과 확대 보조 도구를 활용해 작업을 이어갔다.",
+  "james-joyce.turning_point.1":
+    "가족의 반대를 무릅쓰고 22세에 노라 바너클과 함께 아일랜드를 영구히 떠났고, 외설 혐의로 실제로 기소되어 미국과 영국에서 10년 넘게 금서로 지정될 것을 알면서도 《율리시스》를 계속 연재 출판했다.",
+  "james-joyce.interpretation.moment.1":
+    "이는 이 프로필의 유난히 높은 완벽주의 점수와 부합한다 — 막연한 꼼꼼함에 대한 평판이 아니라 구체적이고 수치화된 극단적 퇴고 사례다.",
+  "james-joyce.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 자율성 욕구와 위험 감수성과 부합한다 — 더 안전하고 관습적인 길을 택하는 대신 실제 법적·재정적 위험을 의도적으로 감수한 선택이다.",
+
+  /* ------------------------------------------------------- Roster 15: Marlene Dietrich */
+  "marlene-dietrich.achievement.1":
+    "1920년대 독일 무대 배우, 할리우드 영화배우, 2차 세계대전 위문 공연자, 이후 1950~70년대 카바레 헤드라이너로 이어지는 뚜렷이 구분되는 경력 전환을 거듭했다 — 하나의 지속된 경로가 아니라 각 시기마다 실질적이고 입증 가능한 성공을 거두었다.",
+  "marlene-dietrich.achievement.2":
+    "요제프 폰 슈테른베르크를 비롯한 협력자들과 작업한 영화 경력 내내 자신이 등장하는 장면의 조명과 카메라 앵글을 직접 조정했다는 기록이 있다 — 당대 배우로서는 이례적인 구체적 기술적 통제였다.",
+  "marlene-dietrich.moment.1":
+    "나치 정부가 스타 배우로 독일에 복귀하라고 제안한 것을 공개적으로 거절하고 대신 1939년 미국 시민권을 취득했으며, 전선 인근에서 500회가 넘는 연합군 위문 공연을 펼쳤다 — 이 때문에 나치 선전에서 그녀를 배신자로 규탄하는 구체적인 표적이 되었다.",
+  "marlene-dietrich.moment.2":
+    "영화 경력이 쇠퇴한 뒤 50대에 카바레·콘서트 공연자로서 제2의 경력을 다시 쌓았으며, 은퇴하는 대신 70대 중반까지 성공적으로 순회공연을 이어갔다.",
+  "marlene-dietrich.turning_point.1":
+    "독일로 돌아가는 안전한 선택 대신 미국 시민권과 최전선 위문 공연을 선택했고, 나치가 씌운 '배신자'라는 낙인과 전후 수십 년간 이어진 독일 여론 일부의 지속적인 소외를 받아들였다.",
+  "marlene-dietrich.interpretation.moment.1":
+    "이는 이 프로필의 유난히 높은 위험 감수성과 부합한다 — 자신에게 있던 더 안전하고 편안한 선택지 대신 심각한 개인적·평판적 위험을 감수하기로 한 지속적이고 의도적인 선택이다.",
+  "marlene-dietrich.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 자율성 욕구와 맞닿아 있다 — 개인적 대가와 무관하게 여러 해에 걸쳐 자신의 출신국 공식 입장에 맞서 유지한 자기 주도적 태도다.",
+
+  /* ------------------------------------------------------- Roster 15: Maya Angelou */
+  "maya-angelou.achievement.1":
+    "《새장에 갇힌 새가 왜 노래하는지 나는 아네》(1969)는 문학사가들에게 자서전 장르에서 형식적으로 독특한 작품으로 평가받으며, 이후 여섯 권으로 이어지는 이례적인 연작 구조로 확장되었다.",
+  "maya-angelou.achievement.2":
+    "1993년 빌 클린턴 대통령의 취임식에서 축시를 낭송했고, 1998년에는 《델타에서》를 연출하며 메이저 스튜디오 영화를 연출한 최초의 흑인 여성이 되었다.",
+  "maya-angelou.moment.1":
+    "어린 시절의 트라우마 이후 거의 5년간 말을 하지 못했던 것으로 기록되어 있으며, 이후 자신의 목소리를 되찾고 40대에 이르러서야 폭넓은 인정을 받는 공적 경력을 쌓았다.",
+  "maya-angelou.moment.2":
+    "1960년대 초 범아프리카주의 운동이 한창일 때 아무런 보장된 자리도 없이 가나와 이집트로 이주했으며, 이후 마틴 루터 킹 주니어의 직접 요청으로 남부기독교지도자회의(SCLC)의 북부 코디네이터로 활동했다.",
+  "maya-angelou.turning_point.1":
+    "이러한 공개가 주류 출판계에서 드물었던 1969년, 어린 시절 성적 학대를 당한 경험을 《새장에 갇힌 새가 왜 노래하는지 나는 아네》에 담아 출판하며 가장 사적인 트라우마를 자신의 공적 문학 경력의 토대로 재구성했다.",
+  "maya-angelou.interpretation.moment.1":
+    "이는 이 프로필의 높은 인내력과 부합한다 — 꾸준하고 순탄한 상승이 아니라, 완전한 침묵의 시기를 거쳐 공적 목소리와 훗날 대표적인 문학 경력을 다시 쌓아 올린 사례다.",
+  "maya-angelou.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 위험 감수성과 주도적 행위성과 부합한다 — 실제 직업적 위험이 따르던 시기에 사적인 트라우마를 공개하기로 한 구체적이고 자발적인 선택이다.",
+
+  /* ------------------------------------------------------- Roster 15: Miles Davis */
+  "miles-davis.achievement.1":
+    "《카인드 오브 블루》(1959)와 《비치스 브루》(1970)는 음악사가들에게 각각 모달 재즈와 재즈 퓨전이라는 장르를 개척한 작품으로 평가받으며, 이후 여러 후속 장르에 남긴 지속적인 영향이 이를 독립적으로 뒷받침한다.",
+  "miles-davis.achievement.2":
+    "40년에 걸친 녹음 경력 동안 비밥, 쿨 재즈, 모달 재즈, 퓨전, 1980년대 펑크 성향의 작업에 이르기까지 대략 10년마다 자신의 음악 스타일을 새롭게 바꾸었다 — 각각이 독립적으로 정리된 뚜렷한 시기다.",
+  "miles-davis.moment.1":
+    "1950년대 중반 아버지의 농장에서 스스로 결심한 해독 과정을 거쳐 심각한 헤로인 중독을 극복했고, 이후 자신의 경력에서 가장 상업적·비평적으로 성공한 시기를 다시 쌓아 올렸다.",
+  "miles-davis.moment.2":
+    "전자적이고 록의 영향을 받은 방향으로 나아간 《비치스 브루》는 발매 당시 기존 재즈 팬층과 평론가 상당수를 소외시켰다 — 이미 확립되고 성공적이었던 어쿠스틱 사운드를 유지하는 대신 의도적으로 받아들인 구체적인 위험이었다.",
+  "miles-davis.turning_point.1":
+    "그의 첫 아내인 프랜시스 테일러 데이비스에게 신체적 폭력을 행사했다는 기록이 있으며, 이는 그녀 자신이 출판한 회고록과 그의 자서전에서의 인정 모두로 뒷받침된다 — 그의 도전적이고 변혁적인 경력의 다른 한편에 있는 사실이다.",
+  "miles-davis.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 창의적 독창성과 부합한다 — 기존 청중을 소외시킬 것이 확실했음에도 새로운 방향을 밀어붙인 구체적이고 뒷받침되는 사례다.",
+  "miles-davis.interpretation.turning_point.1":
+    "이는 이 프로필에서 낮은 협업 성향과 위험 요소로 직접 반영되어 있다 — 더 나은 인상을 위해 생략된 것이 아니라 문서로 뒷받침되는 행동이다.",
+
+  /* ------------------------------------------------------- Roster 15: Nina Simone */
+  "nina-simone.achievement.1":
+    "클래식 피아노 훈련을 재즈, 블루스, 포크, 가스펠과 결합해 녹음 활동 전반에 반영했으며, 음악학자들은 이를 동시대 다른 음악가들과 구별되는 특유의 스타일로 기록한다.",
+  "nina-simone.achievement.2":
+    "1964년 버밍엄 교회 폭탄 테러와 메드거 에버스 암살에 대한 직접적인 대응으로 '미시시피 갓댐'을 발표했다 — 이후 민권 운동의 상징적인 노래로 채택되었으며, 미국 남부 일부 지역에서 공연 일정과 라디오 방영이 취소되는 대가를 치렀다고 기록되어 있다.",
+  "nina-simone.moment.1":
+    "충분히 준비했음에도 1951년 커티스 음악원에서 불합격했으며, 본인과 전기 작가들은 이를 부분적으로 인종차별 때문이라고 본다 — 그녀는 공연을 포기하지 않고 전문 음악 경력을 이어갔다.",
+  "nina-simone.moment.2":
+    "주류 민권 운동의 속도에 대해 공개적으로 비판하고 일부 동시대 인물들보다 더 대립적인 입장을 옹호할 의지를 보였으며, 이는 1960년대 내내 인터뷰를 통해 지속적으로 확인된다.",
+  "nina-simone.turning_point.1":
+    "1970~80년대에 걸쳐 바베이도스, 라이베리아, 이후 유럽으로 스스로의 뜻에 따라 이주하며 미국 주류 음악 산업을 떠났다 — 소속사나 매니지먼트의 결정이 아니라 지속적이고 자기 주도적인 이주 시기였다.",
+  "nina-simone.interpretation.moment.1":
+    "이는 이 프로필의 높은 위험 감수성과 부합한다 — 가볍게 내린 결정이 아니라, 정치적 발언을 위해 실제 직업적 대가를 감수한 구체적이고 기록된 사례다.",
+  "nina-simone.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 자율성 욕구와 맞닿아 있다 — 자신의 삶과 활동에 대한 통제권을 되찾기 위해 안정적이고 수익성 있던 업계 내 위치를 스스로 떠난 선택이다.",
+
+  /* ------------------------------------------------------- Roster 15: Ruth Bader Ginsburg */
+  "ruth-bader-ginsburg.achievement.1":
+    "1970년대 미국시민자유연맹(ACLU) 여성권리프로젝트에서 의도적이고 순차적인 소송 전략을 설계하고 실행했으며, 남성 원고를 포함한 특정 원고들을 선택해 성차별 관련 판례를 단계적으로 쌓아 올렸다.",
+  "ruth-bader-ginsburg.achievement.2":
+    "1970년대에 대법원에서 성차별 관련 사건 6건을 변론해 5건에서 승소했다 — 해당 특정 청중 앞에서 직접적으로 입증 가능한 설득 기록이다.",
+  "ruth-bader-ginsburg.moment.1":
+    "컬럼비아 로스쿨을 공동 수석으로 졸업했음에도 1950년대 후반 성별을 이유로 로펌 취업이나 재판연구원 자리를 구하지 못했으며, 이후 결국 대법원에까지 이르게 되는 학계 및 소송 경력을 쌓았다.",
+  "ruth-bader-ginsburg.moment.2":
+    "대법원 재임 20년 동안 다섯 차례에 걸친 별개의 암 진단과 치료를 받으면서도 계속 일했으며, 치료 기간에도 의견서 작성과 변론 일정을 온전히 소화했다.",
+  "ruth-bader-ginsburg.turning_point.1":
+    "1970년대 성차별 소송에서 여성에게만 주어지는 혜택을 거부당한 남성처럼 의도적으로 이례적인 원고들을 선택해 전원 남성으로 구성된 대법원 앞에서 법리적 쟁점을 더욱 선명하게 드러내고자 했다 — 동료들이 처음 제안했던 더 평이한 사건 선택에서 벗어난 계산된 선택이었다.",
+  "ruth-bader-ginsburg.interpretation.moment.1":
+    "이는 이 프로필의 높은 인내력과 부합한다 — 명백하고 기록으로 남은 직업적 배제라는 출발점에서 대표적인 법조 경력을 쌓아 올린 사례다.",
+  "ruth-bader-ginsburg.interpretation.turning_point.1":
+    "이는 이 프로필의 높은 분석적 엄밀성과 위험 감수성과 부합한다 — 당시의 통상적인 법률 자문에 반하는 계산된 전략적 선택이었다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

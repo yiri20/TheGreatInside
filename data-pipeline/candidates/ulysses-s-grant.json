@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ulysses-s-grant",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Ulysses S. Grant",
+    "wikidataId": "Q34836",
+    "birthYear": 1822,
+    "deathYear": 1885,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "military_leader",
+      "political_leader"
+    ],
+    "fieldIds": [
+      "military",
+      "politics"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "overcame_adversity",
+      "poor_business_sense"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_usg_memoirs",
+      "kind": "archive",
+      "title": "Ulysses S. Grant, Personal Memoirs of U.S. Grant (dictated 1884-85 while dying of throat cancer, published 1885-86) — his own account, widely regarded by historians as unusually candid"
+    },
+    {
+      "id": "src_usg_chernow",
+      "kind": "biography",
+      "title": "Ron Chernow, Grant (2017)"
+    },
+    {
+      "id": "src_usg_white",
+      "kind": "biography",
+      "title": "Ronald C. White, American Ulysses: A Life of Ulysses S. Grant (2016)"
+    },
+    {
+      "id": "src_usg_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ulysses S. Grant",
+      "url": "https://en.wikipedia.org/wiki/Ulysses_S._Grant"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His Personal Memoirs are documented by military historians as unusually clear, logically structured campaign accounts, and his wartime dispatches are noted for their precise, unambiguous orders — a specific, attested clarity of reasoning under pressure, not general reputation."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Dictated the entirety of his Personal Memoirs while dying of an extremely painful terminal throat cancer, racing to finish before death specifically to provide for his family's financial security — a documented, extreme instance of sustained disciplined output under severe physical hardship, completed days before he died."
+    },
+    "persistence": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as failing at multiple civilian careers (farming, real estate, a leather goods store where he was reduced to working as a clerk) and resigning from the peacetime army under a cloud before the Civil War gave him a path back to command, then continuing repeated costly offensives (the Overland Campaign's high casualties) rather than withdrawing when public and political pressure mounted."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as adjusting strategy repeatedly across the war (the Vicksburg campaign's unconventional approach of cutting loose from supply lines, later coordinated multi-front pressure as general-in-chief) in response to specific battlefield lessons rather than applying one fixed method throughout."
+    },
+    "risk_tolerance": {
+      "score": 75,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "The Vicksburg campaign's decision to cut his army off from its own supply lines and live off the land in hostile territory is documented by military historians as an unusually bold gamble other Union generals had avoided, and he personally rode close to active engagement lines on multiple documented occasions."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as maintaining composure and continuing to issue clear orders during the chaotic, nearly-disastrous first day of the Battle of Shiloh, per multiple officers' contemporaneous accounts, rather than reacting to the uncertain, dangerous situation with paralysis."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, specific instances of rapid, committed decision-making under pressure — continuing the attack at Shiloh's second day rather than retreating after the first day's near-defeat, and accepting Lee's surrender terms at Appomattox within a single meeting rather than prolonging negotiation."
+    },
+    "social_assertiveness": {
+      "score": 42,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Widely and consistently documented by contemporaries and his own memoirs as personally quiet, unassuming, and uncomfortable with public ceremony, in sharp contrast to the more flamboyant public personas of several of his fellow generals (McClellan, Sherman)."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as accepting escalating command responsibility (from a colonel of volunteers to general-in-chief of all Union armies to the presidency) each time it was offered rather than actively campaigning for promotion, per his own memoir's account of a career built on responding to circumstance rather than seeking advancement."
+    },
+    "persuasiveness": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as an effective writer of clear orders and later a commercially successful memoirist, but direct evidence of interpersonal persuasive skill is thinner and secondary to his documented preference for direct action over rhetoric — scored moderately."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented as sustaining an unpopular, costly strategy of continuous engagement against Lee's army (rather than the more cautious approach of predecessors) despite significant public and political criticism over casualties during the 1864 campaign."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented as a skilled horseman from youth (a specific, attested talent noted at West Point) and as developing genuine logistical and strategic expertise across the war years, though the evidentiary base for deliberate, sustained skill-building outside military command is thinner, hence inference-level."
+    },
+    "achievement_drive": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His own memoirs and contemporaries' accounts suggest a personality more oriented toward duty and problem-solving than status pursuit — he reportedly did not seek the presidency but accepted the nomination when it came — scored near center rather than assumed high."
+    },
+    "autonomy_need": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as working within the chain of command and deferring to civilian authority (Lincoln, then Johnson) throughout his military career rather than asserting independent political authority as general — scored near center."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "As president, documented as personally directing federal enforcement against the Ku Klux Klan in the South (the Enforcement Acts, 1870-71) specifically to protect Black citizens' voting rights — a specific policy choice framed in his own statements as a matter of principle, though his broader presidency is also documented as marked by administration corruption scandals not of his own making but under his watch."
+    },
+    "cross_domain_range": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Career concentrated in military command and, later, politics, with documented but largely unsuccessful ventures into farming and business — genuine but narrow range, scored at the safe default rather than inflated."
+    },
+    "proactive_agency": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented, by his own account, as more often responding to assigned responsibility than self-initiating new ventures — the Vicksburg campaign's unconventional approach is a documented exception showing real initiative within an assigned command, hence inference-level rather than a sustained pattern."
+    },
+    "opportunity_sensing": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as returning to military service when the Civil War began after a string of civilian failures, a specific, dated instance of recognizing and acting on a career opportunity, though the broader pattern is thin, hence inference-level."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as sustaining his army during the Vicksburg campaign by living off the countryside after deliberately cutting his own supply lines, a specific, corroborated logistical improvisation under self-imposed constraint."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His wartime dispatches are documented as precise and specific in logistical detail, though the broader evidentiary base for a general detail-oriented disposition beyond military orders is thinner, hence inference-level."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained close working partnership with William Tecumseh Sherman across the war, attested by their own extensive wartime correspondence and mutual public statements of trust and coordination on the multi-front 1864-65 strategy."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as freeing the one enslaved person he personally owned (William Jones) in 1859 at his own financial cost during a period of hardship when selling him would have been more profitable, and later, as president, actively enforcing Reconstruction-era Black civil rights — a documented shift toward increasingly principled anti-slavery action over his lifetime."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q34836) before scoring. Documented struggles with alcohol are treated per the rubric as a documented historical fact contested in degree by historians (Chernow's biography argues it was less severe/more situational than earlier accounts claimed) rather than scored as a trait or diagnosis on this profile. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.488,
+    "coverage": 0.648,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.648 (>=0.6 OK) but only 9 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the structural limits of this person's evidence base. Not rescued: no confidence raised post-validation."
+}

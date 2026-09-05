@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "thomas-jefferson",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Thomas Jefferson",
+    "wikidataId": "Q11812",
+    "birthYear": 1743,
+    "deathYear": 1826,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "lawyer",
+      "architect"
+    ],
+    "fieldIds": [
+      "politics",
+      "law",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "polymath",
+      "poor_business_sense"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tj_papers",
+      "kind": "archive",
+      "title": "The Papers of Thomas Jefferson (Princeton University Press, ongoing) — his own correspondence, drafts, and public documents"
+    },
+    {
+      "id": "src_tj_ellis",
+      "kind": "biography",
+      "title": "Joseph J. Ellis, American Sphinx: The Character of Thomas Jefferson (1996)"
+    },
+    {
+      "id": "src_tj_gordon_reed",
+      "kind": "biography",
+      "title": "Annette Gordon-Reed, The Hemingses of Monticello (2008) — independently peer-reviewed scholarship on Jefferson's documented relationship with Sally Hemings, confirmed by DNA and documentary evidence"
+    },
+    {
+      "id": "src_tj_wikipedia",
+      "kind": "wikipedia",
+      "title": "Thomas Jefferson",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal engagement across architecture (his own designs for Monticello and the University of Virginia), paleontology, botany, and linguistics (compiling comparative Native American vocabulary lists), corroborated by his own extensive correspondence and surviving design drawings, not secondhand reputation."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own Notes on the State of Virginia (1785) is documented as a systematically organized empirical survey of the state's geography, natural history, and society, structured around specific queries — a sustained analytical method, though the work's scientific racism sections are a documented, serious flaw in that same reasoning."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Designed Monticello's architecture himself, including specific innovative features (a dumbwaiter, a weather vane readable from inside), documented via surviving drawings and later architectural-historical analysis as genuinely original applications of the Palladian style he studied, not direct copying."
+    },
+    "discipline": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained daily habit of detailed weather and farm-production record-keeping at Monticello across decades, and drafting the Declaration of Independence within roughly two weeks under real time pressure — a specific, attested pattern of sustained record-keeping and productive output."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Sustained a decades-long political and intellectual career, but the documented record of chronic personal debt (he died deeply insolvent despite continuous effort to manage Monticello's finances across 50 years) suggests persistence in some domains did not translate to sustained follow-through in others — scored moderately rather than uniformly high."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as maintaining largely consistent political and philosophical positions (agrarian republicanism, strict construction) across a long career rather than substantially revising his views — scored near center rather than assumed high or low."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as personally drafting the Declaration of Independence, an act of treason under British law with severe personal risk if the revolution failed, though he is also documented by contemporaries as generally conflict-averse in direct political confrontation — genuinely mixed, scored at inference level."
+    },
+    "ambiguity_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Thin direct evidence either way; his sustained scientific and architectural projects across decades suggest some comfort with long, uncertain timelines, balanced against documented anxiety in his letters during the more acute crises of his presidency — scored near center."
+    },
+    "decisiveness": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Widely documented by contemporaries (including close allies like Madison) and by later historians as an indirect, conflict-avoidant decision-maker who often let events or subordinates force resolutions rather than acting unilaterally — scored below center rather than assumed neutral."
+    },
+    "social_assertiveness": {
+      "score": 40,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented and widely corroborated across contemporary accounts (including his own famously poor record as a public speaker, by his own and others' acknowledgment) as reserved and more effective in writing than in direct verbal confrontation or persuasion."
+    },
+    "persuasiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Declaration of Independence's rhetorical structure is documented by historians as directly effective in framing the revolutionary case for a broad audience, an attributable written persuasive achievement distinct from his documented weakness in oral persuasion."
+    },
+    "conflict_tolerance": {
+      "score": 40,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as preferring to work through intermediaries and written channels rather than direct confrontation even with political rivals (his conflict with Hamilton was conducted substantially through proxies and anonymous newspaper essays) — scored below center."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained self-directed study of architecture (extensive personal library on Palladio and classical design) and agricultural science (systematic crop-rotation experiments at Monticello, recorded in his farm books), both pursued as genuine expertise-building, not superficial interest."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented sustained public career and intellectual output, though his own writing (his chosen epitaph lists only three achievements, explicitly excluding the presidency) suggests his sense of achievement was self-defined and specific rather than status-seeking generally — scored moderately."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as retreating to Monticello for extended periods even during active political life to pursue his own architectural and scientific projects independent of public office, and resigning as Secretary of State in 1793 rather than continue serving under policies he opposed."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own chosen epitaph — author of the Declaration of Independence and the Virginia Statute for Religious Freedom, founder of the University of Virginia — explicitly frames his own desired legacy in terms of durable institutional and philosophical impact rather than personal power, a specific self-authored statement of motivation."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained personal design work on Monticello and the University of Virginia's \"Academical Village,\" both attested by surviving drawings and independently studied by architectural historians as deliberate, informed aesthetic choices, not delegated design."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained substantive, non-dabbling activity across law, architecture, agricultural science, paleontology, linguistics, and statecraft, each with real documented output (buildings, scientific correspondence, legal writing) — an unusually wide, independently verifiable range."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Self-initiated the Monticello design and rebuilding project and the founding of the University of Virginia as personal, self-directed undertakings outside his official duties, documented across decades of his own correspondence about both projects."
+    },
+    "belief_updating": {
+      "score": 35,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "Documented as maintaining, across his entire adult life, an explicit written condemnation of slavery as morally wrong (Notes on Virginia, private correspondence) while continuing to enslave over 600 people at Monticello and never freeing the great majority of them even in his will — a well-documented, sustained failure to revise conduct despite acknowledged contrary belief, scored low rather than omitted."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained meticulous record-keeping across his farm books, weather journals, and correspondence logs (he kept copies of nearly every letter he wrote via a polygraph copying machine he championed), corroborated by the surviving volume of these records."
+    },
+    "resourcefulness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as repeatedly restructuring debt and mortgaging enslaved people and land to fund Monticello's continual rebuilding, a documented but ethically fraught financial pattern that ultimately failed to resolve his insolvency — scored moderately rather than as a positive resourcefulness case."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q11812) before scoring. Jefferson's documented, DNA-and-documentary-confirmed relationship with Sally Hemings (an enslaved woman he owned) and his sustained enslavement of over 600 people despite his own written condemnation of slavery are treated as directly relevant, serious evidence for belief_updating and resourcefulness (both scored low/dual-edged) rather than omitted — per CLAUDE.md's instruction to never rig results to flatter. No score on this profile infers a diagnosis or private mental state; all rows trace to documented conduct. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 22,
+    "averageConfidence": 0.489,
+    "coverage": 0.65,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.650 (>=0.6 OK) but only 9 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the structural limits of this person's evidence base. Not rescued: no confidence raised post-validation."
+}

@@ -4972,4 +4972,216 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // Roster 15 (coverage-aware intake, 2026-09). Every fact below traces to
+  // each person's own candidate rationale (data-pipeline/candidates/<slug>.json,
+  // carried into roster15.ts) and their existing sources — no new research
+  // performed for editorial content.
+  "catherine-the-great": {
+    achievements: [
+      { id: "catherine-the-great-achievement-1", textKey: "catherine-the-great.achievement.1", sourceIds: ["src_cg_montefiore"] },
+      { id: "catherine-the-great-achievement-2", textKey: "catherine-the-great.achievement.2", sourceIds: ["src_cg_massie"] },
+    ],
+    moments: [
+      {
+        id: "catherine-the-great-moment-1",
+        textKey: "catherine-the-great.moment.1",
+        interpretationKey: "catherine-the-great.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_cg_montefiore"],
+      },
+      { id: "catherine-the-great-moment-2", textKey: "catherine-the-great.moment.2", sourceIds: ["src_cg_massie"] },
+    ],
+    turningPoints: [
+      {
+        id: "catherine-the-great-turning-point-1",
+        textKey: "catherine-the-great.turning_point.1",
+        interpretationKey: "catherine-the-great.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_cg_memoirs"],
+      },
+    ],
+  },
+
+  "frederick-the-great": {
+    achievements: [
+      { id: "frederick-the-great-achievement-1", textKey: "frederick-the-great.achievement.1", sourceIds: ["src_fg_voltaire"] },
+      { id: "frederick-the-great-achievement-2", textKey: "frederick-the-great.achievement.2", sourceIds: ["src_fg_blanning"] },
+    ],
+    moments: [
+      {
+        id: "frederick-the-great-moment-1",
+        textKey: "frederick-the-great.moment.1",
+        interpretationKey: "frederick-the-great.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_fg_maccdonogh"],
+      },
+      { id: "frederick-the-great-moment-2", textKey: "frederick-the-great.moment.2", sourceIds: ["src_fg_blanning"] },
+    ],
+    turningPoints: [
+      {
+        id: "frederick-the-great-turning-point-1",
+        textKey: "frederick-the-great.turning_point.1",
+        interpretationKey: "frederick-the-great.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_fg_maccdonogh"],
+      },
+    ],
+  },
+
+  "james-joyce": {
+    achievements: [
+      { id: "james-joyce-achievement-1", textKey: "james-joyce.achievement.1", sourceIds: ["src_jj_ellmann"] },
+      { id: "james-joyce-achievement-2", textKey: "james-joyce.achievement.2", sourceIds: ["src_jj_ellmann"] },
+    ],
+    moments: [
+      {
+        id: "james-joyce-moment-1",
+        textKey: "james-joyce.moment.1",
+        interpretationKey: "james-joyce.interpretation.moment.1",
+        attributeId: "perfectionism",
+        sourceIds: ["src_jj_ellmann"],
+      },
+      { id: "james-joyce-moment-2", textKey: "james-joyce.moment.2", sourceIds: ["src_jj_letters"] },
+    ],
+    turningPoints: [
+      {
+        id: "james-joyce-turning-point-1",
+        textKey: "james-joyce.turning_point.1",
+        interpretationKey: "james-joyce.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_jj_pound_weaver"],
+      },
+    ],
+  },
+
+  "marlene-dietrich": {
+    achievements: [
+      { id: "marlene-dietrich-achievement-1", textKey: "marlene-dietrich.achievement.1", sourceIds: ["src_md_bach"] },
+      { id: "marlene-dietrich-achievement-2", textKey: "marlene-dietrich.achievement.2", sourceIds: ["src_md_bach"] },
+    ],
+    moments: [
+      {
+        id: "marlene-dietrich-moment-1",
+        textKey: "marlene-dietrich.moment.1",
+        interpretationKey: "marlene-dietrich.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_md_letters"],
+      },
+      { id: "marlene-dietrich-moment-2", textKey: "marlene-dietrich.moment.2", sourceIds: ["src_md_bach"] },
+    ],
+    turningPoints: [
+      {
+        id: "marlene-dietrich-turning-point-1",
+        textKey: "marlene-dietrich.turning_point.1",
+        interpretationKey: "marlene-dietrich.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_md_letters"],
+      },
+    ],
+  },
+
+  "maya-angelou": {
+    achievements: [
+      { id: "maya-angelou-achievement-1", textKey: "maya-angelou.achievement.1", sourceIds: ["src_ma2_lupton"] },
+      { id: "maya-angelou-achievement-2", textKey: "maya-angelou.achievement.2", sourceIds: ["src_ma2_gillespie"] },
+    ],
+    moments: [
+      {
+        id: "maya-angelou-moment-1",
+        textKey: "maya-angelou.moment.1",
+        interpretationKey: "maya-angelou.interpretation.moment.1",
+        attributeId: "persistence",
+        sourceIds: ["src_ma2_caged_bird"],
+      },
+      { id: "maya-angelou-moment-2", textKey: "maya-angelou.moment.2", sourceIds: ["src_ma2_gillespie"] },
+    ],
+    turningPoints: [
+      {
+        id: "maya-angelou-turning-point-1",
+        textKey: "maya-angelou.turning_point.1",
+        interpretationKey: "maya-angelou.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_ma2_caged_bird"],
+      },
+    ],
+  },
+
+  "miles-davis": {
+    achievements: [
+      { id: "miles-davis-achievement-1", textKey: "miles-davis.achievement.1", sourceIds: ["src_md2_szwed"] },
+      { id: "miles-davis-achievement-2", textKey: "miles-davis.achievement.2", sourceIds: ["src_md2_szwed"] },
+    ],
+    moments: [
+      {
+        id: "miles-davis-moment-1",
+        textKey: "miles-davis.moment.1",
+        interpretationKey: "miles-davis.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_md2_autobiography"],
+      },
+      { id: "miles-davis-moment-2", textKey: "miles-davis.moment.2", sourceIds: ["src_md2_szwed"] },
+    ],
+    turningPoints: [
+      {
+        id: "miles-davis-turning-point-1",
+        textKey: "miles-davis.turning_point.1",
+        interpretationKey: "miles-davis.interpretation.turning_point.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_md2_davis_ex_wife", "src_md2_autobiography"],
+      },
+    ],
+  },
+
+  "nina-simone": {
+    achievements: [
+      { id: "nina-simone-achievement-1", textKey: "nina-simone.achievement.1", sourceIds: ["src_ns_cohodas"] },
+      { id: "nina-simone-achievement-2", textKey: "nina-simone.achievement.2", sourceIds: ["src_ns_cohodas"] },
+    ],
+    moments: [
+      {
+        id: "nina-simone-moment-1",
+        textKey: "nina-simone.moment.1",
+        interpretationKey: "nina-simone.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_ns_memoir"],
+      },
+      { id: "nina-simone-moment-2", textKey: "nina-simone.moment.2", sourceIds: ["src_ns_cohodas"] },
+    ],
+    turningPoints: [
+      {
+        id: "nina-simone-turning-point-1",
+        textKey: "nina-simone.turning_point.1",
+        interpretationKey: "nina-simone.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_ns_cohodas"],
+      },
+    ],
+  },
+
+  "ruth-bader-ginsburg": {
+    achievements: [
+      { id: "ruth-bader-ginsburg-achievement-1", textKey: "ruth-bader-ginsburg.achievement.1", sourceIds: ["src_rbg_hirshman"] },
+      { id: "ruth-bader-ginsburg-achievement-2", textKey: "ruth-bader-ginsburg.achievement.2", sourceIds: ["src_rbg_hirshman"] },
+    ],
+    moments: [
+      {
+        id: "ruth-bader-ginsburg-moment-1",
+        textKey: "ruth-bader-ginsburg.moment.1",
+        interpretationKey: "ruth-bader-ginsburg.interpretation.moment.1",
+        attributeId: "persistence",
+        sourceIds: ["src_rbg_denotorious"],
+      },
+      { id: "ruth-bader-ginsburg-moment-2", textKey: "ruth-bader-ginsburg.moment.2", sourceIds: ["src_rbg_denotorious"] },
+    ],
+    turningPoints: [
+      {
+        id: "ruth-bader-ginsburg-turning-point-1",
+        textKey: "ruth-bader-ginsburg.turning_point.1",
+        interpretationKey: "ruth-bader-ginsburg.interpretation.turning_point.1",
+        attributeId: "analytical_rigor",
+        sourceIds: ["src_rbg_hirshman"],
+      },
+    ],
+  },
 };
