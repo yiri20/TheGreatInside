@@ -2914,6 +2914,22 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's high autonomy_need and proactive_agency: the only major contracted star of her era to sue her own studio over creative control.",
   "bette-davis.interpretation.turning_point.1":
     "This is scored directly in the profile's low collaboration score with risk impact — documented from both sides of the rivalry, not softened for a more flattering profile.",
+
+  /* ------------------------------------------------------- roster 17 */
+  "john-von-neumann.achievement.1":
+    "Founding, foundational contributions to game theory (with Oskar Morgenstern) and to the stored-program computer architecture that still bears his name — neither existed as a formal discipline before his work defined it.",
+  "john-von-neumann.achievement.2":
+    "Provided the mathematical models behind the explosive-lens implosion design for the Manhattan Project's plutonium weapon, while simultaneously publishing across quantum mechanics, pure mathematics, and economics — a documented pace of nearly one major paper per month sustained from his late teens.",
+  "john-von-neumann.moment.1":
+    "At fifteen, his math tutor Gábor Szegő reportedly came home in tears after their first meeting, having just witnessed the teenager's mathematical ability firsthand.",
+  "john-von-neumann.moment.2":
+    "Colleagues documented him doing some of his best work in noisy, chaotic environments, including drawing neighbor complaints in Princeton for playing loud German march music while working, and attending parties until the early hours before delivering an 8:30 lecture the same morning.",
+  "john-von-neumann.turning_point.1":
+    "After a mass discovered near his collarbone in 1955 was found to be terminal cancer, the lifelong secular rationalist asked for a priest and reasoned his way toward religious belief along Pascal's Wager lines shortly before his 1957 death, telling his mother \"there probably has to be a God\" — while, according to those present, remaining privately terrified of death rather than finding the comfort he was seeking.",
+  "john-von-neumann.interpretation.moment.1":
+    "This is consistent with the profile's high execution_speed: a specific, named-source account of the exceptional speed later documented throughout his career, witnessed here in its earliest outside confirmation.",
+  "john-von-neumann.interpretation.turning_point.1":
+    "This is scored directly in the profile's dual-edged deep_focus and documented ambiguity_tolerance: a rationalist applying his own logical framework even to ultimate uncertainty, not smoothed into a simpler story of either faith or its absence.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -5681,6 +5697,22 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 이 프로필의 높은 자율성 욕구와 주도적 행위성과 부합한다 — 창작 통제권을 두고 자신의 스튜디오를 상대로 소송을 제기한 그 시대의 유일한 주요 전속 스타였다.",
   "bette-davis.interpretation.turning_point.1":
     "이는 이 프로필에서 위험 요소를 지닌 낮은 협업 점수로 직접 반영되어 있다 — 경쟁 관계의 양쪽 모두로부터 뒷받침되며, 더 나은 인상을 위해 완화되지 않았다.",
+
+  /* ------------------------------------------------------- roster 17 */
+  "john-von-neumann.achievement.1":
+    "게임 이론(오스카어 모르겐슈테른과 공동 개발)과 오늘날까지 그의 이름이 붙은 스토어드 프로그램 컴퓨터 구조 모두에 창시적이고 근본적인 기여를 했다 — 두 분야 모두 그의 연구가 정립하기 전까지는 공식적인 학문 분야로 존재하지 않았다.",
+  "john-von-neumann.achievement.2":
+    "맨해튼 계획의 플루토늄 폭탄용 내파식 렌즈 설계 이면의 수학적 모델을 제공했으며, 동시에 양자역학, 순수수학, 경제학 분야에 걸쳐 논문을 발표했다 — 10대 후반부터 이어진, 한 달에 한 편꼴로 주요 논문을 내는 기록된 발표 속도를 유지했다.",
+  "john-von-neumann.moment.1":
+    "열다섯 살 때, 그의 수학 개인교사였던 가보르 세게는 첫 만남 이후 눈물을 흘리며 집에 돌아갔다고 전해지는데, 그 십대 소년의 수학적 재능을 직접 목격했기 때문이었다.",
+  "john-von-neumann.moment.2":
+    "동료들은 그가 시끄럽고 혼란스러운 환경에서도 최고의 성과를 낸 것으로 기록했으며, 프린스턴에서는 일하면서 시끄러운 독일 행진곡을 틀어 이웃의 항의를 받기도 했고, 새벽까지 파티에 참석한 뒤에도 그날 오전 8시 30분 강의를 진행하곤 했다.",
+  "john-von-neumann.turning_point.1":
+    "1955년 말기 암 진단을 받은 그는 — 평생 세속적 합리주의자로 살아왔음에도 — 사제를 요청했고, 1957년 사망 직전 파스칼의 내기와 같은 논리로 신앙에 도달해 어머니에게 \"아마도 신은 존재할 수밖에 없을 것\"이라고 말했다. 그러나 곁에 있던 이들에 따르면, 그는 자신이 구했던 위안을 얻지 못한 채 개인적으로는 여전히 죽음을 두려워했다고 한다.",
+  "john-von-neumann.interpretation.moment.1":
+    "이는 이 프로필의 높은 실행 속도와 부합한다 — 이후 경력 전반에서 기록되는 뛰어난 속도를, 실명이 확인되는 목격자를 통해 가장 먼저 보여주는 구체적인 사례다.",
+  "john-von-neumann.interpretation.turning_point.1":
+    "이는 이 프로필의 이중적 영향을 지닌 몰입 점수와 기록된 모호함 수용 점수에 직접 반영되어 있다 — 합리주의자가 궁극의 불확실성 앞에서도 자신의 논리적 틀을 그대로 적용한 사례이며, 신앙 또는 그 부재라는 더 단순한 이야기로 매끄럽게 다듬어지지 않았다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

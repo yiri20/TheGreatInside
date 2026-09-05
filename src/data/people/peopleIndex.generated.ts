@@ -6,7 +6,7 @@ export const PERSON_INDEX_VERSION = "person_index_v1";
 
 /** Compact, client-safe projection of SEED_PEOPLE — see
  *  src/core/people/personIndex.ts for what's included/excluded and why.
- *  125 entries. */
+ *  126 entries. */
 export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
   {
     id: "p_leonardo_da_vinci",
@@ -2493,5 +2493,25 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     overallProfileConfidence: 0.5140909090909092,
     attributes: [["curiosity", 75, 0.58, "advantage"], ["discipline", 68, 0.55, "advantage"], ["persistence", 72, 0.55, "advantage"], ["risk_tolerance", 85, 0.72, "risk"], ["ambiguity_tolerance", 68, 0.5, "advantage"], ["decisiveness", 68, 0.5, "advantage"], ["social_assertiveness", 62, 0.45, "dual_edged"], ["leadership_drive", 60, 0.45, "dual_edged"], ["persuasiveness", 72, 0.55, "advantage"], ["conflict_tolerance", 65, 0.48, "dual_edged"], ["mastery_orientation", 68, 0.5, "advantage"], ["achievement_drive", 55, 0.42, "dual_edged"], ["autonomy_need", 78, 0.62, "advantage"], ["impact_motivation", 65, 0.48, "advantage"], ["cross_domain_range", 68, 0.5, "advantage"], ["proactive_agency", 72, 0.55, "advantage"], ["belief_updating", 65, 0.48, "advantage"], ["detail_orientation", 62, 0.45, "advantage"], ["collaboration", 68, 0.55, "advantage"], ["opportunity_sensing", 65, 0.48, "advantage"], ["resourcefulness", 68, 0.5, "advantage"], ["aesthetic_sensitivity", 62, 0.45, "advantage"]],
     portraitUrl: "/portraits/t-e-lawrence-harris-ewing-1919.jpg",
+  },
+  {
+    id: "p_john_von_neumann",
+    slug: "john-von-neumann",
+    canonicalName: "John von Neumann",
+    aliases: ["János Lajos Neumann","Johann von Neumann"],
+    birthYear: 1903,
+    deathYear: 1957,
+    isLiving: false,
+    era: "20th_century",
+    regionCode: "central_europe",
+    occupationIds: ["mathematician","physicist","computer_scientist"],
+    fieldIds: ["mathematics","physics","computing"],
+    impactDomains: ["scientific","innovation","engineering"],
+    tagIds: ["polymath","prodigy","prolific","cross_disciplinary"],
+    archetypeIds: ["cross_disciplinary_generalist","technical_innovator"],
+    isMatchEligible: true,
+    overallProfileConfidence: 0.5852173913043478,
+    attributes: [["curiosity", 90, 0.7, "advantage"], ["analytical_rigor", 95, 0.82, "advantage"], ["intuitive_synthesis", 82, 0.55, "advantage"], ["systems_abstraction", 92, 0.75, "advantage"], ["independent_thinking", 78, 0.55, "advantage"], ["creative_originality", 85, 0.68, "advantage"], ["cross_domain_range", 96, 0.8, "advantage"], ["discipline", 80, 0.6, "advantage"], ["deep_focus", 58, 0.5, "dual_edged"], ["execution_speed", 90, 0.65, "advantage"], ["persistence", 72, 0.5, "advantage"], ["adaptability", 85, 0.62, "advantage"], ["risk_tolerance", 68, 0.5, "dual_edged"], ["ambiguity_tolerance", 80, 0.58, "advantage"], ["decisiveness", 62, 0.45, "neutral"], ["social_assertiveness", 62, 0.48, "neutral"], ["collaboration", 78, 0.55, "advantage"], ["leadership_drive", 55, 0.42, "neutral"], ["mastery_orientation", 90, 0.68, "advantage"], ["achievement_drive", 85, 0.6, "advantage"], ["impact_motivation", 75, 0.5, "advantage"], ["opportunity_sensing", 78, 0.5, "advantage"], ["proactive_agency", 75, 0.48, "advantage"]],
+    portraitUrl: "/portraits/john-von-neumann-los-alamos-1943.jpg",
   }
 ];

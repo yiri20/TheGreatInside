@@ -220,38 +220,61 @@ Zheng He remain)).
 
 ## Product
 
-- **Roster: 125 people, 124 match-eligible.** All roster-11 through
-  roster-16 batches are merged to `main`: roster-16's 9-person final
-  intake batch merged as PR #9 (merge commit `7a6e306`); roster-15's
-  8-person batch merged as PR #8 (merge commit `33654c3` — note: an
-  earlier report cited `c55cb57` as the roster-15 merge commit, but
-  `c55cb57` is actually the `feat/roster15-coverage-aware-intake` branch's
-  own head/feature commit, not the merge commit; corrected here per
-  CLAUDE.md invariant 8, repository state over cached claims); roster-14's
-  11-person batch merged as PR #7 (merge commit `1decf00`); roster-12's
-  Marcus Aurelius promotion merged to `main`; roster-13 produced zero new
-  promotions — see below. Zheng He
-  is the sole non-match-eligible exception (browsable, fails only the
-  coverage gate). Authority: `evaluateMatchEligibility()`
-  in `src/core/matching/similarity.ts`; re-run `corepack pnpm@10 exec tsx
+- **Roster: 126 people, 125 match-eligible.** The 125-person target was
+  reached and closed out by roster-16 (below); roster-17 (2026-09) then
+  added one further person, John von Neumann (`roster17.ts`), from a
+  genuinely fresh, deliberately scaled-down intake cycle — see
+  [`docs/checkpoints/roster17-intake-and-safety.md`](../checkpoints/roster17-intake-and-safety.md)
+  for the full discovery-pool, preflight, and scoring record, including 6
+  other candidates from the same cycle (Andrei Sakharov, J. R. R. Tolkien,
+  George Bernard Shaw, Thurgood Marshall, Dolores Huerta, Paul Erdős) that
+  remain `held` — evidence-limited by a single-source research pass this
+  cycle, not by weak underlying evidence; each `holdReason` names what a
+  deeper pass would need.
+  All roster-11 through roster-16 batches are merged to `main`: roster-16's
+  9-person final intake batch merged as PR #9 (merge commit `7a6e306`);
+  roster-15's 8-person batch merged as PR #8 (merge commit `33654c3` —
+  note: an earlier report cited `c55cb57` as the roster-15 merge commit,
+  but `c55cb57` is actually the `feat/roster15-coverage-aware-intake`
+  branch's own head/feature commit, not the merge commit; corrected here
+  per CLAUDE.md invariant 8, repository state over cached claims);
+  roster-14's 11-person batch merged as PR #7 (merge commit `1decf00`);
+  roster-12's Marcus Aurelius promotion merged to `main`; roster-13
+  produced zero new promotions — see below. Zheng He is the sole
+  non-match-eligible exception (browsable, fails only the coverage gate).
+  Authority: `evaluateMatchEligibility()` in
+  `src/core/matching/similarity.ts`; re-run `corepack pnpm@10 exec tsx
   src/dev/simulate.ts 10000 quiz` for a live health check. Miriam Makeba
   (`roster11.ts`) promoted 2026-09 from the roster-expansion-125 evidence
   program, merged to `main`, profile completed by a corrective fix. Marcus
   Aurelius (`roster12.ts`) promoted 2026-09 from the roster-12 new-intake
   batch, with a real portrait and editorial content from first promotion —
-  see the Roster 12 entry below. **Target: 125, remaining gap: 0 —
-  `ROSTER_125_TARGET_REACHED`, production-verified live on
-  thegreatinside.com.** No roster-17 planned; no 125+ expansion
-  authorized.
+  see the Roster 12 entry below. **The 125-person target was reached and
+  closed exactly (roster-16); roster-17 is one additional person beyond
+  it, not a resumption of the 1,000-person program** — see the
+  scalability audit
+  ([`docs/checkpoints/scalability-audit-2026-09.md`](../checkpoints/scalability-audit-2026-09.md))
+  for the architecture basis (`CURRENT_ARCHITECTURE_SAFE_TO_250`) and the
+  roster17 checkpoint for why this cycle intentionally stopped at 1
+  promotion instead of continuing to a larger batch.
 - **Eligibility rule: `eligibility_v2`** (`scored>=18`, `coverage>=0.6`,
   high-confidence-subset `count>=12`/`avgConf>=0.55`). See
   [`docs/reference/matching.md`](../reference/matching.md).
-- **Matching health**: max #1 match frequency ~12.0% (Warren Buffett),
-  well under the 20%-at-n≥30 threshold. Stable across roster growth.
+- **Matching health**: max #1 match frequency ~9.8-12.0% (Warren Buffett)
+  across sessions/roster sizes, well under the 20%-at-n≥30 threshold.
+  Stable across roster growth, including the roster-17 addition (verified
+  via `sensitivity.ts seeds` at 126 people: mean 9.8%, range 9.2-10.4%
+  across 5 independent seed offsets).
 - **Editorial content** (achievements/moments/turning points on person
-  pages): **95/95 COMPLETE** (2026-08-30, Remaining-19 Editorial
-  Completion) — Tier A 8/8, Tier B 52/52, Tier C 35/35. 505 total
-  editorial items, 100% Korean coverage. Profile V2 sections
+  pages): **126/126 COMPLETE**, 660 total editorial items — re-verified
+  live via `src/dev/editorialCoverageAudit.ts` (2026-09, roster17 cycle).
+  The Remaining-19 Editorial Completion program reached **95/95 COMPLETE**
+  on 2026-08-30 (Tier A 8/8, Tier B 52/52, Tier C 35/35, 505 total
+  editorial items, 100% Korean coverage) for the roster as it stood then;
+  roster11 through roster17's 31 new people (2026-09) each shipped with
+  full EN/KO editorial content from their own first promotion (see each
+  batch's own checkpoint), bringing evidence tiers to A 8/8, B 83/83, C
+  35/35 — 126/126 total — without a dedicated backfill program. Profile V2 sections
   (`lifeArc`/`complexities`/`legacy`) remain evidence-gated and
   asymmetric by design — omitted, not padded, where the record doesn't
   support them. **Profile Quality Normalization Batches A + B**

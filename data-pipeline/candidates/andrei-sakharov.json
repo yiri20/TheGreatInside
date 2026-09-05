@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "andrei-sakharov",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Andrei Sakharov",
+    "wikidataId": "Q997",
+    "birthYear": 1921,
+    "deathYear": 1989,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "physics",
+      "civil_rights",
+      "politics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "social",
+      "political"
+    ],
+    "tagIds": [
+      "endured_imprisonment",
+      "nonconformist",
+      "advocate",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_as_wikipedia",
+      "kind": "wikipedia",
+      "title": "Andrei Sakharov",
+      "url": "https://en.wikipedia.org/wiki/Andrei_Sakharov"
+    },
+    {
+      "id": "src_as_wikidata",
+      "kind": "wikidata",
+      "title": "Andrei Sakharov (Q997)",
+      "url": "https://www.wikidata.org/wiki/Q997"
+    },
+    {
+      "id": "src_as_memoirs",
+      "kind": "biography",
+      "title": "Andrei Sakharov, Memoirs (English translation, 1990) -- his own firsthand account"
+    },
+    {
+      "id": "src_as_nobel",
+      "kind": "award_body",
+      "title": "Nobel Peace Prize 1975 citation and Nobel lecture (delivered by Yelena Bonner in his absence)"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 92,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, named theoretical contributions to Soviet thermonuclear weapon design ('Sakharov's Third Idea', the layered-cake fission-fusion-fission concept) and the tokamak fusion-reactor concept -- attested by the surviving technical record, not self-report."
+    },
+    "independent_thinking": {
+      "score": 90,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented public opposition to the Soviet Academy's nomination of a Lysenko-aligned scientist in 1964, and the 1968 essay 'Reflections on Progress, Peaceful Coexistence, and Intellectual Freedom' circulated via samizdat against explicit institutional pressure -- both dated, named, independently corroborated acts of open dissent from state orthodoxy."
+    },
+    "conflict_tolerance": {
+      "score": 90,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained 12 years as an openly recognized dissident (1968-1980) under continuous state press campaigns, KGB surveillance, and Academy pressure, escalating to arrest and internal exile to Gorky in 1980 -- an unusually long, well-documented pattern of tolerating direct institutional conflict rather than a single incident."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two separate documented hunger strikes (1984, 1985) while held in internal exile, each sustained through force-feeding and isolation, specifically to secure his wife's medical travel -- dated, corroborated, repeated behavior under severe state pressure."
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the documented transition from a state-employed, privileged weapons scientist to an independent public dissenter at severe personal cost -- a specific, sourced career reversal rather than a generic personality claim."
+    },
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, repeated acceptance of severe personal and professional risk (loss of the highest state privileges, internal exile, forced feeding) in pursuit of stated principles -- scored dual-edged since the same risk tolerance produced both the courageous public record and years of serious harm to himself and his family."
+    },
+    "achievement_drive": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from sustained output across two entirely different arenas at the highest level (leading thermonuclear weapon design, then internationally recognized human-rights advocacy culminating in the 1975 Nobel Peace Prize)."
+    },
+    "impact_motivation": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented shift from classified weapons work to writing appeals for over 200 individually named political prisoners and co-founding the Committee on Human Rights in the USSR (1970) -- inferred motivation toward broad social impact from this specific, sourced body of advocacy work."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Co-founded the Committee on Human Rights in the USSR (1970) and, after 1986, co-led the Inter-Regional Deputies Group in the new Soviet parliament -- two named, dated instances of taking organizing leadership rather than remaining a solitary dissenting voice."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Inferred from his documented return to active political participation in 1989 immediately upon release from years of internal exile, including direct fact-finding travel to Armenia and Azerbaijan despite advanced age and prior health strain."
+    },
+    "belief_updating": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented substantive change of public position from weapons-program insider to advocate for arms-control and human rights over the late 1950s-1960s, corroborated by his own dated 1967-1968 writings rather than reconstructed later."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented as regularly holding press conferences with Western correspondents in his own apartment from the early 1970s -- inferred willingness to speak publicly, though most direct-quote evidence in the record is written (letters, essays) rather than observed public speech."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented sustained partnership with his wife Yelena Bonner across the entire dissident period, and co-founding work with Valery Chalidze and Andrei Tverdokhlebov -- narrower evidence base than for other attributes, kept at inference level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q997) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known existence of his own published Memoirs and the 1975 Nobel Peace Prize record. Deliberately scored to only 13 attributes this pass -- his documented record is unusually deep in conviction/conflict/persistence-type traits but genuinely thin in this cycle's research on thinking-style and creativity-facet attributes (curiosity, systems_abstraction, cross_domain_range were considered but not scored without a stronger source on his specific physics working style, not just his physics achievements)."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 13,
+    "averageConfidence": 0.599,
+    "coverage": 0.393,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Only 13 scored attributes (need 18); coverage 0.39 below the 0.6 threshold; 10 attributes at confidence>=0.5 (need 12). Genuinely evidence-limited by this cycle's single-source (Wikipedia) research pass, not by weak underlying evidence -- his documented record on conviction/conflict/persistence attributes is strong; thinking-facet attributes (curiosity, analytical_rigor, systems_abstraction) were not scored because this cycle's research did not surface strong enough sourcing on his specific physics working style. A deeper research pass (his own Memoirs, more physics-specific biography) would likely close this gap without changing any already-scored row."
+}
