@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-bernard-shaw",
+  "status": "held",
+  "identity": {
+    "canonicalName": "George Bernard Shaw",
+    "wikidataId": "Q19185",
+    "birthYear": 1856,
+    "deathYear": 1950,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IE",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "literature",
+      "politics",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "self_taught",
+      "prolific",
+      "nonconformist",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gbs_wikipedia",
+      "kind": "wikipedia",
+      "title": "George Bernard Shaw",
+      "url": "https://en.wikipedia.org/wiki/George_Bernard_Shaw"
+    },
+    {
+      "id": "src_gbs_wikidata",
+      "kind": "wikidata",
+      "title": "George Bernard Shaw (Q19185)",
+      "url": "https://www.wikidata.org/wiki/Q19185"
+    },
+    {
+      "id": "src_gbs_holroyd",
+      "kind": "biography",
+      "title": "Michael Holroyd, Bernard Shaw (4-volume definitive biography, 1988-1992)"
+    },
+    {
+      "id": "src_gbs_nobel",
+      "kind": "award_body",
+      "title": "Nobel Prize in Literature 1925 citation"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented maintenance of a public pacifist stance during WWI severe enough that it caused 'the instant departure of many' from functions he attended -- a specific, dated, unpopular position held despite real social cost."
+    },
+    "discipline": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented self-education regime of spending most weekdays at the British Museum Reading Room after moving to London in 1876, sustained for years before achieving any income from writing -- attested independently, not only by his later reputation."
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented choice to forgo steady employment (leaving the Edison Telephone Company) and rely on his mother's support for four years to pursue writing on his own terms -- a specific, sourced, costly choice."
+    },
+    "persuasiveness": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, named contemporary account (Margaret Cole) that H. G. Wells was 'annihilated' by Shaw's 'trained and practised virtuosity' in public society debates -- a specific, independently attested incident, not a generic reputation for wit."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, sustained combative public persona across decades of political and literary controversy, including the WWI pacifism episode above, without evident retreat from public life as a result."
+    },
+    "risk_tolerance": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented willingness to state unpopular positions (pacifism, vegetarianism as principle rather than fashion) at real cost to social standing -- scored dual-edged since the same documented WWI stance cost him real relationships and standing at the time."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from a sustained decades-long public writing and political career culminating in the 1925 Nobel Prize in Literature and, in 1938, an Academy Award for the Pygmalion screenplay -- one of very few people to hold both, corroborated by the award bodies themselves."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as the Fabian Society's most prominent voice and author of its first manifesto after joining in 1884, though the same record shows his direct political involvement (including a failed London County Council campaign) declining by the 1890s -- kept moderate rather than high given that documented decline."
+    },
+    "planning_orientation": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred narrowly from the sustained multi-year self-education plan at the British Museum before any writing income -- a real but singular data point, kept at inference level."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the documented pivot from failed direct political campaigning to sustained influence through playwriting and criticism instead, after the 1890s decline in his electoral politics noted above."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from a Nobel Prize in Literature specifically citing work 'marked by both idealism and humanity' across a body of plays that combined social criticism with comedy -- a documented critical judgment, though the underlying originality itself is inferred rather than itemized incident by incident."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred narrowly from his own documented shift away from direct electoral politics toward literary influence after the 1890s campaign failure -- thin evidence base, kept at inference level."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the well-documented public debating persona described above; distinguished from persuasiveness by focusing on his documented ease commanding a room rather than the outcome of specific arguments."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q19185) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known Holroyd definitive biography and the Nobel Prize record. Scored to 12 attributes this pass -- his documented record is genuinely strong on conviction/persuasion/independence but this cycle's research did not surface strong enough sourcing on his private working habits (deep_focus, execution_speed, detail_orientation) to score them defensibly."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 13,
+    "averageConfidence": 0.535,
+    "coverage": 0.39,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Only 13 scored attributes (need 18); coverage 0.39 below the 0.6 threshold; 9 attributes at confidence>=0.5 (need 12). Strong on independence/persuasion/conflict-tolerance evidence; this cycle's single-source research pass did not surface strong sourcing on his private working habits (deep_focus, execution_speed, detail_orientation) or thinking-facet attributes. A deeper pass using Holroyd's 4-volume biography directly would likely close this gap."
+}

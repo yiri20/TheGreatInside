@@ -1763,6 +1763,9 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.john-d-rockefeller": "존 D. 록펠러",
   "person.name.bette-davis": "베티 데이비스",
 
+  // ROSTER-17 — 2026-09 intake (1 person; see the roster17 checkpoint for the discovery pool and preflight record).
+  "person.name.john-von-neumann": "존 폰 노이만",
+
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal
   // rendering of the English strings.

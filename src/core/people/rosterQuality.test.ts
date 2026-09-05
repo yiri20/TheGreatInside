@@ -1,3 +1,6 @@
+import { readdirSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 import { SEED_PEOPLE } from "../../data/people/seed.js";
 import {
@@ -9,7 +12,7 @@ import {
 } from "./rosterQuality.js";
 
 describe("rosterQuality gates against the current committed roster (baseline)", () => {
-  it("has no duplicate slugs, ids, or Wikidata QIDs among the current 35", () => {
+  it("has no duplicate slugs, ids, or Wikidata QIDs among the current roster", () => {
     const dup = findDuplicates(SEED_PEOPLE);
     expect(dup.duplicateSlugs).toEqual([]);
     expect(dup.duplicateIds).toEqual([]);
@@ -119,5 +122,83 @@ describe("rosterQuality gates catch real defects (mechanical checks, not evidenc
     const result = meetsContentQualityFloor(broken);
     expect(result.meetsFloor).toBe(false);
     expect(result.reasons.some((r) => r.includes("scored attributes"))).toBe(true);
+  });
+});
+
+/**
+ * ROSTER-BATCH IMPORT COMPLETENESS (2026-09, roster17 cycle) — the
+ * scalability audit's top near-term risk: `seed.ts` hand-maintains the
+ * list of `ROSTER_N` imports/spreads that make up `ALL_ROSTERS`. A batch
+ * file (`rosterN.ts`) that's committed but never added to that list would
+ * silently vanish from the live product with no error anywhere else in
+ * this suite -- every other test only ever sees `SEED_PEOPLE`, which
+ * would just look like a slightly smaller roster, not a bug.
+ *
+ * This test discovers every committed `rosterN.ts` file on disk (test-time
+ * filesystem discovery only -- production's own `seed.ts` stays a fully
+ * explicit, static list of imports, completely unaffected by this file)
+ * and asserts every person it exports actually appears in `SEED_PEOPLE`.
+ * Combined with the duplicate-id/slug check, this also catches a batch
+ * accidentally imported twice (which would show up as a real duplicate in
+ * `SEED_PEOPLE`, not just in the file list) and a batch's file drifting
+ * out of sync with what's actually wired into the live roster.
+ *
+ * Deliberately NOT a promotion mechanism: it only ever fails loudly on a
+ * mismatch. It never imports, filters, or promotes anything itself, and
+ * never touches `qa_passed` candidate JSON -- promotion stays exactly what
+ * it already is, an explicit, human-reviewed `generateRosterN.ts` allowlist.
+ */
+describe("roster-batch import completeness (guards against a silently-unwired rosterN.ts)", () => {
+  const peopleDir = join(dirname(fileURLToPath(import.meta.url)), "../../data/people");
+  const rosterFiles = readdirSync(peopleDir)
+    .filter((f) => /^roster\d+\.ts$/.test(f))
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+  it("finds at least the roster batch files known to exist as of this test", () => {
+    // A sanity floor, not an exhaustive list -- new batches are expected to
+    // extend this, never shrink it silently. 14 as of roster16 (roster2-12,
+    // 14-16; there is no roster13.ts -- that intake cycle produced zero
+    // promotions, so no file was ever created for it).
+    expect(rosterFiles.length).toBeGreaterThanOrEqual(14);
+  });
+
+  it("every person exported by every committed rosterN.ts is present in SEED_PEOPLE, with no cross-batch duplicates", async () => {
+    const seedIds = new Set(SEED_PEOPLE.map((p) => p.id));
+    const seedSlugs = new Set(SEED_PEOPLE.map((p) => p.slug));
+    const owningFile = new Map<string, string>();
+    const missing: string[] = [];
+    const crossBatchDuplicates: string[] = [];
+
+    for (const file of rosterFiles) {
+      const n = file.match(/^roster(\d+)\.ts$/)![1];
+      const base = file.replace(/\.ts$/, "");
+      const exportName = `ROSTER_${n}`;
+      const mod: Record<string, unknown> = await import(`../../data/people/${base}.ts`);
+      const roster = mod[exportName];
+
+      expect(Array.isArray(roster), `${file} does not export an array named ${exportName}`).toBe(true);
+      expect((roster as unknown[]).length, `${file}'s ${exportName} is empty`).toBeGreaterThan(0);
+
+      for (const person of roster as Array<{ id: string; slug: string }>) {
+        if (!seedIds.has(person.id) || !seedSlugs.has(person.slug)) {
+          missing.push(`${person.id} (${person.slug}) from ${file}`);
+        }
+        const owner = owningFile.get(person.id);
+        if (owner && owner !== file) {
+          crossBatchDuplicates.push(`${person.id} appears in both ${owner} and ${file}`);
+        }
+        owningFile.set(person.id, file);
+      }
+    }
+
+    expect(missing, "committed on disk but missing from SEED_PEOPLE -- is this ROSTER_N actually spread into ALL_ROSTERS in seed.ts?").toEqual([]);
+    expect(crossBatchDuplicates, "same person id committed into more than one roster batch file").toEqual([]);
+  });
+
+  it("SEED_PEOPLE itself has zero duplicate ids or slugs (catches a batch imported twice into seed.ts)", () => {
+    const ids = SEED_PEOPLE.map((p) => p.id);
+    const slugs = SEED_PEOPLE.map((p) => p.slug);
+    expect(ids.length, "SEED_PEOPLE has duplicate ids").toBe(new Set(ids).size);
+    expect(slugs.length, "SEED_PEOPLE has duplicate slugs").toBe(new Set(slugs).size);
   });
 });

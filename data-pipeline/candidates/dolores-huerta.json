@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dolores-huerta",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Dolores Huerta",
+    "wikidataId": "Q468843",
+    "birthYear": 1930,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "civil_rights",
+      "politics"
+    ],
+    "impactDomains": [
+      "social",
+      "political"
+    ],
+    "tagIds": [
+      "organizer",
+      "grassroots_organizer",
+      "endured_imprisonment",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dh_wikipedia",
+      "kind": "wikipedia",
+      "title": "Dolores Huerta",
+      "url": "https://en.wikipedia.org/wiki/Dolores_Huerta"
+    },
+    {
+      "id": "src_dh_wikidata",
+      "kind": "wikidata",
+      "title": "Dolores Huerta (Q468843)",
+      "url": "https://www.wikidata.org/wiki/Q468843"
+    },
+    {
+      "id": "src_dh_pmoty",
+      "kind": "award_body",
+      "title": "Presidential Medal of Freedom citation, 2012"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 90,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained organizing across the Delano Grape Strike (1965-1970, five full years to resolution) and continuing boycott/lobbying work into the 1970s (lettuce, Gallo wine, table grapes) and beyond -- a multi-decade documented pattern, not one campaign."
+    },
+    "conflict_tolerance": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented continued public protest activity that led to a severe police beating at a 1988 San Francisco protest (two fractured ribs, ruptured spleen) -- did not withdraw from public organizing afterward, corroborated by the resulting $825,000 settlement record."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Inferred from sustained, decades-long public confrontational organizing (strikes, boycotts, protests) at real, documented physical cost (the 1988 beating) -- scored dual-edged given that cost was real and severe, not merely reputational."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from co-founding the National Farm Workers Association (1962) and personally negotiating the labor contracts that concluded the 1970 Delano strike, then successfully lobbying for California's 1975 Agricultural Labor Relations Act -- the first state law of its kind, a specific, dated legislative achievement."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as co-founder (with Cesar Chavez and Gilbert Padilla) of the organization that became the United Farm Workers, and as personally organizing East Coast boycott campaigns rather than only participating locally."
+    },
+    "persuasiveness": {
+      "score": 75,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from her documented role personally negotiating the contracts (wage increases, safety protections, health funds) that ended the five-year Delano strike -- a specific, dated negotiation outcome, not a generic reputation for persuasion."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from documented sustained full-time organizing work while raising a large family (documented to have raised many children across three relationships) -- a specific, sourced logistical pattern rather than a generic claim."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from the documented 1962 decision to leave the Community Service Organization specifically over its unwillingness to advocate for farmworkers, and start a new organization instead of continuing to work within the existing one."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the documented shift in tactics across her career -- strike organizing in the 1960s, consumer boycotts in the 1970s, legislative lobbying by 1975, and later foundation-building (2002) -- each a real, dated, different mode of advocacy."
+    },
+    "impact_motivation": {
+      "score": 80,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from sustained organizing focus specifically on farmworker welfare across more than five decades, from the 1962 founding through the 2002-founded Dolores Huerta Foundation's active community-center project as of the mid-2020s."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the documented pattern of initiating new organizing vehicles (the 1962 association, the 2002 foundation) rather than only operating within existing structures."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q468843) before scoring. Evidence drawn from a live Wikipedia fetch. A specific, serious allegation surfaced by the same live fetch (a 2026 disclosure regarding a third party, Cesar Chavez) was deliberately excluded from this evidence ledger and from any future editorial content -- it is unverified beyond a single fetch, concerns a person who is not the subject of this profile, and is not needed for honest personality-trait scoring given the extensively corroborated, decades-old organizing record already used here. Scored to 11 attributes this pass -- thinking/creativity-facet evidence was not gathered this cycle for this candidate."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 11,
+    "averageConfidence": 0.552,
+    "coverage": 0.328,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Only 11 scored attributes (need 18); coverage 0.33 below the 0.6 threshold; 8 attributes at confidence>=0.5 (need 12). Strong on persistence/conflict-tolerance/leadership evidence; this cycle's research did not surface thinking/creativity-facet evidence, and (as a living person) a direct interview-based source would likely be more productive than the Wikipedia summary used this cycle."
+}

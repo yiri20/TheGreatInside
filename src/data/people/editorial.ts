@@ -5394,4 +5394,30 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  "john-von-neumann": {
+    achievements: [
+      { id: "john-von-neumann-achievement-1", textKey: "john-von-neumann.achievement.1", sourceIds: ["src_jvn_wikipedia"] },
+      { id: "john-von-neumann-achievement-2", textKey: "john-von-neumann.achievement.2", sourceIds: ["src_jvn_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "john-von-neumann-moment-1",
+        textKey: "john-von-neumann.moment.1",
+        interpretationKey: "john-von-neumann.interpretation.moment.1",
+        attributeId: "execution_speed",
+        sourceIds: ["src_jvn_wikipedia"],
+      },
+      { id: "john-von-neumann-moment-2", textKey: "john-von-neumann.moment.2", sourceIds: ["src_jvn_ulam"] },
+    ],
+    turningPoints: [
+      {
+        id: "john-von-neumann-turning-point-1",
+        textKey: "john-von-neumann.turning_point.1",
+        interpretationKey: "john-von-neumann.interpretation.turning_point.1",
+        attributeId: "ambiguity_tolerance",
+        sourceIds: ["src_jvn_wikipedia"],
+      },
+    ],
+  },
 };

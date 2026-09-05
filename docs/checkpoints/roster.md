@@ -11,10 +11,10 @@ arithmetic), see
 
 ## Current numbers
 
-- **125 people, 124 match-eligible** (Zheng He is the sole exception —
+- **126 people, 125 match-eligible** (Zheng He is the sole exception —
   browsable, fails only the coverage gate). The People Directory's
-  default (unfiltered) view shows the match-eligible count (124), not the
-  raw total (125) — `filterPeople()` defaults `matchEligibleOnly` to true
+  default (unfiltered) view shows the match-eligible count (125), not the
+  raw total (126) — `filterPeople()` defaults `matchEligibleOnly` to true
   (`src/core/people/explorer.ts`). Miriam Makeba (`roster11.ts`) promoted
   from the roster-expansion-125 evidence program; Marcus Aurelius
   (`roster12.ts`) promoted from the roster-12 new-intake batch; 11 people
@@ -22,8 +22,19 @@ arithmetic), see
   people (`roster15.ts`) promoted from the roster-15 coverage-aware
   intake; 9 people (`roster16.ts`) promoted from the roster-16 final,
   depth-and-confidence-aware intake — see "Known open items" below.
-  **Target: 125. Remaining gap: 0. `ROSTER_125_TARGET_REACHED`.** No
-  further roster expansion is planned automatically.
+  **The 125-person target was reached and closed exactly by roster-16
+  (`ROSTER_125_TARGET_REACHED`).** Roster-17 (2026-09) then added one
+  further person, John von Neumann (`roster17.ts`), from a deliberately
+  scaled-down intake cycle following the scalability audit's
+  `CURRENT_ARCHITECTURE_SAFE_TO_250` verdict — see
+  [`roster17-intake-and-safety.md`](roster17-intake-and-safety.md) for
+  the full record, including 6 other candidates from that cycle
+  (Andrei Sakharov, J. R. R. Tolkien, George Bernard Shaw, Thurgood
+  Marshall, Dolores Huerta, Paul Erdős) that remain `held` on
+  scored-attribute-count/coverage — a real, honest result of a
+  single-source-per-person research pass, not weak underlying evidence.
+  This is not a resumption of automatic roster expansion; no roster-18 is
+  planned.
 - Branch history: `scale/roster-1000` (19 sessions) is fully merged into
   `main`; roster growth now continues via the frozen protocol below,
   directly on top of `main`-derived branches.
@@ -275,3 +286,27 @@ related work should default to quality/depth passes on the existing 125
 (portrait coverage, editorial richness, confidence-deepening on `held`
 candidates) rather than new intake cycles, unless the user explicitly
 raises the target.
+
+- **Roster-17 intake (2026-09)**: a separate, later cycle (not a
+  resumption of the 1,000-person program) following the scalability
+  audit's `CURRENT_ARCHITECTURE_SAFE_TO_250` verdict. Deliberately
+  scaled down: 13 genuinely new candidates discovered and QID-verified,
+  8 classified `STRONG_BREADTH_AND_DEPTH` and frozen, scored using a
+  single-source-per-person research pass rather than roster14-16's
+  deeper multi-source standard. **1 of 7 scored crossed `eligibility_v2`
+  honestly**: John von Neumann (23 attributes, coverage 0.695), promoted
+  via `generateRoster17.ts` into `roster17.ts`, fully product-complete
+  from first promotion (real Public Domain Los Alamos National
+  Laboratory portrait, verified live against Wikimedia Commons license
+  metadata; full EN/KO editorial content; Korean display name). The
+  other 6 — Andrei Sakharov, J. R. R. Tolkien, George Bernard Shaw,
+  Thurgood Marshall, Dolores Huerta, Paul Erdős — remain `held` purely
+  on scored-attribute-count/coverage (each 11-14 scored attributes vs.
+  the 18 floor), a real, honest outcome of the shallower research pass,
+  not weak underlying evidence; each `holdReason` names the specific gap.
+  A genuine taxonomy gap was also found and left unresolved rather than
+  worked around: this project's 11-region taxonomy has no Oceania/Pacific
+  region, so Edmund Hillary (New Zealand) was set aside before scoring
+  despite strong evidence. 125->126 people, 124->125 match-eligible.
+  Full record:
+  [`roster17-intake-and-safety.md`](roster17-intake-and-safety.md).

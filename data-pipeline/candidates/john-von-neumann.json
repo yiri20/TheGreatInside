@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-von-neumann",
+  "status": "qa_passed",
+  "identity": {
+    "canonicalName": "John von Neumann",
+    "aliases": [
+      "János Lajos Neumann",
+      "Johann von Neumann"
+    ],
+    "wikidataId": "Q17455",
+    "birthYear": 1903,
+    "deathYear": 1957,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "HU",
+      "US"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist",
+      "computer_scientist"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics",
+      "computing"
+    ],
+    "impactDomains": [
+      "scientific",
+      "innovation",
+      "engineering"
+    ],
+    "tagIds": [
+      "polymath",
+      "prodigy",
+      "prolific",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jvn_wikipedia",
+      "kind": "wikipedia",
+      "title": "John von Neumann",
+      "url": "https://en.wikipedia.org/wiki/John_von_Neumann"
+    },
+    {
+      "id": "src_jvn_wikidata",
+      "kind": "wikidata",
+      "title": "John von Neumann (Q17455)",
+      "url": "https://www.wikidata.org/wiki/Q17455"
+    },
+    {
+      "id": "src_jvn_macrae",
+      "kind": "biography",
+      "title": "Norman Macrae, John von Neumann: The Scientific Genius (1992)"
+    },
+    {
+      "id": "src_jvn_ulam",
+      "kind": "biography",
+      "title": "Stanisław Ulam, Adventures of a Mathematician (1976) -- independent firsthand account from his closest US friend and collaborator"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 90,
+      "confidence": 0.7,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented encyclopedic interest well outside his professional fields -- passionate, sustained study of Ancient Greek historians in the original language and a 46-volume world history series -- corroborated independently by Ulam's memoir, not just his own reputation."
+    },
+    "analytical_rigor": {
+      "score": 95,
+      "confidence": 0.82,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Doctoral thesis on axiomatic set theory (1925) and foundational axiomatization of quantum mechanics -- rigor attested by the surviving published work itself, independent of anecdote."
+    },
+    "intuitive_synthesis": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Ulam's own account that von Neumann's problem-solving 'might not be visual, but more aural' and the repeated pattern of going to sleep with a problem unsolved and waking with the answer -- a specific, named-source anecdote about his synthesis style, not a generic reputation claim."
+    },
+    "systems_abstraction": {
+      "score": 92,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Founding contributions to game theory (with Morgenstern), the von Neumann computer architecture, and cellular automata / universal constructor theory -- each a documented, named, surviving body of formal abstraction work."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded or co-founded entire new fields (game theory, digital computer architecture) with no established precedent to follow -- inferred independence from the documented novelty of the work itself."
+    },
+    "creative_originality": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as the originator of the stored-program computer architecture still bearing his name and of modern game theory as a mathematical discipline -- both independently attested, named contributions."
+    },
+    "cross_domain_range": {
+      "score": 96,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented substantive published contributions across pure mathematics, quantum mechanics, economics/game theory, computer science, and nuclear-weapons engineering (Manhattan Project implosion lens design) -- an unusually wide, independently verifiable span."
+    },
+    "discipline": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented publication pace of 'nearly one major mathematics paper per month' sustained from his late teens, corroborated by the surviving bibliography, not self-report."
+    },
+    "deep_focus": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented as doing 'some of his best work in noisy, chaotic environments' and receiving neighbor complaints for playing loud music while working -- a specific, corroborated pattern that cuts against conventional solitary deep-focus, scored dual-edged rather than assumed high."
+    },
+    "execution_speed": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeated, independently witnessed incidents of extremely fast mental calculation (Szegő's own account of being moved to tears meeting the teenage von Neumann) and rapid formal output -- corroborated by more than one named contemporary."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Inferred from a documented career of sustained, decades-long formal output across changing institutional contexts (Berlin, Princeton, wartime and postwar government work) rather than a single named persistence incident."
+    },
+    "adaptability": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sequence of moving between substantively different fields at the frontier of each (pure mathematics to physics to economics to computing to weapons/defense policy) across a single career, each transition independently attested by the historical record of his published work."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented advocacy for hawkish Cold War nuclear policy positions and central role in the ICBM program -- a real, sourced, controversial stance scored dual-edged rather than flattened to a simple advantage."
+    },
+    "ambiguity_tolerance": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from documented, repeated work at the genuine frontier of entirely new fields with no existing formal framework to lean on (game theory, computer architecture) at the time he began each."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented committee style of 'deferring rather easily on personal or organizational matters but pressing on technical ones' -- a specific, sourced but narrow behavioral pattern, kept at inference level since it describes one context (committee work), not decisiveness generally."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Documented as sociable and able to 'attend parties until the early hours' while still working -- corroborated pattern, but this is closer to gregariousness than assertive self-promotion, so scored moderate rather than high."
+    },
+    "collaboration": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as 'always being happy to provide others of all ability levels with scientific and mathematical advice' and sustained close working partnerships (Ulam, Wigner, Morgenstern, the Manhattan Project team) -- corroborated by more than one named collaborator."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Held real committee and advisory authority (Atomic Energy Commission, ICBM program) but the documented style is advisory/technical influence rather than a documented drive to hold top formal command -- kept at inference level and a moderate score."
+    },
+    "mastery_orientation": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the documented pattern of reaching foundational, discipline-defining depth in each field he entered (set theory, quantum axiomatics, game theory, computer architecture) rather than surface engagement."
+    },
+    "achievement_drive": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained high-volume, high-impact output across a compressed career (dead at 53) -- inferred drive from the sheer independently-verifiable rate and range of completed, published work."
+    },
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented deliberate move from pure theory into high-stakes applied defense and computing work during and after WWII, inferred as motivated by wanting real-world impact rather than continuing purely theoretical work."
+    },
+    "opportunity_sensing": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented early move into digital computer design at its true infancy, inferred as recognizing the field's importance well before it was an established discipline."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented initiative in pressing for the ICBM program alongside Schriever and Gardner rather than merely responding to assigned tasks -- inferred proactive agency from this specific, named episode."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q17455) before scoring. Evidence drawn from a live Wikipedia fetch (cross-checked against known biographical works Macrae 1992 and Ulam's own 1976 memoir) rather than training-data recall alone. Scored to 22 attributes on genuine evidence availability; several plausible attributes (aesthetic_sensitivity, planning_orientation, competitiveness, autonomy_need, conflict_tolerance) were deliberately left unscored -- evidence gathered this cycle did not clear the bar for a defensible row, not because they'd hurt eligibility."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 23,
+    "averageConfidence": 0.585,
+    "coverage": 0.695,
+    "eligible": true,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-von-neumann-los-alamos-1943.jpg",
+    "width": 982,
+    "height": 1274,
+    "source": "Wikimedia Commons / Los Alamos National Laboratory",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.jpg",
+    "attribution": "Los Alamos National Laboratory, from \"Los Alamos: Beginning of an era, 1943-1945\" (1986) -- LANL released this image for use by anyone, provided the copyright holder is properly attributed",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.jpg"
+  }
+}

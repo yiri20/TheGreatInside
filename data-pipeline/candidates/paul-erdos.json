@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paul-erdos",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Paul Erdős",
+    "wikidataId": "Q173746",
+    "birthYear": 1913,
+    "deathYear": 1996,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "HU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician"
+    ],
+    "fieldIds": [
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "prolific",
+      "generalist",
+      "poor_business_sense"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pe_wikipedia",
+      "kind": "wikipedia",
+      "title": "Paul Erdős",
+      "url": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s"
+    },
+    {
+      "id": "src_pe_wikidata",
+      "kind": "wikidata",
+      "title": "Paul Erdős (Q173746)",
+      "url": "https://www.wikidata.org/wiki/Q173746"
+    },
+    {
+      "id": "src_pe_hoffman",
+      "kind": "biography",
+      "title": "Paul Hoffman, The Man Who Loved Only Numbers (1998) -- based on extensive interviews with Erdős's collaborators"
+    },
+    {
+      "id": "src_pe_schechter",
+      "kind": "biography",
+      "title": "Bruce Schechter, My Brain Is Open (1998)"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 95,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented lifetime output of approximately 1,525 mathematical papers, unsurpassed as of the most recent count -- a specific, independently verifiable bibliographic record, not a reputation claim."
+    },
+    "collaboration": {
+      "score": 96,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented 511 distinct co-authors across his career, the direct basis for the well-known 'Erdős number' phenomenon -- an unusually large, independently countable collaborative footprint."
+    },
+    "curiosity": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as calculating, at age 5, the number of seconds a person had lived given their age, and being introduced to infinite series and set theory by his father at 16, proving Bertrand's postulate at 20 -- a specific, dated, escalating early-childhood pattern."
+    },
+    "autonomy_need": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as never holding a permanent academic position, refusing a permanent offer from Notre Dame in 1952, and living out of a suitcase traveling continuously between collaborators for most of his adult life -- an unusual, sustained, well-documented lifestyle choice."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented pattern of arriving at a collaborator's home expecting lodging, meals, laundry, and transportation to be arranged so he could work immediately -- inferred resourcefulness in sustaining a working, homeless-by-choice lifestyle for decades."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented sustained amphetamine and Ritalin use to extend working hours, including losing a $500 bet with Ron Graham that he could quit for a month, then resuming immediately afterward, remarking 'you've set mathematics back a month' -- a specific, dated, named-source incident scored dual-edged given the real health risk involved."
+    },
+    "persistence": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as devoting waking hours to mathematics into his 80s, dying at a mathematics conference in Warsaw at age 83 rather than in retirement -- a sustained, lifelong pattern rather than a single incident."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as giving away most of the money he earned from lecturing and the $50,000 1983/84 Wolf Prize to help students or as problem-solving prize money -- inferred impact motivation over personal accumulation from this specific, sourced pattern."
+    },
+    "creative_originality": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented invention of an entire private, idiosyncratic vocabulary for everyday concepts (children as 'epsilons', the US as 'Samland', God as the 'Supreme Fascist') -- a real, sourced, unusual pattern, though it speaks more to eccentricity than mathematical originality specifically, kept at moderate confidence."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented practice of arriving unannounced at colleagues' homes and immediately directing the household toward supporting his work -- a real but narrow behavioral data point."
+    },
+    "conflict_tolerance": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as renouncing an honorary degree from the University of Waterloo shortly before his death specifically over its treatment of a colleague, Adrian Bondy -- a concrete, dated act of taking a costly stand on principle at the very end of his life."
+    },
+    "mastery_orientation": {
+      "score": 85,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the documented breadth and depth of his output across number theory, combinatorics, graph theory, and set theory, corroborated by membership in scientific academies of at least 8 countries."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Inferred from his documented navigation of a decade-long U.S. re-entry ban during McCarthyism (1954-1963), during which he worked from Israel instead, and resumed his prior working pattern once the visa was reinstated."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q173746) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known Hoffman and Schechter biographies (both built on extensive named-collaborator interviews). Scored to 13 attributes this pass -- thinking-facet evidence beyond curiosity (analytical_rigor, systems_abstraction, intuitive_synthesis specifically) was not gathered with enough specificity this cycle to score defensibly, despite his obvious mathematical stature."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 13,
+    "averageConfidence": 0.58,
+    "coverage": 0.397,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Only 13 scored attributes (need 18); coverage 0.40 below the 0.6 threshold; 10 attributes at confidence>=0.5 (need 12). Exceptionally rich behavioral/eccentricity evidence already scored; this cycle's research did not surface strong enough sourcing on his specific mathematical thinking style (analytical_rigor, systems_abstraction, intuitive_synthesis) despite his obvious stature -- Hoffman's and Schechter's full biographies (only summarized here via the Wikipedia article) would very likely close this gap on a future pass."
+}

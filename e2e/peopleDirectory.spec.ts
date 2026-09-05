@@ -441,9 +441,13 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // promoted via roster16.ts) — verified directly against the real
   // traitScoreGroups z-score filter (minZ=1.0, minConfidence=0.5) that
   // none of the 9 new people cross both thresholds simultaneously, so the
-  // filtered count of 5 is unchanged.
+  // filtered count of 5 is unchanged. Total updated 125->126 (roster-17
+  // intake, 1 person promoted via roster17.ts) — John von Neumann (scored
+  // curiosity 90/confidence 0.7, collaboration 78/confidence 0.55) newly
+  // crosses both z-score thresholds simultaneously, raising the filtered
+  // count to 6.
   const bodyText = (await page.locator("main").textContent())!;
-  expect(bodyText).toMatch(/전체\s*125명\s*중\s*5명/);
+  expect(bodyText).toMatch(/전체\s*126명\s*중\s*6명/);
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {
