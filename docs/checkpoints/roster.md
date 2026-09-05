@@ -156,8 +156,11 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
   portrait blocker from roster-12 stands unchanged, candidate JSON
   untouched. No candidate promoted; no `roster13.ts` created (nothing
   product-ready to allowlist). Roster counts unchanged (97 / 96
-  match-eligible). Full record:
-  [`roster13-new-intake-batch.md`](roster13-new-intake-batch.md).
+  match-eligible). Merged to `main` as `023df19`. Full record:
+  [`roster13-new-intake-batch.md`](roster13-new-intake-batch.md); see
+  [`roster12-13-coverage-postmortem.md`](roster12-13-coverage-postmortem.md)
+  for the mechanical analysis of why roster-12/13 combined produced only
+  2 of 33 promotions and the resulting roster-14 preflight change.
 - A full manual rubric-consistency review of the pre-session-11 corpus
   (52 held + 38 accepted candidates) is real, unfinished work — an
   automated pass was tried and found unreliable by spot-check.
@@ -171,20 +174,24 @@ proposed `Self-Made / Earned-Distinction Gate v1` for future candidates:
 
 ## Next recommended step
 
-Miriam Makeba's and Marcus Aurelius's promotions are both merged and
-complete. Roster-13's 18-person cycle produced zero new promotions (see
-"Known open items" above) — implemented as a candidate-intake-only PR,
-`feat/roster13-new-intake-batch`, not yet committed/merged at the time
-this checkpoint was written. Candidates for a future cycle: (1) resolve
-a rights-clear portrait for Che Guevara and promote him via a small
-follow-up generator; (2) an evidence-deepening pass on the 31 combined
-roster-12/roster-13 `held` candidates, specifically targeting
-higher-weight attributes from their existing evidence packs to close
-the coverage gap each one has (every one of them missed only on
-`eligibility_v2`'s weighted coverage floor, most within 0.05-0.1 of it —
-see [`roster12-new-intake-batch.md`](roster12-new-intake-batch.md) §6
-and [`roster13-new-intake-batch.md`](roster13-new-intake-batch.md) §6
-for the exact numbers) rather than new research. The 29 roster-expansion-125
+Miriam Makeba's, Marcus Aurelius's, and roster-13's candidate-intake PR
+are all merged and complete (roster-13 produced zero new promotions —
+an honest, mechanically-verified outcome, not a defect; see the
+coverage-bottleneck postmortem below). A **mechanical postmortem across
+all 33 roster-12+13 first-scored candidates**
+([`roster12-13-coverage-postmortem.md`](roster12-13-coverage-postmortem.md))
+found the real, confirmed-no-bug cause: `eligibility_v2`'s weighted
+`coverage` floor (0.6) is **mathematically unreachable at 18-19 scored
+attributes regardless of evidence quality** (best case 0.558/0.587), and
+only reliably reachable from ~21-22 attributes onward. Every held
+candidate in both cycles scored 17-20 attributes — none were rejected
+for weak or narrow evidence. **Roster-14's preflight must raise the
+pre-freeze target to ≥21-attribute-capable evidence** (postmortem §6) and
+freeze a smaller batch (10-14, postmortem §7) rather than repeating an
+18-attribute target. This is the immediate next action before any new
+candidate research. Separately: Che Guevara remains `qa_passed`,
+portrait-blocked, parked with no further search scheduled. The 29
+roster-expansion-125
 candidates remain `held`/`STRUCTURALLY_THIN`/unscored with no further
 action queued (alternate search closed). Otherwise, continue roster
 expansion in fresh discovery-pool batches using the protocol below, toward a

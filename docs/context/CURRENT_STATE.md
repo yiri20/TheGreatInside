@@ -4,9 +4,20 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-04 (roster-13 new-intake batch,
-`feat/roster13-new-intake-batch`, candidate-intake-only PR, not yet
-committed/merged at time of writing: built a fresh 29-person discovery
+Last updated: 2026-09-05 (roster-12/13 coverage-bottleneck postmortem,
+analysis-only, no candidate changed: a mechanical review of all 33
+roster-12+13 first-scored candidates found `eligibility_v2`'s weighted
+`coverage` floor (0.6) is mathematically unreachable at 18-19 scored
+attributes regardless of evidence quality — confirmed no implementation
+bug, independently recomputed coverage from `ATTRIBUTES[*].baseWeight`
+and matched the validator's own output in all 33 cases. Every held
+candidate in both cycles scored 17-20 attributes; none were rejected for
+narrow or weak evidence. Roster-14's preflight must target ≥21-attribute-
+capable evidence before freezing and use a smaller batch (10-14). Full
+record: [`roster12-13-coverage-postmortem.md`](../checkpoints/roster12-13-coverage-postmortem.md).
+Prior update, 2026-09-04 (roster-13 new-intake batch,
+`feat/roster13-new-intake-batch`, merged to `main` as `023df19`: built a
+fresh 29-person discovery
 pool, froze 18 for full evidence packs and first scoring. **0 of 18
 crossed `eligibility_v2`** — every one missed solely on the weighted
 coverage floor (0.6), Fidel Castro closest at 0.599. All 18 are `held`
@@ -338,8 +349,8 @@ Zheng He remain)).
   (scoring-lock integrity: 0 flagged). Target remains 125; gap now 28.
   Full record: [`roster12-new-intake-batch.md`](../checkpoints/roster12-new-intake-batch.md).
 - **Roster-13 new-intake batch (2026-09, `feat/roster13-new-intake-batch`,
-  candidate-intake-only, not yet merged)**: built a fresh 29-person
-  discovery pool, froze 18 for full evidence packs and first scoring.
+  candidate-intake-only, merged to `main` as `023df19`)**: built a fresh
+  29-person discovery pool, froze 18 for full evidence packs and first scoring.
   **0 of 18 crossed `eligibility_v2`** — every one missed solely on the
   weighted coverage floor (0.6), Fidel Castro closest at 0.599; two
   candidates (Robert Mugabe, Juan Perón) also came in at 17 rather than
