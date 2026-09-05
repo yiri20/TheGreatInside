@@ -217,18 +217,27 @@ export function Select<T extends string>({
   className?: string;
 }) {
   return (
-    <select
-      className={cx("tgi-field", className)}
-      value={value}
-      onChange={(e) => onChange(e.target.value as T)}
-      aria-label={ariaLabel}
-    >
-      {options.map((o) => (
-        <option key={o.value} value={o.value}>
-          {o.label}
-        </option>
-      ))}
-    </select>
+    <span className={cx("tgi-select", className)}>
+      <select
+        className="tgi-field tgi-select__control"
+        value={value}
+        onChange={(e) => onChange(e.target.value as T)}
+        aria-label={ariaLabel}
+      >
+        {options.map((o) => (
+          <option key={o.value} value={o.value}>
+            {o.label}
+          </option>
+        ))}
+      </select>
+      {/* Decorative only — the native <select>'s own arrow is suppressed via
+          appearance:none on .tgi-select__control, and this replaces it so the
+          visible chevron sits at the same ~16-20px inset the left-side text
+          uses instead of hugging the box's right edge. Purely cosmetic:
+          pointer-events:none keeps the whole control's hit area (and its
+          native tap-to-open behavior) exactly as before. */}
+      <span className="tgi-select__chevron" aria-hidden="true" />
+    </span>
   );
 }
 

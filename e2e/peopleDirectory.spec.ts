@@ -122,6 +122,98 @@ test("people directory grid is NOT forced to 2 columns at 1024px+ (discovery-gri
 });
 
 /**
+ * Mobile UI refinement (2026-09, product-owner mobile review). Structural/
+ * behavioral assertions only, per this file's own established style — no
+ * pixel-perfect layout checks, which would be brittle to future roster/
+ * copy changes. The specific numeric bound below is a loose regression
+ * guard (the pre-refinement measurement was ~785px at this viewport),
+ * not a target to optimize toward.
+ */
+test("people directory @ 390px: first results row appears materially sooner than the pre-refinement baseline", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 1400 });
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const gridTop = await page.evaluate(() => {
+    const g = document.querySelector(".tgi-results-discovery-grid");
+    return g ? Math.round(g.getBoundingClientRect().top) : null;
+  });
+  expect(gridTop).not.toBeNull();
+  expect(gridTop!, "results grid should appear well before the pre-refinement ~785px baseline").toBeLessThan(750);
+});
+
+test("people directory: Era/Region/Sort selects use the custom chevron wrapper and remain fully functional", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+
+  // Structural: the native <select> arrow is suppressed and a decorative,
+  // non-interactive chevron sibling takes its place -- but the combobox
+  // role/name (what selectOption below relies on) is completely unaffected.
+  const wrappers = page.locator(".tgi-select");
+  await expect(wrappers).toHaveCount(3); // Era, Region, Sort
+  const appearance = await wrappers
+    .first()
+    .locator(".tgi-select__control")
+    .evaluate((el) => getComputedStyle(el).appearance || getComputedStyle(el).webkitAppearance);
+  expect(appearance, "native select arrow should be suppressed").toBe("none");
+  await expect(wrappers.first().locator(".tgi-select__chevron")).toHaveCount(1);
+  const chevronClickable = await wrappers
+    .first()
+    .locator(".tgi-select__chevron")
+    .evaluate((el) => getComputedStyle(el).pointerEvents);
+  expect(chevronClickable, "chevron must not intercept clicks meant for the select").toBe("none");
+
+  // Behavioral: filtering still works exactly as before the wrapper change.
+  const countText = () => page.getByText(/^\d+ (of \d+ )?people$/).textContent();
+  const before = Number((await countText())!.match(/^\d+/)![0]);
+  await page.getByRole("combobox", { name: "Era" }).selectOption({ label: "19th Century" });
+  const after = Number((await countText())!.match(/^\d+/)![0]);
+  expect(after, "selecting an Era option must still filter results").toBeLessThan(before);
+});
+
+test("people directory: result count renders as a divider between filters and the results grid", async ({ page }) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const count = page.locator(".tgi-directory-count");
+  await expect(count).toHaveCount(1);
+  await expect(count).toContainText(/people/);
+  const borderTop = await count.evaluate((el) => getComputedStyle(el).borderTopStyle);
+  expect(borderTop, "result count should have a visible top divider").toBe("solid");
+});
+
+test("people directory @ 390px: card metadata line does not wrap across multiple lines", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 1400 });
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const meta = page.locator(".tgi-personcard__meta").first();
+  const { whiteSpace, lineHeightPx, heightPx } = await meta.evaluate((el) => {
+    const cs = getComputedStyle(el);
+    return {
+      whiteSpace: cs.whiteSpace,
+      lineHeightPx: parseFloat(cs.lineHeight),
+      heightPx: el.getBoundingClientRect().height,
+    };
+  });
+  expect(whiteSpace, "metadata should truncate rather than wrap").toBe("nowrap");
+  // A wrapped 2-line label would render at ~2x the single-line height.
+  expect(heightPx).toBeLessThan(lineHeightPx * 1.5);
+});
+
+test("people directory @ 1280px: filter-section headings keep their full (non-mobile-compacted) size", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const fontSize = await page
+    .locator(".tgi-taxonomy-disclosure > summary .tgi-heading")
+    .first()
+    .evaluate((el) => getComputedStyle(el).fontSize);
+  // The mobile-only heading-dominance reduction (Part 4) must not leak
+  // above the 640px breakpoint -- this is the same 1.375rem/22px size
+  // this heading has always rendered at above that breakpoint.
+  expect(fontSize).toBe("22px");
+});
+
+/**
  * Directory taxonomy redesign (directory_taxonomy_v1, 2026-08) — Part J/M
  * browser QA for the Profession/Activity + Personality/Trait sections
  * (src/core/people/directoryTaxonomy.ts). Both are real <label><input

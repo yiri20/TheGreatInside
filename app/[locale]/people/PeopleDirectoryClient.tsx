@@ -169,15 +169,15 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
   const visibleAttributeIds = new Set(people.flatMap((p) => p.attributes.map((a) => a.attributeId)));
 
   return (
-    <main className="tgi-container" style={{ paddingTop: "3rem", paddingBottom: "5rem" }}>
-      <Stack gap={7}>
+    <main className="tgi-container tgi-directory-main">
+      <Stack gap={7} className="tgi-directory-shell">
         <Stack gap={3}>
           <Eyebrow>The Great Inside</Eyebrow>
           <Heading level={1}>{t(locale, "people.directory.title")}</Heading>
           <Text tone="secondary">{t(locale, "people.directory.intro")}</Text>
         </Stack>
 
-        <Stack gap={5}>
+        <Stack gap={5} className="tgi-directory-filters">
           <Cluster gap={3} className="tgi-filter-bar">
             <TextField
               value={query}
@@ -334,7 +334,7 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
             </Cluster>
           )}
 
-          <Text tone="muted">
+          <Text tone="secondary" className="tgi-directory-count">
             {isFiltered
               ? t(locale, "people.directory.count_filtered", { count: results.length, total: people.length })
               : t(locale, "people.directory.count", { count: results.length })}
@@ -348,7 +348,7 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
         {results.length === 0 ? (
           <Text tone="muted">{t(locale, "people.directory.empty")}</Text>
         ) : (
-          <Grid min="14rem" className="tgi-results-discovery-grid">
+          <Grid min="14rem" className="tgi-results-discovery-grid tgi-directory-grid">
             {results.map((person) => (
               <PersonCard
                 key={person.id}
