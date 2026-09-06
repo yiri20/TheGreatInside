@@ -22,8 +22,23 @@ arithmetic), see
   people (`roster15.ts`) promoted from the roster-15 coverage-aware
   intake; 9 people (`roster16.ts`) promoted from the roster-16 final,
   depth-and-confidence-aware intake — see "Known open items" below.
-  **Target: 125. Remaining gap: 0. `ROSTER_125_TARGET_REACHED`.** No
-  further roster expansion is planned automatically.
+  **The 125-person target was reached and closed exactly by roster-16
+  (`ROSTER_125_TARGET_REACHED`)** and remains 125/124 after a roster-17
+  intake cycle (2026-09). Roster-17 initially promoted John von Neumann,
+  but a subsequent evidence-integrity audit found his 23-row evidence
+  pack rested on a single actually-consulted source plus two named
+  biographies that were cited but never independently read; a genuine
+  multi-source correction produced a stronger but narrower profile that
+  honestly fell below `eligibility_v2`'s attribute-count floor, and the
+  promotion was reverted rather than kept or rescued — see
+  [`roster17-intake-and-safety.md`](roster17-intake-and-safety.md) for
+  the full audit/correction/reversion record, including 6 other
+  candidates from that cycle (Andrei Sakharov, J. R. R. Tolkien, George
+  Bernard Shaw, Thurgood Marshall, Dolores Huerta, Paul Erdős) that
+  remain `held` on scored-attribute-count/coverage — a real, honest
+  result of a single-source-per-person research pass, not weak underlying
+  evidence. This is not a resumption of automatic roster expansion; no
+  roster-18 is planned.
 - Branch history: `scale/roster-1000` (19 sessions) is fully merged into
   `main`; roster growth now continues via the frozen protocol below,
   directly on top of `main`-derived branches.
@@ -275,3 +290,36 @@ related work should default to quality/depth passes on the existing 125
 (portrait coverage, editorial richness, confidence-deepening on `held`
 candidates) rather than new intake cycles, unless the user explicitly
 raises the target.
+
+- **Roster-17 intake (2026-09)**: a separate, later cycle (not a
+  resumption of the 1,000-person program) following the scalability
+  audit's `CURRENT_ARCHITECTURE_SAFE_TO_250` verdict. Deliberately
+  scaled down: 13 genuinely new candidates discovered and QID-verified,
+  8 classified `STRONG_BREADTH_AND_DEPTH` and frozen, scored using a
+  single-source-per-person research pass rather than roster14-16's
+  deeper multi-source standard. **1 of 7 scored initially crossed
+  `eligibility_v2`**: John von Neumann (23 attributes, coverage 0.695),
+  briefly promoted via `generateRoster17.ts` into `roster17.ts`. A
+  subsequent evidence-integrity audit found that pack's provenance note
+  overstated its own methodology (claiming two named biographies were
+  cross-checked when only Wikipedia had actually been fetched) and that
+  16 of 23 rows re-derived from the same 2-4 achievement facts. A
+  genuine correction — reading the real 1958 National Academy of
+  Sciences biographical memoir and a 2023 scholarly essay quoting his
+  own resignation letter and multiple firsthand witnesses — produced a
+  stronger but narrower 16-row profile (coverage 0.479) that honestly
+  fell below the 18-attribute floor; **the promotion was reverted**,
+  `john-von-neumann.json` returned to `held`, and roster17 production
+  wiring (roster file, seed import, generated index/dispersion,
+  portrait, editorial, Korean name) removed. The other 6 — Andrei
+  Sakharov, J. R. R. Tolkien, George Bernard Shaw, Thurgood Marshall,
+  Dolores Huerta, Paul Erdős — remain `held` purely on
+  scored-attribute-count/coverage (each 11-14 scored attributes vs. the
+  18 floor), a real, honest outcome of the shallower research pass, not
+  weak underlying evidence; each `holdReason` names the specific gap.
+  A genuine taxonomy gap was also found and left unresolved rather than
+  worked around: this project's 11-region taxonomy has no Oceania/Pacific
+  region, so Edmund Hillary (New Zealand) was set aside before scoring
+  despite strong evidence. Roster remains 125 people, 124 match-eligible
+  — unchanged by this cycle. Full record:
+  [`roster17-intake-and-safety.md`](roster17-intake-and-safety.md).

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "thurgood-marshall",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Thurgood Marshall",
+    "wikidataId": "Q312348",
+    "birthYear": 1908,
+    "deathYear": 1993,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "jurist",
+      "lawyer",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "law",
+      "civil_rights"
+    ],
+    "impactDomains": [
+      "social",
+      "political"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "strategist",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tm_wikipedia",
+      "kind": "wikipedia",
+      "title": "Thurgood Marshall",
+      "url": "https://en.wikipedia.org/wiki/Thurgood_Marshall"
+    },
+    {
+      "id": "src_tm_wikidata",
+      "kind": "wikidata",
+      "title": "Thurgood Marshall (Q312348)",
+      "url": "https://www.wikidata.org/wiki/Q312348"
+    },
+    {
+      "id": "src_tm_williams",
+      "kind": "biography",
+      "title": "Juan Williams, Thurgood Marshall: American Revolutionary (1998)"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 90,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as winning 29 of 32 civil rights cases he personally argued before the Supreme Court, culminating in the unanimous 1954 Brown v. Board decision -- a specific, verifiable, named record of argumentative success, not a reputation claim."
+    },
+    "conflict_tolerance": {
+      "score": 88,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as personally litigating civil rights cases across the Jim Crow South through the 1940s-50s -- a period and geography independently documented as carrying real physical danger for Black civil rights attorneys -- inferred sustained conflict tolerance from the choice to keep doing this work for over a decade."
+    },
+    "persistence": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented multi-year, multi-state litigation strategy building from Missouri ex rel. Gaines v. Canada (1938) through to Brown v. Board (1954) -- a sixteen-year sustained legal campaign, not a single case."
+    },
+    "planning_orientation": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented coordination of challenges to segregated schools across five states simultaneously for Brown v. Board, including deliberately calling psychologist Ken Clark as an expert witness on the psychological harm of segregation -- a specific, dated strategic choice."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented development of a 'sliding-scale approach' to equal-protection constitutional review (dissent in San Antonio v. Rodriguez) distinct from the majority's framework -- a specific, named, dated jurisprudential position."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the documented arc from NAACP staff attorney (1936) to becoming the first African-American Supreme Court justice (1967), confirmed 69-11 despite strong Southern Senate opposition."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from sustained, decades-deep expertise in constitutional equal-protection law, evidenced by his documented 1,400+ death-penalty dissents with Justice Brennan maintaining a consistent, developed position over time rather than case-by-case improvisation."
+    },
+    "risk_tolerance": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, sustained personal presence litigating in the segregated South at a time and place independently documented as dangerous for Black attorneys -- scored dual-edged given the real, sourced personal danger involved, not a costless choice."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Documented expressed disappointment that Brown v. Board's 'all deliberate speed' language fell short of the concrete 1956 deadline he had wanted -- a specific, sourced instance of a documented reaction to an outcome not fully matching his own position, kept at inference level for updating specifically."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his consistent, sustained judicial dissents over decades on capital punishment and equal protection rather than shifting position case to case -- moderate confidence given this describes consistency more directly than decisiveness under pressure."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented role coordinating a multi-state legal team for Brown v. Board rather than litigating alone, though the record available this cycle centers more on his own advocacy than on directing others."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred narrowly from his documented direct, plain-spoken retirement statement ('What's wrong with me? I'm old.') -- a real but singular data point on his public communication style, kept at inference level."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q312348) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against Juan Williams's well-known biography. Scored to 12 attributes this pass -- deliberately did not score creativity-facet attributes (creative_originality, aesthetic_sensitivity, experimentation) given the evidence gathered this cycle is legal/strategic in character, not a good fit for defensible creativity-facet scoring without further research."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 12,
+    "averageConfidence": 0.547,
+    "coverage": 0.359,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Only 12 scored attributes (need 18); coverage 0.36 below the 0.6 threshold; 8 attributes at confidence>=0.5 (need 12). Strong on persuasion/strategy/conflict-tolerance evidence from his litigation career; this cycle's research did not surface strong creativity-facet or personal-life evidence. A deeper pass using Juan Williams's biography directly, plus his own Supreme Court opinions, would likely close this gap."
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jrr-tolkien",
+  "status": "held",
+  "identity": {
+    "canonicalName": "J. R. R. Tolkien",
+    "aliases": [
+      "John Ronald Reuel Tolkien"
+    ],
+    "wikidataId": "Q892",
+    "birthYear": 1892,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "scholar",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "literature",
+      "education"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "prolific",
+      "self_taught",
+      "generalist"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jrrt_wikipedia",
+      "kind": "wikipedia",
+      "title": "J. R. R. Tolkien",
+      "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien"
+    },
+    {
+      "id": "src_jrrt_wikidata",
+      "kind": "wikidata",
+      "title": "J. R. R. Tolkien (Q892)",
+      "url": "https://www.wikidata.org/wiki/Q892"
+    },
+    {
+      "id": "src_jrrt_letters",
+      "kind": "archive",
+      "title": "The Letters of J.R.R. Tolkien (ed. Carpenter, 1981) -- his own words across decades"
+    },
+    {
+      "id": "src_jrrt_carpenter",
+      "kind": "biography",
+      "title": "Humphrey Carpenter, J.R.R. Tolkien: A Biography (1977), the authorized biography"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, sustained invented-language and legendarium construction beginning well before The Hobbit's 1937 publication and continuing through The Lord of the Rings' 1948 completion -- attested by the surviving draft record held at the Bodleian, not only by his popularity."
+    },
+    "detail_orientation": {
+      "score": 88,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented construction of complete invented languages with internal grammar and history as scaffolding for the fiction, corroborated by the philological rigor of his day-job scholarship (his 1936 'Beowulf: The Monsters and the Critics' lecture, independently recognized as transformative to the field)."
+    },
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Inferred from the documented decade-plus gap between starting The Lord of the Rings and its 1948 completion while holding a full Oxford teaching post -- scored dual-edged since this same trait is well known (via publisher correspondence in the Letters) to have caused real, repeated delivery delays."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained output of a full academic scholarly career (Leeds, then two successive Oxford chairs, 1920-1959) in parallel with a decades-long creative project -- inferred discipline from maintaining both simultaneously over so long a period."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as treating Beowulf as a unified poetic work worth reading on its own artistic terms rather than only as philological source material -- a specific, dated (1936) scholarly position that ran against the field's prevailing approach at the time."
+    },
+    "aesthetic_sensitivity": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the sustained, internally-consistent invented mythology, languages, and geography built as an aesthetic and philological project in its own right, independent of the later commercial success of the novels built on top of it."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented as returning to and completing the Middle-earth legendarium project across decades and through the disruption of WWI service and a full academic career, corroborated by dated correspondence in the Letters spanning that period."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented sustained participation in the Inklings, a informal literary discussion group meeting regularly at Oxford (1930-1950) that included C. S. Lewis, corroborated independently by Lewis's own well-documented account of Tolkien's influence on his religious conversion."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Served as a Second Lieutenant at the Battle of the Somme (July-October 1916), including the assault on the Schwaben Redoubt, before contracting trench fever -- direct documented wartime service, scored moderate/neutral since evidence describes duty performed under conscription-era norms of his cohort, not a personally chosen risk beyond that."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from the documented career move from wartime service to lexicographical work on the Oxford English Dictionary (from 1918) to academic posts at Leeds then Oxford -- a real but not unusual professional path for the evidence available this cycle."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred narrowly from his own documented influence on, and by, C. S. Lewis's religious views over their friendship -- thinner evidence base than other rows, kept at inference level."
+    },
+    "mastery_orientation": {
+      "score": 85,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from reaching a genuinely foundational level of expertise in Old English and Germanic philology (evidenced by his named professorships and the still-cited 1936 Beowulf lecture) in parallel with equally deep invented-language construction."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Documented substantive output across academic philology, invented-language construction, and long-form fiction -- narrower range than a true polymath profile, kept moderate."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from sustained decades-long completion of a self-directed creative project alongside a full academic career, without stronger direct evidence of drive toward external recognition specifically."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q892) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known existence of the published Letters collection and Carpenter's authorized biography. Only 13 attributes scored this pass -- social/motivational-facet evidence (leadership_drive, social_assertiveness, competitiveness, autonomy_need, conflict_tolerance) was not strong enough this cycle to score defensibly; this profile leans heavily toward thinking/creativity/work-style attributes where the documented record is genuinely rich."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 14,
+    "averageConfidence": 0.536,
+    "coverage": 0.423,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Only 14 scored attributes (need 18); coverage 0.42 below the 0.6 threshold; 10 attributes at confidence>=0.5 (need 12). Strong on creativity/work-style evidence; this cycle's research did not surface strong social/motivational-facet evidence (leadership_drive, social_assertiveness, competitiveness, autonomy_need, conflict_tolerance). A deeper pass using the published Letters collection directly (rather than the Wikipedia summary of it) would likely close this gap."
+}
