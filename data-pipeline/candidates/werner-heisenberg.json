@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "werner-heisenberg",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Werner Heisenberg",
+    "wikidataId": "Q40904",
+    "birthYear": 1901,
+    "deathYear": 1976,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["DE"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["physicist"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific"],
+    "tagIds": ["nobel_laureate"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wh_wikipedia",
+      "kind": "wikipedia",
+      "title": "Werner Heisenberg",
+      "url": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+    },
+    {
+      "id": "src_wh_farm_hall",
+      "kind": "primary_transcript",
+      "title": "Farm Hall transcripts -- secretly recorded conversations among ten detained German nuclear physicists including Heisenberg, August 1945-January 1946, declassified 1992 (American Institute of Physics exhibit and archive)",
+      "url": "https://history.aip.org/exhibits/heisenberg/farm-hall.html"
+    },
+    {
+      "id": "src_wh_bohr_letters",
+      "kind": "primary_correspondence",
+      "title": "Niels Bohr's unsent draft letters to Heisenberg regarding their 1941 Copenhagen meeting, released by the Niels Bohr Archive in 2002, and Physics Today's summary of their content",
+      "url": "https://physicstoday.aip.org/news/bohr-letters-clarify-mystery"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented, primary-source: Bohr's own draft letters record Heisenberg telling him in 1941 that Germany was doing 'everything' to develop atomic weapons and that a long war could make them decisive, then, after the war, Heisenberg repeatedly and publicly asserted the opposite -- that he had visited specifically to propose physicists on both sides abstain from weapons work. Bohr's letters explicitly note this contradicts his own contemporaneous recollection. This is a real, dated, primary-source-documented inconsistency in Heisenberg's own account of his most consequential wartime act, scored dual-edged rather than simple advantage or risk."
+    },
+    "belief_updating": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented across two primary sources: Bohr's letters suggest Heisenberg may have 'lost faith in German victory' as the war progressed but 'no longer recalled' his earlier confident statements, while the Farm Hall transcripts (recorded on hearing of Hiroshima) show him still explaining the German program's failure in terms of funding and state distrust rather than a scientific reassessment -- scored low-moderate and dual-edged: a documented pattern of the postwar narrative diverging from the contemporaneous record, rather than an honest revision acknowledged as such."
+    },
+    "achievement_drive": {
+      "score": 75,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as having led Germany's wartime nuclear research effort and, separately and earlier, as having originated matrix mechanics and the uncertainty principle -- foundational, independently verifiable contributions to quantum theory that predate the war entirely, establishing achievement independent of the wartime controversy."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as personally directing Germany's uranium research program and its funding negotiations with the education ministry, stated in his own words at Farm Hall: 'the first time large funds were made available in Germany was in the spring of 1942,' crediting his own persuasion of state officials -- a specific, dated, self-described leadership act."
+    },
+    "risk_tolerance": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Documented traveling to Nazi-occupied Copenhagen in 1941 to meet Bohr in person on a subject of immense political sensitivity, at a time when the meeting itself -- regardless of its content -- carried real risk to both men under wartime surveillance; the encounter permanently damaged their decades-long friendship, a cost Heisenberg incurred and never fully repaired before Bohr's death."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented directly confronting Bohr with Germany's atomic-weapons potential and, according to Bohr's account, advising it would be unwise for Danes to reject 'German offers of cooperation' -- a specific, dated instance of directly raising a difficult, politically loaded subject with a respected mentor rather than avoiding it."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from his documented postwar transition from directing wartime nuclear research under a collapsed regime to rebuilding West German physics institutions (the Max Planck Institute for Physics), a specific, dated institutional pivot, though the Farm Hall/Bohr sources say more about the wartime period than the rebuilding itself."
+    },
+    "impact_motivation": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his own quoted Farm Hall remark that he was 'really glad' Germany's program was aimed at an energy-producing 'engine' rather than a bomb -- a real, sourced statement, but a single data point at moderate confidence given the postwar-narrative-consistency concerns already reflected in the belief_updating and conflict_tolerance rows above."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 8,
+    "averageConfidence": 0.449,
+    "coverage": 0.236,
+    "eligible": false,
+    "computedAt": "2026-09-06T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 8 scored attributes against the 18-attribute floor, 0.236 coverage against 0.6, only 2 attributes at confidence>=0.5 against the 12-attribute floor. Both primary sources actually consulted concentrate on the 1941-1945 period specifically, giving unusually strong evidence for a narrow set of conflict/belief-consistency rows but very little on his pre-war scientific working habits or post-war institutional life. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q40904) checked against the live Wikipedia article before scoring. Two genuinely independent primary-source classes actually fetched and read: the Farm Hall transcripts (secretly recorded, declassified 1992) and Niels Bohr's own draft letters regarding the 1941 meeting (released 2002, summarized by Physics Today). Unusually for this project's evidence base, this candidate's central incident is a real, documented, primary-source-attested INCONSISTENCY in his own postwar account rather than a single clean narrative -- scored accordingly with dual_edged impact and moderate rather than high confidence on the rows it touches, per the rubric's explicit instruction to read genuine contradictions as information rather than force a side. This candidate's evidence is deliberately narrower in behavioral domain (concentrated on the wartime period) than the other roster-19 candidates, since the two primary sources actually available both center on 1941-1945; pre-war and post-war biographical depth was not pursued this cycle."
+  }
+}

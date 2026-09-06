@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "subrahmanyan-chandrasekhar",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Subrahmanyan Chandrasekhar",
+    "wikidataId": "Q148109",
+    "birthYear": 1910,
+    "deathYear": 1995,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IN", "US"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["physicist", "astronomer"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific"],
+    "tagIds": ["nobel_laureate"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sc_wikipedia",
+      "kind": "wikipedia",
+      "title": "Subrahmanyan Chandrasekhar",
+      "url": "https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar"
+    },
+    {
+      "id": "src_sc_nas_memoir",
+      "kind": "biography",
+      "title": "Eugene N. Parker, \"Subrahmanyan Chandrasekhar 1910-1995\" -- National Academy of Sciences Biographical Memoir (1997)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/chandrasekhar-s.pdf"
+    },
+    {
+      "id": "src_sc_wali_review",
+      "kind": "book_review",
+      "title": "Review of Kameshwar C. Wali, \"Chandra: A Biography of S. Chandrasekhar\" (University of Chicago Press, 1991) -- scholarly reviews by Freeman Dyson (Physics Today) and William McCrea (Times Higher Education Supplement), summarizing the biography's documented account of Chandrasekhar's navigation of Indian, British, and American scientific culture",
+      "url": "https://www.academia.edu/20607283/Kameshwar_C_Wali_Chandra_A_biography_of_S_Chandrasekhar_Chicago_The_University_of_Chicago_Press_1991_Rezension_"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Parker's NAS memoir documents that after Eddington's public 1935 denunciation effectively closed doors to him across Britain, Chandrasekhar deliberately shifted his career to a new field (stellar dynamics, then radiative transfer, then plasma physics, then general relativity) roughly once a decade for the next 50 years rather than continuing to contest the same ground -- a specific, sustained, multi-decade redirection documented across the whole memoir, not a single episode."
+    },
+    "conflict_tolerance": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented in extraordinary detail: at the January 1935 Royal Astronomical Society meeting, Eddington -- after weeks of silently watching Chandrasekhar's work without comment -- publicly declared his correct calculation must be wrong on the spot, and no senior physicist present (including Fowler and Russell, both 'intimidated by Eddington's preeminence') defended him; Russell later refused to let him respond at a 1935 Paris conference, and again at a 1939 Paris colloquium. Chandrasekhar did not retract or fight publicly, instead leaving the field -- a real, dated, named, multi-year humiliation, scored dual-edged for its lasting professional cost."
+    },
+    "adaptability": {
+      "score": 80,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented systematically rebuilding his career after the Eddington affair closed his path in England: relocating to the University of Chicago via a special missionary visa (since no immigration quota existed for Indians), then, later, willingly leaving his own astronomy department after a 1952 curriculum dispute alienated him, joining Fermi's physics department instead -- two distinct, dated, forced professional pivots he converted into new opportunities."
+    },
+    "mastery_orientation": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained pattern of producing one authoritative monograph per research phase across a nearly 60-year career (stellar structure, stellar dynamics, radiative transfer, hydrodynamic stability, ellipsoidal figures, black holes, and finally a critical commentary on Newton's Principia at age 84) -- an independently verifiable bibliographic record, not a general reputation for brilliance."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as managing editor of the Astrophysical Journal from 1952 to 1971, personally handling production, refereeing, and community politics for two decades while maintaining an undiminished research and teaching output -- described in the memoir as 'an example of the extraordinary feats that can be accomplished through dedication and self-discipline to the exclusion of nearly everything else in one's life,' with his own admission that the burden went on longer than he ever intended."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented declining Princeton's 1946 offer to succeed Henry Norris Russell -- a prestigious, double-salary position -- specifically because he judged his actual research conditions at Chicago to be no worse, a judgment he made independently of the honor attached to the Princeton chair (a dialogue with Chancellor Hutchins over the decision is recorded in direct quotes in the memoir)."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as personally running the Yerkes Observatory's weekly colloquium for decades (giving the lecture himself at every 100th session, passing 500 before relocating campuses) and supervising 46 known PhD students, several of whom he 'appeared at critical moments' in the career of -- including the memoir's own author, a specific, named, first-person acknowledgment."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented working out the relativistic degenerate-electron-gas calculation that became his signature discovery aboard the ship to England in 1930, using the unstructured travel time productively before formal graduate study had even begun -- a specific, dated instance of self-directed resourceful use of otherwise-dead time."
+    },
+    "social_assertiveness": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented as generally not personally confronting Eddington despite disagreeing, and as spending 'a lonely but productive year' at Cambridge -- the memoir explicitly frames him as navigating conflict through withdrawal and redirection rather than direct confrontation, scored moderately rather than assuming assertiveness from his eventual stature."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented becoming a naturalized U.S. citizen in 1953 with Lalitha after concluding it was 'the only realistic choice' for their permanent life together, over his father's bitter and lasting objection that it was a betrayal of their cultural origins -- a specific, dated decision accepting real, sustained family estrangement as the cost of a considered life choice, scored dual-edged given that real cost."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from his documented multi-decade collaboration with B. C. Xanthopoulos and V. Ferrari on general relativity, and his earlier partnership with J. H. D. Jensen's contemporaries at Copenhagen and Gottingen, though the memoir describes his research style as more solitary and self-directed than collaborative overall."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from his sustained institutional service transferring the Astrophysical Journal's ownership from a single-university private holding to a broader American Astronomical Society structure specifically because he recognized the 'unstable character' of concentrating the field's leading journal under one person -- a documented act of prioritizing the field's institutional health over his own accumulated authority."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented Nobel Prize in Physics 1983, awarded fifty years after the original 1930s work it recognized -- an independently verifiable, decades-delayed vindication of the exact theory Eddington had publicly denounced."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 13,
+    "averageConfidence": 0.502,
+    "coverage": 0.400,
+    "eligible": false,
+    "computedAt": "2026-09-06T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 13 scored attributes against the 18-attribute floor, 0.400 coverage against 0.6, 8 attributes at confidence>=0.5 against the 12-attribute floor. The NAS memoir gives exceptional depth on the Eddington conflict, editorial career, and family strain, but the two sources actually consulted do not give enough independent behavioral detail across the creativity/social/motivation facets to score further. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q148109) checked against the live Wikipedia article before scoring. Sources actually consulted: the NAS Biographical Memoir (Parker, 1997) via direct PDF fetch, and a scholarly review of Wali's 1991 biography (quoting Freeman Dyson and William McCrea) as the second, genuinely independent source class."
+  }
+}

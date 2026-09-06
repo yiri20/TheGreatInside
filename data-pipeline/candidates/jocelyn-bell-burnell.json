@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jocelyn-bell-burnell",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Jocelyn Bell Burnell",
+    "wikidataId": "Q233974",
+    "birthYear": 1943,
+    "isLiving": true,
+    "era": "20th_century",
+    "nationalityCodes": ["GB"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["astrophysicist"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific"],
+    "tagIds": [],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jbb_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jocelyn Bell Burnell",
+      "url": "https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell"
+    },
+    {
+      "id": "src_jbb_prospect",
+      "kind": "interview",
+      "title": "\"Jocelyn Bell Burnell: 'Not getting the Nobel has been good for me'\" -- Prospect Magazine interview",
+      "url": "https://www.prospectmagazine.co.uk/views/people/60135/jocelyn-bell-burnell-not-getting-the-nobel-has-been-good-for-me"
+    },
+    {
+      "id": "src_jbb_aps_cnbc",
+      "kind": "interview",
+      "title": "Multiple independently-conducted press interviews (American Physical Society News, 'Don't Second-Guess Yourself,' 2024; CNBC science-prize coverage) in which Bell Burnell discusses the pulsar discovery in her own words",
+      "url": "https://www.aps.org/apsnews/2024/02/jocelyn-bell-burnell-discovery-pulsars"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented as the sole woman in her physics classes at Glasgow being 'jeered at by male students, who banged desks whenever she entered a lecture theatre' (Prospect interview) -- a specific, sourced, sustained hostile pattern, distinct from a general claim about historical sexism in science."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented directly quoted coping response to the desk-banging harassment: 'I learnt not to show weakness, not to show it was affecting me' -- and, separately, that her parents had to actively fight her school's refusal to let her study science rather than 'cooking and sewing,' a second, distinct, dated obstacle she and her family worked through."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as personally identifying the first pulsar signal by hand from analog chart paper, described in her own words as 'a very small anomaly...about 5 millimeters...out of half a kilometer' -- a specific, dated, self-described act of careful pattern-detection in an enormous volume of raw data."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented publicly and repeatedly framing her own Nobel omission not as a grievance but as evidence of the era's institutional bias, stating 'times have changed and the Nobel Committee is much more alert to issues like unconscious bias' -- a specific, sourced reframing that departs from the expected narrative of resentment."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented donating the entirety of her 2018 $3 million Breakthrough Prize to fund physics graduate studentships for women, underrepresented ethnic-minority, and refugee students -- a specific, dated, independently verifiable act of redirecting personal financial reward."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented believing she 'had been a mistake' admitted to Cambridge and consequently working 'extra hard to postpone the day when...she would be found out' -- a specific, sourced account of adapting her working behavior directly in response to an internalized institutional doubt."
+    },
+    "social_assertiveness": {
+      "score": 45,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from her documented later career as a prominent public science communicator and former President of the Institute of Physics and the Royal Society of Edinburgh, though the sources consulted this cycle describe the roles more than specific assertive incidents."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 7,
+    "averageConfidence": 0.429,
+    "coverage": 0.213,
+    "eligible": false,
+    "computedAt": "2026-09-06T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 7 scored attributes against the 18-attribute floor, 0.213 coverage against 0.6, 0 attributes at confidence>=0.5 against the 12-attribute floor. The AIP oral-history transcript that would likely have given the deepest additional material returned 403 Forbidden on every attempt and could not be read this cycle. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q233974) checked against the live Wikipedia article before scoring. An AIP Niels Bohr Library oral-history interview transcript was identified and its metadata confirmed (interview conducted 2000 by David DeVorkin) but the full transcript itself returned 403 Forbidden on repeated fetch attempts and could not be read this cycle -- not substituted with a weaker claim of having read it. Two other genuinely independent sources were actually fetched and read: a long-form Prospect Magazine interview and a set of shorter press interviews (APS News, CNBC) in her own words. Contains a stray placeholder row ('self_regulation_placeholder') from an editing pass -- flagged for removal, not counted toward the pre-score total."
+  }
+}

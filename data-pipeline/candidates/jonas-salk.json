@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jonas-salk",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Jonas Salk",
+    "wikidataId": "Q200101",
+    "birthYear": 1914,
+    "deathYear": 1995,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["medical_researcher", "virologist"],
+    "fieldIds": ["medicine"],
+    "impactDomains": ["scientific", "medical"],
+    "tagIds": [],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_js_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jonas Salk",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Salk"
+    },
+    {
+      "id": "src_js_pmc",
+      "kind": "journal_article",
+      "title": "\"Jonas Salk (1914-1995): A vaccine against polio\" -- PMC (NIH)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6351694/"
+    },
+    {
+      "id": "src_js_jacobs_biography_review",
+      "kind": "book_review",
+      "title": "Reviews and coverage of Charlotte DeCroes Jacobs, \"Jonas Salk: A Life\" (Oxford University Press, 2015), quoting Salk's own late-life remarks on the Sabin rivalry and his research assistant's assessment of it",
+      "url": "https://www.dallasnews.com/arts-entertainment/books/2015/06/06/biography-review-jonas-salk-a-life-by-charlotte-decroes-jacobs/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented administering his own experimental vaccine to himself, his wife, and their three children before wider human trials -- a specific, dated act of personal risk-taking to demonstrate confidence in an unproven medical intervention, scored dual-edged given the real safety uncertainty at the time."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented as never having been elected to the National Academy of Sciences despite curing polio, a snub multiple named colleagues attributed to jealousy or to his violation of the era's scientific-conduct norms via extensive press coverage of his results -- a specific, sourced, sustained professional exclusion, distinct from a general reputation claim."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented declining to patent the polio vaccine, later explaining he saw no more reason to patent it than to patent the sun -- an independently verifiable, dated decision that forwent substantial personal wealth in favor of unrestricted public distribution."
+    },
+    "achievement_drive": {
+      "score": 75,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as leading the 1954 field trial enrolling over one million pediatric subjects -- at the time the largest medical experiment in history -- with results announced April 12, 1955, an independently verifiable, specific, dated achievement."
+    },
+    "social_assertiveness": {
+      "score": 42,
+      "confidence": 0.38,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented, per his own research assistant's later account, as never having been heard to make a derogatory comment about his rival Albert Sabin even when Sabin sent him a copy of a critical letter -- a specific, sourced pattern of declining direct confrontation, scored moderately rather than assuming assertiveness from his public prominence."
+    },
+    "persuasiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented success in securing philanthropic and public support to found the Salk Institute for Biological Studies in 1965, though the two sources consulted describe the outcome more than the persuasive process."
+    },
+    "adaptability": {
+      "score": 52,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented pivot in later life from vaccine research to founding and directing an interdisciplinary research institute, though neither source gives a specific dated incident of the transition itself."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 7,
+    "averageConfidence": 0.450,
+    "coverage": 0.204,
+    "eligible": false,
+    "computedAt": "2026-09-06T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 7 scored attributes against the 18-attribute floor, 0.204 coverage against 0.6, only 3 attributes at confidence>=0.5 against the 12-attribute floor. Real, specific incidents exist (self-experimentation, the NAS exclusion, the patent refusal) but the two sources actually consulted this cycle are thinner than the physicists' NAS memoirs in this batch. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q200101) checked against the live Wikipedia article before scoring. Two genuinely independent sources actually fetched and read: a PMC (NIH) journal article and coverage/reviews of Charlotte Jacobs's full-length biography quoting Salk's own words on the Sabin rivalry. This candidate's evidence base is real but narrower than the other roster-19 candidates -- self-experimentation, the NAS exclusion, the patent refusal, and the trial scale are all well-documented single incidents, but the two sources consulted this cycle do not give enough additional dated behavioral material across the thinking/work-style facets to score more than seven attributes defensibly. A full read of Jacobs's 559-page biography (only reviewed secondhand here) would likely close this gap on a future pass."
+  }
+}

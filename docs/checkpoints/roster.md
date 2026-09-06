@@ -356,3 +356,26 @@ raises the target.
   rescued, padded, or rescored after seeing the validator's output.
   **Zero promotions; roster remains 125/124, unchanged.** Full record:
   [`roster18-multisource-intake.md`](roster18-multisource-intake.md).
+
+- **Roster-19 intake (2026-09, `feat/roster19-incident-depth-intake`)**:
+  a further-stricter follow-on from roster-18's finding that two
+  genuinely independent sources still capped out at 8-14 scored
+  attributes. New gate added on top of roster-18's source-depth
+  requirement: a preliminary behavioral-incident ledger, spanning several
+  domains and plausibly supporting ~20-22 attributes, must be built
+  *before* a candidate is even frozen for full research. Discovery pool
+  of 11 new people; 5 frozen after a genuine incident-breadth preflight
+  (not just a source-access check): Subrahmanyan Chandrasekhar, Vera
+  Rubin, Werner Heisenberg, Jonas Salk, Jocelyn Bell Burnell. Sources
+  actually fetched and read included NAS biographical memoirs
+  (Chandrasekhar, Rubin), Rubin's own 28-page autobiographical article
+  (an unusually rich near-primary source), and genuine primary material
+  for Heisenberg (the Farm Hall transcripts and Bohr's own unsent draft
+  letters about their 1941 meeting). **All 5 scored honestly and all 5
+  remain held** — but **Vera Rubin reached 19 scored attributes and 0.571
+  coverage, the first candidate across the entire roster-17/18/19 arc to
+  clear the raw 18-attribute floor**, and still falls short of full
+  `eligibility_v2` on coverage and the high-confidence-count/average
+  gate. No row was rescored after seeing this near-miss. Full record,
+  including the direct roster-18-vs-19 comparison:
+  [`roster19-incident-depth-intake.md`](roster19-incident-depth-intake.md).
