@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "norman-borlaug",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Norman Borlaug",
+    "wikidataId": "Q154824",
+    "birthYear": 1914,
+    "deathYear": 2009,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["scientist", "agronomist"],
+    "fieldIds": ["natural_science", "agriculture"],
+    "impactDomains": ["scientific", "humanitarian"],
+    "tagIds": ["nobel_laureate", "prolific"],
+    "archetypeIds": ["scientific_explorer", "resilient_builder"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nb_wikipedia",
+      "kind": "wikipedia",
+      "title": "Norman Borlaug",
+      "url": "https://en.wikipedia.org/wiki/Norman_Borlaug"
+    },
+    {
+      "id": "src_nb_nas_memoir",
+      "kind": "biography",
+      "title": "Ronald L. Phillips, \"Norman E. Borlaug 1914-2009\" -- National Academy of Sciences Biographical Memoir (2013)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/borlaug-norman.pdf"
+    },
+    {
+      "id": "src_nb_encyclopedia",
+      "kind": "biography",
+      "title": "\"Norman Ernest Borlaug\" -- Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/agriculture-biographies/norman-ernest-borlaug"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Phillips's NAS memoir documents Borlaug persisting with the 'shuttle breeding' technique across two Mexican sites despite colleagues believing the approach could not work, because it let him double breeding cycles per year -- a specific, dated methodological persistence that paid off unexpectedly (discovery of daylength insensitivity)."
+    },
+    "achievement_drive": {
+      "score": 92,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented working the field from before daylight until after dusk breeding thousands of wheat lines (NAS memoir, direct quote from a colleague who worked with him at Minnesota), sustained across decades, corroborated by the encyclopedia's account of the shuttle-breeding program reducing development time from a decade to five years."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly quoted response to environmentalist critics in the encyclopedia entry: 'Many of them are elitists. They've never experienced the physical sensation of hunger...If they lived just one month amid the misery of the developing world...they'd be crying out for tractors and fertilizer' -- a specific, sustained, public confrontation with a real and organized opposing camp, not a vague reputation for bluntness."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "NAS memoir documents Borlaug personally intervening when a wheat shipment to Pakistan was stalled by trucks caught in the Watts riots en route to the Los Angeles port, requiring 'several imaginative steps' to get the wheat onto ships -- a specific, dated, resourceful act under real logistical crisis."
+    },
+    "impact_motivation": {
+      "score": 88,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly quoted Nobel lecture text in the NAS memoir ('There can be no permanent progress in the battle against hunger until...') and his own mural inscription ('I cannot live comfortably in the midst of abject hunger') -- explicit, sourced statements of motivation tied to a lifetime of matching action."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented training of hundreds of 'hunger fighters' -- students personally recruited and directed toward making thousands of wheat crosses -- and, at age 91, personally threatening to sever ties with CIMMYT unless it acted faster on Kenyan stem rust, which produced results (NAS memoir)."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his sustained pursuit of the unconventional shuttle-breeding method against contemporaries' belief it could not work, though the memoir frames this more as methodological confidence than personal risk-taking."
+    },
+    "planning_orientation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from the systematic, multi-decade wheat-breeding program structure described in the NAS memoir, though the memoir emphasizes field persistence over documented planning process specifically."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented working roughly half the year at the Ciudad Obregon experiment station and the other half near Mexico City for decades, to the point his wife told a colleague he 'had been home for only four' of their sixty married years (NAS memoir, direct quote) -- a sustained, dated pattern with a real personal cost the memoir does not hide."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented preference for field work and results over administrative reporting, including the quoted remark 'Do you want paper, or wheat?' (NAS memoir)."
+    },
+    "mastery_orientation": {
+      "score": 75,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from producing at least 40 documented wheat varieties over four decades (NAS memoir Table 1) and continuing to personally direct rust-resistance research into his 90s."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented personally lobbying government leaders in multiple countries to adopt his wheat varieties despite bureaucratic resistance, and personally lobbying the Nobel Foundation (unsuccessfully) to create an agriculture prize, which led him to found the World Food Prize instead (NAS memoir)."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented pivot from a DuPont bactericide research role to wartime adhesive research after Pearl Harbor, and his later documented shift from initial skepticism of biotechnology to full advocacy for it once he saw its applications (NAS memoir, named source: Chris Doswell)."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his sustained cross-disciplinary work spanning plant pathology, genetics, and international policy, though neither source documents a specific curiosity-driven incident."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 14,
+    "averageConfidence": 0.505,
+    "coverage": 0.426,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 14 scored attributes against the 18-attribute floor, 0.426 coverage against 0.6, only 8 attributes at confidence>=0.5 against the 12-attribute floor. Ties with Pauling for the most attributes scored among the eight roster-18 candidates, but still short of the production floor. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q154824) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Phillips, 2013) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger built before scoring: shuttle-breeding persistence against colleague skepticism, half-a-year-away-from-home discipline (wife's quoted remark), Watts-riots wheat-shipment resourcefulness, direct confrontation with environmentalist critics, age-91 CIMMYT funding ultimatum, DuPont-to-wartime-research pivot, biotechnology skepticism-to-advocacy reversal."
+  }
+}

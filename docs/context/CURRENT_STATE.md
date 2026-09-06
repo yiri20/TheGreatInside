@@ -241,6 +241,27 @@ Zheng He remain)).
   Erdős) remain `held` — evidence-limited by the same single-source
   research pass, not by weak underlying evidence; each `holdReason` names
   what a deeper pass would need.
+  A roster-18 intake cycle (2026-09, `feat/roster18-multisource-intake`)
+  applied a stricter post-roster-17 gate requiring >=2 genuinely
+  independent, actually-opened sources per candidate before any scoring
+  (Wikipedia counted as orientation only, never as one of the two).
+  8 candidates (Linus Pauling, Elinor Ostrom, Norman Borlaug, Emilio
+  Segrè, Luis Alvarez, I. I. Rabi, Maria Goeppert Mayer, Rosalyn Yalow)
+  were frozen from a fresh 15-person discovery pool, each with a real
+  National Academy of Sciences biographical memoir (or, for Yalow, whose
+  memoir could not be located, a PMC/NIH tribute article) plus a second,
+  genuinely different source (mostly Encyclopedia.com's Complete
+  Dictionary of Scientific Biography reprints), both actually fetched and
+  read before any row was scored. All 8 scored honestly and **all 8 came
+  out below `eligibility_v2`'s 18-attribute floor** (range: 8-14 scored
+  attributes, 0.245-0.426 coverage) — a real two-source research pass,
+  even against unusually rich individual sources (Alvarez's NAS memoir
+  in particular), was not enough to reach the depth a committed roster
+  profile needs. No candidate was rescued or padded to cross the floor;
+  all 8 are held honestly. **Zero roster-18 candidates promoted; the
+  live roster is unaffected by this cycle** (still 125/124). Research-only
+  outcome, per plan. Full record:
+  [`docs/checkpoints/roster18-multisource-intake.md`](../checkpoints/roster18-multisource-intake.md).
   All roster-11 through roster-16 batches are merged to `main`: roster-16's
   9-person final intake batch merged as PR #9 (merge commit `7a6e306`);
   roster-15's 8-person batch merged as PR #8 (merge commit `33654c3` —

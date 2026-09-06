@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "linus-pauling",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Linus Pauling",
+    "wikidataId": "Q48983",
+    "birthYear": 1901,
+    "deathYear": 1994,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["chemist", "activist"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific", "social"],
+    "tagIds": ["nobel_laureate", "generalist", "nonconformist"],
+    "archetypeIds": ["scientific_explorer", "cross_disciplinary_generalist"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lp_wikipedia",
+      "kind": "wikipedia",
+      "title": "Linus Pauling",
+      "url": "https://en.wikipedia.org/wiki/Linus_Pauling"
+    },
+    {
+      "id": "src_lp_nas_memoir",
+      "kind": "biography",
+      "title": "Jack D. Dunitz, \"Linus Carl Pauling 1901-1994\" -- National Academy of Sciences Biographical Memoir (1997)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/pauling-linus.pdf"
+    },
+    {
+      "id": "src_lp_encyclopedia",
+      "kind": "biography",
+      "title": "\"Linus Carl Pauling\" -- Encyclopedia.com (Complete Dictionary of Scientific Biography)",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/chemistry-biographies/linus-carl-pauling"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Dunitz's NAS memoir documents formative contributions across quantum-chemistry bonding theory, protein structure, molecular-model-building as a laboratory tool, disease-as-molecular-process (sickle-cell anemia), and public political activism -- five genuinely distinct domains, not a reputation gloss."
+    },
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented origination of the resonance theory of the chemical bond and physical molecular models as a working scientific tool, corroborated independently by the encyclopedia entry's account of his formative role in five separate twentieth-century scientific developments."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from sustained X-ray crystallography structure-determination work described in the NAS memoir; the same rigor is what let him recognize, and publicly retract, his own DNA triple-helix model once its flaws were pointed out."
+    },
+    "ambiguity_tolerance": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented moment of intellectual humility in the NAS memoir: on seeing Franklin and Wilkins's data disproving his DNA triple-helix model, Pauling reportedly said only that he had made a mistake -- real but narrow, and the DNA episode itself shows the cost of publishing under real uncertainty."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented sustained public advocacy of megadose vitamin C therapy against near-unanimous medical-establishment rejection for the rest of his career (Dunitz memoir), continuing well past the point of professional cost -- scored dual-edged given the therapy's contested/unproven status."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented in the NAS memoir: dismissal of and subsequent lawsuits involving Arthur Robinson, a former collaborator, over the vitamin C research program -- a real, sustained interpersonal/legal conflict. The encyclopedia entry separately documents Pauling joining other Caltech faculty in denying employment or promotion to colleagues with religious affiliations in the 1930s-40s, a documented instance of the same willingness to act on conflict crossing into discriminatory conduct -- scored dual-edged, not simply advantage, to avoid rewarding this."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented refusal of Oppenheimer's 1943 invitation to join the Manhattan Project, remaining at Caltech instead (encyclopedia.com) -- a specific, dated, named decision to pursue his own research direction over the era's most prestigious wartime scientific appointment."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented childhood hardship: his father, a struggling druggist, died in 1910; his mother, chronically ill, ran a boardinghouse; all three children worked from an early age (encyclopedia.com). Pauling could not afford to continue past his sophomore year at Oregon Agricultural College until the department itself hired him to teach a course, at $100/month, so he could return."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly documented: unable to afford tuition, Pauling secured a teaching appointment from his own department at the last minute specifically to fund his return to school -- a concrete, dated resourceful act under real financial constraint, not a general trait inference."
+    },
+    "achievement_drive": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The only individual to receive two unshared Nobel Prizes (Chemistry 1954, Peace 1962), a specific and independently verifiable record cited in both sources."
+    },
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the sustained, decades-long depth of contribution within chemistry (bonding theory through protein structure) that the NAS memoir documents, rather than breadth alone."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the same documented Manhattan Project refusal and his sustained pursuit of the vitamin C program alone against consensus opposition -- a real but narrower data point than a fully independent second incident would give."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented decades of public political activism and lecturing (both sources), which required a sustained public-facing posture, though neither source gives a specific interpersonal incident to score more confidently."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented invention of physical molecular-model-building as a working laboratory method (Dunitz memoir), though the memoir describes the outcome more than the iterative process itself."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 14,
+    "averageConfidence": 0.523,
+    "coverage": 0.423,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 14 scored attributes against the 18-attribute floor, 0.423 coverage against the 0.6 floor, 9 attributes at confidence>=0.5 against the 12-attribute floor. Two genuinely independent sources (NAS Dunitz memoir + Encyclopedia.com/CDSB entry) were actually opened and read, satisfying the minimum source-depth gate, and both a real conflict domain (Robinson dismissal/lawsuits, discriminatory hiring conduct) and a real risk/ambiguity domain (vitamin C advocacy, DNA-model retraction) are represented -- this is not a structurally-thin profile. The gap is coverage of the thinking/work_style/motivation facets specifically, which the two sources actually consulted do not address with enough behavioral specificity to score defensibly. Held, not rescued: no score or confidence was adjusted after seeing this output.",
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-18 intake (2026-09), first candidate scored under the stricter multi-source evidence gate established after the roster-17 evidence-integrity correction. Wikidata identity (Q48983) checked against the live Wikipedia article before scoring. Both listed sources were actually fetched and read in full (not merely cited) -- the NAS Biographical Memoir via a direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger drawn from these two sources only, built before any row was scored: DNA-model retraction and intellectual-humility moment, vitamin C advocacy against consensus, Robinson dismissal/lawsuits, discriminatory hiring conduct against religious faculty, Manhattan Project refusal, childhood financial hardship and the $100/month teaching appointment, two unshared Nobel Prizes. Scored once, conservatively; result is held on coverage, not on any defect in the evidence gathered -- accepted as an honest outcome per the standing instruction not to research toward eligibility."
+  }
+}

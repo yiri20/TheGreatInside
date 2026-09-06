@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "emilio-segre",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Emilio Segrè",
+    "wikidataId": "Q173028",
+    "birthYear": 1905,
+    "deathYear": 1989,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IT", "US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["physicist"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific"],
+    "tagIds": ["nobel_laureate"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_es_wikipedia",
+      "kind": "wikipedia",
+      "title": "Emilio Segrè",
+      "url": "https://en.wikipedia.org/wiki/Emilio_Segr%C3%A8"
+    },
+    {
+      "id": "src_es_nas_memoir",
+      "kind": "biography",
+      "title": "J. David Jackson, \"Emilio Gino Segrè 1905-1989\" -- National Academy of Sciences Biographical Memoir, Vol. 81 (2002)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/segr-emilio.pdf"
+    },
+    {
+      "id": "src_es_encyclopedia",
+      "kind": "biography",
+      "title": "\"Emilio Segre\" -- Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/people/history/historians-miscellaneous-biographies/emilio-segre"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Jackson's NAS memoir directly describes Segrè as \"proud, aloof, and somewhat intimidating,\" with \"an edge to his personality... and his tendency to criticize\" that the memoir traces to feeling insufficiently recognized for the technetium discovery -- a specific, sourced, sustained personality pattern rather than a vague trait guess, corroborated by the encyclopedia entry's account of his son describing him as \"often remote, preoccupied with work and critical rather than encouraging\" and his early nickname \"Basilisk\" because \"his glance made a deep, if not lethal, impression.\""
+    },
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented co-discovery of two new chemical elements (technetium, astatine) and the antiproton, for which he shared the 1959 Nobel Prize -- an independently verifiable record across two decades and two different research programs."
+    },
+    "decisiveness": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as speaking up decisively at a contentious 1970 Berkeley lab meeting over splitting the Livermore weapons lab from the pure-science lab -- against his own reputation for caution -- with the specific quoted line \"Logic argues for separation... If funding suffers, so be it,\" which the memoir credits with carrying the vote -- a single, dated, high-stakes institutional decision."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as leading the Los Alamos group that measured plutonium's spontaneous fission rate (directly enabling the switch to implosion-bomb design) and later as the more \"managerial\" co-head of the Berkeley antiproton-discovery group, described in the memoir as comfortable delegating execution to trusted associates while retaining final scientific authority."
+    },
+    "impact_motivation": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his sustained institutional service (20 years editing the Annual Review of Nuclear Science, chairing Fermi's collected-papers editorial board, 30 PhD students trained) rather than from a single documented incident."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented emigrating from Italy in 1938 specifically because of rising anti-Semitism, arriving as \"a visitor\" and rebuilding an entire career from a temporary research-associate appointment to a full Berkeley professorship over eight years -- a specific, dated, forced life disruption he adapted to successfully."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented switching from an engineering track to physics in 1927 against his father's wishes, after \"sneaking into\" a physics conference in Como (encyclopedia.com) -- a specific, dated act of pursuing a discouraged path."
+    },
+    "curiosity": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented keeping notebooks of childhood experiments and reading the popular-science magazine La scienza per tutti as a boy (encyclopedia.com), a specific early data point corroborated by his sustained later career authoring popular histories of physics."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented persuading Ernest Lawrence in 1936 to let him take discarded, cyclotron-irradiated parts back to an under-resourced Palermo laboratory specifically to search for undiscovered activity in them -- the resourceful act that directly led to the technetium discovery."
+    },
+    "persistence": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from sustained multi-year pursuit of element 43 across two continents and two lab setups, though the memoir documents the outcome more than a specific persistence incident."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from sustained depth of contribution within nuclear and particle physics across four decades (atomic spectroscopy, slow neutrons, transuranic chemistry, antiproton discovery), documented across both sources."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 11,
+    "averageConfidence": 0.483,
+    "coverage": 0.334,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 11 scored attributes against the 18-attribute floor, 0.334 coverage against 0.6, only 4 attributes at confidence>=0.5 against the 12-attribute floor. Both sources actually consulted (NAS memoir, Encyclopedia.com) document a real personality/conflict domain (aloofness, feeling under-recognized, son's 'remote' characterization) and a real career-history domain well, but leave the thinking/creativity/work_style facets largely unaddressed with specific enough behavioral detail to score. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q173028) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Jackson, 2002) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Incident ledger deliberately includes the documented negative/difficult side of his personality (aloofness, criticism, feeling under-recognized, his son's 'remote' characterization) rather than only achievement highlights, per the diversity-of-behavior gate -- and scores conflict_tolerance dual_edged rather than a flat advantage as a result."
+  }
+}

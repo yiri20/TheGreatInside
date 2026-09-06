@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "elinor-ostrom",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Elinor Ostrom",
+    "wikidataId": "Q153761",
+    "birthYear": 1933,
+    "deathYear": 2012,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["economist", "political_scientist"],
+    "fieldIds": ["social_science"],
+    "impactDomains": ["scientific", "policy"],
+    "tagIds": ["nobel_laureate"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_eo_wikipedia",
+      "kind": "wikipedia",
+      "title": "Elinor Ostrom",
+      "url": "https://en.wikipedia.org/wiki/Elinor_Ostrom"
+    },
+    {
+      "id": "src_eo_nas_memoir",
+      "kind": "biography",
+      "title": "Bonnie J. McCay and Joan Bennett, \"Elinor Ostrom 1933-2012\" -- National Academy of Sciences Biographical Memoir (2014)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/ostrom-elinor.pdf"
+    },
+    {
+      "id": "src_eo_encyclopedia",
+      "kind": "biography",
+      "title": "\"Ostrom, Elinor 1933-\" -- Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/arts/educational-magazines/ostrom-elinor-1933"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 75,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The NAS memoir documents a poor-background childhood and a gap of roughly a decade between her 1954 undergraduate degree and 1965 doctorate, spent partly in non-academic employee-relations and personnel roles (corroborated by the encyclopedia entry's specific job titles and dates) before she was able to return to graduate study and an eventual professorship."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented 2010 interview quote (cited in the NAS memoir) describing her deliberate choice to zero out her own salary at points to support junior faculty -- a specific, dated act of accepting real personal financial cost for a stated institutional-building goal."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented real, dated 1954 gender discrimination in the academic job market described in the NAS memoir as a direct contributor to her decade-long detour into non-academic employee-relations work before returning to a doctorate -- a specific, sourced adverse incident, not an assumed hardship."
+    },
+    "resourcefulness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from her documented sequence of employee-relations and personnel-department roles (Godfrey L. Cabot Inc., then UCLA) that she leveraged into eventual re-entry to academia, though neither source documents the specific mechanism of that transition."
+    },
+    "achievement_drive": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented steady rise from visiting assistant professor in 1965 to the endowed Arthur F. Bentley Professor of Political Science by 1991, and eventual sole-woman 2009 Nobel Prize in Economic Sciences for pioneering common-pool-resource research -- an independently verifiable institutional and scholarly record."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from her documented simultaneous co-directorship of the Workshop in Political Theory and Policy Analysis and the Center for the Study of Institutions, Population, and Environmental Change -- both explicitly collaborative, co-led research centers, though the sources describe the roles more than specific collaborative incidents."
+    },
+    "curiosity": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from her documented research spanning cognitive science, institutional economics, and environmental policy, though neither source gives a dated curiosity-specific incident."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained focus across her career on how real institutions govern shared common-pool resources (fisheries, forests, irrigation systems) rather than abstract theory alone, and the concrete salary-zeroing act above, both pointing toward a documented orientation to material outcomes for others."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 8,
+    "averageConfidence": 0.434,
+    "coverage": 0.245,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 8 scored attributes against the 18-attribute floor, 0.245 coverage against 0.6, only 1 attribute at confidence>=0.5 against the 12-attribute floor. This is the thinnest of the eight roster-18 candidates -- the two sources actually consulted (NAS memoir, Encyclopedia.com) document career/institutional history and two genuine incidents (1954 job-market discrimination, deliberate salary sacrifice) well, but not enough dated behavioral specificity across the thinking/creativity/work_style facets to score defensibly. Held, not rescued: no attempt was made to inflate confidence or add rows without new evidence to cross the floor.",
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q153761) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (McCay & Bennett, 2014) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. A candidate second source specifically identified in the NAS memoir's own references (an Annual Reviews 'Conversations' interview transcript with Margaret Levi) was attempted but returned a dead link (404) -- not substituted with a weaker source merely to pad the count; the two sources actually read are reported honestly. This is the thinnest evidence base of the eight roster-18 candidates: real incidents exist (1954 discrimination, deliberate salary sacrifice) but the two sources consulted describe career/institutional history more than dated behavioral incidents, which caps confident scoring at a moderate number of attributes."
+  }
+}
