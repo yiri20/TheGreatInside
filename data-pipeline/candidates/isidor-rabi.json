@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "isidor-rabi",
+  "status": "held",
+  "identity": {
+    "canonicalName": "I. I. Rabi",
+    "wikidataId": "Q165969",
+    "birthYear": 1898,
+    "deathYear": 1988,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["physicist"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific", "policy"],
+    "tagIds": ["nobel_laureate"],
+    "archetypeIds": ["scientific_explorer", "institution_builder"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ir_wikipedia",
+      "kind": "wikipedia",
+      "title": "Isidor Isaac Rabi",
+      "url": "https://en.wikipedia.org/wiki/Isidor_Rabi"
+    },
+    {
+      "id": "src_ir_nas_memoir",
+      "kind": "biography",
+      "title": "Norman F. Ramsey, \"I. I. Rabi 1898-1988\" -- National Academy of Sciences Biographical Memoir (1993)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/rabi-i-i.pdf"
+    },
+    {
+      "id": "src_ir_encyclopedia",
+      "kind": "biography",
+      "title": "\"Isidor Isaac Rabi\" -- Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/isidor-isaac-rabi"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ramsey's NAS memoir documents Rabi's doctoral research being, \"characteristically,\" on a subject of his own choosing with a novel technique that simplified the experiments, rather than his advisor's assigned problem -- a specific, dated instance of self-directed research, corroborated by the encyclopedia entry's account that as a student he \"pursued his own interests outside of class, reading four or five books per week\" while merely attending lectures."
+    },
+    "mastery_orientation": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented invention of the molecular-beam magnetic resonance method, cited by the NAS memoir as the theoretical basis for essentially all subsequent magnetic resonance research (including what became MRI), and his 1988 published tribute crediting Stern and Pauli specifically with teaching him 'taste and insight... a feeling for what was good and what is not so good' -- a direct, dated, sourced articulation of his own standard for mastery."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented that during his doctoral dissertation research he procrastinated on measurements until discovering a shortcut in a Maxwell treatise that let him complete the remaining work in six weeks (encyclopedia.com) -- a specific, dated resourceful shortcut under self-imposed time pressure."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented deciding against Harvard graduate study and instead enrolling at Columbia specifically to stay near Helen Newmark, whom he married the day after submitting his dissertation (encyclopedia.com and NAS memoir) -- a specific, dated life decision prioritizing a relationship over an otherwise-attractive institutional choice."
+    },
+    "decisiveness": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly quoted rejecting protracted statistical analysis of his molecular-beam data: 'This was not for me. I'm going to know my answer by the end of the day' (encyclopedia.com) -- a specific, sourced statement of his working style."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as an eloquent defender of Oppenheimer at the 1954 AEC security-clearance hearings, and as co-authoring with Fermi a strong memorandum opposing a crash hydrogen-bomb program against the prevailing political current of the time (NAS memoir) -- two distinct, dated instances of taking a costly public position."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as originating the proposal that led to Brookhaven National Laboratory, pioneering the advocacy that led to CERN, initiating the International Conferences on the Peaceful Uses of Atomic Energy, and being largely responsible for the 1957 creation of the President's Science Advisory Committee -- an unusually verified record of institution-building rather than personal research output alone."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented as having \"floundered\" for three years after his 1919 Cornell graduation, working uninteresting jobs before returning to graduate study (encyclopedia.com) -- a specific, dated early-career gap that complicates a simple high-achievement-drive-from-birth reading, scored moderately to reflect it honestly."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented publishing his first scientific paper, on radio-condenser design, while still in elementary school, and educating himself extensively from public-library books on socialism, science, radio, and technology (NAS memoir) -- a specific, dated early pattern."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from documented chaotic-but-stimulating classroom lectures and his effective chairmanship of the Columbia Physics Department, though neither source gives a single sharply dated interpersonal incident."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from his documented range spanning pure atomic-beam research, wartime radar engineering leadership, and government science-policy statesmanship -- three genuinely distinct domains, though each is thinner in behavioral detail than the physics research itself."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 11,
+    "averageConfidence": 0.465,
+    "coverage": 0.330,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 11 scored attributes against the 18-attribute floor, 0.330 coverage against 0.6, only 3 attributes at confidence>=0.5 against the 12-attribute floor. The two sources actually consulted document his research and institution-building record well but give few sharply dated interpersonal or working-habit incidents beyond the ones scored here. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q165969) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Ramsey, 1993) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Incident ledger deliberately includes the documented three-year post-graduation drift ('floundering') rather than presenting only a smooth achievement narrative, per the diversity-of-behavior gate."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rosalyn-yalow",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Rosalyn Yalow",
+    "wikidataId": "Q107402",
+    "birthYear": 1921,
+    "deathYear": 2011,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["physicist", "medical_researcher"],
+    "fieldIds": ["natural_science", "medicine"],
+    "impactDomains": ["scientific", "medical"],
+    "tagIds": ["nobel_laureate"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ry_wikipedia",
+      "kind": "wikipedia",
+      "title": "Rosalyn Sussman Yalow",
+      "url": "https://en.wikipedia.org/wiki/Rosalyn_Sussman_Yalow"
+    },
+    {
+      "id": "src_ry_pmc_madame_curie",
+      "kind": "journal_article",
+      "title": "\"Rosalyn Yalow (1921-2011): Madame Curie from the Bronx\" -- PMC (NIH), reproducing an obituary/tribute drawing on her own autobiographical account",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6658655/"
+    },
+    {
+      "id": "src_ry_encyclopedia",
+      "kind": "biography",
+      "title": "\"Rosalyn Sussman Yalow\" -- Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/people/medicine/medicine-biographies/rosalyn-sussman-yalow"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented explicit, quoted rejections from graduate physics programs on the stated grounds \"She is from New York. She is Jewish. She is a woman,\" and a department chair's dismissal of her near-perfect coursework record with \"That A- confirms that women do not do well at laboratory work\" (PMC source) -- two specific, dated, directly quoted discriminatory incidents she worked through rather than around."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented response to the same graduate-school rejections: rather than accept them, she enrolled in stenography courses and took secretarial work at Columbia specifically to stay adjacent to research until a graduate position opened at the University of Illinois -- a concrete, dated persistence strategy, not a general trait claim."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented refusal to patent the radioimmunoassay technique she co-developed, quoted as saying \"Patents are about keeping things away from people for the purpose of making money\" (PMC source) -- a specific, dated act forgoing substantial personal financial gain on principle, scored dual-edged given the real cost."
+    },
+    "independent_thinking": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented declining the 1978 Ladies' Home Journal Woman of the Year award, writing to the editor that sex-restricted awards are \"inconsistent and unwise\" -- a specific, dated, named public stance against a form of recognition many would have simply accepted."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as the first female physics graduate student at the University of Illinois in nearly 40 years, later the second woman to win the Nobel Prize in Physiology or Medicine, for a technique (radioimmunoassay) whose foundational paper was initially rejected by both Science and the Journal of Clinical Investigation before publication in 1959 -- an independently verifiable record of achievement against documented, specific resistance."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented 22-year research partnership with Solomon Berson until his death in 1972, described in the encyclopedia entry as explicitly complementary in skillset (\"Berson wanted to be a physicist, and I wanted to be a medical doctor\") -- a specific, sustained, named collaborative relationship."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented working as the sole female engineer/physicist in workplaces with hundreds of male colleagues at both the University of Illinois College of Engineering (400 professors) and the Federal Telecommunications Laboratory (encyclopedia.com) -- a specific, sustained, isolating professional environment she operated within for years."
+    },
+    "resourcefulness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented pivot into stenography/secretarial training specifically as a means of staying near research work after graduate programs rejected her -- the same incident scored above for persistence, also read as a resourceful workaround under real constraint."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Inferred from her documented refusal to patent radioimmunoassay specifically so it could be freely used across medicine, though the PMC source frames this primarily as a statement of principle rather than a fully developed motivational profile."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 9,
+    "averageConfidence": 0.503,
+    "coverage": 0.274,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 9 scored attributes against the 18-attribute floor, 0.274 coverage against 0.6, only 5 attributes at confidence>=0.5 against the 12-attribute floor. The two sources actually consulted give an unusually strong conflict/adversity domain (explicit quoted discrimination, principled award/patent refusals) but not enough additional working-habit or thinking-facet detail to close the gap. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q107402) checked against the live Wikipedia article before scoring. No National Academy of Sciences Biographical Memoir for Yalow could be located after a genuine search (search results returned only her collaborator Solomon Berson's memoir); rather than substitute a weaker guess, two other genuinely independent sources were actually fetched and read in full: a PMC (NIH)-hosted tribute article drawing on her own autobiographical account, and the Encyclopedia.com biographical entry. Incident ledger is unusually strong specifically in the conflict/adversity domain (explicit quoted discriminatory rejections, a hospital admission failure late in life) relative to the other roster-18 candidates, most of whose primary sources were friendlier institutional memoirs."
+  }
+}

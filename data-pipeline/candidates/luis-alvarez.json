@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "luis-alvarez",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Luis Alvarez",
+    "wikidataId": "Q178344",
+    "birthYear": 1911,
+    "deathYear": 1988,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["physicist", "inventor"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific", "innovation"],
+    "tagIds": ["nobel_laureate", "generalist", "prolific"],
+    "archetypeIds": ["scientific_explorer", "technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_la_wikipedia",
+      "kind": "wikipedia",
+      "title": "Luis Walter Alvarez",
+      "url": "https://en.wikipedia.org/wiki/Luis_Walter_Alvarez"
+    },
+    {
+      "id": "src_la_nas_memoir",
+      "kind": "biography",
+      "title": "W. Peter Trower, \"Luis Walter Alvarez 1911-1988\" -- National Academy of Sciences Biographical Memoir (2009)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/alvarez-luis-w.pdf"
+    },
+    {
+      "id": "src_la_encyclopedia",
+      "kind": "biography",
+      "title": "\"Luis Walter Alvarez\" -- Encyclopedia.com (Complete Dictionary of Scientific Biography)",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/luis-walter-alvarez"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Trower's NAS memoir documents that on arriving at the Rad Lab \"spectacularly unqualified\" to contribute, Alvarez read every published nuclear-physics journal article in the physics library within a year, discovering that important papers could be spotted by the darkened, fingered edges of their pages -- a specific, dated, self-directed learning episode, corroborated independently by the encyclopedia entry's account of the same period."
+    },
+    "mastery_orientation": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented eidetic recall demonstrated when the memoir's author casually mentioned an obscure paper and Alvarez recounted its content, the page a key graph appeared on, and where on the page to find it -- a specific, witnessed incident, not a general reputation claim."
+    },
+    "creative_originality": {
+      "score": 90,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented invention of Ground Control Approach radar landing, the Microwave Early Warning system, the VIXEN anti-submarine deception radar, the hydrogen bubble chamber design, and the extraterrestrial-impact explanation for the K-T mass extinction -- five separately documented, unrelated inventions across a five-decade career."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Inferred from his repeated pursuit of speculative, likely-to-fail projects late in career (magnetic monopole search, pyramid-chamber search, balloon-borne antiparticle spectrometer that ultimately fell into the Pacific), documented in the NAS memoir as producing negative results more often than positive ones."
+    },
+    "adaptability": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented pivot from a stalled pre-war nuclear-physics research program (abandoned when the Materials Testing Accelerator project collapsed and left him \"exhausted and dispirited\") to becoming, within a few years and after his own students tutored him in an unfamiliar field, the leader of the bubble-chamber program that won him the Nobel Prize -- a specific, dated professional reinvention following a real documented setback."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented as having no commitment to intellectual consistency and readily abandoning yesterday's enthusiasm for a new one (memoir, direct quote from a colleague), which the memoir itself frames as the opposite of dogged persistence on any single idea -- scored moderately, not high, to reflect this documented pattern honestly rather than assuming persistence from his overall output."
+    },
+    "conflict_tolerance": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented publicly and personally demolishing colleagues' wrong results (e.g. Buford Price's magnetic monopole claim, Dewey McLean's volcanism explanation for the K-T extinction), and separately that his post-war falling-out with lab director McMillan directly caused his resignation as associate director -- two distinct, dated interpersonal-conflict incidents from the same source."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented building and directing a bubble-chamber research group of several hundred physicists, engineers, technicians, and programmers, while deliberately declining co-authorship credit he felt he had not earned -- a documented leadership style, not an assumed one."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Documented reluctance to be listed as a coauthor on papers even when he had contributed to the analysis, for fear of overshadowing junior colleagues -- a specific, sourced trait that complicates rather than confirms a simple high achievement-drive reading, scored accordingly."
+    },
+    "cross_domain_range": {
+      "score": 85,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented substantive work across cosmic-ray physics, wartime radar engineering, nuclear-weapon design at Los Alamos, particle-detector instrumentation, ophthalmic optics (a commercial autorefractor), forensic film analysis (the Zapruder film), Egyptology (pyramid muon scans), and paleontology (K-T extinction) -- an unusually verified breadth, all independently documented in the NAS memoir."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from his documented practice of sitting with students and postdocs at lunch rather than senior staff, and being reachable by anyone with a complaint -- a real but narrow interpersonal data point."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented immediately recognizing the significance of Don Glaser's bubble-chamber observation for physics research and specifying, on the spot, the three requirements (hydrogen liquid, large volume, automated analysis) that became the winning design -- a specific, dated recognition-of-opportunity incident."
+    },
+    "decisiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from the documented pattern of vetting an idea quickly with trusted colleagues before either abandoning or fully committing to it, though this is described more as a testing habit than a single decisive act."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 13,
+    "averageConfidence": 0.513,
+    "coverage": 0.393,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 13 scored attributes against the 18-attribute floor, 0.393 coverage against 0.6, only 7 attributes at confidence>=0.5 against the 12-attribute floor. This candidate had the richest single source of the eight (an unusually detailed, firsthand-witness NAS memoir) and still falls well short of the production floor -- a direct illustration that even strong secondary-source depth from two sources cannot substitute for the multi-book research a full committed-roster profile needs. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q178344) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Trower, 2009, an unusually rich firsthand-witness account by a close collaborator) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger built before scoring, deliberately including unflattering/contradictory data points (documented lack of intellectual consistency, reluctance to claim credit, McMillan falling-out) rather than only achievement highlights, per the diversity-of-behavior gate."
+  }
+}

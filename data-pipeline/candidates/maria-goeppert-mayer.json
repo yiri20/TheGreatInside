@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maria-goeppert-mayer",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Maria Goeppert Mayer",
+    "wikidataId": "Q57100",
+    "birthYear": 1906,
+    "deathYear": 1972,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["DE", "US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["physicist"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific"],
+    "tagIds": ["nobel_laureate"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mgm_wikipedia",
+      "kind": "wikipedia",
+      "title": "Maria Goeppert Mayer",
+      "url": "https://en.wikipedia.org/wiki/Maria_Goeppert_Mayer"
+    },
+    {
+      "id": "src_mgm_nas_memoir",
+      "kind": "biography",
+      "title": "Robert G. Sachs, \"Maria Goeppert Mayer 1906-1972\" -- National Academy of Sciences Biographical Memoir (1979)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/mayer-maria.pdf"
+    },
+    {
+      "id": "src_mgm_encyclopedia",
+      "kind": "biography",
+      "title": "\"Maria Goeppert Mayer\" -- Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/maria-goeppert-mayer"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Both sources document nine years without a regular academic appointment at Johns Hopkins, working under a nepotism rule that barred hiring her alongside her husband, sustained on a \"very modest assistantship\" with no title -- a specific, dated, prolonged institutional obstacle she worked through rather than around."
+    },
+    "intuitive_synthesis": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly documented in the NAS memoir: when Fermi, on his way out of her office to take a phone call, asked whether there was any indication of spin-orbit coupling, she \"immediately realized that was the answer,\" with Fermi himself surprised at how quickly she connected it -- a specific, witnessed, dated incident of rapid synthesis that led directly to the nuclear shell model."
+    },
+    "curiosity": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented quoted childhood remark, responding to her father's discouragement of domesticity: \"I wasn't going to be just a woman\" -- and her own account that he was \"more interesting\" than her mother \"because he was a scientist\" -- two specific, sourced early statements shaping her orientation toward science."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented pivot at Columbia's SAM Laboratory during WWII, described by the encyclopedia entry as \"a turning point in her career\" because she was for the first time working without her husband's emotional support and bore independent responsibility for supervising others -- a specific, dated professional shift under real personal pressure."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented mixed feelings about wartime uranium-isotope-separation work that \"turned to distaste\" over time (encyclopedia.com) -- a specific, sourced instance of continuing ethically uncomfortable work rather than stepping away from it, scored dual-edged rather than a simple advantage."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented preference for matrix mechanics over the more commonly taught Schroedinger wave mechanics, and her own description of viewing physical theories \"as tools for solving physics problems,\" unconcerned with their philosophical structure -- a specific, sourced intellectual stance distinct from her contemporaries."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented suffering a stroke shortly after finally receiving a full, regular professorship at UC San Diego in 1960, leaving an arm paralyzed, yet continuing to teach and publish (including a 1966 review article) until her death in 1972 -- a specific, dated setback she continued working through."
+    },
+    "achievement_drive": {
+      "score": 75,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as the second woman to win the Nobel Prize in Physics, achieved from a voluntary/part-time appointment rather than a full professorship at the time of the discovery -- an independently verifiable, unusually constrained-circumstance achievement."
+    },
+    "social_assertiveness": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Inferred from her documented role directing thesis students and lecturing at the Institute for Nuclear Studies, though the memoir describes her lecturing style (dense, technical, little background context) more than interpersonal assertiveness specifically."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from documented substantive contributions across double-photon quantum theory, chemical-physics lattice theory (with Max Born), wartime isotope-separation chemistry, and nuclear shell structure -- genuinely distinct subfields, though thinner in behavioral specificity than the shell-model episode itself."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 10,
+    "averageConfidence": 0.480,
+    "coverage": 0.311,
+    "eligible": false,
+    "computedAt": "2026-09-05T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 10 scored attributes against the 18-attribute floor, 0.311 coverage against 0.6, only 4 attributes at confidence>=0.5 against the 12-attribute floor. The two sources document a rich single incident (the Fermi spin-orbit-coupling episode) and real institutional hardship (nine unpaid years) well, but do not give enough additional dated behavioral detail across most facets. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q57100) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Sachs, 1979, written by her first PhD student) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Incident ledger deliberately includes the nine-year unpaid-appointment period, the documented 'distaste' toward wartime bomb-adjacent work, and the post-1960 stroke rather than presenting only the Nobel-Prize narrative, per the diversity-of-behavior gate."
+  }
+}

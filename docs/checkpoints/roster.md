@@ -323,3 +323,36 @@ raises the target.
   despite strong evidence. Roster remains 125 people, 124 match-eligible
   — unchanged by this cycle. Full record:
   [`roster17-intake-and-safety.md`](roster17-intake-and-safety.md).
+
+- **Roster-18 intake (2026-09, `feat/roster18-multisource-intake`)**:
+  a deliberately stricter follow-on cycle established directly from the
+  roster-17 failure above, whose root cause was single-source scoring
+  masquerading as multi-source. New binding gate before any candidate is
+  scored: >=2 genuinely independent, actually-opened source classes
+  (Wikipedia counts only as orientation, never as one of the two); a
+  behavioral incident ledger built from those sources before scoring;
+  at least one real constraint/conflict/setback domain, not a purely
+  flattering profile; and a pre-score disposition (ready to score vs.
+  structurally thin) rather than scoring by default. Discovery pool of
+  15 new people (excluding all 125 live, all held/rejected candidates
+  from every prior cycle, and Che Guevara/Nellie Bly/Carl Jung/Katharine
+  Hepburn); 8 frozen after a breadth+depth preflight: Linus Pauling,
+  Elinor Ostrom, Norman Borlaug, Emilio Segrè, Luis Alvarez, I. I. Rabi,
+  Maria Goeppert Mayer, Rosalyn Yalow. For 7 of the 8 the first source
+  was a National Academy of Sciences biographical memoir (Yalow's could
+  not be located after a genuine search; a PMC/NIH tribute article
+  substituted); the second, independent source for every candidate was
+  actually fetched and read (mostly Encyclopedia.com's Complete
+  Dictionary of Scientific Biography reprints, one PMC article). **All 8
+  scored honestly and all 8 came out below `eligibility_v2`'s
+  18-attribute floor** (8-14 scored attributes, 0.245-0.426 coverage,
+  0-9 attributes at confidence>=0.5) — real evidence, deliberately
+  including unflattering incidents (Segrè's documented aloofness and
+  under-recognition grievance, Alvarez's documented lack of intellectual
+  consistency, Pauling's documented discriminatory hiring conduct,
+  Rabi's three-year post-graduation drift), but a two-source secondary/
+  tertiary research pass genuinely could not reach committed-roster
+  depth even against unusually rich individual sources. No candidate was
+  rescued, padded, or rescored after seeing the validator's output.
+  **Zero promotions; roster remains 125/124, unchanged.** Full record:
+  [`roster18-multisource-intake.md`](roster18-multisource-intake.md).
