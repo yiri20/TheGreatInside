@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "vera-rubin",
+  "status": "held",
+  "identity": {
+    "canonicalName": "Vera Rubin",
+    "wikidataId": "Q234888",
+    "birthYear": 1928,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["astronomer"],
+    "fieldIds": ["natural_science"],
+    "impactDomains": ["scientific"],
+    "tagIds": [],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vr_wikipedia",
+      "kind": "wikipedia",
+      "title": "Vera Rubin",
+      "url": "https://en.wikipedia.org/wiki/Vera_Rubin"
+    },
+    {
+      "id": "src_vr_nas_memoir",
+      "kind": "biography",
+      "title": "Neta A. Bahcall, \"Vera C. Rubin 1928-2016\" -- National Academy of Sciences Biographical Memoir (2021)",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/rubin-vera.pdf"
+    },
+    {
+      "id": "src_vr_autobiography",
+      "kind": "autobiography",
+      "title": "Vera C. Rubin, \"An Interesting Voyage\" -- Annual Review of Astronomy and Astrophysics 49 (2011): 1-28",
+      "url": "https://www.sea-astronomia.es/sites/default/files/annurev-astro-081710-102545_ok_0.pdf"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rubin's own memoir documents a sustained childhood pattern of specific, unprompted physical questions (why the moon seemed to follow the car, how water knew which side of a rock to pass) that she says never diminished, still 'no less' 80 years later -- a specific, dated, self-described lifelong pattern, not a general reputation."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, directly quoted: when her department chairman offered to give her 1950 conference talk under his own name because she had a new baby and was not an AAS member, she replied 'No. I can go' and did -- a specific, dated refusal to cede authorship of her own work."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sitting through 'many angry sounding men' publicly disputing her first conference talk in 1950, and, separately, the 1965 Palomar incident where she papered a 'MEN' bathroom sign with a hand-cut skirt-shape reading 'Women' rather than simply enduring the restriction quietly -- two distinct, dated, sourced incidents of confronting rather than avoiding conflict."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented in her own memoir: when a journal editor said he would publish her 1962 paper but would not credit her student co-authors by name, she said 'Then I withdraw the paper,' and he relented -- a specific, dated, successful assertive act on behalf of others, not herself."
+    },
+    "mastery_orientation": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained observational career from 1965 to the 2000s producing the flat-rotation-curve evidence for dark matter, corroborated across both sources with a specific, dated publication record (1970 Andromeda paper, 1978 extended sample paper) rather than a single result."
+    },
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented specific working recipe with longtime collaborator Kent Ford ('Please give me the finding chart' / 'No, now it's my turn,' alternating every exposure for years) and separately her account of a roughly 50/50 authorship arrangement worked out with Margaret and Geoffrey Burbidge in La Jolla -- two distinct, dated collaborative patterns, not a general claim of being collegial."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented, quoted in full: her four-sentence 1972 letter of recommendation for Sandra Faber's first faculty position, explicitly predicting she 'may one day be the Director' of the observatory she was applying to (a prediction that came true) -- a specific, dated act of institutional sponsorship."
+    },
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented sustained pattern (NAS memoir) of writing letters of recommendation that explicitly chastised astronomy departments for having no women faculty, and monitoring conference speaker lists to demand more women be invited -- described as continuous over decades, not a single letter."
+    },
+    "adaptability": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented deliberate 1964 decision to give up a ten-year teaching position at Georgetown specifically because observing had become more important to her, then walking into an all-male department (DTM, no female staff since 1904) unannounced to ask for a job -- a specific, dated career pivot into an unwelcoming environment."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented specific technique she devised for loading photographic film in total darkness without error (cutting two identical pieces, using one as a light-safe tester before loading the real one) -- a concrete, dated procedural invention under real observational constraints, explained step by step in her own words."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented recognizing, within a single first night of observing, that the M31 rotation curve was unexpectedly flat rather than declining -- and, separately, requesting a two-dimensional measuring machine from her director before he 'expected' the request by a full year -- two distinct, dated instances of anticipating a need or result early."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented continuing to publish and pursue flat-rotation-curve results across the 1960s-70s despite the 'many' comments she received being 'negative and some very unpleasant' -- a specific, dated pattern of sustained publication against real professional pushback, scored dual-edged given the genuine social cost she describes."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented walking into the Carnegie Institution's DTM in January 1965 and asking director Bernard Burke directly for a job with no prior application -- a specific, dated act of pursuing an institutional position through direct initiative rather than a formal process."
+    },
+    "deep_focus": {
+      "score": 65,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented specific incident of spending 'hours with each sheet' of Baade's M31 plates identifying emission regions, and a separate account of a research group finishing a paper 'long into the night' around her kitchen table -- concrete, dated instances of sustained concentrated work, not a general claim of diligence."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly quoted, twice across four decades: in 2010, asked whether she would be disappointed if dark matter turned out not to exist, she said she would 'be delighted, since the non-Keplerian rotation curves are an empirical observation of hitherto not understood physics, and one needs to keep an open mind' -- a specific, sourced statement of comfort with her life's central finding remaining unresolved."
+    },
+    "persuasiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from the documented outcomes of her advocacy (departments hiring women faculty after her letters, conference organizers adding women speakers after her complaints, an observatory changing its bathroom policy) -- real, dated, verifiable results rather than an assumed trait, though the memoir describes the outcomes more than the persuasive process itself."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from documented substantive activity across observational galaxy dynamics, K-12 astronomy education outreach on Navajo/Hopi reservations described at length in her memoir (via her collaborator Deidre Hunter, whom she personally championed), and federal science policy (National Science Board, testifying before Congress) -- three genuinely distinct domains."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from her own detailed 1985 day-by-day calendar reproduced in the memoir, showing a sustained, dense schedule of observing runs, committee meetings, and travel sustained across decades while also raising four children -- a specific, dated documentary record rather than an assumed work ethic."
+    },
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as producing the observational evidence now credited as the clearest confirmation of dark matter, corroborated independently across both sources, alongside a specific, sourced editorial note that the Nobel Prize 'missed their opportunity' to recognize it -- an achievement record independently verified, not self-reported alone."
+    }
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 19,
+    "averageConfidence": 0.504,
+    "coverage": 0.571,
+    "eligible": false,
+    "computedAt": "2026-09-06T00:00:00Z"
+  },
+  "holdReason": "Validator output (mechanical, not adjusted): 19 scored attributes -- above the 18-attribute floor, the highest of any roster-19 or roster-18 candidate -- but 0.571 coverage still falls just short of the 0.6 floor, and the high-confidence-count/average combination does not clear eligibility_v2's second gate. This is the closest miss produced by either the roster-18 or roster-19 evidence gate: two genuinely independent, unusually rich sources (a colleague's NAS memoir and Rubin's own 28-page autobiography) were enough to clear the raw attribute-count floor for the first time this arc, but not the coverage/confidence combination. No further research was conducted and no row was rescored after seeing this result, despite how close it is -- exactly the discipline this project's confidence-change policy (docs/scoring-rubric-v1.md Section 10) exists to enforce. Held, not rescued.",
+  "provenance": {
+    "createdAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q234888) checked against the live Wikipedia article before scoring. Two genuinely independent sources actually fetched and read in full: the NAS Biographical Memoir (Bahcall, 2021, a colleague's account) and Rubin's own 28-page autobiographical article 'An Interesting Voyage' (Annual Review of Astronomy and Astrophysics, 2011) -- an unusually rich near-primary source in the subject's own words, covering specific dated incidents across childhood, graduate school, five different observatories, collaboration, mentorship, family life, and public service. Incident ledger built before scoring; each row traces to a distinct, dated episode rather than a single fact repackaged across rows -- verified by name before finalizing (1950 Haverford AAS incident, 1962 student-credit withdrawal, 1965 Palomar bathroom sign, 1965 DTM hire, the M31 flat-rotation discovery night, the Faber recommendation letter, the film-loading technique, the 2010 open-mindedness quote, the sustained advocacy pattern for women in science, the 1985 calendar, the education-outreach and science-policy work -- eleven distinct sourced episodes underlying nineteen rows)."
+  }
+}

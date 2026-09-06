@@ -262,6 +262,21 @@ Zheng He remain)).
   live roster is unaffected by this cycle** (still 125/124). Research-only
   outcome, per plan. Full record:
   [`docs/checkpoints/roster18-multisource-intake.md`](../checkpoints/roster18-multisource-intake.md).
+  A roster-19 intake cycle (2026-09, `feat/roster19-incident-depth-intake`)
+  added a stricter gate on top of roster-18's: a preliminary behavioral-
+  incident ledger must plausibly support ~20-22 attributes *before* a
+  candidate is frozen, not just after. 5 candidates frozen from an
+  11-person pool (Chandrasekhar, Rubin, Heisenberg, Salk, Bell Burnell),
+  each with >=2 genuinely independent sources actually fetched and read,
+  including Rubin's own 28-page autobiography and, for Heisenberg, real
+  primary material (the Farm Hall transcripts, Bohr's own unsent letters).
+  **All 5 held. Vera Rubin reached 19 scored attributes, 0.571 coverage —
+  the first candidate in the roster-17/18/19 arc to clear the raw
+  18-attribute floor** — yet still falls short of full `eligibility_v2` on
+  coverage and the high-confidence gate; not rescored after seeing this
+  near-miss. **Zero promotions; roster unaffected, still 125/124.**
+  Full record:
+  [`docs/checkpoints/roster19-incident-depth-intake.md`](../checkpoints/roster19-incident-depth-intake.md).
   All roster-11 through roster-16 batches are merged to `main`: roster-16's
   9-person final intake batch merged as PR #9 (merge commit `7a6e306`);
   roster-15's 8-person batch merged as PR #8 (merge commit `33654c3` —
