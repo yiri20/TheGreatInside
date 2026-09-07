@@ -512,3 +512,28 @@ raises the target.
   quality but not attribute breadth/coverage. Held honestly, no rescue.
   Roster unaffected: still 125 people, 124 match-eligible. Full record:
   [`roster22-deep-evidence-intake.md`](roster22-deep-evidence-intake.md).
+
+- **Roster-23 broad-context deep-evidence intake (2026-09,
+  `feat/roster23-broad-context-deep-evidence`)**: tested whether a source
+  ecosystem spanning genuinely DIFFERENT life contexts (not just more
+  sources on the same public-achievement domain, roster22's Garibaldi
+  limitation) would beat Garibaldi's breadth/coverage. Selected **Anton
+  Chekhov** — his own letters (1875-1904) plus three separately-authored
+  independent memoirs (Gorky, Kuprin, Bunin) — genuinely broad coverage
+  (formation, family, work habits, mentorship given/received, criticism,
+  the 1896 Seagull failure and recovery, the 1898 Dreyfus Affair, civic
+  work, later-life illness), confirmed not `CONTEXTUALLY_THIN`. Scored
+  once to 14 attributes, coverage 0.416, 7 high-confidence rows, average
+  0.566 — **worse than Garibaldi on every metric** (17/0.501/9/0.604)
+  despite richer absolute context coverage. Mechanism: broad-context
+  sources each covered different, non-overlapping facets of his life, so
+  most dimensions rested on only 1 source, while Garibaldi's narrower
+  sources repeatedly corroborated the SAME few dimensions at high
+  confidence — breadth of context and depth of per-dimension
+  corroboration are in tension. Held honestly, no rescue. Two consecutive
+  deep-research cycles with opposite strategies have now both failed
+  `eligibility_v2` the same way (3 of 4 criteria); per the brief, roster24
+  was **not** automatically started —
+  `ROSTER_EXPANSION_METHOD_REQUIRES_DECISION`. Roster unaffected: still
+  125 people, 124 match-eligible. Full record:
+  [`roster23-broad-context-deep-evidence.md`](roster23-broad-context-deep-evidence.md).

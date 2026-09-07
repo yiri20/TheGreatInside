@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "anton-chekhov",
+  "status": "held",
+  "holdReason": "eligibility_v2 fails on 3 of 4 criteria: 14 scored attributes (need 18), coverage 0.416 (need 0.6), 7 attributes at confidence >=0.5 (need 12); high-confidence average 0.566 passes (need 0.55). Despite genuinely broad behavioral-context coverage (formation, family, work habits, mentorship given/received, criticism, failure/recovery, civic engagement, values under pressure, later-life illness) across 4 distinct provenance perspectives, this candidate scores WORSE than roster22's Giuseppe Garibaldi on every metric (14 vs 17 scored, 0.416 vs 0.501 coverage, 7 vs 9 high-confidence count, 0.566 vs 0.604 high-confidence average). The mechanism: broad domain coverage meant most individual dimensions were documented by only ONE of the 4 available sources (each source tended to cover different, non-overlapping facets of his life), whereas Garibaldi's narrower concentration on his public/military life let all 3 of his sources repeatedly corroborate the SAME few dimensions (risk_tolerance, decisiveness, leadership_drive) at high confidence. Breadth of life-context coverage and depth of per-dimension corroboration are in tension, not aligned, when independent sources are read for genuinely different content rather than multiple accounts of the same events.",
+  "computedEligibility": {
+    "scoredAttributeCount": 14,
+    "averageConfidence": 0.449,
+    "coverage": 0.416,
+    "eligible": false,
+    "computedAt": "2026-09-08T00:00:00Z"
+  },
+  "identity": {
+    "canonicalName": "Anton Chekhov",
+    "wikidataId": "Q5685",
+    "birthYear": 1860,
+    "deathYear": 1904,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["RU"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["writer", "physician"],
+    "fieldIds": ["literature", "medicine"],
+    "impactDomains": ["literary", "cultural"],
+    "tagIds": ["overcame_adversity"],
+    "archetypeIds": ["independent_creator"]
+  },
+  "sources": [
+    { "id": "src_ac_letters", "kind": "archive", "title": "Anton Chekhov, Letters of Anton Chekhov to His Family and Friends (trans. Constance Garnett, 1920) — his own correspondence, spanning 1875-1904", "url": "https://www.gutenberg.org/files/6408/6408-h/6408-h.htm" },
+    { "id": "src_ac_reminiscences", "kind": "biography", "title": "Maxim Gorky, Alexander Kuprin, and I. A. Bunin, Reminiscences of Anton Chekhov (trans. S. S. Koteliansky and Leonard Woolf) — three separately-authored independent memoirs by close friends/fellow writers", "url": "https://www.gutenberg.org/files/37129/37129-h/37129-h.htm" },
+    { "id": "src_ac_gerhardi", "kind": "biography", "title": "William Gerhardi, Anton Chehov: A Critical Study (1923) — independent scholarly study, used only for one directly biographical (non-literary-critical) passage on his family origins", "url": "https://archive.org/stream/in.ernet.dli.2015.178467/2015.178467.Anton-Chehov-A-Critical-Study_djvu.txt" },
+    { "id": "src_ac_wikipedia", "kind": "wikipedia", "title": "Anton Chekhov", "url": "https://en.wikipedia.org/wiki/Anton_Chekhov" }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independent sources converge on a sustained pattern of concealed self-control under serious illness across different periods: his own 1894 letters document hiding hemorrhaging from his family ('Don't tell Masha and Mother') while continuing his medical and literary work; Kuprin's independent memoir documents that he bore his final illness 'with manly simplicity and patience, without irritation, without complaints, almost in silence'; Bunin's independent memoir separately documents that for 15 years he suffered 'an exhausting illness... but his readers never knew it,' deflecting concern with 'Oh, it's nothing.' Three genuinely distinct authors, separate observations, same sustained pattern."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independent sources converge on sustained, generous investment in others across different episodes: his own 1900 letters to Gorky document warm, sustained mentorship correspondence sharing his health and creative process candidly; Gorky's own independent memoir documents him gently redirecting an aspiring writer's pretentious philosophizing back toward authentic experience; Kuprin's independent memoir documents him requiring a struggling young writer to work in his own house each morning specifically so he could look after him ('you will write downstairs, and I upstairs... you will have dinner with me')."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Two independent sources converge on a documented reserve about his own private process: Kuprin's memoir notes 'nobody ever managed to find him writing: in this respect he was extraordinarily reserved and shy'; Bunin's memoir separately states 'the reserve... never disappeared even when we were most intimate. He was reserved about everything.' Two distinct authors, same underlying temperament, different specific observations."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own 1898 letters document two distinct facts on the Dreyfus Affair: a detailed, morally engaged defense of Dreyfus's dignity against a hostile press and antisemitic reaction, and a considered, independently-reasoned position that a writer's duty is to 'champion even the guilty' rather than align with state power ('Let Dreyfus be guilty, and Zola is still right'). Self-authored only, but two independently-verifiable distinct facts from the same source, meeting this project's single-perspective strong_inference criterion."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "His own November 1896 letters document two distinct facts around the disastrous premiere of The Seagull: his private devastation and shame at the hostile reception ('vexed and ashamed... if kind-hearted people thought it necessary to comfort me, it meant I was in a bad way'), and his own account of recovering emotional equilibrium specifically after a friend's reassuring letter ('My mind is at rest now, and I can think of the play... without loathing'). Self-authored only, two distinct facts (the reaction and the specific recovery mechanism)."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own 1885-86 letters document two distinct facts about his medical practice: charging modest fees ('three or five roubles') while treating half his patients for free, and personally absorbing significant daily travel costs ('more than a rouble on cabs') to visit patients, often uncompensated. Self-authored only, two distinct facts supporting a genuine other-oriented motivation in his medical work."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge on a specific social skill, from different episodes: Gorky's memoir documents him deflecting three pretentious society ladies' political posturing by redirecting them to a trivial topic (candied fruits), after which 'all three began to talk with vivacity'; Kuprin's memoir separately documents his extraordinary patience managing 'constant rings on the telephone' and a perpetual stream of visitors seeking favors, including one who faked needing a medical consultation solely for an autograph."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own letters document defending his story 'Mire' against Madame Kiselyov's charge of moral degradation, arguing 'a writer is not a confectioner... he must conquer his squeamishness' and refusing to sanitize human experience for readers' comfort. Single self-authored episode, hence inference."
+    },
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same defense of 'Mire' also documents him explicitly framing his own working method as objective and clinical, comparing a writer to 'a chemist' who must remain dispassionate about his subject matter rather than moralize — a distinct dimension (method) from the conflict_tolerance row above (willingness to defend the position against criticism), though drawn from the same underlying quote, disclosed transparently. Single episode, hence inference."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own letters document self-initiated civic work near Melihovo beyond his medical/literary work: elected to the Zemstvo, active in the local cholera campaign, and personally responsible for building a road from the Lopasnya station and schools at three named villages. Single self-authored account, hence inference."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own 1886 letter to his troubled brother Nikolay delivers structured, frank moral advice (respect for others' personhood, honoring debts, sincerity) rather than a vague scolding — a specific persuasive attempt to change his brother's conduct. Single self-authored episode, hence inference."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Bunin's independent memoir quotes his own stern maxim to an aspiring writer: 'One must work... without sparing oneself... all one's life.' A single independent source's quoted statement, hence inference despite being non-self-authored."
+    },
+    "detail_orientation": {
+      "score": 56,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Bunin's independent memoir separately quotes his specific craft advice to the same aspiring writer: 'When one has written a story one ought to strike out both the beginning and the end. That is where we novelists are most inclined to lie.' A distinct fact from the persistence row above (specific editorial method vs. general work ethic), from the same source, hence still inference-level given it is a single quoted instance."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own letters document that Grigorovich's 1886 encouragement transformed his approach to writing, from admittedly careless ('mechanically, half-unconsciously... in the bathing-shed') to serious craft. Single self-authored episode, hence inference."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-08T00:00:00Z",
+    "updatedAt": "2026-09-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster23 broad-context deep-evidence intake. Deliberately selected to test whether source ecosystems spanning genuinely DIFFERENT life contexts (not just multiple sources on the same public-achievement domain, roster22's Garibaldi limitation) improve breadth/coverage. 4 genuinely distinct, actually-read provenance perspectives: (1) Chekhov's own letters (self), read across 1875-1904, covering family finances, medical practice, craft development, the 1896 Seagull failure, the 1898 Dreyfus Affair, and his final Badenweiler months; (2) Maxim Gorky's independent memoir; (3) Alexander Kuprin's independent memoir; (4) Ivan Bunin's independent memoir — the latter three published together but each a separately-authored, individually-attributed personal account, read and cited by author throughout. A 5th source (William Gerhardi's scholarly study) was checked but found to be almost entirely literary criticism of Chekhov's fiction rather than biographical material about the man; only one directly biographical fact (his grandfather's serf origins) was usable and is not cited in any scored row (context-only). Behavioral-context coverage is genuinely broad: formation (grandfather/father's serf origins), private/family (brother Nikolay, illness concealment, marriage/care at Badenweiler), professional work habits (medical practice, private writing routine), collaboration/mentorship (both received from Grigorovich and given to Gorky/named proteges), conflict/criticism (the Kiselyov 'Mire' dispute), failure and recovery (the 1896 Seagull premiere), values under pressure (the Dreyfus Affair), civic/institutional engagement (Zemstvo, cholera campaign, infrastructure), and later-life adaptation (Badenweiler). 14 rows scored; 7 rest on 2-3 independently-converging sources. No score was adjusted after computing eligibility."
+  }
+}
