@@ -379,3 +379,31 @@ raises the target.
   gate. No row was rescored after seeing this near-miss. Full record,
   including the direct roster-18-vs-19 comparison:
   [`roster19-incident-depth-intake.md`](roster19-incident-depth-intake.md).
+
+- **Roster-20 intake (2026-09, `feat/roster20-auditable-breadth-intake`)**:
+  replaced roster19's informal pre-freeze breadth estimate with a literal,
+  counted, fact-cluster-capped attribute map, built and audited *before*
+  any candidate JSON is created (no single episode may be the primary
+  basis for more than 3 proposed attributes — enforced, not just stated).
+  9-candidate discovery pool; source-access gate passed 5 (Helen Keller,
+  Aleksandr Solzhenitsyn, Emma Goldman, Clara Barton, John Muir), failed 4
+  on `SOURCE_ACCESS_INSUFFICIENT` (Charles Lindbergh, P. T. Barnum, Carl
+  Sagan, Jackie Robinson — real biographies exist but every edition
+  checked was Internet-Archive lending-restricted or otherwise
+  unreadable). Full literal mapping completed for 3 (Keller, Solzhenitsyn,
+  Goldman), each from genuinely opened and read primary/near-primary
+  sources (Keller's own three memoirs; Solzhenitsyn's *The Gulag
+  Archipelago* and 1978 Harvard address; Goldman's *Living My Life* and
+  *My Disillusionment in Russia*). **Literal mapped-attribute counts: 11
+  (Keller), 8 (Goldman), 5-6 (Solzhenitsyn) — all below the >=20 freeze
+  floor**, and lower than roster19's informal estimates for similarly-
+  sourced candidates would have predicted. **Zero candidates frozen, zero
+  candidate JSON created, zero scoring performed** — the breadth shortfall
+  was caught at the pre-score mapping stage rather than after a full
+  evidence pack and scoring pass, which is this cycle's explicit
+  methodological goal. Clara Barton and John Muir passed source access
+  with real incidents read but were not carried to a full mapping pass
+  this cycle (time-budget gap, honestly disclosed, not a rejection).
+  Roster unaffected: still 125 people, 124 match-eligible. Full record,
+  including the literal per-candidate fact-cluster tables:
+  [`roster20-auditable-breadth-intake.md`](roster20-auditable-breadth-intake.md).

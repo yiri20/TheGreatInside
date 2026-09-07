@@ -4,7 +4,41 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-05 (PR #9 merged and production-verified:
+Last updated: 2026-09-06 (roster-20 auditable-breadth intake,
+`feat/roster20-auditable-breadth-intake`: replaced roster19's *informal*
+pre-freeze breadth estimate with a literal, counted, fact-cluster-capped
+attribute map built and audited *before* any candidate JSON is created.
+Discovery pool of 9 new candidates; source-access gate (>=2 independent
+sources actually opened, Internet Archive lending-restricted items
+verified per-item and rejected when blocked) passed 5 (Helen Keller,
+Aleksandr Solzhenitsyn, Emma Goldman, Clara Barton, John Muir) and failed 4
+(Charles Lindbergh, P. T. Barnum, Carl Sagan, Jackie Robinson —
+`SOURCE_ACCESS_INSUFFICIENT`, real biographies exist but every edition
+checked was lending-restricted or otherwise unreadable). Full literal
+incident/fact-cluster/attribute mapping was completed for 3 (Keller,
+Solzhenitsyn, Goldman): 9-12 incidents and 3-6 fact clusters each, all
+genuinely read from actually-opened primary/near-primary sources (Keller's
+own three memoirs; Solzhenitsyn's *The Gulag Archipelago* and 1978 Harvard
+address; Goldman's *Living My Life* and *My Disillusionment in Russia*).
+Applying the fact-cluster cap (no single episode may be the primary basis
+for more than 3 proposed attributes) honestly, literal mapped-attribute
+counts came out at 11 (Keller), 8 (Goldman), 5-6 (Solzhenitsyn) — **all
+below the >=20-attribute freeze floor**, and notably lower than roster19's
+informal per-candidate estimates typically claimed for similarly-sourced
+candidates. **Zero candidates frozen, zero candidate JSON created, zero
+scoring performed** — the shortfall was caught at the literal pre-score
+mapping stage, before any research investment in a full evidence pack or
+scoring pass, which is this cycle's explicit methodological goal. Clara
+Barton and John Muir passed source access with real incidents read
+(Patent Office harassment and Red Cross leadership conflict for Barton;
+childhood hardship, a near-death well accident, and paternal conflict over
+his scientific work for Muir) but were not carried to a full mapping pass
+this cycle — an honest scope gap, not a rejection. Roster unaffected:
+still 125 people, 124 match-eligible. Research-only outcome, per plan.
+Full record, including the literal per-candidate fact-cluster tables and
+the roster18-vs-19-vs-20 methodology comparison:
+[`roster20-auditable-breadth-intake.md`](../checkpoints/roster20-auditable-breadth-intake.md).
+Prior update, 2026-09-05 (PR #9 merged and production-verified:
 `feat/roster16-final-intake` merged to `main` — merge commit
 `7a6e306e6ce0f3bed43eecaceb1856b0004d43d8`, first-parent diff mechanically
 confirmed to exactly match the reviewed 36-file PR scope, no extra file
