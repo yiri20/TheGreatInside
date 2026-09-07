@@ -4,10 +4,32 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-06 (roster-20 auditable-breadth intake,
-`feat/roster20-auditable-breadth-intake`, PR #16 — corrected and
-completed after two rounds of review, unmerged: replaced roster19's
-*informal* pre-freeze breadth estimate with a literal, counted,
+Last updated: 2026-09-06 (eligibility/evidence methodology calibration
+audit, `chore/eligibility-evidence-calibration`, read-only: before
+starting roster21, audited whether the roster20 pre-freeze gate (>=20
+literal, fact-cluster-capped attributes) can be reproduced on a
+deterministic, non-cherry-picked sample of 5 already-live production
+people (Julius Caesar, Isaac Newton, Ludwig van Beethoven, Malala
+Yousafzai, Abraham Lincoln — selected mechanically from `PEOPLE_INDEX`
+metadata, not hand-picked). **0 of 5 cleared the pre-freeze floor**
+(median fresh literal attribute count 9, range 5-13), including Beethoven
+(cleared every other criterion) and three of the most extensively
+documented figures in the roster. All 5 already clear `eligibility_v2` in
+production at 21-32 scored attributes — the pre-freeze predictor is
+rejecting inputs its own downstream target already accepts at a 5-of-5
+rate. Classified `CURRENT_GATE_MISALIGNED_WITH_EXISTING_PRODUCTION_STANDARD`.
+Recommendation: keep `eligibility_v2` and every existing threshold
+unchanged (none were touched); revisit the pre-freeze prediction rule,
+specifically the interaction between the `<=3`-attributes-per-fact-cluster
+dedup cap and literal attribute counting, before roster21 — a decision
+left to a separate future task, not made here. Zero production people,
+candidate JSON, seed/roster/index/dispersion/editorial/portrait/i18n data
+touched. Full record:
+[`eligibility-evidence-calibration.md`](../checkpoints/eligibility-evidence-calibration.md).
+Prior update, 2026-09-06 (roster-20 auditable-breadth intake,
+`feat/roster20-auditable-breadth-intake`, PR #16 — corrected, completed,
+and **merged** as `57ae109e3b9263cf682116ef99c34e77fb57b3ff`: replaced
+roster19's *informal* pre-freeze breadth estimate with a literal, counted,
 fact-cluster-capped attribute map built and audited *before* any candidate
 JSON is created, and normalized one definition used inconsistently across
 two earlier drafts — **independent-provenance count = the number of

@@ -414,3 +414,22 @@ raises the target.
   literal per-candidate fact-cluster tables and the source-independence
   correction:
   [`roster20-auditable-breadth-intake.md`](roster20-auditable-breadth-intake.md).
+
+- **Eligibility/evidence methodology calibration audit (2026-09,
+  `chore/eligibility-evidence-calibration`, read-only, no production data
+  touched)**: before starting roster21, audited whether the current
+  roster20-style pre-freeze gate can be reproduced on a deterministic,
+  non-cherry-picked sample of 5 already-live production people (Julius
+  Caesar, Isaac Newton, Ludwig van Beethoven, Malala Yousafzai, Abraham
+  Lincoln). **0 of 5 cleared the >=20-literal-attribute pre-freeze floor**
+  (median fresh literal count: 9, range 5-13) — including Beethoven, who
+  cleared every other criterion, and three of the roster's most
+  extensively documented figures. Classified
+  `CURRENT_GATE_MISALIGNED_WITH_EXISTING_PRODUCTION_STANDARD`: all 5
+  already clear `eligibility_v2` in production (21-32 scored attributes),
+  so the pre-freeze predictor is rejecting inputs its own target metric
+  already accepts. Recommendation: keep `eligibility_v2` unchanged; revisit
+  the pre-freeze prediction rule (the fact-cluster dedup cap in particular)
+  before roster21. No threshold was changed, no production person was
+  modified. Full record:
+  [`eligibility-evidence-calibration.md`](eligibility-evidence-calibration.md).
