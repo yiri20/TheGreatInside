@@ -1070,8 +1070,23 @@ details > summary:focus-visible {
    only on mobile; the disconnect wasn't mobile-specific. `tone="secondary"`
    (not "muted") for the same reason as the personcard metadata contrast
    fix below: a result count is information the user is meant to read, not
-   filler text. */
+   filler text.
+
+   DOUBLE-DIVIDER FIX (2026-09): the base `.tgi-text` rule caps every text
+   element at `--tgi-measure` (68ch, a prose-readability width) -- correct
+   for actual body copy, wrong for this short status line. At the
+   >=1280px two-column taxonomy layout that cap (~562px) happens to land
+   between the two columns' widths, so this element's own `border-top`
+   rendered at 562px wide instead of the full filter-row width: a hairline
+   that started under "Profession & Activity" (the first/left column) and
+   stopped short of "Personality & Traits" (the right column), reading as
+   a second divider under the left section only and none under the right
+   one. `max-width: none` here removes the accidental cap at its source
+   (this element only -- the shared `.tgi-text` rule and every other user
+   of it are untouched), letting the intended single hairline span the
+   full row again, as the comment above always described it doing. */
 .tgi-directory-count {
+  max-width: none;
   padding-top: var(--tgi-space-4);
   border-top: var(--tgi-border-width) solid var(--tgi-rule);
 }
