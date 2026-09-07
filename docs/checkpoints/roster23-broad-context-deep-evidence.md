@@ -124,11 +124,18 @@ candidate's score was consulted as a target; validator was not yet run.
 
 ## Part K — Scoring (once)
 
-14 attributes scored once, conservatively. 7 rows draw genuine confidence
-from 2-3 independently-converging sources; 7 rest on a single perspective
-(6 self-authored, 1 Bunin-only) and are capped at `inference` or low
-`strong_inference`. No row was scored toward a known high-baseWeight
-attribute; no quota was chased.
+14 attributes scored once, conservatively. Of the 7 rows reaching
+confidence >=0.5 (the validator's `highConfidenceCount`): **4** rest on
+genuine cross-provenance corroboration (`discipline`: self+Kuprin+Bunin;
+`collaboration`: self+Gorky+Kuprin; `social_assertiveness`: Gorky+Kuprin;
+`autonomy_need`: Kuprin+Bunin), and **3 more** (`independent_thinking`,
+`adaptability`, `impact_motivation`) reach that same band legitimately
+from self-only evidence — two distinct, independently-verifiable facts
+each, meeting this project's single-perspective `strong_inference`
+criterion without cross-source corroboration. The remaining 7 rows rest
+on a single perspective and a single fact each (6 self-authored, 1
+Bunin-only), capped at `inference`. No row was scored toward a known
+high-baseWeight attribute; no quota was chased.
 
 ## Part L — `eligibility_v2` result (validator run once, read literally)
 
