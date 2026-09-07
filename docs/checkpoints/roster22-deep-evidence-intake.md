@@ -167,13 +167,20 @@ target; **validator results were not yet computed at this point.**
 ## Part J — Scoring (once)
 
 17 attributes scored once, conservatively, against
-`docs/scoring-rubric-v1.md`. 9 rows draw genuine confidence from 2-3
+`docs/scoring-rubric-v1.md`. 8 rows draw genuine confidence from 2-3
 independently-converging sources (`documented` or the upper
-`strong_inference` band); 8 rows rest on a single perspective and are
-capped at `inference` or the low end of `strong_inference`, including two
-rows deliberately scored *low* (`planning_orientation` 30,
-`analytical_rigor` 32) from Trevelyan's own documented criticism — an
-honest weakness, not a halo-effect assumption of uniform excellence.
+`strong_inference` band). A 9th row, `independent_thinking`, also reaches
+confidence >=0.5 (`strong_inference`) but from two distinct self-authored
+episodes only, with no Trevelyan/Fuller corroboration — legitimate under
+the rubric's single-perspective `strong_inference` criterion (two
+independently-verifiable distinct episodes from the same source), but not
+one of the 8 cross-source-corroborated rows; together these 9 rows are the
+`highConfidenceCount` the validator reports. The remaining 8 rows rest on a
+single perspective and a single episode, capped at `inference` or the low
+end of `strong_inference`, including two rows deliberately scored *low*
+(`planning_orientation` 30, `analytical_rigor` 32) from Trevelyan's own
+documented criticism — an honest weakness, not a halo-effect assumption of
+uniform excellence.
 
 ## Part K — `eligibility_v2` result (validator run once, read literally)
 
@@ -277,8 +284,9 @@ fresh from `origin/main` at the confirmed SHA.
 **`ROSTER22_RESEARCH_ONLY_PR_READY`** — 1 candidate (Giuseppe Garibaldi)
 researched deeply from 3 genuinely independent, substantially-read
 provenance perspectives; scored once (17 attributes); failed
-`eligibility_v2` on scored-count (17/18) and coverage (0.501/0.6), but
-cleared the high-confidence-average floor for the first time in the
-roster17-22 arc (0.604) and more than doubled the prior best
+`eligibility_v2` on 3 of its 4 criteria — scored-count (17/18), coverage
+(0.501/0.6), and high-confidence count (9/12) — but cleared the
+high-confidence-*average* floor for the first time in the roster17-22 arc
+(0.604) and more than doubled the prior best
 high-confidence count (9 vs. 4); no rescue attempted; roster unaffected at
 125/124.
