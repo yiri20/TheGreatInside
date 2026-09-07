@@ -5,37 +5,38 @@ is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
 Last updated: 2026-09-06 (roster-20 auditable-breadth intake,
-`feat/roster20-auditable-breadth-intake`: replaced roster19's *informal*
+`feat/roster20-auditable-breadth-intake`, PR #16 — corrected and
+completed after review, unmerged: replaced roster19's *informal*
 pre-freeze breadth estimate with a literal, counted, fact-cluster-capped
-attribute map built and audited *before* any candidate JSON is created.
-Discovery pool of 9 new candidates; source-access gate (>=2 independent
-sources actually opened, Internet Archive lending-restricted items
-verified per-item and rejected when blocked) passed 5 (Helen Keller,
-Aleksandr Solzhenitsyn, Emma Goldman, Clara Barton, John Muir) and failed 4
-(Charles Lindbergh, P. T. Barnum, Carl Sagan, Jackie Robinson —
-`SOURCE_ACCESS_INSUFFICIENT`, real biographies exist but every edition
-checked was lending-restricted or otherwise unreadable). Full literal
-incident/fact-cluster/attribute mapping was completed for 3 (Keller,
-Solzhenitsyn, Goldman): 9-12 incidents and 3-6 fact clusters each, all
-genuinely read from actually-opened primary/near-primary sources (Keller's
-own three memoirs; Solzhenitsyn's *The Gulag Archipelago* and 1978 Harvard
-address; Goldman's *Living My Life* and *My Disillusionment in Russia*).
-Applying the fact-cluster cap (no single episode may be the primary basis
-for more than 3 proposed attributes) honestly, literal mapped-attribute
-counts came out at 11 (Keller), 8 (Goldman), 5-6 (Solzhenitsyn) — **all
-below the >=20-attribute freeze floor**, and notably lower than roster19's
-informal per-candidate estimates typically claimed for similarly-sourced
-candidates. **Zero candidates frozen, zero candidate JSON created, zero
-scoring performed** — the shortfall was caught at the literal pre-score
-mapping stage, before any research investment in a full evidence pack or
-scoring pass, which is this cycle's explicit methodological goal. Clara
-Barton and John Muir passed source access with real incidents read
-(Patent Office harassment and Red Cross leadership conflict for Barton;
-childhood hardship, a near-death well accident, and paternal conflict over
-his scientific work for Muir) but were not carried to a full mapping pass
-this cycle — an honest scope gap, not a rejection. Roster unaffected:
-still 125 people, 124 match-eligible. Research-only outcome, per plan.
-Full record, including the literal per-candidate fact-cluster tables and
+attribute map built and audited *before* any candidate JSON is created,
+and corrected a definitional error from this same cycle's first draft —
+**"independent source" means independent provenance/perspective (a
+different author), not merely a different book by the same person.**
+Under that corrected definition, of the 5 candidates that passed raw
+source readability (Helen Keller, Aleksandr Solzhenitsyn, Emma Goldman,
+Clara Barton, John Muir; 4 others — Charles Lindbergh, P. T. Barnum, Carl
+Sagan, Jackie Robinson — failed `SOURCE_ACCESS_INSUFFICIENT`, every
+edition checked lending-restricted or otherwise unreadable), only
+**Barton and Muir have a genuine 2 independent-provenance sources**
+(their own writing plus an actual different-author biography); Keller,
+Goldman, and Solzhenitsyn each have only 1 (multiple self-authored books
+mistakenly counted as multiple independent sources in the first draft).
+All 5 were carried through a full literal incident/fact-cluster/attribute
+map (Barton and Muir's evaluation, left incomplete in the first draft, was
+finished in this correction pass by continuing to read the same
+already-identified sources — no new discovery candidates, no further
+research on the other 3): Keller 12 incidents/6 clusters/11 attributes,
+Goldman 12/5/8, Solzhenitsyn 9(7 scoreable)/3/5-6, Barton 13/6/11, Muir
+14/7/13. **All 5 fall below the >=20-attribute freeze floor** — Barton and
+Muir clear every other criterion (independent provenance, incident count,
+cluster count, behavioral domains) and fail *only* attribute breadth;
+Goldman additionally fails the cluster floor; Solzhenitsyn additionally
+fails both the incident and cluster floors. Muir (2 independent-provenance
+sources, 14 incidents) is the strongest result of the cycle, still 7
+attributes short of freeze. **Zero candidates frozen, zero candidate JSON
+created, zero scoring performed.** Roster unaffected: still 125 people,
+124 match-eligible. Research-only outcome, per plan. Full record,
+including the literal per-candidate fact-cluster tables and
 the roster18-vs-19-vs-20 methodology comparison:
 [`roster20-auditable-breadth-intake.md`](../checkpoints/roster20-auditable-breadth-intake.md).
 Prior update, 2026-09-05 (PR #9 merged and production-verified:

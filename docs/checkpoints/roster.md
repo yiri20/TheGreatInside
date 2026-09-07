@@ -380,30 +380,33 @@ raises the target.
   including the direct roster-18-vs-19 comparison:
   [`roster19-incident-depth-intake.md`](roster19-incident-depth-intake.md).
 
-- **Roster-20 intake (2026-09, `feat/roster20-auditable-breadth-intake`)**:
-  replaced roster19's informal pre-freeze breadth estimate with a literal,
-  counted, fact-cluster-capped attribute map, built and audited *before*
-  any candidate JSON is created (no single episode may be the primary
-  basis for more than 3 proposed attributes — enforced, not just stated).
-  9-candidate discovery pool; source-access gate passed 5 (Helen Keller,
-  Aleksandr Solzhenitsyn, Emma Goldman, Clara Barton, John Muir), failed 4
-  on `SOURCE_ACCESS_INSUFFICIENT` (Charles Lindbergh, P. T. Barnum, Carl
-  Sagan, Jackie Robinson — real biographies exist but every edition
-  checked was Internet-Archive lending-restricted or otherwise
-  unreadable). Full literal mapping completed for 3 (Keller, Solzhenitsyn,
-  Goldman), each from genuinely opened and read primary/near-primary
-  sources (Keller's own three memoirs; Solzhenitsyn's *The Gulag
-  Archipelago* and 1978 Harvard address; Goldman's *Living My Life* and
-  *My Disillusionment in Russia*). **Literal mapped-attribute counts: 11
-  (Keller), 8 (Goldman), 5-6 (Solzhenitsyn) — all below the >=20 freeze
-  floor**, and lower than roster19's informal estimates for similarly-
-  sourced candidates would have predicted. **Zero candidates frozen, zero
-  candidate JSON created, zero scoring performed** — the breadth shortfall
-  was caught at the pre-score mapping stage rather than after a full
-  evidence pack and scoring pass, which is this cycle's explicit
-  methodological goal. Clara Barton and John Muir passed source access
-  with real incidents read but were not carried to a full mapping pass
-  this cycle (time-budget gap, honestly disclosed, not a rejection).
-  Roster unaffected: still 125 people, 124 match-eligible. Full record,
-  including the literal per-candidate fact-cluster tables:
+- **Roster-20 intake (2026-09, `feat/roster20-auditable-breadth-intake`,
+  PR #16, unmerged)**: replaced roster19's informal pre-freeze breadth
+  estimate with a literal, counted, fact-cluster-capped attribute map,
+  built and audited *before* any candidate JSON is created (no single
+  episode may be the primary basis for more than 3 proposed attributes —
+  enforced, not just stated), and corrected a definitional error caught on
+  review of this same cycle's first draft: **independent source means
+  independent provenance (a different author), not a different book by
+  the same person.** 9-candidate discovery pool; source-access gate passed
+  5 on raw readability (Helen Keller, Aleksandr Solzhenitsyn, Emma
+  Goldman, Clara Barton, John Muir), failed 4 on `SOURCE_ACCESS_INSUFFICIENT`
+  (Charles Lindbergh, P. T. Barnum, Carl Sagan, Jackie Robinson). Of the 5,
+  only **Barton and Muir have a genuine 2 independent-provenance sources**
+  (autobiography plus an actual different-author biography — Percy
+  Epler/William E. Barton for Barton, William Frederic Bade for Muir);
+  Keller, Goldman, and Solzhenitsyn each have only 1 (multiple
+  self-authored books). All 5 were carried through a full literal
+  incident/fact-cluster/attribute map: Keller 12 incidents/6 clusters/11
+  attributes, Goldman 12/5/8, Solzhenitsyn 9(7 scoreable)/3/5-6, Barton
+  13/6/11, Muir 14/7/13. **All 5 fall below the >=20-attribute freeze
+  floor.** Barton and Muir clear every other criterion and fail *only*
+  attribute breadth; Goldman additionally fails the cluster floor;
+  Solzhenitsyn additionally fails both the incident and cluster floors.
+  Muir (2 independent-provenance sources) is the strongest result of the
+  cycle, still 7 attributes short. **Zero candidates frozen, zero
+  candidate JSON created, zero scoring performed.** Roster unaffected:
+  still 125 people, 124 match-eligible. Full record, including the
+  literal per-candidate fact-cluster tables and the source-independence
+  correction:
   [`roster20-auditable-breadth-intake.md`](roster20-auditable-breadth-intake.md).
