@@ -4,10 +4,46 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-06 (roster-20 auditable-breadth intake,
-`feat/roster20-auditable-breadth-intake`, PR #16 — corrected and
-completed after two rounds of review, unmerged: replaced roster19's
-*informal* pre-freeze breadth estimate with a literal, counted,
+Last updated: 2026-09-06 (eligibility/evidence methodology calibration
+audit, `chore/eligibility-evidence-calibration`, PR #17 — read-only,
+corrected across two review passes: before starting roster21, audited
+whether a normal-scale intake research pass can reproduce the roster20
+pre-freeze gate on a deterministic, mechanically-sampled set of 5
+already-live production people (Julius Caesar, Isaac Newton, Ludwig van
+Beethoven, Malala Yousafzai, Abraham Lincoln). First review pass corrected
+two counting errors (an unauditable Beethoven incident row; a
+Malala provenance source that documented others' actions toward her, not
+her own behavior). A second, narrowly-scoped **mechanical traceability
+audit** then found the corrected row-level tables still used generic
+labels (`background`, `independent`) in place of real source IDs — tracing
+every incident to its exact tool call revealed several "actually opened"
+sources were in fact only ever retrieved via a `WebSearch` summary, never
+a `WebFetch` of one specific page. Excluding those (Newton's Hooke letter
+and 3 more items; Beethoven's Ninth Symphony premiere and 2 more;
+Lincoln's Grant letter and 2 more) drops Newton and Lincoln to 1 total
+provenance perspective each (now failing criterion 1, joining Malala) but
+*raises* Beethoven's to 3 total/2 non-self (his custody-battle source was
+genuinely opened). A semantic-fit re-audit against each attribute's actual
+operational definition additionally dropped several mismatched mappings
+(no replacements invented). **Final corrected result: provenance 2/5 pass
+(Caesar, Beethoven), incidents 0/5, clusters 2/5, attributes 0/5** —
+median fresh literal attribute count **5** (down from 9 across both prior
+drafts), range 4-10 (down from 5-13). Both diagnosis levels retained on
+reassessment, now more strongly evidenced: workflow calibration —
+`CURRENT_WORKFLOW_PREFREEZE_MISALIGNED` — and gate calibration —
+`GATE_MISALIGNMENT_PROVISIONAL`. Recommendation unchanged: keep
+`eligibility_v2` and every existing threshold unchanged; revisit the
+pre-freeze prediction rule before roster21 — left to a separate future
+task. Zero production people, candidate JSON,
+seed/roster/index/dispersion/editorial/portrait/i18n data touched across
+any of the three passes. Full record, including the source registry
+(every source tagged by exact retrieval method) and row-level attribute
+traceability tables for all 5 people:
+[`eligibility-evidence-calibration.md`](../checkpoints/eligibility-evidence-calibration.md).
+Prior update, 2026-09-06 (roster-20 auditable-breadth intake,
+`feat/roster20-auditable-breadth-intake`, PR #16 — corrected, completed,
+and **merged** as `57ae109e3b9263cf682116ef99c34e77fb57b3ff`: replaced
+roster19's *informal* pre-freeze breadth estimate with a literal, counted,
 fact-cluster-capped attribute map built and audited *before* any candidate
 JSON is created, and normalized one definition used inconsistently across
 two earlier drafts — **independent-provenance count = the number of
