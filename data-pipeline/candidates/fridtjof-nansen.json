@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fridtjof-nansen",
+  "status": "held",
+  "holdReason": "eligibility_v2 fails on every axis: 14 scored attributes (need 18), coverage 0.415 (need 0.6), only 4 attributes at confidence >=0.5 (need 12), high-confidence average 0.53 (need 0.55). A real, honestly-sourced 2-independent-provenance evidence pack (his own Farthest North + Bain's independent 1897 biography, both genuinely webfetch-opened) produced 14 traceable attributes, several of which rest on only one of the two sources rather than both converging — consistent with this project's roster17-20 experience for a bounded 2-source research pass.",
+  "computedEligibility": {
+    "scoredAttributeCount": 14,
+    "averageConfidence": 0.414,
+    "coverage": 0.415,
+    "eligible": false,
+    "computedAt": "2026-09-07T00:00:00Z"
+  },
+  "identity": {
+    "canonicalName": "Fridtjof Nansen",
+    "wikidataId": "Q72292",
+    "birthYear": 1861,
+    "deathYear": 1930,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["NO"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["explorer", "scientist", "diplomat"],
+    "fieldIds": ["exploration", "natural_science"],
+    "impactDomains": ["historical", "humanitarian"],
+    "tagIds": ["explorer"],
+    "archetypeIds": ["scientific_explorer"]
+  },
+  "sources": [
+    { "id": "src_fn_farthestnorth", "kind": "archive", "title": "Fridtjof Nansen, Farthest North, Vol. I (his own account of the Fram expedition, 1893-1896)", "url": "https://www.gutenberg.org/files/30197/30197-h/30197-h.htm" },
+    { "id": "src_fn_bain", "kind": "biography", "title": "James Arthur Bain, Fridtjof Nansen: His Life and Explorations (1897) — independent contemporary biography", "url": "https://archive.org/stream/fridtjofnansenhi00bainuoft/fridtjofnansenhi00bainuoft_djvu.txt" },
+    { "id": "src_fn_wikipedia", "kind": "wikipedia", "title": "Fridtjof Nansen", "url": "https://en.wikipedia.org/wiki/Fridtjof_Nansen" }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own account documents proceeding with the Fram expedition despite the Royal Geographical Society's Admiral M'Clintock calling it \"the most adventurous programme ever brought under the notice\" of the society — a directly self-authored account of sustaining an unconventional, expert-contested theory (ice drifts across the Pole) against establishment skepticism."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "His own account documents staking the expedition on an unproven drift theory; the independent Bain biography separately documents a lifelong pattern of physically dangerous choices (crossing terrain locals refused at night, being \"a reckless climber\") and, critically, his decision during the 1888 Greenland crossing to deliberately eliminate retreat options (\"broke off all means of retreat... it was death — or the west coast of Greenland\") — two independent sources converging on the same sustained trait."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own account documents methodically compiling multiple independent lines of evidence (Jeannette wreckage found in Greenland, diatom analysis, Siberian driftwood patterns) before committing to the drift theory rather than resting the case on a single argument — a documented pattern of building a case from several distinct, named data sources."
+    },
+    "planning_orientation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own account documents roughly nine years of preparation before departure and an iterative ship-design process (\"plan after plan,\" \"model after another\") with shipbuilder Colin Archer, a directly self-authored account of sustained, deliberate preparation rather than a rushed departure."
+    },
+    "perfectionism": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The same iterative ship-design process suggests an unwillingness to settle for a workable-but-imperfect design, but this is inferred from one described process rather than a second corroborating instance, hence inference."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own account documents personally covering funding shortfalls himself rather than compromising on ship quality (\"I did not think it right to study the cost too much\") — one self-authored, specific instance of self-initiated action to protect the expedition's integrity."
+    },
+    "achievement_drive": {
+      "score": 54,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The same funding-shortfall episode implies strong personal investment in the expedition's success, but is a single, indirect signal rather than a clearly on-point achievement-drive instance."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The independent Bain biography documents Nansen as \"a born leader of boys, as of men, and a rival he could not brook\" from schooldays, and a specific episode of refusing a ski-race prize after seeing superior Telemarken peasant technique until he had mastered it himself — one independent source, internally corroborated by two related anecdotes within it."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The independent Bain biography documents Nansen's childhood/student absent-mindedness from sustained absorption in problems, including family criticism (\"you'll never come to any good, you're such a dawdler\") for missing appointments while thinking — one independent source's account of a recurring pattern."
+    },
+    "decisiveness": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Bain biography's account of the 1888 Greenland crossing decision to deliberately cut off retreat routes is a specific, dated, high-stakes decision, but rests on this one independent secondary account of the moment rather than Nansen's own description of his reasoning in the material actually read this cycle."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Bain biography documents warm attachment from his Sami companion Balto (\"his face shone in our eyes like those of the parents\") and Greenlandic hosts at Godthaab — one independent source's account of positive relational impact on companions, not corroborated by Nansen's own words in the material read this cycle."
+    },
+    "social_assertiveness": {
+      "score": 52,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The same companion-attachment material is thin, indirect evidence for this specific row, kept near the unremarkable band."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Bain biography quotes Nansen's own reported answer to critics questioning the expedition's value (\"Man wants to know; and when man no longer wants to know, he will no longer be man\") and documents his converting a gold medal to its cash value to fund further travel rather than keeping it as an honor — one independent source's account, quoting Nansen directly but not independently verified against his own writing in the material read this cycle."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same \"man wants to know\" statement and Bain's summary assessment (\"intense curiosity... a resolution as hard as adamant\") support a knowledge-for-its-own-sake orientation, but this is a single independent source's characterization rather than a richly corroborated pattern."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-07T00:00:00Z",
+    "updatedAt": "2026-09-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster21 simplified evidence-first intake. 2 genuinely webfetch-opened, distinct-provenance sources (Nansen's own Farthest North; James Arthur Bain's independent 1897 biography), both read directly this cycle with real extracted passages spanning childhood, the Fram expedition, and the earlier 1888 Greenland crossing. 15 rows scored (one placeholder key removed before scoring; see rows). Several rows rest on only one of the two sources rather than both converging, honestly reflected in inference-level confidence. No score adjusted after computing eligibility."
+  }
+}

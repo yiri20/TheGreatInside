@@ -461,3 +461,26 @@ raises the target.
   source registry (every source ID tagged by exact retrieval method) and
   row-level attribute traceability tables for all 5 people:
   [`eligibility-evidence-calibration.md`](eligibility-evidence-calibration.md).
+
+- **Roster-21 simplified evidence-first intake (2026-09,
+  `feat/roster21-simplified-evidence-intake`)**: retired roster20's
+  pre-freeze hard gates (`>=12` incidents, `>=6` clusters, `>=20`
+  attributes) per the calibration audit's finding above, replacing them
+  with a qualitative "is there enough credible, multi-provenance material
+  to justify a serious scoring attempt" freeze judgment — `eligibility_v2`
+  itself left completely unchanged. Discovery pool of 8 (0 scientists,
+  spanning exploration/military/activism/filmmaking); 5 passed the
+  source-access gate (Robert Falcon Scott, William Tecumseh Sherman,
+  Fridtjof Nansen, Isabella Bird, Sylvia Pankhurst), 3 did not (Clara
+  Schumann, Sergei Eisenstein, Beatrice Webb — every checked edition of
+  their diaries/memoirs/biographies was access-restricted). 4 frozen and
+  scored to completion from 2 genuinely `WebFetch`-opened, independent-
+  provenance sources each. **0 of 4 crossed `eligibility_v2`** — Robert
+  Falcon Scott (14 scored, coverage 0.412), William Tecumseh Sherman (12
+  scored, coverage 0.361), Fridtjof Nansen (14 scored, coverage 0.415),
+  Isabella Bird (17 scored, coverage 0.511 — closest miss, 1 attribute
+  short of the floor but separately constrained by only 2 high-confidence
+  rows). All 4 honestly `held` with the validator's exact numbers in each
+  `holdReason`; no rescue attempted; no roster20 hard gate reintroduced.
+  Roster unaffected: still 125 people, 124 match-eligible. Full record:
+  [`roster21-simplified-evidence-intake.md`](roster21-simplified-evidence-intake.md).

@@ -4,7 +4,42 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-06 (eligibility/evidence methodology calibration
+Last updated: 2026-09-07 (roster-21 simplified evidence-first intake,
+`feat/roster21-simplified-evidence-intake`, unmerged, research-only —
+applied the eligibility-evidence-calibration audit's recommendation by
+retiring roster20's pre-freeze hard gates (`>=12` incidents, `>=6`
+clusters, `>=20` attributes) while leaving `eligibility_v2` itself
+completely unchanged. Built a fresh 8-candidate discovery pool
+deliberately spanning exploration/military/activism/filmmaking (0
+scientists); 5 passed a lightweight actual-source-access gate (Robert
+Falcon Scott, William Tecumseh Sherman, Fridtjof Nansen, Isabella Bird,
+Sylvia Pankhurst — each webfetch-opened, not just found via search), 3
+did not (Clara Schumann, Sergei Eisenstein, Beatrice Webb — every checked
+edition of their diaries/memoirs/independent biographies was
+access-restricted on Internet Archive). Froze and scored 4 to completion,
+each from 2 genuinely independent, actually-opened sources: Scott (his
+own Terra Nova journal + Cherry-Garrard's independent memoir), Sherman
+(his own Memoirs + the Sherman Letters correspondence with his brother),
+Nansen (his own Farthest North + Bain's independent 1897 biography), Bird
+(her own Japan travel letters + Stoddart's independent 1906 biography).
+**0 of 4 crossed `eligibility_v2`**: Scott 14 scored/coverage 0.412,
+Sherman 12 scored/coverage 0.361, Nansen 14 scored/coverage 0.415, Bird 17
+scored/coverage 0.511 (closest miss — 1 attribute short of the 18 floor,
+separately capped by only 2 high-confidence rows). All 4 honestly `held`
+with the validator's exact numbers in each `holdReason`; no rescue
+attempted after seeing the eligibility result; no roster20-style hard gate
+reintroduced under another name. Zero production people, candidate
+lifecycle of any pre-existing file, seed/roster/index/dispersion/
+editorial/portrait/i18n data touched — diff is exactly 4 new candidate
+JSON files. Roster unaffected: still 125 people, 124 match-eligible.
+`corepack pnpm@10 exec tsx src/dev/roster1000/validateCandidates.ts` 0
+errors/0 warnings across 275 candidate files; `checkScoringLockIntegrity.ts`
+0 flagged across 271 previously-committed files; `tsc --noEmit` clean;
+`vitest run rosterQuality` 18/18 passed (research-only path — no full
+build, no Playwright, per this project's own validation-scope rule for a
+cycle that touches no production data). Full record:
+[`roster21-simplified-evidence-intake.md`](../checkpoints/roster21-simplified-evidence-intake.md).
+Prior update, 2026-09-06 (eligibility/evidence methodology calibration
 audit, `chore/eligibility-evidence-calibration`, PR #17 — read-only,
 corrected across two review passes: before starting roster21, audited
 whether a normal-scale intake research pass can reproduce the roster20

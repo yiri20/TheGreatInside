@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "william-tecumseh-sherman",
+  "status": "held",
+  "holdReason": "eligibility_v2 fails on every axis: 12 scored attributes (need 18), coverage 0.361 (need 0.6), only 4 attributes at confidence >=0.5 (need 12), high-confidence average 0.51 (need 0.55). The 2 genuinely webfetch-opened sources (his own Memoirs, the Sherman Letters correspondence) were only readable through their earlier chapters/pages before this tool's long-document fetch limit was reached — several famous later-war episodes (the 1861 insanity press campaign, Willy's death, the Johnston/Stanton controversy) are well-established historical fact but were only locatable via secondary citation this cycle, so they were used solely as corroboration, not as a row's primary basis, honestly capping this profile's breadth.",
+  "computedEligibility": {
+    "scoredAttributeCount": 12,
+    "averageConfidence": 0.429,
+    "coverage": 0.361,
+    "eligible": false,
+    "computedAt": "2026-09-07T00:00:00Z"
+  },
+  "identity": {
+    "canonicalName": "William Tecumseh Sherman",
+    "wikidataId": "Q188936",
+    "birthYear": 1820,
+    "deathYear": 1891,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["military_commander"],
+    "fieldIds": ["military"],
+    "impactDomains": ["historical"],
+    "tagIds": ["leader"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_wts_memoirs", "kind": "archive", "title": "William T. Sherman, Memoirs of General William T. Sherman (his own autobiography, complete)", "url": "https://www.gutenberg.org/files/4361/4361-h/4361-h.htm" },
+    { "id": "src_wts_letters", "kind": "archive", "title": "The Sherman Letters: Correspondence Between General and Senator Sherman from 1837 to 1891 (William T. Sherman's private letters to and from his brother, Senator John Sherman)", "url": "https://archive.org/stream/shermletterscorr00sheriala/shermletterscorr00sheriala_djvu.txt" },
+    { "id": "src_wts_wikipedia", "kind": "wikipedia", "title": "William Tecumseh Sherman", "url": "https://en.wikipedia.org/wiki/William_Tecumseh_Sherman" }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "His own Memoirs document taking recruits to Cincinnati without authorization during the Mexican War out of impatience for combat, and separately, during the Coacoochee capture operation, deliberately riding forward alone as bait to test for treachery before signaling his sergeant to secure the situation — two independently documented, self-authored instances of accepting personal/career risk."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "The unauthorized Cincinnati recruiting episode, and his separate account of pursuing active-service reassignment by writing directly to the Adjutant-General rather than working solely through his immediate chain of command, both show a pattern of acting on his own judgment about how to pursue his goals within (in the second case) or outside (in the first) formal channels."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His own Memoirs document acting on personal conviction despite an explicit order (the Cincinnati recruiting episode) and offering justification rather than apology when confronted by his colonel; his private letters separately document sustained political disdain toward his own brother's career choices even while wishing him well, and later refusing to shake Secretary Stanton's hand in the 1865 Grand Review despite the political cost — a consistent, multi-instance pattern of holding to his own judgment against social/institutional pressure."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "His own Memoirs document that meticulous attention to \"police and cleanliness of dress and bunks\" let his entire company disembark smoothly after 198 days at sea, and separately that he was trusted with and accounted for large commissary/quartermaster funds in California — one self-authored account of systematic organizational discipline, corroborated by a second, separate self-authored instance of documented financial responsibility."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same shipboard cleanliness/organization passage is the only direct evidence for this specific row; kept at inference since it is a single episode rather than a corroborated pattern."
+    },
+    "decisiveness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Coacoochee capture operation (riding forward alone to assess the situation, then immediately signaling his sergeant to act) documents one specific, dated decisive act under uncertainty in his own Memoirs; single-episode, hence inference rather than a higher band."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own Memoirs describe enduring a fractured shoulder and repeated failed medical attempts to reset it without complaint, pursuing recovery pragmatically; a well-corroborated separate historical episode (a 20-day forced leave in late 1861 after newspapers publicly branded him insane, followed by his return to active command) supports the same trait but was located this cycle via secondary citation rather than direct fetch of that exact chapter, so it is treated as corroboration rather than a second independently-opened primary instance."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own Memoirs describe jointly exploring Rio's Corcovado mountain with fellow officers Halleck and Ord out of shared intellectual curiosity — one self-authored, specific instance of positive collegial engagement."
+    },
+    "curiosity": {
+      "score": 56,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same Corcovado excursion, plus his own account of valuing the geographical/practical knowledge gained from the 1844 Georgia depositions assignment (\"of infinite use to me, and consequently to the Government\"), together suggest a pattern of valuing exploration/learning for its own sake, though both instances are described briefly rather than richly documented."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own letter to his brother John (Nov. 10, 1846) explicitly reflects regret over a hasty prior decision (\"I wish now I had been more slow and made better preparations\") — a directly self-authored instance of revising his own judgment in hindsight, though a single occurrence."
+    },
+    "planning_orientation": {
+      "score": 54,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The same regretted-haste letter implies a corrective lesson about preparation, but this is inferred from one reflective statement rather than a documented planning process, hence kept near the unremarkable band."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "His private letters document open frustration with prolonged military inefficiency during the Florida conflicts, and the well-corroborated 1865 episode of publicly refusing to shake Secretary Stanton's hand after Stanton branded him insubordinate in the press (located via secondary citation, not a direct fetch of that page) both show willingness to let friction with authority show rather than suppress it — self-authored letter is the primary evidence, the Stanton episode is corroboration only."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-07T00:00:00Z",
+    "updatedAt": "2026-09-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster21 simplified evidence-first intake. 2 genuinely webfetch-opened, distinct-provenance sources (Sherman's own complete Memoirs; the Sherman Letters, correspondence with his brother Senator John Sherman — a second, independent voice) actually read this cycle with real extracted passages, both drawn from the earlier chapters/pages the fetch tool actually returned (a long-document truncation limitation, not a source-access failure — the sources themselves are fully open). Several famous later-war episodes (the 1861 'insane' press campaign, his son Willy's 1863 death, the 1865 Johnston-surrender/Stanton controversy) are extremely well-established historical fact, verified this cycle only via secondary citation rather than a direct fetch of that exact chapter, and are therefore used only as corroboration on rows already otherwise evidenced, never as a row's sole basis — consistent with this project's own source-traceability discipline (see eligibility-evidence-calibration.md). 12 rows scored; no score adjusted after computing eligibility."
+  }
+}
