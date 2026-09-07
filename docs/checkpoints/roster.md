@@ -416,20 +416,37 @@ raises the target.
   [`roster20-auditable-breadth-intake.md`](roster20-auditable-breadth-intake.md).
 
 - **Eligibility/evidence methodology calibration audit (2026-09,
-  `chore/eligibility-evidence-calibration`, read-only, no production data
-  touched)**: before starting roster21, audited whether the current
-  roster20-style pre-freeze gate can be reproduced on a deterministic,
-  non-cherry-picked sample of 5 already-live production people (Julius
+  `chore/eligibility-evidence-calibration`, PR #17, read-only, no
+  production data touched — corrected after review)**: before starting
+  roster21, audited whether a normal-scale intake research pass can
+  reproduce the roster20-style pre-freeze gate on a deterministic,
+  mechanically-sampled set of 5 already-live production people (Julius
   Caesar, Isaac Newton, Ludwig van Beethoven, Malala Yousafzai, Abraham
-  Lincoln). **0 of 5 cleared the >=20-literal-attribute pre-freeze floor**
-  (median fresh literal count: 9, range 5-13) — including Beethoven, who
-  cleared every other criterion, and three of the roster's most
-  extensively documented figures. Classified
-  `CURRENT_GATE_MISALIGNED_WITH_EXISTING_PRODUCTION_STANDARD`: all 5
-  already clear `eligibility_v2` in production (21-32 scored attributes),
-  so the pre-freeze predictor is rejecting inputs its own target metric
-  already accepts. Recommendation: keep `eligibility_v2` unchanged; revisit
-  the pre-freeze prediction rule (the fact-cluster dedup cap in particular)
-  before roster21. No threshold was changed, no production person was
-  modified. Full record:
+  Lincoln — a median-production-attribute-depth sample, not a claim of
+  representative real-world documentation richness; all but Malala are
+  canonically among the most documented figures in their fields). A
+  post-PR review found and corrected two counting errors: Beethoven's
+  claimed 12 incidents had only 9 auditable IDs (an unauditable custody-
+  battle row split honestly into its dated sub-events, landing at 11, not
+  12 — he now fails the incident floor too, not just attribute breadth),
+  and Malala's second "provenance" source (press coverage of a book ban)
+  documented others' actions toward her, not her own behavior, dropping
+  her usable provenance count from 2 to 1. **Corrected result: 0 of 5
+  clear the incident floor (was reported as 1/5), 4 of 5 clear the
+  provenance floor (was reported as 5/5), 0 of 5 clear the >=20-attribute
+  floor** (median fresh literal count still 9, range 5-13). Split into two
+  levels: workflow calibration — `CURRENT_WORKFLOW_PREFREEZE_MISALIGNED`
+  (a normal-scale research pass cannot reliably satisfy the pre-freeze
+  gate even against fully-vetted, exceptionally documented production
+  people) — and gate calibration — `GATE_MISALIGNMENT_PROVISIONAL` (this
+  audit cannot rule out that much deeper research would close the gap,
+  since no person here received research anywhere near what likely built
+  their 21-32-attribute production profile). Recommendation: keep
+  `eligibility_v2` unchanged (this audit provides no evidence about it
+  either way — the live roster passing it is expected by construction, not
+  independent validation); revisit the pre-freeze prediction rule,
+  particularly the fact-cluster dedup cap, before roster21. No threshold
+  was changed, no production person was modified in either the original
+  audit or the correction. Full record, including row-level attribute
+  traceability tables for all 5 people:
   [`eligibility-evidence-calibration.md`](eligibility-evidence-calibration.md).
