@@ -425,28 +425,39 @@ raises the target.
   Lincoln — a median-production-attribute-depth sample, not a claim of
   representative real-world documentation richness; all but Malala are
   canonically among the most documented figures in their fields). A
-  post-PR review found and corrected two counting errors: Beethoven's
-  claimed 12 incidents had only 9 auditable IDs (an unauditable custody-
-  battle row split honestly into its dated sub-events, landing at 11, not
-  12 — he now fails the incident floor too, not just attribute breadth),
-  and Malala's second "provenance" source (press coverage of a book ban)
-  documented others' actions toward her, not her own behavior, dropping
-  her usable provenance count from 2 to 1. **Corrected result: 0 of 5
-  clear the incident floor (was reported as 1/5), 4 of 5 clear the
-  provenance floor (was reported as 5/5), 0 of 5 clear the >=20-attribute
-  floor** (median fresh literal count still 9, range 5-13). Split into two
-  levels: workflow calibration — `CURRENT_WORKFLOW_PREFREEZE_MISALIGNED`
-  (a normal-scale research pass cannot reliably satisfy the pre-freeze
-  gate even against fully-vetted, exceptionally documented production
-  people) — and gate calibration — `GATE_MISALIGNMENT_PROVISIONAL` (this
-  audit cannot rule out that much deeper research would close the gap,
-  since no person here received research anywhere near what likely built
-  their 21-32-attribute production profile). Recommendation: keep
-  `eligibility_v2` unchanged (this audit provides no evidence about it
-  either way — the live roster passing it is expected by construction, not
-  independent validation); revisit the pre-freeze prediction rule,
-  particularly the fact-cluster dedup cap, before roster21. No threshold
-  was changed, no production person was modified in either the original
-  audit or the correction. Full record, including row-level attribute
-  traceability tables for all 5 people:
+  post-PR review found and corrected two counting errors (Beethoven's
+  claimed 12 incidents had only 9 auditable IDs; Malala's second
+  "provenance" source documented others' actions toward her, not her own
+  behavior). A **third, narrowly-scoped mechanical traceability audit**
+  then found the corrected row-level tables still used generic labels
+  (`background`, `independent`) where actual source IDs were required —
+  tracing every incident back to its exact tool call revealed that several
+  "actually opened" sources were in fact only ever retrieved via a
+  `WebSearch` summary, never a `WebFetch` of one specific page (Newton's
+  Hooke letter and 3 more items; Beethoven's Ninth Symphony premiere and 2
+  more; Lincoln's Grant letter and 2 more) — excluded under the same
+  standard already applied elsewhere to background-corroborated material.
+  This has knock-on effects: Newton and Lincoln each lose their only
+  self-authored source, dropping to 1 total provenance perspective each
+  (now failing criterion 1); Beethoven's provenance count instead *rises*
+  to 3 total/2 non-self, since his custody-battle source (interlude.hk)
+  turned out to be genuinely `webfetch`-opened. A semantic-fit re-audit
+  against each attribute's actual operational definition (recovered from
+  live quiz item text, since `attributes.ts` carries no semantic
+  description) additionally dropped several attribute mappings that
+  didn't survive scrutiny (e.g. Caesar's Pompeia-divorce incident mapped
+  to `impact_motivation`, whose real definition is about work whose
+  effects reach beyond oneself, not reputation management) — no
+  replacement was invented for any dropped row. **Final corrected result:
+  provenance 2/5 pass (Caesar, Beethoven), incidents 0/5, clusters 2/5,
+  attributes 0/5** — median fresh literal attribute count **5** (down from
+  9), range 4-10 (down from 5-13). Both prior conclusions retained on
+  reassessment, now more strongly evidenced: workflow calibration —
+  `CURRENT_WORKFLOW_PREFREEZE_MISALIGNED` — and gate calibration —
+  `GATE_MISALIGNMENT_PROVISIONAL`. Recommendation unchanged: keep
+  `eligibility_v2` unchanged; revisit the pre-freeze prediction rule
+  before roster21. No threshold was changed, no production person was
+  modified across any of the three passes. Full record, including the
+  source registry (every source ID tagged by exact retrieval method) and
+  row-level attribute traceability tables for all 5 people:
   [`eligibility-evidence-calibration.md`](eligibility-evidence-calibration.md).

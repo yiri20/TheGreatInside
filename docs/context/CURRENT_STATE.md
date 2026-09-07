@@ -6,37 +6,39 @@ the task depends on an exact current figure.
 
 Last updated: 2026-09-06 (eligibility/evidence methodology calibration
 audit, `chore/eligibility-evidence-calibration`, PR #17 — read-only,
-corrected after review: before starting roster21, audited whether a
-normal-scale intake research pass can reproduce the roster20 pre-freeze
-gate on a deterministic, mechanically-sampled set of 5 already-live
-production people (Julius Caesar, Isaac Newton, Ludwig van Beethoven,
-Malala Yousafzai, Abraham Lincoln). A post-PR review corrected two
-counting errors: Beethoven's claimed 12 incidents had only 9 auditable
-IDs, honestly recounted to 11 after splitting an unauditable custody-
-battle row into its dated sub-events — he now fails the incident floor,
-not just attribute breadth. Malala's second "provenance" source (press
-coverage of a book ban) documented others' actions toward her rather than
-her own behavior, dropping her usable provenance count from 2 to 1.
-**Corrected result: 0 of 5 clear the incident floor (was reported as
-1/5), 4 of 5 clear the provenance floor (was reported as 5/5), 0 of 5
-clear the >=20-attribute floor** (median fresh literal count unchanged at
-9, range 5-13). Split into two levels, per review request: workflow
-calibration — `CURRENT_WORKFLOW_PREFREEZE_MISALIGNED` (a normal-scale
-research pass cannot reliably satisfy the pre-freeze gate even against
-fully-vetted, exceptionally documented production people) — and gate
-calibration — `GATE_MISALIGNMENT_PROVISIONAL` (cannot rule out that much
-deeper research would close the gap, since no person here received
-research anywhere near what likely built their original 21-32-attribute
-production profile). Recommendation: keep `eligibility_v2` and every
-existing threshold unchanged (this audit provides no independent evidence
-about `eligibility_v2` either way — the live roster passing it is expected
-by construction, not validation); revisit the pre-freeze prediction rule,
-specifically the fact-cluster dedup cap's interaction with literal
-attribute counting, before roster21 — left to a separate future task, not
-made here. Zero production people, candidate JSON,
-seed/roster/index/dispersion/editorial/portrait/i18n data touched in
-either the original audit or the correction. Full record, including
-row-level attribute traceability tables for all 5 people:
+corrected across two review passes: before starting roster21, audited
+whether a normal-scale intake research pass can reproduce the roster20
+pre-freeze gate on a deterministic, mechanically-sampled set of 5
+already-live production people (Julius Caesar, Isaac Newton, Ludwig van
+Beethoven, Malala Yousafzai, Abraham Lincoln). First review pass corrected
+two counting errors (an unauditable Beethoven incident row; a
+Malala provenance source that documented others' actions toward her, not
+her own behavior). A second, narrowly-scoped **mechanical traceability
+audit** then found the corrected row-level tables still used generic
+labels (`background`, `independent`) in place of real source IDs — tracing
+every incident to its exact tool call revealed several "actually opened"
+sources were in fact only ever retrieved via a `WebSearch` summary, never
+a `WebFetch` of one specific page. Excluding those (Newton's Hooke letter
+and 3 more items; Beethoven's Ninth Symphony premiere and 2 more;
+Lincoln's Grant letter and 2 more) drops Newton and Lincoln to 1 total
+provenance perspective each (now failing criterion 1, joining Malala) but
+*raises* Beethoven's to 3 total/2 non-self (his custody-battle source was
+genuinely opened). A semantic-fit re-audit against each attribute's actual
+operational definition additionally dropped several mismatched mappings
+(no replacements invented). **Final corrected result: provenance 2/5 pass
+(Caesar, Beethoven), incidents 0/5, clusters 2/5, attributes 0/5** —
+median fresh literal attribute count **5** (down from 9 across both prior
+drafts), range 4-10 (down from 5-13). Both diagnosis levels retained on
+reassessment, now more strongly evidenced: workflow calibration —
+`CURRENT_WORKFLOW_PREFREEZE_MISALIGNED` — and gate calibration —
+`GATE_MISALIGNMENT_PROVISIONAL`. Recommendation unchanged: keep
+`eligibility_v2` and every existing threshold unchanged; revisit the
+pre-freeze prediction rule before roster21 — left to a separate future
+task. Zero production people, candidate JSON,
+seed/roster/index/dispersion/editorial/portrait/i18n data touched across
+any of the three passes. Full record, including the source registry
+(every source tagged by exact retrieval method) and row-level attribute
+traceability tables for all 5 people:
 [`eligibility-evidence-calibration.md`](../checkpoints/eligibility-evidence-calibration.md).
 Prior update, 2026-09-06 (roster-20 auditable-breadth intake,
 `feat/roster20-auditable-breadth-intake`, PR #16 — corrected, completed,
