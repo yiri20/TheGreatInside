@@ -489,3 +489,26 @@ raises the target.
   his `holdReason` as `SOURCE_DEPTH_INSUFFICIENT`, no rescoring. Roster
   unaffected: still 125 people, 124 match-eligible. Full record:
   [`roster21-simplified-evidence-intake.md`](roster21-simplified-evidence-intake.md).
+
+- **Roster-22 deep-evidence intake (2026-09,
+  `feat/roster22-deep-evidence-intake`)**: changed research depth, not
+  `eligibility_v2` (left completely unchanged). Rather than a wide
+  discovery pool, tested source depth directly and found one candidate,
+  **Giuseppe Garibaldi**, with an exceptional 3-perspective ecosystem —
+  his own Autobiography, G. M. Trevelyan's independent scholarly biography
+  (2 of its 3 volumes), and Margaret Fuller's own eyewitness dispatches
+  from the 1849 siege of Rome — all 3 actually read substantially (a
+  browser+JavaScript text-extraction technique was used to reach later
+  chapters of very long documents after this session's page-fetch tool
+  kept truncating them at an early page, rather than concluding the
+  sources were shallow). Per the brief's explicit permission, research
+  effort was concentrated on this one exceptional ecosystem rather than
+  split across weaker candidates. Scored once to 17 attributes (coverage
+  0.501) — **still short of `eligibility_v2`** (need 18/0.6), but **9
+  attributes at confidence >=0.5 (vs. roster21's best of 4) with a
+  high-confidence average of 0.604 — the first candidate across the
+  entire roster17-22 arc to clear the gate's 0.55 high-confidence-average
+  floor.** Deep multi-provenance research materially improved confidence
+  quality but not attribute breadth/coverage. Held honestly, no rescue.
+  Roster unaffected: still 125 people, 124 match-eligible. Full record:
+  [`roster22-deep-evidence-intake.md`](roster22-deep-evidence-intake.md).
