@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "isabella-bird",
+  "status": "held",
+  "holdReason": "eligibility_v2 fails: 17 scored attributes (need 18, closest miss of the 4 candidates this cycle), coverage 0.511 (need 0.6), only 2 attributes at confidence >=0.5 (need 12), high-confidence average 0.53 (need 0.55). The richest evidence pack of the cycle (2 genuinely webfetch-opened, distinct-provenance sources: her own Japan travel letters + Anna Stoddart's independent 1906 biography) still produced mostly single-source-per-row evidence rather than rows independently corroborated by both sources, which is what caps confidence here even though the attribute count itself came close to the floor.",
+  "computedEligibility": {
+    "scoredAttributeCount": 17,
+    "averageConfidence": 0.388,
+    "coverage": 0.511,
+    "eligible": false,
+    "computedAt": "2026-09-07T00:00:00Z"
+  },
+  "identity": {
+    "canonicalName": "Isabella Bird",
+    "wikidataId": "Q288210",
+    "birthYear": 1831,
+    "deathYear": 1904,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["GB"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["explorer", "writer"],
+    "fieldIds": ["exploration", "literature"],
+    "impactDomains": ["historical", "cultural"],
+    "tagIds": ["explorer", "overcame_adversity"],
+    "archetypeIds": ["independent_creator"]
+  },
+  "sources": [
+    { "id": "src_ib_unbeaten_tracks", "kind": "archive", "title": "Isabella L. Bird, Unbeaten Tracks in Japan (1880) — her own travel letters to her sister", "url": "https://www.gutenberg.org/files/2184/2184-h/2184-h.htm" },
+    { "id": "src_ib_stoddart", "kind": "biography", "title": "Anna M. Stoddart, The Life of Isabella Bird (1906) — independent biography by a personal acquaintance, drawing on family letters and papers", "url": "https://archive.org/stream/lifeofisabellabi00stoduoft/lifeofisabellabi00stoduoft_djvu.txt" },
+    { "id": "src_ib_wikipedia", "kind": "wikipedia", "title": "Isabella Bird", "url": "https://en.wikipedia.org/wiki/Isabella_Bird" }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The independent Stoddart biography documents a lifelong childhood-onward pattern of continuing physical activity despite a chronic spinal/pain condition rather than resting; her own Japan letters separately document enduring a first night's collapsed travel-stretcher for three hours while \"becoming more and more nervous every moment\" rather than abandoning the arrangement — two independently-sourced instances of pushing through discomfort rather than stopping."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same childhood pattern (sustained outdoor activity maintained against doctor's expectations) suggests self-imposed routine, but is inferred from a general biographical characterization rather than one specific dated instance."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Stoddart biography documents that travel, prescribed as a treatment, unexpectedly energized rather than depleted her (\"better in health, full of animation\" after a seven-month 1854 voyage) — one independent source's account of an atypical positive response to changed circumstances."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same unexpected travel-health discovery implies she revised her own assumptions about what she could tolerate, but this is inferred rather than a documented statement of changed belief."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Her own letters document acute pre-departure fear before the Japan journey (\"the fear of being frightened, of being rudely mobbed... I often wished to give up my project, but was ashamed of my cowardice\") followed by proceeding anyway; the independent Stoddart biography separately documents a near-drowning on Lake Ontario after which she vowed never to cross it again, then sailed it again within days — two independently-sourced instances of acting despite (rather than absence of) fear."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Her own letters document hiring a guide (Ito) she explicitly distrusted at the outset (\"I suspected and disliked the boy\") without references, out of practical necessity — one self-authored instance of proceeding under uncertainty about a working relationship."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her own letters document deliberately packing minimal provisions against others' advice, reasoning through the interior's actual conditions herself (\"bread, butter, milk, meat... are unattainable\") rather than deferring to convention — one self-authored instance of independently-reasoned self-direction."
+    },
+    "resourcefulness": {
+      "score": 56,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Her own letters document practical kit design choices (a 2.5-ounce Japanese hat instead of a heavier pith helmet, an elevated stretcher against fleas, a diplomatically-obtained unrestricted passport) — self-authored but a single cluster of related choices rather than an independently corroborated pattern."
+    },
+    "planning_orientation": {
+      "score": 54,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The same kit-design cluster shows some forethought, but is a single self-authored account rather than a second corroborating instance, kept near the unremarkable band."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The independent Stoddart biography documents that despite publicly crediting others' judgment when first submitting a manuscript to publisher John Murray, she independently objected to his change of her book's title and argued against discounting books sold to remote Highland communities — one independent source's account of asserting her own judgment against her publisher's on two related points."
+    },
+    "persuasiveness": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same Murray dispute (arguing successfully enough that Stoddart records the objection as notable) is the only direct evidence for this row, hence inference-level."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Stoddart biography documents her personally nursing her sister Henrietta through scarlet fever while separately tending their father, without contracting the illness herself — one independent source's account of sustained caregiving under a specific health risk."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The Stoddart biography documents that she used earnings from her first book to fund deep-sea fishing boats for impoverished Highland communities, tied to an inherited (her father's, via the Wilberforce family line) social conscience — one independent source's specific account of directing personal resources toward a cause."
+    },
+    "proactive_agency": {
+      "score": 56,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same fishing-boat philanthropy is a single self-initiated act documented only in the independent biography, not corroborated in her own letters read this cycle."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Her own letters document unusually detailed, sustained documentation of a temple's architecture and religious objects down to the worn condition of a specific statue (\"has not much more of eyes, nose, and mouth than the Sphinx\") — one self-authored instance of close, voluntary observation well beyond what a traveler's diary requires."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same temple-documentation passage supports sustained attentiveness to specific physical detail, though it is a single self-authored instance."
+    },
+    "analytical_rigor": {
+      "score": 52,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Her own letters show a balanced, fact-checked social observation of local women's fashion (critical but fair: \"hard to pronounce any unfavourable criticism on women who have so much kindly grace of manner\") — a single, mild signal kept near the unremarkable band."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-07T00:00:00Z",
+    "updatedAt": "2026-09-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster21 simplified evidence-first intake. 2 genuinely webfetch-opened, distinct-provenance sources (Bird's own Unbeaten Tracks in Japan letters; Anna Stoddart's independent 1906 biography, written by a personal acquaintance drawing on family papers), both read directly this cycle with real extracted passages spanning childhood illness, family, publishing, philanthropy, and the Japan journey. 17 rows scored — the richest evidence pack of the 4 candidates frozen this cycle, reflecting that both sources converged on several of the same underlying incidents (chronic illness/travel, risk-under-fear) while each also contributed material the other did not (publishing conflicts and philanthropy from Stoddart only; the Ito relationship and kit design from her own letters only). No score adjusted after computing eligibility."
+  }
+}

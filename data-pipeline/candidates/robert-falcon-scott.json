@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-falcon-scott",
+  "status": "held",
+  "holdReason": "eligibility_v2 fails on every axis: 14 scored attributes (need 18), coverage 0.412 (need 0.6), only 4 attributes at confidence >=0.5 (need 12), high-confidence average 0.51 (need 0.55). A real, honestly-sourced 2-independent-provenance evidence pack (his own Terra Nova journal + Cherry-Garrard's independent memoir, both genuinely webfetch-opened) produced 14 traceable attributes, consistent with this project's roster17-20 experience that a bounded 2-source research pass typically falls well short of the 18-attribute floor.",
+  "computedEligibility": {
+    "scoredAttributeCount": 14,
+    "averageConfidence": 0.425,
+    "coverage": 0.412,
+    "eligible": false,
+    "computedAt": "2026-09-07T00:00:00Z"
+  },
+  "identity": {
+    "canonicalName": "Robert Falcon Scott",
+    "wikidataId": "Q102527",
+    "birthYear": 1868,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["GB"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["explorer", "military_leader"],
+    "fieldIds": ["exploration", "military"],
+    "impactDomains": ["historical", "educational"],
+    "tagIds": ["explorer", "leader"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_rfs_journal", "kind": "archive", "title": "Robert Falcon Scott, Scott's Last Expedition, Volume I (his own journals of the Terra Nova expedition, 1910-1912)", "url": "https://www.gutenberg.org/cache/epub/11579/pg11579-images.html" },
+    { "id": "src_rfs_cherrygarrard", "kind": "biography", "title": "Apsley Cherry-Garrard, The Worst Journey in the World (1922) — independent eyewitness memoir by a Terra Nova expedition member", "url": "https://www.gutenberg.org/files/14363/14363-h/14363-h.htm" },
+    { "id": "src_rfs_wikipedia", "kind": "wikipedia", "title": "Robert Falcon Scott", "url": "https://en.wikipedia.org/wiki/Robert_Falcon_Scott" }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "When the ship's engine-room fires were flooded during a storm and the engineer declared himself beaten, Scott's own journal documents that he organized bucket brigades and ordered the bulkhead cut through to clear pump suctions rather than accept the engineer's assessment — one specific, dated crisis decision, directly self-authored."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same storm episode (bucket brigades, cutting the bulkhead) shows improvisation under a specific equipment failure, but this is a single episode without independent corroboration, so capped at inference rather than documented."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Cherry-Garrard's independent account credits Scott specifically with organizational leadership strength (\"for a joint scientific and geographical piece of organization, give me Scott\") as a comparative assessment against other polar leaders (Wilson, Amundsen), converging with Scott's own crisis-management journal entries — two independent sources on the same trait."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Scott's own journal documents deliberate patience under pack-ice delay, weighing coal consumption against pony welfare rather than forcing progress (\"I should certainly contemplate waiting... if it weren't for the ponies\"), and Cherry-Garrard independently documents Scott undertaking \"a winter of drastic reorganization\" of food/clothing/systems after the Discovery expedition's first chaotic season — two independently-sourced instances of considered, systematic planning."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Scott's own journal frankly admits uncertainty (\"I really don't know what to think of the pack, or when to hope for open water\") while continuing methodical observation — soundings, temperature readings, sketching — rather than treating the confusion as reason for paralysis or panic, a directly self-authored account."
+    },
+    "analytical_rigor": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same pack-ice passage shows sustained systematic data-gathering (soundings, temperatures) under uncertainty, but this is a single documented episode without a second corroborating instance, so kept at inference level."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Cherry-Garrard documents Scott's collaborative working relationship with the scientist Hooker during the Discovery voyage, noted as involving \"occasional friction\" alongside mutual respect — one independent account, not corroborated elsewhere this cycle, hence inference rather than strong_inference."
+    },
+    "social_assertiveness": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Scott's own journal records close, specific attention to crew morale during the storm (noting officers and men \"singing chanties over their arduous work,\" that \"not a single one has lost his good spirits\") — a single self-authored observation of morale-monitoring, not independently corroborated, so scored at inference."
+    },
+    "conflict_tolerance": {
+      "score": 50,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The same Hooker relationship (\"occasional friction\" tolerated within an otherwise-collaborative partnership) is the only evidence for this row — thin, single-source, hence low confidence and the unremarkable-band default score rather than a directional lean."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Cherry-Garrard's account of the Discovery expedition's first season being organizationally chaotic (\"food, clothing, everything was wrong, the whole system was bad\"), followed by wholesale reorganization before the next season, documents a response to failure but rests on one biographer's narrative summary rather than a directly quoted decision, hence inference."
+    },
+    "belief_updating": {
+      "score": 56,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "The same post-failure reorganization implies Scott revised his operating assumptions after the first season's results, but this is inferred from the outcome (a rebuilt system) rather than a documented account of the reasoning process itself."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Cherry-Garrard characterizes the expedition's working ethos, which Scott set as commander, as \"doing our jobs as well as we were able just because we wished to do them well\" — a single biographer's characterization of a collective culture, credited to Scott's leadership but not a directly quoted statement of his own."
+    },
+    "achievement_drive": {
+      "score": 52,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "The same professional-ethos characterization suggests a standards-driven orientation, but is a thin, single, indirect signal — kept near the unremarkable band rather than scored as a strong lean."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Widely corroborated historical record (Scott's final \"Message to the Public\" and diary, continuing to write until his death, and the decision to stand by Oates rather than abandon him for speed) supports sustained persistence under fatal conditions, but the specific final-days passages were located this cycle via secondary citation of the diary rather than a direct fetch of that exact passage from the primary text, so this row is capped at inference despite the underlying source being one already opened for other rows."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-07T00:00:00Z",
+    "updatedAt": "2026-09-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster21 simplified evidence-first intake. 2 genuinely webfetch-opened, distinct-provenance sources (Scott's own Terra Nova journal; Cherry-Garrard's independent eyewitness memoir), both read directly this cycle with real extracted passages. 14 rows scored from evidence traceable to those two openings; a few late-expedition incidents (Oates's death, the final Message to the Public) are extremely well-established historical fact but were located this cycle via secondary citation rather than a direct fetch of that exact page of the primary text (the fetch tool truncated before reaching that chapter of the very long Gutenberg document) — reflected honestly as a single low-confidence inference row (persistence) rather than a documented row, per this project's own source-traceability discipline (see eligibility-evidence-calibration.md). No score was adjusted after computing eligibility."
+  }
+}
