@@ -56,11 +56,11 @@ per-item, since this is not uniform across IA).
 
 | Candidate | Sources actually opened (2+ required) | Disposition |
 |---|---|---|
-| **Helen Keller** | (1) *The Story of My Life* (1903 autobiography, Project Gutenberg, full text, PD) — opened, read, incidents extracted. (2) *Out of the Dark* (1913 essay collection, archive.org non-restricted `_djvu.txt` stream) — opened, read, incidents extracted. (3) *Midstream: My Later Life* (1929 autobiography, archive.org non-restricted `_djvu.txt` stream) — opened, read, incidents extracted. | **3 documents opened, but only 1 independent-provenance source class** (all three are Keller's own voice — see the correction note above). Carried forward to incident mapping on the strength of genuinely rich material, but this independence shortfall is now disclosed as a standing gap, not papered over. |
-| **Aleksandr Solzhenitsyn** | (1) *The Gulag Archipelago* (memoir/testimony, archive.org non-restricted `_djvu.txt` stream — a specific upload of this specific abridged edition, verified NOT access-restricted) — opened, read, incidents extracted. (2) "A World Split Apart" — 1978 Harvard commencement address, official Aleksandr Solzhenitsyn Center site — opened, read. (3) Press/secondary corroboration of the Tvardovsky/*Novy Mir* publication episode (multiple independent press/reference accounts, not a single primary text actually opened in full) — weaker, background-corroborated only. | **2 documents opened, but only 1 independent-provenance source class** (both are Solzhenitsyn's own voice — see correction note). Carried forward to incident mapping; independence shortfall disclosed. |
-| **Emma Goldman** | (1) *Living My Life* (1931 autobiography, theanarchistlibrary.org, full text) — opened, read (chapters covering 1885-1892). (2) *My Disillusionment in Russia* (1923 memoir, theanarchistlibrary.org, full text) — opened, read in full, rich incident set. (3) Alexander Berkman, *Prison Memoirs of an Anarchist* (1912, independent co-participant account, Gutenberg, PD) — opened; the specific passage fetch did not surface an explicit named reference to Goldman in the section retrieved, so it did not yield usable corroborating content. | **2 documents opened, but only 1 independent-provenance source class** (both self-authored — see correction note; Berkman's independently-authored memoir was opened but not substantively usable, so it does not raise the count). Carried forward to incident mapping; independence shortfall disclosed. |
-| **Clara Barton** | (1) *The Story of My Childhood* (autobiography, Gutenberg) + (2) Percy Epler's *The Life of Clara Barton* (biography, archive.org open `_djvu.txt`, opened 3 times across this cycle for different life periods) + (3) William E. Barton's *The Life of Clara Barton* (biography by her cousin, Gutenberg, opened once) — all opened and read. | **3 documents, 2 independent-provenance sources** (Epler + W. E. Barton, both distinct authors from Barton herself — genuinely satisfies the corrected >=2-independent-provenance standard). **Fully evaluated in this correction pass — see Part I.** |
-| **John Muir** | (1) *The Story of My Boyhood and Youth* (autobiography, Gutenberg) + (2) *A Thousand-Mile Walk to the Gulf* (autobiography/journal, Gutenberg) + (3) William Frederic Bade's *The Life and Letters of John Muir*, Vols. I-II (near-primary, his letters + independent biographical narrative, archive.org open `_djvu.txt`, opened 4 times across this cycle for different life periods) — all opened and read. | **3 documents, 2 independent-provenance sources** (Bade is a distinct author from Muir himself — genuinely satisfies the corrected >=2-independent-provenance standard). **Fully evaluated in this correction pass — see Part I.** |
+| **Helen Keller** | (1) *The Story of My Life* (1903 autobiography, Project Gutenberg, full text, PD) — opened, read, incidents extracted. (2) *Out of the Dark* (1913 essay collection, archive.org non-restricted `_djvu.txt` stream) — opened, read, incidents extracted. (3) *Midstream: My Later Life* (1929 autobiography, archive.org non-restricted `_djvu.txt` stream) — opened, read, incidents extracted. | **3 documents opened, but 1 total distinct provenance perspective** (all three are Keller's own voice — see the correction note above). Criterion 1 **FAILS**. Carried forward to incident mapping for methodological comparison, but this is the earliest failed gate, disclosed as such, not a footnote. |
+| **Aleksandr Solzhenitsyn** | (1) *The Gulag Archipelago* (memoir/testimony, archive.org non-restricted `_djvu.txt` stream — a specific upload of this specific abridged edition, verified NOT access-restricted) — opened, read, incidents extracted. (2) "A World Split Apart" — 1978 Harvard commencement address, official Aleksandr Solzhenitsyn Center site — opened, read. (3) Press/secondary corroboration of the Tvardovsky/*Novy Mir* publication episode (multiple independent press/reference accounts, not a single primary text actually opened in full) — weaker, background-corroborated only. | **2 documents opened, but 1 total distinct provenance perspective** (both are Solzhenitsyn's own voice — see correction note). Criterion 1 **FAILS**. Carried forward for methodological comparison. |
+| **Emma Goldman** | (1) *Living My Life* (1931 autobiography, theanarchistlibrary.org, full text) — opened, read (chapters covering 1885-1892). (2) *My Disillusionment in Russia* (1923 memoir, theanarchistlibrary.org, full text) — opened, read in full, rich incident set. (3) Alexander Berkman, *Prison Memoirs of an Anarchist* (1912, independent co-participant account, Gutenberg, PD) — opened; the specific passage fetch did not surface an explicit named reference to Goldman in the section retrieved, so it did not yield usable corroborating content. | **2 documents opened, but 1 total distinct provenance perspective** (both self-authored — see correction note; Berkman's independently-authored memoir was opened but not substantively usable, so it does not raise the count). Criterion 1 **FAILS**. Carried forward for methodological comparison. |
+| **Clara Barton** | (1) *The Story of My Childhood* (autobiography, Gutenberg) + (2) Percy Epler's *The Life of Clara Barton* (biography, archive.org open `_djvu.txt`, opened 3 times across this cycle for different life periods) + (3) William E. Barton's *The Life of Clara Barton* (biography by her cousin, Gutenberg, opened once) — all opened and read. | **3 documents, 3 total distinct provenance perspectives (2 non-self: Epler, William E. Barton)** — genuinely satisfies the corrected >=2-total-perspectives standard. Criterion 1 **PASSES**. **Fully evaluated in this correction pass — see Part I.** |
+| **John Muir** | (1) *The Story of My Boyhood and Youth* (autobiography, Gutenberg) + (2) *A Thousand-Mile Walk to the Gulf* (autobiography/journal, Gutenberg) + (3) William Frederic Bade's *The Life and Letters of John Muir*, Vols. I-II (near-primary, his letters + independent biographical narrative, archive.org open `_djvu.txt`, opened 4 times across this cycle for different life periods) — all opened and read. | **3 documents, 2 total distinct provenance perspectives (1 non-self: Bade)** — Muir's own two books both count as a single "Muir" perspective, so this is 1 non-self corroborating perspective, not 2. Still clears the >=2-total-perspectives standard. Criterion 1 **PASSES**. **Fully evaluated in this correction pass — see Part I.** |
 | Charles Lindbergh | (1) *"We"* (1927 autobiography, Gutenberg, PD) — opened, read. (2) A. Scott Berg's *Lindbergh* biography and *The Wartime Journals of Charles A. Lindbergh* — both confirmed **access-restricted** (controlled digital lending) on every edition checked; no substantively-readable 2nd source found. | `SOURCE_ACCESS_INSUFFICIENT` |
 | P. T. Barnum | (1) *Struggles and Triumphs* / *The Life of P.T. Barnum* (his own memoir, Gutenberg, PD) — opened, read. (2) A. H. Saxon's *P.T. Barnum: The Legend and the Man* — no free full text found anywhere. J. Bryan's *The World's Greatest Showman* — archive.org page did not yield actual text on fetch (landing page only, format unclear whether restricted or a fetch limitation) — not counted as opened. | `SOURCE_ACCESS_INSUFFICIENT` |
 | Carl Sagan | Multiple biographies (Davidson's *Carl Sagan: A Life*) confirmed to exist but not freely full-text-readable anywhere found; *Cosmos* itself on archive.org did not yield actual text on fetch. Real secondary journalism on the Harvard tenure denial and 1991 NAS blackballing was found and is genuine, useful background, but does not meet the "actually opened, sufficiently readable for behavioral extraction" bar for a full source class — it is commentary about incidents, not incident-level primary/near-primary material. | `SOURCE_ACCESS_INSUFFICIENT` |
@@ -69,11 +69,12 @@ per-item, since this is not uniform across IA).
 **4 of 9 discovery-pool candidates failed the source-access gate on raw
 readability** (no second actually-open document at all) — a real,
 expected outcome given how much of Internet Archive's biography holdings
-are lending-restricted rather than open text. Of the remaining 5, only
-**2 (Barton, Muir) actually have >=2 independent-provenance sources**
-under the corrected definition above; Keller, Goldman, and Solzhenitsyn
-each have multiple readable documents but only one independent voice
-(the subject's own). This is reported as-is, not papered over.
+are lending-restricted rather than open text. Of the remaining 5, **all 5
+had readable multi-document material, but only 2 (Barton, Muir) meet the
+>=2-total-distinct-provenance-perspectives standard (criterion 1)**;
+Keller, Goldman, and Solzhenitsyn each have multiple readable documents
+but only 1 total perspective (the subject's own voice). This is reported
+as-is, not papered over.
 
 ## Identity verification (Part C cross-check)
 
@@ -101,37 +102,50 @@ manufacture a different outcome — the original incident ledgers for
 Keller, Goldman, and Solzhenitsyn are preserved verbatim, and no further
 research was performed on those three.
 
-### 1. Source independence was defined wrong
+### 1. Source independence was defined wrong, then defined inconsistently on the first correction attempt
 
 The standing rule this project uses elsewhere is: **independence means
 independent provenance/perspective — a different author, institution, or
 vantage point — not merely a different book or article by the same
 person.** The original version of this checkpoint conflated "multiple
 books" with "multiple independent sources" for three of the five READY
-candidates. Corrected below, distinguishing three separate counts that
-were previously collapsed into one:
+candidates. A first correction pass fixed that for Keller/Goldman/
+Solzhenitsyn but then introduced a second, subtler error for Muir
+(described "Bade" — one person — as "2 independent-provenance sources").
+Both errors are fixed here using **one explicit, consistently-applied
+convention**:
 
-| Candidate | Source count (documents opened) | Source-class count (kinds: autobiography/memoir vs. biography vs. correspondence, etc.) | **Independent-provenance count** (distinct authors/perspectives, excluding the subject's own voice counted once) |
-|---|---|---|---|
-| Helen Keller | 3 (*Story of My Life*, *Out of the Dark*, *Midstream*) | 1 (all self-authored autobiography/memoir) | **1** — all three are Keller's own voice. `Midstream`'s foreword is by an editorial associate close to her circle, not an arms-length biographer, and was not treated as a separate provenance. |
-| Aleksandr Solzhenitsyn | 2 (*The Gulag Archipelago*, Harvard address) | 1 (self-authored testimony/memoir + self-authored speech) | **1** — both are Solzhenitsyn's own voice. (*The Gulag Archipelago* does compile testimony from ~227 other former prisoners, but the specific incidents extracted this cycle — his own arrest and conduct — are his own self-report, not corroborated by one of those other accounts.) |
-| Emma Goldman | 2 (*Living My Life*, *My Disillusionment in Russia*) | 1 (self-authored autobiography/memoir, written 9 years apart) | **1** — both are Goldman's own voice. Alexander Berkman's independently-authored *Prison Memoirs of an Anarchist* was opened but did not yield a usable corroborating passage this cycle (recorded honestly in the original text below), so it does not raise this count. |
-| Clara Barton | 3 (her own *Story of My Childhood*, Percy Epler's biography, William E. Barton's biography) | 2 (autobiography + biography) | **2** — Epler (a Red Cross associate, not a blood relative, writing after her death) and William E. Barton (her cousin, also writing posthumously) are both distinct authorial voices from Barton's own. W. E. Barton's family relationship is noted as a limit on full arms-length independence, but he is still a separate author with his own narrative judgment, not the subject writing about herself. |
-| John Muir | 3 (his own *Story of My Boyhood and Youth* and *A Thousand-Mile Walk to the Gulf*, William Frederic Bade's *Life and Letters*) | 2 (autobiography + biography/letters) | **2** — Bade (Muir's literary executor and friend, writing after his death, contributing his own biographical narrative around Muir's letters) is a distinct authorial voice. The friendship is noted as a limit on full arms-length independence, but this is qualitatively different from a self-authored second book. |
+> **Independent-provenance count** = the number of genuinely distinct
+> provenance perspectives represented in usable evidence for this
+> candidate, where every document by the same person counts as ONE
+> perspective regardless of how many separate books it spans, and the
+> subject's own voice is counted as one perspective like any other.
+> Criterion 1 (roster20 freeze gate) is satisfied when this count is
+> **>=2**.
 
-**Correction applied**: every "READY" label and "N sources actually opened"
-claim in the table below is now qualified with its independent-provenance
-count. Keller, Solzhenitsyn, and Goldman each had exactly **one**
-independent-provenance source class this cycle (the subject's own voice,
-however many books it appeared in) — this is disclosed honestly as a
-standing shortfall against the source-independence standard, alongside
-(not instead of) the incident/cluster/attribute-count findings below,
-which is why all three still failed even setting the independence question
-aside. Barton and Muir are the only two candidates this cycle with a
-genuine second, non-self provenance actually opened and read — which is
-exactly why they are the two candidates carried to a full, completed
-evaluation in this correction pass (see the new Barton/Muir sections
-below). No rescue research was performed on Keller, Goldman, or
+| Candidate | Source count (documents opened) | Distinct provenance perspectives (total, subject included) | Non-self corroborating perspectives | Criterion 1 (>=2 total perspectives) |
+|---|---|---|---|---|
+| Helen Keller | 3 (*Story of My Life*, *Out of the Dark*, *Midstream*) | **1** (Keller only — `Midstream`'s foreword is by an editorial associate close to her circle, not treated as a separate perspective) | 0 | **FAIL** |
+| Aleksandr Solzhenitsyn | 2 (*The Gulag Archipelago*, Harvard address) | **1** (Solzhenitsyn only — *The Gulag Archipelago* compiles testimony from ~227 other former prisoners, but the specific incidents extracted this cycle, his own arrest and conduct, are his own self-report) | 0 | **FAIL** |
+| Emma Goldman | 2 (*Living My Life*, *My Disillusionment in Russia*), plus Berkman's *Prison Memoirs* opened but unusable | **1** (Goldman only — Berkman's independently-authored memoir was opened but yielded no usable corroborating passage this cycle, so it does not raise the count) | 0 | **FAIL** |
+| Clara Barton | 3 (her own *Story of My Childhood*, Percy Epler's biography, William E. Barton's biography) | **3** (Barton + Epler + William E. Barton — three genuinely distinct authorial voices) | **2** (Epler, William E. Barton) | **PASS** |
+| John Muir | 3 (his own *Story of My Boyhood and Youth* and *A Thousand-Mile Walk to the Gulf*, William Frederic Bade's *Life and Letters*) | **2** (Muir + Bade — Muir's own two books both count as the single "Muir" perspective) | **1** (Bade only) | **PASS** |
+
+**Correction applied**: every mention of Muir having "2 independent-
+provenance sources" in the prior version of this checkpoint was wrong —
+Muir has 2 total distinct perspectives (himself + Bade), which is 1
+non-self corroborating perspective, not 2. It happens to still clear the
+>=2-total-perspectives bar for criterion 1, so the PASS verdict is
+unchanged, but the stated reasoning was wrong and is corrected here.
+Keller, Solzhenitsyn, and Goldman each have exactly **1** total distinct
+provenance perspective (the subject's own voice, however many books it
+appeared in) and **0** non-self corroborating perspectives — **all three
+fail criterion 1 outright**, disclosed as the earliest, gating failure for
+each of them (see Part I), not a footnote alongside a later failure.
+Barton (3 total / 2 non-self) and Muir (2 total / 1 non-self) both clear
+criterion 1, which is exactly why they are the two candidates carried to a
+full, completed evaluation in this correction pass (see the Barton/Muir
+sections below). No rescue research was performed on Keller, Goldman, or
 Solzhenitsyn in this correction — their incident ledgers, fact-cluster
 maps, and attribute counts are unchanged from the original run.
 
@@ -244,7 +258,8 @@ retrofit onto the earlier partial notes.
 | CB-12 | 1870, Franco-Prussian War | Was in Switzerland at the war's outbreak, immediately tendered her services, worked with the Grand Duchess of Baden | opportunity sensing / proactive agency | CB3 | direct |
 | CB-13 | 1870s-1881 | "For years... her voice almost alone pleaded for" American recognition of the Red Cross/Geneva Convention against sustained "indifference... hostility" | persistence / persuasiveness | CB3 | direct |
 
-**13 incidents, 3 documents (2 independent-provenance), domains**:
+**13 incidents, 3 documents (3 total distinct provenance perspectives, 2
+non-self), domains**:
 self-knowledge, leadership, risk tolerance, resourcefulness, conflict
 tolerance, achievement, adaptability, collaboration, opportunity sensing,
 persistence, persuasiveness — **10 distinct behavioral domains**, the
@@ -270,7 +285,8 @@ broadest of any candidate this cycle.
 | JM-14 | Sept 10, 1867, Cumberland Mts. | Won over a skeptical blacksmith who doubted plant study's worth by invoking "Christ says, 'Consider the lilies'" — turned opposition into hospitality | persuasiveness (corroborating) | JM2 | direct |
 
 **14 incidents (13 fully primary-sourced, 1 background-corroborated),
-3 documents (2 independent-provenance), domains**: persistence,
+3 documents (2 total distinct provenance perspectives, 1 non-self),
+domains**: persistence,
 independent thinking, autonomy need, discipline, risk tolerance, deep
 focus, collaboration, conflict tolerance, mastery orientation, belief
 updating, decisiveness, resourcefulness, persuasiveness — **13 distinct
@@ -379,53 +395,58 @@ mastery_orientation, risk_tolerance, deep_focus, collaboration,
 conflict_tolerance, belief_updating, decisiveness, persuasiveness,
 resourcefulness). Largest single-cluster reuse: 3 (FC-JM-A, at the cap).
 This is the richest literal count of any candidate evaluated this cycle,
-and the only one built from a source set with 2 genuine independent-
-provenance documents plus 14 (vs. 9-12) incidents — directly consistent
-with Part C's finding that a real second, non-self-authored voice
-produces measurably better breadth than three self-authored books alone.
+and the only one (besides Barton) built from a source set with a genuine
+non-self corroborating perspective (Bade) plus 14 (vs. 9-12) incidents —
+directly consistent with Part C's finding that a real second, non-self
+provenance produces measurably better breadth than a self-authored-only
+source set.
 
 ## Part I — Freeze-gate verdict
 
-The freeze gate has multiple independent criteria (numbered per the
-roster20 brief): (1) >=2 independent-provenance sources actually opened,
+The freeze gate has multiple, ordered criteria (numbered per the roster20
+brief): (1) >=2 total distinct provenance perspectives actually opened,
 (3) >=12 concrete behavioral incidents, (4) >=6 distinct fact clusters,
 (5) >=4 behavioral domains, (6) a real interpersonal/collaboration domain,
 (7) a real conflict/setback/constraint domain, (8) >=20 canonical
 attributes surviving the literal map (preferably >=22, criterion 9), (10)
 >=12 of those with STRONG/MODERATE support, (11) no cluster dominance.
-**A candidate must pass every criterion — this checkpoint's original
-version incorrectly implied criteria 3-7 all passed uniformly before a
-single common criterion-8 failure. That was false and is corrected below:
-each candidate's actual, specific set of failed criteria is reported,
-using the earliest substantive failure as the primary disposition where
-the brief specifically named one, while still disclosing every other
-failed criterion rather than hiding it behind a single label.**
+**Criterion 1 is a real, ordered gate, not a footnote to disclose
+alongside a later failure.** A prior version of this checkpoint described
+Keller/Goldman/Solzhenitsyn as "primarily" failing on incident/cluster/
+attribute counts while treating their criterion-1 failure as a secondary
+disclosure — that inverted the ordering. Corrected below: for any
+candidate that fails criterion 1, criterion 1 **is** the primary
+disposition; every criterion evaluated after it is reported as a
+secondary finding for completeness, not as competing "primary" reasons.
 
-| Candidate | Crit. 1 (>=2 indep. provenance) | Crit. 3 (>=12 incidents) | Crit. 4 (>=6 clusters) | Crit. 5-7 (domains/interpersonal/conflict) | Crit. 8 (>=20 attributes) | Primary disposition |
-|---|---|---|---|---|---|---|
-| Helen Keller | **FAIL** (1 — see correction record) | PASS (12) | PASS (6) | PASS (8 domains, both present) | **FAIL** (11) | `ATTRIBUTE_BREADTH_INSUFFICIENT` — this is the earliest gate she fails among 3/4/8 (incident and cluster floors are genuinely cleared), but the criterion-1 independence shortfall is disclosed as a separate, foundational problem that predates it |
-| Emma Goldman | **FAIL** (1) | PASS (12) | **FAIL** (5) | PASS (8 domains pre-dedup / 13 angles, both present) | **FAIL** (8) | `FACT_CLUSTER_INSUFFICIENT` (criterion 4 is the earliest of 3/4/8 she fails — 5 clusters against a 6 floor) `+ ATTRIBUTE_BREADTH_INSUFFICIENT` (8 vs. 20) — both reported, not collapsed into one label; criterion-1 shortfall also disclosed |
-| Aleksandr Solzhenitsyn | **FAIL** (1) | **FAIL** (9 total / 7 scoreable, both <12) | **FAIL** (3) | PASS (6 domains, both present, though the collaboration angle rests on a background-only item) | **FAIL** (5-6) | `INCIDENT_COUNT_INSUFFICIENT` (criterion 3 is the earliest of 3/4/8 he fails) `+ FACT_CLUSTER_INSUFFICIENT` (4) `+ ATTRIBUTE_BREADTH_INSUFFICIENT` (8) — thinnest candidate on every count; criterion-1 shortfall also disclosed |
-| Clara Barton | **PASS** (2 — Epler + W. E. Barton, genuinely independent of Barton herself) | PASS (13) | PASS (6) | PASS (10 domains, both present) | **FAIL** (11) | `ATTRIBUTE_BREADTH_INSUFFICIENT` — the *only* failed criterion; passes 1/3/4/5/6/7 cleanly, the best-qualified candidate on every axis except literal attribute count |
-| John Muir | **PASS** (2 — Bade, genuinely independent of Muir himself) | PASS (14) | PASS (7) | PASS (13 domains, both present) | **FAIL** (13) | `ATTRIBUTE_BREADTH_INSUFFICIENT` — the *only* failed criterion; passes 1/3/4/5/6/7 cleanly, and reaches the highest literal attribute count (13) of any candidate this cycle |
+| Candidate | Crit. 1 (>=2 total distinct perspectives) | Crit. 3 (>=12 incidents) | Crit. 4 (>=6 clusters) | Crit. 5-7 (domains/interpersonal/conflict) | Crit. 8 (>=20 attributes) | Primary disposition | Secondary disposition(s) |
+|---|---|---|---|---|---|---|---|
+| Helen Keller | **FAIL** (1) | PASS (12) | PASS (6) | PASS (8 domains, both present) | **FAIL** (11) | `SOURCE_DEPTH_INSUFFICIENT` | `ATTRIBUTE_BREADTH_INSUFFICIENT` |
+| Emma Goldman | **FAIL** (1) | PASS (12) | **FAIL** (5) | PASS (8 domains pre-dedup / 13 angles, both present) | **FAIL** (8) | `SOURCE_DEPTH_INSUFFICIENT` | `FACT_CLUSTER_INSUFFICIENT`, `ATTRIBUTE_BREADTH_INSUFFICIENT` |
+| Aleksandr Solzhenitsyn | **FAIL** (1) | **FAIL** (9 total / 7 scoreable, both <12) | **FAIL** (3) | PASS (6 domains, both present, though the collaboration angle rests on a background-only item) | **FAIL** (5-6) | `SOURCE_DEPTH_INSUFFICIENT` | `INCIDENT_COUNT_INSUFFICIENT`, `FACT_CLUSTER_INSUFFICIENT`, `ATTRIBUTE_BREADTH_INSUFFICIENT` — thinnest candidate on every count |
+| Clara Barton | **PASS** (3 total, 2 non-self: Epler, William E. Barton) | PASS (13) | PASS (6) | PASS (10 domains, both present) | **FAIL** (11) | `ATTRIBUTE_BREADTH_INSUFFICIENT` | none — the *only* failed criterion |
+| John Muir | **PASS** (2 total, 1 non-self: Bade) | PASS (14) | PASS (7) | PASS (13 domains, both present) | **FAIL** (13) | `ATTRIBUTE_BREADTH_INSUFFICIENT` | none — the *only* failed criterion, and Muir reaches the highest literal attribute count (13) of any candidate this cycle |
 
 **0 of 5 fully-evaluated candidates cleared the roster20 freeze gate.**
-(The earlier draft of this checkpoint said "0 of 3" — Barton and Muir had
-not yet been carried through the same process; both now have, and both
-also failed, at criterion 8 only.) This is reported plainly, per the
-brief's own instruction that a zero-freeze result is valid, and it is not
-the same failure roster18/19 hit: roster18/19 froze candidates on an
+(An earlier draft said "0 of 3" before Barton and Muir were carried
+through the same process; a later draft said "0 of 5" but mislabeled
+Keller/Goldman/Solzhenitsyn's primary failure as attribute breadth rather
+than source depth — both corrected here.) This is reported plainly, per
+the brief's own instruction that a zero-freeze result is valid, and it is
+not the same failure roster18/19 hit: roster18/19 froze candidates on an
 *informal* breadth judgment and only discovered the shortfall after full
 scoring. Roster20's literal, cluster-capped map catches the same shortfall
 **before any candidate JSON is created** — exactly the stated goal of this
 cycle.
 
-The single clearest finding: **Barton and Muir — the two candidates with a
-genuine second, independent-provenance source — cleared every criterion
-except literal attribute count (11 and 13 respectively, both against a
->=20 floor), while Keller/Goldman/Solzhenitsyn (self-authored-only) also
-failed additional, earlier criteria (fact-cluster count for Goldman;
-incident count and fact-cluster count for Solzhenitsyn).** Independent
+The single clearest finding: **Barton and Muir — the two candidates that
+actually clear the source-independence gate — passed every remaining
+criterion except literal attribute count (11 and 13 respectively, both
+against a >=20 floor), while Keller/Goldman/Solzhenitsyn (1 total
+perspective each — self-authored-only) fail at the source-independence
+gate itself, before incident/cluster/attribute counting is even reached as
+a primary reason** (Goldman and Solzhenitsyn also separately fail later
+criteria, reported as secondary findings above). Independent
 provenance measurably improved breadth (Muir: 14 incidents/7 clusters/13
 attributes vs. Solzhenitsyn's 9/3/5-6), but even the best-sourced,
 best-evaluated candidate this cycle (Muir) still reached only 13 of the
@@ -450,14 +471,16 @@ for any of the 5.
 - **Roster20**: gate replaced the informal estimate with a **literal,
   counted, fact-cluster-capped table**, built and audited *before* any
   candidate is frozen, and added a stricter, corrected definition of
-  source independence (provenance, not book count). Applied honestly to
-  all 5 source-qualified candidates — Keller (1 indep. provenance, 12
-  incidents, 6 clusters, 11 attributes), Goldman (1, 12, 5, 8),
-  Solzhenitsyn (1, 9, 3, 5-6), Barton (2, 13, 6, 11), Muir (2, 14, 7,
-  13) — **every literal count landed lower than roster19's own informal
-  estimates typically claimed, and all 5 fell short of the >=20 floor**,
-  including the 2 candidates (Barton, Muir) with a genuine second,
-  independent-provenance source that cleared every other criterion.
+  source independence (total distinct provenance perspectives, not book
+  count). Applied honestly to all 5 source-qualified candidates — Keller
+  (1 total perspective, 12 incidents, 6 clusters, 11 attributes), Goldman
+  (1, 12, 5, 8), Solzhenitsyn (1, 9, 3, 5-6), Barton (3 total/2 non-self,
+  13, 6, 11), Muir (2 total/1 non-self, 14, 7, 13) — **every literal count
+  landed lower than roster19's own informal estimates typically claimed,
+  and all 5 fell short of the >=20 attribute floor**; Keller/Goldman/
+  Solzhenitsyn additionally fail criterion 1 outright (only 1 total
+  perspective each), while Barton and Muir clear criterion 1 and every
+  other criterion, failing *only* attribute breadth.
 
 The concrete finding for roster21 is now sharper than the first draft of
 this checkpoint could show, because it covers the full source-quality
@@ -519,56 +542,68 @@ branch, which was created fresh from `origin/main`.
 7. **Frozen candidates**: **none**.
 8. **Full sources actually consulted** (fetched and read, not merely
    found): Helen Keller — *The Story of My Life* (1903), *Out of the Dark*
-   (1913), *Midstream: My Later Life* (1929) — 1 independent-provenance
-   voice (her own). Aleksandr Solzhenitsyn — *The Gulag Archipelago*
-   (abridged), "A World Split Apart" (1978) — 1 independent-provenance
-   voice (his own). Emma Goldman — *Living My Life* (1931, Part I), *My
-   Disillusionment in Russia* (1923) — 1 independent-provenance voice (her
-   own); Alexander Berkman's *Prison Memoirs of an Anarchist* opened but
-   not substantively usable. Clara Barton — her own *Story of My
-   Childhood*, Percy Epler's *Life of Clara Barton*, William E. Barton's
-   *Life of Clara Barton* Vol. 1 — **2 independent-provenance voices**
-   beyond her own. John Muir — his own *Story of My Boyhood and Youth* and
-   *A Thousand-Mile Walk to the Gulf*, William Frederic Bade's *Life and
-   Letters of John Muir* Vols. I-II — **2 independent-provenance voices**
-   beyond his own.
-9. **Barton sources actually read**: see item 8; 3 documents, 2
-   independent-provenance sources, read across 4 separate fetch passes
-   this cycle (original + 3 correction-pass reads) covering childhood
-   formation, teaching career, Civil War nursing, Patent Office career,
-   Franco-Prussian War/Red Cross founding, and Red Cross presidency style.
+   (1913), *Midstream: My Later Life* (1929) — **1 total distinct
+   provenance perspective** (her own, across all 3 books). Aleksandr
+   Solzhenitsyn — *The Gulag Archipelago* (abridged), "A World Split
+   Apart" (1978) — **1 total distinct provenance perspective** (his own).
+   Emma Goldman — *Living My Life* (1931, Part I), *My Disillusionment in
+   Russia* (1923) — **1 total distinct provenance perspective** (her own);
+   Alexander Berkman's *Prison Memoirs of an Anarchist* opened but not
+   substantively usable, so it does not raise the count. Clara Barton —
+   her own *Story of My Childhood*, Percy Epler's *Life of Clara Barton*,
+   William E. Barton's *Life of Clara Barton* Vol. 1 — **3 total distinct
+   provenance perspectives (2 non-self**: Epler, William E. Barton**)**.
+   John Muir — his own *Story of My Boyhood and Youth* and *A
+   Thousand-Mile Walk to the Gulf*, William Frederic Bade's *Life and
+   Letters of John Muir* Vols. I-II — **2 total distinct provenance
+   perspectives (1 non-self**: Bade**)** — his own two books both count as
+   the single "Muir" perspective, not two.
+9. **Barton sources actually read**: see item 8; 3 documents, 3 total
+   distinct provenance perspectives (2 non-self), read across 4 separate
+   fetch passes this cycle (original + 3 correction-pass reads) covering
+   childhood formation, teaching career, Civil War nursing, Patent Office
+   career, Franco-Prussian War/Red Cross founding, and Red Cross
+   presidency style.
 10. **Barton incident/cluster/mapped-attribute counts**: 13 incidents, 6
    fact clusters, 11 literal canonical attributes (largest cluster reuse:
    3, at the cap).
-11. **Barton freeze disposition**: `ATTRIBUTE_BREADTH_INSUFFICIENT` — the
-   *only* failed criterion (passes independent-provenance, incident,
-   cluster, and domain floors cleanly).
-12. **Muir sources actually read**: see item 8; 3 documents, 2
-   independent-provenance sources, read across 5 separate fetch passes
-   this cycle (original + 4 correction-pass reads) covering farm
-   childhood, the Oakland writing period, the Mount Shasta storm, Jeanne
-   Carr's mentorship, Sierra conservation advocacy, the 1867 eye injury,
-   and the Thousand-Mile Walk.
+11. **Barton freeze disposition**: primary `ATTRIBUTE_BREADTH_INSUFFICIENT`
+   — the *only* failed criterion (passes source-independence, incident,
+   cluster, and domain floors cleanly). No secondary failures.
+12. **Muir sources actually read**: see item 8; 3 documents, 2 total
+   distinct provenance perspectives (1 non-self), read across 5 separate
+   fetch passes this cycle (original + 4 correction-pass reads) covering
+   farm childhood, the Oakland writing period, the Mount Shasta storm,
+   Jeanne Carr's mentorship, Sierra conservation advocacy, the 1867 eye
+   injury, and the Thousand-Mile Walk.
 13. **Muir incident/cluster/mapped-attribute counts**: 14 incidents, 7
    fact clusters, 13 literal canonical attributes (largest cluster reuse:
    3, at the cap) — the strongest result of any candidate this cycle.
-14. **Muir freeze disposition**: `ATTRIBUTE_BREADTH_INSUFFICIENT` — the
-   *only* failed criterion, same pattern as Barton.
+14. **Muir freeze disposition**: primary `ATTRIBUTE_BREADTH_INSUFFICIENT`
+   — the *only* failed criterion, same pattern as Barton. No secondary
+   failures.
 15. **Whether anyone legitimately reached scoring**: **no** — all 5
-   fully-evaluated candidates failed the freeze gate on at least criterion
-   8 (literal attribute count), so none reached Parts J-Q (freeze audit,
-   deep evidence pack, final pre-score map, scoring).
+   fully-evaluated candidates failed the freeze gate (Keller/Goldman/
+   Solzhenitsyn primarily on source independence, criterion 1; Barton/Muir
+   on attribute breadth, criterion 8), so none reached Parts J-Q (freeze
+   audit, deep evidence pack, final pre-score map, scoring).
 16. **Scoring result**: not applicable — 0 candidates scored.
 17. **Final roster20 conclusion**: **0 of 5 fully-evaluated candidates
-   cleared the freeze gate.** Keller: fails criterion 8 (11 vs. 20);
-   independent-provenance shortfall (criterion 1) also disclosed. Goldman:
-   fails criteria 4 (5 vs. 6 clusters) and 8 (8 vs. 20); criterion 1
-   shortfall also disclosed. Solzhenitsyn: fails criteria 3 (9/7 vs. 12),
-   4 (3 vs. 6), and 8 (5-6 vs. 20); criterion 1 shortfall also disclosed —
-   the thinnest candidate on every axis. Barton and Muir both genuinely
-   pass criterion 1 (2 independent-provenance sources each) and criteria
-   3-7, and both fail *only* criterion 8 (11 and 13 respectively, vs. 20)
-   — the best-qualified candidates this cycle, still short.
+   cleared the freeze gate.** Keller: **primary** `SOURCE_DEPTH_INSUFFICIENT`
+   (criterion 1 — only 1 total distinct provenance perspective, needs
+   >=2); **secondary** `ATTRIBUTE_BREADTH_INSUFFICIENT` (11 vs. 20).
+   Goldman: **primary** `SOURCE_DEPTH_INSUFFICIENT` (1 perspective);
+   **secondary** `FACT_CLUSTER_INSUFFICIENT` (5 vs. 6) and
+   `ATTRIBUTE_BREADTH_INSUFFICIENT` (8 vs. 20). Solzhenitsyn: **primary**
+   `SOURCE_DEPTH_INSUFFICIENT` (1 perspective); **secondary**
+   `INCIDENT_COUNT_INSUFFICIENT` (9/7 vs. 12), `FACT_CLUSTER_INSUFFICIENT`
+   (3 vs. 6), and `ATTRIBUTE_BREADTH_INSUFFICIENT` (5-6 vs. 20) — the
+   thinnest candidate on every axis. Barton: **primary** (and only)
+   `ATTRIBUTE_BREADTH_INSUFFICIENT` (11 vs. 20) — genuinely passes
+   criterion 1 (3 total perspectives, 2 non-self) and criteria 3-7 cleanly.
+   Muir: **primary** (and only) `ATTRIBUTE_BREADTH_INSUFFICIENT` (13 vs.
+   20) — genuinely passes criterion 1 (2 total perspectives, 1 non-self)
+   and criteria 3-7 cleanly, the strongest result of the cycle.
 18. **Validator**: `validateCandidates.ts` — 0 errors, 0 warnings (corpus
    unchanged, no candidate JSON added).
 19. **Scoring-lock**: `checkScoringLockIntegrity.ts` — 0 flagged (no
@@ -587,8 +622,9 @@ branch, which was created fresh from `origin/main`.
    incident ledgers and attribute counts are byte-for-byte unchanged from
    the original run (no rescue research performed on them, per
    instruction); Barton and Muir were genuinely completed, not rescued —
-   both failed the same hard gate (criterion 8) applied identically to
-   everyone else.
+   both were evaluated against the identical, ordered freeze-gate criteria
+   applied to everyone else, and both failed honestly at criterion 8 after
+   passing every criterion that precedes it.
 24. **Roster count before/after**: 125 people / 124 match-eligible,
    **unchanged**.
 
