@@ -4,8 +4,50 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-07 (roster-22 deep-evidence intake,
-`feat/roster22-deep-evidence-intake`, unmerged, research-only — changed
+Last updated: 2026-09-08 (roster-23 broad-context deep-evidence intake,
+`feat/roster23-broad-context-deep-evidence`, unmerged, research-only —
+tested whether a source ecosystem spanning genuinely DIFFERENT life
+contexts (not just more sources on the same public-achievement domain,
+roster22's Garibaldi limitation) would beat Garibaldi's breadth/coverage.
+`eligibility_v2` left completely unchanged. Selected **Anton Chekhov** —
+his own letters (1875-1904) plus three separately-authored independent
+memoirs (Maxim Gorky, Alexander Kuprin, Ivan Bunin) — genuinely broad
+context coverage confirmed (formation, family, work habits, mentorship
+given and received, criticism, the 1896 Seagull premiere failure and
+recovery, the 1898 Dreyfus Affair, civic engagement, later-life illness),
+not `CONTEXTUALLY_THIN`. Scored once to 14 attributes, coverage 0.416, 7
+high-confidence rows, average 0.566 — **worse than Garibaldi (roster22) on
+every metric** (17 scored/0.501 coverage/9 high-confidence/0.604 average)
+despite richer absolute context coverage. The mechanism: broad-context
+sources each covered different, non-overlapping facets of his life, so
+most canonical dimensions rested on only one source, while Garibaldi's
+narrower, public-life-concentrated sources repeatedly corroborated the
+SAME few dimensions at high confidence — breadth of life-context and
+depth of per-dimension corroboration are in tension, not aligned, a
+concrete finding for this program. Held honestly with the validator's
+exact numbers; no rescue attempted. Two consecutive deep-research cycles
+using deliberately opposite evidence strategies (roster22: narrow/deep;
+roster23: broad/deep) have now both failed `eligibility_v2` in the same
+structural way (3 of 4 criteria, only high-confidence average clearing) —
+per the brief's explicit stop condition, roster24 was **not**
+automatically started. `ROSTER_EXPANSION_METHOD_REQUIRES_DECISION`: the
+next decision (whether `eligibility_v2` is miscalibrated against what
+current research depth can produce, whether a different evidence
+architecture is needed, or whether to pause the expansion program) must
+be made deliberately in a future session, not resolved here. Zero
+production people, candidate lifecycle of any pre-existing file, seed/
+roster/index/dispersion/editorial/portrait/i18n data touched — diff is
+exactly 1 new candidate JSON plus 2 checkpoint-doc updates plus this file.
+Roster unaffected: still 125 people, 124 match-eligible.
+`corepack pnpm@10 exec tsx src/dev/roster1000/validateCandidates.ts` 0
+errors/0 warnings across 277 candidate files; `checkScoringLockIntegrity.ts`
+0 flagged across 276 previously-committed files; `tsc --noEmit` clean;
+`vitest run rosterQuality` 18/18 passed (research-only path — no full
+build, no Playwright). Full record:
+[`roster23-broad-context-deep-evidence.md`](../checkpoints/roster23-broad-context-deep-evidence.md).
+Prior update, 2026-09-07 (roster-22 deep-evidence intake,
+`feat/roster22-deep-evidence-intake`, merged to `main` as PR #19, merge
+commit `5b4fd65208aa7640829af647ca79d1640912967c`, research-only — changed
 research depth, not `eligibility_v2` (left completely unchanged). Rather
 than a wide discovery pool (roster21's approach), tested source depth
 directly for a small number of candidates and found one exceptional
