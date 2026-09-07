@@ -4,8 +4,40 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-07 (roster-21 simplified evidence-first intake,
-`feat/roster21-simplified-evidence-intake`, unmerged, research-only —
+Last updated: 2026-09-07 (roster-22 deep-evidence intake,
+`feat/roster22-deep-evidence-intake`, unmerged, research-only — changed
+research depth, not `eligibility_v2` (left completely unchanged). Rather
+than a wide discovery pool (roster21's approach), tested source depth
+directly for a small number of candidates and found one exceptional
+ecosystem: **Giuseppe Garibaldi**, with 3 genuinely independent,
+substantially-read provenance perspectives — his own Autobiography, G. M.
+Trevelyan's independent scholarly biography (2 of 3 volumes), and Margaret
+Fuller's own eyewitness dispatches from the 1849 siege of Rome. A real
+tooling obstacle (this session's page-fetch tool truncated these very long
+19th-century documents at an early page) was resolved by opening the pages
+in a real browser tab and using targeted JavaScript text-window extraction
+to reach later chapters, rather than concluding the sources were shallow.
+Per the brief's explicit permission, all research effort concentrated on
+this one candidate rather than splitting across weaker alternatives.
+Scored once to 17 attributes, coverage 0.501 — still short of
+`eligibility_v2`'s 18/0.6 floors — but **9 attributes reached confidence
+>=0.5 (more than double roster21's best of 4) with a high-confidence
+average of 0.604, the first candidate across the entire roster17-22 arc to
+clear the gate's 0.55 high-confidence-average floor.** Held honestly with
+the validator's exact numbers; no rescue attempted. Zero production
+people, candidate lifecycle of any pre-existing file, seed/roster/index/
+dispersion/editorial/portrait/i18n data touched — diff is exactly 1 new
+candidate JSON plus 2 checkpoint-doc updates plus this file. Roster
+unaffected: still 125 people, 124 match-eligible.
+`corepack pnpm@10 exec tsx src/dev/roster1000/validateCandidates.ts` 0
+errors/0 warnings across 276 candidate files; `checkScoringLockIntegrity.ts`
+0 flagged across 275 previously-committed files; `tsc --noEmit` clean;
+`vitest run rosterQuality` 18/18 passed (research-only path — no full
+build, no Playwright). Full record:
+[`roster22-deep-evidence-intake.md`](../checkpoints/roster22-deep-evidence-intake.md).
+Prior update, 2026-09-07 (roster-21 simplified evidence-first intake,
+`feat/roster21-simplified-evidence-intake`, merged to `main` as PR #18,
+merge commit `a30b9ca89f255c8e84c688e3524a92400456172c` — research-only —
 applied the eligibility-evidence-calibration audit's recommendation by
 retiring roster20's pre-freeze hard gates (`>=12` incidents, `>=6`
 clusters, `>=20` attributes) while leaving `eligibility_v2` itself

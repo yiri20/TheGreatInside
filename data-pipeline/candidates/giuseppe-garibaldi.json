@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "giuseppe-garibaldi",
+  "status": "held",
+  "holdReason": "eligibility_v2 fails scored-attribute count, coverage, and high-confidence count; high-confidence average passes: 17 scored attributes (need 18, 1 short) — FAIL; coverage 0.501 (need 0.6) — FAIL; 9 attributes at confidence >=0.5 (need 12, still short, but more than double roster21's best of 4) — FAIL; high-confidence average 0.604 (need 0.55) — PASS, the first candidate in the roster17-22 arc for whom this specific subcriterion clears. Deep, genuinely multi-provenance research (3 independently-read sources spanning his whole life) measurably improved confidence quality but did not by itself supply the sheer attribute breadth eligibility_v2's count/coverage floors require.",
+  "computedEligibility": {
+    "scoredAttributeCount": 17,
+    "averageConfidence": 0.471,
+    "coverage": 0.501,
+    "eligible": false,
+    "computedAt": "2026-09-07T00:00:00Z"
+  },
+  "identity": {
+    "canonicalName": "Giuseppe Garibaldi",
+    "wikidataId": "Q539",
+    "birthYear": 1807,
+    "deathYear": 1882,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["IT"],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": ["military_leader", "political_leader"],
+    "fieldIds": ["military", "politics"],
+    "impactDomains": ["historical", "political"],
+    "tagIds": ["leader", "overcame_adversity"],
+    "archetypeIds": ["organizational_leader", "resilient_builder"]
+  },
+  "sources": [
+    { "id": "src_gg_autobiography", "kind": "archive", "title": "Giuseppe Garibaldi, Autobiography of Giuseppe Garibaldi (English translation, Google Books scan) — his own memoir, covering childhood through the 1870s", "url": "https://archive.org/stream/autobiographygi00garigoog/autobiographygi00garigoog_djvu.txt" },
+    { "id": "src_gg_dwight", "kind": "archive", "title": "Theodore Dwight (trans./ed.), The Life of General Garibaldi — the first ~210 pages are a literal translation of Garibaldi's own private manuscript (same self-perspective as the Autobiography, an earlier/different translation); a distinct provenance is NOT claimed for this source beyond Garibaldi's own voice", "url": "https://www.gutenberg.org/files/50544/50544-h/50544-h.htm" },
+    { "id": "src_gg_trevelyan_rome", "kind": "biography", "title": "G. M. Trevelyan, Garibaldi's Defence of the Roman Republic (1907) — independent scholarly biography, first volume of his Garibaldi trilogy", "url": "https://archive.org/stream/garibaldisde00trev/garibaldisde00trev_djvu.txt" },
+    { "id": "src_gg_trevelyan_making", "kind": "biography", "title": "G. M. Trevelyan, Garibaldi and the Making of Italy (1911) — independent scholarly biography, third volume of his Garibaldi trilogy, covering the 1860 campaign and the Teano meeting with Victor Emmanuel", "url": "https://archive.org/stream/garibaldimakingo00trevuoft/garibaldimakingo00trevuoft_djvu.txt" },
+    { "id": "src_gg_fuller", "kind": "archive", "title": "Margaret Fuller, At Home and Abroad (1856) — her own eyewitness dispatches as an American journalist present in Rome during the 1849 siege, an independent contemporaneous witness to Garibaldi's conduct", "url": "https://www.gutenberg.org/files/16327/16327-h/16327-h.htm" },
+    { "id": "src_gg_wikipedia", "kind": "wikipedia", "title": "Giuseppe Garibaldi", "url": "https://en.wikipedia.org/wiki/Giuseppe_Garibaldi" }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Three genuinely independent, actually-read sources converge on separate episodes across his whole life: his own autobiography documents jumping into a ditch to save a drowning woman without hesitation and personally fighting off ~150 attackers with 13 men at Charginada; Trevelyan's independent scholarly biography credits him with 'courage and endurance without limit'; Margaret Fuller's own eyewitness dispatches document that he deliberately wore a highly visible red tunic marking him as an enemy target throughout his career ('he has always done it'), and led his men out of Rome in 1849 without a guarantee of safe passage from the besieging French. Central to how he is understood historically, hence the high score; dual_edged because this same trait produced repeated wounds and, at Aspromonte, a catastrophic clash with his own government's army."
+    },
+    "leadership_drive": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independent sources converge on separate episodes: his own autobiography documents rallying 13 men to hold off ~150 attackers at Charginada; Trevelyan's independent biography credits him with filling men 'with ardour by his presence' and stirring them 'by his voice to great deeds' rather than through formal training; Margaret Fuller's own eyewitness account documents that men from other regiments defected specifically to follow him during the 1849 retreat, 'captivated' by his courage, with no promise of safety."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge on the same real-world outcome from different angles: Trevelyan's biography attributes his charismatic pull to presence and voice rather than method; Margaret Fuller's own eyewitness dispatch documents the concrete behavioral result — soldiers from separate regiments actually leaving their own units to join his column during the fall of Rome."
+    },
+    "decisiveness": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Three independent sources converge on separate episodes: his own autobiography documents ordering an immediate change of position to defensible high ground when his own government's army attacked him at Aspromonte in 1862; Trevelyan's biography characterizes his decision-making as driven by 'passion' rather than calculation, his 'native hue of resolution' never 'sicklied o'er with the pale cast of thought'; Margaret Fuller's eyewitness account documents him calmly surveying the only viable escape route with a spy-glass before choosing it, amid the final collapse of Rome. Dual_edged because Trevelyan explicitly frames the same trait as a documented weakness (insufficient calculation) alongside its clear operational value."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independent sources converge on a sustained pattern across different life periods: his own autobiography documents open strategic disagreement with Mazzini (believing he lacked 'practical capacity' in warfare), resentment at being placed under Rosselli's command, and — most starkly — personally leading his volunteers into a defensive position when attacked by his own newly-unified Italian government's army at Aspromonte in 1862, being treated 'as if we had been brigands'; Trevelyan's independent biography separately documents 'bitter quarrels' that repeatedly divided him from Mazzini despite their ideological alignment. Dual_edged: sustained his independence, but also fractured alliances he needed."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge: his own autobiography documents that desertions among his officers caused him more distress than enemy action, revealing how deeply he measured his own experience by the cause's progress rather than personal safety; Trevelyan's independent biography quotes him responding to a companion's (Bandi's) complaint about irregular pay during the 1860 campaign with 'What do you want with pay? When a patriot has eaten his bowl of soup and when the affairs of the country are going well, what more can any one want?' — a directly quoted statement valuing the collective cause over personal material reward."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge on separate episodes: his own autobiography documents resenting subordination to Rosselli's command despite believing his own judgment was sound; Margaret Fuller's own eyewitness account documents that he led his column out of Rome in 1849 after Oudinot explicitly refused to guarantee his safe departure — proceeding on his own judgment rather than waiting for terms."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge on a caring, relationally-invested pattern, from different episodes: his own autobiography documents that his partner Anita insisted on accompanying him through a life-threatening 1849 retreat despite his objections, and that the loss of officers (Masina, Manara, Mameli) grieved him more than any tactical setback; Margaret Fuller's own eyewitness account independently documents that when his best officers (including Manara) died at the Janiculum in the final defense of Rome, he personally went to tell the Assembly further resistance was futile — corroborating the same underlying bond with his men from an outside witness, not merely his own telling of it."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents two distinct, dated instances of holding to his own judgment against allied pressure: disagreeing with Mazzini's military strategy regarding the Naples campaign, and — during the 1867 Mentana campaign — recognizing and crediting Mazzini's own private admission of doubt (quoted directly in a letter dated Feb. 11, 1870) while still distinguishing that honesty from the recklessness of Mazzini's followers, who caused mass desertion. Self-authored only (not independently corroborated by Trevelyan or Fuller for these specific episodes), so kept at strong_inference rather than documented, per this project's confidence-band discipline."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents that after being rejected for shipboard work during his American exile, he 'swallowed my vexation, and returned to work at the tallow' rather than abandoning the effort to rebuild his livelihood. A single self-authored episode, not independently corroborated this cycle, hence inference-level."
+    },
+    "proactive_agency": {
+      "score": 58,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents jumping into a ditch to save a drowning woman without being asked or expecting reward — a self-initiated act. This is the same underlying episode used for risk_tolerance; it is scored here as a genuinely distinct dimension (initiative without prompting, rather than acceptance of danger), disclosed transparently rather than treated as fresh corroboration, hence capped at inference given it rests on one shared episode."
+    },
+    "belief_updating": {
+      "score": 56,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents that despite a lifelong republican, anti-monarchist orientation, he readily accepted Cavour's 1859 summons to ally with the Sardinian monarchy for the war on Austria ('certainly found me very ready to fall in with his idea') — a specific, self-authored instance of revising a prior political commitment when it served the larger unification goal. Single episode, not independently corroborated, hence inference."
+    },
+    "adaptability": {
+      "score": 54,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "His own autobiography documents a five-year period (1854-1859) voluntarily spent in quiet retirement cultivating a small property on Caprera after decades of continuous military/political activity, followed by an immediate return to active political life once summoned. A single self-authored account of this life-period transition, not independently corroborated, hence inference."
+    },
+    "resourcefulness": {
+      "score": 56,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "His own autobiography documents that when his volunteers were cut off and starving at Aspromonte in 1862, they collected and ate unripe potatoes raw at first, then baked once time allowed — a specific, self-authored account of practical improvisation under acute physical constraint. Single episode, inference-level."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.3,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Trevelyan's independent biography reproduces a direct quote (via his companion Jessie White Mario's own account, cited within Trevelyan's text) of Garibaldi's reaction on learning, immediately after the 1860 Teano meeting, that Victor Emmanuel's royal army was taking over all further military operations and his volunteers were no longer required: 'melancholy sweetness,' then a wry, undramatic remark to Mario ('they have sent us to the rear') rather than protest. A single source (Trevelyan, containing an internally-quoted eyewitness passage — Mario's own book was not itself opened this cycle, so this is not counted as a fourth independent perspective), hence inference-level."
+    },
+    "planning_orientation": {
+      "score": 30,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "A genuine, honestly-scored weakness, not a strength assumed by halo effect: Trevelyan's independent biography explicitly characterizes him as having a 'child-like simplicity that often degenerated into folly,' suggesting his romantic idealism repeatedly overrode calculated preparation. Single source, hence inference; scored low and impact 'risk' because Trevelyan frames this as a real cost to his effectiveness, not a neutral trait."
+    },
+    "analytical_rigor": {
+      "score": 32,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "Another honestly-scored weakness: Trevelyan's independent biography states he received only 'guerilla training,' lacked 'diplomatic or political education,' and 'never understood' the workings of civilized administrative life, though he 'moved it profoundly.' Single source, single fact, hence inference; scored low with impact 'risk' since this documented gap is presented as a real limitation on his later political effectiveness, not scored from occupational stereotype."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-07T00:00:00Z",
+    "updatedAt": "2026-09-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster22 deep-evidence intake. 3 genuinely distinct, actually-read provenance perspectives: (1) Garibaldi's own Autobiography (self, read via two English translations covering different life periods — childhood, South America, 1849 Rome, Aspromonte 1862, Mentana 1867, Caprera retirement, 1859 return to politics — both translations count as ONE self perspective, not two); (2) G. M. Trevelyan's independent scholarly biography, read across two of its three volumes (Defence of the Roman Republic, 1907; and the Making of Italy, 1911, covering the 1860 campaign and Teano meeting); (3) Margaret Fuller's own eyewitness dispatches from Rome (1848-49), an American journalist present during the siege, read directly via targeted in-browser text extraction after this session's page-fetch tool repeatedly truncated the raw document at an early chapter — the full ~950,000-character document was navigated and searched directly (via a real browser tab plus targeted JavaScript text-window extraction) rather than accepted as shallow after the first truncated attempt, per this cycle's explicit instruction not to mistake early-page truncation for source shallowness. 17 rows scored, all traceable to a specific incident and named source; 8 rows rest on genuine 2-3 independently converging sources (risk_tolerance, leadership_drive, persuasiveness, decisiveness, conflict_tolerance, impact_motivation, autonomy_need, collaboration) — materially more corroboration than any roster21 candidate achieved (max 2 of 17-18 rows). A 9th row (independent_thinking) also reaches confidence >=0.5, but from two distinct self-authored episodes only (no Trevelyan/Fuller corroboration) — legitimately scored per the rubric's single-perspective strong_inference criterion, but not counted among the cross-source-corroborated 8; 9 total rows is the highConfidenceCount the validator reports. No score was adjusted after computing eligibility."
+  }
+}
