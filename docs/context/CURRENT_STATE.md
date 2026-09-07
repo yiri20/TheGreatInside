@@ -28,7 +28,11 @@ scored/coverage 0.511 (closest miss — 1 attribute short of the 18 floor,
 separately capped by only 2 high-confidence rows). All 4 honestly `held`
 with the validator's exact numbers in each `holdReason`; no rescue
 attempted after seeing the eligibility result; no roster20-style hard gate
-reintroduced under another name. Zero production people, candidate
+reintroduced under another name. A post-PR#18 minimal cleanup (no new
+research) corrected Sherman's provenance claim from 2 to 1 usable
+perspective after review found every passage actually extracted from his
+2nd nominal source was his own words, not his brother's — added to his
+`holdReason` as `SOURCE_DEPTH_INSUFFICIENT`; no row rescored. Zero production people, candidate
 lifecycle of any pre-existing file, seed/roster/index/dispersion/
 editorial/portrait/i18n data touched — diff is exactly 4 new candidate
 JSON files. Roster unaffected: still 125 people, 124 match-eligible.

@@ -5,6 +5,38 @@ Branch: `feat/roster21-simplified-evidence-intake` (worktree:
 from `origin/main` at `c5b2d4b11d2f898308c6fefb8db5ec6ae2b102d9`, confirmed
 matching before branching).
 
+## Correction record (post-PR#18 review, minimal cleanup, no new research)
+
+A review after PR #18 opened found three factual bookkeeping errors,
+corrected here without touching any score, row, threshold, or the
+`eligibility_v2` result for any candidate:
+
+1. **File-scope wording was imprecise.** This document and the PR body
+   described the diff as "4 new files" / "4 candidate JSON + 2 doc
+   updates" in places that read as the full PR scope. The **actual total
+   PR scope is 7 files**: 4 new candidate JSONs
+   (`robert-falcon-scott.json`, `william-tecumseh-sherman.json`,
+   `fridtjof-nansen.json`, `isabella-bird.json`), 1 new checkpoint doc
+   (this file), and 2 modified pointer docs (`roster.md`,
+   `CURRENT_STATE.md`). The new-candidate-data scope is genuinely 4 files;
+   the total reviewable PR scope is 7. See Part Q below, corrected.
+2. **"0 scientists" was imprecise.** Fridtjof Nansen is explicitly
+   classified `occupationIds: ["explorer", "scientist", "diplomat"]` in
+   his own candidate JSON — calling the discovery pool "0 scientists" was
+   wrong. Corrected to "0 science-first candidates": the pool was
+   deliberately built to avoid concentrating on people whose primary
+   distinction is scientific research (the pattern roster18/19 already
+   over-sampled), not to literally exclude anyone with any scientific
+   dimension to their work.
+3. **Sherman's provenance count was a false positive.** See the dedicated
+   correction note in Part E below — confirmed by re-checking the exact
+   material already extracted this cycle, no new research performed.
+
+Two stale `provenance.notes` row-counts (Scott and Nansen both said "15
+rows scored" when `computedEligibility.scoredAttributeCount` is 14 for
+both) were also corrected directly in the candidate JSON files; no row,
+score, or confidence was touched.
+
 ## Why roster20's pre-freeze hard gates were retired
 
 The eligibility/evidence calibration audit
@@ -58,8 +90,11 @@ cached assumption) once a real candidate emerged.
 ## Part D — Discovery pool
 
 8 candidates, deliberately spanning exploration, military command, activism,
-and filmmaking rather than concentrating on scientists (0 scientists in the
-final pool):
+and filmmaking rather than concentrating on scientists (0 science-first
+candidates in the final pool — see the Correction record above; Nansen
+does carry a "scientist" occupation tag alongside explorer/diplomat, but
+his primary distinction and the evidence pack built for him are
+exploration-centered, not a scientific-research career):
 
 | Candidate | Profession | QID |
 |---|---|---|
@@ -85,7 +120,7 @@ count toward the gate.
 | Candidate | Sources actually opened | Disposition |
 |---|---|---|
 | **Robert Falcon Scott** | (1) *Scott's Last Expedition, Vol. I* — his own journal (Gutenberg #11579) — webfetch-opened, real passages extracted (storm/fire crisis, pack-ice patience, self-doubt, crew-morale notes). (2) Apsley Cherry-Garrard, *The Worst Journey in the World* (Gutenberg #14363) — an independent eyewitness memoir by a fellow expedition member — webfetch-opened, real passages extracted (Discovery-expedition reorganization, comparative leadership assessment, Hooker collaboration). | **SOURCE_READY** — 2 total distinct provenance perspectives, 1 non-self. |
-| **William Tecumseh Sherman** | (1) *Memoirs of General William T. Sherman* — his own complete autobiography (Gutenberg #4361) — webfetch-opened. (2) *The Sherman Letters* — correspondence with his brother, Senator John Sherman (archive.org, open full text) — webfetch-opened, a second, genuinely independent voice. Both sources' very long documents were only returned through their earlier chapters/pages by this session's fetch tool (a length-truncation limitation, not an access restriction — both texts are fully open); several famous later-war episodes were consequently only locatable via secondary citation, disclosed honestly in the candidate's provenance notes rather than treated as directly opened. | **SOURCE_READY** — 2 total distinct provenance perspectives, 1 non-self. |
+| **William Tecumseh Sherman** | (1) *Memoirs of General William T. Sherman* — his own complete autobiography (Gutenberg #4361) — webfetch-opened. (2) *The Sherman Letters* — a correspondence collection nominally between Sherman and his brother, Senator John Sherman (archive.org, open full text) — webfetch-opened. Both sources' very long documents were only returned through their earlier chapters/pages by this session's fetch tool (a length-truncation limitation, not an access restriction — both texts are fully open); several famous later-war episodes were consequently only locatable via secondary citation, disclosed honestly in the candidate's provenance notes rather than treated as directly opened. | **SOURCE_READY at freeze time, corrected post-PR#18 to SOURCE_DEPTH_INSUFFICIENT** — see correction note immediately below. |
 | **Fridtjof Nansen** | (1) *Farthest North*, Vol. I — his own account (Gutenberg #30197) — webfetch-opened. (2) James Arthur Bain, *Fridtjof Nansen: His Life and Explorations* (1897) — independent contemporary biography (archive.org, open full text) — webfetch-opened, real passages extracted (childhood competitiveness, physical recklessness, the 1888 Greenland crossing, warmth with subordinates). | **SOURCE_READY** — 2 total distinct provenance perspectives, 1 non-self. |
 | **Isabella Bird** | (1) *Unbeaten Tracks in Japan* — her own travel letters (Gutenberg #2184) — webfetch-opened, rich first-person passages (the Ito relationship, fear before departure, kit design, temple documentation). (2) Anna M. Stoddart, *The Life of Isabella Bird* (1906) — independent biography by a personal acquaintance, drawing on family papers (archive.org, open full text) — webfetch-opened. | **SOURCE_READY** — 2 total distinct provenance perspectives, 1 non-self. |
 | **Sylvia Pankhurst** | Her own *The Suffragette* (1911, Gutenberg #54955) — webfetch-opened, real content extracted. A second source (her mother Emmeline Pankhurst's *My Own Story*, Gutenberg #34856 — a genuinely independent voice, given the family's later, well-documented political split) was also webfetch-opened with real content. Both sources genuinely qualify, **but** the 1911 book predates Sylvia's most personally dramatic documented episodes (imprisonment, hunger strikes, the 1913-14 family/political rift) by 2+ years — a real temporal-coverage gap, not a source-access failure. | **SOURCE_READY**, but not selected for freeze this cycle (see Part F) — deprioritized in favor of 4 candidates whose already-opened material had no comparable temporal gap, to keep the evidence-pack-building scope to the "approximately 3-5" the brief asks for. |
@@ -96,6 +131,31 @@ count toward the gate.
 **5 of 8 pass the source-access gate** (Scott, Sherman, Nansen, Bird,
 Pankhurst); 3 fail (Clara Schumann, Eisenstein, Beatrice Webb) — a real,
 disclosed outcome, not papered over.
+
+**Sherman provenance correction (post-PR#18 review, no new research
+performed):** the source-access gate correctly verified *The Sherman
+Letters* as genuinely open and containing correspondence from two named
+authors, and was recorded as a pass on that basis. A later check of the
+*exact material actually extracted* from that source this cycle (re-read
+from this session's own already-fetched excerpt, not a new fetch) found
+every quoted or paraphrased passage — the Nov. 10 1846, Mar. 30 1841,
+Oct. 24 1844, Jan. 9 1839, and Jan. 4 1846 items — is William T. Sherman's
+own letter, introduced as "he wrote" / "he advised" / "he expressed." No
+John Sherman-authored passage describing William's behavior was actually
+read this cycle. **This is a real false positive in the original
+2-provenance claim**: a correspondence collection with two named authors
+does not by itself establish two usable provenance perspectives if the
+material actually read and scored is entirely one author's own words.
+Sherman's usable provenance this cycle is **1 perspective, not 2** — his
+own voice, expressed across two of his own document types (a memoir and
+his half of a letter collection). His candidate JSON's `holdReason` and
+`provenance.notes` now carry `SOURCE_DEPTH_INSUFFICIENT` alongside the
+unchanged `eligibility_v2` failure; his existing 12 scored rows are kept
+exactly as originally scored (a historical scoring attempt against a
+mis-stated provenance premise, not re-litigated), since none of the
+12 rows' rationales actually claimed a John-authored passage as their
+evidence — the false claim was at the source-independence level, not
+inside any individual row.
 
 ## Part F — Freeze
 
@@ -132,6 +192,9 @@ passages actually scored:
   political disdain, and family loyalty — plus 3 well-documented but only
   secondarily-cited episodes (the 1861 "insane" press campaign, Willy's
   death, the Johnston/Stanton controversy), used only as corroboration.
+  All 13 are Sherman's own words (drawn from two of his own document
+  types, a memoir and his half of a correspondence collection) — see the
+  Part E provenance correction: this is 1 usable perspective, not 2.
 - **Nansen**: 10 directly-quoted incidents spanning conviction against
   establishment skepticism, analytical rigor, extensive planning,
   competitiveness, physical recklessness, deep focus, and interpersonal
@@ -190,14 +253,18 @@ run.
 | Isabella Bird | 17 (need 18) | 0.511 (need 0.6) | 2 | 0.53 | **HELD**, closest miss |
 
 **0 of 4 crossed `eligibility_v2`.** This is consistent with roster17-20's
-whole arc: a real, bounded, 2-independent-source research pass on a normal
-schedule has not once produced an 18+/0.6/12-high-confidence profile
-without either single-source-masquerading-as-multi-source shortcuts (the
-original, later-reverted roster17 promotion) or many more sources/sessions
-than this project's per-cycle scope supports. Isabella Bird came closest —
-17 scored attributes, only 1 short of the floor — but her confidence
-distribution (only 2 rows independently corroborated by both sources) is
-the real, separate constraint the count alone doesn't show.
+whole arc: a real, bounded research pass on a normal schedule has not once
+produced an 18+/0.6/12-high-confidence profile without either
+single-source-masquerading-as-multi-source shortcuts (the original,
+later-reverted roster17 promotion, and — discovered in this cycle's own
+post-PR#18 review — Sherman's initially-miscounted 2-provenance claim) or
+many more sources/sessions than this project's per-cycle scope supports.
+Isabella Bird came closest — 17 scored attributes, only 1 short of the
+floor, with a genuine 2-independent-source pack (Scott, Nansen, and Bird
+all have 2 real distinct perspectives; only Sherman's collapses to 1 on
+review) — but her confidence distribution (only 2 rows independently
+corroborated by both sources) is the real, separate constraint the count
+alone doesn't show.
 
 ## Part L — qa_passed audit
 
@@ -229,6 +296,14 @@ After running `validateCandidates.ts` once and reading these 4 results:
   Part K explicitly allows.
 - `checkScoringLockIntegrity.ts` confirms 0 flagged across all 271
   previously-committed candidate files — none were touched.
+
+The post-PR#18 cleanup pass (see Correction record above) is the same
+category of allowed edit: it corrected a provenance-independence claim
+and two stale row-count notes, added `SOURCE_DEPTH_INSUFFICIENT` context
+to Sherman's `holdReason`, and fixed documentation wording — it did not
+add, remove, or rescore any row on any candidate, did not perform new
+research, and did not change any candidate's `eligible: false` result or
+any candidate's `held` status.
 
 ## No reintroduced roster20 hard gate (explicit confirmation)
 
@@ -265,14 +340,22 @@ stage for a cluster or attribute count.
 
 ## Part Q — Diff discipline
 
-Exactly 4 new files, all in `data-pipeline/candidates/`: `robert-falcon-scott.json`,
-`william-tecumseh-sherman.json`, `fridtjof-nansen.json`, `isabella-bird.json`.
-No existing person, candidate, roster file, seed import, generated index,
-dispersion/calibration data, portrait, editorial content, i18n file, or test
-fixture was touched. `next-env.d.ts`'s pre-existing unrelated modification
+**Total PR scope: exactly 7 files.** New candidate data (4 files, all in
+`data-pipeline/candidates/`): `robert-falcon-scott.json`,
+`william-tecumseh-sherman.json`, `fridtjof-nansen.json`,
+`isabella-bird.json`. Plus 1 new checkpoint doc (this file,
+`docs/checkpoints/roster21-simplified-evidence-intake.md`) and 2 modified
+pointer docs (`docs/checkpoints/roster.md`,
+`docs/context/CURRENT_STATE.md`) — both one-bullet/one-paragraph additions
+pointing at this file, not restated narrative. No existing person,
+candidate, roster file, seed import, generated index, dispersion/
+calibration data, portrait, editorial content, i18n file, or test fixture
+was touched. `next-env.d.ts`'s pre-existing unrelated modification
 (present on the original checkout's `feat/trait-explanation-ux` branch) does
 not exist on this branch, which was created fresh from `origin/main` at the
-confirmed SHA.
+confirmed SHA. The post-PR#18 cleanup pass (see Correction record above)
+touched only the same 7 files already under review — no new file was
+added.
 
 ## Validation run this cycle (research-only path, per the brief's Part P)
 
@@ -300,4 +383,7 @@ files touched.
 **`ROSTER21_RESEARCH_ONLY_PR_READY`** — 4 candidates researched, evidenced,
 and scored to completion; 0 crossed `eligibility_v2`; all 4 honestly held
 with exact validator numbers; no rescue attempted; no roster20 hard gate
-reintroduced under another name; roster unaffected at 125/124.
+reintroduced under another name; roster unaffected at 125/124. Post-PR#18
+minimal cleanup (file-scope wording, 2 stale row-count notes, and
+Sherman's provenance correction to `SOURCE_DEPTH_INSUFFICIENT`) applied
+with no scoring, research, or rescue of any kind.

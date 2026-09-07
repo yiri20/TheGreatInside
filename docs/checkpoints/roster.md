@@ -482,5 +482,10 @@ raises the target.
   short of the floor but separately constrained by only 2 high-confidence
   rows). All 4 honestly `held` with the validator's exact numbers in each
   `holdReason`; no rescue attempted; no roster20 hard gate reintroduced.
-  Roster unaffected: still 125 people, 124 match-eligible. Full record:
+  A post-PR#18 minimal cleanup pass corrected Sherman's provenance claim:
+  his 2nd source (a correspondence collection nominally by two brothers)
+  turned out, on review of the exact material actually extracted, to
+  contribute only his own words — 1 usable perspective, not 2 — added to
+  his `holdReason` as `SOURCE_DEPTH_INSUFFICIENT`, no rescoring. Roster
+  unaffected: still 125 people, 124 match-eligible. Full record:
   [`roster21-simplified-evidence-intake.md`](roster21-simplified-evidence-intake.md).
