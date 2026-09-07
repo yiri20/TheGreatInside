@@ -4,7 +4,40 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-05 (PR #9 merged and production-verified:
+Last updated: 2026-09-06 (roster-20 auditable-breadth intake,
+`feat/roster20-auditable-breadth-intake`, PR #16 — corrected and
+completed after two rounds of review, unmerged: replaced roster19's
+*informal* pre-freeze breadth estimate with a literal, counted,
+fact-cluster-capped attribute map built and audited *before* any candidate
+JSON is created, and normalized one definition used inconsistently across
+two earlier drafts — **independent-provenance count = the number of
+genuinely distinct provenance perspectives in usable evidence, where
+every document by the same person (including the subject) counts as ONE
+perspective; criterion 1 requires >=2 total.** Under that definition, of
+the 5 candidates that passed raw source readability (Helen Keller,
+Aleksandr Solzhenitsyn, Emma Goldman, Clara Barton, John Muir; 4 others —
+Charles Lindbergh, P. T. Barnum, Carl Sagan, Jackie Robinson — failed
+`SOURCE_ACCESS_INSUFFICIENT`), only **Barton (3 total perspectives, 2
+non-self: Epler, William E. Barton) and Muir (2 total perspectives, 1
+non-self: Bade) clear criterion 1**; Keller, Goldman, and Solzhenitsyn
+each have only 1 total perspective (their own voice, however many books).
+All 5 were carried through a full literal incident/fact-cluster/attribute
+map: Keller 12 incidents/6 clusters/11 attributes, Goldman 12/5/8,
+Solzhenitsyn 9(7 scoreable)/3/5-6, Barton 13/6/11, Muir 14/7/13. **All 5
+fail the freeze gate**, but not for the same reason: Keller, Goldman, and
+Solzhenitsyn fail **primarily on criterion 1** (source independence,
+reported as their leading disposition, not a footnote to a later failure)
+— Goldman and Solzhenitsyn additionally fail the fact-cluster floor, and
+Solzhenitsyn also the incident floor. **Barton and Muir both genuinely
+clear criterion 1 and every criterion through 7, failing *only* attribute
+breadth** (11 and 13 respectively, against a >=20 floor) — Muir is the
+strongest result of the cycle, still 7 short. **Zero candidates frozen,
+zero candidate JSON created, zero scoring performed.** Roster unaffected:
+still 125 people, 124 match-eligible. Research-only outcome, per plan.
+Full record, including the literal per-candidate fact-cluster tables and
+the roster18-vs-19-vs-20 methodology comparison:
+[`roster20-auditable-breadth-intake.md`](../checkpoints/roster20-auditable-breadth-intake.md).
+Prior update, 2026-09-05 (PR #9 merged and production-verified:
 `feat/roster16-final-intake` merged to `main` — merge commit
 `7a6e306e6ce0f3bed43eecaceb1856b0004d43d8`, first-parent diff mechanically
 confirmed to exactly match the reviewed 36-file PR scope, no extra file
