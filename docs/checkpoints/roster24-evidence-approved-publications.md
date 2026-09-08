@@ -140,15 +140,26 @@ Commons), not assumed from a thumbnail.
 
 EN + KO achievements/moments/turning points authored for both, drawn
 **only** from the already-audited roster22/23 evidence (candidate row
-rationales + provenance notes) plus, where explicitly permitted by
-`docs/editorial-content.md`, uncontested general knowledge for a
-very-well-established figure (the 1860 Sicily/Naples campaign's basic
-outline; The Seagull's 1898 revival being foundational to modern theater)
-— no new historical claim was introduced from the portrait-search research.
-2 achievements + 3 moments + 2 turning points each, following the existing
-fact/interpretation separation discipline (`textKey`/`interpretationKey`),
-calibrated interpretive language only, no pipeline/internal terminology
-exposed. Korean display names added: `주세페 가리발디`, `안톤 체호프`.
+rationales + provenance notes) — no general-knowledge exception was used,
+and no new historical claim was introduced from the portrait-search
+research. A follow-up provenance cleanup (same PR) found and corrected
+two items that had drifted beyond the audited record: Garibaldi's
+achievement #2 originally named Sicily/Naples/the Kingdom of the Two
+Sicilies and framed the Teano handover as "a defining moment of Italian
+unification" — none of that specific framing is in the roster22 evidence
+record (only the Teano handover/dismissal itself, per the
+`ambiguity_tolerance` row and turning point 1), so the sentence was
+narrowed to just that audited fact, no new source added. Chekhov's
+achievement #2 originally cited the Moscow Art Theatre's 1898 Seagull
+revival "becoming foundational to modern theater" — not present anywhere
+in the roster23 evidence record — and was replaced entirely with his
+already-audited civic work (`proactive_agency` row: Zemstvo service, the
+cholera campaign, local roads and schools near Melikhovo), same source
+(`src_ac_letters`). 2 achievements + 3 moments + 2 turning points each,
+following the existing fact/interpretation separation discipline
+(`textKey`/`interpretationKey`), calibrated interpretive language only,
+no pipeline/internal terminology exposed. Korean display names added:
+`주세페 가리발디`, `안톤 체호프`.
 
 ## Production wiring
 

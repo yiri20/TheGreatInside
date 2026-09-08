@@ -2919,7 +2919,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "giuseppe-garibaldi.achievement.1":
     "In 1849 Garibaldi organized and led the volunteer defense of the newly declared Roman Republic against a much larger French expeditionary force sent to restore Papal rule, holding the city for weeks before leading an orderly retreat rather than surrendering once defeat became certain.",
   "giuseppe-garibaldi.achievement.2":
-    "In 1860 Garibaldi's volunteer expedition captured Sicily and Naples from the Kingdom of the Two Sicilies; that October at Teano he ceded the conquered territory to King Victor Emmanuel II, a handover that became one of the defining moments of Italian unification.",
+    "In October 1860, at the end of his volunteer campaign that year, Garibaldi ceded the territory his forces had conquered to King Victor Emmanuel II at Teano, handing command of all further military operations to the royal army.",
   "giuseppe-garibaldi.moment.1":
     "During the 1849 siege of Rome, the American journalist Margaret Fuller — an eyewitness present in the city — recorded that Garibaldi's volunteers wore a bright red tunic that made them \"the natural mark of the enemy,\" and that he had \"always\" worn it himself despite the risk.",
   "giuseppe-garibaldi.moment.2":
@@ -2941,7 +2941,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "anton-chekhov.achievement.1":
     "Chekhov practiced medicine throughout his writing career, charging modest fees of three to five roubles while treating roughly half his patients for free, and personally absorbing significant travel costs to visit patients in the countryside.",
   "anton-chekhov.achievement.2":
-    "After the hostile 1896 premiere of The Seagull left him privately ashamed of its reception, Chekhov continued developing the play; the Moscow Art Theatre's 1898 revival succeeded where the premiere had failed and became one of the foundational productions of modern theater.",
+    "Chekhov's civic work around Melikhovo extended beyond medicine and writing: his letters document Zemstvo service, participation in the local cholera campaign, and practical work on local roads and schools.",
   "anton-chekhov.moment.1":
     "At a social gathering, three fashionable women pressed Chekhov for his opinion on Turkish-Greek politics; he deflected by saying \"I love candied fruits… don't you?\" — after which, by his friend Maxim Gorky's account, all three began talking with animated interest about confectionery instead.",
   "anton-chekhov.moment.2":
@@ -5730,7 +5730,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "giuseppe-garibaldi.achievement.1":
     "1849년, 가리발디는 교황령을 회복하려는 훨씬 더 큰 규모의 프랑스 원정군에 맞서 새로 선포된 로마 공화국의 의용군 방어를 조직하고 이끌었다. 몇 주간 도시를 지켜냈고, 패배가 확실해지자 항복 대신 질서 있는 퇴각을 이끌었다.",
   "giuseppe-garibaldi.achievement.2":
-    "1860년 가리발디의 의용군 원정대는 양시칠리아 왕국으로부터 시칠리아와 나폴리를 점령했다. 그해 10월 테아노에서 그는 정복한 영토를 비토리오 에마누엘레 2세 국왕에게 넘겨주었는데, 이는 이탈리아 통일의 결정적 순간 중 하나가 되었다.",
+    "1860년, 그해의 의용군 원정을 마친 뒤, 가리발디는 10월 테아노에서 자신의 군대가 정복한 영토를 비토리오 에마누엘레 2세 국왕에게 넘겨주고, 이후의 모든 군사 작전 지휘권을 왕실 군대에 이양했다.",
   "giuseppe-garibaldi.moment.1":
     "1849년 로마 공방전 당시, 그 도시에 있던 미국인 언론인 마거릿 풀러는 목격자로서 가리발디 의용군들이 '적의 자연스러운 표적'이 되는 밝은 빨간색 튜닉을 입었으며, 그 위험에도 불구하고 그 자신도 '항상' 그 옷을 입었다고 기록했다.",
   "giuseppe-garibaldi.moment.2":
@@ -5752,7 +5752,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "anton-chekhov.achievement.1":
     "체호프는 작가로 활동하는 내내 의사로도 일했다. 진료비로 3~5루블의 적은 금액만 받았고 환자의 절반가량은 무료로 치료했으며, 시골 환자를 왕진하는 데 드는 상당한 교통비를 직접 부담했다.",
   "anton-chekhov.achievement.2":
-    "1896년 『갈매기』의 초연이 혹평 속에 실패하여 그는 사적으로 크게 부끄러워했지만, 그는 계속 이 작품을 다듬어 나갔다. 1898년 모스크바 예술극장의 재상연은 초연의 실패를 뒤집는 성공을 거두었고, 이는 현대 연극의 기초를 놓은 공연 중 하나가 되었다.",
+    "체호프의 멜리호보 인근에서의 공적 활동은 의료와 집필을 넘어섰다 — 그의 편지에는 젬스트보(지방자치회) 활동, 지역 콜레라 방역 참여, 그리고 지역 도로와 학교를 위한 실무 활동이 기록되어 있다.",
   "anton-chekhov.moment.1":
     "한 사교 모임에서 세 명의 상류층 여성이 튀르크-그리스 정치에 대한 그의 견해를 캐묻자, 체호프는 '저는 설탕에 절인 과일을 좋아합니다… 당신들은요?'라는 말로 화제를 돌렸다. 그의 친구 막심 고리키의 기록에 따르면, 그러자 세 사람 모두 과일 이야기에 활기차게 몰두하기 시작했다.",
   "anton-chekhov.moment.2":
