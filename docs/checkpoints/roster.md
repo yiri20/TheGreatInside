@@ -557,3 +557,21 @@ raises the target.
   candidate researched/scored/promoted this cycle; roster unchanged at
   125/124; Zheng He's existing behavior unchanged. Full record:
   [`profile-publication-vs-match-eligibility.md`](profile-publication-vs-match-eligibility.md).
+
+- **Roster24: evidence-approved publications (2026-09,
+  `feat/roster24-evidence-approved-publications`)**: the first real
+  production use of the profile-publication/match-eligibility separation
+  architecture. Giuseppe Garibaldi (roster22) and Anton Chekhov (roster23)
+  — both honestly failing `eligibility_v2`, neither rescued — passed a new
+  row-by-row evidence-approval audit (all 17 and all 14 rows
+  `SUPPORTED_AS_WRITTEN`, spot-verified against primary sources; zero
+  `RUBRIC_CORRECTION`/`ERROR_CORRECTION`) and were promoted via the first
+  generator written under the new architecture
+  (`generateRoster24.ts`/`preparePersonSeedForPromotion()`). Both are
+  `published`/`isDirectoryVisible: true`/`isMatchEligible: false` by
+  design, with real rights-clear portraits (Fratelli Alinari 1866;
+  *Литературное наследство* 1903-04) and full EN/KO editorial content.
+  `eligibility_v2` and the match-eligible set (124 ids) are byte-identical
+  to before. Roster: **127 total / 126 default-directory-visible / 124
+  match-eligible**. Full record:
+  [`roster24-evidence-approved-publications.md`](roster24-evidence-approved-publications.md).

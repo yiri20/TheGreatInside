@@ -441,9 +441,15 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // promoted via roster16.ts) — verified directly against the real
   // traitScoreGroups z-score filter (minZ=1.0, minConfidence=0.5) that
   // none of the 9 new people cross both thresholds simultaneously, so the
-  // filtered count of 5 is unchanged.
+  // filtered count of 5 is unchanged. Total updated 125->127 (roster24,
+  // profile-publication/match-eligibility separation's first production
+  // use: Giuseppe Garibaldi and Anton Chekhov, both non-match-eligible but
+  // directory-visible) -- neither has a scored curiosity attribute at all
+  // (unscored defaults to neutral, never crossing minZ=1.0), so neither
+  // can satisfy this curiosity+collaboration combination; the filtered
+  // count of 5 is unchanged.
   const bodyText = (await page.locator("main").textContent())!;
-  expect(bodyText).toMatch(/전체\s*125명\s*중\s*5명/);
+  expect(bodyText).toMatch(/전체\s*127명\s*중\s*5명/);
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {

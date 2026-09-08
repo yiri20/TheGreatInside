@@ -6,7 +6,7 @@ export const PERSON_INDEX_VERSION = "person_index_v1";
 
 /** Compact, client-safe projection of SEED_PEOPLE — see
  *  src/core/people/personIndex.ts for what's included/excluded and why.
- *  125 entries. */
+ *  127 entries. */
 export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
   {
     id: "p_leonardo_da_vinci",
@@ -2618,5 +2618,47 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     overallProfileConfidence: 0.5140909090909092,
     attributes: [["curiosity", 75, 0.58, "advantage"], ["discipline", 68, 0.55, "advantage"], ["persistence", 72, 0.55, "advantage"], ["risk_tolerance", 85, 0.72, "risk"], ["ambiguity_tolerance", 68, 0.5, "advantage"], ["decisiveness", 68, 0.5, "advantage"], ["social_assertiveness", 62, 0.45, "dual_edged"], ["leadership_drive", 60, 0.45, "dual_edged"], ["persuasiveness", 72, 0.55, "advantage"], ["conflict_tolerance", 65, 0.48, "dual_edged"], ["mastery_orientation", 68, 0.5, "advantage"], ["achievement_drive", 55, 0.42, "dual_edged"], ["autonomy_need", 78, 0.62, "advantage"], ["impact_motivation", 65, 0.48, "advantage"], ["cross_domain_range", 68, 0.5, "advantage"], ["proactive_agency", 72, 0.55, "advantage"], ["belief_updating", 65, 0.48, "advantage"], ["detail_orientation", 62, 0.45, "advantage"], ["collaboration", 68, 0.55, "advantage"], ["opportunity_sensing", 65, 0.48, "advantage"], ["resourcefulness", 68, 0.5, "advantage"], ["aesthetic_sensitivity", 62, 0.45, "advantage"]],
     portraitUrl: "/portraits/t-e-lawrence-harris-ewing-1919.jpg",
+  },
+  {
+    id: "p_anton_chekhov",
+    slug: "anton-chekhov",
+    canonicalName: "Anton Chekhov",
+    aliases: [],
+    birthYear: 1860,
+    deathYear: 1904,
+    isLiving: false,
+    era: "19th_century",
+    regionCode: "central_europe",
+    occupationIds: ["writer","physician"],
+    fieldIds: ["literature","medicine"],
+    impactDomains: ["literary","cultural"],
+    tagIds: ["overcame_adversity"],
+    archetypeIds: ["independent_creator"],
+    isMatchEligible: false,
+    isDirectoryVisible: true,
+    overallProfileConfidence: 0.4485714285714285,
+    attributes: [["discipline", 78, 0.7, "advantage"], ["collaboration", 68, 0.62, "advantage"], ["autonomy_need", 62, 0.55, "neutral"], ["independent_thinking", 66, 0.55, "advantage"], ["adaptability", 58, 0.5, "dual_edged"], ["impact_motivation", 64, 0.52, "advantage"], ["social_assertiveness", 58, 0.52, "advantage"], ["conflict_tolerance", 60, 0.4, "advantage"], ["analytical_rigor", 58, 0.35, "advantage"], ["proactive_agency", 60, 0.35, "advantage"], ["persuasiveness", 58, 0.32, "advantage"], ["persistence", 62, 0.3, "advantage"], ["detail_orientation", 56, 0.3, "advantage"], ["belief_updating", 60, 0.3, "advantage"]],
+    portraitUrl: "/portraits/anton-chekhov-literaturnoe-nasledstvo-1903.jpg",
+  },
+  {
+    id: "p_giuseppe_garibaldi",
+    slug: "giuseppe-garibaldi",
+    canonicalName: "Giuseppe Garibaldi",
+    aliases: [],
+    birthYear: 1807,
+    deathYear: 1882,
+    isLiving: false,
+    era: "19th_century",
+    regionCode: "southern_europe",
+    occupationIds: ["military_leader","political_leader"],
+    fieldIds: ["military","politics"],
+    impactDomains: ["historical","social"],
+    tagIds: ["leader","overcame_adversity"],
+    archetypeIds: ["organizational_leader"],
+    isMatchEligible: false,
+    isDirectoryVisible: true,
+    overallProfileConfidence: 0.4705882352941176,
+    attributes: [["risk_tolerance", 85, 0.75, "dual_edged"], ["leadership_drive", 80, 0.72, "advantage"], ["persuasiveness", 70, 0.62, "advantage"], ["decisiveness", 76, 0.68, "dual_edged"], ["conflict_tolerance", 64, 0.58, "dual_edged"], ["impact_motivation", 68, 0.55, "advantage"], ["autonomy_need", 66, 0.52, "advantage"], ["collaboration", 60, 0.52, "advantage"], ["independent_thinking", 62, 0.5, "advantage"], ["persistence", 60, 0.35, "advantage"], ["proactive_agency", 58, 0.32, "advantage"], ["belief_updating", 56, 0.32, "advantage"], ["adaptability", 54, 0.3, "neutral"], ["resourcefulness", 56, 0.3, "advantage"], ["ambiguity_tolerance", 58, 0.3, "advantage"], ["planning_orientation", 30, 0.35, "risk"], ["analytical_rigor", 32, 0.32, "risk"]],
+    portraitUrl: "/portraits/giuseppe-garibaldi-alinari-1866.jpg",
   }
 ];

@@ -4,9 +4,41 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-08 (profile publication vs. match eligibility —
+Last updated: 2026-09-08 (Roster24: evidence-approved publications,
+`feat/roster24-evidence-approved-publications`, unmerged — the first real
+production use of the profile-publication/match-eligibility separation
+architecture (PR #21, merged to `main` at `bd32497`). Giuseppe Garibaldi
+(roster22) and Anton Chekhov (roster23) — both honestly failing
+`eligibility_v2` on 3 of 4 criteria, neither rescued — passed a new
+row-by-row evidence-approval audit (all 17 and all 14 rows
+`SUPPORTED_AS_WRITTEN` against `docs/scoring-rubric-v1.md`, spot-verified
+against primary sources via live browser text extraction; zero
+`RUBRIC_CORRECTION`/`ERROR_CORRECTION` on any row) and were promoted via
+`generateRoster24.ts` — the first generator written under the new
+architecture, calling `preparePersonSeedForPromotion()` and never checking
+`computedEligibility.eligible`. Two mechanical classification-metadata
+fixes were made on Garibaldi (an invalid `impactDomains` id and a
+nonexistent `archetypeIds` id, neither ever checked by
+`validateCandidates.ts`) — no trait score touched. Both people are now
+`published`/`isDirectoryVisible: true`/`isMatchEligible: false` by design,
+with real rights-clear photographic portraits (Fratelli Alinari, 1866;
+unknown photographer via *Литературное наследство*, 1903-04) and full
+EN/KO editorial content (achievements/moments/turning points). Verified
+mechanically that the match-eligible set (124 ids) is byte-identical to
+before, so `dispersion.generated.ts`/calibration were correctly left
+untouched. Adding the first people whose `isDirectoryVisible` genuinely
+diverges from `isMatchEligible` exposed 3 vitest tests and 3 Playwright
+specs whose baseline-count/invariant assumptions had only ever been
+exercised by coincidentally-mirrored data — all corrected (see the
+checkpoint for detail on the one genuine test-assumption bug found, in
+`explorer.test.ts`). Roster: **127 total / 126 default-directory-visible /
+124 match-eligible** (was 125/124/124). Zheng He unchanged. Full record:
+[`roster24-evidence-approved-publications.md`](../checkpoints/roster24-evidence-approved-publications.md).
+
+Prior update, 2026-09-08 (profile publication vs. match eligibility —
 architecture separation, `feat/separate-profile-publication-match-
-eligibility`, unmerged, architecture-only — the deliberate decision
+eligibility`, merged to `main` as PR #21, merge commit
+`bd3249711e672917b709abda63e109a86fbceb63` — the deliberate decision
 `ROSTER_EXPANSION_METHOD_REQUIRES_DECISION` called for. `eligibility_v2`
 is **not** lowered or replaced; instead, "evidence-backed profile good
 enough to publish" and "broad enough to match" are now separately
@@ -37,9 +69,10 @@ researched/scored/promoted; `ELIGIBILITY_VERSION`, every threshold,
 matching weights, coverage shrinkage, dispersion, and the similarity
 formula are byte-identical; `rankMatches`/`rankSimilarPeople`/
 `TargetSwitcher`/Compare target selection still gate on `isMatchEligible`
-alone. Roster unaffected: still 125 people, 124 default-directory-visible
-(Zheng He's existing exclusion unchanged), same match-eligible set.
-Roster24 was not started. Full record:
+alone. Roster unaffected at merge time: 125 people, 124
+default-directory-visible (Zheng He's existing exclusion unchanged), same
+match-eligible set — see the Roster24 entry above for what changed next.
+Full record:
 [`profile-publication-vs-match-eligibility.md`](../checkpoints/profile-publication-vs-match-eligibility.md).
 Prior update, 2026-09-08 (roster-23 broad-context deep-evidence intake,
 `feat/roster23-broad-context-deep-evidence`, merged to `main` as PR #20,
