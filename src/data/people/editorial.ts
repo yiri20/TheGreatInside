@@ -5467,4 +5467,166 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // Roster25 (2026-09): fast production batch, second real use of the
+  // profile-publication/match-eligibility separation architecture. Nellie
+  // Bly and Carl Jung are pre-existing qa_passed/match-eligible; Vera
+  // Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, and Isabella Bird
+  // are evidence_approved/non-match-eligible. Editorial content drawn only
+  // from each candidate's already-audited evidence corpus -- see
+  // docs/checkpoints/roster25-fast-production-batch.md.
+  "nellie-bly": {
+    achievements: [
+      { id: "nellie-bly-achievement-1", textKey: "nellie-bly.achievement.1", interpretationKey: "nellie-bly.interpretation.achievement.1", attributeId: "risk_tolerance", sourceIds: ["src_nb_own_reporting", "src_nb_asylum_officials"] },
+      { id: "nellie-bly-achievement-2", textKey: "nellie-bly.achievement.2", sourceIds: ["src_nb_own_reporting"] },
+    ],
+    moments: [
+      { id: "nellie-bly-moment-1", textKey: "nellie-bly.moment.1", sourceIds: ["src_nb_kroeger"] },
+      { id: "nellie-bly-moment-2", textKey: "nellie-bly.moment.2", sourceIds: ["src_nb_own_reporting"] },
+      { id: "nellie-bly-moment-3", textKey: "nellie-bly.moment.3", sourceIds: ["src_nb_kroeger"] },
+    ],
+    turningPoints: [
+      {
+        id: "nellie-bly-turning-point-1",
+        textKey: "nellie-bly.turning_point.1",
+        interpretationKey: "nellie-bly.interpretation.turning_point.1",
+        attributeId: "cross_domain_range",
+        sourceIds: ["src_nb_kroeger"],
+      },
+    ],
+  },
+
+  "carl-jung": {
+    achievements: [
+      { id: "carl-jung-achievement-1", textKey: "carl-jung.achievement.1", sourceIds: ["src_cj_freud_correspondence", "src_cj_bair"] },
+      { id: "carl-jung-achievement-2", textKey: "carl-jung.achievement.2", sourceIds: ["src_cj_bair"] },
+    ],
+    moments: [
+      {
+        id: "carl-jung-moment-1",
+        textKey: "carl-jung.moment.1",
+        interpretationKey: "carl-jung.interpretation.moment.1",
+        attributeId: "discipline",
+        sourceIds: ["src_cj_red_book"],
+      },
+      { id: "carl-jung-moment-2", textKey: "carl-jung.moment.2", sourceIds: ["src_cj_freud_correspondence"] },
+    ],
+    turningPoints: [
+      {
+        id: "carl-jung-turning-point-1",
+        textKey: "carl-jung.turning_point.1",
+        interpretationKey: "carl-jung.interpretation.turning_point.1",
+        attributeId: "ambiguity_tolerance",
+        sourceIds: ["src_cj_bair"],
+      },
+      { id: "carl-jung-turning-point-2", textKey: "carl-jung.turning_point.2", sourceIds: ["src_cj_freud_correspondence", "src_cj_bair"] },
+    ],
+  },
+
+  "vera-rubin": {
+    achievements: [
+      { id: "vera-rubin-achievement-1", textKey: "vera-rubin.achievement.1", sourceIds: ["src_vr_nas_memoir"] },
+      { id: "vera-rubin-achievement-2", textKey: "vera-rubin.achievement.2", sourceIds: ["src_vr_nas_memoir"] },
+    ],
+    moments: [
+      {
+        id: "vera-rubin-moment-1",
+        textKey: "vera-rubin.moment.1",
+        interpretationKey: "vera-rubin.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_vr_nas_memoir", "src_vr_autobiography"],
+      },
+      { id: "vera-rubin-moment-2", textKey: "vera-rubin.moment.2", sourceIds: ["src_vr_nas_memoir"] },
+      { id: "vera-rubin-moment-3", textKey: "vera-rubin.moment.3", sourceIds: ["src_vr_autobiography"] },
+    ],
+    turningPoints: [
+      {
+        id: "vera-rubin-turning-point-1",
+        textKey: "vera-rubin.turning_point.1",
+        interpretationKey: "vera-rubin.interpretation.turning_point.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_vr_autobiography", "src_vr_nas_memoir"],
+      },
+    ],
+  },
+
+  "subrahmanyan-chandrasekhar": {
+    achievements: [
+      { id: "subrahmanyan-chandrasekhar-achievement-1", textKey: "subrahmanyan-chandrasekhar.achievement.1", sourceIds: ["src_sc_nas_memoir"] },
+      { id: "subrahmanyan-chandrasekhar-achievement-2", textKey: "subrahmanyan-chandrasekhar.achievement.2", sourceIds: ["src_sc_nas_memoir"] },
+    ],
+    moments: [
+      {
+        id: "subrahmanyan-chandrasekhar-moment-1",
+        textKey: "subrahmanyan-chandrasekhar.moment.1",
+        interpretationKey: "subrahmanyan-chandrasekhar.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_sc_nas_memoir"],
+      },
+      { id: "subrahmanyan-chandrasekhar-moment-2", textKey: "subrahmanyan-chandrasekhar.moment.2", sourceIds: ["src_sc_nas_memoir"] },
+    ],
+    turningPoints: [
+      { id: "subrahmanyan-chandrasekhar-turning-point-1", textKey: "subrahmanyan-chandrasekhar.turning_point.1", sourceIds: ["src_sc_nas_memoir"] },
+      {
+        id: "subrahmanyan-chandrasekhar-turning-point-2",
+        textKey: "subrahmanyan-chandrasekhar.turning_point.2",
+        interpretationKey: "subrahmanyan-chandrasekhar.interpretation.turning_point.2",
+        attributeId: "persistence",
+        sourceIds: ["src_sc_nas_memoir"],
+      },
+    ],
+  },
+
+  "fridtjof-nansen": {
+    achievements: [
+      { id: "fridtjof-nansen-achievement-1", textKey: "fridtjof-nansen.achievement.1", sourceIds: ["src_fn_farthestnorth"] },
+      {
+        id: "fridtjof-nansen-achievement-2",
+        textKey: "fridtjof-nansen.achievement.2",
+        interpretationKey: "fridtjof-nansen.interpretation.achievement.2",
+        attributeId: "planning_orientation",
+        sourceIds: ["src_fn_farthestnorth"],
+      },
+    ],
+    moments: [
+      {
+        id: "fridtjof-nansen-moment-1",
+        textKey: "fridtjof-nansen.moment.1",
+        interpretationKey: "fridtjof-nansen.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_fn_bain"],
+      },
+      { id: "fridtjof-nansen-moment-2", textKey: "fridtjof-nansen.moment.2", sourceIds: ["src_fn_farthestnorth"] },
+    ],
+    turningPoints: [
+      { id: "fridtjof-nansen-turning-point-1", textKey: "fridtjof-nansen.turning_point.1", sourceIds: ["src_fn_bain"] },
+    ],
+  },
+
+  "isabella-bird": {
+    achievements: [
+      { id: "isabella-bird-achievement-1", textKey: "isabella-bird.achievement.1", sourceIds: ["src_ib_unbeaten_tracks"] },
+      { id: "isabella-bird-achievement-2", textKey: "isabella-bird.achievement.2", sourceIds: ["src_ib_stoddart"] },
+    ],
+    moments: [
+      {
+        id: "isabella-bird-moment-1",
+        textKey: "isabella-bird.moment.1",
+        interpretationKey: "isabella-bird.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_ib_unbeaten_tracks"],
+      },
+      { id: "isabella-bird-moment-2", textKey: "isabella-bird.moment.2", sourceIds: ["src_ib_unbeaten_tracks"] },
+      { id: "isabella-bird-moment-3", textKey: "isabella-bird.moment.3", sourceIds: ["src_ib_unbeaten_tracks"] },
+    ],
+    turningPoints: [
+      {
+        id: "isabella-bird-turning-point-1",
+        textKey: "isabella-bird.turning_point.1",
+        interpretationKey: "isabella-bird.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_ib_stoddart"],
+      },
+    ],
+  },
 };

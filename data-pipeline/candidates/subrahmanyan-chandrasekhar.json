@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "subrahmanyan-chandrasekhar",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Subrahmanyan Chandrasekhar",
     "wikidataId": "Q148109",
@@ -36,7 +36,7 @@
     },
     {
       "id": "src_sc_wali_review",
-      "kind": "book_review",
+      "kind": "press",
       "title": "Review of Kameshwar C. Wali, \"Chandra: A Biography of S. Chandrasekhar\" (University of Chicago Press, 1991) -- scholarly reviews by Freeman Dyson (Physics Today) and William McCrea (Times Higher Education Supplement), summarizing the biography's documented account of Chandrasekhar's navigation of Indian, British, and American scientific culture",
       "url": "https://www.academia.edu/20607283/Kameshwar_C_Wali_Chandra_A_biography_of_S_Chandrasekhar_Chicago_The_University_of_Chicago_Press_1991_Rezension_"
     }
@@ -64,11 +64,11 @@
       "rationale": "Documented systematically rebuilding his career after the Eddington affair closed his path in England: relocating to the University of Chicago via a special missionary visa (since no immigration quota existed for Indians), then, later, willingly leaving his own astronomy department after a 1952 curriculum dispute alienated him, joining Fermi's physics department instead -- two distinct, dated, forced professional pivots he converted into new opportunities."
     },
     "mastery_orientation": {
-      "score": 85,
-      "confidence": 0.6,
-      "evidenceType": "documented",
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Documented sustained pattern of producing one authoritative monograph per research phase across a nearly 60-year career (stellar structure, stellar dynamics, radiative transfer, hydrodynamic stability, ellipsoidal figures, black holes, and finally a critical commentary on Newton's Principia at age 84) -- an independently verifiable bibliographic record, not a general reputation for brilliance."
+      "rationale": "RUBRIC_CORRECTION (roster25 audit, 2026-09): sustained pattern of producing one authoritative monograph per research phase across a nearly 60-year career (stellar structure, stellar dynamics, radiative transfer, hydrodynamic stability, ellipsoidal figures, black holes, and finally a critical commentary on Newton's Principia at age 84) -- an independently verifiable bibliographic record, not a general reputation for brilliance. Originally scored 85/documented; corrected to 78/strong_inference because this record is described by only one of the two sources (the NAS memoir; the Wali-biography review does not corroborate it), and scoring_rubric_v1 Section 4 requires multiple independent documented instances from more than one source for an 85+ score -- capped at 71-84 with evidenceType strong_inference given the single source."
     },
     "discipline": {
       "score": 82,
@@ -134,6 +134,18 @@
       "rationale": "Documented Nobel Prize in Physics 1983, awarded fifty years after the original 1930s work it recognized -- an independently verifiable, decades-delayed vindication of the exact theory Eddington had publicly denounced."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/subrahmanyan-chandrasekhar-aip.jpg",
+    "width": 1078,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Free use with attribution, granted by the copyright holder (American Institute of Physics)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Subrahmanyan_Chandrasekhar.jpg",
+    "attribution": "AIP Emilio Segrè Visual Archives, Gift of Kameshwar Wali",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Subrahmanyan_Chandrasekhar.jpg",
+    "kind": "likeness"
+  },
   "computedEligibility": {
     "scoredAttributeCount": 13,
     "averageConfidence": 0.502,
@@ -141,11 +153,10 @@
     "eligible": false,
     "computedAt": "2026-09-06T00:00:00Z"
   },
-  "holdReason": "Validator output (mechanical, not adjusted): 13 scored attributes against the 18-attribute floor, 0.400 coverage against 0.6, 8 attributes at confidence>=0.5 against the 12-attribute floor. The NAS memoir gives exceptional depth on the Eddington conflict, editorial career, and family strain, but the two sources actually consulted do not give enough independent behavioral detail across the creativity/social/motivation facets to score further. Held, not rescued.",
   "provenance": {
     "createdAt": "2026-09-06T00:00:00Z",
-    "updatedAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-08T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q148109) checked against the live Wikipedia article before scoring. Sources actually consulted: the NAS Biographical Memoir (Parker, 1997) via direct PDF fetch, and a scholarly review of Wali's 1991 biography (quoting Freeman Dyson and William McCrea) as the second, genuinely independent source class."
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q148109) checked against the live Wikipedia article before scoring. Sources actually consulted: the NAS Biographical Memoir (Parker, 1997) via direct PDF fetch, and a scholarly review of Wali's 1991 biography (quoting Freeman Dyson and William McCrea) as the second, genuinely independent source class.\n\nROSTER25 FAST-PATH EVIDENCE-APPROVAL AUDIT (2026-09-08): mechanical row review found one rubric violation (see the RUBRIC_CORRECTION on the mastery_orientation row above) and no other issues. Spot-verified the NAS memoir PDF directly (full text read): confirmed verbatim the January 1935 RAS meeting account ('R. H. Fowler and H. N. Russell did not voice the essential points in opposition to Eddington's assertions, evidently intimidated by Eddington's preeminence'), Russell blocking Chandra's response at the 1935 Paris IAU and 1939 Paris colloquium, and the editorship characterization ('an example of the extraordinary feats that can be accomplished through dedication and self-discipline to the exclusion of nearly everything else in one's life') -- all as cited. Held only because of eligibility_v2 (unchanged: still 13 scored/0.400 coverage, eligible false, not remediated; still far below the 18-attribute floor -- not expanded). Evidence-approval decision: APPROVED."
   }
 }

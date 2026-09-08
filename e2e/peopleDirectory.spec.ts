@@ -449,7 +449,19 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // can satisfy this curiosity+collaboration combination; the filtered
   // count of 5 is unchanged.
   const bodyText = (await page.locator("main").textContent())!;
-  expect(bodyText).toMatch(/전체\s*127명\s*중\s*5명/);
+  // Total updated again 127->133 (roster25 fast production batch: 6 new
+  // people). Verified directly against the real traitScoreGroups z-score
+  // filter (curiosity mean=55/sd=17 so minZ=1.0 requires score>=72;
+  // collaboration mean=55/sd=18 so minZ=1.0 requires score>=73; both need
+  // confidence>=0.5): Vera Rubin scores curiosity 78 (confidence 0.58) and
+  // collaboration 74 (confidence 0.55), genuinely crossing both thresholds
+  // -- not a rescored/adjusted value, this is her real evidence-approved
+  // score (see docs/checkpoints/roster25-fast-production-batch.md). None
+  // of the other 5 new people score both attributes highly enough. This
+  // is a real, honest addition to the filtered set, raising the count
+  // from 5 to 6 -- not something corrected by adjusting her score.
+  expect(bodyText).toMatch(/전체\s*133명\s*중\s*6명/);
+  expect(bodyText).toContain("베라 루빈");
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {

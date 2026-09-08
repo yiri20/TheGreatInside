@@ -2,8 +2,19 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "isabella-bird",
-  "status": "held",
-  "holdReason": "eligibility_v2 fails: 17 scored attributes (need 18, closest miss of the 4 candidates this cycle), coverage 0.511 (need 0.6), only 2 attributes at confidence >=0.5 (need 12), high-confidence average 0.53 (need 0.55). The richest evidence pack of the cycle (2 genuinely webfetch-opened, distinct-provenance sources: her own Japan travel letters + Anna Stoddart's independent 1906 biography) still produced mostly single-source-per-row evidence rather than rows independently corroborated by both sources, which is what caps confidence here even though the attribute count itself came close to the floor.",
+  "status": "evidence_approved",
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/isabella-bird-nypl-1899.jpg",
+    "width": 1270,
+    "height": 1270,
+    "source": "Wikimedia Commons",
+    "license": "Public domain in the US (published 1899, before January 1, 1931)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Isabella_Bird_portrait.jpg",
+    "attribution": "Photographic portrait published in Isabella Bird, The Yangtze Valley and Beyond (G. P. Putnam's Sons, 1899) — New York Public Library Digital Collections",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Isabella_Bird_portrait.jpg",
+    "kind": "likeness"
+  },
   "computedEligibility": {
     "scoredAttributeCount": 17,
     "averageConfidence": 0.388,
@@ -158,6 +169,6 @@
     "createdAt": "2026-09-07T00:00:00Z",
     "updatedAt": "2026-09-07T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster21 simplified evidence-first intake. 2 genuinely webfetch-opened, distinct-provenance sources (Bird's own Unbeaten Tracks in Japan letters; Anna Stoddart's independent 1906 biography, written by a personal acquaintance drawing on family papers), both read directly this cycle with real extracted passages spanning childhood illness, family, publishing, philanthropy, and the Japan journey. 17 rows scored — the richest evidence pack of the 4 candidates frozen this cycle, reflecting that both sources converged on several of the same underlying incidents (chronic illness/travel, risk-under-fear) while each also contributed material the other did not (publishing conflicts and philanthropy from Stoddart only; the Ito relationship and kit design from her own letters only). No score adjusted after computing eligibility."
+    "notes": "Roster21 simplified evidence-first intake. 2 genuinely webfetch-opened, distinct-provenance sources (Bird's own Unbeaten Tracks in Japan letters; Anna Stoddart's independent 1906 biography, written by a personal acquaintance drawing on family papers), both read directly this cycle with real extracted passages spanning childhood illness, family, publishing, philanthropy, and the Japan journey. 17 rows scored — the richest evidence pack of the 4 candidates frozen this cycle, reflecting that both sources converged on several of the same underlying incidents (chronic illness/travel, risk-under-fear) while each also contributed material the other did not (publishing conflicts and philanthropy from Stoddart only; the Ito relationship and kit design from her own letters only). No score adjusted after computing eligibility.\n\nROSTER25 FAST-PATH EVIDENCE-APPROVAL AUDIT (2026-09-08): mechanical row review found no semantic mismatches, no unsupported extremes (max score 66), and all shared-episode reuse (the childhood-illness pattern underlying discipline/adaptability/belief_updating; the kit-design cluster underlying resourcefulness/planning_orientation; the Murray dispute underlying independent_thinking/persuasiveness; the temple-documentation passage underlying curiosity/detail_orientation) already transparently disclosed in each row's own rationale. No new source was re-opened; the existing rationale/provenance record was sufficient. No RUBRIC_CORRECTION or ERROR_CORRECTION needed -- zero rows changed. Held only because of eligibility_v2 (unchanged: still 17/0.511 coverage, eligible false, not remediated; not chasing the missing 18th attribute). Evidence-approval decision: APPROVED."
   }
 }
