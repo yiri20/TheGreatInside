@@ -46,6 +46,7 @@ function makePerson(id: string, attributes: Person["attributes"]): Person {
     attributes,
     status: "published",
     isMatchEligible: true,
+    isDirectoryVisible: true,
     overallProfileConfidence: 0.9,
     sources: [],
     doNotCopyKeys: [],

@@ -41,6 +41,7 @@ function main() {
         `tagIds: ${JSON.stringify(e.tagIds)}`,
         `archetypeIds: ${JSON.stringify(e.archetypeIds)}`,
         `isMatchEligible: ${e.isMatchEligible}`,
+        `isDirectoryVisible: ${e.isDirectoryVisible}`,
         `overallProfileConfidence: ${e.overallProfileConfidence}`,
         `attributes: [${attrs}]`,
         e.portraitUrl !== undefined ? `portraitUrl: ${JSON.stringify(e.portraitUrl)}` : undefined,

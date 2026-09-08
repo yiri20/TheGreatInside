@@ -27,6 +27,7 @@ function basePerson(overrides: Partial<Person> = {}): Person {
     attributes: [],
     status: "published",
     isMatchEligible: false,
+    isDirectoryVisible: false,
     overallProfileConfidence: 0.5,
     sources: [{ id: "src_test_wikipedia", kind: "wikipedia", title: "Test Person" }],
     doNotCopyKeys: [],

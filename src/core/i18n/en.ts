@@ -433,6 +433,10 @@ export const en = {
   "compare.person_not_found.title": "We couldn't find that person",
   "compare.person_not_found.cta": "Browse All People",
 
+  "compare.not_in_matching.title": "{name} isn't included in matching yet",
+  "compare.not_in_matching.body": "This profile is real and available to explore, but the documented evidence doesn't yet cover enough of the personality model to compare against. You can still view the full profile.",
+  "compare.not_in_matching.cta": "View Profile",
+
   /* -------------------------------------------------------- Phase 6: quiz UI */
   "landing.eyebrow": "The Great Inside",
   "landing.title": "Who in history thinks like you?",
@@ -1068,6 +1072,7 @@ export const en = {
   "person.similar_people.subtitle": "People whose overall profiles resemble theirs.",
   "person.opposite_profile.subtitle": "Not a rival — a different profile shape worth a look.",
   "person.match_context.banner": "You're looking at this profile because your quiz result showed a close match here — especially in {trait}.",
+  "person.not_in_matching": "Not yet included in personality matching — the documented evidence doesn't yet cover enough of the personality model. Everything else on this page is fully available.",
 
   /* ---------------------------------------------------- historical polities */
   /* Shown alongside modern nationalityCodes, never replacing them — see

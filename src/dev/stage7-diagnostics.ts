@@ -261,6 +261,7 @@ function makeSyntheticPerson(id: string, includeNewTraits: boolean): Person {
     attributes: [...base, ...extra],
     status: "published",
     isMatchEligible: true,
+    isDirectoryVisible: true,
     overallProfileConfidence: 0.75,
     sources: [],
     doNotCopyKeys: [],

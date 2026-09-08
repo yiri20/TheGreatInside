@@ -37,8 +37,40 @@ export type CandidateStatus =
   | "draft"
   | "researching"
   | "scored"
-  | "localized"
-  | "portrait_pending"
+  /**
+   * Evidence/profile-approval review complete — see
+   * `docs/checkpoints/profile-publication-vs-match-eligibility.md`.
+   * Meaning: identity is verified, sources were actually read (not merely
+   * found), provenance is honestly represented, every scored row is
+   * semantically supported (unsupported/duplicative rows removed), and
+   * scoring is locked before any downstream eligibility computation.
+   * Deliberately says nothing about whether the candidate clears
+   * `eligibility_v2` — `computedEligibility` (below) is checked
+   * independently, AFTER this status is reached, never as a condition of
+   * reaching it. This is NOT an easier numeric version of `eligibility_v2`
+   * (no invented trait-count/coverage/confidence threshold) — it is a
+   * review-outcome status, same in kind as `qa_passed` but decoupled from
+   * the match-eligibility result. A candidate at this status is ready for
+   * product-readiness work (portrait/editorial/localization) and eventual
+   * promotion REGARDLESS of `computedEligibility.eligible` — promotion
+   * gates on evidence approval, matching gates on `isMatchEligible`
+   * (computed independently by `build()`), and these are never the same
+   * check. Use this status (not `qa_passed`) for a candidate whose
+   * evidence is genuinely publication-ready but who may end up
+   * `isMatchEligible: false` in production — `qa_passed` retains its
+   * established, narrower historical meaning below.
+   */
+  | "evidence_approved"
+  /**
+   * Historical/established meaning across every roster cycle to date
+   * (roster11-23): evidence-approved AND `computedEligibility.eligible ===
+   * true`. Kept unchanged for backward compatibility with every existing
+   * committed candidate file using this convention — do NOT retroactively
+   * relabel past `qa_passed` candidates, and do not newly apply this label
+   * to a candidate that fails `eligibility_v2`; use `evidence_approved`
+   * for that case instead (see its own doc comment above). A `qa_passed`
+   * candidate is always also, implicitly, evidence-approved.
+   */
   | "qa_passed"
   | "held"
   | "rejected"
@@ -188,6 +220,47 @@ const IM_CODE: Record<TraitImpact, Im> = {
   risk: "R",
   neutral: "N",
 };
+
+/**
+ * Promotion readiness check — deliberately NOT a numeric gate. A future
+ * `generateRosterN.ts` should call this (instead of each hand-rolling its
+ * own ad-hoc checks, as every generator through roster16 did) to decide
+ * whether a candidate may be written into a production roster file at
+ * all. See `docs/checkpoints/profile-publication-vs-match-eligibility.md`
+ * for the full architectural rationale.
+ *
+ * Checks ONLY: the candidate reached an evidence-approved review outcome
+ * (`"evidence_approved"` or `"qa_passed"` — see `CandidateStatus`'s own
+ * doc comments for the distinction), required identity fields are present,
+ * and a product-ready portrait exists. Deliberately does NOT check
+ * `computedEligibility.eligible` — every generator through roster16 hard-
+ * required `eligible === true` before writing ANY candidate to production,
+ * which is exactly the coupling this architecture separates. Whether a
+ * promoted candidate ends up `isMatchEligible: true` or `false` in
+ * production is decided independently and automatically by `build()` via
+ * `evaluateMatchEligibility` — this function never reads or overrides
+ * that computation, and callers must not add their own eligibility check
+ * on top of it.
+ */
+export interface PromotionReadiness {
+  ready: boolean;
+  reasons: string[];
+}
+
+export function checkPromotionReadiness(candidate: Candidate): PromotionReadiness {
+  const reasons: string[] = [];
+  if (candidate.status !== "evidence_approved" && candidate.status !== "qa_passed") {
+    reasons.push(
+      `status "${candidate.status}" is not an evidence-approved review outcome (need "evidence_approved" or "qa_passed")`,
+    );
+  }
+  if (!candidate.identity?.canonicalName) reasons.push("missing identity.canonicalName");
+  if (!candidate.identity?.wikidataId) reasons.push("missing identity.wikidataId");
+  if (!candidate.portrait || candidate.portrait.status !== "found") {
+    reasons.push("no product-ready portrait (portrait.status must be \"found\")");
+  }
+  return { ready: reasons.length === 0, reasons };
+}
 
 /**
  * One-way conversion from an approved candidate to the `PersonSeed` shape

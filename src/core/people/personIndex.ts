@@ -79,6 +79,7 @@ export interface PersonIndexEntry {
   tagIds: string[];
   archetypeIds: string[];
   isMatchEligible: boolean;
+  isDirectoryVisible: boolean;
   overallProfileConfidence: number;
   /** Only the values `explorer.ts`'s filters and `personDataFingerprint`
    *  actually read — never `evidenceType`, `sourceIds`, or the (currently
@@ -107,6 +108,7 @@ export function toIndexEntry(person: Person): PersonIndexEntry {
     tagIds: person.tagIds,
     archetypeIds: person.archetypeIds,
     isMatchEligible: person.isMatchEligible,
+    isDirectoryVisible: person.isDirectoryVisible,
     overallProfileConfidence: person.overallProfileConfidence,
     attributes: person.attributes.map((a): IndexedAttribute => [a.attributeId, a.score, a.confidence, a.impact]),
     ...(person.portrait ? { portraitUrl: person.portrait.url } : {}),

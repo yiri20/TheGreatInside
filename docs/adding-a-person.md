@@ -32,24 +32,42 @@ session log to find.
    ```bash
    corepack pnpm@10 exec tsx src/dev/roster1000/validateCandidates.ts
    ```
-4. **Check `eligibility_v2`** — a candidate needs enough scored attributes,
-   average confidence, and coverage to be *match-eligible* (see
-   `CLAUDE.md`'s "Seed dataset" section for the exact floors). A candidate
-   that fails is still a legitimate addition if you want a browsable,
-   non-match-eligible profile (like Zheng He) — just be honest about it,
-   never pad scores to force a pass.
+4. **Determine evidence/profile approval, then check `eligibility_v2`
+   independently** — these are two separate questions as of the
+   profile-publication/match-eligibility architecture (see
+   `docs/checkpoints/profile-publication-vs-match-eligibility.md`):
+   - **Evidence approval** (set candidate `status` to `"evidence_approved"`,
+     or `"qa_passed"` if also match-eligible — see `CandidateStatus`'s own
+     doc comments in `candidateSchema.ts`): identity verified, sources
+     actually read, provenance honest, every row semantically supported,
+     scoring locked. This is a review outcome, never a second numeric gate
+     — do not invent a trait-count/coverage/confidence floor for it.
+   - **`eligibility_v2`** (unchanged: enough scored attributes, average
+     confidence, and coverage to be *match-eligible* — see `CLAUDE.md`'s
+     "Seed dataset" section for the exact floors) is computed independently
+     and never influences the evidence-approval decision above. A candidate
+     that is evidence-approved but fails `eligibility_v2` is still a
+     legitimate addition if you want a browsable, non-match-eligible
+     profile (like Zheng He) — just be honest about it, never pad scores to
+     force a pass, and never withhold promotion solely because
+     `eligibility_v2` failed once evidence approval is genuine.
 5. **Run `checkScoringLockIntegrity.ts`** to confirm no previously-
    committed, already-promoted candidate file was silently edited:
    ```bash
    corepack pnpm@10 exec tsx src/dev/roster1000/checkScoringLockIntegrity.ts
    ```
 6. **Write a `generateRosterN.ts` script** promoting the new batch's
-   `qa_passed` candidates into a new `src/data/people/rosterN.ts` file.
-   Copy the most recent one (`src/dev/roster1000/generateRoster10.ts` as
-   of 2026-08) as a template — same pattern every batch has used: an
-   explicit slug allowlist (never a blanket "every qa_passed candidate"
-   filter, which would silently re-promote an earlier batch too), loads
-   from `data-pipeline/candidates/*.json`, renders each person via
+   evidence-approved candidates (`"evidence_approved"` or `"qa_passed"`
+   status — both are eligible for promotion; `isMatchEligible` in
+   production is computed independently by `build()` regardless of which)
+   into a new `src/data/people/rosterN.ts` file. Copy the most recent one
+   (`src/dev/roster1000/generateRoster16.ts` as of 2026-09) as a template
+   — same pattern every batch has used: an explicit slug allowlist (never
+   a blanket "every approved candidate" filter, which would silently
+   re-promote an earlier batch too), loads from
+   `data-pipeline/candidates/*.json`, calls
+   `checkPromotionReadiness()` (`candidateSchema.ts`) per candidate rather
+   than hand-rolling an eligibility check, renders each person via
    `toPersonSeed()` + `build()`. Run it once:
    ```bash
    corepack pnpm@10 exec tsx src/dev/roster1000/generateRosterN.ts

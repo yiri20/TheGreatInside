@@ -74,6 +74,13 @@ export interface PersonSeed {
   doNotCopyKeys?: string[];
   externalIdentity?: PersonExternalIdentity;
   portrait?: PersonPortrait;
+  /** See `Person.isDirectoryVisible`'s doc comment. Omit for the default,
+   *  intended behavior for every ordinary promotion: mirrors whatever
+   *  `evaluateMatchEligibility` computes for `isMatchEligible`. Set
+   *  explicitly only when a profile should deliberately diverge from that
+   *  default (e.g. a fully published, non-match-eligible profile that
+   *  should still appear in the default directory listing). */
+  directoryVisible?: boolean;
   rows: Partial<Record<AttributeId, Row>>;
 }
 
@@ -114,6 +121,7 @@ export function build(seed: PersonSeed): Person {
     attributes,
     status: "published",
     isMatchEligible: false,
+    isDirectoryVisible: false,
     overallProfileConfidence,
     sources: seed.sources,
     doNotCopyKeys: seed.doNotCopyKeys ?? [],
@@ -124,6 +132,11 @@ export function build(seed: PersonSeed): Person {
   // Eligibility is computed, never hand-set — an under-evidenced profile must
   // not be able to opt itself into matching.
   person.isMatchEligible = evaluateMatchEligibility(person).eligible;
+  // Directory visibility defaults to mirroring match eligibility (every
+  // existing profile's actual behavior before this field existed) unless a
+  // seed explicitly opts a deliberately-divergent profile in or out — see
+  // `Person.isDirectoryVisible`'s doc comment.
+  person.isDirectoryVisible = seed.directoryVisible ?? person.isMatchEligible;
   return person;
 }
 
