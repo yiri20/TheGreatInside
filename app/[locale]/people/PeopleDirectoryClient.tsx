@@ -116,6 +116,16 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
 
   const filter: PeopleFilter = useMemo(
     () => ({
+      // Directory default visibility is governed by `isDirectoryVisible`
+      // alone (`directoryVisibleOnly` stays at its own default-true), not by
+      // match eligibility — a fully published, honestly-scored profile can
+      // be directory-visible while not match-eligible (see
+      // docs/checkpoints/profile-publication-vs-match-eligibility.md).
+      // Explicitly lifting this separate gate is what makes that possible;
+      // it does not by itself expose any *additional* profile today (every
+      // current profile's `isDirectoryVisible` still mirrors
+      // `isMatchEligible`), it only stops conflating the two concepts.
+      matchEligibleOnly: false,
       ...(era !== ALL_VALUE ? { eras: [era as Era] } : {}),
       ...(region !== ALL_VALUE ? { regionCodes: [region] } : {}),
       ...(fieldIds.length > 0 ? { fieldIds } : {}),

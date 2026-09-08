@@ -59,7 +59,56 @@ describe("filterPeople", () => {
 
   it("can include ineligible profiles when explicitly asked", () => {
     const withIneligible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(withIneligible).toHaveLength(SEED_PEOPLE.length);
+    // matchEligibleOnly and directoryVisibleOnly are two independent gates
+    // (see PeopleFilter's own doc comments) — asking only for the former to
+    // be lifted still leaves the (also default-true) directory-visibility
+    // gate in place, so a profile excluded from the default listing for its
+    // own, separate reason (e.g. Zheng He) is correctly still absent here.
+    expect(withIneligible).toHaveLength(SEED_PEOPLE.filter((p) => p.isDirectoryVisible).length);
+  });
+
+  it("defaults to directory-visible people only, independent of matchEligibleOnly", () => {
+    const result = filterPeople(SEED_PEOPLE, {});
+    expect(result.every((p) => p.isDirectoryVisible)).toBe(true);
+    expect(result).toHaveLength(SEED_PEOPLE.filter((p) => p.isDirectoryVisible).length);
+  });
+
+  it("can include directory-hidden profiles when explicitly asked, independent of match eligibility", () => {
+    const withHidden = filterPeople(SEED_PEOPLE, { directoryVisibleOnly: false });
+    // Lifting only the directory-visibility gate still leaves the (also
+    // default-true) match-eligibility gate in place.
+    expect(withHidden).toHaveLength(SEED_PEOPLE.filter((p) => p.isMatchEligible).length);
+  });
+
+  it("lifting BOTH gates returns literally everyone, including a profile like Zheng He that fails both for the same underlying reason today", () => {
+    const everyone = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false, directoryVisibleOnly: false });
+    expect(everyone).toHaveLength(SEED_PEOPLE.length);
+  });
+
+  it("directory visibility and match eligibility are genuinely independent axes, not one flag wearing two names", () => {
+    // Synthetic fixtures only — no real person's data is read or mutated
+    // here. A real published profile CAN be directory-visible while not
+    // match-eligible (an honestly-scored profile whose evidence doesn't yet
+    // cover enough of the personality model), and a real profile CAN be
+    // match-eligible while deliberately excluded from the default listing
+    // (a direct-only profile) — neither combination was expressible before
+    // `isDirectoryVisible` existed, when visibility was only ever inferred
+    // from `isMatchEligible`.
+    const base = SEED_PEOPLE[0]!;
+    const visibleButNotEligible = { ...base, id: "synthetic-visible-not-eligible", isMatchEligible: false, isDirectoryVisible: true };
+    const eligibleButHidden = { ...base, id: "synthetic-eligible-hidden", isMatchEligible: true, isDirectoryVisible: false };
+    const pool = [visibleButNotEligible, eligibleButHidden];
+
+    // The People Directory's actual call pattern (PeopleDirectoryClient.tsx):
+    // explicitly lift the eligibility gate so visibility is governed by
+    // isDirectoryVisible alone, exactly per this architecture's design.
+    const directoryView = filterPeople(pool, { matchEligibleOnly: false });
+    expect(directoryView.map((p) => p.id)).toEqual([visibleButNotEligible.id]);
+
+    // A caller that wants "matchable only", independent of directory
+    // visibility (e.g. building a matching-target list) uses the other gate.
+    const matchableOnly = filterPeople(pool, { directoryVisibleOnly: false });
+    expect(matchableOnly.map((p) => p.id)).toEqual([eligibleButHidden.id]);
   });
 
   it("ORs multiple values within one facet", () => {
@@ -230,6 +279,7 @@ describe("filterPeople", () => {
       const result = filterPeople(SEED_PEOPLE, {
         traitScoreGroups: [q([])],
         matchEligibleOnly: false,
+        directoryVisibleOnly: false,
       });
       expect(result).toHaveLength(SEED_PEOPLE.length);
     });
@@ -238,6 +288,7 @@ describe("filterPeople", () => {
       const result = filterPeople(SEED_PEOPLE, {
         traitScoreGroups: [],
         matchEligibleOnly: false,
+        directoryVisibleOnly: false,
       });
       expect(result).toHaveLength(SEED_PEOPLE.length);
     });

@@ -60,6 +60,7 @@ export interface ExplorablePerson {
   tagIds: string[];
   archetypeIds: string[];
   isMatchEligible: boolean;
+  isDirectoryVisible: boolean;
   overallProfileConfidence: number;
   attributes: { attributeId: AttributeId; score: number; confidence: number; impact: TraitImpact }[];
 }
@@ -104,10 +105,27 @@ export interface PeopleFilter {
   impactDomains?: readonly ImpactDomain[];
   archetypeIds?: readonly string[];
   isLiving?: boolean;
-  /** Excludes profiles the matching engine would exclude. Default true: the
-   *  explorer's filter controls describe matchable people by default, but
-   *  under-evidenced profiles stay independently browsable via search. */
+  /** Excludes profiles the matching engine would exclude. Default true.
+   *  Independent of `directoryVisibleOnly` below — see
+   *  `docs/checkpoints/profile-publication-vs-match-eligibility.md`.
+   *  Callers that want a default directory listing which may include a
+   *  fully published, non-match-eligible profile should combine
+   *  `matchEligibleOnly: false` with the (still-default-true)
+   *  `directoryVisibleOnly` gate, rather than relying on this flag alone —
+   *  this flag's own default/semantics are otherwise unchanged from
+   *  before `directoryVisibleOnly` existed. */
   matchEligibleOnly?: boolean;
+  /** Excludes profiles not flagged for the default directory listing
+   *  (`Person.isDirectoryVisible`). Default true. This is the gate that
+   *  actually controls default browsing visibility — a profile can be
+   *  `directoryVisibleOnly`-excluded while being fully `isMatchEligible`
+   *  (a deliberately direct-only profile, e.g. Zheng He today), or
+   *  `directoryVisibleOnly`-included while `isMatchEligible: false` (a
+   *  published, honestly-scored profile whose evidence doesn't cover
+   *  enough of the personality model to match, but is still worth
+   *  browsing). Independent of `matchEligibleOnly` — set both explicitly
+   *  when a caller wants "browsable AND matchable only". */
+  directoryVisibleOnly?: boolean;
   /** e.g. { curiosity: 80 } => curiosity score >= 80. All keys AND'd. */
   minAttributeScores?: Readonly<Partial<Record<AttributeId, number>>>;
   /** e.g. { perfectionism: "dual_edged" }. All keys AND'd. Attribute must be
@@ -182,8 +200,10 @@ function passesTraitScoreGroups(person: ExplorablePerson, groups: PeopleFilter["
 
 export function filterPeople<T extends ExplorablePerson>(people: readonly T[], filter: PeopleFilter): T[] {
   const eligibleOnly = filter.matchEligibleOnly ?? true;
+  const directoryVisibleOnly = filter.directoryVisibleOnly ?? true;
   return people.filter((p) => {
     if (eligibleOnly && !p.isMatchEligible) return false;
+    if (directoryVisibleOnly && !p.isDirectoryVisible) return false;
     if (filter.isLiving !== undefined && p.isLiving !== filter.isLiving) return false;
     if (!intersects(filter.eras, (v) => p.era === v)) return false;
     if (!intersects(filter.regionCodes, (v) => p.regionCode === v)) return false;

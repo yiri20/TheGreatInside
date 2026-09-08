@@ -37,8 +37,48 @@ export type CandidateStatus =
   | "draft"
   | "researching"
   | "scored"
+  /** Localization (Korean display name, etc.) is complete or in progress
+   *  for this candidate. Pre-dates the evidence/match-eligibility
+   *  separation below; unchanged. */
   | "localized"
+  /** Portrait sourcing is in progress or blocking for this candidate.
+   *  Pre-dates the evidence/match-eligibility separation below;
+   *  unchanged. */
   | "portrait_pending"
+  /**
+   * Evidence/profile-approval review complete — see
+   * `docs/checkpoints/profile-publication-vs-match-eligibility.md`.
+   * Meaning: identity is verified, sources were actually read (not merely
+   * found), provenance is honestly represented, every scored row is
+   * semantically supported (unsupported/duplicative rows removed), and
+   * scoring is locked before any downstream eligibility computation.
+   * Deliberately says nothing about whether the candidate clears
+   * `eligibility_v2` — `computedEligibility` (below) is checked
+   * independently, AFTER this status is reached, never as a condition of
+   * reaching it. This is NOT an easier numeric version of `eligibility_v2`
+   * (no invented trait-count/coverage/confidence threshold) — it is a
+   * review-outcome status, same in kind as `qa_passed` but decoupled from
+   * the match-eligibility result. A candidate at this status is ready for
+   * product-readiness work (portrait/editorial/localization) and eventual
+   * promotion REGARDLESS of `computedEligibility.eligible` — promotion
+   * gates on evidence approval, matching gates on `isMatchEligible`
+   * (computed independently by `build()`), and these are never the same
+   * check. Use this status (not `qa_passed`) for a candidate whose
+   * evidence is genuinely publication-ready but who may end up
+   * `isMatchEligible: false` in production — `qa_passed` retains its
+   * established, narrower historical meaning below.
+   */
+  | "evidence_approved"
+  /**
+   * Historical/established meaning across every roster cycle to date
+   * (roster11-23): evidence-approved AND `computedEligibility.eligible ===
+   * true`. Kept unchanged for backward compatibility with every existing
+   * committed candidate file using this convention — do NOT retroactively
+   * relabel past `qa_passed` candidates, and do not newly apply this label
+   * to a candidate that fails `eligibility_v2`; use `evidence_approved`
+   * for that case instead (see its own doc comment above). A `qa_passed`
+   * candidate is always also, implicitly, evidence-approved.
+   */
   | "qa_passed"
   | "held"
   | "rejected"
@@ -190,11 +230,94 @@ const IM_CODE: Record<TraitImpact, Im> = {
 };
 
 /**
- * One-way conversion from an approved candidate to the `PersonSeed` shape
- * `builder.ts`'s `build()` consumes — the exact moment a candidate stops
- * being pipeline data and becomes a real, committed person. Only ever call
- * this after `validateCandidates.ts` reports the candidate passes every
- * gate; this function itself does not gate anything, it only reshapes data.
+ * Promotion readiness check — deliberately NOT a numeric gate, and
+ * deliberately NOT the complete product-readiness gate either. This is a
+ * **candidate-data promotion precondition** only: it checks what is
+ * knowable from the candidate JSON alone (review status, identity, a
+ * product-ready portrait record). See
+ * `docs/checkpoints/profile-publication-vs-match-eligibility.md` for the
+ * full architectural rationale.
+ *
+ * Checks ONLY: the candidate reached an evidence-approved review outcome
+ * (`"evidence_approved"` or `"qa_passed"` — see `CandidateStatus`'s own
+ * doc comments for the distinction), required identity fields are present,
+ * and a product-ready portrait record exists on the candidate. Deliberately
+ * does NOT check `computedEligibility.eligible` — every generator through
+ * roster16 hard-required `eligible === true` before writing ANY candidate
+ * to production, which is exactly the coupling this architecture
+ * separates. Whether a promoted candidate ends up `isMatchEligible: true`
+ * or `false` in production is decided independently and automatically by
+ * `build()` via `evaluateMatchEligibility` — this function never reads or
+ * overrides that computation, and callers must not add their own
+ * eligibility check on top of it.
+ *
+ * What this does NOT verify (and never should, without adding fake
+ * candidate-JSON fields to check things that live elsewhere): the final
+ * rendered EN/KO editorial content, the Korean display name actually
+ * resolving on a live page, the portrait file actually existing on disk
+ * and rendering, the person's Directory card, or the working profile
+ * route. Those remain established the existing way — by the production
+ * build, i18n coverage audit, and manual/Playwright browser verification
+ * described in `docs/adding-a-person.md` — after this check passes, not
+ * instead of it.
+ */
+export interface PromotionReadiness {
+  ready: boolean;
+  reasons: string[];
+}
+
+export function checkPromotionReadiness(candidate: Candidate): PromotionReadiness {
+  const reasons: string[] = [];
+  if (candidate.status !== "evidence_approved" && candidate.status !== "qa_passed") {
+    reasons.push(
+      `status "${candidate.status}" is not an evidence-approved review outcome (need "evidence_approved" or "qa_passed")`,
+    );
+  }
+  if (!candidate.identity?.canonicalName) reasons.push("missing identity.canonicalName");
+  if (!candidate.identity?.wikidataId) reasons.push("missing identity.wikidataId");
+  // Identity-integrity: if both the reviewed candidate identity and a
+  // pre-existing externalIdentity carry a QID, they must agree. A silent
+  // pick-one would be an unnoticed identity error, not a value to merge —
+  // fail closed instead. See `toPersonSeed()` for the (non-conflicting)
+  // QID-propagation this guards.
+  if (
+    candidate.identity?.wikidataId &&
+    candidate.externalIdentity?.wikidataId &&
+    candidate.identity.wikidataId !== candidate.externalIdentity.wikidataId
+  ) {
+    reasons.push(
+      `identity.wikidataId ("${candidate.identity.wikidataId}") disagrees with externalIdentity.wikidataId ("${candidate.externalIdentity.wikidataId}")`,
+    );
+  }
+  if (!candidate.portrait || candidate.portrait.status !== "found") {
+    reasons.push("no product-ready portrait (portrait.status must be \"found\")");
+  } else {
+    if (!candidate.portrait.url) reasons.push("portrait.status is \"found\" but portrait.url is missing");
+    if (!candidate.portrait.source) reasons.push("portrait.status is \"found\" but portrait.source is missing");
+    if (!candidate.portrait.license) reasons.push("portrait.status is \"found\" but portrait.license is missing");
+    if (!candidate.portrait.sourcePageUrl) {
+      reasons.push("portrait.status is \"found\" but portrait.sourcePageUrl is missing");
+    }
+  }
+  return { ready: reasons.length === 0, reasons };
+}
+
+/**
+ * Neutral, one-way reshaping from the candidate-pipeline `Candidate` shape
+ * to the `PersonSeed` shape `builder.ts`'s `build()` consumes. Deliberately
+ * NOT a gate of any kind — it does not determine evidence approval, does
+ * not determine match eligibility, and does not check `candidate.status`
+ * at all. `validateCandidates.ts` calls this on every scoreable candidate
+ * regardless of status (including `held` and merely `scored` ones) purely
+ * to compute a diagnostic `eligibility_v2` snapshot for reporting — that is
+ * a legitimate, intentional use and this function must keep working for it.
+ *
+ * Production generators promoting a candidate into a real roster file
+ * should normally call `preparePersonSeedForPromotion()` below instead of
+ * this function directly — that is where promotion readiness is actually
+ * checked and directory visibility is explicitly decided. Calling this
+ * function directly is appropriate for evaluation/reporting tooling, not
+ * for deciding whether a candidate may be promoted.
  */
 export function toPersonSeed(candidate: Candidate): PersonSeed {
   const rows: Partial<Record<AttributeId, Row>> = {};
@@ -203,6 +326,23 @@ export function toPersonSeed(candidate: Candidate): PersonSeed {
   >) {
     rows[attributeId] = [row.score, row.confidence, EV_CODE[row.evidenceType], IM_CODE[row.impact]];
   }
+
+  // Preserve the verified candidate identity QID into production
+  // externalIdentity — `checkPromotionReadiness()` requires
+  // `identity.wikidataId`, but until this merge it was only ever carried
+  // forward when a candidate happened to also have an `externalIdentity`
+  // object already, silently dropping the QID otherwise. Any existing
+  // `externalIdentity` fields (e.g. `wikipediaUrls`) are preserved as-is;
+  // `identity.wikidataId` wins only when set, and never overwrites an
+  // agreeing existing value with a different one (readiness already fails
+  // closed on disagreement).
+  const externalIdentity =
+    candidate.identity.wikidataId !== undefined || candidate.externalIdentity !== undefined
+      ? {
+          ...candidate.externalIdentity,
+          ...(candidate.identity.wikidataId !== undefined ? { wikidataId: candidate.identity.wikidataId } : {}),
+        }
+      : undefined;
 
   return {
     id: `p_${candidate.slug.replace(/-/g, "_")}`,
@@ -225,7 +365,7 @@ export function toPersonSeed(candidate: Candidate): PersonSeed {
     archetypeIds: candidate.classification.archetypeIds,
     sources: candidate.sources,
     ...(candidate.doNotCopyKeys ? { doNotCopyKeys: candidate.doNotCopyKeys } : {}),
-    ...(candidate.externalIdentity ? { externalIdentity: candidate.externalIdentity } : {}),
+    ...(externalIdentity ? { externalIdentity } : {}),
     ...(candidate.portrait?.status === "found" && candidate.portrait.url && candidate.portrait.source && candidate.portrait.license
       ? {
           portrait: {
@@ -245,4 +385,67 @@ export function toPersonSeed(candidate: Candidate): PersonSeed {
       : {}),
     rows,
   };
+}
+
+export interface PromotionOptions {
+  /**
+   * Whether the promoted person should appear in the default People
+   * Directory listing (`Person.isDirectoryVisible`). Defaults to `true` —
+   * a future evidence-approved candidate promoted through this function is
+   * a fully product-ready, published profile and should be a normal
+   * directory-visible publication REGARDLESS of whether `build()` ends up
+   * computing `isMatchEligible: true` or `false` for it (that computation
+   * is independent — see `docs/checkpoints/
+   * profile-publication-vs-match-eligibility.md`). Pass `false` only for a
+   * deliberately direct-only promotion: the direct profile route remains
+   * available, but the person is excluded from the default People
+   * Directory listing AND its search (the Directory applies
+   * `PeopleFilter.directoryVisibleOnly`, which filters search results too,
+   * not just the listing) — and, separately, excluded from matching
+   * whenever `isMatchEligible === false`. Mirrors Zheng He's existing
+   * pattern. This default is intentionally different from raw `build()`'s
+   * own fallback (which mirrors `isMatchEligible` for backward
+   * compatibility with every pre-existing seed) — see `PersonSeed.
+   * directoryVisible`'s own doc comment in `builder.ts` for why the two
+   * defaults differ on purpose.
+   */
+  directoryVisible?: boolean;
+}
+
+/**
+ * The actual future candidate → production promotion path. A
+ * `generateRosterN.ts` written after this architecture should call this
+ * (not `toPersonSeed()` directly) for every allowlisted candidate.
+ *
+ * - Calls `checkPromotionReadiness(candidate)` and FAILS CLOSED (throws)
+ *   if it is not ready — a generator should never silently promote a
+ *   candidate that isn't.
+ * - NEVER checks `computedEligibility.eligible` — promotion readiness and
+ *   match eligibility are, by design, never the same check. `build()`
+ *   computes `isMatchEligible` on the returned seed independently, same as
+ *   for any other person.
+ * - Explicitly sets the intended directory visibility (default `true` —
+ *   see `PromotionOptions.directoryVisible`'s own doc comment for why this
+ *   default differs from raw `build()`'s backward-compatible fallback).
+ *
+ * Historical `generateRoster1.ts` through `generateRoster16.ts` predate
+ * this function and this architecture; they call `toPersonSeed()` directly
+ * and hard-require `status === "qa_passed"` and
+ * `computedEligibility.eligible`. They are historical, already-run,
+ * already-committed snapshots of the cycles that produced them and are
+ * deliberately NOT rewritten to use this function — do not copy their
+ * gating logic into a new generator. See `docs/adding-a-person.md` for the
+ * full future-generator pattern this function is meant to be used in.
+ */
+export function preparePersonSeedForPromotion(
+  candidate: Candidate,
+  { directoryVisible = true }: PromotionOptions = {},
+): PersonSeed {
+  const readiness = checkPromotionReadiness(candidate);
+  if (!readiness.ready) {
+    throw new Error(
+      `Candidate "${candidate.slug}" is not ready for promotion: ${readiness.reasons.join("; ")}`,
+    );
+  }
+  return { ...toPersonSeed(candidate), directoryVisible };
 }

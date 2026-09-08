@@ -87,7 +87,7 @@ export default async function ComparePage({
   const locale = localeParam as Locale;
 
   const target = personBySlug(slug);
-  if (!target || !target.isMatchEligible) {
+  if (!target) {
     return (
       <main className="tgi-container" style={{ paddingTop: "5rem", paddingBottom: "6rem" }}>
         <Stack gap={5} className="tgi-measure-stack">
@@ -96,6 +96,30 @@ export default async function ComparePage({
           <div>
             <Button size="lg" href={`/${locale}/people`}>
               {t(locale, "compare.person_not_found.cta")}
+            </Button>
+          </div>
+        </Stack>
+      </main>
+    );
+  }
+
+  // Profile-publication/match-eligibility separation: a published,
+  // directory-visible-or-not profile that simply isn't match-eligible is a
+  // real, valid profile — reaching /compare for it (a stale link, a
+  // deliberately excluded CompareCta bypassed via direct URL) should say so
+  // honestly rather than claim the person "couldn't be found". Never
+  // exposes internal terms (eligibility_v2, coverage, confidence counts).
+  if (!target.isMatchEligible) {
+    const targetName = personDisplayName(locale, target);
+    return (
+      <main className="tgi-container" style={{ paddingTop: "5rem", paddingBottom: "6rem" }}>
+        <Stack gap={5} className="tgi-measure-stack">
+          <Eyebrow>{t(locale, "site.name")}</Eyebrow>
+          <Heading level={1}>{t(locale, "compare.not_in_matching.title", { name: targetName })}</Heading>
+          <Text tone="secondary">{t(locale, "compare.not_in_matching.body")}</Text>
+          <div>
+            <Button size="lg" href={`/${locale}/people/${target.slug}`}>
+              {t(locale, "compare.not_in_matching.cta")}
             </Button>
           </div>
         </Stack>

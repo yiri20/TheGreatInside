@@ -306,9 +306,20 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
                 CTA that would just dead-end on /compare's own eligibility
                 check — the person stays fully browsable per this
                 project's "browsable but not matchable" rule, it just
-                doesn't advertise an action that can't complete. */}
+                doesn't advertise an action that can't complete.
+                Profile-publication/match-eligibility separation: rather
+                than silently omitting the CTA with no explanation, a
+                published-but-not-match-eligible profile now says so
+                honestly — see person.not_in_matching and
+                docs/checkpoints/profile-publication-vs-match-eligibility.md.
+                Never exposes internal terms (eligibility_v2, coverage,
+                confidence counts). */}
             <Cluster gap={3}>
-              {person.isMatchEligible ? <CompareCta locale={locale} slug={person.slug} /> : null}
+              {person.isMatchEligible ? (
+                <CompareCta locale={locale} slug={person.slug} />
+              ) : (
+                <Text tone="muted">{t(locale, "person.not_in_matching")}</Text>
+              )}
               {/* Stage B Part 5: priority #3 Share surface — peer
                   action to CompareCta, not gated on match eligibility
                   (every published person stays fully shareable, same

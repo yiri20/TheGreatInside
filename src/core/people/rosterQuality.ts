@@ -143,6 +143,20 @@ export interface ContentQualityResult {
  * committed to `SEED_PEOPLE`) until either more evidence is found or
  * they're rejected — never committed with filler content generated to
  * pad the page.
+ *
+ * Deliberately does NOT duplicate `eligibility_v2`'s `minScoredAttributes`
+ * (18) threshold — see
+ * `docs/checkpoints/profile-publication-vs-match-eligibility.md`. Trait
+ * *breadth* (how many attributes are scored, at what coverage/confidence)
+ * is a MATCHING concern owned exclusively by
+ * `evaluateMatchEligibility()`/`eligibility_v2`. This function guards
+ * mechanical public-page completeness only — the Trait Constellation
+ * renders correctly (a non-empty list, not literally zero cards), not
+ * that it clears the match-eligibility bar. An `evidence_approved`
+ * candidate with an honestly thin trait profile must be publishable,
+ * directory-visible, and simply non-match-eligible; gating publication on
+ * the same 18-attribute count as matching would re-couple exactly what
+ * this architecture separates.
  */
 export function meetsContentQualityFloor(person: Person): ContentQualityResult {
   const reasons: string[] = [];
@@ -153,8 +167,8 @@ export function meetsContentQualityFloor(person: Person): ContentQualityResult {
   if (person.sources.length === 0) {
     reasons.push("no sources (Sources section would be empty)");
   }
-  if (person.attributes.length < 18) {
-    reasons.push(`only ${person.attributes.length} scored attributes (Trait Constellation needs a real profile, not a sparse one)`);
+  if (person.attributes.length === 0) {
+    reasons.push("zero scored attributes (Trait Constellation would render genuinely empty)");
   }
   if (person.canonicalName.trim().length === 0) {
     reasons.push("empty canonicalName");

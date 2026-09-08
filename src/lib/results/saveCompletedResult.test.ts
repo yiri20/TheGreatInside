@@ -29,6 +29,7 @@ function makePerson(id: string): Person {
     ],
     status: "published",
     isMatchEligible: true,
+    isDirectoryVisible: true,
     overallProfileConfidence: 0.9,
     sources: [],
     doNotCopyKeys: [],

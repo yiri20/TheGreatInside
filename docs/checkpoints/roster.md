@@ -537,3 +537,23 @@ raises the target.
   `ROSTER_EXPANSION_METHOD_REQUIRES_DECISION`. Roster unaffected: still
   125 people, 124 match-eligible. Full record:
   [`roster23-broad-context-deep-evidence.md`](roster23-broad-context-deep-evidence.md).
+
+- **Profile publication vs. match eligibility — architecture separation
+  (2026-09, `feat/separate-profile-publication-match-eligibility`)**: the
+  decision `ROSTER_EXPANSION_METHOD_REQUIRES_DECISION` called for.
+  `eligibility_v2` is **not** lowered or replaced. Instead, "is this
+  evidence-backed profile good enough to publish" and "is it broad enough
+  to match" are now separately representable: a new `Person.
+  isDirectoryVisible` field (independent of `isMatchEligible`, computed to
+  mirror it for every existing profile — zero live-product change) and a
+  new `CandidateStatus: "evidence_approved"` (distinct from `qa_passed`'s
+  established, narrower "also match-eligible" meaning) let a future
+  candidate be promoted as a fully published, honestly-scored,
+  non-match-eligible profile — something `docs/adding-a-person.md`
+  already said was legitimate but `generateRosterN.ts`'s hard
+  `computedEligibility.eligible` requirement never actually allowed. A
+  non-match-eligible profile's page now explains itself honestly (EN/KO)
+  instead of silently omitting the compare CTA. Architecture-only: no
+  candidate researched/scored/promoted this cycle; roster unchanged at
+  125/124; Zheng He's existing behavior unchanged. Full record:
+  [`profile-publication-vs-match-eligibility.md`](profile-publication-vs-match-eligibility.md).

@@ -4,8 +4,46 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-08 (roster-23 broad-context deep-evidence intake,
-`feat/roster23-broad-context-deep-evidence`, unmerged, research-only —
+Last updated: 2026-09-08 (profile publication vs. match eligibility —
+architecture separation, `feat/separate-profile-publication-match-
+eligibility`, unmerged, architecture-only — the deliberate decision
+`ROSTER_EXPANSION_METHOD_REQUIRES_DECISION` called for. `eligibility_v2`
+is **not** lowered or replaced; instead, "evidence-backed profile good
+enough to publish" and "broad enough to match" are now separately
+representable. Two changes: (1) `Person.isDirectoryVisible` (new field,
+independent of `isMatchEligible`, computed to mirror it for every
+existing profile via `build()` — zero live-product change, since every
+current profile's value is mechanically identical to its
+`isMatchEligible` today) is the field that actually controls default
+People Directory visibility now (`PeopleFilter.directoryVisibleOnly`,
+new, default true; `PeopleDirectoryClient.tsx` now explicitly passes
+`matchEligibleOnly: false` and relies on this gate alone). (2)
+`CandidateStatus: "evidence_approved"` (new) represents the evidence-
+approval review outcome independently of `eligibility_v2`, distinct from
+`qa_passed`'s established, narrower "also match-eligible" historical
+meaning (no past candidate relabeled); `checkPromotionReadiness()` (new,
+`candidateSchema.ts`) is the promotion gate a future `generateRosterN.ts`
+should call, and deliberately does not check
+`computedEligibility.eligible` — every generator through roster16 hard-
+required that, contradicting `docs/adding-a-person.md`'s own
+long-standing prose that a non-eligible candidate is still a legitimate
+non-matching publish. A non-match-eligible profile's page
+(`app/[locale]/people/[slug]/page.tsx`) now shows a short honest EN/KO
+note in place of the silently-omitted compare CTA; the Compare route
+distinguishes "doesn't exist" from "exists but not match-eligible" with
+distinct honest copy, never exposing internal terms
+(`eligibility_v2`/coverage/confidence counts). Zero candidates
+researched/scored/promoted; `ELIGIBILITY_VERSION`, every threshold,
+matching weights, coverage shrinkage, dispersion, and the similarity
+formula are byte-identical; `rankMatches`/`rankSimilarPeople`/
+`TargetSwitcher`/Compare target selection still gate on `isMatchEligible`
+alone. Roster unaffected: still 125 people, 124 default-directory-visible
+(Zheng He's existing exclusion unchanged), same match-eligible set.
+Roster24 was not started. Full record:
+[`profile-publication-vs-match-eligibility.md`](../checkpoints/profile-publication-vs-match-eligibility.md).
+Prior update, 2026-09-08 (roster-23 broad-context deep-evidence intake,
+`feat/roster23-broad-context-deep-evidence`, merged to `main` as PR #20,
+merge commit `3b53868b1a48a3cddca62c16e5edc0c7bed49393`, research-only —
 tested whether a source ecosystem spanning genuinely DIFFERENT life
 contexts (not just more sources on the same public-achievement domain,
 roster22's Garibaldi limitation) would beat Garibaldi's breadth/coverage.

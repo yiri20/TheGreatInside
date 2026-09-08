@@ -464,6 +464,10 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "compare.person_not_found.title": "해당 인물을 찾을 수 없습니다",
   "compare.person_not_found.cta": "전체 인물 보기",
 
+  "compare.not_in_matching.title": "{name}은(는) 아직 매칭에 포함되지 않았습니다",
+  "compare.not_in_matching.body": "이 프로필은 실제로 존재하며 자유롭게 둘러보실 수 있지만, 기록된 근거가 성격 모델 전체를 비교하기에는 아직 충분하지 않습니다. 전체 프로필은 계속 확인하실 수 있습니다.",
+  "compare.not_in_matching.cta": "프로필 보기",
+
   "landing.eyebrow": "The Great Inside",
   "landing.title": "역사 속 누구와 생각이 닮았을까요?",
   "landing.subtitle":
@@ -748,6 +752,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.similar_people.subtitle": "전체적인 프로필이 이 사람과 닮은 사람들이에요.",
   "person.opposite_profile.subtitle": "경쟁 상대가 아니라, 살펴볼 만한 다른 프로필 형태예요.",
   "person.match_context.banner": "퀴즈 결과에서 이 프로필과 특히 {trait} 부분에서 가까운 매치가 나와 이 페이지를 보고 있어요.",
+  "person.not_in_matching": "아직 성격 매칭에 포함되지 않았습니다 — 기록된 근거가 성격 모델 전체를 다루기에는 충분하지 않습니다. 이 페이지의 다른 모든 내용은 자유롭게 확인하실 수 있습니다.",
 
   "polity.congress_poland": "회의 폴란드 (러시아 제국)",
   "polity.joseon_dynasty": "조선",

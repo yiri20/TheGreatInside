@@ -74,6 +74,25 @@ export interface PersonSeed {
   doNotCopyKeys?: string[];
   externalIdentity?: PersonExternalIdentity;
   portrait?: PersonPortrait;
+  /**
+   * See `Person.isDirectoryVisible`'s doc comment. This is `build()`'s
+   * RAW/LEGACY fallback: when omitted, mirrors whatever
+   * `evaluateMatchEligibility` computes for `isMatchEligible` on this
+   * exact seed. This exists to preserve every pre-existing seed's
+   * behavior byte-for-byte (every person committed before this field
+   * existed omits it, and must keep behaving exactly as before) — it is
+   * deliberately NOT the recommended default for a NEW candidate
+   * promotion, which should go through
+   * `src/dev/roster1000/candidateSchema.ts`'s
+   * `preparePersonSeedForPromotion()` instead. That function sets this
+   * field explicitly (default `true` — a fully product-ready published
+   * profile is a normal directory-visible publication regardless of its
+   * independently-computed match eligibility) rather than relying on this
+   * mirror-`isMatchEligible` fallback. Set this field explicitly here,
+   * directly on a `PersonSeed`, only for a hand-authored seed that isn't
+   * going through the candidate-promotion path at all.
+   */
+  directoryVisible?: boolean;
   rows: Partial<Record<AttributeId, Row>>;
 }
 
@@ -114,6 +133,7 @@ export function build(seed: PersonSeed): Person {
     attributes,
     status: "published",
     isMatchEligible: false,
+    isDirectoryVisible: false,
     overallProfileConfidence,
     sources: seed.sources,
     doNotCopyKeys: seed.doNotCopyKeys ?? [],
@@ -124,6 +144,11 @@ export function build(seed: PersonSeed): Person {
   // Eligibility is computed, never hand-set — an under-evidenced profile must
   // not be able to opt itself into matching.
   person.isMatchEligible = evaluateMatchEligibility(person).eligible;
+  // Directory visibility defaults to mirroring match eligibility (every
+  // existing profile's actual behavior before this field existed) unless a
+  // seed explicitly opts a deliberately-divergent profile in or out — see
+  // `Person.isDirectoryVisible`'s doc comment.
+  person.isDirectoryVisible = seed.directoryVisible ?? person.isMatchEligible;
   return person;
 }
 

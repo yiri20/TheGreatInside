@@ -32,25 +32,93 @@ session log to find.
    ```bash
    corepack pnpm@10 exec tsx src/dev/roster1000/validateCandidates.ts
    ```
-4. **Check `eligibility_v2`** — a candidate needs enough scored attributes,
-   average confidence, and coverage to be *match-eligible* (see
-   `CLAUDE.md`'s "Seed dataset" section for the exact floors). A candidate
-   that fails is still a legitimate addition if you want a browsable,
-   non-match-eligible profile (like Zheng He) — just be honest about it,
-   never pad scores to force a pass.
+4. **Determine evidence/profile approval, then check `eligibility_v2`
+   independently** — these are two separate questions as of the
+   profile-publication/match-eligibility architecture (see
+   `docs/checkpoints/profile-publication-vs-match-eligibility.md`):
+   - **Evidence approval** (set candidate `status` to `"evidence_approved"`,
+     or `"qa_passed"` if also match-eligible — see `CandidateStatus`'s own
+     doc comments in `candidateSchema.ts`): identity verified, sources
+     actually read, provenance honest, every row semantically supported,
+     scoring locked. This is a review outcome, never a second numeric gate
+     — do not invent a trait-count/coverage/confidence floor for it.
+   - **`eligibility_v2`** (unchanged: enough scored attributes, average
+     confidence, and coverage to be *match-eligible* — see `CLAUDE.md`'s
+     "Seed dataset" section for the exact floors) is computed independently
+     and never influences the evidence-approval decision above. A candidate
+     that is evidence-approved but fails `eligibility_v2` is still a
+     legitimate addition if you want a browsable, non-match-eligible
+     profile (like Zheng He) — just be honest about it, never pad scores to
+     force a pass, and never withhold promotion solely because
+     `eligibility_v2` failed once evidence approval is genuine.
+   - **Mechanical content-quality floor** (`meetsContentQualityFloor()`,
+     `src/core/people/rosterQuality.ts`) checks only public-page
+     completeness (non-empty `impactDomains`/`sources`/`occupationIds`/
+     `canonicalName`, and at least one scored attribute) — it does NOT
+     require 18 scored attributes. Trait-count breadth belongs to
+     `eligibility_v2` alone; a below-18, evidence-approved,
+     non-match-eligible profile is expected to pass this floor.
 5. **Run `checkScoringLockIntegrity.ts`** to confirm no previously-
    committed, already-promoted candidate file was silently edited:
    ```bash
    corepack pnpm@10 exec tsx src/dev/roster1000/checkScoringLockIntegrity.ts
    ```
 6. **Write a `generateRosterN.ts` script** promoting the new batch's
-   `qa_passed` candidates into a new `src/data/people/rosterN.ts` file.
-   Copy the most recent one (`src/dev/roster1000/generateRoster10.ts` as
-   of 2026-08) as a template — same pattern every batch has used: an
-   explicit slug allowlist (never a blanket "every qa_passed candidate"
-   filter, which would silently re-promote an earlier batch too), loads
-   from `data-pipeline/candidates/*.json`, renders each person via
-   `toPersonSeed()` + `build()`. Run it once:
+   evidence-approved candidates (`"evidence_approved"` or `"qa_passed"`
+   status — both are eligible for promotion; `isMatchEligible` in
+   production is computed independently by `build()` regardless of which)
+   into a new `src/data/people/rosterN.ts` file.
+
+   **Do NOT copy `generateRoster1.ts` through `generateRoster16.ts` as a
+   template.** Those files predate the profile-publication/match-
+   eligibility architecture (see `docs/checkpoints/
+   profile-publication-vs-match-eligibility.md`) and hard-require
+   `status === "qa_passed"` plus `computedEligibility?.eligible` — exactly
+   the coupling that architecture separates. They are historical,
+   already-run, already-committed snapshots of the cycles that produced
+   them and are deliberately left unrewritten so they stay accurate
+   records of what actually happened; do not copy their gating logic into
+   a new generator.
+
+   A new generator must instead:
+   1. Use an explicit literal slug allowlist (never a blanket "every
+      approved candidate" filter, which would silently re-promote an
+      earlier batch too).
+   2. Load the allowlisted candidates from `data-pipeline/candidates/*.json`
+      regardless of whether `status` is `"evidence_approved"` or
+      `"qa_passed"` — both are promotable.
+   3. Call `preparePersonSeedForPromotion(candidate)`
+      (`src/dev/roster1000/candidateSchema.ts`) per candidate, NOT
+      `toPersonSeed()` directly — it fails closed via
+      `checkPromotionReadiness()` and never checks
+      `computedEligibility.eligible`.
+   4. Render/persist the returned seed (including its `directoryVisible`
+      value) via `build()`, same as before.
+   5. Let `build()` compute `isMatchEligible` — never hand-set it, never
+      gate the generator's own success on its value.
+   6. Complete editorial / Korean display name / portrait / product
+      validation (steps 7-12 below) before considering the batch's PR
+      complete — `checkPromotionReadiness()` only checks candidate-JSON-
+      level preconditions: status, identity (including that
+      `identity.wikidataId` is present and, if `externalIdentity.wikidataId`
+      is also set, that the two agree), and a complete portrait record
+      (`status: "found"` plus non-empty `url`/`source`/`license`/
+      `sourcePageUrl`) — not the final rendered product. A verified
+      candidate QID is carried through into
+      `PersonSeed.externalIdentity.wikidataId` by `toPersonSeed()`
+      automatically.
+
+   A minimal sketch of the per-candidate rendering call:
+   ```ts
+   import { preparePersonSeedForPromotion } from "./candidateSchema.js";
+   import { build } from "../../data/people/builder.js";
+
+   const seed = preparePersonSeedForPromotion(candidate); // throws if not ready
+   // seed.directoryVisible is already set (default true; pass
+   // { directoryVisible: false } above for a deliberate direct-only promotion)
+   const person = build(seed); // isMatchEligible computed independently here
+   ```
+   Run the finished generator once:
    ```bash
    corepack pnpm@10 exec tsx src/dev/roster1000/generateRosterN.ts
    ```
