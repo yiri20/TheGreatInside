@@ -13,7 +13,7 @@ import { captureConsole } from "./utils/visualChecks";
  * directly in the browser rather than assumed from data-layer counts alone.
  */
 
-test("people directory default (unfiltered) view shows exactly 124 people, and Marcus Aurelius appears exactly once (en-US)", async ({
+test("people directory default (unfiltered) view shows exactly 126 people, and Marcus Aurelius appears exactly once (en-US)", async ({
   page,
 }) => {
   const console_ = captureConsole(page);
@@ -23,9 +23,13 @@ test("people directory default (unfiltered) view shows exactly 124 people, and M
   // promoted via roster14.ts, all match-eligible), then 107->115
   // (roster-15 coverage-aware intake, 8 people promoted via roster15.ts,
   // all match-eligible), then 115->124 (roster-16 final intake, 9 people
-  // promoted via roster16.ts, all match-eligible) — Marcus Aurelius's own
-  // presence and count are unaffected.
-  await expect(page.getByText(/^124 people$/)).toBeVisible();
+  // promoted via roster16.ts, all match-eligible), then 124->126 (roster24,
+  // profile-publication/match-eligibility separation's first production
+  // use: Giuseppe Garibaldi and Anton Chekhov, both directory-visible but
+  // NOT match-eligible -- the default Directory view counts directory
+  // visibility, not match eligibility) -- Marcus Aurelius's own presence
+  // and count are unaffected.
+  await expect(page.getByText(/^126 people$/)).toBeVisible();
 
   const cards = page.locator('a.tgi-personcard__link[href="/en-US/people/marcus-aurelius"]');
   await expect(cards).toHaveCount(1);

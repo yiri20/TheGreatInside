@@ -1767,6 +1767,8 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.elizabeth-cady-stanton": "엘리자베스 케이디 스탠턴",
   "person.name.john-d-rockefeller": "존 D. 록펠러",
   "person.name.bette-davis": "베티 데이비스",
+  "person.name.giuseppe-garibaldi": "주세페 가리발디",
+  "person.name.anton-chekhov": "안톤 체호프",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

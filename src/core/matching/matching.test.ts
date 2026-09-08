@@ -255,8 +255,12 @@ describe("confidence and missing data", () => {
     // now falls below the 0.6 coverage floor (0.53). This is a confirmed,
     // evidence-driven migration result, not a threshold change: no score
     // was manufactured and ELIGIBILITY.minCoverage is untouched.
+    // Also non-eligible by design (roster24, unrelated to taxonomy_v1.1):
+    // Giuseppe Garibaldi and Anton Chekhov — see the profile-publication/
+    // match-eligibility separation test above for the full rationale.
+    const knownNonEligible = new Set(["zheng-he", "giuseppe-garibaldi", "anton-chekhov"]);
     for (const p of SEED_PEOPLE) {
-      if (p.slug === "zheng-he") {
+      if (knownNonEligible.has(p.slug)) {
         expect(evaluateMatchEligibility(p).eligible, p.slug).toBe(false);
         continue;
       }
@@ -444,8 +448,15 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
   });
 
   it("marks every currently-eligible seed profile eligible under eligibility_v2 too (reproduces session 9's finding: 0 regressions)", () => {
+    // Deliberately non-match-eligible by design, not a regression: Zheng He
+    // (pre-existing) plus Giuseppe Garibaldi and Anton Chekhov (roster24,
+    // profile-publication/match-eligibility separation — evidence_approved,
+    // published, directory-visible, honestly under eligibility_v2's
+    // attribute-count/coverage floors; see
+    // docs/checkpoints/roster24-evidence-approved-publications.md).
+    const knownNonEligible = new Set(["zheng-he", "giuseppe-garibaldi", "anton-chekhov"]);
     for (const p of SEED_PEOPLE) {
-      if (p.slug === "zheng-he") {
+      if (knownNonEligible.has(p.slug)) {
         expect(evaluateMatchEligibility(p).eligible, p.slug).toBe(false);
         continue;
       }

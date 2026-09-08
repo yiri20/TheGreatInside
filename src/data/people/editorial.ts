@@ -5394,4 +5394,77 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // Roster24 (2026-09): first production use of the profile-publication/
+  // match-eligibility separation architecture. Both people below are
+  // evidence_approved, non-match-eligible, directory-visible. Editorial
+  // content drawn only from the already-audited roster22/23 candidate
+  // evidence -- see docs/checkpoints/roster24-evidence-approved-publications.md.
+  "giuseppe-garibaldi": {
+    achievements: [
+      { id: "giuseppe-garibaldi-achievement-1", textKey: "giuseppe-garibaldi.achievement.1", sourceIds: ["src_gg_trevelyan_rome", "src_gg_fuller"] },
+      { id: "giuseppe-garibaldi-achievement-2", textKey: "giuseppe-garibaldi.achievement.2", sourceIds: ["src_gg_trevelyan_making"] },
+    ],
+    moments: [
+      {
+        id: "giuseppe-garibaldi-moment-1",
+        textKey: "giuseppe-garibaldi.moment.1",
+        interpretationKey: "giuseppe-garibaldi.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_gg_fuller"],
+      },
+      { id: "giuseppe-garibaldi-moment-2", textKey: "giuseppe-garibaldi.moment.2", sourceIds: ["src_gg_autobiography", "src_gg_fuller"] },
+      { id: "giuseppe-garibaldi-moment-3", textKey: "giuseppe-garibaldi.moment.3", sourceIds: ["src_gg_autobiography"] },
+    ],
+    turningPoints: [
+      {
+        id: "giuseppe-garibaldi-turning-point-1",
+        textKey: "giuseppe-garibaldi.turning_point.1",
+        interpretationKey: "giuseppe-garibaldi.interpretation.turning_point.1",
+        attributeId: "ambiguity_tolerance",
+        sourceIds: ["src_gg_trevelyan_making"],
+      },
+      {
+        id: "giuseppe-garibaldi-turning-point-2",
+        textKey: "giuseppe-garibaldi.turning_point.2",
+        interpretationKey: "giuseppe-garibaldi.interpretation.turning_point.2",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_gg_autobiography"],
+      },
+    ],
+  },
+
+  "anton-chekhov": {
+    achievements: [
+      { id: "anton-chekhov-achievement-1", textKey: "anton-chekhov.achievement.1", sourceIds: ["src_ac_letters"] },
+      { id: "anton-chekhov-achievement-2", textKey: "anton-chekhov.achievement.2", sourceIds: ["src_ac_letters"] },
+    ],
+    moments: [
+      { id: "anton-chekhov-moment-1", textKey: "anton-chekhov.moment.1", sourceIds: ["src_ac_reminiscences"] },
+      {
+        id: "anton-chekhov-moment-2",
+        textKey: "anton-chekhov.moment.2",
+        interpretationKey: "anton-chekhov.interpretation.moment.2",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_ac_reminiscences"],
+      },
+      { id: "anton-chekhov-moment-3", textKey: "anton-chekhov.moment.3", sourceIds: ["src_ac_letters"] },
+    ],
+    turningPoints: [
+      {
+        id: "anton-chekhov-turning-point-1",
+        textKey: "anton-chekhov.turning_point.1",
+        interpretationKey: "anton-chekhov.interpretation.turning_point.1",
+        attributeId: "belief_updating",
+        sourceIds: ["src_ac_letters"],
+      },
+      {
+        id: "anton-chekhov-turning-point-2",
+        textKey: "anton-chekhov.turning_point.2",
+        interpretationKey: "anton-chekhov.interpretation.turning_point.2",
+        attributeId: "adaptability",
+        sourceIds: ["src_ac_letters"],
+      },
+    ],
+  },
 };

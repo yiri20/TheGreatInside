@@ -93,23 +93,37 @@ describe("Case 3 — published, direct-only, NOT match-eligible", () => {
 });
 
 describe("Case 4 — existing real roster behavior is unchanged", () => {
-  it("still exactly 125 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(125);
-    expect(PEOPLE_INDEX).toHaveLength(125);
+  // Roster24 (2026-09, docs/checkpoints/roster24-evidence-approved-
+  // publications.md) is the first production use of this architecture:
+  // Giuseppe Garibaldi and Anton Chekhov are evidence_approved, published,
+  // directory-visible, and honestly non-match-eligible, raising these
+  // baselines from 125/124 to 127/126. The match-eligible SET itself is
+  // byte-identical to before (see the next test) — these two are the only
+  // people whose isDirectoryVisible now diverges from isMatchEligible.
+  const KNOWN_DIVERGENT_SLUGS = new Set(["giuseppe-garibaldi", "anton-chekhov"]);
+
+  it("still exactly 127 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(127);
+    expect(PEOPLE_INDEX).toHaveLength(127);
   });
 
-  it("still exactly 124 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 126 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(124);
+    expect(visible).toHaveLength(126);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person (mechanical derivation, no manual overrides)", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT roster24's two deliberately-divergent additions", () => {
     for (const p of SEED_PEOPLE) {
+      if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
+        expect(p.isDirectoryVisible, p.slug).toBe(true);
+        expect(p.isMatchEligible, p.slug).toBe(false);
+        continue;
+      }
       expect(p.isDirectoryVisible, p.slug).toBe(p.isMatchEligible);
     }
   });
 
-  it("the match-eligible set is exactly what it was before this architecture change (124 of 125)", () => {
+  it("the match-eligible set is exactly what it was before this architecture change (124, unchanged by roster24)", () => {
     expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(124);
   });
 

@@ -2914,6 +2914,50 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's high autonomy_need and proactive_agency: the only major contracted star of her era to sue her own studio over creative control.",
   "bette-davis.interpretation.turning_point.1":
     "This is scored directly in the profile's low collaboration score with risk impact — documented from both sides of the rivalry, not softened for a more flattering profile.",
+
+  /* ---------------------------------------------------- Roster24: Giuseppe Garibaldi */
+  "giuseppe-garibaldi.achievement.1":
+    "In 1849 Garibaldi organized and led the volunteer defense of the newly declared Roman Republic against a much larger French expeditionary force sent to restore Papal rule, holding the city for weeks before leading an orderly retreat rather than surrendering once defeat became certain.",
+  "giuseppe-garibaldi.achievement.2":
+    "In 1860 Garibaldi's volunteer expedition captured Sicily and Naples from the Kingdom of the Two Sicilies; that October at Teano he ceded the conquered territory to King Victor Emmanuel II, a handover that became one of the defining moments of Italian unification.",
+  "giuseppe-garibaldi.moment.1":
+    "During the 1849 siege of Rome, the American journalist Margaret Fuller — an eyewitness present in the city — recorded that Garibaldi's volunteers wore a bright red tunic that made them \"the natural mark of the enemy,\" and that he had \"always\" worn it himself despite the risk.",
+  "giuseppe-garibaldi.moment.2":
+    "When his most trusted officers were killed defending the Janiculum hill in the final defense of Rome in 1849, Garibaldi went personally to tell the city's Assembly that further resistance was futile — an episode described both in his own memoir and in Margaret Fuller's independent eyewitness account.",
+  "giuseppe-garibaldi.moment.3":
+    "In 1862, after his own country's newly unified national army intercepted and attacked his volunteers at Aspromonte, his men were cut off from supplies and had to eat unripe potatoes raw before there was time to cook them.",
+  "giuseppe-garibaldi.turning_point.1":
+    "In October 1860, immediately after ceding his conquered territories to Victor Emmanuel II at Teano, Garibaldi learned his volunteer army was no longer required for further operations; a companion's account reproduced in a later biography describes him receiving the news with quiet, undramatic composure rather than protest.",
+  "giuseppe-garibaldi.turning_point.2":
+    "In 1862 Garibaldi was wounded and captured at Aspromonte by the army of the same unified Italian government his own campaigns had helped create, after leading volunteers toward Rome without official government sanction — a direct armed clash between his private crusade and the national project it had served.",
+  "giuseppe-garibaldi.interpretation.moment.1":
+    "This deliberate, sustained visibility under fire across a documented career of repeated wounds is the central piece of evidence behind the profile's high risk_tolerance score.",
+  "giuseppe-garibaldi.interpretation.turning_point.1":
+    "Accepting a sudden, involuntary loss of command with composure rather than protest is one specific documented instance behind the profile's ambiguity_tolerance score.",
+  "giuseppe-garibaldi.interpretation.turning_point.2":
+    "This clash illustrates the dual-edged side of the same conflict_tolerance that let him sustain his independence from allies throughout his career — here turned against the very government his campaigns helped create.",
+
+  /* -------------------------------------------------------- Roster24: Anton Chekhov */
+  "anton-chekhov.achievement.1":
+    "Chekhov practiced medicine throughout his writing career, charging modest fees of three to five roubles while treating roughly half his patients for free, and personally absorbing significant travel costs to visit patients in the countryside.",
+  "anton-chekhov.achievement.2":
+    "After the hostile 1896 premiere of The Seagull left him privately ashamed of its reception, Chekhov continued developing the play; the Moscow Art Theatre's 1898 revival succeeded where the premiere had failed and became one of the foundational productions of modern theater.",
+  "anton-chekhov.moment.1":
+    "At a social gathering, three fashionable women pressed Chekhov for his opinion on Turkish-Greek politics; he deflected by saying \"I love candied fruits… don't you?\" — after which, by his friend Maxim Gorky's account, all three began talking with animated interest about confectionery instead.",
+  "anton-chekhov.moment.2":
+    "According to his friend Alexander Kuprin, despite keeping regular working hours in his study each morning, \"nobody ever managed to find him writing: in this respect he was extraordinarily reserved and shy.\"",
+  "anton-chekhov.moment.3":
+    "In an 1886 letter, Chekhov gave his troubled younger brother Nikolay specific, structured moral advice — respecting others' personhood, honoring debts, being sincere — rather than a vague scolding.",
+  "anton-chekhov.turning_point.1":
+    "In 1886 the established writer Dmitry Grigorovich's encouragement prompted Chekhov to change how he approached his craft, moving from what he later called careless, \"mechanical\" writing done \"in the bathing-shed\" to a deliberately serious practice.",
+  "anton-chekhov.turning_point.2":
+    "The hostile reception of The Seagull's 1896 premiere left him privately ashamed and \"vexed\"; his own letters describe recovering his emotional footing specifically after a friend's reassuring letter, rather than simply through time alone.",
+  "anton-chekhov.interpretation.moment.2":
+    "This documented reserve about his own private process is the central evidence behind the profile's autonomy_need score.",
+  "anton-chekhov.interpretation.turning_point.1":
+    "This documented shift, tied to a specific outside intervention rather than a gradual change of mind, is one instance behind the profile's belief_updating score.",
+  "anton-chekhov.interpretation.turning_point.2":
+    "Recovering specifically after a friend's letter, not merely \"over time,\" is the documented basis for the profile's adaptability score being scored dual_edged rather than a simple strength.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -5681,6 +5725,50 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 이 프로필의 높은 자율성 욕구와 주도적 행위성과 부합한다 — 창작 통제권을 두고 자신의 스튜디오를 상대로 소송을 제기한 그 시대의 유일한 주요 전속 스타였다.",
   "bette-davis.interpretation.turning_point.1":
     "이는 이 프로필에서 위험 요소를 지닌 낮은 협업 점수로 직접 반영되어 있다 — 경쟁 관계의 양쪽 모두로부터 뒷받침되며, 더 나은 인상을 위해 완화되지 않았다.",
+
+  /* ---------------------------------------------------- Roster24: Giuseppe Garibaldi */
+  "giuseppe-garibaldi.achievement.1":
+    "1849년, 가리발디는 교황령을 회복하려는 훨씬 더 큰 규모의 프랑스 원정군에 맞서 새로 선포된 로마 공화국의 의용군 방어를 조직하고 이끌었다. 몇 주간 도시를 지켜냈고, 패배가 확실해지자 항복 대신 질서 있는 퇴각을 이끌었다.",
+  "giuseppe-garibaldi.achievement.2":
+    "1860년 가리발디의 의용군 원정대는 양시칠리아 왕국으로부터 시칠리아와 나폴리를 점령했다. 그해 10월 테아노에서 그는 정복한 영토를 비토리오 에마누엘레 2세 국왕에게 넘겨주었는데, 이는 이탈리아 통일의 결정적 순간 중 하나가 되었다.",
+  "giuseppe-garibaldi.moment.1":
+    "1849년 로마 공방전 당시, 그 도시에 있던 미국인 언론인 마거릿 풀러는 목격자로서 가리발디 의용군들이 '적의 자연스러운 표적'이 되는 밝은 빨간색 튜닉을 입었으며, 그 위험에도 불구하고 그 자신도 '항상' 그 옷을 입었다고 기록했다.",
+  "giuseppe-garibaldi.moment.2":
+    "1849년 로마 최후 방어전에서 자니콜로 언덕을 지키던 가장 신뢰하는 장교들이 전사하자, 가리발디는 직접 로마 의회로 가서 더 이상의 저항은 무의미하다고 알렸다 — 이 일화는 그의 회고록과 마거릿 풀러의 독립적인 목격담 양쪽에 모두 기록되어 있다.",
+  "giuseppe-garibaldi.moment.3":
+    "1862년, 새로 통일된 자국 정부군이 아스프로몬테에서 그의 의용군을 가로막고 공격했을 때, 그의 부대는 보급이 끊긴 채 익지 않은 감자를 익힐 시간도 없이 날로 먹어야 했다.",
+  "giuseppe-garibaldi.turning_point.1":
+    "1860년 10월, 테아노에서 정복한 영토를 비토리오 에마누엘레 2세에게 넘긴 직후, 가리발디는 자신의 의용군이 더 이상 작전에 필요하지 않다는 사실을 알게 되었다. 후대 전기에 인용된 한 동료의 기록에 따르면, 그는 항의 대신 담담하고 절제된 태도로 그 소식을 받아들였다.",
+  "giuseppe-garibaldi.turning_point.2":
+    "1862년 가리발디는 정부의 공식 승인 없이 로마를 향해 의용군을 이끌다가, 자신이 세우는 데 일조했던 바로 그 통일 이탈리아 정부의 군대에 의해 아스프로몬테에서 부상당하고 붙잡혔다 — 그의 개인적인 대의와 그것이 봉사했던 국가적 기획이 정면으로 충돌한 사건이었다.",
+  "giuseppe-garibaldi.interpretation.moment.1":
+    "총격 속에서도 눈에 띄는 옷차림을 고수하며 거듭 부상당했던 이 지속적인 이력은 프로필의 높은 위험 감수성(risk_tolerance) 점수를 뒷받침하는 핵심 근거다.",
+  "giuseppe-garibaldi.interpretation.turning_point.1":
+    "갑작스럽고 비자발적인 지휘권 상실을 항의 없이 담담하게 받아들인 이 사례는 프로필의 모호성 감내(ambiguity_tolerance) 점수를 뒷받침하는 구체적인 기록이다.",
+  "giuseppe-garibaldi.interpretation.turning_point.2":
+    "이 충돌은 그가 평생 동맹들로부터 독립성을 지켜온 것과 같은 갈등 감내(conflict_tolerance) 성향이, 이번에는 그의 원정이 세우는 데 일조한 바로 그 정부를 향해 발현된 양면적 사례를 보여준다.",
+
+  /* -------------------------------------------------------- Roster24: Anton Chekhov */
+  "anton-chekhov.achievement.1":
+    "체호프는 작가로 활동하는 내내 의사로도 일했다. 진료비로 3~5루블의 적은 금액만 받았고 환자의 절반가량은 무료로 치료했으며, 시골 환자를 왕진하는 데 드는 상당한 교통비를 직접 부담했다.",
+  "anton-chekhov.achievement.2":
+    "1896년 『갈매기』의 초연이 혹평 속에 실패하여 그는 사적으로 크게 부끄러워했지만, 그는 계속 이 작품을 다듬어 나갔다. 1898년 모스크바 예술극장의 재상연은 초연의 실패를 뒤집는 성공을 거두었고, 이는 현대 연극의 기초를 놓은 공연 중 하나가 되었다.",
+  "anton-chekhov.moment.1":
+    "한 사교 모임에서 세 명의 상류층 여성이 튀르크-그리스 정치에 대한 그의 견해를 캐묻자, 체호프는 '저는 설탕에 절인 과일을 좋아합니다… 당신들은요?'라는 말로 화제를 돌렸다. 그의 친구 막심 고리키의 기록에 따르면, 그러자 세 사람 모두 과일 이야기에 활기차게 몰두하기 시작했다.",
+  "anton-chekhov.moment.2":
+    "그의 친구 알렉산드르 쿠프린에 따르면, 체호프는 매일 아침 서재에서 규칙적으로 작업했음에도 '아무도 그가 글 쓰는 모습을 본 적이 없을 만큼, 이 점에 있어서는 유난히 내성적이고 수줍어했다.'",
+  "anton-chekhov.moment.3":
+    "1886년의 한 편지에서 체호프는 방황하던 남동생 니콜라이에게 막연한 훈계가 아니라, 타인의 인격을 존중할 것, 빚을 갚을 것, 진실할 것 등 구체적이고 체계적인 도덕적 조언을 건넸다.",
+  "anton-chekhov.turning_point.1":
+    "1886년, 이미 저명한 작가였던 드미트리 그리고로비치의 격려를 계기로 체호프는 글쓰기에 대한 태도를 바꾸었다. 그는 이전까지 '탈의막에서' 쓰듯 부주의하고 '기계적'이었다고 스스로 표현했던 방식에서, 진지한 창작 태도로 옮겨갔다.",
+  "anton-chekhov.turning_point.2":
+    "1896년 『갈매기』 초연의 혹평은 그를 사적으로 부끄럽고 '속상하게' 만들었다. 그 자신의 편지에 따르면, 그는 단순히 시간이 지나서가 아니라 한 친구의 위로 편지를 받은 뒤에야 비로소 마음의 평정을 되찾았다.",
+  "anton-chekhov.interpretation.moment.2":
+    "자신의 작업 과정에 대해 기록으로 확인되는 이러한 내성적 태도는 프로필의 자율성 욕구(autonomy_need) 점수를 뒷받침하는 핵심 근거다.",
+  "anton-chekhov.interpretation.turning_point.1":
+    "점진적인 마음의 변화가 아니라 특정한 외부 계기와 맞물린 이 변화는 프로필의 신념 수정(belief_updating) 점수를 뒷받침하는 사례다.",
+  "anton-chekhov.interpretation.turning_point.2":
+    "'시간이 지나서'가 아니라 친구의 편지를 받은 뒤에야 회복되었다는 기록은, 프로필의 적응력(adaptability) 점수가 단순한 강점이 아니라 양면적으로 평가된 근거임을 보여준다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

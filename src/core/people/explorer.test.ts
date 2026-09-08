@@ -67,10 +67,16 @@ describe("filterPeople", () => {
     expect(withIneligible).toHaveLength(SEED_PEOPLE.filter((p) => p.isDirectoryVisible).length);
   });
 
-  it("defaults to directory-visible people only, independent of matchEligibleOnly", () => {
+  it("with no overrides, applies BOTH default-true gates (match-eligible AND directory-visible)", () => {
+    // Before roster24, every person's isDirectoryVisible mirrored
+    // isMatchEligible, so this coincidentally equaled "directory-visible
+    // people only" too. Roster24 (Giuseppe Garibaldi, Anton Chekhov:
+    // directory-visible but NOT match-eligible) exposed that the real
+    // default behavior is the intersection of both gates, not
+    // directory-visibility alone — see PeopleFilter's own doc comments.
     const result = filterPeople(SEED_PEOPLE, {});
-    expect(result.every((p) => p.isDirectoryVisible)).toBe(true);
-    expect(result).toHaveLength(SEED_PEOPLE.filter((p) => p.isDirectoryVisible).length);
+    expect(result.every((p) => p.isDirectoryVisible && p.isMatchEligible)).toBe(true);
+    expect(result).toHaveLength(SEED_PEOPLE.filter((p) => p.isDirectoryVisible && p.isMatchEligible).length);
   });
 
   it("can include directory-hidden profiles when explicitly asked, independent of match eligibility", () => {
