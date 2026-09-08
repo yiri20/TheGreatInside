@@ -2762,8 +2762,8 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     archetypeIds: ["scientific_explorer"],
     isMatchEligible: false,
     isDirectoryVisible: true,
-    overallProfileConfidence: 0.49769230769230777,
-    attributes: [["persistence", 82, 0.58, "advantage"], ["conflict_tolerance", 75, 0.58, "dual_edged"], ["adaptability", 80, 0.56, "advantage"], ["mastery_orientation", 78, 0.55, "advantage"], ["discipline", 82, 0.56, "advantage"], ["independent_thinking", 68, 0.5, "advantage"], ["leadership_drive", 68, 0.5, "advantage"], ["resourcefulness", 62, 0.45, "advantage"], ["social_assertiveness", 45, 0.4, "neutral"], ["risk_tolerance", 62, 0.45, "dual_edged"], ["collaboration", 55, 0.4, "advantage"], ["impact_motivation", 58, 0.42, "advantage"], ["achievement_drive", 78, 0.52, "advantage"]],
+    overallProfileConfidence: 0.5015384615384616,
+    attributes: [["persistence", 82, 0.58, "advantage"], ["conflict_tolerance", 75, 0.58, "dual_edged"], ["adaptability", 80, 0.56, "advantage"], ["mastery_orientation", 78, 0.6, "advantage"], ["discipline", 82, 0.56, "advantage"], ["independent_thinking", 68, 0.5, "advantage"], ["leadership_drive", 68, 0.5, "advantage"], ["resourcefulness", 62, 0.45, "advantage"], ["social_assertiveness", 45, 0.4, "neutral"], ["risk_tolerance", 62, 0.45, "dual_edged"], ["collaboration", 55, 0.4, "advantage"], ["impact_motivation", 58, 0.42, "advantage"], ["achievement_drive", 78, 0.52, "advantage"]],
     portraitUrl: "/portraits/subrahmanyan-chandrasekhar-aip.jpg",
   },
   {
@@ -2783,8 +2783,8 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     archetypeIds: ["scientific_explorer"],
     isMatchEligible: false,
     isDirectoryVisible: true,
-    overallProfileConfidence: 0.5000000000000001,
-    attributes: [["curiosity", 78, 0.58, "advantage"], ["independent_thinking", 78, 0.58, "advantage"], ["conflict_tolerance", 72, 0.55, "advantage"], ["social_assertiveness", 68, 0.52, "advantage"], ["mastery_orientation", 82, 0.6, "advantage"], ["collaboration", 74, 0.55, "advantage"], ["leadership_drive", 65, 0.48, "advantage"], ["impact_motivation", 75, 0.55, "advantage"], ["adaptability", 65, 0.48, "advantage"], ["resourcefulness", 70, 0.5, "advantage"], ["opportunity_sensing", 68, 0.5, "advantage"], ["risk_tolerance", 60, 0.45, "dual_edged"], ["autonomy_need", 62, 0.45, "advantage"], ["deep_focus", 65, 0.46, "advantage"], ["ambiguity_tolerance", 62, 0.45, "advantage"], ["persuasiveness", 55, 0.4, "advantage"], ["cross_domain_range", 58, 0.42, "advantage"], ["discipline", 58, 0.42, "advantage"], ["achievement_drive", 80, 0.56, "advantage"]],
+    overallProfileConfidence: 0.5036842105263158,
+    attributes: [["curiosity", 78, 0.65, "advantage"], ["independent_thinking", 78, 0.58, "advantage"], ["conflict_tolerance", 72, 0.55, "advantage"], ["social_assertiveness", 68, 0.52, "advantage"], ["mastery_orientation", 82, 0.6, "advantage"], ["collaboration", 74, 0.55, "advantage"], ["leadership_drive", 65, 0.48, "advantage"], ["impact_motivation", 75, 0.55, "advantage"], ["adaptability", 65, 0.48, "advantage"], ["resourcefulness", 70, 0.5, "advantage"], ["opportunity_sensing", 68, 0.5, "advantage"], ["risk_tolerance", 60, 0.45, "dual_edged"], ["autonomy_need", 62, 0.45, "advantage"], ["deep_focus", 65, 0.46, "advantage"], ["ambiguity_tolerance", 62, 0.45, "advantage"], ["persuasiveness", 55, 0.4, "advantage"], ["cross_domain_range", 58, 0.42, "advantage"], ["discipline", 58, 0.42, "advantage"], ["achievement_drive", 80, 0.56, "advantage"]],
     portraitUrl: "/portraits/vera-rubin-godfrey-aip-1985.jpg",
   }
 ];
