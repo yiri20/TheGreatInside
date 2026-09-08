@@ -1,5 +1,58 @@
 # Architecture decision: profile publication vs. match eligibility
 
+## Correction 2 (hidden-coupling cleanup pass, same PR)
+
+A final pre-merge review found the architecture above was still not fully
+wired: three residual couplings would have blocked exactly the scenario
+this document exists to enable. All fixed, no roster/scoring/candidate JSON
+changed:
+
+1. **`meetsContentQualityFloor()` independently required 18 scored
+   attributes** (`src/core/people/rosterQuality.ts`) — the exact same
+   number as `eligibility_v2.minScoredAttributes`, but as a PUBLICATION
+   gate. An evidence-approved, honestly-thin (<18-attribute) candidate
+   could pass promotion readiness and still never be committable, because
+   this separate gate silently re-imposed the matching threshold on
+   publication. Fixed: the floor now only rejects a genuinely empty
+   trait profile (`attributes.length === 0`); trait-count *breadth*
+   belongs exclusively to `eligibility_v2`. Proven by a new
+   `candidateSchema.test.ts` case that runs a synthetic 3-attribute
+   candidate through the real `preparePersonSeedForPromotion()` →
+   `build()` → `meetsContentQualityFloor()` path end-to-end.
+2. **`toPersonSeed()` silently dropped a verified candidate QID** whenever
+   `candidate.externalIdentity` wasn't already set, even though
+   `checkPromotionReadiness()` requires `identity.wikidataId`. Fixed:
+   `toPersonSeed()` now always carries `identity.wikidataId` into
+   `PersonSeed.externalIdentity.wikidataId`, preserving any existing
+   `externalIdentity` fields (e.g. `wikipediaUrls`).
+   `checkPromotionReadiness()` additionally fails closed if
+   `identity.wikidataId` and a pre-existing `externalIdentity.wikidataId`
+   disagree (an identity-integrity error, never silently resolved).
+3. **Portrait promotion readiness accepted `{ status: "found" }` alone**,
+   with every other portrait field optional — a malformed record could
+   pass readiness and then have `toPersonSeed()` silently omit the
+   portrait. Fixed: `checkPromotionReadiness()` now also requires
+   non-empty `url`/`source`/`license`/`sourcePageUrl` whenever
+   `status === "found"` (the candidate schema already documented
+   `sourcePageUrl` as required in this case; it is now enforced, not just
+   documented).
+
+Also corrected: `PromotionOptions.directoryVisible`'s doc comment
+described `directoryVisible: false` as merely "excluded from the default
+listing" — imprecise, since the Directory's search also passes through
+`directoryVisibleOnly` (`src/core/people/explorer.ts`). Reworded to state
+plainly that the direct profile route stays reachable while both the
+default listing and search exclude the profile, and matching separately
+excludes it whenever `isMatchEligible === false`.
+
+A narrowly-scoped repository search for other `18`/`minScoredAttributes`/
+`computedEligibility.eligible` uses found nothing else acting as a
+publication gate: `similarity.ts`/`matching.test.ts` are the legitimate
+matching-only home for the threshold; historical `generateRoster1.ts`
+through `generateRoster16.ts` and `session18Isolation.test.ts` are
+unmodified historical snapshots/fixture checks, left as-is per this
+document's existing "Correction" note above.
+
 ## Correction (post-review completion pass, same PR)
 
 A review of the initial version of this PR found the architecture was

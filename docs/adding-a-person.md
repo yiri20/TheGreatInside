@@ -51,6 +51,13 @@ session log to find.
      profile (like Zheng He) — just be honest about it, never pad scores to
      force a pass, and never withhold promotion solely because
      `eligibility_v2` failed once evidence approval is genuine.
+   - **Mechanical content-quality floor** (`meetsContentQualityFloor()`,
+     `src/core/people/rosterQuality.ts`) checks only public-page
+     completeness (non-empty `impactDomains`/`sources`/`occupationIds`/
+     `canonicalName`, and at least one scored attribute) — it does NOT
+     require 18 scored attributes. Trait-count breadth belongs to
+     `eligibility_v2` alone; a below-18, evidence-approved,
+     non-match-eligible profile is expected to pass this floor.
 5. **Run `checkScoringLockIntegrity.ts`** to confirm no previously-
    committed, already-promoted candidate file was silently edited:
    ```bash
@@ -92,8 +99,14 @@ session log to find.
    6. Complete editorial / Korean display name / portrait / product
       validation (steps 7-12 below) before considering the batch's PR
       complete — `checkPromotionReadiness()` only checks candidate-JSON-
-      level preconditions (status, identity, portrait record), not the
-      final rendered product.
+      level preconditions: status, identity (including that
+      `identity.wikidataId` is present and, if `externalIdentity.wikidataId`
+      is also set, that the two agree), and a complete portrait record
+      (`status: "found"` plus non-empty `url`/`source`/`license`/
+      `sourcePageUrl`) — not the final rendered product. A verified
+      candidate QID is carried through into
+      `PersonSeed.externalIdentity.wikidataId` by `toPersonSeed()`
+      automatically.
 
    A minimal sketch of the per-candidate rendering call:
    ```ts

@@ -275,8 +275,29 @@ export function checkPromotionReadiness(candidate: Candidate): PromotionReadines
   }
   if (!candidate.identity?.canonicalName) reasons.push("missing identity.canonicalName");
   if (!candidate.identity?.wikidataId) reasons.push("missing identity.wikidataId");
+  // Identity-integrity: if both the reviewed candidate identity and a
+  // pre-existing externalIdentity carry a QID, they must agree. A silent
+  // pick-one would be an unnoticed identity error, not a value to merge —
+  // fail closed instead. See `toPersonSeed()` for the (non-conflicting)
+  // QID-propagation this guards.
+  if (
+    candidate.identity?.wikidataId &&
+    candidate.externalIdentity?.wikidataId &&
+    candidate.identity.wikidataId !== candidate.externalIdentity.wikidataId
+  ) {
+    reasons.push(
+      `identity.wikidataId ("${candidate.identity.wikidataId}") disagrees with externalIdentity.wikidataId ("${candidate.externalIdentity.wikidataId}")`,
+    );
+  }
   if (!candidate.portrait || candidate.portrait.status !== "found") {
     reasons.push("no product-ready portrait (portrait.status must be \"found\")");
+  } else {
+    if (!candidate.portrait.url) reasons.push("portrait.status is \"found\" but portrait.url is missing");
+    if (!candidate.portrait.source) reasons.push("portrait.status is \"found\" but portrait.source is missing");
+    if (!candidate.portrait.license) reasons.push("portrait.status is \"found\" but portrait.license is missing");
+    if (!candidate.portrait.sourcePageUrl) {
+      reasons.push("portrait.status is \"found\" but portrait.sourcePageUrl is missing");
+    }
   }
   return { ready: reasons.length === 0, reasons };
 }
@@ -306,6 +327,23 @@ export function toPersonSeed(candidate: Candidate): PersonSeed {
     rows[attributeId] = [row.score, row.confidence, EV_CODE[row.evidenceType], IM_CODE[row.impact]];
   }
 
+  // Preserve the verified candidate identity QID into production
+  // externalIdentity — `checkPromotionReadiness()` requires
+  // `identity.wikidataId`, but until this merge it was only ever carried
+  // forward when a candidate happened to also have an `externalIdentity`
+  // object already, silently dropping the QID otherwise. Any existing
+  // `externalIdentity` fields (e.g. `wikipediaUrls`) are preserved as-is;
+  // `identity.wikidataId` wins only when set, and never overwrites an
+  // agreeing existing value with a different one (readiness already fails
+  // closed on disagreement).
+  const externalIdentity =
+    candidate.identity.wikidataId !== undefined || candidate.externalIdentity !== undefined
+      ? {
+          ...candidate.externalIdentity,
+          ...(candidate.identity.wikidataId !== undefined ? { wikidataId: candidate.identity.wikidataId } : {}),
+        }
+      : undefined;
+
   return {
     id: `p_${candidate.slug.replace(/-/g, "_")}`,
     slug: candidate.slug,
@@ -327,7 +365,7 @@ export function toPersonSeed(candidate: Candidate): PersonSeed {
     archetypeIds: candidate.classification.archetypeIds,
     sources: candidate.sources,
     ...(candidate.doNotCopyKeys ? { doNotCopyKeys: candidate.doNotCopyKeys } : {}),
-    ...(candidate.externalIdentity ? { externalIdentity: candidate.externalIdentity } : {}),
+    ...(externalIdentity ? { externalIdentity } : {}),
     ...(candidate.portrait?.status === "found" && candidate.portrait.url && candidate.portrait.source && candidate.portrait.license
       ? {
           portrait: {
@@ -359,8 +397,12 @@ export interface PromotionOptions {
    * computing `isMatchEligible: true` or `false` for it (that computation
    * is independent — see `docs/checkpoints/
    * profile-publication-vs-match-eligibility.md`). Pass `false` only for a
-   * deliberately direct-only promotion (browsable via direct link/search,
-   * excluded from the default listing), mirroring Zheng He's existing
+   * deliberately direct-only promotion: the direct profile route remains
+   * available, but the person is excluded from the default People
+   * Directory listing AND its search (the Directory applies
+   * `PeopleFilter.directoryVisibleOnly`, which filters search results too,
+   * not just the listing) — and, separately, excluded from matching
+   * whenever `isMatchEligible === false`. Mirrors Zheng He's existing
    * pattern. This default is intentionally different from raw `build()`'s
    * own fallback (which mirrors `isMatchEligible` for backward
    * compatibility with every pre-existing seed) — see `PersonSeed.

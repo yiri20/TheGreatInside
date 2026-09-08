@@ -3,6 +3,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 import { SEED_PEOPLE } from "../../data/people/seed.js";
+import { evaluateMatchEligibility } from "../matching/similarity.js";
 import {
   findDuplicates,
   meetsContentQualityFloor,
@@ -117,11 +118,46 @@ describe("rosterQuality gates catch real defects (mechanical checks, not evidenc
     expect(result.reasons.some((r) => r.includes("impactDomains"))).toBe(true);
   });
 
-  it("catches a sparse profile below 18 scored attributes", () => {
-    const broken = { ...base, attributes: base.attributes.slice(0, 5) };
+  it("catches zero scored attributes (Trait Constellation would render genuinely empty)", () => {
+    const broken = { ...base, attributes: [] };
     const result = meetsContentQualityFloor(broken);
     expect(result.meetsFloor).toBe(false);
-    expect(result.reasons.some((r) => r.includes("scored attributes"))).toBe(true);
+    expect(result.reasons.some((r) => r.includes("zero scored attributes"))).toBe(true);
+  });
+});
+
+/**
+ * Publication-vs-match-eligibility separation (2026-09,
+ * `feat/separate-profile-publication-match-eligibility`) — proves
+ * `meetsContentQualityFloor()` no longer duplicates `eligibility_v2`'s
+ * 18-attribute threshold. See
+ * `docs/checkpoints/profile-publication-vs-match-eligibility.md`.
+ */
+describe("publication vs match eligibility — content-quality floor does not duplicate the 18-attribute matching threshold", () => {
+  const base = SEED_PEOPLE[0]!;
+
+  it("CASE 1 — zero attributes still fail public-page content quality", () => {
+    const zeroAttributes = { ...base, attributes: [] };
+    expect(meetsContentQualityFloor(zeroAttributes).meetsFloor).toBe(false);
+  });
+
+  it("CASE 2 — a below-18-attribute profile passes content quality but fails match eligibility", () => {
+    // Synthetic, otherwise-valid person with 14 scored attributes —
+    // deliberately below eligibility_v2's minScoredAttributes (18). Not a
+    // real production person; existing content-quality-relevant fields
+    // (impactDomains/sources/occupationIds/canonicalName) are kept intact
+    // from `base` so only the attribute count differs.
+    const thin = { ...base, attributes: base.attributes.slice(0, 14) };
+    expect(thin.attributes.length).toBe(14);
+    expect(meetsContentQualityFloor(thin).meetsFloor).toBe(true);
+    expect(evaluateMatchEligibility(thin).eligible).toBe(false);
+  });
+
+  it("CASE 3 — runRosterQualityGates reports the same below-18 profile as content-quality-clean but not match-eligible", () => {
+    const thin = { ...base, id: "synthetic_thin_test_person", attributes: base.attributes.slice(0, 14) };
+    const report = runRosterQualityGates([thin]);
+    expect(report.contentQualityFailures.some((f) => f.personId === thin.id)).toBe(false);
+    expect(report.eligibility[0]!.report.eligible).toBe(false);
   });
 });
 
