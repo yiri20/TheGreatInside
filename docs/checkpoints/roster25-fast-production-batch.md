@@ -24,17 +24,30 @@ cycle: `eligibility_v2` was not touched, and no row was added anywhere.
 
 ## Corrections
 
-**Two `RUBRIC_CORRECTION`s, both the same violation type**: a single-source
-score had drifted into the 85+ ("extreme") band, which
-`docs/scoring-rubric-v1.md` §4 reserves for claims independently
-documented by *more than one source*. Both corrected to the top of the
-71-84 band with `evidenceType` downgraded to `strong_inference`:
-- Vera Rubin `curiosity`: 88/documented (single source: her own memoir) → 78/strong_inference.
-- Subrahmanyan Chandrasekhar `mastery_orientation`: 85/documented (single source: the NAS memoir only, not corroborated by the Wali-biography review) → 78/strong_inference.
+**Two `RUBRIC_CORRECTION`s, both the same violation type, both SCORE-BAND
+corrections only**: a single-source score had drifted into the 85+
+("extreme") band, which `docs/scoring-rubric-v1.md` §4 reserves for
+claims independently documented by *more than one source*. §4 governs
+score extremity; it does not itself reclassify the evidence — §2's
+`documented` definition (a specific, attributable, directly-quoted
+account of a concrete behavior from a reputable source) is satisfied by
+this evidence independent of source count, and §3 explicitly places "one
+strong documented instance" in the 0.65-0.84 confidence band. So only the
+score moved; `evidenceType`/`confidence` are unchanged from the original
+scoring (an earlier pass through this same correction briefly downgraded
+both to `strong_inference` before this was caught and reverted as
+conflating the score-extremity rule with the evidence-classification
+rule — see the row rationale's own "score-band correction only" note):
+- Vera Rubin `curiosity`: 88 → **78**; confidence 0.65 and evidenceType `documented` unchanged.
+- Subrahmanyan Chandrasekhar `mastery_orientation`: 85 → **78**; confidence 0.60 and evidenceType `documented` unchanged.
 
 Neither correction was reactive to eligibility — both candidates remain
 non-eligible before and after, by a wide margin (Rubin 19/0.571 coverage,
-Chandrasekhar 13/0.400 coverage, both far under the 18/0.6 floors).
+Chandrasekhar 13/0.400 coverage, both far under the 18/0.6 floors), and
+the score change alone does not affect `scoredAttributeCount` or
+`coverage`; both candidates' `computedEligibility` snapshots recomputed
+identically to their pre-roster25 values (Rubin avgConf 0.504,
+Chandrasekhar avgConf 0.502).
 
 No corrections were needed for Bly, Jung, Nansen, or Bird — mechanical row
 review found no semantic mismatches, unsupported extremes, or improperly
@@ -167,6 +180,29 @@ near-identical files.
   render with correct attribution, honest non-matching note shows only
   for the four non-eligible people, "Take the Quiz to Compare" shows
   normally for Bly/Jung, zero console errors.
+
+## Follow-up correction (same PR): score-band vs. evidence-classification
+
+A review after the initial commit found the two `RUBRIC_CORRECTION`s had
+conflated two separate rubric questions: §4's score-extremity rule (how
+many sources are needed to justify an 85+ score) was applied as if it
+also answered §2's evidence-classification question (whether a row
+counts as `documented`). It doesn't — a concrete, directly-quoted,
+attributable account stays `documented` regardless of how many sources
+report it; source count only caps how *extreme* a score built on it may
+be. Corrected: both rows keep their capped scores (Rubin `curiosity` 78,
+Chandrasekhar `mastery_orientation` 78) with `evidenceType`/`confidence`
+restored to `documented`/0.65 and `documented`/0.60 respectively — their
+original, pre-correction values, unchanged by anything other than the
+score itself. Verified this has zero rendered-product effect: the UI's
+confidence display buckets at ≤0.499/≤0.749/above
+(`src/ui/lib/display.ts`), and 0.58→0.65 and 0.55→0.60 both stay inside
+the same "moderate" bucket the original strong_inference values were
+also in — no Playwright/build rerun was needed. `computedEligibility`
+recomputed identically to the pre-roster25 snapshot for both candidates
+(confirming the score change alone doesn't touch `scoredAttributeCount`
+or `coverage`), so no dataset artifact (dispersion, calibration) required
+regeneration either.
 
 ## Final counts
 

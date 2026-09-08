@@ -65,10 +65,10 @@
     },
     "mastery_orientation": {
       "score": 78,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "confidence": 0.6,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "RUBRIC_CORRECTION (roster25 audit, 2026-09): sustained pattern of producing one authoritative monograph per research phase across a nearly 60-year career (stellar structure, stellar dynamics, radiative transfer, hydrodynamic stability, ellipsoidal figures, black holes, and finally a critical commentary on Newton's Principia at age 84) -- an independently verifiable bibliographic record, not a general reputation for brilliance. Originally scored 85/documented; corrected to 78/strong_inference because this record is described by only one of the two sources (the NAS memoir; the Wali-biography review does not corroborate it), and scoring_rubric_v1 Section 4 requires multiple independent documented instances from more than one source for an 85+ score -- capped at 71-84 with evidenceType strong_inference given the single source."
+      "rationale": "RUBRIC_CORRECTION (roster25 audit, 2026-09; score-band correction only, refined 2026-09-08): sustained pattern of producing one authoritative monograph per research phase across a nearly 60-year career (stellar structure, stellar dynamics, radiative transfer, hydrodynamic stability, ellipsoidal figures, black holes, and finally a critical commentary on Newton's Principia at age 84) -- an independently verifiable bibliographic record, not a general reputation for brilliance. Originally scored 85/documented; corrected to 78 because scoring_rubric_v1 Section 4 reserves the 85+ band for multiple independent documented instances from MORE THAN ONE SOURCE, and this record is described by only one of the two sources consulted (the NAS memoir; the Wali-biography review does not corroborate it) -- the score is capped to the 71-84 'clear, well-evidenced pattern' band regardless of source count. This is a score-band correction only: Section 2's `documented` definition remains satisfied by this specific, independently verifiable bibliographic record, and Section 3 explicitly places 'one strong documented instance' in the 0.65-0.84 confidence band; nothing about the evidence itself was weakened, so evidenceType and confidence are unchanged from the original scoring at documented/0.60. Only the score moved."
     },
     "discipline": {
       "score": 82,

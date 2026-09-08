@@ -44,10 +44,10 @@
   "rows": {
     "curiosity": {
       "score": 78,
-      "confidence": 0.58,
-      "evidenceType": "strong_inference",
+      "confidence": 0.65,
+      "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "RUBRIC_CORRECTION (roster25 audit, 2026-09): Rubin's own memoir documents a sustained childhood pattern of specific, unprompted physical questions (why the moon seemed to follow the car, how water knew which side of a rock to pass) that she says never diminished, still 'no less' 80 years later -- a specific, dated, self-described lifelong pattern, not a general reputation. Originally scored 88/documented; corrected to 78/strong_inference because this rests on a single source (her own autobiography) and scoring_rubric_v1 Section 4 requires multiple independent documented instances from more than one source for an 85+ score -- a single source's account, however sustained the described pattern, caps at the 71-84 band with evidenceType strong_inference or inference, not documented."
+      "rationale": "RUBRIC_CORRECTION (roster25 audit, 2026-09; score-band correction only, refined 2026-09-08): Rubin's own memoir documents a sustained childhood pattern of specific, unprompted physical questions (why the moon seemed to follow the car, how water knew which side of a rock to pass) that she says never diminished, still 'no less' 80 years later -- a specific, dated, self-described lifelong pattern, not a general reputation. Originally scored 88/documented; corrected to 78 because scoring_rubric_v1 Section 4 reserves the 85+ band for multiple independent documented instances from MORE THAN ONE SOURCE, and this rests on a single source (her own autobiography) -- the score is capped to the 71-84 'clear, well-evidenced pattern' band regardless of source count. This is a score-band correction only: Section 2's `documented` definition (a specific, attributable, directly-quoted account of a concrete behavior from a reputable source) remains satisfied by this evidence independent of how many sources report it, and Section 3 explicitly places 'one strong documented instance' in the 0.65-0.84 confidence band -- so evidenceType and confidence are unchanged from the original scoring at documented/0.65. Only the score moved."
     },
     "independent_thinking": {
       "score": 78,
