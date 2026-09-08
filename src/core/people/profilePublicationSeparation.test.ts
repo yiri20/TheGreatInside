@@ -77,8 +77,13 @@ describe("Case 3 — published, direct-only, NOT match-eligible", () => {
     expect(result).toEqual([]);
   });
 
-  it("is still a real, published profile (direct link / search would still resolve it — this module only governs the default listing)", () => {
+  it("is still a real, published profile — its own direct route works regardless; only the Directory's default listing/search is governed by this module", () => {
     expect(person.status).toBe("published");
+  });
+
+  it("is also absent from Directory SEARCH results, not just the unfiltered default listing (search still passes through the same directoryVisibleOnly gate)", () => {
+    const result = filterPeople([person], { matchEligibleOnly: false, isLiving: false });
+    expect(result).toEqual([]);
   });
 
   it("is absent from a match-eligible-only pool too", () => {

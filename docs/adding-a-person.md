@@ -60,15 +60,52 @@ session log to find.
    evidence-approved candidates (`"evidence_approved"` or `"qa_passed"`
    status — both are eligible for promotion; `isMatchEligible` in
    production is computed independently by `build()` regardless of which)
-   into a new `src/data/people/rosterN.ts` file. Copy the most recent one
-   (`src/dev/roster1000/generateRoster16.ts` as of 2026-09) as a template
-   — same pattern every batch has used: an explicit slug allowlist (never
-   a blanket "every approved candidate" filter, which would silently
-   re-promote an earlier batch too), loads from
-   `data-pipeline/candidates/*.json`, calls
-   `checkPromotionReadiness()` (`candidateSchema.ts`) per candidate rather
-   than hand-rolling an eligibility check, renders each person via
-   `toPersonSeed()` + `build()`. Run it once:
+   into a new `src/data/people/rosterN.ts` file.
+
+   **Do NOT copy `generateRoster1.ts` through `generateRoster16.ts` as a
+   template.** Those files predate the profile-publication/match-
+   eligibility architecture (see `docs/checkpoints/
+   profile-publication-vs-match-eligibility.md`) and hard-require
+   `status === "qa_passed"` plus `computedEligibility?.eligible` — exactly
+   the coupling that architecture separates. They are historical,
+   already-run, already-committed snapshots of the cycles that produced
+   them and are deliberately left unrewritten so they stay accurate
+   records of what actually happened; do not copy their gating logic into
+   a new generator.
+
+   A new generator must instead:
+   1. Use an explicit literal slug allowlist (never a blanket "every
+      approved candidate" filter, which would silently re-promote an
+      earlier batch too).
+   2. Load the allowlisted candidates from `data-pipeline/candidates/*.json`
+      regardless of whether `status` is `"evidence_approved"` or
+      `"qa_passed"` — both are promotable.
+   3. Call `preparePersonSeedForPromotion(candidate)`
+      (`src/dev/roster1000/candidateSchema.ts`) per candidate, NOT
+      `toPersonSeed()` directly — it fails closed via
+      `checkPromotionReadiness()` and never checks
+      `computedEligibility.eligible`.
+   4. Render/persist the returned seed (including its `directoryVisible`
+      value) via `build()`, same as before.
+   5. Let `build()` compute `isMatchEligible` — never hand-set it, never
+      gate the generator's own success on its value.
+   6. Complete editorial / Korean display name / portrait / product
+      validation (steps 7-12 below) before considering the batch's PR
+      complete — `checkPromotionReadiness()` only checks candidate-JSON-
+      level preconditions (status, identity, portrait record), not the
+      final rendered product.
+
+   A minimal sketch of the per-candidate rendering call:
+   ```ts
+   import { preparePersonSeedForPromotion } from "./candidateSchema.js";
+   import { build } from "../../data/people/builder.js";
+
+   const seed = preparePersonSeedForPromotion(candidate); // throws if not ready
+   // seed.directoryVisible is already set (default true; pass
+   // { directoryVisible: false } above for a deliberate direct-only promotion)
+   const person = build(seed); // isMatchEligible computed independently here
+   ```
+   Run the finished generator once:
    ```bash
    corepack pnpm@10 exec tsx src/dev/roster1000/generateRosterN.ts
    ```

@@ -320,26 +320,33 @@ export interface Person {
   isMatchEligible: boolean;
   /**
    * Whether this profile appears in the People Directory's default
-   * (unfiltered) listing and other default-browsing surfaces. Independent
-   * of `isMatchEligible` — a profile can be fully published, complete, and
-   * directory-visible while still excluded from matching (evidence is
-   * honestly scored but doesn't cover enough of the personality model), or
-   * deliberately excluded from the default listing while remaining fully
-   * browsable via direct link/search regardless of its match eligibility.
-   * `matching_v2`/`rankMatches`/`rankSimilarPeople`/the Compare route all
-   * gate on `isMatchEligible` alone and never read this field — it affects
-   * ONLY what the default directory listing shows, never who can be
-   * matched against. This is a narrower, presentation-layer concern than
-   * `status`/page existence (every published person already gets a page,
-   * sitemap entry, and `generateStaticParams` slot regardless of this
-   * field — see `rosterQuality.ts`'s doc comment on why no
-   * page-existence field was introduced; this field does not revisit that
-   * decision). Set explicitly on `PersonSeed` when a profile should
-   * deliberately diverge from its `isMatchEligible` value (e.g. Zheng He:
-   * published, browsable, `isMatchEligible: false`, and — same as
-   * before this field existed — excluded from the default directory
-   * listing); otherwise defaults to mirroring `isMatchEligible`, which is
-   * every existing profile's actual behavior today. */
+   * (unfiltered) listing — and in Directory SEARCH results, which pass
+   * through the same `directoryVisibleOnly` gate (`explorer.ts`'s
+   * `filterPeople`). Independent of `isMatchEligible` — a profile can be
+   * fully published, complete, and directory-visible while still excluded
+   * from matching (evidence is honestly scored but doesn't cover enough of
+   * the personality model), or deliberately excluded from the default
+   * listing/search while its OWN direct route (`/people/{slug}`) remains
+   * fully available and fully functional regardless of match eligibility —
+   * this field never affects whether a profile's own page renders, only
+   * whether the Directory's listing/search surfaces it. `matching_v2`/
+   * `rankMatches`/`rankSimilarPeople`/the Compare route all gate on
+   * `isMatchEligible` alone and never read this field — it affects ONLY
+   * the Directory's listing/search, never who can be matched against. This
+   * is a narrower, presentation-layer concern than `status`/page existence
+   * (every published person already gets a page, sitemap entry, and
+   * `generateStaticParams` slot regardless of this field — see
+   * `rosterQuality.ts`'s doc comment on why no page-existence field was
+   * introduced; this field does not revisit that decision).
+   *
+   * Two different intended defaults exist for two different callers, on
+   * purpose — see `PersonSeed.directoryVisible` (`builder.ts`) and
+   * `preparePersonSeedForPromotion()` (`src/dev/roster1000/
+   * candidateSchema.ts`) for exactly which default applies to a raw
+   * hand-authored seed versus a new candidate promotion, and
+   * `docs/checkpoints/profile-publication-vs-match-eligibility.md` for the
+   * full rationale. Every profile committed before this field existed
+   * (including Zheng He) keeps its exact current behavior either way. */
   isDirectoryVisible: boolean;
   overallProfileConfidence: Confidence;
   sources: PersonSource[];

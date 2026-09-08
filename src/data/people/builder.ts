@@ -74,12 +74,24 @@ export interface PersonSeed {
   doNotCopyKeys?: string[];
   externalIdentity?: PersonExternalIdentity;
   portrait?: PersonPortrait;
-  /** See `Person.isDirectoryVisible`'s doc comment. Omit for the default,
-   *  intended behavior for every ordinary promotion: mirrors whatever
-   *  `evaluateMatchEligibility` computes for `isMatchEligible`. Set
-   *  explicitly only when a profile should deliberately diverge from that
-   *  default (e.g. a fully published, non-match-eligible profile that
-   *  should still appear in the default directory listing). */
+  /**
+   * See `Person.isDirectoryVisible`'s doc comment. This is `build()`'s
+   * RAW/LEGACY fallback: when omitted, mirrors whatever
+   * `evaluateMatchEligibility` computes for `isMatchEligible` on this
+   * exact seed. This exists to preserve every pre-existing seed's
+   * behavior byte-for-byte (every person committed before this field
+   * existed omits it, and must keep behaving exactly as before) — it is
+   * deliberately NOT the recommended default for a NEW candidate
+   * promotion, which should go through
+   * `src/dev/roster1000/candidateSchema.ts`'s
+   * `preparePersonSeedForPromotion()` instead. That function sets this
+   * field explicitly (default `true` — a fully product-ready published
+   * profile is a normal directory-visible publication regardless of its
+   * independently-computed match eligibility) rather than relying on this
+   * mirror-`isMatchEligible` fallback. Set this field explicitly here,
+   * directly on a `PersonSeed`, only for a hand-authored seed that isn't
+   * going through the candidate-promotion path at all.
+   */
   directoryVisible?: boolean;
   rows: Partial<Record<AttributeId, Row>>;
 }

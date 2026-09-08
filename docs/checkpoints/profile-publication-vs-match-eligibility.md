@@ -1,5 +1,27 @@
 # Architecture decision: profile publication vs. match eligibility
 
+## Correction (post-review completion pass, same PR)
+
+A review of the initial version of this PR found the architecture was
+described but not actually wired end-to-end, and one accidental regression.
+Both are fixed, disclosed here rather than silently folded in:
+
+1. **`CandidateStatus` accidentally dropped `"localized"` and
+   `"portrait_pending"`** when `"evidence_approved"` was added. Both are
+   restored; no candidate JSON was migrated or relabeled.
+2. **No actual promotion path used the new architecture.**
+   `checkPromotionReadiness()` existed but nothing called it, and
+   `docs/adding-a-person.md` told future work to copy
+   `generateRoster16.ts` — which still hard-requires `status ===
+   "qa_passed"` and `computedEligibility.eligible`, the exact coupling
+   this document argues against. Fixed by adding
+   `preparePersonSeedForPromotion()` (the function a future generator
+   should actually call — see "What changed" below) and correcting the
+   runbook to stop pointing at the old generators as a template.
+   Historical `generateRoster1.ts`-`generateRoster16.ts` are deliberately
+   **not** rewritten — they remain accurate records of the cycles that
+   produced them.
+
 ## Why this decision was triggered
 
 Roster21-23 (2026-09) tried three different research strategies — shallow
@@ -61,13 +83,23 @@ Reading the existing architecture (not assumed) found:
 ## What changed
 
 1. **`Person.isDirectoryVisible: boolean`** (new field, `src/core/types.ts`)
-   — whether a profile appears in the default People Directory listing.
-   Independent of `isMatchEligible`; matching code never reads it.
-   Computed by `build()` as `seed.directoryVisible ?? isMatchEligible` —
-   every existing person's value is therefore mechanically identical to
-   their current `isMatchEligible`, so nothing about the live product
-   changes. A future `PersonSeed` can set `directoryVisible` explicitly to
-   diverge.
+   — whether a profile appears in the default People Directory listing
+   (and its search — both pass through the same
+   `directoryVisibleOnly` gate). Independent of `isMatchEligible`;
+   matching code never reads it. **Two different defaults apply on
+   purpose, for two different callers**:
+   - Raw `build()`'s own fallback (`seed.directoryVisible ??
+     isMatchEligible`) exists ONLY to preserve every pre-existing seed's
+     exact behavior — every existing person's value is mechanically
+     identical to their current `isMatchEligible`, so nothing about the
+     live product changes.
+   - A NEW candidate promotion goes through `preparePersonSeedForPromotion()`
+     (see item 4 below), which explicitly defaults `directoryVisible:
+     true` — a fully product-ready, evidence-approved profile is a normal
+     directory-visible publication regardless of its independently-
+     computed match eligibility. This default is intentionally different
+     from raw `build()`'s backward-compatible mirror-`isMatchEligible`
+     fallback; both are correct for what they're each for.
 2. **`PeopleFilter.directoryVisibleOnly`** (new, default `true`,
    `src/core/people/explorer.ts`) — the gate that actually controls
    default browsing visibility, independent of the pre-existing
@@ -82,12 +114,22 @@ Reading the existing architecture (not assumed) found:
    `"qa_passed"` keeps its established, narrower historical meaning
    (evidence-approved AND match-eligible) unchanged — no past candidate is
    relabeled.
-4. **`checkPromotionReadiness()`** (new, `candidateSchema.ts`) — the
-   promotion gate a future `generateRosterN.ts` should call: status must
-   be `evidence_approved` or `qa_passed`, identity present, portrait
-   found. Deliberately does **not** check `computedEligibility.eligible` —
+4. **`checkPromotionReadiness()` and `preparePersonSeedForPromotion()`**
+   (both new, `candidateSchema.ts`) — a future `generateRosterN.ts` should
+   call `preparePersonSeedForPromotion(candidate, { directoryVisible })`,
+   NOT `toPersonSeed()` directly. It calls `checkPromotionReadiness()`
+   internally (status must be `evidence_approved` or `qa_passed`, identity
+   present, portrait found) and **fails closed** (throws) if not ready,
+   then returns a seed with `directoryVisible` explicitly set (default
+   `true`). Neither function checks `computedEligibility.eligible` —
    `isMatchEligible` in production is computed independently by `build()`
-   regardless.
+   regardless. `checkPromotionReadiness()` checks only candidate-JSON-level
+   preconditions, not the final rendered product (EN/KO editorial, Korean
+   name, portrait file, Directory card) — those are still established the
+   existing way, after this check passes. `toPersonSeed()` itself remains
+   a neutral, non-gating reshaper that `validateCandidates.ts` legitimately
+   calls on `held`/merely-`scored` candidates too, for diagnostic
+   reporting only.
 5. **Honest UX for a non-match-eligible profile** — the person page
    (`app/[locale]/people/[slug]/page.tsx`) previously just omitted the
    "Compare Yourself" CTA with no explanation when `!isMatchEligible`; it
@@ -124,14 +166,19 @@ Reading the existing architecture (not assumed) found:
 5. Compute `eligibility_v2` independently (`validateCandidates.ts`) — read
    only, never fed back into step 4's decision.
 6. If evidence-approved: complete product readiness (portrait, EN/KO
-   editorial, Korean display name) and promote via `generateRosterN.ts` +
-   `checkPromotionReadiness()`.
+   editorial, Korean display name) and promote via a new
+   `generateRosterN.ts` that calls `preparePersonSeedForPromotion()` per
+   allowlisted candidate (never copy a historical `generateRoster1..16.ts`
+   file's gating logic — see the Correction note above).
 7. `build()` computes `isMatchEligible` automatically. If `true`: the
    person is included in matching, same as every eligible person today.
-8. If `false`: the profile is still published and (by default) directory-
-   visible — never included in matching. Set `directoryVisible: false`
-   on the seed only if a specific profile should deliberately be
-   direct-only instead (Zheng He's existing pattern).
+8. If `false`: the profile is still published, and — because
+   `preparePersonSeedForPromotion()` defaults `directoryVisible: true` —
+   still directory-visible by default too, unless the promotion explicitly
+   passed `{ directoryVisible: false }` for a deliberate direct-only
+   publication (Zheng He's existing pattern, achieved today via raw
+   `build()`'s own separate backward-compatible fallback, not this
+   function). Either way, the profile is never included in matching.
 9. A future, deeper evidence cycle can raise a profile's confidence/
    coverage enough to change its computed `isMatchEligible` outcome — never
    by threshold-gaming the existing evidence.

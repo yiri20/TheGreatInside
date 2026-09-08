@@ -37,6 +37,14 @@ export type CandidateStatus =
   | "draft"
   | "researching"
   | "scored"
+  /** Localization (Korean display name, etc.) is complete or in progress
+   *  for this candidate. Pre-dates the evidence/match-eligibility
+   *  separation below; unchanged. */
+  | "localized"
+  /** Portrait sourcing is in progress or blocking for this candidate.
+   *  Pre-dates the evidence/match-eligibility separation below;
+   *  unchanged. */
+  | "portrait_pending"
   /**
    * Evidence/profile-approval review complete — see
    * `docs/checkpoints/profile-publication-vs-match-eligibility.md`.
@@ -222,25 +230,36 @@ const IM_CODE: Record<TraitImpact, Im> = {
 };
 
 /**
- * Promotion readiness check — deliberately NOT a numeric gate. A future
- * `generateRosterN.ts` should call this (instead of each hand-rolling its
- * own ad-hoc checks, as every generator through roster16 did) to decide
- * whether a candidate may be written into a production roster file at
- * all. See `docs/checkpoints/profile-publication-vs-match-eligibility.md`
- * for the full architectural rationale.
+ * Promotion readiness check — deliberately NOT a numeric gate, and
+ * deliberately NOT the complete product-readiness gate either. This is a
+ * **candidate-data promotion precondition** only: it checks what is
+ * knowable from the candidate JSON alone (review status, identity, a
+ * product-ready portrait record). See
+ * `docs/checkpoints/profile-publication-vs-match-eligibility.md` for the
+ * full architectural rationale.
  *
  * Checks ONLY: the candidate reached an evidence-approved review outcome
  * (`"evidence_approved"` or `"qa_passed"` — see `CandidateStatus`'s own
  * doc comments for the distinction), required identity fields are present,
- * and a product-ready portrait exists. Deliberately does NOT check
- * `computedEligibility.eligible` — every generator through roster16 hard-
- * required `eligible === true` before writing ANY candidate to production,
- * which is exactly the coupling this architecture separates. Whether a
- * promoted candidate ends up `isMatchEligible: true` or `false` in
- * production is decided independently and automatically by `build()` via
- * `evaluateMatchEligibility` — this function never reads or overrides
- * that computation, and callers must not add their own eligibility check
- * on top of it.
+ * and a product-ready portrait record exists on the candidate. Deliberately
+ * does NOT check `computedEligibility.eligible` — every generator through
+ * roster16 hard-required `eligible === true` before writing ANY candidate
+ * to production, which is exactly the coupling this architecture
+ * separates. Whether a promoted candidate ends up `isMatchEligible: true`
+ * or `false` in production is decided independently and automatically by
+ * `build()` via `evaluateMatchEligibility` — this function never reads or
+ * overrides that computation, and callers must not add their own
+ * eligibility check on top of it.
+ *
+ * What this does NOT verify (and never should, without adding fake
+ * candidate-JSON fields to check things that live elsewhere): the final
+ * rendered EN/KO editorial content, the Korean display name actually
+ * resolving on a live page, the portrait file actually existing on disk
+ * and rendering, the person's Directory card, or the working profile
+ * route. Those remain established the existing way — by the production
+ * build, i18n coverage audit, and manual/Playwright browser verification
+ * described in `docs/adding-a-person.md` — after this check passes, not
+ * instead of it.
  */
 export interface PromotionReadiness {
   ready: boolean;
@@ -263,11 +282,21 @@ export function checkPromotionReadiness(candidate: Candidate): PromotionReadines
 }
 
 /**
- * One-way conversion from an approved candidate to the `PersonSeed` shape
- * `builder.ts`'s `build()` consumes — the exact moment a candidate stops
- * being pipeline data and becomes a real, committed person. Only ever call
- * this after `validateCandidates.ts` reports the candidate passes every
- * gate; this function itself does not gate anything, it only reshapes data.
+ * Neutral, one-way reshaping from the candidate-pipeline `Candidate` shape
+ * to the `PersonSeed` shape `builder.ts`'s `build()` consumes. Deliberately
+ * NOT a gate of any kind — it does not determine evidence approval, does
+ * not determine match eligibility, and does not check `candidate.status`
+ * at all. `validateCandidates.ts` calls this on every scoreable candidate
+ * regardless of status (including `held` and merely `scored` ones) purely
+ * to compute a diagnostic `eligibility_v2` snapshot for reporting — that is
+ * a legitimate, intentional use and this function must keep working for it.
+ *
+ * Production generators promoting a candidate into a real roster file
+ * should normally call `preparePersonSeedForPromotion()` below instead of
+ * this function directly — that is where promotion readiness is actually
+ * checked and directory visibility is explicitly decided. Calling this
+ * function directly is appropriate for evaluation/reporting tooling, not
+ * for deciding whether a candidate may be promoted.
  */
 export function toPersonSeed(candidate: Candidate): PersonSeed {
   const rows: Partial<Record<AttributeId, Row>> = {};
@@ -318,4 +347,63 @@ export function toPersonSeed(candidate: Candidate): PersonSeed {
       : {}),
     rows,
   };
+}
+
+export interface PromotionOptions {
+  /**
+   * Whether the promoted person should appear in the default People
+   * Directory listing (`Person.isDirectoryVisible`). Defaults to `true` —
+   * a future evidence-approved candidate promoted through this function is
+   * a fully product-ready, published profile and should be a normal
+   * directory-visible publication REGARDLESS of whether `build()` ends up
+   * computing `isMatchEligible: true` or `false` for it (that computation
+   * is independent — see `docs/checkpoints/
+   * profile-publication-vs-match-eligibility.md`). Pass `false` only for a
+   * deliberately direct-only promotion (browsable via direct link/search,
+   * excluded from the default listing), mirroring Zheng He's existing
+   * pattern. This default is intentionally different from raw `build()`'s
+   * own fallback (which mirrors `isMatchEligible` for backward
+   * compatibility with every pre-existing seed) — see `PersonSeed.
+   * directoryVisible`'s own doc comment in `builder.ts` for why the two
+   * defaults differ on purpose.
+   */
+  directoryVisible?: boolean;
+}
+
+/**
+ * The actual future candidate → production promotion path. A
+ * `generateRosterN.ts` written after this architecture should call this
+ * (not `toPersonSeed()` directly) for every allowlisted candidate.
+ *
+ * - Calls `checkPromotionReadiness(candidate)` and FAILS CLOSED (throws)
+ *   if it is not ready — a generator should never silently promote a
+ *   candidate that isn't.
+ * - NEVER checks `computedEligibility.eligible` — promotion readiness and
+ *   match eligibility are, by design, never the same check. `build()`
+ *   computes `isMatchEligible` on the returned seed independently, same as
+ *   for any other person.
+ * - Explicitly sets the intended directory visibility (default `true` —
+ *   see `PromotionOptions.directoryVisible`'s own doc comment for why this
+ *   default differs from raw `build()`'s backward-compatible fallback).
+ *
+ * Historical `generateRoster1.ts` through `generateRoster16.ts` predate
+ * this function and this architecture; they call `toPersonSeed()` directly
+ * and hard-require `status === "qa_passed"` and
+ * `computedEligibility.eligible`. They are historical, already-run,
+ * already-committed snapshots of the cycles that produced them and are
+ * deliberately NOT rewritten to use this function — do not copy their
+ * gating logic into a new generator. See `docs/adding-a-person.md` for the
+ * full future-generator pattern this function is meant to be used in.
+ */
+export function preparePersonSeedForPromotion(
+  candidate: Candidate,
+  { directoryVisible = true }: PromotionOptions = {},
+): PersonSeed {
+  const readiness = checkPromotionReadiness(candidate);
+  if (!readiness.ready) {
+    throw new Error(
+      `Candidate "${candidate.slug}" is not ready for promotion: ${readiness.reasons.join("; ")}`,
+    );
+  }
+  return { ...toPersonSeed(candidate), directoryVisible };
 }
