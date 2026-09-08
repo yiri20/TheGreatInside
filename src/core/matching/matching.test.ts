@@ -255,10 +255,20 @@ describe("confidence and missing data", () => {
     // now falls below the 0.6 coverage floor (0.53). This is a confirmed,
     // evidence-driven migration result, not a threshold change: no score
     // was manufactured and ELIGIBILITY.minCoverage is untouched.
-    // Also non-eligible by design (roster24, unrelated to taxonomy_v1.1):
-    // Giuseppe Garibaldi and Anton Chekhov — see the profile-publication/
-    // match-eligibility separation test above for the full rationale.
-    const knownNonEligible = new Set(["zheng-he", "giuseppe-garibaldi", "anton-chekhov"]);
+    // Also non-eligible by design (roster24/25, unrelated to
+    // taxonomy_v1.1): Giuseppe Garibaldi, Anton Chekhov (roster24), Vera
+    // Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, Isabella Bird
+    // (roster25) — see the profile-publication/match-eligibility
+    // separation test above for the full rationale.
+    const knownNonEligible = new Set([
+      "zheng-he",
+      "giuseppe-garibaldi",
+      "anton-chekhov",
+      "vera-rubin",
+      "subrahmanyan-chandrasekhar",
+      "fridtjof-nansen",
+      "isabella-bird",
+    ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
         expect(evaluateMatchEligibility(p).eligible, p.slug).toBe(false);
@@ -449,12 +459,21 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
 
   it("marks every currently-eligible seed profile eligible under eligibility_v2 too (reproduces session 9's finding: 0 regressions)", () => {
     // Deliberately non-match-eligible by design, not a regression: Zheng He
-    // (pre-existing) plus Giuseppe Garibaldi and Anton Chekhov (roster24,
-    // profile-publication/match-eligibility separation — evidence_approved,
-    // published, directory-visible, honestly under eligibility_v2's
-    // attribute-count/coverage floors; see
-    // docs/checkpoints/roster24-evidence-approved-publications.md).
-    const knownNonEligible = new Set(["zheng-he", "giuseppe-garibaldi", "anton-chekhov"]);
+    // (pre-existing) plus Giuseppe Garibaldi, Anton Chekhov (roster24), Vera
+    // Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, and Isabella Bird
+    // (roster25) — all evidence_approved, published, directory-visible,
+    // honestly under eligibility_v2's attribute-count/coverage floors; see
+    // docs/checkpoints/roster24-evidence-approved-publications.md and
+    // docs/checkpoints/roster25-fast-production-batch.md.
+    const knownNonEligible = new Set([
+      "zheng-he",
+      "giuseppe-garibaldi",
+      "anton-chekhov",
+      "vera-rubin",
+      "subrahmanyan-chandrasekhar",
+      "fridtjof-nansen",
+      "isabella-bird",
+    ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
         expect(evaluateMatchEligibility(p).eligible, p.slug).toBe(false);

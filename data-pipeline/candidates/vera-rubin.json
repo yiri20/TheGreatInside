@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "vera-rubin",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Vera Rubin",
     "wikidataId": "Q234888",
@@ -36,18 +36,18 @@
     },
     {
       "id": "src_vr_autobiography",
-      "kind": "autobiography",
+      "kind": "archive",
       "title": "Vera C. Rubin, \"An Interesting Voyage\" -- Annual Review of Astronomy and Astrophysics 49 (2011): 1-28",
       "url": "https://www.sea-astronomia.es/sites/default/files/annurev-astro-081710-102545_ok_0.pdf"
     }
   ],
   "rows": {
     "curiosity": {
-      "score": 88,
+      "score": 78,
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Rubin's own memoir documents a sustained childhood pattern of specific, unprompted physical questions (why the moon seemed to follow the car, how water knew which side of a rock to pass) that she says never diminished, still 'no less' 80 years later -- a specific, dated, self-described lifelong pattern, not a general reputation."
+      "rationale": "RUBRIC_CORRECTION (roster25 audit, 2026-09; score-band correction only, refined 2026-09-08): Rubin's own memoir documents a sustained childhood pattern of specific, unprompted physical questions (why the moon seemed to follow the car, how water knew which side of a rock to pass) that she says never diminished, still 'no less' 80 years later -- a specific, dated, self-described lifelong pattern, not a general reputation. Originally scored 88/documented; corrected to 78 because scoring_rubric_v1 Section 4 reserves the 85+ band for multiple independent documented instances from MORE THAN ONE SOURCE, and this rests on a single source (her own autobiography) -- the score is capped to the 71-84 'clear, well-evidenced pattern' band regardless of source count. This is a score-band correction only: Section 2's `documented` definition (a specific, attributable, directly-quoted account of a concrete behavior from a reputable source) remains satisfied by this evidence independent of how many sources report it, and Section 3 explicitly places 'one strong documented instance' in the 0.65-0.84 confidence band -- so evidenceType and confidence are unchanged from the original scoring at documented/0.65. Only the score moved."
     },
     "independent_thinking": {
       "score": 78,
@@ -176,6 +176,18 @@
       "rationale": "Documented as producing the observational evidence now credited as the clearest confirmation of dark matter, corroborated independently across both sources, alongside a specific, sourced editorial note that the Nobel Prize 'missed their opportunity' to recognize it -- an achievement record independently verified, not self-reported alone."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/vera-rubin-godfrey-aip-1985.jpg",
+    "width": 971,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Free use with attribution, granted by the copyright holder (American Institute of Physics)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vera_Rubin_with_antique_globes.jpg",
+    "attribution": "Photograph by Mark Godfrey, c. 1985 — courtesy AIP Emilio Segrè Visual Archives, Gift of Vera Rubin",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Vera_Rubin_with_antique_globes.jpg",
+    "kind": "likeness"
+  },
   "computedEligibility": {
     "scoredAttributeCount": 19,
     "averageConfidence": 0.504,
@@ -183,11 +195,10 @@
     "eligible": false,
     "computedAt": "2026-09-06T00:00:00Z"
   },
-  "holdReason": "Validator output (mechanical, not adjusted): 19 scored attributes -- above the 18-attribute floor, the highest of any roster-19 or roster-18 candidate -- but 0.571 coverage still falls just short of the 0.6 floor, and the high-confidence-count/average combination does not clear eligibility_v2's second gate. This is the closest miss produced by either the roster-18 or roster-19 evidence gate: two genuinely independent, unusually rich sources (a colleague's NAS memoir and Rubin's own 28-page autobiography) were enough to clear the raw attribute-count floor for the first time this arc, but not the coverage/confidence combination. No further research was conducted and no row was rescored after seeing this result, despite how close it is -- exactly the discipline this project's confidence-change policy (docs/scoring-rubric-v1.md Section 10) exists to enforce. Held, not rescued.",
   "provenance": {
     "createdAt": "2026-09-06T00:00:00Z",
-    "updatedAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-08T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q234888) checked against the live Wikipedia article before scoring. Two genuinely independent sources actually fetched and read in full: the NAS Biographical Memoir (Bahcall, 2021, a colleague's account) and Rubin's own 28-page autobiographical article 'An Interesting Voyage' (Annual Review of Astronomy and Astrophysics, 2011) -- an unusually rich near-primary source in the subject's own words, covering specific dated incidents across childhood, graduate school, five different observatories, collaboration, mentorship, family life, and public service. Incident ledger built before scoring; each row traces to a distinct, dated episode rather than a single fact repackaged across rows -- verified by name before finalizing (1950 Haverford AAS incident, 1962 student-credit withdrawal, 1965 Palomar bathroom sign, 1965 DTM hire, the M31 flat-rotation discovery night, the Faber recommendation letter, the film-loading technique, the 2010 open-mindedness quote, the sustained advocacy pattern for women in science, the 1985 calendar, the education-outreach and science-policy work -- eleven distinct sourced episodes underlying nineteen rows)."
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q234888) checked against the live Wikipedia article before scoring. Two genuinely independent sources actually fetched and read in full: the NAS Biographical Memoir (Bahcall, 2021, a colleague's account) and Rubin's own 28-page autobiographical article 'An Interesting Voyage' (Annual Review of Astronomy and Astrophysics, 2011) -- an unusually rich near-primary source in the subject's own words, covering specific dated incidents across childhood, graduate school, five different observatories, collaboration, mentorship, family life, and public service. Incident ledger built before scoring; each row traces to a distinct, dated episode rather than a single fact repackaged across rows -- verified by name before finalizing (1950 Haverford AAS incident, 1962 student-credit withdrawal, 1965 Palomar bathroom sign, 1965 DTM hire, the M31 flat-rotation discovery night, the Faber recommendation letter, the film-loading technique, the 2010 open-mindedness quote, the sustained advocacy pattern for women in science, the 1985 calendar, the education-outreach and science-policy work -- eleven distinct sourced episodes underlying nineteen rows).\n\nROSTER25 FAST-PATH EVIDENCE-APPROVAL AUDIT (2026-09-08): mechanical row review found one rubric violation (see the RUBRIC_CORRECTION on the curiosity row above) and no other issues. Spot-verified the NAS memoir PDF directly (full text read): confirmed verbatim the 1950 Haverford AAS quote ('No. I can go.'), the Palomar 'MEN'/'Women' bathroom-sign episode, and 'The Nobel missed their opportunity to recognize Vera's vital observations' -- all as cited. Held only because of eligibility_v2 (unchanged: still 19/0.571/coverage, eligible false, not remediated); evidence approval and match eligibility are independent per docs/checkpoints/profile-publication-vs-match-eligibility.md. Evidence-approval decision: APPROVED."
   }
 }

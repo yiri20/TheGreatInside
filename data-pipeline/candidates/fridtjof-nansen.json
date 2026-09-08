@@ -2,8 +2,19 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "fridtjof-nansen",
-  "status": "held",
-  "holdReason": "eligibility_v2 fails on every axis: 14 scored attributes (need 18), coverage 0.415 (need 0.6), only 4 attributes at confidence >=0.5 (need 12), high-confidence average 0.53 (need 0.55). A real, honestly-sourced 2-independent-provenance evidence pack (his own Farthest North + Bain's independent 1897 biography, both genuinely webfetch-opened) produced 14 traceable attributes, several of which rest on only one of the two sources rather than both converging — consistent with this project's roster17-20 experience for a bounded 2-source research pass.",
+  "status": "evidence_approved",
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/fridtjof-nansen-loc-vanderweyde-1915.jpg",
+    "width": 1103,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain in the US (published before January 1, 1931; Library of Congress George Grantham Bain Collection, digital ID ggbain.03377)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fridtjof_Nansen_LOC_03377u.jpg",
+    "attribution": "Henry van der Weyde, 1915 — Library of Congress, George Grantham Bain Collection",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fridtjof_Nansen_LOC_03377u.jpg",
+    "kind": "likeness"
+  },
   "computedEligibility": {
     "scoredAttributeCount": 14,
     "averageConfidence": 0.414,
@@ -24,7 +35,7 @@
   "classification": {
     "occupationIds": ["explorer", "scientist", "diplomat"],
     "fieldIds": ["exploration", "natural_science"],
-    "impactDomains": ["historical", "humanitarian"],
+    "impactDomains": ["historical", "social"],
     "tagIds": ["explorer"],
     "archetypeIds": ["scientific_explorer"]
   },
@@ -137,6 +148,6 @@
     "createdAt": "2026-09-07T00:00:00Z",
     "updatedAt": "2026-09-07T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster21 simplified evidence-first intake. 2 genuinely webfetch-opened, distinct-provenance sources (Nansen's own Farthest North; James Arthur Bain's independent 1897 biography), both read directly this cycle with real extracted passages spanning childhood, the Fram expedition, and the earlier 1888 Greenland crossing. 14 rows scored (one placeholder key removed before scoring; see rows). Several rows rest on only one of the two sources rather than both converging, honestly reflected in inference-level confidence. No score adjusted after computing eligibility."
+    "notes": "Roster21 simplified evidence-first intake. 2 genuinely webfetch-opened, distinct-provenance sources (Nansen's own Farthest North; James Arthur Bain's independent 1897 biography), both read directly this cycle with real extracted passages spanning childhood, the Fram expedition, and the earlier 1888 Greenland crossing. 14 rows scored (one placeholder key removed before scoring; see rows). Several rows rest on only one of the two sources rather than both converging, honestly reflected in inference-level confidence. No score adjusted after computing eligibility.\n\nROSTER25 FAST-PATH EVIDENCE-APPROVAL AUDIT (2026-09-08): mechanical row review found no semantic mismatches, no unsupported extremes (max score 70), and all shared-episode reuse (the funding-shortfall episode underlying both proactive_agency and achievement_drive; the 'man wants to know' quote underlying both impact_motivation and mastery_orientation) already transparently disclosed in each row's own rationale. No new source was re-opened; the existing rationale/provenance record was sufficient. No RUBRIC_CORRECTION or ERROR_CORRECTION needed -- zero rows changed. Held only because of eligibility_v2 (unchanged: still 14/0.415 coverage, eligible false, not remediated; not expanded toward 18 attributes). Evidence-approval decision: APPROVED."
   }
 }

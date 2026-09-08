@@ -2958,6 +2958,112 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This documented shift, tied to a specific outside intervention rather than a gradual change of mind, is one instance behind the profile's belief_updating score.",
   "anton-chekhov.interpretation.turning_point.2":
     "Recovering specifically after a friend's letter, not merely \"over time,\" is the documented basis for the profile's adaptability score being scored dual_edged rather than a simple strength.",
+
+  /* ------------------------------------------------------------- Roster25: Nellie Bly */
+  "nellie-bly.achievement.1":
+    "In 1887 Bly feigned insanity to gain admission to the Blackwell's Island women's asylum, spending ten days inside with no guaranteed way to prove her sanity and secure release. Her published exposé triggered a grand jury investigation and a subsequent $1 million increase in the city's asylum budget.",
+  "nellie-bly.achievement.2":
+    "In 1889–90 Bly traveled around the world alone in 72 days, deliberately beating the fictional 80-day benchmark from Around the World in Eighty Days, filing telegraph dispatches on a strict daily schedule throughout the trip.",
+  "nellie-bly.moment.1":
+    "Bly began her journalism career by writing an anonymous rebuttal to a Pittsburgh Dispatch column demeaning working women; the paper, initially dismissive, eventually hired her as a staff reporter.",
+  "nellie-bly.moment.2":
+    "She persuaded a skeptical editor to fund the expensive, unproven round-the-world assignment for a young female reporter over more established male reporters who had also sought it.",
+  "nellie-bly.moment.3":
+    "After her husband's death, Bly personally ran his Iron Clad Manufacturing Company, holding patents in her own name and implementing employee welfare programs including gyms and libraries.",
+  "nellie-bly.turning_point.1":
+    "Over her career Bly moved from investigative stunt journalism to war correspondent covering the Eastern Front in WWI to industrialist running a manufacturing company — three genuinely distinct roles in sequence, not a single sustained career.",
+  "nellie-bly.interpretation.achievement.1":
+    "A specific, severe risk with no guaranteed exit, independently corroborated by the grand jury investigation it triggered, is the central documented instance behind the profile's high risk_tolerance score.",
+  "nellie-bly.interpretation.turning_point.1":
+    "This sequence of genuinely different roles, each with real documented output, is consistent with the profile's cross_domain_range score.",
+
+  /* -------------------------------------------------------------- Roster25: Carl Jung */
+  "carl-jung.achievement.1":
+    "Jung broke definitively from Freud over the libido theory's exclusively sexual basis, a rupture documented from both sides of their surviving correspondence, accepting the loss of his position as Freud's designated successor in the psychoanalytic movement.",
+  "carl-jung.achievement.2":
+    "After the break, Jung founded his own analytical psychology movement and training institute (the C. G. Jung Institute, Zurich), retaining doctrinal authority over its direction for decades.",
+  "carl-jung.moment.1":
+    "From 1913 to 1930 Jung kept a private record of his own inner experiences, the Red Book, illustrating it throughout with elaborate illuminations he created entirely himself — a sustained practice with no external audience or professional requirement.",
+  "carl-jung.moment.2":
+    "Jung deliberately declined the secure, prestigious position as Freud's designated successor in order to pursue his own independent theoretical direction.",
+  "carl-jung.turning_point.1":
+    "Following the Freud break, Jung continued his self-directed psychological exploration through what biographers describe as a severe personal crisis (roughly 1913–1919), resuming publication of new theoretical work only once that period had passed.",
+  "carl-jung.turning_point.2":
+    "Jung substantially revised his own earlier acceptance of Freudian libido theory after his personal crisis and independent research, publicly departing from a foundational commitment rather than defending it indefinitely.",
+  "carl-jung.interpretation.moment.1":
+    "A sustained, dated, self-directed practice with no external audience is the central documented instance behind the profile's high discipline and proactive_agency scores.",
+  "carl-jung.interpretation.turning_point.1":
+    "Continuing self-directed work through an extended, unresolved personal crisis rather than resolving it quickly is consistent with the profile's ambiguity_tolerance score.",
+
+  /* ------------------------------------------------------------- Roster25: Vera Rubin */
+  "vera-rubin.achievement.1":
+    "Rubin's observations of galaxy rotation, made with her collaborator Kent Ford, established that stars in the outer regions of spiral galaxies orbit at constant speed rather than slowing with distance — the flat rotation curves now regarded as the clearest observational evidence for dark matter.",
+  "vera-rubin.achievement.2":
+    "Rubin sustained a decades-long practice of writing letters of recommendation that explicitly chastised astronomy departments for having no women on their faculty, and monitoring conference speaker lists to demand more women be invited.",
+  "vera-rubin.moment.1":
+    "In 1950, told by her department chairman that he would present her thesis results at a conference under his own name because she was not yet an AAS member, Rubin replied, \"No. I can go,\" and did.",
+  "vera-rubin.moment.2":
+    "Denied access to the men-only bathroom at Palomar Observatory before women were formally permitted to use its telescopes, Rubin cut a skirt-shaped piece of paper, pasted it over the door's \"Men\" sign, and added \"Women.\"",
+  "vera-rubin.moment.3":
+    "When a journal editor agreed to publish her 1962 paper but refused to credit her student co-authors by name, Rubin told him, \"Then I withdraw the paper\" — and he relented.",
+  "vera-rubin.turning_point.1":
+    "In 1964 Rubin gave up a ten-year teaching position at Georgetown because observing had become more important to her, then walked into the Carnegie Institution's Department of Terrestrial Magnetism — an all-male department with no female staff since 1904 — unannounced, to ask for a job.",
+  "vera-rubin.interpretation.moment.1":
+    "This directly quoted refusal to cede authorship of her own work is the specific documented instance behind the profile's independent_thinking score.",
+  "vera-rubin.interpretation.turning_point.1":
+    "Walking into an unwelcoming department with no prior application, rather than waiting for a formal process, is the documented basis for the profile's autonomy_need score.",
+
+  /* --------------------------------------------- Roster25: Subrahmanyan Chandrasekhar */
+  "subrahmanyan-chandrasekhar.achievement.1":
+    "On the ship to England in 1930, before his graduate study had even begun, Chandrasekhar worked out the relativistic degenerate-electron-gas calculation showing that a sufficiently massive white dwarf cannot support itself against collapse — the reasoning that, decades later, underpins the modern theory of black holes.",
+  "subrahmanyan-chandrasekhar.achievement.2":
+    "In 1983 Chandrasekhar was awarded the Nobel Prize in Physics for that same 1930s work, fifty years after he first completed it.",
+  "subrahmanyan-chandrasekhar.moment.1":
+    "At the January 1935 Royal Astronomical Society meeting, Arthur Eddington publicly declared Chandrasekhar's correct calculation must be wrong; no senior physicist present, including Fowler and Russell, spoke up in his defense, evidently intimidated by Eddington's preeminence.",
+  "subrahmanyan-chandrasekhar.moment.2":
+    "From 1952 to 1971 Chandrasekhar personally managed the Astrophysical Journal — production, refereeing, and community politics — while maintaining his research and teaching output undiminished, a burden a colleague later described as continuing well beyond what he had ever intended.",
+  "subrahmanyan-chandrasekhar.turning_point.1":
+    "In 1946 Chandrasekhar declined Princeton's offer of Henry Norris Russell's former position, at roughly double his Chicago salary, choosing to remain where his actual research conditions were no worse.",
+  "subrahmanyan-chandrasekhar.turning_point.2":
+    "After the Eddington affair closed doors to him in England, Chandrasekhar rebuilt his career by shifting to a new research field roughly once a decade for the next fifty years — stellar dynamics, radiative transfer, hydrodynamic stability, and general relativity — rather than continuing to contest the same ground.",
+  "subrahmanyan-chandrasekhar.interpretation.moment.1":
+    "A real, multi-year professional humiliation that he did not retract or publicly fight, choosing instead to leave the field, is the documented basis for the profile's conflict_tolerance score being scored dual-edged.",
+  "subrahmanyan-chandrasekhar.interpretation.turning_point.2":
+    "This sustained, multi-decade pattern of redirection rather than repeated confrontation is the documented instance behind the profile's persistence and adaptability scores.",
+
+  /* -------------------------------------------------------- Roster25: Fridtjof Nansen */
+  "fridtjof-nansen.achievement.1":
+    "Nansen staked his 1893 Fram expedition on his own unproven theory that sea ice drifts across the North Pole, proceeding despite the Royal Geographical Society's Admiral M'Clintock calling it \"the most adventurous programme ever brought under the notice\" of the society.",
+  "fridtjof-nansen.achievement.2":
+    "Nansen spent roughly nine years preparing the expedition, working through an iterative ship-design process — \"plan after plan,\" \"model after another\" — with shipbuilder Colin Archer before departure.",
+  "fridtjof-nansen.moment.1":
+    "During his 1888 crossing of the Greenland ice cap, Nansen deliberately eliminated any option of retreat, later describing the choice as \"death — or the west coast of Greenland.\"",
+  "fridtjof-nansen.moment.2":
+    "Rather than compromise on the Fram's construction quality to control costs, Nansen personally covered funding shortfalls himself, writing that he \"did not think it right to study the cost too much.\"",
+  "fridtjof-nansen.turning_point.1":
+    "Nansen's decision to cut off his own retreat during the 1888 Greenland crossing left proceeding forward as the only option — a deliberate elimination of alternatives rather than a contingency plan kept in reserve.",
+  "fridtjof-nansen.interpretation.moment.1":
+    "A deliberate, dated decision to remove his own escape options — not merely an absence of caution — is the central instance behind the profile's high risk_tolerance score.",
+  "fridtjof-nansen.interpretation.achievement.2":
+    "Nine years of iterative preparation before departure is the documented basis for the profile's planning_orientation score.",
+
+  /* ------------------------------------------------------- Roster25: Isabella Bird */
+  "isabella-bird.achievement.1":
+    "Bird's letters from her 1878 journey through Japan's interior, later published as Unbeaten Tracks in Japan, documented regions and conditions in detail she chose to travel through despite chronic pain and acute pre-departure fear.",
+  "isabella-bird.achievement.2":
+    "Bird used earnings from her first book to fund deep-sea fishing boats for impoverished Highland communities in Scotland.",
+  "isabella-bird.moment.1":
+    "Before departing for Japan, Bird's own letters describe acute fear — \"the fear of being frightened, of being rudely mobbed... I often wished to give up my project, but was ashamed of my cowardice\" — followed by proceeding anyway.",
+  "isabella-bird.moment.2":
+    "Bird hired a guide, Ito, whom she explicitly distrusted at the outset (\"I suspected and disliked the boy\") without references, out of practical necessity for the journey.",
+  "isabella-bird.moment.3":
+    "Her letters document unusually detailed, sustained observation of a temple's architecture and religious objects, describing a specific statue as having \"not much more of eyes, nose, and mouth than the Sphinx.\"",
+  "isabella-bird.turning_point.1":
+    "Travel, prescribed to Bird as a medical treatment for a chronic spinal condition, unexpectedly energized rather than depleted her — after a seven-month 1854 voyage she was recorded as \"better in health, full of animation,\" reversing what she and her doctors had assumed she could tolerate.",
+  "isabella-bird.interpretation.moment.1":
+    "Acting despite documented fear, rather than in its absence, is the basis for the profile's risk_tolerance score being scored dual-edged.",
+  "isabella-bird.interpretation.turning_point.1":
+    "An atypical, documented positive response to changed circumstances is consistent with the profile's adaptability score.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -5769,6 +5875,112 @@ export const EDITORIAL_KO: Record<string, string> = {
     "점진적인 마음의 변화가 아니라 특정한 외부 계기와 맞물린 이 변화는 프로필의 신념 수정(belief_updating) 점수를 뒷받침하는 사례다.",
   "anton-chekhov.interpretation.turning_point.2":
     "'시간이 지나서'가 아니라 친구의 편지를 받은 뒤에야 회복되었다는 기록은, 프로필의 적응력(adaptability) 점수가 단순한 강점이 아니라 양면적으로 평가된 근거임을 보여준다.",
+
+  /* ------------------------------------------------------------- Roster25: Nellie Bly */
+  "nellie-bly.achievement.1":
+    "1887년, 블라이는 정신병자 행세를 하여 블랙웰스 아일랜드 여성 정신병원에 입원했다. 자신의 정신 상태를 증명하고 풀려날 확실한 방법도 없이 열흘을 그 안에서 보냈다. 그녀가 발표한 폭로 기사는 대배심 조사를 촉발했고, 뒤이어 뉴욕시 정신병원 예산이 100만 달러 증액되었다.",
+  "nellie-bly.achievement.2":
+    "1889~90년, 블라이는 홀로 72일 만에 세계를 일주했다. 소설 『80일간의 세계일주』속 가상의 80일 기록을 의도적으로 경신하는 것이 목표였으며, 여정 내내 엄격한 일정에 맞춰 매일 전보 기사를 송고했다.",
+  "nellie-bly.moment.1":
+    "블라이는 일하는 여성을 폄하하는 피츠버그 디스패치 칼럼에 익명으로 반박문을 보내면서 언론계 경력을 시작했다. 처음에는 그녀를 대수롭지 않게 여겼던 신문사는 결국 그녀를 정식 기자로 채용했다.",
+  "nellie-bly.moment.2":
+    "그녀는 회의적이던 편집장을 설득해, 세계일주라는 비싸고 검증되지 않은 취재를 이미 지원했던 더 경력 많은 남성 기자들 대신 젊은 여성 기자인 자신에게 맡기도록 했다.",
+  "nellie-bly.moment.3":
+    "남편이 세상을 떠난 뒤, 블라이는 직접 남편의 아이언클래드 제조회사를 경영하며 자신의 이름으로 특허를 보유했고, 체육관과 도서관 등 직원 복지 프로그램을 도입했다.",
+  "nellie-bly.turning_point.1":
+    "블라이는 경력 내내 잠입 취재 저널리즘에서 제1차 세계대전 동부 전선을 취재하는 종군기자로, 다시 제조회사를 경영하는 기업인으로 옮겨갔다 — 하나로 이어진 경력이 아니라 실질적으로 서로 다른 세 개의 역할이었다.",
+  "nellie-bly.interpretation.achievement.1":
+    "확실한 탈출구가 없는 구체적이고 심각한 위험을 감수했으며, 그것이 촉발한 대배심 조사로 독립적으로 뒷받침되는 이 사례는 프로필의 높은 위험 감수성(risk_tolerance) 점수를 뒷받침하는 핵심 근거다.",
+  "nellie-bly.interpretation.turning_point.1":
+    "각기 실질적인 성과를 남긴, 서로 뚜렷이 다른 역할들의 이러한 연속은 프로필의 분야 횡단성(cross_domain_range) 점수와 부합한다.",
+
+  /* -------------------------------------------------------------- Roster25: Carl Jung */
+  "carl-jung.achievement.1":
+    "융은 리비도 이론이 전적으로 성적 기반에 있다는 점을 두고 프로이트와 결정적으로 결별했다. 이 결별은 양측이 주고받은 서신 기록으로 뒷받침되며, 그는 정신분석 운동 내 프로이트의 후계자 지위를 잃는 것을 감수했다.",
+  "carl-jung.achievement.2":
+    "결별 이후 융은 자신의 분석심리학 운동과 훈련 기관(취리히 융 연구소)을 설립했고, 이후 수십 년간 그 방향에 대한 이론적 권위를 유지했다.",
+  "carl-jung.moment.1":
+    "1913년부터 1930년까지 융은 자신의 내면 경험을 담은 개인 기록인 『레드 북』을 남겼다. 외부 독자나 직업적 요구 없이, 전적으로 자신이 직접 그린 정교한 삽화로 채운 지속적인 작업이었다.",
+  "carl-jung.moment.2":
+    "융은 프로이트의 후계자라는 안정적이고 명예로운 지위를 스스로 포기하고, 자신만의 독립적인 이론적 방향을 추구했다.",
+  "carl-jung.turning_point.1":
+    "프로이트와 결별한 뒤, 융은 전기 작가들이 심각한 개인적 위기로 묘사하는 시기(대략 1913~1919년)를 거치는 동안에도 자기 주도적인 심리학적 탐구를 이어갔고, 그 시기가 지나서야 새로운 이론적 저작을 다시 발표하기 시작했다.",
+  "carl-jung.turning_point.2":
+    "개인적 위기와 독자적인 연구를 거친 뒤, 융은 이전에 받아들였던 프로이트식 리비도 이론을 상당 부분 수정했다. 기존의 핵심 입장을 끝까지 고수하는 대신 공개적으로 결별한 구체적인 사례다.",
+  "carl-jung.interpretation.moment.1":
+    "외부 독자도, 직업적 요구도 없는 지속적이고 날짜가 확인되는 이 작업은 프로필의 높은 자기 규율(discipline) 및 주도적 행위성(proactive_agency) 점수를 뒷받침하는 핵심 근거다.",
+  "carl-jung.interpretation.turning_point.1":
+    "길게 이어진, 해결되지 않은 개인적 위기 속에서도 서둘러 매듭짓지 않고 자기 주도적 작업을 이어간 것은 프로필의 모호성 감내(ambiguity_tolerance) 점수와 부합한다.",
+
+  /* ------------------------------------------------------------- Roster25: Vera Rubin */
+  "vera-rubin.achievement.1":
+    "루빈은 동료 켄트 포드와 함께 은하 회전을 관측하여, 나선은하 외곽부의 별들이 중심에서 멀어져도 속도가 줄지 않고 일정하게 유지된다는 사실을 밝혔다 — 오늘날 암흑물질의 가장 명확한 관측 증거로 꼽히는 '평평한 회전 곡선'이다.",
+  "vera-rubin.achievement.2":
+    "루빈은 수십 년에 걸쳐, 여성 교수가 한 명도 없는 천문학과에는 그 점을 명시적으로 지적하는 추천서를 써 보내고, 학회 발표자 명단을 살펴 여성 연사를 더 초청하라고 요구하는 활동을 꾸준히 이어갔다.",
+  "vera-rubin.moment.1":
+    "1950년, 학과장이 그녀가 아직 미국천문학회 회원이 아니라는 이유로 자신의 이름으로 그녀의 논문 결과를 학회에서 발표하겠다고 하자, 루빈은 '아니요, 제가 갈 수 있어요'라고 답했고, 실제로 그렇게 했다.",
+  "vera-rubin.moment.2":
+    "여성의 팔로마 천문대 망원경 사용이 공식 허용되기 전, 남성 전용 화장실만 있다는 말을 들은 루빈은 치마 모양으로 오린 종이를 화장실 문의 '남성' 표지판 위에 붙이고 '여성'이라는 글자를 더했다.",
+  "vera-rubin.moment.3":
+    "한 학술지 편집자가 1962년 논문 게재는 승인하면서도 그녀의 학생 공동저자들의 이름을 명시하지 않겠다고 하자, 루빈은 '그렇다면 논문을 철회하겠습니다'라고 말했고, 편집자는 결국 물러섰다.",
+  "vera-rubin.turning_point.1":
+    "1964년 루빈은 관측 활동이 자신에게 더 중요해졌다는 이유로 조지타운에서의 10년 교직을 그만두었고, 이후 1904년 이래 여성 직원이 전무했던 카네기 연구소 지자기부(DTM)에 사전 지원 절차도 없이 직접 찾아가 일자리를 요청했다.",
+  "vera-rubin.interpretation.moment.1":
+    "자신의 연구 성과에 대한 저작권을 넘기지 않겠다는 이 직접 인용된 거절은 프로필의 독립적 사고(independent_thinking) 점수를 뒷받침하는 구체적인 기록이다.",
+  "vera-rubin.interpretation.turning_point.1":
+    "정식 지원 절차를 기다리지 않고 사전 신청도 없이 문을 열지 않는 부서로 직접 찾아간 것은 프로필의 자율성 욕구(autonomy_need) 점수를 뒷받침하는 근거다.",
+
+  /* --------------------------------------------- Roster25: Subrahmanyan Chandrasekhar */
+  "subrahmanyan-chandrasekhar.achievement.1":
+    "1930년 영국행 배 위에서, 대학원 연구를 시작하기도 전에 찬드라세카르는 상대론적 축퇴 전자 기체 계산을 완성했다 — 충분히 무거운 백색왜성은 스스로 붕괴를 막을 수 없다는 결론으로, 수십 년 뒤 블랙홀 이론의 토대가 된 추론이다.",
+  "subrahmanyan-chandrasekhar.achievement.2":
+    "1983년 찬드라세카르는 바로 그 1930년대 연구로 노벨 물리학상을 수상했다 — 처음 그 결론을 완성한 지 50년 만이었다.",
+  "subrahmanyan-chandrasekhar.moment.1":
+    "1935년 1월 왕립천문학회 회의에서 아서 에딩턴은 찬드라세카르의 정확한 계산이 틀렸다고 공개적으로 단언했다. 파울러와 러셀을 포함해 그 자리에 있던 어느 원로 물리학자도 그를 옹호하지 않았는데, 이는 에딩턴의 압도적 권위에 위축되었기 때문으로 알려져 있다.",
+  "subrahmanyan-chandrasekhar.moment.2":
+    "1952년부터 1971년까지 찬드라세카르는 천체물리학 저널의 편집 실무 — 제작, 심사, 학계 내 조율 — 를 직접 챙기면서도 연구와 강의 성과를 조금도 줄이지 않았다. 한 동료는 훗날 이를 두고 그가 애초에 의도했던 것보다 훨씬 오래 짊어진 부담이었다고 평했다.",
+  "subrahmanyan-chandrasekhar.turning_point.1":
+    "1946년 찬드라세카르는 시카고 대학교 급여의 약 두 배를 제시받으며 헨리 노리스 러셀의 옛 자리를 이어받으라는 프린스턴 대학교의 제안을 거절하고, 실제 연구 여건이 더 낫지 않은 곳에 남기로 했다.",
+  "subrahmanyan-chandrasekhar.turning_point.2":
+    "에딩턴 사건으로 영국에서의 길이 막힌 뒤, 찬드라세카르는 이후 50년 동안 대략 10년마다 새로운 연구 분야로 옮겨가며 경력을 다시 쌓아갔다 — 항성 역학, 복사 전달, 유체동역학적 안정성, 일반상대성이론 순이었으며, 같은 자리에서 계속 맞서 싸우는 대신 방향을 바꾸는 쪽을 택했다.",
+  "subrahmanyan-chandrasekhar.interpretation.moment.1":
+    "반박하거나 공개적으로 맞서지 않고 그 분야를 떠나는 쪽을 택한, 수년에 걸친 실제 전문적 굴욕은 프로필의 갈등 감내(conflict_tolerance) 점수가 양면적으로 평가된 근거다.",
+  "subrahmanyan-chandrasekhar.interpretation.turning_point.2":
+    "거듭된 정면 대응 대신 방향을 바꾸는 이러한 수십 년에 걸친 지속적 패턴은 프로필의 끈기(persistence) 및 적응력(adaptability) 점수를 뒷받침하는 구체적인 사례다.",
+
+  /* -------------------------------------------------------- Roster25: Fridtjof Nansen */
+  "fridtjof-nansen.achievement.1":
+    "난센은 바다 얼음이 북극을 가로질러 표류한다는 자신만의 검증되지 않은 이론에 1893년 프람호 탐험 전체를 걸었다. 왕립지리학회의 매클린톡 제독이 이를 두고 '학회가 접한 것 중 가장 무모한 계획'이라 평했음에도 그는 계획을 밀어붙였다.",
+  "fridtjof-nansen.achievement.2":
+    "난센은 출발 전 대략 9년을 준비에 쏟았으며, 조선업자 콜린 아처와 함께 '계획에 계획을 거듭하고' '모형에 모형을 거듭하는' 반복적인 선박 설계 과정을 거쳤다.",
+  "fridtjof-nansen.moment.1":
+    "1888년 그린란드 빙상을 횡단하던 중, 난센은 의도적으로 모든 퇴로를 없앴다. 그는 훗날 그 선택을 '죽음이냐, 그린란드 서해안이냐'였다고 표현했다.",
+  "fridtjof-nansen.moment.2":
+    "프람호의 건조 품질을 낮춰 비용을 아끼는 대신, 난센은 자금 부족분을 직접 부담했다. 그는 '비용을 너무 따지는 것이 옳다고 생각하지 않았다'고 썼다.",
+  "fridtjof-nansen.turning_point.1":
+    "1888년 그린란드 횡단 중 스스로 퇴로를 끊은 난센의 결정은 앞으로 나아가는 것만을 유일한 선택지로 남겼다 — 예비책을 마련해 둔 것이 아니라 대안 자체를 의도적으로 없앤 것이었다.",
+  "fridtjof-nansen.interpretation.moment.1":
+    "단순히 조심성이 없었던 것이 아니라, 스스로 탈출 수단을 없앤 의도적이고 날짜가 확인되는 이 결정은 프로필의 높은 위험 감수성(risk_tolerance) 점수를 뒷받침하는 핵심 근거다.",
+  "fridtjof-nansen.interpretation.achievement.2":
+    "출발 전 9년에 걸친 반복적 준비 과정은 프로필의 계획 지향(planning_orientation) 점수를 뒷받침하는 근거다.",
+
+  /* ------------------------------------------------------- Roster25: Isabella Bird */
+  "isabella-bird.achievement.1":
+    "1878년 일본 내륙을 여행하며 쓴 버드의 편지는 이후 『일본 오지 기행』으로 출간되었다. 그녀는 만성 통증과 출발 전 극심한 두려움에도 불구하고 스스로 선택한 지역과 상황을 상세히 기록했다.",
+  "isabella-bird.achievement.2":
+    "버드는 첫 책의 인세로 스코틀랜드 하이랜드의 빈곤한 지역 공동체를 위해 심해 어선을 마련해 주었다.",
+  "isabella-bird.moment.1":
+    "일본으로 떠나기 전, 버드는 편지에 극심한 두려움을 기록했다 — '겁먹는 것에 대한 두려움, 거칠게 봉변당하는 것에 대한 두려움... 나는 종종 이 계획을 포기하고 싶었지만, 겁쟁이가 되는 것이 부끄러웠다' — 그럼에도 그녀는 여정을 강행했다.",
+  "isabella-bird.moment.2":
+    "버드는 처음부터 믿지 못했던 안내인 이토를 아무런 추천서도 없이 고용했다 — '나는 그 소년을 의심하고 싫어했다' — 여정에 실질적으로 필요했기 때문이다.",
+  "isabella-bird.moment.3":
+    "그녀의 편지에는 어느 사찰의 건축과 종교 유물에 대한 유난히 상세하고 지속적인 관찰이 기록되어 있는데, 한 불상에 대해서는 '스핑크스보다 나을 것 없을 만큼 눈, 코, 입이 닳아 있다'고 묘사했다.",
+  "isabella-bird.turning_point.1":
+    "만성적인 척추 질환의 치료책으로 처방된 여행은 뜻밖에도 버드를 지치게 하기는커녕 활력을 주었다 — 1854년의 7개월에 걸친 항해 이후 그녀는 '건강이 좋아지고 생기가 넘친다'고 기록되었으며, 이는 그녀와 의사들이 그녀가 견딜 수 있으리라 여겼던 것을 뒤집는 결과였다.",
+  "isabella-bird.interpretation.moment.1":
+    "두려움이 없어서가 아니라 두려움을 무릅쓰고 행동했다는 기록은 프로필의 위험 감수성(risk_tolerance) 점수가 양면적으로 평가된 근거다.",
+  "isabella-bird.interpretation.turning_point.1":
+    "환경 변화에 대한 이례적이고 기록으로 확인되는 긍정적 반응은 프로필의 적응력(adaptability) 점수와 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

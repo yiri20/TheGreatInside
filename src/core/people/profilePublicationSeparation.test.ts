@@ -94,25 +94,38 @@ describe("Case 3 — published, direct-only, NOT match-eligible", () => {
 
 describe("Case 4 — existing real roster behavior is unchanged", () => {
   // Roster24 (2026-09, docs/checkpoints/roster24-evidence-approved-
-  // publications.md) is the first production use of this architecture:
+  // publications.md) was the first production use of this architecture:
   // Giuseppe Garibaldi and Anton Chekhov are evidence_approved, published,
-  // directory-visible, and honestly non-match-eligible, raising these
-  // baselines from 125/124 to 127/126. The match-eligible SET itself is
-  // byte-identical to before (see the next test) — these two are the only
-  // people whose isDirectoryVisible now diverges from isMatchEligible.
-  const KNOWN_DIVERGENT_SLUGS = new Set(["giuseppe-garibaldi", "anton-chekhov"]);
+  // directory-visible, and honestly non-match-eligible, raising the
+  // baselines from 125/124 to 127/126. Roster25 (docs/checkpoints/
+  // roster25-fast-production-batch.md) added four more of the same kind
+  // (Vera Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, Isabella
+  // Bird) plus two ordinary pre-existing-qa_passed additions that ARE
+  // match-eligible (Nellie Bly, Carl Jung — these mirror normally and are
+  // not divergent), raising the baselines again to 133/132. The
+  // match-eligible SET grew by exactly those two (124 -> 126, see the next
+  // test) — the six non-eligible-but-visible people below are the only
+  // ones whose isDirectoryVisible diverges from isMatchEligible.
+  const KNOWN_DIVERGENT_SLUGS = new Set([
+    "giuseppe-garibaldi",
+    "anton-chekhov",
+    "vera-rubin",
+    "subrahmanyan-chandrasekhar",
+    "fridtjof-nansen",
+    "isabella-bird",
+  ]);
 
-  it("still exactly 127 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(127);
-    expect(PEOPLE_INDEX).toHaveLength(127);
+  it("still exactly 133 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(133);
+    expect(PEOPLE_INDEX).toHaveLength(133);
   });
 
-  it("still exactly 126 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 132 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(126);
+    expect(visible).toHaveLength(132);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT roster24's two deliberately-divergent additions", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the six deliberately-divergent roster24/25 additions", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);
@@ -123,8 +136,12 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     }
   });
 
-  it("the match-eligible set is exactly what it was before this architecture change (124, unchanged by roster24)", () => {
-    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(124);
+  it("the match-eligible set grew by exactly Nellie Bly and Carl Jung (124 -> 126); no other person's eligibility changed", () => {
+    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(126);
+    const nellieBly = SEED_PEOPLE.find((p) => p.slug === "nellie-bly");
+    const carlJung = SEED_PEOPLE.find((p) => p.slug === "carl-jung");
+    expect(nellieBly?.isMatchEligible).toBe(true);
+    expect(carlJung?.isMatchEligible).toBe(true);
   });
 
   it("Zheng He's existing intended behavior is unchanged: published, not match-eligible, not directory-visible", () => {

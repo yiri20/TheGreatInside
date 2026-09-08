@@ -229,9 +229,21 @@
   },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-08T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q230299) before scoring. Depth-focused this cycle: the asylum exposé is unusually well corroborated by an independent institutional record (the grand jury investigation it triggered and the documented $1M city budget increase that followed) -- risk_tolerance, impact_motivation, detail_orientation, and ambiguity_tolerance all draw on this independent confirmation, not her own account alone; discipline, social_assertiveness, and persuasiveness draw on the newspaper's own independent publication record rather than her memoir alone. Scored to 23 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q230299) before scoring. Depth-focused this cycle: the asylum exposé is unusually well corroborated by an independent institutional record (the grand jury investigation it triggered and the documented $1M city budget increase that followed) -- risk_tolerance, impact_motivation, detail_orientation, and ambiguity_tolerance all draw on this independent confirmation, not her own account alone; discipline, social_assertiveness, and persuasiveness draw on the newspaper's own independent publication record rather than her memoir alone. Scored to 23 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run.\n\nROSTER25 FAST-PATH INTEGRITY AUDIT (2026-09-08): pre-PR21 qa_passed candidate; not rescored merely for predating the current architecture. Mechanical row review found no semantic mismatches, duplicated inference, or invalid evidenceType/confidence pairing; risk_tolerance (85, the sole extreme score) is legitimately multi-source (her own account plus the independent grand-jury institutional confirmation), unlike the single-source 85+ cases corrected elsewhere in this batch. computedEligibility unchanged (23/0.676 coverage, eligible true) -- preserved as qa_passed, no rows altered."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nellie-bly-loc-myers-1890.jpg",
+    "width": 926,
+    "height": 1396,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (life+70 or fewer; Library of Congress Prints and Photographs Division, digital ID cph.3b22819)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nellie_Bly_2.jpg",
+    "attribution": "H. J. Myers, c. 1890 — Library of Congress",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nellie_Bly_2.jpg",
+    "kind": "likeness"
   },
   "computedEligibility": {
     "scoredAttributeCount": 23,

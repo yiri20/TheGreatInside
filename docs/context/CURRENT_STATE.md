@@ -4,10 +4,36 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-08 (Roster24: evidence-approved publications,
-`feat/roster24-evidence-approved-publications`, unmerged — the first real
-production use of the profile-publication/match-eligibility separation
-architecture (PR #21, merged to `main` at `bd32497`). Giuseppe Garibaldi
+Last updated: 2026-09-08 (Roster25: fast production batch,
+`feat/roster25-fast-production-batch`, unmerged — a fixed six-candidate
+intake, no new candidate discovery, audited proportional to risk rather
+than another slow methodology cycle. Nellie Bly and Carl Jung were
+already `qa_passed`/match-eligible and preserved as-is after a fast-path
+integrity check (no rescoring). Vera Rubin, Subrahmanyan Chandrasekhar,
+Fridtjof Nansen, and Isabella Bird — all honestly failing
+`eligibility_v2`, none rescued — passed a first-time evidence-approval
+audit; two received a `RUBRIC_CORRECTION` for a single-source score that
+had drifted into the 85+ band, both corrections moving the score *down*
+(Rubin's `curiosity` 88→78; Chandrasekhar's `mastery_orientation` 85→78).
+All six promoted via `generateRoster25.ts` (same architecture as
+`generateRoster24.ts`: `preparePersonSeedForPromotion()`, never checks
+`computedEligibility.eligible`), with real rights-clear portraits (LOC,
+ETH-Bibliothek, AIP Emilio Segrè Visual Archives, NYPL) and full EN/KO
+editorial content. The match-eligible set grew by exactly Bly and Jung
+(124→126, mechanically verified — no other person's eligibility
+changed); `dispersion.generated.ts` was regenerated but calibration
+anchors were left unchanged (drift ≤0.006, negligible) and a
+matching-health simulation confirmed no domination (max #1 frequency
+10.5%, Warren Buffett). Roster: **133 total / 132
+default-directory-visible / 126 match-eligible** (was 127/126/124). Zheng
+He, Giuseppe Garibaldi, and Anton Chekhov unchanged. Full record:
+[`roster25-fast-production-batch.md`](../checkpoints/roster25-fast-production-batch.md).
+
+Prior update, 2026-09-08 (Roster24: evidence-approved publications,
+`feat/roster24-evidence-approved-publications`, merged to `main` as PR
+#22, merge commit `23e403cdfe44d57b55633901248119676091df36` — the first
+real production use of the profile-publication/match-eligibility
+separation architecture (PR #21, merged to `main` at `bd32497`). Giuseppe Garibaldi
 (roster22) and Anton Chekhov (roster23) — both honestly failing
 `eligibility_v2` on 3 of 4 criteria, neither rescued — passed a new
 row-by-row evidence-approval audit (all 17 and all 14 rows

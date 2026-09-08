@@ -226,9 +226,21 @@
   },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-08T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q41532) before scoring. Depth-focused this cycle: rows corroborated by both sides of the surviving Freud/Jung correspondence and by Bair's independent biography (independent_thinking, conflict_tolerance, collaboration, autonomy_need, belief_updating, risk_tolerance) were prioritized for the higher confidence band, distinguished from rows resting mainly on Jung's own later self-interpretation. Scored to 23 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q41532) before scoring. Depth-focused this cycle: rows corroborated by both sides of the surviving Freud/Jung correspondence and by Bair's independent biography (independent_thinking, conflict_tolerance, collaboration, autonomy_need, belief_updating, risk_tolerance) were prioritized for the higher confidence band, distinguished from rows resting mainly on Jung's own later self-interpretation. Scored to 23 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run.\n\nROSTER25 FAST-PATH INTEGRITY AUDIT (2026-09-08): pre-PR21 qa_passed candidate; not rescored merely for predating the current architecture. Mechanical row review confirmed provenance independence for the Freud-related rows (independent_thinking, conflict_tolerance, collaboration, autonomy_need, belief_updating, risk_tolerance are explicitly corroborated from BOTH sides of the surviving correspondence, not Jung's framing alone) and found no diagnostic/clinical-labeling language anywhere in the file -- every row describes documented professional/theoretical conduct (the Freud break, the Red Book practice, the analytical psychology institute), never a personal diagnosis. No semantic mismatches, unsupported extremes, or invalid evidenceType/confidence pairing found. computedEligibility unchanged (23/0.682 coverage, eligible true) -- preserved as qa_passed, no rows altered."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/carl-jung-eth-bib-1935.jpg",
+    "width": 1297,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public Domain Mark 1.0, applied by the copyright holder (ETH-Bibliothek)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Jung,_Carl_Gustav_(1875-1961)-Portrait-Portr_14163_(cropped).tif",
+    "attribution": "Unknown photographer, c. 1935 — ETH-Bibliothek Zürich, Bildarchiv",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Jung,_Carl_Gustav_(1875-1961)-Portrait-Portr_14163_(cropped).tif",
+    "kind": "likeness"
   },
   "computedEligibility": {
     "scoredAttributeCount": 23,

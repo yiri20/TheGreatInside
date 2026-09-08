@@ -575,3 +575,24 @@ raises the target.
   to before. Roster: **127 total / 126 default-directory-visible / 124
   match-eligible**. Full record:
   [`roster24-evidence-approved-publications.md`](roster24-evidence-approved-publications.md).
+
+- **Roster25: fast production batch (2026-09,
+  `feat/roster25-fast-production-batch`)**: a fixed six-candidate intake
+  (no new discovery), audited proportional to risk rather than another
+  slow methodology cycle. Nellie Bly and Carl Jung were already
+  `qa_passed`/match-eligible and preserved as-is after a fast-path
+  integrity check. Vera Rubin, Subrahmanyan Chandrasekhar, Fridtjof
+  Nansen, and Isabella Bird — all honestly failing `eligibility_v2`,
+  none rescued — passed a first-time evidence-approval audit; two
+  received a `RUBRIC_CORRECTION` for a single-source score that had
+  drifted into the 85+ band (Rubin's `curiosity` 88→78, Chandrasekhar's
+  `mastery_orientation` 85→78 — both corrections move scores *down*).
+  All six promoted via `generateRoster25.ts` (same architecture as
+  `generateRoster24.ts`), with real rights-clear portraits and full EN/KO
+  editorial content. The match-eligible set grew by exactly Bly and Jung
+  (124→126, mechanically verified — no other person's eligibility
+  changed); dispersion was regenerated but calibration anchors were left
+  unchanged (drift ≤0.006, negligible) and a matching-health simulation
+  confirmed no domination (max #1 frequency 10.5%). Roster: **133 total /
+  132 default-directory-visible / 126 match-eligible**. Full record:
+  [`roster25-fast-production-batch.md`](roster25-fast-production-batch.md).
