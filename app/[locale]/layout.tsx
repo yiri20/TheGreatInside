@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/next";
 import { LAUNCH_LOCALES, type Locale } from "@core/types";
 import { notoSerifKR } from "@lib/fonts";
 import { siteUrl } from "@lib/env";
@@ -55,6 +56,7 @@ export default async function LocaleLayout({
         <PendingResultsSync />
         {children}
         <Footer locale={locale as Locale} />
+        <Analytics />
       </body>
     </html>
   );
