@@ -3588,6 +3588,246 @@ export const EDITORIAL_EN: Record<string, string> = {
     "His capability approach directly challenged the dominant GDP/income-based measure of economic welfare, a departure from prevailing disciplinary convention that took decades to reshape how development is measured internationally.",
   "amartya-sen.interpretation.turning_point.1":
     "Directly challenging the dominant measurement convention of his discipline, and sustaining that challenge until it reshaped the field, is the basis for the profile's independent_thinking score.",
+
+  // Roster29 fifteen-person fast production batch (2026-09).
+  "gabriel-garcia-marquez.achievement.1":
+    "Wrote One Hundred Years of Solitude (1967) during an intensive roughly 18-month period while in serious financial difficulty, going on to win the 1982 Nobel Prize in Literature.",
+  "gabriel-garcia-marquez.achievement.2":
+    "By his own account, modeled the narrative voice of his fiction -- recounting fantastical events in the same matter-of-fact tone as everyday ones -- directly on his grandmother Tranquilina Iguaran's oral storytelling.",
+  "gabriel-garcia-marquez.achievement.3":
+    "Sustained parallel careers in journalism and fiction across his life, later founding the Fundacion Gabo to mentor young Latin American journalists.",
+  "gabriel-garcia-marquez.moment.1":
+    "Worked as a journalist and largely unrecognized novelist for roughly two decades before One Hundred Years of Solitude's success.",
+  "gabriel-garcia-marquez.moment.2":
+    "While writing the novel, he and his wife went into debt -- he sold his car and pawned household goods -- to sustain uninterrupted writing time, with no guarantee the book would be published or succeed.",
+  "gabriel-garcia-marquez.turning_point.1":
+    "A short editorial he wrote at an editor's request for the newspaper El Espectador impressed the staff enough to turn into an unplanned, ongoing column -- the opening that launched his journalism career.",
+  "gabriel-garcia-marquez.interpretation.moment.1":
+    "Two decades of largely unrecognized work before his breakthrough is the basis for the profile's persistence score.",
+  "gabriel-garcia-marquez.interpretation.moment.2":
+    "Sustaining serious financial hardship for an uncertain creative outcome is the basis for the profile's risk_tolerance score.",
+  "gabriel-garcia-marquez.interpretation.turning_point.1":
+    "Recognizing and acting on an unplanned professional opening is the basis for the profile's opportunity_sensing score.",
+
+  "murasaki-shikibu.achievement.1":
+    "Wrote The Tale of Genji (c. 1000-1012), a 54-chapter work whose psychological complexity and narrative structure are credited by literary scholars as unprecedented for its era.",
+  "murasaki-shikibu.achievement.2":
+    "Pursued self-directed study of Chinese classical literature, a domain considered inappropriate for women of her class in Heian-era Japan.",
+  "murasaki-shikibu.achievement.3":
+    "Tutored Empress Shoshi in Chinese classics while serving as a lady-in-waiting at the Heian court, applying scholarship then considered restricted to men directly in court service.",
+  "murasaki-shikibu.moment.1":
+    "Her own diary describes deliberately concealing her Chinese-classics knowledge in public while continuing to study it privately.",
+  "murasaki-shikibu.moment.2":
+    "Her diary includes a notably critical assessment of a contemporary court writer, showing she did not simply avoid registering disagreement in a status-conscious environment.",
+  "murasaki-shikibu.interpretation.moment.1":
+    "Deliberately pursuing study on her own terms while navigating a social constraint against it is the basis for the profile's independent_thinking score.",
+
+  "zora-neale-hurston.achievement.1":
+    "Trained in anthropology under Franz Boas at Barnard College and conducted extensive original ethnographic fieldwork collecting African American and Caribbean folklore, published in Mules and Men and Tell My Horse.",
+  "zora-neale-hurston.achievement.2":
+    "Sustained substantial output across fiction (Their Eyes Were Watching God), academic anthropology, journalism, and playwriting over her career.",
+  "zora-neale-hurston.achievement.3":
+    "Used Black Southern dialect as a literary narrative voice rather than only as dialogue framing, a distinctive stylistic choice noted by literary critics.",
+  "zora-neale-hurston.moment.1":
+    "Shaved years off her stated age to qualify for free public high school education as an adult, later working as a maid and other jobs to fund her education and fieldwork.",
+  "zora-neale-hurston.moment.2":
+    "During the Harlem Renaissance, publicly rejected the expectation that Black writers should write primarily as political representatives of racial struggle, prioritizing her own artistic interests -- a stance that put her at odds with some contemporaries.",
+  "zora-neale-hurston.interpretation.moment.1":
+    "Finding an unconventional path to an education she could not otherwise afford is the basis for the profile's resourcefulness score.",
+  "zora-neale-hurston.interpretation.moment.2":
+    "Holding an artistic position at odds with her own literary community's expectations is the basis for the profile's independent_thinking score.",
+
+  "seneca.achievement.1":
+    "Produced substantial surviving work across four distinct domains -- Stoic philosophy (Letters to Lucilius and other essays), tragic drama (Medea, Thyestes, and others, later shaping European Renaissance theatre), natural science (Naturales Quaestiones), and practical statecraft as Nero's advisor.",
+  "seneca.achievement.2":
+    "Survived eight years of exile on Corsica (41-49 CE, on adultery charges under Claudius) and rebuilt his career to become one of Rome's most powerful advisors.",
+  "seneca.achievement.3":
+    "Functioned as Nero's speechwriter for several years early in the reign; a number of Nero's public addresses from that period are historically attributed to Seneca's composition.",
+  "seneca.moment.1":
+    "After years of remaining engaged at Nero's court, formally requested retirement and offered to return his accumulated wealth -- Tacitus records the request; Nero refused the wealth but granted the withdrawal.",
+  "seneca.moment.2":
+    "Implicated in the 65 CE Pisonian conspiracy, Tacitus's near-contemporary account describes him facing his forced suicide calmly and methodically, continuing philosophical instruction to those present.",
+  "seneca.turning_point.1":
+    "Remained at Nero's court for years after clear warning signs of danger -- including publicly helping justify Nero's 59 CE matricide of Agrippina to the Senate -- continuing to accept proximity to increasingly dangerous power in exchange for influence, a choice that ultimately cost him his life.",
+  "seneca.interpretation.moment.1":
+    "Seeking independence from an increasingly compromised position, after years of remaining engaged, is the basis for the profile's autonomy_need score.",
+  "seneca.interpretation.moment.2":
+    "Facing death calmly and methodically, by a reliable near-contemporary account, is the basis for the profile's decisiveness score.",
+  "seneca.interpretation.turning_point.1":
+    "Continuing to accept proximity to escalating danger in exchange for influence is the basis for the profile's risk_tolerance score.",
+
+  "jean-piaget.achievement.1":
+    "Developed a comprehensive stage theory of cognitive development (sensorimotor, preoperational, concrete operational, formal operational), integrating decades of clinical observation into one coherent developmental framework.",
+  "jean-piaget.achievement.2":
+    "Developed the clinical interview method -- presenting children with constructed scenarios to observe their reasoning directly -- as a systematic, replicable technique that shaped developmental psychology's research methodology.",
+  "jean-piaget.achievement.3":
+    "Sustained an unusually prolific research and publication career (over 60 books and hundreds of articles) across six decades, founding and directing the International Centre for Genetic Epistemology in Geneva.",
+  "jean-piaget.moment.1":
+    "Published an early scientific paper, on an albino sparrow, as a youth, sustaining active naturalist and scientific interests before formally shifting from biology and malacology into developmental psychology.",
+  "jean-piaget.interpretation.moment.1":
+    "An early, self-directed scientific publication and a documented shift across genuinely distinct fields is the basis for the profile's curiosity score.",
+
+  "dorothea-lange.achievement.1":
+    "Left a financially secure commercial portrait studio during the Depression to photograph breadlines and unemployment, and later migrant labor conditions for the Farm Security Administration.",
+  "dorothea-lange.achievement.2":
+    "Recorded detailed field notes alongside her photographs documenting subjects' specific circumstances and quotes -- the practice behind the 'Migrant Mother' image, among the era's most recognized documentary photographs.",
+  "dorothea-lange.achievement.3":
+    "Photographed Japanese American internment camps in a manner documenting harsh conditions rather than the neutral or favorable images the commissioning War Relocation Authority expected -- work considered critical enough that the US Army impounded many of the images for decades.",
+  "dorothea-lange.moment.1":
+    "Self-initiated leaving her established, financially secure portrait studio business to photograph Depression-era breadlines and unemployment before receiving any government commission.",
+  "dorothea-lange.moment.2":
+    "Continued demanding documentary field work despite a childhood polio-related disability, which she later described in interviews as shaping her empathetic approach to subjects.",
+  "dorothea-lange.interpretation.moment.1":
+    "Leaving financial security to pursue uncommissioned documentary work is the basis for the profile's proactive_agency score.",
+  "dorothea-lange.interpretation.moment.2":
+    "Sustaining demanding field work within a real physical constraint is the basis for the profile's resourcefulness score.",
+
+  "katherine-dunham.achievement.1":
+    "Developed the Dunham Technique, a dance methodology synthesizing Caribbean and African dance forms with Western ballet and modern dance, still used in dance training today.",
+  "katherine-dunham.achievement.2":
+    "Earned a degree in anthropology from the University of Chicago and conducted formal fieldwork in Haiti and Jamaica on Caribbean dance and ritual traditions, applying the research directly to her choreography.",
+  "katherine-dunham.achievement.3":
+    "Sustained substantive work across professional dance performance, choreography, anthropological fieldwork and publication, and civil-rights activism across a seven-decade career.",
+  "katherine-dunham.moment.1":
+    "Publicly refused to perform for segregated audiences and gave a speech condemning racial discrimination from the stage after learning a theater had denied entry to Black patrons -- at real professional and financial cost during the segregation era.",
+  "katherine-dunham.moment.2":
+    "At age 82, undertook a 47-day hunger strike protesting US immigration policy toward Haitian refugees.",
+  "katherine-dunham.interpretation.moment.1":
+    "Directly confronting segregation from the stage at real professional cost is the basis for the profile's conflict_tolerance score.",
+  "katherine-dunham.interpretation.moment.2":
+    "A sustained, physically demanding protest late in life over a specific policy is the basis for the profile's impact_motivation score.",
+
+  "wilma-rudolph.achievement.1":
+    "Became the first American woman to win three gold medals in track and field at a single Olympic Games, at Rome in 1960.",
+  "wilma-rudolph.achievement.2":
+    "Contracted polio at age 5 and wore a leg brace through much of her childhood, undergoing years of physical therapy before regaining the ability to walk unassisted and eventually becoming a world-class sprinter.",
+  "wilma-rudolph.achievement.3":
+    "Sustained a rigorous multi-year training regimen under coach Ed Temple at Tennessee State University leading up to the 1960 Olympics.",
+  "wilma-rudolph.moment.1":
+    "Insisted her homecoming victory parade in segregated Clarksville, Tennessee be racially integrated -- the first such integrated event in the city's history.",
+  "wilma-rudolph.turning_point.1":
+    "After her competitive career ended, founded the Wilma Rudolph Foundation to support young athletes, redirecting her platform toward coaching and youth advocacy.",
+  "wilma-rudolph.interpretation.moment.1":
+    "Using her own platform to force a specific, concrete change against local convention is the basis for the profile's impact_motivation score.",
+  "wilma-rudolph.interpretation.turning_point.1":
+    "Founding and leading a new organization once her competitive career ended is the basis for the profile's leadership_drive score.",
+
+  "william-wilberforce.achievement.1":
+    "Publicly committed, after his first major legislative defeat, to continue 'till we have wiped away this scandal'; reintroduced the same anti-slave-trade legislation in nearly every parliamentary session for roughly two decades until partial victory, then campaigned for full abolition for a further 26 years.",
+  "william-wilberforce.achievement.2":
+    "Founded, funded, or led over sixty distinct philanthropic and reform organizations across his lifetime, working with governments of either political persuasion depending on the issue rather than aligning with a single party.",
+  "william-wilberforce.achievement.3":
+    "Sustained a demanding double life of full parliamentary and campaign work plus a four-year personal writing project despite chronic, painful illness.",
+  "william-wilberforce.moment.1":
+    "Continued his public campaign despite direct threats to his physical safety and sustained pressure -- including real strain with his closest political friend -- to abandon the cause.",
+  "william-wilberforce.moment.2":
+    "Lived for years in a cohabiting, sustained collaborative organizing arrangement with a network of allied families as their acknowledged parliamentary leader, supplying the parliamentary platform a non-MP field-research partner explicitly could not.",
+  "william-wilberforce.turning_point.1":
+    "Rather than holding out only for a complete all-or-nothing victory, deliberately pursued a strategically sequenced, incremental legislative strategy -- accepting a partial win, cutting off roughly three-quarters of the trade, before continuing toward full abolition.",
+  "william-wilberforce.interpretation.moment.1":
+    "Continuing an unpopular public campaign despite direct personal threats and the strain of losing friendships over it is the basis for the profile's conflict_tolerance score.",
+  "william-wilberforce.interpretation.moment.2":
+    "A sustained, mutually-acknowledged division of labor with allies over years is the basis for the profile's collaboration score.",
+  "william-wilberforce.interpretation.turning_point.1":
+    "Deliberately accepting a partial legislative win as a strategic step toward a larger goal is the basis for the profile's planning_orientation score.",
+
+  "desmond-tutu.achievement.1":
+    "Became the first Black Anglican Archbishop of Cape Town and later chaired South Africa's Truth and Reconciliation Commission, helping shape and lead its restorative-justice framework for addressing apartheid-era violence.",
+  "desmond-tutu.achievement.2":
+    "Sustained direct, public criticism of the apartheid government for decades as a prominent church leader, including advocating international economic sanctions against South Africa -- credited by the 1984 Nobel Peace Prize citation with helping build the international pressure that contributed to apartheid's end.",
+  "desmond-tutu.achievement.3":
+    "Continued global human-rights advocacy for decades after apartheid's end through the international organization The Elders.",
+  "desmond-tutu.moment.1":
+    "During roughly two years of Truth and Reconciliation Commission hearings involving sustained exposure to graphic testimony of torture and killing, he was reported to have wept publicly only once -- during the April 1996 testimony of Singqokwana Ernest Malgas, a guerrilla crippled by 30 years of police torture.",
+  "desmond-tutu.moment.2":
+    "His 2021 obituary characterized him as having been 'a thorn in the National Party and ANC's side' alike -- maintaining critical independence from both apartheid-era power and the post-1994 government he had helped bring to office.",
+  "desmond-tutu.interpretation.moment.1":
+    "A single documented departure from otherwise sustained composure across two years of extreme material is the basis for the profile's discipline score.",
+  "desmond-tutu.interpretation.moment.2":
+    "Maintaining critical independence from both past opponents and the allies who succeeded them is the basis for the profile's independent_thinking score.",
+
+  "ratan-tata.achievement.1":
+    "Directed the large, internationally scrutinized acquisitions of Corus Steel (2007) and Jaguar Land Rover (2008), both significantly larger than Tata Group's existing operations at the time, expanding it from a primarily domestic Indian conglomerate into a multinational one.",
+  "ratan-tata.achievement.2":
+    "Began his career working manual-labor floor rotations at Tata Steel and Tata Motors before advancing through the company's ranks, rather than entering directly into senior management.",
+  "ratan-tata.achievement.3":
+    "Directed the Tata Nano project toward affordable transportation access for lower-income families, continuing to pursue it through years of engineering and manufacturing setbacks, including a factory-relocation crisis in West Bengal, despite its ultimately limited commercial success.",
+  "ratan-tata.moment.1":
+    "Personally attended funerals and directly supported the families of Tata employees killed in the November 2008 Mumbai terror attacks on the Taj Mahal Palace Hotel, distinct from the company's institutional response.",
+  "ratan-tata.moment.2":
+    "Personally led the abrupt October 2016 removal of Cyrus Mistry as chairman of Tata Sons, a contested corporate governance action that triggered a prolonged public legal battle.",
+  "ratan-tata.interpretation.moment.1":
+    "A direct, personal act of support distinct from the company's own institutional response is the basis for the profile's social_assertiveness score.",
+  "ratan-tata.interpretation.moment.2":
+    "A swift, high-stakes governance decision that remained publicly contested afterward is the basis for the profile's decisiveness score.",
+
+  "indira-gandhi.achievement.1":
+    "As Prime Minister, navigated the 1971 crisis by deliberately delaying military action for months, reasoning to Parliament that premature action would let a rival power frame the conflict unfavorably, ahead of the December 1971 war.",
+  "indira-gandhi.achievement.2":
+    "Consolidated her position within the Congress party and drove a major policy through Parliament by personal will, over the fierce internal opposition of the party elders who had installed her expecting a controllable figurehead.",
+  "indira-gandhi.achievement.3":
+    "Rebuilt her political career within roughly three years after a decisive electoral defeat and total loss of power, returning to Parliament within about eighteen months.",
+  "indira-gandhi.moment.1":
+    "In 1975, moved from an adverse court ruling to declaring a national Emergency within days, informing even her own inner circle only after the fact -- a 21-month period of internationally condemned authoritarian rule over which she held ultimate authority without curbing it.",
+  "indira-gandhi.moment.2":
+    "In 1984, ordered a military assault on a highly sensitive religious site despite foreseeable severe backlash.",
+  "indira-gandhi.turning_point.1":
+    "Ended the 21-month Emergency to return to open electoral competition once she judged the moment right, then lost the subsequent election decisively before rebuilding her political career.",
+  "indira-gandhi.interpretation.moment.1":
+    "A unilateral, high-risk exercise of power that she sustained for 21 months is the basis for the profile's risk_tolerance score.",
+  "indira-gandhi.interpretation.moment.2":
+    "Ordering high-risk military action with foreseeable severe consequences is the basis for the profile's risk_tolerance score.",
+  "indira-gandhi.interpretation.turning_point.1":
+    "Reversing course on a defining decision once circumstances changed is the basis for the profile's adaptability score.",
+
+  "ulysses-s-grant.achievement.1":
+    "Led Union forces to victory in the American Civil War, including the 1863 Vicksburg campaign's unconventional decision to cut his own army off from its supply lines, and accepted Robert E. Lee's surrender at Appomattox in 1865.",
+  "ulysses-s-grant.achievement.2":
+    "Dictated his Personal Memoirs while dying of an extremely painful terminal throat cancer, racing to finish before death specifically to provide for his family's financial security -- completed days before he died, and widely regarded by historians as unusually candid.",
+  "ulysses-s-grant.achievement.3":
+    "As president, personally directed federal enforcement against the Ku Klux Klan in the South through the 1870-71 Enforcement Acts, to protect Black citizens' voting rights.",
+  "ulysses-s-grant.moment.1":
+    "Failed at multiple civilian careers -- farming, real estate, working as a clerk in a leather goods store -- and resigned from the peacetime army under a cloud, before the Civil War gave him a path back to command.",
+  "ulysses-s-grant.moment.2":
+    "Freed the one enslaved person he personally owned, William Jones, in 1859 at his own financial cost during a period of hardship, when selling him would have been more profitable.",
+  "ulysses-s-grant.turning_point.1":
+    "Continued the attack on the second day of the Battle of Shiloh rather than retreating after the first day's near-defeat -- a documented instance of rapid, committed decision-making under pressure that shaped his reputation as a commander.",
+  "ulysses-s-grant.interpretation.moment.1":
+    "A string of civilian failures followed by rebuilding a career from a lower rank is the basis for the profile's persistence score.",
+  "ulysses-s-grant.interpretation.moment.2":
+    "Freeing the one person he enslaved at his own financial cost, rather than selling him when it would have been profitable, is the basis for the profile's belief_updating score.",
+  "ulysses-s-grant.interpretation.turning_point.1":
+    "Continuing to fight rather than retreating after a near-defeat is the basis for the profile's decisiveness score.",
+
+  "suleiman-the-magnificent.achievement.1":
+    "Compiled and sustained a comprehensive legal reform program (the Kanunname) across his 46-year reign, earning him the epithet 'Kanuni' (the Lawgiver).",
+  "suleiman-the-magnificent.achievement.2":
+    "Personally led major military campaigns, including the 1529 Siege of Vienna, rather than directing them from the capital -- a sustained pattern across his reign documented in both Ottoman chronicles and independent Venetian ambassadorial reports.",
+  "suleiman-the-magnificent.achievement.3":
+    "Wrote a substantial surviving body of poetry under the pen name 'Muhibbi,' including poems to his consort Hurrem Sultan -- one of the most extensive personal literary outputs of any Ottoman sultan, sustained alongside governing responsibilities for decades.",
+  "suleiman-the-magnificent.moment.1":
+    "Sustained an unusually close governing partnership with Grand Vizier Ibrahim Pasha for over a decade, delegating extensive authority to him -- before having him executed in 1536.",
+  "suleiman-the-magnificent.moment.2":
+    "Ordered the execution of his own son, Sehzade Mustafa, in 1553 on suspicion of conspiracy -- a decision historians regard as likely based on false accusations engineered by court rivals.",
+  "suleiman-the-magnificent.interpretation.moment.1":
+    "Eliminating even his closest, longest-serving ally once he judged him a threat is the basis for the profile's autonomy_need score.",
+  "suleiman-the-magnificent.interpretation.moment.2":
+    "A swift, dramatic decision with a real and lasting cost, based on accusations historians regard as likely false, is the basis for the profile's decisiveness score.",
+
+  "ibn-al-haytham.achievement.1":
+    "Conducted controlled experiments using a camera obscura and other purpose-built apparatus to test hypotheses about light and vision, among the earliest documented systematic uses of the experimental method, described in his own Book of Optics (Kitab al-Manazir, c. 1021).",
+  "ibn-al-haytham.achievement.2":
+    "Rejected the prevailing extramission theory of vision -- that the eye emits rays -- in favor of an evidence-based intromission theory, directly contradicting both Euclid's and Ptolemy's established authority and defending the position with his own experimental evidence.",
+  "ibn-al-haytham.achievement.3":
+    "Developed the pinhole-camera (camera obscura) as a research instrument to study light propagation, within a comprehensive theoretical framework unifying geometrical optics, the physiology of the eye, and the psychology of visual perception.",
+  "ibn-al-haytham.moment.1":
+    "Reportedly feigned madness for years while under house arrest after failing to deliver on a Nile-flood-control engineering promise made to the Fatimid caliph al-Hakim, continuing substantial scientific work during his prolonged confinement.",
+  "ibn-al-haytham.turning_point.1":
+    "Shifted from an ambitious engineering proposal for Nile flood control to sustained theoretical and experimental optics work once the practical project proved unworkable -- the redirection that produced the Book of Optics.",
+  "ibn-al-haytham.interpretation.moment.1":
+    "Continuing substantial scientific work through a prolonged, dangerous confinement is the basis for the profile's resourcefulness score.",
+  "ibn-al-haytham.interpretation.turning_point.1":
+    "Redirecting from a failed practical engineering proposal into a sustained, different research program is the basis for the profile's adaptability score.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -7029,6 +7269,246 @@ export const EDITORIAL_KO: Record<string, string> = {
     "그의 역량 접근법은 국내총생산·소득 중심의 지배적인 경제 복지 측정 방식에 정면으로 도전했으며, 당시 학계의 지배적 관행에서 벗어난 이 시도는 수십 년에 걸쳐 국제 개발 측정 방식 자체를 바꾸어 놓았다.",
   "amartya-sen.interpretation.turning_point.1":
     "자신의 학문 분야에서 지배적이던 측정 관행에 정면으로 도전하고, 이 도전을 그 분야 자체를 바꿀 때까지 이어간 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
+
+  // Roster29 fifteen-person fast production batch (2026-09).
+  "gabriel-garcia-marquez.achievement.1":
+    "1967년 극심한 재정난 속에서 약 18개월간 집중적으로 『백년의 고독』을 집필했으며, 1982년 노벨 문학상을 수상했다.",
+  "gabriel-garcia-marquez.achievement.2":
+    "자신의 진술에 따르면, 할머니 트랑킬리나 이구아란의 구술 화법 -- 기이한 사건을 일상적인 일처럼 담담한 어조로 전하는 방식 -- 을 직접 모델로 삼아 자신의 서사적 목소리를 만들었다.",
+  "gabriel-garcia-marquez.achievement.3":
+    "평생 저널리즘과 소설을 병행했으며, 훗날 라틴아메리카의 젊은 언론인들을 양성하기 위해 가보 재단(Fundación Gabo)을 설립했다.",
+  "gabriel-garcia-marquez.moment.1":
+    "『백년의 고독』이 성공을 거두기까지 약 20년간 저널리스트로 일하며 크게 주목받지 못한 소설가로 지냈다.",
+  "gabriel-garcia-marquez.moment.2":
+    "소설을 집필하는 동안 그와 아내는 자동차를 팔고 세간을 전당포에 맡기며 빚을 졌다 -- 출판이나 성공에 대한 어떠한 보장도 없이 집필에 몰두할 시간을 확보하기 위해서였다.",
+  "gabriel-garcia-marquez.turning_point.1":
+    "한 편집자의 요청으로 신문 『엘 에스펙타도르』에 짧은 칼럼을 기고했는데, 이것이 편집진에게 깊은 인상을 남겨 계획에 없던 정기 칼럼 연재로 이어졌다 -- 이는 그의 언론계 경력을 연 계기였다.",
+  "gabriel-garcia-marquez.interpretation.moment.1":
+    "돌파구를 맞기까지 20년간 크게 인정받지 못한 채 일했다는 사실은 프로필의 지속성(persistence) 점수의 근거다.",
+  "gabriel-garcia-marquez.interpretation.moment.2":
+    "불확실한 창작 결과를 위해 심각한 재정적 어려움을 감수했다는 사실은 프로필의 위험 감수성(risk_tolerance) 점수의 근거다.",
+  "gabriel-garcia-marquez.interpretation.turning_point.1":
+    "계획에 없던 직업적 기회를 포착하고 활용한 것은 프로필의 기회 포착력(opportunity_sensing) 점수의 근거다.",
+
+  "murasaki-shikibu.achievement.1":
+    "『겐지 이야기』(源氏物語, c. 1000~1012)를 집필했다 -- 54장에 달하는 이 작품의 심리적 정교함과 서사 구조는 문학 연구자들에 의해 그 시대로서는 전례 없는 것으로 평가받는다.",
+  "murasaki-shikibu.achievement.2":
+    "헤이안 시대 여성에게는 부적절하다고 여겨지던 중국 고전 학습을 스스로의 의지로 이어갔다.",
+  "murasaki-shikibu.achievement.3":
+    "궁중 여관(女官)으로 일하는 동안 중국 고전을 쇼시 중궁에게 가르쳤다 -- 당시 남성의 영역으로 여겨지던 학문을 궁중 봉사에 직접 적용한 것이다.",
+  "murasaki-shikibu.moment.1":
+    "자신의 일기에서, 공개적으로는 중국 고전에 대한 지식을 감추면서도 사적으로는 계속 공부를 이어갔다고 밝히고 있다.",
+  "murasaki-shikibu.moment.2":
+    "그녀의 일기에는 당대 궁중 문인에 대한 상당히 비판적인 평가가 담겨 있어, 신분과 체면을 중시하는 환경에서도 이견을 밝히기를 주저하지 않았음을 보여준다.",
+  "murasaki-shikibu.interpretation.moment.1":
+    "사회적 제약 속에서도 자신의 방식대로 학문을 추구한 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
+
+  "zora-neale-hurston.achievement.1":
+    "바너드 대학에서 프란츠 보아스 밑에서 인류학을 공부했고, 아프리카계 미국인과 카리브해 지역의 민속을 수집하는 광범위한 현장 조사를 수행해 『노새와 인간』, 『내 말에게 전해다오』로 출간했다.",
+  "zora-neale-hurston.achievement.2":
+    "소설(『그들의 눈은 신을 보고 있었다』), 학술 인류학, 저널리즘, 희곡 등 다방면에 걸쳐 실질적인 저작을 남겼다.",
+  "zora-neale-hurston.achievement.3":
+    "흑인 남부 방언을 단순한 대화 표현이 아니라 서사 자체의 문학적 목소리로 사용했으며, 문학평론가들은 이를 그녀만의 독특한 문체적 선택으로 평가한다.",
+  "zora-neale-hurston.moment.1":
+    "성인이 된 후 무상 공립 고등학교 교육을 받기 위해 실제 나이보다 어리다고 진술했으며, 이후 가정부 등의 일을 하며 학비와 현장 조사 비용을 마련했다.",
+  "zora-neale-hurston.moment.2":
+    "할렘 르네상스 시기, 흑인 작가는 인종 투쟁의 정치적 대변자로서 글을 써야 한다는 기대를 공개적으로 거부하고 자신의 예술적 관심을 우선시했다 -- 이는 일부 동료들과의 갈등을 낳은 입장이었다.",
+  "zora-neale-hurston.interpretation.moment.1":
+    "감당할 수 없었던 교육의 기회를 비정통적인 방법으로 찾아냈다는 사실은 프로필의 자원 활용력(resourcefulness) 점수의 근거다.",
+  "zora-neale-hurston.interpretation.moment.2":
+    "자신이 속한 문학계의 기대와 어긋나는 예술적 입장을 고수한 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
+
+  "seneca.achievement.1":
+    "철학(『루킬리우스에게 보내는 편지』 및 기타 에세이), 비극(『메데이아』, 『티에스테스』 등 훗날 유럽 르네상스 연극에 영향을 미친 작품들), 자연과학(『자연 문제집』), 그리고 네로의 자문관으로서의 실무 통치까지 네 개의 서로 다른 영역에서 상당한 저작을 남겼다.",
+  "seneca.achievement.2":
+    "클라우디우스 치세 아래 간통 혐의로 코르시카에서 8년간(41~49년) 유배 생활을 견디고, 이후 로마에서 가장 영향력 있는 자문관 중 한 명으로 재기했다.",
+  "seneca.achievement.3":
+    "네로 치세 초기 몇 년간 연설문 작성자 역할을 했으며, 이 시기 네로의 여러 공식 연설이 역사적으로 세네카가 작성한 것으로 여겨진다.",
+  "seneca.moment.1":
+    "네로의 궁정에 수년간 남아 있다가, 은퇴를 정식으로 요청하며 축적한 재산을 돌려주겠다고 제안했다 -- 타키투스는 이 요청을 기록했으며, 네로는 재산은 거절했지만 은퇴는 허락했다.",
+  "seneca.moment.2":
+    "65년 피소 음모 사건에 연루된 뒤, 타키투스의 동시대에 가까운 기록에 따르면 그는 침착하고 차분하게 강요된 자결을 받아들였으며, 그 자리에 있던 이들에게 계속 철학을 가르쳤다.",
+  "seneca.turning_point.1":
+    "위험의 명백한 조짐이 있었음에도 네로의 궁정에 수년간 더 머물렀다 -- 59년 네로가 어머니 아그리피나를 살해한 일을 원로원 앞에서 공개적으로 정당화하는 데 관여한 것을 포함해 -- 영향력을 대가로 점점 더 위험해지는 권력 곁에 남는 선택을 계속했고, 이는 결국 그의 목숨을 앗아갔다.",
+  "seneca.interpretation.moment.1":
+    "수년간 관여를 이어간 끝에 점점 위태로워진 위치로부터 독립을 추구한 것은 프로필의 자율성 욕구(autonomy_need) 점수의 근거다.",
+  "seneca.interpretation.moment.2":
+    "신뢰할 만한 동시대에 가까운 기록에 따르면 침착하고 차분하게 죽음을 맞이했다는 사실은 프로필의 결단력(decisiveness) 점수의 근거다.",
+  "seneca.interpretation.turning_point.1":
+    "영향력을 대가로 점점 커지는 위험을 계속 감수한 것은 프로필의 위험 감수성(risk_tolerance) 점수의 근거다.",
+
+  "jean-piaget.achievement.1":
+    "인지 발달 단계 이론(감각운동기, 전조작기, 구체적 조작기, 형식적 조작기)을 정립했으며, 수십 년에 걸친 임상 관찰을 하나의 일관된 발달 이론 체계로 통합했다.",
+  "jean-piaget.achievement.2":
+    "아동에게 구성된 상황을 제시해 그 사고 과정을 직접 관찰하는 임상적 면담법을 개발했으며, 이는 발달심리학 연구 방법론에 영향을 미친 체계적이고 재현 가능한 기법이었다.",
+  "jean-piaget.achievement.3":
+    "60여 권의 저서와 수백 편의 논문을 발표하며 60년에 걸쳐 이례적으로 왕성한 연구·출판 활동을 이어갔고, 제네바에 국제 발생적 인식론 센터를 설립해 이끌었다.",
+  "jean-piaget.moment.1":
+    "젊은 시절 알비노 참새를 관찰한 초기 과학 논문을 발표했으며, 이후 생물학과 연체동물학에서 발달심리학으로 정식 전향하기 전까지 활발한 박물학·과학적 관심을 이어갔다.",
+  "jean-piaget.interpretation.moment.1":
+    "어린 나이에 스스로 학문적 논문을 발표하고, 이후 완전히 다른 분야로 전향한 기록은 프로필의 호기심(curiosity) 점수의 근거다.",
+
+  "dorothea-lange.achievement.1":
+    "대공황 시기 재정적으로 안정된 초상 사진관을 그만두고 빵 배급을 기다리는 줄과 실업 상황을 촬영했으며, 이후 농업안정국(Farm Security Administration)을 위해 이주 노동자들의 상황을 기록했다.",
+  "dorothea-lange.achievement.2":
+    "사진과 함께 피사체의 구체적인 상황과 발언을 담은 상세한 현장 기록을 남겼다 -- 이것이 대공황 시대를 대표하는 사진 중 하나인 '이주민 어머니'(Migrant Mother) 뒤에 있던 작업 방식이다.",
+  "dorothea-lange.achievement.3":
+    "일본계 미국인 강제수용소를 촬영하면서, 이를 의뢰한 전시이주국(War Relocation Authority)이 기대했던 중립적이거나 우호적인 이미지 대신 가혹한 실상을 기록했다 -- 이 사진들은 매우 비판적이라는 평가를 받아 미군이 수십 년간 다수를 공개하지 않고 압류했다.",
+  "dorothea-lange.moment.1":
+    "정부의 어떠한 의뢰도 받기 전에, 스스로 안정적인 초상 사진관 사업을 그만두고 대공황기의 빵 배급 줄과 실업 상황을 촬영하기 시작했다.",
+  "dorothea-lange.moment.2":
+    "어린 시절 소아마비로 인한 신체적 장애에도 불구하고 힘겨운 현장 다큐멘터리 작업을 이어갔으며, 훗날 인터뷰에서 이 경험이 피사체를 향한 공감적 접근 방식을 형성했다고 밝혔다.",
+  "dorothea-lange.interpretation.moment.1":
+    "의뢰받지 않은 다큐멘터리 작업을 위해 재정적 안정을 포기한 것은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
+  "dorothea-lange.interpretation.moment.2":
+    "실제 신체적 제약 속에서도 힘겨운 현장 작업을 이어간 것은 프로필의 자원 활용력(resourcefulness) 점수의 근거다.",
+
+  "katherine-dunham.achievement.1":
+    "카리브해와 아프리카 춤 양식을 서구 발레 및 현대무용과 결합한 독자적인 무용 기법인 던햄 테크닉을 개발했으며, 이 기법은 오늘날까지도 무용 교육에 쓰이고 있다.",
+  "katherine-dunham.achievement.2":
+    "시카고 대학교에서 인류학 학위를 받았고, 아이티와 자메이카에서 카리브해 지역의 춤과 의례 전통에 관한 정식 현장 조사를 수행해 그 연구 결과를 자신의 안무에 직접 적용했다.",
+  "katherine-dunham.achievement.3":
+    "70년에 걸친 활동 기간 동안 전문 무용 공연, 안무, 인류학적 현장 조사 및 출판, 그리고 시민권 운동에 이르기까지 실질적인 활동을 이어갔다.",
+  "katherine-dunham.moment.1":
+    "한 극장이 흑인 관객의 입장을 거부했다는 사실을 알게 된 후, 인종 분리 관객을 대상으로 한 공연을 공개적으로 거부하고 무대 위에서 인종차별을 규탄하는 연설을 했다 -- 인종 분리 시대에 실질적인 직업적, 재정적 대가를 감수한 행동이었다.",
+  "katherine-dunham.moment.2":
+    "82세의 나이에 미국의 아이티 난민 이민 정책에 항의하며 47일간 단식투쟁을 벌였다.",
+  "katherine-dunham.interpretation.moment.1":
+    "실질적인 직업적 대가를 감수하면서 무대 위에서 인종차별에 직접 맞선 것은 프로필의 갈등 감수성(conflict_tolerance) 점수의 근거다.",
+  "katherine-dunham.interpretation.moment.2":
+    "특정 정책에 반대해 노년에 육체적으로 힘겨운 항의를 지속한 것은 프로필의 영향 동기(impact_motivation) 점수의 근거다.",
+
+  "wilma-rudolph.achievement.1":
+    "1960년 로마 올림픽 육상 종목에서 단일 대회 3관왕을 차지한 최초의 미국 여성 선수가 되었다.",
+  "wilma-rudolph.achievement.2":
+    "5세에 소아마비에 걸려 어린 시절 대부분 다리 보조기를 착용했으며, 수년간의 물리치료 끝에 혼자 힘으로 걸을 수 있게 되었고 이후 세계적인 단거리 선수로 성장했다.",
+  "wilma-rudolph.achievement.3":
+    "1960년 올림픽을 앞두고 테네시 주립대학교의 에드 템플 코치 아래에서 다년간 혹독한 훈련 체제를 이어갔다.",
+  "wilma-rudolph.moment.1":
+    "인종이 분리되어 있던 테네시주 클라크스빌에서 열린 귀향 축하 퍼레이드가 인종 통합 행사로 열려야 한다고 주장했다 -- 이는 그 도시 역사상 최초의 인종 통합 행사였다.",
+  "wilma-rudolph.turning_point.1":
+    "선수 생활을 마친 후, 젊은 선수들을 지원하기 위해 윌마 루돌프 재단을 설립해 코칭과 청소년 지도로 활동의 방향을 전환했다.",
+  "wilma-rudolph.interpretation.moment.1":
+    "자신의 영향력을 이용해 지역 관습에 맞서 구체적인 변화를 이끌어낸 것은 프로필의 영향 동기(impact_motivation) 점수의 근거다.",
+  "wilma-rudolph.interpretation.turning_point.1":
+    "선수 생활이 끝난 후 새로운 조직을 설립하고 이끈 것은 프로필의 리더십 욕구(leadership_drive) 점수의 근거다.",
+
+  "william-wilberforce.achievement.1":
+    "첫 번째 주요 법안이 부결된 뒤 '이 오명을 씻어낼 때까지' 싸우겠다고 공개적으로 다짐했다 -- 이후 약 20년간 거의 매 의회 회기마다 노예무역 폐지 법안을 재상정해 부분적 승리를 얻어냈고, 이후 26년을 더 완전한 노예제 폐지를 위해 싸웠다.",
+  "william-wilberforce.achievement.2":
+    "평생 60개가 넘는 자선·개혁 단체를 설립, 후원, 또는 이끌었으며, 특정 정당에 얽매이지 않고 사안에 따라 여야를 가리지 않고 협력했다.",
+  "william-wilberforce.achievement.3":
+    "만성적이고 고통스러운 지병에도 불구하고 의회 활동과 캠페인 업무를 병행하며 4년에 걸친 저술 작업을 함께 수행했다.",
+  "william-wilberforce.moment.1":
+    "신변에 대한 직접적인 위협과 지속적인 압박 -- 가장 가까운 정치적 동지와의 실질적인 갈등을 포함해 -- 속에서도 대의를 포기하라는 압력에 굴하지 않고 공개적인 활동을 이어갔다.",
+  "william-wilberforce.moment.2":
+    "여러 우호적인 가문들과 함께 수년간 공동생활을 하며 이들의 공인된 의회 내 지도자 역할을 했고, 의회 밖에서 조사 활동을 담당한 동료가 할 수 없는 의회 내 발언대를 제공했다.",
+  "william-wilberforce.turning_point.1":
+    "전부 아니면 전무라는 방식으로 완전한 승리만을 고수하는 대신, 단계적으로 전략을 나누어 접근했다 -- 먼저 노예무역의 약 4분의 3을 차단하는 부분적 승리를 받아들인 뒤 완전한 폐지로 나아갔다.",
+  "william-wilberforce.interpretation.moment.1":
+    "직접적인 신변 위협과 우정을 잃는 대가를 감수하면서도 인기 없는 공적 캠페인을 이어간 것은 프로필의 갈등 감수성(conflict_tolerance) 점수의 근거다.",
+  "william-wilberforce.interpretation.moment.2":
+    "수년에 걸쳐 동료들과 역할을 분명히 나누어 지속한 협력은 프로필의 협업 능력(collaboration) 점수의 근거다.",
+  "william-wilberforce.interpretation.turning_point.1":
+    "더 큰 목표를 향한 전략적 단계로서 부분적 입법 승리를 의도적으로 받아들인 것은 프로필의 계획 지향성(planning_orientation) 점수의 근거다.",
+
+  "desmond-tutu.achievement.1":
+    "케이프타운 최초의 흑인 성공회 대주교가 되었고, 이후 남아프리카공화국 진실화해위원회 위원장을 맡아 아파르트헤이트 시대 폭력을 다루는 회복적 정의 체계를 정립하고 이끄는 데 기여했다.",
+  "desmond-tutu.achievement.2":
+    "저명한 교회 지도자로서 수십 년간 아파르트헤이트 정부를 공개적으로 직접 비판했으며, 남아프리카공화국에 대한 국제적 경제 제재를 지지했다 -- 1984년 노벨 평화상 시상 이유서는 그가 아파르트헤이트 종식에 기여한 국제적 압박 형성에 도움을 준 것으로 평가했다.",
+  "desmond-tutu.achievement.3":
+    "아파르트헤이트 종식 이후에도 국제기구 디 엘더스(The Elders)를 통해 수십 년간 세계 인권 옹호 활동을 이어갔다.",
+  "desmond-tutu.moment.1":
+    "고문과 살해에 관한 참혹한 증언에 지속적으로 노출된 약 2년간의 진실화해위원회 청문회 기간 동안, 그가 공개적으로 눈물을 보인 것은 단 한 번뿐이었다고 보도되었다 -- 1996년 4월, 경찰의 고문으로 30년간 불구가 된 게릴라 싱코콰나 어니스트 말가스의 증언 때였다.",
+  "desmond-tutu.moment.2":
+    "2021년 부고 기사는 그를 국민당과 ANC 양쪽 모두에게 '눈엣가시'였다고 평했다 -- 아파르트헤이트 시대 권력과, 그가 집권에 기여한 1994년 이후 정부 모두로부터 비판적 독립성을 유지했다는 의미다.",
+  "desmond-tutu.interpretation.moment.1":
+    "극한의 자료에 지속적으로 노출된 2년 동안 유지된 평정심에서 유일하게 확인된 예외는 프로필의 자기 절제력(discipline) 점수의 근거다.",
+  "desmond-tutu.interpretation.moment.2":
+    "과거의 상대와 그 후계자인 동맹 모두로부터 비판적 독립성을 유지한 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
+
+  "ratan-tata.achievement.1":
+    "당시 타타 그룹의 기존 사업 규모보다 훨씬 큰, 국제적으로 큰 주목을 받은 코러스 스틸(2007년)과 재규어 랜드로버(2008년) 인수를 주도해, 주로 인도 국내에 기반을 둔 그룹을 다국적 기업으로 확장시켰다.",
+  "ratan-tata.achievement.2":
+    "고위 경영진으로 곧바로 진출하는 대신, 타타 스틸과 타타 모터스에서 현장 근무를 순환하며 경력을 시작한 뒤 회사 내에서 승진했다.",
+  "ratan-tata.achievement.3":
+    "저소득층을 위한 저렴한 교통수단 보급을 목표로 타타 나노 프로젝트를 추진했으며, 서벵골주에서의 공장 이전 위기를 포함한 수년간의 설계 및 생산상의 난관에도 불구하고, 상업적 성과가 제한적이었음에도 이를 계속 이어갔다.",
+  "ratan-tata.moment.1":
+    "2008년 11월 뭄바이 타지마할 팰리스 호텔 테러 공격으로 숨진 타타 직원들의 장례식에 직접 참석해 유가족을 지원했다 -- 이는 회사 차원의 대응과는 별개의 개인적인 행동이었다.",
+  "ratan-tata.moment.2":
+    "2016년 10월, 타타 선즈 회장이던 사이러스 미스트리를 전격 해임하는 일을 직접 주도했다 -- 이는 이후 장기간의 공개적인 법적 분쟁으로 이어진, 논란이 된 지배구조 관련 결정이었다.",
+  "ratan-tata.interpretation.moment.1":
+    "회사의 공식 대응과는 별개로 취한 직접적이고 개인적인 지원 행위는 프로필의 사회적 주도성(social_assertiveness) 점수의 근거다.",
+  "ratan-tata.interpretation.moment.2":
+    "이후에도 공개적으로 논란이 지속된, 신속하고 중대한 지배구조 관련 결정은 프로필의 결단력(decisiveness) 점수의 근거다.",
+
+  "indira-gandhi.achievement.1":
+    "총리로서 1971년 위기 상황에서 몇 달간 군사 행동을 의도적으로 미뤘으며, 섣부른 행동이 경쟁 세력에게 유리한 프레임을 줄 수 있다고 의회에서 설명했다 -- 이는 1971년 12월 전쟁에 앞선 판단이었다.",
+  "indira-gandhi.achievement.2":
+    "자신을 다루기 쉬운 얼굴마담으로 여기고 옹립했던 국민회의당 원로들의 격렬한 내부 반대를 무릅쓰고, 당내 입지를 다지며 개인적 의지로 주요 정책을 의회에서 관철시켰다.",
+  "indira-gandhi.achievement.3":
+    "결정적인 선거 패배와 완전한 권력 상실 이후 약 3년 만에 정치 경력을 재건했으며, 약 18개월 만에 의회로 복귀했다.",
+  "indira-gandhi.moment.1":
+    "1975년, 불리한 법원 판결이 내려지자 며칠 만에 국가 비상사태를 선포했으며, 이를 측근들에게도 사후에야 알렸다 -- 이는 국제적으로 비판받은 21개월간의 권위주의적 통치로 이어졌으며, 그 기간 동안 그녀는 이를 제어하지 않은 채 최고 권력을 행사했다.",
+  "indira-gandhi.moment.2":
+    "1984년, 예상되는 심각한 반발에도 불구하고 매우 민감한 종교 성지에 대한 군사 작전을 명령했다.",
+  "indira-gandhi.turning_point.1":
+    "적절한 시점이라고 판단하자 21개월간의 비상사태를 종료하고 공개 선거 경쟁으로 복귀했으나, 이후 치러진 선거에서 크게 패배한 뒤 정치 경력을 재건했다.",
+  "indira-gandhi.interpretation.moment.1":
+    "21개월간 유지된, 일방적이고 고위험적인 권력 행사는 프로필의 위험 감수성(risk_tolerance) 점수의 근거다.",
+  "indira-gandhi.interpretation.moment.2":
+    "예상되는 심각한 결과에도 불구하고 고위험 군사 행동을 명령한 것은 프로필의 위험 감수성(risk_tolerance) 점수의 근거다.",
+  "indira-gandhi.interpretation.turning_point.1":
+    "상황이 변하자 중대한 결정의 방향을 전환한 것은 프로필의 적응력(adaptability) 점수의 근거다.",
+
+  "ulysses-s-grant.achievement.1":
+    "남북전쟁에서 북군을 승리로 이끌었다 -- 1863년 빅스버그 전투에서 자신의 군대를 보급선으로부터 스스로 단절시키는 이례적인 결정을 내렸으며, 1865년 애퍼매톡스에서 로버트 E. 리 장군의 항복을 받아냈다.",
+  "ulysses-s-grant.achievement.2":
+    "극심한 고통을 동반한 말기 후두암으로 죽어가는 와중에도 가족의 재정적 안정을 위해 『회고록』 집필을 서둘러 마쳤다 -- 사망 며칠 전에 완성되었으며, 역사가들로부터 이례적으로 솔직하다는 평가를 받는다.",
+  "ulysses-s-grant.achievement.3":
+    "대통령으로서 1870~71년 시행법(Enforcement Acts)을 통해 남부에서 흑인 시민들의 투표권을 보호하기 위해 KKK단에 대한 연방 차원의 단속을 직접 지휘했다.",
+  "ulysses-s-grant.moment.1":
+    "농업, 부동산, 가죽 제품점 점원 등 여러 민간 직업에서 실패를 거듭했고, 불명예스러운 정황 속에서 평시 군대에서도 물러났다 -- 이후 남북전쟁이 발발하며 지휘관으로 복귀할 길이 열렸다.",
+  "ulysses-s-grant.moment.2":
+    "1859년, 자신이 소유했던 유일한 노예 윌리엄 존스를 경제적 어려움 속에서도 사비를 들여 해방시켰다 -- 그를 팔았다면 더 이득이었을 시기였다.",
+  "ulysses-s-grant.turning_point.1":
+    "샤일로 전투 첫날 거의 패배에 가까운 상황에서 물러나는 대신 둘째 날 공격을 이어갔다 -- 이는 압박 속에서 신속하고 결단력 있게 행동한 구체적 사례로, 그의 지휘관으로서의 평판을 형성했다.",
+  "ulysses-s-grant.interpretation.moment.1":
+    "여러 차례의 민간 경력 실패 이후 더 낮은 계급에서부터 경력을 재건한 것은 프로필의 지속성(persistence) 점수의 근거다.",
+  "ulysses-s-grant.interpretation.moment.2":
+    "이득이 될 수 있었음에도 자신이 소유한 단 한 명을 사비를 들여 해방시킨 것은 프로필의 신념 갱신력(belief_updating) 점수의 근거다.",
+  "ulysses-s-grant.interpretation.turning_point.1":
+    "거의 패배할 뻔한 상황에서 물러나지 않고 싸움을 이어간 것은 프로필의 결단력(decisiveness) 점수의 근거다.",
+
+  "suleiman-the-magnificent.achievement.1":
+    "46년의 치세 동안 포괄적인 법률 개혁 프로그램(카눈나메)을 편찬하고 유지했으며, 이로 인해 '카누니'(입법자)라는 칭호를 얻었다.",
+  "suleiman-the-magnificent.achievement.2":
+    "1529년 빈 공방전을 포함해 수도에서 지휘하는 대신 주요 군사 원정을 직접 이끌었다 -- 이는 오스만 연대기와 독립적인 베네치아 대사들의 보고서 양쪽에 기록된, 그의 치세 전반에 걸친 지속적인 패턴이었다.",
+  "suleiman-the-magnificent.achievement.3":
+    "'무히비'라는 필명으로 상당한 분량의 시를 남겼으며, 이 중에는 반려자 휘렘 술탄에게 바친 시도 포함되어 있다 -- 통치 책무와 병행하며 수십 년간 이어간, 오스만 술탄 중에서도 가장 방대한 개인 문학 저작 중 하나다.",
+  "suleiman-the-magnificent.moment.1":
+    "10년 넘게 대재상 이브라힘 파샤와 이례적으로 긴밀한 통치 동반자 관계를 유지하며 그에게 상당한 권한을 위임했으나, 1536년 그를 처형했다.",
+  "suleiman-the-magnificent.moment.2":
+    "1553년, 음모 혐의로 자신의 아들 셰흐자데 무스타파의 처형을 명령했다 -- 역사가들은 이것이 궁정 정적들이 꾸며낸 거짓 고발에 근거했을 가능성이 크다고 본다.",
+  "suleiman-the-magnificent.interpretation.moment.1":
+    "가장 가까운 최측근조차 위협이라고 판단되면 제거한 것은 프로필의 자율성 욕구(autonomy_need) 점수의 근거다.",
+  "suleiman-the-magnificent.interpretation.moment.2":
+    "역사가들이 거짓일 가능성이 크다고 보는 고발에 근거해 내린, 실질적이고 지속적인 대가를 치른 신속하고 극적인 결정은 프로필의 결단력(decisiveness) 점수의 근거다.",
+
+  "ibn-al-haytham.achievement.1":
+    "빛과 시각에 관한 가설을 검증하기 위해 카메라 옵스큐라를 비롯한 자체 제작 장치를 사용해 통제된 실험을 수행했다 -- 이는 실험적 방법론의 가장 이른 체계적 사례 중 하나로 평가받으며, 그의 저서 『광학의 서』(Kitab al-Manazir, c. 1021)에 직접 기술되어 있다.",
+  "ibn-al-haytham.achievement.2":
+    "눈이 광선을 방출한다는 당대의 지배적인 방사설을 거부하고 증거에 기반한 입사설을 주장했으며, 유클리드와 프톨레마이오스의 확립된 권위에 정면으로 맞서 자신의 실험적 증거로 이 입장을 옹호했다.",
+  "ibn-al-haytham.achievement.3":
+    "빛의 전파를 연구하는 도구로 핀홀 카메라(카메라 옵스큐라)를 개발했으며, 이를 기하광학, 눈의 생리학, 시지각 심리학을 통합하는 포괄적인 이론 체계 안에 위치시켰다.",
+  "ibn-al-haytham.moment.1":
+    "파티마 칼리프 알하킴에게 약속한 나일강 홍수 조절 공학 프로젝트를 완수하지 못한 뒤, 가택 연금 상태에서 수년간 미친 척했다고 전해지며, 이 오랜 구금 기간 동안에도 상당한 과학 연구를 계속했다.",
+  "ibn-al-haytham.turning_point.1":
+    "나일강 홍수 조절이라는 야심 찬 공학 제안이 실현 불가능한 것으로 드러나자, 이론적·실험적 광학 연구로 방향을 전환했다 -- 이 전환이 『광학의 서』를 탄생시켰다.",
+  "ibn-al-haytham.interpretation.moment.1":
+    "길고 위험한 구금 기간 동안에도 상당한 과학 연구를 이어간 것은 프로필의 자원 활용력(resourcefulness) 점수의 근거다.",
+  "ibn-al-haytham.interpretation.turning_point.1":
+    "실패한 실용적 공학 제안에서 벗어나 지속적이고 다른 연구 프로그램으로 방향을 전환한 것은 프로필의 적응력(adaptability) 점수의 근거다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

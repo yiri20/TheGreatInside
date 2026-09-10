@@ -4,7 +4,52 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-10 (Roster28: fifteen-person fast production batch,
+Last updated: 2026-09-10 (Roster29: fifteen-person fast production batch,
+`feat/roster29-fifteen-person-fast-batch`, unmerged — mechanical intake from
+the existing `held` pool only, no new candidate discovery, evidence-viability
+weighted first, recognizability second. Gabriel García Márquez, Murasaki
+Shikibu, Zora Neale Hurston, Seneca, Jean Piaget, Ibn al-Haytham, Dorothea
+Lange, Katherine Dunham, Wilma Rudolph, William Wilberforce, Desmond Tutu,
+Ratan Tata, Indira Gandhi, Ulysses S. Grant, and Suleiman the Magnificent —
+all honestly failing `eligibility_v2`, none rescued — passed a targeted
+evidence-approval audit that excluded the same 22 Group-B held candidates
+Roster28 identified (unchanged). **Zero `RUBRIC_CORRECTION`s and zero
+`ERROR_CORRECTION`s at the row-scoring level** — this pool had already been
+through remediation/evidence-lock passes in prior sessions and the audit
+found nothing further to correct; one `ERROR_CORRECTION` to rationale text
+only (Jean Piaget's `curiosity` row: "at age 11" was an unsupported
+precision, found during the pre-commit factual gate and corrected to "as a
+youth" to match what Britannica actually says — score/confidence/
+evidenceType/impact unchanged). All fifteen promoted via
+`generateRoster29.ts` (same architecture as `generateRoster28.ts`), with
+real rights-clear portraits (Wikimedia Commons throughout — LOC/Van Vechten,
+LOC/FSA, LOC/NYWT&S, Nationaal Archief/Anefo, National Portrait Gallery
+London, GODL-India, and three deliberately non-photographic
+`historical_depiction` sourcings for pre-photography subjects: a Tosa
+Mitsuoki Edo-period painting for Murasaki Shikibu, a Wawel Castle Museum
+painting for Seneca — explicitly not the debunked "Pseudo-Seneca" bust
+tradition Commons itself flags as misidentified — and the genuine 1647
+Hevelius engraving for Ibn al-Haytham, deliberately not the 2021 Commons
+upload most Wikipedia editions actually use, whose own uploader labeled it
+an "imaginary drawing" with no historical basis) and full EN/KO editorial
+content, including a pre-commit source-claim gate that caught and narrowed
+two real overclaims against their own cited sources (Wilma Rudolph's "first
+three gold medals" claim needed a "in track and field" qualifier; the Piaget
+age fix above). **Zero newly match-eligible people** this cycle — all
+fifteen fail the high-confidence-count/coverage sub-gates by varying
+margins; `dispersion.generated.ts`/calibration correctly left untouched.
+**5 product taxonomy/i18n coverage fixes**: `occupation.photographer`
+(Dorothea Lange, first production photographer), `occupation.religious_leader`
+(Desmond Tutu, first production religious leader), and three `field.*`
+values crossing the Directory's >=2-person curation threshold for the first
+time (`religion`, `dance`, `journalism`) — each added to
+`PROFESSION_CATEGORIES` plus EN/KO translations. Roster: **185 total / 184
+default-directory-visible / 127 match-eligible** (was 170/169/127). Zheng
+He, Giuseppe Garibaldi, Anton Chekhov, and the roster25-28 additions
+unchanged. Full record:
+[`roster29-fifteen-person-fast-batch.md`](../checkpoints/roster29-fifteen-person-fast-batch.md).
+
+Prior update, 2026-09-10 (Roster28: fifteen-person fast production batch,
 `feat/roster28-fifteen-person-fast-batch`, unmerged — mechanical intake
 from the existing `held` pool only, no new candidate discovery, this time
 weighted toward broad public recognizability among evidence-viable

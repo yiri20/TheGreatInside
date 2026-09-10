@@ -480,7 +480,13 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // set is still exactly these same 6 people (Lincoln, Franklin, Darwin,
   // Goodall, Winfrey, Rubin); none of the 15 new people enter the set, so
   // the filtered count of 6 is unchanged.
-  expect(bodyText).toMatch(/전체\s*170명\s*중\s*6명/);
+  // Total updated again 170->185 (roster29 fifteen-person fast batch: 15 new
+  // people). Verified directly against the real filterPeople() call (not raw
+  // score arithmetic): the live result set is still exactly these same 6
+  // people; none of the 15 new people cross both the curiosity and
+  // collaboration z-score thresholds simultaneously, so the filtered count
+  // of 6 is unchanged.
+  expect(bodyText).toMatch(/전체\s*185명\s*중\s*6명/);
   expect(bodyText).toContain("베라 루빈");
 });
 

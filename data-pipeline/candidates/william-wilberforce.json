@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "william-wilberforce",
-  "status": "held",
-  "holdReason": "eligibility_v2 fails ONLY the coverage gate: scored=18 (>=18 required, exactly at floor), highConfidenceCount=12 (>=12 required, exactly at floor), highConfidenceAverage=0.622 (>=0.55 required, passes), but coverage=0.542 falls short of the 0.6 floor. His sustained-single-campaign career genuinely maps to fewer distinct trait dimensions than a candidate whose documented life spans many behavioral domains -- not rescued or padded per Session 18's explicit no-rescue instruction.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "William Wilberforce",
     "wikidataId": "Q207672",
@@ -29,6 +28,18 @@
     { "id": "src_wilberforce_sojo", "kind": "press", "title": "Sojourners -- article on Wilberforce's opium use, citing John Pollock's biography" },
     { "id": "src_wilberforce_whm", "kind": "institution", "title": "Wilberforce House Museum / Hull Museums" }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/william-wilberforce-russell.jpg",
+    "width": 1280,
+    "height": 1549,
+    "source": "Wikimedia Commons / National Portrait Gallery, London",
+    "license": "Public Domain (PD-Art, artist died 1806)",
+    "attribution": "John Russell (d. 1806) -- National Portrait Gallery, London, NPG 759",
+    "creator": "John Russell",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:William_Wilberforce_by_John_Russell.jpg"
+  },
   "rows": {
     "independent_thinking": { "score": 82, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Deliberately maintained a lifelong, explicitly stated position of belonging to no political party, working with governments of either persuasion depending on the issue; continued introducing the same unpopular legislation year after year regardless of political headwinds. Session 18 evidence WW-E9, WW-E18." },
     "creative_originality": { "score": 68, "confidence": 0.4, "evidenceType": "inference", "impact": "advantage", "rationale": "Founded new social/organizational reform structures beyond his core cause late in his career, part of a lifelong pattern of founding, funding, or leading over sixty distinct philanthropic and reform organizations. Session 18 evidence WW-E23." },

@@ -171,19 +171,38 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "ravi-shankar",
     "winnie-madikizela-mandela",
     "amartya-sen",
+    // roster29 (2026-09): fifteen more, same pattern -- all evidence_approved,
+    // published, directory-visible, honestly failing eligibility_v2 on
+    // confidence/coverage, none rescued. Baselines now 185/184; match-eligible
+    // set unchanged at 127.
+    "gabriel-garcia-marquez",
+    "murasaki-shikibu",
+    "zora-neale-hurston",
+    "seneca",
+    "jean-piaget",
+    "ibn-al-haytham",
+    "dorothea-lange",
+    "katherine-dunham",
+    "wilma-rudolph",
+    "william-wilberforce",
+    "desmond-tutu",
+    "ratan-tata",
+    "indira-gandhi",
+    "ulysses-s-grant",
+    "suleiman-the-magnificent",
   ]);
 
-  it("still exactly 170 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(170);
-    expect(PEOPLE_INDEX).toHaveLength(170);
+  it("still exactly 185 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(185);
+    expect(PEOPLE_INDEX).toHaveLength(185);
   });
 
-  it("still exactly 169 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 184 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(169);
+    expect(visible).toHaveLength(184);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the forty-two deliberately-divergent roster24/25/26/27/28 additions", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the fifty-seven deliberately-divergent roster24/25/26/27/28/29 additions", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

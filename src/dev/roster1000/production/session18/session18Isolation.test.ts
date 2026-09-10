@@ -111,20 +111,28 @@ describe("session 18 production pilot: locked scoring matches what was actually 
     expect(c.computedEligibility?.eligible).toBe(true);
   });
 
-  it("indira-gandhi.json: held, 20 rows, ineligible on coverage only", () => {
+  it("indira-gandhi.json: promoted by roster29 (2026-09), but session 18's locked scoring is unchanged -- still 20 rows, still ineligible on coverage only", () => {
+    // Roster29's targeted audit found zero corrections needed for this
+    // candidate; only `status` (held -> evidence_approved) and the now-moot
+    // `holdReason` changed. See docs/checkpoints/roster29-fifteen-person-fast-batch.md.
     const c = loadCandidate("indira-gandhi");
-    expect(c.status).toBe("held");
+    expect(c.status).toBe("evidence_approved");
+    expect(c.holdReason).toBeUndefined();
     expect(Object.keys(c.rows)).toHaveLength(20);
     expect(c.computedEligibility?.eligible).toBe(false);
-    expect(c.holdReason).toContain("coverage");
+    expect(c.computedEligibility?.coverage).toBeCloseTo(0.5898, 4);
   });
 
-  it("william-wilberforce.json: held, 18 rows, ineligible on coverage only", () => {
+  it("william-wilberforce.json: promoted by roster29 (2026-09), but session 18's locked scoring is unchanged -- still 18 rows, still ineligible on coverage only", () => {
+    // Roster29's targeted audit found zero corrections needed for this
+    // candidate; only `status` (held -> evidence_approved) and the now-moot
+    // `holdReason` changed. See docs/checkpoints/roster29-fifteen-person-fast-batch.md.
     const c = loadCandidate("william-wilberforce");
-    expect(c.status).toBe("held");
+    expect(c.status).toBe("evidence_approved");
+    expect(c.holdReason).toBeUndefined();
     expect(Object.keys(c.rows)).toHaveLength(18);
     expect(c.computedEligibility?.eligible).toBe(false);
-    expect(c.holdReason).toContain("coverage");
+    expect(c.computedEligibility?.coverage).toBeCloseTo(0.5416, 4);
   });
 
   it("roster9.ts contains exactly the 3 promoted slugs, no more, no less", () => {

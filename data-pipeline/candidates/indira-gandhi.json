@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "indira-gandhi",
-  "status": "held",
-  "holdReason": "eligibility_v2 fails ONLY the coverage gate: scored=20 (>=18 required, passes), highConfidenceCount=13 (>=12 required, passes), highConfidenceAverage=0.617 (>=0.55 required, passes), but coverage=0.590 falls just short of the 0.6 floor. A genuine, narrow near-miss on the taxonomy-weight-coverage dimension specifically, not on evidence quality or confidence -- not rescued or padded per Session 18's explicit no-rescue instruction.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Indira Gandhi",
     "wikidataId": "Q1149",
@@ -30,6 +29,18 @@
     { "id": "src_indiragandhi_nhi", "kind": "press", "title": "National Herald India -- 1971 Bangladesh War diplomacy account" },
     { "id": "src_indiragandhi_lrb", "kind": "press", "title": "London Review of Books -- Pratinav Anil, \"Indira is India\"" }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/indira-gandhi-official-1983.jpg",
+    "width": 1080,
+    "height": 1600,
+    "source": "Wikimedia Commons / Government of India, Prime Minister's Office",
+    "license": "Government Open Data License - India (GODL)",
+    "attribution": "Prime Minister's Office, Government of India, 1983",
+    "date": "1983",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Indira_Gandhi_official_portrait.png"
+  },
   "rows": {
     "analytical_rigor": { "score": 78, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Deliberately delayed military action for months during the 1971 crisis, explicitly reasoning to Parliament about how premature action would let a rival frame the conflict unfavorably; recognized and acted on the strategic implications of a diplomat's visit that others might have taken at face value. Session 18 evidence IG-E9, IG-E10." },
     "independent_thinking": { "score": 80, "confidence": 0.62, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Defied the expectations of the party establishment that installed her specifically to be a controllable figurehead, and pushed through a major policy over fierce internal opposition. Session 18 evidence IG-E7, IG-E8." },

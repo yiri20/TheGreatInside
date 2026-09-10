@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ulysses-s-grant",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Ulysses S. Grant",
     "wikidataId": "Q34836",
@@ -60,6 +60,18 @@
       "url": "https://en.wikipedia.org/wiki/Ulysses_S._Grant"
     }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ulysses-s-grant-1860.jpg",
+    "width": 1280,
+    "height": 1587,
+    "source": "Wikimedia Commons / Library of Congress",
+    "license": "Public Domain (pre-1931, no known restrictions)",
+    "attribution": "Library of Congress, 1860",
+    "date": "1860",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ulysses_S._Grant,_in_uniform,_head-and-shoulders_portrait,_facing_front_LCCN2004678568.jpg"
+  },
   "rows": {
     "analytical_rigor": {
       "score": 72,
@@ -228,6 +240,5 @@
     "coverage": 0.648,
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
-  },
-  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.648 (>=0.6 OK) but only 9 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the structural limits of this person's evidence base. Not rescued: no confidence raised post-validation."
+  }
 }

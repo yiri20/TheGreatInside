@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "suleiman-the-magnificent",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Suleiman the Magnificent",
     "wikidataId": "Q8474",
@@ -58,6 +58,19 @@
       "url": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent"
     }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/suleiman-the-magnificent-lorck-1562.jpg",
+    "width": 1153,
+    "height": 1600,
+    "source": "Wikimedia Commons / Statens Museum for Kunst (Denmark)",
+    "license": "Public Domain (artist died 1583)",
+    "attribution": "Melchior Lorck, 1562 engraving -- Statens Museum for Kunst, Copenhagen",
+    "creator": "Melchior Lorck",
+    "date": "1562",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Melchior_Lorck_Sultan_Suleiman.jpg"
+  },
   "rows": {
     "decisiveness": {
       "score": 70,
@@ -199,7 +212,6 @@
     "processedBy": "agent",
     "notes": "Roster-13 new-intake batch (2026-09): West Asia pick. Evidence draws on decades of independent Venetian ambassadorial reporting (a genuinely separate tradition from Ottoman court chronicles) plus his own substantial surviving poetry. The Mustafa execution and Ibrahim Pasha reversal are scored honestly as dual_edged/documented rather than omitted or treated as unqualified strength. Confidence capped per the rubric's early-modern discipline. Scored to completion before any eligibility check was run."
   },
-  "holdReason": "eligibility_v2 not met on first score: scored=19 attributes, avgConf=0.527, coverage=0.568 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
   "computedEligibility": {
     "scoredAttributeCount": 19,
     "averageConfidence": 0.527,

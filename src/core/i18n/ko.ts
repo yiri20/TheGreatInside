@@ -580,6 +580,8 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.nurse": "간호사",
   "occupation.painter": "화가",
   "occupation.philosopher": "철학자",
+  "occupation.photographer": "사진작가",
+  "occupation.religious_leader": "종교 지도자",
   "occupation.physician": "의사",
   "occupation.physicist": "물리학자",
   "occupation.poet": "시인",
@@ -706,6 +708,9 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "field.education": "교육",
   "field.law": "법률",
   "field.social_reform": "사회 개혁",
+  "field.religion": "종교",
+  "field.dance": "무용",
+  "field.journalism": "저널리즘",
   "field.business": "경영과 사업",
   "field.technology": "기술",
   "field.computing": "컴퓨터 과학",
@@ -1816,6 +1821,23 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.ravi-shankar": "라비 샹카르",
   "person.name.winnie-madikizela-mandela": "위니 마디키젤라만델라",
   "person.name.amartya-sen": "아마르티아 센",
+
+  // Roster29 fifteen-person fast production batch (2026-09).
+  "person.name.gabriel-garcia-marquez": "가브리엘 가르시아 마르케스",
+  "person.name.murasaki-shikibu": "무라사키 시키부",
+  "person.name.zora-neale-hurston": "조라 닐 허스턴",
+  "person.name.seneca": "세네카",
+  "person.name.jean-piaget": "장 피아제",
+  "person.name.dorothea-lange": "도로시아 랭",
+  "person.name.katherine-dunham": "캐서린 던햄",
+  "person.name.wilma-rudolph": "윌마 루돌프",
+  "person.name.william-wilberforce": "윌리엄 윌버포스",
+  "person.name.suleiman-the-magnificent": "술레이만 대제",
+  "person.name.ulysses-s-grant": "율리시스 S. 그랜트",
+  "person.name.desmond-tutu": "데즈먼드 투투",
+  "person.name.ratan-tata": "라탄 타타",
+  "person.name.indira-gandhi": "인디라 간디",
+  "person.name.ibn-al-haytham": "이븐 알하이삼",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

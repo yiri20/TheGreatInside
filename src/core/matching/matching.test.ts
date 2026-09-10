@@ -313,6 +313,25 @@ describe("confidence and missing data", () => {
       "ravi-shankar",
       "winnie-madikizela-mandela",
       "amartya-sen",
+      // roster29 (2026-09): all fifteen evidence_approved, published,
+      // directory-visible, honestly under eligibility_v2's
+      // confidence/coverage floors -- see
+      // docs/checkpoints/roster29-fifteen-person-fast-batch.md.
+      "gabriel-garcia-marquez",
+      "murasaki-shikibu",
+      "zora-neale-hurston",
+      "seneca",
+      "jean-piaget",
+      "ibn-al-haytham",
+      "dorothea-lange",
+      "katherine-dunham",
+      "wilma-rudolph",
+      "william-wilberforce",
+      "desmond-tutu",
+      "ratan-tata",
+      "indira-gandhi",
+      "ulysses-s-grant",
+      "suleiman-the-magnificent",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -566,6 +585,25 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "ravi-shankar",
       "winnie-madikizela-mandela",
       "amartya-sen",
+      // roster29 (2026-09): all fifteen evidence_approved, published,
+      // directory-visible, honestly under eligibility_v2's
+      // confidence/coverage floors -- see
+      // docs/checkpoints/roster29-fifteen-person-fast-batch.md.
+      "gabriel-garcia-marquez",
+      "murasaki-shikibu",
+      "zora-neale-hurston",
+      "seneca",
+      "jean-piaget",
+      "ibn-al-haytham",
+      "dorothea-lange",
+      "katherine-dunham",
+      "wilma-rudolph",
+      "william-wilberforce",
+      "desmond-tutu",
+      "ratan-tata",
+      "indira-gandhi",
+      "ulysses-s-grant",
+      "suleiman-the-magnificent",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
