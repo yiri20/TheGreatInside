@@ -28,16 +28,38 @@ rights-cleared) and full EN/KO editorial content. **Zero newly
 match-eligible people** this cycle — several candidates clear raw
 `coverage ≥ 0.6` comfortably but all twelve fail the high-confidence-count
 sub-gate; `dispersion.generated.ts`/calibration were correctly left
-untouched since the match-eligible set didn't change. Two genuine,
-mechanical i18n/taxonomy coverage gaps were found and fixed (not
-hardcoded-count churn): `field.architecture` had no translation and
-wasn't wired into `PROFESSION_CATEGORIES` (Zaha Hadid is the second
-production architect), and `occupation.musician` had no translation (Bob
-Marley is the first production person with `"musician"` as
-`occupationIds[0]`). Roster: **155 total / 154
-default-directory-visible / 127 match-eligible** (was 143/142/127). Zheng
-He, Giuseppe Garibaldi, Anton Chekhov, the roster25 six, and the roster26
-ten unchanged. Full record:
+untouched since the match-eligible set didn't change. **3 classification
+metadata corrections** (invalid enum values, not present in
+`ARCHETYPE_IDS`/`IMPACT_DOMAINS`): Earhart's `archetypeIds`
+`"visionary_pioneer"`→`"scientific_explorer"`; Borlaug's `impactDomains`
+`"humanitarian"`→`"social"` and `archetypeIds`
+`"resilient_builder"`→`"entrepreneurial_builder"`. Separately, **2
+product taxonomy/i18n coverage fixes** (not classification errors):
+`field.architecture` had no translation and wasn't wired into
+`PROFESSION_CATEGORIES` (Zaha Hadid is the second production architect),
+and `occupation.musician` had no translation (Bob Marley is the first
+production person with `"musician"` as `occupationIds[0]`). Roster:
+**155 total / 154 default-directory-visible / 127 match-eligible** (was
+143/142/127). Zheng He, Giuseppe Garibaldi, Anton Chekhov, the roster25
+six, and the roster26 ten unchanged.
+
+**Post-PR26-review focused correction** (same day): two factual wording
+errors fixed, `ERROR_CORRECTION`/editorial-only, no score/confidence/
+evidenceType/impact/eligibility change on either candidate — Hedy
+Lamarr's `independent_thinking` rationale and EN/KO `moment.2` editorial
+had inaccurately described her 1942 frequency-hopping patent as
+dismissed/rejected by a "military patent office"; corrected to the
+accurate sequence (patent US 2,292,387 granted 1942 by the US Patent
+Office; the Navy separately declined to adopt the system as impractical,
+no motive claimed). Amelia Earhart's `achievement.1` editorial (EN/KO)
+grouped the 1932/1935/1937 flights under language that could read as
+three completed records; corrected to explicitly keep the 1937
+round-the-world flight described as an attempt. This checkpoint's own
+"Metadata" section was also corrected — it had said "0 invalid values
+found," contradicting the 3 classification corrections above, already
+made during the original audit and recorded in each candidate's own
+provenance notes. Counts, eligibility, and the match-eligible set are
+unchanged by this pass. Full record:
 [`roster27-twelve-person-fast-batch.md`](../checkpoints/roster27-twelve-person-fast-batch.md).
 
 Prior update, 2026-09-10 (Roster26: ten-person fast production batch,

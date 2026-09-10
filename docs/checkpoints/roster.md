@@ -625,11 +625,19 @@ raises the target.
   band (Borlaug `persistence` 90->80 and `achievement_drive` 92->80,
   Tharp `detail_orientation` 90->80, Al-Biruni `curiosity` 88->80, Marley
   `risk_tolerance` 88->80 and `persistence` 85->78 -- all move scores
-  down). All twelve promoted via `generateRoster27.ts` with real
-  rights-clear portraits (two `editorial_nonlikeness`, honestly labeled)
-  and full EN/KO editorial content. **Zero newly match-eligible people**
-  this cycle (several clear raw coverage but fail the high-confidence
-  sub-gate) -- dispersion/calibration correctly left untouched since the
-  match-eligible set didn't change. Roster: **155 total / 154
-  default-directory-visible / 127 match-eligible**. Full record:
+  down); separately, 3 classification metadata corrections (invalid
+  `archetypeIds`/`impactDomains` enum values: Earhart, Borlaug x2) plus 2
+  product taxonomy/i18n coverage fixes (`field.architecture`,
+  `occupation.musician`). All twelve promoted via `generateRoster27.ts`
+  with real rights-clear portraits (two `editorial_nonlikeness`, honestly
+  labeled) and full EN/KO editorial content. **Zero newly match-eligible
+  people** this cycle (several clear raw coverage but fail the
+  high-confidence sub-gate) -- dispersion/calibration correctly left
+  untouched since the match-eligible set didn't change. A post-PR review
+  found and fixed two factual wording errors (Hedy Lamarr's patent
+  described as rejected rather than granted-but-not-adopted; Amelia
+  Earhart's 1937 flight implied as a completed record rather than an
+  attempt), `ERROR_CORRECTION`/editorial-only, no score/eligibility
+  change. Roster: **155 total / 154 default-directory-visible / 127
+  match-eligible**. Full record:
   [`roster27-twelve-person-fast-batch.md`](roster27-twelve-person-fast-batch.md).

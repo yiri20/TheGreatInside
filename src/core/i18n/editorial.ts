@@ -3233,7 +3233,7 @@ export const EDITORIAL_EN: Record<string, string> = {
     "A swift, documented pivot following directly from a single specific episode is the basis for the profile's decisiveness score.",
 
   "amelia-earhart.achievement.1":
-    "Set a documented, sustained sequence of specific aviation distance/speed/altitude records across roughly a decade — the 1932 solo transatlantic crossing, the 1935 solo Hawaii-to-California flight, and the 1937 round-the-world attempt — corroborated via the Smithsonian's own record of her flight log.",
+    "Pursued a documented sequence of pioneering and record-setting flights across roughly a decade, including the 1932 solo transatlantic crossing, the 1935 Hawaii-to-California solo flight, and the 1937 round-the-world attempt — corroborated via the Smithsonian's own record of her flight log.",
   "amelia-earhart.achievement.2":
     "Co-founded and served as the first president of the Ninety-Nines, an organization for women pilots that persisted well beyond her own career.",
   "amelia-earhart.moment.1":
@@ -3346,7 +3346,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "hedy-lamarr.moment.1":
     "Drew the frequency-hopping mechanism's core inspiration from a synchronized player-piano, an unconventional analogy documented via the patent's own specific technical origin story.",
   "hedy-lamarr.moment.2":
-    "The US Navy's patent office initially dismissed her 1942 submission, not taking seriously the combination of a famous film actress and serious technical invention.",
+    "Lamarr and Antheil's frequency-hopping patent was granted in 1942, but the U.S. Navy declined to adopt the proposed system at the time, considering the implementation impractical.",
   "hedy-lamarr.turning_point.1":
     "Fled an abusive, controlling first marriage in Austria as war approached to rebuild a completely new career and life abroad in Hollywood.",
   "hedy-lamarr.interpretation.achievement.1":
@@ -6484,7 +6484,7 @@ export const EDITORIAL_KO: Record<string, string> = {
     "단 하나의 구체적 사건에서 곧바로 이어진 신속하고 기록된 전환은 프로필의 결단력(decisiveness) 점수의 근거다.",
 
   "amelia-earhart.achievement.1":
-    "약 10년에 걸쳐 구체적인 항공 거리·속도·고도 기록을 연이어 세웠다 — 1932년 대서양 단독 횡단, 1935년 하와이-캘리포니아 단독 비행, 1937년 세계 일주 시도 — 스미소니언 협회 자체의 비행 기록으로 뒷받침된다.",
+    "약 10년에 걸쳐 선구적이고 기록적인 비행을 잇따라 수행했다 — 1932년 대서양 단독 횡단, 1935년 하와이-캘리포니아 단독 비행, 그리고 1937년 세계 일주 시도가 여기에 포함된다 — 스미소니언 협회 자체의 비행 기록으로 뒷받침된다.",
   "amelia-earhart.achievement.2":
     "여성 조종사 단체인 나인티나인스(Ninety-Nines)를 공동 설립하고 초대 회장을 지냈으며, 이 단체는 그녀의 경력을 넘어 오랫동안 존속했다.",
   "amelia-earhart.moment.1":
@@ -6597,7 +6597,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "hedy-lamarr.moment.1":
     "주파수 도약 메커니즘의 핵심 아이디어를 자동 연주 피아노의 동기화 원리에서 얻었다 — 특허 자체의 구체적인 기술적 유래를 통해 확인되는, 이례적인 발상의 전환이었다.",
   "hedy-lamarr.moment.2":
-    "미 해군 특허청은 1942년 그녀가 제출한 특허를 처음에는 진지하게 받아들이지 않고 묵살했다 — 유명 영화배우와 진지한 기술 발명이라는 조합을 대수롭지 않게 여긴 것이다.",
+    "라마와 앤타일의 주파수 도약 특허는 1942년에 실제로 등록되었지만, 당시 미 해군은 제안된 구현 방식이 실용적이지 않다고 보고 이 시스템을 채택하지 않았다.",
   "hedy-lamarr.turning_point.1":
     "전쟁이 다가오던 오스트리아에서 통제적이었던 첫 번째 결혼 생활을 벗어나, 할리우드에서 완전히 새로운 경력과 삶을 다시 일구었다.",
   "hedy-lamarr.interpretation.achievement.1":

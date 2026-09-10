@@ -92,21 +92,34 @@ No corrections were needed for the other 8 candidates.
 
 Mechanically checked all 12 candidates' `occupationIds`, `fieldIds`,
 `impactDomains`, `tagIds`, `archetypeIds`, `regionCode`, and source
-`kind` values against current production vocabularies — 0 invalid
-values found among the classification fields themselves. Two live
-coverage-guard gaps surfaced by the full test run (not classification
-errors, but missing curated-Directory/localization wiring for values
-that had never before been used the way this batch uses them):
-- `field.architecture` had no EN/KO translation and "architecture" was
-  not wired into `PROFESSION_CATEGORIES` — it now qualifies for the
-  Directory's profession filter because Zaha Hadid is the second
-  production person with that fieldId (after an existing roster10
-  architect). Added the translation and added `architecture` to the
-  `arts_culture` category, next to `design`.
-- `occupation.musician` had no EN/KO translation — Bob Marley is the
-  first production person with `"musician"` as `occupationIds[0]`
-  (existing musicians in the roster have `"composer"` or another value
-  first). Added the translation.
+`kind` values against current production vocabularies. This found **3
+classification metadata corrections** (invalid enum values, not
+present in `ARCHETYPE_IDS`/`IMPACT_DOMAINS`) — distinct in kind from the
+2 product taxonomy/i18n coverage gaps below, and corrected before
+promotion, not after:
+
+1. **Amelia Earhart** `archetypeIds`: `"visionary_pioneer"` → `"scientific_explorer"` — `visionary_pioneer` is not a valid `ARCHETYPE_ID`.
+2. **Norman Borlaug** `impactDomains`: `"humanitarian"` → `"social"` — `humanitarian` is not a valid `IMPACT_DOMAIN`.
+3. **Norman Borlaug** `archetypeIds`: `"resilient_builder"` → `"entrepreneurial_builder"` — `resilient_builder` is not a valid `ARCHETYPE_ID`.
+
+Separately, **2 product taxonomy/i18n coverage gaps** surfaced by the
+full test run — not invalid classification values, but missing curated-
+Directory/localization wiring for already-valid values that had never
+before been used the way this batch uses them:
+
+1. `field.architecture` had no EN/KO translation and "architecture" was
+   not wired into `PROFESSION_CATEGORIES` — it now qualifies for the
+   Directory's profession filter because Zaha Hadid is the second
+   production person with that fieldId (after an existing roster10
+   architect). Added the translation and added `architecture` to the
+   `arts_culture` category, next to `design`.
+2. `occupation.musician` had no EN/KO translation — Bob Marley is the
+   first production person with `"musician"` as `occupationIds[0]`
+   (existing musicians in the roster have `"composer"` or another value
+   first). Added the translation.
+
+Total: **3 classification metadata corrections + 2 product taxonomy/i18n
+coverage fixes.**
 
 ## Portraits
 
@@ -210,6 +223,48 @@ across all twelve candidates (86 tests), not twelve near-identical files.
 (was 143/142/127 — match-eligible count unchanged this cycle). Zheng He,
 Giuseppe Garibaldi, Anton Chekhov, the roster25 six, and the roster26 ten
 all unchanged.
+
+## Post-PR26-review focused correction pass (2026-09)
+
+A review of the open PR caught two factual wording errors and one
+documentation-accuracy gap, none touching any score/confidence/
+evidenceType/impact/eligibility:
+
+- **Hedy Lamarr, `ERROR_CORRECTION`**: the `independent_thinking` row's
+  rationale, and the EN/KO `moment.2` editorial text, inaccurately
+  described her 1942 frequency-hopping patent as dismissed/rejected by
+  a "military patent office." Corrected to the accurate sequence: the
+  patent (US 2,292,387) was granted in 1942 by the (separate, civilian)
+  US Patent Office; the US Navy separately declined to adopt the
+  proposed system at the time, considering the implementation
+  impractical. No claim about the Navy's motive (e.g. sexism) was added
+  — the audited sources support only the non-adoption fact, not a
+  reason.
+- **Amelia Earhart, editorial wording only**: `achievement.1` (EN/KO)
+  grouped the 1932 transatlantic crossing, 1935 Hawaii-to-California
+  flight, and 1937 round-the-world flight under language that could
+  read as three completed records. The 1937 flight was an attempt (she
+  disappeared during it) — corrected the wording to describe a sequence
+  of "pioneering and record-setting flights... including" the three
+  named flights, explicitly keeping "attempt" for 1937. (The candidate
+  JSON's own `risk_tolerance` row already correctly called 1937 an
+  attempt; only the editorial prose needed the fix.)
+- **Metadata documentation accuracy**: this checkpoint's own "Metadata"
+  section previously stated "0 invalid values found," which contradicted
+  the 3 classification-metadata corrections already made during the
+  original audit and recorded in Earhart's and Borlaug's own provenance
+  notes. Corrected above to explicitly report 3 classification metadata
+  corrections, kept clearly distinct from the 2 product taxonomy/i18n
+  coverage fixes.
+
+Regeneration: since Hedy Lamarr's candidate JSON changed,
+`generateRoster27.ts` and `generatePeopleIndex.ts` were rerun; a
+candidate→roster→`SEED_PEOPLE` consistency check found 0 mismatches
+(score/confidence/evidenceType/impact unchanged: 70/0.65/documented/
+advantage). Amelia Earhart's candidate JSON was not touched (editorial-
+only), so no regeneration was required for her. Final counts confirmed
+unchanged at 155/154/127; all 12 roster27 people confirmed still
+non-match-eligible.
 
 ## Test plan
 
