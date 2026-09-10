@@ -675,7 +675,13 @@ raises the target.
   taxonomy/i18n coverage fixes (`occupation.economist`,
   `field.diplomacy`). All fifteen promoted via `generateRoster28.ts` with
   real rights-clear portraits (one `editorial_nonlikeness`, Mahfouz,
-  honestly labeled) and full EN/KO editorial content. **Zero newly
+  honestly labeled) and full EN/KO editorial content. A post-PR28-review
+  pass separately re-read every claim against its cited source (not just
+  its own rationale text) and found 6 further factual/source-attribution
+  wording issues across 6 candidates -- Churchill, Hepburn, Jefferson,
+  Rivera, Mahfouz, Ford -- corrected as `ERROR_CORRECTION`s to the
+  candidate rationale and matching EN/KO editorial text; none changed
+  any score, confidence, evidenceType, or impact value. **Zero newly
   match-eligible people** this cycle -- dispersion/calibration correctly
   left untouched since the match-eligible set didn't change. Roster:
   **170 total / 169 default-directory-visible / 127 match-eligible**.

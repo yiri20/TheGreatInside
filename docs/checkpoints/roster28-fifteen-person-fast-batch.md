@@ -162,7 +162,62 @@ item. One genuine issue was caught this way, before promotion:
   matching the phrasing his own candidate row already used, same fact,
   no banned pattern. `editorialValidation.test.ts`: 20/20 after the fix.
 
-No other factual wording issues found in the final pass.
+### Post-PR28-review pass
+
+The drafting-time check above only catches what its banned-language
+regex is built to flag; it doesn't verify a claim against its actual
+source. A closer post-PR28 review pass — re-reading every claim against
+its cited source, not just its own rationale text — found six further
+factual/source-attribution issues the first pass missed, across six
+candidates. All six are wording-only `ERROR_CORRECTION`s to the
+candidate row's rationale plus the matching EN/KO editorial text; none
+changed any score, confidence, evidenceType, or impact value (confirmed
+by a full before/after row comparison across all 15 candidates):
+
+- **Winston Churchill** — `achievement_drive` + `achievement.1` implied
+  the 1953 Nobel Prize in Literature was for *The Second World War*
+  specifically. The citation credits his broader historical/biographical
+  writing and oratory. Reworded to the broader attribution.
+- **Katharine Hepburn** — 7 rows (`persistence`, `leadership_drive`,
+  `autonomy_need`, `proactive_agency`, `opportunity_sensing`,
+  `resourcefulness`, `planning_orientation`) + `achievement.1` +
+  `turning_point.1` described her 1940s film comeback as self-financed
+  on film rights she purchased. Howard Hughes acquired and transferred
+  those rights to her; she did not buy them herself. Reworded to
+  "controlled/leveraged rights Hughes transferred to her."
+- **Thomas Jefferson** — the cited source title + `moment.2` called his
+  paternity of Sally Hemings's children "DNA-confirmed." DNA evidence
+  specifically confirms Jefferson-family paternity for Eston Hemings;
+  the fuller conclusion rests on the combined documentary/historical/
+  chronological record, not DNA alone. Reworded to reflect the combined
+  evidence base with an explicit Eston Hemings clarification.
+- **Diego Rivera** — `creative_originality`, `collaboration`, and
+  `independent_thinking` (full `ERROR_CORRECTION`s), `leadership_drive`
+  (lightly retightened, no full re-label), + `achievement.1` described
+  him as Mexican Muralism's founder. He was one of its pioneering
+  figures alongside José Clemente Orozco and David Alfaro Siqueiros, not
+  its sole founder. Reworded to "one of the pioneering/central figures";
+  the `founder` classification tag was left as-is.
+- **Naguib Mahfouz** — `creative_originality` + `achievement.1`
+  attributed a specific "synthesizing European narrative technique with
+  Egyptian social material" characterization to the Nobel citation. The
+  actual citation credits him with having "formed an Arabian narrative
+  art that applies to all mankind" — it doesn't say this. Reworded to
+  the real citation language; the more specific claim was removed rather
+  than re-attributed without new research.
+- **Henry Ford** — `risk_tolerance` + `moment.1` presented reducing
+  worker turnover and making cars affordable to his own workers as
+  equally certain co-motives for the 1914 $5-day wage. Turnover
+  reduction is the strongly-supported primary motive in the audited
+  sources; affordability is better framed as a consequence. Narrowed
+  accordingly.
+
+`editorialValidation.test.ts` and the Roster28 Playwright spec both pass
+against the corrected text. The first pass above did not find
+everything — it caught what its mechanical pattern check targets, not
+source-misattribution, which only surfaces on a real re-read against the
+source. No further factual wording issues were found after this second
+pass.
 
 ## Portraits (Part G)
 
@@ -212,9 +267,11 @@ convention rather than a forced 2/2/1 template. Korean display names
 added for all 15. Two candidates' editorial content deliberately
 addresses ethically serious, already-scored material honestly rather than
 presenting a sanitized narrative — matching how their trait rows already
-handled it: **Thomas Jefferson** (his documented, DNA-confirmed
-relationship with Sally Hemings and his sustained enslavement of over 600
-people despite his own written condemnation of slavery) and **Winnie
+handled it: **Thomas Jefferson** (his documented relationship with Sally
+Hemings, established by the combined documentary, historical,
+chronological, and DNA evidentiary record, and his sustained enslavement
+of over 600 people despite his own written condemnation of slavery) and
+**Winnie
 Madikizela-Mandela** (the 1997 TRC finding of accountability for violence
 connected to the Mandela United Football Club, including the killing of
 Stompie Moeketsi, and the 1986 "necklacing" statement controversy).

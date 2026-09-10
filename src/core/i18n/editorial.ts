@@ -3417,7 +3417,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "agatha-christie.interpretation.turning_point.1":
     "Rebuilding a career and personal life through sustained, self-directed work after a major crisis is the basis for the profile's resourcefulness score.",
   "winston-churchill.achievement.1":
-    "Wrote a six-volume history of the Second World War after leaving office, for which he was awarded the Nobel Prize in Literature in 1953.",
+    "After leaving office, wrote his six-volume history The Second World War. In 1953 he received the Nobel Prize in Literature for his broader mastery of historical and biographical writing as well as his oratory.",
   "winston-churchill.achievement.2":
     "Sustained a public career across soldiering (Sudan, South Africa), war correspondence, and more than sixty years in politics, spanning multiple Cabinet posts and two terms as Prime Minister.",
   "winston-churchill.moment.1":
@@ -3437,7 +3437,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "thomas-jefferson.moment.1":
     "Sustained personal engagement across architecture, paleontology, botany, and linguistics -- including compiling comparative Native American vocabulary lists -- corroborated by his own extensive surviving correspondence and design drawings.",
   "thomas-jefferson.moment.2":
-    "Despite writing a lifelong, explicit condemnation of slavery as morally wrong, he enslaved over 600 people at Monticello across his life and freed only a small number, even in his will; his documented, DNA-confirmed relationship with Sally Hemings, an enslaved woman he owned, is part of this record.",
+    "Despite writing a lifelong, explicit condemnation of slavery as morally wrong, he enslaved over 600 people at Monticello across his life and freed only a small number, even in his will; the combined documentary, historical, and DNA evidence supports the conclusion that he fathered children with Sally Hemings, an enslaved woman he owned, and this is part of that record.",
   "thomas-jefferson.turning_point.1":
     "His own chosen epitaph for his gravestone lists only three achievements -- author of the Declaration of Independence, author of the Virginia Statute for Religious Freedom, and founder of the University of Virginia -- deliberately excluding his two terms as President.",
   "thomas-jefferson.interpretation.moment.2":
@@ -3457,7 +3457,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "sun-yat-sen.interpretation.turning_point.1":
     "Converting a personal crisis into a deliberate, dated piece of international publicity is the basis for the profile's opportunity_sensing score.",
   "katharine-hepburn.achievement.1":
-    "Purchased the film rights to The Philadelphia Story herself after being publicly labeled 'box office poison' in 1938, engineering her own career comeback on her own terms.",
+    "After The Philadelphia Story succeeded on stage, Hepburn controlled the film rights, which Howard Hughes had acquired and transferred to her. She used that leverage to negotiate her return to Hollywood on unusually favorable terms after being publicly labeled 'box office poison' in 1938, including approval over key production choices.",
   "katharine-hepburn.achievement.2":
     "Won her fourth competitive Academy Award at age 74, for On Golden Pond, capping a screen and stage career spanning roughly 60 years.",
   "katharine-hepburn.moment.1":
@@ -3465,7 +3465,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "katharine-hepburn.moment.2":
     "Repeatedly and publicly defied studio conventions -- refusing standard interviews, wearing trousers when studios objected, and walking away from RKO when dissatisfied with the roles she was offered.",
   "katharine-hepburn.turning_point.1":
-    "After being labeled 'box office poison,' she didn't wait for a studio to offer her a way back -- she bought the stage and film rights to The Philadelphia Story herself, rebuilding her career on terms she controlled.",
+    "After being labeled 'box office poison,' she didn't wait for a studio to offer her a way back -- she secured the stage rights to The Philadelphia Story herself and controlled the film rights Howard Hughes had transferred to her, rebuilding her career on terms she controlled.",
   "katharine-hepburn.interpretation.turning_point.1":
     "Self-initiating the acquisition of specific rights to engineer a career rescue, rather than waiting to be offered one, is the basis for the profile's proactive_agency score.",
   "henry-ford.achievement.1":
@@ -3473,7 +3473,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "henry-ford.achievement.2":
     "Founded Ford Motor Company successfully in 1903, at age 40, after two earlier automobile ventures had failed.",
   "henry-ford.moment.1":
-    "In 1914, he doubled factory wages to $5 a day -- an unprecedented, widely-criticized-at-the-time move calculated to reduce turnover and let his own workers afford the cars they built.",
+    "In 1914 Ford introduced the $5 day amid severe worker turnover -- an unprecedented, widely-criticized-at-the-time move. The policy helped stabilize the workforce and substantially increased workers' purchasing power, including their ability to afford automobiles.",
   "henry-ford.moment.2":
     "He personally directed and funded the Dearborn Independent's sustained antisemitic publishing campaign, 'The International Jew,' through the early 1920s, only issuing a retraction and apology in 1927 under mounting legal and commercial pressure.",
   "henry-ford.turning_point.1":
@@ -3505,7 +3505,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "stephen-hawking.interpretation.turning_point.1":
     "A documented, deliberate choice to pursue his most ambitious work specifically after receiving a terminal diagnosis is the basis for the profile's proactive_agency score.",
   "diego-rivera.achievement.1":
-    "Founded the Mexican Muralism movement, developing large-scale public fresco painting that integrated pre-Columbian, folk, and modernist European technique into a form later recognized as a genuinely new synthesis in art history.",
+    "Rivera became one of the central pioneering figures of Mexican Muralism, helping develop and lead the movement alongside artists such as José Clemente Orozco and David Alfaro Siqueiros -- developing large-scale public fresco painting that integrated pre-Columbian, folk, and modernist European technique into a form later recognized as a genuinely new synthesis in art history.",
   "diego-rivera.achievement.2":
     "Produced an unusually large body of major public mural work across Mexico and the United States, including the Detroit Industry murals and the National Palace murals in Mexico City.",
   "diego-rivera.moment.1":
@@ -3517,7 +3517,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "diego-rivera.interpretation.turning_point.1":
     "Departing from the prevailing gallery-based fine-art convention of his era to found a genuinely distinct public-art movement is the basis for the profile's independent_thinking score.",
   "naguib-mahfouz.achievement.1":
-    "Widely credited, per the 1988 Nobel Prize citation, with pioneering the modern Arabic novel form, synthesizing European narrative technique with Egyptian social material.",
+    "The Nobel committee credited Mahfouz, per the official 1988 citation, with having formed 'an Arabian narrative art that applies to all mankind,' and Nobel's own historical commentary describes his work as central to bringing the modern Arabic novel to maturity.",
   "naguib-mahfouz.achievement.2":
     "Sustained an unusually strict daily writing routine across roughly seven decades while working a full-time career in the Egyptian civil service, producing more than 30 novels.",
   "naguib-mahfouz.moment.1":
@@ -6858,7 +6858,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "agatha-christie.interpretation.turning_point.1":
     "큰 위기 이후 지속적이고 자기주도적인 노력으로 경력과 삶을 재건한 것은 프로필의 자원 활용력(resourcefulness) 점수의 근거다.",
   "winston-churchill.achievement.1":
-    "공직에서 물러난 뒤 제2차 세계대전에 관한 6권짜리 역사서를 저술했으며, 이 업적으로 1953년 노벨 문학상을 수상했다.",
+    "공직에서 물러난 뒤 6권짜리 역사서 『제2차 세계대전』을 저술했다. 1953년에는 역사·전기 서술의 탁월함과 웅변술을 인정받아 노벨 문학상을 수상했다.",
   "winston-churchill.achievement.2":
     "수단과 남아프리카에서의 군 복무, 종군기자 활동, 그리고 60년이 넘는 정치 활동을 아우르는 공적 경력을 이어갔으며, 여러 내각 요직과 두 차례의 총리직을 거쳤다.",
   "winston-churchill.moment.1":
@@ -6878,7 +6878,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "thomas-jefferson.moment.1":
     "건축, 고생물학, 식물학, 언어학에 걸쳐 지속적인 개인적 관심을 유지했으며, 아메리카 원주민 어휘를 비교 정리한 목록을 작성하기도 했다 -- 이는 그가 남긴 방대한 서신과 설계도로 뒷받침된다.",
   "thomas-jefferson.moment.2":
-    "노예제를 도덕적으로 잘못된 것이라고 평생에 걸쳐 명시적으로 비판하는 글을 남겼음에도, 그는 생애 동안 몬티첼로에서 600명이 넘는 사람을 노예로 소유했으며 유언장에서조차 극소수만을 해방시켰다; 그가 소유했던 노예 샐리 헤밍스와의 관계는 DNA 검사와 문헌 기록으로 확인되어 있으며, 이 역시 그의 기록의 일부다.",
+    "노예제를 도덕적으로 잘못된 것이라고 평생에 걸쳐 명시적으로 비판하는 글을 남겼음에도, 그는 생애 동안 몬티첼로에서 600명이 넘는 사람을 노예로 소유했으며 유언장에서조차 극소수만을 해방시켰다; 문헌·역사적 기록과 DNA 증거를 종합할 때 그가 소유했던 노예 샐리 헤밍스와의 사이에서 자녀를 두었다는 결론이 뒷받침되며, 이 역시 그의 기록의 일부다.",
   "thomas-jefferson.turning_point.1":
     "그가 직접 정한 묘비명에는 단 세 가지 업적만 새겨져 있다 -- 독립선언문의 저자, 버지니아 종교자유법의 저자, 버지니아 대학교의 설립자 -- 대통령 재임 2기는 의도적으로 제외되었다.",
   "thomas-jefferson.interpretation.moment.2":
@@ -6898,7 +6898,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "sun-yat-sen.interpretation.turning_point.1":
     "개인적 위기를 의도적이고 시점이 명확한 국제 홍보의 기회로 전환한 것은 프로필의 기회 포착력(opportunity_sensing) 점수의 근거다.",
   "katharine-hepburn.achievement.1":
-    "1938년 '흥행 독약'이라는 오명을 공개적으로 얻은 뒤, 그녀는 직접 『필라델피아 스토리』의 영화 판권을 사들여 자신의 방식대로 경력을 회복시켰다.",
+    "『필라델피아 스토리』가 무대에서 성공을 거둔 뒤, 헵번은 하워드 휴스가 취득하여 그녀에게 넘겨준 영화 판권을 확보했다. 1938년 '흥행 독약'이라는 오명을 공개적으로 얻은 뒤, 그녀는 이 지렛대를 활용해 이례적으로 유리한 조건으로 할리우드 복귀를 협상했으며, 여기에는 주요 제작 결정에 대한 승인권도 포함되어 있었다.",
   "katharine-hepburn.achievement.2":
     "74세에 『황금 연못』으로 자신의 네 번째 경쟁 부문 아카데미상을 수상하며, 약 60년에 걸친 영화 및 연극 경력의 정점을 찍었다.",
   "katharine-hepburn.moment.1":
@@ -6906,7 +6906,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "katharine-hepburn.moment.2":
     "그녀는 거듭 공개적으로 스튜디오 관행에 맞섰다 -- 정형화된 인터뷰를 거부하고, 스튜디오가 반대해도 바지를 착용했으며, 제안받은 배역에 만족하지 못하자 RKO를 떠났다.",
   "katharine-hepburn.turning_point.1":
-    "'흥행 독약'이라는 꼬리표가 붙은 뒤에도 그녀는 스튜디오가 복귀의 기회를 제안해 주기를 기다리지 않았다 -- 직접 『필라델피아 스토리』의 연극 및 영화 판권을 사들여, 스스로 통제할 수 있는 방식으로 경력을 재건했다.",
+    "'흥행 독약'이라는 꼬리표가 붙은 뒤에도 그녀는 스튜디오가 복귀의 기회를 제안해 주기를 기다리지 않았다 -- 직접 『필라델피아 스토리』의 무대 판권을 확보하고, 하워드 휴스가 넘겨준 영화 판권을 장악하여, 스스로 통제할 수 있는 방식으로 경력을 재건했다.",
   "katharine-hepburn.interpretation.turning_point.1":
     "누군가 기회를 제안해 주기를 기다리는 대신 스스로 특정 권리를 확보하여 경력을 구제한 것은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
   "henry-ford.achievement.1":
@@ -6914,7 +6914,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "henry-ford.achievement.2":
     "앞선 두 차례의 자동차 사업이 실패한 뒤, 40세였던 1903년에 포드 자동차 회사를 성공적으로 설립했다.",
   "henry-ford.moment.1":
-    "1914년, 그는 공장 노동자의 임금을 하루 5달러로 두 배 인상했다 -- 이는 이직률을 낮추고 노동자 스스로가 자신이 만든 자동차를 살 수 있게 하려는 계산된 조치였지만, 당시로서는 전례 없고 널리 비판받은 결정이었다.",
+    "1914년, 극심한 이직률 문제 속에서 포드는 공장 노동자의 임금을 하루 5달러로 인상했다 -- 당시로서는 전례 없고 널리 비판받은 조치였다. 이 정책은 노동력을 안정시키는 데 기여했고, 자동차를 구매할 수 있는 능력을 포함해 노동자들의 구매력을 크게 높였다.",
   "henry-ford.moment.2":
     "그는 1920년대 초까지 자신이 소유한 신문 『디어본 인디펜던트』의 반유대주의 연재 캠페인 '국제 유대인'을 직접 지휘하고 자금을 댔으며, 법적·상업적 압박이 커진 1927년에 이르러서야 철회와 사과를 발표했다.",
   "henry-ford.turning_point.1":
@@ -6946,7 +6946,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "stephen-hawking.interpretation.turning_point.1":
     "시한부 진단을 받은 직후 오히려 가장 야심찬 연구를 추진하기로 한 명확하고 의도적인 선택은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
   "diego-rivera.achievement.1":
-    "멕시코 벽화 운동을 창시하여, 콜럼버스 이전 시대 미술과 민속 전통, 유럽 모더니즘 기법을 통합한 대형 공공 프레스코 회화를 발전시켰으며, 이는 훗날 미술사에서 진정으로 새로운 종합으로 인정받았다.",
+    "리베라는 호세 클레멘테 오로스코, 다비드 알파로 시케이로스 같은 예술가들과 함께 멕시코 벽화 운동을 이끈 핵심 선구자 중 한 명이 되었다 -- 콜럼버스 이전 시대 미술과 민속 전통, 유럽 모더니즘 기법을 통합한 대형 공공 프레스코 회화를 발전시켰으며, 이는 훗날 미술사에서 진정으로 새로운 종합으로 인정받았다.",
   "diego-rivera.achievement.2":
     "디트로이트 인더스트리 벽화와 멕시코시티 국립궁전 벽화를 포함해, 멕시코와 미국 전역에 걸쳐 이례적으로 방대한 대형 공공 벽화 작품을 남겼다.",
   "diego-rivera.moment.1":
@@ -6958,7 +6958,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "diego-rivera.interpretation.turning_point.1":
     "당대 화랑 중심 순수 미술의 지배적 관행에서 벗어나 진정으로 독자적인 공공 예술 운동을 창시한 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
   "naguib-mahfouz.achievement.1":
-    "1988년 노벨상 선정 사유에서 널리 인정받았듯, 유럽의 서사 기법과 이집트 사회의 소재를 결합하여 현대 아랍 소설 형식을 개척한 인물로 평가받는다.",
+    "노벨위원회는 1988년 공식 선정 사유에서 마푸즈가 '모든 인류에 적용되는 아랍 서사 예술을 형성했다'고 평가했으며, 노벨상 측의 역사적 논평 역시 그를 현대 아랍 소설을 성숙시킨 핵심 인물로 소개한다.",
   "naguib-mahfouz.achievement.2":
     "이집트 공무원으로 전업 근무하면서도 약 70년에 걸쳐 이례적으로 엄격한 일일 집필 습관을 유지하며 30편이 넘는 장편소설을 남겼다.",
   "naguib-mahfouz.moment.1":

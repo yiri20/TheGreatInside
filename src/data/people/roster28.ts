@@ -190,7 +190,7 @@ const seeds: PersonSeed[] = [
     directoryVisible: true,
     sources: [{ id: "src_rivera_wikipedia", kind: "wikipedia", title: "Diego Rivera", url: "https://en.wikipedia.org/wiki/Diego_Rivera" }, { id: "src_rivera_moma", kind: "institution", title: "Museum of Modern Art — Diego Rivera" }],
     rows: {
-      // Founded the Mexican Muralism movement, developing large-scale public fresco painting as a distinctive art form integrating pre-Columbian, folk, and modernist European technique, documented via the movement's own lasting art-historical recognition and influence.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Became one of the central pioneering figures of Mexican Muralism, developing large-scale public fresco painting as a distinctive art form integrating pre-Columbian, folk, and modernist European technique, documented via the movement's own lasting art-historical recognition and influence. (Corrected: the post-revolutionary state-sponsored mural program under José Vasconcelos helped launch the movement, and Rivera was one of its principal figures alongside José Clemente Orozco and David Alfaro Siqueiros, not its sole founder.)
       creative_originality: [84, 0.65, "d", "A"],
       // Explicitly conceived his murals as public, accessible art depicting Mexican history and workers' struggles rather than private gallery work, documented via his own stated artistic philosophy and the murals' deliberate placement in public government and civic buildings.
       impact_motivation: [82, 0.65, "d", "A"],
@@ -212,9 +212,9 @@ const seeds: PersonSeed[] = [
       detail_orientation: [64, 0.46, "s", "A"],
       // Worked across mural painting, easel painting, and stage/set design over his career, suggesting some range within the visual arts broadly construed.
       cross_domain_range: [56, 0.4, "i", "N"],
-      // Founded the Mexican Muralism movement alongside contemporaries (including José Clemente Orozco and David Alfaro Siqueiros), suggesting real capacity to build and sustain a shared artistic movement despite his own strong individual convictions.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Was one of the pioneering figures of the Mexican Muralism movement alongside contemporaries (including José Clemente Orozco and David Alfaro Siqueiros), suggesting real capacity to build and sustain a shared artistic movement despite his own strong individual convictions.
       collaboration: [58, 0.42, "i", "N"],
-      // Widely credited as a principal founder and leading figure of the Mexican Muralism movement, documented via the movement's own well-established historical association with him as one of its central figures.
+      // Widely credited as one of the movement's principal pioneering figures and leaders, documented via Mexican Muralism's own well-established historical association with him as one of its central figures. (Lightly retightened, post-PR28-review: 'a principal founder' could still read as overstating sole/primary founding credit -- see creative_originality's ERROR_CORRECTION for the full context.)
       leadership_drive: [62, 0.44, "s", "A"],
       // Continued developing his fresco technique and compositional approach across a career spanning decades and multiple major mural cycles.
       mastery_orientation: [58, 0.42, "i", "N"],
@@ -228,7 +228,7 @@ const seeds: PersonSeed[] = [
       deep_focus: [60, 0.42, "i", "N"],
       // His murals' engagement with Mexican pre-Columbian history, contemporary industry, and political theory suggests real intellectual range beyond technique alone.
       curiosity: [58, 0.42, "i", "N"],
-      // Founded Mexican Muralism as a genuinely distinct public-art movement departing from prevailing gallery-based fine-art convention, documented via the movement's own well-established historical departure from that norm.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Helped pioneer Mexican Muralism as a genuinely distinct public-art movement departing from prevailing gallery-based fine-art convention, documented via the movement's own well-established historical departure from that norm.
       independent_thinking: [68, 0.65, "d", "A"],
       // Sustained a demanding public mural career across decades and multiple countries despite the real professional setback of the destroyed Rockefeller Center commission.
       persistence: [62, 0.44, "s", "A"],
@@ -345,7 +345,7 @@ const seeds: PersonSeed[] = [
       persistence: [78, 0.62, "d", "A"],
       // Documented as refusing for nearly two decades to substantially update the Model T's basic design even as competitors innovated and market share eroded, resisting internal pressure (including from his own son Edsel) for change until the 1927 Model A — a documented, costly rigidity rather than adaptability.
       adaptability: [45, 0.4, "i", "R"],
-      // Documented as doubling factory wages to $5/day in 1914, an unprecedented, widely-criticized-at-the-time move by industry peers, made as a calculated bet to reduce turnover and enable his workers to afford the cars they built — a specific, dated, high-stakes business decision.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented as doubling factory wages to $5/day in 1914 amid severe worker turnover -- an unprecedented, widely-criticized-at-the-time move by industry peers. The policy helped stabilize the workforce and substantially increased workers' purchasing power, including their ability to afford automobiles, though turnover reduction rather than employee car-affordability is the strongly-supported primary motive — a specific, dated, high-stakes business decision. (Corrected: earlier wording presented car-affordability as an equally certain co-motive; narrowed to reflect it as a consequence rather than a proven primary intention, per the audited sources.)
       risk_tolerance: [68, 0.52, "s", "R"],
       // The $5 day and the assembly line's implementation are documented as decisively executed once decided, though his multi-year resistance to updating the Model T shows the opposite pattern in a different domain — genuinely mixed, scored at inference level.
       decisiveness: [62, 0.45, "i", "N"],
@@ -550,7 +550,7 @@ const seeds: PersonSeed[] = [
     rows: {
       // Documented, sustained daily athletic regimen (swimming, tennis) maintained into her eighties, independently corroborated by multiple co-stars' and crew members' accounts across different decades of her career describing the same consistent practice, not a single interview claim.
       discipline: [78, 0.62, "d", "A"],
-      // Documented as being publicly labeled "box office poison" by theater owners in 1938 after a string of commercial failures, then personally purchasing the film rights to The Philadelphia Story specifically to engineer her own career comeback — a specific, self-financed, independently corroborated recovery strategy.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented as being publicly labeled "box office poison" by theater owners in 1938 after a string of commercial failures, then leveraging the film rights to The Philadelphia Story -- which Howard Hughes had acquired and transferred to her -- to negotiate and engineer her own career comeback on unusually favorable terms, an independently corroborated recovery strategy. (Corrected: reliable accounts credit Hughes, not Hepburn, with the film-rights purchase itself; she controlled and leveraged those rights rather than personally buying or financing them.)
       persistence: [78, 0.65, "d", "A"],
       // Documented career reinvention from 1930s dramatic ingenue to 1940s-50s screwball and dramatic leading roles to later-career character work, sustained across roughly 60 years of continuously relevant film and stage work, an unusually long adaptive career independently attested by film historians.
       adaptability: [68, 0.5, "s", "A"],
@@ -558,7 +558,7 @@ const seeds: PersonSeed[] = [
       risk_tolerance: [70, 0.52, "s", "R"],
       // Documented, independently corroborated across multiple co-stars' and directors' separate accounts as outspoken and unusually direct for a female star of her studio era, including publicly wearing trousers and refusing standard studio publicity conventions.
       social_assertiveness: [72, 0.55, "s", "D"],
-      // Documented as taking direct personal control of her own career decisions (buying her own film rights, negotiating her own contracts unusually independently for the era) but not building or leading a formal organization — influence through personal career control rather than institutional leadership, scored near center.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented as taking direct personal control of her own career decisions (controlling the film rights Howard Hughes transferred to her, negotiating her own contracts unusually independently for the era) but not building or leading a formal organization — influence through personal career control rather than institutional leadership, scored near center.
       leadership_drive: [55, 0.42, "i", "N"],
       // Documented, independently corroborated by Berg's biography as repeatedly negotiating unusually favorable, independent contract terms with multiple studios (RKO, then MGM) across different points in her career for a woman of her era, a repeated pattern rather than a single outcome.
       persuasiveness: [62, 0.5, "s", "A"],
@@ -568,13 +568,13 @@ const seeds: PersonSeed[] = [
       mastery_orientation: [62, 0.45, "i", "A"],
       // Documented as continuing to actively pursue challenging film and stage roles into her seventies (winning her fourth competitive Academy Award at 74 for On Golden Pond), corroborated by the dated record of sustained late-career achievement rather than a coasting reputation.
       achievement_drive: [68, 0.5, "s", "A"],
-      // Documented as purchasing her own film rights and controlling her own casting decisions unusually independently for a female star under the studio system, and maintaining her own separate residence throughout her relationship with Tracy rather than a conventional domestic arrangement — a sustained pattern across career and personal life.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented as controlling the film rights Howard Hughes had transferred to her and exercising her own casting decisions unusually independently for a female star under the studio system, and maintaining her own separate residence throughout her relationship with Tracy rather than a conventional domestic arrangement — a sustained pattern across career and personal life.
       autonomy_need: [78, 0.62, "d", "A"],
       // Thin direct evidence of motivation toward broader social impact beyond her craft and career; scored at the safe default rather than inflated from her cultural influence as a symbol of female independence, which is a separate question from her own stated motivation.
       impact_motivation: [50, 0.38, "i", "N"],
       // Career substantively concentrated in film and stage acting; scored at the safe default rather than extended without evidence.
       cross_domain_range: [48, 0.35, "i", "N"],
-      // Self-initiated the purchase of The Philadelphia Story's film rights specifically to control the terms of her own comeback rather than wait for studios to offer her a path back, a documented, self-directed career rescue rather than a role offered to her.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Self-initiated the negotiation of unusually favorable comeback terms -- including approval over key production choices -- using the film rights Howard Hughes had transferred to her, rather than waiting for studios to offer her a path back; a documented, self-directed career rescue rather than a role offered to her.
       proactive_agency: [75, 0.58, "s", "A"],
       // Sustained a documented, mutually corroborated 26-year personal and professional partnership with Spencer Tracy across nine films, attested independently from Tracy's own family and biographers as a genuine, stable collaboration rather than a one-sided account from Hepburn alone.
       collaboration: [70, 0.52, "s", "A"],
@@ -584,13 +584,13 @@ const seeds: PersonSeed[] = [
       belief_updating: [55, 0.4, "i", "N"],
       // Thin direct evidence either way beyond her documented sports-skill preparation for specific roles; scored at the safe default.
       detail_orientation: [55, 0.4, "i", "N"],
-      // Documented, independently corroborated by Berg's biography, as recognizing The Philadelphia Story's specific potential as a comeback vehicle before any studio did, securing the stage and film rights herself first and controlling the casting -- a specific, verified sequence, not inferred from outcome alone.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented, independently corroborated by Berg's biography, as recognizing The Philadelphia Story's specific potential as a comeback vehicle before any studio did, securing the stage rights herself and then controlling the film rights transferred to her by Howard Hughes, including the casting -- a specific, verified sequence, not inferred from outcome alone.
       opportunity_sensing: [65, 0.5, "s", "A"],
-      // Documented, independently corroborated by Berg's account, as using her own capital and prior stage success to engineer a film comeback when studios had effectively blacklisted her as "box office poison" -- a specific, verified instance of resourceful, self-financed career recovery, not her own claim alone.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented, independently corroborated by Berg's account, as leveraging her prior stage success and the film rights Howard Hughes had transferred to her to engineer a film comeback when studios had effectively blacklisted her as "box office poison" -- a specific, corroborated instance of resourceful career recovery, not her own claim alone. (Corrected: earlier wording described this as self-financed/her own capital, which reliable accounts do not support -- Hughes acquired the film rights, not Hepburn.)
       resourcefulness: [65, 0.5, "s", "A"],
       // Thin direct evidence of aesthetic sensitivity beyond her performing craft itself; scored at the safe default.
       aesthetic_sensitivity: [55, 0.4, "i", "N"],
-      // The Philadelphia Story comeback was documented as a deliberately sequenced plan -- securing stage rights first to rebuild critical standing, then selling the film rights on her own terms with cast approval -- rather than an opportunistic single decision, independently corroborated by Berg's account of the multi-step strategy.
+      // The Philadelphia Story comeback was documented as a deliberately sequenced plan -- securing stage rights first to rebuild critical standing, then controlling the film rights (transferred to her by Howard Hughes) on her own terms with cast approval -- rather than an opportunistic single decision, independently corroborated by Berg's account of the multi-step strategy.
       planning_orientation: [68, 0.5, "s", "A"],
     },
   },
@@ -632,7 +632,7 @@ const seeds: PersonSeed[] = [
       risk_tolerance: [72, 0.65, "d", "R"],
       // [NEW_EVIDENCE, this session] A second, independent-domain documented instance now corroborates the literary-output persistence: press/literary-history accounts document that after the 1994 attack, he insisted on resuming his regular nightly gatherings with friends and literary figures across different locations each night of the week -- sustained social-life persistence through physical impairment, not only professional output. Two independent documented instances, different domains, meets this rubric's top confidence band.
       persistence: [80, 0.78, "d", "A"],
-      // Widely credited (per the Nobel citation) with pioneering the modern Arabic novel form, synthesizing European narrative technique with Egyptian social material, documented via the Nobel committee's own explicit framing of his contribution.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): The Nobel committee credited Mahfouz, per the official 1988 citation, with having 'formed an Arabian narrative art that applies to all mankind,' and Nobel's own historical commentary describes him as central to bringing the modern Arabic novel to maturity, documented via the Nobel committee's own citation and contextual material. (Corrected: the official citation does not specifically say he synthesized European narrative technique with Egyptian social material -- that more specific characterization was not verifiable against the Nobel citation itself and has been removed rather than re-attributed to a different source without new research.)
       creative_originality: [74, 0.65, "d", "A"],
       // Sustained a highly productive literary career for decades while also working full-time in the Egyptian civil service until retirement, evidencing real long-term ambition across two simultaneous demanding tracks.
       achievement_drive: [68, 0.5, "s", "A"],
@@ -895,7 +895,7 @@ const seeds: PersonSeed[] = [
       
     },
     directoryVisible: true,
-    sources: [{ id: "src_tj_papers", kind: "archive", title: "The Papers of Thomas Jefferson (Princeton University Press, ongoing) — his own correspondence, drafts, and public documents" }, { id: "src_tj_ellis", kind: "biography", title: "Joseph J. Ellis, American Sphinx: The Character of Thomas Jefferson (1996)" }, { id: "src_tj_gordon_reed", kind: "biography", title: "Annette Gordon-Reed, The Hemingses of Monticello (2008) — independently peer-reviewed scholarship on Jefferson's documented relationship with Sally Hemings, confirmed by DNA and documentary evidence" }, { id: "src_tj_wikipedia", kind: "wikipedia", title: "Thomas Jefferson", url: "https://en.wikipedia.org/wiki/Thomas_Jefferson" }],
+    sources: [{ id: "src_tj_papers", kind: "archive", title: "The Papers of Thomas Jefferson (Princeton University Press, ongoing) — his own correspondence, drafts, and public documents" }, { id: "src_tj_ellis", kind: "biography", title: "Joseph J. Ellis, American Sphinx: The Character of Thomas Jefferson (1996)" }, { id: "src_tj_gordon_reed", kind: "biography", title: "Annette Gordon-Reed, The Hemingses of Monticello (2008) — independently peer-reviewed scholarship whose combined documentary, historical, chronological, and DNA evidence supports the conclusion that Jefferson fathered Sally Hemings's children (DNA evidence alone established Jefferson-family paternity for Eston Hemings, not Thomas Jefferson specifically; the fuller conclusion rests on the combined record)" }, { id: "src_tj_wikipedia", kind: "wikipedia", title: "Thomas Jefferson", url: "https://en.wikipedia.org/wiki/Thomas_Jefferson" }],
     rows: {
       // Documented, sustained personal engagement across architecture (his own designs for Monticello and the University of Virginia), paleontology, botany, and linguistics (compiling comparative Native American vocabulary lists), corroborated by his own extensive correspondence and surviving design drawings, not secondhand reputation.
       curiosity: [85, 0.72, "d", "A"],
@@ -1044,7 +1044,7 @@ const seeds: PersonSeed[] = [
       independent_thinking: [88, 0.68, "d", "A"],
       // Spent his 'wilderness years' (roughly 1929-1939) marginalized from government, documented as repeatedly and publicly warning about Nazi German rearmament while largely disbelieved by the political mainstream, sustained for a full decade before events proved him correct.
       persistence: [85, 0.65, "d", "A"],
-      // Wrote a six-volume history of the Second World War after leaving office, for which he was awarded the Nobel Prize in Literature in 1953 -- a specific, documented sustained achievement distinct from his political career.
+      // ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): After leaving office, wrote a six-volume history of The Second World War; in 1953 he received the Nobel Prize in Literature for his mastery of historical and biographical description as well as his brilliant oratory in defending exalted human values -- the prize recognized his broader literary/historical work, not the WWII history specifically. A specific, documented sustained achievement distinct from his political career.
       achievement_drive: [84, 0.65, "d", "A"],
       // Documented sustained output across soldiering (Sudan, South Africa), journalism (war correspondent), multi-decade high-office politics, and published history/memoir writing across a 60+ year public career, inferred from the documented breadth of his career record.
       cross_domain_range: [86, 0.6, "s", "A"],
