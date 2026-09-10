@@ -613,3 +613,23 @@ raises the target.
   matching domination. Roster: **143 total / 142
   default-directory-visible / 127 match-eligible**. Full record:
   [`roster26-ten-person-fast-batch.md`](roster26-ten-person-fast-batch.md).
+- **Roster27: twelve-person fast production batch (2026-09,
+  `feat/roster27-twelve-person-fast-batch`)**: a fixed twelve-candidate
+  intake, deliberately diversified away from roster26's politics-heavy
+  batch (zero political/state leaders). Lu Xun, Amelia Earhart, Zaha
+  Hadid, Jorge Luis Borges, Norman Borlaug, Marie Tharp, Jean-Jacques
+  Rousseau, Al-Biruni, Hedy Lamarr, Rosa Parks, Ken Saro-Wiwa, and Bob
+  Marley honestly failed `eligibility_v2`, none rescued, and passed a
+  first-time evidence-approval audit; six received a `RUBRIC_CORRECTION`
+  across four candidates for single-instance scores drifted into the 85+
+  band (Borlaug `persistence` 90->80 and `achievement_drive` 92->80,
+  Tharp `detail_orientation` 90->80, Al-Biruni `curiosity` 88->80, Marley
+  `risk_tolerance` 88->80 and `persistence` 85->78 -- all move scores
+  down). All twelve promoted via `generateRoster27.ts` with real
+  rights-clear portraits (two `editorial_nonlikeness`, honestly labeled)
+  and full EN/KO editorial content. **Zero newly match-eligible people**
+  this cycle (several clear raw coverage but fail the high-confidence
+  sub-gate) -- dispersion/calibration correctly left untouched since the
+  match-eligible set didn't change. Roster: **155 total / 154
+  default-directory-visible / 127 match-eligible**. Full record:
+  [`roster27-twelve-person-fast-batch.md`](roster27-twelve-person-fast-batch.md).

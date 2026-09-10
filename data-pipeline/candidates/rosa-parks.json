@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "rosa-parks",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Rosa Parks",
     "wikidataId": "Q41921",
@@ -195,11 +195,22 @@
       "rationale": "Her later work founding an institute for structured self-development education suggests some real capacity for organizing a coherent programmatic framework."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/rosa-parks-loc-1956.jpg",
+    "width": 1056,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (published in the US 1931-1963, copyright not renewed)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg",
+    "attribution": "Rosa Parks papers, Library of Congress, November 1956",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: 20th_century, north_america, civil-rights domain — deliberately distinct profile shape from the existing roster's civil-rights figures (Martin Luther King Jr., Frederick Douglass, Sojourner Truth, Malcolm X): a quieter, more procedural/organizational form of courage documented via her own autobiography's explicit correction of the popularized 'tired feet' narrative in favor of a considered, deliberate decision. UPDATE (session 6 diagnostic control experiment, 2026-08): received a genuine deep-research pass (her own 1992 autobiography Rosa Parks: My Story, and National Women's History Museum institutional source, documenting 14 years of pre-1955 NAACP institutional civil-rights work) distinct from and independent of the original batch-3 pass -- avgConf rose 0.479 -> 0.524, a real +0.045 gain, via 5 evidence-based upgrades (collaboration, leadership_drive, detail_orientation, autonomy_need, mastery_orientation). Still held: avgConf 0.524 remains meaningfully below the 0.55 floor even after this genuine deep pass -- unlike Kafka (0.001 short), this is a real, honest evidentiary gap, not a rounding-level miss. The available public record of her pre-1955 institutional work, while real and well documented in aggregate civil-rights historiography, does not map cleanly onto many of this taxonomy's 34 specific psychological-trait dimensions without straying into inference -- a genuine evidence-availability constraint, not a research-effort shortfall this session."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.479 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+    "notes": "Third-batch diversity pick: 20th_century, north_america, civil-rights domain — deliberately distinct profile shape from the existing roster's civil-rights figures (Martin Luther King Jr., Frederick Douglass, Sojourner Truth, Malcolm X): a quieter, more procedural/organizational form of courage documented via her own autobiography's explicit correction of the popularized 'tired feet' narrative in favor of a considered, deliberate decision. UPDATE (session 6 diagnostic control experiment, 2026-08): received a genuine deep-research pass (her own 1992 autobiography Rosa Parks: My Story, and National Women's History Museum institutional source, documenting 14 years of pre-1955 NAACP institutional civil-rights work) distinct from and independent of the original batch-3 pass -- avgConf rose 0.479 -> 0.524, a real +0.045 gain, via 5 evidence-based upgrades (collaboration, leadership_drive, detail_orientation, autonomy_need, mastery_orientation). Still held: avgConf 0.524 remains meaningfully below the 0.55 floor even after this genuine deep pass -- unlike Kafka (0.001 short), this is a real, honest evidentiary gap, not a rounding-level miss. The available public record of her pre-1955 institutional work, while real and well documented in aggregate civil-rights historiography, does not map cleanly onto many of this taxonomy's 34 specific psychological-trait dimensions without straying into inference -- a genuine evidence-availability constraint, not a research-effort shortfall this session. Roster27 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch and no unsupported extremity (max score 78, risk_tolerance — no row reaches the 85+ band, so Section 4's multi-instance rule is not implicated). Metadata already valid. Portrait sourced this session. Held only for a confidence-floor miss (avgConf 0.479 vs 0.55, after two genuine remediation rounds including a dedicated deep-research pass) — moved to evidence_approved; eligibility-only holdReason removed."
+  }
 }

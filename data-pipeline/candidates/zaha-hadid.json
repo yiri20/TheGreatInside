@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "zaha-hadid",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Zaha Hadid",
     "wikidataId": "Q47780",
@@ -194,11 +194,22 @@
       "rationale": "Developing and applying parametric design principles required real systematic technical and structural analysis underlying the visually expressive final forms."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/zaha-hadid-baku-2013.jpg",
+    "width": 1268,
+    "height": 1238,
+    "source": "Wikimedia Commons",
+    "license": "Free use, copyright holder permission verified by Wikimedia VRT (ticket #2018022210006826)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg",
+    "attribution": "Photograph by Dmitry Ternovoy, 2013",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: contemporary, west_asia (Iraqi-British), architecture domain not represented anywhere in the current roster — the first woman to win the Pritzker Prize. Completes the planned 31-candidate batch."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.536 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+    "notes": "Third-batch diversity pick: contemporary, west_asia (Iraqi-British), architecture domain not represented anywhere in the current roster — the first woman to win the Pritzker Prize. Completes the planned 31-candidate batch. Roster27 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch, no unsupported extremity (creative_originality 90 rests on a distinctive style demonstrated across a full built career and recognized by the Pritzker citation, not a single anecdote), and metadata already valid. No correction needed; portrait added. Held only for a confidence-floor miss (avgConf 0.536 vs 0.55, after two genuine remediation rounds) — moved to evidence_approved; eligibility-only holdReason removed."
+  }
 }

@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "bob-marley",
-  "status": "held",
-  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.468, coverage=0.549, eligible=false. Public career and specific dated episodes (the 1976 shooting, the 1978 concert) are well documented, but ordinary working-method/interpersonal detail (e.g. detail_orientation) is genuinely thin in the sources reviewed this pass. Held, not rejected.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Bob Marley",
     "aliases": ["Robert Nesta Marley"],
@@ -28,8 +27,8 @@
     { "id": "src_marley_press", "kind": "press", "title": "Contemporary press coverage of the December 1976 assassination attempt and the April 1978 One Love Peace Concert" }
   ],
   "rows": {
-    "risk_tolerance": { "score": 88, "confidence": 0.62, "evidenceType": "documented", "impact": "risk", "rationale": "Continued performing at the December 1976 'Smile Jamaica' peace concert two days after surviving an assassination attempt at his home that wounded him, his wife, and his manager -- a specific, extensively documented act of continuing under direct, recently-realized physical danger." },
-    "persistence": { "score": 85, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "Continued touring and recording at a demanding pace through 1980 despite a 1977 melanoma diagnosis, documented via the continuity of his performance and recording schedule across this period." },
+    "risk_tolerance": { "score": 80, "confidence": 0.62, "evidenceType": "documented", "impact": "risk", "rationale": "RUBRIC_CORRECTION (roster27 fast-batch audit, 2026-09; score-band correction only): continued performing at the December 1976 'Smile Jamaica' peace concert two days after surviving an assassination attempt at his home that wounded him, his wife, and his manager -- a specific, extensively documented act of continuing under direct, recently-realized physical danger. Originally scored 88/documented; corrected to 80 because scoring_rubric_v1 Section 4 reserves the 85+ band for MULTIPLE independent documented instances, and this rationale describes one instance -- a single, if extreme and well-documented, act -- not a repeated pattern. The score is capped to the 71-84 'clear, well-evidenced pattern' band. This is a score-band correction only: the evidence remains squarely documented, and confidence is unchanged -- only the score moved." },
+    "persistence": { "score": 78, "confidence": 0.6, "evidenceType": "documented", "impact": "advantage", "rationale": "RUBRIC_CORRECTION (roster27 fast-batch audit, 2026-09; score-band correction only): continued touring and recording at a demanding pace through 1980 despite a 1977 melanoma diagnosis, documented via the continuity of his performance and recording schedule across this period. Originally scored 85/documented; corrected to 78 because this rests on one continuous multi-year instance (sustained work through illness), not multiple independent instances, per Section 4's 85+ requirement. Score-band correction only: evidenceType and confidence unchanged." },
     "impact_motivation": { "score": 82, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "At the April 1978 One Love Peace Concert, brought rival Jamaican political leaders Michael Manley and Edward Seaga on stage and joined their hands above his head while performing -- a specific, documented, deliberate act of using his platform for political reconciliation rather than only entertainment." },
     "autonomy_need": { "score": 70, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "dual_edged", "rationale": "Initially declined recommended amputation of a cancerous toe in 1977 for reasons documented as tied to his religious beliefs, continuing to perform and tour on his own terms until the cancer had spread significantly. Marked dual_edged: a documented instance of personal/religious autonomy asserted against medical advice, with a severe eventual health cost." },
     "creative_originality": { "score": 85, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "Credited with a substantial, sustained original songwriting catalogue (Catch a Fire, Natty Dread, Exodus, and others) within roughly a decade of major-label output, documented via the sustained critical and commercial reception of this body of work." },
@@ -47,10 +46,22 @@
     "detail_orientation": { "score": 52, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Limited direct evidence of personal working method beyond his general songwriting/recording output was identified in the sources reviewed this pass; scored conservatively rather than inflated." },
     "mastery_orientation": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Continued developing his songwriting and vocal style across his catalogue's decade-long arc rather than repeating an early formula, inferred from the documented stylistic development of his work." }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bob-marley-nyamsterdamnews-1976.jpg",
+    "width": 1200,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (published in the US 1931-1977 without copyright notice)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bob_Marley_circa_1976_(cropped).jpg",
+    "attribution": "New York Amsterdam News, August 14, 1976",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bob_Marley_circa_1976_(cropped).jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-09-03T00:00:00Z",
     "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q409, matches name/dates/role). Deliberately marked autonomy_need dual_edged for the toe-amputation decision rather than omitting a real, documented, medically-costly choice or presenting it as purely admirable. regionCode uses latin_america for Jamaica/Caribbean per this project's existing regional-bucket convention. inclusion_v1: clearly passes -- no inherited position."
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q409, matches name/dates/role). Deliberately marked autonomy_need dual_edged for the toe-amputation decision rather than omitting a real, documented, medically-costly choice or presenting it as purely admirable. regionCode uses latin_america for Jamaica/Caribbean per this project's existing regional-bucket convention. inclusion_v1: clearly passes -- no inherited position. Roster27 fast-batch audit (2026-09): mechanical row scan found two extremity violations -- risk_tolerance (88) rested on one specific act (performing two days after the 1976 assassination attempt) and persistence (85) rested on one continuous multi-year pattern (touring through his 1977-1980 illness), neither meeting Section 4's multiple-independent-instance requirement; both corrected to 80/78, evidenceType/confidence unchanged (see row rationales). creative_originality (85) was checked and is NOT a violation -- it cites a catalogue of multiple separately-released albums. Metadata already valid. Held only for a first-scoring eligibility miss (coverage 0.549) — moved to evidence_approved; eligibility-only holdReason removed."
   }
 }

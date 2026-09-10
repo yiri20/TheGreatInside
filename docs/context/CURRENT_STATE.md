@@ -4,8 +4,45 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-10 (Roster26: ten-person fast production batch,
-`feat/roster26-ten-person-fast-batch`, unmerged — mechanical
+Last updated: 2026-09-10 (Roster27: twelve-person fast production batch,
+`feat/roster27-twelve-person-fast-batch`, unmerged — mechanical intake
+from existing `data-pipeline/candidates/*.json` only, no new candidate
+discovery, deliberately diversified away from roster26's politics-heavy
+batch (zero political/state leaders). Lu Xun, Amelia Earhart, Zaha Hadid,
+Jorge Luis Borges, Norman Borlaug, Marie Tharp, Jean-Jacques Rousseau,
+Al-Biruni, Hedy Lamarr, Rosa Parks, Ken Saro-Wiwa, and Bob Marley — all
+honestly failing `eligibility_v2`, none rescued (the promotable
+`qa_passed`/`evidence_approved` pool was fully drained after roster26) —
+passed a first-time evidence-approval audit; six received a
+`RUBRIC_CORRECTION` across four candidates for single-instance scores
+that had drifted into the 85+ band, all moving the score *down* (Borlaug
+`persistence` 90→80 and `achievement_drive` 92→80; Tharp
+`detail_orientation` 90→80; Al-Biruni `curiosity` 88→80; Marley
+`risk_tolerance` 88→80 and `persistence` 85→78). All twelve promoted via
+`generateRoster27.ts` (same architecture as `generateRoster26.ts`), with
+real rights-clear portraits (LOC, Smithsonian NPG, USAID, AIP Emilio
+Segrè Visual Archives, PD-China/Argentina/EU-anonymous/USSR-stamp, a VRT-
+verified permission, and CC BY-SA 2.0 — two `editorial_nonlikeness`,
+honestly labeled where no personal likeness survives or could be
+rights-cleared) and full EN/KO editorial content. **Zero newly
+match-eligible people** this cycle — several candidates clear raw
+`coverage ≥ 0.6` comfortably but all twelve fail the high-confidence-count
+sub-gate; `dispersion.generated.ts`/calibration were correctly left
+untouched since the match-eligible set didn't change. Two genuine,
+mechanical i18n/taxonomy coverage gaps were found and fixed (not
+hardcoded-count churn): `field.architecture` had no translation and
+wasn't wired into `PROFESSION_CATEGORIES` (Zaha Hadid is the second
+production architect), and `occupation.musician` had no translation (Bob
+Marley is the first production person with `"musician"` as
+`occupationIds[0]`). Roster: **155 total / 154
+default-directory-visible / 127 match-eligible** (was 143/142/127). Zheng
+He, Giuseppe Garibaldi, Anton Chekhov, the roster25 six, and the roster26
+ten unchanged. Full record:
+[`roster27-twelve-person-fast-batch.md`](../checkpoints/roster27-twelve-person-fast-batch.md).
+
+Prior update, 2026-09-10 (Roster26: ten-person fast production batch,
+`feat/roster26-ten-person-fast-batch`, merged to `main` as PR #25, merge
+commit `badba33d3b7f079c099bc31959f660735730f690` — mechanical
 intake from existing `data-pipeline/candidates/*.json` only, no new
 candidate discovery. Che Guevara was already `qa_passed`/match-eligible
 and preserved as-is. Fidel Castro, Jawaharlal Nehru, Ho Chi Minh, Salvador

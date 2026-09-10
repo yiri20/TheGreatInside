@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "jorge-luis-borges",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Jorge Luis Borges",
     "wikidataId": "Q909",
@@ -180,14 +180,21 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "held",
-    "reason": "Widely-circulated photographs likely carry standard press-agency copyright; no clearly Public Domain or CC-licensed image independently verified this session."
+    "status": "found",
+    "url": "/portraits/jorge-luis-borges-stern-1951.jpg",
+    "width": 1192,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain in Argentina (photograph copyright expired, Law 11.723) and in the US",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_1951,_by_Grete_Stern_(full).jpg",
+    "attribution": "Photograph by Grete Stern, 1951",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_1951,_by_Grete_Stern_(full).jpg",
+    "kind": "likeness"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 13 (source-grounded research-depth control, docs/roster-1000-checkpoint.md new section): re-researched from session 12's original 3-source, 11-row profile using genuinely inspected substantive sources (Wikipedia's detailed, citation-backed article; the Paris Review's 1966 primary interview; a dated Infobae press account of his 1976-1985 political reversal) rather than recall alone. A factual evidence ledger (19 distinct, source-attributed episodes) was built and locked BEFORE any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10's A/B/C/D policy -- every row below is either newly added or re-derived from newly inspected sources, not a confidence/evidenceType nudge on the prior scoring. Coverage-relevant attributes were not selected by baseWeight; several genuinely evidenced but modest-weight rows (decisiveness, risk_tolerance, opportunity_sensing) were kept even though they add little toward the coverage floor, and several plausible additional rows (leadership_drive, planning_orientation, mastery_orientation, resourcefulness) were deliberately NOT added because the available evidence was either too thin, too redundant with an already-scored row's underlying facts, or genuinely mixed -- see this session's diagnostic-control writeup in the checkpoint for the full before/after comparison and eligibility_v2 result, locked in a separate step after this file."
-  },
-  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 16 scored attributes (need 18); coverage 0.483 (need 0.6); HC count 13/12 (PASSES this sub-requirement); HC average 0.662 (PASSES). Fails only on scored-attribute count and coverage -- the closest of the 6 diagnostic candidates to eligibility_v2 this session."
+    "notes": "Roster-1000 session 13 (source-grounded research-depth control, docs/roster-1000-checkpoint.md new section): re-researched from session 12's original 3-source, 11-row profile using genuinely inspected substantive sources (Wikipedia's detailed, citation-backed article; the Paris Review's 1966 primary interview; a dated Infobae press account of his 1976-1985 political reversal) rather than recall alone. A factual evidence ledger (19 distinct, source-attributed episodes) was built and locked BEFORE any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10's A/B/C/D policy -- every row below is either newly added or re-derived from newly inspected sources, not a confidence/evidenceType nudge on the prior scoring. Coverage-relevant attributes were not selected by baseWeight; several genuinely evidenced but modest-weight rows (decisiveness, risk_tolerance, opportunity_sensing) were kept even though they add little toward the coverage floor, and several plausible additional rows (leadership_drive, planning_orientation, mastery_orientation, resourcefulness) were deliberately NOT added because the available evidence was either too thin, too redundant with an already-scored row's underlying facts, or genuinely mixed -- see this session's diagnostic-control writeup in the checkpoint for the full before/after comparison and eligibility_v2 result, locked in a separate step after this file. Roster27 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch and no unsupported extremity -- independent_thinking (88) and belief_updating (85) both rest on multiple independently dated documented instances (three and five respectively), genuinely satisfying the rubric's multi-instance bar for an 85+ score, not a single anecdote. Metadata already valid. Portrait sourced this session (previously held for lack of a rights-clear image). Held only for scored-attribute-count/coverage (16 attributes, coverage 0.483) despite exceptionally strong per-row evidence quality -- moved to evidence_approved; eligibility-only holdReason removed."
+  }
 }

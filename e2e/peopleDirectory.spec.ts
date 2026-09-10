@@ -466,7 +466,14 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // collaboration>=73 thresholds simultaneously (closest are Jawaharlal
   // Nehru, curiosity 74 but collaboration only 68, and Puyi, curiosity 70
   // -- just under the threshold), so the filtered count of 6 is unchanged.
-  expect(bodyText).toMatch(/전체\s*143명\s*중\s*6명/);
+  // Total updated again 143->155 (roster27 twelve-person fast batch: 12 new
+  // people). Verified directly against the real traitScoreGroups z-score
+  // filter: none of the 12 new people cross both the curiosity>=72 and
+  // collaboration>=73 thresholds simultaneously -- three cross curiosity
+  // alone (Rousseau 72, Hedy Lamarr 74, Al-Biruni 80) but none score
+  // collaboration >=73 (all <=58) -- so the filtered count of 6 is
+  // unchanged.
+  expect(bodyText).toMatch(/전체\s*155명\s*중\s*6명/);
   expect(bodyText).toContain("베라 루빈");
 });
 

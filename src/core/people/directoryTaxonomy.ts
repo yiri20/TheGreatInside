@@ -122,7 +122,7 @@ export const PROFESSION_CATEGORIES: readonly ProfessionCategory[] = [
   {
     id: "arts_culture",
     labelKey: "people.directory.profession_category.arts_culture",
-    fieldIds: ["literature", "music", "art", "film", "design"],
+    fieldIds: ["literature", "music", "art", "film", "design", "architecture"],
   },
   {
     id: "leadership_society",

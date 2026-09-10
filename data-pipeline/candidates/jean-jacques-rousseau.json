@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "jean-jacques-rousseau",
-  "status": "held",
-  "holdReason": "Confidence ceiling: much of the trait evidence available for this pass is inferred from the content and reception of his written works rather than corroborated biographical accounts of his personal conduct, keeping most rows at 'strong_inference' or 'inference.' After remediation (14 -> 20 scored attributes, coverage now 0.601), average confidence (0.521) still falls short of the 0.55 floor; closing the remaining gap would require inflating confidence beyond what this pass's sourcing supports.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Jean-Jacques Rousseau",
     "wikidataId": "Q6527",
@@ -48,10 +47,22 @@
     "impact_motivation": { "score": 66, "confidence": 0.5, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Explicitly framed The Social Contract around the public good and the conditions for legitimate government, documented via the work's own stated purpose." },
     "autonomy_need": { "score": 64, "confidence": 0.46, "evidenceType": "inference", "impact": "neutral", "rationale": "Documented to have repeatedly rejected patronage arrangements and conventional employment in favor of independent intellectual work, though this pattern also contributed to his ongoing financial instability." }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jean-jacques-rousseau-latour-1753.jpg",
+    "width": 988,
+    "height": 1252,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (painted from life, 1753; artist died 1788)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+    "attribution": "Maurice Quentin de La Tour, 1753 — Musée d'art et d'histoire de Genève",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Second-batch diversity pick: early_modern, western_europe, Enlightenment political philosophy domain distinct from Kant and Aquinas — a genuinely more turbulent, less institutionally settled profile than either, with real documented low/moderate scores (discipline 55, belief_updating 42) rather than uniform philosophical-genius excellence."
+    "notes": "Second-batch diversity pick: early_modern, western_europe, Enlightenment political philosophy domain distinct from Kant and Aquinas — a genuinely more turbulent, less institutionally settled profile than either, with real documented low/moderate scores (discipline 55, belief_updating 42) rather than uniform philosophical-genius excellence. Roster27 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch, no unsupported extremity (independent_thinking 86 rests on two separately named major works sustaining the same contrarian position, satisfying the multi-instance bar), and metadata already valid. No correction needed; portrait added. Held only for a confidence-floor miss (avgConf 0.521 vs 0.55, coverage already 0.601) — moved to evidence_approved; eligibility-only holdReason removed."
   }
 }

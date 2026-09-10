@@ -5889,4 +5889,317 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  "lu-xun": {
+    achievements: [
+      {
+        id: "lu-xun-achievement-1",
+        textKey: "lu-xun.achievement.1",
+        interpretationKey: "lu-xun.interpretation.achievement.1",
+        attributeId: "creative_originality",
+        sourceIds: ["src_lx_diary_madman"],
+      },
+      { id: "lu-xun-achievement-2", textKey: "lu-xun.achievement.2", sourceIds: ["src_lx_biography"] },
+    ],
+    moments: [
+      { id: "lu-xun-moment-1", textKey: "lu-xun.moment.1", sourceIds: ["src_lx_zawen"] },
+      { id: "lu-xun-moment-2", textKey: "lu-xun.moment.2", sourceIds: ["src_lx_biography"] },
+    ],
+    turningPoints: [
+      {
+        id: "lu-xun-turning-point-1",
+        textKey: "lu-xun.turning_point.1",
+        interpretationKey: "lu-xun.interpretation.turning_point.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_lx_zawen"],
+      },
+    ],
+  },
+
+  "amelia-earhart": {
+    achievements: [
+      {
+        id: "amelia-earhart-achievement-1",
+        textKey: "amelia-earhart.achievement.1",
+        interpretationKey: "amelia-earhart.interpretation.achievement.1",
+        attributeId: "achievement_drive",
+        sourceIds: ["src_earhart_smithsonian"],
+      },
+      { id: "amelia-earhart-achievement-2", textKey: "amelia-earhart.achievement.2", sourceIds: ["src_earhart_wikipedia"] },
+    ],
+    moments: [
+      { id: "amelia-earhart-moment-1", textKey: "amelia-earhart.moment.1", sourceIds: ["src_earhart_wikipedia"] },
+      { id: "amelia-earhart-moment-2", textKey: "amelia-earhart.moment.2", sourceIds: ["src_earhart_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "amelia-earhart-turning-point-1",
+        textKey: "amelia-earhart.turning_point.1",
+        interpretationKey: "amelia-earhart.interpretation.turning_point.1",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_earhart_wikipedia"],
+      },
+    ],
+  },
+
+  "zaha-hadid": {
+    achievements: [
+      {
+        id: "zaha-hadid-achievement-1",
+        textKey: "zaha-hadid.achievement.1",
+        interpretationKey: "zaha-hadid.interpretation.achievement.1",
+        attributeId: "creative_originality",
+        sourceIds: ["src_hadid_pritzker"],
+      },
+      { id: "zaha-hadid-achievement-2", textKey: "zaha-hadid.achievement.2", sourceIds: ["src_hadid_wikipedia"] },
+    ],
+    moments: [
+      { id: "zaha-hadid-moment-1", textKey: "zaha-hadid.moment.1", sourceIds: ["src_hadid_wikipedia"] },
+      { id: "zaha-hadid-moment-2", textKey: "zaha-hadid.moment.2", sourceIds: ["src_hadid_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "zaha-hadid-turning-point-1",
+        textKey: "zaha-hadid.turning_point.1",
+        interpretationKey: "zaha-hadid.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_hadid_wikipedia"],
+      },
+    ],
+  },
+
+  "jorge-luis-borges": {
+    achievements: [
+      {
+        id: "jorge-luis-borges-achievement-1",
+        textKey: "jorge-luis-borges.achievement.1",
+        interpretationKey: "jorge-luis-borges.interpretation.achievement.1",
+        attributeId: "creative_originality",
+        sourceIds: ["src_borges_wikipedia"],
+      },
+      { id: "jorge-luis-borges-achievement-2", textKey: "jorge-luis-borges.achievement.2", sourceIds: ["src_borges_wikipedia"] },
+      { id: "jorge-luis-borges-achievement-3", textKey: "jorge-luis-borges.achievement.3", sourceIds: ["src_borges_wikipedia", "src_borges_paris_review"] },
+    ],
+    moments: [
+      { id: "jorge-luis-borges-moment-1", textKey: "jorge-luis-borges.moment.1", sourceIds: ["src_borges_wikipedia"] },
+      { id: "jorge-luis-borges-moment-2", textKey: "jorge-luis-borges.moment.2", sourceIds: ["src_borges_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "jorge-luis-borges-turning-point-1",
+        textKey: "jorge-luis-borges.turning_point.1",
+        interpretationKey: "jorge-luis-borges.interpretation.turning_point.1",
+        attributeId: "belief_updating",
+        sourceIds: ["src_borges_infobae_dictadura"],
+      },
+    ],
+  },
+
+  "norman-borlaug": {
+    achievements: [
+      { id: "norman-borlaug-achievement-1", textKey: "norman-borlaug.achievement.1", sourceIds: ["src_nb_nas_memoir"] },
+      {
+        id: "norman-borlaug-achievement-2",
+        textKey: "norman-borlaug.achievement.2",
+        interpretationKey: "norman-borlaug.interpretation.achievement.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_nb_nas_memoir"],
+      },
+    ],
+    moments: [
+      { id: "norman-borlaug-moment-1", textKey: "norman-borlaug.moment.1", sourceIds: ["src_nb_nas_memoir"] },
+      { id: "norman-borlaug-moment-2", textKey: "norman-borlaug.moment.2", sourceIds: ["src_nb_nas_memoir"] },
+    ],
+    turningPoints: [
+      {
+        id: "norman-borlaug-turning-point-1",
+        textKey: "norman-borlaug.turning_point.1",
+        interpretationKey: "norman-borlaug.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_nb_encyclopedia"],
+      },
+    ],
+  },
+
+  "marie-tharp": {
+    achievements: [
+      { id: "marie-tharp-achievement-1", textKey: "marie-tharp.achievement.1", sourceIds: ["src_tharp_wikipedia"] },
+      {
+        id: "marie-tharp-achievement-2",
+        textKey: "marie-tharp.achievement.2",
+        interpretationKey: "marie-tharp.interpretation.achievement.1",
+        attributeId: "analytical_rigor",
+        sourceIds: ["src_tharp_wikipedia"],
+      },
+    ],
+    moments: [
+      { id: "marie-tharp-moment-1", textKey: "marie-tharp.moment.1", sourceIds: ["src_tharp_wikipedia"] },
+      { id: "marie-tharp-moment-2", textKey: "marie-tharp.moment.2", sourceIds: ["src_tharp_britannica"] },
+    ],
+    turningPoints: [
+      {
+        id: "marie-tharp-turning-point-1",
+        textKey: "marie-tharp.turning_point.1",
+        interpretationKey: "marie-tharp.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_tharp_wikipedia"],
+      },
+    ],
+  },
+
+  "jean-jacques-rousseau": {
+    achievements: [
+      {
+        id: "jean-jacques-rousseau-achievement-1",
+        textKey: "jean-jacques-rousseau.achievement.1",
+        interpretationKey: "jean-jacques-rousseau.interpretation.achievement.1",
+        attributeId: "creative_originality",
+        sourceIds: ["src_rousseau_sep"],
+      },
+      { id: "jean-jacques-rousseau-achievement-2", textKey: "jean-jacques-rousseau.achievement.2", sourceIds: ["src_rousseau_wikipedia"] },
+    ],
+    moments: [
+      { id: "jean-jacques-rousseau-moment-1", textKey: "jean-jacques-rousseau.moment.1", sourceIds: ["src_rousseau_wikipedia"] },
+      { id: "jean-jacques-rousseau-moment-2", textKey: "jean-jacques-rousseau.moment.2", sourceIds: ["src_rousseau_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "jean-jacques-rousseau-turning-point-1",
+        textKey: "jean-jacques-rousseau.turning_point.1",
+        interpretationKey: "jean-jacques-rousseau.interpretation.turning_point.1",
+        attributeId: "curiosity",
+        sourceIds: ["src_rousseau_wikipedia"],
+      },
+    ],
+  },
+
+  "al-biruni": {
+    achievements: [
+      {
+        id: "al-biruni-achievement-1",
+        textKey: "al-biruni.achievement.1",
+        interpretationKey: "al-biruni.interpretation.achievement.1",
+        attributeId: "cross_domain_range",
+        sourceIds: ["src_albiruni_wikipedia"],
+      },
+      { id: "al-biruni-achievement-2", textKey: "al-biruni.achievement.2", sourceIds: ["src_albiruni_britannica"] },
+    ],
+    moments: [
+      { id: "al-biruni-moment-1", textKey: "al-biruni.moment.1", sourceIds: ["src_albiruni_india"] },
+      { id: "al-biruni-moment-2", textKey: "al-biruni.moment.2", sourceIds: ["src_albiruni_ibnsina_correspondence"] },
+    ],
+    turningPoints: [
+      {
+        id: "al-biruni-turning-point-1",
+        textKey: "al-biruni.turning_point.1",
+        interpretationKey: "al-biruni.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_albiruni_ghazni_capture"],
+      },
+    ],
+  },
+
+  "hedy-lamarr": {
+    achievements: [
+      { id: "hedy-lamarr-achievement-1", textKey: "hedy-lamarr.achievement.1", sourceIds: ["src_lamarr_smithsonian"] },
+      {
+        id: "hedy-lamarr-achievement-2",
+        textKey: "hedy-lamarr.achievement.2",
+        interpretationKey: "hedy-lamarr.interpretation.achievement.1",
+        attributeId: "cross_domain_range",
+        sourceIds: ["src_lamarr_wikipedia"],
+      },
+    ],
+    moments: [
+      { id: "hedy-lamarr-moment-1", textKey: "hedy-lamarr.moment.1", sourceIds: ["src_lamarr_smithsonian"] },
+      { id: "hedy-lamarr-moment-2", textKey: "hedy-lamarr.moment.2", sourceIds: ["src_lamarr_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "hedy-lamarr-turning-point-1",
+        textKey: "hedy-lamarr.turning_point.1",
+        interpretationKey: "hedy-lamarr.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_lamarr_wikipedia"],
+      },
+    ],
+  },
+
+  "rosa-parks": {
+    achievements: [
+      { id: "rosa-parks-achievement-1", textKey: "rosa-parks.achievement.1", sourceIds: ["src_parks_wikipedia"] },
+      {
+        id: "rosa-parks-achievement-2",
+        textKey: "rosa-parks.achievement.2",
+        interpretationKey: "rosa-parks.interpretation.achievement.1",
+        attributeId: "detail_orientation",
+        sourceIds: ["src_parks_autobiography"],
+      },
+    ],
+    moments: [
+      { id: "rosa-parks-moment-1", textKey: "rosa-parks.moment.1", sourceIds: ["src_parks_autobiography"] },
+      { id: "rosa-parks-moment-2", textKey: "rosa-parks.moment.2", sourceIds: ["src_parks_womenshistory"] },
+    ],
+    turningPoints: [
+      {
+        id: "rosa-parks-turning-point-1",
+        textKey: "rosa-parks.turning_point.1",
+        interpretationKey: "rosa-parks.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_parks_womenshistory"],
+      },
+    ],
+  },
+
+  "ken-saro-wiwa": {
+    achievements: [
+      {
+        id: "ken-saro-wiwa-achievement-1",
+        textKey: "ken-saro-wiwa.achievement.1",
+        interpretationKey: "ken-saro-wiwa.interpretation.achievement.1",
+        attributeId: "cross_domain_range",
+        sourceIds: ["src_ksw_wikipedia"],
+      },
+      { id: "ken-saro-wiwa-achievement-2", textKey: "ken-saro-wiwa.achievement.2", sourceIds: ["src_ksw_press"] },
+    ],
+    moments: [
+      { id: "ken-saro-wiwa-moment-1", textKey: "ken-saro-wiwa.moment.1", sourceIds: ["src_ksw_press"] },
+      { id: "ken-saro-wiwa-moment-2", textKey: "ken-saro-wiwa.moment.2", sourceIds: ["src_ksw_press"] },
+    ],
+    turningPoints: [
+      {
+        id: "ken-saro-wiwa-turning-point-1",
+        textKey: "ken-saro-wiwa.turning_point.1",
+        interpretationKey: "ken-saro-wiwa.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_ksw_press", "src_ksw_mosop"],
+      },
+    ],
+  },
+
+  "bob-marley": {
+    achievements: [
+      {
+        id: "bob-marley-achievement-1",
+        textKey: "bob-marley.achievement.1",
+        interpretationKey: "bob-marley.interpretation.achievement.1",
+        attributeId: "creative_originality",
+        sourceIds: ["src_marley_wikipedia"],
+      },
+      { id: "bob-marley-achievement-2", textKey: "bob-marley.achievement.2", sourceIds: ["src_marley_wikipedia"] },
+    ],
+    moments: [
+      { id: "bob-marley-moment-1", textKey: "bob-marley.moment.1", sourceIds: ["src_marley_press"] },
+      { id: "bob-marley-moment-2", textKey: "bob-marley.moment.2", sourceIds: ["src_marley_white"] },
+    ],
+    turningPoints: [
+      {
+        id: "bob-marley-turning-point-1",
+        textKey: "bob-marley.turning_point.1",
+        interpretationKey: "bob-marley.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_marley_press"],
+      },
+    ],
+  },
 };
