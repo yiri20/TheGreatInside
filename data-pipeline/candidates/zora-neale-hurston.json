@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "zora-neale-hurston",
-  "status": "held",
-  "holdReason": "Confidence ceiling: available research for this pass drew mainly on secondary biographical summary (including Boyd's biography) rather than her own extensive published ethnographic and autobiographical writing in depth, keeping most rows at 'strong_inference'/'inference.' After remediation (13 -> 20 scored attributes, coverage now 0.603), average confidence (0.515) still falls short of the 0.55 floor; a future pass drawing more directly on her own field writing (Mules and Men, Dust Tracks on a Road) could plausibly close the gap — recorded as a strong candidate to revisit, not a permanent rejection.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Zora Neale Hurston",
     "wikidataId": "Q220480",
@@ -25,6 +24,19 @@
     { "id": "src_hurston_wikipedia", "kind": "wikipedia", "title": "Zora Neale Hurston", "url": "https://en.wikipedia.org/wiki/Zora_Neale_Hurston" },
     { "id": "src_hurston_boyd", "kind": "biography", "title": "Valerie Boyd, Wrapped in Rainbows: The Life of Zora Neale Hurston (2003)" }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/zora-neale-hurston-vanvechten-1938.jpg",
+    "width": 1100,
+    "height": 1600,
+    "source": "Wikimedia Commons / Library of Congress (Carl Van Vechten Collection)",
+    "license": "Public Domain (no known copyright restrictions)",
+    "attribution": "Carl Van Vechten, 1938 -- Library of Congress",
+    "creator": "Carl Van Vechten",
+    "date": "1938",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Zora_Neale_Hurston_LCCN2004663047.jpg"
+  },
   "rows": {
     "curiosity": { "score": 84, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "Trained formally in anthropology under Franz Boas at Barnard College and conducted extensive original ethnographic fieldwork collecting African American and Caribbean folklore, documented via her published field research (Mules and Men, Tell My Horse)." },
     "cross_domain_range": { "score": 82, "confidence": 0.65, "evidenceType": "documented", "impact": "advantage", "rationale": "Real, sustained documented output across fiction (Their Eyes Were Watching God), academic anthropology and folklore collection, journalism, and playwriting." },

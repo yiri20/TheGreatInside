@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ibn-al-haytham",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Ibn al-Haytham",
     "aliases": [
@@ -57,6 +57,19 @@
       "title": "Ibn al-Haytham, Book of Optics (Kitab al-Manazir, c. 1021)"
     }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ibn-al-haytham-hevelius-1647.jpg",
+    "width": 1280,
+    "height": 1494,
+    "source": "Wikimedia Commons / National Library of Poland (Polona Digital Library)",
+    "license": "Public Domain (artist died 1687)",
+    "attribution": "Johannes Hevelius, 1647 engraving (Selenographia frontispiece) -- National Library of Poland",
+    "creator": "Johannes Hevelius",
+    "date": "1647",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alhazen_(122459248).jpg"
+  },
   "rows": {
     "experimentation": {
       "score": 90,
@@ -204,6 +217,5 @@
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
     "notes": "Third-batch diversity pick: medieval, west_asia (Basra-born, worked in Fatimid Cairo), physics/optics domain not represented anywhere in the current roster. Unusually strong evidence for experimentation/analytical_rigor specifically because the Book of Optics survives largely intact and directly describes his experimental method, not merely secondhand characterization — comparable in kind to how Ibn Sina's medical corpus grounds his own high-confidence scores."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.517 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+  }
 }

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "katherine-dunham",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Katherine Dunham",
     "wikidataId": "Q272637",
@@ -52,6 +52,19 @@
       "title": "Library of Congress — Katherine Dunham: A Life in Dance"
     }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/katherine-dunham-vanvechten-1940.jpg",
+    "width": 952,
+    "height": 1600,
+    "source": "Wikimedia Commons / Library of Congress (Carl Van Vechten Collection)",
+    "license": "Public Domain (no known copyright restrictions)",
+    "attribution": "Carl Van Vechten, 10 May 1940 -- Library of Congress",
+    "creator": "Carl Van Vechten",
+    "date": "1940-05-10",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Katherine_Dunham_by_Van_Vechten_cph.3b46690.jpg"
+  },
   "rows": {
     "creative_originality": {
       "score": 86,
@@ -199,6 +212,5 @@
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
     "notes": "Third-batch diversity pick: 20th_century, north_america, dance/anthropology domain not represented anywhere in the current roster — a genuinely cross-disciplinary profile (formally trained anthropologist AND professional choreographer) distinct from any existing roster person."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.511 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+  }
 }

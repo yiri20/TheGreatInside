@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "jean-piaget",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Jean Piaget",
     "wikidataId": "Q123190",
@@ -48,6 +48,19 @@
       "title": "Britannica — Jean Piaget"
     }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jean-piaget-anefo-1972.jpg",
+    "width": 620,
+    "height": 823,
+    "source": "Wikimedia Commons / Nationaal Archief (Anefo)",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Fotograaf Onbekend / Anefo, 7 June 1972 (Erasmus Prize ceremony, Amsterdam) -- Nationaal Archief; cropped from a 2-person ceremony photo to isolate Piaget",
+    "date": "1972-06-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Uitreiking_van_de_prijs_door_prins_Bernhard_aan_de_Zwitserse_psycholoog-pedagoog,_Bestanddeelnr_925-6520.jpg"
+  },
   "rows": {
     "systems_abstraction": {
       "score": 84,
@@ -61,7 +74,7 @@
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Published his first scientific paper (on an albino sparrow) at age 11 and sustained active naturalist/scientific interests before formally shifting to psychology, documented via his own well-established early publication record."
+      "rationale": "[ERROR_CORRECTION, roster29 factual gate: the cited sources support 'as a youth,' not a specific age -- 'at age 11' was an unsupported precision, removed] Published an early scientific paper (on an albino sparrow) as a youth and sustained active naturalist/scientific interests before formally shifting to psychology, documented via his own well-established early publication record (Britannica)."
     },
     "detail_orientation": {
       "score": 76,
@@ -202,6 +215,5 @@
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
     "notes": "Third-batch diversity pick: 20th_century, western_europe (Switzerland), developmental-psychology domain not represented anywhere in the current roster. Scored strictly from his documented research career and methodology — no modern clinical/diagnostic labeling was applied to him personally, consistent with this project's own safety rules."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.516 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+  }
 }

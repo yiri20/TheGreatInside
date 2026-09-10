@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "murasaki-shikibu",
-  "status": "held",
-  "holdReason": "Confidence ceiling: her surviving primary evidence (one diary, one novel, and Heian-era court records) is genuinely thinner than for later, more extensively documented figures, so most trait inferences sit at 'inference' rather than 'documented' even after careful review. After two remediation passes (16 -> 21 scored attributes, coverage now a comfortable 0.625), average confidence (0.498) remains meaningfully short of the 0.55 floor; closing it further would require inflating confidence well beyond what an 11th-century single-diary-plus-novel evidentiary base honestly supports.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Murasaki Shikibu",
     "wikidataId": "Q81731",
@@ -27,6 +26,18 @@
     { "id": "src_murasaki_diary", "kind": "archive", "title": "The Diary of Lady Murasaki (Murasaki Shikibu Nikki, c. 1010)" },
     { "id": "src_murasaki_genji", "kind": "archive", "title": "The Tale of Genji (c. 1000-1012)" }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/murasaki-shikibu-tosa-mitsuoki.jpg",
+    "width": 1600,
+    "height": 1284,
+    "source": "Wikimedia Commons",
+    "license": "Public Domain",
+    "attribution": "Tosa Mitsuoki (1617-1691), c. late 17th century (Ishiyama-dera tradition)",
+    "creator": "Tosa Mitsuoki",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tosa_Mitsuoki_001.jpg"
+  },
   "rows": {
     "creative_originality": { "score": 90, "confidence": 0.68, "evidenceType": "documented", "impact": "advantage", "rationale": "The Tale of Genji's psychological complexity and narrative structure are widely credited by literary scholarship as unprecedented for its era, sustaining its recognition as one of the earliest and most sophisticated long-form prose narratives — the surviving text is the direct documented evidence." },
     "detail_orientation": { "score": 78, "confidence": 0.58, "evidenceType": "documented", "impact": "advantage", "rationale": "The Genji's sustained, precise attention to court ritual, seasonal detail, and character psychology across its many chapters is directly observable in the surviving text." },

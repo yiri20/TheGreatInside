@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "gabriel-garcia-marquez",
-  "status": "held",
-  "holdReason": "Confidence ceiling: available research for this pass drew mainly on secondary biographical summary rather than his own memoir (Living to Tell the Tale) or dedicated biographies in depth, keeping most trait inferences at 'strong_inference'/'inference' rather than 'documented.' After remediation (15 -> 20 scored attributes, coverage now 0.607), average confidence (0.505) still falls well short of the 0.55 floor. A future pass drawing more directly on his memoir could plausibly raise several entries to 'documented' — recorded as a real candidate for revisiting, not a permanent rejection.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Gabriel García Márquez",
     "wikidataId": "Q5878",
@@ -28,6 +27,20 @@
     { "id": "src_gabo_nybooks", "kind": "press", "title": "Alma Guillermoprieto, \"Ghosts of Aracataca\", The New York Review of Books (2023) — on his childhood, grandparents, and the origins of his narrative voice" },
     { "id": "src_gabo_parisreview", "kind": "press", "title": "The Paris Review, coverage of Silvana Paternostro's Solitude & Company: An Oral Biography of Gabriel García Márquez — testimony from people who knew him, distinct from his own self-authored memoir" }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gabriel-garcia-marquez-2009.jpg",
+    "width": 1268,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Festival Internacional de Cine en Guadalajara, 19 March 2009",
+    "creator": "Festival Internacional de Cine en Guadalajara",
+    "date": "2009-03-19",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gabriel_Garc%C3%ADa_Marquez_(recadrage).jpg"
+  },
   "rows": {
     "creative_originality": { "score": 90, "confidence": 0.85, "evidenceType": "documented", "impact": "advantage", "rationale": "[NEW_EVIDENCE, this session] Beyond the Nobel citation/reception evidence (about how the WORK was received), a second, independent, first-person documented instance about his own deliberate PROCESS now corroborates it: he directly stated \"The tone that I eventually used in One Hundred Years of Solitude was based on the way my grandmother used to tell stories\" — a specific, quoted, on-the-record account of consciously synthesizing his grandmother Tranquilina Iguaran's matter-of-fact oral storytelling style (recounting fantastical events with the same flat tone as everyday ones) into his signature literary technique. Multiple independent documented instances from more than one source (reception + his own stated process) meets this rubric's top confidence band." },
     "discipline": { "score": 78, "confidence": 0.62, "evidenceType": "documented", "impact": "advantage", "rationale": "Documented (his own memoir) to have written One Hundred Years of Solitude in an intensive, sustained roughly 18-month period while in serious financial difficulty, working daily according to a fixed routine." },

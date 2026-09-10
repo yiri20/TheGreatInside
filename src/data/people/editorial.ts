@@ -6508,4 +6508,399 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // Roster29 fifteen-person fast production batch (2026-09). All content
+  // drawn only from each candidate's already-audited evidence corpus (see
+  // docs/checkpoints/roster29-fifteen-person-fast-batch.md) -- no new
+  // behavioral research, no general-knowledge filler beyond what the
+  // audited rows already support.
+  "gabriel-garcia-marquez": {
+    achievements: [
+      { id: "gabriel-garcia-marquez-achievement-1", textKey: "gabriel-garcia-marquez.achievement.1", sourceIds: ["src_gabo_memoir", "src_gabo_nobel"] },
+      { id: "gabriel-garcia-marquez-achievement-2", textKey: "gabriel-garcia-marquez.achievement.2", sourceIds: ["src_gabo_nybooks", "src_gabo_memoir"] },
+      { id: "gabriel-garcia-marquez-achievement-3", textKey: "gabriel-garcia-marquez.achievement.3", sourceIds: ["src_gabo_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "gabriel-garcia-marquez-moment-1",
+        textKey: "gabriel-garcia-marquez.moment.1",
+        interpretationKey: "gabriel-garcia-marquez.interpretation.moment.1",
+        attributeId: "persistence",
+        sourceIds: ["src_gabo_memoir"],
+      },
+      {
+        id: "gabriel-garcia-marquez-moment-2",
+        textKey: "gabriel-garcia-marquez.moment.2",
+        interpretationKey: "gabriel-garcia-marquez.interpretation.moment.2",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_gabo_memoir"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "gabriel-garcia-marquez-turning-point-1",
+        textKey: "gabriel-garcia-marquez.turning_point.1",
+        interpretationKey: "gabriel-garcia-marquez.interpretation.turning_point.1",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_gabo_wikipedia"],
+      },
+    ],
+  },
+  "murasaki-shikibu": {
+    achievements: [
+      { id: "murasaki-shikibu-achievement-1", textKey: "murasaki-shikibu.achievement.1", sourceIds: ["src_murasaki_genji"] },
+      { id: "murasaki-shikibu-achievement-2", textKey: "murasaki-shikibu.achievement.2", sourceIds: ["src_murasaki_diary"] },
+      { id: "murasaki-shikibu-achievement-3", textKey: "murasaki-shikibu.achievement.3", sourceIds: ["src_murasaki_diary"] },
+    ],
+    moments: [
+      {
+        id: "murasaki-shikibu-moment-1",
+        textKey: "murasaki-shikibu.moment.1",
+        interpretationKey: "murasaki-shikibu.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_murasaki_diary"],
+      },
+      { id: "murasaki-shikibu-moment-2", textKey: "murasaki-shikibu.moment.2", sourceIds: ["src_murasaki_diary"] },
+    ],
+    turningPoints: [],
+  },
+  "zora-neale-hurston": {
+    achievements: [
+      { id: "zora-neale-hurston-achievement-1", textKey: "zora-neale-hurston.achievement.1", sourceIds: ["src_hurston_wikipedia"] },
+      { id: "zora-neale-hurston-achievement-2", textKey: "zora-neale-hurston.achievement.2", sourceIds: ["src_hurston_wikipedia"] },
+      { id: "zora-neale-hurston-achievement-3", textKey: "zora-neale-hurston.achievement.3", sourceIds: ["src_hurston_boyd"] },
+    ],
+    moments: [
+      {
+        id: "zora-neale-hurston-moment-1",
+        textKey: "zora-neale-hurston.moment.1",
+        interpretationKey: "zora-neale-hurston.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_hurston_boyd"],
+      },
+      {
+        id: "zora-neale-hurston-moment-2",
+        textKey: "zora-neale-hurston.moment.2",
+        interpretationKey: "zora-neale-hurston.interpretation.moment.2",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_hurston_boyd"],
+      },
+    ],
+    turningPoints: [],
+  },
+  seneca: {
+    achievements: [
+      { id: "seneca-achievement-1", textKey: "seneca.achievement.1", sourceIds: ["src_sen_letters", "src_sen_essays"] },
+      { id: "seneca-achievement-2", textKey: "seneca.achievement.2", sourceIds: ["src_sen_wikipedia"] },
+      { id: "seneca-achievement-3", textKey: "seneca.achievement.3", sourceIds: ["src_sen_tacitus"] },
+    ],
+    moments: [
+      {
+        id: "seneca-moment-1",
+        textKey: "seneca.moment.1",
+        interpretationKey: "seneca.interpretation.moment.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_sen_tacitus"],
+      },
+      {
+        id: "seneca-moment-2",
+        textKey: "seneca.moment.2",
+        interpretationKey: "seneca.interpretation.moment.2",
+        attributeId: "decisiveness",
+        sourceIds: ["src_sen_tacitus"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "seneca-turning-point-1",
+        textKey: "seneca.turning_point.1",
+        interpretationKey: "seneca.interpretation.turning_point.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_sen_tacitus"],
+      },
+    ],
+  },
+  "jean-piaget": {
+    achievements: [
+      { id: "jean-piaget-achievement-1", textKey: "jean-piaget.achievement.1", sourceIds: ["src_piaget_wikipedia"] },
+      { id: "jean-piaget-achievement-2", textKey: "jean-piaget.achievement.2", sourceIds: ["src_piaget_britannica"] },
+      { id: "jean-piaget-achievement-3", textKey: "jean-piaget.achievement.3", sourceIds: ["src_piaget_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "jean-piaget-moment-1",
+        textKey: "jean-piaget.moment.1",
+        interpretationKey: "jean-piaget.interpretation.moment.1",
+        attributeId: "curiosity",
+        sourceIds: ["src_piaget_britannica"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "dorothea-lange": {
+    achievements: [
+      { id: "dorothea-lange-achievement-1", textKey: "dorothea-lange.achievement.1", sourceIds: ["src_lange_wikipedia"] },
+      { id: "dorothea-lange-achievement-2", textKey: "dorothea-lange.achievement.2", sourceIds: ["src_lange_icp"] },
+      { id: "dorothea-lange-achievement-3", textKey: "dorothea-lange.achievement.3", sourceIds: ["src_lange_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "dorothea-lange-moment-1",
+        textKey: "dorothea-lange.moment.1",
+        interpretationKey: "dorothea-lange.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_lange_wikipedia"],
+      },
+      {
+        id: "dorothea-lange-moment-2",
+        textKey: "dorothea-lange.moment.2",
+        interpretationKey: "dorothea-lange.interpretation.moment.2",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_lange_wikipedia"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "katherine-dunham": {
+    achievements: [
+      { id: "katherine-dunham-achievement-1", textKey: "katherine-dunham.achievement.1", sourceIds: ["src_dunham_wikipedia"] },
+      { id: "katherine-dunham-achievement-2", textKey: "katherine-dunham.achievement.2", sourceIds: ["src_dunham_loc"] },
+      { id: "katherine-dunham-achievement-3", textKey: "katherine-dunham.achievement.3", sourceIds: ["src_dunham_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "katherine-dunham-moment-1",
+        textKey: "katherine-dunham.moment.1",
+        interpretationKey: "katherine-dunham.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_dunham_wikipedia"],
+      },
+      {
+        id: "katherine-dunham-moment-2",
+        textKey: "katherine-dunham.moment.2",
+        interpretationKey: "katherine-dunham.interpretation.moment.2",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_dunham_wikipedia"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "wilma-rudolph": {
+    achievements: [
+      { id: "wilma-rudolph-achievement-1", textKey: "wilma-rudolph.achievement.1", sourceIds: ["src_rudolph_olympics"] },
+      { id: "wilma-rudolph-achievement-2", textKey: "wilma-rudolph.achievement.2", sourceIds: ["src_rudolph_wikipedia"] },
+      { id: "wilma-rudolph-achievement-3", textKey: "wilma-rudolph.achievement.3", sourceIds: ["src_rudolph_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "wilma-rudolph-moment-1",
+        textKey: "wilma-rudolph.moment.1",
+        interpretationKey: "wilma-rudolph.interpretation.moment.1",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_rudolph_wikipedia"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "wilma-rudolph-turning-point-1",
+        textKey: "wilma-rudolph.turning_point.1",
+        interpretationKey: "wilma-rudolph.interpretation.turning_point.1",
+        attributeId: "leadership_drive",
+        sourceIds: ["src_rudolph_wikipedia"],
+      },
+    ],
+  },
+  "william-wilberforce": {
+    achievements: [
+      { id: "william-wilberforce-achievement-1", textKey: "william-wilberforce.achievement.1", sourceIds: ["src_wilberforce_hague", "src_wilberforce_sons"] },
+      { id: "william-wilberforce-achievement-2", textKey: "william-wilberforce.achievement.2", sourceIds: ["src_wilberforce_hop"] },
+      { id: "william-wilberforce-achievement-3", textKey: "william-wilberforce.achievement.3", sourceIds: ["src_wilberforce_hague"] },
+    ],
+    moments: [
+      {
+        id: "william-wilberforce-moment-1",
+        textKey: "william-wilberforce.moment.1",
+        interpretationKey: "william-wilberforce.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_wilberforce_hague"],
+      },
+      {
+        id: "william-wilberforce-moment-2",
+        textKey: "william-wilberforce.moment.2",
+        interpretationKey: "william-wilberforce.interpretation.moment.2",
+        attributeId: "collaboration",
+        sourceIds: ["src_wilberforce_hague"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "william-wilberforce-turning-point-1",
+        textKey: "william-wilberforce.turning_point.1",
+        interpretationKey: "william-wilberforce.interpretation.turning_point.1",
+        attributeId: "planning_orientation",
+        sourceIds: ["src_wilberforce_hague"],
+      },
+    ],
+  },
+  "desmond-tutu": {
+    achievements: [
+      { id: "desmond-tutu-achievement-1", textKey: "desmond-tutu.achievement.1", sourceIds: ["src_tutu_memoir"] },
+      { id: "desmond-tutu-achievement-2", textKey: "desmond-tutu.achievement.2", sourceIds: ["src_tutu_nobel"] },
+      { id: "desmond-tutu-achievement-3", textKey: "desmond-tutu.achievement.3", sourceIds: ["src_tutu_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "desmond-tutu-moment-1",
+        textKey: "desmond-tutu.moment.1",
+        interpretationKey: "desmond-tutu.interpretation.moment.1",
+        attributeId: "discipline",
+        sourceIds: ["src_tutu_malgas_press"],
+      },
+      {
+        id: "desmond-tutu-moment-2",
+        textKey: "desmond-tutu.moment.2",
+        interpretationKey: "desmond-tutu.interpretation.moment.2",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_tutu_news24_obit"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "ratan-tata": {
+    achievements: [
+      { id: "ratan-tata-achievement-1", textKey: "ratan-tata.achievement.1", sourceIds: ["src_tata_press_acquisitions"] },
+      { id: "ratan-tata-achievement-2", textKey: "ratan-tata.achievement.2", sourceIds: ["src_tata_wikipedia"] },
+      { id: "ratan-tata-achievement-3", textKey: "ratan-tata.achievement.3", sourceIds: ["src_tata_press_acquisitions"] },
+    ],
+    moments: [
+      {
+        id: "ratan-tata-moment-1",
+        textKey: "ratan-tata.moment.1",
+        interpretationKey: "ratan-tata.interpretation.moment.1",
+        attributeId: "social_assertiveness",
+        sourceIds: ["src_tata_press_mumbai2008"],
+      },
+      {
+        id: "ratan-tata-moment-2",
+        textKey: "ratan-tata.moment.2",
+        interpretationKey: "ratan-tata.interpretation.moment.2",
+        attributeId: "decisiveness",
+        sourceIds: ["src_tata_press_mistry"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "indira-gandhi": {
+    achievements: [
+      { id: "indira-gandhi-achievement-1", textKey: "indira-gandhi.achievement.1", sourceIds: ["src_indiragandhi_nhi"] },
+      { id: "indira-gandhi-achievement-2", textKey: "indira-gandhi.achievement.2", sourceIds: ["src_indiragandhi_frank", "src_indiragandhi_jayakar"] },
+      { id: "indira-gandhi-achievement-3", textKey: "indira-gandhi.achievement.3", sourceIds: ["src_indiragandhi_brit"] },
+    ],
+    moments: [
+      {
+        id: "indira-gandhi-moment-1",
+        textKey: "indira-gandhi.moment.1",
+        interpretationKey: "indira-gandhi.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_indiragandhi_fairobs"],
+      },
+      {
+        id: "indira-gandhi-moment-2",
+        textKey: "indira-gandhi.moment.2",
+        interpretationKey: "indira-gandhi.interpretation.moment.2",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_indiragandhi_brit"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "indira-gandhi-turning-point-1",
+        textKey: "indira-gandhi.turning_point.1",
+        interpretationKey: "indira-gandhi.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_indiragandhi_fairobs", "src_indiragandhi_brit"],
+      },
+    ],
+  },
+  "ulysses-s-grant": {
+    achievements: [
+      { id: "ulysses-s-grant-achievement-1", textKey: "ulysses-s-grant.achievement.1", sourceIds: ["src_usg_chernow", "src_usg_white"] },
+      { id: "ulysses-s-grant-achievement-2", textKey: "ulysses-s-grant.achievement.2", sourceIds: ["src_usg_memoirs"] },
+      { id: "ulysses-s-grant-achievement-3", textKey: "ulysses-s-grant.achievement.3", sourceIds: ["src_usg_chernow"] },
+    ],
+    moments: [
+      {
+        id: "ulysses-s-grant-moment-1",
+        textKey: "ulysses-s-grant.moment.1",
+        interpretationKey: "ulysses-s-grant.interpretation.moment.1",
+        attributeId: "persistence",
+        sourceIds: ["src_usg_chernow", "src_usg_white"],
+      },
+      {
+        id: "ulysses-s-grant-moment-2",
+        textKey: "ulysses-s-grant.moment.2",
+        interpretationKey: "ulysses-s-grant.interpretation.moment.2",
+        attributeId: "belief_updating",
+        sourceIds: ["src_usg_chernow"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "ulysses-s-grant-turning-point-1",
+        textKey: "ulysses-s-grant.turning_point.1",
+        interpretationKey: "ulysses-s-grant.interpretation.turning_point.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_usg_chernow", "src_usg_white"],
+      },
+    ],
+  },
+  "suleiman-the-magnificent": {
+    achievements: [
+      { id: "suleiman-the-magnificent-achievement-1", textKey: "suleiman-the-magnificent.achievement.1", sourceIds: ["src_sm_kanunname"] },
+      { id: "suleiman-the-magnificent-achievement-2", textKey: "suleiman-the-magnificent.achievement.2", sourceIds: ["src_sm_bailo_dispatches"] },
+      { id: "suleiman-the-magnificent-achievement-3", textKey: "suleiman-the-magnificent.achievement.3", sourceIds: ["src_sm_muhibbi_divan"] },
+    ],
+    moments: [
+      {
+        id: "suleiman-the-magnificent-moment-1",
+        textKey: "suleiman-the-magnificent.moment.1",
+        interpretationKey: "suleiman-the-magnificent.interpretation.moment.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_sm_wikipedia"],
+      },
+      {
+        id: "suleiman-the-magnificent-moment-2",
+        textKey: "suleiman-the-magnificent.moment.2",
+        interpretationKey: "suleiman-the-magnificent.interpretation.moment.2",
+        attributeId: "decisiveness",
+        sourceIds: ["src_sm_wikipedia"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "ibn-al-haytham": {
+    achievements: [
+      { id: "ibn-al-haytham-achievement-1", textKey: "ibn-al-haytham.achievement.1", sourceIds: ["src_alhazen_optics"] },
+      { id: "ibn-al-haytham-achievement-2", textKey: "ibn-al-haytham.achievement.2", sourceIds: ["src_alhazen_optics"] },
+      { id: "ibn-al-haytham-achievement-3", textKey: "ibn-al-haytham.achievement.3", sourceIds: ["src_alhazen_optics", "src_alhazen_mactutor"] },
+    ],
+    moments: [
+      {
+        id: "ibn-al-haytham-moment-1",
+        textKey: "ibn-al-haytham.moment.1",
+        interpretationKey: "ibn-al-haytham.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_alhazen_wikipedia", "src_alhazen_mactutor"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "ibn-al-haytham-turning-point-1",
+        textKey: "ibn-al-haytham.turning_point.1",
+        interpretationKey: "ibn-al-haytham.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_alhazen_wikipedia", "src_alhazen_mactutor"],
+      },
+    ],
+  },
 };

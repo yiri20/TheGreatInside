@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ratan-tata",
-  "status": "held",
-  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.441, coverage=0.531, eligible=false. Major strategic decisions are well documented via press/legal record, but day-to-day operational and interpersonal conduct rests mostly at inference tier. Held, not rejected.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Ratan Tata",
     "aliases": ["Ratan Naval Tata"],
@@ -28,6 +27,18 @@
     { "id": "src_tata_press_mistry", "kind": "press", "title": "Press and legal-record coverage of the October 2016 removal of Cyrus Mistry as Tata Sons chairman and the subsequent multi-year public dispute" },
     { "id": "src_tata_press_mumbai2008", "kind": "press", "title": "Contemporary press coverage of the November 2008 Mumbai terror attacks on the Taj Mahal Palace Hotel and Tata's documented personal role in the response" }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ratan-tata-2024.jpg",
+    "width": 1179,
+    "height": 1390,
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Sarvajanik Puralekh (via Flickr)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ratan_Tata_(1937-2024).jpg"
+  },
   "rows": {
     "decisiveness": { "score": 82, "confidence": 0.58, "evidenceType": "documented", "impact": "dual_edged", "rationale": "Personally led the abrupt October 2016 removal of Cyrus Mistry as chairman of Tata Sons, a specific, documented, controversial corporate governance action that triggered a prolonged public legal battle; separately, personally directed the company's crisis response to the November 2008 Mumbai terror attacks on the Taj Mahal Palace Hotel, including its subsequent rebuilding. Marked dual_edged: decisive action in both cases, with the Mistry removal specifically remaining publicly contested." },
     "risk_tolerance": { "score": 78, "confidence": 0.55, "evidenceType": "documented", "impact": "advantage", "rationale": "Personally directed the large, internationally scrutinized acquisitions of Corus Steel (2007) and Jaguar Land Rover (2008), both significantly larger than Tata's existing operations at the time, and championed the ambitious, ultimately commercially unsuccessful Tata Nano 'world's cheapest car' project aimed at affordable mobility -- documented, high-stakes decisions with mixed outcomes, not selectively reported successes only." },

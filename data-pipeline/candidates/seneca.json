@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "seneca",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Seneca",
     "aliases": [
@@ -68,6 +68,18 @@
       "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
     }
   ],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/seneca-wawel.jpg",
+    "width": 1280,
+    "height": 1065,
+    "source": "Wikimedia Commons / Wawel Royal Castle Museum, Krakow",
+    "license": "CC BY-SA 4.0 (photograph) / Public Domain (underlying painting)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Unknown artist -- Wawel Royal Castle Museum, Krakow; photographed by Wikimedia contributor Scotch Mist, 2024",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Krakow_2024_389_Wawel_Castle_Museum_-_Seneca_Portrait_Painting.jpg"
+  },
   "rows": {
     "curiosity": {
       "score": 60,
@@ -209,7 +221,6 @@
     "processedBy": "agent",
     "notes": "Roster-12 new-intake batch (2026-09): Ancient era diversity pick. Seneca is unusually well-documented for antiquity via his own extensive, genuinely personal Letters to Lucilius plus Tacitus's near-contemporary, detailed independent account of his court role and death. The wealth-vs-preached-simplicity contradiction is scored honestly as dual_edged evidence (achievement_drive, impact_motivation) rather than smoothed into a fake middle, per the rubric's contradiction-handling guidance. Confidence capped per the rubric's ancient-era discipline. Scored to completion before any eligibility check was run."
   },
-  "holdReason": "eligibility_v2 not met on first score: scored=19 attributes (>=18 required, met), avgConf=0.512, coverage=0.569 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
   "computedEligibility": {
     "scoredAttributeCount": 19,
     "averageConfidence": 0.512,

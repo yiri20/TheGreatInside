@@ -122,12 +122,12 @@ export const PROFESSION_CATEGORIES: readonly ProfessionCategory[] = [
   {
     id: "arts_culture",
     labelKey: "people.directory.profession_category.arts_culture",
-    fieldIds: ["literature", "music", "art", "film", "design", "architecture"],
+    fieldIds: ["literature", "music", "art", "film", "design", "architecture", "dance", "journalism"],
   },
   {
     id: "leadership_society",
     labelKey: "people.directory.profession_category.leadership_society",
-    fieldIds: ["politics", "diplomacy", "civil_rights", "military", "education", "law", "social_reform"],
+    fieldIds: ["politics", "diplomacy", "civil_rights", "military", "education", "law", "social_reform", "religion"],
   },
   {
     id: "building_discovery",
