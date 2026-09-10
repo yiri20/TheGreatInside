@@ -3215,6 +3215,189 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Sustaining active rule through repeated, dated existential threats across 46 years is the specific instance behind the profile's persistence score.",
   "king-hussein-jordan.interpretation.turning_point.1":
     "A specific, high-stakes decision with real and lasting contested consequences is why the profile scores decisiveness here as dual-edged rather than an unqualified strength.",
+
+  /* ---------------------------------------------------------- roster27 */
+  "lu-xun.achievement.1":
+    "\"Diary of a Madman\" (1918) is documented and historically verified as the first major work of modern vernacular Chinese literature.",
+  "lu-xun.achievement.2":
+    "Specifically declined informal Nobel Prize consideration, stating that no Chinese writer of the time — including himself — deserved it yet, a documented act of self-critical judgment against the pull of prestige.",
+  "lu-xun.moment.1":
+    "In his own account, abandoned medical training in Japan after witnessing a lantern-slide of a Chinese man about to be executed as a spy while Chinese onlookers watched apathetically, concluding that his countrymen's apathy mattered more to cure than their bodies.",
+  "lu-xun.moment.2":
+    "Maintained a documented, prolific writing schedule despite chronic tuberculosis in his later years, sustaining output until close to his death.",
+  "lu-xun.turning_point.1":
+    "The career switch from medicine to literature followed directly and swiftly from the lantern-slide episode — a specific, documented, decisive turning point rather than a gradual drift.",
+  "lu-xun.interpretation.achievement.1":
+    "An objectively assessable literary-historical first, arising directly from a documented personal turning point, is the specific instance behind the profile's creative_originality score.",
+  "lu-xun.interpretation.turning_point.1":
+    "A swift, documented pivot following directly from a single specific episode is the basis for the profile's decisiveness score.",
+
+  "amelia-earhart.achievement.1":
+    "Pursued a documented sequence of pioneering and record-setting flights across roughly a decade, including the 1932 solo transatlantic crossing, the 1935 Hawaii-to-California solo flight, and the 1937 round-the-world attempt — corroborated via the Smithsonian's own record of her flight log.",
+  "amelia-earhart.achievement.2":
+    "Co-founded and served as the first president of the Ninety-Nines, an organization for women pilots that persisted well beyond her own career.",
+  "amelia-earhart.moment.1":
+    "Alongside flying, designed a practical clothing line for active women and wrote two books about her flights, documented via her own business ventures and bibliography.",
+  "amelia-earhart.moment.2":
+    "Continued pursuing the round-the-world attempt after an earlier 1937 takeoff crash in Hawaii forced her to abandon the first try.",
+  "amelia-earhart.turning_point.1":
+    "Recognized and seized a 1928 opportunity to be the first woman to cross the Atlantic by air (initially as a passenger), leveraging the resulting publicity into her own independent solo flying career.",
+  "amelia-earhart.interpretation.achievement.1":
+    "A documented sequence of specific named record flights across a decade is the basis for the profile's achievement_drive and risk_tolerance scores.",
+  "amelia-earhart.interpretation.turning_point.1":
+    "Turning a single documented opportunity into an independent career is the specific instance behind the profile's opportunity_sensing score.",
+
+  "zaha-hadid.achievement.1":
+    "Became the first woman to win the Pritzker Architecture Prize (2004), documented via the prize citation's own explicit recognition of her stylistic originality.",
+  "zaha-hadid.achievement.2":
+    "Founded and led Zaha Hadid Architects into a major international firm, ultimately producing major built works on nearly every continent across a four-decade career.",
+  "zaha-hadid.moment.1":
+    "Spent roughly the first decade of her career with almost no built work realized, known within the profession primarily through unbuilt competition-winning designs.",
+  "zaha-hadid.moment.2":
+    "Developed and applied parametric design principles integrating structural, spatial, and aesthetic considerations into unified computational design systems.",
+  "zaha-hadid.turning_point.1":
+    "Sustained her distinctive design approach despite years of professional skepticism and unrealized competition wins, before building technology caught up with what her designs required.",
+  "zaha-hadid.interpretation.achievement.1":
+    "A distinctive style demonstrated across a full built career and recognized by the field's top prize is the basis for the profile's creative_originality score.",
+  "zaha-hadid.interpretation.turning_point.1":
+    "Sustaining an unbuilt design vision through a decade of professional skepticism is the specific instance behind the profile's persistence score.",
+
+  "jorge-luis-borges.achievement.1":
+    "Originated a narrative device with no direct precedent in prior literature — fictional criticism of nonexistent books, most famously \"Pierre Menard, Author of the Quixote\" (1939) — documented via its well-corroborated critical reception as a foundational, widely imitated innovation.",
+  "jorge-luis-borges.achievement.2":
+    "Sustained a major literary career for roughly three more decades after becoming completely blind by the late 1950s, never learning Braille and requiring dictation for every subsequent work.",
+  "jorge-luis-borges.achievement.3":
+    "Catalogued more than 100 books per day during his 1938-1946 employment at the Miguel Cane Municipal Library, and later maintained a sustained daily dictation-and-revision ritual at the National Library, observed directly by a Paris Review interviewer in his office in 1966.",
+  "jorge-luis-borges.moment.1":
+    "Refused a direct police order to display Perón's portrait at the writers' society he led in 1952, which led to the society's forced closure and his own surveillance.",
+  "jorge-luis-borges.moment.2":
+    "Resigned the National Library directorship the instant Perón returned to power in 1973, one of a repeated pattern across three separate decades of walking away from institutional position rather than compromising.",
+  "jorge-luis-borges.turning_point.1":
+    "Praised dictator Videla as \"quite a gentleman\" at a May 1976 lunch, then publicly repudiated that position after the October 1983 democratic elections and attended the 1985 Trial of the Juntas in person, later writing that democracy had \"refuted him splendidly.\"",
+  "jorge-luis-borges.interpretation.achievement.1":
+    "A foundational literary device, independently corroborated by its lasting critical reception, is the specific instance behind the profile's creative_originality score.",
+  "jorge-luis-borges.interpretation.turning_point.1":
+    "A fully dated, multi-step, independently corroborated political reversal — not a single change of heart — is the basis for the profile's belief_updating score.",
+
+  "norman-borlaug.achievement.1":
+    "Developed the \"shuttle breeding\" technique across two Mexican sites, doubling breeding cycles per year and leading to the unexpected discovery of daylength insensitivity, reducing wheat development time from a decade to five years.",
+  "norman-borlaug.achievement.2":
+    "Personally intervened when a wheat shipment to Pakistan was stalled by trucks caught in the 1965 Watts riots en route to the Los Angeles port, taking, in the NAS memoir's own words, \"several imaginative steps\" to get the wheat onto ships.",
+  "norman-borlaug.moment.1":
+    "His wife told a colleague he \"had been home for only four\" of their sixty married years, sustaining decades split between two Mexican research stations.",
+  "norman-borlaug.moment.2":
+    "At age 91, personally threatened to sever ties with CIMMYT unless it acted faster on Kenyan stem rust — a threat that produced results.",
+  "norman-borlaug.turning_point.1":
+    "Directly and publicly responded to environmentalist critics: \"Many of them are elitists. They've never experienced the physical sensation of hunger... If they lived just one month amid the misery of the developing world... they'd be crying out for tractors and fertilizer.\"",
+  "norman-borlaug.interpretation.achievement.1":
+    "A specific, dated logistical intervention under real crisis conditions is the basis for the profile's resourcefulness score.",
+  "norman-borlaug.interpretation.turning_point.1":
+    "A sustained, direct public confrontation with an organized opposing camp is the specific instance behind the profile's conflict_tolerance score.",
+
+  "marie-tharp.achievement.1":
+    "Identified a rift valley running down the center of the Mid-Atlantic Ridge from her own map data and proposed this as direct evidence for continental drift/seafloor spreading.",
+  "marie-tharp.achievement.2":
+    "Co-produced the first comprehensive world ocean-floor map after decades of hand-plotting individual sonar depth soundings into detailed physiographic maps with Bruce Heezen.",
+  "marie-tharp.moment.1":
+    "Was barred by US Navy regulations from joining the research ships collecting the sonar data she analyzed, and instead built her groundbreaking maps entirely from data relayed to her onshore.",
+  "marie-tharp.moment.2":
+    "Her own research partner, Bruce Heezen, initially dismissed her rift-valley interpretation as \"girl talk\" before independently corroborating evidence proved her correct.",
+  "marie-tharp.turning_point.1":
+    "Continued advocating for and refining her seafloor-spreading interpretation despite that initial dismissal from her own collaborator and the wider geological community, until the theory gained acceptance years later.",
+  "marie-tharp.interpretation.achievement.1":
+    "Correctly cross-referencing separate depth-profile and earthquake-epicenter datasets to confirm a major geological feature is the basis for the profile's analytical_rigor score.",
+  "marie-tharp.interpretation.turning_point.1":
+    "Sustaining a correct scientific interpretation through direct initial dismissal from a close collaborator is the specific instance behind the profile's persistence score.",
+
+  "jean-jacques-rousseau.achievement.1":
+    "The Confessions is widely credited by literary and philosophical scholarship as one of the first true modern autobiographies.",
+  "jean-jacques-rousseau.achievement.2":
+    "The Social Contract and Discourse on Inequality directly challenged prevailing Enlightenment assumptions about civilization and progress, arguing society itself corrupts natural human goodness.",
+  "jean-jacques-rousseau.moment.1":
+    "Emile and The Social Contract were both banned and publicly burned, and he was forced to flee France and later Switzerland under threat of arrest.",
+  "jean-jacques-rousseau.moment.2":
+    "Sustained a public falling-out and prolonged personal dispute with major Enlightenment contemporaries including Voltaire and Diderot, documented via their surviving correspondence and public exchanges.",
+  "jean-jacques-rousseau.turning_point.1":
+    "Largely self-taught across philosophy, music theory, and botany, composing an opera and writing a music-theory treatise entirely outside any formal education.",
+  "jean-jacques-rousseau.interpretation.achievement.1":
+    "A work recognized by scholarship as founding a literary genre is the basis for the profile's creative_originality score.",
+  "jean-jacques-rousseau.interpretation.turning_point.1":
+    "Sustained, documented breadth of self-directed learning outside any formal institution is the specific instance behind the profile's curiosity score.",
+
+  "al-biruni.achievement.1":
+    "Produced substantive original work across astronomy, mathematics, geography, geodesy, mineralogy, history, and comparative religion, documented via a surviving bibliography of roughly 146 known works across these genuinely distinct fields.",
+  "al-biruni.achievement.2":
+    "Calculated Earth's radius using a specific, methodologically rigorous technique — measuring the dip of the horizon from a known mountain height — a method still cited in the history of geodesy.",
+  "al-biruni.moment.1":
+    "Learned Sanskrit specifically to access Indian primary sources directly for Kitab al-Hind, rather than relying on translation.",
+  "al-biruni.moment.2":
+    "His real, surviving correspondence with Ibn Sina (c. 998) records him sustaining an independent Democritean-leaning position against Ibn Sina's Aristotelian physics across two rounds of pointed objections, recorded as dissatisfied with most of Ibn Sina's replies.",
+  "al-biruni.turning_point.1":
+    "Brought to Mahmud of Ghazni's court in 1017 as a war-captive following the Ghaznavid conquest of Khwarazm — by several accounts literally in chains — yet subsequently given scholarly resources and producing major work, including Kitab al-Hind, under the very court that had captured him.",
+  "al-biruni.interpretation.achievement.1":
+    "A surviving bibliography of roughly 146 works across seven genuinely distinct fields is the specific instance behind the profile's cross_domain_range score.",
+  "al-biruni.interpretation.turning_point.1":
+    "Producing major scholarly work under coerced circumstance is a documented instance of both severe constraint and genuine resilience within it, consistent with the profile's dual-edged adaptability score.",
+
+  "hedy-lamarr.achievement.1":
+    "Co-developed a frequency-hopping spread-spectrum communication system with composer George Antheil, patented in 1942, later foundational to the spread-spectrum technology underlying Wi-Fi, GPS, and Bluetooth.",
+  "hedy-lamarr.achievement.2":
+    "Sustained a major Hollywood acting career while independently pursuing serious technical invention work with no formal engineering training.",
+  "hedy-lamarr.moment.1":
+    "Drew the frequency-hopping mechanism's core inspiration from a synchronized player-piano, an unconventional analogy documented via the patent's own specific technical origin story.",
+  "hedy-lamarr.moment.2":
+    "Lamarr and Antheil's frequency-hopping patent was granted in 1942, but the U.S. Navy declined to adopt the proposed system at the time, considering the implementation impractical.",
+  "hedy-lamarr.turning_point.1":
+    "Fled an abusive, controlling first marriage in Austria as war approached to rebuild a completely new career and life abroad in Hollywood.",
+  "hedy-lamarr.interpretation.achievement.1":
+    "Two genuinely distinct, real-output domains — acting and invention — pursued in parallel over years is the basis for the profile's cross_domain_range score.",
+  "hedy-lamarr.interpretation.turning_point.1":
+    "A major, documented life decision to leave a controlling situation and rebuild abroad is the specific instance behind the profile's risk_tolerance and adaptability scores.",
+
+  "rosa-parks.achievement.1":
+    "Refused to give up her bus seat to a white passenger in segregated Montgomery, Alabama in 1955, resulting in her arrest — a specific, extensively documented act carrying real, realized personal legal and social risk.",
+  "rosa-parks.achievement.2":
+    "Served for over a decade (1943-1957) as secretary of the Montgomery NAACP chapter before her 1955 arrest, including personally conducting the NAACP's 1944 investigation into the gang rape of Recy Taylor.",
+  "rosa-parks.moment.1":
+    "Her own autobiography directly corrects the popularized \"tired feet\" narrative, stating her refusal was a considered decision in the moment: she was \"tired of giving in.\"",
+  "rosa-parks.moment.2":
+    "Co-founded the Rosa and Raymond Parks Institute for Self Development in 1987, continuing organizational work decades after the incident that made her nationally known.",
+  "rosa-parks.turning_point.1":
+    "Continued civil-rights activism for decades after 1955, relocating from Montgomery to Detroit after losing her employment and facing sustained threats, and adjusting her platform across that major life disruption.",
+  "rosa-parks.interpretation.achievement.1":
+    "A specific fact-finding investigation into a violent crime, conducted years before her famous arrest, is the basis for the profile's detail_orientation score.",
+  "rosa-parks.interpretation.turning_point.1":
+    "Continuing organizational activism after a major, disruptive life change is the specific instance behind the profile's adaptability score.",
+
+  "ken-saro-wiwa.achievement.1":
+    "Built a successful career as a published novelist and as creator/producer of the popular Nigerian television series Basi and Company before turning to activism.",
+  "ken-saro-wiwa.achievement.2":
+    "Founded the Movement for the Survival of the Ogoni People (MOSOP) in 1990 and organized a January 1993 demonstration that mobilized an estimated 300,000 people — a specific, extremely well-documented mass-mobilization outcome.",
+  "ken-saro-wiwa.moment.1":
+    "Sustained direct, simultaneous confrontation with both the Nigerian military government and Shell Oil, a powerful multinational corporation, across a documented multi-year campaign.",
+  "ken-saro-wiwa.moment.2":
+    "His documented final words before his 1995 execution affirmed continued commitment to \"the struggle.\"",
+  "ken-saro-wiwa.turning_point.1":
+    "Continued organizing and leading MOSOP through multiple documented arrests and escalating government pressure, up to and through a widely-regarded-as-politically-motivated trial and his execution.",
+  "ken-saro-wiwa.interpretation.achievement.1":
+    "Genuine, documented achievement in a distinct creative/media career preceding his activism is the basis for the profile's cross_domain_range score.",
+  "ken-saro-wiwa.interpretation.turning_point.1":
+    "Multiple independent documented instances of sustained risk across five years is the specific pattern behind the profile's risk_tolerance score.",
+
+  "bob-marley.achievement.1":
+    "Built a substantial original songwriting catalogue (Catch a Fire, Natty Dread, Exodus, and others) within roughly a decade of major-label output, documented via the sustained critical and commercial reception of this body of work.",
+  "bob-marley.achievement.2":
+    "Credited with substantially building global mainstream acceptance of reggae as a genre from a Jamaican regional style, documented via the sustained international commercial and critical reception of his catalogue.",
+  "bob-marley.moment.1":
+    "At the April 1978 One Love Peace Concert, brought rival Jamaican political leaders Michael Manley and Edward Seaga on stage and joined their hands above his head while performing.",
+  "bob-marley.moment.2":
+    "Initially declined recommended amputation of a cancerous toe in 1977 for reasons tied to his religious beliefs, continuing to perform and tour on his own terms until the cancer had spread significantly.",
+  "bob-marley.turning_point.1":
+    "Continued performing at the December 1976 \"Smile Jamaica\" peace concert two days after surviving an assassination attempt at his home that wounded him, his wife, and his manager.",
+  "bob-marley.interpretation.achievement.1":
+    "A sustained catalogue of multiple separately-released albums is the basis for the profile's creative_originality score.",
+  "bob-marley.interpretation.turning_point.1":
+    "Continuing to perform under direct, recently-realized physical danger is the specific instance behind the profile's risk_tolerance score.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -6283,6 +6466,189 @@ export const EDITORIAL_KO: Record<string, string> = {
     "46년에 걸쳐 거듭된, 날짜가 확인되는 실존적 위협 속에서도 통치를 이어간 것은 프로필의 지속성(persistence) 점수를 뒷받침하는 구체적 사례다.",
   "king-hussein-jordan.interpretation.turning_point.1":
     "실질적이고 지속적으로 논쟁이 되는 결과를 낳은 구체적이고 중대한 결정이기에, 프로필은 이 부분의 결단력(decisiveness)을 무조건적인 강점이 아니라 양면적으로 평가한다.",
+
+  /* ---------------------------------------------------------- roster27 */
+  "lu-xun.achievement.1":
+    "『광인일기』(1918)는 중국 현대 백화문학의 최초의 주요 작품으로 역사적으로 확인되고 검증되었다.",
+  "lu-xun.achievement.2":
+    "노벨상 후보 고려를 명시적으로 사양하며, 당시 중국 작가 중 그 누구도 — 자신을 포함해 — 아직 그럴 자격이 없다고 밝혔다. 명성의 유혹에 맞선, 자기비판적 판단을 보여주는 기록된 행동이다.",
+  "lu-xun.moment.1":
+    "그의 자전적 기록에 따르면, 일본 유학 중 중국인이 스파이 혐의로 처형되기 직전의 모습을 담은 환등기 슬라이드를 보게 되었다. 주변의 중국인 구경꾼들이 무심하게 지켜보는 모습에, 몸을 치료하는 것보다 동포들의 무기력함을 치유하는 것이 더 중요하다고 결론지으며 의학 공부를 그만두었다.",
+  "lu-xun.moment.2":
+    "말년에 만성 결핵을 앓으면서도 죽음 직전까지 왕성한 집필 활동을 이어갔다는 기록이 남아 있다.",
+  "lu-xun.turning_point.1":
+    "의학에서 문학으로의 진로 전환은 환등기 사건 직후 신속하게 이루어졌다 — 점진적인 변화가 아니라 구체적이고 기록된 결단의 순간이었다.",
+  "lu-xun.interpretation.achievement.1":
+    "구체적이고 기록된 인생의 전환점에서 직접 비롯된, 객관적으로 평가 가능한 문학사적 최초의 성취는 프로필의 창의적 독창성(creative_originality) 점수를 뒷받침하는 구체적 사례다.",
+  "lu-xun.interpretation.turning_point.1":
+    "단 하나의 구체적 사건에서 곧바로 이어진 신속하고 기록된 전환은 프로필의 결단력(decisiveness) 점수의 근거다.",
+
+  "amelia-earhart.achievement.1":
+    "약 10년에 걸쳐 선구적이고 기록적인 비행을 잇따라 수행했다 — 1932년 대서양 단독 횡단, 1935년 하와이-캘리포니아 단독 비행, 그리고 1937년 세계 일주 시도가 여기에 포함된다 — 스미소니언 협회 자체의 비행 기록으로 뒷받침된다.",
+  "amelia-earhart.achievement.2":
+    "여성 조종사 단체인 나인티나인스(Ninety-Nines)를 공동 설립하고 초대 회장을 지냈으며, 이 단체는 그녀의 경력을 넘어 오랫동안 존속했다.",
+  "amelia-earhart.moment.1":
+    "비행과 더불어 활동적인 여성을 위한 실용적인 의류 브랜드를 직접 디자인했고, 자신의 비행 경험을 담은 책을 두 권 저술했다 — 그녀 자신의 사업과 저서 목록으로 확인된다.",
+  "amelia-earhart.moment.2":
+    "1937년 하와이에서의 이륙 사고로 첫 번째 세계 일주 시도가 좌절된 이후에도, 그녀는 재도전을 이어갔다.",
+  "amelia-earhart.turning_point.1":
+    "1928년 대서양 횡단 비행에 (처음에는 승객으로서) 참여할 기회를 포착했고, 이를 통해 얻은 명성을 독자적인 단독 비행 경력으로 발전시켰다.",
+  "amelia-earhart.interpretation.achievement.1":
+    "10년에 걸쳐 구체적으로 명명된 기록 비행이 연이어 기록된 것은 프로필의 성취 욕구(achievement_drive)와 위험 감수성(risk_tolerance) 점수의 근거다.",
+  "amelia-earhart.interpretation.turning_point.1":
+    "단 한 번의 기록된 기회를 독자적인 경력으로 전환시킨 것은 프로필의 기회 포착력(opportunity_sensing) 점수를 뒷받침하는 구체적 사례다.",
+
+  "zaha-hadid.achievement.1":
+    "2004년 프리츠커 건축상을 수상한 최초의 여성이 되었으며, 이는 그녀만의 독창적인 스타일을 명시적으로 인정한 수상 이유 자체로 뒷받침된다.",
+  "zaha-hadid.achievement.2":
+    "자하 하디드 건축사무소를 설립하고 이끌어 주요 국제적 건축사무소로 성장시켰으며, 40년에 걸친 경력 동안 거의 모든 대륙에 주요 건축물을 실현했다.",
+  "zaha-hadid.moment.1":
+    "경력 초기 약 10년 동안 실현된 건축물이 거의 없었고, 업계 내에서는 주로 지어지지 않은 공모전 당선작들을 통해 알려졌다.",
+  "zaha-hadid.moment.2":
+    "구조, 공간, 미학적 고려사항을 통합한 파라메트릭 디자인 원칙을 개발하고 통합된 전산 설계 시스템에 적용했다.",
+  "zaha-hadid.turning_point.1":
+    "수년간의 업계 회의론과 실현되지 못한 공모전 당선 속에서도 자신만의 독특한 디자인 접근 방식을 유지했으며, 이후 건축 기술이 그녀의 디자인이 요구하는 수준을 따라잡았다.",
+  "zaha-hadid.interpretation.achievement.1":
+    "완전한 건축 경력 전반에 걸쳐 드러나고 해당 분야 최고 권위의 상으로 인정받은 독자적 스타일은 프로필의 창의적 독창성(creative_originality) 점수의 근거다.",
+  "zaha-hadid.interpretation.turning_point.1":
+    "10년에 걸친 업계의 회의론 속에서도 지어지지 않은 디자인 비전을 지속시킨 것은 프로필의 지속성(persistence) 점수를 뒷받침하는 구체적 사례다.",
+
+  "jorge-luis-borges.achievement.1":
+    "이전 문학에 직접적인 전례가 없는 서사 장치 — 존재하지 않는 책에 대한 허구적 비평, 가장 유명하게는 『피에르 메나르, 『돈키호테』의 저자』(1939) — 를 창안했으며, 이는 이후 문학사에서 널리 모방된 토대적 혁신으로 인정받은 비평적 수용을 통해 확인된다.",
+  "jorge-luis-borges.achievement.2":
+    "1950년대 후반 완전히 실명한 이후로도 약 30년간 주요한 문학 경력을 이어갔으며, 점자를 배우지 않고 이후의 모든 작품을 구술로 작업했다.",
+  "jorge-luis-borges.achievement.3":
+    "1938년부터 1946년까지 미겔 카네 시립 도서관에 근무하는 동안 하루에 100권 이상의 책을 목록화했으며, 이후 국립 도서관에서는 지속적인 일일 구술-수정 의식을 유지했다 — 1966년 파리 리뷰 인터뷰어가 그의 집무실에서 직접 목격하고 기록했다.",
+  "jorge-luis-borges.moment.1":
+    "1952년, 그가 이끌던 문인 협회에서 페론의 초상화를 걸라는 경찰의 직접 명령을 거부했고, 이로 인해 협회는 강제 폐쇄되었으며 그 자신도 감시 대상이 되었다.",
+  "jorge-luis-borges.moment.2":
+    "1973년 페론이 권좌에 복귀한 바로 그 순간 국립 도서관장직을 사임했다 — 서로 다른 세 개의 별도 decade에 걸쳐 타협 대신 제도적 지위를 스스로 내려놓은 반복된 패턴 중 하나다.",
+  "jorge-luis-borges.turning_point.1":
+    "1976년 5월 한 오찬 자리에서 독재자 비델라를 '상당히 신사적인 인물'이라고 칭찬했으나, 1983년 10월 민주 선거 이후 그 입장을 공개적으로 철회했고, 1985년 군사정권 재판에 직접 참석하여 민주주의가 자신을 '멋지게 논박했다'고 기록했다.",
+  "jorge-luis-borges.interpretation.achievement.1":
+    "지속적인 비평적 수용을 통해 독립적으로 확인되는 토대적 문학 장치는 프로필의 창의적 독창성(creative_originality) 점수를 뒷받침하는 구체적 사례다.",
+  "jorge-luis-borges.interpretation.turning_point.1":
+    "단 한 번의 심경 변화가 아니라, 완전히 날짜가 확인되고 여러 단계를 거쳐 독립적으로 뒷받침되는 정치적 입장 전환은 프로필의 신념 갱신력(belief_updating) 점수의 근거다.",
+
+  "norman-borlaug.achievement.1":
+    "두 멕시코 재배지에 걸쳐 '셔틀 육종법'을 개발해 연간 육종 주기를 두 배로 늘렸고, 예상치 못했던 일장 둔감성의 발견으로 이어져 밀 품종 개발 기간을 10년에서 5년으로 단축시켰다.",
+  "norman-borlaug.achievement.2":
+    "1965년 왓츠 폭동에 휘말린 트럭들로 인해 파키스탄행 밀 수송이 지연되자 직접 개입했으며, NAS 회고록 자신의 표현을 빌리면 '여러 창의적인 조치'를 통해 밀을 선박에 실을 수 있도록 했다.",
+  "norman-borlaug.moment.1":
+    "그의 아내는 동료에게 60년의 결혼 생활 중 그가 '집에 있었던 것은 4년뿐'이었다고 말했다 — 수십 년간 두 개의 멕시코 연구소를 오가며 지낸 삶을 보여준다.",
+  "norman-borlaug.moment.2":
+    "91세의 나이에, 케냐의 줄기녹병 문제에 더 빠르게 대응하지 않으면 CIMMYT와의 관계를 끊겠다고 직접 위협했으며 — 그 위협은 실제로 결과를 이끌어냈다.",
+  "norman-borlaug.turning_point.1":
+    "환경운동 비판자들에게 직접 공개적으로 답했다: '그들 중 다수는 엘리트주의자들이다. 그들은 굶주림이라는 신체적 감각을 경험해본 적이 없다... 만약 그들이 개발도상국의 참상 속에서 단 한 달만이라도 살아본다면... 트랙터와 비료를 달라고 외치게 될 것이다.'",
+  "norman-borlaug.interpretation.achievement.1":
+    "실제 위기 상황에서 이루어진 구체적이고 날짜가 확인되는 물류적 개입은 프로필의 자원 활용력(resourcefulness) 점수의 근거다.",
+  "norman-borlaug.interpretation.turning_point.1":
+    "조직화된 반대 진영과의 지속적이고 직접적인 공개적 대립은 프로필의 갈등 감내력(conflict_tolerance) 점수를 뒷받침하는 구체적 사례다.",
+
+  "marie-tharp.achievement.1":
+    "자신의 지도 데이터를 바탕으로 대서양 중앙 해령 중심부를 따라 이어지는 열곡을 발견했고, 이를 대륙 이동설/해저 확장설의 직접적인 증거로 제시했다.",
+  "marie-tharp.achievement.2":
+    "브루스 히젠과 함께 수십 년간 개별 음향측심 자료를 손으로 직접 도면화한 끝에 세계 최초의 종합적인 해저 지형도를 공동 제작했다.",
+  "marie-tharp.moment.1":
+    "미 해군 규정에 따라 자료를 수집하는 실제 연구선에는 승선할 수 없었지만, 육상으로 전달받은 자료만으로 획기적인 지도를 완성해냈다.",
+  "marie-tharp.moment.2":
+    "그녀의 연구 파트너였던 브루스 히젠은 처음에 그녀의 열곡 해석을 '여자들 수다'라며 일축했으나, 이후 독립적으로 확인된 증거가 그녀가 옳았음을 입증했다.",
+  "marie-tharp.turning_point.1":
+    "자신의 협력자와 더 넓은 지질학계의 초기 거부에도 불구하고 해저 확장설 해석을 계속 옹호하고 정교화했으며, 결국 수년 뒤 그 이론은 인정받았다.",
+  "marie-tharp.interpretation.achievement.1":
+    "서로 다른 수심 단면과 지진 진앙 데이터를 정확하게 교차 대조하여 주요 지질학적 특징을 확인한 것은 프로필의 분석적 엄밀성(analytical_rigor) 점수의 근거다.",
+  "marie-tharp.interpretation.turning_point.1":
+    "가까운 협력자의 직접적인 초기 거부 속에서도 올바른 과학적 해석을 지속시킨 것은 프로필의 지속성(persistence) 점수를 뒷받침하는 구체적 사례다.",
+
+  "jean-jacques-rousseau.achievement.1":
+    "『고백록』은 문학·철학 학계에서 최초의 진정한 근대적 자서전 중 하나로 널리 인정받고 있다.",
+  "jean-jacques-rousseau.achievement.2":
+    "『사회계약론』과 『인간 불평등 기원론』은 문명과 진보에 관한 당대 계몽주의의 통념에 직접 도전하며, 사회 그 자체가 인간의 타고난 선함을 타락시킨다고 주장했다.",
+  "jean-jacques-rousseau.moment.1":
+    "『에밀』과 『사회계약론』은 모두 금서로 지정되어 공개적으로 불태워졌으며, 그는 체포 위협 속에 프랑스와 이후 스위스에서도 도피해야 했다.",
+  "jean-jacques-rousseau.moment.2":
+    "볼테르와 디드로를 포함한 계몽주의 시대의 주요 동시대인들과 공개적으로 불화하며 오랜 개인적 갈등을 겪었다 — 이는 그들 사이에 남아 있는 서신과 공개적 논쟁을 통해 확인된다.",
+  "jean-jacques-rousseau.turning_point.1":
+    "철학, 음악 이론, 그리고 말년의 식물학에 이르기까지 대체로 독학으로 익혔으며, 어떤 정규 교육도 받지 않은 채 오페라를 작곡하고 음악 이론서를 저술했다.",
+  "jean-jacques-rousseau.interpretation.achievement.1":
+    "학계로부터 한 장르를 창시한 것으로 인정받는 작품은 프로필의 창의적 독창성(creative_originality) 점수의 근거다.",
+  "jean-jacques-rousseau.interpretation.turning_point.1":
+    "어떤 정규 기관도 거치지 않은, 지속적이고 기록된 폭넓은 독학은 프로필의 호기심(curiosity) 점수를 뒷받침하는 구체적 사례다.",
+
+  "al-biruni.achievement.1":
+    "천문학, 수학, 지리학, 측지학, 광물학, 역사학, 비교종교학에 이르기까지 실질적인 독창적 저작을 남겼으며, 이는 진정으로 서로 다른 7개 분야에 걸친 약 146편의 현존하는 저작 목록을 통해 확인된다.",
+  "al-biruni.achievement.2":
+    "알려진 산의 높이로부터 수평선의 처짐 각도를 측정하는, 구체적이고 방법론적으로 엄밀한 기법을 이용해 지구의 반지름을 계산했다 — 이 방법은 오늘날에도 측지학사에서 인용되고 있다.",
+  "al-biruni.moment.1":
+    "『인도지』 집필을 위해 인도의 1차 자료에 직접 접근하고자 번역에 의존하는 대신 산스크리트어를 따로 배웠다.",
+  "al-biruni.moment.2":
+    "이븐 시나와 실제로 주고받은 서신(약 998년경)에는 그가 이븐 시나의 아리스토텔레스적 물리학에 맞서 독자적인 데모크리토스적 입장을 두 차례에 걸친 예리한 반론을 통해 지속적으로 견지했으며, 이븐 시나의 답변 대부분에 만족하지 못했다고 기록되어 있다.",
+  "al-biruni.turning_point.1":
+    "1017년 가즈나 왕조의 화레즘 정복 이후 마흐무드 가즈나비의 궁정으로 — 여러 기록에 따르면 문자 그대로 사슬에 묶인 전쟁 포로로 — 끌려갔으나, 이후 학문적 자원을 제공받아 자신을 포로로 잡았던 바로 그 궁정 아래에서 『인도지』를 포함한 주요 저작을 남겼다.",
+  "al-biruni.interpretation.achievement.1":
+    "진정으로 서로 다른 일곱 개 분야에 걸친 약 146편의 현존하는 저작 목록은 프로필의 분야 횡단성(cross_domain_range) 점수를 뒷받침하는 구체적 사례다.",
+  "al-biruni.interpretation.turning_point.1":
+    "강압적인 상황 속에서도 이루어진 주요 학문적 성과는, 극심한 제약과 그 안에서 발휘된 진정한 회복력을 동시에 보여주는 기록된 사례로, 프로필의 양면적인 적응력(adaptability) 점수와 부합한다.",
+
+  "hedy-lamarr.achievement.1":
+    "작곡가 조지 앤타일과 함께 1942년 특허를 받은 주파수 도약 확산 스펙트럼 통신 시스템을 공동 개발했으며, 이는 훗날 와이파이, GPS, 블루투스의 기반이 되는 확산 스펙트럼 기술의 토대가 되었다.",
+  "hedy-lamarr.achievement.2":
+    "정규 공학 교육을 전혀 받지 않은 채, 할리우드 연기 경력을 이어가면서 동시에 독자적으로 진지한 기술 발명 작업을 병행했다.",
+  "hedy-lamarr.moment.1":
+    "주파수 도약 메커니즘의 핵심 아이디어를 자동 연주 피아노의 동기화 원리에서 얻었다 — 특허 자체의 구체적인 기술적 유래를 통해 확인되는, 이례적인 발상의 전환이었다.",
+  "hedy-lamarr.moment.2":
+    "라마와 앤타일의 주파수 도약 특허는 1942년에 실제로 등록되었지만, 당시 미 해군은 제안된 구현 방식이 실용적이지 않다고 보고 이 시스템을 채택하지 않았다.",
+  "hedy-lamarr.turning_point.1":
+    "전쟁이 다가오던 오스트리아에서 통제적이었던 첫 번째 결혼 생활을 벗어나, 할리우드에서 완전히 새로운 경력과 삶을 다시 일구었다.",
+  "hedy-lamarr.interpretation.achievement.1":
+    "수년에 걸쳐 병행된, 진정으로 서로 다른 두 개의 실질적 성과 영역 — 연기와 발명 — 은 프로필의 분야 횡단성(cross_domain_range) 점수의 근거다.",
+  "hedy-lamarr.interpretation.turning_point.1":
+    "통제적인 상황을 벗어나 해외에서 삶을 다시 세우기로 한, 기록된 중대한 인생의 결정은 프로필의 위험 감수성(risk_tolerance)과 적응력(adaptability) 점수를 뒷받침하는 구체적 사례다.",
+
+  "rosa-parks.achievement.1":
+    "1955년 인종분리가 시행되던 앨라배마주 몽고메리에서 백인 승객에게 버스 좌석을 양보하기를 거부해 체포되었다 — 실제로 현실화된 개인적 법적·사회적 위험을 수반한, 광범위하게 기록된 구체적 행동이다.",
+  "rosa-parks.achievement.2":
+    "1955년 체포되기 전, 1943년부터 1957년까지 10년 넘게 몽고메리 NAACP 지부 서기로 재직했으며, 1944년 레시 테일러 집단 강간 사건에 대한 NAACP 조사를 직접 수행하기도 했다.",
+  "rosa-parks.moment.1":
+    "그녀 자신의 자서전은 널리 퍼진 '다리가 아파서'라는 통념을 직접 바로잡으며, 그녀의 거부가 순간의 신중한 결정이었다고 밝힌다: 그녀는 '더 이상 굽히는 데 지쳤다'고 말했다.",
+  "rosa-parks.moment.2":
+    "1987년 로자 앤드 레이먼드 파크스 자기계발 연구소를 공동 설립하며, 그녀를 전국적으로 알린 사건 이후 수십 년이 지나서도 조직 활동을 이어갔다.",
+  "rosa-parks.turning_point.1":
+    "1955년 이후에도 수십 년간 시민권 운동을 이어갔으며, 몽고메리에서의 일자리를 잃고 지속적인 위협에 직면한 뒤 디트로이트로 이주해 그 중대한 삶의 단절 속에서도 자신의 활동 방향을 조정해나갔다.",
+  "rosa-parks.interpretation.achievement.1":
+    "그녀를 유명하게 만든 체포 사건보다 몇 년 앞서 이루어진, 강력범죄에 대한 구체적인 사실 조사 활동은 프로필의 세부 지향성(detail_orientation) 점수의 근거다.",
+  "rosa-parks.interpretation.turning_point.1":
+    "중대하고 파괴적인 삶의 변화 이후에도 조직적 활동을 이어간 것은 프로필의 적응력(adaptability) 점수를 뒷받침하는 구체적 사례다.",
+
+  "ken-saro-wiwa.achievement.1":
+    "활동가로 전향하기 전, 출간된 소설가이자 인기 나이지리아 텔레비전 시리즈 『바시 앤 컴퍼니』의 제작자로서 성공적인 경력을 쌓았다.",
+  "ken-saro-wiwa.achievement.2":
+    "1990년 오고니족생존운동(MOSOP)을 창설했고, 1993년 1월 추산 30만 명이 참여한 시위를 조직했다 — 구체적이고 매우 잘 기록된 대규모 동원 사례다.",
+  "ken-saro-wiwa.moment.1":
+    "나이지리아 군사 정부와 강력한 다국적 기업인 셸 석유회사 양쪽 모두와 수년에 걸쳐 동시에 직접적인 대립을 이어간 기록이 남아 있다.",
+  "ken-saro-wiwa.moment.2":
+    "1995년 처형되기 직전 남긴 마지막 말은 '투쟁'에 대한 지속적인 헌신을 기록으로 확인해준다.",
+  "ken-saro-wiwa.turning_point.1":
+    "여러 차례의 체포와 점점 강화되는 정부의 압박 속에서도 MOSOP을 조직하고 이끄는 활동을 계속했으며, 정치적 동기가 있다고 널리 여겨지는 재판과 처형에 이르기까지 이를 멈추지 않았다.",
+  "ken-saro-wiwa.interpretation.achievement.1":
+    "활동가가 되기 전 뚜렷이 구별되는 창작·미디어 분야에서 이룬 진정한 성취는 프로필의 분야 횡단성(cross_domain_range) 점수의 근거다.",
+  "ken-saro-wiwa.interpretation.turning_point.1":
+    "5년에 걸쳐 여러 차례 독립적으로 기록된 위험 감수 사례는 프로필의 위험 감수성(risk_tolerance) 점수를 뒷받침하는 구체적 패턴이다.",
+
+  "bob-marley.achievement.1":
+    "약 10년간의 메이저 레이블 활동 기간 동안 『캐치 어 파이어』, 『내티 드레드』, 『엑소더스』 등 상당한 분량의 독자적인 작곡 카탈로그를 구축했으며, 이는 이 작품군에 대한 지속적인 비평적·상업적 반응을 통해 확인된다.",
+  "bob-marley.achievement.2":
+    "레게를 자메이카 지역 음악 장르에서 세계적인 주류 장르로 자리매김시키는 데 크게 기여했다고 평가받으며, 이는 그의 음악 카탈로그가 얻은 지속적인 국제적 상업적·비평적 반응을 통해 확인된다.",
+  "bob-marley.moment.1":
+    "1978년 4월 원 러브 평화 콘서트에서 자메이카의 대립하는 정치 지도자인 마이클 맨리와 에드워드 시가를 무대 위로 불러 올려 공연 도중 그들의 손을 맞잡아 머리 위로 들어 올렸다.",
+  "bob-marley.moment.2":
+    "1977년 자신의 종교적 신념과 관련된 이유로 암에 걸린 발가락의 권고된 절단을 처음에는 거부했으며, 암이 상당히 진행될 때까지 자신의 방식대로 공연과 투어를 계속했다.",
+  "bob-marley.turning_point.1":
+    "1976년 12월, 자신과 아내, 매니저에게 부상을 입힌 자택 암살 시도에서 살아남은 지 이틀 만에 '스마일 자메이카' 평화 콘서트에서 공연을 계속했다.",
+  "bob-marley.interpretation.achievement.1":
+    "여러 차례에 걸쳐 별도로 발매된 앨범들로 이루어진 지속적인 카탈로그는 프로필의 창의적 독창성(creative_originality) 점수의 근거다.",
+  "bob-marley.interpretation.turning_point.1":
+    "직접적이고 최근에 실현된 신변의 위험 속에서도 공연을 계속한 것은 프로필의 위험 감수성(risk_tolerance) 점수를 뒷받침하는 구체적 사례다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

@@ -88,7 +88,11 @@ describe("session 16 audit: frozen production evidence is exactly what this audi
     const borges = JSON.parse(
       readFileSync(join(CANDIDATES_DIR, "jorge-luis-borges.json"), "utf8"),
     ) as Candidate;
-    expect(borges.status).toBe("held");
+    // Roster27 fast-batch audit (2026-09) moved status held -> evidence_approved
+    // (docs/checkpoints/roster27-twelve-person-fast-batch.md) after a
+    // publication audit that touched no row's score/confidence/evidenceType
+    // — the frozen row content this test actually guards is unchanged below.
+    expect(borges.status).toBe("evidence_approved");
     expect(Object.keys(borges.rows)).toHaveLength(16);
     expect(borges.rows.decisiveness?.score).toBe(66);
     expect(borges.rows.decisiveness?.confidence).toBe(0.42);

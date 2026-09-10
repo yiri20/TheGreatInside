@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "norman-borlaug",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Norman Borlaug",
     "wikidataId": "Q154824",
@@ -16,9 +16,9 @@
   "classification": {
     "occupationIds": ["scientist", "agronomist"],
     "fieldIds": ["natural_science", "agriculture"],
-    "impactDomains": ["scientific", "humanitarian"],
+    "impactDomains": ["scientific", "social"],
     "tagIds": ["nobel_laureate", "prolific"],
-    "archetypeIds": ["scientific_explorer", "resilient_builder"],
+    "archetypeIds": ["scientific_explorer", "entrepreneurial_builder"],
     "newTagProposals": []
   },
   "sources": [
@@ -43,18 +43,18 @@
   ],
   "rows": {
     "persistence": {
-      "score": 90,
+      "score": 80,
       "confidence": 0.68,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Phillips's NAS memoir documents Borlaug persisting with the 'shuttle breeding' technique across two Mexican sites despite colleagues believing the approach could not work, because it let him double breeding cycles per year -- a specific, dated methodological persistence that paid off unexpectedly (discovery of daylength insensitivity)."
+      "rationale": "RUBRIC_CORRECTION (roster27 fast-batch audit, 2026-09; score-band correction only): Phillips's NAS memoir documents Borlaug persisting with the 'shuttle breeding' technique across two Mexican sites despite colleagues believing the approach could not work, because it let him double breeding cycles per year -- a specific, dated methodological persistence that paid off unexpectedly (discovery of daylength insensitivity). Originally scored 90/documented; corrected to 80 because this rests on one continuous methodological choice, not multiple independent instances, per Section 4's 85+ requirement. Score-band correction only: evidenceType and confidence unchanged."
     },
     "achievement_drive": {
-      "score": 92,
+      "score": 80,
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Documented working the field from before daylight until after dusk breeding thousands of wheat lines (NAS memoir, direct quote from a colleague who worked with him at Minnesota), sustained across decades, corroborated by the encyclopedia's account of the shuttle-breeding program reducing development time from a decade to five years."
+      "rationale": "RUBRIC_CORRECTION (roster27 fast-batch audit, 2026-09; score-band correction only): documented working the field from before daylight until after dusk breeding thousands of wheat lines (NAS memoir, direct quote from a colleague who worked with him at Minnesota), sustained across decades, corroborated by the encyclopedia's account of the shuttle-breeding program reducing development time from a decade to five years. Originally scored 92/documented; corrected to 80 because this describes one continuous work pattern (corroborated by two sources describing the same pattern, not separate instances), per Section 4's 85+ requirement for multiple independent instances. Score-band correction only: evidenceType and confidence unchanged."
     },
     "conflict_tolerance": {
       "score": 72,
@@ -148,11 +148,22 @@
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
   },
-  "holdReason": "Validator output (mechanical, not adjusted): 14 scored attributes against the 18-attribute floor, 0.426 coverage against 0.6, only 8 attributes at confidence>=0.5 against the 12-attribute floor. Ties with Pauling for the most attributes scored among the eight roster-18 candidates, but still short of the production floor. Held, not rescued.",
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/norman-borlaug-usaid-2004.jpg",
+    "width": 571,
+    "height": 809,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (US federal government work — USAID official photograph)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Norman_Borlaug,_2004_(cropped).jpg",
+    "attribution": "Photograph by Ben Zinner, USAID, 2004",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Norman_Borlaug,_2004_(cropped).jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q154824) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Phillips, 2013) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger built before scoring: shuttle-breeding persistence against colleague skepticism, half-a-year-away-from-home discipline (wife's quoted remark), Watts-riots wheat-shipment resourcefulness, direct confrontation with environmentalist critics, age-91 CIMMYT funding ultimatum, DuPont-to-wartime-research pivot, biotechnology skepticism-to-advocacy reversal."
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q154824) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Phillips, 2013) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger built before scoring: shuttle-breeding persistence against colleague skepticism, half-a-year-away-from-home discipline (wife's quoted remark), Watts-riots wheat-shipment resourcefulness, direct confrontation with environmentalist critics, age-91 CIMMYT funding ultimatum, DuPont-to-wartime-research pivot, biotechnology skepticism-to-advocacy reversal. Roster27 fast-batch audit (2026-09): mechanical row scan found two extremity violations -- persistence (90) and achievement_drive (92) both rested on one continuous work pattern/technique rather than multiple independent instances; corrected to 80/80, evidenceType/confidence unchanged (see row rationales). impact_motivation (88) was checked and is NOT a violation -- it cites two separately-occurring quoted statements (Nobel lecture text and mural inscription). Also found two metadata errors: impactDomains \"humanitarian\" (not in IMPACT_DOMAINS) corrected to \"social\"; archetypeIds \"resilient_builder\" (not in ARCHETYPE_IDS) corrected to \"entrepreneurial_builder\" -- metadata fixes, no scoring touched. Held only for scored-attribute-count/coverage (14 attributes, coverage 0.426, ties with Pauling for richest of the roster-18 batch but still short) -- moved to evidence_approved; eligibility-only holdReason removed, computedEligibility preserved unchanged (score corrections don't affect scoredAttributeCount/coverage/averageConfidence)."
   }
 }

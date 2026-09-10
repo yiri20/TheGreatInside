@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "marie-tharp",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Marie Tharp",
     "wikidataId": "Q538786",
@@ -50,11 +50,11 @@
   ],
   "rows": {
     "detail_orientation": {
-      "score": 90,
+      "score": 80,
       "confidence": 0.68,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Hand-plotted tens of thousands of individual sonar depth soundings into detailed physiographic maps of the ocean floor over years, documented via the well-established scale and precision of her mapping work with Bruce Heezen."
+      "rationale": "RUBRIC_CORRECTION (roster27 fast-batch audit, 2026-09; score-band correction only): hand-plotted tens of thousands of individual sonar depth soundings into detailed physiographic maps of the ocean floor over years, documented via the well-established scale and precision of her mapping work with Bruce Heezen. Originally scored 90/documented; corrected to 80 because this describes one continuous multi-year cartographic project, not multiple independent instances, per Section 4's 85+ requirement. Score-band correction only: evidenceType and confidence unchanged."
     },
     "independent_thinking": {
       "score": 84,
@@ -190,11 +190,22 @@
       "rationale": "Her specific technique of cross-referencing depth-profile and earthquake data to reveal the mid-ocean rift valley was a genuinely original analytical approach, documented via its foundational role in confirming plate tectonics."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/marie-tharp-aip-1968.jpg",
+    "width": 1561,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bruce_Heezen_and_Marie_Tharp_working_with_fathometer_record.jpg",
+    "attribution": "AIP Emilio Segrè Visual Archives, Gift of Bill Woodward, USNS Kane Collection, 1968",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bruce_Heezen_and_Marie_Tharp_working_with_fathometer_record.jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: 20th_century, north_america, oceanography/cartography domain not represented anywhere in the current roster. Her exclusion from the actual research vessels (Navy policy barred women) is itself well-documented, directly relevant context for the resourcefulness score rather than incidental biographical color."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.535 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+    "notes": "Third-batch diversity pick: 20th_century, north_america, oceanography/cartography domain not represented anywhere in the current roster. Her exclusion from the actual research vessels (Navy policy barred women) is itself well-documented, directly relevant context for the resourcefulness score rather than incidental biographical color. Roster27 fast-batch audit (2026-09): mechanical row scan found one extremity violation -- detail_orientation (90) rested on one continuous multi-year cartographic project rather than multiple independent instances; corrected to 80, evidenceType/confidence unchanged (see row rationale). independent_thinking (84) was checked and is under the 85 threshold, no violation. Metadata already valid. Held only for a confidence-floor miss (avgConf 0.535 vs 0.55, after two genuine remediation rounds) — moved to evidence_approved; eligibility-only holdReason removed."
+  }
 }

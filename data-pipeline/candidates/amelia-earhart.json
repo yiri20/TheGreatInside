@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "amelia-earhart",
-  "status": "held",
-  "holdReason": "Confidence ceiling: her documented public record is overwhelmingly about flight outcomes and records rather than personal working style, so most trait inferences sit at the 'strong_inference' tier rather than 'documented.' After two remediation passes (12 -> 20 scored attributes, coverage now comfortably clears 0.6), average confidence (0.501) still falls meaningfully short of the 0.55 floor; closing the remaining gap would require either implausibly many further additions or inflating existing entries past what the source material supports.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Amelia Earhart",
     "wikidataId": "Q3355",
@@ -19,7 +18,7 @@
     "fieldIds": ["aviation"],
     "impactDomains": ["historical", "cultural"],
     "tagIds": ["founder", "overcame_adversity"],
-    "archetypeIds": ["visionary_pioneer"]
+    "archetypeIds": ["scientific_explorer"]
   },
   "sources": [
     { "id": "src_earhart_wikipedia", "kind": "wikipedia", "title": "Amelia Earhart", "url": "https://en.wikipedia.org/wiki/Amelia_Earhart" },
@@ -47,10 +46,22 @@
     "cross_domain_range": { "score": 60, "confidence": 0.44, "evidenceType": "documented", "impact": "advantage", "rationale": "Sustained parallel work across flying, public lecturing, and published writing (her books '20 Hrs., 40 Min.' and 'The Fun of It'), documented via her own bibliography." },
     "mastery_orientation": { "score": 58, "confidence": 0.42, "evidenceType": "strong_inference", "impact": "neutral", "rationale": "Continued pursuing progressively more technically demanding flights (Atlantic solo, then Pacific solo, then round-the-world) across roughly a decade rather than repeating an early success." }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/amelia-earhart-smithsonian-1937.jpg",
+    "width": 689,
+    "height": 926,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (published in the US 1931-1977 without copyright notice)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
+    "attribution": "Underwood & Underwood, 1937 — National Portrait Gallery, Smithsonian Institution",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Second-batch diversity pick: 20th_century, north_america, aviation/exploration domain not represented anywhere in the current roster — completes the planned 30-candidate batch. Risk_tolerance grounded in a specific, well-documented sequence of named flights rather than a general 'daring' characterization."
+    "notes": "Second-batch diversity pick: 20th_century, north_america, aviation/exploration domain not represented anywhere in the current roster — completes the planned 30-candidate batch. Risk_tolerance grounded in a specific, well-documented sequence of named flights rather than a general 'daring' characterization. Roster27 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch, no unsupported extremity (risk_tolerance 90 rests on three genuinely separate named flights spanning 1932-1937, satisfying the rubric's multi-instance bar for an 85+ score), and one invalid archetypeId (\"visionary_pioneer\", not in ARCHETYPE_IDS) corrected to \"scientific_explorer\" — a metadata fix, no scoring touched. Held only for a confidence-floor miss (documented public record is overwhelmingly about flight outcomes rather than personal working style, keeping most rows at strong_inference; avgConf 0.501 vs 0.55 after two remediation passes raised scored attributes 12->20) — moved to evidence_approved; eligibility-only holdReason removed."
   }
 }

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "hedy-lamarr",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Hedy Lamarr",
     "wikidataId": "Q49034",
@@ -86,7 +86,7 @@
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Pursued serious technical invention work as a famous film actress at a time when this combination was virtually unprecedented and not taken seriously by the military patent office that received it, documented via the well-established, initially dismissive reception of her 1942 patent."
+      "rationale": "ERROR_CORRECTION (post-PR26-review, 2026-09; factual wording only, no score/confidence/evidenceType change): pursued serious technical invention work as a famous film actress at a time when this combination was virtually unprecedented. The resulting frequency-hopping patent (US Patent No. 2,292,387) was granted in 1942, but the U.S. Navy declined to adopt the proposed system at the time, considering the implementation impractical -- corrected from an earlier draft that inaccurately described the patent as dismissed/rejected by a 'military patent office'; the patent was in fact granted by the (separate, civilian) US Patent Office, and it was the Navy's later non-adoption decision, not any rejection, that is actually documented."
     },
     "proactive_agency": {
       "score": 68,
@@ -201,11 +201,22 @@
       "rationale": "Directed her own independent technical project (recruiting Antheil as a specific collaborator) rather than working within an institutional research team, suggesting a modest but real self-directing capacity."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hedy-lamarr-extase-1933.jpg",
+    "width": 1036,
+    "height": 618,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (anonymous author, EU copyright term expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hedy_Kiesler_1933.jpg",
+    "attribution": "Still from Extase (Czechoslovakia, 1933), anonymous photographer — Czech National Digital Library",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hedy_Kiesler_1933.jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: 20th_century, western_europe (Austrian-born, US career), a genuinely dual film/invention domain profile not represented elsewhere in the roster. Her formal, widely-reported recognition as an inventor came largely posthumously (decades after the 1942 patent), a real, documented instance of delayed recognition."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.504 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+    "notes": "Third-batch diversity pick: 20th_century, western_europe (Austrian-born, US career), a genuinely dual film/invention domain profile not represented elsewhere in the roster. Her formal, widely-reported recognition as an inventor came largely posthumously (decades after the 1942 patent), a real, documented instance of delayed recognition. Roster27 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch, no unsupported extremity (max score 88, cross_domain_range, which cites two genuinely distinct sustained career tracks — acting and invention — not a single instance), and metadata already valid. No correction needed; portrait added. Held only for a confidence-floor miss (avgConf 0.504 vs 0.55, after two remediation rounds) — moved to evidence_approved; eligibility-only holdReason removed. Post-PR26-review focused correction pass (2026-09): the independent_thinking row's rationale inaccurately described the 1942 patent as dismissively rejected by a 'military patent office' — corrected (ERROR_CORRECTION) to the accurate sequence (patent granted 1942 by the US Patent Office; the Navy separately declined to adopt the system as impractical). No score/confidence/evidenceType/impact/eligibility changed."
+  }
 }

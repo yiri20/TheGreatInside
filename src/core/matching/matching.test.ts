@@ -255,13 +255,16 @@ describe("confidence and missing data", () => {
     // now falls below the 0.6 coverage floor (0.53). This is a confirmed,
     // evidence-driven migration result, not a threshold change: no score
     // was manufactured and ELIGIBILITY.minCoverage is untouched.
-    // Also non-eligible by design (roster24/25/26, unrelated to
+    // Also non-eligible by design (roster24/25/26/27, unrelated to
     // taxonomy_v1.1): Giuseppe Garibaldi, Anton Chekhov (roster24), Vera
     // Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, Isabella Bird
     // (roster25), Fidel Castro, Jawaharlal Nehru, Ho Chi Minh, Salvador
     // Allende, Corazon Aquino, Muhammad Ali Jinnah, Nawal El Saadawi, Puyi,
-    // King Hussein of Jordan (roster26) — see the profile-publication/
-    // match-eligibility separation test above for the full rationale.
+    // King Hussein of Jordan (roster26), Lu Xun, Amelia Earhart, Zaha Hadid,
+    // Jorge Luis Borges, Norman Borlaug, Marie Tharp, Jean-Jacques Rousseau,
+    // Al-Biruni, Hedy Lamarr, Rosa Parks, Ken Saro-Wiwa, Bob Marley
+    // (roster27) — see the profile-publication/match-eligibility separation
+    // test above for the full rationale.
     const knownNonEligible = new Set([
       "zheng-he",
       "giuseppe-garibaldi",
@@ -279,6 +282,18 @@ describe("confidence and missing data", () => {
       "nawal-el-saadawi",
       "puyi",
       "king-hussein-jordan",
+      "lu-xun",
+      "amelia-earhart",
+      "zaha-hadid",
+      "jorge-luis-borges",
+      "norman-borlaug",
+      "marie-tharp",
+      "jean-jacques-rousseau",
+      "al-biruni",
+      "hedy-lamarr",
+      "rosa-parks",
+      "ken-saro-wiwa",
+      "bob-marley",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -472,14 +487,18 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
     // Deliberately non-match-eligible by design, not a regression: Zheng He
     // (pre-existing) plus Giuseppe Garibaldi, Anton Chekhov (roster24), Vera
     // Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, and Isabella Bird
-    // (roster25), and Fidel Castro, Jawaharlal Nehru, Ho Chi Minh, Salvador
+    // (roster25), Fidel Castro, Jawaharlal Nehru, Ho Chi Minh, Salvador
     // Allende, Corazon Aquino, Muhammad Ali Jinnah, Nawal El Saadawi, Puyi,
-    // and King Hussein of Jordan (roster26) — all evidence_approved,
+    // and King Hussein of Jordan (roster26), and Lu Xun, Amelia Earhart,
+    // Zaha Hadid, Jorge Luis Borges, Norman Borlaug, Marie Tharp,
+    // Jean-Jacques Rousseau, Al-Biruni, Hedy Lamarr, Rosa Parks,
+    // Ken Saro-Wiwa, and Bob Marley (roster27) — all evidence_approved,
     // published, directory-visible, honestly under eligibility_v2's
     // attribute-count/coverage floors; see
     // docs/checkpoints/roster24-evidence-approved-publications.md,
-    // docs/checkpoints/roster25-fast-production-batch.md, and
-    // docs/checkpoints/roster26-ten-person-fast-batch.md.
+    // docs/checkpoints/roster25-fast-production-batch.md,
+    // docs/checkpoints/roster26-ten-person-fast-batch.md, and
+    // docs/checkpoints/roster27-twelve-person-fast-batch.md.
     const knownNonEligible = new Set([
       "zheng-he",
       "giuseppe-garibaldi",
@@ -497,6 +516,18 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "nawal-el-saadawi",
       "puyi",
       "king-hussein-jordan",
+      "lu-xun",
+      "amelia-earhart",
+      "zaha-hadid",
+      "jorge-luis-borges",
+      "norman-borlaug",
+      "marie-tharp",
+      "jean-jacques-rousseau",
+      "al-biruni",
+      "hedy-lamarr",
+      "rosa-parks",
+      "ken-saro-wiwa",
+      "bob-marley",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

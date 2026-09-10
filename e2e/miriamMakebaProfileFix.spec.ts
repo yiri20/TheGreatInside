@@ -25,7 +25,7 @@ import { captureConsole } from "./utils/visualChecks";
  * different things.
  */
 
-test("people directory default (unfiltered) view shows exactly 142 people, and Miriam Makeba appears exactly once (en-US)", async ({
+test("people directory default (unfiltered) view shows exactly 154 people, and Miriam Makeba appears exactly once (en-US)", async ({
   page,
 }) => {
   const console_ = captureConsole(page);
@@ -48,8 +48,11 @@ test("people directory default (unfiltered) view shows exactly 142 people, and M
   // (roster26 ten-person fast batch: Che Guevara, Fidel Castro,
   // Jawaharlal Nehru, Ho Chi Minh, Salvador Allende, Corazon Aquino,
   // Muhammad Ali Jinnah, Nawal El Saadawi, Puyi, King Hussein of Jordan —
-  // all ten directory-visible).
-  await expect(page.getByText(/^142 people$/)).toBeVisible();
+  // all ten directory-visible), then 142->154 (roster27 twelve-person fast
+  // batch: Lu Xun, Amelia Earhart, Zaha Hadid, Jorge Luis Borges, Norman
+  // Borlaug, Marie Tharp, Jean-Jacques Rousseau, Al-Biruni, Hedy Lamarr,
+  // Rosa Parks, Ken Saro-Wiwa, Bob Marley — all twelve directory-visible).
+  await expect(page.getByText(/^154 people$/)).toBeVisible();
 
   const cards = page.locator('a.tgi-personcard__link[href="/en-US/people/miriam-makeba"]');
   await expect(cards).toHaveCount(1);
