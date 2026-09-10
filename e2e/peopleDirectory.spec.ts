@@ -460,7 +460,13 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // of the other 5 new people score both attributes highly enough. This
   // is a real, honest addition to the filtered set, raising the count
   // from 5 to 6 -- not something corrected by adjusting her score.
-  expect(bodyText).toMatch(/전체\s*133명\s*중\s*6명/);
+  // Total updated again 133->143 (roster26 ten-person fast batch: 10 new
+  // people). Verified directly against the real traitScoreGroups z-score
+  // filter: none of the 10 new people cross both the curiosity>=72 and
+  // collaboration>=73 thresholds simultaneously (closest are Jawaharlal
+  // Nehru, curiosity 74 but collaboration only 68, and Puyi, curiosity 70
+  // -- just under the threshold), so the filtered count of 6 is unchanged.
+  expect(bodyText).toMatch(/전체\s*143명\s*중\s*6명/);
   expect(bodyText).toContain("베라 루빈");
 });
 

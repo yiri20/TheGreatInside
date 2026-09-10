@@ -3064,6 +3064,157 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Acting despite documented fear, rather than in its absence, is the basis for the profile's risk_tolerance score being scored dual-edged.",
   "isabella-bird.interpretation.turning_point.1":
     "An atypical, documented positive response to changed circumstances is consistent with the profile's adaptability score.",
+
+  /* ---------------------------------------------------------- roster26 */
+  "che-guevara.achievement.1":
+    "Completed full medical training at the University of Buenos Aires while also undertaking an extended, largely unplanned motorcycle journey across South America as a student, rather than following a conventional academic timeline.",
+  "che-guevara.achievement.2":
+    "Authored La Guerra de Guerrillas (1961), a systematic guerrilla-warfare manual setting out doctrine in structured form, drawing on his own command experience in the Cuban campaign.",
+  "che-guevara.moment.1":
+    "At a leper colony in San Pablo, Peru, during the 1952 journey, he insisted on shaking hands with patients without gloves, against the colony's prevailing protocol — recorded in his own Motorcycle Diaries.",
+  "che-guevara.moment.2":
+    "His 1965 farewell letter to Fidel Castro, read publicly by Castro, explicitly renounced his senior Cuban government positions and citizenship to continue the revolutionary struggle elsewhere.",
+  "che-guevara.turning_point.1":
+    "After the 1965 Congo campaign's documented failure — which his own Congo Diary describes with unusual self-criticism — he moved directly into planning and launching the Bolivia campaign rather than withdrawing from armed struggle.",
+  "che-guevara.interpretation.achievement.1":
+    "Two genuinely distinct, real-output domains (medicine and an extended self-directed journey) pursued in parallel are consistent with the profile's cross_domain_range and mastery_orientation scores.",
+  "che-guevara.interpretation.turning_point.1":
+    "Continuing into a second, even more difficult campaign immediately after a documented, self-acknowledged defeat is the specific instance behind the profile's persistence score.",
+
+  "fidel-castro.achievement.1":
+    "After his invasion force was nearly annihilated at Alegría de Pío in 1956 (only around 20 of 82 men survived), rebuilt a guerrilla campaign from the Sierra Maestra mountains over two years to eventual victory in 1959.",
+  "fidel-castro.achievement.2":
+    "His trial defense speech after the 1953 Moncada Barracks attack, later reconstructed and published as History Will Absolve Me, transformed a legal defeat into a lasting political rallying document.",
+  "fidel-castro.moment.1":
+    "Personally led the 1953 Moncada Barracks attack and the 1956 Granma landing, each under severe, sustained, well-documented personal danger.",
+  "fidel-castro.moment.2":
+    "Survived multiple documented CIA assassination plots against him, later detailed in the US Senate Church Committee's declassified 1975 report.",
+  "fidel-castro.turning_point.1":
+    "Did not publicly declare Marxism-Leninism until after the revolution's military success in 1959 — a documented and historically debated strategic sequencing, not a stated doctrine from the outset.",
+  "fidel-castro.interpretation.achievement.1":
+    "A well-corroborated recovery from a single near-total defeat to eventual victory is the specific instance behind the profile's persistence score.",
+  "fidel-castro.interpretation.turning_point.1":
+    "Waiting until after military victory to declare an ideology already privately held is consistent with the profile's independent_thinking score.",
+
+  "jawaharlal-nehru.achievement.1":
+    "Wrote The Discovery of India in roughly five months during his 1944 imprisonment, without research-assistant support.",
+  "jawaharlal-nehru.achievement.2":
+    "Co-founded the Non-Aligned Movement with Nasser and Tito, a foreign-policy stance deliberately positioned outside both Cold War blocs.",
+  "jawaharlal-nehru.moment.1":
+    "Accumulated roughly nine years of imprisonment across multiple specific, dated terms between 1921 and 1945 for independence-movement activity, resuming the same activity after each release.",
+  "jawaharlal-nehru.moment.2":
+    "Maintained real, documented philosophical differences with Gandhi over secularism, industrialization, and economic policy — recorded in their surviving correspondence — while remaining a close political ally.",
+  "jawaharlal-nehru.turning_point.1":
+    "The 1962 Sino-Indian War is documented as exposing real weaknesses in his government's military preparedness and strategic decision-making.",
+  "jawaharlal-nehru.interpretation.achievement.1":
+    "A substantial book produced under real physical and time constraint, without assistance, is the specific instance behind the profile's mastery_orientation score.",
+  "jawaharlal-nehru.interpretation.turning_point.1":
+    "A documented, specific strategic and preparedness setback in exactly this domain is why the profile scores decisiveness as dual-edged here rather than an unqualified strength.",
+
+  "ho-chi-minh.achievement.1":
+    "Traveled and worked in numerous countries under numerous documented aliases and occupations — including as a ship's galley hand and a photo retoucher in Paris — for decades before returning to lead Vietnam.",
+  "ho-chi-minh.achievement.2":
+    "His 1945 Declaration of Independence speech explicitly and strategically invoked the language of the US Declaration of Independence, aimed at securing international legitimacy.",
+  "ho-chi-minh.moment.1":
+    "Wrote a substantial body of classical-style Chinese poetry during his 1942-43 imprisonment by Chinese Nationalist authorities.",
+  "ho-chi-minh.moment.2":
+    "Maintained sustained operational security across decades under dozens of documented aliases, evading capture by French colonial intelligence despite active, sustained surveillance.",
+  "ho-chi-minh.turning_point.1":
+    "Developed a synthesis of Marxist-Leninist ideology specifically adapted to Vietnamese nationalist and agrarian conditions, rather than importing an unmodified Soviet or Chinese template.",
+  "ho-chi-minh.interpretation.achievement.1":
+    "An extraordinary, independently documented range of countries, aliases, and occupations sustained over decades is the specific instance behind the profile's adaptability score.",
+  "ho-chi-minh.interpretation.turning_point.1":
+    "A genuine ideological adaptation to local conditions, rather than an imported template, is consistent with the profile's independent_thinking score.",
+
+  "salvador-allende.achievement.1":
+    "Ran for the Chilean presidency unsuccessfully three times (1952, 1958, 1964) before finally winning in 1970 — an eighteen-year, four-election campaign.",
+  "salvador-allende.achievement.2":
+    "Pursued a specifically Chilean, democratic \"path to socialism\" explicitly distinct from the Soviet and Cuban models of the period.",
+  "salvador-allende.moment.1":
+    "Remained in La Moneda Palace during the 11 September 1973 military coup rather than accepting safe passage into exile, delivering a final radio address refusing to resign as the palace was under military assault.",
+  "salvador-allende.moment.2":
+    "His December 1972 address to the UN General Assembly directly and publicly confronted documented US interference in Chilean affairs on an international stage.",
+  "salvador-allende.turning_point.1":
+    "Earned a medical degree and wrote a thesis on the social and medical dimensions of mental illness and crime before his political career developed further.",
+  "salvador-allende.interpretation.achievement.1":
+    "Sustaining the same goal across four campaigns and eighteen years, including three prior losses, is the specific instance behind the profile's persistence score.",
+  "salvador-allende.interpretation.turning_point.1":
+    "A specific, documented credential and body of early written work outside politics is the basis for the profile's mastery_orientation score.",
+
+  "corazon-aquino.achievement.1":
+    "Transformed from a self-described \"plain housewife\" with no prior political office into a national revolutionary leader and president within a few years of her husband's 1983 assassination.",
+  "corazon-aquino.achievement.2":
+    "Sustained the presidency through seven separate documented coup attempts between 1986 and 1992, continuing to govern rather than yielding to any of them.",
+  "corazon-aquino.moment.1":
+    "Personally led the political campaign against the Marcos government following her husband's assassination — a self-directed political emergence from private life.",
+  "corazon-aquino.moment.2":
+    "Voluntarily stepped down after her constitutional term ended rather than seeking to extend her rule, notable given the dictatorship that had just preceded her.",
+  "corazon-aquino.turning_point.1":
+    "The People Power movement she came to lead was a broad, documented coalition of the Catholic Church, military reformists, and civil society groups — not a movement she built alone.",
+  "corazon-aquino.interpretation.achievement.1":
+    "A dramatic, well-documented transition from private life to national leadership within a compressed period is the specific instance behind the profile's adaptability score.",
+  "corazon-aquino.interpretation.turning_point.1":
+    "Leading a broad, pre-existing coalition rather than a movement built from scratch is the basis for how the profile scores collaboration.",
+
+  "muhammad-ali-jinnah.achievement.1":
+    "Built one of Bombay's most successful independent legal careers before ever entering politics.",
+  "muhammad-ali-jinnah.achievement.2":
+    "Led the Muslim League to the successful creation of Pakistan in 1947, a sustained achievement of an extraordinarily difficult political goal against significant resistance.",
+  "muhammad-ali-jinnah.moment.1":
+    "Concealed his terminal tuberculosis diagnosis throughout the final, intense 1947 independence negotiations, continuing to personally lead at severe physical cost, confirmed by later medical and historical accounts.",
+  "muhammad-ali-jinnah.moment.2":
+    "Famously meticulous personal habits — formal dress and strict punctuality — are consistently documented by biographers and contemporaries across his entire life.",
+  "muhammad-ali-jinnah.turning_point.1":
+    "Shifted from an early, documented advocacy of Hindu-Muslim unity within the Congress movement to leading the movement for a separate Muslim state, based on his own reassessment.",
+  "muhammad-ali-jinnah.interpretation.achievement.1":
+    "A genuine, documented professional achievement built entirely before his political career began is the specific instance behind the profile's mastery_orientation score.",
+  "muhammad-ali-jinnah.interpretation.turning_point.1":
+    "A significant, self-driven ideological evolution — not an inherited position — is consistent with the profile's independent_thinking score.",
+
+  "nawal-el-saadawi.achievement.1":
+    "Wrote Memoirs from the Women's Prison during her actual September 1981 imprisonment, using smuggled writing materials — an eyebrow pencil and toilet paper, by her own account.",
+  "nawal-el-saadawi.achievement.2":
+    "Founded the independent Arab Women's Solidarity Association in 1982, which continued until the Egyptian government banned it in 1991.",
+  "nawal-el-saadawi.moment.1":
+    "Continued publishing controversial work on women's health and sexuality despite documented professional dismissal (1972), imprisonment (1981), and death threats from Islamist groups in the 1990s.",
+  "nawal-el-saadawi.moment.2":
+    "Ran for President of Egypt in 2004, a specific, documented political act, though she withdrew before the election itself.",
+  "nawal-el-saadawi.turning_point.1":
+    "Developed and sustained a specific, controversial intellectual position on women's sexuality and health directly informed by her own clinical practice as a physician, distinct from prevailing social and religious norms of her context.",
+  "nawal-el-saadawi.interpretation.achievement.1":
+    "Completing a full manuscript under actual prison conditions using improvised materials is the specific instance behind the profile's discipline score.",
+  "nawal-el-saadawi.interpretation.turning_point.1":
+    "A position grounded in her own clinical practice rather than inherited doctrine is consistent with the profile's independent_thinking score.",
+
+  "puyi.achievement.1":
+    "Under his tutor Reginald Johnston, documented eager embrace of Western ideas and technology — learning English, wearing Western dress and glasses, and having the Forbidden City's thresholds physically cut down so he could ride a bicycle — against strong court tradition.",
+  "puyi.achievement.2":
+    "In his final years, after 1959, worked first as a gardener and then as an editor at a historical research institute, drawing on his unique personal knowledge of Qing history.",
+  "puyi.moment.1":
+    "Accepted the role of Japanese-installed ruler of Manchukuo in 1934, a decision driven substantially by a documented personal desire to reclaim imperial status after years of powerless ceremonial existence.",
+  "puyi.moment.2":
+    "Survived and was eventually released from a combined fourteen years of Soviet (1945-1950) and Chinese (1950-1959) captivity, a direct consequence of the Manchukuo decision.",
+  "puyi.turning_point.1":
+    "Moved through an extraordinary, well-documented sequence of entirely different life circumstances — child emperor, abdicated ceremonial figure, Japanese-installed puppet ruler, Soviet prisoner, Chinese prisoner, and finally ordinary citizen — across six decades.",
+  "puyi.interpretation.achievement.1":
+    "Specific, independently corroborated youthful curiosity pursued against strong institutional resistance is the basis for the profile's curiosity score.",
+  "puyi.interpretation.turning_point.1":
+    "Sustained personal continuity through repeated, extreme status reversals is the specific instance behind the profile's adaptability score.",
+
+  "king-hussein-jordan.achievement.1":
+    "Held the throne for 46 years (1953-1999) through multiple existential threats — coup attempts, regional wars, and the 1970 Black September crisis.",
+  "king-hussein-jordan.achievement.2":
+    "Maintained secret back-channel diplomatic contact with Israeli leaders for years before the 1994 peace treaty was signed, documented in later-declassified accounts from both sides.",
+  "king-hussein-jordan.moment.1":
+    "During the 1957 coup attempt, personally went to a besieged loyalist army camp rather than fleeing.",
+  "king-hussein-jordan.moment.2":
+    "In his final weeks, personally returned from cancer treatment at the Mayo Clinic specifically to intervene in a succession dispute.",
+  "king-hussein-jordan.turning_point.1":
+    "Made the specific, high-stakes decision to move militarily against PLO forces operating within Jordan during the September 1970 \"Black September\" crisis — decisive and consequential, with real, documented human cost that remains historically contested.",
+  "king-hussein-jordan.interpretation.achievement.1":
+    "Sustaining active rule through repeated, dated existential threats across 46 years is the specific instance behind the profile's persistence score.",
+  "king-hussein-jordan.interpretation.turning_point.1":
+    "A specific, high-stakes decision with real and lasting contested consequences is why the profile scores decisiveness here as dual-edged rather than an unqualified strength.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -5981,6 +6132,157 @@ export const EDITORIAL_KO: Record<string, string> = {
     "두려움이 없어서가 아니라 두려움을 무릅쓰고 행동했다는 기록은 프로필의 위험 감수성(risk_tolerance) 점수가 양면적으로 평가된 근거다.",
   "isabella-bird.interpretation.turning_point.1":
     "환경 변화에 대한 이례적이고 기록으로 확인되는 긍정적 반응은 프로필의 적응력(adaptability) 점수와 부합한다.",
+
+  /* ---------------------------------------------------------- roster26 */
+  "che-guevara.achievement.1":
+    "부에노스아이레스 대학교에서 정규 의학 교육을 마치는 동시에, 학생 신분으로 남아메리카 대륙을 가로지르는 대체로 계획되지 않은 오토바이 여행을 감행했다 — 통상적인 학업 일정을 따르는 대신.",
+  "che-guevara.achievement.2":
+    "쿠바 전투에서의 자신의 지휘 경험을 바탕으로, 게릴라전 교리를 체계적으로 정리한 『게릴라 전쟁론』(La Guerra de Guerrillas, 1961)을 저술했다.",
+  "che-guevara.moment.1":
+    "1952년 여정 중 페루 산 파블로의 나병 환자촌에서, 그는 당시의 통상적인 수칙을 어기고 장갑을 끼지 않은 채 환자들과 악수를 나누겠다고 고집했다 — 자신의 『모터사이클 다이어리』에 직접 기록된 일화다.",
+  "che-guevara.moment.2":
+    "1965년 피델 카스트로에게 보낸, 카스트로가 공개적으로 낭독한 작별 편지에서 그는 쿠바 정부 내 고위직과 시민권을 명시적으로 포기하고 다른 곳에서 혁명 투쟁을 이어가겠다고 밝혔다.",
+  "che-guevara.turning_point.1":
+    "1965년 콩고 원정이 실패로 끝난 뒤 — 그의 『콩고 일기』는 이례적일 만큼 자기비판적으로 이를 기록하고 있다 — 그는 무장 투쟁에서 물러나는 대신 곧바로 볼리비아 원정을 계획하고 실행하는 길로 나아갔다.",
+  "che-guevara.interpretation.achievement.1":
+    "의학과 자기주도적인 장기 여정이라는, 실질적인 성과를 동반한 두 개의 뚜렷이 다른 영역을 동시에 추구한 것은 프로필의 분야 횡단성(cross_domain_range)과 숙련 지향성(mastery_orientation) 점수의 근거가 된다.",
+  "che-guevara.interpretation.turning_point.1":
+    "기록으로 확인되는, 스스로도 인정한 패배 직후 곧바로 더 어려운 두 번째 원정에 나선 것은 프로필의 지속성(persistence) 점수를 뒷받침하는 구체적 사례다.",
+
+  "fidel-castro.achievement.1":
+    "1956년 알레그리아 데 피오에서 침공 부대가 거의 전멸한 뒤(82명 중 약 20명만 생존) 시에라 마에스트라 산맥에서 2년에 걸쳐 게릴라 운동을 재건하여 1959년 마침내 승리를 거두었다.",
+  "fidel-castro.achievement.2":
+    "1953년 몬카다 병영 습격 이후 재판에서 한 변론 연설은 훗날 재구성되어 『역사가 나를 무죄로 하리라』로 출간되었으며, 법적 패배를 지속적인 정치적 결집 문서로 전환시켰다.",
+  "fidel-castro.moment.1":
+    "1953년 몬카다 병영 습격과 1956년 그란마호 상륙을 직접 이끌었으며, 각각 심각하고 지속적이며 충분히 기록된 신변의 위험을 무릅쓴 것이었다.",
+  "fidel-castro.moment.2":
+    "미국 상원 처치 위원회가 기밀 해제한 1975년 보고서에서 훗날 상세히 밝혀진, 그를 겨냥한 다수의 CIA 암살 계획에서 살아남았다.",
+  "fidel-castro.turning_point.1":
+    "혁명이 군사적으로 성공을 거둔 1959년 이후에야 공개적으로 마르크스-레닌주의를 선언했다 — 이는 처음부터 표방한 교리가 아니라, 문서로 확인되며 역사적으로도 논쟁이 되는 전략적 시점 조율이었다.",
+  "fidel-castro.interpretation.achievement.1":
+    "단 한 차례의 거의 전멸에 가까운 패배로부터 최종 승리에 이르기까지, 충분히 뒷받침되는 회복 과정은 프로필의 지속성(persistence) 점수를 뒷받침하는 구체적 사례다.",
+  "fidel-castro.interpretation.turning_point.1":
+    "군사적 승리 이후까지 이미 사적으로 지녔던 이념의 선언을 미룬 것은 프로필의 독립적 사고(independent_thinking) 점수와 부합한다.",
+
+  "jawaharlal-nehru.achievement.1":
+    "1944년 투옥 중 연구 보조 없이 약 다섯 달 만에 『인도의 발견』을 집필했다.",
+  "jawaharlal-nehru.achievement.2":
+    "나세르, 티토와 함께 비동맹운동을 공동 창설했으며, 이는 냉전의 양 진영 모두로부터 의도적으로 거리를 둔 외교 노선이었다.",
+  "jawaharlal-nehru.moment.1":
+    "1921년부터 1945년 사이 독립운동 활동으로 여러 차례에 걸쳐 구체적으로 날짜가 확인되는 복역을 거듭하며 총 약 9년간 수감되었고, 석방될 때마다 같은 활동을 이어갔다.",
+  "jawaharlal-nehru.moment.2":
+    "세속주의, 산업화, 경제 정책을 둘러싸고 간디와 실질적이고 기록으로 확인되는 견해 차이를 유지했다 — 둘 사이에 남아 있는 서신에 기록되어 있다 — 그러면서도 가까운 정치적 동반자 관계를 유지했다.",
+  "jawaharlal-nehru.turning_point.1":
+    "1962년 중국-인도 전쟁은 그의 정부의 군사적 대비 태세와 전략적 판단에서 실질적인 약점을 드러낸 것으로 기록되어 있다.",
+  "jawaharlal-nehru.interpretation.achievement.1":
+    "실질적인 신체적, 시간적 제약 속에서 도움 없이 완성된 상당한 분량의 저작은 프로필의 숙련 지향성(mastery_orientation) 점수를 뒷받침하는 구체적 사례다.",
+  "jawaharlal-nehru.interpretation.turning_point.1":
+    "바로 이 영역에서 구체적으로 기록된 대비 태세의 결함은, 프로필이 이 부분의 결단력(decisiveness)을 무조건적인 강점이 아니라 양면적으로 평가하는 이유다.",
+
+  "ho-chi-minh.achievement.1":
+    "베트남으로 돌아와 지도자가 되기 전 수십 년간, 배의 주방 보조와 파리의 사진 보정사를 포함해 여러 나라에서 다수의 확인된 가명과 직업으로 살며 일했다.",
+  "ho-chi-minh.achievement.2":
+    "1945년 독립 선언 연설에서 국제적 정당성을 확보하려는 전략적 의도로 미국 독립선언서의 언어를 명시적으로 인용했다.",
+  "ho-chi-minh.moment.1":
+    "중국 국민당 당국에 의해 1942~43년 투옥된 기간 동안 상당한 분량의 한시(漢詩) 작품을 남겼다.",
+  "ho-chi-minh.moment.2":
+    "수십 년에 걸쳐 다수의 확인된 가명을 사용해 지속적인 작전 보안을 유지했으며, 프랑스 식민 정보기관의 적극적이고 지속적인 감시에도 불구하고 체포를 피했다.",
+  "ho-chi-minh.turning_point.1":
+    "소련이나 중국의 모델을 그대로 들여오는 대신, 베트남의 민족주의적, 농업적 조건에 맞게 특별히 조정된 마르크스-레닌주의의 독자적 종합을 발전시켰다.",
+  "ho-chi-minh.interpretation.achievement.1":
+    "수십 년에 걸쳐 지속된, 독립적으로 확인되는 국가·가명·직업의 이례적인 폭은 프로필의 적응력(adaptability) 점수를 뒷받침하는 구체적 사례다.",
+  "ho-chi-minh.interpretation.turning_point.1":
+    "수입된 틀이 아닌 현지 조건에 맞춘 진정한 이념적 조정은 프로필의 독립적 사고(independent_thinking) 점수와 부합한다.",
+
+  "salvador-allende.achievement.1":
+    "1952년, 1958년, 1964년 세 차례 칠레 대통령 선거에서 낙선한 끝에 1970년 마침내 당선되었다 — 18년에 걸친 네 번의 선거 도전이었다.",
+  "salvador-allende.achievement.2":
+    "당대의 소련 및 쿠바 모델과는 명확히 구별되는, 칠레 고유의 민주적인 \"사회주의로 가는 길\"을 추구했다.",
+  "salvador-allende.moment.1":
+    "1973년 9월 11일 군사 쿠데타 당시 망명을 위한 안전한 통행을 받아들이는 대신 라 모네다 궁에 남아, 궁이 군의 공격을 받는 와중에 사임을 거부하는 마지막 라디오 연설을 남겼다.",
+  "salvador-allende.moment.2":
+    "1972년 12월 유엔 총회 연설에서 국제 무대 위에서 문서로 확인되는 미국의 칠레 내정 개입을 직접적이고 공개적으로 규탄했다.",
+  "salvador-allende.turning_point.1":
+    "정계에 더 깊이 발을 들이기 전, 의학 학위를 취득하고 정신질환과 범죄의 사회적·의학적 측면을 다룬 논문을 집필했다.",
+  "salvador-allende.interpretation.achievement.1":
+    "세 차례의 이전 패배를 포함해 네 번의 선거운동과 18년에 걸쳐 같은 목표를 지속한 것은 프로필의 지속성(persistence) 점수를 뒷받침하는 구체적 사례다.",
+  "salvador-allende.interpretation.turning_point.1":
+    "정계 밖에서 이룬, 구체적으로 기록된 학위와 초기 저작물은 프로필의 숙련 지향성(mastery_orientation) 점수의 근거다.",
+
+  "corazon-aquino.achievement.1":
+    "1983년 남편이 암살된 지 불과 몇 년 사이, 스스로를 \"평범한 주부\"라 칭하며 공직 경험이 전혀 없던 인물에서 전국적인 혁명 지도자이자 대통령으로 탈바꿈했다.",
+  "corazon-aquino.achievement.2":
+    "1986년부터 1992년까지 일곱 차례에 걸쳐 별도로 기록된 쿠데타 시도를 겪으면서도 어느 것에도 굴복하지 않고 대통령직을 지켜냈다.",
+  "corazon-aquino.moment.1":
+    "남편이 암살된 뒤 마르코스 정권에 맞선 정치 운동을 직접 이끌었다 — 사적인 삶에서 벗어나 스스로 주도한 정치적 등장이었다.",
+  "corazon-aquino.moment.2":
+    "헌법상 임기가 끝난 뒤 통치 연장을 시도하는 대신 자발적으로 물러났다 — 직전까지 이어졌던 독재 정권을 고려할 때 주목할 만한 대목이다.",
+  "corazon-aquino.turning_point.1":
+    "그녀가 이끌게 된 피플 파워 운동은 가톨릭교회, 군 개혁파, 시민사회 단체가 함께한 폭넓은 연합이었다 — 그녀 혼자 만든 운동이 아니었다.",
+  "corazon-aquino.interpretation.achievement.1":
+    "짧은 기간 안에 사적인 삶에서 국가 지도자로 극적이고 충분히 기록된 전환을 이룬 것은 프로필의 적응력(adaptability) 점수를 뒷받침하는 구체적 사례다.",
+  "corazon-aquino.interpretation.turning_point.1":
+    "처음부터 새로 만든 운동이 아니라 이미 존재하던 폭넓은 연합을 이끈 것이 프로필의 협업(collaboration) 점수를 평가하는 근거다.",
+
+  "muhammad-ali-jinnah.achievement.1":
+    "정계에 입문하기 전, 봄베이에서 가장 성공한 독립 변호사 중 한 명으로 자리매김했다.",
+  "muhammad-ali-jinnah.achievement.2":
+    "상당한 저항에도 불구하고 무슬림 연맹을 이끌어 1947년 파키스탄 건국이라는 대단히 어려운 정치적 목표를 지속적으로 달성해냈다.",
+  "muhammad-ali-jinnah.moment.1":
+    "1947년 독립 협상이 마지막 국면에 치닫는 동안 자신의 말기 결핵 진단을 숨긴 채 심각한 신체적 대가를 치르면서도 직접 협상을 이끌었으며, 이는 훗날 의학적·역사적 기록으로 확인되었다.",
+  "muhammad-ali-jinnah.moment.2":
+    "격식을 갖춘 복장과 엄격한 시간 엄수 등 유난히 꼼꼼한 개인 습관은 평생에 걸쳐 전기 작가들과 동시대인들에 의해 일관되게 기록되었다.",
+  "muhammad-ali-jinnah.turning_point.1":
+    "국민회의 내에서 힌두-무슬림 통합을 주창하던 초기 입장에서, 스스로의 재평가를 거쳐 독립된 무슬림 국가 건설 운동을 이끄는 쪽으로 방향을 전환했다.",
+  "muhammad-ali-jinnah.interpretation.achievement.1":
+    "정치 경력이 시작되기 전 오롯이 이루어낸, 실질적이고 기록으로 확인되는 전문적 성취는 프로필의 숙련 지향성(mastery_orientation) 점수를 뒷받침하는 구체적 사례다.",
+  "muhammad-ali-jinnah.interpretation.turning_point.1":
+    "물려받은 입장이 아니라 스스로 이끌어낸 중대한 이념적 변화는 프로필의 독립적 사고(independent_thinking) 점수와 부합한다.",
+
+  "nawal-el-saadawi.achievement.1":
+    "1981년 9월 실제 수감 중이던 시기에, 자신의 진술에 따르면 눈썹연필과 화장지 등 밀반입한 필기도구를 이용해 『여성 감옥의 회고록』을 집필했다.",
+  "nawal-el-saadawi.achievement.2":
+    "1982년 독립적인 아랍여성연대협회를 설립했으며, 이 단체는 1991년 이집트 정부에 의해 금지될 때까지 활동을 이어갔다.",
+  "nawal-el-saadawi.moment.1":
+    "1972년 공직 해임, 1981년 투옥, 1990년대 이슬람주의 단체들의 살해 위협 등 문서로 확인되는 처지에도 불구하고 여성의 건강과 성에 관한 논쟁적인 저술을 계속 발표했다.",
+  "nawal-el-saadawi.moment.2":
+    "2004년 이집트 대통령 선거에 출마했다 — 구체적으로 기록된 정치적 행동이지만, 선거 이전에 스스로 후보직을 사퇴했다.",
+  "nawal-el-saadawi.turning_point.1":
+    "의사로서 자신의 임상 경험에 직접적으로 근거하여, 당대의 사회적·종교적 규범과 뚜렷이 구별되는 여성의 성과 건강에 관한 논쟁적이고 독자적인 지적 입장을 발전시키고 견지했다.",
+  "nawal-el-saadawi.interpretation.achievement.1":
+    "임시로 마련한 도구를 이용해 실제 수감 상태에서 완성한 완결된 원고는 프로필의 규율성(discipline) 점수를 뒷받침하는 구체적 사례다.",
+  "nawal-el-saadawi.interpretation.turning_point.1":
+    "물려받은 교리가 아니라 자신의 임상 경험에 근거한 입장은 프로필의 독립적 사고(independent_thinking) 점수와 부합한다.",
+
+  "puyi.achievement.1":
+    "가정교사 레지널드 존스턴의 지도 아래, 엄격한 궁중 전통에도 불구하고 영어를 배우고 서양식 복장과 안경을 착용했으며 자전거를 탈 수 있도록 자금성의 문턱을 실제로 깎아내게 하는 등 서구식 사고와 기술을 적극적으로 받아들인 사실이 기록되어 있다.",
+  "puyi.achievement.2":
+    "1959년 이후 말년에는 먼저 정원사로, 이어 역사 연구 기관의 편집자로 일하며 청나라 역사에 관한 자신만의 고유한 지식을 활용했다.",
+  "puyi.moment.1":
+    "1934년 일본이 세운 만주국의 통치자 자리를 받아들였으며, 이는 오랜 세월 무력한 의례적 존재로 지낸 끝에 황제로서의 지위를 되찾고자 한 개인적 열망이 상당 부분 작용한 결정으로 기록되어 있다.",
+  "puyi.moment.2":
+    "만주국 결정의 직접적인 결과로 소련(1945~1950년)과 중국(1950~1959년)에서 합쳐서 14년에 이르는 억류 생활을 겪은 끝에 마침내 풀려났다.",
+  "puyi.turning_point.1":
+    "어린 황제에서 퇴위한 의례적 존재로, 일본이 세운 꼭두각시 통치자로, 소련의 수용자로, 중국의 수용자로, 그리고 마침내 평범한 시민으로 — 60년에 걸쳐 완전히 서로 다른 삶의 처지를 이례적일 만큼 잘 기록된 형태로 거쳐 갔다.",
+  "puyi.interpretation.achievement.1":
+    "강한 제도적 저항 속에서도 추구된, 독립적으로 확인되는 젊은 시절의 호기심은 프로필의 호기심(curiosity) 점수의 근거다.",
+  "puyi.interpretation.turning_point.1":
+    "거듭되는 극단적인 지위 반전 속에서도 유지된 인격적 연속성은 프로필의 적응력(adaptability) 점수를 뒷받침하는 구체적 사례다.",
+
+  "king-hussein-jordan.achievement.1":
+    "쿠데타 시도, 지역 전쟁, 1970년 검은 9월 위기 등 여러 실존적 위협 속에서도 46년(1953~1999년)에 걸쳐 왕위를 지켰다.",
+  "king-hussein-jordan.achievement.2":
+    "1994년 평화 조약이 체결되기 여러 해 전부터 이스라엘 지도부와 비밀 물밑 외교 접촉을 유지했으며, 이는 훗날 양측에서 기밀 해제된 기록을 통해 확인되었다.",
+  "king-hussein-jordan.moment.1":
+    "1957년 쿠데타 시도 당시 피신하는 대신 직접 포위된 충성파 군 주둔지로 향했다.",
+  "king-hussein-jordan.moment.2":
+    "생의 마지막 몇 주 동안, 후계 분쟁에 직접 개입하기 위해 메이요 클리닉에서 받던 암 치료를 중단하고 직접 돌아왔다.",
+  "king-hussein-jordan.turning_point.1":
+    "1970년 9월 '검은 9월' 위기 당시 요르단 내에서 활동하던 PLO 세력에 맞서 군사적으로 대응한다는 구체적이고 중대한 결정을 내렸다 — 단호하고 파장이 컸던 결정이었으며, 오늘날까지도 역사적으로 논쟁이 되는 실질적이고 기록으로 확인되는 인명 피해를 남겼다.",
+  "king-hussein-jordan.interpretation.achievement.1":
+    "46년에 걸쳐 거듭된, 날짜가 확인되는 실존적 위협 속에서도 통치를 이어간 것은 프로필의 지속성(persistence) 점수를 뒷받침하는 구체적 사례다.",
+  "king-hussein-jordan.interpretation.turning_point.1":
+    "실질적이고 지속적으로 논쟁이 되는 결과를 낳은 구체적이고 중대한 결정이기에, 프로필은 이 부분의 결단력(decisiveness)을 무조건적인 강점이 아니라 양면적으로 평가한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

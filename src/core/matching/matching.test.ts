@@ -255,11 +255,13 @@ describe("confidence and missing data", () => {
     // now falls below the 0.6 coverage floor (0.53). This is a confirmed,
     // evidence-driven migration result, not a threshold change: no score
     // was manufactured and ELIGIBILITY.minCoverage is untouched.
-    // Also non-eligible by design (roster24/25, unrelated to
+    // Also non-eligible by design (roster24/25/26, unrelated to
     // taxonomy_v1.1): Giuseppe Garibaldi, Anton Chekhov (roster24), Vera
     // Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, Isabella Bird
-    // (roster25) — see the profile-publication/match-eligibility
-    // separation test above for the full rationale.
+    // (roster25), Fidel Castro, Jawaharlal Nehru, Ho Chi Minh, Salvador
+    // Allende, Corazon Aquino, Muhammad Ali Jinnah, Nawal El Saadawi, Puyi,
+    // King Hussein of Jordan (roster26) — see the profile-publication/
+    // match-eligibility separation test above for the full rationale.
     const knownNonEligible = new Set([
       "zheng-he",
       "giuseppe-garibaldi",
@@ -268,6 +270,15 @@ describe("confidence and missing data", () => {
       "subrahmanyan-chandrasekhar",
       "fridtjof-nansen",
       "isabella-bird",
+      "fidel-castro",
+      "jawaharlal-nehru",
+      "ho-chi-minh",
+      "salvador-allende",
+      "corazon-aquino",
+      "muhammad-ali-jinnah",
+      "nawal-el-saadawi",
+      "puyi",
+      "king-hussein-jordan",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -461,10 +472,14 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
     // Deliberately non-match-eligible by design, not a regression: Zheng He
     // (pre-existing) plus Giuseppe Garibaldi, Anton Chekhov (roster24), Vera
     // Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, and Isabella Bird
-    // (roster25) — all evidence_approved, published, directory-visible,
-    // honestly under eligibility_v2's attribute-count/coverage floors; see
-    // docs/checkpoints/roster24-evidence-approved-publications.md and
-    // docs/checkpoints/roster25-fast-production-batch.md.
+    // (roster25), and Fidel Castro, Jawaharlal Nehru, Ho Chi Minh, Salvador
+    // Allende, Corazon Aquino, Muhammad Ali Jinnah, Nawal El Saadawi, Puyi,
+    // and King Hussein of Jordan (roster26) — all evidence_approved,
+    // published, directory-visible, honestly under eligibility_v2's
+    // attribute-count/coverage floors; see
+    // docs/checkpoints/roster24-evidence-approved-publications.md,
+    // docs/checkpoints/roster25-fast-production-batch.md, and
+    // docs/checkpoints/roster26-ten-person-fast-batch.md.
     const knownNonEligible = new Set([
       "zheng-he",
       "giuseppe-garibaldi",
@@ -473,6 +488,15 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "subrahmanyan-chandrasekhar",
       "fridtjof-nansen",
       "isabella-bird",
+      "fidel-castro",
+      "jawaharlal-nehru",
+      "ho-chi-minh",
+      "salvador-allende",
+      "corazon-aquino",
+      "muhammad-ali-jinnah",
+      "nawal-el-saadawi",
+      "puyi",
+      "king-hussein-jordan",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

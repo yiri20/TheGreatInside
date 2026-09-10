@@ -4,13 +4,40 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-08 (Roster25: fast production batch,
-`feat/roster25-fast-production-batch`, unmerged — a fixed six-candidate
-intake, no new candidate discovery, audited proportional to risk rather
-than another slow methodology cycle. Nellie Bly and Carl Jung were
-already `qa_passed`/match-eligible and preserved as-is after a fast-path
-integrity check (no rescoring). Vera Rubin, Subrahmanyan Chandrasekhar,
-Fridtjof Nansen, and Isabella Bird — all honestly failing
+Last updated: 2026-09-10 (Roster26: ten-person fast production batch,
+`feat/roster26-ten-person-fast-batch`, unmerged — mechanical
+intake from existing `data-pipeline/candidates/*.json` only, no new
+candidate discovery. Che Guevara was already `qa_passed`/match-eligible
+and preserved as-is. Fidel Castro, Jawaharlal Nehru, Ho Chi Minh, Salvador
+Allende, Corazon Aquino, Muhammad Ali Jinnah, Nawal El Saadawi, Puyi, and
+King Hussein of Jordan — all honestly failing `eligibility_v2`, none
+rescued — passed a first-time evidence-approval audit; two received a
+`RUBRIC_CORRECTION` for a single-instance score that had drifted into the
+85+ band, both moving the score *down* (Castro's `persistence` 85→80;
+Allende's `risk_tolerance` 88→80). All ten promoted via
+`generateRoster26.ts` (same architecture as `generateRoster25.ts`:
+`preparePersonSeedForPromotion()`, never checks
+`computedEligibility.eligible`), with real rights-clear portraits (LOC,
+Nationaal Archief, Vietnam-PD, Biblioteca del Congreso Nacional de Chile,
+US federal government works, Flickr CC BY, PD-China/Taiwan) and full
+EN/KO editorial content. The match-eligible set grew by exactly Che
+Guevara (126→127, mechanically verified — no other person's eligibility
+changed); `dispersion.generated.ts` was regenerated but calibration
+anchors were left unchanged (drift ≤0.007, negligible) and a
+matching-health simulation confirmed no domination (max #1 frequency
+9.0%, Warren Buffett). Roster: **143 total / 142
+default-directory-visible / 127 match-eligible** (was 133/132/126). Zheng
+He, Giuseppe Garibaldi, Anton Chekhov, and the roster25 six unchanged.
+Full record:
+[`roster26-ten-person-fast-batch.md`](../checkpoints/roster26-ten-person-fast-batch.md).
+
+Prior update, 2026-09-08 (Roster25: fast production batch,
+`feat/roster25-fast-production-batch`, merged to `main` — a fixed
+six-candidate intake, no new candidate discovery, audited proportional to
+risk rather than another slow methodology cycle. Nellie Bly and Carl Jung
+were already `qa_passed`/match-eligible and preserved as-is after a
+fast-path integrity check (no rescoring). Vera Rubin, Subrahmanyan
+Chandrasekhar, Fridtjof Nansen, and Isabella Bird — all honestly failing
 `eligibility_v2`, none rescued — passed a first-time evidence-approval
 audit; two received a `RUBRIC_CORRECTION` for a single-source score that
 had drifted into the 85+ band, both corrections moving the score *down*

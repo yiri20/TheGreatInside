@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "fidel-castro",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Fidel Castro",
     "wikidataId": "Q11256",
@@ -67,11 +67,11 @@
   ],
   "rows": {
     "persistence": {
-      "score": 85,
+      "score": 80,
       "confidence": 0.72,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "After his invasion force was nearly annihilated at Alegría de Pío in 1956 (only around 20 of 82 men survived), rebuilt a guerrilla campaign from the Sierra Maestra mountains over two years to eventual victory in 1959 — an extraordinary, multiply-documented recovery from near-total failure."
+      "rationale": "RUBRIC_CORRECTION (roster26 fast-batch audit, 2026-09; score-band correction only): after his invasion force was nearly annihilated at Alegría de Pío in 1956 (only around 20 of 82 men survived), rebuilt a guerrilla campaign from the Sierra Maestra mountains over two years to eventual victory in 1959 — a well-corroborated recovery from near-total failure. Originally scored 85/documented; corrected to 80 because scoring_rubric_v1 Section 4 reserves the 85+ band for MULTIPLE independent documented instances, and this rests on one continuous instance (a single recovery arc), however well corroborated across independent historical accounts and however long its duration — the score is capped to the 71-84 'clear, well-evidenced pattern' band regardless of corroboration depth. This is a score-band correction only: the evidence remains squarely `documented` (a specific, attributable, well-sourced account of a concrete recovery), and confidence 0.72 already sits in Section 3's 0.65-0.84 band for 'one strong documented instance' — so evidenceType and confidence are unchanged. Only the score moved."
     },
     "risk_tolerance": {
       "score": 85,
@@ -207,13 +207,24 @@
       "rationale": "Functioned with real, documented substantive engagement as a trained lawyer, a guerrilla military commander, and a head of state — three genuinely distinct domains."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/fidel-castro-loc-gotfryd-1979.jpg",
+    "width": 1201,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "No known copyright restrictions (Library of Congress, Bernard Gotfryd collection)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
+    "attribution": "Photograph by Bernard Gotfryd, 1979 — Library of Congress, Prints and Photographs Division",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-09-04T00:00:00Z",
-    "updatedAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-09T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-13 new-intake batch (2026-09): Latin America pick. The Sierra Maestra recovery from near-total military failure is treated as the single strongest piece of evidence in the pack, corroborated across multiple independent historical accounts, not self-reported alone. Suppression of internal dissent is scored honestly as dual_edged evidence connected to impact_motivation, not omitted. No score/confidence/evidence altered after the first validator run. Scored to completion before any eligibility check was run."
+    "notes": "Roster-13 new-intake batch (2026-09): Latin America pick. The Sierra Maestra recovery from near-total military failure is treated as the single strongest piece of evidence in the pack, corroborated across multiple independent historical accounts, not self-reported alone. Suppression of internal dissent is scored honestly as dual_edged evidence connected to impact_motivation, not omitted. No score/confidence/evidence altered after the first validator run. Scored to completion before any eligibility check was run. Roster26 fast-batch audit (2026-09): mechanical row scan found one extremity violation — persistence at 85 rested on a single (if well-corroborated) recovery instance rather than multiple independent instances required by Section 4 for an 85+ score; corrected to 80, evidenceType/confidence unchanged (see row rationale). risk_tolerance (85) was checked and is NOT a violation — its rationale cites three genuinely separate episodes (Moncada 1953, Granma 1956, the guerrilla campaign), satisfying the multi-instance bar. No other rows required correction; metadata already valid. Held only for eligibility_v2 (coverage 0.599, 0.001 short of the 0.6 floor) — moved to evidence_approved; eligibility-only holdReason removed, computedEligibility preserved unchanged (the score correction does not affect scoredAttributeCount, averageConfidence, or coverage)."
   },
-  "holdReason": "eligibility_v2 not met on first score: scored=20 attributes, avgConf=0.564, coverage=0.599 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
   "computedEligibility": {
     "scoredAttributeCount": 20,
     "averageConfidence": 0.564,
