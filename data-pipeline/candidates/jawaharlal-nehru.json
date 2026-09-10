@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "jawaharlal-nehru",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Jawaharlal Nehru",
     "wikidataId": "Q1047",
@@ -213,13 +213,24 @@
       "rationale": "Sustained decades of direct confrontation with British colonial authority, accepting repeated imprisonment as a known, accepted consequence rather than seeking accommodation."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jawaharlal-nehru-netherlands-1957.jpg",
+    "width": 1233,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nehru_in_the_Netherlands,_1957.jpg",
+    "attribution": "Photograph by Harry Pot, 1957 — Dutch National Archives (Nationaal Archief)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nehru_in_the_Netherlands,_1957.jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-09-04T00:00:00Z",
-    "updatedAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-09T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-12 new-intake batch (2026-09): South Asia pick. Unusually rich self-report base for a 20th-century political leader — several substantial books written largely from prison (Letters from a Father to His Daughter, Glimpses of World History, The Discovery of India), corroborated by his own surviving correspondence with Gandhi documenting real, specific ideological disagreements rather than simple alliance. The 1962 Sino-Indian War is scored honestly as a documented decisiveness/preparedness setback (dual_edged) rather than omitted to protect the profile. Scored to completion before any eligibility check was run."
+    "notes": "Roster-12 new-intake batch (2026-09): South Asia pick. Unusually rich self-report base for a 20th-century political leader — several substantial books written largely from prison (Letters from a Father to His Daughter, Glimpses of World History, The Discovery of India), corroborated by his own surviving correspondence with Gandhi documenting real, specific ideological disagreements rather than simple alliance. The 1962 Sino-Indian War is scored honestly as a documented decisiveness/preparedness setback (dual_edged) rather than omitted to protect the profile. Scored to completion before any eligibility check was run. Roster26 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch, no unsupported extremity (max score 80, persistence, which cites imprisonment across multiple specific dated terms 1921-1945 -- genuinely multiple independent instances, within the 71-84 band regardless), and metadata already valid. No correction needed; portrait added. Held only for eligibility_v2 (coverage 0.599, 0.001 short of the 0.6 floor) — moved to evidence_approved; eligibility-only holdReason removed, computedEligibility preserved unchanged."
   },
-  "holdReason": "eligibility_v2 not met on first score: scored=20 attributes (>=18 required, met), avgConf=0.574, coverage=0.599 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
   "computedEligibility": {
     "scoredAttributeCount": 20,
     "averageConfidence": 0.574,

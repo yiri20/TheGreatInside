@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "nawal-el-saadawi",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Nawal El Saadawi",
     "wikidataId": "Q238514",
@@ -196,13 +196,24 @@
       "rationale": "Adapted across a documented medical career, a literary career, imprisonment, and a period of exile at Duke University, inferred from that range of life circumstances."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nawal-el-saadawi-tahrir-2012.jpg",
+    "width": 1600,
+    "height": 1067,
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi,_April_2012.jpg",
+    "attribution": "Photograph by Gigi Ibrahim, 2012 (via Flickr, CC BY 2.0)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi,_April_2012.jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-09-04T00:00:00Z",
-    "updatedAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-09T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-13 new-intake batch (2026-09): North Africa pick. Unusually rich self-report base for a contemporary figure, including a manuscript literally written during her own imprisonment using smuggled materials — a rare, directly documented act of creative persistence under real confinement, used honestly here (proactive_agency, discipline) rather than treated as a footnote. Scored to completion before any eligibility check was run."
+    "notes": "Roster-13 new-intake batch (2026-09): North Africa pick. Unusually rich self-report base for a contemporary figure, including a manuscript literally written during her own imprisonment using smuggled materials — a rare, directly documented act of creative persistence under real confinement, used honestly here (proactive_agency, discipline) rather than treated as a footnote. Scored to completion before any eligibility check was run. Roster26 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch, no unsupported extremity (max score 82, risk_tolerance, which cites three separate escalating consequences across decades -- within the 71-84 band regardless), and metadata already valid. No correction needed. Portrait sourcing rejected one candidate file (a NYT-attributed image re-uploaded under an implausible 'own work' CC0 claim by an unrelated uploader) in favor of a Flickr-reviewed CC BY 2.0 photograph with verified provenance. Held only for eligibility_v2 (coverage 0.545) — moved to evidence_approved; eligibility-only holdReason removed, computedEligibility preserved unchanged."
   },
-  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes, avgConf=0.568, coverage=0.545 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls short despite reasonable confidence levels. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
   "computedEligibility": {
     "scoredAttributeCount": 18,
     "averageConfidence": 0.568,

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "salvador-allende",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Salvador Allende",
     "wikidataId": "Q440",
@@ -72,11 +72,11 @@
       "rationale": "Ran for the Chilean presidency unsuccessfully three times (1952, 1958, 1964) before finally winning in 1970 — a specific, extremely well-documented eighteen-year persistence pattern, not a single campaign."
     },
     "risk_tolerance": {
-      "score": 88,
+      "score": 80,
       "confidence": 0.75,
       "evidenceType": "documented",
       "impact": "risk",
-      "rationale": "Remained in La Moneda Palace during the 11 September 1973 military coup rather than accepting safe passage into exile, delivering a final radio address refusing to resign as the palace was under military assault, and died there during the attack — an extreme, well-corroborated, final documented act."
+      "rationale": "RUBRIC_CORRECTION (roster26 fast-batch audit, 2026-09; score-band correction only): remained in La Moneda Palace during the 11 September 1973 military coup rather than accepting safe passage into exile, delivering a final radio address refusing to resign as the palace was under military assault, and died there during the attack — a well-corroborated final act (his own broadcast survives directly; the coup and his death are independently documented in international press coverage). Originally scored 88/documented; corrected to 80 because scoring_rubric_v1 Section 4 reserves the 85+ band for MULTIPLE independent documented instances, and this rationale describes one instance -- a single, if extreme and multiply-sourced, act -- not a repeated pattern; the rubric's own text is explicit that 'a single quote or anecdote never justifies an 85+ ... score on its own, regardless of how vivid it is.' The score is capped to the 71-84 'clear, well-evidenced pattern' band. This is a score-band correction only: the evidence remains squarely `documented` (his own surviving broadcast plus independent press corroboration), and confidence 0.75 already sits in Section 3's 0.65-0.84 band for 'one strong documented instance' — so evidenceType and confidence are unchanged. Only the score moved."
     },
     "decisiveness": {
       "score": 78,
@@ -198,13 +198,24 @@
       "rationale": "His early medical thesis addressing the social dimensions of mental illness and criminology suggests intellectual engagement beyond conventional clinical practice, though inferred from that one documented work rather than a broader pattern."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/salvador-allende-bcn.jpg",
+    "width": 325,
+    "height": 421,
+    "source": "Wikimedia Commons",
+    "license": "CC BY 3.0 Chile",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Salvador_Allende_Gossens-.jpg",
+    "attribution": "Biblioteca del Congreso Nacional de Chile",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Salvador_Allende_Gossens-.jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-09-04T00:00:00Z",
-    "updatedAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-09T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-12 new-intake batch (2026-09): Latin America pick. The final chapter of his life is unusually well documented for a single compressed episode — his own broadcast final address survives directly, and the surrounding US destabilization campaign is independently documented via the declassified 1975 Church Committee report, not reliant on partisan retrospective narrative alone. The specific manner of his death during the coup has a long-disputed forensic and political history; this record deliberately states only the undisputed core fact (he remained in the palace and died there during the military assault) and does not assert a specific cause of death, consistent with this project's safety discipline against unsupported claims. Scored to completion before any eligibility check was run."
+    "notes": "Roster-12 new-intake batch (2026-09): Latin America pick. The final chapter of his life is unusually well documented for a single compressed episode — his own broadcast final address survives directly, and the surrounding US destabilization campaign is independently documented via the declassified 1975 Church Committee report, not reliant on partisan retrospective narrative alone. The specific manner of his death during the coup has a long-disputed forensic and political history; this record deliberately states only the undisputed core fact (he remained in the palace and died there during the military assault) and does not assert a specific cause of death, consistent with this project's safety discipline against unsupported claims. Scored to completion before any eligibility check was run. Roster26 fast-batch audit (2026-09): mechanical row scan found one extremity violation — risk_tolerance at 88 rested on a single final instance despite Section 4 requiring multiple independent instances for an 85+ score; corrected to 80, evidenceType/confidence unchanged (see row rationale). impact_motivation (82) draws on the same final address but was not flagged, since 82 sits within the 71-84 band which only requires one documented instance. No other rows required correction; metadata already valid. Held only for eligibility_v2 (coverage 0.569) — moved to evidence_approved; eligibility-only holdReason removed, computedEligibility preserved unchanged."
   },
-  "holdReason": "eligibility_v2 not met on first score: scored=19 attributes (>=18 required, met), avgConf=0.562, coverage=0.569 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
   "computedEligibility": {
     "scoredAttributeCount": 19,
     "averageConfidence": 0.562,

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "king-hussein-jordan",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "King Hussein of Jordan",
     "wikidataId": "Q146906",
@@ -185,13 +185,24 @@
       "rationale": "In his final weeks, chose to return from cancer treatment specifically to personally manage a succession dispute, prioritizing the state's stability over his own remaining time and comfort — a specific, documented, late-life act."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/king-hussein-jordan-pentagon-1997.jpg",
+    "width": 1173,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (US federal government work — US Department of Defense official photograph)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:HusseinJordanien.jpg",
+    "attribution": "Photograph by Helene C. Stikkel, 1997 — US Department of Defense",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:HusseinJordanien.jpg",
+    "kind": "likeness"
+  },
   "provenance": {
     "createdAt": "2026-09-04T00:00:00Z",
-    "updatedAt": "2026-09-04T00:00:00Z",
+    "updatedAt": "2026-09-09T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-12 new-intake batch (2026-09): West Asia pick (region was among the most underrepresented in the pre-batch roster at 2/96). The Black September decision is scored honestly as dual_edged (decisiveness) given its real, documented, contested human cost, rather than presented as an unqualified strength. Evidence draws on his own early memoir, declassified US diplomatic records, and independent international press across a 46-year public record, not a single tradition. Scored to completion before any eligibility check was run."
+    "notes": "Roster-12 new-intake batch (2026-09): West Asia pick (region was among the most underrepresented in the pre-batch roster at 2/96). The Black September decision is scored honestly as dual_edged (decisiveness) given its real, documented, contested human cost, rather than presented as an unqualified strength. Evidence draws on his own early memoir, declassified US diplomatic records, and independent international press across a 46-year public record, not a single tradition. Scored to completion before any eligibility check was run. Roster26 fast-batch audit (2026-09): mechanical row scan found no semantic mismatch, no unsupported extremity (max score 78, risk_tolerance and persistence), and metadata already valid. No correction needed; portrait added. Held only for eligibility_v2 (coverage 0.543, just short of the 0.6 floor) — moved to evidence_approved; eligibility-only holdReason removed, computedEligibility preserved unchanged."
   },
-  "holdReason": "eligibility_v2 not met on first score: scored=18 attributes (>=18 required, met), avgConf=0.546, coverage=0.543 (<0.6 required, the binding constraint here) — the weighted taxonomy coverage of the specific attributes scored falls just short despite meeting the raw attribute-count and confidence floors. Not padded or re-scored after seeing this result, per the confidence-change policy; held for a future evidence-deepening pass (more attributes from the existing evidence pack, not new research to hit a target).",
   "computedEligibility": {
     "scoredAttributeCount": 18,
     "averageConfidence": 0.546,

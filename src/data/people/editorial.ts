@@ -5629,4 +5629,264 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  "che-guevara": {
+    achievements: [
+      {
+        id: "che-guevara-achievement-1",
+        textKey: "che-guevara.achievement.1",
+        interpretationKey: "che-guevara.interpretation.achievement.1",
+        attributeId: "cross_domain_range",
+        sourceIds: ["src_che_motorcycle", "src_che_anderson"],
+      },
+      { id: "che-guevara-achievement-2", textKey: "che-guevara.achievement.2", sourceIds: ["src_che_anderson"] },
+    ],
+    moments: [
+      { id: "che-guevara-moment-1", textKey: "che-guevara.moment.1", sourceIds: ["src_che_motorcycle"] },
+      { id: "che-guevara-moment-2", textKey: "che-guevara.moment.2", sourceIds: ["src_che_farewell_letter"] },
+    ],
+    turningPoints: [
+      {
+        id: "che-guevara-turning-point-1",
+        textKey: "che-guevara.turning_point.1",
+        interpretationKey: "che-guevara.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_che_congo_diary", "src_che_bolivian_diary"],
+      },
+    ],
+  },
+
+  "fidel-castro": {
+    achievements: [
+      {
+        id: "fidel-castro-achievement-1",
+        textKey: "fidel-castro.achievement.1",
+        interpretationKey: "fidel-castro.interpretation.achievement.1",
+        attributeId: "persistence",
+        sourceIds: ["src_fc_press", "src_fc_ramonet"],
+      },
+      { id: "fidel-castro-achievement-2", textKey: "fidel-castro.achievement.2", sourceIds: ["src_fc_history_absolve"] },
+    ],
+    moments: [
+      { id: "fidel-castro-moment-1", textKey: "fidel-castro.moment.1", sourceIds: ["src_fc_press"] },
+      { id: "fidel-castro-moment-2", textKey: "fidel-castro.moment.2", sourceIds: ["src_fc_church_committee"] },
+    ],
+    turningPoints: [
+      {
+        id: "fidel-castro-turning-point-1",
+        textKey: "fidel-castro.turning_point.1",
+        interpretationKey: "fidel-castro.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_fc_ramonet"],
+      },
+    ],
+  },
+
+  "jawaharlal-nehru": {
+    achievements: [
+      {
+        id: "jawaharlal-nehru-achievement-1",
+        textKey: "jawaharlal-nehru.achievement.1",
+        interpretationKey: "jawaharlal-nehru.interpretation.achievement.1",
+        attributeId: "mastery_orientation",
+        sourceIds: ["src_nehru_discovery"],
+      },
+      { id: "jawaharlal-nehru-achievement-2", textKey: "jawaharlal-nehru.achievement.2", sourceIds: ["src_nehru_gopal"] },
+    ],
+    moments: [
+      { id: "jawaharlal-nehru-moment-1", textKey: "jawaharlal-nehru.moment.1", sourceIds: ["src_nehru_toward_freedom", "src_nehru_gopal"] },
+      { id: "jawaharlal-nehru-moment-2", textKey: "jawaharlal-nehru.moment.2", sourceIds: ["src_nehru_gopal"] },
+    ],
+    turningPoints: [
+      {
+        id: "jawaharlal-nehru-turning-point-1",
+        textKey: "jawaharlal-nehru.turning_point.1",
+        interpretationKey: "jawaharlal-nehru.interpretation.turning_point.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_nehru_gopal"],
+      },
+    ],
+  },
+
+  "ho-chi-minh": {
+    achievements: [
+      {
+        id: "ho-chi-minh-achievement-1",
+        textKey: "ho-chi-minh.achievement.1",
+        interpretationKey: "ho-chi-minh.interpretation.achievement.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_hcm_surete"],
+      },
+      { id: "ho-chi-minh-achievement-2", textKey: "ho-chi-minh.achievement.2", sourceIds: ["src_hcm_independence_speech"] },
+    ],
+    moments: [
+      { id: "ho-chi-minh-moment-1", textKey: "ho-chi-minh.moment.1", sourceIds: ["src_hcm_prison_diary"] },
+      { id: "ho-chi-minh-moment-2", textKey: "ho-chi-minh.moment.2", sourceIds: ["src_hcm_surete"] },
+    ],
+    turningPoints: [
+      {
+        id: "ho-chi-minh-turning-point-1",
+        textKey: "ho-chi-minh.turning_point.1",
+        interpretationKey: "ho-chi-minh.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_hcm_wikipedia"],
+      },
+    ],
+  },
+
+  "salvador-allende": {
+    achievements: [
+      {
+        id: "salvador-allende-achievement-1",
+        textKey: "salvador-allende.achievement.1",
+        interpretationKey: "salvador-allende.interpretation.achievement.1",
+        attributeId: "persistence",
+        sourceIds: ["src_sa_press"],
+      },
+      { id: "salvador-allende-achievement-2", textKey: "salvador-allende.achievement.2", sourceIds: ["src_sa_un_speech"] },
+    ],
+    moments: [
+      { id: "salvador-allende-moment-1", textKey: "salvador-allende.moment.1", sourceIds: ["src_sa_final_speech"] },
+      { id: "salvador-allende-moment-2", textKey: "salvador-allende.moment.2", sourceIds: ["src_sa_un_speech"] },
+    ],
+    turningPoints: [
+      {
+        id: "salvador-allende-turning-point-1",
+        textKey: "salvador-allende.turning_point.1",
+        interpretationKey: "salvador-allende.interpretation.turning_point.1",
+        attributeId: "mastery_orientation",
+        sourceIds: ["src_sa_wikipedia"],
+      },
+    ],
+  },
+
+  "corazon-aquino": {
+    achievements: [
+      {
+        id: "corazon-aquino-achievement-1",
+        textKey: "corazon-aquino.achievement.1",
+        interpretationKey: "corazon-aquino.interpretation.achievement.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_ca_press"],
+      },
+      { id: "corazon-aquino-achievement-2", textKey: "corazon-aquino.achievement.2", sourceIds: ["src_ca_press"] },
+    ],
+    moments: [
+      { id: "corazon-aquino-moment-1", textKey: "corazon-aquino.moment.1", sourceIds: ["src_ca_press"] },
+      { id: "corazon-aquino-moment-2", textKey: "corazon-aquino.moment.2", sourceIds: ["src_ca_constitution"] },
+    ],
+    turningPoints: [
+      {
+        id: "corazon-aquino-turning-point-1",
+        textKey: "corazon-aquino.turning_point.1",
+        interpretationKey: "corazon-aquino.interpretation.turning_point.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_ca_press"],
+      },
+    ],
+  },
+
+  "muhammad-ali-jinnah": {
+    achievements: [
+      {
+        id: "muhammad-ali-jinnah-achievement-1",
+        textKey: "muhammad-ali-jinnah.achievement.1",
+        interpretationKey: "muhammad-ali-jinnah.interpretation.achievement.1",
+        attributeId: "mastery_orientation",
+        sourceIds: ["src_maj_wolpert"],
+      },
+      { id: "muhammad-ali-jinnah-achievement-2", textKey: "muhammad-ali-jinnah.achievement.2", sourceIds: ["src_maj_1947_speech"] },
+    ],
+    moments: [
+      { id: "muhammad-ali-jinnah-moment-1", textKey: "muhammad-ali-jinnah.moment.1", sourceIds: ["src_maj_wolpert"] },
+      { id: "muhammad-ali-jinnah-moment-2", textKey: "muhammad-ali-jinnah.moment.2", sourceIds: ["src_maj_wolpert"] },
+    ],
+    turningPoints: [
+      {
+        id: "muhammad-ali-jinnah-turning-point-1",
+        textKey: "muhammad-ali-jinnah.turning_point.1",
+        interpretationKey: "muhammad-ali-jinnah.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_maj_press"],
+      },
+    ],
+  },
+
+  "nawal-el-saadawi": {
+    achievements: [
+      {
+        id: "nawal-el-saadawi-achievement-1",
+        textKey: "nawal-el-saadawi.achievement.1",
+        interpretationKey: "nawal-el-saadawi.interpretation.achievement.1",
+        attributeId: "discipline",
+        sourceIds: ["src_nes_prison_memoirs"],
+      },
+      { id: "nawal-el-saadawi-achievement-2", textKey: "nawal-el-saadawi.achievement.2", sourceIds: ["src_nes_press"] },
+    ],
+    moments: [
+      { id: "nawal-el-saadawi-moment-1", textKey: "nawal-el-saadawi.moment.1", sourceIds: ["src_nes_women_and_sex", "src_nes_press"] },
+      { id: "nawal-el-saadawi-moment-2", textKey: "nawal-el-saadawi.moment.2", sourceIds: ["src_nes_press"] },
+    ],
+    turningPoints: [
+      {
+        id: "nawal-el-saadawi-turning-point-1",
+        textKey: "nawal-el-saadawi.turning_point.1",
+        interpretationKey: "nawal-el-saadawi.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_nes_women_and_sex"],
+      },
+    ],
+  },
+
+  "puyi": {
+    achievements: [
+      {
+        id: "puyi-achievement-1",
+        textKey: "puyi.achievement.1",
+        interpretationKey: "puyi.interpretation.achievement.1",
+        attributeId: "curiosity",
+        sourceIds: ["src_py_johnston"],
+      },
+      { id: "puyi-achievement-2", textKey: "puyi.achievement.2", sourceIds: ["src_py_autobiography"] },
+    ],
+    moments: [
+      { id: "puyi-moment-1", textKey: "puyi.moment.1", sourceIds: ["src_py_manchukuo_records"] },
+      { id: "puyi-moment-2", textKey: "puyi.moment.2", sourceIds: ["src_py_autobiography"] },
+    ],
+    turningPoints: [
+      {
+        id: "puyi-turning-point-1",
+        textKey: "puyi.turning_point.1",
+        interpretationKey: "puyi.interpretation.turning_point.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_py_johnston", "src_py_autobiography"],
+      },
+    ],
+  },
+
+  "king-hussein-jordan": {
+    achievements: [
+      {
+        id: "king-hussein-jordan-achievement-1",
+        textKey: "king-hussein-jordan.achievement.1",
+        interpretationKey: "king-hussein-jordan.interpretation.achievement.1",
+        attributeId: "persistence",
+        sourceIds: ["src_kh_press"],
+      },
+      { id: "king-hussein-jordan-achievement-2", textKey: "king-hussein-jordan.achievement.2", sourceIds: ["src_kh_state_dept"] },
+    ],
+    moments: [
+      { id: "king-hussein-jordan-moment-1", textKey: "king-hussein-jordan.moment.1", sourceIds: ["src_kh_uneasy_lies"] },
+      { id: "king-hussein-jordan-moment-2", textKey: "king-hussein-jordan.moment.2", sourceIds: ["src_kh_press"] },
+    ],
+    turningPoints: [
+      {
+        id: "king-hussein-jordan-turning-point-1",
+        textKey: "king-hussein-jordan.turning_point.1",
+        interpretationKey: "king-hussein-jordan.interpretation.turning_point.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_kh_press"],
+      },
+    ],
+  },
 };

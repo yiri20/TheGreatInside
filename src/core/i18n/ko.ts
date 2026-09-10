@@ -1775,6 +1775,16 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.subrahmanyan-chandrasekhar": "수브라마니안 찬드라세카르",
   "person.name.fridtjof-nansen": "프리드쇼프 난센",
   "person.name.isabella-bird": "이사벨라 버드",
+  "person.name.che-guevara": "체 게바라",
+  "person.name.fidel-castro": "피델 카스트로",
+  "person.name.jawaharlal-nehru": "자와할랄 네루",
+  "person.name.ho-chi-minh": "호찌민",
+  "person.name.salvador-allende": "살바도르 아옌데",
+  "person.name.corazon-aquino": "코라손 아키노",
+  "person.name.muhammad-ali-jinnah": "무함마드 알리 진나",
+  "person.name.nawal-el-saadawi": "나왈 엘 사다위",
+  "person.name.puyi": "푸이",
+  "person.name.king-hussein-jordan": "후세인 1세",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

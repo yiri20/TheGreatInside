@@ -102,10 +102,17 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
   // (Vera Rubin, Subrahmanyan Chandrasekhar, Fridtjof Nansen, Isabella
   // Bird) plus two ordinary pre-existing-qa_passed additions that ARE
   // match-eligible (Nellie Bly, Carl Jung — these mirror normally and are
-  // not divergent), raising the baselines again to 133/132. The
-  // match-eligible SET grew by exactly those two (124 -> 126, see the next
-  // test) — the six non-eligible-but-visible people below are the only
-  // ones whose isDirectoryVisible diverges from isMatchEligible.
+  // not divergent), raising the baselines again to 133/132. Roster26
+  // (docs/checkpoints/roster26-ten-person-fast-batch.md) added nine more
+  // of the same divergent kind (Fidel Castro, Jawaharlal Nehru, Ho Chi
+  // Minh, Salvador Allende, Corazon Aquino, Muhammad Ali Jinnah, Nawal El
+  // Saadawi, Puyi, King Hussein of Jordan) plus one ordinary
+  // pre-existing-qa_passed addition that IS match-eligible (Che Guevara —
+  // mirrors normally, not divergent), raising the baselines to 143/142.
+  // The match-eligible SET grew by exactly Che Guevara this cycle (126 ->
+  // 127, see the next test) — the fifteen non-eligible-but-visible people
+  // below are the only ones whose isDirectoryVisible diverges from
+  // isMatchEligible.
   const KNOWN_DIVERGENT_SLUGS = new Set([
     "giuseppe-garibaldi",
     "anton-chekhov",
@@ -113,19 +120,28 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "subrahmanyan-chandrasekhar",
     "fridtjof-nansen",
     "isabella-bird",
+    "fidel-castro",
+    "jawaharlal-nehru",
+    "ho-chi-minh",
+    "salvador-allende",
+    "corazon-aquino",
+    "muhammad-ali-jinnah",
+    "nawal-el-saadawi",
+    "puyi",
+    "king-hussein-jordan",
   ]);
 
-  it("still exactly 133 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(133);
-    expect(PEOPLE_INDEX).toHaveLength(133);
+  it("still exactly 143 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(143);
+    expect(PEOPLE_INDEX).toHaveLength(143);
   });
 
-  it("still exactly 132 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 142 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(132);
+    expect(visible).toHaveLength(142);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the six deliberately-divergent roster24/25 additions", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the fifteen deliberately-divergent roster24/25/26 additions", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);
@@ -136,12 +152,10 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     }
   });
 
-  it("the match-eligible set grew by exactly Nellie Bly and Carl Jung (124 -> 126); no other person's eligibility changed", () => {
-    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(126);
-    const nellieBly = SEED_PEOPLE.find((p) => p.slug === "nellie-bly");
-    const carlJung = SEED_PEOPLE.find((p) => p.slug === "carl-jung");
-    expect(nellieBly?.isMatchEligible).toBe(true);
-    expect(carlJung?.isMatchEligible).toBe(true);
+  it("the match-eligible set grew by exactly Che Guevara (126 -> 127); no other person's eligibility changed", () => {
+    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(127);
+    const cheGuevara = SEED_PEOPLE.find((p) => p.slug === "che-guevara");
+    expect(cheGuevara?.isMatchEligible).toBe(true);
   });
 
   it("Zheng He's existing intended behavior is unchanged: published, not match-eligible, not directory-visible", () => {

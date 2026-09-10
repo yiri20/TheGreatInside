@@ -595,4 +595,21 @@ raises the target.
   unchanged (drift ≤0.006, negligible) and a matching-health simulation
   confirmed no domination (max #1 frequency 10.5%). Roster: **133 total /
   132 default-directory-visible / 126 match-eligible**. Full record:
-  [`roster25-fast-production-batch.md`](roster25-fast-production-batch.md).
+  [`roster25-fast-production-batch.md`](roster25-fast-production-batch.md)
+- **Roster26: ten-person fast production batch (2026-09,
+  `feat/roster26-ten-person-fast-batch`)**: a fixed ten-candidate intake
+  mechanically selected from existing candidate JSON only (no new
+  discovery). Che Guevara was already `qa_passed`/match-eligible and
+  preserved as-is. Fidel Castro, Jawaharlal Nehru, Ho Chi Minh, Salvador
+  Allende, Corazon Aquino, Muhammad Ali Jinnah, Nawal El Saadawi, Puyi,
+  and King Hussein of Jordan honestly failed `eligibility_v2`, none
+  rescued, and passed a first-time evidence-approval audit; two received
+  a `RUBRIC_CORRECTION` for a single-instance score drifted into the 85+
+  band (Castro's `persistence` 85->80, Allende's `risk_tolerance` 88->80
+  -- both move scores down). All ten promoted via `generateRoster26.ts`
+  with real rights-clear portraits and full EN/KO editorial content. The
+  match-eligible set grew by exactly Che Guevara (126->127); dispersion
+  regenerated, calibration anchors left unchanged (drift negligible), no
+  matching domination. Roster: **143 total / 142
+  default-directory-visible / 127 match-eligible**. Full record:
+  [`roster26-ten-person-fast-batch.md`](roster26-ten-person-fast-batch.md).
