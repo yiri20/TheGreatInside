@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "winston-churchill",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Winston Churchill",
     "wikidataId": "Q8016",
@@ -89,7 +89,7 @@
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Wrote a six-volume history of the Second World War after leaving office, for which he was awarded the Nobel Prize in Literature in 1953 -- a specific, documented sustained achievement distinct from his political career."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): After leaving office, wrote a six-volume history of The Second World War; in 1953 he received the Nobel Prize in Literature for his mastery of historical and biographical description as well as his brilliant oratory in defending exalted human values -- the prize recognized his broader literary/historical work, not the WWII history specifically. A specific, documented sustained achievement distinct from his political career."
     },
     "cross_domain_range": {
       "score": 86,
@@ -204,11 +204,20 @@
       "rationale": "His early, specific, and ultimately accurate warnings about German rearmament (contrasted with the prevailing political consensus) suggest real analytical capability, inferred from the documented accuracy of his assessment relative to consensus."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/winston-churchill-yalta-1945.jpg",
+    "source": "Wikimedia Commons / UK National Archives",
+    "license": "Public domain (UK Crown Copyright expired -- photograph taken prior to 1 June 1957; HMSO has confirmed the expiry of Crown Copyright applies worldwide)",
+    "width": 620,
+    "height": 824,
+    "attribution": "UK National Archives (Kew), 9 February 1945, Yalta Conference",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Winston_Churchill_1945.jpg"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: passes -- while born into an aristocratic family (his father was a prominent MP, his grandfather a duke), the political/literary achievements the roster credits him for (WWII leadership, the Nobel Prize in Literature) are his own, individually attributed accomplishments, not exercises of an inherited title or office; the counterfactual test (would these specific achievements still be notable without the inherited position) is satisfied -- his own multi-decade political career, built and rebuilt through electoral politics rather than inherited office, is the clearest evidence of this."
-  },
-  "holdReason": "Held after THREE genuine research/scoring rounds this session (source-first initial pass citing his official multi-volume biography and Royal Society memoir, then a targeted second round adding the documented 1915 Gallipoli resignation and 1916 frontline service): avgConf 0.501 -> 0.509, final avgConf 0.509 vs 0.55 floor, coverage 0.599 (0.001 short of the 0.6 floor -- essentially at the boundary). One of the most extensively documented people in modern history, yet even three rounds could not close a real ~0.04 confidence gap across 20 independently-scored attributes -- a genuinely important finding, not a research-effort shortfall: his documented record concentrates heavily in political/military decision-making (which maps strongly onto perhaps 6-8 of this taxonomy's 34 dimensions at real documented strength) rather than spreading evenly across all of them."
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: passes -- while born into an aristocratic family (his father was a prominent MP, his grandfather a duke), the political/literary achievements the roster credits him for (WWII leadership, the Nobel Prize in Literature) are his own, individually attributed accomplishments, not exercises of an inherited title or office; the counterfactual test (would these specific achievements still be notable without the inherited position) is satisfied -- his own multi-decade political career, built and rebuilt through electoral politics rather than inherited office, is the clearest evidence of this. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations. risk_tolerance (90) and independent_thinking (88) each cite two genuinely distinct dated episodes (1916 frontline service + 1940 war-cabinet decision; 1904 and 1924 floor-crossings) -- multi-instance, not a violation. persistence (85, the 1929-1939 'wilderness years') describes a sustained pattern of repeated public warnings over a decade, not a single anecdote or one continuous undertaking -- checked against scoring-rubric-v1 Section 4 and kept as a defensible extreme score for a trait this central to how Churchill is understood historically. Held only on eligibility_v2's confidence/coverage floors (avgConf 0.509 vs 0.55, coverage 0.599 vs 0.6 -- essentially at the boundary) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed. Post-PR28-review ERROR_CORRECTION (2026-09): achievement_drive's rationale inaccurately implied the 1953 Nobel Prize in Literature was awarded specifically for the six-volume WWII history; corrected to the actual citation (mastery of historical/biographical description and oratory). No score/confidence/evidenceType/impact change -- he still wrote the history and still received the prize; only the causal attribution was imprecise."
+  }
 }

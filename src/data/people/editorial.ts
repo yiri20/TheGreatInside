@@ -6202,4 +6202,310 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  // Roster28 fifteen-person fast production batch (2026-09).
+  "agatha-christie": {
+    achievements: [
+      { id: "agatha-christie-achievement-1", textKey: "agatha-christie.achievement.1", sourceIds: ["src_ac_thompson","src_ac_morgan"] },
+      { id: "agatha-christie-achievement-2", textKey: "agatha-christie.achievement.2", sourceIds: ["src_ac_thompson"] },
+      { id: "agatha-christie-achievement-3", textKey: "agatha-christie.achievement.3", sourceIds: ["src_ac_thompson"] },
+    ],
+    moments: [
+      {
+        id: "agatha-christie-moment-1",
+        textKey: "agatha-christie.moment.1",
+        interpretationKey: "agatha-christie.interpretation.moment.1",
+        attributeId: "persistence",
+        sourceIds: ["src_ac_thompson","src_ac_morgan"],
+      },
+      { id: "agatha-christie-moment-2", textKey: "agatha-christie.moment.2", sourceIds: ["src_ac_thompson","src_ac_morgan"] },
+    ],
+    turningPoints: [
+      {
+        id: "agatha-christie-turning-point-1",
+        textKey: "agatha-christie.turning_point.1",
+        interpretationKey: "agatha-christie.interpretation.turning_point.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_ac_thompson","src_ac_morgan"],
+      },
+    ],
+  },
+  "winston-churchill": {
+    achievements: [
+      { id: "winston-churchill-achievement-1", textKey: "winston-churchill.achievement.1", sourceIds: ["src_churchill_royalsociety","src_churchill_gilbert"] },
+      { id: "winston-churchill-achievement-2", textKey: "winston-churchill.achievement.2", sourceIds: ["src_churchill_wikipedia","src_churchill_gilbert"] },
+    ],
+    moments: [
+      { id: "winston-churchill-moment-1", textKey: "winston-churchill.moment.1", sourceIds: ["src_churchill_gallipoli","src_churchill_gilbert"] },
+      {
+        id: "winston-churchill-moment-2",
+        textKey: "winston-churchill.moment.2",
+        interpretationKey: "winston-churchill.interpretation.moment.2",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_churchill_gallipoli","src_churchill_gilbert"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "winston-churchill-turning-point-1",
+        textKey: "winston-churchill.turning_point.1",
+        interpretationKey: "winston-churchill.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_churchill_wikipedia","src_churchill_gilbert"],
+      },
+    ],
+  },
+  "thomas-jefferson": {
+    achievements: [
+      { id: "thomas-jefferson-achievement-1", textKey: "thomas-jefferson.achievement.1", sourceIds: ["src_tj_ellis","src_tj_wikipedia"] },
+      { id: "thomas-jefferson-achievement-2", textKey: "thomas-jefferson.achievement.2", sourceIds: ["src_tj_papers","src_tj_ellis"] },
+    ],
+    moments: [
+      { id: "thomas-jefferson-moment-1", textKey: "thomas-jefferson.moment.1", sourceIds: ["src_tj_papers","src_tj_ellis"] },
+      {
+        id: "thomas-jefferson-moment-2",
+        textKey: "thomas-jefferson.moment.2",
+        interpretationKey: "thomas-jefferson.interpretation.moment.2",
+        attributeId: "belief_updating",
+        sourceIds: ["src_tj_gordon_reed","src_tj_ellis"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "thomas-jefferson-turning-point-1",
+        textKey: "thomas-jefferson.turning_point.1",
+        interpretationKey: "thomas-jefferson.interpretation.turning_point.1",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_tj_ellis","src_tj_wikipedia"],
+      },
+    ],
+  },
+  "sun-yat-sen": {
+    achievements: [
+      { id: "sun-yat-sen-achievement-1", textKey: "sun-yat-sen.achievement.1", sourceIds: ["src_sunyatsen_sharman","src_sunyatsen_asiasociety"] },
+      { id: "sun-yat-sen-achievement-2", textKey: "sun-yat-sen.achievement.2", sourceIds: ["src_sunyatsen_wikipedia"] },
+    ],
+    moments: [
+      { id: "sun-yat-sen-moment-1", textKey: "sun-yat-sen.moment.1", sourceIds: ["src_sunyatsen_kidnapped","src_sunyatsen_jmch"] },
+      { id: "sun-yat-sen-moment-2", textKey: "sun-yat-sen.moment.2", sourceIds: ["src_sunyatsen_sharman"] },
+    ],
+    turningPoints: [
+      {
+        id: "sun-yat-sen-turning-point-1",
+        textKey: "sun-yat-sen.turning_point.1",
+        interpretationKey: "sun-yat-sen.interpretation.turning_point.1",
+        attributeId: "opportunity_sensing",
+        sourceIds: ["src_sunyatsen_kidnapped","src_sunyatsen_jmch"],
+      },
+    ],
+  },
+  "katharine-hepburn": {
+    achievements: [
+      { id: "katharine-hepburn-achievement-1", textKey: "katharine-hepburn.achievement.1", sourceIds: ["src_kh_berg","src_kh_wikipedia"] },
+      { id: "katharine-hepburn-achievement-2", textKey: "katharine-hepburn.achievement.2", sourceIds: ["src_kh_wikipedia"] },
+    ],
+    moments: [
+      { id: "katharine-hepburn-moment-1", textKey: "katharine-hepburn.moment.1", sourceIds: ["src_kh_tracy_family","src_kh_own_memoir"] },
+      { id: "katharine-hepburn-moment-2", textKey: "katharine-hepburn.moment.2", sourceIds: ["src_kh_berg"] },
+    ],
+    turningPoints: [
+      {
+        id: "katharine-hepburn-turning-point-1",
+        textKey: "katharine-hepburn.turning_point.1",
+        interpretationKey: "katharine-hepburn.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_kh_berg"],
+      },
+    ],
+  },
+  "henry-ford": {
+    achievements: [
+      { id: "henry-ford-achievement-1", textKey: "henry-ford.achievement.1", sourceIds: ["src_hf_watts","src_hf_wikipedia"] },
+      { id: "henry-ford-achievement-2", textKey: "henry-ford.achievement.2", sourceIds: ["src_hf_watts"] },
+    ],
+    moments: [
+      { id: "henry-ford-moment-1", textKey: "henry-ford.moment.1", sourceIds: ["src_hf_watts","src_hf_own_autobiography"] },
+      { id: "henry-ford-moment-2", textKey: "henry-ford.moment.2", sourceIds: ["src_hf_baldwin"] },
+    ],
+    turningPoints: [
+      {
+        id: "henry-ford-turning-point-1",
+        textKey: "henry-ford.turning_point.1",
+        interpretationKey: "henry-ford.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_hf_watts"],
+      },
+    ],
+  },
+  "eleanor-roosevelt": {
+    achievements: [
+      { id: "eleanor-roosevelt-achievement-1", textKey: "eleanor-roosevelt.achievement.1", sourceIds: ["src_eroosevelt_wikipedia","src_eroosevelt_gwu"] },
+      { id: "eleanor-roosevelt-achievement-2", textKey: "eleanor-roosevelt.achievement.2", sourceIds: ["src_eroosevelt_gwu"] },
+    ],
+    moments: [
+      { id: "eleanor-roosevelt-moment-1", textKey: "eleanor-roosevelt.moment.1", sourceIds: ["src_eroosevelt_wikipedia"] },
+      { id: "eleanor-roosevelt-moment-2", textKey: "eleanor-roosevelt.moment.2", sourceIds: ["src_eroosevelt_internment"] },
+    ],
+    turningPoints: [
+      {
+        id: "eleanor-roosevelt-turning-point-1",
+        textKey: "eleanor-roosevelt.turning_point.1",
+        interpretationKey: "eleanor-roosevelt.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_eroosevelt_internment","src_eroosevelt_gwu"],
+      },
+    ],
+  },
+  "stephen-hawking": {
+    achievements: [
+      { id: "stephen-hawking-achievement-1", textKey: "stephen-hawking.achievement.1", sourceIds: ["src_hawking_janehawking","src_hawking_wikipedia"] },
+      { id: "stephen-hawking-achievement-2", textKey: "stephen-hawking.achievement.2", sourceIds: ["src_hawking_wikipedia"] },
+    ],
+    moments: [
+      { id: "stephen-hawking-moment-1", textKey: "stephen-hawking.moment.1", sourceIds: ["src_hawking_janehawking"] },
+      { id: "stephen-hawking-moment-2", textKey: "stephen-hawking.moment.2", sourceIds: ["src_hawking_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "stephen-hawking-turning-point-1",
+        textKey: "stephen-hawking.turning_point.1",
+        interpretationKey: "stephen-hawking.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_hawking_janehawking"],
+      },
+    ],
+  },
+  "diego-rivera": {
+    achievements: [
+      { id: "diego-rivera-achievement-1", textKey: "diego-rivera.achievement.1", sourceIds: ["src_rivera_moma","src_rivera_wikipedia"] },
+      { id: "diego-rivera-achievement-2", textKey: "diego-rivera.achievement.2", sourceIds: ["src_rivera_wikipedia"] },
+    ],
+    moments: [
+      { id: "diego-rivera-moment-1", textKey: "diego-rivera.moment.1", sourceIds: ["src_rivera_wikipedia","src_rivera_moma"] },
+      { id: "diego-rivera-moment-2", textKey: "diego-rivera.moment.2", sourceIds: ["src_rivera_moma"] },
+    ],
+    turningPoints: [
+      {
+        id: "diego-rivera-turning-point-1",
+        textKey: "diego-rivera.turning_point.1",
+        interpretationKey: "diego-rivera.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_rivera_moma"],
+      },
+    ],
+  },
+  "naguib-mahfouz": {
+    achievements: [
+      { id: "naguib-mahfouz-achievement-1", textKey: "naguib-mahfouz.achievement.1", sourceIds: ["src_mahfouz_nobel"] },
+      { id: "naguib-mahfouz-achievement-2", textKey: "naguib-mahfouz.achievement.2", sourceIds: ["src_mahfouz_elenany"] },
+    ],
+    moments: [
+      { id: "naguib-mahfouz-moment-1", textKey: "naguib-mahfouz.moment.1", sourceIds: ["src_mahfouz_press","src_mahfouz_wikipedia"] },
+      { id: "naguib-mahfouz-moment-2", textKey: "naguib-mahfouz.moment.2", sourceIds: ["src_mahfouz_press"] },
+    ],
+    turningPoints: [
+      {
+        id: "naguib-mahfouz-turning-point-1",
+        textKey: "naguib-mahfouz.turning_point.1",
+        interpretationKey: "naguib-mahfouz.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_mahfouz_wikipedia","src_mahfouz_press"],
+      },
+    ],
+  },
+  "ida-b-wells": {
+    achievements: [
+      { id: "ida-b-wells-achievement-1", textKey: "ida-b-wells.achievement.1", sourceIds: ["src_wells_loc","src_wells_wikipedia"] },
+      { id: "ida-b-wells-achievement-2", textKey: "ida-b-wells.achievement.2", sourceIds: ["src_wells_autobiography","src_wells_loc"] },
+    ],
+    moments: [
+      { id: "ida-b-wells-moment-1", textKey: "ida-b-wells.moment.1", sourceIds: ["src_wells_loc","src_wells_autobiography"] },
+      { id: "ida-b-wells-moment-2", textKey: "ida-b-wells.moment.2", sourceIds: ["src_wells_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "ida-b-wells-turning-point-1",
+        textKey: "ida-b-wells.turning_point.1",
+        interpretationKey: "ida-b-wells.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_wells_wikipedia"],
+      },
+    ],
+  },
+  "junko-tabei": {
+    achievements: [
+      { id: "junko-tabei-achievement-1", textKey: "junko-tabei.achievement.1", sourceIds: ["src_tabei_wikipedia","src_tabei_womeninexploration"] },
+      { id: "junko-tabei-achievement-2", textKey: "junko-tabei.achievement.2", sourceIds: ["src_tabei_wikipedia"] },
+    ],
+    moments: [
+      { id: "junko-tabei-moment-1", textKey: "junko-tabei.moment.1", sourceIds: ["src_tabei_wikipedia"] },
+      { id: "junko-tabei-moment-2", textKey: "junko-tabei.moment.2", sourceIds: ["src_tabei_wikipedia","src_tabei_womeninexploration"] },
+    ],
+    turningPoints: [
+      {
+        id: "junko-tabei-turning-point-1",
+        textKey: "junko-tabei.turning_point.1",
+        interpretationKey: "junko-tabei.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_tabei_memoir","src_tabei_aac_review"],
+      },
+    ],
+  },
+  "ravi-shankar": {
+    achievements: [
+      { id: "ravi-shankar-achievement-1", textKey: "ravi-shankar.achievement.1", sourceIds: ["src_shankar_autobiography","src_shankar_wikipedia"] },
+      { id: "ravi-shankar-achievement-2", textKey: "ravi-shankar.achievement.2", sourceIds: ["src_shankar_press","src_shankar_wikipedia"] },
+    ],
+    moments: [
+      { id: "ravi-shankar-moment-1", textKey: "ravi-shankar.moment.1", sourceIds: ["src_shankar_press"] },
+      { id: "ravi-shankar-moment-2", textKey: "ravi-shankar.moment.2", sourceIds: ["src_shankar_wikipedia"] },
+    ],
+    turningPoints: [
+      {
+        id: "ravi-shankar-turning-point-1",
+        textKey: "ravi-shankar.turning_point.1",
+        interpretationKey: "ravi-shankar.interpretation.turning_point.1",
+        attributeId: "discipline",
+        sourceIds: ["src_shankar_autobiography"],
+      },
+    ],
+  },
+  "winnie-madikizela-mandela": {
+    achievements: [
+      { id: "winnie-madikizela-mandela-achievement-1", textKey: "winnie-madikizela-mandela.achievement.1", sourceIds: ["src_wmm_press","src_wmm_wikipedia"] },
+      { id: "winnie-madikizela-mandela-achievement-2", textKey: "winnie-madikizela-mandela.achievement.2", sourceIds: ["src_wmm_wikipedia"] },
+    ],
+    moments: [
+      { id: "winnie-madikizela-mandela-moment-1", textKey: "winnie-madikizela-mandela.moment.1", sourceIds: ["src_wmm_trc"] },
+      { id: "winnie-madikizela-mandela-moment-2", textKey: "winnie-madikizela-mandela.moment.2", sourceIds: ["src_wmm_press"] },
+    ],
+    turningPoints: [
+      {
+        id: "winnie-madikizela-mandela-turning-point-1",
+        textKey: "winnie-madikizela-mandela.turning_point.1",
+        interpretationKey: "winnie-madikizela-mandela.interpretation.turning_point.1",
+        attributeId: "persistence",
+        sourceIds: ["src_wmm_491days"],
+      },
+    ],
+  },
+  "amartya-sen": {
+    achievements: [
+      { id: "amartya-sen-achievement-1", textKey: "amartya-sen.achievement.1", sourceIds: ["src_sen_nobel","src_sen_wikipedia"] },
+      { id: "amartya-sen-achievement-2", textKey: "amartya-sen.achievement.2", sourceIds: ["src_sen_nobel"] },
+    ],
+    moments: [
+      { id: "amartya-sen-moment-1", textKey: "amartya-sen.moment.1", sourceIds: ["src_sen_wikipedia"] },
+      { id: "amartya-sen-moment-2", textKey: "amartya-sen.moment.2", sourceIds: ["src_sen_nobel"] },
+    ],
+    turningPoints: [
+      {
+        id: "amartya-sen-turning-point-1",
+        textKey: "amartya-sen.turning_point.1",
+        interpretationKey: "amartya-sen.interpretation.turning_point.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_sen_nobel","src_sen_wikipedia"],
+      },
+    ],
+  },
 };

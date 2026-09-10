@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "junko-tabei",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Junko Tabei",
     "wikidataId": "Q234491",
@@ -25,7 +25,7 @@
     "impactDomains": [
       "athletic",
       "historical",
-      "environmental"
+      "social"
     ],
     "tagIds": [
       "founder",
@@ -213,11 +213,21 @@
       "rationale": "[NEW ROW, NEW_EVIDENCE, this session] Her own memoir-derived account documents sustained, concurrent engagement across family life, teaching, and international high-altitude mountaineering into her late 70s — genuine range across distinct life domains (not just athletic achievement), though scored at strong_inference rather than documented since this rests on a reviewer's summary characterization of the memoir's content rather than a specific named episode in each domain."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/junko-tabei-kunnap-1985.jpg",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "width": 577,
+    "height": 769,
+    "attribution": "Jaan Kunnap, 1985",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Junko_Tabei_85_(3to4).jpg"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: contemporary, east_asia, exploration/mountaineering domain not represented anywhere in the current roster. Evidence-deepening pass (2026-09-03, held-candidate evidence audit follow-up): added Honouring High Places (2017), an English-translated compilation of Tabei's own Japanese memoirs, verified real this session (not previously consulted at all — flagged in the audit as the single highest-value untapped source). 2 rows upgraded (persistence, independent_thinking, both NEW_EVIDENCE via a second temporally-distinct instance), 1 new row added (cross_domain_range, coverage 21->22). collaboration was investigated but deliberately NOT touched: a review of the memoir says it covers 'interpersonal challenges' during expeditions, but no specific episode was found via secondary sources this pass (only a reviewer's general characterization) — raising confidence there would not be evidence-grounded without the actual book text. Did not re-run eligibility mid-edit."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.495 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+    "notes": "Third-batch diversity pick: contemporary, east_asia, exploration/mountaineering domain not represented anywhere in the current roster. Evidence-deepening pass (2026-09-03, held-candidate evidence audit follow-up): added Honouring High Places (2017), an English-translated compilation of Tabei's own Japanese memoirs, verified real this session (not previously consulted at all — flagged in the audit as the single highest-value untapped source). 2 rows upgraded (persistence, independent_thinking, both NEW_EVIDENCE via a second temporally-distinct instance), 1 new row added (cross_domain_range, coverage 21->22). collaboration was investigated but deliberately NOT touched: a review of the memoir says it covers 'interpersonal challenges' during expeditions, but no specific episode was found via secondary sources this pass (only a reviewer's general characterization) — raising confidence there would not be evidence-grounded without the actual book text. Did not re-run eligibility mid-edit. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations (highest score 80, achievement_drive) and no other rubric issues -- this file's own prior evidence-deepening pass already modeled good multi-instance discipline (persistence/independent_thinking both explicitly cite two temporally-distinct instances without pushing into the 85+ band). Held only on eligibility_v2's confidence floor (avgConf 0.495 vs 0.55) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed. CLASSIFICATION METADATA CORRECTION (caught by tsc, not the manual row audit): classification.impactDomains included \"environmental\", which is not a member of the IMPACT_DOMAINS enum (src/core/types.ts) -- corrected to \"social\" (her later-career focus was environmental conservation advocacy, a form of social impact; same substitution precedent as roster27's Borlaug \"humanitarian\"->\"social\" fix). No score/confidence/evidenceType/impact change."
+  }
 }

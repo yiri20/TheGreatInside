@@ -11,6 +11,16 @@ arithmetic), see
 
 ## Current numbers
 
+**Stale header, kept only for the roster-1000-era narrative below it —
+see [`CURRENT_STATE.md`](../context/CURRENT_STATE.md) for the actual
+current count.** As of Roster28 (2026-09-10): **170 total / 169
+default-directory-visible / 127 match-eligible.** The figures immediately
+below (125/124) describe the state at the close of the original
+roster-1000 program (roster-16, `ROSTER_125_TARGET_REACHED`) and are
+preserved as the entry point into that narrative, not the live count —
+every roster cycle since (17 through 28) is its own dated entry further
+down this file.
+
 - **125 people, 124 match-eligible** (Zheng He is the sole exception —
   browsable, fails only the coverage gate). The People Directory's
   default (unfiltered) view shows the match-eligible count (124), not the
@@ -641,3 +651,39 @@ raises the target.
   change. Roster: **155 total / 154 default-directory-visible / 127
   match-eligible**. Full record:
   [`roster27-twelve-person-fast-batch.md`](roster27-twelve-person-fast-batch.md).
+- **Roster28: fifteen-person fast production batch (2026-09,
+  `feat/roster28-fifteen-person-fast-batch`)**: a fixed fifteen-candidate
+  intake from the existing `held` pool, this cycle explicitly weighted
+  toward broad public recognizability among evidence-viable candidates
+  (recognizability affected productization order only — never scores,
+  confidence, evidenceType, impact, or eligibility). Agatha Christie,
+  Winston Churchill, Thomas Jefferson, Sun Yat-sen, Katharine Hepburn,
+  Henry Ford, Eleanor Roosevelt, Stephen Hawking, Diego Rivera, Naguib
+  Mahfouz, Ida B. Wells, Junko Tabei, Ravi Shankar, Winnie
+  Madikizela-Mandela, and Amartya Sen honestly failed `eligibility_v2`,
+  none rescued, and passed a first-time evidence-approval audit that
+  explicitly excluded 22 `held` candidates with evidence-integrity/
+  identity/sourcing concerns (17 flagged by the session-11
+  confidence-inflation incident referenced above, plus John von Neumann,
+  Marco Polo, Sun Tzu, Sitting Bull, and Rigoberta Menchú) rather than
+  promoting from a flagged pool for throughput. 3 `RUBRIC_CORRECTION`s
+  across 2 candidates for single-episode scores drifted into the 85+ band
+  (Sun Yat-sen `risk_tolerance` 88->80; Wells `risk_tolerance` 90->80 and
+  `proactive_agency` 88->80 -- all move scores down); separately, 1
+  classification metadata correction (Tabei's `impactDomains`
+  `"environmental"`, not a valid enum value, ->`"social"`) plus 2 product
+  taxonomy/i18n coverage fixes (`occupation.economist`,
+  `field.diplomacy`). All fifteen promoted via `generateRoster28.ts` with
+  real rights-clear portraits (one `editorial_nonlikeness`, Mahfouz,
+  honestly labeled) and full EN/KO editorial content. A post-PR28-review
+  pass separately re-read every claim against its cited source (not just
+  its own rationale text) and found 6 further factual/source-attribution
+  wording issues across 6 candidates -- Churchill, Hepburn, Jefferson,
+  Rivera, Mahfouz, Ford -- corrected as `ERROR_CORRECTION`s to the
+  candidate rationale and matching EN/KO editorial text; none changed
+  any score, confidence, evidenceType, or impact value. **Zero newly
+  match-eligible people** this cycle -- dispersion/calibration correctly
+  left untouched since the match-eligible set didn't change. Roster:
+  **170 total / 169 default-directory-visible / 127 match-eligible**.
+  Full record:
+  [`roster28-fifteen-person-fast-batch.md`](roster28-fifteen-person-fast-batch.md).

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "katharine-hepburn",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Katharine Hepburn",
     "wikidataId": "Q56016",
@@ -71,7 +71,7 @@
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Documented as being publicly labeled \"box office poison\" by theater owners in 1938 after a string of commercial failures, then personally purchasing the film rights to The Philadelphia Story specifically to engineer her own career comeback — a specific, self-financed, independently corroborated recovery strategy."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented as being publicly labeled \"box office poison\" by theater owners in 1938 after a string of commercial failures, then leveraging the film rights to The Philadelphia Story -- which Howard Hughes had acquired and transferred to her -- to negotiate and engineer her own career comeback on unusually favorable terms, an independently corroborated recovery strategy. (Corrected: reliable accounts credit Hughes, not Hepburn, with the film-rights purchase itself; she controlled and leveraged those rights rather than personally buying or financing them.)"
     },
     "adaptability": {
       "score": 68,
@@ -99,7 +99,7 @@
       "confidence": 0.42,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Documented as taking direct personal control of her own career decisions (buying her own film rights, negotiating her own contracts unusually independently for the era) but not building or leading a formal organization — influence through personal career control rather than institutional leadership, scored near center."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented as taking direct personal control of her own career decisions (controlling the film rights Howard Hughes transferred to her, negotiating her own contracts unusually independently for the era) but not building or leading a formal organization — influence through personal career control rather than institutional leadership, scored near center."
     },
     "persuasiveness": {
       "score": 62,
@@ -134,7 +134,7 @@
       "confidence": 0.62,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Documented as purchasing her own film rights and controlling her own casting decisions unusually independently for a female star under the studio system, and maintaining her own separate residence throughout her relationship with Tracy rather than a conventional domestic arrangement — a sustained pattern across career and personal life."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented as controlling the film rights Howard Hughes had transferred to her and exercising her own casting decisions unusually independently for a female star under the studio system, and maintaining her own separate residence throughout her relationship with Tracy rather than a conventional domestic arrangement — a sustained pattern across career and personal life."
     },
     "impact_motivation": {
       "score": 50,
@@ -155,7 +155,7 @@
       "confidence": 0.58,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Self-initiated the purchase of The Philadelphia Story's film rights specifically to control the terms of her own comeback rather than wait for studios to offer her a path back, a documented, self-directed career rescue rather than a role offered to her."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Self-initiated the negotiation of unusually favorable comeback terms -- including approval over key production choices -- using the film rights Howard Hughes had transferred to her, rather than waiting for studios to offer her a path back; a documented, self-directed career rescue rather than a role offered to her."
     },
     "collaboration": {
       "score": 70,
@@ -190,14 +190,14 @@
       "confidence": 0.5,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Documented, independently corroborated by Berg's biography, as recognizing The Philadelphia Story's specific potential as a comeback vehicle before any studio did, securing the stage and film rights herself first and controlling the casting -- a specific, verified sequence, not inferred from outcome alone."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented, independently corroborated by Berg's biography, as recognizing The Philadelphia Story's specific potential as a comeback vehicle before any studio did, securing the stage rights herself and then controlling the film rights transferred to her by Howard Hughes, including the casting -- a specific, verified sequence, not inferred from outcome alone."
     },
     "resourcefulness": {
       "score": 65,
       "confidence": 0.5,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Documented, independently corroborated by Berg's account, as using her own capital and prior stage success to engineer a film comeback when studios had effectively blacklisted her as \"box office poison\" -- a specific, verified instance of resourceful, self-financed career recovery, not her own claim alone."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Documented, independently corroborated by Berg's account, as leveraging her prior stage success and the film rights Howard Hughes had transferred to her to engineer a film comeback when studios had effectively blacklisted her as \"box office poison\" -- a specific, corroborated instance of resourceful career recovery, not her own claim alone. (Corrected: earlier wording described this as self-financed/her own capital, which reliable accounts do not support -- Hughes acquired the film rights, not Hepburn.)"
     },
     "aesthetic_sensitivity": {
       "score": 55,
@@ -211,14 +211,24 @@
       "confidence": 0.5,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "The Philadelphia Story comeback was documented as a deliberately sequenced plan -- securing stage rights first to rebuild critical standing, then selling the film rights on her own terms with cast approval -- rather than an opportunistic single decision, independently corroborated by Berg's account of the multi-step strategy."
+      "rationale": "The Philadelphia Story comeback was documented as a deliberately sequenced plan -- securing stage rights first to rebuild critical standing, then controlling the film rights (transferred to her by Howard Hughes) on her own terms with cast approval -- rather than an opportunistic single decision, independently corroborated by Berg's account of the multi-step strategy."
     }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/katharine-hepburn-mgm-1941.jpg",
+    "source": "Wikimedia Commons",
+    "license": "Public domain (US work published 1931-1963; copyright not renewed, per a documented search of 1968-1970 copyright renewal records)",
+    "width": 1207,
+    "height": 1600,
+    "attribution": "Metro-Goldwyn-Mayer Studios, 1941 -- studio publicity photograph, restored by Adam Cuerden",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Katharine_Hepburn_publicity_photograph.jpg"
   },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
     "updatedAt": "2026-09-05T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q56016) before scoring. Depth-focused this cycle: rows corroborated independently by multiple co-stars/crew across different decades, by Tracy's own family and biographers, or by Berg's independent biography rather than Hepburn's self-presentation alone (discipline, persistence, social_assertiveness, conflict_tolerance, collaboration, risk_tolerance, persuasiveness, opportunity_sensing, resourcefulness, planning_orientation) were prioritized for the higher confidence band. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q56016) before scoring. Depth-focused this cycle: rows corroborated independently by multiple co-stars/crew across different decades, by Tracy's own family and biographers, or by Berg's independent biography rather than Hepburn's self-presentation alone (discipline, persistence, social_assertiveness, conflict_tolerance, collaboration, risk_tolerance, persuasiveness, opportunity_sensing, resourcefulness, planning_orientation) were prioritized for the higher confidence band. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations (highest score 78, discipline/persistence/autonomy_need) and no other rubric issues. Held only on eligibility_v2's high-confidence-average floor (0.54 vs 0.55, despite clearing the 12-row depth gate at 14) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed; computedEligibility preserved unchanged. Post-PR28-review ERROR_CORRECTION (2026-09): seven rows (persistence, leadership_drive, autonomy_need, proactive_agency, opportunity_sensing, resourcefulness, planning_orientation) inaccurately described Hepburn as personally purchasing/self-financing the acquisition of The Philadelphia Story's film rights. Reliable accounts credit Howard Hughes with acquiring the film rights and transferring them to her; she then controlled and leveraged those rights (casting approval, production choices, contract negotiation) to engineer her comeback. All seven rows reworded to reflect control/leverage rather than purchase/self-financing. No score/confidence/evidenceType/impact change on any row -- the underlying behavioral pattern (deliberate, self-directed comeback engineering; real exercised autonomy over casting and production) remains evidenced by the corrected facts; only the rights-acquisition mechanism was inaccurate. Her own stage-rights involvement (undisputed) and the 26-year Tracy-relationship autonomy evidence are unaffected."
   },
   "computedEligibility": {
     "scoredAttributeCount": 22,
@@ -226,6 +236,5 @@
     "coverage": 0.642,
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
-  },
-  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.642 (>=0.6 OK), highConfidenceCount 14 (>=12 OK) -- but highConfidenceAverage 0.54 is below the 0.55 threshold. A genuinely different miss pattern than roster-15's held candidates: the depth gate (>=12 high-confidence rows) was cleared comfortably, but the average strength within that qualifying band was still slightly too thin. Not rescued: no confidence raised post-validation."
+  }
 }

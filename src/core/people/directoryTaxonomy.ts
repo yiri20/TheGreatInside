@@ -127,7 +127,7 @@ export const PROFESSION_CATEGORIES: readonly ProfessionCategory[] = [
   {
     id: "leadership_society",
     labelKey: "people.directory.profession_category.leadership_society",
-    fieldIds: ["politics", "civil_rights", "military", "education", "law", "social_reform"],
+    fieldIds: ["politics", "diplomacy", "civil_rights", "military", "education", "law", "social_reform"],
   },
   {
     id: "building_discovery",

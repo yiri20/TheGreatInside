@@ -294,6 +294,25 @@ describe("confidence and missing data", () => {
       "rosa-parks",
       "ken-saro-wiwa",
       "bob-marley",
+      // roster28 (2026-09): all fifteen evidence_approved, published,
+      // directory-visible, honestly under eligibility_v2's
+      // confidence/coverage floors -- see
+      // docs/checkpoints/roster28-fifteen-person-fast-batch.md.
+      "agatha-christie",
+      "winston-churchill",
+      "thomas-jefferson",
+      "sun-yat-sen",
+      "katharine-hepburn",
+      "henry-ford",
+      "eleanor-roosevelt",
+      "stephen-hawking",
+      "diego-rivera",
+      "naguib-mahfouz",
+      "ida-b-wells",
+      "junko-tabei",
+      "ravi-shankar",
+      "winnie-madikizela-mandela",
+      "amartya-sen",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -528,6 +547,25 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "rosa-parks",
       "ken-saro-wiwa",
       "bob-marley",
+      // roster28 (2026-09): all fifteen evidence_approved, published,
+      // directory-visible, honestly under eligibility_v2's
+      // confidence/coverage floors -- see
+      // docs/checkpoints/roster28-fifteen-person-fast-batch.md.
+      "agatha-christie",
+      "winston-churchill",
+      "thomas-jefferson",
+      "sun-yat-sen",
+      "katharine-hepburn",
+      "henry-ford",
+      "eleanor-roosevelt",
+      "stephen-hawking",
+      "diego-rivera",
+      "naguib-mahfouz",
+      "ida-b-wells",
+      "junko-tabei",
+      "ravi-shankar",
+      "winnie-madikizela-mandela",
+      "amartya-sen",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

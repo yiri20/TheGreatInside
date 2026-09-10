@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "sun-yat-sen",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Sun Yat-sen",
     "wikidataId": "Q8573",
@@ -67,11 +67,11 @@
   ],
   "rows": {
     "risk_tolerance": {
-      "score": 88,
+      "score": 80,
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "In October 1896 he was lured into the Chinese Legation in London by Qing officials who planned to smuggle him back to China for execution over a failed 1895 uprising; released only through the intervention of a former professor -- a specific, precisely dated, extensively documented episode, and he continued revolutionary organizing afterward rather than withdrawing."
+      "rationale": "RUBRIC_CORRECTION (roster28 fast-batch audit, 2026-09; score-band correction only): In October 1896 he was lured into the Chinese Legation in London by Qing officials who planned to smuggle him back to China for execution over a failed 1895 uprising; released only through the intervention of a former professor -- a specific, precisely dated, extensively documented episode. Originally scored 88/documented; corrected to 80 because this rests on one single dated episode (continuing to organize afterward is not itself a second risk-taking instance), per scoring-rubric-v1 Section 4's 85+ requirement for multiple independent documented instances. Score-band correction only: evidenceType and confidence unchanged."
     },
     "persistence": {
       "score": 90,
@@ -198,11 +198,20 @@
       "rationale": "Sustained, increasingly sophisticated organizational and diplomatic capability across two decades of revolutionary organizing suggests developing mastery, inferred from the documented career arc."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sun-yat-sen-standard-portrait-1922.jpg",
+    "source": "Wikimedia Commons",
+    "license": "Public domain (photography work; copyright expired under both PRC and ROC/Taiwan law)",
+    "width": 1219,
+    "height": 1600,
+    "attribution": "Bo'er Photo Studio, Shanghai, 15 November 1922 -- the widely-used 'standard portrait'",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- no inherited position; a physician by training whose political role was entirely self-built through decades of organizing. Evidence-deepening pass (2026-09-03, Track B batch 2a): added his own 1897 published account of the 1896 kidnapping (previously only used for risk_tolerance) plus a 2021 scholarly analysis of its strategic/propaganda use. 2 rows upgraded (opportunity_sensing, persuasiveness) via a genuinely distinct instance, not a re-count of the same risk_tolerance anecdote. Bergere's full 1998 biography was NOT separately mined this pass (a real limitation, disclosed rather than papered over) -- only secondary discussion of it was available. Did not re-run eligibility mid-edit. [Labeled NEW_EVIDENCE, added on final-QA sweep: the opportunity_sensing/persuasiveness changes above are the 1897 published kidnapping account and 2021 scholarly analysis described in this same note, not a rubric or error correction.]"
-  },
-  "holdReason": "Held after a genuine source-first research/scoring pass this session (citing Lyon Sharman's and Harold Schiffrin's standard biographies): avgConf 0.464 vs 0.55 floor, coverage 0.572 vs 0.6 floor. The documented 1896 London kidnapping and the quantified 20-year fundraising/organizing record support several strong rows, but much of his personal working style and decision process beyond the organizational/political record is comparatively thin in the English-language secondary literature consulted this session."
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- no inherited position; a physician by training whose political role was entirely self-built through decades of organizing. Evidence-deepening pass (2026-09-03, Track B batch 2a): added his own 1897 published account of the 1896 kidnapping (previously only used for risk_tolerance) plus a 2021 scholarly analysis of its strategic/propaganda use. 2 rows upgraded (opportunity_sensing, persuasiveness) via a genuinely distinct instance, not a re-count of the same risk_tolerance anecdote. Bergere's full 1998 biography was NOT separately mined this pass (a real limitation, disclosed rather than papered over) -- only secondary discussion of it was available. Did not re-run eligibility mid-edit. [Labeled NEW_EVIDENCE, added on final-QA sweep: the opportunity_sensing/persuasiveness changes above are the 1897 published kidnapping account and 2021 scholarly analysis described in this same note, not a rubric or error correction.] Roster28 fast-batch audit (2026-09): mechanical row scan found one extremity violation -- risk_tolerance (88) rested on a single dated episode (the 1896 kidnapping); corrected to 80, evidenceType/confidence unchanged (see row rationale). persistence (90, quantified 63+ separate organizing trips across two decades) and cross-referenced multi-instance rows were checked and are NOT violations. Held only on eligibility_v2's confidence/coverage floors (avgConf 0.464 vs 0.55, coverage 0.572 vs 0.6) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed; computedEligibility was never cached on this file (pre-dates that field's introduction) and none is added retroactively."
+  }
 }

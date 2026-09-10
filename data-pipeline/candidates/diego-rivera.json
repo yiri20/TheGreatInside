@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "diego-rivera",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Diego Rivera",
     "wikidataId": "Q171128",
@@ -54,7 +54,7 @@
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Founded the Mexican Muralism movement, developing large-scale public fresco painting as a distinctive art form integrating pre-Columbian, folk, and modernist European technique, documented via the movement's own lasting art-historical recognition and influence."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Became one of the central pioneering figures of Mexican Muralism, developing large-scale public fresco painting as a distinctive art form integrating pre-Columbian, folk, and modernist European technique, documented via the movement's own lasting art-historical recognition and influence. (Corrected: the post-revolutionary state-sponsored mural program under José Vasconcelos helped launch the movement, and Rivera was one of its principal figures alongside José Clemente Orozco and David Alfaro Siqueiros, not its sole founder.)"
     },
     "impact_motivation": {
       "score": 82,
@@ -131,14 +131,14 @@
       "confidence": 0.42,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Founded the Mexican Muralism movement alongside contemporaries (including José Clemente Orozco and David Alfaro Siqueiros), suggesting real capacity to build and sustain a shared artistic movement despite his own strong individual convictions."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Was one of the pioneering figures of the Mexican Muralism movement alongside contemporaries (including José Clemente Orozco and David Alfaro Siqueiros), suggesting real capacity to build and sustain a shared artistic movement despite his own strong individual convictions."
     },
     "leadership_drive": {
       "score": 62,
       "confidence": 0.44,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Widely credited as a principal founder and leading figure of the Mexican Muralism movement, documented via the movement's own well-established historical association with him as one of its central figures."
+      "rationale": "Widely credited as one of the movement's principal pioneering figures and leaders, documented via Mexican Muralism's own well-established historical association with him as one of its central figures. (Lightly retightened, post-PR28-review: 'a principal founder' could still read as overstating sole/primary founding credit -- see creative_originality's ERROR_CORRECTION for the full context.)"
     },
     "mastery_orientation": {
       "score": 58,
@@ -187,7 +187,7 @@
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Founded Mexican Muralism as a genuinely distinct public-art movement departing from prevailing gallery-based fine-art convention, documented via the movement's own well-established historical departure from that norm."
+      "rationale": "ERROR_CORRECTION (post-PR28-review factual correction, 2026-09): Helped pioneer Mexican Muralism as a genuinely distinct public-art movement departing from prevailing gallery-based fine-art convention, documented via the movement's own well-established historical departure from that norm."
     },
     "persistence": {
       "score": 62,
@@ -197,11 +197,20 @@
       "rationale": "Sustained a demanding public mural career across decades and multiple countries despite the real professional setback of the destroyed Rockefeller Center commission."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/diego-rivera-blue-house-1957.jpg",
+    "source": "Wikimedia Commons / Museo Frida Kahlo",
+    "license": "Public domain (anonymous work under Mexican copyright law -- photographer unidentified; also public domain in the US)",
+    "width": 1150,
+    "height": 1600,
+    "attribution": "Unknown photographer, by 1957 -- Museo Frida Kahlo (the Blue House), Coyoacan",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Diego_Rivera_-_Google_Art_Project_(cropped).jpg"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: 20th_century, latin_america, visual-art domain complementing Frida Kahlo (already in the roster, his spouse) with a distinct public/monumental-scale artistic profile rather than her intimate/autobiographical one."
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.508 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+    "notes": "Third-batch diversity pick: 20th_century, latin_america, visual-art domain complementing Frida Kahlo (already in the roster, his spouse) with a distinct public/monumental-scale artistic profile rather than her intimate/autobiographical one. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations (highest score 84, creative_originality) and no other rubric issues. Held only on eligibility_v2's confidence floor (avgConf 0.508 vs 0.55) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed. Post-PR28-review ERROR_CORRECTION (2026-09): four rows (creative_originality, collaboration, leadership_drive, independent_thinking) and the EN/KO editorial overstated Rivera's role as sole/primary founder of Mexican Muralism. The post-revolutionary state-sponsored mural program under José Vasconcelos helped launch the movement, and art-history sources describe Rivera as one of its founding/pioneering figures alongside José Clemente Orozco and David Alfaro Siqueiros, not its singular founder. Reworded to 'one of the pioneering/central figures' throughout. No score/confidence/evidenceType/impact change -- the underlying achievement (developing large-scale public fresco painting integrating diverse traditions, working alongside Orozco/Siqueiros, departing from gallery convention) is unaffected by the corrected framing. The 'founder' tag in classification.tagIds was left unchanged, consistent with common usage for a co-founding/pioneering figure."
+  }
 }

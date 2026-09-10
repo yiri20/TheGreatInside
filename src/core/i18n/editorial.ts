@@ -3398,6 +3398,196 @@ export const EDITORIAL_EN: Record<string, string> = {
     "A sustained catalogue of multiple separately-released albums is the basis for the profile's creative_originality score.",
   "bob-marley.interpretation.turning_point.1":
     "Continuing to perform under direct, recently-realized physical danger is the specific instance behind the profile's risk_tolerance score.",
+
+  // Roster28 fifteen-person fast production batch (2026-09).
+  "agatha-christie.achievement.1":
+    "Sustained a nearly 56-year writing career (1920-1976) producing 66 novels at roughly one per year, introducing narrative devices genuinely new to the detective genre -- an unreliable-narrator solution in The Murder of Roger Ackroyd (1926) and a collective-culprit solution in Murder on the Orient Express (1934).",
+  "agatha-christie.achievement.2":
+    "Taught herself pharmacology and forensic poison science while volunteering in hospital dispensaries during both World Wars, producing poisoning methods in her novels that were later verified as technically accurate by toxicologists.",
+  "agatha-christie.achievement.3":
+    "Literary historians credit her detective plots with unusual 'fair-play' rigor -- clues genuinely available to the reader, with misdirection built on real logical gaps rather than withheld information.",
+  "agatha-christie.moment.1":
+    "Her first novel, The Mysterious Affair at Styles, was rejected by multiple publishers over several years before its acceptance in 1920.",
+  "agatha-christie.moment.2":
+    "In December 1926, following her mother's death and her husband's announced affair, she disappeared for eleven days -- a well-documented episode of acute personal crisis, not a calculated act.",
+  "agatha-christie.turning_point.1":
+    "Rather than withdraw after the 1926 crisis and divorce, she rebuilt her career through steady, continued novel production, later marrying archaeologist Max Mallowan and joining his excavations in Syria and Iraq.",
+  "agatha-christie.interpretation.moment.1":
+    "A years-long pattern of rejection before her first acceptance is the basis for the profile's persistence score.",
+  "agatha-christie.interpretation.turning_point.1":
+    "Rebuilding a career and personal life through sustained, self-directed work after a major crisis is the basis for the profile's resourcefulness score.",
+  "winston-churchill.achievement.1":
+    "After leaving office, wrote his six-volume history The Second World War. In 1953 he received the Nobel Prize in Literature for his broader mastery of historical and biographical writing as well as his oratory.",
+  "winston-churchill.achievement.2":
+    "Sustained a public career across soldiering (Sudan, South Africa), war correspondence, and more than sixty years in politics, spanning multiple Cabinet posts and two terms as Prime Minister.",
+  "winston-churchill.moment.1":
+    "After the 1915 Gallipoli campaign failure, he was forced to resign as First Lord of the Admiralty and became its principal public scapegoat despite shared war-cabinet responsibility; he defended his own decisions before the House of Commons on 15 November 1915 rather than step quietly aside.",
+  "winston-churchill.moment.2":
+    "Rather than accept a token consolation post after resigning, he volunteered for and served in frontline trench combat in France in 1916.",
+  "winston-churchill.turning_point.1":
+    "He spent nearly a decade (1929-1939), the 'wilderness years,' marginalized from government, repeatedly and publicly warning about Nazi German rearmament while largely disbelieved by the political mainstream -- until the outbreak of war proved him right.",
+  "winston-churchill.interpretation.moment.2":
+    "Choosing direct frontline combat over a safe consolation appointment, immediately after a major public failure, is the basis for the profile's risk_tolerance score.",
+  "winston-churchill.interpretation.turning_point.1":
+    "Sustaining an unpopular, repeatedly-dismissed public warning for a full decade before being vindicated is the basis for the profile's persistence score.",
+  "thomas-jefferson.achievement.1":
+    "Designed Monticello's architecture himself, incorporating original features such as a dumbwaiter and an interior-readable weather vane, and later designed the 'Academical Village' for the University of Virginia, which he founded.",
+  "thomas-jefferson.achievement.2":
+    "Drafted the Declaration of Independence within roughly two weeks -- an act of treason under British law carrying severe personal risk if the American Revolution had failed.",
+  "thomas-jefferson.moment.1":
+    "Sustained personal engagement across architecture, paleontology, botany, and linguistics -- including compiling comparative Native American vocabulary lists -- corroborated by his own extensive surviving correspondence and design drawings.",
+  "thomas-jefferson.moment.2":
+    "Despite writing a lifelong, explicit condemnation of slavery as morally wrong, he enslaved over 600 people at Monticello across his life and freed only a small number, even in his will; the combined documentary, historical, and DNA evidence supports the conclusion that he fathered children with Sally Hemings, an enslaved woman he owned, and this is part of that record.",
+  "thomas-jefferson.turning_point.1":
+    "His own chosen epitaph for his gravestone lists only three achievements -- author of the Declaration of Independence, author of the Virginia Statute for Religious Freedom, and founder of the University of Virginia -- deliberately excluding his two terms as President.",
+  "thomas-jefferson.interpretation.moment.2":
+    "A sustained, documented failure to act on his own explicitly stated moral convictions is the basis for the profile's low belief_updating score.",
+  "thomas-jefferson.interpretation.turning_point.1":
+    "A self-authored statement of legacy that prioritizes durable institutional and philosophical impact over the presidency itself is the basis for the profile's impact_motivation score.",
+  "sun-yat-sen.achievement.1":
+    "Founded the Revive China Society in Honolulu in 1894 with no institutional backing, and sustained a 20-year revolutionary exile (1895-1911) organizing across Asia, North America, and Europe -- traveling to Japan 12 times and Southeast Asia 43 times to fundraise and organize before the Qing dynasty's fall.",
+  "sun-yat-sen.achievement.2":
+    "Trained and practiced as a physician before turning to revolutionary politics full-time.",
+  "sun-yat-sen.moment.1":
+    "In October 1896, he was lured into the Chinese Legation in London by Qing officials planning to smuggle him back to China for execution; he was released only through the intervention of a former professor, and published his own account of the episode, Kidnapped in London, within weeks.",
+  "sun-yat-sen.moment.2":
+    "After the 1911 Revolution succeeded, he voluntarily ceded the provisional presidency to Yuan Shikai to preserve national unity.",
+  "sun-yat-sen.turning_point.1":
+    "Rather than retreat into private life after his brush with execution in London, he used the episode itself -- publishing his own English-language account within weeks -- to build international sympathy for the Chinese revolutionary cause.",
+  "sun-yat-sen.interpretation.turning_point.1":
+    "Converting a personal crisis into a deliberate, dated piece of international publicity is the basis for the profile's opportunity_sensing score.",
+  "katharine-hepburn.achievement.1":
+    "After The Philadelphia Story succeeded on stage, Hepburn controlled the film rights, which Howard Hughes had acquired and transferred to her. She used that leverage to negotiate her return to Hollywood on unusually favorable terms after being publicly labeled 'box office poison' in 1938, including approval over key production choices.",
+  "katharine-hepburn.achievement.2":
+    "Won her fourth competitive Academy Award at age 74, for On Golden Pond, capping a screen and stage career spanning roughly 60 years.",
+  "katharine-hepburn.moment.1":
+    "Sustained a 26-year personal and professional partnership with the married, non-divorcing Spencer Tracy, appearing together in nine films -- a relationship both parties maintained despite the real risk it posed to her public image under the studio system.",
+  "katharine-hepburn.moment.2":
+    "Repeatedly and publicly defied studio conventions -- refusing standard interviews, wearing trousers when studios objected, and walking away from RKO when dissatisfied with the roles she was offered.",
+  "katharine-hepburn.turning_point.1":
+    "After being labeled 'box office poison,' she didn't wait for a studio to offer her a way back -- she secured the stage rights to The Philadelphia Story herself and controlled the film rights Howard Hughes had transferred to her, rebuilding her career on terms she controlled.",
+  "katharine-hepburn.interpretation.turning_point.1":
+    "Self-initiating the acquisition of specific rights to engineer a career rescue, rather than waiting to be offered one, is the basis for the profile's proactive_agency score.",
+  "henry-ford.achievement.1":
+    "Developed the moving assembly line in 1913 through systematic time-and-motion study of his own factory floor, combined with a standardized, interchangeable-parts vehicle design -- a production-system synthesis industrial historians credit as genuinely novel at the time.",
+  "henry-ford.achievement.2":
+    "Founded Ford Motor Company successfully in 1903, at age 40, after two earlier automobile ventures had failed.",
+  "henry-ford.moment.1":
+    "In 1914 Ford introduced the $5 day amid severe worker turnover -- an unprecedented, widely-criticized-at-the-time move. The policy helped stabilize the workforce and substantially increased workers' purchasing power, including their ability to afford automobiles.",
+  "henry-ford.moment.2":
+    "He personally directed and funded the Dearborn Independent's sustained antisemitic publishing campaign, 'The International Jew,' through the early 1920s, only issuing a retraction and apology in 1927 under mounting legal and commercial pressure.",
+  "henry-ford.turning_point.1":
+    "For nearly two decades he refused to substantially update the Model T's design even as competitors innovated and his market share eroded, resisting pressure for change -- including from his own son Edsel -- until the 1927 Model A.",
+  "henry-ford.interpretation.turning_point.1":
+    "The same willingness to break from industry convention that produced the $5 day also produced a costly, years-long refusal to update a design despite mounting internal and market pressure -- the basis for the profile's dual-edged independent_thinking score.",
+  "eleanor-roosevelt.achievement.1":
+    "Chaired the UN Commission on Human Rights (1946-1952) and led the drafting of the Universal Declaration of Human Rights, adopted in 1948 -- a role and achievement built entirely after she left the White House.",
+  "eleanor-roosevelt.achievement.2":
+    "Wrote her syndicated newspaper column 'My Day' six days a week for nearly 27 years (1935-1962), without interruption through a world war and a change in her own formal public role.",
+  "eleanor-roosevelt.moment.1":
+    "In 1939, after the Daughters of the American Revolution refused to let Marian Anderson perform at Constitution Hall because she was Black, she publicly resigned her DAR membership -- a politically risky act for a sitting First Lady.",
+  "eleanor-roosevelt.moment.2":
+    "She personally visited the Gila River internment camp in Arizona in spring 1943 specifically to counter public claims that Japanese American internees were being 'coddled,' publicly praising their improvements to camp conditions.",
+  "eleanor-roosevelt.turning_point.1":
+    "Though unable to reverse her own husband's Executive Order 9066 without undermining her official role, she privately opposed it and, within two weeks of Pearl Harbor, used her 'My Day' column to urge Americans not to turn against Japanese Americans.",
+  "eleanor-roosevelt.interpretation.turning_point.1":
+    "Maintaining and publicly acting on a position that diverged from her own husband's administration's policy is the basis for the profile's independent_thinking score.",
+  "stephen-hawking.achievement.1":
+    "Continued original theoretical physics research, public lecturing, and writing across roughly five decades following a 1963 ALS diagnosis that doctors initially expected would be fatal within two years.",
+  "stephen-hawking.achievement.2":
+    "A Brief History of Time (1988) became one of the best-selling science books in publishing history, credited with making advanced cosmology broadly accessible to a lay public.",
+  "stephen-hawking.moment.1":
+    "After losing his natural speech entirely in 1985, he adopted a computer-based speech-synthesizer system and continued directing his own research and public communication for over three decades.",
+  "stephen-hawking.moment.2":
+    "He publicly reversed a major prior scientific position -- the black hole information paradox -- in response to sustained peer challenge.",
+  "stephen-hawking.turning_point.1":
+    "Documented in his first wife Jane Hawking's own memoir as specifically choosing to complete his PhD and pursue his most ambitious research program after his diagnosis, rather than withdrawing from academic life.",
+  "stephen-hawking.interpretation.turning_point.1":
+    "A documented, deliberate choice to pursue his most ambitious work specifically after receiving a terminal diagnosis is the basis for the profile's proactive_agency score.",
+  "diego-rivera.achievement.1":
+    "Rivera became one of the central pioneering figures of Mexican Muralism, helping develop and lead the movement alongside artists such as José Clemente Orozco and David Alfaro Siqueiros -- developing large-scale public fresco painting that integrated pre-Columbian, folk, and modernist European technique into a form later recognized as a genuinely new synthesis in art history.",
+  "diego-rivera.achievement.2":
+    "Produced an unusually large body of major public mural work across Mexico and the United States, including the Detroit Industry murals and the National Palace murals in Mexico City.",
+  "diego-rivera.moment.1":
+    "His 1933 Rockefeller Center mural, Man at the Crossroads, was destroyed after he refused the patron's request to remove a portrait of Lenin -- a stance that cost him the commission outright.",
+  "diego-rivera.moment.2":
+    "He explicitly conceived his murals as public, accessible art depicting Mexican history and workers' struggles, deliberately placing them in government and civic buildings rather than private galleries.",
+  "diego-rivera.turning_point.1":
+    "Rather than continue producing conventional gallery-based fine art, he co-founded Mexican Muralism as a genuinely distinct public-art movement, departing from the prevailing artistic convention of his era.",
+  "diego-rivera.interpretation.turning_point.1":
+    "Departing from the prevailing gallery-based fine-art convention of his era to found a genuinely distinct public-art movement is the basis for the profile's independent_thinking score.",
+  "naguib-mahfouz.achievement.1":
+    "The Nobel committee credited Mahfouz, per the official 1988 citation, with having formed 'an Arabian narrative art that applies to all mankind,' and Nobel's own historical commentary describes his work as central to bringing the modern Arabic novel to maturity.",
+  "naguib-mahfouz.achievement.2":
+    "Sustained an unusually strict daily writing routine across roughly seven decades while working a full-time career in the Egyptian civil service, producing more than 30 novels.",
+  "naguib-mahfouz.moment.1":
+    "In 1994 he survived a stabbing attack by extremists who objected to the religious allegory in his novel Children of Gebelawi, and continued writing -- adapting to dictation after the attack permanently damaged his writing hand.",
+  "naguib-mahfouz.moment.2":
+    "He insisted on resuming his regular nightly gatherings with friends and literary figures after the 1994 attack, sustaining his social routine through physical impairment.",
+  "naguib-mahfouz.turning_point.1":
+    "Despite official censorship and the controversy that ultimately led to his stabbing, he continued publishing religiously and politically provocative material, including the banned Children of Gebelawi.",
+  "naguib-mahfouz.interpretation.turning_point.1":
+    "Continuing to publish provocative material despite censorship and eventually realized personal danger is the basis for the profile's conflict_tolerance score.",
+  "ida-b-wells.achievement.1":
+    "Conducted detailed statistical investigations into the actual causes of lynchings, publishing Southern Horrors (1892) and The Red Record (1895), using data to directly refute the era's dominant 'protecting white womanhood' justification.",
+  "ida-b-wells.achievement.2":
+    "Sued a railroad company in 1884, at age 22, after being forcibly removed from a first-class train car -- initially winning before the verdict was overturned on appeal.",
+  "ida-b-wells.moment.1":
+    "Her Memphis newspaper office was destroyed by a mob in 1892 in direct retaliation for her anti-lynching editorials; she was forced to flee the city and continued her journalism from Chicago and New York rather than stopping.",
+  "ida-b-wells.moment.2":
+    "At the 1913 Suffrage Parade in Washington, D.C., when organizers directed Black delegates to march at the rear, she refused and inserted herself into the Illinois delegation instead.",
+  "ida-b-wells.turning_point.1":
+    "She co-founded the NAACP but later distanced herself from it over strategic disagreements, continuing to found independent organizations -- including the first African American women's suffrage organization in Illinois -- rather than work solely within existing ones.",
+  "ida-b-wells.interpretation.turning_point.1":
+    "Prioritizing her own strategic judgment even within an organization she helped found is the basis for the profile's independent_thinking score.",
+  "junko-tabei.achievement.1":
+    "Became the first woman to summit Mount Everest in 1975, and later the first woman to complete the Seven Summits, climbing the highest peak on every continent.",
+  "junko-tabei.achievement.2":
+    "Founded the Ladies Climbing Club in Japan in 1969 because existing mountaineering organizations largely excluded or marginalized women -- the organization that went on to organize her Everest expedition.",
+  "junko-tabei.moment.1":
+    "Six days before her summit push on Everest in 1975, an avalanche struck her team's camp, burying and knocking her unconscious; she continued the expedition after recovering.",
+  "junko-tabei.moment.2":
+    "She secured funding for the all-women 1975 Everest expedition despite sponsor skepticism -- some corporate sponsors reportedly suggested the team focus on childcare instead.",
+  "junko-tabei.turning_point.1":
+    "Growing up, by her own account, a 'frail girl with no talent for sport' in a rural childhood where family and cultural expectations largely ignored her interest in mountains, she pursued it anyway -- decades before Everest, and continued climbing, teaching, and raising a family into her late seventies.",
+  "junko-tabei.interpretation.turning_point.1":
+    "Pursuing a lifelong passion against surrounding social expectation, decades before it became a defining achievement, and sustaining it across a lifetime, is the basis for the profile's persistence score.",
+  "ravi-shankar.achievement.1":
+    "At age 18, left an established career as a touring dancer in his brother Uday Shankar's internationally successful company to undertake a seven-year traditional apprenticeship under guru Allauddin Khan, living an ascetic, isolated student life focused solely on sitar technique.",
+  "ravi-shankar.achievement.2":
+    "Personally proposed and organized the 1971 Concert for Bangladesh with George Harrison, in direct response to the refugee crisis of the Bangladesh Liberation War.",
+  "ravi-shankar.moment.1":
+    "At the 1971 Concert for Bangladesh, he and Ustad Ali Akbar Khan were applauded by the audience for tuning their instruments; Shankar responded, 'If you like our tuning so much, I hope you will enjoy the playing more.'",
+  "ravi-shankar.moment.2":
+    "He founded the Kinnara School of Music to formally teach Indian classical music, and separately scored Satyajit Ray's Apu Trilogy -- sustaining work as concert soloist, film composer, and educator at once.",
+  "ravi-shankar.turning_point.1":
+    "He sustained the demanding seven-year apprenticeship under Allauddin Khan to completion despite its documented rigor and isolation, then went on to perform at a high technical level into his nineties.",
+  "ravi-shankar.interpretation.turning_point.1":
+    "Completing a documented, multi-year period of rigorous, isolated technical training is the basis for the profile's discipline score.",
+  "winnie-madikizela-mandela.achievement.1":
+    "Sustained anti-apartheid activism for nearly three decades through banning orders, repeated detention, and her husband Nelson Mandela's 27-year imprisonment, becoming a globally recognized symbol of the movement and later serving two decades in elected office.",
+  "winnie-madikizela-mandela.achievement.2":
+    "Trained and worked as South Africa's first Black medical social worker before her activism career.",
+  "winnie-madikizela-mandela.moment.1":
+    "The 1997 Truth and Reconciliation Commission formally found her 'politically and morally accountable' for violence committed by the Mandela United Football Club, a group operating under her patronage, including the killing of fourteen-year-old activist Stompie Moeketsi.",
+  "winnie-madikizela-mandela.moment.2":
+    "A 1986 public statement about 'necklacing' drew criticism even from within the anti-apartheid movement itself.",
+  "winnie-madikizela-mandela.turning_point.1":
+    "Her own memoir, 491 Days, documents enduring 491 days in solitary confinement (1969-1970); rather than withdraw from public life after her release, she returned immediately to high-profile activism.",
+  "winnie-madikizela-mandela.interpretation.turning_point.1":
+    "Returning immediately to high-profile activism after nearly a year and a half in solitary confinement, rather than withdrawing, is the basis for the profile's persistence score.",
+  "amartya-sen.achievement.1":
+    "Developed the capability approach, reframing wellbeing around substantive freedoms rather than resources or income -- a conceptual shift that has since reshaped how international development is measured, including the UN Human Development Index he co-developed with Mahbub ul Haq.",
+  "amartya-sen.achievement.2":
+    "His research on famine, including Poverty and Famines (1981), reframed famine as a problem of entitlement and political accountability rather than mere food-supply shortage -- directly influencing famine-prevention policy.",
+  "amartya-sen.moment.1":
+    "He witnessed the 1943 Bengal famine as a child, an experience that later informed his empirical famine research.",
+  "amartya-sen.moment.2":
+    "His social choice theory work provided formal mathematical proofs extending and qualifying Arrow's Impossibility Theorem, work specifically cited by the 1998 Nobel committee.",
+  "amartya-sen.turning_point.1":
+    "His capability approach directly challenged the dominant GDP/income-based measure of economic welfare, a departure from prevailing disciplinary convention that took decades to reshape how development is measured internationally.",
+  "amartya-sen.interpretation.turning_point.1":
+    "Directly challenging the dominant measurement convention of his discipline, and sustaining that challenge until it reshaped the field, is the basis for the profile's independent_thinking score.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -6649,6 +6839,196 @@ export const EDITORIAL_KO: Record<string, string> = {
     "여러 차례에 걸쳐 별도로 발매된 앨범들로 이루어진 지속적인 카탈로그는 프로필의 창의적 독창성(creative_originality) 점수의 근거다.",
   "bob-marley.interpretation.turning_point.1":
     "직접적이고 최근에 실현된 신변의 위험 속에서도 공연을 계속한 것은 프로필의 위험 감수성(risk_tolerance) 점수를 뒷받침하는 구체적 사례다.",
+
+  // Roster28 fifteen-person fast production batch (2026-09).
+  "agatha-christie.achievement.1":
+    "1920년부터 1976년까지 거의 56년에 걸친 집필 활동 동안 연평균 한 편꼴로 66편의 장편소설을 발표했으며, 탐정소설 장르에 진정으로 새로운 서사 기법을 도입했다 -- 『애크로이드 살인 사건』(1926)의 신뢰할 수 없는 화자 기법과 『오리엔트 특급 살인』(1934)의 공동 범인 구조가 그 예다.",
+  "agatha-christie.achievement.2":
+    "두 차례의 세계대전 동안 병원 조제실에서 자원봉사를 하며 독자적으로 약리학과 법의학적 독물학을 익혔고, 소설 속 독살 수법은 훗날 독물학자들에 의해 기술적으로 정확하다는 평가를 받았다.",
+  "agatha-christie.achievement.3":
+    "문학사가들은 그녀의 추리 플롯이 독자에게 단서를 실제로 공개하고, 정보를 은폐하기보다 진짜 논리적 공백을 활용해 독자를 혼란시키는 이례적인 '페어플레이'적 엄밀함을 지녔다고 평가한다.",
+  "agatha-christie.moment.1":
+    "첫 소설 『스타일스 저택의 괴사건』은 1920년 출판이 확정되기까지 여러 해에 걸쳐 여러 출판사로부터 거절당했다.",
+  "agatha-christie.moment.2":
+    "1926년 12월, 어머니의 죽음과 남편의 외도 발표가 이어진 직후 그녀는 11일간 실종되었다 -- 이는 계산된 행동이 아니라 극심한 개인적 위기의 사건으로 잘 기록되어 있다.",
+  "agatha-christie.turning_point.1":
+    "1926년의 위기와 이혼 이후 활동을 접는 대신, 그녀는 꾸준한 집필을 통해 경력을 재건했고, 이후 고고학자 맥스 맬로완과 재혼하여 시리아와 이라크 발굴 현장에 동행했다.",
+  "agatha-christie.interpretation.moment.1":
+    "첫 출간이 성사되기까지 수년에 걸쳐 거절당한 패턴은 프로필의 지속성(persistence) 점수의 근거다.",
+  "agatha-christie.interpretation.turning_point.1":
+    "큰 위기 이후 지속적이고 자기주도적인 노력으로 경력과 삶을 재건한 것은 프로필의 자원 활용력(resourcefulness) 점수의 근거다.",
+  "winston-churchill.achievement.1":
+    "공직에서 물러난 뒤 6권짜리 역사서 『제2차 세계대전』을 저술했다. 1953년에는 역사·전기 서술의 탁월함과 웅변술을 인정받아 노벨 문학상을 수상했다.",
+  "winston-churchill.achievement.2":
+    "수단과 남아프리카에서의 군 복무, 종군기자 활동, 그리고 60년이 넘는 정치 활동을 아우르는 공적 경력을 이어갔으며, 여러 내각 요직과 두 차례의 총리직을 거쳤다.",
+  "winston-churchill.moment.1":
+    "1915년 갈리폴리 전투 실패 이후 해군장관직에서 사임할 수밖에 없었고, 전시 내각이 함께 져야 할 책임에도 불구하고 그가 주된 공개적 희생양이 되었다; 그는 조용히 물러나는 대신 1915년 11월 15일 하원에서 자신의 결정을 직접 변호했다.",
+  "winston-churchill.moment.2":
+    "사임 이후 명목상의 위로직을 받아들이는 대신, 그는 1916년 프랑스 최전선 참호전에 자원하여 직접 복무했다.",
+  "winston-churchill.turning_point.1":
+    "그는 거의 10년(1929-1939년)에 이르는 이른바 '황야의 시기' 동안 정계에서 밀려나 있으면서도, 나치 독일의 재무장에 대해 거듭 공개적으로 경고했으나 주류 정치권으로부터 대체로 신뢰받지 못했다 -- 그러나 전쟁 발발로 그가 옳았음이 입증되었다.",
+  "winston-churchill.interpretation.moment.2":
+    "중대한 공개적 실패 직후 안전한 위로직 대신 최전선 전투를 직접 선택한 것은 프로필의 위험 감수성(risk_tolerance) 점수의 근거다.",
+  "winston-churchill.interpretation.turning_point.1":
+    "대체로 무시당하던 공개 경고를 10년 내내 지속한 끝에 결국 정당성이 입증된 것은 프로필의 지속성(persistence) 점수의 근거다.",
+  "thomas-jefferson.achievement.1":
+    "몬티첼로의 건축을 직접 설계하며 덤웨이터와 실내에서 방향을 확인할 수 있는 풍향계 같은 독창적인 요소를 도입했고, 이후 자신이 설립한 버지니아 대학교의 '아카데미컬 빌리지'도 직접 설계했다.",
+  "thomas-jefferson.achievement.2":
+    "약 2주 만에 독립선언문 초안을 작성했다 -- 이는 영국법상 반역죄에 해당하는 행위로, 미국 독립혁명이 실패했다면 심각한 개인적 위험을 감수해야 했을 일이었다.",
+  "thomas-jefferson.moment.1":
+    "건축, 고생물학, 식물학, 언어학에 걸쳐 지속적인 개인적 관심을 유지했으며, 아메리카 원주민 어휘를 비교 정리한 목록을 작성하기도 했다 -- 이는 그가 남긴 방대한 서신과 설계도로 뒷받침된다.",
+  "thomas-jefferson.moment.2":
+    "노예제를 도덕적으로 잘못된 것이라고 평생에 걸쳐 명시적으로 비판하는 글을 남겼음에도, 그는 생애 동안 몬티첼로에서 600명이 넘는 사람을 노예로 소유했으며 유언장에서조차 극소수만을 해방시켰다; 문헌·역사적 기록과 DNA 증거를 종합할 때 그가 소유했던 노예 샐리 헤밍스와의 사이에서 자녀를 두었다는 결론이 뒷받침되며, 이 역시 그의 기록의 일부다.",
+  "thomas-jefferson.turning_point.1":
+    "그가 직접 정한 묘비명에는 단 세 가지 업적만 새겨져 있다 -- 독립선언문의 저자, 버지니아 종교자유법의 저자, 버지니아 대학교의 설립자 -- 대통령 재임 2기는 의도적으로 제외되었다.",
+  "thomas-jefferson.interpretation.moment.2":
+    "스스로 명시적으로 밝힌 도덕적 신념을 행동으로 옮기지 못한 채 지속된 기록은 프로필의 낮은 신념 갱신력(belief_updating) 점수의 근거다.",
+  "thomas-jefferson.interpretation.turning_point.1":
+    "대통령직 자체보다 지속적인 제도적·철학적 영향을 우선시한 자기 정의적 유산 선언은 프로필의 영향 동기(impact_motivation) 점수의 근거다.",
+  "sun-yat-sen.achievement.1":
+    "1894년 호놀룰루에서 어떠한 조직적 기반도 없이 흥중회를 창설했으며, 청 왕조가 무너지기까지 아시아, 북미, 유럽을 오가며 20년간(1895-1911년) 망명 혁명 활동을 이어갔다 -- 자금 모금과 조직 활동을 위해 일본을 12차례, 동남아시아를 43차례 방문했다.",
+  "sun-yat-sen.achievement.2":
+    "혁명 정치에 전념하기 전에는 의사로 교육받고 실제로 의술을 행했다.",
+  "sun-yat-sen.moment.1":
+    "1896년 10월, 그는 청 관리들에게 유인되어 런던 주재 청 공사관에 감금되었으며, 이들은 그를 중국으로 몰래 송환하여 처형할 계획이었다; 그는 옛 은사의 중재로 겨우 풀려났고, 몇 주 만에 이 사건에 관한 자신의 기록인 『런던에서의 납치』를 출간했다.",
+  "sun-yat-sen.moment.2":
+    "1911년 혁명이 성공한 뒤, 그는 국가 통합을 지키기 위해 임시 대총통직을 위안스카이에게 자진해서 넘겨주었다.",
+  "sun-yat-sen.turning_point.1":
+    "런던에서 처형 직전까지 갔던 사건 이후 은둔하는 대신, 그는 몇 주 만에 영어로 직접 기록을 출간하여 그 사건 자체를 중국 혁명 대의에 대한 국제적 공감을 이끌어내는 데 활용했다.",
+  "sun-yat-sen.interpretation.turning_point.1":
+    "개인적 위기를 의도적이고 시점이 명확한 국제 홍보의 기회로 전환한 것은 프로필의 기회 포착력(opportunity_sensing) 점수의 근거다.",
+  "katharine-hepburn.achievement.1":
+    "『필라델피아 스토리』가 무대에서 성공을 거둔 뒤, 헵번은 하워드 휴스가 취득하여 그녀에게 넘겨준 영화 판권을 확보했다. 1938년 '흥행 독약'이라는 오명을 공개적으로 얻은 뒤, 그녀는 이 지렛대를 활용해 이례적으로 유리한 조건으로 할리우드 복귀를 협상했으며, 여기에는 주요 제작 결정에 대한 승인권도 포함되어 있었다.",
+  "katharine-hepburn.achievement.2":
+    "74세에 『황금 연못』으로 자신의 네 번째 경쟁 부문 아카데미상을 수상하며, 약 60년에 걸친 영화 및 연극 경력의 정점을 찍었다.",
+  "katharine-hepburn.moment.1":
+    "기혼자이며 이혼하지 않은 스펜서 트레이시와 26년간 사적·직업적 동반자 관계를 이어가며 아홉 편의 영화에 함께 출연했다 -- 스튜디오 체제 아래에서 그녀의 대중적 이미지에 실질적 위험이 되었음에도 두 사람 모두 이 관계를 유지했다.",
+  "katharine-hepburn.moment.2":
+    "그녀는 거듭 공개적으로 스튜디오 관행에 맞섰다 -- 정형화된 인터뷰를 거부하고, 스튜디오가 반대해도 바지를 착용했으며, 제안받은 배역에 만족하지 못하자 RKO를 떠났다.",
+  "katharine-hepburn.turning_point.1":
+    "'흥행 독약'이라는 꼬리표가 붙은 뒤에도 그녀는 스튜디오가 복귀의 기회를 제안해 주기를 기다리지 않았다 -- 직접 『필라델피아 스토리』의 무대 판권을 확보하고, 하워드 휴스가 넘겨준 영화 판권을 장악하여, 스스로 통제할 수 있는 방식으로 경력을 재건했다.",
+  "katharine-hepburn.interpretation.turning_point.1":
+    "누군가 기회를 제안해 주기를 기다리는 대신 스스로 특정 권리를 확보하여 경력을 구제한 것은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
+  "henry-ford.achievement.1":
+    "1913년, 자신의 공장 현장을 체계적으로 시간-동작 연구한 결과와 표준화된 호환 부품 차량 설계를 결합하여 이동식 조립 라인을 개발했다 -- 산업사가들은 이를 당시로서는 진정으로 새로운 생산 방식의 종합이었다고 평가한다.",
+  "henry-ford.achievement.2":
+    "앞선 두 차례의 자동차 사업이 실패한 뒤, 40세였던 1903년에 포드 자동차 회사를 성공적으로 설립했다.",
+  "henry-ford.moment.1":
+    "1914년, 극심한 이직률 문제 속에서 포드는 공장 노동자의 임금을 하루 5달러로 인상했다 -- 당시로서는 전례 없고 널리 비판받은 조치였다. 이 정책은 노동력을 안정시키는 데 기여했고, 자동차를 구매할 수 있는 능력을 포함해 노동자들의 구매력을 크게 높였다.",
+  "henry-ford.moment.2":
+    "그는 1920년대 초까지 자신이 소유한 신문 『디어본 인디펜던트』의 반유대주의 연재 캠페인 '국제 유대인'을 직접 지휘하고 자금을 댔으며, 법적·상업적 압박이 커진 1927년에 이르러서야 철회와 사과를 발표했다.",
+  "henry-ford.turning_point.1":
+    "거의 20년에 이르도록 경쟁사들이 혁신을 거듭하고 시장 점유율이 잠식되는 와중에도 모델 T의 설계를 실질적으로 바꾸지 않았으며, 아들 에드셀의 요구를 포함한 변화 압력에 맞서다가 1927년에 이르러서야 모델 A를 내놓았다.",
+  "henry-ford.interpretation.turning_point.1":
+    "5달러 임금이라는 파격을 만들어낸 것과 동일한, 업계 관행에서 벗어나려는 성향이 내부와 시장의 압력에도 불구하고 수년간 설계 변경을 거부하는 값비싼 고집으로도 이어졌다 -- 이는 프로필의 양면적인 독립적 사고력(independent_thinking) 점수의 근거다.",
+  "eleanor-roosevelt.achievement.1":
+    "유엔 인권위원회 의장(1946-1952년)을 맡아 1948년 채택된 세계인권선언의 기초 작업을 이끌었다 -- 이는 백악관을 떠난 이후에 온전히 새롭게 쌓은 역할이자 업적이었다.",
+  "eleanor-roosevelt.achievement.2":
+    "1935년부터 1962년까지 거의 27년간 주 6회, 세계대전과 자신의 공적 지위 변화를 거치면서도 중단 없이 신디케이트 칼럼 「마이 데이」를 집필했다.",
+  "eleanor-roosevelt.moment.1":
+    "1939년, 미국혁명여성회가 흑인이라는 이유로 마리안 앤더슨의 컨스티튜션 홀 공연을 거부하자, 그녀는 공개적으로 DAR 회원직을 사퇴했다 -- 현직 영부인으로서는 정치적으로 위험한 행동이었다.",
+  "eleanor-roosevelt.moment.2":
+    "1943년 봄, 그녀는 일본계 미국인 억류자들이 '과잉 보호'를 받고 있다는 여론에 정면으로 반박하기 위해 애리조나의 길라강 억류소를 직접 방문해, 억류자들이 스스로 수용소 환경을 개선한 점을 공개적으로 치하했다.",
+  "eleanor-roosevelt.turning_point.1":
+    "자신의 공적 지위를 훼손하지 않고는 남편의 행정명령 9066호를 뒤집을 수 없었지만, 그녀는 개인적으로 이에 반대했고 진주만 공습 이후 2주 만에 「마이 데이」 칼럼을 통해 미국인들에게 일본계 미국인을 적대시하지 말라고 촉구했다.",
+  "eleanor-roosevelt.interpretation.turning_point.1":
+    "자신의 남편이 이끄는 행정부의 정책과 다른 입장을 유지하고 이를 공개적으로 행동에 옮긴 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
+  "stephen-hawking.achievement.1":
+    "1963년 근위축성측삭경화증(ALS) 진단을 받았고 당시 의료진은 2년 내 사망할 것으로 예상했지만, 그는 이후 약 50년에 걸쳐 독창적인 이론물리학 연구와 대중 강연, 저술 활동을 이어갔다.",
+  "stephen-hawking.achievement.2":
+    "1988년 출간된 『시간의 역사』는 출판 역사상 가장 많이 팔린 과학서 중 하나가 되었으며, 고도로 전문적인 우주론을 일반 대중이 접근할 수 있게 만든 책으로 평가받는다.",
+  "stephen-hawking.moment.1":
+    "1985년 자연 음성을 완전히 잃은 뒤, 그는 컴퓨터 기반 음성 합성 장치를 도입해 이후 30년 넘게 스스로 연구와 대외 소통 활동을 계속 이끌었다.",
+  "stephen-hawking.moment.2":
+    "동료 학자들의 지속적인 이의 제기에 대응해, 그는 블랙홀 정보 역설에 관한 자신의 주요 이전 입장을 공개적으로 번복했다.",
+  "stephen-hawking.turning_point.1":
+    "첫 아내 제인 호킹의 회고록에 따르면, 그는 진단 이후 학문적 삶에서 물러나는 대신 박사 학위를 마치고 가장 야심찬 연구 프로그램을 추진하기로 스스로 선택했다.",
+  "stephen-hawking.interpretation.turning_point.1":
+    "시한부 진단을 받은 직후 오히려 가장 야심찬 연구를 추진하기로 한 명확하고 의도적인 선택은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
+  "diego-rivera.achievement.1":
+    "리베라는 호세 클레멘테 오로스코, 다비드 알파로 시케이로스 같은 예술가들과 함께 멕시코 벽화 운동을 이끈 핵심 선구자 중 한 명이 되었다 -- 콜럼버스 이전 시대 미술과 민속 전통, 유럽 모더니즘 기법을 통합한 대형 공공 프레스코 회화를 발전시켰으며, 이는 훗날 미술사에서 진정으로 새로운 종합으로 인정받았다.",
+  "diego-rivera.achievement.2":
+    "디트로이트 인더스트리 벽화와 멕시코시티 국립궁전 벽화를 포함해, 멕시코와 미국 전역에 걸쳐 이례적으로 방대한 대형 공공 벽화 작품을 남겼다.",
+  "diego-rivera.moment.1":
+    "1933년 록펠러 센터에 그린 벽화 『십자로의 인간』은 후원자가 레닌 초상을 지워달라고 요구했으나 그가 이를 거부하면서 결국 철거되었다 -- 이 태도로 인해 의뢰 자체를 완전히 잃었다.",
+  "diego-rivera.moment.2":
+    "그는 자신의 벽화를 멕시코의 역사와 노동자들의 투쟁을 담은, 대중이 접근할 수 있는 공공 예술로 명확히 구상했으며, 이를 개인 화랑이 아닌 정부 청사와 공공 건물에 의도적으로 배치했다.",
+  "diego-rivera.turning_point.1":
+    "전통적인 화랑 중심의 순수 미술을 계속 이어가는 대신, 그는 당대의 지배적인 예술 관행에서 벗어나 진정으로 독자적인 공공 예술 운동인 멕시코 벽화 운동을 공동 창시했다.",
+  "diego-rivera.interpretation.turning_point.1":
+    "당대 화랑 중심 순수 미술의 지배적 관행에서 벗어나 진정으로 독자적인 공공 예술 운동을 창시한 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
+  "naguib-mahfouz.achievement.1":
+    "노벨위원회는 1988년 공식 선정 사유에서 마푸즈가 '모든 인류에 적용되는 아랍 서사 예술을 형성했다'고 평가했으며, 노벨상 측의 역사적 논평 역시 그를 현대 아랍 소설을 성숙시킨 핵심 인물로 소개한다.",
+  "naguib-mahfouz.achievement.2":
+    "이집트 공무원으로 전업 근무하면서도 약 70년에 걸쳐 이례적으로 엄격한 일일 집필 습관을 유지하며 30편이 넘는 장편소설을 남겼다.",
+  "naguib-mahfouz.moment.1":
+    "1994년, 소설 『게발라위의 아이들』의 종교적 알레고리에 반발한 극단주의자들의 칼부림 공격에서 살아남았고, 공격으로 글쓰는 손을 영구적으로 다친 뒤에는 구술 방식으로 전환하여 집필을 이어갔다.",
+  "naguib-mahfouz.moment.2":
+    "1994년 공격 이후에도 그는 친구 및 문인들과의 정기적인 저녁 모임을 다시 이어가겠다고 고집했으며, 신체적 장애 속에서도 자신의 사회적 일상을 유지했다.",
+  "naguib-mahfouz.turning_point.1":
+    "결국 칼부림 공격으로까지 이어진 논란과 공식 검열에도 불구하고, 그는 금서로 지정된 『게발라위의 아이들』을 비롯해 종교적·정치적으로 도발적인 작품을 계속 발표했다.",
+  "naguib-mahfouz.interpretation.turning_point.1":
+    "검열과 결국 현실화된 신변 위협에도 불구하고 도발적인 작품 발표를 이어간 것은 프로필의 갈등 감내력(conflict_tolerance) 점수의 근거다.",
+  "ida-b-wells.achievement.1":
+    "린치의 실제 원인을 밝히기 위해 상세한 통계 조사를 수행하여 『남부의 참상』(1892)과 『붉은 기록』(1895)을 출간했고, 자료를 통해 당대에 지배적이던 '백인 여성 보호'라는 명분을 정면으로 반박했다.",
+  "ida-b-wells.achievement.2":
+    "22세였던 1884년, 1등석 열차 칸에서 강제로 끌려 나온 뒤 철도 회사를 상대로 소송을 제기했다 -- 처음에는 승소했으나 항소심에서 판결이 뒤집혔다.",
+  "ida-b-wells.moment.1":
+    "1892년, 반린치 논설에 대한 직접적인 보복으로 멤피스에 있던 그녀의 신문사 사무실이 폭도에 의해 파괴되었다; 그녀는 도시를 떠날 수밖에 없었지만 활동을 멈추지 않고 시카고와 뉴욕에서 언론 활동을 이어갔다.",
+  "ida-b-wells.moment.2":
+    "1913년 워싱턴 D.C. 참정권 행진에서 주최 측이 흑인 대표단에게 행렬 맨 뒤에서 행진하라고 지시하자, 그녀는 이를 거부하고 일리노이 대표단 대열에 직접 합류했다.",
+  "ida-b-wells.turning_point.1":
+    "그녀는 NAACP 창립에 참여했지만 이후 전략적 견해 차이로 거리를 두었고, 기존 조직 안에만 머무르지 않고 일리노이 최초의 아프리카계 미국인 여성 참정권 단체를 비롯한 독자적인 조직들을 계속 설립했다.",
+  "ida-b-wells.interpretation.turning_point.1":
+    "자신이 창립에 기여한 조직 안에서도 스스로의 전략적 판단을 우선시한 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
+  "junko-tabei.achievement.1":
+    "1975년 여성 최초로 에베레스트 정상에 올랐고, 이후 각 대륙 최고봉을 모두 등정하는 '세븐 서미츠'를 완주한 최초의 여성이 되었다.",
+  "junko-tabei.achievement.2":
+    "1969년, 기존 산악 단체들이 여성을 대체로 배제하거나 소외시키자 일본 여성산악회를 창설했다 -- 이 단체는 훗날 그녀의 에베레스트 원정을 조직하게 된다.",
+  "junko-tabei.moment.1":
+    "1975년 정상 등정을 6일 앞두고 팀의 캠프를 덮친 눈사태에 매몰되어 의식을 잃었으나, 회복한 뒤 원정을 계속 이어갔다.",
+  "junko-tabei.moment.2":
+    "1975년 여성으로만 구성된 에베레스트 원정대의 자금을 후원사들의 회의적 시선 속에서도 확보해냈다 -- 일부 기업 후원자는 오히려 육아에 전념하라고 제안했다고 전해진다.",
+  "junko-tabei.turning_point.1":
+    "그녀 스스로의 표현에 따르면 '운동에 재능 없는 병약한 소녀'로 시골에서 자랐고 가족과 사회적 기대는 산에 대한 그녀의 관심을 대체로 무시했지만, 그녀는 에베레스트 등정 수십 년 전부터 이를 스스로 좇았으며, 70대 후반까지 등반과 교육, 가정을 모두 이어갔다.",
+  "junko-tabei.interpretation.turning_point.1":
+    "주변의 사회적 기대에 맞서 결정적 업적이 되기 수십 년 전부터 평생의 열정을 좇고 이를 일생에 걸쳐 이어간 것은 프로필의 지속성(persistence) 점수의 근거다.",
+  "ravi-shankar.achievement.1":
+    "18세에 형 우다이 샹카르가 이끄는 국제적으로 성공한 무용단에서의 안정적인 순회공연 경력을 뒤로하고, 스승 알라우딘 칸 문하에서 7년간 전통적인 사사 수련을 시작해 오직 시타르 기법에만 전념하는 금욕적이고 고립된 수련 생활을 이어갔다.",
+  "ravi-shankar.achievement.2":
+    "방글라데시 독립전쟁으로 인한 난민 위기에 직접 대응하기 위해, 1971년 조지 해리슨과 함께 '방글라데시를 위한 콘서트'를 직접 제안하고 조직했다.",
+  "ravi-shankar.moment.1":
+    "1971년 '방글라데시를 위한 콘서트'에서 그와 우스타드 알리 아크바르 칸이 악기를 조율하는 소리에 관객이 박수를 보내자, 샹카르는 '조율을 이렇게 좋아해 주신다면, 연주는 더 즐기시길 바랍니다'라고 답했다.",
+  "ravi-shankar.moment.2":
+    "인도 고전음악을 정식으로 가르치기 위해 키나라 음악 학교를 설립했고, 별도로 사티야지트 레이의 '아푸 3부작' 영화음악도 작곡하는 등 연주자, 영화음악 작곡가, 교육자로서의 활동을 동시에 이어갔다.",
+  "ravi-shankar.turning_point.1":
+    "알라우딘 칸 문하에서의 고되고 고립된 7년 수련을 끝까지 완수했으며, 이후 90대에 이르기까지 높은 기술적 수준의 연주를 이어갔다.",
+  "ravi-shankar.interpretation.turning_point.1":
+    "고되고 고립된 수년간의 기술 수련 과정을 끝까지 완수한 기록은 프로필의 절제력(discipline) 점수의 근거다.",
+  "winnie-madikizela-mandela.achievement.1":
+    "활동 금지 명령과 거듭된 구금, 남편 넬슨 만델라의 27년 수감 생활을 겪으면서도 거의 30년에 걸쳐 반아파르트헤이트 활동을 이어갔으며, 이 운동을 대표하는 세계적으로 알려진 상징이 되었고 이후 20년간 선출직 공직을 지냈다.",
+  "winnie-madikizela-mandela.achievement.2":
+    "활동가로서의 경력을 시작하기 전, 남아프리카공화국 최초의 흑인 의료사회복지사로 교육받고 실제로 일했다.",
+  "winnie-madikizela-mandela.moment.1":
+    "1997년 진실화해위원회는 그녀의 후원 아래 활동하던 만델라 유나이티드 축구클럽이 저지른 폭력 행위에 대해 그녀가 '정치적·도덕적 책임'이 있다고 공식 판단했으며, 여기에는 14세 활동가 스톰피 모에케치의 살해도 포함되었다.",
+  "winnie-madikizela-mandela.moment.2":
+    "1986년 '네클레이싱'에 관한 공개 발언은 반아파르트헤이트 운동 내부에서조차 비판을 불러일으켰다.",
+  "winnie-madikizela-mandela.turning_point.1":
+    "그녀의 회고록 『491일』은 1969년부터 1970년까지 491일간의 독방 감금을 견뎌낸 기록을 담고 있다; 석방 이후 공적 활동에서 물러나는 대신, 그녀는 곧바로 다시 세간의 이목을 끄는 활동에 복귀했다.",
+  "winnie-madikizela-mandela.interpretation.turning_point.1":
+    "1년 반 가까운 독방 감금 이후 물러나는 대신 곧바로 세간의 이목을 끄는 활동에 복귀한 것은 프로필의 지속성(persistence) 점수의 근거다.",
+  "amartya-sen.achievement.1":
+    "역량 접근법을 개발하여 복지를 자원이나 소득이 아닌 실질적 자유를 중심으로 재구성했다 -- 이 개념적 전환은 마붑 울하크와 공동 개발한 유엔 인간개발지수를 포함해 이후 국제 개발을 측정하는 방식 자체를 바꾸어 놓았다.",
+  "amartya-sen.achievement.2":
+    "『빈곤과 기근』(1981)을 포함한 기근 연구를 통해, 기근을 단순한 식량 공급 부족이 아니라 소유 권한과 정치적 책임의 문제로 재규정했다 -- 이는 기근 예방 정책에 직접적인 영향을 미쳤다.",
+  "amartya-sen.moment.1":
+    "그는 어린 시절 1943년 벵골 대기근을 직접 목격했으며, 이 경험은 훗날 그의 실증적 기근 연구에 영향을 미쳤다.",
+  "amartya-sen.moment.2":
+    "그의 사회선택이론 연구는 애로우의 불가능성 정리를 확장하고 그 한계를 규명하는 엄밀한 수학적 증명을 제시했으며, 이는 1998년 노벨위원회가 구체적으로 인용한 업적이다.",
+  "amartya-sen.turning_point.1":
+    "그의 역량 접근법은 국내총생산·소득 중심의 지배적인 경제 복지 측정 방식에 정면으로 도전했으며, 당시 학계의 지배적 관행에서 벗어난 이 시도는 수십 년에 걸쳐 국제 개발 측정 방식 자체를 바꾸어 놓았다.",
+  "amartya-sen.interpretation.turning_point.1":
+    "자신의 학문 분야에서 지배적이던 측정 관행에 정면으로 도전하고, 이 도전을 그 분야 자체를 바꿀 때까지 이어간 것은 프로필의 독립적 사고력(independent_thinking) 점수의 근거다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
