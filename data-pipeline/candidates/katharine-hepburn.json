@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "katharine-hepburn",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Katharine Hepburn",
     "wikidataId": "Q56016",
@@ -214,11 +214,21 @@
       "rationale": "The Philadelphia Story comeback was documented as a deliberately sequenced plan -- securing stage rights first to rebuild critical standing, then selling the film rights on her own terms with cast approval -- rather than an opportunistic single decision, independently corroborated by Berg's account of the multi-step strategy."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/katharine-hepburn-mgm-1941.jpg",
+    "source": "Wikimedia Commons",
+    "license": "Public domain (US work published 1931-1963; copyright not renewed, per a documented search of 1968-1970 copyright renewal records)",
+    "width": 1207,
+    "height": 1600,
+    "attribution": "Metro-Goldwyn-Mayer Studios, 1941 -- studio publicity photograph, restored by Adam Cuerden",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Katharine_Hepburn_publicity_photograph.jpg"
+  },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
     "updatedAt": "2026-09-05T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q56016) before scoring. Depth-focused this cycle: rows corroborated independently by multiple co-stars/crew across different decades, by Tracy's own family and biographers, or by Berg's independent biography rather than Hepburn's self-presentation alone (discipline, persistence, social_assertiveness, conflict_tolerance, collaboration, risk_tolerance, persuasiveness, opportunity_sensing, resourcefulness, planning_orientation) were prioritized for the higher confidence band. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+    "notes": "Roster-16 final intake (2026-09). Wikidata identity verified live (Q56016) before scoring. Depth-focused this cycle: rows corroborated independently by multiple co-stars/crew across different decades, by Tracy's own family and biographers, or by Berg's independent biography rather than Hepburn's self-presentation alone (discipline, persistence, social_assertiveness, conflict_tolerance, collaboration, risk_tolerance, persuasiveness, opportunity_sensing, resourcefulness, planning_orientation) were prioritized for the higher confidence band. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations (highest score 78, discipline/persistence/autonomy_need) and no other rubric issues. Held only on eligibility_v2's high-confidence-average floor (0.54 vs 0.55, despite clearing the 12-row depth gate at 14) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed; computedEligibility preserved unchanged."
   },
   "computedEligibility": {
     "scoredAttributeCount": 22,
@@ -226,6 +236,5 @@
     "coverage": 0.642,
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
-  },
-  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.642 (>=0.6 OK), highConfidenceCount 14 (>=12 OK) -- but highConfidenceAverage 0.54 is below the 0.55 threshold. A genuinely different miss pattern than roster-15's held candidates: the depth gate (>=12 high-confidence rows) was cleared comfortably, but the average strength within that qualifying band was still slightly too thin. Not rescued: no confidence raised post-validation."
+  }
 }

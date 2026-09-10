@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "agatha-christie",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Agatha Christie",
     "wikidataId": "Q35064",
@@ -214,11 +214,22 @@
       "rationale": "Documented as rebuilding her finances and public standing after her costly 1926 divorce by continuing steady novel production rather than any single dramatic recovery, and later using her hospital-dispensary access itself as a practical, self-taught source of technical material for her books."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/agatha-christie-anefo-1964.jpg",
+    "source": "Wikimedia Commons / Nationaal Archief",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "width": 1128,
+    "height": 1600,
+    "attribution": "Joop van Bilsen / Anefo, 17 September 1964",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg"
+  },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
     "updatedAt": "2026-09-05T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q35064) before scoring. The 1926 disappearance is treated strictly as a documented event under acute personal stress, not as evidence for risk_tolerance and not as grounds for any diagnosis — used only to inform ambiguity_tolerance, per the rubric's discipline against inferring mental illness. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q35064) before scoring. The 1926 disappearance is treated strictly as a documented event under acute personal stress, not as evidence for risk_tolerance and not as grounds for any diagnosis — used only to inform ambiguity_tolerance, per the rubric's discipline against inferring mental illness. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations (highest score 78, discipline) and no other rubric issues. Held only on eligibility_v2's high-confidence-count floor (8 of 22 rows at confidence>=0.5, need 12) — existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed; computedEligibility preserved unchanged."
   },
   "computedEligibility": {
     "scoredAttributeCount": 22,
@@ -226,6 +237,5 @@
     "coverage": 0.654,
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
-  },
-  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.654 (>=0.6 OK) but only 8 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the structural limits of this person's evidence base. Not rescued: no confidence raised post-validation."
+  }
 }

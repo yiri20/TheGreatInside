@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ravi-shankar",
-  "status": "held",
-  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.460, coverage=0.542, eligible=false. Career achievement is exceptionally well documented, but personal-behavioral texture beyond the Monterey/Bangladesh episodes rests mostly at inference tier. Held, not rejected.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Ravi Shankar",
     "aliases": ["Robindro Shaunkor Chowdhury", "Pandit Ravi Shankar"],
@@ -47,10 +46,21 @@
     "risk_tolerance": { "score": 58, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Introduced traditional Indian classical forms to skeptical or unfamiliar Western concert and festival audiences repeatedly across his career, a real if modest documented reputational risk." },
     "creative_originality": { "score": 72, "confidence": 0.46, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "Is credited with original cross-genre compositional work (film scores, orchestral concertos for sitar, collaborations spanning multiple traditions) beyond traditional classical repertoire alone, documented via the range of his credited original compositions." }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ravi-shankar-woodstock-1969.jpg",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0 (VRT-verified permission from the copyright holder, ticket #2015112710019131)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "width": 1142,
+    "height": 1600,
+    "attribution": "Markgoff2972, August 1969, at Woodstock",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ravi_Shankar.jpg"
+  },
   "provenance": {
     "createdAt": "2026-09-03T00:00:00Z",
     "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q103774, matches name/dates/role -- distinguished from any other person of the same name). Deliberately capped the Monterey Pop tuning-episode row at a moderate score per this rubric's single-anecdote ceiling rather than treating a single vivid story as extreme evidence. inclusion_v1: clearly passes -- no inherited position."
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q103774, matches name/dates/role -- distinguished from any other person of the same name). Deliberately capped the Monterey Pop tuning-episode row at a moderate score per this rubric's single-anecdote ceiling rather than treating a single vivid story as extreme evidence. inclusion_v1: clearly passes -- no inherited position. Roster28 fast-batch audit (2026-09): mechanical row scan checked discipline (90, the seven-year Allauddin Khan apprenticeship) and mastery_orientation (88, a 70-year performing career) against scoring-rubric-v1 Section 4 -- both describe sustained, historically-defining multi-decade patterns central to how Shankar is understood (not a single anecdote or a narrowly-scoped one-time episode), consistent with how comparable sustained-pattern rows were treated elsewhere in this same audit (Hawking's persistence, Roosevelt's My Day column); kept unchanged. No other rubric issues found. Held only on eligibility_v2's confidence floor (avgConf 0.460 vs 0.55) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed."
   }
 }

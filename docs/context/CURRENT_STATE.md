@@ -4,62 +4,53 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-10 (Roster27: twelve-person fast production batch,
-`feat/roster27-twelve-person-fast-batch`, unmerged — mechanical intake
-from existing `data-pipeline/candidates/*.json` only, no new candidate
-discovery, deliberately diversified away from roster26's politics-heavy
-batch (zero political/state leaders). Lu Xun, Amelia Earhart, Zaha Hadid,
-Jorge Luis Borges, Norman Borlaug, Marie Tharp, Jean-Jacques Rousseau,
-Al-Biruni, Hedy Lamarr, Rosa Parks, Ken Saro-Wiwa, and Bob Marley — all
-honestly failing `eligibility_v2`, none rescued (the promotable
-`qa_passed`/`evidence_approved` pool was fully drained after roster26) —
-passed a first-time evidence-approval audit; six received a
-`RUBRIC_CORRECTION` across four candidates for single-instance scores
-that had drifted into the 85+ band, all moving the score *down* (Borlaug
-`persistence` 90→80 and `achievement_drive` 92→80; Tharp
-`detail_orientation` 90→80; Al-Biruni `curiosity` 88→80; Marley
-`risk_tolerance` 88→80 and `persistence` 85→78). All twelve promoted via
-`generateRoster27.ts` (same architecture as `generateRoster26.ts`), with
-real rights-clear portraits (LOC, Smithsonian NPG, USAID, AIP Emilio
-Segrè Visual Archives, PD-China/Argentina/EU-anonymous/USSR-stamp, a VRT-
-verified permission, and CC BY-SA 2.0 — two `editorial_nonlikeness`,
-honestly labeled where no personal likeness survives or could be
-rights-cleared) and full EN/KO editorial content. **Zero newly
-match-eligible people** this cycle — several candidates clear raw
-`coverage ≥ 0.6` comfortably but all twelve fail the high-confidence-count
-sub-gate; `dispersion.generated.ts`/calibration were correctly left
-untouched since the match-eligible set didn't change. **3 classification
-metadata corrections** (invalid enum values, not present in
-`ARCHETYPE_IDS`/`IMPACT_DOMAINS`): Earhart's `archetypeIds`
-`"visionary_pioneer"`→`"scientific_explorer"`; Borlaug's `impactDomains`
-`"humanitarian"`→`"social"` and `archetypeIds`
-`"resilient_builder"`→`"entrepreneurial_builder"`. Separately, **2
-product taxonomy/i18n coverage fixes** (not classification errors):
-`field.architecture` had no translation and wasn't wired into
-`PROFESSION_CATEGORIES` (Zaha Hadid is the second production architect),
-and `occupation.musician` had no translation (Bob Marley is the first
-production person with `"musician"` as `occupationIds[0]`). Roster:
-**155 total / 154 default-directory-visible / 127 match-eligible** (was
-143/142/127). Zheng He, Giuseppe Garibaldi, Anton Chekhov, the roster25
-six, and the roster26 ten unchanged.
+Last updated: 2026-09-10 (Roster28: fifteen-person fast production batch,
+`feat/roster28-fifteen-person-fast-batch`, unmerged — mechanical intake
+from the existing `held` pool only, no new candidate discovery, this time
+weighted toward broad public recognizability among evidence-viable
+candidates (recognizability affected productization order only, never
+scores/confidence/evidenceType/impact/eligibility). Agatha Christie,
+Winston Churchill, Thomas Jefferson, Sun Yat-sen, Katharine Hepburn, Henry
+Ford, Eleanor Roosevelt, Stephen Hawking, Diego Rivera, Naguib Mahfouz,
+Ida B. Wells, Junko Tabei, Ravi Shankar, Winnie Madikizela-Mandela, and
+Amartya Sen — all honestly failing `eligibility_v2`, none rescued —
+passed a first-time evidence-approval audit that explicitly excluded 22
+Group-B held candidates with evidence-integrity/identity/sourcing
+concerns (17 flagged by a prior "session-11" confidence-inflation
+incident, plus John von Neumann, Marco Polo, Sun Tzu, Sitting Bull, and
+Rigoberta Menchú). 3 `RUBRIC_CORRECTION`s across 2 candidates for
+single-episode scores that had drifted into the 85+ band, all moving the
+score *down* (Sun Yat-sen `risk_tolerance` 88→80; Wells `risk_tolerance`
+90→80 and `proactive_agency` 88→80). All fifteen promoted via
+`generateRoster28.ts` (same architecture as `generateRoster27.ts`), with
+real rights-clear portraits (Nationaal Archief/Anefo, UK National
+Archives, White House Collection, PD-China/Taiwan, PD-documented-
+non-renewal, The Henry Ford, FDR Library, NASA, Museo Frida Kahlo,
+Wikimedia contributor-licensed photos — one `editorial_nonlikeness`,
+Mahfouz, honestly labeled where no rights-clear personal likeness was
+found) and full EN/KO editorial content. **Zero newly match-eligible
+people** this cycle — several candidates clear raw `coverage ≥ 0.6`
+comfortably but all fifteen fail the high-confidence-count/average
+sub-gate; `dispersion.generated.ts`/calibration correctly left untouched.
+**1 classification metadata correction** (Tabei's `impactDomains`
+`"environmental"`→`"social"`, not a valid `IMPACT_DOMAINS` value) and **2
+product taxonomy/i18n coverage fixes** (`occupation.economist` — Sen is
+the first production economist; `field.diplomacy` — now used by ≥2
+people, wired into `PROFESSION_CATEGORIES`). Roster: **170 total / 169
+default-directory-visible / 127 match-eligible** (was 155/154/127). Zheng
+He, Giuseppe Garibaldi, Anton Chekhov, the roster25 six, the roster26 ten,
+and the roster27 twelve unchanged. Full record:
+[`roster28-fifteen-person-fast-batch.md`](../checkpoints/roster28-fifteen-person-fast-batch.md).
 
-**Post-PR26-review focused correction** (same day): two factual wording
-errors fixed, `ERROR_CORRECTION`/editorial-only, no score/confidence/
-evidenceType/impact/eligibility change on either candidate — Hedy
-Lamarr's `independent_thinking` rationale and EN/KO `moment.2` editorial
-had inaccurately described her 1942 frequency-hopping patent as
-dismissed/rejected by a "military patent office"; corrected to the
-accurate sequence (patent US 2,292,387 granted 1942 by the US Patent
-Office; the Navy separately declined to adopt the system as impractical,
-no motive claimed). Amelia Earhart's `achievement.1` editorial (EN/KO)
-grouped the 1932/1935/1937 flights under language that could read as
-three completed records; corrected to explicitly keep the 1937
-round-the-world flight described as an attempt. This checkpoint's own
-"Metadata" section was also corrected — it had said "0 invalid values
-found," contradicting the 3 classification corrections above, already
-made during the original audit and recorded in each candidate's own
-provenance notes. Counts, eligibility, and the match-eligible set are
-unchanged by this pass. Full record:
+Prior update, 2026-09-10 (Roster27: twelve-person fast production batch,
+`feat/roster27-twelve-person-fast-batch`, unmerged, later merged as PR
+#26 — mechanical intake, zero political/state leaders, 12 promoted, 6
+`RUBRIC_CORRECTION`s, 3 classification metadata corrections, 2 product
+taxonomy/i18n fixes, zero newly match-eligible. Roster 143/142/127 →
+155/154/127. A same-day post-PR review separately fixed two factual
+wording errors (Hedy Lamarr's patent description, Amelia Earhart's 1937
+flight framed as attempt vs. completed record) — `ERROR_CORRECTION`/
+editorial-only, no score/eligibility change. Full record:
 [`roster27-twelve-person-fast-batch.md`](../checkpoints/roster27-twelve-person-fast-batch.md).
 
 Prior update, 2026-09-10 (Roster26: ten-person fast production batch,

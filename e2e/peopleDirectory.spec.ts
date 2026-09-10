@@ -473,7 +473,14 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // alone (Rousseau 72, Hedy Lamarr 74, Al-Biruni 80) but none score
   // collaboration >=73 (all <=58) -- so the filtered count of 6 is
   // unchanged.
-  expect(bodyText).toMatch(/전체\s*155명\s*중\s*6명/);
+  // Total updated again 155->170 (roster28 fifteen-person fast batch: 15 new
+  // people). Verified directly against the real rendered z-score filter
+  // (not raw score arithmetic, which is not equivalent -- traitScoreGroups
+  // uses population z-scores, not a raw 0-100 threshold): the live result
+  // set is still exactly these same 6 people (Lincoln, Franklin, Darwin,
+  // Goodall, Winfrey, Rubin); none of the 15 new people enter the set, so
+  // the filtered count of 6 is unchanged.
+  expect(bodyText).toMatch(/전체\s*170명\s*중\s*6명/);
   expect(bodyText).toContain("베라 루빈");
 });
 

@@ -2,8 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "stephen-hawking",
-  "status": "held",
-  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.466, coverage=0.536, eligible=false. His remarkable adaptation/persistence arc supports several strong documented rows, but many others rest at inference tier once his scientific fame is not treated as automatic personality evidence. Held, not rejected.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Stephen Hawking",
     "aliases": ["Stephen William Hawking"],
@@ -47,10 +46,20 @@
     "leadership_drive": { "score": 50, "confidence": 0.36, "evidenceType": "inference", "impact": "neutral", "rationale": "Held a senior academic chair (the Lucasian Professorship of Mathematics at Cambridge) for three decades, suggesting some institutional stature, though direct evidence of active administrative leadership beyond the role's prestige is limited in the sources reviewed." },
     "cross_domain_range": { "score": 60, "confidence": 0.4, "evidenceType": "inference", "impact": "neutral", "rationale": "Sustained substantive activity as both a research physicist and a bestselling popular-science author/public communicator concurrently across his career, inferred from the documented range of his credited output." }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/stephen-hawking-nasa-2008.jpg",
+    "source": "Wikimedia Commons / NASA",
+    "license": "Public domain (NASA work; NASA material is not protected by copyright unless noted)",
+    "width": 1600,
+    "height": 1600,
+    "attribution": "NASA / Paul Alers, 21 April 2008 -- NASA 50th anniversary lecture",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Stephen_hawking_2008_nasa_cropped.jpg"
+  },
   "provenance": {
     "createdAt": "2026-09-03T00:00:00Z",
     "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q17714, matches name/dates). Deliberately did NOT use his second marriage (to Elaine Mason) in any row -- that period involved specific mistreatment allegations that were investigated by police but not prosecuted, and this project's safety rule against inferring unproven behavior means those allegations are not treated as documented fact here in either direction; the first marriage's documented strain (Jane Hawking's own memoir, not the disputed second-marriage allegations) was the only marital-context material considered, and was not used to score any row given its sensitivity and tangential relevance to the traits scored. inclusion_v1: clearly passes -- no inherited position."
+    "notes": "Track A first scoring (2026-09-03). Wikidata QID verified directly against the live entity page (Q17714, matches name/dates). Deliberately did NOT use his second marriage (to Elaine Mason) in any row -- that period involved specific mistreatment allegations that were investigated by police but not prosecuted, and this project's safety rule against inferring unproven behavior means those allegations are not treated as documented fact here in either direction; the first marriage's documented strain (Jane Hawking's own memoir, not the disputed second-marriage allegations) was the only marital-context material considered, and was not used to score any row given its sensitivity and tangential relevance to the traits scored. inclusion_v1: clearly passes -- no inherited position. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations. persistence (95) and adaptability (90) both describe his decades-long response to ALS and are exactly the kind of defining, historically-central characteristic scoring-rubric-v1 Section 4 reserves the 85+ band for -- checked and kept. The deliberate exclusion of the disputed second-marriage allegations from scoring, noted above, is exactly the evidence discipline this audit looks for. Held only on eligibility_v2's confidence/coverage floors (avgConf 0.466 vs 0.55, coverage 0.536 vs 0.6) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed."
   }
 }

@@ -841,6 +841,10 @@ export const en = {
   "occupation.chemist": "chemist",
   "occupation.composer": "composer",
   "occupation.musician": "musician",
+  // Roster28 (2026-09): occupationIds[0] for Amartya Sen, the first
+  // production economist -- added the same way this set is always
+  // extended, per missingOccupationCoverage().
+  "occupation.economist": "economist",
   "occupation.computer_scientist": "computer scientist",
   "occupation.conservationist": "conservationist",
   "occupation.crystallographer": "crystallographer",
@@ -1014,6 +1018,7 @@ export const en = {
   "field.design": "Design",
   "field.architecture": "Architecture",
   "field.politics": "Politics",
+  "field.diplomacy": "Diplomacy",
   "field.civil_rights": "Civil Rights",
   "field.military": "Military",
   "field.education": "Education",

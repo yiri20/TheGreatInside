@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "thomas-jefferson",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Thomas Jefferson",
     "wikidataId": "Q11812",
@@ -218,11 +218,21 @@
       "rationale": "Documented as repeatedly restructuring debt and mortgaging enslaved people and land to fund Monticello's continual rebuilding, a documented but ethically fraught financial pattern that ultimately failed to resolve his insolvency — scored moderately rather than as a positive resourcefulness case."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/thomas-jefferson-peale-1800.jpg",
+    "source": "Wikimedia Commons / White House Collection",
+    "license": "Public domain (1800 oil painting; artist Rembrandt Peale died 1860)",
+    "width": 1342,
+    "height": 1600,
+    "attribution": "Rembrandt Peale, 1800 -- Official Presidential Portrait, White House Collection",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg"
+  },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
     "updatedAt": "2026-09-05T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q11812) before scoring. Jefferson's documented, DNA-and-documentary-confirmed relationship with Sally Hemings (an enslaved woman he owned) and his sustained enslavement of over 600 people despite his own written condemnation of slavery are treated as directly relevant, serious evidence for belief_updating and resourcefulness (both scored low/dual-edged) rather than omitted — per CLAUDE.md's instruction to never rig results to flatter. No score on this profile infers a diagnosis or private mental state; all rows trace to documented conduct. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run."
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q11812) before scoring. Jefferson's documented, DNA-and-documentary-confirmed relationship with Sally Hemings (an enslaved woman he owned) and his sustained enslavement of over 600 people despite his own written condemnation of slavery are treated as directly relevant, serious evidence for belief_updating and resourcefulness (both scored low/dual-edged) rather than omitted — per CLAUDE.md's instruction to never rig results to flatter. No score on this profile infers a diagnosis or private mental state; all rows trace to documented conduct. Scored to 22 attributes on genuine evidence availability. Scored to completion before eligibility_v2 was run. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations — highest score is curiosity (85), which cites four genuinely distinct sustained domains (architecture, paleontology, botany, linguistics) each with real documented output, satisfying the multiple-independent-instances bar. Held only on eligibility_v2's high-confidence-count floor (9 of 22 rows at confidence>=0.5, need 12) — existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed; computedEligibility preserved unchanged."
   },
   "computedEligibility": {
     "scoredAttributeCount": 22,
@@ -230,6 +240,5 @@
     "coverage": 0.65,
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
-  },
-  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.650 (>=0.6 OK) but only 9 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the structural limits of this person's evidence base. Not rescued: no confidence raised post-validation."
+  }
 }

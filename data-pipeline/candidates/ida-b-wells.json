@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ida-b-wells",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Ida B. Wells",
     "wikidataId": "Q289428",
@@ -58,18 +58,18 @@
   ],
   "rows": {
     "risk_tolerance": {
-      "score": 90,
+      "score": 80,
       "confidence": 0.65,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Her Memphis newspaper office was destroyed by a mob in 1892 in direct retaliation for her anti-lynching editorials; she was forced to flee the city and continued anti-lynching journalism from Chicago and New York rather than stopping -- a specific, extensively documented, high-stakes episode."
+      "rationale": "RUBRIC_CORRECTION (roster28 fast-batch audit, 2026-09; score-band correction only): Her Memphis newspaper office was destroyed by a mob in 1892 in direct retaliation for her anti-lynching editorials; she was forced to flee the city and continued anti-lynching journalism from Chicago and New York rather than stopping -- a specific, extensively documented, high-stakes episode. Originally scored 90/documented; corrected to 80 because this rests on one single dated episode (continuing her journalism afterward is not itself a second risk-taking instance), per scoring-rubric-v1 Section 4's 85+ requirement for multiple independent documented instances. Score-band correction only: evidenceType and confidence unchanged."
     },
     "proactive_agency": {
-      "score": 88,
+      "score": 80,
       "confidence": 0.62,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Sued a railroad company in 1884, at age 22, after being forcibly removed from a first-class train car -- initially winning before the verdict was overturned on appeal -- a specific, dated, extensively documented self-initiated legal challenge undertaken at a very young age."
+      "rationale": "RUBRIC_CORRECTION (roster28 fast-batch audit, 2026-09; score-band correction only): Sued a railroad company in 1884, at age 22, after being forcibly removed from a first-class train car -- initially winning before the verdict was overturned on appeal -- a specific, dated, extensively documented self-initiated legal challenge undertaken at a very young age. Originally scored 88/documented; corrected to 80 because this rests on one single dated episode, per scoring-rubric-v1 Section 4's 85+ requirement for multiple independent documented instances (this row's own rationale does not itself cite a second proactive instance; the suffrage-organization founding is separately scored under achievement_drive/leadership_drive). Score-band correction only: evidenceType and confidence unchanged."
     },
     "analytical_rigor": {
       "score": 86,
@@ -184,11 +184,20 @@
       "rationale": "Sustained, increasingly sophisticated investigative methodology across her journalism career suggests developing mastery, inferred from the documented progression from her first newspaper editorials to her later statistically grounded publications."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ida-b-wells-garrity-1893.jpg",
+    "source": "Wikimedia Commons",
+    "license": "Public domain (photograph circa 1893)",
+    "width": 1120,
+    "height": 1600,
+    "attribution": "Mary Garrity, c. 1893",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mary_Garrity_-_Ida_B._Wells-Barnett_-_Google_Art_Project_-_restoration_crop.jpg"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-08-15T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- born into slavery, no inherited position of any kind; every achievement is entirely her own."
-  },
-  "holdReason": "Held after a genuine source-first research/scoring pass this session (citing her own posthumously published autobiography Crusade for Justice): avgConf 0.467 vs 0.55 floor, coverage 0.542 vs 0.6 floor. The 1884 railroad lawsuit, the 1892 mob destruction of her newspaper office, and the 1913 suffrage-parade episode are all strongly documented, specific, dated instances, but coverage fell short -- the attributes with strong evidence this session happened to cluster on lower-baseWeight dimensions."
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- born into slavery, no inherited position of any kind; every achievement is entirely her own. Roster28 fast-batch audit (2026-09): mechanical row scan found two extremity violations -- risk_tolerance (90) and proactive_agency (88) each rested on one single dated episode (the 1892 mob attack; the 1884 railroad lawsuit); corrected to 80/80, evidenceType/confidence unchanged (see row rationales). analytical_rigor (86, citing two separate published works -- Southern Horrors and The Red Record) was checked and is NOT a violation. Held only on eligibility_v2's coverage floor (avgConf 0.467 vs 0.55, coverage 0.542 vs 0.6) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed."
+  }
 }

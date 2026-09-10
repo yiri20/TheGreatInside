@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "naguib-mahfouz",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Naguib Mahfouz",
     "wikidataId": "Q7176",
@@ -199,11 +199,22 @@
       "rationale": "The Cairo Trilogy's multi-generational, structurally interconnected narrative evidences real capacity for large-scale compositional architecture."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/naguib-mahfouz-statue-cairo-2008.jpg",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "width": 1001,
+    "height": 1558,
+    "attribution": "Photograph by Bertramz, December 2008 -- memorial statue, Midan Sphinx, Cairo",
+    "kind": "editorial_nonlikeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nagib_Machfus_Statue_(cropped).jpg"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-09-03T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: 20th_century, north_africa (Egypt), literature domain — first sub-Saharan-Africa-adjacent Nobel literature laureate representation from North Africa/the Arab world in the roster, complementing Umm Kulthum (music) and Ibn Khaldun (medieval scholarship) as north_africa representation. Evidence-deepening pass (2026-09-03, Track B batch 2b): added El-Enany's scholarly biography (verified real in a prior session) and press/literary-history accounts of his personal daily-life routine, distinct from the Nobel-citation/reception evidence already used. 2 rows upgraded (persistence, curiosity), both via a genuinely new, on-point personal-domain instance rather than a retelling of already-scored literary-achievement facts. Did not re-run eligibility mid-edit. [Labeled NEW_EVIDENCE, added on final-QA sweep: the persistence/curiosity changes above are the El-Enany biography and daily-life-routine findings described in this same note, not a rubric or error correction.]"
-  },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.504 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+    "notes": "Third-batch diversity pick: 20th_century, north_africa (Egypt), literature domain — first sub-Saharan-Africa-adjacent Nobel literature laureate representation from North Africa/the Arab world in the roster, complementing Umm Kulthum (music) and Ibn Khaldun (medieval scholarship) as north_africa representation. Evidence-deepening pass (2026-09-03, Track B batch 2b): added El-Enany's scholarly biography (verified real in a prior session) and press/literary-history accounts of his personal daily-life routine, distinct from the Nobel-citation/reception evidence already used. 2 rows upgraded (persistence, curiosity), both via a genuinely new, on-point personal-domain instance rather than a retelling of already-scored literary-achievement facts. Did not re-run eligibility mid-edit. [Labeled NEW_EVIDENCE, added on final-QA sweep: the persistence/curiosity changes above are the El-Enany biography and daily-life-routine findings described in this same note, not a rubric or error correction.] Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations -- discipline (86) cites both a 70-year sustained daily routine AND a quantified output of 30+ novels, each independently a distinct completed work; satisfies the multiple-independent-instances bar comfortably. Held only on eligibility_v2's confidence floor (avgConf 0.504 vs 0.55) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed."
+  }
 }

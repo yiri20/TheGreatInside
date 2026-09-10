@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "henry-ford",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Henry Ford",
     "wikidataId": "Q8768",
@@ -218,11 +218,21 @@
       "rationale": "Documented as an active public communicator later in his career (a nationally syndicated newspaper column, radio appearances, the widely-read My Life and Work), though earlier in life described by associates as more reserved and mechanically focused — genuinely mixed across his life stages, scored near center."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henry-ford-1915.jpg",
+    "source": "Wikimedia Commons / The Henry Ford Collections",
+    "license": "Public domain (published before 1 January 1931)",
+    "width": 1200,
+    "height": 1600,
+    "attribution": "Ford Motor Company Photographic Department, 25 May 1915 -- The Henry Ford Collections",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Henry_Ford_portrait_1915_original_(3x4_cropped).png"
+  },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
     "updatedAt": "2026-09-05T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q8768) before scoring. The Dearborn Independent antisemitic publishing campaign is extensively documented historical fact (Baldwin's independent scholarly treatment, Ford's own eventual 1927 apology) and is scored directly and honestly here (impact_motivation dual-edged, conflict_tolerance and belief_updating both reflecting the documented harm), per CLAUDE.md's instruction to never rig results to flatter or to sanitize the historical record. No score infers a private mental state; all rows trace to documented public conduct. Scored to completion before eligibility_v2 was run."
+    "notes": "Roster-15 coverage-aware intake (2026-09). Wikidata identity verified live (Q8768) before scoring. The Dearborn Independent antisemitic publishing campaign is extensively documented historical fact (Baldwin's independent scholarly treatment, Ford's own eventual 1927 apology) and is scored directly and honestly here (impact_motivation dual-edged, conflict_tolerance and belief_updating both reflecting the documented harm), per CLAUDE.md's instruction to never rig results to flatter or to sanitize the historical record. No score infers a private mental state; all rows trace to documented public conduct. Scored to completion before eligibility_v2 was run. Roster28 fast-batch audit (2026-09): mechanical row scan found no extremity violations (highest score 78, creative_originality/autonomy_need) and no other rubric issues -- the Dearborn Independent material remains scored honestly, unchanged. Held only on eligibility_v2's high-confidence-count floor (11 of 22 rows at confidence>=0.5, need 12) -- existing evidence is publication-auditable; moved to evidence_approved. Eligibility-only holdReason removed; computedEligibility preserved unchanged."
   },
   "computedEligibility": {
     "scoredAttributeCount": 22,
@@ -230,6 +240,5 @@
     "coverage": 0.661,
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
-  },
-  "holdReason": "eligibility_v2: scored 22 attributes (>=18 OK), coverage 0.661 (>=0.6 OK) but only 11 attributes at confidence >= 0.5 (need 12) -- highConfidenceCount floor is the binding constraint, not coverage or scored-attribute count. Evidence pack is genuinely broad (22 attributes) but concentrated in the inference/strong_inference confidence band given the structural limits of this person's evidence base. Not rescued: no confidence raised post-validation."
+  }
 }
