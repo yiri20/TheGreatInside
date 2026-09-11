@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "maria-goeppert-mayer",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Maria Goeppert Mayer",
     "wikidataId": "Q57100",
@@ -10,15 +10,28 @@
     "deathYear": 1972,
     "isLiving": false,
     "era": "20th_century",
-    "nationalityCodes": ["DE", "US"],
+    "nationalityCodes": [
+      "DE",
+      "US"
+    ],
     "regionCode": "north_america"
   },
   "classification": {
-    "occupationIds": ["physicist"],
-    "fieldIds": ["natural_science"],
-    "impactDomains": ["scientific"],
-    "tagIds": ["nobel_laureate"],
-    "archetypeIds": ["scientific_explorer"],
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
     "newTagProposals": []
   },
   "sources": [
@@ -115,7 +128,7 @@
   },
   "computedEligibility": {
     "scoredAttributeCount": 10,
-    "averageConfidence": 0.480,
+    "averageConfidence": 0.48,
     "coverage": 0.311,
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
@@ -123,8 +136,26 @@
   "holdReason": "Validator output (mechanical, not adjusted): 10 scored attributes against the 18-attribute floor, 0.311 coverage against 0.6, only 4 attributes at confidence>=0.5 against the 12-attribute floor. The two sources document a rich single incident (the Fermi spin-orbit-coupling episode) and real institutional hardship (nine unpaid years) well, but do not give enough additional dated behavioral detail across most facets. Held, not rescued.",
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q57100) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Sachs, 1979, written by her first PhD student) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Incident ledger deliberately includes the nine-year unpaid-appointment period, the documented 'distaste' toward wartime bomb-adjacent work, and the post-1960 stroke rather than presenting only the Nobel-Prize narrative, per the diversity-of-behavior gate."
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q57100) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Sachs, 1979, written by her first PhD student) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Incident ledger deliberately includes the nine-year unpaid-appointment period, the documented 'distaste' toward wartime bomb-adjacent work, and the post-1960 stroke rather than presenting only the Nobel-Prize narrative, per the diversity-of-behavior gate. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리아 괴퍼트메이어"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maria-goeppert-mayer-nobel-1963.jpg",
+    "width": 280,
+    "height": 396,
+    "source": "Nobel Foundation (official 1963 Nobel Prize photograph)",
+    "license": "PD-Sweden",
+    "attribution": "Nobel Foundation",
+    "creator": "Nobel Foundation",
+    "date": "1963",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Maria_Goeppert-Mayer.jpg"
   }
 }

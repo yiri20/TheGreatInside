@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "homi-bhabha",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Homi J. Bhabha",
     "wikidataId": "Q325611",
@@ -122,14 +122,29 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "held",
-    "reason": "Institutional (TIFR/AEC) photographs found lack a clearly confirmed Public Domain or CC license on Commons; not independently verified this session."
+    "status": "found",
+    "url": "/portraits/homi-bhabha-oberwolfach.jpg",
+    "width": 288,
+    "height": 400,
+    "source": "Oberwolfach Photo Collection",
+    "license": "CC BY-SA 2.0 DE",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/",
+    "attribution": "Konrad Jacobs, Erlangen / Oberwolfach Photo Collection",
+    "attributionUrl": "https://opc.mfo.de/detail?photo_id=332",
+    "creator": "Konrad Jacobs, Erlangen",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Homi_Jehangir_Bhabha.jpg"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: South Asia diversity pick, distinct profile from B.R. Ambedkar/Rabindranath Tagore already in this roster (a scientific institution-builder rather than a jurist/reformer or poet). Well documented via TIFR and AEC's own institutional records. His death in the 1966 Air India crash is factually noted but no trait score is derived from it. Scored under the corrected, eligibility-blind process."
+    "notes": "Roster-1000 session 12: South Asia diversity pick, distinct profile from B.R. Ambedkar/Rabindranath Tagore already in this roster (a scientific institution-builder rather than a jurist/reformer or poet). Well documented via TIFR and AEC's own institutional records. His death in the 1966 Air India crash is factually noted but no trait score is derived from it. Scored under the corrected, eligibility-blind process. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
   },
-  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 9 scored attributes (need 18); coverage 0.27; HC count 2/12."
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 9 scored attributes (need 18); coverage 0.27; HC count 2/12.",
+  "localization": {
+    "displayNames": {
+      "ko-KR": "호미 바바"
+    }
+  }
 }

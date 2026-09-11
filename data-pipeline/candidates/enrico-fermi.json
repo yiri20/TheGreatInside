@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "enrico-fermi",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Enrico Fermi",
     "wikidataId": "Q8753",
@@ -143,13 +143,28 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/enrico-fermi-nara-1940s.jpg",
+    "width": 960,
+    "height": 1187,
+    "source": "US National Archives and Records Administration",
+    "license": "Public Domain (U.S. federal government work)",
+    "attribution": "National Archives and Records Administration",
+    "creator": "unknown (U.S. federal government)",
+    "date": "c. 1943-1949",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Enrico_Fermi_1943-49.jpg"
   },
   "provenance": {
     "createdAt": "2026-08-20T00:00:00Z",
-    "updatedAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment, docs/roster-1000-checkpoint.md Sec.81): selected specifically for domain breadth (science) AND for an unusually well-documented public life, deliberately chosen to give the research-completeness protocol a fair test. 5 substantive sources consulted (Wikipedia for orientation/cross-checking only, plus 4 independent sources: CERN Courier, an arXiv scholarly reconstruction of the Trinity estimate including his own written observations, Physics Today's account of the 1938 emigration, and the Atomic Heritage Foundation's institutional profile). Evidence ledger: 15 distinct, source-attributed episodes, spanning at least 4 life periods (childhood self-teaching, Pisa education, the 1938 emigration crisis, wartime Chicago/Los Alamos leadership) and at least 5 behavioral contexts (solitary work, formal leadership, risk/major life choice, planning, collaboration, teaching). Ledger built and locked BEFORE any trait score was assigned; trait scores locked BEFORE eligibility_v2 was consulted."
+    "notes": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment, docs/roster-1000-checkpoint.md Sec.81): selected specifically for domain breadth (science) AND for an unusually well-documented public life, deliberately chosen to give the research-completeness protocol a fair test. 5 substantive sources consulted (Wikipedia for orientation/cross-checking only, plus 4 independent sources: CERN Courier, an arXiv scholarly reconstruction of the Trinity estimate including his own written observations, Physics Today's account of the 1938 emigration, and the Atomic Heritage Foundation's institutional profile). Evidence ledger: 15 distinct, source-attributed episodes, spanning at least 4 life periods (childhood self-teaching, Pisa education, the 1938 emigration crisis, wartime Chicago/Los Alamos leadership) and at least 5 behavioral contexts (solitary work, formal leadership, risk/major life choice, planning, collaboration, teaching). Ledger built and locked BEFORE any trait score was assigned; trait scores locked BEFORE eligibility_v2 was consulted. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
   },
-  "holdReason": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment): eligibility_v2 result after a locked, Session-13-depth-verified scoring pass (research-completeness gate confirmed BEFORE scoring: 4 independent substantive sources, 15 evidence-ledger episodes, 4 life periods, 5 behavioral contexts; eligibility_v2 run exactly once across the full 4-person cohort together, with no row modified afterward). 10 scored attributes (need 18); coverage 0.299 (need 0.6); HC count 7/12; HC average 0.611 (PASSES this sub-requirement). The closest of the 4 to eligibility_v2 this session."
+  "holdReason": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment): eligibility_v2 result after a locked, Session-13-depth-verified scoring pass (research-completeness gate confirmed BEFORE scoring: 4 independent substantive sources, 15 evidence-ledger episodes, 4 life periods, 5 behavioral contexts; eligibility_v2 run exactly once across the full 4-person cohort together, with no row modified afterward). 10 scored attributes (need 18); coverage 0.299 (need 0.6); HC count 7/12; HC average 0.611 (PASSES this sub-requirement). The closest of the 4 to eligibility_v2 this session.",
+  "localization": {
+    "displayNames": {
+      "ko-KR": "엔리코 페르미"
+    }
+  }
 }

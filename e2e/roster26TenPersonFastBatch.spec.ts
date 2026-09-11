@@ -202,13 +202,11 @@ for (const c of CANDIDATES) {
   });
 }
 
-test("roster26: people directory default (unfiltered) view shows exactly 142 people, all ten new candidates present exactly once (en-US)", async ({
+test("roster26: people directory default (unfiltered) view contains all ten roster26 candidates exactly once (en-US)", async ({
   page,
 }) => {
   const console_ = captureConsole(page);
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-
-  await expect(page.getByText(/^142 people$/)).toBeVisible();
 
   for (const c of CANDIDATES) {
     const cards = page.locator(`a.tgi-personcard__link[href="/en-US/people/${c.slug}"]`);

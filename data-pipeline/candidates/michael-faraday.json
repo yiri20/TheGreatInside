@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "michael-faraday",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Michael Faraday",
     "wikidataId": "Q8750",
@@ -110,7 +110,7 @@
       "confidence": 0.6,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Personally founded and delivered 19 of the Royal Institution's Christmas Lectures (the most given by any single individual) specifically to make science accessible to young, non-specialist audiences, described by historians as the origin of modern public science communication -- a specific, sustained, deliberate public-education commitment separate from and beyond his own research output."
+      "rationale": "[NARROWED on factual gate review, this session] Personally founded the Royal Institution's Christmas Lectures and delivered a large number of them himself across multiple decades (1827-1861), specifically to make science accessible to young, non-specialist audiences, documented via the Royal Institution's own record of the series and its lecture list. Narrowed from an earlier, more specific \"19 lectures, the most given by any single individual\" claim: the exact total and the superlative comparison against every other lecturer in the series' 200-year history could not be independently confirmed against the sources available this session, so the claim is kept to what is well-documented -- a sustained, repeated, deliberate public-education commitment -- without the unverified count or superlative."
     },
     "curiosity": {
       "score": 68,
@@ -129,13 +129,28 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/michael-faraday-1850s.jpg",
+    "width": 960,
+    "height": 1269,
+    "source": "Wikimedia Commons (UK photograph, author unknown)",
+    "license": "PD-UK-unknown",
+    "creator": "unknown",
+    "date": "c. 1850s",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Michael_Faraday_sitting_crop.jpg",
+    "attribution": "Unknown photographer, c. 1850s"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (science) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80 for the full cohort and selection rationale. Identity verified live against Wikidata (Q8750) before any research began. A factual evidence ledger (13 distinct episodes) was built and locked before any trait score was assigned. His 1839 illness is scored ONLY as a documented behavioral fact (a multi-year research interruption followed by a return to work) -- no diagnosis or psychological characterization of the illness itself is asserted or used as evidence, per CLAUDE.md's Safety section. Scoring was locked BEFORE eligibility_v2 was consulted; see the checkpoint for the full-cohort eligibility result, run once across all 15 fresh candidates together."
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (science) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80 for the full cohort and selection rationale. Identity verified live against Wikidata (Q8750) before any research began. A factual evidence ledger (13 distinct episodes) was built and locked before any trait score was assigned. His 1839 illness is scored ONLY as a documented behavioral fact (a multi-year research interruption followed by a return to work) -- no diagnosis or psychological characterization of the illness itself is asserted or used as evidence, per CLAUDE.md's Safety section. Scoring was locked BEFORE eligibility_v2 was consulted; see the checkpoint for the full-cohort eligibility result, run once across all 15 fresh candidates together. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
   },
-  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 9 scored attributes (need 18); coverage 0.277 (need 0.6); HC count 9/12; HC average 0.589 (PASSES this sub-requirement). The real, well-documented episodes available for a 19th-century scientist -- even researched deeply, with primary/scholarly sources -- support a smaller, honest trait footprint than 18 attributes."
+  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 9 scored attributes (need 18); coverage 0.277 (need 0.6); HC count 9/12; HC average 0.589 (PASSES this sub-requirement). The real, well-documented episodes available for a 19th-century scientist -- even researched deeply, with primary/scholarly sources -- support a smaller, honest trait footprint than 18 attributes.",
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마이클 패러데이"
+    }
+  }
 }

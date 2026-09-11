@@ -285,13 +285,11 @@ for (const c of CANDIDATES) {
   });
 }
 
-test("roster30: people directory default (unfiltered) view shows exactly 203 people, all nineteen shipped candidates present exactly once (en-US)", async ({
+test("roster30: people directory default (unfiltered) view contains all nineteen shipped candidates exactly once (en-US)", async ({
   page,
 }) => {
   const console_ = captureConsole(page);
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-
-  await expect(page.getByText(/^203 people$/)).toBeVisible();
 
   for (const c of CANDIDATES) {
     const cards = page.locator(`a.tgi-personcard__link[href="/en-US/people/${c.slug}"]`);

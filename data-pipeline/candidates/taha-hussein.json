@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "taha-hussein",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Taha Hussein",
     "wikidataId": "Q328765",
@@ -131,14 +131,27 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "held",
-    "reason": "Candidate photographs found reference low-resolution press archive images without a clearly confirmed Public Domain or CC license on Commons; not independently verified this session."
+    "status": "found",
+    "url": "/portraits/taha-hussein-ahram.jpg",
+    "width": 233,
+    "height": 300,
+    "source": "Al-Ahram (Egypt) archive photograph, via Wikimedia Commons",
+    "license": "PD-Egypt (copyright expired)",
+    "attribution": "Al-Ahram",
+    "creator": "unknown (Al-Ahram staff)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:TahaHussein.jpg"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: North Africa diversity pick (\"Dean of Arabic Literature\"). Passes inclusion_v1 cleanly -- rose from a rural, non-elite background through his own scholarly work. Well documented via his own three-volume autobiography (a genuine first-person account, dictated due to blindness) plus the extensive historical record of the 1926 controversy and his later ministerial career. Scored under the corrected, eligibility-blind process."
+    "notes": "Roster-1000 session 12: North Africa diversity pick (\"Dean of Arabic Literature\"). Passes inclusion_v1 cleanly -- rose from a rural, non-elite background through his own scholarly work. Well documented via his own three-volume autobiography (a genuine first-person account, dictated due to blindness) plus the extensive historical record of the 1926 controversy and his later ministerial career. Scored under the corrected, eligibility-blind process. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
   },
-  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 10 scored attributes (need 18); coverage 0.31; HC count 5/12."
+  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 10 scored attributes (need 18); coverage 0.31; HC count 5/12.",
+  "localization": {
+    "displayNames": {
+      "ko-KR": "타하 후세인"
+    }
+  }
 }

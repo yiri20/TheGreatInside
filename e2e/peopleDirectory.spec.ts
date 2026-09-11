@@ -68,6 +68,24 @@ for (const locale of LOCALES) {
   });
 }
 
+/**
+ * Single authoritative live Directory-visible count check (2026-09 roster
+ * test-responsibility cleanup — see
+ * docs/checkpoints/roster31-fifteen-person-zero-politics-batch.md). Every
+ * roster batch spec used to assert this same unfiltered global total
+ * itself, which meant each new roster addition mechanically broke every
+ * older batch spec's own frozen snapshot (first caught as a real, merged
+ * regression: roster30 breaking roster29's "184 people" assertion). This is
+ * now the ONLY place the live unfiltered Directory-visible count is
+ * asserted; roster batch specs assert only their own candidates' presence.
+ */
+test("people directory: default (unfiltered) view shows the current live Directory-visible total (en-US)", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await expect(page.getByText(/^217 people$/)).toBeVisible();
+});
+
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
   await page.getByPlaceholder(/search/i).fill("da vinci");
@@ -504,7 +522,20 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // filtered count of 7 is unaffected: Hippocrates never crossed both the
   // curiosity and collaboration thresholds (he wasn't part of this set
   // either before or after correction).
-  expect(bodyText).toMatch(/전체\s*204명\s*중\s*7명/);
+  // Total updated again 204->218 (roster31 fourteen-person zero-politics
+  // batch: 14 shipped -- Booker T. Washington was reverted to held before
+  // merge on a direct Roster30 zero-politics precedent conflict; see
+  // docs/checkpoints/roster31-fifteen-person-zero-politics-batch.md).
+  // Verified directly against each candidate's real evidence_approved
+  // scores against the fixed reference thresholds (curiosity mean=55/sd=17
+  // so minZ=1.0 requires score>=72 with confidence>=0.5; collaboration
+  // mean=55/sd=18 so minZ=1.0 requires score>=73 with confidence>=0.5):
+  // three of the fourteen cross ONE of the two thresholds alone (Luis
+  // Alvarez curiosity 88/0.62, no collaboration row at all; Enrico Fermi
+  // curiosity 82/0.68, collaboration only 68/0.5; Michael Faraday curiosity
+  // 68/0.55, short of the 72 z-floor), but none crosses BOTH
+  // simultaneously, so the filtered count of 7 is unchanged.
+  expect(bodyText).toMatch(/전체\s*218명\s*중\s*7명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
 });

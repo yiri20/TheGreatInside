@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "luis-alvarez",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Luis Alvarez",
     "wikidataId": "Q178344",
@@ -10,15 +10,32 @@
     "deathYear": 1988,
     "isLiving": false,
     "era": "20th_century",
-    "nationalityCodes": ["US"],
+    "nationalityCodes": [
+      "US"
+    ],
     "regionCode": "north_america"
   },
   "classification": {
-    "occupationIds": ["physicist", "inventor"],
-    "fieldIds": ["natural_science"],
-    "impactDomains": ["scientific", "innovation"],
-    "tagIds": ["nobel_laureate", "generalist", "prolific"],
-    "archetypeIds": ["scientific_explorer", "technical_innovator"],
+    "occupationIds": [
+      "physicist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "innovation"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "generalist",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
     "newTagProposals": []
   },
   "sources": [
@@ -144,8 +161,26 @@
   "holdReason": "Validator output (mechanical, not adjusted): 13 scored attributes against the 18-attribute floor, 0.393 coverage against 0.6, only 7 attributes at confidence>=0.5 against the 12-attribute floor. This candidate had the richest single source of the eight (an unusually detailed, firsthand-witness NAS memoir) and still falls well short of the production floor -- a direct illustration that even strong secondary-source depth from two sources cannot substitute for the multi-book research a full committed-roster profile needs. Held, not rescued.",
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q178344) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Trower, 2009, an unusually rich firsthand-witness account by a close collaborator) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger built before scoring, deliberately including unflattering/contradictory data points (documented lack of intellectual consistency, reluctance to claim credit, McMillan falling-out) rather than only achievement highlights, per the diversity-of-behavior gate."
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q178344) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Trower, 2009, an unusually rich firsthand-witness account by a close collaborator) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger built before scoring, deliberately including unflattering/contradictory data points (documented lack of intellectual consistency, reluctance to claim credit, McMillan falling-out) rather than only achievement highlights, per the diversity-of-behavior gate. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루이스 앨버레즈"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/luis-alvarez-lbnl-doe-1969.jpg",
+    "width": 960,
+    "height": 1243,
+    "source": "US National Archives / Lawrence Berkeley National Laboratory / Department of Energy",
+    "license": "Public Domain (U.S. federal government work)",
+    "attribution": "Lawrence Berkeley National Laboratory / Department of Energy",
+    "creator": "Lawrence Berkeley National Laboratory",
+    "date": "1969-04",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Luis_Alvarez_with_a_magnetic_monopole_detector_-_Restoration.jpg"
   }
 }

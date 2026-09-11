@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "linus-pauling",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Linus Pauling",
     "wikidataId": "Q48983",
@@ -10,15 +10,32 @@
     "deathYear": 1994,
     "isLiving": false,
     "era": "20th_century",
-    "nationalityCodes": ["US"],
+    "nationalityCodes": [
+      "US"
+    ],
     "regionCode": "north_america"
   },
   "classification": {
-    "occupationIds": ["chemist", "activist"],
-    "fieldIds": ["natural_science"],
-    "impactDomains": ["scientific", "social"],
-    "tagIds": ["nobel_laureate", "generalist", "nonconformist"],
-    "archetypeIds": ["scientific_explorer", "cross_disciplinary_generalist"],
+    "occupationIds": [
+      "chemist",
+      "activist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "social"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "generalist",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
     "newTagProposals": []
   },
   "sources": [
@@ -151,8 +168,27 @@
   "holdReason": "Validator output (mechanical, not adjusted): 14 scored attributes against the 18-attribute floor, 0.423 coverage against the 0.6 floor, 9 attributes at confidence>=0.5 against the 12-attribute floor. Two genuinely independent sources (NAS Dunitz memoir + Encyclopedia.com/CDSB entry) were actually opened and read, satisfying the minimum source-depth gate, and both a real conflict domain (Robinson dismissal/lawsuits, discriminatory hiring conduct) and a real risk/ambiguity domain (vitamin C advocacy, DNA-model retraction) are represented -- this is not a structurally-thin profile. The gap is coverage of the thinking/work_style/motivation facets specifically, which the two sources actually consulted do not address with enough behavioral specificity to score defensibly. Held, not rescued: no score or confidence was adjusted after seeing this output.",
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-18 intake (2026-09), first candidate scored under the stricter multi-source evidence gate established after the roster-17 evidence-integrity correction. Wikidata identity (Q48983) checked against the live Wikipedia article before scoring. Both listed sources were actually fetched and read in full (not merely cited) -- the NAS Biographical Memoir via a direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger drawn from these two sources only, built before any row was scored: DNA-model retraction and intellectual-humility moment, vitamin C advocacy against consensus, Robinson dismissal/lawsuits, discriminatory hiring conduct against religious faculty, Manhattan Project refusal, childhood financial hardship and the $100/month teaching appointment, two unshared Nobel Prizes. Scored once, conservatively; result is held on coverage, not on any defect in the evidence gathered -- accepted as an honest outcome per the standing instruction not to research toward eligibility."
+    "notes": "Roster-18 intake (2026-09), first candidate scored under the stricter multi-source evidence gate established after the roster-17 evidence-integrity correction. Wikidata identity (Q48983) checked against the live Wikipedia article before scoring. Both listed sources were actually fetched and read in full (not merely cited) -- the NAS Biographical Memoir via a direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Behavioral incident ledger drawn from these two sources only, built before any row was scored: DNA-model retraction and intellectual-humility moment, vitamin C advocacy against consensus, Robinson dismissal/lawsuits, discriminatory hiring conduct against religious faculty, Manhattan Project refusal, childhood financial hardship and the $100/month teaching appointment, two unshared Nobel Prizes. Scored once, conservatively; result is held on coverage, not on any defect in the evidence gathered -- accepted as an honest outcome per the standing instruction not to research toward eligibility. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라이너스 폴링"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/linus-pauling-pragher-1977.jpg",
+    "width": 662,
+    "height": 1000,
+    "source": "Landesarchiv Baden-Württemberg, Staatsarchiv Freiburg (Sammlung Willy Pragher)",
+    "license": "CC BY 3.0 DE",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/",
+    "attribution": "Landesarchiv Baden-Württemberg, Fotograf: Willy Pragher",
+    "creator": "Willy Pragher",
+    "date": "1977",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:27._Tagung_1977_Chemiker;_Linus_C._Pauling_Portr%C3%A4t_-_W134Nr.108890d_-_Willy_Pragher.jpg"
   }
 }
