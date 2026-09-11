@@ -68,6 +68,24 @@ for (const locale of LOCALES) {
   });
 }
 
+/**
+ * Single authoritative live Directory-visible count check (2026-09 roster
+ * test-responsibility cleanup — see
+ * docs/checkpoints/roster31-fifteen-person-zero-politics-batch.md). Every
+ * roster batch spec used to assert this same unfiltered global total
+ * itself, which meant each new roster addition mechanically broke every
+ * older batch spec's own frozen snapshot (first caught as a real, merged
+ * regression: roster30 breaking roster29's "184 people" assertion). This is
+ * now the ONLY place the live unfiltered Directory-visible count is
+ * asserted; roster batch specs assert only their own candidates' presence.
+ */
+test("people directory: default (unfiltered) view shows the current live Directory-visible total (en-US)", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  await expect(page.getByText(/^217 people$/)).toBeVisible();
+});
+
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
   await page.getByPlaceholder(/search/i).fill("da vinci");

@@ -345,12 +345,22 @@ PersonZeroPoliticsBatch.spec.ts`'s own "203 people" snapshot assertion,
 which this batch's addition mechanically invalidates regardless of content
 (now 217) — a directory-visible-count assertion "genuinely affected" by
 this cycle's own change, per the task's explicit update criteria.
-**Left alone, flagged but not fixed** (pre-existing, not caused by this
-batch): `roster29FifteenPersonFastBatch.spec.ts`'s own "184 people"
-assertion has been stale since Roster30 merged (184 was correct only
-between Roster29 and Roster30's own merges) — this is Roster30's
-regression against Roster29's spec, not Roster31's against anything;
-fixing it is a separate, pre-existing cleanup outside this batch's scope.
+
+**Pre-merge follow-up (test-responsibility cleanup)**: the "left alone,
+flagged but not fixed" `roster29FifteenPersonFastBatch.spec.ts` staleness
+noted above was revisited before merge rather than left as a known-failing
+test. Root cause: every roster batch spec asserted the live global
+Directory-visible total itself, so each new roster addition mechanically
+broke every older batch spec's own frozen snapshot — Roster30 breaking
+Roster29's "184 people" assertion was the first real instance, and this
+batch would have gone on to break Roster30's "217 people" assertion at the
+very next addition. Fixed by moving ownership of that one live total to a
+single new authoritative test in `peopleDirectory.spec.ts` ("default
+(unfiltered) view shows the current live Directory-visible total", asserting
+217), and removing the duplicated assertion from every batch spec that had
+it (roster12, 25, 26, 27, 28, 29, 30, 31) — each now asserts only its own
+candidates' presence, not the global count. All ten affected specs, 692
+tests, pass against the corrected tree.
 
 The interest-area matching feature itself (quiz scope selector, Results
 scope switcher, `interestScope.ts`) was not touched, and no test for it
