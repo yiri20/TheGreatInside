@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "rosalyn-yalow",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Rosalyn Yalow",
     "wikidataId": "Q107402",
@@ -10,15 +10,30 @@
     "deathYear": 2011,
     "isLiving": false,
     "era": "20th_century",
-    "nationalityCodes": ["US"],
+    "nationalityCodes": [
+      "US"
+    ],
     "regionCode": "north_america"
   },
   "classification": {
-    "occupationIds": ["physicist", "medical_researcher"],
-    "fieldIds": ["natural_science", "medicine"],
-    "impactDomains": ["scientific", "medical"],
-    "tagIds": ["nobel_laureate"],
-    "archetypeIds": ["scientific_explorer"],
+    "occupationIds": [
+      "physicist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
     "newTagProposals": []
   },
   "sources": [
@@ -30,7 +45,7 @@
     },
     {
       "id": "src_ry_pmc_madame_curie",
-      "kind": "journal_article",
+      "kind": "press",
       "title": "\"Rosalyn Yalow (1921-2011): Madame Curie from the Bronx\" -- PMC (NIH), reproducing an obituary/tribute drawing on her own autobiographical account",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6658655/"
     },
@@ -116,8 +131,26 @@
   "holdReason": "Validator output (mechanical, not adjusted): 9 scored attributes against the 18-attribute floor, 0.274 coverage against 0.6, only 5 attributes at confidence>=0.5 against the 12-attribute floor. The two sources actually consulted give an unusually strong conflict/adversity domain (explicit quoted discrimination, principled award/patent refusals) but not enough additional working-habit or thinking-facet detail to close the gap. Held, not rescued.",
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q107402) checked against the live Wikipedia article before scoring. No National Academy of Sciences Biographical Memoir for Yalow could be located after a genuine search (search results returned only her collaborator Solomon Berson's memoir); rather than substitute a weaker guess, two other genuinely independent sources were actually fetched and read in full: a PMC (NIH)-hosted tribute article drawing on her own autobiographical account, and the Encyclopedia.com biographical entry. Incident ledger is unusually strong specifically in the conflict/adversity domain (explicit quoted discriminatory rejections, a hospital admission failure late in life) relative to the other roster-18 candidates, most of whose primary sources were friendlier institutional memoirs."
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q107402) checked against the live Wikipedia article before scoring. No National Academy of Sciences Biographical Memoir for Yalow could be located after a genuine search (search results returned only her collaborator Solomon Berson's memoir); rather than substitute a weaker guess, two other genuinely independent sources were actually fetched and read in full: a PMC (NIH)-hosted tribute article drawing on her own autobiographical account, and the Encyclopedia.com biographical entry. Incident ledger is unusually strong specifically in the conflict/adversity domain (explicit quoted discriminatory rejections, a hospital admission failure late in life) relative to the other roster-18 candidates, most of whose primary sources were friendlier institutional memoirs. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로절린 얠로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/rosalyn-yalow-usia-1977.jpg",
+    "width": 960,
+    "height": 639,
+    "source": "United States Information Agency",
+    "license": "Public Domain (U.S. federal government work)",
+    "attribution": "United States Information Agency",
+    "creator": "United States Information Agency",
+    "date": "1977-10-13",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rosalyn_Yalow.jpg"
   }
 }

@@ -186,9 +186,27 @@
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- born into slavery, no inherited position; every achievement is entirely his own. Safety note: the private-legal-funding vs. public-accommodation duality is presented factually, as documented by historians who reviewed his private papers, not as a character judgment."
+    "notes": "Session 7 source-first workflow: identity/QID verified, source richness assessed and confirmed BEFORE any trait scoring began -- rows below were scored only after a genuine evidence base of several distinct, specific, dated documented episodes was established, not filled in mechanically to hit an attribute-count target. inclusion_v1: clearly passes -- born into slavery, no inherited position; every achievement is entirely his own. Safety note: the private-legal-funding vs. public-accommodation duality is presented factually, as documented by historians who reviewed his private papers, not as a character judgment. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready on a pure evidence basis. However, cross-checking against Roster30's own zero-politics precedent (which already excluded this exact candidate) found the earlier evidence_approved promotion in this session contradicted that precedent -- reverted to held rather than published, on primary-significance/political-ambiguity grounds, not an evidence defect. Portrait and Korean localization work is retained for a future non-zero-politics-constrained cycle."
   },
-  "holdReason": "Held after a genuine source-first research/scoring pass this session (citing his own bestselling 1901 autobiography Up From Slavery): avgConf 0.459 vs 0.55 floor, coverage 0.539 vs 0.6 floor. The documented journey to Hampton Institute and the Tuskegee founding/Atlanta Compromise are strong, specific, dated episodes, but coverage fell short -- the attributes with strong evidence this session happened to cluster on lower-baseWeight dimensions."
+  "holdReason": "Excluded from Roster31's zero-politics batch on primary-significance ambiguity, not evidence quality: Roster30's own zero-politics audit (docs/checkpoints/roster30-twenty-person-zero-politics-batch.md) already considered and excluded this exact candidate for the same reason -- the Atlanta Compromise and the sustained public rivalry with W. E. B. Du Bois over racial-uplift strategy read as ideological movement leadership under Jim Crow, not merely running Tuskegee Institute. Roster31's own review initially reached the opposite conclusion before catching the direct precedent conflict during documentation and correcting course. The underlying evidence (18 rows) remains genuinely publication-ready -- portrait (Library of Congress/Harris & Ewing) and Korean localization already resolved -- for a future cycle without this batch's zero-politics constraint.",
+  "localization": {
+    "displayNames": {
+      "ko-KR": "부커 T. 워싱턴"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/booker-t-washington-harris-ewing.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "Library of Congress, Harris & Ewing collection",
+    "license": "No known copyright restrictions (LOC)",
+    "attribution": "Harris & Ewing, Library of Congress",
+    "creator": "Harris & Ewing",
+    "date": "c. 1905-1915",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Booker_T_Washington_16114a.jpg"
+  }
 }

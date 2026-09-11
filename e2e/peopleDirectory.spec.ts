@@ -504,7 +504,20 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // filtered count of 7 is unaffected: Hippocrates never crossed both the
   // curiosity and collaboration thresholds (he wasn't part of this set
   // either before or after correction).
-  expect(bodyText).toMatch(/전체\s*204명\s*중\s*7명/);
+  // Total updated again 204->218 (roster31 fourteen-person zero-politics
+  // batch: 14 shipped -- Booker T. Washington was reverted to held before
+  // merge on a direct Roster30 zero-politics precedent conflict; see
+  // docs/checkpoints/roster31-fifteen-person-zero-politics-batch.md).
+  // Verified directly against each candidate's real evidence_approved
+  // scores against the fixed reference thresholds (curiosity mean=55/sd=17
+  // so minZ=1.0 requires score>=72 with confidence>=0.5; collaboration
+  // mean=55/sd=18 so minZ=1.0 requires score>=73 with confidence>=0.5):
+  // three of the fourteen cross ONE of the two thresholds alone (Luis
+  // Alvarez curiosity 88/0.62, no collaboration row at all; Enrico Fermi
+  // curiosity 82/0.68, collaboration only 68/0.5; Michael Faraday curiosity
+  // 68/0.55, short of the 72 z-floor), but none crosses BOTH
+  // simultaneously, so the filtered count of 7 is unchanged.
+  expect(bodyText).toMatch(/전체\s*218명\s*중\s*7명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
 });

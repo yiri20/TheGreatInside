@@ -7292,4 +7292,326 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+  "linus-pauling": {
+    achievements: [
+      { id: "linus-pauling-achievement-1", textKey: "linus-pauling.achievement.1", sourceIds: ["src_lp_wikipedia"] },
+      { id: "linus-pauling-achievement-2", textKey: "linus-pauling.achievement.2", sourceIds: ["src_lp_nas_memoir"] },
+    ],
+    moments: [
+      {
+        id: "linus-pauling-moment-1",
+        textKey: "linus-pauling.moment.1",
+        interpretationKey: "linus-pauling.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_lp_encyclopedia"],
+      },
+      {
+        id: "linus-pauling-moment-2",
+        textKey: "linus-pauling.moment.2",
+        interpretationKey: "linus-pauling.interpretation.moment.2",
+        attributeId: "ambiguity_tolerance",
+        sourceIds: ["src_lp_nas_memoir"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "robert-falcon-scott": {
+    achievements: [
+      { id: "robert-falcon-scott-achievement-1", textKey: "robert-falcon-scott.achievement.1", sourceIds: ["src_rfs_journal"] },
+      { id: "robert-falcon-scott-achievement-2", textKey: "robert-falcon-scott.achievement.2", sourceIds: ["src_rfs_cherrygarrard"] },
+    ],
+    moments: [
+      {
+        id: "robert-falcon-scott-moment-1",
+        textKey: "robert-falcon-scott.moment.1",
+        interpretationKey: "robert-falcon-scott.interpretation.moment.1",
+        attributeId: "ambiguity_tolerance",
+        sourceIds: ["src_rfs_journal"],
+      },
+      {
+        id: "robert-falcon-scott-moment-2",
+        textKey: "robert-falcon-scott.moment.2",
+        interpretationKey: "robert-falcon-scott.interpretation.moment.2",
+        attributeId: "planning_orientation",
+        sourceIds: ["src_rfs_cherrygarrard"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "luis-alvarez": {
+    achievements: [
+      { id: "luis-alvarez-achievement-1", textKey: "luis-alvarez.achievement.1", sourceIds: ["src_la_nas_memoir"] },
+      { id: "luis-alvarez-achievement-2", textKey: "luis-alvarez.achievement.2", sourceIds: ["src_la_nas_memoir"] },
+    ],
+    moments: [
+      {
+        id: "luis-alvarez-moment-1",
+        textKey: "luis-alvarez.moment.1",
+        interpretationKey: "luis-alvarez.interpretation.moment.1",
+        attributeId: "mastery_orientation",
+        sourceIds: ["src_la_nas_memoir"],
+      },
+      {
+        id: "luis-alvarez-moment-2",
+        textKey: "luis-alvarez.moment.2",
+        interpretationKey: "luis-alvarez.interpretation.moment.2",
+        attributeId: "achievement_drive",
+        sourceIds: ["src_la_nas_memoir"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "ahmed-zewail": {
+    achievements: [
+      { id: "ahmed-zewail-achievement-1", textKey: "ahmed-zewail.achievement.1", sourceIds: ["src_zewail_nobel"] },
+      { id: "ahmed-zewail-achievement-2", textKey: "ahmed-zewail.achievement.2", sourceIds: ["src_zewail_science_journal"] },
+    ],
+    moments: [
+      {
+        id: "ahmed-zewail-moment-1",
+        textKey: "ahmed-zewail.moment.1",
+        interpretationKey: "ahmed-zewail.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_zewail_science_journal"],
+      },
+      {
+        id: "ahmed-zewail-moment-2",
+        textKey: "ahmed-zewail.moment.2",
+        interpretationKey: "ahmed-zewail.interpretation.moment.2",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_zewail_obama_whitehouse"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "gregor-mendel": {
+    achievements: [
+      { id: "gregor-mendel-achievement-1", textKey: "gregor-mendel.achievement.1", sourceIds: ["src_mendel_paper"] },
+      { id: "gregor-mendel-achievement-2", textKey: "gregor-mendel.achievement.2", sourceIds: ["src_mendel_pnas"] },
+    ],
+    moments: [
+      {
+        id: "gregor-mendel-moment-1",
+        textKey: "gregor-mendel.moment.1",
+        interpretationKey: "gregor-mendel.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_mendel_pnas"],
+      },
+      {
+        id: "gregor-mendel-moment-2",
+        textKey: "gregor-mendel.moment.2",
+        interpretationKey: "gregor-mendel.interpretation.moment.2",
+        attributeId: "persistence",
+        sourceIds: ["src_mendel_nageli_letters"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "emilio-segre": {
+    achievements: [
+      { id: "emilio-segre-achievement-1", textKey: "emilio-segre.achievement.1", sourceIds: ["src_es_nas_memoir"] },
+      { id: "emilio-segre-achievement-2", textKey: "emilio-segre.achievement.2", sourceIds: ["src_es_nas_memoir"] },
+    ],
+    moments: [
+      {
+        id: "emilio-segre-moment-1",
+        textKey: "emilio-segre.moment.1",
+        interpretationKey: "emilio-segre.interpretation.moment.1",
+        attributeId: "decisiveness",
+        sourceIds: ["src_es_nas_memoir"],
+      },
+      {
+        id: "emilio-segre-moment-2",
+        textKey: "emilio-segre.moment.2",
+        interpretationKey: "emilio-segre.interpretation.moment.2",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_es_nas_memoir"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "taha-hussein": {
+    achievements: [
+      { id: "taha-hussein-achievement-1", textKey: "taha-hussein.achievement.1", sourceIds: ["src_hussein_alayyam"] },
+      { id: "taha-hussein-achievement-2", textKey: "taha-hussein.achievement.2", sourceIds: ["src_hussein_biography"] },
+    ],
+    moments: [
+      {
+        id: "taha-hussein-moment-1",
+        textKey: "taha-hussein.moment.1",
+        interpretationKey: "taha-hussein.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_hussein_biography"],
+      },
+      {
+        id: "taha-hussein-moment-2",
+        textKey: "taha-hussein.moment.2",
+        interpretationKey: "taha-hussein.interpretation.moment.2",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_hussein_biography"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "sofia-kovalevskaya": {
+    achievements: [
+      { id: "sofia-kovalevskaya-achievement-1", textKey: "sofia-kovalevskaya.achievement.1", sourceIds: ["src_kovalevskaya_mactutor"] },
+      { id: "sofia-kovalevskaya-achievement-2", textKey: "sofia-kovalevskaya.achievement.2", sourceIds: ["src_kovalevskaya_own_writing"] },
+    ],
+    moments: [
+      {
+        id: "sofia-kovalevskaya-moment-1",
+        textKey: "sofia-kovalevskaya.moment.1",
+        interpretationKey: "sofia-kovalevskaya.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_kovalevskaya_mactutor"],
+      },
+      {
+        id: "sofia-kovalevskaya-moment-2",
+        textKey: "sofia-kovalevskaya.moment.2",
+        interpretationKey: "sofia-kovalevskaya.interpretation.moment.2",
+        attributeId: "cross_domain_range",
+        sourceIds: ["src_kovalevskaya_own_writing"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "maria-goeppert-mayer": {
+    achievements: [
+      { id: "maria-goeppert-mayer-achievement-1", textKey: "maria-goeppert-mayer.achievement.1", sourceIds: ["src_mgm_nas_memoir"] },
+      { id: "maria-goeppert-mayer-achievement-2", textKey: "maria-goeppert-mayer.achievement.2", sourceIds: ["src_mgm_encyclopedia"] },
+    ],
+    moments: [
+      {
+        id: "maria-goeppert-mayer-moment-1",
+        textKey: "maria-goeppert-mayer.moment.1",
+        interpretationKey: "maria-goeppert-mayer.interpretation.moment.1",
+        attributeId: "persistence",
+        sourceIds: ["src_mgm_nas_memoir"],
+      },
+      {
+        id: "maria-goeppert-mayer-moment-2",
+        textKey: "maria-goeppert-mayer.moment.2",
+        interpretationKey: "maria-goeppert-mayer.interpretation.moment.2",
+        attributeId: "discipline",
+        sourceIds: ["src_mgm_encyclopedia"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "michael-faraday": {
+    achievements: [
+      { id: "michael-faraday-achievement-1", textKey: "michael-faraday.achievement.1", sourceIds: ["src_faraday_rigb"] },
+      { id: "michael-faraday-achievement-2", textKey: "michael-faraday.achievement.2", sourceIds: ["src_faraday_rigb"] },
+    ],
+    moments: [
+      {
+        id: "michael-faraday-moment-1",
+        textKey: "michael-faraday.moment.1",
+        interpretationKey: "michael-faraday.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_faraday_forgottenscience_plagiarism"],
+      },
+      {
+        id: "michael-faraday-moment-2",
+        textKey: "michael-faraday.moment.2",
+        interpretationKey: "michael-faraday.interpretation.moment.2",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_faraday_rigb"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "homi-bhabha": {
+    achievements: [
+      { id: "homi-bhabha-achievement-1", textKey: "homi-bhabha.achievement.1", sourceIds: ["src_bhabha_tifr"] },
+      { id: "homi-bhabha-achievement-2", textKey: "homi-bhabha.achievement.2", sourceIds: ["src_bhabha_tifr"] },
+    ],
+    moments: [
+      {
+        id: "homi-bhabha-moment-1",
+        textKey: "homi-bhabha.moment.1",
+        interpretationKey: "homi-bhabha.interpretation.moment.1",
+        attributeId: "systems_abstraction",
+        sourceIds: ["src_bhabha_biography"],
+      },
+      {
+        id: "homi-bhabha-moment-2",
+        textKey: "homi-bhabha.moment.2",
+        interpretationKey: "homi-bhabha.interpretation.moment.2",
+        attributeId: "curiosity",
+        sourceIds: ["src_bhabha_biography"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "rosalyn-yalow": {
+    achievements: [
+      { id: "rosalyn-yalow-achievement-1", textKey: "rosalyn-yalow.achievement.1", sourceIds: ["src_ry_pmc_madame_curie"] },
+      { id: "rosalyn-yalow-achievement-2", textKey: "rosalyn-yalow.achievement.2", sourceIds: ["src_ry_pmc_madame_curie"] },
+    ],
+    moments: [
+      {
+        id: "rosalyn-yalow-moment-1",
+        textKey: "rosalyn-yalow.moment.1",
+        interpretationKey: "rosalyn-yalow.interpretation.moment.1",
+        attributeId: "persistence",
+        sourceIds: ["src_ry_pmc_madame_curie"],
+      },
+      {
+        id: "rosalyn-yalow-moment-2",
+        textKey: "rosalyn-yalow.moment.2",
+        interpretationKey: "rosalyn-yalow.interpretation.moment.2",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_ry_pmc_madame_curie"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "enrico-fermi": {
+    achievements: [
+      { id: "enrico-fermi-achievement-1", textKey: "enrico-fermi.achievement.1", sourceIds: ["src_fermi_ahf"] },
+      { id: "enrico-fermi-achievement-2", textKey: "enrico-fermi.achievement.2", sourceIds: ["src_fermi_trinity_paper"] },
+    ],
+    moments: [
+      {
+        id: "enrico-fermi-moment-1",
+        textKey: "enrico-fermi.moment.1",
+        interpretationKey: "enrico-fermi.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_fermi_physicstoday"],
+      },
+      {
+        id: "enrico-fermi-moment-2",
+        textKey: "enrico-fermi.moment.2",
+        interpretationKey: "enrico-fermi.interpretation.moment.2",
+        attributeId: "curiosity",
+        sourceIds: ["src_fermi_cern"],
+      },
+    ],
+    turningPoints: [],
+  },
+  "dorothy-hodgkin": {
+    achievements: [
+      { id: "dorothy-hodgkin-achievement-1", textKey: "dorothy-hodgkin.achievement.1", sourceIds: ["src_hodgkin_nobel"] },
+      { id: "dorothy-hodgkin-achievement-2", textKey: "dorothy-hodgkin.achievement.2", sourceIds: ["src_hodgkin_nobel"] },
+    ],
+    moments: [
+      {
+        id: "dorothy-hodgkin-moment-1",
+        textKey: "dorothy-hodgkin.moment.1",
+        interpretationKey: "dorothy-hodgkin.interpretation.moment.1",
+        attributeId: "adaptability",
+        sourceIds: ["src_hodgkin_royal_society"],
+      },
+      {
+        id: "dorothy-hodgkin-moment-2",
+        textKey: "dorothy-hodgkin.moment.2",
+        interpretationKey: "dorothy-hodgkin.interpretation.moment.2",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_hodgkin_pugwash"],
+      },
+    ],
+    turningPoints: [],
+  },
 };

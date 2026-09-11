@@ -217,19 +217,45 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "jesse-owens",
     "roald-amundsen",
     "paul-erdos",
+    // roster31 (2026-09): fourteen more, same pattern -- all evidence_approved,
+    // published, directory-visible, honestly failing eligibility_v2 on
+    // confidence/coverage, none rescued. Baselines now 218/217; match-eligible
+    // set unchanged at 127. This batch deliberately contains zero political/
+    // state/military/activism-primary figures; the pool this cycle turned out
+    // heavily concentrated in science/medicine (12 of 14) -- see
+    // docs/checkpoints/roster31-fifteen-person-zero-politics-batch.md.
+    // (Booker T. Washington was frozen and initially promoted, then reverted
+    // to `held` before merge: Roster30's own zero-politics audit had already
+    // excluded this exact candidate on primary-significance-ambiguity
+    // grounds, and this session's initial contrary judgment was caught and
+    // corrected during documentation, before merge.)
+    "linus-pauling",
+    "robert-falcon-scott",
+    "luis-alvarez",
+    "ahmed-zewail",
+    "gregor-mendel",
+    "emilio-segre",
+    "taha-hussein",
+    "sofia-kovalevskaya",
+    "maria-goeppert-mayer",
+    "michael-faraday",
+    "homi-bhabha",
+    "rosalyn-yalow",
+    "enrico-fermi",
+    "dorothy-hodgkin",
   ]);
 
-  it("still exactly 204 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(204);
-    expect(PEOPLE_INDEX).toHaveLength(204);
+  it("still exactly 218 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(218);
+    expect(PEOPLE_INDEX).toHaveLength(218);
   });
 
-  it("still exactly 203 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 217 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(203);
+    expect(visible).toHaveLength(217);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the seventy-six deliberately-divergent roster24/25/26/27/28/29/30 additions", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety deliberately-divergent roster24/25/26/27/28/29/30/31 additions", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

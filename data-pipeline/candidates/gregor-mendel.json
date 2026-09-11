@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "gregor-mendel",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Gregor Mendel",
     "wikidataId": "Q37970",
@@ -148,13 +148,28 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/gregor-mendel-1862.jpg",
+    "width": 1000,
+    "height": 1357,
+    "source": "Wikimedia Commons (pre-1931 photograph, unknown author)",
+    "license": "PD-US (pre-1931 publication)",
+    "creator": "unknown",
+    "date": "c. 1862",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_2.jpg",
+    "attribution": "Unknown photographer, c. 1862"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 6-row profile (built almost entirely from his single surviving scientific paper) using genuinely inspected substantive sources -- a peer-reviewed scholarly biographical account (PNAS/PMC, 2022) covering his teaching failures, abbacy, and a decade-long taxation dispute with civil authorities, plus his own letters to Carl Nageli documenting the dismissive reception of his results. A factual evidence ledger (17 distinct episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. The parish-priest reassignment (1847-1849) is scored narrowly from the documented behavioral fact alone (reassignment after a specific difficulty in one interpersonal context), deliberately avoiding the period source's own diagnostic-sounding language, per CLAUDE.md's Safety section prohibiting inferred medical/psychological characterization. Several plausible additional rows (mastery_orientation, achievement_drive, autonomy_need, risk_tolerance) were deliberately NOT added because their strongest supporting facts were already used for another, better-fitting row (chiefly the tax dispute), and re-using the same underlying episode across many attributes without genuinely distinct rationale was avoided throughout this session's diagnostic set. See the checkpoint's diagnostic-control writeup for the full before/after comparison."
+    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 6-row profile (built almost entirely from his single surviving scientific paper) using genuinely inspected substantive sources -- a peer-reviewed scholarly biographical account (PNAS/PMC, 2022) covering his teaching failures, abbacy, and a decade-long taxation dispute with civil authorities, plus his own letters to Carl Nageli documenting the dismissive reception of his results. A factual evidence ledger (17 distinct episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. The parish-priest reassignment (1847-1849) is scored narrowly from the documented behavioral fact alone (reassignment after a specific difficulty in one interpersonal context), deliberately avoiding the period source's own diagnostic-sounding language, per CLAUDE.md's Safety section prohibiting inferred medical/psychological characterization. Several plausible additional rows (mastery_orientation, achievement_drive, autonomy_need, risk_tolerance) were deliberately NOT added because their strongest supporting facts were already used for another, better-fitting row (chiefly the tax dispute), and re-using the same underlying episode across many attributes without genuinely distinct rationale was avoided throughout this session's diagnostic set. See the checkpoint's diagnostic-control writeup for the full before/after comparison. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
   },
-  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 12 scored attributes (need 18); coverage 0.362 (need 0.6); HC count 7/12; HC average 0.634 (PASSES this sub-requirement). His documented life, even with substantially deeper research, remains concentrated on a smaller number of well-corroborated episodes rather than a wide variety of distinct behavioral contexts."
+  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 12 scored attributes (need 18); coverage 0.362 (need 0.6); HC count 7/12; HC average 0.634 (PASSES this sub-requirement). His documented life, even with substantially deeper research, remains concentrated on a smaller number of well-corroborated episodes rather than a wide variety of distinct behavioral contexts.",
+  "localization": {
+    "displayNames": {
+      "ko-KR": "그레고어 멘델"
+    }
+  }
 }

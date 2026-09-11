@@ -106,7 +106,11 @@ describe("session 17 audit: frozen production evidence is exactly what this audi
     const fermi = JSON.parse(
       readFileSync(join(CANDIDATES_DIR, "enrico-fermi.json"), "utf8"),
     ) as Candidate;
-    expect(fermi.status).toBe("held");
+    // Roster31 fast-batch audit (2026-09) moved status held -> evidence_approved
+    // (docs/checkpoints/roster31-fifteen-person-zero-politics-batch.md) after a
+    // publication audit that touched no row's score/confidence/evidenceType --
+    // the frozen row content this test actually guards is unchanged below.
+    expect(fermi.status).toBe("evidence_approved");
     expect(Object.keys(fermi.rows)).toHaveLength(10);
     expect(fermi.rows.analytical_rigor?.score).toBe(88);
   });

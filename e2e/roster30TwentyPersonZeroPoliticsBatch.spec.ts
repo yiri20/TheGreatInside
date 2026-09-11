@@ -285,13 +285,17 @@ for (const c of CANDIDATES) {
   });
 }
 
-test("roster30: people directory default (unfiltered) view shows exactly 203 people, all nineteen shipped candidates present exactly once (en-US)", async ({
+test("roster30: people directory default (unfiltered) view shows exactly 217 people, all nineteen shipped candidates present exactly once (en-US)", async ({
   page,
 }) => {
   const console_ = captureConsole(page);
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
 
-  await expect(page.getByText(/^203 people$/)).toBeVisible();
+  // Updated 203->217 by roster31 (fourteen-person zero-politics batch,
+  // 2026-09) -- a directory-visible-count snapshot genuinely affected by any
+  // later roster addition, not specific to roster30's own nineteen. All
+  // nineteen roster30 candidates below remain present exactly once.
+  await expect(page.getByText(/^217 people$/)).toBeVisible();
 
   for (const c of CANDIDATES) {
     const cards = page.locator(`a.tgi-personcard__link[href="/en-US/people/${c.slug}"]`);

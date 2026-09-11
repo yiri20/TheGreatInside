@@ -351,6 +351,26 @@ describe("confidence and missing data", () => {
       "jesse-owens",
       "roald-amundsen",
       "paul-erdos",
+      // roster31 (2026-09): all fourteen evidence_approved, published,
+      // directory-visible, honestly under eligibility_v2's
+      // confidence/coverage floors -- see
+      // docs/checkpoints/roster31-fifteen-person-zero-politics-batch.md.
+      // (Booker T. Washington was frozen/promoted, then reverted to `held`
+      // before merge on a direct Roster30 zero-politics precedent conflict.)
+      "linus-pauling",
+      "robert-falcon-scott",
+      "luis-alvarez",
+      "ahmed-zewail",
+      "gregor-mendel",
+      "emilio-segre",
+      "taha-hussein",
+      "sofia-kovalevskaya",
+      "maria-goeppert-mayer",
+      "michael-faraday",
+      "homi-bhabha",
+      "rosalyn-yalow",
+      "enrico-fermi",
+      "dorothy-hodgkin",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -642,6 +662,26 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "jesse-owens",
       "roald-amundsen",
       "paul-erdos",
+      // roster31 (2026-09): all fourteen evidence_approved, published,
+      // directory-visible, honestly under eligibility_v2's
+      // confidence/coverage floors -- see
+      // docs/checkpoints/roster31-fifteen-person-zero-politics-batch.md.
+      // (Booker T. Washington was frozen/promoted, then reverted to `held`
+      // before merge on a direct Roster30 zero-politics precedent conflict.)
+      "linus-pauling",
+      "robert-falcon-scott",
+      "luis-alvarez",
+      "ahmed-zewail",
+      "gregor-mendel",
+      "emilio-segre",
+      "taha-hussein",
+      "sofia-kovalevskaya",
+      "maria-goeppert-mayer",
+      "michael-faraday",
+      "homi-bhabha",
+      "rosalyn-yalow",
+      "enrico-fermi",
+      "dorothy-hodgkin",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

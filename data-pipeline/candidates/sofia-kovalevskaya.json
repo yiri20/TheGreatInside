@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "sofia-kovalevskaya",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Sofia Kovalevskaya",
     "wikidataId": "Q184535",
@@ -130,13 +130,28 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/sofia-kovalevskaya-1888.jpg",
+    "width": 345,
+    "height": 420,
+    "source": "Wikimedia Commons (likely Mittag-Leffler Institute collection)",
+    "license": "PD (life+70, author unknown)",
+    "creator": "unknown",
+    "date": "1888",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sofja_Wassiljewna_Kowalewskaja_1.jpg",
+    "attribution": "Unknown photographer, 1888"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 10-row profile using genuinely inspected substantive sources, including a scholarly academic biography (MacTutor History of Mathematics, University of St Andrews). A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. Her husband's 1883 death is noted in source material only as biographical context for the timing of Mittag-Leffler's advocacy for her Stockholm position -- no trait score in this file is derived from her personal response to it, per CLAUDE.md's Safety section. The result is honestly a MORE MODEST row count (10) than the other diagnostic candidates in this session despite comparably substantive research: her documented life, while rich in several very well-corroborated episodes (the fictitious marriage, the Weierstrass relationship, the professional-rejection period, the Stockholm recognition), concentrates on a smaller number of overlapping episodes rather than a wide variety of distinct behavioral contexts -- several plausible additional rows (autonomy_need, adaptability, detail_orientation, leadership_drive) were deliberately NOT added because their strongest supporting facts were already used for a better-fitting row above, or because the underlying evidence was judged too thin on its own. See the checkpoint's diagnostic-control writeup for the full before/after comparison."
+    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 10-row profile using genuinely inspected substantive sources, including a scholarly academic biography (MacTutor History of Mathematics, University of St Andrews). A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. Her husband's 1883 death is noted in source material only as biographical context for the timing of Mittag-Leffler's advocacy for her Stockholm position -- no trait score in this file is derived from her personal response to it, per CLAUDE.md's Safety section. The result is honestly a MORE MODEST row count (10) than the other diagnostic candidates in this session despite comparably substantive research: her documented life, while rich in several very well-corroborated episodes (the fictitious marriage, the Weierstrass relationship, the professional-rejection period, the Stockholm recognition), concentrates on a smaller number of overlapping episodes rather than a wide variety of distinct behavioral contexts -- several plausible additional rows (autonomy_need, adaptability, detail_orientation, leadership_drive) were deliberately NOT added because their strongest supporting facts were already used for a better-fitting row above, or because the underlying evidence was judged too thin on its own. See the checkpoint's diagnostic-control writeup for the full before/after comparison. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
   },
-  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 10 scored attributes (need 18); coverage 0.301 (need 0.6); HC count 7/12; HC average 0.581 (PASSES this sub-requirement). Row count held steady from the prior pass, but HC count and evidence quality improved substantially -- her documented life concentrates on a smaller number of very well-corroborated but overlapping episodes rather than a wide range of distinct contexts."
+  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 10 scored attributes (need 18); coverage 0.301 (need 0.6); HC count 7/12; HC average 0.581 (PASSES this sub-requirement). Row count held steady from the prior pass, but HC count and evidence quality improved substantially -- her documented life concentrates on a smaller number of very well-corroborated but overlapping episodes rather than a wide range of distinct contexts.",
+  "localization": {
+    "displayNames": {
+      "ko-KR": "소피야 코발렙스카야"
+    }
+  }
 }

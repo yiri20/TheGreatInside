@@ -1024,6 +1024,8 @@ export const en = {
   "field.natural_science": "Natural Science",
   "field.mathematics": "Mathematics",
   "field.physics": "Physics",
+  "field.chemistry": "Chemistry",
+  "field.biology": "Biology",
   "field.engineering": "Engineering",
   "field.medicine": "Medicine",
   "field.environmental_science": "Environmental Science",

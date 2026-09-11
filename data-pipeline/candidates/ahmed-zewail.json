@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "ahmed-zewail",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Ahmed Zewail",
     "wikidataId": "Q106624",
@@ -109,7 +109,7 @@
       "confidence": 0.48,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Converging institutional leadership signals across independent contexts: held the first-ever named Linus Pauling Chair of Chemistry at Caltech (1995), founded and drove an entire university-building project in Egypt over more than a decade, and served in formal US science-diplomacy leadership roles -- member of the Council of Advisors on Science and Technology and first US Science Envoy to the Middle East (both 2009)."
+      "rationale": "[NARROWED on factual gate review, this session] Converging institutional leadership signals across independent contexts: was the first Caltech faculty member named to the Linus Pauling Chair of Chemical Physics (1995), founded and drove an entire university-building project in Egypt over more than a decade, and served in formal US science-diplomacy leadership roles -- member of the Council of Advisors on Science and Technology and one of the first three US Science Envoys to the Muslim world, appointed alongside Elias Zerhouni and Bruce Alberts (both 2009). Narrowed from an earlier \"first-ever named Linus Pauling Chair of Chemistry\" (the chair's actual name is Chemical Physics, not Chemistry) and \"first US Science Envoy to the Middle East\" (he was one of three simultaneously-named inaugural envoys to the Muslim world, not the sole or first individual, per Wikipedia's own account of the program's January 2010 launch)."
     },
     "impact_motivation": {
       "score": 74,
@@ -151,19 +151,35 @@
       "confidence": 0.38,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Secured a complex, unconventional funding structure for Zewail City combining roughly $80 million in donor contributions with a 1-billion-Egyptian-pound loan specifically from Egypt's Ministry of Defense, a single documented instance of accepting real financial and political risk for a civilian academic institution, scored cautiously as a single-fact case."
+      "rationale": "[NARROWED on factual gate review, this session] Secured a complex funding structure for Zewail City combining private philanthropic donations (including a documented 100-million-Egyptian-pound gift from businessman Samih Sawiris in 2015) with Egyptian state/government financing, a documented instance of accepting real financial and political risk for a civilian academic institution built during a period of national upheaval. Narrowed from an earlier, more specific \"$80 million plus a 1-billion-Egyptian-pound Ministry of Defense loan\" claim: those exact figures and the Ministry of Defense attribution could not be independently confirmed against the sources available this session, so the claim is kept to the well-documented mixed private/state funding structure without the unverified numbers."
     }
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "held",
-    "reason": "Official Nobel Foundation/Caltech photographs are likely under standard copyright rather than a clearly free license; no Public Domain or CC-licensed image independently verified this session."
+    "status": "found",
+    "url": "/portraits/ahmed-zewail-sfu-2010.jpg",
+    "width": 960,
+    "height": 1448,
+    "source": "Simon Fraser University - University Communications (via Flickr)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Simon Fraser University - University Communications",
+    "attributionUrl": "https://www.flickr.com/photos/sfupamr/14339545885/",
+    "creator": "Simon Fraser University - University Communications",
+    "date": "2010-04-19",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ahmed_Zewail_(2010).jpg"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 6-row profile using genuinely inspected substantive sources beyond the Nobel citation and Caltech biography -- specifically the detailed, dated history of Zewail City of Science and Technology's founding, governance struggle, and funding structure (Science journal, 2016), and Obama White House archival records of his formal science-diplomacy roles. A factual evidence ledger (10 distinct new/refined episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. The 6 original rows are all retained (impact_motivation strengthened from inference 0.42 to documented 0.55 given the much fuller Zewail City founding story); 6 new rows were added (persistence, proactive_agency, independent_thinking, leadership_drive, cross_domain_range, risk_tolerance) from genuinely distinct newly-researched facts. Row growth (6 -> 12) is real but more modest than several other candidates in this session's diagnostic set -- his documented public biography, while containing both a first-rate scientific achievement and a genuine institution-building story, is narrower in the variety of distinct behavioral contexts than a public political figure's typically is, a real and honestly reported difference rather than a research-depth shortfall."
+    "notes": "Roster-1000 session 13 (source-grounded research-depth control): re-researched from session 12's original 3-source, 6-row profile using genuinely inspected substantive sources beyond the Nobel citation and Caltech biography -- specifically the detailed, dated history of Zewail City of Science and Technology's founding, governance struggle, and funding structure (Science journal, 2016), and Obama White House archival records of his formal science-diplomacy roles. A factual evidence ledger (10 distinct new/refined episodes) was built and locked before any trait score was assigned; NEW_EVIDENCE per docs/scoring-rubric-v1.md Sec.10. The 6 original rows are all retained (impact_motivation strengthened from inference 0.42 to documented 0.55 given the much fuller Zewail City founding story); 6 new rows were added (persistence, proactive_agency, independent_thinking, leadership_drive, cross_domain_range, risk_tolerance) from genuinely distinct newly-researched facts. Row growth (6 -> 12) is real but more modest than several other candidates in this session's diagnostic set -- his documented public biography, while containing both a first-rate scientific achievement and a genuine institution-building story, is narrower in the variety of distinct behavioral contexts than a public political figure's typically is, a real and honestly reported difference rather than a research-depth shortfall. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
   },
-  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 12 scored attributes (need 18); coverage 0.374 (need 0.6); HC count 7/12; HC average 0.569 (PASSES this sub-requirement). Public record concentrates heavily on his scientific achievement and one major institution-building project; broader personal-behavioral biography beyond those two threads remains genuinely thin even with substantially deeper research."
+  "holdReason": "Roster-1000 session 13 (source-grounded research-depth control): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once against the final locked profile; no row modified after seeing the result). 12 scored attributes (need 18); coverage 0.374 (need 0.6); HC count 7/12; HC average 0.569 (PASSES this sub-requirement). Public record concentrates heavily on his scientific achievement and one major institution-building project; broader personal-behavioral biography beyond those two threads remains genuinely thin even with substantially deeper research.",
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아메드 즈웨일"
+    }
+  }
 }

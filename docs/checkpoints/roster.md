@@ -687,3 +687,25 @@ raises the target.
   **170 total / 169 default-directory-visible / 127 match-eligible**.
   Full record:
   [`roster28-fifteen-person-fast-batch.md`](roster28-fifteen-person-fast-batch.md).
+- **Roster31: fourteen-person zero-politics production batch (2026-09,
+  `feat/roster31-fifteen-person-zero-politics-batch`, unmerged)**: same
+  mechanical-intake discipline, continuing Roster30's zero-politics
+  constraint. Linus Pauling, Robert Falcon Scott, Luis Alvarez, Ahmed
+  Zewail, Gregor Mendel, Emilio Segrè, Taha Hussein, Sofia Kovalevskaya,
+  Maria Goeppert-Mayer, Michael Faraday, Homi Bhabha, Rosalyn Yalow, Enrico
+  Fermi, and Dorothy Hodgkin -- all honestly failing `eligibility_v2`, none
+  rescued. Booker T. Washington was frozen and initially promoted, then
+  reverted to `held` after this cycle's own review found Roster30 had
+  already excluded this exact candidate on the same primary-significance-
+  ambiguity grounds -- caught and corrected before merge. Four rows across
+  two candidates (Faraday, Zewail x2) received `ERROR_CORRECTION` factual
+  narrowing; one classification metadata fix (Yalow's source `kind`); one
+  taxonomy/i18n fix (`field.chemistry`/`field.biology` newly crossed the
+  >=2-person curation floor). Pool composition turned out heavily
+  concentrated in science/medicine (12 of 14) -- an honest finding about
+  the held pool, not a selection preference; the Building & Discovery and
+  Arts & Culture soft targets were missed rather than padded. **Zero newly
+  match-eligible people** -- dispersion/calibration correctly left
+  untouched. Roster: **218 total / 217 default-directory-visible / 127
+  match-eligible**. Full record:
+  [`roster31-fifteen-person-zero-politics-batch.md`](roster31-fifteen-person-zero-politics-batch.md).

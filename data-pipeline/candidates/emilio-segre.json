@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "emilio-segre",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Emilio Segrè",
     "wikidataId": "Q173028",
@@ -10,15 +10,28 @@
     "deathYear": 1989,
     "isLiving": false,
     "era": "20th_century",
-    "nationalityCodes": ["IT", "US"],
+    "nationalityCodes": [
+      "IT",
+      "US"
+    ],
     "regionCode": "north_america"
   },
   "classification": {
-    "occupationIds": ["physicist"],
-    "fieldIds": ["natural_science"],
-    "impactDomains": ["scientific"],
-    "tagIds": ["nobel_laureate"],
-    "archetypeIds": ["scientific_explorer"],
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
     "newTagProposals": []
   },
   "sources": [
@@ -130,8 +143,26 @@
   "holdReason": "Validator output (mechanical, not adjusted): 11 scored attributes against the 18-attribute floor, 0.334 coverage against 0.6, only 4 attributes at confidence>=0.5 against the 12-attribute floor. Both sources actually consulted (NAS memoir, Encyclopedia.com) document a real personality/conflict domain (aloofness, feeling under-recognized, son's 'remote' characterization) and a real career-history domain well, but leave the thinking/creativity/work_style facets largely unaddressed with specific enough behavioral detail to score. Held, not rescued.",
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-11T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q173028) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Jackson, 2002) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Incident ledger deliberately includes the documented negative/difficult side of his personality (aloofness, criticism, feeling under-recognized, his son's 'remote' characterization) rather than only achievement highlights, per the diversity-of-behavior gate -- and scores conflict_tolerance dual_edged rather than a flat advantage as a result."
+    "notes": "Roster-18 intake (2026-09), stricter multi-source gate. Wikidata identity (Q173028) checked against the live Wikipedia article before scoring. Both sources actually fetched and read in full: the NAS Biographical Memoir (Jackson, 2002) via direct PDF fetch, the Encyclopedia.com entry via direct page fetch. Incident ledger deliberately includes the documented negative/difficult side of his personality (aloofness, criticism, feeling under-recognized, his son's 'remote' characterization) rather than only achievement highlights, per the diversity-of-behavior gate -- and scores conflict_tolerance dual_edged rather than a flat advantage as a result. Roster31 fifteen-person zero-politics evidence-approval review (2026-09-11): row-by-row re-audit against this file's own already-cited sources found the evidence genuinely publication-ready despite falling short of eligibility_v2's numeric floors (solely a coverage/high-confidence-count gap, not an evidence-integrity or identity concern) -- moved to evidence_approved. No row's score/confidence/evidenceType/impact was changed except where explicitly labeled ERROR_CORRECTION in an individual row's rationale (a narrowed, previously-overclaimed factual detail); no NEW_EVIDENCE added."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에밀리오 세그레"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/emilio-segre-nobel-1959.jpg",
+    "width": 960,
+    "height": 1344,
+    "source": "Nobel Foundation (official 1959 Nobel Prize photograph)",
+    "license": "PD-Sweden",
+    "attribution": "Nobel Foundation",
+    "creator": "Nobel Foundation",
+    "date": "1959",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Segre.jpg"
   }
 }

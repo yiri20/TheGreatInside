@@ -4035,6 +4035,175 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Shortly before his death, renounced an honorary degree he had been offered by the University of Waterloo specifically over its treatment of a colleague, Adrian Bondy -- a concrete, dated act of taking a costly stand on principle at the very end of his life.",
   "paul-erdos.interpretation.turning_point.1":
     "Taking this kind of costly, principled stand at the end of his life, over another person's treatment rather than his own interest, is the basis for the profile's conflict_tolerance score.",
+  /* ---------------------------------------------------------- Roster31 */
+  "linus-pauling.achievement.1":
+    "Is the only person to have received two unshared Nobel Prizes -- the Nobel Prize in Chemistry (1954) for research into the nature of the chemical bond, and the Nobel Peace Prize (1962) for his campaign against above-ground nuclear weapons testing.",
+  "linus-pauling.achievement.2":
+    "Originated the resonance theory of the chemical bond and pioneered physical molecular-model-building as a working scientific tool, formative contributions a National Academy of Sciences memoir credits across quantum chemistry, protein structure, and disease-as-molecular-process research.",
+  "linus-pauling.moment.1":
+    "Declined J. Robert Oppenheimer's 1943 invitation to join the Manhattan Project, choosing to remain at Caltech and pursue his own research direction instead.",
+  "linus-pauling.interpretation.moment.1":
+    "Turning down the era's most prestigious wartime scientific appointment to pursue his own direction is part of the basis for the profile's independent_thinking score.",
+  "linus-pauling.moment.2":
+    "On seeing Rosalind Franklin and Maurice Wilkins's X-ray data disproving his own proposed triple-helix model of DNA, is reported to have said only that he had made a mistake.",
+  "linus-pauling.interpretation.moment.2":
+    "This narrow but direct moment of conceding a public, high-profile error is part of the basis for the profile's ambiguity_tolerance score.",
+  "robert-falcon-scott.achievement.1":
+    "When the Terra Nova's engine-room fires were flooded during a storm and the engineer declared himself beaten, personally organized bucket brigades and ordered the bulkhead cut through to clear the pump suctions, as recorded in his own journal.",
+  "robert-falcon-scott.achievement.2":
+    "Apsley Cherry-Garrard, an independent expedition member, credited him with unusual organizational strength for polar leadership, writing \"for a joint scientific and geographical piece of organization, give me Scott.\"",
+  "robert-falcon-scott.moment.1":
+    "His own journal frankly admits uncertainty about the Antarctic pack ice -- \"I really don't know what to think of the pack, or when to hope for open water\" -- while describing himself continuing methodical soundings, temperature readings, and sketching rather than treating the uncertainty as reason to stop.",
+  "robert-falcon-scott.interpretation.moment.1":
+    "Continuing disciplined observation while openly uncertain of the outcome is part of the basis for the profile's ambiguity_tolerance score.",
+  "robert-falcon-scott.moment.2":
+    "After the Discovery expedition's first season was organizationally chaotic -- in Cherry-Garrard's words, \"food, clothing, everything was wrong, the whole system was bad\" -- undertook what Cherry-Garrard called \"a winter of drastic reorganization\" before the next season.",
+  "robert-falcon-scott.interpretation.moment.2":
+    "Responding to a documented organizational failure with a full system rebuild, rather than only incremental fixes, is part of the basis for the profile's planning_orientation score.",
+  "luis-alvarez.achievement.1":
+    "Arriving at the Rad Lab \"spectacularly unqualified\" to contribute by his own later account, read every published nuclear-physics journal article in the physics library within a year -- learning to spot important papers by the darkened, fingered edges of their pages.",
+  "luis-alvarez.achievement.2":
+    "Documented inventor of Ground Control Approach radar landing, the hydrogen bubble chamber design that won him the 1968 Nobel Prize in Physics, and, decades later, the extraterrestrial-impact explanation for the dinosaur-ending mass extinction.",
+  "luis-alvarez.moment.1":
+    "When a colleague casually mentioned an obscure physics paper, is recorded as recounting its content from memory, including the page a key graph appeared on and where on the page to find it.",
+  "luis-alvarez.interpretation.moment.1":
+    "This specific, witnessed demonstration of recall for technical material is part of the basis for the profile's mastery_orientation score.",
+  "luis-alvarez.moment.2":
+    "Built and directed a bubble-chamber research group of several hundred physicists, engineers, and technicians, while deliberately declining co-authorship credit on papers he felt he had not sufficiently contributed to.",
+  "luis-alvarez.interpretation.moment.2":
+    "Directing a large research program while declining credit he judged unearned is part of the basis for the profile's achievement_drive score.",
+  "ahmed-zewail.achievement.1":
+    "Developed femtosecond spectroscopy -- \"femtochemistry\" -- a technique enabling direct observation of chemical reactions as they happen, recognized by the 1999 Nobel Prize in Chemistry as a foundational new method rather than an incremental improvement.",
+  "ahmed-zewail.achievement.2":
+    "Proposed and drove the founding of Zewail City of Science and Technology in Egypt starting in 1999, entirely on his own initiative while still a full-time Caltech professor, sustaining the project through roughly a decade of bureaucratic and political obstruction.",
+  "ahmed-zewail.moment.1":
+    "Insisted that Zewail City be governed by an independent board of trustees with full authority over hiring and admissions -- a structural stance directly against Egypt's prevailing government-controlled university model that itself caused years of delay.",
+  "ahmed-zewail.interpretation.moment.1":
+    "Taking a principled structural position that predictably delayed his own project is part of the basis for the profile's independent_thinking score.",
+  "ahmed-zewail.moment.2":
+    "During Egypt's 2011 revolution, returned to the country explicitly stating he came \"as an Egyptian citizen to help my mother country,\" distinct from his formal roles in the US government.",
+  "ahmed-zewail.interpretation.moment.2":
+    "Acting on this self-initiated, unrequired return is part of the basis for the profile's proactive_agency score.",
+  "gregor-mendel.achievement.1":
+    "Designed and executed a controlled breeding experiment across roughly 28,000 pea plants over eight years, tracking seven distinct heritable traits and applying statistical analysis to infer the existence of discrete units of heredity.",
+  "gregor-mendel.achievement.2":
+    "Co-founded the Austrian Meteorological Society in 1865 and maintained systematic meteorological measurements three times daily across multiple monastery locations for years.",
+  "gregor-mendel.moment.1":
+    "From 1874 until his death in 1884, refused -- on constitutional grounds and against his own legal advice -- the accounting workaround nearly every other monastery used to avoid a new tax on religious income, sustaining the protest even after the state seized the monastery's estates and it alienated friends and fellow friars.",
+  "gregor-mendel.interpretation.moment.1":
+    "Sustaining this costly, principled dispute for a decade, against his own legal advice, is part of the basis for the profile's conflict_tolerance score.",
+  "gregor-mendel.moment.2":
+    "Continued a correspondence and a redirected set of Hieracium plant experiments with botanist Carl Nageli for seven years, from 1866 to 1873, despite consistently discouraging results.",
+  "gregor-mendel.interpretation.moment.2":
+    "Sustaining this unproductive line of work for seven years is part of the basis for the profile's persistence score.",
+  "emilio-segre.achievement.1":
+    "Co-discovered two new chemical elements, technetium and astatine, and later the antiproton, sharing the 1959 Nobel Prize in Physics for the antiproton discovery.",
+  "emilio-segre.achievement.2":
+    "Persuaded Ernest Lawrence in 1936 to let him take discarded, cyclotron-irradiated molybdenum parts back to his under-resourced Palermo laboratory specifically to search for undiscovered radioactivity in them -- the act that directly led to the technetium discovery.",
+  "emilio-segre.moment.1":
+    "At a contentious 1970 Berkeley meeting over splitting the Livermore weapons lab from the pure-science lab, spoke up decisively against his own reputation for caution: \"Logic argues for separation... If funding suffers, so be it\" -- a position credited with carrying the vote.",
+  "emilio-segre.interpretation.moment.1":
+    "Taking a decisive public stance at a high-stakes institutional meeting, against his usual caution, is part of the basis for the profile's decisiveness score.",
+  "emilio-segre.moment.2":
+    "A National Academy of Sciences memoir directly describes him as \"proud, aloof, and somewhat intimidating,\" a pattern the memoir traces to his feeling insufficiently recognized for the technetium discovery -- his own son separately described him as \"often remote, preoccupied with work and critical rather than encouraging.\"",
+  "emilio-segre.interpretation.moment.2":
+    "This documented, sustained interpersonal pattern -- corroborated independently by his own son -- is part of the basis for the profile's conflict_tolerance score, scored dual-edged rather than a simple advantage.",
+  "taha-hussein.achievement.1":
+    "Lost his sight to illness at around age three, and by his own account in his autobiography Al-Ayyam, pursued formal education first at Al-Azhar and then at the newly founded Cairo University and the Sorbonne despite his blindness and the era's lack of adapted educational infrastructure.",
+  "taha-hussein.achievement.2":
+    "Published On Pre-Islamic Poetry (1926), applying critical-historical textual analysis to argue that some canonical pre-Islamic poetry was likely composed later -- a work that provoked major public and religious controversy and his own formal prosecution.",
+  "taha-hussein.moment.1":
+    "Continued publishing scholarly work applying Western critical methodology to Islamic religious tradition even after the 1926 controversy cost him his university position for a time.",
+  "taha-hussein.interpretation.moment.1":
+    "Continuing this line of scholarship after directly experiencing its real professional cost is part of the basis for the profile's risk_tolerance score.",
+  "taha-hussein.moment.2":
+    "As Egypt's Minister of Education (1950-1952), championed free public education as a national right, a position matching the theme of his own separate writing on education as the path to national cultural renewal.",
+  "taha-hussein.interpretation.moment.2":
+    "This convergence between a formal policy stance and years of separately-published writing on the same theme is part of the basis for the profile's impact_motivation score.",
+  "sofia-kovalevskaya.achievement.1":
+    "Solved a difficult test problem set by mathematician Karl Weierstrass within a week, turning his initial refusal to teach a woman into four years of private tutorship; later discovered the \"Kovalevskaya top,\" a new class of solvable rigid-body motion recognized by an independent prize committee.",
+  "sofia-kovalevskaya.achievement.2":
+    "Entered an arranged, non-romantic marriage in September 1868 as a deliberate legal workaround to a real structural barrier -- Russian women could not travel or study abroad without a father's or husband's permission.",
+  "sofia-kovalevskaya.moment.1":
+    "Sustained a public academic career in Stockholm despite direct, publicly published hostility -- Swedish author August Strindberg denounced her appointment in print as \"a pernicious and unpleasant phenomenon\" -- and despite the Imperial Academy of Sciences having to change its own admission rules specifically to elect her in 1889.",
+  "sofia-kovalevskaya.interpretation.moment.1":
+    "Sustaining a public career through this documented, named public hostility is part of the basis for the profile's conflict_tolerance score.",
+  "sofia-kovalevskaya.moment.2":
+    "Maintained an independently-published literary career in parallel with active mathematics research and teaching -- a produced stage play, a published novel, a memoir, and newspaper articles.",
+  "sofia-kovalevskaya.interpretation.moment.2":
+    "Sustaining substantial, independently-verifiable output in two genuinely distinct domains at once is part of the basis for the profile's cross_domain_range score.",
+  "maria-goeppert-mayer.achievement.1":
+    "When physicist Enrico Fermi, on his way out of her office to take a phone call, asked whether there was any indication of spin-orbit coupling, immediately recognized the answer -- with Fermi himself surprised at how quickly she connected it -- leading directly to the nuclear shell model.",
+  "maria-goeppert-mayer.achievement.2":
+    "Became the second woman to win the Nobel Prize in Physics, for the nuclear shell model, achieved while holding only a voluntary or part-time appointment rather than a full professorship.",
+  "maria-goeppert-mayer.moment.1":
+    "Worked for nine years without a regular academic appointment at Johns Hopkins, on what a National Academy of Sciences memoir calls a \"very modest assistantship\" with no title, because a nepotism rule barred hiring her alongside her physicist husband.",
+  "maria-goeppert-mayer.interpretation.moment.1":
+    "Sustaining nine years of unpaid or underpaid work under this institutional barrier is part of the basis for the profile's persistence score.",
+  "maria-goeppert-mayer.moment.2":
+    "Shortly after finally receiving a full, regular professorship at UC San Diego in 1960, suffered a stroke that left an arm paralyzed, yet continued teaching and publishing, including a 1966 review article, until her death in 1972.",
+  "maria-goeppert-mayer.interpretation.moment.2":
+    "Continuing to teach and publish after this documented setback is part of the basis for the profile's discipline score.",
+  "michael-faraday.achievement.1":
+    "Taught himself the foundations of science during a seven-year bookbinding apprenticeship by reading the books brought to him for binding, then attended a public lecture series purely as an audience member and wrote up detailed illustrated notes on his own initiative.",
+  "michael-faraday.achievement.2":
+    "Discovered electromagnetic induction in 1831, after resuming active research in the mid-1840s following a documented multi-year interruption caused by illness.",
+  "michael-faraday.moment.1":
+    "Within a week of his 1821 discovery of electromagnetic rotation, was publicly accused of plagiarism by his own mentor, Humphry Davy, who then cast the sole vote against his Royal Society nomination -- Faraday responded by withdrawing from electromagnetism research for nearly a decade, until Davy's death.",
+  "michael-faraday.interpretation.moment.1":
+    "Responding to this sustained professional conflict with withdrawal rather than continued engagement is part of the basis for the profile's conflict_tolerance score, scored on the low side to reflect that documented response honestly.",
+  "michael-faraday.moment.2":
+    "Declined the Presidency of the Royal Society on two separate occasions, and refused to profit from patents on his own inventions on religious and ethical grounds, sustained across decades.",
+  "michael-faraday.interpretation.moment.2":
+    "Repeatedly prioritizing personal principle over conventional institutional reward, across decades, is part of the basis for the profile's autonomy_need score.",
+  "homi-bhabha.achievement.1":
+    "Founded and directed the Tata Institute of Fundamental Research in 1945, and was separately appointed founding chairman of the Atomic Energy Commission of India in 1948.",
+  "homi-bhabha.achievement.2":
+    "Returned from a promising academic physics career in Britain to newly independent India specifically to build fundamental research capacity there, then persuaded both industrialist J. R. D. Tata and the Indian government separately to fund the new institute.",
+  "homi-bhabha.moment.1":
+    "Designed India's nuclear program around a specific, integrated three-stage plan for long-term nuclear fuel self-sufficiency, spanning natural uranium, plutonium, and thorium fuel cycles.",
+  "homi-bhabha.interpretation.moment.1":
+    "Structuring a multi-decade national program as an explicit, sequenced plan rather than a series of ad hoc decisions is part of the basis for the profile's systems_abstraction score.",
+  "homi-bhabha.moment.2":
+    "Pursued serious painting and art collecting throughout his scientific and institution-building career, personally curating art for the institutions he founded.",
+  "homi-bhabha.interpretation.moment.2":
+    "Sustaining this serious parallel pursuit alongside a demanding scientific career is part of the basis for the profile's curiosity score.",
+  "rosalyn-yalow.achievement.1":
+    "Co-developed radioimmunoassay, a technique for measuring minute biological substances, and refused to patent it, stating \"patents are about keeping things away from people for the purpose of making money.\"",
+  "rosalyn-yalow.achievement.2":
+    "Became the first female physics graduate student at the University of Illinois in nearly 40 years, and later the second woman to win the Nobel Prize in Physiology or Medicine, for a technique whose foundational paper had initially been rejected by both Science and the Journal of Clinical Investigation.",
+  "rosalyn-yalow.moment.1":
+    "After graduate physics programs rejected her with the stated reasoning \"She is from New York. She is Jewish. She is a woman,\" enrolled in stenography courses and took secretarial work at Columbia specifically to stay near research until a graduate position opened at the University of Illinois.",
+  "rosalyn-yalow.interpretation.moment.1":
+    "Responding to this documented rejection with a concrete workaround, rather than accepting it, is part of the basis for the profile's persistence score.",
+  "rosalyn-yalow.moment.2":
+    "Declined the 1978 Ladies' Home Journal Woman of the Year award, writing to the editor that sex-restricted awards are \"inconsistent and unwise.\"",
+  "rosalyn-yalow.interpretation.moment.2":
+    "Publicly declining a form of recognition many would have simply accepted, over a stated principle, is part of the basis for the profile's independent_thinking score.",
+  "enrico-fermi.achievement.1":
+    "Led the team that achieved the first controlled, self-sustaining nuclear chain reaction in history at Chicago Pile-1 on December 2, 1942, and was later appointed associate director of the Los Alamos laboratory, heading its own dedicated physics division.",
+  "enrico-fermi.achievement.2":
+    "At the Trinity nuclear test in July 1945, produced a real-time estimate of the bomb's explosive yield with no instrumentation beyond strips of paper dropped into the blast wave -- calculating roughly 10 kilotons, within a factor of 2 of the true yield.",
+  "enrico-fermi.moment.1":
+    "With his wife threatened by Italy's newly enacted anti-Semitic Racial Laws in 1938, deliberately used his own Nobel Prize ceremony in Stockholm as cover to permanently emigrate his family rather than returning to Italy as expected.",
+  "enrico-fermi.interpretation.moment.1":
+    "Making this real, high-stakes life decision under genuine political danger is part of the basis for the profile's risk_tolerance score.",
+  "enrico-fermi.moment.2":
+    "At age 10, together with a friend, found and self-taught himself mechanics and astronomy from a secondhand 1840 physics textbook, continuing to acquire and study physics and mathematics texts on his own initiative through his teens.",
+  "enrico-fermi.interpretation.moment.2":
+    "This sustained, self-directed intellectual pursuit beginning years before any career opportunity existed is part of the basis for the profile's curiosity score.",
+  "dorothy-hodgkin.achievement.1":
+    "Solved the complex three-dimensional molecular structures of penicillin, insulin, and vitamin B12 using X-ray crystallography, work recognized by the sole 1964 Nobel Prize in Chemistry.",
+  "dorothy-hodgkin.achievement.2":
+    "Pursued insulin's molecular structure -- which she described as \"impossibly complex\" -- for more than three decades before finally resolving it in 1969.",
+  "dorothy-hodgkin.moment.1":
+    "As rheumatoid arthritis progressively worsened over her career, had a longer lever made for her X-ray machine's main switch and adjusted her international travel practices, continuing active research rather than withdrawing from it.",
+  "dorothy-hodgkin.interpretation.moment.1":
+    "Specifically modifying her own working methods to continue research as a real physical constraint worsened is part of the basis for the profile's adaptability score.",
+  "dorothy-hodgkin.moment.2":
+    "Insisted on including Chinese and Soviet scientists in the International Union of Crystallography during the Cold War, directly against the prevailing exclusionary political climate of the era in both the US and UK.",
+  "dorothy-hodgkin.interpretation.moment.2":
+    "Taking this institutional stance against the prevailing climate of the time is part of the basis for the profile's independent_thinking score.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -7923,6 +8092,175 @@ export const EDITORIAL_KO: Record<string, string> = {
     "세상을 떠나기 얼마 전, 워털루 대학교가 수여하려던 명예 학위를 동료 에이드리언 본디에 대한 그 대학의 처우 문제를 이유로 거절했다 -- 생의 마지막 순간에 원칙을 지키기 위해 대가를 감수한 구체적이고 날짜가 확인되는 행동이었다.",
   "paul-erdos.interpretation.turning_point.1":
     "생의 마지막 시점에, 자신의 이해관계가 아니라 타인이 받은 처우를 이유로 이처럼 대가가 따르는 원칙적인 태도를 취한 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거다.",
+  /* ---------------------------------------------------------- Roster31 */
+  "linus-pauling.achievement.1":
+    "화학 분야(1954년, 화학 결합의 본질에 관한 연구)와 평화 분야(1962년, 지상 핵실험 반대 운동)에서 각각 단독으로 노벨상을 두 차례 수상한 유일한 인물이다.",
+  "linus-pauling.achievement.2":
+    "화학 결합의 공명 이론을 창시하고 물리적 분자 모형 제작을 실제 과학 연구 도구로 개척했으며, 미국 국립과학원의 전기(傳記)는 이를 양자화학, 단백질 구조, 분자 수준의 질병 연구 등 여러 분야에 걸친 근본적인 기여로 평가한다.",
+  "linus-pauling.moment.1":
+    "1943년 로버트 오펜하이머로부터 맨해튼 프로젝트 참여 제안을 받았으나 이를 거절하고 칼텍에 남아 자신만의 연구 방향을 추구했다.",
+  "linus-pauling.interpretation.moment.1":
+    "당대 최고 권위의 전시 과학 직책 제안을 거절하고 자신의 연구 방향을 택한 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
+  "linus-pauling.moment.2":
+    "로절린드 프랭클린과 모리스 윌킨스의 X선 데이터가 자신이 제안한 DNA 삼중나선 모형이 틀렸음을 보여주자, 자신이 실수했다는 말 외에는 별다른 언급을 하지 않은 것으로 전해진다.",
+  "linus-pauling.interpretation.moment.2":
+    "공개적이고 세간의 이목을 끄는 오류를 이처럼 담담하게 인정한 짧지만 명확한 순간은 프로필의 모호성 인내(ambiguity_tolerance) 점수의 근거다.",
+  "robert-falcon-scott.achievement.1":
+    "폭풍우 속에서 테라노바호의 기관실 화재가 침수되고 기관사가 손을 놓았다고 선언하자, 직접 양동이 릴레이를 조직하고 격벽을 뚫어 펌프 흡입구를 확보하도록 지시했다고 그의 일지에 기록되어 있다.",
+  "robert-falcon-scott.achievement.2":
+    "독립적인 원정대원이었던 앱슬리 체리개러드는 그의 조직력을 높이 평가하며 '과학적이면서도 지리적인 공동 조직 작업이라면, 나는 스콧을 택하겠다'고 기록했다.",
+  "robert-falcon-scott.moment.1":
+    "그의 일지는 남극 유빙에 대한 불확실성을 솔직하게 인정하면서도 -- '유빙을 어떻게 생각해야 할지, 언제 열린 바다를 기대할 수 있을지 정말 모르겠다' -- 이를 멈출 이유로 삼지 않고 측심, 온도 측정, 스케치 등 체계적인 관찰을 계속했다고 전한다.",
+  "robert-falcon-scott.interpretation.moment.1":
+    "결과에 대한 불확실성을 솔직히 인정하면서도 체계적인 관찰을 계속한 것은 프로필의 모호성 인내(ambiguity_tolerance) 점수의 근거다.",
+  "robert-falcon-scott.moment.2":
+    "디스커버리 원정의 첫 시즌이 조직적으로 혼란스러웠던 것에 대해 -- 체리개러드의 표현으로는 '식량도, 의복도, 모든 것이 잘못되었고, 시스템 전체가 엉망이었다' -- 다음 시즌에 앞서 체리개러드가 '철저한 재조직의 겨울'이라 부른 작업을 단행했다.",
+  "robert-falcon-scott.interpretation.moment.2":
+    "기록된 조직적 실패에 부분적 수정이 아닌 전면적인 시스템 재구축으로 대응한 것은 프로필의 계획 지향성(planning_orientation) 점수의 근거다.",
+  "luis-alvarez.achievement.1":
+    "본인의 훗날 회고에 따르면 '터무니없이 자격 미달' 상태로 방사선 연구소에 도착했으나, 1년 안에 물리학 도서관의 모든 핵물리학 학술지 논문을 읽었으며, 페이지 가장자리가 손때로 검게 변한 정도로 중요한 논문을 알아보는 법을 익혔다.",
+  "luis-alvarez.achievement.2":
+    "지상 접근 관제 레이더 착륙 시스템, 1968년 노벨 물리학상 수상으로 이어진 수소 거품상자 설계, 그리고 수십 년 후 공룡을 멸종시킨 대량 멸종 사건에 대한 외계 충돌 가설의 문서로 확인된 발명자다.",
+  "luis-alvarez.moment.1":
+    "동료가 우연히 잘 알려지지 않은 물리학 논문을 언급하자, 그 내용은 물론 핵심 그래프가 실린 페이지와 페이지 내 위치까지 기억으로 되짚었다고 기록되어 있다.",
+  "luis-alvarez.interpretation.moment.1":
+    "이처럼 구체적으로 목격된 전문 자료에 대한 기억력 시연은 프로필의 숙련 지향성(mastery_orientation) 점수의 근거다.",
+  "luis-alvarez.moment.2":
+    "수백 명의 물리학자, 엔지니어, 기술자로 구성된 거품상자 연구 그룹을 조직하고 이끌면서도, 자신이 충분히 기여했다고 판단하지 않은 논문에는 공동 저자로 이름을 올리는 것을 의도적으로 거절했다.",
+  "luis-alvarez.interpretation.moment.2":
+    "대규모 연구 프로그램을 이끌면서도 스스로 정당하지 않다고 판단한 공로는 사양한 것은 프로필의 성취 욕구(achievement_drive) 점수의 근거다.",
+  "ahmed-zewail.achievement.1":
+    "화학 반응이 일어나는 과정을 직접 관찰할 수 있게 하는 기술인 펨토초 분광법('펨토화학')을 개발했으며, 1999년 노벨 화학상은 이를 점진적 개선이 아닌 근본적으로 새로운 방법론으로 인정했다.",
+  "ahmed-zewail.achievement.2":
+    "1999년부터 칼텍 정교수직을 유지한 채 전적으로 자신의 주도로 이집트 즈웨일 과학기술도시 설립을 제안하고 추진했으며, 약 10년에 걸친 관료적, 정치적 방해를 뚫고 이 프로젝트를 지속시켰다.",
+  "ahmed-zewail.moment.1":
+    "즈웨일 시티가 채용과 입학에 관한 전권을 가진 독립적인 이사회에 의해 운영되어야 한다고 주장했으며, 이는 이집트의 통상적인 정부 통제형 대학 모델에 정면으로 반하는 구조적 입장으로 그 자체로 수년간의 지연을 초래했다.",
+  "ahmed-zewail.interpretation.moment.1":
+    "자신의 프로젝트를 예측 가능하게 지연시킬 원칙적인 구조적 입장을 고수한 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
+  "ahmed-zewail.moment.2":
+    "2011년 이집트 혁명 당시, 미국 정부에서의 공식 직책과는 별개로 '조국을 돕기 위한 이집트 시민으로서' 왔다고 명시적으로 밝히며 귀국했다.",
+  "ahmed-zewail.interpretation.moment.2":
+    "요구되지 않았음에도 스스로 결정한 이러한 귀국 행동은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
+  "gregor-mendel.achievement.1":
+    "8년에 걸쳐 약 28,000그루의 완두콩을 대상으로 통제된 교배 실험을 설계하고 실행하며 7가지 서로 다른 유전 형질을 추적했고, 통계 분석을 적용해 유전의 이산적 단위의 존재를 추론해냈다.",
+  "gregor-mendel.achievement.2":
+    "1865년 오스트리아 기상학회를 공동 설립했으며, 수년간 여러 수도원 부지에서 하루 세 차례 체계적인 기상 관측을 유지했다.",
+  "gregor-mendel.moment.1":
+    "1874년부터 1884년 사망할 때까지, 거의 모든 다른 수도원이 종교 소득에 대한 새로운 세금을 피하기 위해 사용한 회계상의 편법을 헌법적 근거를 들어, 그리고 자신의 법률 자문의 조언에도 불구하고 거부했으며, 국가가 수도원 재산을 압류하고 이 일로 친구들과 동료 수사들로부터 소외된 뒤에도 항의를 지속했다.",
+  "gregor-mendel.interpretation.moment.1":
+    "자신의 법률 자문의 조언에 반하면서까지 이처럼 대가가 큰 원칙적 분쟁을 10년간 지속한 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거다.",
+  "gregor-mendel.moment.2":
+    "지속적으로 실망스러운 결과가 나왔음에도 불구하고, 1866년부터 1873년까지 7년간 식물학자 카를 네겔리와의 서신 교환과 그의 권유로 방향을 전환한 조밥나물속(Hieracium) 실험을 계속했다.",
+  "gregor-mendel.interpretation.moment.2":
+    "성과가 없는 이 작업을 7년간 지속한 것은 프로필의 인내력(persistence) 점수의 근거다.",
+  "emilio-segre.achievement.1":
+    "테크네튬과 아스타틴이라는 두 개의 새로운 화학 원소를 공동 발견했고, 이후 반양성자를 발견하여 1959년 노벨 물리학상을 공동 수상했다.",
+  "emilio-segre.achievement.2":
+    "1936년 어니스트 로런스를 설득해 사이클로트론으로 조사(照射)된 후 폐기된 몰리브데넘 부품을 자원이 부족한 팔레르모 연구실로 가져갔으며, 그 안에서 미확인 방사능을 찾아낸 이 행동이 테크네튬 발견으로 직접 이어졌다.",
+  "emilio-segre.moment.1":
+    "리버모어 무기 연구소를 순수 과학 연구소에서 분리하는 문제를 둘러싼 1970년의 논쟁적인 버클리 회의에서, 평소 신중하다는 자신의 평판과 달리 단호하게 발언했다 -- '논리적으로는 분리가 맞다... 예산에 지장이 생긴다면 그것도 감수해야 한다' -- 이 발언이 표결을 이끌어낸 것으로 평가된다.",
+  "emilio-segre.interpretation.moment.1":
+    "평소의 신중함과 달리 중대한 기로에 선 회의에서 단호한 공개적 입장을 취한 것은 프로필의 결단력(decisiveness) 점수의 근거다.",
+  "emilio-segre.moment.2":
+    "미국 국립과학원의 전기(傳記)는 그를 '자존심이 강하고, 냉담하며, 다소 위압적'이라고 직접적으로 묘사하며, 이러한 성향을 테크네튬 발견에 대한 인정이 충분치 않다고 느낀 데서 비롯된 것으로 설명한다 -- 그의 아들 또한 별도로 그를 '종종 소원하고, 일에 몰두하며, 격려보다는 비판적인' 사람으로 묘사했다.",
+  "emilio-segre.interpretation.moment.2":
+    "그의 아들에 의해서도 독립적으로 확인된 이 지속적인 대인관계 패턴은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거이며, 단순한 장점이 아니라 양면적 특성으로 채점되었다.",
+  "taha-hussein.achievement.1":
+    "세 살 무렵 질병으로 시력을 잃었으나, 자신의 자서전 『알아이얌』에 따르면 시각장애와 당시의 미비한 교육 인프라에도 불구하고 알아즈하르에 이어 신설된 카이로 대학교, 그리고 소르본 대학교에서 정규 교육을 추구했다.",
+  "taha-hussein.achievement.2":
+    "『이슬람 이전 시가론』(1926)을 출간해 일부 정통 이슬람 이전 시가가 후대에 지어졌을 가능성을 주장하는 비평적·역사적 텍스트 분석을 시도했으며, 이는 큰 사회적·종교적 논란과 그 자신에 대한 정식 기소로 이어졌다.",
+  "taha-hussein.moment.1":
+    "1926년의 논란으로 한동안 대학 직위를 잃었음에도 불구하고, 서구식 비평 방법론을 이슬람 종교 전통에 적용하는 학술 작업을 계속 발표했다.",
+  "taha-hussein.interpretation.moment.1":
+    "실질적인 직업적 대가를 직접 겪은 뒤에도 이러한 학문적 방향을 지속한 것은 프로필의 위험 감수(risk_tolerance) 점수의 근거다.",
+  "taha-hussein.moment.2":
+    "이집트 교육부 장관(1950~1952년) 재임 중 무상 공교육을 국민의 권리로 옹호했으며, 이는 국가적 문화 부흥의 길로서 교육을 다룬 그의 별도 저술 주제와 일치한다.",
+  "taha-hussein.interpretation.moment.2":
+    "공식 정책 입장과 동일한 주제를 다룬 수년간의 별도 저술 사이의 이러한 일치는 프로필의 영향 동기(impact_motivation) 점수의 근거다.",
+  "sofia-kovalevskaya.achievement.1":
+    "수학자 카를 바이어슈트라스가 낸 어려운 시험 문제를 일주일 만에 풀어내며, 여성을 가르치지 않겠다던 그의 초기 거부를 4년간의 개인 지도로 바꾸어 놓았다. 이후 독립적인 심사위원회로부터 인정받은, 강체 운동의 새로운 가해(可解) 유형인 '코발렙스카야 팽이'를 발견했다.",
+  "sofia-kovalevskaya.achievement.2":
+    "러시아 여성이 아버지나 남편의 허락 없이는 해외로 이동하거나 유학할 수 없었던 실질적인 제도적 장벽을 우회하기 위한 의도적인 법적 방편으로, 1868년 9월 정략결혼을 했다.",
+  "sofia-kovalevskaya.moment.1":
+    "스웨덴 작가 아우구스트 스트린드베리가 그녀의 스톡홀름 임용을 공개적으로 '해롭고 불쾌한 현상'이라 비난하는 등 공개적으로 표출된 적대감 속에서도, 그리고 제국과학아카데미가 그녀를 선출하기 위해 자체 입회 규정을 변경해야 했음에도 불구하고, 학계 경력을 이어갔다.",
+  "sofia-kovalevskaya.interpretation.moment.1":
+    "이처럼 기록으로 남은 공개적 적대감 속에서도 학계 경력을 지속한 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거다.",
+  "sofia-kovalevskaya.moment.2":
+    "활발한 수학 연구 및 강의 활동과 병행하여 독립적으로 출간된 문학 경력을 유지했다 -- 상연된 희곡, 출간된 소설, 회고록, 그리고 신문 기고문 등이다.",
+  "sofia-kovalevskaya.interpretation.moment.2":
+    "진정으로 서로 다른 두 영역에서 동시에 상당하고 독립적으로 검증 가능한 성과를 유지한 것은 프로필의 다영역 범위(cross_domain_range) 점수의 근거다.",
+  "maria-goeppert-mayer.achievement.1":
+    "물리학자 엔리코 페르미가 전화를 받으러 사무실을 나서던 중 스핀-궤도 결합의 흔적이 있는지 묻자 즉시 그 답을 알아차렸으며, 페르미 본인도 그녀가 이를 얼마나 빨리 연결지었는지에 놀랐다고 전해진다 -- 이는 원자핵 껍질 모형으로 직접 이어졌다.",
+  "maria-goeppert-mayer.achievement.2":
+    "정규 정교수직이 아닌 자원봉사 또는 시간제 직위만을 유지한 상태에서 원자핵 껍질 모형 연구로 노벨 물리학상을 수상한 두 번째 여성이 되었다.",
+  "maria-goeppert-mayer.moment.1":
+    "물리학자 남편과 함께 채용될 수 없도록 한 친족등용금지 규정 때문에, 존스홉킨스 대학교에서 9년간 정규 교원 직위 없이 미국 국립과학원 전기(傳記)의 표현으로 '직함 없는 매우 소박한 조교' 자리로 일했다.",
+  "maria-goeppert-mayer.interpretation.moment.1":
+    "이러한 제도적 장벽 아래에서 9년간 무급 또는 저임금 노동을 지속한 것은 프로필의 인내력(persistence) 점수의 근거다.",
+  "maria-goeppert-mayer.moment.2":
+    "1960년 캘리포니아 대학교 샌디에이고에서 마침내 정규 정교수직을 얻은 직후 뇌졸중으로 한쪽 팔이 마비되었으나, 1966년 총설 논문을 포함해 1972년 사망할 때까지 강의와 논문 발표를 계속했다.",
+  "maria-goeppert-mayer.interpretation.moment.2":
+    "이러한 기록된 좌절 이후에도 강의와 논문 발표를 계속한 것은 프로필의 규율성(discipline) 점수의 근거다.",
+  "michael-faraday.achievement.1":
+    "7년간의 제본 도제 생활 동안 제본을 위해 맡겨진 책들을 읽으며 독학으로 과학의 기초를 익혔으며, 이후 순수하게 청중의 한 사람으로 공개 강연 시리즈에 참석해 자신의 판단으로 삽화가 포함된 상세한 필기를 작성했다.",
+  "michael-faraday.achievement.2":
+    "질병으로 인한 수년간의 공백 이후 1840년대 중반 연구를 재개한 뒤, 1831년 전자기 유도를 발견했다.",
+  "michael-faraday.moment.1":
+    "1821년 전자기 회전을 발견한 지 일주일 만에 자신의 스승인 험프리 데이비로부터 공개적으로 표절 혐의를 받았으며, 데이비는 이후 그의 왕립학회 회원 지명에 유일한 반대표를 던졌다 -- 패러데이는 데이비가 사망할 때까지 거의 10년간 전자기학 연구에서 물러나는 것으로 대응했다.",
+  "michael-faraday.interpretation.moment.1":
+    "이러한 지속적인 직업적 갈등에 계속된 관여가 아닌 물러남으로 대응한 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거이며, 이 기록된 반응을 정직하게 반영하기 위해 낮은 편으로 채점되었다.",
+  "michael-faraday.moment.2":
+    "왕립학회 회장직을 두 차례 고사했으며, 자신의 발명에 대한 특허로 이익을 얻는 것을 종교적, 윤리적 근거에서 수십 년에 걸쳐 거부했다.",
+  "michael-faraday.interpretation.moment.2":
+    "수십 년에 걸쳐 반복적으로 개인적 신념을 통상적인 제도적 보상보다 우선시한 것은 프로필의 자율성 욕구(autonomy_need) 점수의 근거다.",
+  "homi-bhabha.achievement.1":
+    "1945년 타타 기초연구소를 설립하고 이끌었으며, 1948년에는 별도로 인도 원자력위원회의 초대 위원장으로 임명되었다.",
+  "homi-bhabha.achievement.2":
+    "영국에서 전도유망한 학계 물리학 경력을 이어가던 중 갓 독립한 인도로 돌아와 그곳의 기초연구 역량을 구축하고자 했으며, 이후 산업가 J. R. D. 타타와 인도 정부를 각각 설득해 신설 연구소에 대한 자금을 확보했다.",
+  "homi-bhabha.moment.1":
+    "천연 우라늄, 플루토늄, 토륨 연료 주기를 아우르는, 장기적인 핵연료 자립을 위한 구체적이고 통합된 3단계 계획을 중심으로 인도의 원자력 프로그램을 설계했다.",
+  "homi-bhabha.interpretation.moment.1":
+    "수십 년에 걸친 국가적 프로그램을 임기응변적 결정들의 연속이 아닌 명확하고 순차적인 계획으로 구조화한 것은 프로필의 체계적 추상화(systems_abstraction) 점수의 근거다.",
+  "homi-bhabha.moment.2":
+    "과학 연구 및 기관 설립 경력 내내 진지하게 회화와 미술품 수집을 병행했으며, 자신이 설립한 기관들을 위해 직접 미술품을 큐레이션했다.",
+  "homi-bhabha.interpretation.moment.2":
+    "까다로운 과학 경력과 병행하여 이러한 진지한 병행 활동을 지속한 것은 프로필의 호기심(curiosity) 점수의 근거다.",
+  "rosalyn-yalow.achievement.1":
+    "미량의 생물학적 물질을 측정하는 기술인 방사면역측정법을 공동 개발했으며, '특허는 돈을 벌 목적으로 사람들이 접근하지 못하게 막는 것'이라고 말하며 이에 대한 특허를 거부했다.",
+  "rosalyn-yalow.achievement.2":
+    "일리노이 대학교에서 거의 40년 만에 첫 여성 물리학 대학원생이 되었으며, 이후 방사면역측정법에 관한 기초 논문이 처음에는 《사이언스》와 《임상연구저널》 양쪽 모두에서 게재를 거절당했음에도 노벨 생리학·의학상을 수상한 두 번째 여성이 되었다.",
+  "rosalyn-yalow.moment.1":
+    "'뉴욕 출신이고, 유대인이고, 여성이라는' 명시된 이유로 물리학 대학원 과정에서 거절당한 뒤, 일리노이 대학교의 대학원 자리가 열릴 때까지 연구와 가까이 있기 위해 속기 강좌를 듣고 컬럼비아 대학교에서 비서 업무를 맡았다.",
+  "rosalyn-yalow.interpretation.moment.1":
+    "이러한 기록된 거절에 순응하는 대신 구체적인 우회책으로 대응한 것은 프로필의 인내력(persistence) 점수의 근거다.",
+  "rosalyn-yalow.moment.2":
+    "1978년 《레이디스 홈 저널》의 '올해의 여성' 상을 거절하며, 편집자에게 성별을 제한하는 상은 '일관성이 없고 현명하지 못하다'고 서한을 보냈다.",
+  "rosalyn-yalow.interpretation.moment.2":
+    "많은 사람이 그냥 받아들였을 형태의 인정을 명시된 원칙에 따라 공개적으로 거절한 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
+  "enrico-fermi.achievement.1":
+    "1942년 12월 2일 시카고 파일-1에서 역사상 최초로 통제된 자립형 핵연쇄반응을 달성한 팀을 이끌었으며, 이후 로스앨러모스 연구소의 부소장으로 임명되어 자체 물리학 부서를 이끌었다.",
+  "enrico-fermi.achievement.2":
+    "1945년 7월 트리니티 핵실험에서, 폭발파에 종잇조각을 떨어뜨리는 것 외에는 아무런 계측 장비 없이 실시간으로 폭발 위력을 추산했으며 -- 약 10킬로톤으로 계산해, 실제 위력의 2배 이내로 근접했다.",
+  "enrico-fermi.moment.1":
+    "1938년 이탈리아의 새로운 반유대주의 인종법으로 아내가 위협받는 상황에서, 예정대로 이탈리아로 돌아가는 대신 스톡홀름에서 열린 자신의 노벨상 시상식을 위장 수단으로 삼아 가족 전체를 영구히 이주시켰다.",
+  "enrico-fermi.interpretation.moment.1":
+    "실질적인 정치적 위험 속에서 이처럼 실제적이고 중대한 삶의 결정을 내린 것은 프로필의 위험 감수(risk_tolerance) 점수의 근거다.",
+  "enrico-fermi.moment.2":
+    "열 살 때 친구와 함께 중고로 구한 1840년의 물리학 교재로 역학과 천문학을 독학했으며, 이후 10대 시절 내내 스스로의 판단으로 물리학과 수학 서적을 계속 구해 공부했다.",
+  "enrico-fermi.interpretation.moment.2":
+    "어떠한 진로 기회가 생기기 훨씬 전부터 시작된 이 지속적이고 자기주도적인 지적 탐구는 프로필의 호기심(curiosity) 점수의 근거다.",
+  "dorothy-hodgkin.achievement.1":
+    "X선 결정학을 이용해 페니실린, 인슐린, 비타민 B12의 복잡한 3차원 분자 구조를 규명했으며, 이 업적으로 1964년 노벨 화학상을 단독 수상했다.",
+  "dorothy-hodgkin.achievement.2":
+    "스스로 '불가능할 정도로 복잡하다'고 표현했던 인슐린의 분자 구조를 30년 넘게 추적한 끝에 1969년 마침내 규명해냈다.",
+  "dorothy-hodgkin.moment.1":
+    "경력 내내 류머티즘 관절염이 점차 악화되는 가운데, X선 장비의 주 스위치에 더 긴 레버를 달게 하고 국제 학회 참석 방식을 조정하는 등, 연구에서 물러나는 대신 이를 계속하기 위한 방법을 찾았다.",
+  "dorothy-hodgkin.interpretation.moment.1":
+    "실제 신체적 제약이 악화되는 가운데 연구를 지속하기 위해 자신의 작업 방식을 구체적으로 조정한 것은 프로필의 적응력(adaptability) 점수의 근거다.",
+  "dorothy-hodgkin.moment.2":
+    "냉전 시기 미국과 영국 모두에서 지배적이었던 배타적인 정치적 분위기에 정면으로 반해, 국제결정학연맹에 중국과 소련 과학자들을 포함시킬 것을 주장했다.",
+  "dorothy-hodgkin.interpretation.moment.2":
+    "당대의 지배적인 분위기에 반하는 이러한 제도적 입장을 취한 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

@@ -4,7 +4,48 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-10 (Roster30: twenty-person zero-politics fast
+Last updated: 2026-09-11 (Roster31: fourteen-person zero-politics
+production batch, `feat/roster31-fifteen-person-zero-politics-batch`
+[filename preserved from the freeze target; fourteen shipped], unmerged —
+same mechanical-intake discipline as Roster25-30, continuing Roster30's
+hard constraint: zero political/state/military/activist-primary people.
+Linus Pauling, Robert Falcon Scott, Luis Alvarez, Ahmed Zewail, Gregor
+Mendel, Emilio Segrè, Taha Hussein, Sofia Kovalevskaya, Maria
+Goeppert-Mayer, Michael Faraday, Homi Bhabha, Rosalyn Yalow, Enrico Fermi,
+and Dorothy Hodgkin — all honestly failing `eligibility_v2`, none rescued.
+**Booker T. Washington was frozen and initially promoted, then reverted to
+`held`** after cross-checking Roster30's own checkpoint doc found it had
+already excluded this exact candidate on the same primary-significance-
+ambiguity grounds (Atlanta Compromise / Du Bois rivalry read as ideological
+movement leadership, not merely education) — this session's initial
+contrary judgment was caught and corrected before merge; his
+evidence/portrait/localization remain resolved for a future cycle. Four
+rows across two candidates (Faraday's Christmas Lectures claim; Zewail's
+Zewail-City funding figures, chair name, and Science Envoy framing) were
+narrowed as `ERROR_CORRECTION`s during the factual-exactness gate, none
+touching any score/confidence/evidenceType/impact value; one classification
+metadata fix (Yalow's source `kind` `"journal_article"` → `"press"`, not a
+valid enum value). One taxonomy/i18n fix: `chemistry`/`biology` added to
+`science_knowledge`'s `fieldIds` (both newly crossed the >=2-person curation
+floor), plus `field.chemistry`/`field.biology` EN/KO translations — mirrors
+the Roster27-29 precedent for crossing that same threshold. **Zero newly
+match-eligible people** this cycle — all fourteen fail the confidence/
+coverage sub-gates by varying margins; `dispersion.generated.ts`/
+calibration correctly left untouched. Interest-area category counts
+(diagnostic only) unchanged: science_knowledge 53, arts_culture 49,
+leadership_society 44, building_discovery 19 — none of the fourteen are
+match-eligible, so the interest-area quiz feature cannot surface any of
+them regardless of category. This batch's non-political, adequately-
+evidenced pool turned out heavily concentrated in science/medicine (12 of
+14) rather than spread across all four interest-area categories — a
+mechanically-verified fact about pool composition, not a selection
+preference; the Building & Discovery (1) and Arts & Culture (1) soft
+targets were honestly missed rather than padded with thinner or
+politically-ambiguous substitutes. Roster: **218 total / 217 default-
+directory-visible / 127 match-eligible** (was 204/203/127). Full record:
+[`roster31-fifteen-person-zero-politics-batch.md`](../checkpoints/roster31-fifteen-person-zero-politics-batch.md).
+
+Last updated (superseded above): 2026-09-10 (Roster30: twenty-person zero-politics fast
 production batch, `feat/roster30-twenty-person-zero-politics-batch`,
 post-PR factual/evidence-attribution correction pass applied — same
 mechanical-intake discipline as Roster25-29, plus a hard constraint: **zero
