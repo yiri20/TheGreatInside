@@ -25,10 +25,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Locale } from "@core/types";
-import { t } from "@core/i18n/index";
+import { t, type MessageKey } from "@core/i18n/index";
 import { orderedQuestions, QUIZ, QUIZ_VERSION } from "@core/quiz/bank";
 import { encodeResultToken } from "@core/quiz/serialize";
 import type { QuizQuestion, QuizResponse } from "@core/quiz/types";
+import { PROFESSION_CATEGORIES } from "@core/people/directoryTaxonomy";
+import { parseInterestScope, type InterestScope } from "@core/matching/interestScope";
 import { buildQuizScreens } from "@ui/lib/quizScreens";
 import { enqueuePendingOwnResult } from "@lib/results/pendingOwnResults";
 import { processPendingResults } from "@lib/results/processPendingResults";
@@ -38,6 +40,7 @@ import { expandPeopleIndex } from "@core/people/personIndex";
 import { saveCompletedResultAction } from "../../actions/results.js";
 import {
   Button,
+  Card,
   ChoiceGroup,
   Cluster,
   Divider,
@@ -65,11 +68,25 @@ const SCREENS = buildQuizScreens(QUIZ);
  *  enqueuePendingOwnResult (via personDataFingerprint) can read it. */
 const FINGERPRINTABLE_PEOPLE = expandPeopleIndex(PEOPLE_INDEX);
 
+/** Optional interest-area picker on the intro screen — "all" plus the
+ *  existing four broad Directory categories, no second taxonomy. Purely a
+ *  viewing/surfacing preference; see core/matching/interestScope.ts's own
+ *  doc comment for why this can never feed into scoring/matching. */
+const INTEREST_SCOPE_OPTIONS: { id: InterestScope; labelKey: MessageKey }[] = [
+  { id: "all", labelKey: "quiz.intro.interest_all" },
+  ...PROFESSION_CATEGORIES.map((c) => ({ id: c.id, labelKey: c.labelKey })),
+];
+
 const DRAFT_KEY = "tgi_quiz_draft_v1";
 
 interface Draft {
   quizVersion: string;
   responses: QuizResponse[];
+  /** Optional viewing preference, not part of scoring — see
+   *  core/matching/interestScope.ts. Always a valid `InterestScope` after
+   *  `loadDraft()` (missing/invalid values are parsed down to "all"), so
+   *  callers never need to re-validate it themselves. */
+  interestScope: InterestScope;
 }
 
 function loadDraft(): Draft | undefined {
@@ -84,9 +101,16 @@ function loadDraft(): Draft | undefined {
     // an `index` field, from before Stage 10A) still loads correctly: the
     // extra field is simply ignored, not a compatibility break. A draft
     // saved under a DIFFERENT quizVersion (e.g. a stale quiz_v1 draft) is
-    // rejected here exactly as before.
+    // rejected here exactly as before. `interestScope` is newer still and
+    // deliberately NOT part of this version check: an old draft that
+    // predates the field entirely (no `interestScope` key at all) still
+    // loads normally, just with `parseInterestScope(undefined)` -> "all".
     if (parsed.quizVersion !== QUIZ_VERSION || !Array.isArray(parsed.responses)) return undefined;
-    return { quizVersion: parsed.quizVersion, responses: parsed.responses };
+    return {
+      quizVersion: parsed.quizVersion,
+      responses: parsed.responses,
+      interestScope: parseInterestScope(parsed.interestScope),
+    };
   } catch {
     return undefined;
   }
@@ -129,6 +153,9 @@ export function QuizClient({ locale }: { locale: Locale }) {
   const [responses, setResponses] = useState<QuizResponse[]>([]);
   const [screenIndex, setScreenIndex] = useState(0);
   const [pendingDraft, setPendingDraft] = useState<Draft | undefined>(undefined);
+  // Optional viewing preference (default "all") — see INTEREST_SCOPE_OPTIONS
+  // and core/matching/interestScope.ts. Never read by scoreQuiz/encodeResultToken.
+  const [interestScope, setInterestScope] = useState<InterestScope>("all");
 
   // Resolve initial stage from any saved draft. Runs once, client-only —
   // localStorage does not exist during SSR/the first paint, so this cannot
@@ -153,8 +180,16 @@ export function QuizClient({ locale }: { locale: Locale }) {
   const section = firstQuestion ? QUIZ.sections.find((s) => s.id === firstQuestion.sectionId) : undefined;
   const sectionIndex = section ? QUIZ.sections.findIndex((s) => s.id === section.id) : -1;
 
-  function persist(nextResponses: QuizResponse[]) {
-    saveDraft({ quizVersion: QUIZ_VERSION, responses: nextResponses });
+  function persist(nextResponses: QuizResponse[], nextInterestScope: InterestScope = interestScope) {
+    saveDraft({ quizVersion: QUIZ_VERSION, responses: nextResponses, interestScope: nextInterestScope });
+  }
+
+  function selectInterestScope(raw: string) {
+    const scope = parseInterestScope(raw);
+    setInterestScope(scope);
+    // Only meaningful once a draft actually exists (first answer written) —
+    // harmless no-op otherwise, since persist() only writes when called.
+    if (responses.length > 0) persist(responses, scope);
   }
 
   function setAnswer(questionId: string, value: string | number) {
@@ -184,7 +219,13 @@ export function QuizClient({ locale }: { locale: Locale }) {
         );
       });
       clearDraft();
-      router.push(`/${locale}/results?r=${encodeURIComponent(token)}`);
+      // The optional interest-area viewing preference travels as its own
+      // `scope` query param, deliberately separate from `r` — `r` stays
+      // exactly the serialized quiz result, `scope` is only how the user
+      // currently wants to explore it (see core/matching/interestScope.ts).
+      // Omitted entirely for "all" so the default-flow URL is unchanged.
+      const scopeSuffix = interestScope !== "all" ? `&scope=${interestScope}` : "";
+      router.push(`/${locale}/results?r=${encodeURIComponent(token)}${scopeSuffix}`);
       return;
     }
     setScreenIndex(screenIndex + 1);
@@ -213,6 +254,7 @@ export function QuizClient({ locale }: { locale: Locale }) {
               size="lg"
               onClick={() => {
                 setResponses(pendingDraft.responses);
+                setInterestScope(pendingDraft.interestScope);
                 setScreenIndex(screenIndexForResume(pendingDraft.responses));
                 setStage("question");
               }}
@@ -225,6 +267,7 @@ export function QuizClient({ locale }: { locale: Locale }) {
               onClick={() => {
                 clearDraft();
                 setResponses([]);
+                setInterestScope("all");
                 setScreenIndex(0);
                 setStage("intro");
               }}
@@ -245,6 +288,26 @@ export function QuizClient({ locale }: { locale: Locale }) {
           <Heading level={1}>{t(locale, "quiz.intro.title")}</Heading>
           <Text tone="secondary">{t(locale, "quiz.intro.body")}</Text>
           <Text tone="muted">{t(locale, "quiz.intro.privacy")}</Text>
+          {/* Optional interest-area viewing preference — pre-selected to
+              "all", so a user who ignores this entirely gets today's exact
+              behavior. Set apart in its own sunken card so it reads as a
+              secondary, skippable choice rather than one more required quiz
+              question; Start remains the single primary CTA below. */}
+          <Card variant="sunken">
+            <Stack gap={3}>
+              <Text tone="secondary">
+                <strong>{t(locale, "quiz.intro.interest_prompt")}</strong>
+              </Text>
+              <Text tone="muted">{t(locale, "quiz.intro.interest_helper")}</Text>
+              <ChoiceGroup
+                questionId="quiz-interest-scope"
+                prompt={t(locale, "quiz.intro.interest_prompt")}
+                value={interestScope}
+                onChange={selectInterestScope}
+                options={INTEREST_SCOPE_OPTIONS.map((o) => ({ id: o.id, label: t(locale, o.labelKey) }))}
+              />
+            </Stack>
+          </Card>
           <Stack gap={2}>
             <div>
               <Button size="lg" onClick={() => setStage("question")}>

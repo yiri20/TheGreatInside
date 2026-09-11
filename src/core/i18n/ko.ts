@@ -201,6 +201,14 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
 
   "label.greatness_potential": "Greatness Potential",
   "label.closest_match": "가장 가까운 인물",
+  // Interest-area viewing preference on Results — surfaces the same honest
+  // ranked list, just chooses which entry to show first. See
+  // core/matching/interestScope.ts's own doc comment for the "never an
+  // input into scoring" rule this UI copy must not contradict.
+  "results.interest_heading": "{category}에서 가장 닮은 인물",
+  "results.interest_heading_global": "전체에서 가장 닮은 인물",
+  "results.interest_duplicate_note": "전체 기준으로도 가장 가까운 인물이에요.",
+  "results.interest_switcher_label": "분야별로 보기",
   "label.unexpected_match": "의외의 인물",
   "label.opposite_profile": "반대 프로필",
   "label.signature_trait": "당신을 가장 잘 나타내는 특성",
@@ -470,8 +478,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
 
   "landing.eyebrow": "The Great Inside",
   "landing.title": "역사 속 누구와 생각이 닮았을까요?",
-  "landing.subtitle":
-    "생각하고, 만들고, 일하고, 결정을 내리는 방식에 대한 질문에 답해보세요. 당신의 프로필을 {count}명의 비범한 인물들과 비교해, 실제로 누구와 가장 닮았는지 보여드립니다.",
+  "landing.subtitle": "당신의 사고방식과 행동 패턴을 바탕으로, 역사 속 비범한 인물 중 누구와 가장 닮았는지 찾아보세요.",
   "landing.cta_primary": "나와 닮은 인물 찾기",
   "landing.cta_secondary": "먼저 인물들 둘러보기",
   "landing.ai_disclaimer":
@@ -485,6 +492,12 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "quiz.intro.privacy": "답변은 이 브라우저와 결과 링크 안에만 남습니다. 서버로 전송되거나 계정에 저장되지 않습니다.",
   "quiz.intro.start": "시작하기",
   "quiz.intro.meta": "{count}문항 · 약 10–15분 · 로그인 필요 없음",
+  // Interest-area viewing preference (optional, defaults to "all") — never
+  // an input into scoring/matching, see core/matching/interestScope.ts.
+  "quiz.intro.interest_prompt": "어떤 분야의 인물부터 찾아볼까요?",
+  "quiz.intro.interest_helper":
+    "관심 분야를 선택하면 그 분야에서 가장 닮은 인물을 먼저 보여드려요. 전체 결과도 함께 볼 수 있어요.",
+  "quiz.intro.interest_all": "전체에서 찾기",
 
   "quiz.progress": "{total}문항 중 {current}번째",
   "quiz.progress.range": "{total}문항 중 {from}–{to}번째",

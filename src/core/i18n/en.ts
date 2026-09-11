@@ -179,6 +179,14 @@ export const en = {
   /* -------------------------------------------------------- result labels */
   "label.greatness_potential": "Greatness Potential",
   "label.closest_match": "Your Closest Great Match",
+  // Interest-area viewing preference on Results — surfaces the same honest
+  // ranked list, just chooses which entry to show first. See
+  // core/matching/interestScope.ts's own doc comment for the "never an
+  // input into scoring" rule this UI copy must not contradict.
+  "results.interest_heading": "Your closest match in {category}",
+  "results.interest_heading_global": "Your closest match overall",
+  "results.interest_duplicate_note": "This is also your closest match overall.",
+  "results.interest_switcher_label": "Explore by area",
   "label.unexpected_match": "Your Unexpected Match",
   "label.opposite_profile": "Your Opposite Profile",
   "label.signature_trait": "Your Signature Trait",
@@ -440,8 +448,7 @@ export const en = {
   /* -------------------------------------------------------- Phase 6: quiz UI */
   "landing.eyebrow": "The Great Inside",
   "landing.title": "Who in history thinks like you?",
-  "landing.subtitle":
-    "Answer a set of questions about how you think, create, work, and make decisions. We'll compare your profile against {count} extraordinary people — and show you who you actually resemble.",
+  "landing.subtitle": "Discover which extraordinary people from history think and work most like you.",
   "landing.cta_primary": "Find My Historical Match",
   "landing.cta_secondary": "Explore People First",
   "landing.ai_disclaimer":
@@ -460,6 +467,12 @@ export const en = {
     "Your answers stay in this browser and in the link to your results. Nothing is sent to a server or saved to an account.",
   "quiz.intro.start": "Start",
   "quiz.intro.meta": "{count} questions · about 10–15 min · no sign-in required",
+  // Interest-area viewing preference (optional, defaults to "all") — never
+  // an input into scoring/matching, see core/matching/interestScope.ts.
+  "quiz.intro.interest_prompt": "Which area should we look at first?",
+  "quiz.intro.interest_helper":
+    "Pick an area and we'll show your closest match there first — your overall result is always shown too.",
+  "quiz.intro.interest_all": "All fields",
 
   "quiz.progress": "Question {current} of {total}",
   "quiz.progress.range": "Questions {from}–{to} of {total}",
