@@ -190,12 +190,14 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "indira-gandhi",
     "ulysses-s-grant",
     "suleiman-the-magnificent",
-    // roster30 (2026-09): twenty more, same pattern -- all evidence_approved,
-    // published, directory-visible, honestly failing eligibility_v2 on
-    // confidence/coverage/count, none rescued. Baselines now 205/204;
-    // match-eligible set unchanged at 127. This batch deliberately contains
-    // zero political/state/military/activism-primary figures.
-    "hippocrates",
+    // roster30 (2026-09): nineteen more (twenty promoted, minus Hippocrates,
+    // returned to held on post-PR review -- see
+    // docs/checkpoints/roster30-twenty-person-zero-politics-batch.md), same
+    // pattern -- all evidence_approved, published, directory-visible,
+    // honestly failing eligibility_v2 on confidence/coverage/count, none
+    // rescued. Baselines now 204/203; match-eligible set unchanged at 127.
+    // This batch deliberately contains zero political/state/military/
+    // activism-primary figures.
     "barbara-mcclintock",
     "chien-shiung-wu",
     "frederick-sanger",
@@ -217,17 +219,17 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "paul-erdos",
   ]);
 
-  it("still exactly 205 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(205);
-    expect(PEOPLE_INDEX).toHaveLength(205);
+  it("still exactly 204 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(204);
+    expect(PEOPLE_INDEX).toHaveLength(204);
   });
 
-  it("still exactly 204 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 203 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(204);
+    expect(visible).toHaveLength(203);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the seventy-seven deliberately-divergent roster24/25/26/27/28/29/30 additions", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the seventy-six deliberately-divergent roster24/25/26/27/28/29/30 additions", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

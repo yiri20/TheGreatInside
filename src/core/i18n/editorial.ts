@@ -3829,15 +3829,6 @@ export const EDITORIAL_EN: Record<string, string> = {
   "ibn-al-haytham.interpretation.turning_point.1":
     "Redirecting from a failed practical engineering proposal into a sustained, different research program is the basis for the profile's adaptability score.",
 
-  "hippocrates.achievement.1":
-    "Developed a naturalistic framework for medicine that attributed illness to natural causes -- environment, diet, bodily humors -- rather than religious or magical explanation, a documented departure from the dominant temple-medicine tradition of the era.",
-  "hippocrates.achievement.2":
-    "Founded a medical teaching tradition on the island of Kos that trained and influenced generations of physicians after him, credited with helping establish medicine as a documented, teachable discipline distinct from religious healing.",
-  "hippocrates.moment.1":
-    "In the work On the Sacred Disease, reframed epilepsy as a physical ailment rather than a divine affliction -- a direct, explicit argument against the era's dominant religious framework for illness.",
-  "hippocrates.interpretation.moment.1":
-    "Directly contradicting the dominant explanatory framework of his era, in writing, is the basis for the profile's independent_thinking score.",
-
   "barbara-mcclintock.achievement.1":
     "Proposed the existence of mobile genetic elements (\"jumping genes\") in the 1940s-50s, in direct contradiction to the field's prevailing model of a fixed genome -- an idea that drew substantial skepticism for decades before the field caught up and she received the 1983 Nobel Prize, more than thirty years after her first description of the phenomenon.",
   "barbara-mcclintock.achievement.2":
@@ -3854,7 +3845,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "chien-shiung-wu.achievement.1":
     "Designed and personally executed the 1956 cobalt-60 beta-decay experiment, conducted at near-absolute-zero temperatures, that disproved the assumed conservation of parity -- a foundational symmetry of physics -- directly leading to Lee and Yang's 1957 Nobel Prize based on her experimental confirmation of their theory.",
   "chien-shiung-wu.achievement.2":
-    "During the Manhattan Project, developed improved Geiger counter methods and identified the specific cause of xenon poisoning that had shut down the Hanford B Reactor's plutonium production -- a concrete technical diagnosis credited with getting production running again.",
+    "During the Manhattan Project, developed improved Geiger counter methods and helped identify xenon-135 poisoning as the cause of the Hanford B Reactor's plutonium-production shutdown -- a concrete technical contribution to a broader team diagnosis.",
   "chien-shiung-wu.moment.1":
     "At a 1964 MIT symposium on \"American Women in Science,\" publicly challenged the exclusion of women from science, asking aloud whether \"the tiny atoms and nuclei, the mesons and hyperons ... have any preference for either masculine or feminine treatment.\"",
   "chien-shiung-wu.interpretation.moment.1":
@@ -3885,7 +3876,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "jean-francois-champollion.achievement.1":
     "Deciphered Egyptian hieroglyphs, presenting the breakthrough to the Academie des Inscriptions et Belles-Lettres on 27 September 1822: hieroglyphs combined alphabetic, syllabic, and determinative signs, rather than being purely symbolic as the field had assumed -- founding the discipline of scientific Egyptology.",
   "jean-francois-champollion.achievement.2":
-    "Mastered six ancient and Oriental languages -- Latin, Greek, Hebrew, Chaldean, Arabic, and Syriac -- by age twelve, well beyond any institutional requirement of the time.",
+    "From childhood into his teens, pursued an unusually intensive, self-directed study of classical and Oriental languages -- Latin, Greek, Hebrew, Chaldean, Arabic, and Syriac, later joined by Coptic and Chinese -- well beyond any institutional requirement of the time.",
   "jean-francois-champollion.moment.1":
     "Delivered his decisive 27 September 1822 presentation with his chief scholarly rival, the English polymath Thomas Young, present in the audience.",
   "jean-francois-champollion.interpretation.moment.1":
@@ -3910,20 +3901,20 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Taking a skeptical public stance against religious orthodoxy, even allowing for attribution uncertainty in the poems themselves, is part of the basis for the profile's independent_thinking score.",
 
   "mary-anning.achievement.1":
-    "Found and correctly identified a sequence of major fossil specimens across her career -- the first correctly-identified ichthyosaur skeleton (1811), the first plesiosaur skeleton (1821), and the first pterosaur skeleton found outside Germany (1828) -- along the dangerous, landslide-prone cliffs at Lyme Regis.",
+    "Found and correctly identified a sequence of major fossil specimens across her career -- the first correctly-identified ichthyosaur skeleton (1811-1812), the first complete plesiosaur skeleton (1823), and the first pterosaur skeleton found outside Germany (1828) -- along the dangerous, landslide-prone cliffs at Lyme Regis.",
   "mary-anning.achievement.2":
     "Developed self-taught fossil identification, preparation, and cataloguing skills, entirely outside any formal scientific institution, sufficient that professional geologists of her era regularly consulted her directly.",
   "mary-anning.moment.1":
-    "Took over as her family's primary fossil-collecting practitioner at around eleven or twelve years old, immediately after her father's death in 1811 left the family without its main income.",
+    "In the years after her father's death in 1810 left the family without its main income, took on a growing role in the family's fossil-collecting trade -- including, at around twelve, personally excavating the rest of the ichthyosaur skeleton whose skull her brother Joseph had found the year before.",
   "mary-anning.interpretation.moment.1":
-    "Taking on this responsibility herself, at that age and under that pressure, without any formal transition or institutional support, is the basis for the profile's proactive_agency score.",
+    "Taking on a growing share of this responsibility, at that age and under that pressure, without any formal transition or institutional support, is part of the basis for the profile's proactive_agency score.",
   "mary-anning.moment.2":
     "Male scientists of her era repeatedly purchased, published, and received scientific credit for fossils she had found, cleaned, and correctly identified, without acknowledging her role -- and she continued the work regardless, across decades.",
   "mary-anning.interpretation.moment.2":
     "Continuing this work for decades despite a sustained, documented pattern of being denied credit is the basis for the profile's conflict_tolerance score.",
 
   "al-khwarizmi.achievement.1":
-    "Founded algebra as a systematic discipline distinct from arithmetic and geometry in his treatise Al-Jabr, classifying and solving general categories of equations rather than isolated problems -- the word \"algebra\" derives directly from the treatise's own title.",
+    "Was the first to treat algebra as a systematic discipline distinct from arithmetic and geometry, in his treatise Al-Jabr, classifying and solving general categories of equations rather than isolated problems -- the word \"algebra\" derives directly from the treatise's own title.",
   "al-khwarizmi.achievement.2":
     "Wrote a dedicated treatise advocating the practical superiority of the positional Hindu-Arabic numeral system before it was established practice in the Islamic world, a text later central to the system's spread to Europe.",
   "al-khwarizmi.moment.1":
@@ -3997,12 +3988,12 @@ export const EDITORIAL_EN: Record<string, string> = {
   "andrew-carnegie.interpretation.moment.1":
     "Publicly committing to this unusual position years ahead of acting on it at scale is the basis for the profile's independent_thinking score.",
   "andrew-carnegie.moment.2":
-    "In 1892, personally authorized his operations manager, Henry Clay Frick, to break the steelworkers' union at the Homestead plant ahead of the workers' contract expiration -- a decision that led directly to a lockout of 3,800 workers and a violent confrontation in which twelve people were killed, followed by a multi-year reduction in wages and an increase in working hours for the remaining workforce.",
+    "In 1892, personally authorized his operations manager, Henry Clay Frick, to break the steelworkers' union at the Homestead plant ahead of the workers' contract expiration -- backing a strategy that led directly to a lockout of 3,800 workers and a deadly armed confrontation, followed by a multi-year reduction in wages and an increase in working hours for the remaining workforce.",
   "andrew-carnegie.interpretation.moment.2":
     "This is a real, harmful, documented consequence of a deliberate business decision he personally authorized -- part of the honest basis for the profile's conflict_tolerance score, not a positive framing of the episode.",
 
   "madam-cj-walker.achievement.1":
-    "Grew from working as a washerwoman earning $1.50 a day to building a national manufacturing and sales operation employing roughly 40,000 people across the United States, Central America, and the Caribbean.",
+    "Grew from working as a washerwoman earning $1.50 a day to building a national manufacturing and sales operation whose network included more than 20,000 agents across the United States, Central America, and the Caribbean by 1916.",
   "madam-cj-walker.achievement.2":
     "Built her entire distribution model around door-to-door sales through African American community networks and advertising in Black-owned newspapers -- a channel mainstream retail of the era entirely ignored.",
   "madam-cj-walker.moment.1":
@@ -7726,15 +7717,6 @@ export const EDITORIAL_KO: Record<string, string> = {
   "ibn-al-haytham.interpretation.turning_point.1":
     "실패한 실용적 공학 제안에서 벗어나 지속적이고 다른 연구 프로그램으로 방향을 전환한 것은 프로필의 적응력(adaptability) 점수의 근거다.",
 
-  "hippocrates.achievement.1":
-    "질병을 환경, 식단, 체액 같은 자연적 원인에서 비롯된 것으로 설명하는 자연주의적 의학 체계를 발전시켰으며, 이는 당대를 지배하던 신전 의학 전통에서 벗어난 것으로 기록되어 있다.",
-  "hippocrates.achievement.2":
-    "코스 섬에 의학 교육 전통을 세워 이후 여러 세대의 의사들을 양성하고 영향을 미쳤으며, 의학을 종교적 치유와 구별되는 기록 가능하고 전수 가능한 학문으로 확립하는 데 기여한 것으로 평가받는다.",
-  "hippocrates.moment.1":
-    "『신성한 질병에 관하여』에서 간질을 신의 형벌이 아닌 신체적 질환으로 재규정했다 -- 이는 당대를 지배하던 종교적 질병관에 정면으로 맞선, 문헌으로 남은 명시적 주장이다.",
-  "hippocrates.interpretation.moment.1":
-    "당대의 지배적인 설명 체계에 문헌을 통해 직접 맞선 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
-
   "barbara-mcclintock.achievement.1":
     "1940~50년대에 유전체가 고정되어 있다는 당대의 지배적 모델에 정면으로 배치되는 이동성 유전 인자('점핑 유전자')의 존재를 제안했다 -- 이 발상은 수십 년간 상당한 회의적 반응을 받았으나, 마침내 학계가 따라잡으면서 그녀는 최초 발표로부터 30여 년이 지난 1983년에 노벨상을 수상했다.",
   "barbara-mcclintock.achievement.2":
@@ -7751,7 +7733,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "chien-shiung-wu.achievement.1":
     "1956년 절대영도에 가까운 온도에서 코발트-60 베타 붕괴 실험을 직접 설계하고 수행해, 물리학의 근본적인 대칭성이었던 홀짝성 보존 가정을 반증했다 -- 그녀의 실험적 확인은 리정다오와 양전닝의 이론을 뒷받침해 이들이 1957년 노벨상을 받는 데 직접적으로 기여했다.",
   "chien-shiung-wu.achievement.2":
-    "맨해튼 프로젝트에서 개량된 가이거 계수기 기법을 개발했으며, 핸퍼드 B원자로의 플루토늄 생산을 중단시켰던 제논 중독 현상의 구체적 원인을 규명했다 -- 이는 생산 재개에 기여한 것으로 평가받는 명확한 기술적 진단이었다.",
+    "맨해튼 프로젝트에서 개량된 가이거 계수기 기법을 개발했으며, 핸퍼드 B원자로의 플루토늄 생산을 중단시켰던 제논-135 중독 현상의 원인을 규명하는 데 힘을 보탰다 -- 이는 팀 차원의 진단에 기여한 구체적인 기술적 성과였다.",
   "chien-shiung-wu.moment.1":
     "1964년 '미국 여성 과학자'를 주제로 한 MIT 심포지엄에서, \"작은 원자와 원자핵, 중간자와 초중입자가 ... 남성적 또는 여성적 취급에 대해 어떤 선호를 갖고 있는지 궁금하다\"고 발언하며 과학계에서 여성이 배제되는 현실에 공개적으로 문제를 제기했다.",
   "chien-shiung-wu.interpretation.moment.1":
@@ -7782,7 +7764,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "jean-francois-champollion.achievement.1":
     "이집트 상형문자를 해독하여 1822년 9월 27일 비문·순수문학 아카데미에서 그 성과를 발표했다: 상형문자는 당대 학계가 가정했던 것처럼 순수하게 상징적인 기호가 아니라 표음·음절·한정사 기호가 결합된 체계임을 밝혔으며, 이로써 과학적 이집트학이라는 학문 분야를 창시했다.",
   "jean-francois-champollion.achievement.2":
-    "라틴어, 그리스어, 히브리어, 칼데아어, 아랍어, 시리아어 등 여섯 개의 고대·동방 언어를 열두 살에 이미 익혔으며, 이는 당시 어떤 제도적 요구 수준도 훌쩍 뛰어넘는 것이었다.",
+    "유년기부터 십 대에 이르기까지 라틴어, 그리스어, 히브리어, 칼데아어, 아랍어, 시리아어에 이어 콥트어와 중국어까지, 고대·동방 언어들을 독학으로 강도 높게 파고들었으며, 이는 당시 어떤 제도적 요구 수준도 훌쩍 뛰어넘는 것이었다.",
   "jean-francois-champollion.moment.1":
     "1822년 9월 27일의 결정적인 발표를, 자신의 가장 강력한 학문적 경쟁자였던 영국의 박식가 토머스 영이 청중석에 앉아 있는 자리에서 진행했다.",
   "jean-francois-champollion.interpretation.moment.1":
@@ -7807,20 +7789,20 @@ export const EDITORIAL_KO: Record<string, string> = {
     "시 자체의 저작 귀속에 불확실성이 있음을 감안하더라도, 종교적 정통에 맞서 회의적인 공적 입장을 취한 것은 프로필의 독립적 사고(independent_thinking) 점수를 뒷받침하는 근거 중 하나다.",
 
   "mary-anning.achievement.1":
-    "라임 레지스의 위험한 산사태 지대인 해안 절벽을 따라 경력 내내 활동하며, 최초로 정확히 동정된 어룡 골격(1811년), 최초의 수장룡 골격(1821년), 독일 밖에서 발견된 최초의 익룡 골격(1828년)을 잇달아 찾아내고 정확히 식별했다.",
+    "라임 레지스의 위험한 산사태 지대인 해안 절벽을 따라 경력 내내 활동하며, 최초로 정확히 동정된 어룡 골격(1811~1812년), 최초의 완전한 수장룡 골격(1823년), 독일 밖에서 발견된 최초의 익룡 골격(1828년)을 잇달아 찾아내고 정확히 식별했다.",
   "mary-anning.achievement.2":
     "어떠한 정규 과학 교육 기관도 거치지 않은 채 독학으로 화석 식별, 처리, 목록화 기술을 익혔으며, 그 수준은 당대의 전문 지질학자들이 정기적으로 그녀에게 직접 자문을 구할 정도였다.",
   "mary-anning.moment.1":
-    "1811년 아버지의 죽음으로 집안의 주된 수입원이 사라지자, 열한 살 또는 열두 살의 나이로 곧장 집안의 주된 화석 채집자 역할을 떠맡았다.",
+    "1810년 아버지의 죽음으로 집안의 주된 수입원이 사라진 이후, 화석 채집이라는 집안 가업에서 그녀의 역할은 점차 커졌다 -- 오빠 조지프가 두개골을 발견한 이듬해, 열두 살 무렵의 나이로 어룡 골격의 나머지 부분을 직접 발굴해낸 것이 그 예다.",
   "mary-anning.interpretation.moment.1":
-    "그 나이에, 그러한 압박 속에서, 어떤 공식적인 전환 절차나 제도적 지원도 없이 스스로 그 책임을 떠맡은 것은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
+    "그 나이에, 그러한 압박 속에서, 어떤 공식적인 전환 절차나 제도적 지원도 없이 점차 책임을 넓혀간 것은 프로필의 주도적 행위성(proactive_agency) 점수를 뒷받침하는 근거 중 하나다.",
   "mary-anning.moment.2":
     "그녀가 발견하고 손질하고 정확히 동정한 화석에 대해, 당대의 남성 과학자들이 반복적으로 값을 치러 사들이고 발표해 학술적 공로를 인정받으면서도 그녀의 역할은 인정하지 않았다 -- 그럼에도 그녀는 수십 년에 걸쳐 이 일을 계속했다.",
   "mary-anning.interpretation.moment.2":
     "공로를 인정받지 못하는 상황이 문헌으로 확인될 만큼 오랫동안 지속되었음에도 수십 년간 이 일을 계속한 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거다.",
 
   "al-khwarizmi.achievement.1":
-    "저서 『알자브르』에서 산술 및 기하학과 구별되는 체계적 학문으로서 대수학을 창시했으며, 개별 문제가 아니라 방정식의 일반적 유형들을 분류하고 풀이했다 -- '대수학(algebra)'이라는 단어 자체가 이 저작의 제목에서 직접 유래했다.",
+    "저서 『알자브르』에서 산술 및 기하학과 구별되는 체계적 학문으로서 대수학을 최초로 정립했으며, 개별 문제가 아니라 방정식의 일반적 유형들을 분류하고 풀이했다 -- '대수학(algebra)'이라는 단어 자체가 이 저작의 제목에서 직접 유래했다.",
   "al-khwarizmi.achievement.2":
     "위치 기수법에 기반한 힌두-아라비아 숫자 체계가 이슬람 세계에서 정착되기도 전에 그 실용적 우수성을 옹호하는 전용 논고를 저술했으며, 이 문헌은 훗날 이 숫자 체계가 유럽으로 전파되는 데 중심적인 역할을 했다.",
   "al-khwarizmi.moment.1":
@@ -7894,12 +7876,12 @@ export const EDITORIAL_KO: Record<string, string> = {
   "andrew-carnegie.interpretation.moment.1":
     "실제로 대규모로 실천에 옮기기 여러 해 전에 이러한 이례적인 입장을 공개적으로 밝힌 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
   "andrew-carnegie.moment.2":
-    "1892년, 노동자들의 계약 만료를 앞두고 자신의 사업 관리자 헨리 클레이 프릭에게 홈스테드 제철소의 노동조합을 와해시키도록 직접 승인했다 -- 이 결정은 3,800명의 노동자를 대상으로 한 직장 폐쇄와 12명이 사망한 유혈 충돌로 곧장 이어졌고, 이후 남은 노동자들의 임금 삭감과 노동시간 연장이 수년간 뒤따랐다.",
+    "1892년, 노동자들의 계약 만료를 앞두고 자신의 사업 관리자 헨리 클레이 프릭에게 홈스테드 제철소의 노동조합을 와해시키는 전략을 직접 승인했다 -- 이는 3,800명의 노동자를 대상으로 한 직장 폐쇄와 유혈 무력 충돌로 곧장 이어졌고, 이후 남은 노동자들의 임금 삭감과 노동시간 연장이 수년간 뒤따랐다.",
   "andrew-carnegie.interpretation.moment.2":
     "이는 그가 직접 승인한 의도적인 경영 판단이 낳은 실질적이고 해로운, 문헌으로 확인되는 결과다 -- 이 사건을 긍정적으로 포장하는 것이 아니라, 프로필의 갈등 인내력(conflict_tolerance) 점수를 정직하게 뒷받침하는 근거의 일부다.",
 
   "madam-cj-walker.achievement.1":
-    "하루 1.50달러를 버는 세탁부로 시작해, 미국과 중앙아메리카, 카리브해 지역에 걸쳐 약 4만 명을 고용하는 전국 규모의 제조·판매 사업체를 일구었다.",
+    "하루 1.50달러를 버는 세탁부로 시작해, 1916년 기준 미국과 중앙아메리카, 카리브해 지역에 걸쳐 2만 명이 넘는 판매 대리인 네트워크를 갖춘 전국 규모의 제조·판매 사업체를 일구었다.",
   "madam-cj-walker.achievement.2":
     "당대 주류 소매업계가 전혀 눈여겨보지 않던 통로인 아프리카계 미국인 지역사회 네트워크를 통한 방문 판매와 흑인 소유 신문 광고를 중심으로 유통 모델 전체를 구축했다.",
   "madam-cj-walker.moment.1":

@@ -58,11 +58,11 @@
   ],
   "rows": {
     "mastery_orientation": {
-      "score": 95,
-      "confidence": 0.72,
-      "evidenceType": "documented",
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Documented as having mastered six ancient and Oriental languages (Latin, Greek, Hebrew, Chaldean, Arabic, Syriac) by age 12, an extensively corroborated, specific documented achievement, not a general reputational claim."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR audit, 2026-09: the original rationale claimed six languages 'mastered... by age 12' as a single precisely-dated documented fact; re-opening the cited Wikipedia article found the languages were acquired progressively from around age 11 into his mid-teens (Latin and Greek first, then Hebrew and other Semitic languages including Arabic, Syriac, and Chaldean during the same school years, with Coptic and Chinese added around 1805-1806), not a single 'mastered by 12' milestone -- the article explicitly describes an ongoing 'progression', not a completed fact at that age. Score and confidence narrowed accordingly: the age-12 precision that justified the original near-maximal 'documented' score is not itself supported, though the underlying pattern of exceptional early language study is well documented.] From childhood into his teens, Champollion pursued an unusually intensive, self-directed study of classical and Oriental languages -- including Latin, Greek, Hebrew, Arabic, Syriac, Chaldean, and later Coptic and Chinese -- a documented pattern of sustained language acquisition well beyond any institutional requirement of the time."
     },
     "analytical_rigor": {
       "score": 94,
@@ -93,11 +93,11 @@
       "rationale": "His decisive September 27, 1822 presentation to the Academie des Inscriptions et Belles-Lettres was made with his chief rival, English polymath Thomas Young, present in the audience -- a specific, precisely documented instance of a direct, public, high-stakes scholarly competition, not a general reputational claim."
     },
     "curiosity": {
-      "score": 90,
-      "confidence": 0.5,
+      "score": 80,
+      "confidence": 0.46,
       "evidenceType": "strong_inference",
       "impact": "advantage",
-      "rationale": "Independently mastering six languages by age 12 well beyond any institutional requirement implies exceptional underlying intellectual curiosity, inferred from the documented pattern of self-directed language acquisition."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR audit, 2026-09: corrected the 'six languages by age 12' framing -- see mastery_orientation's own rationale for the source detail.] Independently pursuing this breadth of language study across his childhood and teens, well beyond any institutional requirement of the time, implies exceptional underlying intellectual curiosity, inferred from the documented pattern of self-directed language acquisition."
     },
     "independent_thinking": {
       "score": 82,
@@ -202,7 +202,7 @@
     "createdAt": "2026-08-15T00:00:00Z",
     "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- son of a bookseller, no inherited position; achievement rests entirely on his own individual scholarly breakthrough. Diversity value: the roster's first linguistics/historical-decipherment specialist since Sequoyah, a genuinely distinct evidence profile (analytical/scholarly rather than Sequoyah's self-taught-inventor shape). Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- son of a bookseller, no inherited position; achievement rests entirely on his own individual scholarly breakthrough. Diversity value: the roster's first linguistics/historical-decipherment specialist since Sequoyah, a genuinely distinct evidence profile (analytical/scholarly rather than Sequoyah's self-taught-inventor shape). Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record. Roster30 promotion note (2026-09): the 'held' language above describes this candidate's HISTORICAL status prior to Roster30; current status is evidence_approved -- promoted to production, published, directory-visible, and non-match-eligible under eligibility_v2's numeric floors (not for evidence-integrity reasons), same as the rest of the Roster30 batch. Roster30 post-PR audit (2026-09): re-opening the already-cited Wikipedia source found the 'six languages mastered by age 12' claim used as the explicit basis for mastery_orientation (95) and curiosity (90) is not supported -- the languages were acquired progressively into his mid-teens, not by a single age-12 milestone. Both scores mechanically re-audited and conservatively lowered (mastery_orientation 95->82, curiosity 90->80); see each row's own [ERROR_CORRECTION] tag. No new sources were used; no new behavioral evidence was added."
   },
   "portrait": {
     "status": "found",

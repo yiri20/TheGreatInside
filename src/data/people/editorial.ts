@@ -6904,23 +6904,6 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
   },
 
-  "hippocrates": {
-    achievements: [
-      { id: "hippocrates-achievement-1", textKey: "hippocrates.achievement.1", sourceIds: ["src_hippocratic_corpus"] },
-      { id: "hippocrates-achievement-2", textKey: "hippocrates.achievement.2", sourceIds: ["src_hippocrates_wikipedia"] },
-    ],
-    moments: [
-      {
-        id: "hippocrates-moment-1",
-        textKey: "hippocrates.moment.1",
-        interpretationKey: "hippocrates.interpretation.moment.1",
-        attributeId: "independent_thinking",
-        sourceIds: ["src_hippocratic_corpus"],
-      },
-    ],
-    turningPoints: [],
-  },
-
   "barbara-mcclintock": {
     achievements: [
       { id: "barbara-mcclintock-achievement-1", textKey: "barbara-mcclintock.achievement.1", sourceIds: ["src_mcclintock_keller"] },

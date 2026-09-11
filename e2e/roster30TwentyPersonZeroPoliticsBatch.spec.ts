@@ -3,11 +3,16 @@ import { captureConsole } from "./utils/visualChecks";
 
 /**
  * Roster30 twenty-person zero-politics fast production batch (2026-09):
- * shared coverage for all twenty promoted candidates, table-driven rather
- * than twenty near-identical spec files. See
+ * shared coverage for all promoted candidates, table-driven rather than
+ * near-identical spec files. See
  * docs/checkpoints/roster30-twenty-person-zero-politics-batch.md.
  *
- * All twenty are evidence_approved/non-match-eligible (published,
+ * Nineteen candidates below (of the twenty originally promoted): Hippocrates
+ * was returned to `held` on post-PR evidence-attribution review (see the
+ * checkpoint doc) and is deliberately absent from both this list and
+ * production -- a dedicated negative-presence check below confirms this.
+ *
+ * All nineteen are evidence_approved/non-match-eligible (published,
  * directory-visible, honestly under eligibility_v2's confidence/coverage
  * floors). This batch deliberately contains ZERO people whose primary
  * historical significance is political leadership, state rule, military
@@ -19,14 +24,6 @@ import { captureConsole } from "./utils/visualChecks";
  */
 
 const CANDIDATES = [
-  {
-    slug: "hippocrates",
-    portraitUrl: "/portraits/hippocrates-cipb0341.jpg",
-    attributionSnippet: "Santé",
-    achievementSnippetEn: "Kos",
-    koName: "히포크라테스",
-    koAchievementSnippet: "코스",
-  },
   {
     slug: "barbara-mcclintock",
     portraitUrl: "/portraits/barbara-mcclintock-gotfryd-1981.jpg",
@@ -288,13 +285,13 @@ for (const c of CANDIDATES) {
   });
 }
 
-test("roster30: people directory default (unfiltered) view shows exactly 204 people, all twenty new candidates present exactly once (en-US)", async ({
+test("roster30: people directory default (unfiltered) view shows exactly 203 people, all nineteen shipped candidates present exactly once (en-US)", async ({
   page,
 }) => {
   const console_ = captureConsole(page);
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
 
-  await expect(page.getByText(/^204 people$/)).toBeVisible();
+  await expect(page.getByText(/^203 people$/)).toBeVisible();
 
   for (const c of CANDIDATES) {
     const cards = page.locator(`a.tgi-personcard__link[href="/en-US/people/${c.slug}"]`);
@@ -303,6 +300,17 @@ test("roster30: people directory default (unfiltered) view shows exactly 204 peo
 
   expect(console_.errors).toEqual([]);
   expect(console_.pageErrors).toEqual([]);
+});
+
+test("roster30: Hippocrates was returned to held on post-PR review and is NOT exposed as a shipped profile", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const card = page.locator(`a.tgi-personcard__link[href="/en-US/people/hippocrates"]`);
+  await expect(card).toHaveCount(0);
+
+  const response = await page.goto("/en-US/people/hippocrates", { waitUntil: "networkidle" });
+  expect(response?.status()).not.toBe(200);
 });
 
 test("roster30: a genuinely nonexistent slug still shows the honest not-found message, distinct from non-match-eligible copy", async ({

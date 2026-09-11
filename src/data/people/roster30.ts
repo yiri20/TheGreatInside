@@ -1,7 +1,7 @@
 /**
  * ROSTER 30 — twenty-person zero-politics fast production batch, seventh
  * real use of the profile-publication / match-eligibility separation
- * architecture (20 people).
+ * architecture (19 people).
  *
  * Generated from `data-pipeline/candidates/*.json` via
  * `src/dev/roster1000/generateRoster30.ts`, which calls
@@ -46,9 +46,9 @@ const seeds: PersonSeed[] = [
     directoryVisible: true,
     sources: [{ id: "src_alkhwarizmi_wikipedia", kind: "wikipedia", title: "Al-Khwarizmi", url: "https://en.wikipedia.org/wiki/Al-Khwarizmi" }, { id: "src_alkhwarizmi_mactutor", kind: "institution", title: "MacTutor History of Mathematics — Al-Khwarizmi" }, { id: "src_alkhwarizmi_kitab", kind: "archive", title: "Al-Khwarizmi, The Compendious Book on Calculation by Completion and Balancing (Al-Jabr, c. 820 CE)" }],
     rows: {
-      // Al-Jabr systematically classified and solved general categories of equations rather than isolated problems — the founding of algebra as a general method, documented via the surviving text's own structural approach and its lasting influence (the word 'algebra' derives directly from its title).
+      // Al-Jabr systematically classified and solved general categories of equations rather than isolated problems — the first systematic treatment of algebra as a general method, documented via the surviving text's own structural approach and its lasting influence (the word 'algebra' derives directly from its title).
       systems_abstraction: [88, 0.68, "d", "A"],
-      // Founded algebra as a systematic discipline distinct from arithmetic and geometry, a genuinely original methodological framework, documented via the work's own novel approach and Western Europe's later direct adoption of it (his Latinized name 'Algorithmi' gives us the word 'algorithm').
+      // Was the first to treat algebra as a systematic discipline distinct from arithmetic and geometry -- per the historical record, 'the first person to treat algebra as an independent discipline' -- a genuinely original methodological framework, documented via the work's own novel approach and Western Europe's later direct adoption of it (his Latinized name 'Algorithmi' gives us the word 'algorithm').
       creative_originality: [85, 0.65, "d", "A"],
       // Al-Jabr's systematic proof-by-geometric-construction method for solving quadratic equations is documented directly in the surviving text.
       analytical_rigor: [80, 0.65, "d", "A"],
@@ -78,7 +78,7 @@ const seeds: PersonSeed[] = [
       persistence: [58, 0.42, "i", "N"],
       // Presented algebra as a general, self-contained method for solving equation categories rather than embedding it within the existing Greek geometric tradition alone, documented via Al-Jabr's own distinct methodological approach.
       independent_thinking: [62, 0.44, "s", "A"],
-      // Founding an entirely new mathematical discipline that displaced centuries of purely geometric problem-solving, with lasting global adoption (the terms 'algebra' and 'algorithm' both derive directly from his work), documented via that sustained historical influence.
+      // Being first to treat algebra as an entirely new, systematic mathematical discipline distinct from centuries of purely geometric problem-solving, with lasting global adoption (the terms 'algebra' and 'algorithm' both derive directly from his work), documented via that sustained historical influence.
       achievement_drive: [68, 0.65, "d", "A"],
       // Sustained productive investigation across algebra, astronomy, and geography over his career at the House of Wisdom, evidencing real intellectual range.
       curiosity: [65, 0.5, "s", "A"],
@@ -119,7 +119,7 @@ const seeds: PersonSeed[] = [
       impact_motivation: [82, 0.62, "d", "A"],
       // Published "Gospel of Wealth" (1889), articulating the unusual, explicit position that the wealthy are merely "trustees" of their fortune with a moral obligation to give it away during their own lifetime rather than to heirs -- a genuinely counter-cultural stance for a man of his era and class, published years before most of his own giving occurred.
       independent_thinking: [78, 0.6, "d", "A"],
-      // Personally authorized his operations manager, Henry Clay Frick, to break the steelworkers' union at the Homestead plant ahead of the workers' contract expiration in 1892, a decision that led directly to a lockout of 3,800 workers and a violent confrontation in which 12 people were killed, followed by a documented multi-year reduction in wages and increase in working hours for the remaining workforce -- scored as a real, high-stakes, harmful documented consequence of a deliberate business decision, not framed as a positive trait.
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: the exact casualty count ('12 people were killed') is stated with more precision than reputable sources agree on -- e.g. Wikipedia's own account of the July 6 confrontation states 10 killed (seven strikers, three Pinkerton agents). The unnecessary precision is removed rather than asserting a specific figure sources don't agree on; the negative, dual-edged context is preserved, not sanitized.] Personally authorized his operations manager, Henry Clay Frick, to break the steelworkers' union at the Homestead plant ahead of the workers' contract expiration in 1892 -- backing a strategy that led to a lockout of 3,800 workers and a deadly armed confrontation, followed by a documented multi-year reduction in wages and increase in working hours for the remaining workforce -- scored as a real, high-stakes, harmful documented consequence of a deliberate business decision, not framed as a positive trait.
       conflict_tolerance: [72, 0.55, "d", "R"],
       // Two independent documented instances: taught himself telegraph operation on his own initiative, which directly led to his first major promotion, and sustained his entire education through a philanthropically-provided library for working boys rather than formal schooling.
       resourcefulness: [70, 0.55, "d", "A"],
@@ -341,7 +341,7 @@ const seeds: PersonSeed[] = [
       analytical_rigor: [94, 0.68, "d", "A"],
       // Recognized specifically for her expertise in beta-decay experimentation -- the reason Lee and Yang sought her out by name in 1956 to test their theory -- a documented, specific instance of recognized technical mastery in a defined subfield, not a general reputation.
       mastery_orientation: [90, 0.6, "d", "A"],
-      // Documented contributions during the Manhattan Project (developing improved Geiger counter methods, identifying the specific cause of xenon poisoning that had shut down the Hanford B Reactor's plutonium production) show a sustained pattern of solving concrete experimental/technical problems, inferred from the documented range of her wartime contributions.
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: 'identifying the specific cause' overstated a team effort; the already-cited Atomic Heritage Foundation account says Wu 'helped identify' the poisoning, not that she alone identified it. Corrected below.] Documented contributions during the Manhattan Project (developing improved Geiger counter methods, helping identify xenon-135 poisoning as the cause of the Hanford B Reactor's plutonium-production shutdown) show a sustained pattern of solving concrete experimental/technical problems, inferred from the documented range of her wartime contributions.
       experimentation: [88, 0.55, "s", "A"],
       // Designing an experiment sensitive enough to detect a subtle asymmetry at near-absolute-zero temperatures required exceptional experimental precision, inferred from the technical demands of the documented parity experiment.
       detail_orientation: [86, 0.5, "s", "A"],
@@ -353,8 +353,6 @@ const seeds: PersonSeed[] = [
       achievement_drive: [84, 0.44, "i", "A"],
       // The parity experiment's technical demands (maintaining near-absolute-zero conditions for precise measurement) imply real sustained experimental discipline, inferred from the documented difficulty of the method.
       discipline: [80, 0.42, "i", "N"],
-      // Independently identifying xenon poisoning as the specific cause of the Hanford B Reactor's plutonium-production shutdown, when the cause was not initially apparent to the broader Manhattan Project team, suggests independent analytical judgment beyond her assigned role, inferred from the documented account of this contribution.
-      independent_thinking: [74, 0.55, "s", "N"],
       // Agreeing to design and personally execute an experiment intended to test -- and potentially overturn -- a long-assumed fundamental symmetry of physics carried real professional risk if the experiment had failed or been ambiguous, inferred from the documented stakes and technical difficulty of the 1956 parity experiment.
       risk_tolerance: [60, 0.55, "s", "N"],
       // Willingness to take on a technically novel experimental challenge outside her established beta-decay work suggests real underlying scientific curiosity, inferred from the documented circumstances of being asked to design the parity experiment.
@@ -492,79 +490,6 @@ const seeds: PersonSeed[] = [
     },
   },
   {
-    id: "p_hippocrates",
-    slug: "hippocrates",
-    canonicalName: "Hippocrates",
-    birthYear: -460,
-    deathYear: -370,
-    isLiving: false,
-    era: "ancient",
-    nationalityCodes: ["GR"],
-    regionCode: "southern_europe",
-    occupationIds: ["physician"],
-    fieldIds: ["medicine"],
-    impactDomains: ["historical", "medical", "educational"],
-    tagIds: ["founder", "systematic_thinker"],
-    archetypeIds: ["scholarly_specialist"],
-    externalIdentity: { wikidataId: "Q5264" },
-    portrait: {
-      url: "/portraits/hippocrates-cipb0341.jpg",
-      source: "Bibliothèque interuniversitaire de Santé (Wikimedia Commons)",
-      license: "Licence Ouverte 1.0",
-      width: 1200,
-      height: 1703,
-      attribution: "Bibliothèque interuniversitaire de Santé",
-      kind: "historical_depiction",
-      
-    },
-    directoryVisible: true,
-    sources: [{ id: "src_hippocrates_wikipedia", kind: "wikipedia", title: "Hippocrates", url: "https://en.wikipedia.org/wiki/Hippocrates" }, { id: "src_hippocratic_corpus", kind: "archive", title: "The Hippocratic Corpus (Epidemics, Airs Waters Places, the Hippocratic Oath)" }],
-    rows: {
-      // The Hippocratic Corpus develops a systematic framework separating medicine from religious/magical explanation, attributing illness to natural causes (environment, diet, bodily humors) — documented via the corpus's own consistent naturalistic framing, though individual authorship within the corpus is scholarly-debated.
-      systems_abstraction: [78, 0.55, "s", "A"],
-      // The Epidemics texts document detailed, dated case-by-case patient observation logs tracking symptom progression over time, a specific, corroborated methodological practice visible in the surviving corpus.
-      detail_orientation: [76, 0.65, "d", "A"],
-      // Airs, Waters, and Places systematically investigates how climate and environment affect health across different regions, evidencing sustained empirical inquiry beyond a single narrow question.
-      curiosity: [70, 0.5, "s", "A"],
-      // The corpus's naturalistic explanation of disease (e.g. reframing epilepsy as a physical rather than divine affliction in On the Sacred Disease) directly departed from the era's dominant religious framework, documented via that text's own explicit argument.
-      independent_thinking: [72, 0.52, "s", "A"],
-      // The sustained, methodical case-observation record in the Epidemics texts evidences real disciplined practice, though individual authorship attribution across the corpus is uncertain.
-      discipline: [66, 0.46, "s", "A"],
-      // The Hippocratic Oath's explicit ethical framework (do no harm, patient welfare over other considerations) documents a stated orientation toward patient wellbeing as the organizing purpose of medical practice.
-      impact_motivation: [68, 0.5, "s", "A"],
-      // The systematic case-tracking method implies real advance methodological planning, though this is inferred from the corpus's structure rather than a direct statement of intent.
-      planning_orientation: [60, 0.42, "i", "N"],
-      // The naturalistic reframing of disease causation was a genuinely original departure from prevailing supernatural explanations, documented via the corpus's own argumentative structure.
-      creative_originality: [68, 0.48, "s", "A"],
-      // The breadth and internal consistency of the surviving corpus across multiple medical subdomains suggests sustained development of medical craft over time.
-      mastery_orientation: [62, 0.42, "i", "N"],
-      // Founded a documented medical school on Kos that trained successive physicians, suggesting real sustained ambition beyond individual practice.
-      achievement_drive: [55, 0.4, "i", "N"],
-      // The corpus spans clinical observation, environmental medicine, surgery, and professional ethics, suggesting real range within the medical field broadly construed.
-      cross_domain_range: [56, 0.4, "i", "N"],
-      // The naturalistic medical framework's clean break from the dominant religious-healing tradition of the period suggests a real independent intellectual stance.
-      autonomy_need: [55, 0.4, "i", "N"],
-      // Advocating a naturalistic account of disease that directly contradicted the era's dominant temple-medicine tradition implies willingness to hold a genuinely contrarian position.
-      conflict_tolerance: [58, 0.42, "i", "N"],
-      // Founded and is credited with leading a documented medical teaching tradition on Kos that trained and influenced generations of physicians after him.
-      leadership_drive: [60, 0.45, "s", "A"],
-      // The sustained, methodical Epidemics case records, if attributable to him or his immediate school, suggest real persistence in systematic observation over extended periods.
-      persistence: [58, 0.4, "i", "N"],
-      // The detailed, dated symptom-tracking in the Epidemics texts suggests real sustained concentrated observation of individual cases over time.
-      deep_focus: [62, 0.42, "i", "N"],
-      // Establishing and sustaining a teaching medical school implies real comfort with public professional engagement, though direct evidence of personal manner is essentially absent for this era.
-      social_assertiveness: [55, 0.4, "i", "N"],
-      // The corpus's systematic case-by-case symptom tracking and causal reasoning about environment and disease evidences a real analytical method, tempered by uncertain individual authorship.
-      analytical_rigor: [65, 0.44, "i", "N"],
-      // The Hippocratic school's continued, multi-generational medical tradition after him suggests real capacity to build a sustained collaborative teaching community.
-      collaboration: [55, 0.4, "i", "N"],
-      // Advocating a naturalistic account of disease that directly contradicted the era's dominant temple-medicine tradition carried real professional and social risk for the period.
-      risk_tolerance: [55, 0.4, "i", "N"],
-      // Developing a systematic clinical method with the limited diagnostic tools available in ancient Greek medicine suggests real capacity to build effective method under real material constraint.
-      resourcefulness: [55, 0.4, "i", "N"],
-    },
-  },
-  {
     id: "p_hypatia",
     slug: "hypatia",
     canonicalName: "Hypatia",
@@ -666,8 +591,8 @@ const seeds: PersonSeed[] = [
     directoryVisible: true,
     sources: [{ id: "src_champollion_wikipedia", kind: "wikipedia", title: "Jean-Francois Champollion", url: "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion" }, { id: "src_champollion_britannica", kind: "institution", title: "Encyclopaedia Britannica -- Jean-Francois Champollion", url: "https://www.britannica.com/biography/Jean-Francois-Champollion" }, { id: "src_champollion_britannica2", kind: "institution", title: "JSTOR Daily -- Jean-Francois Champollion Deciphers the Rosetta Stone", url: "https://daily.jstor.org/jean-francois-champollion-deciphers-the-rosetta-stone/" }],
     rows: {
-      // Documented as having mastered six ancient and Oriental languages (Latin, Greek, Hebrew, Chaldean, Arabic, Syriac) by age 12, an extensively corroborated, specific documented achievement, not a general reputational claim.
-      mastery_orientation: [95, 0.72, "d", "A"],
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: the original rationale claimed six languages 'mastered... by age 12' as a single precisely-dated documented fact; re-opening the cited Wikipedia article found the languages were acquired progressively from around age 11 into his mid-teens (Latin and Greek first, then Hebrew and other Semitic languages including Arabic, Syriac, and Chaldean during the same school years, with Coptic and Chinese added around 1805-1806), not a single 'mastered by 12' milestone -- the article explicitly describes an ongoing 'progression', not a completed fact at that age. Score and confidence narrowed accordingly: the age-12 precision that justified the original near-maximal 'documented' score is not itself supported, though the underlying pattern of exceptional early language study is well documented.] From childhood into his teens, Champollion pursued an unusually intensive, self-directed study of classical and Oriental languages -- including Latin, Greek, Hebrew, Arabic, Syriac, Chaldean, and later Coptic and Chinese -- a documented pattern of sustained language acquisition well beyond any institutional requirement of the time.
+      mastery_orientation: [82, 0.55, "s", "A"],
       // His 27 September 1822 presentation to the Academie des Inscriptions et Belles-Lettres, correctly identifying that Egyptian hieroglyphs combined alphabetic, syllabic, and determinative signs (rather than being purely symbolic, the prevailing assumption), is a specific, precisely-dated, extensively documented analytical breakthrough.
       analytical_rigor: [94, 0.68, "d", "A"],
       // The decipherment took from the Rosetta Stone's 1799 discovery to his 1822 announcement -- 23 years, though Champollion's own intensive work is concentrated in the final years -- implying sustained multi-year focus on a single unsolved problem, inferred from the documented timeline.
@@ -676,8 +601,8 @@ const seeds: PersonSeed[] = [
       achievement_drive: [85, 0.55, "s", "A"],
       // His decisive September 27, 1822 presentation to the Academie des Inscriptions et Belles-Lettres was made with his chief rival, English polymath Thomas Young, present in the audience -- a specific, precisely documented instance of a direct, public, high-stakes scholarly competition, not a general reputational claim.
       competitiveness: [78, 0.65, "d", "N"],
-      // Independently mastering six languages by age 12 well beyond any institutional requirement implies exceptional underlying intellectual curiosity, inferred from the documented pattern of self-directed language acquisition.
-      curiosity: [90, 0.5, "s", "A"],
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: corrected the 'six languages by age 12' framing -- see mastery_orientation's own rationale for the source detail.] Independently pursuing this breadth of language study across his childhood and teens, well beyond any institutional requirement of the time, implies exceptional underlying intellectual curiosity, inferred from the documented pattern of self-directed language acquisition.
+      curiosity: [80, 0.46, "s", "A"],
       // Rejecting the field's prevailing assumption that hieroglyphs were purely symbolic/pictographic, in favor of a phonetic-component theory, suggests independent analytical judgment against consensus, inferred from the documented content of his breakthrough.
       independent_thinking: [82, 0.48, "i", "A"],
       // Sustained, detailed comparative analysis across Greek, Demotic, and hieroglyphic scripts on the Rosetta Stone implies real sustained concentration, inferred from the technical nature of the documented decipherment work.
@@ -846,9 +771,9 @@ const seeds: PersonSeed[] = [
       
     },
     directoryVisible: true,
-    sources: [{ id: "src_walker_wikipedia", kind: "wikipedia", title: "Madam C. J. Walker", url: "https://en.wikipedia.org/wiki/Madam_C._J._Walker" }, { id: "src_walker_blackpast", kind: "biography", title: "BlackPast.org biography of Madam C.J. Walker (1867-1919)", url: "https://blackpast.org/african-american-history/walker-madam-c-j-1867-1919/" }, { id: "src_walker_smithsonian", kind: "institution", title: "Smithsonian: \"How Business Executive Madam C. J. Walker Became a Powerful Influencer of the Early 20th Century\"", url: "https://www.smithsonianmag.com/smithsonian-institution/how-business-executive-madam-c-j-walker-became-powerful-influencer-early-20th-century-180971628/" }, { id: "src_walker_gilder", kind: "institution", title: "Gilder Lehrman Institute of American History: \"Madam C. J. Walker: A Life of Reinvention\"", url: "https://www.gilderlehrman.org/history-resources/essays/madam-c-j-walker-life-reinvention" }],
+    sources: [{ id: "src_walker_wikipedia", kind: "wikipedia", title: "Madam C. J. Walker", url: "https://en.wikipedia.org/wiki/Madam_C._J._Walker" }, { id: "src_walker_blackpast", kind: "biography", title: "BlackPast.org biography of Madam C.J. Walker (1867-1919)", url: "https://blackpast.org/african-american-history/walker-madam-c-j-1867-1919/" }, { id: "src_walker_smithsonian", kind: "institution", title: "Smithsonian: \"How Business Executive Madam C. J. Walker Became a Powerful Influencer of the Early 20th Century\"", url: "https://www.smithsonianmag.com/smithsonian-institution/how-business-executive-madam-c-j-walker-became-powerful-influencer-early-20th-century-180971628/" }, { id: "src_walker_gilder", kind: "institution", title: "Gilder Lehrman Institute of American History: \"Madam C. J. Walker: A Life of Reinvention\"", url: "https://www.gilderlehrman.org/history-resources/essays/madam-c-j-walker-life-reinvention" }, { id: "src_walker_loc", kind: "institution", title: "Library of Congress: \"Beauty Entrepreneur: Madam C. J. Walker Born\"", url: "https://guides.loc.gov/this-month-in-business-history/december/madam-cj-walker-born" }],
     rows: {
-      // Grew from working as a washerwoman earning $1.50 a day to building a national manufacturing and sales operation employing roughly 40,000 people across the United States, Central America, and the Caribbean, documented via the well-corroborated historical record of this specific, quantified career trajectory.
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: the original rationale claimed the operation employed 'roughly 40,000 people' as direct employees; the Library of Congress's own figure is 'over 20,000 agents' -- door-to-door sales agents, not payroll employees -- across the same three regions. Narrowed to the accurately-scoped, source-supported figure below; 'agents' is not converted into 'employees'.] Grew from working as a washerwoman earning $1.50 a day to building a national manufacturing and sales operation whose network included more than 20,000 agents across the United States, Central America, and the Caribbean by 1916, documented via the well-corroborated historical record of this specific, quantified career trajectory.
       achievement_drive: [84, 0.65, "d", "A"],
       // Two independent documented instances: developed her hair-care formula from direct personal experience of the exact hair-loss problem she was solving, and built her entire distribution model around door-to-door sales through African American community networks and advertising in Black-owned newspapers -- a channel mainstream retail of the era entirely ignored.
       resourcefulness: [82, 0.65, "d", "A"],
@@ -889,9 +814,9 @@ const seeds: PersonSeed[] = [
     directoryVisible: true,
     sources: [{ id: "src_anning_wikipedia", kind: "wikipedia", title: "Mary Anning", url: "https://en.wikipedia.org/wiki/Mary_Anning" }, { id: "src_anning_nhm", kind: "institution", title: "Natural History Museum, London -- Mary Anning: the unsung hero of fossil discovery", url: "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html" }],
     rows: {
-      // Sustained fossil-hunting work along the dangerous, landslide-prone Lyme Regis cliffs across her entire working life (from childhood until her death), documented via the Natural History Museum and corroborated by the specific, dated sequence of her major finds (1811 ichthyosaur, 1821 plesiosaur, 1828 pterosaur).
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: the dated sequence originally read '1811 ichthyosaur, 1821 plesiosaur, 1828 pterosaur'; re-opening the cited Natural History Museum account found the ichthyosaur skull was found by her brother Joseph in autumn 1811 with Mary excavating the rest in 1812, and that 1821 was the year the Plesiosaurus genus was named from a different, partial specimen -- Mary's own first complete Plesiosaurus skeleton dates to December 1823. Corrected below.] Sustained fossil-hunting work along the dangerous, landslide-prone Lyme Regis cliffs across her entire working life (from childhood until her death), documented via the Natural History Museum and corroborated by the specific, dated sequence of her major finds (1811-1812 ichthyosaur, 1823 first complete plesiosaur, 1828 pterosaur).
       persistence: [88, 0.62, "d", "A"],
-      // Self-taught fossil identification, preparation, and cataloguing skills sufficient to be consulted by professional geologists, sustained as her family's primary income source after her father's death in 1811, implies strong resourcefulness under real economic constraint, inferred from the documented circumstances.
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: her father Richard Anning died in 1810, not 1811 as originally stated; also softened 'primary income source' to match what the cited source actually establishes (see proactive_agency's own rationale for the fuller correction).] Self-taught fossil identification, preparation, and cataloguing skills sufficient to be consulted by professional geologists, sustained as a growing source of her family's income after her father's death in 1810, implies strong resourcefulness under real economic constraint, inferred from the documented circumstances.
       resourcefulness: [84, 0.55, "s", "A"],
       // Documented (Natural History Museum) pattern of male scientists purchasing, publishing, and receiving credit for fossils she found, cleaned, and identified without acknowledging her -- and her continuing the work regardless over decades -- suggests sustained tolerance for a specific, ongoing professional injustice.
       conflict_tolerance: [72, 0.52, "s", "N"],
@@ -903,7 +828,7 @@ const seeds: PersonSeed[] = [
       discipline: [74, 0.46, "i", "N"],
       // Sustained work along the unstable, landslide-prone Lyme Regis cliffs -- a documented cause of real injury and death in the area, including to Anning's own dog while working alongside her -- across her entire career suggests real sustained physical risk tolerance, inferred from the documented working conditions.
       risk_tolerance: [68, 0.55, "s", "N"],
-      // The escalating scientific significance of her finds over her career (1811 ichthyosaur, 1821 first-ever plesiosaur, 1828 first pterosaur outside Germany) suggests sustained underlying achievement drive rather than settling into routine commercial fossil trading, inferred from this documented progression.
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: corrected dates -- see persistence's own rationale for the source detail on the ichthyosaur/plesiosaur dating.] The escalating scientific significance of her finds over her career (1811-1812 ichthyosaur, 1823 first complete plesiosaur, 1828 first pterosaur outside Germany) suggests sustained underlying achievement drive rather than settling into routine commercial fossil trading, inferred from this documented progression.
       achievement_drive: [72, 0.5, "s", "N"],
       // Developing genuine comparative-anatomy expertise well beyond what selling fossils commercially would have required suggests real underlying scientific curiosity, inferred from the depth of her documented self-taught knowledge.
       curiosity: [78, 0.42, "i", "N"],
@@ -921,8 +846,8 @@ const seeds: PersonSeed[] = [
       social_assertiveness: [55, 0.4, "i", "N"],
       // Regular correspondence and specimen exchange with professional geologists, despite the era's institutional barriers, suggests some real working collaboration, inferred from the documented pattern of these professional relationships.
       collaboration: [52, 0.4, "i", "N"],
-      // Took over as the family's primary fossil-collecting practitioner at age eleven or twelve, immediately after her father's death in 1811, without any formal transition or institutional support -- a specific, documented instance of self-initiated responsibility-taking under real family economic pressure, not a general inference.
-      proactive_agency: [66, 0.65, "d", "N"],
+      // [ERROR_CORRECTION, roster30 post-PR audit, 2026-09: the original rationale claimed Mary 'took over as the family's primary fossil-collecting practitioner... immediately after her father's death in 1811' -- both the year (Richard Anning died in 1810) and the 'immediate sole takeover' framing overstate what the cited Natural History Museum account establishes. The family's fossil-selling trade continued as a shared endeavor after his death; Mary's own role grew over time rather than transferring to her alone in one moment. Score, confidence, and evidenceType narrowed from documented to strong_inference accordingly.] In the years following her father's death in 1810, which left the family without its main income, Mary's role in the family's fossil-collecting trade grew substantially -- including, at about twelve, the ichthyosaur skull her brother Joseph found in autumn 1811, the rest of which she herself excavated the following year -- without any formal transition or institutional support. This is a real, documented pattern of growing responsibility-taking under family economic pressure, inferred from the documented timeline rather than a single precisely-dated handover.
+      proactive_agency: [58, 0.5, "s", "N"],
       // Recognizing the scientific (not merely commercial) significance of unusual finds suggests some capacity to sense broader opportunity beyond the immediate fossil-trading transaction, inferred from the documented trajectory from trade to recognized contribution.
       opportunity_sensing: [60, 0.4, "i", "N"],
       // Careful, methodical excavation and preparation of delicate fossil specimens implies sustained close attention, inferred from the technical nature of the documented work.

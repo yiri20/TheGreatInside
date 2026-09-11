@@ -498,7 +498,13 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // raising the count from 6 to 7 -- not a newly match-eligible person (he
   // remains isMatchEligible: false; this filter is a Directory browse aid,
   // unrelated to eligibility_v2).
-  expect(bodyText).toMatch(/전체\s*205명\s*중\s*7명/);
+  // Total corrected 205->204 (roster30 post-PR review: Hippocrates returned
+  // to held on evidence-attribution audit -- see
+  // docs/checkpoints/roster30-twenty-person-zero-politics-batch.md). The
+  // filtered count of 7 is unaffected: Hippocrates never crossed both the
+  // curiosity and collaboration thresholds (he wasn't part of this set
+  // either before or after correction).
+  expect(bodyText).toMatch(/전체\s*204명\s*중\s*7명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
 });

@@ -51,7 +51,6 @@ const OUT_PATH = join(process.cwd(), "src/data/people/roster30.ts");
 // Explicit literal allowlist — exactly the 20 fixed roster30 candidates.
 // Never a blanket "every evidence_approved/qa_passed candidate" filter.
 const ROSTER_30_SLUGS = new Set([
-  "hippocrates",
   "barbara-mcclintock",
   "chien-shiung-wu",
   "frederick-sanger",

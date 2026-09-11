@@ -6,7 +6,7 @@ export const PERSON_INDEX_VERSION = "person_index_v1";
 
 /** Compact, client-safe projection of SEED_PEOPLE — see
  *  src/core/people/personIndex.ts for what's included/excluded and why.
- *  205 entries. */
+ *  204 entries. */
 export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
   {
     id: "p_leonardo_da_vinci",
@@ -4000,8 +4000,8 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     archetypeIds: ["scientific_explorer","scholarly_specialist"],
     isMatchEligible: false,
     isDirectoryVisible: true,
-    overallProfileConfidence: 0.4785000000000001,
-    attributes: [["analytical_rigor", 94, 0.68, "advantage"], ["mastery_orientation", 90, 0.6, "advantage"], ["experimentation", 88, 0.55, "advantage"], ["detail_orientation", 86, 0.5, "advantage"], ["persistence", 82, 0.46, "advantage"], ["conflict_tolerance", 65, 0.55, "neutral"], ["achievement_drive", 84, 0.44, "advantage"], ["discipline", 80, 0.42, "neutral"], ["independent_thinking", 74, 0.55, "neutral"], ["risk_tolerance", 60, 0.55, "neutral"], ["curiosity", 78, 0.4, "neutral"], ["autonomy_need", 62, 0.4, "neutral"], ["collaboration", 68, 0.4, "neutral"], ["social_assertiveness", 64, 0.55, "advantage"], ["adaptability", 64, 0.4, "neutral"], ["deep_focus", 76, 0.4, "neutral"], ["planning_orientation", 66, 0.4, "neutral"], ["proactive_agency", 70, 0.52, "advantage"], ["opportunity_sensing", 60, 0.4, "neutral"], ["leadership_drive", 50, 0.4, "neutral"]],
+    overallProfileConfidence: 0.47473684210526335,
+    attributes: [["analytical_rigor", 94, 0.68, "advantage"], ["mastery_orientation", 90, 0.6, "advantage"], ["experimentation", 88, 0.55, "advantage"], ["detail_orientation", 86, 0.5, "advantage"], ["persistence", 82, 0.46, "advantage"], ["conflict_tolerance", 65, 0.55, "neutral"], ["achievement_drive", 84, 0.44, "advantage"], ["discipline", 80, 0.42, "neutral"], ["risk_tolerance", 60, 0.55, "neutral"], ["curiosity", 78, 0.4, "neutral"], ["autonomy_need", 62, 0.4, "neutral"], ["collaboration", 68, 0.4, "neutral"], ["social_assertiveness", 64, 0.55, "advantage"], ["adaptability", 64, 0.4, "neutral"], ["deep_focus", 76, 0.4, "neutral"], ["planning_orientation", 66, 0.4, "neutral"], ["proactive_agency", 70, 0.52, "advantage"], ["opportunity_sensing", 60, 0.4, "neutral"], ["leadership_drive", 50, 0.4, "neutral"]],
     portraitUrl: "/portraits/chien-shiung-wu-1963.jpg",
   },
   {
@@ -4047,27 +4047,6 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     portraitUrl: "/portraits/georgia-okeeffe-vanvechten-1950.jpg",
   },
   {
-    id: "p_hippocrates",
-    slug: "hippocrates",
-    canonicalName: "Hippocrates",
-    aliases: [],
-    birthYear: -460,
-    deathYear: -370,
-    isLiving: false,
-    era: "ancient",
-    regionCode: "southern_europe",
-    occupationIds: ["physician"],
-    fieldIds: ["medicine"],
-    impactDomains: ["historical","medical","educational"],
-    tagIds: ["founder","systematic_thinker"],
-    archetypeIds: ["scholarly_specialist"],
-    isMatchEligible: false,
-    isDirectoryVisible: true,
-    overallProfileConfidence: 0.4490476190476192,
-    attributes: [["systems_abstraction", 78, 0.55, "advantage"], ["detail_orientation", 76, 0.65, "advantage"], ["curiosity", 70, 0.5, "advantage"], ["independent_thinking", 72, 0.52, "advantage"], ["discipline", 66, 0.46, "advantage"], ["impact_motivation", 68, 0.5, "advantage"], ["planning_orientation", 60, 0.42, "neutral"], ["creative_originality", 68, 0.48, "advantage"], ["mastery_orientation", 62, 0.42, "neutral"], ["achievement_drive", 55, 0.4, "neutral"], ["cross_domain_range", 56, 0.4, "neutral"], ["autonomy_need", 55, 0.4, "neutral"], ["conflict_tolerance", 58, 0.42, "neutral"], ["leadership_drive", 60, 0.45, "advantage"], ["persistence", 58, 0.4, "neutral"], ["deep_focus", 62, 0.42, "neutral"], ["social_assertiveness", 55, 0.4, "neutral"], ["analytical_rigor", 65, 0.44, "neutral"], ["collaboration", 55, 0.4, "neutral"], ["risk_tolerance", 55, 0.4, "neutral"], ["resourcefulness", 55, 0.4, "neutral"]],
-    portraitUrl: "/portraits/hippocrates-cipb0341.jpg",
-  },
-  {
     id: "p_hypatia",
     slug: "hypatia",
     canonicalName: "Hypatia",
@@ -4105,8 +4084,8 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     archetypeIds: ["scholarly_specialist","scientific_explorer"],
     isMatchEligible: false,
     isDirectoryVisible: true,
-    overallProfileConfidence: 0.4920000000000001,
-    attributes: [["mastery_orientation", 95, 0.72, "advantage"], ["analytical_rigor", 94, 0.68, "advantage"], ["persistence", 88, 0.6, "advantage"], ["achievement_drive", 85, 0.55, "advantage"], ["competitiveness", 78, 0.65, "neutral"], ["curiosity", 90, 0.5, "advantage"], ["independent_thinking", 82, 0.48, "advantage"], ["deep_focus", 84, 0.46, "advantage"], ["discipline", 78, 0.44, "neutral"], ["detail_orientation", 80, 0.42, "advantage"], ["experimentation", 72, 0.42, "neutral"], ["systems_abstraction", 82, 0.42, "advantage"], ["autonomy_need", 68, 0.4, "neutral"], ["risk_tolerance", 60, 0.55, "neutral"], ["social_assertiveness", 64, 0.55, "neutral"], ["planning_orientation", 58, 0.4, "neutral"], ["opportunity_sensing", 62, 0.4, "neutral"], ["collaboration", 45, 0.4, "neutral"], ["leadership_drive", 55, 0.4, "neutral"], ["adaptability", 60, 0.4, "neutral"]],
+    overallProfileConfidence: 0.48150000000000004,
+    attributes: [["mastery_orientation", 82, 0.55, "advantage"], ["analytical_rigor", 94, 0.68, "advantage"], ["persistence", 88, 0.6, "advantage"], ["achievement_drive", 85, 0.55, "advantage"], ["competitiveness", 78, 0.65, "neutral"], ["curiosity", 80, 0.46, "advantage"], ["independent_thinking", 82, 0.48, "advantage"], ["deep_focus", 84, 0.46, "advantage"], ["discipline", 78, 0.44, "neutral"], ["detail_orientation", 80, 0.42, "advantage"], ["experimentation", 72, 0.42, "neutral"], ["systems_abstraction", 82, 0.42, "advantage"], ["autonomy_need", 68, 0.4, "neutral"], ["risk_tolerance", 60, 0.55, "neutral"], ["social_assertiveness", 64, 0.55, "neutral"], ["planning_orientation", 58, 0.4, "neutral"], ["opportunity_sensing", 62, 0.4, "neutral"], ["collaboration", 45, 0.4, "neutral"], ["leadership_drive", 55, 0.4, "neutral"], ["adaptability", 60, 0.4, "neutral"]],
     portraitUrl: "/portraits/jean-francois-champollion-cogniet-1831.jpg",
   },
   {
@@ -4189,8 +4168,8 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     archetypeIds: ["scientific_explorer","independent_creator"],
     isMatchEligible: false,
     isDirectoryVisible: true,
-    overallProfileConfidence: 0.46684210526315806,
-    attributes: [["persistence", 88, 0.62, "advantage"], ["resourcefulness", 84, 0.55, "advantage"], ["conflict_tolerance", 72, 0.52, "neutral"], ["detail_orientation", 82, 0.5, "advantage"], ["independent_thinking", 76, 0.48, "neutral"], ["discipline", 74, 0.46, "neutral"], ["risk_tolerance", 68, 0.55, "neutral"], ["achievement_drive", 72, 0.5, "neutral"], ["curiosity", 78, 0.42, "neutral"], ["analytical_rigor", 74, 0.42, "neutral"], ["autonomy_need", 66, 0.4, "neutral"], ["adaptability", 62, 0.4, "neutral"], ["mastery_orientation", 76, 0.4, "neutral"], ["experimentation", 58, 0.4, "neutral"], ["social_assertiveness", 55, 0.4, "neutral"], ["collaboration", 52, 0.4, "neutral"], ["proactive_agency", 66, 0.65, "neutral"], ["opportunity_sensing", 60, 0.4, "neutral"], ["deep_focus", 64, 0.4, "neutral"]],
+    overallProfileConfidence: 0.45894736842105277,
+    attributes: [["persistence", 88, 0.62, "advantage"], ["resourcefulness", 84, 0.55, "advantage"], ["conflict_tolerance", 72, 0.52, "neutral"], ["detail_orientation", 82, 0.5, "advantage"], ["independent_thinking", 76, 0.48, "neutral"], ["discipline", 74, 0.46, "neutral"], ["risk_tolerance", 68, 0.55, "neutral"], ["achievement_drive", 72, 0.5, "neutral"], ["curiosity", 78, 0.42, "neutral"], ["analytical_rigor", 74, 0.42, "neutral"], ["autonomy_need", 66, 0.4, "neutral"], ["adaptability", 62, 0.4, "neutral"], ["mastery_orientation", 76, 0.4, "neutral"], ["experimentation", 58, 0.4, "neutral"], ["social_assertiveness", 55, 0.4, "neutral"], ["collaboration", 52, 0.4, "neutral"], ["proactive_agency", 58, 0.5, "neutral"], ["opportunity_sensing", 60, 0.4, "neutral"], ["deep_focus", 64, 0.4, "neutral"]],
     portraitUrl: "/portraits/mary-anning-painting.jpg",
   },
   {
