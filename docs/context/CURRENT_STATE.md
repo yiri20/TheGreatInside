@@ -4,7 +4,48 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-10 (Roster29: fifteen-person fast production batch,
+Last updated: 2026-09-10 (Roster30: twenty-person zero-politics fast
+production batch, `feat/roster30-twenty-person-zero-politics-batch`,
+post-PR factual/evidence-attribution correction pass applied — same
+mechanical-intake discipline as Roster25-29, plus a hard constraint: **zero
+political/state/military/activist-primary people** (a correction to a
+composition imbalance flagged after Roster29). Nineteen promoted (of twenty
+originally frozen): Barbara McClintock, Chien-Shiung Wu, Frederick Sanger,
+Hypatia, Jean-François Champollion, Mary Shelley, Omar Khayyam, Mary
+Anning, Al-Khwarizmi, Baruch Spinoza, Sebastião Salgado, J.R.R. Tolkien,
+Antoni Gaudí, Georgia O'Keeffe, Andrew Carnegie, Madam C.J. Walker, Jesse
+Owens, Roald Amundsen, and Paul Erdős — all honestly failing
+`eligibility_v2`, none rescued. **Hippocrates was returned to `held`** on
+post-PR evidence-attribution review: nearly every row converted anonymous/
+collective Hippocratic Corpus material into documented personal behavior,
+and two rows plus the Oath-based row rested on claims (a founded school;
+personal Oath authorship) the candidate's own cited Wikipedia source does
+not support — see the checkpoint doc's full row-by-row audit. Original
+pre-PR gate: two `RUBRIC_CORRECTION`s (McClintock and Sanger's
+`analytical_rigor` rows, both narrowed off an outcome-based "eventual Nobel
+recognition implies rigor" inference), one `ERROR_CORRECTION` (Sanger's row
+and editorial text both wrongly said "the only person" to win Chemistry
+twice — Karl Barry Sharpless also has, per a live Wikipedia re-check —
+narrowed to "one of only two"), and three classification-metadata fixes
+(two invalid `impactDomains` values, one invalid source `kind`). Post-PR
+review additionally found and corrected factual/attribution errors in Mary
+Anning (father's death year, ichthyosaur/plesiosaur dating, an overstated
+"immediate takeover" claim), Madam C.J. Walker ("40,000 employees" narrowed
+to the Library of Congress's own "20,000+ agents"), Jean-François
+Champollion ("six languages by age 12" narrowed after the cited source
+didn't support that precision; `mastery_orientation`/`curiosity` re-audited
+and lowered), Chien-Shiung Wu (xenon-135 credit narrowed to "helped
+identify"; the `independent_thinking` row removed since its sole basis
+didn't survive), and Andrew Carnegie (Homestead casualty count narrowed
+after sources disagreed) — all labeled `ERROR_CORRECTION`; plus a
+confirmed-accurate precision check on Al-Khwarizmi's "founded algebra"
+language and stale-status provenance cleanup across five candidate files.
+Full details: `docs/checkpoints/roster30-twenty-person-zero-politics-batch.md`.
+Production 185→204, directory-visible 184→203, match-eligible unchanged at
+127. **Handoff for Roster31**: the same zero-politics rule applies; not yet
+started.
+
+Last updated (superseded above): 2026-09-10 (Roster29: fifteen-person fast production batch,
 `feat/roster29-fifteen-person-fast-batch`, unmerged — mechanical intake from
 the existing `held` pool only, no new candidate discovery, evidence-viability
 weighted first, recognizability second. Gabriel García Márquez, Murasaki

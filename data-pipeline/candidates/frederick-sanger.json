@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "frederick-sanger",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Frederick Sanger",
     "wikidataId": "Q151564",
@@ -55,7 +55,7 @@
       "confidence": 0.7,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "The only person to have won the Nobel Prize in Chemistry twice (1958 for protein sequencing, 1980 for nucleic-acid sequencing), documented in the Royal Society's own biographical memoir -- a specific, precisely dated, doubly-verified record of sustained top-tier technical achievement across two distinct methodological breakthroughs decades apart."
+      "rationale": "[ERROR_CORRECTION, roster30 factual gate: re-opening en.wikipedia.org/wiki/Frederick_Sanger found he is 'one of only three people to have won multiple Nobel Prizes in the same category' alongside John Bardeen (physics) and Karl Barry Sharpless (chemistry, 2001 and 2022) -- 'the only person' to win Chemistry twice is no longer accurate now that Sharpless has also done so; narrowed to 'one of only two'.] One of only two people to have won the Nobel Prize in Chemistry twice (1958 for protein sequencing, 1980 for nucleic-acid sequencing), documented in the Royal Society's own biographical memoir -- a specific, precisely dated, doubly-verified record of sustained top-tier technical achievement across two distinct methodological breakthroughs decades apart."
     },
     "persistence": {
       "score": 88,
@@ -65,11 +65,11 @@
       "rationale": "Sustained, methodologically distinct sequencing research across more than three decades of his career (protein sequencing methods developed through the 1950s, nucleic-acid sequencing developed through the 1970s), documented in the Royal Society memoir, rather than resting on a single early breakthrough."
     },
     "analytical_rigor": {
-      "score": 90,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "Developing two independent, field-defining sequencing methodologies that both withstood rigorous scientific scrutiny and won separate Nobel recognitions implies exceptional analytical rigor, inferred from the documented dual outcome rather than a specific account of his working process."
+      "score": 65,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[RUBRIC_CORRECTION, roster30 row audit: the prior rationale inferred rigor from the two methods' later Nobel recognitions -- an outcome-based inference this project's own scoring discipline (trait scores derive from documented behavior, never from how things later turned out) does not support. Narrowed to a modest, process-grounded basis instead.] Developing two methodologically distinct, multi-step sequencing techniques (protein, then nucleic acid) implies real analytical care in method design, inferred from the documented technical structure of the two methods themselves rather than from their later reception."
     },
     "deep_focus": {
       "score": 86,
@@ -193,9 +193,21 @@
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- a physician's son, no inherited position; both Nobel Prizes credited to his own individual technical achievement. Diversity value: the roster's first double Nobel laureate and a genuinely distinct \"quiet, methodical, twice-successful specialist\" shape distinct from the roster's other Nobel-laureate scientists. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- a physician's son, no inherited position; both Nobel Prizes credited to his own individual technical achievement. Diversity value: the roster's first double Nobel laureate and a genuinely distinct \"quiet, methodical, twice-successful specialist\" shape distinct from the roster's other Nobel-laureate scientists. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record. RUBRIC_CORRECTION (roster30, 2026-09): analytical_rigor narrowed from an outcome-based inference (later Nobel recognitions) to a modest, process-grounded basis; see the row's own rationale for detail. ERROR_CORRECTION (roster30, 2026-09): mastery_orientation's 'the only person to win Chemistry twice' narrowed to 'one of only two' after re-opening en.wikipedia.org/wiki/Frederick_Sanger, which documents Karl Barry Sharpless also winning Chemistry twice (2001, 2022); see the row's own rationale for detail. Roster30 promotion note (2026-09): the 'held' language above describes this candidate's HISTORICAL status prior to Roster30; current status is evidence_approved -- promoted to production, published, directory-visible, and non-match-eligible under eligibility_v2's numeric floors (not for evidence-integrity reasons), same as the rest of the Roster30 batch."
   },
-  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing his Royal Society biographical memoir, then a real second round adding the documented career-risk of his mid-career pivot to nucleic-acid sequencing): avgConf 0.476 vs 0.55 floor, coverage 0.607 (clear). Documented as personally reserved and non-self-promoting even in his own institutional memoir -- the record is unusually strong on his scientific achievements and unusually thin on personal/interpersonal behavioral evidence."
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/frederick-sanger-nlm.jpg",
+    "width": 897,
+    "height": 1196,
+    "source": "U.S. National Library of Medicine (NIH)",
+    "license": "PD-USGov",
+    "creator": "unknown",
+    "date": "undated",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Frederick_Sanger2.jpg",
+    "attribution": "U.S. National Library of Medicine"
+  }
 }

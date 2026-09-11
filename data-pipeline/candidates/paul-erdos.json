@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "paul-erdos",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Paul Erdős",
     "wikidataId": "Q173746",
@@ -156,7 +156,7 @@
   },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q173746) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known Hoffman and Schechter biographies (both built on extensive named-collaborator interviews). Scored to 13 attributes this pass -- thinking-facet evidence beyond curiosity (analytical_rigor, systems_abstraction, intuitive_synthesis specifically) was not gathered with enough specificity this cycle to score defensibly, despite his obvious mathematical stature."
   },
@@ -167,5 +167,17 @@
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
   },
-  "holdReason": "Only 13 scored attributes (need 18); coverage 0.40 below the 0.6 threshold; 10 attributes at confidence>=0.5 (need 12). Exceptionally rich behavioral/eccentricity evidence already scored; this cycle's research did not surface strong enough sourcing on his specific mathematical thinking style (analytical_rigor, systems_abstraction, intuitive_synthesis) despite his obvious stature -- Hoffman's and Schechter's full biographies (only summarized here via the Wikipedia article) would very likely close this gap on a future pass."
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/paul-erdos-1992.jpg",
+    "width": 308,
+    "height": 411,
+    "source": "Wikimedia Commons",
+    "license": "CC BY 3.0 Unported / GFDL",
+    "creator": "Kmhkmh",
+    "date": "1992",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Paul_Erd%C5%91s.jpg",
+    "attribution": "Kmhkmh, 1992"
+  }
 }

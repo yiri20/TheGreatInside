@@ -50,158 +50,171 @@
   ],
   "rows": {
     "systems_abstraction": {
-      "score": 78,
-      "confidence": 0.55,
-      "evidenceType": "strong_inference",
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "The Hippocratic Corpus develops a systematic framework separating medicine from religious/magical explanation, attributing illness to natural causes (environment, diet, bodily humors) — documented via the corpus's own consistent naturalistic framing, though individual authorship within the corpus is scholarly-debated."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: B/C -- attributable to the Hippocratic school/tradition or an anonymous Corpus author, not documented as Hippocrates' own personal thinking. Re-opening the already-cited Wikipedia article found it states the Corpus 'could not have been written by one person' and was 'probably produced by his students and followers' over generations -- confirming what this row's own original rationale already flagged as 'scholarly-debated' without actually adjusting the score/confidence/evidenceType for it. Corrected: strong_inference -> inference, confidence and score lowered.] The Hippocratic Corpus develops a systematic framework separating medicine from religious/magical explanation, attributing illness to natural causes (environment, diet, bodily humors). This reflects the school/tradition that came to bear Hippocrates' name; whether it reflects his own personal thinking, rather than a student's or later compiler's, is not established by the cited sources, so it is treated here as weak inference only, not documented personal behavior."
     },
     "detail_orientation": {
-      "score": 76,
-      "confidence": 0.65,
-      "evidenceType": "documented",
+      "score": 45,
+      "confidence": 0.32,
+      "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "The Epidemics texts document detailed, dated case-by-case patient observation logs tracking symptom progression over time, a specific, corroborated methodological practice visible in the surviving corpus."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- attributable only to an anonymous Corpus author, not to Hippocrates personally. The original rationale scored this row at confidence 0.65 with evidenceType 'documented' -- the highest-confidence tier in this rubric -- purely because the Epidemics texts contain detailed case logs, without establishing that Hippocrates himself, rather than a student or later compiler within the disputed Corpus, wrote them. This was the single clearest instance of converting anonymous/collective Corpus material into personal documented behavior; corrected from documented/0.65 to inference/0.32.] The Epidemics texts contain detailed, dated case-by-case patient observation logs tracking symptom progression over time -- a real methodological practice visible in the surviving Corpus, but not established as Hippocrates' own personal authorship rather than a student's or the wider school's; retained only as weak inference, not documented personal behavior."
     },
     "curiosity": {
-      "score": 70,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "score": 48,
+      "confidence": 0.35,
+      "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "Airs, Waters, and Places systematically investigates how climate and environment affect health across different regions, evidencing sustained empirical inquiry beyond a single narrow question."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- Airs, Waters, and Places is a Corpus text of disputed individual authorship, not confirmed as Hippocrates' own writing. Corrected: strong_inference -> inference, confidence and score lowered.] Airs, Waters, and Places systematically investigates how climate and environment affect health across different regions, evidencing sustained empirical inquiry in this Corpus text -- but its authorship within the disputed, multi-author Corpus is not established as Hippocrates' own, so this is treated as weak inference about the tradition bearing his name rather than documented personal curiosity."
     },
     "independent_thinking": {
-      "score": 72,
-      "confidence": 0.52,
-      "evidenceType": "strong_inference",
+      "score": 48,
+      "confidence": 0.35,
+      "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "The corpus's naturalistic explanation of disease (e.g. reframing epilepsy as a physical rather than divine affliction in On the Sacred Disease) directly departed from the era's dominant religious framework, documented via that text's own explicit argument."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- On the Sacred Disease is a Corpus text of disputed individual authorship. Corrected: strong_inference -> inference, confidence and score lowered.] On the Sacred Disease reframes epilepsy as a physical rather than divine affliction, directly departing from the era's dominant religious framework -- a genuinely independent argument within the Corpus, but not established as Hippocrates' own personal argument rather than a Hippocratic-school author's; treated as weak inference about the school of thought bearing his name, not documented personal reasoning."
     },
     "discipline": {
-      "score": 66,
-      "confidence": 0.46,
-      "evidenceType": "strong_inference",
+      "score": 42,
+      "confidence": 0.3,
+      "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "The sustained, methodical case-observation record in the Epidemics texts evidences real disciplined practice, though individual authorship attribution across the corpus is uncertain."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- same Epidemics-authorship problem as detail_orientation. Corrected: strong_inference -> inference, confidence and score lowered.] The sustained, methodical case-observation record in the Epidemics texts evidences real disciplined practice by whoever compiled it -- but individual authorship within the disputed Corpus is unresolved, so this cannot be treated as Hippocrates' own documented behavior; retained as weak inference only."
     },
     "impact_motivation": {
-      "score": 68,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
+      "score": 35,
+      "confidence": 0.25,
+      "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "The Hippocratic Oath's explicit ethical framework (do no harm, patient welfare over other considerations) documents a stated orientation toward patient wellbeing as the organizing purpose of medical practice."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C/D -- the already-cited Wikipedia article states the Oath 'was attributed to Hippocrates in antiquity although new information shows it may have been written after his death,' i.e. the source this row's entire basis rests on directly undermines personal attribution. This is one of the most severely undermined rows in the file; corrected: strong_inference -> inference, confidence and score lowered substantially (this is close to classification D, unsupported as individual-personality inference, but a nonzero floor is kept because Hippocrates was a real, prominent physician plausibly aligned with values later codified in the Oath-bearing tradition).] The Hippocratic Oath expresses a patient-welfare-first ethical framework, but the already-cited source indicates the Oath likely postdates Hippocrates and reflects a later strand of the school bearing his name, not his own personal statement; retained only as the faintest inference that a physician this closely associated with the tradition may have shared some version of its values, not as documented personal motivation."
     },
     "planning_orientation": {
-      "score": 60,
-      "confidence": 0.42,
+      "score": 42,
+      "confidence": 0.32,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "The systematic case-tracking method implies real advance methodological planning, though this is inferred from the corpus's structure rather than a direct statement of intent."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- same Corpus-attribution problem; confidence/score trimmed for consistency with the rest of the audit.] The systematic case-tracking method in the Epidemics texts implies real advance methodological planning by whoever designed it, though this is inferred from the Corpus's structure rather than a direct statement of intent, and is not established as Hippocrates' own personal planning rather than the wider school's."
     },
     "creative_originality": {
-      "score": 68,
-      "confidence": 0.48,
-      "evidenceType": "strong_inference",
+      "score": 45,
+      "confidence": 0.32,
+      "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "The naturalistic reframing of disease causation was a genuinely original departure from prevailing supernatural explanations, documented via the corpus's own argumentative structure."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- the naturalistic reframing is a real Corpus-level innovation, but not established as personally Hippocrates' own. Corrected: strong_inference -> inference, confidence and score lowered.] The naturalistic reframing of disease causation was a genuinely original departure from prevailing supernatural explanations within the Corpus -- but which author(s) within the disputed, multi-generation Corpus originated it is not established, so this is treated as weak inference about the tradition, not documented personal originality."
     },
     "mastery_orientation": {
-      "score": 62,
-      "confidence": 0.42,
+      "score": 45,
+      "confidence": 0.32,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "The breadth and internal consistency of the surviving corpus across multiple medical subdomains suggests sustained development of medical craft over time."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- the breadth described is a property of the surviving Corpus as a multi-author collection, not documented as one person's individually developed craft.] The breadth and internal consistency of the surviving Corpus across multiple medical subdomains suggests sustained development of medical craft by the tradition it represents; not established as Hippocrates' own individual mastery rather than a collective achievement of his school over generations."
     },
     "achievement_drive": {
-      "score": 55,
-      "confidence": 0.4,
+      "score": 38,
+      "confidence": 0.28,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Founded a documented medical school on Kos that trained successive physicians, suggesting real sustained ambition beyond individual practice."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: B, and the original claim was factually wrong, not merely under-attributed: re-opening the already-cited Wikipedia article found it does NOT establish that Hippocrates personally founded a school on Kos -- it states he was 'probably trained at the asklepieion of Kos' (a pre-existing religious healing sanctuary) and cites Plato's 'Hippocrates of Kos, the Asclepiad' as evidence he was a named, respected physician of that tradition, not its founder. 'Founded a documented medical school' is corrected to the narrower, source-supported claim.] Historical testimony (Plato's references to 'Hippocrates of Kos, the Asclepiad') establishes he trained within, and was a prominent named physician of, the Kos medical tradition -- not that he personally founded a formal school, which the cited source does not establish. Treated as weak inference of professional ambition from this narrower, corrected fact."
     },
     "cross_domain_range": {
-      "score": 56,
-      "confidence": 0.4,
+      "score": 40,
+      "confidence": 0.3,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "The corpus spans clinical observation, environmental medicine, surgery, and professional ethics, suggesting real range within the medical field broadly construed."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- the range described is a property of the Corpus collection, not one documented individual's range.] The Corpus spans clinical observation, environmental medicine, surgery, and professional ethics -- real range within medicine broadly construed, but a property of the surviving multi-author collection rather than documented evidence of one person's individual range."
     },
     "autonomy_need": {
-      "score": 55,
-      "confidence": 0.4,
+      "score": 38,
+      "confidence": 0.3,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "The naturalistic medical framework's clean break from the dominant religious-healing tradition of the period suggests a real independent intellectual stance."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- the intellectual break described is the Corpus/school's, not documented as personally Hippocrates'.] The naturalistic medical framework's clean break from the dominant religious-healing tradition of the period suggests a real independent intellectual stance within the school bearing his name; not established as his own personal stance specifically, given the Corpus's disputed multi-author origin."
     },
     "conflict_tolerance": {
-      "score": 58,
-      "confidence": 0.42,
+      "score": 40,
+      "confidence": 0.3,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Advocating a naturalistic account of disease that directly contradicted the era's dominant temple-medicine tradition implies willingness to hold a genuinely contrarian position."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- same reasoning as autonomy_need.] Advocating a naturalistic account of disease that directly contradicted the era's dominant temple-medicine tradition implies willingness to hold a genuinely contrarian position -- documented for the school/Corpus bearing his name, not established as personally his own contrarian stance."
     },
     "leadership_drive": {
-      "score": 60,
-      "confidence": 0.45,
-      "evidenceType": "strong_inference",
+      "score": 35,
+      "confidence": 0.28,
+      "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "Founded and is credited with leading a documented medical teaching tradition on Kos that trained and influenced generations of physicians after him."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: B, and like achievement_drive the original 'founded and led' claim is not supported by the cited source -- see achievement_drive's own rationale for the Plato/Kos detail.] Historical testimony associates him with the Kos medical tradition as a prominent, named practitioner, though the cited source does not establish that he personally founded or formally led an institutional school; treated as weak inference only, corrected from the unsupported 'founded and is credited with leading' framing."
     },
     "persistence": {
-      "score": 58,
-      "confidence": 0.4,
+      "score": 42,
+      "confidence": 0.32,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "The sustained, methodical Epidemics case records, if attributable to him or his immediate school, suggest real persistence in systematic observation over extended periods."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- the original rationale already hedged with 'if attributable to him or his immediate school'; confidence/score trimmed for consistency with the rest of this audit rather than left inconsistently higher than equally-hedged rows.] The sustained, methodical Epidemics case records suggest real persistence in systematic observation by whoever compiled them over extended periods -- attributable to the Hippocratic school/Corpus tradition, not documented as personally Hippocrates' own sustained behavior."
     },
     "deep_focus": {
-      "score": 62,
-      "confidence": 0.42,
+      "score": 42,
+      "confidence": 0.3,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "The detailed, dated symptom-tracking in the Epidemics texts suggests real sustained concentrated observation of individual cases over time."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- same Epidemics-attribution problem as detail_orientation/discipline/persistence.] The detailed, dated symptom-tracking in the Epidemics texts suggests real sustained concentrated observation of individual cases by whoever recorded them -- attributable to the Corpus/school tradition, not documented as personally Hippocrates' own sustained attention."
     },
     "social_assertiveness": {
-      "score": 55,
-      "confidence": 0.4,
+      "score": 40,
+      "confidence": 0.3,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Establishing and sustaining a teaching medical school implies real comfort with public professional engagement, though direct evidence of personal manner is essentially absent for this era."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C/D -- the original rationale already acknowledged 'direct evidence of personal manner is essentially absent for this era'; confidence/score trimmed for consistency, since a school's institutional persistence says little about any one founder-figure's personal assertiveness.] Establishing and sustaining a teaching medical tradition implies some real comfort with public professional engagement by those who built and led it over generations -- direct evidence of Hippocrates' own personal manner is essentially absent for this era, so this remains a very weak inference."
     },
     "analytical_rigor": {
-      "score": 65,
-      "confidence": 0.44,
+      "score": 45,
+      "confidence": 0.32,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "The corpus's systematic case-by-case symptom tracking and causal reasoning about environment and disease evidences a real analytical method, tempered by uncertain individual authorship."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- the original rationale already flagged 'tempered by uncertain individual authorship' without fully adjusting for it; confidence/score trimmed for consistency with the rest of this audit.] The Corpus's systematic case-by-case symptom tracking and causal reasoning about environment and disease evidences a real analytical method within the tradition -- individual authorship is uncertain, so this is not documented as Hippocrates' own personal analytical process."
     },
     "collaboration": {
-      "score": 55,
-      "confidence": 0.4,
+      "score": 38,
+      "confidence": 0.28,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "The Hippocratic school's continued, multi-generational medical tradition after him suggests real capacity to build a sustained collaborative teaching community."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: B, and depends on the same unsupported 'founded' framing corrected in achievement_drive/leadership_drive.] The Hippocratic school's continued, multi-generational medical tradition after him suggests real capacity for sustained collaborative teaching within that tradition -- but the cited source does not establish that Hippocrates personally founded or built this community, only that he trained and practiced within it, so this is treated as weak inference only."
     },
     "risk_tolerance": {
-      "score": 55,
-      "confidence": 0.4,
+      "score": 40,
+      "confidence": 0.3,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Advocating a naturalistic account of disease that directly contradicted the era's dominant temple-medicine tradition carried real professional and social risk for the period."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: B/C -- the naturalistic stance is documented for the Corpus/school; some residual plausibility is kept because a practicing physician within this tradition plausibly bore some of the same professional risk, even if the specific texts aren't his.] Advocating a naturalistic account of disease that directly contradicted the era's dominant temple-medicine tradition carried real professional and social risk for practitioners of that school in this period; not documented as personally Hippocrates' own risk-taking specifically, but a physician closely associated with the tradition plausibly shared some of it."
     },
     "resourcefulness": {
-      "score": 55,
-      "confidence": 0.4,
+      "score": 40,
+      "confidence": 0.3,
       "evidenceType": "inference",
       "impact": "neutral",
-      "rationale": "Developing a systematic clinical method with the limited diagnostic tools available in ancient Greek medicine suggests real capacity to build effective method under real material constraint."
+      "rationale": "[ERROR_CORRECTION, roster30 post-PR attribution audit, 2026-09. Classification: C -- the clinical method described is the Corpus/school's, not documented as personally developed by Hippocrates.] Developing a systematic clinical method with the limited diagnostic tools available in ancient Greek medicine suggests real capacity to build effective method under real material constraint, within the tradition bearing his name -- not documented as personally Hippocrates' own individual development of that method."
     }
   },
+  "holdReason": "Roster30 post-PR evidence-attribution audit (2026-09) found that every one of this candidate's 21 scored rows rested, directly or indirectly, on the Hippocratic Corpus -- a heterogeneous collection whose individual works the already-cited Wikipedia source itself describes as 'probably produced by his students and followers' over generations, with authorship 'not conclusively answered.' Two rows (achievement_drive, leadership_drive) additionally rested on a 'founded a medical school on Kos' claim the same cited source does not support (he trained there; founding is not established), and impact_motivation rested on the Hippocratic Oath, which the cited source says was likely 'written after his death.' After honestly re-scoring every row to reflect what is actually attributable to Hippocrates personally (versus the school/tradition bearing his name, or an anonymous Corpus author), no row remains above inference-level evidence, and the corrected average confidence is far below any responsible individual-personality publication bar. This is a school-of-thought's textual record, not documented personal behavior of one man, and this project's own evidence discipline (docs/scoring-rubric-v1.md) does not permit converting the former into the latter regardless of how it affects roster composition. Returning to held is not a rejection of Hippocrates as a historical figure -- it reflects that his own individual documented life, distinct from the Corpus, is too thin under this project's rules to support a responsible personality profile. A future pass that finds genuine biographical testimonia about Hippocrates the individual (distinct from the disputed Corpus) could revisit this.",
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: ancient era, medicine domain (not represented anywhere in the current roster). Genuinely thinner evidence than Aristotle — the Hippocratic Corpus's individual authorship is a live scholarly debate (much of it is now attributed to his students/school rather than Hippocrates personally), so confidence throughout is capped meaningfully lower and evidenceType rarely reaches 'documented' — a deliberately conservative treatment consistent with the ancient/medieval evidence discipline, not a stretch to force eligibility."
+    "notes": "Third-batch diversity pick: ancient era, medicine domain (not represented anywhere in the current roster). Genuinely thinner evidence than Aristotle -- the Hippocratic Corpus's individual authorship is a live scholarly debate (much of it is now attributed to his students/school rather than Hippocrates personally), so confidence throughout is capped meaningfully lower and evidenceType rarely reaches 'documented' -- a deliberately conservative treatment consistent with the ancient/medieval evidence discipline, not a stretch to force eligibility. Roster30 promotion note (2026-09): this candidate was briefly promoted to evidence_approved and published as part of the Roster30 twenty-person zero-politics batch. Roster30 post-PR attribution audit (2026-09): a full row-by-row re-audit (triggered by post-PR review, not new research -- no new sources were consulted) found the promotion itself was the error: nearly every row converted anonymous/collective Hippocratic Corpus material into documented personal behavior of Hippocrates, and two rows plus the Oath-based row rested on claims (a founded school; personal authorship of the Oath) the candidate's own already-cited Wikipedia source does not support. Every row was corrected in place (see each row's own [ERROR_CORRECTION] tag) rather than deleted, so the honest record is preserved for any future reviewer. Status reverted from evidence_approved to held; see holdReason. Removed from the Roster30 generated production set (generateRoster30.ts, editorial content) as a mechanical consequence -- not a new rejection decision requiring rejectReason, since 'held' (not 'rejected') is the correct status for a candidate whose evidence is currently insufficient rather than permanently disqualified."
   },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.449 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hippocrates-cipb0341.jpg",
+    "width": 1200,
+    "height": 1703,
+    "source": "Bibliothèque interuniversitaire de Santé (Wikimedia Commons)",
+    "license": "Licence Ouverte 1.0",
+    "creator": "unknown",
+    "date": "undated",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hippocrates_CIPB0341.jpg",
+    "attribution": "Bibliothèque interuniversitaire de Santé"
+  }
 }

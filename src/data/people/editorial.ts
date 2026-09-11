@@ -6903,4 +6903,393 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       },
     ],
   },
+
+  "barbara-mcclintock": {
+    achievements: [
+      { id: "barbara-mcclintock-achievement-1", textKey: "barbara-mcclintock.achievement.1", sourceIds: ["src_mcclintock_keller"] },
+      { id: "barbara-mcclintock-achievement-2", textKey: "barbara-mcclintock.achievement.2", sourceIds: ["src_mcclintock_keller"] },
+    ],
+    moments: [
+      {
+        id: "barbara-mcclintock-moment-1",
+        textKey: "barbara-mcclintock.moment.1",
+        interpretationKey: "barbara-mcclintock.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_mcclintock_keller"],
+      },
+      {
+        id: "barbara-mcclintock-moment-2",
+        textKey: "barbara-mcclintock.moment.2",
+        interpretationKey: "barbara-mcclintock.interpretation.moment.2",
+        attributeId: "curiosity",
+        sourceIds: ["src_mcclintock_keller"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "chien-shiung-wu": {
+    achievements: [
+      { id: "chien-shiung-wu-achievement-1", textKey: "chien-shiung-wu.achievement.1", sourceIds: ["src_wu_ahf"] },
+      { id: "chien-shiung-wu-achievement-2", textKey: "chien-shiung-wu.achievement.2", sourceIds: ["src_wu_ahf", "src_wu_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "chien-shiung-wu-moment-1",
+        textKey: "chien-shiung-wu.moment.1",
+        interpretationKey: "chien-shiung-wu.interpretation.moment.1",
+        attributeId: "social_assertiveness",
+        sourceIds: ["src_wu_mit1964"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "chien-shiung-wu-turning-point-1",
+        textKey: "chien-shiung-wu.turning_point.1",
+        interpretationKey: "chien-shiung-wu.interpretation.turning_point.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_wu_michigan_berkeley"],
+      },
+    ],
+  },
+
+  "frederick-sanger": {
+    achievements: [
+      { id: "frederick-sanger-achievement-1", textKey: "frederick-sanger.achievement.1", sourceIds: ["src_sanger_royalsociety"] },
+      { id: "frederick-sanger-achievement-2", textKey: "frederick-sanger.achievement.2", sourceIds: ["src_sanger_royalsociety"] },
+    ],
+    moments: [
+      {
+        id: "frederick-sanger-moment-1",
+        textKey: "frederick-sanger.moment.1",
+        interpretationKey: "frederick-sanger.interpretation.moment.1",
+        attributeId: "curiosity",
+        sourceIds: ["src_sanger_royalsociety"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "hypatia": {
+    achievements: [
+      { id: "hypatia-achievement-1", textKey: "hypatia.achievement.1", sourceIds: ["src_hypatia_synesius"] },
+      { id: "hypatia-achievement-2", textKey: "hypatia.achievement.2", sourceIds: ["src_hypatia_synesius"] },
+    ],
+    moments: [
+      {
+        id: "hypatia-moment-1",
+        textKey: "hypatia.moment.1",
+        interpretationKey: "hypatia.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_hypatia_socratesscholasticus"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "jean-francois-champollion": {
+    achievements: [
+      { id: "jean-francois-champollion-achievement-1", textKey: "jean-francois-champollion.achievement.1", sourceIds: ["src_champollion_britannica"] },
+      { id: "jean-francois-champollion-achievement-2", textKey: "jean-francois-champollion.achievement.2", sourceIds: ["src_champollion_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "jean-francois-champollion-moment-1",
+        textKey: "jean-francois-champollion.moment.1",
+        interpretationKey: "jean-francois-champollion.interpretation.moment.1",
+        attributeId: "competitiveness",
+        sourceIds: ["src_champollion_britannica2"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "mary-shelley": {
+    achievements: [
+      { id: "mary-shelley-achievement-1", textKey: "mary-shelley.achievement.1", sourceIds: ["src_shelley_wikipedia"] },
+      { id: "mary-shelley-achievement-2", textKey: "mary-shelley.achievement.2", sourceIds: ["src_shelley_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "mary-shelley-moment-1",
+        textKey: "mary-shelley.moment.1",
+        interpretationKey: "mary-shelley.interpretation.moment.1",
+        attributeId: "deep_focus",
+        sourceIds: ["src_shelley_journals"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "omar-khayyam": {
+    achievements: [
+      { id: "omar-khayyam-achievement-1", textKey: "omar-khayyam.achievement.1", sourceIds: ["src_khayyam_algebra"] },
+      { id: "omar-khayyam-achievement-2", textKey: "omar-khayyam.achievement.2", sourceIds: ["src_khayyam_mactutor"] },
+    ],
+    moments: [
+      {
+        id: "omar-khayyam-moment-1",
+        textKey: "omar-khayyam.moment.1",
+        interpretationKey: "omar-khayyam.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_khayyam_wikipedia"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "mary-anning": {
+    achievements: [
+      { id: "mary-anning-achievement-1", textKey: "mary-anning.achievement.1", sourceIds: ["src_anning_nhm"] },
+      { id: "mary-anning-achievement-2", textKey: "mary-anning.achievement.2", sourceIds: ["src_anning_nhm"] },
+    ],
+    moments: [
+      {
+        id: "mary-anning-moment-1",
+        textKey: "mary-anning.moment.1",
+        interpretationKey: "mary-anning.interpretation.moment.1",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_anning_nhm"],
+      },
+      {
+        id: "mary-anning-moment-2",
+        textKey: "mary-anning.moment.2",
+        interpretationKey: "mary-anning.interpretation.moment.2",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_anning_nhm"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "al-khwarizmi": {
+    achievements: [
+      { id: "al-khwarizmi-achievement-1", textKey: "al-khwarizmi.achievement.1", sourceIds: ["src_alkhwarizmi_kitab"] },
+      { id: "al-khwarizmi-achievement-2", textKey: "al-khwarizmi.achievement.2", sourceIds: ["src_alkhwarizmi_mactutor"] },
+    ],
+    moments: [
+      {
+        id: "al-khwarizmi-moment-1",
+        textKey: "al-khwarizmi.moment.1",
+        interpretationKey: "al-khwarizmi.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_alkhwarizmi_mactutor"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "baruch-spinoza": {
+    achievements: [
+      { id: "baruch-spinoza-achievement-1", textKey: "baruch-spinoza.achievement.1", sourceIds: ["src_spinoza_ttp_ban"] },
+      { id: "baruch-spinoza-achievement-2", textKey: "baruch-spinoza.achievement.2", sourceIds: ["src_spinoza_correspondence"] },
+    ],
+    moments: [
+      {
+        id: "baruch-spinoza-moment-1",
+        textKey: "baruch-spinoza.moment.1",
+        interpretationKey: "baruch-spinoza.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_spinoza_herem"],
+      },
+      {
+        id: "baruch-spinoza-moment-2",
+        textKey: "baruch-spinoza.moment.2",
+        interpretationKey: "baruch-spinoza.interpretation.moment.2",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_spinoza_correspondence"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "sebastiao-salgado": {
+    achievements: [
+      { id: "sebastiao-salgado-achievement-1", textKey: "sebastiao-salgado.achievement.1", sourceIds: ["src_salgado_saltoftheearth"] },
+      { id: "sebastiao-salgado-achievement-2", textKey: "sebastiao-salgado.achievement.2", sourceIds: ["src_salgado_institutoterra"] },
+    ],
+    moments: [
+      {
+        id: "sebastiao-salgado-moment-1",
+        textKey: "sebastiao-salgado.moment.1",
+        interpretationKey: "sebastiao-salgado.interpretation.moment.1",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_salgado_saltoftheearth"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "jrr-tolkien": {
+    achievements: [
+      { id: "jrr-tolkien-achievement-1", textKey: "jrr-tolkien.achievement.1", sourceIds: ["src_jrrt_letters"] },
+      { id: "jrr-tolkien-achievement-2", textKey: "jrr-tolkien.achievement.2", sourceIds: ["src_jrrt_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "jrr-tolkien-moment-1",
+        textKey: "jrr-tolkien.moment.1",
+        interpretationKey: "jrr-tolkien.interpretation.moment.1",
+        attributeId: "collaboration",
+        sourceIds: ["src_jrrt_carpenter"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "antoni-gaudi": {
+    achievements: [
+      { id: "antoni-gaudi-achievement-1", textKey: "antoni-gaudi.achievement.1", sourceIds: ["src_gaudi_catenary"] },
+      { id: "antoni-gaudi-achievement-2", textKey: "antoni-gaudi.achievement.2", sourceIds: ["src_gaudi_sagradafamilia"] },
+    ],
+    moments: [
+      {
+        id: "antoni-gaudi-moment-1",
+        textKey: "antoni-gaudi.moment.1",
+        interpretationKey: "antoni-gaudi.interpretation.moment.1",
+        attributeId: "discipline",
+        sourceIds: ["src_gaudi_catenary"],
+      },
+      {
+        id: "antoni-gaudi-moment-2",
+        textKey: "antoni-gaudi.moment.2",
+        interpretationKey: "antoni-gaudi.interpretation.moment.2",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_gaudi_sagradafamilia"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "georgia-okeeffe": {
+    achievements: [
+      { id: "georgia-okeeffe-achievement-1", textKey: "georgia-okeeffe.achievement.1", sourceIds: ["src_okeeffe_met"] },
+      { id: "georgia-okeeffe-achievement-2", textKey: "georgia-okeeffe.achievement.2", sourceIds: ["src_okeeffe_artnews"] },
+    ],
+    moments: [
+      {
+        id: "georgia-okeeffe-moment-1",
+        textKey: "georgia-okeeffe.moment.1",
+        interpretationKey: "georgia-okeeffe.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_okeeffe_smithsonian"],
+      },
+      {
+        id: "georgia-okeeffe-moment-2",
+        textKey: "georgia-okeeffe.moment.2",
+        interpretationKey: "georgia-okeeffe.interpretation.moment.2",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_okeeffe_smithsonian"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "andrew-carnegie": {
+    achievements: [
+      { id: "andrew-carnegie-achievement-1", textKey: "andrew-carnegie.achievement.1", sourceIds: ["src_carnegie_gilder"] },
+      { id: "andrew-carnegie-achievement-2", textKey: "andrew-carnegie.achievement.2", sourceIds: ["src_carnegie_gospel"] },
+    ],
+    moments: [
+      {
+        id: "andrew-carnegie-moment-1",
+        textKey: "andrew-carnegie.moment.1",
+        interpretationKey: "andrew-carnegie.interpretation.moment.1",
+        attributeId: "independent_thinking",
+        sourceIds: ["src_carnegie_gospel"],
+      },
+      {
+        id: "andrew-carnegie-moment-2",
+        textKey: "andrew-carnegie.moment.2",
+        interpretationKey: "andrew-carnegie.interpretation.moment.2",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_carnegie_homestead"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "madam-cj-walker": {
+    achievements: [
+      { id: "madam-cj-walker-achievement-1", textKey: "madam-cj-walker.achievement.1", sourceIds: ["src_walker_blackpast"] },
+      { id: "madam-cj-walker-achievement-2", textKey: "madam-cj-walker.achievement.2", sourceIds: ["src_walker_smithsonian"] },
+    ],
+    moments: [
+      {
+        id: "madam-cj-walker-moment-1",
+        textKey: "madam-cj-walker.moment.1",
+        interpretationKey: "madam-cj-walker.interpretation.moment.1",
+        attributeId: "impact_motivation",
+        sourceIds: ["src_walker_gilder"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "madam-cj-walker-turning-point-1",
+        textKey: "madam-cj-walker.turning_point.1",
+        interpretationKey: "madam-cj-walker.interpretation.turning_point.1",
+        attributeId: "leadership_drive",
+        sourceIds: ["src_walker_smithsonian"],
+      },
+    ],
+  },
+
+  "jesse-owens": {
+    achievements: [
+      { id: "jesse-owens-achievement-1", textKey: "jesse-owens.achievement.1", sourceIds: ["src_owens_olympedia"] },
+      { id: "jesse-owens-achievement-2", textKey: "jesse-owens.achievement.2", sourceIds: ["src_owens_wikipedia"] },
+    ],
+    moments: [
+      {
+        id: "jesse-owens-moment-1",
+        textKey: "jesse-owens.moment.1",
+        interpretationKey: "jesse-owens.interpretation.moment.1",
+        attributeId: "persistence",
+        sourceIds: ["src_owens_wikipedia"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "roald-amundsen": {
+    achievements: [
+      { id: "roald-amundsen-achievement-1", textKey: "roald-amundsen.achievement.1", sourceIds: ["src_amundsen_southpole_wiki"] },
+      { id: "roald-amundsen-achievement-2", textKey: "roald-amundsen.achievement.2", sourceIds: ["src_amundsen_inuit"] },
+    ],
+    moments: [
+      {
+        id: "roald-amundsen-moment-1",
+        textKey: "roald-amundsen.moment.1",
+        interpretationKey: "roald-amundsen.interpretation.moment.1",
+        attributeId: "risk_tolerance",
+        sourceIds: ["src_amundsen_secrecy"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "paul-erdos": {
+    achievements: [
+      { id: "paul-erdos-achievement-1", textKey: "paul-erdos.achievement.1", sourceIds: ["src_pe_hoffman"] },
+      { id: "paul-erdos-achievement-2", textKey: "paul-erdos.achievement.2", sourceIds: ["src_pe_hoffman"] },
+    ],
+    moments: [
+      {
+        id: "paul-erdos-moment-1",
+        textKey: "paul-erdos.moment.1",
+        interpretationKey: "paul-erdos.interpretation.moment.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_pe_hoffman"],
+      },
+    ],
+    turningPoints: [
+      {
+        id: "paul-erdos-turning-point-1",
+        textKey: "paul-erdos.turning_point.1",
+        interpretationKey: "paul-erdos.interpretation.turning_point.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_pe_schechter"],
+      },
+    ],
+  },
 };

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "omar-khayyam",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Omar Khayyam",
     "wikidataId": "Q35900",
@@ -200,9 +200,21 @@
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Third-batch diversity pick: medieval, west_asia (Seljuk Persia), a genuinely dual mathematics/literature domain profile not represented elsewhere in the roster. Rubaiyat authorship/exact-poem attribution is a real, acknowledged scholarly uncertainty — confidence on poetry-derived traits (independent_thinking, risk_tolerance, conflict_tolerance) is capped lower to reflect this honestly, while the mathematical/astronomical work rests on firmer, less contested attribution."
   },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.482 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/omar-khayyam-venediktov.jpg",
+    "width": 990,
+    "height": 1464,
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0 Unported / GFDL",
+    "creator": "A. Venediktov",
+    "date": "undated",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Omar_Khayyam2.JPG",
+    "attribution": "A. Venediktov"
+  }
 }

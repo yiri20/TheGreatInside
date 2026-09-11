@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "roald-amundsen",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Roald Amundsen",
     "wikidataId": "Q926",
@@ -97,13 +97,22 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/roald-amundsen-1913.jpg",
+    "width": 1280,
+    "height": 1574,
+    "source": "Library of Congress",
+    "license": "PD-old-70-expired (published pre-1931)",
+    "creator": "unknown",
+    "date": "1913",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Roald_Amundsen,_half-length_portrait,_standing,_facing_slightly_right_LCCN2001696802.jpg",
+    "attribution": "Library of Congress, 1913"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (exploration) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q926) before any research began. A factual evidence ledger (11 distinct episodes) was built and locked before any trait score was assigned. Scoring was locked BEFORE eligibility_v2 was consulted."
-  },
-  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.152 (need 0.6); HC count 5/12; HC average 0.630 (PASSES this sub-requirement)."
+  }
 }
