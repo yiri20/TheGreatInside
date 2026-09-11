@@ -10,6 +10,9 @@ import { SEED_PEOPLE } from "@data/people/seed";
 import { computeResultView } from "@core/results/resultView";
 import { attributeName, renderComparison } from "@core/interpretation/rules";
 import type { TraitComparison } from "@core/types";
+import { PROFESSION_CATEGORIES } from "@core/people/directoryTaxonomy";
+import { parseInterestScope, selectInterestMatch, type InterestScope } from "@core/matching/interestScope";
+import type { RankedMatch } from "@core/matching/similarity";
 import { NOINDEX_FOLLOW } from "@lib/seo";
 import { siteUrl } from "@lib/env";
 import {
@@ -45,6 +48,18 @@ interface PageParams {
 }
 interface PageSearchParams {
   r?: string;
+  /** Optional interest-area viewing preference — deliberately separate from
+   *  `r` (the actual serialized quiz result). Missing/invalid values safely
+   *  behave as "all" — see core/matching/interestScope.ts. */
+  scope?: string;
+}
+
+/** Builds a Results URL that preserves `r` exactly and represents the
+ *  viewing scope as its own query param, omitted entirely for "all" so the
+ *  default-flow URL is unchanged from before this feature existed. */
+function resultsUrl(locale: Locale, token: string, scope: InterestScope): string {
+  const scopeSuffix = scope !== "all" ? `&scope=${scope}` : "";
+  return `/${locale}/results?r=${encodeURIComponent(token)}${scopeSuffix}`;
 }
 
 /**
@@ -85,6 +100,127 @@ function closestMatchExplanation(locale: Locale, closestTraits: readonly TraitCo
   return top ? renderComparison(locale, top, personName) : undefined;
 }
 
+/**
+ * One "closest match" spotlight card — used for both the plain global
+ * closest match (scope "all", unchanged from before this feature existed)
+ * and the interest-area match when a category is selected. `showFullComparison`
+ * is deliberately independent of which card this is visually: the
+ * `#comparison` deep-dive section further down the page is ALWAYS built
+ * from the true global closest match (per this feature's own rule that
+ * deeper result sections stay on the global computation), so only whichever
+ * card actually represents that person should link to it. `showShare`
+ * likewise attaches the one Share action to whichever card is rendered
+ * first/primary for the current view, never duplicated across both cards.
+ */
+function ClosestMatchCard({
+  locale,
+  r,
+  scope,
+  match,
+  heading,
+  showFullComparison,
+  showShare,
+  note,
+}: {
+  locale: Locale;
+  r: string;
+  scope: InterestScope;
+  match: RankedMatch;
+  heading: string;
+  showFullComparison: boolean;
+  showShare: boolean;
+  note?: string;
+}) {
+  const name = personDisplayName(locale, match.person);
+  return (
+    <Stack gap={4}>
+      <Heading level={2}>{heading}</Heading>
+      <Card variant="feature">
+        <Stack gap={4}>
+          <IdentityHero name={name} {...(match.person.portrait ? { portraitUrl: match.person.portrait.url } : {})}>
+            <Stack gap={2}>
+              <Heading level={3} className="tgi-person-name">{name}</Heading>
+              <Text tone="muted">
+                {[occupationLabel(locale, match.person.occupationIds[0]), t(locale, `era.${match.person.era}` as MessageKey)]
+                  .filter(Boolean)
+                  .join(" · ")}
+              </Text>
+              <div>
+                <span className="tgi-personcard__match-value tgi-numeric">{formatMatch(match.overallMatch)}</span>{" "}
+                <span className="tgi-text--muted">{t(locale, "label.profile_match")}</span>
+              </div>
+            </Stack>
+          </IdentityHero>
+          {(() => {
+            const line = closestMatchExplanation(locale, match.closestTraits, name);
+            return line ? <Text tone="secondary">{line}</Text> : null;
+          })()}
+          <Cluster gap={3}>
+            <Button
+              href={
+                match.closestTraits[0]
+                  ? `/${locale}/people/${match.person.slug}?why=match&trait=${match.closestTraits[0].attributeId}`
+                  : `/${locale}/people/${match.person.slug}`
+              }
+            >
+              {t(locale, "results.cta.view_profile")}
+            </Button>
+            {showFullComparison ? (
+              <Button variant="secondary" href={`#comparison`}>
+                {t(locale, "results.cta.full_comparison")}
+              </Button>
+            ) : null}
+            <Button variant="quiet" href={`/${locale}/compare/${match.person.slug}?r=${encodeURIComponent(r)}`}>
+              {t(locale, "compare.cta.from_results", { person: name })}
+            </Button>
+            {showShare ? (
+              <ShareButton
+                locale={locale}
+                label={t(locale, "share.results.label")}
+                shareTitle={t(locale, "meta.results.title")}
+                url={`${siteUrl()}${resultsUrl(locale, r, scope)}`}
+              />
+            ) : null}
+          </Cluster>
+          {note ? <Text tone="secondary">{note}</Text> : null}
+          {showShare ? <Text tone="muted">{t(locale, "share.disclosure.results")}</Text> : null}
+        </Stack>
+      </Card>
+    </Stack>
+  );
+}
+
+/**
+ * Compact Results-only control (section H): explore another interest area
+ * without retaking the quiz. Plain URL navigation — preserves `r` exactly,
+ * changes only `scope` — so it works with browser back/forward and needs no
+ * client-side state. Always rendered (even at scope "all") so a user who
+ * ignored the quiz-intro picker can still reach a category view afterward.
+ */
+function InterestScopeSwitcher({ locale, r, current }: { locale: Locale; r: string; current: InterestScope }) {
+  const options: { id: InterestScope; label: string }[] = [
+    { id: "all", label: t(locale, "people.directory.all") },
+    ...PROFESSION_CATEGORIES.map((c) => ({ id: c.id, label: t(locale, c.labelKey) })),
+  ];
+  return (
+    <nav aria-label={t(locale, "results.interest_switcher_label")}>
+      <Cluster gap={3}>
+        {options.map((opt) =>
+          opt.id === current ? (
+            <Text key={opt.id} tone="secondary">
+              <strong aria-current={true}>{opt.label}</strong>
+            </Text>
+          ) : (
+            <Button key={opt.id} variant="quiet" href={resultsUrl(locale, r, opt.id)}>
+              {opt.label}
+            </Button>
+          ),
+        )}
+      </Cluster>
+    </nav>
+  );
+}
+
 export default async function ResultsPage({
   params,
   searchParams,
@@ -96,8 +232,9 @@ export default async function ResultsPage({
   if (!LAUNCH_LOCALES.includes(localeParam as Locale)) notFound();
   const locale = localeParam as Locale;
 
-  const { r } = await searchParams;
+  const { r, scope: rawScope } = await searchParams;
   const decoded = r ? decodeResultToken(decodeURIComponent(r), QUIZ) : undefined;
+  const interestScope = parseInterestScope(rawScope);
 
   if (!decoded) {
     return (
@@ -130,6 +267,13 @@ export default async function ResultsPage({
   const { results, greatness, signature, highlights, resultArchetype, advantage } = computeResultView(user, SEED_PEOPLE);
   const closest = results.closest;
   const peopleById = new Map(SEED_PEOPLE.map((p) => [p.id, p]));
+
+  // Interest-area viewing preference: a pure post-hoc filter over the
+  // already-computed, already-honest `results.ranked` — never a second
+  // matching calculation. See core/matching/interestScope.ts.
+  const interestCategory = PROFESSION_CATEGORIES.find((c) => c.id === interestScope);
+  const interestMatch = selectInterestMatch(results.ranked, interestScope);
+  const interestIsGlobalClosest = Boolean(interestMatch && closest && interestMatch.personId === closest.personId);
 
   return (
     <main className="tgi-container" style={{ paddingTop: "3rem", paddingBottom: "6rem" }}>
@@ -197,83 +341,68 @@ export default async function ResultsPage({
         <Divider />
 
         {/* ================================================ 2. closest match */}
+        {/* Interest-area viewing preference (optional): when a category is
+            selected, the category match is surfaced first, with the true
+            global closest match always shown too (never hidden) unless it's
+            literally the same person — see ClosestMatchCard's own doc
+            comment and core/matching/interestScope.ts for the "viewing
+            preference only, never an input into scoring" rule. At scope
+            "all" this renders exactly as before this feature existed,
+            aside from the new switcher itself. */}
         {closest ? (
-          <Stack gap={4} as="section">
-            <Heading level={2}>{t(locale, "label.closest_match")}</Heading>
-            <Card variant="feature">
-              <Stack gap={4}>
-                {/* Phase 10D-1: extracted into IdentityHero — see that
-                    file's doc comment. Rendered output unchanged. */}
-                <IdentityHero
-                  name={personDisplayName(locale, closest.person)}
-                  {...(closest.person.portrait ? { portraitUrl: closest.person.portrait.url } : {})}
-                >
-                  <Stack gap={2}>
-                    <Heading level={3} className="tgi-person-name">{personDisplayName(locale, closest.person)}</Heading>
-                    <Text tone="muted">
-                      {[
-                        occupationLabel(locale, closest.person.occupationIds[0]),
-                        t(locale, `era.${closest.person.era}` as MessageKey),
-                      ]
-                        .filter(Boolean)
-                        .join(" · ")}
-                    </Text>
-                    <div>
-                      <span className="tgi-personcard__match-value tgi-numeric">{formatMatch(closest.overallMatch)}</span>{" "}
-                      <span className="tgi-text--muted">{t(locale, "label.profile_match")}</span>
-                    </div>
-                  </Stack>
-                </IdentityHero>
-                {(() => {
-                  const line = closestMatchExplanation(locale, closest.closestTraits, personDisplayName(locale, closest.person));
-                  return line ? <Text tone="secondary">{line}</Text> : null;
-                })()}
-                <Cluster gap={3}>
-                  {/* Editorial-depth item 20 (Results -> profile connection):
-                      pass the trait that actually drove this match as a
-                      plain, human-readable query param — MatchContextBanner
-                      on the person page reads it to explain "why you're
-                      here," with no result-token decoding or recomputation
-                      on that page. closest.closestTraits[0] is already the
-                      top driving trait per matchUserToPerson's own sort. */}
-                  <Button
-                    href={
-                      closest.closestTraits[0]
-                        ? `/${locale}/people/${closest.person.slug}?why=match&trait=${closest.closestTraits[0].attributeId}`
-                        : `/${locale}/people/${closest.person.slug}`
-                    }
-                  >
-                    {t(locale, "results.cta.view_profile")}
-                  </Button>
-                  <Button variant="secondary" href={`#comparison`}>
-                    {t(locale, "results.cta.full_comparison")}
-                  </Button>
-                  {/* Stage 7E: the Phase 7 "You x [Person]" comparison route.
-                      `compare.cta.from_results` was authored provisionally
-                      but never rendered anywhere — this is that wiring. */}
-                  <Button
-                    variant="quiet"
-                    href={`/${locale}/compare/${closest.person.slug}?r=${encodeURIComponent(r!)}`}
-                  >
-                    {t(locale, "compare.cta.from_results", { person: personDisplayName(locale, closest.person) })}
-                  </Button>
-                  {/* Stage B Part 3: highest-priority Share surface. The
-                      exact current Results URL, including the full
-                      result token — that token is what reconstructs the
-                      anonymous shareable result, never shortened/saved/
-                      replaced. Uses the generic TGI OG image in v1
-                      (Section E of the audit — dynamic Results OG is
-                      explicitly deferred, not built here). */}
-                  <ShareButton
+          <Stack gap={5} as="section">
+            <InterestScopeSwitcher locale={locale} r={r!} current={interestScope} />
+            {interestScope !== "all" && interestCategory ? (
+              interestMatch ? (
+                <>
+                  <ClosestMatchCard
                     locale={locale}
-                    label={t(locale, "share.results.label")}
-                    shareTitle={t(locale, "meta.results.title")}
-                    url={`${siteUrl()}/${locale}/results?r=${encodeURIComponent(r!)}`}
+                    r={r!}
+                    scope={interestScope}
+                    match={interestMatch}
+                    heading={t(locale, "results.interest_heading", { category: t(locale, interestCategory.labelKey) })}
+                    showFullComparison={interestIsGlobalClosest}
+                    showShare={true}
+                    {...(interestIsGlobalClosest ? { note: t(locale, "results.interest_duplicate_note") } : {})}
                   />
-                </Cluster>
-                <Text tone="muted">{t(locale, "share.disclosure.results")}</Text>
-              </Stack>
-            </Card>
+                  {!interestIsGlobalClosest ? (
+                    <ClosestMatchCard
+                      locale={locale}
+                      r={r!}
+                      scope={interestScope}
+                      match={closest}
+                      heading={t(locale, "results.interest_heading_global")}
+                      showFullComparison={true}
+                      showShare={false}
+                    />
+                  ) : null}
+                </>
+              ) : (
+                // No ranked person belongs to this category for this user's
+                // own result (should be rare given healthy category pools) —
+                // fall back to the honest global closest rather than
+                // fabricate a category result.
+                <ClosestMatchCard
+                  locale={locale}
+                  r={r!}
+                  scope={interestScope}
+                  match={closest}
+                  heading={t(locale, "label.closest_match")}
+                  showFullComparison={true}
+                  showShare={true}
+                />
+              )
+            ) : (
+              <ClosestMatchCard
+                locale={locale}
+                r={r!}
+                scope={interestScope}
+                match={closest}
+                heading={t(locale, "label.closest_match")}
+                showFullComparison={true}
+                showShare={true}
+              />
+            )}
           </Stack>
         ) : null}
 
