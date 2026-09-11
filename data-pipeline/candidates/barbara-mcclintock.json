@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "barbara-mcclintock",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Barbara McClintock",
     "wikidataId": "Q199654",
@@ -44,7 +44,7 @@
     },
     {
       "id": "src_mcclintock_keller",
-      "kind": "book",
+      "kind": "biography",
       "title": "Evelyn Fox Keller, A Feeling for the Organism: The Life and Work of Barbara McClintock (1983), based on extensive interviews with McClintock and her colleagues"
     }
   ],
@@ -99,11 +99,11 @@
       "rationale": "Documented reputation (Keller's biography) as possessing an unusually deep, almost intuitive technical mastery of maize cytogenetics specifically, developed over decades of sustained work with a single research organism."
     },
     "analytical_rigor": {
-      "score": 90,
-      "confidence": 0.5,
-      "evidenceType": "strong_inference",
-      "impact": "advantage",
-      "rationale": "The eventual vindication and Nobel recognition of her transposable-element work implies the underlying analysis was rigorous even when the field initially rejected the conclusion, inferred from the eventual outcome rather than a documented account of her specific analytical process."
+      "score": 65,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[RUBRIC_CORRECTION, roster30 row audit: the prior rationale inferred rigor from the theory's eventual Nobel-era vindication -- an outcome-based inference this project's own scoring discipline (trait scores derive from documented behavior, never from how things later turned out, per the same 'success/outcome != trait' principle already applied elsewhere in this file's own risk_tolerance row) does not support. Narrowed to a modest, process-grounded basis instead.] The sustained, fine-grained cytogenetic mapping needed to track chromosome-breakage patterns across successive maize generations implies real analytical care in method, inferred from the documented technical nature of the research itself rather than from its later reception."
     },
     "curiosity": {
       "score": 80,
@@ -192,9 +192,21 @@
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- no inherited position, a scientist's reputation resting entirely on her own individually credited discoveries, eventually recognized with a sole (not shared) Nobel Prize. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
+    "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- no inherited position, a scientist's reputation resting entirely on her own individually credited discoveries, eventually recognized with a sole (not shared) Nobel Prize. Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record. RUBRIC_CORRECTION (roster30, 2026-09): analytical_rigor narrowed from an outcome-based inference (eventual Nobel vindication) to a modest, process-grounded basis; see the row's own rationale for detail."
   },
-  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing Evelyn Fox Keller's definitive biography, then a real second round adding the documented 1951 presentation risk and her documented scientific curiosity about the anomalous chromosome pattern): avgConf 0.505 vs 0.55 floor, coverage 0.604 (clear). Her career is unusually well-documented on the SCIENTIFIC content of her work but comparatively thin, even in Keller's biography, on many of the specific behavioral/interpersonal dimensions this taxonomy scores."
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/barbara-mcclintock-gotfryd-1981.jpg",
+    "width": 1280,
+    "height": 1898,
+    "source": "Library of Congress, Prints and Photographs Division",
+    "license": "No known restrictions on publication",
+    "creator": "Bernard Gotfryd",
+    "date": "1981",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Barbara_McClintock_(by_Bernard_Gotfryd)_%E2%80%93_LOC.jpg",
+    "attribution": "Bernard Gotfryd, 1981"
+  }
 }

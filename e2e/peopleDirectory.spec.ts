@@ -486,8 +486,21 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // people; none of the 15 new people cross both the curiosity and
   // collaboration z-score thresholds simultaneously, so the filtered count
   // of 6 is unchanged.
-  expect(bodyText).toMatch(/전체\s*185명\s*중\s*6명/);
+  // Total updated again 185->205 (roster30 twenty-person zero-politics
+  // batch: 20 new people). Verified directly against the real
+  // personExhibitsTrait()/filterPeople() call: Paul Erdős genuinely crosses
+  // BOTH thresholds this time -- curiosity 92 (confidence 0.68) and
+  // collaboration 96 (confidence 0.78), both far above the population mean,
+  // are his real evidence_approved scores (documented lifetime output of
+  // ~1,525 papers and 511 distinct co-authors respectively), not adjusted
+  // to hit this filter. None of the other 19 new people cross both
+  // thresholds. This is a real, honest addition to the filtered set,
+  // raising the count from 6 to 7 -- not a newly match-eligible person (he
+  // remains isMatchEligible: false; this filter is a Directory browse aid,
+  // unrelated to eligibility_v2).
+  expect(bodyText).toMatch(/전체\s*205명\s*중\s*7명/);
   expect(bodyText).toContain("베라 루빈");
+  expect(bodyText).toContain("에르되시");
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {

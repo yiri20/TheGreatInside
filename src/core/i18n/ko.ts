@@ -689,6 +689,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "people.directory.section_selected_count": "{count}개 선택",
 
   "field.philosophy": "철학",
+  "field.linguistics": "언어학",
   "field.natural_science": "자연과학",
   "field.mathematics": "수학",
   "field.physics": "물리학",
@@ -1838,6 +1839,28 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.ratan-tata": "라탄 타타",
   "person.name.indira-gandhi": "인디라 간디",
   "person.name.ibn-al-haytham": "이븐 알하이삼",
+
+  // Roster30 twenty-person zero-politics batch (2026-09).
+  "person.name.hippocrates": "히포크라테스",
+  "person.name.barbara-mcclintock": "바버라 매클린톡",
+  "person.name.chien-shiung-wu": "우젠슝",
+  "person.name.frederick-sanger": "프레더릭 생어",
+  "person.name.hypatia": "히파티아",
+  "person.name.jean-francois-champollion": "장프랑수아 샹폴리옹",
+  "person.name.mary-shelley": "메리 셸리",
+  "person.name.omar-khayyam": "오마르 하이얌",
+  "person.name.mary-anning": "메리 애닝",
+  "person.name.al-khwarizmi": "알콰리즈미",
+  "person.name.baruch-spinoza": "바뤼흐 스피노자",
+  "person.name.sebastiao-salgado": "세바스티앙 살가두",
+  "person.name.jrr-tolkien": "J. R. R. 톨킨",
+  "person.name.antoni-gaudi": "안토니 가우디",
+  "person.name.georgia-okeeffe": "조지아 오키프",
+  "person.name.andrew-carnegie": "앤드루 카네기",
+  "person.name.madam-cj-walker": "마담 C.J. 워커",
+  "person.name.jesse-owens": "제시 오언스",
+  "person.name.roald-amundsen": "로알 아문센",
+  "person.name.paul-erdos": "폴 에르되시",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

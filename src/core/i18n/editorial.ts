@@ -3828,6 +3828,222 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Continuing substantial scientific work through a prolonged, dangerous confinement is the basis for the profile's resourcefulness score.",
   "ibn-al-haytham.interpretation.turning_point.1":
     "Redirecting from a failed practical engineering proposal into a sustained, different research program is the basis for the profile's adaptability score.",
+
+  "hippocrates.achievement.1":
+    "Developed a naturalistic framework for medicine that attributed illness to natural causes -- environment, diet, bodily humors -- rather than religious or magical explanation, a documented departure from the dominant temple-medicine tradition of the era.",
+  "hippocrates.achievement.2":
+    "Founded a medical teaching tradition on the island of Kos that trained and influenced generations of physicians after him, credited with helping establish medicine as a documented, teachable discipline distinct from religious healing.",
+  "hippocrates.moment.1":
+    "In the work On the Sacred Disease, reframed epilepsy as a physical ailment rather than a divine affliction -- a direct, explicit argument against the era's dominant religious framework for illness.",
+  "hippocrates.interpretation.moment.1":
+    "Directly contradicting the dominant explanatory framework of his era, in writing, is the basis for the profile's independent_thinking score.",
+
+  "barbara-mcclintock.achievement.1":
+    "Proposed the existence of mobile genetic elements (\"jumping genes\") in the 1940s-50s, in direct contradiction to the field's prevailing model of a fixed genome -- an idea that drew substantial skepticism for decades before the field caught up and she received the 1983 Nobel Prize, more than thirty years after her first description of the phenomenon.",
+  "barbara-mcclintock.achievement.2":
+    "Built an unusually deep, near-intuitive technical mastery of maize cytogenetics over decades of sustained work at Cold Spring Harbor Laboratory, developing her own cytogenetic staining and chromosome-mapping techniques along the way.",
+  "barbara-mcclintock.moment.1":
+    "Anticipated that her 1951 presentation on transposable elements would be poorly received by the genetics establishment at Cold Spring Harbor -- and presented the finding anyway rather than withholding it.",
+  "barbara-mcclintock.interpretation.moment.1":
+    "Knowingly presenting a finding she expected to be rejected, rather than holding it back, is the basis for the profile's risk_tolerance score.",
+  "barbara-mcclintock.moment.2":
+    "Pursued an anomalous, unexplained pattern of chromosome breakage in maize specifically because the pattern itself intrigued her, rather than dismissing it as experimental noise -- the more common response, and the specific observation her Nobel-winning discovery grew out of.",
+  "barbara-mcclintock.interpretation.moment.2":
+    "Choosing to investigate an unexplained anomaly rather than write it off as noise is the basis for the profile's curiosity score.",
+
+  "chien-shiung-wu.achievement.1":
+    "Designed and personally executed the 1956 cobalt-60 beta-decay experiment, conducted at near-absolute-zero temperatures, that disproved the assumed conservation of parity -- a foundational symmetry of physics -- directly leading to Lee and Yang's 1957 Nobel Prize based on her experimental confirmation of their theory.",
+  "chien-shiung-wu.achievement.2":
+    "During the Manhattan Project, developed improved Geiger counter methods and identified the specific cause of xenon poisoning that had shut down the Hanford B Reactor's plutonium production -- a concrete technical diagnosis credited with getting production running again.",
+  "chien-shiung-wu.moment.1":
+    "At a 1964 MIT symposium on \"American Women in Science,\" publicly challenged the exclusion of women from science, asking aloud whether \"the tiny atoms and nuclei, the mesons and hyperons ... have any preference for either masculine or feminine treatment.\"",
+  "chien-shiung-wu.interpretation.moment.1":
+    "Publicly raising this question at a scientific symposium, beyond her own personal recognition, is the basis for the profile's social_assertiveness score.",
+  "chien-shiung-wu.turning_point.1":
+    "As a student, on learning that women were barred from the University of Michigan student union's main entrance, chose to attend the University of California, Berkeley instead.",
+  "chien-shiung-wu.interpretation.turning_point.1":
+    "Making a concrete institutional choice in direct response to a specific discriminatory barrier is the basis for the profile's proactive_agency score.",
+
+  "frederick-sanger.achievement.1":
+    "One of only two people to win the Nobel Prize in Chemistry twice -- in 1958 for determining the structure of insulin via protein sequencing, and in 1980 for developing a method to sequence nucleic acids -- two distinct methodological breakthroughs decades apart.",
+  "frederick-sanger.achievement.2":
+    "Spent his entire academic career at Cambridge focused on sequencing methodology specifically, rather than a broader or more varied research agenda, sustaining that focus across both breakthroughs.",
+  "frederick-sanger.moment.1":
+    "After already achieving the field's highest recognition for protein sequencing, moved into the substantially different technical domain of nucleic-acid sequencing -- described by colleagues and biographical accounts as personally reserved and non-self-promoting even as this second body of work also won a Nobel Prize.",
+  "frederick-sanger.interpretation.moment.1":
+    "Choosing to move into a new technical domain after already reaching the top of his field, rather than remaining in established territory, is the basis for the profile's curiosity score.",
+
+  "hypatia.achievement.1":
+    "Headed the Neoplatonist philosophical school in Alexandria, teaching mathematics, astronomy, and philosophy, and training students who went on to prominent positions -- including Synesius of Cyrene, who later became a bishop and whose surviving letters to her are a primary source for her life.",
+  "hypatia.achievement.2":
+    "Sustained a documented mentoring relationship with Synesius of Cyrene that continued well beyond his formal years of study under her, evidenced by his own surviving correspondence addressed to her as a respected, actively-sought-after advisor.",
+  "hypatia.moment.1":
+    "Continued her public teaching and her advisory role to the Roman prefect Orestes even as tension between Orestes and Bishop Cyril of Alexandria escalated in the years before her death -- a documented pattern of sustained behavior, not a claim drawn from the outcome that followed it.",
+  "hypatia.interpretation.moment.1":
+    "Continuing a public role that was known to carry real risk, judged from her behavior rather than from how events later unfolded, is the basis for the profile's risk_tolerance score.",
+
+  "jean-francois-champollion.achievement.1":
+    "Deciphered Egyptian hieroglyphs, presenting the breakthrough to the Academie des Inscriptions et Belles-Lettres on 27 September 1822: hieroglyphs combined alphabetic, syllabic, and determinative signs, rather than being purely symbolic as the field had assumed -- founding the discipline of scientific Egyptology.",
+  "jean-francois-champollion.achievement.2":
+    "Mastered six ancient and Oriental languages -- Latin, Greek, Hebrew, Chaldean, Arabic, and Syriac -- by age twelve, well beyond any institutional requirement of the time.",
+  "jean-francois-champollion.moment.1":
+    "Delivered his decisive 27 September 1822 presentation with his chief scholarly rival, the English polymath Thomas Young, present in the audience.",
+  "jean-francois-champollion.interpretation.moment.1":
+    "Presenting a field-redefining finding directly to a rival scholar in a formal, high-stakes venue, rather than through indirect publication, is the basis for the profile's competitiveness score.",
+
+  "mary-shelley.achievement.1":
+    "Wrote Frankenstein at eighteen and nineteen years old, a work now widely credited as foundational to modern science fiction as a genre, directly engaging contemporary scientific debates about galvanism and the nature of creation rather than offering a simple morality tale.",
+  "mary-shelley.achievement.2":
+    "After her husband Percy Shelley's death left her a widow, rebuilt her financial independence entirely through her own professional writing and editorial work -- including further novels and extensive scholarly editing of Percy Shelley's poetry -- to support herself and her surviving son.",
+  "mary-shelley.moment.1":
+    "Began writing what became Frankenstein during the 1816 Geneva ghost-story-writing competition among the Byron-Shelley circle, then substantially expanded the story into a full novel over the following months.",
+  "mary-shelley.interpretation.moment.1":
+    "Turning a short competitive exercise into a sustained, expanded creative project is the basis for the profile's deep_focus score.",
+
+  "omar-khayyam.achievement.1":
+    "In his Treatise on Demonstration of Problems of Algebra, systematically classified cubic equations by type and solved them through geometric construction using intersecting conic sections -- a genuinely original method for its era, later recognized as a milestone in the history of algebra.",
+  "omar-khayyam.achievement.2":
+    "Helped devise the Jalali calendar for the Seljuk court, an astronomical reform project noted for its precision -- more accurate, over a long timescale, than the Gregorian calendar developed five centuries later.",
+  "omar-khayyam.moment.1":
+    "The Rubaiyat, the poetry collection most associated with his name, takes a skeptical, questioning stance toward religious orthodoxy and fate -- a genuinely distinctive intellectual position for its era, though the exact authorship and translation history of individual quatrains carries real scholarly uncertainty.",
+  "omar-khayyam.interpretation.moment.1":
+    "Taking a skeptical public stance against religious orthodoxy, even allowing for attribution uncertainty in the poems themselves, is part of the basis for the profile's independent_thinking score.",
+
+  "mary-anning.achievement.1":
+    "Found and correctly identified a sequence of major fossil specimens across her career -- the first correctly-identified ichthyosaur skeleton (1811), the first plesiosaur skeleton (1821), and the first pterosaur skeleton found outside Germany (1828) -- along the dangerous, landslide-prone cliffs at Lyme Regis.",
+  "mary-anning.achievement.2":
+    "Developed self-taught fossil identification, preparation, and cataloguing skills, entirely outside any formal scientific institution, sufficient that professional geologists of her era regularly consulted her directly.",
+  "mary-anning.moment.1":
+    "Took over as her family's primary fossil-collecting practitioner at around eleven or twelve years old, immediately after her father's death in 1811 left the family without its main income.",
+  "mary-anning.interpretation.moment.1":
+    "Taking on this responsibility herself, at that age and under that pressure, without any formal transition or institutional support, is the basis for the profile's proactive_agency score.",
+  "mary-anning.moment.2":
+    "Male scientists of her era repeatedly purchased, published, and received scientific credit for fossils she had found, cleaned, and correctly identified, without acknowledging her role -- and she continued the work regardless, across decades.",
+  "mary-anning.interpretation.moment.2":
+    "Continuing this work for decades despite a sustained, documented pattern of being denied credit is the basis for the profile's conflict_tolerance score.",
+
+  "al-khwarizmi.achievement.1":
+    "Founded algebra as a systematic discipline distinct from arithmetic and geometry in his treatise Al-Jabr, classifying and solving general categories of equations rather than isolated problems -- the word \"algebra\" derives directly from the treatise's own title.",
+  "al-khwarizmi.achievement.2":
+    "Wrote a dedicated treatise advocating the practical superiority of the positional Hindu-Arabic numeral system before it was established practice in the Islamic world, a text later central to the system's spread to Europe.",
+  "al-khwarizmi.moment.1":
+    "Synthesized Greek geometric method, Indian positional numerals, and Babylonian algebraic technique into one coherent new mathematical system, rather than working within any single one of those existing traditions.",
+  "al-khwarizmi.interpretation.moment.1":
+    "Combining separate, pre-existing mathematical traditions into one new working system is the basis for the profile's resourcefulness score.",
+
+  "baruch-spinoza.achievement.1":
+    "Published the Theological-Political Treatise anonymously in 1670, arguing for freedom of philosophical and religious thought -- a deliberate act of risk management given the book's dangerous content, which the States of Holland formally banned in 1674.",
+  "baruch-spinoza.achievement.2":
+    "Twice declined significant financial security in order to preserve his philosophical independence: a friend's offer of a full inheritance in 1663, negotiated down to only a modest annuity, and an offered professorship at Heidelberg University in 1673, declined in his own surviving reply letter.",
+  "baruch-spinoza.moment.1":
+    "Was excommunicated by the Amsterdam Portuguese-Jewish community in July 1656 through an unusually severe, permanent writ of banishment, preserved in the community's own Book of Ordinances -- the surviving document does not specify his exact offense.",
+  "baruch-spinoza.interpretation.moment.1":
+    "Receiving this severity of institutional response for positions the community's leadership found irreconcilable is part of the basis for the profile's independent_thinking score.",
+  "baruch-spinoza.moment.2":
+    "Sustained an eight-letter philosophical correspondence with Willem van Blijenbergh over several months, engaging his repeated theological objections, before directly telling him to stop writing once he judged further exchange futile: \"I can hardly think that we can derive any mutual instruction from further correspondence.\"",
+  "baruch-spinoza.interpretation.moment.2":
+    "Sustaining months of genuine engagement, then deliberately and explicitly ending it once he judged the disagreement irreconcilable, is the basis for the profile's conflict_tolerance score -- real openness, but not indefinite.",
+
+  "sebastiao-salgado.achievement.1":
+    "Trained and worked as an economist, including doctoral-level work for the International Coffee Organization, before abandoning that career entirely in his early thirties to become a photographer.",
+  "sebastiao-salgado.achievement.2":
+    "Co-founded Instituto Terra with his wife, Lelia Wanick Salgado, restoring his family's severely degraded former cattle ranch in Minas Gerais, Brazil back to viable Atlantic Forest by planting millions of trees over more than two decades.",
+  "sebastiao-salgado.moment.1":
+    "After photographing the aftermath of the 1994 Rwandan genocide, experienced a severe personal crisis of purpose serious enough that he stepped back from photography entirely -- and redirected that same underlying motivation into founding Instituto Terra with his wife.",
+  "sebastiao-salgado.interpretation.moment.1":
+    "Redirecting a documented crisis of purpose into a specific new sustained project, rather than simply resuming or abandoning his prior work, is the basis for the profile's impact_motivation score.",
+
+  "jrr-tolkien.achievement.1":
+    "Constructed complete invented languages, with their own internal grammar and history, as scaffolding for his fiction -- work that began well before The Hobbit's 1937 publication and continued through The Lord of the Rings' completion in 1948, attested by the surviving draft record.",
+  "jrr-tolkien.achievement.2":
+    "Delivered the 1936 lecture \"Beowulf: The Monsters and the Critics,\" treating the poem as a unified artistic work worth reading on its own terms rather than only as source material for philological study -- a position that ran against the field's prevailing approach at the time and is independently recognized as transformative to Beowulf scholarship.",
+  "jrr-tolkien.moment.1":
+    "Sustained regular participation for two decades (1930-1950) in the Inklings, an informal Oxford literary discussion group that included C. S. Lewis, whose own account documents Tolkien's direct influence on his religious conversion.",
+  "jrr-tolkien.interpretation.moment.1":
+    "Sustaining this kind of regular creative and intellectual exchange, with a documented influence on a specific person, is the basis for the profile's collaboration score.",
+
+  "antoni-gaudi.achievement.1":
+    "Pioneered the catenary arch as a primary architectural device at a time when contemporary architects generally avoided the form as aesthetically unacceptable, combining it with complex ruled surfaces and branched pillars into one coherent structural system.",
+  "antoni-gaudi.achievement.2":
+    "Sustained singular devotion to the Sagrada Familia for forty years, from 1883 until his death in 1926, with the final twelve years exclusively devoted to the project and every other commission abandoned.",
+  "antoni-gaudi.moment.1":
+    "Used physical inverted string-and-weight models as a systematic working technique -- letting gravity itself calculate the ideal catenary curves -- to study structure and form before construction began.",
+  "antoni-gaudi.interpretation.moment.1":
+    "Adopting this kind of exacting, repeatable physical modeling method as standard practice is the basis for the profile's discipline score.",
+  "antoni-gaudi.moment.2":
+    "In his later years, gave away most of his personal possessions and eventually moved to live inside the Sagrada Familia's own workshop.",
+  "antoni-gaudi.interpretation.moment.2":
+    "Choosing to live this way, prioritizing the project over material comfort or a conventional living arrangement, is the basis for the profile's autonomy_need score.",
+
+  "georgia-okeeffe.achievement.1":
+    "Her radically abstract compositions of 1915-1916 are recognized as a defining, original contribution to American modernism, produced early in her career before she developed the distinct visual vocabulary of her later New Mexico work.",
+  "georgia-okeeffe.achievement.2":
+    "After losing the ability to paint unassisted oils in 1972 due to progressive macular degeneration, continued working in pencil and charcoal for over a decade, then learned an entirely new medium, clay and sculpture, from an assistant.",
+  "georgia-okeeffe.moment.1":
+    "In 1922, publicly and directly rejected critics who portrayed her work through sexualized, mystifying readings of her as an \"unearthly\" creature -- a stance she sustained against a persistent critical framing across her career.",
+  "georgia-okeeffe.interpretation.moment.1":
+    "Directly and publicly pushing back on this critical framing, repeatedly across her career, is the basis for the profile's conflict_tolerance score.",
+  "georgia-okeeffe.moment.2":
+    "Repeatedly, across two decades (1929-1946), chose to spend her summers working independently in New Mexico, documented as often against her husband Alfred Stieglitz's wishes, then permanently relocated there after his death rather than remaining in New York.",
+  "georgia-okeeffe.interpretation.moment.2":
+    "Sustaining this choice over two decades, then making it permanent, is the basis for the profile's autonomy_need score.",
+
+  "andrew-carnegie.achievement.1":
+    "Rose from a $2.50-a-week telegraph messenger at age fourteen to superintendent of the Pennsylvania Railroad's Pittsburgh division by age twenty-four, then built one of the largest steel enterprises in the world.",
+  "andrew-carnegie.achievement.2":
+    "Personally funded roughly 2,500 public libraries worldwide and gave away roughly 90% of his fortune -- over $350 million -- during his own lifetime, guided by an explicit, articulated philosophy favoring institutions that help people help themselves over direct handouts.",
+  "andrew-carnegie.moment.1":
+    "Published \"Gospel of Wealth\" in 1889, arguing that the wealthy are merely \"trustees\" of their fortune with a moral obligation to give it away during their own lifetime rather than to heirs -- a genuinely counter-cultural position for a man of his era and class, published years before most of his own giving actually occurred.",
+  "andrew-carnegie.interpretation.moment.1":
+    "Publicly committing to this unusual position years ahead of acting on it at scale is the basis for the profile's independent_thinking score.",
+  "andrew-carnegie.moment.2":
+    "In 1892, personally authorized his operations manager, Henry Clay Frick, to break the steelworkers' union at the Homestead plant ahead of the workers' contract expiration -- a decision that led directly to a lockout of 3,800 workers and a violent confrontation in which twelve people were killed, followed by a multi-year reduction in wages and an increase in working hours for the remaining workforce.",
+  "andrew-carnegie.interpretation.moment.2":
+    "This is a real, harmful, documented consequence of a deliberate business decision he personally authorized -- part of the honest basis for the profile's conflict_tolerance score, not a positive framing of the episode.",
+
+  "madam-cj-walker.achievement.1":
+    "Grew from working as a washerwoman earning $1.50 a day to building a national manufacturing and sales operation employing roughly 40,000 people across the United States, Central America, and the Caribbean.",
+  "madam-cj-walker.achievement.2":
+    "Built her entire distribution model around door-to-door sales through African American community networks and advertising in Black-owned newspapers -- a channel mainstream retail of the era entirely ignored.",
+  "madam-cj-walker.moment.1":
+    "Deliberately used her own 1917 national sales-agent convention in Philadelphia, one of the first national gatherings of businesswomen in the United States, to explicitly encourage her agents toward anti-lynching activism and support for Black soldiers in World War I, rather than treating the gathering as a purely commercial event.",
+  "madam-cj-walker.interpretation.moment.1":
+    "Choosing to direct a commercial gathering toward this kind of explicit civic purpose is the basis for the profile's impact_motivation score.",
+  "madam-cj-walker.turning_point.1":
+    "Formalized a national sales-agent training system, the \"Walker Method,\" operating from a purpose-built Indianapolis factory, and personally organized her thousands of sales agents into structured local and national clubs -- sustained organizational leadership well beyond her own individual business success.",
+  "madam-cj-walker.interpretation.turning_point.1":
+    "Building this structured, sustained organizational system, rather than stopping at her own personal success, is the basis for the profile's leadership_drive score.",
+
+  "jesse-owens.achievement.1":
+    "Set or tied six world records in under an hour at the 1935 Big Ten Championships -- a specific, officially documented competitive result -- and his long-jump record from that day stood for twenty-five years.",
+  "jesse-owens.achievement.2":
+    "Trained and competed simultaneously across four distinct events -- the 100m, 200m, long jump, and relay -- at a world-class level, rather than specializing in a single event.",
+  "jesse-owens.moment.1":
+    "Continued training and competing at the elite level through documented segregation-era hardships, including being required to use separate travel and lodging from his white teammates at some meets, and working multiple part-time jobs to support himself since he was not offered the same athletic scholarship support as white contemporaries.",
+  "jesse-owens.interpretation.moment.1":
+    "Sustaining world-class competitive performance through these specific, documented conditions is the basis for the profile's persistence score.",
+
+  "roald-amundsen.achievement.1":
+    "Became the first person to successfully navigate the Northwest Passage (1903-1906) and, on 14 December 1911, the first to reach the South Pole -- a full month ahead of a competing expedition.",
+  "roald-amundsen.achievement.2":
+    "Deliberately learned and adopted specific Inuit survival techniques -- animal-skin clothing in place of heavy wool, dog-sled travel, and efficient igloo construction -- during his 1903-1906 Northwest Passage voyage, then directly transferred these techniques to his later, higher-stakes South Pole expedition, rather than relying on conventional European polar-expedition methods.",
+  "roald-amundsen.moment.1":
+    "After rival explorers' 1909 claims to the North Pole, secretly redirected his fully-funded, publicly-announced North Pole expedition toward the South Pole instead -- keeping the true objective hidden from almost everyone, including his own crew and financial backers, with real personal financial ruin at stake if the gambit failed.",
+  "roald-amundsen.interpretation.moment.1":
+    "Making this kind of high-stakes, secretive strategic pivot, with real personal cost if it failed, is the basis for the profile's risk_tolerance score.",
+
+  "paul-erdos.achievement.1":
+    "Produced a documented lifetime output of approximately 1,525 mathematical papers, unsurpassed as of the most recent count -- an independently verifiable bibliographic record, not a reputational claim.",
+  "paul-erdos.achievement.2":
+    "Worked with 511 distinct co-authors across his career, the direct basis for the well-known \"Erdos number\" measuring collaborative distance from him within the mathematics community.",
+  "paul-erdos.moment.1":
+    "Never held a permanent academic position -- refusing a permanent offer from Notre Dame in 1952 -- and instead lived out of a suitcase, traveling continuously between collaborators for most of his adult life.",
+  "paul-erdos.interpretation.moment.1":
+    "Sustaining this unusual lifestyle choice for decades, over the alternative of a stable position, is the basis for the profile's autonomy_need score.",
+  "paul-erdos.turning_point.1":
+    "Shortly before his death, renounced an honorary degree he had been offered by the University of Waterloo specifically over its treatment of a colleague, Adrian Bondy -- a concrete, dated act of taking a costly stand on principle at the very end of his life.",
+  "paul-erdos.interpretation.turning_point.1":
+    "Taking this kind of costly, principled stand at the end of his life, over another person's treatment rather than his own interest, is the basis for the profile's conflict_tolerance score.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -7509,6 +7725,222 @@ export const EDITORIAL_KO: Record<string, string> = {
     "길고 위험한 구금 기간 동안에도 상당한 과학 연구를 이어간 것은 프로필의 자원 활용력(resourcefulness) 점수의 근거다.",
   "ibn-al-haytham.interpretation.turning_point.1":
     "실패한 실용적 공학 제안에서 벗어나 지속적이고 다른 연구 프로그램으로 방향을 전환한 것은 프로필의 적응력(adaptability) 점수의 근거다.",
+
+  "hippocrates.achievement.1":
+    "질병을 환경, 식단, 체액 같은 자연적 원인에서 비롯된 것으로 설명하는 자연주의적 의학 체계를 발전시켰으며, 이는 당대를 지배하던 신전 의학 전통에서 벗어난 것으로 기록되어 있다.",
+  "hippocrates.achievement.2":
+    "코스 섬에 의학 교육 전통을 세워 이후 여러 세대의 의사들을 양성하고 영향을 미쳤으며, 의학을 종교적 치유와 구별되는 기록 가능하고 전수 가능한 학문으로 확립하는 데 기여한 것으로 평가받는다.",
+  "hippocrates.moment.1":
+    "『신성한 질병에 관하여』에서 간질을 신의 형벌이 아닌 신체적 질환으로 재규정했다 -- 이는 당대를 지배하던 종교적 질병관에 정면으로 맞선, 문헌으로 남은 명시적 주장이다.",
+  "hippocrates.interpretation.moment.1":
+    "당대의 지배적인 설명 체계에 문헌을 통해 직접 맞선 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
+
+  "barbara-mcclintock.achievement.1":
+    "1940~50년대에 유전체가 고정되어 있다는 당대의 지배적 모델에 정면으로 배치되는 이동성 유전 인자('점핑 유전자')의 존재를 제안했다 -- 이 발상은 수십 년간 상당한 회의적 반응을 받았으나, 마침내 학계가 따라잡으면서 그녀는 최초 발표로부터 30여 년이 지난 1983년에 노벨상을 수상했다.",
+  "barbara-mcclintock.achievement.2":
+    "콜드 스프링 하버 연구소에서 수십 년간 지속한 연구를 통해 옥수수 세포유전학에 대한 이례적으로 깊고 거의 직관에 가까운 기술적 숙련을 쌓았으며, 그 과정에서 독자적인 세포유전학적 염색 및 염색체 지도 작성 기법을 개발했다.",
+  "barbara-mcclintock.moment.1":
+    "1951년 콜드 스프링 하버에서 있을 이동성 유전 인자에 관한 발표가 유전학계에서 부정적으로 받아들여지리라 예상하면서도, 그 결과를 보류하지 않고 그대로 발표했다.",
+  "barbara-mcclintock.interpretation.moment.1":
+    "거부당하리라 예상한 발견을 보류하지 않고 알린 것은 프로필의 위험 감수(risk_tolerance) 점수의 근거다.",
+  "barbara-mcclintock.moment.2":
+    "옥수수 염색체 파손에서 나타난 설명되지 않는 이상 패턴을, 더 흔한 반응인 실험 오차로 치부하지 않고 그 자체에 흥미를 느껴 파고들었다 -- 이것이 훗날 노벨상 수상으로 이어진 발견의 출발점이 된 관찰이었다.",
+  "barbara-mcclintock.interpretation.moment.2":
+    "설명되지 않는 이상 현상을 오차로 무시하지 않고 탐구하기로 한 선택은 프로필의 호기심(curiosity) 점수의 근거다.",
+
+  "chien-shiung-wu.achievement.1":
+    "1956년 절대영도에 가까운 온도에서 코발트-60 베타 붕괴 실험을 직접 설계하고 수행해, 물리학의 근본적인 대칭성이었던 홀짝성 보존 가정을 반증했다 -- 그녀의 실험적 확인은 리정다오와 양전닝의 이론을 뒷받침해 이들이 1957년 노벨상을 받는 데 직접적으로 기여했다.",
+  "chien-shiung-wu.achievement.2":
+    "맨해튼 프로젝트에서 개량된 가이거 계수기 기법을 개발했으며, 핸퍼드 B원자로의 플루토늄 생산을 중단시켰던 제논 중독 현상의 구체적 원인을 규명했다 -- 이는 생산 재개에 기여한 것으로 평가받는 명확한 기술적 진단이었다.",
+  "chien-shiung-wu.moment.1":
+    "1964년 '미국 여성 과학자'를 주제로 한 MIT 심포지엄에서, \"작은 원자와 원자핵, 중간자와 초중입자가 ... 남성적 또는 여성적 취급에 대해 어떤 선호를 갖고 있는지 궁금하다\"고 발언하며 과학계에서 여성이 배제되는 현실에 공개적으로 문제를 제기했다.",
+  "chien-shiung-wu.interpretation.moment.1":
+    "자신의 개인적 인정을 넘어 학술 심포지엄이라는 공개된 자리에서 이 문제를 제기한 것은 프로필의 사회적 주장성(social_assertiveness) 점수의 근거다.",
+  "chien-shiung-wu.turning_point.1":
+    "미시간 대학교 학생회관 정문에 여성 출입이 금지되어 있다는 사실을 알게 된 학생 시절, 그 대신 버클리 캘리포니아 대학교에 진학하기로 했다.",
+  "chien-shiung-wu.interpretation.turning_point.1":
+    "구체적인 차별적 장벽에 대응해 실제 진로를 바꾸는 결정을 내린 것은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
+
+  "frederick-sanger.achievement.1":
+    "노벨 화학상을 두 차례 수상한 단 두 사람 중 한 명이다 -- 1958년에는 단백질 서열 분석을 통한 인슐린 구조 규명으로, 1980년에는 핵산 서열 분석법 개발로 수상했으며, 두 성과는 수십 년의 간격을 두고 이루어진 서로 다른 방법론적 돌파구였다.",
+  "frederick-sanger.achievement.2":
+    "케임브리지에서 학문적 경력 전체를 오직 서열 분석 방법론이라는 하나의 주제에 집중했으며, 더 폭넓거나 다양한 연구 의제를 좇지 않고 두 차례의 돌파구를 거치는 내내 그 집중을 유지했다.",
+  "frederick-sanger.moment.1":
+    "단백질 서열 분석으로 학계 최고의 인정을 이미 받은 뒤에도, 성격이 전혀 다른 기술 분야인 핵산 서열 분석으로 옮겨갔다 -- 동료들과 전기적 기록에 따르면 이 두 번째 연구로도 노벨상을 받는 동안에도 그는 자기 홍보를 하지 않는 조용한 성격으로 묘사된다.",
+  "frederick-sanger.interpretation.moment.1":
+    "이미 자기 분야 정상에 오른 뒤에도 기존 영역에 안주하지 않고 새로운 기술 분야로 옮겨간 선택은 프로필의 호기심(curiosity) 점수의 근거다.",
+
+  "hypatia.achievement.1":
+    "알렉산드리아의 신플라톤주의 학파를 이끌며 수학, 천문학, 철학을 가르쳤고, 훗날 주교가 된 키레네의 시네시오스를 비롯해 저명한 지위에 오른 제자들을 길러냈다 -- 그녀에게 보낸 시네시오스의 편지들이 그녀의 생애를 알려주는 주요 사료로 남아 있다.",
+  "hypatia.achievement.2":
+    "키레네의 시네시오스와의 사제 관계를 정식 수학 기간을 훨씬 넘어서까지 이어간 기록이 남아 있으며, 그가 그녀를 존경받는, 적극적으로 조언을 구하는 스승으로 대하며 보낸 편지들이 이를 뒷받침한다.",
+  "hypatia.moment.1":
+    "오레스테스 총독과 키릴로스 주교 사이의 긴장이 그녀의 죽음 직전까지 고조되는 와중에도 공개 강의와 오레스테스에 대한 자문 역할을 계속했다 -- 이는 문헌에 기록된 행동 패턴에 근거한 것이지, 그 이후 벌어진 결말에서 역으로 추론한 것이 아니다.",
+  "hypatia.interpretation.moment.1":
+    "실제 위험이 따른다고 알려진 공적 역할을, 이후 벌어진 사건이 아니라 그 이전의 행동 자체로 판단할 때 지속한 것은 프로필의 위험 감수(risk_tolerance) 점수의 근거다.",
+
+  "jean-francois-champollion.achievement.1":
+    "이집트 상형문자를 해독하여 1822년 9월 27일 비문·순수문학 아카데미에서 그 성과를 발표했다: 상형문자는 당대 학계가 가정했던 것처럼 순수하게 상징적인 기호가 아니라 표음·음절·한정사 기호가 결합된 체계임을 밝혔으며, 이로써 과학적 이집트학이라는 학문 분야를 창시했다.",
+  "jean-francois-champollion.achievement.2":
+    "라틴어, 그리스어, 히브리어, 칼데아어, 아랍어, 시리아어 등 여섯 개의 고대·동방 언어를 열두 살에 이미 익혔으며, 이는 당시 어떤 제도적 요구 수준도 훌쩍 뛰어넘는 것이었다.",
+  "jean-francois-champollion.moment.1":
+    "1822년 9월 27일의 결정적인 발표를, 자신의 가장 강력한 학문적 경쟁자였던 영국의 박식가 토머스 영이 청중석에 앉아 있는 자리에서 진행했다.",
+  "jean-francois-champollion.interpretation.moment.1":
+    "학계를 뒤흔들 발견을 간접적인 출판이 아니라 경쟁자가 지켜보는 공식적이고 위험 부담이 큰 자리에서 직접 발표한 것은 프로필의 경쟁심(competitiveness) 점수의 근거다.",
+
+  "mary-shelley.achievement.1":
+    "열여덟, 열아홉 살의 나이에 『프랑켄슈타인』을 집필했으며, 이 작품은 오늘날 현대 SF 장르의 시초로 널리 인정받는다 -- 단순한 교훈담이 아니라 갈바니즘과 창조의 본질을 둘러싼 당대의 과학적 논쟁을 직접 다룬 작품이었다.",
+  "mary-shelley.achievement.2":
+    "남편 퍼시 셸리의 죽음으로 미망인이 된 이후, 이후의 소설들과 퍼시 셸리의 시를 정리·편집하는 방대한 학술 작업을 포함해 오직 자신의 전문적인 집필 활동만으로 경제적 자립을 다시 이루어 자신과 살아남은 아들을 부양했다.",
+  "mary-shelley.moment.1":
+    "『프랑켄슈타인』의 시작은 1816년 제네바에서 바이런-셸리 모임 사이에 열린 괴담 짓기 경연이었으며, 이후 몇 달에 걸쳐 이야기를 완전한 장편소설로 크게 확장했다.",
+  "mary-shelley.interpretation.moment.1":
+    "짧은 경연용 습작을 지속적이고 확장된 창작 프로젝트로 발전시킨 것은 프로필의 몰입력(deep_focus) 점수의 근거다.",
+
+  "omar-khayyam.achievement.1":
+    "『대수 문제의 증명에 관한 논고』에서 삼차방정식을 유형별로 체계적으로 분류하고, 원뿔곡선의 교차를 이용한 기하학적 작도로 풀이했다 -- 당대로서는 진정으로 독창적인 방법이었으며, 훗날 대수학사의 한 이정표로 평가받는다.",
+  "omar-khayyam.achievement.2":
+    "셀주크 왕조를 위해 잘랄리 역법을 고안하는 데 참여했으며, 이 천문학적 개혁 성과는 정밀함으로 주목받아 5세기 뒤에 만들어진 그레고리력보다도 장기적으로는 더 정확한 것으로 평가받는다.",
+  "omar-khayyam.moment.1":
+    "그의 이름과 가장 밀접히 연관된 시집 『루바이야트』는 종교적 정통과 운명에 대해 회의적이고 질문을 던지는 태도를 취한다 -- 당대로서는 진정으로 독특한 지적 입장이었지만, 개별 4행시의 정확한 저작권과 번역 전승에는 실제로 학계의 불확실성이 존재한다.",
+  "omar-khayyam.interpretation.moment.1":
+    "시 자체의 저작 귀속에 불확실성이 있음을 감안하더라도, 종교적 정통에 맞서 회의적인 공적 입장을 취한 것은 프로필의 독립적 사고(independent_thinking) 점수를 뒷받침하는 근거 중 하나다.",
+
+  "mary-anning.achievement.1":
+    "라임 레지스의 위험한 산사태 지대인 해안 절벽을 따라 경력 내내 활동하며, 최초로 정확히 동정된 어룡 골격(1811년), 최초의 수장룡 골격(1821년), 독일 밖에서 발견된 최초의 익룡 골격(1828년)을 잇달아 찾아내고 정확히 식별했다.",
+  "mary-anning.achievement.2":
+    "어떠한 정규 과학 교육 기관도 거치지 않은 채 독학으로 화석 식별, 처리, 목록화 기술을 익혔으며, 그 수준은 당대의 전문 지질학자들이 정기적으로 그녀에게 직접 자문을 구할 정도였다.",
+  "mary-anning.moment.1":
+    "1811년 아버지의 죽음으로 집안의 주된 수입원이 사라지자, 열한 살 또는 열두 살의 나이로 곧장 집안의 주된 화석 채집자 역할을 떠맡았다.",
+  "mary-anning.interpretation.moment.1":
+    "그 나이에, 그러한 압박 속에서, 어떤 공식적인 전환 절차나 제도적 지원도 없이 스스로 그 책임을 떠맡은 것은 프로필의 주도적 행위성(proactive_agency) 점수의 근거다.",
+  "mary-anning.moment.2":
+    "그녀가 발견하고 손질하고 정확히 동정한 화석에 대해, 당대의 남성 과학자들이 반복적으로 값을 치러 사들이고 발표해 학술적 공로를 인정받으면서도 그녀의 역할은 인정하지 않았다 -- 그럼에도 그녀는 수십 년에 걸쳐 이 일을 계속했다.",
+  "mary-anning.interpretation.moment.2":
+    "공로를 인정받지 못하는 상황이 문헌으로 확인될 만큼 오랫동안 지속되었음에도 수십 년간 이 일을 계속한 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거다.",
+
+  "al-khwarizmi.achievement.1":
+    "저서 『알자브르』에서 산술 및 기하학과 구별되는 체계적 학문으로서 대수학을 창시했으며, 개별 문제가 아니라 방정식의 일반적 유형들을 분류하고 풀이했다 -- '대수학(algebra)'이라는 단어 자체가 이 저작의 제목에서 직접 유래했다.",
+  "al-khwarizmi.achievement.2":
+    "위치 기수법에 기반한 힌두-아라비아 숫자 체계가 이슬람 세계에서 정착되기도 전에 그 실용적 우수성을 옹호하는 전용 논고를 저술했으며, 이 문헌은 훗날 이 숫자 체계가 유럽으로 전파되는 데 중심적인 역할을 했다.",
+  "al-khwarizmi.moment.1":
+    "그리스의 기하학적 방법, 인도의 위치 기수법, 바빌로니아의 대수적 기법을 어느 한 전통에만 머무르지 않고 하나의 통합된 새로운 수학 체계로 종합했다.",
+  "al-khwarizmi.interpretation.moment.1":
+    "서로 별개였던 기존의 수학 전통들을 하나의 새로운 작동 체계로 결합한 것은 프로필의 자원 활용력(resourcefulness) 점수의 근거다.",
+
+  "baruch-spinoza.achievement.1":
+    "1670년 『신학정치론』을 익명으로 출간해 철학적·종교적 사상의 자유를 주장했다 -- 책의 위험한 내용을 고려한 의도적인 위험 관리 행위였으며, 이 책은 1674년 홀란트 주 의회에 의해 공식적으로 금서 처분을 받았다.",
+  "baruch-spinoza.achievement.2":
+    "철학적 독립을 지키기 위해 상당한 경제적 안정을 두 차례 거절했다: 1663년 친구가 제안한 전액 유산 상속을 소박한 연금 수준으로 낮춰 협상했고, 1673년에는 하이델베르크 대학교의 교수직 제안을 직접 남긴 답장 편지에서 거절했다.",
+  "baruch-spinoza.moment.1":
+    "1656년 7월, 암스테르담의 포르투갈계 유대인 공동체로부터 이례적으로 가혹하고 영구적인 파문 선고를 받았으며, 이는 공동체 자체의 규약집에 보존되어 있다 -- 현존하는 문서에는 정확한 죄목이 명시되어 있지 않다.",
+  "baruch-spinoza.interpretation.moment.1":
+    "공동체 지도부가 도저히 용납할 수 없다고 판단한 입장에 대해 이 정도 수위의 제도적 대응을 받은 것은 프로필의 독립적 사고(independent_thinking) 점수를 뒷받침하는 근거 중 하나다.",
+  "baruch-spinoza.moment.2":
+    "빌럼 판 블레이엔베르흐와 여러 달에 걸쳐 여덟 통의 편지를 주고받으며 그의 거듭된 신학적 이의 제기에 응했으나, 더 이상의 교류가 무의미하다고 판단하자 직접 중단을 요청했다: \"더 이상의 서신 교환에서 우리가 서로 얻을 것이 있으리라고는 거의 생각되지 않습니다.\"",
+  "baruch-spinoza.interpretation.moment.2":
+    "몇 달에 걸쳐 진지하게 교류를 지속하다가, 의견 차이가 해소될 수 없다고 판단한 순간 명확히 이를 끝맺은 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거다 -- 다만 실제로 열려 있었던 것이지 무한정은 아니었다.",
+
+  "sebastiao-salgado.achievement.1":
+    "국제커피기구에서의 박사급 연구를 포함해 경제학자로 교육받고 활동했으나, 서른 대 초반에 이 경력을 완전히 접고 사진작가로 전향했다.",
+  "sebastiao-salgado.achievement.2":
+    "아내 렐리아 와니크 살가두와 함께 인스치투투 테하를 공동 설립해, 브라질 미나스제라이스에 있던 집안 소유의 심각하게 황폐해진 옛 목장을 20여 년에 걸쳐 수백만 그루의 나무를 심어 대서양림으로 되살려냈다.",
+  "sebastiao-salgado.moment.1":
+    "1994년 르완다 대학살의 참상을 촬영한 뒤, 사진 작업을 완전히 중단할 정도로 심각한 삶의 목적에 대한 위기를 겪었다 -- 그리고 그 같은 근본적인 동기를 아내와 함께 인스치투투 테하를 설립하는 방향으로 전환했다.",
+  "sebastiao-salgado.interpretation.moment.1":
+    "문헌으로 확인되는 목적의 위기를, 이전 작업을 그대로 재개하거나 완전히 포기하는 대신 구체적인 새로운 지속적 프로젝트로 전환한 것은 프로필의 영향력 동기(impact_motivation) 점수의 근거다.",
+
+  "jrr-tolkien.achievement.1":
+    "자신의 소설을 뒷받침하는 토대로서 고유한 문법과 역사를 갖춘 완결된 인공 언어들을 만들었다 -- 이 작업은 1937년 『호빗』 출간 이전부터 시작되어 1948년 『반지의 제왕』 탈고까지 이어졌으며, 남아 있는 초고 기록이 이를 뒷받침한다.",
+  "jrr-tolkien.achievement.2":
+    "1936년 강연 「베어울프: 괴물과 비평가들」에서 이 서사시를 단순히 문헌학 연구를 위한 자료가 아니라 그 자체로 읽을 가치가 있는 통일된 예술 작품으로 다루었다 -- 당시 학계의 지배적인 접근법에 반하는 입장이었으며, 베어울프 연구에 있어 학계 밖에서도 독자적으로 획기적인 것으로 인정받는다.",
+  "jrr-tolkien.moment.1":
+    "옥스퍼드의 비공식 문학 토론 모임인 잉클링스에 1930년부터 1950년까지 20년간 정기적으로 참여했으며, 그 구성원이었던 C. S. 루이스는 자신의 회고에서 톨킨이 자신의 종교적 회심에 직접적인 영향을 미쳤다고 기록했다.",
+  "jrr-tolkien.interpretation.moment.1":
+    "특정 인물에 대한 구체적이고 문헌으로 확인되는 영향을 남길 만큼 이런 유형의 정기적인 창작적·지적 교류를 지속한 것은 프로필의 협업(collaboration) 점수의 근거다.",
+
+  "antoni-gaudi.achievement.1":
+    "당대의 건축가들이 미학적으로 받아들이기 힘들다고 여겨 대체로 피하던 현수선 아치를 주요 건축 요소로 앞장서 사용했으며, 이를 복잡한 룰드 곡면 및 분기 기둥과 결합해 하나의 통일된 구조 체계로 완성했다.",
+  "antoni-gaudi.achievement.2":
+    "1883년부터 1926년 사망할 때까지 40년간 사그라다 파밀리아 성당 한 프로젝트에 한결같이 헌신했으며, 마지막 12년은 다른 모든 의뢰를 포기하고 이 프로젝트에만 전념했다.",
+  "antoni-gaudi.moment.1":
+    "실제 공사에 들어가기 전, 구조와 형태를 연구하기 위해 실을 매단 추 모형을 거꾸로 세우는 방식을 체계적인 작업 기법으로 사용했다 -- 중력 자체가 이상적인 현수선 곡선을 계산하도록 한 것이다.",
+  "antoni-gaudi.interpretation.moment.1":
+    "이처럼 정밀하고 반복 가능한 물리적 모형 제작 기법을 표준적인 작업 방식으로 채택한 것은 프로필의 규율(discipline) 점수의 근거다.",
+  "antoni-gaudi.moment.2":
+    "말년에는 개인 소유물 대부분을 나누어 주고 결국 사그라다 파밀리아 성당의 작업장 안에서 생활하게 되었다.",
+  "antoni-gaudi.interpretation.moment.2":
+    "물질적 안락이나 통상적인 생활 방식보다 프로젝트를 우선시하며 이런 방식으로 살기로 한 선택은 프로필의 자율성 욕구(autonomy_need) 점수의 근거다.",
+
+  "georgia-okeeffe.achievement.1":
+    "1915~1916년에 그린 급진적인 추상 작품들은 미국 모더니즘을 규정하는 독창적인 기여로 인정받으며, 훗날 뉴멕시코에서의 작업을 통해 뚜렷한 독자적 시각 어휘를 발전시키기 이전, 경력 초기에 제작되었다.",
+  "georgia-okeeffe.achievement.2":
+    "1972년 진행성 황반변성으로 보조 없이는 유화를 그릴 수 없게 된 이후, 10년 넘게 연필과 목탄으로 작업을 이어갔고, 이후에는 조수의 도움을 받아 점토와 조각이라는 완전히 새로운 매체를 익혔다.",
+  "georgia-okeeffe.moment.1":
+    "1922년, 자신의 작품을 성애화하고 신비화하는 방식으로 해석하며 '이 세상 사람 같지 않은' 존재로 묘사하던 평론가들에게 공개적으로, 직접적으로 반박했다 -- 이는 경력 내내 지속된 비평적 프레이밍에 맞서 이어간 태도였다.",
+  "georgia-okeeffe.interpretation.moment.1":
+    "이러한 비평적 프레이밍에 맞서 경력 내내 반복적으로 공개적이고 직접적으로 반박한 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거다.",
+  "georgia-okeeffe.moment.2":
+    "1929년부터 1946년까지 20년에 걸쳐 반복적으로 뉴멕시코에서 홀로 여름을 보내기로 선택했으며, 이는 남편 앨프리드 스티글리츠의 뜻에 반하는 경우가 많았던 것으로 기록되어 있고, 그의 사후에는 뉴욕에 머무는 대신 아예 그곳으로 영구 이주했다.",
+  "georgia-okeeffe.interpretation.moment.2":
+    "이 선택을 20년에 걸쳐 지속하다가 결국 영구적인 결정으로 만든 것은 프로필의 자율성 욕구(autonomy_need) 점수의 근거다.",
+
+  "andrew-carnegie.achievement.1":
+    "열네 살에 주급 2.50달러를 받는 전신 배달원으로 시작해 스물네 살에는 펜실베이니아 철도회사 피츠버그 지사의 관리자 자리에 올랐고, 이후 세계 최대 규모의 철강 기업 중 하나를 일구었다.",
+  "andrew-carnegie.achievement.2":
+    "생전에 전 세계에 약 2,500개의 공공 도서관을 직접 후원했고, 자신의 재산 중 약 90%, 3억 5천만 달러가 넘는 금액을 기부했으며, 직접적인 시혜보다는 사람들이 스스로 자립할 수 있도록 돕는 기관을 지원한다는 명확한 철학을 따랐다.",
+  "andrew-carnegie.moment.1":
+    "1889년 「부의 복음」을 발표해, 부유한 이들은 자신의 재산을 후대에 물려주기보다 생전에 나누어 줄 도덕적 의무를 지닌 '수탁자'에 불과하다고 주장했다 -- 그의 시대와 계급의 인물로서는 진정으로 반문화적인 입장이었으며, 실제로 자신의 기부가 본격화되기 여러 해 전에 발표한 것이었다.",
+  "andrew-carnegie.interpretation.moment.1":
+    "실제로 대규모로 실천에 옮기기 여러 해 전에 이러한 이례적인 입장을 공개적으로 밝힌 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
+  "andrew-carnegie.moment.2":
+    "1892년, 노동자들의 계약 만료를 앞두고 자신의 사업 관리자 헨리 클레이 프릭에게 홈스테드 제철소의 노동조합을 와해시키도록 직접 승인했다 -- 이 결정은 3,800명의 노동자를 대상으로 한 직장 폐쇄와 12명이 사망한 유혈 충돌로 곧장 이어졌고, 이후 남은 노동자들의 임금 삭감과 노동시간 연장이 수년간 뒤따랐다.",
+  "andrew-carnegie.interpretation.moment.2":
+    "이는 그가 직접 승인한 의도적인 경영 판단이 낳은 실질적이고 해로운, 문헌으로 확인되는 결과다 -- 이 사건을 긍정적으로 포장하는 것이 아니라, 프로필의 갈등 인내력(conflict_tolerance) 점수를 정직하게 뒷받침하는 근거의 일부다.",
+
+  "madam-cj-walker.achievement.1":
+    "하루 1.50달러를 버는 세탁부로 시작해, 미국과 중앙아메리카, 카리브해 지역에 걸쳐 약 4만 명을 고용하는 전국 규모의 제조·판매 사업체를 일구었다.",
+  "madam-cj-walker.achievement.2":
+    "당대 주류 소매업계가 전혀 눈여겨보지 않던 통로인 아프리카계 미국인 지역사회 네트워크를 통한 방문 판매와 흑인 소유 신문 광고를 중심으로 유통 모델 전체를 구축했다.",
+  "madam-cj-walker.moment.1":
+    "1917년 필라델피아에서 열린 자신의 전국 판매 대리인 대회 -- 미국에서 열린 최초의 전국 규모 여성 사업가 모임 중 하나였다 -- 를 순수한 상업 행사로 다루지 않고, 이를 활용해 대리인들에게 반(反)린치 운동과 제1차 세계대전 참전 흑인 병사 지원 활동을 적극 독려했다.",
+  "madam-cj-walker.interpretation.moment.1":
+    "상업적 모임을 이처럼 명확한 시민적 목적으로 이끌어가기로 한 선택은 프로필의 영향력 동기(impact_motivation) 점수의 근거다.",
+  "madam-cj-walker.turning_point.1":
+    "인디애나폴리스에 전용으로 지은 공장을 거점으로 '워커 기법'이라는 전국 판매 대리인 교육 체계를 공식화했으며, 수천 명에 이르는 판매 대리인들을 지역 및 전국 단위의 조직화된 클럽으로 직접 구성했다 -- 이는 단순한 개인 사업의 성공을 훨씬 넘어선 지속적인 조직적 리더십이었다.",
+  "madam-cj-walker.interpretation.turning_point.1":
+    "개인적 성공에 머무르지 않고 이처럼 체계적이고 지속적인 조직 체계를 구축한 것은 프로필의 리더십 성향(leadership_drive) 점수의 근거다.",
+
+  "jesse-owens.achievement.1":
+    "1935년 빅텐 챔피언십에서 한 시간도 채 안 되는 시간 동안 여섯 개의 세계 신기록을 세우거나 동률을 이루었다 -- 공식적으로 기록된 경기 결과였으며, 그날의 멀리뛰기 기록은 25년 동안 깨지지 않았다.",
+  "jesse-owens.achievement.2":
+    "100미터, 200미터, 멀리뛰기, 계주라는 네 개의 서로 다른 종목에서 동시에 세계 최고 수준으로 훈련하고 경쟁했으며, 한 종목에만 전념하지 않았다.",
+  "jesse-owens.moment.1":
+    "일부 대회에서 백인 팀원들과 별도의 이동 수단과 숙소를 이용해야 했던 것을 포함해 문헌으로 확인되는 인종 분리 시대의 어려움을 겪으면서도 최정상급 훈련과 경기를 계속했으며, 백인 동료 선수들이 받던 것과 같은 육상 장학금을 받지 못해 여러 개의 아르바이트를 병행하며 생계를 꾸렸다.",
+  "jesse-owens.interpretation.moment.1":
+    "이처럼 구체적으로 문헌에 기록된 여건 속에서도 세계 최고 수준의 경기력을 유지한 것은 프로필의 인내력(persistence) 점수의 근거다.",
+
+  "roald-amundsen.achievement.1":
+    "1903년부터 1906년까지 북서항로를 최초로 성공적으로 항해했으며, 1911년 12월 14일에는 경쟁 원정대보다 한 달 앞서 최초로 남극점에 도달했다.",
+  "roald-amundsen.achievement.2":
+    "1903~1906년 북서항로 항해 도중 이누이트족의 생존 기술 -- 두꺼운 모직 대신 동물 가죽으로 만든 의복, 개썰매 이동, 효율적인 이글루 건축 -- 을 의도적으로 익혔으며, 이후 훨씬 위험 부담이 큰 남극점 원정에서 기존 유럽식 극지 탐험 방식 대신 이 기술들을 직접 적용했다.",
+  "roald-amundsen.moment.1":
+    "1909년 경쟁 탐험가들의 북극점 도달 주장이 나온 뒤, 이미 자금이 확보되고 공개적으로 발표까지 마친 북극점 원정 계획을 남극점 원정으로 몰래 변경했다 -- 자신의 대원들과 자금 후원자들을 포함해 거의 모든 사람에게 진짜 목표를 숨겼으며, 이 도박이 실패할 경우 실제 개인적 파산의 위험을 감수한 것이었다.",
+  "roald-amundsen.interpretation.moment.1":
+    "실패할 경우 실제로 큰 대가를 치러야 하는 이런 식의 비밀스럽고 고위험한 전략적 전환을 감행한 것은 프로필의 위험 감수(risk_tolerance) 점수의 근거다.",
+
+  "paul-erdos.achievement.1":
+    "평생에 걸쳐 약 1,525편의 수학 논문을 발표한 것으로 기록되어 있으며, 가장 최근 집계 기준으로도 이를 능가한 사람이 없다 -- 이는 평판에 근거한 주장이 아니라 독립적으로 검증 가능한 서지 기록이다.",
+  "paul-erdos.achievement.2":
+    "경력 전체에 걸쳐 511명의 서로 다른 공저자와 함께 연구했으며, 이는 수학계에서 그와의 협업 거리를 나타내는 것으로 잘 알려진 '에르되시 수'의 직접적인 근거가 되었다.",
+  "paul-erdos.moment.1":
+    "1952년 노터데임 대학교의 정규직 제안을 거절하는 등 평생 정규 학술직을 갖지 않았으며, 대신 성인기 대부분을 여행 가방 하나로 생활하며 공동 연구자들 사이를 끊임없이 오갔다.",
+  "paul-erdos.interpretation.moment.1":
+    "안정적인 정규직이라는 대안 대신 이 독특한 생활 방식을 수십 년간 유지한 것은 프로필의 자율성 욕구(autonomy_need) 점수의 근거다.",
+  "paul-erdos.turning_point.1":
+    "세상을 떠나기 얼마 전, 워털루 대학교가 수여하려던 명예 학위를 동료 에이드리언 본디에 대한 그 대학의 처우 문제를 이유로 거절했다 -- 생의 마지막 순간에 원칙을 지키기 위해 대가를 감수한 구체적이고 날짜가 확인되는 행동이었다.",
+  "paul-erdos.interpretation.turning_point.1":
+    "생의 마지막 시점에, 자신의 이해관계가 아니라 타인이 받은 처우를 이유로 이처럼 대가가 따르는 원칙적인 태도를 취한 것은 프로필의 갈등 인내력(conflict_tolerance) 점수의 근거다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

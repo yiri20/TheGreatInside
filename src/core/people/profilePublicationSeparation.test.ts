@@ -190,19 +190,44 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "indira-gandhi",
     "ulysses-s-grant",
     "suleiman-the-magnificent",
+    // roster30 (2026-09): twenty more, same pattern -- all evidence_approved,
+    // published, directory-visible, honestly failing eligibility_v2 on
+    // confidence/coverage/count, none rescued. Baselines now 205/204;
+    // match-eligible set unchanged at 127. This batch deliberately contains
+    // zero political/state/military/activism-primary figures.
+    "hippocrates",
+    "barbara-mcclintock",
+    "chien-shiung-wu",
+    "frederick-sanger",
+    "hypatia",
+    "jean-francois-champollion",
+    "mary-shelley",
+    "omar-khayyam",
+    "mary-anning",
+    "al-khwarizmi",
+    "baruch-spinoza",
+    "sebastiao-salgado",
+    "jrr-tolkien",
+    "antoni-gaudi",
+    "georgia-okeeffe",
+    "andrew-carnegie",
+    "madam-cj-walker",
+    "jesse-owens",
+    "roald-amundsen",
+    "paul-erdos",
   ]);
 
-  it("still exactly 185 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(185);
-    expect(PEOPLE_INDEX).toHaveLength(185);
+  it("still exactly 205 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(205);
+    expect(PEOPLE_INDEX).toHaveLength(205);
   });
 
-  it("still exactly 184 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 204 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(184);
+    expect(visible).toHaveLength(204);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the fifty-seven deliberately-divergent roster24/25/26/27/28/29 additions", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the seventy-seven deliberately-divergent roster24/25/26/27/28/29/30 additions", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

@@ -117,7 +117,7 @@ export const PROFESSION_CATEGORIES: readonly ProfessionCategory[] = [
   {
     id: "science_knowledge",
     labelKey: "people.directory.profession_category.science_knowledge",
-    fieldIds: ["philosophy", "natural_science", "mathematics", "physics", "engineering", "medicine", "environmental_science"],
+    fieldIds: ["philosophy", "natural_science", "mathematics", "physics", "engineering", "medicine", "environmental_science", "linguistics"],
   },
   {
     id: "arts_culture",

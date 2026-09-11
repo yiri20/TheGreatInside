@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "madam-cj-walker",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Madam C.J. Walker",
     "wikidataId": "Q447716",
@@ -25,7 +25,7 @@
     "impactDomains": [
       "historical",
       "social",
-      "economic"
+      "wealth_creation"
     ],
     "tagIds": [
       "founder",
@@ -100,13 +100,22 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/madam-cj-walker-scurlock-1914.jpg",
+    "width": 1280,
+    "height": 1886,
+    "source": "National Portrait Gallery, Smithsonian Institution",
+    "license": "PD-US-expired (published pre-1931)",
+    "creator": "Addison N. Scurlock",
+    "date": "circa 1914",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Madam_C._J._Walker_by_Addison_N._Scurlock.jpg",
+    "attribution": "Addison N. Scurlock, circa 1914"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (entrepreneurship) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q447716) before any research began. A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned. Source material described her brother-in-law's household as abusive during her childhood -- that characterization of a private relationship is NOT used as evidence for any row; only the objective, documented behavioral fact (she married at 14, specifically to leave that household) informed the surrounding context, and was not itself scored as a trait row. Scoring was locked BEFORE eligibility_v2 was consulted."
-  },
-  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.155 (need 0.6); HC count 5/12; HC average 0.606 (PASSES this sub-requirement)."
+  }
 }

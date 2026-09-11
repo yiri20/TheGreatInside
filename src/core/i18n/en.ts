@@ -1007,6 +1007,7 @@ export const en = {
   "people.directory.section_selected_count": "{count} selected",
 
   "field.philosophy": "Philosophy",
+  "field.linguistics": "Linguistics",
   "field.natural_science": "Natural Science",
   "field.mathematics": "Mathematics",
   "field.physics": "Physics",

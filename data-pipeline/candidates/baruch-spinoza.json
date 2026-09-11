@@ -2,33 +2,73 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "baruch-spinoza",
-  "status": "held",
-  "holdReason": "First-scoring result, computed once (not iterated): scored=18, avgConf=0.448, coverage=0.542, eligible=false. His correspondence provides genuine, firsthand, dateable episodes across financial, intellectual-conflict, and career domains, but the volume is genuinely thinner than a modern memoir-rich candidate's, and the deliberate decision to keep the weakly-sourced 'ultimi barbarorum' anecdote out of any row's primary evidence (per this pass's own source-verification discipline) removed what would otherwise have been an easy, if less rigorous, confidence boost. Held, not rejected -- a future pass with direct access to more of his ~80 surviving letters (rather than secondary discussion of a subset) could plausibly add coverage without lowering the sourcing bar.",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Baruch Spinoza",
-    "aliases": ["Benedictus de Spinoza", "Benedict de Spinoza"],
+    "aliases": [
+      "Benedictus de Spinoza",
+      "Benedict de Spinoza"
+    ],
     "wikidataId": "Q35802",
     "birthYear": 1632,
     "deathYear": 1677,
     "isLiving": false,
     "era": "early_modern",
-    "nationalityCodes": ["NL"],
+    "nationalityCodes": [
+      "NL"
+    ],
     "regionCode": "western_europe",
     "historicalPolityKey": "polity.dutch_republic"
   },
   "classification": {
-    "occupationIds": ["philosopher"],
-    "fieldIds": ["philosophy"],
-    "impactDomains": ["cultural", "historical", "educational"],
-    "tagIds": ["nonconformist", "independent", "philosopher"],
-    "archetypeIds": ["independent_creator", "scholarly_specialist"]
+    "occupationIds": [
+      "philosopher"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "cultural",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "independent",
+      "philosopher"
+    ],
+    "archetypeIds": [
+      "independent_creator",
+      "scholarly_specialist"
+    ]
   },
   "sources": [
-    { "id": "src_spinoza_wikipedia", "kind": "wikipedia", "title": "Baruch Spinoza", "url": "https://en.wikipedia.org/wiki/Baruch_Spinoza" },
-    { "id": "src_spinoza_herem", "kind": "institution", "title": "The 1656 herem (writ of excommunication) against Spinoza, preserved in the Amsterdam Portuguese-Jewish community's own Livro dos Acordos de Nacao e Ascamot -- an institutional record, not an anecdote. The document itself does not specify his particular offense." },
-    { "id": "src_spinoza_correspondence", "kind": "archive", "title": "Spinoza's own published Epistolae, specifically his 1663 exchange with Simon de Vries (Letters XXVI-XXVIII), his 1664-1665 exchange with Willem van Blijenbergh (8 letters), and his 1673 reply to Johann Ludwig Fabricius declining the Heidelberg professorship" },
-    { "id": "src_spinoza_ttp_ban", "kind": "institution", "title": "The 1670 anonymous publication of the Tractatus Theologico-Politicus and its formal banning by the States of Holland in 1674 -- a matter of public record, independent of any single biographer" },
-    { "id": "src_spinoza_ultimibarbarorum", "kind": "biography", "title": "The 'ultimi barbarorum' 1672 anecdote (Spinoza restrained by his landlord from publicly protesting the lynching of the de Witt brothers) -- traced in this pass only to Freudenthal's 1899 scholarly compilation (as cited by the Stanford Encyclopedia of Philosophy); a verified near-contemporary source for the episode was not established this session, so it is used at low confidence only" }
+    {
+      "id": "src_spinoza_wikipedia",
+      "kind": "wikipedia",
+      "title": "Baruch Spinoza",
+      "url": "https://en.wikipedia.org/wiki/Baruch_Spinoza"
+    },
+    {
+      "id": "src_spinoza_herem",
+      "kind": "institution",
+      "title": "The 1656 herem (writ of excommunication) against Spinoza, preserved in the Amsterdam Portuguese-Jewish community's own Livro dos Acordos de Nacao e Ascamot -- an institutional record, not an anecdote. The document itself does not specify his particular offense."
+    },
+    {
+      "id": "src_spinoza_correspondence",
+      "kind": "archive",
+      "title": "Spinoza's own published Epistolae, specifically his 1663 exchange with Simon de Vries (Letters XXVI-XXVIII), his 1664-1665 exchange with Willem van Blijenbergh (8 letters), and his 1673 reply to Johann Ludwig Fabricius declining the Heidelberg professorship"
+    },
+    {
+      "id": "src_spinoza_ttp_ban",
+      "kind": "institution",
+      "title": "The 1670 anonymous publication of the Tractatus Theologico-Politicus and its formal banning by the States of Holland in 1674 -- a matter of public record, independent of any single biographer"
+    },
+    {
+      "id": "src_spinoza_ultimibarbarorum",
+      "kind": "biography",
+      "title": "The 'ultimi barbarorum' 1672 anecdote (Spinoza restrained by his landlord from publicly protesting the lynching of the de Witt brothers) -- traced in this pass only to Freudenthal's 1899 scholarly compilation (as cited by the Stanford Encyclopedia of Philosophy); a verified near-contemporary source for the episode was not established this session, so it is used at low confidence only"
+    }
   ],
   "rows": {
     "independent_thinking": {
@@ -160,8 +200,21 @@
   },
   "provenance": {
     "createdAt": "2026-09-03T00:00:00Z",
-    "updatedAt": "2026-09-03T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Track D fresh evidence pack + first scoring (2026-09-03). Deliberately traced the famous 'ultimi barbarorum' anecdote to its earliest identified source (Freudenthal 1899, per the Stanford Encyclopedia of Philosophy's own citation) before using it, per this task's explicit source-verification discipline -- since a clean chain to a near-contemporary eyewitness was not established this session, it is kept out of any row's primary evidence and used only as a disclosed, low-confidence side note (risk_tolerance instead rests on the independently, publicly documented 1670/1674 Theological-Political Treatise publication-and-banning). autonomy_need is the strongest row in this file specifically because it rests on two independent documented instances in different domains (a friend's financial gift, a university's institutional offer), both in his own surviving correspondence. slug uses 'baruch-spinoza' (matching common English usage and this project's own prior audit references) rather than bare 'spinoza', to avoid ambiguity with any future candidate sharing a surname. inclusion_v1: clearly passes -- no inherited position; excommunicated from his birth community and supported himself independently thereafter."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/baruch-spinoza-1665.jpg",
+    "width": 1280,
+    "height": 1487,
+    "source": "Herzog August Bibliothek, Wolfenbüttel",
+    "license": "PD-Art (PD-old-100-expired)",
+    "creator": "anonymous",
+    "date": "circa 1665",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg",
+    "attribution": "Unknown artist, circa 1665"
   }
 }

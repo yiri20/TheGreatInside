@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "jean-francois-champollion",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Jean-Francois Champollion",
     "wikidataId": "Q260",
@@ -200,9 +200,21 @@
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Session 6 'corrected research depth' batch -- applies the lesson from the session-6 diagnostic control experiment (docs/roster-1000-checkpoint.md) directly: institutional/scholarly/primary-source material was sought FIRST, before any confidence numbers were assigned, rather than starting from general encyclopedic knowledge and remediating afterward the way session 5's batch 3 did. inclusion_v1: clearly passes -- son of a bookseller, no inherited position; achievement rests entirely on his own individual scholarly breakthrough. Diversity value: the roster's first linguistics/historical-decipherment specialist since Sequoyah, a genuinely distinct evidence profile (analytical/scholarly rather than Sequoyah's self-taught-inventor shape). Status after two genuine research rounds this session (an initial corrected-depth pass applying institutional/scholarly sources from the start, then a real second remediation round adding further specific documented facts) -- held, not because research effort was shallow, but because the honest result still falls short of the 0.55 confidence floor across a 20+-attribute spread. This is a distinct, additional diagnostic finding from the same session's earlier 6-person diagnostic control experiment: those 6 already had an existing first pass to build on from batch 3; these 8 were researched completely from scratch in one sitting, and only 1 of 8 (Harriet Tubman) crossed even with two rounds -- suggesting genuinely fresh candidates may need a THIRD round or more deliberately staged research, not that the confidence model or these candidates' underlying evidence is deficient. Not forced over the floor with unjustified upgrades -- see docs/roster-1000-checkpoint.md session 6 for the full record."
   },
-  "holdReason": "Confidence ceiling after two genuine research rounds this session (an initial pass citing Britannica and JSTOR Daily, then a real second round adding the documented Thomas Young rivalry): avgConf 0.492 vs 0.55 floor, coverage 0.606 (clear). The surviving historical record documents his intellectual achievement (the decipherment itself) far more thoroughly than his day-to-day behavioral patterns, an early-19th-century evidentiary limitation similar in kind to several medieval/ancient figures already in the roster."
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jean-francois-champollion-cogniet-1831.jpg",
+    "width": 1280,
+    "height": 1572,
+    "source": "Musée du Louvre",
+    "license": "PD-Art (artist d. 1880, published pre-1931)",
+    "creator": "Léon Cogniet",
+    "date": "1831",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Champollion,_by_L%C3%A9on_Cogniet.jpg",
+    "attribution": "Léon Cogniet, 1831"
+  }
 }

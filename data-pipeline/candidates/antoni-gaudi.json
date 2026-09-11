@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "antoni-gaudi",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Antoni Gaudi",
     "wikidataId": "Q25328",
@@ -107,13 +107,22 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/antoni-gaudi-1878.jpg",
+    "width": 1280,
+    "height": 1741,
+    "source": "Gaudí and Barcelona Club (Wikimedia Commons)",
+    "license": "PD-old-100-expired (photographer d. 1918)",
+    "creator": "Pau Audouard Deglaire",
+    "date": "15 March 1878",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Antoni_Gaudi_1878.jpg",
+    "attribution": "Pau Audouard Deglaire, 1878"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (architecture) and Southern Europe regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q25328) before any research began. A factual evidence ledger (10 distinct episodes) was built and locked before any trait score was assigned. His sustained financial dependence on patron Eusebi Guell is recorded honestly in provenance/sources as real context (most of his major surviving buildings would likely not exist without it) but is not itself used as trait evidence, since a patronage relationship is not the same claim as an active collaborative working practice. Scoring was locked BEFORE eligibility_v2 was consulted."
-  },
-  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 6 scored attributes (need 18); coverage 0.193 (need 0.6); HC count 5/12; HC average 0.638 (PASSES this sub-requirement)."
+  }
 }

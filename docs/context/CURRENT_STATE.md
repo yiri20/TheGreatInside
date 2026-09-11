@@ -4,7 +4,29 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-10 (Roster29: fifteen-person fast production batch,
+Last updated: 2026-09-10 (Roster30: twenty-person zero-politics fast
+production batch, `feat/roster30-twenty-person-zero-politics-batch`,
+unmerged — same mechanical-intake discipline as Roster25-29, plus a hard
+constraint: **zero political/state/military/activist-primary people** (a
+correction to a composition imbalance flagged after Roster29). Hippocrates,
+Barbara McClintock, Chien-Shiung Wu, Frederick Sanger, Hypatia, Jean-
+François Champollion, Mary Shelley, Omar Khayyam, Mary Anning, Al-
+Khwarizmi, Baruch Spinoza, Sebastião Salgado, J.R.R. Tolkien, Antoni Gaudí,
+Georgia O'Keeffe, Andrew Carnegie, Madam C.J. Walker, Jesse Owens, Roald
+Amundsen, and Paul Erdős — all honestly failing `eligibility_v2`, none
+rescued. Two `RUBRIC_CORRECTION`s (McClintock and Sanger's
+`analytical_rigor` rows, both narrowed off an outcome-based "eventual Nobel
+recognition implies rigor" inference), one `ERROR_CORRECTION` (Sanger's row
+and editorial text both wrongly said "the only person" to win Chemistry
+twice — Karl Barry Sharpless also has, per a live Wikipedia re-check —
+narrowed to "one of only two"), and three classification-metadata fixes
+(two invalid `impactDomains` values, one invalid source `kind`). Full
+details: `docs/checkpoints/roster30-twenty-person-zero-politics-batch.md`.
+Production 185→205, directory-visible 184→204, match-eligible unchanged at
+127. **Handoff for Roster31**: the same zero-politics rule applies; not yet
+started.
+
+Last updated (superseded above): 2026-09-10 (Roster29: fifteen-person fast production batch,
 `feat/roster29-fifteen-person-fast-batch`, unmerged — mechanical intake from
 the existing `held` pool only, no new candidate discovery, evidence-viability
 weighted first, recognizability second. Gabriel García Márquez, Murasaki

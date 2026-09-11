@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "jrr-tolkien",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "J. R. R. Tolkien",
     "aliases": [
@@ -171,7 +171,7 @@
   },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q892) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known existence of the published Letters collection and Carpenter's authorized biography. Only 13 attributes scored this pass -- social/motivational-facet evidence (leadership_drive, social_assertiveness, competitiveness, autonomy_need, conflict_tolerance) was not strong enough this cycle to score defensibly; this profile leans heavily toward thinking/creativity/work-style attributes where the documented record is genuinely rich."
   },
@@ -182,5 +182,17 @@
     "eligible": false,
     "computedAt": "2026-09-05T00:00:00Z"
   },
-  "holdReason": "Only 14 scored attributes (need 18); coverage 0.42 below the 0.6 threshold; 10 attributes at confidence>=0.5 (need 12). Strong on creativity/work-style evidence; this cycle's research did not surface strong social/motivational-facet evidence (leadership_drive, social_assertiveness, competitiveness, autonomy_need, conflict_tolerance). A deeper pass using the published Letters collection directly (rather than the Wikipedia summary of it) would likely close this gap."
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jrr-tolkien-1911.jpg",
+    "width": 654,
+    "height": 1000,
+    "source": "The Morgan Library & Museum",
+    "license": "PD (published pre-1931)",
+    "creator": "H.J. Whitlock & Sons Ltd., Birmingham",
+    "date": "January 1911",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_1911.jpg",
+    "attribution": "H.J. Whitlock & Sons Ltd., 1911"
+  }
 }

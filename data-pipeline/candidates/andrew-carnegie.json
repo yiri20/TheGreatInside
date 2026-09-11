@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "andrew-carnegie",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Andrew Carnegie",
     "wikidataId": "Q484265",
@@ -25,7 +25,7 @@
       "business"
     ],
     "impactDomains": [
-      "economic",
+      "wealth_creation",
       "historical",
       "educational"
     ],
@@ -101,13 +101,22 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/andrew-carnegie-1895.jpg",
+    "width": 1280,
+    "height": 1923,
+    "source": "Dedication Souvenir of the Carnegie Library, Pittsburgh (Historic Pittsburgh)",
+    "license": "PD-anon-expired (published pre-1931)",
+    "creator": "anonymous",
+    "date": "November 1895",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Andrew_Carnegie,_1895,_from_frontispiece_to_Dedication_Souvenir_of_the_Carnegie_Library,_Pittsburgh.jpg",
+    "attribution": "Unknown artist, 1895"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-10T00:00:00Z",
     "processedBy": "agent",
     "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (entrepreneurship/industry) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q484265) before any research began. A factual evidence ledger (12 distinct episodes) was built and locked before any trait score was assigned, deliberately including the Homestead Strike as a real, documented, harmful consequence of his own authorized decision rather than omitting it to produce a more flattering profile. Scoring was locked BEFORE eligibility_v2 was consulted."
-  },
-  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.149 (need 0.6); HC count 5/12; HC average 0.600 (PASSES this sub-requirement)."
+  }
 }
