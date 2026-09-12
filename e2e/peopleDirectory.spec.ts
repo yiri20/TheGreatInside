@@ -729,3 +729,65 @@ test("people directory @ 390px: category rows collapse to a single stacked colum
   await expect(page.getByRole("checkbox", { name: "Philosophy" })).toBeVisible();
   await assertNoHorizontalOverflow(page);
 });
+
+/**
+ * Locale-aware Directory name sort fix: `name_asc`/`name_desc` used to sort
+ * every locale by the hidden English `canonicalName`, so a ko-KR Directory
+ * that visually renders Korean names (`personDisplayName`) still ordered
+ * its cards by English identity. These assert against the actually
+ * RENDERED card names (`.tgi-personcard__name`), not internal state, and
+ * check every adjacent pair mechanically so the guard holds as the roster
+ * keeps growing rather than pinning a specific snapshot order.
+ */
+test("people directory en-US: name_asc / name_desc still sort A→Z / Z→A on the rendered card names", async ({
+  page,
+}) => {
+  await page.goto("/en-US/people", { waitUntil: "networkidle" });
+  const collator = new Intl.Collator("en-US");
+
+  await page.getByRole("combobox", { name: "Sort" }).selectOption({ label: "Name (A–Z)" });
+  const asc = await page.locator(".tgi-personcard__name").allTextContents();
+  expect(asc.length).toBeGreaterThan(0);
+  for (let i = 1; i < asc.length; i++) {
+    expect(collator.compare(asc[i - 1]!, asc[i]!), `"${asc[i - 1]}" then "${asc[i]}"`).toBeLessThanOrEqual(0);
+  }
+
+  await page.getByRole("combobox", { name: "Sort" }).selectOption({ label: "Name (Z–A)" });
+  const desc = await page.locator(".tgi-personcard__name").allTextContents();
+  expect(desc).toEqual([...asc].reverse());
+});
+
+test("people directory ko-KR: name_asc renders cards in 가나다 order on the actual Korean display names, not hidden English order", async ({
+  page,
+}) => {
+  await page.goto("/ko-KR/people", { waitUntil: "networkidle" });
+  await page.getByRole("combobox", { name: "정렬" }).selectOption({ label: "이름 (가나다순)" });
+
+  const names = await page.locator(".tgi-personcard__name").allTextContents();
+  expect(names.length).toBeGreaterThan(0);
+
+  // Every rendered name must be genuine Korean text (the bug this guards
+  // against would render hidden-English-ordered cards that still LOOK
+  // Korean individually — so this also confirms the fixture actually
+  // exercises Korean display names, not a no-op on an empty bundle).
+  for (const name of names) {
+    expect(name, `"${name}" does not look like a localized Korean name`).toMatch(/[가-힣]/);
+  }
+
+  const collator = new Intl.Collator("ko-KR");
+  for (let i = 1; i < names.length; i++) {
+    expect(collator.compare(names[i - 1]!, names[i]!), `"${names[i - 1]}" then "${names[i]}"`).toBeLessThanOrEqual(0);
+  }
+});
+
+test("people directory ko-KR: name_desc is the exact reverse of the 가나다 order", async ({ page }) => {
+  await page.goto("/ko-KR/people", { waitUntil: "networkidle" });
+
+  await page.getByRole("combobox", { name: "정렬" }).selectOption({ label: "이름 (가나다순)" });
+  const asc = await page.locator(".tgi-personcard__name").allTextContents();
+
+  await page.getByRole("combobox", { name: "정렬" }).selectOption({ label: "이름 (역순)" });
+  const desc = await page.locator(".tgi-personcard__name").allTextContents();
+
+  expect(desc).toEqual([...asc].reverse());
+});

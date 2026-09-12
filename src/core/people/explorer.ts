@@ -227,14 +227,44 @@ export type PeopleSortKey =
   | "birth_year_desc"
   | "confidence_desc";
 
+/**
+ * Optional context for name-based sorting. `explorer.ts` has no i18n
+ * dependency of its own and must not hardcode any one locale's name lookup
+ * — the caller (e.g. `PeopleDirectoryClient`) is the one that knows the
+ * current UI locale and how to resolve a person's actually-DISPLAYED name
+ * (`personDisplayName()`, `core/i18n/index.ts`). Omitting this preserves
+ * every existing caller's exact prior behavior: sort by `canonicalName`
+ * under the runtime's default locale.
+ */
+export interface NameSortContext<T extends ExplorablePerson = ExplorablePerson> {
+  /** BCP-47 tag driving collation order, e.g. "ko-KR" for 가나다 order. */
+  locale?: string;
+  /** Resolves the name actually shown to the user. Sorting must always
+   *  agree with what's rendered — never sort by an invisible alternative
+   *  name. Defaults to `canonicalName`. */
+  displayNameFor?: (person: T) => string;
+}
+
 /** Stable regardless of sort key: ties break on id, never popularity or recency. */
-export function sortPeople<T extends ExplorablePerson>(people: readonly T[], sortKey: PeopleSortKey): T[] {
+export function sortPeople<T extends ExplorablePerson>(
+  people: readonly T[],
+  sortKey: PeopleSortKey,
+  nameSort?: NameSortContext<T>,
+): T[] {
   const withFallback = (a: ExplorablePerson, b: ExplorablePerson) => a.id.localeCompare(b.id);
   const byBirthYear = (p: ExplorablePerson) => p.birthYear ?? Number.NEGATIVE_INFINITY;
 
-  const comparators: Record<PeopleSortKey, (a: ExplorablePerson, b: ExplorablePerson) => number> = {
-    name_asc: (a, b) => a.canonicalName.localeCompare(b.canonicalName) || withFallback(a, b),
-    name_desc: (a, b) => b.canonicalName.localeCompare(a.canonicalName) || withFallback(a, b),
+  // `new Intl.Collator(undefined).compare` is spec-equivalent to bare
+  // `String.prototype.localeCompare` (both resolve the runtime's default
+  // locale the same way), so omitting `nameSort` reproduces the prior
+  // `canonicalName.localeCompare(...)` behavior exactly.
+  const displayNameFor = nameSort?.displayNameFor ?? ((p: T) => p.canonicalName);
+  const collator = new Intl.Collator(nameSort?.locale);
+  const compareNames = (a: T, b: T) => collator.compare(displayNameFor(a), displayNameFor(b));
+
+  const comparators: Record<PeopleSortKey, (a: T, b: T) => number> = {
+    name_asc: (a, b) => compareNames(a, b) || withFallback(a, b),
+    name_desc: (a, b) => compareNames(b, a) || withFallback(a, b),
     birth_year_asc: (a, b) => byBirthYear(a) - byBirthYear(b) || withFallback(a, b),
     birth_year_desc: (a, b) => byBirthYear(b) - byBirthYear(a) || withFallback(a, b),
     confidence_desc: (a, b) =>
@@ -245,19 +275,20 @@ export function sortPeople<T extends ExplorablePerson>(people: readonly T[], sor
 
 /* ---------------------------------------------------------------- combined */
 
-export interface ExplorePeopleOptions {
+export interface ExplorePeopleOptions<T extends ExplorablePerson = ExplorablePerson> {
   query?: string;
   filter?: PeopleFilter;
   sort?: PeopleSortKey;
+  nameSort?: NameSortContext<T>;
 }
 
 export function explorePeople<T extends ExplorablePerson>(
   people: readonly T[],
-  { query = "", filter = {}, sort = "name_asc" }: ExplorePeopleOptions = {},
+  { query = "", filter = {}, sort = "name_asc", nameSort }: ExplorePeopleOptions<T> = {},
 ): T[] {
   const searched = searchPeople(people, query);
   const filtered = filterPeople(searched, filter);
-  return sortPeople(filtered, sort);
+  return sortPeople(filtered, sort, nameSort);
 }
 
 /* ------------------------------------------------------- facet inventory */
