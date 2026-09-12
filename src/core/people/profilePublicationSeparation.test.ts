@@ -260,6 +260,18 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "james-baldwin",
     "george-bernard-shaw",
     "pablo-neruda",
+    // Legacy integrity remediation (2026-09, docs/checkpoints/legacy-
+    // integrity-kurosawa-remediation.md): akira-kurosawa (roster2,
+    // hand-authored, pre-candidate-pipeline) was re-researched from scratch
+    // after the match-pool integrity audit found his original 30 rows
+    // carried no per-row rationale. Now backed by a real candidate file
+    // (data-pipeline/candidates/akira-kurosawa.json) with 10 genuinely
+    // evidence-supported rows, evidence_approved, directory-visible, and --
+    // for the first time -- honestly non-match-eligible (was mirroring
+    // isMatchEligible=true before this cycle). Match-eligible set drops by
+    // exactly one, to 126 (see the next test); no other person's
+    // eligibility changed.
+    "akira-kurosawa",
   ]);
 
   it("still exactly 225 production people", () => {
@@ -272,7 +284,7 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     expect(visible).toHaveLength(224);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety-seven deliberately-divergent roster24/25/26/27/28/29/30/31/32 additions", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety-eight deliberately-divergent roster24/25/26/27/28/29/30/31/32 additions plus the legacy-remediated akira-kurosawa", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);
@@ -283,10 +295,12 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     }
   });
 
-  it("the match-eligible set is unchanged at 127 (last grown by Che Guevara in roster26); roster27 added zero newly match-eligible people", () => {
-    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(127);
+  it("the match-eligible set is 126, down from 127 for the first time since Che Guevara grew it in roster26 -- akira-kurosawa's legacy remediation is the sole cause, no other person's eligibility changed", () => {
+    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(126);
     const cheGuevara = SEED_PEOPLE.find((p) => p.slug === "che-guevara");
     expect(cheGuevara?.isMatchEligible).toBe(true);
+    const kurosawa = SEED_PEOPLE.find((p) => p.slug === "akira-kurosawa");
+    expect(kurosawa?.isMatchEligible).toBe(false);
   });
 
   it("Zheng He's existing intended behavior is unchanged: published, not match-eligible, not directory-visible", () => {

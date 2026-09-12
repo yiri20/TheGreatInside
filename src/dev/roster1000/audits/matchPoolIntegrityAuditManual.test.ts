@@ -86,10 +86,10 @@ describe("manual row-classification ledger: aggregation", () => {
     expect(rateSum).toBeCloseTo(1, 5);
   });
 
-  it("matches the exact known denominators for this audit cycle", () => {
-    expect(ledgerFor(FROZEN_16_ELIGIBLE)).toHaveLength(396);
+  it("matches the exact known denominators for this audit cycle (akira-kurosawa's row count dropped 30->10 after the legacy remediation cycle, docs/checkpoints/legacy-integrity-kurosawa-remediation.md)", () => {
+    expect(ledgerFor(FROZEN_16_ELIGIBLE)).toHaveLength(376);
     expect(ledgerFor(FROZEN_8_CONTROLS)).toHaveLength(88);
-    expect(MANUAL_ROW_LEDGER).toHaveLength(484);
+    expect(MANUAL_ROW_LEDGER).toHaveLength(464);
   });
 });
 

@@ -106,17 +106,21 @@ export const MANUAL_ROW_LEDGER: readonly ManualLedgerEntry[] = [
   ], "unsupported_from_available_provenance", NO_RATIONALE_NOTE),
   { slug: "ada-lovelace", attributeId: "opportunity_sensing", classification: "supported_as_written", note: "Her Notes on the Analytical Engine documented as articulating a broader significance Babbage himself hadn't emphasized." },
 
-  // ---- akira-kurosawa (roster2, 30, no taxonomy addition scored) ----
+  // ---- akira-kurosawa: SUPERSEDED by the legacy integrity remediation
+  // cycle (2026-09, docs/checkpoints/legacy-integrity-kurosawa-
+  // remediation.md), which re-researched him from scratch and replaced
+  // all 30 undocumented base rows with 10 genuinely evidence-supported
+  // ones (data-pipeline/candidates/akira-kurosawa.json). The 30-row
+  // all-unsupported classification this PR originally reported for him
+  // is preserved as history in that PR's own checkpoint doc
+  // (match-pool-integrity-post-roster32.md), not restated here -- this
+  // ledger tracks LIVE data (enforced by this file's own coverage tests),
+  // so it reflects his current, real, cited rows.
   ...bulk("akira-kurosawa", [
-    "achievement_drive", "adaptability", "aesthetic_sensitivity", "ambiguity_tolerance",
-    "analytical_rigor", "autonomy_need", "collaboration", "competitiveness",
-    "conflict_tolerance", "creative_originality", "cross_domain_range", "curiosity",
-    "decisiveness", "deep_focus", "detail_orientation", "discipline", "execution_speed",
-    "experimentation", "impact_motivation", "independent_thinking", "intuitive_synthesis",
-    "leadership_drive", "mastery_orientation", "perfectionism", "persistence",
-    "persuasiveness", "planning_orientation", "risk_tolerance", "social_assertiveness",
-    "systems_abstraction",
-  ], "unsupported_from_available_provenance", NO_RATIONALE_NOTE),
+    "analytical_rigor", "creative_originality", "detail_orientation", "discipline",
+    "decisiveness", "autonomy_need", "leadership_drive", "collaboration",
+    "conflict_tolerance", "mastery_orientation",
+  ], "supported_as_written"),
 
   // ---- benjamin-franklin (roster2, 34) ----
   ...bulk("benjamin-franklin", [
@@ -434,7 +438,11 @@ function main(): void {
 
   // Decomposition referenced in the checkpoint doc: roster1/2 vs
   // candidate-JSON-backed within the eligible sample.
-  const ROSTER1_2 = ["ada-lovelace", "akira-kurosawa", "benjamin-franklin", "alan-turing", "confucius"];
+  // akira-kurosawa deliberately excluded from this list: the legacy
+  // remediation cycle gave him a real candidate JSON file, so he is now
+  // part of the candidate-JSON-backed population this decomposition
+  // isolates, not the no-JSON group it excludes.
+  const ROSTER1_2 = ["ada-lovelace", "benjamin-franklin", "alan-turing", "confucius"];
   const jsonBackedEligible = ledgerFor(FROZEN_16_ELIGIBLE.filter((s) => !ROSTER1_2.includes(s)));
   report("ELIGIBLE SAMPLE, JSON-BACKED LINEAGE ONLY (11 people)", jsonBackedEligible);
 }

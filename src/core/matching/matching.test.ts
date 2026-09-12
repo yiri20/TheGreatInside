@@ -386,6 +386,13 @@ describe("confidence and missing data", () => {
       "james-baldwin",
       "george-bernard-shaw",
       "pablo-neruda",
+      // Legacy integrity remediation (2026-09,
+      // docs/checkpoints/legacy-integrity-kurosawa-remediation.md):
+      // akira-kurosawa's original 30 undocumented rows were replaced with
+      // 10 genuinely evidence-supported ones, honestly falling short of
+      // eligibility_v2 for the first time (was mirroring eligible=true
+      // before this cycle, on rows with no stated rationale).
+      "akira-kurosawa",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -712,6 +719,13 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "james-baldwin",
       "george-bernard-shaw",
       "pablo-neruda",
+      // Legacy integrity remediation (2026-09,
+      // docs/checkpoints/legacy-integrity-kurosawa-remediation.md):
+      // akira-kurosawa's original 30 undocumented rows were replaced with
+      // 10 genuinely evidence-supported ones, honestly falling short of
+      // eligibility_v2 for the first time (was mirroring eligible=true
+      // before this cycle, on rows with no stated rationale).
+      "akira-kurosawa",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

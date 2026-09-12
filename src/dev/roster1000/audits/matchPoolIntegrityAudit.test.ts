@@ -40,14 +40,30 @@ describe("match-pool integrity audit: cohort counts", () => {
   });
 
   it("matches the live production/directory/eligible counts", () => {
+    // Match-eligible dropped 127->126 after the akira-kurosawa legacy
+    // remediation (docs/checkpoints/legacy-integrity-kurosawa-remediation.md)
+    // honestly found only 10 individually-attributable rows -- directory
+    // visibility is unchanged since he was made evidence_approved, not held.
     expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(224);
-    expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(127);
+    expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(126);
   });
 
-  it("every directory-visible non-eligible person belongs to the recent_cycles lineage group", () => {
-    const nonEligibleVisible = inventory.filter((r) => r.isDirectoryVisible && !r.isMatchEligible);
+  it("every directory-visible non-eligible person belongs to the recent_cycles lineage group, EXCEPT the legacy-remediated akira-kurosawa", () => {
+    // Legacy integrity remediation (2026-09, docs/checkpoints/legacy-
+    // integrity-kurosawa-remediation.md) made akira-kurosawa (early_hand_
+    // authored lineage) the first non-recent-cycle person to be
+    // evidence_approved/directory-visible/non-eligible -- previously this
+    // combination only arose from the roster24+ publication architecture.
+    const nonEligibleVisible = inventory.filter(
+      (r) => r.isDirectoryVisible && !r.isMatchEligible && r.slug !== "akira-kurosawa",
+    );
     expect(nonEligibleVisible.length).toBeGreaterThan(0);
     for (const r of nonEligibleVisible) expect(r.lineageGroup).toBe("recent_cycles");
+
+    const kurosawa = inventory.find((r) => r.slug === "akira-kurosawa")!;
+    expect(kurosawa.isDirectoryVisible).toBe(true);
+    expect(kurosawa.isMatchEligible).toBe(false);
+    expect(kurosawa.lineageGroup).toBe("early_hand_authored");
   });
 });
 

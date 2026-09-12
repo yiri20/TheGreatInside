@@ -605,10 +605,10 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     impactDomains: ["artistic","cultural"],
     tagIds: ["perfectionist","leader"],
     archetypeIds: ["creative_creator","organizational_leader"],
-    isMatchEligible: true,
+    isMatchEligible: false,
     isDirectoryVisible: true,
-    overallProfileConfidence: 0.6240000000000001,
-    attributes: [["curiosity", 78, 0.6, "neutral"], ["analytical_rigor", 75, 0.58, "neutral"], ["intuitive_synthesis", 82, 0.65, "advantage"], ["systems_abstraction", 72, 0.55, "neutral"], ["independent_thinking", 88, 0.72, "advantage"], ["creative_originality", 92, 0.78, "advantage"], ["experimentation", 72, 0.55, "neutral"], ["cross_domain_range", 55, 0.42, "neutral"], ["aesthetic_sensitivity", 96, 0.85, "advantage"], ["discipline", 90, 0.75, "advantage"], ["deep_focus", 90, 0.75, "advantage"], ["detail_orientation", 92, 0.78, "advantage"], ["perfectionism", 95, 0.85, "dual_edged"], ["execution_speed", 48, 0.5, "dual_edged"], ["planning_orientation", 78, 0.6, "advantage"], ["persistence", 90, 0.75, "advantage"], ["adaptability", 62, 0.48, "neutral"], ["risk_tolerance", 65, 0.5, "neutral"], ["ambiguity_tolerance", 58, 0.45, "neutral"], ["decisiveness", 82, 0.65, "advantage"], ["social_assertiveness", 72, 0.55, "neutral"], ["collaboration", 58, 0.5, "neutral"], ["leadership_drive", 88, 0.72, "dual_edged"], ["persuasiveness", 72, 0.55, "neutral"], ["conflict_tolerance", 78, 0.6, "dual_edged"], ["mastery_orientation", 88, 0.72, "advantage"], ["achievement_drive", 80, 0.62, "neutral"], ["competitiveness", 65, 0.5, "neutral"], ["autonomy_need", 82, 0.65, "advantage"], ["impact_motivation", 72, 0.55, "neutral"]],
+    overallProfileConfidence: 0.5599999999999999,
+    attributes: [["analytical_rigor", 85, 0.65, "advantage"], ["creative_originality", 78, 0.55, "advantage"], ["detail_orientation", 82, 0.6, "advantage"], ["discipline", 76, 0.5, "neutral"], ["decisiveness", 82, 0.6, "advantage"], ["autonomy_need", 74, 0.55, "neutral"], ["leadership_drive", 80, 0.55, "dual_edged"], ["collaboration", 55, 0.6, "dual_edged"], ["conflict_tolerance", 65, 0.5, "dual_edged"], ["mastery_orientation", 70, 0.5, "advantage"]],
     portraitUrl: "/portraits/akira-kurosawa-seven-samurai-set-1953.jpg",
   },
   {

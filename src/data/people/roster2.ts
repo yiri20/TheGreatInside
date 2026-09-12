@@ -1995,6 +1995,10 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["perfectionist", "leader"],
     archetypeIds: ["creative_creator", "organizational_leader"],
+    // Verified live against Wikidata during the 2026-09 legacy integrity
+    // remediation cycle (docs/checkpoints/legacy-integrity-kurosawa-
+    // remediation.md) -- previously absent, a real gap this cycle closed.
+    externalIdentity: { wikidataId: "Q8006" },
     // FINAL Tier-A Portrait Recovery (2026-08): verified live against the
     // Commons file page. NOT CC-licensed — public domain under the old
     // (pre-1971) Japanese Copyright Act's short term for photographs
@@ -2046,48 +2050,148 @@ const seeds: PersonSeed[] = [
     //     Language Film; Kagemusha (1980, Cannes Palme d'Or, backed in
     //     part with help from George Lucas and Francis Ford Coppola) and
     //     Ran (1985) followed; received an Academy Honorary Award in 1990.
-    sources: [wiki("kurosawa", "Akira Kurosawa")],
+    // Legacy integrity remediation (2026-09-12,
+    // docs/checkpoints/legacy-integrity-kurosawa-remediation.md): the
+    // match-pool integrity audit (docs/checkpoints/match-pool-integrity-
+    // post-roster32.md) found this profile's original 30 rows below
+    // carried a score/confidence/evidenceType tuple but NO per-row
+    // rationale text anywhere in the repository, sourced only to a single
+    // Wikipedia article -- a real provenance gap, not evidence the
+    // underlying facts were false. Fresh source-grounded research this
+    // cycle (identity re-verified live against Wikidata Q8006; a real
+    // candidate record now exists at
+    // data-pipeline/candidates/akira-kurosawa.json, the authoritative
+    // source of truth this seed entry mirrors exactly) built a fact ledger
+    // BEFORE any row was scored, then audited all 30 original rows against
+    // it. 10 rows below are retained with genuine, specific,
+    // individually-attributable support, rescored directly from the new
+    // evidence, not anchored to the old values. The other 20 (curiosity,
+    // intuitive_synthesis, systems_abstraction, independent_thinking,
+    // experimentation, cross_domain_range, aesthetic_sensitivity,
+    // execution_speed, planning_orientation, persistence, adaptability,
+    // risk_tolerance, ambiguity_tolerance, social_assertiveness,
+    // persuasiveness, achievement_drive, competitiveness, impact_motivation,
+    // deep_focus, perfectionism) were REMOVED: this cycle's research did
+    // not surface individually-attributable behavioral support for them --
+    // notably including aesthetic_sensitivity/creative acclaim generally,
+    // where his critical reputation is undisputed but this cycle
+    // deliberately declined to treat film acclaim/awards as personality
+    // evidence without a specific behavioral anecdote, per this project's
+    // own rubric discipline. This is a disclosed limitation of this
+    // cycle's research scope, not a claim these traits are false. His
+    // brother Heigo's 1933 suicide and Kurosawa's own 1971 suicide attempt
+    // (already reflected only in existing non-trait editorial content
+    // above) were deliberately NOT used as evidence for any row, per this
+    // project's standing precedent against inferring personality from
+    // tragedy or private health crises. Publication decision
+    // (evidence_approved) was made from evidence quality alone, before
+    // eligibility_v2 was computed: scored 30->10, coverage 0.883->0.295,
+    // high-confidence count 27->10, eligible true->false (isMatchEligible
+    // unchanged in kind -- was already the only meaningful gate; see the
+    // checkpoint doc for the full before/after).
+    sources: [
+      wiki("kurosawa", "Akira Kurosawa"),
+      { id: "src_kurosawa_autobiography", kind: "archive", title: "Akira Kurosawa, Something Like an Autobiography (trans. Audie E. Bock, Vintage, 1983)" },
+      { id: "src_kurosawa_richie", kind: "biography", title: "Donald Richie, The Films of Akira Kurosawa (University of California Press, 3rd ed. 1996)" },
+      { id: "src_kurosawa_galbraith", kind: "biography", title: "Stuart Galbraith IV, The Emperor and the Wolf: The Lives and Films of Akira Kurosawa and Toshiro Mifune (Faber and Faber, 2002)" },
+      { id: "src_kurosawa_hashimoto", kind: "archive", title: "Shinobu Hashimoto, Compound Cinematics: Akira Kurosawa and I (Vertical, Inc., English trans.)" },
+      { id: "src_kurosawa_nogami", kind: "archive", title: "Teruyo Nogami, Waiting on the Weather: Making Movies with Akira Kurosawa (Stone Bridge Press, 2006; foreword by Donald Richie)" },
+      { id: "src_kurosawa_criterion_technique", kind: "institution", title: "The Criterion Collection -- production/rehearsal-method material accompanying its Kurosawa releases" },
+      { id: "src_kurosawa_kagemusha_press", kind: "press", title: "Multiply-corroborated production-history accounts of the March 1979 Kagemusha recasting (TCM, BFI Southbank programme notes, IMDb trivia)" },
+      { id: "src_kurosawa_yamamoto", kind: "archive", title: "Secondary compilation of Kurosawa's 1936-1941 PCL apprenticeship under director Kajiro Yamamoto (Britannica; akirakurosawa.info)" },
+    ],
+    // Explicit override: without this, `build()` falls back to mirroring
+    // `isMatchEligible` (now false at only 10 rows), which would silently
+    // pull this publication-safe, evidence_approved profile out of the
+    // Directory too. See `PersonSeed.directoryVisible`'s own doc comment
+    // in builder.ts.
+    directoryVisible: true,
     rows: {
-      curiosity: [78, 0.6, "s", "N"],
-      analytical_rigor: [75, 0.58, "s", "N"],
-      intuitive_synthesis: [82, 0.65, "s", "A"],
-      systems_abstraction: [72, 0.55, "s", "N"],
-      independent_thinking: [88, 0.72, "s", "A"],
-      creative_originality: [92, 0.78, "d", "A"],
-      experimentation: [72, 0.55, "s", "N"],
-      cross_domain_range: [55, 0.42, "i", "N"],
-      aesthetic_sensitivity: [96, 0.85, "d", "A"],
-      discipline: [90, 0.75, "s", "A"],
-      deep_focus: [90, 0.75, "s", "A"],
-      detail_orientation: [92, 0.78, "d", "A"],
-      perfectionism: [95, 0.85, "d", "D"],
-      execution_speed: [48, 0.5, "s", "D"],
-      planning_orientation: [78, 0.6, "s", "A"],
-      persistence: [90, 0.75, "s", "A"],
-      adaptability: [62, 0.48, "i", "N"],
-      risk_tolerance: [65, 0.5, "i", "N"],
-      ambiguity_tolerance: [58, 0.45, "i", "N"],
-      decisiveness: [82, 0.65, "s", "A"],
-      social_assertiveness: [72, 0.55, "s", "N"],
-      collaboration: [58, 0.5, "s", "N"],
-      leadership_drive: [88, 0.72, "s", "D"],
-      persuasiveness: [72, 0.55, "s", "N"],
-      conflict_tolerance: [78, 0.6, "s", "D"],
-      mastery_orientation: [88, 0.72, "s", "A"],
-      achievement_drive: [80, 0.62, "s", "N"],
-      competitiveness: [65, 0.5, "i", "N"],
-      autonomy_need: [82, 0.65, "s", "A"],
-      impact_motivation: [72, 0.55, "i", "N"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol): all four new
-      // attributes checked against both poles and left missing — a genuine
-      // null result, not a skipped check. resourcefulness specifically
-      // considered via his 1970s career crisis (Dodesukaden's commercial
-      // failure, Soviet rather than Japanese funding for Dersu Uzala) and
-      // his famously exacting production demands even under budget
-      // pressure — both rejected: the former is external rescue, not his
-      // own improvisation; the latter is his already-scored perfectionism
-      // (95, D) restated, exactly the confound this audit is checking for,
-      // not a distinct resourcefulness-low episode.
+      // From the late 1940s through Red Beard (1965), Kurosawa ran a deliberately
+      // bias-resistant screenplay process with a rotating group of co-writers
+      // (Hisaita, Kikushima, Hashimoto, Oguni, Ide): sequestered together at a
+      // hot-spring inn, multiple writers independently drafted the SAME scene,
+      // and Kurosawa selected the strongest version -- a structure Hashimoto's
+      // own memoir describes as designed "so that each contributor might
+      // function as a kind of foil, checking the dominance of any one person's
+      // point of view." Documented firsthand by a direct participant
+      // (Hashimoto), corroborated by general film scholarship.
+      analytical_rigor: [85, 0.65, "s", "A"],
+      // The competitive multi-writer method itself (see analytical_rigor) was,
+      // by the standards of the contemporary Japanese studio system, a
+      // distinctive process of Kurosawa's own design, not an inherited
+      // convention -- a different claim from the rigor of the process itself:
+      // this row is about the novelty of having designed it at all,
+      // corroborated by Hashimoto's firsthand account and general
+      // film-historical treatment of the method as unusual for its era.
+      creative_originality: [78, 0.55, "s", "A"],
+      // Ran full-costume, full-makeup rehearsals beginning in the actors'
+      // dressing rooms and progressively building to complete run-throughs
+      // covering camera movement and lighting before any filming began, a
+      // practice documented via Criterion's production-history material
+      // (drawing on production designer Yoshiro Muraki's own account) and
+      // consistent with the general record of his working method.
+      detail_orientation: [82, 0.6, "s", "A"],
+      // Two distinct, moderately-sourced instances: maintained a self-imposed
+      // habit of writing at least one page daily during his apprenticeship
+      // years (secondary biographical compilation, not independently
+      // corroborated this cycle), and sustained the exhaustive full-rehearsal
+      // production method (see detail_orientation) across his career. Kept at
+      // strong_inference/moderate confidence given the daily-writing claim
+      // traces to a single lower-authority biographical summary rather than a
+      // named book.
+      discipline: [76, 0.5, "s", "N"],
+      // On the first day of principal photography for Kagemusha (March 1979),
+      // lead actor Shintaro Katsu arrived with his own television camera and
+      // crew to film his own performance for later study; Kurosawa objected
+      // that it would appear in his own shots, Katsu refused to remove it, and
+      // Kurosawa fired him immediately rather than negotiate, absorbing the
+      // cost and schedule disruption of recasting the lead role (replaced by
+      // Tatsuya Nakadai). Corroborated across multiple independent
+      // production-history accounts (TCM, BFI Southbank programme notes, and
+      // referenced as "the falling out... on Kagemusha" in a review of
+      // Nogami's own memoir).
+      decisiveness: [82, 0.6, "s", "A"],
+      // The same Kagemusha incident (see decisiveness) turned specifically on
+      // Kurosawa's insistence that he alone, as director, would judge Katsu's
+      // performance -- not a general dispute but a documented refusal to
+      // share evaluative authority over an actor's own work, at real
+      // practical cost.
+      autonomy_need: [74, 0.55, "s", "N"],
+      // A pattern across two distinct, independently-documented episodes of
+      // asserting final creative authority over collaborators rather than
+      // delegating or compromising: choosing the winning draft among
+      // competing co-writers in the screenplay process (Hashimoto's own
+      // account), and firing his lead actor outright on the first day of
+      // Kagemusha's shoot rather than share control (see decisiveness).
+      // Marked dual_edged: the same pattern that produced disciplined,
+      // coherent films also produced real professional ruptures.
+      leadership_drive: [80, 0.55, "s", "D"],
+      // A specific, two-source-corroborated contrast: production manager
+      // Teruyo Nogami, who worked with Kurosawa continuously across 19 films
+      // from Rashomon (1950) to Madadayo (1993), is independently described
+      // in her own memoir AND in Donald Richie's foreword to that same memoir
+      // as "the sole person with whom Kurosawa never lost his temper and who
+      // he never criticised" -- a genuinely exceptional 43-year working
+      // relationship -- set against the broader, separately-corroborated
+      // record of his volatility with others (see conflict_tolerance). Scored
+      // at the center with dual_edged impact because the evidence is
+      // specifically mixed, not uniformly high or low.
+      collaboration: [55, 0.6, "s", "D"],
+      // During his 1936-1941 PCL apprenticeship, mentor Kajiro Yamamoto was
+      // reportedly concerned enough about Kurosawa's temper that he required
+      // him to vow not to lose it when assigned to work with other film crews
+      // (secondary biographical compilation, moderate confidence) -- a
+      // pattern later corroborated at higher confidence by the Nogami/Richie
+      // contrast (see collaboration) and the willingness to accept the
+      // Kagemusha rupture (see decisiveness) rather than avoid confrontation.
+      conflict_tolerance: [65, 0.5, "s", "D"],
+      // Completed a full five-year assistant-director apprenticeship at PCL
+      // (1936-1941) under Kajiro Yamamoto before directing his first feature,
+      // a structured, sustained skill-building period independently
+      // documented across multiple biographical sources (Britannica, general
+      // film-historical accounts) rather than an assumed credential.
+      mastery_orientation: [70, 0.5, "s", "A"],
     },
   },
   {
