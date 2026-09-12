@@ -1,57 +1,65 @@
 # Roster32: evidence-deepening + match-pool-balance cycle (2026-09)
 
 **Branch:** `feat/roster32-evidence-deepening-balance-cycle`
-**Base:** `dec7e16faec6904f7ed7f76788c924c0ec420eba` (PR #32 merge, unchanged)
+**Base:** `dec7e16faec6904f7ed7f76788c924c0ec420eba` (PR #32 merge)
+
+## Revision note (2026-09-12 correction pass)
+
+This checkpoint was substantially corrected after the initial version
+conflated match-eligibility diagnostics with publication readiness --
+holding all 8 candidates because none crossed `eligibility_v2`, which is
+not what publication approval is gated on (see
+`docs/checkpoints/profile-publication-vs-match-eligibility.md`: "Is this
+evidence-backed profile good enough to publish?" is a review-outcome
+question, never a numeric floor). A second, eligibility-BLIND publication
+review was performed -- reasoning from evidence quality alone, with
+eligibility numbers appended only afterward, as a separate diagnostic --
+and found **7 of the 8 candidates publication-safe**. They are now
+`evidence_approved`, published, and directory-visible. This pass also
+mechanically re-derived every row-change count from a real git diff
+(the original figures were arithmetic errors) and corrected wording that
+overstated how "craft-only" the cohort's evidence base is -- several
+pre-existing rows (Neruda, Shaw) legitimately include political/diplomatic
+material, which is not a defect under this project's actual zero-politics
+rule.
 
 ## What this cycle is, and isn't
 
 Recent batches (Roster25-31) grew the People Directory from 127 to 218
-people while the match-eligible pool held flat at 127 — every addition
-honestly failed `eligibility_v2`. This cycle is **not** another
-bulk-publication batch. Its purpose was to deepen a small, frozen set of
-existing `held` candidates with genuinely NEW behavioral research —
-authorized for the first time since the Roster28-31 "fast production"
-cycles, which deliberately used existing-evidence-only intake — and to
-diagnose, honestly, why the Building & Discovery and Arts & Culture
-interest-area pools stay thin. The success question is evidence quality
-and match-pool usefulness, not production count. **Production count did
-not change this cycle** (still 218/217/127) — that is the expected,
-correct result, not a shortfall.
+people while the match-eligible pool held flat at 127. This cycle is
+**not** another bulk-publication batch. Its purpose was to deepen a small,
+frozen set of existing `held` candidates with genuinely NEW behavioral
+research -- authorized for the first time since the Roster28-31 "fast
+production" cycles -- and to diagnose why Building & Discovery and Arts &
+Culture stay thin. Publication or non-publication of the resulting,
+deepened evidence is a *separate* question from that research goal,
+governed by its own architecture (below), not by whether the research
+happened to close the match-eligibility gap. **Zero candidates became
+newly match-eligible this cycle** -- that is an honest, expected result,
+not a shortfall, and it is not what the publication decisions below turn
+on.
 
 ## Held-pool inventory: a mechanical finding that reshaped the cohort
 
 Before selecting candidates, the entire held pool (94 candidates) was
 mechanically inventoried and categorized by `PROFESSION_CATEGORIES`
-multi-membership (a candidate counts toward every category any of their
-`fieldIds` maps to, matching how the live Directory/interest-area filters
-actually work).
+multi-membership. **Building & Discovery, after exclusions, collapses to
+exactly one viable candidate.** The raw multi-membership list showed 6
+held candidates touching `business`/`technology`/`computing`/`sport`/
+`exploration`: Ibn Battuta, Mary Seacole, Marcus Garvey, John von Neumann,
+Marco Polo, and Pele. Cross-checking against the Group-B evidence-
+integrity exclusion set found **Ibn Battuta, Mary Seacole, John von
+Neumann, and Marco Polo are all Group-B** -- off-limits. Marcus Garvey
+fails the zero-politics gate (his primary historical significance is
+Pan-Africanist/UNIA movement leadership). That leaves **Pele alone**.
+Several originally-promising shortlist candidates (Ibn Battuta, Mary
+Seacole, Zeami Motokiyo, Ban Zhao, Mimar Sinan, Simone de Beauvoir,
+Cicero -- all 20-21 rows) turned out to carry the `SS76` Group-B marker,
+eliminating what looked like the strongest options before research began.
 
-**Building & Discovery, after exclusions, collapses to exactly one viable
-candidate.** The raw multi-membership list showed 6 held candidates
-touching `business`/`technology`/`computing`/`sport`/`exploration`: Ibn
-Battuta, Mary Seacole, Marcus Garvey, John von Neumann, Marco Polo, and
-Pelé. Cross-checking against the Group-B evidence-integrity exclusion set
-(mechanically reconstructed via the `SS76` provenance marker, 17 files,
-plus 5 explicitly-named additions) found **Ibn Battuta, Mary Seacole, John
-von Neumann, and Marco Polo are all Group-B** — off-limits, not to be
-re-investigated. Marcus Garvey fails the zero-politics gate (his primary
-historical significance is Pan-Africanist/UNIA movement leadership, not
-his secondary "entrepreneur" tag). That leaves **Pelé alone** — a
-mechanically-verified, honest finding about the dataset, not a selection
-preference. This is the same discovery method Roster31 used for Group-B
-reconstruction, applied fresh here per CLAUDE.md's "verify, don't trust a
-cached claim" invariant, and it happened to reveal that several
-originally-promising "already rich" candidates (Ibn Battuta 21 rows, Mary
-Seacole 21 rows, Zeami Motokiyo 21 rows, Ban Zhao 21 rows, Mimar Sinan 20
-rows, Simone de Beauvoir 21 rows, Cicero 21 rows) were **all** Group-B,
-eliminating what looked like the strongest shortlist entries before
-research began.
-
-Given this, the composition rule's fallback ("minimum 3 B&D, minimum 3
-A&C, remaining slots from the stronger category") could not be honestly
-met even at its floor — B&D's true ceiling is 1, not 3. The frozen cohort
-is **1 Building & Discovery + 7 Arts & Culture**, the honest maximum this
-pool supports without violating Group-B or zero-politics.
+Given this, the frozen cohort is **1 Building & Discovery + 7 Arts &
+Culture** -- the honest maximum this pool supports without violating
+Group-B or zero-politics.
 
 ## Frozen cohort and zero-politics verification
 
@@ -59,384 +67,226 @@ pool supports without violating Group-B or zero-politics.
 
 | Candidate | Category | Field | Region | Pre-research rows |
 |---|---|---|---|---|
-| Pelé | Building & Discovery | sport | Latin America | 3 |
+| Pele | Building & Discovery | sport | Latin America | 3 |
 | Fahrelnissa Zeid | Arts & Culture | art | West Asia | 5 |
 | Virginia Woolf | Arts & Culture | literature | W. Europe | 6 |
-| Matsuo Bashō | Arts & Culture | literature | East Asia | 6 |
+| Matsuo Basho | Arts & Culture | literature | East Asia | 6 |
 | James Baldwin | Arts & Culture | literature | N. America | 7 |
 | Al-Farabi | Arts & Culture | music/philosophy | West Asia | 9 |
 | George Bernard Shaw | Arts & Culture | literature | W. Europe | 13 |
 | Pablo Neruda | Arts & Culture | literature | Latin America | 20 |
 
-Zero-politics reasoning per candidate: Pelé, Zeid, Woolf, Bashō — no
-political content in their occupation, fields, or existing rows at all.
-Baldwin — existing/new rows concern his writing craft and individual
-professional conduct, never organizational civil-rights leadership (he
-held no such role, unlike Du Bois/Addams/Pankhurst, whose historical
-significance *is* the organizing). Al-Farabi — "politics" in his fieldIds
-reflects political philosophy he wrote about, not an office he held.
-Shaw — Nobel-laureate playwright; his Fabian Society involvement and one
-WWI pacifist stance are real but secondary to a dramatic career that would
-be remembered independent of them. Neruda — Nobel-laureate poet; every
-scored row (existing and new) is about his craft, curiosity, and personal
-habits, never his Senate/ambassadorial career, even though it's a
-well-known part of his biography.
+**On the zero-politics rule, precisely:** this rule governs a person's
+PRIMARY product identity -- "what is this person primarily famous for" --
+not the absence of any political fact from their documented biography.
+Neruda held a Senate seat, was forced into exile after denouncing Chile's
+president, and was a Communist Party member and later presidential
+pre-candidate; several of his PRE-EXISTING rows (risk_tolerance,
+impact_motivation, independent_thinking, conflict_tolerance) legitimately
+rest on that record. Shaw was a prominent Fabian Society voice and took a
+public WWI pacifist stance; his existing `independent_thinking` and
+`conflict_tolerance` rows partly rest on it. Neither is sanitized here --
+both remain unambiguously "poet" and "playwright" as their primary product
+identity (each via a Nobel Prize in Literature and global readership), so
+neither trips the zero-politics gate. This cycle's own NEW evidence
+additions for both deliberately avoided adding further political material
+as evidentiary basis, specifically to diversify the profiles' evidence
+base -- not because the existing political-adjacent rows were themselves a
+problem. Pele, Zeid, Woolf, Basho, Baldwin, and Al-Farabi have no
+political content in their fields, occupations, or rows at all.
+Baldwin's rows concern his individual professional conduct as a writer
+(mentorship, a public literary break, a screenplay walkout), never
+organizational civil-rights leadership -- he held no such role, unlike
+Du Bois/Addams/Pankhurst, whose historical significance *is* the
+organizing.
 
-Considered and explicitly rejected during selection for being ambiguous or
-disqualifying: Marcus Garvey (activist-primary, see above), Herodotus
-(no diversification benefit over the 5 literature picks already chosen,
-plus higher achievement-vs-personality risk for an ancient figure whose
-personal behavioral record is thin).
+Considered and rejected during selection: Marcus Garvey (activist-primary,
+see above); Herodotus (no diversification benefit over the 5 literature
+picks already chosen, plus higher achievement-vs-personality risk for an
+ancient figure).
 
 ## Research discipline
 
-Research first, ledger second, scoring third, eligibility last — no row
+Research first, ledger second, scoring third, eligibility last -- no row
 was added or upgraded without a specific new source, and eligibility was
 computed exactly once, after every candidate's data was finalized. Two
 Wave-3 research agents (Shaw, Neruda) hit a session-wide rate limit
-mid-run; per this cycle's own explicit instruction ("if a shared/session
-rate limit appears, stop spawning agents and continue sequentially"), no
-further parallel agents were spawned — that research was completed
-directly and sequentially instead. Concurrency stayed at 2-3 agents
-throughout (Wave 1: Pelé/Zeid/Woolf; Wave 2: Bashō/Al-Farabi/Baldwin), all
-using `WebSearch`/`WebFetch` rather than the shared interactive browser
-pane, specifically to avoid the tab-conflict failure mode this cycle's
-brief named.
+mid-run; per this cycle's own instruction, no further parallel agents were
+spawned -- that research was completed directly and sequentially instead.
+Concurrency stayed at 2-3 agents throughout, all using `WebSearch`/
+`WebFetch` rather than the shared interactive browser pane.
 
-## Per-candidate record
+## Mechanically-derived evidence ledger (corrected)
 
-### Pelé (Building & Discovery — sport)
+The original version of this checkpoint stated "20 new rows + 13 upgrades
+= 33 row-level changes." That arithmetic was wrong on both terms. The
+actual numbers below are derived by diffing every candidate file's `rows`
+object at `dec7e16` (base) against `fd8375f` (the original Roster32
+commit) programmatically -- not re-counted by hand.
 
-**Pre-research:** 3 rows, all `inference`, avg confidence ~0.44 — the
-existing hold reason explicitly named the gap: available English-language
-sourcing is match-statistics/outcomes, not personal behavior.
-**Sources opened (4):** his own "Letter to My Younger Self" (Players'
-Tribune), FIFA Museum's "a life in his own words," Society for American
-Soccer History's "The Pursuit of Pelé," and corroborating press.
-**New evidence:** childhood sock-ball/barefoot play and boot-cleaning to
-save for a real ball (2 independent firsthand instances of resourcefulness
-under scarcity); a specific, dated, quoted childhood promise to his father
-to win a World Cup (upgrading `achievement_drive` past outcome-only
-inference); recognizing a rehearsed set-play mid-1970-final (paired with
-the boot-cleaning instance for `planning_orientation`); a detailed,
-well-documented multi-month, thrice-reversed Cosmos negotiation showing
-genuinely low `decisiveness`, not the "confident dealmaker" caricature.
-**Deliberately excluded:** a 1966 vow to quit international football
-after violent fouling — the only source found had no identifiable
-byline/date and could not be corroborated within budget; the widely-cited
-1969 Nigeria/Biafra "ceasefire" story — investigated and found unsupported
-by contemporary press (and doubted by Pelé himself in a later book).
-**Rows:** 3 → 6. `achievement_drive` upgraded (NEW_EVIDENCE); `resourcefulness`,
-`planning_orientation`, `decisiveness` added.
-**Post-lock:** scored=6, coverage=0.17, highConf=4, highConfAvg=0.65,
-**not eligible**. Held.
+| Metric | Count |
+|---|---|
+| Rows added | **25** |
+| Rows removed | **0** |
+| Existing rows modified (any field changed) | **17** |
+| **Total row-level changes** | **42** |
+| — of which: score changed | 4 |
+| — of which: confidence changed | 15 |
+| — of which: evidenceType changed | 3 |
+| — of which: impact changed | 0 |
+| — of which: rationale-only, no score/conf/evType/impact change | 2 |
+| NEW_EVIDENCE-tagged changes (added + modified) | 40 |
 
-### Fahrelnissa Zeid (Arts & Culture — art)
+The 2 rationale-only changes are Pele's `competitiveness` and `discipline`
+rows: both rows' numeric fields (score/confidence/evidenceType/impact) are
+byte-identical before and after, and the wording differences are
+incidental copy-edits made while restructuring the surrounding
+`achievement_drive` row's text in the same edit, not a substantive
+evidence change -- correctly not tagged `NEW_EVIDENCE`, and not
+double-counted as a distinct correction.
 
-**Pre-research:** 5 rows (the thinnest candidate in the cohort), 4
-sources.
-**Sources opened (6):** The Art Newspaper, Hyperallergic, AnOther
-Magazine, the Mathaf Encyclopedia, Asian Art Newspaper, and an independent
-research blog (Stambouline) citing named archival/family sources.
-**New evidence:** an absorbed, trance-like painting process independently
-corroborated by both a Tate conservator and her own son (different
-outlets, different vantage points); a self-organized, gatekeeping-bypassing
-1945 solo exhibition in her own apartment, corroborated across 3 sources —
-a second independent instance of the same proactive-institution-building
-pattern already scored via her 1970s teaching institute; a distinctive,
-twice-independently-quoted teaching philosophy ("forget what you know...
-what you do not know is what you really are"); a 1989-90 Trump portrait
-commission where she rendered him per her own aesthetic instincts despite
-his later written objection; a teenage postcard-selling habit funding her
-own art supplies; a self-described flight-over-Baghdad epiphany she
-credited for her turn to abstraction.
-**Deliberately excluded:** a reported suicide attempt (private-health
-content this project's rubric forbids inferring personality from) and a
-family-violence detail about her brother and father (not her own action).
-**Rows:** 5 → 11. `creative_originality`, `adaptability`, `proactive_agency`
-upgraded (NEW_EVIDENCE); `deep_focus`, `perfectionism`, `leadership_drive`,
-`resourcefulness`, `autonomy_need`, `intuitive_synthesis` added.
-**Post-lock:** scored=11, coverage=0.34, highConf=7, highConfAvg=0.65,
-**not eligible**. Held.
+Per-candidate breakdown (rows added / rows modified):
 
-### Virginia Woolf (Arts & Culture — literature)
+| Candidate | Added | Modified | Total |
+|---|---|---|---|
+| Pele | 3 | 3 (1 tagged, 2 rationale-only) | 6 rows -> 6 |
+| Fahrelnissa Zeid | 6 | 3 | 5 -> 11 |
+| Virginia Woolf | 6 | 1 | 6 -> 12 |
+| Al-Farabi | 0 | 2 | 9 -> 9 |
+| Matsuo Basho | 3 | 2 | 6 -> 9 |
+| James Baldwin | 3 | 3 | 7 -> 10 |
+| George Bernard Shaw | 3 | 1 | 13 -> 16 |
+| Pablo Neruda | 1 | 2 | 20 -> 21 |
+| **Total** | **25** | **17** | **42** |
 
-**Pre-research:** 6 rows, 4 sources. Genuinely rich primary-source
-*availability* (published diaries, letters) but a research-*coverage* gap,
-not an evidence-availability one.
-**Sources opened (7):** Woolf Online's digital scholarly edition, Yale's
-Modernism Lab (Hogarth Press, her reading of Joyce's Ulysses), a London
-Review of Books piece on her TLS reviewing career, Wikipedia's dedicated
-"Mr. Bennett and Mrs. Brown" article, and secondary scholarly compilations
-of her diary entries on The Years and on Katherine Mansfield.
-**New evidence:** a specific, dated (30 Aug 1923) diary entry naming her
-"tunnelling" compositional method for Mrs Dalloway; a dated 1922 sequence
-showing her view of Ulysses genuinely shift more than once as she read it
-and encountered a friend's analysis (`belief_updating`); continuing her
-TLS reviewing after a specific 1905-08 editorial rejection; three
-successive public reworkings of her rebuttal to Arnold Bennett's 1923
-review over 19 months (`conflict_tolerance`); the 1918 joint decision (with
-Leonard) declining to publish Joyce's incomplete Ulysses manuscript,
-scored cautiously given the joint attribution; a self-reported, sourcing-
-caveated instance of professional jealousy toward Katherine Mansfield.
-**Deliberately excluded:** a ~2.5-year (1915-17) diary gap and a
-nature-observation diary from the same year — both genuinely dateable,
-externally-observable behavior, but both sit specifically adjacent to a
-documented health crisis this file's own established precedent already
-excludes from scoring; using behavior selected *because* of its proximity
-to that crisis would functionally back-door the exact inference the
-precedent forbids.
-**Rows:** 6 → 12. `creative_originality` upgraded (NEW_EVIDENCE);
-`perfectionism`, `belief_updating`, `conflict_tolerance`, `persistence`,
-`risk_tolerance`, `competitiveness` added.
-**Post-lock:** scored=12, coverage=0.37, highConf=8, highConfAvg=0.61,
-**not eligible**. Held — of all 8, the strongest case for a dedicated
-future deep-research pass, given how much of her published diary volumes
-remain untapped.
+## Publication decision: eligibility-blind review, all eight
 
-### Matsuo Bashō (Arts & Culture — literature)
+Per the architecture doc's own test -- identity integrity, source
+quality, provenance honesty, semantic support of scored rows, unresolved
+attribution/factual problems, legendary/late-source risk, and whether the
+evidence supports a meaningful, non-misleading profile with honest EN/KO
+editorial -- reasoned through BEFORE consulting eligibility numbers:
 
-**Pre-research:** 6 rows, 3 sources (Wikipedia, his own Oku no Hosomichi,
-general literary-historical assessment).
-**Sources opened (4):** Kyoraisho ("Conversations with Kyorai," his
-disciple's own teaching-record text, via the Donald Keene anthology on
-Wikisource), Haruo Shirane's *Traces of Dreams* (Stanford UP), the
-Sora's Diary Wikipedia article, and a World Haiku Review Kyorai
-biographical summary.
-**New evidence, and a real factual-gate catch:** the discovery of
-Kyoraisho as a primary, individually-attributed disciple record was the
-single best find of the cycle. Re-reading the actual translated text
-against the draft ledger before scoring caught a genuine misattribution:
-a line dismissing critic Shōhaku ("completely misses the mark") had been
-attributed to Bashō, but the primary text shows it is spoken by his
-disciple Kyorai — Bashō's own response was measured praise of Kyorai, not
-a blunt dismissal of the critic. A second exchange (a hunting-themed haiku
-subject) had been characterized as a confident dismissal; the text
-actually shows Bashō pondering at length before a hedged, uncertain
-verdict. Both were corrected before staging — the mis-attributed material
-was moved to a more accurate row (`collaboration`, since it actually shows
-Bashō warmly validating a disciple's independent judgment) and the
-hedged-verdict exchange was dropped rather than force-fit anywhere. What
-survived scrutiny: two solid, verified Kyoraisho quotes for
-`social_assertiveness`; Sora's own contemporaneous, independently
-rediscovered diary showing Bashō knowingly reshaped dates/events/poems in
-Oku no Hosomichi for literary effect (an unresolved scholarly dispute
-about intentionality is noted honestly); a specific 1686 letter backing an
-unfashionable disciple poem against contemporary taste for years, and
-deliberately timing his core doctrine's disclosure to right after
-finishing his famous journey (`independent_thinking`); leaving a paid
-judging position over the "frivolity" of the haikai world and adopting a
-deliberately ambiguous priest/layman identity (`autonomy_need`
-strengthened).
-**Deliberately excluded:** a widely-repeated deathbed refusal-of-a-
-death-poem story (untraceable to any primary or named-scholar source — has
-the shape of too-perfect literary legend); an abandoned-child episode from
-his own Nozarashi Kikō (excluded given the *confirmed* Sora's Diary
-finding that he reshaped real events for literary effect, which makes a
-self-only-sourced emotionally-loaded vignette especially risky to treat as
-plain fact); his despondent reaction to the 1682 Fukagawa fire (a genuine,
-dated, self-authored poem, but too close to open-ended emotional-state
-interpretation to map confidently onto any taxonomy trait without
-overreaching).
-**Rows:** 6 → 9. `creative_originality`, `autonomy_need` upgraded
-(NEW_EVIDENCE); `social_assertiveness`, `collaboration`,
-`independent_thinking` added.
-**Post-lock:** scored=9, coverage=0.28, highConf=6, highConfAvg=0.58,
-**not eligible**. Held — translated disciple records (Sanzoshi, Oi no
-Kobumi) beyond Kyoraisho remain a promising future-cycle direction.
+| Candidate | Publication decision | Rationale (evidence quality only) |
+|---|---|---|
+| Pele | **evidence_approved** | No attribution/legend risk; 6 rows honestly sourced (his own writing, FIFA Museum, a historical society), reasonably diverse across work-style/resilience/motivation. |
+| Fahrelnissa Zeid | **evidence_approved** | No attribution/legend risk; 11 rows, vivid and well-corroborated across creativity/resilience/motivation/thinking facets; excluded sensitive material stays excluded. |
+| Virginia Woolf | **evidence_approved** | No attribution/legend risk; 12 rows, well-rounded across nearly every facet; health-adjacent material correctly excluded per established precedent, not a defect. |
+| Matsuo Basho | **evidence_approved** | Kyoraisho is a genuine disciple-authored primary text, already independently re-verified sentence-by-sentence (catching and fixing a real misattribution before this review, see below); legend-risk material already excluded from scoring. |
+| James Baldwin | **evidence_approved** | No attribution/legend risk; 10 rows entirely grounded in individual professional/personal conduct; unverified brawl/manuscript claims already excluded. |
+| **Al-Farabi** | **held** | Concrete defect: the existing `autonomy_need` row rests specifically on "later biographical tradition" -- exactly the medieval-dictionary tradition this cycle's own research found unreliable for personal-life claims about him, absent from the most rigorous modern source for its Aleppo chapter. Not a row-count issue; the row itself was not touched (locked evidence, no new research). |
+| George Bernard Shaw | **evidence_approved** | No attribution/legend risk; 16 rows, well-rounded, several directly quoted in his own words; existing Fabian/pacifism rows document individual conviction, not organizational leadership. |
+| Pablo Neruda | **evidence_approved** | No attribution/legend risk; 21 rows, the richest and most complete profile in the cohort; the one genuinely sensitive matter (an assault confession in his own memoir) remains excluded from all scoring, as established in an earlier cycle. |
 
-### James Baldwin (Arts & Culture — literature)
+**Match-eligibility, reported separately and only after the above was
+decided** (informational; not a publication factor):
 
-**Pre-research:** 7 rows, 5 sources — already the best-started candidate
-after Neruda.
-**Sources opened (6):** the Paris Review's 1984 "Art of Fiction"
-interview, Yale's "American Literature in the World" on the
-Baldwin-Wright rupture, the Harry Ransom Center's Giovanni's Room
-rejection-letter exhibit, Birth.Movies.Death on the Malcolm X screenplay
-(plus his own memoir *The Devil Finds Work*), Smithsonian Magazine on
-Maya Angelou's 1968 book-deal origins, and Hyperallergic on his mentorship
-under painter Beauford Delaney.
-**New evidence, deliberately kept to his individual professional/craft
-behavior** (this cycle's brief specifically warned against drifting his
-evidence toward "activist" framing, given his classification here is
-literature/writer): a 38-year mentorship sought out at 15 with painter
-Beauford Delaney, credited in his own words twice, decades apart
-(`mastery_orientation`); publicly criticizing his own benefactor Richard
-Wright's *Native Son* in print in 1949, ending their friendship, and
-walking away from a well-funded 1969 Malcolm X screenplay adaptation
-rather than accept studio-directed changes — two independent instances of
-prioritizing his own judgment at high relational/material cost
-(`autonomy_need`); a considered public response to Norman Mailer's public
-put-down, combining counter-criticism with an unusual admission of being
-hurt (`conflict_tolerance` upgrade); coaching an editor's approach to
-Maya Angelou via "reverse psychology" that led to her writing *I Know Why
-the Caged Bird Sings* (`persuasiveness` upgrade, a second, very different
-context from the Buckley debate); keeping Giovanni's Room's content intact
-after Knopf's 1955 rejection and finding another publisher
-(`persistence` upgrade); his own account of parallel multi-genre drafting
-and a specific longhand-over-typewriter tool choice.
-**Deliberately excluded:** a widely-recirculated claim that the Wright
-rupture became a physical brawl — traced only to uncited social-media
-content, not present in any scholarly source; a claim that Knopf
-suggested he "burn" the Giovanni's Room manuscript — could not be verified
-against the primary rejection-letter archive.
-**Rows:** 7 → 10. `persistence`, `conflict_tolerance`, `persuasiveness`
-upgraded (NEW_EVIDENCE); `autonomy_need`, `mastery_orientation`,
-`cross_domain_range` added.
-**Post-lock:** scored=10, coverage=0.31, highConf=8, highConfAvg=0.66,
-**not eligible**. Held.
+| Candidate | scored | coverage | HC count | HC avg | Eligible? |
+|---|---|---|---|---|---|
+| Pele | 6 | 0.17 | 4 | 0.65 | No |
+| Fahrelnissa Zeid | 11 | 0.34 | 7 | 0.65 | No |
+| Virginia Woolf | 12 | 0.37 | 8 | 0.61 | No |
+| Al-Farabi | 9 | 0.27 | 3 | 0.58 | No (held anyway, see above) |
+| Matsuo Basho | 9 | 0.28 | 6 | 0.58 | No |
+| James Baldwin | 10 | 0.31 | 8 | 0.66 | No |
+| George Bernard Shaw | 16 | 0.48 | **12** | **0.57** | No (row count + coverage only; both HC sub-gates pass) |
+| Pablo Neruda | 21 | 0.63 | 10 | 0.62 | No (2 HC rows short; row count, coverage, HC avg all pass) |
 
-### Al-Farabi (Arts & Culture — music/philosophy)
+None of the 7 published candidates are match-eligible. This is the
+expected, honest result of a cycle that deepened rather than manufactured
+eligibility, not a shortfall to explain away.
 
-**Pre-research:** 9 rows, 3 sources. This candidate's research explicitly
-tested for a Hippocrates-style attribution failure, given his 10th-century
-dates and reliance on medieval biographical dictionaries.
-**Sources opened (2 new, both modern critical scholarship):** the
-Stanford Encyclopedia of Philosophy's main Al-Farabi entry and its
-dedicated logic/language entry (the latter preserving his own now-lost
-account of his training, transmitted via Ibn Abi Usaybi'a).
-**The concern was warranted.** Most personal-life texture in the wider
-biographical tradition — a claimed modest stipend and declined court
-gifts, a court musical-performance anecdote, temperament
-characterizations, even the specific circumstances of his death — traces
-to biographical dictionaries written 250-320+ years after he died, is
-sometimes internally contradictory across those dictionaries, and in one
-case (the Aleppo/Sayf al-Dawla patronage narrative) is entirely absent
-from the single most philologically rigorous modern source consulted. A
-modern peer-reviewed specialist (Pormann, *JAOS* 2015) is quoted
-concluding it is doubtful fact and legend can ever be fully separated for
-this figure. Even a treatise long attributed to him ("Harmonization of
-Plato and Aristotle") has seriously disputed authorship in current
-scholarship — noted, and deliberately not used as evidence of his own
-method.
-**What survived:** exactly two upgrades, both grounded in his own
-surviving texts or self-account rather than the later tradition — a
-second, independent documented instance for `analytical_rigor` (his Book
-of Music explicitly lets the ear override a "clean" mathematical ratio
-when they conflict) and a modest strengthening of `mastery_orientation`
-(his own, not a biographer's, account of his logic training and its
-curricular limits).
-**Rows:** 9 → 9 (unchanged count; 2 rows upgraded). No new rows added —
-correctly, given the evidentiary reality, not a failure of research
-effort.
-**Post-lock:** scored=9, coverage=0.27, highConf=3, highConfAvg=0.58,
-**not eligible**. Held — this candidate is likely at or near its honest
-ceiling absent a genuinely new primary-source discovery, a different kind
-of finding than "needs more research."
+## A real factual-gate catch (Matsuo Basho)
 
-### George Bernard Shaw (Arts & Culture — literature)
+Re-reading Basho's primary source (Kyoraisho) against the draft evidence
+before finalizing found a genuine misattribution: a line dismissing critic
+Shohaku ("completely misses the mark") had been attributed to Basho, but
+the text shows it is spoken by his disciple Kyorai -- Basho's own response
+was measured praise of Kyorai. A second exchange characterized as a
+confident dismissal actually shows him pondering at length before a
+hedged, uncertain verdict. Both were corrected before staging: the
+misattributed material was moved to a more accurate row (`collaboration`,
+since it genuinely shows Basho validating a disciple's judgment) and the
+hedged-verdict exchange was dropped rather than force-fit anywhere.
 
-**Pre-research:** 13 rows, 4 sources. The prior session's own hold reason
-named the exact gap: working habits and thinking-facet attributes, with
-Holroyd's 4-volume biography flagged as the likely fix (not yet consulted
-directly).
-**Sources opened (4):** Encyclopedia.com, Jot101 (quoting Shaw's own
-description of his Pitman-shorthand composition process), the
-International Vegetarian Union's history page, and press coverage of his
-play prefaces.
-**New evidence:** five novels written and rejected by London publishers
-1879-83, output continuing regardless (`persistence`, new row); his own
-quoted description of composing exclusively in Pitman shorthand,
-transcribed by a dedicated typist, with draft pages deliberately destroyed
-except archival samples (`detail_orientation`, new row); vegetarianism
-adopted in 1881 and sustained without exception for 66 years until his
-death, with a specific self-credited trigger (Shelley's *The Revolt of
-Islam*) — a second, exceptionally long-duration instance corroborating
-the existing `discipline` row; prefaces regularly exceeding his plays in
-length (a quantified example: 67 pages for a 29-page play), systematically
-arguing marriage, poverty, vivisection, vaccination, and women's rights
-(`systems_abstraction`, new row).
-**Deliberately excluded:** the well-known "filled five pages a day, rain
-or shine" anecdote — repeated across secondary aggregation but untraceable
-to a citable primary source within budget; the better-sourced underlying
-fact (five novels, continuous output through rejection) was used instead.
-**Rows:** 13 → 16. `discipline` upgraded (NEW_EVIDENCE); `persistence`,
-`detail_orientation`, `systems_abstraction` added.
-**Post-lock:** scored=16 (need 18), coverage=0.48 (need 0.6),
-highConfCount=**12** (need 12 — passes), highConfAvg=**0.57** (need 0.55 —
-passes). Two of four sub-gates now genuinely pass. **Not eligible** —
-held, but now the second-closest-to-eligible candidate in the pool.
+## Per-candidate research summary
 
-### Pablo Neruda (Arts & Culture — literature)
+**Pele** -- 9 sources opened (Players' Tribune, FIFA Museum, a soccer
+historical society). New: childhood sock-ball/boot-cleaning
+(resourcefulness), a specific father-promise anecdote (achievement_drive),
+the 1970-final set-play recognition + boot-cleaning (planning_orientation),
+the multi-month Cosmos negotiation (decisiveness, low). Excluded: an
+unverifiable 1966 quit-vow story; the debunked 1969 Biafra-ceasefire myth.
 
-**Pre-research:** 20 rows, 3 sources — already close to eligible.
-Deliberately deepened rather than expanded: research targeted new,
-independently-corroborating evidence for *existing* rows, not new rows
-for their own sake, and specifically avoided his political/diplomatic
-career as further evidentiary basis (several existing rows already lean
-on it, and this cycle's brief explicitly asked for craft/behavior focus).
-**Sources opened (3):** the Fundación Pablo Neruda's own cultural portal
-(on his friendship with Federico García Lorca), the Fundación's Isla
-Negra museum-house page, and a specialist rare-book dealer's article on
-his green-ink writing ritual.
-**A diagnostic correction, not just new evidence.** The prior holdReason
-attributed the shortfall to "avgConf 0.515 vs 0.55" — recomputing the
-actual `eligibility_v2` formula against the pre-cycle rows shows that
-number is the legacy flat average across *all* scored rows
-(`eligibility_v1`-style), not the statistic the gate actually uses.
-`highConfidenceAverage` was already 0.63 pre-cycle, comfortably passing;
-the real binding constraint was always `highConfidenceCount` (8 of the
-required 12). This is a materially more precise diagnosis than the file
-previously carried, arrived at only because the eligibility formula was
-independently recomputed rather than the old text trusted.
-**New evidence:** a specific, dated (10 Nov 1933), multi-source-corroborated
-jointly-improvised "al alimón" speech with García Lorca — a second
-instance for `creative_originality`; his Isla Negra house's dedicated
-shell-and-marine-curio room and ship-modeled architecture, a
-much stronger, externally-verifiable second instance for
-`detail_orientation` than the prior poetry-only basis; a sustained,
-self-explained lifelong green-ink writing ritual ("the color of hope"),
-a new `aesthetic_sensitivity` row.
-**Result:** the new evidence genuinely moved `highConfidenceCount` from 8
-to 10 (`detail_orientation` crossed the 0.5 line; the new
-`aesthetic_sensitivity` row landed exactly at 0.5) — real progress on the
-actually-binding constraint, discovered only after the fact. **Two rows
-short of eligible.** Per this cycle's explicit rule against hunting one
-more trait once a result is known, no further research was attempted
-after this became visible.
-**Rows:** 20 → 21. `creative_originality`, `detail_orientation` upgraded
-(NEW_EVIDENCE); `aesthetic_sensitivity` added.
-**Post-lock:** scored=21 (passes), coverage=0.63 (passes),
-highConfCount=**10** (need 12), highConfAvg=0.62 (passes). **Not
-eligible** — held, the single closest candidate to eligibility in the
-pool, exactly 2 high-confidence rows short.
+**Fahrelnissa Zeid** -- 6 sources opened. New: independently-corroborated
+trance-like painting process (deep_focus), a "not meticulous... spontaneous"
+assessment (perfectionism, low), the 1945 self-organized exhibition
+(upgrading proactive_agency), a teaching-institute philosophy quote
+(leadership_drive), teenage postcard-selling (resourcefulness), the Trump
+portrait episode (autonomy_need), a flight-epiphany account
+(intuitive_synthesis). Excluded: a reported suicide attempt; a
+family-violence detail not her own action.
 
-## Publication decision: zero promotions this cycle
+**Virginia Woolf** -- 8 sources opened. New: the "tunnelling" method
+(upgrading creative_originality), extensive revision across two books a
+decade apart (perfectionism), an evolving view of Joyce's Ulysses
+(belief_updating), a 19-month public rebuttal to Bennett (conflict_tolerance),
+continuing TLS reviewing after rejection (persistence), the 1918 Ulysses
+publishing decision (risk_tolerance, low, joint-decision caveat), Mansfield
+jealousy (competitiveness). Excluded: diary-gap and nature-diary material
+specifically adjacent to a documented health crisis, per established
+precedent.
 
-All 8 remain `held`. This was a deliberate decision, not an oversight.
-`checkPromotionReadiness()` gates only on review status, identity, and a
-product-ready portrait — it has no row-count floor, so it does not itself
-resolve whether Shaw (16 rows) or Neruda (21 rows) are "publication-ready"
-in the judgment sense Section 15 of this cycle's brief calls for. Choosing
-not to promote either was based on: (1) this cycle's own repeated,
-explicit framing that it is not a publication batch and that production
-count is not the success metric; (2) both candidates have already been
-through multiple prior review cycles (Neruda: "two remediation rounds"
-already recorded; Shaw: the prior session's own named gap) without being
-promoted, suggesting considered restraint rather than oversight; (3)
-neither cleared a full `eligibility_v2` sub-gate set even after this
-cycle's work — Neruda misses by exactly 2 high-confidence rows, Shaw
-misses on two of four sub-gates. Promoting either now, immediately after
-seeing these numbers, would sit uncomfortably close to the
-eligibility-adjacent decision-making this cycle's own Section 10
-explicitly warns against, even though publication and match-eligibility
-are formally separate gates. Both are recorded here as the strongest
-near-term candidates for a **future** cycle to revisit with a
-fresh, independently-motivated publication decision — not to be closed
-out reactively in this one.
+**Matsuo Basho** -- 4 sources opened, centered on discovering Kyoraisho as
+a primary source. New (post-correction): two verified Kyoraisho quotes
+(social_assertiveness), Sora's Diary confirming deliberate literary
+reshaping (upgrading creative_originality), a 1686 letter backing an
+unfashionable poem for years plus deliberate doctrine-timing
+(independent_thinking), warmth toward disciples (collaboration), leaving a
+paid post over "frivolity" plus an ambiguous priest/layman identity
+(upgrading autonomy_need). Excluded: a deathbed legend; an abandoned-child
+episode (legend-risk given the confirmed Sora's Diary pattern); the 1682
+fire reaction (too close to emotional-state interpretation).
 
-No portraits were sourced and no editorial content was written this
-cycle, since nothing was promoted (Section 16/17 of the brief both scope
-that work to publication-ready candidates only).
+**James Baldwin** -- 6 sources opened. New: the Beauford Delaney mentorship
+(mastery_orientation), the Wright break and Malcolm X screenplay walkout
+(autonomy_need), the Mailer response (upgrading conflict_tolerance), the
+Angelou "reverse psychology" episode (upgrading persuasiveness), the
+Giovanni's Room/Knopf episode (upgrading persistence). Excluded: an
+unverified brawl claim; an unverified "burn the manuscript" claim.
 
-## Match-eligible and interest-area impact
+**Al-Farabi** -- 2 new sources (modern critical scholarship), explicitly
+testing for a Hippocrates-style attribution failure. Found it warranted:
+most personal-life texture in the wider tradition is late (250-320+ years
+post-death), sometimes contradictory, and in one case absent from the most
+rigorous modern source. Only 2 rows touched (analytical_rigor,
+mastery_orientation), both from his own surviving texts/self-account.
 
-**Zero newly match-eligible people.** Per the brief's explicit rule,
+**George Bernard Shaw** -- 4 sources opened, closing this file's own
+previously-named gap. New: five novels written and rejected 1879-83
+(persistence), his own quoted Pitman-shorthand composition process
+(detail_orientation), the 66-year vegetarianism commitment (upgrading
+discipline), systematic argumentative prefaces (systems_abstraction).
+Excluded: the "five pages a day" anecdote, untraceable to a primary
+source.
+
+**Pablo Neruda** -- 3 sources opened, deliberately corroborating existing
+rows rather than expanding. New: the "al alimon" joint speech with Lorca
+(upgrading creative_originality), the Isla Negra shell collection
+(upgrading detail_orientation), the green-ink ritual (aesthetic_sensitivity).
+A diagnostic correction: the prior holdReason's "avgConf 0.515" was the
+legacy flat average, not the real eligibility_v2 statistic -- the actual
+binding constraint was always high-confidence row count (8 of 12), not
+average quality (already 0.63).
+
+## Interest-area impact
+
+**Zero newly match-eligible people.** Per the brief's rule,
 `dispersion.generated.ts`, calibration, and matching-health were correctly
-left untouched — none were run.
+left untouched.
 
-Interest-area category pool counts (diagnostic, `isMatchEligible`-gated
-only) are **unchanged before → after**, since nothing was promoted:
+Interest-area category pool counts (diagnostic, `isMatchEligible`-gated)
+are unchanged, since none of the 7 published candidates are match-eligible:
 
 | Category | Before | After |
 |---|---|---|
@@ -445,55 +295,89 @@ only) are **unchanged before → after**, since nothing was promoted:
 | leadership_society | 44 | 44 |
 | building_discovery | 19 | 19 |
 
-**Remaining bottleneck, reported honestly:** Building & Discovery's held
-pool is now known to be essentially exhausted (1 viable candidate,
-already deepened this cycle) — closing this category's gap in any future
-cycle will require either genuinely new candidate discovery (out of scope
-for both this cycle and the "fast production" cycles before it) or
-accepting that Building & Discovery stays the smallest category for the
-foreseeable future. Arts & Culture's held pool, after Group-B/zero-politics
-exclusion, was also more literature-concentrated than ideal (5 of 7 new
-candidates are writers) — a second honest structural finding about this
-specific pool, not a selection preference.
+Building & Discovery's held pool is now known to be essentially exhausted
+(1 viable candidate, already deepened and published this cycle). Arts &
+Culture's viable held pool, after Group-B/zero-politics exclusion, was
+also more literature-concentrated than ideal (5 of 7 promoted candidates
+are writers) -- an honest structural finding about this specific pool.
+
+## Portraits
+
+All 7 published candidates have real, rights-clear portraits, each
+verified by directly fetching the source page (not inferred from a search
+snippet):
+
+| Candidate | Source | License | Kind |
+|---|---|---|---|
+| Pele | Nationaal Archief/Anefo (Joop van Bilsen), 1962 | CC0 1.0 | likeness |
+| Fahrelnissa Zeid | Family archive (Prince Ra'ad Zeid Al-Hussein), 1937 | PD-old | likeness (family photo -- no solo portrait is rights-clear) |
+| Virginia Woolf | George Charles Beresford, 1902 | Public Domain | likeness |
+| Matsuo Basho | Attributed to Morikawa Kyoriku, 17th c. | PD-old-100 | **historical_depiction** (his own disciple, painted within ~20 years of his death; not a photograph -- none can exist) |
+| James Baldwin | Carl Van Vechten / Library of Congress, 1955 | Public Domain | likeness |
+| George Bernard Shaw | Bain News Service / Library of Congress, 1909 | Public Domain | likeness |
+| Pablo Neruda | Library of Congress, 1966 | Public Domain (US federal work) | likeness |
+
+Notable rejected candidate: a Nobel Foundation-attributed Neruda 1971
+photo was found mistagged CC-BY-4.0 on Commons -- directly checking
+NobelPrize.org's own copyright policy confirmed the Foundation states it
+"cannot grant permissions to use portrait photos of the Nobel Prize
+laureates of 1901-2006," contradicting the file's self-applied license.
+Not used.
+
+## EN/KO editorial
+
+All 7 published candidates received 2 achievements + 2 moments (with
+interpretations tied to specific scored rows), EN and KO, following the
+established minimal pattern -- every claim grounded in the locked evidence
+above, no general-knowledge filler, no new behavioral claims beyond what
+was already scored.
 
 ## Validation
 
 - `tsc --noEmit`: clean.
 - `validateCandidates.ts`: 0 errors / 0 warnings across all 277 candidate
-  files.
-- `checkScoringLockIntegrity.ts`: 0 flagged (an intermediate run flagged 6
-  files whose `provenance.notes` described the same changes in different
-  words than the literal `NEW_EVIDENCE` tag the checker looks for —
-  corrected by making the tag explicit in each file's notes, not by
-  changing any score).
-- Full `vitest run`: **750/750 passing** after one genuine, expected fix —
-  `session17Isolation.test.ts` had a frozen-row-count assertion for
-  `james-baldwin.json` (7 rows, Session 15's snapshot) that this cycle's
-  legitimate deepening broke; updated to 10 rows following the exact
-  precedent this same file already established for `enrico-fermi.json` in
-  Roster31 (a held/promoted candidate later re-touched by an in-scope
-  cycle). `persistence.score` (84, unchanged) was re-verified as still
-  correct — only its confidence moved.
-- **Not run** (deliberately, since zero production/UI/data files changed):
-  `next build`, i18n audit, editorial coverage audit, Playwright. Nothing
-  these checks inspect (`src/data/people/`, `src/core/i18n/`, any UI
-  route) was touched this cycle; running them would confirm a tautology
-  rather than catch a regression.
+  files. Status counts: qa_passed 93, evidence_approved 97 (+7), held 87
+  (-7).
+- `checkScoringLockIntegrity.ts`: 0 flagged.
+- `i18n-audit.ts`: 100% Korean coverage, 0 missing keys.
+- `editorialCoverageAudit.ts`: 225/225 people have editorial content, 100%
+  Korean coverage.
+- `next build --webpack`: clean.
+- Full `vitest run`: **750/750 passing**, after fixing 3 genuinely-expected
+  regressions from the promotion: `matching.test.ts`'s `knownNonEligible`
+  allowlist (2 duplicate blocks) needed the 7 new slugs;
+  `profilePublicationSeparation.test.ts`'s production/directory-visible
+  counts (218/217 -> 225/224) and `KNOWN_DIVERGENT_SLUGS` needed the 7 new
+  slugs; `session17Isolation.test.ts`'s James Baldwin frozen-state check
+  needed its status assertion updated `held` -> `evidence_approved`
+  (row count and the frozen `persistence` score were already correct from
+  the prior pass).
+- Focused Playwright: new `roster32EvidenceDeepeningBalanceCycle.spec.ts`
+  (91 tests: 7 candidates x 13 tests + 3 aggregate checks, including a
+  negative-presence check confirming Al-Farabi is NOT shipped) +
+  `peopleDirectory.spec.ts` (updated authoritative count 217 -> 224, and
+  the ko-KR filtered-count assertion 218 -> 225 total, 7 filtered --
+  mechanically verified none of the 7 new candidates have both curiosity
+  and collaboration scored, let alone crossing both thresholds) +
+  `roster31FifteenPersonZeroPoliticsBatch.spec.ts` (regression check) --
+  **182/182 passing**.
 
 ## Final diff scope
 
-Exactly 9 files: the 8 deepened candidate JSON files plus the one
-genuinely-affected test file (`session17Isolation.test.ts`). Confirmed
-untouched: `interestScope.ts`, the quiz interest selector, the Results
-scope switcher, Landing copy, quiz token/schema, analytics, monetization,
-auth, every candidate outside the frozen 8, every Group-B/zero-politics
-candidate, `next-env.d.ts`, `.env.local` (copied into the worktree for
-local tooling only, confirmed gitignored and never staged), `eligibility_v2`,
-the matching formula, calibration, dispersion, `seed.ts`,
-`peopleIndex.generated.ts`, and Roster33 (not started).
+23 files: 8 candidate JSON, 2 editorial content files (data + i18n text),
+1 i18n display-name file, 3 test files (matching, profilePublicationSeparation,
+session17Isolation), `seed.ts`, `peopleIndex.generated.ts`, the new
+generator, the new roster file, the new Playwright spec,
+`peopleDirectory.spec.ts`, and 7 portrait images. Confirmed untouched:
+`interestScope.ts`, the quiz interest selector, the Results scope
+switcher, Landing copy, quiz token/schema, analytics, monetization, auth,
+every candidate outside the frozen 8, every Group-B candidate,
+`next-env.d.ts`, `.env.local`, `eligibility_v2`, the matching formula,
+calibration, dispersion, and Roster33 (not started).
 
 ## Commit + PR
 
-One consolidated commit, pushed once, one PR opened, not merged, per the
-brief's explicit instructions. See the PR description for exact commit
-SHA / file-count / Vercel status.
+Original commit `fd8375f`, corrected in a second focused commit on the
+same branch, both pushed to the same PR #34. Not merged, per explicit
+instruction. See the PR description for exact final commit SHA and Vercel
+status.

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "matsuo-basho",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Matsuo Basho",
     "wikidataId": "Q5676",
@@ -126,13 +126,25 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/matsuo-basho-kyoriku.jpg",
+    "width": 512,
+    "height": 854,
+    "source": "Wikimedia Commons, attributed to Morikawa Kyoriku (1656-1715)",
+    "license": "Public Domain (PD-old-100)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Attributed to Morikawa Kyoriku, 17th century",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Basho_by_Morikawa_Kyoriku_(1656-1715).jpg",
+    "creator": "Morikawa Kyoriku (attributed)",
+    "date": "17th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Basho_by_Morikawa_Kyoriku_(1656-1715).jpg"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-12T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: East Asia diversity pick, distinct occupation (poet) and era (early modern Japan) from the roster's existing East Asian figures. Sourced primarily from his own surviving travel journals (a genuine first-person account) plus later literary-historical assessment of his role in haikai poetry's development. Scored under the corrected, eligibility-blind process. Roster32 (2026-09): a bounded NEW_EVIDENCE research pass located his disciple Kyorai's own teaching-record text (Kyoraisho) as a rich, individually-attributed primary source -- 2 rows upgraded, 3 new rows added. Three leads were deliberately excluded despite surfacing: a widely-repeated deathbed refusal-of-a-death-poem anecdote (could not be traced to a primary or named-scholar source, has the shape of a too-perfect literary legend); an abandoned-child episode from his own Nozarashi Kiko (kept out given the confirmed Sora's Diary finding that he knowingly reshaped real events for literary effect, making a self-only-sourced emotionally-loaded vignette especially risky to treat as plain fact); and his documented despondent reaction to the 1682 Fukagawa hut fire (a genuine, dated, self-authored poem, but excluded as too close to open-ended emotional-state interpretation to map confidently onto any one taxonomy trait without overreaching)."
+    "notes": "Roster-1000 session 12: East Asia diversity pick, distinct occupation (poet) and era (early modern Japan) from the roster's existing East Asian figures. Sourced primarily from his own surviving travel journals (a genuine first-person account) plus later literary-historical assessment of his role in haikai poetry's development. Scored under the corrected, eligibility-blind process. Roster32 (2026-09): a bounded NEW_EVIDENCE research pass located his disciple Kyorai's own teaching-record text (Kyoraisho) as a rich, individually-attributed primary source -- 2 rows upgraded, 3 new rows added. Three leads were deliberately excluded despite surfacing: a widely-repeated deathbed refusal-of-a-death-poem anecdote (could not be traced to a primary or named-scholar source, has the shape of a too-perfect literary legend); an abandoned-child episode from his own Nozarashi Kiko (kept out given the confirmed Sora's Diary finding that he knowingly reshaped real events for literary effect, making a self-only-sourced emotionally-loaded vignette especially risky to treat as plain fact); and his documented despondent reaction to the 1682 Fukagawa hut fire (a genuine, dated, self-authored poem, but excluded as too close to open-ended emotional-state interpretation to map confidently onto any one taxonomy trait without overreaching). 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect in the 9 SCORED rows -- Kyoraisho is a genuine disciple-authored primary text, already independently re-verified sentence-by-sentence against the source (catching and fixing one real misattribution before this review); the deathbed/abandoned-child/fire material identified as legend-risk was already excluded from scoring, not merely from this review. Promoted to evidence_approved; publication is independent of eligibility_v2, which this profile still honestly fails (9/18 scored, 0.28 coverage) -- non-match-eligible, directory-visible. Portrait note: no photograph can exist (pre-photography); the promoted portrait is a painting attributed to Morikawa Kyoriku, who became Bashō's own disciple in 1692 (two years before Bashō's death) and is on record exchanging painting/poetry instruction with him directly -- honestly classified as historical_depiction, not likeness, and is the same image both English and Japanese Wikipedia use as their standard depiction of him. The file's own Commons-level source citation (a now-dead personal webpage) is thinner than a museum record, though Kyoriku's real relationship to Bashō is independently corroborated elsewhere."
   },
-  "holdReason": "Roster32 evidence-deepening cycle: research budget (5 sources including a genuine disciple-authored primary text, ~1 hour) applied to this cycle's third-thinnest candidate. Row count raised 6->9, two existing rows meaningfully strengthened. Still well short of the 18-attribute floor and 0.6 coverage. Held, not rejected -- the discovery of Kyoraisho as a rich, underused primary source (rather than relying only on his own travel journals) suggests a future cycle focused specifically on translated disciple records (Kyoraisho, Sanzoshi, Oi no Kobumi) could plausibly close much of the remaining gap."
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. Kyoraisho (Kyorai's own teaching-record text) remains underused beyond what this cycle consulted; a future cycle focused on the fuller translated disciple-record corpus (Sanzoshi, Oi no Kobumi) could plausibly continue closing the eligibility_v2 gap on genuine grounds."
 }

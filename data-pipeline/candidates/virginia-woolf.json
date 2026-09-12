@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "virginia-woolf",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Virginia Woolf",
     "wikidataId": "Q40909",
@@ -154,13 +154,25 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/virginia-woolf-beresford-1902.jpg",
+    "width": 2924,
+    "height": 3994,
+    "source": "Wikimedia Commons, restoration of a George Charles Beresford studio photograph",
+    "license": "Public Domain (photographer d. 1938; published before 1931)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg",
+    "attribution": "George Charles Beresford, 1902 (restoration by Adam Cuerden)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg",
+    "creator": "George Charles Beresford",
+    "date": "1902-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-12T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (literature) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q40909) before any research began. A factual evidence ledger (8 distinct episodes) was built and locked before any trait score was assigned. Source material extensively discussed her documented experience of mental illness and its retrospective clinical labeling (e.g. bipolar disorder) -- per CLAUDE.md's Safety section, NO row in this file uses that content as evidence; every row is grounded only in her own documented, non-diagnostic behavior (the writing routine itself, the diary-tracking practice, the press-founding, the lecture/book). Scoring was locked BEFORE eligibility_v2 was consulted. Roster32 (2026-09): bounded new-research pass added 7 sources, 6 new rows, and 1 NEW_EVIDENCE upgrade (creative_originality). Two leads surfaced during research (a ~2.5-year 1915-1917 diary gap, and a nature-observation diary she kept the same year) were deliberately excluded from scoring despite being externally-observable, dateable behavior: both sit specifically adjacent to a documented health crisis period, and using behavior selected because of its proximity to that crisis as trait evidence would functionally back-door the exact mental-illness-inference this file's own established precedent forbids. See docs/checkpoints/roster32-evidence-deepening-balance-cycle.md for the full ledger."
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (literature) before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q40909) before any research began. A factual evidence ledger (8 distinct episodes) was built and locked before any trait score was assigned. Source material extensively discussed her documented experience of mental illness and its retrospective clinical labeling (e.g. bipolar disorder) -- per CLAUDE.md's Safety section, NO row in this file uses that content as evidence; every row is grounded only in her own documented, non-diagnostic behavior (the writing routine itself, the diary-tracking practice, the press-founding, the lecture/book). Scoring was locked BEFORE eligibility_v2 was consulted. Roster32 (2026-09): bounded new-research pass added 7 sources, 6 new rows, and 1 NEW_EVIDENCE upgrade (creative_originality). Two leads surfaced during research (a ~2.5-year 1915-1917 diary gap, and a nature-observation diary she kept the same year) were deliberately excluded from scoring despite being externally-observable, dateable behavior: both sit specifically adjacent to a documented health crisis period, and using behavior selected because of its proximity to that crisis as trait evidence would functionally back-door the exact mental-illness-inference this file's own established precedent forbids. See docs/checkpoints/roster32-evidence-deepening-balance-cycle.md for the full ledger. 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect -- 12 rows, well-rounded across nearly every facet, honestly sourced across 11 archival/scholarly/press outlets; the excluded health-adjacent material remains excluded, per this file's own established precedent. Promoted to evidence_approved; publication is independent of eligibility_v2, which this profile still honestly fails (12/18 scored, 0.37 coverage) -- non-match-eligible, directory-visible."
   },
-  "holdReason": "Roster32 evidence-deepening cycle: research budget (7 sources, ~1 hour) applied to this cycle's second-thinnest candidate. Row count raised 6->12, average confidence meaningfully higher. Still well short of the 18-attribute floor and 0.6 coverage despite genuinely rich primary-source availability (her diaries/letters) -- the constraint here is bounded research time within one cycle, not evidence scarcity the way it is for e.g. Pelé. Held, not rejected -- of all eight candidates this cycle, the strongest case for a dedicated future deep-research pass given how much primary material remains untapped (only a fraction of her published diary volumes were consulted this cycle)."
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. This candidate had the richest untapped primary-source reserve of the cycle (only a fraction of her published diary volumes were consulted); a future deep-research pass remains the strongest lead in the pool for eventually closing the eligibility_v2 gap on genuine grounds."
 }

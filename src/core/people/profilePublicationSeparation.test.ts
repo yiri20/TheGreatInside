@@ -243,19 +243,36 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "rosalyn-yalow",
     "enrico-fermi",
     "dorothy-hodgkin",
+    // roster32 (2026-09): seven more -- evidence-deepening cycle, promoted
+    // via an eligibility-BLIND publication review (never gated on
+    // eligibility_v2, per docs/checkpoints/profile-publication-vs-match-
+    // eligibility.md's own architecture) -- all evidence_approved,
+    // published, directory-visible, honestly failing eligibility_v2 (Shaw
+    // and Neruda come closest, each short on specific sub-gates). Baselines
+    // now 225/224; match-eligible set unchanged at 127. Al-Farabi was
+    // frozen but NOT promoted (a concrete, unrelated attribution defect on
+    // an existing row keeps him held) -- see
+    // docs/checkpoints/roster32-evidence-deepening-balance-cycle.md.
+    "pele",
+    "fahrelnissa-zeid",
+    "virginia-woolf",
+    "matsuo-basho",
+    "james-baldwin",
+    "george-bernard-shaw",
+    "pablo-neruda",
   ]);
 
-  it("still exactly 218 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(218);
-    expect(PEOPLE_INDEX).toHaveLength(218);
+  it("still exactly 225 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(225);
+    expect(PEOPLE_INDEX).toHaveLength(225);
   });
 
-  it("still exactly 217 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 224 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(217);
+    expect(visible).toHaveLength(224);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety deliberately-divergent roster24/25/26/27/28/29/30/31 additions", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety-seven deliberately-divergent roster24/25/26/27/28/29/30/31/32 additions", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "pele",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Pelé",
     "aliases": ["Edson Arantes do Nascimento"],
@@ -35,11 +35,26 @@
     "planning_orientation": { "score": 65, "confidence": 0.6, "evidenceType": "strong_inference", "impact": "advantage", "rationale": "[NEW_EVIDENCE, Roster32] Two independent documented instances of deliberate, prepared (not improvised) behavior across very different contexts: saving earned coins toward a specific future purchase as a boy, and, decades later, recognizing a specific rehearsed set-play mid-match in the 1970 World Cup final ('we had prepared that play... I realised the play was the same') before delivering the pass for Carlos Alberto's goal." },
     "decisiveness": { "score": 34, "confidence": 0.6, "evidenceType": "documented", "impact": "neutral", "rationale": "[NEW_EVIDENCE, Roster32] A specific, well-documented multi-month episode shows the opposite of quick decisiveness: he declined the New York Cosmos' offer in person on three separate occasions (July-Sept 1974) citing fear of Brazilian public reaction, wavered only after his adviser laid out structured pros/cons, verbally accepted in March 1975, then publicly reversed that acceptance before finally committing in May 1975. (His own later retrospective account frames the same decision as confidently strategic/educational rather than reluctant -- the two accounts differ on stated motive, but the documented multi-reversal behavioral pattern itself is not in dispute.)" }
   },
-  "holdReason": "Roster32 evidence-deepening cycle: research budget (6 sources, ~1 hour) applied specifically to close the personal-behavioral-evidence gap this file's own prior hold reason identified. Row count raised 3->6, average confidence roughly doubled (all three new/upgraded rows now clear the eligibility_v2 high-confidence threshold), still well short of the 18-attribute floor -- coverage remains the binding constraint, not confidence quality. Two rich leads (a 1966 vow to quit international football after violent fouling, later reversed for the 1970 tournament) were found but deliberately NOT scored: the only source found for the exact quotes had no identifiable byline, author, or publication date, and could not be corroborated against a clean primary citation within this cycle's fixed research budget -- excluded per this rubric's source-quality discipline rather than used at reduced confidence. A widely-repeated claim that a 1969 Lagos exhibition match caused a 48-hour Nigeria-Biafra ceasefire was investigated and found unsupported by contemporary press (and doubted by Pelé himself in a later book) -- correctly excluded as legend, not fact. Held, not rejected -- a future pass with access to Portuguese-language biographical sources or his full autobiography could plausibly close the remaining row-count gap.",
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. Kept for history: the original hold (only 3 low-confidence attributes, sourcing skewed to match statistics over personal behavior) was closed by Roster32's evidence-deepening pass. Two rich leads (a 1966 vow to quit international football after violent fouling, later reversed for the 1970 tournament) were found but deliberately NOT scored: the only source found for the exact quotes had no identifiable byline, author, or publication date, and could not be corroborated against a clean primary citation within this cycle's fixed research budget -- excluded per this rubric's source-quality discipline rather than used at reduced confidence. A widely-repeated claim that a 1969 Lagos exhibition match caused a 48-hour Nigeria-Biafra ceasefire was investigated and found unsupported by contemporary press (and doubted by Pelé himself in a later book) -- correctly excluded as legend, not fact.",
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pele-anefo-schiphol-1962.jpg",
+    "width": 1675,
+    "height": 2105,
+    "source": "Wikimedia Commons, via Nationaal Archief (Dutch National Archives) / Anefo, archive ref 914-4284",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Joop van Bilsen / Anefo, 19 October 1962",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Pele_Netherlands_1962_(cropped).jpg",
+    "creator": "Joop van Bilsen (Anefo)",
+    "date": "1962-10-19",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pele_Netherlands_1962_(cropped).jpg"
+  },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-09-11T00:00:00Z",
+    "updatedAt": "2026-09-12T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Second-batch diversity pick that deliberately tests the SAME thin-personal-documentation failure mode as Jesse Owens (batch 1), this time for a non-US, non-English-primary-source athlete — a genuinely distinct sourcing-access dimension worth recording, not just a repeat finding. latin_america, 20th_century, athletics. Roster32 (2026-09): deepened via bounded, source-grounded NEW_EVIDENCE research per the evidence-deepening cycle brief; see docs/checkpoints/roster32-evidence-deepening-balance-cycle.md for the full research ledger, budget, and factual-gate notes."
+    "notes": "Second-batch diversity pick that deliberately tests the SAME thin-personal-documentation failure mode as Jesse Owens (batch 1), this time for a non-US, non-English-primary-source athlete — a genuinely distinct sourcing-access dimension worth recording, not just a repeat finding. latin_america, 20th_century, athletics. Roster32 (2026-09): deepened via bounded, source-grounded NEW_EVIDENCE research per the evidence-deepening cycle brief; see docs/checkpoints/roster32-evidence-deepening-balance-cycle.md for the full research ledger, budget, and factual-gate notes. 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect -- 6 rows spanning resourcefulness, planning, decisiveness, and motivation are honestly sourced (his own writing, FIFA Museum, a historical society) with no legend-risk material scored. Promoted to evidence_approved; publication is independent of eligibility_v2, which this profile still honestly fails (6/18 scored, 0.17 coverage) -- non-match-eligible, directory-visible."
   }
 }

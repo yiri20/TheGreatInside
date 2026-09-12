@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "fahrelnissa-zeid",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Fahrelnissa Zeid",
     "wikidataId": "Q3064473",
@@ -150,13 +150,25 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/fahrelnissa-zeid-family-1937.jpg",
+    "width": 620,
+    "height": 864,
+    "source": "Wikimedia Commons, from the archive of Prince Ra'ad Zeid Al-Hussein (her son), via Tate collection records",
+    "license": "Public Domain (PD-old)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unknown photographer, Berlin, 1937",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Princess_Fahrelnissa_Zeid_family_1937.jpg",
+    "creator": "Unknown",
+    "date": "1937",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Princess_Fahrelnissa_Zeid_family_1937.jpg"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (art) and West Asia regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q3064473) before any research began. A factual evidence ledger (13 distinct episodes) was built and locked before any trait score was assigned. One source described a period of \"severe depression\" in Baghdad for which \"her main therapy was art\" -- this is NOT used as evidence for any row; only the concrete, external, non-diagnostic fact that she relocated to Paris to continue her art practice is scored, per CLAUDE.md's Safety section against inferring or building on mental-illness characterizations. Scoring was locked BEFORE eligibility_v2 was consulted. Roster32 (2026-09): bounded new-research pass added 6 sources and 6 new rows plus 3 NEW_EVIDENCE upgrades to existing rows (creative_originality, adaptability, proactive_agency); a separately-reported suicide attempt and a family-violence detail (brother/father) surfaced during this pass were both deliberately excluded from scoring -- the first as private-health content this project's rubric forbids inferring from, the second as an action not performed by Zeid herself. See docs/checkpoints/roster32-evidence-deepening-balance-cycle.md for the full ledger."
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (art) and West Asia regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q3064473) before any research began. A factual evidence ledger (13 distinct episodes) was built and locked before any trait score was assigned. One source described a period of \"severe depression\" in Baghdad for which \"her main therapy was art\" -- this is NOT used as evidence for any row; only the concrete, external, non-diagnostic fact that she relocated to Paris to continue her art practice is scored, per CLAUDE.md's Safety section against inferring or building on mental-illness characterizations. Scoring was locked BEFORE eligibility_v2 was consulted. Roster32 (2026-09): bounded new-research pass added 6 sources and 6 new rows plus 3 NEW_EVIDENCE upgrades to existing rows (creative_originality, adaptability, proactive_agency); a separately-reported suicide attempt and a family-violence detail (brother/father) surfaced during this pass were both deliberately excluded from scoring -- the first as private-health content this project's rubric forbids inferring from, the second as an action not performed by Zeid herself. See docs/checkpoints/roster32-evidence-deepening-balance-cycle.md for the full ledger. 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect -- 11 rows spanning creativity, resilience, motivation, and world-sense facets are honestly sourced across 10 institutional/press outlets with no legend-risk material scored; the excluded suicide-attempt/family-violence material remains excluded, not laundered. Promoted to evidence_approved; publication is independent of eligibility_v2, which this profile still honestly fails (11/18 scored, 0.34 coverage) -- non-match-eligible, directory-visible. Portrait note: no solo photograph of Zeid was found to be rights-clear (the Wikipedia infobox image is fair-use only); the promoted portrait is a genuine, clearly-identifying 1937 family photograph (with her two children) from her own son's archive, the best verifiably rights-clear option located."
   },
-  "holdReason": "Roster32 evidence-deepening cycle: research budget (6 sources, ~1 hour) applied to this cycle's thinnest candidate. Row count raised 5->11, most rows now at or above the eligibility_v2 high-confidence threshold. Still well short of the 18-attribute floor and 0.6 coverage -- this was the thinnest-evidenced held candidate in the entire pool going in, and one bounded research pass credibly deepens but cannot fully close a 13-attribute gap. Two flagged contradictions in the new sourcing (who initiated the Trump-portrait commission; an unverified exact painting count in the 1945 exhibition) did not end up load-bearing for any scored row. Held, not rejected -- genuinely richer than before, a strong candidate for a future cycle's continued research."
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. Kept for history: two flagged contradictions in the Roster32 sourcing (who initiated the Trump-portrait commission; an unverified exact painting count in the 1945 exhibition) did not end up load-bearing for any scored row."
 }

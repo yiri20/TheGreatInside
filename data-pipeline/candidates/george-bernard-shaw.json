@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "george-bernard-shaw",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "George Bernard Shaw",
     "wikidataId": "Q19185",
@@ -185,11 +185,26 @@
       "rationale": "[NEW_EVIDENCE, Roster32] Regularly wrote prefaces to his plays that were systematic argumentative essays exceeding the length of the plays themselves -- most concretely, a 67-page preface to the 29-page one-act The Shewing-Up of Blanco Posnet (1909) -- using each preface to construct an extended, structured argument on a general theme (marriage, poverty, vivisection, vaccination, women's rights) rather than commentary on the specific play alone."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-bernard-shaw-bain-1909.jpg",
+    "width": 4191,
+    "height": 5760,
+    "source": "Library of Congress, George Grantham Bain Collection (LCCN 2014683900, digital ID ggbain.03906), via Wikimedia Commons",
+    "license": "Public Domain (PD-Bain / PD-US-no-notice)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:G.B._Shaw_LCCN2014683900.jpg",
+    "attribution": "Bain News Service, 1909",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:G.B._Shaw_LCCN2014683900.jpg",
+    "creator": "Bain News Service",
+    "date": "1909",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:G.B._Shaw_LCCN2014683900.jpg"
+  },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-12T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q19185) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known Holroyd definitive biography and the Nobel Prize record. Scored to 12 attributes this pass -- his documented record is genuinely strong on conviction/persuasion/independence but this cycle's research did not surface strong enough sourcing on his private working habits (deep_focus, execution_speed, detail_orientation) to score them defensibly. Roster32 (2026-09): a bounded new-research pass targeted exactly this named gap -- 1 existing row upgraded via NEW_EVIDENCE (discipline, via the vegetarianism commitment), 3 new rows added (persistence, detail_orientation, systems_abstraction), all grounded in his own documented working habits/craft rather than his political/Fabian activity, which remains untouched from the prior pass."
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q19185) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known Holroyd definitive biography and the Nobel Prize record. Scored to 12 attributes this pass -- his documented record is genuinely strong on conviction/persuasion/independence but this cycle's research did not surface strong enough sourcing on his private working habits (deep_focus, execution_speed, detail_orientation) to score them defensibly. Roster32 (2026-09): a bounded new-research pass targeted exactly this named gap -- 1 existing row upgraded via NEW_EVIDENCE (discipline, via the vegetarianism commitment), 3 new rows added (persistence, detail_orientation, systems_abstraction), all grounded in his own documented working habits/craft rather than his political/Fabian activity, which remains untouched from the prior pass. 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect -- 16 rows, well-rounded across independence/persuasion/discipline/craft, honestly sourced across 8 outlets including his own quoted words; his existing Fabian/WWI-pacifism rows remain scored as documented individual conviction/conduct, not organizational political leadership. Promoted to evidence_approved; publication is independent of eligibility_v2, which this profile still honestly fails on row-count/coverage (16/18 scored, 0.48 coverage) despite passing both high-confidence sub-gates -- non-match-eligible, directory-visible."
   },
-  "holdReason": "Roster32 evidence-deepening cycle: research budget (4 sources, ~1 hour) applied to close this file's own previously-named gap (working habits, thinking-facet attributes). Post-lock eligibility_v2 recompute: scored=16 (need 18, short by 2), coverage=0.48 (need 0.6), highConfCount=12 (need 12 -- PASSES), highConfAvg=0.57 (need 0.55 -- PASSES). Two of the four sub-gates now genuinely pass; row count and coverage remain the binding constraints. A specific, well-known Shaw anecdote (\"filled five pages a day, rain or shine\") surfaced repeatedly in secondary aggregation but could not be traced to a citable primary source within this cycle's budget -- excluded; the underlying, better-sourced fact (five novels written and rejected 1879-1883, output continuing regardless) was used instead. Held, not rejected -- this is now the closest-to-eligible held candidate in the pool after Neruda; 2 more well-evidenced rows from Holroyd's biography directly (not yet consulted first-hand) would likely close the remaining gap in a future cycle."
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. Kept for history: a well-known Shaw anecdote (\"filled five pages a day, rain or shine\") surfaced repeatedly in secondary aggregation but could not be traced to a citable primary source within this cycle's budget, and was excluded in favor of the better-sourced underlying fact (five novels written and rejected 1879-1883, output continuing regardless)."
 }

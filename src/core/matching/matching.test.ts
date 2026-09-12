@@ -371,6 +371,21 @@ describe("confidence and missing data", () => {
       "rosalyn-yalow",
       "enrico-fermi",
       "dorothy-hodgkin",
+      // roster32 (2026-09): evidence-deepening cycle, 7 of 8 frozen
+      // candidates promoted to evidence_approved via an eligibility-BLIND
+      // publication review (never gated on eligibility_v2) -- none crossed
+      // eligibility_v2, honestly, though Shaw and Neruda came close on
+      // specific sub-gates -- see
+      // docs/checkpoints/roster32-evidence-deepening-balance-cycle.md.
+      // (Al-Farabi was frozen but NOT promoted: a concrete attribution
+      // defect on an existing row, unrelated to eligibility, remains held.)
+      "pele",
+      "fahrelnissa-zeid",
+      "virginia-woolf",
+      "matsuo-basho",
+      "james-baldwin",
+      "george-bernard-shaw",
+      "pablo-neruda",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -682,6 +697,21 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "rosalyn-yalow",
       "enrico-fermi",
       "dorothy-hodgkin",
+      // roster32 (2026-09): evidence-deepening cycle, 7 of 8 frozen
+      // candidates promoted to evidence_approved via an eligibility-BLIND
+      // publication review (never gated on eligibility_v2) -- none crossed
+      // eligibility_v2, honestly, though Shaw and Neruda came close on
+      // specific sub-gates -- see
+      // docs/checkpoints/roster32-evidence-deepening-balance-cycle.md.
+      // (Al-Farabi was frozen but NOT promoted: a concrete attribution
+      // defect on an existing row, unrelated to eligibility, remains held.)
+      "pele",
+      "fahrelnissa-zeid",
+      "virginia-woolf",
+      "matsuo-basho",
+      "james-baldwin",
+      "george-bernard-shaw",
+      "pablo-neruda",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

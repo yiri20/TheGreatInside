@@ -4204,6 +4204,97 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Insisted on including Chinese and Soviet scientists in the International Union of Crystallography during the Cold War, directly against the prevailing exclusionary political climate of the era in both the US and UK.",
   "dorothy-hodgkin.interpretation.moment.2":
     "Taking this institutional stance against the prevailing climate of the time is part of the basis for the profile's independent_thinking score.",
+
+  "pele.achievement.1":
+    "Won three FIFA World Cups (1958, 1962, 1970) across three separate career phases with the Brazilian national team, alongside a lengthy club career at Santos.",
+  "pele.achievement.2":
+    "Delivered the pass for Carlos Alberto's iconic goal in the 1970 World Cup final by recognizing a specific rehearsed set-play mid-match -- a tactic the team had prepared and used in previous games.",
+  "pele.moment.1":
+    "As a boy too poor for real equipment, made his own ball from stuffed newspapers and socks to play barefoot with a neighborhood group, and around age 13 cleaned senior teammates' boots for coins specifically to save toward his first real football.",
+  "pele.interpretation.moment.1":
+    "Finding concrete, self-directed ways to keep playing and to fund his own equipment under real material scarcity is part of the basis for the profile's resourcefulness score.",
+  "pele.moment.2":
+    "Declined the New York Cosmos' offer in person on three separate occasions in 1974 citing fear of the Brazilian public's reaction, wavered only after his adviser laid out the case, verbally accepted, then publicly reversed that acceptance before finally committing months later.",
+  "pele.interpretation.moment.2":
+    "This drawn-out, repeatedly-reversed decision process is part of the basis for the profile's decisiveness score.",
+
+  "fahrelnissa-zeid.achievement.1":
+    "Pivoted from prolific figurative expressionist painting to full abstraction in 1948, developing mural-sized, kaleidoscopic-pattern paintings that art historians describe as foreshadowing Op-art.",
+  "fahrelnissa-zeid.achievement.2":
+    "Founded and personally ran a home-based teaching institute in Amman in her mid-70s, mentoring students -- most of whom had never painted before -- toward abstraction, even though her own late-career work had returned to figurative portraiture.",
+  "fahrelnissa-zeid.moment.1":
+    "A conservator who treated her paintings and, independently, her own son both describe her entering a trance-like state while painting, emerging hours later exhausted with no memory of what had occurred around her.",
+  "fahrelnissa-zeid.interpretation.moment.1":
+    "This absorbed, hours-long working state, corroborated independently by two different witnesses, is part of the basis for the profile's deep_focus score.",
+  "fahrelnissa-zeid.moment.2":
+    "In 1945, frustrated by a lack of gallery interest, she cleared the parlor rooms of her own Istanbul apartment and staged an unsanctioned solo exhibition there herself rather than wait to be selected by a gallery.",
+  "fahrelnissa-zeid.interpretation.moment.2":
+    "Bypassing institutional gatekeeping to create her own opportunity is part of the basis for the profile's proactive_agency score.",
+
+  "virginia-woolf.achievement.1":
+    "Co-founded the Hogarth Press with her husband Leonard in 1917, personally teaching herself hand-typesetting, and used it to publish major early work by Katherine Mansfield, T. S. Eliot, and other modernist writers.",
+  "virginia-woolf.achievement.2":
+    "Named and used a deliberate compositional method she called 'tunnelling' while writing Mrs Dalloway -- excavating each character's backstory separately so the strands would surface together at a single present-moment scene.",
+  "virginia-woolf.moment.1":
+    "After Arnold Bennett's 1923 review argued her characters in Jacob's Room weren't 'real' enough, she turned her rebuttal into a public essay, publishing successively reworked versions on three separate occasions over about nineteen months.",
+  "virginia-woolf.interpretation.moment.1":
+    "Sustaining a public argument with a specific critic over more than a year, rather than answering privately or letting it go, is part of the basis for the profile's conflict_tolerance score.",
+  "virginia-woolf.moment.2":
+    "Her diary tracks months of not knowing how to end To the Lighthouse in 1926, followed by a full revision pass after a first provisional draft; a decade later she described The Years as so difficult she could sometimes manage only a single page before stopping to rest.",
+  "virginia-woolf.interpretation.moment.2":
+    "Tolerating a genuinely unresolved, effortful revision process across two different books a decade apart is part of the basis for the profile's perfectionism score.",
+
+  "matsuo-basho.achievement.1":
+    "Elevated the haikai/hokku poetic form from a comparatively minor, often comic genre into a serious literary art, most fully realized in his travel journal Oku no Hosomichi.",
+  "matsuo-basho.achievement.2":
+    "Built a devoted school of poetry disciples -- including Kyorai, Kikaku, and Bonchō -- whose own writings, especially Kyorai's Kyoraisho, preserved a direct record of his teaching.",
+  "matsuo-basho.moment.1":
+    "When his disciple Kyorai praised a poem by fellow disciple Kikaku about being bitten by a flea, Bashō agreed directly and without qualification: 'He deals with trifling matters in a most eloquent way.'",
+  "matsuo-basho.interpretation.moment.1":
+    "Offering direct, unhedged praise in a live teaching exchange like this is part of the basis for the profile's social_assertiveness score.",
+  "matsuo-basho.moment.2":
+    "When a group of disciples laughed at a mundane poem by fellow disciple Shadō, Bashō publicly rebuked the group and redirected their attention to what the poem was actually doing well.",
+  "matsuo-basho.interpretation.moment.2":
+    "Intervening to protect a specific student from group ridicule, and turning the moment into instruction, is part of the basis for the profile's collaboration score.",
+
+  "james-baldwin.achievement.1":
+    "Established himself as a major voice of 20th-century American literature with novels and essay collections including Go Tell It on the Mountain, Notes of a Native Son, and The Fire Next Time.",
+  "james-baldwin.achievement.2":
+    "At 15, sought out painter Beauford Delaney at his Greenwich Village studio and sustained a 38-year mentorship, later crediting Delaney twice, decades apart, as formative to how he saw the world.",
+  "james-baldwin.moment.1":
+    "In 1949 he publicly criticized Richard Wright's Native Son in the essay 'Everybody's Protest Novel,' even though Wright had personally secured the fellowship that funded his first novel -- the two reportedly never spoke again.",
+  "james-baldwin.interpretation.moment.1":
+    "Prioritizing his own critical judgment over loyalty to the person who had helped launch his career, at real relational cost, is part of the basis for the profile's autonomy_need score.",
+  "james-baldwin.moment.2":
+    "In 1968, when a grieving Maya Angelou repeatedly turned down an editor's offer to write a memoir, Baldwin specifically coached the editor to tell her she couldn't do it -- which worked, and led to I Know Why the Caged Bird Sings.",
+  "james-baldwin.interpretation.moment.2":
+    "Deliberately using an understanding of someone else's psychology to change a decision is part of the basis for the profile's persuasiveness score.",
+
+  "george-bernard-shaw.achievement.1":
+    "Won the Nobel Prize in Literature in 1925 and, in 1938, an Academy Award for the Pygmalion screenplay -- one of very few people to hold both.",
+  "george-bernard-shaw.achievement.2":
+    "Regularly wrote prefaces to his plays that were systematic argumentative essays exceeding the length of the plays themselves -- most concretely, a 67-page preface to the 29-page one-act The Shewing-Up of Blanco Posnet -- covering marriage, poverty, vivisection, vaccination, and women's rights.",
+  "george-bernard-shaw.moment.1":
+    "Adopted vegetarianism in 1881 at age 25, crediting Shelley's The Revolt of Islam as the trigger, and sustained it without exception for 66 years until his death.",
+  "george-bernard-shaw.interpretation.moment.1":
+    "Sustaining a self-chosen ethical commitment for the rest of his life, unbroken, is part of the basis for the profile's discipline score.",
+  "george-bernard-shaw.moment.2":
+    "Composed exclusively in Pitman's phonetic shorthand throughout his career, had the pages transcribed by a dedicated typist, and deliberately destroyed the shorthand drafts afterward, keeping only a handful of pages for archival purposes.",
+  "george-bernard-shaw.interpretation.moment.2":
+    "Maintaining this unusual, exacting personal composition system consistently across his career is part of the basis for the profile's detail_orientation score.",
+
+  "pablo-neruda.achievement.1":
+    "Won the Nobel Prize in Literature in 1971, becoming one of the most widely read poets in the Spanish language across radically different modes -- from the surrealist Residencia en la tierra to the political epic Canto General to the intimate Odas Elementales.",
+  "pablo-neruda.achievement.2":
+    "Built his Isla Negra house around his own collecting obsession, including an entire dedicated room housing an extensive shell and marine-curio collection, with the whole building designed along nautical lines.",
+  "pablo-neruda.moment.1":
+    "At a November 1933 banquet in Buenos Aires honoring both him and Federico García Lorca, the two poets spontaneously stood at the same moment and delivered a speech 'al alimón' -- alternating lines in imitation of a rare bullfighting technique where two matadors share one cape.",
+  "pablo-neruda.interpretation.moment.1":
+    "This spontaneous, jointly improvised performance with a fellow poet is part of the basis for the profile's creative_originality score.",
+  "pablo-neruda.moment.2":
+    "Wrote consistently in green ink throughout his working life, a choice he explained himself: he described green as the color of hope.",
+  "pablo-neruda.interpretation.moment.2":
+    "Maintaining this specific, self-explained aesthetic choice throughout his working life is part of the basis for the profile's aesthetic_sensitivity score.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -8261,6 +8352,97 @@ export const EDITORIAL_KO: Record<string, string> = {
     "냉전 시기 미국과 영국 모두에서 지배적이었던 배타적인 정치적 분위기에 정면으로 반해, 국제결정학연맹에 중국과 소련 과학자들을 포함시킬 것을 주장했다.",
   "dorothy-hodgkin.interpretation.moment.2":
     "당대의 지배적인 분위기에 반하는 이러한 제도적 입장을 취한 것은 프로필의 독립적 사고(independent_thinking) 점수의 근거다.",
+
+  "pele.achievement.1":
+    "1958년, 1962년, 1970년 브라질 대표팀 소속으로 서로 다른 세 시기에 걸쳐 세 차례 FIFA 월드컵에서 우승했으며, 산투스에서도 오랜 기간 클럽 경력을 이어갔다.",
+  "pele.achievement.2":
+    "1970년 월드컵 결승에서 카를루스 아우베르투의 결승골로 이어진 패스를 성공시켰는데, 이는 이전 경기들에서 준비하고 사용해온 특정 세트플레이를 경기 도중 알아채고 재현한 것이었다.",
+  "pele.moment.1":
+    "제대로 된 장비를 살 형편이 안 되던 어린 시절, 신문지를 채운 양말로 직접 공을 만들어 동네 아이들과 맨발로 축구를 했고, 열세 살 무렵에는 첫 진짜 축구공을 사기 위한 돈을 모으려고 선배 선수들의 축구화를 닦아 동전을 받았다.",
+  "pele.interpretation.moment.1":
+    "실제로 자원이 부족한 상황에서도 계속 축구를 하고 스스로 장비 비용을 마련할 구체적이고 자발적인 방법을 찾아낸 것은 프로필의 자원 활용 성향(resourcefulness) 점수의 근거 중 하나다.",
+  "pele.moment.2":
+    "1974년 뉴욕 코즈모스의 제안을 브라질 대중의 반응이 두렵다는 이유로 세 차례나 직접 거절했고, 조언자가 상황을 정리해 설명한 뒤에야 마음이 흔들려 구두로 수락했다가, 이후 그 수락을 공개적으로 번복했으며, 몇 달 뒤에야 최종적으로 결정을 내렸다.",
+  "pele.interpretation.moment.2":
+    "이렇게 길게 끌며 여러 차례 번복된 의사결정 과정은 프로필의 결단력(decisiveness) 점수의 근거다.",
+
+  "fahrelnissa-zeid.achievement.1":
+    "1948년 다작의 구상적 표현주의 회화에서 완전한 추상으로 전환했으며, 미술사가들이 옵아트(Op-art)를 예견했다고 평가하는 벽화 규모의 만화경 같은 패턴 회화를 발전시켰다.",
+  "fahrelnissa-zeid.achievement.2":
+    "70대 중반이던 시기 암만 자택을 활용한 교육 기관을 직접 설립해 운영했으며, 자신의 말년 작업은 다시 구상적 초상화로 돌아갔음에도 대부분 그림을 그려본 적 없는 학생들에게 추상을 가르쳤다.",
+  "fahrelnissa-zeid.moment.1":
+    "그녀의 그림을 복원한 한 보존 전문가와, 별도로 그녀의 아들 모두 그녀가 그림을 그리는 동안 트랜스와 같은 상태에 빠져 몇 시간 뒤 주변에서 무슨 일이 있었는지 전혀 기억하지 못한 채 지쳐서 깨어나곤 했다고 증언한다.",
+  "fahrelnissa-zeid.interpretation.moment.1":
+    "서로 다른 두 증인이 독립적으로 확인한 이 몰입된 장시간의 작업 상태는 프로필의 몰입(deep_focus) 점수의 근거 중 하나다.",
+  "fahrelnissa-zeid.moment.2":
+    "1945년, 갤러리 측의 관심 부족에 좌절한 그녀는 갤러리에 선택되기를 기다리는 대신 자신의 이스탄불 아파트 응접실을 직접 비우고 그곳에서 비공식적인 개인전을 열었다.",
+  "fahrelnissa-zeid.interpretation.moment.2":
+    "제도적 문턱을 우회해 스스로 기회를 만들어낸 것은 프로필의 선제적 행동력(proactive_agency) 점수의 근거다.",
+
+  "virginia-woolf.achievement.1":
+    "1917년 남편 레너드와 함께 호가스 출판사를 공동 설립하고 손수 식자 기술을 독학했으며, 이를 통해 캐서린 맨스필드와 T. S. 엘리엇을 비롯한 모더니즘 작가들의 초기 주요 작품을 출간했다.",
+  "virginia-woolf.achievement.2":
+    "《댈러웨이 부인》을 쓰면서 스스로 '터널링(tunnelling)'이라 이름 붙인 창작 기법을 사용했는데, 각 인물의 배경 서사를 따로따로 파고들다가 하나의 현재 시점 장면에서 그 흐름들이 한꺼번에 표면으로 떠오르게 하는 방식이었다.",
+  "virginia-woolf.moment.1":
+    "1923년 아널드 베넷이 서평에서 《제이컵의 방》 등장인물들이 '충분히 사실적이지 않다'고 비판하자, 그녀는 이 반박을 공개 에세이로 발전시켜 약 19개월에 걸쳐 세 차례나 고쳐 쓴 버전을 잇달아 발표했다.",
+  "virginia-woolf.interpretation.moment.1":
+    "특정 비평가와의 공개적인 논쟁을 사적으로 답하거나 그냥 넘기지 않고 1년 넘게 이어간 것은 프로필의 갈등 감내(conflict_tolerance) 점수의 근거 중 하나다.",
+  "virginia-woolf.moment.2":
+    "그녀의 일기는 1926년 《등대로》의 결말을 어떻게 낼지 몰라 몇 달을 보낸 뒤 첫 임시 원고를 완성하고 나서도 전면적인 수정 작업을 거친 과정을 보여주며, 10년 뒤에는 《세월》을 두고 어떤 날은 단 한 페이지밖에 쓰지 못하고 멈춰야 할 만큼 힘들었다고 기록했다.",
+  "virginia-woolf.interpretation.moment.2":
+    "10년의 시차를 두고 서로 다른 두 작품에서 이렇게 진정으로 미해결 상태인 고된 수정 과정을 견뎌낸 것은 프로필의 완벽주의(perfectionism) 점수의 근거 중 하나다.",
+
+  "matsuo-basho.achievement.1":
+    "하이카이/홋쿠 시 형식을 다소 부차적이고 종종 희극적인 장르에서 진지한 문학 예술로 끌어올렸으며, 이는 그의 기행문 《오쿠노호소미치》에서 가장 완전하게 구현되었다.",
+  "matsuo-basho.achievement.2":
+    "교라이, 기카쿠, 본초 등을 포함한 헌신적인 제자들의 문파를 이루었고, 특히 교라이의 《교라이쇼》와 같은 제자들의 기록은 그의 가르침을 직접적으로 전해준다.",
+  "matsuo-basho.moment.1":
+    "제자 교라이가 동료 제자 기카쿠의 벼룩에 물린 경험을 다룬 시를 칭찬하자, 바쇼는 조금도 망설이지 않고 곧바로 동의하며 말했다: '그는 사소한 일을 참으로 세련되게 다루는군.'",
+  "matsuo-basho.interpretation.moment.1":
+    "이렇게 실제 가르침의 현장에서 직접적이고 거리낌 없는 칭찬을 건넨 것은 프로필의 사회적 적극성(social_assertiveness) 점수의 근거 중 하나다.",
+  "matsuo-basho.moment.2":
+    "제자들 무리가 동료 제자 샤도의 평범한 시를 비웃자, 바쇼는 그 무리를 공개적으로 꾸짖고 그 시가 실제로 잘해낸 부분으로 그들의 관심을 돌렸다.",
+  "matsuo-basho.interpretation.moment.2":
+    "특정 제자를 집단적인 조롱으로부터 지켜주고 그 순간을 가르침의 기회로 바꾼 것은 프로필의 협업 성향(collaboration) 점수의 근거 중 하나다.",
+
+  "james-baldwin.achievement.1":
+    "《산에 올라 고하라》, 《토박이의 노트》, 《다음엔 불을》 등의 소설과 에세이집으로 20세기 미국 문학의 주요한 목소리로 자리매김했다.",
+  "james-baldwin.achievement.2":
+    "열다섯 살에 그리니치빌리지의 작업실로 화가 보퍼드 딜레이니를 직접 찾아가 38년에 걸친 사제 관계를 이어갔으며, 훗날 수십 년의 시차를 두고 두 차례에 걸쳐 딜레이니가 자신이 세상을 보는 방식을 형성해주었다고 밝혔다.",
+  "james-baldwin.moment.1":
+    "1949년 에세이 《모두의 항의 소설》에서 리처드 라이트의 《네이티브 선》을 공개적으로 비판했는데, 라이트는 그의 첫 소설 집필을 지원한 장학금을 직접 주선해준 인물이었다 -- 이후 둘은 다시는 말을 섞지 않았다고 전해진다.",
+  "james-baldwin.interpretation.moment.1":
+    "자신의 경력을 열어준 인물에 대한 의리보다 스스로의 비평적 판단을 우선시하여 실제 관계상의 대가를 치른 것은 프로필의 자율성 욕구(autonomy_need) 점수의 근거 중 하나다.",
+  "james-baldwin.moment.2":
+    "1968년, 슬픔에 잠긴 마야 안젤루가 회고록을 써 달라는 편집자의 제안을 거듭 거절하자, 볼드윈은 그 편집자에게 그녀가 해낼 수 없을 것이라고 말하라고 구체적으로 조언했다 -- 이는 실제로 효과가 있었고 《새장에 갇힌 새가 왜 노래하는지 나는 아네》의 집필로 이어졌다.",
+  "james-baldwin.interpretation.moment.2":
+    "타인의 심리를 의도적으로 활용해 그 사람의 결정을 바꾸어낸 것은 프로필의 설득력(persuasiveness) 점수의 근거 중 하나다.",
+
+  "george-bernard-shaw.achievement.1":
+    "1925년 노벨 문학상을, 1938년에는 영화 《피그말리온》 각본으로 아카데미상을 받았다 -- 두 상을 모두 받은 극히 드문 인물 중 한 명이다.",
+  "george-bernard-shaw.achievement.2":
+    "자신의 희곡에 정작 극본 자체보다 긴 체계적인 논증형 서문을 즐겨 붙였는데, 가장 구체적인 사례로 29쪽짜리 단막극 《블랑코 포즈넷의 폭로》에 67쪽짜리 서문을 붙여 결혼, 빈곤, 생체 해부, 백신 접종, 여성의 권리를 다루었다.",
+  "george-bernard-shaw.moment.1":
+    "1881년, 25세의 나이에 셸리의 《이슬람의 반란》을 계기로 채식을 시작했다고 스스로 밝혔으며, 세상을 떠날 때까지 66년 동안 한 번도 예외 없이 이를 지켰다.",
+  "george-bernard-shaw.interpretation.moment.1":
+    "스스로 택한 윤리적 결단을 평생 동안 흔들림 없이 지켜낸 것은 프로필의 자기 규율(discipline) 점수의 근거 중 하나다.",
+  "george-bernard-shaw.moment.2":
+    "평생 오직 피트먼식 속기법으로만 글을 썼고, 이를 전담 타자수에게 넘겨 옮겨 적게 했으며, 옮겨 적은 뒤에는 속기 원고를 의도적으로 폐기하고 기록 보관용으로 몇 장만 남겨두었다.",
+  "george-bernard-shaw.interpretation.moment.2":
+    "이렇게 독특하고 정밀한 개인적 집필 체계를 경력 내내 일관되게 유지한 것은 프로필의 디테일 지향(detail_orientation) 점수의 근거 중 하나다.",
+
+  "pablo-neruda.achievement.1":
+    "1971년 노벨 문학상을 수상했으며, 초현실주의 시집 《지상의 거처》부터 정치적 서사시 《모두의 노래》, 친밀한 일상을 다룬 《기본적인 송가》에 이르기까지 전혀 다른 양식을 넘나들며 스페인어권에서 가장 널리 읽히는 시인 중 한 명이 되었다.",
+  "pablo-neruda.achievement.2":
+    "이슬라네그라의 자택을 자신의 수집벽에 맞춰 지었는데, 조개껍데기와 바다 관련 수집품으로 가득한 전용 공간을 따로 두었고 건물 전체를 항해선을 본뜬 구조로 설계했다.",
+  "pablo-neruda.moment.1":
+    "1933년 11월 부에노스아이레스에서 자신과 페데리코 가르시아 로르카를 기리는 만찬 자리에서, 두 시인은 동시에 자리에서 일어나 두 명의 투우사가 하나의 망토를 함께 다루는 진귀한 투우 기술을 본떠 '알 알리몬(al alimón)'이라는 즉흥 합작 연설을 번갈아 이어갔다.",
+  "pablo-neruda.interpretation.moment.1":
+    "동료 시인과 함께한 이 즉흥적인 합작 퍼포먼스는 프로필의 창의적 독창성(creative_originality) 점수의 근거 중 하나다.",
+  "pablo-neruda.moment.2":
+    "평생 집필 활동 내내 초록색 잉크만을 고집해서 사용했으며, 초록은 희망의 색이라고 스스로 그 이유를 밝혔다.",
+  "pablo-neruda.interpretation.moment.2":
+    "이렇게 구체적이고 스스로 설명한 미적 선택을 평생의 집필 활동 내내 유지한 것은 프로필의 미적 감각(aesthetic_sensitivity) 점수의 근거 중 하나다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

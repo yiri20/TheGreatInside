@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "james-baldwin",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "James Baldwin",
     "wikidataId": "Q273210",
@@ -148,13 +148,25 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/james-baldwin-vanvechten-1955.jpg",
+    "width": 3712,
+    "height": 5376,
+    "source": "Library of Congress, Carl Van Vechten Collection (Prints & Photographs Division, digital ID cph.3a42800), via Wikimedia Commons",
+    "license": "Public Domain (no known restrictions per the Library of Congress)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jamesbaldwin.jpg",
+    "attribution": "Carl Van Vechten, September 13, 1955",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Jamesbaldwin.jpg",
+    "creator": "Carl Van Vechten",
+    "date": "1955-09-13",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jamesbaldwin.jpg"
   },
   "provenance": {
     "createdAt": "2026-08-20T00:00:00Z",
-    "updatedAt": "2026-08-20T00:00:00Z",
+    "updatedAt": "2026-09-12T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment, docs/roster-1000-checkpoint.md Sec.81): selected specifically for domain breadth (literature/philosophy) AND for an unusually well-documented public life. 5 substantive sources consulted (Wikipedia for orientation only, plus 4 independent sources: the Smithsonian NMAAHC's multi-part biography, JSTOR Daily's FBI-file account, a Los Angeles Review of Books piece on the Buckley debate, and his own documented statements on his writing process and motives). Evidence ledger: 13 distinct, source-attributed episodes, spanning at least 4 life periods (Harlem childhood, the preaching years, the 1948 Paris relocation, the civil-rights-era public/FBI period) and at least 5 behavioral contexts (solitary intellectual formation, a major belief reversal, risk/major life choice, sustained craft discipline, public conflict/persuasion). His stepfather's strictness is recorded only via the objective, non-characterized fact of a demanding religious household -- no row is derived from a detailed private-family characterization. His sexuality is documented, publicly self-disclosed by Baldwin in his own published writing, and noted only as historical context for why he left the US (alongside racism) -- no trait row is derived from it. Ledger built and locked BEFORE any trait score was assigned; trait scores locked BEFORE eligibility_v2 was consulted. Roster32 (2026-09): a bounded NEW_EVIDENCE research pass deliberately targeted his INDIVIDUAL behavior as a writer (not civil-rights organizing, per this cycle's own explicit brief) -- 3 rows upgraded, 3 new rows added, all grounded in his professional/craft/personal conduct (the Wright break, the Malcolm X screenplay walkout, the Delaney mentorship, the Angelou episode, his own writing-process interview). A widely-recirculated claim that the Wright rupture became a physical brawl (tables flying, Chester Himes intervening) traces only to uncited social-media content and was excluded; a claim that Knopf suggested he 'burn' the Giovanni's Room manuscript could not be verified against the primary rejection-letter archive and was likewise excluded."
+    "notes": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment, docs/roster-1000-checkpoint.md Sec.81): selected specifically for domain breadth (literature/philosophy) AND for an unusually well-documented public life. 5 substantive sources consulted (Wikipedia for orientation only, plus 4 independent sources: the Smithsonian NMAAHC's multi-part biography, JSTOR Daily's FBI-file account, a Los Angeles Review of Books piece on the Buckley debate, and his own documented statements on his writing process and motives). Evidence ledger: 13 distinct, source-attributed episodes, spanning at least 4 life periods (Harlem childhood, the preaching years, the 1948 Paris relocation, the civil-rights-era public/FBI period) and at least 5 behavioral contexts (solitary intellectual formation, a major belief reversal, risk/major life choice, sustained craft discipline, public conflict/persuasion). His stepfather's strictness is recorded only via the objective, non-characterized fact of a demanding religious household -- no row is derived from a detailed private-family characterization. His sexuality is documented, publicly self-disclosed by Baldwin in his own published writing, and noted only as historical context for why he left the US (alongside racism) -- no trait row is derived from it. Ledger built and locked BEFORE any trait score was assigned; trait scores locked BEFORE eligibility_v2 was consulted. Roster32 (2026-09): a bounded NEW_EVIDENCE research pass deliberately targeted his INDIVIDUAL behavior as a writer (not civil-rights organizing, per this cycle's own explicit brief) -- 3 rows upgraded, 3 new rows added, all grounded in his professional/craft/personal conduct (the Wright break, the Malcolm X screenplay walkout, the Delaney mentorship, the Angelou episode, his own writing-process interview). A widely-recirculated claim that the Wright rupture became a physical brawl (tables flying, Chester Himes intervening) traces only to uncited social-media content and was excluded; a claim that Knopf suggested he 'burn' the Giovanni's Room manuscript could not be verified against the primary rejection-letter archive and was likewise excluded. 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect -- 10 rows spanning thinking/resilience/social/motivation facets, entirely grounded in his individual professional and personal conduct as a writer, honestly sourced, with the unverified brawl/burn-manuscript claims already excluded, not laundered. Promoted to evidence_approved; publication is independent of eligibility_v2, which this profile still honestly fails (10/18 scored, 0.31 coverage) -- non-match-eligible, directory-visible."
   },
-  "holdReason": "Roster32 evidence-deepening cycle: research budget (6 sources, ~1 hour) applied to this cycle's best-started candidate. Row count raised 7->10, three existing rows meaningfully strengthened with independent corroborating instances. Still short of the 18-attribute floor and 0.6 coverage, though this candidate now has the strongest evidence base of the cycle's literature-heavy cohort after Neruda. Held, not rejected."
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. Kept for history: a widely-recirculated claim that the 1949 Wright rupture became a physical brawl, and a claim that Knopf suggested burning the Giovanni's Room manuscript, were both investigated and excluded as unverified."
 }
