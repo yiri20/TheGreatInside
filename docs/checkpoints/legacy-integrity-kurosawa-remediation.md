@@ -205,6 +205,12 @@ duplicate id/slug/QID.
 
 ## 10. Match pool and interest-area impact
 
+**Corrected 2026-09-12, downstream-consistency pass.** This section
+originally claimed all four interest-area pools were unchanged and that
+dispersion/calibration/matching-health did not need to be rerun. Both
+claims were wrong and are corrected below; see the end of this section
+for how the wrong number was produced.
+
 | | before | after |
 |---|---|---|
 | production | 225 | 225 |
@@ -213,25 +219,59 @@ duplicate id/slug/QID.
 
 Match-eligible dropped by exactly one (Kurosawa); no other person's
 eligibility changed — mechanically confirmed via the full test suite
-(811/811 passing) and `checkLegacyScoringLock()`/`checkScoringLockIntegrity.ts`
-(0 flagged). Since the match-eligible **set** changed, all downstream
+(811/811 passing), `checkLegacyScoringLock()`/`checkScoringLockIntegrity.ts`
+(0 flagged), and (this correction) a direct slug-level diff of every
+`PROFESSION_CATEGORIES` category's match-eligible membership between
+`main` (`73e4407`, 127 eligible) and this branch's head: the only slug
+that enters or leaves any category anywhere is `akira-kurosawa`, leaving
+`arts_culture`. Since the match-eligible **set** changed, all downstream
 effects were checked once:
 
-- **Interest-area pools** (recomputed against the live match-eligible
-  set): science_knowledge 53, arts_culture 49, leadership_society 44,
-  building_discovery 19 — **all four unchanged**. Kurosawa's fieldIds
-  (`film`, arts_culture) never carried him into any pool while eligible
-  or excluded from one now; the pool counts were never sensitive to his
-  membership specifically.
-- **Dispersion / calibration / matching-health**: not regenerated. The
-  match-eligible *set* shrank by one already-scored person leaving
-  entirely (not a rescored person shifting within the set), and the
-  project's own precedent (e.g. Roster17's von Neumann reversion) is that
-  removing a person from the eligible set on integrity grounds does not
-  by itself require a full recalibration pass — confirmed proportionate
-  here given the full matching test suite (including the
-  rank-#1-for-every-eligible-person invariant) still passes unmodified
-  against the new 126-person set.
+- **Interest-area pools** (recomputed via the existing
+  `matchPoolIntegrityAudit.ts`'s `aggregateCohort().interestAreaDistribution`,
+  run against both commits): science_knowledge 53→53, **arts_culture
+  49→48**, leadership_society 44→44, building_discovery 19→19 — three
+  of four unchanged, not all four. `film` is one of `arts_culture`'s own
+  `fieldIds` (`directoryTaxonomy.ts`) and Kurosawa's production entry has
+  `fieldIds: ["film"]`, unchanged by this PR — his eligibility flip
+  mechanically removes him from exactly that one pool.
+- **Dispersion**: regenerated (`pnpm calibrate`, run twice, per its own
+  usage doc — first pass writes the table, second reports percentiles
+  with it in effect). `DISPERSION_VERSION` unchanged (`dispersion_v1`,
+  formula untouched). Source N 127→126, meanSd 12.006→12.017. Every
+  attribute weight moved by ≤0.0087 (largest: `perfectionism`,
+  1.0801→1.0714); most moved an order of magnitude less — consistent
+  with the small, single-person-leaving drift seen in Roster25/26
+  (≤0.006–0.007, "negligible").
+- **Calibration**: checked once, not refit. `pnpm calibrate`'s freshly
+  proposed anchors (fit against the new 126-person dispersion) differ
+  from the committed `MATCH_CALIBRATION_ANCHORS` (`calibration.ts`) by
+  at most ~0.0057 on the raw axis (at p99.9) — under this same file's
+  own documented noise-level/no-bump threshold ("<0.008-raw... kept
+  `calibration_v2` unbumped"). Feeding the new raw distribution through
+  the still-committed anchors lands every percentile within about 1
+  point of its `MATCH_TARGETS`/`GREATNESS_TARGETS` value (e.g. all-pairs
+  median target 44 → actual ~44.3; p99.9 target 93 → actual ~92.1).
+  `calibration.ts` is **left unchanged** — drift is within the
+  established no-refit tolerance.
+- **Matching-health**: `pnpm simulate 10000 quiz` against the new
+  126-person eligible set shows no rank/invariant failure and no
+  domination issue (#1-frequency max 10.7%, Warren Buffett — under the
+  ~20% ceiling in `docs/reference/matching.md`, consistent with its
+  "~12.0%, stable" baseline). Kurosawa does not appear in the
+  never-#1 list because he is no longer in the eligible population at
+  all, not because he was a poor-but-eligible performer. No structural
+  issue from his removal.
+
+**Why the original claim was wrong**: it reasoned from "Kurosawa's
+fieldIds (`film`, arts_culture) never carried him into any pool" — a
+premise that is simply false (`film` ∈ `arts_culture.fieldIds`), not a
+stale cache or a script bug. `matchPoolIntegrityAudit.ts` itself, when
+actually re-run against this branch's head, correctly reports 48. The
+original text was written by reasoning about the change rather than by
+re-running the audit script against the post-edit build and reading its
+output — the fix here is procedural (rerun the mechanical check; don't
+assert its result from memory), not a tooling defect.
 
 ## 11. Editorial
 
