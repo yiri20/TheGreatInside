@@ -4,7 +4,51 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-11 (Roster31: fourteen-person zero-politics
+Last updated: 2026-09-12 (Roster32: evidence-deepening + match-pool-balance
+cycle, `feat/roster32-evidence-deepening-balance-cycle`, unmerged —
+corrected after an initial pass wrongly gated publication on
+`eligibility_v2`. NOT a bulk-publication batch by design: the Directory
+(218/217) was growing while the match pool (127) stayed flat, so this
+cycle deepened 8 existing `held` candidates with new, bounded,
+source-grounded research instead of freezing new ones. Mechanically
+inspected the held pool after Group-B/zero-politics exclusion and found
+Building & Discovery down to exactly **one** viable candidate (Pelé) —
+every other B&D-tagged held person was either Group-B (Ibn Battuta, Mary
+Seacole, John von Neumann, Marco Polo) or zero-politics (Marcus Garvey).
+Froze 1 Building & Discovery + 7 Arts & Culture: Pelé, Fahrelnissa Zeid,
+Virginia Woolf, Matsuo Bashō, James Baldwin, Al-Farabi, George Bernard
+Shaw, Pablo Neruda. **Zero politics/state/military/activist-primary people
+(0/8)** — the rule governs primary product identity, not absence of any
+political fact from a biography; Neruda's and Shaw's own pre-existing rows
+legitimately include political/diplomatic/Fabian material, unsanitized.
+New research (primary disciple records, institutional archives, scholarly
+biography) mechanically added **25 rows and modified 17** (42 total
+row-level changes) across the 8. A factual-gate re-verification against
+the actual primary text caught a real misattribution in Bashō's draft
+(fixed before staging, not after). **A second, eligibility-BLIND
+publication review — reasoning from evidence quality alone, eligibility
+appended only afterward — found 7 of 8 publication-safe.** Pelé,
+Fahrelnissa Zeid, Virginia Woolf, Matsuo Bashō, James Baldwin, George
+Bernard Shaw, and Pablo Neruda are now `evidence_approved`, published,
+directory-visible, and honestly non-match-eligible (Shaw passes 2 of 4
+eligibility_v2 sub-gates; Neruda passes 3 of 4, short by exactly 2
+high-confidence rows — neither rescued). **Al-Farabi remains `held`** on a
+concrete, unrelated defect: his existing `autonomy_need` row rests on the
+same late medieval biographical-dictionary tradition this cycle's own
+research found unreliable for personal-life claims about him — not a
+row-count issue. Real, rights-clear portraits sourced for all 7 (one, a
+Nobel Foundation Neruda photo, was caught mistagged CC-BY and rejected
+after checking NobelPrize.org's own copyright policy directly); Bashō's
+portrait is honestly classified `historical_depiction` (his own disciple's
+painting; no photograph can exist). Full EN/KO editorial authored from
+locked evidence only. **Zero newly match-eligible; interest-area category
+counts unchanged** (science_knowledge 53, arts_culture 49, leadership_society
+44, building_discovery 19) since none of the 7 published people are
+match-eligible. Roster: **225 total / 224 default-directory-visible / 127
+match-eligible** (was 218/217/127). Full record:
+[`roster32-evidence-deepening-balance-cycle.md`](../checkpoints/roster32-evidence-deepening-balance-cycle.md).
+
+Last updated (superseded above): 2026-09-11 (Roster31: fourteen-person zero-politics
 production batch, `feat/roster31-fifteen-person-zero-politics-batch`
 [filename preserved from the freeze target; fourteen shipped], unmerged —
 same mechanical-intake discipline as Roster25-30, continuing Roster30's

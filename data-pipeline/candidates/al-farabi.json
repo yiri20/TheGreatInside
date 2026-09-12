@@ -60,7 +60,9 @@
       "id": "src_farabi_biographical",
       "kind": "biography",
       "title": "Later medieval Islamic biographical dictionaries (e.g. Ibn Abi Usaybi'a's history of physicians and scholars) recording his career and reputed teaching lineage"
-    }
+    },
+    { "id": "src_farabi_sep_main", "kind": "institution", "title": "Stanford Encyclopedia of Philosophy, \"al-Farabi\"", "url": "https://plato.stanford.edu/entries/al-farabi/" },
+    { "id": "src_farabi_sep_logic", "kind": "institution", "title": "Stanford Encyclopedia of Philosophy, \"al-Farabi's Philosophy of Logic and Language\", quoting his own account preserved in Ibn Abi Usaybi'a", "url": "https://plato.stanford.edu/entries/al-farabi-logic/" }
   ],
   "rows": {
     "systems_abstraction": {
@@ -72,10 +74,10 @@
     },
     "analytical_rigor": {
       "score": 84,
-      "confidence": 0.55,
+      "confidence": 0.62,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Wrote extensive, systematic commentaries on Aristotle's logical works (the Organon), earning the later honorific \"the Second Teacher\" (after Aristotle himself) for the rigor and clarity of this analysis, documented via the surviving commentaries and their subsequent influence on later Islamic and European logic."
+      "rationale": "Wrote extensive, systematic commentaries on Aristotle's logical works (the Organon), earning the later honorific \"the Second Teacher\" (after Aristotle himself), documented via the surviving commentaries and their subsequent influence on later Islamic and European logic. [NEW_EVIDENCE, Roster32] A second, independent documented instance from his own Book of Music: he holds that musical principles derive from mathematics but explicitly treats the ear as the final arbiter when it conflicts with a clean ratio -- stating outright that a semitone is not exactly half a whole tone, letting observation override a tidier preferred model."
     },
     "cross_domain_range": {
       "score": 82,
@@ -99,11 +101,11 @@
       "rationale": "The range of his surviving corpus (logic, ethics, political theory, music, psychology) suggests wide intellectual engagement, inferred from the documented breadth of subjects addressed across his works."
     },
     "mastery_orientation": {
-      "score": 62,
-      "confidence": 0.4,
+      "score": 64,
+      "confidence": 0.48,
       "evidenceType": "inference",
       "impact": "advantage",
-      "rationale": "Later biographical tradition records him studying logic intensively under multiple teachers before producing his own influential commentaries, inferred as sustained skill development from this documented account of his scholarly formation."
+      "rationale": "Later biographical tradition records him studying logic intensively under multiple teachers before producing his own influential commentaries. [NEW_EVIDENCE, Roster32] Strengthened by his own (now-lost) self-account, preserved via Ibn Abi Usaybi'a: he describes studying Aristotle's Organon under Yuhanna ibn Haylan up through the Posterior Analytics within a specific inherited Alexandria-Antioch-Baghdad curriculum, and notes the material beyond that point was withheld under the school's own religious restrictions -- a specific, self-described account of his formation's institutional limits, not just a generic 'studied under teachers' characterization. Still capped in the inference band: this is one self-account transmitted almost three and a half centuries after his death."
     },
     "autonomy_need": {
       "score": 55,
@@ -135,7 +137,7 @@
     "createdAt": "2026-08-19T00:00:00Z",
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: West Asia diversity pick (region was at 1/87, Rumi alone, before this batch). Sourced primarily from his own surviving philosophical/musicological corpus plus later medieval Islamic biographical dictionaries -- administrative/scholarly-tradition tier evidence, similar to this project's existing treatment of other medieval Islamic scholars. Scored at 7 rows reflecting genuinely available evidence; attributes like risk_tolerance, collaboration, and social_assertiveness have no independently-documented basis for this specific person and were left unscored rather than padded. Scored under the corrected, eligibility-blind process."
+    "notes": "Roster-1000 session 12: West Asia diversity pick (region was at 1/87, Rumi alone, before this batch). Sourced primarily from his own surviving philosophical/musicological corpus plus later medieval Islamic biographical dictionaries -- administrative/scholarly-tradition tier evidence, similar to this project's existing treatment of other medieval Islamic scholars. Scored at 7 rows reflecting genuinely available evidence; attributes like risk_tolerance, collaboration, and social_assertiveness have no independently-documented basis for this specific person and were left unscored rather than padded. Scored under the corrected, eligibility-blind process. Roster32 (2026-09): a bounded NEW_EVIDENCE research pass explicitly probing for a Hippocrates-style attribution failure found the concern was warranted -- most personal-life anecdotes about Al-Farabi (a claimed modest stipend and declined court gifts, a court musical-performance story, temperament characterizations, even the specific circumstances of his death) trace to biographical dictionaries written 250-320+ years after he died, are sometimes internally contradictory across those dictionaries, and in one case (the Aleppo/Sayf al-Dawla patronage narrative) are entirely absent from the most philologically rigorous modern source consulted (Stanford Encyclopedia of Philosophy). A modern peer-reviewed specialist (Pormann, JAOS 2015) is quoted concluding it is doubtful myth and reality can ever be fully separated for this figure. Only 2 rows were touched (analytical_rigor, mastery_orientation), both upgraded from his own surviving texts/self-account rather than from the later biographical tradition. See docs/checkpoints/roster32-evidence-deepening-balance-cycle.md for the full ledger, including the specific disputed-authorship finding on the 'Harmonization of Plato and Aristotle' treatise (deliberately not used as evidence of his own method pending that dispute's resolution). 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found a concrete, unresolved defect and declined to promote -- see holdReason for the specific row (autonomy_need) and reasoning. Status remains held; not an eligibility-based hold."
   },
-  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 9 scored attributes (need 18); coverage 0.27; HC count 3/12. Medieval scholarly-tradition tier evidence; genuinely richer than the ancient figures in this batch but still well short of the floor."
+  "holdReason": "2026-09-12 publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md): held on a concrete, unresolved evidence-attribution problem, not on row count or eligibility_v2. The existing `autonomy_need` row (score 55, inference) rests specifically on \"later biographical tradition records him living a relatively modest, itinerant scholarly life across Baghdad, Damascus, and Aleppo rather than seeking a single settled court position\" -- and this cycle's own Roster32 research (docs/checkpoints/roster32-evidence-deepening-balance-cycle.md) found that exact tradition unreliable for personal-life claims about this specific person: most such anecdotes trace to biographical dictionaries written 250-320+ years after his death, are sometimes internally contradictory, and the Aleppo chapter specifically is absent from the single most philologically rigorous modern source consulted (Stanford Encyclopedia of Philosophy). That row was never re-verified against modern scholarship and its evidentiary basis is now known-questionable, unlike the other 8 rows (grounded in his own surviving texts or a self-preserved training account). Per this cycle's lock discipline the row itself was not touched -- no new research, no rescoring -- but the profile as a whole is not yet publication-safe while one of its rows visibly rests on tradition this same research effort found unreliable. Not a row-count issue: 9 rows honestly sourced from his own texts would very plausibly be publication-ready on their own; it is this one specific row's now-exposed attribution problem that blocks publication. Held, not rejected."
 }

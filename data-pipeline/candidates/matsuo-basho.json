@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "matsuo-basho",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Matsuo Basho",
     "wikidataId": "Q5676",
@@ -53,15 +53,19 @@
       "id": "src_basho_biography",
       "kind": "biography",
       "title": "Later Japanese literary-historical assessment of Basho's role in elevating haikai poetry to a serious literary art form, and biographical accounts of his several extended walking journeys across Japan"
-    }
+    },
+    { "id": "src_basho_kyoraisho", "kind": "archive", "title": "Kyoraisho (\"Conversations with Kyorai\"), disciple Mukai Kyorai's record of Basho's own teaching remarks, tr. in Donald Keene's Anthology of Japanese Literature", "url": "https://en.wikisource.org/wiki/Anthology_of_Japanese_Literature/Conversations_with_Kyorai" },
+    { "id": "src_basho_shirane", "kind": "biography", "title": "Haruo Shirane, Traces of Dreams (Stanford University Press, 1998), quoting Kyorai's account of the Shado episode" },
+    { "id": "src_basho_soradiary", "kind": "archive", "title": "Sora's Diary -- companion Kawai Sora's contemporaneous travel diary, rediscovered 1943, compared against Basho's own Oku no Hosomichi", "url": "https://en.wikipedia.org/wiki/Sora%27s_Diary" },
+    { "id": "src_basho_worldhaikureview", "kind": "biography", "title": "World Haiku Review, Kyorai biographical summary, including Basho's own dated March 1686 letter to Kyorai", "url": "https://sites.google.com/site/worldhaikureview2/january-2016-issue/kyorai-the-full-text" }
   ],
   "rows": {
     "creative_originality": {
       "score": 86,
-      "confidence": 0.55,
+      "confidence": 0.64,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Elevated the haikai/hokku poetic form from a comparatively minor, often comic genre into a serious literary art capable of profound spiritual and aesthetic depth, documented via the widely recognized later literary-historical assessment of his specific role in this transformation, distinct from earlier and contemporary haikai poets."
+      "rationale": "Elevated the haikai/hokku poetic form from a comparatively minor, often comic genre into a serious literary art capable of profound spiritual and aesthetic depth, documented via the widely recognized later literary-historical assessment of his specific role in this transformation. [NEW_EVIDENCE, Roster32] A second, independent documented instance: companion Sora's own contemporaneous diary (rediscovered 1943) shows Basho altered dates, places, event order, and even poems themselves when writing Oku no Hosomichi -- most named Japanese scholars (Sugiura, Imoto, Abe) read this as deliberate literary reshaping in service of constructed meaning rather than factual travel record, though one scholar (Komiya) disputes intentionality; noted here as a genuine, unresolved scholarly disagreement rather than settled fact."
     },
     "risk_tolerance": {
       "score": 78,
@@ -72,10 +76,10 @@
     },
     "autonomy_need": {
       "score": 74,
-      "confidence": 0.45,
-      "evidenceType": "inference",
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
       "impact": "neutral",
-      "rationale": "Deliberately left a stable, established position as a poetry teacher in Edo to live an ascetic, itinerant life as a wandering poet, inferred as strong autonomy orientation from the documented voluntary nature of this life choice."
+      "rationale": "Deliberately left a stable, established position as a poetry teacher in Edo to live an ascetic, itinerant life as a wandering poet. [NEW_EVIDENCE, Roster32] Sharpened by two independent corroborating details: contemporary and near-contemporary accounts specifically tie his 1680 departure to dissatisfaction with the haikai establishment's 'debasement into frivolity' (not merely a vague ascetic impulse), and he trained in Zen under the priest Butcho while explicitly describing himself as occupying neither a monastic nor a fully secular identity ('I may look like a priest, but I am a layman, though my head is shaved') -- a second, independent instance of deliberately choosing a nonstandard, boundary-crossing life path."
     },
     "curiosity": {
       "score": 72,
@@ -97,17 +101,50 @@
       "evidenceType": "inference",
       "impact": "advantage",
       "rationale": "Sustained a demanding itinerant traveling-and-writing practice across multiple extended journeys over roughly a decade, inferred from the documented continuity of this lifestyle and output across his later career."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32; factual gate corrected the original draft of this row -- see note] Two independent documented instances from his disciple Kyorai's own teaching record (Kyoraisho), directly quoted and verified against the primary translated text: praised disciple Kikaku's poem about a flea bite in direct, unhedged terms ('he deals with trifling matters in a most eloquent way'), and laughed openly at a failed verse from Kyorai himself ('you still haven't got the idea!'). NOTE: an earlier draft of this row also cited Bashō 'confidently overruling critic Shohaku' and 'explaining in detail why a hunting-themed subject was a poor haiku choice' -- rereading the actual Kyoraisho text against the source found both misrepresented: the line dismissing Shohaku ('completely misses the mark') is spoken by Kyorai, not Bashō (whose own response was measured praise of Kyorai, moved to the collaboration row below instead); and the hunting-subject exchange shows Bashō pondering at length before a hedged, uncertain verdict ('I fear it's hopeless'), not a confident dismissal. Score and confidence lowered accordingly to reflect 2 solid instances rather than 4."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32] Three independent documented instances of warmth/investment toward specific disciples, verified against primary/named-scholarly sources: publicly rebuked a group of disciples for mocking a mundane poem by disciple Shado, redirecting the group's attention to what the poem was actually doing well (Kyorai's account via Shirane, Traces of Dreams); sent a mourning poem when disciple Kyorai's sister died suddenly in 1688; and, per the Kyoraisho itself, responded to Kyorai's own defense of a poem against a critic's objection not with correction but with open pleasure and validation ('Kyorai, you are a person with whom I can talk about poetry... He was very pleased')."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32] Two independent documented instances of holding to his own aesthetic judgment against contemporary consensus: in a dated March 1686 letter to Kyorai, defended an unfashionable disciple poem no contemporary would then select as good ('it would take another two or three years'), and continued reciting it privately for years afterward; and deliberately timed the first disclosure of his core fueki-ryuko ('unchanging vs. fashionable') doctrine to his disciples specifically to the winter immediately after completing the Oku no Hosomichi journey, treating the journey itself as generative of a theory he controlled the release of."
     }
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/matsuo-basho-kyoriku.jpg",
+    "width": 512,
+    "height": 854,
+    "source": "Wikimedia Commons, attributed to Morikawa Kyoriku (1656-1715)",
+    "license": "Public Domain (PD-old-100)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Attributed to Morikawa Kyoriku, 17th century",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Basho_by_Morikawa_Kyoriku_(1656-1715).jpg",
+    "creator": "Morikawa Kyoriku (attributed)",
+    "date": "17th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Basho_by_Morikawa_Kyoriku_(1656-1715).jpg"
   },
   "provenance": {
     "createdAt": "2026-08-19T00:00:00Z",
-    "updatedAt": "2026-08-19T00:00:00Z",
+    "updatedAt": "2026-09-12T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 12: East Asia diversity pick, distinct occupation (poet) and era (early modern Japan) from the roster's existing East Asian figures. Sourced primarily from his own surviving travel journals (a genuine first-person account) plus later literary-historical assessment of his role in haikai poetry's development. Scored under the corrected, eligibility-blind process."
+    "notes": "Roster-1000 session 12: East Asia diversity pick, distinct occupation (poet) and era (early modern Japan) from the roster's existing East Asian figures. Sourced primarily from his own surviving travel journals (a genuine first-person account) plus later literary-historical assessment of his role in haikai poetry's development. Scored under the corrected, eligibility-blind process. Roster32 (2026-09): a bounded NEW_EVIDENCE research pass located his disciple Kyorai's own teaching-record text (Kyoraisho) as a rich, individually-attributed primary source -- 2 rows upgraded, 3 new rows added. Three leads were deliberately excluded despite surfacing: a widely-repeated deathbed refusal-of-a-death-poem anecdote (could not be traced to a primary or named-scholar source, has the shape of a too-perfect literary legend); an abandoned-child episode from his own Nozarashi Kiko (kept out given the confirmed Sora's Diary finding that he knowingly reshaped real events for literary effect, making a self-only-sourced emotionally-loaded vignette especially risky to treat as plain fact); and his documented despondent reaction to the 1682 Fukagawa hut fire (a genuine, dated, self-authored poem, but excluded as too close to open-ended emotional-state interpretation to map confidently onto any one taxonomy trait without overreaching). 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect in the 9 SCORED rows -- Kyoraisho is a genuine disciple-authored primary text, already independently re-verified sentence-by-sentence against the source (catching and fixing one real misattribution before this review); the deathbed/abandoned-child/fire material identified as legend-risk was already excluded from scoring, not merely from this review. Promoted to evidence_approved; publication is independent of eligibility_v2, which this profile still honestly fails (9/18 scored, 0.28 coverage) -- non-match-eligible, directory-visible. Portrait note: no photograph can exist (pre-photography); the promoted portrait is a painting attributed to Morikawa Kyoriku, who became Bashō's own disciple in 1692 (two years before Bashō's death) and is on record exchanging painting/poetry instruction with him directly -- honestly classified as historical_depiction, not likeness, and is the same image both English and Japanese Wikipedia use as their standard depiction of him. The file's own Commons-level source citation (a now-dead personal webpage) is thinner than a museum record, though Kyoriku's real relationship to Bashō is independently corroborated elsewhere."
   },
-  "holdReason": "Roster-1000 session 12: eligibility_v2 result after a locked, eligibility-blind scoring pass (scoring finalized, then eligibility run exactly once; a single NEW_EVIDENCE deepening pass was applied broadly before a second and final eligibility run -- no row was modified after either eligibility result was observed). only 6 scored attributes (need 18); coverage 0.19; HC count 2/12. Personal biography beyond his own travel journals is thin."
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. Kyoraisho (Kyorai's own teaching-record text) remains underused beyond what this cycle consulted; a future cycle focused on the fuller translated disciple-record corpus (Sanzoshi, Oi no Kobumi) could plausibly continue closing the eligibility_v2 gap on genuine grounds."
 }

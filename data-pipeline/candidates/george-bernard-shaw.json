@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "george-bernard-shaw",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "George Bernard Shaw",
     "wikidataId": "Q19185",
@@ -65,7 +65,11 @@
       "id": "src_gbs_nobel",
       "kind": "award_body",
       "title": "Nobel Prize in Literature 1925 citation"
-    }
+    },
+    { "id": "src_gbs_encyclopedia", "kind": "biography", "title": "Encyclopedia.com, \"Shaw, George Bernard (1856-1950)\"", "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/shaw-george-bernard-1856-1950" },
+    { "id": "src_gbs_jot101", "kind": "archive", "title": "Jot101, \"The manuscripts of George Bernard Shaw\", quoting Shaw's own description of his Pitman-shorthand composition process", "url": "https://jot101.com/2017/12/the-manuscripts-of-george-bernard-shaw/" },
+    { "id": "src_gbs_ivu", "kind": "archive", "title": "International Vegetarian Union, \"History of Vegetarianism -- George Bernard Shaw\"", "url": "https://ivu.org/history/shaw/" },
+    { "id": "src_gbs_prefaces", "kind": "press", "title": "Coverage of Shaw's play prefaces (e.g. the 67-page preface to the 29-page The Shewing-Up of Blanco Posnet) as systematic argumentative essays on marriage, poverty, vivisection, vaccination, and women's rights", "url": "https://www.sfgate.com/performance/article/george-bernard-shaw-almost-seems-underrated-5109614.php" }
   ],
   "rows": {
     "independent_thinking": {
@@ -77,10 +81,10 @@
     },
     "discipline": {
       "score": 85,
-      "confidence": 0.65,
+      "confidence": 0.72,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Documented self-education regime of spending most weekdays at the British Museum Reading Room after moving to London in 1876, sustained for years before achieving any income from writing -- attested independently, not only by his later reputation."
+      "rationale": "Documented self-education regime of spending most weekdays at the British Museum Reading Room after moving to London in 1876, sustained for years before achieving any income from writing. [NEW_EVIDENCE, Roster32] A second, independent, exceptionally long-duration instance: adopted vegetarianism in 1881 at age 25 and sustained it without exception for 66 years until his death in 1950, a lifelong dietary/ethical commitment he himself credited (citing Shelley's The Revolt of Islam as the trigger) rather than a fashion he drifted in and out of."
     },
     "autonomy_need": {
       "score": 82,
@@ -158,20 +162,49 @@
       "evidenceType": "strong_inference",
       "impact": "advantage",
       "rationale": "Inferred from the well-documented public debating persona described above; distinguished from persuasiveness by focusing on his documented ease commanding a room rather than the outcome of specific arguments."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32] Wrote five novels between 1879 and 1883; every one was rejected by London publishers, some more than once, and none found a mainstream publisher until after he had separately established his reputation as a critic and playwright -- he continued writing new novels through this entire run of rejections rather than stopping after the first."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "[NEW_EVIDENCE, Roster32] Maintained an unusual, highly specific personal composition system across his career, in his own words: 'I write for the Press in Pitman's phonetic script (without reporting contractions) which is then translettered on the typewriter by another hand and sent to the printer' -- and deliberately destroyed the shorthand draft pages after transcription, keeping only a handful for archival purposes (e.g. ten pages of Saint Joan)."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32] Regularly wrote prefaces to his plays that were systematic argumentative essays exceeding the length of the plays themselves -- most concretely, a 67-page preface to the 29-page one-act The Shewing-Up of Blanco Posnet (1909) -- using each preface to construct an extended, structured argument on a general theme (marriage, poverty, vivisection, vaccination, women's rights) rather than commentary on the specific play alone."
     }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-bernard-shaw-bain-1909.jpg",
+    "width": 4191,
+    "height": 5760,
+    "source": "Library of Congress, George Grantham Bain Collection (LCCN 2014683900, digital ID ggbain.03906), via Wikimedia Commons",
+    "license": "Public Domain (PD-Bain / PD-US-no-notice)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:G.B._Shaw_LCCN2014683900.jpg",
+    "attribution": "Bain News Service, 1909",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:G.B._Shaw_LCCN2014683900.jpg",
+    "creator": "Bain News Service",
+    "date": "1909",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:G.B._Shaw_LCCN2014683900.jpg"
   },
   "provenance": {
     "createdAt": "2026-09-05T00:00:00Z",
-    "updatedAt": "2026-09-05T00:00:00Z",
+    "updatedAt": "2026-09-12T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q19185) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known Holroyd definitive biography and the Nobel Prize record. Scored to 12 attributes this pass -- his documented record is genuinely strong on conviction/persuasion/independence but this cycle's research did not surface strong enough sourcing on his private working habits (deep_focus, execution_speed, detail_orientation) to score them defensibly."
+    "notes": "Roster-17 intake (2026-09). Wikidata identity verified live (Q19185) before scoring. Evidence drawn from a live Wikipedia fetch, cross-referenced against the known Holroyd definitive biography and the Nobel Prize record. Scored to 12 attributes this pass -- his documented record is genuinely strong on conviction/persuasion/independence but this cycle's research did not surface strong enough sourcing on his private working habits (deep_focus, execution_speed, detail_orientation) to score them defensibly. Roster32 (2026-09): a bounded new-research pass targeted exactly this named gap -- 1 existing row upgraded via NEW_EVIDENCE (discipline, via the vegetarianism commitment), 3 new rows added (persistence, detail_orientation, systems_abstraction), all grounded in his own documented working habits/craft rather than his political/Fabian activity, which remains untouched from the prior pass. 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect -- 16 rows, well-rounded across independence/persuasion/discipline/craft, honestly sourced across 8 outlets including his own quoted words; his existing Fabian/WWI-pacifism rows remain scored as documented individual conviction/conduct, not organizational political leadership. Promoted to evidence_approved; publication is independent of eligibility_v2, which this profile still honestly fails on row-count/coverage (16/18 scored, 0.48 coverage) despite passing both high-confidence sub-gates -- non-match-eligible, directory-visible."
   },
-  "computedEligibility": {
-    "scoredAttributeCount": 13,
-    "averageConfidence": 0.535,
-    "coverage": 0.39,
-    "eligible": false,
-    "computedAt": "2026-09-05T00:00:00Z"
-  },
-  "holdReason": "Only 13 scored attributes (need 18); coverage 0.39 below the 0.6 threshold; 9 attributes at confidence>=0.5 (need 12). Strong on independence/persuasion/conflict-tolerance evidence; this cycle's single-source research pass did not surface strong sourcing on his private working habits (deep_focus, execution_speed, detail_orientation) or thinking-facet attributes. A deeper pass using Holroyd's 4-volume biography directly would likely close this gap."
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. Kept for history: a well-known Shaw anecdote (\"filled five pages a day, rain or shine\") surfaced repeatedly in secondary aggregation but could not be traced to a citable primary source within this cycle's budget, and was excluded in favor of the better-sourced underlying fact (five novels written and rejected 1879-1883, output continuing regardless)."
 }

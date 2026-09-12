@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^217 people$/)).toBeVisible();
+  await expect(page.getByText(/^224 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -535,7 +535,16 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // curiosity 82/0.68, collaboration only 68/0.5; Michael Faraday curiosity
   // 68/0.55, short of the 72 z-floor), but none crosses BOTH
   // simultaneously, so the filtered count of 7 is unchanged.
-  expect(bodyText).toMatch(/전체\s*218명\s*중\s*7명/);
+  // Total updated again 218->225 (roster32 evidence-deepening cycle: 7
+  // candidates promoted via an eligibility-blind publication review, not
+  // new discovery -- see
+  // docs/checkpoints/roster32-evidence-deepening-balance-cycle.md).
+  // Verified directly against each promoted candidate's real rows against
+  // the fixed reference thresholds (curiosity score>=72 & confidence>=0.5;
+  // collaboration score>=73 & confidence>=0.5): none of the 7 have both
+  // attributes scored at all, let alone crossing both thresholds, so the
+  // filtered count of 7 is unchanged.
+  expect(bodyText).toMatch(/전체\s*225명\s*중\s*7명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
 });

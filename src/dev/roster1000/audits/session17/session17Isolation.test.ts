@@ -115,12 +115,22 @@ describe("session 17 audit: frozen production evidence is exactly what this audi
     expect(fermi.rows.analytical_rigor?.score).toBe(88);
   });
 
-  it("james-baldwin.json is unchanged from Session 15's own frozen state (7 rows)", () => {
+  it("james-baldwin.json is unchanged from Session 15's own frozen state, plus Roster32's deepening and promotion (10 rows)", () => {
     const baldwin = JSON.parse(
       readFileSync(join(CANDIDATES_DIR, "james-baldwin.json"), "utf8"),
     ) as Candidate;
-    expect(baldwin.status).toBe("held");
-    expect(Object.keys(baldwin.rows)).toHaveLength(7);
+    // Roster32 evidence-deepening cycle (2026-09) added 3 new rows (autonomy_need,
+    // mastery_orientation, cross_domain_range) and upgraded 3 existing rows'
+    // confidence via genuinely new corroborating sources, then promoted him
+    // (held -> evidence_approved) via an eligibility-blind publication review
+    // (docs/checkpoints/roster32-evidence-deepening-balance-cycle.md) -- the
+    // same "held/promoted candidate legitimately re-touched by a later,
+    // in-scope research cycle" pattern this file already established for
+    // enrico-fermi.json above. persistence's score (84) is unchanged; only
+    // its confidence moved, which this frozen-row-count audit does not
+    // otherwise assert.
+    expect(baldwin.status).toBe("evidence_approved");
+    expect(Object.keys(baldwin.rows)).toHaveLength(10);
     expect(baldwin.rows.persistence?.score).toBe(84);
   });
 });

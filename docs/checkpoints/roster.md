@@ -688,7 +688,9 @@ raises the target.
   Full record:
   [`roster28-fifteen-person-fast-batch.md`](roster28-fifteen-person-fast-batch.md).
 - **Roster31: fourteen-person zero-politics production batch (2026-09,
-  `feat/roster31-fifteen-person-zero-politics-batch`, unmerged)**: same
+  `feat/roster31-fifteen-person-zero-politics-batch`, merged to `main` as PR
+  #32 after a pre-merge test-maintenance correction, merge commit
+  `dec7e16faec6904f7ed7f76788c924c0ec420eba`)**: same
   mechanical-intake discipline, continuing Roster30's zero-politics
   constraint. Linus Pauling, Robert Falcon Scott, Luis Alvarez, Ahmed
   Zewail, Gregor Mendel, Emilio Segrè, Taha Hussein, Sofia Kovalevskaya,
@@ -709,3 +711,29 @@ raises the target.
   untouched. Roster: **218 total / 217 default-directory-visible / 127
   match-eligible**. Full record:
   [`roster31-fifteen-person-zero-politics-batch.md`](roster31-fifteen-person-zero-politics-batch.md).
+
+- **Roster32: evidence-deepening + match-pool-balance cycle (2026-09,
+  `feat/roster32-evidence-deepening-balance-cycle`, unmerged, corrected)**:
+  deliberately NOT a bulk-publication batch -- deepened 8 existing `held`
+  candidates (1 Building & Discovery + 7 Arts & Culture, the honest ceiling
+  the held pool supports after Group-B/zero-politics exclusion left exactly
+  one viable B&D candidate) with new, bounded, source-grounded research:
+  Pelé, Fahrelnissa Zeid, Virginia Woolf, Matsuo Bashō, James Baldwin,
+  Al-Farabi, George Bernard Shaw, Pablo Neruda. **Zero
+  politics/state/military/activist-primary (0/8)** -- the rule is about
+  primary product identity, not absence of any political fact; Neruda's
+  and Shaw's own pre-existing rows still legitimately include
+  political/diplomatic material. Mechanically-verified evidence ledger: 25
+  rows added, 17 modified, 42 total row-level changes. A factual-gate
+  re-check against a primary source caught and corrected a real
+  misattribution in Bashō's draft evidence before staging. **A corrected,
+  eligibility-BLIND publication review (reasoning from evidence quality
+  alone, never eligibility_v2) found 7 of 8 publication-safe** -- Pelé,
+  Zeid, Woolf, Bashō, Baldwin, Shaw, and Neruda are now `evidence_approved`
+  with real rights-clear portraits and full EN/KO editorial; Al-Farabi
+  remains held on a concrete, unrelated attribution defect (not a
+  row-count issue). None of the 7 are match-eligible -- zero newly
+  match-eligible this cycle, none rescued. Roster: **225 total / 224
+  default-directory-visible / 127 match-eligible** (was 218/217/127). Full
+  record:
+  [`roster32-evidence-deepening-balance-cycle.md`](roster32-evidence-deepening-balance-cycle.md).

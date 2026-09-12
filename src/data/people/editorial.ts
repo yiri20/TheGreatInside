@@ -7614,4 +7614,172 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     turningPoints: [],
   },
+
+  "pele": {
+    achievements: [
+      { id: "pele-achievement-1", textKey: "pele.achievement.1", sourceIds: ["src_pele_wikipedia"] },
+      { id: "pele-achievement-2", textKey: "pele.achievement.2", sourceIds: ["src_pele_fifamuseum"] },
+    ],
+    moments: [
+      {
+        id: "pele-moment-1",
+        textKey: "pele.moment.1",
+        interpretationKey: "pele.interpretation.moment.1",
+        attributeId: "resourcefulness",
+        sourceIds: ["src_pele_playerstribune"],
+      },
+      {
+        id: "pele-moment-2",
+        textKey: "pele.moment.2",
+        interpretationKey: "pele.interpretation.moment.2",
+        attributeId: "decisiveness",
+        sourceIds: ["src_pele_ussoccerhistory"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "fahrelnissa-zeid": {
+    achievements: [
+      { id: "fahrelnissa-zeid-achievement-1", textKey: "fahrelnissa-zeid.achievement.1", sourceIds: ["src_zeid_tate"] },
+      { id: "fahrelnissa-zeid-achievement-2", textKey: "fahrelnissa-zeid.achievement.2", sourceIds: ["src_zeid_asianart"] },
+    ],
+    moments: [
+      {
+        id: "fahrelnissa-zeid-moment-1",
+        textKey: "fahrelnissa-zeid.moment.1",
+        interpretationKey: "fahrelnissa-zeid.interpretation.moment.1",
+        attributeId: "deep_focus",
+        sourceIds: ["src_zeid_artnewspaper"],
+      },
+      {
+        id: "fahrelnissa-zeid-moment-2",
+        textKey: "fahrelnissa-zeid.moment.2",
+        interpretationKey: "fahrelnissa-zeid.interpretation.moment.2",
+        attributeId: "proactive_agency",
+        sourceIds: ["src_zeid_anothermag"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "virginia-woolf": {
+    achievements: [
+      { id: "virginia-woolf-achievement-1", textKey: "virginia-woolf.achievement.1", sourceIds: ["src_woolf_hogarth"] },
+      { id: "virginia-woolf-achievement-2", textKey: "virginia-woolf.achievement.2", sourceIds: ["src_woolf_tunnelling"] },
+    ],
+    moments: [
+      {
+        id: "virginia-woolf-moment-1",
+        textKey: "virginia-woolf.moment.1",
+        interpretationKey: "virginia-woolf.interpretation.moment.1",
+        attributeId: "conflict_tolerance",
+        sourceIds: ["src_woolf_bennett_essay"],
+      },
+      {
+        id: "virginia-woolf-moment-2",
+        textKey: "virginia-woolf.moment.2",
+        interpretationKey: "virginia-woolf.interpretation.moment.2",
+        attributeId: "perfectionism",
+        sourceIds: ["src_woolf_lighthouse_diary"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "matsuo-basho": {
+    achievements: [
+      { id: "matsuo-basho-achievement-1", textKey: "matsuo-basho.achievement.1", sourceIds: ["src_basho_biography"] },
+      { id: "matsuo-basho-achievement-2", textKey: "matsuo-basho.achievement.2", sourceIds: ["src_basho_kyoraisho"] },
+    ],
+    moments: [
+      {
+        id: "matsuo-basho-moment-1",
+        textKey: "matsuo-basho.moment.1",
+        interpretationKey: "matsuo-basho.interpretation.moment.1",
+        attributeId: "social_assertiveness",
+        sourceIds: ["src_basho_kyoraisho"],
+      },
+      {
+        id: "matsuo-basho-moment-2",
+        textKey: "matsuo-basho.moment.2",
+        interpretationKey: "matsuo-basho.interpretation.moment.2",
+        attributeId: "collaboration",
+        sourceIds: ["src_basho_shirane"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "james-baldwin": {
+    achievements: [
+      { id: "james-baldwin-achievement-1", textKey: "james-baldwin.achievement.1", sourceIds: ["src_baldwin_wikipedia"] },
+      { id: "james-baldwin-achievement-2", textKey: "james-baldwin.achievement.2", sourceIds: ["src_baldwin_hyperallergic_delaney"] },
+    ],
+    moments: [
+      {
+        id: "james-baldwin-moment-1",
+        textKey: "james-baldwin.moment.1",
+        interpretationKey: "james-baldwin.interpretation.moment.1",
+        attributeId: "autonomy_need",
+        sourceIds: ["src_baldwin_yale_wright"],
+      },
+      {
+        id: "james-baldwin-moment-2",
+        textKey: "james-baldwin.moment.2",
+        interpretationKey: "james-baldwin.interpretation.moment.2",
+        attributeId: "persuasiveness",
+        sourceIds: ["src_baldwin_smithsonian_angelou"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "george-bernard-shaw": {
+    achievements: [
+      { id: "george-bernard-shaw-achievement-1", textKey: "george-bernard-shaw.achievement.1", sourceIds: ["src_gbs_nobel"] },
+      { id: "george-bernard-shaw-achievement-2", textKey: "george-bernard-shaw.achievement.2", sourceIds: ["src_gbs_prefaces"] },
+    ],
+    moments: [
+      {
+        id: "george-bernard-shaw-moment-1",
+        textKey: "george-bernard-shaw.moment.1",
+        interpretationKey: "george-bernard-shaw.interpretation.moment.1",
+        attributeId: "discipline",
+        sourceIds: ["src_gbs_ivu"],
+      },
+      {
+        id: "george-bernard-shaw-moment-2",
+        textKey: "george-bernard-shaw.moment.2",
+        interpretationKey: "george-bernard-shaw.interpretation.moment.2",
+        attributeId: "detail_orientation",
+        sourceIds: ["src_gbs_jot101"],
+      },
+    ],
+    turningPoints: [],
+  },
+
+  "pablo-neruda": {
+    achievements: [
+      { id: "pablo-neruda-achievement-1", textKey: "pablo-neruda.achievement.1", sourceIds: ["src_neruda_nobel"] },
+      { id: "pablo-neruda-achievement-2", textKey: "pablo-neruda.achievement.2", sourceIds: ["src_neruda_islanegra"] },
+    ],
+    moments: [
+      {
+        id: "pablo-neruda-moment-1",
+        textKey: "pablo-neruda.moment.1",
+        interpretationKey: "pablo-neruda.interpretation.moment.1",
+        attributeId: "creative_originality",
+        sourceIds: ["src_neruda_fundacion_lorca"],
+      },
+      {
+        id: "pablo-neruda-moment-2",
+        textKey: "pablo-neruda.moment.2",
+        interpretationKey: "pablo-neruda.interpretation.moment.2",
+        attributeId: "aesthetic_sensitivity",
+        sourceIds: ["src_neruda_greenink"],
+      },
+    ],
+    turningPoints: [],
+  },
 };

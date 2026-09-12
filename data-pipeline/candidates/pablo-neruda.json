@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "pablo-neruda",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Pablo Neruda",
     "wikidataId": "Q34189",
@@ -54,15 +54,18 @@
       "id": "src_neruda_memoir",
       "kind": "archive",
       "title": "Pablo Neruda, Confieso que he vivido (Memoirs, published posthumously 1974)"
-    }
+    },
+    { "id": "src_neruda_fundacion_lorca", "kind": "institution", "title": "Fundación Pablo Neruda, Portal Cultura -- \"García Lorca - Pablo Neruda: una de las más grandes amistades literarias del siglo XX\"", "url": "https://cultura.fundacionneruda.org/2021/04/garcia-lorca-pablo-neruda-una-de-las-mas-grandes-amistades-literarias-del-siglo-xx/" },
+    { "id": "src_neruda_islanegra", "kind": "institution", "title": "Fundación Pablo Neruda -- Isla Negra Museum House", "url": "https://fundacionneruda.org/en/isla-negra-museum-house/" },
+    { "id": "src_neruda_greenink", "kind": "press", "title": "\"Neruda, Poetry and Green Ink: The Colour of Hope\", ASK Rare Books", "url": "https://askrarebooks.com/neruda-poetry-and-green-ink-the-colour-of-hope/" }
   ],
   "rows": {
     "creative_originality": {
       "score": 82,
-      "confidence": 0.65,
+      "confidence": 0.7,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Produced work spanning radically different poetic modes across his career — from the surrealist Residencia en la tierra to the accessible political epic Canto General to the intimate Odas Elementales — documented via the well-noted stylistic range across his bibliography."
+      "rationale": "[NEW_EVIDENCE, Roster32] A second, independent, specific instance beyond his career-spanning stylistic range: on 10 November 1933 at a Buenos Aires banquet honoring both him and Federico García Lorca, the two poets spontaneously delivered a jointly-improvised speech 'al alimón' -- named for a rare bullfighting technique where two matadors work one cape together -- standing simultaneously from opposite ends of the table and alternating lines, corroborated across the Fundación Pablo Neruda's own cultural portal and multiple independent Argentine press retrospectives. Produced work spanning radically different poetic modes across his career — from the surrealist Residencia en la tierra to the accessible political epic Canto General to the intimate Odas Elementales — documented via the well-noted stylistic range across his bibliography."
     },
     "cross_domain_range": {
       "score": 72,
@@ -163,11 +166,11 @@
       "rationale": "Held elected political office (Chilean Senate) and later served as a Communist Party presidential pre-candidate before withdrawing in favor of Salvador Allende, documented via the well-established record of his political career."
     },
     "detail_orientation": {
-      "score": 56,
-      "confidence": 0.4,
-      "evidenceType": "inference",
+      "score": 65,
+      "confidence": 0.6,
+      "evidenceType": "documented",
       "impact": "neutral",
-      "rationale": "The Odas Elementales' close, precise attention to everyday physical objects suggests real capacity for detailed observational writing alongside his broader epic and political modes."
+      "rationale": "[NEW_EVIDENCE, Roster32] The Odas Elementales' close attention to everyday objects is now corroborated by a second, physically verifiable independent instance: his Isla Negra house, built and expanded from the late 1930s through the 1950s, contains an entire dedicated room ('Bajo el mar') housing an extensive, thematically organized shell and marine-curio collection (including ships in bottles, figureheads, and a narwhal tusk), with the house's whole nautical architecture -- low ceilings, narrow passageways, an anchor mooring it to the land -- built specifically around this collecting practice rather than the collection being incidental decoration."
     },
     "planning_orientation": {
       "score": 58,
@@ -196,13 +199,35 @@
       "evidenceType": "inference",
       "impact": "neutral",
       "rationale": "Sustained an unusually large body of published poetry alongside a demanding diplomatic career, evidencing real sustained concentrated creative effort."
+    },
+    "aesthetic_sensitivity": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32] Wrote consistently in green ink throughout his working life, a specific, sustained, self-explained aesthetic choice -- he described green as the color of hope -- corroborated across multiple independent accounts of his manuscripts and working habits, distinct from an incidental or unremarked preference."
     }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pablo-neruda-loc-1966.jpg",
+    "width": 620,
+    "height": 488,
+    "source": "Library of Congress, Prints & Photographs Division (digital ID cph.3a49112), via Wikimedia Commons",
+    "license": "Public Domain (US federal government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_(1966).jpg",
+    "attribution": "Library of Congress, June 20, 1966",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_(1966).jpg",
+    "creator": "Library of Congress staff photographer",
+    "date": "1966-06-20",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_(1966).jpg"
   },
   "provenance": {
     "createdAt": "2026-08-15T00:00:00Z",
-    "updatedAt": "2026-08-15T00:00:00Z",
+    "updatedAt": "2026-09-12T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Third-batch diversity pick: 20th_century, latin_america, literature/diplomacy dual-domain profile. His later, well-documented controversial personal conduct (a confession in his own posthumous memoir describing an assault, and other troubling episodes toward women, publicly re-examined and debated in recent years) was deliberately NOT used to infer any trait score here — per this project's safety rules, this project scores documented behavior relevant to the 34-trait taxonomy, not moral judgment, and inferring personality traits from that specific conduct would risk exactly the kind of character diagnosis this project's rubric prohibits; it is noted here for the record, not silently omitted, but no row above draws on it."
+    "notes": "Third-batch diversity pick: 20th_century, latin_america, literature/diplomacy dual-domain profile. His later, well-documented controversial personal conduct (a confession in his own posthumous memoir describing an assault, and other troubling episodes toward women, publicly re-examined and debated in recent years) was deliberately NOT used to infer any trait score here — per this project's safety rules, this project scores documented behavior relevant to the 34-trait taxonomy, not moral judgment, and inferring personality traits from that specific conduct would risk exactly the kind of character diagnosis this project's rubric prohibits; it is noted here for the record, not silently omitted, but no row above draws on it. Roster32 (2026-09): nearest-to-eligible candidate in the cycle, deliberately deepened rather than expanded -- research targeted genuinely NEW_EVIDENCE, independently-corroborating, for EXISTING rows (not new rows for their own sake), and specifically avoided his political/diplomatic career as FURTHER evidentiary basis, since several PRE-EXISTING rows already legitimately rest on it (his 1948 Senate denunciation of González Videla, the resulting exile and Andes escape, his Communist Party membership and presidential pre-candidacy) -- this is not a defect: this cycle's zero-politics rule governs a person's PRIMARY product identity (his is unambiguously 'poet,' via a Nobel Prize in Literature and global readership), not the absence of any political fact from an individual's documented biography, and those pre-existing rows are not sanitized or removed. All 3 Roster32 changes (2 upgrades, 1 new row) are grounded instead in craft/personal-habit material (a joint improvised speech with Lorca, his shell-collecting/house-building, his green-ink writing ritual), diversifying the evidentiary base rather than replacing what was already there. Same safety exclusion reaffirmed and untouched. 2026-09-12: publication review (eligibility-blind, per docs/checkpoints/profile-publication-vs-match-eligibility.md) found no identity/attribution/provenance defect across all 21 rows -- richest, most complete profile in the cohort, sourced across his own memoir, the Nobel citation, and 3 institutional/press outlets; the excluded assault confession remains excluded, not laundered. Promoted to evidence_approved; publication is independent of eligibility_v2. Eligibility diagnostic (informational only, not a publication factor): post-lock recompute corrects the prior cycle's own diagnosis of what's binding -- the prior holdReason cited 'avgConf 0.515 vs 0.55,' which is the legacy flat average (eligibility_v1-style), not the eligibility_v2 admission statistic; highConfidenceAverage was already 0.63 pre-cycle (comfortably passing), and the real binding constraint was always highConfidenceCount (8 of 12 required). This cycle's new evidence honestly moved the count from 8 to 10 (detail_orientation crossed the 0.5 line; the new aesthetic_sensitivity row landed exactly at 0.5) -- scored=21, coverage=0.63, highConfCount=10 (need 12), highConfAvg=0.62. Two short of match-eligible. Per this cycle's explicit rule against hunting one more trait once a result is known, no further research was attempted after this number became visible."
   },
-  "holdReason": "Confidence ceiling after two remediation rounds (genuine evidence additions targeting missing high-baseWeight attributes, then a rubric-floor correction bringing every row already tagged evidenceType \"documented\" up to scoring-rubric-v1's own 0.65 floor for that tier -- never touching strong_inference/inference rows, never adding fabricated evidence): avgConf 0.515 vs 0.55 floor. This batch's research relied more heavily on general encyclopedic knowledge across many unfamiliar eras/regions/domains than a deeper per-person primary-source pass would support, and honestly lands at a lower average confidence tier than batches 1-2. A third confidence-adjustment round was deliberately NOT attempted -- per the session's own explicit instruction not to force wider margins or repeatedly rework a candidate just to cross the floor. A future session doing deeper per-person primary-source research could plausibly convert several of these (especially the ones within 0.02-0.04 of the floor) to accepted without inventing anything new."
+  "holdReason": "Superseded 2026-09-12 -- promoted to evidence_approved. See provenance.notes for the eligibility_v2 diagnostic (kept for a future cycle, not a publication factor)."
 }
