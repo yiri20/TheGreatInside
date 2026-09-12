@@ -194,10 +194,17 @@ export interface Candidate {
   portrait?: CandidatePortraitStatus;
   localization?: CandidateLocalization;
 
-  /** Required when status is "held". Why this candidate is paused — e.g.
-   *  "only 14 scoreable attributes found across 3 biography sources,
-   *  below the 18-attribute floor; needs a source with more behavioral
-   *  detail before continuing." */
+  /** Required when status is "held". Why this candidate is paused — either
+   *  a numeric `eligibility_v2` shortfall (e.g. "18 scored attributes,
+   *  coverage 0.58 — short of the 0.6 floor; needs a source with more
+   *  behavioral detail") or, independently, a publication-quality/evidence
+   *  concern that blocks even a non-match-eligible publication (e.g.
+   *  "individual behavioral attribution remains too uncertain to approve
+   *  for publication; needs stronger source support"). These are separate
+   *  gates — see docs/checkpoints/profile-publication-vs-match-eligibility.md:
+   *  a candidate can honestly fail `eligibility_v2` and still be
+   *  publication-ready (promote via `evidence_approved`), or pass its
+   *  numbers and still have a publication-blocking defect. */
   holdReason?: string;
   /** Required when status is "rejected". Why this candidate will not be
    *  included — e.g. "primary distinction is an inherited title;
