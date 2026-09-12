@@ -2,11 +2,27 @@
 
 Diagnostic-only. No threshold, score, confidence, evidenceType, impact,
 eligibility_v2, matching, calibration, dispersion, roster membership, or
-interest-area change was made in this cycle. See
+interest-area change was made in this cycle (this includes the
+correction pass below — no candidate/roster file was touched, only the
+audit tooling and one comment). See
 [`matchPoolIntegrityAudit.ts`](../../src/dev/roster1000/audits/matchPoolIntegrityAudit.ts)
-for the reusable, read-only mechanical script this report's numbers come
-from, and its companion test file for the deterministic guards (cohort
-counts, lineage classification, no-mutation).
+for the reusable mechanical inventory script and
+[`matchPoolIntegrityAuditManual.ts`](../../src/dev/roster1000/audits/matchPoolIntegrityAuditManual.ts)
+for the row-by-row manual classification ledger this report's exact rates
+come from — both read-only, both covered by tests that assert no
+mutation.
+
+**Correction pass (2026-09-12, second commit on this PR)**: the first
+version of this report used narrative language ("large majority," "low,"
+"~0") in place of an actual computed rate, and drew a too-strong
+inference from the mechanical `evidenceType` share alone. Both are fixed
+below: §6 now reports an exact, code-computed classification ledger
+covering every scored row on all 24 audited people, and §7's
+interpretation is narrowed to what that ledger actually supports. The
+correction **materially changed the eligible-sample numbers** (see §6) —
+the conclusion category is unchanged, but the finding for the
+roster1/roster2 lineage is now sharper and more concrete than the first
+version reported.
 
 ## 1. The question
 
@@ -46,23 +62,17 @@ published at all. This is expected, not a finding.
 | median high-confidence count | 17 | 8 |
 | median high-confidence average | 0.610 | 0.581 |
 | median overall profile confidence | 0.572 | 0.512 |
-| documented-row share | 34.5% | **41.5%** |
+| documented-row share (`evidenceType` tag) | 34.5% | 41.5% |
 | strong_inference share | 41.3% | 26.8% |
 | inference share | 24.2% | 31.7% |
 | median sources/person | 3 | 4 |
 | mean sources/person | 3.19 | 3.92 |
 
-**This is the single most important mechanical finding.** The gap between
-the two cohorts is almost entirely in *breadth* (scored-attribute count,
-coverage, and above all high-confidence *count*: 17 vs 8 — roughly
-double). It is **not** in per-row evidence discipline: the recent
-non-eligible cohort has a **higher** documented-row share and a
-comparable high-confidence *average* (0.581 vs 0.610, a 0.03 gap) and
-comparable median source count (actually higher: 4 vs 3). If the legacy
-cohort's rows were systematically looser, this table would show it
-carrying a *lower* documented share and a *wider* high-confidence-average
-gap. It doesn't. `eligibility_v2` is gating on **how much a profile
-covers**, not on **how well-evidenced each covered row is**.
+The breadth gap (scored-attribute count, coverage, and especially
+high-confidence *count*: 17 vs 8) is large and real. The `evidenceType`
+tag distribution above is **not**, by itself, evidence about per-row
+quality — see §7(C) for why, and §6 for the actual per-row audit this
+question needs.
 
 ### Lineage breakdown of the 127 eligible
 
@@ -114,15 +124,15 @@ toni-morrison, akira-kurosawa, benjamin-franklin, rumi, oprah-winfrey,
 simone-biles, yayoi-kusama
 ```
 
-This is a real, structural governance gap, independent of whether any
-individual profile's evidence is actually weak: `checkScoringLockIntegrity.ts`
-diffs `data-pipeline/candidates/*.json` files only, so a future edit to any
-of these 34 people's confidence/evidenceType values would go completely
-undetected by the project's own drift guard. Every one of them still
-carries the required score/confidence/evidenceType/sourceIds/impact
-fields (the schema is shared), and most carry rich inline per-attribute
-rationale comments — the gap is in tooling coverage and provenance-note
-discipline, not in the fields themselves being absent.
+`checkScoringLockIntegrity.ts` diffs `data-pipeline/candidates/*.json`
+files only, so a future edit to any of these 34 people's
+confidence/evidenceType values would go completely undetected by the
+project's own drift guard. **§6 below adds a second, more concrete layer
+to this finding**: it is not only that no JSON file exists — for the 5 of
+these 34 people actually row-audited in this cycle, their original ~30
+"base" rows (everything except a handful of later `taxonomy_v1.1`
+additions) carry no per-row rationale text anywhere in the repository at
+all, only a score/confidence/evidenceType/impact tuple.
 
 ### Interest-area pools (match-eligible), for reference — unchanged by this audit
 
@@ -133,18 +143,18 @@ building_discovery 19.
 
 | when | what changed |
 |---|---|
-| Roster1-2 (pre roster-1000 program) | Hand-authored directly as `PersonSeed` literals in `seed.ts`/`roster2.ts`. No candidate JSON, no schema version, no locked evidence ledger. |
+| Roster1-2 (pre roster-1000 program) | Hand-authored directly as `PersonSeed` literals in `seed.ts`/`roster2.ts`. No candidate JSON, no schema version, no locked evidence ledger, **and — confirmed in this correction pass — no per-row rationale text for the original ~30 attributes per person**; only later `taxonomy_v1.1` additions (0-4 rows per person) carry a written rationale. |
 | Roster-1000 sessions 1-9 | `eligibility_v1` (implicit, unversioned): a **flat, unweighted mean of confidence** across every scored attribute gated admission. |
 | **Session 10 (2026-08)** | **`eligibility_v2` introduced** (`ELIGIBILITY_VERSION`, `src/core/matching/similarity.ts`): replaces the flat mean with a high-confidence-subset requirement (`count>=12`, `avgConf>=0.55` among rows at `confidence>=0.5`); `minScoredAttributes`(18)/`minCoverage`(0.6) carried over unchanged from v1. Roster7 (+9) is the first batch selected against it. |
 | **Session 11 (2026-08)** | **Confirmed integrity incident**: confidence values iteratively nudged after seeing `eligibility_v2` fail, until candidates crossed the bar. 17 of 20 candidates from that batch (roster8) reverted. Directly produced the binding confidence-change policy (`NEW_EVIDENCE`/`RUBRIC_CORRECTION`/`ERROR_CORRECTION` only, never `ELIGIBILITY_REMEDIATION`) and `checkScoringLockIntegrity.ts`. |
-| Session ~13-18 (roster9-16) | Candidate-pipeline JSON becomes standard. A high-water mark appears mid-arc ("Session 19" launch-expansion batch: Einstein, Pavlova, Aung San Suu Kyi, Akio Morita) using **locked, per-episode-ID evidence ledgers** (25-45 named episodes each) — arguably *more* granular than later practice, which cites source IDs but not individual episode IDs. Session 18 formally freezes the Roster Research & Scoring Protocol v1. |
+| Session ~13-18 (roster9-16) | Candidate-pipeline JSON becomes standard — every row now carries a written rationale. A high-water mark appears mid-arc ("Session 19" launch-expansion batch: Einstein, Pavlova, Aung San Suu Kyi, Akio Morita) using **locked, per-episode-ID evidence ledgers** (25-45 named episodes each) — arguably *more* granular than later practice, which cites source IDs but not individual episode IDs. Session 18 formally freezes the Roster Research & Scoring Protocol v1. |
 | Roster17 (2026-09) | John von Neumann promoted then **reverted**: provenance overstated its own methodology (claimed sources never actually opened), 16 of 23 rows re-derived from the same 2-4 facts (duplicated-behavior pattern). 6 others held purely on attribute-count/coverage from a shallower single-source pass. |
 | Roster18 | New rule: >=2 genuinely independent, actually-opened sources (Wikipedia orientation-only). All 8 frozen candidates scored 8-14 attributes; zero promotions. |
 | Roster19-20 | Progressively stricter pre-freeze gates (incident ledgers, literal fact-cluster/attribute mapping, strict source-independence definition). Zero to near-zero promotions; **Roster20 froze zero candidates at all.** |
-| **Eligibility/evidence calibration audit (PR #17)** | Retroactively applied the Roster20-style strict pre-freeze gate to 5 **already-live** production people (Julius Caesar, Newton, Beethoven, Malala, Lincoln). Result: provenance passed 2/5, incidents 0/5, attributes 0/5 — **none of the 5 sampled already-eligible people would pass the strictest modern pre-freeze research gate if it were reapplied retroactively.** Conclusion at the time: `GATE_MISALIGNMENT_PROVISIONAL` — recommended keeping `eligibility_v2` unchanged and revisiting the *pre-freeze research* rule instead. No production person was touched. **This is a direct, already-existing precedent for this audit's own finding in §2 above.** |
+| **Eligibility/evidence calibration audit (PR #17)** | Retroactively applied the Roster20-style strict pre-freeze gate to 5 **already-live** production people (Julius Caesar, Newton, Beethoven, Malala, Lincoln). Result: provenance passed 2/5, incidents 0/5, attributes 0/5 — **none of the 5 sampled already-eligible people would pass the strictest modern pre-freeze research gate if it were reapplied retroactively.** Conclusion at the time: `GATE_MISALIGNMENT_PROVISIONAL` — recommended keeping `eligibility_v2` unchanged and revisiting the *pre-freeze research* rule instead. No production person was touched. This audit's row-level finding (§6-7) is a different, complementary check (existing per-row textual support, not pre-freeze research-depth prediction) and reaches a compatible but sharper conclusion for one specific lineage. |
 | Roster21-23 | Retired Roster20's hard numeric pre-freeze gates for qualitative judgment. Still zero `eligibility_v2` promotions; Garibaldi/Chekhov (roster22/23) reach unusually high confidence quality but stay short on breadth. |
-| **Publication/match-eligibility separation (2026-09)** | `isDirectoryVisible` + `evidence_approved` status introduced. Publication approval and match eligibility become independently representable and independently computed. |
-| Roster24-32 | First real use of the new architecture. 27 evidence_approved non-eligible people published (Garibaldi, Chekhov, Rubin, Chandrasekhar, Nansen, Bird, +22 fast-batch people, +Zewail/Gaudí/Carnegie-style session-14 "blind calibration" people, +Roster32's 7). Zero newly match-eligible across every one of these cycles except the 3 already-`qa_passed` promotions (Bly, Jung, Guevara). |
+| **Publication/match-eligibility separation (2026-09)** | `isDirectoryVisible` + `evidence_approved` status introduced. Publication approval and match eligibility become independently representable and independently computed. `docs/adding-a-person.md` already states the corrected rule explicitly ("never withhold promotion solely because `eligibility_v2` failed once evidence approval is genuine") — confirmed still accurate active guidance in this correction pass (§9 below). |
+| Roster24-32 | First real use of the new architecture. 27 evidence_approved non-eligible people published. Zero newly match-eligible across every one of these cycles except the 3 already-`qa_passed` promotions (Bly, Jung, Guevara). |
 
 ## 4. Frozen 16 — stratified match-eligible sample
 
@@ -175,175 +185,244 @@ domain×stratum bucket. Not selected by, or filtered on, score appearance.
 | confucius | roster2 | ancient | leadership_society |
 | ernest-shackleton | roster3 | 19th_century | building_discovery |
 
-(Einstein/Pavlova/Aung San Suu Kyi/Morita/Aristotle/Hildegard/Shackleton's
-exact roster-N assignment is by `ROSTER_N` array membership per the audit
-script; several were scored in the same 2026-08-15/08-20 "Session 19"-era
-batches referenced in §3.)
-
 ## 5. Frozen 8 — recent non-eligible controls
 
-Pelé, Fahrelnissa Zeid → substituted per task's own named set: **George
-Bernard Shaw, Pablo Neruda, Pelé, Virginia Woolf, James Baldwin**
-(all Roster32), **Ahmed Zewail** (Roster31 scientist), **Antoni Gaudí**
-(Roster30-era Arts & Culture, session-14 blind-calibration batch),
-**Andrew Carnegie** (Roster30-era Building & Discovery, same batch).
+**George Bernard Shaw, Pablo Neruda, Pelé, Virginia Woolf, James Baldwin**
+(all Roster32 — the 4 named in the task plus one additional Roster32
+evidence_approved profile), **Ahmed Zewail** (Roster31 scientist),
+**Antoni Gaudí** (Roster30-era Arts & Culture), **Andrew Carnegie**
+(Roster30-era Building & Discovery).
 
-## 6. Row-audit findings (qualitative, read against each file's own cited sources — no new external research performed; a small number of already-cited URLs were spot-checked only where necessary to judge attribution)
+## 6. Row-classification ledger — exact, code-computed rates
 
-Classification legend: **SAW** = supported_as_written, **OVR** =
-support_but_overstated, **OBI** = outcome_based_inference, **DUP** =
-duplicated_behavior, **ATU** = attribution_uncertain, **UNS** =
-unsupported_from_available_provenance, **PNR** =
-provenance_not_reconstructable.
+Every scored row on all 24 people (frozen 16 + frozen 8) was assigned
+**exactly one** primary classification against that row's own existing
+rationale text (or its absence), per the fixed taxonomy. No new external
+research; no row's score/confidence/evidenceType/impact was changed. Full
+per-row ledger and classification rules:
+[`matchPoolIntegrityAuditManual.ts`](../../src/dev/roster1000/audits/matchPoolIntegrityAuditManual.ts)
+(tested for coverage, no orphans/no missing rows, and determinism in
+[`matchPoolIntegrityAuditManual.test.ts`](../../src/dev/roster1000/audits/matchPoolIntegrityAuditManual.test.ts)).
 
-| person | rows read | dominant classification | notable exceptions |
-|---|---|---|---|
-| Ada Lovelace | 30 | SAW | none — rich per-episode rationale, symmetric-protocol null results explicitly logged |
-| Alan Turing | 30 | SAW | none — same taxonomy_v1.1 episode discipline, explicit non-duplication reasoning |
-| Benjamin Franklin | 30 | SAW | none — named Isaacson biography + 2 topic-specific Wikipedia sources |
-| **Akira Kurosawa** | 30 | SAW | **1 source only** (Wikipedia); several `documented`-tier rows at confidence up to 0.85 rest on that single source — would not clear the Roster18 two-independent-source bar today. The evidence *itself* is specific and dated (not vague), so this is ATU-on-sourcing rather than fabrication. |
-| **Confucius** | 21 | mix of SAW/ATU | zero `documented` rows (all strong_inference/inference); 2 sources, one of which (the Analects) is itself explicitly a secondhand compilation "many years after his death." Confidence is honestly capped (max 0.68) — the file does not overclaim, it is just thin. 2-3 rows (e.g. `persuasiveness` 0.6) read as general-disposition inference rather than a specific dated act. |
-| Albert Einstein | 21 | SAW | none — 2 real sources, deliberately includes low unflattering scores (`belief_updating` 26, `experimentation` 42) with an explicit anti-halo-effect provenance note |
-| Anna Pavlova | 25 | SAW | none — 8 sources, per-episode evidence IDs (Session 19 ledger), includes unflattering material (slapping a partner, volatile management style) |
-| Aung San Suu Kyi | 25 | SAW | none — 8 sources incl. HRW/ICJ transcript/her own writings; explicitly includes her authoritarian-era failures (`belief_updating` 22, `collaboration` 32) without sanitizing |
-| Akio Morita | 26 | SAW | none — 8 sources incl. 2 independent biographies; includes real strategic failures (Betamax, Columbia Pictures) as `dual_edged`/negative |
-| Bertrand Russell | 21 | SAW | none — corroborated from Monk's independent biography AND multiple of Russell's own wives' separate accounts; includes his documented relationship failures |
-| Bette Davis | 22 | SAW | none — corroborated from Crawford's own independent side of their rivalry, not Davis's account alone |
-| Abraham Lincoln | 22 | SAW | none — named scholarly biographies (Herndon, Goodwin, Donald) + his own Collected Works; dual_edged decisiveness honestly scored |
-| Alexander Hamilton | 22 | SAW | 1 row (`opportunity_sensing`, inference) reads as pattern-inference rather than a single cited act — acceptable at its stated confidence (0.48) |
-| Aristotle | 19 | SAW | evidence is his own surviving corpus (primary, not secondhand) — the file explicitly and correctly distinguishes this from Confucius/Socrates's secondhand-only case |
-| Hildegard of Bingen | 19 | SAW | honestly capped at 0.65 max; explicit note that most rows rest on textual interpretation, not corroborated behavioral accounts |
-| Ernest Shackleton | 21 | SAW | 2 sources (Wikipedia + Lansing, itself drawing on multiple crew diaries); deliberately low, honest scores where evidence doesn't support more (`cross_domain_range` 28, `planning_orientation` 52) |
-| George Bernard Shaw (control) | 16 | SAW | none — 8 sources incl. his own quoted words; visible `[NEW_EVIDENCE, Roster32]` tags |
-| Pablo Neruda (control) | 21 | SAW | none — richest control profile; explicit safety-rule exclusion of his assault confession, disclosed not laundered |
-| Pelé (control) | 6 | mix SAW/**OBI** | `competitiveness`/`discipline` explicitly self-labeled "inferred substantially from results rather than specific documented personal behavior" — an honestly-flagged outcome-based-inference case, exactly the pattern §10(B) below asks about |
-| Virginia Woolf (control) | 12 | SAW | none — 11 sources; explicit exclusion of health-crisis-adjacent material per the project's own diagnosis-inference ban |
-| James Baldwin (control) | 10 | SAW | none — 11 sources; 2 widely-recirculated but unverifiable claims explicitly investigated and excluded |
-| Ahmed Zewail (control) | 12 | SAW | 2 rows carry visible `[NARROWED on factual gate review]` self-corrections (an overclaimed "first" title; an unverifiable dollar figure) |
-| Antoni Gaudí (control) | 7 | SAW | thin (7 rows) but each well-grounded; patron dependency disclosed but explicitly NOT used as false collaboration evidence |
-| Andrew Carnegie (control) | 5 | SAW | thin (5 rows); Homestead Strike deliberately included as negative/harmful, with a visible post-hoc `[ERROR_CORRECTION]` removing an over-precise casualty figure |
+**Classification is deliberately stricter than the data's own
+`evidenceType` tag.** The single largest driver of non-`supported_as_written`
+rows, discovered only by attempting this exact ledger: for the 5
+roster1/roster2 people in the sample (Ada Lovelace, Akira Kurosawa,
+Benjamin Franklin, Alan Turing, Confucius), the original ~30 "base"
+attributes per person carry a score/confidence/evidenceType/impact tuple
+but **no per-row rationale text anywhere in the repository** — only later
+`taxonomy_v1.1` addition rows (0-4 per person) carry a written paragraph.
+These base rows are classified `unsupported_from_available_provenance`:
+not because the underlying historical claim is necessarily false, but
+because the specific number cannot be reconstructed from anything the
+repository currently states (per this audit's own scope: "audit what the
+repository currently supports," not general knowledge).
+
+### A. Frozen 16 eligible sample (denominator = 396)
+
+| classification | count | rate |
+|---|---|---|
+| supported_as_written | 241 | 60.9% |
+| support_but_overstated | 0 | 0.0% |
+| outcome_based_inference | 5 | 1.3% |
+| duplicated_behavior | 0 | 0.0% |
+| attribution_uncertain | 5 | 1.3% |
+| unsupported_from_available_provenance | 145 | 36.6% |
+| provenance_not_reconstructable | 0 | 0.0% |
+
+### B. Frozen 8 recent non-eligible controls (denominator = 88)
+
+| classification | count | rate |
+|---|---|---|
+| supported_as_written | 75 | 85.2% |
+| support_but_overstated | 0 | 0.0% |
+| outcome_based_inference | 8 | 9.1% |
+| duplicated_behavior | 1 | 1.1% |
+| attribution_uncertain | 3 | 3.4% |
+| unsupported_from_available_provenance | 1 | 1.1% |
+| provenance_not_reconstructable | 0 | 0.0% |
+
+### C. Combined 24-profile audit (denominator = 484)
+
+| classification | count | rate |
+|---|---|---|
+| supported_as_written | 316 | 65.3% |
+| support_but_overstated | 0 | 0.0% |
+| outcome_based_inference | 13 | 2.7% |
+| duplicated_behavior | 1 | 0.2% |
+| attribution_uncertain | 8 | 1.7% |
+| unsupported_from_available_provenance | 146 | 30.2% |
+| provenance_not_reconstructable | 0 | 0.0% |
+
+### D. Decomposition: eligible sample, candidate-JSON-backed lineage only (11 of 16 people, denominator = 249)
+
+Excludes the 5 roster1/roster2 people to isolate whether the
+candidate-pipeline *portion* of the eligible cohort is comparable to the
+controls:
+
+| classification | count | rate |
+|---|---|---|
+| supported_as_written | 235 | 94.4% |
+| support_but_overstated | 0 | 0.0% |
+| outcome_based_inference | 5 | 2.0% |
+| duplicated_behavior | 0 | 0.0% |
+| attribution_uncertain | 4 | 1.6% |
+| unsupported_from_available_provenance | 5 | 2.0% |
+| provenance_not_reconstructable | 0 | 0.0% |
+
+**This is the key comparison.** The raw 16-person eligible rate
+(60.9% SAW) looks materially worse than the controls (85.2% SAW) — but
+that gap is concentrated almost entirely in 5 of 16 people. Once those 5
+(all roster1/roster2, zero candidate JSON) are set aside, the remaining
+11 candidate-pipeline-backed eligible people score **94.4% SAW — higher
+than the controls' 85.2%.** The `unsupported_from_available_provenance`
+rate for this subset (2.0%) comes from a handful of explicitly
+self-flagged "safe default" rows in otherwise-strong files (Russell,
+Davis, Hamilton), not from a systemic gap.
 
 ## 7. Answers to the key audit questions
 
 **A. What fraction of audited rows are reconstructably supported?**
-The large majority across all 24 profiles (~330 rows read). No fabricated
-or unreconstructable claims were found; every source is named, and in
-most files a live URL is given. The system actively *excludes* unverifiable
-material before scoring rather than scoring it at reduced confidence
-(Pelé's Biafra-ceasefire legend, Baldwin's Wright-brawl claim, Shaw's
-"five pages a day" anecdote — all investigated and explicitly rejected).
+65.3% combined are `supported_as_written` outright (§6C); among rows that
+actually carry any per-row rationale text at all (i.e., excluding
+roster1/2's base rows), the rate is far higher — 94.4% for the
+candidate-JSON-backed eligible sample, 85.2% for the controls.
 
 **B. Outcome-based inference / duplicated behavior / weak attribution /
-unavailable provenance rates.** Outcome-based inference: a real, narrow
-pattern, concentrated in low-personal-documentation athletic/entertainment
-figures — found in the **control** group itself (Pelé), not only in
-legacy profiles. Duplicated behavior: not found live in this sample (the
-one confirmed historical instance, Roster17's von Neumann, was caught and
-reverted before ever reaching production). Weak attribution: concentrated
-in secondhand-corpus ancient figures (Confucius) and single-source
-profiles (Kurosawa). Unavailable provenance: none found — the opposite
-pattern holds (unreconstructable leads are being actively filtered out).
+unavailable provenance rates.** Combined: outcome_based_inference 2.7%
+(13/484), duplicated_behavior 0.2% (1/484, Virginia Woolf's
+`autonomy_need`, self-disclosed by its own rationale as overlapping
+`resourcefulness`), attribution_uncertain 1.7% (8/484), and the dominant
+category, unsupported_from_available_provenance 30.2% (146/484) — almost
+entirely (145 of 146) the roster1/2 base-row gap in §6, not a
+controls-vs-eligible split (controls: 1/88, 1.1%).
 
 **C. Are those rates materially different from the recent non-eligible
-controls?** No. The controls show equal or *greater* visible self-correction
-(explicit `[NARROWED]`/`[ERROR_CORRECTION]` tags) than most of the eligible
-cohort simply because that provenance-note convention postdates most of
-the eligible cohort's original scoring — not because the underlying row
-quality differs.
+controls?** **Yes for the aggregate 16-person eligible sample (60.9% vs
+85.2% SAW) — but this is a lineage effect, not a general legacy-vs-recent
+effect.** Restricted to the candidate-JSON-backed 11 of 16 (§6D), the
+eligible sample's rate (94.4%) is *higher* than the controls' (85.2%).
+The earlier draft of this report inferred per-row parity directly from
+the mechanical `evidenceType` share (§2's table) — that inference was too
+strong, because `documented`/`strong_inference`/`inference` are
+themselves historical annotations that could, in principle, have been
+applied under looser discipline; the corrected, defensible basis for the
+parity claim is this manual ledger (§6), not the aggregate tag
+distribution.
 
 **D. Are high-confidence rows in the eligible cohort supported at the
-same evidence level modern candidates need?** Yes for 15 of the 16 sampled
-(Ada Lovelace, Alan Turing, Benjamin Franklin, Einstein, Pavlova, Aung San
-Suu Kyi, Morita, Russell, Davis, Lincoln, Hamilton, Aristotle, Hildegard,
-Shackleton — fully comparable to or exceeding the controls). Confucius is
-honestly-capped rather than a violation. **Akira Kurosawa is the one
-concrete exception**: `documented`-tier claims at up to 0.85 confidence
-resting on exactly one source.
+same evidence level modern candidates need?** Yes for the
+candidate-JSON-backed portion (11 of 16 sampled). **No, mechanically
+confirmed, for the roster1/2 portion**: their base-row confidence values
+(some in the 0.7-0.85 "documented" range, e.g. several of Akira
+Kurosawa's rows) have no stated textual justification at all, let alone
+one meeting current sourcing discipline.
 
-**E. Does evidence quality differ strongly by roster lineage?** Not
-monotonically. Quality tracks *which specific research pass* a person went
-through far more than *how old* their roster number is — the "Session 19"
-episode-ledger batch (roster9/10-ish) is arguably more rigorous in
-per-row citation than several later cycles. The one lineage-level
-structural difference that's real: **roster1+2 (34 people, 27% of the
-eligible cohort) carry no candidate JSON and are invisible to
-`checkScoringLockIntegrity.ts`** — a tooling-coverage gap, not a proven
-quality gap (only 1 of the 3 fully-read roster1/2 sample profiles,
-Kurosawa, showed an actual defect).
+**E. Does evidence quality differ strongly by roster lineage?** Yes, and
+now sharply, mechanically bounded rather than a soft impression: the
+roster1/roster2 lineage (34 of 127 eligible, 27%) has a **structural,
+row-level documentation gap** — not just a missing-JSON-file tooling gap,
+but literally no per-row rationale for its base attributes. Every other
+sampled lineage (roster3-16, 11 people/249 rows in this sample) shows
+quality comparable to or exceeding the current evidence_approved
+controls.
 
-**F. Does evidence quality differ strongly by era/domain?** Yes,
-predictably and mostly honestly-handled: ancient/medieval figures rest on
-secondhand corpus/interpretation (confidence self-capped in 2 of 3 sampled
-cases) rather than eyewitness corroboration; low-personal-documentation
-athletic figures show more outcome-based inference. This is a real,
-inherent evidentiary constraint of the source record, not a project
-defect, and it affects the controls too (Pelé).
+**F. Does evidence quality differ strongly by era/domain?** Secondary to
+lineage. Within the candidate-JSON-backed sample, ancient/medieval
+figures (Aristotle, Hildegard) and low-personal-documentation domains
+(athletics — Pelé, in the controls) show more `attribution_uncertain`/
+`outcome_based_inference` rows, but at a modest rate (§6D's 2.0%+1.6%),
+and the scorers' own rationale text is consistently honest about it.
 
 **G. Is `eligibility_v2` mainly measuring evidence breadth, or partly
-encoding legacy scoring-density differences?** **Mainly breadth** — and
-that breadth correlates with how much research time/how many episodes
-were banked *before* scoring in a given cycle, which varied a lot by
-cycle (Session 19's 25-45-episode locked ledgers vs. Roster18-23's
-2-source-cap arc that structurally topped out at 8-19 scored attributes
-for *any* candidate regardless of how well-documented they were), not
-with a uniform "old cycles were lax" pattern. This directly reinforces
-the PR #17 calibration audit's own `GATE_MISALIGNMENT_PROVISIONAL`
-finding rather than contradicting it.
+encoding legacy scoring-density differences?** Mainly breadth (§2), and
+that breadth is *not* the same thing as the row-level documentation gap
+found in §6 — they are two independent axes. A roster1/2 person's base
+rows contribute to their high scored-attribute *count* (driving
+`eligibility_v2` admission) despite having no stated per-row rationale.
+This means `eligibility_v2`'s breadth measurement is, for those 34
+people specifically, resting on undocumented rows — a real, separate
+finding from the PR #17 calibration audit's breadth-vs-quality point,
+and arguably more actionable.
 
 ## 8. Known limitations of this audit
 
-- The row-audit classification (§6) is a careful qualitative read against
-  each file's own cited sources, not an independent mechanical
-  fact-check against primary sources for all ~330 rows — full primary
-  re-verification of every row was out of scope (`no new research`, `max
-  2 concurrent external lookups`) and was not attempted.
+- The row-classification ledger (§6) is a careful, criteria-based read of
+  each row's own existing rationale text (or its absence) — not an
+  independent mechanical fact-check against primary sources for all 484
+  rows. Full primary re-verification was out of scope (`no new research`,
+  `max 2 concurrent external lookups`) and was not attempted.
+- Classification judgment calls are disclosed per-row (`note` field in
+  the ledger) for every non-`supported_as_written` row; a different
+  auditor could draw some individual lines differently, but the dominant
+  finding (the roster1/2 no-rationale gap, 145 of 146
+  `unsupported_from_available_provenance` rows) does not depend on any
+  judgment call — it is a structural fact about the source files.
 - The archived 19-session `roster-1000-checkpoint.md` narrative
   (sessions 1-9, before `eligibility_v2` existed) was not opened; the
-  chronology in §3 relies on `roster.md`'s own distilled summary of it,
-  per that file's explicit "only open it to resolve a specific historical
-  methodology question" guidance.
-- 34 people have no candidate JSON at all (§2); this audit read 3 of them
-  in full (Ada Lovelace, Alan Turing, Benjamin Franklin — all from the
-  frozen 16) plus Akira Kurosawa and Confucius. The other ~29 were not
-  individually row-audited.
+  chronology in §3 relies on `roster.md`'s own distilled summary of it.
+- 34 people have no candidate JSON at all (§2); this audit row-audited 5
+  of them (Ada Lovelace, Akira Kurosawa, Benjamin Franklin, Alan Turing,
+  Confucius). The other 29 were not individually re-audited, though the
+  base-rows-have-no-rationale structural fact is a property of the
+  seed-file format itself (verified for all 5 sampled, and by inspection
+  the same literal structure — bare `[score, confidence, code, code]`
+  tuples with no per-row comment — is used throughout `seed.ts`/
+  `roster2.ts` for every person's original ~30 rows), so it plausibly
+  generalizes to the other 29, but this was not individually confirmed
+  for each of them.
+- **The candidate-pipeline lineage's clean result (§6D, 94.4% SAW) covers
+  only 11 of the 93 candidate-pipeline-backed eligible people (12%)** —
+  see §9 for how this bounds the conclusion.
 
 ## 9. Conclusion
 
 **`MATCH_POOL_MIXED`.**
 
-- **Trustworthy as a reference without further action**: the
-  candidate-pipeline lineage (roster3-32, 93 of 127 eligible people, 73%)
-  — evidence quality is comparable to or exceeds the current
-  evidence_approved controls, with the historical session-11 incident
-  (roster8) already caught, reverted, and tooled against.
-- **Needs a targeted future re-audit, not a blanket one**: the 34-person
-  roster1+2 hand-authored slice with zero `checkScoringLockIntegrity.ts`
-  coverage — starting from single-source, high-confidence profiles like
-  Akira Kurosawa, which is the one concrete defect this audit actually
-  found.
-- **A real, separate calibration point** (not a new finding — it
-  reinforces PR #17's own prior conclusion): `eligibility_v2` measures
-  breadth more than per-row quality, and breadth is sensitive to how much
-  a given research cycle banked before scoring. This argues against
-  pushing new candidates to imitate legacy row-*count*, not against the
-  gate's honesty.
+- **Concrete, mechanically-confirmed defect**: the roster1/roster2
+  hand-authored lineage (34 of 127 eligible people, 27%) has a real
+  row-level documentation gap — their base attributes carry no
+  reconstructable per-row rationale in the repository at all (§6, §7E).
+  This is a provenance/documentation defect, not evidence that the
+  underlying historical claims are false (Ada Lovelace's, Alan Turing's,
+  and Benjamin Franklin's `taxonomy_v1.1` addition rows, which DO carry
+  rationale, are well-supported; Akira Kurosawa specifically has zero
+  such additions, so none of his 30 rows carry any rationale at all,
+  making him the single most-exposed profile in the sample — but this
+  reflects an absence of stated justification, not a demonstrated
+  factual error in what's scored).
+- **No systemic drift found in the candidate-pipeline lineage sample**:
+  11 of 16 sampled eligible people (roster3-16) score 94.4%
+  `supported_as_written`, exceeding the 8 recent controls' 85.2% (§6D).
+- **This does not prove all 93 candidate-pipeline-backed eligible people
+  are clean** — only 11 of them (12%) were individually row-audited here.
+  There is no basis in this audit for blanket remediation of that
+  93-person population, but there is also no evidence of a problem in it;
+  the honest position is "no systemic drift detected in the sample,
+  unaudited population not individually re-verified."
+- The breadth-vs-quality distinction from the mechanical inventory (§2,
+  §7G) is a real, separate, already-partially-known calibration point
+  (reinforcing PR #17's prior `GATE_MISALIGNMENT_PROVISIONAL`), not a new
+  integrity violation.
 
 ## 10. Recommendation for the next cycle
 
-Per §17's mixed-result branch: do not blanket-distrust the eligible pool,
-and do not resume eligibility-targeted research on new candidates as the
-next default move either. Two independent, low-risk next steps, either of
-which could be Roster33's actual scope (a decision for the user, not
-pre-empted here):
+Per the mixed-result branch: do not blanket-distrust the eligible pool
+(the candidate-pipeline majority checks out), and do not resume
+eligibility-targeted research on new candidates as the next default move
+either. Two concrete, bounded next steps — a decision for the user, not
+pre-empted here:
 
-1. A narrow **legacy re-audit** of the 34 roster1/2 hand-authored people
-   — starting with any other single-source entries like Kurosawa — to
-   either confirm them or bring them under `checkScoringLockIntegrity.ts`
-   coverage (e.g., by giving them real candidate JSON files without
-   changing any score).
+1. **Targeted legacy remediation** for the roster1/roster2 34-person
+   lineage: write down the actual per-row justification for their
+   existing (unchanged) scores — starting with Akira Kurosawa, the one
+   profile in this sample with literally zero rationale on any row — and
+   bring them under `checkScoringLockIntegrity.ts` coverage (e.g. real
+   candidate JSON files), without altering any score, confidence, or
+   evidenceType value. This directly closes the concrete gap this audit
+   found, rather than a general "re-audit everything" mandate.
 2. If new evidence-maturation work is preferred instead, Arts & Culture
    and Building & Discovery remain the honest ceiling per Roster31/32's
-   own finding (Group-B/zero-politics exclusion leaves few viable
-   candidates there) — but per §7(G), that work should target genuinely
-   under-researched people, not re-litigate whether already-`evidence_approved`
-   profiles like this cycle's 8 controls "deserve" more rows.
+   own finding — but per §7(G)/§9, that work should target genuinely
+   under-researched people, not re-litigate whether the 8 controls in
+   this audit "deserve" more rows; they already check out well.

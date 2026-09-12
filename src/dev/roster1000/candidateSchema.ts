@@ -194,17 +194,20 @@ export interface Candidate {
   portrait?: CandidatePortraitStatus;
   localization?: CandidateLocalization;
 
-  /** Required when status is "held". Why this candidate is paused — either
-   *  a numeric `eligibility_v2` shortfall (e.g. "18 scored attributes,
-   *  coverage 0.58 — short of the 0.6 floor; needs a source with more
-   *  behavioral detail") or, independently, a publication-quality/evidence
-   *  concern that blocks even a non-match-eligible publication (e.g.
-   *  "individual behavioral attribution remains too uncertain to approve
-   *  for publication; needs stronger source support"). These are separate
-   *  gates — see docs/checkpoints/profile-publication-vs-match-eligibility.md:
-   *  a candidate can honestly fail `eligibility_v2` and still be
-   *  publication-ready (promote via `evidence_approved`), or pass its
-   *  numbers and still have a publication-blocking defect. */
+  /** Required when status is "held". Why this candidate is NOT YET
+   *  evidence_approved / publication-safe — an evidence-quality concern,
+   *  e.g. attribution uncertainty, an unresolved factual/source-integrity
+   *  issue, a profile too misleadingly narrow to publish responsibly,
+   *  insufficient individually-attributable behavioral evidence, an
+   *  identity/provenance problem, or another unresolved evidence-quality
+   *  defect. See docs/checkpoints/profile-publication-vs-match-eligibility.md:
+   *  publication approval and `eligibility_v2` are independently computed,
+   *  so a numeric `eligibility_v2` shortfall ALONE is a MATCH diagnostic
+   *  to record separately (e.g. once assessed, in `provenance.notes`) —
+   *  never by itself the reason a publication-ready candidate stays
+   *  `held`. A candidate whose evidence is otherwise publication-safe but
+   *  merely narrow should be promoted via `evidence_approved`, not kept
+   *  `held` on breadth alone. */
   holdReason?: string;
   /** Required when status is "rejected". Why this candidate will not be
    *  included — e.g. "primary distinction is an inherited title;
