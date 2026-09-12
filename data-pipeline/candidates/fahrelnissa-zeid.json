@@ -61,22 +61,28 @@
       "kind": "institution",
       "title": "The Estate of Fahrelnissa Zeid's own biography",
       "url": "https://www.fahrelnissazeid.org/bio"
-    }
+    },
+    { "id": "src_zeid_artnewspaper", "kind": "press", "title": "\"Fahrelnissa Zeid: the modern Turkish artist who walked on her canvases\", The Art Newspaper (Emily Sharpe, 2017)", "url": "https://www.theartnewspaper.com/2017/06/11/fahrelnissa-zeid-the-modern-turkish-artist-who-walked-on-her-canvases" },
+    { "id": "src_zeid_hyperallergic", "kind": "press", "title": "\"Once Forgotten, the Work of an Illustrious Princess Painter Returns to Istanbul\", Hyperallergic (Ayla Jean Yackley, 2018)", "url": "https://hyperallergic.com/465170/once-forgotten-the-work-of-an-illustrious-princess-painter-returns-to-istanbul/" },
+    { "id": "src_zeid_anothermag", "kind": "press", "title": "\"The Iraqi Princess Who Turned The Art World Upside Down\", AnOther Magazine (2017)", "url": "https://www.anothermag.com/art-photography/9913/the-iraqi-princess-who-turned-the-art-world-upside-down" },
+    { "id": "src_zeid_mathaf", "kind": "institution", "title": "Mathaf Encyclopedia of Modern Art and the Arab World -- Fahrelnissa Zeid biography", "url": "https://mathaf.org.qa/en/encyclopedia/artists-biographies/fahrelnissa-zeid/" },
+    { "id": "src_zeid_asianart", "kind": "press", "title": "\"Fahrelnissa Zeid\", Asian Art Newspaper (Juliet Highet, 2017)", "url": "https://asianartnewspaper.com/fahrelnissa-zeid/" },
+    { "id": "src_zeid_stambouline", "kind": "archive", "title": "\"Fahrelnissa Zeid's Lost Portrait of Donald Trump\", Stambouline research blog, citing Şirin Devrim's family memoir and Tate Modern archival research (Nergis Abıyeva, 2020)", "url": "http://www.stambouline.info/2020/11/fahrelnissa-zeids-lost-portrait-of.html" }
   ],
   "rows": {
     "creative_originality": {
       "score": 80,
-      "confidence": 0.62,
+      "confidence": 0.68,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Two independent documented stylistic developments: a deliberate pivot from prolific expressionist figurative painting to full abstraction in 1948, and a subsequent development of mural-sized, kaleidoscopic-pattern paintings that art historians describe as foreshadowing Op-art."
+      "rationale": "Three independent documented stylistic/scale developments: a deliberate pivot from prolific expressionist figurative painting to full abstraction in 1948, subsequent mural-sized kaleidoscopic-pattern paintings art historians describe as foreshadowing Op-art, and [NEW_EVIDENCE, Roster32] her 1954 ICA London canvas 'Towards a Sky', painted at a scale that required roughly a third of it to be rolled up to fit under the gallery's ceiling -- ambition of scale that outran available venues rather than being adjusted to fit them."
     },
     "adaptability": {
       "score": 74,
-      "confidence": 0.58,
+      "confidence": 0.64,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Sustained an active exhibiting art career across at least four distinct countries within a compressed period: as a diplomat's wife in Berlin (1935), after a politically-forced relocation to Baghdad following the 1938 Austrian Anschluss, then establishing herself in Paris and London (both from the mid-1940s) -- genuinely varied geographic and social contexts each requiring real adaptation."
+      "rationale": "Sustained an active exhibiting art career across at least four distinct countries within a compressed period (Berlin 1935, forced relocation to Baghdad after 1938, then Paris and London from the mid-1940s). [NEW_EVIDENCE, Roster32] After losing the family's Baghdad embassy residence and King Faisal II's 1958 assassination forced permanent exile to a modest rented London flat, she stopped painting for a period, then deliberately returned to work as a coping response, experimenting with new mixed media (including bone sculpture tied to a newly developed interest in cooking) rather than either replacing her lost materials outright or abandoning practice."
     },
     "persistence": {
       "score": 68,
@@ -86,11 +92,11 @@
       "rationale": "Sustained an active painting career across roughly five decades and multiple countries, including through a documented period of near-total erasure from mainstream Western post-war art history, before receiving major institutional recognition decades later (her first Western retrospective at Museum Ludwig in 1990, and a major Tate Modern retrospective in 2017)."
     },
     "proactive_agency": {
-      "score": 66,
-      "confidence": 0.48,
+      "score": 74,
+      "confidence": 0.75,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Personally founded the Fahrelnissa Zeid Institute of Fine Arts in Amman, Jordan, in the mid-1970s, a self-initiated institution-building act late in her career rather than continuing only as an individual practicing artist."
+      "rationale": "[NEW_EVIDENCE, Roster32] Two independent, multi-source-corroborated instances of bypassing institutional gatekeeping to create her own opportunities, three decades apart: in 1945, frustrated by a lack of gallery interest, she cleared the parlor rooms of her own Istanbul apartment and staged an unsanctioned solo exhibition there herself (corroborated across Tate, Mathaf, and AnOther); in the mid-1970s she personally founded the Fahrelnissa Zeid Institute of Fine Arts in Amman, a self-initiated teaching institution with named students, culminating in a joint public exhibition in 1981."
     },
     "curiosity": {
       "score": 58,
@@ -98,6 +104,48 @@
       "evidenceType": "inference",
       "impact": "neutral",
       "rationale": "Traveled extensively through Europe in the 1920s specifically to visit museums and make sketches, a single documented instance of self-directed artistic research."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[NEW_EVIDENCE, Roster32] Two independent accounts describe the same absorbed working state: a Tate conservator who treated her paintings reports she entered 'a trance-like state while painting, emerging hours later exhausted with no memory of what had occurred around her,' and, independently, her son recalled watching her execute the 5-metre 'Break of the Atom and Vegetal Life' at 'an amazing pace' while 'in a state of trance.'"
+    },
+    "perfectionism": {
+      "score": 30,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "[NEW_EVIDENCE, Roster32] The same Tate conservator who treated her paintings assessed that she 'was not the most meticulous painter and did not always bother to finish things like other artists,' calling the work 'more spontaneous' -- and, independently, a curator's account of canvases tacked directly to walls and ceilings and walked over as party decor shows comparable unconcern for precious, careful finishing of completed work."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32] In her mid-70s she founded and ran a home-based teaching institute in Amman for adult students who had mostly never painted before, built around a distinctive, self-articulated philosophy quoted identically across two independent publications: telling students to 'forget what you know... because what you do not know is what you really are' -- notably teaching abstraction even though her own late-career practice had returned to figurative portraiture."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32] As a teenager in the 1920s, before any formal art training, she sold hand-painted postcards to fund her own art materials -- early self-sufficiency pursued independently of her family's means."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "[NEW_EVIDENCE, Roster32] Commissioned around 1989-90 to paint a portrait of Donald Trump from a supplied photograph, she rendered it according to her own aesthetic instincts -- unconventional styling and prominent Arabic lettering of his name -- rather than accommodating the client's evident preferences; he objected in writing in March 1990. (One secondary account frames her, rather than him, as the one who proposed the portrait -- this detail is unresolved, but does not affect the core fact that the finished work reflected her own artistic choices over client deference.)"
+    },
+    "intuitive_synthesis": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster32] She described her first flight over Baghdad as physically reframing her entire visual sense -- seeing a whole city held in view at once -- as the specific experience she credited with turning her toward abstraction, a discrete sensory event she herself identified as conceptually causal for her later practice."
     }
   },
   "doNotCopyKeys": [],
@@ -108,7 +156,7 @@
     "createdAt": "2026-08-19T00:00:00Z",
     "updatedAt": "2026-08-19T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (art) and West Asia regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q3064473) before any research began. A factual evidence ledger (13 distinct episodes) was built and locked before any trait score was assigned. One source described a period of \"severe depression\" in Baghdad for which \"her main therapy was art\" -- this is NOT used as evidence for any row; only the concrete, external, non-diagnostic fact that she relocated to Paris to continue her art practice is scored, per CLAUDE.md's Safety section against inferring or building on mental-illness characterizations. Scoring was locked BEFORE eligibility_v2 was consulted."
+    "notes": "Roster-1000 session 14 (blind calibration experiment): fresh candidate, selected for domain breadth (art) and West Asia regional representation before any research or eligibility inspection -- see docs/roster-1000-checkpoint.md Sec.80. Identity verified live against Wikidata (Q3064473) before any research began. A factual evidence ledger (13 distinct episodes) was built and locked before any trait score was assigned. One source described a period of \"severe depression\" in Baghdad for which \"her main therapy was art\" -- this is NOT used as evidence for any row; only the concrete, external, non-diagnostic fact that she relocated to Paris to continue her art practice is scored, per CLAUDE.md's Safety section against inferring or building on mental-illness characterizations. Scoring was locked BEFORE eligibility_v2 was consulted. Roster32 (2026-09): bounded new-research pass added 6 sources and 6 new rows plus 3 NEW_EVIDENCE upgrades to existing rows (creative_originality, adaptability, proactive_agency); a separately-reported suicide attempt and a family-violence detail (brother/father) surfaced during this pass were both deliberately excluded from scoring -- the first as private-health content this project's rubric forbids inferring from, the second as an action not performed by Zeid herself. See docs/checkpoints/roster32-evidence-deepening-balance-cycle.md for the full ledger."
   },
-  "holdReason": "Roster-1000 session 14 (blind calibration experiment): eligibility_v2 result after a locked, source-grounded scoring pass (a full factual evidence ledger built and locked before any trait score was assigned; eligibility_v2 run exactly once, across the full 15-person cohort together, with no row modified afterward). 5 scored attributes (need 18); coverage 0.159 (need 0.6); HC count 3/12; HC average 0.567 (PASSES this sub-requirement)."
+  "holdReason": "Roster32 evidence-deepening cycle: research budget (6 sources, ~1 hour) applied to this cycle's thinnest candidate. Row count raised 5->11, most rows now at or above the eligibility_v2 high-confidence threshold. Still well short of the 18-attribute floor and 0.6 coverage -- this was the thinnest-evidenced held candidate in the entire pool going in, and one bounded research pass credibly deepens but cannot fully close a 13-attribute gap. Two flagged contradictions in the new sourcing (who initiated the Trump-portrait commission; an unverified exact painting count in the 1945 exhibition) did not end up load-bearing for any scored row. Held, not rejected -- genuinely richer than before, a strong candidate for a future cycle's continued research."
 }

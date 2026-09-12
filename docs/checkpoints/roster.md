@@ -688,7 +688,9 @@ raises the target.
   Full record:
   [`roster28-fifteen-person-fast-batch.md`](roster28-fifteen-person-fast-batch.md).
 - **Roster31: fourteen-person zero-politics production batch (2026-09,
-  `feat/roster31-fifteen-person-zero-politics-batch`, unmerged)**: same
+  `feat/roster31-fifteen-person-zero-politics-batch`, merged to `main` as PR
+  #32 after a pre-merge test-maintenance correction, merge commit
+  `dec7e16faec6904f7ed7f76788c924c0ec420eba`)**: same
   mechanical-intake discipline, continuing Roster30's zero-politics
   constraint. Linus Pauling, Robert Falcon Scott, Luis Alvarez, Ahmed
   Zewail, Gregor Mendel, Emilio Segrè, Taha Hussein, Sofia Kovalevskaya,
@@ -709,3 +711,20 @@ raises the target.
   untouched. Roster: **218 total / 217 default-directory-visible / 127
   match-eligible**. Full record:
   [`roster31-fifteen-person-zero-politics-batch.md`](roster31-fifteen-person-zero-politics-batch.md).
+
+- **Roster32: evidence-deepening + match-pool-balance cycle (2026-09,
+  `feat/roster32-evidence-deepening-balance-cycle`, unmerged)**: deliberately
+  NOT a publication batch -- deepened 8 existing `held` candidates (1
+  Building & Discovery + 7 Arts & Culture, the honest ceiling the held pool
+  supports after Group-B/zero-politics exclusion left exactly one viable B&D
+  candidate) with new, bounded, source-grounded research: Pelé, Fahrelnissa
+  Zeid, Virginia Woolf, Matsuo Bashō, James Baldwin, Al-Farabi, George
+  Bernard Shaw, Pablo Neruda. **Zero politics/state/military/
+  activist-primary (0/8).** Row counts roughly doubled for most candidates;
+  Shaw and Neruda are now the closest-to-eligible held candidates in the
+  pool but neither was promoted this cycle. A factual-gate re-check against
+  a primary source caught and corrected a real misattribution in Bashō's
+  draft evidence before staging. **All 8 remain held; zero newly
+  match-eligible; production/directory-visible/match-eligible unchanged at
+  218/217/127.** Full record:
+  [`roster32-evidence-deepening-balance-cycle.md`](roster32-evidence-deepening-balance-cycle.md).
