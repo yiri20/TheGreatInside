@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { AttributeId } from "../attributes/attributes.js";
 import { SEED_PEOPLE } from "../../data/people/seed.js";
+import { personDisplayName } from "../i18n/index.js";
 import {
   availableFilterOptions,
   explorePeople,
@@ -362,6 +363,127 @@ describe("sortPeople", () => {
   });
 });
 
+/**
+ * People Directory locale-aware name sort fix: `name_asc`/`name_desc` used
+ * to sort by `canonicalName` unconditionally, so a ko-KR Directory visually
+ * showing Korean names (via `personDisplayName()`) actually ordered them by
+ * their hidden English canonical identity. `NameSortContext` lets a caller
+ * (PeopleDirectoryClient) supply the resolved display name + locale;
+ * omitting it must reproduce the exact prior behavior.
+ *
+ * The 5-person fixture below is real roster data, not synthetic — chosen
+ * because their English canonicalName order and authored Korean
+ * personDisplayName order are independently verified (see the sanity test)
+ * to be genuinely different permutations, so a test asserting the fixed
+ * order cannot accidentally also pass under the old canonicalName-based
+ * algorithm.
+ */
+describe("sortPeople with a NameSortContext (locale-aware Directory name sort)", () => {
+  const KO_DIVERGENT_SLUGS = ["confucius", "benjamin-franklin", "yi-sun-sin", "zheng-he", "genghis-khan"];
+  const fixture = KO_DIVERGENT_SLUGS.map((slug) => SEED_PEOPLE.find((p) => p.slug === slug)!);
+  const koNameSort = { locale: "ko-KR", displayNameFor: (p: (typeof fixture)[number]) => personDisplayName("ko-KR", p) };
+  const enNameSort = { locale: "en-US", displayNameFor: (p: (typeof fixture)[number]) => personDisplayName("en-US", p) };
+
+  it("fixture sanity: English canonicalName order and Korean display-name order are genuinely different permutations", () => {
+    expect(fixture).toHaveLength(KO_DIVERGENT_SLUGS.length);
+    const enOrder = [...fixture].sort((a, b) => a.canonicalName.localeCompare(b.canonicalName)).map((p) => p.slug);
+    const koOrder = [...fixture]
+      .sort((a, b) => new Intl.Collator("ko-KR").compare(personDisplayName("ko-KR", a), personDisplayName("ko-KR", b)))
+      .map((p) => p.slug);
+    expect(koOrder).not.toEqual(enOrder);
+  });
+
+  it("with no nameSort context, default behavior is unchanged: sorts by canonicalName (backward compatible)", () => {
+    const withoutContext = sortPeople(SEED_PEOPLE, "name_asc").map((p) => p.id);
+    const explicitCanonicalOrder = [...SEED_PEOPLE]
+      .sort((a, b) => a.canonicalName.localeCompare(b.canonicalName) || a.id.localeCompare(b.id))
+      .map((p) => p.id);
+    expect(withoutContext).toEqual(explicitCanonicalOrder);
+  });
+
+  it("en-US: localized display-name ascending is plain English alphabetical order for this fixture", () => {
+    const sorted = sortPeople(fixture, "name_asc", enNameSort).map((p) => p.slug);
+    expect(sorted).toEqual(["benjamin-franklin", "confucius", "genghis-khan", "yi-sun-sin", "zheng-he"]);
+  });
+
+  it("en-US: localized display-name descending is the exact reverse", () => {
+    const asc = sortPeople(fixture, "name_asc", enNameSort).map((p) => p.slug);
+    const desc = sortPeople(fixture, "name_desc", enNameSort).map((p) => p.slug);
+    expect(desc).toEqual([...asc].reverse());
+  });
+
+  it("ko-KR: ascending follows 가나다 order on the authored Korean display name, NOT English canonicalName order", () => {
+    const sorted = sortPeople(fixture, "name_asc", koNameSort).map((p) => p.slug);
+    // 공자(Confucius) < 벤저민 프랭클린(Benjamin Franklin) < 이순신(Yi Sun-sin)
+    // < 정화(Zheng He) < 칭기즈 칸(Genghis Khan) — verified directly against
+    // Intl.Collator("ko-KR"), not hand-derived.
+    expect(sorted).toEqual(["confucius", "benjamin-franklin", "yi-sun-sin", "zheng-he", "genghis-khan"]);
+    const canonicalNameOrder = [...fixture].sort((a, b) => a.canonicalName.localeCompare(b.canonicalName)).map((p) => p.slug);
+    expect(sorted, "must not silently follow the hidden English canonicalName order").not.toEqual(canonicalNameOrder);
+  });
+
+  it("ko-KR: descending is the exact reverse of ko-KR ascending", () => {
+    const asc = sortPeople(fixture, "name_asc", koNameSort).map((p) => p.slug);
+    const desc = sortPeople(fixture, "name_desc", koNameSort).map((p) => p.slug);
+    expect(desc).toEqual([...asc].reverse());
+  });
+
+  it("the displayNameFor projection actually drives order, overriding canonicalName", () => {
+    // Two synthetic people whose canonicalName order is the OPPOSITE of the
+    // order their projected display name implies — proves sortPeople reads
+    // the projection, not person.canonicalName.
+    const a = { ...SEED_PEOPLE[0]!, id: "synthetic-a", canonicalName: "Zzz Canonical" };
+    const b = { ...SEED_PEOPLE[1]!, id: "synthetic-b", canonicalName: "Aaa Canonical" };
+    const displayNames = new Map([
+      [a.id, "Alpha Display"],
+      [b.id, "Beta Display"],
+    ]);
+    const sorted = sortPeople([a, b], "name_asc", { displayNameFor: (p) => displayNames.get(p.id)! });
+    expect(sorted.map((p) => p.id)).toEqual(["synthetic-a", "synthetic-b"]);
+  });
+
+  it("tie fallback (id) still applies when two people resolve to an identical display name", () => {
+    const a = { ...SEED_PEOPLE[0]!, id: "zzz-tie", canonicalName: "irrelevant" };
+    const b = { ...SEED_PEOPLE[1]!, id: "aaa-tie", canonicalName: "irrelevant" };
+    const sorted = sortPeople([a, b], "name_asc", { displayNameFor: () => "Same Name" });
+    expect(sorted.map((p) => p.id)).toEqual(["aaa-tie", "zzz-tie"]);
+  });
+
+  it("birth-year sorting is unaffected by a nameSort context", () => {
+    const withoutContext = sortPeople(SEED_PEOPLE, "birth_year_asc").map((p) => p.id);
+    const withContext = sortPeople(SEED_PEOPLE, "birth_year_asc", koNameSort).map((p) => p.id);
+    expect(withContext).toEqual(withoutContext);
+  });
+
+  it("confidence sorting is unaffected by a nameSort context", () => {
+    const withoutContext = sortPeople(SEED_PEOPLE, "confidence_desc").map((p) => p.id);
+    const withContext = sortPeople(SEED_PEOPLE, "confidence_desc", koNameSort).map((p) => p.id);
+    expect(withContext).toEqual(withoutContext);
+  });
+
+  /**
+   * Whole-roster mechanical guard (grows with the roster, per CLAUDE.md
+   * workflow docs — mirrors the equivalent Playwright DOM-level check in
+   * e2e/peopleDirectory.spec.ts, but here against the full live SEED_PEOPLE
+   * set rather than just what one page renders).
+   */
+  it("mechanical whole-roster guard: ko-KR name_asc is non-descending under Intl.Collator('ko-KR') for every adjacent pair", () => {
+    const sorted = sortPeople(SEED_PEOPLE, "name_asc", koNameSort);
+    const collator = new Intl.Collator("ko-KR");
+    for (let i = 1; i < sorted.length; i++) {
+      const prevName = personDisplayName("ko-KR", sorted[i - 1]!);
+      const curName = personDisplayName("ko-KR", sorted[i]!);
+      expect(collator.compare(prevName, curName), `"${prevName}" should not sort after "${curName}"`).toBeLessThanOrEqual(0);
+    }
+  });
+
+  it("mechanical whole-roster guard: ko-KR name_desc is the exact reverse of ko-KR name_asc", () => {
+    const asc = sortPeople(SEED_PEOPLE, "name_asc", koNameSort).map((p) => p.id);
+    const desc = sortPeople(SEED_PEOPLE, "name_desc", koNameSort).map((p) => p.id);
+    expect(desc).toEqual([...asc].reverse());
+  });
+});
+
 describe("explorePeople", () => {
   it("composes search, filter and sort in order", () => {
     const result = explorePeople(SEED_PEOPLE, {
@@ -377,6 +499,17 @@ describe("explorePeople", () => {
   it("defaults to every match-eligible person sorted by name", () => {
     const result = explorePeople(SEED_PEOPLE);
     expect(result).toHaveLength(SEED_PEOPLE.filter((p) => p.isMatchEligible).length);
+  });
+
+  it("passes nameSort through to sortPeople — the exact call shape PeopleDirectoryClient uses", () => {
+    const koFixtureSlugs = ["confucius", "benjamin-franklin", "yi-sun-sin", "zheng-he", "genghis-khan"];
+    const result = explorePeople(SEED_PEOPLE, {
+      filter: { matchEligibleOnly: false, directoryVisibleOnly: false },
+      sort: "name_asc",
+      nameSort: { locale: "ko-KR", displayNameFor: (p) => personDisplayName("ko-KR", p) },
+    });
+    const orderOfFixture = result.map((p) => p.slug).filter((slug) => koFixtureSlugs.includes(slug));
+    expect(orderOfFixture).toEqual(["confucius", "benjamin-franklin", "yi-sun-sin", "zheng-he", "genghis-khan"]);
   });
 });
 

@@ -134,7 +134,20 @@ export function PeopleDirectoryClient({ locale }: { locale: Locale }) {
     [era, region, fieldIds, traitScoreGroups],
   );
 
-  const results = useMemo(() => explorePeople(people, { query, filter, sort }), [people, query, filter, sort]);
+  // Directory cards render `personDisplayName(locale, person)` (see the
+  // PersonCard `name` prop below) — sorting must use that same resolved
+  // string, never the hidden `canonicalName`, or a Korean-locale Directory
+  // would visually show Korean names ordered by their invisible English
+  // identity. See explorer.ts's `NameSortContext` doc comment.
+  const nameSort = useMemo(
+    () => ({ locale, displayNameFor: (person: (typeof people)[number]) => personDisplayName(locale, person) }),
+    [locale],
+  );
+
+  const results = useMemo(
+    () => explorePeople(people, { query, filter, sort, nameSort }),
+    [people, query, filter, sort, nameSort],
+  );
 
   const isFiltered =
     query.trim() !== "" || era !== ALL_VALUE || region !== ALL_VALUE || fieldIds.length > 0 || traitIds.length > 0;
