@@ -427,14 +427,20 @@ matching yet" copy. No console errors on any of the three.
 Because `checkScoringLockIntegrity.ts` determines "previously committed"
 status via `git show HEAD:<candidate-path>`, the three new candidate files
 only count once the implementation commit exists. §15's pre-commit figure
-(284) is therefore not the number to report as final. **After the
-implementation commit, re-run the checker against the actual committed
-HEAD and report its literal output before opening the PR** -- this
-section is completed with that literal output once the commit exists (see
-the PR body / final report for the actual post-commit numbers; this
-checkpoint's own copy is updated in the same commit that creates it,
-consistent with how PR #38's auditability correction handled the same
-mechanic).
+(284) was therefore not the number to report as final. Re-run against the
+actual committed HEAD (`a338cc3774c15accca564fadb21c39fe494beabc`), the
+checker's exact literal output is:
+
+```
+Checked 287 previously-committed candidate file(s) against HEAD. 0 flagged.
+Legacy scoring lock: 25 pre-pipeline production people covered, 0 flagged.
+```
+
+287 = the pre-commit 284 + this cycle's 3 new candidate files, now
+themselves committed. 25 matches the legacy-baseline figure in §11 and
+§15 exactly (same regeneration, no drift). Applied via a small, docs-only
+follow-up commit to this file, per this cycle's own task instructions --
+no behavioral work reopened.
 
 ## 17. Remaining legacy cohort (25 people, unaudited, not defective)
 
