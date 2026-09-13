@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "toni-morrison",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Toni Morrison",
+    "wikidataId": "Q72334",
+    "birthYear": 1931,
+    "deathYear": 2019,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["writer", "editor"],
+    "fieldIds": ["literature"],
+    "impactDomains": ["literary", "cultural"],
+    "tagIds": ["nobel_laureate", "independent"],
+    "archetypeIds": ["creative_creator", "independent_creator"]
+  },
+  "sources": [
+    { "id": "src_morrison_wikipedia", "kind": "wikipedia", "title": "Toni Morrison", "url": "https://en.wikipedia.org/wiki/Toni_Morrison" },
+    { "id": "src_morrison_paris_review", "kind": "press", "title": "Toni Morrison, \"The Art of Fiction No. 134\", The Paris Review (1993) -- her own words, primary" },
+    { "id": "src_morrison_toni_at_random", "kind": "biography", "title": "Dana A. Williams, Toni at Random: The Iconic Writer's Legendary Editorship -- independent account drawing on Random House archives, quoting her own editorial letters" }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her own words: \"There's a line between revision and fretting... when you are fretting it because it is not working, it needs to be scrapped\" -- a specific, reasoned standard for distinguishing productive revision from unproductive over-working (Paris Review)."
+    },
+    "discipline": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Wrote her debut novel The Bluest Eye (1970) while working full-time and raising two children alone, rising at 4am to write before the day's other demands (pre-existing finding, re-verified)."
+    },
+    "deep_focus": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Her own words: \"I've tried to overcome not having orderly spaces by substituting compulsion for discipline... when something is urgently there... I would move everything aside and write for sustained periods of time\" (Paris Review)."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "As an editor, gave Lucille Clifton a specific, precise suggestion to cut a particular stanza from \"To Ms. Ann,\" identifying exactly how it undermined the poem's sophistication (Williams, quoting Morrison's own editorial letters)."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued June Jordan's poetry through months of negotiation and a real communication breakdown to a successful multibook contract; sustained a decades-long editorial career championing overlooked authors (Williams)."
+    },
+    "decisiveness": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Cut through a stalled negotiation with June Jordan via a direct four-page letter stating plainly \"Random House... are not at all interested in publishing your poetry. I am\" (Williams, quoting the letter)."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained real, productive editorial relationships with multiple authors (Clifton, Bambara, Jones) alongside genuinely difficult ones -- the direct Jordan letter was effective but the two never developed a friendship despite a successful publishing outcome (Williams)."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Secured a 5,000-copy print run for Barbara Chase-Riboud's novel against an expected 1,500 (\"astounded myself\"); built an explicit business case to overcome publisher reluctance to acquire June Jordan's poetry (Williams, quoting her letters)."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sent a blunt, unambiguous letter to June Jordan that Jordan herself found shocking in tone; gave direct, sometimes unwelcome, craft-focused critique in rejection letters rather than vague or evasive feedback (Williams)."
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "A recurring, career-long pattern (not a single incident) of championing unconventional or overlooked Black authors -- Chase-Riboud, Clifton, Jordan, Bambara -- against institutional and commercial resistance at Random House (Williams)."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly prioritized the literary and cultural significance of underrepresented voices over safer commercial bets, documented across several separate acquisition decisions during her Random House career (Williams)."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Actively recruited and championed Black authors and poets beyond her formally assigned editorial duties, including building an unsolicited business case to acquire June Jordan's poetry against publisher reluctance (pre-existing finding, reinforced with new specific instances)."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/toni-morrison-1998.jpg",
+    "width": 1123,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg",
+    "attribution": "John Mathew Smith",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 3 (2026-09-13, docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batch 2 against the 31-person legacy cohort remaining after batches 1-2. Morrison ranked #2 among 31 legacy profiles with risk score 12 (tied): only 1 source cited, 24 high-confidence rows resting on the unsupported original base set, 3 'documented'-tier claims among them, no Wikidata QID, max confidence 0.85 on that single source. New research (her own 1993 Paris Review interview and Dana A. Williams's independent, Random-House-archive-based account of her editorial career) audited all 31 original rows (30 base + 1 taxonomy_v1.1). 12 retained and rescored from the evidence directly, 0 new rows added, 19 removed for lack of individually-attributable, non-duplicative support this cycle (curiosity, intuitive_synthesis, systems_abstraction, independent_thinking, creative_originality, experimentation, cross_domain_range, aesthetic_sensitivity, perfectionism, execution_speed, planning_orientation, adaptability, risk_tolerance, ambiguity_tolerance, social_assertiveness, leadership_drive, mastery_orientation, achievement_drive, competitiveness). creative_originality/intuitive_synthesis/aesthetic_sensitivity/independent_thinking were all high in the original profile reflecting her literary reputation, but this cycle's research (focused on her editorial career and her own process quotes) did not surface a behavioral incident distinct from the acclaimed novels themselves -- removed rather than re-justified from acclaim/output alone, per this project's standing rule. Her son Slade's 2010 death and her documented response to it were read but NOT used as evidence for any row, consistent with this project's standing precedent against inferring personality from tragedy/bereavement. Her Nobel Prize and other awards were likewise not used as row evidence (achievement/outcome, not behavior). Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

@@ -9,7 +9,7 @@ import { hasCandidateFile } from "./matchPoolIntegrityAudit.js";
 import { SUPERSEDED_AUDIT_SLUGS } from "./matchPoolIntegrityAuditManual.js";
 import { LEGACY_SCORING_BASELINE } from "./legacyScoringLock.generated.js";
 
-const TARGETS = ["bruce-lee", "ludwig-van-beethoven", "nikola-tesla"] as const;
+const TARGETS = ["srinivasa-ramanujan", "toni-morrison", "hayao-miyazaki"] as const;
 
 function loadCandidate(slug: string): Candidate {
   return JSON.parse(readFileSync(join(process.cwd(), `data-pipeline/candidates/${slug}.json`), "utf8")) as Candidate;
@@ -23,13 +23,14 @@ const production = Object.fromEntries(
   TARGETS.map((slug) => [slug, SEED_PEOPLE.find((p) => p.slug === slug)!]),
 ) as Record<(typeof TARGETS)[number], (typeof SEED_PEOPLE)[number]>;
 
-describe.each(TARGETS)("Legacy integrity batch 2: %s", (slug) => {
+describe.each(TARGETS)("Legacy integrity batch 3: %s", (slug) => {
   const candidate = candidates[slug];
   const person = production[slug];
 
-  it("has a real candidate file, evidence_approved", () => {
+  it("has a real candidate file, evidence_approved, with sources actually recorded", () => {
     expect(hasCandidateFile(slug)).toBe(true);
     expect(candidate.status).toBe("evidence_approved");
+    expect(candidate.sources.length).toBeGreaterThan(0);
   });
 
   it("production carries exactly the candidate's row set (no more, no fewer)", () => {
@@ -63,6 +64,7 @@ describe.each(TARGETS)("Legacy integrity batch 2: %s", (slug) => {
     expect(person.isMatchEligible).toBe(false);
     const report = evaluateMatchEligibility(person);
     expect(report.eligible).toBe(false);
+    expect(report.reasons.length).toBeGreaterThan(0);
   });
 
   it("appears in PEOPLE_INDEX exactly once, in agreement with SEED_PEOPLE", () => {
@@ -72,7 +74,7 @@ describe.each(TARGETS)("Legacy integrity batch 2: %s", (slug) => {
   });
 });
 
-describe("Legacy integrity batch 2: cross-target identity integrity", () => {
+describe("Legacy integrity batch 3: cross-target identity integrity", () => {
   it("no duplicate ids, slugs, or Wikidata QIDs across all 225 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
@@ -97,38 +99,41 @@ describe("Legacy integrity batch 2: cross-target identity integrity", () => {
   });
 });
 
-describe("Legacy integrity batch 2: no eligibility rescue, no unrelated drift", () => {
+describe("Legacy integrity batch 3: no eligibility rescue, no unrelated drift", () => {
   it("all three targets fail eligibility_v2 honestly -- none were rescued to pass", () => {
     for (const slug of TARGETS) {
       const report = evaluateMatchEligibility(production[slug]);
       expect(report.eligible, `${slug} should not be eligible`).toBe(false);
-      expect(report.reasons.length, `${slug} should have at least one failure reason`).toBeGreaterThan(0);
     }
   });
 
-  it("no other legacy person's isMatchEligible flipped as a side effect (spot-check against the known-stable roster1/2 cohort)", () => {
-    // A representative sample of legacy people NOT touched this cycle; all
-    // were already match-eligible before this batch and must remain so.
-    const untouched = ["leonardo-da-vinci", "marie-curie", "richard-feynman", "confucius", "warren-buffett"];
-    for (const slug of untouched) {
+  it("no other legacy person's isMatchEligible flipped as a side effect (spot-check against a representative sample, including the batch-1/2 remediated people)", () => {
+    const stillEligible = ["leonardo-da-vinci", "marie-curie", "richard-feynman", "confucius", "warren-buffett"];
+    for (const slug of stillEligible) {
       const p = SEED_PEOPLE.find((x) => x.slug === slug)!;
       expect(p.isMatchEligible, `${slug} eligibility should be unaffected`).toBe(true);
+    }
+    const stillNonEligible = ["akira-kurosawa", "bruce-lee", "ludwig-van-beethoven", "nikola-tesla"];
+    for (const slug of stillNonEligible) {
+      const p = SEED_PEOPLE.find((x) => x.slug === slug)!;
+      expect(p.isMatchEligible, `${slug} should remain non-eligible from its own prior remediation`).toBe(false);
     }
   });
 });
 
-describe("Legacy integrity batch 2: legacy scoring-lock baseline", () => {
-  it("this batch's three remediated targets permanently left the legacy baseline (exact remaining count is asserted by whichever batch's test runs most recently, e.g. legacyIntegrityBatch3Remediation.test.ts -- not hardcoded here since later batches legitimately shrink it further)", () => {
+describe("Legacy integrity batch 3: legacy scoring-lock baseline", () => {
+  it("the legacy baseline shrank from 31 to 28 -- exactly the three remediated targets left it", () => {
     const baselineSlugs = Object.keys(LEGACY_SCORING_BASELINE);
+    expect(baselineSlugs).toHaveLength(28);
     for (const slug of TARGETS) {
       expect(baselineSlugs, `${slug} should have exited the legacy baseline`).not.toContain(slug);
     }
   });
 
-  it("every production person without a candidate JSON is still represented in the baseline, no orphans (count intentionally not hardcoded -- see note above)", () => {
+  it("every production person without a candidate JSON is still represented in the baseline, no orphans", () => {
     const noJsonSlugs = SEED_PEOPLE.filter((p) => !hasCandidateFile(p.slug)).map((p) => p.slug);
     const baselineSlugs = new Set(Object.keys(LEGACY_SCORING_BASELINE));
-    expect(noJsonSlugs.length).toBe(baselineSlugs.size);
+    expect(noJsonSlugs).toHaveLength(28);
     for (const slug of noJsonSlugs) {
       expect(baselineSlugs.has(slug), `${slug} missing from legacy baseline`).toBe(true);
     }
@@ -138,13 +143,12 @@ describe("Legacy integrity batch 2: legacy scoring-lock baseline", () => {
   });
 });
 
-describe("Legacy integrity batch 2: historical audit snapshot supersession", () => {
-  it("none of the three batch-2 targets were part of PR #35's frozen historical audit sample", () => {
-    // The frozen FROZEN_16_ELIGIBLE/FROZEN_8_CONTROLS sample from PR #35
-    // does not include bruce-lee, ludwig-van-beethoven, or nikola-tesla --
-    // so this cycle correctly does NOT need to extend SUPERSEDED_AUDIT_SLUGS
-    // for any of them. This test exists so a FUTURE remediation of one of
-    // these frozen-sample people cannot silently skip that step.
+describe("Legacy integrity batch 3: historical audit snapshot supersession", () => {
+  it("none of the three batch-3 targets were part of PR #35's frozen historical audit sample", () => {
+    // Same discipline as batch 2's own regression test: proves this cycle
+    // correctly does NOT need to extend SUPERSEDED_AUDIT_SLUGS, and guards
+    // against a future remediation of one of the frozen-sample people
+    // silently skipping that step.
     for (const slug of TARGETS) {
       expect(SUPERSEDED_AUDIT_SLUGS.has(slug), `${slug} should not need historical supersession`).toBe(false);
     }

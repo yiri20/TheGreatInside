@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "srinivasa-ramanujan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Srinivasa Ramanujan",
+    "wikidataId": "Q83163",
+    "birthYear": 1887,
+    "deathYear": 1920,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["mathematician"],
+    "fieldIds": ["mathematics"],
+    "impactDomains": ["scientific"],
+    "tagIds": ["self_taught", "specialist", "intuitive"],
+    "archetypeIds": ["scholarly_specialist", "scientific_explorer"]
+  },
+  "sources": [
+    { "id": "src_ramanujan_wikipedia", "kind": "wikipedia", "title": "Srinivasa Ramanujan", "url": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan" },
+    { "id": "src_ramanujan_kanigel", "kind": "biography", "title": "Robert Kanigel, The Man Who Knew Infinity: A Life of the Genius Ramanujan (1991) -- independent biography" },
+    { "id": "src_ramanujan_letters", "kind": "archive", "title": "Ramanujan's own 1913 letters to G.H. Hardy" },
+    { "id": "src_ramanujan_wolfram", "kind": "press", "title": "Stephen Wolfram, \"Who Was Ramanujan?\" (2016) -- independent account quoting directly from his letters" },
+    { "id": "src_ramanujan_hardy_littlewood", "kind": "archive", "title": "G.H. Hardy's and J.E. Littlewood's own recorded actions/assessments (Trinity fellowship advocacy)" }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Conducted independent research on Euler's constant and Bernoulli numbers while still in high school; obtained G.S. Carr's Synopsis at 16 and studied it intensively, adopting its terse presentation style (Wolfram)."
+    },
+    "intuitive_synthesis": {
+      "score": 92,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His notebooks show a distinctive, sustained working style of arriving at complex results with no intermediate proofs or references -- e.g. the 1729 \"taxi number\" class of results, which he had recorded years before the famous anecdote took place (multiple independent accounts tracing to his own notebooks)."
+    },
+    "independent_thinking": {
+      "score": 88,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Wrote unprompted to Hardy and several other mathematicians before him (mostly ignored), with no formal credentials, and used his own idiosyncratic terse notation rather than conventional mathematical exposition."
+    },
+    "deep_focus": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "His singular mathematical focus led him to fail his other college coursework and leave home at 18, prompting his mother to place a missing-person notice -- a specific, dated episode showing the real cost of his focus alongside its intensity (Wolfram, via Kanigel)."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "During WWI, explicitly decided (in his own letters) to hold publication of his older notebook results until after the war while continuing to pursue new results in the meantime -- a considered, deliberate choice about timing and priority."
+    },
+    "persistence": {
+      "score": 85,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His Trinity College fellowship was secured only after a first unsuccessful attempt (Littlewood had to advocate directly); he had reportedly \"invented the method eight years earlier\" for results he later shared, and continued working through WWI disruption."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Was explicit and self-aware in his letters to Hardy about his actual goal -- verification of his results, not necessarily validating his proof methodology -- even joking about how unconventional this looked."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained, real collaboration with Hardy over years producing genuine joint advances, plus regular Sunday walks and discussions with Mahalanobis -- but a collaboration marked by persistent friction over differing standards, not an easy partnership (Kanigel)."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Directly rebutted Littlewood's suspicion that he withheld proofs out of fear of theft; sustained disagreement with Hardy over the importance of formal proof and rigor without capitulating to Hardy's preferred standard."
+    },
+    "mastery_orientation": {
+      "score": 92,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Systematic, sustained notebook development over many years, recording entire classes of results (like the numbers behind the 1729 anecdote) long before any external prompting to do so."
+    },
+    "autonomy_need": {
+      "score": 85,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Left home at 18 to pursue mathematics independently against his family's expectations; held his own epistemic and methodological standards against Hardy's sustained pressure to conform to conventional proof-writing."
+    },
+    "resourcefulness": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "As a poor, self-taught mathematician in colonial India with no access to advanced literature, reconstructed and extended vast areas of mathematics from essentially one outdated textbook (pre-existing finding, re-verified); separately, proactively arranged for tamarind and coconut oil to be shipped from India to maintain his diet while in Cambridge (Wolfram)."
+    },
+    "proactive_agency": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Wrote unprompted, with no formal introduction, directly to Hardy at Cambridge (and several other mathematicians before him), sending his own derived results (pre-existing finding, re-verified)."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/srinivasa-ramanujan-opc.jpg",
+    "width": 960,
+    "height": 1315,
+    "source": "Wikimedia Commons (hosted locally by this app as a recompressed derivative; see licenseUrl for the original)",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan_-_OPC_-_1.jpg",
+    "attribution": "Oberwolfach Photo Collection",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan_-_OPC_-_1.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 3 (2026-09-13, docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batch 2 against the 31-person legacy cohort remaining after batches 1-2 (docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md). Ramanujan ranked #1 among 31 legacy profiles with risk score 12: only 1 source cited, 16 high-confidence rows resting on the unsupported original base set, 6 'documented'-tier claims among them, no Wikidata QID, max confidence 0.88 on that single source. New research (Kanigel's independent biography, Ramanujan's own 1913 letters to Hardy, Wolfram's account quoting them directly, and Hardy/Littlewood's own recorded actions) audited all 32 original rows (30 base + 2 taxonomy_v1.1). 13 retained and rescored from the evidence directly (none reusing old values), 0 new rows added, 19 removed for lack of individually-attributable, non-duplicative support this cycle (analytical_rigor, systems_abstraction, creative_originality, experimentation, cross_domain_range, aesthetic_sensitivity, discipline, detail_orientation, perfectionism, execution_speed, adaptability, risk_tolerance, ambiguity_tolerance, social_assertiveness, leadership_drive, persuasiveness, achievement_drive, competitiveness, impact_motivation). Hardy's informal 'rated him 100 on a scale to 100' assessment was read but NOT used as row evidence (third-party reputation/assessment, not Ramanujan's own behavior). The 'Goddess Namagiri' dream-revelation framing found in some sources was treated as legend/tradition, not used as evidence. His declining health and 1920 death were not used as evidence for any row, consistent with this project's standing precedent against inferring personality from tragedy/health circumstance. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}
