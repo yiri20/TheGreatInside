@@ -109,7 +109,11 @@ describe("Legacy integrity batch 2: no eligibility rescue, no unrelated drift", 
   it("no other legacy person's isMatchEligible flipped as a side effect (spot-check against the known-stable roster1/2 cohort)", () => {
     // A representative sample of legacy people NOT touched this cycle; all
     // were already match-eligible before this batch and must remain so.
-    const untouched = ["leonardo-da-vinci", "marie-curie", "richard-feynman", "confucius", "warren-buffett"];
+    // richard-feynman intentionally not in this list -- legacy integrity
+    // batch 4 (docs/checkpoints/legacy-integrity-batch4-three-person-
+    // remediation.md) subsequently remediated him and he lost eligibility;
+    // the same class of fix this file already applies to batch 1's test.
+    const untouched = ["leonardo-da-vinci", "marie-curie", "albert-einstein", "confucius", "warren-buffett"];
     for (const slug of untouched) {
       const p = SEED_PEOPLE.find((x) => x.slug === slug)!;
       expect(p.isMatchEligible, `${slug} eligibility should be unaffected`).toBe(true);

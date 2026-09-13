@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "steve-jobs",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Steve Jobs",
+    "wikidataId": "Q19837",
+    "birthYear": 1955,
+    "deathYear": 2011,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["entrepreneur", "executive", "product_designer"],
+    "fieldIds": ["technology", "business", "design"],
+    "impactDomains": ["entrepreneurial", "technological", "industrial", "cultural"],
+    "tagIds": ["founder", "perfectionist", "product_leader"],
+    "archetypeIds": ["entrepreneurial_builder", "organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_jobs_wikipedia", "kind": "wikipedia", "title": "Steve Jobs", "url": "https://en.wikipedia.org/wiki/Steve_Jobs" },
+    { "id": "src_jobs_isaacson", "kind": "biography", "title": "Walter Isaacson, Steve Jobs (2011) -- authorized independent biography, including named colleagues' (Bud Tribble, Andy Hertzfeld, Steve Wozniak) own direct testimony" },
+    { "id": "src_jobs_stanford_2005", "kind": "institution", "title": "Steve Jobs, Stanford University 2005 commencement address (\"Stay Hungry, Stay Foolish\") -- his own words, Stanford's own archived transcript" },
+    { "id": "src_jobs_lost_interview", "kind": "press", "title": "Steve Jobs: The Lost Interview (1995, Robert X. Cringely / PBS \"Triumph of the Nerds\" outtake) -- his own words, independent of the Isaacson biography" }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Colleagues independently named his \"reality distortion field\" -- Bud Tribble: \"In his presence, reality is malleable. He can convince anyone of practically anything\"; Andy Hertzfeld: \"a confounding melange of a charismatic rhetorical style, an indomitable will, and eagerness to bend any fact to fit the task at hand\" (Isaacson); separately, in his own words: \"I don't really care about being right, I just care about success\" (The Lost Interview, 1995)."
+    },
+    "detail_orientation": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented extreme attention to minute product detail on every product that shipped, sustained across decades, per Isaacson's biography."
+    },
+    "perfectionism": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Isaacson documents an exacting standard maintained by \"often berating and belittling\" employees to push output beyond what they thought possible -- a concrete instance being his persuading Corning CEO Wendell Weeks to manufacture a then-unprecedented glass for the iPhone against Weeks's own stated engineering limits."
+    },
+    "persistence": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally backed Pixar as majority shareholder/chairman for nearly a decade of near-bankruptcy years before Toy Story (1995) became the first feature-length computer-animated film (pre-existing finding, re-verified); founded NeXT immediately after being forced out of Apple in 1985 rather than leaving the industry."
+    },
+    "adaptability": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own account of being forced out of Apple in 1985: \"getting fired from Apple was the best thing that could have ever happened to me... The heaviness of being successful was replaced by the lightness of being a beginner again\" (2005 Stanford address) -- a documented reframing and reinvention, not merely the setback itself."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Personally committed sustained capital and reputation to Pixar through years of uncertain returns before Toy Story's success (pre-existing finding, re-verified)."
+    },
+    "decisiveness": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Concrete instance: persuaded Wendell Weeks at Corning to produce a specific glass against the company's own stated limits (Isaacson); blunt, unhedged evaluative style in his own words -- of a competitor: \"The only problem with Microsoft is that they have no taste. They just make really third-rate products. Their products have no spirit to them\" (The Lost Interview, 1995)."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "A real, foundational partnership with Steve Wozniak co-founding Apple, marked by a documented breach of trust: per Wozniak's own account (Isaacson), Jobs told him Atari paid a $750 bonus for a 1975 Breakout circuit-design job Wozniak had actually engineered, when the real payment was $5,000, splitting only the smaller figure with him; Wozniak did not learn the true amount for years."
+    },
+    "leadership_drive": {
+      "score": 90,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Isaacson documents Jobs infusing Apple employees with \"an abiding passion to create groundbreaking products and a belief that they could accomplish what seemed impossible,\" reflected in employees' own \"90 hours a week and loving it\" T-shirts -- a culture he deliberately instilled, sustained via the reality-distortion-field pattern described by Tribble and Hertzfeld."
+    },
+    "persuasiveness": {
+      "score": 92,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Concrete, named, dated instance: persuaded Corning CEO Wendell Weeks to manufacture what became Gorilla Glass for the iPhone despite Weeks's own stated view that the type of glass Jobs wanted could not be produced at the necessary scale (Isaacson)."
+    },
+    "conflict_tolerance": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Documented, sustained pattern of \"berating and belittling\" employees to extract higher output, per Isaacson's biography -- a real, specific, recurring behavioral pattern, not a single incident."
+    },
+    "competitiveness": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Blunt, dated, on-the-record assessment of Microsoft in his own words: \"they have no taste. They just make really third-rate products. Their products have no spirit to them\" (The Lost Interview, 1995)."
+    },
+    "autonomy_need": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded NeXT rather than working under another company after his 1985 ouster (pre-existing finding, re-verified); his own words frame this period as reclaiming independence: \"the lightness of being a beginner again, less sure about everything\" (2005 Stanford address)."
+    },
+    "opportunity_sensing": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recognized the commercial potential of the GUI/mouse interface during a 1979 visit to Xerox PARC and directed it into the Macintosh's design (pre-existing finding, re-verified)."
+    },
+    "proactive_agency": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Engineered his own return to control of Apple in 1996-97: after the NeXT acquisition brought him back only as an adviser, he deliberately maneuvered -- persuading the board and contributing to CEO Gil Amelio's ouster -- into the CEO role himself, rather than waiting to be reinstated (pre-existing finding, re-verified)."
+    },
+    "belief_updating": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Publicly and explicitly reversed his own prior stated opposition to third-party native applications, launching the App Store in 2008 after initially resisting it (pre-existing finding, re-verified) -- a clean, documented reversal of an articulated position under evidence, not a vague evolution."
+    }
+  },
+  "doNotCopyKeys": ["dontcopy.jobs.demandingness"],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/steve-jobs-yohe-2010.jpg",
+    "width": 1001,
+    "height": 1600,
+    "source": "Wikimedia Commons (resized/recompressed derivative)",
+    "license": "CC BY-SA 3.0 / GFDL 1.2+",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg",
+    "attribution": "Photograph by Matthew Yohe, 2010, CC BY-SA 3.0",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 4 (2026-09-13, docs/checkpoints/legacy-integrity-batch4-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batch 2/3 against the 28-person legacy cohort remaining after batches 1-3. Jobs ranked #3 among 28 legacy profiles with risk score 11 (tied with richard-feynman and simone-biles, alphabetically last of the three): 2 sources cited, 31 high-confidence base rows (the most of any of the 28), 16 'documented'-tier claims among them, no Wikidata QID. New research (Isaacson's independent biography including named colleagues Bud Tribble/Andy Hertzfeld/Steve Wozniak's own direct testimony, Jobs's own 2005 Stanford commencement address, and his own 1995 'Lost Interview') audited all 33 original rows (30 base + 3 taxonomy_v1.1). 16 retained and rescored from the evidence directly (none reusing old values), 0 new rows added, 17 removed for lack of individually-attributable, non-duplicative support this cycle (curiosity, analytical_rigor, intuitive_synthesis, systems_abstraction, creative_originality, experimentation, cross_domain_range, aesthetic_sensitivity, discipline, deep_focus, execution_speed, planning_orientation, ambiguity_tolerance, social_assertiveness, mastery_orientation, achievement_drive, impact_motivation). creative_originality/intuitive_synthesis/aesthetic_sensitivity, all very high in the original profile reflecting his acclaimed product reputation, were removed rather than re-justified from acclaim/output alone. Jobs retained proportionally more rows than prior remediation targets in this lane, honestly reflecting an unusually dense, multiply-witnessed evidentiary record (Isaacson's biography relays direct, named colleague testimony -- Tribble, Hertzfeld, Wozniak -- not just the biographer's own framing) rather than any target row count. His 2003 pancreatic cancer diagnosis and 2011 death were read (via the existing production comment) but not used as row evidence for any row, consistent with this project's standing health/tragedy precedent; his paternity dispute regarding his daughter Lisa was also read but deliberately not used -- a private family/paternity matter unrelated to any of the 34 scored professional/behavioral attributes in this taxonomy, not merely unfavorable. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

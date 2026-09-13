@@ -40,28 +40,31 @@ describe("match-pool integrity audit: cohort counts", () => {
   });
 
   it("matches the live production/directory/eligible counts", () => {
-    // Match-eligible dropped 127->126->123->120: the akira-kurosawa legacy
-    // remediation honestly found only 10 individually-attributable rows
-    // for him, legacy integrity batch 2 did the same for bruce-lee,
-    // ludwig-van-beethoven, and nikola-tesla, and legacy integrity batch 3
-    // (docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md)
-    // did the same for srinivasa-ramanujan, toni-morrison, and
-    // hayao-miyazaki -- directory visibility is unchanged for all seven
-    // since each was made evidence_approved, not held.
+    // Match-eligible dropped 127->126->123->120->117: the akira-kurosawa
+    // legacy remediation honestly found only 10 individually-attributable
+    // rows for him, legacy integrity batch 2 did the same for bruce-lee,
+    // ludwig-van-beethoven, and nikola-tesla, legacy integrity batch 3 did
+    // the same for srinivasa-ramanujan, toni-morrison, and hayao-miyazaki,
+    // and legacy integrity batch 4 (docs/checkpoints/legacy-integrity-
+    // batch4-three-person-remediation.md) did the same for
+    // richard-feynman, simone-biles, and steve-jobs -- directory
+    // visibility is unchanged for all ten since each was made
+    // evidence_approved, not held.
     expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(224);
-    expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(120);
+    expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(117);
   });
 
-  it("every directory-visible non-eligible person belongs to the recent_cycles lineage group, EXCEPT the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, and hayao-miyazaki", () => {
+  it("every directory-visible non-eligible person belongs to the recent_cycles lineage group, EXCEPT the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, and steve-jobs", () => {
     // Legacy integrity remediation (2026-09, docs/checkpoints/legacy-
     // integrity-kurosawa-remediation.md) made akira-kurosawa (early_hand_
     // authored lineage) the first non-recent-cycle person to be
     // evidence_approved/directory-visible/non-eligible -- previously this
     // combination only arose from the roster24+ publication architecture.
-    // Legacy integrity batches 2 and 3 added six more (bruce-lee,
+    // Legacy integrity batches 2, 3, and 4 added nine more (bruce-lee,
     // ludwig-van-beethoven, and toni-morrison are roster2 lineage;
-    // nikola-tesla, srinivasa-ramanujan also roster2; hayao-miyazaki is
-    // roster1 -- all early_hand_authored).
+    // nikola-tesla, srinivasa-ramanujan, simone-biles also roster2;
+    // hayao-miyazaki, richard-feynman, steve-jobs are roster1 -- all
+    // early_hand_authored).
     const legacyRemediated = new Set([
       "akira-kurosawa",
       "bruce-lee",
@@ -70,6 +73,9 @@ describe("match-pool integrity audit: cohort counts", () => {
       "srinivasa-ramanujan",
       "toni-morrison",
       "hayao-miyazaki",
+      "richard-feynman",
+      "simone-biles",
+      "steve-jobs",
     ]);
     const nonEligibleVisible = inventory.filter(
       (r) => r.isDirectoryVisible && !r.isMatchEligible && !legacyRemediated.has(r.slug),

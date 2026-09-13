@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "simone-biles",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Simone Biles",
+    "wikidataId": "Q7520267",
+    "birthYear": 1997,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "cultural"],
+    "tagIds": ["advocate"],
+    "archetypeIds": ["competitive_performer"]
+  },
+  "sources": [
+    { "id": "src_biles_wikipedia", "kind": "wikipedia", "title": "Simone Biles", "url": "https://en.wikipedia.org/wiki/Simone_Biles" },
+    { "id": "src_biles_memoir", "kind": "biography", "title": "Simone Biles with Michelle Burford, Courage to Soar: A Body in Motion, A Life in Balance (2016) -- her own memoir" },
+    { "id": "src_biles_nassar_disclosure", "kind": "press", "title": "Simone Biles's January 18, 2018 public disclosure of Larry Nassar's abuse -- her own statement, independently reported" },
+    { "id": "src_biles_congressional_testimony", "kind": "institution", "title": "Simone Biles's September 15, 2021 testimony before the U.S. Senate Judiciary Committee on the FBI's handling of the Nassar investigation -- her own words, independently documented" },
+    { "id": "src_biles_tokyo_explanation", "kind": "press", "title": "Simone Biles's own 2021 public statements explaining her Tokyo Olympics withdrawal -- independently reported (CBS News, ABC News)" },
+    { "id": "src_biles_comeback_interview", "kind": "press", "title": "Simone Biles, NBC News interview on her Paris 2024 comeback and training approach (2023) -- her own words" }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Described her 2023-24 comeback preparation as deliberately \"intentional\": a fixed weekly therapy day built into her training schedule, alongside gym training, as a described, sustained personal discipline rather than a one-off choice (NBC News, 2023)."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Explicitly restructured her priorities and definition of success ahead of the Paris 2024 comeback: \"I think what success means to me is a bit different than before,\" describing a considered, deliberate change in approach rather than reverting to her pre-2021 routine (NBC News, 2023)."
+    },
+    "persistence": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Returned to elite competition at the 2023 U.S. Classic after a two-year absence following the 2021 Tokyo withdrawal, and won Olympic all-around and vault gold again in 2024 -- a specific, dated return to competition, not merely continued participation."
+    },
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Described adopting a more \"cautious\" competitive approach and a changed personal definition of success for her comeback, a documented shift from her pre-2021 mindset in her own words (NBC News, 2023)."
+    },
+    "decisiveness": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Withdrew from most Tokyo 2020 events mid-competition and immediately, clearly explained the decision in her own words: \"I didn't quit, my mind & body are simply not in sync... I don't think you realize how dangerous this is... nor do I have to explain why I put my health first\" -- a clear, real-time decision under intense public pressure, not a retrospective rationalization."
+    },
+    "social_assertiveness": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Publicly disclosed Larry Nassar's abuse in her own words on January 18, 2018 (\"I am not afraid to tell my story anymore\") and testified before the U.S. Senate Judiciary Committee in September 2021, both specific, dated, public acts of speaking out."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "In her September 2021 Senate testimony, explicitly widened her account beyond her own individual abuse to hold the surrounding institutions accountable: \"I blame Larry Nassar and I also blame an entire system that enabled and perpetrated his abuse\" -- a specific framing choice, not merely a personal statement."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained a direct, public, adversarial stance against USA Gymnastics and the FBI over their handling of the Nassar investigation across a multi-year period (2018 disclosure through 2021 Senate testimony), a real and costly institutional conflict, not a single remark."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Withdrew from Tokyo 2020 competition against immense public and institutional expectation to continue, on her own explicit judgment of her own safety: \"nor do I have to explain why I put my health first. Physical health is mental health\"."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Framed her own 2018 disclosure partly in terms of other survivors, not only herself: \"I am not afraid to tell my story anymore\" after describing years of reluctance -- a stated motivation beyond her own personal case."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Came forward publicly about Nassar's abuse unprompted by any legal proceeding requiring her to do so (January 2018); separately, proactively withdrew from Tokyo competition on her own initiative before any injury forced the issue, explicitly to protect her own safety -- a self-directed decision against strong institutional/public pressure to continue, genuinely contested at the time (drew public criticism from commentators arguing she owed her team a title defense) and only more broadly reassessed in the years after, so scored dual-edged rather than a clean advantage."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/simone-biles-national-team-2024.jpg",
+    "width": 1109,
+    "height": 1600,
+    "source": "Wikimedia Commons (resized derivative)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg",
+    "attribution": "Ocoudis, CC BY-SA 4.0, via Wikimedia Commons",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 4 (2026-09-13, docs/checkpoints/legacy-integrity-batch4-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batch 2/3 against the 28-person legacy cohort remaining after batches 1-3. Biles ranked #2 among 28 legacy profiles with risk score 11 (tied with richard-feynman and steve-jobs, alphabetically second): 1 source cited, 21 high-confidence rows in the unsupported base set, 5 'documented'-tier claims among them, no Wikidata QID, max confidence 0.88 on that single source. New research (her own memoir, her January 2018 Nassar disclosure, her September 2021 Senate testimony, her 2021 statements explaining the Tokyo withdrawal, and a 2023 NBC News comeback interview) audited all 27 original rows (26 base + 1 taxonomy_v1.1). 11 retained and rescored from the evidence directly (none reusing old values), 0 new rows added, 16 removed for lack of individually-attributable, non-duplicative support this cycle (curiosity, analytical_rigor, independent_thinking, creative_originality, experimentation, deep_focus, detail_orientation, perfectionism, execution_speed, risk_tolerance, ambiguity_tolerance, collaboration, persuasiveness, mastery_orientation, achievement_drive, competitiveness). mastery_orientation/achievement_drive/competitiveness/creative_originality, high in the original profile reflecting her unmatched competitive record (11 Olympic medals, 30 World Championship medals, four named skills), were removed rather than re-justified from that record alone -- no distinct behavioral incident from this cycle's research supports them separately from the medal count and named skills themselves, which are achievement/output, not behavior. Her 2018 Doha Worlds performance while passing a kidney stone was read but deliberately not used -- a health-adjacent circumstance, and using 'competed through pain' as evidence would sit awkwardly beside her own later, more considered stance that safety can rightly come before continuing (the Tokyo withdrawal), so only the later, more clearly self-aware and explained decision was used. The 2018 teal-leotard solidarity gesture and her adoption story were read but not scored as distinct incidents (the former folds into the disclosure/testimony pattern already scored; the latter reflects her mother's and grandparents' actions far more than her own agency at that age). Disclosed source-depth/independence limitation: unlike Feynman's (Gleick) or Jobs's (Isaacson) independently-authored biographies, Biles's substantive sources here are predominantly her own extensively public statements (memoir, disclosure, testimony, interviews) rather than a third-party narrative biography; multiple news organizations independently documented that these statements were made and in what context, which is a real independent provenance layer, but a different evidentiary shape than the other two targets this cycle -- disclosed here rather than presented as equivalent. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}
