@@ -110,11 +110,15 @@ physically-verifiable evidentiary basis). The Heiligenstadt Testament's
 content of despair over his deafness was read but deliberately **not** used
 as row evidence (see §7).
 
-**Nikola Tesla** (3 sources): Tesla's own 1919 autobiography *My Inventions*
-(fetched directly from Wikisource, public domain); W. Bernard Carlson's
-*Tesla: Inventor of the Electrical Age* (2013, independent modern scholarly
-biography); Marc Seifer's *Wizard* (1996, independent biography using
-primary sources). Popular sources frame Tesla's counting/calculation habits
+**Nikola Tesla** (4 total source records; 3 substantive non-Wikipedia
+research sources, consistent with how bruce-lee's and beethoven's "5
+sources" above are counted -- their own pre-existing Wikipedia entry plus
+the substantive new ones): the pre-existing Wikipedia source, plus Tesla's
+own 1919 autobiography *My Inventions* (fetched directly from Wikisource,
+public domain); W. Bernard Carlson's *Tesla: Inventor of the Electrical
+Age* (2013, independent modern scholarly biography); Marc Seifer's
+*Wizard* (1996, independent biography using primary sources). Popular
+sources frame Tesla's counting/calculation habits
 as symptoms of a diagnosed condition; none of that framing is used anywhere
 in this cycle (see §7) — the underlying documented behavior is used, never a
 label.
@@ -339,11 +343,24 @@ starting a batch 3 or Roster33 is explicitly out of scope for this PR.
 
 ## 18. Explicit confirmations
 
+**Corrected 2026-09-13, documentation/provenance precision pass.** This
+section originally claimed "no other legacy person's data was read, scored,
+or modified" without qualification. That is too broad and, on the "read"
+half, false: this cycle mechanically read the entire remaining legacy
+cohort twice. The precise, corrected statement:
+
 - Only bruce-lee, ludwig-van-beethoven, and nikola-tesla received new
-  behavioral research this cycle.
-- No other legacy person's data was read, scored, or modified (their
-  tuples were not even mechanically re-read this cycle, since the legacy
-  scoring-lock regeneration only needed to remove the three departing
-  slugs from the baseline, not touch any remaining person's fingerprint).
+  behavioral research, manual evidence review, and rescoring this cycle;
+  only their production data was intentionally modified, and only they had
+  their publication decision or eligibility recomputed.
+- The remaining legacy cohort **was** mechanically read, twice, but neither
+  read was behavioral research, evidence review, or rescoring, and neither
+  modified anyone's data: (1) the §1-2 risk-triage inventory read every one
+  of the 34 people's slug, lineage, row/confidence/source counts, and
+  metadata to compute the deterministic risk score; (2)
+  `generateLegacyScoringLock.ts` necessarily reads every remaining
+  no-candidate person's CURRENT production tuple to regenerate the
+  fingerprint baseline (§11) -- it could not otherwise verify the baseline
+  still matches production for the 31 people who stayed in it.
 - No eligibility rescue for any of the three.
 - Roster33 not started.
