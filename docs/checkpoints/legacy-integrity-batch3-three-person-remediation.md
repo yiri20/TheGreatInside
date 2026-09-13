@@ -84,6 +84,10 @@ directly); G.H. Hardy's and J.E. Littlewood's own recorded actions
 sources): her own 1993 Paris Review interview ("The Art of Fiction No.
 134"); Dana A. Williams's *Toni at Random* (independent, Random-House-
 archive-based account of her editorial career, quoting her own letters).
+Morrison's cycle ended with two substantive non-Wikipedia sources rather
+than the 4-7 source target; the profile therefore remains deliberately
+confidence-capped, and this is a disclosed evidence-depth limitation
+rather than evidence that additional sources do not exist.
 
 **Hayao Miyazaki** (5 total source records; 4 substantive non-Wikipedia
 sources): his own *Starting Point: 1979-1996* (pre-existing); the
@@ -149,6 +153,11 @@ Not every retained row's score changed (e.g. Ramanujan's `curiosity` row
 happened to independently re-derive the same score with a different
 confidence) — reported honestly rather than assumed uniform, the same
 discipline established across every prior cycle in this lane.
+
+A full incident ledger tracing every retained row back to a specific,
+named behavioral episode is in §19 (added in a later auditability-
+correction pass, reconstructed only from evidence already used here — no
+new research).
 
 ## 6. Metadata / tag audit
 
@@ -246,9 +255,28 @@ this result was seen.
 
 `legacyScoringLock.generated.ts` regenerated after all three candidate
 files were finalized: **31 -> 28** people in the baseline (mechanically
-confirmed, matches the expected count). `checkScoringLockIntegrity.ts`: 0
-flagged (281 candidate-JSON-backed people checked; 28 legacy-baseline
-people fingerprint-checked). No non-target person's tuple touched.
+confirmed, matches the expected count).
+
+**Auditability correction**: the original commit and PR body reported
+`checkScoringLockIntegrity.ts` as "281 candidate-JSON-backed people
+checked." That number was measured *before* the implementation commit
+existed. The checker determines "previously committed" status via `git
+show HEAD:<candidate-path>`, so a candidate file only counts once it is
+itself part of `HEAD` — at measurement time the three new batch-3
+candidate files were on disk but not yet committed, so they were excluded
+from that count. Re-run now, against the actual committed HEAD
+(`90c318e24e93cd3b5ecc72fe14e9cfb07a507ef7`), the checker's exact literal
+output is:
+
+```
+Checked 284 previously-committed candidate file(s) against HEAD. 0 flagged.
+Legacy scoring lock: 28 pre-pipeline production people covered, 0 flagged.
+```
+
+284 = the original 281 + the 3 batch-3 files, now that they are
+themselves committed. 28 matches the legacy-baseline figure above exactly
+(same regeneration, no drift). No non-target person's tuple touched, and
+the checker itself was not modified.
 
 ## 12. Historical audit snapshot (PR #35's frozen sample)
 
@@ -282,8 +310,10 @@ directoryVisible/eligibility); nothing else drifted.
 ## 15. Validation
 
 `tsc --noEmit` clean · `validateCandidates.ts` 0 errors/0 warnings (284
-candidate files) · `checkScoringLockIntegrity.ts` 0 flagged (281 JSON-diff-
-checked + 28 legacy-baseline-checked) · full `vitest run` clean after
+candidate files) · `checkScoringLockIntegrity.ts` 0 flagged (284 JSON-diff-
+checked + 28 legacy-baseline-checked — corrected from the originally
+reported 281 JSON-diff-checked, re-measured against the actual committed
+HEAD; see §11) · full `vitest run` clean after
 fixing 8 stale hardcoded-count/exception-list assertions across 4 test
 files (`matching.test.ts` x2, `profilePublicationSeparation.test.ts` x2,
 `matchPoolIntegrityAudit.test.ts` x2, and — new this cycle —
@@ -330,18 +360,40 @@ if the strategic recommendation below calls for continuing.
 
 Per the diagnostic question this lane keeps asking: **3 of 3 frozen
 targets lost match eligibility, clearly** (not narrow misses). Combined
-with Kurosawa (1/1) and batch 2 (3/3), **7 of 7 deeply-remediated legacy
-profiles across three cycles have now lost match eligibility** under
-fresh evidence standards. The unchanged risk-triage methodology continued
-to correctly identify genuine integrity problems: every frozen target
-this cycle shared the same shape the methodology predicts (very few
-sources, many high-confidence/documented rows resting on an unsupported
-base, no Wikidata QID) and every one collapsed to roughly a third of its
-original row count on fresh audit. **Recommendation: continue targeted
-legacy remediation before starting Roster33** -- the signal has only
-strengthened, not weakened, across three independent cycles. This
-recommendation is not executed here; starting a batch 4 or Roster33 is
-explicitly out of scope for this PR.
+with Kurosawa (1/1) and batch 2 (3/3), **7 of 7 deeply-remediated
+HIGH-RISK legacy profiles selected by this prioritization method have now
+lost match eligibility** under fresh evidence standards.
+
+**What this does and does not establish** (corrected wording — an earlier
+draft of this section overstated the result): the seven remediated
+profiles were never a random or representative sample of the legacy
+cohort. They were deliberately selected from the highest-risk end of it
+by the risk-triage formula, three cycles in a row. The valid conclusion
+from that is:
+
+- **strong evidence the triage method is useful for prioritizing which
+  legacy profiles deserve review first** — every frozen target across all
+  three cycles shared the shape the methodology predicts (very few
+  sources, many high-confidence/documented rows resting on an unsupported
+  base, no Wikidata QID) and collapsed to roughly a third of its original
+  row count on fresh audit;
+- it **strengthens the case for continuing targeted remediation** before
+  starting Roster33;
+- it does **not** establish a 100% failure rate among remaining legacy
+  people — only among the specific high-risk subset audited so far;
+- it does **not** estimate the method's predictive accuracy, sensitivity,
+  or specificity — that would require auditing a control sample the
+  method scored as low-risk, which no cycle in this lane has done;
+- it does **not** prove the remaining 28 profiles in §16 are defective —
+  they remain unaudited, not proven either way.
+
+**Recommendation: continue targeted legacy remediation before starting
+Roster33** — the observed pattern has only strengthened, not weakened,
+across three independent high-risk-targeted cycles, though that is
+evidence for the triage method's prioritization value, not a general
+claim about the rest of the cohort. This recommendation is not executed
+here; starting a batch 4 or Roster33 is explicitly out of scope for this
+PR.
 
 ## 18. Explicit confirmations
 
@@ -356,3 +408,84 @@ explicitly out of scope for this PR.
   outside the three targets was modified.
 - No eligibility rescue for any of the three.
 - Roster33 not started.
+
+## 19. Incident ledgers and final-row coverage (auditability correction — added post-review)
+
+**Why this section exists**: the original batch-3 process required a fact
+ledger built before scoring, and the original draft of this checkpoint
+documented sources (§4) and row dispositions (§5) but did not preserve a
+compact, reviewable incident ledger tying each retained row to a specific
+named episode. This section reconstructs one for each of the three
+targets, **using only evidence already present** in the committed
+candidate JSON rationales (`data-pipeline/candidates/<slug>.json`) and
+the source lists in §4 — no new research, no new sources, no browsing,
+no rescoring. Where one real-world episode supports multiple attributes
+it is listed once, per the rule that a source or a reputation is never
+itself counted as an incident, and awards/output/acclaim are never
+counted as behavioral incidents.
+
+### Srinivasa Ramanujan — 10 distinct incidents, 13/13 final rows mapped
+
+| # | behavior/action | source(s) | firsthand/secondary | supports |
+|---|---|---|---|---|
+| 1 | Self-taught study of Carr's *Synopsis* at 16; independent early research on Euler's constant/Bernoulli numbers | Wolfram | secondary, quoting his notebooks | curiosity, resourcefulness |
+| 2 | Sustained notebook practice: recording whole classes of results with no intermediate proof, years before they became known (e.g. the 1729-class results) | Kanigel; Wolfram | secondary, from his own notebooks | intuitive_synthesis, mastery_orientation |
+| 3 | Unsolicited letters to Hardy and other mathematicians, idiosyncratic notation, explicit statement of his actual (verification, not proof-validation) goal | his own 1913 letters; Wolfram | firsthand (his own letters) | independent_thinking, proactive_agency, decisiveness |
+| 4 | Left home at 18 amid singular mathematical focus; failed other coursework; mother filed a missing-person notice | Wolfram, via Kanigel | secondary | deep_focus, autonomy_need |
+| 5 | WWI-era decision to hold publication of older notebook results while pursuing new ones | his own letters | firsthand | planning_orientation |
+| 6 | First Trinity College fellowship attempt failed; Littlewood advocated directly to secure it | Kanigel | secondary | persistence |
+| 7 | Sustained multi-year Hardy collaboration producing genuine joint advances; regular Sunday walks/discussions with Mahalanobis | Kanigel | secondary | collaboration |
+| 8 | Sustained disagreement with Hardy over proof/rigor standards, without capitulating | Kanigel | secondary | conflict_tolerance, autonomy_need |
+| 9 | Directly rebutted Littlewood's suspicion that he withheld proofs out of fear of theft | Kanigel | secondary | conflict_tolerance |
+| 10 | Arranged for tamarind/coconut oil to be shipped from India while at Cambridge | Wolfram | secondary | resourcefulness |
+
+Independence note: incidents 1-2 and 4/6-10 rest on Kanigel's/Wolfram's
+accounts, independent of Ramanujan himself; incidents 3 and 5 are
+firsthand (his own letters), independently quoted by Wolfram.
+
+### Toni Morrison — 9 distinct incidents, 12/12 final rows mapped
+
+| # | behavior/action | source(s) | firsthand/secondary | supports |
+|---|---|---|---|---|
+| 1 | Wrote *The Bluest Eye* rising at ~4am while working full-time and raising two children alone | pre-existing finding, re-verified | secondary | discipline |
+| 2 | Explicit, stated standard distinguishing productive revision from unproductive "fretting" | her own words, Paris Review | firsthand | analytical_rigor |
+| 3 | Described substituting "compulsion for discipline," clearing everything aside to write for sustained periods | her own words, Paris Review | firsthand | deep_focus |
+| 4 | Specific stanza-cut suggestion to Lucille Clifton on "To Ms. Ann," naming exactly why it undermined the poem | Williams, quoting her editorial letters | secondary, quoting firsthand letters | detail_orientation |
+| 5 | June Jordan acquisition: months of negotiation through a real communication breakdown to a successful multibook contract; an unsolicited business case built to overcome publisher reluctance | Williams | secondary | persistence, persuasiveness, proactive_agency |
+| 6 | Direct four-page letter to Jordan ("Random House... are not at all interested in publishing your poetry. I am") | Williams, quoting the letter | secondary, quoting firsthand letter | decisiveness, conflict_tolerance |
+| 7 | Secured a 5,000-copy print run for Barbara Chase-Riboud's novel against an expected 1,500 | Williams | secondary | persuasiveness |
+| 8 | Sustained editorial relationships across multiple authors (Clifton, Bambara, Jones) — genuinely productive, though the Jordan relationship stayed distant despite a successful outcome | Williams | secondary | collaboration |
+| 9 | Direct, sometimes unwelcome craft-focused critique given in rejection letters | Williams | secondary | conflict_tolerance |
+
+`autonomy_need` and `impact_motivation` are each supported by the same
+underlying named incidents (4, 5, 7) read together as a career-long
+pattern, not by any additional discrete episode — reported this way
+rather than inventing a distinct "pattern" incident, per the rule against
+counting a reputation as its own incident.
+
+### Hayao Miyazaki — 7 distinct incidents, 12/12 final rows mapped
+
+| # | behavior/action | source(s) | firsthand/secondary | supports |
+|---|---|---|---|---|
+| 1 | Critiqued animator Tamura's work down to specific details until Tamura redrew 18 sheets from scratch; confirmed by a senior colleague as an institutionalized "rite of passage" every Ghibli animator goes through | Talbot, The New Yorker | secondary | detail_orientation, perfectionism, leadership_drive, mastery_orientation |
+| 2 | Became the Toei Doga labor union's chief secretary (1964) | pre-existing finding, re-verified | secondary | leadership_drive |
+| 3 | Sustained real conflict with son Goro over *Tales from Earthsea* (2006): silence throughout production, walking out of the premiere after an hour, and an unambiguous ("not an adult yet") assessment when asked | multiple accounts, "Father and Child's 300 Day War" | secondary | conflict_tolerance, decisiveness, autonomy_need |
+| 4 | 50+ year creative partnership with Isao Takahata: a genuinely productive "perfect duo" early on, each other's "harshest critics" throughout, growing more strained over time | multiple independent accounts | secondary | collaboration, persistence |
+| 5 | Decade-long observed daily studio routine: consistent work rhythm, storyboard drawing, idea exploration, deliberately discarding what doesn't work | NHK, *10 Years with Hayao Miyazaki* | secondary, observational | discipline, deep_focus |
+| 6 | Repeatedly announced retirement (1998, 2013) and returned to work each time | pre-existing finding, re-verified | secondary | persistence |
+| 7 | Founded Studio Ghibli (1985) specifically to secure creative/production control, unprompted by any employer | pre-existing finding, re-verified | secondary | autonomy_need, proactive_agency |
+
+### Coverage summary
+
+| | final rows | ledger-mapped rows |
+|---|---|---|
+| srinivasa-ramanujan | 13 | 13 |
+| toni-morrison | 12 | 12 |
+| hayao-miyazaki | 12 | 12 |
+
+Every final scored row for all three targets maps to at least one ledger
+entry above — no row required new research to justify, and none was
+rescored, removed, or added as a result of building this ledger. This is
+a documentation reconstruction of evidence already used, not a new
+research pass. No final row failed to map; nothing in this section
+triggered a BLOCKED condition.
