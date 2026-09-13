@@ -530,7 +530,65 @@ batch 2 ~0.0058 (max at p99.9) -> batch 3 ~0.0067 (max at p99.9) -> batch 4
 eligible pool further could plausibly cross the threshold from either end
 of the distribution now, not only the tail.
 
-## 20. Explicit confirmations
+## 20. Incident ledgers and final-row coverage (completing this cycle's own required deliverable)
+
+**Process note**: this section should have shipped in the first version of
+this checkpoint -- the task's own instructions required a fact/incident
+ledger built *before* scoring, preserved into the final checkpoint. The
+underlying research was done to that standard and every row's rationale
+above already cites specific, named incidents, but it was never
+formalized into its own ledger table before the implementation commit.
+Added here via a small documentation-only follow-up (no new research, no
+new sources, no rescoring -- every incident below is already cited in
+§5/§7's row-level rationale and the committed candidate JSON files).
+
+### Richard Feynman — 5 distinct incidents, 11/11 final rows mapped
+
+| # | behavior/action | source(s) | period | firsthand/secondary | supports |
+|---|---|---|---|---|---|
+| 1 | Self-taught, systematic lock-picking at Los Alamos; escalated as security was upgraded to defeat him; left a prank note | Surely You're Joking memoir (via Open Culture); Gleick | WWII, ~1943-45 | secondary | curiosity, mastery_orientation |
+| 2 | Rogers Commission: bypassed official process to interview NASA/JPL engineers directly; conducted the live ice-water O-ring demonstration; insisted on publishing an independent minority appendix | Nautilus; his own quoted hearing words | 1986 | secondary + firsthand | analytical_rigor, independent_thinking, persistence, decisiveness, conflict_tolerance, proactive_agency |
+| 3 | Called the Nobel Prize "a pain in the neck"; stated the real reward was "the pleasure of finding the thing out" | Caltech's own archived record | 1965 | firsthand | autonomy_need, decisiveness |
+| 4 | "The first principle is that you must not fool yourself" -- explicit epistemic standard | his own Cargo Cult Science address (primary text) | 1974 | firsthand | analytical_rigor, independent_thinking |
+| 5 | Real 1957 V-A theory collaboration with Gell-Mann alongside decades of naming/credit friction; Gell-Mann's own later "snarky obituary"; kept an office two doors away for 33 years regardless | Wolfram (independent, direct-witness) | 1954-88 | secondary | collaboration, conflict_tolerance, competitiveness |
+
+### Simone Biles — 4 distinct incidents, 11/11 final rows mapped
+
+| # | behavior/action | source(s) | period | firsthand/secondary | supports |
+|---|---|---|---|---|---|
+| 1 | Publicly disclosed Nassar's abuse (2018); testified before the Senate, explicitly widening the account to "an entire system" (2021) | her own statement/testimony; independently reported/documented | 2018, 2021 | firsthand + independent verification | social_assertiveness, leadership_drive, impact_motivation, conflict_tolerance, proactive_agency |
+| 2 | Withdrew from Tokyo 2020 mid-competition; explained in real time: "my mind & body are simply not in sync... I put my health first" | her own Instagram statements; independently reported | 2021 | firsthand | decisiveness, autonomy_need, conflict_tolerance, proactive_agency |
+| 3 | Built an explicitly "intentional" comeback practice: scheduled weekly therapy, redefined personal "success," more cautious approach | NBC News interview, her own words | 2023 | firsthand | discipline, planning_orientation, adaptability |
+| 4 | Returned to elite competition at the 2023 U.S. Classic after a two-year absence; won Olympic all-around/vault gold again in 2024 | public competition record, independently documented | 2023-24 | secondary | persistence |
+
+### Steve Jobs — 9 distinct incidents, 16/16 final rows mapped
+
+| # | behavior/action | source(s) | period | firsthand/secondary | supports |
+|---|---|---|---|---|---|
+| 1 | Recognized the GUI/mouse's transformative potential at Xerox PARC, when Xerox itself hadn't productized it | pre-existing finding, re-verified | 1979 | secondary | opportunity_sensing |
+| 2 | Forced out of Apple; founded NeXT; his own later reflection ("the lightness of being a beginner again") | pre-existing finding; his own 2005 Stanford address | 1985 (reflection: 2005) | secondary + firsthand | persistence, adaptability, autonomy_need |
+| 3 | Reality distortion field, independently named/described by Bud Tribble and Andy Hertzfeld; concrete instance persuading Corning's Wendell Weeks against his own stated limits | Isaacson, relaying named colleagues' direct testimony | ongoing; Corning ~2006-07 | secondary (multiply-witnessed) | independent_thinking, decisiveness, persuasiveness, leadership_drive |
+| 4 | Exacting standard maintained partly by "berating and belittling" employees; "90 hours a week and loving it" culture | Isaacson | ongoing | secondary | detail_orientation, perfectionism, leadership_drive, conflict_tolerance |
+| 5 | After the NeXT acquisition returned him only as an adviser, maneuvered -- persuading the board, contributing to Gil Amelio's ouster -- into the CEO role himself | pre-existing finding, re-verified | 1996-97 | secondary | proactive_agency, autonomy_need |
+| 6 | Publicly reversed his own stated opposition to third-party apps, launching the App Store | pre-existing finding, re-verified | 2007-08 | secondary | belief_updating |
+| 7 | Personally backed Pixar as majority shareholder/chairman through ~a decade of uncertain returns before Toy Story | pre-existing finding, re-verified | 1986-95 | secondary | persistence, risk_tolerance |
+| 8 | Misrepresented a 1975 Atari payout to Wozniak ($5,000 real vs. $750 told), splitting only the smaller figure for years | Wozniak's own account, via Isaacson | 1975 | secondary | collaboration |
+| 9 | Blunt, on-record assessment of Microsoft: "they have no taste... no spirit to them" | his own words, The Lost Interview | 1995 | firsthand | competitiveness, decisiveness |
+
+### Coverage summary
+
+| | final rows | ledger-mapped rows |
+|---|---|---|
+| richard-feynman | 11 | 11 |
+| simone-biles | 11 | 11 |
+| steve-jobs | 16 | 16 |
+
+Every final scored row for all three targets maps to at least one ledger
+entry above. No row required new research to justify, and none was
+rescored, removed, or added as a result of formalizing this ledger. Nothing
+in this section triggered a BLOCKED condition.
+
+## 21. Explicit confirmations
 
 - Only richard-feynman, simone-biles, and steve-jobs received new
   behavioral research, manual evidence review, rescoring, or data
