@@ -568,6 +568,35 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["perfectionist", "independent", "craft_focused"],
     archetypeIds: ["creative_creator", "independent_creator"],
+    // Legacy integrity remediation batch 3 (2026-09-13,
+    // docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md):
+    // ranked #3 among 31 legacy profiles with risk score 11 (first
+    // alphabetically among a four-way tie with richard-feynman,
+    // simone-biles, steve-jobs) -- 2 sources, 29 high-confidence rows
+    // resting on an unsupported base set, 11 "documented"-tier claims
+    // among them, no Wikidata QID. The first LIVING subject in this
+    // remediation lane -- no death/health-crisis material applies.
+    // Re-researched from scratch; a real candidate record now exists at
+    // data-pipeline/candidates/hayao-miyazaki.json, the authoritative
+    // source of truth this seed entry mirrors exactly. All 31 original
+    // rows (30 base + 1 taxonomy_v1.1) audited against a fresh ledger
+    // (his own Starting Point, the decade-long NHK documentary "10 Years
+    // with Hayao Miyazaki", Margaret Talbot's New Yorker profile, and
+    // multiply-corroborated coverage of the Goro Miyazaki/Tales from
+    // Earthsea conflict). 12 retained and rescored, 19 removed for lack
+    // of individually-attributable support this cycle. creative_
+    // originality/aesthetic_sensitivity/intuitive_synthesis/independent_
+    // thinking were all very high in the original profile reflecting his
+    // acclaimed filmography, but no distinct behavioral incident from
+    // this cycle's research supports them separately from the films' own
+    // reception -- removed rather than re-justified from acclaim/output
+    // alone. The Goro/Earthsea material is a real professional-and-
+    // personal conflict with concrete actions, not a health/tragedy/
+    // diagnosis matter, so it is used, but only for the specific actions
+    // and quotes, never as a judgment on the parenting relationship
+    // itself.
+    externalIdentity: { wikidataId: "Q55400" },
+    directoryVisible: true,
     // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
     // photograph, 2009.
     portrait: {
@@ -603,53 +632,73 @@ const seeds: PersonSeed[] = [
     sources: [
       wiki("miyazaki", "Hayao Miyazaki"),
       bio("miyazaki", "Hayao Miyazaki, Starting Point: 1979-1996 (1996)"),
+      { id: "src_miyazaki_nhk_10years", kind: "institution", title: "10 Years with Hayao Miyazaki (NHK, dir. Kaku Arakawa, 2019) -- decade-long observational documentary" },
+      { id: "src_miyazaki_new_yorker", kind: "press", title: "Margaret Talbot, profile of Hayao Miyazaki, The New Yorker -- independent journalism" },
+      { id: "src_miyazaki_goro_conflict", kind: "press", title: "Father and Child's 300 Day War (documentary) and related coverage of the Goro Miyazaki/Tales from Earthsea conflict" },
     ],
     doNotCopyKeys: ["dontcopy.miyazaki.exacting_standards"],
     rows: {
-      curiosity: [85, 0.7, "s", "A"],
-      analytical_rigor: [62, 0.5, "i", "N"],
-      intuitive_synthesis: [85, 0.7, "s", "N"],
-      systems_abstraction: [65, 0.5, "i", "N"],
-      independent_thinking: [92, 0.88, "d", "A"],
-      creative_originality: [95, 0.92, "d", "A"],
-      experimentation: [70, 0.55, "s", "N"],
-      cross_domain_range: [62, 0.5, "i", "N"],
-      aesthetic_sensitivity: [98, 0.95, "d", "A"],
-      discipline: [92, 0.88, "d", "A"],
-      deep_focus: [95, 0.9, "d", "A"],
-      detail_orientation: [96, 0.94, "d", "D"],
-      perfectionism: [96, 0.92, "d", "D"],
-      execution_speed: [42, 0.75, "d", "D"],
-      planning_orientation: [55, 0.5, "i", "N"],
-      persistence: [94, 0.88, "d", "A"],
-      adaptability: [58, 0.5, "i", "N"],
-      risk_tolerance: [62, 0.5, "i", "N"],
-      ambiguity_tolerance: [68, 0.5, "i", "N"],
-      decisiveness: [78, 0.6, "s", "N"],
-      social_assertiveness: [52, 0.5, "i", "N"],
-      collaboration: [55, 0.6, "s", "N"],
-      leadership_drive: [72, 0.65, "s", "D"],
-      persuasiveness: [62, 0.5, "i", "N"],
-      conflict_tolerance: [72, 0.65, "s", "D"],
-      mastery_orientation: [96, 0.92, "d", "A"],
-      achievement_drive: [72, 0.5, "i", "N"],
-      competitiveness: [48, 0.45, "i", "N"],
-      autonomy_need: [90, 0.85, "d", "A"],
-      impact_motivation: [82, 0.7, "s", "A"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6): proactive_agency (78, 0.65,
+      // A decade-long observational documentary shows a consistent daily
+      // studio routine and work rhythm sustained over years (NHK, "10
+      // Years with Hayao Miyazaki").
+      discipline: [88, 0.55, "s", "A"],
+      // The same documentary shows sustained, absorbed working sessions
+      // over years -- storyboard drawing, idea exploration, deliberately
+      // discarding what doesn't work (NHK).
+      deep_focus: [90, 0.55, "s", "A"],
+      // Critiqued animator Tamura's work down to specific details (angles
+      // of neck and arm, wrinkles in clothing) until Tamura redrew 18
+      // sheets of his first Genga from scratch (Talbot, The New Yorker).
+      detail_orientation: [92, 0.62, "s", "D"],
+      // The Tamura redraw was not a one-off: a senior colleague confirms
+      // this exacting standard is a standard "rite of passage" every
+      // Ghibli animator goes through (Talbot, The New Yorker).
+      perfectionism: [90, 0.6, "s", "D"],
+      // Repeatedly announced retirement (1998, 2013) and returned to work
+      // each time (pre-existing finding, re-verified); sustained the
+      // Takahata creative partnership across 50+ years despite growing
+      // strain.
+      persistence: [82, 0.55, "s", "A"],
+      // Walked out of his son Goro's film premiere after an hour for a
+      // cigarette ("felt like three hours"), and when asked his assessment
+      // gave an unambiguous answer ("I was looking at my kid. He's not an
+      // adult yet") rather than a diplomatic hedge.
+      decisiveness: [75, 0.55, "s", "D"],
+      // 50+ year creative partnership with Isao Takahata: a genuinely
+      // productive "perfect duo" in early years, but each other's
+      // "harshest critics" throughout, growing more strained in later
+      // decades (multiple independent accounts).
+      collaboration: [55, 0.55, "s", "D"],
+      // Institutionalized an exacting craft standard studio-wide (the
+      // Tamura-style "rite of passage" every animator experiences); in
+      // 1964 at Toei Doga became the labor union's chief secretary
+      // (pre-existing finding, re-verified).
+      leadership_drive: [78, 0.58, "s", "D"],
+      // Sustained real conflict with his son Goro over Tales from Earthsea
+      // (2006): felt Goro lacked the experience to direct, and the two did
+      // not speak throughout the film's production (multiple accounts,
+      // "Father and Child's 300 Day War").
+      conflict_tolerance: [78, 0.58, "s", "D"],
+      // Built and sustained a studio-wide culture of repeated redraws and
+      // refinement as the norm for achieving Ghibli's standard of craft,
+      // not merely his own personal habit (Talbot).
+      mastery_orientation: [90, 0.6, "s", "A"],
+      // Founded Studio Ghibli (1985) specifically to secure creative and
+      // production control (pre-existing finding, re-verified); did not
+      // soften his professional assessment of his own son's directorial
+      // debut despite the real relational cost.
+      autonomy_need: [88, 0.62, "s", "A"],
+      // taxonomy_v1.1 (Stage 5, Phase 6.6): proactive_agency (78, 0.62,
       // strong_inference) — co-founded Studio Ghibli (1985) specifically to
-      // secure creative/production control, unprompted by any employer.
-      // opportunity_sensing left unscored: his career is characterized by
-      // consistent adherence to his own vision (already reflected in
-      // independent_thinking/autonomy_need) rather than documented reading
-      // of external shifts. resourcefulness: considered (early TV-animation
-      // budget constraints) and left unscored — that's a generic industry
-      // condition, not documented evidence of a personal resourceful-
-      // improvisation pattern specific to him. belief_updating: his repeated
-      // announced-then-reversed retirements are a personal/plan change, not
-      // evidence of revising a substantive belief under evidence — left
-      // unscored rather than stretched.
-      proactive_agency: [78, 0.65, "s", "A"],
+      // secure creative/production control, unprompted by any employer
+      // (pre-existing finding, re-verified).
+      // opportunity_sensing/resourcefulness/belief_updating: checked again
+      // this cycle, same conclusions as the pre-existing profile's own
+      // reasoning (vision-adherence already captured elsewhere; industry-
+      // wide budget constraints aren't personal resourcefulness; repeated
+      // retirement reversals are a plan change, not evidence of revising a
+      // substantive belief) — left unscored rather than stretched.
+      proactive_agency: [78, 0.62, "s", "A"],
     },
   },
   {

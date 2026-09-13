@@ -284,6 +284,18 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "bruce-lee",
     "ludwig-van-beethoven",
     "nikola-tesla",
+    // Legacy integrity remediation batch 3 (2026-09-13, docs/checkpoints/
+    // legacy-integrity-batch3-three-person-remediation.md): the same
+    // deterministic risk triage, recomputed fresh against the 31-person
+    // legacy cohort remaining after batches 1-2, froze srinivasa-ramanujan,
+    // toni-morrison, and hayao-miyazaki (the first living subject in this
+    // lane) as the three highest-risk remaining profiles. All three were
+    // re-researched from scratch and are honestly non-match-eligible for
+    // the first time. Match-eligible set drops by exactly three, to 120
+    // (see the next test); no other person's eligibility changed.
+    "srinivasa-ramanujan",
+    "toni-morrison",
+    "hayao-miyazaki",
   ]);
 
   it("still exactly 225 production people", () => {
@@ -296,7 +308,7 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     expect(visible).toHaveLength(224);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety-eight deliberately-divergent roster24/25/26/27/28/29/30/31/32 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, and nikola-tesla", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety-eight deliberately-divergent roster24/25/26/27/28/29/30/31/32 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, and hayao-miyazaki", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);
@@ -307,11 +319,19 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     }
   });
 
-  it("the match-eligible set is 123, down from 127 for the first time since Che Guevara grew it in roster26 -- akira-kurosawa's legacy remediation plus the three legacy-integrity-batch-2 remediations are the only causes, no other person's eligibility changed", () => {
-    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(123);
+  it("the match-eligible set is 120, down from 127 for the first time since Che Guevara grew it in roster26 -- akira-kurosawa's legacy remediation plus the three batch-2 and three batch-3 remediations are the only causes, no other person's eligibility changed", () => {
+    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(120);
     const cheGuevara = SEED_PEOPLE.find((p) => p.slug === "che-guevara");
     expect(cheGuevara?.isMatchEligible).toBe(true);
-    for (const slug of ["akira-kurosawa", "bruce-lee", "ludwig-van-beethoven", "nikola-tesla"]) {
+    for (const slug of [
+      "akira-kurosawa",
+      "bruce-lee",
+      "ludwig-van-beethoven",
+      "nikola-tesla",
+      "srinivasa-ramanujan",
+      "toni-morrison",
+      "hayao-miyazaki",
+    ]) {
       const p = SEED_PEOPLE.find((x) => x.slug === slug);
       expect(p?.isMatchEligible, slug).toBe(false);
     }

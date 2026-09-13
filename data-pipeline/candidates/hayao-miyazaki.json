@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hayao-miyazaki",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hayao Miyazaki",
+    "wikidataId": "Q55400",
+    "birthYear": 1941,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["JP"],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["animator", "film_director"],
+    "fieldIds": ["film", "art"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["perfectionist", "independent", "craft_focused"],
+    "archetypeIds": ["creative_creator", "independent_creator"]
+  },
+  "sources": [
+    { "id": "src_miyazaki_wikipedia", "kind": "wikipedia", "title": "Hayao Miyazaki", "url": "https://en.wikipedia.org/wiki/Hayao_Miyazaki" },
+    { "id": "src_miyazaki_starting_point", "kind": "biography", "title": "Hayao Miyazaki, Starting Point: 1979-1996 (1996) -- his own writing" },
+    { "id": "src_miyazaki_nhk_10years", "kind": "institution", "title": "10 Years with Hayao Miyazaki (NHK, dir. Kaku Arakawa, 2019) -- decade-long observational documentary" },
+    { "id": "src_miyazaki_new_yorker", "kind": "press", "title": "Margaret Talbot, profile of Hayao Miyazaki, The New Yorker -- independent journalism" },
+    { "id": "src_miyazaki_goro_conflict", "kind": "press", "title": "Father and Child's 300 Day War (documentary) and related coverage of the Goro Miyazaki/Tales from Earthsea conflict -- independently, multiply corroborated" }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 92,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Critiqued animator Tamura's work down to specific details (angles of neck and arm, wrinkles in clothing) until Tamura redrew 18 sheets of his first Genga from scratch (Talbot, The New Yorker)."
+    },
+    "perfectionism": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "The Tamura redraw was not a one-off: a senior colleague confirms this exacting standard is a standard \"rite of passage\" every Ghibli animator goes through (Talbot, The New Yorker)."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Institutionalized an exacting craft standard studio-wide (the Tamura-style \"rite of passage\" every animator experiences); in 1964 at Toei Doga became the labor union's chief secretary (pre-existing finding, re-verified)."
+    },
+    "mastery_orientation": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built and sustained a studio-wide culture of repeated redraws and refinement as the norm for achieving Ghibli's standard of craft, not merely his own personal habit (Talbot)."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained real conflict with his son Goro over Tales from Earthsea (2006): felt Goro lacked the experience to direct, and the two did not speak throughout the film's production (multiple accounts, \"Father and Child's 300 Day War\")."
+    },
+    "decisiveness": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Walked out of his son's film premiere after an hour for a cigarette (\"felt like three hours\"), and when asked his assessment gave an unambiguous answer (\"I was looking at my kid. He's not an adult yet\") rather than a diplomatic hedge."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "50+ year creative partnership with Isao Takahata: a genuinely productive \"perfect duo\" in early years, but each other's \"harshest critics\" throughout, growing more strained in later decades (multiple independent accounts)."
+    },
+    "discipline": {
+      "score": 88,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "A decade-long observational documentary shows a consistent daily studio routine and work rhythm sustained over years (NHK, \"10 Years with Hayao Miyazaki\")."
+    },
+    "deep_focus": {
+      "score": 90,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The same documentary shows sustained, absorbed working sessions over years -- storyboard drawing, idea exploration, deliberately discarding what doesn't work (NHK)."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Repeatedly announced retirement (1998, 2013) and returned to work each time (pre-existing finding, re-verified); sustained the Takahata creative partnership across 50+ years despite growing strain."
+    },
+    "autonomy_need": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded Studio Ghibli (1985) specifically to secure creative and production control (pre-existing finding, re-verified); did not soften his professional assessment of his own son's directorial debut despite the real relational cost."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Co-founded Studio Ghibli (1985) specifically to secure creative/production control, unprompted by any employer (pre-existing finding, re-verified)."
+    }
+  },
+  "doNotCopyKeys": ["dontcopy.miyazaki.exacting_standards"],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hayao-miyazaki-2009.jpg",
+    "width": 342,
+    "height": 519,
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg",
+    "attribution": "Natasha Baucas",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 3 (2026-09-13, docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batch 2 against the 31-person legacy cohort remaining after batches 1-2. Miyazaki ranked #3 among 31 legacy profiles with risk score 11 (first alphabetically among a four-way tie with richard-feynman, simone-biles, steve-jobs): 2 sources cited, 29 high-confidence rows resting on the unsupported original base set, 11 'documented'-tier claims among them, no Wikidata QID. This is the first LIVING subject in this remediation lane -- no death/health-crisis material applies. New research (his own Starting Point, the decade-long NHK documentary '10 Years with Hayao Miyazaki', Margaret Talbot's New Yorker profile, and multiply-corroborated coverage of the Goro Miyazaki/Tales from Earthsea conflict) audited all 31 original rows (30 base + 1 taxonomy_v1.1). 12 retained and rescored from the evidence directly, 0 new rows added, 19 removed for lack of individually-attributable, non-duplicative support this cycle (curiosity, analytical_rigor, intuitive_synthesis, systems_abstraction, independent_thinking, creative_originality, experimentation, cross_domain_range, aesthetic_sensitivity, execution_speed, planning_orientation, adaptability, risk_tolerance, ambiguity_tolerance, social_assertiveness, persuasiveness, achievement_drive, competitiveness, impact_motivation). creative_originality/aesthetic_sensitivity/intuitive_synthesis/independent_thinking were all very high in the original profile reflecting his acclaimed filmography, but no distinct behavioral incident from this cycle's research supports them separately from the films' own reception -- removed rather than re-justified from acclaim/output alone. The Goro/Earthsea material is a real professional-and-personal conflict with concrete actions (silence, walking out, a later documented apology in the NHK documentary), not a health/tragedy/diagnosis matter, so it is used, but only for the specific actions and quotes, never as a judgment on the parenting relationship itself. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

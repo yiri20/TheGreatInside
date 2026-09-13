@@ -1976,6 +1976,28 @@ const seeds: PersonSeed[] = [
     impactDomains: ["scientific"],
     tagIds: ["self_taught", "specialist", "intuitive"],
     archetypeIds: ["scholarly_specialist", "scientific_explorer"],
+    // Legacy integrity remediation batch 3 (2026-09-13,
+    // docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md):
+    // ranked #1 among 31 legacy profiles with risk score 12 (only 1 source,
+    // 16 high-confidence rows resting on an unsupported base set, 6
+    // "documented"-tier claims among them, no Wikidata QID). Re-researched
+    // from scratch; a real candidate record now exists at
+    // data-pipeline/candidates/srinivasa-ramanujan.json, the authoritative
+    // source of truth this seed entry mirrors exactly. All 32 original
+    // rows (30 base + 2 taxonomy_v1.1) audited against a fresh ledger
+    // (Kanigel's independent biography, his own 1913 letters to Hardy,
+    // Wolfram's account quoting them directly, and Hardy/Littlewood's own
+    // recorded actions). 13 retained and rescored, 19 removed for lack of
+    // individually-attributable support this cycle. Hardy's informal
+    // "100 on a scale to 100" rating and the "Goddess Namagiri"
+    // dream-revelation framing were read but not used as row evidence
+    // (third-party reputation and legend/tradition, respectively, per
+    // this cycle's own evidence discipline). His declining health and
+    // 1920 death were not used as evidence, per this project's standing
+    // precedent against inferring personality from tragedy/health
+    // circumstance.
+    externalIdentity: { wikidataId: "Q83163" },
+    directoryVisible: true,
     // ROSTER-1000 portrait pilot (2026-08): verified live against the
     // actual Commons file page before being added.
     // Portrait Reliability Localization Batch 2 (2026-08): high
@@ -1994,55 +2016,90 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan_-_OPC_-_1.jpg",
       attribution: "Oberwolfach Photo Collection",
     },
-    sources: [wiki("ramanujan", "Srinivasa Ramanujan")],
+    sources: [
+      wiki("ramanujan", "Srinivasa Ramanujan"),
+      { id: "src_ramanujan_kanigel", kind: "biography", title: "Robert Kanigel, The Man Who Knew Infinity: A Life of the Genius Ramanujan (1991) -- independent biography" },
+      { id: "src_ramanujan_letters", kind: "archive", title: "Ramanujan's own 1913 letters to G.H. Hardy" },
+      { id: "src_ramanujan_wolfram", kind: "press", title: "Stephen Wolfram, \"Who Was Ramanujan?\" (2016) -- independent account quoting directly from his letters" },
+      { id: "src_ramanujan_hardy_littlewood", kind: "archive", title: "G.H. Hardy's and J.E. Littlewood's own recorded actions/assessments (Trinity fellowship advocacy)" },
+    ],
     rows: {
-      curiosity: [88, 0.72, "s", "A"],
-      analytical_rigor: [78, 0.6, "s", "N"],
-      intuitive_synthesis: [98, 0.88, "d", "A"],
-      systems_abstraction: [92, 0.8, "d", "A"],
-      independent_thinking: [90, 0.78, "d", "A"],
-      creative_originality: [90, 0.78, "d", "A"],
-      experimentation: [60, 0.48, "i", "N"],
-      cross_domain_range: [35, 0.4, "i", "N"],
-      aesthetic_sensitivity: [65, 0.5, "i", "N"],
-      discipline: [70, 0.55, "s", "N"],
-      deep_focus: [95, 0.85, "d", "A"],
-      detail_orientation: [55, 0.45, "i", "N"],
-      perfectionism: [55, 0.42, "i", "N"],
-      execution_speed: [45, 0.42, "i", "N"],
-      planning_orientation: [30, 0.45, "s", "N"],
-      persistence: [90, 0.75, "s", "A"],
-      adaptability: [45, 0.4, "i", "N"],
-      risk_tolerance: [55, 0.42, "i", "N"],
-      ambiguity_tolerance: [88, 0.7, "s", "A"],
-      decisiveness: [55, 0.4, "i", "N"],
-      social_assertiveness: [30, 0.55, "s", "N"],
-      collaboration: [42, 0.55, "s", "N"],
-      leadership_drive: [25, 0.55, "s", "N"],
-      persuasiveness: [35, 0.4, "i", "N"],
-      conflict_tolerance: [40, 0.4, "i", "N"],
-      mastery_orientation: [95, 0.82, "d", "A"],
-      achievement_drive: [62, 0.45, "i", "N"],
-      competitiveness: [35, 0.4, "i", "N"],
-      autonomy_need: [82, 0.65, "s", "A"],
-      impact_motivation: [55, 0.42, "i", "N"],
+      // Conducted independent research on Euler's constant and Bernoulli
+      // numbers while still in high school; obtained G.S. Carr's Synopsis
+      // at 16 and studied it intensively, adopting its terse presentation
+      // style (Wolfram).
+      curiosity: [88, 0.62, "s", "A"],
+      // His notebooks show a distinctive, sustained working style of
+      // arriving at complex results with no intermediate proofs or
+      // references -- e.g. the 1729 "taxi number" class of results, which
+      // he had recorded years before the famous anecdote took place
+      // (multiple independent accounts tracing to his own notebooks).
+      intuitive_synthesis: [92, 0.62, "s", "A"],
+      // Wrote unprompted to Hardy and several other mathematicians before
+      // him (mostly ignored), with no formal credentials, and used his own
+      // idiosyncratic terse notation rather than conventional mathematical
+      // exposition.
+      independent_thinking: [88, 0.6, "s", "A"],
+      // His singular mathematical focus led him to fail his other college
+      // coursework and leave home at 18, prompting his mother to place a
+      // missing-person notice -- a specific, dated episode showing the
+      // real cost of his focus alongside its intensity (Wolfram, via
+      // Kanigel).
+      deep_focus: [90, 0.6, "s", "D"],
+      // During WWI, explicitly decided (in his own letters) to hold
+      // publication of his older notebook results until after the war
+      // while continuing to pursue new results in the meantime -- a
+      // considered, deliberate choice about timing and priority.
+      planning_orientation: [68, 0.55, "s", "A"],
+      // His Trinity College fellowship was secured only after a first
+      // unsuccessful attempt (Littlewood had to advocate directly); he had
+      // reportedly "invented the method eight years earlier" for results
+      // he later shared, and continued working through WWI disruption.
+      persistence: [85, 0.58, "s", "A"],
+      // Was explicit and self-aware in his letters to Hardy about his
+      // actual goal -- verification of his results, not necessarily
+      // validating his proof methodology -- even joking about how
+      // unconventional this looked.
+      decisiveness: [72, 0.52, "s", "A"],
+      // Sustained, real collaboration with Hardy over years producing
+      // genuine joint advances, plus regular Sunday walks and discussions
+      // with Mahalanobis -- but a collaboration marked by persistent
+      // friction over differing standards, not an easy partnership
+      // (Kanigel).
+      collaboration: [55, 0.5, "s", "D"],
+      // Directly rebutted Littlewood's suspicion that he withheld proofs
+      // out of fear of theft; sustained disagreement with Hardy over the
+      // importance of formal proof and rigor without capitulating to
+      // Hardy's preferred standard.
+      conflict_tolerance: [68, 0.52, "s", "D"],
+      // Systematic, sustained notebook development over many years,
+      // recording entire classes of results (like the numbers behind the
+      // 1729 anecdote) long before any external prompting to do so.
+      mastery_orientation: [92, 0.62, "s", "A"],
+      // Left home at 18 to pursue mathematics independently against his
+      // family's expectations; held his own epistemic and methodological
+      // standards against Hardy's sustained pressure to conform to
+      // conventional proof-writing.
+      autonomy_need: [85, 0.58, "s", "A"],
       // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol):
-      //   - resourcefulness (88, 0.7, s, A) — as a poor, self-taught
+      //   - resourcefulness (85, 0.62, s, A) — as a poor, self-taught
       //     mathematician in colonial India with no access to advanced
       //     mathematical literature, reconstructed and extended vast areas
       //     of mathematics using essentially one outdated textbook (G.S.
       //     Carr's Synopsis) — a severe, genuine resource constraint met by
       //     independent reconstruction from what little was available.
-      //   - proactive_agency (78, 0.65, s, A) — wrote unprompted, with no
+      //     Reinforced by a second, distinct instance: proactively
+      //     arranged for tamarind and coconut oil to be shipped from India
+      //     to maintain his diet while in Cambridge (Wolfram).
+      //   - proactive_agency (80, 0.6, s, A) — wrote unprompted, with no
       //     formal credentials or introduction, directly to G.H. Hardy at
       //     Cambridge (and several other mathematicians before him, mostly
       //     ignored), sending his own derived results.
-      // opportunity_sensing/belief_updating: no supporting evidence either
-      // direction — his profile is centrally about intuitive mathematical
-      // insight (already captured) and deep focus, not environmental
-      // scanning or documented belief revision.
-      resourcefulness: [88, 0.7, "s", "A"],
-      proactive_agency: [78, 0.65, "s", "A"],
+      // opportunity_sensing/belief_updating: checked again this cycle,
+      // still no supporting evidence either direction — left missing,
+      // same conclusion as the pre-existing profile's own reasoning.
+      resourcefulness: [85, 0.62, "s", "A"],
+      proactive_agency: [80, 0.6, "s", "A"],
     },
   },
   {
@@ -2060,6 +2117,28 @@ const seeds: PersonSeed[] = [
     impactDomains: ["literary", "cultural"],
     tagIds: ["nobel_laureate", "independent"],
     archetypeIds: ["creative_creator", "independent_creator"],
+    // Legacy integrity remediation batch 3 (2026-09-13,
+    // docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md):
+    // ranked #2 among 31 legacy profiles with risk score 12, tied (only 1
+    // source, 24 high-confidence rows resting on an unsupported base set,
+    // 3 "documented"-tier claims among them, no Wikidata QID). Re-researched
+    // from scratch; a real candidate record now exists at
+    // data-pipeline/candidates/toni-morrison.json, the authoritative
+    // source of truth this seed entry mirrors exactly. All 31 original
+    // rows (30 base + 1 taxonomy_v1.1) audited against a fresh ledger (her
+    // own 1993 Paris Review interview and Dana A. Williams's independent,
+    // Random-House-archive-based account of her editorial career). 12
+    // retained and rescored, 19 removed for lack of individually-
+    // attributable support this cycle. creative_originality/intuitive_
+    // synthesis/aesthetic_sensitivity/independent_thinking were all high
+    // in the original profile reflecting her literary reputation, but no
+    // distinct behavioral incident from this cycle's research supports
+    // them separately from the acclaimed novels themselves -- removed
+    // rather than re-justified from acclaim/output alone. Her son Slade's
+    // 2010 death and her Nobel Prize/other awards were read but not used
+    // as row evidence (bereavement and achievement/outcome, respectively).
+    externalIdentity: { wikidataId: "Q72334" },
+    directoryVisible: true,
     // Verified 2026-08 via a direct fetch of the Commons file page. Lifetime
     // photograph, 1998.
     portrait: {
@@ -2116,50 +2195,80 @@ const seeds: PersonSeed[] = [
     //     caused me to stop";
     //   - died August 5, 2019, in the Bronx, New York, of pneumonia
     //     complications, age 88.
-    sources: [wiki("morrison", "Toni Morrison")],
+    sources: [
+      wiki("morrison", "Toni Morrison"),
+      { id: "src_morrison_paris_review", kind: "press", title: "Toni Morrison, \"The Art of Fiction No. 134\", The Paris Review (1993) -- her own words, primary" },
+      { id: "src_morrison_toni_at_random", kind: "biography", title: "Dana A. Williams, Toni at Random: The Iconic Writer's Legendary Editorship -- independent account drawing on Random House archives, quoting her own editorial letters" },
+    ],
     rows: {
-      curiosity: [82, 0.65, "s", "A"],
-      analytical_rigor: [78, 0.6, "s", "N"],
-      intuitive_synthesis: [88, 0.72, "s", "A"],
-      systems_abstraction: [72, 0.55, "s", "N"],
-      independent_thinking: [92, 0.8, "d", "A"],
-      creative_originality: [95, 0.85, "d", "A"],
-      experimentation: [80, 0.65, "s", "A"],
-      cross_domain_range: [55, 0.45, "i", "N"],
-      aesthetic_sensitivity: [92, 0.8, "d", "A"],
-      discipline: [85, 0.68, "s", "A"],
-      deep_focus: [88, 0.72, "s", "A"],
-      detail_orientation: [78, 0.6, "s", "N"],
-      perfectionism: [80, 0.62, "s", "D"],
-      execution_speed: [55, 0.45, "i", "N"],
-      planning_orientation: [62, 0.48, "i", "N"],
-      persistence: [88, 0.72, "s", "A"],
-      adaptability: [68, 0.52, "i", "N"],
-      risk_tolerance: [65, 0.5, "i", "N"],
-      ambiguity_tolerance: [80, 0.62, "s", "A"],
-      decisiveness: [68, 0.5, "i", "N"],
-      social_assertiveness: [68, 0.52, "i", "N"],
-      collaboration: [62, 0.48, "i", "N"],
-      leadership_drive: [58, 0.45, "i", "N"],
-      persuasiveness: [78, 0.6, "s", "A"],
-      conflict_tolerance: [72, 0.55, "s", "N"],
-      mastery_orientation: [85, 0.68, "s", "A"],
-      achievement_drive: [72, 0.55, "i", "N"],
-      competitiveness: [48, 0.42, "i", "N"],
-      autonomy_need: [85, 0.68, "s", "A"],
-      impact_motivation: [85, 0.68, "s", "A"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol): proactive_
-      // agency (65, 0.5, i, A), modest confidence — as a Random House
-      // editor, proactively championed and acquired works by Black authors
-      // (e.g. Toni Cade Bambara, Gayl Jones) that mainstream publishing
-      // wasn't prioritizing, beyond her formally assigned editorial duties.
+      // Her own words: "There's a line between revision and fretting...
+      // when you are fretting it because it is not working, it needs to be
+      // scrapped" -- a specific, reasoned standard for distinguishing
+      // productive revision from unproductive over-working (Paris Review).
+      analytical_rigor: [75, 0.55, "s", "A"],
+      // Wrote her debut novel The Bluest Eye (1970) while working
+      // full-time and raising two children alone, rising at 4am to write
+      // before the day's other demands.
+      discipline: [85, 0.62, "s", "A"],
+      // Her own words: "I've tried to overcome not having orderly spaces
+      // by substituting compulsion for discipline... when something is
+      // urgently there... I would move everything aside and write for
+      // sustained periods of time" (Paris Review).
+      deep_focus: [82, 0.6, "s", "A"],
+      // As an editor, gave Lucille Clifton a specific, precise suggestion
+      // to cut a particular stanza from "To Ms. Ann," identifying exactly
+      // how it undermined the poem's sophistication (Williams, quoting
+      // Morrison's own editorial letters).
+      detail_orientation: [72, 0.52, "s", "A"],
+      // Pursued June Jordan's poetry through months of negotiation and a
+      // real communication breakdown to a successful multibook contract;
+      // sustained a decades-long editorial career championing overlooked
+      // authors (Williams).
+      persistence: [80, 0.55, "s", "A"],
+      // Cut through a stalled negotiation with June Jordan via a direct
+      // four-page letter stating plainly "Random House... are not at all
+      // interested in publishing your poetry. I am" (Williams, quoting the
+      // letter).
+      decisiveness: [75, 0.55, "s", "A"],
+      // Sustained real, productive editorial relationships with multiple
+      // authors (Clifton, Bambara, Jones) alongside genuinely difficult
+      // ones -- the direct Jordan letter was effective but the two never
+      // developed a friendship despite a successful publishing outcome.
+      collaboration: [58, 0.52, "s", "D"],
+      // Secured a 5,000-copy print run for Barbara Chase-Riboud's novel
+      // against an expected 1,500 ("astounded myself"); built an explicit
+      // business case to overcome publisher reluctance to acquire June
+      // Jordan's poetry (Williams, quoting her letters).
+      persuasiveness: [78, 0.58, "s", "A"],
+      // Sent a blunt, unambiguous letter to June Jordan that Jordan
+      // herself found shocking in tone; gave direct, sometimes unwelcome,
+      // craft-focused critique in rejection letters rather than vague or
+      // evasive feedback (Williams).
+      conflict_tolerance: [72, 0.55, "s", "D"],
+      // A recurring, career-long pattern (not a single incident) of
+      // championing unconventional or overlooked Black authors --
+      // Chase-Riboud, Clifton, Jordan, Bambara -- against institutional
+      // and commercial resistance at Random House (Williams).
+      autonomy_need: [82, 0.6, "s", "A"],
+      // Repeatedly prioritized the literary and cultural significance of
+      // underrepresented voices over safer commercial bets, documented
+      // across several separate acquisition decisions during her Random
+      // House career (Williams).
+      impact_motivation: [82, 0.6, "s", "A"],
+      // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol):
+      // proactive_agency (75, 0.58, s, A) — actively recruited and
+      // championed Black authors and poets beyond her formally assigned
+      // editorial duties, including building an unsolicited business case
+      // to acquire June Jordan's poetry against publisher reluctance
+      // (reinforced this cycle with new specific instances beyond the
+      // original Bambara/Jones examples).
       // resourcefulness considered (writing her early novels in stolen
       // early-morning hours as a working single mother) and left unscored:
       // that is better characterized as discipline/persistence (already
       // scored) than resourcefulness's specific means-substitution
-      // definition. opportunity_sensing/belief_updating: no supporting
-      // evidence either direction.
-      proactive_agency: [65, 0.5, "i", "A"],
+      // definition. opportunity_sensing/belief_updating: checked again
+      // this cycle, still no supporting evidence either direction.
+      proactive_agency: [75, 0.58, "s", "A"],
     },
   },
   {

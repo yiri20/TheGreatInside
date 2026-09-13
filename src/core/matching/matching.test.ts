@@ -403,6 +403,17 @@ describe("confidence and missing data", () => {
       "bruce-lee",
       "ludwig-van-beethoven",
       "nikola-tesla",
+      // Legacy integrity remediation batch 3 (2026-09-13,
+      // docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md):
+      // srinivasa-ramanujan, toni-morrison, and hayao-miyazaki -- the top 3
+      // by the same deterministic risk triage, recomputed fresh against the
+      // 31-person legacy cohort remaining after batches 1-2 -- were each
+      // re-researched from scratch and now honestly fall short of
+      // eligibility_v2 (all were mirroring eligible=true before this
+      // cycle, on rows with no stated rationale).
+      "srinivasa-ramanujan",
+      "toni-morrison",
+      "hayao-miyazaki",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -746,6 +757,17 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "bruce-lee",
       "ludwig-van-beethoven",
       "nikola-tesla",
+      // Legacy integrity remediation batch 3 (2026-09-13,
+      // docs/checkpoints/legacy-integrity-batch3-three-person-remediation.md):
+      // srinivasa-ramanujan, toni-morrison, and hayao-miyazaki -- the top 3
+      // by the same deterministic risk triage, recomputed fresh against the
+      // 31-person legacy cohort remaining after batches 1-2 -- were each
+      // re-researched from scratch and now honestly fall short of
+      // eligibility_v2 (all were mirroring eligible=true before this
+      // cycle, on rows with no stated rationale).
+      "srinivasa-ramanujan",
+      "toni-morrison",
+      "hayao-miyazaki",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
