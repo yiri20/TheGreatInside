@@ -73,6 +73,23 @@ export interface ManualLedgerEntry {
   note?: string;
 }
 
+/**
+ * The 16 people who were match-eligible WHEN PR #35 FROZE THIS SAMPLE
+ * (2026-09). "Frozen" means the sample membership never re-draws itself
+ * against the live roster -- it is NOT a claim that these 16 are
+ * match-eligible right now. Akira Kurosawa is the concrete case: he was
+ * eligible at freeze time and is a permanent member of this sample for
+ * that reason, even though the legacy integrity remediation cycle
+ * (2026-09-12, docs/checkpoints/legacy-integrity-kurosawa-remediation.md)
+ * has since made him honestly non-match-eligible. Do not replace him, do
+ * not re-sample, and do not read "candidate-JSON-backed eligible sample"
+ * (or similar labels below) as evidence about the CURRENT eligible
+ * population -- that population is the live `SEED_PEOPLE.filter(p =>
+ * p.isMatchEligible)`, computed fresh by matchPoolIntegrityAudit.ts, not
+ * this frozen list. See SUPERSEDED_AUDIT_SLUGS below for how this file
+ * reconciles "sample is frozen" with "Kurosawa's live data legitimately
+ * changed."
+ */
 export const FROZEN_16_ELIGIBLE: readonly string[] = [
   "ada-lovelace", "akira-kurosawa", "benjamin-franklin", "alan-turing",
   "albert-einstein", "anna-pavlova", "aung-san-suu-kyi", "akio-morita",
@@ -84,6 +101,32 @@ export const FROZEN_8_CONTROLS: readonly string[] = [
   "george-bernard-shaw", "pablo-neruda", "pele", "virginia-woolf",
   "james-baldwin", "ahmed-zewail", "antoni-gaudi", "andrew-carnegie",
 ];
+
+/**
+ * Slugs whose ledger entries below are PR #35's ORIGINAL frozen
+ * classification, preserved as history and reproducible from this file
+ * alone -- even though the person's CURRENT live production data has
+ * since intentionally changed for a documented, individually-authorized
+ * reason. This is the one narrow exception to "this file tracks live
+ * data": restoring history for a superseded slug necessarily means its
+ * ledger rows no longer match that person's current attribute set. That
+ * mismatch is expected and by design for exactly these slugs (see
+ * `findOrphanLedgerRows`/`findMissingLedgerRows`, both superseded-aware),
+ * not silently-ignored drift -- every entry here names the remediation
+ * cycle responsible and what now guarantees that person's CURRENT
+ * integrity instead of this ledger.
+ */
+export const SUPERSEDED_AUDIT_SLUGS: ReadonlySet<string> = new Set([
+  // Legacy integrity remediation, 2026-09-12
+  // (docs/checkpoints/legacy-integrity-kurosawa-remediation.md):
+  // re-researched from scratch, 30 undocumented rows -> 10
+  // evidence-supported ones. Current integrity guaranteed instead by
+  // data-pipeline/candidates/akira-kurosawa.json,
+  // akiraKurosawaRemediation.test.ts, and checkScoringLockIntegrity.ts
+  // (he now has a real candidate JSON, so the legacy-lock baseline no
+  // longer needs to cover him either).
+  "akira-kurosawa",
+]);
 
 const NO_RATIONALE_NOTE =
   "Roster1/2 base row: score/confidence/evidenceType tuple only, no per-row rationale text anywhere in the repository.";
@@ -106,7 +149,18 @@ export const MANUAL_ROW_LEDGER: readonly ManualLedgerEntry[] = [
   ], "unsupported_from_available_provenance", NO_RATIONALE_NOTE),
   { slug: "ada-lovelace", attributeId: "opportunity_sensing", classification: "supported_as_written", note: "Her Notes on the Analytical Engine documented as articulating a broader significance Babbage himself hadn't emphasized." },
 
-  // ---- akira-kurosawa (roster2, 30, no taxonomy addition scored) ----
+  // ---- akira-kurosawa (roster2, 30) -- SUPERSEDED (see
+  // SUPERSEDED_AUDIT_SLUGS above). This is PR #35's ORIGINAL frozen
+  // finding, preserved exactly: all 30 base rows, zero taxonomy_v1.1
+  // additions, zero per-row rationale anywhere in the repository at
+  // audit time -- the most exposed of the 5 flagged people, unlike
+  // ada-lovelace/benjamin-franklin/alan-turing/confucius above and below,
+  // he has no exception row at all. His LIVE production data has since
+  // been intentionally replaced by the legacy integrity remediation cycle
+  // (2026-09-12, docs/checkpoints/legacy-integrity-kurosawa-remediation.md):
+  // 30 undocumented rows -> 10 evidence-supported ones. This ledger entry
+  // deliberately does NOT track that live change -- it is the historical
+  // snapshot this file's denominators (396/88/484) depend on.
   ...bulk("akira-kurosawa", [
     "achievement_drive", "adaptability", "aesthetic_sensitivity", "ambiguity_tolerance",
     "analytical_rigor", "autonomy_need", "collaboration", "competitiveness",
@@ -382,18 +436,27 @@ export function ledgerFor(slugs: readonly string[]): ManualLedgerEntry[] {
 
 /** Cross-check: every ledger row must map to a real, currently-scored
  *  attribute on that person in the live built data. Returns violations
- *  (empty array = clean). Pure/read-only -- never mutates SEED_PEOPLE. */
+ *  (empty array = clean). `SUPERSEDED_AUDIT_SLUGS` are skipped by design
+ *  (their ledger rows are an intentionally-preserved historical snapshot,
+ *  not a live mirror -- see that constant's own doc comment); every other
+ *  slug is still checked against live data, so this does not silently
+ *  swallow real drift. Pure/read-only -- never mutates SEED_PEOPLE. */
 export function findOrphanLedgerRows(entries: readonly ManualLedgerEntry[]): ManualLedgerEntry[] {
   const bySlug = new Map(SEED_PEOPLE.map((p) => [p.slug, new Set(p.attributes.map((a) => a.attributeId))]));
-  return entries.filter((e) => !bySlug.get(e.slug)?.has(e.attributeId));
+  return entries.filter(
+    (e) => !SUPERSEDED_AUDIT_SLUGS.has(e.slug) && !bySlug.get(e.slug)?.has(e.attributeId),
+  );
 }
 
 /** Cross-check: every scored attribute on the target people must have
- *  exactly one ledger row. Returns missing (person, attributeId) pairs. */
+ *  exactly one ledger row. Returns missing (person, attributeId) pairs.
+ *  `SUPERSEDED_AUDIT_SLUGS` are skipped for the same reason as
+ *  `findOrphanLedgerRows` above. */
 export function findMissingLedgerRows(slugs: readonly string[]): Array<{ slug: string; attributeId: AttributeId }> {
   const covered = new Set(MANUAL_ROW_LEDGER.map((e) => `${e.slug}::${e.attributeId}`));
   const missing: Array<{ slug: string; attributeId: AttributeId }> = [];
   for (const slug of slugs) {
+    if (SUPERSEDED_AUDIT_SLUGS.has(slug)) continue;
     const p = SEED_PEOPLE.find((x) => x.slug === slug);
     if (!p) continue;
     for (const a of p.attributes) {
@@ -433,7 +496,12 @@ function main(): void {
   if (missing.length) console.log(JSON.stringify(missing, null, 2));
 
   // Decomposition referenced in the checkpoint doc: roster1/2 vs
-  // candidate-JSON-backed within the eligible sample.
+  // candidate-JSON-backed within the FROZEN eligible sample, as it stood
+  // at PR #35 freeze time. akira-kurosawa is included here: he had no
+  // candidate JSON at freeze time (a real one was added only later, by
+  // the legacy integrity remediation cycle) -- this decomposition is
+  // historical, like the rest of this file, so it classifies him by his
+  // lineage AT FREEZE TIME, not his current one.
   const ROSTER1_2 = ["ada-lovelace", "akira-kurosawa", "benjamin-franklin", "alan-turing", "confucius"];
   const jsonBackedEligible = ledgerFor(FROZEN_16_ELIGIBLE.filter((s) => !ROSTER1_2.includes(s)));
   report("ELIGIBLE SAMPLE, JSON-BACKED LINEAGE ONLY (11 people)", jsonBackedEligible);
