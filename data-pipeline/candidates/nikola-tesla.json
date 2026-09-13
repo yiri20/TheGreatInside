@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nikola-tesla",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Nikola Tesla",
+    "wikidataId": "Q9036",
+    "birthYear": 1856,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["RS", "US"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["inventor", "engineer"],
+    "fieldIds": ["engineering", "physics"],
+    "impactDomains": ["technological", "engineering", "innovation"],
+    "tagIds": ["independent", "poor_business_sense"],
+    "archetypeIds": ["technical_innovator", "independent_creator"]
+  },
+  "sources": [
+    { "id": "src_tesla_wikipedia", "kind": "wikipedia", "title": "Nikola Tesla", "url": "https://en.wikipedia.org/wiki/Nikola_Tesla" },
+    { "id": "src_tesla_my_inventions", "kind": "archive", "title": "Nikola Tesla, My Inventions (serialized autobiography, Electrical Experimenter, 1919; public domain) -- his own words", "url": "https://en.wikisource.org/wiki/My_Inventions" },
+    { "id": "src_tesla_carlson", "kind": "biography", "title": "W. Bernard Carlson, Tesla: Inventor of the Electrical Age (Princeton University Press, 2013) -- independent, widely-regarded modern scholarly biography" },
+    { "id": "src_tesla_seifer", "kind": "biography", "title": "Marc J. Seifer, Wizard: The Life and Times of Nikola Tesla (1996) -- independent biography using primary sources (letters, notebooks, FBI files)" }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own account: 'It is absolutely immaterial to me whether I run my turbine in thought or test it in my shop ... In twenty years there has not been a single exception' -- a specific, extraordinary claim about the verification reliability of his mental-simulation method (My Inventions)."
+    },
+    "intuitive_synthesis": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own description of his invention method: 'When I get an idea I start at once building it up in my imagination. I change the construction, make improvements and operate the device in my mind' -- constructing and refining a complete working system entirely through mental synthesis before physical construction."
+    },
+    "discipline": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own account of his Polytechnic Institute year: 'I regularly started my work at three o'clock in the morning and continued until eleven at night, no Sundays or holidays excepted'; separately, under Edison, 'my regular hours were from 10.30 A.M. until 5 o'clock the next morning without a day's exception' for nearly a year (My Inventions)."
+    },
+    "deep_focus": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The same documented multi-month/near-year work-hour regimens (Polytechnic Institute, then under Edison) required sustained continuous engagement for 18-20 hour stretches, not merely long total hours (My Inventions)."
+    },
+    "detail_orientation": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "His own account describes precise, quantified personal habits -- counting his steps on walks and calculating the cubic content of his food -- documented behavior, not a diagnosis, used here only as evidence of exacting attention to minute detail (My Inventions)."
+    },
+    "perfectionism": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "His own words: of his counting habit, 'if I missed I felt impelled to do it all over again ... even if it took hours' -- an extremely low self-imposed tolerance for an incomplete or imperfect self-set task (My Inventions), used here purely as documented behavior, not a diagnosis."
+    },
+    "independent_thinking": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Left Edison's company after a documented pay dispute over dynamo improvements, then partnered with Westinghouse to champion AC power on his own technical conviction, directly against his former employer's competing DC standard (Carlson; pre-existing finding, re-verified)."
+    },
+    "impact_motivation": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "In 1891, voluntarily released Westinghouse from its royalty-payment clause on his AC patents specifically to help the company survive the financial aftermath of the Panic of 1890 -- prioritizing his invention's broader commercial survival over personal royalty income (pre-existing finding, re-verified)."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-directed departure from Edison's company and initiation of the Westinghouse partnership to champion AC power, unprompted by any employer (Carlson; pre-existing finding, re-verified)."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Walked away from Edison over an unmet compensation promise, accepting only 'a beautifully engraved certificate of stock of hypothetical value' rather than the promised payment (his own account, My Inventions); separately bet his career on the then-contested AC approach against the era's dominant DC establishment."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Secured J.P. Morgan's $150,000 investment in the Wardenclyffe wireless-transmission project on a promised 6-month Atlantic-spanning timeline; Carlson describes him as an inventor who 'skillfully sold his inventions to the public through mythmaking and illusion.' Dual-edged: the same persuasive skill that secured major backing also produced a commitment he could not deliver, which the record shows damaged his credibility and financing afterward."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Aboard the S.S. Oregon with its dynamos disabled, worked overnight repairs unprompted; Edison is quoted (via Tesla's own account) afterward remarking 'this is a d-n good man' (My Inventions)."
+    },
+    "collaboration": {
+      "score": 32,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "A recurring pattern of investor/backer relationships eventually collapsing, most dramatically the Wardenclyffe project: built on J.P. Morgan's investment after a promised 6-month timeline went unmet, the project lost further backing and collapsed by 1905 (Carlson; pre-existing finding, re-verified)."
+    },
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Patented the AC induction motor (1888) and introduced the resonant high-voltage Tesla coil (1891) -- documented, dated, genuinely novel technical creations, distinct from the mental-simulation working METHOD used as evidence for intuitive_synthesis/analytical_rigor above (pre-existing finding, re-verified)."
+    },
+    "opportunity_sensing": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recognized AC power's advantages for long-distance electrical transmission years ahead of the DC-dominated establishment of the 1880s, a conviction strong enough to leave a stable position at Edison's company to pursue it (Carlson)."
+    }
+  },
+  "doNotCopyKeys": ["dontcopy.tesla.commercialisation"],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nikola-tesla-circa-1890.jpg",
+    "width": 940,
+    "height": 1260,
+    "source": "Wikimedia Commons",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg",
+    "attribution": "Napoleon Sarony",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 2 (2026-09-13, docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md), triggered by a deterministic risk-triage of the 34-person pre-candidate-pipeline cohort following the Kurosawa remediation (PR #36). Tesla ranked #3 by that triage (score 13/34, tied): only 1 source cited, 24 high-confidence rows resting on the unsupported original base set, 8 'documented'-tier claims among them, no Wikidata QID, max confidence 0.85 on that single source. New research (Tesla's own 1919 autobiography My Inventions, fetched directly from Wikisource; W. Bernard Carlson's independent modern scholarly biography; Marc Seifer's independent biography) audited all 31 original rows (30 base + 1 taxonomy_v1.1). 13 retained and rescored from the evidence directly, creative_originality reconsidered and re-added on separate grounds (the AC induction motor/Tesla coil as documented inventions, distinct from the mental-simulation-method evidence), 1 new row added (opportunity_sensing -- the original profile had left this unscored on the reasoning that creative_originality/systems_abstraction already captured it; since this cycle's audit does not retain systems_abstraction, it was reconsidered fresh and found to have distinct support), 17 removed for lack of individually-attributable, non-duplicative support this cycle. resourcefulness and belief_updating were checked again and left unscored, the same conclusion as the pre-existing profile's own reasoning. Popular sources frame Tesla's counting/calculation habits as symptoms of a diagnosed condition; per this project's standing prohibition on inferring diagnosis or mental illness for any person, no diagnostic framing is used anywhere in this file -- detail_orientation/perfectionism are sourced to the documented BEHAVIOR alone (his own account in My Inventions), never a label. His own words also explicitly describe PREFERRING mental simulation over physical trial-and-error, so `experimentation` was removed rather than reinterpreted to fit. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

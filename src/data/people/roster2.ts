@@ -177,6 +177,30 @@ const seeds: PersonSeed[] = [
     impactDomains: ["artistic", "cultural"],
     tagIds: ["specialist", "overcame_adversity"],
     archetypeIds: ["creative_creator", "independent_creator"],
+    // Legacy integrity remediation batch 2 (2026-09-13,
+    // docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md):
+    // ranked #2 by a deterministic risk-triage of the 34-person
+    // pre-candidate-pipeline cohort (only 1 source, 23 high-confidence rows
+    // resting on an unsupported base set, 6 "documented"-tier claims among
+    // them, no Wikidata QID). Re-researched from scratch; a real candidate
+    // record now exists at
+    // data-pipeline/candidates/ludwig-van-beethoven.json, the authoritative
+    // source of truth this seed entry mirrors exactly. All 32 original
+    // rows (30 base + 2 taxonomy_v1.1) audited against a fresh ledger (Jan
+    // Swafford's independent biography, his own published letters, the
+    // historical/legal record of the 1815-1820 custody battle for nephew
+    // Karl, and the century-long sketchbook scholarship tradition
+    // beginning with Nottebohm). 11 rows retained and rescored from that
+    // evidence, 21 removed for lack of individually-attributable,
+    // non-duplicative support this cycle. The Heiligenstadt Testament's
+    // content of despair over his deafness was deliberately NOT used as
+    // evidence for any row, per this project's standing precedent against
+    // inferring personality from tragedy/health circumstance; the
+    // already-established deafness-driven compositional method
+    // substitution is kept for `resourcefulness` because it is his
+    // constructive behavioral adaptation, not the health crisis itself.
+    externalIdentity: { wikidataId: "Q255" },
+    directoryVisible: true,
     // ROSTER-1000 portrait sourcing (2026-08): the best-known portrait of
     // Beethoven, painted from life in 1820. Verified live against the
     // Commons file page.
@@ -224,57 +248,84 @@ const seeds: PersonSeed[] = [
     //   - middle-period ("heroic") works cited in Achievements: the Third
     //     Symphony (Eroica, 1803-04), Fifth Symphony (1808), opera Fidelio
     //     (premiered 1805).
-    sources: [wiki("beethoven", "Ludwig van Beethoven")],
+    sources: [
+      wiki("beethoven", "Ludwig van Beethoven"),
+      { id: "src_beethoven_swafford", kind: "biography", title: "Jan Swafford, Beethoven: Anguish and Triumph (Houghton Mifflin Harcourt, 2014) -- independent scholarly biography" },
+      { id: "src_beethoven_letters", kind: "archive", title: "Beethoven's own published correspondence to his nephew Karl (e.g. signed 'your most faithful father')" },
+      { id: "src_beethoven_custody_history", kind: "press", title: "Historical/legal account of the 1815-1820 custody battle for nephew Karl, drawn from court and family records" },
+      { id: "src_beethoven_sketchbooks", kind: "institution", title: "Sketchbook scholarship tradition originating with Gustav Nottebohm -- analysis of Beethoven's surviving manuscript sketchbooks, studied continuously for over a century" },
+    ],
     doNotCopyKeys: ["dontcopy.beethoven.volatility"],
     rows: {
-      curiosity: [70, 0.5, "i", "N"],
-      analytical_rigor: [65, 0.5, "i", "N"],
-      intuitive_synthesis: [92, 0.8, "s", "A"],
-      systems_abstraction: [75, 0.55, "s", "N"],
-      independent_thinking: [90, 0.8, "d", "A"],
-      creative_originality: [95, 0.88, "d", "A"],
-      experimentation: [85, 0.7, "s", "A"],
-      cross_domain_range: [48, 0.4, "i", "N"],
-      aesthetic_sensitivity: [94, 0.85, "d", "A"],
-      discipline: [85, 0.7, "s", "A"],
-      deep_focus: [90, 0.78, "s", "A"],
-      detail_orientation: [78, 0.6, "s", "N"],
-      perfectionism: [90, 0.78, "d", "D"],
-      execution_speed: [48, 0.5, "i", "N"],
-      planning_orientation: [55, 0.45, "i", "N"],
-      persistence: [97, 0.92, "d", "A"],
-      adaptability: [82, 0.7, "s", "A"],
-      risk_tolerance: [62, 0.45, "i", "N"],
-      ambiguity_tolerance: [65, 0.45, "i", "N"],
-      decisiveness: [72, 0.5, "i", "N"],
-      social_assertiveness: [50, 0.5, "s", "N"],
-      collaboration: [38, 0.55, "s", "D"],
-      leadership_drive: [52, 0.45, "i", "N"],
-      persuasiveness: [50, 0.4, "i", "N"],
-      conflict_tolerance: [78, 0.65, "s", "D"],
-      mastery_orientation: [95, 0.85, "d", "A"],
-      achievement_drive: [80, 0.62, "s", "N"],
-      competitiveness: [60, 0.42, "i", "N"],
-      autonomy_need: [85, 0.7, "s", "A"],
-      impact_motivation: [72, 0.55, "i", "N"],
+      // Surviving sketchbooks document him reimagining entire sections of
+      // the Eroica Symphony's structure across many drafts, not merely
+      // polishing detail -- a documented pattern of genuinely
+      // restructuring rather than refining (Nottebohm-tradition
+      // scholarship).
+      creative_originality: [88, 0.62, "s", "A"],
+      // First composer known to use sketchbooks in any systematic way,
+      // devoting an unusually large proportion of his working time to
+      // sustained, methodical refinement across decades.
+      discipline: [88, 0.65, "s", "A"],
+      // Fine-grained, note-by-note revision documented across surviving
+      // sketchbooks, examined by generations of scholars down to
+      // individual pitch and rhythm choices.
+      detail_orientation: [85, 0.62, "s", "A"],
+      // Sketchbooks show he "rejected initial drafts, striving to perfect
+      // every note ... made many changes, rejected and reattempted until
+      // he was satisfied" -- physically documented via surviving
+      // manuscripts. Dual-edged: the same standard that produced his
+      // mature style also strained relationships (Swafford: his temper
+      // "occasionally drove away longtime friends and supporters").
+      perfectionism: [90, 0.68, "s", "D"],
+      // Sketchbook revision sustained across decades; separately, pursued
+      // patrons who delayed payment relentlessly (Swafford), and pursued
+      // legal action after patron Prince Lobkowitz's 1811 bankruptcy,
+      // recovering part of what he was owed by 1815.
+      persistence: [92, 0.65, "s", "A"],
+      // During the 1815-1820 custody battle for nephew Karl: in 1816
+      // forbade Karl from seeing his mother Johanna (enforced by police
+      // when Karl attempted to see her); in 1817 enrolled Karl in a
+      // boarding school and forbade Johanna from visiting without
+      // permission. Dual-edged given the contested, traumatic effect on
+      // Karl.
+      decisiveness: [72, 0.55, "s", "D"],
+      // During the custody battle, historians document "a wholesale
+      // disregard for any point of view but his own"; he "began labeling
+      // Karl as bad" while "constantly badmouthing" Johanna. Not scored at
+      // floor: he also signed letters to Karl "your most faithful father,"
+      // and sustained aristocratic patron relationships for decades
+      // despite recurring friction (Swafford).
+      collaboration: [35, 0.55, "s", "D"],
+      // Relentless, friction-generating pursuit of patrons over delayed
+      // payment (Swafford); separately, willingly sustained a 5-year
+      // custody battle at real personal/professional cost -- during its
+      // peak his compositional output "dipped considerably."
+      conflict_tolerance: [80, 0.6, "s", "D"],
+      // Near-total insistence on controlling decisions regarding Karl
+      // without deferring to Johanna's views (1816 contact prohibition,
+      // 1817 boarding-school placement); the same disposition is evident
+      // in his general pattern of resisting external authority in patron
+      // relationships.
+      autonomy_need: [85, 0.6, "s", "D"],
       // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol):
-      //   - resourcefulness (82, 0.68, s, A) — progressive deafness from his
+      //   - resourcefulness (82, 0.65, s, A) — progressive deafness from his
       //     late 20s forced a fundamental adaptation of his compositional
       //     method (specially cut pencils/notebooks, feeling vibrations,
       //     eventually composing entirely by internal imagination without
-      //     hearing performances) — a genuine constraint met by recombining
-      //     available means, distinct from his already-scored persistence
-      //     (continuing despite adversity generally); this is specifically
-      //     about the method-substitution itself.
-      //   - proactive_agency (70, 0.55, s, A) — the 1809 annuity: personally
+      //     hearing performances) — a genuine constraint met by
+      //     recombining available means. The crisis itself (his despair,
+      //     documented in the private Heiligenstadt Testament) is not used
+      //     as evidence, only this constructive behavioral adaptation.
+      //   - proactive_agency (75, 0.58, s, A) — the 1809 annuity: personally
       //     negotiated a stipend from three aristocratic patrons to remain
       //     in Vienna without a formal court/church position, self-directed
       //     rather than assigned, when he was being courted to leave for a
       //     position elsewhere.
-      // opportunity_sensing/belief_updating: checked against both poles, no
-      // qualifying episode either direction — left missing.
-      resourcefulness: [82, 0.68, "s", "A"],
-      proactive_agency: [70, 0.55, "s", "A"],
+      // opportunity_sensing/belief_updating: checked again this cycle,
+      // still no qualifying episode either direction — left missing.
+      resourcefulness: [82, 0.65, "s", "A"],
+      proactive_agency: [75, 0.58, "s", "A"],
     },
   },
   {
@@ -959,6 +1010,31 @@ const seeds: PersonSeed[] = [
     impactDomains: ["technological", "engineering", "innovation"],
     tagIds: ["independent", "poor_business_sense"],
     archetypeIds: ["technical_innovator", "independent_creator"],
+    // Legacy integrity remediation batch 2 (2026-09-13,
+    // docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md):
+    // ranked #3 by a deterministic risk-triage of the 34-person
+    // pre-candidate-pipeline cohort (only 1 source, 24 high-confidence rows
+    // resting on an unsupported base set, 8 "documented"-tier claims among
+    // them, no Wikidata QID). Re-researched from scratch; a real candidate
+    // record now exists at data-pipeline/candidates/nikola-tesla.json, the
+    // authoritative source of truth this seed entry mirrors exactly. All
+    // 31 original rows (30 base + 1 taxonomy_v1.1) audited against a fresh
+    // ledger (Tesla's own 1919 autobiography My Inventions, fetched
+    // directly from Wikisource; W. Bernard Carlson's independent modern
+    // scholarly biography; Marc Seifer's independent biography). 13 rows
+    // retained and rescored, creative_originality re-added on separate
+    // grounds (the AC induction motor/Tesla coil as documented inventions,
+    // distinct from the mental-simulation-method evidence), 1 new row
+    // added (opportunity_sensing), 17 removed for lack of
+    // individually-attributable, non-duplicative support this cycle.
+    // Popular sources frame Tesla's counting/calculation habits as
+    // symptoms of a diagnosed condition; per this project's standing
+    // prohibition on inferring diagnosis or mental illness for any person,
+    // no diagnostic framing is used anywhere below -- detail_orientation/
+    // perfectionism are sourced to the documented BEHAVIOR alone, never a
+    // label.
+    externalIdentity: { wikidataId: "Q9036" },
+    directoryVisible: true,
     // ROSTER-1000 portrait pilot (2026-08): verified live against the
     // actual Commons file page before being added.
     portrait: {
@@ -991,59 +1067,107 @@ const seeds: PersonSeed[] = [
     //     further backing;
     //   - died in New York in January 1943, effectively bankrupt, most
     //     patents already expired.
-    sources: [wiki("tesla", "Nikola Tesla")],
+    sources: [
+      wiki("tesla", "Nikola Tesla"),
+      { id: "src_tesla_my_inventions", kind: "archive", title: "Nikola Tesla, My Inventions (serialized autobiography, Electrical Experimenter, 1919; public domain) -- his own words" },
+      { id: "src_tesla_carlson", kind: "biography", title: "W. Bernard Carlson, Tesla: Inventor of the Electrical Age (Princeton University Press, 2013) -- independent, widely-regarded modern scholarly biography" },
+      { id: "src_tesla_seifer", kind: "biography", title: "Marc J. Seifer, Wizard: The Life and Times of Nikola Tesla (1996) -- independent biography using primary sources (letters, notebooks, FBI files)" },
+    ],
     doNotCopyKeys: ["dontcopy.tesla.commercialisation"],
     rows: {
-      curiosity: [95, 0.85, "d", "A"],
-      analytical_rigor: [85, 0.7, "s", "A"],
-      intuitive_synthesis: [88, 0.72, "s", "A"],
-      systems_abstraction: [92, 0.8, "d", "A"],
-      independent_thinking: [95, 0.85, "d", "A"],
-      creative_originality: [92, 0.8, "d", "A"],
-      experimentation: [90, 0.78, "d", "A"],
-      cross_domain_range: [62, 0.5, "i", "N"],
-      aesthetic_sensitivity: [58, 0.42, "i", "N"],
-      discipline: [78, 0.6, "s", "N"],
-      deep_focus: [92, 0.8, "d", "A"],
-      detail_orientation: [75, 0.58, "s", "N"],
-      perfectionism: [80, 0.62, "s", "D"],
-      execution_speed: [55, 0.5, "i", "N"],
-      planning_orientation: [45, 0.45, "i", "N"],
-      persistence: [88, 0.72, "s", "A"],
-      adaptability: [55, 0.45, "i", "N"],
-      risk_tolerance: [82, 0.68, "s", "D"],
-      ambiguity_tolerance: [82, 0.65, "s", "A"],
-      decisiveness: [68, 0.5, "i", "N"],
-      social_assertiveness: [45, 0.55, "s", "N"],
-      collaboration: [30, 0.6, "s", "R"],
-      leadership_drive: [42, 0.5, "i", "N"],
-      persuasiveness: [40, 0.45, "i", "N"],
-      conflict_tolerance: [55, 0.45, "i", "N"],
-      mastery_orientation: [90, 0.78, "d", "A"],
-      achievement_drive: [72, 0.55, "i", "N"],
-      competitiveness: [60, 0.48, "i", "N"],
-      autonomy_need: [95, 0.85, "d", "A"],
-      impact_motivation: [80, 0.62, "s", "A"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol): proactive_
-      // agency (72, 0.58, s, N) — left Edison's company after a documented
-      // pay dispute over dynamo improvements, then partnered with
-      // Westinghouse to champion AC on his own technical conviction against
-      // his former employer's competing DC standard — self-directed.
-      // opportunity_sensing left unscored: his visionary theoretical grasp
-      // (AC transmission, wireless) is already fully captured by his
-      // scored creative_originality/independent_thinking/systems_
-      // abstraction (all 92-95); scoring it again here would restate the
-      // same evidence under a new label. resourcefulness: genuinely
-      // considered both directions given his well-documented late-career
-      // financial decline — checked for LOW evidence (persisted seeking
-      // large-scale ideal funding for Wardenclyffe-type visions rather than
-      // scaling ambitions to available means) as well as HIGH (early-career
-      // improvisation before Westinghouse backing). Left missing: the
-      // record doesn't cleanly separate "wouldn't adapt means" from
-      // "was outmaneuvered by financiers/competitors", so neither pole
-      // clears the bar with confidence. belief_updating: no evidence either
-      // direction.
-      proactive_agency: [72, 0.58, "s", "N"],
+      // His own account: "It is absolutely immaterial to me whether I run
+      // my turbine in thought or test it in my shop ... In twenty years
+      // there has not been a single exception" -- a specific, extraordinary
+      // claim about the verification reliability of his mental-simulation
+      // method (My Inventions).
+      analytical_rigor: [88, 0.62, "s", "A"],
+      // His own description of his invention method: "When I get an idea I
+      // start at once building it up in my imagination. I change the
+      // construction, make improvements and operate the device in my
+      // mind" -- constructing and refining a complete working system
+      // entirely through mental synthesis before physical construction.
+      intuitive_synthesis: [90, 0.65, "s", "A"],
+      // His own account of his Polytechnic Institute year: "I regularly
+      // started my work at three o'clock in the morning and continued
+      // until eleven at night, no Sundays or holidays excepted"; under
+      // Edison, "my regular hours were from 10.30 A.M. until 5 o'clock the
+      // next morning without a day's exception" for nearly a year (My
+      // Inventions).
+      discipline: [92, 0.68, "s", "A"],
+      // The same documented multi-month/near-year work-hour regimens
+      // required sustained continuous engagement for 18-20 hour stretches,
+      // not merely long total hours (My Inventions).
+      deep_focus: [88, 0.62, "s", "A"],
+      // His own account describes precise, quantified personal habits --
+      // counting his steps on walks and calculating the cubic content of
+      // his food -- documented behavior, not a diagnosis, used here only
+      // as evidence of exacting attention to minute detail (My Inventions).
+      detail_orientation: [82, 0.58, "s", "N"],
+      // His own words: of his counting habit, "if I missed I felt impelled
+      // to do it all over again ... even if it took hours" -- an extremely
+      // low self-imposed tolerance for an incomplete or imperfect
+      // self-set task (My Inventions), used purely as documented behavior.
+      perfectionism: [85, 0.6, "s", "D"],
+      // Left Edison's company after a documented pay dispute over dynamo
+      // improvements, then partnered with Westinghouse to champion AC
+      // power on his own technical conviction, directly against his former
+      // employer's competing DC standard (Carlson).
+      independent_thinking: [90, 0.65, "s", "A"],
+      // In 1891, voluntarily released Westinghouse from its royalty-
+      // payment clause on his AC patents specifically to help the company
+      // survive the financial aftermath of the Panic of 1890 -- prioritizing
+      // his invention's broader commercial survival over personal royalty
+      // income.
+      impact_motivation: [80, 0.6, "s", "A"],
+      // Self-directed departure from Edison's company and initiation of
+      // the Westinghouse partnership to champion AC power, unprompted by
+      // any employer (Carlson).
+      proactive_agency: [75, 0.58, "s", "A"],
+      // Walked away from Edison over an unmet compensation promise,
+      // accepting only "a beautifully engraved certificate of stock of
+      // hypothetical value" rather than the promised payment (his own
+      // account, My Inventions); separately bet his career on the
+      // then-contested AC approach against the era's dominant DC
+      // establishment.
+      risk_tolerance: [80, 0.58, "s", "D"],
+      // Secured J.P. Morgan's $150,000 investment in the Wardenclyffe
+      // wireless-transmission project on a promised 6-month
+      // Atlantic-spanning timeline; Carlson describes him as an inventor
+      // who "skillfully sold his inventions to the public through
+      // mythmaking and illusion." The same skill that secured major
+      // backing also produced a commitment he could not deliver.
+      persuasiveness: [72, 0.5, "s", "D"],
+      // Aboard the S.S. Oregon with its dynamos disabled, worked overnight
+      // repairs unprompted; Edison is quoted (via Tesla's own account)
+      // afterward remarking "this is a d-n good man" (My Inventions).
+      persistence: [78, 0.52, "s", "A"],
+      // A recurring pattern of investor/backer relationships eventually
+      // collapsing, most dramatically the Wardenclyffe project: built on
+      // J.P. Morgan's investment after a promised 6-month timeline went
+      // unmet, the project lost further backing and collapsed by 1905
+      // (Carlson).
+      collaboration: [32, 0.55, "s", "R"],
+      // Patented the AC induction motor (1888) and introduced the
+      // resonant high-voltage Tesla coil (1891) -- documented, dated,
+      // genuinely novel technical creations, distinct from the
+      // mental-simulation working METHOD used as evidence for
+      // intuitive_synthesis/analytical_rigor above.
+      creative_originality: [88, 0.62, "s", "A"],
+      // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol):
+      //   - opportunity_sensing (78, 0.55, s, A) — recognized AC power's
+      //     advantages for long-distance electrical transmission years
+      //     ahead of the DC-dominated establishment of the 1880s, a
+      //     conviction strong enough to leave a stable position at
+      //     Edison's company to pursue it (Carlson). Reconsidered fresh
+      //     this cycle: the original profile left this unscored on the
+      //     reasoning that creative_originality/systems_abstraction
+      //     already captured it, but this cycle's audit does not retain
+      //     systems_abstraction, so this is genuinely distinct support,
+      //     not restated evidence.
+      // resourcefulness/belief_updating: checked again this cycle, still
+      // no qualifying episode either direction — left missing, same
+      // conclusion as the pre-existing profile's own reasoning.
+      opportunity_sensing: [78, 0.55, "s", "A"],
     },
   },
   {
@@ -1695,88 +1819,146 @@ const seeds: PersonSeed[] = [
     impactDomains: ["athletic", "cultural"],
     tagIds: ["cross_disciplinary", "founder"],
     archetypeIds: ["independent_creator", "competitive_performer"],
-    // Remaining-19 Editorial Completion Batch 2 (2026-08): the opportunity_
-    // sensing/proactive_agency rationale below already documents his read
-    // on traditional martial arts' limits and the founding of Jeet Kune Do
-    // this profile's Achievement/Turning Point are built on. The following
-    // ADDITIONAL claims were verified via a direct fetch and inspection of
-    // src_brucelee_wikipedia on 2026-08-30 --
-    //   - born 1940 in San Francisco, raised in Hong Kong from infancy;
-    //     engaged in street fighting there and won the Hong Kong Crown
-    //     Colony Cha-Cha Championship in 1958;
-    //   - trained in Wing Chun under Ip Man from 1953 to 1957, a period
-    //     the article says was marked by tension over the traditional
-    //     rule against teaching students of mixed or non-Chinese heritage;
-    //   - a 1964 private match with fellow martial artist Wong Jack-Man is
-    //     reported inconsistently by the two sides -- Lee's supporters
-    //     describe a decisive win in about three minutes; Wong described a
-    //     20-25 minute inconclusive bout ending only when Lee tired.
-    //     Reported here as a disputed episode, not a settled account. The
-    //     article states the experience prompted Lee to move away from
-    //     rigid classical technique;
-    //   - played Kato in the TV series The Green Hornet (1966-1967), his
-    //     introduction to American audiences; was reportedly passed over
-    //     for the lead role he had pitched in the Kung Fu TV series
-    //     (1971) due to ethnicity/accent concerns in Hollywood casting;
-    //   - on producer Fred Weintraub's advice to build a showcase film
-    //     first, returned to Hong Kong and starred in The Big Boss (1971),
-    //     Fist of Fury (1972), and Way of the Dragon (1972), then Enter
-    //     the Dragon (1973), the first US-Hong Kong co-production, filmed
-    //     Feb-Apr 1973 and released six days after his death;
-    //   - died July 20, 1973, in Kowloon, Hong Kong, age 32; the article
-    //     states the official finding was cerebral edema (brain swelling)
-    //     but that "the causes of which remain a matter of dispute" --
-    //     reported here only as the documented medical finding, with no
-    //     endorsement of the wider speculative theories the article
-    //     itself declines to detail.
-    sources: [wiki("brucelee", "Bruce Lee")],
+    // Legacy integrity remediation batch 2 (2026-09-13,
+    // docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md):
+    // ranked #1 by a deterministic risk-triage of the 34-person
+    // pre-candidate-pipeline cohort (only 1 source, 29 high-confidence rows
+    // resting on an unsupported base set, no Wikidata QID). Re-researched
+    // from scratch (identity re-verified against Wikidata Q8006... Q16397
+    // for Lee himself; a real candidate record now exists at
+    // data-pipeline/candidates/bruce-lee.json, the authoritative source of
+    // truth this seed entry mirrors exactly). All 32 original rows (30 base
+    // + 2 taxonomy_v1.1) audited against a fresh 5-source ledger (Matthew
+    // Polly's independent biography, Lee's own Tao of Jeet Kune Do, the
+    // December 1971 Pierre Berton interview in his own words, Dan
+    // Inosanto's firsthand recollections, and the broadly-corroborated
+    // public record of the 1964 Wong Jack-Man match). 19 rows retained and
+    // rescored from that evidence, 1 new row added (belief_updating), 13
+    // removed for lack of individually-attributable support this cycle.
+    // Prior background (verified 2026-08-30 via src_brucelee_wikipedia,
+    // still accurate, unrelated to the row-level remediation above): born
+    // 1940 in San Francisco, raised in Hong Kong from infancy; trained in
+    // Wing Chun under Ip Man 1953-1957; played Kato in The Green Hornet
+    // (1966-1967); starred in The Big Boss (1971), Fist of Fury (1972), Way
+    // of the Dragon (1972), and Enter the Dragon (1973, released six days
+    // after his death); died July 20 1973 in Kowloon, Hong Kong, age 32
+    // (official finding: cerebral edema). His death is not used as
+    // evidence for any row, per this project's standing precedent against
+    // inferring personality from tragedy/health circumstance.
+    externalIdentity: { wikidataId: "Q16397" },
+    directoryVisible: true,
+    sources: [
+      wiki("brucelee", "Bruce Lee"),
+      { id: "src_brucelee_polly", kind: "biography", title: "Matthew Polly, Bruce Lee: A Life (Simon & Schuster, 2018) -- independent biography; accessed via the author's own recorded interviews (Art of Manliness podcast; Chinese Martial Studies) summarizing specific documented incidents from the book" },
+      { id: "src_brucelee_tao_of_jkd", kind: "archive", title: "Bruce Lee, Tao of Jeet Kune Do (posthumous, compiled from his own notes by Linda Lee Cadwell/Black Belt magazine)" },
+      { id: "src_brucelee_berton_interview", kind: "press", title: "The Pierre Berton Show, December 9 1971 -- filmed interview, Lee's own words" },
+      { id: "src_brucelee_inosanto", kind: "archive", title: "Dan Inosanto -- direct training partner/student of Bruce Lee for nearly a decade; firsthand recollections, independent of Polly's own authorial voice" },
+    ],
     rows: {
-      curiosity: [78, 0.6, "s", "N"],
-      analytical_rigor: [72, 0.55, "s", "N"],
-      intuitive_synthesis: [82, 0.62, "s", "A"],
-      systems_abstraction: [80, 0.6, "s", "A"],
-      independent_thinking: [92, 0.78, "d", "A"],
-      creative_originality: [88, 0.72, "s", "A"],
-      experimentation: [88, 0.72, "s", "A"],
-      cross_domain_range: [78, 0.6, "s", "A"],
-      aesthetic_sensitivity: [70, 0.52, "i", "N"],
-      discipline: [95, 0.85, "d", "A"],
-      deep_focus: [92, 0.78, "s", "A"],
-      detail_orientation: [82, 0.65, "s", "N"],
-      perfectionism: [88, 0.72, "s", "D"],
-      execution_speed: [80, 0.62, "s", "A"],
-      planning_orientation: [68, 0.5, "i", "N"],
-      persistence: [92, 0.78, "s", "A"],
-      adaptability: [85, 0.68, "s", "A"],
-      risk_tolerance: [78, 0.6, "s", "N"],
-      ambiguity_tolerance: [70, 0.52, "i", "N"],
-      decisiveness: [82, 0.65, "s", "A"],
-      social_assertiveness: [82, 0.65, "s", "N"],
-      collaboration: [55, 0.48, "i", "N"],
-      leadership_drive: [78, 0.6, "s", "A"],
-      persuasiveness: [80, 0.62, "s", "A"],
-      conflict_tolerance: [70, 0.52, "i", "N"],
-      mastery_orientation: [95, 0.82, "d", "A"],
-      achievement_drive: [88, 0.72, "s", "N"],
-      competitiveness: [82, 0.65, "s", "N"],
-      autonomy_need: [88, 0.72, "s", "A"],
-      impact_motivation: [78, 0.6, "s", "N"],
+      // Maintained a library of 2,500+ books with extensive margin notes
+      // and highlighted passages from Descartes, Aquinas, Laozi, and
+      // Confucius; applied technical principles from fencing manuals to
+      // unarmed combat (Polly).
+      curiosity: [85, 0.6, "s", "A"],
+      // Inosanto's firsthand account: Lee systematically weighed a style's
+      // strengths against its weaknesses before adopting or discarding it
+      // (e.g. valuing Korean karate's kicking/flexibility while explicitly
+      // noting its lack of takedowns/grappling).
+      analytical_rigor: [82, 0.62, "s", "A"],
+      // Synthesized fencing principles into what he called "unarmed
+      // fencing," combining Wing Chun, boxing, judo, and Western fencing
+      // theory into Jeet Kune Do -- a genuine cross-tradition synthesis,
+      // not adoption of a single style (Polly).
+      intuitive_synthesis: [85, 0.6, "s", "A"],
+      // Founded Jeet Kune Do as an entirely new martial arts system rather
+      // than a variant of an existing one -- a defining, well-documented
+      // act of original synthesis (Polly).
+      creative_originality: [85, 0.65, "s", "A"],
+      // Inosanto (firsthand, years-long training partner): Lee "tested
+      // techniques, discarded what failed, refined what worked" as a
+      // standing methodology, not a one-off.
+      experimentation: [88, 0.65, "s", "A"],
+      // Drew simultaneously from Wing Chun, Western boxing, judo, and
+      // fencing theory, plus Western and Eastern philosophy (his personal
+      // library), integrating rather than specializing in one tradition
+      // (Polly).
+      cross_domain_range: [90, 0.65, "s", "A"],
+      // Sustained daily training regimen (3-4 mile morning runs, rope
+      // jumping, structured weightlifting every ~2 days) built with a
+      // rigor Polly describes as ahead of the sports-science norms of his
+      // era.
+      discipline: [90, 0.68, "s", "A"],
+      // Multi-year, continuous development and refinement of Jeet Kune Do
+      // and his own physical conditioning, sustained across changing
+      // career circumstances (Polly).
+      persistence: [85, 0.58, "s", "A"],
+      // Initially dismissed the nunchaku as "a worthless piece of junk"
+      // when Inosanto introduced it, then mastered it within three months
+      // (Inosanto, firsthand); also a documented shift away from rigid
+      // classical technique after the 1964 Wong Jack-Man match.
+      adaptability: [85, 0.65, "s", "A"],
+      // Deliberately provoked street confrontations as a teenager in Hong
+      // Kong, to the point police warned his mother of jail time if it
+      // continued; separately agreed to a real, consequential challenge
+      // match with Wong Jack-Man in 1964 (Polly; Wikipedia, broadly
+      // corroborated public record). Dual-edged: real legal/physical risk
+      // accepted, not uniformly constructive.
+      risk_tolerance: [80, 0.55, "s", "D"],
+      // Documented quick pivot away from rigid classical technique
+      // following the Wong Jack-Man match; later closed his martial arts
+      // schools decisively once his film career gained momentum, treating
+      // instruction as instrumental rather than a fixed commitment (Polly).
+      decisiveness: [80, 0.58, "s", "A"],
+      // Mixed evidence: his early Seattle teaching used students partly to
+      // refine his own art ("is he teaching us or using us?" per Polly), a
+      // more instrumental dynamic, while his near-decade training
+      // partnership with Inosanto is independently described (firsthand)
+      // as genuinely reciprocal.
+      collaboration: [60, 0.55, "s", "D"],
+      // Repeated willingness to engage in real physical confrontation:
+      // street fights as a teenager, and accepting the high-stakes Wong
+      // Jack-Man challenge match as an adult.
+      conflict_tolerance: [75, 0.55, "s", "D"],
+      // Years of structured, escalating skill development across multiple
+      // disciplines, culminating in rapid genuine mastery of new tools
+      // (the 3-month nunchaku progression, firsthand via Inosanto).
+      mastery_orientation: [90, 0.68, "s", "A"],
+      // Explicit, documented ambition from a young age: told his father
+      // "I'm not a good student, but I'm good at fighting. I'm going to
+      // use fighting to make a name for myself," and at 18 declared he
+      // would become "the Ray Kroc of kung fu" (Polly).
+      achievement_drive: [88, 0.65, "s", "A"],
+      // Polly describes him as "hyper-competitive"; his opening question
+      // to his first instructor was "How long will it take before I'm
+      // better than you?" -- a specific, quoted, dated exchange that also
+      // strained that early teacher relationship.
+      competitiveness: [85, 0.55, "s", "D"],
+      // Founded his own style and schools rather than remaining within
+      // Wing Chun orthodoxy, including deliberately teaching non-Chinese
+      // students against the traditional prohibition (Polly).
+      autonomy_need: [88, 0.65, "s", "A"],
       // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol):
-      //   - opportunity_sensing (75, 0.6, s) — recognized limitations in
+      //   - opportunity_sensing (78, 0.58, s) — recognized limitations in
       //     traditional, rigid martial arts styles ahead of most
       //     contemporaries, anticipating later mixed-martial-arts thinking
       //     by decades; distinct from creative_originality/independent_
       //     thinking (already scored) in that it's specifically about
       //     perceiving a gap in the field, not just producing something
       //     original.
-      //   - proactive_agency (72, 0.55, s, D) — founded his own schools and
+      //   - proactive_agency (78, 0.58, s) — founded his own schools and
       //     style (Jeet Kune Do) unprompted, and specifically taught
       //     non-Chinese students against the traditional martial arts
       //     community's norms — documented friction/backlash resulted.
-      // resourcefulness/belief_updating: checked against both poles, no
-      // qualifying episode either direction.
-      opportunity_sensing: [75, 0.6, "s", "A"],
-      proactive_agency: [72, 0.55, "s", "D"],
+      opportunity_sensing: [78, 0.58, "s", "A"],
+      proactive_agency: [78, 0.58, "s", "A"],
+      // The 1964 Wong Jack-Man challenge match -- disputed in its
+      // blow-by-blow account between the two participants, but broadly
+      // corroborated as a real, dated event -- is documented as directly
+      // prompting Lee's shift away from rigid classical technique toward
+      // what became Jeet Kune Do's founding philosophy.
+      belief_updating: [78, 0.55, "s", "A"],
+      // resourcefulness: checked against both poles, no qualifying episode
+      // either direction this cycle.
     },
   },
   {

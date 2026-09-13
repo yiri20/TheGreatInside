@@ -40,30 +40,44 @@ describe("match-pool integrity audit: cohort counts", () => {
   });
 
   it("matches the live production/directory/eligible counts", () => {
-    // Match-eligible dropped 127->126 after the akira-kurosawa legacy
+    // Match-eligible dropped 127->126->123: the akira-kurosawa legacy
     // remediation (docs/checkpoints/legacy-integrity-kurosawa-remediation.md)
-    // honestly found only 10 individually-attributable rows -- directory
-    // visibility is unchanged since he was made evidence_approved, not held.
+    // honestly found only 10 individually-attributable rows for him, and
+    // legacy integrity batch 2 (docs/checkpoints/legacy-integrity-batch2-
+    // three-person-remediation.md) did the same for bruce-lee,
+    // ludwig-van-beethoven, and nikola-tesla -- directory visibility is
+    // unchanged for all four since each was made evidence_approved, not held.
     expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(224);
-    expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(126);
+    expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(123);
   });
 
-  it("every directory-visible non-eligible person belongs to the recent_cycles lineage group, EXCEPT the legacy-remediated akira-kurosawa", () => {
+  it("every directory-visible non-eligible person belongs to the recent_cycles lineage group, EXCEPT the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, and nikola-tesla", () => {
     // Legacy integrity remediation (2026-09, docs/checkpoints/legacy-
     // integrity-kurosawa-remediation.md) made akira-kurosawa (early_hand_
     // authored lineage) the first non-recent-cycle person to be
     // evidence_approved/directory-visible/non-eligible -- previously this
     // combination only arose from the roster24+ publication architecture.
+    // Legacy integrity batch 2 added three more (bruce-lee and
+    // ludwig-van-beethoven are roster2 lineage; nikola-tesla is also
+    // roster2 -- all early_hand_authored).
+    const legacyRemediated = new Set([
+      "akira-kurosawa",
+      "bruce-lee",
+      "ludwig-van-beethoven",
+      "nikola-tesla",
+    ]);
     const nonEligibleVisible = inventory.filter(
-      (r) => r.isDirectoryVisible && !r.isMatchEligible && r.slug !== "akira-kurosawa",
+      (r) => r.isDirectoryVisible && !r.isMatchEligible && !legacyRemediated.has(r.slug),
     );
     expect(nonEligibleVisible.length).toBeGreaterThan(0);
     for (const r of nonEligibleVisible) expect(r.lineageGroup).toBe("recent_cycles");
 
-    const kurosawa = inventory.find((r) => r.slug === "akira-kurosawa")!;
-    expect(kurosawa.isDirectoryVisible).toBe(true);
-    expect(kurosawa.isMatchEligible).toBe(false);
-    expect(kurosawa.lineageGroup).toBe("early_hand_authored");
+    for (const slug of legacyRemediated) {
+      const p = inventory.find((r) => r.slug === slug)!;
+      expect(p.isDirectoryVisible, slug).toBe(true);
+      expect(p.isMatchEligible, slug).toBe(false);
+      expect(p.lineageGroup, slug).toBe("early_hand_authored");
+    }
   });
 });
 

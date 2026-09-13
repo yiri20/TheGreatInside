@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bruce-lee",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bruce Lee",
+    "wikidataId": "Q16397",
+    "birthYear": 1940,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["HK", "US"],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["martial_artist", "actor", "philosopher"],
+    "fieldIds": ["martial_arts", "film"],
+    "impactDomains": ["athletic", "cultural"],
+    "tagIds": ["cross_disciplinary", "founder"],
+    "archetypeIds": ["independent_creator", "competitive_performer"]
+  },
+  "sources": [
+    { "id": "src_brucelee_wikipedia", "kind": "wikipedia", "title": "Bruce Lee", "url": "https://en.wikipedia.org/wiki/Bruce_Lee" },
+    { "id": "src_brucelee_polly", "kind": "biography", "title": "Matthew Polly, Bruce Lee: A Life (Simon & Schuster, 2018) -- independent biography; accessed via the author's own recorded interviews (Art of Manliness podcast; Chinese Martial Studies) summarizing specific documented incidents from the book" },
+    { "id": "src_brucelee_tao_of_jkd", "kind": "archive", "title": "Bruce Lee, Tao of Jeet Kune Do (posthumous, compiled from his own notes by Linda Lee Cadwell/Black Belt magazine)" },
+    { "id": "src_brucelee_berton_interview", "kind": "press", "title": "The Pierre Berton Show, December 9 1971 -- filmed interview, Lee's own words" },
+    { "id": "src_brucelee_inosanto", "kind": "archive", "title": "Dan Inosanto -- direct training partner/student of Bruce Lee for nearly a decade; firsthand recollections (Aikido Journal, JKD London, Martial Tribes interviews), independent of Polly's own authorial voice" }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Maintained a library of 2,500+ books with extensive margin notes and highlighted passages from Descartes, Aquinas, Laozi, and Confucius; applied technical principles from fencing manuals to unarmed combat (Polly)."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inosanto's firsthand account: Lee systematically weighed a style's strengths against its weaknesses before adopting or discarding it (e.g. valuing Korean karate's kicking/flexibility while explicitly noting its lack of takedowns/grappling)."
+    },
+    "intuitive_synthesis": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Synthesized fencing principles into what he called 'unarmed fencing,' combining Wing Chun, boxing, judo, and Western fencing theory into Jeet Kune Do -- a genuine cross-tradition synthesis, not adoption of a single style (Polly)."
+    },
+    "creative_originality": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded Jeet Kune Do as an entirely new martial arts system rather than a variant of an existing one -- a defining, well-documented act of original synthesis (Polly)."
+    },
+    "experimentation": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inosanto (firsthand, years-long training partner): Lee 'tested techniques, discarded what failed, refined what worked' as a standing methodology, not a one-off."
+    },
+    "cross_domain_range": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Drew simultaneously from Wing Chun, Western boxing, judo, and fencing theory, plus Western and Eastern philosophy (his personal library), integrating rather than specializing in one tradition (Polly)."
+    },
+    "discipline": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained daily training regimen (3-4 mile morning runs, rope jumping, structured weightlifting every ~2 days) built with a rigor Polly describes as ahead of the sports-science norms of his era."
+    },
+    "persistence": {
+      "score": 85,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Multi-year, continuous development and refinement of Jeet Kune Do and his own physical conditioning, sustained across changing career circumstances (Polly)."
+    },
+    "adaptability": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Initially dismissed the nunchaku as 'a worthless piece of junk' when Inosanto introduced it, then mastered it within three months (Inosanto, firsthand); also documented shift away from rigid classical technique after the 1964 Wong Jack-Man match."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Deliberately provoked street confrontations as a teenager in Hong Kong, to the point police warned his mother of jail time if it continued; separately agreed to a real, consequential challenge match with Wong Jack-Man in 1964 (Polly; Wikipedia, broadly corroborated public record). Dual-edged: real legal/physical risk accepted, not uniformly constructive."
+    },
+    "decisiveness": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented quick pivot away from rigid classical technique following the Wong Jack-Man match; later closed his martial arts schools decisively once his film career gained momentum, treating instruction as instrumental rather than a fixed commitment (Polly)."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Mixed evidence: his early Seattle teaching used students partly to refine his own art ('is he teaching us or using us?' per Polly), a more instrumental dynamic, while his near-decade training partnership with Inosanto is independently described (firsthand) as genuinely reciprocal -- testing techniques together and challenging each other to grow."
+    },
+    "conflict_tolerance": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Repeated willingness to engage in real physical confrontation: street fights as a teenager, and accepting the high-stakes Wong Jack-Man challenge match as an adult. Dual-edged: the same disposition that produced a defining career turning point also produced real legal/physical jeopardy in adolescence."
+    },
+    "mastery_orientation": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Years of structured, escalating skill development across multiple disciplines, culminating in rapid genuine mastery of new tools (the 3-month nunchaku progression, firsthand via Inosanto) rather than superficial adoption."
+    },
+    "achievement_drive": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Explicit, documented ambition from a young age: told his father 'I'm not a good student, but I'm good at fighting. I'm going to use fighting to make a name for myself,' and at 18 declared he would become 'the Ray Kroc of kung fu' with nationwide franchised schools (Polly)."
+    },
+    "competitiveness": {
+      "score": 85,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Polly describes him as 'hyper-competitive'; his opening question to his first instructor, Wong Shun Leung, was 'How long will it take before I'm better than you?' -- a specific, quoted, dated exchange. Dual-edged: the same drive strained that early teacher relationship ('he asked too much,' per the teacher's own recollection)."
+    },
+    "autonomy_need": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded his own style and schools rather than remaining within Wing Chun orthodoxy, including deliberately teaching non-Chinese students against the traditional prohibition (Polly)."
+    },
+    "opportunity_sensing": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recognized the limitations of rigid, traditional martial arts styles years ahead of most contemporaries, anticipating later mixed-martial-arts thinking by decades; separately, saw value in bodybuilding supplements/magazines when this was culturally uncommon (Polly)."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Unprompted founding of his own schools and style, including a deliberate, self-directed decision to teach non-Chinese students against the traditional martial arts prohibition of the era (Polly)."
+    },
+    "belief_updating": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The 1964 Wong Jack-Man challenge match -- disputed in its blow-by-blow account between the two participants, but broadly corroborated as a real, dated event -- is documented as directly prompting Lee's shift away from rigid classical technique toward what became Jeet Kune Do's founding philosophy."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "not_available"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 2 (2026-09-13, docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md), triggered by a deterministic risk-triage of the 34-person pre-candidate-pipeline cohort following the Kurosawa remediation (PR #36). Bruce Lee ranked #1 by that triage (score 13/34): only 1 source cited, 29 high-confidence rows resting on the unsupported original base set, 3 'documented'-tier claims among them, no Wikidata QID, max confidence 0.85 on that single source. New research (5 source channels: Matthew Polly's independent biography, Lee's own Tao of Jeet Kune Do writings, the December 1971 Pierre Berton interview in his own words, Dan Inosanto's firsthand recollections as a near-decade training partner, and the broadly-corroborated public record of the 1964 Wong Jack-Man match) audited all 32 original rows (30 base + 2 taxonomy_v1.1). 19 retained and rescored from the evidence directly (none reusing old values), 1 new row added (belief_updating), 13 removed for lack of individually-attributable support this cycle (systems_abstraction, independent_thinking, aesthetic_sensitivity, detail_orientation, deep_focus, perfectionism, execution_speed, planning_orientation, ambiguity_tolerance, social_assertiveness, leadership_drive, persuasiveness, impact_motivation). One claim from Polly's biography (that Lee asked Chuck Norris to gain 20lbs to appear slower on film) is explicitly disputed by collaborator John Little and was NOT used for any row. Lee's death (cerebral edema, July 20 1973) was not used as evidence for any row, consistent with this project's standing precedent against inferring personality from tragedy/health circumstance. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed. No portrait currently exists for this profile in production; sourcing one is outside this cycle's scope (behavioral remediation only) and is left for a future cycle."
+  },
+  "localization": {}
+}

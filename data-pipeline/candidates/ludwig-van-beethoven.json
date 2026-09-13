@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ludwig-van-beethoven",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ludwig van Beethoven",
+    "wikidataId": "Q255",
+    "birthYear": 1770,
+    "deathYear": 1827,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["DE"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["composer"],
+    "fieldIds": ["music"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["specialist", "overcame_adversity"],
+    "archetypeIds": ["creative_creator", "independent_creator"]
+  },
+  "sources": [
+    { "id": "src_beethoven_wikipedia", "kind": "wikipedia", "title": "Ludwig van Beethoven", "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven" },
+    { "id": "src_beethoven_swafford", "kind": "biography", "title": "Jan Swafford, Beethoven: Anguish and Triumph (Houghton Mifflin Harcourt, 2014) -- independent scholarly biography" },
+    { "id": "src_beethoven_letters", "kind": "archive", "title": "Beethoven's own published correspondence to his nephew Karl (e.g. signed 'your most faithful father')" },
+    { "id": "src_beethoven_custody_history", "kind": "press", "title": "Historical/legal account of the 1815-1820 custody battle for nephew Karl, drawn from court and family records (interlude.hk)" },
+    { "id": "src_beethoven_sketchbooks", "kind": "institution", "title": "Sketchbook scholarship tradition originating with Gustav Nottebohm -- analysis of Beethoven's surviving manuscript sketchbooks, studied continuously for over a century" }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 88,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Surviving sketchbooks document him reimagining entire sections of the Eroica Symphony's structure across many drafts, not merely polishing detail -- a documented pattern of genuinely restructuring rather than refining (Nottebohm-tradition scholarship)."
+    },
+    "discipline": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "First composer known to use sketchbooks in any systematic way, devoting an unusually large proportion of his working time to sustained, methodical refinement across decades (sketchbook scholarship)."
+    },
+    "detail_orientation": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Fine-grained, note-by-note revision documented across surviving sketchbooks, examined by generations of scholars down to individual pitch and rhythm choices."
+    },
+    "perfectionism": {
+      "score": 90,
+      "confidence": 0.68,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sketchbooks show he 'rejected initial drafts, striving to perfect every note ... made many changes, rejected and reattempted until he was satisfied' -- physically documented via surviving manuscripts. Dual-edged: the same standard that produced his mature style is well-attested to have also strained relationships (Swafford: his temper 'occasionally drove away longtime friends and supporters')."
+    },
+    "persistence": {
+      "score": 92,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sketchbook revision process sustained across decades; separately, pursued patrons who delayed payment relentlessly (Swafford), and pursued legal action after patron Prince Lobkowitz's 1811 bankruptcy, recovering part of what he was owed by 1815."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "During the 1815-1820 custody battle for nephew Karl: in 1816 forbade Karl from seeing his mother Johanna (enforced by police when Karl attempted to see her); in 1817 enrolled Karl in a boarding school and forbade Johanna from visiting without permission. Clear, documented, dated actions -- dual-edged given their contested and, per the historical record, traumatic effect on Karl."
+    },
+    "collaboration": {
+      "score": 35,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "During the custody battle, historians document 'a wholesale disregard for any point of view but his own'; he 'began labeling Karl as bad' while 'constantly badmouthing' Johanna. Scored low but not at floor: he also signed letters to Karl 'your most faithful father,' and sustained aristocratic patron relationships for decades despite recurring friction (Swafford)."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Relentless, friction-generating pursuit of patrons over delayed payment (Swafford); separately, willingly sustained a 5-year custody battle at real personal, legal, and professional cost -- during its peak his compositional output 'dipped considerably,' at one point nearly ceasing entirely."
+    },
+    "autonomy_need": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Near-total insistence on controlling decisions regarding Karl without deferring to Johanna's views, documented across the custody battle's specific dated actions (1816 contact prohibition, 1817 boarding-school placement); the same disposition is evident in his general pattern of resisting external authority in patron relationships."
+    },
+    "resourcefulness": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Progressive deafness from his late 20s forced a fundamental adaptation of his compositional method -- specially cut pencils and notebooks, feeling vibrations, eventually composing entirely by internal imagination without hearing performances. A genuine constraint met by recombining available means; the crisis itself (his despair, documented in the private Heiligenstadt Testament) is not used as evidence, only this constructive behavioral adaptation."
+    },
+    "proactive_agency": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "In 1809, personally negotiated a stipend from three aristocratic patrons (Archduke Rudolph, Prince Kinsky, Prince Lobkowitz) to remain in Vienna without a formal court/church position, self-directed rather than assigned, when he was being courted to leave for a position elsewhere."
+    }
+  },
+  "doNotCopyKeys": ["dontcopy.beethoven.volatility"],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ludwig-van-beethoven-stieler-1820.jpg",
+    "width": 1287,
+    "height": 1600,
+    "source": "Wikimedia Commons (hosted locally by this app as a resized/compressed derivative; see licenseUrl for the full-resolution original)",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_(Stieler,_1820).jpg",
+    "attribution": "Painted from life by Joseph Karl Stieler, 1820, Beethoven-Haus, Bonn, Public Domain",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_(Stieler,_1820).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 2 (2026-09-13, docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md), triggered by a deterministic risk-triage of the 34-person pre-candidate-pipeline cohort following the Kurosawa remediation (PR #36). Beethoven ranked #2 by that triage (score 13/34, tied): only 1 source cited, 23 high-confidence rows resting on the unsupported original base set, 6 'documented'-tier claims among them, no Wikidata QID, max confidence 0.92 on that single source. New research (Jan Swafford's independent biography, Beethoven's own published letters, the historical/legal record of the 1815-1820 custody battle for nephew Karl, and the century-long sketchbook scholarship tradition beginning with Nottebohm) audited all 32 original rows (30 base + 2 taxonomy_v1.1). 11 retained and rescored from the evidence directly (none reusing old values); 21 removed for lack of individually-attributable, non-duplicative support this cycle. No new taxonomy_v1.1 rows added: opportunity_sensing and belief_updating were checked and, as in the original profile, no qualifying episode was found either direction. The Heiligenstadt Testament's content of despair over his deafness was deliberately NOT used as evidence for any row, per this project's standing precedent against inferring personality from tragedy/health circumstance (same discipline as Kurosawa's suicide attempt and Virginia Woolf's file); the already-established 'deafness-driven compositional method substitution' was retained as legitimate evidence for resourcefulness because it is his constructive behavioral adaptation, not the health crisis itself. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

@@ -393,6 +393,16 @@ describe("confidence and missing data", () => {
       // eligibility_v2 for the first time (was mirroring eligible=true
       // before this cycle, on rows with no stated rationale).
       "akira-kurosawa",
+      // Legacy integrity remediation batch 2 (2026-09-13,
+      // docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md):
+      // bruce-lee, ludwig-van-beethoven, and nikola-tesla -- the three
+      // highest-risk profiles by deterministic triage of the remaining
+      // legacy cohort -- were each re-researched from scratch and now
+      // honestly fall short of eligibility_v2 (all were mirroring
+      // eligible=true before this cycle, on rows with no stated rationale).
+      "bruce-lee",
+      "ludwig-van-beethoven",
+      "nikola-tesla",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -726,6 +736,16 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       // eligibility_v2 for the first time (was mirroring eligible=true
       // before this cycle, on rows with no stated rationale).
       "akira-kurosawa",
+      // Legacy integrity remediation batch 2 (2026-09-13,
+      // docs/checkpoints/legacy-integrity-batch2-three-person-remediation.md):
+      // bruce-lee, ludwig-van-beethoven, and nikola-tesla -- the three
+      // highest-risk profiles by deterministic triage of the remaining
+      // legacy cohort -- were each re-researched from scratch and now
+      // honestly fall short of eligibility_v2 (all were mirroring
+      // eligible=true before this cycle, on rows with no stated rationale).
+      "bruce-lee",
+      "ludwig-van-beethoven",
+      "nikola-tesla",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
