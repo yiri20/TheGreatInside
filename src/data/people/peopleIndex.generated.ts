@@ -603,7 +603,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     occupationIds: ["film_director"],
     fieldIds: ["film"],
     impactDomains: ["artistic","cultural"],
-    tagIds: ["perfectionist","leader"],
+    tagIds: ["leader"],
     archetypeIds: ["creative_creator","organizational_leader"],
     isMatchEligible: false,
     isDirectoryVisible: true,

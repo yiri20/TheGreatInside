@@ -157,11 +157,22 @@ project's own rubric discipline. This is a disclosed limitation of this
 cycle's research, not a claim the trait is false — a future cycle with a
 targeted visual-composition-anecdote source could revisit it.
 
-Score/confidence/evidenceType/impact changes: all 10 retained rows
-changed on all 4 fields (full rescore, not a patch) since the entire
-per-row rationale is new; the 20 removed rows are deletions, not
-modifications. No row was invented or adjusted after seeing the
-eligibility result (see §8's ordering).
+**Corrected 2026-09-12, final pre-merge pass.** This originally claimed
+all 10 retained rows changed on all 4 fields. Mechanically diffing the
+original 30-row state (`main`, `73e4407`) against the final 10 rows
+field-by-field found that is not quite right: **score changed on 9 of
+10** (`decisiveness` is the one exception — 82 before, 82 after; only
+its confidence moved, 0.65→0.6), **confidence changed on 10 of 10**,
+**evidenceType changed on 2 of 10** (`creative_originality` and
+`detail_orientation`, both `documented`→`strong_inference`), and
+**impact changed on 4 of 10** (`analytical_rigor` neutral→advantage,
+`discipline` advantage→neutral, `autonomy_need` advantage→neutral,
+`collaboration` neutral→dual_edged). Every retained row still carries a
+fresh, independent rationale — this correction is to the summary
+statistic, not a claim any row was carried forward unscored; the 20
+removed rows remain deletions, not modifications. No row was invented or
+adjusted after seeing the eligibility result (see §8's ordering), and no
+score is changed by this correction itself.
 
 ## 8. Publication decision — before eligibility
 
@@ -346,5 +357,79 @@ decision before computing eligibility, and regenerate
   alone; the eligibility computation happened only after the file was
   frozen (§8).
 - Only Kurosawa received new behavioral research this cycle.
-- No other legacy person's data was read, scored, or modified.
+- **Corrected 2026-09-12**: "No other legacy person's data was read,
+  scored, or modified" was too broad — `generateLegacyScoringLock.ts`
+  necessarily mechanically reads every other legacy person's current
+  production tuple to build/verify the fingerprint baseline (§3). What is
+  actually true: no other legacy person's behavioral evidence was
+  researched, no other legacy person was manually evidence-reviewed or
+  rescored, and no other legacy person's production data was modified.
+  Their existing tuples were mechanically read only, for fingerprinting.
 - Roster33 not started.
+
+## 15. Final pre-merge correction (2026-09-12): historical-audit fidelity + stale tag
+
+Two further corrections made before merge, neither touching Kurosawa's
+behavioral rows, sources, scores, confidence, evidenceType, impact,
+publication decision, or eligibility:
+
+**Historical-audit ledger fidelity.** `matchPoolIntegrityAuditManual.ts`
+(PR #35's frozen manual row-classification ledger) had been edited by
+this PR to replace Kurosawa's original 30-row, all-`unsupported`
+classification with his new 10-row, all-`supported_as_written` one —
+technically accurate to his current data, but it meant `FROZEN_16_
+ELIGIBLE`'s own denominators (396 eligible / 88 controls / 484 combined)
+were no longer reproducible by running this file, undercutting the
+"frozen sample" the file's name promises. Corrected: Kurosawa's ledger
+entries are restored to PR #35's exact original finding (all 30 base
+rows, `unsupported_from_available_provenance`, matching ada-lovelace/
+benjamin-franklin/alan-turing's identical pattern for the same no-JSON
+cohort), and denominators are back to 396/88/484. Because his live
+production data has legitimately changed, restoring this history alone
+would trip the file's own `findOrphanLedgerRows`/`findMissingLedgerRows`
+drift guards (his 20 no-longer-scored attributes would read as orphans).
+Rather than weaken those guards generally, a new, narrowly-scoped
+`SUPERSEDED_AUDIT_SLUGS` set (currently just `akira-kurosawa`, each entry
+documented with the remediation cycle responsible and what now
+guarantees that person's current integrity instead) exempts only listed
+slugs from those two checks; every other frozen-sample person is still
+checked against live data exactly as before. `FROZEN_16_ELIGIBLE`'s own
+doc comment now states plainly that "frozen" describes sample
+membership, not current eligibility. The "JSON-BACKED LINEAGE ONLY"
+CLI decomposition's `ROSTER1_2` exclusion list is restored to include
+`akira-kurosawa` (he had no candidate JSON at PR #35's freeze time,
+which is what that historical decomposition classifies by) — this also
+fixes a pre-existing, unrelated label bug found while making this
+change: the decomposition's own `(11 people)` label had gone stale to
+an uncorrected `(should read 12)` once a prior edit dropped Kurosawa
+from `ROSTER1_2` without updating the count; restoring him to the list
+makes the pre-existing label correct again rather than requiring a
+separate re-label. 6 new tests in `matchPoolIntegrityAuditManual.test.ts`
+prove: the historical 30-row snapshot is preserved verbatim, the
+superseded exemption is narrowly scoped to exactly one slug, and the
+orphan/missing guards still catch real drift for a non-superseded person
+(synthetic case; no real data touched).
+
+**Stale `perfectionist` tag.** Kurosawa's `tagIds` still listed
+`perfectionist` after this cycle removed his `perfectionism` row for
+lack of individually-attributable evidence (§7) — inconsistent metadata,
+and live in the People Directory's search haystack
+(`explorer.ts`'s `personSearchHaystack`, which includes `tagIds`).
+Removed from both `data-pipeline/candidates/akira-kurosawa.json` and
+`src/data/people/roster2.ts`; `leader` retained (`leadership_drive` is a
+supported row). `src/data/people/peopleIndex.generated.ts` regenerated
+via its established generator (`tsx src/dev/generatePeopleIndex.ts`) —
+diffed to confirm the *only* change across all 225 entries is this one
+tag on Kurosawa's row. 4 new tests in
+`akiraKurosawaRemediation.test.ts` prove `perfectionist` is absent and
+`leader` present across candidate/production/index, that no
+`perfectionism` row exists, and that searching `"perfectionist"` no
+longer surfaces Kurosawa while searching `"leader"` still does.
+
+No dispersion/calibration/matching-health rerun: neither correction
+touches scores, eligibility, or the match-eligible set (confirmed:
+`git diff` shows zero change to `dispersion.generated.ts` or
+`calibration.ts`; `matchPoolIntegrityAudit.ts` re-run after these edits
+still reports match-eligible 126 / `arts_culture` 48, unchanged).
+`tsc --noEmit` clean; full `vitest run` 821/821 passing (58 files,
+including this pass's 10 new tests).

@@ -1993,7 +1993,13 @@ const seeds: PersonSeed[] = [
     occupationIds: ["film_director"],
     fieldIds: ["film"],
     impactDomains: ["artistic", "cultural"],
-    tagIds: ["perfectionist", "leader"],
+    // "perfectionist" removed (legacy integrity remediation cycle,
+    // 2026-09-12, downstream correction): the perfectionism row itself was
+    // removed for lack of individually-attributable evidence (SS7 of
+    // docs/checkpoints/legacy-integrity-kurosawa-remediation.md); keeping
+    // this search/filter tag after deleting the trait it names was stale
+    // metadata. "leader" retained: leadership_drive is a supported row.
+    tagIds: ["leader"],
     archetypeIds: ["creative_creator", "organizational_leader"],
     // Verified live against Wikidata during the 2026-09 legacy integrity
     // remediation cycle (docs/checkpoints/legacy-integrity-kurosawa-

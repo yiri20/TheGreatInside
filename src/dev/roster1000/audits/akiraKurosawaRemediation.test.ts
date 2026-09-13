@@ -4,6 +4,7 @@ import { describe, expect, it } from "vitest";
 import { SEED_PEOPLE } from "../../../data/people/seed.js";
 import { PEOPLE_INDEX } from "../../../data/people/peopleIndex.generated.js";
 import { evaluateMatchEligibility } from "../../../core/matching/similarity.js";
+import { searchPeople } from "../../../core/people/explorer.js";
 import type { Candidate } from "../candidateSchema.js";
 import { hasCandidateFile } from "./matchPoolIntegrityAudit.js";
 
@@ -92,5 +93,33 @@ describe("Kurosawa legacy remediation: no duplicate identity", () => {
     expect(PEOPLE_INDEX).toHaveLength(225);
     expect(SEED_PEOPLE.filter((p) => p.slug === "akira-kurosawa")).toHaveLength(1);
     expect(PEOPLE_INDEX.filter((p) => p.slug === "akira-kurosawa")).toHaveLength(1);
+  });
+});
+
+describe("Kurosawa legacy remediation: stale tag correction", () => {
+  it("'perfectionist' is absent from candidate, production, and the generated people index; 'leader' is retained in all three", () => {
+    const indexEntry = PEOPLE_INDEX.find((p) => p.slug === "akira-kurosawa")!;
+
+    expect(candidate.classification.tagIds).not.toContain("perfectionist");
+    expect(production.tagIds).not.toContain("perfectionist");
+    expect(indexEntry.tagIds).not.toContain("perfectionist");
+
+    expect(candidate.classification.tagIds).toContain("leader");
+    expect(production.tagIds).toContain("leader");
+    expect(indexEntry.tagIds).toContain("leader");
+  });
+
+  it("no scored row is named 'perfectionism' -- the tag's removal matches the row's absence, not a mismatch", () => {
+    expect(production.attributes.some((a) => a.attributeId === "perfectionism")).toBe(false);
+  });
+
+  it("searching the raw 'perfectionist' tag no longer surfaces Kurosawa on stale metadata alone", () => {
+    const results = searchPeople(SEED_PEOPLE, "perfectionist");
+    expect(results.some((p) => p.slug === "akira-kurosawa")).toBe(false);
+  });
+
+  it("searching 'leader' still surfaces Kurosawa -- the tag fix removed one tag, not search generally", () => {
+    const results = searchPeople(SEED_PEOPLE, "leader");
+    expect(results.some((p) => p.slug === "akira-kurosawa")).toBe(true);
   });
 });
