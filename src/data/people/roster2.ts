@@ -2890,8 +2890,15 @@ const seeds: PersonSeed[] = [
     occupationIds: ["athlete"],
     fieldIds: ["sport"],
     impactDomains: ["athletic", "cultural"],
-    tagIds: ["competitor", "advocate"],
+    // "competitor" removed 2026-09 (legacy integrity remediation batch 4):
+    // stale trait-claiming tag, same pattern as Kurosawa's "perfectionist"
+    // (PR #36) -- competitiveness had no individually-attributable
+    // behavioral incident distinct from her competitive record/medal count
+    // itself, and was removed from rows below for that reason. "advocate"
+    // retained -- well-supported by the Nassar disclosure/testimony rows.
+    tagIds: ["advocate"],
     archetypeIds: ["competitive_performer"],
+    externalIdentity: { wikidataId: "Q7520267" },
     // No-Portrait Fill Batch 1 (2026-08): resized derivative, uncropped --
     // an earlier crop attempt to remove a teammate's arm at the frame edge
     // instead clipped her smile, so the full frame was kept (the arms of
@@ -2932,43 +2939,70 @@ const seeds: PersonSeed[] = [
     //     loss of spatial awareness while airborne) and her mental health;
     //     returned in 2023, won Olympic all-around/vault gold again in
     //     2024.
-    sources: [wiki("biles", "Simone Biles")],
+    // Legacy integrity remediation batch 4 (2026-09-13, docs/checkpoints/
+    // legacy-integrity-batch4-three-person-remediation.md): audited from
+    // scratch against her own memoir, her 2018 Nassar disclosure, her 2021
+    // Senate testimony, her 2021 Tokyo-withdrawal statements, and a 2023
+    // comeback interview. 11 of 27 original rows retained (rescored from
+    // evidence, not reused); 16 removed for lacking individually-
+    // attributable support -- see the checkpoint for the full ledger,
+    // per-row disposition, and a disclosed source-independence limitation
+    // (this profile's substantive sources are predominantly her own public
+    // statements rather than a third-party biography). Mirrors
+    // data-pipeline/candidates/simone-biles.json exactly.
+    sources: [
+      wiki("biles", "Simone Biles"),
+      bio("biles", "Simone Biles with Michelle Burford, Courage to Soar (2016)"),
+      { id: "src_biles_nassar_disclosure", kind: "press", title: "Simone Biles's January 18, 2018 public disclosure of Larry Nassar's abuse" },
+      { id: "src_biles_congressional_testimony", kind: "institution", title: "Simone Biles's September 15, 2021 testimony before the U.S. Senate Judiciary Committee" },
+      { id: "src_biles_tokyo_explanation", kind: "press", title: "Simone Biles's own 2021 public statements explaining her Tokyo Olympics withdrawal" },
+      { id: "src_biles_comeback_interview", kind: "press", title: "Simone Biles, NBC News interview on her Paris 2024 comeback (2023)" },
+    ],
+    directoryVisible: true,
     rows: {
-      curiosity: [55, 0.45, "i", "N"],
-      analytical_rigor: [55, 0.42, "i", "N"],
-      independent_thinking: [72, 0.58, "s", "N"],
-      creative_originality: [68, 0.52, "s", "N"],
-      experimentation: [70, 0.55, "s", "N"],
-      discipline: [97, 0.88, "d", "A"],
-      deep_focus: [88, 0.72, "s", "A"],
-      detail_orientation: [82, 0.65, "s", "A"],
-      perfectionism: [85, 0.68, "s", "D"],
-      execution_speed: [80, 0.62, "s", "A"],
-      planning_orientation: [75, 0.58, "s", "A"],
-      persistence: [95, 0.82, "d", "A"],
-      adaptability: [82, 0.65, "s", "A"],
-      risk_tolerance: [78, 0.62, "s", "N"],
-      ambiguity_tolerance: [58, 0.45, "i", "N"],
-      decisiveness: [80, 0.62, "s", "A"],
-      social_assertiveness: [70, 0.55, "s", "N"],
-      collaboration: [65, 0.5, "i", "N"],
-      leadership_drive: [65, 0.5, "s", "N"],
-      persuasiveness: [62, 0.48, "i", "N"],
-      conflict_tolerance: [58, 0.45, "i", "N"],
-      mastery_orientation: [95, 0.82, "d", "A"],
-      achievement_drive: [95, 0.85, "d", "A"],
-      competitiveness: [92, 0.8, "d", "D"],
-      autonomy_need: [68, 0.52, "i", "N"],
-      impact_motivation: [75, 0.58, "s", "A"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol): proactive_
-      // agency (65, 0.55, s, D) — the 2021 Tokyo Olympics withdrawal from
-      // team/individual events citing mental health, a self-directed
-      // decision against significant public and institutional pressure to
-      // continue; genuinely controversial at the time (hence dual-edged),
-      // later broadly reassessed. opportunity_sensing/resourcefulness/
-      // belief_updating: checked against both poles, no qualifying episode
-      // either direction.
-      proactive_agency: [65, 0.55, "s", "D"],
+      // "Intentional" weekly-therapy-day practice built into her comeback
+      // training schedule, described in her own words (NBC News, 2023).
+      discipline: [78, 0.58, "s", "A"],
+      // Explicitly restructured priorities/definition of success ahead of
+      // the comeback: "what success means to me is a bit different than
+      // before" (NBC News, 2023).
+      planning_orientation: [72, 0.55, "s", "A"],
+      // Returned to elite competition at the 2023 U.S. Classic after a
+      // two-year absence, won Olympic all-around/vault gold again in 2024.
+      persistence: [85, 0.62, "s", "A"],
+      // Adopted a more "cautious" competitive approach and changed personal
+      // definition of success for the comeback, in her own words.
+      adaptability: [78, 0.58, "s", "A"],
+      // Withdrew from most Tokyo 2020 events mid-competition, explained
+      // clearly in real time: "I didn't quit, my mind & body are simply not
+      // in sync... I put my health first."
+      decisiveness: [85, 0.65, "s", "A"],
+      // January 18, 2018 public disclosure ("I am not afraid to tell my
+      // story anymore") and September 2021 Senate testimony.
+      social_assertiveness: [75, 0.58, "s", "A"],
+      // Senate testimony explicitly widened the account beyond her own
+      // case: "I blame Larry Nassar and I also blame an entire system that
+      // enabled and perpetrated his abuse."
+      leadership_drive: [68, 0.52, "s", "A"],
+      // Sustained direct, public, adversarial stance against USA Gymnastics
+      // and the FBI over the Nassar investigation, 2018-2021.
+      conflict_tolerance: [78, 0.6, "s", "D"],
+      // Withdrew from Tokyo competition against immense public/institutional
+      // expectation, on her own explicit safety judgment: "I don't have to
+      // explain why I put my health first. Physical health is mental
+      // health."
+      autonomy_need: [80, 0.6, "s", "A"],
+      // Framed her 2018 disclosure partly in terms of other survivors, not
+      // only herself: "I am not afraid to tell my story anymore."
+      impact_motivation: [70, 0.55, "s", "A"],
+      // taxonomy_v1.1: came forward about Nassar unprompted by any legal
+      // requirement (2018); proactively withdrew from Tokyo before injury
+      // forced the issue, explicitly to protect her own safety (2021) -- a
+      // self-directed decision genuinely contested at the time (drew public
+      // criticism before being reassessed later), so dual-edged rather than
+      // a clean advantage; keeps editorial's interpretation.turning_point.1
+      // ("dual-edged proactive_agency score") accurate.
+      proactive_agency: [78, 0.6, "s", "D"],
     },
   },
   {

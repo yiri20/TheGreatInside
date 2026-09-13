@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "richard-feynman",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Richard Feynman",
+    "wikidataId": "Q39246",
+    "birthYear": 1918,
+    "deathYear": 1988,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["physicist", "teacher"],
+    "fieldIds": ["natural_science", "education"],
+    "impactDomains": ["scientific", "educational"],
+    "tagIds": ["nobel_laureate", "generalist", "communicator"],
+    "archetypeIds": ["scientific_explorer", "cross_disciplinary_generalist"]
+  },
+  "sources": [
+    { "id": "src_feynman_wikipedia", "kind": "wikipedia", "title": "Richard Feynman", "url": "https://en.wikipedia.org/wiki/Richard_Feynman" },
+    { "id": "src_feynman_gleick", "kind": "biography", "title": "James Gleick, Genius: The Life and Science of Richard Feynman (1992) -- independent biography" },
+    { "id": "src_feynman_cargo_cult", "kind": "archive", "title": "Richard Feynman, \"Cargo Cult Science\" (1974 Caltech commencement address) -- his own primary text, Caltech's own archived transcript" },
+    { "id": "src_feynman_nautilus", "kind": "press", "title": "Nautilus, \"How Richard Feynman Found the Root of the Challenger Disaster\" -- independent journalism on the Rogers Commission investigation" },
+    { "id": "src_feynman_wolfram_gellmann", "kind": "press", "title": "Stephen Wolfram, \"Remembering Murray Gell-Mann\" (2019) -- independent, direct-witness account of the Feynman-Gell-Mann relationship at Caltech" },
+    { "id": "src_feynman_caltech_nobel", "kind": "institution", "title": "Caltech's own archived record of Feynman's remarks on winning the 1965 Nobel Prize in Physics" }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Self-taught pin-and-tumbler lock-picking at Los Alamos using a screwdriver and bent paperclip, purely as an off-hours puzzle -- studied new lock designs systematically as security was upgraded specifically to defeat him (Surely You're Joking, Mr. Feynman!; Open Culture's independent account)."
+    },
+    "analytical_rigor": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own explicit epistemic standard, stated in the 1974 Cargo Cult Science address: \"The first principle is that you must not fool yourself -- and you are the easiest person to fool\"; applied concretely during the Rogers Commission when he identified the real disconnect between NASA management's 1-in-100,000 catastrophe estimate and engineers' own 1-in-100 estimate (Nautilus)."
+    },
+    "independent_thinking": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "During the 1986 Rogers Commission, bypassed the official commission's slower public-hearing process to interview NASA/JPL engineers directly and privately, stating he found the official meetings \"time-consuming\" and \"of so little use\" (Nautilus); separately held his own terminology against Gell-Mann's in physics naming disputes rather than deferring (Wolfram)."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained his own independent Rogers Commission investigation over months against the official process's slower pace, culminating in his insistence on publishing an independent minority appendix to the official report rather than simply signing onto the commission's consensus text (Nautilus)."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Insisted on his own investigative methods during the Rogers Commission despite institutional friction (Nautilus); separately stated a clear, unhedged personal value-ordering on winning the Nobel Prize -- \"I don't like honors... The prize is the pleasure of finding the thing out... Those are the real things\" (Caltech's own archived record)."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Generated real institutional friction by going around the Rogers Commission's official process (Nautilus); sustained decades of personal/professional friction with Gell-Mann at Caltech -- competing over naming (\"quacks\" vs. \"quark\"; \"partons\" vs. Gell-Mann's mocking \"put-ons\") -- corroborated by Gell-Mann's own later \"snarky obituary\" of Feynman (Wolfram)."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Genuine, real 1957 joint publication with Gell-Mann on the V-A theory of the weak interaction, a real scientific partnership -- yet marked by persistent personal friction throughout; despite the friction, Gell-Mann kept an office two doors from Feynman's for 33 years (Wolfram)."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained one-upmanship with Gell-Mann over terminology and credit for decades, each making what Wolfram's independent, direct-witness account calls \"surprisingly childish comments about the other.\""
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Explicit indifference to external validation -- called the Nobel Prize \"a pain in the neck\" and said the real reward was \"the pleasure of finding the thing out\" (Caltech's own archived record); separately conducted the Rogers Commission investigation largely on his own terms rather than the official schedule (Nautilus)."
+    },
+    "mastery_orientation": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Systematically studied and defeated each new generation of Los Alamos lock as security was upgraded specifically in response to his own earlier safecracking, escalating rather than stopping once the challenge became harder (Surely You're Joking, Mr. Feynman!; Open Culture's independent account)."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Unprompted, went beyond his assigned Rogers Commission role to interview engineers directly and conduct his own independent physical demonstration (the ice-water O-ring test) during a live televised hearing, rather than confining himself to the commission's official process (Nautilus; his own quoted words from the hearing)."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/richard-feynman-los-alamos.jpg",
+    "width": 265,
+    "height": 284,
+    "source": "Wikimedia Commons",
+    "license": "Public Domain (US federal government work, Los Alamos National Laboratory)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Feynman_at_Los_Alamos.jpg",
+    "attribution": "Los Alamos National Laboratory archive, photographer unknown",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Feynman_at_Los_Alamos.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-13T00:00:00Z",
+    "updatedAt": "2026-09-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 4 (2026-09-13, docs/checkpoints/legacy-integrity-batch4-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batch 2/3 against the 28-person legacy cohort remaining after batches 1-3. Feynman ranked #1 among 28 legacy profiles with risk score 11 (tied with simone-biles and steve-jobs, alphabetically first): 2 sources cited, all 30 present base rows at high confidence, 11 'documented'-tier claims among them, no Wikidata QID. New research (his own Cargo Cult Science address and Nobel-prize remarks, Gleick's independent biography, Nautilus's independent account of the Rogers Commission investigation, and Stephen Wolfram's independent direct-witness account of the Gell-Mann relationship) audited all 31 original rows (30 base + 1 taxonomy_v1.1). 11 retained and rescored from the evidence directly (none reusing old values), 0 new rows added, 20 removed for lack of individually-attributable, non-duplicative support this cycle (intuitive_synthesis, systems_abstraction, creative_originality, experimentation, cross_domain_range, aesthetic_sensitivity, discipline, deep_focus, detail_orientation, perfectionism, execution_speed, planning_orientation, adaptability, risk_tolerance, ambiguity_tolerance, social_assertiveness, leadership_drive, persuasiveness, achievement_drive, impact_motivation). creative_originality/intuitive_synthesis/systems_abstraction, all very high in the original profile reflecting his acclaimed scientific reputation (QED, Feynman diagrams, the Feynman Lectures), were removed rather than re-justified from acclaim/output alone -- no distinct behavioral incident from this cycle's research supports them separately from the physics itself. His declining health was not applicable (he died of cancer in 1988, but no health/tragedy material was used as row evidence for any row). Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

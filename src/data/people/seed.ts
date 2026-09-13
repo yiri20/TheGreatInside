@@ -260,6 +260,7 @@ const seeds: PersonSeed[] = [
     impactDomains: ["scientific", "educational"],
     tagIds: ["nobel_laureate", "generalist", "communicator"],
     archetypeIds: ["scientific_explorer", "cross_disciplinary_generalist"],
+    externalIdentity: { wikidataId: "Q39246" },
     // Remaining-19 Editorial Completion Batch 1 -- evidence remediation
     // (2026-08): the proactive_agency rationale below already documents the
     // Rogers Commission O-ring demonstration this profile's Turning Point
@@ -284,7 +285,25 @@ const seeds: PersonSeed[] = [
     //     his own self-reported conduct, used for this profile's
     //     Complexity item as plain documented fact, not inferred, not
     //     diagnosed, and not extended beyond what the article states.
-    sources: [wiki("feynman", "Richard Feynman"), bio("feynman", "James Gleick, Genius (1992)")],
+    // Legacy integrity remediation batch 4 (2026-09-13, docs/checkpoints/
+    // legacy-integrity-batch4-three-person-remediation.md): audited from
+    // scratch against Gleick's independent biography, Feynman's own 1974
+    // Cargo Cult Science address and 1965 Nobel-remarks, Nautilus's
+    // independent account of the Rogers Commission investigation, and
+    // Stephen Wolfram's direct-witness account of the Gell-Mann
+    // relationship. 11 of 31 original rows retained (rescored from
+    // evidence, not reused); 20 removed for lacking individually-
+    // attributable support -- see the checkpoint for the full ledger and
+    // per-row disposition. Mirrors data-pipeline/candidates/richard-
+    // feynman.json exactly.
+    sources: [
+      wiki("feynman", "Richard Feynman"),
+      bio("feynman", "James Gleick, Genius (1992)"),
+      { id: "src_feynman_cargo_cult", kind: "archive", title: "Richard Feynman, \"Cargo Cult Science\" (1974 Caltech commencement address)" },
+      { id: "src_feynman_nautilus", kind: "press", title: "Nautilus, \"How Richard Feynman Found the Root of the Challenger Disaster\"" },
+      { id: "src_feynman_wolfram_gellmann", kind: "press", title: "Stephen Wolfram, \"Remembering Murray Gell-Mann\" (2019)" },
+      { id: "src_feynman_caltech_nobel", kind: "institution", title: "Caltech's own archived record of Feynman's remarks on the 1965 Nobel Prize" },
+    ],
     // Verified 2026-08 via a direct fetch of the Commons file page: a
     // Manhattan-Project-era Los Alamos National Laboratory archive photo,
     // photographer unknown. Public domain in the US as a federal
@@ -298,52 +317,43 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Feynman_at_Los_Alamos.jpg",
       attribution: "Los Alamos National Laboratory archive, photographer unknown",
     },
+    directoryVisible: true,
     rows: {
-      curiosity: [97, 0.94, "d", "A"],
-      analytical_rigor: [90, 0.88, "d", "A"],
-      intuitive_synthesis: [92, 0.85, "d", "A"],
-      systems_abstraction: [90, 0.85, "d", "A"],
-      independent_thinking: [95, 0.92, "d", "A"],
-      creative_originality: [88, 0.8, "s", "A"],
-      experimentation: [88, 0.85, "d", "A"],
-      cross_domain_range: [80, 0.75, "s", "A"],
-      aesthetic_sensitivity: [62, 0.5, "i", "N"],
-      discipline: [70, 0.6, "s", "N"],
-      deep_focus: [90, 0.85, "d", "A"],
-      detail_orientation: [68, 0.5, "i", "N"],
-      perfectionism: [55, 0.5, "i", "N"],
-      execution_speed: [72, 0.55, "i", "N"],
-      planning_orientation: [40, 0.55, "s", "N"],
-      persistence: [85, 0.75, "s", "A"],
-      adaptability: [82, 0.7, "s", "A"],
-      risk_tolerance: [68, 0.5, "i", "N"],
-      ambiguity_tolerance: [90, 0.8, "s", "A"],
-      decisiveness: [75, 0.5, "i", "N"],
-      social_assertiveness: [82, 0.85, "d", "N"],
-      collaboration: [72, 0.65, "s", "N"],
-      leadership_drive: [48, 0.55, "s", "N"],
-      persuasiveness: [85, 0.85, "d", "A"],
-      conflict_tolerance: [70, 0.6, "s", "N"],
-      mastery_orientation: [92, 0.88, "d", "A"],
-      achievement_drive: [70, 0.5, "i", "N"],
-      competitiveness: [62, 0.5, "i", "N"],
-      autonomy_need: [88, 0.85, "d", "A"],
-      impact_motivation: [72, 0.5, "i", "N"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6): proactive_agency (82, 0.7,
-      // documented) — appointed to the Rogers Commission (assigned), but his
-      // specific decision to conduct an unauthorized, unplanned live O-ring
-      // ice-water demonstration during a public hearing, going around the
-      // official process he judged too slow, is a clean instance of
-      // initiative beyond what the assigned role required (his own account
-      // plus commission records). opportunity_sensing and resourcefulness
-      // left unscored: his Challenger diagnosis and general first-principles
-      // problem-solving are better characterized as his already-scored
-      // analytical_rigor/independent_thinking/intuitive_synthesis in
-      // action, not distinct evidence of environmental scanning or making
-      // do under genuine resource constraint. belief_updating left
-      // unscored: no specific documented reversal of an articulated
-      // position under evidence.
-      proactive_agency: [82, 0.7, "d", "A"],
+      // Los Alamos safecracking (self-taught, systematic against upgraded
+      // security; Surely You're Joking / Open Culture's independent account).
+      curiosity: [68, 0.52, "s", "A"],
+      mastery_orientation: [75, 0.55, "s", "A"],
+      // Cargo Cult Science (1974): "you must not fool yourself" + the Rogers
+      // Commission's real management-vs-engineer risk-estimate gap (Nautilus).
+      analytical_rigor: [85, 0.62, "s", "A"],
+      // Rogers Commission: bypassed official process to interview engineers
+      // directly (Nautilus); held his own terminology against Gell-Mann's
+      // (Wolfram).
+      independent_thinking: [85, 0.62, "s", "A"],
+      // Sustained independent Rogers Commission investigation through to his
+      // own published minority appendix (Nautilus).
+      persistence: [80, 0.58, "s", "A"],
+      // Insisted on his own investigative methods (Nautilus); explicit stated
+      // value-ordering on the Nobel Prize (Caltech's own archived record).
+      decisiveness: [78, 0.55, "s", "A"],
+      // Institutional friction from going around the Commission's process
+      // (Nautilus); decades of naming/credit friction with Gell-Mann,
+      // corroborated by Gell-Mann's own later obituary of Feynman (Wolfram).
+      conflict_tolerance: [72, 0.55, "s", "D"],
+      // Real 1957 V-A theory collaboration with Gell-Mann alongside sustained
+      // personal friction; Gell-Mann kept an office two doors away for 33
+      // years regardless (Wolfram).
+      collaboration: [55, 0.52, "s", "D"],
+      // Decades of naming/credit one-upmanship with Gell-Mann (Wolfram).
+      competitiveness: [62, 0.5, "s", "D"],
+      // Called the Nobel Prize "a pain in the neck" (Caltech's own archived
+      // record); ran the Rogers Commission investigation on his own terms
+      // (Nautilus).
+      autonomy_need: [82, 0.58, "s", "A"],
+      // taxonomy_v1.1: unprompted, went beyond his assigned Rogers Commission
+      // role to interview engineers directly and conduct his own live
+      // ice-water O-ring demonstration (Nautilus; his own quoted words).
+      proactive_agency: [78, 0.58, "s", "A"],
     },
   },
   {
@@ -444,6 +454,7 @@ const seeds: PersonSeed[] = [
     impactDomains: ["entrepreneurial", "technological", "industrial", "cultural"],
     tagIds: ["founder", "perfectionist", "product_leader"],
     archetypeIds: ["entrepreneurial_builder", "organizational_leader"],
+    externalIdentity: { wikidataId: "Q19837" },
     // No-Portrait Fill Batch 1 (2026-08): resized/recompressed derivative of
     // the Matthew Yohe headshot (2010 WWDC), the tightest well-composed crop
     // in the Yohe series -- verified live against the Commons file page.
@@ -498,60 +509,87 @@ const seeds: PersonSeed[] = [
     //     management style: "summary executions" of underperforming
     //     employees/projects were rare in practice but frequent enough that
     //     staff reported anxiety about encountering him in an elevator.
-    sources: [wiki("jobs", "Steve Jobs"), bio("jobs", "Walter Isaacson, Steve Jobs (2011)")],
+    // Legacy integrity remediation batch 4 (2026-09-13, docs/checkpoints/
+    // legacy-integrity-batch4-three-person-remediation.md): audited from
+    // scratch against Isaacson's biography (including named colleagues Bud
+    // Tribble/Andy Hertzfeld/Steve Wozniak's own direct testimony), Jobs's
+    // own 2005 Stanford address, and his own 1995 "Lost Interview". 16 of
+    // 33 original rows retained (rescored from evidence, not reused); 17
+    // removed for lacking individually-attributable support -- see the
+    // checkpoint for the full ledger and per-row disposition. Mirrors
+    // data-pipeline/candidates/steve-jobs.json exactly.
+    sources: [
+      wiki("jobs", "Steve Jobs"),
+      bio("jobs", "Walter Isaacson, Steve Jobs (2011)"),
+      { id: "src_jobs_stanford_2005", kind: "institution", title: "Steve Jobs, Stanford University 2005 commencement address (\"Stay Hungry, Stay Foolish\")" },
+      { id: "src_jobs_lost_interview", kind: "press", title: "Steve Jobs: The Lost Interview (1995, Robert X. Cringely / PBS \"Triumph of the Nerds\" outtake)" },
+    ],
     doNotCopyKeys: ["dontcopy.jobs.demandingness"],
+    directoryVisible: true,
     rows: {
-      curiosity: [82, 0.7, "s", "A"],
-      analytical_rigor: [62, 0.55, "i", "N"],
-      intuitive_synthesis: [92, 0.85, "d", "A"],
-      systems_abstraction: [78, 0.65, "s", "A"],
-      independent_thinking: [92, 0.9, "d", "A"],
-      creative_originality: [88, 0.78, "s", "A"],
-      experimentation: [72, 0.6, "s", "N"],
-      cross_domain_range: [80, 0.8, "d", "A"],
-      aesthetic_sensitivity: [96, 0.94, "d", "A"],
-      discipline: [78, 0.6, "s", "N"],
-      deep_focus: [82, 0.7, "s", "A"],
-      detail_orientation: [92, 0.88, "d", "D"],
-      perfectionism: [95, 0.92, "d", "D"],
-      execution_speed: [82, 0.7, "s", "N"],
-      planning_orientation: [62, 0.5, "i", "N"],
-      persistence: [92, 0.88, "d", "A"],
-      adaptability: [78, 0.65, "s", "N"],
-      risk_tolerance: [88, 0.85, "d", "D"],
-      ambiguity_tolerance: [72, 0.6, "s", "N"],
-      decisiveness: [92, 0.88, "d", "D"],
-      social_assertiveness: [90, 0.9, "d", "N"],
-      collaboration: [48, 0.75, "s", "D"],
-      leadership_drive: [95, 0.92, "d", "D"],
-      persuasiveness: [95, 0.94, "d", "A"],
-      conflict_tolerance: [92, 0.9, "d", "D"],
-      mastery_orientation: [78, 0.6, "s", "N"],
-      achievement_drive: [92, 0.85, "d", "N"],
-      competitiveness: [88, 0.82, "d", "D"],
-      autonomy_need: [85, 0.7, "s", "N"],
-      impact_motivation: [92, 0.85, "d", "A"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6). Three distinct episodes:
-      //   - opportunity_sensing (90, 0.8, d): the 1979 Xerox PARC visit —
-      //     immediately recognized the GUI/mouse's transformative potential
-      //     when Xerox itself hadn't productized it. Extensively documented.
-      //   - proactive_agency (85, 0.75, d): the 1996-97 return to Apple via
-      //     the NeXT acquisition, then deliberately maneuvering (persuading
-      //     the board, the Amelio ouster) into control rather than being
-      //     reinstated to a role — marked dual-edged, matching his already-
-      //     scored leadership_drive/competitiveness pattern.
-      //   - belief_updating (68, 0.62, s): initially resisted third-party
-      //     iPhone apps (closed web-app-only model), reversed within about a
-      //     year to launch the App Store in response to developer/market
-      //     evidence — a specific, documented reversal of an articulated
-      //     public position, not merely a strategy pivot.
-      // resourcefulness left unscored: the garage/NeXT/Pixar years are
-      // better attributed to persistence (already scored) or to Wozniak's
-      // engineering specifically; no clean episode of Jobs personally
-      // improvising under resource constraint.
-      opportunity_sensing: [90, 0.8, "d", "A"],
-      proactive_agency: [85, 0.75, "d", "D"],
-      belief_updating: [68, 0.62, "s", "N"],
+      // Reality distortion field, independently named/described by Bud
+      // Tribble and Andy Hertzfeld (Isaacson); "I don't really care about
+      // being right, I just care about success" (The Lost Interview, 1995).
+      independent_thinking: [82, 0.6, "s", "A"],
+      // Isaacson: extreme attention to minute product detail, sustained
+      // across decades.
+      detail_orientation: [85, 0.6, "s", "D"],
+      // Isaacson: exacting standard maintained partly by "berating and
+      // belittling" employees; concrete instance persuading Corning's
+      // Wendell Weeks to produce the iPhone glass against his own stated
+      // limits.
+      perfectionism: [88, 0.62, "s", "D"],
+      // Personally backed Pixar through ~a decade of uncertain years to Toy
+      // Story (1995); founded NeXT immediately after the 1985 ouster.
+      persistence: [85, 0.6, "s", "A"],
+      // His own words on the 1985 ouster: "the lightness of being a
+      // beginner again, less sure about everything" (2005 Stanford address).
+      adaptability: [75, 0.55, "s", "A"],
+      // Sustained personal capital/reputation risk backing Pixar for years
+      // before any payoff.
+      risk_tolerance: [82, 0.58, "s", "D"],
+      // Persuaded Corning's Wendell Weeks against the company's own stated
+      // limits (Isaacson); blunt on-record Microsoft assessment ("no taste
+      // ... third-rate ... no spirit", The Lost Interview, 1995).
+      decisiveness: [88, 0.62, "s", "D"],
+      // Real Apple co-founding partnership with Wozniak, marked by a
+      // documented breach of trust: per Wozniak's own account (Isaacson),
+      // misrepresented a 1975 Atari payout ($5,000 real vs. $750 told),
+      // splitting only the smaller figure for years.
+      collaboration: [45, 0.58, "s", "D"],
+      // Isaacson: instilled an "abiding passion" and belief in the
+      // impossible, reflected in employees' own "90 hours a week and loving
+      // it" T-shirts, sustained via the reality-distortion-field pattern.
+      leadership_drive: [90, 0.62, "s", "D"],
+      // Concrete, named, dated: persuaded Corning CEO Wendell Weeks to
+      // manufacture what became Gorilla Glass against his own stated view
+      // it could not be done at scale (Isaacson).
+      persuasiveness: [92, 0.65, "s", "A"],
+      // Isaacson: sustained, documented pattern of "berating and belittling"
+      // employees to extract higher output.
+      conflict_tolerance: [85, 0.6, "s", "D"],
+      // Blunt, dated, on-record: "The only problem with Microsoft is that
+      // they have no taste... no spirit to them" (The Lost Interview, 1995).
+      competitiveness: [80, 0.58, "s", "D"],
+      // Founded NeXT rather than working under another company after 1985;
+      // his own "beginner again" framing of reclaimed independence (2005
+      // Stanford address).
+      autonomy_need: [85, 0.6, "s", "A"],
+      // taxonomy_v1.1: recognized the GUI/mouse's transformative potential
+      // at the 1979 Xerox PARC visit when Xerox itself hadn't productized it
+      // (pre-existing finding, re-verified).
+      opportunity_sensing: [85, 0.65, "s", "A"],
+      // 1996-97: after the NeXT acquisition brought him back only as an
+      // adviser, deliberately maneuvered -- persuading the board,
+      // contributing to Gil Amelio's ouster -- into the CEO role himself
+      // rather than waiting to be reinstated (pre-existing finding,
+      // re-verified).
+      proactive_agency: [82, 0.62, "s", "D"],
+      // Explicitly reversed his own stated opposition to third-party apps,
+      // launching the App Store in 2008 -- a clean documented reversal of an
+      // articulated position under evidence (pre-existing finding,
+      // re-verified).
+      belief_updating: [78, 0.62, "s", "A"],
     },
   },
   {

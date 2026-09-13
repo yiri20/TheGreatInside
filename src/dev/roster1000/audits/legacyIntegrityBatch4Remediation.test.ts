@@ -9,7 +9,7 @@ import { hasCandidateFile } from "./matchPoolIntegrityAudit.js";
 import { SUPERSEDED_AUDIT_SLUGS } from "./matchPoolIntegrityAuditManual.js";
 import { LEGACY_SCORING_BASELINE } from "./legacyScoringLock.generated.js";
 
-const TARGETS = ["srinivasa-ramanujan", "toni-morrison", "hayao-miyazaki"] as const;
+const TARGETS = ["richard-feynman", "simone-biles", "steve-jobs"] as const;
 
 function loadCandidate(slug: string): Candidate {
   return JSON.parse(readFileSync(join(process.cwd(), `data-pipeline/candidates/${slug}.json`), "utf8")) as Candidate;
@@ -23,7 +23,7 @@ const production = Object.fromEntries(
   TARGETS.map((slug) => [slug, SEED_PEOPLE.find((p) => p.slug === slug)!]),
 ) as Record<(typeof TARGETS)[number], (typeof SEED_PEOPLE)[number]>;
 
-describe.each(TARGETS)("Legacy integrity batch 3: %s", (slug) => {
+describe.each(TARGETS)("Legacy integrity batch 4: %s", (slug) => {
   const candidate = candidates[slug];
   const person = production[slug];
 
@@ -74,7 +74,7 @@ describe.each(TARGETS)("Legacy integrity batch 3: %s", (slug) => {
   });
 });
 
-describe("Legacy integrity batch 3: cross-target identity integrity", () => {
+describe("Legacy integrity batch 4: cross-target identity integrity", () => {
   it("no duplicate ids, slugs, or Wikidata QIDs across all 225 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
@@ -99,7 +99,7 @@ describe("Legacy integrity batch 3: cross-target identity integrity", () => {
   });
 });
 
-describe("Legacy integrity batch 3: no eligibility rescue, no unrelated drift", () => {
+describe("Legacy integrity batch 4: no eligibility rescue, no unrelated drift", () => {
   it("all three targets fail eligibility_v2 honestly -- none were rescued to pass", () => {
     for (const slug of TARGETS) {
       const report = evaluateMatchEligibility(production[slug]);
@@ -107,18 +107,21 @@ describe("Legacy integrity batch 3: no eligibility rescue, no unrelated drift", 
     }
   });
 
-  it("no other legacy person's isMatchEligible flipped as a side effect (spot-check against a representative sample, including the batch-1/2 remediated people)", () => {
-    // richard-feynman intentionally not in this list -- legacy integrity
-    // batch 4 (docs/checkpoints/legacy-integrity-batch4-three-person-
-    // remediation.md) subsequently remediated him and he lost eligibility;
-    // asserting his eligibility here would make this batch-3 test stale the
-    // same way this file is now fixing batch 2's test for the same reason.
+  it("no other legacy person's isMatchEligible flipped as a side effect (spot-check against a representative sample, including the batch-1/2/3 remediated people)", () => {
     const stillEligible = ["leonardo-da-vinci", "marie-curie", "albert-einstein", "confucius", "warren-buffett"];
     for (const slug of stillEligible) {
       const p = SEED_PEOPLE.find((x) => x.slug === slug)!;
       expect(p.isMatchEligible, `${slug} eligibility should be unaffected`).toBe(true);
     }
-    const stillNonEligible = ["akira-kurosawa", "bruce-lee", "ludwig-van-beethoven", "nikola-tesla"];
+    const stillNonEligible = [
+      "akira-kurosawa",
+      "bruce-lee",
+      "ludwig-van-beethoven",
+      "nikola-tesla",
+      "srinivasa-ramanujan",
+      "toni-morrison",
+      "hayao-miyazaki",
+    ];
     for (const slug of stillNonEligible) {
       const p = SEED_PEOPLE.find((x) => x.slug === slug)!;
       expect(p.isMatchEligible, `${slug} should remain non-eligible from its own prior remediation`).toBe(false);
@@ -126,13 +129,10 @@ describe("Legacy integrity batch 3: no eligibility rescue, no unrelated drift", 
   });
 });
 
-describe("Legacy integrity batch 3: legacy scoring-lock baseline", () => {
-  // Exact remaining count intentionally not hardcoded here -- legacy
-  // integrity batch 4 (docs/checkpoints/legacy-integrity-batch4-three-
-  // person-remediation.md) legitimately shrank it further (28 -> 25) by
-  // remediating three more targets, the same class of change every batch in
-  // this lane makes to whichever total the previous batch's test hardcoded.
-  // See legacyIntegrityBatch4Remediation.test.ts for the current total.
+describe("Legacy integrity batch 4: legacy scoring-lock baseline", () => {
+  // Exact remaining count intentionally not hardcoded here -- a future
+  // batch 5, if it happens, will legitimately shrink it further, the same
+  // class of change this file's own tests made to batch 3's test.
   it("this batch's three remediated targets permanently left the legacy baseline", () => {
     const baselineSlugs = Object.keys(LEGACY_SCORING_BASELINE);
     for (const slug of TARGETS) {
@@ -153,14 +153,25 @@ describe("Legacy integrity batch 3: legacy scoring-lock baseline", () => {
   });
 });
 
-describe("Legacy integrity batch 3: historical audit snapshot supersession", () => {
-  it("none of the three batch-3 targets were part of PR #35's frozen historical audit sample", () => {
-    // Same discipline as batch 2's own regression test: proves this cycle
-    // correctly does NOT need to extend SUPERSEDED_AUDIT_SLUGS, and guards
-    // against a future remediation of one of the frozen-sample people
-    // silently skipping that step.
+describe("Legacy integrity batch 4: historical audit snapshot supersession", () => {
+  it("none of the three batch-4 targets were part of PR #35's frozen historical audit sample", () => {
+    // Same discipline as batches 2 and 3's own regression tests: proves
+    // this cycle correctly does NOT need to extend SUPERSEDED_AUDIT_SLUGS,
+    // and guards against a future remediation of one of the frozen-sample
+    // people silently skipping that step.
     for (const slug of TARGETS) {
       expect(SUPERSEDED_AUDIT_SLUGS.has(slug), `${slug} should not need historical supersession`).toBe(false);
     }
+  });
+});
+
+describe("Legacy integrity batch 4: metadata correction (competitor tag)", () => {
+  it("simone-biles's stale 'competitor' tag was removed, same precedent as Kurosawa's 'perfectionist'", () => {
+    const biles = production["simone-biles"];
+    expect(biles.tagIds).not.toContain("competitor");
+    expect(biles.tagIds).toContain("advocate");
+    // competitiveness row was removed for lacking individually-attributable
+    // behavioral support beyond her competitive record/medal count itself.
+    expect(biles.attributes.some((a) => a.attributeId === "competitiveness")).toBe(false);
   });
 });

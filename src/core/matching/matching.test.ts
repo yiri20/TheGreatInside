@@ -414,6 +414,17 @@ describe("confidence and missing data", () => {
       "srinivasa-ramanujan",
       "toni-morrison",
       "hayao-miyazaki",
+      // Legacy integrity remediation batch 4 (2026-09-13,
+      // docs/checkpoints/legacy-integrity-batch4-three-person-remediation.md):
+      // richard-feynman, simone-biles, and steve-jobs -- the top 3 by the
+      // same unchanged deterministic risk triage, recomputed fresh against
+      // the 28-person legacy cohort remaining after batches 1-3 -- were
+      // each re-researched from scratch and now honestly fall short of
+      // eligibility_v2 (all were mirroring eligible=true before this
+      // cycle, on rows with no stated rationale).
+      "richard-feynman",
+      "simone-biles",
+      "steve-jobs",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -768,6 +779,17 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "srinivasa-ramanujan",
       "toni-morrison",
       "hayao-miyazaki",
+      // Legacy integrity remediation batch 4 (2026-09-13,
+      // docs/checkpoints/legacy-integrity-batch4-three-person-remediation.md):
+      // richard-feynman, simone-biles, and steve-jobs -- the top 3 by the
+      // same unchanged deterministic risk triage, recomputed fresh against
+      // the 28-person legacy cohort remaining after batches 1-3 -- were
+      // each re-researched from scratch and now honestly fall short of
+      // eligibility_v2 (all were mirroring eligible=true before this
+      // cycle, on rows with no stated rationale).
+      "richard-feynman",
+      "simone-biles",
+      "steve-jobs",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
