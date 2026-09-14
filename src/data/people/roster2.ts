@@ -1370,6 +1370,7 @@ const seeds: PersonSeed[] = [
     impactDomains: ["historical", "social"],
     tagIds: ["conqueror", "organizer"],
     archetypeIds: ["organizational_leader"],
+    externalIdentity: { wikidataId: "Q720" },
     // Final No-Portrait Coverage batch (2026-08): historical-ceiling case --
     // no contemporaneous depiction of Genghis Khan exists. This is the Yuan
     // dynasty imperial portrait album piece (National Palace Museum,
@@ -1445,46 +1446,61 @@ const seeds: PersonSeed[] = [
     // some Russian and Arab historical memory (the article's own phrase),
     // with recent Western scholarship attempting reassessment between
     // those poles.
-    sources: [wiki("genghiskhan", "Genghis Khan")],
+    // Legacy integrity remediation batch 5 (2026-09-14, docs/checkpoints/
+    // legacy-integrity-batch5-three-person-remediation.md): audited from
+    // scratch against The Secret History of the Mongols and Weatherford's
+    // independent modern scholarship. 13 of 22 original rows retained
+    // (rescored from evidence, not reused); 9 removed for lacking
+    // individually-attributable support -- see the checkpoint for the full
+    // ledger and per-row disposition. Mirrors data-pipeline/candidates/
+    // genghis-khan.json exactly.
+    sources: [
+      wiki("genghiskhan", "Genghis Khan"),
+      { id: "src_genghiskhan_secret_history", kind: "archive", title: "The Secret History of the Mongols (c. 1228)" },
+      { id: "src_genghiskhan_weatherford", kind: "biography", title: "Jack Weatherford, Genghis Khan and the Making of the Modern World (2004)" },
+    ],
     doNotCopyKeys: ["dontcopy.genghiskhan.ruthlessness"],
+    directoryVisible: true,
     rows: {
-      analytical_rigor: [65, 0.5, "s", "N"],
-      systems_abstraction: [78, 0.58, "s", "A"],
-      independent_thinking: [80, 0.6, "s", "A"],
-      discipline: [85, 0.62, "s", "A"],
-      execution_speed: [82, 0.6, "s", "A"],
-      planning_orientation: [82, 0.62, "s", "A"],
-      persistence: [90, 0.68, "s", "A"],
-      adaptability: [85, 0.65, "s", "A"],
-      risk_tolerance: [92, 0.7, "s", "D"],
-      ambiguity_tolerance: [78, 0.58, "s", "N"],
-      decisiveness: [92, 0.7, "s", "A"],
-      social_assertiveness: [80, 0.58, "s", "N"],
-      collaboration: [55, 0.5, "s", "N"],
-      leadership_drive: [96, 0.72, "d", "A"],
-      persuasiveness: [82, 0.6, "s", "A"],
-      conflict_tolerance: [95, 0.72, "d", "D"],
-      achievement_drive: [88, 0.62, "s", "N"],
-      competitiveness: [90, 0.65, "s", "D"],
-      autonomy_need: [78, 0.55, "s", "N"],
-      impact_motivation: [90, 0.65, "s", "A"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6): early unification exploited
-      // shifting tribal alliances (Merkit/Tatar/Kerait/Naiman) at a specific
-      // fragile political moment — recognizing which openings to act on
-      // before committing, distinct from adaptability (already scored),
-      // which covers adjusting an already-chosen course. proactive_agency:
-      // rebuilt alliances and pursued unification entirely on his own
-      // initiative after his clan abandoned him following his father's
-      // death — no inherited authority or assigned role at that stage.
-      // resourcefulness and belief_updating left unscored: the "lean
-      // logistics" of Mongol campaigning is a structural/institutional
-      // credit (already reflected in systems_abstraction/planning_
-      // orientation), not a specific personal episode of improvising under
-      // constraint; adoption of foreign siege technology after early
-      // failures reads as strategic adaptation (already scored), not a
-      // documented reversal of an articulated belief.
-      opportunity_sensing: [75, 0.55, "s", "A"],
-      proactive_agency: [90, 0.62, "s", "D"],
+      // Ability/loyalty-based appointment (not kinship); decimal military-
+      // administrative reorganization dispersing defeated tribal groups.
+      systems_abstraction: [78, 0.6, "s", "A"],
+      // Departed from standard kin-based court-appointment convention.
+      independent_thinking: [75, 0.55, "s", "A"],
+      // Decimal reorganization was a deliberate structural redesign.
+      planning_orientation: [78, 0.58, "s", "A"],
+      // Rebuilt his coalition (Baljuna, 1203) after a battlefield defeat;
+      // sustained the Jamukha rivalry for roughly a decade before prevailing.
+      persistence: [82, 0.6, "s", "A"],
+      // Invaded the far larger, settled Khwarazmian state in 1219.
+      risk_tolerance: [85, 0.6, "s", "D"],
+      // Killed his half-brother Behter at ~14 (Secret History); executed
+      // Jamukha's betrayers on stated principle (1206); launched the 1219
+      // invasion immediately after the Otrar incident.
+      decisiveness: [88, 0.65, "s", "D"],
+      // 1203 Baljuna Covenant: nine tribes, three faiths, united on loyalty
+      // to him after a shared defeat -- real but narrowly loyalty-bound.
+      collaboration: [58, 0.55, "s", "D"],
+      // Sustained institution-building: Baljuna, the merit-based appointment
+      // system, and the decimal reorganization.
+      leadership_drive: [90, 0.65, "s", "D"],
+      // Killed Behter (Secret History); decade-long Jamukha rivalry;
+      // sustained the multi-year Khwarazmian campaign.
+      conflict_tolerance: [88, 0.65, "s", "D"],
+      // The Behter killing and the Jamukha rivalry both reflect direct
+      // personal rivalry, not only strategic calculation.
+      competitiveness: [75, 0.55, "s", "D"],
+      // Executed Jamukha's betrayers on his own principle rather than
+      // simply accepting their service; broke from kin-based convention.
+      autonomy_need: [78, 0.58, "s", "A"],
+      // taxonomy_v1.1: exploited shifting tribal alliances at a fragile
+      // political moment, distinct from adaptability (adjusting an
+      // already-chosen course).
+      opportunity_sensing: [70, 0.55, "s", "A"],
+      // Rebuilt alliances and pursued unification entirely on his own
+      // initiative after his clan's abandonment, with no inherited
+      // authority; the 1203 Baljuna retreat-and-rebuild is the same pattern.
+      proactive_agency: [82, 0.6, "s", "D"],
     },
   },
   {
@@ -2816,6 +2832,7 @@ const seeds: PersonSeed[] = [
     impactDomains: ["cultural", "entrepreneurial", "social"],
     tagIds: ["founder", "communicator", "overcame_adversity"],
     archetypeIds: ["social_influencer", "entrepreneurial_builder"],
+    externalIdentity: { wikidataId: "Q55800" },
     // Verified 2026-08 via a direct fetch of the Commons file page. US State
     // Dept official-duty photograph (2016) — public domain as a work of a
     // federal employee, not merely US-government-hosted.
@@ -2828,54 +2845,70 @@ const seeds: PersonSeed[] = [
       licenseUrl: "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
       attribution: "U.S. Embassy South Africa",
     },
-    sources: [wiki("oprah", "Oprah Winfrey")],
+    // Legacy integrity remediation batch 5 (2026-09-14, docs/checkpoints/
+    // legacy-integrity-batch5-three-person-remediation.md): audited from
+    // scratch against the 1998 Texas cattlemen trial record, the 2007
+    // Leadership Academy crisis response, and her own described Book Club
+    // process. 13 of 32 original rows retained (rescored from evidence,
+    // not reused); 19 removed for lacking individually-attributable
+    // support -- see the checkpoint for the full ledger and per-row
+    // disposition. Mirrors data-pipeline/candidates/oprah-winfrey.json
+    // exactly.
+    sources: [
+      wiki("oprah", "Oprah Winfrey"),
+      { id: "src_oprah_cattlemen_trial", kind: "press", title: "Independent journalism and court record on the 1998 Texas cattlemen \"mad cow\" lawsuit" },
+      { id: "src_oprah_academy_scandal", kind: "press", title: "Independent journalism on the 2007 Leadership Academy for Girls abuse allegations and her institutional response" },
+      { id: "src_oprah_book_club_process", kind: "press", title: "Multiple outlets describing Oprah's own described Book Club selection process" },
+    ],
+    directoryVisible: true,
     rows: {
-      curiosity: [78, 0.62, "s", "N"],
-      analytical_rigor: [58, 0.45, "i", "N"],
-      intuitive_synthesis: [85, 0.7, "s", "A"],
-      systems_abstraction: [55, 0.42, "i", "N"],
-      independent_thinking: [80, 0.65, "s", "A"],
-      creative_originality: [72, 0.55, "s", "N"],
-      experimentation: [65, 0.5, "i", "N"],
-      cross_domain_range: [60, 0.48, "i", "N"],
-      aesthetic_sensitivity: [58, 0.45, "i", "N"],
-      discipline: [82, 0.65, "s", "A"],
-      deep_focus: [68, 0.52, "i", "N"],
-      detail_orientation: [62, 0.48, "i", "N"],
-      perfectionism: [65, 0.5, "i", "N"],
-      execution_speed: [78, 0.6, "s", "A"],
-      planning_orientation: [68, 0.52, "i", "N"],
-      persistence: [90, 0.75, "s", "A"],
-      adaptability: [85, 0.7, "s", "A"],
-      risk_tolerance: [72, 0.55, "s", "N"],
-      ambiguity_tolerance: [68, 0.52, "i", "N"],
-      decisiveness: [78, 0.6, "s", "A"],
-      social_assertiveness: [92, 0.82, "d", "A"],
-      collaboration: [78, 0.62, "s", "A"],
-      leadership_drive: [85, 0.7, "s", "A"],
-      persuasiveness: [92, 0.8, "d", "A"],
-      conflict_tolerance: [62, 0.48, "i", "N"],
-      mastery_orientation: [68, 0.5, "i", "N"],
-      achievement_drive: [88, 0.72, "s", "N"],
-      competitiveness: [70, 0.52, "i", "N"],
-      autonomy_need: [78, 0.6, "s", "N"],
-      impact_motivation: [88, 0.72, "s", "A"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6, symmetric protocol):
-      //   - opportunity_sensing (68, 0.55, s) — shifted her show in the
-      //     1980s toward personal, empathetic, issue-driven content ahead
-      //     of competitors' sensationalist tabloid-style format, recognizing
-      //     a shift in what audiences actually wanted; distinct from her
-      //     already-scored intuitive_synthesis/persuasiveness (general
-      //     insight/influence), specifically about reading a market/
-      //     audience-taste shift.
-      //   - proactive_agency (75, 0.6, s, A) — founded Harpo Productions in
-      //     1986 to take ownership/control of her own content rather than
-      //     remain hired talent, unusually early for the era.
-      // resourcefulness/belief_updating: no supporting evidence either
-      // direction — childhood hardship is not itself a resourcefulness
-      // episode absent a documented means-substitution act.
+      // Personally selects every Book Club title herself, without
+      // financial benefit, by skimming candidate titles for what resonates.
+      intuitive_synthesis: [75, 0.55, "s", "A"],
+      // Personally defended her 1996 on-air comments through a 1998 trial
+      // rather than retracting; maintains a personal, non-commercial
+      // book-selection standard.
+      independent_thinking: [80, 0.62, "s", "A"],
+      // Sustained the same personal, hands-on selection practice for every
+      // pick since 1996.
+      discipline: [68, 0.52, "s", "N"],
+      // Chose a full ~6-week jury trial over retracting/settling the
+      // cattlemen lawsuit.
+      risk_tolerance: [72, 0.55, "s", "D"],
+      // Personally testified at the 1998 trial; immediately brought in her
+      // own private investigators upon learning of the 2007 academy
+      // allegations rather than relying solely on the school's process.
+      decisiveness: [82, 0.62, "s", "A"],
+      // Sat for public courtroom testimony in the 1998 trial, stating her
+      // position directly to the jury and press.
+      social_assertiveness: [85, 0.65, "s", "A"],
+      // Took direct personal ownership of the 2007 academy crisis --
+      // traveling to the school twice, publicly apologizing, and pledging
+      // to "clean house" -- rather than delegating to administration.
+      leadership_drive: [80, 0.6, "s", "A"],
+      // Framed her 1998 trial defense around consumer-protection
+      // principle, not a narrow personal defense, before a jury that
+      // ruled in her favor.
+      persuasiveness: [85, 0.65, "s", "A"],
+      // Sustained direct engagement through the cattlemen trial rather
+      // than settling; sustained the multi-year academy-crisis reckoning,
+      // including public disappointment at the eventual acquittal.
+      conflict_tolerance: [75, 0.58, "s", "D"],
+      // Founded Harpo Productions in 1986 rather than remaining hired
+      // talent; maintains an editorially independent selection standard;
+      // personally defended her own position in court.
+      autonomy_need: [82, 0.62, "s", "A"],
+      // Framed the 2007 crisis response explicitly around the students'
+      // welfare, not reputational management.
+      impact_motivation: [75, 0.58, "s", "A"],
+      // taxonomy_v1.1: shifted her show in the 1980s toward personal,
+      // issue-driven content ahead of competitors' tabloid-style format
+      // (pre-existing finding, re-verified).
       opportunity_sensing: [68, 0.55, "s", "A"],
-      proactive_agency: [75, 0.6, "s", "A"],
+      // Founded Harpo Productions in 1986 (pre-existing finding,
+      // re-verified); brought in her own external investigators in 2007
+      // unprompted by any requirement to do so.
+      proactive_agency: [78, 0.6, "s", "A"],
     },
   },
   {

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "oprah-winfrey",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Oprah Winfrey",
+    "wikidataId": "Q55800",
+    "birthYear": 1954,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["media_executive", "entertainer"],
+    "fieldIds": ["media", "business"],
+    "impactDomains": ["cultural", "entrepreneurial", "social"],
+    "tagIds": ["founder", "communicator", "overcame_adversity"],
+    "archetypeIds": ["social_influencer", "entrepreneurial_builder"]
+  },
+  "sources": [
+    { "id": "src_oprah_wikipedia", "kind": "wikipedia", "title": "Oprah Winfrey", "url": "https://en.wikipedia.org/wiki/Oprah_Winfrey" },
+    { "id": "src_oprah_cattlemen_trial", "kind": "press", "title": "Independent journalism (Washington Post, NPR, Texas Tribune) and court record (Texas Beef Group v. Winfrey, 11 F. Supp. 2d 858) on the 1998 Texas cattlemen \"mad cow\" lawsuit" },
+    { "id": "src_oprah_academy_scandal", "kind": "press", "title": "Independent journalism (NPR, CBS News, ABC News) on the 2007 Oprah Winfrey Leadership Academy for Girls abuse allegations and her institutional response" },
+    { "id": "src_oprah_book_club_process", "kind": "press", "title": "Multiple outlets (Time, Bibliolifestyle) describing Oprah's own described book-selection process" }
+  ],
+  "rows": {
+    "intuitive_synthesis": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally selects every Oprah's Book Club title herself, without financial benefit from the selections, by skimming the first ~50 pages of 10-12 candidate titles before committing to the one that resonates personally -- an intuitive, resonance-driven process rather than a commercial or analytical one."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally defended her on-air comments about mad cow disease in a 1998 courtroom trial rather than settling or retracting, stating \"I am in this courtroom to defend my name\" and \"I am speaking as one concerned consumer for millions of others\"; maintains a personal, non-commercial book-selection standard independent of publisher or bestseller pressure."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Sustained the same personal, hands-on book-selection practice for every pick since 1996, rather than delegating or automating the process."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Chose to defend her 1996 on-air comments through a full ~6-week jury trial against a well-funded cattle industry lawsuit rather than retract or settle, risking a major financial and reputational loss."
+    },
+    "decisiveness": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally testified in the 1998 cattlemen trial rather than staying out of the proceedings; in 2007, immediately brought in her own team of American private investigators (led by a veteran of a child-exploitation unit) upon learning of abuse allegations at her South African Leadership Academy, rather than relying solely on the school's or local authorities' process."
+    },
+    "social_assertiveness": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sat for public courtroom testimony in the 1998 cattlemen trial, stating her position directly to the jury and press rather than through representatives."
+    },
+    "leadership_drive": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Took direct personal ownership of the 2007 South African Leadership Academy crisis -- traveling to the school twice to meet with parents, publicly apologizing, and stating she would \"clean house\" starting with the headmistress -- rather than delegating the response to school administration."
+    },
+    "persuasiveness": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Framed her defense in the 1998 cattlemen trial in terms of consumer-protection principle (\"I am speaking as one concerned consumer for millions of others\") rather than a narrow personal defense, before a jury that ultimately ruled in her favor."
+    },
+    "conflict_tolerance": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct engagement through the ~6-week cattlemen trial rather than settling; sustained a difficult multi-year public reckoning over the 2007 academy abuse allegations, including expressing being \"profoundly disappointed\" at the eventual acquittal rather than avoiding further comment."
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded Harpo Productions in 1986 to control her own content rather than remain hired talent (pre-existing finding, re-verified); maintains an editorially independent, non-commercial book-selection standard; personally defended her own position in court rather than deferring to legal-team-only representation."
+    },
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "In the 2007 academy crisis, framed her response explicitly around the students' welfare (\"nothing is much serious or devastating to me than an allegation of misconduct by an adult against any girl at the academy\") rather than around reputational management."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Shifted her show in the 1980s toward personal, empathetic, issue-driven content ahead of competitors' sensationalist tabloid-style format, recognizing a shift in what audiences actually wanted (pre-existing finding, re-verified)."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Founded Harpo Productions in 1986 to take ownership of her own content, unusually early for the era (pre-existing finding, re-verified); in 2007, brought in her own external investigators upon learning of the academy abuse allegations, going beyond what a passive institutional response would require."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/oprah-winfrey-2016.jpg",
+    "width": 1105,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public Domain (U.S. Government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
+    "attribution": "U.S. Embassy South Africa",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-14T00:00:00Z",
+    "updatedAt": "2026-09-14T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 5 (2026-09-14, docs/checkpoints/legacy-integrity-batch5-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batches 2-4 (corrected in batch 4 to use the true 30-attribute base set). Oprah Winfrey ranked #3 among 25 legacy profiles with risk score 9 (first alphabetically among a three-way tie with wangari-maathai and yi-sun-sin): 1 source cited, 24 high-confidence rows in the unsupported base set, 2 'documented'-tier claims among them, no Wikidata QID. New research (the 1998 Texas cattlemen trial, the 2007 Leadership Academy crisis response, and her own described Book Club selection process) audited all 32 original rows (30 base + 2 taxonomy_v1.1). 13 retained and rescored from the evidence directly (none reusing old values), 0 new rows added, 19 removed for lacking individually-attributable, non-duplicative support this cycle (curiosity, analytical_rigor, systems_abstraction, creative_originality, experimentation, cross_domain_range, aesthetic_sensitivity, deep_focus, detail_orientation, perfectionism, execution_speed, planning_orientation, persistence, adaptability, ambiguity_tolerance, collaboration, mastery_orientation, achievement_drive, competitiveness). achievement_drive was removed specifically because the only support behind it was her media/business scale (achievement/output), not a distinct behavioral incident. The 2007 academy abuse allegations themselves are not Oprah's own behavior and are not used as row evidence -- only her documented institutional-response actions (bringing in independent investigators, personal visits, public accountability statements) are used, the same discipline this project applies to a survivor's or advocate's response to circumstances beyond their own conduct. No metadata correction was needed this cycle -- tagIds (founder/communicator/overcame_adversity) were checked against the Kurosawa/Biles precedent and all remain either well-supported by retained rows or occupational/biographical rather than narrow trait-claims. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

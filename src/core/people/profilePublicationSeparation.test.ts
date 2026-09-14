@@ -303,11 +303,26 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     // highest-risk remaining profiles (a clean three-way tie at the top
     // score, no boundary tie-break needed). All three were re-researched
     // from scratch and are honestly non-match-eligible for the first time.
-    // Match-eligible set drops by exactly three, to 117 (see the next
-    // test); no other person's eligibility changed.
+    // Match-eligible set drops by exactly three, to 117.
     "richard-feynman",
     "simone-biles",
     "steve-jobs",
+    // Legacy integrity remediation batch 5 (2026-09-14, docs/checkpoints/
+    // legacy-integrity-batch5-three-person-remediation.md): the same
+    // unchanged deterministic risk triage (corrected to use the true
+    // 30-attribute base set), recomputed fresh against the 25-person
+    // legacy cohort remaining after batches 1-4, froze genghis-khan and
+    // serena-williams (tied at the top score) and oprah-winfrey (first
+    // alphabetically in the next tier's three-way tie) as the three
+    // highest-risk remaining profiles. All three were re-researched from
+    // scratch and are honestly non-match-eligible for the first time.
+    // Match-eligible set drops by exactly three, to 114 (see the next
+    // test); no other person's eligibility changed. This cycle's targets
+    // include the lane's first political/military-primary-identity
+    // profile (genghis-khan), audited on identical evidentiary terms.
+    "genghis-khan",
+    "serena-williams",
+    "oprah-winfrey",
   ]);
 
   it("still exactly 225 production people", () => {
@@ -320,7 +335,7 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     expect(visible).toHaveLength(224);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety-eight deliberately-divergent roster24/25/26/27/28/29/30/31/32 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, and steve-jobs", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the ninety-eight deliberately-divergent roster24/25/26/27/28/29/30/31/32 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);
@@ -331,8 +346,8 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     }
   });
 
-  it("the match-eligible set is 117, down from 127 for the first time since Che Guevara grew it in roster26 -- akira-kurosawa's legacy remediation plus the three batch-2, three batch-3, and three batch-4 remediations are the only causes, no other person's eligibility changed", () => {
-    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(117);
+  it("the match-eligible set is 114, down from 127 for the first time since Che Guevara grew it in roster26 -- akira-kurosawa's legacy remediation plus the three batch-2, three batch-3, three batch-4, and three batch-5 remediations are the only causes, no other person's eligibility changed", () => {
+    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(114);
     const cheGuevara = SEED_PEOPLE.find((p) => p.slug === "che-guevara");
     expect(cheGuevara?.isMatchEligible).toBe(true);
     for (const slug of [
@@ -346,6 +361,9 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
       "richard-feynman",
       "simone-biles",
       "steve-jobs",
+      "genghis-khan",
+      "serena-williams",
+      "oprah-winfrey",
     ]) {
       const p = SEED_PEOPLE.find((x) => x.slug === slug);
       expect(p?.isMatchEligible, slug).toBe(false);

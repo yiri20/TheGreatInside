@@ -963,6 +963,7 @@ const seeds: PersonSeed[] = [
     impactDomains: ["athletic", "cultural", "social"],
     tagIds: ["competitor", "career_changer", "sustained_excellence"],
     archetypeIds: ["competitive_performer"],
+    externalIdentity: { wikidataId: "Q11459" },
     // No-Portrait Fill Batch 1 (2026-08): cropped/resized derivative of the
     // Doha 2013 press-conference photo -- the neutral, non-branded
     // composition preferred over a brighter Australian Open 2015 alternate
@@ -997,57 +998,59 @@ const seeds: PersonSeed[] = [
     //     staff did not initially act on her own account of her symptoms
     //     until she pressed for specific tests; announced retirement
     //     ("evolution") in 2022.
+    // Legacy integrity remediation batch 5 (2026-09-14, docs/checkpoints/
+    // legacy-integrity-batch5-three-person-remediation.md): audited from
+    // scratch against the 2018 US Open final dispute, Serena Ventures' own
+    // stated mission/figures, and her own 2022 Vogue retirement essay. 10
+    // of 31 original rows retained (rescored from evidence, not reused);
+    // 21 removed for lacking individually-attributable support -- see the
+    // checkpoint for the full ledger and per-row disposition. Mirrors
+    // data-pipeline/candidates/serena-williams.json exactly.
     sources: [
       wiki("serena", "Serena Williams"),
       bio("serena", "Serena Williams, On the Line (2009)"),
+      { id: "src_serena_2018usopen", kind: "press", title: "Independent journalism on the 2018 US Open final code-violation dispute with umpire Carlos Ramos" },
+      { id: "src_serena_ventures", kind: "press", title: "Serena Williams's own quoted statements on Serena Ventures" },
+      { id: "src_serena_vogue_2022", kind: "press", title: "Serena Williams, \"The Hardest Part\" (Vogue, September 2022)" },
     ],
+    directoryVisible: true,
     rows: {
-      curiosity: [62, 0.45, "i", "N"],
-      analytical_rigor: [70, 0.5, "i", "N"],
-      intuitive_synthesis: [78, 0.5, "i", "N"],
-      systems_abstraction: [58, 0.45, "i", "N"],
-      independent_thinking: [82, 0.7, "s", "A"],
-      creative_originality: [62, 0.45, "i", "N"],
-      experimentation: [65, 0.5, "i", "N"],
-      cross_domain_range: [68, 0.6, "s", "N"],
-      aesthetic_sensitivity: [72, 0.6, "s", "N"],
-      discipline: [97, 0.94, "d", "A"],
-      deep_focus: [90, 0.85, "d", "A"],
-      detail_orientation: [82, 0.7, "s", "A"],
-      perfectionism: [88, 0.8, "d", "D"],
-      execution_speed: [85, 0.7, "s", "A"],
-      planning_orientation: [80, 0.65, "s", "A"],
-      persistence: [97, 0.94, "d", "A"],
-      adaptability: [85, 0.8, "d", "A"],
-      risk_tolerance: [72, 0.6, "s", "N"],
-      ambiguity_tolerance: [68, 0.5, "i", "N"],
-      decisiveness: [88, 0.8, "d", "A"],
-      social_assertiveness: [88, 0.85, "d", "N"],
-      collaboration: [65, 0.5, "i", "N"],
-      leadership_drive: [80, 0.7, "s", "A"],
-      persuasiveness: [78, 0.65, "s", "N"],
-      conflict_tolerance: [85, 0.8, "d", "D"],
-      mastery_orientation: [95, 0.9, "d", "A"],
-      achievement_drive: [96, 0.94, "d", "A"],
-      competitiveness: [98, 0.95, "d", "D"],
-      autonomy_need: [78, 0.6, "s", "N"],
-      impact_motivation: [85, 0.8, "d", "A"],
-      // taxonomy_v1.1 (Stage 5, Phase 6.6): proactive_agency (62, 0.5,
-      // inference, modest confidence) — public advocacy on maternal health/
-      // childbirth safety for Black women following her own near-fatal
-      // childbirth complications, self-initiated rather than a professional
-      // obligation; distinct from her already-scored leadership_drive/
-      // impact_motivation (general drive to lead/matter), which don't
-      // specifically evidence unprompted initiative. opportunity_sensing/
-      // belief_updating: no supporting evidence. resourcefulness: considered
-      // (early training on under-resourced Compton public courts) and left
-      // unscored — too generic/common among athletes from similar
-      // backgrounds to treat as distinctive personal evidence. Overall the
-      // thinnest new-trait coverage in Batch 2 despite excellent coverage on
-      // the original 30 — her public record documents competitive
-      // performance far more than these specific constructs; flagged for
-      // the missing-not-at-random audit.
-      proactive_agency: [62, 0.5, "i", "A"],
+      // Pressed medical staff for specific tests after her own account of
+      // postpartum symptoms was not initially acted on.
+      independent_thinking: [78, 0.6, "s", "A"],
+      // Built Serena Ventures over 14+ years while still competing: "make
+      // a plan B while I was doing my plan A" (her own words).
+      planning_orientation: [75, 0.58, "s", "A"],
+      // Won the 2017 Australian Open at ~8 weeks pregnant; returned to
+      // public life/advocacy after serious postpartum complications.
+      persistence: [72, 0.55, "s", "A"],
+      // 2018 US Open final: confronted umpire Carlos Ramos directly; her
+      // own words rejecting "retirement" for "evolution" (Vogue, 2022).
+      decisiveness: [85, 0.62, "s", "D"],
+      // Directly confronted umpire Carlos Ramos on court at the 2018 US
+      // Open final, then publicly alleged gender-based differential
+      // treatment afterward.
+      social_assertiveness: [80, 0.6, "s", "D"],
+      // 2018 US Open final: coaching warning, racket break, then a direct
+      // verbal confrontation escalating to a game penalty -- a specific,
+      // dated, multiply-reported sequence.
+      conflict_tolerance: [82, 0.62, "s", "D"],
+      // The 2018 US Open final confrontation reflects direct competitive
+      // intensity toward an official's ruling, distinct from her overall
+      // win record (achievement/output, not used here).
+      competitiveness: [68, 0.52, "s", "D"],
+      // Independent 14+-year parallel venture career; pressed for her own
+      // medical judgment; explicitly rejected the conventional framing of
+      // "retirement" in her own words.
+      autonomy_need: [85, 0.62, "s", "A"],
+      // Serena Ventures' stated mission, in her own words: investing to
+      // "level the playing field for women and people of colour."
+      impact_motivation: [72, 0.55, "s", "A"],
+      // taxonomy_v1.1: began building Serena Ventures 14+ years before this
+      // cycle while still competing, unprompted by her tennis career;
+      // became a public maternal-health advocate following her own
+      // complications, self-initiated.
+      proactive_agency: [80, 0.6, "s", "A"],
     },
   },
   {

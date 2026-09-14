@@ -425,6 +425,17 @@ describe("confidence and missing data", () => {
       "richard-feynman",
       "simone-biles",
       "steve-jobs",
+      // Legacy integrity remediation batch 5 (2026-09-14,
+      // docs/checkpoints/legacy-integrity-batch5-three-person-remediation.md):
+      // genghis-khan, serena-williams, and oprah-winfrey -- the top 3 by
+      // the same unchanged deterministic risk triage, recomputed fresh
+      // against the 25-person legacy cohort remaining after batches 1-4 --
+      // were each re-researched from scratch and now honestly fall short
+      // of eligibility_v2 (all were mirroring eligible=true before this
+      // cycle, on rows with no stated rationale).
+      "genghis-khan",
+      "serena-williams",
+      "oprah-winfrey",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -790,6 +801,17 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "richard-feynman",
       "simone-biles",
       "steve-jobs",
+      // Legacy integrity remediation batch 5 (2026-09-14,
+      // docs/checkpoints/legacy-integrity-batch5-three-person-remediation.md):
+      // genghis-khan, serena-williams, and oprah-winfrey -- the top 3 by
+      // the same unchanged deterministic risk triage, recomputed fresh
+      // against the 25-person legacy cohort remaining after batches 1-4 --
+      // were each re-researched from scratch and now honestly fall short
+      // of eligibility_v2 (all were mirroring eligible=true before this
+      // cycle, on rows with no stated rationale).
+      "genghis-khan",
+      "serena-williams",
+      "oprah-winfrey",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

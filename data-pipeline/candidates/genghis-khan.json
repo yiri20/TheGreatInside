@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "genghis-khan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Genghis Khan",
+    "wikidataId": "Q720",
+    "birthYear": 1162,
+    "deathYear": 1227,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": ["MN"],
+    "regionCode": "central_asia"
+  },
+  "classification": {
+    "occupationIds": ["military_leader", "political_leader"],
+    "fieldIds": ["military", "politics"],
+    "impactDomains": ["historical", "social"],
+    "tagIds": ["conqueror", "organizer"],
+    "archetypeIds": ["organizational_leader"]
+  },
+  "sources": [
+    { "id": "src_genghiskhan_wikipedia", "kind": "wikipedia", "title": "Genghis Khan", "url": "https://en.wikipedia.org/wiki/Genghis_Khan" },
+    { "id": "src_genghiskhan_secret_history", "kind": "archive", "title": "The Secret History of the Mongols (c. 1228) -- the earliest surviving Mongolian-language chronicle, written within Mongol court circles" },
+    { "id": "src_genghiskhan_weatherford", "kind": "biography", "title": "Jack Weatherford, Genghis Khan and the Making of the Modern World (2004) -- independent modern scholarship" }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Assigned administrative/military responsibilities based on individual ability and loyalty rather than kinship (a departure from standard steppe kin-based court practice); restructured Mongol society into a decimal military-administrative system (units of ten/hundred/thousand) that deliberately dispersed defeated groups across units rather than keeping tribal structures intact, credited with preventing the empire's fragmentation along old tribal lines even after his death (Weatherford; Wikipedia)."
+    },
+    "independent_thinking": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Departed from the standard steppe practice of kin-based court appointment in favor of ability/loyalty-based assignment (Weatherford)."
+    },
+    "planning_orientation": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The decimal military-administrative reorganization was a deliberate, structural redesign of Mongol society, not an improvised response (Wikipedia, existing verified finding)."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "After a military defeat at the Battle of Qalaqaljid Sands, retreated to Baljuna and rebuilt his coalition from a small group of companions (the 1203 Baljuna Covenant) rather than abandoning the campaign; sustained a rivalry with Jamukha across roughly a decade before finally prevailing in 1206."
+    },
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "In 1219, after the Khwarazmian governor of Otrar executed a Mongol trade caravan and Shah Muhammad II executed/mutilated the envoys sent to demand redress, launched a full invasion of the much larger, settled Khwarazmian state (existing verified finding)."
+    },
+    "decisiveness": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "At about 14, ambushed and killed his half-brother Behter after Behter withheld hunting spoils from him and his brother Qasar (The Secret History of the Mongols); after Jamukha's own followers betrayed him in 1206, executed the betrayers specifically on the stated principle that betrayal merits the harshest punishment; launched the 1219 Khwarazmian invasion in direct, immediate response to the Otrar incident."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "The 1203 Baljuna Covenant united a small group of companions from nine different tribes across Christian, Muslim, and Buddhist faiths on loyalty to him and each other after a shared defeat -- a real but narrowly loyalty-bound alliance, not a general collaborative disposition."
+    },
+    "leadership_drive": {
+      "score": 90,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Built and sustained the Baljuna coalition, the ability/loyalty-based appointment system, and the decimal reorganization -- three distinct, deliberate institution-building efforts rather than a single moment of command."
+    },
+    "conflict_tolerance": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Killed his own half-brother Behter over a resource dispute (Secret History); sustained roughly a decade of open rivalry with his former anda Jamukha; launched and sustained the large-scale, multi-year Khwarazmian campaign following the Otrar incident."
+    },
+    "competitiveness": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "The Behter killing (a dispute over hunting spoils with an older half-brother) and the sustained, decade-long rivalry with Jamukha (culminating in Jamukha's own claim that \"there was room for only one Mongol lord\") both reflect direct, personal rivalry rather than only strategic calculation."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Executed Jamukha's betrayers on his own stated principle rather than simply accepting their offered service; broke from standard kin-based court convention in his appointment practices (Weatherford)."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Early unification exploited shifting tribal alliances (Merkit/Tatar/Kerait/Naiman) at a specific fragile political moment -- recognizing which openings to act on before committing, distinct from adaptability (adjusting an already-chosen course)."
+    },
+    "proactive_agency": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Rebuilt alliances and pursued unification entirely on his own initiative after his clan abandoned his family following his father's death, with no inherited authority or assigned role at that stage; the 1203 Baljuna retreat-and-rebuild after a battlefield defeat is a further instance of the same self-directed pattern."
+    }
+  },
+  "doNotCopyKeys": ["dontcopy.genghiskhan.ruthlessness"],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/genghis-khan-yuan-portrait-c1350.jpg",
+    "width": 1259,
+    "height": 1600,
+    "source": "Wikimedia Commons (resized/recompressed derivative)",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg",
+    "attribution": "Yuan dynasty imperial portrait album, c.1350, National Palace Museum, Taipei -- a posthumous portrait painted roughly 120+ years after Genghis Khan's death, part of a Yuan court ancestor-portrait tradition, not a lifetime or eyewitness likeness",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-14T00:00:00Z",
+    "updatedAt": "2026-09-14T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 5 (2026-09-14, docs/checkpoints/legacy-integrity-batch5-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batches 2-4, corrected in batch 4 to use the true 30-attribute base set (belief_updating is taxonomy_v1.1, not base). Genghis Khan ranked #1 among 25 legacy profiles with risk score 10 (tied with serena-williams, alphabetically first): 1 source cited, 20 high-confidence rows in the unsupported base set, 2 'documented'-tier claims among them, no Wikidata QID, era medieval with >=15 high-confidence base rows. New research (The Secret History of the Mongols and Jack Weatherford's independent modern scholarship) audited all 22 original rows (20 base + 2 taxonomy_v1.1). 13 retained and rescored from the evidence directly (none reusing old values), 0 new rows added, 9 removed for lacking individually-attributable, non-duplicative support this cycle (analytical_rigor, discipline, execution_speed, adaptability, ambiguity_tolerance, social_assertiveness, persuasiveness, achievement_drive, impact_motivation). achievement_drive/impact_motivation were removed specifically because the only support behind them was the scale of his conquests/empire (achievement/output), not a distinct behavioral incident, per this project's standing rule. This is a political/military-primary-identity legacy profile audited on identical evidentiary terms as every other target in this lane, per this cycle's explicit instruction to keep product-selection policy (the newer zero-politics cohort-selection standard for NEW candidates) separate from legacy data-integrity auditing. The 1219 Khwarazmian invasion and the 1206 execution of Behter are reported factually as documented behavioral incidents, not moralized, and not assigned a specific casualty figure given this profile's existing, still-valid caveat about unreliable/hostile-chronicle sourcing for casualty claims. His father's murder and his family's subsequent abandonment/childhood hardship were read but not used as row evidence -- only his own later, independently documented actions (rebuilding alliances, the Baljuna Covenant) were used, consistent with this project's standing health/tragedy/circumstance discipline. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

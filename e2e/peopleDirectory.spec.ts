@@ -544,7 +544,23 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // collaboration score>=73 & confidence>=0.5): none of the 7 have both
   // attributes scored at all, let alone crossing both thresholds, so the
   // filtered count of 7 is unchanged.
-  expect(bodyText).toMatch(/전체\s*225명\s*중\s*7명/);
+  // Total still 225 (legacy integrity remediation batch 5, docs/checkpoints/
+  // legacy-integrity-batch5-three-person-remediation.md -- no person
+  // added/removed, three existing legacy profiles rescored). Verified
+  // directly against personExhibitsTrait(): Oprah Winfrey -- one of the
+  // ORIGINAL five people in this set (see the top of this comment chain)
+  // -- honestly no longer satisfies either threshold. Her curiosity row
+  // (78, confidence 0.62) and collaboration row (78, confidence 0.62) were
+  // both removed on fresh audit: no distinct behavioral incident supported
+  // either beyond her general media-career reputation, and neither was a
+  // target of this cycle's actual research (which found decisiveness/
+  // persuasiveness/conflict_tolerance/autonomy_need evidence instead -- see
+  // the checkpoint). This drops the filtered count from 7 to 6 -- a real,
+  // honest removal caused by the SAME rescoring discipline that has raised
+  // this count several times above, not a correction applied to hit a
+  // target number. The remaining six (Lincoln, Franklin, Darwin, Goodall,
+  // Rubin, Erdős) are unaffected.
+  expect(bodyText).toMatch(/전체\s*225명\s*중\s*6명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
 });

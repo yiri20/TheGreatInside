@@ -194,20 +194,28 @@ export function engineTraits(scores: Readonly<Record<AttributeId, number>>): num
  * `docs/phase6.6-taxonomy-v1.1-implementation.md` "Stage 8" for the full
  * before/after distribution and the reasoning for why this is display
  * recalibration, not a `greatness_v1` redesign.
+ *
+ * Anchors refreshed 2026-09-14 (legacy integrity remediation batch 5),
+ * alongside the same refresh to `MATCH_CALIBRATION_ANCHORS` (src/core/
+ * matching/calibration.ts) -- see that file's docstring for the full
+ * rationale (a routine dataset-attrition refresh, not a formula/taxonomy
+ * change; measured drift here 0.0136 raw at p0.1, comfortably under this
+ * project's established 0.024-raw greatness budget for an unbumped
+ * refresh). `greatnessScoringVersion`/`greatness_v1` not touched.
  */
 export const GREATNESS_CALIBRATION_ANCHORS: ReadonlyArray<readonly [number, number]> = [
   [0.0, 1],
-  [0.6492, 8], // p0.1
-  [0.6944, 17], // p1
-  [0.7331, 27], // p5
-  [0.7531, 34], // p10
-  [0.7866, 46], // p25
-  [0.8246, 58], // p50
-  [0.8604, 70], // p75
-  [0.8901, 80], // p90
-  [0.9077, 86], // p95
-  [0.9352, 93], // p99
-  [0.9596, 97], // p99.9
+  [0.6628, 8], // p0.1
+  [0.7063, 17], // p1
+  [0.7443, 27], // p5
+  [0.7634, 34], // p10
+  [0.7965, 46], // p25
+  [0.8337, 58], // p50
+  [0.8684, 70], // p75
+  [0.8972, 80], // p90
+  [0.9131, 86], // p95
+  [0.9398, 93], // p99
+  [0.9608, 97], // p99.9
   [1.0, 99],
 ];
 
