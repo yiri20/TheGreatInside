@@ -179,7 +179,14 @@ export interface PersonalityGroup {
  * from all 34: `independent_thinking`, `persistence`, `discipline`,
  * `proactive_agency` (all >60% of match-eligible people — near-universal in
  * this roster of extraordinary achievers, so not discriminating as a
- * filter) and `belief_updating` (confident_n 18, below the 20-person floor).
+ * filter); `belief_updating` (confident_n 18, below the 20-person floor);
+ * and, as of 2026-09-14 (legacy integrity remediation batch 5, docs/
+ * checkpoints/legacy-integrity-batch5-three-person-remediation.md),
+ * `competitiveness` (confident_n dropped to 19 and qualifying_share to
+ * 0.096, both below their floors, after honest evidence-based rescoring
+ * removed or lowered several legacy people's competitiveness rows — the
+ * same class of downstream consequence as `belief_updating`'s exclusion,
+ * not a curation policy change).
  */
 export const PERSONALITY_TAXONOMY: readonly PersonalityGroup[] = [
   {
@@ -210,7 +217,7 @@ export const PERSONALITY_TAXONOMY: readonly PersonalityGroup[] = [
   {
     facet: "motivation",
     labelKey: "facet.motivation",
-    attributeIds: ["mastery_orientation", "achievement_drive", "competitiveness", "autonomy_need"],
+    attributeIds: ["mastery_orientation", "achievement_drive", "autonomy_need"],
   },
   {
     facet: "world_sense",

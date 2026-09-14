@@ -34,6 +34,26 @@
  * back to ~58, as an honest byproduct of correctly re-fitting on fresh
  * data, not because either number was targeted directly. Full evidence in
  * `docs/phase6.6-taxonomy-v1.1-implementation.md` "Stage 8".
+ *
+ * Anchors refreshed, version NOT bumped (2026-09-14, legacy integrity
+ * remediation batch 5): four consecutive legacy-remediation cycles each
+ * shrank the eligible pool a little further (127->126->123->120->117->114),
+ * and this cycle's measured max match-anchor drift (0.0081 raw, at p0.1)
+ * finally crossed the earlier cycles' <0.008-raw "leave it alone" reading
+ * of the noise-level threshold -- but this project's own established
+ * precedent for exactly this situation (a prior roster-growth session,
+ * `docs/archive/session-history/roster-1000-checkpoint.md` SS18) already
+ * measured drift twice this size (0.012 raw match / 0.0138 raw greatness)
+ * and still treated it as a routine refresh: paste in the freshly-fitted
+ * values, leave `CALIBRATION_VERSION` unbumped, because the underlying
+ * cause (ordinary dataset attrition/growth) is not the kind of formula- or
+ * taxonomy-level change that justified the v2->v3 bump above. Same
+ * treatment here: `MATCH_CALIBRATION_ANCHORS` and `GREATNESS_CALIBRATION_
+ * ANCHORS` (src/core/greatness/greatness.ts) both refreshed to the values
+ * `pnpm calibrate` actually produced against the current 114-person
+ * eligible set -- not tuned to restore or preserve any particular number.
+ * Max greatness drift 0.0136 raw (p0.1), also comfortably under this
+ * project's own 0.024-raw greatness budget for an unbumped refresh.
  */
 
 export const CALIBRATION_VERSION = "calibration_v3";
@@ -58,17 +78,17 @@ export const CALIBRATION_VERSION = "calibration_v3";
  */
 export const MATCH_CALIBRATION_ANCHORS: ReadonlyArray<readonly [number, number]> = [
   [0.0, 1],
-  [0.3667, 6], // p0.1
-  [0.3884, 11], // p1
-  [0.4089, 18], // p5
-  [0.4206, 23], // p10
-  [0.4421, 32], // p25
-  [0.4694, 44], // p50
-  [0.5001, 57], // p75
-  [0.5298, 69], // p90
-  [0.5483, 76], // p95
-  [0.584, 86], // p99
-  [0.6269, 93], // p99.9
+  [0.3748, 6], // p0.1
+  [0.3937, 11], // p1
+  [0.4124, 18], // p5
+  [0.4235, 23], // p10
+  [0.4442, 32], // p25
+  [0.4705, 44], // p50
+  [0.4997, 57], // p75
+  [0.5277, 69], // p90
+  [0.5451, 76], // p95
+  [0.5789, 86], // p99
+  [0.6201, 93], // p99.9
   [1.0, 99],
 ];
 

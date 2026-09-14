@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "serena-williams",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Serena Williams",
+    "wikidataId": "Q11459",
+    "birthYear": 1981,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["athlete", "entrepreneur"],
+    "fieldIds": ["sport", "business"],
+    "impactDomains": ["athletic", "cultural", "social"],
+    "tagIds": ["competitor", "career_changer", "sustained_excellence"],
+    "archetypeIds": ["competitive_performer"]
+  },
+  "sources": [
+    { "id": "src_serena_wikipedia", "kind": "wikipedia", "title": "Serena Williams", "url": "https://en.wikipedia.org/wiki/Serena_Williams" },
+    { "id": "src_serena_on_the_line", "kind": "biography", "title": "Serena Williams, On the Line (2009) -- her own memoir" },
+    { "id": "src_serena_2018usopen", "kind": "press", "title": "Independent journalism (NPR, CBS News, ESPN) on the 2018 US Open final code-violation dispute with umpire Carlos Ramos" },
+    { "id": "src_serena_ventures", "kind": "press", "title": "Serena Williams's own quoted statements on Serena Ventures (AfroTech, CNBC, Forbes)" },
+    { "id": "src_serena_vogue_2022", "kind": "press", "title": "Serena Williams, \"The Hardest Part\" (Vogue, September 2022) -- her own retirement essay" }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "After her September 2017 childbirth, developed a pulmonary embolism and related complications; medical staff did not initially act on her own account of her symptoms, drawn from her prior history of blood clots, until she insisted on the specific tests (pre-existing finding, re-verified)."
+    },
+    "planning_orientation": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built Serena Ventures over more than 14 years while still an active professional athlete, in her own words: \"It's super important for me to make a plan B while I was doing my plan A\" -- a deliberate, sustained parallel strategy, not a post-career pivot."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Won the 2017 Australian Open (23rd major title) at approximately 8 weeks pregnant, then returned to advocacy and public life after serious postpartum complications (pre-existing finding, re-verified)."
+    },
+    "decisiveness": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "At the 2018 US Open final, directly and immediately confronted umpire Carlos Ramos after a game-penalty ruling, calling him a \"thief\"; in her own words in the 2022 Vogue retirement essay, deliberately chose \"evolution\" over \"retirement\": \"I have never liked the word retirement. It doesn't feel like a modern word to me.\""
+    },
+    "social_assertiveness": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Directly confronted umpire Carlos Ramos on court during the 2018 US Open final, then publicly alleged gender-based differential treatment in officiating afterward (NPR, CBS News, ESPN)."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "The 2018 US Open final: received a coaching-violation warning, broke her racket after a subsequent violation, then verbally confronted the umpire, escalating to a third code violation and a full game penalty -- a specific, dated, multiply-reported sequence of sustained conflict engagement, not a single remark."
+    },
+    "competitiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "The 2018 US Open final confrontation reflects direct, in-the-moment competitive intensity toward an official's ruling, distinct from her overall win/title record (which is achievement/output, not used here as row evidence)."
+    },
+    "autonomy_need": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Built an independent, parallel venture-capital career over 14+ years rather than remaining solely defined by tennis; pressed for her own medical judgment against initial staff skepticism after childbirth; explicitly rejected the conventional framing of \"retirement\" in her own 2022 essay."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Stated mission for Serena Ventures, in her own words: investing in companies that \"level the playing field for women and people of colour\" -- a portfolio that is 79% underrepresented founders, 54% women, distinct from the fact of the investments themselves."
+    },
+    "proactive_agency": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Began building Serena Ventures more than 14 years before this cycle while still competing professionally, unprompted by any requirement of her tennis career; became a public advocate for Black maternal health and childbirth safety following her own complications, self-initiated rather than a professional obligation."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/serena-williams-doha-2013.jpg",
+    "width": 1360,
+    "height": 1600,
+    "source": "Wikimedia Commons (cropped/resized derivative)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Serena_Williams_Doha_2013_(cropped).jpg",
+    "attribution": "Photograph by Vinod Divakaran / Doha Stadium Plus Qatar, 2013, CC BY 2.0",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Serena_Williams_Doha_2013_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-14T00:00:00Z",
+    "updatedAt": "2026-09-14T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Legacy integrity remediation batch 5 (2026-09-14, docs/checkpoints/legacy-integrity-batch5-three-person-remediation.md), using the unchanged deterministic risk-triage methodology from batches 2-4 (corrected in batch 4 to use the true 30-attribute base set). Serena Williams ranked #2 among 25 legacy profiles with risk score 10 (tied with genghis-khan): 2 sources cited, 27 high-confidence rows in the unsupported base set, 12 'documented'-tier claims among them, no Wikidata QID, max confidence 0.95. New research (the 2018 US Open final dispute, Serena Ventures' own stated mission and figures, and her own 2022 Vogue retirement essay) audited all 31 original rows (30 base + 1 taxonomy_v1.1). 10 retained and rescored from the evidence directly (none reusing old values), 0 new rows added, 21 removed for lacking individually-attributable, non-duplicative support this cycle (curiosity, analytical_rigor, intuitive_synthesis, systems_abstraction, creative_originality, experimentation, cross_domain_range, aesthetic_sensitivity, discipline, deep_focus, detail_orientation, perfectionism, execution_speed, adaptability, risk_tolerance, ambiguity_tolerance, collaboration, leadership_drive, persuasiveness, mastery_orientation, achievement_drive). discipline/deep_focus/mastery_orientation/achievement_drive, all very high in the original profile, were removed specifically because this cycle's research did not surface a distinct behavioral incident for them beyond her competitive record and general training reputation (achievement/output), per this project's standing rule. Her father Richard Williams's decision to move the family to Compton and coach her from childhood was read but not scored as her own personal-agency evidence, the same discipline applied to a parent's actions elsewhere in this lane. Her 2017 postpartum medical complications were read but the circumstance itself was not used as evidence -- only her documented act of pressing for specific tests, and her subsequent advocacy choice, were used. Publication decision (evidence_approved) was frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}
