@@ -4,6 +4,29 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
+**Minimal update, 2026-09-16**: the paragraph and Product-section headline
+below this note are stale (they predate Roster17-33 and describe a
+125-person/124-match-eligible state). Current mechanically-verified truth,
+recorded here rather than by rewriting the outdated narrative that
+follows (see `docs/checkpoints/250-person-performance.md` for the full
+measurement record):
+
+- Production: **251** people. Directory-visible: **250**. Match-eligible:
+  **114** (unchanged since Legacy Integrity Batch 1; roster growth since
+  then has been non-match-eligible new-candidate publication).
+- Latest merged `main` SHA: `0193d7cc617eab27e1013ddb018065ee36452feb`
+  (PR #42, Roster34 merge).
+- Latest milestone: **250-person production roster reached** (Roster34,
+  2026-09-16). Final classification from the dedicated performance
+  checkpoint: see `docs/checkpoints/250-person-performance.md`.
+- Next recommended task: see that checkpoint's final classification and
+  recommended-next-task section — do not assume it without reading it,
+  since this index line will itself go stale.
+
+Older Roster33-era paragraph and Product-section headline below (both
+now superseded by the above, kept for historical continuity only, not
+rewritten in full per this session's minimal-update instruction):
+
 Last updated: 2026-09-16 (Roster33: new-candidate roster-expansion cycle,
 `feat/roster33`, unmerged — a return to the roster24-32 new-candidate lane
 after Legacy Integrity Batches 1-5 (2026-09-13 -- 2026-09-14, each its own
