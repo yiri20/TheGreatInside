@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-oppenheimer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "J. Robert Oppenheimer",
+    "wikidataId": "Q132537",
+    "birthYear": 1904,
+    "deathYear": 1967,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "engineering"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer",
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_opp_wikipedia",
+      "kind": "wikipedia",
+      "title": "J. Robert Oppenheimer",
+      "url": "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"
+    },
+    {
+      "id": "src_opp_lanl_porkpie",
+      "kind": "institution",
+      "title": "\"The man under the porkpie hat,\" Los Alamos National Laboratory, National Security Science magazine -- institutional account carrying named-colleague testimony (Hans Bethe on his technical command; General Leslie Groves on his breadth; recruits Robert Christy and Dorothy McKibbin on his recruiting magnetism; the Thin Man-to-implosion technical reversal; his instituting weekly colloquia over Groves' compartmentalization preference). Opened and read in full.",
+      "url": "https://www.lanl.gov/media/publications/national-security-science/0723-the-man-under-the-porkpie-hat"
+    },
+    {
+      "id": "src_opp_lanl_orgchart",
+      "kind": "archive",
+      "title": "\"Here's your damned organization chart,\" Los Alamos National Laboratory 50th-anniversary article series (1993), archived copy -- named eyewitness testimony from physicist John Manley (the organization-chart anecdote) and philosopher/administrative officer David Hawkins (the governing-board/coordinating-council structure and its explicit unity-vs-efficiency trade-off). Opened and read in full.",
+      "url": "http://library.sciencemadness.org/lanl1_a/LANL_50th_Articles/5-28-93.html"
+    },
+    {
+      "id": "src_opp_lanl_directors",
+      "kind": "institution",
+      "title": "\"From the director's chair,\" Los Alamos National Laboratory, National Security Science magazine -- later LANL directors (Robert Kuckuck, Charles McMillan, Terry Wallace, John Browne) assessing Oppenheimer's institutional legacy as founding director, including his early teaching weaknesses and self-taught improvement, his questioning technique, and his credit-sharing behavior. Institutional retrospective, not contemporaneous eyewitness testimony -- treated accordingly (weighted as corroboration, not sole basis for any row). Opened and read in full.",
+      "url": "https://www.lanl.gov/media/publications/national-security-science/0723-from-the-directors-chair"
+    },
+    {
+      "id": "src_opp_time_apprentice",
+      "kind": "press",
+      "title": "\"The Eternal Apprentice,\" TIME magazine cover story (1948) -- contemporaneous profile carrying named-colleague recollections (Professor Richard Tolman's and Professor Lauritsen's reactions to his early teaching; physicist James Franck's remark after Oppenheimer's 1927 Göttingen doctoral oral exam) and a documented account of his self-correction from a scattered, undisciplined young lecturer into an effective teacher. Opened and read in full (pages 2, 4, 5 of the paginated reprint).",
+      "url": "https://content.time.com/time/subscriber/article/0,33009,853367-4,00.html"
+    },
+    {
+      "id": "src_opp_gerjuoy_schwinger",
+      "kind": "archive",
+      "title": "Edward Gerjuoy, \"Memories of Julian Schwinger\" (arXiv:1412.1410) -- a first-hand, non-self memoir by a physicist who was Oppenheimer's own Berkeley graduate student circa 1938-39, directly describing Oppenheimer's seminar-questioning behavior toward postdoc Leonard Schiff. Genuinely independent eyewitness source, not Oppenheimer's own testimony. PDF opened and read in full.",
+      "url": "https://arxiv.org/abs/1412.1410"
+    },
+    {
+      "id": "src_opp_new_atlantis",
+      "kind": "press",
+      "title": "\"The Agony of Atomic Genius,\" The New Atlantis -- press essay quoting David C. Cassidy's biography J. Robert Oppenheimer and the American Century, including Max Born's recollection of Oppenheimer's seminar conduct at Göttingen (1926-27). Opened and read in full.",
+      "url": "https://www.thenewatlantis.com/publications/the-agony-of-atomic-genius"
+    },
+    {
+      "id": "src_opp_rabi_testimony",
+      "kind": "archive",
+      "title": "I.I. Rabi, sworn testimony, \"In the Matter of J. Robert Oppenheimer\" (1954 AEC security hearing transcript), via atomicarchive.com -- genuinely independent, non-self testimony from a colleague who worked directly with Oppenheimer, used ONLY for its description of his General Advisory Committee decision-making process, never for the loyalty/Communist-sympathy allegations that are the hearing's central (and explicitly excluded) subject matter. Opened and read in full.",
+      "url": "https://www.atomicarchive.com/resources/documents/oppenheimer/trial-rabi.html"
+    },
+    {
+      "id": "src_opp_ahf_hbomb",
+      "kind": "institution",
+      "title": "\"Hydrogen Bomb - 1950,\" Atomic Heritage Foundation / National Museum of Nuclear Science & History (Nuclear Museum) -- institutional account of the General Advisory Committee's October 29-30, 1949 report, chaired by Oppenheimer, recommending against a hydrogen-bomb crash program, quoting the report's own language. Used only for the documented technical-policy decision, not any loyalty-adjacent framing. Opened and read in full.",
+      "url": "https://ahf.nuclearmuseum.org/ahf/history/hydrogen-bomb-1950/"
+    }
+  ],
+  "rows": {
+    "intuitive_synthesis": {
+      "score": 87,
+      "confidence": 0.82,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independent, named colleague accounts spanning his graduate-student years through wartime leadership converge on the same specific behavior: near-instantaneous grasp of a technical point before others finished stating it. Hans Bethe, head of the Theoretical Division under him at Los Alamos: 'It was clear to all of us, whenever he spoke, that he knew everything that was important to know about the technical problems of the laboratory, and he somehow had it well organized in his head' (src_opp_lanl_porkpie). Caltech colleague Professor Lauritsen, independently: 'The man was unbelievable! He always gave you the right answer before you formulated the question' (src_opp_time_apprentice). A third, earlier instance: physicist James Franck reportedly left Oppenheimer's 1927 Göttingen doctoral oral exam saying 'I got out of there just in time. He was beginning to ask me questions' (src_opp_time_apprentice). Multiple independent documented instances from more than one source, no significant contradicting evidence, and this is one of the small handful of things his contemporaries most consistently singled out about him -- meets the 85-100 bar."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "TIME's 1948 profile documents him as 'forever reading aloud the latest letter from a top physicist friend' and staying current across ongoing physics research well outside his own specialty (src_opp_time_apprentice). Independently, Manhattan Project director Leslie Groves -- who worked with him daily and had no self-interest in flattering him -- said: 'Oppenheimer knows about everything. He can talk to you about anything you bring up' (src_opp_lanl_porkpie). Two independent, named, documented characterizations of sustained breadth of engagement -- 71-84 band via multiple independent documented instances, kept toward the lower end since both are general testimonials rather than single dated incidents."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independent, dated instances of forming and acting on his own judgment against prevailing institutional pressure. (1) At Los Alamos in 1943, over General Groves' explicit preference for strict security compartmentalization, he instituted weekly lab-wide colloquia, arguing the practice itself served security by ensuring scientists understood the need for secrecy; Groves objected but ultimately allowed it (src_opp_lanl_orgchart). (2) As chairman of the AEC's General Advisory Committee, he led a unanimous October 29-30, 1949 report recommending against a hydrogen-bomb crash program ('it would be wrong at the present moment to commit ourselves to an all out effort towards its development') against real momentum toward a crash program (src_opp_ahf_hbomb) -- independently corroborated by I.I. Rabi's own sworn 1954 hearing testimony describing this as a deliberate, weighed conclusion, not reflexive opposition: 'he was not unalterably opposed, but on sum, adding up everything, he thought it would have been a mistake at that time to proceed with a crash program' (src_opp_rabi_testimony). Scored only from the documented fact of an independently-reasoned technical-policy stance taken against pressure -- the 1954 hearing's loyalty/Communist-sympathy allegations are excluded entirely. Two independent documented instances across different periods and different authority figures meet the 71-84 bar. impact: dual_edged because both instances show this independence producing real institutional friction and professional risk alongside its benefits, not only positive outcomes."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, dated technical reversal: after mid-1944 experiments showed the plutonium-fueled 'Thin Man' gun-type design was incompatible with plutonium's spontaneous-fission rate, Oppenheimer abandoned the design and on July 20, 1944 directed that 'all possible priority should be given to the implosion program,' standing up two new divisions (Explosives, Weapons Physics) to pursue it (src_opp_lanl_porkpie, corroborated by the divisional-restructuring account in src_opp_lanl_orgchart). A single, dated, well-documented instance of abandoning a substantially-invested prior approach in direct response to new disconfirming evidence rather than persisting -- meets the 56-70 band (at least one documented instance); not pushed into 71-84 since it rests on one underlying episode, however corroborated across two institutional accounts of its aftermath."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "TIME's 1948 profile documents a specific, sourced pattern: after early teaching failures (Professor Tolman: 'I didn't understand a damn word' of an early Oppenheimer lecture), 'gradually and painfully, coached by colleagues and profiting by errors, Oppenheimer learned to put a checkrein on his galloping mind, to raise his voice' (src_opp_time_apprentice). Independently, former Los Alamos director Terry Wallace's institutional retrospective describes the same pattern: Oppenheimer 'was a terrible teacher. He was boring and disorganized' early on, but 'worked to become a great teacher,' learning 'to teach to the individuals in the class' (src_opp_lanl_directors). Two independent sources, 75 years apart in publication, describing the same specific behavioral pattern -- a sustained, effortful self-correction, not a one-off event -- meets the strong_inference bar of two independently-verifiable facts."
+    },
+    "planning_orientation": {
+      "score": 34,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "A specific, named eyewitness account documents a preference for light, informal structure over top-down formal planning: when physicist John Manley repeatedly requested a written organization chart for the new laboratory, Oppenheimer 'practically threw a piece of paper at me as I came in the door and said, \"Here's your damn organization chart\"' (Manley's own recollection, src_opp_lanl_orgchart). Philosopher David Hawkins, the lab's administrative officer, independently characterized the resulting approach -- governance via a governing board and a coordinating council rather than conventional hierarchy -- as producing 'a gain of unity in the Laboratory' but one that 'entailed, undeniably, a loss of administrative efficiency' (same source). Two named, independent eyewitnesses describing the same specific, documented organizational choice. Scored in the low band (a real, evidenced lean toward less formal/structured planning) rather than the 45-55 default because the evidence is specific and corroborated, but capped above the 16-29 extreme floor since it rests on one lab-founding episode. impact: dual_edged per Hawkins' own explicit statement of both a benefit and a cost -- this is a genuine, non-flattering finding, not softened toward a fake middle."
+    },
+    "leadership_drive": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Robert Kuckuck, a later Los Alamos director assessing Oppenheimer's institutional legacy, credited him with 'exceptional skill in attracting, motivating, organizing, and guiding a remarkably diverse collection of brilliant minds' (src_opp_lanl_directors). This is corroborated by the specific, documented fact that he designed and stood up the laboratory's entire divisional structure from scratch (Theoretical under Bethe, Experimental Physics under Bacher, Chemistry under Kennedy, Ordnance under Parsons, later adding Explosives and Weapons Physics divisions after the Thin Man reversal) despite arriving with, in the Atomic Heritage Foundation's words, 'little managerial experience' (src_opp_wikipedia for orientation only; the divisional detail itself is from src_opp_lanl_porkpie, an institutional source, not Wikipedia). Two independent documented facts -- one a named retrospective characterization, one a specific structural fact -- meet the 71-84 bar."
+    },
+    "persuasiveness": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, named, first-person testimonials describe Oppenheimer's direct persuasive/charismatic effect on individuals, distinct from his general leadership capability. Robert Christy, a physicist he recruited, recalled: 'like most of his students, I would more or less follow him to the ends of the earth' (src_opp_lanl_porkpie). Dorothy McKibbin, who ran the Los Alamos Santa Fe office and met nearly every recruit passing through, said: 'I never met a person with a magnetism that hit you so fast and so completely' (same source). Two independent named witnesses describing the specific personal effect of persuasion/influence, not merely the outcome of successful recruitment -- meets the 71-84 bar via multiple independent documented instances."
+    },
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, dated organizational choice favoring open information-sharing over top-down secrecy: in May 1943, against General Groves' preference for strict security compartmentalization, Oppenheimer instituted weekly lab-wide colloquia (src_opp_lanl_orgchart). Independently, former director Terry Wallace's retrospective documents that Oppenheimer 'never claimed credit for the success of the Los Alamos part of the Manhattan Project' and 'made sure that the success was recognized as a collective effort' (src_opp_lanl_directors). Two independent documented instances -- a specific 1943 organizational decision and a specific, repeatedly-observed credit-sharing pattern -- both concretely about valuing collective, open work over individual or compartmentalized control. Meets the 71-84 bar."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independent, first-hand, named-witness accounts from different institutions and different decades document the same specific behavior: dominating seminar discussion through relentless, often unwelcome interjection. At Göttingen (1926-27), Max Born recalled Oppenheimer as 'a brash upstart, who would break in snidely on seminar presentations to explain matters more lucidly than the distinguished speakers could' (David C. Cassidy's biography, as reported in src_opp_new_atlantis). At Berkeley (c. 1938-39), physicist Edward Gerjuoy -- Oppenheimer's own graduate student and a first-hand witness, writing independently decades later -- described it as 'difficult to give a seminar with Oppie in the audience, because of Oppie's ruthless unwillingness to stop putting searching questions to the speaker,' noting that 'on several occasions he reduced Schiff [Oppenheimer's postdoc, who had to present many seminars] almost to tears' (src_opp_gerjuoy_schwinger). Two independent, first-hand, named accounts spanning over a decade converge on the same specific behavior pattern -- meets the 71-84 bar. impact: dual_edged -- both sources frame this as simultaneously a display of intellectual command and a real interpersonal cost to colleagues, not softened toward a fake middle."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Charles McMillan, a later Los Alamos director, credits Oppenheimer's teaching-era habit of incisive questioning: he 'honed his ability to ask questions, questions that provided critical insights into problems,' developed through interactions with graduate students (src_opp_lanl_directors). Independently, I.I. Rabi's own sworn 1954 hearing testimony characterizes his reasoning on the hydrogen-bomb question as deliberate and cumulative rather than reflexive: 'he was not unalterably opposed, but on sum, adding up everything, he thought it would have been a mistake at that time to proceed with a crash program' (src_opp_rabi_testimony). Two independent sources describing the same underlying pattern -- rigorous, multi-factor weighing that produces genuine insight -- meet the strong_inference bar of two independently-verifiable facts; kept in the 56-70 band since neither instance alone is a single crisp incident and the McMillan characterization is a later institutional retrospective rather than contemporaneous eyewitness testimony."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/robert-oppenheimer-1944.jpg",
+    "width": 728,
+    "height": 997,
+    "source": "Los Alamos National Laboratory, circa 1944, cited in Charles Thorpe and Steven Shapin, \"Who was J. Robert Oppenheimer? Charisma and Complex Organization,\" Social Studies of Science (2000), via Wikimedia Commons",
+    "license": "Public domain (Los Alamos National Laboratory usage policy -- free use for any purpose with attribution to LANL)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Oppenheimer_Los_Alamos_portrait.jpg",
+    "attribution": "Los Alamos National Laboratory, circa 1944",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Oppenheimer_Los_Alamos_portrait.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 candidate. Wikidata QID (Q132537) supplied pre-verified per task brief, not re-verified live in this session. Portrait file public/portraits/robert-oppenheimer-1944.jpg was found already on disk from a prior, interrupted session (no notes carried over). Independently re-verified in this session via the Wikimedia Commons API: searched Commons for Oppenheimer 1944/Los Alamos portraits, found File:Oppenheimer_Los_Alamos_portrait.jpg (728x997, Los Alamos National Laboratory, cited in Thorpe & Shapin 2000, public domain per LANL usage policy). The on-disk file matches this Commons file's exact pixel dimensions (728x997); a byte-for-byte hash comparison showed the on-disk file is NOT bit-identical to the current Commons upload (different SHA-1, different file size: 70,614 vs 61,380 bytes) but a pixel-level comparison (both files decoded to RGB arrays) found the images visually identical -- mean absolute per-pixel difference of 0.12 (0-255 scale), max difference of 2, 0% of pixels differing by more than 5 levels -- consistent with the on-disk file being a JPEG re-encode (different compression pass) of the same source photograph, not a different photo. Metadata (source/license/attribution/sourcePageUrl) above is drawn entirely from the verified Commons file page and API response, not guessed. 9 sources used, all opened and read directly in this session (not relied on from search-engine summaries alone, except where noted): 2 LANL National Security Science institutional articles ('the man under the porkpie hat', 'from the director's chair'), 1 archived LANL 50th-anniversary article (sciencemadness.org mirror), TIME's 1948 'The Eternal Apprentice' cover story, Edward Gerjuoy's first-hand arXiv memoir of being Oppenheimer's own Berkeley graduate student, The New Atlantis (reporting Cassidy's biography), I.I. Rabi's sworn 1954 hearing testimony (atomicarchive.com), and the Atomic Heritage Foundation/Nuclear Museum's account of the October 1949 GAC hydrogen-bomb report. Wikipedia used for orientation only, never as scored evidence. 11 rows scored, each traced to >=2 independent named-source accounts of specific documented behavior (not fame, not the bomb's historical significance, not occupational stereotype); every row's rationale names its sources. >=2 independent provenance perspectives and >=1 substantive non-self behavioral source requirement is exceeded by a wide margin -- Bethe, Groves, Christy, McKibbin, Manley, Hawkins, Kuckuck, McMillan, Wallace, Born (via Cassidy), Gerjuoy, and Rabi are all independent, non-self, named witnesses. Per the task brief's explicit instruction, scoring excluded entirely: the 1954 hearing's loyalty/Communist-sympathy political allegations (used the hearing transcript only for Rabi's description of Oppenheimer's GAC decision-making behavior); any health/psychological-state framing (his documented early-life emotional struggles, and Freeman Dyson's account of a late-life personality change while facing terminal cancer, found during research via The New Atlantis, were both deliberately NOT used for any trait inference per this project's standing rule); and a single-source biographer characterization of Oppenheimer as treating physics 'like a competitive sport' (The New Atlantis, citing Cassidy) was found but not scored as competitiveness -- a single adjective-level characterization with no specific cited incident does not meet even the inference bar cleanly, and it was dropped rather than stretched into a row. 11 scored attributes is below the 18-attribute eligibility_v2 floor by design (no padding to reach it) -- this candidate is expected to be evidence_approved but not match_eligible; that is an honest outcome given how much of Oppenheimer's fame-adjacent material (the bomb's significance, his historical importance, his physics achievements per se) is explicitly excluded from scoring by the rubric's anti-halo rules, leaving a smaller but well-evidenced set of genuinely behavioral rows. Suggested Korean display name (localization not yet performed): \"J. 로버트 오펜하이머\", matching the Korean Wikipedia article title convention (ko.wikipedia.org/wiki/J._로버트_오펜하이머) and the mirrored en.wikipedia.org title style."
+  },
+  "localization": {}
+}

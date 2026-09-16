@@ -56,14 +56,22 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "held",
-    "reason": "No rights-clear photographic portrait of Murakami was identified with confidence during this cycle's bounded portrait search; he is a living, camera-shy public figure with few widely-licensed images. Not promoted to production this cycle pending a dedicated portrait search."
+    "status": "found",
+    "url": "/portraits/haruki-murakami-2018.jpg",
+    "width": 1067,
+    "height": 1600,
+    "source": "Ministry of Culture and Heritage of Ecuador (Ministerio de Cultura y Patrimonio), via Wikimedia Commons",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Haruki_Murakami_2018.jpg",
+    "attribution": "Ministerio de Cultura y Patrimonio (Ecuador), 8 November 2018, Teatro Nacional de la Casa de la Cultura Ecuatoriana",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Haruki_Murakami_2018.jpg"
   },
   "provenance": {
     "createdAt": "2026-09-16T00:00:00Z",
     "updatedAt": "2026-09-16T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): arts_culture priority pick (literature), a contemporary/living, internationally-read novelist. Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), his 2004 Paris Review interview (extensive primary first-person testimony), and his own memoir What I Talk About When I Talk About Running. 4 rows scored, all directly quoting his own described routine and working philosophy -- deliberately not scored from his literary acclaim or sales figures (achievement/output, not used as evidence). Evidence review genuinely concluded publication-safe (status: evidence_approved); the sole reason this candidate is NOT in this cycle's promotion allowlist is the unresolved portrait -- checkPromotionReadiness() correctly fails him on that gate alone, not an evidence concern. A future cycle with a dedicated portrait search is the clear next step; no further research needed on the evidence side."
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): arts_culture priority pick (literature), a contemporary/living, internationally-read novelist. Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), his 2004 Paris Review interview (extensive primary first-person testimony), and his own memoir What I Talk About When I Talk About Running. 4 rows scored, all directly quoting his own described routine and working philosophy -- deliberately not scored from his literary acclaim or sales figures (achievement/output, not used as evidence). Evidence review genuinely concluded publication-safe (status: evidence_approved); the sole reason this candidate was NOT in Roster33's promotion allowlist was the unresolved portrait. ROSTER34 (2026-09-16): bounded ~15-minute portrait-only recovery. Found File:Haruki_Murakami_2018.jpg on Wikimedia Commons -- an official photo by Ecuador's Ministry of Culture and Heritage (Ministerio de Cultura y Patrimonio), taken 8 November 2018 at a public conversation with Murakami at the Teatro Nacional de la Casa de la Cultura Ecuatoriana, Quito. Verified live via the Commons API (extmetadata): License=Public domain, Artist=Ministerio Cultura y Patrimonio, original EXIF confirms a real Canon EOS 5D Mark III capture (not a stock/AI image). Downloaded (3723x5584 original), resized to 1600px longest side, quality-85 JPEG, no upscale, no crop needed (already a solo bust-oriented shot). No behavioral research redone, no rows rescored, no traits added, no confidence changed -- evidence side untouched per instruction."
   },
   "localization": {}
 }

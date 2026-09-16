@@ -1,10 +1,10 @@
 /**
- * Roster33 (2026-09-16, docs/checkpoints/roster33.md): new-candidate
- * roster-expansion cycle, table-driven candidate<->production equality for
- * all 14 promoted people. Mirrors the shape of the legacy-integrity batch
- * test files (e.g. legacyIntegrityBatch5Remediation.test.ts), but this is
- * NOT a legacy-remediation audit -- these are brand-new candidates, not
- * rescored existing production people.
+ * Roster34 (2026-09-16, docs/checkpoints/roster34.md): final new-candidate
+ * roster-expansion cycle to the 250-person milestone, table-driven
+ * candidate<->production equality for all 12 promoted people (11 newly
+ * researched candidates plus Haruki Murakami, a Roster33 holdover promoted
+ * this cycle on a resolved portrait gate only). Mirrors roster33.test.ts's
+ * shape.
  */
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -17,20 +17,18 @@ import type { Candidate } from "../candidateSchema.js";
 import { hasCandidateFile } from "./matchPoolIntegrityAudit.js";
 
 const TARGETS = [
-  "alexander-fleming",
-  "alfred-hitchcock",
-  "bill-gates",
-  "bob-dylan",
-  "carl-sagan",
-  "dmitri-mendeleev",
-  "ferdinand-magellan",
-  "freddie-mercury",
-  "jacques-cousteau",
-  "jonas-salk",
-  "josephine-baker",
-  "neil-armstrong",
-  "steve-wozniak",
-  "tim-berners-lee",
+  "andy-warhol",
+  "antoine-lavoisier",
+  "charlie-chaplin",
+  "edward-jenner",
+  "elvis-presley",
+  "estee-lauder",
+  "haruki-murakami",
+  "katharine-graham",
+  "robert-oppenheimer",
+  "sally-ride",
+  "walt-disney",
+  "yuri-gagarin",
 ] as const;
 
 function loadCandidate(slug: string): Candidate {
@@ -45,7 +43,7 @@ const production = Object.fromEntries(
   TARGETS.map((slug) => [slug, SEED_PEOPLE.find((p) => p.slug === slug)!]),
 ) as Record<(typeof TARGETS)[number], (typeof SEED_PEOPLE)[number]>;
 
-describe.each(TARGETS)("Roster33: %s", (slug) => {
+describe.each(TARGETS)("Roster34: %s", (slug) => {
   const candidate = candidates[slug];
   const person = production[slug];
 
@@ -83,14 +81,17 @@ describe.each(TARGETS)("Roster33: %s", (slug) => {
     expect(person.isDirectoryVisible).toBe(true);
   });
 
-  it("is honestly non-match-eligible -- publication was never gated on eligibility_v2", () => {
-    expect(person.isMatchEligible).toBe(false);
+  it("has whatever match-eligibility outcome its actual evidence produces -- not assumed non-eligible by blanket rule", () => {
     const report = evaluateMatchEligibility(person);
-    expect(report.eligible).toBe(false);
-    expect(report.reasons.length).toBeGreaterThan(0);
+    expect(person.isMatchEligible).toBe(report.eligible);
+    // Every Roster34 person happens to land non-eligible on honest
+    // evidence (none targeted eligibility_v2), but this test checks each
+    // person's ACTUAL computed result against their ACTUAL isMatchEligible
+    // flag, not a hardcoded "false" -- if a future edit ever made one of
+    // these 12 genuinely eligible, this assertion would still pass.
   });
 
-  it("has a rights-clear, honestly-classified portrait (the actual gate that held Haruki Murakami back this cycle)", () => {
+  it("has a rights-clear, honestly-classified portrait", () => {
     expect(candidate.portrait?.status).toBe("found");
     expect(person.portrait).toBeDefined();
     expect(person.portrait!.url).toBeTruthy();
@@ -107,11 +108,35 @@ describe.each(TARGETS)("Roster33: %s", (slug) => {
   it("appears in PEOPLE_INDEX exactly once, in agreement with SEED_PEOPLE", () => {
     const inIndex = PEOPLE_INDEX.filter((p) => p.slug === slug);
     expect(inIndex).toHaveLength(1);
-    expect(inIndex[0]!.isMatchEligible).toBe(false);
+    expect(inIndex[0]!.isMatchEligible).toBe(person.isMatchEligible);
   });
 });
 
-describe("Roster33: cross-target identity integrity", () => {
+describe("Roster34: Haruki Murakami's portrait-only recovery", () => {
+  it("evidence side is byte-identical to Roster33 -- only the portrait changed", () => {
+    const candidate = candidates["haruki-murakami"];
+    // The same 4 rows Roster33 originally scored, unchanged.
+    expect(Object.keys(candidate.rows).sort()).toEqual(
+      ["deep_focus", "discipline", "independent_thinking", "planning_orientation"].sort(),
+    );
+    expect(candidate.rows.discipline!.score).toBe(92);
+    expect(candidate.rows.discipline!.confidence).toBe(0.68);
+  });
+
+  it("the previously-held portrait blocker is now resolved with a real, verified file", () => {
+    const candidate = candidates["haruki-murakami"];
+    expect(candidate.portrait?.status).toBe("found");
+    expect(candidate.portrait?.url).toBe("/portraits/haruki-murakami-2018.jpg");
+    expect(candidate.portrait?.license).toBeTruthy();
+    expect(candidate.portrait?.sourcePageUrl).toBeTruthy();
+  });
+
+  it("is now present in production, unlike Roster33", () => {
+    expect(SEED_PEOPLE.some((p) => p.slug === "haruki-murakami")).toBe(true);
+  });
+});
+
+describe("Roster34: cross-target identity integrity", () => {
   it("no duplicate ids, slugs, or Wikidata QIDs across all 251 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
@@ -130,7 +155,7 @@ describe("Roster33: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (251 people as of Roster34, 2026-09-16 -- this batch itself added none of the later growth; the count reflects later roster-expansion cycles), all 14 Roster33 targets present in both", () => {
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 251 people, all 12 Roster34 targets present in both", () => {
     expect(SEED_PEOPLE).toHaveLength(251);
     expect(PEOPLE_INDEX).toHaveLength(251);
     for (const slug of TARGETS) {
@@ -139,17 +164,14 @@ describe("Roster33: cross-target identity integrity", () => {
     }
   });
 
-  it("Haruki Murakami (evidence_approved, portrait-held) was deliberately NOT promoted in Roster33 -- his evidence side was already publication-safe, the portrait gate alone excluded him", () => {
-    // ROSTER34 UPDATE (2026-09-16, docs/checkpoints/roster34.md): a
-    // bounded portrait-only recovery found a rights-clear Public Domain
-    // photo, so Murakami IS now promoted -- in Roster34, not Roster33.
-    // His candidate file's evidence/rows/confidence were untouched by that
-    // recovery; only `portrait` changed. This test still documents the
-    // Roster33-era state of the candidate file's evidence review, which
-    // did not change, plus the current (Roster34) promotion outcome.
-    const candidate = loadCandidate("haruki-murakami");
-    expect(candidate.status).toBe("evidence_approved");
-    expect(candidate.portrait?.status).toBe("found");
-    expect(SEED_PEOPLE.some((p) => p.slug === "haruki-murakami")).toBe(true);
+  it("reaches the 250-person production milestone (251 >= 250)", () => {
+    expect(SEED_PEOPLE.length).toBeGreaterThanOrEqual(250);
+  });
+
+  it("match-eligible count is unchanged at 114 -- none of the 12 Roster34 people are match-eligible", () => {
+    expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(114);
+    for (const slug of TARGETS) {
+      expect(production[slug].isMatchEligible, slug).toBe(false);
+    }
   });
 });

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charlie-chaplin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Charlie Chaplin",
+    "wikidataId": "Q882",
+    "birthYear": 1889,
+    "deathYear": 1977,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor",
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_chaplin_wikipedia",
+      "kind": "wikipedia",
+      "title": "Charlie Chaplin",
+      "url": "https://en.wikipedia.org/wiki/Charlie_Chaplin"
+    },
+    {
+      "id": "src_chaplin_openculture_342",
+      "kind": "press",
+      "title": "Open Culture, \"Watch Charlie Chaplin Demand 342 Takes of One Scene from City Lights\" (2013) -- opened and read in full. Reproduces Chaplin's own 1968 interview description of Virginia Cherrill (\"amateur\"; \"a contour hurts me if it's not right\"), sourced from David Robinson's biography, plus film critic Richard Brody's (The New Yorker) independent analysis of Chaplin's working method as results-driven rather than template-driven.",
+      "url": "https://www.openculture.com/2013/11/charlie-chaplin-342-takes-city-lights.html"
+    },
+    {
+      "id": "src_chaplin_robinson_review",
+      "kind": "biography",
+      "title": "David Robinson, Chaplin: His Life and Art (1985; rev. 2001) -- the definitive, extensively archive-sourced independent scholarly biography (written with access to the Chaplin archive, not an authorized-hagiography or estate-commissioned text). Content accessed and read via John Walters' two-part book review (johnwalterswriter.com, 2020), which quotes and summarizes Robinson's own documented findings: Chaplin \"spent years on [his films] as writer, director, composer, and star, shooting take after take until he got them right,\" and \"could be sometimes encouraging and sometimes extremely harsh on his costars and technicians.\"",
+      "url": "https://johnwalterswriter.com/2020/12/21/book-review-chaplin-his-life-and-art-by-david-robinson-part-2-one-masterpiece-after-another/"
+    },
+    {
+      "id": "src_chaplin_nofilmschool",
+      "kind": "press",
+      "title": "No Film School, \"95 Years Later, Charlie Chaplin's City Lights Still Holds the Record for Most Retakes of a Single Scene\" -- opened and read in full. Cites Guinness World Records for the verified 342-take figure (blind flower-girl scene); documents that Chaplin's retakes were targeted problem-solving (\"a specific problem, a logic gap in his story... kept shooting and brainstorming until he found the mechanism that solved it\"), not aimless repetition; and notes City Lights (1931) was Chaplin's final fully silent film, released after sound had already taken over Hollywood.",
+      "url": "https://nofilmschool.com/city-lights-retakes-chaplin"
+    },
+    {
+      "id": "src_chaplin_unknown_chaplin",
+      "kind": "archive",
+      "title": "Kevin Brownlow & David Gill, Unknown Chaplin (1983 documentary series) -- independent film historians' examination of Chaplin's own surviving outtake archive (released to them by his widow Oona O'Neill Chaplin) plus the Raymond Rohauer collection of pirated Mutual-period outtakes. Non-self, archive-based, behavioral: shows Chaplin building sets and reworking scenes through repeated, revised takes rather than fixed pre-scripting (e.g. alternate takes documenting how the storyline of The Immigrant was progressively developed on camera), and includes Virginia Cherrill's own on-camera account of the City Lights retake ordeal. Content read via the Wikipedia article on the documentary, which summarizes its content and sourcing.",
+      "url": "https://en.wikipedia.org/wiki/Unknown_Chaplin"
+    },
+    {
+      "id": "src_chaplin_silentlondon",
+      "kind": "press",
+      "title": "Pamela Hutchinson, \"City Lights (1931): the course of true love never did run smooth,\" Silent London (2019) -- opened and read in full. Independent film-history journalism carrying two named, non-self, behavioral accounts: film editor/actor Robert Parrish, who took a bit part as a newsboy (\"I and Miss Cherrill watched while Charlie did his show. Finally, he had it all worked out and reluctantly gave us back our parts. I felt that he would much rather have played all of them himself\"), and lead actress Virginia Cherrill herself (\"Still doing that damned first scene, and we had a whole year of filming to go... Charlie was such a perfectionist. He couldn't let it alone until it was just exactly what he wanted\").",
+      "url": "https://silentlondon.co.uk/2019/03/07/city-lights-1931-charlie-chaplin-virginia-cherrill/"
+    },
+    {
+      "id": "src_chaplin_darkskiesfilm",
+      "kind": "press",
+      "title": "Dark Skies Film, \"Charlie Chaplin's Silent Stand: Modern Times and the Resistance to Talkies\" -- opened and read in full. Documents the specific, dated decision to release City Lights (1931, four years after The Jazz Singer/1927) and Modern Times (1936, nine years after) as silent films against the industry-wide conversion to sound, describing it as \"a calculated artistic decision\" made at real commercial risk, and notes Chaplin fully embraced sound only with The Great Dictator (1940).",
+      "url": "https://darkskiesfilm.com/which-film-did-charlie-chaplin-make-to-protest-the-talkies/"
+    },
+    {
+      "id": "src_chaplin_raksin_songwriter",
+      "kind": "press",
+      "title": "American Songwriter, \"Legends of Songwriting: David Raksin\" -- opened and read in full. Composer/orchestrator David Raksin's own, independent, non-self account of scoring Modern Times with Chaplin: Chaplin could not transcribe or write music himself and worked by humming melodies for Raksin to develop and score; the two clashed over creative credit (Chaplin fired Raksin, then rehired him after Raksin refused to be a musical \"stooge\"); Raksin states he wrote much of the score and of the song \"Smile\" without credit. Read for completeness and NOT used to score any row -- see provenance.notes for why.",
+      "url": "https://americansongwriter.com/legends-david-raksin/"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 90,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Multiple independent documented instances converge: the Guinness-verified 342 takes for City Lights' blind flower-girl scene (src_chaplin_nofilmschool), Virginia Cherrill's own account that \"Charlie was such a perfectionist. He couldn't let it alone until it was just exactly what he wanted\" (src_chaplin_silentlondon), Robinson's biography describing him \"shooting take after take until he got them right\" as a sustained pattern across multiple films (src_chaplin_robinson_review), and the Unknown Chaplin documentary's independent outtake-archive evidence of the same iterative reworking pattern (src_chaplin_unknown_chaplin). Dual_edged: it produced results he wanted but was documented as exhausting and, per Robinson, \"extremely harsh\" on collaborators at times."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Robert Parrish's direct, non-self account that Chaplin personally re-demonstrated a scene until \"he had it all worked out\" rather than accept an approximation (src_chaplin_silentlondon), corroborated by Chaplin's own contemporaneous complaint that a wrong \"line\" or \"contour\" in a shot physically \"hurts me if it's not right\" (src_chaplin_openculture_342, reproducing Robinson's biography). One non-self documented instance plus a corroborating self-testimony documented instance -- kept short of the 85+ band since one of the two is self-testimony."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Robert Parrish's specific, attributable observation on the City Lights set -- Chaplin acted out every actor's part himself before reluctantly returning it to them, leaving Parrish with the impression \"he would much rather have played all of them himself\" (src_chaplin_silentlondon) -- corroborated by Robinson's documented characterization of Chaplin working across his career \"as writer, director, composer, and star\" on the same films rather than delegating those roles (src_chaplin_robinson_review). Two independent documented instances on point."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "342 retakes over an extended shoot for a single short scene rather than settling for an approximate solution (src_chaplin_nofilmschool, src_chaplin_silentlondon), corroborated by Robinson's documented account of the same sustained take-after-take pattern recurring across multiple films over years, not a one-off (src_chaplin_robinson_review). Multiple independent documented instances."
+    },
+    "execution_speed": {
+      "score": 22,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Virginia Cherrill's own direct account -- mid-shoot on the flower-girl scene alone, \"we had a whole year of filming to go\" (src_chaplin_silentlondon) -- corroborated by Robinson's documented description of years-long, take-after-take production schedules across his features (src_chaplin_robinson_review). Extremely slow, deliberate pace by direct testimony; dual_edged because the same slowness is what the perfectionism/detail_orientation rows above credit for the results."
+    },
+    "collaboration": {
+      "score": 35,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Three independently-documented, distinct episodes converge on a low-collaboration working pattern: Parrish's account of Chaplin preferring to perform every part himself rather than direct others (src_chaplin_silentlondon); Robinson's documented characterization that Chaplin \"could be sometimes encouraging and sometimes extremely harsh on his costars and technicians\" (src_chaplin_robinson_review); and composer David Raksin's own account of being fired by Chaplin mid-production over a creative disagreement on the Modern Times score, then rehired only after refusing to be a musical \"stooge\" (src_chaplin_raksin_songwriter). Kept in the 30-44 band, not lower, since none of these alone documents a full-career pattern and Chaplin also sustained very long-running professional partnerships (e.g. with cameraman Rollie Totheroh) not directly evidenced here. Dual_edged: the same low delegation that strained individual collaborators is inseparable from the singular directorial vision credited elsewhere."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances of on-camera trial-and-error development rather than fixed advance planning: the flower-girl scene's solution was reached only by \"shooting and brainstorming until he found the mechanism that solved it\" mid-production (src_chaplin_nofilmschool), and the Unknown Chaplin outtake archive independently documents alternate takes showing how the storyline of The Immigrant was progressively developed and revised on camera (src_chaplin_unknown_chaplin)."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained, undistracted attention to a single ~15-second scene across many days of retakes (src_chaplin_silentlondon, src_chaplin_nofilmschool) is a documented instance of extended single-task absorption; Robinson's documented general characterization that Chaplin \"would become so absorbed in the act of creation\" corroborates it as a recurring pattern rather than one incident (src_chaplin_robinson_review). Kept at strong_inference rather than documented since the Robinson corroboration is a general characterization, not a second specific instance."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.63,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, dated, verifiable decision against near-total industry consensus: Chaplin released City Lights as a fully silent film in 1931, four years after The Jazz Singer and after virtually every other major silent comedian (Keaton, Lloyd) had already converted to sound, and again with the largely-silent Modern Times in 1936 (src_chaplin_nofilmschool, src_chaplin_darkskiesfilm -- independent, corroborating sources). Dual_edged: an artistically vindicated choice, but one taken at real, acknowledged commercial risk, and not an absolute stance -- he fully adopted sound for The Great Dictator (1940)."
+    },
+    "aesthetic_sensitivity": {
+      "score": 60,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "A single self-testimony data point: Chaplin's own 1968 description of visual precision as a near-physical concern -- \"a contour hurts me if it's not right\" (src_chaplin_openculture_342, reproducing Robinson's biography). No independent corroboration specific to aesthetic perception (as opposed to general behavioral precision, scored separately under detail_orientation), so kept at inference-level and a moderate score rather than treated as a defining trait."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/charlie-chaplin-1915.jpg",
+    "width": 1226,
+    "height": 1536,
+    "source": "Library of Congress, Prints and Photographs Division (digital ID cph.3b11417), via Wikimedia Commons",
+    "license": "Public Domain (PD-old-70-expired / CC-PD-Mark; no known copyright restrictions)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_Charles_Chaplin,_1889-1977,_full_length_portrait,_seated,_facing_right;_playing_cello_LCCN2005689014.jpg",
+    "attribution": "Library of Congress Prints and Photographs Division, 1915 (photographer not credited in LOC record)",
+    "date": "1915",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sir_Charles_Chaplin,_1889-1977,_full_length_portrait,_seated,_facing_right;_playing_cello_LCCN2005689014.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 arts_culture pick (film), same GB/US dual-nationality pattern as the existing Alfred Hitchcock candidate. Wikidata QID (Q882) supplied pre-verified per task instructions, not re-verified live in this session. 8 sources: Wikipedia (orientation only, never used as scored evidence), David Robinson's definitive archive-sourced biography (accessed via a book review that quotes/summarizes it directly, not the physical book), the independent, historian-made 'Unknown Chaplin' documentary (Brownlow & Gill, built from Chaplin's own outtake archive -- non-self, behavioral), Silent London's direct named quotes from collaborators Robert Parrish and Virginia Cherrill (the qualifying non-self behavioral source), and three further independent press pieces (No Film School, Dark Skies Film, American Songwriter). 10 rows scored, all traced to specific documented incidents or direct quotes -- none inferred from box-office success, critical acclaim, or fame (unscored). Deliberately did NOT score anything from the well-documented 1952 US re-entry ban / McCarthy-era political controversy of his own life, per task instruction -- his primary identity here is scored as filmmaker/director, not political figure, and no political-opinion content was used as evidence. David Raksin's own account of co-composing the Modern Times score (src_chaplin_raksin_songwriter) was read in full but deliberately NOT used to score any originality/composition-related row: Raksin's independent, non-self testimony complicates a simple 'Chaplin personally composed the score' narrative (he states Chaplin could not transcribe music and that Raksin wrote much of it uncredited) -- rather than resolve that tension in Chaplin's favor, the evidence was left unscored on composition specifically, and the Raksin material was instead used only for the collaboration row, where it corroborates rather than requires a doubtful call. execution_speed's low/slow score and collaboration's low score are deliberately NOT pushed into the 16-29/0-15 extreme bands: each rests on real but still-partial documented evidence (a handful of named-collaborator episodes, not a full-career survey), consistent with the rubric's evidence-strength-vs-extremity rule. Deceased (1977); no health/death inference made. Publication decision (evidence_approved) frozen before any eligibility_v2 computation was run against this file."
+  },
+  "localization": {}
+}

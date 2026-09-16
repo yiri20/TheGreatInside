@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "andy-warhol",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Andy Warhol",
+    "wikidataId": "Q5603",
+    "birthYear": 1928,
+    "deathYear": 1987,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist",
+      "film_director"
+    ],
+    "fieldIds": [
+      "art",
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_warhol_wikipedia",
+      "kind": "wikipedia",
+      "title": "Andy Warhol -- orientation only, not cited as scored evidence for any row",
+      "url": "https://en.wikipedia.org/wiki/Andy_Warhol"
+    },
+    {
+      "id": "src_warhol_museum_adman",
+      "kind": "institution",
+      "title": "\"Adman: Warhol Before Pop,\" The Andy Warhol Museum (Pittsburgh) -- independent institutional exhibition account of his pre-Pop commercial illustration career, opened and read in full: his 1949 Glamour commission, the I. Miller & Sons shoe-ad campaign (sole illustrator, new weekly New York Times ads, March 1955-December 1959), and his self-identification (\"I'm still a commercial artist. I was always a commercial artist\") framed institutionally rather than taken as self-testimony alone.",
+      "url": "https://www.warhol.org/exhibition/adman-warhol-pop/"
+    },
+    {
+      "id": "src_warhol_museum_silkscreen",
+      "kind": "institution",
+      "title": "\"Underpainting and Photographic Silkscreen Printing,\" The Andy Warhol Museum lesson page -- independent institutional documentation of the actual Factory silkscreen production process: source images sent to outside commercial screen-makers with dimension/color specifications, screens returned for printing, Warhol's own hands-on role limited to the underpainted base layer, with execution delegated to assistants (\"One of my assistants or anyone else... can reproduce the design as well as I could\").",
+      "url": "https://www.warhol.org/lessons/silkscreen-printing/underpainting-and-photographic-silkscreen-printing/"
+    },
+    {
+      "id": "src_warhol_museum_time_capsules",
+      "kind": "institution",
+      "title": "\"Time Capsules,\" The Andy Warhol Museum -- independent institutional archive record of the Time Capsules project: over 610 cardboard boxes filled with ephemera, sealed and dated, running from 1974 until his 1987 death, originating from moving-day boxes he repurposed into an ongoing archival system.",
+      "url": "https://www.warhol.org/time-capsules/"
+    },
+    {
+      "id": "src_colacello_interview_magazine",
+      "kind": "press",
+      "title": "Bob Colacello on \"Holy Terror: Andy Warhol Close Up,\" Interview magazine -- genuinely independent, non-self, firsthand behavioral account: Colacello was Interview magazine's editor and worked directly alongside Warhol for roughly 12 years (starting 1970), and this piece carries his own specific, named observations (Pat Hackett's transcription process, Warhol's business/social speech patterns, and Colacello's own attribution of Warhol's apparent coldness to \"fear of emotions and intimacy\").",
+      "url": "https://www.interviewmagazine.com/culture/bob-colacello-holy-terror"
+    },
+    {
+      "id": "src_frye_phonographers",
+      "kind": "archive",
+      "title": "Brian L. Frye, \"Three Great Phonographers: Warhol, Nixon, and Kaufman,\" INCITE -- independent scholarly essay, opened and read in full, documenting Warhol's tape-recording practice: began in the mid-1960s, roughly 4,000 hours total by his 1987 death, the 1965-1967 Ondine sessions transcribed by four named typists (including Maureen Tucker and Susan Pile) over ~18 months into the 1968 novel \"a\", and a contemporaneous 1970 Vogue observation (\"Warhol records everything... his latest self-protection device\") -- citing Scherman & Dalton's independent biography as a primary source, not Warhol's own account.",
+      "url": "https://incite-online.net/frye6.html"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independently-sourced, dated, sustained practices, not a single anecdote: The Andy Warhol Museum's own account records him as sole illustrator producing new weekly shoe drawings for I. Miller & Sons' New York Times ads for nearly five straight years (March 1955-December 1959); the Museum's own Time Capsules record documents him sealing and dating a new archival box on a running basis for 13 years (610+ boxes, 1974-1987); and Frye's scholarly essay (citing Scherman & Dalton's independent biography and a contemporaneous 1970 Vogue observation -- \"Warhol records everything\") documents continuous tape-recording from the mid-1960s to his 1987 death, roughly 4,000 hours total. Each fact is itself a concrete documented instance of systematic, sustained production, corroborated across two genuinely independent perspectives (the Warhol Museum institutionally, and Frye/Scherman & Dalton/Vogue as a separate scholarly-plus-contemporaneous-press line)."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The pattern of unbroken continuation, not any single fact, is the inference here: the tape-recording practice (Frye, citing Scherman & Dalton) continued for roughly two decades straight through his career's shift from Factory-era filmmaking to 1970s-80s magazine publishing and commissioned portraiture, and the Time Capsules (Warhol Museum) show the same unbroken 13-year continuation with no documented gap. Two independently-documented continuity facts, each spanning a genuinely different, independently-verified career phase, converge on sustained follow-through rather than a single episode."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Four genuinely distinct professional domains, each independently corroborated by a different institutional/press/scholarly source rather than one narrator's characterization: commercial magazine/advertising illustration (Warhol Museum's \"Adman\" account, the I. Miller campaign); fine-art silkscreen production management (Warhol Museum's own silkscreen-process account); magazine founding and editorial direction (Colacello's independent, firsthand Interview account); and sustained audio-documentation work underlying a published novel, run in parallel with Factory filmmaking (Frye's essay on the \"a\" tape-transcription project). Four independently-verifiable facts comfortably clears the corpus-wide strong_inference bar of two or more distinct, independently-sourced instances."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two independent facts converge: the Warhol Museum's own silkscreen-process account documents him sending precise specifications to outside commercial screen-makers and personally completing only the underpainting -- retaining conceptual/creative authorship while delegating craft execution, a deliberate choice about exactly where he needed control. Independently, Bob Colacello -- Interview's editor for 12 years, a non-self source -- describes Warhol personally driving the magazine's direction and expansion (\"expanding his shaky empire\"), building and running his own publishing venture rather than working inside an existing institution. Neither fact alone would justify strong_inference; together they meet the two-distinct-fact bar."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Genuinely mixed evidence, not averaged to a false middle: the documented Factory production model depended on a rotating team of named assistants and collaborators simultaneously executing silkscreens and filming Screen Tests -- real, sustained day-to-day collaborative production. But Bob Colacello, a colleague for 12 years, directly attributes what read to others as Warhol's \"meanness or coldness\" to a \"fear of emotions and intimacy\" -- a specific, named, non-self characterization of guardedness toward the same people he worked alongside daily. A single firsthand source's characterization (not one dated incident) caps this at inference-level confidence; scored dual_edged rather than resolved to one side, per the rubric's guidance on genuinely conflicting documented evidence."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Andy Warhol Museum's own account of the Time Capsules' origin documents one specific, concrete improvisation: a studio move left him with ordinary cardboard boxes, which he recognized as \"an efficient method for dealing with all of his stuff\" and repurposed into a running 13-year, 610-box archive rather than adopting any conventional filing system. One institutionally-documented originating incident, not corroborated by a second independent source -- scored in the moderate lean band per the rubric's single-anecdote ceiling (Section 4), not treated as a defining trait."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/andy-warhol-1980.jpg",
+    "width": 1101,
+    "height": 1600,
+    "source": "Library of Congress (Bernard Gotfryd photograph collection), via Wikimedia Commons",
+    "license": "Public Domain (no known copyright restrictions)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_at_the_Jewish_Museum_(by_Bernard_Gotfryd)_%E2%80%93_LOC.jpg",
+    "attribution": "Bernard Gotfryd, 1980",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_at_the_Jewish_Museum_(by_Bernard_Gotfryd)_%E2%80%93_LOC.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 candidate (2026-09-16): arts_culture pick, dual artist/film_director role (Pop Art silkscreen production plus experimental Factory filmmaking). Wikidata QID Q5603 supplied pre-verified per task brief; not independently re-checked this session. Deliberately scored from documented BEHAVIOR/working method only, never from fame, market value, or critical/art-historical acclaim -- explicitly avoided MoMA's curatorial framing of the silkscreen technique's art-historical significance (source access blocked, HTTP 403 on both the magazine article and the collection pages, and the PDF retrospective brochure was unparseable binary; abandoned rather than substituted with a weaker paraphrase) and avoided scoring 'independent_thinking' from art-historical reinterpretation-of-authorship claims, which would have crossed into achievement/reception-based inference rather than documented personal behavior. Zero self-testimony sources used as scored evidence -- 'The Philosophy of Andy Warhol' and the Diaries were deliberately not opened for this pass, consistent with the brief's warning that Warhol was a famously unreliable, performative interviewee; every scored row instead rests on institutional (Andy Warhol Museum, 3 separate pages), press (Bob Colacello's firsthand Interview magazine account, Colacello was Interview's editor for ~12 years starting 1970), or independent scholarly (Brian Frye's essay, citing Scherman & Dalton's biography and a contemporaneous 1970 Vogue observation) sources -- 3 genuinely independent provenance perspectives, exceeding the >=2-perspective / >=1-non-self-behavioral floor. No health/death-based trait inference: his 1968 shooting and 1987 death from gallbladder-surgery complications are noted in Wikipedia orientation only and were not used to support any row (the persistence row deliberately cites career-phase changes, not the shooting, as the continuity marker). 6 rows scored (discipline, persistence, cross_domain_range, autonomy_need, collaboration, resourcefulness) -- deliberately not padded to a higher count; several plausible additional attributes (planning_orientation, experimentation, independent_thinking, detail_orientation) were considered and dropped after review found the available evidence either redundant with an already-scored row, resting on blocked/unverifiable sources (MoMA), or not squarely on-point (Time Capsules' indiscriminate hoarding argues comprehensiveness, not precision, so detail_orientation was not scored). collaboration scored dual_edged from genuinely conflicting evidence (sustained team production vs. Colacello's 'fear of emotions and intimacy' characterization) per rubric Section 5, not averaged to a false middle. Portrait: Wikimedia Commons Category:Andy_Warhol surveyed for photographs of Warhol himself (not his artworks); a Jack Mitchell 1973 photo was found but is CC-BY-SA-4.0 at only 598x480px (too low-resolution to be useful even if license-clear); the Bernard Gotfryd 1980 Library of Congress photo (via Flickr Commons) was verified live via the Commons API (imageinfo/extmetadata: License 'pd', Copyrighted 'False', categories 'Library of Congress-no known copyright restrictions' and 'PD-Gotfryd') at full resolution 3224x4686, downloaded, and resized to 1101x1600 (1600px longest side) via PIL -- verified on disk before write. Publication decision (evidence_approved) made on evidence quality alone, before any eligibility computation, per Section 10's scoring/eligibility separation policy; computedEligibility intentionally not attached by this research pass."
+  },
+  "localization": {}
+}

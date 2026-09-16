@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "walt-disney",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Walt Disney",
+    "wikidataId": "Q8704",
+    "birthYear": 1901,
+    "deathYear": 1966,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "animator",
+      "film_director"
+    ],
+    "fieldIds": [
+      "business",
+      "film"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_disney_wikipedia",
+      "kind": "wikipedia",
+      "title": "Walt Disney -- used for orientation only, never cited as scored evidence",
+      "url": "https://en.wikipedia.org/wiki/Walt_Disney"
+    },
+    {
+      "id": "src_disney_animationguild_1941",
+      "kind": "institution",
+      "title": "\"The Disney Strike, 1941,\" The Animation Guild (IATSE Local 839) -- the union's own historical account, opened and read in full: causes (unfulfilled Snow White profit-sharing promises, lawyer Gunther Lessing's hard line), Disney's firing of his highest-paid animator Art Babbitt after Babbitt joined the Guild, Disney leaving on a Latin American tour rather than negotiate, and the federal mediator's ruling against the studio on every issue.",
+      "url": "https://animationguild.org/about-the-guild/disney-strike-1941/"
+    },
+    {
+      "id": "src_disney_awn_1941strike",
+      "kind": "press",
+      "title": "\"The Disney Strike of 1941: How It Changed Animation & Comics,\" Animation World Network -- independent trade-press account, opened and read in full, citing Bob Thomas's authorized biography, Michael Barrier's \"Hollywood Cartoons,\" Tom Sito's \"Drawing the Line,\" and Jake S. Friedman's \"The Disney Revolt\"; documents Disney's 1941 all-staff address, the firing of Babbitt and 16 others, a reported attempt to physically confront Babbitt on the picket line, magazine ads blaming \"Communistic agitation,\" his later HUAC testimony, and his 1956 remark that the strike \"cleaned house.\"",
+      "url": "https://www.awn.com/animationworld/disney-strike-1941-how-it-changed-animation-comics"
+    },
+    {
+      "id": "src_disney_popmatters_gabler",
+      "kind": "press",
+      "title": "\"Neal Gabler's Biography on Walt Disney the Rascal,\" PopMatters -- an independent review of Neal Gabler's archive-based biography \"Walt Disney: The Triumph of the American Imagination\" (2006, the first book given full access to the Disney company archives), opened and read in full for its specific documented claims (studio culture, ego, credit-taking, postwar strategic shift).",
+      "url": "https://www.popmatters.com/walt-disney-imagination-neal-gabler"
+    },
+    {
+      "id": "src_disney_cartoonresearch_kimball",
+      "kind": "press",
+      "title": "\"In His Own Words: Ward Kimball Tells Some Disney Stories,\" Cartoon Research (animation-history trade site) -- animator Ward Kimball's own first-person reminiscences of working for and knowing Disney personally, opened and read in full; non-self, behavioral, independent of Disney's own testimony.",
+      "url": "https://cartoonresearch.com/index.php/in-his-own-words-ward-kimball-tells-some-disney-stories/"
+    },
+    {
+      "id": "src_disney_lrb_greif",
+      "kind": "press",
+      "title": "Mark Greif, \"Tinkering: Walt Disney,\" London Review of Books, vol. 29 no. 11 (2007) -- a serious critical essay opened and read in full, synthesizing and quoting Neal Gabler's and Michael Barrier's (\"The Animated Man\") biographies, with named-animator testimony (Ken Anderson, Dick Huemer, Marc Davis) and Tom Sito's labor history. Independent of Disney's own testimony.",
+      "url": "https://www.lrb.co.uk/the-paper/v29/n11/mark-greif/tinkering"
+    },
+    {
+      "id": "src_disney_waltdisneyorg_snowwhite",
+      "kind": "institution",
+      "title": "\"80 Years Later -- The Legacy of Walt Disney's Snow White and the Seven Dwarfs,\" The Walt Disney Family Museum (independent nonprofit museum, not the Walt Disney Company) -- opened and read in full for its documented account of the 1934 story-performance and Snow White's production standards.",
+      "url": "https://www.waltdisney.org/blog/snow-white-and-seven-dwarfs-characters"
+    },
+    {
+      "id": "src_disney_werehistory",
+      "kind": "press",
+      "title": "Michael Todd Landis (Assistant Professor of History, Tarleton State University), \"Disneyland's 60th Anniversary: July 17, 1955,\" We're History (academic-historian-written history site) -- opened and read in full for its documented account of Disneyland's financing, Roy Disney's and industry skepticism, WED Enterprises, and the \"Black Sunday\" opening-day recovery.",
+      "url": "https://werehistory.org/disneyland/"
+    },
+    {
+      "id": "src_disney_mackinac",
+      "kind": "institution",
+      "title": "Monica J. Rubingh, \"Founding Disneyland: An Entrepreneurial Milestone,\" Mackinac Center for Public Policy, July 17, 2005 -- opened and read in full for its documented account of amusement-industry and banker skepticism, Disney's personal financial commitment, and the opening-day recovery.",
+      "url": "https://www.mackinac.org/7164"
+    },
+    {
+      "id": "src_disney_commercebank",
+      "kind": "institution",
+      "title": "\"The story of the loan that helped build Disneyland,\" Commerce Bank -- the lending institution's own documented account (quoting auction-house-verified loan paperwork) of Walt and Lillian Disney's $60,000 life-insurance loan, opened and read in full; corroborating, not sole-basis, evidence.",
+      "url": "https://www.commercebank.com/personal/ideas-and-tips/2021/the-story-of-the-loan-that-helped-build-disneyland"
+    },
+    {
+      "id": "src_disney_newsgazette",
+      "kind": "press",
+      "title": "J. Mark Powell, \"Holy Cow History: The hat-in-hand meeting that saved Snow White,\" The News-Gazette (Champaign, IL) -- opened and read in full for its documented account of Disney's rule against showing unfinished work, and the Bank of America/Joseph Rosenberg financing crisis.",
+      "url": "https://www.news-gazette.com/opinion/columns/holy-cow-history-the-hat-in-hand-meeting-that-saved-snow-white/article_a5487e04-fc84-5e67-a078-b7da7389f213.html"
+    },
+    {
+      "id": "src_disney_mouseplanet",
+      "kind": "press",
+      "title": "\"The Disneyland 1953 Sales Pitch,\" MousePlanet (Disney-fan trade press) -- opened and read in full for its documented account of the Herb Ryman weekend concept-map pitch.",
+      "url": "https://mouseplanet.com/the-disneyland-1953-sales-pitch/3003/"
+    },
+    {
+      "id": "src_disney_cinemablend",
+      "kind": "press",
+      "title": "Dirk Libbey, \"The Story Behind 'Disney's Folly' And How Snow White And The Seven Dwarfs Nearly Destroyed The Studio,\" CinemaBlend, Oct 15, 2023 -- opened and read in full for its documented account of the Snow White budget crisis and industry skepticism.",
+      "url": "https://www.cinemablend.com/movies/disneys-folly-snow-white-and-the-seven-dwarfs-nearly-destroyed-studio"
+    },
+    {
+      "id": "src_disney_financeyahoo",
+      "kind": "press",
+      "title": "\"The way Walt Disney inspired his team to make 'Snow White' reveals his creative genius -- and insane perfectionism,\" Yahoo/Finance Yahoo -- opened and read in full for its documented account, drawn from Neal Gabler's biography, of Disney bringing live actors and animals in for animators to study from.",
+      "url": "https://finance.yahoo.com/news/way-walt-disney-inspired-team-143500083.html"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Longtime animator Ward Kimball's own account describes a decades-long pattern: \"He was always interested in experiments, always interested in science... always interested in the 'new' thing\" (Cartoon Research). Corroborated by a distinct, independently documented fact -- after 1941 Disney took up model-train building and personally learned machinist skills purely as a new personal pursuit (LRB, citing Michael Barrier) -- two independent converging facts, not one anecdote stretched."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two separate, independently documented instances of overriding expert/industry consensus: pursuing a feature-length animated film the industry dubbed \"Disney's Folly\" and expected to fail (News-Gazette; CinemaBlend), and pursuing a theme park when \"advised by other amusement park officers that the park was doomed to failure\" and his own brother Roy refused studio financing (Mackinac Center; werehistory.org)."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Personally originated and performed the entire Snow White story alone on a darkened soundstage for his staff, voicing and physically acting every character with no script -- art director Ken Anderson: \"He was all by himself and he acted out this fantastic story\" (Walt Disney Family Museum); one animator recalled \"that one performance lasted us three years\" (LRB). Corroborated by originating the fully immersive theme-park format and the \"Imagineer\" concept, neither of which existed before (werehistory.org)."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally championed the technically unproven multiplane camera system for Snow White despite its cost (Walt Disney Family Museum), and later paired a physical theme park with the still-new medium of network television as a financing/promotional vehicle -- a cross-media pairing no studio had attempted (werehistory.org; Mackinac Center). Two distinct instances of betting on an unproven approach over an established one."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained, substantive work across animation, live-action film and network television production after WWII (PopMatters, reviewing Neal Gabler's biography), themed physical-space design via WED Enterprises (werehistory.org), and hands-on machinist/model-railroad work as a serious personal pursuit (LRB, citing Michael Barrier) -- four independently documented, genuinely distinct fields, not dabbling."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At Disneyland, personally tested ride durations and sightlines and had trees relocated for effect, keeping a personal apartment overlooking Main Street specifically to observe operations at close range (LRB, citing Michael Barrier). On Snow White, required animators to work from specific live-action reference footage of actors and real animals rather than approve stylized shortcuts (Gabler's biography, as reported by Finance Yahoo)."
+    },
+    "perfectionism": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Held to a stated personal rule that \"he never let anyone see his work until the finished product was polished and ready for the public,\" broken only once, reluctantly, to secure Snow White's completion loan (News-Gazette). Per Michael Barrier's research (cited in LRB), animators were \"fired or forced to leave according to Walt's changing standards, foul moods and caprices\" -- the same standard that drove quality also drove real staff turnover, hence dual_edged rather than pure advantage."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued financing Snow White after its budget nearly tripled, with completion coming down to a single silent banker's reaction to a rough, unfinished screening (News-Gazette). After Disneyland's chaotic opening-day failures (counterfeit tickets, broken rides, soft asphalt, food shortages), \"fixed the problems and continued to plan and build better attractions\" rather than retreat -- independently corroborated by both Mackinac Center and werehistory.org."
+    },
+    "risk_tolerance": {
+      "score": 88,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Mortgaged his house, sold his car and borrowed against his life insurance to keep Snow White in production once its budget exploded toward $1.5 million (CinemaBlend; corroborated by News-Gazette's independent account of the $250,000 shortfall). Years later, again cashed in his life insurance and sold his family home after banks rejected Disneyland's financing for offering \"too little collateral\" and Roy refused studio funds (werehistory.org; Mackinac Center; Commerce Bank's own record of the $60,000 life-insurance loan with Lillian Disney as co-borrower). Two large, independently documented, personally-staked bets -- a defining pattern -- but genuinely dual_edged: each time he put his family's actual financial security on the line."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "After WWII left animation \"earning him few steady profits,\" redirected the studio's center of gravity toward theme parks and live-action film (PopMatters, reviewing Gabler). When traditional financiers refused Disneyland funding outright, restructured the entire funding model around network television rather than abandoning the project (werehistory.org; Mackinac Center) -- two distinct, independently documented pivots."
+    },
+    "social_assertiveness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Called staff together and, alone on a darkened soundstage with no script, held the floor performing the entire Snow White narrative himself for roughly three hours -- independently corroborated by the Walt Disney Family Museum (quoting Ken Anderson) and LRB (citing an animator's own recollection). A single vivid incident, so capped below the 85+ band despite strong corroboration."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Genuinely contradictory evidence, so confidence is held down rather than a side picked: for over a decade his work depended on the same close circle of animators through structured story-meeting collaboration -- Marc Davis: \"It wasn't that you had to do these things -- you wanted to do them\" (LRB, citing Barrier) -- yet the same research documents Disney taking outsized personal credit (\"told his artists that their job was to make him look good,\" per Gabler/PopMatters) and, after 1941, showing staff \"his business side\" rather than remaining \"the fellow artist\" they expected (LRB, citing Sito)."
+    },
+    "leadership_drive": {
+      "score": 85,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "By the 1930s, per Gabler's archive-based biography (PopMatters), the studio \"operated like a cult, with a messianic figure inspiring... devoted, sometimes frenzied acolytes,\" with Disney personally directing story meetings, screenings and final creative approval rather than delegating. He later built WED Enterprises specifically to keep Disneyland's direction under his own personal control outside the ordinary studio structure (werehistory.org). Dual_edged: the same concentration of direction drove the achievements and, documented separately under conflict_tolerance, the 1941 rupture with staff."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "Mixed, audience-dependent record, scored to the more specific documented case rather than averaged: effective with his own staff (the solo Snow White performance is credited by name with aligning animators behind an unproven format -- Walt Disney Family Museum; LRB), but ineffective with financiers, who refused outright and had to be routed around entirely via the ABC deal rather than persuaded directly (werehistory.org; Mackinac Center). Confidence held low given this genuine, unresolved split in effectiveness by audience."
+    },
+    "conflict_tolerance": {
+      "score": 85,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "During the 1941 strike, fired Art Babbitt and sixteen other unionized staff, ran magazine ads blaming \"Communistic agitation\" rather than negotiate, and later testified before HUAC blaming Communism for the walkout, still calling it in 1956 something that \"cleaned house\" (Animation Guild; AWN, independently corroborating and citing Michael Barrier, Tom Sito and Jake Friedman's labor histories). Separately, a political rift with longtime animator Ward Kimball over a campaign-donation request Kimball \"vehemently refused\" reportedly lasted until Disney excluded Kimball from his final deathbed instructions to staff (Cartoon Research, Kimball's own account) -- two independent, long-running conflicts, not one incident."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Formed WED Enterprises specifically to keep Disneyland's design and direction under his own personal control rather than inside the studio's ordinary corporate structure (werehistory.org). Twice chose to personally mortgage his own assets (for Snow White and again for Disneyland) rather than accept outside creative control as a condition of financing (News-Gazette; Mackinac Center)."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Recognized television, a medium most film studios treated warily as competition, as a financing and promotional vehicle for a physical theme park before this kind of cross-media pairing was an obvious move -- striking the ABC \"Disneyland\" series deal specifically to unlock construction capital after traditional lenders refused (werehistory.org; Mackinac Center)."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "When verbal pitches failed to move \"tight-fisted, practical money men,\" called in artist Herb Ryman on a Saturday morning and worked through the entire weekend to produce a full concept rendering and an eight-page proposal from nothing, ready for Roy to present in New York by Monday morning (MousePlanet) -- improvising a concrete, working pitch artifact under a hard deadline with no existing park to show."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/walt-disney-1938.jpg",
+    "width": 1314,
+    "height": 1543,
+    "source": "Library of Congress, New York World-Telegram and the Sun Newspaper Photograph Collection, via Wikimedia Commons",
+    "license": "Public Domain (NYWTS collection, no known copyright restrictions)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_NYWTS.jpg",
+    "attribution": "Alan Fisher, New York World-Telegram and the Sun, 1938",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_NYWTS.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 pick: entrepreneurial_builder/creative_creator dual archetype (business + film), building_discovery/arts_culture dual profession category. Wikidata QID (Q8704) pre-verified, used as given, not re-checked. Identity/classification fields (occupations, fields, impact domains, archetypes) used exactly as specified in the research brief, all confirmed to be existing i18n keys before use. 18 rows scored, each traced to a specific documented action/decision/quote, not to fame, box-office, or awards (none of which were used as evidence for any row). Evidence bar: 13 substantive non-Wikipedia sources actually opened and read in full (listed above), spanning institutional accounts (Animation Guild, Walt Disney Family Museum, Mackinac Center, Commerce Bank) and independent press/critical accounts (AWN, PopMatters, Cartoon Research, LRB, werehistory.org, News-Gazette, MousePlanet, CinemaBlend, Finance Yahoo) -- well over the >=2-independent-perspective bar. Non-self behavioral qualifying sources (Disney's own words are the minority of what's cited here, not the basis): the Animation Guild's and AWN's independent accounts of the 1941 strike (citing labor historians Michael Barrier, Tom Sito, Jake Friedman); Ward Kimball's own first-person reminiscences of Disney (Cartoon Research), a colleague writing independently, in the same spirit as Thomas/Johnston's 'Illusion of Life'; and LRB's Mark Greif synthesizing Michael Barrier's 'The Animated Man' research with named-animator testimony (Ken Anderson, Dick Huemer, Marc Davis). LIMITATION, stated honestly: could not obtain direct full-text access to Neal Gabler's 'Walt Disney: The Triumph of the American Imagination' or Thomas/Johnston's 'The Illusion of Life' -- the Internet Archive copies of both are lending-restricted (no borrowable full text available in this environment, confirmed by attempting the Archive.org search-inside API, which returned no accessible index for the Gabler item) and no library access was available. Rather than fabricate direct quotations from either book, every claim sourced to Gabler's or Barrier's research is explicitly attributed through a secondary account that itself quotes/closely paraphrases the original with clear attribution (PopMatters and Finance Yahoo for Gabler; LRB and Cartoon Research's animator-derived material for Barrier/animator testimony) -- these secondary accounts, not the books themselves, are what is listed in `sources` and what was actually opened and read. A future reviewer with direct library/archive access to either book could likely both corroborate and deepen this profile further. Deceased 1966 -- no health/smoking-related inference used anywhere. Publication decision (evidence_approved) frozen before any eligibility computation, per scoring-rubric-v1 section 10; 18 rows / avg confidence ~0.63 is a byproduct of the evidence actually found, not a target -- several genuinely evidenced traits (e.g. resourcefulness, opportunity_sensing) were nearly left unscored and were included only once a second, independently-read, on-point source was actually found and opened (Ryman/MousePlanet pitch episode), not to pad toward any threshold."
+  },
+  "localization": {}
+}

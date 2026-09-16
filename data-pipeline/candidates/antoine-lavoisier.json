@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "antoine-lavoisier",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Antoine Lavoisier",
+    "wikidataId": "Q39607",
+    "birthYear": 1743,
+    "deathYear": 1794,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_lavoisier_wikipedia",
+      "kind": "wikipedia",
+      "title": "Antoine Lavoisier -- orientation only, not used as scored evidence for any row",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Lavoisier"
+    },
+    {
+      "id": "src_lavoisier_shi_instruments",
+      "kind": "institution",
+      "title": "\"Revolutionary Instruments: Lavoisier's Tools as Objets d'Art,\" Science History Institute (sciencehistory.org) -- independent institutional account, opened and read in full, describing his measurement practice (weighing gases in glass balloons \"with the most scrupulous exactitude,\" applying corrections for temperature, pressure, and incomplete evacuation) and his stated dual-proof standard (never satisfied without both analytic and synthetic proof of a result); also documents Marie-Anne Paulze Lavoisier's role illustrating ~170 pieces of lab equipment, finely drawn to scale, for the Traite.",
+      "url": "https://www.sciencehistory.org/stories/magazine/revolutionary-instruments-lavoisiers-tools-as-objets-dart/"
+    },
+    {
+      "id": "src_lavoisier_shi_biography",
+      "kind": "institution",
+      "title": "\"Antoine-Laurent Lavoisier,\" Science History Institute scientific biography (sciencehistory.org/education) -- independent institutional account, opened and read in full, describing his balance-sheet/conservation-of-mass method (\"carefully weigh all components in a chemical reaction, including the gasses\"), the specific episode of repeating Priestley's isolation of \"vital air\" and reinterpreting the result against phlogiston theory (oxygen combining with a metal to increase its mass, rather than phlogiston being lost), his Arsenal laboratory's organized, industrial-scale character, and the deliberate theory-laden design of the reformed chemical nomenclature.",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/antoine-laurent-lavoisier/"
+    },
+    {
+      "id": "src_lavoisier_chemistryworld_paulze",
+      "kind": "press",
+      "title": "\"Marie-Anne Paulze Lavoisier: the invisible assistant,\" Chemistry World -- independent press account, opened and read in full, non-self and behavioral: quotes historian Patricia Fara (\"Her handwriting was all over the laboratory notebooks\"; she was \"ordering in stock, writing out the results of the experiments\"), documents Marie-Anne's translation of Kirwan's phlogiston essay with a critical preface, and documents the couple hosting structured recurring scientific gatherings (\"Each Saturday devoted to science\") at the Arsenal -- describing how the Lavoisier laboratory actually operated, not Lavoisier's own self-testimony.",
+      "url": "https://www.chemistryworld.com/culture/marie-anne-paulze-lavoisier-the-invisible-assistant/4014701.article"
+    },
+    {
+      "id": "src_lavoisier_ebsco_nomenclature",
+      "kind": "press",
+      "title": "\"Lavoisier's Modern System of Chemical Nomenclature,\" EBSCO Research Starters -- independent reference account, opened and read in full, non-self and behavioral: documents that Lavoisier, Guyton de Morveau, Berthollet, and Fourcroy \"met almost daily\" from 1786 through 1787 to reform chemical nomenclature, \"collected information, consulted with other scientists, and read extensively\" (including Condillac's La Logique), culminating in an April 17, 1787 paper read before the Academy of Sciences and the joint book Methode de nomenclature chimique.",
+      "url": "https://www.ebsco.com/research-starters/history/lavoisiers-modern-system-chemical-nomenclature"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 90,
+      "confidence": 0.8,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent Science History Institute accounts document a specific, sustained quantitative standard: weighing every component of a reaction, including gases, \"with the most scrupulous exactitude,\" applying explicit corrections for temperature, pressure, and incomplete evacuation, and refusing to accept a result without BOTH analytic and synthetic proof (e.g. demonstrating water could be both decomposed into and resynthesized from hydrogen and oxygen). This is his documented working method, not his reputation as \"father of chemistry.\""
+    },
+    "belief_updating": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Science History Institute's biography documents a specific episode: Lavoisier repeated Priestley's own experiment isolating what Priestley called \"dephlogisticated air,\" and his own mass measurements (a burned metal gaining rather than losing mass) led him to reinterpret the result against the field's prevailing phlogiston theory, proposing oxygen combination instead. A documented instance of revising a working theory because his own measurements contradicted it -- one specific episode, so capped below the 85+ band per the rubric's single-episode rule rather than treated as an all-encompassing defining trait."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same Science History Institute account documents explicit correction for multiple specific error sources (temperature, pressure, incomplete evacuation) in every measurement, and Marie-Anne Lavoisier's ~170 lab-equipment illustrations \"finely drawn to scale\" reflect the exactness standard the lab operated under. Confidence held at the lower end of its band since this shares its evidentiary base with analytical_rigor above rather than resting on fully separate facts."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The documented \"balance sheet\" practice -- weighing all inputs and outputs of a reaction, including gases, so that total mass in a closed system must be accounted for -- is a specific modeling choice (reaction-as-conserved-system), not merely careful measurement. Scored strong_inference rather than documented because no source directly frames this as \"systems thinking\"; that reading is one interpretive step beyond the directly quoted measurement practice."
+    },
+    "collaboration": {
+      "score": 84,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, non-self sources document sustained structured collaboration on two separate projects: Chemistry World (citing historian Patricia Fara) documents Marie-Anne Paulze Lavoisier's ongoing lab role -- notebook entries, translating Kirwan's phlogiston essay with her own critical preface, hosting recurring Saturday science gatherings -- and EBSCO's account documents Lavoisier, Guyton de Morveau, Berthollet, and Fourcroy meeting almost daily for over a year (1786-1787) to jointly research and co-author the nomenclature reform. Two independently sourced, multi-year documented collaborative patterns support the higher end of the documented band."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "EBSCO documents the nomenclature-reform team meeting almost daily for over a year, systematically collecting information and consulting other scientists before their April 1787 Academy presentation -- a sustained, structured multi-year effort. Scored strong_inference rather than documented since sustained near-daily meeting cadence over a year is here read as evidence of self-regulated discipline, one inferential step beyond the directly documented meeting facts themselves."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/antoine-lavoisier-david-1788.jpg",
+    "width": 1200,
+    "height": 1600,
+    "source": "Metropolitan Museum of Art (accession 1977.10), via Wikimedia Commons",
+    "license": "Public Domain (PD-old-100-expired / PD-Art)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:David_-_Portrait_of_Monsieur_Lavoisier_and_His_Wife.jpg",
+    "attribution": "Jacques-Louis David, 1788",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:David_-_Portrait_of_Monsieur_Lavoisier_and_His_Wife.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 research pass. Wikidata QID Q39607 supplied pre-verified; not re-verified live in this session. 5 sources: Wikipedia (orientation only, not scored), two independent Science History Institute pages (institutional, read in full), Chemistry World (press, quoting historian Patricia Fara -- non-self, behavioral), and EBSCO Research Starters (press/reference, non-self, behavioral) -- exceeds the >=2 independent-perspective / >=1 non-self-behavioral bar; notably NEITHER qualifying non-self source is Lavoisier's own writing at all (unlike the Hitchcock/Truffaut precedent, which needed a later correction pass to add a non-self source). 6 rows scored, each traced to a specific documented episode or practice quoted/paraphrased in the sources above -- not from his fame as 'father of modern chemistry,' which is an achievement fact, never scored per the rubric. No trait was scored from, or inferred from, his 1794 execution or his role in the Ferme Generale tax-farming syndicate -- those are noted here only as biographical/political context: he was convicted and guillotined during the Reign of Terror over his pre-revolutionary tax-farming role, a political/economic circumstance of his death entirely distinct from his scientific working method, which is what this profile scores. Portrait: Jacques-Louis David's 1788 double portrait of Lavoisier and his wife/lab collaborator Marie-Anne Paulze Lavoisier (Metropolitan Museum of Art, accession 1977.10), verified public domain (PD-old-100-expired) via the Wikimedia Commons imageinfo API against the exact file used. Shipped as the full, uncropped double portrait rather than cropped to Lavoisier alone -- an honest choice given Marie-Anne's independently documented role as his lab collaborator/illustrator/translator, and consistent with the time-box instruction to avoid iterative crop experimentation. Downloaded full-resolution (4390x5852) via curl, resized to 1600px longest side via PIL to public/portraits/antoine-lavoisier-david-1788.jpg (1200x1600, ~197KB); raw temp file deleted after resize, no stray files left in repo root. Korean display name suggestion reported separately, per task instruction, rather than written into this file's localization block."
+  },
+  "localization": {}
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sally-ride",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sally Ride",
+    "wikidataId": "Q49285",
+    "birthYear": 1951,
+    "deathYear": 2012,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "physicist"
+    ],
+    "fieldIds": [
+      "exploration",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ride_wikipedia",
+      "kind": "wikipedia",
+      "title": "Sally Ride",
+      "url": "https://en.wikipedia.org/wiki/Sally_Ride"
+    },
+    {
+      "id": "src_ride_nasa_oral_history_self",
+      "kind": "archive",
+      "title": "Sally K. Ride, NASA Johnson Space Center Oral History Project, interviewed by Rebecca Wright (assisted by Sandra Johnson and Jennifer Ross-Nazzal), San Diego/San Antonio, 22 Oct 2002 and 6 Dec 2002 -- self-testimony, opened and read in full via Internet Archive Wayback Machine capture (the JSC History Portal's original hosting was decommissioned and now 301-redirects; content verified as the genuine archived NASA oral-history transcript, not a reconstruction). Covers her account of answering the 1977 Stanford student-newspaper NASA recruitment ad, astronaut training/mission conduct, the STS-7 personal-hygiene-kit planning exchange, her departure from Space.com to found Imaginary Lines/Sally Ride Science, and her NASA Headquarters strategic-planning role.",
+      "url": "https://web.archive.org/web/2020id_/https://historycollection.jsc.nasa.gov/JSCHistoryPortal/history/oral_histories/RideSK/RideSK_10-22-02.htm"
+    },
+    {
+      "id": "src_sullivan_nasa_oral_history",
+      "kind": "archive",
+      "title": "Kathryn D. Sullivan (NASA astronaut, STS-41-G crewmate of Ride), NASA Johnson Space Center Oral History Project, interviewed by Jennifer Ross-Nazzal / Rebecca Wright, 11 Sep 2007 and 12 Mar 2008 -- independent, non-self, named-colleague account, downloaded directly from nasa.gov and read in full via pdftotext extraction. Describes specific, concrete incidents: Ride functioning as a 'continuity link' and 'stable point' for rookie crewmates (including Sullivan) during STS-41-G training, being 'indispensable' helping crewmates learn simulator/hardware interfaces, being 'already a skilled RMS operator' by her second flight, and chairing NASA's internal 1987 'Ride Report' (Leadership and America's Future in Space) where she 'sounded a much stronger note' on an Earth-science strategic emphasis that 'paid some real dividends.' Independent of Ride's own testimony.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2024/11/sullivankd-9-11-07.pdf"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two specific, self-described quick-decision instances, six years apart: reading the 1977 Stanford student-newspaper NASA recruitment ad and, in her own words, 'either that very day or shortly thereafter whipp[ing] off a little handwritten note' requesting the application; and, when NASA engineers asked how many tampons to fly on the STS-7 one-week mission ('Is 100 the right number?'), replying immediately and specifically, 'No. That would not be the right number... you can cut that in half with no problem at all' (src_ride_nasa_oral_history_self). Both are self-testimony from a single source, so capped short of the top confidence band despite being documented, directly-quoted, attributable instances rather than a single anecdote."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-described pattern of acting on an opportunity without being asked: the same unprompted handwritten note after seeing the NASA recruitment ad in 1977, and her own account that during her final months at Space.com she began 'thinking more and more about doing something that was focused more on girls and education,' then 'started talking with my friends and several of us decided to form Imaginary Lines, Inc.' rather than waiting for an existing employer to address it (src_ride_nasa_oral_history_self). Single-source self-testimony; scored from the documented act of initiating, not from the venture's later reputation."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge: Ride's own account of identifying a specific, dated pattern -- 'starting in middle school, [girls] move away from science and math' despite equal earlier interest -- which directly motivated founding Imaginary Lines (src_ride_nasa_oral_history_self); and Kathryn Sullivan's independent oral-history account that Ride chaired the 1987 'Ride Report' and 'sounded a much stronger note than we did on... Mission to Planet Earth, the Earth perspective that space offers, putting a focal point on that, which paid some real dividends' -- a named colleague's account of Ride identifying and pushing a specific strategic direction that diverged from a companion report (src_sullivan_nasa_oral_history). Scored on the identification/decision itself, not the resulting acclaim."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Repeated pattern across three different institutions: chairing NASA's internal strategic-planning 'Ride Report,' independently corroborated by Sullivan's oral history ('Sally chaired that effort for the agency' -- src_sullivan_nasa_oral_history); Ride's own account of a rapid escalation to company president at Space.com ('I joined the Board of Directors right away and was initially the Executive Vice President for Strategic Planning. Shortly thereafter, I became president of the company.'); and founding and running her own company, Imaginary Lines/Sally Ride Science, immediately after (src_ride_nasa_oral_history_self). Scored from the repeated pattern of taking on organization-leading roles, not from any single title's prestige."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kathryn Sullivan's independent, non-self oral-history account describes Ride, on her second flight (STS-41-G), deliberately functioning as 'a continuity link... a stable point' for rookie crewmates including Sullivan, 'help[ing] both Dave and I figure out how do you drive the interface with the simulator and the payload,' and being 'indispensable' in that role -- a specific, named account of sustained supportive/mentoring behavior within a working crew (src_sullivan_nasa_oral_history), not a generic reputation claim. Single independent source, hence not the top confidence band."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two distinct, independent facts converge without a single dramatic 'smoking gun' moment: Ride's own account of spending 'over a year as one of two or three astronauts working on the robot arm' during the Remote Manipulator System's development and testing (src_ride_nasa_oral_history_self); and Sullivan's independent account that 'Sally was already a skilled RMS operator' by her second flight (src_sullivan_nasa_oral_history) -- sustained, demonstrated technical-skill investment in one specific system, corroborated by a named colleague."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Self-described founding rationale for Imaginary Lines/Sally Ride Science: identifying that the STEM engagement gap between girls and boys opens specifically in middle school despite equal earlier interest, and organizing specifically to intervene at that stage, aiming to 'make the world in general, and twelve-year-old girls in particular, aware of the women who are actively involved in science and engineering' (src_ride_nasa_oral_history_self) -- a specific, self-described systemic motivation behind a concrete organizational choice, scored from the stated motivation and the documented act of founding, not from the venture's later prominence. Single-source self-testimony."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sally-ride-1984.jpg",
+    "width": 1280,
+    "height": 1600,
+    "source": "NASA (official STS-7 crew portrait, NASA ID S84-37256), via Wikimedia Commons \"Great Images in NASA\" collection",
+    "license": "Public Domain (NASA work, no known copyright restrictions; Commons extmetadata confirms LicenseShortName \"Public domain\", AttributionRequired: false)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sally_Ride,_First_U.S._Woman_in_Space_-_GPN-2004-00019.jpg",
+    "attribution": "NASA",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sally_Ride,_First_U.S._Woman_in_Space_-_GPN-2004-00019.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 candidate. wikidataId Q49285 verified live against the Wikidata API before scoring (label \"Sally Ride\", confirmed). 3 sources: Wikipedia (orientation only, not cited as scored evidence), Sally Ride's own NASA JSC Oral History Project interviews (self-testimony, book-length, read in full via an Internet Archive Wayback Machine capture after the original JSC History Portal hosting was found to be decommissioned/301-redirected -- content verified as the genuine archived transcript), and Kathryn Sullivan's own independent NASA JSC Oral History Project interviews (named colleague/STS-41-G crewmate, non-self, downloaded directly from nasa.gov and read in full via pdftotext) -- satisfies the >=2 independent provenance perspectives and >=1 substantive non-self behavioral source bar (Sullivan's account, with concrete named incidents, is the qualifying non-self perspective; three of the seven scored rows -- opportunity_sensing, leadership_drive, collaboration, mastery_orientation -- draw directly on it). 7 rows scored: decisiveness, proactive_agency, opportunity_sensing, leadership_drive, collaboration, mastery_orientation, impact_motivation -- each traced to a specific documented behavioral instance or a named colleague's specific account, never to her fame as 'first American woman in space' (used only for identity/orientation, never as trait evidence) and never to her achievements' outcomes standing in for the underlying behavior. Deliberately did NOT score curiosity, risk_tolerance, or social_assertiveness: available sources support only occupational-stereotype-adjacent or single-anecdote-thin signals for those, which the rubric's anti-padding guidance rules out. Her 2012 death (pancreatic cancer) and her private life/orientation (revealed posthumously by her partner Tam O'Shaughnessy) were deliberately excluded from all evidence gathering and scoring per the task brief and this project's standing rule against inferring trait scores from health status or private-life facts -- sources touching on her being a private, media-reticent person (e.g., family/press characterizations of her personal reticence) were located during research but intentionally NOT used for any row, since they characterize private disposition rather than documented professional behavior. Publication decision (evidence_approved) frozen before any eligibility_v2 computation; eligibility was not a target of row selection or count."
+  },
+  "localization": {}
+}
