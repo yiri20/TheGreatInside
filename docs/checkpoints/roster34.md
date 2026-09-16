@@ -196,11 +196,14 @@ match-eligible-114-unchanged check).
 ## Verification
 
 - `tsc --noEmit`: clean.
-- `validateCandidates.ts`: 314 candidates loaded, 0 errors, 0 warnings (by
-  status: `qa_passed` 93, `evidence_approved` 136, `held` 85).
-- `checkScoringLockIntegrity.ts` (post-commit, against the corrected
-  committed HEAD): see exact literal output recorded after the
-  implementation commit below.
+- `validateCandidates.ts`, run POST-COMMIT (implementation commit
+  `9f9d188`): **314 candidates loaded, 0 errors, 0 warnings** (by status:
+  `qa_passed` 93, `evidence_approved` 136, `held` 85). Candidate JSON file
+  count on disk post-commit: 314 (303 base + 11 new Roster34 candidates).
+- `checkScoringLockIntegrity.ts`, run POST-COMMIT against clean committed
+  HEAD: **"Checked 314 previously-committed candidate file(s) against
+  HEAD. 0 flagged."** — agrees exactly with the file count above. Legacy:
+  22 covered, 0 flagged.
 - `vitest run`: **1185/1185 passed**, 64 files (1069 existing + 116 new
   `roster34.test.ts`).
 - `next build --webpack`: succeeded, **526 static/SSG paths** (502 + 12
