@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "neil-armstrong",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Neil Armstrong",
+    "wikidataId": "Q1615",
+    "birthYear": 1930,
+    "deathYear": 2012,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "engineer",
+      "test_pilot"
+    ],
+    "fieldIds": [
+      "exploration",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_armstrong_wikipedia",
+      "kind": "wikipedia",
+      "title": "Neil Armstrong",
+      "url": "https://en.wikipedia.org/wiki/Neil_Armstrong"
+    },
+    {
+      "id": "src_armstrong_hansen",
+      "kind": "biography",
+      "title": "James R. Hansen, First Man: The Life of Neil Armstrong (2005) -- authorized independent biography"
+    },
+    {
+      "id": "src_armstrong_nasa_transcript",
+      "kind": "institution",
+      "title": "NASA's own technical account and mission transcripts of the Apollo 11 lunar descent"
+    },
+    {
+      "id": "src_armstrong_colleagues",
+      "kind": "press",
+      "title": "Direct, named colleague accounts (Michael Collins, Frank Borman, Buzz Aldrin) on Armstrong's working style and temperament"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 88,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "During the Apollo 11 descent, took over manual attitude control at roughly 5,000 feet after computer overload alarms (1201/1202), then made the further, unplanned real-time decision to fly past a boulder-strewn crater at around 600 feet to a safer landing spot, touching down with roughly 25 seconds of fuel remaining -- a specific, dated, high-stakes sequence of real-time judgment calls, per NASA's own mission transcripts and technical account."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Continued the manual landing sequence past the point where an abort was a live option, accepting the fuel-margin risk rather than aborting, per NASA's own account of the descent."
+    },
+    "conflict_tolerance": {
+      "score": 40,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Colleagues, including Michael Collins and Buzz Aldrin, independently describe him as quiet and non-confrontational -- Collins described his relationship with fellow astronauts as \"neutral strangers,\" and Aldrin called him \"reserved\" and someone who avoided saying anything that \"had the potential of being challenged later\" -- a specific, sourced pattern of conflict avoidance, not a general reputation claim."
+    },
+    "social_assertiveness": {
+      "score": 30,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Multiple named colleagues (via Hansen's authorized biography) independently describe him as letting others do the talking in meetings and being \"terse\" and economical in interviews, never wasting an adjective or adverb -- a specific, sourced communication pattern."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Largely withdrew from public life after Apollo 11 to shield his family's privacy, declining to commercially capitalize on his fame -- a specific, sustained, documented choice, not merely an absence of publicity."
+    },
+    "discipline": {
+      "score": 75,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Sustained, methodical training as a test pilot and astronaut, and a well-documented pattern of \"preternaturally calm and deliberate\" thinking and action under pressure, per colleagues who worked with him closely (Hansen's biography)."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His decision to fly past the planned landing zone rather than accept a rockier site reflects independent, real-time judgment overriding the pre-planned trajectory, per NASA's own account."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/neil-armstrong-nasa-1969.jpg",
+    "width": 1280,
+    "height": 1600,
+    "source": "NASA, via Wikimedia Commons",
+    "license": "Public Domain (NASA work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg",
+    "attribution": "NASA, 1969",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): building_discovery priority pick (exploration/engineering). Wikidata QID verified live before scoring. 4 sources: Wikipedia (orientation), James Hansen's authorized independent biography First Man, NASA's own technical/transcript account of the Apollo 11 descent, and multiple named colleague accounts (Collins, Borman, Aldrin) relayed through Hansen's biography and press coverage. 7 rows scored, each traced to a specific dated incident or a repeated, named-source-corroborated behavioral pattern -- not inferred from the fame of the moon landing itself. His later health circumstances (a 2012 post-surgical death) were not used as evidence for any row. Publication decision (evidence_approved) frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

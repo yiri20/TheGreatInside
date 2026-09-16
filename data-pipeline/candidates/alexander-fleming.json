@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alexander-fleming",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alexander Fleming",
+    "wikidataId": "Q37064",
+    "birthYear": 1881,
+    "deathYear": 1955,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_fleming_wikipedia",
+      "kind": "wikipedia",
+      "title": "Alexander Fleming",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+    },
+    {
+      "id": "src_fleming_acs",
+      "kind": "institution",
+      "title": "American Chemical Society, \"Alexander Fleming: Discovery and Development of Penicillin\" (National Historic Chemical Landmark account)",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/flemingpenicillin.html"
+    },
+    {
+      "id": "src_fleming_pmc",
+      "kind": "archive",
+      "title": "\"The Discovery of Penicillin -- New Insights After More Than 75 Years of Clinical Use\" -- PMC (NIH), including his assistant V.D. Allison's independent account"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Upon returning from vacation in September 1928 and noticing a zone of dead bacteria around an accidental fungal contaminant on a culture plate he could easily have discarded, chose instead to investigate the anomaly -- his own later account and his assistant V.D. Allison's independent corroboration both describe this specific, dated moment of pursuing an unplanned observation."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Pursued the observation of bacterial lysis around the Penicillium mold as a substance worth isolating and studying, rather than treating the contaminated plate as a failed experiment to discard, a documented departure from the routine handling of a contaminated culture."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Per his assistant V.D. Allison's independent account, specifically observed that bacteria nearest the mold patch were \"translucent, colorless and dead\" -- a precise, specific observation of the zone of inhibition, not a general noticing of contamination."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alexander-fleming-1945.jpg",
+    "width": 280,
+    "height": 396,
+    "source": "Nobel Foundation, via Wikimedia Commons",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Fleming_1945.jpg",
+    "attribution": "Nobel Foundation, 1945",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Fleming_1945.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): science_knowledge priority pick (medicine), thinly-represented subfield relative to physics/mathematics. Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), the American Chemical Society's institutional historic-landmark account, and a PMC (NIH) journal article including his assistant V.D. Allison's independent corroborating account. Deliberately conservative row count (3): historical sources note Fleming's own laboratory notebooks are sketchy and his later retellings of the discovery are inconsistent with each other, so this cycle scored only what is consistently corroborated across his own account and Allison's independent one, rather than treating an uncertain detail as settled fact. Fleming's own follow-through on developing penicillin into a usable drug was limited -- that work was substantially done a decade later by Howard Florey and Ernst Chain -- so no row here credits Fleming with the drug's full development, only the original 1928 observation and investigation. His Nobel Prize (1945, shared with Florey and Chain) was not used as row evidence (achievement, not behavior). Publication decision (evidence_approved) frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "haruki-murakami",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Haruki Murakami",
+    "wikidataId": "Q134798",
+    "birthYear": 1949,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["JP"],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["writer"],
+    "fieldIds": ["literature"],
+    "impactDomains": ["cultural", "artistic"],
+    "tagIds": [],
+    "archetypeIds": ["creative_creator", "independent_creator"]
+  },
+  "sources": [
+    { "id": "src_murakami_wikipedia", "kind": "wikipedia", "title": "Haruki Murakami", "url": "https://en.wikipedia.org/wiki/Haruki_Murakami" },
+    { "id": "src_murakami_parisreview", "kind": "press", "title": "\"Haruki Murakami, The Art of Fiction No. 182\", The Paris Review (2004) -- his own words, primary" },
+    { "id": "src_murakami_running_memoir", "kind": "biography", "title": "Haruki Murakami, What I Talk About When I Talk About Running (2007) -- his own memoir" }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 92,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own words to The Paris Review: \"When I'm in writing mode for a novel, I get up at four a.m. and work for five to six hours... I keep to this routine every day without variation\" -- a specific, self-described, sustained daily discipline, not an inferred work ethic."
+    },
+    "deep_focus": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own words, described repetition itself as \"a form of mesmerism. I mesmerize myself to reach a deeper state of mind\" as part of his sustained daily writing routine -- a specific, self-described method for achieving concentrated creative focus."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Directly connects his physical training (running one marathon a year, six miles most days, never taking more than two consecutive rest days) to his writing practice in his own words: \"Most of what I know about novel writing, I learned by running every morning on the road\" -- a specific, self-articulated, unconventional theory of his own craft."
+    },
+    "planning_orientation": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Described a fixed, invariant daily schedule -- writing hours, running or swimming, reading, and a 9 p.m. bedtime -- maintained without exception during novel-writing periods, per his own account to The Paris Review."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear photographic portrait of Murakami was identified with confidence during this cycle's bounded portrait search; he is a living, camera-shy public figure with few widely-licensed images. Not promoted to production this cycle pending a dedicated portrait search."
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): arts_culture priority pick (literature), a contemporary/living, internationally-read novelist. Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), his 2004 Paris Review interview (extensive primary first-person testimony), and his own memoir What I Talk About When I Talk About Running. 4 rows scored, all directly quoting his own described routine and working philosophy -- deliberately not scored from his literary acclaim or sales figures (achievement/output, not used as evidence). Evidence review genuinely concluded publication-safe (status: evidence_approved); the sole reason this candidate is NOT in this cycle's promotion allowlist is the unresolved portrait -- checkPromotionReadiness() correctly fails him on that gate alone, not an evidence concern. A future cycle with a dedicated portrait search is the clear next step; no further research needed on the evidence side."
+  },
+  "localization": {}
+}

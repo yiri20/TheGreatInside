@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "jonas-salk",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Jonas Salk",
     "wikidataId": "Q200101",
@@ -10,15 +10,27 @@
     "deathYear": 1995,
     "isLiving": false,
     "era": "20th_century",
-    "nationalityCodes": ["US"],
+    "nationalityCodes": [
+      "US"
+    ],
     "regionCode": "north_america"
   },
   "classification": {
-    "occupationIds": ["medical_researcher", "virologist"],
-    "fieldIds": ["medicine"],
-    "impactDomains": ["scientific", "medical"],
+    "occupationIds": [
+      "medical_researcher",
+      "virologist"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
     "tagIds": [],
-    "archetypeIds": ["scientific_explorer"],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
     "newTagProposals": []
   },
   "sources": [
@@ -30,15 +42,20 @@
     },
     {
       "id": "src_js_pmc",
-      "kind": "journal_article",
+      "kind": "archive",
       "title": "\"Jonas Salk (1914-1995): A vaccine against polio\" -- PMC (NIH)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6351694/"
     },
     {
       "id": "src_js_jacobs_biography_review",
-      "kind": "book_review",
+      "kind": "press",
       "title": "Reviews and coverage of Charlotte DeCroes Jacobs, \"Jonas Salk: A Life\" (Oxford University Press, 2015), quoting Salk's own late-life remarks on the Sabin rivalry and his research assistant's assessment of it",
       "url": "https://www.dallasnews.com/arts-entertainment/books/2015/06/06/biography-review-jonas-salk-a-life-by-charlotte-decroes-jacobs/"
+    },
+    {
+      "id": "src_js_sabin_feud_history",
+      "kind": "press",
+      "title": "Independent historical accounts of the specific documented Salk-Sabin conflicts (the formalin-inactivation challenge, the 1953 public information leak, and Sabin's Congressional testimony) -- Pulitzer Center, Hektoen International, and university library archive coverage"
     }
   ],
   "rows": {
@@ -50,11 +67,11 @@
       "rationale": "Documented administering his own experimental vaccine to himself, his wife, and their three children before wider human trials -- a specific, dated act of personal risk-taking to demonstrate confidence in an unproven medical intervention, scored dual-edged given the real safety uncertainty at the time."
     },
     "conflict_tolerance": {
-      "score": 55,
-      "confidence": 0.4,
+      "score": 65,
+      "confidence": 0.5,
       "evidenceType": "documented",
       "impact": "dual_edged",
-      "rationale": "Documented as never having been elected to the National Academy of Sciences despite curing polio, a snub multiple named colleagues attributed to jealousy or to his violation of the era's scientific-conduct norms via extensive press coverage of his results -- a specific, sourced, sustained professional exclusion, distinct from a general reputation claim."
+      "rationale": "[NEW_EVIDENCE, Roster33] Sustained a specific, multi-front documented rivalry with Albert Sabin over vaccine approach: withstood a public challenge to his formalin-inactivation technique at an American Public Health Association meeting, a 1953 leak of his unpublished results, and Sabin's own Congressional testimony recommending his vaccine's use be suspended -- a sustained pattern of real professional conflict, not a single incident. Separately documented as never having been elected to the National Academy of Sciences despite curing polio, a snub multiple named colleagues attributed to jealousy or to his violation of the era's scientific-conduct norms via extensive press coverage of his results."
     },
     "impact_motivation": {
       "score": 78,
@@ -90,20 +107,32 @@
       "evidenceType": "inference",
       "impact": "neutral",
       "rationale": "Inferred from his documented pivot in later life from vaccine research to founding and directing an interdisciplinary research institute, though neither source gives a specific dated incident of the transition itself."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[NEW_EVIDENCE, Roster33] Pursued a killed-virus vaccine approach specifically while Sabin and much of the field favored a live-attenuated approach, sustaining that methodological disagreement through direct public and institutional challenges rather than converging on the field's preferred method."
     }
   },
-  "computedEligibility": {
-    "scoredAttributeCount": 7,
-    "averageConfidence": 0.450,
-    "coverage": 0.204,
-    "eligible": false,
-    "computedAt": "2026-09-06T00:00:00Z"
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jonas-salk-cdc-1988.jpg",
+    "width": 1280,
+    "height": 1523,
+    "source": "Centers for Disease Control and Prevention (CDC) Public Health Image Library, via Wikimedia Commons",
+    "license": "Public Domain (US federal government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jonas_Salk_1988.jpg",
+    "attribution": "CDC, 1988",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jonas_Salk_1988.jpg"
   },
-  "holdReason": "Validator output (mechanical, not adjusted): 7 scored attributes against the 18-attribute floor, 0.204 coverage against 0.6, only 3 attributes at confidence>=0.5 against the 12-attribute floor. Real, specific incidents exist (self-experimentation, the NAS exclusion, the patent refusal) but the two sources actually consulted this cycle are thinner than the physicists' NAS memoirs in this batch. Held, not rescued.",
+  "holdReason": "Superseded 2026-09-16 (Roster33) -- promoted to evidence_approved. Original roster-19 eligibility_v2 diagnostic kept below for the record, not a publication factor: at 7 rows, scored=7 (need 18), coverage=0.204 (need 0.6), HC count 3/12 (pre-Roster33-deepening figures; not recomputed as a publication factor).",
   "provenance": {
     "createdAt": "2026-09-06T00:00:00Z",
-    "updatedAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q200101) checked against the live Wikipedia article before scoring. Two genuinely independent sources actually fetched and read: a PMC (NIH) journal article and coverage/reviews of Charlotte Jacobs's full-length biography quoting Salk's own words on the Sabin rivalry. This candidate's evidence base is real but narrower than the other roster-19 candidates -- self-experimentation, the NAS exclusion, the patent refusal, and the trial scale are all well-documented single incidents, but the two sources consulted this cycle do not give enough additional dated behavioral material across the thinking/work-style facets to score more than seven attributes defensibly. A full read of Jacobs's 559-page biography (only reviewed secondhand here) would likely close this gap on a future pass."
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q200101) checked against the live Wikipedia article before scoring. Two genuinely independent sources actually fetched and read: a PMC (NIH) journal article and coverage/reviews of Charlotte Jacobs's full-length biography quoting Salk's own words on the Sabin rivalry. This candidate's evidence base is real but narrower than the other roster-19 candidates -- self-experimentation, the NAS exclusion, the patent refusal, and the trial scale are all well-documented single incidents, but the two sources consulted this cycle do not give enough additional dated behavioral material across the thinking/work-style facets to score more than seven attributes defensibly. Roster33 (2026-09-16, docs/checkpoints/roster33.md): reused and lightly deepened this existing held candidate (mechanical intake efficiency, same precedent as roster25-31) rather than starting fresh. One additional source consulted (independent historical accounts of the specific documented Salk-Sabin conflicts), adding 2 new rows (conflict_tolerance deepened with NEW_EVIDENCE, independent_thinking added) -- 9 rows total. Publication review found the evidence pack publication-safe (evidence_approved) independent of eligibility_v2, which was not recomputed as a publication factor. Living-subject discipline n/a (deceased 1995); his declining health/1995 death not used as evidence for any row."
   }
 }

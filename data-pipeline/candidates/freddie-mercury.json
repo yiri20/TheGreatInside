@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "freddie-mercury",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Freddie Mercury",
+    "wikidataId": "Q15869",
+    "birthYear": 1946,
+    "deathYear": 1991,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician",
+      "singer",
+      "songwriter"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mercury_wikipedia",
+      "kind": "wikipedia",
+      "title": "Freddie Mercury",
+      "url": "https://en.wikipedia.org/wiki/Freddie_Mercury"
+    },
+    {
+      "id": "src_mercury_liveaid_press",
+      "kind": "press",
+      "title": "Independent journalism and named-bandmate (Brian May) accounts of Queen's 1985 Live Aid performance"
+    },
+    {
+      "id": "src_mercury_ownwords",
+      "kind": "press",
+      "title": "Freddie Mercury's own contemporaneous quoted statements on Queen's touring/recording routine"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Performed Queen's 20-minute Live Aid set on July 13, 1985 against his own doctor's explicit advice not to perform, following pre-show vocal complications -- a specific, dated instance of prioritizing a commitment over direct medical caution, corroborated by named bandmate accounts."
+    },
+    "decisiveness": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own words, described wanting to break out of what he called a \"rut\" of the repetitive album-tour-album cycle -- a specific, self-articulated dissatisfaction that led to a deliberate change in how the band approached its work rather than continuing the established pattern by default."
+    },
+    "social_assertiveness": {
+      "score": 85,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Commanded the Live Aid Wembley crowd of roughly 72,000 (and a global television audience) through an extended, unaccompanied vocal call-and-response exchange, a specific, dated, widely-documented instance of live crowd command, independently corroborated by named bandmate accounts and contemporary press."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His own stated dissatisfaction with the band's repetitive touring/recording cycle documents a specific, self-aware recognition of a pattern he wanted to change, reflected in the band's subsequent shift in approach."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/freddie-mercury-1977.jpg",
+    "width": 1920,
+    "height": 2849,
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg",
+    "attribution": "Carl Lender, November 16, 1977",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): arts_culture priority pick (music), a second, genre-distinct musician alongside Bob Dylan this cycle. Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), independent journalism and named-bandmate (Brian May) accounts of the 1985 Live Aid performance, and his own quoted contemporaneous remarks on the band's touring routine. 4 rows scored, deliberately conservative row count -- this cycle's research concentrated on the single, extremely well-documented Live Aid performance and did not attempt to substantiate additional rows from thinner secondhand anecdotes (e.g. an unsourced childhood piano-frustration story was found but not used, since no clear primary or named-witness source could be identified for it). His 1991 AIDS-related death and his private life were not used as evidence for any row, consistent with this project's health/private-life discipline. Publication decision (evidence_approved) frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

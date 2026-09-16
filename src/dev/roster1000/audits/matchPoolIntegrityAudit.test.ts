@@ -36,23 +36,20 @@ describe("match-pool integrity audit: cohort counts", () => {
 
   it("classifies every production person exactly once", () => {
     expect(inventory).toHaveLength(SEED_PEOPLE.length);
-    expect(inventory).toHaveLength(225);
+    expect(inventory).toHaveLength(239);
   });
 
   it("matches the live production/directory/eligible counts", () => {
-    // Match-eligible dropped 127->126->123->120->117->114: the
-    // akira-kurosawa legacy remediation honestly found only 10
-    // individually-attributable rows for him, legacy integrity batch 2 did
-    // the same for bruce-lee, ludwig-van-beethoven, and nikola-tesla,
-    // legacy integrity batch 3 did the same for srinivasa-ramanujan,
-    // toni-morrison, and hayao-miyazaki, legacy integrity batch 4 did the
-    // same for richard-feynman, simone-biles, and steve-jobs, and legacy
-    // integrity batch 5 (docs/checkpoints/legacy-integrity-batch5-three-
-    // person-remediation.md) did the same for genghis-khan,
-    // serena-williams, and oprah-winfrey -- directory visibility is
-    // unchanged for all thirteen since each was made evidence_approved,
-    // not held.
-    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(224);
+    // Match-eligible dropped 127->126->123->120->117->114 across legacy
+    // integrity batches 1-5 (see the batch-remediation docs for detail).
+    // Roster33 (2026-09-16, docs/checkpoints/roster33.md) is the first
+    // cycle since that stayed level at 114: it added 14 new
+    // evidence_approved, directory-visible, non-match-eligible people
+    // (publication and eligibility are architecturally independent by
+    // design -- see docs/checkpoints/profile-publication-vs-match-
+    // eligibility.md), so directory-visible rose 224->238 while
+    // match-eligible held at 114.
+    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(238);
     expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(114);
   });
 
@@ -102,7 +99,7 @@ describe("match-pool integrity audit: lineage classification", () => {
     const map = buildLineageMap();
     for (const p of SEED_PEOPLE) {
       const lineage = classifyLineage(p.slug);
-      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-2])$/);
+      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-3])$/);
       if (lineage !== "roster1") {
         expect(map.get(p.slug)).toBe(lineage);
       } else {
