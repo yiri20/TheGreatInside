@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edward-jenner",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edward Jenner",
+    "wikidataId": "Q40852",
+    "birthYear": 1749,
+    "deathYear": 1823,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "scientist"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "historical"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_jenner_wikipedia",
+      "kind": "wikipedia",
+      "title": "Edward Jenner -- orientation only, not used as scored evidence",
+      "url": "https://en.wikipedia.org/wiki/Edward_Jenner"
+    },
+    {
+      "id": "src_jenner_riedel",
+      "kind": "biography",
+      "title": "Stefan Riedel, \"Edward Jenner and the History of Smallpox and Vaccination,\" Proceedings (Baylor University Medical Center) 18(1):21-25 (2005) -- independent, peer-reviewed medical-history journal article, opened and read in full via free PMC full text (PMCID PMC1200696). Documents that Jenner \"heard a dairymaid say, 'I shall never have smallpox for I have had cowpox'\" during his apprenticeship and \"for many years... heard the tales\" before his 1796 test; documents the Royal Society's 1797 rejection of his paper and that he responded by \"having added a few more cases to his initial experiment\" before self-publishing in 1798; documents that after 3 months searching London for vaccination volunteers he found none, and that \"Jenner made no attempt to enrich himself through his discovery.\" Independent scholarly secondary source, not Jenner's own testimony.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1200696/"
+    },
+    {
+      "id": "src_jenner_morabia",
+      "kind": "biography",
+      "title": "Alfredo Morabia, \"Edward Jenner's 1798 report of challenge experiments demonstrating the protective effects of cowpox against smallpox,\" Journal of the Royal Society of Medicine (2018) -- independent scholarly historical analysis of Jenner's primary case records, opened and read in full via free PMC full text (PMCID PMC6047259). Documents the 14 May 1796 Phipps inoculation and the deliberate smallpox challenge six weeks later (\"repeatedly injected Phipps with variolous material\"); documents the numbered case-series structure of the 1798 Inquiry (Cases I-XXIII) and the 1798 serial-transfer trials on John Baker and William Summers \"through four successive vaccinations\"; documents the Royal Society's rejection of the 1797 submission and that Jenner \"published privately in 1798, declaring that he no longer needed 'further testimony'\" rather than resubmitting. Independent scholarly secondary source, not Jenner's own testimony.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6047259/"
+    },
+    {
+      "id": "src_jenner_rcp",
+      "kind": "institution",
+      "title": "\"Edward Jenner in the Royal College of Physicians archives,\" RCP Museum (Royal College of Physicians), history.rcp.ac.uk -- independent institutional archive account, opened and read in full. Documents Jenner's own notebooks (1787-1806) held in the RCP archive, containing \"records of Jenner's conversations with rural workers about their health and healthcare\" and \"observations of the natural world and even a few pathology sketches\"; documents a specific March 1796 case (a patient the notebook calls Mrs. Self) where Jenner posed his own analytical question about whether a respiratory illness arose from \"our familiarity with an animal that nature intended to keep separate\" from humans; documents that Jenner never joined the RCP (ineligible as a surgeon by training) and that even after becoming famous and receiving \"an invitation to join,\" he \"declined\" it. Independent institutional, non-self, behavioral source.",
+      "url": "https://history.rcp.ac.uk/blog/edward-jenner-royal-college-physicians-archives"
+    },
+    {
+      "id": "src_jenner_who",
+      "kind": "institution",
+      "title": "\"A Brief History of Vaccination,\" World Health Organization -- independent institutional historical account, opened and read in full. Corroborates the May 1796 Phipps inoculation and the July 1796 smallpox re-exposure test as two distinct, deliberately sequenced steps.",
+      "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/a-brief-history-of-vaccination"
+    },
+    {
+      "id": "src_jenner_sciencemuseum",
+      "kind": "institution",
+      "title": "\"Edward Jenner,\" Science Museum Group Collection -- independent museum institutional biographical record, opened and read in full. Documents that in 1789, \"with another doctor, John Hickes, he inoculated some individuals, including his son the infant Edward Jenner, with material from a disease variously described as swinepox, pigpox, and cowpox\" -- a deliberate human trial on his own infant son, seven years before the Phipps experiment. Also documents that Jenner's 1798 Inquiry \"was met with much opposition, and even ridicule.\" Independent institutional, non-self, behavioral source.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/cp37470/edward-jenner"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 84,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Riedel documents Jenner first heard the dairymaid's cowpox-immunity claim during his medical apprenticeship in the early 1770s and continued to hear and track \"the tales\" for roughly two decades before conducting a designed, controlled test in 1796 -- a specific, documented long gap between first exposure to the claim and deliberate action on it. After the Royal Society rejected his 1797 paper (confirmed independently by both Riedel and Morabia), Riedel documents he did not abandon the work but instead \"add[ed] a few more cases to his initial experiment\" and self-funded publication of the 1798 Inquiry rather than waiting on institutional approval. Two independent scholarly sources converge on sustained, decades-long investigation followed by continuation past outright institutional rejection -- multiple independent documented instances, not a single anecdote.",
+      "sourceIds": [
+        "src_jenner_riedel",
+        "src_jenner_morabia"
+      ]
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Science Museum Group documents Jenner's first deliberate inoculation trial in 1789 -- testing swinepox/cowpox-family material on his own infant son together with fellow doctor John Hickes, seven years before his famous experiment. Morabia documents the escalation into a designed challenge-test protocol: on 14 May 1796 Jenner inoculated James Phipps with cowpox matter, then six weeks later \"repeatedly injected Phipps with variolous material\" to test for immunity, and in 1798 extended the same design into serial-transfer trials on additional subjects (John Baker, William Summers) tracked \"through four successive vaccinations.\" Two independent institutional/scholarly sources document a repeated, escalating pattern of designed hypothesis-testing trials over nearly a decade, not one isolated experiment.",
+      "sourceIds": [
+        "src_jenner_sciencemuseum",
+        "src_jenner_morabia"
+      ]
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Morabia documents Jenner's case-by-case documentation practice in the 1798 Inquiry (numbered Cases I through XXIII) and a precise, comparative clinical description distinguishing vaccine-site pustules from smallpox pustules -- noting they \"much resembled, on the twelfth day, those appearing from the infection of variolous matter\" while remaining distinguishable, with fluid \"limpid nearly to the time of its total disappearance.\" RCP's independent institutional archive separately documents Jenner posing his own analytical, causal questions in his working notebooks -- e.g., in a March 1796 case, theorizing about whether a respiratory illness arose from \"our familiarity with an animal that nature intended to keep separate\" from humans -- a specific instance of reasoned, mechanism-seeking inquiry, not a general reputation for cleverness.",
+      "sourceIds": [
+        "src_jenner_morabia",
+        "src_jenner_rcp"
+      ]
+    },
+    "detail_orientation": {
+      "score": 65,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "RCP's archive documents Jenner's 1787-1806 notebooks recording granular fieldwork detail -- direct conversations with rural workers about their health, pathology sketches, and dated case entries. Morabia independently documents equally granular clinical recording in the 1798 Inquiry, down to the day-by-day consistency of pustule fluid (\"limpid nearly to the time of its total disappearance\"). Two distinct, independently-documented instances of fine-grained record-keeping from two independent sources support strong_inference per this project's objective corpus-wide criterion; scored in the moderate-lean band because both instances are read for their level of granularity rather than being a source's own explicit characterization of Jenner as detail-oriented.",
+      "sourceIds": [
+        "src_jenner_rcp",
+        "src_jenner_morabia"
+      ]
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "RCP's independent archive account documents Jenner pursuing self-directed lines of inquiry beyond the immediate cowpox question -- e.g., in a March 1796 case (a respiratory illness in a patient the notebook calls Mrs. Self), he recorded his own speculative question about animal-to-human disease transmission unrelated to vaccination. Riedel independently documents a decades-long, self-sustained attention to the dairymaid folklore claim from the 1770s onward, a claim most contemporary physicians gave no weight to. Two distinct documented instances of self-directed investigative interest, across two different subjects and two independent sources, support strong_inference rather than a single inferred moment of curiosity.",
+      "sourceIds": [
+        "src_jenner_rcp",
+        "src_jenner_riedel"
+      ]
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Riedel documents Jenner taking seriously and systematically testing a claim originating from rural, non-elite dairy workers -- testimony formal 18th-century medicine of the period characteristically dismissed -- rather than discounting it as superstition. Morabia independently documents that after the Royal Society's 1797 rejection, Jenner did not attempt to satisfy the institution's specific objections through resubmission but instead \"published privately in 1798, declaring that he no longer needed 'further testimony,'\" relying on his own accumulated case evidence over continued institutional validation. Two distinct documented facts from two independent sources converge on a pattern of forming his own conclusions rather than deferring to either elite dismissal of folk testimony or institutional gatekeeping.",
+      "sourceIds": [
+        "src_jenner_riedel",
+        "src_jenner_morabia"
+      ]
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "RCP's independent institutional archive documents that even after achieving fame, Jenner was invited to join the Royal College of Physicians and \"declined\" the offer -- forgoing a major, readily available institutional affiliation and status marker of the period. A single concrete documented instance of declining an available institutional tie once success made it available; scored in the moderate-lean band rather than higher because no second corroborating instance of this specific declining-affiliation behavior was found in the sources reviewed.",
+      "sourceIds": [
+        "src_jenner_rcp"
+      ]
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Science Museum Group documents Jenner's first human trial was performed on his own infant son in 1789, inoculating him with swinepox-family material together with fellow doctor John Hickes. Morabia independently documents the 1796 Phipps trial as an explicit challenge design: after cowpox inoculation, Jenner \"repeatedly injected Phipps with variolous material\" -- deliberately exposing an eight-year-old to live smallpox matter, a potentially fatal disease, to test whether protection held. Two independent institutional/scholarly sources document a willingness to stake a child's health, including his own son's, on an unproven hypothesis under 18th-century medical uncertainty. Scored dual_edged rather than a flat advantage: this same behavior is the specific point at which the modern reader recognizes a serious research-ethics problem in his method, not simply a virtue that enabled the discovery -- both readings are genuinely true of the same documented decisions.",
+      "sourceIds": [
+        "src_jenner_sciencemuseum",
+        "src_jenner_morabia"
+      ]
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edward-jenner-northcote-1803.jpg",
+    "width": 1277,
+    "height": 1600,
+    "source": "Wellcome Collection, via Wikimedia Commons",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "James Northcote (1803), Wellcome Collection, CC BY 4.0",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Edward_Jenner_by_J._Northcote._Wellcome_M0009130.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Historical-medicine candidate: physician/scientist, early_modern era. Wikidata QID (Q40852) supplied pre-verified; not re-checked live in this session. 6 sources: Wikipedia (orientation only, not scored) plus 5 independent, non-self sources actually opened and read in full -- Stefan Riedel's peer-reviewed Baylor University Medical Center Proceedings article (PMC1200696), Alfredo Morabia's Journal of the Royal Society of Medicine historical analysis of the 1798 challenge experiments (PMC6047259), the Royal College of Physicians Museum's archive account of Jenner's own working notebooks, the WHO's brief history of vaccination, and the Science Museum Group's institutional biographical record. All 5 non-Wikipedia sources are independent of Jenner's own testimony (his 1798 Inquiry itself was deliberately not used as a primary scored source, per this project's evidence-discipline instructions -- it is discussed only at second hand, through Riedel's and Morabia's independent scholarly analysis of it). 8 rows scored, each traced to specific documented behavioral facts (decades-long folklore tracking before acting, the 1789 self-son inoculation, the 1796 Phipps challenge design, the 1797 Royal Society rejection and 1798 self-publication, the RCP-membership decline, notebook-level analytical/observational detail) rather than inferred from the achievement itself (the global impact of vaccination/smallpox eradication was deliberately never used as evidence for any row, per this project's standing rule against scoring from achievement/outcome). One researched thread -- Jenner's 1787-88 cuckoo-nesting-behavior paper to the Royal Society -- was investigated as a possible curiosity/cross_domain_range/belief_updating data point (it would have been a strong one: he apparently withdrew and revised an already-accepted paper after further field observation) but was DROPPED before scoring: a Dictionary of National Biography (1885-1900) account, read directly, states the original submitted account was based on a report from Jenner's nephew rather than Jenner's own direct observation and was later called into question by naturalist Charles Waterton -- a genuine, unresolved contradiction with the popular telling that this project's evidence discipline does not permit resolving by picking the more flattering version. No row rests on this episode. Deceased 1823 (stroke); no health/death-based trait inference used anywhere in this profile. computedEligibility deliberately not populated (informational-only field per candidateSchema.ts; this candidate has not been run through validateCandidates.ts in this session) -- 8 scored rows is well under eligibility_v2's 18-attribute floor, so this candidate is expected to be non-match-eligible, consistent with this project's evidence/eligibility separation (checkPromotionReadiness in src/dev/roster1000/candidateSchema.ts) and the same pattern already shipped on alfred-hitchcock.json (5 rows, evidence_approved, non-match-eligible). Publication decision (evidence_approved) made on evidence quality alone, not toward any eligibility target, per scoring-rubric-v1.md section 10's confidence-change/eligibility-remediation guardrail."
+  },
+  "localization": {}
+}

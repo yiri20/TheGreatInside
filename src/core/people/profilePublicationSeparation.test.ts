@@ -325,9 +325,10 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "oprah-winfrey",
     // Roster33 (2026-09-16, docs/checkpoints/roster33.md): 14 new
     // evidence_approved, directory-visible people (new-candidate
-    // roster-expansion cycle, not legacy remediation), honestly
-    // non-match-eligible by design -- publication and eligibility are
-    // architecturally independent, per this file's own subject. Baselines
+    // roster-expansion cycle, not legacy remediation). All 14 became
+    // non-match-eligible as an honest result of evidence-grounded scoring
+    // -- publication and eligibility are architecturally independent, per
+    // this file's own subject; eligibility was not targeted. Baselines
     // now 239/238; match-eligible set unchanged at 114.
     "alexander-fleming",
     "alfred-hitchcock",
@@ -343,19 +344,37 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "neil-armstrong",
     "steve-wozniak",
     "tim-berners-lee",
+    // Roster34 (2026-09-16, docs/checkpoints/roster34.md): 11 new
+    // evidence_approved, directory-visible people plus Haruki Murakami (a
+    // Roster33 holdover promoted this cycle on a resolved portrait gate
+    // only -- his evidence/rows were untouched). All 12 are honestly
+    // non-match-eligible. Baselines now 251/250; match-eligible set
+    // unchanged at 114.
+    "andy-warhol",
+    "antoine-lavoisier",
+    "charlie-chaplin",
+    "edward-jenner",
+    "elvis-presley",
+    "estee-lauder",
+    "haruki-murakami",
+    "katharine-graham",
+    "robert-oppenheimer",
+    "sally-ride",
+    "walt-disney",
+    "yuri-gagarin",
   ]);
 
-  it("still exactly 239 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(239);
-    expect(PEOPLE_INDEX).toHaveLength(239);
+  it("still exactly 251 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(251);
+    expect(PEOPLE_INDEX).toHaveLength(251);
   });
 
-  it("still exactly 238 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 250 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(238);
+    expect(visible).toHaveLength(250);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^238 people$/)).toBeVisible();
+  await expect(page.getByText(/^250 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -564,9 +564,25 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // this count several times above, not a correction applied to hit a
   // target number. The remaining six (Lincoln, Franklin, Darwin, Goodall,
   // Rubin, Erdős) are unaffected.
-  expect(bodyText).toMatch(/전체\s*239명\s*중\s*6명/);
+  // Total updated again 239->251 (Roster34, 2026-09-16, docs/checkpoints/
+  // roster34.md: 11 new candidates plus Haruki Murakami, a Roster33
+  // holdover promoted on a resolved portrait gate only). Verified directly
+  // against each new person's real rows against the fixed reference
+  // thresholds: J. Robert Oppenheimer genuinely crosses BOTH -- curiosity
+  // 74 (confidence 0.65) and collaboration 74 (confidence 0.62), both his
+  // real evidence_approved scores (documented rapid-synthesis seminar
+  // behavior and cross-divisional Los Alamos leadership respectively), not
+  // adjusted to hit this filter. None of the other 11 new people cross
+  // both thresholds simultaneously (e.g. Antoine Lavoisier collaboration
+  // 84/0.75 but no curiosity row at all; Edward Jenner curiosity 66/0.52,
+  // short of the 72 floor). This is a real, honest addition to the
+  // filtered set, raising the count from 6 to 7 -- the same pattern as
+  // Vera Rubin (roster25) and Paul Erdős (roster30) above, not a
+  // correction applied to hit a target number.
+  expect(bodyText).toMatch(/전체\s*251명\s*중\s*7명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
+  expect(bodyText).toContain("오펜하이머");
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {

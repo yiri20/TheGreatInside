@@ -1919,6 +1919,21 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.carl-sagan": "칼 세이건",
   "person.name.dmitri-mendeleev": "드미트리 멘델레예프",
 
+  // ROSTER 34 (2026-09-16): final new-candidate expansion cycle to the
+  // 250-person milestone.
+  "person.name.yuri-gagarin": "유리 가가린",
+  "person.name.sally-ride": "샐리 라이드",
+  "person.name.walt-disney": "월트 디즈니",
+  "person.name.estee-lauder": "에스티 로더",
+  "person.name.charlie-chaplin": "찰리 채플린",
+  "person.name.elvis-presley": "엘비스 프레슬리",
+  "person.name.andy-warhol": "앤디 워홀",
+  "person.name.katharine-graham": "캐서린 그레이엄",
+  "person.name.robert-oppenheimer": "J. 로버트 오펜하이머",
+  "person.name.edward-jenner": "에드워드 제너",
+  "person.name.antoine-lavoisier": "앙투안 라부아지에",
+  "person.name.haruki-murakami": "무라카미 하루키",
+
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal
   // rendering of the English strings.

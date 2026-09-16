@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "estee-lauder",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Estée Lauder",
+    "wikidataId": "Q285493",
+    "birthYear": 1906,
+    "deathYear": 2004,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "wealth_creation"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_lauder_wikipedia",
+      "kind": "wikipedia",
+      "title": "Estée Lauder (businesswoman) -- orientation only, not used as scored evidence",
+      "url": "https://en.wikipedia.org/wiki/Est%C3%A9e_Lauder_(businesswoman)"
+    },
+    {
+      "id": "src_lauder_encyclopedia_company_histories",
+      "kind": "archive",
+      "title": "\"Estee Lauder Inc.,\" International Directory of Company Histories entry hosted at Encyclopedia.com (Gale/St. James Press reference compilation) -- independent business-reference account, opened and read in full (raw HTML fetched and grepped directly to verify exact wording, not paraphrased secondhand). Documents her personally set, personally enforced standard for saleswomen (\"The saleswoman is my most important asset, the link to my customer\"; no room in her organization for the \"T. and T. salesgirl, always on the telephone or toilet\"), the company's institutionalized practice that \"a final and secret ingredient was always added by a member of the Lauder family\" to every batch, and her insistence on \"producing only the highest quality cosmetics,\" extending to specific packaging-color decisions.",
+      "url": "https://www.encyclopedia.com/people/social-sciences-and-law/business-leaders/estee-lauder-inc"
+    },
+    {
+      "id": "src_lauder_time_1998_mirabella",
+      "kind": "press",
+      "title": "Grace Mirabella (former editor-in-chief of Vogue for 17 years, founder of Mirabella magazine, and a first-hand acquaintance of Lauder's -- see her own lunch anecdote in the piece), \"Beauty Queen: Estee Lauder,\" TIME, Dec. 7 1998 (TIME's 1998 list of the 20 most influential business geniuses of the 20th century) -- independent press profile, opened and read in full (raw HTML fetched and grepped to verify exact quotes, not taken from a secondhand paraphrase). Carries named, non-self, behavioral testimony from two named colleagues: Carol Phillips (founder of the company's Clinique line) on Lauder's meticulous management style (\"Her conference room was like a dining room, and everything was perfect\"), and company vice chairman Jeanette Wagner (\"No matter how she aged in years, she was still the youngest thinker in the room\"). Also documents, via her son Leonard's direct one-word answer (\"Ambition\") to the reporter's question about the single word that defines his mother, and via the reporter's own independent observation, that even 40 years into the business she personally attended every new counter/shop launch worldwide (including trips to Moscow and other Eastern European cities) and personally trained sales staff on Saturdays at her grandson's Origins store (\"Let me teach you how to sell\").",
+      "url": "https://time.com/archive/6734183/beauty-queen-estee-lauder/"
+    },
+    {
+      "id": "src_lauder_pbs_who_made_america",
+      "kind": "institution",
+      "title": "\"Estee Lauder,\" Who Made America?, PBS/WGBH (theymadeamerica.pbs.org) -- independent institutional account, opened and read in full (raw HTML fetched and grepped directly). Documents the 1948 Saks Fifth Avenue placement and the immediate operational follow-through: \"Lauder risked six months' rent in office space, then joined her husband and older son in mixing formulas, sterilizing and filling jars.\"",
+      "url": "https://www.pbs.org/wgbh/theymadeamerica/whomade/lauder_hi.html"
+    },
+    {
+      "id": "src_lauder_leonard_memoir_cbs_excerpt",
+      "kind": "biography",
+      "title": "Leonard A. Lauder (her son, the company's later chairman/CEO), The Company I Keep: My Life in Beauty (HarperCollins, 2020) -- excerpted in full by CBS News; opened and read in full (raw HTML fetched and grepped directly to verify exact wording). A family member's own independently authored, independently published 2020 account -- not Estee Lauder's own words -- describing her compulsive, self-initiated childhood facial-demonstration habit (her father Max: \"Esty, stop fiddling with other people's faces\"), her systematic, self-taught, record-keeping approach to testing product formulas as a teenager (\"she experimented constantly, noting how her uncle prepared each product, trying out different formulas on her friends, and keeping a careful record of the results\" -- distinguishing which compounds \"cleared up blemishes\" from which made \"an especially effective moisturizer\"), and her practiced five-minute full-face makeover technique (\"cleansing oil, cream, rouge, powder, lip color, and often eye shadow -- in less than five minutes\").",
+      "url": "https://www.cbsnews.com/news/book-excerpt-the-company-i-keep-leonard-lauder/"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Encyclopedia.com's independent trade-reference account documents she insisted on \"producing only the highest quality cosmetics,\" extending to specific packaging-color decisions, and documents the company's institutionalized practice -- confirmed by the same independent source -- that \"a final and secret ingredient was always added by a member of the Lauder family\" to every batch. TIME's Carol Phillips (a named colleague, founder of the company's Clinique line) independently corroborates an exacting standard applied to her own working environment: \"Her conference room was like a dining room, and everything was perfect.\" The same Encyclopedia.com source documents a harsher edge to the same standard applied to staff: no room in her organization for the \"T. and T. salesgirl, always on the telephone or toilet.\" Two independent sources converging on the same specific pattern -- documented, 71-84 band; dual_edged because the evidence for exacting quality control is inseparable from evidence of an unforgiving standard for employees."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Encyclopedia.com singles out packaging color/presentation as a specific, attributable instance of her \"attention to detail.\" Leonard Lauder's independently authored memoir (CBS-verified excerpt) documents a distinct specific practice: as a teenager she \"kept a careful record of the results\" while testing formulas, tracking precisely which ingredients cleared blemishes versus which moisturized -- a recorded, attributable practice, not a general reputation. Two independent sources, each describing a distinct specific instance of the same trait -- documented, 71-84 band."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "TIME (Grace Mirabella) documents she \"stalked the bosses of New York City department stores until she got some counter space at Saks Fifth Avenue in 1948,\" and that even 40 years into the business she still personally attended every launch of a new counter or shop worldwide, traveling to Moscow and other cities to do so. PBS/WGBH independently corroborates the Saks breakthrough and the immediate sustained personal follow-through required to fulfill the resulting order. Two independent sources on a single sustained, decades-spanning pattern -- documented, 71-84 band."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Asked by TIME's reporter for the single word that defines his mother, her son and successor Leonard Lauder answered directly: \"Ambition.\" The same profile documents she \"simply outworked everyone else in the cosmetics industry\" and continued personally attending product launches worldwide four decades after founding the company. Leonard Lauder's memoir independently documents a compulsive, sustained drive evident from childhood -- persistent enough in giving unsolicited facials to family, friends, and classmates that her father complained, \"Esty, stop fiddling with other people's faces.\" Two independent sources, each with a specific attributable instance spanning her whole life -- documented, 71-84 band, kept at the lower end because the childhood anecdote and the adult work-pattern are related but not identical evidence."
+    },
+    "social_assertiveness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "TIME documents she personally \"stalked the bosses of New York City department stores\" to gain entry rather than waiting to be approached. Leonard Lauder's memoir independently documents that from childhood she treated \"anyone who sat down long enough\" -- family, friends, classmates -- as a subject for hands-on facial demonstrations, an assertive, self-initiating pattern documented well before any specific sales goal existed. Two independent sources, distinct instances -- documented, 71-84 band."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "TIME and PBS/WGBH independently document the same specific outcome from different angles: she \"persuaded Saks Fifth Avenue executives to carry her cosmetics\" in 1948 after personally approaching store leadership. Encyclopedia.com's independent trade-reference account adds that this single success then \"helped her obtain counter space in other prestigious department stores around the country\" -- a repeatable, not one-off, persuasive pattern. Multiple independent documented instances -- 71-84 band."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two independent, distinct documented facts point toward a sustained preference for retaining personal/family control rather than delegating: Encyclopedia.com documents the institutionalized practice that \"a final and secret ingredient was always added by a member of the Lauder family\" to every batch, never delegated outside the family, and TIME documents that even after formally stepping back from day-to-day management she continued personally directing promotional campaigns and new-fragrance creation and personally attending launches worldwide. Two independent facts converge without a single quoted \"smoking gun\" moment -- strong_inference per the rubric's corpus-wide criterion, 56-70 band."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "TIME documents that even 40 years into the business she still personally trained frontline staff -- appearing at her grandson's Origins store on Saturdays to say \"Let me teach you how to sell\" -- and Encyclopedia.com independently documents she set and personally enforced explicit standards for her sales staff (\"The saleswoman is my most important asset\"; no tolerance for the \"T. and T. salesgirl\"). Two independent sources on a sustained personal-training/standard-setting pattern -- strong_inference, 56-70 band."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Leonard Lauder's memoir documents two distinct, specific facts about her early self-directed product experimentation: she \"experimented constantly, noting how her uncle prepared each product, trying out different formulas on her friends,\" and separately kept records distinguishing which compounds \"cleared up blemishes\" from which made an effective moisturizer. Two distinct documented facts from one independently authored source satisfy the rubric's disjunctive strong_inference criterion (\"facts, instances, sources, or episodes\") -- 56-70 band; kept out of the documented tier because both facts trace to a single source."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "TIME documents she initiated contact with department-store leadership unprompted (\"stalked the bosses... until she got some counter space\"), and Leonard Lauder's memoir documents she began treating skincare demonstration as self-directed practice from her teenage years, without being asked, to the point her father had to tell her to stop. Two independent, specific documented instances of self-initiated action, not waiting for permission or invitation -- 71-84 band."
+    },
+    "opportunity_sensing": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "TIME documents her gift-with-purchase promotion as a specific, credited strategic decision, independently describing it as \"a work of utter genius\" that the rest of the industry went on to imitate. Encyclopedia.com independently corroborates the same specific decision, noting it became \"so lucrative that many other companies... were soon imitating it.\" Two independent sources on the same specific strategic decision -- strong_inference (kept below documented and below 71-84 because the decision itself, not merely its later market success, is the evidence, but the underlying reasoning process is not directly quoted from her), 56-70 band."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "PBS/WGBH documents that to fulfill the surge in demand after the 1948 Saks order, she \"risked six months' rent in office space, then joined her husband and older son in mixing formulas, sterilizing and filling jars\" herself rather than waiting on outside capital or staff. Encyclopedia.com independently corroborates the same period as a hands-on, family-run production operation. Two independent sources on the same specific scrappy, self-supplied production response -- documented, 71-84 band, kept at the lower end because both sources describe essentially one episode."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Leonard Lauder's memoir documents a sustained, methodical self-teaching practice -- experimenting constantly and \"keeping a careful record of the results\" -- maintained over an extended period as a teenager, not a one-off. TIME independently documents the same sustained-effort pattern decades later in the business itself: she \"simply outworked everyone else in the cosmetics industry\" and continued personally attending every product launch worldwide 40 years after founding the company. Two independent sources on sustained, methodical effort spanning her whole working life -- documented, 71-84 band."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/estee-lauder-1966.jpg",
+    "width": 1284,
+    "height": 1600,
+    "source": "Library of Congress, New York World-Telegram and the Sun Newspaper Photograph Collection, via Wikimedia Commons",
+    "license": "Public Domain (NYWTS collection, no known copyright restrictions)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Estee_Lauder_NYWTS.jpg",
+    "attribution": "Bill Sauro / New York World-Telegram and the Sun staff photographer, 1966",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Estee_Lauder_NYWTS.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 research pass. Identity: wikidataId Q285493 used exactly as pre-verified/supplied; birthYear 1906 matches Wikidata's own P569 value, confirmed live via a direct Wikidata fetch during this session -- note some secondary sources (Wikipedia's infobox as rendered by one fetch, PBS/WGBH's own sidebar) instead show 1908, a long-documented public ambiguity stemming from Lauder herself obscuring her exact age; 1906 (Wikidata) was used per task instruction and this session's own live verification, not the conflicting secondary figure. 5 sources, all actually opened and read in full via direct HTTP fetch + text search against the raw page (not accepted on a summarized paraphrase alone): Wikipedia (orientation only, not scored), Encyclopedia.com's International Directory of Company Histories entry (independent trade reference), TIME's Dec. 1998 profile by Grace Mirabella (independent press profile carrying named non-self quotes from colleagues Carol Phillips and Jeanette Wagner -- the clearest non-self behavioral perspective), PBS/WGBH's 'Who Made America?' institutional account, and Leonard Lauder's 2020 memoir 'The Company I Keep' as excerpted in full by CBS News (an independently authored, independently published family account, not Lauder's own words). This satisfies >=2 independent provenance perspectives (five distinct publishers/authors across three decades: 1998 TIME, PBS n.d., 2020 CBS/Leonard Lauder excerpt, undated Encyclopedia.com) and >=1 substantive non-self behavioral source (TIME's named-colleague testimony and Leonard Lauder's independently authored memoir both qualify independently of each other). Two sources considered and deliberately NOT included because they could not actually be opened and read this session: the Harvard Business School case 'Estee Lauder and the Market for Prestige Cosmetics' (Nancy Koehn, HBS 801-362) is paywalled behind HBS Publishing (confirmed 403 on direct fetch) -- only its public abstract/description was visible via search, which was not treated as sufficient to cite as a read source; Lee Israel's 'Estee Lauder: Beyond the Magic' (1985, the unauthorized biography named in the research brief) is under Internet Archive's controlled digital lending (confirmed via the item's own metadata: search-inside and direct djvu.txt access both returned 403/restricted without a borrow/login this session should not attempt) -- its existence and general reputation (unauthorized, sometimes critical, drawing on outside interviews) is well documented via secondary discussion of the book, but no specific claim from it is cited in any row, consistent with this project's 'actually open and read' discipline. 13 rows scored, all from specific, attributable, cross-checked facts (each row cites at least one, usually two, independently-sourced specific instances) -- deliberately not padded to a higher count: standard thinking/creativity-facet attributes (curiosity, analytical_rigor, intuitive_synthesis, systems_abstraction, independent_thinking, belief_updating, creative_originality, cross_domain_range, aesthetic_sensitivity), several resilience/social/motivation attributes (risk_tolerance, adaptability, ambiguity_tolerance, decisiveness, collaboration, conflict_tolerance, mastery_orientation, competitiveness, impact_motivation), and several work_style attributes (deep_focus, execution_speed, planning_orientation) were considered and left unscored because the located sources describe her sales/business methods, personal quality-control habits, and personal control over the company specifically, not these other dimensions -- scoring them would have required inferring from occupation/fame/success rather than documented behavior, which the rubric explicitly prohibits. Never scored from wealth, brand fame, or company success itself -- e.g. gift-with-purchase and Saks placement were scored for the specific decision/initiating behavior (opportunity_sensing, persuasiveness), not for the resulting market outcome. Deceased 2004; no health/death/psychological-state inference made anywhere in this profile, consistent with the standing project rule. Publication decision (evidence_approved) frozen before any eligibility_v2 computation; with only 13 scored rows this candidate will not clear the 18-attribute match-eligibility floor, which is expected and acceptable -- evidence approval and match eligibility are independently computed per docs/checkpoints/profile-publication-vs-match-eligibility.md, and this candidate's row count reflects the genuine limit of documented, non-padded, non-self-testimony-only evidence located this session, not a target being scored toward."
+  },
+  "localization": {}
+}

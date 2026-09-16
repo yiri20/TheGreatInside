@@ -437,9 +437,10 @@ describe("confidence and missing data", () => {
       "serena-williams",
       "oprah-winfrey",
       // Roster33 (2026-09-16, docs/checkpoints/roster33.md): 14 new
-      // evidence_approved, directory-visible people, honestly non-match-
-      // eligible by design (publication and eligibility are
-      // architecturally independent) -- none targeted eligibility_v2.
+      // evidence_approved, directory-visible people, all became non-match-
+      // eligible as an honest result of evidence-grounded scoring --
+      // eligibility was not targeted (publication and eligibility are
+      // architecturally independent).
       "alexander-fleming",
       "alfred-hitchcock",
       "bill-gates",
@@ -454,6 +455,23 @@ describe("confidence and missing data", () => {
       "neil-armstrong",
       "steve-wozniak",
       "tim-berners-lee",
+      // Roster34 (2026-09-16, docs/checkpoints/roster34.md): 11 new
+      // evidence_approved, directory-visible people plus Haruki Murakami
+      // (a Roster33 holdover promoted this cycle on a resolved portrait
+      // gate only -- his evidence/rows were untouched). All 12 are
+      // honestly non-match-eligible -- an evidence outcome, not a target.
+      "andy-warhol",
+      "antoine-lavoisier",
+      "charlie-chaplin",
+      "edward-jenner",
+      "elvis-presley",
+      "estee-lauder",
+      "haruki-murakami",
+      "katharine-graham",
+      "robert-oppenheimer",
+      "sally-ride",
+      "walt-disney",
+      "yuri-gagarin",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -831,9 +849,10 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "serena-williams",
       "oprah-winfrey",
       // Roster33 (2026-09-16, docs/checkpoints/roster33.md): 14 new
-      // evidence_approved, directory-visible people, honestly non-match-
-      // eligible by design (publication and eligibility are
-      // architecturally independent) -- none targeted eligibility_v2.
+      // evidence_approved, directory-visible people, all became non-match-
+      // eligible as an honest result of evidence-grounded scoring --
+      // eligibility was not targeted (publication and eligibility are
+      // architecturally independent).
       "alexander-fleming",
       "alfred-hitchcock",
       "bill-gates",
@@ -848,6 +867,23 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "neil-armstrong",
       "steve-wozniak",
       "tim-berners-lee",
+      // Roster34 (2026-09-16, docs/checkpoints/roster34.md): 11 new
+      // evidence_approved, directory-visible people plus Haruki Murakami
+      // (a Roster33 holdover promoted this cycle on a resolved portrait
+      // gate only -- his evidence/rows were untouched). All 12 are
+      // honestly non-match-eligible -- an evidence outcome, not a target.
+      "andy-warhol",
+      "antoine-lavoisier",
+      "charlie-chaplin",
+      "edward-jenner",
+      "elvis-presley",
+      "estee-lauder",
+      "haruki-murakami",
+      "katharine-graham",
+      "robert-oppenheimer",
+      "sally-ride",
+      "walt-disney",
+      "yuri-gagarin",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

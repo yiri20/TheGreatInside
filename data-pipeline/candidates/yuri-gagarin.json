@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yuri-gagarin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yuri Gagarin",
+    "wikidataId": "Q7327",
+    "birthYear": 1934,
+    "deathYear": 1968,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "technological",
+      "historical"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_gagarin_wikipedia",
+      "kind": "wikipedia",
+      "title": "Yuri Gagarin",
+      "url": "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+    },
+    {
+      "id": "src_gagarin_esa_vostok1",
+      "kind": "institution",
+      "title": "The flight of Vostok 1 -- European Space Agency, \"50 years of humans in space\" -- independent institutional account of pre-launch demeanor, in-flight radio conduct, and the reentry service-module separation anomaly, opened and read in full.",
+      "url": "https://www.esa.int/About_Us/50_years_of_ESA/50_years_of_humans_in_space/The_flight_of_Vostok_1"
+    },
+    {
+      "id": "src_gagarin_ieee_oberg",
+      "kind": "press",
+      "title": "James Oberg (retired NASA Mission Control veteran and space historian), \"Twenty Myths About Gagarin's Spaceflight,\" IEEE Spectrum -- independent, non-self, expert myth-auditing account of the selection process and flight, opened and read in full.",
+      "url": "https://spectrum.ieee.org/twenty-myths-about-gagarins-spaceflight-2650254706"
+    },
+    {
+      "id": "src_gagarin_rferl",
+      "kind": "press",
+      "title": "\"Smart, 'Cheerful,' And Easy On The Eyes: Russia Publishes Soviet Documents On Pioneering Cosmonaut Gagarin,\" Radio Free Europe/Radio Liberty -- reports the 2018 Russian Defense Ministry declassification of Gagarin's own official 1960-61 training-period evaluation file, a contemporaneous, non-self, official assessment; opened and read in full.",
+      "url": "https://www.rferl.org/a/russia-gagarin-soviet-documents-on-pioneering-cosmonaut-released/29161584.html"
+    },
+    {
+      "id": "src_gagarin_spacereview_siddiqi",
+      "kind": "archive",
+      "title": "Asif Siddiqi (space historian, Fordham University; author of \"Challenge to Apollo\"), \"Declassified documents offer a new perspective on Yuri Gagarin's flight,\" The Space Review -- scholarly analysis of a declassified 9 May 1961 official Soviet post-flight debrief document; independent, non-self, opened and read in full.",
+      "url": "https://www.thespacereview.com/article/2844/1"
+    },
+    {
+      "id": "src_gagarin_nasa_history",
+      "kind": "institution",
+      "title": "\"Remembering Yuri Gagarin, 50 Years Later,\" NASA history office -- independent institutional account of his post-flight career (training-director role, engineering thesis, Soyuz 1 backup assignment), opened and read in full.",
+      "url": "https://www.nasa.gov/history/remembering-yuri-gagarin-50-years-later"
+    },
+    {
+      "id": "src_gagarin_euronews",
+      "kind": "press",
+      "title": "\"Gagarin through the eyes of those who knew him,\" Euronews -- contains direct, non-self testimony from his daughter Elena Gagarina and fellow cosmonaut Alexey Leonov; opened and read in full.",
+      "url": "https://www.euronews.com/next/2011/04/06/gagarin-through-the-eyes-of-those-who-knew-him"
+    }
+  ],
+  "rows": {
+    "ambiguity_tolerance": {
+      "score": 85,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "During Vostok 1's reentry the service module failed to separate cleanly ten seconds after retrofire, leaving the craft tumbling and gyrating in an unplanned, unresolved configuration for roughly ten minutes at up to 8g. Per ESA's own account he continued transmitting \"Everything is OK\" and reasoned in the moment that the gyrations did not pose a danger to the mission, rather than reporting alarm. Independent historian Asif Siddiqi's analysis (The Space Review) of the declassified 9 May 1961 official Soviet debrief describes him as \"affable as always\" recounting the malfunction afterward, comparing the tumbling sensation to a \"corps de ballet\" rather than framing it as a crisis. James Oberg (IEEE Spectrum) independently reports that among the 20 candidate cosmonauts, Gagarin was specifically assessed as \"the fastest learner and the calmest in emergencies\" -- a characterization corroborated by Soviet officials' own declassified 1960-61 evaluation record of him as \"calm, cheerful\" (RFE/RL). Three independent, non-self sources converge on the same pattern with no contradicting evidence -- composure under genuine, high-stakes uncertainty is one of the handful of things every serious independent account of him converges on."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Soviet officials' own declassified training-period evaluation of Gagarin (Russian Defense Ministry file, reported by RFE/RL) directly characterizes him as a \"strong-willed, disciplined individual with an excellent intellect\" -- a specific, attributable institutional assessment, not a later biographer's gloss. Corroborated by a second, independent pattern: per NASA's history office, after his flight he simultaneously served as deputy director of the cosmonaut training center and completed an aerospace-engineering thesis on spaceplane design at the Zhukovski Air Force Academy, a sustained dual professional/academic commitment maintained under competing demands over several years."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Per NASA's history office, despite Soviet officials' explicit reluctance to risk their national hero on another flight -- a caution that hardened after the fatal 1967 Soyuz 1 crash that killed his friend Vladimir Komarov -- Gagarin persisted in his desire to return to space and was eventually assigned as Komarov's own backup for that mission: a specific, dated instance of sustained pursuit of a goal against institutional resistance. He completed his aerospace-engineering thesis in this same period, a second concrete instance of sustained commitment. Confidence held below the top band because both instances trace to a single institutional source (NASA) rather than multiple independent outlets. Impact scored dual_edged rather than a flat advantage: the same persistence that reads as admirable dedication is also, per the same account, exactly what Soviet officials were trying to override for his own safety."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Rather than settling into a purely ceremonial post-flight role, Gagarin pursued and completed a full aerospace-engineering thesis on spaceplane design at the Zhukovski Air Force Academy and took on the deputy directorship of cosmonaut training (NASA history office) -- a pattern of continued, deliberate skill development and craft investment in his field rather than resting on fame. strong_inference rather than documented: no single quote frames this as a deliberate mastery-seeking choice; it is read from the pattern of sustained activity across the two documented facts."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "NASA's history office documents that Gagarin became deputy training director of the cosmonaut training center, \"helping other cosmonauts prepare for their space flights\" -- a specific institutional role built on developing peers, not just his own performance. Corroborated by Soviet officials' own declassified evaluation of him (RFE/RL) as \"sociable with comrades, and polite in conversation\" during the original candidate-training period years earlier -- two independent sources describing the same underlying pattern of constructive engagement with fellow cosmonauts across different career periods."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "Soviet officials' declassified training-period evaluation of Gagarin (RFE/RL) specifically notes him as \"accepting of criticism\" -- a directly-quoted, attributable descriptor from an official assessment record, but a single data point from a single source with no corroborating specific incident, so scored as inference at modest confidence. Impact left neutral given how thin the underlying evidence is."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yuri-gagarin-1961.jpg",
+    "width": 1280,
+    "height": 1600,
+    "source": "Finnish Museum of Photography (Suomen valokuvataiteen museo) / Uuden Suomen kokoelma, Alma Media, via Wikimedia Commons",
+    "license": "Public Domain (PD-Finland; no known copyright restrictions per Commons file page)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Yuri_Gagarin_(1961).jpg",
+    "attribution": "Photograph by Arto Jousi, 3 July 1961 (Gagarin at a press conference during his visit to Finland), Finnish Museum of Photography",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Yuri_Gagarin_(1961).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 candidate. Wikidata QID (Q7327) taken as pre-verified per task instructions, not re-verified live in this session. Identity fields (birthYear 1934, deathYear 1968, nationality) cross-checked against a direct read of English Wikipedia (orientation only, not cited as scored evidence). nationalityCodes/regionCode: checked live precedent across the existing roster (roster9.ts, roster10.ts, roster14.ts, roster15.ts, roster24.ts, roster33.ts) -- every existing person with nationalityCodes [\"RU\"] (e.g. Fyodor Dostoevsky) uses regionCode \"central_europe\", not \"eastern_europe\"; followed that established convention rather than the task prompt's suggested default. occupationIds/fieldIds/archetypeIds verified against src/core/i18n/en.ts (occupation.astronaut exists), src/core/people/directoryTaxonomy.ts (\"exploration\" is a valid fieldId under the building_discovery profession category), and src/core/greatness/archetypes.ts ARCHETYPE_IDS (scientific_explorer is valid). fieldIds deliberately kept to [\"exploration\"] alone (no \"engineering\"), matching the task's instruction to mirror Neil Armstrong's precedent of not scoring occupational/military framing beyond his defining role -- unlike Armstrong (who has a documented, cited aerospace-engineering-thesis-plus-flight-test-engineer career arc scored with fieldIds [\"exploration\",\"engineering\"]), the engineering-degree fact found for Gagarin here is thinner (one thesis, completed post-fame) and was used only as trait evidence (mastery_orientation/discipline), not as grounds to add a second fieldId.\n\nSources: 7 total, 1 orientation-only (Wikipedia) + 6 used as scored evidence, every one actually fetched and read in full this session (not cited from search-result snippets alone) -- ESA (institution), IEEE Spectrum/James Oberg (press; retired NASA Mission Control veteran and space historian), RFE/RL (press; reporting a 2018 Russian Defense Ministry declassification of Gagarin's own 1960-61 official training evaluation file), The Space Review/Asif Siddiqi (archive; scholarly analysis of a declassified 9 May 1961 official Soviet post-flight debrief), NASA history office (institution), and Euronews (press; direct testimony from daughter Elena Gagarina and fellow cosmonaut Alexey Leonov). This clears the >=2-independent-provenance-perspective and >=1-non-self-behavioral bar several times over: none of the 6 scored sources is Gagarin's own memoir or self-testimony -- all are independent institutional accounts, press reporting on declassified official records, or a credentialed historian's archival analysis. His own memoir (\"Road to the Stars\") was deliberately NOT used: it was not directly accessible for a genuine read in this session (no verifiable full-text access found), and given the six independent, non-self sources already assembled, self-testimony was not needed as a load-bearing source, unlike the Hitchcock file's Truffaut interview.\n\nSeveral additional candidate sources were found via search but deliberately NOT cited as evidence because I could not actually open and read them myself in this session despite repeated attempts (Smithsonian's \"Saint Yuri\" and \"How Yuri Gagarin Was Picked to Be First in Space\" articles, the Smithsonian National Air and Space Museum's Gagarin-vs-Shepard page on a second attempt, astronautix.com's hosted Kamanin diary excerpts, a NASA significant-incidents PDF, and several sites carrying Gagarin's 1961 farewell letter to his wife -- all returned HTTP 403/500/connection errors to direct fetch). Their content (e.g. the widely-reported peer vote among the 20 candidates, the Korolev shoe-removal anecdote, Kamanin's diary reasoning for choosing Gagarin over Titov, and the farewell-letter text) is real and independently corroborated across multiple secondary tellings, but per this project's evidence discipline (rubric: actually read sources, don't cite search snippets) none of it was used to support a scored row -- most notably, risk_tolerance was considered and deliberately dropped rather than scored from the farewell-letter anecdote alone, since that source could not be directly verified by this session and no other directly-read source gave squarely-on-point risk_tolerance evidence (Oberg's IEEE Spectrum piece confirms Gagarin had manual-control command codes but never needed to use them; the actual flight-decision evidence found supports ambiguity_tolerance, not risk_tolerance specifically).\n\n6 rows scored, deliberately not padded toward the 18-attribute eligibility floor -- this candidate's genuinely verifiable evidence clusters tightly around three episodes (the selection/evaluation record, the Vostok 1 flight and reentry anomaly, and his post-flight professional conduct) rather than a full-life primary-source base, so fewer, honestly-supported rows at correspondingly capped confidence was preferred over stretching thin signals across more attributes (the same discipline the rubric applies to ancient/medieval subjects, applied here because of source-access limits rather than source scarcity). Candidates considered and dropped: risk_tolerance (see above), decisiveness (Oberg's account explicitly notes he never needed to exercise manual override judgment calls comparable to Armstrong's Apollo 11 descent), curiosity, independent_thinking, leadership_drive, and achievement_drive (each would have either drawn on sources not directly read this session, or substantially double-counted the same one or two NASA-sourced facts already carrying persistence/mastery_orientation/discipline). Eligibility (`evaluateMatchEligibility`) was not computed and is not a target -- 6 scored rows will not clear the 18-attribute floor, and that is an honest, expected outcome for this evidence base, not a defect to correct by padding. Status set to evidence_approved (not qa_passed), consistent with CandidateStatus's documented distinction.\n\nPortrait: verified live via the Wikimedia Commons API (action=query, prop=imageinfo, iiprop=url|size|extmetadata) against File:Yuri_Gagarin_(1961).jpg before download -- confirmed License/LicenseShortName/UsageTerms all \"Public domain\", Copyrighted=false, Artist \"Arto Jousi / Suomen valokuvataiteen museo / Alma Media / Uuden Suomen kokoelma\", dated 3 July 1961 (Gagarin at a Helsinki press conference during his post-flight goodwill tour of Finland), credit \"Finnish Museum of Photography\". Downloaded the full-resolution original (2213x2767, 2,954,464 bytes -- matches the API-reported size exactly) via curl with a TheGreatInside-research/1.0 user agent, resized to 1600px on the longest side with Python PIL/LANCZOS (source: RGB, 2213x2767 -> saved: 1280x1600, JPEG quality 85), verified the resized file's actual on-disk dimensions by re-opening it, visually confirmed via direct image read that it is a clear, correctly-oriented bust portrait (not a crop artifact, group photo, or mislabeled file), and deleted the raw temp download from the repo root afterward. A second Commons candidate (File:Yuri-Gagarin-1961-Helsinki.jpg, same photographer/session, also verified PD) was considered but not used since the first file is the more standard/iconic crop already referenced under the plain \"(1961)\" filename."
+  },
+  "localization": {}
+}

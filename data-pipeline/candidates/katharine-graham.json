@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "katharine-graham",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Katharine Graham",
+    "wikidataId": "Q435203",
+    "birthYear": 1917,
+    "deathYear": 2001,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "media_executive",
+      "executive"
+    ],
+    "fieldIds": [
+      "journalism",
+      "business"
+    ],
+    "impactDomains": [
+      "cultural",
+      "social",
+      "historical"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "organizational_leader"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_graham_wikipedia",
+      "kind": "wikipedia",
+      "title": "Katharine Graham",
+      "url": "https://en.wikipedia.org/wiki/Katharine_Graham"
+    },
+    {
+      "id": "src_graham_npr_freshair_1997",
+      "kind": "archive",
+      "title": "Terry Gross interview with Katharine Graham, NPR Fresh Air (recorded 1997, re-aired/transcribed Dec. 15, 2017 as \"How Katharine Graham Defied A Federal Judge To Publish The Pentagon Papers\") -- opened and read in full. Graham's own words, self-testimony: the Pentagon Papers phone-call decision narrated in detail (the ~1-minute deadline, Fritz Beebe's hedged advice, \"I said let's go. Let's publish. And I hung up\"), her own account of her Wall Street image-management, and her account of backing Woodward/Bernstein through sustained anxiety during Watergate (\"I lay about a foot above the bed, worrying at night... I also didn't think we had any choice except to proceed\").",
+      "url": "https://www.npr.org/transcripts/571106581"
+    },
+    {
+      "id": "src_graham_npr_freshair_1995_bradlee",
+      "kind": "archive",
+      "title": "Terry Gross interview with Ben Bradlee, NPR Fresh Air (recorded 1995, re-aired/transcribed Dec. 15, 2017 as \"Former 'Post' Executive Editor Ben Bradlee On Publishing The Pentagon Papers\") -- opened and read in full. Independent, non-self testimony from Graham's own executive editor describing her decision-making from his side: \"It wasn't my decision... It was Katharine Graham's decision... It was easy for Katharine to say let's go\"; \"she trusted our judgment in these things... sometimes she may have held her breath, but she thought these people are really serious.\" Corroborates, from outside Graham's own voice, the decisiveness and delegated trust documented in her own account.",
+      "url": "https://www.npr.org/2017/12/15/571098752/former-post-executive-editor-ben-bradlee-on-publishing-the-pentagon-papers"
+    },
+    {
+      "id": "src_graham_cjr_meyer_strike",
+      "kind": "press",
+      "title": "Eugene L. Meyer, \"Lessons from a Washington Post labor dispute,\" Columbia Journalism Review (March 5, 2019) -- opened and read in full. Independent, non-self, behavioral eyewitness account: Meyer was a rank-and-file Washington Post Newspaper Guild member who lived through the 1975-76 pressmen's strike (not management, not Graham). Documents specific Graham actions: she delivered a December 1975 final contract offer she \"fully expected the pressmen would refuse\"; when they did, she \"proceeded to hire 'replacement' workers\"; she personally addressed newsroom employees during the dispute; and, later, her son Donald Graham negotiated directly with Meyer as Guild chair. Also documents the strike's real human cost (a pressman's suicide after the union was broken) independent of Graham's own memoir.",
+      "url": "https://www.cjr.org/first_person/washington-post-strike.php"
+    },
+    {
+      "id": "src_graham_nyhistory_pentagonpapers",
+      "kind": "institution",
+      "title": "\"'Let's go. Let's publish.' Katharine Graham and the Pentagon Papers,\" New-York Historical Society, Center for Women's History blog (June 7, 2021) -- opened and read in full. Independent institutional account (not Graham's own publication) synthesizing primary-source detail: she was interrupted mid-speech at a farewell party in her own home to take the decision call; Judge Gerhard Gesell's later on-record remark to her (\"I was the only judge... who never stopped the presses for a minute\"); and her own later, specifically dated self-assessment of change over the Pentagon-Papers-to-Watergate period (\"I had warmed up to a degree of toughness of which I probably wouldn't have been capable the year before... much more willing to go on the offensive rather than be defensively polite\"), presented and verified by the institution's own historians rather than taken solely from her memoir.",
+      "url": "https://www.nyhistory.org/blogs/lets-go-lets-publish-katharine-graham-and-the-pentagon-papers"
+    },
+    {
+      "id": "src_graham_smithsonian_henderson",
+      "kind": "institution",
+      "title": "Anna Diamond, \"What The Post Gets Right (and Wrong) About Katharine Graham and the Pentagon Papers,\" Smithsonian Magazine (Dec. 29, 2017), quoting Amy Henderson, historian emerita and curator of the Smithsonian National Portrait Gallery's \"One Life: Katharine Graham\" exhibit -- opened and read in full. Independent institutional/curatorial assessment: corrects the popular narrative by noting Graham had already been publisher for eight years by the Pentagon Papers decision (not the novice the film implies), documents her early self-doubt on taking over in 1963, and states plainly that \"it was Katharine Graham who made the ultimate decisions -- not Ben Bradlee.\"",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/what-the-post-gets-right-wrong-katharine-graham-pentagon-papers-180967677/"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 85,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Interrupted at a farewell party in her own home on June 17, 1971, she had roughly a minute on the phone to decide whether to publish the Pentagon Papers while her own lawyers hedged (colleague Fritz Beebe: \"I guess I would not\") and her editors pushed to go immediately -- she said \"Let's go. Let's publish\" and hung up (her own NPR Fresh Air account). Independently corroborated from Bradlee's own side: \"It was easy for Katharine to say let's go,\" and by Smithsonian curator Amy Henderson's assessment that \"it was Katharine Graham who made the ultimate decisions.\" A second, independent documented instance: during the 1975-76 pressmen's strike she delivered a final contract offer she \"fully expected the pressmen would refuse,\" then followed through by hiring permanent replacements when they did (Eugene Meyer/CJR, an independent on-the-scene account). Two distinct, well-corroborated instances from multiple independent sources, not a single anecdote."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chose to publish the Pentagon Papers knowing the newly-public Washington Post Company faced possible criminal prosecution, loss of its WTOP/WJXT television licenses, and damage to its stock offering if convicted (her own NPR account: \"we were particularly liable to any kind of criminal prosecution\"; independently corroborated by the New-York Historical Society's account of the identical stakes). She then sustained Watergate coverage for two years under direct White House hostility -- Attorney General John Mitchell's threat that \"Katie Graham's gonna get her tit caught in a big fat wringer\" -- and held firm through the pressmen's strike despite violent picketing and her own effigy being burned (Meyer/CJR). Multiple distinct documented instances of proceeding against serious, named institutional and personal risk."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained direct institutional conflict with the Nixon White House for roughly two years during Watergate (\"we were into it up to our waists... I didn't think we had any choice except to proceed and to back the editors and reporters\" -- her own NPR account) and personally led the Post through the 14-month 1975-76 pressmen's strike, delivering the offer she expected to be rejected and refusing arbitration even while picketed with signs invoking her husband's suicide (Meyer/CJR, an independent eyewitness Guild-member account). Rated dual_edged rather than pure advantage: the same strike conflict Meyer documents also had a genuine, independently reported human cost -- a striking pressman ended his life after the union was broken -- a real downside of this pattern that is not glossed over."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Backed Woodward and Bernstein's Watergate reporting continuously for roughly two years (1972-1974) through sustained White House hostility and stock-price pressure (her own NPR account), and separately stayed the full course of the 14-month 1975-76 pressmen's strike to its conclusion rather than settling early (Meyer/CJR, independent). Two distinct, independently-sourced, multi-month/multi-year episodes of sustained effort under adversity -- meets the corpus-wide strong_inference bar of two-or-more independent facts."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented transformation from a self-described novice overwhelmed by \"terrible self-doubt\" on unexpectedly taking over as publisher in 1963 (\"Me? I exclaimed. That's impossible. I couldn't possibly do it\" -- quoted independently by Smithsonian curator Amy Henderson) to someone who, by Nixon's 1974 resignation, described having \"warmed up to a degree of toughness of which I probably wouldn't have been capable the year before... much more willing to go on the offensive rather than be defensively polite\" (quoted independently by the New-York Historical Society). Two distinct, independently-sourced facts documenting the same multi-year trajectory, not one quote stretched into a pattern."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Personally recruited Ben Bradlee as managing editor after noticing newsroom discontent, checking references with Walter Lippmann and his Newsweek colleagues, and working through initial resistance from other editors (her own detailed NPR account), then ran a sustained consultative relationship with Bradlee and managing editor Howard Simons -- \"I used to go down and talk to Ben and Howard Simons all the time... and ask, are we being fair? Are we being accurate?\" during Watergate. Independently corroborated from Bradlee's side: \"she trusted our judgment in these things\" (his own 1995 NPR account). Two distinct, independently-sourced facts of sustained consultative practice."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Beyond holding the publisher title, actively shaped her editorial leadership: personally pursued and installed Bradlee as managing editor against some internal resistance (her own detailed NPR account of a roughly year-long recruitment), and personally led the company's response to the 1975-76 pressmen's strike, delivering the final contract offer and addressing newsroom employees directly during the dispute (Meyer/CJR, independent). Two distinct, independently-sourced instances of proactively shaping the institution rather than passively presiding over it."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Initiated the recruitment of Ben Bradlee herself: invited him to lunch on her own initiative after noticing newsroom discontent and that he had turned down other job offers, checked him out with Walter Lippmann and Newsweek colleagues, and pushed the appointment through skeptical editors over roughly a year of deliberate follow-through (her own detailed NPR Fresh Air account). A single source but an unusually specific, multi-step, self-described process rather than a general characterization -- kept in the single-strong-documented-instance confidence band since it is not independently corroborated."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "By the mid-1970s, documented as deliberately breaking dinner-party gender convention to join the men's political conversation rather than the women's (Smithsonian/Henderson), and as hosting the widely-covered 1966 Black and White Ball and the influence-building salons that followed it, which former Secretary of State George Shultz specifically credited with growing her Washington influence (New-York Historical Society curator Jeanne Gutierrez's independent account). Scored on the pattern that dominates her working life -- the confident, later pattern -- rather than the self-described shy/insecure early period the same sources also document."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "During Watergate, continued backing reporters for months while explicitly uncertain whether they were being misled: \"I used to go down and talk to Ben and Howard Simons... and ask, are we being fair? Are we being accurate? And are we being set up or misled so our heads can be chopped off?\" -- proceeding regardless because she \"didn't think we had any choice\" (her own NPR account). A single, detailed, self-described instance; capped at the inference band rather than claimed as independently corroborated."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "By her own account, responded to being seen on Wall Street as \"this kind of nutty woman who was taking these risks with the company\" after the Pentagon Papers decision by deliberately reframing the company's public message around \"excellence and profitability go hand in hand\" to reassure investors while still investing editorially (her own NPR Fresh Air account). A single self-described instance of a deliberate communications workaround; scored in the inference band."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "Built durable Washington influence substantially through hosting -- the 1966 Black and White Ball and the salons that followed -- which a contemporary (George Shultz, per the New-York Historical Society curator's independent account) specifically credited with growing her influence by bringing together otherwise-disconnected political, business, and media figures. A real but indirect, hosting-based form of influence rather than rhetorical persuasion; single independent source, inference band."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Twice chose publication consequence over corporate safety when the two conflicted: the Pentagon Papers decision knowingly risked the company's just-completed stock offering and broadcast licenses (her own NPR account; independently corroborated by the New-York Historical Society's account of the identical stakes), and she sustained Watergate coverage through direct advertiser and stock pressure rather than pulling back (\"I didn't think we had any choice except to proceed\" -- her own NPR account). Two distinct, independently-sourced instances of prioritizing publication consequence over immediate business safety."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/katharine-graham-1975.jpg",
+    "width": 1251,
+    "height": 1600,
+    "source": "Nationaal Archief (Netherlands), Fotocollectie Anefo, via Wikimedia Commons",
+    "license": "CC0 1.0 Universal (Public Domain Dedication)",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Photographer unknown / Anefo, 22 May 1975 (guest at a meeting of the Dutch Newspaper Press, NDP); retouched crop by Wikimedia Commons contributor Der Angemeldete",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Katharine_Graham_927-9432_(cropped_retouched).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Fresh research (not part of a numbered roster cycle checkpoint -- produced as a standalone candidate file per direct task instruction). Wikidata QID Q435203 taken as pre-verified per task instructions, not re-checked live in this session. Zero-politics screening: scored strictly as a newspaper publisher/business executive (occupationIds media_executive+executive; fieldIds journalism+business) -- her Pentagon Papers/Watergate decisions are scored as publication/management decisions (what she did as a publisher under pressure), never as political content or political identity, matching the project's existing treatment of journalists covering political/military subjects. No health/psychological/death-based inference used (she died in 2001 of a head injury from a fall; not referenced in any row). 6 sources, all actually opened and read in full (not just found via search): Wikipedia (orientation only, not scored evidence), Katharine Graham's own 1997 NPR Fresh Air interview (self-testimony, functionally similar in role to her memoir Personal History -- the memoir itself was not independently accessed this session, only as quoted within the New-York Historical Society and Smithsonian institutional accounts below), Ben Bradlee's own 1995 NPR Fresh Air interview (independent, non-self, directly describing her decision-making from the outside), Eugene L. Meyer's 2019 Columbia Journalism Review first-person account of the 1975-76 pressmen's strike (independent, non-self, behavioral -- Meyer was a rank-and-file Guild member, not management, with no institutional loyalty to Graham), and two independent institutional accounts (New-York Historical Society Center for Women's History; Smithsonian Magazine quoting National Portrait Gallery curator Amy Henderson). Satisfies the >=2 independent-provenance-perspective and >=1 non-self-behavioral requirement several times over: Bradlee (non-self, archive) and Meyer (non-self, press/eyewitness) are both genuinely independent of Graham's own testimony and both describe her concrete behavior, not just her reputation. Ben Bradlee's memoir \"A Good Life\" and David Halberstam's \"The Powers That Be\" -- the two book-length independent sources this task specifically flagged as ideal -- were located on the Internet Archive but their full text is behind Controlled Digital Lending (borrow-only, login-gated); consistent with this project's discipline against fabricating access to unread sources, they were NOT used as cited evidence since their content could not actually be opened and read this session, and no quote or claim in this file is attributed to either book. 13 rows scored (of 34 possible), each traced to a specific quoted statement or a specific, named, dated incident -- not inferred from her fame, her company's success, or her occupation. Thinking/creativity-facet attributes (curiosity, analytical_rigor, creative_originality, etc.) were deliberately left unscored: the accessible source base documents her executive decision-making and institutional behavior in real depth, but does not document those facets with genuine specificity, and padding them would violate the rubric's anti-halo-effect rule. The 1975-76 pressmen's strike is scored honestly on both sides: it supports decisiveness/risk_tolerance/persistence/leadership_drive as real, positive behavioral evidence, but conflict_tolerance is deliberately marked dual_edged rather than a clean advantage because Meyer's independent account also documents a striking pressman's suicide after the union was broken -- a real cost of the same pattern, not omitted. 13 scored attributes is below eligibility_v2's 18-attribute floor, so this candidate is expected to be non-match-eligible; per this project's publication/match-eligibility separation architecture, that is not a reason to hold or pad the profile -- evidence_approved reflects genuine confidence in each of the 13 rows as written, at the source depth actually available and actually read this session."
+  },
+  "localization": {}
+}

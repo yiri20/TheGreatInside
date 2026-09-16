@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "elvis-presley",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Elvis Presley",
+    "wikidataId": "Q303",
+    "birthYear": 1935,
+    "deathYear": 1977,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer",
+      "musician",
+      "actor"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_elvis_wikipedia",
+      "kind": "wikipedia",
+      "title": "Elvis Presley",
+      "url": "https://en.wikipedia.org/wiki/Elvis_Presley"
+    },
+    {
+      "id": "src_elvis_guitarplayer_thats_all_right",
+      "kind": "press",
+      "title": "Scotty Moore details the legendary That's All Right session -- Guitar Player (opened and read in full: Moore's own, directly quoted, first-person account of the July 5, 1954 Sun Studio session, including Sam Phillips's real-time reaction)",
+      "url": "https://www.guitarplayer.com/news/scotty-moore-elvis-presley-thats-all-right-session"
+    },
+    {
+      "id": "src_elvis_performingsongwriter_band",
+      "kind": "press",
+      "title": "Stories From Elvis Presley's Band -- Performing Songwriter (opened and read in full: independent, non-self, named-collaborator testimony from four members of Presley's 1969-77 TCB band -- guitarist James Burton, bassist Jerry Scheff, pianist Glen D. Hardin, drummer Ronnie Tutt -- on his rehearsal method, on-stage cueing, and working style)",
+      "url": "https://performingsongwriter.com/stories-from-elvis-presleys-band/"
+    },
+    {
+      "id": "src_elvis_rockcellar_vegas1969",
+      "kind": "press",
+      "title": "Recalling Elvis Presley's Iconic 1969 Las Vegas Run, 50 Years Later -- Rock Cellar Magazine (opened and read in full: TCB pianist Larry Muhoberac's own account of the pre-residency rehearsal process at RCA Studios)",
+      "url": "https://rockcellarmagazine.com/elvis-presley-live-las-vegas-1969-50-year-anniversary/"
+    },
+    {
+      "id": "src_elvis_exclaim_binder",
+      "kind": "press",
+      "title": "Steve Binder Remembers the 1968 Comeback Special -- Exclaim! (opened and read in full: director Steve Binder's own, directly quoted account of producing the special, including the Colonel Parker/\"If I Can Dream\" creative-control episode)",
+      "url": "https://exclaim.ca/music/article/steve_binder_interview_reinventing_elvis_the_68_comeback_special"
+    },
+    {
+      "id": "src_elvis_furious_americansound1969",
+      "kind": "press",
+      "title": "Reinventing Elvis: The American Sound Studio Sessions -- Perfect Sound Forever / furious.com (opened and read in full: producer Chips Moman's and keyboardist Bobby Wood's own accounts of the January 1969 sessions)",
+      "url": "https://www.furious.com/perfect/elvis69.html"
+    },
+    {
+      "id": "src_elvis_americansongwriter_suspicious",
+      "kind": "press",
+      "title": "Behind the Song: \"Suspicious Minds\" by Elvis Presley -- American Songwriter (opened and read in full: producer Chips Moman's own account, including the Colonel Parker publishing-rights dispute during the session)",
+      "url": "https://americansongwriter.com/behind-the-song-suspicious-minds-by-elvis-presley/"
+    },
+    {
+      "id": "src_elvis_msbluestrail",
+      "kind": "institution",
+      "title": "Elvis Presley -- Mississippi Blues Trail (official historical marker text, Mississippi Blues Commission; opened and read in full for its account of Presley's youth absorption of blues, country, pop, and gospel, including the named local influence Lonnie Williams)",
+      "url": "https://msbluestrail.org/blues-trail-markers/elvis-presley"
+    },
+    {
+      "id": "src_elvis_history_thats_all_right_context",
+      "kind": "press",
+      "title": "Elvis Presley records \"That's All Right (Mama)\" -- History.com (opened and read in full: used only to CHECK, not to support, the popular claim that Presley personally made repeated return visits to Sun Records between his 1953 acetate and the 1954 session -- this source documents the follow-up as initiated by Sun personnel, not by Presley, and that finding is why this candidate does NOT score a Sun-Records \"kept returning\" persistence anecdote; see provenance.notes)",
+      "url": "https://www.history.com/this-day-in-history/july-5/elvis-presley-records-thats-all-right-mama"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "On July 5, 1954, after roughly three hours of unproductive, slow ballad takes, Presley spontaneously broke into an improvised, uptempo version of Arthur Crudup's \"That's All Right\" during a break; Bill Black joined in on bass, and Sam Phillips, overhearing through the door, said it \"sounds pretty good\" -- Scotty Moore's own, directly quoted account of the session that produced Presley's first single. A second, independent documented instance 14 years later: 1968 Comeback Special director Steve Binder recounts that arrangements were tested and discarded based on Presley's own reaction -- \"If he didn't like ['If I Can Dream'], they'd scrap it. If he didn't like how he sounded with an orchestra, they'd keep the rhythm section.\" Two independent, specific documented instances of departing from the planned approach and keeping only what worked; not scored higher because this rests on two anecdotes, not a larger corroborated corpus."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The official Mississippi Blues Trail historical marker documents Presley's teenage absorption of blues (naming a specific local influence, Tupelo guitarist Lonnie Williams) alongside country, pop, and gospel, crediting him with \"blending\" them rather than specializing in one. Independently, in his Las Vegas years TCB bassist Jerry Scheff recounts Presley deliberately working to \"ease out of the rock 'n' roll business\" toward \"more adult-type stuff\" -- a second, sustained documented effort to work across musical registers. Two independent facts/sources converging on the same pattern (this project's own strong_inference bar), not a single anecdote or an inference from genre-crossing fame itself."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Three independent documented instances of Presley asserting creative control against the people managing him: (1) after getting his way over manager Colonel Parker's preference for a closing Christmas song on the 1968 Comeback Special, Presley declared \"I'm never going to sing another song I don't believe in\" (director Steve Binder's account); (2) at the January 1969 American Sound sessions he \"assert[ed] a kind of independence which was unusual for him\" and pushed back on material he questioned (Chips Moman-sourced account); (3) Moman separately recounts Presley proceeding to record \"Suspicious Minds\" despite Parker threatening to halt the session over a publishing dispute (American Songwriter, quoting Moman). Multiple independent, on-point documented instances from three separately-published sources. Marked dual_edged rather than pure advantage because two of the three instances explicitly involved real conflict with his own manager, not friction-free outcomes."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The July 1954 breakthrough session was a three-way, real-time co-creation: Presley started playing, Bill Black joined on bass, and Scotty Moore \"was trying to find the chords\" along with them (Moore's own account). Fifteen years later, TCB band members independently describe the same interactive working style: bassist Jerry Scheff said full-band rehearsals were \"more like we were just having fun, like jamming\"; guitarist James Burton recalled \"great eye contact\" and that Presley \"keyed off the guitar\"; pianist Larry Muhoberac described call-and-response (\"Elvis would ask, 'Hey, do you know this or that,' and he'd play a little of it\"). Multiple independent, on-point documented instances spanning his career, not a single anecdote."
+    },
+    "perfectionism": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Before the 1969 Las Vegas residency, the TCB band rehearsed as many as 150-200 songs from Presley's catalog at RCA Studios; pianist Larry Muhoberac described the process as \"refining it and getting the songs into shape\" rather than casual run-throughs. At the American Sound sessions the same year, Presley is independently described as re-recording songs until satisfied, though exact take counts are not documented in the sources reviewed. A real, evidenced lean toward extensive rehearsal and refinement from two independent sources; kept out of the 71+ band because the available accounts describe the pattern in general terms rather than the take-by-take specificity a higher score would require."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Producer Chips Moman recounts that on first hearing the demo for \"Suspicious Minds,\" Presley \"wanted to hear the song over and over again, and learned it on the spot\" before recording it in the same 4-7am session (American Songwriter, quoting Moman). Independently, TCB pianist Larry Muhoberac recalled Presley rehearsing deep catalog material, including his own early Sun sides, \"for Elvis' personal enjoyment as much as seeing which numbers would work best live\" -- engagement with the material for its own sake, not only commercial calculation. Two independent, distinct documented instances of intrinsic engagement with craft."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "TCB drummer Ronnie Tutt recounts that Presley used physical, karate-derived cues to direct the band through live song transitions and solos, and that band members studied the same discipline specifically to anticipate him. Guitarist Glen D. Hardin separately describes Presley directing arrangement work directly (\"he'd tell me the song, then say he wanted it the next day\"). Two distinct, independently-described mechanisms of directing musicians' work, both from named TCB band members; kept at strong_inference rather than a higher band because both accounts come from the same single article rather than two separate outlets."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Guitarist James Burton: \"You never knew which way he was going to go on stage. He could change at any moment.\" Glen D. Hardin separately recalls a specific instance at the Forum where Presley launched into a requested song with only minimal pickup notes, requiring the band's instant response. Two distinct, independently-described episodes -- a general pattern plus a specific named-venue incident -- of departing from the planned set and requiring real-time adjustment from those around him."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The July 5, 1954 session produced roughly three hours of unproductive, slow ballad takes before the breakthrough that became Presley's first single (Scotty Moore's own account of the session) -- continued work through a discouraging stretch rather than stopping. Independently, preparation for the 1969 Vegas residency involved weeks of full-band rehearsal covering up to 200 songs before the engagement opened (Rock Cellar Magazine; Performing Songwriter). Two distinct, independently documented instances of sustained effort through an extended, initially unproductive stretch of work. See provenance.notes on a related, more famous persistence claim that was checked and deliberately NOT used here."
+    },
+    "achievement_drive": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "After the 1968 comeback, Presley told his circle \"I really just want to see if I can have a number one record one more time\" -- a specific, self-articulated goal, not an inference from chart outcomes (quoted in the furious.com account of the American Sound sessions). TCB bassist Jerry Scheff independently recalled Presley's separate desire to \"be taken more seriously by critics\" as part of the same period's push for renewed standing. Two distinct, independently-sourced statements of an explicit achievement goal (chart success, critical respect) rather than backward inference from sales or fame, which this project's rubric forbids."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/elvis-presley-1959.jpg",
+    "width": 1600,
+    "height": 1222,
+    "source": "U.S. Army, via the National Archives and Records Administration / Defense Visual Information Distribution Service (DVIDS)",
+    "license": "Public Domain (official work of the U.S. federal government -- 17 U.S.C. § 105 -- no known copyright restrictions)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_training_with_rocket_launcher.jpg",
+    "attribution": "U.S. Army photo, VIRIN 591001-A-D0431-1001 (dvidshub.net/image/8152191), August 1959, Wildflecken, West Germany",
+    "creator": "Jack R. Thornell (credited on file; U.S. Army)",
+    "date": "1959-08",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_training_with_rocket_launcher.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster34 candidate. Identity (canonicalName, wikidataId Q303, birth/death years, era, nationalityCodes, regionCode, occupationIds, fieldIds, impactDomains, archetypeIds) supplied pre-verified by the requesting task and used as given, not re-derived. Evidence pack: 9 sources -- Wikipedia (orientation only, never used as scored evidence), 6 independent press outlets (Guitar Player, Performing Songwriter, Rock Cellar Magazine, Exclaim!, Perfect Sound Forever/furious.com, American Songwriter) each opened and read in full and each carrying named-collaborator, non-self, behavioral testimony (Scotty Moore, TCB band members James Burton/Jerry Scheff/Glen D. Hardin/Ronnie Tutt/Larry Muhoberac, director Steve Binder, producer Chips Moman), 1 institutional source (Mississippi Blues Trail official marker), and 1 additional press source (History.com) consulted specifically to fact-check a claim, described below. This clears the >=2 independent-perspective and >=1 non-self-behavioral bar by a wide margin -- essentially every scored row rests on named, independent, non-self collaborator testimony, not on Presley's own self-reported words alone. 10 rows scored: experimentation, cross_domain_range, autonomy_need, collaboration, perfectionism, mastery_orientation, leadership_drive, adaptability, persistence, achievement_drive -- all traceable to specific documented behavioral incidents or working-method accounts, never to fame, record sales, or cultural-icon status (which were deliberately not used as evidence for any row, per rubric section 6). No row is based on his health, prescription-drug use, or death -- deliberately excluded per this project's standing rule against inferring personality from health/psychological-state framing, and per this task's explicit instruction; several sources reviewed (Performing Songwriter, furious.com) did surface health/decline-adjacent material (e.g. a bandmate's account of his later clinical depression, another's account of his belief that doctor-prescribed medication was safe) and that material was read but deliberately excluded from every rationale below, not merely left unscored. FACT-CHECK NOTE on a claim NOT used: a widely-repeated popular version of the Sun Records origin story holds that Presley personally, repeatedly returned to Sun Studio checking on work in the year between his August 1953 personal acetate and his June/July 1954 professional session. This was checked directly against History.com's account of the period, which instead documents the follow-up as initiated by Sun personnel (Marion Keisker's advocacy, then Sam Phillips's own outreach), with no evidence of repeated visits or inquiries by Presley himself in that window. That specific, popular anecdote was therefore deliberately NOT used to score persistence (or any other trait) -- the persistence row instead rests on two different, source-verified instances (continuing through an unproductive stretch of the July 5, 1954 session itself, and the multi-week 1969 Vegas rehearsal regimen). A second popular claim -- Sam Phillips's famous line about wanting to find a white man who could sound Black -- was considered for a risk_tolerance row and deliberately NOT used, because its exact wording and attribution are disputed among historians and it could not be confirmed to the documented-quote standard this rubric requires; risk_tolerance was left unscored rather than resting on a contested quote. Portrait: verified via the Wikimedia Commons API (imageinfo/extmetadata) before use -- File:Elvis_Presley_training_with_rocket_launcher.jpg, categories \"PD US Army\" and \"Images from the National Archives and Records Administration,\" carrying an explicit ID-USMil VIRIN (591001-A-D0431-1001) resolving to a DVIDS (Defense Visual Information Distribution Service, the official DoD public-affairs archive) image page -- an unambiguous U.S. federal government work, distinct from the many heavily-copyrighted professional/magazine/studio Elvis photographs (Modern Screen magazine covers, Alfred Wertheimer's commercially-licensed 1958 photographs -- Wertheimer's work was found tagged PD on Commons but was deliberately NOT used here despite that tag, since Wertheimer is a named, still-commercially-active photographer whose Elvis archive is otherwise actively and exclusively licensed, making an uploader's own PD claim on his work an unreliable signal not to be trusted at face value) that were considered and rejected. The image (Elvis Presley kneeling with a 3.5-inch rocket launcher during training at Wildflecken, West Germany, August 1959) was downloaded at full resolution (2787x2128) and resized to 1600px longest side (1600x1222) via PIL/LANCZOS; the raw temp download was deleted after resizing, and the resized file's existence and real dimensions were verified on disk before this candidate was finalized."
+  },
+  "localization": {}
+}

@@ -36,20 +36,24 @@ describe("match-pool integrity audit: cohort counts", () => {
 
   it("classifies every production person exactly once", () => {
     expect(inventory).toHaveLength(SEED_PEOPLE.length);
-    expect(inventory).toHaveLength(239);
+    expect(inventory).toHaveLength(251);
   });
 
   it("matches the live production/directory/eligible counts", () => {
     // Match-eligible dropped 127->126->123->120->117->114 across legacy
     // integrity batches 1-5 (see the batch-remediation docs for detail).
-    // Roster33 (2026-09-16, docs/checkpoints/roster33.md) is the first
+    // Roster33 (2026-09-16, docs/checkpoints/roster33.md) was the first
     // cycle since that stayed level at 114: it added 14 new
     // evidence_approved, directory-visible, non-match-eligible people
-    // (publication and eligibility are architecturally independent by
-    // design -- see docs/checkpoints/profile-publication-vs-match-
-    // eligibility.md), so directory-visible rose 224->238 while
-    // match-eligible held at 114.
-    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(238);
+    // (publication and eligibility are architecturally independent --
+    // see docs/checkpoints/profile-publication-vs-match-eligibility.md),
+    // so directory-visible rose 224->238 while match-eligible held at 114.
+    // Roster34 (2026-09-16, docs/checkpoints/roster34.md) repeats the same
+    // pattern: 11 new candidates plus Haruki Murakami (a Roster33 holdover
+    // promoted on a resolved portrait gate only), all non-match-eligible
+    // as an honest evidence outcome -- directory-visible rose 238->250,
+    // match-eligible held at 114 for a second consecutive cycle.
+    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(250);
     expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(114);
   });
 
@@ -99,7 +103,7 @@ describe("match-pool integrity audit: lineage classification", () => {
     const map = buildLineageMap();
     for (const p of SEED_PEOPLE) {
       const lineage = classifyLineage(p.slug);
-      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-3])$/);
+      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-4])$/);
       if (lineage !== "roster1") {
         expect(map.get(p.slug)).toBe(lineage);
       } else {
