@@ -68,13 +68,14 @@ outcome as Che Guevara's roster-12 precedent, not a forced 15th slot or a
 weakened standard. His candidate file is ready for a future cycle's
 dedicated portrait search.
 
-Per-candidate evidence summary (all `evidence_approved`, all
-non-match-eligible by design):
+Per-candidate evidence summary (all `evidence_approved`; all became
+non-match-eligible as an honest result of evidence-grounded scoring —
+eligibility was not targeted, see the pre-merge correction note below):
 
 | Slug | Rows | Sources | Independent perspectives |
 |---|---|---|---|
 | alexander-fleming | 3 | 3 | Fleming's own account + assistant V.D. Allison's independent corroboration |
-| alfred-hitchcock | 5 | 2 | Wikipedia + Hitchcock/Truffaut interview book |
+| alfred-hitchcock | 5 | 3 | Hitchcock/Truffaut interview (self) + BFI institutional account with named-collaborator testimony (independent, non-self, behavioral) — added in the pre-merge correction below; Wikipedia remains orientation-only, never scored evidence |
 | bill-gates | 6 | 3 | documentary (named colleagues) + independent CNBC reporting |
 | bob-dylan | 5 | 3 | his memoir + independent Newport-1965 journalism |
 | carl-sagan | 3 | 3 | original TTAPS journal article + independent press coverage of the 1986 arrest |
@@ -91,6 +92,50 @@ non-match-eligible by design):
 Every shipped candidate carries ≥2 independent provenance perspectives and
 ≥1 non-self behavioral source; Wikipedia was used for orientation only, never
 as a scored-evidence source.
+
+## Pre-merge correction: Alfred Hitchcock evidence gap (2026-09-16)
+
+Pre-merge review of PR #41 found Hitchcock did NOT actually satisfy the
+Roster33 standard above at merge review time: his 2-source pack was
+Wikipedia (orientation only, explicitly not scored evidence) and the
+Hitchcock/Truffaut interview book — extensive, but still Hitchcock's own
+testimony. That is 0 independent non-self behavioral sources, not the
+required ≥1.
+
+A bounded (~20-minute), Hitchcock-only correction pass found and actually
+opened/read one qualifying source: Oliver Lunn, "10 things you (probably)
+never knew about the shower scene in Psycho," BFI (British Film Institute),
+bfi.org.uk. This is a serious institutional account (not a reputation
+summary, not a listicle of acclaim) carrying concrete, specific production
+facts and named-collaborator testimony independent of Hitchcock himself —
+editor John Venzon, documentarian Alexandre O. Philippe, and body double
+Marli Renfro on the making of the Psycho shower scene (78 camera setups and
+52 cuts for 45 seconds of screen time, shot over a full week — a third of
+the film's total schedule). Added to `alfred-hitchcock.json` as
+`src_hitchcock_bfi_shower_scene` (source kind `institution`). Hitchcock now
+carries 3 sources and satisfies both the ≥2-independent-perspectives and
+≥1-non-self-behavioral-source requirements.
+
+All 5 of Hitchcock's existing rows (`planning_orientation`,
+`detail_orientation`, `perfectionism`, `independent_thinking`,
+`autonomy_need`) were individually re-audited against this new evidence.
+The BFI account corroborates rather than contradicts every one of them
+(extreme advance planning, meticulous control, sustained insistence on a
+specific result) — no factual/evidence correction was required, so **no
+row's score/confidence/evidenceType/impact changed**. Per this project's
+standing rule, confidence was deliberately NOT raised merely because a
+second source now exists. No trait was added or targeted to affect
+eligibility; Hitchcock was already, and remains, non-match-eligible
+(`scored=5`, well under the eligibility floor) — this was a publication/
+evidence-quality correction only, with zero effect on eligibility or
+calibration. `roster33.ts` and `peopleIndex.generated.ts` were regenerated
+from the corrected candidate file: the diff is exactly one line (Hitchcock's
+`sources` array gaining the new entry) — QID, portrait, row tuples, and
+`directoryVisible` all unchanged, and `peopleIndex.generated.ts` came back
+byte-identical (sources aren't part of the compact index). Full validation
+gate re-run clean post-correction (`tsc`, `validateCandidates`,
+`checkScoringLockIntegrity`, `vitest` 1069/1069, `next build --webpack`,
+focused Playwright 118/118) — see Verification below for exact figures.
 
 ## Portrait sourcing (a real gap caught and fixed mid-cycle)
 
@@ -119,9 +164,24 @@ the `ROSTER_31`/`ROSTER_32` pattern. `peopleIndex.generated.ts` regenerated
 (239 entries); diff inspected — the only changes were the entry-count
 comment and exactly the 14 new slugs, no drift.
 
-## Interest-area pools, before → after
+## Category coverage, before → after — two DIFFERENT populations, do not conflate
 
-| Pool | Before | After | Delta |
+Pre-merge review of PR #41 found the table below (as originally written)
+was labeled "interest-area pools," which is the wrong term for a
+*matching* concept. `src/core/matching/interestScope.ts` (the actual
+interest-area **matching** feature) explicitly operates only on
+`results.ranked` — already match-eligible-only (see that module's own
+doc comment). Roster33 shipped 14 published people, all non-match-eligible;
+`PROFESSION_CATEGORIES` itself did not change. So the true MATCHING
+interest-scope pools could not have moved, and mechanically did not:
+
+### A. Production field-category coverage (published/directory domain — NOT the matching pools)
+
+All 239 production people (this is what the table below actually counted,
+mechanically reconfirmed by counting every published `SEED_PEOPLE` entry
+whose `fieldIds` intersects each category's `fieldIds`):
+
+| Category | Before (225 people) | After (239 people) | Delta |
 |---|---|---|---|
 | building_discovery | 33 | 39 | **+6** |
 | arts_culture | 85 | 90 | +5 |
@@ -130,8 +190,35 @@ comment and exactly the 14 new slugs, no drift.
 
 `building_discovery` (33 people, the weakest pool going in) got the largest
 proportional lift (+18%). All 14 shipped candidates land correctly in at
-least one of the four pools (verified directly against
-`PROFESSION_CATEGORIES`, not assumed).
+least one of the four categories (verified directly against
+`PROFESSION_CATEGORIES`, not assumed). This is **directory/published-profile
+domain coverage** — it describes what a browsing visitor sees in the
+People directory, not who the matching algorithm can surface as a result.
+
+### B. MATCH-ELIGIBLE interest-scope pools (the actual `interestScope.ts` population)
+
+Mechanically derived from the 114 match-eligible people only (`SEED_PEOPLE`
+filtered to `isMatchEligible`), at base (466e454) and at head (71025f0):
+
+| Category | Before (114 eligible) | After (114 eligible) | Delta |
+|---|---|---|---|
+| science_knowledge | 50 | 50 | +0 |
+| arts_culture | 43 | 43 | +0 |
+| leadership_society | 42 | 42 | +0 |
+| building_discovery | 15 | 15 | +0 |
+
+**Unchanged, exactly as expected**: all 14 Roster33 additions are
+non-match-eligible, so `results.ranked` — and therefore every
+interest-scope pool a user can actually be routed into via
+`selectInterestMatch()` — is bit-for-bit the same population before and
+after this PR.
+
+### Strategic conclusion (corrected)
+
+Roster33 improved DIRECTORY / published-profile domain coverage (table A),
+but because all 14 additions are non-match-eligible, it did **not** enlarge
+the personality-matching interest-scope pools (table B). No one's scores
+were altered to produce this outcome either way.
 
 Two `fieldIds` bugs were caught and fixed during this cycle: Carl Sagan was
 initially tagged `"astronomy"` (not a curated category fieldId — would have
@@ -158,14 +245,46 @@ crossed the alarm threshold.
 
 ## Legacy lane (unchanged, confirmed)
 
-`checkScoringLockIntegrity.ts`: 290 previously-committed candidate files
-checked, 0 flagged; legacy scoring lock covers the same 22 pre-pipeline
-production people, 0 flagged. No legacy person's rows, status, or
+`checkScoringLockIntegrity.ts` run POST-COMMIT (against clean committed
+HEAD, after Roster33's own new candidate files became "previously
+committed" too): **303 previously-committed candidate files checked, 0
+flagged**; legacy scoring lock covers the same 22 pre-pipeline production
+people, 0 flagged. (A pre-commit run earlier in the cycle reported 290 —
+that was correct at the time, since it necessarily excluded Roster33's own
+not-yet-committed candidate files; see Candidate file accounting below for
+the full base→head reconciliation.) No legacy person's rows, status, or
 directory/eligibility state changed. Match-eligible count held at 114
 throughout this cycle (the first cycle since Legacy Integrity Batch 1 where
 it didn't move) — expected, since publication and eligibility are
 architecturally independent and none of the 14 new people target
 `eligibility_v2`.
+
+## Candidate file accounting (pre-merge reconciliation)
+
+Pre-merge review of PR #41 found an arithmetic gap in the original report
+(290 base + 13 added = 303, not the "304" the checkpoint and PR body had
+claimed for `validateCandidates`). Re-derived mechanically on the clean
+committed head:
+
+- Base (`466e45417e42fcf46ae9a719599d52378ee9abac`, `origin/main`):
+  **290** committed candidate JSON files.
+- `git diff --name-status 466e454...HEAD -- data-pipeline/candidates`:
+  **13 added**, **2 modified** (`josephine-baker.json`, `jonas-salk.json`)
+  — exactly the intended design (Josephine Baker and Jonas Salk were
+  pre-existing `held` candidates reused and deepened, not newly created).
+- Head (`71025f017ad1826e8581fc6c520bddf212105ad2`): **303** committed
+  candidate JSON files. 290 + 13 = 303, confirmed.
+- `validateCandidates.ts` on the clean committed head: **"Loaded 303
+  candidate(s)"**, 0 errors, 0 warnings. By status: `qa_passed` 93,
+  `evidence_approved` 125, `held` 85 (93+125+85 = 303).
+- `checkScoringLockIntegrity.ts` on the same clean committed head:
+  **"Checked 303 previously-committed candidate file(s) against HEAD. 0
+  flagged."** — agrees exactly with the mechanically-derived committed
+  count. No discrepancy; no investigation blocker.
+
+The stale "304" in the original checkpoint/PR body was simply wrong — no
+304th file ever existed, locally or otherwise. Every prior "304" reference
+in this document has been corrected to 303.
 
 ## Test/audit-file maintenance (downstream consequences, not new legacy work)
 
@@ -210,8 +329,15 @@ assumption.
 
 ## Verification
 
-- `validateCandidates.ts`: 0 errors, 0 warnings (304 total candidate files).
-- `checkScoringLockIntegrity.ts`: 0 flagged (290 committed files + 22 legacy).
+Original cycle (pre-correction, superseded numbers struck through where
+they were wrong):
+
+- `validateCandidates.ts`: 0 errors, 0 warnings (~~304~~ **303** total
+  candidate files — see Candidate file accounting above for the
+  reconciliation).
+- `checkScoringLockIntegrity.ts`: 0 flagged (~~290~~ **303** committed
+  files + 22 legacy — 290 was the correct pre-commit figure at the time it
+  was measured, before Roster33's own candidates were committed; see above).
 - `tsc --noEmit`: clean.
 - `vitest run`: **1069/1069 passed**, 63 files (includes the new 130-test
   `roster33.test.ts`).
@@ -227,6 +353,28 @@ assumption.
   "isn't included in matching yet" state with a working "View Profile" link
   (covers both the Compare-flow check and the non-match-eligible-profile
   check), zero console errors throughout.
+
+Pre-merge correction cycle (2026-09-16, after the Hitchcock evidence fix
+and accounting corrections above), re-run in full on the corrected commit:
+
+- `validateCandidates.ts`: **"Loaded 303 candidate(s)"**, 0 errors, 0
+  warnings.
+- `checkScoringLockIntegrity.ts`: **"Checked 303 previously-committed
+  candidate file(s) against HEAD. 0 flagged."** Legacy: 22 covered, 0
+  flagged.
+- `tsc --noEmit`: clean.
+- `vitest run`: **1069/1069 passed**, 63 files (unchanged — the correction
+  touched no test files).
+- `next build --webpack`: succeeded, 502 static/SSG paths generated
+  (unchanged).
+- Focused Playwright (`peopleDirectory.spec.ts`, `person.visual.spec.ts`,
+  `compare.visual.spec.ts`): **118/118 passed** against the corrected
+  production build.
+- Hitchcock production entry mechanically diffed against the corrected
+  candidate file: row tuples identical (5/5), QID identical (`Q7374`),
+  portrait identical, `directoryVisible` identical (`true`), sources
+  identical (3/3, including the new BFI entry) — candidate and production
+  fully consistent.
 
 ## Distance to 250
 
