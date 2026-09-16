@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "josephine-baker",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Josephine Baker",
     "wikidataId": "Q151972",
@@ -22,7 +22,8 @@
       "activist"
     ],
     "fieldIds": [
-      "performing_arts"
+      "dance",
+      "music"
     ],
     "impactDomains": [
       "cultural",
@@ -122,13 +123,22 @@
   },
   "doNotCopyKeys": [],
   "portrait": {
-    "status": "not_available"
+    "status": "found",
+    "url": "/portraits/josephine-baker-1950.jpg",
+    "width": 325,
+    "height": 450,
+    "source": "Wikimedia Commons",
+    "license": "Public Domain (published 1931-1977 without a copyright notice; also public domain in Cuba as a photograph used more than 25 years ago)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Josephine_Baker_1950.jpg",
+    "attribution": "Rudolf Suroch, Havana, 1950",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Josephine_Baker_1950.jpg"
   },
   "provenance": {
     "createdAt": "2026-08-20T00:00:00Z",
     "updatedAt": "2026-08-20T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment, docs/roster-1000-checkpoint.md Sec.81): selected specifically for domain breadth (entertainment/activism/exploration) AND for an unusually well-documented public life spanning multiple distinct careers. 5 substantive sources consulted (Wikipedia for orientation only, plus 4 independent sources: the National WWII Museum's espionage account, a Cardiff University historian's dedicated research on her wartime contribution, the National Women's History Museum's biography, and a FRANCE 24 account of her financial collapse and comeback). Evidence ledger: 16 distinct, source-attributed episodes, spanning at least 6 life periods (St Louis childhood, early stage career, 1925 Paris stardom, WWII espionage, the civil-rights era, later-life financial collapse and comeback) and at least 6 behavioral contexts (solitary survival, career risk-taking, wartime risk/resourcefulness, principled public conflict, family-building/advocacy, persistence through total loss). Ledger built and locked BEFORE any trait score was assigned; trait scores locked BEFORE eligibility_v2 was consulted."
+    "notes": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment, docs/roster-1000-checkpoint.md Sec.81): selected specifically for domain breadth (entertainment/activism/exploration) AND for an unusually well-documented public life spanning multiple distinct careers. 5 substantive sources consulted (Wikipedia for orientation only, plus 4 independent sources: the National WWII Museum's espionage account, a Cardiff University historian's dedicated research on her wartime contribution, the National Women's History Museum's biography, and a FRANCE 24 account of her financial collapse and comeback). Evidence ledger: 16 distinct, source-attributed episodes, spanning at least 6 life periods (St Louis childhood, early stage career, 1925 Paris stardom, WWII espionage, the civil-rights era, later-life financial collapse and comeback) and at least 6 behavioral contexts (solitary survival, career risk-taking, wartime risk/resourcefulness, principled public conflict, family-building/advocacy, persistence through total loss). Ledger built and locked BEFORE any trait score was assigned; trait scores locked BEFORE eligibility_v2 was consulted. Roster33 (2026-09-16, docs/checkpoints/roster33.md): re-reviewed this existing held candidate rather than researching a new one from scratch (mechanical intake from the existing evidence-viable pool, the same efficiency precedent as roster25-31). No new research performed and no row rescored -- the existing 7-row pack, all already 'documented' evidenceType from named independent institutional/press sources, was found publication-safe on re-review (evidence_approved). The one real blocker -- portrait.status was 'not_available' -- was resolved this cycle: a 1950 Rudolf Suroch photograph (Havana), public domain in both the US and Cuba. Her civil-rights activism (refusing segregated venues, the 1963 March on Washington appearance) and WWII resistance work are read as her PRIMARY identity remaining performer/entertainer with these as well-documented secondary activities, not a political-activist-primary identity -- the same standard already applied to Neruda's and Shaw's pre-existing political/diplomatic material in Roster32."
   },
-  "holdReason": "Roster-1000 session 15 (tightly controlled 4-person calibration experiment): eligibility_v2 result after a locked, Session-13-depth-verified scoring pass (research-completeness gate confirmed BEFORE scoring: 4 independent substantive sources, 16 evidence-ledger episodes, 6 life periods, 6 behavioral contexts; eligibility_v2 run exactly once across the full 4-person cohort together, with no row modified afterward). 7 scored attributes (need 18); coverage 0.210 (need 0.6); HC count 7/12; HC average 0.616 (PASSES this sub-requirement). Despite the richest evidence ledger of the 4 (16 episodes, the broadest life-period/context spread), row count remained comparable to the other 3 -- a genuinely informative finding about episode-to-row conversion, not a research-depth shortfall."
+  "holdReason": "Superseded 2026-09-16 (Roster33) -- promoted to evidence_approved; portrait resolved. Original roster-1000 session-15 eligibility_v2 diagnostic kept below for the record, not a publication factor: 7 scored attributes (need 18); coverage 0.210; HC count 7/12; HC average 0.616 (passes this sub-requirement)."
 }

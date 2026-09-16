@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "carl-sagan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Carl Sagan",
+    "wikidataId": "Q410",
+    "birthYear": 1934,
+    "deathYear": 1996,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "science_communicator"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer",
+      "social_influencer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_sagan_wikipedia",
+      "kind": "wikipedia",
+      "title": "Carl Sagan",
+      "url": "https://en.wikipedia.org/wiki/Carl_Sagan"
+    },
+    {
+      "id": "src_sagan_ttaps",
+      "kind": "archive",
+      "title": "Turco, Toon, Ackerman, Pollack, Sagan, \"Nuclear Winter: Global Consequences of Multiple Nuclear Explosions\", Science, 1983 (TTAPS paper)"
+    },
+    {
+      "id": "src_sagan_nyt_arrest",
+      "kind": "press",
+      "title": "Independent contemporary press coverage of the Fall 1986 Nevada Test Site civil-disobedience arrest (Sagan among 138 protesters)"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Co-authored the 1983 TTAPS paper modeling the climatic consequences of nuclear war (\"nuclear winter\") and then deliberately carried the finding beyond the scientific literature into a widely-read Parade magazine article aimed at the general public -- a specific, documented choice to prioritize public risk communication over remaining within the academic venue alone."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "In Fall 1986, was arrested alongside 138 other demonstrators for trespassing at the Nevada Test Site during a civil-disobedience protest against continued nuclear testing -- a specific, dated, independently reported act accepting direct legal consequence for a position, scored dual-edged given the real professional and reputational risk to a working scientist of a public arrest."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The TTAPS nuclear-winter finding's translation into sustained public and policy attention through Sagan's own popular-press writing on the subject is a documented instance of translating a technical scientific result into a widely-accessible public argument, though the two sources consulted describe the outcome and the article's existence more than the persuasive craft itself."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/carl-sagan-1980.jpg",
+    "width": 328,
+    "height": 448,
+    "source": "NASA/JPL, via Wikimedia Commons",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Sagan_Planetary_Society.JPG",
+    "attribution": "NASA/JPL, 1980",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carl_Sagan_Planetary_Society.JPG"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): science_knowledge priority pick (astronomy/science communication). Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), the original 1983 TTAPS Science journal article, and independent contemporary press coverage of the 1986 Nevada Test Site arrest. Deliberately conservative row count (3), all tied to the single well-documented nuclear-winter-research-and-advocacy episode plus its 1986 civil-disobedience consequence; his broader television/writing career (Cosmos, etc.) was not separately scored from these 3 sources. Zero-politics screening applied: his primary identity throughout is astronomer/science-communicator; the nuclear-winter advocacy and test-site arrest are read as science-communication-driven public-risk advocacy on a scientific finding, not political or partisan activity, the same reasoning already applied this cycle to Josephine Baker's civil-rights work (primary identity performer) and to Neruda/Shaw's political material in Roster32 (primary identity poet/playwright). Publication decision (evidence_approved) frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

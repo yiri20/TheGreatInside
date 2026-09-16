@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "steve-wozniak",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Steve Wozniak",
+    "wikidataId": "Q483382",
+    "birthYear": 1950,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "entrepreneur",
+      "inventor"
+    ],
+    "fieldIds": [
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "entrepreneurial",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "technical_innovator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_wozniak_wikipedia",
+      "kind": "wikipedia",
+      "title": "Steve Wozniak",
+      "url": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+    },
+    {
+      "id": "src_wozniak_iwoz",
+      "kind": "biography",
+      "title": "Steve Wozniak with Gina Smith, iWoz: Computer Geek to Cult Icon (2006) -- his own memoir"
+    },
+    {
+      "id": "src_wozniak_smithsonian",
+      "kind": "press",
+      "title": "Smithsonian Magazine, \"Steve Wozniak's Apple I Booted Up a Tech Revolution\" -- independent journalism"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own words, designed the digital Blue Box in 1972 as \"a set of parts that could do three jobs at once instead of two\" -- a specific, self-described engineering standard of doing more with fewer components, and a lifelong stated engineering philosophy: \"I still believe engineers are among the key people in this world... I have dedicated my whole life to engineering.\""
+    },
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Read the 1971 Esquire article \"Secrets of the Little Blue Box\" and, per his own account, immediately called his friend Steve Jobs to read it to him, then set out to build a working phone-phreaking device -- a specific, dated instance of pursuing a technical curiosity into a real, working artifact."
+    },
+    "risk_tolerance": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Built and, with Jobs, personally sold an illegal device (the Blue Box, used to defraud phone companies of long-distance charges) door-to-door in dorms around Berkeley in 1972-73, a specific, real legal and reputational risk taken for an engineering/entrepreneurial thrill rather than for financial need."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "His documented open-architecture design philosophy for the Apple II -- deliberately making the machine's internals accessible and expandable rather than closed -- ran against the more common industry instinct toward proprietary, closed hardware at the time."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "In his own account, his later career included founding and teaching a hands-on computer/technology curriculum for elementary-school students (5th graders) for several years, unpaid, after leaving day-to-day Apple work -- a specific, sustained, self-directed teaching commitment distinct from his engineering career."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Left full-time engineering work at Apple in 1985 to pursue teaching and other independent projects, a documented, deliberate career redirection away from the company he co-founded."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/steve-wozniak-2017.jpg",
+    "width": 1920,
+    "height": 2566,
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Steve_Wozniak_by_Gage_Skidmore.jpg",
+    "attribution": "Gage Skidmore, 2017",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Steve_Wozniak_by_Gage_Skidmore.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): building_discovery priority pick (technology/engineering). Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), his own memoir iWoz (2006, primary), and Smithsonian Magazine's independent account of the Apple I. 6 rows scored from specific, dated, self-described or independently-reported incidents (the Blue Box project, the open-architecture Apple II design, the post-Apple elementary-school teaching commitment) -- not inferred from Apple's later commercial success (achievement/output), which was deliberately not scored as evidence. Publication decision (evidence_approved) frozen before eligibility_v2 was computed. Living subject: no health/private-life material used."
+  },
+  "localization": {}
+}

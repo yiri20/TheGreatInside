@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bill-gates",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bill Gates",
+    "wikidataId": "Q5284",
+    "birthYear": 1955,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "business_executive",
+      "philanthropist"
+    ],
+    "fieldIds": [
+      "technology",
+      "business"
+    ],
+    "impactDomains": [
+      "technological",
+      "entrepreneurial",
+      "social"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "technical_innovator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_gates_wikipedia",
+      "kind": "wikipedia",
+      "title": "Bill Gates",
+      "url": "https://en.wikipedia.org/wiki/Bill_Gates"
+    },
+    {
+      "id": "src_gates_insidebillsbrain",
+      "kind": "press",
+      "title": "\"Inside Bill's Brain: Decoding Bill Gates\" (Netflix documentary, 2019) -- extensive on-camera interviews with Gates and named former colleagues"
+    },
+    {
+      "id": "src_gates_cnbc_compilation",
+      "kind": "press",
+      "title": "CNBC's reporting on early Microsoft work habits, drawing on Gates's own recollections and named former-employee accounts"
+    }
+  ],
+  "rows": {
+    "deep_focus": {
+      "score": 88,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented working 36-hour stretches during early Microsoft, collapsing for roughly ten hours, then resuming -- a specific, sustained, self- and colleague-reported work pattern rather than a general \"hard worker\" characterization."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "By his own account, did not take weekends or vacations during Microsoft's early years, and tracked which employees left early or stayed late by observing the company parking lot -- a specific, sustained, self-described work standard he later said he regretted applying to others."
+    },
+    "detail_orientation": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Personally read and rewrote colleagues' code at early Microsoft until he had to consciously stop himself from over-revising others' work -- a specific, self-described pattern of hands-on technical review."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sent direct, sharply critical messages to employees -- documented as opening at least one with \"This is the stupidest piece of code ever written\" -- a specific, sourced pattern of blunt, confrontational technical criticism, per multiple named former-employee accounts."
+    },
+    "leadership_drive": {
+      "score": 75,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Personally tracked individual employees' working hours via their license plates in the company parking lot to gauge commitment, a specific, documented monitoring practice reflecting a demanding, closely-involved leadership style."
+    },
+    "autonomy_need": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Co-founded Microsoft rather than pursuing a conventional academic or corporate path, dropping out of Harvard to do so, a specific, documented, self-directed choice against the more conventional expectation for someone of his academic standing."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bill-gates-2018.jpg",
+    "width": 701,
+    "height": 879,
+    "source": "U.S. Department of Health and Human Services, via Wikimedia Commons",
+    "license": "Public Domain (US federal government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_2018.jpg",
+    "attribution": "U.S. Department of Health and Human Services, 2018",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_2018.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): building_discovery priority pick (technology/business). Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), the Netflix documentary 'Inside Bill's Brain' (extensive first-person and named-colleague interviews), and CNBC's independent reporting compiling his own recollections and named former-employee accounts of early Microsoft. 6 rows scored, all from specific, dated, self- or colleague-described incidents at early Microsoft (the flame-mail episode, the parking-lot monitoring, the 36-hour work stretches) -- deliberately not scored from Microsoft's later commercial dominance or his philanthropic wealth/output (achievement, not behavior). His post-2000 philanthropic and public-health advocacy work was read but not used as row evidence this cycle -- not because it is disqualifying, but because this cycle's research concentrated on the well-documented early-Microsoft period; a future cycle could responsibly extend into that material. No political-policy advocacy was scored; occupationIds/fieldIds reflect entrepreneur/philanthropist/technologist, not a political identity. Publication decision (evidence_approved) frozen before eligibility_v2 was computed. Living subject: no family/health/private-life material used."
+  },
+  "localization": {}
+}

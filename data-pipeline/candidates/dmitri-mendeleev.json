@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dmitri-mendeleev",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Dmitri Mendeleev",
+    "wikidataId": "Q9106",
+    "birthYear": 1834,
+    "deathYear": 1907,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist"
+    ],
+    "fieldIds": [
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_mendeleev_wikipedia",
+      "kind": "wikipedia",
+      "title": "Dmitri Mendeleev",
+      "url": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+    },
+    {
+      "id": "src_mendeleev_rsc",
+      "kind": "institution",
+      "title": "Royal Society of Chemistry, historical account of Mendeleev's periodic table development, including his own quoted account of the 1869 \"dream\"",
+      "url": "https://www.rsc.org/periodic-table/history/about"
+    },
+    {
+      "id": "src_mendeleev_acs",
+      "kind": "institution",
+      "title": "American Chemical Society / Science History Institute biographical account of Mendeleev's element-card method and the 1869 breakthrough"
+    }
+  ],
+  "rows": {
+    "deep_focus": {
+      "score": 82,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "By his own later account, worked for three days and nights with little sleep, arranging and rearranging cards each labeled with an element and its properties, searching for an organizing pattern -- a specific, self-described sustained period of intense, singular focus on one unsolved problem."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued the element-card sorting exercise across repeated, documented failed arrangements over the three-day period before the final pattern emerged, per his own and institutional historical accounts, rather than abandoning the problem after early unsuccessful groupings."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Published his 1869 periodic table with deliberate gaps for elements not yet discovered and specific predicted properties for them, a documented, falsifiable public commitment that could have been decisively wrong -- later vindicated when gallium, scandium, and germanium were discovered matching his predictions."
+    },
+    "independent_thinking": {
+      "score": 65,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Arranged elements by atomic weight and chemical property in a way that broke from several competing contemporary classification schemes, and by his own account arrived at the final ordering through a specific personal method (the card-sorting exercise) rather than a method borrowed from another chemist."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/dmitri-mendeleev-1891.jpg",
+    "width": 1920,
+    "height": 2499,
+    "source": "American Institute of Physics Emilio Segre Visual Archives, via Wikimedia Commons",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mendeleev-9.jpg",
+    "attribution": "Photograph, 1891",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mendeleev-9.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): science_knowledge priority pick (chemistry), thinly-represented subfield. Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), the Royal Society of Chemistry's historical account (including Mendeleev's own quoted account of the 1869 episode), and an American Chemical Society / Science History Institute institutional account of the element-card method. The famous 'dream' framing is treated carefully: sources agree the breakthrough followed three sleepless days of active card-sorting work, with a brief sleep/dream episode at the end during which the final arrangement reportedly crystallized -- rows here credit the sustained focused work and the falsifiable predictions, not the dream itself as a mechanism. Publication decision (evidence_approved) frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

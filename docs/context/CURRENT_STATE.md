@@ -4,7 +4,37 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-Last updated: 2026-09-12 (Roster32: evidence-deepening + match-pool-balance
+Last updated: 2026-09-16 (Roster33: new-candidate roster-expansion cycle,
+`feat/roster33`, unmerged — a return to the roster24-32 new-candidate lane
+after Legacy Integrity Batches 1-5 (2026-09-13 -- 2026-09-14, each its own
+checkpoint under `docs/checkpoints/legacy-integrity-*`) ran in between and
+dropped match-eligible 127 -> 114 by honestly rescoring 13 legacy people;
+that program stays paused, untouched by this cycle. Froze 15 candidates
+targeting the roster's weakest interest-area pools: 6 building_discovery,
+5 arts_culture, 4 science_knowledge (leadership_society not a priority).
+Zero-politics screening applied to all 15 at selection (not retroactive to
+the paused legacy cohort). **14 of 15 shipped** — Haruki Murakami's
+evidence pack is publication-safe but no rights-clear portrait was found,
+so `checkPromotionReadiness()` correctly held him on that gate alone (the
+same qa_passed-but-portrait-blocked outcome as Che Guevara's roster-12
+precedent). Two of the 14 (Josephine Baker, Jonas Salk) are pre-existing
+`held` candidates from roster-1000/roster-19, reused and deepened rather
+than freshly researched, each with a concrete blocker actually resolved
+(portrait; thin evidence base). A real gap was caught mid-cycle: the first
+portrait-block drafts cited plausible but unverified Commons filenames with
+no actual image files saved — all 14 were re-sourced, license-verified, and
+downloaded for real. All 14 non-match-eligible by design (publication
+architecturally independent of `eligibility_v2`); calibration anchors came
+back bit-identical to Batch-5's (zero drift, since the eligible cohort
+didn't change) — `CALIBRATION_VERSION` stays `calibration_v3`. Interest
+pools: building_discovery 33->39 (the weakest pool, biggest lift),
+arts_culture 85->90, science_knowledge 92->99, leadership_society unchanged
+at 74. Roster: **239 total / 238 default-directory-visible / 114
+match-eligible** (was 225/224/114). 11 people short of the 250 milestone;
+Roster34 (not started) recommended at 10-12. Full record:
+[`roster33.md`](../checkpoints/roster33.md).
+
+Last updated (superseded above): 2026-09-12 (Roster32: evidence-deepening + match-pool-balance
 cycle, `feat/roster32-evidence-deepening-balance-cycle`, unmerged —
 corrected after an initial pass wrongly gated publication on
 `eligibility_v2`. NOT a bulk-publication batch by design: the Directory

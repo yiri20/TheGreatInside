@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ferdinand-magellan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ferdinand Magellan",
+    "wikidataId": "Q1496",
+    "birthYear": 1480,
+    "deathYear": 1521,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "PT"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "navigator",
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_magellan_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ferdinand Magellan",
+      "url": "https://en.wikipedia.org/wiki/Ferdinand_Magellan"
+    },
+    {
+      "id": "src_magellan_pigafetta",
+      "kind": "archive",
+      "title": "Antonio Pigafetta, Relazione del primo viaggio intorno al mondo (Report on the First Voyage Around the World, c. 1524-25) -- eyewitness chronicle by a participant on the voyage"
+    },
+    {
+      "id": "src_magellan_history",
+      "kind": "press",
+      "title": "Independent historical accounts of the 1520 Easter Mutiny at Puerto San Julian"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 85,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "In April 1520, when three of his five ships' captains (Juan de Cartagena, Gaspar de Quesada, and pilot Juan Sebastian Elcano) attempted to seize control of the fleet, moved immediately and decisively against them: one mutineer was killed in the retaking of a ship, Quesada was executed, and Cartagena was marooned -- a specific, dated, high-stakes act of command under direct challenge, per Pigafetta's eyewitness chronicle and independent historical accounts."
+    },
+    "risk_tolerance": {
+      "score": 90,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "Led a fleet of five ships and roughly 270 men westward across unmapped ocean in search of a passage to Asia, a voyage from which only one ship and 18 men would return -- a specific, sustained undertaking of extreme, realized physical risk, documented in Pigafetta's own eyewitness account."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Directly confronted and suppressed a mutiny by three of his own captains at Puerto San Julian in April 1520 rather than negotiating a settlement, a specific, sustained instance of real, high-stakes interpersonal and command conflict."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued the expedition west after the mutiny, a mid-voyage supply crisis, and the loss of a ship (the Santiago, wrecked in a scouting mission), rather than turning back -- a specific, documented pattern of continuing under sustained, compounding setbacks, per Pigafetta's chronicle."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Maintained command authority over a multinational, multi-ship fleet through a mutiny, a fatal skirmish, and severe supply shortages across more than a year at sea, documented via Pigafetta's sustained firsthand account of the voyage's command structure."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ferdinand-magellan-posthumous.jpg",
+    "width": 562,
+    "height": 693,
+    "source": "The Mariner's Museum Collection, via Wikimedia Commons",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ferdinand_Magellan.jpg",
+    "attribution": "Unknown artist, posthumous portrait, c. 1550-1625",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ferdinand_Magellan.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): building_discovery priority pick (exploration), deliberate long-tail/historical/era-diversity choice. Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), Antonio Pigafetta's own eyewitness chronicle (he sailed on the voyage and is the fullest surviving primary source), and independent historical accounts of the 1520 mutiny. 5 rows scored from specific, dated, primary-sourced incidents (the Easter Mutiny and its suppression, the Santiago's loss, the sustained command through the full voyage) -- not from the later historical significance of the circumnavigation itself (an outcome he did not live to see, having died at the Battle of Mactan in April 1521, before the fleet's return). His death in that battle was not used as trait evidence. Portrait is honestly classified historical_depiction -- no contemporaneous or eyewitness-created likeness survives; this is a later, anonymous posthumous portrait. Publication decision (evidence_approved) frozen before eligibility_v2 was computed."
+  },
+  "localization": {}
+}

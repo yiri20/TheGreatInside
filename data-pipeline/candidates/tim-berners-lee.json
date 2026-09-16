@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tim-berners-lee",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tim Berners-Lee",
+    "wikidataId": "Q80",
+    "birthYear": 1955,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "technical_innovator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_btl_wikipedia",
+      "kind": "wikipedia",
+      "title": "Tim Berners-Lee",
+      "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+    },
+    {
+      "id": "src_btl_cern",
+      "kind": "institution",
+      "title": "CERN's own institutional account of the Web's invention (\"The birth of the Web\")",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/"
+    },
+    {
+      "id": "src_btl_guardian_essay",
+      "kind": "press",
+      "title": "Tim Berners-Lee, own essay in The Guardian on the decision not to patent the Web"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In March 1989, wrote and submitted an unsolicited proposal at CERN for a distributed hypertext information system to solve a problem he had personally observed (different, incompatible information systems on different computers) -- his own supervisor's contemporaneous assessment called it \"vague but exciting,\" and it was not initially accepted."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In 1993, personally pushed CERN to release the Web's source code into the public domain, royalty-free, and declined to patent it himself, in his own words trading a \"product\" for \"infrastructure\" -- a specific, dated decision against his own direct financial interest."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own words, conceived of the Web from the start as being about \"sharing, not exploitation\" -- an explicit, self-articulated value orientation that directly shaped the 1993 royalty-free release decision, not a retrospective reframing."
+    },
+    "persistence": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After his initial 1989 proposal was not accepted, continued refining it with colleague Robert Cailliau until his supervisor allocated time to the project in 1990, then built the first browser/editor and server software by Christmas 1990 -- a documented, sustained multi-year effort from an initially unaccepted proposal to a working system."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Refined his original proposal together with Robert Cailliau at CERN before it was accepted, a documented, specific instance of real technical partnership at the project's formative stage."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/tim-berners-lee-2014.jpg",
+    "width": 1280,
+    "height": 853,
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee.jpg",
+    "attribution": "Paul Clarke, September 24, 2014",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): building_discovery priority pick (technology/invention), thinly-populated subfield. Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), CERN's own institutional record of the Web's 1989-91 development (a primary institutional account, not a secondary retelling), and his own Guardian essay on the 1993 royalty-free decision. 5 rows scored, each tied to a specific dated decision (the 1989 proposal, the 1990 working system, the 1993 royalty-free release) rather than the Web's subsequent global scale (achievement/output, not scored). Publication decision (evidence_approved) frozen before eligibility_v2 was computed. Living subject: no family/health/private-life material used."
+  },
+  "localization": {}
+}

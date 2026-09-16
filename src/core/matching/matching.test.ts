@@ -436,6 +436,24 @@ describe("confidence and missing data", () => {
       "genghis-khan",
       "serena-williams",
       "oprah-winfrey",
+      // Roster33 (2026-09-16, docs/checkpoints/roster33.md): 14 new
+      // evidence_approved, directory-visible people, honestly non-match-
+      // eligible by design (publication and eligibility are
+      // architecturally independent) -- none targeted eligibility_v2.
+      "alexander-fleming",
+      "alfred-hitchcock",
+      "bill-gates",
+      "bob-dylan",
+      "carl-sagan",
+      "dmitri-mendeleev",
+      "ferdinand-magellan",
+      "freddie-mercury",
+      "jacques-cousteau",
+      "jonas-salk",
+      "josephine-baker",
+      "neil-armstrong",
+      "steve-wozniak",
+      "tim-berners-lee",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -812,6 +830,24 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "genghis-khan",
       "serena-williams",
       "oprah-winfrey",
+      // Roster33 (2026-09-16, docs/checkpoints/roster33.md): 14 new
+      // evidence_approved, directory-visible people, honestly non-match-
+      // eligible by design (publication and eligibility are
+      // architecturally independent) -- none targeted eligibility_v2.
+      "alexander-fleming",
+      "alfred-hitchcock",
+      "bill-gates",
+      "bob-dylan",
+      "carl-sagan",
+      "dmitri-mendeleev",
+      "ferdinand-magellan",
+      "freddie-mercury",
+      "jacques-cousteau",
+      "jonas-salk",
+      "josephine-baker",
+      "neil-armstrong",
+      "steve-wozniak",
+      "tim-berners-lee",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

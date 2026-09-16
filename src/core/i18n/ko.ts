@@ -610,6 +610,11 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.teacher": "교사",
   "occupation.theologian": "신학자",
   "occupation.writer": "작가",
+  // Roster33 (2026-09-16): 4 new occupationIds[0] values.
+  "occupation.astronaut": "우주비행사",
+  "occupation.biologist": "생물학자",
+  "occupation.medical_researcher": "의학 연구자",
+  "occupation.navigator": "항해사",
 
   // ---------------------------------------------------------------------
   // PHASE 8: impact-domain chip labels — all 15 ImpactDomain union values,
@@ -1897,6 +1902,22 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.james-baldwin": "제임스 볼드윈",
   "person.name.george-bernard-shaw": "조지 버나드 쇼",
   "person.name.pablo-neruda": "파블로 네루다",
+
+  // ROSTER 33 (2026-09-16): new-candidate roster-expansion cycle.
+  "person.name.neil-armstrong": "닐 암스트롱",
+  "person.name.steve-wozniak": "스티브 워즈니악",
+  "person.name.bill-gates": "빌 게이츠",
+  "person.name.tim-berners-lee": "팀 버너스리",
+  "person.name.jacques-cousteau": "자크 쿠스토",
+  "person.name.ferdinand-magellan": "페르디난드 마젤란",
+  "person.name.alfred-hitchcock": "알프레드 히치콕",
+  "person.name.bob-dylan": "밥 딜런",
+  "person.name.freddie-mercury": "프레디 머큐리",
+  "person.name.josephine-baker": "조세핀 베이커",
+  "person.name.jonas-salk": "조너스 소크",
+  "person.name.alexander-fleming": "알렉산더 플레밍",
+  "person.name.carl-sagan": "칼 세이건",
+  "person.name.dmitri-mendeleev": "드미트리 멘델레예프",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

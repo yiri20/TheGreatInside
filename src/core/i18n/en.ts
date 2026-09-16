@@ -903,6 +903,12 @@ export const en = {
   "occupation.teacher": "teacher",
   "occupation.theologian": "theologian",
   "occupation.writer": "writer",
+  // Roster33 (2026-09-16): 4 new occupationIds[0] values -- added the same
+  // way this set is always extended, per missingOccupationCoverage().
+  "occupation.astronaut": "astronaut",
+  "occupation.biologist": "biologist",
+  "occupation.medical_researcher": "medical researcher",
+  "occupation.navigator": "navigator",
 
   /* --------------------------------------------------------- impact domains
      PHASE 8: all 15 `ImpactDomain` union values (`core/types.ts`) — the

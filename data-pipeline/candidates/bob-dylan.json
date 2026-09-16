@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bob-dylan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bob Dylan",
+    "wikidataId": "Q392",
+    "birthYear": 1941,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician",
+      "songwriter",
+      "writer"
+    ],
+    "fieldIds": [
+      "music",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_dylan_wikipedia",
+      "kind": "wikipedia",
+      "title": "Bob Dylan",
+      "url": "https://en.wikipedia.org/wiki/Bob_Dylan"
+    },
+    {
+      "id": "src_dylan_chronicles",
+      "kind": "biography",
+      "title": "Bob Dylan, Chronicles: Volume One (2004) -- his own memoir"
+    },
+    {
+      "id": "src_dylan_newport_press",
+      "kind": "press",
+      "title": "Independent journalism on the July 25, 1965 Newport Folk Festival electric set and its aftermath"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "At the July 25, 1965 Newport Folk Festival, performed an electric rock set against the folk-purist expectations of his own core audience, provoking substantial audience booing -- a specific, dated, career-risking artistic decision, independently documented by multiple outlets and confirmed in his own later account of the audience reaction."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Rather than retreating after the Newport booing, returned to the stage with an acoustic guitar and performed \"Mr. Tambourine Man\" and \"It's All Over Now, Baby Blue\" -- choosing songs about change and departure -- a specific, immediate, defiant response rather than a conciliatory one, per his own later press-conference account: \"I did this very crazy thing. I didn't know what was going to happen.\""
+    },
+    "independent_thinking": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own words in Chronicles, described his approach as breaking away from convention by taking \"simple folk changes\" and combining them with new imagery and \"a new set of ordinances that evolved into something different that had not been heard before\" -- a self-articulated, deliberate departure from the prevailing folk songwriting convention of his own scene."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Continued performing the Newport set and the subsequent electric tour despite sustained, vocal audience backlash across multiple shows, a documented pattern of sustained engagement with real, direct audience conflict rather than reverting to the earlier acoustic format."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Moved to Minneapolis in 1959 specifically to pursue folk music, by his own account trading his electric guitar for an acoustic one at that time because it no longer suited his aims -- and later reversed that instrument choice again at Newport when his artistic aims changed once more, a documented pattern of following his own evolving standard over an external one."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bob-dylan-1963.jpg",
+    "width": 1000,
+    "height": 1276,
+    "source": "Wikimedia Commons",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bob_Dylan_1963.jpg",
+    "attribution": "Associated Press wirephoto, March 1963",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bob_Dylan_1963.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster33 (2026-09-16, docs/checkpoints/roster33.md): arts_culture priority pick (music). Wikidata QID verified live before scoring. 3 sources: Wikipedia (orientation), his own memoir Chronicles: Volume One (primary), and independent journalism on the 1965 Newport electric set. 5 rows scored from a small number of specific, dated, well-corroborated incidents (the Newport set and its aftermath, the earlier and later instrument/genre choices) -- deliberately not scored from his broader songwriting acclaim, Nobel Prize, or record sales (achievement/output, not used as evidence). Publication decision (evidence_approved) frozen before eligibility_v2 was computed. Living subject: no family/health/private-life material used."
+  },
+  "localization": {}
+}
