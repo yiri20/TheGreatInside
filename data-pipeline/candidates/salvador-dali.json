@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "salvador-dali",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Salvador Dalí",
+    "wikidataId": "Q5577",
+    "birthYear": 1904,
+    "deathYear": 1989,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["ES"],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": ["painter", "artist"],
+    "fieldIds": ["art"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["nonconformist"],
+    "archetypeIds": ["creative_creator", "independent_creator"]
+  },
+  "sources": [
+    {
+      "id": "src_dali_wikipedia",
+      "kind": "wikipedia",
+      "title": "Salvador Dalí",
+      "url": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD"
+    },
+    {
+      "id": "src_dali_halsman_sothebys",
+      "kind": "press",
+      "title": "Sotheby's, \"Collector's Item: How Philippe Halsman Befriended Salvador Dalí\" -- independent account (drawing on Halsman family testimony, incl. his daughter) of the 1948 \"Dalí Atomicus\" shoot: ~28 attempts, each requiring the photographer to run upstairs to develop and check a contact print before resetting the whole physical setup (thrown cats, tossed water, suspended furniture, Dalí airborne) and trying again. Describes a mutual, years-long (from 1941) creative partnership -- 'Dalí gave Philippe permission to go crazy and be experimental' -- not merely a single sitting. Non-self, behavioral, independent of Dalí's own testimony.",
+      "url": "https://www.sothebys.com/en/articles/collectors-item-how-philippe-halsman-befriended-salvador-dali"
+    },
+    {
+      "id": "src_dali_fundacio_conservation",
+      "kind": "institution",
+      "title": "Fundació Gala-Salvador Dalí, \"Documenting the Painting Technique\" -- the Dalí foundation's own conservation department describing its technical study of his canvases: infrared reflectography reveals underlying preparatory graphite drawings and pentimenti (visible paint-layer corrections), examined under natural/raking/UV/infrared light and magnification to reconstruct his actual layering and brushwork process. Independent conservator/technical analysis, not self-testimony.",
+      "url": "https://www.salvador-dali.org/en/artwork/conservation-and-restoration/documenting-the-painting-technique/"
+    },
+    {
+      "id": "src_dali_pmc_illusion",
+      "kind": "archive",
+      "title": "Martinez-Conde et al., \"Marvels of Illusion: Illusion and Perception in the Art of Salvador Dalí,\" Frontiers in Human Neuroscience (2015; PMC4586274) -- independent, peer-reviewed neuroscience/art-history analysis. Documents that Dalí 'experimented very carefully with sketching shapes, shading, edge details, and placement to set up the double images' across multiple named works (e.g. analyzing how his choice of hues/shading in The Three Ages leads the eye to group unrelated shapes into a face), i.e. a deliberate, systematic, sustained perceptual-engineering method (his own term: 'paranoiac-critical method'), not an incidental byproduct of talent.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4586274/"
+    },
+    {
+      "id": "src_dali_hitchcock_openculture",
+      "kind": "press",
+      "title": "Open Culture, \"Alfred Hitchcock Recalls Working with Salvador Dalí on Spellbound\" -- reproduces Hitchcock's own 1962 recorded interview with Francois Truffaut recalling Dalí's proposed imagery for the 1945 dream sequence (a statue cracking open with ants crawling over a Bergman figure underneath; 15 dangling pianos), which studio/production realities ultimately could not accommodate. An independent third party's (Hitchcock's) firsthand account of Dalí's actual creative behavior on a specific project, not Dalí's own self-description.",
+      "url": "https://www.openculture.com/2017/05/alfred-hitchcock-remembers-working-with-salvador-dali-on-spellbound.html"
+    },
+    {
+      "id": "src_dali_museum_gala",
+      "kind": "institution",
+      "title": "The Dalí Museum (St. Petersburg, FL), \"Gala Dalí\" -- independent institutional account describing Gala's role from 1937 on as his business manager, 'responsible for organizing the day-to-day details of life, allowing Dalí to paint,' including that she 'always insisted that he pay careful attention to his technique' and personally selected his paints/varnishes/brushes/frames. Institutional, non-self account of the practical structure around his studio practice.",
+      "url": "https://thedali.org/about-the-museum/gala/"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, non-self sources document a meticulous, technically exacting working method: the Fundació's own conservators find underlying preparatory graphite drawings and repeated pentimenti (paint-layer corrections) under infrared/UV examination, and the peer-reviewed Martinez-Conde et al. (2015) analysis documents that he 'experimented very carefully with sketching shapes, shading, edge details, and placement' to construct his double-image compositions. Two independent documented instances on-point for the trait -- not scored from his fame or reputation as a technician."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Martinez-Conde et al. document, across multiple named paintings (e.g. The Three Ages), his deliberate manipulation of hue, shading value, and spatial placement specifically to control how a viewer's perception groups visual elements -- a well-supported pattern of visually-engineered choices across distinct works from one independent peer-reviewed source, not a single anecdote. Kept at strong_inference (not documented) since it rests on one source's analysis, however detailed."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent documented instances of active technical experimentation beyond conventional painting: the Dalí Museum's own account of him dipping an actual octopus in paint and pressing its tentacles onto canvas for The Ecumenical Council, and the PMC analysis of his sustained, deliberate development of the double-image ('paranoiac-critical') technique across a body of work. Scored from the specific documented methods, not from 'he was a famous Surrealist' stereotype."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independent sources converge: the PMC analysis documents a systematic, career-spanning method purpose-built to generate genuinely novel double/ambiguous imagery, and Hitchcock's own firsthand account (via Truffaut) describes Dalí pitching imagery for Spellbound (ants covering a statue-encased Bergman, 15 dangling pianos) so extreme that the studio could not realize it as proposed. Marked dual_edged, not pure advantage: the same extremity that produced his most original ideas also created real friction -- producer Selznick reportedly demoted Dalí's sequence to production designer William Cameron Menzies, cutting a 20-minute vision to about 2 minutes."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Halsman's own account (via Sotheby's) describes a genuine years-long (from 1941) creative partnership built on mutual idea exchange -- Halsman would bring Dalí his own 'crazy' ideas knowing Dalí would engage, and Dalí's own 'absurd' pitches were things Halsman 'tried to find a way to make work.' A sustained pattern across many photographs/years from one independent source, not a single sitting -- strong_inference rather than documented since it rests on one account's characterization of the relationship as a whole."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The 'Dalí Atomicus' shoot required roughly 28 discrete attempts, each requiring the entire physical setup (thrown cats, tossed water, suspended furniture, Dalí airborne) to be rebuilt after Halsman ran upstairs to develop and check a contact print. A single specific, well-documented episode from an independent account -- per this rubric's single-anecdote rule, capped in the 56-70 band rather than scored higher despite how vivid the anecdote is."
+    },
+    "deep_focus": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge on a pattern of protected, sustained studio attention: the Dalí Museum's institutional account of Gala 'organizing the day-to-day details of life, allowing Dalí to paint' (handling business, materials, and household matters specifically so his attention could stay on the canvas), corroborated by the conservation/PMC evidence of the minutely careful, multi-stage technical execution (underdrawing, corrections, deliberate perceptual engineering) his finished paintings actually required. Strong_inference: the sustained-focus trait itself is inferred from what the arrangement and the resulting work both point to, not from a single quote naming it directly."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/salvador-dali-gotfryd-1973.jpg",
+    "width": 1081,
+    "height": 1600,
+    "source": "Library of Congress (Bernard Gotfryd collection), via Wikimedia Commons",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Salvador_Dali,_gtfy.01021.tif",
+    "attribution": "Bernard Gotfryd, 1973",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Salvador_Dali,_gtfy.01021.tif"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q5577) verified live before scoring. 6 sources beyond Wikipedia orientation: Sotheby's independent account of the Halsman/Dalí Atomicus collaboration (drawing on Halsman family testimony), the Fundació Gala-Salvador Dalí's own conservation-science documentation of his painting technique, a peer-reviewed neuroscience/art-history journal article (Martinez-Conde et al. 2015, Frontiers in Human Neuroscience, PMC4586274) actually opened and read via PMC, Open Culture's reproduction of Hitchcock's own recorded account of working with Dalí on Spellbound, and the (US) Dalí Museum's institutional account of Gala's studio management -- clearing the 2-independent-perspective / 1-non-self-behavioral bar comfortably (five of the six qualify as independent and non-self). All 7 scored rows trace to specific documented working methods/behaviors (painting technique, the Halsman shoot, the Spellbound pitch, the Gala arrangement) -- none scored from fame, auction value, or reputation. Per task instructions, Dalí's documented later-life sympathies toward the Franco regime and his 1934 expulsion from the Surrealist movement (partly over this, per Breton) were deliberately excluded from consideration entirely -- not used to score any trait, positively or negatively, and not even used for the 'behavioral consequence' framing this rubric sometimes allows (e.g. Hitchcock's anxiety-driven planning), since the source material available for that angle could not be cleanly separated from commentary on the politics itself. Publication decision (evidence_approved) frozen before any eligibility_v2 computation."
+  },
+  "localization": {}
+}

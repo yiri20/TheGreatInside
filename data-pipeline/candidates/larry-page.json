@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "larry-page",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Larry Page",
+    "wikidataId": "Q4934",
+    "birthYear": 1973,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["entrepreneur", "computer_scientist"],
+    "fieldIds": ["technology", "computing"],
+    "impactDomains": ["entrepreneurial", "technological", "innovation"],
+    "tagIds": [],
+    "archetypeIds": ["entrepreneurial_builder", "technical_innovator"]
+  },
+  "sources": [
+    {
+      "id": "src_page_wikipedia",
+      "kind": "wikipedia",
+      "title": "Larry Page",
+      "url": "https://en.wikipedia.org/wiki/Larry_Page"
+    },
+    {
+      "id": "src_page_philsimon_googled_review",
+      "kind": "press",
+      "title": "Phil Simon, review of Ken Auletta's \"Googled: The End of the World As We Know It\" (2009), philsimon.com -- independent commentary/review, opened and read in full, quoting Auletta's book at length on a specific, dated (c. 2005-06) internal meeting where Page confronted AdWords engineering VP Sridhar Ramaswamy over an incremental proposal, and characterizing Google's culture under Page/Brin as one where 'marginal improvements are not acceptable.' Non-self, independent of Page's own testimony.",
+      "url": "https://www.philsimon.com/googled-by-ken-auletta/"
+    },
+    {
+      "id": "src_page_fortune_elmer",
+      "kind": "press",
+      "title": "Vickie Elmer, \"What would Larry Page do? Leadership lessons from Google's doyen,\" Fortune, April 18, 2011 -- independent business journalism, opened and read in full, citing Steven Levy's independently-reported \"In the Plex\" on Page's requirement of ~60-word project updates, his trimming of middle-management layers, and a documented 8% stock decline tied to Page skipping a scheduled investor Q&A. Non-self reporting; Page's own book/interviews were not the source read.",
+      "url": "https://fortune.com/2011/04/18/what-would-larry-page-do-leadership-lessons-from-googles-doyen"
+    },
+    {
+      "id": "src_page_aljazeera_alphabet",
+      "kind": "press",
+      "title": "\"Google creates new parent company\" [Alphabet restructuring], Al Jazeera, August 11, 2015 -- independent press reporting and analysis, opened and read in full, quoting Page's own announcement directly alongside Al Jazeera's own independent analysis of the restructuring's rationale (Wall Street financial-transparency demands).",
+      "url": "https://www.aljazeera.com/news/2015/08/google-parent-company-alphabet-restructuring-150811004443960.html"
+    },
+    {
+      "id": "src_page_ethw_pagerank",
+      "kind": "institution",
+      "title": "\"Milestones: PageRank and the Birth of Google, 1996-1998,\" Engineering and Technology History Wiki (IEEE) -- independent institutional/historical account, opened and read in full, describing Page's specific technical contribution (interpreting hyperlinks as referrals/endorsements, recursively deriving ranking scores) and explicitly situating it within prior link-analysis research (Marchiori; Li and Rafsky; Kleinberg) rather than treating it as an unprecedented invention.",
+      "url": "https://ethw.org/Milestones:PageRank_and_the_Birth_of_Google,_1996-1998"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In a specific, dated (c. 2005-06) internal meeting about overhauling AdWords, independently reported and directly quoted in Ken Auletta's \"Googled\" (read via Phil Simon's detailed review, which quotes the book at length): Page told engineering VP Sridhar Ramaswamy, \"I named this 3.0 for a reason. We wanted something big. Instead, you proposed something small.\" The same review documents the surrounding standard Page enforced as \"At Google, marginal improvements are not acceptable\" -- a specific, attributed instance of personally rejecting an incremental proposal from a named subordinate and demanding a categorically larger redesign of a core revenue product, not an inference drawn from Google's subsequent success. Held to the real-lean band (not higher) because it rests on one documented episode from one independently-read source, without a second, separately-sourced corroborating instance verified this session."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Fortune's Vickie Elmer (April 2011, read in full), drawing on Steven Levy's independently-reported \"In the Plex,\" documents that Page required project updates of roughly 60 words and was actively trimming layers of middle management at Google -- a specific organizational practice, not an inferred management style. The same article quotes Levy's own assessment: \"He has a problem with traditional management. He doesn't like it.\" Scored dual_edged rather than a flat advantage because the same, single, directly-read source ties this same preference to a concrete documented cost: skipping a scheduled investor Q&A session, which the article connects to an 8% stock decline -- the low-bureaucracy, low-external-process preference cutting against him in a specific instance, not a hypothetical downside."
+    },
+    "systems_abstraction": {
+      "score": 65,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "On August 10, 2015, Page personally announced (quoted directly in Al Jazeera's independent reporting, read in full) the creation of a new holding-company structure, Alphabet, explicitly to make Google's core search/ads business \"cleaner and more accountable\" while letting divisions such as Nest and Calico \"run things independently that aren't very related\" -- a specific, dated, quoted decision to insert a new structural layer separating unrelated business lines, not an inference from how those businesses later performed. Al Jazeera's own independent analysis adds that the restructuring was also read by analysts as addressing Wall Street's demand for segment-level financial transparency -- an outside reading Page did not offer himself, corroborating the decision's structural logic from an independent journalistic perspective. Single-decision basis (however widely covered), so scored in the real-lean rather than extreme band."
+    },
+    "intuitive_synthesis": {
+      "score": 56,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The IEEE Engineering and Technology History Wiki's independent \"Milestones: PageRank and the Birth of Google\" entry (read in full) documents that Page's specific technical contribution was to interpret hyperlinks as referrals/endorsements and recursively derive a page-quality ranking score from that graph structure -- applying citation-analysis-style reasoning to a new domain (the web's link graph). The same entry is explicit that this built on an existing research conversation (prior link-analysis work by Marchiori, Li and Rafsky, and Kleinberg), so this is scored modestly and at moderate confidence, as a specific documented technical synthesis rather than an unprecedented invention -- an honest read of one serious independent institutional source, not inflated by Google's later success."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/larry-page-ep-2009.jpg",
+    "width": 1200,
+    "height": 1600,
+    "source": "Wikimedia Commons, own work by Marcin Mycielski, European Parliament",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Marcin Mycielski / European Parliament, June 17, 2009",
+    "creator": "Marcin Mycielski (European Parliament)",
+    "date": "2009-06-17",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament,_17.06.2009.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster35 candidate. Wikidata QID (Q4934) and classification (occupationIds/fieldIds/impactDomains/archetypeIds) were pre-specified against existing i18n keys (occupation.entrepreneur, occupation.computer_scientist, field.technology, field.computing, archetype.entrepreneurial_builder, archetype.technical_innovator all confirmed present in src/core/i18n/en.ts before use; tagIds left empty, no existing tag was a clean fit and none was forced) and applied as given, not re-derived. 4 rows scored, each traced to a specific, dated, quoted decision or a specific documented technical/organizational fact from an independently-read, non-self source -- never from Google's revenue, market cap, or Page's personal wealth, which this rubric excludes as evidence. Living person: evidence was deliberately restricted to clearly documented professional/behavioral facts. Two rich territories named in this candidate's research brief were deliberately investigated and then NOT scored, and are recorded here rather than silently dropped: (1) Page's famously private, media-averse pattern -- every accessible independent account of his reduced public appearances (CNBC, Bloomberg, TechCrunch) traced back to, or sat immediately alongside, coverage of a 2012 vocal-cord health incident, so this territory was dropped entirely rather than risk laundering health-adjacent inference into a trait score, per this candidate's explicit conservative-for-living-persons instruction; (2) the 'Google X / 10X moonshot factory' founding story -- Fast Company's and x.company's own pages either 403'd or did not contain the specific founding-instruction anecdote when actually opened, and the only sources that did carry it (CIO Insight, FourWeekMBA, Finoit, bigmoneymethods.com) are exactly the SEO/business-blog content this rubric's Section 2 excludes as evidence, so it was left unscored rather than sourced from disqualified content. Both are flagged here as good candidates for future deepening if a serious, directly-read independent account (e.g. Steven Levy's or Ken Auletta's full books, not secondary coverage of them) becomes available -- neither Levy's 'In the Plex' nor Auletta's 'Googled' was itself directly opened this session (both are print books); every quote attributed to them here was independently verified through a directly-read, open secondary source that quotes them at length (Fortune's Vickie Elmer citing Levy; Phil Simon's review citing Auletta), the same disclosure discipline used for Sam Walton's candidate file regarding Vance Trimble's biography. CNBC, Forbes, Bloomberg, cbc.ca, Fast Company, and x.company were each attempted via direct fetch this session and returned either a 403/blocked response or content that did not contain the needed passage; none of these were cited as sources since none was actually opened and read. Portrait: Wikimedia Commons search for 'Larry Page' (1552 hits) was reviewed; most candidates were low-resolution or unverifiable Flickr uploads, and one initially promising CC-BY-2.0 candidate (File:Larry_Page_(362236268).jpg, University of Michigan 2005 commencement) was rejected after visual inspection -- it is severely motion-blurred and not confidently identifiable as Page. File:Larry_Page_in_the_European_Parliament,_17.06.2009.jpg (own work by Marcin Mycielski/European Parliament, CC BY-SA 4.0, verified live via the Commons imageinfo/extmetadata API) was downloaded in full resolution (2259x3013), visually confirmed as a sharp, correctly-identified, single-subject photo of Page speaking at the European Parliament, and resized via PIL/LANCZOS to 1200x1600 (longest side 1600px) at public/portraits/larry-page-ep-2009.jpg; file existence and dimensions verified on disk after resize, and the raw downloaded temp file was deleted."
+  },
+  "localization": {}
+}

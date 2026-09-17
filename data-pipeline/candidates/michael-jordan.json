@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "michael-jordan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Michael Jordan",
+    "wikidataId": "Q41421",
+    "birthYear": 1963,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "cultural"],
+    "tagIds": ["competitor"],
+    "archetypeIds": ["competitive_performer"]
+  },
+  "sources": [
+    {
+      "id": "src_jordan_wikipedia",
+      "kind": "wikipedia",
+      "title": "Michael Jordan",
+      "url": "https://en.wikipedia.org/wiki/Michael_Jordan"
+    },
+    {
+      "id": "src_jordan_espn_friedell_lastdance",
+      "kind": "press",
+      "title": "Nick Friedell, \"Michael Jordan, in 'Last Dance,' calls harsh reputation price of winning, leadership\", ESPN, May 11, 2020 -- reports Jordan's own on-record words from 'The Last Dance' (ESPN/Netflix, 2020) alongside independently given, named-teammate reactions",
+      "url": "https://www.espn.com/nba/story/_/id/29159653/michael-jordan-calls-harsh-reputation-price-winning-leadership"
+    },
+    {
+      "id": "src_jordan_cbs_perdue",
+      "kind": "press",
+      "title": "Colin Ward-Henninger, \"'Last Dance' documentary: Bulls' Will Perdue says Michael Jordan punched him, adding 'I wasn't the only one'\", CBS Sports, May 17, 2020 -- independent reporting quoting teammate Will Perdue directly, non-self behavioral testimony",
+      "url": "https://www.cbssports.com/nba/news/last-dance-documentary-bulls-will-perdue-says-michael-jordan-punched-him-adding-i-wasnt-the-only-one"
+    },
+    {
+      "id": "src_jordan_espn_truehoop_highschool",
+      "kind": "press",
+      "title": "Henry Abbott, \"The man who cut Michael Jordan\", ESPN TrueHoop, citing Thomas Lake, Sports Illustrated (Jan 10, 2012) -- independent, fact-checked reporting including coach Clifton \"Pop\" Herring's own account of the JV/varsity decision",
+      "url": "https://www.espn.com/blog/truehoop/post/_/id/35291/the-man-who-cut-michael-jordan"
+    },
+    {
+      "id": "src_jordan_espn_isaacson_practice",
+      "kind": "press",
+      "title": "Melissa Isaacson, \"Play hard, practice harder\", ESPN Chicago, Sep 10, 2009 -- independent reporting with direct, named-source testimony from Bulls assistant coach Johnny Bach and Chicago White Sox batting instructor Walt Hriniak describing Jordan's practice behavior in two different sports",
+      "url": "https://www.espn.com/chicago/columns/story?columnist=isaacson_melissa&id=4463664"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 92,
+      "confidence": 0.82,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Multiple independent, named, non-self accounts spanning nearly three decades converge on a defining pattern of manufacturing and escalating competition even in low-stakes practice settings: Bulls assistant Johnny Bach's own account of Jordan setting up money-stakes shooting drills against weaker teammates ('I'm calling my pigeons up to shoot'); White Sox batting instructor Walt Hriniak's independent account of Jordan's bleeding-hands practice intensity during his 1994 baseball stint, a sport he was not gifted in, showing the pattern was not specific to basketball or to winning acclaim; and the well-documented 1995 training-camp practice altercation in which Jordan punched Steve Kerr, corroborated independently and consistently by Kerr himself (ESPN, 2020) and separately by teammate Will Perdue's own account of a similar incident ('He did, and I wasn't the only one. That's how competitive our practices were.' -- CBS Sports, 2020). No credible source disputes the underlying pattern; even Jordan's teammates who describe it as excessive agree it was real and sustained."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented as sustaining years of direct interpersonal friction with teammates as a matter of course rather than avoiding it: the 1995 Kerr practice fight and a separate documented practice altercation with Will Perdue (Perdue's own 2020 account, corroborating the pattern rather than a single isolated event -- 'that's how competitive our practices were'), plus teammate B.J. Armstrong's independent account that Jordan 'couldn't have been nice... would be difficult to be around if you didn't truly love the game.' Jordan continued this behavior over multiple seasons rather than moderating it after backlash (including the 1991 publication of an unflattering teammate-sourced account of his conduct), consistent with a genuine, sustained tolerance for ongoing interpersonal conflict rather than a single flashpoint."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Independently documented across two different sports by two different named, non-self observers in the same account: Bulls assistant Johnny Bach describes Jordan engineering extra, self-initiated shooting repetition beyond required practice; Chicago White Sox instructor Walt Hriniak independently describes Jordan's daily practice sessions during his 1994 minor-league baseball year as so intense his hands bled, in a sport where Jordan had no prior skill or public expectation to perform -- evidence the drive to refine skill was not contingent on being the best or on public competition, which corroborates a genuine mastery orientation rather than pure competitiveness against others (scored separately above)."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Two independent named teammates describe Jordan personally driving teammates' standards up through direct, sustained behavior rather than formal authority: Scott Burrell's account of 'playing with a guy that has the highest standards of any basketball player ever... tough love,' and B.J. Armstrong's independent account of the same demanding-by-example dynamic. Jordan's own description ('I pulled people along when they didn't want to be pulled') is self-testimony and is treated here only as corroborating context, not as the basis for the score -- the score rests on the two independent teammate accounts of the behavior itself."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "A specific, independently fact-checked incident (not merely Jordan's own retelling): as a sophomore he was assigned to junior varsity rather than varsity by coach Clifton 'Pop' Herring, a decision Herring himself later explained as roster/size strategy rather than a skill judgment (Sports Illustrated/ESPN TrueHoop, 2012). Jordan responded by playing sustained, standout junior-varsity basketball that same season. This is a single well-corroborated episode rather than a pattern across his life, so scored in the moderate band rather than higher -- per this rubric's rule that a single documented incident, however well corroborated, does not alone support an extreme score."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/michael-jordan-lipofsky-1997.jpg",
+    "width": 1090,
+    "height": 1600,
+    "source": "Wikimedia Commons (Steve Lipofsky / Basketballphoto.com)",
+    "license": "Dual-licensed: CC BY-SA 3.0 Unported and GNU Free Documentation License 1.2+; permission statement on file requires credit \"Lipofsky Basketballphoto.com\"",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Steve Lipofsky, Basketballphoto.com, 1997",
+    "creator": "Steve Lipofsky",
+    "date": "1997",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Steve_Lipfosky_--_Michael_Jordan_(1997).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster35 candidate. Wikidata QID (Q41421) used as given/verified prior to this session; identity fields (birthYear, isLiving, era, nationalityCodes, regionCode) and classification (occupationIds/fieldIds/impactDomains/tagIds/archetypeIds) were pre-specified against existing i18n keys (occupation.athlete, tag.competitor, archetype.competitive_performer, field.sport all confirmed present in src/core/i18n/en.ts and src/core/i18n/ko.ts before use) and applied as given. 5 rows scored, each traced to specific named non-self testimony (teammates/coaches/opposing-sport instructor), not to championships, endorsement wealth, or fame -- achievement/outcome facts (titles, scoring records, MVP awards) were deliberately never used as evidence for any row. Living-person conservatism applied throughout: scored only clearly documented professional/competitive/practice behavior; deliberately did not score or reference his father's 1993 murder, the 1993-94 baseball hiatus's underlying motivation, gambling controversies, or any health/private-life material, consistent with this candidate's status as a living person and this rubric's ban on inferring personality from health/private-life framing. 'The Jordan Rules' (Sam Smith, 1991) and Jordan's own retirement/career narrative were reviewed only via Wikipedia's summary of the book, not the book's primary text directly -- for that reason it is NOT listed as a primary source here; the same underlying facts it is best known for (a documented practice altercation with a teammate) are instead sourced to Will Perdue's own 2020 on-record account (CBS Sports), which was read directly. Portrait: reused the pre-existing downloaded file (public/portraits/michael-jordan-lipofsky-1997.jpg, 1090x1600) after independently re-verifying it against Wikimedia Commons -- confirmed as a proportionally-scaled rendition of File:Steve Lipfosky -- Michael Jordan (1997).jpg (Commons original 1200x1762; aspect ratio 0.6810 vs. the local file's 0.6813, consistent with a width=1090 thumbnail render of the same source image, not a different photo) credited to photographer Steve Lipofsky / Basketballphoto.com, dual CC-BY-SA-3.0/GFDL licensed. No other 1997 Lipofsky portrait-style (non-action) photo of Jordan exists in the Commons Lipofsky set, which strengthens this identification. 2 sources independent of each other and of Jordan's own words (ESPN's Nick Friedell and CBS Sports' Colin Ward-Henninger reporting named-teammate on-record accounts from 'The Last Dance'; ESPN's Melissa Isaacson reporting named-source accounts from Bulls assistant Johnny Bach and White Sox instructor Walt Hriniak; ESPN TrueHoop/Sports Illustrated reporting coach Clifton Herring's own account) satisfy the >=2 independent-perspective and >=1 non-self-behavioral evidence bar. Scored to 5 rows rather than padding further -- available material on Jordan is extremely rich, but most of it (championships, endorsement deals, cultural fame) is explicitly excluded by this rubric as non-behavioral; kept the row count to what is genuinely, specifically evidenced."
+  },
+  "localization": {}
+}

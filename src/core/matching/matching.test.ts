@@ -472,6 +472,22 @@ describe("confidence and missing data", () => {
       "sally-ride",
       "walt-disney",
       "yuri-gagarin",
+      // Roster35 (2026-09-16, docs/checkpoints/roster35.md): 11 new
+      // evidence_approved, directory-visible people (9 fresh + 2
+      // re-reviewed backlog reuses, John von Neumann and Jocelyn Bell
+      // Burnell). All 11 are honestly non-match-eligible -- an evidence
+      // outcome, not a target.
+      "alexander-von-humboldt",
+      "carl-linnaeus",
+      "ella-fitzgerald",
+      "ingmar-bergman",
+      "jocelyn-bell-burnell",
+      "john-von-neumann",
+      "larry-page",
+      "michael-jordan",
+      "salvador-dali",
+      "sam-walton",
+      "tenzing-norgay",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -884,6 +900,22 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "sally-ride",
       "walt-disney",
       "yuri-gagarin",
+      // Roster35 (2026-09-16, docs/checkpoints/roster35.md): 11 new
+      // evidence_approved, directory-visible people (9 fresh + 2
+      // re-reviewed backlog reuses, John von Neumann and Jocelyn Bell
+      // Burnell). All 11 are honestly non-match-eligible -- an evidence
+      // outcome, not a target.
+      "alexander-von-humboldt",
+      "carl-linnaeus",
+      "ella-fitzgerald",
+      "ingmar-bergman",
+      "jocelyn-bell-burnell",
+      "john-von-neumann",
+      "larry-page",
+      "michael-jordan",
+      "salvador-dali",
+      "sam-walton",
+      "tenzing-norgay",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

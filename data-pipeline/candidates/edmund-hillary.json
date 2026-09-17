@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edmund-hillary",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edmund Hillary",
+    "wikidataId": "Q33817",
+    "birthYear": 1919,
+    "deathYear": 2008,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NZ"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "athletic"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_hillary_wikipedia",
+      "kind": "wikipedia",
+      "title": "Edmund Hillary",
+      "url": "https://en.wikipedia.org/wiki/Edmund_Hillary"
+    },
+    {
+      "id": "src_hillary_hunt_ascent",
+      "kind": "archive",
+      "title": "John Hunt, The Ascent of Everest (1953; US title: The Conquest of Everest) -- the expedition leader's own published account of the 1953 British Everest expedition, read in full via Internet Archive's OCR full text (chapter 3, 'Party Selection'). Independent of Hillary's own testimony -- Hunt's direct personal characterization of Hillary from the personnel-selection process.",
+      "url": "https://archive.org/stream/conquestofeveres037015mbp/conquestofeveres037015mbp_djvu.txt"
+    },
+    {
+      "id": "src_hillary_ahf_trust",
+      "kind": "institution",
+      "title": "American Himalayan Foundation, 'Sir Ed and the Himalayan Trust' -- independent nonprofit institutional account (30-year partner organization) of Hillary's sustained 1960-2008 Himalayan Trust building program in the Khumbu region: schools, Kunde and Phaplu hospitals, village clinics, water systems, bridges, an airstrip, reforestation, and micro-hydro power. Non-self, institutional record, opened and read in full.",
+      "url": "https://www.himalayan-foundation.org/what-we-do/sherpas-and-everest/sir-ed-and-the-himalayan-trust/"
+    },
+    {
+      "id": "src_hillary_nepalitimes",
+      "kind": "press",
+      "title": "Lisa Choegyal, 'Everest 70 years on,' Nepali Times (2023) -- independent journalistic account (Nepal-based writer with direct knowledge of the Himalayan Trust's history) covering the Trust's founding story, Hillary's documented shyness/modesty, and the Khumbu Icefall crevasse incident involving Tenzing. Non-self, behavioral, opened and read in full.",
+      "url": "https://nepalitimes.com/everest-70-years-on"
+    },
+    {
+      "id": "src_hillary_achievement",
+      "kind": "archive",
+      "title": "Academy of Achievement, recorded oral-history interview with Sir Edmund Hillary -- his own extensive direct testimony on decision-making style, planning method, and motivations. Self-testimony, one perspective; used only where evidence is a specific self-described method, not a bare adjective.",
+      "url": "https://achievement.org/achiever/sir-edmund-hillary/"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Expedition leader John Hunt, in his own independent account (The Ascent of Everest, 1953, ch.3 'Party Selection'), described Hillary during the leader's personnel-selection process as 'quite exceptionally strong and abounding in a restless energy, possessed of a thrusting mind which swept aside all unproved obstacles' -- a specific, attributable characterization by someone other than Hillary, describing a sustained pattern Hunt observed over the whole selection/build-up period, not a single one-off anecdote. Corroborated in kind (not duplicated) by Hillary's own account of nightly anticipatory rehearsal of likely next-day problems (Academy of Achievement interview) as his way of deciding quickly under pressure. Score held below the 85+ band because it ultimately rests on one primary independent characterization."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own words (Academy of Achievement interview), Hillary described a deliberate method: 'I was always prepared to -- if the circumstances seemed suitable -- change a complete plan, to go in a different direction,' explicitly modeled on Shackleton's example of changing strategy while keeping the underlying objective fixed. Self-testimony describing a specific, named, sustained method rather than a single colorful anecdote, so scored documented at a moderate level, per this project's existing convention for self-described working methods; not independently corroborated by a non-self source for this specific claim, so held in the mid confidence band rather than higher."
+    },
+    "persistence": {
+      "score": 87,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Independent, non-self documentation (American Himalayan Foundation institutional account) records a sustained, nearly 50-year building program (1960-2008): 27 schools, two hospitals (Kunde and Phaplu), village clinics, water systems, bridges, an airstrip, and reforestation across the Khumbu region -- multiple distinct, independently verifiable outputs sustained across decades, not a single project. Corroborated by Lisa Choegyal's independent Nepali Times account of the program's founding and continuation, and by Hillary's own repeated statement that this work was 'the most worthwhile' thing he did. This sustained pattern is one of the two or three things everyone who studies Hillary's life converges on, meeting the 85-100 band's 'more than one source, no significant contradicting evidence' bar."
+    },
+    "impact_motivation": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same multi-decade Himalayan Trust record (American Himalayan Foundation; Choegyal, Nepali Times) documents Hillary redirecting his post-Everest fame toward a sustained program explicitly aimed at Sherpa community welfare (education, health, water, infrastructure) rather than personal gain -- originating, per Choegyal's independent account, in a direct question Hillary asked Sherpas about what he could do for them, and their reply about wanting a school. Distinct from the persistence row above: this row scores the motivational orientation toward others' welfare, not merely the sustained follow-through mechanics."
+    },
+    "resourcefulness": {
+      "score": 63,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The American Himalayan Foundation's independent institutional account characterizes Hillary's Trust-era operating method as 'intensely hands-on and practical,' corroborated by the concrete outcome of actually building functioning hospitals, water systems, bridges, and micro-hydro power in a remote, high-altitude region under severe logistical constraints -- a real, verifiable outcome requiring practical problem-solving, not merely a stated intent. Two distinct, independently-verifiable facts (the institutional characterization and the tangible built infrastructure) support strong_inference rather than a bare inference from one adjective."
+    },
+    "social_assertiveness": {
+      "score": 28,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Multiple independent facts converge on a self-effacing, non-self-promoting temperament: Lisa Choegyal's independent account (Nepali Times) describes Hillary as 'painfully shy' -- to the point of needing his future mother-in-law to broach his marriage proposal for him -- and records his surprised reaction to being placed on New Zealand's five-dollar note ('I thought you had to be dead or royal to get onto a banknote!'). Hillary's own famously terse understatement on descent ('Well, George, we knocked the bastard off') and repeated self-description as 'a rough old New Zealander' corroborate the same pattern from his own side. Scored dual_edged: the same reticence that avoided self-promotion also meant, per these accounts, that others sometimes had to advocate on his behalf."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edmund-hillary-1953.jpg",
+    "width": 1261,
+    "height": 1600,
+    "source": "Alexander Turnbull Library, Wellington, New Zealand (Ref: 1/2-020196-F; John Dobree Pascoe collection), via Wikimedia Commons",
+    "license": "Public Domain (PD-New Zealand)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edmund_Hillary,_c._1953,_autograph_removed.jpg",
+    "attribution": "Photographer unidentified, c. 1953",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Edmund_Hillary,_c._1953,_autograph_removed.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New candidate pack (2026-09-16), researched and scored independently of Tenzing Norgay's companion pack despite the shared 29 May 1953 Everest summit -- every row here is sourced to evidence about Hillary's own individually-attributable behavior/decisions, never the summit achievement itself. Wikidata QID Q33817 taken as pre-verified per task brief; not independently re-verified live in this session. 4 real sources beyond Wikipedia (Hunt's own book read in full via Internet Archive OCR text; American Himalayan Foundation institutional account; Lisa Choegyal's independent Nepali Times journalism; Hillary's own Academy of Achievement interview) -- clears the >=2-independent-perspective and >=1-non-self-behavioral bar (Hunt's book and the American Himalayan Foundation/Nepali Times accounts are both independent, non-self, behavioral). 6 rows scored; no row scored from the Everest summit itself, from fame, or from occupation stereotype. KNOWN, PRE-EXISTING TAXONOMY GAP flagged explicitly here rather than papered over: this project's closed 11-region vocabulary (region.* in src/core/i18n/en.ts) has no Oceania/Pacific bucket. docs/checkpoints/roster.md's own roster-17 intake record (line ~330) documents this exact prior finding -- 'a genuine taxonomy gap was also found and left unresolved rather than worked around: this project's 11-region taxonomy has no Oceania/Pacific region, so Edmund Hillary (New Zealand) was set aside before scoring despite strong evidence.' Unlike that prior cycle, this pack completes full research and scoring anyway (the evidence work is valid and reusable regardless of the region question), but regionCode 'south_asia' here is a JUDGMENT CALL, not a verified fact: it follows this exact codebase's own established (if implicit) precedent of folding Pacific/Southeast-Asian nations that lack a dedicated bucket into 'south_asia' as the nearest existing catch-all (see jose-rizal.json/Philippines, kartini.json/Indonesia, ho-chi-minh.json/Vietnam, aung-san-suu-kyi.json/Myanmar, lee-kuan-yew.json/Singapore -- all south_asia despite being Southeast Asia, not South Asia). New Zealand/Oceania is a further stretch of that same catch-all than any of those. A human reviewer should decide, before production promotion, whether to (a) accept this placeholder, (b) add a genuine oceania/pacific region.* i18n key (out of scope for this task -- would touch en.ts/ko.ts and tests, none of which this task was authorized to touch), or (c) hold this candidate on the region question alone, independent of its otherwise-solid evidence approval."
+  },
+  "localization": {}
+}

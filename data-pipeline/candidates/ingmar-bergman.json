@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ingmar-bergman",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ingmar Bergman",
+    "wikidataId": "Q7546",
+    "birthYear": 1918,
+    "deathYear": 2007,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "SE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_bergman_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ingmar Bergman",
+      "url": "https://en.wikipedia.org/wiki/Ingmar_Bergman"
+    },
+    {
+      "id": "src_bergman_asc_nykvist",
+      "kind": "institution",
+      "title": "\"Photographing the Films of Ingmar Bergman,\" American Society of Cinematographers -- independent trade-institution account carrying cinematographer Sven Nykvist's own detailed, technical, named-collaborator testimony on their three-decade planning, research and shooting method -- opened and read in full",
+      "url": "https://theasc.com/articles/photographing-the-films-of-ingmar-bergman"
+    },
+    {
+      "id": "src_bergman_wmagazine",
+      "kind": "press",
+      "title": "\"The Private World of Ingmar Bergman,\" W Magazine -- independent account of his daily working routine on Faro, drawing on friend Hanns Rodell and daughter Linn Ullmann -- opened and read in full",
+      "url": "https://www.wmagazine.com/story/ingmar-bergman"
+    },
+    {
+      "id": "src_bergman_artsfuse_peary",
+      "kind": "press",
+      "title": "Gerald Peary, review of Peter Cowie's \"God and the Devil: The Life and Work of Ingmar Bergman,\" Arts Fuse -- independent review corroborating his daily routine and directing reputation from a named biography -- opened and read in full",
+      "url": "https://artsfuse.org/293497/book-review-a-deep-dive-into-the-complex-world-of-ingmar-bergman/"
+    },
+    {
+      "id": "src_bergman_lwlies_ullmann",
+      "kind": "press",
+      "title": "Liv Ullmann interview, Little White Lies -- her own account (independent of, i.e. non-self relative to, Bergman) of their roughly 45-year creative partnership and his directing method -- opened and read in full",
+      "url": "https://lwlies.com/interviews/liv-ullmann-ingmar-bergman"
+    },
+    {
+      "id": "src_bergman_yahoo_andersson",
+      "kind": "press",
+      "title": "\"Bibi Andersson, the Great Swedish Actress ... Was a Sunflower Who Saw the Darkness,\" Yahoo Entertainment (Criterion-sourced) -- independent critical account of his directing approach to actresses -- opened and read in full",
+      "url": "https://www.yahoo.com/entertainment/bibi-andersson-great-swedish-actress-052252019.html"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Cinematographer Sven Nykvist, his director of photography across three decades, documented (American Society of Cinematographers) that before each production the two spent four intensive days analyzing the script line-by-line, calling it \"careful and exacting planning\" that saved \"a tremendous lot of time and money.\" For \"Winter Light,\" Nykvist independently researched roughly 30 churches around Lake Siljan, photographing their interior light at different times of day and pasting the prints into his script as lighting references. The same account documents that for \"Through a Glass Darkly,\" ordinary shooting stopped daily at 3 P.M. so twilight scenes could be rehearsed for three hours ahead of a nightly 10-minute shooting window. Three independent, specific, named-collaborator-documented planning practices, not inferred from his reputation as an auteur."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The same Nykvist account documents granular technical preparation -- systematically photographing church interiors to study light patterns before deciding how to light \"Winter Light\" -- and a specific standard he and Nykvist held each other to, that \"there would be no beauty effects,\" prioritizing realism over conventional cinematographic polish. A specific, named, documented working standard, not inferred from his films' finished visual reputation. Impact is dual_edged: it produced visually exacting, coherent results but imposed extraordinary preparation demands on his crew."
+    },
+    "discipline": {
+      "score": 86,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent sources corroborate the same specific daily routine on Faro. W Magazine's profile (drawing on his friend Hanns Rodell and daughter Linn Ullmann) documents breakfast at 7 a.m., a walk, work through the morning, lunch at 1 p.m. sharp, and a fixed 3 p.m. film screening, with his own explanation: \"When you're as chaotic as I am, you need a very firm structure in your life ... this is a way of keeping me sane.\" Gerald Peary's independent review of Peter Cowie's biography corroborates the same schedule (breakfast at 7, a walk, writing after lunch, a 3 p.m. 35mm screening) and adds his own summary of the philosophy behind it: \"Only the truly efficient can be truly lazy.\" Two independent sources converging on the same specific, sustained, decades-long routine, with no contradicting evidence found -- one of the two or three things this person is best known for behaviorally."
+    },
+    "collaboration": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Liv Ullmann's own account (Little White Lies interview) documents a sustained roughly 45-year creative partnership: she acted in 10 of his films and later directed two of his screenplays herself. Independently, the ASC's Nykvist account documents a separate, also three-decade, collaboration with the same director as his cinematographer. Two independent, named, non-Bergman-authored accounts of sustained repeat collaboration with the same small ensemble, not inferred from his output volume or acclaim."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Liv Ullmann documents a specific instance of his insistence on controlling his own material: during \"Autumn Sonata,\" he refused to alter his scripted dialogue despite Ingrid Bergman's resistance -- \"They were his lines, and they had to be his lines.\" Corroborated by the independently documented pattern of his self-directed, tightly structured working life (his own private working spaces on Faro, a firm self-imposed schedule, and his own description of needing that structure). Impact is dual_edged: it enabled a singular directorial vision but produced documented friction with collaborators."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The same specific, named \"Autumn Sonata\" incident -- Bergman remaining in open disagreement with Ingrid Bergman over the script rather than compromising -- is documented evidence of tolerating rather than smoothing over conflict (Liv Ullmann, Little White Lies). A Yahoo/Criterion-sourced piece on Bibi Andersson independently corroborates a general pattern of demanding treatment of actors provoking pushback (Andersson's own reported reaction: \"I will show him what dramatic talent I possess\"), though this second source is a general characterization rather than an equally specific instance, so confidence is kept moderate and the score held to a real-lean band rather than an extreme one, consistent with the single-incident cap."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ingmar-bergman-1966.jpg",
+    "width": 786,
+    "height": 1050,
+    "source": "Nationaal Archief (Dutch National Archives) / Anefo, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Joost Evers / Anefo, 10 October 1966",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ingmar_Bergman_(1966).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster35 pick (arts_culture, film) -- researched directly for this cycle, 2026-09-16. Wikidata QID Q7546 verified against the task's supplied identity brief. regionCode set to western_europe per task instruction: \"northern_europe\" does not exist as a region.* i18n key (checked src/core/i18n/en.ts, which defines region.western_europe and region.north_america but no northern_europe), so western_europe is used as this project's established nearest-bucket convention. 6 sources: Wikipedia (orientation only, not scored evidence) plus 5 independent, non-self, behavioral sources actually opened and read: (1) American Society of Cinematographers' account of cinematographer Sven Nykvist's own detailed, technical, three-decade collaboration with Bergman -- the strongest single non-self behavioral source, naming specific planning/rehearsal/research practices; (2) W Magazine's profile of his daily Faro routine, sourced to friend Hanns Rodell and daughter Linn Ullmann; (3) Gerald Peary's Arts Fuse review of Peter Cowie's biography \"God and the Devil,\" independently corroborating the same daily routine; (4) Liv Ullmann's own Little White Lies interview describing their ~45-year creative partnership and his directing method, including the specific, named \"Autumn Sonata\" script-control incident; (5) a Yahoo/Criterion-sourced piece on Bibi Andersson's experience working with him. All 6 rows trace to a specific passage in one of these sources, not to his awards, critical acclaim, or reputation as an auteur. Two works named in the original research brief -- Peter Cowie's \"Ingmar Bergman: A Critical Biography\" and Liv Ullmann's memoir \"Changing\" -- were searched for directly but their full text was not accessible online within this research session; Cowie's own, later, overlapping biography (\"God and the Devil\") was used instead via Peary's review, and Ullmann's own words were sourced via a substantive on-the-record interview rather than the memoir itself. Both substitutions are recorded honestly here rather than citing books that were not actually opened. No health/death-based inference made anywhere in this profile. Publication status set to evidence_approved: 6 rows, the >=2-independent-perspective / >=1-non-self-behavioral bar comfortably exceeded (5 non-self sources), each row traced to an actually-read passage."
+  },
+  "localization": {}
+}
