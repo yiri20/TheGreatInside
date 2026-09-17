@@ -348,12 +348,18 @@ per person, and cross-target checks (no duplicate id/slug/QID across all
 ## Verification
 
 - `tsc --noEmit`: clean.
-- `validateCandidates.ts`: **314 candidates loaded** (pre-commit;
-  325 post-commit), **0 errors, 0 warnings**, 0 quality-gate failures
-  across the entire pool.
-- `checkScoringLockIntegrity.ts`, pre-commit: **"Checked 314
-  previously-committed candidate file(s) against HEAD. 0 flagged."**
-  Legacy: 22 covered, 0 flagged. Post-commit re-run recorded below.
+- `validateCandidates.ts`: **314 candidates loaded pre-commit; 325
+  post-commit** (implementation commit `125779f`), **0 errors, 0
+  warnings** both times, 0 quality-gate failures across the entire pool.
+  By status post-commit: `qa_passed` 93, `evidence_approved` 149, `held`
+  83 (sums to 325).
+- `checkScoringLockIntegrity.ts`, pre-commit: "Checked 314
+  previously-committed candidate file(s) against HEAD. 0 flagged."
+  **Post-commit, run against clean committed HEAD (`125779f`): "Checked
+  325 previously-committed candidate file(s) against HEAD. 0 flagged."**
+  Mechanical count of `data-pipeline/candidates/*.json` on disk
+  post-commit: **325** — agrees exactly. Legacy: 22 covered, 0 flagged,
+  both times.
 - `vitest run`: **65 files, 1292 tests, all passed** (including the new
   107-test `roster35.test.ts`).
 - `next build --webpack`: succeeded, **548 static/SSG paths**
