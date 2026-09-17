@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ella-fitzgerald",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ella Fitzgerald",
+    "wikidataId": "Q1768",
+    "birthYear": 1917,
+    "deathYear": 1996,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ella_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ella Fitzgerald",
+      "url": "https://en.wikipedia.org/wiki/Ella_Fitzgerald"
+    },
+    {
+      "id": "src_ella_granz_paulsmith",
+      "kind": "press",
+      "title": "\"Ella and Norman,\" JazzProfiles (2011) -- career retrospective on the Fitzgerald/Granz partnership, quoting Norman Granz's own account of managing and producing her and pianist Paul Smith's independent, decades-long account of accompanying her -- opened and read in full",
+      "url": "https://jazzprofiles.blogspot.com/2011/10/ella-and-norman.html"
+    },
+    {
+      "id": "src_ella_tick_nation_review",
+      "kind": "press",
+      "title": "\"The Genius of Ella Fitzgerald,\" The Nation -- review of Judith Tick's 2024 biography \"Becoming Ella Fitzgerald,\" an independent, recent scholarly biography; describes her scat technique in detail and quotes a close friend on her private disposition -- opened and read in full",
+      "url": "https://www.thenation.com/article/culture/ella-fitzgerald-judith-tick-biography/"
+    },
+    {
+      "id": "src_ella_jazzhistoryonline",
+      "kind": "press",
+      "title": "\"Ella at 100,\" Jazz History Online -- independent jazz-journalism retrospective with a specific named anecdote (singer Carmen Bradford) and documented characterization of her self-criticism and offstage disposition -- opened and read in full",
+      "url": "https://jazzhistoryonline.com/ella-at-100/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Developed a specific, sustained scat-singing \"syllabic vocabulary,\" not merely a famous voice. The Nation's review of Judith Tick's 2024 biography describes her spinning melodies into \"a cyclone of free association,\" interpolating fragments of Chopin, Elvis and Armstrong into new vocal collages, tracing the technique to her own account of joining Chick Webb's after-hours jam sessions (\"I felt out of place until Chick suggested I improvise on my voice\"). Independently, Jazz History Online's retrospective documents a specific instance -- her \"Blue Skies\" recording -- where she scatted an unplanned multi-chorus solo \"by her knowledge and instincts.\" Two independent, non-self accounts converging on the same documented technique, not scored from her fame as a singer."
+    },
+    "intuitive_synthesis": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same two independent accounts document her combining disparate musical material on the fly into a coherent improvisation rather than working it out analytically in advance -- interpolating classical, pop and jazz references into a single spontaneous vocal line (The Nation/Tick biography), and scatting an entire unrehearsed solo on \"Blue Skies\" by ear rather than from a prepared arrangement (Jazz History Online). Scored as a documented pattern of real-time synthesis under performance conditions, not from a general reputation for musicality."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Pianist Paul Smith, her accompanist for decades, is quoted in JazzProfiles' \"Ella and Norman\" describing her as someone \"for whom singing was her life\" whose \"home was the stage,\" who grew restless during breaks between engagements and asked why Granz was not booking her more. A single named, direct collaborator's account of a specific, recurring behavior pattern -- not inferred from her fame or record sales, hence held to a moderate rather than extreme score."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Norman Granz, her manager/producer for roughly four decades, described their arrangement in his own words as running on \"mutual love and respect\" with no formal contract between them (JazzProfiles' \"Ella and Norman\"). Paul Smith's account in the same piece adds that although Granz selected the large majority of her recorded material, he did so \"in concert with Fitzgerald's wishes.\" A specific, sustained, named professional partnership -- not inferred from her occupation."
+    },
+    "perfectionism": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Jazz History Online's retrospective recounts singer Carmen Bradford's backstage exchange with Fitzgerald, in which Fitzgerald confessed her own performances \"didn't always go as well as she hoped\" -- to Bradford's incredulity -- and separately documents her as \"extremely self-critical\" of her work. A single, specific, named, quoted incident: enough to support a real lean, per the rubric's single-anecdote cap, not an extreme score."
+    },
+    "social_assertiveness": {
+      "score": 26,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Two independent sources converge on the same pattern: Jazz History Online documents that she \"guarded many details of her private life\" and would \"push uncomfortable feelings into the background\" rather than display them; The Nation's review of the Tick biography separately quotes a close friend describing her as someone who \"kept a lot inside her head.\" Corroborated by her own public description of herself as shy away from people (self-testimony, treated as one supporting perspective, not the sole basis for the score). Scored low for the documented offstage pattern, distinct from her transformation once performing -- not from any inference about her fame or stage success."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ella-fitzgerald-1946.jpg",
+    "width": 1514,
+    "height": 1600,
+    "source": "William P. Gottlieb Collection, Library of Congress, via Wikimedia Commons",
+    "license": "Public Domain (Gottlieb collection; no known copyright restrictions -- Gottlieb dedicated the collection to public use)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ella_Fitzgerald_(Gottlieb_02871).jpg",
+    "attribution": "William P. Gottlieb, November 1946",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ella_Fitzgerald_(Gottlieb_02871).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster35 pick (arts_culture, music) -- researched directly for this cycle, 2026-09-16. Wikidata QID Q1768 verified against the task's supplied identity brief. 4 sources: Wikipedia (orientation only, not scored evidence) plus 3 independent, non-self, behavioral sources actually opened and read: (1) JazzProfiles' \"Ella and Norman\" (2011), quoting Norman Granz's own account of producing her and pianist Paul Smith's independent decades-long account of accompanying her; (2) The Nation's review of Judith Tick's 2024 biography \"Becoming Ella Fitzgerald,\" an independent, recent scholarly biography, quoting a close friend and describing her scat technique in detail; (3) Jazz History Online's \"Ella at 100\" retrospective, with a specific named anecdote (Carmen Bradford) and characterization of her self-criticism and private off-stage disposition. All 6 rows trace to a specific passage in one of these three sources -- none scored from her fame, awards, or record sales. The well-documented October 1955 Houston arrest (Fitzgerald, Dizzy Gillespie, Illinois Jacquet and Norman Granz, arrested backstage after a dice game was found during a concert Granz had contractually required to be integrated) was researched but deliberately NOT used as scored evidence for any trait: independent sourcing attributes the non-segregation contract clause specifically to Granz's own insistence, not a documented personal decision by Fitzgerald -- scoring a trait from it risked misattributing her manager's contractual choice as her own behavior, which this rubric's anti-pattern list (occupational/circumstantial stereotype, halo effect) warns against. It is recorded here for factual completeness, not scored. No health/death-based inference made anywhere in this profile. Stuart Nicholson's biography and Geoffrey Mark's biography (both named in the original research brief) were searched for but their full text was not accessible online within this research session, so neither is cited as an opened source -- only sources actually read in full are cited above. Publication status set to evidence_approved: 6 rows, the >=2-independent-perspective / >=1-non-self-behavioral bar comfortably exceeded (3 non-self sources), each row traced to an actually-read passage."
+  },
+  "localization": {}
+}

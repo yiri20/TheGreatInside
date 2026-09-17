@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alexander-von-humboldt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alexander von Humboldt",
+    "wikidataId": "Q6694",
+    "birthYear": 1769,
+    "deathYear": 1859,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["DE"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["naturalist", "explorer"],
+    "fieldIds": ["natural_science", "exploration"],
+    "impactDomains": ["scientific", "historical"],
+    "tagIds": [],
+    "archetypeIds": ["scientific_explorer", "cross_disciplinary_generalist"]
+  },
+  "sources": [
+    {
+      "id": "src_humboldt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Alexander von Humboldt",
+      "url": "https://en.wikipedia.org/wiki/Alexander_von_Humboldt"
+    },
+    {
+      "id": "src_humboldt_darwin_project",
+      "kind": "institution",
+      "title": "\"Alexander von Humboldt,\" Darwin Correspondence Project, University of Cambridge -- independent academic archive documenting Humboldt's own 1839 letter to a then-30-year-old Darwin and its content, opened and read in full",
+      "url": "https://www.darwinproject.ac.uk/alexander-von-humboldt"
+    },
+    {
+      "id": "src_humboldt_literary_review_wilcken",
+      "kind": "press",
+      "title": "Patrick Wilcken, \"Conqueror of Chimborazo\" (review of Andrea Wulf's The Invention of Nature: Alexander von Humboldt's New World), Literary Review -- independent, non-hagiographic critical review naming specific documented incidents, opened and read in full",
+      "url": "https://literaryreview.co.uk/conqueror-of-chimborazo"
+    },
+    {
+      "id": "src_humboldt_nybooks_rich",
+      "kind": "press",
+      "title": "Nathaniel Rich, \"The Very Great Alexander von Humboldt\" (review of Andrea Wulf's The Invention of Nature), The New York Review of Books, Oct 22 2015 -- independent review with specific dated/documented incidents, opened and read in full",
+      "url": "https://www.nybooks.com/articles/2015/10/22/very-great-alexander-von-humboldt/"
+    },
+    {
+      "id": "src_humboldt_neh_gillis",
+      "kind": "institution",
+      "title": "Anna Maria Gillis, \"Humboldt in the New World,\" Humanities (National Endowment for the Humanities), Nov/Dec 2012 -- independent institutional account with specific dated incidents (passport, self-funding, Bonpland rescue, electric eel/curare), opened and read in full",
+      "url": "https://www.neh.gov/humanities/2012/novemberdecember/feature/humboldt-in-the-new-world"
+    },
+    {
+      "id": "src_humboldt_kinesis_marenda",
+      "kind": "press",
+      "title": "Patrick Marenda, \"Humboldt and the origin of our ecological view of nature,\" Kinesis Magazine, Jan 28 2021 -- independent science-history account of his synthesizing method, opened and read in full",
+      "url": "https://kinesismagazine.com/2021/01/28/humboldt-and-the-origin-of-our-ecological-view-of-nature/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 87,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, multi-domain observational habit documented across independent sources: carried and used roughly 42 instruments (barometers, thermometers, a cyanometer, magnetometers, sextants) throughout the entire 1799-1804 expedition, taking measurements of altitude, temperature, sky-blueness, magnetism and species distribution at nearly every stop (Wilcken/Literary Review; Rich/NYRB; Gillis/NEH). A documented, years-long pattern across three independent accounts, not a single anecdote -- one of the handful of things every serious account of Humboldt converges on, supporting the top band."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented self-experimentation in the field: took a deliberate electric-eel shock and separately nearly poisoned himself testing curare during the expedition (Gillis/NEH), corroborated independently by Wilcken's account of 'electric eel experiments on himself' (Literary Review). Two distinct documented instances from two independent sources support documented rather than mere inference, though capped below the 85+ band since this is a specific behavior pattern rather than established as one of the two or three things he is most defined by."
+    },
+    "detail_orientation": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Wilcken (Literary Review) documents 'thousands of recordings' and instruments that 'smashed one by one' from continuous use; Rich (NYRB) independently corroborates constant temperature-taking and the cataloguing of roughly 60,000 collected botanical specimens. Two independent, converging documented accounts of sustained, granular recording discipline across the full expedition."
+    },
+    "discipline": {
+      "score": 84,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The measurement practice was not occasional but sustained without apparent lapse across a five-year, multi-country expedition (Venezuela, Ecuador, Peru, Mexico, Cuba), independently corroborated by Wilcken, Rich, and Gillis (NEH), each describing the same unbroken pattern of daily instrument use over years rather than a single burst of effort. Multiple independent documented instances support the upper end of the clear-pattern band."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Rich (NYRB) documents a specific, dated pattern during Humboldt's later Paris writing period: he 'skipped meals and barely slept,' writing in page margins and reportedly carving thoughts into his own desk because his 'hand couldn't keep up with his brain.' A single strong documented account without independent corroboration on this specific behavior, so scored in the real-lean band rather than the extreme one; dual_edged because the same account frames it as costing him sleep and regular meals."
+    },
+    "persistence": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Continued the Chimborazo ascent after altitude sickness, bleeding gums and vertigo (Wilcken; Rich), continued climbing after his boots disintegrated by going barefoot over knife-edged rock (Rich), and separately continued the broader expedition through repeated bouts of fever, dysentery and blood infections (Rich). Multiple independent documented instances of continuing in the face of physical breakdown, not a single anecdote."
+    },
+    "risk_tolerance": {
+      "score": 87,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Set an altitude record on Chimborazo along what Rich (NYRB) describes as a 'two-inch-wide ridge,' bathed among crocodiles and jaguars in the Orinoco, sailed through a six-day hurricane with sharks circling the ship, and separately took a deliberate electric-eel shock and self-tested curare (Gillis/NEH; Wilcken). Multiple independent documented instances, from more than one source, of repeated, sustained physical risk-taking specifically in pursuit of data -- a defining, widely-converged-on characteristic, hence the top band; dual_edged because the same behavior nearly killed him more than once and is not framed as reckless generally, only in this specific pursuit."
+    },
+    "intuitive_synthesis": {
+      "score": 88,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented pattern of connecting disparate observations into unified cross-domain patterns: the 1807 Naturgemaelde plotted vegetation type against altitude on Chimborazo and explicitly compared it to Mont Blanc, Vesuvius and Cotopaxi (Marenda/Kinesis; Wilcken); he identified the palm Mauritia flexuosa as what would later be called a keystone species roughly 170 years before that term existed, and rigorously cross-checked New World observations against what was known in Europe, Asia and Africa 'to create a global picture' (Marenda). Rich (NYRB) independently corroborates the same synthesizing method via his invention of isotherms and the observation that forests have a measurable cooling effect on climate. Multiple independent documented instances from more than one source support the top band; this cross-domain synthesis is one of the handful of things Humboldt is specifically remembered for, not a general halo from his fame."
+    },
+    "cross_domain_range": {
+      "score": 85,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Substantive, sustained, non-dabbling work across astronomy, geomagnetism, meteorology, botany and geology within a single unbroken research program, evidenced by the instrument list itself (chronometers, barometers, magnetometers, dipping needles, sextants -- Gillis/NEH) and by independently documented real output in each domain (isotherms and climatology, vegetation-zone botany, volcanism and geology -- Rich; Marenda). Genuinely substantive parallel output in multiple fields over decades, not superficial breadth."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After his mother's 1796 death and inheritance, Humboldt left his secure post in the Prussian Department of Mines specifically 'to pursue the traveling scientist's life,' then personally negotiated with the Spanish crown and financed the entire five-year expedition from his own inheritance rather than seeking a sponsored or institutional post (Gillis/NEH). A single well-documented, specific decision rather than a generalized reputation, so scored in the real-lean-to-clear-pattern band rather than the extreme one."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Secured an open-ended Spanish royal passport that Gillis (NEH) describes as 'a boon rarely awarded to foreigners,' then, when illness aboard the Pizarro forced an unplanned early disembarkation at Cumana rather than the originally intended Cuba landing, used the changed circumstance to explore the Orinoco and other waterways he had not originally planned to survey. Two distinct instances of recognizing and acting on an unplanned opening, both from the same source, so scored strong_inference rather than documented per this project's stricter multi-source standard for that label."
+    },
+    "collaboration": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Traveled as a sustained working partner with botanist Aime Bonpland throughout the full five-year expedition, including one documented incident in which Bonpland pulled Humboldt (who could not swim) from drowning (Gillis/NEH); Wilcken (Literary Review) independently characterizes Humboldt as forming 'very close relationships with his male colleagues and travel companions.' Two independent sources converge on a real, sustained collaborative partnership, though neither documents specific joint working methods in enough detail to support a higher confidence."
+    },
+    "analytical_rigor": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Marenda (Kinesis) documents that rather than resting on isolated local observation, Humboldt 'would rigorously compare it to what was known about the natural world in Europe, Asia and Africa, to create a global picture' -- a specific, described comparative-verification method, not a general reputation for intelligence. Corroborated by the sheer measurement volume independently documented by Wilcken and Rich. One clear documented method plus corroborating volume evidence supports the higher end of the clear-pattern band."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Wrote and received an estimated 50,000-plus letters over his lifetime (Wilcken) and, per the Darwin Correspondence Project's own independent account, wrote unprompted to a 30-year-old Darwin in 1839 specifically to encourage him ('You have an excellent future ahead of you'), while Rich (NYRB) documents broader influence reaching non-specialist readers and writers (Wordsworth, Coleridge, Goethe) well beyond a narrow scientific circle. A real, evidenced pattern of deliberately reaching and encouraging beyond his own immediate circle, though inferred from the correspondence pattern rather than a stated goal, hence strong_inference."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alexander-von-humboldt-weitsch-1806.jpg",
+    "width": 1157,
+    "height": 1600,
+    "source": "Alte Nationalgalerie, Staatliche Museen zu Berlin, via Wikimedia Commons",
+    "license": "Public Domain (PD-old-100-expired; artist Friedrich Georg Weitsch died 1828)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexander_von_Humboldt_by_Friedrich_Georg_Weitsch.jpg",
+    "attribution": "Friedrich Georg Weitsch, 1806",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alexander_von_Humboldt_by_Friedrich_Georg_Weitsch.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New candidate, single-person research pass (2026-09-16). Wikidata QID (Q6694) and birth/death years verified before scoring; used only for identity, never as scored evidence (Wikipedia is orientation-only per this project's discipline). Era set to \"19th_century\" rather than \"early_modern\": although the defining 1799-1804 Latin American expedition began in the 18th century, the large majority of his lasting scientific synthesis and publication (isothermal maps 1817, Personal Narrative volumes through the 1820s, the Kosmos volumes 1845-1862) falls in the early-to-mid 1800s, and he died in 1859 -- a defensible either-way call, noted per instruction rather than left silent. 14 rows scored, each traced to a specific documented incident or method described in an independent, non-self source (Wilcken/Literary Review, Rich/NYRB, Gillis/NEH, Marenda/Kinesis, or the Darwin Correspondence Project) -- never from fame, historical importance, the number of things named after him, or occupational stereotype. Requirement check: >=2 independent provenance perspectives satisfied (five non-Wikipedia sources: two independent magazine reviews of Andrea Wulf's The Invention of Nature by different authors/outlets, one federal-humanities-agency institutional account, one university archival project, one independent science-history piece); >=1 substantive non-self behavioral source satisfied by all five of those (none is Humboldt's own testimony -- his own Personal Narrative/journals were deliberately not used as a primary scored source in this pass, since the independent secondary literature already supplied sufficient, better-corroborated behavioral evidence). No health/death-based trait inference used (deceased 1859). Rejected/excluded as a source: the Alexander von Humboldt Foundation's own public page (humboldt-foundation.de) was opened and read but excluded from scored evidence -- it reads as promotional (unsourced characterizations like 'obsessive networker,' 'marketing genius,' 'immortal genius') rather than documenting specific verifiable incidents, consistent with this rubric's rule against biography-tone-as-evidence. Two additional candidate sources (Britannica, Smithsonian Magazine) returned HTTP 403 and were never actually read, so are not cited or relied upon anywhere in this file. Portrait: searched Wikimedia Commons for both a lifetime painted portrait and a late-life photograph; a c.1857-58 studio photograph exists (File:Alexander von Humboldt photo 1857.jpg) but at only 500x607px source resolution it was rejected as too low-resolution to normalize to this project's 1600px-longest-side convention without misrepresentating image quality via upscaling; a second candidate (a 5301x6593px 1858 National Portrait Gallery item credited '...after an unidentified artist') was rejected because its own Commons metadata indicates it is a print made after another, unidentified artist's work rather than a direct life photograph, making attribution too uncertain to ship. Used instead: the well-documented 1806 Friedrich Georg Weitsch oil portrait (Alte Nationalgalerie, Berlin), painted two years after Humboldt's return from the Americas, depicting him with botanical specimens and expedition instruments -- thematically apt given the scored evidence, high native resolution (1655x2288), and unambiguous public domain status (artist died 1828) verified live via the Wikimedia Commons imageinfo/extmetadata API before download. Downloaded full-resolution original via curl, resized to 1600px longest side (1157x1600) with Python PIL/LANCZOS at quality 85, verified on disk, and the raw temp download directory was deleted after resizing."
+  },
+  "localization": {}
+}

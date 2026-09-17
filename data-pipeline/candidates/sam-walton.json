@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sam-walton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sam Walton",
+    "wikidataId": "Q497827",
+    "birthYear": 1918,
+    "deathYear": 1992,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["entrepreneur"],
+    "fieldIds": ["business"],
+    "impactDomains": ["entrepreneurial", "wealth_creation"],
+    "tagIds": [],
+    "archetypeIds": ["entrepreneurial_builder"]
+  },
+  "sources": [
+    {
+      "id": "src_walton_wikipedia",
+      "kind": "wikipedia",
+      "title": "Sam Walton",
+      "url": "https://en.wikipedia.org/wiki/Sam_Walton"
+    },
+    {
+      "id": "src_walton_time_huey",
+      "kind": "press",
+      "title": "John Huey, \"Discounting Dynamo: Sam Walton\", TIME, Dec 7, 1998 -- independent business-journalism retrospective (Huey covered Walton for Fortune during his lifetime), third-person reporting rather than Walton's own memoir",
+      "url": "https://time.com/archive/6734187/discounting-dynamo-sam-walton/"
+    },
+    {
+      "id": "src_walton_encyclopedia_arkansas",
+      "kind": "institution",
+      "title": "\"Samuel Moore Walton (1918-1992)\", Encyclopedia of Arkansas (Central Arkansas Library System) -- independent academic/institutional reference entry",
+      "url": "https://encyclopediaofarkansas.net/entries/samuel-moore-walton-1792/"
+    },
+    {
+      "id": "src_walton_abhc_hoover",
+      "kind": "press",
+      "title": "Gary Hoover, \"How Curiosity and Humility Built the World's Largest Company: the Sam Walton Story\", American Business History Center -- independent business-history essay by a named author/organization, read for corroborating behavioral detail (not treated as a primary citation on its own, since it carries no footnotes)",
+      "url": "https://americanbusinesshistory.org/how-curiosity-and-humility-built-the-worlds-largest-company-the-sam-walton-story/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as a sustained, decades-long personal habit rather than a one-time behavior: as a young store manager he 'spent every lunch hour' inside a competitor's Sears and Younkers Brothers stores studying their operation, and independently, TIME's John Huey reports he was alerted to discount retailing's whole potential by personally observing Herb Gibson's competing discount stores. The habit continued essentially unchanged after Walmart became the country's largest retailer -- multiple independent accounts describe him personally walking competitor stores (Kmart and others) asking employees detailed operational questions well into his life as a billionaire, not merely in his early career when it might be explained by competitive necessity."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented, specific, granular personal review of operational data as a sustained ritual: he personally came in at 3 or 4 a.m. on Saturdays 'to study all the company's weekly numbers' before the Saturday morning manager meeting he had run since 1962. His competitor store visits are independently described as including recording specific prices and measuring display dimensions, not general impressions -- a specific, repeated, hands-on level of factual scrutiny rather than delegated summary review."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Independently reported (TIME/Huey) as recognizing discount retailing's commercial potential specifically by observing a competitor, Herb Gibson's stores, years before building Walmart around that model -- a documented, dated instance of spotting an external opportunity through direct personal observation rather than market research or delegated analysis. His own stated philosophy of treating every competitor visit as a source of 'one more good idea' corroborates this as a sustained practice rather than a single lucky insight, though the philosophy statement itself is self-testimony and is treated here as corroboration only, not primary evidence."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented as personally running the Saturday morning manager meeting every week from 1962 onward, including his own early-morning (3-4 a.m.) personal preparation beforehand -- a specific, sustained, decades-long ritual independently described (Encyclopedia of Arkansas; American Business History Center), not an occasional practice. Independently corroborated by his continuing, weekly, in-person store visits by private plane even after the chain had grown to a scale that would have made delegation the ordinary choice."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Documented pattern of directly, personally investigating and acting rather than relying on subordinate reports: independently described as flying himself between stores to make unannounced visits, personally introducing himself to staff and customers over the store PA system rather than through management channels, and -- in a separate documented episode -- responding to losing his profitable Newport, Arkansas store lease in 1950 (his landlord declined to renew, wanting the location for his own son) by relocating and personally securing and reopening a new store in Bentonville within eight days (moved May 1, 1950; reopened May 9, 1950, per the Encyclopedia of Arkansas). The speed and directness of that recovery is a specific, dated, corroborated instance rather than a general characterization."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sam-walton-bush41library-1992.jpg",
+    "width": 768,
+    "height": 960,
+    "source": "Wikimedia Commons, extracted from a George Bush Presidential Library and Museum photograph",
+    "license": "Public domain (U.S. federal government work, 17 U.S.C. § 105); also marked with the Creative Commons Public Domain Mark 1.0 on Commons",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "George Bush Presidential Library and Museum, March 17, 1992",
+    "creator": "George Bush Presidential Library and Museum",
+    "date": "1992-03-17",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sam_Walton_(1992).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster35 candidate. Wikidata QID (Q497827) used as given/verified prior to this session; identity fields and classification (occupationIds/fieldIds/impactDomains/tagIds/archetypeIds) were pre-specified against existing i18n keys (occupation.entrepreneur, archetype.entrepreneurial_builder, field.business all confirmed present in src/core/i18n/en.ts and src/core/i18n/ko.ts before use; tagIds left empty, no existing tag was a clean fit and none was forced) and applied as given. 5 rows scored, each traced to a specific, dated, or independently repeated behavioral fact -- never from Walmart's revenue, size, or Walton's personal wealth/ranking as richest American, which this rubric excludes as evidence. Deceased (1992, cancer) -- no health- or death-based trait inference was made anywhere in this file. Personal frugality (the pickup truck, flying coach, budget-motel travel) is extremely well documented across every source read here, but was deliberately NOT force-mapped onto any of the 34 taxonomy attributes -- no existing AttributeId cleanly captures 'personal frugality despite wealth' as a distinct construct, and inventing a strained mapping (e.g. onto risk_tolerance or impact_motivation) would have been exactly the kind of unsupported row this rubric warns against; it is recorded here only as color, not as a scored row. Could not directly access and read Vance Trimble's independent 1990 biography ('Sam Walton: The Inside Story of America's Richest Man') or Walton's own memoir ('Made in America') -- both are access-restricted/paywalled and were not opened this session; their existence and general content (Trimble's book based on interviews with hundreds of named associates, since Walton and his immediate circle declined to be personally interviewed for it) were confirmed only via independent secondary review sources, so neither is listed as a read, cited source here. Instead, the >=2 independent-perspective and >=1 non-self-behavioral bar is satisfied by sources actually opened and read this session: TIME's John Huey retrospective (independent journalism, third-person reporting, not Walton's memoir) and the Encyclopedia of Arkansas institutional entry, both read directly, neither self-testimony. Portrait: reused the pre-existing downloaded file (public/portraits/sam-walton-bush41library-1992.jpg) after independently re-verifying it against Wikimedia Commons -- confirmed an EXACT match (768x960 pixels, 115 KB) against File:Sam Walton (1992).jpg, itself an extracted single-subject crop of File:President George H. W. Bush and Sam Walton.jpg, taken March 17, 1992 when Bush awarded Walton the Presidential Medal of Freedom in Bentonville; credited to the George Bush Presidential Library and Museum and public domain as a U.S. government work. Suggested future deepening (not done this cycle, flagged rather than guessed at): read Trimble's biography and 'Made in America' directly for additional independently-corroborated rows (e.g. his early Ben Franklin franchise years, or named-associate accounts of the Saturday meeting's actual tone) once access is available."
+  },
+  "localization": {}
+}

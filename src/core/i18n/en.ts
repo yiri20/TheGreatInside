@@ -890,6 +890,7 @@ export const en = {
   "occupation.religious_leader": "religious leader",
   "occupation.physician": "physician",
   "occupation.physicist": "physicist",
+  "occupation.astrophysicist": "astrophysicist",
   "occupation.poet": "poet",
   "occupation.political_activist": "political activist",
   "occupation.political_leader": "political leader",

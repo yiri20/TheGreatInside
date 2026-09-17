@@ -597,6 +597,7 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "occupation.religious_leader": "종교 지도자",
   "occupation.physician": "의사",
   "occupation.physicist": "물리학자",
+  "occupation.astrophysicist": "천체물리학자",
   "occupation.poet": "시인",
   "occupation.political_activist": "정치 활동가",
   "occupation.political_leader": "정치 지도자",
@@ -1933,6 +1934,20 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.edward-jenner": "에드워드 제너",
   "person.name.antoine-lavoisier": "앙투안 라부아지에",
   "person.name.haruki-murakami": "무라카미 하루키",
+
+  // ROSTER 35 (2026-09-16): first new-candidate expansion cycle after the
+  // 250-person performance checkpoint.
+  "person.name.john-von-neumann": "존 폰 노이만",
+  "person.name.jocelyn-bell-burnell": "조슬린 벨 버넬",
+  "person.name.tenzing-norgay": "텐징 노르가이",
+  "person.name.michael-jordan": "마이클 조던",
+  "person.name.sam-walton": "샘 월튼",
+  "person.name.larry-page": "래리 페이지",
+  "person.name.ella-fitzgerald": "엘라 피츠제럴드",
+  "person.name.ingmar-bergman": "잉마르 베리만",
+  "person.name.salvador-dali": "살바도르 달리",
+  "person.name.carl-linnaeus": "칼 폰 린네",
+  "person.name.alexander-von-humboldt": "알렉산더 폰 훔볼트",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

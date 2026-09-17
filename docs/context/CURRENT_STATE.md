@@ -5,23 +5,26 @@ is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
 **Minimal update, 2026-09-16**: the paragraph and Product-section headline
-below this note are stale (they predate Roster17-33 and describe a
+below this note are stale (they predate Roster17-35 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/250-person-performance.md` for the full
-measurement record):
+follows (see `docs/checkpoints/roster35.md` for the full record):
 
-- Production: **251** people. Directory-visible: **250**. Match-eligible:
+- Production: **262** people. Directory-visible: **261**. Match-eligible:
   **114** (unchanged since Legacy Integrity Batch 1; roster growth since
-  then has been non-match-eligible new-candidate publication).
-- Latest merged `main` SHA: `0193d7cc617eab27e1013ddb018065ee36452feb`
-  (PR #42, Roster34 merge).
-- Latest milestone: **250-person production roster reached** (Roster34,
-  2026-09-16). Final classification from the dedicated performance
-  checkpoint: see `docs/checkpoints/250-person-performance.md`.
-- Next recommended task: see that checkpoint's final classification and
-  recommended-next-task section — do not assume it without reading it,
-  since this index line will itself go stale.
+  then has been non-match-eligible new-candidate publication — third
+  consecutive cycle at 114, see Roster35's recent-cohort matching watch).
+- Latest merged `main` SHA: `3987eca7c9becb5024e0271dd897d0cf9a54d91b`
+  (PR #43, 250-person performance checkpoint merge).
+- Latest milestone: **250-person production roster passed; first
+  250→500 expansion batch (Roster35, `feat/roster35`, unmerged, PR not
+  yet opened) shipped 11 new people** (2026-09-16). Checkpoint
+  classification carried in: EXPANSION_GREEN — no performance work
+  required. Full record: see `docs/checkpoints/roster35.md`.
+- Next recommended task: see Roster35's own final section (Roster36 not
+  started; Legacy Integrity Batch 6 not started; 250-person performance
+  benchmark not repeated) — do not assume it without reading it, since
+  this index line will itself go stale.
 
 Older Roster33-era paragraph and Product-section headline below (both
 now superseded by the above, kept for historical continuity only, not

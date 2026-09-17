@@ -2,7 +2,7 @@
   "schemaVersion": "candidate_v1",
   "processingVersion": "scoring_rubric_v1",
   "slug": "jocelyn-bell-burnell",
-  "status": "held",
+  "status": "evidence_approved",
   "identity": {
     "canonicalName": "Jocelyn Bell Burnell",
     "wikidataId": "Q233974",
@@ -29,15 +29,21 @@
     },
     {
       "id": "src_jbb_prospect",
-      "kind": "interview",
-      "title": "\"Jocelyn Bell Burnell: 'Not getting the Nobel has been good for me'\" -- Prospect Magazine interview",
+      "kind": "press",
+      "title": "\"Jocelyn Bell Burnell: 'Not getting the Nobel has been good for me'\" -- Prospect Magazine interview, her own words -- self-testimony, one perspective",
       "url": "https://www.prospectmagazine.co.uk/views/people/60135/jocelyn-bell-burnell-not-getting-the-nobel-has-been-good-for-me"
     },
     {
       "id": "src_jbb_aps_cnbc",
-      "kind": "interview",
-      "title": "Multiple independently-conducted press interviews (American Physical Society News, 'Don't Second-Guess Yourself,' 2024; CNBC science-prize coverage) in which Bell Burnell discusses the pulsar discovery in her own words",
+      "kind": "press",
+      "title": "Multiple independently-conducted press interviews (American Physical Society News, 'Don't Second-Guess Yourself,' 2024; CNBC science-prize coverage) in which Bell Burnell discusses the pulsar discovery in her own words -- self-testimony, one perspective",
       "url": "https://www.aps.org/apsnews/2024/02/jocelyn-bell-burnell-discovery-pulsars"
+    },
+    {
+      "id": "src_jbb_penny_seti",
+      "kind": "archive",
+      "title": "Alan Penny (School of Physics and Astronomy, University of St Andrews), \"The SETI Episode in the 1967 Discovery of Pulsars,\" European Physical Journal H (2013), arXiv:1302.0641 -- an independent historian-of-science's peer-reviewed account, built from contemporary documentation (Ryle/Hewish correspondence and archives, Bell's own 1968 thesis, Woolgar's 1975/1979 interview-based thesis) plus personal communications from named participants. Opened and read in full. Genuinely independent, non-self, behavioral: gives a dated, specific account of Bell's own sustained pattern-detection work across months (first noticing 'scruff' on Aug 6 1967, recognizing its sidereal-time recurrence in late August, finding a second pulsar source Dec 21, and a third and fourth source in mid-January) and quotes named colleague Craig Mackay, who 'had a desk next to Bell during the discovery,' independently describing the working atmosphere. Notably NOT hagiographic -- the paper explicitly records that Bell Burnell herself disputes parts of its analysis, a sign this is genuine independent scholarship, not a repackaging of her own narrative.",
+      "url": "https://arxiv.org/pdf/1302.0641"
     }
   ],
   "rows": {
@@ -53,14 +59,14 @@
       "confidence": 0.48,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Documented directly quoted coping response to the desk-banging harassment: 'I learnt not to show weakness, not to show it was affecting me' -- and, separately, that her parents had to actively fight her school's refusal to let her study science rather than 'cooking and sewing,' a second, distinct, dated obstacle she and her family worked through."
+      "rationale": "Documented directly quoted coping response to the desk-banging harassment: 'I learnt not to show weakness, not to show it was affecting me' -- and, separately, that her parents had to actively fight her school's refusal to let her study science rather than 'cooking and sewing,' a second, distinct, dated obstacle she and her family worked through. Independently corroborated (Penny 2013): his dated timeline shows her sustained, repeated pattern-detection work continuing over more than five months -- first noticing 'scruff' 6 August 1967, recognizing its recurrence in late August, then finding a second, third, and fourth pulsar source in December and mid-January -- an independently-documented pattern of sustained effort, not a single lucky observation."
     },
     "achievement_drive": {
       "score": 65,
       "confidence": 0.45,
       "evidenceType": "documented",
       "impact": "advantage",
-      "rationale": "Documented as personally identifying the first pulsar signal by hand from analog chart paper, described in her own words as 'a very small anomaly...about 5 millimeters...out of half a kilometer' -- a specific, dated, self-described act of careful pattern-detection in an enormous volume of raw data."
+      "rationale": "Documented as personally identifying the first pulsar signal by hand from analog chart paper, described in her own words as 'a very small anomaly...about 5 millimeters...out of half a kilometer' -- a specific, dated, self-described act of careful pattern-detection in an enormous volume of raw data. Independently corroborated (Penny 2013, an historian's peer-reviewed account built from contemporary correspondence/archives and named-participant interviews, not Bell Burnell's own retelling): confirms she personally noticed the anomalous 'scruff' pattern on 6 August 1967 while doing the chart-recording analysis herself, and independently records that she went on to personally find three more pulsar sources by mid-January 1968."
     },
     "independent_thinking": {
       "score": 60,
@@ -91,6 +97,18 @@
       "rationale": "Inferred from her documented later career as a prominent public science communicator and former President of the Institute of Physics and the Royal Society of Edinburgh, though the sources consulted this cycle describe the roles more than specific assertive incidents."
     }
   },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jocelyn-bell-burnell-1967.jpg",
+    "width": 1018,
+    "height": 1600,
+    "source": "Roger W Haworth, via Flickr and Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Susan_Jocelyn_Bell_(Burnell),_1967.jpg",
+    "attribution": "Roger W Haworth, 1967",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Susan_Jocelyn_Bell_(Burnell),_1967.jpg"
+  },
   "computedEligibility": {
     "scoredAttributeCount": 7,
     "averageConfidence": 0.429,
@@ -98,11 +116,10 @@
     "eligible": false,
     "computedAt": "2026-09-06T00:00:00Z"
   },
-  "holdReason": "Validator output (mechanical, not adjusted): 7 scored attributes against the 18-attribute floor, 0.213 coverage against 0.6, 0 attributes at confidence>=0.5 against the 12-attribute floor. The AIP oral-history transcript that would likely have given the deepest additional material returned 403 Forbidden on every attempt and could not be read this cycle. Held, not rescued.",
   "provenance": {
     "createdAt": "2026-09-06T00:00:00Z",
-    "updatedAt": "2026-09-06T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
     "processedBy": "agent",
-    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q233974) checked against the live Wikipedia article before scoring. An AIP Niels Bohr Library oral-history interview transcript was identified and its metadata confirmed (interview conducted 2000 by David DeVorkin) but the full transcript itself returned 403 Forbidden on repeated fetch attempts and could not be read this cycle -- not substituted with a weaker claim of having read it. Two other genuinely independent sources were actually fetched and read: a long-form Prospect Magazine interview and a set of shorter press interviews (APS News, CNBC) in her own words. Contains a stray placeholder row ('self_regulation_placeholder') from an editing pass -- flagged for removal, not counted toward the pre-score total."
+    "notes": "Roster-19 intake (2026-09), incident-breadth-before-freeze gate. Wikidata identity (Q233974) checked against the live Wikipedia article before scoring. An AIP Niels Bohr Library oral-history interview transcript was identified and its metadata confirmed (interview conducted 2000 by David DeVorkin) but the full transcript itself returned 403 Forbidden on repeated fetch attempts and could not be read this cycle -- not substituted with a weaker claim of having read it. Two other sources were actually fetched and read: a long-form Prospect Magazine interview and a set of shorter press interviews (APS News, CNBC) -- both self-testimony (her own words), not independent perspectives. Contains a stray placeholder row ('self_regulation_placeholder') from an editing pass -- already removed, not counted toward the pre-score total. ROSTER35 EVIDENCE-GAP CORRECTION (2026-09-16): the original hold cited only the eligibility_v2 numeric floor (7 scored attributes vs. 18, coverage 0.213 vs. 0.6) as its reason, but the deeper, real issue was that this candidate had zero non-self independent sources -- Wikipedia (orientation only) plus two self-testimony interviews do not satisfy this project's >=2-independent-perspective/>=1-non-self-behavioral-source standard, the same bar the Roster33 Hitchcock correction established. A bounded search found and read Alan Penny's 2013 peer-reviewed history-of-science paper (European Physical Journal H, arXiv:1302.0641) -- a genuinely independent, non-self, dated, behaviorally-specific account of Bell's sustained discovery-process work, built from contemporary archives and named-participant interviews (including Craig Mackay, who had a desk next to her), and explicitly NOT a repackaging of her own narrative (the paper records that she herself disputes parts of its analysis). This is now the qualifying non-self behavioral source. The persistence and achievement_drive rows were updated to cite this independent corroboration; their score/confidence/evidenceType/impact were NOT changed -- the new source corroborates, not contradicts, what was already scored. Status corrected from held to evidence_approved on evidence-quality grounds. Honest eligibility_v2 remains false (7 scored attributes, far short of 18) and this promotion does not attempt to change that -- no row was added, no confidence was raised, to affect eligibility."
   }
 }

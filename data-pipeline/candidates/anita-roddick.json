@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "anita-roddick",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Anita Roddick",
+    "wikidataId": "Q237211",
+    "birthYear": 1942,
+    "deathYear": 2007,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["GB"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["entrepreneur"],
+    "fieldIds": ["business"],
+    "impactDomains": ["entrepreneurial", "social"],
+    "tagIds": [],
+    "archetypeIds": ["entrepreneurial_builder"]
+  },
+  "sources": [
+    {
+      "id": "src_roddick_wikipedia",
+      "kind": "wikipedia",
+      "title": "Anita Roddick",
+      "url": "https://en.wikipedia.org/wiki/Anita_Roddick"
+    },
+    {
+      "id": "src_roddick_time_agitator",
+      "kind": "press",
+      "title": "Philip Elmer-Dewitt, \"Anita Roddick: Anita the Agitator,\" TIME, January 25, 1993 -- independent journalism, opened and read in full, carrying Elmer-Dewitt's own direct reporting of Roddick's hands-on store-management style (a direct quote to Manhattan store managers; instant, blunt personal feedback on displays) alongside an independent second journalist's (Lynn Barber's) on-the-record characterization of her personal manner. Non-self reporting throughout.",
+      "url": "https://time.com/archive/6722194/anita-roddick-anita-the-agitator/"
+    },
+    {
+      "id": "src_roddick_brighton_museums",
+      "kind": "institution",
+      "title": "\"Dame Anita Roddick, Entrepreneur, Activist and Campaigner,\" Brighton & Hove Museums -- independent institutional/historical account, opened and read in full, documenting the specific origin-story decision behind the first shop's dark-green paint (covering mould, not a stylistic choice) and the 1987 Trade Not Aid/Community Trade sourcing program as an operational initiative.",
+      "url": "https://brightonmuseums.org.uk/discovery/history-stories/dame-anita-roddick-entrepreneur-activist-and-campaigner/"
+    },
+    {
+      "id": "src_roddick_ebsco",
+      "kind": "biography",
+      "title": "Anita Price Davis, \"Anita Roddick,\" Research Starters, EBSCO, 2024 -- independent academic/reference biography, opened and read in full, documenting Roddick's personal international sourcing travel (named countries) and the 1996 formalization of her anti-animal-testing commitment via a donation to the Fund for the Replacement of Animals in Medical Experiments (FRAME).",
+      "url": "https://www.ebsco.com/research-starters/biography/anita-roddick"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Brighton & Hove Museums' independent institutional account (read in full) documents that Roddick painted her first shop's walls dark green specifically because it was \"the only shade that would cover the mould on the shop walls\" -- a specific, real-financial-constraint-driven origin decision, not a stylistic choice retold as a plan. The same account documents that her earliest products were deliberately \"simply packaged\" to keep prices accessible -- a second, related fact from the same source. Held to the moderate/real-lean band because both facts trace to a single (though independent, institutional) source read this session."
+    },
+    "proactive_agency": {
+      "score": 65,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "EBSCO's independent Research Starters biography (Davis, 2024; read in full) documents that Roddick \"traveled widely, visiting Panama, Tahiti, Australia, South Africa, and other places\" to personally observe body-care products and source ingredients -- a specific, sustained, self-directed practice of doing the sourcing and market research herself rather than delegating it, not an inference drawn from The Body Shop's later international success. Single-source basis, so held to the real-lean band rather than higher."
+    },
+    "impact_motivation": {
+      "score": 75,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independently-read sources converge on a sustained, decades-long OPERATIONAL commitment rather than a stated value alone: EBSCO's biography documents that Roddick \"refused to test her products on animals\" from the outset and formalized this in 1996 with a donation to the Fund for the Replacement of Animals in Medical Experiments; Brighton & Hove Museums' independent institutional account separately documents her 1987 Trade Not Aid/Community Trade initiative as a structured sourcing program, not a marketing slogan. Two independently-read sources, each describing a distinct, dated, operational fact spanning well over a decade, meet this rubric's objective two-fact bar for the higher score band. Scored strictly as a business/sourcing-and-marketing operational pattern -- deliberately not read as political activism or opinion content, per this candidate's research brief."
+    },
+    "social_assertiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "TIME's Philip Elmer-Dewitt (January 1993, read in full) documents Roddick directly asking Manhattan store managers, \"Right! What pisses you off?\" and giving instant, blunt, personal feedback on store displays -- \"Brilliant!\" or \"Tacky! Get rid of those.\" The same article independently reports journalist Lynn Barber's on-the-record characterization of her as \"like a fire sucking up your oxygen,\" after which Barber \"longed to get away\" -- a second journalist's documented impression within the same piece. Scored dual_edged because the same source documenting the directness driving her hands-on operational style also documents its personally overwhelming effect on an independent observer. Single-article basis, so held below the top band despite the multiple converging quotes within it."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "Wikimedia Commons search for \"Anita Roddick\" returns 9 total hits; exactly one depicts her: File:Anita_in_Romania.jpg (CC BY-SA 4.0, verified live via the Commons imageinfo/extmetadata API; uploaded 2026-08-06 by user WKCOTE, self-declared \"own work,\" tied to the Children on the Edge charity's Wikipedia article). Downloaded and visually inspected: it is a large group photo of Roddick with roughly a dozen children in Romania (dated 1990-01-28), not a usable single-subject portrait -- she is one of about fifteen people in frame, at reduced scale, with sunglasses pushed up on her head. No press-agency, Dame-investiture, or other verifiably PD/CC single-subject photo of her was found on Commons within this session's research budget. Recorded as held rather than forcing an unsuitable crop of the group photo. Future option: revisit File:Anita_in_Romania.jpg specifically (its license is genuinely verified) if a tightly-cropped single-subject portrait is judged acceptable, or search UK National Portrait Gallery / PA-Getty archives for an open-licensed dedicated portrait."
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster35 candidate. Wikidata QID (Q237211) and classification (occupationIds/fieldIds/impactDomains/archetypeIds) were pre-specified against existing i18n keys (occupation.entrepreneur, field.business, archetype.entrepreneurial_builder all confirmed present in src/core/i18n/en.ts before use; tagIds left empty, no existing tag was a clean fit and none was forced) and applied as given, not re-derived. 4 rows scored, each traced to a specific, dated fact or directly-quoted behavior from an independently-read, non-self source -- never from The Body Shop's revenue, store count, or Roddick's personal wealth, which this rubric excludes as evidence. Deceased 2007 (brain hemorrhage related to hepatitis C contracted from a blood transfusion decades earlier) -- no health- or death-based trait inference was made anywhere in this file. Her anti-animal-testing and Trade Not Aid/Community Trade campaigning is scored once, under impact_motivation, and deliberately framed and evidenced as a business sourcing/marketing operational practice (specific programs, specific dates, specific formalized actions) rather than as political activism or opinion content, per this candidate's explicit research brief -- her public speaking/advocacy career more broadly was NOT scored or characterized here for the same reason, to avoid any drift toward treating her as a political figure. Her own memoirs (\"Body and Soul,\" \"Business as Unusual\") were not directly read this session and are not cited as sources; every scored fact traces to TIME's independent 1993 profile, Brighton & Hove Museums' independent institutional history, or EBSCO's independent reference biography, all three opened and read in full this session, comfortably satisfying the >=2-independent-perspective and >=1-non-self-behavioral-source bar without relying on her own testimony at all. A broader web search for a Guardian/Independent obituary with named former-employee quotes on her management style was attempted but did not surface an accessible full-text match this session; this was left as a gap rather than substituted with a lower-quality source. Portrait: see portrait.reason -- held, no suitable single-subject rights-clear image found on Commons this session."
+  },
+  "localization": {}
+}

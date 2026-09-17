@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tenzing-norgay",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tenzing Norgay",
+    "wikidataId": "Q80732",
+    "birthYear": 1914,
+    "deathYear": 1986,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NP"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "athletic"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_tenzing_wikipedia",
+      "kind": "wikipedia",
+      "title": "Tenzing Norgay",
+      "url": "https://en.wikipedia.org/wiki/Tenzing_Norgay"
+    },
+    {
+      "id": "src_tenzing_memoir",
+      "kind": "archive",
+      "title": "Tenzing Norgay with James Ramsey Ullman, Tiger of the Snows / Man of Everest (1955) -- Tenzing's own autobiography, dictated (he could speak several languages but could not read or write) and ghostwritten with Ullman; read in full via Internet Archive's OCR full text. Self-testimony -- one perspective, not sufficient alone, used only for specific, sustained self-described patterns and direct quotes, not as the sole basis for any row.",
+      "url": "https://archive.org/stream/dli.pahar.3048/1955%20Tiger%20of%20the%20Snows--the%20autobiography%20of%20Tenzing%20of%20Everest%20by%20Ullman%20s_djvu.txt"
+    },
+    {
+      "id": "src_tenzing_aac_douglas_review",
+      "kind": "institution",
+      "title": "American Alpine Club Publications, review of Ed Douglas, Tenzing: Hero of Everest (2003) -- an independent, well-researched biography drawing on multiple interviews; read in full via the AAC's published review, which quotes the biography's specific documented facts directly (three major Everest attempts in one year; convergent testimony of multiple Western climbers on Tenzing's ambition; that he 'outlived many of those he began work with'). Non-self, independent perspective.",
+      "url": "http://publications.americanalpineclub.org/articles/12200444200/Tenzig-Hero-of-Everest"
+    },
+    {
+      "id": "src_tenzing_jstor_daily",
+      "kind": "press",
+      "title": "Imogen Lepere, 'Tenzing Norgay: The Mountaineer Who Refused to Be Categorized,' JSTOR Daily (17 July 2023) -- independent journalism drawing on academic sources (Peter H. Hansen, 'Tenzing's Two Wrist-Watches,' Past & Present, 1997; a 1986 India International Centre Quarterly interview with Edmund Hillary; a 1986 Geographical Journal obituary). Non-self, behavioral, opened and read in full.",
+      "url": "https://daily.jstor.org/tenzing-norgay-the-mountaineer-who-refused-to-be-categorized"
+    },
+    {
+      "id": "src_tenzing_nepalitimes",
+      "kind": "press",
+      "title": "Lisa Choegyal, 'Everest 70 years on,' Nepali Times (2023) -- independent journalistic account covering the Khumbu Icefall crevasse incident (Tenzing's rope-arrest of Hillary's fall) and an independent characterization of Tenzing's temperament. Non-self, behavioral, opened and read in full.",
+      "url": "https://nepalitimes.com/everest-70-years-on"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Ed Douglas's biography, quoted at length in the American Alpine Club's published review, documents that Tenzing 'had been the driving force behind three major Everest attempts in the space of a year' (the two 1952 Swiss expeditions plus the 1953 British expedition), and that 'European climbers were surprised to find such ambition among their hired help' -- Tenzing's drive, per multiple Western climbers quoted, 'could exceed their own.' Two or more distinct, independently-verifiable facts (the three-expeditions-in-a-year pattern, and the convergent testimony of multiple named Western climbers) from an independent, well-researched biography -- not self-testimony, not a single anecdote."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "In his own memoir (Tiger of the Snows, read in full), Tenzing describes a lifelong, pre-1953 orientation toward the mountain itself: 'To climb Everest... is what I have wanted most of all in my life,' and of his early expeditions, 'When I am on Everest I can think of nothing else. I want only to go on, farther and farther.' Self-testimony describing a sustained, decades-long orientation (five prior expeditions/attempts before 1953, per Wikipedia orientation) rather than a single remembered feeling, scored documented per this project's existing convention for a specific, self-described, sustained pattern; not independently corroborated for this specific inner motivation, so held below the top confidence band."
+    },
+    "persistence": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Multiple independent, distinct facts document sustained commitment across repeated danger and failure over roughly two decades: expeditions in 1935, 1936, and 1938 as a high-altitude porter (Wikipedia orientation, corroborated by the AAC's review of Douglas's biography), a failed illegal 1947 summit attempt with Earl Denman, two further Swiss expeditions in 1952, and Douglas's documented observation (via the AAC review) that Tenzing 'outlived many of those he began work with' on Everest, Nanga Parbat, and K2. An independently-verifiable pattern across more than two distinct episodes from more than one source, meeting the corpus-wide objective strong_inference bar."
+    },
+    "decisiveness": {
+      "score": 73,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "During the 1953 expedition, days before the summit push, Tenzing acted immediately when Hillary broke through ice into a crevasse in the Khumbu Icefall: per Lisa Choegyal's independent account (Nepali Times, 2023), 'Tenzing thrust his ice axe into the snow and wrapped the rope around it,' arresting the fall. A specific, single documented incident -- corroborated in substance across other independent retellings of the same episode -- so capped below the 85+ band per this project's single-incident rule, but a genuinely attributable, non-self, behavioral instance rather than a general reputation."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Tenzing's own memoir documents his direct reaction to being pulled into the post-summit Nepal/India/Britain credit dispute -- 'Only politics mattered. And I was ashamed' -- alongside his deliberate refusal to take a side: 'Some people call me Nepali, some Indian... For me Indian and Nepali are the same.' Imogen Lepere's independent account (JSTOR Daily, 2023) corroborates that he deliberately avoided specifying flag order or religious details in his own autobiography to avoid inflaming the dispute, and that 'becoming a national hero was certainly not a motivating factor' for him. Scored dual_edged: the same refusal to escalate left him without an advocate in the parallel honors dispute (Hillary and Hunt were knighted; Tenzing received the lower-ranked George Medal)."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Lisa Choegyal's independent account (Nepali Times) describes Tenzing, despite never learning to read or write, as having 'an enquiring mind' and being 'fluent in several languages' -- two distinct, independently-stated facts (the multilingualism itself, acquired without formal schooling, and the direct characterization of an enquiring mind) from a source other than Tenzing himself, supporting strong_inference rather than a bare inference from a single adjective."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/tenzing-norgay-1963.jpg",
+    "width": 1280,
+    "height": 1250,
+    "source": "National Library of Wales (Llyfrgell Genedlaethol Cymru), via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sherpa_Tensing%27s_visit_to_Snowdonia_(1494240).jpg",
+    "attribution": "National Library of Wales, 25 April 1963 (\"Sherpa Tensing's visit to Snowdonia\")",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sherpa_Tensing%27s_visit_to_Snowdonia_(1494240).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New candidate pack (2026-09-16), researched and scored independently of Edmund Hillary's companion pack despite the shared 29 May 1953 Everest summit -- every row here is sourced to evidence about Tenzing's own individually-attributable behavior/decisions across his ~20-year pre-1953 Sherpa mountaineering career and its aftermath, never the summit achievement itself. Wikidata QID Q80732 taken as pre-verified per task brief; not independently re-verified live in this session. Identity note: Tenzing's birthplace and nationality are genuinely contested in the sources themselves (his own autobiography states Nepal; his son's later book places it in Tibet; he held both Nepalese and Indian citizenship) -- nationalityCodes ['NP'] follows the task brief's instructed default, not an independently resolved fact; a human reviewer may want to reflect the dual Nepal/India identity more fully before promotion. 4 real sources beyond Wikipedia (his own memoir read in full via Internet Archive OCR text; the American Alpine Club's review of Ed Douglas's independent biography; Imogen Lepere's independent JSTOR Daily journalism; Lisa Choegyal's independent Nepali Times journalism) -- clears the >=2-independent-perspective and >=1-non-self-behavioral bar (the AAC/Douglas review, JSTOR Daily, and Nepali Times accounts are all independent, non-self, and behavioral). 6 rows scored; no row scored from the Everest summit itself, from fame, or from occupation stereotype. Same regionCode judgment call as the companion Hillary pack: 'south_asia' is used for Nepal per the task brief and matches this project's existing precedent for the region (see akbar.json, chanakya.json, rabindranath-tagore.json, etc.), unlike Hillary's case this is not a taxonomy-gap workaround -- Nepal genuinely belongs in the existing south_asia bucket."
+  },
+  "localization": {}
+}

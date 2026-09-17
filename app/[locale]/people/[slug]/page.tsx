@@ -346,14 +346,16 @@ export default async function PersonPage({ params }: { params: Promise<PageParam
 
         <Divider />
 
-        <Stack gap={4}>
-          <Heading level={2}>{t(locale, "person.trait_constellation")}</Heading>
-          <TraitConstellationGrid
-            locale={locale}
-            traits={constellation}
-            personTraitContext={personTraitContext(locale, person, constellation)}
-          />
-        </Stack>
+        {constellation.length > 0 ? (
+          <Stack gap={4}>
+            <Heading level={2}>{t(locale, "person.trait_constellation")}</Heading>
+            <TraitConstellationGrid
+              locale={locale}
+              traits={constellation}
+              personTraitContext={personTraitContext(locale, person, constellation)}
+            />
+          </Stack>
+        ) : null}
 
         {(() => {
           const editorial = person.editorial;

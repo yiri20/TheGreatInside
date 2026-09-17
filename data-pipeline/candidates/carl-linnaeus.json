@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "carl-linnaeus",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Carl Linnaeus",
+    "wikidataId": "Q1043",
+    "birthYear": 1707,
+    "deathYear": 1778,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": ["SE"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["biologist", "physician"],
+    "fieldIds": ["biology"],
+    "impactDomains": ["scientific", "historical"],
+    "tagIds": [],
+    "archetypeIds": ["scientific_explorer"]
+  },
+  "sources": [
+    {
+      "id": "src_linnaeus_wikipedia",
+      "kind": "wikipedia",
+      "title": "Carl Linnaeus",
+      "url": "https://en.wikipedia.org/wiki/Carl_Linnaeus"
+    },
+    {
+      "id": "src_linnaeus_linnean_society",
+      "kind": "institution",
+      "title": "The Linnean Society of London, \"His Career and Legacy\" -- independent institutional account (the learned society that today holds his purchased collections) describing his systematic application of the binomial system to name 'over 12,000 species throughout his career,' and describing him as 'a charismatic teacher' who 'surrounded himself with students, the most gifted of whom he sent on voyages of exploration' worldwide to collect specimens for his system, noting 'some of them died en route.'",
+      "url": "https://www.linnean.org/learning/who-was-linnaeus/career-and-legacy"
+    },
+    {
+      "id": "src_linnaeus_koerner",
+      "kind": "biography",
+      "title": "Lisbet Koerner, Linnaeus: Nature and Nation (Harvard University Press, 1999) -- independent academic history-of-science monograph. Read via a published review/summary (not the full monograph text) actually opened and read for this research, which characterizes Koerner's argued portrait of Linnaeus as 'a complex man -- paternalistic, patriotic, self-important and slightly mendacious,' whose ambitious global collecting/classification project was motivated in part by 'jealous[y] of British colonial and scientific success.'",
+      "url": "https://2think.org/linnaeus.shtml"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Linnean Society documents that he applied a single consistent binomial organizing system 'systematically' across his entire career, naming 'over 12,000 species' -- a specific, quantified, sustained practice, not a one-off insight. Scored from the institution's documentation of the practice's scale/consistency, not from the achievement of inventing the system itself. One independent source on this specific point, so kept in the 56-70 band rather than higher."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independent sources document a large-scale, personally-driven enterprise beyond his own research: the Linnean Society describes him recruiting and dispatching his most talented students ('apostles') on global specimen-collecting expeditions explicitly to build out his classification system, and Koerner's independent academic study frames this ambition as partly fueled by rivalry with British colonial/scientific dominance. Two independent, on-point documented facts. Marked dual_edged rather than pure advantage: this same ambition had a genuine, well-attested human cost -- several of the students he dispatched did not return from their expeditions."
+    },
+    "leadership_drive": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The same apostles program read for what it shows about directing others rather than personal ambition: the Linnean Society's 'charismatic teacher' framing describes him building and coordinating a devoted network of protege-explorers toward a shared project, each apostle sent out to specific ends. Strong_inference (kept below achievement_drive's confidence) since it draws on the same underlying fact set rather than fully independent evidence for this specific facet of the behavior."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Koerner's independent academic study characterizes Linnaeus as 'self-important' and describes his ambitions as driven in part by jealousy of British colonial and scientific success -- a documented biographer's argued characterization (not a bare adjective) but from a single source. Kept at strong_inference/moderate score rather than higher, per this rubric's caution against reading a single academic characterization as settling an extreme score."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Linnean Society documents sustained, hands-on institution-building alongside his professorship and medical practice: reconstructing and expanding Uppsala's Botanical Garden, running regular public botanizing excursions, and later personally building a museum for his library and collections. A specific, sustained, multi-decade practice from one independent institutional source."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/carl-linnaeus-roslin-1775.jpg",
+    "width": 1324,
+    "height": 1600,
+    "source": "Nationalmuseum, Sweden (Gripsholm Castle collection), via Wikimedia Commons",
+    "license": "Public Domain (PD-old-100-expired; painting from 1775, artist died 1793)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_von_Linn%C3%A9.jpg",
+    "attribution": "Alexander Roslin, 1775",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carl_von_Linn%C3%A9.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q1043) verified live before scoring. No 'northern_europe' region key exists in en.ts (checked live); used western_europe per this project's established catch-all convention. 2 sources beyond Wikipedia orientation: the Linnean Society of London's own institutional account of his career/apostles, and Lisbet Koerner's independent academic monograph Linnaeus: Nature and Nation (Harvard UP, 1999), read via a review/summary actually opened for this research (full monograph text not accessed) -- clearing the 2-independent-perspective / 1-non-self-behavioral bar (both qualify as non-self). A specific claim found only in Wikipedia (that Linnaeus's student Daniel Rolander 'broke into' his house over a withheld specimen collection) was deliberately NOT used anywhere in this file after failing to corroborate it in any independent source searched -- the milder, multiply-corroborated version (Rolander refused to hand over his Surinam collection/journal, and Linnaeus was critical of him) was used only as background, not as scored evidence. All 5 scored rows trace to specific documented practices (the binomial system's scale of application, the apostles program, Uppsala garden/museum work) or a specific academic characterization (Koerner) -- none scored from the achievement of founding taxonomy itself, and no row infers anything from his health or death. Publication decision (evidence_approved) frozen before any eligibility_v2 computation."
+  },
+  "localization": {}
+}
