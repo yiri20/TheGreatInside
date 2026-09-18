@@ -248,12 +248,17 @@ people, match-eligible-114-unchanged check).
 
 - `tsc --noEmit`: clean.
 - `validateCandidates.ts`: **325 candidates loaded pre-commit; 340
-  post-commit**, **0 errors, 0 warnings** both times, 0 quality-gate
-  failures across the entire pool.
+  post-commit** (implementation commit `71c95b5`), **0 errors, 0
+  warnings** both times, 0 quality-gate failures across the entire pool.
+  By status post-commit: `qa_passed` 93, `evidence_approved` 164, `held`
+  83 (sums to 340).
 - `checkScoringLockIntegrity.ts`, pre-commit: "Checked 325
   previously-committed candidate file(s) against HEAD. 0 flagged."
-  Post-commit output recorded below. Legacy: 22 covered, 0 flagged, both
-  times.
+  **Post-commit, run against clean committed HEAD (`71c95b5`): "Checked
+  340 previously-committed candidate file(s) against HEAD. 0 flagged."**
+  Mechanical count of `data-pipeline/candidates/*.json` on disk
+  post-commit: **340** — agrees exactly. Legacy: 22 covered, 0 flagged,
+  both times.
 - `vitest run`: **66 files, 1427 tests, all passed** (including the new
   135-test `roster36.test.ts`).
 - `next build --webpack`: succeeded, **576 static/SSG paths**
