@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-noyce",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Robert Noyce",
+    "aliases": ["Robert Norton Noyce", "the Mayor of Silicon Valley"],
+    "wikidataId": "Q241735",
+    "birthYear": 1927,
+    "deathYear": 1990,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["physicist", "engineer", "entrepreneur", "inventor"],
+    "fieldIds": ["physics", "engineering", "technology", "business"],
+    "impactDomains": ["technological", "entrepreneurial", "engineering", "innovation"],
+    "tagIds": ["founder", "innovator"],
+    "archetypeIds": ["entrepreneurial_builder", "technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_noyce_wikipedia",
+      "kind": "wikipedia",
+      "title": "Robert Noyce",
+      "url": "https://en.wikipedia.org/wiki/Robert_Noyce"
+    },
+    {
+      "id": "src_noyce_wikidata",
+      "kind": "wikidata",
+      "title": "Robert Noyce (Q241735)",
+      "url": "https://www.wikidata.org/wiki/Q241735"
+    },
+    {
+      "id": "src_noyce_wolfe_esquire",
+      "kind": "press",
+      "title": "Tom Wolfe, \"The Tinkerings of Robert Noyce: How the Sun Rose on the Silicon Valley\" (Esquire, December 1983) -- a deeply-reported, independent journalistic profile built on interviews with Noyce and Silicon Valley colleagues. Fully read in this cycle via the Stanford University-hosted reproduction (reproduced by permission of International Creative Management).",
+      "url": "https://web.stanford.edu/class/e145/2007_fall/materials/noyce.html"
+    },
+    {
+      "id": "src_noyce_berlin_biography",
+      "kind": "biography",
+      "title": "Leslie Berlin, The Man Behind the Microchip: Robert Noyce and the Invention of Silicon Valley (Oxford University Press, 2005) -- independent scholarly biography, drawing on archival research and interviews with Gordon Moore, Andy Grove, and others. Accessed via an IEEE Spectrum review/research-process account of the book (full monograph text not directly opened this cycle), specifically its account of Berlin's archival discovery regarding Noyce's tunnel-diode priority claim.",
+      "url": "https://spectrum.ieee.org/the-back-story-may05"
+    },
+    {
+      "id": "src_noyce_malone_intel_trinity",
+      "kind": "biography",
+      "title": "Michael S. Malone, The Intel Trinity: How Robert Noyce, Gordon Moore, and Andy Grove Built the World's Most Important Company (Harper Business, 2014) -- independent biography with unprecedented access to Intel archives and interviews, including Andy Grove's own account of Noyce's conflict-avoidant management behavior. Accessed via a directly-read book review/summary (full text not directly opened this cycle).",
+      "url": "https://lifeclub.org/books/the-intel-trinity-michael-s-malone-review-summary"
+    },
+    {
+      "id": "src_noyce_rock_stanford_lawyer",
+      "kind": "press",
+      "title": "\"Arthur Rock's Intel Memo\", Stanford Lawyer Magazine -- an account, drawing on Arthur Rock's own 1968 Intel funding memo/prospectus, of how Noyce and Gordon Moore raised Intel's founding capital.",
+      "url": "https://law.stanford.edu/stanford-lawyer/articles/arthur-rocks-intel-memo/"
+    },
+    {
+      "id": "src_noyce_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, \"1959: Practical Monolithic Integrated Circuit Concept Patented\" (The Silicon Engine) -- independent institutional archival record of Noyce's planar-integrated-circuit patent (U.S. 2,981,877), filing/issue dates, and technical approach.",
+      "url": "https://www.computerhistory.org/siliconengine/practical-monolithic-integrated-circuit-concept-patented/"
+    },
+    {
+      "id": "src_noyce_ethw_oral_history",
+      "kind": "archive",
+      "title": "\"Oral-History: Robert N. Noyce\", Engineering and Technology History Wiki (IEEE) -- a September 19, 1975 recorded interview with Noyce himself. Self-testimony, treated as one perspective, not independent corroboration on its own.",
+      "url": "https://ethw.org/Oral-History:Robert_N._Noyce"
+    },
+    {
+      "id": "src_noyce_mit_techreview",
+      "kind": "press",
+      "title": "\"The Integrator\", MIT Technology Review (October 1, 2005) -- an independent journalistic account (occasioned by Berlin's biography) of Noyce's 1959 notebook entry, the 1964 integrated-circuit pricing decision, and Gordon Moore's own characterization of it.",
+      "url": "https://www.technologyreview.com/2005/10/01/39552/the-integrator/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 85,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "In 1964 Noyce cut the price of Fairchild's integrated circuits below what it cost Fairchild to build them and below what customers paid to buy and hand-solder the equivalent discrete components -- a calculated bet that volume would later bring costs down, which Gordon Moore himself called as important an 'invention' for the industry as the integrated circuit itself (MIT Technology Review, quoting Moore). In 1968 he left an established, financially secure, senior position at Fairchild (which he described in his own oral history as 'very much running that whole business,' an $18-23 million company by 1961) to personally invest $250,000 of his own money co-founding Intel from nothing (Wolfe/Esquire). He also sustained physically dangerous hobbies -- hang gliding, scuba diving, piloting his own aircraft -- into his fifties, continuing hang gliding even after a friend fractured his pelvis in the same sport (Wolfe). Dual-edged: the financial bets are documented as having paid off repeatedly, but the sustained personal-safety risk-taking carried no comparable offsetting benefit on the record."
+    },
+    "decisiveness": {
+      "score": 78,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "After a phone conversation with William Shockley in 1956, Noyce moved his family from Philadelphia to Palo Alto essentially overnight, signing a house-purchase contract by noon and securing the job that same afternoon (Wolfe/Esquire). In 1968, Arthur Rock raised the $2.5 million that founded Intel from investors within about 48 hours on a page-and-a-half prospectus, with no full business plan -- Rock's own account frames this as trading on Noyce and Moore's reputation for fast, low-friction commitment rather than protracted deliberation (Stanford Lawyer Magazine, drawing on Rock's own funding memo). Kept at strong_inference rather than documented since the Rock episode primarily documents Rock's decision, not a first-person account of Noyce's own deliberative process."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At both Fairchild and Intel, Noyce deliberately built a workplace without reserved parking, executive suites, or a dress code beyond modesty, and kept a visibly worse desk than his own employees' desks -- a specific, sustained practice independently documented by Wolfe's reporting. Separately, in research described in an IEEE Spectrum account of Leslie Berlin's biography, Noyce is reported as explaining the same practice in his own words: 'working in a cubicle just like everyone else prevents the isolation that kills innovation' and 'the corporate jet and the executive dining room are signs of a company that has lost its way and stopped listening to its engineers.' This was a deliberate, sustained break from the hierarchical, executive-privileged norm of the era (including the authoritarian culture at Shockley Semiconductor that Noyce and seven colleagues had just left in 1957), not a passive absence of formality."
+    },
+    "conflict_tolerance": {
+      "score": 38,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Andy Grove's own account, reported in Michael Malone's The Intel Trinity, is that Noyce 'would take on a pained look when there were conflicts, and would do anything he could to avoid them,' was 'unable to say no or fire employees,' pursued the early-1970s microprocessor project without consulting Grove (a break from normal protocol Grove attributed to Noyce's conflict-avoidance), and during Intel's mid-1970s workforce reduction of roughly 3,500 employees stepped down from CEO to chairman -- a structural move that removed him from having to make the hardest personnel decisions himself. This is consistent with, not contradicted by, Wolfe's separate account of a quieter register of firmness specifically on ethical lines ('his baritone voice never rose,' yet colleagues sensed 'if pushed one more inch, he would fight') -- across both independently-sourced accounts the documented pattern is a preference for avoiding overt confrontation rather than an absence of conviction. Scored on the low side of the scale (avoidance, not engagement) and dual-edged because Grove's account frames this specifically as a real organizational cost that fell on Grove to absorb."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "After his first large stock windfall in 1959 (about $250,000 when Fairchild Camera exercised its purchase option), Noyce told his father 'the money doesn't seem real. It's just a way of keeping score' (Wolfe/Esquire, self-testimony) -- then chose to leave the secure, senior position he had built at Fairchild to re-found a company from zero in 1968. This is complicated by an independently-researched finding described in IEEE Spectrum's account of Berlin's biography: in a 1979 speech, Noyce asserted he had conceived the tunnel diode at roughly the same time as Nobel laureate Leo Esaki, a priority claim resting on lab-notebook pages that had been copied into a later notebook after the original 1956 notebook had gone missing -- a specific, dated instance of Noyce actively pressing a personal priority/credit claim two decades after the fact, not merely being credited by others. Scored dual-edged and at reduced confidence to reflect that the drive documented here is not a clean, single-motive 'built for the mission alone' narrative."
+    },
+    "collaboration": {
+      "score": 75,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At Fairchild's founding in 1957, all eight founders -- including Noyce -- received equal shares (100 each), a specific documented governance choice rather than a split reflecting seniority. In his own oral history, Noyce describes assuming the coordinating administrative role at Fairchild 'on a temporary basis' at his colleagues' request despite having no administrative background, because the group needed someone to negotiate with their financial backers (Hayden Stone). Over more than two decades at Intel he sustained a specific, stable three-way division of labor with Gordon Moore (technical) and Andy Grove (operations) -- the same partnership structure documented, from Grove's side, under conflict_tolerance above."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "In his own account (ETHW oral history, September 1975), Noyce describes proposing to interconnect diffused diodes, transistors, resistors, and capacitors on a single silicon wafer by evaporating a metal (aluminum) layer over the existing planar oxide-coating process his Fairchild colleague Jean Hoerni had developed -- a specific technical synthesis of someone else's manufacturing process into a new interconnection concept. Independently confirmed by the Computer History Museum's institutional patent record: filed as U.S. Patent 2,981,877 on July 30, 1959, issued April 25, 1961. Complicated by a specific, non-flattering detail from MIT Technology Review's independent account: per his own notebook (headed 'Methods of Isolating Multiple Devices,' dated January 1959), Noyce initially 'took no action' on the idea for months, since Fairchild's near-term priority was selling its existing discrete transistors -- the eventual patent filing was prompted specifically by patent attorney John Ralls pressing him to identify further applications of Hoerni's process (Computer History Museum), not by Noyce independently pursuing it. Scored dual-edged to reflect that the underlying synthesis was genuinely original but its capture/follow-through was externally prompted rather than self-initiated."
+    },
+    "opportunity_sensing": {
+      "score": 76,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Distinct from risk_tolerance (which captures the stakes Noyce accepted): the 1964 pricing decision specifically reflects recognizing that integrated-circuit demand was latent and elastic -- that a below-cost price would unlock volume that did not yet exist, rather than just serving an already-visible market. Gordon Moore's own assessment, independently reported in MIT Technology Review, was that this pricing move was as important an 'invention' for the semiconductor industry as the integrated circuit itself and established a durable industry pattern. Kept at strong_inference/moderate confidence since the direct evidence is Moore's retrospective characterization rather than a first-person account of Noyce's own reasoning at the time."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/robert-noyce-intel-1968.png",
+    "width": 640,
+    "height": 360,
+    "source": "Intel Free Press (via Flickr), Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Intel Free Press",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q241735) verified live before scoring (label 'Robert Noyce'). 8 sources beyond Wikipedia/Wikidata orientation, spanning press (Wolfe's Esquire profile, Stanford Lawyer Magazine, MIT Technology Review), biography (Berlin, Malone -- both accessed via directly-read reviews/summaries rather than the full monographs), institution (Computer History Museum), and archive/self-testimony (ETHW's 1975 oral history interview with Noyce himself). Independent-perspective count: Wolfe's independent reporting, Berlin's independent archival research (reported via IEEE Spectrum), Andy Grove's account (via Malone), Arthur Rock's account (via Stanford Lawyer), Gordon Moore's account (via MIT Technology Review), and the Computer History Museum's institutional patent record are all non-self and mutually independent -- clearing the >=2-perspective / >=1-non-self-behavioral bar comfortably; Noyce's own oral-history self-testimony is treated as one perspective only, never as satisfying the non-self requirement alone. Every row traces to a specific dated action, quote, or documented decision -- none scored from fame, patent count, or company valuation alone. Deliberately includes unflattering/complicating evidence rather than a one-sided narrative: the conflict_tolerance row is scored low (documented conflict-avoidance costing Grove real organizational burden, including Noyce removing himself from a 1970s-era ~3,500-person layoff by stepping down to chairman), the achievement_drive row is scored dual_edged around a 1979 priority claim (tunnel diode) resting on reconstructed notebook pages after the original went missing, and the creative_originality row notes that Noyce sat on his own patentable idea for months until prompted by an attorney rather than pursuing it immediately. No row infers personality from health, wealth, or company valuation; the pricing-decision rows (risk_tolerance, opportunity_sensing) are scored from the specific documented decision and its stakes, not from Intel's or Fairchild's eventual commercial success. Portrait sourced live via the Wikimedia Commons API and downloaded for real -- the same file (File:Robert_Noyce_with_Motherboard_1959.png, CC BY-SA 2.0, credited Intel Free Press) that English Wikipedia's own infobox uses; already under the 1600px-long-edge convention (640x360) so no resize was performed; saved file's pixel dimensions verified directly with PIL after download."
+  },
+  "localization": {}
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henrietta-swan-leavitt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henrietta Swan Leavitt",
+    "wikidataId": "Q110181",
+    "birthYear": 1868,
+    "deathYear": 1921,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["astronomer"],
+    "fieldIds": ["natural_science", "physics"],
+    "impactDomains": ["scientific", "historical"],
+    "tagIds": ["detail_oriented", "late_recognition"],
+    "archetypeIds": ["scholarly_specialist"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_leavitt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Henrietta Swan Leavitt -- orientation only, not cited for any scored row",
+      "url": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+    },
+    {
+      "id": "src_leavitt_wikidata",
+      "kind": "wikidata",
+      "title": "Henrietta Swan Leavitt (Q110181)",
+      "url": "https://www.wikidata.org/wiki/Q110181"
+    },
+    {
+      "id": "src_leavitt_bailey_1922",
+      "kind": "archive",
+      "title": "Solon I. Bailey, \"Henrietta Swan Leavitt,\" Popular Astronomy, Vol. XXX, No. 4, Whole No. 294 (April 1922), pp. 197-199 -- an obituary by a Harvard College Observatory colleague who worked alongside her for roughly two decades, written within weeks of her death. Fetched and read IN FULL as the original scanned journal pages (NASA ADS / Maria Mitchell Observatory digitization), not via a secondary summary. Near-primary, non-self, independent of the Wolbach Library material below.",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1922PA.....30..197B"
+    },
+    {
+      "id": "src_leavitt_wolbach_variablestars",
+      "kind": "institution",
+      "title": "Peggy Wargelin, \"Variable Stars,\" Wolbach Library, Center for Astrophysics | Harvard & Smithsonian (2018) -- institutional archival account built directly from Leavitt's surviving notebooks (Harvard University Archives, Project PHaEDRA, Box 273) and glass photographic plates. Fully read.",
+      "url": "https://library.cfa.harvard.edu/henrietta-swan-leavitt/variable-stars"
+    },
+    {
+      "id": "src_leavitt_wolbach_referencestars",
+      "kind": "institution",
+      "title": "Peggy Wargelin, \"Reference Stars and Legacy,\" Wolbach Library, Center for Astrophysics | Harvard & Smithsonian (2018) -- same author/institution as the Variable Stars page above (counted as the same perspective), describing her instrumental-error-quantification methodology and 1909/1915 publications. Fully read.",
+      "url": "https://library.cfa.harvard.edu/henrietta-swan-leavitt/reference-stars-and-legacy"
+    },
+    {
+      "id": "src_leavitt_wolbach_lifebeginnings",
+      "kind": "institution",
+      "title": "Peggy Wargelin, \"Life and Beginnings,\" Wolbach Library, Center for Astrophysics | Harvard & Smithsonian (2018) -- same author/institution as above (same perspective), reproducing primary 1902 Leavitt-Pickering correspondence in full. Fully read.",
+      "url": "https://library.cfa.harvard.edu/henrietta-swan-leavitt/life-and-beginnings"
+    },
+    {
+      "id": "src_leavitt_cfa_news",
+      "kind": "institution",
+      "title": "\"Remembering Astronomer Henrietta Swan Leavitt,\" Center for Astrophysics | Harvard & Smithsonian news -- a distinct author/publication from the Wolbach Library pages above (independent perspective). Fully read.",
+      "url": "https://www.cfa.harvard.edu/news/remembering-astronomer-henrietta-swan-leavitt"
+    },
+    {
+      "id": "src_leavitt_platestacks",
+      "kind": "institution",
+      "title": "\"Henrietta Swan Leavitt,\" The Harvard Plate Stacks (Center for Astrophysics | Harvard & Smithsonian) -- overview page citing George Johnson's 2005 biography \"Miss Leavitt's Stars\" and Lindsay Smith Zrull's 2021 peer-reviewed \"Women in Glass\" (Journal for the History of Astronomy). Fully read for its own content; Johnson's book and Zrull's article themselves were NOT separately obtained/read this cycle and are not cited as independently-verified sources.",
+      "url": "https://platestacks.cfa.harvard.edu/women-at-hco/henrietta-swan-leavitt"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independent non-self sources converge on the same specific, procedural precision pattern (not a vibe-level 'meticulous' claim). The Wolbach Library's institutional archival account, built directly from Leavitt's surviving notebooks and glass plates, documents that she made her identifying marks on the BACK of glass plates specifically 'to avoid damaging the photographic emulsion on the front side,' used a purpose-built calibration lens (the 'fly spanker') to correct for exposure-time differences between plates of the same star field, excluded stars too close to a plate's edge from measurement because of known optical distortion, and used 'the average of three measurements' rather than a single reading as the official recorded magnitude. Independently, Solon Bailey's 1922 obituary -- a colleague who worked alongside her at HCO for two decades -- states the polar-sequence magnitude-determination work specifically 'was carried out with unusual originality, skill, and patience.' A third independent source, the Center for Astrophysics' own news retrospective, separately describes her as having 'painstakingly examined every star... looking for the smallest change in brightness' across plates that 'contained thousands of stars.' Three independently-authored, non-self accounts of the same specific precision pattern clears this project's bar for an extreme (85+) score."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Wolbach Library's institutional account documents a specific, sustained practice of quantifying and controlling instrumental error beyond raw measurement: excluding plate-edge-distorted stars, compensating for chemical-batch and temperature variation between plates, and -- in her own 1909 Popular Astronomy paper 'Standard Photographic Magnitudes' -- explicitly cross-checking her photographic magnitude scale against independently-derived methods before concluding, in her own hedged words rather than overclaiming, 'We apparently have a satisfactory working basis for determining the magnitudes of stars in all parts of the sky, on an approximately correct scale.' Her 1915 Harvard College Observatory Circular 188 on the color index of S Cephei went further, deliberately incorporating an independent visual-observation dataset from colleague Annie Jump Cannon specifically to quantify the gap between her own photographic measurements and an independently-derived figure. This is a single non-self institutional source for the procedural specifics, corroborated by her own self-documented, methodologically self-critical publication record (self-testimony, capped as one perspective per this project's evidence-discipline rule) -- kept below the 85+ threshold and at moderate confidence for that reason, rather than treated as doubly independent."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained the same narrow technical practice at Harvard College Observatory for roughly 28 years (1893-1921), producing a linked sequence of publications (1904 Orion-nebula variables; 1908 '1777 Variables in the Magellanic Clouds'; 1909 standard-magnitudes paper; 1912 Harvard Circular 173; 1915 color-index study) and leaving behind systematic working notebooks spanning 1905-1921 (Harvard University Archives, Project PHaEDRA). Independently, Solon Bailey's 1922 obituary attributes a specific, concrete career outcome to this sustained application: 'by her exceptional ability and intense application she soon became the head of the department of photographic stellar photometry' -- a colleague's direct, non-self account of a specific institutional outcome (a department headship), not an inference drawn from the fame of her eventual discovery."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Solon Bailey's 1922 obituary -- a colleague with firsthand, extended exposure to her working style over roughly two decades at the same observatory -- states directly: 'Miss Leavitt was of an especially quiet and retiring nature, and absorbed in her work to an unusual degree.' A specific, direct, non-self characterization of sustained work-absorption. Kept at moderate confidence because this specific facet (immersion, as distinct from the separately-evidenced discipline and detail_orientation rows) rests on this one source rather than being independently corroborated elsewhere in the material read this cycle."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent non-self sources. Bailey's 1922 obituary directly attributes her rise to head of the photometry department to 'exceptional ability and intense application' sustained toward the same narrow technical craft over decades. Separately, HCO director Edward Pickering's own preserved 1902 reply letter to Leavitt (primary correspondence, reproduced in full by the Wolbach Library's institutional archive) offers her 'thirty cents an hour in view of the quality of your work, although our usual price, in such cases, is twenty-five cents an hour' -- a specific, quantified, contemporaneous supervisor assessment of the caliber of her work product, not a retrospective reputation claim. NOTE: this same 1902 correspondence also discusses Leavitt's hearing difficulty and her request for a warm-climate posting; per this project's evidence-discipline rule, that health-related content was deliberately excluded from this rationale and is not used as evidence for this or any other row."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henrietta-swan-leavitt-popular-astronomy-1922.jpg",
+    "width": 1205,
+    "height": 1600,
+    "source": "Wikimedia Commons (originally published as Plate XVII in Popular Astronomy, Vol. 30, No. 4, April 1922)",
+    "license": "Public domain (PD-US-expired; unknown author, published 1922)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henrietta_Swan_Leavitt.jpg",
+    "attribution": "Unknown photographer, circa 1898 (published in Popular Astronomy, v.30, no.4, April 1922, captioned \"At about 30 years of age\"); no attribution required per Commons license terms",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Henrietta_Swan_Leavitt.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Checked public/portraits/ for any pre-existing 'henrietta*' file before starting (per instructions covering a prior rate-limit-interrupted attempt) -- none existed, so a fresh Wikimedia Commons search was performed. Wikidata QID (Q110181) verified live before scoring. Era set to 20th_century (not 19th_century, despite her 1868 birth) following this project's established precedent for a figure whose career and defining achievements fall predominantly in the following century (cf. Albert Einstein, born 1879, era 20th_century) -- Leavitt joined Harvard College Observatory in 1893 but her foundational period-luminosity papers were published in 1908 and 1912, and she worked until her death in 1921. Research actually performed: read Solon Bailey's full 1922 Popular Astronomy obituary (fetched as the original scanned journal PDF, not a secondary summary); read three Wolbach Library / Center for Astrophysics institutional pages by archivist Peggy Wargelin (2018), which draw directly on Leavitt's surviving notebooks (Project PHaEDRA), glass plates, and primary 1902 Leavitt-Pickering correspondence reproduced in full; read the Center for Astrophysics' own news retrospective (a separate author/publication from Wargelin's pages); read the Harvard Plate Stacks overview page. This clears the >=2-independent-perspective / >=1-non-self-behavioral-source bar with three-to-four distinct non-self perspectives (Wargelin/Wolbach Library counted once despite three pages, since same author; Bailey 1922; CfA news; Harvard Plate Stacks), plus Leavitt's own letters and publications as a single, separately-capped self-testimony perspective. EVIDENCE DISCIPLINE: deliberately did NOT score any row from her progressive hearing loss, her family/health-driven interruptions in the 1896-1903 period, or her early death from cancer -- these facts appear repeatedly in the sources read (e.g., the 1902 correspondence's discussion of her hearing and a warm-climate posting; Gosta Mittag-Leffler's 1924 attempt to nominate her for the Nobel Prize arriving three years after her death) but are explicitly excluded from every rationale per this project's rule against inferring personality from health, disability, or bereavement. Also deliberately did NOT score achievement_drive or a 'discovery/originality' row from the sheer count of her catalogued output (2,400-plus variable stars, roughly half the then-known total, per Bailey 1922) or from the fame of the period-luminosity relation itself, since the rubric explicitly forbids scoring from finished-output volume or reputation alone; the specific behavioral evidence available did not clearly separate a distinct, independently-corroborated originality/pattern-recognition row from what is already captured under analytical_rigor, so no such row was added rather than force one. Also did NOT score autonomy_need/leadership from the CfA news article's fact that Pickering 'limited the type of work she could tackle' and 'restricted her from independent research,' since that documents Pickering's management choice, not a directly observed trait of Leavitt's own; forcing a row from it would have inferred her disposition from someone else's behavior toward her. Result is an honest 5-row profile: personal correspondence and third-party accounts of her specific working methods are unusually rich and well-preserved for a 'Harvard Computer,' but corroborating behavioral evidence for the social/resilience/motivation facets beyond what is scored here (e.g., collaboration, competitiveness, risk_tolerance, persistence) was not found to a standard clearing this project's bar without leaning on her health circumstances or on achievement/fame alone -- a legitimately thin result reflecting real archival scarcity for personal documentation, not a research shortcut."
+  },
+  "localization": {}
+}

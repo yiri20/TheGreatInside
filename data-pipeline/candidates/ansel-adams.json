@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ansel-adams",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ansel Adams",
+    "aliases": [
+      "Ansel Easton Adams"
+    ],
+    "wikidataId": "Q60809",
+    "birthYear": 1902,
+    "deathYear": 1984,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "photographer",
+      "environmentalist"
+    ],
+    "fieldIds": [
+      "art",
+      "environmental_science"
+    ],
+    "impactDomains": [
+      "artistic",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "innovator",
+      "advocate"
+    ],
+    "newTagProposals": [],
+    "archetypeIds": [
+      "creative_creator",
+      "technical_innovator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_adams_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ansel Adams -- orientation only, not used as scored evidence for any row",
+      "url": "https://en.wikipedia.org/wiki/Ansel_Adams"
+    },
+    {
+      "id": "src_adams_wikidata",
+      "kind": "wikidata",
+      "title": "Ansel Adams (Q60809) -- verified live: label 'Ansel Adams', description 'American photographer and environmentalist (1902-1984)'",
+      "url": "https://www.wikidata.org/wiki/Q60809"
+    },
+    {
+      "id": "src_adams_ebsco_kingscanyon",
+      "kind": "press",
+      "title": "\"Adams Lobbies Congress to Preserve Kings Canyon,\" EBSCO Research Starters -- independent reference account, opened and read in full, non-self and behavioral: documents his January 1937 trip to Washington D.C. with a photograph portfolio, his address to the congressional commission conducting park hearings, two days of meetings with representatives from districts near the Kings River, publication of Sierra Nevada: The John Muir Trail (1938), and his own on-record statement that he 'was not willing to produce propaganda' and had 'adhered first of all to his own artistry.'",
+      "url": "https://www.ebsco.com/research-starters/history/adams-lobbies-congress-preserve-kings-canyon"
+    },
+    {
+      "id": "src_adams_npca_advocacy",
+      "kind": "institution",
+      "title": "\"'A Silent but Most Effective Voice': Ansel Adams and Advocacy,\" National Parks Conservation Association -- independent conservation-institution account, opened and read in full, non-self and behavioral: documents the 1936 Sierra Club-directed trip carrying portfolios to over 40 members of Congress and a meeting with Interior Secretary Harold Ickes, and directly quotes then-National Park Service Director Arno Cammerer's contemporary, non-self assessment that Adams's photographic book was 'a silent but most effective voice in the campaign.'",
+      "url": "https://www.npca.org/articles/1307-a-silent-but-most-effective-voice-ansel-adams-and-advocacy"
+    },
+    {
+      "id": "src_adams_scu_environmental_ethics",
+      "kind": "institution",
+      "title": "\"Ansel Adams,\" Santa Clara University Environmental Ethics -- independent academic-institution account, opened and read in full: documents his 1934-1971 (37-year) continuous Sierra Club board tenure, his 1965 appointment to President Lyndon Johnson's environmental task force, and his 1963 Sierra Club John Muir Award, with directly quoted statements on conservation.",
+      "url": "https://www.scu.edu/environmental-ethics/environmental-activists-heroes-and-martyrs/ansel-adams.html"
+    },
+    {
+      "id": "src_adams_thecollector_zonesystem",
+      "kind": "press",
+      "title": "\"What Is the History and Purpose of Ansel Adams' Zone System?\", TheCollector -- independent press account, opened and read in full: documents that Adams, 'in collaboration with portrait photographer Fred Archer, developed the system as a set of principles based on their study of sensitometry,' developed in the 1930s while both taught photography at the Art Center School in Los Angeles, aimed at precisely controlling exposure and development across the full tonal range of a scene.",
+      "url": "https://www.thecollector.com/ansel-adams-zone-system-history/"
+    },
+    {
+      "id": "src_adams_gallery_uscamera",
+      "kind": "institution",
+      "title": "\"The U.S. Camera Photographic Forum: Teaching the Art of Seeing,\" The Ansel Adams Gallery (Yosemite) -- the Adams family/estate-run gallery's historical/educational archive, opened and read in full, describing his workshops (running from 1940) as intended to be 'idea factories,' not 'production lines,' co-teaching alongside Edward Weston, and his wife Jeanne Adams's own recollection of his practice of personally developing a student's negative in front of the group during darkroom demonstrations.",
+      "url": "https://articles.anseladams.com/ansel-adams-us-camera-photographic-forum/"
+    },
+    {
+      "id": "src_adams_orland_cpa",
+      "kind": "institution",
+      "title": "Interview with Ted Orland, Center for Photographic Art -- independent nonprofit photography institution's interview with a former Adams workshop student (1966), then workshop assistant (1967), then instructor for fifteen seasons; non-self, firsthand, behavioral testimony describing Adams's teaching practice (delegating detailed Zone-System explanation to trained co-instructors after his own lecture), his handling of the tuition-for-assistantship arrangement, and his meticulous, hierarchy-conscious approach to equipment and technique.",
+      "url": "https://www.photography.org/interview-ted-orland"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent institutional sources (EBSCO Research Starters and NPCA) document a specific, dated, quantified advocacy campaign: a January 1937 trip to Washington D.C. where he addressed a congressional hearing commission and personally met representatives from Kings River-area districts over two days, following a 1936 Sierra Club-directed trip carrying his photo portfolios to over 40 members of Congress. The campaign's own contemporary non-self assessment is independently on record: NPS Director Arno Cammerer wrote that Adams's 1938 book Sierra Nevada: The John Muir Trail was 'a silent but most effective voice in the campaign,' and Kings Canyon National Park was established by Congress in 1940. Kept just below the 85+ extreme band since, despite two independently-corroborating sources, this is ultimately one sustained campaign rather than multiple, clearly separate advocacy incidents."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "EBSCO's account directly quotes Adams's own on-record position that 'he was not willing to produce propaganda' and had 'adhered first of all to his own artistry' -- even while the same body of photography was being deliberately deployed toward a specific legislative outcome (Kings Canyon). This is partly self-testimony (his own stated resistance to being read as a propagandist), so scored dual_edged rather than a clean, flattering 'used art for good' narrative: the documented record shows a real, self-acknowledged tension between artistic-integrity motivation and advocacy motivation, not a resolved single cause. Confidence held at the lower end of the documented band because the direct-quote sourcing here is self-testimony rather than independently observed behavior, even though the underlying advocacy facts (persuasiveness row) are independently documented."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "TheCollector's independent account documents that Adams, working with fellow Art Center School instructor Fred Archer in the 1930s, 'developed the system as a set of principles based on their study of sensitometry' -- turning craft intuition about exposure and development into an explicit, teachable, formally structured method (a codified mapping of scene luminance to print tonal zones), rather than a single insight or a one-off technique. Confidence held at a single-source level: only one independently-read, non-Wikipedia source was found this cycle describing the development process itself in any detail."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent sources document Adams building and running a structured, multi-decade teaching program rather than working alone: the Ansel Adams Gallery's historical account describes his explicit workshop philosophy ('idea factories,' not 'production lines') and his practice of co-teaching with Edward Weston; Ted Orland's firsthand, non-self account (Center for Photographic Art) independently confirms the structure -- Orland himself was promoted from student (1966) to assistant (1967) to instructor over roughly two to three years, and Adams delegated the technical follow-through of his own Zone System lectures to trained co-instructors (Al Weber and others). A specific, sustained, multi-person institution-building pattern, not a reputation inference."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Santa Clara University's independent Environmental Ethics account documents Adams serving continuously on the Sierra Club's Board of Directors from 1934 to 1971 -- 37 years of sustained institutional service -- alongside a 1965 appointment to President Johnson's environmental task force. A specific, quantified, single-source institutional record of sustained multi-decade commitment to the same cause and organization; kept at a single-source confidence level since no second independent source with the specific tenure length was read this cycle."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Ted Orland's firsthand account describes Adams's 'meticulous approach' and the technical hierarchy he maintained between his own large-format view camera and a student's 35mm equipment, read alongside the Zone System's own documented purpose (TheCollector: precisely controlling exposure/development 'to most closely resemble the highlights, shadows, and everything in between' across a scene's full tonal range). Scored strong_inference rather than documented because connecting the Zone System's inherent precision-orientation to a personal detail-orientation trait is one interpretive step beyond what either source states about him directly, and because it shares part of its evidentiary base with the systems_abstraction row above rather than resting on fully separate facts."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ansel-adams-greany-1950.jpg",
+    "width": 1265,
+    "height": 1600,
+    "source": "J. Malcolm Greany, National Park Service / Yosemite Field School, via Wikimedia Commons",
+    "license": "Public Domain (U.S. federal government work, 17 U.S.C. § 105)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_and_camera.jpg",
+    "attribution": "J. Malcolm Greany, circa 1950 -- first published in the 1950 Yosemite Field School yearbook",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_and_camera.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q60809) verified live before scoring: label 'Ansel Adams', description 'American photographer and environmentalist (1902-1984)' -- matches intended subject. Six sources beyond Wikipedia/Wikidata orientation, all opened and read in full: EBSCO Research Starters and NPCA (both independently documenting the 1936-1940 Kings Canyon congressional lobbying campaign, including NPS Director Arno Cammerer's independent contemporary assessment), Santa Clara University's Environmental Ethics program (37-year Sierra Club board tenure, LBJ task force appointment), TheCollector (Zone System co-development with Fred Archer), the Ansel Adams Gallery's historical archive (workshop philosophy, co-teaching with Edward Weston), and a Center for Photographic Art interview with former student/assistant/instructor Ted Orland (firsthand, non-self, behavioral testimony spanning 1966 onward). Clears the >=2 independent-perspective / >=1 non-self-behavioral bar clearly: Cammerer's on-record NPS assessment and Orland's firsthand testimony are both independent of Adams himself and behavioral. PORTRAIT NOTE PER TASK INSTRUCTION: deliberately did NOT use any of Adams's own landscape photographs (still under copyright, managed by the Ansel Adams Publishing Rights Trust) -- instead sourced a photograph OF Adams taken by a third party. Selected 'Ansel Adams and camera' by J. Malcolm Greany (circa 1950, first published in the 1950 Yosemite Field School yearbook), verified Public Domain via the Wikimedia Commons imageinfo API as a U.S. federal government work (documented via the National Park Service's own Ansel Adams resource page) under 17 U.S.C. § 105; the file also carries Wikimedia Commons/Wikipedia Featured Picture status, an independent signal of prior community verification. Downloaded at native resolution (3003x3799) via curl, resized to 1600px longest side via PIL (1265x1600) and saved to public/portraits/ansel-adams-greany-1950.jpg. Two other real, correctly-licensed candidate files were also verified via the Commons API but not used: an official U.S. Civil Service Commission personnel-file photo (circa 1941, public domain, NARA) and a 1976 Gerald Ford White House Photographic Office contact-sheet crop (public domain) -- the Greany portrait was preferred for image quality, resolution, and because it depicts Adams actively working with a large-format camera and light meter rather than in a administrative/ceremonial setting. Several sources referenced in the task brief (Mary Street Alinder's biography, the Sierra Club's own 'Molded by Mountains' and 'Celebrating 100 Years' features) were searched for but could not be directly opened this cycle (JavaScript-rendered pages returning empty content, or full biography text not accessible online) -- they are NOT listed as consulted sources and nothing in this file is attributed to them."
+  },
+  "localization": {}
+}

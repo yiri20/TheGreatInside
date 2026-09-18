@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pina-bausch",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Pina Bausch",
+    "aliases": ["Philippine Bausch"],
+    "wikidataId": "Q155538",
+    "birthYear": 1940,
+    "deathYear": 2009,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["DE"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["dancer"],
+    "fieldIds": ["dance"],
+    "impactDomains": ["artistic", "cultural", "innovation"],
+    "tagIds": ["founder", "innovator", "nonconformist"],
+    "newTagProposals": [],
+    "archetypeIds": ["creative_creator", "independent_creator"]
+  },
+  "sources": [
+    {
+      "id": "src_bausch_wikipedia",
+      "kind": "wikipedia",
+      "title": "Pina Bausch",
+      "url": "https://en.wikipedia.org/wiki/Pina_Bausch"
+    },
+    {
+      "id": "src_bausch_wikidata",
+      "kind": "wikidata",
+      "title": "Pina Bausch (Q155538)",
+      "url": "https://www.wikidata.org/wiki/Q155538"
+    },
+    {
+      "id": "src_bausch_mulrooney",
+      "kind": "press",
+      "title": "Deirdre Mulrooney, \"The Fine Art of Questioning\" (doctoral thesis chapter on Bausch's choreographic method) -- an independent scholarly analysis that itself quotes, as primary embedded testimony, Bausch's own words, company dancers Finola Cronin and Nazareth Panadero, writer Alice Schwarzer's on-the-ground observation of rehearsals, and Bausch's longtime dramaturg/collaborator Raimund Hoghe. These embedded quotes are cited here AS QUOTED IN Mulrooney's chapter, not independently re-verified against their original interviews/publications. Fully read in this cycle.",
+      "url": "https://www.deirdremulrooney.com/old_site/thesis_chapters/question.html"
+    },
+    {
+      "id": "src_bausch_endicott",
+      "kind": "archive",
+      "title": "Interview with Josephine Ann Endicott, Pina Bausch Foundation archive (6/6/2023) -- a firsthand account from a company dancer and rehearsal director present since the company's founding, describing specific named incidents from 'Blaubart' and 'Die sieben Todsunden' (The Seven Deadly Sins). Hosted by the Pina Bausch Foundation, an institution dedicated to Bausch's legacy -- used cautiously per this project's hagiography-skepticism instruction, but the content is a third-party dancer's own testimony (including a moment of her directly refusing Bausch), not company-authored characterization of Bausch herself. Fully read in this cycle.",
+      "url": "https://www.pinabausch.org/archives/interview/20230606_83_0001/print"
+    },
+    {
+      "id": "src_bausch_mercy",
+      "kind": "press",
+      "title": "\"On Pina Bausch's Legacy: an interview with Dominique Mercy\", Revista Brasileira de Estudos da Presenca -- an independent, peer-reviewed Brazilian academic dance-studies journal, unaffiliated with the Pina Bausch Foundation or Tanztheater Wuppertal. Mercy was a founding company member who worked continuously with Bausch from 1973 until her death. Fully read in this cycle.",
+      "url": "https://www.redalyc.org/journal/4635/463556259007/html/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 85,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Bausch pioneered 'Tanztheater' (dance theatre), a hybrid form combining dance, ordinary movement, and spoken fragments that abandoned pre-written choreography and fixed steps as its starting point. Dominique Mercy -- a founding company member who worked with her continuously from the creation of 'Fritz' (1974) until her death -- independently confirms the same radical departure in his own words: 'she never made decisions on the conceptual level,' judging material only by whether 'it had to mean something and to move something' (interview, Revista Brasileira de Estudos da Presenca, an independent academic dance journal). Deirdre Mulrooney's academic thesis chapter on Bausch's method independently corroborates the same characterization from a different angle, quoting her longtime dramaturg/collaborator Raimund Hoghe's description of a process with 'no templates, no scripts, no choreography,' in which 'her raw material is the people themselves.' Two independent perspectives -- a founding dancer's own account and a scholarly analysis quoting a separate close collaborator -- corroborate the same specific claim about her method, not an inference from company fame or touring success."
+    },
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Mulrooney's thesis chapter documents the specific mechanics of Bausch's rehearsal method: she arrived with a written list of prompts ('Stichworte'), read them aloud, and each dancer explored an individual response through movement, objects, or speech while she watched and took notes without commentary -- a process Bausch herself is quoted describing as, by 1977's 'Blaubart', starting 'with the questions' rather than with a movement. The scale of iteration is specific and quantified, not a vague claim of creativity: for pieces like 'Viktor' the creation period ran roughly three months, and Bausch's own account (quoted in the thesis) states 'each of them does, say, ten things and in the end I'm interested in maybe only two' -- with roughly five percent of all explored material ultimately surviving into the finished piece. This is corroborated in kind, though not in this specific data, by Dominique Mercy's independent account of 'Fritz' (1974): Bausch built a section of choreography directly from Mercy's own incidental cough during rehearsal ('I had a little cough so we somehow worked on that to create a dance. Then everybody was coughing as well') -- the same underlying practice of harvesting and iterating on found material from dancers rather than inventing steps in advance."
+    },
+    "ambiguity_tolerance": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Mulrooney's thesis documents that Bausch deliberately withheld the piece's eventual shape from her own dancers for most of the creation process -- company member Finola Cronin describes the experience directly: 'You have to trust her completely, which is difficult -- going with her, wanting to be there but not knowing where you're going to, or what it is.' Raimund Hoghe's account, also quoted in the thesis, confirms that choreographic form was consciously the LAST element decided, not the first, arrived at only after months of open-ended, undirected material-gathering with no predetermined structure. Scored strong_inference rather than documented: this rests on one independently-read academic source (with an embedded dancer quote) rather than two fully separate provenance chains, though the underlying practice it describes is a specific, concrete process, not an inference from her general reputation as unconventional."
+    },
+    "collaboration": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Multiple independently-interviewed former company members describe the same underlying practice: choreography built directly from dancers' own disclosed material rather than from Bausch's own invented steps. Dominique Mercy describes Bausch incorporating his own physical trait (a cough) directly into 'Fritz' until it spread to the full cast. Josephine Ann Endicott, interviewed by the Pina Bausch Foundation's own archive, describes a specific incident during the creation of 'The Seven Deadly Sins': rehearsals stalled until Endicott's genuine, unscripted frustration erupted and she began throwing chairs around the studio -- Bausch kept it in the piece: 'That was great! Because that's what she needed, but this feeling had to come from me and not from her. And so it stayed in the choreography.' Two independently-interviewed former dancers, in two independently published sources (an academic journal and the company's own archival interview series), describe the same specific collaborative mechanism from two different productions -- satisfying this project's multiple-independent-perspective bar. Scored dual_edged, not a flattering advantage-only trait: Endicott's own account shows this collaboration carried a real personal cost and required active negotiation of boundaries -- during 'Blaubart' (Bluebeard) she directly refused a question she found too invasive ('I'm not answering that, Pina')."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Mulrooney's thesis quotes company dancer Nazareth Panadero's own characterization of Bausch's questioning method: 'She poses so many questions that it becomes like a police investigation forcing you to deliver something of yourself.' This is a specific description, from a named longtime company dancer, of Bausch's capacity to extract material dancers would not otherwise have volunteered -- a real, sourced form of interpersonal influence, not an inference from her company's eventual output. Scored dual_edged rather than a flattering advantage-only trait, in Panadero's own coercive framing, and kept at strong_inference/moderate confidence since this rests on a single quote from one academic secondary source rather than a second dancer's independent account of the same specific dynamic."
+    },
+    "perfectionism": {
+      "score": 65,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "Josephine Ann Endicott recalls that in the company's earliest years, Bausch's own creative standard during set-piece creation was exactingly technical: 'When she first created was very precise. She was very technical. You had to try to achieve: that foot, that line.' Dominique Mercy's independent account adds that this exactingness persisted across her whole career rather than being a young choreographer's early-career phase: she remained 'willing to revise work late in her career, removing elements she deemed unnecessary or repetitive.' Two independently-interviewed former dancers describe the same underlying trait -- sustained, exacting revision rather than settling for finished work -- from different points across her 36-year tenure leading the company."
+    },
+    "intuitive_synthesis": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Bausch's own selection criterion for which material survived months of dancer-generated material, as quoted in Mulrooney's thesis, was explicitly felt rather than conceptual: 'Bauch und viel Arbeit, das ist ein Gemisch aus beidem' ('gut and hard work, a mixture of both'), and 'Wenn ich mich freuen kann, dann weiss ich, dass es stimmt' ('when I can be pleased, I know it's right'). Dominique Mercy's independent account corroborates the same non-analytical selection process from the outside: 'she never made decisions on the conceptual level. She was always the first audience and it had to mean something and to move something.' Two independent perspectives -- Bausch's own stated criterion and a close collaborator's outside description of the same criterion in practice -- agree on a specific, non-generic claim (feeling-based over conceptual selection), not an inference from a generic 'intuitive' personality label."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pina-bausch-avignon-1981.jpg",
+    "width": 985,
+    "height": 1361,
+    "source": "Bibliotheque nationale de France, via Wikimedia Commons",
+    "license": "Public domain (released into the public domain by the photographer)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pina_Bausch_(festival_d%27Avignon,_1981).jpg",
+    "attribution": "Fernand Michaud (1929-2012), 1981, Festival d'Avignon",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pina_Bausch_(festival_d%27Avignon,_1981).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q155538) verified live before scoring ('German dancer, choreographer, dance teacher and ballet director (1940-2009)'); birth name Philippine Bausch and precise dates (27 July 1940 - 30 June 2009) also confirmed live via Wikidata. Sources actually read in full this cycle: Deirdre Mulrooney's academic thesis chapter 'The Fine Art of Questioning' (an independent scholarly analysis of Bausch's method that itself embeds direct quotes from Bausch, dancers Finola Cronin and Nazareth Panadero, writer Alice Schwarzer, and dramaturg Raimund Hoghe -- cited here as quoted within Mulrooney's chapter, not independently re-verified against each original interview); the Pina Bausch Foundation archive's 2023 interview with company dancer/rehearsal director Josephine Ann Endicott; and an independent academic-journal interview with founding company member Dominique Mercy (Revista Brasileira de Estudos da Presenca). Occupation deliberately kept to 'dancer' rather than 'choreographer' -- the latter is not a valid occupation.* key in src/core/i18n/en.ts (confirmed live by grep), and this project's own precedent for an equivalent case (Martha Graham, also fundamentally a choreographer/company director) uses 'dancer' alone rather than inventing a new occupation id; a separate candidate file for Katherine Dunham does use 'choreographer' but that appears to be a pre-existing inconsistency in this project's data, not a validated key, and was not copied here. A specific, oft-repeated claim that Anna Kisselgoff (then New York Times dance critic) publicly contrasted Bausch's 'neo-expressionism' against American 'formalism' at a 1985 Goethe House symposium was found via web search but never independently opened/read at its original source this cycle -- it is deliberately NOT used as scored evidence anywhere in this file, consistent with the requirement to actually read sources rather than cite search-summary snippets. All 7 scored rows trace to specific, named, sourced incidents or directly-quoted process descriptions (the Stichworte/questioning mechanics and 5%-survival ratio; the Fritz cough incident; the Seven Deadly Sins chair-throwing incident and the Bluebeard refusal; the Panadero 'police investigation' characterization; the technical-precision and late-career-revision pattern; the stated gut-over-concept selection criterion) -- none is scored from her fame, company longevity, or awards alone, and none infers anything from her later illness or death. Three genuinely independent non-self provenance perspectives are used throughout (Mulrooney's academic synthesis, the Endicott archival interview, and the Mercy journal interview), clearing this project's evidence-discipline bar well beyond the minimum."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 7,
+    "averageConfidence": 0.5671428571428572,
+    "coverage": 0.20291970802919708,
+    "eligible": false,
+    "computedAt": "2026-09-17T00:00:00Z"
+  },
+  "localization": {}
+}

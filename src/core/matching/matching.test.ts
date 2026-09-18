@@ -488,6 +488,26 @@ describe("confidence and missing data", () => {
       "salvador-dali",
       "sam-walton",
       "tenzing-norgay",
+      // Roster36 (2026-09-17, docs/checkpoints/roster36.md): 14 new,
+      // freshly-researched, evidence_approved, directory-visible people --
+      // zero backlog reuse. All 14 are honestly non-match-eligible, exactly
+      // as the recent-cohort publication-vs-matching architecture
+      // diagnostic (docs/checkpoints/recent-cohort-matching-architecture.md)
+      // anticipated -- an evidence outcome, not a target.
+      "ada-yonath",
+      "ansel-adams",
+      "bessie-coleman",
+      "edith-piaf",
+      "gordon-parks",
+      "henrietta-swan-leavitt",
+      "lise-meitner",
+      "margaret-hamilton",
+      "milton-hershey",
+      "pina-bausch",
+      "robert-noyce",
+      "soichiro-honda",
+      "tu-youyou",
+      "valentina-tereshkova",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -916,6 +936,26 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "salvador-dali",
       "sam-walton",
       "tenzing-norgay",
+      // Roster36 (2026-09-17, docs/checkpoints/roster36.md): 14 new,
+      // freshly-researched, evidence_approved, directory-visible people --
+      // zero backlog reuse. All 14 are honestly non-match-eligible, exactly
+      // as the recent-cohort publication-vs-matching architecture
+      // diagnostic (docs/checkpoints/recent-cohort-matching-architecture.md)
+      // anticipated -- an evidence outcome, not a target.
+      "ada-yonath",
+      "ansel-adams",
+      "bessie-coleman",
+      "edith-piaf",
+      "gordon-parks",
+      "henrietta-swan-leavitt",
+      "lise-meitner",
+      "margaret-hamilton",
+      "milton-hershey",
+      "pina-bausch",
+      "robert-noyce",
+      "soichiro-honda",
+      "tu-youyou",
+      "valentina-tereshkova",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

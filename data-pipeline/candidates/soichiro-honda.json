@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "soichiro-honda",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Soichiro Honda",
+    "aliases": ["Sōichirō Honda", "Mr. Thunder"],
+    "wikidataId": "Q313304",
+    "birthYear": 1906,
+    "deathYear": 1991,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["JP"],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["engineer", "entrepreneur", "inventor"],
+    "fieldIds": ["engineering", "business", "technology"],
+    "impactDomains": ["technological", "entrepreneurial", "engineering", "industrial"],
+    "tagIds": ["founder", "innovator", "self_taught"],
+    "archetypeIds": ["entrepreneurial_builder", "technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_honda_wikipedia",
+      "kind": "wikipedia",
+      "title": "Soichiro Honda",
+      "url": "https://en.wikipedia.org/wiki/Soichiro_Honda"
+    },
+    {
+      "id": "src_honda_wikidata",
+      "kind": "wikidata",
+      "title": "Sōichirō Honda (Q313304)",
+      "url": "https://www.wikidata.org/wiki/Q313304"
+    },
+    {
+      "id": "src_honda_global_history",
+      "kind": "institution",
+      "title": "Honda Motor Co., Ltd., official corporate history (\"Honda Global\" heritage episode pages) -- institutional source. Four separate episode pages fully read in this cycle: \"The 'Joy of Manufacturing'\" (1936 racing crash), \"Competing for the First Time in the Isle of Man TT Race\" (1958-59), \"Takeo Fujisawa Joins Honda\" (1949), \"The R&D Center Goes Independent\" (1960), and \"Launching the S360 and T360\" (1962, the MITI confrontation).",
+      "url": "https://global.honda/en/heritage/episodes/1962autoproduction.html"
+    },
+    {
+      "id": "src_honda_ebsco",
+      "kind": "archive",
+      "title": "EBSCO Research Starters -- \"Soichiro Honda\" -- independent tertiary research-service profile with specific sourced facts and direct quotes (including a New York Times quote and material drawn from Honda's own memoir).",
+      "url": "https://www.ebsco.com/research-starters/history/soichiro-honda"
+    },
+    {
+      "id": "src_honda_asme",
+      "kind": "institution",
+      "title": "American Society of Mechanical Engineers (ASME) -- \"Soichiro Honda\" -- independent professional-institution profile (ASME also established the Soichiro Honda Medal in 1980), with a specific quantified account of his WWII wooden-propeller mass-production technique.",
+      "url": "https://www.asme.org/topics-resources/content/soichiro-honda"
+    },
+    {
+      "id": "src_honda_leadership_review_sakiya",
+      "kind": "biography",
+      "title": "Tetsuo Sakiya, Honda Motor: The Men, the Management, the Machines (Kodansha International, 1982) -- independent business-history biography. Accessed via a directly-read secondary account (leadershipreview.net) quoting Sakiya's book directly, including the bolt-tightening incident, the baseball-grounds incident, the air-cooled/water-cooled engine dispute with Takeo Fujisawa, and Fujisawa's own 1949 quote (full monograph text not directly opened this cycle).",
+      "url": "https://www.leadershipreview.net/soichiro-honda-manager-and-entrepreneur/"
+    },
+    {
+      "id": "src_honda_roadracingworld",
+      "kind": "press",
+      "title": "\"Honda's First Golden Age of Grand Prix Racing\", Roadracing World Magazine -- independent motorsport-press account of Honda's 1954 Isle of Man TT declaration, his personal 1954 reconnaissance trip, and the 1959-1961 racing campaign.",
+      "url": "https://www.roadracingworld.com/news/hondas-first-golden-age-of-grand-prix-racing/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Personally designed, built, and raced his own cars in the 1930s; on June 7, 1936, his self-built 'Hamamatsu' racer crashed at the Tamagawa Speedway, rolling and ejecting him -- he was not seriously hurt, but his younger brother and riding mechanic Benjiro suffered a fractured spine (Honda Global institutional history). Decades later, he defied Japan's MITI and proceeded to design, prototype, and launch the T360 (1963) and S500 (1963) in direct opposition to the ministry's proposed Specified Industry Promotion Bill, which was intended to legally block new entrants to the auto market -- risking the company's ability to enter its most important intended growth market, per his own account of the confrontation ('To hell with the Specified Industry Promotion Law!' -- 1983 televised interview, reported by Honda Global). Dual-edged: the MITI defiance succeeded, but the 1936 crash carried a real, documented human cost to someone else."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At 31, studied part-time toward a formal technical-school qualification but refused to sit the actual qualifying examinations (EBSCO Research Starters). Publicly and successfully defied MITI's 1961-62 attempt to legally bar new manufacturers from the passenger-car market, stating in his own words (1983 interview, reported by Honda Global): 'We were free to do exactly what we wanted... The government couldn't tell me what to do.' Separately challenged a government color regulation in a signed Asahi Shimbun column: 'How can they ban it by law?' (Honda Global) -- a second, independent instance of public regulatory defiance, not a single isolated episode."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Sustained a years-long public conflict with MITI official Shigeru Sahashi over automobile-market entry, which Honda himself later described as 'I deluged him with complaints' (his own 1983 interview, reported by Honda Global). By contrast, when his own business partner Takeo Fujisawa gave him a direct personal ultimatum during the air-cooled-vs-water-cooled engine dispute of the late 1960s -- 'You can continue to serve as the president of our company, or you can join the engineers at Honda Motor' (Sakiya's biography, via Leadership Review) -- Honda backed down and allowed water-cooled development to proceed, though he 'was never seen to smile when anybody talked about water-cooling thereafter.' Scored dual-edged: real, sustained conflict engagement against external authority (government), but bounded specifically by Fujisawa's direct counterweight inside the company, not unconditional."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Publicly pledged in spring 1954 to enter and win the Isle of Man TT motorcycle race. Honda's team finished a mediocre 6th, 7th, 8th, and 11th in its first TT entry in 1959 (EBSCO Research Starters) -- yet the racing program continued for two more seasons until sweeping the podium and winning the 125cc/250cc World Championships in 1961 (Honda Global; independently corroborated by Roadracing World Magazine's account of the same campaign). A specific, sustained, multi-year pursuit of a publicly stated goal through repeated poor results before eventual success, not a single lucky win."
+    },
+    "belief_updating": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "After publicly declaring the Isle of Man TT goal in spring 1954, Honda personally traveled to the island that summer to examine rival machines before committing to a design, and was, in his own words, 'astonished that the motorcycles were so much more powerful than we had imagined' (reported by Roadracing World Magazine). This directly prompted a substantial revision of Honda's racing-engine approach -- moving to a 2-cylinder, later 4-valve design rather than the single-cylinder approach initially under consideration (Honda Global's account of the RC141/RC142 development) -- a concrete, dated instance of firsthand observation overturning a prior technical assumption."
+    },
+    "collaboration": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Brought in Takeo Fujisawa as managing director in October 1949 specifically to run sales and finance; each recognized the other had what he lacked, per Fujisawa's own 1949 words ('He's got what I haven't got,' reported via Sakiya's biography). Sustained this complementary division of labor -- 'Honda did the making, Fujisawa did the selling' -- for 22 years, and the two men retired from operational roles together, by mutual agreement, on the same day in 1973 (Honda Global; Leadership Review/Sakiya)."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "In July 1960, made Honda's R&D function a legally independent company, explicitly so the company would not depend indefinitely 'on one genius's insights' and researchers could work without conventional pyramid-management constraints; at the founding ceremony Honda stated, 'We cannot succeed in this highly competitive world unless we spend a good time creating utterly original ideas' (Honda Global). Independently corroborated by the same institutional account's report that Fujisawa considered this decision important enough that he would have resigned had the board rejected it -- a specific, structural act of institution-building beyond the founder's own person, not a general claim of ambition."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Routinely worked the factory floor personally checking assembly work, and specifically re-tightened bolts that workers had already tightened -- in one documented incident, shouting 'You damned fool. This is how you're supposed to tighten bolts' at a young worker while striking him with a wrench (Sakiya's biography, via Leadership Review). A specific, sustained pattern of holding a personally higher physical-craft standard than his own workforce, at real, documented interpersonal cost: Honda's own memoir, per EBSCO's account, later expressed regret for 'sometimes being rude to his employees, humiliating and occasionally even slapping them in the face.' Scored dual-edged for exactly that reason -- the craft standard was real, but so was its cost."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Told the New York Times, 'The worst kind of president is the person who eats in fancy restaurants...while employees work in a dirty factory,' and separately stated that workers should 'feel that the president has made some mistakes' -- a specific, quoted leadership philosophy, institutionalized through company-wide 'idea contests' held roughly every eighteen months (EBSCO Research Starters). Kept at strong_inference and moderate confidence since this rests on a single archive source rather than independent corroboration."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "During WWII, while running Tokai Seiki (his piston-ring company), developed a mass-production technique for wooden aircraft propellers that raised output from roughly one per week by manual carving to two per half hour (ASME) -- a specific, quantified, documented process innovation under wartime material and skilled-labor constraints, not a general claim of ingenuity."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/soichiro-honda-asahigraph-1954.jpg",
+    "width": 1218,
+    "height": 1600,
+    "source": "Asahi Shimbun / Asahigraph (New Year 1955 issue, photographed 1954), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Asahigraph-1955-Shinshun-1.jpg",
+    "attribution": "朝日新聞社 (Asahi Shimbun)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Asahigraph-1955-Shinshun-1.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q313304) verified live before scoring (label 'Sōichirō Honda', description 'Japanese engineer and industrialist'). 5 sources beyond Wikipedia/Wikidata orientation, spanning institution (Honda Motor Co.'s own official corporate history -- 5 separate episode pages actually fetched and read; ASME, an independent third-party professional society), archive (EBSCO Research Starters), biography (Sakiya's Honda Motor: The Men, the Management, the Machines, accessed via a directly-read secondary account quoting it, not the full monograph), and press (Roadracing World Magazine). Independent-perspective count: Honda's own official corporate history, ASME, EBSCO, Sakiya's biography (via Leadership Review), and Roadracing World are mutually independent authorship/perspectives; non-self behavioral sources include Fujisawa's own documented ultimatum and 1949 quote (via Sakiya), and MITI official Shigeru Sahashi's documented policy actions toward Honda (via Honda Global) -- clearing the >=2-perspective / >=1-non-self-behavioral bar. Honda's own quoted words (1983 TV interview, his memoir, his Asahi Shimbun column) are self-testimony and treated as one perspective only. The 'Mr. Thunder' nickname referenced in casual sources was checked against Sakiya's documented wrench/bolt-tightening incident and Honda's own memoir apology (both actually sourced here) rather than used on its own as an unverified label; it does not appear as a standalone scored claim in any row. The 1936 crash was verified to be a car race (Tamagawa Speedway, driving his own 'Hamamatsu' racer), not a motorcycle race, correcting an initial assumption from the task brief -- Honda's own motorcycle racing career (Isle of Man TT) began in the 1950s as a manufacturer/team owner, not as a rider. Deliberately includes unflattering evidence: the detail_orientation row's wrench incident and Honda's own memoir regret over humiliating employees, and the conflict_tolerance row's documented capitulation under Fujisawa's ultimatum. No row infers personality from patent count, sales figures, or company valuation alone; the resourcefulness row is scored from a specific quantified wartime process change, not from Honda Motor's eventual success. Portrait sourced live via the Wikimedia Commons API: the Asahigraph 1954/55 studio photograph (public domain, PD-Japan-oldphoto) was chosen over the smaller 1964 Zaikai photograph that English Wikipedia's infobox currently uses, since it is higher resolution and equally rights-clear; downloaded at its native 2129x2797 and resized with PIL to 1218x1600 (long edge capped at 1600px per this project's convention), then the saved file's real pixel dimensions were verified directly with PIL."
+  },
+  "localization": {}
+}

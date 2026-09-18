@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gordon-parks",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gordon Parks",
+    "aliases": [
+      "Gordon Roger Alexander Buchanan Parks"
+    ],
+    "wikidataId": "Q365682",
+    "birthYear": 1912,
+    "deathYear": 2006,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "photographer",
+      "film_director",
+      "writer"
+    ],
+    "fieldIds": [
+      "art",
+      "journalism",
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gp_wikipedia",
+      "kind": "wikipedia",
+      "title": "Gordon Parks",
+      "url": "https://en.wikipedia.org/wiki/Gordon_Parks"
+    },
+    {
+      "id": "src_gp_wikidata",
+      "kind": "wikidata",
+      "title": "Gordon Parks (Q365682)",
+      "url": "https://www.wikidata.org/wiki/Q365682"
+    },
+    {
+      "id": "src_gp_foundation_harlem",
+      "kind": "institution",
+      "title": "The Gordon Parks Foundation, \"Harlem Gang Leader, 1948\" -- Photography Archive entry documenting the specific working method (a week spent driving Leonard \"Red\" Jackson around Harlem in his own car before asking to photograph him) and a specific danger incident (taking refuge from a rival gang's ambush) during the assignment. Fully read.",
+      "url": "https://www.gordonparksfoundation.org/gordon-parks/photography-archive/harlem-gang-leader-1948"
+    },
+    {
+      "id": "src_gp_foundation_gothic",
+      "kind": "institution",
+      "title": "The Gordon Parks Foundation, \"Washington, D.C. and Ella Watson, 1942\" -- Photography Archive entry documenting the four-month embedded process behind American Gothic and the surrounding picture story. Fully read.",
+      "url": "https://www.gordonparksfoundation.org/gordon-parks/photography-archive/washington-d-c-and-ella-watson-1942"
+    },
+    {
+      "id": "src_gp_foundation_fashion",
+      "kind": "institution",
+      "title": "The Gordon Parks Foundation, \"Fashion, 1948-61\" -- Photography Archive entry documenting his models-in-motion technique and the 1950 Spanish fashion series' deliberate Goya/Velazquez compositional references. Fully read.",
+      "url": "https://www.gordonparksfoundation.org/gordon-parks/photography-archive/fashion-1948-61"
+    },
+    {
+      "id": "src_gp_foundation_bio",
+      "kind": "institution",
+      "title": "The Gordon Parks Foundation, \"Biography\" -- career timeline documenting his dated, individually-credited work across photography, authorship, film directing, and music composition. Fully read.",
+      "url": "https://www.gordonparksfoundation.org/gordon-parks/biography"
+    },
+    {
+      "id": "src_gp_time_lord",
+      "kind": "press",
+      "title": "TIME, \"Revisiting Gordon Parks' Classic Photo Essay 'Harlem Gang Leader'\" -- independent journalism citing exhibition curator Russell Lord's review of Parks' unpublished negatives, documenting that LIFE's editors reframed the published story toward \"fear, frustration and violence\" once Parks turned over his exposed film, diverging from his own stated redemption-focused intent. Fully read.",
+      "url": "https://time.com/3461593/revisiting-gordon-parks-classic-photo-essay-harlem-gang-leader/"
+    },
+    {
+      "id": "src_gp_johnson_mitchell",
+      "kind": "press",
+      "title": "Robert A. Mitchell, \"Soldier of Cinema: Reflections on Gordon Parks and The Learning Tree. My Interview with Kyle Johnson\" (2011) -- independent, named first-hand account from the film's lead actor describing Parks' casting process, on-set directing style, and deliberate effort to place Black crew on the production. Fully read.",
+      "url": "http://soldierofcinema.blogspot.com/2011/03/reflections-on-gordon-parks-and.html"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Gordon Parks Foundation's account of the 1948 Harlem Gang Leader assignment documents a specific access-building method, not an inferred people-skill: before ever raising his camera, Parks \"spent a week driving [gang leader Leonard 'Red'] Jackson and his companions around in his Buick Roadster..., learning where turf lines were drawn, weighing the value of honor and loyalty, and discovering the daily reality of death, before asking Jackson if he could use his camera.\" A concrete, time-invested solution to a specific access problem."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The same Foundation account documents a specific, dated incident of real physical danger sustained in service of the story: pursued by a rival gang (the Sabers) during a funeral ambush, \"Jackson and Parks... took refuge on the second floor of an abandoned building.\" A concrete, single-sourced incident -- kept at moderate score/confidence pending a second independent account of this specific event -- not an inference from his broader reputation for documenting hard subjects."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A sustained immersive-documentation practice appears across two independently-described projects, not one: the Gordon Parks Foundation documents Parks spending four months (1942) embedded in Ella Watson's home and community life around the American Gothic photograph (ultimately shooting roughly 90 images of her), and TIME's independent account of the 1948 Harlem Gang Leader assignment (citing exhibition curator Russell Lord) documents \"four hectic weeks\" spent with Red Jackson's gang, producing hundreds of exposures. Two independently-sourced, dated, quantified instances of the same working pattern."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Gordon Parks Foundation's account of his 1948-61 fashion work documents a specific, attributable technical departure: photographing models in motion in outdoor settings rather than posed in a studio, \"a technique that was soon heavily emulated\" across the field -- a concrete, credited stylistic innovation, not an inference from his general acclaim as a photographer."
+    },
+    "aesthetic_sensitivity": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same Foundation archive page documents a specific, deliberate art-historical reference in his 1950 Spanish fashion series: he \"cleverly paid homage to the framing and backgrounds of revered Spanish painters such as Goya and Velazquez by including cats and lapdogs\" -- a concrete, describable compositional choice. Single-sourced, kept at moderate confidence."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "TIME's independent account (citing curator Russell Lord's review of Parks' unpublished Harlem Gang Leader negatives) documents that once he \"turned over exposed film to LIFE, he had little control over the use (or misuse) and presentation of his pictures\" -- LIFE's editors built the published story around \"fear, frustration and violence,\" diverging from Parks' own redemption-focused framing of the same gang members as \"good, poor kids gone wrong\" (per contemporaneous 1946 Ebony reporting on his intent). A real, independently-documented instance of sustained loss of editorial control over his own work -- not smoothed into an uncomplicated advantage -- though he continued at LIFE for another two decades regardless."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Kyle Johnson, the film's lead actor, independently recounts (in a 2011 interview) that as director of The Learning Tree (1969), Parks made \"an extraordinary effort to get as many black technicians on the film as he could\" -- hiring Black drivers, caterers, and makeup artists and using the three-month production to help them qualify for union cards. A specific, named-witness account of a deliberate use of his directing authority to create concrete opportunity for others, not an inference from the film's historic firsts alone."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Johnson's independent, first-hand account of Parks' on-set directing style describes his \"direction was at the casting and hiring levels\" -- once cast, Parks would \"create the environment and let you do what you did\" rather than issue detailed line-reading instructions. A trust-based working relationship documented by the collaborator on the receiving end of it, single-sourced."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The same Johnson interview documents Parks deciding to cast him after a single, informal half-hour meeting at the Beverly Hills Hotel with no callback process, and describes a production where scenes were typically \"done in one or two takes, sometimes three or four, rarely seven or eight\" -- a specific, quantified account of a fast, low-deliberation working rhythm from a first-hand witness."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Gordon Parks Foundation's biography documents concrete, dated, individually-credited work across at least four distinct domains, not an inferred \"renaissance man\" label: photography (FSA/OWI, 1942-44; LIFE staff photographer, 1948-68), authorship (the semi-autobiographical novel The Learning Tree, 1963), film directing (writing, directing, producing and scoring The Learning Tree, 1969; directing Shaft, 1971), and music composition (his own film scores). A specific, named list of completed, attributable works in each domain."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gordon-parks-march-on-washington-1963.jpg",
+    "width": 1469,
+    "height": 1420,
+    "source": "U.S. National Archives and Records Administration (NARA), via Wikimedia Commons",
+    "license": "Public domain (U.S. government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Civil_Rights_March_on_Washington,_D.C._(Photographer_Gordon_Parks.)_-_NARA_-_542074.tif",
+    "attribution": "Photograph by Rowland Scherman, August 28, 1963 (U.S. Information Agency/National Archives) -- shows Parks, notepad and pencil in hand, at the March on Washington while on assignment. This is a photograph OF Parks taken by a different photographer, deliberately chosen over any of Parks' own (Foundation-managed, copyrighted) photographs. Cropped from the NARA original (2000x1420) to reduce a second, unrelated bystander at the frame's right edge; final crop (1469x1420) is already under the 1600px-long-edge convention so no further resize was needed.",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Civil_Rights_March_on_Washington,_D.C._(Photographer_Gordon_Parks.)_-_NARA_-_542074.tif"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New intake (2026-09-17). Wikidata identity (Q365682: \"American photographer, musician, writer and film director (1912-2006)\") verified live before scoring; slug/QID confirmed not already present in data-pipeline/candidates/ or the live roster. Two genuinely independent, non-self perspectives were fetched and read in full beyond Wikipedia orientation: (1) the Gordon Parks Foundation's own Photography Archive and Biography pages (institution -- the Foundation is not Parks' own voice, but a single institutional perspective, so its four cited pages count as ONE perspective), and (2) TIME magazine's independent journalism citing exhibition curator Russell Lord, plus a separately-independent 2011 interview with Kyle Johnson (lead actor, The Learning Tree), a first-hand named collaborator with no institutional relationship to the Foundation. That gives >=2 independent perspectives and >=1 substantive non-self behavioral source, per this project's evidence-discipline bar. Deliberately NOT used as scored evidence despite appearing in multiple secondary write-ups: the \"camera as a weapon\" quote and the Wilson Hicks/Life-office anecdote, both of which trace back to Parks' own memoir (A Choice of Weapons) retold by tertiary sources rather than to any independently-verified account -- kept out to avoid self-testimony masquerading as independent corroboration. Similarly, a widely-repeated claim that Alexander Liberman (Conde Nast editorial director) told Vogue editors to leave Parks' styling choices alone was found only in secondary pieces sourced \"according to Parks\" -- i.e., Parks' own retelling of what Liberman said, not an independently-documented statement -- and was excluded from scoring for the same reason. Per this project's subject-matter framing for Parks (photographer/filmmaker/artist as primary identity, not activist), all scored rows trace to his documented creative/professional working behavior -- access-building methods, production practices, technical/aesthetic decisions, directing style, and hiring choices -- not to the civil-rights/poverty subject matter of his photographs themselves, and nothing here infers personality from his 2006 death (prostate cancer) or any health condition."
+  }
+}

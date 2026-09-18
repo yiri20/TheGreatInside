@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edith-piaf",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Édith Piaf",
+    "aliases": [
+      "La Môme Piaf",
+      "Édith Giovanna Gassion"
+    ],
+    "wikidataId": "Q1631",
+    "birthYear": 1915,
+    "deathYear": 1963,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_piaf_wikipedia",
+      "kind": "wikipedia",
+      "title": "Édith Piaf -- orientation only, not used as scored evidence for any row",
+      "url": "https://en.wikipedia.org/wiki/%C3%89dith_Piaf"
+    },
+    {
+      "id": "src_piaf_wikidata",
+      "kind": "wikidata",
+      "title": "Édith Piaf (Q1631) -- verified live: label 'Édith Piaf', description 'French singer (1915-1963)'",
+      "url": "https://www.wikidata.org/wiki/Q1631"
+    },
+    {
+      "id": "src_piaf_burke_book",
+      "kind": "biography",
+      "title": "Carolyn Burke, No Regrets: The Life of Edith Piaf (Knopf/Bloomsbury, 2011) -- serious independent English-language biography, drawing on previously untapped Piaf documents. NOT read as full text this cycle; accessed via a professional review (Kirkus) that engages its specific claims, and via a press obituary (of Georges Moustaki, see src_piaf_moustaki_wwno below) that quotes a specific documented anecdote directly from Burke's book. Counted as ONE perspective regardless of how many secondary pieces cite it, per this rubric's same-author rule.",
+      "url": "https://www.kirkusreviews.com/book-reviews/carolyn-burke/no-regrets-edith-piaf/"
+    },
+    {
+      "id": "src_piaf_dumont_yahoo",
+      "kind": "press",
+      "title": "\"Charles Dumont, songwriter whose hit Non, Je Ne Regrette Rien gave Edith Piaf her comeback\" -- independent press account, opened and read in full, non-self and behavioral: gives a specific dated (5 October 1960) account of Dumont and lyricist Michel Vaucaire's visit to Piaf's Boulevard Lannes apartment, with direct quotes of her behavior and words during the audition of the song that became her 1960s comeback anthem.",
+      "url": "https://www.yahoo.com/entertainment/charles-dumont-songwriter-whose-hit-155431102.html"
+    },
+    {
+      "id": "src_piaf_moustaki_wwno",
+      "kind": "press",
+      "title": "\"Georges Moustaki, Who Wrote Songs For Edith Piaf, Dies\" (WWNO, NPR-affiliate) -- independent press obituary, opened and read in full, non-self and behavioral, explicitly citing and quoting Carolyn Burke's biography for the specific documented anecdote of how Piaf and Moustaki wrote the lyric to \"Milord\" together (the paper-napkin/\"Start from there\" episode).",
+      "url": "https://www.wwno.org/2013-05-24/georges-moustaki-who-wrote-songs-for-edith-piaf-dies"
+    },
+    {
+      "id": "src_piaf_aznavour_artdependence",
+      "kind": "press",
+      "title": "\"It was not events that marked my life and career; it was more the people I met\" -- an interview with Charles Aznavour, ArtDependence Magazine -- independent press interview, opened and read in full, self-testimony FROM AZNAVOUR (not from Piaf) describing her specific mentorship of him: encouraging him to write his own chansons, giving him performance opportunities (Montreal), and her core artistic lesson to him, directly quoted.",
+      "url": "https://artdependence.com/articles/it-was-not-events-that-marked-my-life-and-career-it-was-more-the-people-i-met-an-interview-with-charles-aznavour"
+    },
+    {
+      "id": "src_piaf_montand_radiomontmartre",
+      "kind": "press",
+      "title": "\"Quand Édith Piaf découvre Yves Montand: l'histoire d'un pari qui a changé la chanson française\" -- independent French press account, opened and read in full, non-self and behavioral: documents specific, concrete changes she made to Montand's act (gestures, elocution, costume, repertoire, stage name) and describes her rehearsal method as requiring him to restart passages repeatedly until she judged the interpretation correct, with Montand's own acknowledgment quoted (\"She taught me everything\").",
+      "url": "https://www.radiomontmartre.fr/news/people/3383/yves-montant-decouvert-par-edith-piaf-l-histoire-d-un-pari-qui-a-change-la-chanson-francaise"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 79,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, non-self, behavioral sources document a repeated, sustained quality-insistence pattern across two separate protege relationships spanning roughly 15 years apart: the radiomontmartre.fr account of the 1944 Montand rehearsals describes her requiring him to restart passages 'dozens of times until obtaining the interpretation she judged perfect'; the Yahoo Entertainment account of the October 1960 Dumont audition independently documents her having him play 'Non, je ne regrette rien' five or six times before rendering a verdict. Two separately-sourced, separately-dated instances of the same underlying standard (repeated iteration until a specific quality bar is met), not one incident retold -- kept below the 85+ band since both instances concern her judging OTHERS' work/performance rather than a documented account of her own individual rehearsal habits."
+    },
+    "leadership_drive": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independent non-self sources document her actively directing and reshaping the careers of named younger performers, not merely 'discovering' them: radiomontmartre.fr describes her personally correcting Montand's gestures, elocution, costume and repertoire and giving him his stage name; Aznavour's own testimony (ArtDependence) describes her giving him performance opportunities in Montreal and pushing him to write his own material; the Dumont/Yahoo account documents a sustained three-year, ~30-song working collaboration she initiated and drove following the October 1960 audition. Three named proteges, three independently-sourced instances -- kept at documented/moderate-high rather than higher since each instance is drawn from a single source apiece."
+    },
+    "decisiveness": {
+      "score": 73,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Yahoo Entertainment account of the 5 October 1960 Dumont/Vaucaire visit documents a specific, dated, directly-quoted incident of fast and confident judgment at a high-stakes career moment: after having Dumont play the song repeatedly, she declared it 'magnificent, wonderful,' stated it was 'made for her,' and would be her 'resurrection' -- committing on the spot to build her Olympia comeback around an unproven song from a little-known songwriter. A single documented episode, so capped below the 85+ band per this rubric's single-episode rule rather than generalized into an all-purpose decisiveness trait."
+    },
+    "collaboration": {
+      "score": 69,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent non-self sources document sustained, hands-on co-creative partnerships with two different songwriters: the WWNO obituary, citing Carolyn Burke's biography directly, describes Piaf and Georges Moustaki jointly working out the lyric to 'Milord' together (Moustaki drafting words on a napkin, Piaf selecting and directing: 'Start from there'); the Yahoo/Dumont account documents a three-year, ~30-song collaborative relationship following the 1960 audition, including Piaf inscribing an album to thank him personally for the songs he wrote for her. Two separately-sourced, separately-dated collaborative relationships, not the same incident retold."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge on a documented anti-conventional performance choice rather than mere reputation: the Kirkus review of Burke's biography describes her deliberate retention of the lower-class 'titi' accent over standard Parisian pronunciation as a 'non-traditional, anti-theatrical... anti-bourgeois' artistic choice, and Aznavour's own testimony (ArtDependence) independently describes her core, actively-taught artistic principle as staying 'true to my own self when performing, and not become somebody else.' Scored strong_inference rather than documented because connecting these two specific, independently-sourced facts into a single 'originality' trait is one interpretive step beyond what either source states directly on its own."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edith-piaf-harcourt-1950.jpg",
+    "width": 540,
+    "height": 721,
+    "source": "Studio Harcourt (Paris), via Wikimedia Commons / RMN-Grand Palais",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edith_Piaf_Harcourt_1950_1.jpg",
+    "attribution": "Studio Harcourt, Paris, 1950",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Edith_Piaf_Harcourt_1950_1.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q1631) verified live before scoring: label 'Édith Piaf', description 'French singer (1915-1963)' -- matches intended subject. Research deliberately excluded all tabloid/scandal material about her health, addiction, car accidents, and bereavements per explicit task instruction; no row here is scored from, or references, her personal/health history. Five sources beyond Wikipedia/Wikidata orientation: Carolyn Burke's independent biography No Regrets (accessed via a Kirkus review engaging its specific claims, plus a WWNO/NPR-affiliate obituary quoting a specific documented anecdote directly from the book -- counted as one perspective per the same-author rule), Charles Aznavour's own testimony in an ArtDependence interview (non-self relative to Piaf -- Aznavour describing Piaf's behavior, not Piaf's self-testimony), a Yahoo Entertainment press account of the dated, quoted October 1960 Dumont/'Non, je ne regrette rien' audition episode, and a radiomontmartre.fr press account of her documented rehearsal/mentorship methods with Yves Montand. This clears the >=2 independent-perspective / >=1 non-self-behavioral bar several times over (Aznavour's testimony, the Dumont incident reporting, and the Montand rehearsal reporting are all independently-sourced, non-self, and behavioral). Attempts to reach further primary press coverage and additional biography reviews (New Republic's review of Burke, the Australian Book Review's review by Colin Nettelbeck, the CBC Radio and Paris Review pieces on Aznavour, and the Forward's Moustaki obituary) were blocked by paywalls/403s/timeouts this cycle and are NOT listed as consulted sources or used anywhere in this file. Five rows scored (mastery_orientation, leadership_drive, decisiveness, collaboration, creative_originality), each traced to a specific, dated, independently-sourced documented incident or direct quote -- none scored from her fame, record sales, or 'La Vie en Rose'/'Non, je ne regrette rien' as achievements per se (those are outcome facts, not behavior). No tag exists in the live tag.* vocabulary for 'launched/mentored other performers' -- proposed 'mentor' via newTagProposals rather than forcing an ill-fitting existing tag; tagIds kept to 'self_taught' only (her lack of formal training before Louis Leplée's 1935 discovery, and mentors then improving her diction per the Kirkus/Burke account, is directly evidenced). Portrait: Studio Harcourt's 1950 studio portrait (a headshot rather than the same studio's full-length gown portrait also available, for consistency with this roster's head/shoulder portrait convention), verified Public Domain via the Wikimedia Commons imageinfo API (License: Public domain, Usage Terms: Public domain, Artist: Studio Harcourt) against the exact file used. Downloaded directly via curl at its native Commons resolution (540x721) -- already under the 1600px-long-edge convention, no resize needed."
+  },
+  "localization": {}
+}

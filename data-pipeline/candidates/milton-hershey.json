@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "milton-hershey",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Milton Hershey",
+    "aliases": ["Milton Snavely Hershey"],
+    "wikidataId": "Q737720",
+    "birthYear": 1857,
+    "deathYear": 1945,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["entrepreneur"],
+    "fieldIds": ["business", "education"],
+    "impactDomains": ["entrepreneurial", "industrial", "social", "wealth_creation"],
+    "tagIds": ["founder", "career_changer", "overcame_adversity", "self_taught"],
+    "newTagProposals": [],
+    "archetypeIds": ["entrepreneurial_builder"]
+  },
+  "sources": [
+    {
+      "id": "src_hershey_wikipedia",
+      "kind": "wikipedia",
+      "title": "Milton S. Hershey",
+      "url": "https://en.wikipedia.org/wiki/Milton_S._Hershey"
+    },
+    {
+      "id": "src_hershey_wikidata",
+      "kind": "wikidata",
+      "title": "Milton S. Hershey (Q737720)",
+      "url": "https://www.wikidata.org/wiki/Q737720"
+    },
+    {
+      "id": "src_hershey_archives",
+      "kind": "institution",
+      "title": "Hershey Community Archives, \"Milton Snavely Hershey, 1857-1945\" -- the official archive of the Hershey companies/school; a subject-affiliated institutional source, used cautiously per this project's hagiography caution, but cited only for specific dated facts and directly-quoted employee testimony, not for characterization. Fully read in this cycle.",
+      "url": "https://hersheyarchives.org/encyclopedia/hershey-milton-snavely-1857-1945/"
+    },
+    {
+      "id": "src_hershey_abhc_hoover",
+      "kind": "institution",
+      "title": "Gary Hoover, \"Milton Hershey: Chocolate King, Confectioner, and Creator\", The American Business History Center (originally published in the Archbridge Institute's \"American Originals\" series, 2020) -- an independent, named-author, nonprofit business-history essay, NOT affiliated with the Hershey company/school/trust, drawing substantially on Michael D'Antonio's scholarly biography \"Hershey\" (2006). Fully read in this cycle.",
+      "url": "https://americanbusinesshistory.org/milton-hershey-chocolate-king-confectioner-and-creator/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 88,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Hershey's candy career began with three consecutive commercial failures across three cities over roughly a decade: a Philadelphia confectionery (1876-1882) that 'went bankrupt in 1882' after his uncles withdrew financial support and advised him to close (Hershey Community Archives); Gary Hoover's independent American Business History Center essay corroborates and adds detail -- 'wholesale customers paid slowly, and suppliers had tight credit terms,' and by 1881, after 'six years of losses and illness,' his own relatives cut him off. A subsequent Chicago venture with his father 'fell apart when [his father] endorsed a friend's bad loan' (Hoover), and a New York City shop (1883-1886) failed when equipment suppliers demanded $10,000 he did not have, forcing him back to Lancaster 'with so little in his pockets that he had to ask [former employee William] Lebkicher to pay the railroad to release his crates' (Hoover). Only after this third collapse did the Lancaster Caramel Company succeed -- which he then sold outright in 1900 to re-commit entirely to the still-unproven chocolate business. Two independently-read sources (a subject-affiliated institutional archive and an independent, named-author business-history essay drawing on a separate scholarly biography) corroborate the same three-city failure sequence with overlapping but non-identical specific detail, clearing the extreme-score bar. Scored dual_edged rather than a flattering advantage-only trait: the same pattern documents real relational cost -- his own relatives 'shunned' him afterward, viewing him 'as an irresponsible drifter' (Hershey Community Archives) -- and years of genuine financial and physical distress, not merely a triumphant setup for later success."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "At the 1893 World's Columbian Exposition in Chicago, Hershey saw German chocolate-making machinery and, per Hoover's independent essay, told a cousin, 'Caramels are a fad but chocolate is permanent. I am going to make chocolate' -- then had the exact machines shipped from Chicago rather than waiting on new equipment from Germany. He then acted on this conviction concretely rather than diversifying: in 1900 he sold the Lancaster Caramel Company -- the business that had finally made him 'one of Lancaster's most substantial citizens' after a decade of failure (Hershey Community Archives) -- for $1 million to commit entirely to milk chocolate, a product his own company had not yet perfected at the time of the sale. Both independently-read sources confirm the same 1900 full-exit decision. A specific, dated strategic bet away from proven, secured income toward an unproven product line, not an inference drawn from overall business success."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Hershey Community Archives records that beginning in 1898, 'Hershey and a few chosen employees worked long hours side by side, and into the night, until just the right blend of ingredients was found' for milk chocolate, and quotes a contemporary employee's recollection: 'Nobody told Mr. Hershey how to make milk chocolate. He just found out the hard way.' A specific, sustained, hands-on trial-and-error process -- milk chocolate did not reach market until late 1900 -- rather than a single flash of insight. Corroborated in general character, though not this exact incident, by Hoover's independent essay's separate account of Hershey's habitual direct, physical involvement in production (see discipline row below). Single-sourced for this specific formula-development episode, so kept at moderate rather than high confidence."
+    },
+    "perfectionism": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Hoover's independent essay documents specific quality-control incidents: when a cousin, William Blair's, replacement on the production line tampered with product integrity, Hershey fired the replacement and rehired Blair; more generally Hershey 'had little patience' for defects, was 'quick to see' them, and 'would catch an experienced worker in a mistake and would have that worker fired.' Scored dual_edged, not a flattering advantage-only trait: the same essay states plainly that 'Hershey had a temper and could turn on a dime when he saw something he didn't like' -- a real, sourced interpersonal cost (summary firing over single mistakes) alongside the standard it enforced. Single-sourced for this specific detail (the Hershey Community Archives does not independently corroborate this particular episode), so kept at moderate confidence."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Hoover's independent essay documents sustained, personally physical work discipline across decades, not just at the start of his career: in the early New York venture he worked 'seven days a week... making candies at night and selling them by day'; later, as an established and wealthy factory owner, he would still 'jump into a production line to help out, willing to work the long twelve- to fourteen-hour days alongside his workers,' and took meals 'eating with his workers in the cafeteria.' A specific, sustained, multi-decade pattern of personal labor rather than delegated ownership, from one independently-read source."
+    },
+    "impact_motivation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Milton and Catherine Hershey, who had no biological children, founded the Hershey Industrial School (now Milton Hershey School) in 1909 with an initial gift of farmland. Following Catherine's death in 1915, Milton transferred his entire personal fortune -- including his controlling ownership stake in the Hershey Chocolate Company, then valued at $60 million -- into the school's trust in 1918. Both independently-read sources corroborate the same striking detail: this was not a publicized gift. Per the Hershey Community Archives, 'the gift was not made public until 1923'; Hoover's independent essay confirms separately that 'there were no formal announcements, and it was five years before the public learned that Hershey had given nearly everything he owned to the trust.' Two independent sources agreeing on a five-year deliberate concealment of a fortune-scale gift is a specific, verifiable behavioral fact -- not an inference from 'philanthropy' in the abstract, and the secrecy itself argues against a status-seeking motive for the gift. Attempts this cycle to reach the original 1923 New York Times coverage directly (rather than via the Hershey School's own retrospective blog) were not completed, so that specific press account is deliberately not used as a scored source here."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Hoover's independent essay documents Hershey's personal, granular oversight of the company town of Hershey, PA -- involved 'in everything -- from street and shop design to planning the neighborhoods' during construction, and later touring the finished town 'making notes of unkempt lawns or overturned garbage pails.' A specific, concrete practice, not an inference from the fact that the town was built. Single-sourced for this exact detail -- the Hershey Community Archives corroborates the general town-building project but not this specific granular-inspection behavior -- so kept at moderate confidence."
+    },
+    "decisiveness": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Hoover's essay documents two contrasting negotiation patterns from Hershey's own career. In routine dealings he was 'honest and straightforward,' would 'take the time to hear what the other party had to offer, would think about it for a few minutes and accept' -- 'no haggling at the final deal.' Yet in the single highest-stakes negotiation of his early career, selling the Lancaster Caramel Company, 'Milton Hershey held out. Anxious to sell, but on the advice of his lawyer, Milton continued to wait' while competing bids rose from $500,000 to $1 million before he accepted. Scored dual_edged and at strong_inference rather than a flat 'decisive' trait: the documented pattern is genuinely mixed -- fast, low-friction acceptance in ordinary matters alongside calculated, patient holding-out at the moment of highest stakes -- and a single essay's account of both episodes is the basis, not two independently corroborated incidents."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/milton-hershey-c1905.jpg",
+    "width": 600,
+    "height": 808,
+    "source": "Hershey Community Archives (original), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Milton_S._Hershey_c1905.jpg",
+    "attribution": "Unknown photographer, c. 1905 -- Hershey Community Archives",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Milton_S._Hershey_c1905.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q737720) verified live before scoring, matches 'American businessman (1857-1945)'. Sources actually read in full this cycle: the Hershey Community Archives encyclopedia entry (subject-affiliated institutional source, used cautiously per this project's hagiography-skepticism instruction -- cited only for specific dated facts and directly-quoted contemporaneous employee testimony, never for interpretive characterization), and Gary Hoover's 'Milton Hershey: Chocolate King, Confectioner, and Creator' essay published by the independent nonprofit American Business History Center (originally in the Archbridge Institute's 'American Originals' series), which itself draws substantially on Michael D'Antonio's scholarly biography 'Hershey: Milton S. Hershey's Extraordinary Life' (Simon & Schuster, 2006; reviewed by the Washington Post Book World as 'thorough and fair'). D'Antonio's biography itself was not directly accessed this cycle (no full-text access found); its content here is only as reflected in Hoover's independent essay, not independently verified against the original book. An attempt to reach the original November 1923 New York Times coverage of the Hershey Trust announcement (a real, dated, independent press event corroborated by both sources above) was made but only reached it via the Milton Hershey School's own retrospective blog rather than the original NYT archive or a fully independent secondary account (a Snopes.com fact-check on the same story returned a paywall this cycle) -- that specific press account is therefore deliberately NOT cited as a scored source, to avoid relying on subject-affiliated retelling of primary press coverage. Every scored row traces to a specific, dated, concrete documented behavior (three named failed ventures across three cities; the 1893 machinery purchase and 1900 full-exit sale; the 1898 chocolate-formula trial-and-error episode; the Blair quality-control firing/rehiring; the daily physical-labor pattern; the 1918 stock donation and its five-year concealment; the town-inspection habit; the contrasting negotiation patterns) -- none is scored from wealth, fame, or company success alone, and none infers anything from health, bereavement, or private conditions. Two genuinely independent non-self provenance perspectives are used throughout (the institutional archive and the independent nonprofit business-history essay), clearing this project's evidence-discipline bar."
+  },
+  "computedEligibility": {
+    "scoredAttributeCount": 8,
+    "averageConfidence": 0.59875,
+    "coverage": 0.24087591240875914,
+    "eligible": false,
+    "computedAt": "2026-09-17T00:00:00Z"
+  },
+  "localization": {}
+}

@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tu-youyou",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tu Youyou",
+    "aliases": [
+      "Youyou Tu",
+      "屠呦呦"
+    ],
+    "wikidataId": "Q462843",
+    "birthYear": 1930,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ty_wikipedia",
+      "kind": "wikipedia",
+      "title": "Tu Youyou",
+      "url": "https://en.wikipedia.org/wiki/Tu_Youyou"
+    },
+    {
+      "id": "src_ty_wikidata",
+      "kind": "wikidata",
+      "title": "Tu Youyou (Q462843)",
+      "url": "https://www.wikidata.org/wiki/Q462843"
+    },
+    {
+      "id": "src_ty_nobel_bio",
+      "kind": "biography",
+      "title": "\"Tu Youyou -- Biographical,\" NobelPrize.org -- a detailed autobiographical account written by Tu herself at the time of the 2015 award and published by the Nobel Foundation. SELF-TESTIMONY (one perspective, per this project's rule), but unusually specific and dated rather than vague. Fully read.",
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/"
+    },
+    {
+      "id": "src_ty_nobel_facts",
+      "kind": "institution",
+      "title": "\"Tu Youyou -- Facts,\" NobelPrize.org -- the Nobel Committee's own independent factual summary (affiliation, prize motivation, and real-world impact scale). Fully read.",
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/facts/"
+    },
+    {
+      "id": "src_ty_lasker",
+      "kind": "award_body",
+      "title": "Lasker Foundation, \"Artemisinin therapy for malaria\" -- the award-granting body's independent institutional account of her 2011 Lasker~DeBakey Clinical Medical Research Award, describing her specific technical decisions in the extraction-method redesign. Fully read.",
+      "url": "https://laskerfoundation.org/winners/artemisinin-therapy-for-malaria/"
+    },
+    {
+      "id": "src_ty_jci",
+      "kind": "press",
+      "title": "\"From branch to bedside: Youyou Tu is awarded the 2011 Lasker~DeBakey Clinical Medical Research Award for discovering artemisinin as a treatment for malaria,\" Journal of Clinical Investigation (2011), via PMC -- independent scholarly/journalistic account of her role and the Project 523 team structure. Fully read.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3195493/"
+    },
+    {
+      "id": "src_ty_caixin_slate",
+      "kind": "press",
+      "title": "Zhang Yan, \"All China Wanted Was a Nobel Prize\" (Caixin, republished by Slate, Oct. 23, 2015) -- independent journalism quoting named colleagues on the individual-vs-collective credit controversy: Zhang Jianfang (Project 523's former deputy director), Lu Bai (professor, Tsinghua University School of Medicine), Jin Dongyan (professor, University of Hong Kong), Nobel Committee secretary Goran Hansson, and Tu's own on-record response to the New York Times. Fully read.",
+      "url": "https://slate.com/human-interest/2015/10/chinas-nobel-prize-winner-tu-youyou-faces-criticism-for-malaria-research.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Tu's own Nobel Foundation account documents a specific, dated pattern of resuming work after failure rather than abandoning a lead: after early dichroine trials were stopped for severe side effects and 'multiple experiments and failures' with over a hundred herb extracts through mid-1971 yielded 'few promising results,' she 're-focused on reviewing the traditional Chinese medical literature' rather than dropping the project. The general character of this large-scale, iterative screening effort (though not this specific narrative beat) is independently corroborated by the Lasker Foundation's and the JCI piece's accounts of the same extraction-method redesign that followed. Primarily self-sourced for the specific sequence of events."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent sources converge on the same specific analytical move. Tu's own account describes isolating one sentence in Ge Hong's circa-340 CE Handbook of Prescriptions for Emergencies -- 'a handful of Qinghao immersed in two liters of water, wring out the juice, and drink it all' -- and reasoning from its cold, non-boiled preparation that 'heating during extraction might have destroyed the active components,' leading her to redesign the extraction at reduced temperature. The Lasker Foundation's independent institutional account confirms the same underlying technical decision ('redesigned the extraction process, performing it at low temperatures with ether as the solvent') and adds a detail her own account does not emphasize -- tracking the active compound specifically to the leaves and identifying correct harvest timing. Two independent perspectives on the same specific, dated technical decision."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The same textual re-analysis represents a documented departure from the team's established high-temperature extraction convention, sustained despite the 'inconsistent and not reproducible' results the standard method had been giving. Scored as strong_inference rather than documented because the 'independent thinking' framing -- as distinct from the specific technical decision already scored under analytical_rigor -- is this rubric's own interpretive layer on the same, mostly self-sourced narrative."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "Tu's own Nobel Foundation account states she personally 'asked to take the extracts voluntarily' and that, in July 1972, she was among three team members who 'took the extracts under close monitoring in the hospital' ahead of wider human trials -- a specific, dated claim of personal medical risk-taking. EVIDENCE-DISCIPLINE NOTE: this specific detail (that she was personally among the first human subjects, not merely that the team as a whole conducted early safety testing) was NOT independently corroborated this cycle. The Lasker Foundation's own independent account explicitly describes the team testing the extract 'on 21 people with malaria' without stating Tu was among an earlier self-test group, and the JCI piece's version of the claim is itself a direct quote of Tu's own words rather than an independent confirmation. Deliberately capped at strong_inference and a moderate score/confidence, below what a fully independently-corroborated version of this widely-repeated claim would support, because on this specific point it remains self-testimony only -- the one perspective this project's rubric caps and does not let satisfy the non-self requirement alone."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Tu's own account describes a specific, quantified research sprint at the project's outset: reviewing 'over two thousand herbal, animal and mineral prescriptions' and distilling '640 prescriptions' into a brochure she circulated nationally within three months of being assigned to head Project 523 in 1969. The general character of this large-scale screening effort (though not the specific 2,000/640/three-month figures) is independently corroborated by the Caixin/Slate account's description of 'a large-scale screening of herbal remedies in malaria-infected animals' conducted by her team."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Independent journalism (Zhang Yan, Caixin/Slate, 2015) documents sustained, real, named professional friction over individual credit that is not smoothed into an uncomplicated triumph narrative. Zhang Jianfang, Project 523's former deputy director, stated on record that the artemisinin success was a 'collective honor' belonging to the roughly 500-researcher, 60-institute program, not an individual one; Tu has never been elected to the Chinese Academy of Sciences and does not hold a doctoral degree, which University of Hong Kong biology professor Jin Dongyan cited on record as evidence the Academy's selection process is 'flawed.' Tu's own on-record response to the New York Times, quoted in the same piece, is measured rather than defensive: 'Everyone is entitled to his opinion... We all believed in collectivism... Of course, I'd be nothing without my team.' A genuinely two-sided, independently-documented pattern of sustained institutional friction, scored dual-edged rather than as a pure advantage."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Tu's own account frames the team's decision to accelerate safety testing explicitly around patient urgency rather than procedural caution: 'Our desire to get the clinical trial completed and have the medicine for our patients as soon as possible was the real driving force behind our action.' Independently, the Nobel Committee's own factual summary corroborates the resulting real-world scale ('Drugs based on artemisinin have led to the survival and improved health of millions of people'), and her own on-record 2015 statement to the New York Times (via Caixin/Slate) separately downplays individual-credit motivation ('All I wanted was to do good work at my job'). Scored strong_inference because the motivational framing itself remains primarily self-sourced even though the resulting impact scale is independently confirmed."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/tu-youyou-nobel-stockholm-2015.jpg",
+    "width": 1192,
+    "height": 1600,
+    "source": "Bengt Nyman, via Flickr and Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 (CC BY 2.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Photograph by Bengt Nyman, Stockholm, December 6, 2015 (Nobel Prize ceremony week) -- cropped by Nyman from his own original Flickr upload; downloaded from Wikimedia Commons and resized from 1409x1892 to 1192x1600 to meet the 1600px-long-edge convention.",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:D810_4987_Tu_Youyou,_medicine_(22945001843)_(cropped_2).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New intake (2026-09-17). Wikidata identity (Q462843: 'Chinese medical scientist,' born 30 December 1930) verified LIVE via direct fetch of wikidata.org/wiki/Q462843 before scoring, specifically to resolve a conflicting external signal (a search result had suggested a 2026 death year). The live Wikidata record carries a birth date (P569, 30 December 1930) and NO death date property (P570) -- isLiving is set to true and deathYear is omitted accordingly. The NobelPrize.org Facts page (fetched the same day) is independently consistent with this (no death indication; affiliation given in the present tense as 'Chief Scientist' at the China Academy of Traditional Chinese Medicine). Slug/QID confirmed not already present in data-pipeline/candidates/ or the live roster. Four genuinely independent, non-self perspectives were fetched and read in full beyond Wikipedia orientation, well past this project's >=2-independent/>=1-non-self bar: the Nobel Committee's own Facts page (institution), the Lasker Foundation's independent award-body account, the JCI/PMC scholarly piece (press), and Zhang Yan's independent Caixin/Slate journalism quoting multiple named colleagues on the credit controversy (press). Tu's own detailed Nobel Foundation autobiographical account was also fully read and used (self-testimony, capped at one perspective, never used alone to satisfy the non-self requirement). Evidence-discipline note carried into the risk_tolerance row itself: the widely-repeated claim that Tu personally self-tested the extract before wider trials could NOT be independently corroborated this cycle beyond her own telling (the Lasker Foundation's own account explicitly stops short of naming her among the early self-test group), so that row is deliberately scored down and capped at strong_inference rather than accepted at face value -- this project's evidence-integrity bar over a dramatic, oft-repeated story beat. Nothing here infers personality from her 1946 tuberculosis diagnosis (mentioned only in her own account as a reason she chose medical study, not used as scored evidence) or from any other health/medical history, per this project's rule against inferring traits from health or disability."
+  }
+}

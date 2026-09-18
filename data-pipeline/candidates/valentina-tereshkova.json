@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "valentina-tereshkova",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Valentina Tereshkova",
+    "aliases": [
+      "Valentina Vladimirovna Tereshkova",
+      "Valentina Nikolayeva-Tereshkova"
+    ],
+    "wikidataId": "Q44371",
+    "birthYear": 1937,
+    "isLiving": true,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "technological",
+      "historical",
+      "social"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tereshkova_wikipedia",
+      "kind": "wikipedia",
+      "title": "Valentina Tereshkova -- orientation only, not cited as scored evidence.",
+      "url": "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+    },
+    {
+      "id": "src_tereshkova_wikidata",
+      "kind": "wikidata",
+      "title": "Valentina Tereshkova (Q44371) -- verified live before scoring",
+      "url": "https://www.wikidata.org/wiki/Q44371"
+    },
+    {
+      "id": "src_tereshkova_kamanin_diaries",
+      "kind": "archive",
+      "title": "Nikolai Kamanin, personal diaries (published in Russian as \"Skrytyi Kosmos\"/\"Hidden Space\", 1995-2001), compiled/translated summary hosted on astronautix.com (ed. Mark Wade) -- Kamanin was the officer directly in charge of cosmonaut selection and training; a near-primary, non-self, dated day-by-day source. Fetched and read in full this session (the full ~874KB page, searched programmatically for every Tereshkova-specific entry with its date header).",
+      "url": "http://www.astronautix.com/k/kamanindiaries.html"
+    },
+    {
+      "id": "src_tereshkova_astronautix_bio",
+      "kind": "archive",
+      "title": "\"Tereshkova\" biographical entry, astronautix.com (ed. Mark Wade) -- same site/compiler as the Kamanin diaries page above (counted as the same provenance perspective, not a second independent one). Fetched and read in full.",
+      "url": "http://www.astronautix.com/t/tereshkova.html"
+    },
+    {
+      "id": "src_tereshkova_americaspace_common_touch",
+      "kind": "press",
+      "title": "Ben Evans, \"'The Common Touch': Selecting the First Woman Cosmonaut\", AmericaSpace -- independent space-history journalism, part 1 of a two-part series on Tereshkova's selection and training. Fetched and read in full.",
+      "url": "https://www.americaspace.com/2013/06/08/the-common-touch-selecting-the-first-woman-cosmonaut/"
+    },
+    {
+      "id": "src_tereshkova_americaspace_on_the_edge",
+      "kind": "press",
+      "title": "Ben Evans, \"'On the Edge': The Legacy of Valentina Tereshkova\", AmericaSpace -- part 2 of the same series, covering the Vostok 6 flight's specific conduct issues and her post-flight career. Fetched and read in full.",
+      "url": "https://www.americaspace.com/2013/06/09/on-the-edge-the-legacy-of-valentina-tereshkova/"
+    },
+    {
+      "id": "src_tereshkova_nasa_history",
+      "kind": "institution",
+      "title": "\"Sally Ride and Valentina Tereshkova: Changing the Course of Human Space Exploration\", NASA History Office -- independent institutional account, quoting Kamanin's selection-era assessment of her directly. Fetched and read in full.",
+      "url": "https://www.nasa.gov/history/sally-ride-and-valentina-tereshkova-changing-the-course-of-human-space-exploration/"
+    },
+    {
+      "id": "src_tereshkova_rferl",
+      "kind": "press",
+      "title": "\"Russia's First Woman Cosmonaut Turns 70\", Radio Free Europe/Radio Liberty -- independent press account reporting Tereshkova's own 2007 disclosure (to Rossiyskaya Gazeta) of the Vostok 6 descent-program error. Fetched and read in full.",
+      "url": "https://www.rferl.org/a/1075100.html"
+    },
+    {
+      "id": "src_tereshkova_russianspaceweb",
+      "kind": "press",
+      "title": "Anatoly Zak, \"Missions of Vostok-5 and Vostok-6 spacecraft\", russianspaceweb.com -- independent space historian/journalist, used for flight-conduct context and mythbusting (confirms the flight was not life-threatening despite documented issues). Fetched and read in full.",
+      "url": "https://www.russianspaceweb.com/vostok5_6.html"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Tereshkova's own account -- disclosed publicly only in 2007, around her 70th birthday, in an interview with Rossiyskaya Gazeta, reported independently by RFE/RL (src_tereshkova_rferl) and cross-confirmed by Wikipedia's own citation trail to a March 2007 Kommersant piece -- states she noticed on the first day of the Vostok 6 flight that the automatic descent-orientation program had been set up incorrectly, in a configuration that would have carried the capsule to a higher orbit rather than back toward Earth on retrofire, and reported the discrepancy to chief designer Sergei Korolev, after which ground control supplied corrected data before reentry. This is a specific, dated, technically detailed claim -- but self-testimony only; no independent third-party account of the technical discovery itself (as opposed to the later correction and Korolev's involvement) was found and directly read this session, so score and confidence are held moderate rather than pushed toward the high band a fully independently-corroborated version of this incident would support."
+    },
+    "discipline": {
+      "score": 50,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Kamanin's diary (src_tereshkova_kamanin_diaries) records, for 19 June 1963 (reentry day), that Tereshkova \"manually oriented the spacecraft for re-entry easily and held the position for 15 minutes. She was very happy with the result\" -- a specific, positive instance of sustained procedural competence under a demanding manual task. The same diary's account of the retrofire sequence minutes later records the opposite: she \"did not call out each event as required\" -- no report of successful solar orientation, retrofire, or service-module jettison reached the command post, leaving ground controllers in suspense with no communication from the capsule. Kamanin's entry for 12 July 1963 separately records Korolev summoning her and copilot Bykovsky to personally explain, among other things, her \"failure to complete some assigned tasks\" during the flight. A further complicating data point from the same diary, dated 29 November 1962: of the four finalist candidates, \"only Tereshkova did not receive the highest marks\" on the final academic examination, attributed to her being \"too nervous and excited during the examination.\" Scored dual-edged from this genuinely mixed, single-source-but-multi-incident pattern -- documented competence on one demanding procedure, documented non-compliance with a required protocol and evaluator concern on others -- rather than smoothed into one flattering or unflattering direction."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, non-self sources converge on a specific pattern. Fellow cosmonaut Yuri Gagarin is quoted, via AmericaSpace's account of the training period (src_tereshkova_americaspace_common_touch), describing that Tereshkova \"tackled her job stubbornly and with tenacity, poring over books and training materials in her spare time.\" Independently, Kamanin's diary (src_tereshkova_kamanin_diaries), dated 3 July 1963, documents that after the flight she personally and repeatedly pushed for a posthumous Hero of the Soviet Union medal (and the accompanying family financial benefits) for cosmonaut parachute trainer Nikitin, over explicit, stated irritation from the military command -- who felt, per the same entry, that the award was undeserved since \"Nikitin died due to his own error and killed another parachutist in the process\" -- and, per the diary, \"Tereshkova fought on\" regardless. Two independently-sourced, specific, dated instances of sustained effort against real resistance, not achievement-by-itself."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Kamanin's diary (src_tereshkova_kamanin_diaries) documents two specific instances of Tereshkova generating real institutional friction rather than deferring to it. The Nikitin medal campaign (3 July 1963, see persistence row) \"particularly irritated the military command.\" Separately, an entry dated 12 September 1969 records that Tereshkova arrived at Kamanin's office \"infuriated\" that her husband, fellow cosmonaut Andriyan Nikolayev, had been passed over for the Soyuz 8 flight assignment, and stated she would take the matter over Kamanin's head to senior officials Ustinov and Polyansky -- despite Kamanin's on-the-record warning to her that doing so \"would be a mistake.\" Both instances trace to the single Kamanin-diary source, so confidence is held moderate rather than pushed higher; scored dual-edged because the same documented willingness to escalate past her immediate superiors is, in Kamanin's own contemporaneous account, also read by him as a misjudgment on her part, not an unqualified positive."
+    },
+    "social_assertiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Kamanin's own selection-era rationale for advancing Tereshkova over higher-testing candidates Solovyova and Ponomaryova -- quoted directly in NASA's own history-office account (src_tereshkova_nasa_history) -- was that she \"is active in society, is especially pleasing in appearance, makes use of her great authority\" among the candidate group: a contemporaneous official's specific, attributable assessment of her social standing among peers during training, not a later biographer's gloss or an inference from her post-flight fame. Scored at strong_inference and moderate confidence rather than documented/higher because this is a single source, and the framing is partly entangled with an appearance-based selection bias typical of the program (noted here, not adopted as trait evidence itself)."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Rather than resting on her 1963 fame, Tereshkova completed a full aerospace-engineering degree at the Zhukovsky Air Force Academy, graduating in 1969 (src_tereshkova_americaspace_on_the_edge), and went on to serve as a cosmonaut instructor and later earn a doctorate (independently corroborated by src_tereshkova_nasa_history's account of her post-flight career) -- a sustained, multi-year pattern of continued technical/academic investment distinct from an already-secured celebrity role, paralleling the same documented pattern found in several of her male cosmonaut-corps peers. Two independently-sourced facts, though neither source elaborates on the underlying motivation, hence kept short of the top confidence band."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/valentina-tereshkova-1969.jpg",
+    "width": 1014,
+    "height": 1024,
+    "source": "RIA Novosti archive (image #612748), via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Alexander Mokletsov / RIA Novosti archive, image #612748",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_612748_Valentina_Tereshkova.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New candidate intake (2026-09). Wikidata QID (Q44371) verified live before scoring. nationalityCodes/regionCode: followed the established live-roster precedent for Soviet/Russian figures (Yuri Gagarin, Andrei Sakharov both use nationalityCodes [\"RU\"] + regionCode \"central_europe\", per Gagarin's own provenance note documenting this as the roster's actual convention over the more intuitive \"eastern_europe\", which is not a valid region key) -- followed identically rather than re-deriving. occupationIds/fieldIds mirror Yuri Gagarin's precedent exactly (occupation \"astronaut\" -- no \"cosmonaut\" key exists in en.ts; fieldIds [\"exploration\"] only, deliberately not adding \"politics\" for her extensive post-1963 Supreme Soviet/Duma/diplomatic career, which was investigated but kept out of both classification and scoring -- see below). era 20th_century + isLiving:true, matching the task brief's explicit guidance and the same living/historical-era split already used for other mixed-era figures.\n\nEvidence base: 9 sources, 2 orientation-only (Wikipedia, Wikidata) + 7 fetched and read in full this session and used as scored evidence. Five independent, non-self provenance perspectives clear the >=2-perspective / >=1-non-self bar several times over: Nikolai Kamanin's personal diaries (near-primary, the officer directly overseeing her selection/training, compiled/translated on astronautix.com -- by far the richest source, programmatically searched end-to-end for every dated Tereshkova-specific entry rather than sampled), Ben Evans's two-part AmericaSpace history-journalism series, NASA's own history office, RFE/RL's independent press reporting, and Anatoly Zak's independent russianspaceweb.com history site. The astronautix.com biography page is the same compiler/site as the Kamanin diaries page and is deliberately NOT counted as a second independent perspective from that one. Self-testimony (her own 2007 disclosure of the Vostok 6 descent-program error, reported via RFE/RL) is used for exactly one row (detail_orientation) and capped at moderate confidence there per the self-testimony ceiling.\n\nEvidence-integrity exclusions, deliberate: (1) Several Kamanin-diary passages touching on her in-flight physical/emotional state -- vomiting, reduced appetite, 'poor self-feeling' on specific orbits, a 1963 press-release dispute over her described 'poor emotional state' in space -- were located and read but NOT used for any row, per this project's standing rule against inferring personality from health status; only the adjacent, non-health phrase 'failure to complete some assigned tasks' from the same 12 July 1963 entry was used (discipline row). (2) A 1969 Kamanin-diary passage disclosing that she was 'seriously ill' and that her marriage to Nikolayev had broken down was located and read but NOT used anywhere -- private health and marital-breakdown content, excluded per the same rule and per this project's precedent (Sally Ride file) of excluding private-life disclosures from trait scoring; the ADJACENT 12 September 1969 entry about her office confrontation over her husband's flight-assignment denial WAS used (conflict_tolerance row), since that specific passage documents an institutional/workplace conduct choice (escalating past her superior to senior officials over a work decision), not a private-life disclosure. (3) Her extensive later career as a Supreme Soviet/State Duma politician, including recent controversial political activity, was deliberately excluded from scoring entirely -- out of scope for this evidence-focused, cosmonaut-era profile and not needed given the strength of the 1962-1969 evidence base already assembled. (4) The ideologically-loaded selection-interview contrast between Tereshkova's answer ('I want to support irrevocably the Komsomol and Communist Party') and Ponomaryova's ('I want to take everything it can offer'), found in AmericaSpace's account, was read but deliberately not used as trait evidence -- it reads as political-conformity signaling under a selection process with strong ideological screening, not a genuine personality signal, and this taxonomy has no conformity/loyalty attribute to honestly map it to.\n\n6 rows scored, deliberately not padded toward any target count -- the genuinely verifiable evidence (concentrated in the 1962-1969 window covered by Kamanin's diary and the AmericaSpace/NASA/RFE-RL accounts) clusters around selection, training, the Vostok 6 flight itself, and immediate post-flight conduct; several other attributes (curiosity, risk_tolerance, achievement_drive, leadership_drive) were considered and dropped as resting on single-anecdote-thin or reputation-only signals rather than the kind of specific, dated behavioral evidence the rest of this file uses. Deliberately includes non-flattering, complicating evidence throughout (the retrofire communication lapse, the exam-nerves note, Korolev's documented displeasure and the 'I never want to have anything to do with these women again' remark noted in the discipline/conflict_tolerance rationales' surrounding research though not itself quoted in a row since it characterizes Korolev's attitude rather than Tereshkova's own behavior) rather than a one-sided celebratory narrative built only from the 'first woman in space' achievement itself, which was deliberately never used directly as evidence for any row. Publication decision (evidence_approved) frozen before any eligibility_v2 computation; eligibility was not a target of row selection or count.\n\nPortrait: verified live via the Wikimedia Commons API (action=query, prop=imageinfo, iiprop=url|size|extmetadata) against File:RIAN_archive_612748_Valentina_Tereshkova.jpg before download -- confirmed License/LicenseShortName \"CC BY-SA 3.0\", Copyrighted=true (compatible open license, not public domain), Permission via the established Commons:RIA_Novosti mass-donation partnership, Artist \"Alexander Mokletsov\", dated 1969 (\"valued image\" assessment on Commons), Credit \"RIA Novosti archive, image #612748\". A 1963 mos.ru-credited pre-launch photo (File:Valentina_Tereshkova_in_1963_02.jpg) and a 1980s Leo Medvedev-archive photo (File:VTereshkova.jpg, CC BY-SA 4.0, VRTS-confirmed) were also found and considered, but the 1969 RIA Novosti image was preferred as the most robustly-documented license pathway (the mos.ru file carried Commons' own 'missing SDC copyright license/status' maintenance flags). Downloaded the full-resolution original directly via curl with a TheGreatInside-research/1.0 user agent (1014x1024, 345,448 bytes -- matches the API-reported size exactly); no resize needed (already under the 1600px-long-edge convention). Saved to public/portraits/valentina-tereshkova-1969.jpg."
+  },
+  "localization": {}
+}

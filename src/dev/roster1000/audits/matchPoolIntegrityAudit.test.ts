@@ -36,7 +36,7 @@ describe("match-pool integrity audit: cohort counts", () => {
 
   it("classifies every production person exactly once", () => {
     expect(inventory).toHaveLength(SEED_PEOPLE.length);
-    expect(inventory).toHaveLength(262);
+    expect(inventory).toHaveLength(276);
   });
 
   it("matches the live production/directory/eligible counts", () => {
@@ -56,8 +56,17 @@ describe("match-pool integrity audit: cohort counts", () => {
     // (2026-09-16, docs/checkpoints/roster35.md) repeats the pattern a
     // third time: 11 new people (9 fresh + 2 re-reviewed backlog reuses),
     // all non-match-eligible -- directory-visible rose 250->261,
-    // match-eligible held at 114 for a third consecutive cycle.
-    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(261);
+    // match-eligible held at 114 for a third consecutive cycle. A
+    // dedicated recent-cohort publication-vs-matching architecture
+    // diagnostic (2026-09-17, docs/checkpoints/recent-cohort-matching-
+    // architecture.md) confirmed this is expected, healthy architecture
+    // behavior, not a defect -- classification CONTINUE_EXPANSION_AS_IS.
+    // Roster36 (2026-09-17, docs/checkpoints/roster36.md) repeats the
+    // pattern a fourth time: 14 new people, all freshly researched, all
+    // non-match-eligible -- directory-visible rose 261->275, match-eligible
+    // held at 114 for a fourth consecutive cycle, exactly as the
+    // diagnostic anticipated.
+    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(275);
     expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(114);
   });
 
@@ -107,7 +116,7 @@ describe("match-pool integrity audit: lineage classification", () => {
     const map = buildLineageMap();
     for (const p of SEED_PEOPLE) {
       const lineage = classifyLineage(p.slug);
-      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-5])$/);
+      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-6])$/);
       if (lineage !== "roster1") {
         expect(map.get(p.slug)).toBe(lineage);
       } else {

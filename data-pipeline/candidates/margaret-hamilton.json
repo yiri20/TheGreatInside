@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "margaret-hamilton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Margaret Hamilton",
+    "aliases": [
+      "Margaret Heafield Hamilton"
+    ],
+    "wikidataId": "Q11628",
+    "birthYear": 1936,
+    "isLiving": true,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist",
+      "engineer"
+    ],
+    "fieldIds": [
+      "computing",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "scientific",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "early_computing"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hamilton_wikipedia",
+      "kind": "wikipedia",
+      "title": "Margaret Hamilton (software engineer) -- orientation only, not cited as scored evidence.",
+      "url": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+    },
+    {
+      "id": "src_hamilton_wikidata",
+      "kind": "wikidata",
+      "title": "Margaret Hamilton (Q11628) -- verified live before scoring",
+      "url": "https://www.wikidata.org/wiki/Q11628"
+    },
+    {
+      "id": "src_hamilton_nasa_award_2003",
+      "kind": "institution",
+      "title": "NASA / Apollo Lunar Surface Journal (hosted by NASA), account of Margaret Hamilton's 2003 NASA Exceptional Space Act Award -- includes on-record statements from NASA Administrator Sean O'Keefe and Dr. Paul Curto (senior technologist, NASA Inventions and Contributions Board), and NASA's own account of the Apollo 11 descent software incident. Independent institutional source, non-self. Fetched and read in full.",
+      "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11Hamilton.html"
+    },
+    {
+      "id": "src_hamilton_whitehouse_2016",
+      "kind": "award_body",
+      "title": "\"Remarks by the President at Presentation of the Presidential Medal of Freedom\", The White House (Obama Administration), 22 Nov 2016 -- official citation text for Hamilton's Presidential Medal of Freedom. Fetched and read in full.",
+      "url": "https://obamawhitehouse.archives.gov/the-press-office/2016/11/22/remarks-president-presentation-presidential-medal-freedom"
+    },
+    {
+      "id": "src_hamilton_mit_news_2016",
+      "kind": "institution",
+      "title": "\"Scene at MIT: Margaret Hamilton's Apollo code\", MIT News, 17 Aug 2016 -- independent institutional (MIT) account of her role, team, and working environment, including her own 2009-dated quotes. Fetched and read in full.",
+      "url": "https://news.mit.edu/2016/scene-at-mit-margaret-hamilton-apollo-code-0817"
+    },
+    {
+      "id": "src_hamilton_mit_techreview_2019",
+      "kind": "press",
+      "title": "\"Margaret Hamilton\", MIT Technology Review, 16 Aug 2019 (Innovators series) -- independent press account with the Apollo 8 / P01 \"Lauren bug\" incident and Apollo 11 descent account, including a direct Hamilton quote. Fetched and read in full.",
+      "url": "https://www.technologyreview.com/2019/08/16/579/margaret-hamilton/"
+    },
+    {
+      "id": "src_hamilton_time_2015",
+      "kind": "press",
+      "title": "\"Apollo 11 Software Engineer Margaret Hamilton Recalls Moon Landing\", Time, 17 Jul 2015 -- independent press account with direct Hamilton quotes on the 1201/1202 alarms and her testing methodology, including a quantified finding from her own error analysis. Fetched and read in full.",
+      "url": "https://time.com/3948364/moon-landing-apollo-11-margaret-hamilton/"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, dated, later-vindicated incident, reported as established fact by MIT Technology Review (src_hamilton_mit_techreview_2019), not merely asserted by Hamilton herself: while her young daughter Lauren was at the lab, she accidentally selected the prelaunch program P01 in a mission simulation, wiping the in-flight navigation data. Hamilton identified this as a realistic real-flight failure mode and requested NASA approval to add a software safeguard against an astronaut making the identical keystroke error in flight; management dismissed the risk as \"too unlikely\" (astronauts were well-trained and, in their view, would not make that mistake), and permitted only a documentation note rather than a code fix. During the actual Apollo 8 mission in December 1968, an astronaut selected P01 in flight, erasing the navigation data exactly as she had anticipated, requiring her team to reconstruct it. Hamilton's own recollection of the moment (\"I remember saying to a couple of guys there, 'It's the Lauren bug!'\") is self-testimony, but the underlying incident -- her specific advance risk identification, being overruled, and the real failure later occurring as predicted -- is reported as verified fact by the source, not attributed to her account alone."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Per Time's 2015 interview (src_hamilton_time_2015), Hamilton described testing the Apollo software \"so rigorously, in a simulator that could demonstrate the 'system of systems' at work,\" and reported a specific, quantified finding from her own systematic analysis of the testing program's discovered defects: \"nearly three-quarters of them were interface errors, like conflicts in timing or priority.\" This is a specific, numeric, methodology-level claim rather than a vague reputation for carefulness. Self-testimony (one perspective); confidence held at a moderate level accordingly, though the specificity of the quantified claim itself supports evidenceType \"documented\" rather than inference."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "NASA's own institutional account of Hamilton's 2003 Exceptional Space Act Award (src_hamilton_nasa_award_2003) quotes Dr. Paul Curto, senior technologist for NASA's Inventions and Contributions Board -- a named, non-self, independent technical assessor -- identifying her team's specific originated concepts: \"asynchronous software, priority scheduling, end-to-end testing, and man-in-the-loop decision capability (such as priority displays),\" stating these \"became the foundation for ultra-reliable software design.\" Independently, the White House's 2016 Presidential Medal of Freedom citation (src_hamilton_whitehouse_2016, award_body) notes she \"defined new forms of software engineering\" at a time when \"software engineering wasn't even a field yet, so there were no textbooks to follow,\" and MIT Technology Review (src_hamilton_mit_techreview_2019) confirms she coined the term \"software engineer\" and advocated for its adoption as a legitimate discipline. Two independent, non-self, named-source perspectives (NASA/Curto and the White House citation) converge on specific, named technical/conceptual originality rather than a generic \"pioneer\" label."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "MIT News's independent institutional account (src_hamilton_mit_news_2016) states she \"led the Software Engineering Division of the MIT Instrumentation Laboratory\" and \"headed the lunar module (LM) and command module (CM) onboard flight software team.\" MIT Technology Review (src_hamilton_mit_techreview_2019) independently corroborates she \"led nearly 100 developers\" as \"head of software engineering for Apollo program.\" Two independent non-self sources agreeing on the scale and formal nature of the leadership role (not a self-reported title)."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "NASA's own account (src_hamilton_nasa_award_2003) describes a specific real-world payoff of advance contingency engineering: approximately three minutes before Eagle's lunar touchdown on 20 July 1969, the onboard software \"automatically overrode a command that would have redirected the flight computer's processing to a radar system\" that had been switched on due to an incorrect operations procedure followed by the crew, allowing the landing to proceed safely. This is the real-time operation of a specific overload-handling contingency (asynchronous priority scheduling, see creative_originality) that Hamilton's team had designed and tested for in advance of a scenario that then occurred for real, unplanned, during the actual mission -- scored here specifically for the advance-planning/contingency-anticipation facet, distinct from the origination-of-the-concept facet already scored under creative_originality. Single institutional source; confidence held moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/margaret-hamilton-1969.jpg",
+    "width": 1287,
+    "height": 1600,
+    "source": "NASA, 1969 (restored by Adam Cuerden), via Wikimedia Commons",
+    "license": "Public Domain (NASA work, no copyright notice)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg",
+    "attribution": "NASA, 1969; restoration by Adam Cuerden",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New candidate intake (2026-09). Wikidata QID (Q11628) verified live before scoring. isLiving:true, no deathYear -- confirmed she is alive as of this session (b. 1936); per the task's living-person conservatism instruction, all evidence gathering and scoring was restricted to public, documented professional/technical conduct (Apollo-era engineering work and its institutional recognition). No private-life, family, health, relationship, or personal-controversy material was sought or used -- one unverified, low-credibility social-media claim about her personal/marital history surfaced incidentally during colleague research (a 2023 X/Twitter post disputing her role) and was deliberately NOT used, both because it is not a directly-read credible source and because it concerns private/marital matters excluded by this project's evidence rules regardless of credibility.\n\nEvidence base: 7 sources, 2 orientation-only (Wikipedia, Wikidata) + 5 fetched and read in full this session and used as scored evidence. Independent, non-self provenance perspectives clearing the >=2-perspective / >=1-non-self bar: NASA's own institutional account of her 2003 Exceptional Space Act Award (quoting named NASA officials Sean O'Keefe and Dr. Paul Curto directly, non-self), the White House's 2016 Presidential Medal of Freedom citation (award_body, non-self), and MIT News's independent institutional account (non-self) -- three clearly independent non-self perspectives, well beyond the bar. Two further press sources (MIT Technology Review, Time) are used primarily to carry Hamilton's own detailed, specific, dated self-testimony (capped as one perspective per this project's rule), though MIT Technology Review's account of the Apollo 8 P01/\"Lauren bug\" incident itself is reported as the outlet's own verified fact, not solely attributed to her.\n\nEvidence-integrity notes: the Apollo 11 1201/1202 program-alarm incident is real and extremely well documented, but many of the highest-ranking search results describing it (siliconcanals.com, terradaily.com, scienceblog.com, spacedaily.com, spacewar.com) read as unattributed AI-generated content-farm summaries rather than original reporting or citable sources -- none were opened or cited here; the same underlying facts were instead sourced from NASA's own account and Time's direct interview. Wired's well-known 2015 profile by Robert McMillan (\"Her Code Got Humans on the Moon\") could not be fetched in this session (tool access blocked to wired.com) and is NOT listed as a source or cited anywhere, despite being a strong candidate; its content was not used even indirectly. Several other candidate sources (Computer History Museum's 2017 CHM Fellows oral history, MIT's Digital Apollo interview collection) were located and the CHM blog page was opened, but yielded only section headers rather than quotable transcript text in this session, so neither is listed as a scored source -- a deeper pass with direct access to the full oral-history transcript could likely add further, more granular rows without contradicting anything scored here.\n\n5 rows scored, deliberately not padded toward any target count. Achievement/recognition facts (the 2003 NASA award and 2016 Presidential Medal of Freedom themselves) were deliberately used only as the CONTEXT that produced two independent named/institutional assessments of her specific, named technical contributions (creative_originality row) -- never as freestanding evidence that she must therefore score highly on some trait, which this project's rubric explicitly prohibits (evidence from awards/fame alone). Several other attributes (persistence, independent_thinking, risk_tolerance, collaboration) were considered and dropped as resting on the same 1-2 incidents already used for opportunity_sensing/planning_orientation, which the task brief's anti-padding/anti-duplication guidance rules out as near-duplicate rows rather than genuinely distinct evidence. Publication decision (evidence_approved) frozen before any eligibility_v2 computation; eligibility was not a target of row selection or count.\n\nPortrait: verified live via the Wikimedia Commons API (action=query, prop=imageinfo, iiprop=url|size|extmetadata) against File:Margaret_Hamilton_-_restoration.jpg before download -- confirmed License/LicenseShortName \"Public domain\" (PD US no notice, a NASA-produced 1969 photograph), Copyrighted=false, a Wikipedia Featured Picture and 2017 Picture-of-the-Year finalist, restored (dust/scratches removed, curves adjusted) by established Commons restorer Adam Cuerden from the original NASA GIF. This is the iconic, widely-recognized 1969 photograph of Hamilton standing beside a physical stack of the Apollo Guidance Computer source-code listings produced by her team. Downloaded the full-resolution original directly via curl with a TheGreatInside-research/1.0 user agent (2294x2853, 3,234,057 bytes -- matches the API-reported size exactly), resized to 1600px on the longest side with Python PIL/LANCZOS (saved: 1287x1600, JPEG quality 85, optimize=True), verified the resized file's actual on-disk dimensions by reopening it, and deleted the raw pre-resize download from public/portraits/ afterward. Saved to public/portraits/margaret-hamilton-1969.jpg."
+  },
+  "localization": {}
+}
