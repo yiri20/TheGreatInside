@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gustave-eiffel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gustave Eiffel",
+    "aliases": [
+      "Alexandre Gustave Eiffel"
+    ],
+    "wikidataId": "Q20882",
+    "birthYear": 1832,
+    "deathYear": 1923,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "physics"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "scientific",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder",
+      "career_changer",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_eiffel_wikipedia",
+      "kind": "wikipedia",
+      "title": "Gustave Eiffel",
+      "url": "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+    },
+    {
+      "id": "src_eiffel_wikidata",
+      "kind": "wikidata",
+      "title": "Gustave Eiffel (Q20882)",
+      "url": "https://www.wikidata.org/wiki/Q20882"
+    },
+    {
+      "id": "src_eiffel_swiss_koechlin",
+      "kind": "institution",
+      "title": "Swiss Confederation, Presence Switzerland, \"Maurice Koechlin, the Swiss who designed the Eiffel Tower\" -- official Swiss government cultural-affairs account of Koechlin and Emile Nouguier's original 1884 tower design, Eiffel's initial rejection of it on aesthetic grounds, the September 1884 joint patent filing, the December 1884 contract under which Eiffel bought sole patent ownership (1% of construction value to each engineer, ~50,000 francs total), and Koechlin succeeding Eiffel as company head in 1893. Fetched and read directly.",
+      "url": "https://www.aboutswitzerland.eda.admin.ch/en/maurice-koechlin-the-swiss-who-designed-the-eiffel-tower"
+    },
+    {
+      "id": "src_eiffel_asce",
+      "kind": "institution",
+      "title": "American Society of Civil Engineers, Historic Civil Engineering Landmark record for the Eiffel Tower -- institutional engineering-history account of the Tower's construction (roughly 18,038 prefabricated iron components, workshop segments joined first by bolts then by ~2,500,000 field rivets, elevator cars engineered for the legs' changing angle from 54 to 78 degrees, 700 competing proposals), and a directly-quoted February 14, 1887 statement by Eiffel on merging engineering and aesthetics. Fetched and read directly.",
+      "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/eiffel-tower"
+    },
+    {
+      "id": "src_eiffel_france_memoire",
+      "kind": "institution",
+      "title": "France Memoire (Institut de France), memorial page on the death of Gustave Eiffel -- institutional biographical account of his engineering career (the 1858 Bordeaux bridge project at age 27, his own metallic-construction company founded 1866, the Garabit Viaduct, the Statue of Liberty's internal structural framework), the Tower's construction, the Panama Canal scandal outcome (1893 conviction for 'abus de confiance' annulled by the Cour de Cassation for prescription/statute of limitations), and his post-1893 pivot into meteorological and aerodynamics research (wind-tunnel testing for aviation pioneers Louis Bleriot and the Wright brothers, the Smithsonian Institution's Langley Gold Medal at age 81). Fetched and read directly.",
+      "url": "https://www.france-memoire.fr/mort-de-gustave-eiffel/"
+    },
+    {
+      "id": "src_eiffel_universalis",
+      "kind": "institution",
+      "title": "Encyclopedie Universalis, biographical entry on Gustave Eiffel, section 'Le scandale de Panama' -- scholarly French reference-encyclopedia account independently corroborating the February 9, 1893 conviction (complicity in fraud and breach of trust), the prison sentence and fine, the June 15, 1893 Cour de Cassation reversal specifically on statute-of-limitations grounds (not vindication on the merits), his withdrawal from the construction industry in his sixties, and the redirection into aerodynamics/scientific research including the Wright brothers and Bleriot wind-tunnel work. Fetched and read directly.",
+      "url": "https://www.universalis.fr/encyclopedie/gustave-eiffel/2-le-scandale-de-panama/"
+    },
+    {
+      "id": "src_eiffel_gilwro",
+      "kind": "press",
+      "title": "Gilles Wronecki, \"Gustave Eiffel et le scandale du Panama\", 19e Siecle (independent French 19th-century-history site) -- detailed, dated account of the December 10, 1887 lock-construction contract (103 million francs, an 18-million-franc payment to Eiffel described as made 'without any oversight' before he 'undertook no work whatsoever'), the scandal's public breaking on November 20, 1892 (Edouard Drumont's expose), the February 9, 1893 conviction and sentence, the June 15, 1893 annulment on statute-of-limitations grounds explicitly described as leaving Eiffel 'not exonerated', and contemporary criticism of him as the contract's sole clear financial beneficiary amid ruined small investors. Fetched and read directly; the specific payment-structure detail (18M francs 'without oversight') is single-sourced to this site and treated with corresponding caution in the rows below.",
+      "url": "https://www.gilwro.fr/19eSiecle/gustave-eiffel-et-le-scandale-du-panama/"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, real output across genuinely distinct domains, not dabbling. A multi-decade civil-engineering career: directing an iron bridge project at Bordeaux at age 27 (1858/59), founding his own metallic-construction company in 1866-67, the 525-foot Maria Pia bridge at Porto, and the record-setting 122-meter-high Garabit Viaduct (1882-1884) (src_eiffel_france_memoire, src_eiffel_universalis); the Eiffel Tower's 300-meter monumental ironwork (1887-1889) (src_eiffel_asce); and, after his contracting career ended in 1893, a genuine roughly 30-year second career in aerodynamics and meteorological research -- founding his own wind-tunnel laboratory and testing aircraft designs for aviation pioneers Louis Bleriot and the Wright brothers, externally validated at age 81 by the Smithsonian Institution's Langley Gold Medal for aeronautics (src_eiffel_france_memoire, src_eiffel_universalis -- both independently confirm the aerodynamics pivot and the medal). Three independent institutional/scholarly sources; the engineering-to-experimental-physics shift is a genuine field change, not a restatement of one theme."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, documented instance of recognizing and institutionally converting someone else's technical concept into a viable enterprise, not personal invention -- kept distinct from creative_originality (not scored here) precisely because the evidence does not support Eiffel as the design's originator. The tower's core concept and calculations were produced by two of his firm's engineers, Maurice Koechlin and Emile Nouguier, from a June 1884 sketch; Eiffel's own first reaction was to reject it on aesthetic grounds and require rework (architect Stephen Sauvestre's added decorative arches) before backing it (src_eiffel_swiss_koechlin). He then had Koechlin and Nouguier sign over sole patent ownership to him in December 1884 in exchange for 1% of construction value each (roughly 50,000 francs total), took public credit as the project's founder, and used his own stature as an established industrialist to carry the design through a field of 700 competing proposals (src_eiffel_swiss_koechlin, src_eiffel_france_memoire). Scored dual_edged rather than a flattering 'visionary inventor' narrative: real skill at recognizing and mobilizing a promising concept commercially and institutionally (advantage), set against a documented complication of who actually originated it (risk to a pure-originality reading). Note also documented as a comparatively benign version of this pattern: Koechlin succeeded Eiffel as company head in 1893, suggesting the relationship remained collegial rather than exploitative (src_eiffel_swiss_koechlin)."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "A specific, dated, high-stakes commitment that materialized badly, not an inference from general professional boldness. On December 10, 1887, Eiffel signed a 103-million-franc contract with Charles de Lesseps to build ten canal locks for the already-troubled Panama Canal Company, reportedly receiving an 18-million-franc payment 'without any oversight' before undertaking the underlying construction himself (src_eiffel_gilwro -- single-sourced for this specific payment-structure detail, weighted accordingly). When the Canal Company's collapse became a public scandal in November 1892, Eiffel was charged with, and on February 9, 1893 convicted of, complicity in fraud and breach of trust, and sentenced to two years' imprisonment and a 20,000-franc fine -- three independent sources agree on the conviction and sentence (src_eiffel_gilwro, src_eiffel_france_memoire, src_eiffel_universalis). The Cour de Cassation annulled the judgment on June 15, 1893, but explicitly on a statute-of-limitations technicality (prescription), not on the merits; multiple sources describe him as 'not exonerated' and note continuing public criticism as the contract's clear sole financial beneficiary amid ruined small investors (src_eiffel_gilwro). Scored as a real, materialized risk rather than a redeemed-hero narrative: the underlying conviction stood on the facts even though prosecution became time-barred, and the episode permanently ended his 25-plus-year contracting career in his sixties."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Distinct from risk_tolerance above, which describes the original gamble and its bad legal outcome -- this row concerns his response after the career-ending scandal, at an age (60-plus) when quiet retirement was the ordinary choice. Rather than remaining in construction/contracting, or withdrawing from public life, Eiffel redirected his engineering training entirely into a discipline he had not practiced before -- aerodynamics and meteorology -- founding his own research laboratory (including an early wind tunnel) and testing aircraft designs for Louis Bleriot and the Wright brothers (src_eiffel_france_memoire, src_eiffel_universalis). This was not a face-saving hobby claim: it was externally validated nearly two decades later when, at 81, the Smithsonian Institution awarded him its Langley Gold Medal for aeronautics -- independently confirmed by both institutional/scholarly sources. A genuine, sustained (roughly 30-year), externally-recognized field change following professional catastrophe."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, hands-on account of construction execution, not an inference from the finished monument's fame. The Tower comprised roughly 18,038 individually fabricated iron components, produced in Eiffel's own workshop in segments of about five feet, initially bolted together for fitting and then permanently joined on site with approximately 2,500,000 rivets; the elevator cars were specifically engineered with rotating seat-backs to compensate for the legs' changing angle from 54 degrees at the base to 78 degrees near the summit (src_eiffel_asce). The same institutional record directly quotes Eiffel's own February 1887 public statement -- 'Are we to believe that because one is an engineer, one is not preoccupied by beauty in one's constructions, or that one does not seek to create elegance as well as solidity and durability?' -- showing a stated personal standard of holding structural precision and aesthetic control together rather than treating them as separate concerns (src_eiffel_asce). Single institutional source for the granular fabrication figures, so scored at a moderate rather than extreme band."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gustave-eiffel-braun-photograph.jpg",
+    "width": 1061,
+    "height": 1600,
+    "source": "Wellcome Collection (photograph by Braun & Co.), via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexandre_Gustave_Eiffel._Photograph_by_Braun_%26_Co._Wellcome_V0026329.jpg",
+    "attribution": "Photograph by Braun & Co., Wellcome Collection, CC BY 4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alexandre_Gustave_Eiffel._Photograph_by_Braun_%26_Co._Wellcome_V0026329.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q20882) verified live before scoring: label 'Gustave Eiffel' confirmed via the Wikidata API. Slug checked against the live data-pipeline/candidates/ listing -- no collision (no prior gustave-eiffel.json). REGION DECISION, LIVE-VERIFIED PER THIS PROJECT'S INVARIANT THAT REPOSITORY STATE OUTRANKS ANY DOCUMENT: live-checked every existing pure-FR-nationality candidate file (antoine-lavoisier, claude-monet, jean-francois-champollion, joan-of-arc, louis-pasteur, simone-de-beauvoir, simone-weil, edith-piaf, jacques-cousteau -- 9 of 9) and all use regionCode 'western_europe' (mixed-nationality FR candidates like josephine-baker, sebastiao-salgado, pablo-picasso instead follow their primary non-FR nationality's region). Set Eiffel's regionCode to 'western_europe' accordingly, matching the unanimous live corpus convention for pure-FR candidates. ERA DECISION: also live-checked against andrew-carnegie.json (1835-1919, American industrialist, most philanthropic activity after 1900 but tagged '19th_century' in the live corpus) as the closest structural analog for a 19th-century-born industrial/engineering figure whose later-life activity extends past 1900; Eiffel (1832-1923, contracting career and Tower built entirely in the 19th century, later aerodynamics work 1893-1913ish) follows the same convention. EVIDENCE READ: 5 substantive sources beyond Wikipedia/Wikidata orientation, all independently authored/institutional and non-self (Eiffel is deceased; no self-testimony source was used except his own directly-quoted 1887 public statement embedded within the ASCE institutional record, which is not counted as a separate self-testimony source): the Swiss federal government's Presence Switzerland cultural page (Koechlin/Nouguier design origin and patent buyout), the American Society of Civil Engineers' Historic Landmark record (construction specifics), France Memoire/Institut de France's memorial page, Encyclopedie Universalis' scholarly biographical entry, and the independent French history site 19e Siecle (gilwro.fr) for dated Panama Canal scandal specifics. This clears the 2-independent-perspective / 1-non-self-behavioral-source bar comfortably; the Panama Canal conviction and statute-of-limitations reversal is independently corroborated by three of the five sources. DELIBERATE SCOPE DECISION: creative_originality was NOT scored as a standalone row -- the evidence (Koechlin and Nouguier's original design authorship, Eiffel's initial rejection of it, his subsequent patent buyout and credit-taking) does not support scoring Eiffel himself as the Tower's personal originator, so that complication was folded honestly into the opportunity_sensing row (scored dual_edged) rather than omitted or scored as a flattering, inaccurate advantage elsewhere. No row infers anything from Eiffel's age, health, or bereavement; the Panama Canal row is scored from the documented legal/professional record, not from reputation or the finished monument's fame. PORTRAIT: searched Wikimedia Commons directly via the API; selected 'File:Alexandre_Gustave_Eiffel._Photograph_by_Braun_%26_Co._Wellcome_V0026329.jpg' (Wellcome Collection, professional studio photograph by Braun & Co., CC BY 4.0, originally 2173x3278) over a smaller (449x562) but otherwise plausible Gallica PD alternative because of its clearly higher usable resolution and unambiguous CC BY 4.0 licensing confirmed via the live Commons imageinfo API response. Downloaded the real file, verified it depicts an elderly bearded man consistent with Eiffel's well-documented later-life appearance, resized with Python PIL from 2173x3278 to 1061x1600 (long edge capped at 1600px per convention), and verified the saved file's real pixel dimensions (1061x1600) match the resize target exactly. Saved to public/portraits/gustave-eiffel-braun-photograph.jpg."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "귀스타브 에펠"
+    }
+  }
+}

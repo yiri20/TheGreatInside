@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alfred-nobel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alfred Nobel",
+    "aliases": [
+      "Alfred Bernhard Nobel"
+    ],
+    "wikidataId": "Q23810",
+    "birthYear": 1833,
+    "deathYear": 1896,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "SE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "inventor",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "engineering",
+      "business"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "entrepreneurial",
+      "wealth_creation"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nobel_wikipedia",
+      "kind": "wikipedia",
+      "title": "Alfred Nobel",
+      "url": "https://en.wikipedia.org/wiki/Alfred_Nobel"
+    },
+    {
+      "id": "src_nobel_wikidata",
+      "kind": "wikidata",
+      "title": "Alfred Nobel (Q23810)",
+      "url": "https://www.wikidata.org/wiki/Q23810"
+    },
+    {
+      "id": "src_nobel_ebsco_general",
+      "kind": "press",
+      "title": "\"Alfred Nobel\", EBSCO Research Starters -- reference-encyclopedia account documenting the 1864 Heleneborg explosion (killed five including brother Emil), Nobel's continued explosives work afterward, his patent-licensing structure (equity share in each foreign factory instead of royalties), and the 1895 will's beneficiary language. Fetched and read directly.",
+      "url": "https://www.ebsco.com/research-starters/history/alfred-nobel"
+    },
+    {
+      "id": "src_nobel_ebsco_dynamite",
+      "kind": "press",
+      "title": "\"Nobel Patents Dynamite\", EBSCO Research Starters -- same editorial/institutional source as src_nobel_ebsco_general, treated as one independent perspective, not two. Documents the kieselguhr stabilization chemistry, the forced relocation to a floating barge laboratory on Lake Malaren after the Heleneborg explosion, the 1867/1868 UK and US patents, and the 90-plus-factories/20-country international manufacturing strategy driven by explosive-transport restrictions. Fetched and read directly.",
+      "url": "https://www.ebsco.com/research-starters/history/nobel-patents-dynamite"
+    },
+    {
+      "id": "src_nobel_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, \"Scientist of the Day: Alfred Nobel\" -- independent institutional (science history library) account confirming the 1864 explosion forced the firm out of Stockholm, the kieselguhr stabilization discovery, and Nobel's practice of setting up laboratories and factories across Stockholm, Paris, Germany, and Italy while working the nitroglycerin-stabilization problem. Fetched and read directly.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/alfred-nobel/"
+    },
+    {
+      "id": "src_nobel_famousscientists",
+      "kind": "press",
+      "title": "\"Alfred Nobel\", famousscientists.org -- biographical reference account independently confirming the 1864 Heleneborg explosion's five deaths (including Emil), that Nobel 'worked 18 hour days, personally performing hundreds of experiments' at Heleneborg, and quoting Nobel's own stated ratio for his experimental practice ('If I come up with 300 ideas in a year, and only one of them is useful, I am content'). The 18-hour-days/hundreds-of-experiments claim is this source's own independent (non-self) account; the 300-ideas figure is self-testimony, capped accordingly and used only as corroborating color, not as this row's primary support. Fetched and read directly.",
+      "url": "https://www.famousscientists.org/alfred-nobel/"
+    },
+    {
+      "id": "src_nobel_kathylovesphysics",
+      "kind": "press",
+      "title": "Kathy Loves Physics, \"The Merchant of Death\" -- a critical historiographical analysis fetched and read directly to verify the credibility of the 1888 premature-obituary story per this research brief's own instruction. Confirms the real, corroborated event (Le Figaro, 15 April 1888, mistakenly printed on Alfred's death after brother Ludvig's actual death, reading 'A man who can not very easily pass for a benefactor of humanity died yesterday ... Mr. Nobel, inventor of dynamite,' corrected the next day; corroborated by a contemporary letter from Juliette Adam-Lambert), but traces the specific, widely-repeated 'merchant of death' phrase and its causal link to the 1895 will to Nicholas Halasz's uncited 1959 biography, with the phrase itself not appearing in print anywhere for the 43 years after 1888. NOT used to support any scored row -- see provenance.",
+      "url": "https://kathylovesphysics.com/the-merchant-of-death/"
+    },
+    {
+      "id": "src_nobel_nobelprize_suttner",
+      "kind": "award_body",
+      "title": "NobelPrize.org (The Nobel Foundation), \"Bertha von Suttner\" -- the awarding institution's own historical account of Nobel's multi-year correspondence and friendship with peace activist Bertha von Suttner and his dated 7 January 1893 letter to her proposing a five-year peace-prize fund. NobelPrize.org returned HTTP 403 on every direct-fetch attempt this cycle (a live access problem, not a decision to skip it); the specific quoted text used here was read via search-result excerpts that reproduce this page's own wording, not a full direct read -- the same access-limited citation discipline this project's Gauss file already applied to a different repeatedly-blocked source. Confidence on the one row resting on this is held moderate accordingly.",
+      "url": "https://www.nobelprize.org/alfred-nobel/bertha-von-suttner/"
+    },
+    {
+      "id": "src_nobel_will_gangalib",
+      "kind": "archive",
+      "title": "Ganga Library Inc., reproduction of Alfred Nobel's 1895 will -- a secondary online reproduction (not the original archival scan) of the will's text, confirming it was signed 27 November 1895 in Paris, its five prize categories and their administering bodies, and the explicit clause that 'no consideration be given to the nationality of the candidates.' Fetched and read directly.",
+      "url": "https://www.gangalib.org/Alfred_Nobel_will.php"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Scores the documented WORKING/METHODOLOGICAL response only, never the bereavement itself, per this research brief's explicit restriction. After the September 1864 Heleneborg explosion (which killed five people, including brother Emil, during nitroglycerin work) led Stockholm authorities to ban nitroglycerin manufacture within city limits, Nobel relocated operations to a floating laboratory on a barge anchored on Lake Malaren and continued systematic experimentation there under the new constraint (EBSCO dynamite article; independently corroborated by Linda Hall Library, which adds that he kept 'setting up laboratories and factories' across Stockholm, Paris, Germany, and Italy while pursuing the same stabilization problem). This is scored as a specific, sourced operational adaptation to an external legal/safety constraint -- changing location and method while continuing toward the same technical goal -- not as an inference about grief or resilience-of-spirit, which this rubric does not permit from a bereavement event."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, non-self-corroborated account of sustained high-volume iterative practice, not an inference from his eventual invention's fame. famousscientists.org states independently that Nobel 'worked 18 hour days, personally performing hundreds of experiments' at the Heleneborg laboratory; EBSCO's dynamite article independently documents the specific iterative substance-testing that led to the kieselguhr stabilization method (patented in the UK in 1867, the US in 1868); Linda Hall Library independently confirms the pattern continued across relocated laboratories in multiple countries. Nobel's own stated ratio for his practice -- 'If I come up with 300 ideas in a year, and only one of them is useful, I am content' -- is self-testimony and capped as one perspective per this rubric, used here only as corroborating texture for the independently-documented pattern, not as this row's primary support. Kept as a distinct row from adaptability: this row concerns the volume/iteration of his general experimental practice, not the specific relocation decision after the 1864 explosion."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific structural response to a specific regulatory/logistical constraint, not an inference from wealth or fame. EBSCO's dynamite article documents that 'it was impractical to transport explosives long distances and because of government restrictions on international shipments of explosives, dynamite had to be manufactured locally' -- so over roughly two decades Nobel 'founded or acquired more than ninety factories ... in twenty different countries.' EBSCO's general Nobel article independently documents the specific licensing structure he used to fund this expansion: 'Nobel yielded his patent rights when he opened foreign factories, agreeing that instead of receiving royalty payments he would receive a substantial share of the proceeds from each factory' -- a distinctive equity-over-royalty choice, not the default arrangement. The additional claim that the resulting Nobel Dynamite Trust Company was 'the first international holding company in the world' could not be independently verified beyond search-synthesized nobelprize.org content this cycle and is not the primary basis for this row's score."
+    },
+    "impact_motivation": {
+      "score": 65,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Deliberately built on the verified, better-evidenced thread rather than the popular but disputed one -- see provenance for why the famous 1888 'merchant of death' obituary story is NOT used here. What is actually documented: Nobel maintained a multi-year correspondence and friendship with peace activist Bertha von Suttner (author of the 1889 anti-war novel Die Waffen Nieder), and on 7 January 1893 wrote to her proposing a five-year peace-prize fund (src_nobel_nobelprize_suttner, access-limited this cycle -- see that source's own note); his actual 1895 will, signed in Paris on 27 November 1895, establishes five prize categories including peace, funded from an explosives/armaments fortune, with an explicit universalist clause that 'no consideration be given to the nationality of the candidates' (src_nobel_will_gangalib, directly read). Scored strong_inference rather than documented, and confidence held at 0.48, specifically because the causal claim that the Suttner correspondence (rather than some other factor) shaped the will rests on the awarding institution's own historical narrative, accessed only via search-result synthesis this cycle rather than a full direct read."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alfred-nobel-florman.jpg",
+    "width": 1143,
+    "height": 1600,
+    "source": "Smithsonian Institution Libraries (Dibner Library of the History of Science and Technology, \"Scientific Identity\" collection), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Alfred_Bernhard_Nobel_(1833-1896),_Chemist_(2551039289).jpg",
+    "attribution": "Gosta Florman (1831-1900) / The Royal Library, photograph made prior to 1896",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Alfred_Bernhard_Nobel_(1833-1896),_Chemist_(2551039289).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q23810) verified live before scoring: label 'Alfred Nobel', description 'Swedish chemist and inventor (1833-1896)'. Slug checked against a live listing of data-pipeline/candidates/ -- no collision. REGION: live-checked regionCode convention against every already-committed candidate file with a pure-SE nationalityCodes entry: ingmar-bergman and carl-linnaeus (both pure SE) use 'western_europe'; lise-meitner (AT+SE dual) and sofia-kovalevskaya (RU, not SE) use 'central_europe' for unrelated reasons (dual nationality / different primary country). Followed the pure-SE precedent: regionCode set to 'western_europe'. EVIDENCE READ: 7 substantive non-Wikipedia/Wikidata sources, all fetched and read directly in full this cycle except src_nobel_nobelprize_suttner (see that source's own access-limitation note). EBSCO's two Research Starters articles are the same editorial/institutional source and are counted as ONE independent perspective, not two, per this rubric's same-author/same-institution rule; Linda Hall Library and famousscientists.org are each independent of EBSCO and of each other. This clears the >=2-independent-perspective / >=1-non-self bar comfortably. THE 1888 'MERCHANT OF DEATH' OBITUARY STORY WAS DELIBERATELY INVESTIGATED, PER THIS RESEARCH BRIEF'S OWN INSTRUCTION TO VERIFY ITS SOURCING BEFORE USE, AND THEN DELIBERATELY NOT USED TO SUPPORT ANY ROW: kathylovesphysics.com's critical analysis (fetched and read directly) establishes that a real event occurred -- Le Figaro's 15 April 1888 obituary, printed in error after brother Ludvig's actual death, corroborated by a contemporary letter from Juliette Adam-Lambert -- but the specific, widely-repeated 'merchant of death' phrase and its causal link to the 1895 will do not appear in print anywhere for 43 years after 1888, and were first connected to the will in Nicholas Halasz's 1959 biography without citation. That is not evidence-integrity-clean enough to score any row on the popular version of this story, so impact_motivation above is instead built entirely on the independently better-documented Bertha von Suttner correspondence thread. This source is listed in `sources` for transparency about that verification step, the same precedent the Gauss file set for its own debunked-anecdote check (the sum-1-to-100 story), not because it supports a row. NOBELPRIZE.ORG ACCESS: every direct-fetch attempt against nobelprize.org (the life-and-work page, the dynamite-companies page, the patents list, the Suttner page) returned HTTP 403 this cycle; one citation (src_nobel_nobelprize_suttner) is retained, sourced via search-result excerpts that reproduce that page's own specific quoted text, with confidence on its one supported row held moderate accordingly -- the same access-limited-citation discipline the Gauss file applied to a different, repeatedly-blocked source (Brian Hayes's American Scientist piece). No row in this profile infers anything from Emil Nobel's death itself, or from any other bereavement -- only the documented operational/methodological response (relocation, continued systematic experimentation) is scored, per this research brief's explicit restriction."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알프레드 노벨"
+    }
+  }
+}

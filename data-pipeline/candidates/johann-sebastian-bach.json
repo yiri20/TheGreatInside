@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "johann-sebastian-bach",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Johann Sebastian Bach",
+    "aliases": [
+      "J. S. Bach",
+      "Thomaskantor Bach"
+    ],
+    "wikidataId": "Q1339",
+    "birthYear": 1685,
+    "deathYear": 1750,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bach_wikipedia",
+      "kind": "wikipedia",
+      "title": "Johann Sebastian Bach",
+      "url": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach"
+    },
+    {
+      "id": "src_bach_wikidata",
+      "kind": "wikidata",
+      "title": "Johann Sebastian Bach (Q1339)",
+      "url": "https://www.wikidata.org/wiki/Q1339"
+    },
+    {
+      "id": "src_bach_archiv_chronology",
+      "kind": "institution",
+      "title": "Bach-Archiv Leipzig, \"Johann Sebastian Bach — A Chronology\" -- the primary scholarly-institutional biography maintained by the leading Bach research archive, covering the Weimar (1708-1717), Köthen (1717-1723) and Leipzig (1723-1750) employment periods, the weekly cantata-production requirement, and the 1724 (Görner), 1730 (Entwurff memorandum) and 1736 (Ernesti) professional disputes. Fetched and read directly.",
+      "url": "https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology"
+    },
+    {
+      "id": "src_bach_ernesti_logia",
+      "kind": "press",
+      "title": "David Hamer, \"J.S. Bach and J.A. Ernesti: Similarities Today\", LOGIA (Lutheran theological journal) -- detailed, dated scholarly account of the 1736-1738 Bach-Ernesti prefect dispute, quoting Bach's own complaint letters to the Leipzig town council (12/13/15/19 August 1736) and the council/consistory/royal decrees that followed. Fetched and read directly.",
+      "url": "https://logia.org/logia-online/hamer-bach-ernesti"
+    },
+    {
+      "id": "src_bach_recycling_nybooks",
+      "kind": "press",
+      "title": "George B. Stauffer, \"The Master Recycler\", The New York Review of Books (20 December 2018) -- press/scholarly review of musicologist Daniel R. Melamed's research on Bach's practice of reworking earlier compositions into later major works (St Mark Passion, Christmas Oratorio, Mass in B Minor). Fetched and read directly.",
+      "url": "https://www.nybooks.com/articles/2018/12/20/bach-master-recycler/"
+    },
+    {
+      "id": "src_bach_weimar_classicalmusic",
+      "kind": "press",
+      "title": "BBC Music Magazine / classical-music.com, \"Why music's greatest composer was thrown in jail\" -- reports the Weimar ducal court secretary's contemporaneous 1717 minutes recording Bach's arrest. Fetched and read directly.",
+      "url": "https://www.classical-music.com/features/composers/bach-jail"
+    },
+    {
+      "id": "src_bach_weimar_greenberg",
+      "kind": "press",
+      "title": "Robert Greenberg (musicologist), \"Music History Monday: J.S. Bach, Jailbird\" -- independently-authored account of the same 1717 Weimar court secretary's record, with a slightly different translation and additional biographical context (Bach's promotion being passed over, the offer from Prince Leopold of Köthen). Fetched and read directly. Reports on the SAME underlying 1717 archival record as src_bach_weimar_classicalmusic -- treated as a second, independently-authored secondary account corroborating one primary document, not as a fully separate incident.",
+      "url": "https://robertgreenbergmusic.com/music-history-monday-j-s-bach-jailbird/"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 82,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, sustained institutional production discipline, not inferred from a 'prolific genius' reputation alone. As Thomaskantor in Leipzig (appointed 1 June 1723, serving until his death in 1750), Bach's post required the weekly composition and performance of a cantata for Sunday and feast-day services -- 'about sixty cantatas for each ecclesiastical year' -- documented directly by the Bach-Archiv Leipzig's own institutional chronology, which records that he completed, or substantially completed, five full annual cantata cycles across his 27-year tenure, of which three survive complete (src_bach_archiv_chronology). This was sustained concurrently with separate teaching duties at the Thomasschule (Latin instruction and choir direction). Scored from this specific, dated, verifiable decades-long production requirement and record, not from a vague 'hard worker' inference."
+    },
+    "creative_originality": {
+      "score": 48,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independently-read sources complicate a simple 'pure originator' narrative for Bach's most celebrated mature works, without denying his capacity for wholly fresh invention. George B. Stauffer's New York Review of Books essay (2018), reviewing musicologist Daniel R. Melamed's research, documents that 'around 1730 Johann Sebastian Bach began to recycle his earlier works in a major way': the St Mark Passion (1731) was 'pieced together extensively from earlier works' (Cantatas 198 and 54); the Christmas Oratorio (1734-35) drew on Cantatas 213-215; and the Mass in B Minor (1748-49) -- in which more than half the movements likely originate in earlier works, including a 1724 Sanctus and a 1733 Kyrie/Gloria -- shows the same pattern (src_bach_recycling_nybooks). Scored dual_edged rather than simply low: the same source is explicit that this was a deliberate refinement choice, not evidence of declining inventive capacity -- fully new 1740s works such as the Goldberg Variations 'show that he could still draw on robust creative powers when necessary' -- and Melamed's own scholarly framing (as reported by Stauffer) is that the parody process 'provided him the opportunity to revisit earlier music, distill and revise its contents, and lift it to an even higher level of refinement.' Deliberately NOT scored as a time-pressure/expedience finding: the actually-read source explicitly rejects that framing, and this row does not adopt it."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, dated, two-year professional conflict, not an inference from a 'temperamental genius' reputation. The LOGIA journal account (Hamer), itself quoting Bach's own dated complaint letters to the Leipzig town council (12, 13, 15 and 19 August 1736), documents Bach directly contesting rector Johann August Ernesti's unilateral appointment of Johann Gottlob Krause as choir prefect -- a student Bach considered musically incompetent for the role -- and escalating the dispute through a town council decree (6 February 1737), an appeal to the Saxon consistory (12 February 1737), and finally a petition to King Frederick Augustus himself (18 October 1737), receiving a decree favorable to his position (17 December 1737) (src_bach_ernesti_logia). Scored dual_edged, not a clean advantage: Bach substantively prevailed, but the source reports relations between Bach and Ernesti 'had deteriorated beyond repair' by the dispute's end -- notable because Ernesti was godfather to Bach's own children -- and that the students originally at the center of the conflict had left the school by 1738."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A repeated pattern across three separate, dated professional disputes over roughly 14 years of Bach's Leipzig tenure, not a single incident inflated into a trait. The Bach-Archiv Leipzig institutional chronology documents, as three distinct named conflicts: an 1724 dispute with Johann Gottlieb Görner over division of musical authority at the University's St Paul's Church; the ten-page 1730 'Entwurff einer wohlbestallten Kirchen Music' memorandum submitted to the town council itemizing resourcing and staffing failures affecting his choir; and the 1736-1738 Ernesti dispute over prefect appointments detailed separately under conflict_tolerance (src_bach_archiv_chronology, src_bach_ernesti_logia). Scored dual_edged: this is real, sustained follow-through on professional grievances across more than a decade rather than one-off frustration, but the same record shows it produced recurring friction with the institutions and colleagues he depended on, not uncomplicated success."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A single but extraordinarily well-documented incident, not an inference from ambition or reputation. The Weimar ducal court secretary's own contemporaneous 1717 minutes -- independently reported by two separately-authored modern secondary sources (BBC Music Magazine's classical-music.com and musicologist Robert Greenberg, both quoting the same archival record) -- state that on 6 November 1717 Bach 'was put under arrest in [the] justice room for obstinately demanding his instant dismissal' after Duke Wilhelm Ernst refused for months to release him from his Weimar post so he could take up the Köthen Kapellmeister position offered by Prince Leopold. Bach was held nearly four weeks, until 2 December, and released only with an 'unfavourable discharge' noted in the record (src_bach_weimar_classicalmusic, src_bach_weimar_greenberg -- both reporting on the same primary document, treated as one corroborated incident, not two). Scored dual_edged, not a clean advantage: this is real, documented insistence on controlling his own career trajectory against his employer's explicit will, but it cost him a month's imprisonment and, by the record's own account, his standing with that employer."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/johann-sebastian-bach-haussmann-1748.jpg",
+    "width": 1233,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (PD-old-100-expired; painted 1748, artist Elias Gottlob Haussmann died 1774)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg",
+    "attribution": "Elias Gottlob Haussmann, 1748 -- second version of his 1746 portrait of Bach, who is depicted holding a copy of the six-part canon BWV 1076",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q1339) verified live before scoring: label 'Johann Sebastian Bach', description 'German composer (1685-1750)', matching the brief exactly. Name/slug checked against the live data-pipeline/candidates/ listing -- no collision. ERA/REGION DECISION, LIVE-VERIFIED PER THIS PROJECT'S INVARIANT THAT REPOSITORY STATE OUTRANKS ANY DOCUMENT (including this brief): the project's era enum has no '18th_century' value; live-checked every already-committed candidate with a birth year in the 1632-1749 band (13 files: antoine-lavoisier, baruch-spinoza, benjamin-banneker, carl-linnaeus, catherine-the-great, edward-jenner, frederick-the-great, immanuel-kant, isaac-newton, jean-jacques-rousseau, matsuo-basho, sor-juana-ines-de-la-cruz, thomas-jefferson, toussaint-louverture) and all 13 use era 'early_modern' -- set accordingly for Bach (b. 1685). For regionCode, live-checked every committed candidate with a pure DE nationalityCodes entry (13 files): 10 use 'western_europe' (albert-einstein, alexander-von-humboldt, carl-friedrich-gauss, emmy-noether, frederick-the-great, hildegard-of-bingen, immanuel-kant, marlene-dietrich, otto-von-bismarck, pina-bausch, werner-heisenberg) versus 3 using 'central_europe' (ludwig-van-beethoven, rosa-luxemburg, willy-brandt -- the latter two also carrying a second non-DE nationality code). Followed the dominant, near-unanimous pure-DE convention: regionCode set to 'western_europe'. EVIDENCE READ: 5 substantive sources beyond Wikipedia/Wikidata orientation, spanning 3 independent, mutually-unaffiliated authorial perspectives -- the Bach-Archiv Leipzig institutional chronology; David Hamer's LOGIA journal article (itself quoting Bach's own 1736 complaint letters and the council/consistory/royal decrees, i.e. self-testimony and official records reported AS QUOTED IN an independent scholarly account, not independently re-verified against the original German archival documents); and George B. Stauffer's New York Review of Books essay reporting Daniel R. Melamed's musicological research. The two Weimar-arrest sources (classical-music.com, Robert Greenberg) independently report on the SAME 1717 court-secretary record and are treated as one corroborated incident, not two, per this rubric's same-underlying-document discipline (parallel to how the Gauss file treats MacTutor's multiple pages as one perspective). This clears the ≥2-independent-perspective / ≥1-non-self-behavioral-source bar comfortably: the Bach-Archiv chronology, the LOGIA journal, and the NYRB/Melamed material are three separately-authored, non-self, institutional/scholarly sources, each describing specific dated behavior rather than reputation. DELIBERATE FRAMING CHOICE on creative_originality: the brief suggested Bach's parody/recycling technique could be framed as a time-pressure adaptation; the actually-read source (Stauffer, reporting Melamed) explicitly rejects that framing in favor of 'refinement, not expedience' -- this profile follows the source, not the brief's suggested framing, per this project's evidence-discipline requirement that scores trace to what sources actually say. No row infers anything from Bach's health, his first wife's 1720 death, the deaths of numerous of his twenty children, or any other bereavement -- none of that material was used as evidence for any personality row. Five rows scored on genuine evidence availability; row count was not targeted in advance. A thin, honest profile was preferred over padding with restated or near-duplicate incidents (e.g. the 1724 Görner and 1730 Entwurff disputes are folded into the single 'persistence' row as a repeated pattern across distinct incidents, rather than split into separate near-duplicate rows each restating 'had conflicts with employers')."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요한 제바스티안 바흐"
+    }
+  }
+}

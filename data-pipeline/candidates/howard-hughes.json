@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "howard-hughes",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Howard Hughes",
+    "aliases": [
+      "Howard Robard Hughes Jr."
+    ],
+    "wikidataId": "Q189081",
+    "birthYear": 1905,
+    "deathYear": 1976,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "aviator",
+      "engineer",
+      "film_director",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "film",
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "entrepreneurial",
+      "cultural",
+      "innovation"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "detail_oriented",
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hughes_wikipedia",
+      "kind": "wikipedia",
+      "title": "Howard Hughes -- orientation only, not cited as evidence for any scored row",
+      "url": "https://en.wikipedia.org/wiki/Howard_Hughes"
+    },
+    {
+      "id": "src_hughes_wikidata",
+      "kind": "wikidata",
+      "title": "Howard Hughes (Q189081)",
+      "url": "https://www.wikidata.org/wiki/Q189081"
+    },
+    {
+      "id": "src_hughes_tcm",
+      "kind": "press",
+      "title": "Turner Classic Movies, \"Hell's Angels (1930)\" -- film-history institutional account of the production's extreme reshoot ratio, the sound-conversion overhaul, the actress replacement over accent, and Hughes personally flying a stunt sequence stunt pilots refused, crashing and breaking bones. Fetched and read directly.",
+      "url": "https://www.tcm.com/articles/78352/hells-angels-1930"
+    },
+    {
+      "id": "src_hughes_inventionandtech",
+      "kind": "press",
+      "title": "Invention & Technology magazine (American Heritage), \"Howard Hughes the Innovator\" -- quotes Robert Rummel, Hughes's own senior TWA/Hughes technical manager, on his design engagement and detail fixation, and documents the H-1 Racer's specific design decisions and the D-2-to-Spruce-Goose wood-construction adaptation. Fetched and read directly.",
+      "url": "https://www.inventionandtech.com/node/86062"
+    },
+    {
+      "id": "src_hughes_time1947",
+      "kind": "press",
+      "title": "Time magazine (Aug 1947 archive), \"THE CONGRESS: Duel Under the Klieg Lights\" -- contemporary press account of Hughes's Senate War Investigating Committee testimony, with direct quotations of his bribery accusation against Sen. Owen Brewster and Sen. Homer Ferguson's characterization of Hughes's conduct. Fetched and read directly.",
+      "url": "https://time.com/archive/6790634/the-congress-duel-under-the-klieg-lights/"
+    },
+    {
+      "id": "src_hughes_evergreen",
+      "kind": "institution",
+      "title": "Evergreen Aviation & Space Museum, \"The Spruce Goose\" -- institutional museum account (the H-4 Hercules's permanent home) of the wood-construction decision under wartime material restrictions and Hughes's unannounced decision to fly the aircraft himself during what was billed as a taxi test, Nov 2 1947. Fetched and read directly.",
+      "url": "https://www.evergreenmuseum.org/exhibit/the-spruce-goose/"
+    },
+    {
+      "id": "src_hughes_smithsonian",
+      "kind": "institution",
+      "title": "Smithsonian Institution / National Air and Space Museum, \"Hughes H-1 Racer\" collection record -- institutional confirmation of the design team, the Sept 13 1935 world landplane speed record (352 mph / 567 km/h at Santa Ana, CA), and Hughes's own 1975 donation of the aircraft to the Smithsonian. A direct fetch of si.edu returned HTTP 403; content read via search-result excerpts that reproduce the Smithsonian's own object-record text, not a full direct page load -- noted honestly rather than overclaiming a direct read.",
+      "url": "https://www.si.edu/object/hughes-h-1-racer:nasm_A19750840000"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 85,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independent, cross-domain documented instances of the same extreme-perfectionism pattern, roughly fifteen years apart. During the 1927-1930 production of Hell's Angels, Turner Classic Movies' account records that Hughes shot 'approximately 250 feet of film for every foot used in the final edit,' replaced lead actress Greta Nissen with Jean Harlow specifically over her accent once he committed the near-finished silent film to a full sound remake, and personally reshot all non-flying dialogue scenes and put pilots back in the air to re-record engine and gunfire sound -- driving the production to roughly two and a half to three years and nearly $4 million, Hollywood's longest and costliest production up to that point (src_hughes_tcm). Independently, in an unrelated aviation-engineering context years later, his own senior TWA/Hughes technical manager Robert Rummel described a directly comparable pattern: Hughes became 'so absorbed with the galley [design]... all work on the engines was held up for months' on a passenger-aircraft project (src_hughes_inventionandtech). Scored dual_edged: the same documented standard that produced exacting, publicly celebrated results (Hell's Angels' aerial sequences) also demonstrably paralyzed unrelated critical work."
+    },
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independent, separately-documented incidents of Hughes personally accepting serious physical risk to settle an engineering or creative point himself rather than delegate or abandon it, in two different decades and fields. During Hell's Angels, when stunt pilots refused to fly a dangerous aerial sequence he wanted, Hughes 'did his own flying, getting the shot but crashing the plane and breaking several bones' (src_hughes_tcm, 1930). Seventeen years later, during what was publicly billed as a routine taxi test of the untested, never-before-flown H-4 Hercules 'Spruce Goose' -- built under intense, contemporaneous Senate scrutiny over its cost -- Hughes, at the controls, 'made an unannounced decision to prove the aircraft could indeed fly,' lifting the giant wooden flying boat off the water himself for roughly 30 seconds (src_hughes_evergreen, Nov 2 1947, institutional museum account). Two independent institutional sources, two different fields, both involving Hughes personally piloting/flying at the moment of maximum risk rather than delegating it."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, quoted, non-self colleague assessment, not an inference from his reputation as an aviation figure. Robert Rummel -- Hughes's own senior technical manager at TWA -- is quoted directly describing his 'consummate, unquenchable interest in airplane design,' noting his 'questions concerning broad design concepts as well as details were crisp, comprehensive, and usually exasperatingly detailed' (src_hughes_inventionandtech). Corroborated by the specific, documented design decisions attributed to him on the H-1 Racer (fully retractable landing gear, flush rivets to reduce drag) which he personally piloted to a world landplane speed record of 352 mph on Sept 13 1935 -- an aircraft the Smithsonian's National Air and Space Museum now holds in its permanent collection, donated by Hughes himself in 1975 (src_hughes_smithsonian)."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Distinct from mastery_orientation above (this row concerns fixation on specific low-level details rather than overall engagement with design as a whole): the same Rummel-sourced colleague account describes Hughes's questions as 'usually exasperatingly detailed,' and the independently-reported galley anecdote describes that same tendency stalling unrelated critical engineering work for months over a single cabin component's design (src_hughes_inventionandtech). A real, documented, named cost (months of held-up engine work), not just an inference from his general perfectionist reputation."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, dated, extensively covered public confrontation, not an inference from wealth or fame. Testifying before the Senate War Investigating Committee on Aug 6 1947 over wartime aircraft contracts (including the H-4 Hercules), Hughes publicly accused the committee's chairman, Senator Owen Brewster, of attempted bribery: 'I charge specifically that during a luncheon at the Mayflower Hotel... the Senator told me... if I would agree to merge Trans World Airline with Pan American... there would be no further hearings' -- and, when the committee moved to limit his ability to respond, snapped back 'Senator Brewster's story is a pack of lies and I can tear it to pieces if I am allowed to cross-examine' (src_hughes_time1947, contemporary press account, direct quotations). Committee member Senator Homer Ferguson publicly characterized Hughes as 'a hard man to be nice to' who attempted to 'take control over the committee' through his 'great wealth and access to certain channels of publicity' (src_hughes_time1947) -- an independent, contemporaneous, non-self characterization corroborating this was a genuinely adversarial, sustained public confrontation rather than a single outburst. Scored dual_edged: real willingness to sustain direct conflict with a sitting senator under national press coverage (a documented behavioral fact), alongside the committee's own contemporaneous assessment that his approach was personally difficult and combative."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, sourced material-engineering adaptation to an external constraint, not a general 'innovative' characterization. Wartime government restrictions on strategic materials (steel and aluminum) meant Hughes could not build the planned giant flying boat from metal; the Evergreen Aviation & Space Museum's institutional account describes how Hughes 'proposed not just to build this behemoth but to draw on his experience with [his earlier] D-2 [aircraft project] by crafting it of wood' (src_hughes_evergreen), independently confirmed by Invention & Technology's account of the same D-2-to-Hercules material-substitution decision (src_hughes_inventionandtech)."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, explicit, publicly measurable target pursued and met through his own design synthesis, not an inference from wealth or later fame. Hughes set out in 1934-35 specifically to build the fastest landplane in the world, synthesizing existing concepts (fully retractable landing gear, flush rivets to reduce drag) into the H-1 Racer design, then personally piloted it to a new world speed record of 352 mph (567 km/h) at Santa Ana, California on Sept 13 1935 (src_hughes_smithsonian, src_hughes_inventionandtech) -- a specific, dated, externally verifiable target set and achieved, not a retrospective characterization of ambition."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/howard-hughes-loc-1940s.jpg",
+    "width": 1092,
+    "height": 1437,
+    "source": "Library of Congress, Prints & Photographs Division, via Wikimedia Commons",
+    "license": "Public domain (Library of Congress: \"No copyright found; checked by staff December 2000\")",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Howard_Hughes.jpg",
+    "attribution": "Library of Congress, Prints & Photographs Division, reproduction number LC-USZ62-63333. Hughes standing in front of his Boeing 100A Army Pursuit Plane, Inglewood, California, 1940s.",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Howard_Hughes.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q189081) verified live before scoring: label 'Howard Hughes'. Slug checked against the live data-pipeline/candidates/ listing -- no collision. REGION: nationalityCodes ['US'], regionCode 'north_america' per the brief -- consistent with this project's convention for other US-only candidates. EVIDENCE READ: 5 substantive sources beyond Wikipedia/Wikidata orientation -- Turner Classic Movies (film-history press/institution), Invention & Technology magazine (American Heritage's aviation-history press outlet, quoting his own senior TWA technical manager Robert Rummel directly), Time magazine's contemporary Aug 1947 archive coverage of the Senate hearing, the Evergreen Aviation & Space Museum (the H-4 Hercules's permanent institutional home), and the Smithsonian/National Air and Space Museum's H-1 Racer collection record (this last one's direct fetch returned HTTP 403; its content was read via search-result excerpts reproducing the Smithsonian's own object-record text rather than a full direct page load, noted honestly here rather than overclaiming a direct read, following the same disclosure precedent as the Gauss file's American Scientist source). These five are mutually independent and, except for Hughes's own quoted testimony (self-statements, relayed via Time's independent press reporting rather than a directly-read primary transcript), all non-self -- clearing the 2-independent-perspective / 1-non-self-behavioral-source bar comfortably. STRICT SCOPE ENFORCEMENT PER THE RESEARCH BRIEF: every row above is drawn only from Hughes's roughly 1927-1947 professionally-documented conduct (Hell's Angels production, the H-1 Racer, the H-4 Hercules, the 1947 Senate hearing). Deliberately excluded: (1) any material from or referencing Hughes's post-late-1940s/1950s reclusive period, OCD-pattern behavior, or germaphobia -- this is a health/psychological-condition matter per this rubric's explicit instruction, and no row rests on it even partially; (2) a passing line in the Invention & Technology source describing Hughes as prone to 'frequently disappearing for extended periods, leaving associates without decision-making authority' was deliberately NOT used as row evidence, because it could not be confidently dated to strictly the pre-1950s professional period as distinct from the later, explicitly-excluded pattern -- excluded on caution rather than investigated and cleared. No row infers anything from bereavement, disability, or private conditions. Pilot-fatality counts during Hell's Angels varied across secondary sources (two to four, depending on source) and are therefore not cited as a specific number in any row -- only the independently-corroborated, TCM-sourced facts (reshoot ratio, actress replacement, Hughes's own stunt flight and crash) are used. PORTRAIT: found via direct Wikimedia Commons API search and verified live -- Library of Congress 1940s photograph (LC-USZ62-63333, 'no copyright found'), 1092x1437, already under the 1600px-long-edge convention so no resize was needed; downloaded directly and saved to public/portraits/howard-hughes-loc-1940s.jpg; final pixel dimensions reverified directly against the saved file. Chosen specifically because its documented subject (Hughes with his Boeing 100A Army Pursuit Plane) matches this profile's pre-1950s aviation-engineering focus, rather than a later-period image."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "하워드 휴스"
+    }
+  }
+}

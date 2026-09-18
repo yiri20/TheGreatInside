@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "guglielmo-marconi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Guglielmo Marconi",
+    "aliases": [
+      "Guglielmo Giovanni Maria Marconi",
+      "1st Marquis Marconi"
+    ],
+    "wikidataId": "Q36488",
+    "birthYear": 1874,
+    "deathYear": 1937,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology",
+      "physics"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "innovation",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_marconi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Guglielmo Marconi -- orientation only, not cited as evidence for any scored row",
+      "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
+    },
+    {
+      "id": "src_marconi_wikidata",
+      "kind": "wikidata",
+      "title": "Guglielmo Marconi (Q36488)",
+      "url": "https://www.wikidata.org/wiki/Q36488"
+    },
+    {
+      "id": "src_marconi_ethw_bio",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE), \"Guglielmo Marconi\" -- institutional biographical account of his career buildout (English Channel stations by 1899, transatlantic transmitters 1901, London and New York companies). Fetched and read directly.",
+      "url": "https://ethw.org/Guglielmo_Marconi"
+    },
+    {
+      "id": "src_marconi_ethw_1901",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE Milestones program), \"Milestones: Transmission of Transatlantic Radio Signals, 1901\" -- institutional engineering-history record of the Sept 17 1901 Poldhu antenna storm destruction and makeshift rebuild. Fetched and read directly. Same institutional author as src_marconi_ethw_bio and src_marconi_ethw_1895 -- treated as ONE independent perspective across all three ETHW pages, not three.",
+      "url": "https://ethw.org/Milestones:Transmission_of_Transatlantic_Radio_Signals,_1901"
+    },
+    {
+      "id": "src_marconi_ethw_1895",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE Milestones program), \"Milestones: Marconi's Early Experiments in Wireless Telegraphy, 1895\" -- institutional technical account of the grounded-antenna/coherer synthesis and the Celestini hill 2km test. Fetched and read directly. Same institutional source as above.",
+      "url": "https://ethw.org/Milestones:Marconi's_Early_Experiments_in_Wireless_Telegraphy,_1895"
+    },
+    {
+      "id": "src_marconi_heritage_nl",
+      "kind": "institution",
+      "title": "Heritage Newfoundland and Labrador (Memorial University of Newfoundland), \"Marconi, Guglielmo\" -- academic heritage-institution account with specific detail on the Cape Cod storm destruction, the Signal Hill balloon/kite failures, the publicity-stunt framing, the sky-wave/curvature error, and the Anglo-American Telegraph Company lawsuit threat and Marconi's press deception. Fetched and read directly (via direct HTML retrieval after a TLS-verification issue on the standard fetch path).",
+      "url": "https://www.heritage.nf.ca/articles/society/marconi-guglielmo.php"
+    },
+    {
+      "id": "src_marconi_raboy_physicsworld",
+      "kind": "press",
+      "title": "Physics World, review of Marc Raboy, \"Marconi: The Man Who Networked the World\" (Oxford University Press, 2016) -- scholarly biography's findings on Marconi's patent-litigation aggression and business conduct, read via this press review reproducing its specific claims, not the full book volume.",
+      "url": "https://physicsworld.com/a/the-many-faces-of-marconi/"
+    },
+    {
+      "id": "src_marconi_scotus_1943",
+      "kind": "institution",
+      "title": "Marconi Wireless Telegraph Co. of America v. United States, 320 U.S. 1 (1943) -- US Supreme Court opinion invalidating Marconi's core four-circuit tuning patent as anticipated by Oliver Lodge's 1897 patent and John Stone Stone's 1900 patent. Official government/judicial record, fetched and read directly.",
+      "url": "https://caselaw.findlaw.com/court/us-supreme-court/320/1.html"
+    },
+    {
+      "id": "src_marconi_senate_testimony",
+      "kind": "archive",
+      "title": "Titanic Inquiry Project, US Senate Inquiry, Day 1, Testimony of Guglielmo Marconi (self-testimony, primary transcript) -- his own account of the Marconi company's staffing/accountability structure and equipment. Fetched and read directly.",
+      "url": "https://www.titanicinquiry.org/USInq/AmInq01Marconi01.php"
+    },
+    {
+      "id": "src_marconi_senate_report",
+      "kind": "archive",
+      "title": "Titanic Inquiry Project, US Senate Inquiry official committee report, \"Reporting Disaster\" section -- the Senate committee's own (non-self, institutional) findings on the Marconi company's conduct around the sale of operator accounts, and its note that Marconi personally approved prohibiting the practice. Fetched and read directly.",
+      "url": "https://www.titanicinquiry.org/USInq/USReport/AmInqRep09.php"
+    },
+    {
+      "id": "src_marconi_earlyradiohistory",
+      "kind": "archive",
+      "title": "earlyradiohistory.us (Thomas H. White), \"Marconi Company and Titanic Disaster Communication (1912)\" -- curated historical archive quoting the original Sammis-to-Cottam telegrams (\"Keep your mouth shut... Big money for you\") and contemporary New York Herald reporting of Marconi's own public denial of involvement. Fetched and read directly.",
+      "url": "http://earlyradiohistory.us/amtitan.htm"
+    },
+    {
+      "id": "src_marconi_nobel",
+      "kind": "award_body",
+      "title": "The Nobel Prize in Physics 1909 (Marconi and Karl Ferdinand Braun) -- Nobel Foundation official record. Cited for identity/orientation context ONLY, per this rubric's rule against inferring personality traits from prizes; not used as evidence for any scored row.",
+      "url": "https://www.nobelprize.org/prizes/physics/1909/summary/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Marconi designed the December 1901 transatlantic transmission attempt explicitly as a high-visibility public demonstration: Heritage NL states directly that 'if successful, the experiment would also provide a \"stunt\" that would give the relatively new technology, and Marconi's company, world-wide publicity' -- undertaken despite the fact that 'many scientists understood... [a radio wave] travels only in a straight line' and 'doubted whether radio waves could bend around the curvature of the earth,' a real, live scientific dispute with his company's commercial credibility and investor capital staked on the outcome (src_marconi_heritage_nl). The bet paid off, but for a reason Marconi did not understand at the time: the same source notes the signal actually reached Newfoundland via ionospheric 'sky wave' reflection rather than by following the earth's curvature as Marconi believed -- 'which although unknown at the time, had allowed Marconi to demonstrate that radio communication over great distances was possible.' Scored dual_edged rather than a clean vindicated-genius narrative: a real, staked gamble, won on a premise that was itself mistaken."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, compounding sequence of equipment failures, not a single lucky success, independently corroborated by two institutional sources. Heritage NL states the Poldhu (Cornwall) transmitting antenna was wrecked in a storm and 'had to be replaced by a smaller one,' that the planned Cape Cod receiving station 'was itself destroyed in a storm' (forcing Marconi to relocate the entire receiving operation to St. John's, Newfoundland), and that once at Signal Hill he faced 'unsuccessful attempts to keep an antenna aloft with balloons and kites, because of the high winds' before finally raising a working kite antenna 'for a short period of time for each of a few days' (src_marconi_heritage_nl). IEEE's ETHW independently confirms the Poldhu antenna's Sept 17 1901 storm destruction and Marconi's decision to proceed with a hastily improvised two-mast replacement rather than delay for a full rebuild (src_marconi_ethw_1901). Three independent equipment failures across two countries, each met with an immediate workaround rather than abandonment."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Days after his successful Dec 12 1901 reception, lawyers for the Anglo-American Telegraph Company (which held a Newfoundland telegraphic monopoly until 1904) threatened suit if Marconi continued operating there. Rather than fight 'a protracted legal battle with a well-financed commercial rival, or hav[e] to delay the construction of his station for three years,' Marconi 'immediately' abandoned the Newfoundland site and relocated -- the Canadian government, 'sensing an opportunity,' then offered him an alternative site (src_marconi_heritage_nl). A concrete, dated instance of abandoning a specific, legally-threatened plan and pivoting to a different path toward the same underlying commercial goal, rather than persisting head-on into the obstacle (contrast with the competitiveness row below, where he did choose to litigate aggressively on his own patents)."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, documented act of deliberate press manipulation, not a general 'good communicator' inference. Aware of the Anglo-American telegraph monopoly, Marconi 'deceived the press as to his real purpose in Newfoundland, claiming that he was experimentally communicating with ships at sea' -- concealing that he was actually attempting a monopoly-threatening transatlantic transmission -- specifically to prevent Anglo-American from blocking the experiment in advance, with the added benefit of avoiding 'embarrassment if the attempt failed' (src_marconi_heritage_nl). Effective narrative control in service of a real commercial/legal threat, but built on a specific, sourced act of public deception -- scored dual_edged rather than a flattering 'persuasive' framing."
+    },
+    "competitiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independent sources converge on an aggressive intellectual-property posture that outran what courts later found the underlying science actually supported. Marc Raboy's biography (read via a Physics World review) documents 'multiple and frequent threats of patent litigation to limit commercial competition' as a sustained pattern of Marconi's business conduct (src_marconi_raboy_physicsworld). Independently, the US Supreme Court's own 1943 opinion in Marconi Wireless Telegraph Co. v. United States, 320 U.S. 1 -- the final adjudication of Marconi's core tuning patent, which the company had asserted commercially for decades -- held the patent's broad claims invalid, finding they had been anticipated by Oliver Lodge's 1897 patent and John Stone Stone's 1900 patent (src_marconi_scotus_1943). A real, sustained competitive/litigious posture, independently shown by the courts to have overreached the actual scope of Marconi's own priority."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Real, documented engineering synthesis, not solitary invention from nothing. IEEE's ETHW Milestone record for the 1895 experiments credits Marconi's 'grounded antenna' and use of 'a very sensitive coherer' as the 'two crucial elements' that let him move Hertzian-wave experiments 'out of the laboratory... to overcome natural obstacles,' demonstrated by transmitting signals roughly 2km through Celestini hill near Villa Griffone (src_marconi_ethw_1895) -- a genuine, specific, verifiable technical synthesis. But the same US Supreme Court 1943 case cited under competitiveness above establishes, as a matter of adjudicated fact rather than reputation, that Marconi's core patented system built directly on Lodge's and Stone's prior patented work rather than an independent original conception (src_marconi_scotus_1943). Scored mid-range dual_edged to reflect both the real, specific integrative achievement and the documented priority dispute, rather than either a flattering 'lone genius' framing or a dismissive one."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, sustained pattern of recognizing and acting on commercial openings, not an inference from eventual fame. After his early experiments, Marconi built out wireless infrastructure in stages with a clear eye to commercial value: stations 'on both sides of the English Channel' by 1899, transatlantic transmitters by 1901, a London company (Wireless Telegraph and Signal Company) raised through private capital after William Preece, chief engineer of the British Post Office, backed his demonstrations, and a New York company by 1902 (src_marconi_ethw_bio). Heritage NL's independent account confirms the transatlantic attempt was conceived partly as deliberate publicity strategy: 'if successful, the experiment would also provide a \"stunt\" that would give the relatively new technology, and Marconi's company, world-wide publicity' (src_marconi_heritage_nl). Two independent institutional sources on a consistent, multi-year pattern of commercial opportunity-recognition."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "By 1912 Marconi headed a substantial commercial wireless operation -- his own Senate testimony describes 'a great number' of employees and a dual-accountability structure in which shipboard operators answered to ship captains for duties but to his company 'as to accounting for messages' (src_marconi_senate_testimony, self-testimony). But the same testimony reveals real operational distance: Marconi could not confirm the correct spelling of his own employee Cottam's name despite having met him the night before, and deferred to subordinates on salary and message-traffic specifics (src_marconi_senate_testimony). That distance had a documented consequence: T.W. Sammis, chief engineer of the American Marconi company, sent the Carpathia's operator telegrams reading 'Keep your mouth shut. Hold story. Big money for you' and 'Stop. Say nothing. Hold your story for dollars in four figures,' arranging to sell the disaster survivors' accounts to the press (src_marconi_earlyradiohistory, independent archival account quoting the original telegrams and contemporary New York Herald reporting). The US Senate committee's official report formally criticized 'the fact of that company's representatives making arrangements for the sale of the experiences of the operators of the Titanic and Carpathia' as conduct that 'subjects the participants to criticism,' while separately noting 'the committee are pleased to note that Mr. Marconi approves of such prohibition' against the practice (src_marconi_senate_report, institutional, independent) -- a documented gap between Marconi's own stated position and a senior subordinate's actual conduct under his company's name. Scored dual_edged: real organization-building (advantage) alongside a documented oversight gap with a real ethical cost (risk)."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/guglielmo-marconi-loc-1903.jpg",
+    "width": 1281,
+    "height": 1600,
+    "source": "Library of Congress, Prints & Photographs Division, via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi,_half-length_portrait,_seated,_facing_left_LCCN98519209.jpg",
+    "attribution": "Library of Congress, Prints & Photographs Division, reproduction number LCCN 98519209 (half-length portrait, seated, facing left; 1903 photographic print)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi,_half-length_portrait,_seated,_facing_left_LCCN98519209.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q36488) verified live before scoring: label 'Guglielmo Marconi', description 'Italian inventor and radio pioneer (1874-1937)'. Slug checked against the live data-pipeline/candidates/ listing -- no collision. REGION DECISION, LIVE-VERIFIED PER THIS PROJECT'S OWN INVARIANT THAT REPOSITORY STATE OUTRANKS ANY SUGGESTED DEFAULT: grepped every existing candidate file with 'IT' in nationalityCodes (7 files: emilio-segre, enrico-fermi, galileo-galilei, giuseppe-garibaldi, marco-polo, michelangelo, thomas-aquinas). Six of seven use regionCode 'southern_europe'; the sole exception, emilio-segre, uses 'north_america' and (checked separately) carries a second US nationality code reflecting his emigration -- not a relevant precedent for Marconi, who is IT-only. Followed the dominant, near-unanimous convention: regionCode set to 'southern_europe'. EVIDENCE READ: 9 substantive sources beyond Wikipedia/Wikidata orientation, spanning three independent institutional/archival bodies plus press and official US government/judicial records. ETHW (IEEE) is cited across three separate pages (general bio, 1901 Milestone, 1895 Milestone) but treated throughout as ONE independent perspective, not three, per this rubric's same-author/same-institution rule. Independent of ETHW: Heritage Newfoundland and Labrador (Memorial University of Newfoundland, an academic heritage institution -- this was the single richest source found, with specific dated detail on the Cape Cod storm, the Signal Hill balloon/kite failures, the publicity-stunt framing, the sky-wave/curvature-theory error, and the Anglo-American Telegraph Company lawsuit threat and Marconi's own press deception in response to it); Marc Raboy's scholarly biography (read via a Physics World review reproducing its specific claims, not the full book -- noted honestly rather than overclaiming a direct read); the US Supreme Court's own 1943 opinion in Marconi Wireless Telegraph Co. v. United States (320 U.S. 1), an official judicial record read directly; the US Senate's official Titanic inquiry report and Marconi's own primary testimony transcript (Titanic Inquiry Project archive, two genuinely different authorial voices -- the Senate committee vs. Marconi himself -- despite shared hosting); and earlyradiohistory.us, an independent curated archive quoting the original Sammis-to-Cottam telegrams and contemporary New York Herald reporting. This clears the 2-independent-perspective / 1-non-self-behavioral-source bar many times over: ETHW, Heritage NL, Raboy/Physics World, the Supreme Court opinion, the Senate committee report, and earlyradiohistory.us are all mutually independent and non-self. DELIBERATE EXCLUSIONS: the Nobel Prize (1909) is listed as a source for identity/orientation context only and is NOT cited as evidence for any scored row, per this rubric's rule against inferring personality traits from awards or fame. Marconi's documented later-life involvement with Italian fascism (membership, Royal Academy of Italy presidency, Fascist Grand Council seat) was deliberately NOT used as evidence for any row: this rubric's scope is professional/technical/business conduct, and scoring political alignment risked conflating a real but separate biographical fact with personality-trait evidence in a way that could read as political framing rather than behavioral evidence -- excluded on caution, not because it was investigated and found irrelevant. No row infers anything from health, bereavement, or private conditions. PORTRAIT: found via direct Wikimedia Commons API search and verified live -- Library of Congress half-length 1903 portrait (LCCN 98519209), Public Domain, originally 3279x4096, resized to 1281x1600 (long edge capped at 1600px per convention) using Python PIL and saved to public/portraits/guglielmo-marconi-loc-1903.jpg; final pixel dimensions reverified directly against the saved file."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "굴리엘모 마르코니"
+    }
+  }
+}

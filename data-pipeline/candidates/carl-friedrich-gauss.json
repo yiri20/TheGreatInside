@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "carl-friedrich-gauss",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Carl Friedrich Gauss",
+    "aliases": [
+      "Johann Carl Friedrich Gauss",
+      "Carl Gauss",
+      "Princeps mathematicorum (\"Prince of Mathematicians\")"
+    ],
+    "wikidataId": "Q6722",
+    "birthYear": 1777,
+    "deathYear": 1855,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist",
+      "astronomer"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics",
+      "natural_science",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "engineering",
+      "technological",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "perfectionist",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gauss_wikipedia",
+      "kind": "wikipedia",
+      "title": "Carl Friedrich Gauss",
+      "url": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+    },
+    {
+      "id": "src_gauss_wikidata",
+      "kind": "wikidata",
+      "title": "Carl Friedrich Gauss (Q6722)",
+      "url": "https://www.wikidata.org/wiki/Q6722"
+    },
+    {
+      "id": "src_gauss_mactutor_gauss",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics Archive (University of St Andrews), \"Carl Friedrich Gauss\" -- scholarly biographical account covering his Gottingen Observatory directorship (1807-1855), the Hanover geodesic survey (1820-1844) and heliotrope invention, the Gauss-Weber telegraph, and his publication habits. Fetched and read directly.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/"
+    },
+    {
+      "id": "src_gauss_mactutor_germain",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics Archive (University of St Andrews), \"Sophie Germain\" -- scholarly account of Germain's correspondence with Gauss under the pseudonym 'M LeBlanc,' the 1806/07 Braunschweig incident, and Gauss's documented reaction on learning her identity, with direct quotations from their letters. Fetched and read directly. Same authorial/institutional source as src_gauss_mactutor_gauss and src_gauss_mactutor_bolyai -- treated as one independent perspective across all three MacTutor pages, not three.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Germain/"
+    },
+    {
+      "id": "src_gauss_mactutor_bolyai",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics Archive (University of St Andrews), \"Janos Bolyai\" -- scholarly account of Gauss's 1832 letter to Farkas Bolyai on receiving Janos's non-Euclidean geometry Appendix, with direct quotation ('To praise it would amount to praising myself...'). Fetched and read directly. Same MacTutor source as above.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bolyai/"
+    },
+    {
+      "id": "src_gauss_ethw_weber",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE), \"Wilhelm Eduard Weber\" -- independent institutional account of Weber's 1831 Gottingen appointment (on Gauss's recommendation), the 1833 Gauss-Weber electromagnetic telegraph, and their co-founded Magnetischer Verein and jointly-compiled Atlas of Geomagnetism. Fetched and read directly.",
+      "url": "https://ethw.org/Wilhelm_Eduard_Weber"
+    },
+    {
+      "id": "src_gauss_maglab",
+      "kind": "institution",
+      "title": "National MagLab, Magnet Academy, \"Gauss-Weber Telegraph -- 1833\" -- independent institutional museum account confirming the telegraph's construction, purpose, and the observatory-to-physics-institute wire link. Fetched and read directly.",
+      "url": "https://nationalmaglab.org/magnet-academy/history-of-electricity-magnetism/museum/gauss-weber-telegraph-1833/"
+    },
+    {
+      "id": "src_gauss_dunnington_letters",
+      "kind": "biography",
+      "title": "G. Waldo Dunnington, Carl Friedrich Gauss: Titan of Science (Mathematical Association of America, 2004 reissue of the 1955 original) -- academic biography's direct quotations of Gauss's own letters on teaching, dated and addressed to three separate named correspondents (Heinrich Olbers, 26 Oct 1802; Heinrich Schumacher, 2 Oct 1808; Friedrich Bessel, 4 Dec 1808). Read via a dedicated science-quotations compilation that reproduces Dunnington's cited text and page numbers directly (todayinsci.com), not the full biography volume.",
+      "url": "https://todayinsci.com/G/Gauss_Carl/GaussCarl-Education-Quotations.htm"
+    },
+    {
+      "id": "src_gauss_americanscientist_hayes",
+      "kind": "press",
+      "title": "Brian Hayes, \"Gauss's Day of Reckoning,\" American Scientist -- press/scholarly examination of the credibility of the famous sum-1-to-100 schoolboy anecdote, concluding Sartorius von Waltershausen's 1856 memorial biography 'never mentions the numbers 1 through 100, or any other specific series, and gives no hint of how Gauss solved the problem,' i.e. the vivid, specific modern version is a later embellishment. NOT used to support any scored row -- see provenance notes. The live page returned repeated HTTP 503 errors on three direct-fetch attempts; read via search-result excerpts that reproduce specific quoted text from the article, not the full article.",
+      "url": "https://www.americanscientist.org/article/gausss-day-of-reckoning"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, verifiable, decades-long publication practice, not just a reputation for perfectionism. Gauss's own stated principle, 'pauca sed matura' ('few, but ripe'), described a real, sustained standard of withholding completed mathematical results from publication for years or decades pending further verification. This is independently confirmed by the historical record itself, not only by his own claim: historians examining Gauss's surviving mathematical diary and papers after his death found he had privately anticipated major results in non-Euclidean geometry and elliptic functions years to decades before their independent, credited (re)discovery by others (src_gauss_mactutor_gauss). Directly corroborated by the specific, dated 1832 letter scored separately under competitiveness below, in which Gauss states his unpublished results on non-Euclidean geometry dated back 'thirty or thirty-five years' -- a concrete, first-person claim of results withheld for over three decades (src_gauss_mactutor_bolyai). Scored dual_edged rather than a clean advantage: this was a genuine, disciplined standard (advantage), but the same withholding pattern is directly implicated in the real interpersonal cost documented under competitiveness (risk)."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, institutional-level output across four distinct fields, independently documented by multiple sources, not dabbling: pure mathematics (uncontested); astronomy, as Director of the Gottingen Observatory for essentially his entire career, 1807 until his death in 1855 (src_gauss_mactutor_gauss); geodesy, personally leading the Hanover geodesic survey (1820-1844) and inventing the heliotrope surveying instrument for it (src_gauss_mactutor_gauss); and physics/terrestrial magnetism, in a sustained multi-year collaboration with Wilhelm Weber building an early electromagnetic telegraph (1833) and co-founding the Gottingen Magnetischer Verein, independently confirmed by two further institutional sources beyond MacTutor (src_gauss_ethw_weber, src_gauss_maglab). Four fields, each with real sustained output (a multi-decade directorship, a 24-year survey project, a named co-founded institution)."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, sustained work routine documented for the Hanover geodesic survey (1820-1844): Gauss personally took charge of 'making measurements during the day and reducing them at night, using his extraordinary mental capacity for calculations,' and designed the heliotrope specifically to improve the survey's positional accuracy over long distances by reflecting sunlight through a system of mirrors and a small telescope (src_gauss_mactutor_gauss). A specific, sustained, hands-on measurement-and-calculation practice, not an inference from his general reputation for rigor. One independent source directly on point, kept below the 85+ band accordingly."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A genuine, sustained, named multi-year partnership, not a nominal one: Gauss recommended Wilhelm Weber's 1831 hire to Gottingen, then worked directly with him from 1833 to build one of the world's first practical electromagnetic telegraphs, linking Gauss's observatory to Weber's physics institute by wire; the two also co-founded the Gottingen Magnetischer Verein (Magnetic Union) to coordinate international geomagnetic measurement and jointly compiled an 'Atlas of Geomagnetism' (src_gauss_ethw_weber, src_gauss_maglab -- two independent institutional sources beyond MacTutor's own brief mention of the same telegraph). A specific, named, multi-year, multi-project collaboration with a consistent partner."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, dated, directly-quoted 1832 incident with a real documented interpersonal cost, not an inference from reputation. On reading Janos Bolyai's newly published Appendix on non-Euclidean geometry, Gauss told a third party Bolyai was 'a genius of the first order,' but wrote directly to Bolyai's father Farkas -- his own long-time correspondent -- that 'to praise it would amount to praising myself,' since the results 'coincide[d] almost exactly with my own meditations' of the past thirty to thirty-five years, work Gauss had never published or left written proof of among his surviving papers (src_gauss_mactutor_bolyai, src_gauss_mactutor_gauss). The documented outcome: this 'greatly upset' Janos Bolyai, who took it as a severe blow. Scored dual_edged rather than a flattering clean priority claim: Gauss's underlying claim was plausible (consistent with the independently-documented decades-withheld-results pattern scored under discipline), but he chose to assert it privately, to the father rather than the son, in a way that cost a genuinely original young mathematician real recognition rather than crediting the independent achievement or settling the matter by publishing his own prior work. Documented from one directly-quoted, dated incident; kept at moderate score/confidence rather than an extreme rather than treating a single (if well-attested) incident as defining."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, documented instance of evaluating work strictly on its mathematical merit against the strong social convention of his era that women could not be serious mathematicians, not a general 'progressive' characterization. Before learning the identity of his correspondent 'M LeBlanc' (a pseudonym Sophie Germain adopted specifically because she 'feared being ignored because she was a woman'), Gauss wrote admiringly to a colleague that LeBlanc had 'made himself enthusiastically familiar with higher mathematics' and 'showed how deeply he penetrated' his Disquisitiones Arithmeticae. On learning, via her own letter after a French-military incident forced the reveal, that LeBlanc was a woman, Gauss's documented response was direct, specific admiration rather than dismissal or embarrassment: 'how to describe to you my admiration and astonishment at seeing my esteemed correspondent M LeBlanc metamorphose himself into this illustrious personage' (src_gauss_mactutor_germain). Scored from this specific, quoted reaction, not from the achievement of corresponding with Germain itself."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "This row's evidence is entirely self-testimony (Gauss's own letters), which this rubric caps appropriately rather than scoring as strongly as an independently-corroborated pattern -- confidence held in the 0.48 band for exactly that reason. Across three separate, dated letters to three different named correspondents over a six-year span, Gauss consistently described teaching as an unwelcome externally-imposed obligation pulling him from self-directed work: 'I have a true aversion to teaching' (to Heinrich Olbers, 26 Oct 1802); instruction was 'very purposeless' for the kind of independent-minded student he valued (to Heinrich Schumacher, 2 Oct 1808); and his lecture courses 'cost much more of my time than I like' (to Friedrich Bessel, 4 Dec 1808) (src_gauss_dunnington_letters). A real, repeated, dated pattern across multiple addressees rather than one offhand remark, but scored as documented/moderate-confidence rather than higher specifically because no independent (non-self) source in this research corroborates the underlying claim with its own separate observation."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/carl-friedrich-gauss-biermann-1887.jpg",
+    "width": 917,
+    "height": 1180,
+    "source": "Gauss-Gesellschaft Gottingen e.V. (photo: A. Wittmann), via Wikimedia Commons",
+    "license": "Public Domain (PD-old-100; painted 1887, artist Gottlieb Biermann died 1908)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss.jpg",
+    "attribution": "Gottlieb Biermann, 1887, after the 1840 original portrait by Christian Albrecht Jensen",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q6722) verified live before scoring: label 'Carl Friedrich Gauss', description 'German mathematician and physicist (1777-1855)'. Name/slug checked against data-pipeline/candidates/ live listing -- no collision. REGION DECISION -- DEVIATION FROM THE RESEARCH BRIEF, RESOLVED BY LIVE VERIFICATION PER THIS PROJECT'S OWN INVARIANT THAT REPOSITORY STATE OUTRANKS ANY DOCUMENT: the research brief suggested regionCode 'central_europe' for Gauss and explicitly asked that it be verified against existing German candidates rather than assumed. Live-checked every already-committed candidate file with a pure DE nationalityCodes entry (13 files: albert-einstein, alexander-von-humboldt, emmy-noether, frederick-the-great, hildegard-of-bingen, immanuel-kant, ludwig-van-beethoven, marlene-dietrich, otto-von-bismarck, pina-bausch, werner-heisenberg use 'western_europe'; only ludwig-van-beethoven, rosa-luxemburg, and willy-brandt use 'central_europe', and the latter two carry a second non-DE nationality code). The dominant, near-unanimous corpus convention for a pure-DE candidate is 'western_europe' (9 of 12 pure-DE precedents, including the closest analog -- Einstein, another 19th/20th-century German-born scientist). Followed that live-verified dominant convention over the brief's suggestion; regionCode set to 'western_europe' accordingly. EVIDENCE READ: 7 substantive sources beyond Wikipedia/Wikidata orientation. MacTutor (University of St Andrews) is cited across three separate pages (Gauss, Sophie Germain, Janos Bolyai) but treated throughout as ONE independent perspective, not three, per this rubric's same-author rule. Independent of MacTutor: the IEEE Engineering and Technology History Wiki and National MagLab's Magnet Academy (both institutional, both corroborating the Weber telegraph collaboration with details MacTutor itself does not give), and Dunnington's academic biography (read via a quotations compilation that reproduces his cited, dated letter text and page numbers, not the full volume) for Gauss's own teaching-aversion letters. This clears the 2-independent-perspective / 1-non-self-behavioral-source bar: MacTutor, ETHW, and MagLab are all non-self and mutually independent. THE SUM-1-TO-100 ANECDOTE WAS DELIBERATELY NOT USED, per the brief's explicit instruction to check its credibility first: Brian Hayes's American Scientist piece concludes Sartorius von Waltershausen's original 1856 biography 'never mentions the numbers 1 through 100, or any other specific series, and gives no hint of how Gauss solved the problem' -- the vivid, specific, widely-repeated modern version is a later biographers' embellishment (Winnecke and others), not Sartorius's own account. That source itself could not be directly fetched (three attempts, all HTTP 503) and was read only via search-result excerpts reproducing its specific quoted text -- it is listed in sources for transparency about this anecdote-verification step but is NOT cited as support for any scored row. No row in this profile rests on the anecdote in any form. No row infers anything from Gauss's health, his first wife's 1809 death, or any other bereavement."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "카를 프리드리히 가우스"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "james-clerk-maxwell",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "James Clerk Maxwell",
+    "aliases": [
+      "J. Clerk Maxwell"
+    ],
+    "wikidataId": "Q9095",
+    "birthYear": 1831,
+    "deathYear": 1879,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "theorist",
+      "founder",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_maxwell_wikipedia",
+      "kind": "wikipedia",
+      "title": "James Clerk Maxwell",
+      "url": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+    },
+    {
+      "id": "src_maxwell_wikidata",
+      "kind": "wikidata",
+      "title": "James Clerk Maxwell (Q9095)",
+      "url": "https://www.wikidata.org/wiki/Q9095"
+    },
+    {
+      "id": "src_maxwell_campbell_garnett_1882",
+      "kind": "biography",
+      "title": "Lewis Campbell & William Garnett, The Life of James Clerk Maxwell, With a Selection from His Correspondence and Occasional Writings (Macmillan, 1882). Campbell was Maxwell's own school-friend from Edinburgh Academy onward; Garnett was Maxwell's personally-appointed Demonstrator at the Cavendish Laboratory, 1874-1879 -- a direct subordinate colleague, not a distant biographer. Near-primary: reproduces dozens of Maxwell's own letters verbatim alongside direct, named, dated testimony from Faraday, Stokes, Tyndall, Thomson (Lord Kelvin), Arthur Schuster, and Lord Rayleigh. Fetched and read in full (18,800 lines) via a public full-text PDF mirror (sonnetsoftware.com); third-party quotations embedded in it (Faraday's, Thomson's, Schuster's, Rayleigh's own words) are cited here AS QUOTED IN Campbell & Garnett, not independently re-verified against each quoted person's own original archive.",
+      "url": "https://www.sonnetsoftware.com/bio/maxbio.pdf"
+    },
+    {
+      "id": "src_maxwell_falconer_cavendish_2015",
+      "kind": "press",
+      "title": "Isobel Falconer (University of St Andrews), \"Editing Cavendish: Maxwell and The Electrical Researches of Henry Cavendish\" -- invited talk, International Conference on the History of Physics, Trinity College, Cambridge, Sept. 2014; published version April 2015 (arXiv:1504.07437). A historian-of-science's scholarly essay drawing directly on the Cambridge University Library Maxwell Collection and Kelvin collection archives, with page-level citations to Maxwell's own Scientific Letters and Papers (ed. Harman). Fetched as a PDF directly from arxiv.org and read in full.",
+      "url": "https://arxiv.org/pdf/1504.07437"
+    },
+    {
+      "id": "src_maxwell_cavendish_lab_history",
+      "kind": "institution",
+      "title": "University of Cambridge, Cavendish Laboratory, \"Our history\" -- the Laboratory's own institutional account of Maxwell's 1871 appointment as first Cavendish Professor, the 1874 opening, and his successor's (Rayleigh's) subsequent formalization of the teaching programme. Fetched and read directly.",
+      "url": "https://www.phy.cam.ac.uk/about/our-history/"
+    },
+    {
+      "id": "src_maxwell_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics Archive (University of St Andrews), \"James Clerk Maxwell\" -- scholarly biographical account covering the Cavendish appointment/design, the kinetic theory work, and correspondence with Stokes. Fetched and read directly.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/"
+    },
+    {
+      "id": "src_maxwell_color_photo_dating",
+      "kind": "press",
+      "title": "\"James Clerk Maxwell Produces the First Color Photograph\", History of Information (Jeremy Norman & Co. reference site), corroborated by the James Clerk Maxwell Foundation's own account (clerkmaxwellfoundation.org) -- both independently converge on the 17 May 1861 Royal Institution discourse date, the tartan-ribbon subject, and photographer Thomas Sutton's role, citing the demonstration's original publication in Notices of the Proceedings at the Meetings of the Members of the Royal Institution, vol. 3 (1858-62), p.374. NOTE ON VERIFICATION LIMIT: this specific 1862 Notices archival document was not directly fetched and read this session -- the date/venue/publication citation is corroborated across multiple independently-authored secondary accounts that converge on the same specific page citation, not verified against the primary Royal Institution archive page itself.",
+      "url": "https://www.historyofinformation.com/detail.php?id=3666"
+    },
+    {
+      "id": "src_maxwell_jcm_foundation",
+      "kind": "institution",
+      "title": "James Clerk Maxwell Foundation (14 India Street, Edinburgh -- Maxwell's birthplace, now a museum and charitable trust dedicated to his life and work), \"First Colour Photographic Image by Maxwell\". Fetched and read directly.",
+      "url": "http://www.clerkmaxwellfoundation.org/html/first_colour_photographic_image.html"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, hands-on standard for the Cavendish Laboratory's physical design, not an inference from his general reputation for rigor. Before drawing up plans, Maxwell personally \"inspected the Physical Laboratories of Sir William Thomson at Glasgow and of Professor Clifton at Oxford, in order to embody in the new structure the best features of both,\" though \"many of the most important arrangements were of his own invention\" (src_maxwell_campbell_garnett_1882). His surviving draft letter to the Vice-Chancellor of 5 July 1873 lays out a provisional, room-by-room list of fixtures and apparatus, distinguishing what could simply be ordered from what had to be specially constructed, and states the specific research priorities (elasticity/molecular constitution for heat; precise measurement of electric quantities) that should govern how the rooms were allotted (src_maxwell_campbell_garnett_1882, reproducing Maxwell's own letter). Once in charge, \"the Professor would never order an important instrument until he was satisfied that its design and construction were the best that could be obtained\" -- a sustained standard, not a one-off decision, documented by his own colleague Garnett who watched it enforced for years (src_maxwell_campbell_garnett_1882). Independently corroborated in a different domain by Falconer's scholarly account of his 1874-79 Cavendish-papers editing: he insisted on reproducing Henry Cavendish's own rough diagrams with \"no conjectural emendations\" rather than tidying them as a previous editor (Harris) had done, and personally had a student (Donald McAlister) repeat Cavendish's 1771 hollow-sphere experiment with an improved, more shielded apparatus, raising its precision from Cavendish's own claimed 1-in-50 to roughly 1-in-21,600 (src_maxwell_falconer_cavendish_2015)."
+    },
+    "persistence": {
+      "score": 75,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, multi-year, obstacle-laden pursuit, not an inference from finished-output volume. Maxwell began inquiring after Henry Cavendish's long-lost unpublished 18th-century electrical papers in 1869 -- two years before he had any personal connection to the Cavendish family -- writing to intermediary Charles Tomlinson; by 1873 the papers' custodian (the late Sir William Snow Harris's son) was still reluctant to give them up, so Maxwell enlisted the Duke of Devonshire directly, awkwardly having to be told the Duke and the 'Earl of Burlington' he'd separately written about were the same person; the papers finally reached Maxwell's hands in July 1874, after which he and his Demonstrator William Garnett spent five more years (1874-1879) transcribing and editing them, publishing the result in October 1879, the month before Maxwell died (src_maxwell_falconer_cavendish_2015, citing Maxwell's own Scientific Letters and Papers throughout). His own stated resolve, in a letter to Thomson: \"I am just going to walk the plank with them for the sake of physical science.\" Scored dual_edged rather than a clean advantage because Falconer's own scholarly framing explicitly notes this project \"is often assumed to be a work of duty to the Cavendish family, and an unfortunate waste of Maxwell's time\" -- a real, documented complicating perspective on how he spent a large fraction of his scarce final years, not a flattering one-sided persistence narrative."
+    },
+    "cross_domain_range": {
+      "score": 84,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, technically substantive output across genuinely distinct fields, independently documented by multiple sources, not dabbling: mathematical electromagnetism (extending Faraday's lines of force into four field equations, 1855-1873); the kinetic theory of gases (velocity-distribution law, viscosity and diffusion work, 1859-1867); colour science, running from a quantitative theory of colour perception (praised by Stokes as established \"on an exact numerical basis\" in a letter of 7 Nov. 1857, read directly in src_maxwell_campbell_garnett_1882) through to the 1861 public colour-photography demonstration (see experimentation row); celestial mechanics (his 1857 Adams Prize essay on the dynamical stability of Saturn's rings); and, as first Cavendish Professor (1871-1879), founding and directing an entire experimental-physics institution from scratch, plus a parallel five-year project of historical scientific editing (src_maxwell_mactutor; src_maxwell_cavendish_lab_history; src_maxwell_campbell_garnett_1882). Four or more substantively distinct fields with real sustained output in each, not a superficial list of interests."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Two specific, documented instances of genuine conceptual invention, not an inference from reputation. First, a concrete cross-domain transfer: \"It is probable that the investigations connected with Saturn's rings, which led Maxwell to contemplate the condition of the air in the midst of 'a flight of brickbats,' first led him to take up the subject of the kinetic theory of gases\" -- the same 'statistical method' he developed to analyse colliding ring-particles (an astronomy/mechanics problem) he then carried whole into an unrelated field, gas physics (src_maxwell_campbell_garnett_1882). Second, 'Maxwell's demon': a specific thought experiment -- an imagined creature sorting fast and slow gas molecules through a trap-door without expending energy, apparently circumventing the second law of thermodynamics -- devised to probe the statistical (rather than absolute) character of thermodynamic law, described in technical detail in the biography and still an active reference point in physics and information theory today (src_maxwell_campbell_garnett_1882). Scored strong_inference rather than documented because both instances are read from a single compiled source (the biography), even though each describes a specific, nameable, technically detailed conceptual act rather than a vague originality reputation."
+    },
+    "collaboration": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two separate, named, multi-year, substantively intellectual partnerships, not nominal ones. With Michael Faraday: Maxwell's programme of mathematically formalizing Faraday's lines-of-force concept (from his 1855-56 paper onward) grew into real personal exchange -- a 9 Nov. 1857 letter from Faraday that Maxwell had sent him prompted Faraday's direct reply that it was \"the first intercommunication on the subject with one of your mode and habit of thinking. It will do me much good, and I shall read and meditate it again and again,\" and by 1861 the relationship was warm enough that Faraday recognized Maxwell in a crowded Royal Institution lecture theatre and jested, \"Ho, Maxwell, cannot you get out? If any man can find his way through a crowd it should be you\" (src_maxwell_campbell_garnett_1882). With William Thomson (Lord Kelvin): a sustained, working correspondence from at least 1868 onward on the capacities and potentials of conducting bodies, which directly led Maxwell to the Cavendish-papers project (Thomson had seen the papers briefly in 1849 and spent 20 years urging their publication); Maxwell reported every stage of his multi-year effort to recover them to Thomson, and later, in editing them, used Thomson's higher-precision quadrant electrometer to re-run Cavendish's key experiment (src_maxwell_falconer_cavendish_2015, citing the Cambridge University Library Kelvin and Maxwell collections directly). Two distinct, named, multi-year collaborators, not a single generic 'worked well with others' claim."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, dated, physically-executed public demonstration, not an abstract theoretical claim. Having already established a quantitative three-primary-colour-perception theory (independently praised by G. G. Stokes in a letter of 7 Nov. 1857, read directly in src_maxwell_campbell_garnett_1882, as established 'on an exact numerical basis'), Maxwell went on, at a Royal Institution discourse on 17 May 1861, to turn that theory into a working physical apparatus: he had photographer Thomas Sutton make three separate exposures of a tartan ribbon through red, green, and blue-violet filters, then projected the three resulting transparencies in registration through three magic lanterns fitted with matching filters, reconstituting a full-colour image live before the audience -- widely credited as the first durable demonstration of additive colour synthesis (src_maxwell_color_photo_dating; src_maxwell_jcm_foundation, both converging independently on the same 17 May 1861 date, venue, and Sutton collaboration). Confidence held at a moderate 0.55 rather than higher because the specific archival citation for the demonstration (Notices of the Proceedings at the Royal Institution, vol.3, p.374) was corroborated across multiple independently-authored secondary accounts rather than fetched and read directly this session -- see the source's own verification-limit note."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "This row's evidence is entirely self-testimony, which this rubric caps appropriately -- confidence held at 0.42 for exactly that reason, well below what an independently-corroborated pattern would earn. In an unfinished, posthumously-published fragment, Maxwell wrote of his own earlier working method: \"In the larger treatise I sometimes made use of methods which I do not think the best in themselves, but without which the student cannot follow the investigations of the founders of the Mathematical Theory of Electricity. I have since become aware of the superiority of methods akin to those of Faraday, and have therefore adopted them from the first\" (quoted in src_maxwell_campbell_garnett_1882) -- a specific, first-person, dated admission of revising his own preferred mathematical approach in favour of a colleague's more physical one, rather than a vague 'open-minded' characterization."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, non-self-reported incident, witnessed and later recounted by a named colleague, not an inference from his scientific output. While verifying Cavendish's 18th-century method of judging electrical conductivity by comparing the strength of shocks taken directly through the experimenter's own body, Maxwell 'proceeded with gusto to verify the method, conscripting students and visitors alike to try it.' Arthur Schuster -- a physicist who worked alongside Maxwell at the Cavendish Laboratory -- recalled 'a young American astronomer expressing in severe terms his disappointment that, after travelling on purpose to Cambridge to make Maxwell's acquaintance and to get some hints on astronomical subjects, [Maxwell] would only talk about Cavendish, and almost compelled him to take his coat off, plunge his hands into basins of water and submit himself to the sensation of a series of electrical shocks' (src_maxwell_falconer_cavendish_2015, quoting Schuster directly). Scored dual_edged deliberately: this is genuine, specific, independently-witnessed research enthusiasm, but the same episode shows it could override a visitor's own stated purpose and produce real, documented annoyance -- not a one-sided flattering curiosity narrative."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Inferred from a specific documented action plus independent, named contemporary testimony about its effect, not from reputation alone. As a Cambridge Moderator and Examiner in 1866, Maxwell deliberately used his authority over exam questions to redirect the curriculum -- contemporaries recalled that 'Maxwell's questions... infused fresh life into the Cambridge Tripos... by the number of original ideas and new lines of thought opened up by them,' preparing the way for the 1873 examination reforms (src_maxwell_campbell_garnett_1882). Independently, William Thomson (Lord Kelvin) wrote in a dated letter of 21 Jan. 1882 that 'the influence of Maxwell at Cambridge had undoubtedly a great effect in directing mathematical studies into more fruitful channels... above all, his work in planning and carrying out the arrangements of the Cavendish Laboratory,' and Lord Rayleigh separately told a public Cambridge meeting that finding the university 'so saturated with the subject' of electricity because of Maxwell was what led him to make it his own particular study (both quoted in src_maxwell_campbell_garnett_1882). Two separate named contemporaries, independent of each other, crediting a specific institutional redirection to Maxwell's deliberate choices as examiner and laboratory-builder. Scored strong_inference rather than documented because it infers a motivational disposition (leadership drive) from documented actions and their witnessed effects, not from a directly self-reported drive."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/james-clerk-maxwell-dibner-portrait.jpg",
+    "width": 936,
+    "height": 1461,
+    "source": "Smithsonian Institution Libraries, Dibner Library of the History of Science and Technology (\"Scientific Identity: Portraits from the Dibner Library\" collection), via Flickr Commons / Wikimedia Commons",
+    "license": "No known copyright restrictions (Smithsonian Institution @ Flickr Commons)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_James_Clerk_Maxwell_(1831-1879),_Physicist_(2551826378).jpg",
+    "attribution": "Unidentified photographer, sepia photograph, prior to 1879 (i.e. taken within Maxwell's lifetime). Smithsonian Institution Libraries, accession no. SIL14-M002-13.",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_James_Clerk_Maxwell_(1831-1879),_Physicist_(2551826378).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q9095) verified live before scoring: label 'James Clerk Maxwell'. Slug checked against the live data-pipeline/candidates/ listing -- no collision, no existing Maxwell file. REGION/ERA DECISION verified live against the existing repo corpus rather than assumed: every checked British/Scottish candidate with a pure GB nationalityCodes entry born in this general period (isaac-newton, michael-faraday, charles-darwin, bertrand-russell, stephen-hawking) uses regionCode 'western_europe'; alexander-graham-bell (GB+other) uses 'north_america' reflecting his emigration, not applicable here. era '19th_century' matches michael-faraday and charles-darwin, both direct contemporaries. occupationIds ('physicist', 'mathematician') and fieldIds ('physics', 'mathematics') verified live as existing values in src/core/i18n/en.ts and the attribute taxonomy in src/core/attributes/attributes.ts (34-attribute list) was read directly before any row was scored, to score only against real attribute ids. EVIDENCE READ: six substantive sources beyond Wikipedia/Wikidata orientation, fetched and read directly this session (not merely named): (1) Campbell & Garnett's 1882 near-primary biography, fetched as a full-text PDF and read in full (18,800 lines) -- written by two people who personally knew Maxwell (a school-friend and his own Cavendish Laboratory Demonstrator) and reproducing dozens of his own letters plus direct testimony from Faraday, Stokes, Tyndall, Thomson, Schuster, and Rayleigh; (2) Isobel Falconer's 2015 scholarly essay on Maxwell's editing of Cavendish's papers, fetched from arXiv and read in full, citing the Cambridge University Library Maxwell and Kelvin archive collections directly; (3) the Cavendish Laboratory's own 'Our history' institutional page; (4) MacTutor's biography of Maxwell; (5-6) two independent accounts of the 1861 colour-photography demonstration (History of Information; the James Clerk Maxwell Foundation, his birthplace museum/trust). This clears the 2-independent-perspective / 1-non-self-behavioral-source bar clearly: Falconer, the Cavendish Laboratory's own institutional history, and MacTutor are all independent of Campbell & Garnett and of each other, and Falconer's and Campbell & Garnett's accounts include multiple named non-self eyewitnesses (Schuster's shock-experiment anecdote; Thomson's and Rayleigh's direct testimony about Maxwell's Cambridge influence). VERIFICATION LIMIT, disclosed on the record: the specific 1861 Royal Institution Notices archival citation (vol.3, p.374) was corroborated across multiple independently-authored secondary accounts that converge on the same date/venue/citation, but was not itself directly fetched and read this session -- the experimentation row's confidence (0.52) is held moderate specifically because of this. No row infers anything from Maxwell's 1879 death from abdominal cancer at 48, nor from either of his two earlier infectious illnesses (both mentioned only in passing in the biography and not used for any trait claim), per this project's evidence-discipline rule against inferring personality from health, disability, or bereavement. PORTRAIT: searched Wikimedia Commons's 'James Clerk Maxwell' category directly via the Commons API; selected a genuine sepia photograph (not an engraving) from the Smithsonian Institution Libraries' Dibner Library 'Scientific Identity' portrait collection, dated only 'prior to 1879' (within Maxwell's own lifetime), released via Flickr Commons under 'No known copyright restrictions.' Downloaded directly and verified with PIL: 936x1461 actual pixel dimensions, already under the 1600px-long-edge convention, no resize needed."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "제임스 클러크 맥스웰"
+    }
+  }
+}

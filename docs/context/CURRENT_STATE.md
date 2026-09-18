@@ -4,28 +4,28 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-**Minimal update, 2026-09-17**: the paragraph and Product-section headline
-below this note are stale (they predate Roster17-36 and describe a
+**Minimal update, 2026-09-18**: the paragraph and Product-section headline
+below this note are stale (they predate Roster17-37 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/roster36.md` for the full record):
+follows (see `docs/checkpoints/roster37.md` for the full record):
 
-- Production: **276** people. Directory-visible: **275**. Match-eligible:
+- Production: **291** people. Directory-visible: **290**. Match-eligible:
   **114** (unchanged since Legacy Integrity Batch 1; roster growth since
-  then has been non-match-eligible new-candidate publication — fourth
+  then has been non-match-eligible new-candidate publication — fifth
   consecutive new-candidate cycle at 114, confirmed healthy/expected by
   the recent-cohort diagnostic, see
   `docs/checkpoints/recent-cohort-matching-architecture.md`).
-- Latest merged `main` SHA: `4b2033fa42372401e72f17d1e1df2021e8bbd10e`
-  (PR #45, recent-cohort matching diagnostic merge).
-- Latest milestone: **Roster36 (first fresh cycle after the diagnostic)
-  shipped 14 new people, zero backlog reuse** (2026-09-17). One candidate
-  (Naomi Uemura) held on a genuine portrait gate. Combined
-  Roster33-36: 51 new-candidate people shipped across four cycles, 0
-  match-eligible — the diagnostic-confirmed expected pattern, not
-  re-investigated. Full record: `docs/checkpoints/roster36.md`.
-- Next recommended task: **Roster37** (new-candidate expansion, same
-  discipline as Roster33-36). Legacy Integrity Batch 6 not started. The
+- Latest merged `main` SHA: `2a5f6eb93afd8cf5757ba3f4ac544a0d054881f3`
+  (PR #46, Roster36 merge).
+- Latest milestone: **Roster37 (second fresh cycle after the diagnostic)
+  shipped all 15 frozen candidates, zero holds, zero backlog reuse**
+  (2026-09-18). Combined Roster33-37: 66 new-candidate people shipped
+  across five cycles, 0 match-eligible — the diagnostic-confirmed
+  expected pattern, not re-investigated. Full record:
+  `docs/checkpoints/roster37.md`.
+- Next recommended task: **Roster38** (new-candidate expansion, same
+  discipline as Roster33-37). Legacy Integrity Batch 6 not started. The
   250-person performance benchmark should not be repeated unless a real
   regression appears. The recent-cohort matching diagnostic should not be
   repeated unless genuinely new evidence emerges.

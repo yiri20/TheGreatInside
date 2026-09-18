@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marilyn-monroe",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Marilyn Monroe",
+    "aliases": [
+      "Norma Jeane Mortenson",
+      "Norma Jeane Baker"
+    ],
+    "wikidataId": "Q4616",
+    "birthYear": 1926,
+    "deathYear": 1962,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "independent",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mm_wikipedia",
+      "kind": "wikipedia",
+      "title": "Marilyn Monroe",
+      "url": "https://en.wikipedia.org/wiki/Marilyn_Monroe"
+    },
+    {
+      "id": "src_mm_wikidata",
+      "kind": "wikidata",
+      "title": "Marilyn Monroe (Q4616)",
+      "url": "https://www.wikidata.org/wiki/Q4616"
+    },
+    {
+      "id": "src_mm_actorsstudio_butler",
+      "kind": "press",
+      "title": "Isaac Butler, The Method: How the Twentieth Century Learned to Act (2022) -- scholarly-journalistic history of Method acting covering Monroe's 1955-56 Actors Studio training. NOT independently fetched/read in full this cycle: accessed via The Marilyn Report's direct account and quotation of Butler's text, which is treated here as a secondary vector for a named, citable, real book, not as an independent primary read.",
+      "url": "https://themarilynreport.com/2022/04/04/method-or-madness-marilyn-at-the-actors-studio/"
+    },
+    {
+      "id": "src_mm_burstyn_account",
+      "kind": "press",
+      "title": "Ellen Burstyn, AARP interview (2021), read via The Marilyn Report's direct quotation -- a named, non-self, first-hand Actors Studio classmate's account of Monroe's Anna Christie scene, independent of Isaac Butler's account and of Strasberg's own claims.",
+      "url": "https://themarilynreport.com/2021/02/09/ellen-burstyn-remembers-luminous-marilyn/"
+    },
+    {
+      "id": "src_mm_fox_dispute_americanheritage",
+      "kind": "press",
+      "title": "American Heritage, \"Marilyn Monroe Gets Down to Business\" (Spring 2023) -- press account of the formation of Marilyn Monroe Productions and the 1954-55 Fox contract dispute and settlement. Fetched and read directly.",
+      "url": "https://www.americanheritage.com/marilyn-monroe-gets-down-business"
+    },
+    {
+      "id": "src_mm_fox_dispute_prospect",
+      "kind": "press",
+      "title": "Prospect Magazine, \"When Marilyn Monroe took on Twentieth Century Fox -- and won\" -- independent press account of the same contract dispute, corroborating dates, terms and the Time magazine characterization. Fetched and read directly.",
+      "url": "https://www.prospectmagazine.co.uk/culture/73679/when-marilyn-monroe-took-on-twentieth-century-fox-100th-anniversary"
+    },
+    {
+      "id": "src_mm_wilder_some_like_it_hot",
+      "kind": "press",
+      "title": "SlashFilm, \"Some Like It Hot Caused A Rift Between Billy Wilder And Marilyn Monroe\" -- press account of Monroe's documented on-set behavior during Some Like It Hot (1959), quoting director Billy Wilder and producer Walter Mirisch. Fetched and read directly.",
+      "url": "https://www.slashfilm.com/807841/some-like-it-hot-caused-a-rift-between-billy-wilder-and-marilyn-monroe/"
+    },
+    {
+      "id": "src_mm_wilder_slih_scraps",
+      "kind": "press",
+      "title": "Scraps from the Loft, \"Masterpiece: Some Like It Hot (1959)\" -- independently-authored press account of the same production's on-set incidents, corroborating (with some numeric variance) the SlashFilm account and quoting additional Wilder remarks. Fetched and read directly.",
+      "url": "https://scrapsfromtheloft.com/movies/masterpiece-some-like-it-hot-1959/"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, sustained, multi-year professional-training commitment, not an inference from her fame or box-office success. Monroe began studying with Lee Strasberg in early 1955 (introduced by producer Cheryl Crawford), taking private lessons at Strasberg's home in addition to attending Actors Studio classes, and worked on scene material including excerpts from Golden Boy and A Streetcar Named Desire (src_mm_actorsstudio_butler). She prepared for months, cancelling a planned scene multiple times before finally performing a 20-minute scene from Eugene O'Neill's Anna Christie at the Studio in early 1956 -- an event witnessed and independently described by fellow Actors Studio member Ellen Burstyn as 'one of the greatest performances of all time' (src_mm_burstyn_account), a named, first-hand, non-self account wholly independent of Butler's book or of Strasberg's own (separately documented, self-interested) claims to have 'made Marilyn Monroe an actress.' Scored dual_edged, not a clean advantage: the Butler-sourced account also documents contemporaneous pushback from within her own professional circle -- set designer Boris Aronson is quoted warning her, 'Why are you doing this with him? Stop with this poison you're putting into yourself' -- a documented, named peer's concern about the degree of her reliance on a single teacher. This is scored strictly as a fact about a professional relationship/dependency dynamic, not as any inference about Monroe's psychology, which this profile deliberately does not score."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, dated, self-initiated business action, not an inference from ambition or reputation. On 31 December 1954, Monroe -- still under a 1951 Fox contract paying $1,500/week even after Gentlemen Prefer Blondes (1953), on which her co-star Jane Russell was reportedly paid roughly ten times Monroe's fee -- announced the formation of Marilyn Monroe Productions with photographer Milton Greene, publicly unveiled on Edward R. Murrow's Person to Person program on 7 January 1955, with Monroe as president holding 51% ownership (src_mm_fox_dispute_americanheritage, src_mm_fox_dispute_prospect -- two independent press sources, both read directly, corroborating the date, ownership split and mechanism). Monroe moved to New York to pursue this independently of Fox's day-to-day control; a lawyer she retained identified that Fox had not properly renewed her existing contract, which she used as leverage by declining to affirm it and returning studio checks. Scored dual_edged, not a clean advantage: Fox responded by suspending her and pursuing legal action, a real, immediate professional and financial cost she accepted rather than avoided, for roughly a year before the dispute resolved in her favor."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, dated, verifiable negotiated outcome -- distinct from proactive_agency, which scores the self-initiated action itself rather than the success of its negotiation. By 31 December 1955, Fox settled Monroe's roughly year-long holdout: a new contract raised her pay to $100,000 per picture, required only four films for Fox over seven years, granted her approval over the director on each picture, and freed her to make outside films through Marilyn Monroe Productions -- terms Time magazine characterized as Monroe having 'brought to its knees mighty Twentieth Century Fox' (src_mm_fox_dispute_americanheritage, src_mm_fox_dispute_prospect, both independently corroborating the settlement terms and the Time characterization). Scored as advantage: this was a real, favorable, durable outcome she went on to exercise, not merely an assertion of intent -- she subsequently co-produced The Prince and the Showgirl with Laurence Olivier through her own company."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, well-documented, dual-sided on-set pattern from a single production (Some Like It Hot, 1959), directly attested by the director (Billy Wilder) and producer (Walter Mirisch), not an inference from general reputation. Two independently-authored press accounts (src_mm_wilder_some_like_it_hot, src_mm_wilder_slih_scraps -- reporting overlapping but not identical detail, e.g. the 'Where's the bourbon' line is reported as requiring roughly 40 takes in one account and roughly 80 in the other, a genuine sourcing discrepancy noted here rather than resolved with false precision) document: repeated difficulty delivering specific short lines across dozens of takes (requiring Wilder to paste the line inside a prop drawer), documented lateness to set, and -- per producer Walter Mirisch's own account -- a pattern of deferring to her personal acting coach Paula Strasberg over director Wilder's direction, which Mirisch describes as causing direct on-set 'miscommunication and argument.' Scored dual_edged, not simply low: the same sources document the other side of the same production -- Wilder's own on-record assessment that 'it takes a real artist to come on the set and not know her lines and yet give the performance she did,' and a specific contrasting incident in which she completed a complex three-page beach scene in a single take, of a quality Wilder is quoted describing as exceptional ('she almost fainted' with relief afterward, per Scraps from the Loft). No inference is drawn here from Monroe's documented health, marital difficulties, or any bereavement during this production; this profile deliberately excludes that material as a matter of evidence-discipline policy, not because it is undocumented -- only the observable professional/on-set conduct is scored."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/marilyn-monroe-uso-korea-1954.jpg",
+    "width": 1600,
+    "height": 1295,
+    "source": "U.S. Marine Corps / National Archives and Records Administration (NARA), via Wikimedia Commons",
+    "license": "Public domain (work of the U.S. federal government -- official U.S. Marine Corps photographer, Cpl. Kreplin; NARA File # 127-N-A365478)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marilyn_Monroe_sings_several_songs_for_an_estimated_13,000_men_of_the_First_Marine_Division_HD-SN-99-03126.jpg",
+    "attribution": "Cpl. Kreplin, U.S. Marine Corps, 16 February 1954 -- Monroe performing for the First Marine Regiment during her USO tour of Korea",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Marilyn_Monroe_sings_several_songs_for_an_estimated_13,000_men_of_the_First_Marine_Division_HD-SN-99-03126.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q4616) verified live before scoring: label 'Marilyn Monroe', description 'American actress and model (1926-1962)', matching the brief exactly. Name/slug checked against the live data-pipeline/candidates/ listing -- no collision. CLASSIFICATION: no 'occupation.model' id exists in src/core/i18n/en.ts (live-checked); occupationIds set to ['actor'] alone, matching the live corpus convention for actresses generally, including modeling-adjacent careers (katharine-hepburn, bette-davis, marlene-dietrich, hedy-lamarr all use 'actor' only). PORTRAIT DISCIPLINE FOLLOWED PER THE BRIEF'S EXPLICIT WARNING: did not default to a studio publicity still (most are still studio/estate-copyrighted). Instead live-verified via the Commons API a U.S. Marine Corps official photograph (Cpl. Kreplin, 16 February 1954, NARA File # 127-N-A365478, from Monroe's Korea USO tour) -- confirmed via the actual API extmetadata response as 'Public domain photograph from defenseimagery.mil' / Copyrighted=False, i.e. genuinely PD as a work of the U.S. federal government, not merely a plausible-looking Commons upload. EVIDENCE READ: 6 substantive sources beyond Wikipedia/Wikidata orientation, covering two genuinely separate storylines (Actors Studio training; Fox contract dispute/on-set conduct), each independently corroborated by 2 separately-authored sources (themarilynreport.com's direct quotation of Isaac Butler's book AND of Ellen Burstyn's own AARP interview for the Actors Studio material; American Heritage AND Prospect Magazine for the Fox dispute; SlashFilm AND Scraps from the Loft for the Some Like It Hot on-set material). This clears the ≥2-independent-perspective / ≥1-non-self-behavioral-source bar comfortably: Burstyn (a named classmate), Mirisch (the production's own producer) and Wilder (the director, on the record) are all non-self, independent, direct behavioral witnesses, not self-testimony or reputation. HEALTH-DISCIPLINE COMPLIANCE (explicit, per the brief): Monroe's documented mental health struggles, addiction, miscarriage(s), marital breakdown with Arthur Miller, and death are NOT used as evidence for any row in this profile, including where a source (Scraps from the Loft) offered them as a contextual explanation for her on-set difficulty during Some Like It Hot -- that contextual material was read and deliberately excluded, not overlooked. The collaboration row scores only the directly observable professional conduct (retake counts, lateness, deference to her coach over the director, and the contrasting single-take beach scene), not any causal attribution to her health. The Boris Aronson quote under mastery_orientation is scored strictly as a documented professional-relationship/dependency fact (a named peer's on-record concern), not as any psychological inference about Monroe. Four rows scored on genuine evidence availability; row count was not targeted in advance. autonomy_need and leadership_drive were considered for the Fox/Marilyn Monroe Productions story but deliberately NOT added as additional rows beyond proactive_agency and persuasiveness, to avoid splitting one well-documented business narrative into near-duplicate rows restating the same underlying facts under different labels."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마릴린 먼로"
+    }
+  }
+}
