@@ -851,6 +851,7 @@ export const en = {
   // missingOccupationCoverage().
   "occupation.astronomer": "astronomer",
   "occupation.athlete": "athlete",
+  "occupation.aviator": "aviator",
   "occupation.chemist": "chemist",
   "occupation.composer": "composer",
   "occupation.musician": "musician",
@@ -964,6 +965,7 @@ export const en = {
   "tag.intuitive": "Intuitive",
   "tag.late_recognition": "Late Recognition",
   "tag.leader": "Leader",
+  "tag.mentor": "Mentor",
   "tag.low_risk": "Low-Risk",
   "tag.mystic": "Mystic",
   "tag.nobel_laureate": "Nobel Laureate",

@@ -1,10 +1,10 @@
 /**
- * Roster34 (2026-09-16, docs/checkpoints/roster34.md): final new-candidate
- * roster-expansion cycle to the 250-person milestone, table-driven
- * candidate<->production equality for all 12 promoted people (11 newly
- * researched candidates plus Haruki Murakami, a Roster33 holdover promoted
- * this cycle on a resolved portrait gate only). Mirrors roster33.test.ts's
- * shape.
+ * Roster36 (2026-09-17, docs/checkpoints/roster36.md): first new-candidate
+ * roster-expansion cycle after the recent-cohort publication-vs-matching
+ * architecture diagnostic (CONTINUE_EXPANSION_AS_IS classification),
+ * table-driven candidate<->production equality for all 14 promoted people,
+ * all freshly researched, zero backlog reuse. Mirrors
+ * roster34.test.ts/roster35.test.ts's shape.
  */
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -17,18 +17,33 @@ import type { Candidate } from "../candidateSchema.js";
 import { hasCandidateFile } from "./matchPoolIntegrityAudit.js";
 
 const TARGETS = [
-  "andy-warhol",
-  "antoine-lavoisier",
-  "charlie-chaplin",
-  "edward-jenner",
-  "elvis-presley",
-  "estee-lauder",
-  "haruki-murakami",
-  "katharine-graham",
-  "robert-oppenheimer",
-  "sally-ride",
-  "walt-disney",
-  "yuri-gagarin",
+  "ada-yonath",
+  "ansel-adams",
+  "bessie-coleman",
+  "edith-piaf",
+  "gordon-parks",
+  "henrietta-swan-leavitt",
+  "lise-meitner",
+  "margaret-hamilton",
+  "milton-hershey",
+  "pina-bausch",
+  "robert-noyce",
+  "soichiro-honda",
+  "tu-youyou",
+  "valentina-tereshkova",
+] as const;
+
+// Explicitly held this cycle, NOT promoted -- each for a genuine,
+// documented blocker (see docs/checkpoints/roster36.md for the full
+// reasoning per person). naomi-uemura is a fresh Roster36-cycle hold
+// (portrait gate only); the other four are backlog candidates re-checked
+// and found still genuinely blocked, same as Roster35 left them.
+const HELD_NOT_PROMOTED = [
+  "naomi-uemura",
+  "edmund-hillary",
+  "anita-roddick",
+  "simone-de-beauvoir",
+  "mimar-sinan",
 ] as const;
 
 function loadCandidate(slug: string): Candidate {
@@ -43,7 +58,7 @@ const production = Object.fromEntries(
   TARGETS.map((slug) => [slug, SEED_PEOPLE.find((p) => p.slug === slug)!]),
 ) as Record<(typeof TARGETS)[number], (typeof SEED_PEOPLE)[number]>;
 
-describe.each(TARGETS)("Roster34: %s", (slug) => {
+describe.each(TARGETS)("Roster36: %s", (slug) => {
   const candidate = candidates[slug];
   const person = production[slug];
 
@@ -84,11 +99,6 @@ describe.each(TARGETS)("Roster34: %s", (slug) => {
   it("has whatever match-eligibility outcome its actual evidence produces -- not assumed non-eligible by blanket rule", () => {
     const report = evaluateMatchEligibility(person);
     expect(person.isMatchEligible).toBe(report.eligible);
-    // Every Roster34 person happens to land non-eligible on honest
-    // evidence (none targeted eligibility_v2), but this test checks each
-    // person's ACTUAL computed result against their ACTUAL isMatchEligible
-    // flag, not a hardcoded "false" -- if a future edit ever made one of
-    // these 12 genuinely eligible, this assertion would still pass.
   });
 
   it("has a rights-clear, honestly-classified portrait", () => {
@@ -112,31 +122,40 @@ describe.each(TARGETS)("Roster34: %s", (slug) => {
   });
 });
 
-describe("Roster34: Haruki Murakami's portrait-only recovery", () => {
-  it("evidence side is byte-identical to Roster33 -- only the portrait changed", () => {
-    const candidate = candidates["haruki-murakami"];
-    // The same 4 rows Roster33 originally scored, unchanged.
-    expect(Object.keys(candidate.rows).sort()).toEqual(
-      ["deep_focus", "discipline", "independent_thinking", "planning_orientation"].sort(),
-    );
-    expect(candidate.rows.discipline!.score).toBe(92);
-    expect(candidate.rows.discipline!.confidence).toBe(0.68);
+describe("Roster36: held candidates were genuinely not promoted", () => {
+  it("Naomi Uemura, Edmund Hillary, Anita Roddick, Simone de Beauvoir, and Mimar Sinan are all absent from production", () => {
+    for (const slug of HELD_NOT_PROMOTED) {
+      expect(SEED_PEOPLE.some((p) => p.slug === slug), `${slug} should not be in production this cycle`).toBe(false);
+    }
   });
 
-  it("the previously-held portrait blocker is now resolved with a real, verified file", () => {
-    const candidate = candidates["haruki-murakami"];
+  it("Naomi Uemura's candidate file is evidence_approved (held on the portrait gate only -- no photograph of him, only memorial plaques/grave markers, exists on Wikimedia Commons)", () => {
+    const candidate = loadCandidate("naomi-uemura");
+    expect(candidate.status).toBe("evidence_approved");
+    expect(candidate.portrait?.status).toBe("held");
+  });
+
+  it("Edmund Hillary's candidate file is evidence_approved (still held on the Oceania taxonomy gap, re-checked this cycle -- no region added)", () => {
+    const candidate = loadCandidate("edmund-hillary");
+    expect(candidate.status).toBe("evidence_approved");
     expect(candidate.portrait?.status).toBe("found");
-    expect(candidate.portrait?.url).toBe("/portraits/haruki-murakami-2018.jpg");
-    expect(candidate.portrait?.license).toBeTruthy();
-    expect(candidate.portrait?.sourcePageUrl).toBeTruthy();
   });
 
-  it("is now present in production, unlike Roster33", () => {
-    expect(SEED_PEOPLE.some((p) => p.slug === "haruki-murakami")).toBe(true);
+  it("Anita Roddick's candidate file is evidence_approved (still held on the portrait gate -- a bounded retry this cycle found nothing new)", () => {
+    const candidate = loadCandidate("anita-roddick");
+    expect(candidate.status).toBe("evidence_approved");
+    expect(candidate.portrait?.status).toBe("held");
+  });
+
+  it("Simone de Beauvoir and Mimar Sinan remain genuinely held (an audit-flagged prior batch, not re-promoted on reused research alone)", () => {
+    for (const slug of ["simone-de-beauvoir", "mimar-sinan"]) {
+      const candidate = loadCandidate(slug);
+      expect(candidate.status, slug).toBe("held");
+    }
   });
 });
 
-describe("Roster34: cross-target identity integrity", () => {
+describe("Roster36: cross-target identity integrity", () => {
   it("no duplicate ids, slugs, or Wikidata QIDs across all 276 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
@@ -155,7 +174,7 @@ describe("Roster34: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (276 people as of Roster36, 2026-09-17 -- this batch itself added none of the later growth), all 12 Roster34 targets present in both", () => {
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 276 people, all 14 Roster36 targets present in both", () => {
     expect(SEED_PEOPLE).toHaveLength(276);
     expect(PEOPLE_INDEX).toHaveLength(276);
     for (const slug of TARGETS) {
@@ -164,11 +183,7 @@ describe("Roster34: cross-target identity integrity", () => {
     }
   });
 
-  it("reaches the 250-person production milestone (251 >= 250)", () => {
-    expect(SEED_PEOPLE.length).toBeGreaterThanOrEqual(250);
-  });
-
-  it("match-eligible count is unchanged at 114 -- none of the 12 Roster34 people are match-eligible", () => {
+  it("match-eligible count is unchanged at 114 -- none of the 14 Roster36 people are match-eligible", () => {
     expect(SEED_PEOPLE.filter((p) => p.isMatchEligible)).toHaveLength(114);
     for (const slug of TARGETS) {
       expect(production[slug].isMatchEligible, slug).toBe(false);

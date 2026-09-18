@@ -5,35 +5,30 @@ is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
 **Minimal update, 2026-09-17**: the paragraph and Product-section headline
-below this note are stale (they predate Roster17-35 and describe a
+below this note are stale (they predate Roster17-36 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/roster35.md` and
-`docs/checkpoints/recent-cohort-matching-architecture.md` for the full
-record):
+follows (see `docs/checkpoints/roster36.md` for the full record):
 
-- Production: **262** people. Directory-visible: **261**. Match-eligible:
+- Production: **276** people. Directory-visible: **275**. Match-eligible:
   **114** (unchanged since Legacy Integrity Batch 1; roster growth since
-  then has been non-match-eligible new-candidate publication).
-- Latest merged `main` SHA: `965f810a1363f91718069ce8b77e2c56c743039a`
-  (PR #44, Roster35 merge).
-- Latest milestone: **250-person production roster passed; Roster35 (the
-  first 250→500 expansion batch) shipped 11 new people** (2026-09-16),
-  followed by a **recent-cohort publication-vs-matching architecture
-  diagnostic** (2026-09-17) triggered because Roster33+34+35 (37 people)
-  produced zero newly match-eligible people. Diagnostic classification:
-  **CONTINUE_EXPANSION_AS_IS** — the 114-person matching pool is a
-  deliberate, already-validated, healthy, intentionally separate surface
-  from the growing Directory (see
-  `docs/checkpoints/profile-publication-vs-match-eligibility.md`'s
-  2026-09-08 decision and session 9's already-completed, exhaustive
-  parameter-sweep validation, both reaffirmed by this diagnostic). No
-  eligibility/matching/scoring code changed. Full record:
-  `docs/checkpoints/recent-cohort-matching-architecture.md`.
-- Next recommended task: **Roster36** (new-candidate expansion, same
-  discipline as Roster33-35). Legacy Integrity Batch 6 not started. The
+  then has been non-match-eligible new-candidate publication — fourth
+  consecutive new-candidate cycle at 114, confirmed healthy/expected by
+  the recent-cohort diagnostic, see
+  `docs/checkpoints/recent-cohort-matching-architecture.md`).
+- Latest merged `main` SHA: `4b2033fa42372401e72f17d1e1df2021e8bbd10e`
+  (PR #45, recent-cohort matching diagnostic merge).
+- Latest milestone: **Roster36 (first fresh cycle after the diagnostic)
+  shipped 14 new people, zero backlog reuse** (2026-09-17). One candidate
+  (Naomi Uemura) held on a genuine portrait gate. Combined
+  Roster33-36: 51 new-candidate people shipped across four cycles, 0
+  match-eligible — the diagnostic-confirmed expected pattern, not
+  re-investigated. Full record: `docs/checkpoints/roster36.md`.
+- Next recommended task: **Roster37** (new-candidate expansion, same
+  discipline as Roster33-36). Legacy Integrity Batch 6 not started. The
   250-person performance benchmark should not be repeated unless a real
-  regression appears.
+  regression appears. The recent-cohort matching diagnostic should not be
+  repeated unless genuinely new evidence emerges.
 
 Older Roster33-era paragraph and Product-section headline below (both
 now superseded by the above, kept for historical continuity only, not

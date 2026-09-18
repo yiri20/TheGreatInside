@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ada-yonath",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ada Yonath",
+    "aliases": ["Ada Esther Yonath", "Ada Esther Lifshitz"],
+    "wikidataId": "Q7426",
+    "birthYear": 1939,
+    "deathYear": 2026,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": ["IL"],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": ["crystallographer", "chemist", "biologist"],
+    "fieldIds": ["chemistry", "biology"],
+    "impactDomains": ["scientific", "medical"],
+    "tagIds": ["nobel_laureate", "patient", "innovator"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yonath_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ada Yonath",
+      "url": "https://en.wikipedia.org/wiki/Ada_Yonath"
+    },
+    {
+      "id": "src_yonath_wikidata",
+      "kind": "wikidata",
+      "title": "Ada Yonath (Q7426)",
+      "url": "https://www.wikidata.org/wiki/Q7426"
+    },
+    {
+      "id": "src_yonath_nobel_story",
+      "kind": "award_body",
+      "title": "\"ADA YONATH\", Nobel Prize in Chemistry 2009, NobelPrize.org 'Women who changed science' series -- the Nobel Foundation's own biographical account, including her directly quoted self-testimony. Fully read in this cycle.",
+      "url": "https://www.nobelprize.org/stories/women-who-changed-science/ada-yonath/"
+    },
+    {
+      "id": "src_yonath_nobel_facts",
+      "kind": "award_body",
+      "title": "\"Ada E. Yonath -- Facts\", Nobel Prize in Chemistry 2009, NobelPrize.org -- used to independently confirm birth/death dates and affiliation. Fully read in this cycle.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2009/yonath/facts/"
+    },
+    {
+      "id": "src_yonath_weizmann_feature",
+      "kind": "institution",
+      "title": "\"'To Understand the Principles of Life': The Journey of Prof. Ada Yonath from Ribosomes to the Nobel Prize\", American Committee for the Weizmann Institute of Science, feature story. Fully read in this cycle.",
+      "url": "https://www.weizmann-usa.org/news-media/feature-stories/to-understand-the-principles-of-life-the-journey-of-prof-ada-yonath-from-ribosomes-to-the-nobel-prize/"
+    },
+    {
+      "id": "src_yonath_cen_obit",
+      "kind": "press",
+      "title": "Max Barnhart, \"Ada Yonath, Nobel laureate and crystallographer, dies at 87\", Chemical & Engineering News (American Chemical Society), 1 Sep 2026 -- contains named, firsthand, non-self quotes from her 2009 Nobel co-recipient Venkatraman Ramakrishnan and from her former PhD student/postdoctoral mentee Miri Krupkin (Stanford University). Fully read in this cycle.",
+      "url": "https://cen.acs.org/people/obituaries/ada-yonath-nobel-laureate-crystallographer-obituary/104/web/2026/09"
+    },
+    {
+      "id": "src_yonath_nyt_obit",
+      "kind": "press",
+      "title": "\"Ada Yonath, chemist and first Israeli woman to receive a Nobel, dies at 87\" -- obituary originally published by The New York Times, republished by Texarkana Gazette, 2 Sep 2026. Fully read in this cycle.",
+      "url": "https://www.texarkanagazette.com/news/2026/sep/02/ada-yonath-chemist-and-first-israeli-woman-to/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 90,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Three independently-read sources converge on the same specific, quantified facts: NobelPrize.org's own account states she \"took on a challenge that others considered hopeless... and persevered for decades,\" specifically citing roughly 25,000 crystallization attempts before her first success in the early 1980s; the Weizmann Institute's own feature independently confirms the same 25,000-attempt figure across roughly two decades; the New York Times obituary independently confirms \"a process of over 25,000 painstaking experiments\" running from 1970 (when she founded Israel's only protein-crystallography lab) through the 1980s-90s refinement period. The extreme score is justified by this specific, quantified, multiply-corroborated duration and repetition count -- not by her eventual Nobel recognition."
+    },
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independently-read sources document a specific, unconventional methodological choice: rather than standard model organisms, she deliberately sourced ribosomal material from extremophile bacteria (thermophilic/halophilic strains, including some from the Dead Sea, and Geobacillus/Bacillus stearothermophilus) on the specific reasoning that hardier ribosomes would crystallize more reliably (NobelPrize.org, Weizmann Institute feature) -- then, working with Hakon Hope and Joel Sussman in the late 1980s, pioneered cryo-bio-crystallography (flash-freezing crystals at roughly -185C during X-ray exposure) specifically to solve the resulting radiation-damage problem, a technique the Chemical & Engineering News obituary independently confirms she then 'evangelized,' helping popularize it as a now-standard structural-biology procedure. A named, dated, technically specific innovation, not an inference from the eventual prize."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Weizmann Institute's own account and the Chemical & Engineering News obituary both independently document that, starting in the 1970s, she pursued ribosome crystallization after -- and despite -- named major laboratories (UCLA, MIT, the UK Medical Research Council) having already tried and abandoned the problem since the 1960s: an objectively documented pattern of institutional abandonment, not merely her own claim of having been doubted. Independently corroborated, non-self, by her eventual Nobel co-recipient Venkatraman Ramakrishnan, quoted by name in C&EN: 'By showing that you could get 3D crystals of the large subunit... she broke a very important psychological barrier to solving what seemed like an impossible problem.'"
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The New York Times obituary documents that from 1986 to 2004 she ran two parallel ribosome-research units simultaneously -- her existing laboratory at the Weizmann Institute, and a second unit at the Max Planck Institute in Hamburg, Germany, secured with Heinz-Gunter Wittmann's help -- commuting between the two countries for 17 years to oversee both teams; the Weizmann Institute's own feature independently confirms both units were 'headed by Prof. Yonath.' A specific, sustained, dual-institution leadership arrangement, not an inference from her later single-lab reputation."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Miri Krupkin, who completed her PhD under Yonath and is quoted by name in the Chemical & Engineering News obituary -- a non-self, independent, firsthand account -- describes a specific mentoring pattern: Yonath 'would often spend 24 h shifts helping her students when they managed to get beam time reserved at a synchrotron,' and that even as a young trainee Krupkin 'felt from the first moment that she respected me as a full-grown scientist.' A concrete, named, first-person account of a specific working practice, not a generic reputation claim."
+    },
+    "competitiveness": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Two independently-read sources corroborate a real competitive dynamic: C&EN documents that 'the mid-1990s saw a race brewing to fully map out the ribosome, with many rivals participating,' and the New York Times obituary independently confirms that 'other researchers -- notably Venkatraman Ramakrishnan... and Thomas Steitz -- entered the field' around the same time, with all three efforts culminating separately before being jointly recognized. Scored dual_edged and at moderate confidence: the same sources show this resolved into genuine collegial respect rather than lasting antagonism (Ramakrishnan's on-record praise, quoted above), so this is scored as a real but non-adversarial competitive drive, not assumed hostility."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ada-yonath-weizmann-2009.jpg",
+    "width": 1591,
+    "height": 1600,
+    "source": "Weizmann Institute of Science (photo: Miki Koren), via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Miki Koren, Weizmann Institute of Science",
+    "creator": "Miki Koren",
+    "date": "2009-10-08",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ada_Yonath_Weizmann_Institute_of_Science.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "LIVING-STATUS CORRECTION (this cycle, verified before any scoring): the task brief's working assumption (that Yonath might still be living) does not hold -- she died on 31 August 2026, per direct live verification of https://www.wikidata.org/wiki/Q7426 (P570 death date 2026-08-31, referenced there to both an Israeli Ynet article and a French Le Monde obituary dated 1-2 Sep 2026, and corroborated by more than a dozen independent Wikidata language-editors updating descriptions to '(1939-2026)' within days of each other) and independently re-confirmed via the live NobelPrize.org 'Facts' and 'Women who changed science' pages (both now state 'Died: 31 August 2026' / 'Ada Yonath passed away on 31 August 2026'), the live English Wikipedia summary ('was an Israeli crystallographer...'), and two independently-read press obituaries (Chemical & Engineering News, 1 Sep 2026; New York Times, republished by Texarkana Gazette, 2 Sep 2026). identity.isLiving is therefore false and identity.deathYear is 2026, both against the brief's own stated assumption -- flagged explicitly per this project's instruction that live repository/tool state overrides any cached or assumed claim. Portrait reuse verification (before any new research): the previously-downloaded local file public/portraits/ada-yonath-weizmann-2009.jpg (1591x1600) was independently re-verified against the live Wikimedia Commons API. Its aspect ratio (1591:1600 = 0.99438) matches, to within rounding of a 1600px-long-edge resize, the original Commons file 'File:Ada Yonath Weizmann Institute of Science.jpg' (2362x2375 = 0.99453; 2362 * 1600/2375 = 1591.1, rounds to 1591). The Commons API confirms this file's licensing directly: CC BY-SA 3.0, Credit 'Miki Koren, Weizmann Institute of Science' (via hayadan.org.il, the Israeli Weizmann-affiliated science-news site), AttributionRequired: true, dated 2009-10-08 (the week after her Nobel announcement), sha1 d9fb1ba958869ce51af2cf1661afcb25667a8254. Visually confirmed via direct image inspection: the local file shows Yonath at X-ray crystallography equipment in her lab, consistent with the documented source. Reused as-is; not re-downloaded. Research actually read in full this cycle (Wikipedia used only for orientation, never as a scored source): both NobelPrize.org pages; the Weizmann Institute's American Committee feature story; the Chemical & Engineering News obituary (with named non-self quotes from Ramakrishnan and Krupkin); and the New York Times obituary (via Texarkana Gazette). This gives 4 independent organizational perspectives (Nobel Foundation; Weizmann Institute; American Chemical Society/C&EN; New York Times) plus two genuine non-self, firsthand behavioral witnesses quoted by name (Venkatraman Ramakrishnan, her Nobel co-recipient and one-time scientific rival; Miri Krupkin, her former PhD student), well beyond this project's minimum provenance-diversity bar. A 6-row profile was judged the honest stopping point: every row traces to a specific, dated, quantified incident or named methodological/administrative fact, not to her fame or the Nobel Prize itself. Deliberately did not score a row from her documented public political statements (on the 2009 Gilad Shalit hostage situation and the 2023 Israeli judicial-reform debate, both reported in the C&EN obituary) -- out of scope for the specific scientific-persistence/collaboration/mentorship behavior this research was scoped to, and consistent with this roster's standing zero-politics-primary composition guidance. No promotion readiness or eligibility_v2 computation was run as part of this pass."
+  },
+  "localization": {}
+}

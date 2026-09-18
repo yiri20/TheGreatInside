@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^261 people$/)).toBeVisible();
+  await expect(page.getByText(/^275 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -596,7 +596,16 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // same pattern as Vera Rubin (roster25), Paul Erdős (roster30), and
   // J. Robert Oppenheimer (roster34) above, not a correction applied to
   // hit a target number.
-  expect(bodyText).toMatch(/전체\s*262명\s*중\s*8명/);
+  // Total updated again 262->276 (Roster36, 2026-09-17, docs/checkpoints/
+  // roster36.md: 14 new people, all freshly researched, zero backlog
+  // reuse). Verified directly: none of the 14 have a curiosity row at all
+  // (their honest evidence packs simply didn't surface it), so none can
+  // cross both thresholds simultaneously regardless of collaboration --
+  // three do clear the collaboration floor alone (Pina Bausch 78/0.62,
+  // Soichiro Honda 78/0.55, Robert Noyce 75/0.52) but that is not
+  // sufficient on its own. The filtered count of 8 is unaffected, only the
+  // "out of N" total moves.
+  expect(bodyText).toMatch(/전체\s*276명\s*중\s*8명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
   expect(bodyText).toContain("오펜하이머");

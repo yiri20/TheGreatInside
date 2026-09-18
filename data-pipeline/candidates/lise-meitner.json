@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lise-meitner",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Lise Meitner",
+    "aliases": ["Elise Meitner"],
+    "wikidataId": "Q56189",
+    "birthYear": 1878,
+    "deathYear": 1968,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["AT", "SE"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["physicist"],
+    "fieldIds": ["physics"],
+    "impactDomains": ["scientific", "historical"],
+    "tagIds": ["independent", "late_recognition"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_meitner_wikipedia",
+      "kind": "wikipedia",
+      "title": "Lise Meitner",
+      "url": "https://en.wikipedia.org/wiki/Lise_Meitner"
+    },
+    {
+      "id": "src_meitner_wikidata",
+      "kind": "wikidata",
+      "title": "Lise Meitner (Q56189)",
+      "url": "https://www.wikidata.org/wiki/Q56189"
+    },
+    {
+      "id": "src_meitner_chemworld",
+      "kind": "press",
+      "title": "Mike Sutton, \"Hahn, Meitner and the discovery of nuclear fission\", Chemistry World (Royal Society of Chemistry), 5 Nov 2018 -- a science historian's feature synthesizing Frisch's memoir, Ruth Sime's biography, and Shea's edited volume on Hahn. Fully read in this cycle.",
+      "url": "https://www.chemistryworld.com/features/hahn-meitner-and-the-discovery-of-nuclear-fission/3009604.article"
+    },
+    {
+      "id": "src_meitner_apsnews",
+      "kind": "institution",
+      "title": "Alan Chodos, \"December 1938: Discovery of Nuclear Fission\", APS News -- This Month in Physics History (American Physical Society), 3 Dec 2007. Fully read in this cycle.",
+      "url": "https://www.aps.org/apsnews/2007/12/december-1938-discovery-nuclear-fission"
+    },
+    {
+      "id": "src_meitner_ahf_keydoc",
+      "kind": "archive",
+      "title": "\"Meitner & Frisch On Nuclear Fission\" -- Key Document of the National Museum of Nuclear Science & History (Atomic Heritage Foundation), reproducing an extended excerpt from Leona Marshall Libby (Manhattan Project physicist), The Uranium People (Crane Russak/Scribner's, 1979), which itself quotes Otto Frisch's own firsthand account of the December 1938 walk in the snow at length, verbatim. Fully read in this cycle.",
+      "url": "https://ahf.nuclearmuseum.org/ahf/key-documents/meitner-frisch-nuclear-fission/"
+    },
+    {
+      "id": "src_meitner_ahf_profile",
+      "kind": "institution",
+      "title": "\"Lise Meitner\" biographical profile, National Museum of Nuclear Science & History (Atomic Heritage Foundation) -- includes her directly quoted refusal to join the Allied bomb project and a dated timeline of her 1926 Berlin physics professorship. Fully read in this cycle.",
+      "url": "https://ahf.nuclearmuseum.org/ahf/profile/lise-meitner/"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 88,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independently-read sources on the same specific December 1938 episode. Otto Frisch's own firsthand account (quoted at length in Libby's The Uranium People, reproduced by the National Museum of Nuclear Science & History) has Meitner rejecting the easy way out when Frisch proposed Hahn's chemistry might simply be wrong: she \"shook her head and said that Hahn was too good a chemist to be wrong; his results must be correct,\" then insisted on working through why, sitting with Frisch at a tree stump to calculate from the liquid-drop model. APS News's independently-read account confirms she was specifically the one who calculated the ~200 MeV mass-energy defect via E=mc^2 that made the physical explanation quantitatively work (\"Meitner determined that the two daughter nuclei together would be less massive... which, when plugged into Einstein's formula... works out to 200 MeV. Everything fit.\"). Scored from this specific calculation episode, not from the fission discovery's later fame or the Nobel Prize she was denied for it."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independently-read sources corroborate the same specific 19-year arc: Chemistry World documents that on arriving in Berlin in 1907 she was, as a woman, \"denied access to the university's laboratories\" and worked for years as an unofficial, unpaid assistant in Hahn's improvised cellar lab; the Atomic Heritage Foundation's profile independently confirms she did not receive her first paid position until 1912 (age 34), sustaining this uncompensated arrangement for five years before that and continuing to climb the academic ladder for 14 more, until in 1926 she became the first woman in Germany to hold a physics professorship, at the University of Berlin. Scored from this specific, dated institutional trajectory, not from her later scientific reputation."
+    },
+    "independent_thinking": {
+      "score": 75,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, directly-quoted refusal -- \"I will have nothing to do with a bomb!\" -- documented identically across two independently-read sources (the Atomic Heritage Foundation's profile and Chemistry World's feature): she declined to join the Allied atomic-bomb effort during World War II, a position that put her at odds with the era's dominant scientific current, including several of her own former collaborators and refugee physicist peers (her nephew Otto Frisch among them) who did join weapons work. Scored as a specific, dated professional/ethical stance, not inferred from her general reputation for integrity."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "APS News's account, independently corroborated by Chemistry World's account of the same 1938 episode: after Austria's annexation invalidated the citizenship exemption that had protected her, Meitner \"had tried to hang on to her position as long as possible\" in Berlin rather than leaving immediately when the danger became apparent, and only fled -- suddenly, with just two small suitcases, her passport invalid, assisted across the Dutch border by Dutch colleagues -- once continuing to delay became untenable. Scored dual_edged from this specific, documented sequence of professional decisions (staying, then a sudden forced exit), not from any inference about her private emotional state, per this project's evidence-discipline rule on trauma/persecution history."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "Otto Frisch's own firsthand account (via Libby's book, reproduced by the Atomic Heritage Foundation) describes Meitner actively directing their December 1938 collaboration rather than following his lead: he states the fission explanation was \"the result of a discussion into which Lise Meitner more or less forced me -- I would much rather have talked about my own work,\" and that during their subsequent expensive long-distance call to finalize their joint Nature paper, \"she had her own suggestions on how we should put matters.\" A single specific, non-self-sourced incident (Frisch's own testimony, not Meitner's), scored moderately and at reduced confidence because it rests on one episode."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Chemistry World's independently-read account documents a specific, sustained 31-year (1907-1938) working partnership with Otto Hahn built on an explicit, complementary division of labor -- \"Hahn's skill in isolating and chemically characterising candidates for recognition as elements was complemented by Meitner's flair for detecting and interpreting their radiation signatures\" -- that produced joint discoveries (the isotope protactinium, 1917) and continued by correspondence even after her 1938 exile, when Hahn kept sending her his uranium-bombardment data. Kept distinct from the persuasiveness row above: that row scores one specific moment of directive assertiveness; this row scores the sustained structure of a three-decade partnership."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/lise-meitner-catholic-university-1946.jpg",
+    "width": 1182,
+    "height": 1600,
+    "source": "Smithsonian Institution Archives, Science Service Collection, via Flickr Commons / Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lise_Meitner_(1878-1968),_lecturing_at_Catholic_University,_Washington,_D.C.,_1946.jpg",
+    "attribution": "Photo: C.A. Briggs / Smithsonian Institution Archives, Science Service Collection (Acc. 90-105); Lise Meitner lecturing as Visiting Professor of Physics at Catholic University of America, Washington, D.C., 1946",
+    "creator": "C.A. Briggs",
+    "date": "1946",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Lise_Meitner_(1878-1968),_lecturing_at_Catholic_University,_Washington,_D.C.,_1946.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Portrait reuse verification (this cycle, before any new research): the previously-downloaded local file public/portraits/lise-meitner-catholic-university-1946.jpg (1182x1600) was independently re-verified against the live Wikimedia Commons API rather than trusted by filename alone. Its aspect ratio (1182:1600 = 0.73875) matches, to within rounding of a 1600px-long-edge resize, the original Commons file 'File:Lise Meitner (1878-1968), lecturing at Catholic University, Washington, D.C., 1946.jpg' (1500x2030 = 0.73892; 1500 * 1600/2030 = 1182.3, rounds to 1182). The Commons API confirms this file's licensing directly: Public Domain (LicenseShortName 'Public domain', UsageTerms 'Public domain', AttributionRequired: false), Credit 'Smithsonian Institution' via Flickr Commons (Science Service Collection, Acc. 90-105, SIA2008-5996), sha1 a8d237cd8134d6902c432d2723b251b6863b47ee. Visually confirmed via direct image inspection: the local file matches the documented photo (Meitner mid-lecture with a molecular model visible, matching the Smithsonian's own description of her 1946 visiting professorship at Catholic University). Reused as-is; not re-downloaded. Wikidata QID Q56189 verified live (label 'Lise Meitner', birth 1878-11-07, death 1968-10-27, citizenship entries including Austria and Sweden) before scoring. Research actually read in full this cycle (Wikipedia used only for orientation, never as a scored source, per this project's evidence-discipline rule): Mike Sutton's Chemistry World feature; the APS News 'This Month in Physics History' account; and two National Museum of Nuclear Science & History (Atomic Heritage Foundation) pages -- a Key Document reproducing Otto Frisch's own extended firsthand account of the December 1938 walk in the snow (via Leona Marshall Libby's The Uranium People), and the Foundation's own biographical profile (source of the directly-quoted 'I will have nothing to do with a bomb!' refusal). This gives >=3 independent organizational perspectives (Chemistry World / Royal Society of Chemistry; American Physical Society; Atomic Heritage Foundation) plus a genuine non-self, firsthand behavioral witness (Otto Frisch, quoted directly, not Meitner's own self-report) satisfying this project's provenance-diversity requirement. Deliberately did not access Ruth Sime's Lise Meitner: A Life in Physics (1996) or the Crawford/Sime/Walker Physics Today 'A Nobel Tale of Postwar Injustice' (1997) beyond their citation metadata/abstracts -- both are paywalled/access-gated in full text as fetched this cycle -- and no row below is sourced to either beyond what the fully-read sources above already independently corroborate. A 6-row profile was judged the honest stopping point: every row traces to a specific, dated, concrete incident or a specific multi-year institutional fact, not to her fame, the fission discovery's historical importance, or the Nobel Prize she was controversially denied in 1944/1946 (that omission is a real historical fact about how she was treated, not evidence of any personality trait of hers, and is deliberately not scored as one). Her 1938 flight from Nazi-annexed Austria is scored only via the specific documented professional decisions/actions involved (delaying departure, the manner of her exit), never via any inference about her private emotional state, per CLAUDE.md's evidence-discipline rule on trauma/persecution history. No promotion readiness or eligibility_v2 computation was run as part of this pass."
+  },
+  "localization": {}
+}

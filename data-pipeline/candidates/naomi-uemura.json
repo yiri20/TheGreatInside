@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "naomi-uemura",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Naomi Uemura",
+    "aliases": ["Uemura Naomi"],
+    "wikidataId": "Q1322504",
+    "birthYear": 1941,
+    "deathYear": 1984,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["JP"],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["explorer", "mountaineer"],
+    "fieldIds": ["exploration"],
+    "impactDomains": ["athletic", "historical"],
+    "tagIds": ["explorer", "independent", "sustained_excellence"],
+    "newTagProposals": [],
+    "archetypeIds": []
+  },
+  "sources": [
+    {
+      "id": "src_uemura_wikipedia",
+      "kind": "wikipedia",
+      "title": "Naomi Uemura",
+      "url": "https://en.wikipedia.org/wiki/Naomi_Uemura"
+    },
+    {
+      "id": "src_uemura_wikidata",
+      "kind": "wikidata",
+      "title": "Naomi Uemura (Q1322504)",
+      "url": "https://www.wikidata.org/wiki/Q1322504"
+    },
+    {
+      "id": "src_uemura_time_1978",
+      "kind": "press",
+      "title": "\"Environment: Journey to the Top of the World\", TIME magazine (1978) -- a contemporaneous, independent press account written during/immediately after the North Pole expedition, including a direct quote from his wife and quoted excerpts from his own expedition diary. Fetched and read in full from time.com's own archive.",
+      "url": "https://time.com/archive/6881230/environment-journey-to-the-top-of-the-world/"
+    },
+    {
+      "id": "src_uemura_aac_denali1984",
+      "kind": "institution",
+      "title": "American Alpine Club, \"Exposure, Weather, Climbing Alone -- Alaska, Mount McKinley\", American Alpine Journal (1985) -- an independent institutional/near-primary account of his final February 1984 winter solo Denali expedition, compiled from radio logs and named eyewitness reports (National Park Service ranger Robert Gerhard, climber Jim Wickwire, pilot Doug Geeting). Fetched and read in full from the AAC's own publications archive.",
+      "url": "http://publications.americanalpineclub.org/articles/13198502502/Exposure-Weather-Climbing-Alone-Alaska-Mount-McKinley"
+    },
+    {
+      "id": "src_uemura_natgeo_block",
+      "kind": "press",
+      "title": "\"A New York Photographer, a Japanese Explorer, and a Historic Trek to the North Pole\", National Geographic -- an independent press account of photographer Ira Block's work covering the 1978 North Pole expedition, describing his direct working relationship with Uemura. Fetched and read in full.",
+      "url": "https://www.nationalgeographic.com/photography/article/a-new-york-photographer-a-japanese-explorer-and-a-historic-trek-to-the-north-pole"
+    },
+    {
+      "id": "src_uemura_nasm_smithsonian",
+      "kind": "institution",
+      "title": "Smithsonian National Air and Space Museum, \"Data Collection Platform, Uemura's North Polar Expedition\" -- institutional collection record for the satellite tracking device Uemura donated to the museum in 1978. Fetched and read in full; used only as supplementary corroboration for the discipline row, not as the sole basis for any row.",
+      "url": "https://airandspace.si.edu/collection-objects/data-collection-platform-uemuras-north-polar-expedition/nasm_A19790218000"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Multiple independent documented instances from more than one source: TIME's contemporaneous account of the 1978 North Pole trek describes a polar bear tearing into his camp on day four -- Uemura lay motionless in his sleeping bag while the bear pawed and overturned it, then shot the bear at 55-yard range the next morning -- and a separate later crisis (day 35+) in which the surrounding ice field broke apart while he slept, trapping him on a moving floe ('It is really scary... Huge pieces of ice are slowly revolving around me,' his diary records), which he crossed only after new ice froze overnight. Independently, the American Alpine Club's account of his final 1984 winter solo Denali attempt documents him choosing to solo an 8,000-foot peak in Arctic winter conditions with no support team and only radio contact, on a route climber Jim Wickwire separately assessed as having snow conditions 'very difficult and dangerous.' Scored dual_edged, not a flattering pure advantage: this same risk pattern is the documented backdrop to his death -- he was never found."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "TIME documents him working through the ice-floe crisis over several hours under acknowledged fear ('I felt weak with relief' upon finally crossing), rather than turning back to safer ground when the crisis began. This single dramatic documented instance is corroborated by a broader, independently-confirmed pattern across three separately-read sources of sustaining extremely long solo efforts under sustained hardship: a 57-day, 477-mile solo dogsled trek to the North Pole (TIME), a 93-day solo Greenland crossing (American Alpine Club), and an 18-month, 12,000km Greenland-to-Alaska dogsled traverse (English Wikipedia orientation, corroborated in scale by the AAC's own expedition listing) -- a demonstrated pattern, not a single anecdote inflated into an extreme claim."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "The American Alpine Club's account of the 1984 winter Denali attempt documents specific stripped-down equipment choices: carrying bamboo poles for crevasse self-rescue rather than climbing with a rope partner, digging snow caves rather than carrying a tent, and rationing minimal fuel with cold food. TIME independently documents a parallel improvisational approach on the North Pole trek -- mixing modern thermal underwear with traditional Inuit bearskin trousers, sealskin mittens, and fur-lined boots. Scored dual_edged: the same minimalism that enabled solo self-sufficiency in extreme environments also removed the safety margin in exactly the kind of conditions (severe cold, uncertain snow, no support team) that the historical record connects to his 1984 disappearance."
+    },
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "A well-supported pattern across multiple independently-confirmed, distinct expeditions, not a single achievement read backward into a trait (the specific anti-pattern this rubric warns against): across roughly two decades he progressed through Kilimanjaro and Mount Kenya (1966), Aconcagua and a 6,000km solo Amazon raft descent (1967-68), the first Japanese ascent of Everest (1970), the first solo summer ascent of Denali (1970), a 12,000km Greenland-to-Alaska dogsled traverse (1976), the first solo trek to the North Pole (1978), a solo south-north crossing of Greenland (1978), and finally a winter solo Denali attempt (1984) -- each objective in the sequence a genuinely new, unclaimed challenge rather than a repeat of a prior success, independently confirmed across the AAC's own expedition listing, TIME, and Wikipedia orientation. Scored strong_inference rather than documented: this is an inference from a consistent multi-instance pattern, not a single named quote or decision document stating the motivation directly."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Independently corroborated by two sources: the Smithsonian's collection record describes a battery-operated satellite data-collection platform he carried and maintained on his sled throughout the 57-day North Pole trek, transmitting position, time, temperature, and barometric pressure to the Nimbus 6 satellite -- a sustained technical routine, not a one-off. The National Geographic account of photographer Ira Block's coverage of the same expedition independently confirms a parallel sustained communications routine: Uemura sent daily radio updates to base camp, including messages specifically addressed to Block, throughout the trek."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "One specific, named documented instance: National Geographic's account of photographer Ira Block's coverage of the 1978 North Pole trek describes Uemura modifying his own camera with a large shutter-release button so that Block could photograph usable images despite wearing thick expedition gloves, and sending daily radio messages to keep Block informed -- concrete accommodation of a support-team member's needs during a trip whose entire framing and record-setting significance was as a SOLO expedition. Confidence kept moderate (single-source, single-incident) rather than pushed higher."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear photographic likeness of Uemura himself was found after a real, bounded search of Wikimedia Commons: a full-text search for \"Naomi Uemura\" (34 results reviewed), a separate search for \"Uemura Naomi\" (31 results reviewed), a direct listing of Commons' own Category:Naomi Uemura (9 files reviewed), and a search using his Japanese name (植村直己). Every result is a memorial plaque, gravestone, museum-building exterior, equipment (his dog sled, a commemorative Nikon camera), or an unrelated person sharing the Uemura surname -- none is an actual photograph of him. The Japanese Wikipedia article's own infobox was checked directly and confirmed to carry no portrait image either. This is consistent with Japanese copyright term (life of the photographer + 70 years): professional press/expedition photography of Uemura, who died in 1984, is not yet in the public domain under Japanese law, and no copyright holder appears to have donated an image to Commons under an open license. Per this project's instruction, a plausible-looking filename was deliberately NOT invented to force a 'found' status."
+  },
+  "provenance": {
+    "createdAt": "2026-09-17T00:00:00Z",
+    "updatedAt": "2026-09-17T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q1322504) verified live before scoring; slug checked for collision against src/data/people and data-pipeline/candidates (none). Four sources beyond Wikipedia/Wikidata orientation, all fully fetched and read in this cycle: TIME's 1978 contemporaneous press coverage (independent, dated to the expedition itself, includes a direct quote from his wife and his own diary as quoted by an independent journalist), the American Alpine Club's 1985 institutional/near-primary account of his final 1984 expedition (compiled from radio logs and named eyewitnesses -- ranger Robert Gerhard, climber Jim Wickwire, pilot Doug Geeting -- none of whom are Uemura himself), National Geographic's account of photographer Ira Block's direct working relationship with him, and the Smithsonian NASM's institutional collection record for his donated satellite-tracking device. This clears the >=2-independent-perspective bar several times over (TIME, AAC, National Geographic, and Smithsonian are four separately authored/institutional sources) and the >=1 non-self behavioral source requirement comfortably -- every scored row rests on third-party-observed or third-party-recorded behavior (the AAC's named-witness account of the final expedition, TIME's wife-quote and journalist-witnessed incidents, National Geographic's account of the Block relationship), never on his own five published Japanese-language expedition books, which were not accessible in this cycle and are not cited as sources here (his own quoted diary entries, as reported by TIME, are treated as self-testimony and never used as the sole basis for a row). Wikipedia was used only for initial orientation, cross-checking expedition dates/scale, and QID verification -- never cited as evidence for a scored row. Deliberately excluded from scoring for lack of independent verification in a source actually read this cycle: the final diary entry ('I wish I could sleep in a warm sleeping bag...'), the detail that rescue was hesitant 'for fear it would offend him', and the claim of a Canadian Air Force helicopter supply relationship -- all surfaced only during Wikipedia orientation and not corroborated in TIME, the AAC article, National Geographic, or the Smithsonian record, so omitted rather than used as unverified color. Portrait held (not found) after a genuine, documented, bounded Commons search across both English and Japanese name forms -- see the portrait block's own reason field for the full account, including the two candidate files (a plaque photo and a dog-sled-only photo) that were reviewed and correctly rejected for not depicting the person. Honest assessment: this is a compact, thoroughly cross-sourced profile (6 rows) that deliberately includes dual_edged framing on the two highest-weighted rows (risk_tolerance, resourcefulness) connecting his documented methods directly to his death, rather than a one-sided heroic narrative."
+  },
+  "localization": {}
+}
