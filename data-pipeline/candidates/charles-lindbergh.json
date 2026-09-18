@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charles-lindbergh",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Charles Lindbergh",
+    "aliases": [
+      "Charles Augustus Lindbergh",
+      "Lucky Lindy",
+      "The Lone Eagle",
+      "Slim"
+    ],
+    "wikidataId": "Q1618",
+    "birthYear": 1902,
+    "deathYear": 1974,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["aviator", "explorer"],
+    "fieldIds": ["engineering", "exploration"],
+    "impactDomains": ["technological", "engineering", "historical"],
+    "tagIds": ["explorer", "systematic_thinker"],
+    "archetypeIds": ["scientific_explorer", "technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lb_wikipedia",
+      "kind": "wikipedia",
+      "title": "Charles Lindbergh",
+      "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh"
+    },
+    {
+      "id": "src_lb_wikidata",
+      "kind": "wikidata",
+      "title": "Charles Lindbergh (Q1618)",
+      "url": "https://www.wikidata.org/wiki/Q1618"
+    },
+    {
+      "id": "src_lb_hall_smithsonian",
+      "kind": "press",
+      "title": "Tom Leech, \"A Mailplane for Lindbergh\", Smithsonian Air & Space Magazine (July 2011) -- publishes, in full Q&A form, Leech's mid-1960s interview with Donald A. Hall, the Ryan Airlines chief engineer who personally designed the Spirit of St. Louis alongside Lindbergh; the transcript was later donated to the National Air and Space Museum. Fully read in this cycle.",
+      "url": "https://www.smithsonianmag.com/air-space-magazine/a-mailplane-for-lindbergh-161680374/"
+    },
+    {
+      "id": "src_lb_connor_smithsonian",
+      "kind": "press",
+      "title": "Roger Connor, \"In the 1920s, Only One Man Held the Key to Aerial Navigation\", Smithsonian Air & Space Magazine (February 2013) -- draws on Navy Lt. Cmdr. Philip Van Horn Weems's own letters, training logs, and artifacts held by the Smithsonian National Museum of American History, and quotes Lindbergh's own account (from his later memoir The Autobiography of Values) of getting lost over the Straits of Florida in 1928. Fully read in this cycle.",
+      "url": "https://www.smithsonianmag.com/air-space-magazine/even-lindbergh-got-lost-3381643/"
+    },
+    {
+      "id": "src_lb_mnhs",
+      "kind": "institution",
+      "title": "Minnesota Historical Society, \"Commercial Aviation\" (Charles A. Lindbergh online collection) -- the historical society's own institutional account of Lindbergh's post-1927 technical-advisor work for TAT/TWA and Pan American Airways, quoting biographer A. Scott Berg. Fully read in this cycle.",
+      "url": "https://www.mnhs.org/lindbergh/learn/aviation/commercial"
+    },
+    {
+      "id": "src_lb_clark",
+      "kind": "institution",
+      "title": "Clark University, \"Lindbergh's visit, memorable rope pulls, and a must-read newspaper\", Clark News (Jan. 9, 2020), describing the Nov. 23, 1929 meeting between Lindbergh and physicist Robert H. Goddard on Clark's campus, cross-referenced against the university's own finding aid for the Robert & Esther Goddard Papers (which holds 1929-1931 correspondence from Lindbergh). Fully read in this cycle.",
+      "url": "https://clarknow.clarku.edu/2020/01/09/lindberghs-visit-memorable-rope-pulls-and-a-must-read-newspaper/"
+    },
+    {
+      "id": "src_lb_aiaa",
+      "kind": "institution",
+      "title": "American Institute of Aeronautics and Astronautics, \"Who Was Daniel Guggenheim?\" -- AIAA's own institutional account confirming Harry Guggenheim and Lindbergh brought Robert Goddard's rocketry work to Daniel Guggenheim's attention, leading to a two-year, $25,000/year research grant. Fully read in this cycle.",
+      "url": "https://aiaa.org/guggenheim/daniel-guggenheim/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 82,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Documented via chief engineer Donald Hall's own account (Smithsonian, src_lb_hall_smithsonian): Lindbergh required that he alone test-fly the finished aircraft ('No one else tested it; that was one of Lindbergh's requirements') and chose to fly the New York-Paris route completely solo rather than with a co-pilot or navigator -- Hall recalls 'Lindbergh felt confident he could do it solo. I wasn't worried a bit,' noting the alternative (a two-person crew, as Fokker had insisted on) would have required a much larger aircraft. This removed any human backup for a 33.5-hour nonstop flight with no radio and no parachute -- a specific, named-witness-confirmed acceptance of substantial personal risk in exchange for range, not a vague 'daring' characterization. Scored dual_edged rather than a flat advantage: the same choice that enabled the flight's success also meant no one could take over if he became incapacitated."
+    },
+    "detail_orientation": {
+      "score": 79,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Donald Hall's own account (src_lb_hall_smithsonian) confirms a specific, concrete instance of Lindbergh's precision: 'He was an excellent cross-country navigator by means of dead reckoning, just by following maps. He had cut all his own maps from New York to Paris and plotted his course on them' -- trimming his charts to only the strips actually needed for the route, then personally doing the course-plotting himself rather than delegating it. This is a specific documented behavior (map preparation), not an inference from the flight's overall success."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, dated instances of genuine working partnership rather than pure solo direction. First, Hall's own account of the 1927 design process (src_lb_hall_smithsonian): 'He wasn't actually a designer but he had his own ideas, some of which I accepted and some I disagreed with. We'd come to an agreement' -- a real, two-way negotiation, not Lindbergh simply issuing instructions. Second, roughly a decade later, on Pan American survey flights, Lindbergh wrote directly to navigation instructor Philip Weems (quoted in src_lb_connor_smithsonian) that on a 1930 transcontinental trip 'Mrs. Lindbergh took all of the sextant readings in addition to working them out and doing most of the navigation' -- a formal, sustained working partnership with his wife Anne as his navigator, not a solo-hero arrangement."
+    },
+    "belief_updating": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A genuinely unflattering, honestly-documented instance rather than a flattering narrative. For the 1927 Paris flight Lindbergh deliberately rejected celestial navigation as impractical for a single pilot (per src_lb_connor_smithsonian, sextant work would have meant flying one-handed while doing 15-minute manual calculations on no sleep) and relied entirely on dead reckoning. In May 1928, flying the Spirit again between Havana and Florida, this approach failed badly: in his own words (quoted in src_lb_connor_smithsonian, from his memoir The Autobiography of Values), 'I had flown at almost a right angle to my proper heading and it...put me close to three hundred miles off route!' Rather than dismiss the incident, he petitioned the White House to have Navy Lt. Cmdr. Philip Weems assigned as his personal navigation tutor and began training in celestial line-of-position methods within months -- a specific, dated reversal of an explicit prior position in direct response to a documented failure, not a vague claim of open-mindedness."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Independent, non-self account from Weems himself (quoted in src_lb_connor_smithsonian): despite having dropped out of college, 'Lindbergh makes a fine student. He [studies] till twelve or one o'clock and does not get \"fussed\" or rushed,' and during in-person tutoring Weems found he 'didn't really do much instructing' because Lindbergh 'was brilliant and caught on quickly. He instructed himself.' The same source documents a specific demonstrated skill outcome, not just study habits: during a May 1928 training flight, 'Lindbergh flew his ship with one hand and took a sextant altitude of the sun with the other,' which Weems states he believed was the first time this had been done. A named instructor's direct, dated testimony of rapid self-directed mastery, not a reputation-based inference."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Documented via two independent institutional records. Clark University's own account (src_lb_clark) and AIAA's own account (src_lb_aiaa) confirm Lindbergh personally sought out physicist Robert Goddard after reading a newspaper report on one of Goddard's rocket tests, then personally helped bring Goddard's underfunded work to financier Daniel Guggenheim's attention, resulting in a dedicated research grant (AIAA: an initial two-year, $25,000/year commitment) that funded Goddard's Roswell, New Mexico rocket program. Clark's own archive holds correspondence between Lindbergh and Goddard from 1929-1931, and Lindbergh visited Goddard's test site in person as late as 1935 -- a sustained, multi-year, self-initiated pattern of identifying and acting on an opportunity outside his own field, not a one-off introduction."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Minnesota Historical Society's own institutional account (src_lb_mnhs) documents that Lindbergh's post-1927 work went well beyond personal achievement: as technical committee chairman for Transcontinental Air Transport he 'established the TAT route' still used for decades, and as Pan American's technical advisor he tested aircraft, selected which planes the airline should buy, and surveyed new routes. The source quotes biographer A. Scott Berg's assessment that 'most of [Lindbergh's] suggestions became the standard for aviation in the United States and, subsequently, around the world. In many cities, he helped create the model for their first modern airports.' He was also separately appointed a technical adviser to the U.S. Department of Commerce's Aeronautics Branch in 1929. Scored strong_inference rather than documented because the underlying motivation (industry-wide impact vs. personal engagement with the work) is not directly stated by Lindbergh himself in any source read this cycle -- only the sustained, decades-long pattern of institution-shaping activity is."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/charles-lindbergh-harris-ewing-1927.jpg",
+    "width": 1220,
+    "height": 1600,
+    "source": "Harris & Ewing (Washington, D.C. studio), via the Library of Congress Prints and Photographs Division and Wikimedia Commons",
+    "license": "Public domain (PD-Harris-Ewing; LOC digital ID hec.21329, no known copyright restrictions)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Col_Charles_Lindbergh.jpg",
+    "attribution": "Harris & Ewing, circa 1927 -- Library of Congress",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Col_Charles_Lindbergh.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New-candidate research pass (2026-09). Wikidata QID (Q1618) verified live before scoring. Deliberately scoped to Lindbergh's 1927 flight preparation/execution and his subsequent aviation-engineering/consulting career, per this project's zero-politics screen -- his later isolationist political activity and the antisemitic 1941 America First speech (well documented elsewhere) were not opened, read, or used anywhere in this file, and no row here scores anything from that material. All scored rows trace to specific, dated, named-source behavior: Donald Hall's own 1960s interview (donated to NASM, published in full by Smithsonian Air & Space Magazine) supplies eyewitness, non-self detail on the Spirit of St. Louis design process (map-cutting, solo-flight requirement, negotiated design disagreements); Roger Connor's Smithsonian Air & Space Magazine piece, drawing on Philip Weems's own letters and Smithsonian-held artifacts, supplies a second independent non-self perspective plus a genuinely unflattering, non-hagiographic data point (Lindbergh got nearly 300 miles off course in 1928 relying on dead reckoning alone) and his documented, dated response (self-directed celestial-navigation training). Minnesota Historical Society, Clark University, and AIAA institutional records independently corroborate the sustained post-1927 aviation-industry and Goddard-rocketry work. Self-testimony is capped to Lindbergh's own words as directly quoted within the Connor article (his account of the 1928 navigation crisis and his 1930 letter to Weems); no row relies on his memoir 'The Spirit of St. Louis' or its widely-repeated hallucination/sleep-deprivation narrative, since that text was not itself opened and read this cycle -- omitted rather than cited secondhand. Wikipedia was used for orientation only, never as a scored source. 7 rows scored; not targeted to any row count -- this reflects what the specific, verifiable record actually supports without padding or near-duplicate splitting."
+  }
+}

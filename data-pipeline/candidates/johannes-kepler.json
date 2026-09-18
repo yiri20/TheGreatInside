@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "johannes-kepler",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Johannes Kepler",
+    "wikidataId": "Q8963",
+    "birthYear": 1571,
+    "deathYear": 1630,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "mathematics",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "theorist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kepler_wikipedia",
+      "kind": "wikipedia",
+      "title": "Johannes Kepler",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+    },
+    {
+      "id": "src_kepler_wikidata",
+      "kind": "wikidata",
+      "title": "Johannes Kepler (Q8963)",
+      "url": "https://www.wikidata.org/wiki/Q8963"
+    },
+    {
+      "id": "src_kepler_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics Archive (University of St Andrews), \"Johannes Kepler\" -- scholarly biographical account covering his appointment under Tycho Brahe (1600), the multi-year Mars-orbit project he called his 'war with Mars' (surviving as 'nearly a thousand surviving folio sheets of arithmetic'), the abandonment of circular orbits for the ellipse (essentially completed 1605, published in Astronomia Nova, 1609), and the Rudolphine Tables as Imperial Mathematician. Fetched and read directly.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/"
+    },
+    {
+      "id": "src_kepler_physicsworld_ferguson",
+      "kind": "press",
+      "title": "Job Kozhamthadam, review of Kitty Ferguson's \"Tycho and Kepler\" (Walker Publishing, 2002), \"Kepler and Tycho Brahe: the odd couple,\" Physics World (Dec 2002) -- a press review of a double biography, quoting specific documented incidents: the pair's initial personality clash ('pouted at each other, argued constantly, quarrelled frequently and finally ... Kepler walked out'), Tycho's data-access possessiveness ('self-centred and overprotective of his observational data, persistently refusing to share'), their reconciliation, and Kepler's improved data access after Tycho's 1601 death. Fetched and read directly. This is a review of Ferguson's biography, not the biography itself directly read -- confidence held accordingly on any row resting on it.",
+      "url": "https://physicsworld.com/a/kepler-and-tycho-brahe-the-odd-couple/"
+    },
+    {
+      "id": "src_kepler_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, \"Scientist of the Day: Johannes Kepler\" -- independent institutional (science history library) account confirming the 1600 start of the Mars project, the intermediate 'vicarious hypothesis' model, and Kepler's own account of testing an elliptical orbit 'just as an approximation' and being 'stunned when the errors were reduced to zero.' Fetched and read directly.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/johannes-kepler-4/"
+    },
+    {
+      "id": "src_kepler_renaissance_mathematicus",
+      "kind": "press",
+      "title": "Thony Christie, \"Getting Kepler Wrong,\" The Renaissance Mathematicus (3 Aug 2016) -- a working historian of science's corrective blog post on popular Kepler myths, confirming the 8-arcminute-error episode (attached to Kepler's oval/near-elliptical trial orbits, not the final ellipse itself) while cautioning that the popular 'clean sequential replacement of circles with ellipses' narrative oversimplifies Kepler's own simultaneous non-empirical (Platonic-solid, harmonic) commitments. Used here specifically to calibrate against overstatement, not as primary support. Fetched and read directly.",
+      "url": "https://thonyc.wordpress.com/2016/08/03/getting-kepler-wrong/"
+    },
+    {
+      "id": "src_kepler_bryant_wikisource",
+      "kind": "biography",
+      "title": "Walter William Bryant, \"Kepler\" (1920), Chapter VI: Closing Years -- a published biography (public domain, hosted on Wikisource), giving specific dated detail on Kepler's completion of the Rudolphine Tables as Imperial Mathematician: pursuing 6000 florins owed by the Imperial Treasury across multiple towns over roughly a year, the Jesuits sealing his library, a peasant revolt blockading Linz that nearly destroyed the manuscript, his relocation to Ulm, disputes with printer Jonas Saur, and publication completed by September 1627 in time for the Frankfurt Book Fair. Fetched and read directly.",
+      "url": "https://en.wikisource.org/wiki/Kepler/Chapter_6"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, quantifiable, multi-year computational effort, not an inference from his eventual fame. Kepler himself termed the Mars-orbit project his 'war with Mars'; the surviving working record -- 'nearly a thousand surviving folio sheets of arithmetic' -- is described directly by MacTutor as a scholarly institutional account of the actual archival record, not an anecdote. The project ran from roughly 1600 (joining Tycho Brahe) through essential completion by 1605, continuing without interruption through the major disruption of Brahe's 1601 death and Kepler's own change of institutional position (succeeding Brahe as Imperial Mathematician). Independently corroborated by Linda Hall Library's account of the same 1600-start, multi-hypothesis project. Two independent institutional sources."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, sustained verification practice, distinct from the theory-revision episode scored under belief_updating below. MacTutor describes Kepler's working method directly: having 'so many observations available,' 'once he had constructed a possible orbit he was able to check it against further observations until satisfactory agreement was reached' -- an iterative, evidence-checking discipline documented across the same 'nearly a thousand' folio sheets, not inferred from the outcome's later fame. Independently corroborated by Linda Hall Library's account of the same working process (testing the vicarious hypothesis, then successive alternatives, against Tycho's data). Kept as a distinct row from belief_updating: this row concerns the sustained checking habit itself, not the specific act of abandoning a paradigm in response to what the checking revealed."
+    },
+    "belief_updating": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, quantified, threshold-driven theory revision, not a vague 'open-minded' characterization. Kepler's intermediate 'vicarious hypothesis' -- a refined circular/equant model -- was already roughly 15 times more accurate than any prior astronomical model, correct to within about 8 arcminutes (Linda Hall Library; corroborated by Renaissance Mathematicus). Because Kepler trusted Tycho Brahe's observations to a precision on that same order, he refused to accept this already near-best-in-history model and continued testing further alternative geometries before trying an ellipse 'just as an approximation' and being 'stunned when the errors were reduced to zero' (Linda Hall Library) -- abandoning an investment of years in circle/oval-based geometry on the strength of a small residual discrepancy. Thony Christie's historian-of-science account (Renaissance Mathematicus) independently confirms the underlying 8-arcminute-error episode while cautioning that Kepler did not cleanly and sequentially discard his earlier Platonic/harmonic framework in the way popular retellings suggest -- that caveat is incorporated here rather than ignored, holding confidence at 0.62 rather than higher."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, dated, multi-year sequence of overcome practical obstacles in completing the Rudolphine Tables as Imperial Mathematician, not an inference from the tables' later reputation. Bryant's 1920 biography (via Wikisource) documents: pursuing 6000 florins owed by the Imperial Treasury across several towns over roughly a year when direct payment fell through; the Jesuits sealing his library; a peasant revolt that blockaded Linz and nearly resulted in the manuscript's destruction by fire; his relocation to Ulm to restart the printing; disputes with the printer Jonas Saur; and publication completed by September 1627, in time for the Frankfurt Book Fair. MacTutor independently confirms the tables' basis in Tycho's data and their resulting decades-long practical accuracy. Two independent sources (a directly-read published biography and an independent institutional archive)."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific documented incident with a real, if partial, cost, not a flattering 'always collegial' narrative. Physics World's review of Ferguson's biography describes the pair's first months together: 'the pair pouted at each other, argued constantly, quarrelled frequently and finally -- in a fit of anger and disappointment -- Kepler walked out,' over Tycho's 'self-centred and overprotective' refusal to share his observational data. 'Tycho had the good sense and magnanimity to relent, and finally the differences were patched up,' after which Tycho assigned Kepler the Mars problem that became his life's central project. Scored dual_edged: real capacity to return to and sustain a difficult, power-imbalanced collaboration is documented, but so is an actual walkout under real strain, not an inference from personality reputation. Single source (a press review of a biography rather than the biography directly read) -- confidence and score both held moderate accordingly."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/johannes-kepler-koehler-1910.jpg",
+    "width": 836,
+    "height": 1200,
+    "source": "Kepler-Museum, Weil der Stadt (Kepler's birthplace), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:JKepler.jpg",
+    "attribution": "August Kohler, 1910, held at the Kepler-Museum in Weil der Stadt",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:JKepler.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q8963) verified live before scoring: label 'Johannes Kepler', description 'German mathematician and astronomer (1571-1630)'. Slug checked against a live listing of data-pipeline/candidates/ -- no collision. REGION: live-checked regionCode convention against every already-committed candidate file with a pure-DE nationalityCodes entry (per this project's invariant that repository state outranks any suggested value): 10 of 13 use 'western_europe' (including carl-friedrich-gauss, whose own provenance note documents the same live check), 3 use 'central_europe' (each carrying real complicating factors -- dual/adjacent nationality or a different historical-political framing). Followed the dominant, live-verified convention: regionCode set to 'western_europe'. EVIDENCE READ: 5 substantive non-Wikipedia/Wikidata sources, all fetched and read directly in full this cycle: MacTutor (institution), a Physics World press review of Kitty Ferguson's Tycho/Kepler double biography (press -- a review, not the biography itself, noted as a limitation on the one row resting on it), Linda Hall Library (institution, independent of MacTutor), Thony Christie's historian-of-science blog 'The Renaissance Mathematicus' (press, used partly as a corrective/calibration check against overstating the popular Mars narrative), and Walter William Bryant's 1920 published biography of Kepler via Wikisource (biography). This clears the >=2-independent-perspective / >=1-non-self bar comfortably; all five are non-self and mutually independent institutions/authors. PORTRAIT AUTHENTICITY CAVEAT, INVESTIGATED AND DISCLOSED: a genuine scholarly controversy exists over Kepler portraits -- Shore & Pavlik, arXiv:2108.02213, document that the single most widely circulated 'Kepler portrait' online is in fact 'an early nineteenth century forgery' possibly derived from a life portrait of Michael Mastlin, identified as such by art experts in the 1920s. The file used here (JKepler.jpg, currently English Wikipedia's own infobox image) is a DIFFERENT, later work: a 1910 painting by August Kohler held at the Kepler-Museum in Weil der Stadt (Kepler's birthplace), i.e. a posthumous commemorative depiction from a dedicated Kepler museum, not a claim to a contemporary life likeness and not (as far as this cycle's research could determine) the specific debunked forgery. portrait.kind is set to 'historical_depiction' rather than 'likeness' specifically to reflect this -- an honest, non-overclaiming choice given the live-documented authenticity dispute around Kepler iconography generally. THE TYCHO-DEATH DATA-DISPUTE ANECDOTE ('Kepler seized the data ... acting unscrupulously, as he himself admitted') surfaced repeatedly in search results but could not be traced to a specific, directly-readable, citable source this cycle (the Britannica Tycho Brahe page and a Chandra/Harvard PDF that might have supported it both failed to load) -- NOT used to support any row, consistent with this rubric's discipline against citing claims that could not actually be verified by reading the source. No row in this profile rests on Kepler's mother's witchcraft trial, his children's deaths, or any other family bereavement -- per the explicit research-brief restriction, only documented scientific/professional behavior was scored."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요하네스 케플러"
+    }
+  }
+}

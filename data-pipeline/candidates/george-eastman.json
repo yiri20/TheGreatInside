@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-eastman",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "George Eastman",
+    "aliases": [],
+    "wikidataId": "Q189147",
+    "birthYear": 1854,
+    "deathYear": 1932,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "inventor"
+    ],
+    "fieldIds": [
+      "business",
+      "chemistry",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught",
+      "innovator",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_eastman_wikipedia",
+      "kind": "wikipedia",
+      "title": "George Eastman",
+      "url": "https://en.wikipedia.org/wiki/George_Eastman"
+    },
+    {
+      "id": "src_eastman_wikidata",
+      "kind": "wikidata",
+      "title": "George Eastman (Q189147)",
+      "url": "https://www.wikidata.org/wiki/Q189147"
+    },
+    {
+      "id": "src_eastman_museum",
+      "kind": "institution",
+      "title": "George Eastman Museum, \"About George Eastman\" -- his former home, now the institutional museum/archive holding his biographical records; account of the self-taught photographic-chemistry period (age 23, three years of gelatin-emulsion experimentation in his mother's kitchen), the 1881 partnership with Henry Strong forming the Eastman Dry Plate Company, its restructurings through to Eastman Kodak Company (1892), and over $100 million in lifetime philanthropic giving. Fetched and read directly.",
+      "url": "https://www.eastman.org/about-george-eastman"
+    },
+    {
+      "id": "src_eastman_kodak",
+      "kind": "institution",
+      "title": "Kodak, \"George Eastman\" company-history page -- Kodak's own institutional account, with specific dated detail: nightly kitchen chemistry experiments while working days at Rochester Savings Bank (including sleeping 'on a blanket on the floor beside the kitchen stove'), the dry-plate formula/machine patented by 1880, the April 1880 State Street lease and Henry Strong partnership, the 1888 Kodak Camera and 'you press the button, we do the rest' slogan, the 1897 Trafalgar Square electric sign, the 1899 Wage Dividend profit-sharing program, and the 1919 gift of one-third of his personal stock holdings (~$10 million) to employees. Fetched and read directly.",
+      "url": "https://www.kodak.com/en/company/page/george-eastman-history/"
+    },
+    {
+      "id": "src_eastman_iphf",
+      "kind": "institution",
+      "title": "International Photography Hall of Fame and Museum, Hall of Fame inductee page for George Eastman -- independent institutional account of the dry-plate technology and its chemistry, the 1888 Kodak camera marketing slogan, Eastman's own account of coining the 'Kodak' name (tested letter combinations starting and ending in 'K'), and a summary list of employee-welfare policies (wage-dividend/stock programs, insurance, disability benefits). Fetched and read directly.",
+      "url": "https://www.iphf.org/hof-george-eastman"
+    },
+    {
+      "id": "src_eastman_pbs",
+      "kind": "press",
+      "title": "PBS, American Experience, \"George Eastman\" -- independent documentary/press account with specific, sometimes unflattering behavioral detail: his rigid personal-itinerary planning for travel companions ('down to the courses of their meals'), the 1925 African safari's 200 pre-numbered equipment boxes, his demand that buildings he funded use minimal ornament to cut cost, his early crude teakettle-and-glass-rod plate-coating method and the custom machine he commissioned in response, and the Goodwin flexible-film patent ultimately being awarded posthumously to its original claimant rather than to Eastman. Fetched and read directly. Health- and bereavement-related material in this source (his 1932 death, references to earlier family deaths) is NOT used to infer any personality trait in this profile -- see provenance.",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/george-eastman/"
+    },
+    {
+      "id": "src_eastman_sciencemediamuseum",
+      "kind": "institution",
+      "title": "National Science and Media Museum (UK), blog, \"C is for... Celluloid: The Goodwin vs. Kodak patent battle over flexible film\" -- independent UK institutional/museum account with a precise dated timeline: Hannibal Goodwin's 1887 flexible-celluloid-film patent filing, Eastman and chemist Henry Reichenbach's competing 1888-89 filing, Eastman's 1889 market launch and a directly-quoted letter ('I would not trade it for the telephone'), Goodwin's patent finally granted in 1898, the August 1913 federal court ruling against Kodak, and the 1914 five-million-dollar payment. Fetched and read directly.",
+      "url": "https://blog.scienceandmediamuseum.org.uk/a-z-photography-collection-c-is-for-celluloid/"
+    },
+    {
+      "id": "src_eastman_philanthropyroundtable",
+      "kind": "press",
+      "title": "Philanthropy Roundtable, Hall of Fame / Almanac entry on George Eastman -- independent press account describing his hands-on personal approach to philanthropy: rather than delegating to professional staff, 'he did it himself, with very personal attention. He researched carefully, often acted without being asked, and made all of his own decisions.' The live page returned repeated HTTP 403 responses on direct-fetch attempts (three tries, two different URLs on the same domain); read via search-engine result excerpts that reproduce this specific quoted text, not the full page. Used only to corroborate a documented control/self-direction pattern already independently attested by PBS, not as the sole basis for any row.",
+      "url": "https://www.philanthropyroundtable.org/hall-of-fame/george-eastman/"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, sustained, hands-on self-education process, not an inference from later fame as an inventor. While working full-time as a bank clerk in Rochester, Eastman spent roughly three years (from about 1877) teaching himself photographic chemistry through library and trade-journal study (a subscription to the British Journal of Photography) and nightly kitchen experimentation with gelatin emulsions, at points sleeping 'on a blanket on the floor beside the kitchen stove' from exhaustion (src_eastman_kodak, src_eastman_museum -- two independent institutional accounts of the same three-year self-teaching period). His early method was crude and inefficient -- pouring gelatin from a teakettle onto a glass plate and spreading it by hand with a glass rod -- and rather than persist with a slow, costly process he designed and patented (1880) a purpose-built machine to mass-produce dry plates (src_eastman_pbs, independently confirming the specific teakettle-to-machine iteration). Sustained, iterative, hands-on experimentation corroborated across three independent institutional/press sources."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Distinct from experimentation above, which concerns his hands-on chemistry method; this row concerns recognizing and acting on a market opportunity. Having solved the dry-plate manufacturing problem, Eastman went directly into business -- leasing space above a Rochester music store in April 1880 -- rather than treating the invention as a private technical achievement (src_eastman_kodak). He then identified a second, distinct opportunity in 1888: even improved dry-plate photography still required the customer to handle chemistry and equipment directly, so he built the Kodak camera business specifically around removing that barrier -- a pre-loaded roll-film camera mailed back to Rochester in its entirety for developing and reloading, under the slogan he coined, 'you press the button, we do the rest' (src_eastman_kodak, src_eastman_iphf -- two independent institutional sources describe the same reframing). A specific business-model innovation aimed at a named adoption barrier, not an inference from Kodak's eventual scale."
+    },
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "Specific, concrete accounts of personal control over logistics and cost, not a general 'meticulous' reputation. PBS's American Experience documents that Eastman planned travel companions' itineraries in detail 'right down to the courses of their meals,' and that on his 1925 African safari over 200 equipment boxes were shipped pre-numbered and organized 'so as to end up on the appropriate native porters' heads' (src_eastman_pbs). The same pattern appears in his funding decisions: he 'demand[ed] that buildings he funded be constructed with a minimum of ornament so as to cut cost' (src_eastman_pbs), and in his charitable giving more broadly he 'researched carefully' and personally 'made all of his own decisions' rather than delegating to staff (src_eastman_philanthropyroundtable -- read via search-engine excerpts; the live page could not be directly fetched despite repeated attempts, see sources). Scored dual_edged rather than a flattering 'detail-oriented' framing: the same close personal control that kept costs down and philanthropy well-targeted is documented, in the PBS account, as extending into rigid, controlling management of other people's time and choices on his travels. Not scored from, or by reference to, any health/bereavement material in the same source."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, decades-long, verifiable business policy, not a vague 'generous' reputation. In 1899, Eastman established a formal 'Wage Dividend' program tying employee compensation directly to the company's annual stock-dividend performance, on top of regular wages (src_eastman_kodak, src_eastman_iphf). In 1919 he went further, personally donating roughly one-third of his own stock holdings (about 10,000 shares, worth roughly $10 million) back to the company so employees could purchase it at a steep discount, channeling the proceeds into a Kodak-employee-run Welfare Fund, and subsequently adding retirement annuities, life and disability insurance, and paid sick leave as standing company policy (src_eastman_kodak). Two independent institutional sources (Kodak's own company history and the International Photography Hall of Fame) corroborate the same specific policy sequence and dates, distinguishing this from an unverifiable reputation for generosity."
+    },
+    "competitiveness": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, dated professional/legal setback, not an inference from Kodak's eventual market dominance. In 1888-89, while developing flexible roll film, Eastman and his chemist Henry Reichenbach filed a patent application the U.S. Patent Office found to interfere with an earlier (1887) filing by clergyman-inventor Hannibal Goodwin; Eastman brought his own flexible film to market in 1889 regardless, writing to a business partner that 'the field for it is immense... I would not trade it for the telephone' (src_eastman_sciencemediamuseum). Goodwin's patent was finally granted in 1898; his estate sued, and in August 1913 a federal court ruled against Kodak -- not on the theory that Eastman had copied Goodwin's process, but that Eastman's own improved process still fell within Goodwin's claims -- resulting in a five-million-dollar payment in 1914 (src_eastman_sciencemediamuseum). Scored dual_edged and at moderate confidence rather than a clean 'innovator' narrative: racing to market ahead of a rival's earlier, still-pending claim paid off commercially for years, but the underlying legal gamble was later judged against him. Single institutional source for this specific sequence, so held at a moderate rather than extreme band."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-eastman-forbes-1917.jpg",
+    "width": 1190,
+    "height": 1600,
+    "source": "Published in \"Men Who Are Making America\" by B. C. Forbes Publishing Company, New York, 1917, via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Eastman_7.jpg",
+    "attribution": "B. C. Forbes Publishing Company, New York, 1917 (public domain)",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:George_Eastman_7.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q189147) verified live before scoring: label 'George Eastman' confirmed via the Wikidata API. Slug checked against the live data-pipeline/candidates/ listing -- no collision. REGION: nationalityCodes ['US'], regionCode 'north_america' per the research brief -- consistent with the live corpus's treatment of US-nationality candidates and not deviated from. ERA DECISION: the research brief flagged this as a judgment call (founding period 19th-century vs. Kodak's growth-era 20th-century). Live-checked andrew-carnegie.json (1835-1919, American industrialist, most-documented philanthropic activity after 1900) as the closest structural analog in the existing corpus -- it is tagged '19th_century' despite the bulk of Carnegie's famous public acts occurring post-1900. Eastman (1854-1932) follows the same convention: era set to '19th_century'. EVIDENCE READ: 5 substantive sources beyond Wikipedia/Wikidata orientation -- George Eastman Museum, Kodak's own company history, the International Photography Hall of Fame, PBS American Experience, and the UK National Science and Media Museum's blog -- all independently authored/institutional and non-self. A sixth source, Philanthropy Roundtable, could not be directly fetched (HTTP 403 on three attempts across two URLs) and is cited transparently as read only via search-engine excerpts reproducing specific quoted text, used solely as secondary corroboration for the planning_orientation row's already-independently-sourced (PBS) control/self-direction pattern, not as the sole basis for any row. This clears the 2-independent-perspective / 1-non-self-behavioral-source bar comfortably: the self-taught-chemistry period is independently corroborated by Kodak, the Museum, and PBS; the employee profit-sharing program by Kodak and IPHF; the Goodwin patent dispute is documented in detail by the National Science and Media Museum. EVIDENCE DISCIPLINE -- HEALTH/BEREAVEMENT EXCLUSION: the PBS American Experience source contains extensive material framing Eastman's control-oriented behavior as caused by his father's 1862 death and his sister's 1870 death, and covers his 1932 suicide (spinal stenosis diagnosis) in detail. Per this project's rule against inferring personality from health, disability, bereavement, or trauma, none of that causal framing, and none of the suicide/health material itself, was used to score any row -- the planning_orientation row cites only the observed behaviors themselves (itinerary planning, safari logistics, cost-minimization demands), not PBS's own trauma-based explanation for them. No row infers anything from his wealth or Kodak's fame alone; the competitiveness row is deliberately scored from a documented setback (the lost Goodwin patent fight), not a flattering achievement narrative. PORTRAIT: searched Wikimedia Commons directly; an initial candidate (an 1890 Atelier Nadar profile photograph, PD) could not be visually confirmed against a verified reference, so instead used the English Wikipedia infobox's own image, 'File:George_Eastman_7.jpg' (published in Men Who Are Making America, B. C. Forbes Publishing Co., 1917; public domain; originally 1592x2140), confirmed via the live Commons imageinfo API and visually verified as a clear, individually identifiable frontal portrait. Downloaded the real file, resized with Python PIL from 1592x2140 to 1190x1600 (long edge capped at 1600px per convention), and verified the saved file's real pixel dimensions (1190x1600) match the resize target exactly. Saved to public/portraits/george-eastman-forbes-1917.jpg."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지 이스트먼"
+    }
+  }
+}

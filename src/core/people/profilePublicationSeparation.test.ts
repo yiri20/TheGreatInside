@@ -399,19 +399,40 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "soichiro-honda",
     "tu-youyou",
     "valentina-tereshkova",
+    // Roster37 (2026-09-18, docs/checkpoints/roster37.md): 15 new, freshly
+    // researched, evidence_approved, directory-visible people -- zero
+    // backlog reuse, zero holds this cycle. All 15 are honestly
+    // non-match-eligible, exactly as the recent-cohort publication-vs-
+    // matching architecture diagnostic anticipated. Baselines now 291/290;
+    // match-eligible set unchanged at 114.
+    "alexander-graham-bell",
+    "alfred-nobel",
+    "audrey-hepburn",
+    "carl-friedrich-gauss",
+    "charles-lindbergh",
+    "claude-monet",
+    "george-eastman",
+    "guglielmo-marconi",
+    "gustave-eiffel",
+    "howard-hughes",
+    "james-clerk-maxwell",
+    "johann-sebastian-bach",
+    "johannes-kepler",
+    "karl-benz",
+    "marilyn-monroe",
   ]);
 
-  it("still exactly 276 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(276);
-    expect(PEOPLE_INDEX).toHaveLength(276);
+  it("still exactly 291 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(291);
+    expect(PEOPLE_INDEX).toHaveLength(291);
   });
 
-  it("still exactly 275 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 290 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(275);
+    expect(visible).toHaveLength(290);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

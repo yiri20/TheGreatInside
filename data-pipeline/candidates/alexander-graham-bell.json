@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alexander-graham-bell",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alexander Graham Bell",
+    "aliases": [
+      "Aleck Bell",
+      "Alexander Bell (birth name; added \"Graham\" himself at age 10)"
+    ],
+    "wikidataId": "Q34286",
+    "birthYear": 1847,
+    "deathYear": 1922,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "scientist"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology",
+      "education"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "educational",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bell_wikipedia",
+      "kind": "wikipedia",
+      "title": "Alexander Graham Bell",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+    },
+    {
+      "id": "src_bell_wikidata",
+      "kind": "wikidata",
+      "title": "Alexander Graham Bell (Q34286)",
+      "url": "https://www.wikidata.org/wiki/Q34286"
+    },
+    {
+      "id": "src_bell_loc_inventor_scientist",
+      "kind": "institution",
+      "title": "Library of Congress, \"Inventor and Scientist\" -- institutional essay accompanying the Alexander Graham Bell Family Papers collection, describing his laboratory notebooks, intellectual drive, and post-telephone scientific pursuits (Aerial Experiment Association, Silver Dart, HD-4 hydrofoil). Fetched and read directly.",
+      "url": "https://www.loc.gov/static/collections/alexander-graham-bell-papers/articles-and-essays/inventor-and-scientist/"
+    },
+    {
+      "id": "src_bell_henryford_aea",
+      "kind": "institution",
+      "title": "The Henry Ford Museum, \"Getting into the Air: Alexander Graham Bell's Aerial Experiment Association\" -- independent institutional account of the AEA's formation, recruitment, financial structure, and Bell's direction of the group. Fetched and read directly.",
+      "url": "https://www.thehenryford.org/collections/explore/articles/getting-into-the-air-alexander-graham-bells-aerial-experiment-association"
+    },
+    {
+      "id": "src_bell_shulman_telephone_gambit",
+      "kind": "biography",
+      "title": "Seth Shulman, The Telephone Gambit: Chasing Alexander Graham Bell's Secret (W.W. Norton, 2008) -- investigative-journalism book built directly on Bell's own digitized laboratory notebook (held by the Library of Congress) and the 1886 Zenas Wilber affidavit, examining the disputed circumstances of the February-March 1876 patent filing. Read via detailed reporting/summary of the book's specific documentary findings (NPR interview transcript, History News Network review, publisher description), not the full book text.",
+      "url": "https://www.npr.org/transcripts/100921254"
+    },
+    {
+      "id": "src_bell_boston_archives_horace_mann",
+      "kind": "institution",
+      "title": "City of Boston Archives, Horace Mann School for the Deaf (1869-Present) exhibit -- independent municipal-archive account of Bell's 1871 Visible Speech instruction and ongoing involvement with the school. Fetched and read directly.",
+      "url": "https://cityofbostonarchives.omeka.net/exhibits/show/horace-mann-school/history/alexander-graham-b"
+    },
+    {
+      "id": "src_bell_disability_museum",
+      "kind": "institution",
+      "title": "Disability History Museum, \"Alexander Graham Bell and His Role in Oral Education\" -- independent essay documenting his specific schools (Boston School for Deaf Mutes, his own School of Vocal Physiology), the Volta Bureau (1887), and his direct legislative advocacy for oral day schools in Wisconsin. Fetched and read directly.",
+      "url": "https://www.disabilitymuseum.org/dhm/edu/essay.html?id=59"
+    },
+    {
+      "id": "src_bell_nsta_notebooks",
+      "kind": "press",
+      "title": "National Science Teaching Association, The Science Teacher, \"Engaging Students in Scientific Practices With the Notebooks of Alexander Graham Bell\" (Sept/Oct 2022) -- independent professional-association analysis of Bell's primary-source laboratory notebooks, documenting his specific iterative, revise-and-question experimental practice. Fetched and read directly.",
+      "url": "https://www.nsta.org/science-teacher/science-teacher-septemberoctober-2022/engaging-students-scientific-practices"
+    },
+    {
+      "id": "src_bell_canadian_encyclopedia_hydrofoil",
+      "kind": "press",
+      "title": "The Canadian Encyclopedia, \"Hydrofoil\" -- editorially-reviewed reference entry documenting the HD-1 through HD-4 development timeline (1908-1919), including the HD-2 breakup and the WWI-imposed moratorium on HD-3, prior to the 1919 world speed record. Fetched and read directly.",
+      "url": "https://www.thecanadianencyclopedia.ca/en/article/hydrofoil"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "NSTA's direct analysis of Bell's primary-source laboratory notebooks documents a specific, granular iterative practice, not a general reputation for tinkering: he 'frequently scratched out work, revised diagrams, and wrote questions for further investigation,' labeled notebook pages 'Investigate following cases' to deliberately work through alternative scenarios, and progressively refined diagrams 'with measured precision using straight edges' across successive drafts (e.g., his May 1878 photophone-concept pages). The article explicitly notes 'Bell did not get it right the first time' -- his notebooks show real trial, error, and reconsideration rather than one-shot insight (src_bell_nsta_notebooks). Documented directly from the primary-source record as analyzed by an independent professional science-education organization, not inferred from the fact that he succeeded."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Sustained, institutional-level achievement (not dabbling) across four genuinely distinct fields, each independently documented: speech/deaf education (Visible Speech instruction at the Horace Mann and Clarke Schools from 1871, his own School of Vocal Physiology from 1872, and the Volta Bureau he founded and funded in 1887 -- src_bell_boston_archives_horace_mann, src_bell_disability_museum); telephony/electrical engineering (the 1876 patent, scored separately for its disputed circumstances under competitiveness below); aeronautics (co-founding and directing the Aerial Experiment Association 1907-1909, which 'produced four powered aircraft,' including the first powered flight in Canada -- src_bell_henryford_aea, src_bell_loc_inventor_scientist); and marine/hydrofoil engineering (the HD-series program, 1908-1919 -- src_bell_canadian_encyclopedia_hydrofoil). Three independent institutional/press sources beyond Wikipedia confirm real, sustained output (not a single achievement plus hobbies) in at least three of these four fields."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "An 11-year iterative engineering program that included a real, documented setback, not a single lucky success: Bell and Casey Baldwin began hydrofoil experiments in 1908; the HD-1 reached 72-80 km/h in 1911-12; the HD-2 'broke up' outright; the HD-3 (1913) was then interrupted for years by a wartime moratorium on hydrofoil development; only the HD-4 achieved the 114 km/h world speed record on September 9, 1919 (src_bell_canadian_encyclopedia_hydrofoil). A second, independent, much longer-running instance of sustained commitment in an unrelated field: the Volta Bureau, founded in 1887, continued as an active institution and publisher through the remainder of Bell's life to 1922 -- 35 years (src_bell_disability_museum). Two independent, dated, sustained-effort episodes in unrelated domains, one of them explicitly including a documented failure along the way."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Henry Ford Museum's institutional account of the Aerial Experiment Association documents specific, concrete leadership behavior, not an inference from his fame: at age 60, Bell personally recruited each of the AEA's four members based on individually assessed expertise -- purchasing his first aeronautical engine from Glenn Curtiss and, 'considering him to be the preeminent motor expert in the United States, persuaded him to formally participate'; structured differentiated compensation reflecting that assessment ($5,000 for Curtiss vs. $1,000 for McCurdy and Baldwin, while Bell and Selfridge took no salary); and provided sustained technical direction, insisting 'tetrahedral kites held the answer' and guiding the group's experimental design sequence (src_bell_henryford_aea). A specific, named, documented instance of assembling and directing a technical team toward a shared goal."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Two independent, dated, cross-domain documented instances of influencing specific named individuals or bodies toward a concrete end, not a general 'charismatic' characterization: (1) in deaf education, Bell 'personally conduct[ed] discussions and exhibitions with state legislators' in Wisconsin specifically to establish oral day schools (src_bell_disability_museum); (2) in aeronautics, decades later, Bell 'petitioned his friend President Theodore Roosevelt and Secretary of War William Howard Taft to allow [Thomas] Selfridge special permission to join' the AEA -- direct, successful lobbying of the sitting US President and Secretary of War to release a specific named military officer from his normal assignment (src_bell_henryford_aea). Two genuinely distinct incidents, decades and domains apart, both converging on real, targeted interpersonal influence rather than institutional prestige alone."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "The Library of Congress's own institutional essay states that his 'laboratory notebooks demonstrate' a 'genuine and rare intellectual curiosity' that 'drove him throughout his life,' documenting that rather than resting on the telephone's success, he organized his life to keep pursuing new scientific interests, establishing laboratories and assembling 'teams of bright young engineers to pursue new and exciting ideas' (src_bell_loc_inventor_scientist). Corroborated by the independently-documented pattern of self-initiated pivots into fields with no prior formal training: founding the Aerial Experiment Association in 1907 after 'closely follow[ing]' Langley's failed aeronautical efforts and the Wright brothers' success (src_bell_henryford_aea), and beginning hydrofoil research in 1908 after encountering Enrico Forlanini's hydrofoil boat abroad (src_bell_canadian_encyclopedia_hydrofoil). Kept at strong_inference rather than documented: the LOC's own characterization is closer to an institutional editorial judgment than a single named incident, though it is corroborated by a real, repeated, independently-documented pattern."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, dated 1876 episode, deliberately scored moderately rather than as a flattering clean priority win or a settled accusation of theft, per this rubric's guidance on genuinely unresolved contradictory evidence (Sec.5): Bell's patent application and Elisha Gray's competing caveat for a similar telephone design were both filed at the US Patent Office on February 14, 1876, Bell's entered earlier in that day's docket. Bell's own laboratory notebook -- held, digitized, and hosted by the Library of Congress (independently confirming the artifact itself is genuine, src_bell_loc_inventor_scientist) -- contains a 12-day gap followed by a March 7, 1876 entry reading 'Returned from Washington,' after which Bell's notes show a documented shift toward a specific liquid-transmitter design resembling one in Gray's own competing filing; his first successful call followed three days later. In 1886, former patent examiner Zenas Wilber swore an affidavit, reported at the time and since, that he had improperly shown Gray's filing to Bell's attorney and been paid for it -- an affidavit Bell denied under his own oath (src_bell_shulman_telephone_gambit). Historians remain genuinely divided on whether this reflects impropriety or coincidental parallel invention. Scored documented/dual_edged rather than an extreme risk score: the underlying facts (filing timing, notebook gap, the affidavit's existence) are solid and specific, but the decisive interpretive step -- impropriety versus coincidence -- is exactly the kind of irreducibly unresolved question this rubric says should lower confidence rather than settle one way; included specifically because the task of this profile is to represent Bell honestly, not only flatteringly."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alexander-graham-bell-loc-1904.jpg",
+    "width": 941,
+    "height": 1536,
+    "source": "Library of Congress, Prints and Photographs Division (LCCN 2004671941), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_LCCN2004671941.jpg",
+    "attribution": "Library of Congress, Prints and Photographs Division, digital ID cph.3a17019 (photographic print, 1904)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_LCCN2004671941.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q34286) verified live before scoring: label 'Alexander Graham Bell', description 'Canadian-American scientist inventor of telephone (1847-1922)'. Name/slug checked against data-pipeline/candidates/ live listing -- no collision (gertrude-bell.json, isabella-bird.json, jocelyn-bell-burnell.json are unrelated people). NATIONALITY/REGION DECISION: the research brief suggested nationalityCodes reflecting US career context with Scottish origin noted separately; live-checked this project's own precedent for exactly this situation (a Scottish-born, naturalized-American figure) via Andrew Carnegie's committed candidate file (data-pipeline/candidates/andrew-carnegie.json), which uses nationalityCodes ['GB','US'] with regionCode 'north_america' -- followed that established precedent exactly rather than dropping the GB code, since Bell retained UK citizenship after 1882 naturalization per Wikidata. ERA DECISION: of the 7 scored rows, 3 (persistence/hydrofoil, leadership_drive, and half of persuasiveness) rest on documented behavior entirely within 1907-1919, and cross_domain_range/curiosity weight heavily toward that same later, multi-domain aeronautical/hydrofoil chapter; era set to 20th_century on that balance of evidence rather than defaulting to the more famous 1876 telephone work alone. EVIDENCE READ: 7 substantive sources beyond Wikipedia/Wikidata orientation, spanning institution (Library of Congress x1, The Henry Ford Museum, City of Boston Archives, Disability History Museum), press (NSTA's Science Teacher magazine, The Canadian Encyclopedia), and biography/investigative-journalism (Shulman's The Telephone Gambit, read via detailed reporting/interview coverage of its specific documentary findings rather than the full book text) kinds -- at least 5 independent authorial perspectives, none of them self-testimony, clearing this rubric's 2-independent-perspective / 1-non-self bar with margin. DELIBERATELY NOT USED: the 1886 Zenas Wilber bribery affidavit and the underlying patent-priority dispute were investigated specifically because the research brief asked for this honestly, not just flattering material -- scored under competitiveness at moderate score/confidence and impact:dual_edged precisely because historians do not agree on the interpretation; no row asserts Bell committed misconduct, and no row asserts the dispute is resolved in his favor either. Bell's documented deaf-education work (Visible Speech instruction, the Horace Mann/Clarke Schools, the Volta Bureau) is scored strictly as professional/institutional behavior (teaching method, institution-founding, legislative advocacy) -- never as commentary on deafness or disability itself, per this project's explicit safety rule. No row infers anything from his mother's or wife's deafness, his own health, or any bereavement."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알렉산더 그레이엄 벨"
+    }
+  }
+}

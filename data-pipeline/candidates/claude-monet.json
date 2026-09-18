@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "claude-monet",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Claude Monet",
+    "aliases": [
+      "Oscar-Claude Monet",
+      "Claude-Oscar Monet"
+    ],
+    "wikidataId": "Q296",
+    "birthYear": 1840,
+    "deathYear": 1926,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["FR"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["painter"],
+    "fieldIds": ["art"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["founder", "innovator", "perfectionist"],
+    "archetypeIds": ["creative_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_monet_wikipedia",
+      "kind": "wikipedia",
+      "title": "Claude Monet",
+      "url": "https://en.wikipedia.org/wiki/Claude_Monet"
+    },
+    {
+      "id": "src_monet_wikidata",
+      "kind": "wikidata",
+      "title": "Claude Monet (Q296)",
+      "url": "https://www.wikidata.org/wiki/Q296"
+    },
+    {
+      "id": "src_monet_aic_venice",
+      "kind": "institution",
+      "title": "Jill Shaw, \"Cat. 45. Venice, Palazzo Dario, 1908\", in Monet Paintings and Drawings at the Art Institute of Chicago -- the museum's own online scholarly catalogue. Quotes Alice Monet's near-daily letters to her daughter Germaine Salerou describing Monet's working schedule and struggles in Venice, and Monet's own letters to dealer Paul Durand-Ruel and critic Gustave Geffroy, including his own retrospective comparison of the Venice paintings to the earlier Stacks of Wheat (Haystacks) series method. Fully read in this cycle.",
+      "url": "https://publications.artic.edu/node/135622"
+    },
+    {
+      "id": "src_monet_artnet",
+      "kind": "press",
+      "title": "Brian Boucher, \"Art Bites: Monet Had an Appetite for Destruction (of His Own Paintings)\", Artnet News (May 28, 2024) -- cites a Sotheby's estimate of roughly 500 destroyed canvases, a contemporary 1908 newspaper valuation of one destruction episode, Alice Monet's own 1908 letter to a friend, Georges Clemenceau's account (a close friend, quoted by a journalist), and Monet's own 1908 letter. Fully read in this cycle.",
+      "url": "https://news.artnet.com/art-world/art-bites-monet-destroyed-his-paintings-2471591"
+    },
+    {
+      "id": "src_monet_dailybeast",
+      "kind": "press",
+      "title": "Allison McNearney, \"When Claude Monet Slashed and Destroyed His Own Paintings\", The Daily Beast (Oct. 29, 2017) -- corroborates the 1908 destruction episode and quotes Monet's own remarks about his garden and his self-assessment. Only the free (non-paywalled) portion of this article was accessible and read in this cycle; paywalled content beyond that was not read and is not cited.",
+      "url": "https://www.thedailybeast.com/when-claude-monet-slashed-and-destroyed-his-own-paintings/"
+    },
+    {
+      "id": "src_monet_wullschlager",
+      "kind": "biography",
+      "title": "Jackie Wullschlager, Monet: The Restless Vision (Allen Lane, 2023) -- independent recent scholarly biography. Read via Bonjour Paris's article on Monet's Giverny gardeners, which quotes the biography directly and separately cites 1906 census records and one of Monet's own 1905 hiring letters; the full monograph text was not accessed.",
+      "url": "https://bonjourparis.com/history/the-original-gardeners-at-claude-monets-giverny/"
+    },
+    {
+      "id": "src_monet_fondation_giverny",
+      "kind": "institution",
+      "title": "Fondation Claude Monet, Giverny, \"Water Lily Pond\" -- the institution that today owns and maintains Monet's house and gardens, describing his 1893 land purchase and river-diversion works, his personal design choices (including choosing green rather than traditional red paint for the Japanese bridge), and his own plant selections. Fully read in this cycle.",
+      "url": "https://claudemonetgiverny.fr/en/decouvrir/water-lily-pond/"
+    },
+    {
+      "id": "src_monet_sciencehistory",
+      "kind": "institution",
+      "title": "Science History Institute, \"Could Claude Monet See Like a Bee?\" -- the institute's own published account of the specific studio-workflow adaptations Monet used during a period of impaired color perception in the 1910s-20s, and his subsequent treatment of the resulting body of work once his circumstances changed. Fully read in this cycle.",
+      "url": "https://www.sciencehistory.org/stories/magazine/could-claude-monet-see-like-a-bee/"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 84,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, sustained working METHOD, not merely a stylistic output description. The Art Institute of Chicago's own scholarly catalogue (src_monet_aic_venice) describes Monet's established practice -- exemplified by the Stacks of Wheat (Haystacks) series 'executed over fifteen years earlier' than his 1908 Venice work -- as 'a formal exercise in reproducing near-identical subject matter subtly altered to reflect differences in season or lighting,' i.e. returning to the same motif on multiple canvases to capture changing light, then explicitly contrasts it with his different approach in Venice ('not a series...just different motifs repeated'). This is corroborated by Monet's own words (self-testimony, capped as one perspective): writing that he wanted to capture 'an instant, the enveloppe above all, the same light spread over everything.' The Musee de l'Orangerie's own institutional record (cited in src_monet_fondation_giverny and corroborated by src_monet_aic_venice) confirms this method was applied to the Water Lilies across three decades, not a single series."
+    },
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, repeated, multiply-witnessed behavioral pattern, not an inference from reputation. Per src_monet_artnet: a 1908 newspaper account documented that Monet destroyed at least 15 canvases that year alone (valued in the press at the time at roughly $100,000), forcing the postponement of a planned Paris exhibition, and catalogue records (cited via Sotheby's) estimate roughly 500 canvases destroyed across his career. This is independently corroborated by his wife Alice's own contemporaneous 1908 letter to a friend -- 'He punctures canvases every day. It is truly distressing. One day, things are not too bad; the next day all is lost' -- and by Monet's own 1908 letter describing the water-and-reflection paintings as having 'become an obsession...beyond my powers as an old man.' Scored dual_edged rather than a flat advantage: this pattern carries a real, attested cost (destroyed work, delayed exhibitions, and documented distress to those close to him), not just a flattering 'exacting standards' framing."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "The Art Institute's scholarly catalogue (src_monet_aic_venice), drawing on Alice Monet's near-daily letters, documents that during the 1908 Venice trip Monet 'set up a regimented work schedule, painting between 7:45 and 8:00 in the morning until mid- to late-afternoon' -- a specific, sourced routine, not a general 'hardworking' characterization. Separately, per src_monet_wullschlager, Monet maintained this kind of sustained oversight even while away from Giverny, sending his head gardener Felix Breuil 'copious, detailed instructions' -- one preserved example instructs him to, over a precise ten-day window, 'lay the dahlias down to root, plant out those with shoots before I get back.'"
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "Distinct from the discipline row above: this concerns precision of aesthetic control over sensory specifics, not adherence to a schedule. The Fondation Claude Monet's own institutional record (src_monet_fondation_giverny) documents that Monet chose green paint rather than the traditional Japanese red for his bridge and personally selected the ornamental plant varieties himself. Per src_monet_wullschlager, Monet's 'concerns with the color, density, and texture in his garden' repeatedly put him at odds with head gardener Breuil's more horticultural priorities -- he was treating the garden as a visual composition under his own tight control, not simply commissioning a pretty garden and leaving the specifics to staff."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, sustained, decades-long commitment to a single self-created subject. The Musee de l'Orangerie's own account (cited via src_monet_fondation_giverny and corroborated in src_monet_aic_venice) states the water lily paintings 'occupied Claude Monet for three decades, from the late 1890s until his death in 1926.' This was not a subject he found ready-made: per src_monet_fondation_giverny he personally purchased the land and engineered the diversion of a tributary of the River Epte in 1893 specifically to create it, and per src_monet_dailybeast he had to fight off fines threatened by neighboring townspeople who were concerned the imported water lilies would contaminate the local water supply, before the garden -- and the three-decade painting project built around it -- could proceed."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "Weaker-confidence row, kept at strong_inference rather than documented: the surviving record documents a sustained circle more than it documents specific reciprocal acts. Contemporary art-critic and friend Gustave Geffroy's account (background only, not independently re-verified this cycle beyond secondary characterization) and other period sources describe a standing tradition of fellow artists and critics -- Geffroy, Clemenceau, Pissarro, Rodin, Renoir -- travelling from Paris to Giverny, with Monet personally guiding after-dinner garden walks. This is a genuine, sustained pattern rather than a single visit, but the evidence available this cycle documents attendance and atmosphere more than specific collaborative acts, hence the lower confidence."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "This row describes a specific documented WORKING ADAPTATION only, not any inference about the underlying condition itself, per this project's health/disability scoring restriction. The Science History Institute's own account (src_monet_sciencehistory) documents that during a period when Monet's color perception was impaired, he adopted concrete studio workarounds: he 'labeled his paint tubes with big block letters, and then put the paint in the same spot on his palette every day simply to find it,' restricted his painting sessions to 'near dawn and dusk, when the light was gentlest,' and shifted his brushwork and palette to compensate. The same source documents that once his circumstances later changed, he critically reassessed the resulting body of work and destroyed a number of those specific canvases -- a second, independently-dated instance of the self-critical revision pattern also scored under perfectionism above, here applied to a distinct working constraint rather than to his ordinary practice."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/claude-monet-nadar-1899.jpg",
+    "width": 1200,
+    "height": 1600,
+    "source": "Photograph by Nadar (Gaspard-Felix Tournachon), 1899, via Wikimedia Commons",
+    "license": "Public domain (photographer died 1910, more than 100 years ago; CC-PD-Mark)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg",
+    "attribution": "Nadar, 1899",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "New-candidate research pass (2026-09). Wikidata QID (Q296) verified live before scoring. Era set to 19th_century (his formative Impressionist period, 1840-1926 lifespan spans the boundary) following this roster's existing precedent for similarly-spanning figures -- Antoni Gaudi (1852-1926, also 19th_century) was checked live as the closest comparable case. Evidence perspectives actually read this cycle: Alice Monet's own contemporaneous letters (quoted via the Art Institute of Chicago's scholarly catalogue and via Artnet News), Jackie Wullschlager's 2023 biography (read via a secondary article that quotes it directly alongside 1906 census records and one of Monet's own letters, not the full monograph), the Fondation Claude Monet's own institutional record of the garden's design history, and the Science History Institute's institutional account of his documented studio-workflow adaptations -- at least three independent non-self perspectives (Alice Monet, Wullschlager's biography, the two museum/institutional records), clearing this project's 2-perspective / 1-non-self bar with room to spare. Monet's own letters are treated throughout as a single self-testimony perspective, capped, never used alone to support a row. A specific quote attributed in some secondary aggregations to his stepson Jean-Pierre Hoschede's 1960 memoir ('acts of violence' against his own canvases) was deliberately NOT used anywhere in this file -- the memoir itself was not accessible this cycle and the quote could not be independently verified against a source actually read, so it was dropped rather than cited secondhand. The cataract-era resourcefulness row describes only the documented studio workaround and his subsequent treatment of that body of work; no row infers anything about his personality from the underlying vision condition itself, per this project's health/disability restriction. 7 rows scored; not targeted to any row count."
+  }
+}

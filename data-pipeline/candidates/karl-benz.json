@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "karl-benz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Carl Benz",
+    "aliases": [
+      "Karl Benz",
+      "Karl Friedrich Benz",
+      "Karl Friedrich Michael Vaillant"
+    ],
+    "wikidataId": "Q40224",
+    "birthYear": 1844,
+    "deathYear": 1929,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "business"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "industrial",
+      "innovation",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "independent",
+      "poor_business_sense"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_benz_wikipedia",
+      "kind": "wikipedia",
+      "title": "Carl Benz",
+      "url": "https://en.wikipedia.org/wiki/Carl_Benz"
+    },
+    {
+      "id": "src_benz_wikidata",
+      "kind": "wikidata",
+      "title": "Carl Benz (Q40224) -- live-checked entity data confirms canonical English label is 'Carl Benz' (not 'Karl Benz'), with aliases Karl Friedrich Benz, Karl Friedrich Michael Vaillant, Karl Benz; P27 citizenship recorded as the historical states Wurttemberg / German Empire (not a modern ISO code, hence this repo's DE convention is applied per existing German-candidate precedent, not copied directly from Wikidata).",
+      "url": "https://www.wikidata.org/wiki/Q40224"
+    },
+    {
+      "id": "src_benz_mbgroup",
+      "kind": "institution",
+      "title": "Mercedes-Benz Group AG, Company > Tradition > Founders & Pioneers, 'Carl Benz' and 'Bertha Benz' pages, and Museums & Historical Sites > 'Carl Benz workshop in Mannheim' -- the company's own institutional historical account (three pages, fetched and read live via browser after direct HTTP fetch was blocked by bot protection). Treated as ONE independent perspective across all three pages, not three, per this rubric's same-author/same-institution rule. Confirms, with specific dates: the 1871 first firm with August Ritter (bought out using Bertha Ringer's dowry before their 1872 marriage); the 1878-1880 stationary-engine crisis (tools seized for nonpayment, engine running by year-end 1880); the 1882 Mannheim Gas Engine Factory stock conversion in which Benz held only a 5% share and 'functioned only as director and not as ideas man'; his 1883 departure when partners 'increasingly sought to exert influence on his designs'; the October 1883 refounding as Benz & Co. Rheinische Gasmotoren-Fabrik; the January 29, 1886 Patent No. 37435; the 1888 Bertha Benz drive narrative; and the 24 January 1903 cessation of active work (Supervisory Board seat retained through 1927/1929).",
+      "url": "https://group.mercedes-benz.com/company/tradition/founders-pioneers/carl-benz.html"
+    },
+    {
+      "id": "src_benz_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Karl Benz' and 'Bertha Benz' biographical entries (editorially reviewed, updated 2026) -- fetched and read live via browser. Treated as ONE independent perspective across both entries (same publisher). Independent of Mercedes-Benz Group. Supplies the specific detail that Karl Benz was notified of the August 1888 journey's progress and safe arrival by telegram, and states directly that Bertha Benz's field suggestions (a third, lower gear for hill climbs; leather brake linings) 'were implemented in all of the following models' -- a documented claim about Karl Benz's own subsequent design decisions, not merely about Bertha Benz's actions during the drive itself.",
+      "url": "https://www.britannica.com/biography/Bertha-Benz"
+    },
+    {
+      "id": "src_benz_national_motor_museum",
+      "kind": "institution",
+      "title": "National Motor Museum, Beaulieu (UK), 'Story of Motoring' -- 'Bertha Benz' (2026 article marking the 140th anniversary of the Patent-Motorwagen) -- fetched and read live via browser. Independent of both Mercedes-Benz Group and Britannica. Independently corroborates the third-gear hill-climbing design change ('Later versions of the Benz would have different gearing to help hill climbing') and adds a specific, non-flattering detail about Karl Benz's own documented reaction to his family's safe arrival: 'Relieved to hear of their safe arrival, Carl only asked that the car's chains be rushed back to Mannheim on a fast freight train. They were needed urgently for a show car.'",
+      "url": "https://nationalmotormuseum.org.uk/story-of-motoring/motoring-topics/international-womens-day-and-womens-history-month/bertha-benz/"
+    },
+    {
+      "id": "src_benz_deutsches_museum",
+      "kind": "institution",
+      "title": "Deutsches Museum, Munich -- 'Benz-Patent-Motorwagen Nr. 1' digital catalogue entry (Inventory No. 4710), citing the museum's own object literature (Eckermann 1989, Strassl & Geiges 1985, Strassl 2004). Fetched and read live via browser (German-language original). Independent of Mercedes-Benz Group, Britannica, and the National Motor Museum. Documents that Benz continued using the first prototype for further trials in 1886/87 after the patent was filed, that 'some parts were reworked or rebuilt during the testing phase,' and that he built a second and third model in 1887/88 that replaced the steel spoke wheels with wooden wheels -- a specific, verifiable iterative-refinement record, not an inference from the invention's eventual success. Also documents Benz personally donating the reassembled original vehicle to the museum in 1906.",
+      "url": "https://digital.deutsches-museum.de/en/digital-catalogue/collection-object/4710/"
+    },
+    {
+      "id": "src_benz_automuseum_ladenburg",
+      "kind": "institution",
+      "title": "Automuseum Dr. Carl Benz, Ladenburg (the museum in the town where Benz lived from 1903 until his death in 1929) -- 'Der erste Volkswagen war ein Benz, 1894-1903' historical account. Fetched and read live via browser (German-language original). Independent of Mercedes-Benz Group, Britannica, the National Motor Museum, and the Deutsches Museum. Supplies Benz's own specific, quoted design position in the 1902-03 dispute with investor Julius Ganss -- that automobiles 'should not travel faster than 50 km/h, so as not to cause people physical harm' ('Automobile nicht schneller als 50 km/h fahren sollten, um den Menschen keinen koerperlichen Schaden zuzufuegen') -- opposing Ganss's recruitment of French designer Marius Barbarou to build higher-speed models, and dates Benz's departure from active management to April 1903 (one institutional source among several; Mercedes-Benz Group's own page dates the same event to 24 January 1903 -- the sources disagree on the precise month but agree on the year and the substance).",
+      "url": "https://www.automuseum-ladenburg.de/historie1.html"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, dated financial and technical crisis endured rather than abandoned, not an inference from his eventual fame as 'father of the automobile.' Per Mercedes-Benz Group's own institutional account, when the general economy weakened after his 1871 firm's founding with August Ritter, 'orders were cancelled and building projects were stopped,' Benz's small ironworking business 'did markedly poorer,' and he became unable to pay his debts, resulting in the seizure of his tools -- leaving him only his workshop. Rather than stopping, he began development work on a stationary gas engine specifically because he 'very quickly had to offer something with a future,' and had it 'operating smoothly' by the turn of the year 1880, receiving patent recognition in France and Britain (src_benz_mbgroup). Single independent institutional source; confidence kept moderate accordingly rather than treated as exhaustively corroborated."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, verifiable pattern of continued iterative testing after the invention was already patented and publicly credentialed, not just a single breakthrough moment. The Deutsches Museum's own object record for the Patent-Motorwagen states that even after the January 1886 patent, Benz used the first prototype through 1886/87 'for further trials,' that 'some parts were reworked or rebuilt during the testing phase,' and that he built a second and third model in 1887/88 that replaced the original steel spoke wheels with wooden wheels (src_benz_deutsches_museum). This is a documented build-test-revise cycle across three distinct vehicles, not an inference from the fact that the final design succeeded. Single independent institutional source (the museum that holds and catalogued the actual artifact); confidence held at moderate rather than high for that reason."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A repeated, twenty-years-apart, dated pattern of prioritizing his own engineering judgment over commercial/partner pressure, at direct and repeated personal cost, not a single anecdote. First instance (1882-83): after the Mannheim Gas Engine Factory became a stock company, Benz held only a 5% share and, per Mercedes-Benz Group's own account, 'functioned only as director and not as ideas man' -- when 'his partners increasingly sought to exert influence on his designs, Carl Benz left the company' in 1883 to refound independently as Benz & Co. Rheinische Gasmotoren-Fabrik with new partners (src_benz_mbgroup). Second instance (1902-03): a generation later, investor Julius Ganss pushed for higher-speed, French-influenced vehicle designs; Benz held to his existing approach (including the belt drive) and would not reconcile the disagreement; the discord over 'the design of automobiles... was too much for Carl Benz,' who ceased active work for the firm he founded and took his sons Eugen and Richard with him (src_benz_mbgroup, src_benz_automuseum_ladenburg -- two independent institutional sources for the second incident specifically). Scored dual_edged rather than a flattering 'visionary independence' narrative: both times, holding his ground cost him direct operational control of the company he had founded, a real and repeated price rather than a costless conviction."
+    },
+    "risk_tolerance": {
+      "score": 32,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "A specific, quoted design position, not an inference from general 'caution.' Per the Automuseum Ladenburg's own historical account of the 1902-03 dispute, Benz's stated position was that automobiles 'should not travel faster than 50 km/h, so as not to cause people physical harm,' directly opposing investor Julius Ganss's push toward higher-speed designs via the French-influenced Barbarou-designed 'Parsifal' line (src_benz_automuseum_ladenburg). Scored low (risk-averse) on this specific, documented dimension and dual_edged rather than a one-sided 'prudent engineer' narrative: the same account notes the German-built engines were ultimately judged to function better than the French-designed alternatives (a technical vindication), but Benz's unwillingness to compromise on this position is the same underlying fact scored as dual_edged risk under independent_thinking above -- here it cost him active control of his own company. Single-sourced for the specific quoted position; confidence held at moderate rather than high for that reason, and not pushed to an extreme low score despite the clear direction of the evidence."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "A specific, independently corroborated instance of revising a production design in response to unplanned, real-world field feedback he did not himself generate or authorize -- not an inference from general adaptability. In August 1888, Bertha Benz drove the Motorwagen roughly 106 km from Mannheim to Pforzheim without Karl's knowledge; Karl was kept informed of her progress and safe arrival by telegram during the journey (src_benz_national_motor_museum). Both Britannica and the National Motor Museum independently confirm that her field-tested suggestions -- adding a third, lower gear because the existing two gears could not manage hill climbs, and fitting leather brake linings after the wooden brake blocks wore out -- were carried into subsequent production: Britannica states these changes 'were implemented in all of the following models' (src_benz_britannica), and the National Motor Museum independently confirms 'later versions of the Benz would have different gearing to help hill climbing' (src_benz_national_motor_museum). This row scores Karl Benz's own documented behavior (incorporating the feedback into his product line), not Bertha Benz's actions during the drive itself, per this cycle's research brief. Two independent institutional sources corroborate the same specific design-change claim, supporting the higher end of the documented confidence band without treating it as an extreme (85+) score."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/karl-benz-portrait-1889.jpg",
+    "width": 1112,
+    "height": 1600,
+    "source": "Wikimedia Commons",
+    "license": "Public domain (PD-old-assumed-expired: photograph circa 1889-1890, photographer unknown, created over 120 years ago; also PD in the US as published before January 1, 1931)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Benz_c._1889.jpg",
+    "attribution": "Photographer unknown, c. 1889-1890 (Benz at approximately 45 years old); digitised copy sourced via Alamy and uploaded to Wikimedia Commons",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carl_Benz_c._1889.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID (Q40224) verified live before scoring: canonical English label is 'Carl Benz' (not 'Karl Benz'), so canonicalName was set to 'Carl Benz' with 'Karl Benz' retained as the top alias and as the slug, per the research brief's explicit instruction to verify and follow the live label. RegionCode/nationalityCodes verified against this repo's own already-committed German candidates (carl-friedrich-gauss.json and johann-sebastian-bach.json both use DE + western_europe, following that project-wide convention documented in carl-friedrich-gauss.json's own provenance) -- no deviation needed here. EVIDENCE READ: six substantive, independently-read sources beyond Wikipedia/Wikidata orientation, spanning four distinct, mutually independent institutions (Mercedes-Benz Group across three of its own pages -- treated as one perspective; Encyclopaedia Britannica across two of its own entries -- treated as one perspective; the National Motor Museum, Beaulieu, UK; the Deutsches Museum, Munich; and the Automuseum Dr. Carl Benz, Ladenburg). This clears the >=2-independent-perspective / >=1-non-self-behavioral-source bar comfortably: all six sources are non-self (none is Benz's own memoir or testimony). Deliberately excluded from scoring: two widely-repeated quotations attributed to Karl Benz himself ('She was more daring than I' and a passage from his 1925 memoir 'Lebensfahrt eines deutschen Erfinders' about his wife's support during hard times) -- these surfaced only via secondary aggregation in web search results without the agent directly reading the original memoir or a source that reproduces it with full citation, so they are not used as scored evidence and the memoir itself is not listed as a consulted source. The two institutional accounts of the 1902-03 departure disagree on the exact month (Mercedes-Benz Group: 24 January 1903; Automuseum Ladenburg: April 1903) -- both dates are given in the relevant row/source rather than silently resolved in favour of one. No row infers anything from Benz's health, age, or bereavement. Portrait: searched Wikimedia Commons' Category:Carl_Benz for a genuine public-domain photograph; rejected File:Karl_Benz.jpg (a 2021 CC-BY-SA 'own work' upload by a Commons user, i.e. a modern derivative/recreation, not an authentic period photograph) in favour of File:Carl_Benz_c._1889.jpg (PD-old-assumed-expired, photographer unknown, image circa 1889-1890, in wide use across 40+ Wikipedia language editions), verified live via the Commons file page and API (1627x2340 original). Downloaded directly and resized with PIL (Lanczos resampling) to a 1600px long edge (1112x1600), saved to public/portraits/karl-benz-portrait-1889.jpg, and the saved file's real pixel dimensions were verified after resize."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "카를 벤츠"
+    }
+  }
+}

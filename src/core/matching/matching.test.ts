@@ -508,6 +508,27 @@ describe("confidence and missing data", () => {
       "soichiro-honda",
       "tu-youyou",
       "valentina-tereshkova",
+      // Roster37 (2026-09-18, docs/checkpoints/roster37.md): 15 new,
+      // freshly-researched, evidence_approved, directory-visible people --
+      // zero backlog reuse, zero holds this cycle. All 15 are honestly
+      // non-match-eligible, exactly as the recent-cohort publication-vs-
+      // matching architecture diagnostic anticipated -- an evidence
+      // outcome, not a target.
+      "alexander-graham-bell",
+      "alfred-nobel",
+      "audrey-hepburn",
+      "carl-friedrich-gauss",
+      "charles-lindbergh",
+      "claude-monet",
+      "george-eastman",
+      "guglielmo-marconi",
+      "gustave-eiffel",
+      "howard-hughes",
+      "james-clerk-maxwell",
+      "johann-sebastian-bach",
+      "johannes-kepler",
+      "karl-benz",
+      "marilyn-monroe",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -956,6 +977,27 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "soichiro-honda",
       "tu-youyou",
       "valentina-tereshkova",
+      // Roster37 (2026-09-18, docs/checkpoints/roster37.md): 15 new,
+      // freshly-researched, evidence_approved, directory-visible people --
+      // zero backlog reuse, zero holds this cycle. All 15 are honestly
+      // non-match-eligible, exactly as the recent-cohort publication-vs-
+      // matching architecture diagnostic anticipated -- an evidence
+      // outcome, not a target.
+      "alexander-graham-bell",
+      "alfred-nobel",
+      "audrey-hepburn",
+      "carl-friedrich-gauss",
+      "charles-lindbergh",
+      "claude-monet",
+      "george-eastman",
+      "guglielmo-marconi",
+      "gustave-eiffel",
+      "howard-hughes",
+      "james-clerk-maxwell",
+      "johann-sebastian-bach",
+      "johannes-kepler",
+      "karl-benz",
+      "marilyn-monroe",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^275 people$/)).toBeVisible();
+  await expect(page.getByText(/^290 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -605,11 +605,28 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // Soichiro Honda 78/0.55, Robert Noyce 75/0.52) but that is not
   // sufficient on its own. The filtered count of 8 is unaffected, only the
   // "out of N" total moves.
-  expect(bodyText).toMatch(/전체\s*276명\s*중\s*8명/);
+  // Total updated again 276->291 (Roster37, 2026-09-18, docs/checkpoints/
+  // roster37.md: 15 new people, all freshly researched, zero backlog
+  // reuse, zero holds this cycle). Verified directly: James Clerk Maxwell
+  // genuinely crosses BOTH fixed thresholds -- curiosity 74 (confidence
+  // 0.52) and collaboration 76 (confidence 0.6), both his real
+  // evidence_approved scores (documented broad intellectual curiosity
+  // spanning electromagnetism/gas theory/color photography and named,
+  // multi-witness collaborative correspondence with Faraday and Thomson),
+  // not adjusted to hit this filter. None of the other 14 new people
+  // cross both thresholds simultaneously (e.g. Carl Friedrich Gauss
+  // collaboration 68/0.6 but no curiosity row at all; Alexander Graham
+  // Bell curiosity 68/0.52, short of the 72 floor). This is a real,
+  // honest addition to the filtered set, raising the count from 8 to 9 --
+  // the same pattern as Vera Rubin (roster25), Paul Erdős (roster30),
+  // J. Robert Oppenheimer (roster34), and John von Neumann (roster35)
+  // above, not a correction applied to hit a target number.
+  expect(bodyText).toMatch(/전체\s*291명\s*중\s*9명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
   expect(bodyText).toContain("오펜하이머");
   expect(bodyText).toContain("노이만");
+  expect(bodyText).toContain("맥스웰");
 });
 
 test("people directory: era + region compose correctly with cross-facet personality AND", async ({ page }) => {
