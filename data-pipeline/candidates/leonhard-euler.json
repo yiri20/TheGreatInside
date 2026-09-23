@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "leonhard-euler",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Leonhard Euler",
+    "aliases": [
+      "Leonard Euler",
+      "L. Euler"
+    ],
+    "wikidataId": "Q7604",
+    "birthYear": 1707,
+    "deathYear": 1783,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "CH"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "mentor",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_euler_wikipedia",
+      "kind": "wikipedia",
+      "title": "Leonhard Euler -- orientation only (identity, dates, occupations, citizenships); fetched and skimmed; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Leonhard_Euler"
+    },
+    {
+      "id": "src_euler_wikidata",
+      "kind": "wikidata",
+      "title": "Leonhard Euler (Q7604) -- identity verified live through the Wikidata API: en label 'Leonhard Euler', description 'Swiss mathematician, physicist, and engineer (1707-1783)', ko label '레온하르트 오일러', born 15 April 1707, died September 1783, P18 images 'Leonhard Euler 2.jpg' and 'Leonhard Euler.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q7604"
+    },
+    {
+      "id": "src_euler_dsb",
+      "kind": "biography",
+      "title": "A. P. Yushkevich, 'Euler, Leonhard', Complete Dictionary of Scientific Biography (Scribner's; Encyclopedia.com copy hosted as PDF by MacTutor) -- independent scholarly reference biography (non-self, secondary). The Life section (childhood to death, about 300 lines) was read in full: the 1726 physiology invitation and 1727 move, the Petersburg and Berlin periods, the 1746 monadology pamphlet, the 1751-52 Koenig affair and the 1745 Robins translation, the disputes with d'Alembert, Daniel Bernoulli and Dollond, the 1766 return, and Euler's supervision of Russian students. The remaining ~700 lines (science sections) were not read.",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Euler.pdf"
+    },
+    {
+      "id": "src_euler_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Leonhard Euler', MacTutor History of Mathematics, University of St Andrews -- modern scholarly biography (non-self, secondary; it quotes Yushkevich/DSB and Calinger, and its Euler, Lagrange and Maupertuis pages share authors so count as one perspective). Read in full: the 1726-27 move and 1727-30 navy service, Berlin duties, Mechanica (1736-37), the Euler-Stirling-Maclaurin letters, the Mayer/longitude payment, the Russian Atlas and Euler's autobiographical account of Bernoulli's tutoring.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/"
+    },
+    {
+      "id": "src_euler_fuss",
+      "kind": "archive",
+      "title": "Nicolas Fuss, Eulogy of Leonhard Euler, read at the St Petersburg Academy 23 October 1783 (English translation by John S. D. Glaus, hosted by MacTutor / The Euler Society) -- FIRSTHAND colleague account: Fuss was Euler's assistant and later married one of Euler's granddaughters, so this is an affiliated, admiring source and is weighted accordingly; it is one perspective. Read in full: the 1726-27 Petersburg move and naval fallback, Robins, Dollond, the monad pamphlet, the Koenig dispute, the lunar-theory recast, the Dioptrica correction and the character section.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Euler_Fuss_Eulogy/"
+    },
+    {
+      "id": "src_euler_condorcet",
+      "kind": "archive",
+      "title": "Marquis de Condorcet, Eulogy to M. Euler, Histoire de l'Academie Royale des Sciences 1783 (Paris 1786), pp. 37-68 (English translation by John S. D. Glaus, hosted by MacTutor / The Euler Society) -- contemporaneous eulogy by the secretary of the Paris Academy; secondhand and not affiliated with Euler's household, and it includes explicit criticism (the Koenig affair, Euler's physics). One perspective. Read in full apart from about a page of purely mathematical exposition: recreational problems and breadth of learning, the 'instinct' passage, the optics passage in which Euler abandons his first ideas, remaking of earlier work, the Lagrange passage, and the Koenig criticism.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Euler_elogium/"
+    },
+    {
+      "id": "src_euler_marinoni",
+      "kind": "archive",
+      "title": "Euler Archive (MAA / Dartmouth), 'Euler's Correspondence with Giovanni Jacopo Marinoni' -- archive page quoting Euler's own letter to Marinoni of 13 March 1736 (OO1468, translation from Hopkins and Wilson, College Mathematics Journal, May 2004) about the Koenigsberg bridge problem and the 'geometry of position'. SELF-AUTHORED (Euler's own words; same perspective as any other Euler writing). The page is a short quotation with a letter list; the letter itself was not opened, and the Hopkins-Wilson article was paywalled and not read.",
+      "url": "http://eulerarchive.maa.org/correspondence/correspondents/Marinoni.html"
+    },
+    {
+      "id": "src_euler_sandifer_2003",
+      "kind": "institution",
+      "title": "Ed Sandifer, 'How Euler Did It: Estimating the Basel Problem', MAA Online, December 2003 (Euler Archive PDF) -- scholarly expository column (non-self; Sandifer is Secretary of the Euler Society, so an enthusiast-scholar). Read in full: Euler's numerical estimate 1.644924 of the Basel sum and his recognition that it is close to pi squared over six. Same author as src_euler_sandifer_2004 (one perspective).",
+      "url": "http://eulerarchive.maa.org/hedi/HEDI-2003-12.pdf"
+    },
+    {
+      "id": "src_euler_sandifer_2004",
+      "kind": "institution",
+      "title": "Ed Sandifer, 'How Euler Did It: Basel Problem with Integrals', MAA Online, March 2004 (Euler Archive PDF) -- same author as src_euler_sandifer_2003. Read (first pages, through the start of the 1741 derivation): Sandifer's statement that Euler seemed to recognise his infinite-product step as incomplete, wrote further papers (E 61) trying to justify it, and in 1741 published a different solution not depending on infinite products.",
+      "url": "http://eulerarchive.maa.org/hedi/HEDI-2004-03.pdf"
+    },
+    {
+      "id": "src_euler_musielak",
+      "kind": "biography",
+      "title": "Dora E. Musielak (Univ. of Texas at Arlington), 'Euler: Genius Blind Astronomer Mathematician', arXiv:1406.7397 -- modern secondary review of Euler's astronomy (non-self). Read closely: the Berlin period, the lunar-theory sections (1746 tables, 1751/1753 theory, second theory, 1775 paper), the Jupiter-Saturn prize episode (1748, 1750, 1752), the precession/d'Alembert credit passage, the Mayer longitude payment and the optics passage. Other sections were skimmed only.",
+      "url": "https://arxiv.org/pdf/1406.7397"
+    },
+    {
+      "id": "src_euler_ferguson",
+      "kind": "biography",
+      "title": "James Ferguson (Univ. of Victoria), 'A Brief Survey of the History of the Calculus of Variations and its Applications', arXiv:math/0402357 -- modest secondary survey (non-self) that quotes Euler's 1756 Berlin Academy acknowledgement of Lagrange and says Euler dropped his geometrical methods for Lagrange's analytic one. Read the Lagrange section; the rest skimmed. Lower-authority source, used only for that episode alongside MacTutor.",
+      "url": "https://arxiv.org/pdf/math/0402357"
+    },
+    {
+      "id": "src_euler_mt_lagrange",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Joseph-Louis Lagrange', MacTutor -- (same authors as src_euler_mactutor). Read the early-career section: Lagrange's letters to Euler of 12 August 1755, Euler's reply of 6 September 1755, Euler proposing Lagrange for the Berlin Academy (elected 2 September 1756), and Lagrange's succession to Euler's post in 1766.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/"
+    },
+    {
+      "id": "src_euler_mt_maupertuis",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Pierre Louis Moreau de Maupertuis', MacTutor -- (same authors as src_euler_mactutor). Read the Berlin Academy section on the 1751 Koenig affair, including that Maupertuis was strongly defended by Euler.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Maupertuis/"
+    },
+    {
+      "id": "src_euler_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'John Dollond', Scientist of the Day -- independent library-institution profile; read in full. States that Newton and many others thought chromatic aberration irremediable and that some, like Leonhard Euler, disagreed, noting the eye as the reason.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/john-dollond/"
+    },
+    {
+      "id": "src_euler_graces",
+      "kind": "biography",
+      "title": "Grace's Guide, 'John Dollond' (reproduces an earlier encyclopedia entry, in the Britannica 1911 style) -- independent reference text; read in full. States that Euler in 1747 suggested achromatism might be obtained by combining glass and water lenses, and that Dollond disputed this in Philosophical Transactions (1753) relying on Newton, before experiments after Klingenstierna's intervention led to his 1757-58 results.",
+      "url": "https://www.gracesguide.co.uk/John_Dollond"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_euler_marinoni, src_euler_condorcet, src_euler_fuss | 1736; eulogies of 1783 | firsthand letter + secondary] In a letter to Marinoni of 13 March 1736 about the Königsberg bridge puzzle, Euler called the question banal but worth attention because neither geometry, algebra nor the art of counting sufficed, and wondered whether it belonged to Leibniz's 'geometry of position'. Condorcet says chess-knight and similar recreational problems pricked his curiosity and that he had studied physics, anatomy, chemistry and botany; Fuss says he knew medicine, botany and chemistry far better than is expected of a scientist in another field. A firsthand letter plus two independent eulogists; scored from documented interest in puzzles and other fields, not from the number or fame of his results."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_euler_dsb, src_euler_mactutor, src_euler_fuss, src_euler_condorcet | 1727-1776 | secondary + colleague eulogies] Dated, dedicated work in distinct fields beyond pure analysis: mechanics (Mechanica, 1736-37), cartography with Delisle (Russian Atlas, 1745), a music-theory treatise (1739), ship theory and navigation (1749; abridged manual 1773), ballistics (the annotated Robins translation, 1745), optics (Dioptrica, 1769-71), and government advice on lotteries, annuities and widows' pensions (1749, 1763, 1776). DSB, MacTutor, Fuss and Condorcet each list several of these; scored from the range of fields with dated work, not from output volume."
+    },
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_euler_marinoni, src_euler_mactutor, src_euler_condorcet | 1736-1744 | firsthand letter + secondary] In March 1736 Euler told Marinoni he had found a simple rule that decides, for any number of bridges in any arrangement, whether a walk crossing each once is possible, and that he saw the question as one for Leibniz's 'geometry of position' rather than for arithmetic or algebra. MacTutor (quoting Yushkevich) and Condorcet describe his Mechanica (1736) as replacing case-by-case geometric treatments with uniform analytic methods, and Condorcet notes he reduced the variational problem to a general formula in 1744. Scored from the documented habit of recasting concrete problems in general structural terms, not from the fame of the resulting theorems."
+    },
+    "intuitive_synthesis": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_euler_fuss, src_euler_condorcet, src_euler_sandifer_2003, src_euler_sandifer_2004 | 1735-1741; eulogies of 1783 | secondary] Fuss says Euler, sure of his instinct for true and false, held hypotheses that were sometimes too bold; Condorcet calls his choice of substitutions 'a sort of particular instinct' he often left unexplained, and reports critics saying he was too quick to prove physical hypotheses he had not examined enough. Sandifer documents that Euler estimated the Basel sum numerically as 1.644924, recognised it as close to pi squared over six and used that as the hint for his sine-series attack, later writing further papers to justify a step he seemed to see as incomplete. Two independent eulogists plus one specific episode; the same episode also shows checking by calculation, so the score is a moderate lean and the impact is dual-edged."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_euler_dsb, src_euler_lindahall, src_euler_graces, src_euler_musielak, src_euler_fuss | 1746-1757 | secondary] (1) In 1746 Euler published a pamphlet against the monadology of Leibniz and Wolff, a system then much debated among German intellectuals; DSB says it caused violent debates and that the Berlin Academy's 1747 prize on the topic went to another author. (2) In 1747 he proposed combining glass and water lenses to remove colour fringes, against Newton's view that dispersion could not be corrected; Dollond disputed it in 1753 citing Newton (Grace's Guide), and Linda Hall, Grace's Guide and Musielak each record Euler's position against Newton's dispersion claim. Two distinct episodes with independent sources; dual-edged because the first went against him at the time."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_euler_condorcet, src_euler_fuss, src_euler_ferguson, src_euler_mt_lagrange | 1747-1757; 1755-56; 1770s | secondary] Condorcet says that after his first optics experiments Euler abandoned his first ideas and tested new ones by experiment, and Fuss says a later Petersburg memoir corrected a gap in his Dioptrica (lens thickness had been neglected). After Lagrange sent his analytic method in August 1755 and Euler replied warmly on 6 September, Euler told the Berlin Academy in 1756 that the glory of first discovery of the method belonged to Lagrange and dropped his own geometrical approach (Ferguson, quoting Euler; MacTutor records the exchange). Several dated episodes from independent sources, but each concerns revising a method or design rather than retracting a stated claim, so the score is moderate."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_euler_musielak, src_euler_fuss, src_euler_dsb | 1746-1775 | secondary + colleague eulogy] Musielak documents that Euler's 1746 lunar tables were inadequate, that he published a full lunar theory in 1753, and that he came back to the problem with a second theory and a 1775 paper aimed at a higher level of perfection; Fuss says he chose to recast the whole theory (the second theory, presented in 1768 and published in 1772 per Musielak) because his first method had been incomplete. Separately, for the Paris Academy's Jupiter-Saturn problem his 1748 prize entry left errors against observation, the topic was reissued in 1750 with no prize awarded, and a new method in 1752 still disagreed with observation (Musielak). Two long-running problems, each with dated repeated attempts after unsatisfactory results."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_euler_dsb, src_euler_mt_maupertuis, src_euler_fuss, src_euler_condorcet, src_euler_musielak, src_euler_ferguson | 1746-1757 | secondary] Euler took part in several open disputes: his 1746 pamphlet against monadology; the 1751-52 Koenig affair, in which he published an Exposé declaring the disputed Leibniz letter a fake (DSB) and strongly defended Maupertuis (MacTutor, Fuss); and disputes with Dollond over optics and with d'Alembert and Daniel Bernoulli over logarithms of negative numbers and the vibrating string (DSB). Condorcet judged his condemnations of Koenig too strongly worded, while Fuss says his anger passed quickly and he bore no grudges, and he also credited d'Alembert and Lagrange in print, so the willingness to dispute is documented but not extreme."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_euler_dsb, src_euler_fuss, src_euler_mactutor | 1726-1766 | secondary + colleague eulogy] Invited to St Petersburg in 1726 as an adjunct in physiology, Euler began medical studies to prepare (DSB, Fuss); on arrival in 1727 he was placed in the mathematics section instead, Fuss (and Condorcet) say he decided to enter the navy when the Academy's future looked uncertain, and MacTutor records service as a medical lieutenant in the Russian navy in 1727-30, before he returned to full academy duties. He later changed institutions as circumstances changed, to Berlin in 1741 and back to St Petersburg in 1766, while keeping regular working contact with the Petersburg Academy from Berlin (DSB). Several dated role changes from three sources; the reasons for the moves are not scored."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_euler_condorcet, src_euler_sandifer_2004 | 1741; eulogy of 1783 | secondary] Condorcet says Euler repeatedly retraced his steps on important subjects, in some cases remaking earlier work to add rigour and clarity and 'a new degree of perfection'. Sandifer documents one dated instance: after his first Basel-problem derivation rested on a step he seemed to see as incomplete, he wrote further papers to justify it and in 1741 published a different proof that avoided infinite products, some years after the first result had made his name. An independent characterisation plus one dated episode from a different author."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/leonhard-euler-handmann-1753.jpg",
+    "width": 1238,
+    "height": 1600,
+    "source": "Jakob Emanuel Handmann, pastel on paper, 1753, Kunstmuseum Basel (inv. 276), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg",
+    "attribution": "Jakob Emanuel Handmann, Portrait of Leonhard Euler, 1753, Kunstmuseum Basel (photograph: Martin P. Bühler); public domain via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "IDENTITY: Wikidata QID Q7604 verified live via the Wikidata API (wbgetentities): en label 'Leonhard Euler', description 'Swiss mathematician, physicist, and engineer (1707-1783)', ko label '레온하르트 오일러', born 1707-04-15, died September 1783, sitelinks enwiki 'Leonhard Euler' and kowiki '레온하르트 오일러'. SLUG CHECK: no leonhard-euler.json existed in data-pipeline/candidates and no person named Euler exists in src/data/people (the only grep hit is a code comment about Euler's constant in roster2.ts). CLASSIFICATION PRECEDENT (checked in the live worktree): Swiss candidates (jean-jacques-rousseau 1712 early_modern; jean-piaget, carl-jung, albert-einstein) all use regionCode western_europe, and early-modern German-language scientists/philosophers (johannes-kepler, immanuel-kant, johann-sebastian-bach, isaac-newton) use era early_modern with western_europe, so Euler is early_modern / western_europe with nationality CH (he kept Swiss citizenship while working in Russia and Prussia).\n\nEVIDENCE READ: 13 substantive sources actually opened and read (fetched with curl/WebFetch and read or grepped locally), plus Wikipedia/Wikidata for orientation only: the DSB entry by Yushkevich (Life section read in full; ~700 lines of science sections not read), MacTutor Euler (in full), Fuss's 1783 eulogy (in full), Condorcet's 1783 eulogy (in full apart from about a page of mathematical exposition), the Euler Archive Marinoni page (Euler's own 1736 letter quoted via Hopkins and Wilson; the letter itself and the paywalled Hopkins-Wilson article were not read), Sandifer's two 'How Euler Did It' columns (Dec 2003, Mar 2004; first pages of the second), Musielak's arXiv review (sections on Berlin, lunar theory, Jupiter-Saturn, precession, optics read; the rest skimmed), Ferguson's arXiv survey (Lagrange section read), MacTutor Lagrange and Maupertuis pages (relevant sections), Linda Hall Library's Dollond profile and Grace's Guide's Dollond entry. INDEPENDENT PERSPECTIVES (non-self): Fuss (firsthand but affiliated: Euler's assistant and grandson-in-law, so admiring and weighted down), Condorcet, Yushkevich (DSB), O'Connor and Robertson (MacTutor; three pages, one perspective, partly derived from Yushkevich and Calinger), Sandifer (two columns, one perspective, an Euler Society officer), Musielak, Ferguson, Linda Hall Library, and the Britannica-style Dollond text on Grace's Guide; plus Euler himself (one self-authored letter via the Euler Archive; self counts as one perspective). That is 9 non-self perspectives with many substantive non-self behavioral sources, clearing the 2-perspective / 1-non-self bar. Scoring discipline: strong_inference rows (intuitive_synthesis, belief_updating, adaptability, mastery_orientation) rest on two or more distinct sources or episodes; rows marked documented rest on dated episodes from at least two independent sources; no row is above 84 or below 30 and none scored from a single anecdote. Confidence values are the researcher's pre-validation values and were not changed after the validator ran.\n\nEXCLUDED ON PURPOSE: (1) output volume (publication counts, pages per year, the 'papers for twenty years after his death' remark); (2) health and private life: the 1735 fever, loss of sight, cataract operation, the 1771 fire, bereavements and death circumstances are not used as evidence for any trait, and blindness-era assistants (Krafft, Lexell, Fuss, Golovin) were not used for the collaboration attribute, which is deliberately unscored; (3) fame, prizes and named theorems, including the quality of the Basel result; (4) political and court context: the 1741 move, the 1766 return and Euler's relations with Frederick II are used only as dated role changes in adaptability, and no row is scored from politics or diplomacy; (5) hagiographic character adjectives in the eulogies (piety, good husband, 'sworn enemy of injustice') that are not tied to a dated episode; (6) the Diderot/God-proof anecdote (doubtful sourcing) and the astrology/horoscope hearsay in Condorcet; (7) competitiveness deliberately not scored: evidence is mixed (Euler yielded priority to Maclaurin in 1738, to Lagrange in 1755-56 and credited d'Alembert in 1752, but also entered prize contests against Bernoulli, d'Alembert and Clairaut, and DSB calls him their rival). Sources opened but not relied on: Euler Archive's Lagrange correspondence page (affiliated; its 'held back his own work' statement is not used in any row), the MacTutor Robins biography and Euler Archive E77 page (the Robins episode is not scored), the Euler Archive Ehler page (letter list only). The Ehler quotation ('bears little relationship to mathematics') was seen only in a search snippet and is not used.\n\nREAL LIMITS: no primary-source letters (Goldbach, Stirling, Frederick II, d'Alembert) were opened beyond the one Marinoni quotation; the Fuss and Condorcet eulogies are genre-typical eulogies and are treated as characterisation plus dated episodes, not neutral records; Ferguson and Musielak are secondary surveys of modest authority; Sandifer's two columns disagree with each other on 1734 versus 1735 for the Basel solution, so the editorial uses MacTutor's 1735. Several disputes (Dollond, d'Alembert, vibrating string) are documented in DSB in one sentence each and were not independently traced further.\n\nPORTRAIT: Wikimedia Commons File:Leonhard_Euler.jpg (the unretouched Kunstmuseum Basel photograph, 4672x6040 px; the retouched derivative by Bammesk was not used). Commons File page and API metadata read: work 'Portrait of Leonhard Euler (1707-1783)' by Jakob Emanuel Handmann (1718-1781), dated 1753, PASTEL ON PAPER (not oil, correcting the assignment lead), Kunstmuseum Basel, inv. 276, credit 'Kunstmuseum Basel, Martin P. Bühler', given 1849 by Rudolf Bischoff-Merian; PD basis: author died 1781 (life plus 100 years or fewer, PD-old-100-expired), faithful reproduction of a 2D public-domain work (PD-Art), Creative Commons Public Domain Mark 1.0. Medium and inventory number cross-checked against euler-2007.ch (Basel 2007) and the Historical Dictionary of Switzerland (HLS) caption (pastel by Handmann, 1753, photograph Martin Bühler). Physical size differs between sources (Commons 57 x 44 cm; euler-2007.ch 47 x 44 cm), so no physical size is stated. The Kunstmuseum's own online record did not render and was not read. Downloaded the real original (4.9 MB), resized with Pillow from 4672x6040 to 1238x1600 (long edge 1600, downscale only), JPEG quality 85; saved-file dimensions verified 1238x1600. Viewed the saved image: a three-quarter portrait of a man in a soft cap and blue striped gown, signed and dated 1753 at top right; a sitter portrait made from life, so kind 'likeness'. A Kupferstich after Handmann's 1756 portrait exists but was not used.\n\nSCORING NOTES: 10 rows scored; attributes with only thin, mixed or health-confounded evidence were left unscored. Scoring and confidence were finalised before the structural validator was run; no row was added, removed or changed afterwards. Editorial draft written separately (3 achievements, 2 moments, 1 turning point)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "레온하르트 오일러"
+    }
+  }
+}

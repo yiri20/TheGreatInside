@@ -88,9 +88,9 @@ describe("Kurosawa legacy remediation: no duplicate identity", () => {
     expect(withThisQid[0]!.slug).toBe("akira-kurosawa");
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (291 people as of Roster37, 2026-09-18 -- this batch itself added none; the count reflects later roster-expansion cycles), Kurosawa present in both exactly once", () => {
-    expect(SEED_PEOPLE).toHaveLength(291);
-    expect(PEOPLE_INDEX).toHaveLength(291);
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (306 people as of Roster38, 2026-09-23 -- this batch itself added none; the count reflects later roster-expansion cycles), Kurosawa present in both exactly once", () => {
+    expect(SEED_PEOPLE).toHaveLength(306);
+    expect(PEOPLE_INDEX).toHaveLength(306);
     expect(SEED_PEOPLE.filter((p) => p.slug === "akira-kurosawa")).toHaveLength(1);
     expect(PEOPLE_INDEX.filter((p) => p.slug === "akira-kurosawa")).toHaveLength(1);
   });

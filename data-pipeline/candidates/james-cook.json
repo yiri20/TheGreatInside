@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "james-cook",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "James Cook",
+    "aliases": [
+      "Captain Cook"
+    ],
+    "wikidataId": "Q7324",
+    "birthYear": 1728,
+    "deathYear": 1779,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "navigator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "self_taught",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cook_wikipedia",
+      "kind": "wikipedia",
+      "title": "James Cook -- orientation only (identity, dates, occupations); not used as support for any scored row. Fetched and read.",
+      "url": "https://en.wikipedia.org/wiki/James_Cook"
+    },
+    {
+      "id": "src_cook_wikidata",
+      "kind": "wikidata",
+      "title": "James Cook (Q7324) -- identity verified live: label 'James Cook', description 'British explorer, cartographer and naval officer (1728-1779)', citizenship Kingdom of Great Britain; also read through the Wikidata API (labels/descriptions/claims incl. P18). Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q7324"
+    },
+    {
+      "id": "src_cook_banks_journal",
+      "kind": "archive",
+      "title": "Joseph Banks, The Endeavour Journal of Sir Joseph Banks (1768-71), Project Gutenberg Australia text prepared from the State Library of NSW manuscript -- INDEPENDENT FIRSTHAND observer aboard the Endeavour (non-self for Cook). Full text retrieved; the entries read closely were Apr-Jul 1769 (Tahiti: the flogging of 29 Apr, the stolen quadrant of 2 May, the seizure of Tahitian canoes in June, the 3 Jun Transit day, Banks's own scurvy notes of 1 Apr) and 10-14 Jun 1770 (the reef grounding, lightening, fothering and search for a harbour). The rest of the journal (about 1.2 million characters) was not read line by line.",
+      "url": "https://gutenberg.net.au/ebooks05/0501141h.html"
+    },
+    {
+      "id": "src_cook_journal_voyage1",
+      "kind": "archive",
+      "title": "James Cook (ed. W. J. L. Wharton), Captain Cook's Journal During the First Voyage Round the World (1768-71), Project Gutenberg #8106 -- SELF-AUTHORED (Cook's own journal; one perspective together with his published second-voyage account). Full text retrieved; the entries read closely were 16 Sep 1768 (Madeira), 13 Apr 1769 (the sauerkraut passage), 30 May-4 Jun 1769 (Transit of Venus preparations and observation) and 10-13 Jun 1770 (Endeavour grounding, lightening, fothering), plus the editor's notes.",
+      "url": "https://www.gutenberg.org/files/8106/8106-h/8106-h.htm"
+    },
+    {
+      "id": "src_cook_voyage2_account",
+      "kind": "archive",
+      "title": "James Cook, A Voyage Towards the South Pole, and Round the World (1777), vol. 1 full text on whalesite.org -- SELF-AUTHORED published account (Cook's text; same perspective as his journals). Read closely: the General Introduction and Chapter 1 (chronometer protocol, Aug-Sep 1772 current/lunar cross-check) and the 30 Jan 1774 passage at 71 deg 10' S (the ice field, the 'dangerous and rash' remark, the ambition sentence).",
+      "url": "https://whalesite.org/cook/1777%20-%20Cook%20-%20v1.htm"
+    },
+    {
+      "id": "src_cook_forster_vol1",
+      "kind": "archive",
+      "title": "Georg Forster, A Voyage Round the World in His Britannic Majesty's Sloop Resolution (1777), vol. 1, Internet Archive OCR full text -- INDEPENDENT FIRSTHAND account by a naturalist aboard the Resolution (non-self for Cook). Read closely: Dec 1773-Feb 1774 (the return to the antarctic circle, the mate's complaint about rotten biscuit, the ice field at 71 deg 10' S and the decision to put the ship about) and the Sep 1773 Huahine passage on Tubai. The OCR is noisy; only clearly legible passages were used.",
+      "url": "https://archive.org/stream/bim_eighteenth-century_a-voyage-round-the-world_forster-georg_1777_1/bim_eighteenth-century_a-voyage-round-the-world_forster-georg_1777_1_djvu.txt"
+    },
+    {
+      "id": "src_cook_forster_vol2",
+      "kind": "archive",
+      "title": "Georg Forster, A Voyage Round the World (1777), vol. 2, Internet Archive OCR full text -- same author and perspective as src_cook_forster_vol1. Read: the passage saying it was the captain's constant care to provide celery and scurvy-grass for his crew (Nov 1774 New Zealand) and other scurvy/sauerkraut remarks.",
+      "url": "https://archive.org/stream/bim_eighteenth-century_a-voyage-round-the-world_forster-georg_1777_2/bim_eighteenth-century_a-voyage-round-the-world_forster-georg_1777_2_djvu.txt"
+    },
+    {
+      "id": "src_cook_kodicek",
+      "kind": "biography",
+      "title": "E. H. Kodicek and F. G. Young, 'Captain Cook and Scurvy', Notes and Records of the Royal Society of London 24(1), 1969 (Helsinki-hosted PDF) -- peer-reviewed scholarly secondary study by a Cambridge nutrition laboratory director and a FRS; reproduces Cook's letters and reports to the Admiralty/Victualling Board/Royal Society and crew testimony (T. Perry, A. Home, J. Samwell, Sparrman, E. Bell). Read in full.",
+      "url": "https://www.mv.helsinki.fi/home/hemila/history/Kodicek_1969.pdf"
+    },
+    {
+      "id": "src_cook_janzen",
+      "kind": "biography",
+      "title": "Olaf Uwe Janzen, 'The Making of a Maritime Explorer: James Cook in Newfoundland, 1762-1767', The Northern Mariner XXVIII no. 1 (2018), 23-38 -- peer-reviewed scholarly secondary article (cites Holland's 1792 letter, Colvill's 1762 letter, Cook's 22 Jan 1765 letter, Beaglehole, Robson, Hornsby). Read in full.",
+      "url": "https://www.cnrs-scrn.org/northern_mariner/vol28/tnm_28_23-38.pdf"
+    },
+    {
+      "id": "src_cook_david",
+      "kind": "biography",
+      "title": "Andrew David, 'James Cook's 1763-4 survey of Newfoundland's Northern Peninsula reassessed', The Northern Mariner XIX no. 4 (2009), 393-403 -- scholarly secondary article by a former UK Hydrographic Office hydrographer working from Cook's log (TNA Adm 52/1263) and his charts. Read in full.",
+      "url": "https://www.cnrs-scrn.org/northern_mariner/vol19/tnm_19_393-403.pdf"
+    },
+    {
+      "id": "src_cook_adb",
+      "kind": "biography",
+      "title": "Australian Dictionary of Biography, 'Cook, James (1728-1779)', National Centre of Biography, ANU (Vol. 1, 1966; online 2006) -- reference-work biography summarizing Cook's career: his winters 'reading solidly' at Halifax, the 1755 move to the Navy, the reef grounding and seven-week repair, the 5000-mile charting without a chronometer, and a character assessment. Fetched and read in full.",
+      "url": "https://adb.anu.edu.au/biography/cook-james-1917"
+    },
+    {
+      "id": "src_cook_tepapa",
+      "kind": "institution",
+      "title": "Museum of New Zealand Te Papa Tongarewa, 'Biography of Captain James Cook FRS', Collections Online topic overview -- institutional summary of Cook's early career (1755 entry into the Navy as an able seaman at 27, 1757 master's qualification, theodolite/trigonometric surveying) and his stated wish to command the third voyage. Fetched and read in full.",
+      "url": "https://collections.tepapa.govt.nz/topic/570"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 82,
+      "confidence": 0.74,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cook_janzen, src_cook_adb, src_cook_david | 1758-1766 | secondary, citing Holland's own 1792 letter and a 1761 Admiralty award] At Louisbourg in 1758 Cook learned plane-table surveying from the army engineer Samuel Holland, whose 1792 letter records how he mastered it, while Captain Simcoe urged him to acquire astronomical and mathematical knowledge; in 1761 he was awarded 50 pounds for 'indefatigable Industry' in making himself master of the St Lawrence pilotage, spent winters at Halifax 'reading solidly' in his chosen subjects (ADB), and by 1766 owned his own telescope for the 5 Aug eclipse (David). Independent scholarly accounts converge on deliberate, self-directed skill-building beyond a master's ordinary duties (Janzen notes few masters bothered with chart-making)."
+    },
+    "detail_orientation": {
+      "score": 82,
+      "confidence": 0.74,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cook_david, src_cook_janzen, src_cook_adb | 1762-1770 | secondary, quoting Cook's log and Colvill's letter] In the 1764 Newfoundland survey Cook measured a base line and fixed flags in Sacred Bay, took sun meridian-altitude latitudes at six stations, triangulated, sounded every mile from the schooner, and marked fishing stages on his charts; in 1762 Commodore Colvill praised his particular care in sounding Carbonear and Harbour Grace. Janzen adds that few masters charted with such diligence and that his Newfoundland charts were not superseded until the 1830s, and ADB records about 5000 miles of coast charted with unusual accuracy on the Endeavour voyage without a chronometer."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cook_david, src_cook_forster_vol1, src_cook_adb | 1763-67; Jan 1774; 1770 | secondary + firsthand] Cook came back for successive Newfoundland seasons (1763-67) and in Sep 1764 kept surveying while sheltering a week from gales in St Genevieve Bay; on the second voyage, after Forster describes crew despondency at another season in the south, he crossed the Antarctic Circle again on 26 Jan 1774 and reached 71 deg 10' S on 30 Jan (Forster). After the Endeavour struck the reef in June 1770 he spent about seven weeks on repairs and then resumed the coastal survey northward (ADB)."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cook_banks_journal, src_cook_journal_voyage1, src_cook_janzen, src_cook_kodicek | 10-14 Jun 1770; 1765; 1773 | firsthand + secondary] After the Endeavour struck a coral reef on the night of 10-11 Jun 1770 (Banks and Cook date it a day apart) the company jettisoned guns, ballast and stores, laid out anchors, hove her off, and fothered the hull with a sail stuffed with oakum and wool -- Banks says a midshipman proposed it and Cook's journal records the fothering and, per the editor's note, that Monkhouse supervised it -- while boats sounded ahead to find the harbour where she was careened. Janzen reports the Grenville's 1765 grounding repaired with the resources at hand, and Kodicek (quoting Cook, Sparrman and Bell) documents the spruce-and-tea-tree beer Cook devised from local plants at Dusky Bay in 1773 when vegetables were scarce."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_david, src_cook_voyage2_account, src_cook_kodicek | 1764-66; Aug-Sep 1772; 1773-75 | secondary + self] Three distinct episodes: in 1764 Cook fixed latitude by six sun-altitude observations plus triangulation and, with no longitude method available, observed the 5 Aug 1766 eclipse to obtain one (David); in Aug-Sep 1772 he checked Kendall's watch against Wales's lunar observations while measuring an ocean current, noting they agreed (his own account); and in 1773-75 he told the Admiralty the crew's health should not be credited wholly to wort and marmalade but partly to portable broth and sauerkraut (Kodicek, quoting Cook). Converging instances rather than one on-point quote, and part of the reasoning is self-reported, hence strong_inference."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cook_kodicek, src_cook_forster_vol2, src_cook_journal_voyage1, src_cook_banks_journal, src_cook_adb | 1768-1776 | firsthand + secondary] Cook kept one enforced diet-and-hygiene regime across three voyages (sauerkraut and portable-soup allowances, boiled greens, cold bathing, no salt-beef fat mixed with flour), in 1773 taking care that his order to serve celery and scurvy-grass was 'punctualy complied with' in his sloop (Kodicek, quoting Cook); Forster calls the greens the captain's 'constant care' and crewman Home records men cursing the greens yet accepting them. He backed it with the lash -- 12 lashes each on 16 Sep 1768 for refusing fresh beef and two dozen for theft on 4 Jun 1769 (his journal), and on 29 Apr 1769 he ordered a crewman flogged as Banks had promised two Tahitian friends and would not stop it when they begged (Banks) -- so consistency is well documented, with crew grumbling (ADB, Home) as the cost."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_kodicek | first voyage; 1773; 1775-76 | secondary, quoting Cook's own letters and journals] Cook's stated conclusions narrowed with experience: on the Endeavour voyage he found the issued malt so indifferent that the surgeon could make little use of it and he ordered strong wort made instead; by July 1773 he wrote that wort alone 'will neither cure nor prevent' scurvy; in Aug 1775 he told the Admiralty it would 'seldom be found to cure' it and that the mustard seed issued was worthless; and for the third voyage the carrot marmalade that had proved a failure was left out. Kodicek also notes Cook attached a proviso about wort that Pringle's 1776 address omitted. One secondary source (quoting several dated Cook writings), so held at strong_inference."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cook_journal_voyage1, src_cook_banks_journal, src_cook_forster_vol1, src_cook_voyage2_account | 10-12 Jun 1770; 30 Jan 1774 | firsthand] On the night of 10-11 Jun 1770 Cook stood on inside the Barrier Reef after sounding deep water ('I thought there could be no danger in standing on') and the ship struck; on 12 Jun (his dating) with the leak gaining he 'resolv'd to risque all' to heave her off (his journal; Banks describes the crisis). On the second voyage he took the ships among ice islands to 71 deg 10' S (Forster: 'perilous'), yet on 30 Jan 1774 he turned back at an ice field, writing that going on 'would have been a dangerous and rash enterprise' -- a substantial but calibrated risk appetite rather than a maximal one."
+    },
+    "achievement_drive": {
+      "score": 80,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_adb, src_cook_tepapa, src_cook_janzen, src_cook_voyage2_account | 1755; 30 Jan 1774; 1776 | secondary + self] In 1755, offered command of a merchant ship (ADB, Te Papa), Cook instead entered the Royal Navy as an able seaman (Te Papa, Janzen) and was master's mate within a month and master by 1757 (ADB, Janzen); on 30 Jan 1774 he wrote that he 'had ambition not only to go farther than any one had been before, but as far as it was possible for man to go'; and after the second voyage, offered a shore post, he 'left his masters in no doubt' he wanted the third-voyage command (Te Papa). The motive is self-stated once and otherwise inferred from these choices, hence strong_inference."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_janzen, src_cook_kodicek | 1762; 1765; 1773 | secondary, quoting Cook] In 1762 Cook went beyond the Harbour Grace and Carbonear charting Colvill wanted and also drafted charts of Bay Bulls, St John's and Placentia; on 22 Jan 1765 he proposed re-rigging the survey schooner Grenville as a brig so he could survey 'with greater Dispatch, and less Danger'; and in May 1773 at Queen Charlotte Sound he went ashore himself for celery and scurvy-grass before breakfast and ordered it cooked for both sloops. Self-initiated steps drawn from one scholarly article and one review, hence strong_inference at moderate confidence."
+    },
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_journal_voyage1, src_cook_banks_journal, src_cook_voyage2_account, src_cook_kodicek | 1768-1772 | self + firsthand + secondary] Before the 3 Jun 1769 Transit of Venus Cook prepared the instruments, instructed observers and, 'for fear we should fail here', sent parties to two other stations on 1-2 Jun (his journal; Banks accompanied the York Island party); in 1772 he arranged the chronometer boxes so that the commander, first lieutenant and astronomer each held keys and winding and comparison were witnessed (his account); and Kodicek reads the 1768 Admiralty and Victualling Board correspondence as showing his particular care over provisions, with onions bought at Madeira as a sea-store on both voyages."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cook_banks_journal, src_cook_forster_vol1, src_cook_adb | mid-Jun to 2 Jul 1769; Sep 1773 | firsthand + secondary] At Tahiti in June 1769, after a coal rake was stolen, Cook seized 25 large canoes and declared they would not move until all stolen goods came back, then released them in stages as almost nothing came back -- Banks himself thought the step misdirected because the canoe owners were uninvolved; at Huahine in Sep 1773 he confronted Tubai, seized his clubs and drew his hanger when the man struggled (Forster). Banks also records Cook ordering that nobody be seized after the quadrant theft in May 1769, and ADB describes him as severe with uncompliant islanders and ready to use force, so the documented pattern is comfort with confrontation that was neither uniform nor free of cost."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/james-cook-dance-1776.jpg",
+    "width": 1275,
+    "height": 1600,
+    "source": "National Maritime Museum, Greenwich, London (Greenwich Hospital Collection, BHC2628), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg",
+    "attribution": "Nathaniel Dance-Holland, Captain James Cook, 1776, National Maritime Museum, Greenwich (public domain; author died 1811)",
+    "attributionUrl": "https://www.rmg.co.uk/collections/objects/rmgc-object-14102",
+    "creator": "Nathaniel Dance-Holland",
+    "date": "1776",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q7324 verified live: fetched https://www.wikidata.org/wiki/Q7324 and the Wikidata API (wbgetentities, labels/descriptions/claims); label 'James Cook', description 'British explorer, cartographer and naval officer (1728-1779)', citizenship Kingdom of Great Britain, birth 27 Oct 1728 (Julian/Old Style; Wikipedia gives 7 Nov 1728 New Style -- only the year 1728 is used), death 14 Feb 1779; P18 'Captainjamescookportrait.jpg'. Slug collision check: no james-cook.json in data-pipeline/candidates and no matching slug/name in src/data/people/*.ts. CLASSIFICATION PRECEDENT: era early_modern follows the shipped GB/FR candidates of similar period (edward-jenner 1749-1823, antoine-lavoisier 1743-94 both early_modern; Cook was active 1755-79); regionCode western_europe follows the UK precedent; occupations explorer+navigator (not naval_commander -- the profile is deliberately built on surveying/navigation/exploration behavior, not military command); field exploration only. EVIDENCE READ (12 source records incl. 2 orientation): 10 substantive records (Forster's two volumes are one perspective), actually opened and read: Banks's Endeavour journal (independent firsthand), Cook's own first-voyage journal and published second-voyage account (SELF -- counted as ONE perspective), Georg Forster's Voyage Round the World vols 1 and 2 (independent firsthand; ONE perspective across two volumes), Kodicek and Young 1969 (scholarly, quoting Cook's letters and crew members), Janzen 2018 and David 2009 (two separate scholarly articles), the Australian Dictionary of Biography entry and the Te Papa biography. INDEPENDENT PERSPECTIVES: Banks, Forster, Kodicek/Young, Janzen, David, ADB, Te Papa plus Cook himself (8 authored perspectives); however ADB, Te Papa, Janzen and David all draw on the same Beaglehole/Robson historiography, so for the strictest count treat them as secondary voices on one shared documentary base. Non-self behavioral sources: Banks and Forster (firsthand), plus Kodicek/Young, Janzen and David (secondary, documentary). LIMITS: Banks's journal (about 1.2M characters) and both Forster volumes (noisy OCR) were text-searched and read at the cited entries, not read cover to cover; Te Ara/DNZB and NZHistory returned HTTP 403 (Cloudflare) and are NOT counted or cited; the RMG K1 chronometer page was read but not relied on (it concerns the instrument, not Cook's behavior); the Royal Society 1776 Copley Medal record and Cook's Phil. Trans. scurvy paper were not opened directly (Kodicek reproduces the report). The published 1777 second-voyage text is Cook's account as prepared for publication, so it is treated as self. Evidence types follow the rubric section 10 rule: strong_inference only where two or more distinct dated episodes support the same row. EXCLUDED ON PURPOSE: 'firsts' and outcomes (discoveries, charts as fame, Copley Medal, later renown); naval-military command, colonial-policy and sovereignty/possession acts (the 1764 French-Shore work in Janzen and the possession ceremonies in Banks were not scored); any inference from Cook's 1764 powder-horn injury, his 1774 illness, his death at Kealakekua Bay or health/parasite/irritability speculation (Kodicek's remark on his 1774 illness and the ADB clause about his death were not used); no row is scored from the Batavia crew mortality outcome. His colonial legacy is contested and no moral judgment is scored either way: the conflict_tolerance row records the documented coercive episodes and the restraint episodes side by side and is marked dual_edged. PORTRAIT: Nathaniel Dance(-Holland), 'Captain James Cook, 1728-79' (National Maritime Museum BHC2628); RMG catalogue page (fetched) dates it 1776 and records that Cook sat for it on 25 May 1776 (commissioned by Joseph Banks), the Commons file page (fetched, and Commons API imageinfo) says c.1775 and shows PD-old-100 / PD-Art templates (author died 1811; public domain in the US as published before 1931). Downloaded the original (6131x7692) and resized to 1275x1600. Kind is likeness because RMG documents a sitting from life; note that RMG separately offers image licensing for its own photography, which does not change the work's public-domain status. PRE-COMMIT ERROR_CORRECTION (2026-09-18, orchestrator factual gate): removed the age at Royal Navy entry (Te Papa says 'twenty-seven'; birth-date arithmetic from Oct 1728 gives 26, so the age is left out); no score/confidence/evidenceType/impact changed."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "제임스 쿡"
+    }
+  }
+}

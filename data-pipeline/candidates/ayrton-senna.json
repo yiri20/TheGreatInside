@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ayrton-senna",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ayrton Senna",
+    "aliases": [
+      "Ayrton Senna da Silva"
+    ],
+    "wikidataId": "Q10490",
+    "birthYear": 1960,
+    "deathYear": 1994,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "independent"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_senna_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ayrton Senna -- orientation only (full name Ayrton Senna da Silva, born 21 Mar 1960 Santana, Sao Paulo; died 1 May 1994; Brazilian; team-by-year list Toleman 1984, Lotus 1985-87, McLaren 1988-93, Williams 1994; 1981-83 Formula Ford/Formula 3 timeline); not used as support for any scored row. Fetched and read.",
+      "url": "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    },
+    {
+      "id": "src_senna_wikidata",
+      "kind": "wikidata",
+      "title": "Ayrton Senna (Q10490) -- identity verified live via the wbgetentities API and a second page fetch: label 'Ayrton Senna', description 'Brazilian racing driver (1960-1994)', born 21 Mar 1960, died 1 May 1994, citizenship Brazil, instance of human, English aliases 'Ayrton Senna da Silva' and 'Senna', ko label '아이르통 세나', kowiki sitelink '아이르통 세나', P18 'Ayrton Senna 9 - Cropped.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q10490"
+    },
+    {
+      "id": "src_senna_kowiki",
+      "kind": "wikipedia",
+      "title": "Korean Wikipedia, '아이르통 세나' -- read only to confirm the conventional Korean spelling (title and body use 아이르통 세나; 아일톤 세나 is noted as an alternative spelling). Orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/아이르통_세나"
+    },
+    {
+      "id": "src_senna_dennis_f1",
+      "kind": "press",
+      "title": "'Ron Dennis on Senna - Part one: the early years', Formula1.com, 28 Apr 2014 -- FIRSTHAND account (non-self) by the McLaren team principal who worked with Senna 1988-93, given for the 20th anniversary of Senna's death: his 1982 offer to fund an F3 season for an option and Senna's refusal, the 1983 McLaren test, Senna's 1987 approach to join McLaren, the equality talk with Senna and Prost, the money negotiation settled by a coin flip, engine-selection coin flips, Imola 1989, the 1989 Suzuka disqualification and Senna's note that he would stop racing, Monaco 1988 (qualifying lap, race crash and walk to his flat) and the Suzuka 1990 collision (Dennis read the throttle/brake traces). Dennis is an interested party (employer, protest-filer). Fetched and read in full; Part two was not located.",
+      "url": "https://www.formula1.com/en/latest/article/ron-dennis-on-senna-part-one-the-early-years.2RGW2Y0fPuZ5wQCydfooGQ"
+    },
+    {
+      "id": "src_senna_dennis_racefans",
+      "kind": "press",
+      "title": "Keith Collantine, 'Ron Dennis on Ayrton Senna', RaceFans, 17 Apr 2014 -- reports Dennis's remarks to a media group at the McLaren Technology Centre: the 1983 test (Senna demanded an extra run after a problem on his first flying lap, then set a fast time), Senna arriving in 1988 with Honda, the engine coin flips, Imola 1989 and Suzuka 1989. SAME perspective as src_senna_dennis_f1 (same speaker, same anniversary period); counted once. Fetched and read.",
+      "url": "https://www.racefans.net/2014/04/17/ron-dennis-ayrton-senna/"
+    },
+    {
+      "id": "src_senna_prost_msm",
+      "kind": "press",
+      "title": "Nigel Roebuck, 'Ayrton Senna by Alain Prost', Motor Sport, Oct 1998 (web version dated 7 Jul 2014) -- FIRSTHAND interview account (non-self) by Senna's rival and 1988-89 McLaren team-mate, four years after his death: the spring 1984 Nurburgring celebrity race, the pre-season 1988 Rio tyre test, Estoril 1988 (first-lap move toward the pit wall and Senna's later apology), Honda's treatment of the two drivers (including Prost's report of a dinner with Honda's Kawamoto), the Imola 1989 agreement and restart, Monza 1989, the Suzuka 1989 and 1990 collisions, and Prost's interpretation ('he had his own rules', 'he wanted to destroy me'). Prost is an interested party and a rival; the Suzuka 1989 account conflicts with Senna's (see provenance notes). Fetched and read in full.",
+      "url": "https://www.motorsportmagazine.com/archive/article/october-1998/28/ayrton-senna-alain-prost/"
+    },
+    {
+      "id": "src_senna_tremayne_msm",
+      "kind": "press",
+      "title": "David Tremayne, 'The other side of Senna -- his rage at Prost and Suzuka 1990', Motor Sport, Dec 1991 (web version dated 7 Jul 2014) -- contemporaneous FIRSTHAND press-room report (non-self; strongly critical in tone) of Senna's Oct 1991 Suzuka press conference, where he said the 1990 collision was deliberate, with long direct quotations of Senna's own words (self-testimony within a non-self report), Prost's 1989 remarks, and Tremayne's statement about Honda telemetry. Only the dated facts and quoted words are used, not Tremayne's moral judgments. Fetched and read in full.",
+      "url": "https://www.motorsportmagazine.com/archive/article/december-1991/6/the-other-side-of-senna/"
+    },
+    {
+      "id": "src_senna_watkins_autosport",
+      "kind": "press",
+      "title": "Gary Watkins, 'The rushed McLaren F1 car that elevated a reluctant Senna's legacy', Autosport, 1 Dec 2023 -- retrospective built on FIRSTHAND recollections (non-self) of McLaren chief designer Neil Oatley, engineer Giorgio Ascanelli and chief mechanic Dave Ryan about winter 1992-93: Senna staying away from early testing, his unhappiness after Honda's exit, the Dec 1992 Penske Indycar test, his condition that he test the MP4/8 before deciding, the first Silverstone run and two-hour debrief, the late-night phone call, the race-by-race deal (with a reference to Maurice Hamilton's 2014 book quoting McLaren's lawyer), and Ryan's description of the Senna-Ascanelli debriefs. Fetched; the whole page was read from the raw text.",
+      "url": "https://www.autosport.com/f1/news/the-rushed-mclaren-f1-car-that-elevated-a-reluctant-sennas-legacy/10554058/"
+    },
+    {
+      "id": "src_senna_allen_autosport",
+      "kind": "press",
+      "title": "James Allen, 'Autosport 75: The McLaren test that persuaded Senna to stay', Autosport (page dated 30 Jul 2025; reprints Allen's report from the 11 Mar 1993 issue) -- contemporaneous FIRSTHAND reporter's account (non-self) of the early-March 1993 Silverstone MP4/8 test, with Senna's own quoted remarks (the three-step decision process: meeting Philip Morris, test, decision; effort to learn the V8) and Allen's contemporaneous comment that money is always a sticking point and that Senna had added a few million at each renewal. Senna's quotes are self-testimony inside a non-self report. Fetched; read from the raw text.",
+      "url": "https://www.autosport.com/f1/news/autosport-75-the-mclaren-test-that-persuaded-senna-to-stay/10746627/"
+    },
+    {
+      "id": "src_senna_rushen_msretro",
+      "kind": "press",
+      "title": "'A personal account of Ayrton Senna - before F1' (Dennis Rushen interviewed by Henry Hope-Frost; Rich Fowler, Motorsport Retro, 1 May 2014) -- FIRSTHAND account (non-self) by the Rushen Green Racing team owner who ran Senna in 1982 Formula Ford 2000: first meeting at Snetterton in 1981, Senna's return to Europe after going home at the end of 1981 (he phoned Van Diemen's Ralph Firman), the Zolder 1982 error and his reaction, and the two-pounds-down tyre feel test. Rushen's opinions about Senna's character, religion and private life are not used; the last section of the page is subscriber-only. Fetched; read from the raw text through the visible article.",
+      "url": "https://www.motorsportretro.com/2014/05/ayrton-senna-formula-ford/"
+    },
+    {
+      "id": "src_senna_f3_motorsportcom",
+      "kind": "press",
+      "title": "'Senna vs Brundle: The title battle that had it all', Motorsport.com, 20 May 2021 -- feature built on FIRSTHAND accounts (non-self) by Senna's 1983 F3 team principal Dick Bennetts (West Surrey Racing) and rival Martin Brundle: the first nine wins, Silverstone tyre choice and crash, Bennetts's advice to settle for second, Senna throwing away races, Brundle's view that Senna's 'head fell apart' but recovered, and the Thruxton finale with different Ralt development parts on the two cars. Fetched and read in full.",
+      "url": "https://www.motorsport.com/general/news/senna-vs-brundle-title-battle/6511502/"
+    },
+    {
+      "id": "src_senna_msm_brundle",
+      "kind": "press",
+      "title": "Jake Williams-Smith, 'Senna and Brundle's F3 showdown: I knew Ayrton was beatable', Motor Sport, 3 Feb 2021 -- short piece quoting Martin Brundle (same Brundle perspective as src_senna_f3_motorsportcom): Senna had been to Italy, seen his new engine on the dyno and brought it back himself for the Thruxton finale; Brundle's view that he could have rammed Senna but it 'wasn't my style'. Only the engine remark is used. Fetched and read in full.",
+      "url": "https://www.motorsportmagazine.com/articles/single-seaters/senna-and-brundles-f3-showdown-i-knew-ayrton-was-beatable/"
+    },
+    {
+      "id": "src_senna_symonds_motorsportcom",
+      "kind": "press",
+      "title": "Rene Fagnan, 'Retro 1984 - Quand Ayrton Senna fut puni par l'ecurie Toleman', Motorsport.com (French edition, updated 18 Feb 2024) -- retelling that quotes FIRSTHAND recollections (non-self) by Toleman engineer Pat Symonds (from a Royal Automobile Club podcast, as reported by Fagnan) of Senna's 1984 Lotus signing without informing Toleman, Alex Hawkridge learning of it from the press, the one-race Monza suspension, and Symonds's view that it changed the relationship. Fagnan's own narrative adds the July 1984 Warr visit and the 27 Aug press-release date. Fetched and read in full (French; translated by the researcher).",
+      "url": "https://fr.motorsport.com/f1/news/retro-1984-ayrton-senna-puni-toleman/4382570/"
+    },
+    {
+      "id": "src_senna_warwick_autosport",
+      "kind": "press",
+      "title": "'How \"devious\" Senna thwarted a rising F1 talent's path to success', Autosport / GP Racing, 11 Aug 2024 -- extract from Derek Warwick's autobiography Never Look Back (FIRSTHAND account by the aggrieved rival; David Tremayne is credited on the page as collaborator on the book, which is a separate work from his 1991 report): Warwick's signed 1986 Lotus contract, his account that Senna pressed Lotus to drop him and demanded exclusive access to the best car, spare, mechanics, engineer and designer, Warr's rejection of Senna's suggestion of Mauricio Gugelmin as number two, and Warwick's view that Senna 'never even thought he was screwing me over'. One-sided and disputed in part (Warr's version of when Warwick was told is reported only by Warwick). Fetched and read in full.",
+      "url": "https://www.autosport.com/f1/news/how-devious-senna-thwarted-a-rising-f1-talents-path-to-success/10641315/"
+    },
+    {
+      "id": "src_senna_formulanerds",
+      "kind": "press",
+      "title": "James Phillips, 'Ayrton Senna: Toleman and Lotus years foreshadow legendary F1 career', FormulaNerds, 28 Apr 2024 -- SECONDARY feature that attributes to Malcolm Folley's 'Senna vs Prost' the claim that Senna wanted a clause letting him leave Toleman if a rival offer appeared, quotes Senna on the 1984 Monaco stoppage and on the Zandvoort announcement, and describes the Monza suspension. Not independent of the sources it draws on; used only as weak corroboration of the Toleman contract clause and the Monza suspension. Fetched and read in full.",
+      "url": "https://formulanerds.com/features/ayrton-senna-toleman-and-lotus-years-foreshadow-legendary-f1-career/"
+    },
+    {
+      "id": "src_senna_racefans_toleman",
+      "kind": "press",
+      "title": "Keith Collantine, 'From Flying Pig to Senna's heroics: The short, incredible history of Toleman', RaceFans, 11 Apr 2024 -- SECONDARY history feature: Senna's 1984 Toleman debut, the wet Monaco race stopped while he was closing on Prost, the late-1984 Lotus signing that infuriated Toleman, and Hawkridge benching him for a race. Used only as weak corroboration of the Toleman episodes. Fetched and read (Senna sections).",
+      "url": "https://www.racefans.net/2024/04/11/from-flying-pig-to-sennas-heroics-the-short-incredible-history-of-toleman/"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 92,
+      "confidence": 0.86,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_senna_f3_motorsportcom, src_senna_prost_msm, src_senna_dennis_f1, src_senna_dennis_racefans | 1983-88 | firsthand team principal + rival/team-mate + employer] In 1983 F3 his team principal Dick Bennetts says he 'wasn't content finishing second' despite a 36-point lead, tried passes on Brundle and crashed, and 'threw away three races I think'. Prost recalls Senna pushing him off the track after half a lap at a spring 1984 Nurburgring celebrity race and being 'furious' at the pre-season 1988 Rio test when Prost stayed in the car a little longer. Dennis says that at his 1983 McLaren test Senna demanded an extra run after a problem on his first flying lap and was 'very keen to get an advantage' (fresh tyres, an undamaged car), and that in 1988 he and Prost had 'a degree of obsession' over engine selection, settled by witnessed coin flips."
+    },
+    "autonomy_need": {
+      "score": 88,
+      "confidence": 0.85,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_senna_dennis_f1, src_senna_symonds_motorsportcom, src_senna_warwick_autosport, src_senna_watkins_autosport, src_senna_allen_autosport | 1982-93 | firsthand employers, engineer, rival + contemporaneous report] In 1982 he turned down Dennis's offer to fund his F3 season in return for an option ('he wanted to be independent'); in 1984 he signed for Lotus without telling Toleman (Symonds; weakly corroborated by src_senna_racefans_toleman); in 1986 Warwick says he demanded exclusive access to the best car, spare, mechanics and engineer; and in winter 1992-93 he stayed away from early testing, tried a Penske Indycar, insisted on driving McLaren's MP4/8 before deciding, and agreed only a race-by-race deal until July (Oatley, Ascanelli, Allen). Four distinct episodes from four independent perspectives over eleven years (the 1993 episode is told by both Watkins and Allen); the costs (a one-race suspension, Warwick's lost seat) are recorded, hence dual_edged."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_senna_symonds_motorsportcom, src_senna_dennis_f1, src_senna_prost_msm, src_senna_tremayne_msm | 1984-91 | firsthand engineer + employer + rival/team-mate + press-room witness] After signing for Lotus without telling Toleman in Aug 1984 he accepted a one-race suspension at Monza (Symonds). Dennis says that before the 1988 season Senna and Prost 'ganged up on me', calling his equality talk unfair and aggressive; Prost says that after Imola 1989 he told Senna their personal relationship was over, while Dennis says 'both to blame'; and at the Oct 1991 Suzuka press conference Senna publicly attacked FISA president Balestre ('I don't care! I don't care!'; Tremayne, who calls it an 'abusive tirade'). Repeated open confrontation with employer, team-mate and officials; the 1990 collision is scored only under risk_tolerance."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_senna_prost_msm, src_senna_dennis_f1, src_senna_tremayne_msm | 1988; 1990-91 | firsthand rival/team-mate + employer + press-room witness] Prost says that on the first lap at Estoril 1988 Senna swerved toward him leaving about six inches to the pit wall (Senna later apologised, per Prost). After the Oct 1990 Suzuka collision Dennis says he read the throttle and brake traces and told Senna 'I'm disappointed in you' ('one of his rare moments of weakness'); in Oct 1991 Senna said he had decided to 'go for it' at the first corner if Prost got the jump ('he had better not turn in') and 'I didn't care if we crash. I went for it' (Tremayne's transcript). Accounts of the 1989 Suzuka collision conflict (Prost vs Senna) and are not used."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_senna_watkins_autosport, src_senna_rushen_msretro | 1982; 1993 | firsthand mechanic/engineer + team owner] At the early-March 1993 Silverstone test Ascanelli recalls a two-hour debrief after a run of about 20 minutes, and chief mechanic Dave Ryan recalls debriefs in which they would 'drop it a mill here and raise it two there'. Rushen (1982) says Senna came in from a test saying a rear tyre was two pounds down ('I can feel it and I can see the shape of the tyre in the mirror') and a mechanic confirmed it. Two independent sources eleven years apart; the tyre episode is a single reported anecdote."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_senna_rushen_msretro, src_senna_dennis_f1, src_senna_msm_brundle | 1982; 1983; 1987 | firsthand team owner + employer + rival] After going home to Brazil at the end of 1981 he phoned Van Diemen's Ralph Firman himself to say he was returning, which led to the 1982 Formula Ford 2000 season with Rushen. Dennis says Senna 'put out the feelers' to join McLaren in 1987 and suggested he might persuade Honda to follow; Brundle says that before the 1983 Thruxton finale Senna went to Italy, saw his new engine on the dyno and brought it back himself. Three independent accounts of self-started moves."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_senna_watkins_autosport, src_senna_prost_msm, src_senna_warwick_autosport | 1986; 1989; 1993 | secondary with firsthand mechanic + team-mate + rival] Chief mechanic Ryan says that in 1993 Senna and Ascanelli 'really clicked' in detailed debriefs. Against that, Warwick says Senna sought the best equipment and staff for himself in 1986, and Prost says that at Monza 1989 he sat alone in one part of the garage while Senna had two cars and about 20 people (Prost also blames Honda's attitude). The evidence points in opposite directions depending on the counterpart, so the score sits mid-scale with low confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ayrton-senna-lee-1993.jpg",
+    "width": 1330,
+    "height": 1600,
+    "source": "Martin Lee (Flickr, user kartingnord), via Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Martin Lee from London, UK, 'Ayrton Senna in the paddock before the 1993 British Grand Prix', CC BY-SA 2.0 (resized from the original)",
+    "attributionUrl": "https://www.flickr.com/photos/kartingnord/33686752075/",
+    "creator": "Martin Lee",
+    "date": "1993",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ayrton_Senna_in_the_paddock_before_the_1993_British_Grand_Prix_(33686752075).jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아일톤 세나"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities API call on 2026-09-18 for Q10490 (plus a second page fetch) returned label 'Ayrton Senna', description 'Brazilian racing driver (1960-1994)', born 21 Mar 1960, died 1 May 1994, citizenship Brazil, human, aliases 'Ayrton Senna da Silva' and 'Senna', ko label '아이르통 세나', kowiki sitelink '아이르통 세나' and P18 'Ayrton Senna 9 - Cropped.jpg'; the assignment's search-hit QID was correct. SLUG CHECK: ls data-pipeline/candidates showed no ayrton-senna file and grep of src/data/people for 'senna' found nothing. CLASSIFICATION: athlete / sport; regionCode latin_america, era 20th_century and impactDomains athletic/historical/cultural follow the live pele.json precedent (BR, latin_america, 20th_century) and the assignment; the domains are classification only and are not evidence for any row. Tags competitor and independent and archetype competitive_performer are tied to the competitiveness and autonomy_need rows. EVIDENCE READ: 16 source records (3 orientation, 13 substantive), all opened; the Autosport, Motor Sport, Motorsport.com, Motorsport Retro and RaceFans pages were fetched with curl and read from the raw page text, the Wikipedia/Wikidata pages via API/WebFetch. INDEPENDENT NON-SELF PERSPECTIVES (at least 9): (1) Ron Dennis, McLaren team principal (Formula1.com and RaceFans = one perspective); (2) Alain Prost via Nigel Roebuck, Motor Sport 1998; (3) David Tremayne, Motor Sport 1991, a critical press-room witness whose page also carries Senna's own words; (4) McLaren staff Neil Oatley, Giorgio Ascanelli and Dave Ryan via Gary Watkins, Autosport 2023; (5) James Allen, contemporaneous Autosport report of March 1993; (6) Dennis Rushen, 1982 team owner, Motorsport Retro; (7) Dick Bennetts, 1983 F3 team principal, and (8) Martin Brundle, F3 rival (Brundle's two records count once); (9) Pat Symonds, Toleman engineer, as reported by Rene Fagnan (French; translated); (10) Derek Warwick, aggrieved 1986 rival (his book was written with David Tremayne, credited on the page; the 1991 Tremayne report is a separate work). Secondary corroboration only: FormulaNerds and RaceFans (Toleman history). Senna's own words appear only inside the Tremayne, Allen and FormulaNerds records and no row rests on them alone. Most speakers are interested parties (Dennis employer, Prost rival, Warwick rival, Bennetts/Brundle F3 rivals); that is stated in the source titles. BEHAVIOR-ONLY: rows use dated episodes (a refused option, a contract signed without notice, an extra test run, a race-by-race deal, debriefs, reactions to his own errors), not wins, titles, poles or rankings. EPISODE ECONOMY: each episode supports at most two rows (Toleman 1984 in autonomy_need and conflict_tolerance; Warwick 1986 in autonomy_need and collaboration; Suzuka 1990 only in risk_tolerance). Episodes carried by one witness only: Nurburgring 1984, Rio 1988 test and Estoril 1988 (Prost); Zolder 1982 and the tyre-pressure test (Rushen); Monaco 1988 walk home (Dennis); none is the sole support of a row. CONFLICTS REPORTED, NOT ADJUDICATED: (a) Suzuka 1989 collision: Prost says he 'did not open the door' and turned in while Senna dived for the gap; Senna's Oct 1991 remarks (Tremayne) say Prost turned to cut him off and blame Balestre's grid order; Dennis blames Balestre and Prost's lobbying; not used to score. (b) Suzuka 1990: Senna denied responsibility in 1990 and said in Oct 1991 that he had gone for it deliberately (Tremayne, Prost, Dennis agree on the admission); used once, under risk_tolerance. (c) Ascanelli's move to Senna: Watkins says Senna 'poached' him in 1992, while Gerhard Berger's Motor Sport interview (Jan 2025, read) says Berger asked Dennis to hire him and Dennis then said he would work with Senna; NOT used. (d) Warwick says Peter Warr's claim about when he was told (January 1986) is not how he remembers it; not used. EXCLUDED ON PURPOSE: race wins, championships, pole counts and any 'greatest driver' ranking; the Honda NSX development legend (seen only in search snippets and fan/company lore, not opened); the 1993 Donington lap (race performance); Senna's rescue of Erik Comas at Spa 1992 (seen only in search snippets, not opened, and not tied to a trait); religion, marriage and family and other private life (Rushen's remarks on his private life and the 1981 return to Brazil for family reasons are not used); the 1994 accident and death and any inference from them (the closing paragraphs of Prost's and Rushen's pieces about 1994 were read and not used); moral judgments by Tremayne, Prost, Warwick and Dennis ('great human being', 'selfish', 'abusive tirade' are quoted only to attribute). Read but not cited: Berger interview (Motor Sport 2025), Autosport 2007 Ascanelli interview (no Senna content), Bonhams/Richard Williams essay, Motor Sport 'My greatest rival' teaser. LIMITS: no Honda-side (Goto, Kawamoto) or Sid Watkins primary text was obtained (Prost reports the Kawamoto dinner second-hand, so it is not used); Dennis Part two, the Hamilton and Folley books, and Symonds's podcast were not read, so the Hamilton brinkmanship remark and the Toleman contract clause are only reported second-hand and are not used to score. Fagnan's French text is a retelling of a podcast, not the podcast itself. RUBRIC BANDS: competitiveness 92 rests on four independent accounts of distinct episodes; autonomy_need 88 on four distinct episodes from four perspectives; perfectionism is strong_inference at 0.56 (two independent episodes of reaction to his own error, not of work standards); collaboration 50 at 0.40 inference is deliberately mid-scale because the evidence points in opposite directions; a belief_updating row was drafted and dropped as too thin and too dependent on one rival's characterization. PORTRAIT: Wikidata P18 'Ayrton Senna 9 - Cropped.jpg' (686x691; original 'Ayrton Senna 9.jpg' 1002x691) is CC BY 2.0 and credited to Instituto Ayrton Senna, but its Flickr source page returned 404 on 2026-09-18 so the Flickr license could not be re-verified live (only via a 2012 FlickreviewR tag), the Instituto is subject-affiliated, and a Commons page summary names a different photographer, so its rights are less certain; not used. Selected 'File:Ayrton Senna in the paddock before the 1993 British Grand Prix (33686752075).jpg' by Martin Lee (Flickr user kartingnord), CC BY-SA 2.0; the live Flickr page fetched 2026-09-18 shows 'Some rights reserved' with the by-sa/2.0 license URL and author Martin Lee, Commons was FlickreviewR-reviewed on 20 Jul 2017, and the Commons API imageinfo confirms CC BY-SA 2.0 and a 1553x1868 original. Downloaded the real original, resized with Pillow to 1330x1600 (no upscaling; JPEG q85), saved file dimensions checked (1330x1600), and viewed: a single-subject color photograph of Senna in red McLaren overalls and a cap, with a spectator's arm at the left edge and a hand in the foreground; Flickr's 2008 date is the scan date, and the Commons description places the photograph before the 1993 British GP (July 1993). Kind: likeness; the CC BY-SA 2.0 attribution names the resize. KOREAN NAME: '아이르통 세나' is the Korean Wikipedia title and Wikidata ko label; '아일톤 세나' (the form in the assignment) appears on kowiki as an alternative spelling and is common in Korean media; the reviewer may prefer either. The structural validator was run only after all rows were final; no row was changed in response to its output. PRE-COMMIT ORCHESTRATOR REVIEW (2026-09-18, before any eligibility computation): (1) perfectionism row REMOVED -- both episodes (Zolder 1982, Monaco 1988) show anger at his own errors, not standards of finished work, so the evidence does not bear on the attribute (the researcher had already noted this); no other row changed. (2) ko-KR display name set to the common Korean media spelling 아일톤 세나; Korean Wikipedia's title and the Wikidata ko label use the alternative 아이르통 세나."
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "david-bowie",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "David Bowie",
+    "aliases": [
+      "David Robert Jones"
+    ],
+    "wikidataId": "Q5383",
+    "birthYear": 1947,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician",
+      "singer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bowie_wikipedia",
+      "kind": "wikipedia",
+      "title": "David Bowie (English Wikipedia) -- orientation only (birth name David Robert Jones, 8 January 1947 - 10 January 2016, English singer/songwriter/actor); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/David_Bowie"
+    },
+    {
+      "id": "src_bowie_wikidata",
+      "kind": "wikidata",
+      "title": "David Bowie (Q5383) -- identity check via the live Wikidata API: en label 'David Bowie', description 'English musician and actor (1947-2016)', ko label, P569 1947-01-08, P570 2016-01-10, P27 Q145 (United Kingdom).",
+      "url": "https://www.wikidata.org/wiki/Q5383"
+    },
+    {
+      "id": "src_bowie_sos_heroes",
+      "kind": "press",
+      "title": "Richard Buskin, \"Classic Tracks: David Bowie 'Heroes'\", Sound On Sound, October 2004 -- producer/engineer Tony Visconti's first-hand account of the 1977 Hansa Studios sessions: Bowie's loose-structure working method with his rhythm section, lyrics written in a couple of hours after weeks of germination, the vocal being 'probably take three', and Bowie's remark 'Once I've made up my mind, I don't want to change it'. Downloaded with curl; the whole article text was searched locally and the passages on the working method, the lyrics, the vocal take count and the 'made up my mind' remark were read in context.",
+      "url": "https://www.soundonsound.com/techniques/classic-tracks-david-bowie-heroes"
+    },
+    {
+      "id": "src_bowie_variety_ziggy",
+      "kind": "press",
+      "title": "Jem Aswad, \"Why David Bowie Killed Ziggy Stardust, 50 Years Ago Today\", Variety, 3 July 2023 -- music-industry journalism on the 3 July 1973 Hammersmith Odeon retirement announcement: who knew in advance (Ronson) and who did not (Woodmansey), the Spiders' pay dispute, RCA engineer Mike Moran on Bowie's 1972 studio habits ('one or two takes of his vocal'), and the parenthetical that Bowie ultimately paid MainMan upward of $50 million to separate and obtain his recordings. Downloaded and read locally through the retirement-gig section (about the first 27,000 of ~36,000 characters); note that it quotes Bowie's own 2002 memoir in places (self-authored material, not relied on here).",
+      "url": "https://variety.com/2023/music/news/david-bowie-killed-ziggy-stardust-1235660172/"
+    },
+    {
+      "id": "src_bowie_ucr_spiders",
+      "kind": "press",
+      "title": "Dave Swanson, \"Original Spider From Mars Talks About Split From Bowie\", Ultimate Classic Rock, 25 June 2012 -- short news item re-reporting drummer Woody Woodmansey's BBC/Classic Rock remarks (the band's pay grievance) and Suzi Ronson's statement that Mick Ronson knew of the July 1973 break-up in advance while Woodmansey and Bolder did not. Secondary re-telling; read in full.",
+      "url": "https://ultimateclassicrock.com/original-spider-from-mars-talks-about-split-from-bowie/"
+    },
+    {
+      "id": "src_bowie_ucr_garson",
+      "kind": "press",
+      "title": "Allison Rapp, \"Inside David Bowie's Freewheeling Sessions for 'Aladdin Sane': Exclusive Interview\" with pianist Mike Garson, Ultimate Classic Rock, 19 April 2023 -- first-hand collaborator interview: Bowie interviewing Garson about the New York jazz/avant-garde scene at post-show dinners in 1972-73, and Garson's account of the freedom Bowie gave him at the Aladdin Sane sessions. Downloaded and read in full.",
+      "url": "https://ultimateclassicrock.com/mike-garson-aladdin-sane/"
+    },
+    {
+      "id": "src_bowie_lobf_alomar",
+      "kind": "press",
+      "title": "\"Carlos Alomar on David Bowie: He Was A Transitional, Generational Artist\", The Line of Best Fit -- exclusive extract of a (then new) book in which guitarist Carlos Alomar speaks in the first person about meeting Bowie in 1974, Bowie's questions about the Chitlin' Circuit and the Apollo Theater, the 'change the band' method used on Young Americans, and the writing credit he received on 'Fame'. Author of the extract is Alomar himself (a first-hand collaborator account); the page's own byline/date and the book title were not visible in the fetched text. Downloaded and read (first ~15,000 of ~19,000 characters); drug and marriage passages deliberately not used.",
+      "url": "https://www.thelineofbestfit.com/features/longread/carlos-alomar-on-david-bowie-he-was-a-transitional-generational-artist"
+    },
+    {
+      "id": "src_bowie_va_rodgers",
+      "kind": "institution",
+      "title": "\"Let's Dance: How Nile Rodgers made David Bowie's demo a global smash hit\", V&A (David Bowie Centre), published 9 September 2025 -- Nile Rodgers's first-hand account, interviewed by V&A curators, of the 1982 Let's Dance collaboration (the demo Bowie played him, the arrangement, the studio session). The V&A holds the Bowie Archive, so this is an institution with a stake in the subject; the informant, Rodgers, is an independent collaborator. Downloaded and read in full.",
+      "url": "https://www.vam.ac.uk/articles/lets-dance-nile-rodgers-and-david-bowie"
+    },
+    {
+      "id": "src_bowie_louder_letsdance",
+      "kind": "press",
+      "title": "\"David Bowie and the making of Let's Dance: how Nile Rodgers turned an arty outsider into a global superstar\", Louder (Future plc) -- long-form feature quoting Rodgers (Le Freak, Rolling Stone podcast), Stevie Ray Vaughan, Bowie's own interview remarks, and bassist Trevor Bolder on the speed of the 'Jean Genie' recording; covers Rodgers's account of not being invited on tour and rarely credited. Byline/date not visible in the fetched text. Downloaded and read (about 20,000 of ~24,000 characters).",
+      "url": "https://www.loudersound.com/features/david-bowie-nile-rodgersmaking-of-lets-dance"
+    },
+    {
+      "id": "src_bowie_rs_letsdance",
+      "kind": "press",
+      "title": "Kory Grow, \"How David Bowie, Nile Rodgers Made 'Let's Dance' a Hit\", Rolling Stone, 14 April 2016 -- short retrospective: Bowie telling Rodgers 'I really want you to make hits', telling his usual producer Tony Visconti he wanted a change, and the album cut in 17 days at the Power Station. Downloaded and read in full.",
+      "url": "https://www.rollingstone.com/music/music-news/how-david-bowie-nile-rodgers-made-lets-dance-a-hit-230290/"
+    },
+    {
+      "id": "src_bowie_variety_letsdance",
+      "kind": "press",
+      "title": "\"David Bowie's 'Let's Dance' at 40: Nile Rodgers Looks Back\", Variety, 14 April 2023 -- producer/engineer interview piece (Rodgers and Bob Clearmountain): the 17-day recording ('like four songs a day'), and the context that Bowie had struck an EMI Manhattan licensing deal while retaining ownership of his masters. Downloaded and read for the recording and EMI-licensing passages (byline not visible in the fetched text).",
+      "url": "https://variety.com/2023/music/news/david-bowie-lets-dance-at-40-nile-rodgers-1235583524/"
+    },
+    {
+      "id": "src_bowie_louder_berlin",
+      "kind": "press",
+      "title": "Louder (Future plc) long-form feature on the Berlin era ('Low', 'Heroes', The Idiot) -- covers RCA's reaction to Low (the 'Young Americans II ... mansion in Philadelphia' remark recounted by Visconti), the abandoned Man Who Fell To Earth soundtrack, and Bowie's cut-up / randomised composition methods and Eno's Oblique Strategies cards. Byline/date not visible in the fetched text. Downloaded and read for the 1975-77 sections (about 9,000 of ~26,000 characters).",
+      "url": "https://www.loudersound.com/features/bowie-berlin-trilogy-low-heroes"
+    },
+    {
+      "id": "src_bowie_hypebot_roberts",
+      "kind": "press",
+      "title": "Clyde Smith, \"Ty Roberts: From Working With David Bowie To Co-Founding Gracenote\", Hypebot, 8 March 2013 -- interview with Ty Roberts, who observed Bowie's cut-up lyric method in the studio with Eno during the Outside sessions and built the Verbasizer lyric-randomizer program for him. First-hand observer account. Downloaded and read in full.",
+      "url": "https://www.hypebot.com/hypebot/2013/03/ty-roberts-on-the-trail-from-working-with-david-bowie-to-co-founding-gracenote.html"
+    },
+    {
+      "id": "src_bowie_vice_verbasizer",
+      "kind": "press",
+      "title": "\"The Verbasizer was David Bowie's 1995 Lyric-Writing Mac App\", VICE / Motherboard (January 2016, published the week of Bowie's death; byline not captured) -- describes Bowie demonstrating the Verbasizer on camera in the 1997 documentary 'Inspirations' and cites biographer David Buckley on his randomness/juxtaposition methods; relies partly on the Hypebot interview above (same underlying perspective for the Roberts material). Downloaded and read in full.",
+      "url": "https://www.vice.com/en/article/the-verbasizer-was-david-bowies-1995-lyric-writing-mac-app/"
+    },
+    {
+      "id": "src_bowie_ucr_tinmachine",
+      "kind": "press",
+      "title": "Ted Asregadoo, \"35 Years Ago: David Bowie Launches the Tin Machine Era\", Ultimate Classic Rock, 22 May 2015 -- retrospective on the 1988-91 Tin Machine band of equals (quoting Reeves Gabrels on the all-play-live recording method), EMI's negative reaction and the label parting with Bowie by 1990. Secondary, draws on Christopher Sanford's biography. Downloaded and read (about the first 9,000 of ~12,000 characters, through the Tin Machine II section).",
+      "url": "https://ultimateclassicrock.com/david-bowie-tin-machine/"
+    },
+    {
+      "id": "src_bowie_cybercultural",
+      "kind": "press",
+      "title": "Richard MacManus, \"BowieNet: The Inside Story of Its Creation\", Cybercultural, 10 January 2023 -- based on a March 2020 interview with BowieNet co-creator Ron Roy: the 1996 pitch meeting with Bowie, his go-ahead and investment, his decision to hire his own web-design firm rather than rely on the record label, his 'not brochureware' insistence, and his promotional chats. Roy is a first-hand, non-self witness. Downloaded and read through the launch section (about 17,000 of ~21,000 characters).",
+      "url": "https://cybercultural.com/p/bowienet-the-inside-story/"
+    },
+    {
+      "id": "src_bowie_sothebys",
+      "kind": "institution",
+      "title": "Sotheby's, \"Bowie/Collector\", 2 November 2016 -- auction-house feature for the sale of Bowie's art collection, with Bono's appreciation and a selection of Bowie's Modern Painters writing (1994 editorial-board invitation, his Balthus interview after proposing it to the editors, Hirst, Basquiat). As an auction house selling the estate collection it is an interested party; used only as one strand of corroboration. Downloaded and read (first ~6,500 of ~10,000 characters).",
+      "url": "https://www.sothebys.com/en/articles/bowie-collector"
+    },
+    {
+      "id": "src_bowie_tcop",
+      "kind": "press",
+      "title": "\"Quick study: David Bowie and art\", Two Coats of Paint (art blog), January 2016 -- roundup noting Bowie's Modern Painters editorial-board role and interviews, the 21 art-publishing business, and his 1998 New York Times interview with Michael Kimmelman. Secondary link-roundup; read in full.",
+      "url": "https://twocoatsofpaint.com/2016/01/quick-study-bowie-and-ar.html"
+    },
+    {
+      "id": "src_bowie_dailybeast_nattate",
+      "kind": "press",
+      "title": "Anthony Haden-Guest, \"How 'Nat Tate' Hoaxed The Artworld, With Help From David Bowie\", The Daily Beast, 15 August 2015 -- first-hand attendee account of the 1 April 1998 launch of Bowie's 21 Publishing at Jeff Koons's studio, with William Boyd's Nat Tate book as its first title and Bowie reading from it. Downloaded and read (nearly all of it).",
+      "url": "https://www.thedailybeast.com/how-nat-tate-hoaxed-the-artworld-with-help-from-david-bowie/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 84,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bowie_lobf_alomar, src_bowie_ucr_garson, src_bowie_sothebys | 1972-75, 1994 | firsthand collaborators + institution] Three unrelated accounts describe him asking questions to learn: guitarist Carlos Alomar says that on meeting in 1974 Bowie asked about the Chitlin' Circuit and the Apollo Theater; pianist Mike Garson says that at post-show dinners in 1972-73 Bowie would 'interview' him about New York jazz and the avant-garde ('an absolute sponge'); and in 1994 Bowie proposed to Modern Painters that he interview the reclusive painter Balthus and drove to his chalet, with Bono describing the breadth of his art knowledge."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bowie_hypebot_roberts, src_bowie_vice_verbasizer, src_bowie_louder_berlin | 1976-77, c.1994-95 | firsthand observer + secondary] Ty Roberts, who visited the Outside sessions, describes Bowie cutting newspaper and handwritten text into a hat to build lyric lines and, at his suggestion, building the Verbasizer Mac program with him; Bowie is shown demonstrating it in a 1997 documentary (Vice). Louder separately describes his Berlin-era randomised composition (musicians improvising over a drumbeat, parts chosen irrespective of key) and Eno's Oblique Strategies cards on 'Heroes' and Lodger."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bowie_sothebys, src_bowie_tcop, src_bowie_dailybeast_nattate, src_bowie_cybercultural | 1994-98 | institution + press + interview] Beyond music he took on sustained work in other fields in the mid-1990s: he joined the Modern Painters editorial board in 1994 and wrote interviews and reviews (Balthus, Hirst, the 1995 Johannesburg Biennale, Basquiat); he launched the art-book imprint 21 Publishing on 1 April 1998 (Haden-Guest attended); and he approved and helped fund the BowieNet online community/ISP in 1996-98 (Ron Roy interview). The Sotheby's page is an interested party, so the art-criticism strand leans on the press corroboration."
+    },
+    "adaptability": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bowie_lobf_alomar, src_bowie_rs_letsdance, src_bowie_louder_letsdance, src_bowie_va_rodgers | 1974-75, 1982-83 | firsthand collaborators + secondary] Alomar describes a working method of changing the band to change the sound and cites Young Americans (1974-75) as the 'ultimate example'. In 1982 Bowie told Nile Rodgers 'I want you to make hits', told his usual producer Tony Visconti he wanted a change, and cut Let's Dance with a producer and players he had not previously worked with (Rodgers, via Rolling Stone, Louder and the V&A)."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bowie_louder_berlin, src_bowie_ucr_tinmachine | 1976-77, 1988-91 | secondary] Two separate commercial-risk episodes: on delivery of Low (released 14 January 1977) RCA disliked it and, per Visconti, an executive offered a mansion in Philadelphia if he made 'Young Americans II' instead, yet the album was still released; after the 1987 Glass Spider tour he formed Tin Machine as an equal-member band, which EMI disliked (reportedly shopping his contract) and which ended with the label parting ways by 1990. Held to a moderate score and dual_edged because the same career includes a deliberately commercial pivot in 1982."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bowie_sos_heroes, src_bowie_variety_ziggy, src_bowie_ucr_spiders | 1977, 1973 | firsthand collaborator + press] Visconti quotes Bowie's studio maxim 'Once I've made up my mind, I don't want to change it' on 'Heroes' (1977), where levels were bounced down irrevocably as sessions progressed, and says Bowie had finished the lyrics by the time Visconti returned after a couple of hours away. On 3 July 1973 Bowie ended the Ziggy Stardust persona and the Spiders line-up with an onstage statement; Mick Ronson knew beforehand, while drummer Woodmansey and bassist Bolder were caught by surprise (Variety, UCR), which is why the impact is dual_edged."
+    },
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bowie_sos_heroes, src_bowie_variety_ziggy, src_bowie_louder_letsdance | 1972, 1977 | firsthand collaborators + secondary] Visconti says the 'Heroes' lead vocal on the record 'is probably take three' and that writing the lyrics, the lead vocal and the backing vocals took about five hours in total (adding that this 'doesn't always happen'). RCA engineer Mike Moran, who handled the 1972 'Jean Genie' session in Nashville, says Bowie 'usually did just one or two takes of his vocal', and Louder cites bassist Trevor Bolder that 'Jean Genie' 'was knocked out in an hour on the second or third take'."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bowie_lobf_alomar, src_bowie_ucr_garson, src_bowie_ucr_tinmachine, src_bowie_louder_letsdance, src_bowie_variety_ziggy | 1972-91 | firsthand collaborators + press] Alomar says Bowie gave him a writing credit on 'Fame'; Garson says Bowie let him do anything he wanted at the Aladdin Sane sessions; in 1988-89 Bowie formed Tin Machine as a band of equal members. Against that, Louder reports that Bowie did not invite Rodgers on the Serious Moonlight tour and quotes Rodgers that 'very few' of Bowie's interviews talked about him, and the Spiders' Woodmansey and Bolder were surprised by the 1973 break-up (Variety, UCR). Scored dual_edged: creative latitude alongside documented abrupt exits and uneven credit."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bowie_louder_berlin, src_bowie_variety_ziggy, src_bowie_variety_letsdance, src_bowie_cybercultural | 1975, 1982-83, 1997 | press + interview] Separate moves to control his own work: he abandoned The Man Who Fell To Earth soundtrack when told he would have to submit alongside other composers (Louder); he ultimately paid to separate from manager Tony Defries's MainMan and obtain rights to his recordings (Variety; the reported sum is not used); he struck a 1983 EMI licensing deal that kept ownership of his masters (Variety); and in 1997 he took his website away from the record label by hiring his own design firm (Cybercultural)."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/david-bowie-1974-stage.jpg",
+    "width": 1091,
+    "height": 1600,
+    "source": "Los Angeles Times Photographic Collection, UCLA Library (photograph by Tony Barnard), via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "Tony Barnard, Los Angeles Times (Los Angeles Times Photographic Collection, UCLA Library), CC BY 4.0",
+    "attributionUrl": "https://digital.library.ucla.edu/catalog/ark:/21198/zz0002ptvn",
+    "creator": "Tony Barnard, Los Angeles Times",
+    "date": "1974-09-04",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:David_Bowie,_seated_on_stool_during_performance_at_the_Universal_Amphitheater_in_Los_Angeles,_Calif.,_1974.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID Q5383 verified live via the Wikidata API before scoring (en label 'David Bowie', description 'English musician and actor (1947-2016)', P569 1947-01-08, P570 2016-01-10, P27 Q145; the ko label '데이비드 보위' matches the assigned Korean name, and the Korean Wikipedia extract also opens with 데이비드 보위). Slug collision check: no data-pipeline/candidates/david-bowie.json and no 'bowie' string anywhere in src/data/people/ at start. EVIDENCE READ: 16 substantive pages beyond the Wikipedia/Wikidata orientation entries, all downloaded and searched/read locally with curl/Python (each source title says how much of the page was read; two Louder features and the Variety Let's Dance piece show no byline in the fetched text, and the Alomar extract shows no date or book title). No self-authored source is relied on: Bowie's own words appear only as quoted inside third-party pieces (a 1997 documentary clip described by Vice; his 2002 memoir quoted in Variety, which is not used for any row). INDEPENDENT NON-SELF PERSPECTIVES (11+): Tony Visconti via Richard Buskin/Sound On Sound; Carlos Alomar (own book extract); Mike Garson (UCR interview); Nile Rodgers (V&A, Louder, Rolling Stone, Variety -- treated as one perspective); Ty Roberts (Hypebot and Vice -- one perspective); Ron Roy (Cybercultural); Variety/Jem Aswad including RCA engineer Mike Moran; UCR/Dave Swanson (Woodmansey, Suzi Ronson); UCR/Ted Asregadoo (Tin Machine, Gabrels); Anthony Haden-Guest (21 Publishing launch); Sotheby's with Bono's appreciation plus the Two Coats of Paint roundup (art strand; Sotheby's is an interested seller, so counted weakly); Louder's Berlin-era feature (Visconti recollection, uncredited author). EPISODE LEDGER (each episode supports at most two rows): 'Heroes' sessions 1977 -> decisiveness, execution_speed; Ziggy retirement July 1973 -> decisiveness, collaboration; Let's Dance 1982-83 -> adaptability, collaboration; Alomar accounts (1974 meeting -> curiosity; Young Americans band change -> adaptability; 'Fame' credit -> collaboration); Garson 1972-73 -> curiosity, collaboration; Tin Machine 1988-91 -> risk_tolerance, collaboration; Low/RCA 1976-77 -> risk_tolerance; Berlin/Verbasizer randomisation methods -> experimentation; Modern Painters 1994-96 -> cross_domain_range, curiosity; BowieNet 1996-98 -> cross_domain_range, autonomy_need; 21 Publishing 1998 -> cross_domain_range; Jean Genie session 1972 -> execution_speed; MainMan buyout / Man Who Fell To Earth soundtrack / EMI masters deal -> autonomy_need. CONFIDENCE DISCIPLINE: the two strong_inference rows (risk_tolerance, autonomy_need) each rest on two or more distinct episodes from unaffiliated sources; all documented rows above 71 have a documented instance plus independent corroboration; risk_tolerance is held at 64 and dual_edged because the 1982 commercial pivot cuts the other way; collaboration is dual_edged for the documented abrupt exits and uneven credit. EXCLUDED ON PURPOSE: record sales, chart placings, awards and net worth as behaviour; drug use, mental-health speculation, the half-brother, illness, death and the Blackstar sessions; sexuality, relationships, groupie/allegation material and Bowie's later remarks about his own earlier statements; the Ziggy-era pay ratio for Garson (Variety and UCR disagree, so no figure is cited); acting and painting were not scored, so 'actor' and 'art' were not added to the classification. BOWIE BONDS (1997) NOT SCORED: Billboard's pages returned HTTP 402/a paywall redirect (not counted), Money.com and Fortune were reached only through the fetch tool's summariser (not counted as read), and the concept is credited to banker David Pullman with Bowie's own role limited to accepting the deal, so it does not bear on a scored attribute. ERA: 'contemporary', following freddie-mercury (1946-1991) and bob-dylan, given Bowie's recording career runs to 2016 (bob-marley and elvis-presley use 20th_century, so the corpus is mixed for this cohort). REAL LIMITS: several long pages were read only in the relevant sections (noted per source); the Sotheby's page was read to about 65%; many session details are Visconti's or Rodgers's recollections decades later. PORTRAIT: candidates reviewed on Commons -- Wikidata P18 (Adam Bielawski, CC BY-SA 3.0, only 342x400, too small), Jo Atmon 1987 (CC BY-SA 2.0 de, 761x945), LuisFer Dominguez Serra 1990 (CC BY-SA 4.0, 1078x1508) and an EMI 1983 promo labelled 'Public domain' with an unknown photographer and a worthpoint source (rejected: authorship/rights unclear). Chosen: 'File:David Bowie, seated on stool during performance at the Universal Amphitheater in Los Angeles, Calif., 1974.jpg', photograph by Tony Barnard for the Los Angeles Times, 4 September 1974, from the Los Angeles Times Photographic Collection at the UCLA Library. The Commons File page, the Commons API (LicenseShortName 'CC BY 4.0', Artist 'Tony Barnard, Los Angeles Times', AttributionRequired true) and the UCLA catalogue record (photographer Barnard, Tony; publisher Los Angeles Times; caption 'BOWIE GESTE -- ... rock singer David Bowie establishes a mood in concert'; rights holder The Regents of the University of California; 'licensed under a Creative Commons BY Attribution 4.0 International') all agree. Original 2584x3791; only downscaled (no crop) to 1091x1600, JPEG quality 85, saved as public/portraits/david-bowie-1974-stage.jpg; the saved file was viewed and shows a single performer seated on a stool singing, with a microphone stand at the left edge (a full-length stage photograph, not a studio headshot). Identity rests on the newspaper caption and the UCLA named-subject record. CC BY 4.0 conditions: attribution, licence link, and a note that the image was resized/recompressed. ORCHESTRATOR REVIEW (2026-09-18/23, before any eligibility computation): removed a reported dollar figure from the autonomy_need rationale (a money figure is not behavior and the sum is contested); no score/confidence/evidenceType/impact changed."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "데이비드 보위"
+    }
+  }
+}

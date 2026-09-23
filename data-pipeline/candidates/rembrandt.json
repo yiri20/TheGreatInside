@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rembrandt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Rembrandt van Rijn",
+    "aliases": [
+      "Rembrandt",
+      "Rembrandt Harmenszoon van Rijn"
+    ],
+    "wikidataId": "Q5598",
+    "birthYear": 1606,
+    "deathYear": 1669,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "independent",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rembrandt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Rembrandt -- orientation only (dates 15 Jul 1606 Leiden - 4 Oct 1669 Amsterdam, Dutch nationality, painter/printmaker/draughtsman); not used as support for any scored row. Fetched and read.",
+      "url": "https://en.wikipedia.org/wiki/Rembrandt"
+    },
+    {
+      "id": "src_rembrandt_wikidata",
+      "kind": "wikidata",
+      "title": "Rembrandt (Q5598) -- identity verified live: label 'Rembrandt', description 'Dutch painter and printmaker (1606-1669)', born 15 Jul 1606, died 4 Oct 1669, instance of human, Korean label read via the wbgetentities API, P18 'Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q5598"
+    },
+    {
+      "id": "src_rembrandt_huygens",
+      "kind": "archive",
+      "title": "Constantijn Huygens, Mijn jeugd (Dutch translation by C.L. Heesakkers, 1987), chapter 'Rembrandt en Lievens' on DBNL -- INDEPENDENT FIRSTHAND account by a court secretary who visited the Leiden painters (Huygens's autobiography was written c.1629-31). Full chapter read in the Dutch text: his comparison of Rembrandt and Jan Lievens, his remark that Rembrandt concentrates devotedly on small paintings, his criticism that the two had not found an Italian study trip necessary and the reasons they gave, and his observation of their dedication and perseverance. The translation is copyright-protected, so only paraphrase is used here. The portrait-commission anecdote in the same chapter concerns Lievens and was not used.",
+      "url": "https://www.dbnl.org/tekst/huyg001mijn01_01/huyg001mijn01_01_0033.php"
+    },
+    {
+      "id": "src_rembrandt_sandrart",
+      "kind": "archive",
+      "title": "Joachim von Sandrart, Teutsche Academie (1675), vol. II book 3, chapter XXII 'Rembrand von Ryn', pp. 326-327, Sandrart.net online edition (German text with the edition's editorial commentary) -- NEAR-CONTEMPORARY account by a painter who, per the edition's own commentary, lived in Amsterdam 1637-45 and knew Rembrandt; the edition flags that Sandrart's remarks on Rembrandt's social conduct were probably colored by rivalry and by Sandrart's ideal of the learned artist. Both pages read directly in the German original: Rembrandt's not having visited Italy, his stance against the rules of art, his diligence, his etchings and pupils, his collecting of art and curiosities, his manner of painting old people. Only the behavioral passages are used; the remarks on his social circle and finances were not scored.",
+      "url": "http://ta.sandrart.net/de/text/552"
+    },
+    {
+      "id": "src_rembrandt_chapman",
+      "kind": "biography",
+      "title": "H. Perry Chapman, 'Rembrandt and The Leiden Collection' (2017), The Leiden Collection Catalogue, 4th ed., ed. Arthur K. Wheelock Jr. et al. (online) -- scholarly essay by a Rembrandt specialist (secondary; the publisher is a private collection, not subject-affiliated). Full essay text read: Leiden years, emulation of Lastman, Lievens and Rubens, the Uylenburgh period, the 1632 and 1640 self-portraits, pupils, Gerrit Dou, and the 1656 inventory reference to eight Lievens paintings. The essay itself labels some points 'undocumented but plausible' (e.g. a shared studio with Lievens); those are not used.",
+      "url": "https://www.theleidencollection.com/essays/rembrandt-and-the-leiden-collection/"
+    },
+    {
+      "id": "src_rembrandt_mam_chronology",
+      "kind": "institution",
+      "title": "Milwaukee Art Museum, 'Chronology' page for the exhibition Friends and Rivals: Jan Lievens and Rembrandt, organized by the National Gallery of Art, Washington, with the Rembrandt House Museum (curators Arthur Wheelock and Laurie Winters) -- institutional exhibition chronology: Huygens-prompted friendly competition producing parallel works by Rembrandt and Lievens in 1628-31, and the move to Amsterdam in 1631/32. The page's remark that Rembrandt 'seems to backdate some paintings' is hedged and was not used. Read in full.",
+      "url": "https://mam.org/exhibitions/jan-lievens/chronology/"
+    },
+    {
+      "id": "src_rembrandt_ngv",
+      "kind": "institution",
+      "title": "National Gallery of Victoria, Melbourne, exhibition page 'Rembrandt: True to Life' (unsigned exhibition text) -- institutional account of his etching practice (erasing and renewing drypoint plates, plate tone, imported Chinese and Japanese paper and vellum from the mid-1640s), his drawing classes from the mid-1640s, his 1639 etched self-portrait posed on Titian, Raphael and Dürer, and the 1656 inventory's albums of sketches. Undated and unsigned, so weighted as a weaker institutional source. Read in full.",
+      "url": "https://www.ngv.vic.gov.au/exhibition/rembrandt-true-to-life/"
+    },
+    {
+      "id": "src_rembrandt_rijks_etchings",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, story '10 things to know about Rembrandt's etchings' (unsigned, undated) -- institutional account of his etching method and of The Adoration of the Shepherds (c.1657) reworked across eleven states with darkening lines, an added fence and impressions on Chinese and Japanese paper. Weak on provenance (no author or date), so used only as corroboration alongside src_rembrandt_hind and src_rembrandt_ngv. Read in full.",
+      "url": "https://www.rijksmuseum.nl/en/stories/10-things/story/rembrandts-etchings"
+    },
+    {
+      "id": "src_rembrandt_hind",
+      "kind": "biography",
+      "title": "Arthur M. Hind, Rembrandt, With a Complete List of His Etchings (New York: Frederick A. Stokes, 1912), Project Gutenberg eBook #31183 -- scholarly print-curator study (secondary, independent). Introduction read on drypoint (begun about 1639), successive states of the Three Crosses and Christ Presented to the People, and the observation that the etchings were largely uncommissioned. A century old; used only for the observation of plate states.",
+      "url": "https://www.gutenberg.org/cache/epub/31183/pg31183-images.html"
+    },
+    {
+      "id": "src_rembrandt_golahny",
+      "kind": "biography",
+      "title": "Amy Golahny (Lycoming College), review of Rembrandt's Treasures (ed. Bob van den Boogert, Rembrandt House Museum/Waanders, 1999), Historians of Netherlandish Art Reviews, November 2001 -- scholarly review of the catalogue built on the 1656 inventory: the collection was exceptional in art on paper, with statuary, curiosities, weaponry, costumes and anatomical models used in his studio. The reviewer notes the exhibition was an evocation rather than a reconstruction. Read in full.",
+      "url": "https://hnanews.org/hnar/reviews/rembrandts-treasures/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rembrandt_sandrart, src_rembrandt_golahny, src_rembrandt_ngv | 1675 account; 1656 inventory | near-contemporary + secondary] Sandrart (1675) calls Rembrandt a great lover of paintings, drawings, prints and all kinds of foreign curiosities, of which he had many, and says he was very curious in this. Golahny's review of the Rembrandt House catalogue reports that the 1656 inventory shows a collection exceptional in art on paper (prints by Lucas van Leyden and Raphael) alongside statuary, curiosities, weaponry and costumes used in his studio, and the NGV adds that his sketches of everyday scenes were kept in subject albums listed in the same inventory. Two independent accounts of a sustained collecting habit, hence strong_inference rather than documented."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rembrandt_huygens, src_rembrandt_sandrart, src_rembrandt_ngv | c.1629-31; 1675 | firsthand-era + near-contemporary + secondary] Huygens (c.1629-31) records that Rembrandt and Lievens had not found an Italian study trip necessary, giving as reasons that they were in their prime, had no time for long journeys, and that the best Italian pictures of the kind princes now collect are found outside Italy; Huygens regards this as a lapse. Sandrart (1675) likewise notes that he never visited Italy and says he did not shrink from arguing against the rules of art (anatomy and proportion, perspective, antique statues, Raphael's draughtsmanship, academies), holding that one should bind oneself to nature alone; the NGV says his teaching stressed lifelike pose and light over clear outline and Classical proportion. Two independent observers, both treating the stance as a gap in his training (Sandrart's account is flagged by its editors as colored by rivalry), so dual_edged."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rembrandt_chapman, src_rembrandt_hind, src_rembrandt_ngv, src_rembrandt_sandrart | c.1628; etching states; 1675 | secondary + near-contemporary] Chapman describes his small c.1628 'Artist in His Studio' as recasting the studio as a plain, ordinary room in place of the traditional Saint Luke scene; Hind (1912) and the NGV separately describe his drypoint plates being transformed between states (the Three Crosses changed so drastically that it may show a different moment; an entire group of figures removed from Christ Presented to the People). Sandrart (1675) says he devised his own rules for painting. The novelty of specific choices rests on scholars' comparisons with earlier practice, hence strong_inference. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.4): score 78 -> 70 -- the 71-84 band needs a documented instance plus corroboration, but the novelty claims here rest on scholars' comparisons with earlier practice; confidence and evidenceType unchanged."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rembrandt_hind, src_rembrandt_ngv, src_rembrandt_rijks_etchings | c.1639-c.1657 | secondary] Hind (1912) records that he began using drypoint about 1639 and reworked plates such as the Three Crosses and Christ Presented to the People across states; the NGV says he erased large sections of worn drypoint plates and added new elements, added surface tone by selective wiping, and from the mid-1640s printed impressions on imported Chinese and Japanese paper and sometimes on vellum. The Rijksmuseum shows The Adoration of the Shepherds (c.1657) reworked across eleven states, with lines added to deepen the darkness and a fence added, and impressions on Chinese and Japanese paper. Distinct plates and techniques described by independent authors."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rembrandt_huygens, src_rembrandt_sandrart, src_rembrandt_chapman | c.1629-31; 1675 | firsthand-era + near-contemporary + secondary] Huygens (c.1629-31) says Rembrandt likes to concentrate devotedly on a small painting and achieves in small format what others fail to reach in their largest pieces, and Sandrart (1675) says he showed great diligence, patience and experience in rendering old people's skin and hair. Held to a moderate lean because Chapman contrasts his loose, rough handling with the meticulous finish of his pupil Gerrit Dou."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rembrandt_huygens, src_rembrandt_sandrart | c.1629-31; 1675 | firsthand-era + near-contemporary] Huygens (c.1629-31) writes that he had never seen such devotion and perseverance in any group, occupation or age: Rembrandt and Lievens used their time fully and treated even innocent youthful pleasures as time lost. Sandrart (1675) credits Rembrandt with unsparing diligence and constant practice and calls him a very industrious, untiring man. Two independent accounts of a work regime about 45 years apart; neither pins the habit to a dated episode, hence strong_inference."
+    },
+    "competitiveness": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rembrandt_chapman, src_rembrandt_mam_chronology, src_rembrandt_ngv | 1626-1640 | secondary] Chapman reads his Balaam and the Ass (1626) as an emulation of Lastman's 1622 painting of the same subject (emulation implying a wish to outdo the model), describes his work with Jan Lievens from the mid-1620s to c.1632 as painting the same subjects 'as if in self-imposed direct competition' (the MAM/NGA chronology dates Huygens-prompted parallel works to 1628-31), and reads his 1632 self-portrait as modeled on Rubens's 1623 self-portrait and his 1640 London self-portrait as referring to Raphael and Titian portraits he had seen in 1639. The NGV independently says the 1639 etched self-portrait takes its pose from Titian, Raphael and Dürer. Distinct episodes from three authors, but the emulation reading is scholarly interpretation, hence strong_inference. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.10): moved from strong_inference 0.56 / score 70 to inference 0.46 / score 64 -- each episode (Lastman, Lievens, Rubens/Raphael/Titian) reaches 'competitiveness' only through a scholar's reading of emulation as rivalry, i.e. one inferential step per episode."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/rembrandt-self-portrait-1659.jpg",
+    "width": 1235,
+    "height": 1600,
+    "source": "National Gallery of Art, Washington (accession 1937.1.72), via Wikimedia Commons (Google Art Project)",
+    "license": "Public domain (author died 1669)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "attribution": "Rembrandt van Rijn, Self-Portrait with Beret and Turned-Up Collar, 1659, National Gallery of Art, Washington (a self-portrait painted by the artist; public domain, author died 1669)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "creator": "Rembrandt van Rijn (self-portrait)",
+    "date": "1659",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q5598 verified live: fetched https://www.wikidata.org/wiki/Q5598 and the Wikidata API (wbgetentities, labels/descriptions/claims); label 'Rembrandt' (ko label '렘브란트'), description 'Dutch painter and printmaker (1606-1669)', born 15 Jul 1606, died 4 Oct 1669; P18 'Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg'. The QID came from a search hit and matched on fetch. Slug collision check: no rembrandt.json in data-pipeline/candidates and no Rembrandt person in src/data/people (the only 'rembrandt' hit, in roster28.ts, is the painter Rembrandt Peale's portrait credit for Thomas Jefferson, a different person). CLASSIFICATION PRECEDENT (live-checked): baruch-spinoza (NL, 1632-77) is western_europe / early_modern and vincent-van-gogh (NL) is western_europe; michelangelo is painter / art / artistic+cultural+historical / creative_creator. Rembrandt therefore follows: occupation painter only ('printmaker' is not an available id and the michelangelo precedent does not add 'artist'), field art, region western_europe, era early_modern. EVIDENCE READ (8 substantive sources beyond Wikipedia/Wikidata orientation, all non-self; no self-authored source was used): Huygens's Dutch-translated chapter on Rembrandt and Lievens (firsthand, c.1629-31), Sandrart 1675 pp. 326-327 in the German original (near-contemporary), Chapman 2017 (scholarly), the MAM/NGA exhibition chronology (institutional), the NGV exhibition page and the Rijksmuseum etchings story (both unsigned and undated, weighted weakly), Hind 1912 (scholarly), Golahny 2001 (scholarly review of an inventory-based catalogue). INDEPENDENT AUTHORED PERSPECTIVES: 7 (Huygens, Sandrart, Chapman, MAM/NGA curators, NGV, Hind, Golahny) plus the anonymous Rijksmuseum text. The two firsthand-era accounts (Huygens, Sandrart) are the strongest, and each supports at least three rows; the modern institutional and scholarly sources share the same surviving body of prints, paintings and the 1656 inventory, so treat them as convergent secondary voices rather than fully separate documentary bases. Substantive NON-SELF behavioral sources: all eight. CONFIDENCE DISCIPLINE: strong_inference is used only where two or more independent sources or distinct episodes support the row; no row is above 0.66 and none reaches 85+/sub-15. Only experimentation is 'documented' (distinct plates and techniques from three sources). LIMITS: Huygens's text is read in the 1987 Dutch translation (the Latin original was not read) and is used only by paraphrase; the same chapter's portrait anecdote concerns Lievens and was not used. Sandrart's biography is partly hostile in tone and the edition's commentary attributes this to rivalry, so only the behavioral remarks are used. The Met Museum essay on Rembrandt's prints and the Minneapolis Institute of Art 'Making of Rembrandt' story returned HTTP 429, and the NGA object and catalogue pages returned HTTP 403; none of these is cited or counted. The RKD Rembrandt Database Ruffo page, two JHNA articles on the Ruffo commissions (Giltaij 2017, Jonker 2017), the Rembrandt House Kroniek article on Hoogstraten (Van Eijsden 2024/25), Bob Wessels's Rembrandt's Money pages and the Rijksmuseum Night Watch page were opened but supply no scorable behavior of Rembrandt himself (no letter of his is quoted, and the Kroniek contracts concern other masters), so they are not cited. EXCLUDED ON PURPOSE: fame, auction prices, the number of etchings and other output volume; the bankruptcy/insolvency outcome, the 1639 house purchase and any inference about money management (Wessels explicitly notes the usual 'expensive waste' reading is unsourced); the Geertje Dircx episode, bereavement (Saskia, Titus) and every private-life or health matter; the Night Watch reception, the Ruffo dispute (no opened source quotes the letters), Houbraken-style anecdotes and disputed attributions (Rembrandt Research Project). Nothing is scored from the Uylenburgh business arrangement. PORTRAIT: the Wikidata P18 file 'Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg' is the 1659 'Self-Portrait with Beret and Turned-Up Collar', oil on canvas, National Gallery of Art, Washington, accession 1937.1.72 (Commons file page fetched; Commons API imageinfo confirms ObjectName 'Self-portrait', date 1659, LicenseShortName 'Public domain', categories PD-old-100-expired / PD-Art, Copyrighted False; the page states the author died in 1669). Downloaded the original (12243x15859, 81 MB), decoded at reduced scale with Pillow and resized to 1235x1600, JPEG quality 85; saved to public/portraits/rembrandt-self-portrait-1659.jpg and viewed to confirm it is the expected 1659 self-portrait. Kind is likeness: a self-portrait painted by the sitter from life, stated honestly in the attribution. The NGA's own pages returned 403, so the holding institution and accession number rest on the Commons page and its Google Art Project credit. PRE-COMMIT ORCHESTRATOR REVIEW (2026-09-18, before any eligibility computation): competitiveness strong_inference 0.56/70 -> inference 0.46/64 and creative_originality 78 -> 70, both RUBRIC_CORRECTIONs (direction down); ko-KR display name lengthened to 렘브란트 판 레인 to match the 빈센트 반 고흐 precedent."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "렘브란트 판 레인"
+    }
+  }
+}

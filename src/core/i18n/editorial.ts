@@ -4295,6 +4295,271 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Wrote consistently in green ink throughout his working life, a choice he explained himself: he described green as the color of hope.",
   "pablo-neruda.interpretation.moment.2":
     "Maintaining this specific, self-explained aesthetic choice throughout his working life is part of the basis for the profile's aesthetic_sensitivity score.",
+  /* ---------------------------------------------------------- james-cook (Roster38) */
+  "james-cook.achievement.1":
+    "From 1763 to 1767 Cook surveyed the coasts of Newfoundland and the adjoining shore of Labrador, working mostly from the schooner Grenville. A 2018 scholarly review notes that no one denies the quality of these surveys and that they were not superseded, even in part, until the 1830s.",
+  "james-cook.achievement.2":
+    "Cook's own reports state that no dangerous case of scurvy occurred on the 1768-71 Endeavour voyage, and that on the 1772-75 Resolution voyage he lost only four men, none of them to scurvy. Kodicek and Young call the second result remarkable for its time, while noting that 31 men of the Endeavour later died of dysentery and malaria after Batavia.",
+  "james-cook.moment.1":
+    "On the night of 10-11 June 1770 (the two journals date it a day apart), the Endeavour struck a coral reef off north-eastern Australia. Banks's journal and Cook's own record both describe the crew throwing guns, ballast and stores overboard, laying out anchors, and later covering the leak with a sail stuffed with oakum and wool, an expedient Banks says one of the midshipmen proposed. The ship was then brought to a river mouth where she could be repaired.",
+  "james-cook.interpretation.moment.1":
+    "The sequence, ending in a repair adopted from a junior officer's suggestion, is consistent with the profile's resourcefulness reading: improvisation with the materials and ideas at hand rather than a plan fixed in advance.",
+  "james-cook.moment.2":
+    "On 30 January 1774, at 71 degrees 10 minutes south, the Resolution met a solid ice field. Forster recorded that it was impossible to proceed and the ship was put about; Cook wrote that going on would have been 'a dangerous and rash enterprise', and added that he, with the ambition to go as far as was possible for man, was not sorry at the interruption.",
+  "james-cook.interpretation.moment.2":
+    "It offers one example of a risk appetite that accepted a hazardous route yet stopped at a point Cook himself judged rash; by itself it does not settle how he weighed risk elsewhere.",
+  "james-cook.turning_point.1":
+    "In 1755, after nearly a decade in the North Sea coal and Baltic trades and with command of a merchant ship reportedly on offer, Cook volunteered for the Royal Navy as an able seaman. He was made master's mate within a month and had qualified as a master by 1757; at Louisbourg in 1758 he began learning plane-table surveying from the army engineer Samuel Holland.",
+  "james-cook.interpretation.turning_point.1":
+    "One reading, consistent with the profile's achievement-drive row, is that he traded a secure merchant command for a lower rating in a service that offered a path to advancement; the sources read here do not record his own reasons.",
+  /* ---------------------------------------------------------- frank-lloyd-wright (Roster38) */
+  "frank-lloyd-wright.achievement.1":
+    "Wright's Unity Temple in Oak Park, Illinois, was finished in October 1908 and dedicated on September 26, 1909. Its structure was poured concrete reinforced with steel, a choice that the Frank Lloyd Wright Trust's research report describes as using reinforced concrete as an architectural medium and not only as a structural element.",
+  "frank-lloyd-wright.achievement.2":
+    "Fallingwater, a weekend house Wright designed for the Edgar Kaufmann family at Bear Run, Pennsylvania, was built from April 1936 to 1937, and the Kaufmanns moved in that December. Rather than facing the falls from across the stream, as the family had expected, the house was cantilevered directly over them.",
+  "frank-lloyd-wright.achievement.3":
+    "The Solomon R. Guggenheim Museum in New York opened on October 21, 1959, about sixteen years after the 1943 contract and roughly six months after Wright's death in April 1959. Visitors follow a continuous ramp that winds up to a skylit dome instead of moving through conventional galleries.",
+  "frank-lloyd-wright.moment.1":
+    "According to a recollection by the Taliesin apprentice Edgar Tafel, published in Carnegie Magazine, Edgar Kaufmann telephoned on September 22, 1935 to say he was driving from Milwaukee to Taliesin to see the Fallingwater drawings, and Wright then began drawing the house while the apprentices watched. The Fallingwater website relays accounts by several apprentices that the design was produced within hours, and records that Wright had first visited the Bear Run site in December 1934.",
+  "frank-lloyd-wright.moment.2":
+    "In 1936 Kaufmann had outside engineers review Wright's plans, and steel was added to Fallingwater's first-floor cantilever at their recommendation; cracks appeared in the terrace parapet walls after the formwork came off, and Wright attributed them to the added steel. In an undated letter reproduced in Carnegie Magazine, Wright told Kaufmann that if he lacked his confidence he would drop the whole matter, and Kaufmann replied in similar terms while asking Wright to come to Pittsburgh to sort it out. A structural evaluation commissioned by the Conservancy in 1995-96 later confirmed continuing deflection of the cantilevers.",
+  "frank-lloyd-wright.interpretation.moment.2":
+    "The exchange illustrates the profile's willingness to stay in open disagreement with a client. The record also shows Kaufmann answering just as directly, and the two continued to plan projects together until Kaufmann's death in 1955.",
+  "frank-lloyd-wright.turning_point.1":
+    "By 1932, at age sixty-five, Wright had built for only two paying clients in nearly five years. That autumn he and his wife Olgivanna launched the Taliesin Fellowship, and twenty-three apprentices gathered at Taliesin in October 1932 to farm, quarry stone and build the community's own quarters while learning architecture. Senior fellows later superintended construction of Fallingwater and the Johnson Wax headquarters, and one account credits Edgar Kaufmann Jr., who joined the Fellowship in 1934, with persuading his father to commission the Fallingwater house.",
+  "frank-lloyd-wright.interpretation.turning_point.1":
+    "One reading is that the Fellowship shows a pattern of creating an opening when commissions were scarce rather than waiting for one to appear. The sources also point to outside factors, including the Depression and the Kaufmann family connection, in how the following years unfolded.",
+  /* ---------------------------------------------------------- thor-heyerdahl (Roster38) */
+  "thor-heyerdahl.achievement.1":
+    "On 28 April 1947 Heyerdahl and five crewmates left Callao, Peru, on a balsa raft, the Kon-Tiki, and reached the Raroia atoll in Polynesia on 7 August, after 101 days at sea. The voyage was meant to show that such a raft could have crossed the Pacific; a scholarly encyclopedia entry notes that his scientific contributions gained only limited acceptance internationally.",
+  "thor-heyerdahl.achievement.2":
+    "In 1955-56 he led a Norwegian archaeological expedition to Easter Island with five archaeologists, among them Arne Skjolsvold, Edwin Ferdon and William Mulloy. The team excavated statues at the Rano Raraku quarry and found that figures long taken for heads had large torsos below the surface; Haaland notes that the excavations used stratigraphic methods and radiocarbon dating.",
+  "thor-heyerdahl.achievement.3":
+    "From 1988 to 1994 excavations at Tucume in Peru were organised by Heyerdahl and funded by the Kon-Tiki Museum and private donors, with Daniel Sandweiss and Alfredo Narvaez leading the fieldwork. Sandweiss writes that the research indicates Tucume took part in maritime activities, probably including long-distance exchange.",
+  "thor-heyerdahl.moment.1":
+    "Ra, a papyrus boat built in front of the Great Pyramid at Giza and launched from Safi, Morocco, in 1969, was abandoned about a week short of Barbados after its reeds took in much water and Heyerdahl feared it would sink. Ten months later four Aymara builders from Lake Titicaca made a shorter but more durable Ra II, which reached Bridgetown on 12 July 1970 after 57 days.",
+  "thor-heyerdahl.interpretation.moment.1":
+    "Returning with a rebuilt boat within a year is consistent with the profile's persistence reading; the sources read do not record his own reasons, and accounts differ on why the first boat failed.",
+  "thor-heyerdahl.moment.2":
+    "In 1986, back on Easter Island, Heyerdahl, the Czech engineer Pavel Pavel and sixteen local residents moved a 15-ton statue upright with ropes, and the Kon-Tiki Museum reports that it could be made to 'walk' without much difficulty. The museum's biography of him also records that excavations at Anakena Beach showed the first arrivals were Polynesians from the west, contrary to his theory, adding that other research showed later contact.",
+  "thor-heyerdahl.interpretation.moment.2":
+    "Read with the Ra episode, the two items sit alongside the profile's mixed, low-confidence belief-updating row: a practical correction of method on one side, and on the other a central hypothesis that critics such as Diamond describe him as keeping in the face of contrary evidence. This is one reading among others.",
+  "thor-heyerdahl.turning_point.1":
+    "In spring 1946 Heyerdahl presented his theory that South Americans had settled Polynesia to American anthropologists and was turned down. According to the Kon-Tiki Museum, Herbert Spinden replied that he should try sailing a balsa raft from Peru himself; Heyerdahl went on to plan the expedition, obtaining equipment through military contacts and recruiting five crewmates.",
+  "thor-heyerdahl.interpretation.turning_point.1":
+    "The sequence, from a rejected claim to a personal test of it, illustrates the profile's independent-thinking reading; whether the theory itself holds is a separate, disputed question this profile does not judge.",
+  /* ---------------------------------------------------------- stanley-kubrick (Roster38) */
+  "stanley-kubrick.achievement.1":
+    "For Barry Lyndon, Kubrick used a Zeiss Planar 50 mm f/0.7 lens, of a type of which only ten were made, six of them for NASA. Cinema Products president Ed DiGiulio adapted it to Kubrick's Mitchell BNC camera so that candlelit interiors could be filmed without added fill light. DiGiulio wrote in American Cinematographer that Kubrick wanted to preserve the natural patina of old castles at night, and that the whole film was push-developed one stop.",
+  "stanley-kubrick.achievement.2":
+    "In 1974 Kubrick received a demonstration film made with the prototype Steadicam and replied to Cinema Products by telex. For The Shining he had many sets designed with the Steadicam's possibilities in mind, and operator Garrett Brown, writing in American Cinematographer in August 1980, states that every frame of the hedge maze was shot with it.",
+  "stanley-kubrick.achievement.3":
+    "Kubrick wrote to Arthur C. Clarke in late March 1964 proposing a collaboration on a science-fiction film, and the two met at New York's Plaza Hotel on 22 April 1964. A 1999 retrospective says Kubrick personally supervised the effects team for 2001, which included Douglas Trumbull, who developed the Slit Scan machine used for the Star Gate sequence. The film opened on 2 April 1968.",
+  "stanley-kubrick.moment.1":
+    "2001: A Space Odyssey opened on 2 April 1968. Kubrick observed that early audiences disliked it, and between 5 and 9 April he and editor Ray Lovejoy cut about 19 minutes, sending instructions to theatres already showing the film. He explained that it takes a few showings to settle how long scenes should run, and said he did not think the trims made a critical difference.",
+  "stanley-kubrick.interpretation.moment.1":
+    "The re-cut is consistent with a willingness to revise a finished work after watching audiences respond. His own remark that the trims mattered little to those who liked or disliked the film suggests the change in his view of the work itself was limited.",
+  "stanley-kubrick.moment.2":
+    "According to Warner publicist Julian Senior, speaking in London in February 1980, Kubrick learned that the walls and ceiling of a New York cinema due to show A Clockwork Orange were painted in shiny white lacquer that would cause reflections. He sent from London a list of Manhattan firms able to erect scaffolding and repaint, and a few days later asked which black was being used, since a gloss black would cause the same problem. The walls were repainted in matte black.",
+  "stanley-kubrick.interpretation.moment.2":
+    "Senior presents the episode as an example of Kubrick's precision in technical matters. It is consistent with attention to the conditions in which a finished film is seen, not only to the film itself.",
+  "stanley-kubrick.turning_point.1":
+    "In 1959, a few days into shooting Spartacus, Kirk Douglas asked the Harris-Kubrick company to lend him Kubrick to replace the film's first director, and the company agreed, partly because the arrangement brought it money, according to producer James B. Harris. Kubrick later said his experience showed that his decisions were unlikely to be respected unless a contract stipulated it.",
+  "stanley-kubrick.interpretation.turning_point.1":
+    "His remark is consistent with a strong preference for holding decision-making authority. It is his own retrospective framing, not an independent account of what he would later have been able to control.",
+  /* ---------------------------------------------------------- ayrton-senna (Roster38) */
+  "ayrton-senna.achievement.1":
+    "Senna won the 1983 British Formula 3 championship for West Surrey Racing. He won the first nine races of the season, trailed Martin Brundle in the standings going into the finale, and took the title with a win at Thruxton.",
+  "ayrton-senna.achievement.2":
+    "In his first Formula One season, driving for Toleman in 1984, Senna finished second in a rain-hit Monaco Grand Prix that was stopped early while he was closing on leader Alain Prost. He added a podium finish at the British Grand Prix and a third in his final race for the team.",
+  "ayrton-senna.moment.1":
+    "In late August 1984 word of Lotus's plan to announce Senna for 1985 reached the press, and Toleman team principal Alex Hawkridge learned from it that Senna had signed without telling him. Toleman suspended him for the Italian Grand Prix at Monza, and engineer Pat Symonds later said that by the following race Senna seemed to have understood he had to follow certain rules, after which relations became more courteous.",
+  "ayrton-senna.interpretation.moment.1":
+    "The episode illustrates a willingness to accept an open breach with his own team while pursuing a move he had chosen, which is consistent with the conflict-tolerance score.",
+  "ayrton-senna.moment.2":
+    "In winter 1992-93 Senna stayed away from McLaren's early tests, drove a Penske IndyCar at Firebird Raceway in December, and did not commit to McLaren's 1993 season until he had driven the new MP4/8. After a first run of about 20 minutes at Silverstone in early March 1993, engineer Giorgio Ascanelli recalls a two-hour debrief, and Senna later phoned him at night to say he would race. He agreed only a race-by-race arrangement and did not sign for the rest of the season until the French Grand Prix in July.",
+  "ayrton-senna.interpretation.moment.2":
+    "Deciding only after testing the car and keeping the contract open race by race is consistent with a strong need to control the terms on which he raced.",
+  "ayrton-senna.turning_point.1":
+    "At the end of 1981 Senna went home to Brazil without contesting the season-ending Formula Ford festival. Soon afterwards he phoned Van Diemen's Ralph Firman to say he was coming back to Europe, and in 1982 he raced Formula Ford 2000 for Dennis Rushen's team, which won the European title that year.",
+  "ayrton-senna.interpretation.turning_point.1":
+    "The phone call is one of several self-started moves behind the proactive-agency score.",
+  /* ---------------------------------------------------------- rembrandt (Roster38) */
+  "rembrandt.achievement.1":
+    "Rembrandt reworked several of his largest drypoint plates, including the Three Crosses and Christ Presented to the People, across successive states. According to the National Gallery of Victoria, he erased large sections of the worn plates and added new elements, so that later states carry a different emphasis and mood; from the mid-1640s he also printed 'deluxe' impressions on imported Chinese and Japanese paper.",
+  "rembrandt.achievement.2":
+    "Rembrandt painted self-portraits in varied guises from the late 1620s through the 1630s, and some later ones refer openly to earlier masters. In an essay for The Leiden Collection Catalogue, H. Perry Chapman notes that his 1632 self-portrait in Glasgow was modeled on Rubens's 1623 self-portrait, and that his 1640 self-portrait in London referred to portraits by Raphael and Titian that he had seen in Amsterdam in 1639.",
+  "rembrandt.moment.1":
+    "In an autobiographical text written around 1629-31, Constantijn Huygens described Rembrandt and Jan Lievens as self-assured young painters who had not yet found a study trip to Italy necessary. He reported their answer that they were in their prime and had no time for long journeys, and that the best Italian pictures of the kind princes collect were to be found outside Italy; Huygens called this a touch of folly in otherwise gifted artists.",
+  "rembrandt.interpretation.moment.1":
+    "The account is consistent with the independent_thinking score: a stated, reasoned decision to stay put despite a patron's evident disapproval, though Huygens's text is the only record of their reasoning.",
+  "rembrandt.moment.2":
+    "Joachim von Sandrart wrote in 1675 that Rembrandt was a great lover of paintings, drawings, prints and foreign curiosities, and had a large number of them. The inventory of his possessions drawn up in 1656 is the main record of the collection; a scholarly review of the Rembrandt House catalogue built on it notes that the collection was exceptional in art on paper, with prints by Lucas van Leyden and Raphael, and that the inventory also lists statuary, curiosities, weaponry and costumes used in his studio.",
+  "rembrandt.interpretation.moment.2":
+    "This is consistent with the curiosity score: a large collection kept alongside his studio, though the sources document the holdings more than his reasons for gathering them.",
+  "rembrandt.turning_point.1":
+    "Rembrandt moved from Leiden to Amsterdam in 1631/32, the city where the rest of his career took place. According to Chapman, he first worked with the painter-dealer Hendrick Uylenburgh, lodging in his house and heading his workshop, because he was not yet a citizen and could not open a studio of his own; by 1633 he had moved there permanently.",
+  /* ---------------------------------------------------------- george-mallory (Roster38) */
+  "george-mallory.achievement.1":
+    "In the 1921 reconnaissance Mallory and Guy Bullock explored the Rongbuk, Kama and Kharta valleys around Mount Everest. The expedition's leader, Howard-Bury, writes that in the upper Kharta valley they found an approach they judged practicable to the mountain's north-eastern ridge, and in late September Mallory, Bullock and the surveyor Wheeler went up to the Chang La (the North Col).",
+  "george-mallory.achievement.2":
+    "In April 1924, at Tinki, Norton (who had become expedition leader after General Bruce fell ill) and Mallory settled the climbers' plan of campaign after months of disagreement over its details. Norton credits Mallory with evolving a plan that combined the good points of both their schemes, and records that all the climbers approved it that evening.",
+  "george-mallory.moment.1":
+    "On the first 1922 attempt on the mountain, four roped climbers were crossing the head of a steep couloir on their way back to the North Col camp when fresh snow had covered their tracks and they had traversed at too low a level. Somervell, last on the rope, recalls that when one man slipped and dragged the others, Mallory, going first, had just enough time to dig his axe into hard snow, and the rope held. Somervell wrote that Mallory had saved the lives of the whole party.",
+  "george-mallory.moment.2":
+    "Robert Graves, taught by Mallory at Charterhouse in the early 1910s, wrote in 1929 that Mallory tried to treat his classes in a friendly way and refused to accept the school's tradition of concealed warfare between boys and masters. Graves adds that this made Mallory unpopular with the house-masters and, in Graves's time at least, with many of the boys, and that he befriended a few boys who were, like him, out of their element.",
+  "george-mallory.interpretation.moment.2":
+    "This is consistent with the profile's independent-thinking reading: one witness describes him declining a norm that most of the school's staff and boys accepted. It is a single pupil's recollection, not a survey of the school.",
+  "george-mallory.turning_point.1":
+    "Mallory became an assistant master at Charterhouse in 1910, teaching English, history and French. The Alpine Journal's 1924 obituary records that he resigned the mastership shortly before the 1921 Everest expedition, and Magdalene College's archive gives May 1923 as the date he became lecturer and assistant secretary to Cambridge University's Board of Extramural Studies, work the obituary describes as an effort to bring a university education within reach of poorer working men and women.",
+  "george-mallory.interpretation.turning_point.1":
+    "One reading, consistent with the profile's impact-motivation row, is that he moved from teaching schoolboys towards adult education. The sources read here give the obituary writer's and others' descriptions of his aims, not Mallory's own stated reasons, so this remains a tentative reading.",
+  /* ---------------------------------------------------------- leonhard-euler (Roster38) */
+  "leonhard-euler.achievement.1":
+    "MacTutor records that by 1735 Euler had shown the sum of the reciprocals of the squares of the whole numbers to be pi squared over six, a problem that had resisted the three Bernoullis and other leading mathematicians. He went on to obtain the sums for higher even powers, and by 1739 had expressed the general coefficients through the Bernoulli numbers.",
+  "leonhard-euler.achievement.2":
+    "In Mechanica (1736-37) Euler treated the motion of a point mass in a vacuum and in a resisting medium, under central forces and on surfaces, using mathematical analysis. MacTutor quotes Yushkevich contrasting this with earlier mechanics, which had mostly used synthetic and geometrical methods that demanded a separate approach for each problem, and Condorcet's 1783 eulogy also singles the treatise out as a landmark in applying analysis to motion.",
+  "leonhard-euler.achievement.3":
+    "Euler's lunar theory was used by the German astronomer Tobias Mayer in constructing his tables of the Moon. In 1765 Britain paid Mayer's widow 3,000 pounds for the tables' contribution to finding longitude at sea and paid Euler 300 pounds for his theoretical contribution.",
+  "leonhard-euler.moment.1":
+    "In a letter of 13 March 1736 to the Vienna court astronomer Giovanni Marinoni, Euler called the Königsberg bridge puzzle banal but worthy of attention, since neither geometry, algebra nor the art of counting was enough to solve it. He wondered whether it belonged to the 'geometry of position' that Leibniz had longed for, and reported a simple rule that decides, for any number of bridges in any arrangement, whether a round trip crossing each bridge once is possible.",
+  "leonhard-euler.interpretation.moment.1":
+    "Treating a walking puzzle as a question about how the connections are arranged, rather than about particular routes, is consistent with the profile's systems-thinking row. The evidence here is a single letter, so it shows the habit only in outline.",
+  "leonhard-euler.moment.2":
+    "On 12 August 1755 the 19-year-old Joseph-Louis Lagrange sent Euler an analytic method for problems of maxima and minima, and Euler replied on 6 September saying how impressed he was. According to a survey of the field, Euler told the Berlin Academy in 1756 that the glory of first discovering the method had been reserved to Lagrange, and he also proposed Lagrange for election to the Academy, where he was elected on 2 September 1756. When Euler left Berlin in 1766 he recommended Lagrange to succeed him as director of mathematics.",
+  "leonhard-euler.interpretation.moment.2":
+    "One reading, consistent with the belief-updating row, is that Euler was willing to adopt a younger mathematician's better method and to say so publicly. The sources describe a revised method and a credit given, not a retracted claim, so the reading is modest.",
+  "leonhard-euler.turning_point.1":
+    "In autumn 1726 Euler accepted an invitation from the St Petersburg Academy to serve as an adjunct in physiology and began medical studies, while also trying for a physics chair at Basel with a short paper on acoustics; he was not put forward as a candidate. He left Basel on 5 April 1727, was placed in the Academy's mathematics section on arrival, and never returned to Switzerland, although he kept his Swiss citizenship.",
+  "leonhard-euler.interpretation.turning_point.1":
+    "Preparing for a physiology post and then working in mathematics instead is consistent with the adaptability row. The sources read do not give Euler's own reasons for preferring one field, so this is a reading of the sequence, not of his motives.",
+  /* ---------------------------------------------------------- isambard-kingdom-brunel (Roster38) */
+  "isambard-kingdom-brunel.achievement.1":
+    "Brunel was appointed engineer of the Great Western Railway on 7 March 1833. His son's biography records that the House of Lords threw out the first bill in 1834 and that a bill for the whole London-to-Bristol line received Royal Assent on 31 August 1835. The Institution of Civil Engineers' memoir lists the Hanwell and Chippenham viaducts, the Maidenhead bridge and the Box Tunnel among the works on the line.",
+  "isambard-kingdom-brunel.achievement.2":
+    "The Great Britain was first planned as a wooden paddle steamer. According to the 1870 Life, the company chose iron in 1838 after a voyage in the iron steamer Rainbow was reported on, and adopted the screw propeller on Brunel's report of 1 October 1840. She was floated out of her dock into Bristol's Floating Harbour on 19 July 1843 in the presence of Prince Albert, a date that both the Life and Daniel Gooch, who took the Prince to the launch by special train, give.",
+  "isambard-kingdom-brunel.moment.1":
+    "On 9 April 1844 Robert Stephenson reported to the Chester and Holyhead directors that the atmospheric railway was not an economical way of transmitting power and was unsuited to long lines. On 19 August 1844 Brunel recommended the system to the South Devon Railway directors, who adopted it. After the leather valve of the traction tube deteriorated, he reported on 19 August 1848 that he did not recommend extending it, and the directors suspended atmospheric working in September 1848.",
+  "isambard-kingdom-brunel.interpretation.moment.1":
+    "Recommending the system against a leading engineer's published conclusions, on his own stated responsibility, is consistent with the independent thinking reading of this profile. The 1848 reversal suggests the position was not held against the test results.",
+  "isambard-kingdom-brunel.moment.2":
+    "Richard Beamish, who worked beside him at the Thames Tunnel, records that in early September 1826 a boiler feed-pipe burst while Brunel was on the surface with him. Brunel jumped onto the boiler, pressed packing over the split with a timber wedged against the roof, and hung on it until weight could be added, so the engine kept working. At the first irruption of the river on 18 May 1827, Beamish says, Brunel seized a rope and slid down one of the shaft's iron ties to reach an engine man caught in the water.",
+  "isambard-kingdom-brunel.interpretation.moment.2":
+    "Beamish's account, and the ICE memoir's remark about his presence of mind when the river broke in, are consistent with quick decisions in an emergency. They do not show how he decided when there was time to test alternatives.",
+  "isambard-kingdom-brunel.turning_point.1":
+    "In spring 1840 the screw steamer Archimedes reached Bristol, and the Great Western Steam-Ship directors, on Brunel's advice, held back the Great Britain's paddle engines and the parts of her frame a change would affect. The 1870 Life says he then spent about three months testing screw forms on the Archimedes, and on 1 October 1840 read the Board a report after which the screw was adopted. The Institution of Civil Engineers' memoir independently says his Archimedes experiments convinced him the screw would suit large vessels.",
+  "isambard-kingdom-brunel.interpretation.turning_point.1":
+    "A design change made after weeks of comparative trials rather than on argument alone illustrates the experimentation reading of this profile.",
+  /* ---------------------------------------------------------- ernest-rutherford (Roster38) */
+  "ernest-rutherford.achievement.1":
+    "At McGill University in Montreal, Rutherford worked with the chemist Frederick Soddy on thorium and its radioactive emanation, and their papers of 1902 and 1903 set out that radioactive substances change into other substances at a rate proportional to the amount present. The historian Helge Kragh describes the resulting disintegration theory as still counting as the fundamental law of radioactive change.",
+  "ernest-rutherford.achievement.2":
+    "In May 1911 Rutherford published a paper in the Philosophical Magazine arguing that the large-angle scattering of alpha particles seen in Hans Geiger and Ernest Marsden's Manchester experiments required most of an atom's mass and charge to sit in a very small central body. New measurements by Geiger and Marsden, published in 1913, agreed well with the scattering formula he derived.",
+  "ernest-rutherford.achievement.3":
+    "In papers published in 1919, Rutherford reported that alpha particles passing through nitrogen produced long-range particles which he concluded were probably hydrogen atoms, and he suggested that the nitrogen atom had been disintegrated in the collision. Eve and Chadwick's obituary says he did the experimental work himself, with William Kay's help in observing the scintillations.",
+  "ernest-rutherford.moment.1":
+    "In 1908-09, while Hans Geiger and Ernest Marsden were measuring how alpha particles scatter in thin metal foils, Rutherford suggested that Marsden look for alpha particles reflected directly from a metal surface. Marsden later wrote that he doubted Rutherford expected such a result and called the suggestion a hunch; Rutherford later recalled Geiger telling him in great excitement that some alpha particles were coming backwards.",
+  "ernest-rutherford.interpretation.moment.1":
+    "The episode is consistent with a willingness to try an experiment whose outcome looked unlikely, a pattern that other accounts in this profile describe in different periods.",
+  "ernest-rutherford.moment.2":
+    "On 7 March 1919, before deciding whether to stand for the Cavendish chair at Cambridge, Rutherford wrote to J. J. Thomson that he wanted a clear mutual understanding about the laboratory and its research students. Thomson replied that he would leave Rutherford an absolutely free hand in managing the laboratory, and Rutherford became its Director as well as professor.",
+  "ernest-rutherford.interpretation.moment.2":
+    "The exchange is consistent with an interest in being responsible for a laboratory's direction, alongside the other evidence for leadership in this profile.",
+  "ernest-rutherford.turning_point.1":
+    "In January 1907 Rutherford told Otto Hahn that he had been appointed to the chair and laboratory directorship at Manchester and would leave McGill that June, adding that he would be glad to be nearer the scientific centre because he felt America and Canada were on its periphery. At Manchester he went on to work with Geiger and Marsden on the scattering of alpha particles.",
+  /* ---------------------------------------------------------- enzo-ferrari (Roster38) */
+  "enzo-ferrari.achievement.1":
+    "Enzo Ferrari founded Scuderia Ferrari in Modena in 1929, a racing stable that prepared and entered Alfa Romeo cars for wealthy amateur drivers and also engaged professional ones. The company was registered on 29 November 1929.",
+  "enzo-ferrari.achievement.2":
+    "Racing cars built under his own name began competing after the Second World War. One Italian biography dates the Ferrari 125's racing debut to the Piacenza circuit on 11 May 1947, with Nino Farina and Franco Cortese driving the first two cars.",
+  "enzo-ferrari.moment.1":
+    "In spring 1963 a Ford team led by Donald Frey negotiated in Modena to buy into Ferrari, and the talks ended in May without a contract. Accounts differ on how long they ran and how they ended: a Ford-side retelling says Ferrari backed out at the last moment, while his aide Franco Gozzi later said a clause requiring Ford's approval of racing budgets cut into the freedom he had been promised over the racing team.",
+  "enzo-ferrari.interpretation.moment.1":
+    "This is consistent with the profile's autonomy_need score: on every account the sticking point was control of the racing operation. Because the sources disagree on the details, it is read as one episode in a wider pattern, not as a full explanation of his motives.",
+  "enzo-ferrari.moment.2":
+    "By 1959 the British rear-engined Coopers were beating Ferrari's front-engined cars, and Ferrari, who reportedly held that the horse should pull the cart, allowed engineer Carlo Chiti to develop a rear-engined car. Team manager Romolo Tavoni recalled that Chiti had to argue hard to persuade him. An experimental rear-engined car ran at Monaco in 1960, and the 156 followed in 1961.",
+  "enzo-ferrari.interpretation.moment.2":
+    "This is consistent with the profile's modest adaptability score: the change did happen, but the sources describe it as reluctant and pressed on him by his engineer, not something he initiated.",
+  "enzo-ferrari.turning_point.1":
+    "In late October 1961 Ferrari dismissed a group of senior managers, among them sporting director Romolo Tavoni and engineer Carlo Chiti, who had signed a letter, drawn up through a Modena lawyer, asking that Laura Ferrari, a company shareholder, stay out of the factory's affairs. Tavoni recalled in 2011 that the letter went unmentioned at that week's staff meeting and that each signatory was handed a month's salary and told to leave afterwards, while Mauro Forghieri, then 26, recalled being given sole technical responsibility for the racing department. Accounts differ on how many were dismissed, how the dismissals were delivered and who was later taken back.",
+  "enzo-ferrari.interpretation.turning_point.1":
+    "This is consistent with the profile's decisiveness score: the response was immediate and unexplained. It also brought a large loss of senior staff at once, and because the sources disagree on how it unfolded, it illustrates the trait rather than settling it.",
+  /* ---------------------------------------------------------- david-bowie (Roster38) */
+  "david-bowie.achievement.1":
+    "During the mid-1990s sessions for Outside, Bowie worked with Ty Roberts, who had made interactive CD-ROMs for him and Brian Eno, on the Verbasizer, a Mac program that split typed sentences into columns and randomly recombined their words into lyric fragments. Roberts says it automated the paper cut-up method he had seen Bowie use in the studio, and Bowie demonstrated the program on camera in the 1997 documentary Inspirations.",
+  "david-bowie.achievement.2":
+    "According to co-creator Ron Roy, Bowie approved the BowieNet project pitched by Robert Goodale and Roy in late 1996 and put money into it. The service was announced on 17 July 1998 and launched on 1 September 1998, combining dial-up internet access at $19.95 a month with a davidbowie.com email address, chat rooms and places for fans to post their own art. Roy says Bowie insisted it not be a promotional site and, having relied on his record label for his earlier website, asked for a web-design firm of his own.",
+  "david-bowie.achievement.3":
+    "In 1994 Bowie joined the editorial board of the art magazine Modern Painters. According to Sotheby's, he contributed interviews and reviews there, including an interview with the painter Balthus that he proposed to the editors, one with Damien Hirst, a review of the 1995 Johannesburg Biennale and a piece on Jean-Michel Basquiat. On 1 April 1998 he launched the art-book publisher 21 Publishing at Jeff Koons's studio, with William Boyd's book on the invented painter Nat Tate as its first title.",
+  "david-bowie.moment.1":
+    "On 3 July 1973, on the last night of the Ziggy Stardust tour at London's Hammersmith Odeon, Bowie told the audience it was 'the last show we'll ever do'. According to Variety, guitarist Mick Ronson had been told beforehand, having been sworn to secrecy in exchange for a solo deal, while drummer Woody Woodmansey did not realize his future plans had been cancelled; Ultimate Classic Rock reports Suzi Ronson saying everyone knew except Woodmansey and bassist Trevor Bolder.",
+  "david-bowie.interpretation.moment.1":
+    "The announcement is consistent with a decisive willingness to end a persona that was still drawing large audiences. The accounts of bandmembers who were not told in advance also show a cost of that style, which is why this profile treats the trait as dual-edged.",
+  "david-bowie.moment.2":
+    "In 1977 at Hansa Studios in Berlin, producer Tony Visconti says Bowie finished the lyrics for 'Heroes' while Visconti was away for a couple of hours, then sang the lead vocal, which Visconti says is 'probably take three', and the backing vocals. Visconti puts the whole sequence at about five hours, adds that this 'doesn't always happen', and says Bowie usually let lyric ideas germinate for a month or two beforehand. The account was given to Sound On Sound in 2004, decades after the session.",
+  "david-bowie.interpretation.moment.2":
+    "It illustrates fast execution once material had settled in his mind. Visconti presents the speed as unusual and describes a longer incubation beforehand, so this is one example rather than a general rule about Bowie's pace.",
+  "david-bowie.turning_point.1":
+    "In 1982, according to Nile Rodgers, Bowie told him 'I want you to make hits', and Rolling Stone reports that Bowie told his usual producer Tony Visconti he wanted a change for the project. The resulting album Let's Dance, co-produced by Bowie and Rodgers, was cut in about 17 days at New York's Power Station with a band Rodgers assembled and the then little-known guitarist Stevie Ray Vaughan, whom Bowie had seen at the Montreux Jazz Festival.",
+  "david-bowie.interpretation.turning_point.1":
+    "The change of producer, band and sound offers one example of his readiness to change collaborators in order to change the music. Rodgers's account is one participant's recollection, and how much of the finished sound came from Bowie and how much from Rodgers remains a matter on which the accounts differ.",
+  /* ---------------------------------------------------------- konrad-zuse (Roster38) */
+  "konrad-zuse.achievement.1":
+    "Between 1936 and 1938 Zuse built the Z1, a mechanical binary floating-point calculator that read its instructions from punched tape, in his parents' Berlin flat. On 12 May 1941 he presented its relay-based successor, the Z3, to a small group of specialists in his Berlin flat. The Z3 was destroyed in an air raid; a replica completed in 1962 under his direction has been in the Deutsches Museum since 1968.",
+  "konrad-zuse.achievement.2":
+    "From about 1943 to 1945 Zuse worked out the Plankalkül, a notation meant to give a purely formal description of any computational procedure, with compound data types built up from a single-bit type. His 1945 manuscript contained programs for sorting, testing graph connectivity, integer and floating-point arithmetic, and chess. It stayed unpublished until 1972, although excerpts appeared in 1948 and 1959.",
+  "konrad-zuse.achievement.3":
+    "On 7 September 1949 Zuse signed a five-year lease of the Z4 with ETH Zurich at the Badischer Bahnhof restaurant in Basel, after Eduard Stiefel had visited him at Hopferau in the Allgäu on 13 July. The Z4 stood at ETH from 11 July 1950 to April 1955, and at ETH's request a conditional jump was added to it. Zuse KG had been founded in Neukirchen a few weeks before the contract.",
+  "konrad-zuse.moment.1":
+    "On 11 April 1936 Zuse filed a patent application, through a patent attorney, for carrying out long calculations automatically from a stored set of numbers and a 'calculation plan'. In it he reasoned that a machine working through long calculations by itself could use the simplest number system rather than follow human habit, and he left open whether its switching elements would be electrical or mechanical. He withdrew the application in August 1940.",
+  "konrad-zuse.interpretation.moment.1":
+    "Stating the principle apart from any particular hardware is consistent with the systems-abstraction score.",
+  "konrad-zuse.moment.2":
+    "After Triumph Werke filed an opposition to the Z 391 application in April 1953, apparently with support from IBM Deutschland, Zuse KG rewrote the claims several times. In his reply of 8 May 1956 Zuse accepted that Babbage had set out the basic idea of program control but argued that no constructive solution had been described. On 14 July 1967 the Federal Patent Court rejected his appeal, stating that the novelty and progress of the claimed subject were not in doubt but that it lacked an inventive step.",
+  "konrad-zuse.interpretation.moment.2":
+    "Redrafting the claims over years against repeated objections is consistent with the persistence score.",
+  "konrad-zuse.turning_point.1":
+    "The Z1's mechanical arithmetic unit tended to jam, and in 1938 Zuse began the Z2, which used telephone relays in its arithmetic unit while keeping a mechanical memory. The Z3, built from 1939 to 1941, used relays throughout. Rojas notes that Zuse nonetheless kept a mechanical memory for the Z4 and hoped into the late 1940s that such memories could stay competitive.",
+  "konrad-zuse.interpretation.turning_point.1":
+    "Moving the logic to relays while keeping the mechanical memory is consistent with a mixed, mid-range belief-updating score.",
+  /* ---------------------------------------------------------- alfred-russel-wallace (Roster38) */
+  "alfred-russel-wallace.achievement.1":
+    "From March 1854 to 1862 Wallace worked in Southeast Asia as a professional specimen collector. He travelled with a changing team of local assistants, among them Ali from Sarawak, and published an account of the journey, The Malay Archipelago, in 1869.",
+  "alfred-russel-wallace.achievement.2":
+    "In February 1858 Wallace wrote an essay at Ternate and sent it to Darwin, with the wish that it be forwarded to Charles Lyell if Darwin thought it sufficiently novel and interesting. On 1 July 1858 the Linnean Society of London read the essay together with extracts from Darwin's own writings; neither man was present, and Wallace was in the Moluccas.",
+  "alfred-russel-wallace.achievement.3":
+    "In February 1867 Darwin, on Henry Walter Bates's advice, asked Wallace why some caterpillars are brightly coloured. Wallace replied that conspicuous colour might advertise distastefulness to birds and proposed experiments, which John Jenner Weir carried out in the summers of 1867 and 1868.",
+  "alfred-russel-wallace.moment.1":
+    "In February 1854 the Royal Geographical Society's secretary, Henry Norton Shaw, wrote to the Foreign Office that Wallace would accept the government's offer of a mail-packet passage and hoped it could include his young assistant, and asked that it go to Singapore rather than Australia. The passage was arranged on a P&O steamer that left Southampton on 4 March 1854 with Wallace and the teenage Charles Allen aboard.",
+  "alfred-russel-wallace.interpretation.moment.1":
+    "The episode is consistent with a pattern, seen again in his 1860 arrangement with Allen, of turning institutional contacts and delegated collecting into practical means of fieldwork.",
+  "alfred-russel-wallace.moment.2":
+    "In March 1869 Wallace told Darwin that a forthcoming Quarterly Review article would, for the first time, set limits on the power of natural selection. On 14 April Darwin replied that he differed 'grievously' from its remarks on humans and saw no need for 'an additional & proximate cause', while also saying he had been 'wonderfully interested' and calling Wallace's exposition of natural selection 'inimitably good'.",
+  "alfred-russel-wallace.interpretation.moment.2":
+    "The exchange illustrates Wallace maintaining a position against a close colleague's; it says nothing about whether the position was right.",
+  "alfred-russel-wallace.turning_point.1":
+    "In 1852 a fire on the ship carrying Wallace home from the Amazon destroyed almost all of his personal collection, which his London agent, Samuel Stevens, had insured for about £200. About eighteen months after he reached England he left again to collect, this time in Southeast Asia, with government-funded passage.",
+  "alfred-russel-wallace.interpretation.turning_point.1":
+    "This dated sequence is consistent with a willingness to return to fieldwork after a serious loss; the sources do not describe his reasoning, so the reading stays within what the sequence shows.",
+  /* ---------------------------------------------------------- jeff-bezos (Roster38) */
+  "jeff-bezos.achievement.1":
+    "In 1994 Bezos left a vice-president post at the New York quantitative firm D. E. Shaw & Co. to start an online bookstore. In Brad Stone's account he first listed about twenty candidate product categories and chose books because they were commodity goods, two main distributors served the trade, and far more titles were in print than any physical store could stock. Shel Kaphan, the company's first employee, gives three reasons for choosing Seattle over California: sales-tax rules, closeness to a major book-distribution center, and the local pool of programmers.",
+  "jeff-bezos.achievement.2":
+    "In 2006 Amazon began renting out parts of its own infrastructure to outside customers. BusinessWeek's November 2006 cover story describes the S3 storage service introduced that March, the EC2 computing service opened in test mode on 24 August, and the Mechanical Turk task marketplace launched the previous November; Bezos told the magazine Amazon was now exposing systems it already ran for its own store. Benjamin Black, a former Amazon engineer, recalls that he and Chris Pinkham wrote the 2003 paper that raised selling virtual servers as a service and that Bezos later asked for a more detailed write-up, while GeekWire notes that accounts of how AWS began differ.",
+  "jeff-bezos.achievement.3":
+    "Amazon Prime began with a suggestion from an engineer, Charlie Ward, through the company's employee suggestion box. The Seattle Times reports that in November 2004 Bezos gathered a group of executives and told them to return with a proposal by the end of January. Prime launched on 2 February 2005 with a note from Bezos saying it would be expensive for Amazon in the short term, at a time when, the paper reports, many on Wall Street worried about the cost.",
+  "jeff-bezos.moment.1":
+    "In 2002 Colin Bryar pitched a roomful of Amazon senior leaders on opening the company's product catalog to outside developers as web services. Robert Frederick, a technical leader on the effort, recalled to GeekWire in 2026 that nearly all of them said no, citing the risks of cannibalizing existing business and educating competitors. He recalls Bezos laughing and saying they should go ahead and see what developers built, and a July 2002 press release used similar language about developers surprising the company.",
+  "jeff-bezos.interpretation.moment.1":
+    "Going ahead after near-unanimous internal objection is one example consistent with the independent-thinking score, though it rests on a single recollection recorded more than two decades later.",
+  "jeff-bezos.moment.2":
+    "Austin Carr's 2015 Fast Company account of the Fire Phone, based on interviews with more than three dozen current and former Amazon employees, reports that Bezos personally chose a 13-megapixel over an 8-megapixel camera and pressed for the Dynamic Perspective 3-D feature, telling the team he did not care how long it took or how much it cost. After the first leaders on that feature did not deliver, replacements were brought in, and the company restarted much of the early work around the start of 2013. Reviewers criticized the phone after it went on sale in July 2014, and in December 2014 Bezos publicly defended it as a bold bet that would take many iterations.",
+  "jeff-bezos.interpretation.moment.2":
+    "Continuing to press a feature through a leadership change and a restart, and defending the project after a poor reception, illustrates the persistence score; the same account records team members' doubts about the feature, which is why this profile treats the trait as dual-edged.",
+  "jeff-bezos.turning_point.1":
+    "In spring 1994 Bezos told David Shaw, the founder of D. E. Shaw & Co., that he planned to leave and start an online bookstore; in Brad Stone's account the two spent two hours walking in Central Park, where Shaw said he understood the impulse but noted the firm was growing and might end up competing with the new venture. They agreed Bezos would take a few days to think it over, and he then left the firm and set up the company in the Seattle area, where Amazon's first employee, Shel Kaphan, joined him that October. A 1999 TIME profile reports that investors thought the plan was crazy.",
+  "jeff-bezos.interpretation.turning_point.1":
+    "Leaving a secure senior role for an untested online venture, after talking it through with the firm's founder, is consistent with the risk-tolerance score.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -8443,6 +8708,271 @@ export const EDITORIAL_KO: Record<string, string> = {
     "평생 집필 활동 내내 초록색 잉크만을 고집해서 사용했으며, 초록은 희망의 색이라고 스스로 그 이유를 밝혔다.",
   "pablo-neruda.interpretation.moment.2":
     "이렇게 구체적이고 스스로 설명한 미적 선택을 평생의 집필 활동 내내 유지한 것은 프로필의 미적 감각(aesthetic_sensitivity) 점수의 근거 중 하나다.",
+  /* ---------------------------------------------------------- james-cook (Roster38) */
+  "james-cook.achievement.1":
+    "쿡은 1763년부터 1767년까지 뉴펀들랜드 해안과 인접한 래브라도 해안을 측량했으며, 이 기간 대부분 스쿠너선 그렌빌호를 이용했다. 2018년의 한 학술 논문은 이 측량의 수준을 부정하는 사람이 없고, 부분적으로나마 대체된 것은 1830년대에 이르러서였다고 지적한다.",
+  "james-cook.achievement.2":
+    "쿡 자신의 보고에 따르면 1768~71년 인데버호 항해에서는 위험한 괴혈병 사례가 한 건도 없었고, 1772~75년 레절루션호 항해에서는 네 명만을 잃었으며 그중 괴혈병으로 숨진 사람은 없었다. 코디체크와 영은 후자를 당시로서는 이례적인 결과로 평가하면서도, 인데버호 승무원 31명이 이후 바타비아에서 걸린 이질과 말라리아로 사망했다고 함께 언급한다.",
+  "james-cook.moment.1":
+    "1770년 6월 10~11일 밤(두 일지의 날짜는 하루 차이가 난다), 인데버호는 오스트레일리아 북동부 앞바다에서 산호초에 좌초했다. 뱅크스의 일지와 쿡 본인의 기록은 모두 승무원들이 대포와 밸러스트, 물자를 바다에 버리고 닻을 내려 배를 끌어냈으며, 이후 삼실과 양모를 채운 돛천으로 누수 부위를 덮었다고 서술한다. 뱅크스에 따르면 이 방법은 사관 후보생 한 명이 제안한 것이다. 이후 배는 수리할 수 있는 강 하구로 옮겨졌다.",
+  "james-cook.interpretation.moment.1":
+    "하급 장교의 제안을 받아들여 수리를 마무리한 이 일련의 과정은, 미리 정해 둔 계획보다 손에 있는 재료와 아이디어로 즉흥적으로 대응했다는 이 프로필의 자원 활용 능력 해석과 부합한다.",
+  "james-cook.moment.2":
+    "1774년 1월 30일 남위 71도 10분에서 레절루션호는 끝없이 이어진 얼음벌판과 마주쳤다. 포르스터는 더 나아갈 수 없어 배를 돌렸다고 기록했고, 쿡은 계속 나아가는 것이 '위험하고 무모한 시도'였을 것이라고 썼다. 또한 인간이 갈 수 있는 곳까지 가려는 야망을 지닌 자신이 이 장애를 아쉬워하지 않았다고 덧붙였다.",
+  "james-cook.interpretation.moment.2":
+    "위험한 항로를 감수하면서도 쿡 스스로 무모하다고 판단한 지점에서는 멈춘 위험 감수 성향의 한 사례를 보여 준다. 다만 이것만으로 그가 다른 상황에서 위험을 어떻게 저울질했는지까지 단정할 수는 없다.",
+  "james-cook.turning_point.1":
+    "1755년, 북해 석탄 무역과 발트해 무역에서 거의 10년을 보낸 쿡은 상선 선장 자리를 제안받았다는 기록이 있음에도 일반 수병으로 영국 해군에 자원했다. 그는 한 달 만에 항해장 조수가 되었고 1757년에는 항해장 자격을 얻었으며, 1758년 루이부르에서 육군 기술장교 새뮤얼 홀랜드에게 평판 측량을 배우기 시작했다.",
+  "james-cook.interpretation.turning_point.1":
+    "한 가지 해석은, 그가 안정적인 상선 선장 자리 대신 승진 경로가 열려 있는 조직에서 더 낮은 직급을 택했다는 것이며, 이는 이 프로필의 성취 동기 항목과 부합한다. 다만 이번에 확인한 자료에는 그 자신의 이유가 기록되어 있지 않다.",
+  /* ---------------------------------------------------------- frank-lloyd-wright (Roster38) */
+  "frank-lloyd-wright.achievement.1":
+    "라이트가 설계한 일리노이주 오크파크의 유니티 템플은 1908년 10월에 완공되어 1909년 9월 26일에 봉헌식이 열렸다. 구조는 철근으로 보강한 타설 콘크리트였으며, 프랭크 로이드 라이트 트러스트의 연구 보고서는 이를 철근 콘크리트를 구조 요소로만이 아니라 건축적 표현 매체로 활용한 사례로 설명한다.",
+  "frank-lloyd-wright.achievement.2":
+    "폴링워터는 라이트가 펜실베이니아주 베어 런에 에드거 카우프만 가족의 주말 별장으로 설계한 집으로, 1936년 4월부터 1937년까지 지어졌고 카우프만 가족은 그해 12월에 입주했다. 가족이 예상했던 것처럼 개울 건너편에서 폭포를 바라보는 배치가 아니라, 집이 폭포 바로 위로 캔틸레버 구조로 뻗어 나가도록 지어졌다.",
+  "frank-lloyd-wright.achievement.3":
+    "뉴욕의 솔로몬 R. 구겐하임 미술관은 1943년 계약 후 약 16년이 지난 1959년 10월 21일, 그러니까 1959년 4월 라이트가 세상을 떠나고 약 6개월 뒤에 문을 열었다. 관람객은 전통적인 전시실 대신 채광 돔까지 이어지는 연속된 경사로를 따라 이동한다.",
+  "frank-lloyd-wright.moment.1":
+    "타리에신 도제였던 에드거 타펠의 회고에 따르면(카네기 매거진 게재), 1935년 9월 22일 에드거 카우프만이 밀워키에서 타리에신으로 폴링워터 도면을 보러 가는 길이라고 전화했고, 그러자 라이트는 도제들이 지켜보는 가운데 집을 그리기 시작했다. 폴링워터 웹사이트는 여러 도제의 증언을 전하며 이 설계가 몇 시간 만에 그려졌다고 소개하고, 라이트가 베어 런 부지를 처음 방문한 때가 1934년 12월이었다고 기록한다.",
+  "frank-lloyd-wright.moment.2":
+    "1936년 카우프만은 외부 엔지니어들에게 라이트의 설계를 검토하게 했고, 그들의 권고로 폴링워터 1층 캔틸레버에 철근이 추가되었다. 거푸집을 떼어낸 뒤 테라스 난간벽에 균열이 나타났는데, 라이트는 그 원인을 추가된 철근 탓으로 돌렸다. 카네기 매거진에 실린 날짜 미상의 편지에서 라이트는 카우프만의 신뢰가 없다면 이 일을 접겠다고 썼고, 카우프만도 비슷한 표현으로 답하면서 피츠버그로 와서 직접 풀자고 요청했다. 이후 1995~96년 보존협회가 의뢰한 구조 평가에서는 캔틸레버의 처짐이 계속되고 있음이 확인되었다.",
+  "frank-lloyd-wright.interpretation.moment.2":
+    "이 편지 교환은 고객과의 공개적인 의견 충돌을 피하지 않는 이 프로필의 성향을 보여 주는 한 사례이다. 기록상 카우프만 역시 똑같이 직설적으로 답했고, 두 사람은 1955년 카우프만이 세상을 떠날 때까지 함께 프로젝트를 구상했다.",
+  "frank-lloyd-wright.turning_point.1":
+    "1932년, 예순다섯 살의 라이트는 지난 5년 가까이 유급 고객 두 곳의 건물만 지은 상태였다. 그해 가을 그는 아내 올기바나와 함께 타리에신 펠로우십을 시작했고, 1932년 10월 스물세 명의 도제가 타리에신에 모여 건축을 배우면서 농사를 짓고 석재를 캐고 공동체의 숙소를 직접 지었다. 이후 선임 펠로우들이 폴링워터와 존슨 왁스 본사의 시공을 감독했고, 한 자료는 1934년 펠로우십에 합류한 에드거 카우프만 주니어가 아버지를 설득해 폴링워터 설계를 맡기게 했다고 전한다.",
+  "frank-lloyd-wright.interpretation.turning_point.1":
+    "하나의 해석은 펠로우십이 의뢰가 줄어든 시기에 기회가 오기를 기다리기보다 스스로 기회를 만들어 내는 이 프로필의 경향을 보여 준다는 것이다. 다만 자료들은 대공황과 카우프만 가족과의 인연 같은 외부 요인도 이후의 전개에 작용했음을 시사한다.",
+  /* ---------------------------------------------------------- thor-heyerdahl (Roster38) */
+  "thor-heyerdahl.achievement.1":
+    "1947년 4월 28일 헤위에르달은 다섯 명의 동료와 함께 발사나무 뗏목 콘티키호를 타고 페루 카야오를 떠나, 101일 뒤인 8월 7일 폴리네시아의 라로이아 환초에 닿았다. 이 항해는 그런 뗏목으로 태평양을 건널 수 있었음을 보이려는 것이었으며, 한 학술 백과사전 항목은 그의 학문적 기여가 국제적으로는 제한적으로만 받아들여졌다고 지적한다.",
+  "thor-heyerdahl.achievement.2":
+    "1955~56년 그는 아르네 시올스볼, 에드윈 페르돈, 윌리엄 멀로이 등 고고학자 다섯 명과 함께 노르웨이 이스터 섬 고고학 탐사대를 이끌었다. 탐사대는 라노 라라쿠 채석장에서 모아이 석상을 발굴해, 오랫동안 머리만 있는 것으로 여겨진 석상 아래에 커다란 몸통이 있음을 확인했으며, 홀란(Håland)은 이 발굴에 층위 분석과 방사성탄소연대 측정이 쓰였다고 설명한다.",
+  "thor-heyerdahl.achievement.3":
+    "1988년부터 1994년까지 페루 투쿠메에서 이루어진 발굴은 헤위에르달이 조직하고 콘티키 박물관과 민간 후원자들이 자금을 댔으며, 현장 조사는 대니얼 샌드와이스와 알프레도 나르바에스가 이끌었다. 샌드와이스는 이 연구가 투쿠메가 해상 활동, 아마도 장거리 교환에도 관여했음을 보여 준다고 쓴다.",
+  "thor-heyerdahl.moment.1":
+    "1969년 기자의 대피라미드 앞에서 만들어져 모로코 사피에서 출항한 파피루스 배 라(Ra)호는 갈대가 물을 많이 먹어 가라앉을까 우려한 헤위에르달의 결정으로 바베이도스를 약 일주일 앞두고 항해를 포기했다. 열 달 뒤 티티카카호의 아이마라족 장인 네 명이 더 짧지만 더 튼튼한 라 2호를 만들었고, 이 배는 57일 만인 1970년 7월 12일 브리지타운에 도착했다.",
+  "thor-heyerdahl.interpretation.moment.1":
+    "1년이 채 안 되어 다시 만든 배로 돌아왔다는 점은 이 프로필의 끈기 항목 해석과 부합한다. 다만 이번에 확인한 자료에는 그 자신의 이유가 기록되어 있지 않고, 첫 배가 실패한 원인에 대한 설명도 자료마다 다르다.",
+  "thor-heyerdahl.moment.2":
+    "1986년 다시 이스터 섬을 찾은 헤위에르달은 체코 기술자 파벨 파벨, 현지 주민 열여섯 명과 함께 15톤짜리 석상을 밧줄로 세운 채 옮겼고, 콘티키 박물관은 이 석상이 큰 어려움 없이 '걷게' 만들 수 있었다고 전한다. 박물관이 정리한 그의 약력에는 아나케나 해변 발굴에서 최초 도착자가 서쪽에서 온 폴리네시아인이었다는 결과가 나와 그의 이론과 어긋났으며, 다른 연구는 이후의 접촉이 있었음을 보여 주었다는 내용도 함께 실려 있다.",
+  "thor-heyerdahl.interpretation.moment.2":
+    "라호 사례와 함께 보면 이 두 가지는 이 프로필의 엇갈리고 확신도가 낮은 신념 수정 항목과 나란히 놓인다. 한쪽에는 방법상의 실질적 수정이, 다른 쪽에는 반대 증거 앞에서도 핵심 가설을 유지했다는 재레드 다이아몬드 같은 비판자들의 서술이 있다. 이는 여러 해석 가운데 하나일 뿐이다.",
+  "thor-heyerdahl.turning_point.1":
+    "1946년 봄 헤위에르달은 남아메리카인이 폴리네시아에 정착했다는 자신의 이론을 미국 인류학자들에게 발표했지만 받아들여지지 않았다. 콘티키 박물관에 따르면 허버트 스핀든은 직접 페루에서 발사나무 뗏목을 타고 항해해 보라고 응수했고, 헤위에르달은 군 관계 인맥으로 장비를 구하고 동료 다섯 명을 모아 탐사를 계획하기 시작했다.",
+  "thor-heyerdahl.interpretation.turning_point.1":
+    "거부당한 주장에서 그 주장을 직접 시험해 보는 데까지 이어진 이 흐름은 이 프로필의 독립적 사고 항목 해석을 보여 주는 한 사례다. 이론 자체가 맞는지는 논쟁 중인 별개의 문제이며, 이 프로필은 그것을 판단하지 않는다.",
+  /* ---------------------------------------------------------- stanley-kubrick (Roster38) */
+  "stanley-kubrick.achievement.1":
+    "배리 린든에서 큐브릭은 자이스 플라나르 50mm f/0.7 렌즈를 사용했는데, 이 종류의 렌즈는 열 개만 만들어졌고 그중 여섯 개는 NASA용이었다. 시네마 프로덕츠 사장 에드 디줄리오가 이 렌즈를 큐브릭의 미첼 BNC 카메라에 맞게 개조해, 촛불이 밝히는 실내 장면을 보조 조명 없이 촬영할 수 있게 했다. 디줄리오는 아메리칸 시네마토그래퍼에, 큐브릭이 밤의 고성이 지닌 자연스러운 고색을 그대로 살리고 싶어 했고 필름 전체를 1스톱 증감 현상했다고 썼다.",
+  "stanley-kubrick.achievement.2":
+    "1974년 큐브릭은 스테디캠 시제품으로 찍은 시연용 영화를 받고 시네마 프로덕츠에 텔렉스로 답신을 보냈다. 샤이닝에서는 스테디캠의 활용 가능성을 염두에 두고 여러 세트를 설계하게 했으며, 촬영을 맡은 개럿 브라운은 1980년 8월 아메리칸 시네마토그래퍼에 쓴 글에서 정원 미로의 모든 프레임을 스테디캠으로 찍었다고 밝혔다.",
+  "stanley-kubrick.achievement.3":
+    "큐브릭은 1964년 3월 말 아서 C. 클라크에게 편지를 보내 SF 영화 공동 작업을 제안했고, 두 사람은 1964년 4월 22일 뉴욕 플라자 호텔에서 만났다. 1999년의 한 회고 글에 따르면 큐브릭은 2001: 스페이스 오디세이의 특수효과 팀을 직접 감독했으며, 팀에 속한 더글러스 트럼벌은 스타 게이트 장면에 쓰인 슬릿 스캔 장치를 개발했다. 영화는 1968년 4월 2일에 개봉했다.",
+  "stanley-kubrick.moment.1":
+    "2001: 스페이스 오디세이는 1968년 4월 2일에 개봉했다. 큐브릭은 초기 관객들이 영화를 좋아하지 않았다고 보았고, 4월 5일부터 9일 사이에 편집자 레이 러브조이와 함께 약 19분을 잘라냈으며, 이미 상영 중이던 극장들에 수정 지침을 보냈다. 그는 장면의 적정 길이를 정하려면 몇 차례 상영을 거쳐 봐야 한다고 설명하면서도, 이 삭제가 결정적인 차이를 만들었다고는 생각하지 않는다고 말했다.",
+  "stanley-kubrick.interpretation.moment.1":
+    "이 재편집은 관객의 반응을 본 뒤 완성된 작품을 손보는 데 열려 있었음과 부합한다. 삭제가 영화를 좋아하거나 싫어한 사람들에게는 큰 차이가 없었다는 그 자신의 언급은, 작품 자체에 대한 그의 견해가 바뀐 폭은 제한적이었음을 시사한다.",
+  "stanley-kubrick.moment.2":
+    "워너의 홍보 담당자 줄리언 시니어가 1980년 2월 런던에서 밝힌 바에 따르면, 큐브릭은 시계태엽 오렌지를 상영할 뉴욕의 한 극장 벽과 천장이 반사를 일으키는 광택 흰색 래커로 칠해져 있다는 사실을 알게 되었다. 그는 런던에서 비계를 세우고 도색할 수 있는 맨해튼 업체 목록을 보냈고, 며칠 뒤에는 어떤 검은색을 쓰는지 물었다. 광택이 있는 검은색이면 같은 문제가 생기기 때문이었다. 벽은 무광 검은색으로 다시 칠해졌다.",
+  "stanley-kubrick.interpretation.moment.2":
+    "시니어는 이 일화를 기술적 문제에 대한 큐브릭의 정밀함을 보여 주는 사례로 든다. 이는 영화 자체뿐 아니라 완성된 영화가 관객에게 보이는 조건에까지 주의를 기울였음과 부합한다.",
+  "stanley-kubrick.turning_point.1":
+    "1959년 스파르타쿠스 촬영이 시작되고 며칠이 지났을 때, 커크 더글러스는 첫 감독을 교체하려고 해리스-큐브릭 사에 큐브릭을 빌려 달라고 요청했고, 제작자 제임스 B. 해리스에 따르면 회사는 그 계약이 수입을 가져다준다는 점도 있어 이를 받아들였다. 큐브릭은 훗날 이 경험을 통해, 계약서에 명시하지 않으면 자신의 결정이 존중받지 못할 가능성이 크다는 것을 알게 되었다고 말했다.",
+  "stanley-kubrick.interpretation.turning_point.1":
+    "그의 언급은 의사결정 권한을 쥐려는 강한 선호와 부합한다. 다만 이는 그 자신의 사후적 해석이며, 이후 그가 실제로 어디까지 통제할 수 있었는지를 독립적으로 보여 주는 기록은 아니다.",
+  /* ---------------------------------------------------------- ayrton-senna (Roster38) */
+  "ayrton-senna.achievement.1":
+    "세나는 1983년 웨스트 서리 레이싱 소속으로 영국 포뮬러 3 챔피언십에서 우승했다. 시즌 첫 아홉 경기를 모두 이겼고, 최종전을 앞두고는 마틴 브런들에게 포인트에서 뒤졌으나 스럭스턴 최종전에서 우승하며 타이틀을 차지했다.",
+  "ayrton-senna.achievement.2":
+    "1984년 톨먼 소속으로 치른 첫 포뮬러 1 시즌에서 세나는 폭우 속에 열린 모나코 그랑프리에서 2위를 기록했다. 이 경기는 그가 선두 알랭 프로스트를 추격하던 중 일찍 중단되었다. 그는 영국 그랑프리에서, 그리고 팀에서의 마지막 경기에서도 포디엄에 올랐다.",
+  "ayrton-senna.moment.1":
+    "1984년 8월 말, 로터스가 1985년 시즌 세나 영입을 발표할 계획이라는 소식이 언론에 새어 나갔고, 톨먼 팀 대표 알렉스 호크리지는 세나가 자신에게 알리지 않고 계약했다는 사실을 그 보도로 알게 되었다. 톨먼은 세나에게 이탈리아 그랑프리(몬차) 출전 정지 처분을 내렸고, 엔지니어 팻 시먼즈는 이후 세나가 다음 경기 무렵에는 지켜야 할 규칙이 있음을 이해한 것 같았으며 그 뒤로 관계가 한결 정중해졌다고 회고했다.",
+  "ayrton-senna.interpretation.moment.1":
+    "이 일화는 자신이 선택한 이적을 추진하면서 소속 팀과의 공개적인 마찰을 감수했음을 보여 주며, 갈등 감수성 점수와 부합한다.",
+  "ayrton-senna.moment.2":
+    "1992~93년 겨울 세나는 맥라렌의 초기 테스트에 나타나지 않았고, 12월에는 파이어버드 레이스웨이에서 펜스케 인디카를 시험 주행했으며, 새 MP4/8을 직접 몰아 보기 전에는 1993년 시즌 출전을 확정하지 않았다. 1993년 3월 초 실버스톤에서 약 20분간 첫 주행을 마친 뒤 엔지니어 조르조 아스카넬리는 두 시간에 걸친 디브리핑이 이어졌다고 회고하며, 세나는 이후 밤에 전화를 걸어 출전하겠다고 알렸다. 그러나 그는 경기별 계약만 받아들였고, 남은 시즌 계약서에 서명한 것은 7월 프랑스 그랑프리 무렵이었다.",
+  "ayrton-senna.interpretation.moment.2":
+    "차량을 직접 시험해 본 뒤에야 결정하고 계약을 경기 단위로 열어 둔 점은, 자신이 달리는 조건을 스스로 통제하려는 강한 욕구와 부합한다.",
+  "ayrton-senna.turning_point.1":
+    "1981년 말 세나는 시즌 마지막 포뮬러 포드 페스티벌에 출전하지 않고 브라질로 돌아갔다. 얼마 지나지 않아 그는 밴 디먼의 랠프 퍼먼에게 직접 전화를 걸어 유럽으로 돌아오겠다고 알렸고, 1982년에는 데니스 러션의 팀에서 포뮬러 포드 2000에 출전해 그해 유럽 타이틀을 차지했다.",
+  "ayrton-senna.interpretation.turning_point.1":
+    "이 전화는 주도적 행동력 점수의 근거가 되는 여러 자발적 행보 가운데 하나이다.",
+  /* ---------------------------------------------------------- rembrandt (Roster38) */
+  "rembrandt.achievement.1":
+    "렘브란트는 〈세 개의 십자가〉와 〈군중 앞에 선 그리스도〉를 비롯한 대형 드라이포인트 원판 몇 점을 여러 상태(state)에 걸쳐 거듭 고쳐 작업했다. 빅토리아 국립미술관(NGV)에 따르면 그는 닳은 원판의 넓은 부분을 지우고 새로운 요소를 더해 이후 상태의 강조점과 분위기를 달리했으며, 1640년대 중반부터는 수입된 중국·일본 종이에 '고급' 인쇄본을 찍기도 했다.",
+  "rembrandt.achievement.2":
+    "렘브란트는 1620년대 말부터 1630년대에 걸쳐 여러 모습으로 자화상을 그렸고, 이후의 일부 자화상은 앞선 거장들을 분명하게 참조한다. H. 페리 채프먼은 라이덴 컬렉션 도록(The Leiden Collection Catalogue)에 실은 글에서, 글래스고에 있는 1632년 자화상이 루벤스의 1623년 자화상을 본떴고 런던에 있는 1640년 자화상이 1639년 암스테르담에서 본 라파엘로와 티치아노의 초상화를 참조했다고 설명한다.",
+  "rembrandt.moment.1":
+    "콘스탄테인 하위헌스는 1629~31년경에 쓴 자전적 글에서 렘브란트와 얀 리번스를, 아직 이탈리아 유학 여행이 필요하다고 여기지 않은 자신만만한 젊은 화가들로 묘사했다. 그는 두 사람이 지금이 한창때라 먼 여행에 쓸 시간이 없고, 군주들이 수집하는 종류의 최상급 이탈리아 그림은 이탈리아 밖에서도 볼 수 있다고 답했다고 전하며, 이를 재능 넘치는 화가들의 '한 줌의 어리석음'이라고 평했다.",
+  "rembrandt.interpretation.moment.1":
+    "이 기록은 독립적 사고(independent_thinking) 점수와 부합한다. 후원자가 분명히 못마땅해했음에도 근거를 들어 머무르기로 한 결정으로 읽을 수 있지만, 두 사람의 논리는 하위헌스의 글에만 남아 있다.",
+  "rembrandt.moment.2":
+    "요아힘 폰 잔드라르트는 1675년에 렘브란트가 회화, 소묘, 판화와 외국의 진기한 물건을 매우 좋아해 그런 것들을 많이 갖고 있었다고 썼다. 1656년에 작성된 그의 소유물 목록이 이 수집품에 관한 주된 기록이며, 이를 토대로 한 렘브란트 하우스 도록에 대한 학술 서평은 그 수집이 특히 종이 위의 미술, 곧 루카스 판 레이던과 라파엘로의 판화에서 뛰어났고, 작업실에서 쓰인 조각상, 진기한 물건, 무기, 의상도 그 목록에 올라 있다고 설명한다.",
+  "rembrandt.interpretation.moment.2":
+    "이는 호기심(curiosity) 점수와 부합한다. 스튜디오와 함께 갖춘 대규모 수집품이지만, 사료는 수집 동기보다 소장품의 내용을 더 많이 기록한다.",
+  "rembrandt.turning_point.1":
+    "렘브란트는 1631/32년에 라이덴에서 암스테르담으로 옮겼고, 이후 경력의 나머지는 이 도시에서 이어졌다. 채프먼에 따르면 그는 아직 시민이 아니어서 자기 작업실을 열 수 없었기 때문에 화가 겸 화상인 헨드릭 에일렌뷔르흐의 집에 머물며 그의 공방을 이끄는 방식으로 일을 시작했고, 1633년에는 암스테르담으로 완전히 옮겨 있었다.",
+  /* ---------------------------------------------------------- george-mallory (Roster38) */
+  "george-mallory.achievement.1":
+    "1921년 정찰 원정에서 맬러리는 가이 불럭과 함께 에베레스트 주변의 룽북, 카마, 카르타 계곡을 탐사했다. 원정대장 하워드베리는 두 사람이 카르타 계곡 상류에서 산의 북동 능선으로 향하는 실현 가능한 접근로를 찾아냈다고 적었고, 9월 하순에는 맬러리와 불럭, 측량가 휠러가 창 라(북쪽 콜)까지 올랐다.",
+  "george-mallory.achievement.2":
+    "1924년 4월 팅키에서, 브루스 장군이 병으로 물러나 원정대장이 된 노턴과 맬러리는 계획의 세부 사항을 두고 몇 달간 이어진 의견 차이 끝에 등반 작전 계획을 확정했다. 노턴은 두 사람의 구상이 지닌 장점을 결합한 계획을 만들어 낸 공을 맬러리에게 돌렸으며, 그날 저녁 모든 등반가가 이를 승인했다고 기록한다.",
+  "george-mallory.moment.1":
+    "1922년 산에 대한 첫 번째 등정 시도 때, 네 명의 등반가가 북쪽 콜 캠프로 돌아오던 길에 신설이 발자국을 덮어 버린 탓에 너무 낮은 높이로 횡단하다가 가파른 쿨르와르 상단을 건너고 있었다. 로프의 맨 뒤에 있던 소머벨은 한 사람이 미끄러져 다른 사람들을 끌고 내려갈 때 선두의 맬러리가 간신히 아이스액스를 단단한 눈에 박을 시간을 얻었고 로프가 버텨 냈다고 회고한다. 소머벨은 맬러리가 일행 모두의 목숨을 구했다고 썼다.",
+  "george-mallory.moment.2":
+    "1910년대 초 샬터하우스에서 맬러리에게 배운 로버트 그레이브스는 1929년에 맬러리가 수업을 친근하게 이끌려 했고, 학생과 교사가 서로 몰래 싸운다는 학교의 전통을 받아들이기를 거부했다고 썼다. 그레이브스는 그 때문에 맬러리가 사감 교사들에게 인기가 없었고 적어도 자신이 다니던 시기에는 많은 학생들에게도 인기가 없었으며, 자신처럼 그곳이 맞지 않는 소수의 학생들과 친구가 되었다고 덧붙인다.",
+  "george-mallory.interpretation.moment.2":
+    "이 일화는 이 프로필의 독립적 사고 항목과 부합한다. 한 증언자가 학교의 교사와 학생 대부분이 받아들이던 관행을 그가 따르지 않았다고 전하기 때문이다. 다만 이는 한 제자의 회고일 뿐 학교 전체를 조사한 결과는 아니다.",
+  "george-mallory.turning_point.1":
+    "맬러리는 1910년 샬터하우스의 조교사가 되어 영어와 역사, 프랑스어를 가르쳤다. 알파인 저널의 1924년 추도문은 그가 1921년 에베레스트 원정 직전에 교사직을 사임했다고 기록하며, 모들린 칼리지 기록보관소는 1923년 5월에 그가 케임브리지 대학 교외교육위원회의 강사 겸 부간사가 되었다고 밝힌다. 추도문은 이 일을 가난한 노동자 남녀도 대학 교육을 접할 수 있게 하려는 노력이라고 설명한다.",
+  "george-mallory.interpretation.turning_point.1":
+    "한 가지 해석은, 그가 학생을 가르치던 일에서 성인 교육으로 방향을 옮겼다는 것이며, 이는 이 프로필의 영향력 동기 항목과 부합한다. 다만 이번에 확인한 자료는 추도문 저자와 다른 사람들이 전하는 그의 목표일 뿐 맬러리 자신이 밝힌 이유가 아니므로 잠정적인 해석에 그친다.",
+  /* ---------------------------------------------------------- leonhard-euler (Roster38) */
+  "leonhard-euler.achievement.1":
+    "MacTutor는 오일러가 1735년까지 자연수 제곱의 역수를 모두 더한 값이 π²/6임을 보였다고 기록한다. 이 문제는 베르누이 가문의 세 수학자를 비롯한 당대 일류 수학자들이 풀지 못한 것이었다. 그는 이어 더 높은 짝수 거듭제곱의 합도 구했고, 1739년에는 그 일반 계수를 베르누이 수로 나타냈다.",
+  "leonhard-euler.achievement.2":
+    "오일러는 『역학(Mechanica)』(1736~37)에서 진공과 저항 매질 속 질점의 운동, 중심력 아래의 운동, 곡면 위의 운동을 수학적 해석으로 다루었다. MacTutor는 유시케비치를 인용하며, 이전의 역학이 문제마다 별도의 접근을 요구하는 종합적·기하학적 방법에 주로 의존했다는 점과 대비시킨다. 콩도르세도 1783년 추도문에서 이 저작을 운동 연구에 해석학을 적용한 획기적 저작으로 꼽는다.",
+  "leonhard-euler.achievement.3":
+    "오일러의 달 운동 이론은 독일 천문학자 토비아스 마이어가 달 운행표를 만드는 데 쓰였다. 1765년 영국은 해상 경도 결정에 대한 이 운행표의 기여를 인정해 마이어의 미망인에게 3,000파운드를, 오일러에게는 이론적 기여에 대한 대가로 300파운드를 지급했다.",
+  "leonhard-euler.moment.1":
+    "1736년 3월 13일 빈의 궁정 천문학자 조반니 마리노니에게 보낸 편지에서 오일러는 쾨니히스베르크 다리 문제를 시시하지만 눈여겨볼 만한 문제라고 불렀다. 기하학도 대수학도 셈하는 기술도 이를 풀기에 충분하지 않았기 때문이다. 그는 이것이 라이프니츠가 갈망했던 '위치의 기하학'에 속하는지 물으며, 다리의 수와 배치가 어떠하든 각 다리를 한 번씩만 건너는 순회가 가능한지를 곧바로 판정하는 간단한 규칙을 얻었다고 알렸다.",
+  "leonhard-euler.interpretation.moment.1":
+    "산책길 퍼즐을 특정 경로의 문제가 아니라 연결이 어떻게 배열되어 있는가의 문제로 다룬 것은 이 프로필의 시스템적 사고 항목과 부합한다. 다만 근거가 편지 한 통뿐이므로 이 습관의 윤곽만 보여 줄 뿐이다.",
+  "leonhard-euler.moment.2":
+    "1755년 8월 12일 열아홉 살의 조제프루이 라그랑주는 오일러에게 극대·극소 문제를 푸는 해석적 방법을 보냈고, 오일러는 9월 6일 답장에서 깊은 인상을 받았다고 썼다. 한 분야 개관 논문에 따르면 오일러는 1756년 베를린 학술원에서 이 방법을 처음 발견한 영예는 라그랑주에게 돌아가야 한다고 밝혔다. 그는 라그랑주를 학술원 회원으로 추천했고 라그랑주는 1756년 9월 2일 선출되었다. 1766년 베를린을 떠날 때는 후임 수학부장으로 라그랑주를 추천했다.",
+  "leonhard-euler.interpretation.moment.2":
+    "한 가지 해석은, 오일러가 더 젊은 수학자의 더 나은 방법을 받아들이고 이를 공개적으로 밝힐 의향이 있었다는 것이며, 이는 믿음 수정 항목과 부합한다. 다만 자료가 보여 주는 것은 방법의 수정과 공적 인정이지 철회된 주장이 아니므로 이 해석의 폭은 크지 않다.",
+  "leonhard-euler.turning_point.1":
+    "1726년 가을 오일러는 상트페테르부르크 학술원의 생리학 조교수 자리 초청을 받아들여 의학 공부를 시작했고, 동시에 음향학에 관한 짧은 논문으로 바젤 대학의 물리학 교수직에도 응모했으나 후보로 추천받지 못했다. 그는 1727년 4월 5일 바젤을 떠났고, 도착 후에는 학술원 수학부에 배치되었으며, 스위스 시민권은 유지했지만 다시는 스위스로 돌아가지 않았다.",
+  "leonhard-euler.interpretation.turning_point.1":
+    "생리학 자리를 준비하다가 결국 수학 분야에서 일하게 된 경위는 적응력 항목과 부합한다. 다만 확인한 자료에는 어느 분야를 선호한 이유에 대한 오일러 본인의 설명이 없으므로, 이는 동기가 아니라 경위에 대한 해석이다.",
+  /* ---------------------------------------------------------- isambard-kingdom-brunel (Roster38) */
+  "isambard-kingdom-brunel.achievement.1":
+    "브루넬은 1833년 3월 7일 그레이트 웨스턴 철도의 기술자로 임명되었다. 아들이 쓴 전기에 따르면 1834년 상원이 첫 법안을 부결시켰고, 런던-브리스틀 전 구간을 다룬 법안은 1835년 8월 31일 국왕의 재가를 받았다. 토목학회의 추도문은 이 노선의 공사로 핸웰과 치펜엄 고가교, 메이든헤드 다리, 박스 터널을 꼽는다.",
+  "isambard-kingdom-brunel.achievement.2":
+    "브리스틀에서 건조된 그레이트 브리튼호는 처음에는 나무로 만든 외륜 증기선으로 계획되었다. 1870년에 나온 전기에 따르면 회사는 1838년 철제 증기선 레인보호에 승선한 조사 보고를 받은 뒤 철을 쓰기로 했고, 1840년 10월 1일 브루넬의 보고서를 받아들여 스크루 추진기를 채택했다. 배는 1843년 7월 19일 앨버트 공이 지켜보는 가운데 도크에서 브리스틀의 플로팅 하버(Floating Harbour)로 옮겨 띄워졌으며, 이 날짜는 전기와, 앨버트 공을 특별 열차로 진수식에 모신 대니얼 구치의 일기가 똑같이 적고 있다.",
+  "isambard-kingdom-brunel.moment.1":
+    "1844년 4월 9일 로버트 스티븐슨은 체스터-홀리헤드 철도 이사들에게 대기압 철도가 동력 전달 방식으로 경제적이지 않고 장거리 노선에는 맞지 않는다고 보고했다. 같은 해 8월 19일 브루넬은 사우스 데번 철도 이사들에게 이 방식을 권고했고, 이사들은 이를 채택했다. 이후 견인관의 가죽 밸브가 손상되자 그는 1848년 8월 19일 확장을 권하지 않는다고 보고했고, 이사들은 1848년 9월 대기압 운행을 중단했다.",
+  "isambard-kingdom-brunel.interpretation.moment.1":
+    "당대 대표적 기술자의 공개된 결론과 달리 자신이 책임지겠다고 밝히며 이 방식을 권고한 점은 이 프로필의 독립적 사고 해석과 부합한다. 1848년의 번복은 그 입장을 시험 결과와 반대로 고수하지는 않았음을 시사한다.",
+  "isambard-kingdom-brunel.moment.2":
+    "템스 터널에서 그와 함께 일한 리처드 비미시는 1826년 9월 초 보일러 급수관이 터졌을 때 브루넬이 함께 지상에 있었다고 기록한다. 브루넬은 보일러 위로 뛰어올라 갈라진 곳에 패킹을 대고 목재를 지붕에 버텨 세운 채 무게를 더할 때까지 매달려 있었고, 덕분에 기관은 계속 돌아갔다. 1827년 5월 18일 강물이 처음 터널로 밀려들었을 때에는 브루넬이 밧줄을 쥐고 수직 갱도의 쇠 버팀대를 타고 내려가 물에 갇힌 기관공에게 다가갔다고 비미시는 적었다.",
+  "isambard-kingdom-brunel.interpretation.moment.2":
+    "비미시의 서술과, 강물이 밀려들 때 그가 침착함을 잃지 않았다는 토목학회 추도문의 언급은 위급한 상황에서의 빠른 결단과 부합한다. 다만 대안을 시험해 볼 시간이 있을 때 그가 어떻게 결정했는지는 이 사례로 알 수 없다.",
+  "isambard-kingdom-brunel.turning_point.1":
+    "1840년 봄 스크루 증기선 아르키메데스호가 브리스틀에 도착하자, 그레이트 웨스턴 증기선회사 이사들은 브루넬의 조언에 따라 그레이트 브리튼호의 외륜 기관과 변경의 영향을 받을 선체 골조 부분의 공사를 미뤘다. 1870년의 전기는 그가 약 석 달 동안 아르키메데스호에서 여러 형태의 스크루를 시험했고, 1840년 10월 1일 이사회에서 보고서를 읽은 뒤 스크루 채택이 결정되었다고 적는다. 토목학회 추도문도 아르키메데스호 실험이 대형 선박에도 스크루가 맞는다는 확신을 주었다고 따로 밝힌다.",
+  "isambard-kingdom-brunel.interpretation.turning_point.1":
+    "논쟁만으로 결정하지 않고 몇 주에 걸친 비교 시험을 거쳐 설계를 바꾼 이 사례는 이 프로필의 실험 정신 해석을 보여 준다.",
+  /* ---------------------------------------------------------- ernest-rutherford (Roster38) */
+  "ernest-rutherford.achievement.1":
+    "몬트리올의 맥길 대학에서 러더퍼드는 화학자 프레더릭 소디와 함께 토륨과 그 방사성 기체(에머네이션)를 연구했고, 두 사람이 1902년과 1903년에 발표한 논문은 방사성 물질이 존재하는 양에 비례하는 속도로 다른 물질로 변한다는 점을 제시했다. 역사학자 헬게 크라흐는 이 붕괴 이론이 오늘날에도 방사성 변화의 기본 법칙으로 여겨진다고 설명한다.",
+  "ernest-rutherford.achievement.2":
+    "1911년 5월 러더퍼드는 《철학 잡지(Philosophical Magazine)》에 논문을 발표해, 한스 가이거와 어니스트 마스든이 맨체스터에서 관측한 알파 입자의 큰 각도 산란을 설명하려면 원자의 질량과 전하의 대부분이 아주 작은 중심부에 모여 있어야 한다고 주장했다. 1913년에 발표된 가이거와 마스든의 새 측정 결과는 그가 도출한 산란 공식과 잘 들어맞았다.",
+  "ernest-rutherford.achievement.3":
+    "1919년에 발표한 논문들에서 러더퍼드는 알파 입자가 질소를 통과할 때 사거리가 긴 입자가 생기며 이것이 수소 원자일 가능성이 크다고 보고했고, 충돌 과정에서 질소 원자가 붕괴한 것으로 해석할 수 있다고 제안했다. 이브와 채드윅의 추도문은 그가 윌리엄 케이의 섬광 관측 도움을 받아 실험 작업을 직접 수행했다고 전한다.",
+  "ernest-rutherford.moment.1":
+    "1908~09년 한스 가이거와 어니스트 마스든이 얇은 금속박에서 알파 입자가 어떻게 산란하는지 측정하던 중, 러더퍼드는 마스든에게 금속 표면에서 곧바로 반사되는 알파 입자가 있는지 찾아보라고 제안했다. 마스든은 훗날 러더퍼드가 그런 결과를 기대했을 것 같지는 않다고 생각했으며 그 제안을 일종의 '직감'이라고 적었고, 러더퍼드는 가이거가 크게 흥분해서 일부 알파 입자가 뒤로 되돌아온다고 알려 왔다고 회고했다.",
+  "ernest-rutherford.interpretation.moment.1":
+    "이 일화는 결과가 나오기 어려워 보이는 실험도 시도해 보려는 태도와 부합하며, 이 프로필의 다른 증언에서도 다른 시기에 비슷한 모습이 나타난다.",
+  "ernest-rutherford.moment.2":
+    "1919년 3월 7일, 러더퍼드는 케임브리지의 캐번디시 석좌직에 지원할지 정하기 전에 J. J. 톰슨에게 실험실과 연구 학생들에 관해 분명한 상호 합의가 필요하다고 편지를 썼다. 톰슨은 실험실 운영을 전적으로 러더퍼드에게 맡기겠다고 답했고, 러더퍼드는 교수이자 실험실 소장이 되었다.",
+  "ernest-rutherford.interpretation.moment.2":
+    "이 서신 교환은 실험실의 방향을 책임지려는 관심과 부합하며, 이 프로필에 있는 리더십 관련 다른 증거와 함께 볼 수 있다.",
+  "ernest-rutherford.turning_point.1":
+    "1907년 1월 러더퍼드는 오토 한에게 맨체스터 대학의 교수직과 실험실 책임자로 임명되어 6월에 맥길을 떠난다고 알리면서, 미국과 캐나다는 학문의 중심에서 벗어난 변두리처럼 느껴져 중심에 더 가까워지는 것이 반갑다고 썼다. 맨체스터에서 그는 가이거, 마스든과 함께 알파 입자의 산란 연구를 이어 갔다.",
+  /* ---------------------------------------------------------- enzo-ferrari (Roster38) */
+  "enzo-ferrari.achievement.1":
+    "엔초 페라리는 1929년 모데나에서 스쿠데리아 페라리를 세웠다. 부유한 아마추어 드라이버들을 위해 알파 로메오 경주차를 준비하고 출전시킨 이 경주 조직은 프로 드라이버들도 기용했다. 회사는 1929년 11월 29일에 등록되었다.",
+  "enzo-ferrari.achievement.2":
+    "그의 이름을 단 경주차는 제2차 세계대전 이후 출전하기 시작했다. 한 이탈리아어 평전은 페라리 125의 경주 데뷔를 1947년 5월 11일 피아첸차 서킷으로 기록하며, 첫 두 대를 니노 파리나와 프랑코 코르테세가 몰았다고 전한다.",
+  "enzo-ferrari.moment.1":
+    "1963년 봄 포드의 협상팀이 돈 프레이의 지휘 아래 모데나에서 페라리 지분 인수를 협상했고, 협상은 그해 5월 계약 없이 끝났다. 협상이 얼마나 이어졌고 어떻게 끝났는지에 대한 설명은 엇갈린다. 포드 쪽 전언은 페라리가 마지막 순간에 발을 뺐다고 하고, 그의 측근 프랑코 고치는 레이싱 팀 예산에 포드의 승인을 받도록 한 조항이 자신이 약속받은 자율성을 훼손했다고 훗날 말했다.",
+  "enzo-ferrari.interpretation.moment.1":
+    "이는 프로필의 autonomy_need 점수와 부합한다. 어느 설명에서든 걸림돌은 레이싱 부문의 통제권이었다. 다만 출처마다 세부 내용이 달라, 그의 동기를 온전히 설명한다기보다 더 넓은 경향 속의 한 사례로 읽는다.",
+  "enzo-ferrari.moment.2":
+    "1959년에는 영국 쿠퍼의 후방 엔진 차들이 페라리의 전방 엔진 차들을 앞서고 있었다. 말이 수레를 끌어야 한다고 믿었다고 전해지는 페라리는 엔지니어 카를로 키티가 후방 엔진 차를 개발하도록 허용했다. 팀 매니저 로몰로 타보니는 키티가 그를 설득하느라 애를 먹었다고 회상했다. 1960년 모나코에서는 실험용 후방 엔진 차가 달렸고, 1961년에 156이 뒤를 이었다.",
+  "enzo-ferrari.interpretation.moment.2":
+    "이는 프로필의 온건한 adaptability 점수와 부합한다. 변화는 실제로 일어났지만, 출처들은 그것이 마지못한 것이었고 스스로 시작한 일이 아니라 엔지니어가 밀어붙인 결과였다고 묘사한다.",
+  "enzo-ferrari.turning_point.1":
+    "1961년 10월 하순, 페라리는 스포츠 디렉터 로몰로 타보니와 엔지니어 카를로 키티를 비롯한 고위 간부들을 해고했다. 이들은 모데나의 변호사를 통해 작성한, 회사 주주인 라우라 페라리가 공장 일에서 손을 떼게 해 달라는 서한에 서명한 사람들이었다. 타보니는 2011년 인터뷰에서 그 주 간부 회의에서는 서한이 언급되지 않았고 회의 뒤에 서명자들이 각자 한 달치 급여를 건네받고 떠나라는 말을 들었다고 회상했으며, 당시 26세였던 마우로 포르기에리는 레이싱 부문의 기술 전반을 책임지게 되었다고 회상했다. 해고 인원, 해고 통보 방식, 이후 복귀한 사람에 대한 설명은 출처마다 엇갈린다.",
+  "enzo-ferrari.interpretation.turning_point.1":
+    "이는 프로필의 decisiveness 점수와 부합한다. 대응은 즉각적이었고 설명은 없었다. 동시에 고위 인력이 한꺼번에 떠나는 결과를 낳았고, 출처마다 경위가 달라 이 사례는 그 특성을 보여 줄 뿐 확정하지는 않는다.",
+  /* ---------------------------------------------------------- david-bowie (Roster38) */
+  "david-bowie.achievement.1":
+    "1990년대 중반 아웃사이드(Outside) 작업 당시 보위는 자신과 브라이언 이노를 위해 인터랙티브 CD-ROM을 만들어 온 타이 로버츠와 함께 버베이자이저(Verbasizer)를 개발했다. 이 맥 프로그램은 입력한 문장을 열 단위로 나눈 뒤 단어를 무작위로 재조합해 가사 조각을 만들어 냈다. 로버츠는 이것이 보위가 스튜디오에서 종이로 하던 컷업 기법을 자동화한 것이라고 말하며, 보위는 1997년 다큐멘터리 인스퍼레이션스(Inspirations)에서 이 프로그램을 카메라 앞에서 직접 시연했다.",
+  "david-bowie.achievement.2":
+    "공동 제작자 론 로이의 설명에 따르면, 보위는 1996년 말 로버트 구달과 로이가 제안한 보위넷(BowieNet) 프로젝트를 승인하고 직접 자금도 투자했다. 이 서비스는 1998년 7월 17일에 발표되어 9월 1일에 시작되었으며, 월 19.95달러의 전화 접속 인터넷, davidbowie.com 이메일 주소, 채팅방, 팬이 직접 작품을 올릴 수 있는 공간을 함께 제공했다. 로이는 보위가 이를 홍보용 사이트로 만들지 말라고 강조했고, 이전 웹사이트를 음반사에 맡겨 온 데서 벗어나 자신의 웹 디자인 회사를 요청했다고 말한다.",
+  "david-bowie.achievement.3":
+    "1994년 보위는 미술 잡지 모던 페인터스(Modern Painters)의 편집위원회에 합류했다. 소더비에 따르면 그는 이 잡지에 인터뷰와 리뷰를 기고했는데, 편집진에게 직접 제안한 화가 발튀스와의 인터뷰, 데이미언 허스트 인터뷰, 1995년 요하네스버그 비엔날레 리뷰, 장미셸 바스키아에 관한 글이 포함된다. 1998년 4월 1일에는 제프 쿤스의 작업실에서 미술 서적 출판사 21 퍼블리싱을 출범시켰고, 첫 책은 가상의 화가 냇 테이트를 다룬 윌리엄 보이드의 책이었다.",
+  "david-bowie.moment.1":
+    "1973년 7월 3일, 런던 해머스미스 오데온에서 열린 지기 스타더스트 투어의 마지막 밤에 보위는 관객에게 이것이 '우리가 하는 마지막 쇼'라고 말했다. 버라이어티에 따르면 기타리스트 믹 론슨은 솔로 계약을 대가로 비밀을 지키기로 하고 미리 이 사실을 들었지만, 드러머 우디 우드맨시는 자신의 앞날 계획이 취소되었다는 것을 알지 못했다. 얼티밋 클래식 록은 수지 론슨이 우드맨시와 베이시스트 트레버 볼더만 빼고 모두 알고 있었다고 말했다고 전한다.",
+  "david-bowie.interpretation.moment.1":
+    "이 발표는 여전히 많은 관객을 모으던 캐릭터를 과감히 끝내는 결단력과 부합한다. 사전에 통보받지 못한 밴드 멤버들의 증언은 이런 방식에 따르는 대가도 보여 주며, 그래서 이 프로필은 이 특성을 양면적인 것으로 본다.",
+  "david-bowie.moment.2":
+    "프로듀서 토니 비스콘티는 1977년 베를린 한자 스튜디오에서 자신이 두어 시간 자리를 비운 사이 보위가 '히어로스(Heroes)'의 가사를 완성했다고 말한다. 이어 보위는 리드 보컬을 불렀고, 비스콘티는 음반에 실린 것이 '아마 세 번째 테이크'라고 하며 백킹 보컬도 이어서 녹음했다. 비스콘티는 이 모든 과정이 약 다섯 시간 안에 이뤄졌다고 밝히면서도 '늘 그렇게 되는 것은 아니'라고 덧붙이고, 보위는 보통 그 전에 한두 달 동안 가사 구상을 묵혀 두었다고 말한다. 이 증언은 세션 수십 년 뒤인 2004년 사운드 온 사운드에 실린 것이다.",
+  "david-bowie.interpretation.moment.2":
+    "생각이 무르익은 뒤에는 작업을 빠르게 끝냈음을 보여 주는 사례다. 비스콘티는 그 속도를 이례적인 것으로 설명하고 그 전에 더 긴 구상 기간이 있었다고도 말하므로, 이는 보위의 작업 속도에 대한 일반 규칙이라기보다 하나의 예에 가깝다.",
+  "david-bowie.turning_point.1":
+    "나일 로저스에 따르면 1982년 보위는 그에게 '히트곡을 만들어 달라'고 말했고, 롤링 스톤은 보위가 평소 프로듀서였던 토니 비스콘티에게 이번 작업에서는 변화를 주고 싶다고 알렸다고 전한다. 보위와 로저스가 공동 프로듀서를 맡은 앨범 렛츠 댄스(Let's Dance)는 뉴욕 파워 스테이션에서 약 17일 만에 녹음되었고, 로저스가 꾸린 밴드와 보위가 몽트뢰 재즈 페스티벌에서 본 당시 무명에 가까웠던 기타리스트 스티비 레이 본이 참여했다.",
+  "david-bowie.interpretation.turning_point.1":
+    "프로듀서와 밴드, 사운드를 모두 바꾼 이 선택은 음악을 바꾸기 위해 협업자를 바꾸는 것을 마다하지 않았다는 하나의 사례를 보여 준다. 로저스의 이야기는 참여자 한 사람의 회고이며, 완성된 사운드에서 보위와 로저스가 각각 어느 정도를 맡았는지에 대해서는 증언이 엇갈린다.",
+  /* ---------------------------------------------------------- konrad-zuse (Roster38) */
+  "konrad-zuse.achievement.1":
+    "추제는 1936년부터 1938년까지 베를린에 있던 부모님 집에서 Z1을 만들었다. Z1은 천공 테이프에서 명령을 읽어 들이는 기계식 이진 부동소수점 계산기였다. 1941년 5월 12일에는 릴레이 방식의 후속기 Z3를 베를린 자택에서 소수의 전문가들에게 선보였다. Z3는 공습으로 파괴되었고, 그의 지휘로 1962년에 완성된 복제기가 1968년부터 뮌헨의 독일 박물관(도이체스 무제움)에 전시되어 있다.",
+  "konrad-zuse.achievement.2":
+    "추제는 1943년경부터 1945년까지 플란칼퀼(Plankalkül)을 고안했다. 이것은 어떤 계산 절차든 순수하게 형식적으로 기술하기 위한 표기법으로, 하나의 비트 자료형에서 출발해 복합 자료형을 쌓아 올리는 구조였다. 1945년 원고에는 정렬, 그래프 연결성 검사, 정수 및 부동소수점 연산, 체스를 다루는 프로그램이 담겨 있었다. 이 원고는 1972년까지 출간되지 않았고, 1948년과 1959년에 발췌본만 실렸다.",
+  "konrad-zuse.achievement.3":
+    "1949년 9월 7일 추제는 바젤의 바디셔 반호프 역 식당에서 취리히 연방공과대학(ETH)과 Z4의 5년 임대 계약을 맺었다. 이는 에두아르트 슈티펠이 그해 7월 13일 알고이의 호프라우로 그를 찾아온 뒤의 일이었다. Z4는 1950년 7월 11일부터 1955년 4월까지 ETH에 설치되어 있었고, ETH의 요청으로 조건부 분기 기능이 추가되었다. 추제 KG는 계약보다 몇 주 앞서 노이키르헨에서 설립되었다.",
+  "konrad-zuse.moment.1":
+    "1936년 4월 11일 추제는 변리사를 통해 특허를 출원했다. 저장된 수치 집합과 '계산 계획'으로 긴 계산을 자동으로 수행하는 방법에 관한 것이었다. 그는 기계가 긴 계산을 스스로 처리하는 만큼 사람의 습관을 따르지 않고 가장 단순한 수 체계를 쓸 수 있다고 논증했으며, 스위칭 소자를 전기식으로 할지 기계식으로 할지는 열어 두었다. 이 출원은 1940년 8월에 취하되었다.",
+  "konrad-zuse.interpretation.moment.1":
+    "원리를 특정 하드웨어와 분리하여 서술한 점은 시스템 추상화 점수와 부합한다.",
+  "konrad-zuse.moment.2":
+    "1953년 4월 트리움프 베르케(Triumph Werke)가 Z 391 출원에 이의를 제기하자(IBM 도이칠란트의 지원을 받은 것으로 보인다) 추제 KG는 청구항을 여러 차례 다시 썼다. 1956년 5월 8일의 회신에서 추제는 배비지가 프로그램 제어의 기본 발상을 제시했음을 인정하면서도, 이를 구체적으로 구현하는 방법은 제시되지 않았다고 주장했다. 1967년 7월 14일 연방특허법원은 그의 항고를 기각했는데, 청구 대상의 신규성과 기술적 진전은 의심할 여지가 없으나 특허를 받을 만한 발명 단계(진보성)에 이르지 못했다는 이유였다.",
+  "konrad-zuse.interpretation.moment.2":
+    "수년에 걸쳐 거듭된 이의에 맞서 청구항을 다시 쓴 점은 끈기 점수와 부합한다.",
+  "konrad-zuse.turning_point.1":
+    "Z1의 기계식 연산 장치는 걸려서 멈추는 일이 잦았고, 추제는 1938년 연산 장치에 전화 릴레이를 쓰되 기억장치는 기계식으로 남겨 둔 Z2를 설계하기 시작했다. 1939년부터 1941년까지 제작한 Z3는 전체를 릴레이로 구성했다. 로하스(Rojas)에 따르면 추제는 그럼에도 Z4에는 기계식 기억장치를 유지했고, 1940년대 후반까지도 그런 기억장치가 경쟁력을 유지할 수 있으리라 기대했다.",
+  "konrad-zuse.interpretation.turning_point.1":
+    "논리 회로는 릴레이로 옮기되 기계식 기억장치는 유지한 점은 중간 수준의 믿음 갱신 점수와 부합한다.",
+  /* ---------------------------------------------------------- alfred-russel-wallace (Roster38) */
+  "alfred-russel-wallace.achievement.1":
+    "월리스는 1854년부터 1862년까지 동남아시아에서 전문 표본 수집가로 일했다. 그는 사라왁 출신의 알리를 비롯해 시기에 따라 구성이 바뀌는 현지 조수 팀과 함께 다니며 여러 차례 탐사를 했고, 1869년에 이 여행을 기록한 《말레이 제도》를 출간했다.",
+  "alfred-russel-wallace.achievement.2":
+    "월리스는 1858년 2월 테르나테에서 쓴 글을 다윈에게 보내면서, 다윈이 충분히 새롭고 흥미롭다고 판단하면 찰스 라이엘에게 전해 달라는 뜻을 밝혔다. 1858년 7월 1일 런던 린네 학회는 이 글을 다윈의 글 발췌문과 함께 낭독했는데, 두 사람 모두 그 자리에 없었고 월리스는 몰루카 제도에 있었다.",
+  "alfred-russel-wallace.achievement.3":
+    "1867년 2월 다윈은 헨리 월터 베이츠의 조언에 따라 일부 애벌레가 왜 화려한 색을 띠는지 월리스에게 물었다. 월리스는 눈에 띄는 색이 새들에게 맛이 없다는 신호가 될 수 있다고 답하며 실험을 제안했고, 존 제너 위어가 1867년과 1868년 여름에 그 실험을 수행했다.",
+  "alfred-russel-wallace.moment.1":
+    "1854년 2월 왕립지리학회 사무총장 헨리 노턴 쇼는 외무부에 편지를 보내, 월리스가 정부의 우편선 여객 제공 제안을 받아들이겠으며 그의 어린 조수도 포함되기를 바란다고 전하고, 목적지를 오스트레일리아 대신 싱가포르로 해 달라고 요청했다. 결국 P&O 증기선편이 마련되어 월리스와 십대 소년 찰스 앨런을 태운 배가 1854년 3월 4일 사우샘프턴을 출항했다.",
+  "alfred-russel-wallace.interpretation.moment.1":
+    "이 일화는 1860년 앨런과 맺은 협약에서도 나타나듯, 제도적 인맥과 위임된 수집 작업을 현장 조사의 실질적 수단으로 바꾸는 경향과 일치한다.",
+  "alfred-russel-wallace.moment.2":
+    "1869년 3월 월리스는 다윈에게 곧 나올 《쿼털리 리뷰》 기고문에서 처음으로 자연선택의 힘에 한계를 두겠다고 알렸고, 4월 14일 다윈은 인간에 관한 대목에 '크게 이견'이 있으며 '추가적이고 직접적인 원인'을 끌어들일 필요를 보지 못한다고 답했다. 다윈은 동시에 그 글에 '무척 흥미를 느꼈다'고 하며 월리스의 자연선택 설명을 '흉내 낼 수 없을 만큼 훌륭하다'고 평했다.",
+  "alfred-russel-wallace.interpretation.moment.2":
+    "이 주고받음은 월리스가 가까운 동료와 다른 입장을 유지한 사례를 보여 준다. 그 입장이 옳았는지는 여기서 평가하지 않는다.",
+  "alfred-russel-wallace.turning_point.1":
+    "1852년 월리스가 아마존에서 영국으로 돌아오던 배에 불이 나 개인 수집품 대부분이 소실되었는데, 런던의 대리인 새뮤얼 스티븐스가 그 수집품을 약 200파운드에 보험에 들어 둔 상태였다. 영국에 돌아온 지 약 18개월 뒤 그는 정부 지원 항해편으로 다시 표본 수집을 위해 떠났고, 이번에는 동남아시아로 향했다.",
+  "alfred-russel-wallace.interpretation.turning_point.1":
+    "이 시간 순서는 큰 손실 뒤에도 현장 조사로 돌아간 태도와 일치하지만, 자료는 그의 속마음을 설명하지 않으므로 해석은 날짜순으로 확인되는 사실의 범위에 머문다.",
+  /* ---------------------------------------------------------- jeff-bezos (Roster38) */
+  "jeff-bezos.achievement.1":
+    "1994년 베이조스는 뉴욕의 퀀트 투자회사 D. E. 쇼(D. E. Shaw & Co.)의 부사장직을 떠나 온라인 서점을 창업했다. 브래드 스톤(Brad Stone)의 서술에 따르면 그는 먼저 후보 상품군 스무 가지 남짓을 목록으로 만들었고, 책이 규격화된 상품이고 유통을 맡는 대형 도매업체가 두 곳이며 유통 중인 도서 종수가 어느 오프라인 매장도 다 들여놓을 수 없을 만큼 많다는 이유로 책을 골랐다. 회사의 첫 직원이던 셸 카판(Shel Kaphan)은 캘리포니아 대신 시애틀을 택한 이유로 판매세 문제, 주요 도서 유통 거점과의 근접성, 채용할 수 있는 프로그래머 인력을 꼽았다.",
+  "jeff-bezos.achievement.2":
+    "2006년 아마존은 자사 인프라의 일부를 외부 고객에게 빌려주기 시작했다. 비즈니스위크(BusinessWeek) 2006년 11월호 커버스토리는 그해 3월에 선보인 저장 서비스 S3, 8월 24일 테스트 모드로 문을 연 컴퓨팅 서비스 EC2, 전해 11월에 시작한 작업 중개 시장 메커니컬 터크(Mechanical Turk)를 소개하며, 베이조스가 아마존이 자사 쇼핑몰을 위해 이미 운영하던 시스템을 이제 외부에도 열어 보이는 것이라고 말했다고 전한다. 전직 아마존 엔지니어 벤저민 블랙(Benjamin Black)은 자신과 크리스 핑캄(Chris Pinkham)이 가상 서버를 서비스로 판매하는 방안을 언급한 2003년 보고서를 썼고 이후 베이조스가 더 상세한 문서를 요청했다고 회고하며, 긱와이어는 AWS의 출발에 관한 설명이 엇갈린다고 전한다.",
+  "jeff-bezos.achievement.3":
+    "아마존 프라임은 엔지니어 찰리 워드(Charlie Ward)가 사내 제안함에 올린 아이디어에서 출발했다. 시애틀 타임스(The Seattle Times)에 따르면 베이조스는 2004년 11월 임원 여럿을 모아 1월 말까지 제안서를 가져오라고 지시했다. 프라임은 2005년 2월 2일, 단기적으로는 아마존에 비용 부담이 클 것이라는 베이조스의 안내문과 함께 출시되었으며, 당시 월가에서는 비용을 우려하는 목소리가 많았다고 신문은 전한다.",
+  "jeff-bezos.moment.1":
+    "2002년 콜린 브라이어(Colin Bryar)는 아마존 고위 임원들이 모인 자리에서 회사의 상품 카탈로그를 웹 서비스 형태로 외부 개발자에게 개방하자고 제안했다. 이 일의 기술 책임자였던 로버트 프레더릭(Robert Frederick)은 2026년 긱와이어(GeekWire)에 거의 모든 임원이 기존 사업을 잠식하고 경쟁사에 도움을 준다는 이유로 반대했다고 회고했다. 그의 기억으로는 베이조스가 웃으며 일단 진행해 개발자들이 무엇을 만들어 내는지 보자고 했고, 2002년 7월 보도자료에도 개발자들이 회사를 놀라게 해 주기를 바란다는 비슷한 표현이 쓰였다.",
+  "jeff-bezos.interpretation.moment.1":
+    "내부 임원 대다수가 반대하는 가운데 추진을 택한 것은 독립적 사고 점수와 부합하는 사례이지만, 20년 넘게 지난 뒤 이루어진 단일 회고에 근거한다.",
+  "jeff-bezos.moment.2":
+    "오스틴 카(Austin Carr)가 2015년 패스트 컴퍼니(Fast Company)에 쓴 파이어 폰(Fire Phone) 기사는 아마존 전·현직 직원 서른여섯 명이 넘는 이들의 인터뷰를 바탕으로 하는데, 베이조스가 카메라를 800만 화소 대신 1,300만 화소로 직접 정했고 3D 효과 기능인 다이내믹 퍼스펙티브(Dynamic Perspective)를 밀어붙이며 시간과 비용은 상관하지 않는다고 팀에 말했다고 전한다. 이 기능을 맡았던 첫 리더들이 성과를 내지 못하자 후임자들이 투입되었고, 회사는 2013년 초 무렵 초기 작업 대부분을 폐기하고 다시 시작하기로 했다. 2014년 7월 판매가 시작된 뒤 리뷰어들의 평가는 좋지 않았고, 베이조스는 2014년 12월 이 제품을 여러 차례의 개선이 필요한 대담한 도전이라고 공개적으로 옹호했다.",
+  "jeff-bezos.interpretation.moment.2":
+    "리더 교체와 재시작을 거치며 기능을 계속 밀어붙이고 혹평 이후에도 프로젝트를 옹호한 모습은 끈기 점수를 잘 보여 준다. 같은 기사가 그 기능에 대한 팀원들의 의문도 함께 전하기 때문에, 이 프로필은 이 특성을 양날의 검으로 본다.",
+  "jeff-bezos.turning_point.1":
+    "1994년 봄 베이조스는 D. E. 쇼의 창업자 데이비드 쇼(David Shaw)에게 회사를 떠나 온라인 서점을 세우겠다고 말했다. 스톤의 서술에 따르면 두 사람은 센트럴파크에서 두 시간 동안 걸으며 이야기했고, 쇼는 그 충동을 이해한다면서도 회사가 빠르게 성장하고 있으며 새 사업과 경쟁하게 될 수도 있다고 말했다. 두 사람은 베이조스가 며칠 더 생각해 보기로 했고, 그는 이후 회사를 떠나 시애틀 지역에서 창업했으며 그해 10월 아마존의 첫 직원인 셸 카판이 합류했다. 1999년 타임(TIME)의 인물 프로필은 당시 투자자들이 이 계획을 무모하다고 여겼다고 전한다.",
+  "jeff-bezos.interpretation.turning_point.1":
+    "안정적인 고위직을 떠나 검증되지 않은 온라인 사업에 뛰어든 결정은, 회사 창업자와 충분히 이야기를 나눈 뒤에 내려졌다는 점을 감안하더라도 위험 감수 점수와 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ernest-rutherford",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ernest Rutherford",
+    "aliases": [
+      "Lord Rutherford",
+      "Baron Rutherford of Nelson"
+    ],
+    "wikidataId": "Q9123",
+    "birthYear": 1871,
+    "deathYear": 1937,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NZ",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics",
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "mentor",
+      "leader",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rutherford_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ernest Rutherford -- English Wikipedia, fetched and read for orientation only (birth/death dates and places, the McGill 1898-1907 / Manchester 1907-1919 / Cambridge 1919-1937 posts, the 1908 Nobel Prize in Chemistry, knighthood 1914, barony 1931); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+    },
+    {
+      "id": "src_rutherford_wikidata",
+      "kind": "wikidata",
+      "title": "Ernest Rutherford (Q9123) -- identity verified live through the Wikidata API (wbgetentities): en label 'Ernest Rutherford', en description 'New Zealand physicist (1871-1937)', born 1871-08-30, died 1937-10-19, citizenship New Zealand, P18 'Ernest Rutherford LOC.jpg', kowiki sitelink title '어니스트 러더퍼드'.",
+      "url": "https://www.wikidata.org/wiki/Q9123"
+    },
+    {
+      "id": "src_rutherford_eve1939",
+      "kind": "biography",
+      "title": "A. S. Eve, Rutherford: Being the Life and Letters of the Rt Hon. Lord Rutherford, O.M. (Cambridge University Press, 1939), Internet Archive OCR full text (Digital Library of India scan, item dli.csl.3544), downloaded whole and read by chapter with targeted searches -- by Rutherford's former McGill colleague and authorised biographer, working from the preserved letters. Used for: the 1902 McGill work with Soddy and Soddy's own 1933 recollection of it, Prof. Norman Shaw's 1937 account of the McGill Physical Society meeting, the 1903 Soddy book episode, the 6 Jan 1907 letter to Hahn, C. G. Darwin's 1938 recollection of the 1911 calculation, the 1910 Marconi expert-witness episode, the 7 Mar 1919 letter to J. J. Thomson about the Cavendish chair, the April 1925 Royal Institution lecture, and Rutherford's 1933 remarks to the Royal Society on the word 'isotope'. Rutherford's own letters quoted in it are self-testimony (counted as one perspective with the rest of his writings).",
+      "url": "https://archive.org/details/dli.csl.3544"
+    },
+    {
+      "id": "src_rutherford_evechadwick1938",
+      "kind": "biography",
+      "title": "A. S. Eve and J. Chadwick, 'Lord Rutherford, 1871-1937', Obituary Notices of Fellows of the Royal Society vol. 2 no. 6 (Jan 1938) pp. 395-423 -- reprint digitised by the Wellcome Library via the Internet Archive (item b33631104), OCR full text downloaded and read. Two-author obituary by Rutherford's McGill-era colleague Eve and his Manchester/Cambridge collaborator Chadwick. Used for: the Manchester and Cambridge chapters (Geiger as second, the 1919 nitrogen experiments done by Rutherford with Kay's help and supported by control experiments, the 1920 'short-range atoms' deduction later found wrong, the attempts to detect a neutral particle, the satellite-nucleus model 'without real success', the acceptance of a large student body as a duty). Subject-adjacent (his own colleagues, published by a society he had presided over), so weighted below the independent sources.",
+      "url": "https://archive.org/details/b33631104"
+    },
+    {
+      "id": "src_rutherford_feather1940",
+      "kind": "biography",
+      "title": "Norman Feather, Lord Rutherford (Blackie & Son, 1940), Internet Archive OCR full text (item LordRutherford), downloaded and read; foreword by W. H. Bragg. Biography by a Cavendish researcher who worked under Rutherford in his later years. Used for: the Manchester chapter (Bohr's 1912 request to drop his experiment for theory and Rutherford's 1929 statement that he was able to 'encourage Professor Bohr's bold application' of the quantum theory; Rutherford's own account of the older-school objection that a nuclear atom must be unstable) and the epilogue (a 1936 letter advising a colleague against pugnacious papers). Independent authorship from Eve, but the preface says Feather used letters Eve had already sifted and that Chadwick criticised the proofs.",
+      "url": "https://archive.org/details/LordRutherford"
+    },
+    {
+      "id": "src_rutherford_peierls",
+      "kind": "biography",
+      "title": "Rudolf Peierls, 'Rutherford and Bohr' (Rutherford Memorial Lecture, National Physical Laboratory, New Delhi, 10 Nov 1987; reproduced in Current Science 73, 1997 and Resonance, May 2010, pp. 476-487), PDF downloaded and read in full -- a physicist's account of the Rutherford-Bohr correspondence 1912-1937, quoting Rutherford's letters (1913 comments on Bohr's first paper, the 1914 readership, a Dec 1917 letter on his disintegration experiments, his 1919 plan for a Manchester chair, 1920-1936 remarks). Independent of Eve/Feather; used only for Rutherford's science-related behaviour, not for the health or bereavement passages it also contains.",
+      "url": "https://www.ias.ac.in/public/Volumes/reso/015/05/0476-0487.pdf"
+    },
+    {
+      "id": "src_rutherford_kragh2012",
+      "kind": "biography",
+      "title": "Helge Kragh (historian of science, Aarhus University), 'Rutherford, Radioactivity, and the Atomic Nucleus' (arXiv:1202.0954), PDF downloaded and read in full -- scholarly review of Rutherford's science c.1900-1937: the 1902 letter to his mother about keeping in the race, the 1902-03 disintegration theory with Soddy, the 1908 Rutherford-Royds proof, Dec 1910 letter to Boltwood, the May 1911 scattering paper and its stated assumptions, the reception of Bohr's atom and the beta-ray change of mind, the 1919 nitrogen experiments, the 1920s satellite nucleus model, the 1933-37 search for tritium. Independent scholarly perspective; cites letters through Badash, Pais and Stuewer.",
+      "url": "https://arxiv.org/pdf/1202.0954"
+    },
+    {
+      "id": "src_rutherford_aip_manchester",
+      "kind": "institution",
+      "title": "American Institute of Physics, Center for History of Physics, online exhibit 'Rutherford's Nuclear World', section 'Alpha Particles and the Atom' (2011), fetched and read in full -- Manchester 1907-1919: Geiger, Kay and Royds; the 1908 Bumstead letter; Ernest Marsden's recollection (quoted from Birks, Rutherford at Manchester, 1962, p. 8) of being asked to look for reflected alpha particles; William Kay's 1957 interview (quoted from Hughes 2008); Chadwick's oral-history remarks on Rutherford's first public announcement of the nuclear theory; the winter 1910-11 testable predictions; the 1917-19 experiments. Institutional secondary account; Birks and Hughes were not opened (lending-only), so the Marsden and Kay voices are as transmitted by AIP.",
+      "url": "https://history.aip.org/exhibits/rutherford/sections/alpha-particles-atom.html"
+    },
+    {
+      "id": "src_rutherford_aip_cavendish",
+      "kind": "institution",
+      "title": "American Institute of Physics, Center for History of Physics, 'Rutherford's Nuclear World', section on the Cavendish Laboratory years 1919-1937 (page 'Atop the physics wave', 2011), fetched and read in full -- the 1919 succession, the 1919 nitrogen paper's wording, Chadwick's oral-history remark on 'silly experiments', Phillip Dee's oral-history remark on how Rutherford concentrated the laboratory's resources, Mark Oliphant's account of Rutherford in lectures, the 1927 Royal Society address on accelerators, the neutron search 'for more than 10 years'. Institutional secondary account; the oral-history voices are as transmitted by AIP (the AIP oral-history transcripts themselves were blocked and not opened).",
+      "url": "https://history.aip.org/exhibits/rutherford/sections/atop-physics-wave.html"
+    },
+    {
+      "id": "src_rutherford_aip_mcgill",
+      "kind": "institution",
+      "title": "American Institute of Physics, Center for History of Physics, 'Rutherford's Nuclear World', section on McGill 1898-1907 (page 'Exploring Radioactivity', 2011), fetched and read in full -- the team approach with the chemist Soddy, the alpha-particle deflection attempts that first failed, Rutherford's reluctance to state the alpha-helium identity before proof, and his 1907 letter to Hahn about leaving McGill. Institutional secondary account.",
+      "url": "https://history.aip.org/exhibits/rutherford/sections/exploring-radioactivity.html"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_eve1939, src_rutherford_kragh2012, src_rutherford_aip_manchester, src_rutherford_aip_cavendish | Jan 1907, 1908, c.1909, c.1908-14, 1920s | Rutherford's own letter, then Marsden, Kay and Chadwick as quoted by AIP] In Jan 1907 he told Hahn that the alpha-particle problem needed a new method of attack (Eve), and in 1908 he and Thomas Royds tried a different route, collecting alpha particles in a sealed tube and looking at the spark spectrum (Kragh, AIP). Around 1909 he asked Marsden to see whether alpha particles could be reflected from a metal surface, which Marsden later called a hunch he doubted Rutherford expected to succeed. William Kay, his Manchester steward, recalled that on small questions he first tried a rough experiment of his own before turning it over to someone else, and Chadwick recalled that some experiments they did together, which would only have looked silly had they failed, were ones Rutherford never hesitated to try."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_eve1939, src_rutherford_kragh2012, src_rutherford_aip_manchester, src_rutherford_evechadwick1938 | Jan 1907, 1908, 1910-11, 1919 | own letter; Chadwick firsthand via AIP; two-author obituary] In Jan 1907, although he already suspected the alpha particle was helium, he wrote to Hahn that it might yet turn out to be hydrogen and that the question was still undecided (Eve); the 1908 Rutherford-Royds spectroscopy is described by Kragh as the final proof. After conceiving the nuclear atom in winter 1910-11 he derived three testable scattering relations that set the next Geiger-Marsden experiments, and Chadwick recalled that he made no public announcement of it until there was decisive evidence (AIP). For the 1919 nitrogen result, Eve and Chadwick say he supported it with a carefully designed series of control experiments and did the experimental work himself with Kay."
+    },
+    "collaboration": {
+      "score": 76,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_eve1939, src_rutherford_feather1940, src_rutherford_peierls, src_rutherford_aip_manchester | 1901-03, 1911, 1912-17, 1919 | firsthand recollections (Soddy 1933, C. G. Darwin 1938 via Eve) plus secondary accounts] Soddy recalled that within weeks of meeting Rutherford at McGill he abandoned his other work to follow him, and that they then worked closely for more than two years on radioactive change (Eve). C. G. Darwin recalled being asked at once in 1911 to check Rutherford's scattering calculation (Eve), and in 1919 Rutherford asked him to analyse alpha-hydrogen collisions (AIP). In 1912 he agreed when Bohr asked to drop an experiment for theory (Feather); in Dec 1917 he wrote to Bohr that he wished Bohr were there to talk his results over, and in 1914 he invited Bohr to succeed Darwin as reader at Manchester (Peierls, Feather)."
+    },
+    "competitiveness": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_eve1939, src_rutherford_kragh2012 | Jan 1902 | his own 1902 letter (read in Eve and in Kragh) and Soddy's 1933 recollection] On 5 Jan 1902 he wrote to his mother that he had to publish quickly to keep in the race, naming Becquerel and the Curies in Paris as the best sprinters in the field (Eve, Kragh). Soddy recalled that during the thorium X work Rutherford, determined not to be outdone by a chemist, shook thoria with gallons of water and boiled the water down to show that physical methods were as good (Eve). After seeing Marconi's June 1902 paper he also drew attention in The Electrician (Oct 1902) to his own earlier work with moving steel wires (Eve)."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_eve1939, src_rutherford_kragh2012, src_rutherford_feather1940 | 1902-03, Dec 1910, 1912-13 | Shaw's 1937 account and Rutherford's own letter and 1929 statement] Prof. Norman Shaw recalled that during the McGill years of the disintegration work colleagues in other departments warned at an open meeting of the Physical Society that Rutherford's transmutation ideas might discredit McGill and advised him to delay publication; he answered warmly, and the joint papers with Soddy appeared in Sept and Nov 1902 (Eve). On 14 Dec 1910 he told Boltwood he could devise an atom much superior to that of J. J. Thomson, under whom he had worked at Cambridge, and published the nuclear scattering theory in May 1911 (Kragh). In 1912-13 he insisted, against the older-school view that a nuclear atom must be unstable, that atoms are stable and nuclear, and was ready to encourage Bohr's unorthodox use of the quantum theory (Feather)."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_aip_mcgill, src_rutherford_eve1939, src_rutherford_kragh2012, src_rutherford_evechadwick1938, src_rutherford_aip_cavendish | 1898-1908, 1920-32, 1933-37 | secondary and two-author obituary] Establishing what the alpha particle was took about a decade: his first attempts to deflect it with electric fields failed, in Jan 1907 he still wanted a new method, and the Royds experiment of 1908 settled it (AIP McGill, Eve, Kragh). After his June 1920 lecture proposing a neutral particle, he and Chadwick made repeated unsuccessful attempts to detect one, which AIP puts at more than ten years (Eve and Chadwick, AIP). From about 1933 his Cavendish group bombarded deuterium looking for tritium, and his last paper (1937) weighed the evidence for it (Kragh). The neutron search was carried out largely by Chadwick."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rutherford_kragh2012, src_rutherford_eve1939, src_rutherford_evechadwick1938 | 1913, 1925 vs 1920-30 | secondary] Kragh reports that Bohr's 1913 argument that beta rays come from the nucleus, not the electron shells, forced Rutherford to change his mind, and in a Royal Institution lecture of 10 April 1925 Rutherford reported Blackett's photographic finding that the alpha particle is captured in the nitrogen disintegration, a reading that replaced his own 1919 picture (Eve, Kragh). Against this, he kept developing a neutral-satellite model of the nucleus through the 1920s, which Eve and Chadwick say he pursued 'without real success' and Kragh calls a blind alley, and his 1920 deduction about short-range particles was later found wrong (Eve and Chadwick). Mixed but leaning toward revising on evidence."
+    },
+    "ambiguity_tolerance": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_kragh2012, src_rutherford_feather1940, src_rutherford_peierls, src_rutherford_evechadwick1938 | May 1911, Mar-Jul 1913, 1920 | his papers and letters as quoted by Kragh, Feather, Peierls] His May 1911 scattering paper went ahead while explicitly setting aside the stability of the atom and the arrangement of its electrons and assuming the sign of the central charge 'for convenience' (Kragh). In March 1913 he told Bohr there was one grave difficulty, how the electron decides which frequency to emit, yet he communicated the paper and later said he could view Bohr's bold application of the quantum theory with equanimity and even encourage it (Kragh, Peierls, Feather). In June 1920 he put forward candidate nuclear constituents that he called purely illustrative (Kragh, Eve and Chadwick)."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_eve1939, src_rutherford_peierls, src_rutherford_aip_cavendish, src_rutherford_evechadwick1938 | 7 Mar 1919, 1919, 1920s-30s | own letter, Peierls, Dee via AIP] On 7 Mar 1919, before accepting the Cavendish chair, he wrote to J. J. Thomson that he wanted a clear mutual understanding about the laboratory and research students, and Thomson replied that he would leave him an absolutely free hand in its management; he became Director as well as professor (Eve). After the war (1918-19) he set out to create a Manchester chair for Bohr while expecting to remain director himself (Peierls). Phillip Dee recalled that when Rutherford saw a line of work opening, as with the neutron and artificial disintegration, all the laboratory's resources were pulled into it (AIP), and Eve and Chadwick say he let outside duties neither interfere with directing the laboratory nor with supervising its work."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rutherford_eve1939, src_rutherford_peierls, src_rutherford_feather1940 | 1903-04, 1910, 1922-23, 1933, 1936 | own letters and remarks; Peierls] In 1903-04, when Soddy's public lectures and planned book used material shared at McGill, Rutherford wrote a firm letter and publication of Soddy's book was postponed until after his own; they remained friends and he later backed Soddy's applications and Nobel Prize (Eve). At the Royal Society in 1933 he openly disagreed with Soddy over calling heavy hydrogen an isotope while acknowledging Soddy's claim to the concept (Eve), and in 1922-23 he told Bohr that a Times editorial on a rival hafnium claim was very wrong and silly (Peierls). On the other side, in 1910 he strongly preferred not to be called as an expert witness in a dispute over his magnetic detector, so as not to be associated with either side (Eve), and in 1936 he wrote that he urged his students against pugnacious habits (Feather)."
+    },
+    "decisiveness": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rutherford_aip_manchester, src_rutherford_aip_cavendish, src_rutherford_peierls | 1908, 1920s, later life | Kay and Chadwick as quoted by AIP; Peierls' characterisation] Kay recalled that around 1908 Rutherford wanted a big water-cooled magnet but dropped the plan at once on learning its cost and looked for another route (AIP). Chadwick said Rutherford never hesitated over trying experiments (AIP), and Peierls, drawing on his letters and acquaintance, says he made decisions easily and firmly and did not reconsider a settled matter. Only one specific episode, plus two general characterisations, so kept at inference level."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ernest-rutherford-loc-bain.jpg",
+    "width": 1193,
+    "height": 1600,
+    "source": "Library of Congress, Prints and Photographs Division, George Grantham Bain Collection (digital ID ggbain.36570), via Wikimedia Commons",
+    "license": "Public domain (US); LOC: no known restrictions on publication",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Rutherford_LOC.jpg",
+    "attribution": "Bain News Service, Library of Congress, George Grantham Bain Collection (ggbain.36570); photographer not credited; date not recorded",
+    "attributionUrl": "https://www.loc.gov/item/2014716719/",
+    "creator": "Bain News Service (photographer not credited)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Rutherford_LOC.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "IDENTITY: Wikidata QID Q9123 verified live through the Wikidata API (wbgetentities, labels/descriptions/claims/sitelinks): en label 'Ernest Rutherford', en description 'New Zealand physicist (1871-1937)', born 1871-08-30, died 1937-10-19, citizenship New Zealand, P18 'Ernest Rutherford LOC.jpg', kowiki sitelink '어니스트 러더퍼드' (the ko-KR display name used here; the Korean Wikipedia article was also fetched and carries that title). Slug collision check: no ernest-rutherford.json in data-pipeline/candidates and no 'rutherford' match in src/data/people. CLASSIFICATION: era 20th_century (active c.1898-1937), matching the niels-bohr and albert-einstein candidate precedent. regionCode western_europe: this project's 11-region vocabulary has no Oceania bucket (Edmund Hillary was held on that gap), but Rutherford's whole professional career was in Canada (McGill 1898-1907) and England (Manchester 1907-19, Cambridge 1919-37) and he is a UK peer, so western_europe follows the UK precedent; nationalityCodes NZ + GB record the birthplace. No region was invented. occupation physicist only (his 1908 Nobel was in Chemistry but no row rests on it and he is not scored as a chemist); fields physics + chemistry because his McGill work with Soddy on radioactive emanations and transformations and the Rutherford-Royds identification of the alpha particle are radiochemistry as well as physics (Kragh, AIP McGill). Tags mentor, leader, nobel_laureate (the last is a fact, not evidence for any row).\n\nEVIDENCE READ: 8 substantive sources actually opened (plus the Wikipedia and Wikidata orientation records): (1) A. S. Eve, Rutherford: Life and Letters (1939), Internet Archive OCR full text downloaded whole and read by chapter with targeted searches; (2) Eve and Chadwick, Royal Society Obituary Notice (1938), Wellcome/Internet Archive reprint, OCR downloaded and read; (3) Norman Feather, Lord Rutherford (1940), OCR downloaded and read for the Manchester chapter, epilogue and preface; (4) Rudolf Peierls, 'Rutherford and Bohr' (1987 lecture; Resonance 2010 PDF) read in full; (5) Helge Kragh, arXiv:1202.0954, read in full; (6-8) three sections of the AIP Center for History of Physics exhibit 'Rutherford's Nuclear World' (Manchester, Cavendish, McGill pages), fetched, saved and searched locally so quoted passages were checked verbatim. AUTHORIAL PERSPECTIVES: Eve, Chadwick (co-author of the obituary; his oral-history remarks reach me only through AIP), Feather, Peierls, Kragh and AIP = 6, all non-self and behavioural. Honest caveats on independence: Eve, Chadwick and Feather are one Cavendish-circle group (Feather's preface says he used letters Eve had sifted and that Chadwick criticised the proofs), so a conservative count is about 4-5 independent perspectives; the AIP pages re-tell Eve, Birks, Hughes and oral histories and are counted as one institutional perspective; embedded firsthand voices (Soddy 1933, Shaw 1937, C. G. Darwin 1938, Geiger, Kay) reach me through Eve and AIP. Rutherford's own letters and papers, wherever quoted, are one self perspective and no row rests on them alone; every row cites at least one non-self voice.\n\nDELIBERATELY EXCLUDED: the Nobel Prize, honours, peerage, the fame of the nuclear atom and any count of students who won prizes (not used for any row); health, death (1937), the death of his daughter, his brothers' drowning and his mother's condition, all present in some sources (no inference drawn); the Academic Assistance Council, the Kapitza detention, DSIR chairmanship and wartime anti-submarine work (civic/political/military, incidental, not scored); the 1933 'moonshine' remark about atomic energy (I saw it only in search-result snippets and never opened a source that carries it, and its wording varies between press reports, so it is not used); the 'string and sealing wax' anecdote (never traced to a checked source). Not scored on purpose: creative_originality (would rest on the fame of the nuclear atom and Nagaoka/Lenard priority questions), achievement_drive and adaptability (evidence overlaps the scored competitiveness, experimentation and persistence rows), resourcefulness (the 1908 magnet-to-Royds episode is already used under decisiveness and experimentation; it would be one event counted again), opportunity_sensing, curiosity, mastery_orientation, risk_tolerance, conflict as a separate high score.\n\nROW QUALITY: 11 rows. Documented rows (experimentation 80, analytical_rigor 76, collaboration 76, competitiveness 74, independent_thinking 72, persistence 74) each rest on at least two distinct dated episodes from at least two different non-self voices; none is above 82 and none rests on a single anecdote. strong_inference rows (belief_updating 60, ambiguity_tolerance 66, leadership_drive 70, conflict_tolerance 62) each rest on two or three distinct dated episodes and each carries stated counter-evidence where it exists (belief_updating: the satellite nucleus model persisted through the 1920s; conflict_tolerance: the 1910 refusal to be an expert witness and the 1936 letter against pugnacious papers), so they are dual_edged or moderate. decisiveness (66) is inference only: one specific episode (Kay on the 1908 magnet) plus two general characterisations (Chadwick, Peierls). The Marsden and Kay quotations come through AIP (Birks 1962 and Hughes 2008 were lending-only and not opened), which is why experimentation is 0.72 rather than higher. Rationales are paraphrased; quoted fragments are kept minimal.\n\nREAL LIMITS: not opened or blocked: J. B. Birks, Rutherford at Manchester (1962); Mark Oliphant, Rutherford: Recollections of the Cambridge Days (1972); E. N. da C. Andrade's 1964 book; Wilson, Rutherford: Simple Genius; Reeves, A Force of Nature (all lending-only at the Internet Archive); the AIP oral-history transcripts (Chadwick, Feather; HTTP 403/redirect block); Bohr's 1958 Rutherford Memorial Lecture and the Royal Society original of the Obituary Notice (Cloudflare block, so the Wellcome/IA reprint was used). No Kapitza or Hahn firsthand text was obtainable. Because the strongest Manchester-period firsthand voices arrive second-hand, no row is scored above 0.72 confidence. No row infers anything from age, illness, family loss, or politics.\n\nPORTRAIT: Wikimedia Commons File:Ernest_Rutherford_LOC.jpg (P18 on Q9123), Library of Congress Prints and Photographs Division, George Grantham Bain Collection, digital ID ggbain.36570 (LOC item 2014716719, title 'Sir Ernest Rutherford', 'no date recorded on caption card', rights advisory 'No known restrictions on publication', read through the LOC JSON API). Commons metadata (imageinfo API, User-Agent set): 3190x4279, Public domain, PD-US 'No known restrictions on publication', copyrighted False; the Commons page confirms it is a single-subject portrait and warns it may not be public domain in countries applying the rule of the shorter term (e.g. Canada, Germany). Date is unrecorded; the caption 'Sir' implies after his 1914 knighthood, and the Bain News Service collection is a press-photo archive, so the legal basis is the same LOC/Bain treatment used for the Shaw and Scott candidates (US public domain), not an author-death-plus-70 claim. Downloaded the original, downscaled with Pillow from 3190x4279 to 1193x1600 (no upscaling), JPEG quality 85, saved as public/portraits/ernest-rutherford-loc-bain.jpg (dimensions of the saved file verified) and looked at it: a single-subject head-and-shoulders photograph of a grey-haired, moustached man in a tweed jacket, consistent with the identified subject. Kind likeness (photograph made from life); identity rests on the LOC caption and Commons file description."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "어니스트 러더퍼드"
+    }
+  }
+}

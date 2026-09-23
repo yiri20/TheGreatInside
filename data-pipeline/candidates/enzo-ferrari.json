@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "enzo-ferrari",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Enzo Ferrari",
+    "aliases": [
+      "Enzo Anselmo Ferrari"
+    ],
+    "wikidataId": "Q181282",
+    "birthYear": 1898,
+    "deathYear": 1988,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business",
+      "sport"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "athletic"
+    ],
+    "tagIds": [
+      "founder",
+      "independent",
+      "leader"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_enzo_wikipedia",
+      "kind": "wikipedia",
+      "title": "Enzo Ferrari -- orientation only (born 18 Feb 1898, died 14 Aug 1988; Italian racing driver and entrepreneur, founder of Scuderia Ferrari and the Ferrari marque); introduction read via the MediaWiki API; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Enzo_Ferrari"
+    },
+    {
+      "id": "src_enzo_wikidata",
+      "kind": "wikidata",
+      "title": "Enzo Ferrari (Q181282) -- identity verified live via the wbgetentities API and a second page fetch: label 'Enzo Ferrari', description 'Italian racing driver and entrepreneur (1898-1988)', born 18 Feb 1898 and died 14 Aug 1988 (Modena), citizenship Italy, occupations racing automobile driver / entrepreneur / industrialist, English aliases 'Enzo Anselmo Giuseppe Maria Ferrari' and 'Il Commendatore', ko label '엔초 페라리', kowiki sitelink; P18 images 'Enzo Ferrari - Wheel of a racing car.jpg' and 'Enzo-Ferrari.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q181282"
+    },
+    {
+      "id": "src_enzo_kowiki",
+      "kind": "wikipedia",
+      "title": "Korean Wikipedia, '엔초 페라리' -- read (introduction via API) only to confirm the conventional Korean spelling; the article title and the Wikidata ko label agree. Orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/엔초_페라리"
+    },
+    {
+      "id": "src_enzo_tavoni_1998",
+      "kind": "press",
+      "title": "Chris Nixon, 'Romolo Tavoni: Enzo's Right-Hand Man', Motor Sport, Nov 1998 (web version) -- interview profile carrying FIRSTHAND recollections (non-self) of Ferrari's secretary from 1950 and later team manager/sporting director, who was among those dismissed in 1961 and stayed on friendly terms afterwards: the 1950 hiring, Ferrari telling department heads their people's failings were their fault, the Hawthorn gearbox exchange, the 1956 Fangio dispute (50-50 prize split, no number-one status), the Jan 1957 Sculati dismissal, the 1961 refusal to name a number-one driver and Tavoni's account of the 1961 dismissals. Tavoni is an interested party (dismissed employee). Fetched with curl and read in full; the Musso/Collins/Mille Miglia and Dino passages were read and are NOT used.",
+      "url": "https://www.motorsportmagazine.com/archive/article/november-1998/42/enzos-right-hand-man/"
+    },
+    {
+      "id": "src_enzo_tavoni_2011",
+      "kind": "press",
+      "title": "Anthony Pritchard, 'Tragic triumph of the Sharknose: Ferrari's 1961 season', Motor Sport, Nov 2011 (web version) -- second interview with the SAME interviewee (Tavoni) as src_enzo_tavoni_1998, so counted as the same perspective: the reluctant move to rear-engined cars ('very reactionary', 'gentle pressure' from Chiti), the 1960 Monaco experimental car, the Ginther non-renewal on Dragoni's report, and a longer, differently worded account of the 1961 walkout (letter via a Modena lawyer, weekly meeting ended early, envelopes with a month's salary, some later taken back). Tavoni's opinions about Laura Ferrari's mental state are NOT used. Fetched with curl and read in full.",
+      "url": "https://www.motorsportmagazine.com/archive/article/november-2011/93/year-shark/"
+    },
+    {
+      "id": "src_enzo_forghieri_nye",
+      "kind": "press",
+      "title": "Doug Nye, 'Mauro Forghieri: Enzo Ferrari's right hand man', Motor Sport, Aug 2019 (web version) -- interview-based profile with FIRSTHAND recollections (non-self) of the racing engineer Ferrari made sole technical head of the racing department on 30 Oct 1961 (aged 26; 'you just do your job and I'll do the rest'), plus Forghieri's account of shouting matches with Ferrari, and Nye's narrative that from 1948 the racing programme was designed to promote road-car sales whose income was reinvested in racing. Forghieri is an interested party (employee, later resigned). Fetched with curl and read in full; Nye's remarks on Mussolini-era politics and Forghieri's family history are not used.",
+      "url": "https://www.motorsportmagazine.com/archive/article/august-2019/90/mauro-forghieri/"
+    },
+    {
+      "id": "src_enzo_ludvigsen_scuderia",
+      "kind": "press",
+      "title": "Karl Ludvigsen, 'The Rise and Fall of Scuderia Ferrari', Forza, 2 Dec 2021 -- historian's account (non-self; drawing on Luca Dal Monte's biography and other cited writers) of the 1929 decision to set up his own racing stable and the pitch to Alfa Romeo's management, the million-lire bank credit for the Modena base, the 1933-34 relationship with Alfa, the commissioning of a low-drag body for the Tipo B at Berlin's AVUS in 1934, and the 1937 Alfa share purchase and December 1937 liquidation. Ferrari's own memoir is quoted in places (self-testimony inside a non-self piece). Fetched with curl and read in full.",
+      "url": "https://www.forza-mag.com/issues/195/articles/the-rise-and-fall-of-scuderia-ferrari"
+    },
+    {
+      "id": "src_enzo_ludvigsen_lampredi",
+      "kind": "press",
+      "title": "Karl Ludvigsen, 'Creating Ferrari's First Championships', Forza, 30 May 2019 -- same author as src_enzo_ludvigsen_scuderia (one historian's perspective), built on FIRSTHAND recollections (non-self) of engineer Aurelio Lampredi and quotations from Forghieri: Lampredi's 1946-47 resignation and terms for returning, the c.1949 proposal for an unsupercharged 4.5-litre car ('a very easy job to convince Ferrari'), the Pirelli grant of about $20,000 for a new V12, the 1951 four-cylinder decision, outside engineers imposed on Lampredi in 1954-55 (Forghieri: 'typical of Enzo Ferrari's management system'), his July 1955 dismissal in the days the Lancia D50 cars changed hands, and the postcard about Alfa Romeo. Passages about Ferrari's illness are NOT used. Fetched with curl and read in full.",
+      "url": "https://www.forza-mag.com/issues/175/articles/creating-ferrari-s-first-championships"
+    },
+    {
+      "id": "src_enzo_p300_biography",
+      "kind": "biography",
+      "title": "Giovanni Talli and Giuseppe Annese, '25 anni senza il Drake. Biografia di Enzo Ferrari' (4 parts, P300.it, 14-20 Aug 2013; Italian, translated by the researcher) -- popular narrative biography (non-self, secondary, uneven sourcing and partly reliant on Ferrari's own memoirs and legend; treated as ONE perspective) read in all four parts: the 1929 founding remark and registration, the Jan 1930 credit and sponsor deals, the 1933 Nuvolari ultimatum and court case, the 1937-39 Alfa exit, the July 1945 Colombo meeting, the mid-1950s US importer decision, the 1959-61 conversion to rear engines, the 1963 Ford talks (as told there), the 1969 Fiat agreement leaving him racing autonomy, and the 1980 turbo decision. Its claims about politics, private life, illness, deaths and an ethnic slur quoted from Ferrari are NOT used. Details that conflict with other sources are noted in provenance.",
+      "url": "https://www.p300.it/25-anni-senza-il-drake-biografia-di-enzo-ferrari-parte-14/"
+    },
+    {
+      "id": "src_enzo_lerner_hagerty",
+      "kind": "press",
+      "title": "Preston Lerner, 'The real story behind \"Ford v Ferrari\"', Hagerty Media, 15 Nov 2019 -- motorsport historian's article (non-self) recounting the 1963 Ford approach largely from Ford negotiator Don Frey's recollections: Ferrari 'let it be known' he wanted a corporate partner, a deal was struck, and he backed out at the last moment; Lerner notes Frey remembered no histrionics. Fetched with curl and read in full; the rest concerns Ford's GT40 programme and is not used.",
+      "url": "https://www.hagerty.com/media/magazine-features/hagerty-magazine/real-story-behind-ford-v-ferrari/"
+    },
+    {
+      "id": "src_enzo_sportscars_tv",
+      "kind": "press",
+      "title": "'Ford Buy Ferrari' (sportscars.tv, unsigned and undated re-hosted period magazine article) -- account reported from Ford negotiator Donald Frey (same Frey perspective as src_enzo_lerner_hagerty): Ford's 1963 structure of two companies, Ferrari's doubts once the talk reached who ran the racing company, his wish that Ford sever ties with Shelby American, and the talks ending by a phone call from Ferrari's lawyer after ten days. Author, date and original publication are not stated, so it counts only weakly and only as corroboration. Fetched with curl and read in full.",
+      "url": "https://sportscars.tv/Newfiles/66fordbuyferrari.html"
+    },
+    {
+      "id": "src_enzo_phelan_slate",
+      "kind": "press",
+      "title": "Matthew Phelan, 'Ford v. Ferrari historical accuracy: Fact vs. fiction', Slate, Nov 2019 -- journalist's fact-check (non-self, secondary) that cites Franco Gozzi, Ferrari's lawyer and chief adviser, via A. J. Baime's 'Go Like Hell' on the manner of the 1963 break-off; also reports Frey's role. Gozzi's account is Ferrari-side and secondhand here. Fetched with curl and read in full.",
+      "url": "https://slate.com/culture/2019/11/ford-v-ferrari-fact-vs-fiction-le-mans-ken-miles.html"
+    },
+    {
+      "id": "src_enzo_biography_com",
+      "kind": "press",
+      "title": "'The True Story of Ford v Ferrari, Carroll Shelby, and Ken Miles', Biography.com (staff article, updated 2026) -- secondary account reporting Gozzi's explanation that a clause requiring Ferrari to seek Ford's approval for racing budgets halted the talks after 22 days, and Ford archivist Ted Ryan's statement that Ferrari backed out at the last second. Same Gozzi perspective as src_enzo_phelan_slate. Fetched with curl and read in full.",
+      "url": "https://www.biography.com/movies-tv/ford-v-ferrari-true-story"
+    },
+    {
+      "id": "src_enzo_autosport_156",
+      "kind": "press",
+      "title": "'Ferrari's first rear-engined Formula 1 success dominated in 1961', Autosport.com Team (Dec 2017) -- press history (non-self) describing Ferrari, who 'believed the horse should pull the cart', embracing rear-engined cars 'grudgingly' after a season of Cooper success, with Chiti's team working in secret over the winter. One sentence (that Chiti organised the walkout over the winter) is inaccurate against other sources and is not used. Fetched with curl and read in full.",
+      "url": "https://www.autosport.com/f1/news/ferraris-first-rear-engined-formula-1-success-dominated-in-1961-4988756/4988756/"
+    },
+    {
+      "id": "src_enzo_fearnley_chiti",
+      "kind": "press",
+      "title": "Paul Fearnley, 'Uncovering the lost genius of Uncle Carlo Chiti', Motor Sport, Sept 2021 (web version) -- profile (non-self) reporting that Chiti 'coaxed Enzo into putting the horse behind the cart', and giving a differing date (November) and outcome (some dismissed managers 'trailed back' after a month) for the 1961 walkout. Fetched with curl and read in full; used for the rear-engine point and as a conflict on the 1961 details.",
+      "url": "https://www.motorsportmagazine.com/archive/article/september-2021/112/uncovering-the-lost-genius-of-uncle-carlo-chiti/"
+    },
+    {
+      "id": "src_enzo_ferrari_com_1969",
+      "kind": "institution",
+      "title": "Ferrari S.p.A., 'A New Partner: Fiat becomes a Ferrari shareholder' (ferrari.com history, 1969) -- SUBJECT-AFFILIATED corporate history page, counted weakly: says he came close to selling to Ford in 1963 and 'backed out, preserving the autonomy of the brand's racing division', and dates the Fiat announcement to 21 June 1969. Used only as weak corroboration. Fetched with curl and read.",
+      "url": "https://www.ferrari.com/en-EN/history/moments/1969/a-new-partner/more"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_enzo_p300_biography, src_enzo_lerner_hagerty, src_enzo_sportscars_tv, src_enzo_phelan_slate, src_enzo_biography_com | 1933; 1963; 1969 | secondary; Ford-side (Frey) and Ferrari-side (Gozzi) accounts] In 1933 he refused Nuvolari's ultimatum to rename the team 'Scuderia Nuvolari-Ferrari' and the dispute reached court (P300). In May 1963 he ended talks with Ford over control of the racing side: the Ford-side account (reported from Frey) says his doubts began when the talk turned to who ran the racing company, and Gozzi says a clause requiring Ford's approval of racing budgets cut the freedom he had been promised; P300 says Fiat's 1969 deal, unlike Ford's, left him full autonomy over racing. Three episodes over 36 years from three perspectives; the sources conflict on the 1963 length, price and manner but agree the issue was control of racing. Ferrari S.p.A.'s own page corroborates only weakly. dual_edged because it kept his racing operation but ended a large source of capital."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_enzo_ludvigsen_scuderia, src_enzo_p300_biography, src_enzo_ludvigsen_lampredi | 1929-30; 1945; c.1949-50 | secondary] In autumn 1929 he set up his own racing stable and pitched Alfa Romeo's management on backing it; it was registered on 29 Nov 1929, and a million-lire bank credit followed (Ludvigsen; P300 agrees on the founding but dates the trigger dinner differently). P300 says he summoned engineer Gioacchino Colombo to Modena in July 1945 to propose building a new racing car, and Ludvigsen says he asked his tyre supplier Pirelli for a grant of about $20,000 to fund a new V12. Three self-started ventures over two decades; only the 1929 founding is corroborated by both authors."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_enzo_ludvigsen_lampredi, src_enzo_tavoni_1998, src_enzo_forghieri_nye | 1954-55; 1961 | secondary + firsthand subordinates] In 1954-55 he had other engineers (Colotti, Massimino) imposed on technical director Lampredi, which Forghieri called typical of Ferrari's management system (Ludvigsen). Tavoni recalls him telling department heads that a poorly working department was their fault, and in 1961 he again refused to name a number-one driver (Tavoni 1998); Forghieri recalls that on 30 Oct 1961 he made a 26-year-old sole technical head, saying 'I'll do the rest'. Three witnesses describe a boss who set direction and kept the final say; Lampredi barely tolerated it, hence dual_edged."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_enzo_tavoni_1998, src_enzo_ludvigsen_lampredi, src_enzo_tavoni_2011, src_enzo_forghieri_nye | 1955-61 | firsthand employees + secondary] When team manager Sculati failed to phone in the Jan 1957 Argentine GP result, Ferrari murmured 'I have to change' that evening and fired him at lunch on his return (Tavoni). Lampredi recalls being summoned one Monday in July 1955 and being a free man by 2:00 p.m.; in late Oct 1961 the dismissals came straight after a weekly meeting at which the signatories' letter went unmentioned (Tavoni 2011; Forghieri/Nye confirm summary dismissals but describe the manner differently); and in autumn 1961 he declined to renew Ginther on Dragoni's report of a chat with a BRM man that Tavoni says was purely social. Four episodes; the last shows speed without checking, hence dual_edged."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_enzo_p300_biography, src_enzo_tavoni_1998, src_enzo_forghieri_nye, src_enzo_tavoni_2011, src_enzo_ludvigsen_lampredi | 1933-1970s | secondary + firsthand subordinates] He stayed in open dispute rather than compromise: with Nuvolari in 1933 to the point of a court case (P300); with Fangio in 1956 over the 50-50 prize split and number-one status (Tavoni 1998); with Hawthorn, whom he warned he could leave if he criticised the gearbox again, and whom he called back after Hawthorn said goodbye, liking a driver 'who spoke for himself' (Tavoni 1998); and with Forghieri, who says Ferrari shouted, he shouted back, and Ferrari sometimes came around (Nye). Against this, the 1961 managers' letter was met with silence and dismissal, not debate (Tavoni 2011), and Lampredi says Ferrari never raised his Mondial side-job (Ludvigsen), so the score is a moderate lean, not a high one."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_enzo_ludvigsen_scuderia, src_enzo_p300_biography, src_enzo_ludvigsen_lampredi, src_enzo_forghieri_nye | 1934; mid-1950s | secondary] In 1934, expecting Alfa's Tipo B to struggle on Berlin's fast AVUS circuit, he commissioned an aerodynamicist to design and build a low-drag body for it (Ludvigsen). P300 says that in the mid-1950s he accepted Luigi Chinetti as exclusive US importer of his road cars, which covered the competition budget, and Ludvigsen says he modified the Lancia D50s handed to him in 1955 into the car used in 1956; Nye adds that from 1948 the racing programme was designed to promote road-car sales whose income was reinvested in racing. Distinct improvisations around limited means, each from one account, hence strong_inference."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_enzo_ludvigsen_lampredi, src_enzo_tavoni_2011, src_enzo_autosport_156, src_enzo_fearnley_chiti, src_enzo_p300_biography | c.1949-50; 1959-61; 1980 | firsthand Tavoni + secondary] Around 1949-50 Lampredi says it was 'a very easy job' to convince him to build an unsupercharged 4.5-litre car. In 1959-61 he moved to rear-engined cars only after a season of Cooper success: Tavoni calls him 'very reactionary' and says he relented under Chiti's gentle pressure, and Autosport says 'grudgingly'. P300 adds that Renault's 1980 results convinced him to adopt a turbo engine. Three changes of approach over three decades, but the best-documented one was slow and reluctant, so a modest lean rather than a high score; dual_edged because the change came only after a season of defeats (Autosport)."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/enzo-ferrari-1920-at-the-wheel.jpg",
+    "width": 1067,
+    "height": 1600,
+    "source": "Unknown photographer, circa 1920 (Enzo Ferrari at the wheel of a racing car), via Wikimedia Commons (uploaded 2024 from a Ferrari fan site; the same photograph as Wikidata P18 'Enzo Ferrari - Wheel of a racing car.jpg')",
+    "license": "Public domain (PD-Italy, PD-1996)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Enzo_Ferrari_1920.jpg",
+    "attribution": "Unknown photographer, circa 1920 (public domain); resized from the 1280x1920 Commons original",
+    "creator": "Unknown photographer",
+    "date": "1920 (as stated on Commons)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Enzo_Ferrari_1920.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "엔초 페라리"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities API call (2026-09-19) for Q181282 plus a second page fetch returned label 'Enzo Ferrari', description 'Italian racing driver and entrepreneur (1898-1988)', born 18 Feb 1898 and died 14 Aug 1988 (Modena), citizenship Italy, occupations racing automobile driver / entrepreneur / industrialist, ko label '엔초 페라리'; the assignment's search-hit QID was correct. SLUG CHECK: ls data-pipeline/candidates showed no enzo-ferrari file, and grep of src/data/people/*.ts for 'ferrari' found only a comment naming the physicist V. Ferrari (roster25.ts) and 'enzo' only an unrelated hit; no collision. CLASSIFICATION: occupation entrepreneur only (the racing career of the 1920s is not scored); fields business and sport (sport because the rows draw on running a motor-racing team and its drivers and engineers, not on his own driving); regionCode southern_europe and era 20th_century follow the live enrico-fermi.json / guglielmo-marconi.json precedents (Italian, active 1920s-1980s); impactDomains, tags (founder, independent, leader) and archetype entrepreneurial_builder are classification only and are tied to the autonomy_need, proactive_agency and leadership_drive rows, not evidence. EVIDENCE READ: 16 source records (3 orientation, 13 substantive incl. one weak subject-affiliated page); all opened. Motor Sport, Forza, Hagerty, Slate, Biography.com, Autosport, P300 and sportscars.tv pages were fetched with curl and read from the raw text; Wikipedia, Wikidata and Korean Wikipedia via API/WebFetch. INDEPENDENT NON-SELF PERSPECTIVES (8): (1) Romolo Tavoni, secretary then team manager/sporting director (Motor Sport 1998 by Chris Nixon and 2011 by Anthony Pritchard = one perspective, same interviewee); (2) Mauro Forghieri via Doug Nye, Motor Sport 2019; (3) Karl Ludvigsen, Forza 2019 and 2021 (two articles by one historian = one perspective, with Aurelio Lampredi's firsthand recollections and Forghieri quotes inside the 2019 piece and Dal Monte's biography inside the 2021 piece); (4) Talli and Annese's Italian biography on P300 (one perspective; popular narrative of uneven rigor); (5) Don Frey, Ford's negotiator, via Preston Lerner (Hagerty) and the unsigned sportscars.tv article (one perspective; the second is weak); (6) Franco Gozzi, Ferrari's lawyer and adviser, via Slate and Biography.com (secondhand, one perspective); (7) Paul Fearnley, Motor Sport 2021 (Chiti profile); (8) Autosport.com team, 2017. Ferrari's own memoirs were not read directly and no row rests on his own words; the subject-affiliated ferrari.com page is corroboration only. At least 6 perspectives are non-self behavioral witnesses with direct or near-direct knowledge (Tavoni, Forghieri, Lampredi, Frey, Gozzi, Chiti via Fearnley). BEHAVIOR-ONLY: rows rest on dated decisions and exchanges (refusing to rename a team, ending the Ford talks over control of racing, firing a team manager after a missed phone call, moving to rear-engined cars only after a season of defeats), not on wins, titles, sales, valuations or fame. EPISODE ECONOMY (max two rows per episode): Ford 1963 supports only autonomy_need; the 1933 Nuvolari dispute supports autonomy_need and conflict_tolerance; the late-Oct 1961 dismissals support decisiveness and appear only as counter-evidence in conflict_tolerance; the 1961 Forghieri appointment supports only leadership_drive; the Pirelli grant supports only proactive_agency (its financing role in resourcefulness rests on separate episodes); the Fangio 1956 dispute supports only conflict_tolerance. CONFLICTS REPORTED, NOT ADJUDICATED: (a) The 1963 Ford talks: length (ten days per Frey, 22 days per Gozzi), price (about $16M asked and $10M offered per the sportscars.tv article vs $18M per P300), manner (ended by a phone call from Ferrari's lawyer per Frey vs walking out after reading a budget-approval clause per Gozzi vs signatures already on the contract per P300), and cause (Shelby and racing control per Frey vs budget approval per Gozzi/P300); all agree the dispute was control of racing; Lerner notes Frey recalled no histrionics. Only the core (control of racing) is used. (b) The 1961 walkout: Tavoni 1998 quotes Ferrari saying 'there is the door, here is your money - OUT!' at the meeting, while Tavoni 2011 says nothing was said at the meeting and envelopes were handed out afterwards; Nye/Forghieri describe a quiet interview with each; the number dismissed is seven or eight, the date is late October (Tavoni: last Tuesday; Fearnley: November), Forghieri dates his appointment Monday 30 Oct 1961 (which would precede a Tuesday 31 Oct meeting), and who was later taken back differs (Tavoni: three at once; Fearnley: some after a month). Only the shared core (summary dismissal of the signatories, Forghieri put in technical charge) is used. (c) The 1929 founding: Ludvigsen dates the trigger dinner 5 Oct 1929 and says Ferrari pitched Alfa in person; P300 places it in Nov 1929 at a Bologna dinner; both give the registration date 29 Nov 1929. (d) The 1939 Alfa exit (left on 6 Sept per museum-type pages vs dismissed in Nov per P300) is not scored. (e) Forghieri says Ford failed to buy Ferrari in 1964 (it was 1963) and Autosport places the walkout 'over the winter'; both details are ignored. EXCLUDED ON PURPOSE: race wins, titles, sales and valuations; Fascist-era and wartime politics and anything about his standing then; his son Dino's illness and death, his wife Laura's health and the private-life material in the biographies and in Tavoni's opinions; the 1957 Mille Miglia and other fatal accidents and the Vatican criticism; the illness passages about Ferrari himself; the Lauda 1976-77 episodes (entangled with Lauda's injuries; the Fuji, Reutemann and 288 GTO story was read in Hagerty UK and Motor Sport 2006 (the Goodwood page was fetched but its body was not extracted) and not used); the 1966 Surtees dispute (accounts conflict); a racial slur reported by P300; his decision to stop attending races (Tavoni dates his last attendance to 1934; not tied to any trait) and his mythologised memoir anecdotes. Read but not cited: Planet F1 and GPToday palace-revolt retellings (popular, partly speculative, contain errors), Speedweek anniversary piece, Design Museum page (Ferrari-partnered exhibition text, apocryphal quotes), Phil Hill pieces (Motor Sport 1997 and 2006, Hagerty 2022), Derek Bell (Motor Sport 2007), Jalopnik, CarBuzz and GearShifters (skimmed). Not obtained: Britannica (HTTP 403), Washington Post/NYT/Guardian obituaries (not accessible), Brock Yates and Luca Dal Monte biographies, Baime's 'Go Like Hell', Frey's and Iacocca's own accounts, Lauda's and Moss's firsthand text, Ferrari's memoirs. SCORING DECISIONS: seven rows. competitiveness was drafted and dropped: the only evidence (his 1950-51 wish to beat Alfa Romeo, in P300 and Ludvigsen's postcard anecdote) is one rivalry, so it could only sit in the 45-55 band, which would misdescribe a racing-team founder. belief_updating was set aside in favour of adaptability because two of the three changes (1949-50, 1980) are changes of approach rather than reversals of a stated position. Persistence, perfectionism, detail_orientation, collaboration and persuasiveness were not scored: the episodes read do not speak to them. autonomy_need 82 rests on three episodes from three perspectives (below the 85+ bar because the 1963 and 1969 accounts are secondary and conflict on details); conflict_tolerance is strong_inference at 0.58 with counter-evidence stated. Every row is documented or strong_inference in line with the rubric section 10 criterion (two or more distinct episodes). The structural validator was run only after all rows were final; no row was changed in response to its output. PORTRAIT: Wikidata P18 'Enzo Ferrari - Wheel of a racing car.jpg' is 332x393; the same photograph exists on Commons as 'File:Enzo Ferrari 1920.jpg' at 1280x1920 (uploaded 2024 by user Wcamp9 from a Ferrari fan-blog page; author 'Unknown', date '1920', tags PD-Italy and PD-1996, category 'Portrait photograph of Enzo Ferrari at the 1920 Targa Florio'); the Commons API imageinfo confirms Public domain and Copyrighted False, and the download was 1280x1920. Legal basis: an unattributed simple photograph of about 1920 (PD-Italy, 20 years after creation) not restored by the URAA (PD-1996). REAL LIMITS: the photographer is unknown, and the 1920 date rests on the Commons uploader (the sibling frame 'File:Enzo Ferrari, XI Targa Florio, 1920.jpg' is dated Oct 1920 with cited sources), so rights are defensible but not airtight; the reviewer may prefer to hold it. It shows Ferrari at about age 22, not the later-life figure. Rejected alternatives: the 1962, 1966 and 1967 Monza photographs (named photographers Moroldo, Lancaster, Schlegelmilch; PD-Italy tags but scans of a 2016 magazine reprint, crowded or full-length frames, and less certain rights for reportage photographs), the CC BY-SA 4.0 'Enzo-Ferrari.jpg' (348x452, uploader 'User', provenance unstated) and other small unknown-author photographs. Downloaded the original with curl (User-Agent set, 2-second pauses), resized with Pillow (LANCZOS) from 1280x1920 to 1067x1600 (no upscaling; JPEG q85), checked the saved dimensions (1067x1600) and viewed the file: a single-subject black-and-white photograph of a smiling young man in work clothes at the wheel of an early racing car. Kind: likeness. KOREAN NAME: '엔초 페라리' is the Korean Wikipedia title and the Wikidata ko label. PRE-VALIDATION SELF-REVIEW: an earlier draft had a competitiveness row and a belief_updating row; both were dropped before any validator run for the reasons above."
+  }
+}

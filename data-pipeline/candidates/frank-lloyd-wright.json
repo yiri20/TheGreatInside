@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "frank-lloyd-wright",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Frank Lloyd Wright",
+    "aliases": [
+      "FLW"
+    ],
+    "wikidataId": "Q5604",
+    "birthYear": 1867,
+    "deathYear": 1959,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect"
+    ],
+    "fieldIds": [
+      "architecture",
+      "design"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "nonconformist",
+      "founder",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_flw_wikipedia",
+      "kind": "wikipedia",
+      "title": "Frank Lloyd Wright (English Wikipedia) -- orientation only: life dates and places (8 June 1867, Richland Center, Wisconsin - 9 April 1959, Phoenix, Arizona), career phases, Taliesin Fellowship 1932. Not used as sole support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Frank_Lloyd_Wright"
+    },
+    {
+      "id": "src_flw_wikidata",
+      "kind": "wikidata",
+      "title": "Frank Lloyd Wright (Q5604) -- Wikidata entity fetched live: label 'Frank Lloyd Wright', description 'American architect (1867-1959)', born 8 June 1867, died 9 April 1959, citizenship United States, image P18 'Frank Lloyd Wright LC-USZ62-36384.jpg'.",
+      "url": "https://www.wikidata.org/wiki/Q5604"
+    },
+    {
+      "id": "src_flw_trust_unity",
+      "kind": "institution",
+      "title": "Frank Lloyd Wright Trust, 'Unity Temple, Frank Lloyd Wright, 1906, Oak Park, Illinois' research report (Wright Plus 2017), researched and written by Mark Scott, drawing on the Unity Temple congregation archives, Oak Park library special collections and scholarship (Siry, Sokol) -- account of the 1905-06 commission, the brick-to-concrete change to fit the board's $36,200 budget, board resistance, the 1906 Oak Leaves description, Wright's mid-construction revisions (stair blocks, aggregate and finish, ceiling bands, organ screen, replaced sections), his divided attention, bids ($32,661 low) and final cost ($60,344.55 excluding lot, organ, mechanical work and fee), the October 1908 completion and September 26, 1909 dedication. PDF downloaded and the design/construction/cost sections read in full as extracted text.",
+      "url": "https://flwright.org/sites/default/files/ckfinder/userfiles/files/Unity_Temple_Research_Paper_2017.pdf"
+    },
+    {
+      "id": "src_flw_carnegie",
+      "kind": "institution",
+      "title": "Carnegie Museums of Pittsburgh, Carnegie Magazine (Mar/Apr 1999), R. Jay Gangewere, 'Edgar J. Kaufmann and Frank Lloyd Wright' -- institutional account of the Kaufmann-Wright relationship: the September 22, 1935 phone call and apprentice Edgar Tafel's recollection of Wright drawing Fallingwater, the reproduced Wright and Kaufmann letters (the 'to hell with the whole thing' exchange), projected cost about $30,000 versus over $70,000, and Kaufmann's later Pittsburgh projects. Fetched and read directly.",
+      "url": "https://carnegiemuseums.org/archive_article/edgar-j-kaufmann-and-frank-lloyd-wright-mar-apr-1999/"
+    },
+    {
+      "id": "src_flw_wpc_econserve",
+      "kind": "institution",
+      "title": "Western Pennsylvania Conservancy, eConserve (Winter 2013), 'Fallingwater Undergoing New Structural Monitoring' -- institutional account of the 1936 cracks after formwork removal, the outside engineers Kaufmann hired to review the plans and the steel added to the first-floor cantilever at their recommendation, Wright's explanation and letter, Kaufmann's monitoring 1941-1955, and the 1995-96 Silman evaluation confirming continuing deflection. Fetched and read directly (verbatim passages re-checked).",
+      "url": "https://waterlandlife.org/publications/e-conserve/winter_13/fallingwater.php"
+    },
+    {
+      "id": "src_flw_fallingwater_designing",
+      "kind": "institution",
+      "title": "Fallingwater (Western Pennsylvania Conservancy), 'Designing Fallingwater' -- Wright's December 1934 visit, siting cantilevered over the falls rather than across from them as the Kaufmanns expected, apprentices' accounts that the design was produced in hours, construction ended by fall 1937. Same institution family as the Conservancy source above, so not counted as a separate perspective. Fetched and read directly.",
+      "url": "https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/"
+    },
+    {
+      "id": "src_flw_fallingwater_timeline",
+      "kind": "institution",
+      "title": "Fallingwater (Western Pennsylvania Conservancy), Timeline 1934-1939 -- Kaufmann Jr. joins the Taliesin Fellowship (15 Oct 1934), Wright's first Bear Run site visit (18 Dec 1934), first working drawings (Jan 1936), construction begins (Apr 1936), cantilever pour (Aug 1936), construction completed and Kaufmanns move in (Dec 1937). Same institution family as the two Fallingwater/Conservancy sources; used for dates. Fetched and read directly.",
+      "url": "https://fallingwater.org/history/timeline/"
+    },
+    {
+      "id": "src_flw_ebsco_guggenheim",
+      "kind": "institution",
+      "title": "EBSCO Research Starters (Salem Press, 'Great Events from History'), Susan Benforado Bakewell, 'Wright-Designed Guggenheim Museum Opens' -- scholarly reference account of the 1943 contract, sixteen years of planning, Rebay's 1952 retirement, Guggenheim's 1949 death, financing and site difficulties, building-code battles, the 1957 artists' petition, changes by director Sweeney largely against Wright's will, the marble exterior refused, opening on October 21, 1959 (six months after Wright's death), and Wright's only museum / first major New York commission. Fetched and read in full.",
+      "url": "https://www.ebsco.com/research-starters/history/wright-designed-guggenheim-museum-opens"
+    },
+    {
+      "id": "src_flw_ebsco_taliesin",
+      "kind": "institution",
+      "title": "EBSCO Research Starters (Salem Press), John L. McLean, 'Wright Founds the Taliesin Fellowship' -- reference account of the 1932 founding at age 65 after only two paying clients in nearly five years, 23 fellows gathering in October 1932, the self-sufficient work community, fellows superintending Fallingwater and Johnson Wax, paid public tours, and a demonstration in which sixty tons was loaded on a Johnson Wax column before the permit was issued. Tone is admiring; only its specific facts are used. Fetched and read in full.",
+      "url": "https://www.ebsco.com/research-starters/history/wright-founds-taliesin-fellowship"
+    },
+    {
+      "id": "src_flw_foundation_guggenheim",
+      "kind": "institution",
+      "title": "Frank Lloyd Wright Foundation, 'Concerning the Solomon R. Guggenheim Museum' (21 Oct 2019) -- Foundation-authored introduction (749 drawings; design after design presented and challenged; 1943 Rebay letter) followed by Wright's own 1957 letter. Wright-affiliated institution: the introduction is used only for the drawing count; Wright's letter is self-testimony and is NOT relied on for any row. Fetched and read directly.",
+      "url": "https://franklloydwright.org/concerning-the-solomon-r-guggenheim-museum/"
+    },
+    {
+      "id": "src_flw_foundation_fellowship",
+      "kind": "institution",
+      "title": "Frank Lloyd Wright Foundation, 'The Taliesin Fellowship' (1 Jan 2017) -- account of the 1928 germination of the idea, the grand 'School of the Allied Arts' concept scaled back to the modest 1932 letter, nearly 30 charter applicants, tuition and self-support, daily work list, with recollections by apprentices Curtis Besinger and Yen Liang. Wright-affiliated institution; used for the founding facts only. Fetched and read directly.",
+      "url": "https://franklloydwright.org/the-taliesin-fellowship/"
+    },
+    {
+      "id": "src_flw_pbs_johnson",
+      "kind": "press",
+      "title": "PBS / Florentine Films (Ken Burns), 'SC Johnson HQ: Exterior and Interior' (Frank Lloyd Wright film companion) -- reproduces The Milwaukee Journal, June 4, 1937: Wright superintended, with students, the on-site test of his Johnson Wax column after the Wisconsin industrial commission questioned it (24 tons of sand carried on the first day; engineer Mendel Glickman checked the figures) under the headline about the upside-down column tipping over theories. Fetched and read directly.",
+      "url": "https://www.pbs.org/kenburns/frank-lloyd-wright/sc-johnson-hq-ext-int"
+    },
+    {
+      "id": "src_flw_pbs_larkin",
+      "kind": "press",
+      "title": "PBS / Florentine Films (Ken Burns), 'Larkin: Wright at the Time' (Frank Lloyd Wright film companion) -- editorial text stating Wright built 'bootleg' houses while working for Louis Sullivan and was fired in 1893, plus an excerpt from Wright's own An Autobiography in which he concedes the outside work broke his contract (SELF-TESTIMONY, one perspective; not used as independent support). Fetched and read directly.",
+      "url": "https://www.pbs.org/kenburns/frank-lloyd-wright/larkin-frank"
+    },
+    {
+      "id": "src_flw_willey",
+      "kind": "institution",
+      "title": "Frank Lloyd Wright Foundation blog, Steve Sikora (owner of the Malcolm Willey House), 'Willey House Stories Part 20 - The Struggle' -- client-side account built on Nancy Willey's letters: Wright clientless for about three years before 1934, the Willeys' fixed budget and Wright's total redesign of the unaffordable first scheme, Wright's telegram 'impossible to cut and save the house' when asked to cut seven feet, no on-site supervisor sent. Fetched and read directly; only the Wright-behavior passages are used.",
+      "url": "https://franklloydwright.org/willey-house-stories-part-20-the-struggle/"
+    },
+    {
+      "id": "src_flw_ub_martin",
+      "kind": "institution",
+      "title": "University at Buffalo news release (21 Aug 1997) on the UB Archives exhibit 'My Dear Mr. Wright' curated by Christopher Densmore -- Darwin D. Martin House complex costs ($23,843.42 land; about $149,381 for houses, outbuildings and furnishings, 1903-05 prices), the curator's reference to the inevitable Wright cost overruns, and Martin's close monitoring. Only the cost passages are used; the release's private-life passages are deliberately not used. Fetched and read directly.",
+      "url": "https://www.buffalo.edu/news/releases/1997/08/3504.html"
+    },
+    {
+      "id": "src_flw_docomomo_imperial",
+      "kind": "institution",
+      "title": "Docomomo US Register, 'Imperial Hotel, Tokyo' -- preservation-body description: design from about 1915, construction 1919, floating foundation with reinforced-concrete cantilevered slabs described as entirely new to the Japanese, specially made brick, Oya stone ornament, delays from soil conditions, board tensions and price demands, April 1922 fire, Wright's departure three months later leaving a wing to Arata Endo and Paul Mueller. Fetched and read directly; its statements about post-1923 performance are not used.",
+      "url": "https://www.docomomo-us.org/register/imperial-hotel-tokyo"
+    },
+    {
+      "id": "src_flw_chicagopatterns",
+      "kind": "press",
+      "title": "Chicago Patterns (Rachel Freundt), 'Louis Sullivan, Frank Lloyd Wright, and the Charnley House, Part 1' -- critical local-history essay citing Longstreth, Twombly and others: Wright's 1892-93 bootleg houses in revival styles, Sullivan firing him in 1893 (Wright said he quit), the disputed authorship of the Charnley House, and a summary of the Fallingwater drawing session. Critical tone; only its specific documented items are used, and its general remarks on Wright's candor are not scored. Fetched and read in full.",
+      "url": "http://chicagopatterns.com/louis-sullivan-frank-lloyd-wright-charnley-house/"
+    },
+    {
+      "id": "src_flw_trexler",
+      "kind": "press",
+      "title": "Susie Trexler, 'Frank Lloyd Wright's Bootleg Houses' (Secret Knowledge of Spaces blog, 16 Apr 2018) -- short local-architecture blog: in 1892 Wright worked for Adler & Sullivan under a strict agreement not to take outside commissions, took three houses on the side, and the parting is told two ways (Sullivan fired; Wright quit). Lower-authority source used only as corroboration. Fetched and read directly.",
+      "url": "https://secretknowledgeofspaces.wordpress.com/2018/04/16/frank-lloyd-wrights-bootleg-houses/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.76,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_flw_trust_unity, src_flw_pbs_johnson, src_flw_ebsco_taliesin, src_flw_fallingwater_designing | 1905-06; 1936-37 | secondary] In separate episodes he held to unconventional solutions despite stated doubts from clients or authorities: a poured-concrete church in 1905-06 whose materials frightened some Unity Church board members (Trust); a Johnson Wax column tapering to about nine inches at the floor that the Wisconsin industrial commission questioned, defended by his superintending an on-site load test on 3 June 1937 (Milwaukee Journal as reproduced by PBS; EBSCO); and Fallingwater cantilevered over the waterfall instead of facing it from across the stream as the Kaufmanns expected (Fallingwater.org). Third-party records of behavior, not an inference from reputation."
+    },
+    "creative_originality": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_flw_trust_unity, src_flw_pbs_johnson, src_flw_ebsco_guggenheim, src_flw_chicagopatterns | 1906; 1937; 1959 | secondary; contemporaneous press relayed] Outside observers recorded the departures from convention when they happened: the Oak Leaves newspaper (24 Feb 1906) described Unity Temple as the most radical departure from traditional church architecture yet attempted (Trust); the Milwaukee Journal (4 Jun 1937) headlined that Wright's upside-down column tipped over theories (PBS); the EBSCO account of the 1959 Guggenheim says nothing like its cast-concrete spiral had been seen. Limit: his earliest independent houses (1892) are described as conventional and revival-styled (Chicago Patterns), so the score reflects the mature pattern, not the whole career."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_flw_trust_unity, src_flw_docomomo_imperial, src_flw_pbs_johnson, src_flw_ebsco_taliesin | 1905-08; 1919-22; 1937 | secondary] Tried methods new to the setting and kept adjusting them mid-build: at Unity Temple he made reinforced concrete the visible fabric of a church, then reconsidered the aggregate (a red-granite idea) and changed the finish from a floating finish to an acid wash during construction (Trust); at the Imperial Hotel he used reinforced-concrete cantilevered slabs on a floating foundation, described by Docomomo as a construction type entirely new to Japan; and for Johnson Wax he validated a novel column form with a full-scale load test (PBS; EBSCO)."
+    },
+    "aesthetic_sensitivity": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_flw_trust_unity, src_flw_ebsco_guggenheim | 1906-08; 1943-59 | secondary] Surface, color and display were treated as decisions worth revising and defending: at Unity Temple he weighed red granite in the concrete (which would have tinted the walls rose), settled on the natural concrete color with an acid-washed finish, and showed his Japanese woodblock print collection to congregation members while explaining his ideas (Trust); for the Guggenheim he envisaged a marble exterior (funding refused; painted concrete used) and wanted paintings propped against the ramp walls, while director Sweeney's lighting, color and display changes were imposed largely against his will (EBSCO)."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_flw_ebsco_guggenheim, src_flw_ebsco_taliesin, src_flw_willey | 1943-59; c.1927-34 | secondary + client letters] The Guggenheim commission ran about sixteen years through Rebay's forced retirement (1952), the patron's 1949 death, site and financing difficulties, disputes over city building codes and a 1957 artists' petition, and Wright died six months before the opening (EBSCO Guggenheim). Separately, he built for only two paying clients in nearly five years before 1932 (EBSCO Taliesin) and was clientless for about three years before the 1934 Willey House commission (Sikora, Willey House owner-historian), yet was still practicing when Fallingwater and Johnson Wax arrived."
+    },
+    "perfectionism": {
+      "score": 70,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_flw_trust_unity, src_flw_foundation_guggenheim | 1906-08; 1943-59 | secondary; Wright-affiliated foundation for the second] Two separately documented episodes of iterating past the approved design: during Unity Temple's construction he enlarged the stair blocks and redesigned the dependent flower-box pedestals, revised ceiling bands, column bands and the organ screen, and replaced sections already built, so contractor and board were building from plans that kept changing (Trust); the Foundation counts 749 drawings for the Guggenheim, with design after design presented and challenged. Dual-edged: the Trust records resulting delay and cost growth. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.10): moved from strong_inference 0.56 to inference 0.46 -- only the Unity Temple episode is independently attributable; the Guggenheim drawing count comes from a Wright-affiliated source, is a volume figure, and the iterations were partly client-driven, so a personal standard of finished is inferred, not documented across two independent episodes. Score unchanged."
+    },
+    "planning_orientation": {
+      "score": 38,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_flw_trust_unity, src_flw_carnegie, src_flw_ub_martin | 1906-08; 1936-37; 1903-05 | secondary] Outcome records rather than a stated habit: Unity Temple was let at a $32,661 bid and finished at about $60,345 (excluding lot, organ, mechanical systems and fee) after Wright's mid-construction changes and periods of unavailability (Trust); Fallingwater was projected at about $30,000 and cost over $70,000 (Carnegie); the Buffalo archive curator refers to the inevitable Wright cost overruns on the Martin House (UB). Overruns can have client- or site-driven causes, so this is a low-moderate inference, not a documented planning trait."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_flw_carnegie, src_flw_wpc_econserve, src_flw_trust_unity, src_flw_ebsco_guggenheim | 1906; 1936; 1943-59 | secondary reproducing letters] After Kaufmann had outside engineers review Fallingwater's cantilever in 1936, Wright wrote that without Kaufmann's confidence he would drop the project, and Kaufmann replied in kind and asked him to come to Pittsburgh (Carnegie; WPC); Wright's assistant Charles White wrote that the office had pleaded and argued with the Unity Church committee until worn out (Trust); and newspapers followed Wright's battles with civic authorities, two Guggenheim directors and the trustees over sixteen years (EBSCO). Dual-edged: the same records show client friction and delay, alongside a Kaufmann association that lasted until 1955 (Carnegie)."
+    },
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_flw_pbs_larkin, src_flw_chicagopatterns, src_flw_trexler, src_flw_willey | 1892-93; 1934 | secondary + self excerpt + client letter] While employed by Adler & Sullivan he took house commissions of his own despite the firm's bar on outside work (Wright's own account, reproduced by PBS, concedes he broke the contract; PBS, Chicago Patterns and Trexler describe the bootleg houses), and the 1893 parting is told differently by Sullivan (fired) and Wright (quit). In 1934 a Willey House client asked him to cut seven feet from the design and, per her letter, his telegram answered that it was impossible to cut and save the house (Sikora), although he had earlier redone the first scheme entirely to fit the couple's fixed budget."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_flw_ebsco_taliesin, src_flw_foundation_fellowship | 1928-32 | secondary + apprentice recollections] With only two paying clients in nearly five years, Wright and Olgivanna launched the Taliesin Fellowship in 1932: a residential apprentice community that farmed, quarried and built its own quarters and was expected to be largely self-supporting apart from tuition; a grander 1928 concept was scaled back and the more modest 1932 proposal drew nearly 30 charter applicants, 23 of whom gathered that October (Foundation; EBSCO). EBSCO also credits paid public tours of Taliesin with bringing in clients and allies, among them Herbert Johnson. A documented case of creating an opening rather than waiting for commissions; single enterprise, hence not extreme."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/frank-lloyd-wright-nywts-1954.jpg",
+    "width": 1255,
+    "height": 1600,
+    "source": "Library of Congress, New York World-Telegram and the Sun Newspaper Photograph Collection, via Wikimedia Commons",
+    "license": "Public Domain (NYWTS collection, no known copyright restrictions)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_NYWTS_3.jpg",
+    "attribution": "Al Ravenna, New York World-Telegram and the Sun staff photographer, 1954 (Library of Congress)",
+    "attributionUrl": "https://hdl.loc.gov/loc.pnp/cph.3c16659",
+    "creator": "Al Ravenna",
+    "date": "1954",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_NYWTS_3.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: fetched https://www.wikidata.org/wiki/Special:EntityData/Q5604.json on 2026-09-18 -- label 'Frank Lloyd Wright', description 'American architect (1867-1959)', born 8 June 1867, died 9 April 1959, citizenship United States; the assignment's search-hit QID was correct. SLUG CHECK: ls data-pipeline/candidates showed no frank-lloyd-wright file (only wilbur-wright.json matches 'wright'); grep of src/data/people and data-pipeline for 'Frank Lloyd Wright' / the slug found nothing. ERA: 20th_century, judged from his active career (Prairie period 1900s-1910s through the Guggenheim in 1959); corpus precedent for 1867-1880 births with long 20th-century careers (Einstein, Jung, Churchill) is 20th_century, whereas Wilbur Wright (also 1867) is 19th_century only because he died in 1912. EVIDENCE READ: 16 substantive source records actually fetched and read (plus Wikipedia/Wikidata orientation): Frank Lloyd Wright Trust Unity Temple research report (Scott), Carnegie Magazine (Gangewere), Western Pennsylvania Conservancy eConserve, Fallingwater.org (two pages; same institution family as WPC), EBSCO/Salem reference articles on the Guggenheim (Bakewell) and the Taliesin Fellowship (McLean), Wright Foundation Guggenheim page and Fellowship page (Wright-affiliated), PBS/Florentine Films Johnson Wax and Larkin pages (the latter carries Wright's own autobiography excerpt = self), the Willey House article (Sikora, quoting Nancy Willey), the University at Buffalo Martin exhibit release (Densmore), Docomomo US Imperial Hotel record, Chicago Patterns (Freundt) and a short Trexler blog. Non-self, independent perspectives: at least 10 (Trust/Scott; Carnegie/Gangewere; WPC; EBSCO/Bakewell; EBSCO/McLean; PBS-Florentine incl. the 1937 newspaper text; Sikora/Willey; UB/Densmore; Docomomo; Chicago Patterns). Self perspectives (counted once, never as independent support): Wright's autobiography excerpt on PBS and his 1957 Guggenheim letter on the Foundation page. Every scored row rests on at least two independent non-self perspectives except perfectionism (Trust + Wright-affiliated Foundation), which is therefore rated strong_inference. DELIBERATE EXCLUSIONS: no scoring from fame, number of buildings, awards or influence; no inference from private life, marriages, bereavement or the 1914 Taliesin killings (mentioned in some read sources and ignored); belief_updating was considered and NOT scored because the only strong episode (the 1936 Fallingwater reinforcement dispute) is already the basis of conflict_tolerance and would double-count one anecdote; collaboration, social_assertiveness, persuasiveness and leadership_drive were considered and NOT scored because the non-self evidence was thin or overlapped rows already scored (the Fellowship is used once, in proactive_agency); Wright's self-promotion, the Charnley authorship dispute and the Chicago Patterns remarks on his candor were not scored (contested, and no honesty attribute exists). Cost overruns are used only as an inference-level planning_orientation row because client- and site-driven causes cannot be separated from the sources. Imperial Hotel post-1923 performance was not used (sources disagree). Sources disagree on the required and final Johnson Wax column loads (PBS 1937 text: 24 tons on day one; EBSCO: sixty tons); rows rely only on the shared fact that the column was load-tested on site after the commission questioned it and carried substantial load. LIMITS / BLOCKED: Guggenheim Museum Archives (403), guggenheim.org article pages (cookie/JS shell, no body text), Smithsonian Archives of American Art Tafel oral history (403), Library of Congress item pages (403), SC Johnson corporate page (429), Tafel's book (lending-restricted) were not readable and are not cited; the Tafel Fallingwater recollection is therefore known only through Carnegie Magazine and Fallingwater.org. Wikipedia used for orientation only. PORTRAIT: Wikidata P18 (Frank_Lloyd_Wright_LC-USZ62-36384.jpg, unknown author, c.1926) was checked via the Commons API but NOT used: author unknown and a date/PD-basis mismatch on its file page. A UCLA Los Angeles Daily News portrait (CC BY 4.0) was also downloaded and examined but NOT used because its catalog date (1923-1930) looks inconsistent with the sitter's apparent age and could not be confirmed (UCLA catalog page returned access-denied); its temporary copy was deleted. Selected File:Frank_Lloyd_Wright_NYWTS_3.jpg -- Library of Congress, New York World-Telegram and the Sun Newspaper Photograph Collection, caption 'Frank Lloyd Wright, head-and-shoulders portrait, facing right / World Telegram & Sun photo by Al Ravenna', dated 1954 -- public domain on the same basis this corpus already uses for NYWTS images (LOC: no known copyright restrictions; pre-1968 work for hire by a staff photographer). The LOC item page itself returned 403, so the rights basis rests on the Commons file page text and API metadata (Permission 'PD [1]'). Original 2076x2646 downloaded, downscaled to 1255x1600 JPEG q85, visually checked (single-subject head-and-shoulders likeness of an elderly man consistent with Wright). PRE-COMMIT RUBRIC_CORRECTION (2026-09-18, orchestrator, before any eligibility computation): perfectionism strong_inference 0.56 -> inference 0.46 per rubric sec.10 corpus-wide strong_inference criterion; score unchanged; direction was down."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프랭크 로이드 라이트"
+    }
+  }
+}
