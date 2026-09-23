@@ -403,7 +403,7 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     // researched, evidence_approved, directory-visible people -- zero
     // backlog reuse, zero holds this cycle. All 15 are honestly
     // non-match-eligible, exactly as the recent-cohort publication-vs-
-    // matching architecture diagnostic anticipated. Baselines now 291/290;
+    // matching architecture diagnostic anticipated. Baselines then 291/290;
     // match-eligible set unchanged at 114.
     "alexander-graham-bell",
     "alfred-nobel",
@@ -420,19 +420,41 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "johannes-kepler",
     "karl-benz",
     "marilyn-monroe",
+    // Roster38 (2026-09-23, docs/checkpoints/roster38.md): 15 new, freshly
+    // researched, evidence_approved, directory-visible people -- zero
+    // backlog reuse, zero holds this cycle. Each has whatever eligibility
+    // outcome its own evidence produced (computed by build(), never
+    // gated); all 15 came out non-match-eligible -- an evidence outcome,
+    // not a target. Baselines now 306/305;
+    // match-eligible set unchanged at 114.
+    "alfred-russel-wallace",
+    "ayrton-senna",
+    "david-bowie",
+    "enzo-ferrari",
+    "ernest-rutherford",
+    "frank-lloyd-wright",
+    "george-mallory",
+    "isambard-kingdom-brunel",
+    "james-cook",
+    "jeff-bezos",
+    "konrad-zuse",
+    "leonhard-euler",
+    "rembrandt",
+    "stanley-kubrick",
+    "thor-heyerdahl",
   ]);
 
-  it("still exactly 291 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(291);
-    expect(PEOPLE_INDEX).toHaveLength(291);
+  it("still exactly 306 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(306);
+    expect(PEOPLE_INDEX).toHaveLength(306);
   });
 
-  it("still exactly 290 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 305 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(290);
+    expect(visible).toHaveLength(305);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alfred-russel-wallace",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alfred Russel Wallace",
+    "aliases": [
+      "Alfred Wallace"
+    ],
+    "wikidataId": "Q160627",
+    "birthYear": 1823,
+    "deathYear": 1913,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist",
+      "explorer"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "biology",
+      "exploration"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wallace_wikipedia",
+      "kind": "wikipedia",
+      "title": "Alfred Russel Wallace -- orientation only (dates, field summary); English intro extract read via the MediaWiki API; Korean article title confirmed via the ko.wikipedia API. Not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+    },
+    {
+      "id": "src_wallace_wikidata",
+      "kind": "wikidata",
+      "title": "Alfred Russel Wallace (Q160627) -- identity verified live via the wbgetentities API: en label 'Alfred Russel Wallace', description 'British naturalist, explorer, geographer, anthropologist and biologist (1823-1913)', born 1823-01-08, died 1913-11-07, citizenship Q174193 (UK), ko label '앨프리드 러셀 월리스', P18 'Alfred-Russel-Wallace-c1895.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q160627"
+    },
+    {
+      "id": "src_wallace_dcp_darwin_1857dec",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project, letter DCP-LETT-2192, Charles Darwin to A. R. Wallace, 22 December 1857 (full transcript and editorial notes read). FIRSTHAND, contemporaneous, non-self (Darwin): replies point by point to Wallace's letter of 27 Sept 1857 -- on his attention to distribution, his differing view of former land connections of oceanic islands, his question whether Darwin would discuss 'man', and his expectation of staying 3-4 more years in the East; DCP note 12 records that he returned in 1862 after eight years.",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2192.xml"
+    },
+    {
+      "id": "src_wallace_dcp_darwin_1858jun",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project, letter DCP-LETT-2285, Charles Darwin to Charles Lyell, 18 June 1858 (full transcript and notes read). FIRSTHAND, non-self (Darwin): reports that Wallace 'has to day sent me the enclosed & asked me to forward it to you' (Lyell) and that Wallace does not say he wishes it published; DCP note 3 records that Wallace's covering letter and manuscript are missing and that the date of receipt is debated by scholars (that debate is not used here).",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2285.xml"
+    },
+    {
+      "id": "src_wallace_dcp_lyellhooker_1858",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project, letter DCP-LETT-2299, Joseph Dalton Hooker and Charles Lyell to the Linnean Society, 30 June 1858 (full transcript and notes read; the original manuscript is lost and the DCP text is from the 1859 Journal of the Proceedings of the Linnean Society). FIRSTHAND, non-self (Lyell and Hooker, counted as one perspective): says Wallace's essay was written at Ternate in February 1858 for Darwin and sent 'with the expressed wish that it should be forwarded to Sir Charles Lyell, if Mr. Darwin thought it sufficiently novel and interesting', and calls both authors 'original thinkers in this important line of inquiry'.",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2299.xml"
+    },
+    {
+      "id": "src_wallace_dcp_darwin_1859jan",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project, letter DCP-LETT-2405, Charles Darwin to A. R. Wallace, 25 January [1859] (full transcript and notes read). FIRSTHAND, non-self (Darwin): acknowledges Wallace's letters to him and to Hooker, thanks him for offering to look after horses' stripes, is 'delighted' Wallace has collected bees' combs and asks for specimens; DCP note 9 records that Wallace apparently sent bee specimens.",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2405.xml"
+    },
+    {
+      "id": "src_wallace_dcp_wallace_1867feb",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project, letter DCP-LETT-5416, A. R. Wallace to Charles Darwin, 24 February [1867] (full transcript and editorial notes read). The letter itself is Wallace's own (SELF, one perspective) and is used only for what he proposed (conspicuous caterpillar colours as a signal of distastefulness, and two experiments); the independent support is the DCP editorial notes (note 4: John Jenner Weir ran the experiments in the summers of 1867 and 1868 and read a paper on them in 1869-70; Descent 1: 417).",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-5416.xml"
+    },
+    {
+      "id": "src_wallace_dcp_darwin_1867feb",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project, letter DCP-LETT-5420, Charles Darwin to A. R. Wallace, 26 February [1867] (full transcript and notes read). FIRSTHAND, non-self (Darwin): 'I never heard any thing more ingenious than your suggestion'; notes he had 'failed to convince' Wallace that sexual selection was the main agent forming human races; DCP note 1 records that Bates advised Darwin to ask Wallace and that Descent 1: 416 credits Wallace with 'an innate genius for solving difficulties'; note 5 records Darwin's 1864 attempt to convince Wallace on the same point.",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-5420.xml"
+    },
+    {
+      "id": "src_wallace_dcp_darwin_1869mar",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project, letter DCP-LETT-6684, Charles Darwin to A. R. Wallace, 27 March [1869] (full transcript and notes read). FIRSTHAND, non-self (Darwin): comments on Wallace's letter of 24 March 1869 and his forthcoming Quarterly Review article, and says Wallace would not deviate 'a hair's breadth from his conviction to please any Editor in the world'.",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-6684.xml"
+    },
+    {
+      "id": "src_wallace_dcp_darwin_1869apr",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project, letter DCP-LETT-6706, Charles Darwin to A. R. Wallace, 14 April 1869 (full transcript and notes read). FIRSTHAND, non-self (Darwin): reacts to Wallace's Quarterly Review article (a review of Lyell's Principles and Elements of Geology, with Cuvier extracts, Croll on glacial dating, denudation and the age of the earth, Lamarck, natural selection and remarks on man); 'As you expected I differ grievously from you'; also praises Wallace's exposition of natural selection.",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-6706.xml"
+    },
+    {
+      "id": "src_wallace_dcp_darwin_1869essay",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project editorial essay 'Darwin in letters, 1869: Forward on all fronts' (section 'Natural selection and humans: differences with Wallace' read). Editors' summary that in the Quarterly Review article Wallace argued certain human capacities could not have arisen by natural selection and invoked a guiding power, that Darwin 'differ[ed] grievously', and that the two kept a cordial correspondence. Same DCP editorial perspective as the letter notes; used to corroborate, not as an independent second author.",
+      "url": "https://www.darwinproject.ac.uk/letters/darwins-life-letters/darwin-letters-1869-forward-all-fronts"
+    },
+    {
+      "id": "src_wallace_linnean_1858",
+      "kind": "institution",
+      "title": "Linnean Society of London, 'The 160th anniversary of the presentation of On the tendency of species to form varieties' (Eleanor Marshall, intern, 1 Jul 2018) -- institutional retelling used ONLY for the meeting facts (read on 1 July 1858; neither Darwin nor Wallace present; Wallace 'away in the Moluccas'); the page's own summary of the essay's arrival repeats the DCP account and is not counted as an independent perspective. Fetched and read in full.",
+      "url": "https://www.linnean.org/news/2018/07/01/1st-july-2018-160th-anniversary-of-the-presentation-of-on-the-tendency-of-species-to-form-varieties"
+    },
+    {
+      "id": "src_wallace_bates_1863",
+      "kind": "biography",
+      "title": "Henry Walter Bates, The Naturalist on the River Amazons (1863), Project Gutenberg #2440 HTML edition (full text downloaded; the passages mentioning Wallace located by search and read in context: the 26 April 1848 departure, the 26 Aug 1848 Tocantins excursion, the June 1849 separate trips, the Barra reunion and the Rio Negro / Solimoens division of routes in 1850). FIRSTHAND, non-self (Bates, Wallace's travelling companion). The book was not read end to end.",
+      "url": "https://gutenberg.org/files/2440/2440-h/2440-h.htm"
+    },
+    {
+      "id": "src_wallace_vanwyhe_sketch",
+      "kind": "biography",
+      "title": "John van Wyhe, 'Alfred Russel Wallace. A biographical sketch', Wallace Online (wallace-online.org) -- scholarly biographical essay by the historian of science who edits Wallace Online; read in full. NON-SELF, secondary, but draws on Wallace's own notebooks, letters and My Life; covers the 1848 Amazon plan, the 1852 ship fire and its insurance, the 1854 government-funded passage, the 1858 essay and its sending to Darwin, and later divergences from Darwin (1869-70, 1878, 1880, 1889). Its polemical passages about 'hero worship' and about the Bedford Level and spiritualism are not used.",
+      "url": "https://wallace-online.org/Wallace-Bio-Sketch_John_van_Wyhe.html"
+    },
+    {
+      "id": "src_wallace_ali_paper",
+      "kind": "biography",
+      "title": "John van Wyhe and Gerrell M. Drawhorn, ''I am Ali Wallace': The Malay Assistant of Alfred Russel Wallace', Journal of the Malaysian Branch of the Royal Asiatic Society 88(1) (2015): 3-31 -- scholarly reconstruction of Wallace's assistants, itinerary and accounts from his journals (Linnean Society MS178), field notebooks (NHM), published book and letters; PDF text-extracted and read in full except the reference list. NON-SELF, secondary; much of its narrative traces back to Wallace's own records, so it is a scholarly reading of Wallace's documents, not an independent eyewitness.",
+      "url": "https://darwin-online.org.uk/people/2015,%20John%20van%20Wyhe,%20I%20am%20Ali%20Wallace.pdf"
+    },
+    {
+      "id": "src_wallace_allen_paper",
+      "kind": "biography",
+      "title": "Kees Rookmaaker and John van Wyhe, 'In Alfred Russel Wallace's Shadow: His Forgotten Assistant, Charles Allen (1839-1892)', JMBRAS 85(2) (2012): 17-54 -- scholarly article quoting the Royal Geographical Society letterbook (H. N. Shaw to Lord John Wodehouse, 16 Feb 1854) and Wallace's Notebook 5 accounts for Allen's 1860-62 collecting. PDF text-extracted; the introduction, the 1854 passage, the Borneo years, the 1860-62 arrangement and the accounts sections were read; the later-life sections on Allen were only skimmed. NON-SELF, secondary (same scholarly circle as src_wallace_ali_paper and src_wallace_vanwyhe_sketch).",
+      "url": "https://darwin-online.org.uk/people/2012,%20Rookmaaker%20&%20van%20Wyhe,%20In%20Wallace's%20shadow,%20Charles%20Allen.pdf"
+    },
+    {
+      "id": "src_wallace_osborn_1913",
+      "kind": "biography",
+      "title": "Henry Fairfield Osborn, 'Alfred Russel Wallace, 1823-1913', Popular Science Monthly (December 1913), 523-537, transcription/scan hosted on Charles H. Smith's Wallace site at Western Kentucky University -- contemporaneous obituary essay by a Columbia University zoologist; PDF text-extracted and read in full. NON-SELF, secondary; some biographical passages quote Wallace's My Life (self), which are NOT used -- only Osborn's own assessments of the breadth and originality of Wallace's published work (colouration, zoogeography, glacial erosion, anthropology) and of his divergence from Darwin.",
+      "url": "https://people.wku.edu/charles.smith/wallace/obitPopSciMonthly.pdf"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_wallace_dcp_darwin_1857dec, src_wallace_dcp_darwin_1867feb, src_wallace_dcp_darwin_1869apr, src_wallace_dcp_darwin_1869mar, src_wallace_vanwyhe_sketch, src_wallace_osborn_1913 | 1857; 1864-69; 1869-89 | firsthand (Darwin) + secondary (van Wyhe, Osborn)] Darwin's own letters record Wallace holding positions Darwin did not share: on former land connections of oceanic islands (22 Dec 1857), on sexual selection and the human races ('tho' I failed to convince you', 26 Feb 1867, with DCP noting Darwin's 1864 attempt), and on a non-selectionist origin for some human capacities in the 1869 Quarterly Review article ('I differ grievously from you', 14 Apr 1869); on 27 Mar 1869 Darwin wrote that Wallace would not deviate a hair's breadth from his conviction to please any editor. Van Wyhe and Osborn separately describe later departures from Darwin (1869-70 human origins, 1878 sexual selection, 1880 dispersal). dual_edged because the human-origins chapter of Darwinism drew harsh contemporary reviews (van Wyhe); whether the positions were correct is not scored."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wallace_dcp_darwin_1867feb, src_wallace_dcp_wallace_1867feb, src_wallace_osborn_1913 | 1858; 1867-78 | firsthand (Darwin, Lyell/Hooker) + editorial notes + secondary] Asked in Feb 1867 about brightly coloured caterpillars, Wallace proposed that conspicuous colour signals distastefulness to birds and suggested experiments; Darwin replied that he had 'never heard any thing more ingenious', DCP notes record that Weir tested it in 1867-68 and that Descent credits Wallace with 'an innate genius for solving difficulties'. Osborn independently lists further colour hypotheses (nest concealment 1868, recognition colours 1878) and the 1893 glacial-erosion theory of lake basins as original contributions, and no priority question is adjudicated or used here."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wallace_allen_paper, src_wallace_vanwyhe_sketch, src_wallace_dcp_lyellhooker_1858, src_wallace_dcp_darwin_1858jun | Feb 1854; Feb-Jun 1858 | archival letter + secondary; firsthand (Lyell/Hooker, Darwin)] In Feb 1854 the RGS secretary wrote to the Foreign Office that Wallace would accept the government's passage offer and asked that it cover his assistant and go to Singapore rather than Australia, and van Wyhe says his London contacts secured the government funding. In 1858 he sent his Ternate essay to Darwin with the wish that it be forwarded to Lyell if Darwin thought it novel and interesting (Lyell/Hooker; Darwin, 18 June). Two distinct episodes of seeking out patrons for his work."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wallace_allen_paper, src_wallace_ali_paper | 1854; 1860-62 | secondary scholarly, from archival letters and Wallace's notebooks] In 1854 he obtained a government-paid passage through the RGS for himself and his teenage assistant Charles Allen and had the destination changed from Australia to Singapore. In 1860 he set Allen to collect independently on what the authors infer was a predetermined-payment arrangement; Notebook 5 accounts show 4480.64 guilders paid for specimens and 702.07 for travel, and van Wyhe and Drawhorn document him using assistant Ali as a scout and buyer (Aru 1857, Bouru 1861)."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wallace_bates_1863, src_wallace_dcp_darwin_1859jan, src_wallace_ali_paper | 1848-50; Jan 1859 | firsthand (Bates, Darwin) + secondary] Bates records sailing with Wallace on 26 Apr 1848, making the Tocantins excursion together from 26 Aug 1848 and, at Barra in 1850, 'arranged our plans' so that Wallace took the Rio Negro and Bates the Solimoens. Darwin's 25 Jan 1859 letter thanks Wallace for offering to look after horses' stripes and is delighted he has collected bees' combs, asking for specimens; van Wyhe and Drawhorn add that Wallace left bird-shooting to assistants while he collected insects. Wallace's own accounts of these arrangements are not used."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_wallace_allen_paper, src_wallace_ali_paper | 1860-62 | secondary scholarly, from NHM notebooks] The authors describe Wallace's Notebook 5 as holding itemised accounts for Allen's collecting (specimen classes, amounts paid, travel costs) and assistants' wages, and a Nov 1861 Sumatra entry on hornbills that records iris and orbit colours distinguishing the sexes. Both records sit in one notebook and are reported by one scholarly circle, so scored as inference rather than strong_inference."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wallace_osborn_1913, src_wallace_vanwyhe_sketch, src_wallace_dcp_darwin_1869apr | 1853-1893; 1869 | secondary + firsthand (Darwin)] Osborn (1913) describes The Malay Archipelago as broad in 'anthropology, zoology, botany and physiography' and discusses Wallace's work on animal colouration, zoogeography, glacial erosion and the origin of language; van Wyhe independently lists books on Amazon palms (1853), animal distribution (1876) and island biogeography (1880). Darwin's 14 Apr 1869 letter responds to a Wallace review ranging over Cuvier, Croll's glacial dating, denudation, Lamarck and natural selection. Later social-reform and spiritualist writing is not counted."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_wallace_vanwyhe_sketch, src_wallace_dcp_darwin_1857dec | 1852-54; Dec 1857 | secondary + firsthand (Darwin)] Van Wyhe records that the 1852 ship fire destroyed almost all of his personal collection (his agent had insured it for about 200 pounds) and that after only eighteen months in England he set off again to collect in Southeast Asia; Darwin's 22 Dec 1857 letter says Wallace expected to remain in the East 3 or 4 more years, and DCP notes he returned in 1862 after eight years. One dated setback-and-return plus a stated plan, so scored as inference; nothing is inferred from illness or hardship."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alfred-russel-wallace-lscp-c1895.jpg",
+    "width": 1094,
+    "height": 1600,
+    "source": "London Stereoscopic and Photographic Company studio photograph, first published in Borderland Magazine, April 1896, via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alfred-Russel-Wallace-c1895.jpg",
+    "attribution": "London Stereoscopic and Photographic Company, c. 1895 (first published in Borderland Magazine, April 1896)",
+    "creator": "London Stereoscopic and Photographic Company",
+    "date": "c. 1895",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alfred-Russel-Wallace-c1895.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "IDENTITY: Wikidata QID Q160627 verified live before scoring via the wbgetentities API (label 'Alfred Russel Wallace', description 'British naturalist, explorer, geographer, anthropologist and biologist (1823-1913)', born 1823-01-08, died 1913-11-07, citizenship UK, ko label '앨프리드 러셀 월리스', P18 'Alfred-Russel-Wallace-c1895.jpg'); the Korean Wikipedia article title '앨프리드 러셀 월리스' was confirmed through the ko.wikipedia API. Slug check: no data-pipeline/candidates/alfred-russel-wallace.json existed; grep of src/data/people/*.ts found Wallace only inside comments about Darwin (roster3.ts) and an unrelated LANL director named Terry Wallace (roster34.ts), so no roster entry for this person. CLASSIFICATION: occupations naturalist and explorer; fields natural_science, biology and exploration (exploration only because the Amazon and Malay Archipelago fieldwork is scored in the rows above); region western_europe and era 19th_century follow the shipped charles-darwin.json precedent (GB, 19th_century, western_europe). Tags explorer, field_researcher, cross_disciplinary; self_taught deliberately omitted because van Wyhe stresses Wallace's regular schooling. EVIDENCE READ: 15 substantive records plus Wikipedia/Wikidata orientation. Darwin Correspondence Project letters and notes (eight letter records, each read in full with its footnotes, plus one editorial essay whose Wallace section was read) carry three independent firsthand perspectives: Darwin (six letters = ONE perspective), Lyell and Hooker (joint 1858 letter = one perspective) and the DCP editors (notes/essay, corroboration only). Bates 1863 is a fourth firsthand non-self perspective (passages naming Wallace read in context, not the whole book). Van Wyhe's biographical sketch, van Wyhe and Drawhorn (2015) and Rookmaaker and van Wyhe (2012) are ONE scholarly perspective (van Wyhe's circle) and are secondary readings of Wallace's own journals, notebooks, letters and books, so they are not independent eyewitnesses; Osborn (1913) is a fifth, contemporaneous scholarly perspective (his quotations from My Life are not used). The Linnean Society page is an institutional retelling of the DCP account and is not counted as independent. INDEPENDENT PERSPECTIVES: 5 (Darwin; Lyell/Hooker; Bates; van Wyhe circle; Osborn). NON-SELF BEHAVIORAL sources: all of them; Wallace's own letter of 24 Feb 1867 (src_wallace_dcp_wallace_1867feb) is self and is used only for what he proposed, with the independent support taken from Darwin's reply and the DCP editors' notes. EXCLUDED ON PURPOSE: fame and the 'co-discoverer of natural selection' status; whether Darwin or Wallace had priority, the Ternate essay's date of receipt and every conspiracy or defence narrative about it; the 1858 fever and all later illness, poverty, bereavement and the end of his engagement; spiritualism, anti-vaccination, land nationalisation and other later advocacy (mentioned only where a source lists his books); the 1870 Bedford Level wager; species counts, specimen totals and other outcome figures as behavior; Wallace's own My Life and Malay Archipelago as support (they appear only inside scholars' quotations); the assistants' wages and Wallace's remarks on Malays (not scored; van Wyhe and Drawhorn treat them as conjectural or as generalisations). LIMITS: Wallace Correspondence Project/Epsilon letters from Bates, Spruce and Samuel Stevens were not read (Epsilon search needs JavaScript and the wallaceletters.myspecies.info and wallacefund.myspecies.info pages returned HTTP 403), so the 1852 fire and the Stevens insurance rest on van Wyhe's sketch alone; Richard Spruce's writings, the Royal Society and Nature obituaries (paywalled or unreadable), Slotten, Raby and Shermer were not read; the NHM Wallace page (read through the WebFetch summary) gave no usable behavioral detail and is not cited. Darwin's letters of 1 May 1857 and 25 June 1858 were read in full but not cited. Not every row is dense: detail_orientation and persistence are single-source inferences (0.46) and collaboration rests on two firsthand accounts plus one secondary; no attribute was scored from the Amazon narrative alone. Rows were scored and locked before the structural validator was run; no eligibility output was consulted. PORTRAIT: Commons File:Alfred-Russel-Wallace-c1895.jpg (fetched file page and API imageinfo): London Stereoscopic and Photographic Company (active 1855-1922), c. 1895, first published in Borderland Magazine, April 1896; Commons states Public domain (PD-1923 / PD-old-70-expired: public domain in its country of origin as term life+70 or fewer, and in the United States because published before 1 January 1931; Public Domain Mark 1.0). The author is a studio firm, so no personal death date exists; the basis is the 1896 publication date and the firm's corporate authorship, and the c. 1895 date is Commons' approximation. Original 2293x3355 downloaded from upload.wikimedia.org and downscaled with Pillow to 1094x1600 (long edge 1600, JPEG q85); the saved file was viewed and shows a single seated elderly bearded man in round spectacles, consistent with Wallace's late-life appearance and the Commons identification. Kind: likeness (a studio photograph made from life about 18 years before his death). Other public-domain portraits (1860s, 1878) were not needed. ORCHESTRATOR REVIEW (2026-09-23, before any eligibility computation): removed the 1858 Lyell/Hooker 'original thinker' clause and its citation from the creative_originality rationale because it sits inside the priority story this profile deliberately excludes; the row stands on the 1867 caterpillar-colouration exchange and Osborn; no score/confidence/evidenceType/impact changed."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앨프리드 러셀 월리스"
+    }
+  }
+}

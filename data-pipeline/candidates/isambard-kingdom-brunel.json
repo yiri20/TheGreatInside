@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "isambard-kingdom-brunel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Isambard Kingdom Brunel",
+    "aliases": [
+      "I. K. Brunel"
+    ],
+    "wikidataId": "Q207380",
+    "birthYear": 1806,
+    "deathYear": 1859,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_brunel_wikipedia",
+      "kind": "wikipedia",
+      "title": "Isambard Kingdom Brunel -- orientation only (dates, nationality, occupations, career outline); not used as support for any scored row. Fetched and read.",
+      "url": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel"
+    },
+    {
+      "id": "src_brunel_wikidata",
+      "kind": "wikidata",
+      "title": "Isambard Kingdom Brunel (Q207380) -- identity verified live through the wbgetentities API: label 'Isambard Kingdom Brunel', description 'British mechanical and civil engineer (1806-1859)', instance of human, born 9 Apr 1806, died 15 Sep 1859, citizenship United Kingdom of Great Britain and Ireland, ko label and kowiki title '이점바드 킹덤 브루넬', P18 'IKBrunelChains.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q207380"
+    },
+    {
+      "id": "src_brunel_ice_obit",
+      "kind": "institution",
+      "title": "Institution of Civil Engineers, obituary memoir of Isambard Kingdom Brunel (1860), as transcribed on Grace's Guide -- contemporaneous professional-body memoir, NON-SELF. Read in full: Thames Tunnel 'gallantry and presence of mind', the Clifton design verified by two mathematicians, the broad gauge as 'one of the hardest fought engineering contests on record', 'unremitting' attention to detail, the Archimedes experiments that convinced him of the screw, the South Devon atmospheric failure and his refusal of fees, and an old friend's assessment of his self-reliance and 'carelessness of contemporary public opinion'. The memoir is an admiring in-house obituary; its adjectives are treated as characterization, not episode evidence.",
+      "url": "https://www.gracesguide.co.uk/Isambard_Kingdom_Brunel"
+    },
+    {
+      "id": "src_brunel_gooch",
+      "kind": "archive",
+      "title": "Sir Daniel Gooch, Diaries of Sir Daniel Gooch, Baronet (London: Kegan Paul, Trench, Trubner, 1892), Internet Archive OCR full text -- FIRSTHAND account by Brunel's locomotive superintendent on the Great Western Railway from Aug 1837; NON-SELF (an employee and self-described friend, so admiring, but independent of Brunel as author). Text downloaded; Chapter II (pp. 33-71) read closely wherever Brunel is named: the 1837-38 engine failures and Gooch's separate report, the Christmas blast-pipe trial before the 9 Jan 1839 shareholders' meeting, the 1843 launch of the Great Britain, the 1845-46 Gauge Commission, the 1847 South Devon opening and the closing tribute of 1859. OCR is noisy; page numbers are taken from the running heads.",
+      "url": "https://archive.org/download/diariesofsirdani00goocrich/diariesofsirdani00goocrich_djvu.txt"
+    },
+    {
+      "id": "src_brunel_beamish",
+      "kind": "archive",
+      "title": "Richard Beamish, Memoir of the Life of Sir Marc Isambard Brunel (London: Longman, 1862), Internet Archive OCR full text -- FIRSTHAND account by an engineer who joined the Thames Tunnel works as a volunteer on 7 Aug 1826 and worked beside Isambard Brunel until 1828; NON-SELF (a friend and colleague, admiring). Text downloaded and read closely at pp. 228-263 (Sept 1826 silt bursts, the boiler burst, the 18 May 1827 first irruption and rescue, the diving-bell work, the 12 Jan 1828 second irruption). Beamish's own journal is one of his stated bases, so his narrative is one perspective.",
+      "url": "https://archive.org/download/memoiroflifeofsi00beamuoft/memoiroflifeofsi00beamuoft_djvu.txt"
+    },
+    {
+      "id": "src_brunel_bramwell",
+      "kind": "institution",
+      "title": "Sir Frederick Bramwell, 'The South Devon Atmospheric Railway', paper read to the Institution of Mechanical Engineers, Plymouth, 25 July 1899 (with the discussion), Internet Archive OCR full text -- retrospective engineering-history paper by a senior engineer with no tie to Brunel; NON-SELF, secondary. Read: every passage naming Brunel and the surrounding technical account, covering the 19 Aug 1844 recommendation, the 1845 Select Committee, the 1846-47 pumping-engine and valve difficulties, the 19 Aug 1848 report against extension, the suspension of atmospheric working after 9 Sep 1848, and Bramwell's own judgement of Brunel's reasoning.",
+      "url": "https://archive.org/download/southdevonatmos00bramgoog/southdevonatmos00bramgoog_djvu.txt"
+    },
+    {
+      "id": "src_brunel_stephenson1844",
+      "kind": "archive",
+      "title": "Robert Stephenson, Report on the Atmospheric Railway System (London, 9 Apr 1844), Internet Archive OCR full text -- primary document by a contemporary engineer (also Brunel's friend and opponent); NON-SELF. Read: the introduction and his seven closing conclusions (the system 'is not an economical mode of transmitting power' and is unsuited to long lines). Used only to document the position Brunel later departed from; says nothing about Brunel's own behaviour.",
+      "url": "https://archive.org/download/reportonatmosph01stepgoog/reportonatmosph01stepgoog_djvu.txt"
+    },
+    {
+      "id": "src_brunel_life1870",
+      "kind": "biography",
+      "title": "Isambard Brunel (his son), The Life of Isambard Kingdom Brunel, Civil Engineer (London: Longmans, 1870), Project Gutenberg #41210 full text -- FAMILY-AUTHORED and largely built from Brunel's own reports, letters and diary, so SELF/AFFILIATED: counted as one perspective and never the sole support for a row. Read closely: the 1833-35 Great Western Bill chapters, the Great Britain chapter (Oct 1838 iron decision, Oct 1840 screw report, the 12 Jun 1839 letter on engine-making, Dundrum Bay Dec 1846-Aug 1847) and the whole atmospheric-system chapter (Aug 1844 and Aug 1848 reports). Other chapters were searched, not read.",
+      "url": "https://www.gutenberg.org/cache/epub/41210/pg41210.txt"
+    },
+    {
+      "id": "src_brunel_dnb",
+      "kind": "biography",
+      "title": "Robert Harrison, 'Brunel, Isambard Kingdom', Dictionary of National Biography vol. 7 (1886), Wikisource transcription -- reference-work biography, NON-SELF but compiled from the ICE memoir and the 1870 Life (its own bibliography), so not an independent perspective. Read in full; used for corroborating characterizations only ('excessive indifference to public opinion', restive under restraint on invention). Its figure of ninety-six consecutive hours in the tunnel differs from Beamish and is not used.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Brunel,_Isambard_Kingdom"
+    },
+    {
+      "id": "src_brunel_lindahall_russell",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'Scientist of the Day: John Scott Russell' (9 May 2019) -- short library-blog account of the Brunel/Scott Russell partnership on the Great Eastern; NON-SELF, secondary, unsigned in the fetched text. Read in full apart from photo credits. Its statement that Brunel was 'extremely prickly' when he felt uncredited is an editorial characterization and is used only as a counterweight signal at inference level.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/john-scott-russell/"
+    },
+    {
+      "id": "src_brunel_bristol_letterbooks",
+      "kind": "institution",
+      "title": "University of Bristol Special Collections blog, Emma Howgill, 'Isambard Kingdom Brunel's Letter-Books and the S.S. Great Eastern' (10 Nov 2020) -- archivist's account of the six Great Eastern letter-books (DM1306) held at the Brunel Institute, with dated examples (Dec 1854 Piazzi Smyth letter, Jun 1856 letter on visitors). NON-SELF, secondary; the University holds the Brunel papers and co-runs the Brunel Institute, so it is not fully arm's-length. Read in full.",
+      "url": "https://specialcollections.blogs.bristol.ac.uk/2020/11/10/isambard-kingdom-brunels-letter-books-and-the-s-s-great-eastern/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_brunel_stephenson1844, src_brunel_bramwell, src_brunel_life1870, src_brunel_gooch, src_brunel_ice_obit | 1838; 1843; 1844; 1845-46 | primary document + institutional + firsthand colleague + family account] Robert Stephenson's report of 9 Apr 1844 concluded that the atmospheric system was not economical and was unsuited to long lines; on 19 Aug 1844 Brunel recommended it to the South Devon directors for their 52-mile line (Bramwell dates the recommendation; the words 'full and entire responsibility' are from his report as reproduced in the family-authored Life). Gooch names Stephenson, Locke and Bidder as the leading engineers opposed to the broad gauge (1845-46), says that 'the world would not believe in' the Great Western steamship of 1838 and that Dr Lardner 'proved' she could not cross the Atlantic, and that at the 1843 launch of the Great Britain 'every one blamed' Brunel for building so large a ship; the ICE memoir calls the gauge 'one of the hardest fought engineering contests on record' and an old friend there says his self-reliance and carelessness of contemporary opinion were 'carried to a fault'. Scored as behaviour under dissent, not on whether he was right; dual_edged because the atmospheric trial was abandoned in 1848 and the broad gauge lost."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brunel_gooch, src_brunel_ice_obit, src_brunel_life1870 | Oct 1838; Christmas 1838; summer-Oct 1840 | firsthand colleague + institutional + family account] Gooch records that he and Brunel spent most of a Christmas Day (placed before the 9 Jan 1839 meeting, so 1838) forging a cross-shaped blast-pipe tip that Brunel thought would work better, and that 'nothing succeeded so well as the plain round orifice'. The ICE memoir says Brunel's experiments on board the Archimedes convinced him that the screw suited large vessels; the Life adds that about three months of trials of several screw forms preceded his report of 1 Oct 1840, and that in Oct 1838 he had a voyage in the iron Rainbow reported on before the company chose iron. The two independent sources agree that he tested candidate designs rather than deciding on argument alone."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_brunel_gooch, src_brunel_ice_obit, src_brunel_bramwell, src_brunel_life1870 | 1837-38; Christmas 1838; Oct 1840; Aug 1848 | firsthand colleague + institutional + secondary] Several documented reversals on engineering questions: after Gooch's separate report condemned the first broad-gauge engines Brunel sent an angry letter but then consented to Gooch designing the new stock (Gooch); the cross-shaped blast tip was not adopted once the plain orifice did better (Gooch); the ICE memoir says the Archimedes trials convinced him to switch the Great Britain to screw propulsion (Board adoption 1 Oct 1840, Life); and after the valve failure he reported on 19 Aug 1848 that he did not recommend extending the atmospheric system (Bramwell, Life). Held near the middle because he kept the atmospheric trial running for four years and did not abandon the broad gauge after the 1846 Gauge Commission (Gooch), so updating on test results is documented but updating under opposition is not."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_brunel_beamish, src_brunel_gooch, src_brunel_ice_obit, src_brunel_life1870 | 12 Jan 1828; 1843; 1844 | firsthand colleague + institutional + family account] Beamish, on duty in the Thames Tunnel, records from Brunel's own account that on 12 Jan 1828 he 'ventured at high water' to open the ground at No. 1 frame, judging that faster progress would also be safer and counting on his best men; the ground gave way, the tunnel flooded and six men died. In Aug 1844 he took 'full and entire responsibility' for recommending an unproven traction system for a whole line (Life). Gooch says the commercial world thought him extravagant but that great things are not done by those who count every cost; the ICE memoir names 'a seeking for novelty' where a known model would have served his besetting fault. Counterweight: a 12 Jun 1839 letter in the Life urged the Great Western Steam-Ship directors to caution about building their own engines, so the appetite was for technical novelty rather than unmanaged spending."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_brunel_beamish, src_brunel_gooch, src_brunel_ice_obit, src_brunel_bramwell, src_brunel_life1870 | 8-13 Sep 1826; 1838-46; 1844-48; Dec 1846-Aug 1847 | firsthand colleague + institutional + family account] Beamish logs fifty-three hours of near-constant attendance for the first Sept 1826 silt difficulty and says Isambard's demands were still heavier: apart from a few hours he 'never left the works' until the 13th. Gooch and the ICE memoir document his prolonged defence of the broad gauge through the Gauge Commission of 1845-46, including a joint written answer to the commissioners' report; Bramwell and the Life show the atmospheric trial kept running from Aug 1844 to his 19 Aug 1848 report. The Life alone adds that in Dec 1846 he went to the stranded Great Britain at Dundrum Bay and guaranteed the first expense of a breakwater himself before the ship floated on 27 Aug 1847. Dual_edged because the same tenacity kept two contested commitments alive after they were losing."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_brunel_beamish, src_brunel_ice_obit | early Sept 1826; 18 May 1827; 12 Jan 1828 | firsthand colleague + institutional] Beamish records two immediate interventions by Brunel in the Thames Tunnel: when a boiler feed-pipe burst he seized packing and a timber, jumped on the boiler, pressed the packing over the fissure with the timber wedged against the roof and hung on it until weight could be fitted, so the engine kept working; and at the first irruption he 'hesitated not a moment' before sliding down the shaft with a rope to an engine man in the water. The ICE memoir independently credits his 'presence of mind' on more than one occasion when the river broke in, and the 12 Jan 1828 decision to open the ground at high water was a fast judgement call that went badly. Rapid action in emergencies is documented; his slower design decisions (months of Archimedes trials) are not scored here."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_brunel_ice_obit, src_brunel_gooch, src_brunel_dnb | 1859-60; 1886 | institutional + firsthand colleague + reference biography] Three period characterizations agree without naming one episode of original conception: the ICE memoir credits the 'boldness and originality' of his conceptions and names 'a seeking for novelty' his besetting fault; Gooch, writing of his death in 1859, calls him the man 'of the greatest originality of thought'; the DNB says he was restive under restraint on invention. His two headline technologies were taken from others (F. P. Smith's screw, Clegg and Samuda's atmospheric system), so what is evidenced is an appetite for novel solutions, not sole authorship of them; Gooch does call the Great Western steamship 'a design of Mr. Brunel's' and the Great Britain one of his 'large ideas', while the one small idea he describes testing with Brunel (the cross-shaped blast tip) failed. Inference-level; the DNB is derived from the ICE memoir and the Life."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_brunel_ice_obit, src_brunel_bristol_letterbooks | 1860; 1852-59 | institutional + archivist] The ICE memoir says his attention to the details of even the smallest works was 'unremitting', a characterization with no episode attached. The Bristol archivist documents a practice: he had every piece of correspondence sent or received about the Great Eastern copied into six letter-books, and reads them as showing his attention to detail. Two independent characterizations plus one documented record-keeping practice, but no specific instance of a detail caught or a standard enforced, so held at inference level."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_brunel_gooch, src_brunel_bristol_letterbooks, src_brunel_lindahall_russell, src_brunel_ice_obit | 1838-46; Dec 1854; 1855-56 | firsthand colleague + archivist + library blog + institutional] Gooch records working with Brunel by themselves on the blast-pipe trial, a joint written answer with Saunders to the Gauge Commission's report (1846), thank-you letters (1844), and Brunel leaving him free to redesign the stock after Gooch's critical report; the Bristol archivist records Brunel devising navigational instruments for the Great Eastern with Airy and Piazzi Smyth (letter of 9 Dec 1854). Against this, the Linda Hall piece describes him as 'extremely prickly' about credit in the Scott Russell partnership (1855-56), and the ICE memoir names Russell and Boulton and Watt as co-operators who finished the ship. Mixed and partly characterization, so held near the middle."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/isambard-kingdom-brunel-howlett-1857.jpg",
+    "width": 1220,
+    "height": 1600,
+    "source": "The Metropolitan Museum of Art, New York (Gilman Collection, Purchase, Harriette and Noel Levine Gift, 2005; accession 2005.100.11), via Wikimedia Commons",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Robert Howlett, 'Isambard Kingdom Brunel Standing Before the Launching Chains of the Great Eastern', albumen silver print, taken 1857, printed 1863-64. The Metropolitan Museum of Art, Open Access (CC0).",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/283083",
+    "creator": "Robert Howlett",
+    "date": "1857",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:-Isambard_Kingdom_Brunel_Standing_Before_the_Launching_Chains_of_the_Great_Eastern-_MET_DP-510-026.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q207380 verified live before scoring: wbgetentities API returned label 'Isambard Kingdom Brunel', description 'British mechanical and civil engineer (1806-1859)', instance of human (Q5), born 9 Apr 1806, died 15 Sep 1859, citizenship United Kingdom of Great Britain and Ireland (Q174193), en and ko sitelinks; the Korean label and the kowiki sitelink title both read 이점바드 킹덤 브루넬, confirming the conventional Korean spelling. The name-search hit had also surfaced photographs/paintings, which are not this entity. Slug collision check: no isambard-kingdom-brunel.json (nor any brunel file) in data-pipeline/candidates and no Brunel name/slug in src/data/people. REGION/ERA: GB, regionCode western_europe (UK/Ireland/Nordic precedent; the shipped GB candidate james-cook.json uses the same); era 19th_century (active c.1826-1859, born 1806, died 1859). EVIDENCE READ: 9 substantive sources beyond the Wikipedia/Wikidata orientation entries, all opened and read (downloaded or fetched full text; the long OCR books were grepped for every mention of Brunel and the relevant chapters read closely, not every page): ICE 1860 obituary via Grace's Guide (institutional, non-self); Daniel Gooch's 1892 Diaries ch. II (firsthand colleague, non-self); Richard Beamish's 1862 Memoir of Marc Brunel, pp. 228-263 (firsthand colleague, non-self); Bramwell's 1899 IMechE paper on the South Devon atmospheric railway (retrospective, non-self); Robert Stephenson's 9 Apr 1844 atmospheric report (primary document, non-self, used only to document the position Brunel departed from); the 1870 Life by his son (family-authored, largely Brunel's own reports and letters: SELF/AFFILIATED, one perspective, never the sole support of a row); the 1886 DNB entry (non-self but derived from the ICE memoir and the Life, so not independent); a Linda Hall Library blog piece on Scott Russell; and a University of Bristol Special Collections blog on the Great Eastern letter-books (the University holds the papers, so not fully arm's-length). Independent non-self perspectives: four substantive (ICE, Gooch, Beamish, Bramwell, each with dated episodes), plus Stephenson (single narrow document), Linda Hall and Bristol (thin, characterization-level); the Life and DNB do not add perspectives. Non-self behavioural sources: Gooch, Beamish, Bramwell and the ICE memoir. This clears the 2-perspective / 1-non-self-behavioural bar. SCORING NOTES: nine rows. Confidence follows the rubric section 10 rule: strong_inference only where two or more independently verifiable distinct episodes from unaffiliated sources support the row (belief_updating: Gooch x2, ICE, Bramwell; decisiveness: Beamish x2, ICE; collaboration: Gooch, Bristol, ICE/Linda Hall); creative_originality and detail_orientation rest on period characterizations and one record-keeping practice, so they are inference (0.45). The broad-gauge contest is used in independent_thinking and persistence as different aspects (dissent vs sustained defence), and the atmospheric episode appears in independent_thinking, belief_updating and persistence for three different behaviours (recommendation against Stephenson, reversal in Aug 1848, four-year continuation); rows were not split further. The ICE memoir, Gooch and Beamish are all admiring 19th-century accounts by friends or professional bodies; the hagiographic tone was read past and adjectives were not used as episodes. EXCLUDED ON PURPOSE: the 1828 tunnel injury, his health strain, stroke and death in 1859, family and private life (no personality inference from any of them); the commercial and financial outcomes of the Great Eastern and the atmospheric line; scale, length and tonnage figures and output volume (miles of railway, number of works) as behaviour; the structures themselves (bridges, ships, tunnels are accomplishments, behaviour is scored); the working-hours anecdotes as such (his '20 hours a day' letter and the DNB's 96-hour figure) because they are self-reported or differ from the firsthand log; first/only/last claims (for example 'first iron-and-screw ocean liner'); the Renkioi hospital (sources blocked or thin) and the Clifton competition detail (Historic England blocked). Political and military content was not used. LIMITS: L. T. C. Rolt's biography is lending-only on the Internet Archive (401) and was not read; Historic England, Britannica, the IET E&T article, New Civil Engineer and PubMed pages were blocked or returned only a cookie page (a PubMed abstract via the NCBI E-utilities was seen but not used); Gooch, Beamish, Bramwell and Stephenson are OCR text with occasional noise (e.g. 'Brunei' for Brunel) and were checked against surrounding sentences; the Life's page numbers were not recorded, chapters are cited by content and date; the 1 Oct 1840 report is the Life's date and the Great Britain's iron and screw decisions rest mainly on the family account, corroborated for the screw by the ICE memoir. PORTRAIT: the Wikidata P18 file IKBrunelChains.jpg is only 461x707. Searched Commons; selected the Metropolitan Museum's Open Access scan 'File:-Isambard Kingdom Brunel Standing Before the Launching Chains of the Great Eastern- MET DP-510-026.jpg' (Commons API and File page both read: CC0, Robert Howlett 1857, printed 1863-64, Met accession 2005.100.11, original 2852x3857). The photographer, Robert Howlett (1831-1858), died over 160 years ago, so the underlying photograph is public domain independent of the Met's CC0 release; the Commons category also tags the Met's other scans PD-old-100-expired. The scan shows the mounted print with the Met's mount and a printed signature; it was cropped to the photographic image (2100x2755 px at native resolution), then downscaled with Pillow to 1220x1600 (no upscaling) and saved as JPEG quality 85. The saved file was viewed and shows a standing man in a top hat with a cigar before large iron chain links, the well-known Howlett photograph of Brunel; kind 'likeness' (photographed from life, Nov 1857)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이점바드 킹덤 브루넬"
+    }
+  }
+}

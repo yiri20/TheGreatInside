@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jeff-bezos",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jeff Bezos",
+    "aliases": [
+      "Jeffrey Preston Bezos"
+    ],
+    "wikidataId": "Q312556",
+    "birthYear": 1964,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bezos_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jeff Bezos (English Wikipedia; orientation only, fetched via REST summary; used to confirm identity and that a Korean-language article titled 제프 베이조스 exists)",
+      "url": "https://en.wikipedia.org/wiki/Jeff_Bezos"
+    },
+    {
+      "id": "src_bezos_wikidata",
+      "kind": "wikidata",
+      "title": "Jeff Bezos (Q312556) -- 'American business magnate (born 1964)', instance of human, born 1964-01-12, citizenship United States; enwiki and kowiki sitelinks confirmed live via the Wikidata API (orientation only)",
+      "url": "https://www.wikidata.org/wiki/Q312556"
+    },
+    {
+      "id": "src_bezos_stone_nbc",
+      "kind": "biography",
+      "title": "Brad Stone, excerpt from Chapter 1 ('The House of Quants') of The Everything Store: Jeff Bezos and the Age of Amazon (2013), as published by NBC News / Morning Joe on 15 Oct 2013 -- independent biographer's account, built on interviews with colleagues, of Bezos's pre-Amazon career (Fitel, Bankers Trust, a 1989-90 side venture, D. E. Shaw), the 1994 category-selection analysis (list of ~20 categories, choice of books and the criteria used), the conversation with David Shaw, the decision to leave, Seattle rather than California, and the hiring-process practices carried from D. E. Shaw. Bezos's own regret-minimization quote inside it is sourced by Stone to a 2001 Bezos interview and is treated as self-testimony. Fetched and read in full (an excerpt, not the whole book).",
+      "url": "https://www.nbcnews.com/id/wbna53283862"
+    },
+    {
+      "id": "src_bezos_ramo_time1999",
+      "kind": "press",
+      "title": "Joshua Cooper Ramo, 'Jeffrey Preston Bezos: 1999 Person of the Year', TIME, 27 Dec 1999 -- contemporaneous independent magazine profile; used only for the report that he quit his job at a New York investment firm in 1994 to start an online bookselling business and that investors thought he was crazy. Fetched and read in full.",
+      "url": "https://time.com/archive/6737319/jeffrey-preston-bezos-1999-person-of-the-year/"
+    },
+    {
+      "id": "src_bezos_kaphan_geekwire",
+      "kind": "press",
+      "title": "John Cook (GeekWire), 'Meet Amazon.com's first employee: Shel Kaphan', 14 Jun 2011 -- four-part interview with Amazon's first employee (a firsthand colleague, 1994-99) covering how Bezos recruited him, the quantitative analysis behind choosing books, the three factors behind choosing Seattle, and the naming of the company. All four pages fetched and read.",
+      "url": "https://www.geekwire.com/2011/meet-shel-kaphan-amazoncom-employee-1/"
+    },
+    {
+      "id": "src_bezos_businessweek2006",
+      "kind": "press",
+      "title": "'Jeff Bezos' risky bet', BusinessWeek (posted by NBC News 3 Nov 2006; byline not shown on the mirror page) -- contemporaneous independent cover story on Amazon's move into Amazon Web Services and other non-retail services (Mechanical Turk, S3, EC2, Fulfillment by Amazon), Wall Street skepticism, projects the article says came out with a thud (A9, Unbox), and Bezos's stated approach to long-horizon bets. Fetched and read in full.",
+      "url": "https://www.nbcnews.com/id/wbna15536386"
+    },
+    {
+      "id": "src_bezos_levy_newsweek",
+      "kind": "press",
+      "title": "Steven Levy, 'Amazon: Reinventing the Book', Newsweek, 17 Nov 2007 -- independent cover story written from an on-site interview and demonstration at the Kindle launch (Kindle build begun 2004; wireless-service design versus the Sony Reader; the best-seller price point and Penguin's CEO declining to go along with it). Fetched and read in full.",
+      "url": "https://www.newsweek.com/amazon-reinventing-book-96909"
+    },
+    {
+      "id": "src_bezos_carr_fastcompany",
+      "kind": "press",
+      "title": "Austin Carr, 'The Real Story Behind Jeff Bezos's Fire Phone Debacle And What It Means For Amazon's Future', Fast Company (Feb 2015 issue; online 6 Jan 2015) -- independent long-form account based on interviews with more than three dozen current and former employees (Amazon declined to make Bezos or executives available): the 2010-14 Fire Phone project, Bezos's hands-on product decisions, the Dynamic Perspective feature, the 2013 restart, and his Dec 2014 public defense; also one paragraph on earlier pushback over the Kindle cellular connection and free shipping. The fastcompany.com URL returned 403; the article was fetched and read in full from the Internet Archive capture of 6 Jan 2015 at the URL given.",
+      "url": "https://web.archive.org/web/20150106203851/http://www.fastcompany.com/3039887/under-fire"
+    },
+    {
+      "id": "src_bezos_black_ec2",
+      "kind": "press",
+      "title": "Benjamin Black, 'EC2 Origins', personal blog, 25 Jan 2009 -- firsthand account by a former Amazon network engineer/manager who co-wrote the 2003 infrastructure paper: how Bezos received the written papers ('he doesn't do slides'), asked in early 2004 for a more detailed write-up with requests of his own, and how a press release and FAQ followed. Fetched and read in full.",
+      "url": "https://blog.b3k.us/2009/01/25/ec2-origins.html"
+    },
+    {
+      "id": "src_bezos_bishop_geekwire_aws",
+      "kind": "press",
+      "title": "Todd Bishop (GeekWire), 'AWS at 20*: Inside the rise of Amazon's cloud empire, and what's at stake in the AI era', 22 Mar 2026 -- independent long-form history built on interviews with early AWS builders (including Robert Frederick on the 2002 catalog-API decision, Dave Schappell on six-page memos, Rahul Singh on the 2004 PR/FAQ); it also notes that AWS origin stories are disputed. Fetched and read (through the Cape Town/EC2 and later sections; the concluding AI-era sections were not used).",
+      "url": "https://www.geekwire.com/2026/aws-at-20-inside-the-rise-of-amazons-cloud-empire-and-whats-at-stake-in-the-ai-era/"
+    },
+    {
+      "id": "src_bezos_greene_seattletimes_prime",
+      "kind": "press",
+      "title": "Jay Greene, '10 years later, Amazon celebrates Prime's triumph', The Seattle Times, 2 Feb 2015 -- independent business-press account of how Prime began: an engineer's suggestion-box idea, Bezos convening executives in Nov 2004 and setting a proposal deadline of the end of January, the 2 Feb 2005 launch with a note from Bezos, and the Wall Street concern at the time (with a colleague's recollection). Fetched and read in full.",
+      "url": "https://www.seattletimes.com/business/amazon/10-years-later-amazon-celebrates-primes-triumph/"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 82,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bezos_stone_nbc, src_bezos_kaphan_geekwire, src_bezos_bishop_geekwire_aws, src_bezos_greene_seattletimes_prime | 1994, 2002, 2004 | secondary + firsthand colleague recollection] In 1994 he worked from Web-growth figures, listed about twenty candidate product categories and chose books on stated criteria (Stone), and chose Seattle on sales-tax, distribution-proximity and talent grounds (Kaphan, who also relays that Bezos had analyzed several options fairly quantitatively before choosing books). Later he backed opening Amazon's catalog to outside developers in 2002 when nearly all senior leaders objected (Frederick, via Bishop), and in Nov 2004 took an engineer's suggestion-box idea to an executive meeting with a proposal deadline, which became Prime (Greene)."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.76,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bezos_stone_nbc, src_bezos_ramo_time1999, src_bezos_businessweek2006, src_bezos_greene_seattletimes_prime | 1994, 2005-06 | secondary] In 1994 he left a vice-president post at D. E. Shaw to start an online bookstore (Stone), a plan investors thought crazy (Ramo). Prime launched in Feb 2005 with his published note that it would be expensive for Amazon in the short term, amid Wall Street concern (Greene), and in 2006 BusinessWeek described continued heavy spending on new non-retail services despite analyst skepticism, noting that some of the new projects (A9, Unbox) had come out with a thud. Scored dual_edged because the sources record both committed long-horizon bets and uneven results."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bezos_bishop_geekwire_aws, src_bezos_carr_fastcompany, src_bezos_levy_newsweek | 2002, 2007 | firsthand recollection + secondary] Frederick recalls (via Bishop) that in 2002 nearly all senior leaders said no to opening Amazon's catalog to developers, citing cannibalization and educating competitors, and that Bezos answered 'Let's do it.' For the 2007 Kindle, Carr reports that his insistence on a built-in cellular connection was seen by others as an exorbitant flourish, and Levy records Penguin's CEO declining to go along with the $9.99 best-seller price while Bezos said Amazon could sustain it."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bezos_businessweek2006, src_bezos_levy_newsweek | 2005-07 | secondary] BusinessWeek documents Amazon in 2005-06 launching services well outside retail (Mechanical Turk, S3, EC2, Fulfillment by Amazon) alongside ones that reportedly fared poorly (A9, Unbox), with Bezos describing the approach as going down 'a bunch of dark passageways' and occasionally finding something that works. Levy documents the Kindle, built from 2004, as a device-plus-store service with wireless downloads, where the Sony Reader it was compared with required a computer."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bezos_carr_fastcompany, src_bezos_stone_nbc | 1989-94, 2010-14 | secondary] Carr reports that after the first leaders on the Fire Phone's Dynamic Perspective feature did not deliver, their replacements went on a hiring spree and Bezos told the team he did not care how long it took or how much it cost; the company decided around the start of 2013 to scrap most of the early work and start over, and after launch he said publicly it would take many iterations. Stone describes an earlier setback, a 1989-90 side venture that ended when its funding was withdrawn, followed by continued pursuit of his own business until 1994. Scored dual_edged because the same account records team doubts about the feature. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.10): moved from strong_inference 0.55 / score 70 to inference 0.46 / score 66 -- the Fire Phone account rests on anonymous former employees reported by one journalist and the 1989-90 episode is single-sourced (Stone), so there are not two independently verifiable, distinct episodes; direction was down."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bezos_carr_fastcompany | 2010-14 | secondary, single source] Drawing on more than three dozen current and former employees, Carr reports that Bezos personally chose a 13-megapixel over an 8-megapixel camera for the Fire Phone, discussed font sizes and interaction flows with the UI team, and ordered art recognition added to the Firefly feature about a month before launch; a former camera-team member said even the smallest decisions went through him. Single-source, so held at the top of the moderate band; the same account records mixed reactions from team members to this hands-on style."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bezos_black_ec2, src_bezos_bishop_geekwire_aws | 2003-04 | firsthand colleague + secondary] Black, who co-wrote the 2003 infrastructure paper, recalls presenting written papers to Bezos (who 'doesn't do slides'), being asked in early 2004 for a more detailed write-up that included requests of Bezos's own, and then producing a press release and FAQ before build work began. Bishop adds that a PR/FAQ for the storage service had been approved by Bezos before an engineer's first day in early 2004, and that an early product leader recalls a steady cycle of six-page memos with Jassy and Bezos."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jeff-bezos-spheres-2018.jpg",
+    "width": 923,
+    "height": 1343,
+    "source": "Seattle City Council (Flickr), via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Seattle City Council, CC BY 2.0 (photograph of 29 January 2018, cropped)",
+    "attributionUrl": "https://www.flickr.com/photos/seattlecitycouncil/39074799225/",
+    "creator": "Seattle City Council",
+    "date": "2018-01-29",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_(39074799225)_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "IDENTITY: Wikidata QID Q312556 verified live before scoring via the Wikidata API (wbgetentities): en label 'Jeff Bezos', description 'American business magnate (born 1964)', instance of human (Q5), born 1964-01-12, citizenship United States (Q30), enwiki and kowiki sitelinks present; the ko Wikipedia title and ko Wikidata label are both '제프 베이조스'. The assignment's search also surfaced unrelated items; only this human entity was used. SLUG CHECK: no jeff-bezos.json existed in data-pipeline/candidates and no src/data/people file mentions 'bezos' (a case-insensitive filename match on 'jeff' returned only thomas-jefferson.json, unrelated). CLASSIFICATION: living-person precedents (bill-gates, larry-page, steve-wozniak, tim-berners-lee) all use isLiving true, era 'contemporary' and no deathYear; followed here. 'investor' and 'wealth_creation' were deliberately not assigned because no row is scored from investing behavior or wealth. EVIDENCE READ (9 substantive sources actually opened and read, beyond the two orientation entries): Stone/NBC excerpt of The Everything Store (ch. 1 only), TIME 1999 (Ramo), GeekWire four-part Shel Kaphan interview (2011), BusinessWeek 2006 cover story (via NBC News mirror), Newsweek 2007 (Levy), Fast Company 2015 (Carr, read from the Internet Archive capture because the live page returned 403), Benjamin Black's 2009 blog post, GeekWire AWS-at-20 (Bishop, 2026), and The Seattle Times Prime article (Greene, 2015). That is nine distinct authors/perspectives, all non-self and all substantive on behavior; all cited episodes are professional business/technology decisions. Independence: Stone, Ramo, Kaphan, BusinessWeek, Levy, Carr, Black, Bishop and Greene are separate authors/outlets; interviewees inside them (Frederick, Schappell, Singh, Greeley and others) are treated as firsthand voices reported by that author, not as extra independent authors. Several of these pieces also quote Bezos's own words from interviews or letters; those are one self perspective and no row rests on them alone (Stone's regret-minimization quote, which Stone sources to a 2001 Bezos interview, and Bezos's 1997 shareholder-letter language quoted by BusinessWeek were NOT used as support). EPISODE ALLOCATION (each episode supports at most two rows): 1994 founding decision -> opportunity_sensing, risk_tolerance; 2002 catalog-API decision -> opportunity_sensing, independent_thinking; Feb 2005 Prime launch -> opportunity_sensing, risk_tolerance; 2005-06 BusinessWeek portfolio of new services -> risk_tolerance, experimentation; 2004-07 Kindle build and pricing -> independent_thinking, experimentation; 2010-14 Fire Phone -> persistence, detail_orientation; 1989-90 side venture -> persistence; 2003-04 EC2 write-up (Black) and 2004 S3 PR/FAQ (Bishop) -> planning_orientation. STRENGTH CALIBRATION: opportunity_sensing and risk_tolerance rest on three distinct episodes from three or more independent sources each, but were kept below 85 because several supporting accounts are recollections or trade-press summaries rather than contemporaneous records. persistence is strong_inference (two distinct episodes, two sources). detail_orientation rests on a single source (Carr) and is held at 0.55. REAL LIMITS: the sources themselves note that AWS origin stories are disputed (Stone's telling of the AWS story was disputed by Andy Jassy per Bishop), so AWS-related rows credit Bezos only with decisions named colleagues attribute to him (backing the 2002 catalog APIs, requesting write-ups and approving the PR/FAQ in 2003-04), not authorship of EC2/S3 designs; the 2002 internal-objection episode is a single recollection (Frederick, via Bishop) and the EC2 write-up account is Black's memory. The Fire Phone account relies on anonymous former employees and Carr states Amazon declined to make Bezos or executives available. Levy's statement that Amazon took a loss on $9.99 best-sellers is Levy's assessment; Penguin's CEO said he offered no special discount. The 1989-90 side venture is single-sourced (Stone). No row was scored from any Bezos-authored text. BLOCKED/UNREAD OR DELIBERATELY UNUSED: Bloomberg's Stone excerpt and the 1999 NYT Magazine profile (de Jonge) returned 403/robot checks and were not read or cited; NPR's Fresh Air transcript timed out and was not read; the Fast Company original returned 403 (Wayback copy used). Read but deliberately NOT used: the passages about Bezos in Steve Yegge's 2011 platform post (informal recollection with self-described approximate dating and personal characterizations of Bezos, which conflicts with this project's living-person conservatism) and the PBS Frontline Kaphan interview (2020 antitrust opinions, outside scope). EXCLUDED ON PURPOSE (living-person conservatism): net worth, valuation, revenue, profit and stock figures; health, family, marriage and private life (including the family-related context Stone gives around the regret-minimization anecdote); allegations, lawsuits and workplace-treatment or labor controversies; antitrust and market-power critiques; tax matters; political positions and media-ownership controversies; the 2019-20 personal-data episodes; spaceflight, Blue Origin and Bezos Expeditions; and any judgment of character beyond what a named source documents about a specific action. Scores and rows were locked before the structural validator was run; no row was changed in response to validator, eligibility or coverage output. PORTRAIT: Wikidata P18 file 'Jeff Bezos at Amazon Spheres Grand Opening in Seattle - 2018 (39074799225) (cropped).jpg' (923x1343). Commons API imageinfo and the live Commons File page both state CC BY 2.0, author 'Seattle City Council from Seattle', date 29 Jan 2018, source the Flickr photo, and a FlickreviewR 2 review on 18 Apr 2018 confirming cc-by-2.0; the live Flickr page (Seattle City Council, uploaded 29 Jan 2018) shows 'Some rights reserved' with the creativecommons.org/licenses/by/2.0 link. The Commons personality-rights warning is a non-copyright notice and does not affect the license. Original downloaded from upload.wikimedia.org with a project User-Agent and re-saved as JPEG q85 without resizing (the original is already below 1600px; no upscaling), saved size 923x1343 verified. The image was viewed: a single-subject tight crop of a man speaking at a microphone against foliage, with the microphone edge visible; identity rests on the Commons/Flickr caption of an Amazon Spheres opening event photograph. It is a photograph made from life (kind: likeness). PRE-COMMIT ORCHESTRATOR REVIEW (2026-09-23, before any eligibility computation): persistence strong_inference 0.55/70 -> inference 0.46/66 (RUBRIC_CORRECTION, direction down); all other rows accepted as scored."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "제프 베이조스"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-mallory",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "George Mallory",
+    "aliases": [
+      "George Leigh Mallory"
+    ],
+    "wikidataId": "Q311604",
+    "birthYear": 1886,
+    "deathYear": 1924,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "mentor"
+    ],
+    "archetypeIds": [],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mallory_wikipedia",
+      "kind": "wikipedia",
+      "title": "George Mallory -- orientation only (dates, education, Charterhouse teaching, the three Everest expeditions, the disputed origin of 'Because it's there'); not used as support for any scored row. Fetched and read.",
+      "url": "https://en.wikipedia.org/wiki/George_Mallory"
+    },
+    {
+      "id": "src_mallory_wikidata",
+      "kind": "wikidata",
+      "title": "George Mallory (Q311604) -- identity verified live through the Wikidata API (wbgetentities): en label 'George Mallory', description 'English mountaineer (1886-1924)', born 18 Jun 1886, died 8-9 Jun 1924, citizenship United Kingdom, occupations mountaineer and university teacher, P18 'George Mallory.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q311604"
+    },
+    {
+      "id": "src_mallory_recon1921",
+      "kind": "archive",
+      "title": "C. K. Howard-Bury and other members, Mount Everest: The Reconnaissance, 1921 (1922), Project Gutenberg #39421 text (Internet Archive mirror) -- used ONLY for non-self chapters: Howard-Bury's narrative (chapters I-XI, the 1921 expedition leader, independent firsthand) and Major E. O. Wheeler's Appendix II 'The Photographic Survey' (independent firsthand). The book's Mallory-authored chapters XII-XVII are SELF and were not used to support any row. Full text downloaded and every 'Mallory' mention searched and read in context (July-Sept 1921 movements, the Kama and Kharta explorations, the Lhakpa La and Chang La push, Wheeler's notes).",
+      "url": "https://archive.org/download/mounteverestther39421gut/39421.txt"
+    },
+    {
+      "id": "src_mallory_assault1922",
+      "kind": "archive",
+      "title": "C. G. Bruce and others, The Assault on Mount Everest, 1922 (1923), Internet Archive OCR full text -- used for General Bruce's narrative chapters (independent firsthand: the 1922 leader's account of the third attempt and the 7 June 1922 North Col avalanche). Mallory's own chapters IV-VI and X-XI ('The Third Attempt', 'Conclusions') are SELF; chapters X-XI were read for context and to cross-check the snow-testing sequence, but no row rests on them. The OCR is noisy; only clearly legible passages were used.",
+      "url": "https://archive.org/download/assaultonmountev00bruc/assaultonmountev00bruc_djvu.txt"
+    },
+    {
+      "id": "src_mallory_fight1924",
+      "kind": "archive",
+      "title": "E. F. Norton and others, The Fight for Everest 1924 (1925), Internet Archive OCR full text -- used for Norton's chapters II, IV, V, VII (the 1924 leader and Mallory's climbing partner, independent firsthand), Capt. J. G. Bruce's chapter III (dump decision and May 1924 programme, partly relaying Norton) and N. E. Odell's chapter VI (Odell was at Camp IV, independent firsthand). Part II 'Mallory's Letters' is SELF and was not used. The same item is the source of the portrait plate (leaf n275, facing p. 207). Full text searched for every 'Mallory' mention; read in context: April 1924 plan discussions (Kampa, Tinki), May 1924 North Col work, 2-6 June 1924 decisions, Norton's character passage. OCR is noisy.",
+      "url": "https://archive.org/download/fightforeverest10000efno/fightforeverest10000efno_djvu.txt"
+    },
+    {
+      "id": "src_mallory_somervell",
+      "kind": "biography",
+      "title": "T. Howard Somervell, After Everest (1936), Internet Archive OCR full text -- INDEPENDENT FIRSTHAND memoir by a 1922 and 1924 expedition member who shared Mallory's tent in 1922. Read closely: the 1922 tent-mate passage (reading aloud, plans, his view of Mallory's outlook), the trail-breaking to the North Col, the May 1922 slip on the descent, the 7 June 1922 avalanche, and the 1924 diary entries.",
+      "url": "https://archive.org/download/AfterEverest/AfterEverest_djvu.txt"
+    },
+    {
+      "id": "src_mallory_graves",
+      "kind": "biography",
+      "title": "Robert Graves, Good-bye to All That (Jonathan Cape, first published Nov 1929), Osmania University Library scan via the Digital Library of India on the Internet Archive, OCR full text -- INDEPENDENT FIRSTHAND memoir by Mallory's Charterhouse pupil and 1913-14 climbing companion. Read closely: the chapters on Charterhouse and Snowdonia (Mallory as master, reading, magazine, climbing at Pen-y-Pass) and the later mentions.",
+      "url": "https://archive.org/download/in.ernet.dli.2015.80670/2015.80670.Good-bye-To-All-That-An-Autobiography_djvu.txt"
+    },
+    {
+      "id": "src_mallory_aj1924",
+      "kind": "archive",
+      "title": "Alpine Journal vol. 36 (1924) pp. 379-393, 'In Memoriam' -- the obituary of George Herbert Leigh Mallory signed 'R. L. G. I.' (Robert Lock Graham Irving, the Winchester master who took Mallory to the Alps in 1904, per the initials and the text). Independent firsthand for 1904-1911 and a memorial-tone secondary account for the rest; PDF downloaded and read in full for the Mallory entry.",
+      "url": "https://www.alpinejournal.org.uk/Contents/Contents_1924_files/AJ%201924%20Vol%2036%20379-393%20In%20Memoriam.pdf"
+    },
+    {
+      "id": "src_mallory_magdalene",
+      "kind": "institution",
+      "title": "Magdalene College, Cambridge, archive catalogue (AtoM), 'Mallory, George Herbert Leigh' authority record -- institutional biographical summary (Charterhouse assistant master from 1910 teaching English, history and French; May 1923 lecturer and assistant secretary to the Cambridge University Board of Extramural Studies). Used only for those two dated facts. Fetched and read; the digitised letters were not read.",
+      "url": "https://magdalene.maxarchiveservices.co.uk/index.php/mallory-george-herbert-leigh"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mallory_recon1921, src_mallory_fight1924 | Aug-Sep 1921; 2-4 Jun 1924 | firsthand witnesses (Howard-Bury, Wheeler, Norton, Odell)] In Aug 1921 Howard-Bury reports Mallory and Bullock coming down to Kharta because the monsoon made a proper attack impossible, restarting up the valley on 31 Aug, being driven back by bad weather on 12 Sep, and going up again to the Chang La with Wheeler in late Sep (Wheeler mentions the descent from it). In 1924, after the porters refused to go above Camp V, Odell says Mallory went down to Camp III the same day (with Bruce and Irvine) to gather enough porters for an oxygen attempt, and Norton records on the night of 4 Jun that Mallory was 'determined to make one more attempt' if Norton's party failed."
+    },
+    "planning_orientation": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mallory_recon1921, src_mallory_fight1924 | Jul-Sep 1921; Apr-May 1924 | firsthand witnesses (Howard-Bury, Wheeler, Norton, J. G. Bruce)] In July 1921 Howard-Bury found Mallory and Bullock at an 18,000 ft camp 'training the coolies in snow and ice work' while exploring the glaciers, and in Sep Wheeler notes they had gone up the Kharta valley ahead 'to get the bundobust for the final fling going'. In April 1924 Norton says Mallory got the credit for evolving, from their conflicting views, 'a plan which combined all the good points of both' that all the climbers approved, and after the retreat to Base Camp on 12 May Geoffrey Bruce records him drawing up a programme of the movements of each climber and porter party for the next ten days."
+    },
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mallory_recon1921, src_mallory_somervell, src_mallory_fight1924, src_mallory_graves | 1913; 1922; Sep 1921; Apr 1924 | firsthand witnesses] Graves, then a schoolboy, says Mallory 'treated me as an equal' and that he, Mallory and two others published a magazine (Green Chartreuse) in summer 1913; Somervell (1922) describes sharing a tent and taking turns with him breaking trail to the North Col; Wheeler says Mallory rubbed his feet, which had suffered from the cold, for a solid hour after the Chang La descent (Sep 1921). Norton adds that in the April 1924 disagreements over the climbing plan Mallory 'showed throughout these discussions the most perfect patience and tact' and helped produce a plan all the climbers approved."
+    },
+    "aesthetic_sensitivity": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mallory_graves, src_mallory_somervell, src_mallory_fight1924, src_mallory_aj1924 | 1913; 1922; 1924 | firsthand + obituary] Graves (1913) records Mallory introducing him to Shaw, Samuel Butler, Rupert Brooke, Wells, Flecker and Masefield and showing his poems to Edward Marsh at Mallory's rooms; Somervell (1922) says they read aloud to each other from Robert Bridges's The Spirit of Man and 'bits of modern poetry'; Norton (1924) describes 'a nature esthetic and gentle combined with a keen and cultured intelligence'; and Irving's obituary points to Mallory's own writings as proof of his appreciation of 'the beauty and the meaning of what he saw'."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mallory_graves, src_mallory_fight1924, src_mallory_somervell, src_mallory_assault1922 | 1913-14; May 1924; 7 Jun 1922 | firsthand witnesses] Graves, who climbed with him, writes that Mallory 'never lost his almost foolhardy daring; yet he knew all that there was to be known about climbing technique', and Norton records that on the exposed North Col traverse in May 1924 Mallory 'again insisted on taking the lead' while Norton and Odell prepared to hold him from below. On 7 Jun 1922 Mallory, Somervell and Crawford took the party up the North Col slope in fresh monsoon snow after trenching and stamping tests showed no movement, an attempt Bruce reports was judged justifiable because the mountain would probably be safe enough, and which ended in an avalanche that killed seven porters (Somervell, Bruce): willingness to proceed under uncertainty, hedged by tests and belays, hence dual_edged."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mallory_graves, src_mallory_fight1924 | 1913-14; Dec 1923-Apr 1924; early Jun 1924 | firsthand witnesses] Graves says Mallory 'refused to accept' the school tradition of concealed warfare between boys and masters, treated his classes in a friendly way, and was unpopular with house-masters as a result (Graves's view 'in my time at least'). Norton records that Mallory disagreed by correspondence and in repeated discussions with the plan Norton had circulated, and in early Jun 1924 chose Irvine as his oxygen partner for Irvine's mechanical ingenuity and confidence in the apparatus although Norton, who thought Odell the better choice, differed with him; Norton made no attempt to change it."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mallory_recon1921, src_mallory_fight1924 | Aug 1921; May 1924 | firsthand + secondary (Howard-Bury; J. G. Bruce relaying Norton)] In Aug 1921, after climbing a 21,500 ft peak north of the Kama valley and seeing no route on the eastern face, Mallory and Bullock (Howard-Bury) recrossed to the Kharta valley to follow that river to its source and found a valley leading to the north-east ridge. In early May 1924 Bruce, relaying Norton's report, says that when appalling weather stopped the second porter party short of Camp III Mallory decided to form a dump on the glacier a mile short of the camp and send the porters back."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mallory_graves, src_mallory_aj1924, src_mallory_magdalene, src_mallory_somervell | 1913-14; 1921-23; 1922 | firsthand + obituary + institutional] Graves says Mallory 'always managed to find four or five boys in the school' who were out of their element and befriended them; Irving records that he resigned his Charterhouse mastership shortly before the 1921 expedition, Magdalene dates his post as lecturer and assistant secretary in Cambridge's Board of Extramural Studies to May 1923, and Irving describes that work as an effort to bring a university education within reach of poorer working men and women. Somervell adds that Mallory was 'really concerned with social evils'; the motive is Irving's and Somervell's description of the choices, not Mallory's own statement, hence inference."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-mallory-fight-for-everest-1925.jpg",
+    "width": 1127,
+    "height": 1600,
+    "source": "Plate 'George H. Leigh-Mallory' in E. F. Norton and others, The Fight for Everest 1924 (New York: Longmans, Green; London: Edward Arnold, 1925), facing p. 207, page scan via the Internet Archive",
+    "license": "Public domain (published 1925)",
+    "licenseUrl": "https://archive.org/details/fightforeverest10000efno",
+    "attribution": "Photographer not credited in the book; portrait of George Mallory published 1925 in The Fight for Everest 1924 (public domain in the US: published before 1931)",
+    "creator": "Unknown photographer (uncredited)",
+    "date": "published 1925",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/download/fightforeverest10000efno/page/n275.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "IDENTITY: Wikidata QID Q311604 verified live through the Wikidata API (wbgetentities labels/descriptions/claims): en label 'George Mallory', description 'English mountaineer (1886-1924)', born 18 Jun 1886, died 8-9 Jun 1924, citizenship United Kingdom (also Tibet), occupations mountaineer and university teacher, P18 'George Mallory.jpg'; the original name search also returned other people named George Mallory, which were not used. Korean: the Wikidata ko label is '조지 멜러리' but Korean Wikipedia's article title (fetched) is '조지 맬러리', used here. Slug collision check: no george-mallory.json in data-pipeline/candidates and no 'mallory' match in src/data/people. CLASSIFICATION: era 20th_century (active c.1910-1924); western_europe by the UK precedent; occupations explorer + teacher (teacher because the independent_thinking and impact_motivation rows draw on his Charterhouse behaviour; mountaineer is not an available id); field exploration only, following junko-tabei; archetypes left empty because the documented behaviour is route-finding, organisation and literary interest rather than scientific method. EVIDENCE READ (9 source records incl. 2 orientation; 7 substantive, all actually opened, texts downloaded and every 'Mallory' mention searched and read in context, not read cover to cover): Howard-Bury's narrative and Wheeler's Appendix II in Mount Everest: The Reconnaissance 1921; General Bruce's narrative in The Assault on Mount Everest 1922; Norton's, Geoffrey Bruce's and Odell's chapters in The Fight for Everest 1924; Somervell's After Everest; Graves's Good-bye to All That; the Alpine Journal 1924 obituary (signed R. L. G. I.); the Magdalene College archive record (used only for two dated facts). INDEPENDENT NON-SELF PERSPECTIVES: 9 authors (Howard-Bury, Wheeler, C. G. Bruce, J. G. Bruce, Norton, Odell, Somervell, Graves, Irving), all non-self and behavioural; the Magdalene record is institutional secondary. Real caveats on independence: Norton, Bruce and Odell wrote in one Mount Everest Committee volume and Norton, Irving and Somervell wrote in partly memorial tone after his death, so they share an expedition-community context although they are distinct authors and distinct episodes; the Bruce chapter on the May 1924 dump relays Norton's report. SELF material read but not used to support any row: Mallory's chapters XII-XVII (1921 book), chapters IV-VI and X-XI (1922 book) and 'Mallory's Letters' (1924 book). ROW QUALITY: documented rows (persistence, planning_orientation, collaboration, aesthetic_sensitivity) each rest on at least 2 distinct dated episodes and at least 3 different non-self authors (aesthetic_sensitivity pairs two dated episodes, Graves 1913 and Somervell 1922, with two character statements, Norton and Irving); strong_inference rows (risk_tolerance, independent_thinking, adaptability) each rest on 2-3 distinct dated episodes from 2-3 different unaffiliated authors; impact_motivation is inference because the motive is described by others (Irving, Somervell) and is not stated by Mallory in these sources. Dating note: Norton dates the porter refusal above Camp V to 3 Jun 1924 and Odell's chapter puts it a day earlier, so the row says 2-4 Jun. Graves says Mallory decided to resign 'before the final Everest expedition', Irving says he resigned shortly before 1921 and Magdalene dates the Cambridge extra-mural post to May 1923; the row uses only the facts each source states. EXCLUDED ON PURPOSE: his death, the never-resolved summit question, Irvine's death and the 1999 discovery of his body; bereavement and any emotional-state remarks (Bruce's 'very upset' after the June 1922 avalanche, Odell's 'disappointed and upset' on 2-3 Jun 1924, Norton's and Odell's remarks on his nerves and equanimity); marriage and private life; First World War service; altitude, height-reached and other outcome figures. The 7 Jun 1922 avalanche appears in exactly one row (risk_tolerance, dual_edged) as a documented judgement under uncertainty, described neutrally, with no inference from its outcome. The 'Because it's there' remark (reported in a 1923 New York Times piece, read only as a third-party transcription hosted on wattandedison.com whose fidelity to the NYT original is unverified) was not cited or scored. Not scored on purpose: achievement_drive (Norton's and Odell's retrospective 'obsession' wording conflicts with Irving's statement that abandoning the enterprise after 1922 would have been no disappointment to him), leadership_drive, conflict_tolerance, cross_domain_range (independent evidence too thin) and the second-hand Snowdon 'pipe' anecdote (Graves and Irving, neither an eyewitness). Zero-politics: no military, imperial or political behaviour is scored. LIMITS: OCR is noisy for the 1922 and 1924 books; Geoffrey Winthrop Young's On High Hills (lending-restricted), David Pye's 1927 memoir, Wade Davis, the Gillmans and the Oxford DNB (paywalled) were not opened; Magdalene's digitised letters were not read. PORTRAIT: the page-scan plate 'George H. Leigh-Mallory' in The Fight for Everest 1924 (New York: Longmans, Green; London: Edward Arnold, 1925; acknowledgment dated June 1925), facing p. 207, item https://archive.org/details/fightforeverest10000efno (fetched; no rights statement in its metadata). The book does not credit a photographer and the date of the sitting is unknown. Legal basis: public domain in the United States because the book was published in 1925, before 1 January 1931; UK status was not independently established because the photographer is unidentified. The full-resolution leaf image (2123x3423, https://archive.org/download/fightforeverest10000efno/page/n275.jpg) was downloaded, cropped to the photograph (1474x2092) and downscaled to 1127x1600 (no upscaling); the saved file was viewed and is a clean single-subject portrait with no drawn marks. REJECTED ALTERNATIVES: (1) Wikidata P18 'George Mallory.jpg' (384x539, grainy crop of a 1921 group photograph; Commons credits Sandy Wollaston as photographer although Wollaston appears in that group photograph, so the stated author-died-1930 basis looks unreliable); (2) the Spaarnestad Photo 1924 Shekar Dzong press photograph on Commons (PD-anon-70-EU and PD US templates) because a circle was painted around Mallory's head on the print. An earlier draft crop of (2) was deleted.  ORCHESTRATOR REVIEW (2026-09-18): portrait license display string shortened to 'Public domain (published 1925)'; basis is the US pre-1931 publication rule for an uncredited book plate (UK status of an anonymous 1925 work is also expected to be public domain but was not separately established); no rows changed."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지 맬러리"
+    }
+  }
+}

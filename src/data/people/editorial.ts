@@ -7782,4 +7782,212 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     ],
     turningPoints: [],
   },
+
+  // Roster38 (2026-09-18): concise, evidence-consistent editorial for the
+  // new-candidate cycle; every item's sourceIds are a subset of that
+  // person's own sources.
+  "james-cook": {
+    achievements: [
+      { id: "james-cook-achievement-1", textKey: "james-cook.achievement.1", sourceIds: ["src_cook_janzen", "src_cook_david"] },
+      { id: "james-cook-achievement-2", textKey: "james-cook.achievement.2", sourceIds: ["src_cook_kodicek"] },
+    ],
+    moments: [
+      { id: "james-cook-moment-1", textKey: "james-cook.moment.1", interpretationKey: "james-cook.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_cook_banks_journal", "src_cook_journal_voyage1"] },
+      { id: "james-cook-moment-2", textKey: "james-cook.moment.2", interpretationKey: "james-cook.interpretation.moment.2", attributeId: "risk_tolerance", sourceIds: ["src_cook_forster_vol1", "src_cook_voyage2_account"] },
+    ],
+    turningPoints: [
+      { id: "james-cook-turning-point-1", textKey: "james-cook.turning_point.1", interpretationKey: "james-cook.interpretation.turning_point.1", attributeId: "achievement_drive", sourceIds: ["src_cook_adb", "src_cook_tepapa", "src_cook_janzen"] },
+    ],
+  },
+  "frank-lloyd-wright": {
+    achievements: [
+      { id: "frank-lloyd-wright-achievement-1", textKey: "frank-lloyd-wright.achievement.1", sourceIds: ["src_flw_trust_unity"] },
+      { id: "frank-lloyd-wright-achievement-2", textKey: "frank-lloyd-wright.achievement.2", sourceIds: ["src_flw_fallingwater_timeline", "src_flw_fallingwater_designing"] },
+      { id: "frank-lloyd-wright-achievement-3", textKey: "frank-lloyd-wright.achievement.3", sourceIds: ["src_flw_ebsco_guggenheim"] },
+    ],
+    moments: [
+      { id: "frank-lloyd-wright-moment-1", textKey: "frank-lloyd-wright.moment.1", sourceIds: ["src_flw_carnegie", "src_flw_fallingwater_designing", "src_flw_fallingwater_timeline"] },
+      { id: "frank-lloyd-wright-moment-2", textKey: "frank-lloyd-wright.moment.2", interpretationKey: "frank-lloyd-wright.interpretation.moment.2", attributeId: "conflict_tolerance", sourceIds: ["src_flw_wpc_econserve", "src_flw_carnegie"] },
+    ],
+    turningPoints: [
+      { id: "frank-lloyd-wright-turning-point-1", textKey: "frank-lloyd-wright.turning_point.1", interpretationKey: "frank-lloyd-wright.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_flw_ebsco_taliesin", "src_flw_foundation_fellowship", "src_flw_fallingwater_timeline"] },
+    ],
+  },
+  "thor-heyerdahl": {
+    achievements: [
+      { id: "thor-heyerdahl-achievement-1", textKey: "thor-heyerdahl.achievement.1", sourceIds: ["src_heyerdahl_kontiki", "src_heyerdahl_kontiki_about", "src_heyerdahl_snl"] },
+      { id: "thor-heyerdahl-achievement-2", textKey: "thor-heyerdahl.achievement.2", sourceIds: ["src_heyerdahl_easterisland", "src_heyerdahl_snl"] },
+      { id: "thor-heyerdahl-achievement-3", textKey: "thor-heyerdahl.achievement.3", sourceIds: ["src_heyerdahl_sandweiss"] },
+    ],
+    moments: [
+      { id: "thor-heyerdahl-moment-1", textKey: "thor-heyerdahl.moment.1", interpretationKey: "thor-heyerdahl.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_heyerdahl_ra", "src_heyerdahl_bulbulia"] },
+      { id: "thor-heyerdahl-moment-2", textKey: "thor-heyerdahl.moment.2", interpretationKey: "thor-heyerdahl.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_heyerdahl_easterisland", "src_heyerdahl_kontiki_about"] },
+    ],
+    turningPoints: [
+      { id: "thor-heyerdahl-turning-point-1", textKey: "thor-heyerdahl.turning_point.1", interpretationKey: "thor-heyerdahl.interpretation.turning_point.1", attributeId: "independent_thinking", sourceIds: ["src_heyerdahl_kontiki"] },
+    ],
+  },
+  "stanley-kubrick": {
+    achievements: [
+      { id: "stanley-kubrick-achievement-1", textKey: "stanley-kubrick.achievement.1", sourceIds: ["src_kubrick_digiulio", "src_kubrick_zeiss_harlan"] },
+      { id: "stanley-kubrick-achievement-2", textKey: "stanley-kubrick.achievement.2", sourceIds: ["src_kubrick_brown_steadicam"] },
+      { id: "stanley-kubrick-achievement-3", textKey: "stanley-kubrick.achievement.3", sourceIds: ["src_kubrick_bfi_clarke", "src_kubrick_demet", "src_kubrick_2001edits"] },
+    ],
+    moments: [
+      { id: "stanley-kubrick-moment-1", textKey: "stanley-kubrick.moment.1", interpretationKey: "stanley-kubrick.interpretation.moment.1", attributeId: "belief_updating", sourceIds: ["src_kubrick_2001edits"] },
+      { id: "stanley-kubrick-moment-2", textKey: "stanley-kubrick.moment.2", interpretationKey: "stanley-kubrick.interpretation.moment.2", attributeId: "detail_orientation", sourceIds: ["src_kubrick_ciment_colleagues"] },
+    ],
+    turningPoints: [
+      { id: "stanley-kubrick-turning-point-1", textKey: "stanley-kubrick.turning_point.1", interpretationKey: "stanley-kubrick.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_kubrick_harris_filmcomment", "src_kubrick_filmstories_spartacus"] },
+    ],
+  },
+  "ayrton-senna": {
+    achievements: [
+      { id: "ayrton-senna-achievement-1", textKey: "ayrton-senna.achievement.1", sourceIds: ["src_senna_f3_motorsportcom"] },
+      { id: "ayrton-senna-achievement-2", textKey: "ayrton-senna.achievement.2", sourceIds: ["src_senna_racefans_toleman", "src_senna_formulanerds"] },
+    ],
+    moments: [
+      { id: "ayrton-senna-moment-1", textKey: "ayrton-senna.moment.1", interpretationKey: "ayrton-senna.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_senna_symonds_motorsportcom", "src_senna_racefans_toleman"] },
+      { id: "ayrton-senna-moment-2", textKey: "ayrton-senna.moment.2", interpretationKey: "ayrton-senna.interpretation.moment.2", attributeId: "autonomy_need", sourceIds: ["src_senna_watkins_autosport", "src_senna_allen_autosport"] },
+    ],
+    turningPoints: [
+      { id: "ayrton-senna-turning-point-1", textKey: "ayrton-senna.turning_point.1", interpretationKey: "ayrton-senna.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_senna_rushen_msretro"] },
+    ],
+  },
+  "rembrandt": {
+    achievements: [
+      { id: "rembrandt-achievement-1", textKey: "rembrandt.achievement.1", sourceIds: ["src_rembrandt_ngv", "src_rembrandt_hind"] },
+      { id: "rembrandt-achievement-2", textKey: "rembrandt.achievement.2", sourceIds: ["src_rembrandt_chapman"] },
+    ],
+    moments: [
+      { id: "rembrandt-moment-1", textKey: "rembrandt.moment.1", interpretationKey: "rembrandt.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_rembrandt_huygens"] },
+      { id: "rembrandt-moment-2", textKey: "rembrandt.moment.2", interpretationKey: "rembrandt.interpretation.moment.2", attributeId: "curiosity", sourceIds: ["src_rembrandt_sandrart", "src_rembrandt_golahny"] },
+    ],
+    turningPoints: [
+      { id: "rembrandt-turning-point-1", textKey: "rembrandt.turning_point.1", sourceIds: ["src_rembrandt_chapman", "src_rembrandt_mam_chronology"] },
+    ],
+  },
+  "george-mallory": {
+    achievements: [
+      { id: "george-mallory-achievement-1", textKey: "george-mallory.achievement.1", sourceIds: ["src_mallory_recon1921"] },
+      { id: "george-mallory-achievement-2", textKey: "george-mallory.achievement.2", sourceIds: ["src_mallory_fight1924"] },
+    ],
+    moments: [
+      { id: "george-mallory-moment-1", textKey: "george-mallory.moment.1", sourceIds: ["src_mallory_somervell"] },
+      { id: "george-mallory-moment-2", textKey: "george-mallory.moment.2", interpretationKey: "george-mallory.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_mallory_graves"] },
+    ],
+    turningPoints: [
+      { id: "george-mallory-turning-point-1", textKey: "george-mallory.turning_point.1", interpretationKey: "george-mallory.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_mallory_aj1924", "src_mallory_magdalene"] },
+    ],
+  },
+  "leonhard-euler": {
+    achievements: [
+      { id: "leonhard-euler-achievement-1", textKey: "leonhard-euler.achievement.1", sourceIds: ["src_euler_mactutor"] },
+      { id: "leonhard-euler-achievement-2", textKey: "leonhard-euler.achievement.2", sourceIds: ["src_euler_mactutor", "src_euler_condorcet"] },
+      { id: "leonhard-euler-achievement-3", textKey: "leonhard-euler.achievement.3", sourceIds: ["src_euler_mactutor", "src_euler_musielak"] },
+    ],
+    moments: [
+      { id: "leonhard-euler-moment-1", textKey: "leonhard-euler.moment.1", interpretationKey: "leonhard-euler.interpretation.moment.1", attributeId: "systems_abstraction", sourceIds: ["src_euler_marinoni"] },
+      { id: "leonhard-euler-moment-2", textKey: "leonhard-euler.moment.2", interpretationKey: "leonhard-euler.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_euler_mt_lagrange", "src_euler_ferguson", "src_euler_musielak"] },
+    ],
+    turningPoints: [
+      { id: "leonhard-euler-turning-point-1", textKey: "leonhard-euler.turning_point.1", interpretationKey: "leonhard-euler.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_euler_dsb", "src_euler_mactutor"] },
+    ],
+  },
+  "isambard-kingdom-brunel": {
+    achievements: [
+      { id: "isambard-kingdom-brunel-achievement-1", textKey: "isambard-kingdom-brunel.achievement.1", sourceIds: ["src_brunel_life1870", "src_brunel_ice_obit"] },
+      { id: "isambard-kingdom-brunel-achievement-2", textKey: "isambard-kingdom-brunel.achievement.2", sourceIds: ["src_brunel_life1870", "src_brunel_gooch"] },
+    ],
+    moments: [
+      { id: "isambard-kingdom-brunel-moment-1", textKey: "isambard-kingdom-brunel.moment.1", interpretationKey: "isambard-kingdom-brunel.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_brunel_stephenson1844", "src_brunel_bramwell", "src_brunel_life1870"] },
+      { id: "isambard-kingdom-brunel-moment-2", textKey: "isambard-kingdom-brunel.moment.2", interpretationKey: "isambard-kingdom-brunel.interpretation.moment.2", attributeId: "decisiveness", sourceIds: ["src_brunel_beamish", "src_brunel_ice_obit"] },
+    ],
+    turningPoints: [
+      { id: "isambard-kingdom-brunel-turning-point-1", textKey: "isambard-kingdom-brunel.turning_point.1", interpretationKey: "isambard-kingdom-brunel.interpretation.turning_point.1", attributeId: "experimentation", sourceIds: ["src_brunel_life1870", "src_brunel_ice_obit"] },
+    ],
+  },
+  "ernest-rutherford": {
+    achievements: [
+      { id: "ernest-rutherford-achievement-1", textKey: "ernest-rutherford.achievement.1", sourceIds: ["src_rutherford_eve1939", "src_rutherford_kragh2012"] },
+      { id: "ernest-rutherford-achievement-2", textKey: "ernest-rutherford.achievement.2", sourceIds: ["src_rutherford_kragh2012", "src_rutherford_aip_manchester"] },
+      { id: "ernest-rutherford-achievement-3", textKey: "ernest-rutherford.achievement.3", sourceIds: ["src_rutherford_kragh2012", "src_rutherford_evechadwick1938"] },
+    ],
+    moments: [
+      { id: "ernest-rutherford-moment-1", textKey: "ernest-rutherford.moment.1", interpretationKey: "ernest-rutherford.interpretation.moment.1", attributeId: "experimentation", sourceIds: ["src_rutherford_aip_manchester"] },
+      { id: "ernest-rutherford-moment-2", textKey: "ernest-rutherford.moment.2", interpretationKey: "ernest-rutherford.interpretation.moment.2", attributeId: "leadership_drive", sourceIds: ["src_rutherford_eve1939"] },
+    ],
+    turningPoints: [
+      { id: "ernest-rutherford-turning-point-1", textKey: "ernest-rutherford.turning_point.1", sourceIds: ["src_rutherford_eve1939", "src_rutherford_aip_mcgill"] },
+    ],
+  },
+  "enzo-ferrari": {
+    achievements: [
+      { id: "enzo-ferrari-achievement-1", textKey: "enzo-ferrari.achievement.1", sourceIds: ["src_enzo_ludvigsen_scuderia", "src_enzo_p300_biography"] },
+      { id: "enzo-ferrari-achievement-2", textKey: "enzo-ferrari.achievement.2", sourceIds: ["src_enzo_p300_biography"] },
+    ],
+    moments: [
+      { id: "enzo-ferrari-moment-1", textKey: "enzo-ferrari.moment.1", interpretationKey: "enzo-ferrari.interpretation.moment.1", attributeId: "autonomy_need", sourceIds: ["src_enzo_lerner_hagerty", "src_enzo_phelan_slate", "src_enzo_biography_com"] },
+      { id: "enzo-ferrari-moment-2", textKey: "enzo-ferrari.moment.2", interpretationKey: "enzo-ferrari.interpretation.moment.2", attributeId: "adaptability", sourceIds: ["src_enzo_tavoni_2011", "src_enzo_autosport_156", "src_enzo_fearnley_chiti"] },
+    ],
+    turningPoints: [
+      { id: "enzo-ferrari-turning-point-1", textKey: "enzo-ferrari.turning_point.1", interpretationKey: "enzo-ferrari.interpretation.turning_point.1", attributeId: "decisiveness", sourceIds: ["src_enzo_tavoni_2011", "src_enzo_forghieri_nye"] },
+    ],
+  },
+  "david-bowie": {
+    achievements: [
+      { id: "david-bowie-achievement-1", textKey: "david-bowie.achievement.1", sourceIds: ["src_bowie_hypebot_roberts", "src_bowie_vice_verbasizer"] },
+      { id: "david-bowie-achievement-2", textKey: "david-bowie.achievement.2", sourceIds: ["src_bowie_cybercultural"] },
+      { id: "david-bowie-achievement-3", textKey: "david-bowie.achievement.3", sourceIds: ["src_bowie_sothebys", "src_bowie_tcop", "src_bowie_dailybeast_nattate"] },
+    ],
+    moments: [
+      { id: "david-bowie-moment-1", textKey: "david-bowie.moment.1", interpretationKey: "david-bowie.interpretation.moment.1", attributeId: "decisiveness", sourceIds: ["src_bowie_variety_ziggy", "src_bowie_ucr_spiders"] },
+      { id: "david-bowie-moment-2", textKey: "david-bowie.moment.2", interpretationKey: "david-bowie.interpretation.moment.2", attributeId: "execution_speed", sourceIds: ["src_bowie_sos_heroes"] },
+    ],
+    turningPoints: [
+      { id: "david-bowie-turning-point-1", textKey: "david-bowie.turning_point.1", interpretationKey: "david-bowie.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_bowie_rs_letsdance", "src_bowie_louder_letsdance", "src_bowie_variety_letsdance"] },
+    ],
+  },
+  "konrad-zuse": {
+    achievements: [
+      { id: "konrad-zuse-achievement-1", textKey: "konrad-zuse.achievement.1", sourceIds: ["src_zuse_dpma", "src_zuse_rojas_z1", "src_zuse_rojas_z3repl"] },
+      { id: "konrad-zuse-achievement-2", textKey: "konrad-zuse.achievement.2", sourceIds: ["src_zuse_knuth_tp", "src_zuse_bauer_wossner", "src_zuse_giloi"] },
+      { id: "konrad-zuse-achievement-3", textKey: "konrad-zuse.achievement.3", sourceIds: ["src_zuse_bruderer_2010", "src_zuse_bruderer_2011", "src_zuse_bruderer_cacm", "src_zuse_hnf_zuse_kg"] },
+    ],
+    moments: [
+      { id: "konrad-zuse-moment-1", textKey: "konrad-zuse.moment.1", interpretationKey: "konrad-zuse.interpretation.moment.1", attributeId: "systems_abstraction", sourceIds: ["src_zuse_petzold"] },
+      { id: "konrad-zuse-moment-2", textKey: "konrad-zuse.moment.2", interpretationKey: "konrad-zuse.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_zuse_hnf_patent", "src_zuse_petzold"] },
+    ],
+    turningPoints: [
+      { id: "konrad-zuse-turning-point-1", textKey: "konrad-zuse.turning_point.1", interpretationKey: "konrad-zuse.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_zuse_giloi", "src_zuse_rojas_design"] },
+    ],
+  },
+  "alfred-russel-wallace": {
+    achievements: [
+      { id: "alfred-russel-wallace-achievement-1", textKey: "alfred-russel-wallace.achievement.1", sourceIds: ["src_wallace_vanwyhe_sketch", "src_wallace_ali_paper"] },
+      { id: "alfred-russel-wallace-achievement-2", textKey: "alfred-russel-wallace.achievement.2", sourceIds: ["src_wallace_dcp_lyellhooker_1858", "src_wallace_linnean_1858"] },
+      { id: "alfred-russel-wallace-achievement-3", textKey: "alfred-russel-wallace.achievement.3", sourceIds: ["src_wallace_dcp_darwin_1867feb", "src_wallace_dcp_wallace_1867feb"] },
+    ],
+    moments: [
+      { id: "alfred-russel-wallace-moment-1", textKey: "alfred-russel-wallace.moment.1", interpretationKey: "alfred-russel-wallace.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_wallace_allen_paper"] },
+      { id: "alfred-russel-wallace-moment-2", textKey: "alfred-russel-wallace.moment.2", interpretationKey: "alfred-russel-wallace.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_wallace_dcp_darwin_1869essay", "src_wallace_dcp_darwin_1869apr"] },
+    ],
+    turningPoints: [
+      { id: "alfred-russel-wallace-turning-point-1", textKey: "alfred-russel-wallace.turning_point.1", interpretationKey: "alfred-russel-wallace.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_wallace_vanwyhe_sketch"] },
+    ],
+  },
+  "jeff-bezos": {
+    achievements: [
+      { id: "jeff-bezos-achievement-1", textKey: "jeff-bezos.achievement.1", sourceIds: ["src_bezos_stone_nbc", "src_bezos_kaphan_geekwire"] },
+      { id: "jeff-bezos-achievement-2", textKey: "jeff-bezos.achievement.2", sourceIds: ["src_bezos_businessweek2006", "src_bezos_black_ec2", "src_bezos_bishop_geekwire_aws"] },
+      { id: "jeff-bezos-achievement-3", textKey: "jeff-bezos.achievement.3", sourceIds: ["src_bezos_greene_seattletimes_prime"] },
+    ],
+    moments: [
+      { id: "jeff-bezos-moment-1", textKey: "jeff-bezos.moment.1", interpretationKey: "jeff-bezos.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_bezos_bishop_geekwire_aws"] },
+      { id: "jeff-bezos-moment-2", textKey: "jeff-bezos.moment.2", interpretationKey: "jeff-bezos.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_bezos_carr_fastcompany"] },
+    ],
+    turningPoints: [
+      { id: "jeff-bezos-turning-point-1", textKey: "jeff-bezos.turning_point.1", interpretationKey: "jeff-bezos.interpretation.turning_point.1", attributeId: "risk_tolerance", sourceIds: ["src_bezos_stone_nbc", "src_bezos_ramo_time1999", "src_bezos_kaphan_geekwire"] },
+    ],
+  },
 };

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "konrad-zuse",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Konrad Zuse",
+    "aliases": [
+      "Konrad Ernst Otto Zuse"
+    ],
+    "wikidataId": "Q60093",
+    "birthYear": 1910,
+    "deathYear": 1995,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor",
+      "computer_scientist",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "computing",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "early_computing",
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zuse_wikipedia",
+      "kind": "wikipedia",
+      "title": "Konrad Zuse -- orientation only (dates, nationality, career outline); not used as support for any scored row. Fetched and read.",
+      "url": "https://en.wikipedia.org/wiki/Konrad_Zuse"
+    },
+    {
+      "id": "src_zuse_wikidata",
+      "kind": "wikidata",
+      "title": "Konrad Zuse (Q60093) -- identity verified live through the wbgetentities API: label 'Konrad Zuse', description 'German computer scientist and engineer (1910 - 1995)', instance of human, born 22 Jun 1910, died 18 Dec 1995, citizenship Germany (Q183), ko label and kowiki title '콘라트 추제', P18 'Konrad Zuse (1992).jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q60093"
+    },
+    {
+      "id": "src_zuse_dpma",
+      "kind": "institution",
+      "title": "Deutsches Patent- und Markenamt (German Patent and Trade Mark Office), 'Konrad Zuse -- Technikgeschichte aus dem Wohnzimmer', Computer-Pioniere series (text by Dr. Jan Björn Potthast, status 13 Mar 2026) -- institutional, NON-SELF account with dated patent facts: the 1936-37 filings, the borrowed money and scrap parts of the Z1, the 12 May 1941 Z3 presentation, the 16 Jun 1941 application and its outcome, the Z4 lease to ETH Zurich, the 1949 founding of Zuse KG, the 1962 headlight-control and later wind-power filings, and the later turn to painting. Fetched and read in full.",
+      "url": "https://www.dpma.de/dpma/veroeffentlichungen/meilensteine/computer-pioniere/zuse/index.html"
+    },
+    {
+      "id": "src_zuse_petzold",
+      "kind": "biography",
+      "title": "Hartmut Petzold (Deutsches Museum), 'The Mills of the Patent Office: The futile efforts of Konrad Zuse to patent the program-controlled calculating machine' (English translation by the John Gabriel Byrne Computer Science Collection, Trinity College Dublin, of the chapter 'Die Mühlen des Patentamts' in Rojas (ed.), Die Rechenmaschinen von Konrad Zuse, 1998; revised from GMD-Studien 59, 1981) -- scholarly, NON-SELF reconstruction of the whole patent history from the Zuse Papers, with dated filings, quotations from Zuse's own applications and replies, and the list of his applications 1936-47. Downloaded as PDF and read: introduction, sections 2-3 (1936 applications, 1940 draft), the 1941-42 filing, the 1953-57 exchanges, and the appendix list of applications. Later sections on the 1958-67 phase were searched, not read line by line.",
+      "url": "https://treasures.scss.tcd.ie/miscellany/TCD-SCSS-X.20121208.002/ZuseFiles/Petzold-The-Mills-of-the-Patent-Office-v4b-EnglishTranslation-BAC-01-formatted-20231115-1940.pdf"
+    },
+    {
+      "id": "src_zuse_hnf_patent",
+      "kind": "institution",
+      "title": "Heinz Nixdorf MuseumsForum (HNF) blog, 'Das Ende eines Patents' (14 Jul 2017) -- museum account of the Z 391 patent procedure with dates (11 Apr 1936 filing, 2 Apr 1947 Austrian filing, Triumph opposition of Apr 1953, 20 Sep 1962 refusal, 14 Jul 1967 Federal Patent Court decision and its wording); it cites Petzold and the Zuse archive, so it is NOT an additional perspective on the patent record. Fetched and read in full.",
+      "url": "https://blog.hnf.de/das-ende-eines-patents/"
+    },
+    {
+      "id": "src_zuse_hnf_zuse_kg",
+      "kind": "institution",
+      "title": "Heinz Nixdorf MuseumsForum (HNF) blog, 'Siebzig Jahre Zuse KG' (1 Aug 2019) -- museum account of the founding of Zuse KG on 1 Aug 1949 with two friends (partner roles), the Stiefel visit and the Basel contract signing, later orders and the 1961-67 changes of ownership; the author thanks Horst Zuse for archive information and points to Bruderer, so the company facts are secondary and partly Zuse-family sourced. Used only for dated founding facts. Fetched and read in full.",
+      "url": "https://blog.hnf.de/siebzig-jahre-zuse-kg/"
+    },
+    {
+      "id": "src_zuse_rojas_z1",
+      "kind": "biography",
+      "title": "Raul Rojas (Freie Universität Berlin), 'The Z1: Architecture and Algorithms of Konrad Zuse's First Computer', arXiv:1406.1886 (v3, Aug 2025) -- scholarly study based on Zuse's blueprints for the Z1 replica and notebooks; NON-SELF, though Rojas worked with the Zuse family and the Konrad Zuse Internet Archive. Downloaded as PDF; introduction (career outline, decision for a binary machine, the 1984-89 replica and its financing) and the gate sections read; technical sections skimmed. Rojas' three papers count as ONE perspective.",
+      "url": "https://arxiv.org/pdf/1406.1886"
+    },
+    {
+      "id": "src_zuse_rojas_design",
+      "kind": "biography",
+      "title": "Raul Rojas, 'The Design Principles of Konrad Zuse's Mechanical Computers', arXiv:1603.02396 (Dec 2015) -- short scholarly paper on Zuse's abstract switching notation, common four-phase cycle, delay line and the later move to telephone relays; NON-SELF, same author as src_zuse_rojas_z1 (one perspective). Downloaded and read in full.",
+      "url": "https://arxiv.org/pdf/1603.02396"
+    },
+    {
+      "id": "src_zuse_rojas_z3repl",
+      "kind": "biography",
+      "title": "Raul Rojas (University of Nevada, Reno), 'The Reconstructions of Konrad Zuse's Z3 Computer', arXiv:2607.13089 (13 Jul 2026) -- scholarly survey; used for the 16 Jun 1941 patent application (Z 26476), the 'long and difficult' post-war evaluation, and the 1962 replica completed under Zuse's direction and moved to the Deutsches Museum in May 1968. Its statement that Zuse commissioned the replica to support his patent claim is NOT used (Petzold finds no concrete proof of that link). Same author as the other Rojas papers (one perspective). Downloaded and read in full.",
+      "url": "https://arxiv.org/pdf/2607.13089"
+    },
+    {
+      "id": "src_zuse_knuth_tp",
+      "kind": "archive",
+      "title": "Donald E. Knuth and Luis Trabb Pardo, 'The Early Development of Programming Languages' (Stanford CS report, 1976; DTIC ADA032123 full text on the Internet Archive), section on Zuse's Plankalkül -- independent scholarly survey working from Zuse's 1945 manuscript and his 1972 commentary (so some quoted motives are Zuse's own statements, relayed). Full OCR text downloaded and the Zuse section (data structures, assignment symbol, invariants, unpublished until 1972) read closely; OCR is noisy in places (e.g. some dates).",
+      "url": "https://archive.org/stream/DTIC_ADA032123/DTIC_ADA032123_djvu.txt"
+    },
+    {
+      "id": "src_zuse_bauer_wossner",
+      "kind": "biography",
+      "title": "F. L. Bauer and H. Wössner, 'The Plankalkül of Konrad Zuse: A Forerunner of Today's Programming Languages', Communications of the ACM 15(7), July 1972 (PDF copy at NJIT) -- scholarly NON-SELF reconstruction of the Plankalkül from the published literature. Downloaded; preface and data-structure sections read.",
+      "url": "https://web.njit.edu/~evank/download/plankalkul.pdf"
+    },
+    {
+      "id": "src_zuse_giloi",
+      "kind": "biography",
+      "title": "Wolfgang K. Giloi (Technical University of Berlin), 'Konrad Zuse's Plankalkül: The First High-Level, non von Neumann Programming Language', IEEE Annals of the History of Computing 19(2), 1997 -- scholarly article that began as a laudation at Zuse's 80th birthday (admiring tone; its priority language is not used). Downloaded; introduction, the Z1-Z4 outline and the basic concepts of the Plankalkül read.",
+      "url": "https://ed-thelen.org/comp-hist/Zuse_Plan_Kalkul.pdf"
+    },
+    {
+      "id": "src_zuse_bruderer_2010",
+      "kind": "press",
+      "title": "Herbert Bruderer (ETH Zurich), 'Konrad Zuse und die ETH Zürich', Swiss IT Magazine 2010/07 -- historian's account of the Z4 lease (contract signed 7 Sep 1949 at the Badischer Bahnhof restaurant in Basel; installed 11 Jul 1950; in use until April 1955; lease money used to build up Zuse KG; Zuse often in Zurich for maintenance). The fetched page carries no byline; authorship is from the ResearchGate/ETH listing of the same title. Its fee figure (30,000 francs) conflicts with HNF (50,000) and is not used. Fetched and read in full. Bruderer's three items count as ONE perspective.",
+      "url": "https://www.itmagazine.ch/Artikel/Seite/11728/4/Konrad_Zuse_und_die_ETH_Zuerich.html"
+    },
+    {
+      "id": "src_zuse_bruderer_2011",
+      "kind": "press",
+      "title": "Herbert Bruderer, 'Fussnote brachte Z4 an die ETH Zürich', Swiss IT Magazine 2011/12 -- how Stiefel found the stored Z4: he and Max Lattmann visited Zuse at Hopferau on 13 Jul 1949 (machine in the cellar of a bakery's flour store) and the lease was signed on 7 Sep 1949; also notes that witnesses doubt Zuse's memoir account of the acceptance test and that unattended night running is disproved (so those two claims are NOT used). Fetched and read in full.",
+      "url": "https://www.itmagazine.ch/artikel/48493/Fussnote_brachte_Z4__an_die_ETH_Zuerich.html"
+    },
+    {
+      "id": "src_zuse_bruderer_cacm",
+      "kind": "press",
+      "title": "Herbert Bruderer, 'Discovery: User Manual of the Oldest Surviving Computer in the World', BLOG@CACM (21 Sep 2020) -- historian's blog note on the ETH Z4 manual; used only for the statement that the Z4 originally had no conditional jump and that one was added later at ETH's request. Fetched and read in full.",
+      "url": "https://cacm.acm.org/blogcacm/discovery-user-manual-of-the-oldest-surviving-computer-in-the-world/"
+    },
+    {
+      "id": "src_zuse_lemo",
+      "kind": "institution",
+      "title": "Deutsches Historisches Museum, LeMO (Lebendiges Museum Online), biography 'Konrad Zuse' (text by Stefan Kuhn, 2014) -- institutional chronology: 1936 vision of freely programmable machines to relieve engineers, and giving up his post to realize it; the relay decision of 1941; Plankalkül 1945/46; the 1949 founding of Zuse KG and the Z4 delivery to ETH; the 1967 sale to Siemens and the later hobby painting. Fetched and read in full.",
+      "url": "https://www.dhm.de/lemo/biografie/konrad-zuse"
+    },
+    {
+      "id": "src_zuse_siemens_ring",
+      "kind": "award_body",
+      "title": "Stiftung Werner-von-Siemens-Ring, laureate page 'Konrad Zuse' (Ring 1964) -- award-body biography: workshop in his parents' flat from 1935 built with his own means; financial support from a calculating-machine firm after the Z1 demonstration; the 1940 Z2 demonstration to DVL representatives who then part-financed the Z3; post-war business relations with Remington Rand and ETH Zurich; founding of Zuse KG in 1949. Fetched and read in full.",
+      "url": "https://siemens-ring.de/preistraeger/ring1964-zuse/"
+    },
+    {
+      "id": "src_zuse_baltimore_sun",
+      "kind": "press",
+      "title": "Baltimore Sun, obituary 'Konrad Zuse, 85, whose Nazi-era constructions of...' (20 Dec 1995) -- very short wire-style obituary; used only for the description of his machines as made of second-hand sheet metal, glass plates, cranks and punch cards and for his stated aim of relieving the tedium of calculation. Fetched and read in full.",
+      "url": "https://www.baltimoresun.com/1995/12/20/konrad-zuse-85-whose-nazi-era-constructions-of/"
+    },
+    {
+      "id": "src_zuse_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, Fellow profile 'Konrad Zuse' (1999 Fellow) -- short institutional profile; read to check the Henschel-job question (it says he spent weekends building the Z1 in his parents' living room, which conflicts with LeMO and Rojas) and NOT used to support any row. Fetched and read in full.",
+      "url": "https://computerhistory.org/profile/konrad-zuse/"
+    },
+    {
+      "id": "src_zuse_lee_lund1987",
+      "kind": "archive",
+      "title": "J. A. N. Lee, Computer Pioneers (IEEE Computer Society History Committee), entry 'Konrad Zuse', which reproduces Zuse's own unpublished 1987 Lund talk 'Computer Design -- Past, Present, Future' -- SELF-authored account (one perspective, never the sole support of a row); read in full and used only to cross-check dates and to see where the independent sources agree or differ with his own retelling.",
+      "url": "https://history.computer.org/pioneers/zuse.html"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_zuse_petzold, src_zuse_rojas_design, src_zuse_knuth_tp, src_zuse_bauer_wossner | Apr 1936; 1935-38; c.1943-45 | secondary scholarly, working from Zuse's own filings and manuscripts] Petzold shows that Zuse's April 1936 patent application stated the principle of automatic calculation from a stored set of numbers and a 'calculation plan' while leaving the technology open ('either electrically or mechanically'); Rojas reports that he drew his Z1 gates in a notation that abstracts from the mechanism, so the diagrams could later be rebuilt with telephone relays. Knuth and Trabb Pardo and Bauer and Wössner describe the Plankalkül as a formal notation for any computational procedure, building compound data types up from a single bit type. Three independent scholarly accounts of three different periods."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_zuse_knuth_tp, src_zuse_rojas_z1, src_zuse_rojas_design | c.1943-45; 1935-38 | secondary scholarly] Knuth and Trabb Pardo judge the Plankalkül's data structures more perceptive than those of the other early languages they survey, note that Zuse consciously introduced a new assignment symbol instead of reusing mathematical equality, and describe his statement of the relations that hold between variables (what would now be called invariants). Rojas says that for the Z1 he developed novel types of mechanical logic gate, drew a different variant wherever the machine's three-dimensional layout required one, and introduced a four-phase common cycle and a delay-line element. Two independent scholars on two different bodies of work; the strongest claims are their assessments, so held below the 85+ band."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_zuse_petzold, src_zuse_rojas_z1, src_zuse_giloi, src_zuse_dpma | 1934-36; Aug 1940 | secondary scholarly quoting a primary filing] Petzold quotes the 1936 application, in which Zuse reasons that a machine working through long calculations by itself can go beyond human habit and use the simplest number system; Rojas records that he decided as early as 1934 on a fully binary machine rather than the decimal wheels of Babbage and IBM, and Giloi names Leibniz's dyadic system as his inspiration. DPMA says he learned of Babbage's work only later and Petzold, citing Zuse's memoir, places this at his 1936-37 US filing; the April 1936 German application gave no statement of the prior art and was withdrawn in August 1940, which Petzold suggests inaccurate prior-art information may have contributed to, hence dual_edged. One episode (the 1934-36 design choice) with a quoted rationale, so documented but held at 0.55."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_zuse_petzold, src_zuse_dpma, src_zuse_hnf_patent, src_zuse_rojas_z3repl, src_zuse_rojas_z1, src_zuse_giloi | 1936-67; 1984-89 | secondary scholarly + institutional] Petzold documents Zuse pursuing a basic patent for a program-controlled calculator from 1936: he withdrew two early applications (1940, 1943), resumed the 1941 application after the war, answered objections from 1953 (reformulated claims in May 1956, further replies in 1957) and repeatedly invited the examiners to inspect his machine; HNF adds two further amendments during the 1962-67 appeal, which the Federal Patent Court rejected on 14 Jul 1967, Rojas calls the evaluation long and difficult, and DPMA independently dates its start (1941), post-war resumption and 1967 end. Separately, Rojas records that in the 1980s he drew the blueprints for a Z1 replica and, with Giloi, that he supervised its construction (1984-89), and that he spent months repairing it after it failed at its inauguration. Dual_edged because the effort ran from 1936 to 1967 without the basic claims being granted."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_zuse_giloi, src_zuse_rojas_design, src_zuse_lemo, src_zuse_petzold, src_zuse_dpma | 1938-41; 1956 | secondary scholarly + institutional] Giloi and Rojas describe Zuse leaving mechanical logic for telephone relays once the Z1's mechanical arithmetic unit jammed and mechanical stress proved excessive (Z2 with a relay arithmetic unit from 1938; the all-relay Z3, 1941; LeMO says the relays' capability convinced him), while Rojas adds that he kept a mechanical memory and hoped into the late 1940s that such memories could stay competitive. In his patent reply of 8 May 1956 he acknowledged, per Petzold, that Babbage had articulated the basic idea of program control, arguing only that no constructive solution had been given, and DPMA says he later called Babbage the actual father of the computer. Two independent episodes, mixed in direction, hence a mid score."
+    },
+    "resourcefulness": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_zuse_dpma, src_zuse_siemens_ring, src_zuse_baltimore_sun, src_zuse_hnf_patent, src_zuse_petzold, src_zuse_bruderer_2010, src_zuse_hnf_zuse_kg | 1935-38; 1947; 1949-50 | secondary institutional + press] DPMA says the Z1 was built largely from remnants and old parts and that he borrowed from friends and family to pay for tools and components; the Siemens-Ring page says he built the machine in a workshop in his parents' flat with the simplest means and from his own resources, and the Baltimore Sun obituary describes second-hand sheet metal and punch cards. With the German patent system in ruins after the war he filed a calculating-device application in Austria on 2 Apr 1947 (HNF; number A1526/47 in Zuse KG's own list as printed by Petzold). In 1949-50 he finished the stored Z4 and leased it to ETH Zurich, and Bruderer and HNF both say the lease money helped launch Zuse KG. Several independent accounts of three separate episodes."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_zuse_siemens_ring, src_zuse_lemo, src_zuse_dpma, src_zuse_hnf_zuse_kg, src_zuse_hnf_patent | 1935-36; 1940-49 | institutional + award-body] On his own initiative he set up a workshop in his parents' flat in 1935 and began building calculating machines; LeMO says he gave up his salaried post to pursue the idea (DPMA and CHM instead describe the work as done alongside the Henschel job, so the sources differ on that point). He then started his own firms: an engineering business in Berlin in 1940-41 (sources differ on the year), a short-lived engineering office at Hopferau after the war, and on 1 Aug 1949 Zuse KG with two friends (HNF: three firms in all); in 1947 he also filed abroad when the German patent route was closed. Repeated self-started ventures documented by four independent institutional accounts."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zuse_siemens_ring, src_zuse_bruderer_2011, src_zuse_hnf_zuse_kg, src_zuse_dpma | 1940; 1949-50 | award-body + institutional + secondary scholarly] The Siemens-Ring account says that after Zuse showed the Z2 to representatives of the German aviation research institute (DVL) in 1940 they part-financed the Z3 then under construction; when Eduard Stiefel of ETH Zurich and Max Lattmann visited him at Hopferau on 13 Jul 1949, Zuse agreed a lease of the Z4 (contract of 7 Sep 1949) and then completed the machine for delivery to ETH in 1950 (DPMA, HNF), founding Zuse KG the same year; HNF adds that Leitz ordered a large computer and paid in advance in 1950, and Siemens-Ring that he built business ties to Remington Rand. Two-plus independent episodes of turning others' interest into funded work, but the ETH approach came from Stiefel, so held at strong_inference and a moderate score."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zuse_siemens_ring, src_zuse_lemo, src_zuse_dpma, src_zuse_hnf_zuse_kg | 1935-41; 1962-92 | institutional] A trained civil engineer working as a structural analyst moved into calculating-machine design (Siemens-Ring, LeMO); he later filed patents outside computing, including a 1962 photoelectrically controlled lighting device for motor vehicles and a later wind-power plant (DPMA); and after leaving Zuse KG he took up painting and writing (LeMO, DPMA, HNF: 'painter, author, inventor'). Three distinct episodes from independent institutional sources, but painting is described as a hobby and the patents as filings rather than outcomes, so kept in the 60 band."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/konrad-zuse-hunscher-1992.jpg",
+    "width": 354,
+    "height": 472,
+    "source": "Wolfgang Hunscher, Dortmund (own work), via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Wolfgang Hunscher, Dortmund, CC BY-SA 3.0",
+    "creator": "Wolfgang Hunscher, Dortmund",
+    "date": "1992-06",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Konrad_Zuse_(1992).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q60093 verified live before scoring: wbgetentities API returned label 'Konrad Zuse', description 'German computer scientist and engineer (1910 - 1995)', instance of human (Q5), born 22 Jun 1910, died 18 Dec 1995, citizenship Germany (Q183), en and ko sitelinks; the Korean label and the kowiki sitelink title both read 콘라트 추제, confirming the conventional Korean spelling. Slug collision check: no konrad-zuse.json (nor any zuse file) in data-pipeline/candidates, no zuse portrait in public/portraits, and no Zuse name/slug in src/data/people. REGION/ERA: DE, regionCode western_europe (live-checked: the pure-DE 20th-century candidates werner-heisenberg, emmy-noether and pina-bausch all use western_europe; albert-einstein and marlene-dietrich too); era 20th_century (active c.1935-1990, born 1910, died 1995; heisenberg precedent). EVIDENCE READ: 18 substantive sources beyond the Wikipedia/Wikidata orientation entries (17 non-self plus Zuse's own 1987 talk as the self perspective), all opened and read in full or in the passages named in their titles (long PDFs and the archive.org OCR text were downloaded and grepped/read locally rather than trusted from summaries). Independent non-self perspectives: DPMA (patent office history), Petzold (Deutsches Museum historian, from the Zuse Papers), Rojas (three papers = one perspective), Knuth and Trabb Pardo, Bauer and Wössner, Giloi (admiring laudation-based article), Bruderer (three items = one perspective), HNF (two blog posts = one perspective, partly citing Petzold and Horst Zuse's archive), LeMO/DHM, the Siemens-Ring foundation, the Baltimore Sun obituary and CHM (thin). Zuse's own 1987 Lund talk (via J.A.N. Lee) was read as the SELF perspective and was not the sole support of any row; his autobiography 'Der Computer - mein Lebenswerk' was not read directly (only as cited by Petzold and Bruderer). Non-self behavioural sources: Petzold, DPMA, Rojas, Knuth, Bruderer, HNF, Siemens-Ring, LeMO. This clears the 2-perspective / 1-non-self-behavioural bar comfortably. SCORING NOTES: nine rows. Confidence follows the rubric section 10 rule: strong_inference only where two or more independently verifiable distinct episodes from unaffiliated sources support the row (belief_updating: relay switch + Babbage reply; opportunity_sensing: DVL 1940 + ETH 1949-50 + Leitz/Remington Rand; cross_domain_range: civil-to-computing + non-computing filings + painting); the other rows rest on one or more on-point documented episodes described by at least two independent sources. Episode use was capped at two rows each: the 1936 patent filings (systems_abstraction, independent_thinking), the Z1 mechanical-logic design 1935-38 (systems_abstraction, creative_originality), the Plankalkül (systems_abstraction, creative_originality), the 1951-67 patent procedure (persistence, belief_updating), the 1935-38 workshop (resourcefulness, proactive_agency), the 1947 Austrian filing (resourcefulness, proactive_agency), the 1949-50 ETH lease (resourcefulness, opportunity_sensing); the 1938-41 relay decision is used by belief_updating only, and the binary-number choice of 1934-36 by independent_thinking only (episodes were allocated by dated decision, not by machine). The Plankalkül evidence is not used for analytical_rigor and no analytical_rigor, risk_tolerance, collaboration or autonomy_need row is scored because the remaining evidence for them was thin, mixed or would have reused an episode a third time. SOURCE CONFLICTS RECORDED (none is used as support): whether Zuse left the Henschel job to build the Z1 (LeMO, Rojas: he gave it up; DPMA, CHM: he built alongside it) -- only mentioned as a difference in proactive_agency; the Z4 lease fee (Bruderer 2010: 30,000 francs; HNF: 50,000 francs); the year the Z3 was destroyed (Dec 1943 in Rojas, 1944 in DPMA and Siemens-Ring); who initiated the 1980s Z1 replica (Rojas: Zuse obtained Siemens and other funding; Giloi: the GMD's initiative); the founding date of Zuse KG (HNF/HLZ 1 Aug 1949, Wikipedia November 1949); Rojas 2026 says Zuse commissioned the 1962 Z3 replica to support the patent claim while Petzold says there is no concrete proof of that link (not used); Bruderer's 2010 remark that the Z4 ran unattended at night is contradicted by his own 2011 article (not used); Zuse's memoir account of the Z4 acceptance test is doubted by witnesses cited by Bruderer (not used). Bruderer's book reviewer (Landwehr, Sternenjäger blog) says the ETH cooperation was 'not free of tension' without specifics; read, not used. EXCLUDED ON PURPOSE: priority claims ('first computer', 'first programming language', 'first computer company', 'first to earn money with a computer') -- all contested or superlative and not adjudicated; output and outcome figures (numbers of machines built or sold, employees, revenues, the 251/850 counts, lease fees); the commercial failure, financial difficulties and ownership changes of Zuse KG (1961-67) as evidence of anything (many causes, and no 'poor_business_sense' tag is applied); the Nazi-era context (Henschel work, the guided-bomb calculators, DVL/AVA funding, military calls, the wartime relocation of the Z4 and the Harz episode) -- no row scores from it; the bombing losses of Z1/Z3; health, family and private life (including the 1980s heart attack and any reaction to the 1967 patent ruling); the 'Rechnender Raum' book (no independent source found and read); age-related inferences. Political and military content was not used. LIMITS: NAE and IEEE Xplore obituary pages were not readable (NAE returned nothing; IEEE Xplore not opened); Ceruzzi's and Rojas' books, Zuse's autobiography and Billing's memoirs were not read; Petzold sections on 1958-67 were searched rather than read line by line; the Knuth/Trabb Pardo text is OCR with some digit errors (checked against surrounding sentences); Rojas (FU Berlin) collaborated with Horst Zuse on a Z3 reconstruction, a mild affiliation; HNF's company facts draw on Horst Zuse's archive; Giloi's article is a laudation. PORTRAIT: Wikidata P18 is 'Konrad Zuse (1992).jpg'. Commons categories 'Konrad Zuse', 'Zuse Z4', 'Zuse Z1' and 'Busts of Konrad Zuse' were listed and searched (no ETH-Bibliothek Bildarchiv portrait of Zuse exists on Commons; the ETH image credited to an unknown photographer in the HNF post was not used). The other Commons photos are group photos (SYSTEMS 1991, CC0/PD, three or four people at a bar, not croppable to a clean portrait) or memorials. Selected 'File:Konrad Zuse (1992).jpg': Commons API and File page both read -- author Wolfgang Hunscher, Dortmund, own work, June 1992, dual licensed GNU FDL 1.2+ and CC BY-SA 3.0, original 354x472 px, no deletion or permission warnings. Copied the original file unchanged (already below the 1600 px norm, so nothing was resized and nothing upscaled); saved file verified 354x472 JPEG and viewed: a single elderly man in a grey jacket with brown-framed glasses and white hair, consistent with the well-known 1990s photographs of Zuse; kind 'likeness' (photograph from life, 1992, when he was about 82). The resolution is small (smaller than most shipped portraits but larger than several existing ones)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "콘라트 추제"
+    }
+  }
+}

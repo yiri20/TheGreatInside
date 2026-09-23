@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "thor-heyerdahl",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Thor Heyerdahl",
+    "wikidataId": "Q133622",
+    "birthYear": 1914,
+    "deathYear": 2002,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NO"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_heyerdahl_wikipedia",
+      "kind": "wikipedia",
+      "title": "Thor Heyerdahl -- orientation only (dates, expeditions overview, scientific-reception summary); not used as support for any scored row. Fetched and read.",
+      "url": "https://en.wikipedia.org/wiki/Thor_Heyerdahl"
+    },
+    {
+      "id": "src_heyerdahl_wikidata",
+      "kind": "wikidata",
+      "title": "Thor Heyerdahl (Q133622) -- identity verified live: label 'Thor Heyerdahl', description 'Norwegian anthropologist and adventurer (1914-2002)', citizenship Norway, born 6 Oct 1914, died 18 Apr 2002, P18 images 'ThorHeyerdahl.jpg' and 'Thor Heyerdahl 2000.jpg'; read via Special:EntityData JSON and the wbgetentities API (ko label '토르 헤위에르달'). Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q133622"
+    },
+    {
+      "id": "src_heyerdahl_kontiki",
+      "kind": "institution",
+      "title": "Kon-Tiki Museum (Oslo), 'Kon-Tiki ekspedisjonen' expedition page, written by Kerstin Krohg -- institutional account of the 1946 rejection by American anthropologists and Spinden's challenge, the equipment obtained through military contacts, the crew recruitment and the 28 Apr-7 Aug 1947 voyage. The museum is the subject's own memorial institution and draws on his accounts, so all Kon-Tiki Museum pages count as ONE perspective. Fetched and read.",
+      "url": "https://www.kon-tiki.no/en/heyerdahls-expeditions/kon-tiki"
+    },
+    {
+      "id": "src_heyerdahl_fatuhiva",
+      "kind": "institution",
+      "title": "Kon-Tiki Museum, 'Fatu Hiva, 1937' page (Kerstin Krohg) -- the 1937-38 stay: proposal to Liv Coucheron Torp, the Tahiti stop, zoological collecting on Prof. Bonnevie's guidance, the return after about a year. Same museum perspective as src_heyerdahl_kontiki. Fetched and read.",
+      "url": "https://www.kon-tiki.no/en/heyerdahls-expeditions/fatuhiva"
+    },
+    {
+      "id": "src_heyerdahl_galapagos",
+      "kind": "institution",
+      "title": "Kon-Tiki Museum, '1953 Galapagos expedition' page (Kerstin Krohg) -- Metraux's photograph of a supposed statue, the team with Skjolsvold and Reed, the statue found to be recent, the pottery and Inca flute. Same museum perspective. Fetched and read.",
+      "url": "https://www.kon-tiki.no/en/heyerdahls-expeditions/galapagos"
+    },
+    {
+      "id": "src_heyerdahl_easterisland",
+      "kind": "institution",
+      "title": "Kon-Tiki Museum, 'Easter Island, 1955-1956' page (Kerstin Krohg) -- the five archaeologists, the Rano Raraku excavations, the 1986 return with Pavel Pavel and sixteen islanders moving a 15-ton moai. Same museum perspective. Fetched and read.",
+      "url": "https://www.kon-tiki.no/en/heyerdahls-expeditions/easterisland"
+    },
+    {
+      "id": "src_heyerdahl_ra",
+      "kind": "institution",
+      "title": "Kon-Tiki Museum, 'Ra, 1969 - Ra II 1970' page (Kerstin Krohg) -- the multinational crews, Ra's construction and abandonment a week short of Barbados, the four Aymara builders of Ra II and its 57-day crossing. Same museum perspective. Fetched and read.",
+      "url": "https://www.kon-tiki.no/en/heyerdahls-expeditions/ra-1969-ra-ii-1970"
+    },
+    {
+      "id": "src_heyerdahl_kontiki_about",
+      "kind": "institution",
+      "title": "Kon-Tiki Museum, 'About Thor Heyerdahl' page (unsigned) -- short biography incl. the 1986 Anakena excavation result that the first arrivals were Polynesians from the west 'contrary to Heyerdahl's theory' alongside evidence of later contact. Same museum perspective. Fetched and read.",
+      "url": "https://www.kon-tiki.no/en/about-thor-heyerdahl"
+    },
+    {
+      "id": "src_heyerdahl_baker",
+      "kind": "biography",
+      "title": "Heron Dance Art Studio, 'Norman Baker: Forty Years On The World's Oceans' -- unsigned, undated interview-style profile of Norman Baker, navigator and second-in-command on Ra and Ra II and a Tigris crew member: INDEPENDENT FIRSTHAND CREW account (non-self for Heyerdahl) of how Heyerdahl prepared, financed and corrected the Ra boats. Author, date and original venue of the interview are not stated on the page. Fetched and read.",
+      "url": "https://herondance.org/norman-baker-sailor"
+    },
+    {
+      "id": "src_heyerdahl_upi1986",
+      "kind": "press",
+      "title": "Daniel Drosdoff (UPI), 'Explorer Thor Heyerdahl: Destroying the myths of science', 16 Mar 1986 -- contemporaneous wire interview written while Heyerdahl (71) was digging on Easter Island; contains his own statements (self-quotes, one perspective) plus the reporter's description of the dig and the moai test. Fetched and read.",
+      "url": "https://www.upi.com/Archives/1986/03/16/Thor-Heyerdahl-Explorer-Thor-Heyerdahl-Destroying-the-myths-of-science/3093511333200/"
+    },
+    {
+      "id": "src_heyerdahl_diamond2004",
+      "kind": "biography",
+      "title": "Jared Diamond, 'Twilight at Easter', The New York Review of Books, 25 Mar 2004 -- scholarly critical review essay on Easter Island: how Heyerdahl's Polynesia/Egypt/Peru diffusion premise fares against the archaeological evidence, and Diamond's remarks on Heyerdahl's handling of that evidence and on the islanders' statue-raising demonstration. Independent critical secondary source; read for the behavior, not to adjudicate the theory. Fetched and read.",
+      "url": "https://www.nybooks.com/articles/2004/03/25/twilight-at-easter/"
+    },
+    {
+      "id": "src_heyerdahl_sandweiss",
+      "kind": "biography",
+      "title": "Daniel H. Sandweiss, 'Tucume', Encyclopedia of Latin American History and Culture (entry reproduced on Encyclopedia.com) -- entry by the archaeologist who co-led the fieldwork: the 1988-94 excavations were organised by Heyerdahl and led in the field by Sandweiss and Alfredo Narvaez, funded by the Kon-Tiki Museum and private donors. Independent firsthand collaborator. Fetched and read.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tucume"
+    },
+    {
+      "id": "src_heyerdahl_snl",
+      "kind": "biography",
+      "title": "Gunnar Haaland (Univ. of Bergen), 'Thor Heyerdahl', Store norske leksikon (snl.no), updated 23 Jul 2025 -- scholarly encyclopedia entry: ethnographer and zoologist by training; Easter Island excavations with stratigraphy and radiocarbon dating; Tucume 1988-94; Maldives 1982-84; assessment that his scientific contributions had limited acceptance internationally. Independent secondary source. Fetched and read.",
+      "url": "https://snl.no/Thor_Heyerdahl"
+    },
+    {
+      "id": "src_heyerdahl_figueroa",
+      "kind": "biography",
+      "title": "G. Figueroa G-H, 'William Mulloy: 1917-1978', Asian Perspectives XXII(1), 1979 -- obituary by a Chilean archaeologist who worked on the 1955-56 expedition: Mulloy received Heyerdahl's invitation in 1955 while working in Alberta, and the expedition redirected his career. FIRSTHAND colleague, independent of Heyerdahl. PDF text extracted and read in full.",
+      "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/5724c357-e0e1-4d20-be73-7d5416f37465/download"
+    },
+    {
+      "id": "src_heyerdahl_bulbulia",
+      "kind": "press",
+      "title": "Suleiman Bulbulia, 'Remembering the RA II', Barbados Today column, 15 Jul 2020 -- retrospective column on the Ra II arrival at Bridgetown on 12 Jul 1970 after 57 days and on the aborted first voyage. Secondary/local-press retelling of the public record. Fetched and read.",
+      "url": "https://barbadostoday.bb/2020/07/15/btcolumn-remembering-the-ra-ii/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_heyerdahl_kontiki, src_heyerdahl_upi1986, src_heyerdahl_baker, src_heyerdahl_diamond2004 | spring 1946; 1986; 2004 | institutional + press (self-report) + crew + scholarly critic] After American anthropologists rejected his South America-to-Polynesia theory in spring 1946, he took up Spinden's challenge and planned a raft voyage himself instead of dropping the idea (Krohg). In 1986 he told UPI he does not accept a claim merely because an authority makes it (his own statement), and Baker describes a refusal to shape findings to win academic acceptance (a crewman's characterization). Scored as behavior in the face of dispute, not on the theory's validity; dual_edged because Diamond describes him as setting aside contrary evidence."
+    },
+    "experimentation": {
+      "score": 84,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_heyerdahl_kontiki, src_heyerdahl_ra, src_heyerdahl_baker, src_heyerdahl_easterisland, src_heyerdahl_upi1986 | 1947; 1969-70; 1986 | institutional + crew + press] He tested hypotheses by building and using period-style craft and methods: a balsa raft sailed from Callao between 28 Apr and 7 Aug 1947, the papyrus Ra (1969) and the rebuilt Ra II (1970), and in 1986 a trial with engineer Pavel Pavel and sixteen islanders of moving a 15-ton moai upright with ropes. Museum, crew and press accounts converge on hands-on trial as his standard method; whether the trials prove his theories is not scored."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_heyerdahl_ra, src_heyerdahl_bulbulia, src_heyerdahl_baker, src_heyerdahl_kontiki | 1946-47; 1969-70 | institutional + press + crew] After Ra was abandoned about a week short of Barbados in 1969, four Aymara builders made Ra II within ten months and it reached Barbados on 12 Jul 1970 after 57 days (Krohg, Bulbulia); Baker adds that he secured funding for the second boat despite the failure. Earlier, the 1946 rejection was followed by the 1947 voyage (Krohg)."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_heyerdahl_kontiki, src_heyerdahl_ra, src_heyerdahl_bulbulia | 1947; 1969; 1970 | institutional + press] He led crews on three open-ocean voyages in untested replica craft: the 101-day 1947 balsa raft crossing he trusted the crew could master, then Ra (1969) and Ra II (1970). On Ra he chose to abort a week short when the reeds were soaking up water and he feared she would sink (Krohg), so the appetite was large but not unbounded. Inferred from repeated choices rather than a stated attitude."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_heyerdahl_fatuhiva, src_heyerdahl_galapagos, src_heyerdahl_sandweiss, src_heyerdahl_kontiki | 1937-38; Jan 1953; 1988-94 | institutional + collaborator] He proposed the Fatu Hiva stay to Liv Coucheron Torp and organised it, including a Tahiti stop to consult a local chief; in Jan 1953, shown a photograph of a supposed Galapagos statue, he took two archaeologists there; and Sandweiss records that the 1988-94 Tucume excavations were organised by him, with field leadership under Sandweiss and Narvaez."
+    },
+    "collaboration": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_heyerdahl_easterisland, src_heyerdahl_figueroa, src_heyerdahl_sandweiss, src_heyerdahl_diamond2004, src_heyerdahl_ra | 1955-56; 1969-70; 1986; 1988-94 | institutional + colleagues + scholarly critic] For Easter Island he engaged professional archaeologists (Krohg lists five; Figueroa, a member of the team, records Mulloy's 1955 invitation); at Tucume field leadership sat with Sandweiss and Narvaez (Sandweiss); Diamond notes that islanders told him how statues were raised and erected one for him; and he staffed the Ra crews internationally and had Ra II built by Aymara boat-builders (Krohg). How those working relationships felt is not scored."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_heyerdahl_kontiki, src_heyerdahl_baker | 1946-47; 1969-70 | institutional + crew] For Kon-Tiki he obtained sleeping bags, rations, instruments and radio equipment through personal military contacts and recruited a Washington embassy secretary to handle shore communication (Krohg). Baker says that for the Ra expeditions he borrowed from a book publisher and a film distributor rather than accept a wealthy American's direct funding, and repaid the debts. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.10): moved from strong_inference 0.58 to inference 0.48 -- only the Kon-Tiki equipment/contacts episode is verifiable against a named source; the second episode (borrowing from a publisher and film distributor) rests solely on an unsigned, undated profile page, so it is not an independently verifiable second episode. Score unchanged."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_heyerdahl_snl, src_heyerdahl_fatuhiva, src_heyerdahl_baker | 1937-2002 | encyclopedia + institutional + crew] Trained as a zoologist, he collected snails and insects on Fatu Hiva on Prof. Bonnevie's guidance (Krohg), then worked as an ethnographer and directed stratigraphic, radiocarbon-dated excavations on Easter Island and later projects at Tucume and in the Maldives (Haaland). Baker calls him an 'integrator' of cross-cultural evidence; the spread of fields is documented, his depth in each is not scored."
+    },
+    "belief_updating": {
+      "score": 44,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_heyerdahl_baker, src_heyerdahl_kontiki_about, src_heyerdahl_diamond2004 | 1969-70; 1986; 2004 | crew + institutional + scholarly critic] Mixed record. Baker says Ra II was rebuilt after Heyerdahl learned the reeds should be cut in August rather than December, a method-level correction. On his central migration question the Kon-Tiki Museum's own page says the 1986 Anakena excavations showed the first arrivals were Polynesians from the west, contrary to his theory, while pointing to evidence of later contact; Diamond writes that Heyerdahl and other skeptics set aside overwhelming contrary evidence. Method-level updating and hypothesis-level retention pull apart, so held below midpoint at low confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/thor-heyerdahl-nywts-1951.jpg",
+    "width": 1223,
+    "height": 1600,
+    "source": "Library of Congress, New York World-Telegram and the Sun Newspaper Photograph Collection, via Wikimedia Commons",
+    "license": "Public Domain (NYWTS collection, no known copyright restrictions)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thor_Heyerdahl_NYWTS.png",
+    "attribution": "Al Ravenna, New York World-Telegram and the Sun staff photographer, 4 May 1951 (Library of Congress)",
+    "attributionUrl": "https://www.loc.gov/pictures/resource/cph.3c22921/",
+    "creator": "Al Ravenna",
+    "date": "1951",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Thor_Heyerdahl_NYWTS.png"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q133622 verified live: fetched Special:EntityData/Q133622.json and the wbgetentities API; label 'Thor Heyerdahl', description 'Norwegian anthropologist and adventurer (1914-2002)', citizenship Norway, born 6 Oct 1914, died 18 Apr 2002 (the search hit also surfaced his father, a schooner and a same-named son, which are not this entity); P18 'ThorHeyerdahl.jpg' (346x501, too small, not used). Slug collision check: no thor-heyerdahl.json in data-pipeline/candidates and no Heyerdahl slug/name in src/data/people/*.ts. CLASSIFICATION: occupation explorer only (his authorship and anthropology are not scored; the scientific standing of his migration theory is disputed and not adjudicated); field exploration only, no natural_science added; region western_europe (Nordic precedent), era 20th_century; tags explorer/field_researcher/nonconformist; archetype scientific_explorer. EVIDENCE READ (15 source records incl. 2 orientation; 13 substantive): all web pages were read through the WebFetch tool's prompted text extraction (page text converted and summarised against a specific extraction prompt); Figueroa's Mulloy obituary PDF was text-extracted with pdftotext and read in full; no page was read verbatim end to end in a browser. Kon-Tiki Museum pages (six records: kontiki, fatuhiva, galapagos, easterisland, ra, about; written by Kerstin Krohg or unsigned) are ONE perspective and share the subject's own account as their base. INDEPENDENT PERSPECTIVES (8): Kon-Tiki Museum; Norman Baker (Heron Dance profile, firsthand crew, non-self); UPI/Drosdoff 1986 (press, contains Heyerdahl's own statements); Diamond 2004 (scholarly critic); Sandweiss (co-director of the Tucume fieldwork); Haaland/SNL (scholarly encyclopedia); Figueroa on Mulloy (firsthand colleague, thin on Heyerdahl); Bulbulia/Barbados Today (local press, secondary retelling of the public record). Two further sources were read and dropped as non-independent: Reidar Solsvik's Rapa Nui Journal article on Edwin Ferdon (2016; Solsvik is a Kon-Tiki Museum curator) and the 1997 Danielsson In Memoriam (by Kon-Tiki Museum staff Martinsson-Wallin and Wallin, Rapa Nui Journal Dec 1997). NON-SELF BEHAVIORAL sources: Baker, Sandweiss, Diamond, Figueroa, Solsvik, Haaland; the UPI piece carries self-report and is used for his stated attitude, not as the only support for any row. No Heyerdahl-authored book was read. EXCLUDED ON PURPOSE: fame, book and film sales and awards; whether the Kon-Tiki, Ra, Ra II or Tigris voyages 'proved' the migration theory (disputed, not adjudicated; 2014/2020 DNA studies were read only in a Science Norway summary by Simen Hoseggen, 10 Jul 2020, and are context, not scored); the 1978 burning of Tigris (a political-protest act) and the UN pollution reporting, environmental/peace advocacy generally; racial-theory criticism of the diffusion narrative (not adjudicated); marriages, divorces, family, health and his death; the Odin/Azov and Guimar pyramid projects (not read beyond Wikipedia orientation); and the artifact-return question (Smithsonian, 8 Apr 2019, read but not scored). CAUSE OF RA'S 1969 FAILURE: accounts differ (Baker: reeds cut in the wrong month; Wikipedia: an omitted stern tether; the museum: reeds absorbing water) and is not adjudicated; only Baker's account is cited, and only as Baker's account. LIMITS: Baker's profile has no stated author, date or venue; Guardian, NYT, Independent, Telegraph and Washington Post obituaries were blocked or unreachable (403 or tool-blocked) and are NOT counted or cited; the American Scientist Hunt article returned 503, Britannica 403, the Duke HAHR review of Pyramids of Tucume 403, the Adventure Journal Baker piece 404, and the Rapa Nui Journal photographic-archive article did not resolve, so none is counted; the lifeinnorway.net Kon-Tiki article was read and NOT used (it contains a factual error on Puka-Puka and 97 days). Evidence types follow rubric section 10: strong_inference only where two or more distinct dated episodes from separate accounts support the row. PORTRAIT: LOC New York World-Telegram & Sun photograph by Al Ravenna, 4 May 1951 (LOC digital ID cph.3c22921). The Commons file page (fetched) and the Commons API (imageinfo/extmetadata) give license 'Public domain' with the PD New York World-Telegram & Sun template and the LOC statement 'No copyright restriction known. Staff photographer reproduction rights transferred to Library of Congress through Instrument of Gift'; loc.gov itself returned 403 to automated fetch, so the LOC rights text is read via Commons only. Downloaded the original PNG (2848x3727) and resized to 1223x1600 JPEG q85. Same NYWTS convention as the shipped frank-lloyd-wright candidate. Kind is likeness (a 1951 press photograph made from life). Rejected alternatives: the 1958 SAS Kastrup photo (Danish PD claim, US status doubtful), the two 1963 Anefo CC0 photographs (full-length candid walking shots), the 346x501 P18 image. PRE-COMMIT RUBRIC_CORRECTION (2026-09-18, orchestrator, before any eligibility computation): resourcefulness strong_inference 0.58 -> inference 0.48 per rubric sec.10; score unchanged; direction was down."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "토르 헤위에르달"
+    }
+  }
+}
