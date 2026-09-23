@@ -256,8 +256,13 @@ media spelling; the Korean Wikipedia title/Wikidata label is 아이르통 세나
   status: `qa_passed` 93, `evidence_approved` 194, `held` 83).
 - `checkScoringLockIntegrity.ts`, pre-commit: "Checked 355
   previously-committed candidate file(s) against HEAD. 0 flagged." Legacy:
-  22 covered, 0 flagged. The post-commit literal output is recorded in the
-  docs follow-up commit (see below).
+  22 covered, 0 flagged. **Post-commit, run against the clean committed
+  HEAD (implementation commit `b572fbc`): "Checked 370
+  previously-committed candidate file(s) against HEAD. 0 flagged."** with
+  "Legacy scoring lock: 22 pre-pipeline production people covered, 0
+  flagged." Mechanical count of committed `data-pipeline/candidates/*.json`
+  at that HEAD: **370** (`git ls-tree`) = 370 on disk = the checked count —
+  agrees exactly. `validateCandidates.ts` post-commit: 0 errors, 0 warnings.
 - `vitest run`: **68 files, 1713 tests, all passed** (incl. the 142-test
   `roster38.test.ts`, `validateEditorial`, and the KO coverage guards).
 - `next build --webpack`: succeeded, **636 static/SSG paths**
