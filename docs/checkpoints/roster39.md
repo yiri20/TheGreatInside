@@ -265,8 +265,13 @@ addition is non-eligible. 157 tests.
   status: `qa_passed` 93, `evidence_approved` 209, `held` 83).
 - `checkScoringLockIntegrity.ts`, pre-commit: "Checked 370
   previously-committed candidate file(s) against HEAD. 0 flagged." Legacy:
-  22 covered, 0 flagged. The post-commit run against the clean committed
-  HEAD is recorded verbatim in the docs-only follow-up commit.
+  22 covered, 0 flagged. **Post-commit, run against the clean committed
+  HEAD (implementation commit `d2ec6d2`): "Checked 385
+  previously-committed candidate file(s) against HEAD. 0 flagged."** with
+  "Legacy scoring lock: 22 pre-pipeline production people covered, 0
+  flagged." Mechanical count of committed `data-pipeline/candidates/*.json`
+  at that HEAD: **385** (`git ls-tree`) = 385 on disk = the checked count —
+  agrees exactly. `validateCandidates.ts` post-commit: 0 errors, 0 warnings.
 - `vitest run`: **69 files, 1870 tests, all passed** (incl. the 157-test
   `roster39.test.ts`, `validateEditorial`, and the KO coverage guards).
 - `next build --webpack`: succeeded, **666 static/SSG paths**
