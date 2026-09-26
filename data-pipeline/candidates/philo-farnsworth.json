@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "philo-farnsworth",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Philo Farnsworth",
+    "aliases": [
+      "Philo T. Farnsworth",
+      "Philo Taylor Farnsworth II"
+    ],
+    "wikidataId": "Q360098",
+    "birthYear": 1906,
+    "deathYear": 1971,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "engineer"
+    ],
+    "fieldIds": [
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_farnsworth_wikipedia",
+      "kind": "wikipedia",
+      "title": "Philo Farnsworth (English Wikipedia; lead section read via the MediaWiki API, the rest of the article via a WebFetch summary) -- orientation only (identity, dates, occupations); not used as support for any scored row. The Korean Wikipedia article title 'ko:필로 판즈워스' was confirmed through the Wikidata sitelink and the ko.wikipedia API (page exists, id 2048950).",
+      "url": "https://en.wikipedia.org/wiki/Philo_Farnsworth"
+    },
+    {
+      "id": "src_farnsworth_wikidata",
+      "kind": "wikidata",
+      "title": "Philo Farnsworth (Q360098) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, claims, sitelinks): en label 'Philo Farnsworth', en description 'American inventor (1906-1971)', ko label '필로 판즈워스', born 1906-08-19, died 1971-03-11, citizenship Q30 (United States), occupation Q205375 (inventor), P18 'Philo T Farnsworth.jpg' (not used; see provenance). Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q360098"
+    },
+    {
+      "id": "src_farnsworth_everson_1949",
+      "kind": "biography",
+      "title": "George Everson, 'The Story of Television: The Life of Philo T. Farnsworth' (W. W. Norton, 1949) -- Internet Archive (Prelinger Library) scan; the full OCR text was downloaded with curl and read locally: the summer-1926 financing meeting and Green Street laboratory chapters, the 1927-1931 development, backer-demonstration, Zworykin-visit, Philco, multipactor and Franklin Institute chapters, the patents, Baird/Fernseh, television-standards and 'R.C.A. Licenses' chapters (about half of the 500 KB text; the family, banking, network, war-time and research chapters were only searched by keyword). FIRSTHAND but FRIENDLY: Everson was one of the three original partners and a backer and writes as Farnsworth's champion, so it counts as ONE affiliated perspective. His chronology is unreliable in places (he places the Zworykin visit in 1931 and the Franklin Institute show in 1935; other sources give 1930 and 1934).",
+      "url": "https://archive.org/details/storyoftelevisio00everrich"
+    },
+    {
+      "id": "src_farnsworth_gross_lindahall",
+      "kind": "institution",
+      "title": "Benjamin Gross (historian of science, Linda Hall Library), 'Philo Farnsworth', Scientist of the Day, 19 August 2021 -- a concise scholarly biography covering the 1926-1927 backing, the San Francisco laboratory, the 1929-1930 search for a corporate partner and Zworykin's 1930 visit, Philco (1931), the 1933 founding of Farnsworth Television Inc., the 1934 Franklin Institute demonstration, the 1932-35 interference case, the 1939 RCA royalty agreement, Fort Wayne, ITT (1949) and the later fusion effort. Non-self, secondary, largely neutral in tone; downloaded with curl and read in full (contains health remarks that are not used).",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/philo-farnsworth/"
+    },
+    {
+      "id": "src_farnsworth_sturgeon_foundsf",
+      "kind": "biography",
+      "title": "Tim J. Sturgeon, 'Philo Farnsworth and the Invention of Electronic Television', FoundSF (adapted from the author's Master's thesis on Silicon Valley history) -- read in full. Non-self secondary that leans on Everson (1949) and a 1967 piece by Morgan (not opened) but also quotes radio engineer Ralph Heintz's own 1982 recollection of working with Farnsworth (the only outside firsthand collaborator voice reached here, and only second-hand). Contains a birth-year error (1909), so it is used with care.",
+      "url": "https://www.foundsf.org/Philo_Farnsworth_and_the_Invention_of_Electronic_Television"
+    },
+    {
+      "id": "src_farnsworth_schwartz_mittr",
+      "kind": "press",
+      "title": "Evan I. Schwartz, 'Who Really Invented Television?', MIT Technology Review, 1 September 2000 -- the author of 'The Last Lone Inventor' (2002) in a magazine feature built on interviews with Pem and Kent Farnsworth (family) and the director of the David Sarnoff Collection; advocacy-leaning in tone. Read in full via curl. Used only for the 1931 buy-out offer/refusal and clearly attributed; the family's account of RCA pressure on Philco is not used. Same author as the book, so ONE Schwartz perspective, built on family testimony.",
+      "url": "https://www.technologyreview.com/2000/09/01/236187/who-really-invented-television/"
+    },
+    {
+      "id": "src_farnsworth_marriott_finding_aid",
+      "kind": "archive",
+      "title": "Philo T. and Elma G. Farnsworth papers, MS 0648, University of Utah Marriott Library Special Collections (finding aid on Archives West; processed by Keith J. Morgan, 1993) -- the Historical Note and container listing were downloaded and read. An institutional finding aid, but the collection was purchased from Elma Farnsworth in 1991 and includes her memoir, so the Historical Note is effectively drawn from family-supplied material (weak independence); used only for dated career facts (the 1927 laboratory, the 1949 sale to ITT, the 1965-67 fusion programme and the 1967 move to Utah).",
+      "url": "https://archiveswest.orbiscascade.org/ark:80444/xv98312"
+    },
+    {
+      "id": "src_farnsworth_explorepa",
+      "kind": "institution",
+      "title": "ExplorePAHistory.com (WITF / Pennsylvania Historical and Museum Commission), 'Philo T. Farnsworth (1906-1971) Historical Marker' -- the 'Behind the Marker' essay, read in full. A derivative educational summary (its bibliography lists Abramson, E. Farnsworth, Fisher, Schatzkin and Schwartz, none opened); it repeats an unsourced claim of an RCA ultimatum to Philco, which is NOT used. Used only for the 1931 Philco move and the 1933 break with Philco, and to cross-check the Franklin Institute demonstration.",
+      "url": "https://explorepahistory.com/hmarker.php?markerId=1-A-3A6"
+    },
+    {
+      "id": "src_farnsworth_franklin_institute",
+      "kind": "institution",
+      "title": "The Franklin Institute, 'Franklin Firsts: Live Football Broadcast in 1934' -- institutional page on Farnsworth's August 1934 demonstrations at the Institute (about 20 days, camera on the roof, 75-cent admission). Read in full via curl; its 'first' framings are not adopted, and the length of the run is given differently elsewhere (ten days to three weeks).",
+      "url": "https://fi.edu/en/franklin-firsts-live-football-broadcast-1934"
+    },
+    {
+      "id": "src_farnsworth_lemelson_mit",
+      "kind": "institution",
+      "title": "Lemelson-MIT Program, 'Philo Farnsworth' inventor profile -- a short institutional biography that says fusion was his main interest from the 1950s until his death and that a 1965 patent covered an array of 'fusors' that produced a reaction of about thirty seconds. Read in full via curl; its priority claims about television are not used.",
+      "url": "https://lemelson.mit.edu/resources/philo-farnsworth"
+    },
+    {
+      "id": "src_farnsworth_ethw_dissector",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE), 'Farnsworth's Image Dissector' (page last edited 10 April 2019) -- a short neutral note on the tube's operation, its low light sensitivity and Farnsworth's later improvement of it. Read in full via curl; its patent-battle remarks are not used.",
+      "url": "https://ethw.org/Farnsworth's_Image_Dissector"
+    },
+    {
+      "id": "src_farnsworth_jenson_uhq",
+      "kind": "press",
+      "title": "H. Bert Jenson, review of Donald G. Godfrey, 'Philo T. Farnsworth: The Father of Television' (University of Utah Press, 2001), Utah Historical Quarterly 70:2 (Spring 2002), pp. 177-179 -- PDF downloaded from USU Digital Commons and read in full. A reviewer's summary of another author's biography (Godfrey's book itself was not read); used only for the reviewer's general remark on the work ethic that runs through Godfrey's narrative. The review also calls the book an exuberant last word in the 'father of television' debate, which is a reason for caution.",
+      "url": "https://digitalcommons.usu.edu/english_facpub/377/"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_farnsworth_everson_1949, src_farnsworth_gross_lindahall, src_farnsworth_sturgeon_foundsf, src_farnsworth_ethw_dissector | 1926-1935 | firsthand backer + secondary] Everson (a backer, writing in 1949) describes Farnsworth switching the dissector's photosensitive surface from potassium hydride to cesium oxide, trying many silicate mixtures before settling on willemite for the receiver screen, and setting Russell Varian to test materials from table salt to platinum over two years in a search for high secondary emission. Gross adds that after 1927 he devoted himself to getting brighter, sharper pictures from the dissector, ETHW says he improved the tube later, and Sturgeon reports Varian's multi-year phosphor and oscillator work; most of the technical detail comes from the friendly Everson account, so the row stays at strong_inference."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_farnsworth_gross_lindahall, src_farnsworth_everson_1949, src_farnsworth_lemelson_mit, src_farnsworth_marriott_finding_aid | 1927-1930; 1950s-1967 | secondary + firsthand backer] Gross says progress on a better picture was slow after 1927 and the investors were losing patience (after the 1929 crash they urged him to find a corporate backer), yet he kept working on the dissector; Everson describes the same years as month-after-month rebuilding and testing, including the scrapping of an amplifier that had absorbed months of work and about $5,000. Lemelson-MIT names fusion as his main interest from the 1950s until his death and the Marriott finding aid says he moved the fusion work to Brigham Young University in 1967; two distinct periods, but the second rests on short institutional summaries, and health, finances and death are not used."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_farnsworth_everson_1949, src_farnsworth_gross_lindahall, src_farnsworth_schwartz_mittr, src_farnsworth_explorepa | Aug 1928; 1931; 1933 | firsthand backer + secondary] Everson reports that when a backer proposed in August 1928 to place the work with a large electrical company Farnsworth was dismayed at the prospect of selling, and that in 1931 he did not want to sell control outright; Schwartz (using the family's account) says he rejected RCA's buy-out offer of 1931 by telegram, and Gross says RCA's earlier attempt to buy his patents failed. In 1933 he left Philco and formed his own company, which Gross describes as a way to improve the dissector free of outside interference, while Everson says Philco's production aims differed from his research-and-patents aims. Two distinct episodes with several tellings, but details of the 1931 offer rest partly on family testimony (Everson's own account of Sarnoff's 1931 visit mentions only a general patent discussion)."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_farnsworth_everson_1949 | 1928-1930 | firsthand backer, single perspective] Everson says Farnsworth traced two flaws in early pictures (a ghost image and a dark central smear) to the sine-wave scanning pulses, worked out a remedy mathematically first and then spent months on a saw-tooth generator, and that his patent attorney Lippincott found he had soon outpaced him in mathematics. For his December 1930 public statement on narrowing the television wave band Everson says the mathematics was checked by Naval Research Laboratory engineers beforehand, but the scheme later proved unworkable, which tempers the score. All of this comes from one backer's 1949 account, so it is inference."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_farnsworth_everson_1949, src_farnsworth_jenson_uhq | 1926-1928; 1931-1933 | firsthand backer + reviewer's summary] Everson says Farnsworth concentrated so intensely on the San Francisco work that it came as a shock to realise two years had passed and more than the agreed money had been spent, and that at Philco his absorption left his backers hearing little from him. Jenson's 2002 review says Godfrey's biography describes a man whose life was his work, but that is a reviewer's paraphrase of another author. Two episodes from one friendly source plus a general characterisation, hence inference; the cost (neglected reporting to backers) makes it dual_edged."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_farnsworth_everson_1949, src_farnsworth_gross_lindahall | summer 1926; 1928-1929 | firsthand backer (recalled 23 years later) + secondary context] Everson recalls Farnsworth telling the Crocker bankers in summer 1926 that mechanical-disc scanning could not reach the speed needed and that he would use purely electrical scanning; he adds that engineers and technical articles of 1928-29 were discouraging about the electronic approach and that Farnsworth never tackled a problem in the orthodox way. Gross confirms that most television work of the period relied on mechanical scanning, but what he said and thought is Everson's account alone, so this is inference and no priority claim is made."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_farnsworth_everson_1949, src_farnsworth_gross_lindahall, src_farnsworth_schwartz_mittr | 1930; Dec 1930; 1931 | firsthand backer + secondary] Everson says Farnsworth and his backers recognised that showing Zworykin the whole laboratory in 1930 carried great risk and did it anyway (Gross: after the 1929 crash the investors urged him to seek a corporate partner and he invited leading firms, RCA among them); Everson also says a December 1930 public announcement about a narrower television wave band later proved unworkable and hurt his standing with radio engineers. Schwartz reports that in 1931 he rejected RCA's buy-out offer by telegram although his bankers wanted an exit. The disclosure and the offer are each attested by more than one source, but the motives are the tellers' reading, so inference."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_farnsworth_sturgeon_foundsf, src_farnsworth_everson_1949 | 1927-1930s | secondary (quoting a 1982 recollection) + firsthand backer] Sturgeon quotes radio engineer Ralph Heintz (1982) saying he worked with Farnsworth from the beginning, visiting the laboratory several times a week and helping each other, and lists local electronics figures (Fuller, Hanson, Terman, Heintz) who visited regularly. Everson adds that Farnsworth let Zworykin watch his glass-blower make a dissector tube in 1930, exchanged technical data and reciprocal visits with British and German licensees, and prepared with his own engineers before each Radio Manufacturers Association television-standards meeting, but also that he preferred trusted, often family, assistants over better-trained engineers. Moderate and mixed, resting mainly on one perspective, so inference."
+    },
+    "planning_orientation": {
+      "score": 46,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_farnsworth_everson_1949, src_farnsworth_gross_lindahall | summer 1926-Aug 1928 | firsthand backer + secondary] Everson reports that in 1926 Farnsworth estimated twelve months at about $1,000 a month with $25,000 as a cushion and that by August 1928 he was uneasy because he had greatly underestimated the time and money needed; Gross independently says the first demonstration slipped from his early-1927 hope to that autumn. Against this Everson says he set up a laboratory-notebook system and began building a broad patent structure very early. Mixed evidence from mainly one source places him just below the midpoint."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/philo-farnsworth-banyan-1924.jpg",
+    "width": 295,
+    "height": 441,
+    "source": "The Banyan (Brigham Young University yearbook, Provo, Utah), 1924 volume -- yearbook portrait in the 'Fourth Years' (high-school seniors) section, via Wikimedia Commons (cleaned crop of the same photograph, Commons source credit to the Utah State Historical Society 'I Love History' page)",
+    "license": "Public domain (PD-US-expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Philo_Farnsworth_1924.jpg",
+    "attribution": "Philo Farnsworth, yearbook portrait, The Banyan (Provo: student body of Brigham Young University, 1924); photographer not credited (Commons: unknown author); public domain in the United States because published before 1931; downloaded from Wikimedia Commons and re-encoded, not resized",
+    "attributionUrl": "https://archive.org/details/banyan1924brig",
+    "creator": "Unknown (yearbook photographer not credited)",
+    "date": "1924",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Philo_Farnsworth_1924.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q360098 verified live: Wikidata API wbgetentities returned en label 'Philo Farnsworth', en description 'American inventor (1906-1971)', ko label '필로 판즈워스', enwiki and kowiki sitelinks, born 1906-08-19, died 1971-03-11, citizenship Q30 (United States), occupation Q205375 (inventor); ko.wikipedia API confirmed the page '필로 판즈워스' (id 2048950). Slug collision check: no philo-farnsworth file in data-pipeline/candidates and no Farnsworth string in src/data/people. CLASSIFICATION: era 20th_century (1906-1971, main work 1926-1967); regionCode north_america; occupations inventor and engineer, fields technology and engineering (engineering is included beyond the suggested technology because the experimentation and analytical_rigor rows rest on his vacuum-tube, circuit and scanning-wave development work; drop it if only the building_discovery category is wanted); tags innovator and independent (the latter rests on the autonomy row); archetype technical_innovator. EVIDENCE READ: 12 source records (2 orientation, 10 substantive, all actually opened): Everson 1949 (about half of the full OCR text read in detail), Gross (Linda Hall), Sturgeon (FoundSF), Schwartz (MIT Technology Review), the Marriott Library finding aid, ExplorePAHistory, the Franklin Institute page, Lemelson-MIT, ETHW and Jenson's Utah Historical Quarterly review. INDEPENDENCE IS WEAK: the base is dominated by Everson, a backer and original partner writing as Farnsworth's champion (ONE affiliated firsthand perspective), and by family-derived material (Pem and Kent Farnsworth via Schwartz; the finding aid built on the purchased family papers; Sturgeon and ExplorePA largely re-tell Everson or family accounts). The distinct outside perspectives are Gross (a historian, brief), Sturgeon's quotation of Heintz's own 1982 recollection (second-hand), and Jenson's reviewer summary (second-hand); Schwartz is a journalist who relied on the family. Non-self behavioural sources: all of them (none is Farnsworth's own writing), but none is an adversarial or fully independent contemporary. Roughly three reasonably distinct perspectives (Everson; Gross; Heintz via Sturgeon) plus weak derivative ones. For that reason no row is documented and none exceeds 0.58: three rows (experimentation, persistence, autonomy_need) are strong_inference at 0.52-0.58 because two or more distinct episodes are attested by a source other than Everson; the other six are inference at 0.42-0.45 because they rest chiefly on Everson's 1949 account. EPISODE USE (no episode supports more than two rows): the 1928-30 scanning-wave fix (analytical_rigor, experimentation); the 1927-30 dissector improvement under investor impatience (persistence, experimentation); the secondary-emission programme (experimentation, persistence); the August 1926 Crocker meeting (independent_thinking, planning_orientation); the August 1928 backer demonstration and cost overrun (planning_orientation, autonomy_need); the 1930 Zworykin visit (risk_tolerance, collaboration); the December 1930 wave-band announcement (analytical_rigor, risk_tolerance); the 1931 buy-out offer (autonomy_need, risk_tolerance); the 1933 Philco break (autonomy_need); the fusion years (persistence); the 'intense concentration' passages (deep_focus); the Heintz/licensee/standards-committee passages (collaboration). CONFLICTS AND DATING: Everson dates the Zworykin visit to 1931 and the Franklin Institute show to 1935 (other sources: 1930 and August 1934) and dates the Philadelphia laboratory to 1934 (Gross and ExplorePA: 1933), so his chronology is not relied on and only what he says was done is used; the length of the Franklin Institute run is given as 20 days, ten days and three weeks by different sources; Sturgeon gives the wrong birth year; Lemelson-MIT (1965) and the Indiana Historical Bureau (1968) give different dates for the fusor patent, so no patent date is used. Everson's own account of Sarnoff's 1931 visit records only a general patent discussion while Schwartz and others report a $100,000 buy-out offer refused by telegram, so the offer is attributed to Schwartz (with Gross confirming only that an RCA attempt to buy the patents failed) and not to Everson. 1939 RCA LICENCE: Everson's account of the May-September 1939 negotiations says Farnsworth was in Maine and that company officers (Nicholas, Martin) conducted them, so no Farnsworth-specific negotiating behaviour is scored; the licence is used only as a dated fact in the editorial draft. EXCLUDED ON PURPOSE: any 'inventor of television', 'first' or priority framing, the 1921 harrow story, the 1922 Tolman sketch and the 1934-35 interference outcome (priority claims are contested and the testimony is interested); patent counts, dollar sums and royalty figures as achievement; alcohol, depression, hospitalisation, exhaustion and other health remarks (Gross, IHB, Schwartz, finding aid), bereavement, the 1969-70 collapse of Philo T. Farnsworth Associates, financial hardship and his death (no trait inference from them); the family's stories (Pem's Einstein telephone call, wedding-night remark, moon-landing remark); Elma Farnsworth's 'Distant Vision' and Schatzkin's biography were NOT opened (family and family-adjacent) and Stashower's (lending-restricted), Godfrey's and Fisher's books were not opened. Opened but not cited because unsigned, derivative, popular or unreliable: Wells Fargo history page (a backer's successor retelling Everson), Indiana Historical Bureau blog parts I-III (built on Pem and Schatzkin), EBSCO Research Starters (contains errors), History.com, Television Academy tribute, Paleotronic, Britannica, the NMAH image-dissector and notebook records (no descriptive text on behaviour). LIMITS: no scholarly or contemporary non-family account of the 1936-1967 Fort Wayne and ITT years was reachable (the fusor-forum synopsis returned HTTP 403), so those decades are thin and the ITT fusion-programme working style is not scored; the Heintz 1982 and Morgan 1967 items are known only through Sturgeon; Everson was read in part. PORTRAIT: the Wikidata P18 image (Commons 'File:Philo T Farnsworth.jpg', Harris & Ewing, 19 January 1939, template {{PD-Harris-Ewing}}) was NOT used: the Commons API and file page give author 'Harris & Ewing', date 1939-01-19 and the template, and the template's own text says only that according to the Library of Congress there are no known copyright restrictions; the sibling Commons file of the same 19 January 1939 Harris & Ewing session gives the LOC credit 'Gift; Harris & Ewing, Inc. 1955' and the rights note 'No known restrictions on publication', so the decisive copyright fact (published without notice or not renewed) is not established and the image is not rights-clear under the brief. The Commons 'Philo T. Farnsworth in 1936.jpg' (CC0, 'own work' of a 2024 uploader for a 1936 photograph) was rejected as an implausible authorship claim. USED INSTEAD: 'File:Philo Farnsworth 1924.jpg' (Commons {{PD-US-expired}}, date 1924, author unknown, source credit ilovehistory.utah.gov and The Banyan 1924); the template's own text says the work is in the public domain in the United States because it was published (or registered) before 1 January 1931. Verified: archive.org item banyan1924brig is 'The banyan', date 1924, volume 11, published in Provo by the student body of Brigham Young University (Harold B. Lee Library scan) and its OCR text refers to events of March 1924; I found the same photograph as the oval portrait in the 'Fourth Years' montage on the scan's leaf 102 (compared side by side with the Commons yearbook PNG). Identity: the montage caption gives surnames only (a 'Farnsworth' is listed among the Fourth Years) so the name cannot be matched to the face on the page itself; identity rests on the Commons files, the Utah State Historical Society page that captions a portrait 'A young Philo T. Farnsworth', and visual consistency with the other Farnsworth photographs. The saved file is the Commons original (295x441, small; never upscaled), re-encoded as JPEG q85; it shows a single subject, cleanly cropped. Residual doubts: photographer unknown and no name-to-face match on the yearbook page; the publication fact (1924) is what the public-domain status rests on. kind 'likeness' (a photograph made from life)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "필로 판즈워스"
+    }
+  }
+}

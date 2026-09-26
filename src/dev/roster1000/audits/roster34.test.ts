@@ -137,7 +137,7 @@ describe("Roster34: Haruki Murakami's portrait-only recovery", () => {
 });
 
 describe("Roster34: cross-target identity integrity", () => {
-  it("no duplicate ids, slugs, or Wikidata QIDs across all 306 production people", () => {
+  it("no duplicate ids, slugs, or Wikidata QIDs across all 321 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
     const qids = SEED_PEOPLE.map((p) => p.externalIdentity?.wikidataId).filter((x): x is string => !!x);
@@ -155,9 +155,9 @@ describe("Roster34: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (306 people as of Roster38, 2026-09-23 -- this batch itself added none of the later growth), all 12 Roster34 targets present in both", () => {
-    expect(SEED_PEOPLE).toHaveLength(306);
-    expect(PEOPLE_INDEX).toHaveLength(306);
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (321 people as of Roster39, 2026-09-26 -- this batch itself added none of the later growth), all 12 Roster34 targets present in both", () => {
+    expect(SEED_PEOPLE).toHaveLength(321);
+    expect(PEOPLE_INDEX).toHaveLength(321);
     for (const slug of TARGETS) {
       expect(SEED_PEOPLE.filter((p) => p.slug === slug)).toHaveLength(1);
       expect(PEOPLE_INDEX.filter((p) => p.slug === slug)).toHaveLength(1);

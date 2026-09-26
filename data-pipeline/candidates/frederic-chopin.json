@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "frederic-chopin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Frédéric Chopin",
+    "aliases": [
+      "Fryderyk Chopin",
+      "Frederic Chopin",
+      "Fryderyk Franciszek Chopin"
+    ],
+    "wikidataId": "Q1268",
+    "birthYear": 1810,
+    "deathYear": 1849,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "PL",
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_chopin_wikipedia",
+      "kind": "wikipedia",
+      "title": "Frédéric Chopin (English Wikipedia) -- orientation only (dates, Paris career outline, citizenship statement); fetched with targeted questions and not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin"
+    },
+    {
+      "id": "src_chopin_wikidata",
+      "kind": "wikidata",
+      "title": "Frédéric Chopin (Q1268) -- identity verified live via the Wikidata API (wbgetentities): en label 'Frédéric Chopin', en description 'Polish composer and pianist (1810-1849)', ko label and kowiki title '프레데리크 쇼팽', P569 1810 (two values), P570 1849-10-17, P27 France/Russian Empire/Duchy of Warsaw/Poland and one further item, P18 'Chopin, by Wodzinska.JPG'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q1268"
+    },
+    {
+      "id": "src_chopin_uchicago",
+      "kind": "institution",
+      "title": "Standley Howell, 'Frédéric Chopin and His Publishers', University of Chicago Library exhibition text, February-April 1998 (31-page case-text PDF; library curator drawing on the published musicology and the Library's collection of early editions; no stake in the subject). Downloaded, converted with pdftotext and read through all 21 cases: Paris debut and salons/teaching (cases 3, 5), the Farrenc, Kistner, Breitkopf, Wessel and Troupenas dealings and dedications (cases 6-12, 15), collaborative pieces and the Fétis-Moscheles method (case 16), teaching and the unfinished method (case 17), unpublished works (case 18). The exhibit's health passage in case 15 is not used.",
+      "url": "https://www.lib.uchicago.edu/media/documents/exfcp-text.pdf"
+    },
+    {
+      "id": "src_chopin_aco",
+      "kind": "institution",
+      "title": "Chopin Online, 'Annotated Catalogue of Chopin's First Editions' (online resource of a university research project; authors not named in the page text read): Historical overview; Chopin's publishers -- France, England, The German States; Legal contexts -- France, England; General characteristics -- Music text. Pages fetched with curl and read in full: three first editions of most works because of weak international copyright, differences arising from Chopin's own revisions and proof corrections, Wessel relations breaking down, Jullien negotiation abandoned.",
+      "url": "https://chopinonline.ac.uk/aco/background/historical-overview/"
+    },
+    {
+      "id": "src_chopin_ocve",
+      "kind": "institution",
+      "title": "Chopin Online, 'Online Chopin Variorum Edition' -- Contexts: Historical background (same academic project as the Annotated Catalogue, so treated as the same perspective as src_chopin_aco). Read in full: the categories of primary sources, including 'rejected public manuscripts' prepared for publishers but abandoned by Chopin, and the three-country publication of most works.",
+      "url": "https://chopinonline.ac.uk/ocve/contexts/historical-background/"
+    },
+    {
+      "id": "src_chopin_niecks_v2",
+      "kind": "biography",
+      "title": "Frederick Niecks, 'Frederick Chopin as a Man and Musician', vol. II (London: Novello, Ewer, 1888), Internet Archive scan; whole OCR text (~1.08 million characters) downloaded with curl and read locally in the relevant chapters: XXV (semi-public concerts of 1841 and 1842 with Liszt's and press reports), XXVI (letters to Franchomme 1844-46 and publisher dealings with Wessel/Ashdown, Wolff, Heller, Gutmann; Sand's account of his composing; Delacroix's 1842 Nohant letters), the teaching-method section (pupils Mathias, Dubois, Rubio, Gutmann, Mikuli), the musical-taste section, chapter XXVII (Berlioz's 1849 article), the 16 February 1848 Paris concert (Gazette musicale), and chapter XXXI (Britain 1848: Chopin's letters, Times advertisements, Musical World, Manchester Guardian, Glasgow Courier, Benedict's recollection, Mrs. Lyschinski). Niecks is a scholarly compiler who interviewed pupils and friends; the letters he translates are Chopin's own (one self perspective) and Sand's memoir is an interested witness. Read as secondary.",
+      "url": "https://archive.org/details/frederickchopin02niec"
+    },
+    {
+      "id": "src_chopin_niecks_v1",
+      "kind": "biography",
+      "title": "Frederick Niecks, 'Frederick Chopin as a Man and Musician', vol. I (Internet Archive scan of a Google-digitised copy; same author as src_chopin_niecks_v2, hence one perspective). Downloaded with curl; only the Kalkbrenner section was read (Chopin's letters of 14 and 16 December 1831 about Kalkbrenner's three-year proposal, and Niecks's discussion).",
+      "url": "https://archive.org/details/frederickchopin00niecgoog"
+    },
+    {
+      "id": "src_chopin_hiller",
+      "kind": "biography",
+      "title": "Ferdinand Hiller, 'Mendelssohn: Letters and Recollections' (London: Macmillan, 1874; translated by M. E. von Glehn), Internet Archive scan; whole OCR text downloaded with curl and the Chopin passages read: the Kalkbrenner class and the Pleyel soirée (pp. 14-16), and the 1834 Aachen festival journey including Chopin's sale of a waltz manuscript to Pleyel (pp. 22-24). Hiller was a friend and fellow pianist of Chopin, writing decades later (recollection).",
+      "url": "https://archive.org/details/mendelssohnrecol00hill"
+    },
+    {
+      "id": "src_chopin_delacroix_journal",
+      "kind": "archive",
+      "title": "Eugène Delacroix, 'Journal de Eugène Delacroix', tome 1 (Paris: Plon, 1893, ed. Paul Flat and René Piot), Project Gutenberg ebook 54020, in French; the full text was downloaded and every Chopin passage read. Used for the entry of Saturday 7 April 1849 (Chopin on fugue, counterpoint and harmony), a firsthand account by a friend who was not a musician.",
+      "url": "https://www.gutenberg.org/ebooks/54020"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chopin_uchicago, src_chopin_aco, src_chopin_niecks_v2 | c.1833-1848 | secondary scholarship + reported recollection + self] The University of Chicago exhibit text says Chopin used Schlesinger's proofs to add pedalling and expression marks absent from his autograph, sometimes so extensively that second proofs were needed (it adds 'perhaps at Schlesinger's behest'), and the Annotated Catalogue concludes that he could refine the French printings on an ongoing basis. Niecks quotes Julius Benedict, recalling 1848 more than thirty years later, on 'the great pains Chopin insisted should be taken in rehearsing' a Mozart duet at Stafford House, and Chopin's own August 1845 letter asks Franchomme to keep the copy for Leipzig clear because he would not correct those proofs."
+    },
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_chopin_niecks_v2, src_chopin_uchicago, src_chopin_aco, src_chopin_ocve | 1840s and 1830s-40s | partisan witness + secondary scholarship] George Sand (quoted by Niecks; an interested witness) describes him at Nohant repeatedly rewriting and erasing a bar for days and spending six weeks on a page he then wrote as first noted. Independently, the Chicago exhibit says he 'often changed his mind several times' about performing marks at proof stage and left many works unpublished, possibly 'in some cases' because they fell short of his standards; OCVE lists 'rejected' fair copies prepared for publishers, friends or pupils but abandoned by Chopin, and the Annotated Catalogue notes that ongoing revision left the three first editions differing. Held to the low 70s because the vivid account is Sand's and the scholars hedge on motive; dual_edged because the differing texts are still debated."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chopin_hiller, src_chopin_uchicago, src_chopin_niecks_v2 | 1832-1844 | recollection + secondary + self] Hiller (writing in 1874) says that in spring 1834, when Chopin had spent his travel money, he took a waltz manuscript to Pleyel's and came back with 500 francs so the trip to the Aachen festival could go ahead. The Chicago exhibit says he showed Probst's 1831 letter to Farrenc, which brought an offer of the German rights (1832), and that in 1840, annoyed by Schlesinger's delays, he placed eight works with Troupenas; in August 1844 his own letters to Franchomme line up Meissonnier or Lemoine as substitutes for Schlesinger and try to keep low Paris prices from lowering his German fee."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chopin_niecks_v1, src_chopin_hiller, src_chopin_uchicago, src_chopin_niecks_v2 | 1831-1848 | self + recollection + secondary + press] In December 1831 he wrote that he would not take Kalkbrenner's offer of three years' tuition (his own letters), while Hiller says he attended the class a few times. The Chicago exhibit describes a career resting on salons, teaching and publishing rather than concert touring and says he 'did not hesitate to take his business elsewhere' when publishers resisted; Berlioz (obituary of 27 October 1849, via Niecks) says only a small circle of chosen listeners could bring him to the piano, and his last Paris concert (16 February 1848) was by a list of applicants and needed patronage to obtain a ticket (Gazette musicale, via Niecks)."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chopin_delacroix_journal, src_chopin_niecks_v2, src_chopin_uchicago | early 1840s-1849 | firsthand + pupil reports + secondary] Delacroix recorded on 7 April 1849 that Chopin told him fugue is like pure logic in music and remarked that chords were customarily learned before counterpoint. Niecks says Chopin prepared himself for concerts by playing Bach, Madame Dubois told Niecks that at their last meeting (1848) he advised her always to work at Bach, and the Chicago exhibit says he took teaching seriously, taught Bach prominently and sketched, but never finished, a piano method in the early 1840s."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_chopin_uchicago, src_chopin_niecks_v2 | 1838-1848 | secondary + reported + self] The Chicago exhibit says Wessel added flowery titles to his pieces 'despite repeated complaints from the composer' and that in Paris he preferred Pleyel pianos for their finely nuanced action. Niecks relays Heller's account that in 1838 Chopin praised the tasteful binding of Schumann's Carnaval but said nothing about its music (Schlesinger later reported him calling it 'not music at all'), and Chopin's 1839 letter asks Fontana for plain pearl or dove-coloured wallpaper rather than 'staring colours'; dual_edged because his exclusive taste is reported to have narrowed his sympathies for other composers."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chopin_uchicago, src_chopin_hiller, src_chopin_niecks_v2 | 1832, 1848 | secondary + recollection + press] The Chicago exhibit says that after his first Paris concert (26 February 1832) teaching and publishing gave him an alternative to the touring career he had planned, and Hiller describes the Pleyel soiree that ended early doubts about his technique. After the 1848 upheaval, which the exhibit says left him without his chief source of income, he spent April-November 1848 in Britain, giving two ticket-limited matinees at private London houses (Times advertisements), a Manchester concert (28 August) and a Glasgow matinee (27 September), work he found irksome (his letters via Niecks), though he declined an invitation to play for the Philharmonic Society (Musical World, 27 May 1848)."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID Q1268 verified live via the Wikidata API (wbgetentities) before scoring: en label 'Frédéric Chopin', en description 'Polish composer and pianist (1810-1849)', ko label '프레데리크 쇼팽', P569 1810 (two values), P570 1849-10-17; the Korean Wikipedia article (title 프레데리크 쇼팽, opening '프레데리크 프랑수아 쇼팽 ... 1810년 3월 1일~1849년 10월 17일') was opened and matches. Slug collision check: no data-pipeline/candidates/frederic-chopin.json at start and no Chopin person entry in src/data/people (the only hit is an unrelated comment about another person in roster35.ts). CLASSIFICATION: Polish-born, worked in Paris from 1831 until his death; followed the corpus precedent marie-curie (Polish-born, worked in Paris: nationalityCodes PL+FR, regionCode western_europe, era 19th_century) rather than nicolaus-copernicus (PL, central_europe, lived in Poland) or ludwig-van-beethoven (DE, central_europe, worked in Vienna). PL is the birth nationality; FR follows Wikidata P27 (which lists France) and the English Wikipedia statement that he received French citizenship in 1835 (orientation only, not verified further). No historicalPolityKey: born in the Duchy of Warsaw (1810), for which the closed vocabulary has no polity key. occupationIds composer + musician as suggested (pianist is not an id); 'teacher' was considered because the Chicago exhibit describes teaching as a main livelihood, but the suggested pair was kept. Tags craft_focused/detail_oriented follow the mastery and detail rows only. EVIDENCE READ (7 substantive sources plus the two orientation entries, all downloaded/opened and read; each source title says how much): University of Chicago Library exhibition text 'Frédéric Chopin and His Publishers' (Standley Howell, 1998), Chopin Online's Annotated Catalogue of First Editions and Online Chopin Variorum Edition (one academic project, counted as one perspective), Niecks vols I-II (1888; one author, one perspective), Hiller's 1874 recollections, and Delacroix's Journal (Gutenberg 54020). INDEPENDENT NON-SELF PERSPECTIVES: 5 (Chicago curator; Chopin Online academic project; Niecks as compiler; Hiller; Delacroix), with two caveats: Chicago and Chopin Online draw on the same body of Chopin musicology, and Hiller and Delacroix were friends of the subject. SELF PERSPECTIVE: 1 (Chopin's own letters, read only in Niecks's translation). Pupils (Mathias, Dubois, Rubio, Gutmann, Mikuli), Sand, Heller, Benedict, Berlioz and the 1841-48 press items (Gazette musicale, Times, Musical World, Manchester Guardian, Glasgow Courier) reach this file only as quoted by Niecks and are treated as reported/secondary and, for pupils and Sand, as friendly or interested witnesses. EPISODE LEDGER (each episode supports at most two rows): proof-stage marking and repeated changes of mind (Chicago) -> detail_orientation, perfectionism; Sand's account of rewriting -> perfectionism; abandoned manuscripts / divergent first editions (OCVE, Annotated Catalogue) -> perfectionism, detail_orientation; Benedict's rehearsal recollection 1848 and the 1845 clear-copy letter -> detail_orientation; Hiller's 1834 waltz-for-500-francs episode -> resourcefulness; Probst letter/Farrenc 1832 and Troupenas 1840 -> resourcefulness, autonomy_need; August 1844 letters -> resourcefulness; Kalkbrenner December 1831 (Chopin's letters, Hiller) -> autonomy_need; concert format (Chicago, Berlioz 1849, Gazette musicale 1848) -> autonomy_need, and the 1832 pivot to teaching and publishing -> adaptability and autonomy_need; Britain 1848 (Chicago, Times, Musical World, Manchester Guardian, Courier) -> adaptability; Delacroix 7 April 1849, Bach reports, unfinished method -> mastery_orientation; Wessel titles, Pleyel preference, Schumann binding, 1839 wallpaper letter -> aesthetic_sensitivity. CONFIDENCE DISCIPLINE: one documented row (detail_orientation, 0.66) resting on two independent scholarly sources plus a reported recollection and a letter; the six strong_inference rows (0.50-0.60) each rest on two or more distinct episodes from unaffiliated sources, and every episode that rests only on pupils, Sand or Chopin's own letters is treated as one weaker perspective; no score is below 30 or above 84; perfectionism is held at 72 and dual_edged because the vivid account is Sand's and the scholars hedge on motive. EXCLUDED ON PURPOSE: tuberculosis, illness and physical weakness (the Chicago exhibit's health passage and Niecks's health commentary were not used, including for the 1848 tour and the 'irritability' anecdotes), the deathbed request about unpublished manuscripts, the break with Sand, the Wodzińska engagement and any sexuality speculation, all political-patriotic readings (Revolutionary Étude, refugee aid, the condolence-letter episode), the quality or fame of the music and 'genius' language, fees and sales as behaviour, Farrenc's reported complaint of 'laziness' (one publisher's view relayed by the exhibit; noted as counter-evidence, not scored), the Rollinat and Lenz anecdotes (Niecks himself disputes their reliability), and Liszt's romanticised 'Life'. ROWS CONSIDERED AND NOT SCORED because the evidence was mixed, single-source or would rest on the music: conflict_tolerance and social_assertiveness (avoidance of Wessel and reserve in company against Mrs. Lyschinski's 'imperious' anecdote and pupils' outburst anecdotes), collaboration (Moscheles's 1839 diary, the Hexameron and Méthode des méthodes contributions were partly publisher-led and Niecks records his neglect of artists' society), risk_tolerance, planning_orientation (Niecks documents chronic money trouble), persistence, creative_originality, curiosity. REAL LIMITS: Karasowski vols I-II and Lenz's 'Great Piano Virtuosos' (with Moscheles's diary, read only for context) were downloaded but not relied on; Eigeldinger's pupils' anthology, Hedley's correspondence and Alan Walker's biography were not accessible, so pupils' testimony comes only through Niecks (1888) and the Chicago exhibit; Sand's memoir was not opened (quoted through Niecks); every letter is read in Niecks's English translation; the Chopin Online pages do not name their authors; Chicago's exhibit is a case-text summary. PORTRAIT: Wikidata P18 lists two images ('Chopin, by Wodzinska.JPG' and 'Frederic Chopin photo.jpeg'); only the first was evaluated. Chosen 'File:Chopin, by Wodzinska.JPG': watercolour and ink on bristol board, 1836, by Maria Wodzińska (then 16), collection National Museum in Warsaw. Verified on the exact Commons File page, the Commons API (LicenseShortName 'Public domain', Copyrighted False, DateTimeOriginal 1836, Categories including PD-old and 'Watercolor paintings in the National Museum in Warsaw'), the file's wikitext ({{PD-Art|PD-old-auto-expired|deathyear=1896}}) and the rendered licence text ('The author died in 1896, so this work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer'). The decisive fact, the artist's death in 1896, was cross-checked on Wikidata (Q273923, Maria Wodzińska, 1819-1896, P570 1896-12-07). The University of Chicago exhibit independently lists 'Fryderyk Chopin, 1836, watercolor by Maria Wodzińska' and says she painted it in her private album while Chopin courted her, so it is a contemporary likeness by an amateur, not a photograph or a posthumous image; a formal sitting is not documented on any page read. The Commons 'Source' is a web-page copy (wydarzenia.o.pl) of a museum image, so the reproduction photograph's own provenance rests on the Wikimedia position that faithful reproductions of two-dimensional public-domain works are public domain, stated on the File page. Downloaded the original (1584x2136), downscaled only to 1187x1600 (JPEG quality 85, Pillow LANCZOS), saved as public/portraits/frederic-chopin-wodzinska-1836.jpg, saved size checked and the image viewed: a single seated young man in a dark coat and black bow tie, watercolour on plain paper, no frame or text. Identity rests on the Commons/Chicago titles and the museum attribution. NOTE: Wikipedia and Wikidata were used for orientation only; no scored row rests on them."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프레데리크 쇼팽"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/frederic-chopin-wodzinska-1836.jpg",
+    "width": 1187,
+    "height": 1600,
+    "source": "Maria Wodzińska, watercolour and ink on bristol board, National Museum in Warsaw, via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Maria Wodzińska, Portrait of Fryderyk Chopin, 1836, National Museum in Warsaw (public domain: the artist died in 1896); downscaled",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Chopin,_by_Wodzinska.JPG",
+    "creator": "Maria Wodzińska (1819-1896)",
+    "date": "1836",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Chopin,_by_Wodzinska.JPG"
+  }
+}

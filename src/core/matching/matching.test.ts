@@ -550,6 +550,27 @@ describe("confidence and missing data", () => {
       "rembrandt",
       "stanley-kubrick",
       "thor-heyerdahl",
+      // Roster39 (2026-09-26, docs/checkpoints/roster39.md): 15 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero
+      // backlog reuse, zero holds this cycle. Each has whatever eligibility
+      // outcome its own evidence produced (computed by build(), never
+      // gated); all 15 came out non-match-eligible -- an evidence outcome,
+      // not a target.
+      "antonie-van-leeuwenhoek",
+      "babe-ruth",
+      "buster-keaton",
+      "christopher-wren",
+      "frederic-chopin",
+      "george-frideric-handel",
+      "j-p-morgan",
+      "james-watt",
+      "johan-cruyff",
+      "joseph-lister",
+      "niki-lauda",
+      "philo-farnsworth",
+      "rene-descartes",
+      "robert-goddard",
+      "william-herschel",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1040,6 +1061,27 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "rembrandt",
       "stanley-kubrick",
       "thor-heyerdahl",
+      // Roster39 (2026-09-26, docs/checkpoints/roster39.md): 15 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero
+      // backlog reuse, zero holds this cycle. Each has whatever eligibility
+      // outcome its own evidence produced (computed by build(), never
+      // gated); all 15 came out non-match-eligible -- an evidence outcome,
+      // not a target.
+      "antonie-van-leeuwenhoek",
+      "babe-ruth",
+      "buster-keaton",
+      "christopher-wren",
+      "frederic-chopin",
+      "george-frideric-handel",
+      "j-p-morgan",
+      "james-watt",
+      "johan-cruyff",
+      "joseph-lister",
+      "niki-lauda",
+      "philo-farnsworth",
+      "rene-descartes",
+      "robert-goddard",
+      "william-herschel",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

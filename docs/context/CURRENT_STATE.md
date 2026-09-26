@@ -4,33 +4,33 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-**Minimal update, 2026-09-23**: the paragraph and Product-section headline
-below this note are stale (they predate Roster17-38 and describe a
+**Minimal update, 2026-09-26**: the paragraph and Product-section headline
+below this note are stale (they predate Roster17-39 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/roster38.md` for the full record):
+follows (see `docs/checkpoints/roster39.md` for the full record):
 
-- Production: **306** people. Directory-visible: **305**. Match-eligible:
+- Production: **321** people. Directory-visible: **320**. Match-eligible:
   **114** (unchanged since Legacy Integrity Batch 1; roster growth since
-  then has been non-match-eligible new-candidate publication — sixth
+  then has been non-match-eligible new-candidate publication — seventh
   consecutive new-candidate cycle at 114, confirmed healthy/expected by
   the recent-cohort diagnostic, see
   `docs/checkpoints/recent-cohort-matching-architecture.md`). *(These are
-  the numbers on the unmerged `feat/roster38` branch, PR pending; `main`
-  is at 291/290/114 until it merges.)*
-- Latest merged `main` SHA: `4c862f7f55b13c6cbf179854b6fca5d2d8984ce0`
-  (PR #47, Roster37 merge).
-- Latest milestone: **Roster38 (third fresh cycle after the diagnostic)
+  the numbers on the unmerged `feat/roster39` branch, PR pending; `main`
+  is at 306/305/114 until it merges.)*
+- Latest merged `main` SHA: `c4c51b29eff84d920b488d684b70a8859fd87e2c`
+  (PR #49, Roster38 merge).
+- Latest milestone: **Roster39 (fourth fresh cycle after the diagnostic)
   shipped all 15 frozen candidates, zero holds, zero backlog reuse**
-  (2026-09-23; 9 building_discovery / 4 arts_culture / 5 science_knowledge
-  by field membership). Combined Roster33-38: 81 new-candidate people
-  shipped across six cycles, 0 match-eligible — the diagnostic-confirmed
+  (2026-09-26; 7 building_discovery / 5 arts_culture / 8 science_knowledge
+  by field membership). Combined Roster33-39: 96 new-candidate people
+  shipped across seven cycles, 0 match-eligible — the diagnostic-confirmed
   expected pattern, not re-investigated. Full record:
-  `docs/checkpoints/roster38.md`.
-- Next recommended task: **Roster39** (new-candidate expansion, same
-  discipline as Roster33-38; leadership_society stays the lowest priority,
-  building_discovery is still the thinnest published category at 72 vs.
-  arts_culture 112 / science_knowledge 131). Legacy Integrity Batch 6 not
+  `docs/checkpoints/roster39.md`.
+- Next recommended task: **Roster40** (new-candidate expansion, same
+  discipline as Roster33-39; leadership_society stays the lowest priority,
+  building_discovery is still the thinnest published category at 79 vs.
+  arts_culture 117 / science_knowledge 139). Legacy Integrity Batch 6 not
   started. The 250-person performance benchmark should not be repeated
   unless a real regression appears. The recent-cohort matching diagnostic
   should not be repeated unless genuinely new evidence emerges.

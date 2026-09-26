@@ -1,0 +1,281 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "niki-lauda",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Niki Lauda",
+    "aliases": [
+      "Andreas Nikolaus Lauda"
+    ],
+    "wikidataId": "Q78489",
+    "birthYear": 1949,
+    "deathYear": 2019,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "sport",
+      "business"
+    ],
+    "impactDomains": [
+      "athletic",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder",
+      "career_changer",
+      "independent"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lauda_wikipedia",
+      "kind": "wikipedia",
+      "title": "Niki Lauda -- orientation only (Andreas Nikolaus 'Niki' Lauda, 22 Feb 1949 - 20 May 2019, Austrian racing driver, motorsport executive and aviation entrepreneur; Formula One 1971-79 and 1982-85); introduction read via the MediaWiki API; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Niki_Lauda"
+    },
+    {
+      "id": "src_lauda_wikidata",
+      "kind": "wikidata",
+      "title": "Niki Lauda (Q78489) -- identity verified live via the wbgetentities API: label 'Niki Lauda', description 'Austrian former Formula 1 driver (1949-2019)', born 22 Feb 1949, died 20 May 2019, citizenship Austria (Q40), instance of human, English aliases 'Andreas Nikolaus \"Niki\" Lauda', 'Nikolaus Lauda', 'Andreas Nikolaus Lauda', ko label '니키 라우다', enwiki/dewiki/kowiki sitelinks, P18 'Lauda at 1982 Dutch Grand Prix.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q78489"
+    },
+    {
+      "id": "src_lauda_kowiki",
+      "kind": "wikipedia",
+      "title": "Korean Wikipedia, '니키 라우다' -- introduction read via the API only to confirm the conventional Korean spelling (article title and Wikidata ko label agree). Its crash-and-nickname passage is not used. Orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/니키_라우다"
+    },
+    {
+      "id": "src_lauda_henry_msm2005",
+      "kind": "press",
+      "title": "Alan Henry, 'Niki Lauda: Ferrari's F1 \"Quick-fixer\"', Motor Sport, March 2005 (web version dated 7 Jul 2014) -- journalist's retrospective (non-self) that quotes Lauda extensively (his own words inside it are self-testimony, counted as the self perspective) and carries the NON-SELF recollection of BRM team manager Tim Parnell on Lauda's dedication and fitness work in 1973, plus Henry's own account of the 1974 Ferrari move and, in a closing summary, the 1979 retirement. Fetched with curl and read in full; the 1975-76 championship narrative is not used.",
+      "url": "https://www.motorsportmagazine.com/archive/article/march-2005/40/the-quickfixer-niki-lauda/"
+    },
+    {
+      "id": "src_lauda_cooper_msm2014",
+      "kind": "press",
+      "title": "Adam Cooper, 'I never considered early on that Niki could beat me to the championship. That was a mistake!', Motor Sport, October 2014 (web version) -- interview-based feature (non-self) with FIRSTHAND recollections of McLaren designer John Barnard (the 1983 turbo-car debut, Lauda's remarks on Prost), 1984 race engineer Steve Nichols (Lauda's decision to stop chasing Prost's qualifying pace) and Alain Prost, plus Lauda's own quotes (self). Fetched with curl and read in full; results, points margins and the Estoril race are not used.",
+      "url": "https://www.motorsportmagazine.com/archive/article/october-2014/66/i-never-considered-early-niki-could-beat-me-championship-was-mistake/"
+    },
+    {
+      "id": "src_lauda_cooper_autosport_mercedes",
+      "kind": "press",
+      "title": "Adam Cooper, 'How Lauda shaped the dominant Mercedes machine', Autosport, 24 May 2019 -- feature (non-self) on Lauda's Mercedes role from summer 2012, built on Toto Wolff's FIRSTHAND recollections: how the Hamilton approach unfolded (Cooper notes Lauda did not start the talks and that Brawn's push was also crucial), the early friction with Wolff and how they 'calibrated' their roles, and Wolff's account of Lauda's candour ('Who cares?'). Same author as src_lauda_cooper_msm2014 and src_lauda_cooper_autosport_forghieri (one journalist's perspective; the witnesses inside each piece differ). Fetched with curl and read in full; Cooper's remarks on the 1991 airline crash are not used.",
+      "url": "https://www.autosport.com/f1/news/how-lauda-shaped-the-dominant-mercedes-machine-5112307/5112307/"
+    },
+    {
+      "id": "src_lauda_cooper_autosport_forghieri",
+      "kind": "press",
+      "title": "Adam Cooper, 'How Forghieri helped shape Ferrari into world-beaters', Autosport, 9 Nov 2022 -- profile of the Ferrari engineer (non-self, secondary) stating that Lauda and Forghieri quickly got on and that the engineer appreciated the new arrival's willingness to test as often as necessary and give unfiltered feedback (with a Lauda quotation from his own writing inside it). Same author as the other two Cooper pieces. Fetched with curl and read in full; only the Lauda passage is used.",
+      "url": "https://www.autosport.com/f1/news/how-forghieri-helped-shape-ferrari-into-world-beaters/10397077/"
+    },
+    {
+      "id": "src_lauda_watson_msm2021",
+      "kind": "press",
+      "title": "John Watson, 'John Watson on Niki Lauda: My Greatest Rival', Motor Sport, January 2021 (web version 24 Nov 2020) -- FIRSTHAND account (non-self) by Lauda's Brabham team-mate in 1978 and McLaren team-mate in 1982-83, who describes how Lauda worked inside the teams (the larger steering wheel at his first McLaren test, the instruction to give way in Las Vegas in 1982, his reluctance to try untested options). Watson is an interested party (a rival who says he was as fast and more creative). Fetched with curl and read in full.",
+      "url": "https://www.motorsportmagazine.com/archive/article/january-2021/45/john-watson-on-niki-lauda-my-greatest-rival/"
+    },
+    {
+      "id": "src_lauda_audetto_racefans2019",
+      "kind": "press",
+      "title": "'\"He came to Fiorano. He was still bleeding. He got in the car.\" Daniele Audetto recalls Niki Lauda's bravest feat', RaceFans, 24 May 2019 -- FIRSTHAND interview account (non-self) by Ferrari's team manager in 1976-77: their first meeting in 1975 ('straight speaking'), Lauda's way of working with mechanics and engineers compared with Regazzoni, and the Fuji 1976 withdrawal. Audetto is an interested party (he backed the withdrawal). Fetched with curl and read in full; the passages on the Nurburgring crash, the injuries and the recovery, and on Reutemann and Peterson, are NOT used.",
+      "url": "https://www.racefans.net/2019/05/24/he-came-to-fiorano-he-was-still-bleeding-he-got-in-the-car-daniele-audetto-recalls-niki-laudas-bravest-feat/"
+    },
+    {
+      "id": "src_lauda_saltinstall_racefans2020",
+      "kind": "press",
+      "title": "'Exclusive extract: How Lauda won his second title at Ferrari - then walked out', RaceFans, 13 Jan 2020 -- extract from Jon Saltinstall's 'Niki Lauda: His Competition History' (Evro, 2019; author identified from RaceFans' own book review of 5 Jan 2020, which was also read; the extract page itself does not name him): a historian's race-by-race account (non-self, secondary, drawing on contemporary reports and Lauda's books) of the 1977 decision to leave Ferrari (talks with Lotus, Wolf and Renault, the choice of Brabham, the announcement ten days before Monza, the three grievances behind skipping the Canadian GP) and of the Nov-Dec 1977 Brabham testing. Fetched with curl and read in full; race results and the 1976-77 injury and recovery context are not used.",
+      "url": "https://www.racefans.net/2020/01/13/exclusive-extract-how-lauda-won-his-second-title-at-ferrari-then-walked-out/"
+    },
+    {
+      "id": "src_lauda_blash_gpfans2023",
+      "kind": "press",
+      "title": "Lauren Sneath, 'Ex-team boss reveals details of F1 legend's SHOCK departure from team', GPFans, 8 Aug 2023 -- report of an F1 Beyond the Grid podcast interview in which Brabham team manager Herbie Blash FIRSTHAND (non-self) recalls Lauda telling him at the 1979 Canadian GP that he would not get back in the car and would buy an aeroplane, and then telling Ecclestone. Blash is an interested party (a friend who was disappointed). Fetched with curl and read in full; his remarks on the 1982 return are not used.",
+      "url": "https://www.gpfans.com/en/f1-news/1001229/herbie-blash-niki-lauda-bernie-ecclestone-brabham-quit-f1/"
+    },
+    {
+      "id": "src_lauda_msm_canadagp1979",
+      "kind": "press",
+      "title": "'Canadian Grand Prix', Motor Sport race report, November 1979 (unsigned, contemporaneous; web version 2016) -- states that Lauda, who had never been to the Brabham factory to see the new BT49 built, drove ten laps of it in Montreal and left for his hotel, that the team first gave out a false reason, and that later in the day it was admitted he had retired and broken his Brabham contract. Fetched with curl and read in full; only that passage is used.",
+      "url": "https://www.motorsportmagazine.com/archive/article/november-1979/73/canadian-grand-prix-10/"
+    },
+    {
+      "id": "src_lauda_msm_germangp1976",
+      "kind": "press",
+      "title": "'German Grand Prix', Motor Sport race report, September 1976 (unsigned, contemporaneous; web version 2014) -- describes Lauda in practice as 'professing to be against the Nurburgring and actually leading the group of drivers who are trying to get it banned for Formula One'. Fetched with curl and read in full; the race and crash coverage is NOT used.",
+      "url": "https://www.motorsportmagazine.com/archive/article/september-1976/34/german-grand-prix-15/"
+    },
+    {
+      "id": "src_lauda_tsvyk_racefans2008",
+      "kind": "press",
+      "title": "Andrew Tsvyk, 'Hunt crowned as Lauda withdraws from Fuji washout', RaceFans, 7 Oct 2008 -- retrospective (non-self, secondary) stating that Lauda organised a drivers' meeting at the start of 1976 and proposed a boycott of the Nurburgring that the others did not support, and that at Fuji he drove into the pits and stopped, saying it was too dangerous to race in such conditions. It also repeats a rumour about a physical reason for the Fuji withdrawal, which is NOT used. Fetched with curl and read in full.",
+      "url": "https://www.racefans.net/2008/10/07/1976-japanese-grand-prix-flashback/"
+    },
+    {
+      "id": "src_lauda_gp247_ownwords",
+      "kind": "press",
+      "title": "Paul Velasco, 'Niki Lauda in his own words: I crashed at the Nurburgring on 1 August 1976...', GrandPrix247, 8 Aug 2026 -- reproduces an extract of Lauda's own autobiography 'To Hell and Back' (SELF perspective, counted once with all other Lauda quotations): the spring-1976 drivers' meeting at which he proposed boycotting the Nurburgring and was voted down. Fetched with curl and read; only that passage is used and nothing about the crash, injuries or recovery.",
+      "url": "https://www.grandprix247.com/f1-history/niki-lauda-in-his-own-words-nordscheliefe-50-years-since-he-went-to-hell-and-back"
+    },
+    {
+      "id": "src_lauda_crash_hamilton2013",
+      "kind": "press",
+      "title": "'Niki Lauda willed Lewis Hamilton DNF in F1 2012 Singapore GP', Crash.net, 4 Dec 2013 -- report of Lauda's own Reuters interview (SELF perspective) on his Singapore hotel-room meeting with Hamilton in 2012 and his follow-up. Used only for the self account of the meeting; corroboration comes from the non-self sources. Fetched with curl and read in full.",
+      "url": "https://www.crash.net/f1/news/198756/1/lauda-willed-hamilton-dnf-in-singapore"
+    },
+    {
+      "id": "src_lauda_therace_mercedes2020",
+      "kind": "press",
+      "title": "Josh Suttill, 'Greater than his own myth - Lauda's Mercedes influence explained', The Race, May 2020 -- feature (non-self) built on a package of tributes Mercedes released on the first anniversary of his death (team-supplied statements, counted as partly team-affiliated): Hamilton's FIRSTHAND recollection that Lauda phoned to convince him to join the team, technical director James Allison's account of Lauda's insistence on telling the truth 'right between the eyes', and Wolff's description of their early dispute over who should decide (quoting Maurice Hamilton's authorised biography). Fetched with curl and read in full; the passages on his resilience and on illness are not used.",
+      "url": "https://www.the-race.com/formula-1/greater-than-his-own-myth-laudas-mercedes-influence-explained/"
+    },
+    {
+      "id": "src_lauda_oversteer_eason",
+      "kind": "press",
+      "title": "Ashley Hambly, 'Toto Wolff once revealed how Niki Lauda's persuasive attitude saw Lewis Hamilton sign for Mercedes', F1 Oversteer, 23 Aug 2025 -- secondary retelling of the postscript by journalist Kevin Eason in the 2021 edition of Lauda's 'To Hell and Back', quoting Wolff's view that Hamilton was struck by Lauda's directness ('like a cruise missile') and repeating Lauda's own quotation; counted as a secondary retelling that adds Wolff's view only. Fetched with curl and read in full.",
+      "url": "https://www.f1oversteer.com/throwbacks/toto-wolff-once-revealed-how-niki-laudas-persuasive-attitude-saw-lewis-hamilton-sign-for-mercedes/"
+    },
+    {
+      "id": "src_lauda_stjames_companyhistory",
+      "kind": "press",
+      "title": "'History of Lauda Air Luftfahrt AG', International Directory of Company Histories, vol. 48 (St. James Press, 2003), as reproduced by FundingUniverse -- unsigned reference-work company history (non-self, secondary): the 1979 start with two Fokker F27s, the debts that led Lauda to mortgage his house and return to racing, the 1985 partnership with financier Basile Varvaressos, the scheduled-service licences won against stiff opposition from state-owned Austrian Airlines (limited rights 1986, worldwide rights August 1990) and the November 2000 dispute over the size of the loss when he stepped down. The Encyclopedia.com copy carries the same text and is not counted separately. Fetched with curl and read in full; the 1991 crash paragraph is not used.",
+      "url": "https://www.fundinguniverse.com/company-histories/lauda-air-luftfahrt-ag-history/"
+    },
+    {
+      "id": "src_lauda_nachrichten_chronology",
+      "kind": "press",
+      "title": "'Vier Airlines in 40 Jahren - Niki Lauda als Unternehmer', Nachrichten.at (Oberoesterreichische Nachrichten), 21 May 2019 (German, unsigned; translated by the researcher) -- Austrian newspaper chronology of his business ventures: first aircraft and pilot training in 1977, Lauda Air founded 23 April 1979 with two Fokker 27s, the 1986 application for a scheduled-service licence and the worldwide licence of 23 Aug 1990, the 2003 takeover of the Austrian arm of Aero Lloyd and the Niki airline, the 2016 purchase of Amira Air renamed Laudamotion, and the January 2018 award of the insolvent Niki to Laudamotion. Fetched with curl and read in full; the 1991 crash entry is not used.",
+      "url": "https://www.nachrichten.at/wirtschaft/vier-airlines-in-40-jahren-niki-lauda-als-unternehmer;art15,3131643"
+    },
+    {
+      "id": "src_lauda_wiwo2018",
+      "kind": "press",
+      "title": "'Niki Lauda kauft Airline zurück: Was hinter dem Deal steckt', WirtschaftsWoche, 23 Jan 2018 (German; translated by the researcher) -- business-press report that the creditors' committee awarded the insolvent Niki to Laudamotion after the earlier IAG sale, calls Laudamotion 'Lauda's third attempt' in the airline business (Lauda Air 1979, Flyniki 2003, Laudamotion), records his announced aim of ending Lufthansa's monopoly in Vienna, and quotes a union view that he had not been an ideal employer. Fetched with curl and read; the analyst speculation about partners is not used.",
+      "url": "https://www.wiwo.de/unternehmen/dienstleister/air-berlin-tochter-was-hinter-dem-lauda-deal-bei-niki-steckt/20876052.html"
+    },
+    {
+      "id": "src_lauda_reuters_2017",
+      "kind": "press",
+      "title": "'Niki Lauda says still interested in buying Niki', Reuters via Business Standard, 13 Dec 2017 -- wire report of Lauda's statement, the day Lufthansa dropped its plan to buy Niki, that he was still interested and that the price of an insolvent airline would be lower than one still flying. Short item; fetched with curl and read in full.",
+      "url": "https://www.business-standard.com/amp/article/reuters/niki-lauda-says-still-interested-in-buying-niki-117121301525_1.html"
+    },
+    {
+      "id": "src_lauda_msm_tributes2019",
+      "kind": "press",
+      "title": "'Racing world pays tribute to Niki Lauda', Motor Sport, May 2019 -- collection of tributes; used only for Alain Prost's statement (via AFP) that Lauda's answers were 'straight, correct and honest'. Fetched with curl and read in full; the tributes on his crash and illness are not used.",
+      "url": "https://www.motorsportmagazine.com/articles/single-seaters/f1/racing-world-pays-tribute-niki-lauda/"
+    },
+    {
+      "id": "src_lauda_mclaren_comeback2024",
+      "kind": "institution",
+      "title": "McLaren Racing, 'The day a legend returned: How Niki's triumphant F1 comeback unfolded' (mclaren.com heritage, 18 Oct 2024) -- SUBJECT-AFFILIATED team history page (his 1982-85 team), counted weakly and only as corroboration: that in 1981 he began a fitness programme before talking seriously about returning, asked to test the MP4 at Donington, ran 48 laps to see whether he could be competitive, and said 'I need some more testing before I commit'. It quotes Lauda's 1986 book and interviews (self). Fetched with curl and read in full.",
+      "url": "https://www.mclaren.com/racing/heritage/formula-1/drivers/niki-lauda/niki-laudas-1982-comeback-2155556/"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lauda_therace_mercedes2020, src_lauda_cooper_autosport_mercedes, src_lauda_oversteer_eason, src_lauda_crash_hamilton2013, src_lauda_cooper_msm2014, src_lauda_watson_msm2021 | Sept 2012; 1983; 1981-82 | firsthand Hamilton, Barnard, Watson + secondary] In Sept 2012 Lauda met Hamilton in his Singapore hotel room and and Hamilton recalls calls from Lauda trying to convince him to join the team; Cooper adds that Lauda did not start the talks and Brawn's push was also crucial, and Lauda's own Reuters account places the meeting between 2 and 4 a.m. Barnard recalls the 1983 turbo-car debut came under pressure from Lauda and Marlboro (Lauda: 'I forced him'), and Watson says Lauda persuaded Barnard to fit a larger steering wheel at his first McLaren test. Three episodes over three decades from three unaffiliated witnesses; the Hamilton move was multi-party and the two McLaren episodes are single-witness."
+    },
+    "social_assertiveness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lauda_msm_germangp1976, src_lauda_tsvyk_racefans2008, src_lauda_gp247_ownwords, src_lauda_audetto_racefans2019, src_lauda_msm_tributes2019, src_lauda_therace_mercedes2020, src_lauda_cooper_autosport_mercedes | 1975-76; 2013-19 | contemporaneous report + firsthand colleagues] Motor Sport's report on the 1 Aug 1976 race describes him in practice as leading the drivers trying to get the Nurburgring banned from F1; RaceFans and his own book say he proposed a boycott at a spring-1976 drivers' meeting and was voted down. Audetto recalls his 'straight speaking' at their 1975 meeting, Prost calls his answers 'straight, correct and honest', Allison says he told colleagues who fell short so 'right between the eyes', and Wolff says he answered worries about his frankness with 'Who cares?'. One dated stance plus converging witness summaries, hence strong_inference; dual_edged because Allison and Wolff say the bluntness was sometimes hard to work with."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lauda_saltinstall_racefans2020, src_lauda_blash_gpfans2023, src_lauda_msm_canadagp1979, src_lauda_cooper_autosport_mercedes, src_lauda_therace_mercedes2020 | 1977; 1979; 2013 | secondary + firsthand Blash, Wolff] Saltinstall says that in summer 1977 he had decided to leave Ferrari, talked to Lotus, Wolf and Renault, and then chose Brabham. Blash recalls that at Montreal in 1979 Lauda said he was not getting back in the car and would 'buy that aeroplane', and told Ecclestone he was done; Motor Sport's report says he left after ten laps and broke his contract. Wolff says that when he joined Mercedes in 2013 both men were used to their own companies and their own decisions, and The Race (quoting the biography) has Wolff recalling a fight over who was competent to decide. Three exits or clashes over 36 years; dual_edged because both departures ended a relationship abruptly."
+    },
+    "decisiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lauda_blash_gpfans2023, src_lauda_msm_canadagp1979, src_lauda_saltinstall_racefans2020 | 1977; 1979 | firsthand Blash + secondary] At the 1979 Canadian GP he told Blash after the first practice session that he would not drive again, told Ecclestone the same day, and left (Blash; Motor Sport's contemporary report has him leaving after ten laps of the new car). In 1977 Saltinstall says he made up his mind weeks before the announcement, secretly signed for another team that Dutch GP weekend, the day before telling Enzo Ferrari nothing would keep him, announced his departure ten days before Monza and then skipped the Canadian GP over three grievances at the team. Two documented episodes from unaffiliated sources; dual_edged because both left the teams little notice."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lauda_nachrichten_chronology, src_lauda_stjames_companyhistory, src_lauda_wiwo2018 | 1977-79; 2003; 2016 | secondary] Nachrichten.at dates his first aircraft purchase and pilot training to 1977 and the founding of Lauda Air to 23 April 1979 with two Fokker 27s, and the St James company history agrees on the 1979 start with two F27s. Nachrichten and WirtschaftsWoche add that in 2003 he took over the Austrian arm of insolvent Aero Lloyd and launched the Niki airline, and that in 2016 he bought the charter firm Amira Air and renamed it Laudamotion (WirtschaftsWoche calls it his third attempt in the airline business). Three airline ventures started or taken over by him across four decades, from three unaffiliated sources; the sources record the steps taken, not the ventures' results."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lauda_stjames_companyhistory, src_lauda_nachrichten_chronology, src_lauda_reuters_2017, src_lauda_wiwo2018, src_lauda_cooper_msm2014 | 1986-90; 2017-18; 1984 | secondary + firsthand Nichols] The St James history says Lauda Air won its scheduled-service rights against stiff opposition from state-owned Austrian Airlines (applied for 1986, worldwide rights 23 Aug 1990 per Nachrichten). On 13 Dec 2017, the day Lufthansa dropped its Niki plan, he told Reuters he was still interested in buying it, and in Jan 2018 the creditors' committee chose Laudamotion (WirtschaftsWoche, Nachrichten). Race engineer Nichols says that in 1984 Lauda tried very hard through the first half of the season to match Prost's qualifying pace before giving up on it. Three episodes over 34 years, but the 1986-90 licence account describes the airline rather than Lauda's own acts, and he also walked away from racing in 1979, so only a moderate lean."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lauda_cooper_autosport_forghieri, src_lauda_henry_msm2005, src_lauda_audetto_racefans2019, src_lauda_saltinstall_racefans2020, src_lauda_mclaren_comeback2024 | 1973-77; 1981 | firsthand Parnell, Audetto + secondary] BRM's Tim Parnell recalls in 1973 he had never seen such dedication and that Lauda worked himself to peak fitness. Autosport (Cooper) says that at Ferrari from 1974 he tested at Fiorano as often as needed and gave Forghieri unfiltered feedback; Audetto says he worked hard with mechanics and engineers, wanted to know everything, and stayed with them after qualifying while Regazzoni left for tennis. Saltinstall records long Brabham test programmes in Nov-Dec 1977 (a private four-day Vallelunga test, 64 laps in a day in Brazil, more at Balocco and Paul Ricard); McLaren's own page adds, weakly, his 1981 fitness work and 48-lap Donington assessment. Four unaffiliated sources spanning 1973-77."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lauda_cooper_msm2014, src_lauda_cooper_autosport_mercedes, src_lauda_watson_msm2021 | 1984; 2013; 1982 | firsthand Nichols, Wolff, Watson] Nichols says Lauda tried very hard for the first half of 1984 to match Prost's qualifying pace, then accepted he could not and concentrated on the races (Lauda: 'I changed my strategy'). Wolff recalls that after months of friction at Mercedes, Lauda said it was better for the two to push in the same direction. Against this, Watson (1982-83 team-mate) says Lauda had a set way of racing and would not do anything unless he had tried it before and knew it worked, even after seeing that Watson's tyre choice was better, so this is a modest lean, not a strong one."
+    },
+    "risk_tolerance": {
+      "score": 45,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lauda_msm_germangp1976, src_lauda_tsvyk_racefans2008, src_lauda_gp247_ownwords, src_lauda_audetto_racefans2019, src_lauda_stjames_companyhistory, src_lauda_henry_msm2005 | 1976; 1973; before 1982 | contemporaneous + secondary + firsthand] The evidence points in two directions by domain. He campaigned against racing the Nurburgring in 1976 (Motor Sport's report, RaceFans and his own book, before the crash) and stopped at Fuji on lap two saying conditions were too dangerous (RaceFans 2008), though Audetto adds it followed an agreement with Hunt and Fittipaldi to start and stop after two laps. By contrast he described signing with Ferrari in 1973, with legal action from BRM to fend off, as 'a big risk' (his own words in Henry), and the St James history says airline debts led him to mortgage his house before his 1982 return. A mid-range, domain-dependent location on limited on-point evidence, hence inference."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/niki-lauda-anefo-1982.jpg",
+    "width": 1165,
+    "height": 1600,
+    "source": "Nationaal Archief (Fotocollectie Anefo, item number 932-2315), via Wikimedia Commons",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Hans van Dijk for Anefo / Nationaal Archief, 1 July 1982 (first practice day, Dutch Grand Prix, Zandvoort), CC0 1.0 (resized from the archive photograph on Wikimedia Commons)",
+    "attributionUrl": "https://proxy.handle.net/10648/ad1a871c-d0b4-102d-bcf8-003048976d84",
+    "creator": "Hans van Dijk for Anefo",
+    "date": "1982-07-01",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Lauda_at_1982_Dutch_Grand_Prix.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "니키 라우다"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities API call (2026-09-23) for Q78489 returned label 'Niki Lauda', description 'Austrian former Formula 1 driver (1949-2019)', born 22 Feb 1949 and died 20 May 2019, citizenship Austria (Q40), instance of human, English aliases including 'Andreas Nikolaus Lauda', ko label '니키 라우다', kowiki sitelink '니키 라우다', P18 'Lauda at 1982 Dutch Grand Prix.jpg'; the assignment's search-hit QID was correct. SLUG CHECK: ls data-pipeline/candidates showed no niki-lauda file and grep of src/data/people found no 'Lauda' entry; no collision. CLASSIFICATION: occupations athlete and entrepreneur and fields sport and business, because rows draw on both his racing-team behaviour (persuasiveness, testing, the Ferrari and Brabham exits) and on airline behaviour (proactive_agency and persistence rest largely on Lauda Air, Niki and Laudamotion); regionCode western_europe (Austria) and era 20th_century follow the live ayrton-senna.json / pele.json precedent for late-20th-century sports figures; impactDomains athletic and entrepreneurial, tags founder, career_changer, independent and archetype entrepreneurial_builder are classification only, tied to the proactive_agency, autonomy_need and decisiveness rows, not evidence. EVIDENCE READ: 24 source records (3 orientation, 21 substantive, including 2 self-perspective pages, 1 secondary retelling and 1 subject-affiliated page); every page was opened, and all but Wikipedia/Wikidata/Korean Wikipedia (API) were fetched with curl and read from the raw text. INDEPENDENT NON-SELF PERSPECTIVES (at least 12): (1) Adam Cooper, journalist, three pieces (Motor Sport 2014, Autosport 2019, Autosport 2022) = ONE author perspective, though carrying the firsthand recollections of four different witnesses (John Barnard, Steve Nichols, Alain Prost, Toto Wolff); (2) John Watson, team-mate at Brabham and McLaren (Motor Sport 2021); (3) Daniele Audetto, Ferrari team manager (RaceFans 2019); (4) Jon Saltinstall's competition-history book (RaceFans extract 2020); (5) Herbie Blash, Brabham team manager (GPFans 2023); (6) Motor Sport's unsigned contemporaneous race reports of 1976 and 1979 (one magazine perspective); (7) Alan Henry, Motor Sport 2005, carrying BRM's Tim Parnell (his quotations of Lauda are self); (8) Josh Suttill, The Race 2020, carrying Lewis Hamilton, James Allison and Wolff (team-supplied tributes, partly team-affiliated); (9) Andrew Tsvyk, RaceFans 2008; (10) the St James company history (unsigned reference work); (11) the Nachrichten.at newspaper chronology (unsigned); (12) WirtschaftsWoche and Reuters on the 2017-18 Niki episode. SELF perspective (counted once): Lauda's own words in Henry, Cooper, Crash.net (Reuters interview) and the GrandPrix247 extract of his book; no row rests on his words alone. Weak or affiliated, corroboration only: mclaren.com (his former team), the Mercedes-supplied tributes, the F1 Oversteer retelling of Kevin Eason's postscript. BEHAVIOR-ONLY: rows rest on dated decisions and exchanges (leaving Ferrari, walking out of Brabham, the Hamilton approach, testing and working with mechanics, founding and re-founding airlines), not on titles, wins, lap times, points margins, pay or fame. EPISODE ECONOMY (max two rows per episode): the 1977 Ferrari exit supports autonomy_need and decisiveness only; the 1979 Montreal walkout supports autonomy_need and decisiveness only (the April 1979 airline founding is a separate event used only in proactive_agency); the 1976 Nurburgring boycott proposal supports social_assertiveness and risk_tolerance; the Fuji 1976 withdrawal supports risk_tolerance only; the 2013 Wolff calibration supports autonomy_need and adaptability; the 1984 qualifying-versus-race change supports adaptability and persistence; the 2012 Hamilton approach, the 1983 turbo debut and the 1982 steering wheel each support persuasiveness only. CONFLICTS REPORTED, NOT ADJUDICATED: (a) Lauda Air chronology: St James says limited scheduled rights in 1986 and worldwide rights in Aug 1990, Nachrichten says he applied in 1986 and first flew scheduled services in May 1988 with worldwide rights on 23 Aug 1990, and a small aviation site read (AirlineGeeks) says operations began in 1985 with BAC 1-11s; the last is not used. (b) Niki: WirtschaftsWoche says he founded Flyniki in 2003 by taking over Aero Lloyd's Austrian arm, Nachrichten says the 2003 step was a majority stake in Aero Lloyd Austria and the airline was named Niki in 2004; the row says 'took over ... and launched'. (c) Hamilton 2012: Lauda tells it as his own persuasion, Cooper says Lauda did not start the talks and Brawn's push was crucial, and The Race repeats a biography anecdote (Lauda telling Hamilton's manager the deal was done early) that is not used. (d) 1979 walkout: Blash places the exchange after first practice, Motor Sport says ten laps of the new car; both are consistent. EXCLUDED ON PURPOSE: race wins, championships as scoring evidence, records, lap times, salary and contract sums; the 1976 Nurburgring crash, burns, lung damage, the recovery and comeback race, any later transplant, illness and death (the Audetto recovery passages and Paul Fearnley's Motor Sport Fuji piece, which reads psychological states from the injuries, were read and NOT used; the RaceFans 2008 rumour of a physical reason for the Fuji withdrawal is not used, and the Fuji row rests only on the stated reason and the drivers' agreement); the Reutemann and Peterson episodes of 1976 (entangled with the injuries); the 1991 Lauda Air Flight 004 accident and its investigation (the Lauda paragraphs of Admiral Cloudberg's article and Cooper's Autosport passage were read: the facts are contested, the best-known anecdote is called probably apocryphal by that author, and later allegations rest on unnamed former employees, so no row is built on it); the Rush film; private life; the 1982 South African drivers' strike (labour and political character, zero-politics caution); the Jaguar 2001-02 spell (single-source anecdote from one former colleague, GPFans 2026); the union view in WirtschaftsWoche that he had not been an ideal employer (summarised in that source's title only; not scored). Read (in full or the Lauda passages) but not cited: the Top Gear 2012 interview (self), Motor Sport 'biggest mistake' (a summary of a self interview), the Motor Sport Doug Nye Forghieri profile (one line on Lauda), the Motor Sport Murray fan-car extract (about the car, not Lauda), the Al Jazeera 2013 Brawn item, the GPFans Szafnauer piece (read in part), Planet F1's Nurburgring feature (keyword-searched) and Encyclopedia.com (same text as the St James history). AirlineGeeks (a short student-written history, read; used only to note the date conflict). Fetched but not read and not used: the FAA lessons-learned page, Simple Flying, Motorsport.com's 'in his own words' and the OverTake page. Not obtained: Racer BT46B article (HTTP 429, not retried), ESPN Jaguar item (empty response), Speedweek (404), GPDC Audetto page (connection failed), Nationaal Archief record page (503), Lauda's own books in full, Maurice Hamilton's authorised biography, Britannica and the Guardian/NYT obituaries. SCORING DECISIONS: nine rows. A competitiveness row was not scored (no episode read speaks to it beyond results). conflict_tolerance and leadership_drive were considered and not scored: the relevant episodes (the Ferrari exit, the Mercedes calibration, the Barnard and Watson episodes) were already used twice each. independent_thinking was not scored because the Fuji withdrawal was agreed with other drivers. risk_tolerance is a mid-low, domain-dependent inference (0.42) because the evidence points in two directions. Every strong_inference row cites two or more distinct episodes from unaffiliated sources (rubric section 10). PRE-VALIDATION SELF-REVIEW: persistence was changed from 66 / 0.56 to 64 / 0.5 and its rationale reworded before any validator run, because the 1986-90 licence account describes the company rather than Lauda's own acts; several rationales were corrected against the raw pages (the Dutch GP weekend timing of the Brabham signing, 'a big risk' rather than 'a gamble', the 1982-83 dating of Watson's remark). No row was changed in response to the validator. PORTRAIT: Wikidata P18 'Lauda at 1982 Dutch Grand Prix.jpg'; Commons File page read via WebFetch and the Commons API: author 'Hans van Dijk for Anefo' (Nationaal Archief, Fotocollectie Anefo, item number 932-2315), date 1 July 1982 (first practice day, Dutch GP, Zandvoort), LicenseShortName CC0, UsageTerms 'Creative Commons Zero, Public Domain Dedication', and the file page's template text reads 'This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication'; the API marks Copyrighted as true (the rights holder dedicated the work), consistent with a CC0 dedication by the archive. REAL LIMIT: the Nationaal Archief's own record page (handle link) redirected and then returned HTTP 503, so the archive's rights statement was not read directly; the CC0 status rests on the Commons page, API and template text, the same basis used for the other Anefo portraits in this roster, and a reviewer may wish to confirm it against the archive. The original (2412x3314) was downloaded with curl and a User-Agent, downscaled with Pillow (LANCZOS) to 1165x1600 (JPEG q85, no upscaling), the saved file's dimensions were checked and the image was viewed: a single-subject black-and-white close portrait of Lauda in a Parmalat cap, face clearly visible. Kind: likeness. KOREAN NAME: '니키 라우다' is the Korean Wikipedia title and the Wikidata ko label."
+  }
+}

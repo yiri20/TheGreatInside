@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "j-p-morgan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "J. P. Morgan",
+    "aliases": [
+      "John Pierpont Morgan",
+      "J. Pierpont Morgan"
+    ],
+    "wikidataId": "Q54168",
+    "birthYear": 1837,
+    "deathYear": 1913,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "investor"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jpm_wikipedia",
+      "kind": "wikipedia",
+      "title": "J. P. Morgan -- English Wikipedia, introduction fetched via the MediaWiki API; orientation only (identity, dates, occupation). Not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/J._P._Morgan"
+    },
+    {
+      "id": "src_jpm_wikidata",
+      "kind": "wikidata",
+      "title": "J. P. Morgan (Q54168) -- identity verified live via the Wikidata API (wbgetentities): label 'J. P. Morgan', description 'American financier, banker, and art collector (1837-1913)', born 1837-04-17, died 1913-03-31, citizenship United States, kowiki sitelink 'J. P. 모건'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q54168"
+    },
+    {
+      "id": "src_jpm_kowiki",
+      "kind": "wikipedia",
+      "title": "J. P. 모건 -- Korean Wikipedia introduction fetched via the MediaWiki API; used only to confirm the conventional Korean rendering of the name (article title 'J. P. 모건'). Orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/J._P._%EB%AA%A8%EA%B1%B4"
+    },
+    {
+      "id": "src_jpm_cleveland",
+      "kind": "biography",
+      "title": "Grover Cleveland, 'Presidential Problems' (New York: Century, 1904), chapter 'The Bond Issues' (Project Gutenberg text, archive.org copy) -- the President's own account, written nine years later and openly defending his administration, of the 7 February 1895 White House interview with Morgan and the gold-purchase contract (Section 3700 proposal, $100,000,000 urged vs. $60,000,000 fixed, 3,500,000 ounces, half from Europe, duty to protect the reserve, the ten-day window for three per cent bonds), plus the January-February 1896 public sale. FIRSTHAND non-self (Morgan's counterparty); a recollection, not a contemporaneous record. Read in full for this chapter.",
+      "url": "https://archive.org/download/presidentialprob56060gut/56060-0.txt"
+    },
+    {
+      "id": "src_jpm_pujo_pt15",
+      "kind": "archive",
+      "title": "U.S. House Subcommittee on Banking and Currency, 'Money Trust Investigation' (Pujo Committee), Part 15, testimony of J. Pierpont Morgan, 19 December 1912 (GPO 1913, FRASER PDF text) -- primary transcript. Morgan's own answers are SELF testimony (one self perspective); counsel Samuel Untermyer's questions are the adversarial frame. Read: the voting-trust and fiscal-agent exchanges (pp. 1017-1020), the control and competition exchange (pp. 1050-1051) and the credit-and-character exchange (pp. 1083-1085); the remaining pages were skimmed by keyword.",
+      "url": "https://fraser.stlouisfed.org/files/docs/historical/house/money_trust/montru_pt15.pdf"
+    },
+    {
+      "id": "src_jpm_pujo_pt14",
+      "kind": "archive",
+      "title": "U.S. House Subcommittee on Banking and Currency, 'Money Trust Investigation', Part 14, first day of Morgan's testimony, 18 December 1912 (GPO 1913, FRASER PDF text, pp. 1003-1008) -- primary transcript, SELF testimony (same perspective as Part 15): partners, deposits of interstate corporations, his refusal to name depositors, fiscal-agent contracts. Read in full for the Morgan pages.",
+      "url": "https://fraser.stlouisfed.org/files/docs/historical/house/money_trust/montru_pt14.pdf"
+    },
+    {
+      "id": "src_jpm_tarbell_gary",
+      "kind": "biography",
+      "title": "Ida M. Tarbell, 'The Life of Elbert H. Gary: The Story of Steel' (New York: Appleton, 1925; archive.org scan) -- journalist's biography built on Gary's recollections, corporation records and 1913 government-suit testimony (Reed, Schwab, Bacon). Independent non-self, secondary, with second-hand recollections recorded in 1925. Read: the 1897-1901 Gary-Morgan episodes, the 1900 Carnegie discussions and the Simmons dinner, the March 1901 circular, the wire-company negotiation and the 1902 conversation (roughly pp. 80-127 and 146-149); the rest of the book was searched by keyword only.",
+      "url": "https://archive.org/download/in.ernet.dli.2015.264194/2015.264194.The-Life_djvu.txt"
+    },
+    {
+      "id": "src_jpm_moody",
+      "kind": "biography",
+      "title": "John Moody, 'The Masters of Capital: A Chronicle of Wall Street' (Yale University Press, 1919, Chronicles of America; archive.org scan) -- financial-analyst's narrative history. Independent non-self, secondary. Read: chapters I-II (Morgan's rise, the 1879 New York Central placing, the 1885 Vanderbilt/West Shore/South Pennsylvania settlement, the 1887 Baltimore and Ohio defeat and the voting-trust device, the Southern Railway and other reorganizations, pp. 1-34) and the opening of chapter V. Its ethnic characterisations of financiers were not used.",
+      "url": "https://archive.org/download/mastersofcapital00mood/mastersofcapital00mood_djvu.txt"
+    },
+    {
+      "id": "src_jpm_hovey",
+      "kind": "biography",
+      "title": "Carl Hovey, 'The Life Story of J. Pierpont Morgan' (New York: Sturgis & Walton, 1911; archive.org scan) -- contemporary, admiring journalistic biography written while Morgan was alive. Independent non-self but heavily interpretive; its 1895 narrative appears to draw on Morgan's own recollection, so it is used only as corroboration there. Read: chapters VIII-IX (1895), X (U.S. Steel), XIV (the panic of 1907, pp. 293-310) and the start of XV.",
+      "url": "https://archive.org/download/lifestoryofjpier01hove/lifestoryofjpier01hove_djvu.txt"
+    },
+    {
+      "id": "src_jpm_sprague",
+      "kind": "institution",
+      "title": "O. M. W. Sprague, 'History of Crises under the National Banking System' (National Monetary Commission, 1910; archive.org scan) -- contemporary scholarly report by a Harvard economist. Independent non-self, secondary. Read: the October 1907 account and assessment, pp. 252-256 (the trust-company runs, Morgan's influence, the stock-exchange money pool); the rest of the volume was searched for 'Morgan' only.",
+      "url": "https://archive.org/download/historyofcrisesu00spra_1/historyofcrisesu00spra_1_djvu.txt"
+    },
+    {
+      "id": "src_jpm_fedhistory",
+      "kind": "institution",
+      "title": "Jon R. Moen and Ellis W. Tallman, 'The Panic of 1907', Federal Reserve History (federalreservehistory.org essay) -- scholarly institutional essay. Independent non-self, secondary. Downloaded and read locally (the panic narrative in full): the 21-22 October 1907 sequence in which Morgan had Benjamin Strong examine Knickerbocker Trust's books, refused aid, then 'changed his mind' for the Trust Company of America, and the cash he solicited for the stock-exchange loan post.",
+      "url": "https://www.federalreservehistory.org/essays/panic-of-1907"
+    },
+    {
+      "id": "src_jpm_brands",
+      "kind": "press",
+      "title": "H. W. Brands, 'Upside-Down Bailout' (HistoryNet, American History magazine, 2010) -- historian's popular article on the 1895 Treasury rescue with a paragraph on 1907 and the Pujo hearing. Independent non-self, secondary and popular; several scene details (timing of the meeting, the solitaire evening) differ from Cleveland's own account and are not used. Read in full; corroboration only.",
+      "url": "https://historynet.com/upside-down-bailout/"
+    },
+    {
+      "id": "src_jpm_nytribune_1907",
+      "kind": "press",
+      "title": "New-York Tribune, 4 November 1907, pages 1-2 (Library of Congress digitised OCR text via loc.gov) -- contemporaneous newspaper coverage of the Saturday 2 and Sunday 3 November conferences at Morgan's library on 36th Street: who attended, the trust-company directors' late-night meetings and the public statements of Morgan and Perkins. Independent non-self, primary press; the reports describe attendance and public statements, not what was decided. Pages 1-2 were read; pages 3-5 were searched for 'Morgan' with no hits.",
+      "url": "https://www.loc.gov/resource/sn83030214/1907-11-04/ed-1/"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_jpm_moody, src_jpm_pujo_pt15, src_jpm_tarbell_gary | 1887-1912 | secondary + firsthand] Moody says that after his representative was voted out during the 1887 Baltimore and Ohio attempt Morgan made a voting trust a precondition of later reorganizations, and in December 1912 he confirmed under oath that he and George Baker, as Southern Railway voting trustees, designated its directors (Part 15, p. 1019). Tarbell quotes the 2 March 1901 circular that the plan of organization and management of the United States Steel Corporation 'shall be determined by J. P. Morgan and Company'; dual_edged because the same control was the Pujo committee's target."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jpm_cleveland, src_jpm_moody, src_jpm_brands | 1879-1895 | firsthand + secondary] Cleveland recalls that on 7 February 1895 Morgan 'suddenly asked' why the Treasury did not buy gold with bonds under Section 3700 of the Revised Statutes, a proposal 'entirely new' to the President; the resulting contract bound the syndicate to obtain at least half the gold in Europe at its own expense and to 'exert all financial influence' against withdrawals, and Cleveland says no gold left the Treasury for export while it ran (Brands gives the same outline with different scene detail). Moody adds two earlier improvisations: the secret 1879 London placing of 250,000 New York Central shares for W. H. Vanderbilt and the 1885 arrangement selling Vanderbilt's competing Pennsylvania road to the Pennsylvania Railroad interests and the West Shore to the New York Central."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jpm_hovey, src_jpm_sprague, src_jpm_fedhistory, src_jpm_tarbell_gary | 1901-1907 | secondary] On 21-22 October 1907 he refused Knickerbocker Trust once Strong could not establish its solvency ('I've got to stop somewhere', Hovey), and Sprague reports that on the Thursday of the worst runs he formed a $25,000,000 stock-exchange money pool. At the turn of 1900-01, Tarbell (from Gary) has him answer Gary's overnight steel plan the next morning with 'How shall we start?', and the choice of Federal Steel as the starting point was settled by late afternoon. Three distinct episodes from independent authors, but the speed relative to the facts he had is inferred and Gary's role in the 1901 pace is large, so strong_inference."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jpm_cleveland, src_jpm_pujo_pt15, src_jpm_pujo_pt14, src_jpm_tarbell_gary | 1895-1912 | firsthand + secondary] Cleveland recalls that at the 7 February 1895 interview Morgan began by complaining of Treasury officials' treatment of him and 'strongly urged' a $100,000,000 purchase against the President's $60,000,000 limit, then accepted the lower figure. Over 18-19 December 1912 he kept to his positions on voting trusts, control and credit under Samuel Untermyer's questioning ('We do not deal with ourselves', Part 15, p. 1019), and Tarbell (Gary's recollection of 1901) has him deliver a ten-minute ultimatum to the wire-company owners, though at Gary's suggestion after Morgan had said 'I'm through'."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_jpm_moody, src_jpm_tarbell_gary, src_jpm_fedhistory, src_jpm_hovey | 1887-1907 | secondary] Three documented changes of course: after the 1887 Baltimore and Ohio defeat of his plan he insisted on voting-trust control (Moody); Gary recalls that through 1900 Morgan refused to consider buying out Carnegie ('I don't believe I could raise the money') and then, after Schwab's December 1900 dinner talk, asked whether an option could be had (Tarbell); and in October 1907 he refused Knickerbocker, then 'changed his mind' and aided the Trust Company of America (Moen and Tallman). That each change followed new evidence is the authors' reading, not a stated reason, so inference."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/j-p-morgan-holl-1888.jpg",
+    "width": 1274,
+    "height": 1600,
+    "source": "The Morgan Library & Museum, New York (Frank Holl, 'Portrait of Pierpont Morgan', oil on canvas, 1888, commissioned by Morgan), via Wikimedia Commons",
+    "license": "Public domain (author d. 1888)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-auto-expired",
+    "attribution": "Frank Holl (1845-1888), Portrait of Pierpont Morgan, 1888, oil on canvas, The Morgan Library & Museum, via Wikimedia Commons; public domain; downscaled",
+    "attributionUrl": "https://artsandculture.google.com/asset/portrait-of-pierpont-morgan-frank-holl/YgEgZK8d1SwGLw",
+    "creator": "Frank Holl",
+    "date": "1888",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Frank_Holl_-_Portrait_of_Pierpont_Morgan.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities API call (2026-09-23) for Q54168 returned label 'J. P. Morgan' (ko label '존 피어폰 모건'), description 'American financier, banker, and art collector (1837-1913)', born 1837-04-17, died 1913-03-31, citizenship United States (Q30), instance of human, sitelinks enwiki 'J. P. Morgan' and kowiki 'J. P. 모건', P18 'J.P. Morgan.jpg' (rejected, see PORTRAIT); the assignment's search-hit QID was correct. SLUG CHECK: ls data-pipeline/candidates showed no j-p-morgan file and grep of src/data/people and data-pipeline for 'j-p-morgan' / 'J. P. Morgan' / 'Pierpont' found nothing; no collision. CLASSIFICATION PRECEDENT: era 19th_century and regionCode north_america follow the live john-d-rockefeller.json (1839-1937, 19th_century), andrew-carnegie.json (1835-1919, 19th_century) and george-eastman.json (1854-1932, 19th_century), which are the closest American business analogues (henry-ford.json, born 1863, is 20th_century); Morgan was primarily active 1857-1913. occupationIds investor only (financier/banker; the entrepreneur and executive ids were not added because no row is scored from founding or running an operating company); fieldIds business; impactDomains entrepreneurial and industrial (classification only; wealth_creation deliberately not used); tagIds empty; archetype organizational_leader (classification only, consistent with the leadership_drive row but not derived from it).\n\nEVIDENCE READ: 3 orientation records (English and Korean Wikipedia introductions via the MediaWiki API; Wikidata via the API) and 11 substantive source records, each actually fetched and read from local text (the archive.org, FRASER and loc.gov texts were downloaded with curl and read or grepped locally; Federal Reserve History and HistoryNet were downloaded and read; the Tribune pages 3-5 were only searched). NON-SELF PERSPECTIVES (9): (1) Grover Cleveland, Presidential Problems (1904), firsthand counterparty but a recollection nine years later by an interested party; (2) Ida Tarbell, Life of Elbert H. Gary (1925), built on Gary's oral recollections and 1913 testimony; (3) John Moody, The Masters of Capital (1919); (4) Carl Hovey, Life Story of J. Pierpont Morgan (1911), contemporary and admiring, interpretive; (5) O. M. W. Sprague, History of Crises (National Monetary Commission, 1910); (6) Moen and Tallman, Federal Reserve History essay; (7) H. W. Brands, HistoryNet article (2010), corroboration only and not shown to be independent of the accounts Hovey used; (8) New-York Tribune, 4 Nov 1907, contemporaneous press; SELF perspective (1): Morgan's own testimony in the Pujo hearings (Parts 14 and 15, two records = ONE perspective). Independence caveats: Brands and Hovey are not independent of each other for the 1895 scene and Hovey's 1895 chapter appears to draw on Morgan's own later telling, so neither carries any row alone; Tarbell's Steel material is Gary's (and Judge Reed's) recollection recorded in 1925, so every Steel episode is ONE perspective and is treated as such; Moody and Sprague are older syntheses whose own sources were not seen. At least three rows rest on two or more different authors.\n\nEPISODE BUDGET (no episode supports more than two rows): 1895 gold contract (Cleveland; Brands, Hovey as corroboration) -> resourcefulness + conflict_tolerance; 1879 and 1885 Vanderbilt settlements (Moody) -> resourcefulness; 1887 Baltimore and Ohio defeat and voting trusts (Moody; Pujo pp. 1017-1019) -> leadership_drive + belief_updating; 2 March 1901 US Steel circular and board/committee choices (Tarbell) -> leadership_drive; October 1907 Knickerbocker refusal and reversal (Moen and Tallman; Hovey) -> decisiveness + belief_updating; October 1907 stock-exchange money pool (Sprague) -> leadership_drive + decisiveness; turn-of-1900 Gary plan and 'How shall we start?' (Tarbell) -> decisiveness; 1900 refusal to buy Carnegie and the December 1900 dinner (Tarbell) -> belief_updating; wire-company ultimatum 1901 (Tarbell) and December 1912 Pujo testimony (self) -> conflict_tolerance. Five rows, scored to what the evidence supports; not targeting a row count, coverage or eligibility.\n\nSCORING DECISIONS: leadership_drive is 'documented' at 0.72 because three separate, dated, documentary actions (voting-trust control confirmed under oath, the March 1901 circular text, and the 1907 money pool with Sprague's assessment) come from different authors; it stays under 85 because none of the sources measures the drive itself and the same conduct is what the Pujo committee attacked (impact dual_edged). resourcefulness rests on Cleveland's own statement that the Section 3700 idea was 'entirely new' to him plus Moody's two earlier settlements. decisiveness is strong_inference, not documented, because his refusal of Knickerbocker and his 1900 resistance to the Carnegie purchase show he committed only after the facts satisfied him. conflict_tolerance is strong_inference because the wire-company ultimatum was suggested by Gary and delivered after Morgan had said 'I'm through' (Tarbell). belief_updating is inference (0.46): each change is documented, but the reason for the change is the biographers' reading. NOT SCORED AND WHY: risk_tolerance (mixed: he underwrote very large commitments but refused Knickerbocker until solvency could be checked and resisted the Carnegie purchase through 1900 because he doubted the money could be raised); collaboration (the delegation episodes are all Gary's recollection, one perspective); autonomy_need and planning_orientation (only characterisations by Hovey and Tarbell, no dated instance); proactive_agency (the story that he went to Washington uninvited in February 1895 appears in Hovey and Brands but not in Cleveland, whose account has the interview 'held' on the evening of 7 February; unresolved, see below); systems_abstraction, persuasiveness, detail_orientation, aesthetic_sensitivity (no independent, dated, behavior-level evidence read; collecting anecdotes come from an admiring 1911 biography and the subject-affiliated Morgan Library, so they were not used); competitiveness (his stated preference for combination over competition in Pujo is about market structure, not personal competitiveness).\n\nCONFLICTS REPORTED, NOT ADJUDICATED: (a) 1895 timing: Cleveland places the interview on the evening of 7 February with the contract drawn and signed the next morning, while Hovey and Brands have Morgan arrive uninvited, be turned away at the station by Daniel Lamont, wait overnight and see the President the next morning; the accounts agree that Morgan proposed buying gold with bonds under Section 3700, urged $100,000,000 and accepted the $60,000,000 Cleveland fixed, and that he undertook to help protect the gold reserve; only those points are used, and the scene detail (solitaire, cigar, 'I have come down to see the President') is not used. (b) 1907 sequence: Moen and Tallman date Morgan's refusal to Monday 21 October and Hovey puts his flat refusal to the Knickerbocker directors on the morning of Tuesday 22 October; both are compatible with a refusal made across those two days, so the rows say '21-22 October'. (c) The 'saviour of 1907' framing is contested (Hovey himself discusses suspicions about the Tennessee Coal and Iron purchase); no row scores that outcome or that purchase.\n\nEXCLUDED ON PURPOSE: wealth, fortune, syndicate and underwriting profits and the valuation or size of US Steel as evidence; the 'panic saviour' and 'Jupiter' reputation; the Pujo committee's conclusions; politics (Presidents Cleveland and Roosevelt, the Northern Securities case, the Tennessee Coal and Iron approval and the Washington trip, antitrust) beyond the business terms of the 1895 contract; art and book collecting and philanthropy; religion, family, private life and every physical description, illness and his death; Moody's ethnic characterisations of financiers; Hovey's generalisations ('instinctive', 'instantaneous decision', 'incapable of doubt') as evidence, because they cite no dated instance. NOT OBTAINED / LIMITS: Chernow's The House of Morgan, Strouse's Morgan: American Financier, Carosso, Bruner and Carr's The Panic of 1907, Lamont's Henry P. Davison and Frederick Lewis Allen's The Great Pierpont Morgan were not opened (in copyright or paywalled); NPR and Morgan Library pages timed out or returned Cloudflare/403 and were not used; the New York Times archive and Chronicling America page images were not accessible (only the loc.gov OCR of the New-York Tribune and The Sun for 3-4 November 1907, the Sun's OCR being too poor to quote); the Pujo transcript was read for the passages cited and the rest only skimmed by keyword; Sprague was read for pp. 252-256 only; Tarbell for the passages cited only; Hovey chapters VIII-X, XIV and the start of XV only. Correction to the assignment text: Morgan testified before the Pujo committee on 18-19 December 1912 (not February 1912). No row rests on Wikipedia or Wikidata.\n\nPORTRAIT: the pre-flight P18 'J.P. Morgan.jpg' (Pach Brothers, 1902, 2034x3025) was rejected: its Commons licence tag is {{PD-old-assumed-expired}}, the file page gives no publication or registration fact, and it is a retouched derivative (the file page says nose and cheeks were retouched by the studio and the scan was converted to greyscale, contrast increased and speckles removed). The LOC Pach Brothers prints (c1902, LCCN 92517707 and cph.3a02120) carry the same 'assumed expired' tag and no registration number, and the LOC Steichen 1903 print carries a PD-old-auto-expired tag with deathyear 1973 that cannot be right for a 1903 work by an author who died in 1973, so none was used. The image used is Commons 'File:Frank Holl - Portrait of Pierpont Morgan.jpg' (uploader PancoPinco, 2025-06-03; original 1628x2044, SHA1 73b33dec019551d9983de14056b584c94df41543, matches the downloaded file): oil on canvas by Frank Holl, dated 1888, from The Morgan Library & Museum. Rights basis established from three things I opened: (1) the Commons File page (fetched with WebFetch) and the Commons API (extmetadata and wikitext) give author Francis Montague Holl (1845-1888), date 1888, licence {{PD-Art|PD-old-auto-expired|deathyear=1888}}; (2) the English Wikipedia article on Frank Holl (fetched) gives his death as 31 July 1888, so the work was made by an author dead for more than 130 years (life+70 expired in 1958 and life+100 in 1988), and the Commons template Template:PD-old-auto-expired (fetched) states that the work is public domain in the country of origin and that it is public domain in the United States because it was published (or registered with the US Copyright Office) before 1 January 1931; the painting's own publication history is not documented, but an unpublished US work by an author dead since 1888 is also in the public domain, so the conclusion does not depend on it; (3) the Morgan Library's partner record on Google Arts and Culture (fetched) gives 'Portrait of Pierpont Morgan', Frank Holl, 1888, oil on canvas, 1248 x 997 mm, credit line 'Commissioned by Pierpont Morgan, 1888', partner institution The Morgan Library & Museum, which also establishes that it is a portrait from life commissioned by the sitter (kind: likeness). The Morgan Library's own object page (themorgan.org/objects/item/160326) returned HTTP 403 (Cloudflare) and was not read; the photographic reproduction of a two-dimensional public-domain work is itself public domain under the Commons PD-Art rule. I did not use the Commons file's own 'aged fifty-two' caption (Morgan was 51 in 1888, per the Morgan Library record). Downscale only: 1628x2044 to 1274x1600 with Pillow (LANCZOS), JPEG quality 85, saved as public/portraits/j-p-morgan-holl-1888.jpg; saved dimensions checked (1274x1600) and the image was viewed: a clean single-subject seated oil portrait of a grey-haired, moustached man in a dark suit against a dark background, artist's signature 'Frank Holl' visible at bottom right; identity rests on the Morgan Library record, not on my own recognition. The painting is the 1888 Morgan (aged 51), not the later banker of 1895-1913.\n\nKOREAN NAME: 'J. P. 모건' is the Korean Wikipedia article title (kowiki sitelink of Q54168; the ko Wikipedia introduction opens with '존 피어폰트 모건'); the Wikidata ko label is '존 피어폰 모건', which was not used. ORCHESTRATOR REVIEW (2026-09-23, before any eligibility computation): removed Sprague's 1910 outcome judgment ('but for Morgan's influence no united action ... would probably have been taken') from the leadership_drive rationale and its citation, and the same sentence from the editorial, because it is an evaluation feeding the contested 'saviour of 1907' narrative rather than documented behavior; no score/confidence/evidenceType/impact changed."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "J. P. 모건"
+    }
+  }
+}

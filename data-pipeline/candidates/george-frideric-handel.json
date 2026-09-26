@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-frideric-handel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "George Frideric Handel",
+    "aliases": [
+      "Georg Friedrich Händel",
+      "Handel"
+    ],
+    "wikidataId": "Q7302",
+    "birthYear": 1685,
+    "deathYear": 1759,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_handel_wikipedia",
+      "kind": "wikipedia",
+      "title": "George Frideric Handel (English Wikipedia) -- orientation only (dates, birthplace, naturalisation, occupations); not used as support for any scored row. Fetched and read.",
+      "url": "https://en.wikipedia.org/wiki/George_Frideric_Handel"
+    },
+    {
+      "id": "src_handel_wikidata",
+      "kind": "wikidata",
+      "title": "George Frideric Handel (Q7302) -- identity verified live through the Wikidata API (wbgetentities): en label 'George Frideric Handel', en description 'German-British Baroque composer (1685-1759)', ko label '게오르크 프리드리히 헨델', P27 three values, P18 'George Frideric Handel by Balthasar Denner.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q7302"
+    },
+    {
+      "id": "src_handel_ko_wikipedia",
+      "kind": "wikipedia",
+      "title": "게오르크 프리드리히 헨델 (Korean Wikipedia) -- opened to confirm the conventional Korean rendering of the name and the person's identity (Baroque composer, 1685-1759). Orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/%EA%B2%8C%EC%98%A4%EB%A5%B4%ED%81%AC_%ED%94%84%EB%A6%AC%EB%93%9C%EB%A6%AC%ED%9E%88_%ED%97%A8%EB%8D%B8"
+    },
+    {
+      "id": "src_handel_hrd_1729",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1729 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: Daily Post 27 Jan 1729 (Handel takes leave to go to Italy with a commission from the Royal Academy); Paolo Rolli's letters to Senesino of 25 Jan and 4/7 Feb 1729 (a rival librettist, reproduced from Streatfeild's 1917 translation); Owen Swiney to the Duke of Richmond 27 May 1729; Daily Courant 2 Jul 1729 and other notices (singers contracted, 'a Bass Voice from Hamburgh'); G. G. Zamboni to Count Manteuffel 8/19 Jul 1729. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1729.htm"
+    },
+    {
+      "id": "src_handel_hrd_1732",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1732 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: printed wordbook of Esther as performed by the Chapel Royal children and the Philharmonic Society, 23 Feb-3 Mar 1732; Daily Journal 20 Apr 1732 (public performance at York Buildings, promoter not named); Daily Journal / Daily Advertiser 2 May 1732 (Handel's own revised English Esther at the King's Theatre); Percival's diary 2 May 1732. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1732.htm"
+    },
+    {
+      "id": "src_handel_hrd_1733",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1733 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: Daily Journal 13 Mar 1733 and 3 Apr 1733 (Deborah ticket prices); Percival's diary 27 Mar 1733; The Craftsman / The Bee, Apr and 2 Jun 1733 (satire on Deborah; report that Handel had sent Senesino word his services were no longer needed); Charles Delafaye to the Earl of Essex, 24 May 1733 (BL Add. Ms. 27732 f. 172). Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1733.htm"
+    },
+    {
+      "id": "src_handel_hrd_1734",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1734 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: London Evening Post 11-13 Jul 1734 and 10-12 Oct 1734 (Handel to perform opera at Covent Garden by agreement with John Rich while the noblemen's opera took the Haymarket). Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1734.htm"
+    },
+    {
+      "id": "src_handel_hrd_1735",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1735 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: London Daily Post 4 Mar 1735 (Handel has prepared several oratorios for Lent, additions to Esther, two organ concertos with Handel playing the solos); Mary Pendarves to her mother 15 Mar 1735; 'A Letter to a Friend in the Country' in The Old Whig, 20 Mar 1735. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1735.htm"
+    },
+    {
+      "id": "src_handel_hrd_1739",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1739 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: London Daily Post 3 and 6 Mar 1739 (Alexander's Feast for the fund for decayed musicians, Handel 'has generously given the Use of the Opera-House, and intends to direct the Performance'); the 10 Feb 1739 notice of Saul 'with several Concerto's on the Organ'. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1739.htm"
+    },
+    {
+      "id": "src_handel_hrd_1741",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1741 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: London Daily Post 23 Feb 1741 and the 14 Mar 1741 notice (benefit of the fund for decayed musicians); Dublin Journal notices of Nov-Dec 1741 (Handel's arrival with singers); Charles Jennens to James Harris, 5 Dec 1741 ('Handel took only Miss Edwards & one Mrs Maclean with him ... for the rest depends on the Dublin choirs'). Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1741.htm"
+    },
+    {
+      "id": "src_handel_hrd_1742",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1742 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: Mercer's Hospital governors' minute of 4 Mar 1742 (benefit performance to be applied entirely to the charities); Faulkner's Dublin Journal notices of Mar-Apr 1742 and the report in the issue of 13-17 Apr 1742 that Handel gave the proceeds of the Messiah performance to three charities. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1742.htm"
+    },
+    {
+      "id": "src_handel_hrd_1743",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1743 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: Charles Jennens to Edward Holdsworth, 24 Mar 1743 (Handel 'too idle & too obstinate to retouch' weak parts of Messiah despite Jennens's importunity) and 15 Sep 1743; the health remarks in the same letters were deliberately not used. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1743.htm"
+    },
+    {
+      "id": "src_handel_hrd_1744",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1744 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: Handel's own letters to Charles Jennens of 19 Jul, 21 Aug and 13 Sep 1744 (from the 1973 Christie's autograph catalogue; self-authored -- one perspective), in particular the 19 Jul request to 'point out these passages in the Messiah which you think require altering'. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1744.htm"
+    },
+    {
+      "id": "src_handel_hrd_1745",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1745 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: Charles Jennens to Edward Holdsworth, late Aug/early Sep 1745 (Handel corrected 'some of the grossest faults' after great difficulty but 'retain'd his Overture obstinately'); the health remarks in the 16 Oct 1745 letter were deliberately not used. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1745.htm"
+    },
+    {
+      "id": "src_handel_hrd_1749",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1749 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: press notices of 27 May 1749 (grand performance of Handel's music for the benefit of the Foundling Hospital) and 12 Sep 1749 ('Mr. Handel is going to make a Present of an Organ to the Foundling Hospital'). Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1749.htm"
+    },
+    {
+      "id": "src_handel_hrd_1751",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1751 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: press report of the Messiah performance in the Foundling Hospital chapel, April 1751 ('that great benefactor to the charity ... by his repeated performances in that Chapel'; the organ 'which he gave to the said Chapel'). Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1751.htm"
+    },
+    {
+      "id": "src_handel_hrd_1756",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1756 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: press notice of the Foundling Hospital Messiah, 19 May 1756 ('whose repeated Benefactions to that Charity, as well as to others, both in England and Ireland, deserve the highest Acknowledgments'). Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1756.htm"
+    },
+    {
+      "id": "src_handel_hrd_1757",
+      "kind": "archive",
+      "title": "Handel Reference Database (Ilias Chrissochoidis, Stanford mirror), year page 1757 -- transcriptions of dated documents by many independent hands; downloaded and read at the entries named: codicil to Handel's will dated 4 Aug 1757 (gift to the Foundling Hospital of 'a fair copy of the Score and all the Parts' of Messiah) -- self-authored legal text. Transcriptions taken as given (not checked against the originals).",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1757.htm"
+    },
+    {
+      "id": "src_handel_shaftesbury",
+      "kind": "archive",
+      "title": "The Fourth Earl of Shaftesbury's 'Memoirs of Handel' (1760; The National Archives PRO 30/24/28/84, ff. 424r-430v), as transcribed on the Handel Reference Database -- a friend and patron's corrective notes on Mainwaring's Memoirs, written after Handel's death, from memory (FRIENDLY witness; independent of Mainwaring; the transcription is typographically rough). Read in full (about 12,000 characters); the passages on the 1737 illness and the finances were deliberately not used.",
+      "url": "http://web.stanford.edu/~ichriss/HRD/1760_Shaftesbury_Memoirs_of_Handel.htm"
+    },
+    {
+      "id": "src_handel_burney",
+      "kind": "biography",
+      "title": "Charles Burney, An Account of the Musical Performances in Westminster-Abbey ... in Commemoration of Handel (1785), 'Sketch of the Life of Handel', Internet Archive OCR text -- an admiring later biographer (writing 26 years after Handel's death), partly firsthand (a schoolboy at Chester in 1741) and partly drawn from Mainwaring and others. The Sketch (its text and footnotes) was read at the passages on the Royal Academy, the Senesino quarrel, the oratorios, Dublin and the Foundling Hospital, not word by word; used as corroboration only, and its Dublin chronology is corrected by the contemporary Dublin press.",
+      "url": "https://archive.org/stream/accountofmusical00burn/accountofmusical00burn_djvu.txt"
+    },
+    {
+      "id": "src_handel_delany",
+      "kind": "archive",
+      "title": "The Autobiography and Correspondence of Mary Granville, Mrs. Delany, ed. Lady Llanover, vol. 1 (Bentley, 1861), Internet Archive OCR text -- firsthand, friendly and independent correspondence of Mary Pendarves; read at the Handel passages (found by text search; esp. the letter of 15 Mar 1734-5 on his playing and the organ concertos in Esther); the volume as a whole was not read.",
+      "url": "https://archive.org/stream/autobiographyimg01dela/autobiographyimg01dela_djvu.txt"
+    },
+    {
+      "id": "src_handel_jones2011",
+      "kind": "institution",
+      "title": "Andrew V. Jones, 'Further Thoughts on Borrowings in Handel's Agrippina', The Handel Institute Newsletter 22/1 (Spring 2011) -- a scholar's note (with footnotes citing Buelow, Roberts and Baselt) on Handel's practice of borrowing, mostly from his own earlier music. Only the opening article was read (the rest of the issue was not).",
+      "url": "https://handelinstitute.org/wp-content/uploads/2021/07/221.pdf"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_handel_hrd_1732, src_handel_hrd_1734, src_handel_hrd_1735, src_handel_delany, src_handel_shaftesbury | 1732; Oct 1734; Mar 1735 | contemporary press + firsthand letter] After Esther had been performed under other auspices in Feb-Mar 1732 and a further public performance was advertised for 20 Apr, Handel advertised his own revised English version on 2 May ('now revised by him, with several Additions', no stage action); in Oct 1734, with the noblemen's opera taking the Haymarket, the London Evening Post reported he had agreed with John Rich to give opera at Covent Garden (Shaftesbury's 1760 memoir confirms the arrangement); and in Lent 1735 the London Daily Post announced several oratorios with additions to Esther and two organ concertos he would play himself, which Mary Pendarves heard on 15 Mar. Three distinct, dated changes of format or venue, no single source carrying the row."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_handel_hrd_1729, src_handel_hrd_1734, src_handel_shaftesbury | Jan-Jul 1729; Oct 1734; 1740 | press + letters + a friend's later memoir] Within months of the Academy's opera ceasing, Handel took leave of the King in late January 1729 to recruit singers (Daily Post) and was back with contracts by early July (Daily Courant); in Oct 1734, with the King's Theatre taken by the noblemen's company, he agreed a new season at Covent Garden (London Evening Post); and Shaftesbury's 1760 memoir says that after an indifferent 1739/40 season 'he was resolved to try once more' at Lincoln's Inn Fields. Three separate restarts over eleven years; the last rests on a friend's recollection, hence strong_inference."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.74,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_handel_hrd_1739, src_handel_hrd_1741, src_handel_hrd_1742, src_handel_hrd_1749, src_handel_hrd_1751, src_handel_hrd_1756, src_handel_hrd_1757 | 1739-1757 | press + institutional minute + his own codicil] In March 1739 the London Daily Post reported that Handel had 'generously given the Use of the Opera-House' and would direct Alexander's Feast for the fund for decayed musicians; the Dublin Journal of 13-17 Apr 1742 reported that he gave the proceeds of the Messiah performance to three charities (the Mercer's Hospital governors had set the condition of a wholly charitable benefit on 4 Mar); and from May 1749 the press records performances of his music for the Foundling Hospital's benefit (under his direction in the later reports), an organ he gave to its chapel, and (codicil of 4 Aug 1757) a bequest to it of a copy of the Messiah score and parts. Repeated charitable acts reported by independent press and institutional records over nearly two decades."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_handel_hrd_1729, src_handel_hrd_1741, src_handel_jones2011 | Jun-Jul 1729; Nov-Dec 1741; 1709-11 | press + letters + scholar] The Daily Courant (2 Jul 1729) and Zamboni's letter (8/19 Jul) both record that, finding no bass worth engaging in Italy, he engaged one in Hamburg; in Nov-Dec 1741 he went to Dublin with only a few singers of his own, and Jennens wrote on 5 Dec 1741 that for the rest he 'depends on the Dublin choirs'; and the scholar Andrew V. Jones (2011) describes Agrippina and Rinaldo as largely reworkings of existing music, mostly Handel's own. Three separate situations in which a gap in singers or material was met with what was to hand."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_handel_hrd_1732, src_handel_hrd_1735, src_handel_hrd_1739, src_handel_delany | 1732; Mar 1735; Feb 1739 | press + firsthand letter] The 2 May 1732 notice presents Esther as an English oratorio without stage action, 'disposed after the Manner of the Coronation Service'; in Lent 1735 he added two organ concertos that he played between the acts (London Daily Post 4 Mar; Pendarves 15 Mar); and on 10 Feb 1739 Saul was advertised again as 'a NEW ORATORIO' with 'several Concerto's on the Organ'. Repeated format trials documented by notices, with mixed reception (The Old Whig of 20 Mar 1735 reports a thin house), hence strong_inference and dual_edged."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_handel_hrd_1729, src_handel_hrd_1733, src_handel_hrd_1743, src_handel_hrd_1745, src_handel_burney | 1729; May-Jun 1733; 1743-45 | rivals and a critical collaborator, plus a later biographer] Hostile or partisan contemporaries describe him as insisting on his own course: Rolli (25 Jan 1729, in Streatfeild's translation) reports him rejecting Heidegger's scheme and refusing Faustina; Charles Delafaye wrote on 24 May 1733 that he had become 'so arbitrary a prince' that Senesino threatened to revolt, and The Craftsman of 2 Jun 1733 reported that Handel had sent Senesino word his services were no longer needed (Burney later called the same episode 'inflexibility'); and Jennens, 24 Mar 1743 and late Aug 1745, called him 'too obstinate' to retouch Messiah. Three distinct episodes (the Senesino one counted once), all reported by rivals or a critic, so moderate confidence."
+    },
+    "belief_updating": {
+      "score": 52,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_handel_hrd_1733, src_handel_shaftesbury, src_handel_hrd_1743, src_handel_hrd_1744, src_handel_hrd_1745 | Mar-Apr 1733; 1743-45 | press + a friend's memoir + letters] Deborah was advertised at a guinea for 17 Mar 1733, which Shaftesbury later called an 'indiscreet step', and the 3 Apr notice shows half a guinea (the reason for the change is not documented); on Messiah, Jennens complained on 24 Mar 1743 that Handel would not retouch weak parts, Handel wrote on 19 Jul 1744 asking Jennens to point out passages needing alteration (self-reported), and Jennens reported in Aug-Sep 1745 that he had corrected 'some of the grossest faults' but kept the Overture. The evidence points both ways, so the score sits near the middle at inference level."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-frideric-handel-heins-1740.jpg",
+    "width": 1268,
+    "height": 1600,
+    "source": "Stiftung Händel-Haus Halle (permanent loan of the Stiftung der Saalesparkasse), via Google Art Project / Die Konferenz Nationaler Kultureinrichtungen and Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Theodore_Heins_-_Portrait_of_George_Frideric_Handel_(c.1740).jpg",
+    "attribution": "John Theodore Heins (1697-1756), Portrait of George Frideric Handel, c. 1740, oil on canvas, Stiftung Händel-Haus Halle (permanent loan, Stiftung der Saalesparkasse); public domain (artist died 1756); downscaled",
+    "attributionUrl": "https://artsandculture.google.com/asset/portr%C3%A4t-georg-friedrich-h%C3%A4ndel/zQGyKevQLKxVOA",
+    "creator": "John Theodore Heins (1697-1756)",
+    "date": "c. 1740",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:John_Theodore_Heins_-_Portrait_of_George_Frideric_Handel_(c.1740).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q7302 verified live through the Wikidata API (wbgetentities, labels/descriptions/claims): en label 'George Frideric Handel', description 'German-British Baroque composer (1685-1759)', ko label '게오르크 프리드리히 헨델', P27 with three values, P18 'George Frideric Handel by Balthasar Denner.jpg'; English Wikipedia (5 Mar 1685 Halle - 14 Apr 1759 London, naturalised 1727) and Korean Wikipedia (title 게오르크 프리드리히 헨델) were opened and agree. Slug collision check: no george-frideric-handel.json in data-pipeline/candidates and no Handel person in src/data/people. CLASSIFICATION PRECEDENT: nationalityCodes DE+GB follows Wikidata P27 and the naturalisation of 1727 (frederic-chopin.json / marie-curie precedent for a foreign-born artist who worked abroad); regionCode western_europe follows johann-sebastian-bach.json (pure DE = western_europe) and the UK precedent (james-cook.json); era early_modern follows Bach (b. 1685) and the 13 committed candidates born 1632-1749. Occupations composer+musician, field music only, archetype creative_creator (Bach/Chopin precedent); tags left empty because no tag is independently evidenced by the seven scored rows. EVIDENCE READ: 19 substantive records plus 3 orientation entries. 15 are year pages of the Handel Reference Database (Chrissochoidis, Stanford mirror), a transcription vehicle for dated documents by many independent authors (London and Dublin newspapers, diaries, letters, an institutional minute); independence is counted at the level of those underlying authors and not of the compiler, and the transcriptions (some via Deutsch 1955, Streatfeild 1917 or the 1973 Christie's catalogue) were not checked against the manuscripts. Plus: the fourth Earl of Shaftesbury's 1760 memoir (friend, from memory), Burney's 1785 Sketch (later, admiring, partly drawn from Mainwaring), Mrs Delany's correspondence (firsthand, friendly), and A. V. Jones's 2011 Handel Institute Newsletter note (scholar). INDEPENDENT NON-SELF PERSPECTIVES (13 read, 12 of them cited in rows): the London and Dublin press (counted once), Rolli (a rival librettist), Owen Swiney, G. G. Zamboni, Charles Delafaye, The Craftsman, the anonymous Old Whig letter, Mary Pendarves, Shaftesbury, Charles Jennens, the Mercer's Hospital governors, Burney, A. V. Jones. SELF perspective: 1 (Handel's 1744 letters and 1757 codicil, counted once). Friendly or interested witnesses are flagged in the rows: Shaftesbury and Pendarves are friends; Jennens, Rolli, Delafaye and the Craftsman are critics or rivals, so no row rests on a single friendly source and no documented row at 0.75 or above is supported only by friendly or affiliated sources; the highest scores are 76 and 74 and none is extreme. Each episode supports at most two rows (1729: persistence, resourcefulness; Oct 1734: adaptability, persistence; 1732: adaptability, experimentation; Mar 1735: adaptability, experimentation; 1733 Deborah prices: belief_updating; the Senesino episode: social_assertiveness once; Jennens on Messiah: social_assertiveness, belief_updating). Seven rows only; risk_tolerance, collaboration, planning and others were considered and left unscored as the evidence was thin or would repeat an episode. EXCLUDED ON PURPOSE: the music's quality, fame and the Messiah legend; all finance figures and losses; his 1737 illness, later blindness and death, and Jennens's and Shaftesbury's remarks on his health or state of mind (not used); the Cuzzoni-window and 'I did think I did see all Heaven' anecdotes (not used); Hawkins's 1776 report of Handel's angry remark about a Foundling parliamentary bill (a later anecdote, not scored); Burney's Chester rehearsal anecdote (a boyhood recollection recorded in 1785, not scored); court and patron relations and Handel's naturalisation (no politics scored). Mainwaring's 1760 Memoirs were downloaded but are NOT relied on (drawn from Handel's assistant J. C. Smith, weakly independent). KNOWN LIMITS: Burney's statement that Handel began in Dublin with Messiah is wrong on the contemporary Dublin press and was not used; the Rolli letters and the Craftsman are hostile and hearsay; the reason for the 1733 price change is undocumented; the 'social_assertiveness' and 'belief_updating' rows are deliberately hedged (0.52 and 0.42). PORTRAIT: John Theodore Heins, Portrait of George Frideric Handel, c. 1740 ('London um 1740' in the Google Arts & Culture record), oil on canvas, Stiftung Händel-Haus Halle (permanent loan of the Stiftung der Saalesparkasse), via Google Art Project / Die Konferenz Nationaler Kultureinrichtungen and Wikimedia Commons. Decisive facts, read from the exact Commons File page, its wikitext and the API imageinfo: licence template {{PD-Art|PD-old-100-expired}} (page text: public domain where copyright is life plus 100 years or fewer, and in the US as published before 1931; CC PD Mark), API LicenseShortName 'Public domain', and NO third-party copyright-claim notice on the page; the artist is Wikidata Q16842181 'British painter (1697-1756)'. Rejected: the Wikidata P18 file (attributed to Denner, c. 1726-28, National Portrait Gallery, London) and the NPG-derived Hudson and Kyte files, whose Commons pages carry the 'third parties have made copyright claims' notice (read in the API Credit field); the NPG Hudson 1756 file (no notice but only 486x800, full-length); a Hudson 1743 pastel (Hampel Auctions, 625x780, signed and dated in the image but attributed only by an auction-house description) is a fallback. Limits: no source read establishes a documented sitting, and the sitter's identification is the Händel-Haus's (the Google Arts record says it is supported by physiognomic similarity to other portraits), so kind 'likeness' means a portrait made in his lifetime (c. 1740), not a documented from-life sitting; the file was downscaled from 2820x3558 to 1268x1600 (JPEG q85, no upscaling) and looked at (single subject, three-quarter length, face small but clear). No eligibility, coverage or match output was used in scoring; the structural validator was run only after the rows were final."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "게오르크 프리드리히 헨델"
+    }
+  }
+}

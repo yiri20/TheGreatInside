@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "joseph-lister",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Joseph Lister",
+    "aliases": [
+      "Lord Lister",
+      "Joseph Lister, 1st Baron Lister"
+    ],
+    "wikidataId": "Q155768",
+    "birthYear": 1827,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "detail_oriented",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lister_wikipedia",
+      "kind": "wikipedia",
+      "title": "Joseph Lister (English Wikipedia; lead section fetched via the MediaWiki API) -- orientation only (identity, dates); not used as support for any scored row. The Korean Wikipedia article 'ko:조지프 리스터' was confirmed to exist through the ko.wikipedia API (lead read for the name only).",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Lister"
+    },
+    {
+      "id": "src_lister_wikidata",
+      "kind": "wikidata",
+      "title": "Joseph Lister (Q155768) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, claims, sitelinks): en label 'Joseph Lister', description 'British surgeon and antiseptic pioneer (1827-1912)', ko label '조지프 리스터' (kowiki sitelink title identical), born 1827-04-05, died 1912-02-10, citizenship Q174193 (United Kingdom of Great Britain and Ireland, mapped to GB), P18 = a Wellcome photograph that was checked and rejected (see provenance). Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q155768"
+    },
+    {
+      "id": "src_lister_worboys_2013",
+      "kind": "biography",
+      "title": "Michael Worboys (Univ. of Manchester), 'Joseph Lister and the performance of antiseptic surgery', Notes and Records of the Royal Society 67(3):199-209 (2013), PMC full text (open access), downloaded and read in full -- independent historian of medicine, sceptical of diffusionist accounts of antisepsis; reads Lister's 1867-1909 papers for how he published, demonstrated and revised his methods (Greenlees series, 'Patrick F' case, 1869 catgut bottle, 1870 war plan, 1875 BMA demonstrations, later catgut/sublimate papers) and quotes student recollections (Coats 1869; Dobie 1877-78). Non-self, secondary; part of a 2013 centenary special issue (see provenance on independence).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3744349/"
+    },
+    {
+      "id": "src_lister_howard_2013",
+      "kind": "biography",
+      "title": "Edward R. Howard (surgeon-historian), 'Joseph Lister: his contributions to early experimental physiology', Notes and Records of the Royal Society 67(3):191-198 (2013), PMC full text, downloaded and read in full -- scholarly account of Lister's 1853-59 histology and physiology papers (iris, skin, inflammation, nervous control of vessels and gut), how he tested and corrected other investigators' claims, and later assessments (Dukes, Sharpey-Schafer). Non-self, secondary; the most admiring of the scholarly sources; same special issue as Worboys.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3744350/"
+    },
+    {
+      "id": "src_lister_richardson_2013",
+      "kind": "biography",
+      "title": "Ruth Richardson (historian), 'Inflammation, suppuration, putrefaction, fermentation: Joseph Lister's microbiology', Notes and Records of the Royal Society 67(3):211-229 (2013), PMC full text, downloaded and read in full -- close reading of Lister's 1 October 1877 inaugural lecture at King's College London (shorthand transcript, BMJ and QJMS versions) and of his Commonplace Books 1870-99 (home laboratory, self-built apparatus, fermentation work since 1873). Non-self, secondary; same special issue as Worboys; its priority claims ('first pure culture') are NOT used.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3744354/"
+    },
+    {
+      "id": "src_lister_crowther_2013",
+      "kind": "biography",
+      "title": "M. Anne Crowther (historian, Univ. of Glasgow), 'Lister at home and abroad: a continuing legacy', Notes and Records of the Royal Society 67(3) (2013), PMC full text, downloaded and read in full -- cohort study of Glasgow and Edinburgh students; also documents the 1875 Lancet editorial hostile to antisepsis, Lister's continual variation of antiseptics, dressings and sutures, the spray given up in the later 1880s, and his support for bacteriologists. Non-self, secondary; same special issue as Worboys.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3744352/"
+    },
+    {
+      "id": "src_lister_schlich_2013",
+      "kind": "biography",
+      "title": "Thomas Schlich (McGill), 'Farmer to industrialist: Lister's antisepsis and the making of modern surgery in Germany', Notes and Records of the Royal Society 67(3):245-260 (2013), PMC full text, downloaded and read in full -- German-language reception 1867-1890: Thiersch, Schultze and Lesser visiting Lister, the 1870 war paper translated at once, Volkmann, Nussbaum, von Bruns's 1880 'Fort mit dem Spray', London surgeons ignoring the technique per Schultze (1872). Non-self, secondary; same special issue as Worboys; mostly about German surgeons, used only for what it reports of Lister's actions and of visitors' observations.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3744353/"
+    },
+    {
+      "id": "src_lister_trohler_2014",
+      "kind": "biography",
+      "title": "Ulrich Tröhler (Univ. of Bern), 'Statistics and the British controversy about the effects of Joseph Lister's system of antisepsis for surgery, 1867-1890', James Lind Library (2014; republished J R Soc Med 2015), full text downloaded and read in full -- critical, revisionist reading of Lister's case reports and 1870 statistics, the 1869 Nunneley exchange (quoting Lister's BMJ reply), Lawson Tait's opposition and Lister's non-response, and the demand for comparative statistics. Non-self, secondary; NOT part of the Royal Society issue, so the most independent source; its mortality tables are NOT used as behaviour.",
+      "url": "https://www.jameslindlibrary.org/articles/statistics-and-the-british-controversy-about-the-effects-of-joseph-listers-system-of-antisepsis-for-surgery-1867-1890/"
+    },
+    {
+      "id": "src_lister_papers_vol2",
+      "kind": "archive",
+      "title": "The Collected Papers of Joseph, Baron Lister, vol. 2 (Clarendon Press, 1909), archive.org OCR full text downloaded and searched locally; passages read in context: the address on the treatment of wounds (Surgical Section, International Medical Congress, London, August 1881; Lancet 1881 ii 863) and the address on the present position of antiseptic surgery (International Medical Congress, Berlin, 1890; BMJ 1890 ii 377). SELF-AUTHORED -- one perspective together with vol. 1; used only where flagged self and never as the sole support for a row.",
+      "url": "https://archive.org/details/collectedpaperso02listuoft"
+    },
+    {
+      "id": "src_lister_papers_vol1",
+      "kind": "archive",
+      "title": "The Collected Papers of Joseph, Baron Lister, vol. 1 (Clarendon Press, 1909), archive.org OCR full text downloaded and searched locally; read in context: 'On the Lactic Fermentation and its Bearings on Pathology' (Trans. Pathological Society of London vol. 29, 1878), including his correction of his own 1873 account. SELF-AUTHORED -- same perspective as vol. 2.",
+      "url": "https://archive.org/details/collectedpaperso01listuoft"
+    },
+    {
+      "id": "src_lister_godlee_1917",
+      "kind": "biography",
+      "title": "Rickman John Godlee, Lord Lister (second edition, Macmillan, London, 1918; first edition 1917), archive.org (Google scan) OCR full text downloaded and searched locally; read in context for the 1869 Nunneley exchange and Lister's 24 Aug 1869 BMJ letter, the Pasteur correspondence of 1874 and Lister's later recantation, and the 1881-1890 abandonment of the spray. FRIENDLY / INSIDER source (the subject's nephew and assistant); used only for dated facts and firsthand quotations, never as the sole support for a row.",
+      "url": "https://archive.org/details/lordlister00godlgoog"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lister_howard_2013, src_lister_richardson_2013, src_lister_crowther_2013 | 1853-59; 1870-99 | secondary] Howard lists his two 1853 microscopic studies (iris, skin) and eleven physiological papers in 1857-59 on the nervous control of vessels, early inflammation and gut movement, several of them testing claims made by other investigators. Richardson reports Commonplace Books kept 1870-99, a home laboratory with self-built apparatus and fermentation work pursued 'at intervals since at least 1873' alongside his clinical duties, and Crowther calls his laboratory work 'largely domestic'. Two periods and three authors converge, so the score is in the 70s."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lister_howard_2013, src_lister_trohler_2014 | 1853-58; 1865-70 | secondary] Howard describes the 1850s experiments as remarkable for finesse of technique and logic of planning, designed to test Kölliker's and Pflüger's claims, and notes that Lister corrected Bowman and Henle by name. For clinical evaluation the picture is mixed: in 1870 he wrote that his amputation numbers were 'too small for a satisfactory statistical comparison' yet drew a firm conclusion, he gave no 1865 figures because the records were 'imperfect' (Tröhler suspects but does not show selectivity), and Tröhler reports, citing Cartwright, that he declined to supply comparative statistics because they 'can be made to prove anything or nothing' while critics asked for them. Two settings, two authors, opposite leanings: a moderate score."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lister_worboys_2013, src_lister_crowther_2013, src_lister_trohler_2014 | 1865-75 | secondary + quoted firsthand] From August 1865 he tried carbolic acid on compound fractures (abscesses followed) and in 1867 reported failures beside successes: after a failed case ('Patrick F') he wrote that it suggested improvements of detail and introduced a sheet-lead, then block-tin, covering (Worboys quoting Lister). He kept varying antiseptics, dressings and sutures, including a seven-part 1875 Lancet series on 'recent improvements'; Crowther and Tröhler both record that the ever-changing regimen confused readers and made comparison hard, hence dual_edged."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lister_papers_vol1, src_lister_papers_vol2, src_lister_crowther_2013, src_lister_schlich_2013, src_lister_godlee_1917 | 1878-90 | firsthand + secondary] In a paper read in December 1877 and published in 1878 he reported that repeating his 1873 lactic-fermentation experiments showed 'the facts all wrong' and publicly recanted his earlier account; in August 1881 he said he did not yet dare to drop the carbolic spray but would say 'Fort mit dem Spray' with joy if evidence allowed, gave it up in 1887 (Godlee; Crowther: later 1880s) and told the 1890 Berlin congress he felt ashamed to have recommended it. The score is held at 70 because a German surgeon had published 'Fort mit dem Spray' in 1880 (Schlich), so the change was not early, and the 1867 'Patrick F' case (Worboys) shows him reading a failure as confirming his principle while altering only details. The primary statements are self-authored; Crowther is the independent confirmation for the spray."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lister_worboys_2013, src_lister_schlich_2013, src_lister_crowther_2013 | 1869-1909; 1872 | secondary + visitor's statement] In 1869 he told BMJ readers he always carried a small silver bottle holding catgut on wooden rods and antiseptic oil, and Worboys lists his papers on catgut ligatures (1869, 1881, 1908, 1909) and on preparing corrosive sublimate (1884); a student (Coats, 1869) named 'carefulness in dressing and operating' as his chief lesson. Schultze, who visited him, wrote in 1872 that the method required 'the most thorough attention to the smallest details' (Schlich), and Crowther notes that critics found his methods fussy and complex, which is the documented cost."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lister_worboys_2013, src_lister_crowther_2013, src_lister_trohler_2014, src_lister_richardson_2013 | 1865-1877 | secondary] Cases began in August 1865 but he delayed publishing until spring 1867 in order to refine and validate the method on more cases, then described a further 36 cases in detail over the next decade (Worboys) while, per Crowther, the Lancet was still running 'querulous editorials' in 1875 and Tröhler dates the British controversy at over a decade. In 1877 he moved to a new chair at King's College London, where Richardson says some London surgeons were hostile. Two distinct phases from four authors; nothing shows whether he ever considered giving up, so the score stays at 70."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lister_worboys_2013, src_lister_godlee_1917, src_lister_trohler_2014 | 1869; 1875 | firsthand letter + secondary] On 24 August 1869 he answered Nunneley's attack in the BMJ mainly by publishing a letter from a Leeds colleague (Teale) contradicting Nunneley's account of local practice (Godlee; Tröhler quotes the reply), and at the BMA meeting in Edinburgh in August 1875 he demonstrated antiseptic operations to visiting surgeons from start to finish, with later patient updates in print (Worboys). These are two dated instances; results with London surgeons were limited (Crowther, Schlich), so this scores his method of persuading, kept moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/joseph-lister-lorimer-1895.jpg",
+    "width": 944,
+    "height": 1200,
+    "source": "University of Edinburgh Art Collection (accession EU0038), photograph via Art UK, via Wikimedia Commons",
+    "license": "Public domain (painter d. 1936)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Henry_Lorimer_-_Sir_Joseph_Lister.jpg",
+    "attribution": "John Henry Lorimer (1856-1936), Sir Joseph Lister, 1895, oil on canvas, University of Edinburgh Art Collection (EU0038); photo credit University of Edinburgh via Art UK; public domain (painter died 1936; painted 1895); saved as JPEG q85 at the original 944x1200 size",
+    "attributionUrl": "https://www.wikidata.org/wiki/Q119147059",
+    "creator": "John Henry Lorimer (1856-1936)",
+    "date": "1895",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:John_Henry_Lorimer_-_Sir_Joseph_Lister.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q155768 verified live via the Wikidata API (wbgetentities): en label 'Joseph Lister', description 'British surgeon and antiseptic pioneer (1827-1912)', ko label '조지프 리스터' (kowiki sitelink identical), born 1827-04-05, died 1912-02-10; English and Korean Wikipedia leads read via the MediaWiki API (orientation only). Slug collision check: no joseph-lister in data-pipeline/candidates and no Lister person in src/data/people (the only 'lister' string, in roster37.ts, is a substring of another word). CLASSIFICATION: era 19th_century (1827-1912; the work scored is 1850s-1890s), regionCode western_europe and nationality GB (UK precedent); occupations physician + medical_researcher and fields medicine + biology because the curiosity, experimentation and analytical_rigor rows rest partly on his physiology and microbiology work (category contribution science_knowledge either way); tags detail_oriented and communicator rest on the detail_orientation and persuasiveness rows and Worboys's account of how he published and demonstrated; archetype scientific_explorer rests on the curiosity and experimentation rows. EVIDENCE READ (9 substantive records, all actually opened; 2 orientation records): six modern scholarly articles read in full (Worboys, Howard, Richardson, Crowther, Schlich; Tröhler), Lister's own Collected Papers 1909 (vols 1 and 2; OCR text searched locally and the 1878, 1881 and 1890 addresses read in context) and Godlee 1917 (30,000-line OCR text searched locally; the Pasteur, Nunneley and spray-abandonment chapters read in context, NOT read in full). INDEPENDENT NON-SELF PERSPECTIVES: six scholarly authors, one self perspective (Lister's own papers) and one friendly/insider source (Godlee, the subject's nephew and assistant). INDEPENDENCE IS WEAKER THAN THE COUNT SUGGESTS: five of the six scholarly articles come from the same 2013 Notes and Records centenary special issue (edited by Hurwitz and Dupree; Howard is the most admiring, Worboys and Crowther stress how contested the reception was, Tröhler from a different venue is the most critical), and all of them read the same Lister papers, Godlee and Cartwright; most of the dated firsthand quotations reach me through those articles or through Lister's own papers. For that reason no row exceeds confidence 0.72 and no score exceeds 80; the rows resting on historians' reading of method or motive (analytical_rigor, persistence, persuasiveness) are strong_inference at 0.50-0.58. No documented row rests only on Godlee or on Lister's own words; Godlee is used for dated facts (the 1869 letter, 1887, the Pasteur correspondence). COUNTER-EVIDENCE WEIGHED: Howard notes that in 1858 Lister held to his own hypothesis on inhibitory nerves against Pflüger (counted against a higher belief_updating score, not as its own row); Tröhler's suspicion that Lister's 1870 statistics were selective is treated as suspicion, not fact; Crowther says he frequently complained that readers misunderstood his work. EPISODE USE (no episode supports more than two rows): 1853-59 physiology papers (curiosity, analytical_rigor); 1870-99 home laboratory and Commonplace Books (curiosity; the 1877 inaugural lecture appears only in the editorial); 1867 'Patrick F' case (experimentation, belief_updating); the 1878 recantation and the 1881-1890 spray (belief_updating only); 1875 improvements series (experimentation); 1875 BMA demonstrations and the 1869 Nunneley reply (persuasiveness); 1865-67 delayed publication and the 1867-79 controversy (persistence); 1869 catgut bottle and papers (detail_orientation); 1870 statistics (analytical_rigor). EXCLUDED ON PURPOSE: fame and priority claims ('father of antisepsis', Richardson's 'first pure culture', the Semmelweis story); hospital mortality figures as outcome data; honours, peerage and presidencies; his wife's death and any illness or age; the 1871 Queen Victoria episode; hero-narrative museum pages (RCS blog, Science Museum object page, Hektoen) were read but not cited. Attributes considered and left unscored because the evidence was thin, mixed or would have reused an episode: conflict_tolerance (restrained 1869 reply and non-response to Tait versus his move into a hostile London: mixed), collaboration, impact_motivation, independent_thinking, adaptability, risk_tolerance. PORTRAIT: Wikidata P18 (Wellcome M0002551, Commons CC BY 4.0, no author or date on the page) was REJECTED: Wellcome's own catalogue record (works/mk5zmyue, API) calls it a reproduction of a photograph 'made from an unidentified source', dated November 1931 (glass-plate negative), and its thumbnail rights statement is 'In copyright', so the photographer and the decisive copyright fact are unresolved. Other Commons candidates (unknown-author PSM 1898 plate; Bickersteth 1896 photograph credited 'most likely'; small National Galleries of Scotland c.1855 print, 469x640) were passed over. SELECTED: John Henry Lorimer, 'Sir Joseph Lister', 1895, oil on canvas, University of Edinburgh Art Collection (EU0038; Wikidata Q119147059 and Commons), Commons file page 'File:John_Henry_Lorimer_-_Sir_Joseph_Lister.jpg' read via API, parse output and WebFetch: {{PD-Art|PD-old-auto-expired|deathyear=1936}}, source Art UK, photo credit University of Edinburgh, Public Domain Mark; the painter's death (4 November 1936) confirmed through Wikidata Q6238872 and English Wikipedia; a Lorimer 1895 Lister portrait is independently attested by the Wellcome catalogue (photogravure after J. H. Lorimer, 1895, Public Domain Mark) and a McGill Osler Library print record. Life-plus-70 has expired in the UK and the painting predates 1931 for US purposes. Original 944x1200 (below the 1600px cap, so saved without resizing, JPEG q85), viewed after saving: single seated sitter, clean, identifiable. kind likeness = a portrait painted in the sitter's lifetime. REAL LIMITS: the Art UK page returned HTTP 403 to my fetches, so I could not read Art UK's own rights or credit wording (a search snippet said the painting was bequeathed by the sitter in 1912; that is NOT relied on), and I could not check whether the University or Art UK asserts any right in its photograph of the painting; the Commons page carries no such notice and Commons treats faithful reproductions of two-dimensional public-domain works as public domain. A reviewer may want to confirm this one point. King's College London's 'Images of Lord Lister' page also returned 403. STATUS: evidence_approved (identity verified, sources read, six independent scholarly perspectives plus one self and one friendly source, at least one substantive non-self behavioural source, every row supported by named episodes, portrait found)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지프 리스터"
+    }
+  }
+}

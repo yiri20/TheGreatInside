@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "babe-ruth",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Babe Ruth",
+    "aliases": [
+      "George Herman Ruth Jr.",
+      "The Bambino"
+    ],
+    "wikidataId": "Q213812",
+    "birthYear": 1895,
+    "deathYear": 1948,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ruth_wikipedia",
+      "kind": "wikipedia",
+      "title": "Babe Ruth -- English Wikipedia, introduction fetched via the MediaWiki API; orientation only (identity, dates, 22-season MLB span). Not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Babe_Ruth"
+    },
+    {
+      "id": "src_ruth_wikidata",
+      "kind": "wikidata",
+      "title": "Babe Ruth (Q213812) -- identity verified live via the Wikidata API (wbgetentities): label 'Babe Ruth', description 'American baseball player (1895-1948)', born 1895-02-06, died 1948-08-16, citizenship United States, sitelinks enwiki 'Babe Ruth' and kowiki '베이브 루스', P18 'Babe Ruth, 1933.jpg' (not used). Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q213812"
+    },
+    {
+      "id": "src_ruth_kowiki",
+      "kind": "wikipedia",
+      "title": "베이브 루스 -- Korean Wikipedia introduction fetched via the MediaWiki API; used only to confirm the conventional Korean rendering of the name. Orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%EB%B8%8C_%EB%A3%A8%EC%8A%A4"
+    },
+    {
+      "id": "src_ruth_sabr_wood",
+      "kind": "biography",
+      "title": "Allan Wood, 'Babe Ruth', SABR Baseball Biography Project (peer-reviewed by SABR; independent secondary, drawing on Creamer, Montville, Stout and 1918 press). Downloaded and read in full: the 1918 move from pitching to the lineup and the July 1918 walkout, the 1919 holdout, the curfew suspensions, the 1921 barnstorming suspension, the 1925-26 conditioning regimen at Artie McGovern's gym, Ruth's lobbying to manage after 1929 and the 1935 Braves titles.",
+      "url": "https://sabr.org/bioproject/person/babe-ruth/"
+    },
+    {
+      "id": "src_ruth_sabr_flynn_1921",
+      "kind": "institution",
+      "title": "T.S. Flynn, 'Showdown: Babe Ruth's Rebellious 1921 Barnstorming Tour', SABR journal 'The Babe' (2019) -- article built on contemporaneous October 1921 newspaper reports (independent secondary). Downloaded and read in full: Landis's letter, Ruth's telephone call to the commissioner, his statements in Buffalo and Elmira, the tour's cancellation after talks with Col. Huston, and the December 1921 suspension.",
+      "url": "https://sabr.org/journal/article/showdown-babe-ruths-rebellious-1921-barnstorming-tour/"
+    },
+    {
+      "id": "src_ruth_sabr_levitt_barrow",
+      "kind": "biography",
+      "title": "Daniel R. Levitt, 'Ed Barrow', SABR Baseball Biography Project (independent secondary, written from the manager's side). Downloaded; every paragraph mentioning Ruth was read: the shift to the outfield on Harry Hooper's advice, the July 1918 walkout, the 1919 curfew confrontation and the note arrangement, Barrow's lobbying of Landis in 1921, the 1925 fine, and Ruth's wish to manage.",
+      "url": "https://sabr.org/bioproject/person/ed-barrow/"
+    },
+    {
+      "id": "src_ruth_sabr_levitt_ruppert",
+      "kind": "biography",
+      "title": "Daniel R. Levitt, 'Jacob Ruppert', SABR Baseball Biography Project (same author as the Barrow biography, so ONE perspective with it). Downloaded; the Ruth paragraphs were read: the 1925 fine, the 1929 vacancy Ruth 'desperately craved', his resentment of the 1931 hiring of Joe McCarthy and Ruppert's later remark about proving himself in Newark.",
+      "url": "https://sabr.org/bioproject/person/jacob-ruppert/"
+    },
+    {
+      "id": "src_ruth_sabr_steinberg_huggins",
+      "kind": "biography",
+      "title": "Steve Steinberg, 'Miller Huggins', SABR Baseball Biography Project (independent secondary, from the manager's side). Downloaded; the Ruth passages were read: Huggins's approach to managing Ruth, the ignored bunt sign of 27 Aug 1925, the 29 Aug 1925 fine and suspension in St. Louis, Ruth's meeting with Ruppert and his apology, and the 1926 conditioning.",
+      "url": "https://sabr.org/bioproject/person/miller-huggins/"
+    },
+    {
+      "id": "src_ruth_sabr_mcmurray_dodgers",
+      "kind": "institution",
+      "title": "John McMurray, 'Babe Ruth, Brooklyn Dodgers Coach', SABR Baseball Research Journal (Fall 2015) -- article using Montville, Creamer, Associated Press and Boston/Chicago press (independent secondary). Read in full: Ruth's long wish to manage, his refusal of minor-league posts, the 1935 Braves offer, the June 1938 Dodgers coaching contract and the August 1938 clubhouse dispute with Leo Durocher.",
+      "url": "https://sabr.org/journal/article/babe-ruth-brooklyn-dodgers-coach-4/"
+    },
+    {
+      "id": "src_ruth_sabr_brown_final_game",
+      "kind": "institution",
+      "title": "Thomas J. Brown Jr., 'May 30, 1935: Babe Ruth plays his final major-league game with Boston Braves', SABR Games Project (independent secondary, citing Montville and Creamer). Read in full: the titles Ruth accepted at the Braves, his hope of being named manager, and his June 1935 departure after a dispute with owner Emil Fuchs.",
+      "url": "https://sabr.org/gamesproj/game/may-30-1935-babe-ruth-plays-his-last-game/"
+    },
+    {
+      "id": "src_ruth_sabr_mead_1930",
+      "kind": "institution",
+      "title": "William B. Mead, '1930: The Year of the Hitter', SABR The National Pastime (1985; reprinted 1987) -- season essay (independent secondary). The passage on Ruth's spring 1930 holdout and his acceptance of a two-year contract was read; the rest of the essay concerns other players and was skimmed.",
+      "url": "https://sabr.org/journal/article/1930-the-year-of-the-hitter/"
+    },
+    {
+      "id": "src_ruth_quoteinvestigator",
+      "kind": "press",
+      "title": "Garson O'Toole, 'Anyway, I Had a Better Year Than He Did', Quote Investigator (research article with dated citations to Associated Press reports of 8 March 1930 and 19 March 1933 on Ruth's salary talks with Ruppert). Read in full. Used ONLY for the dated AP reports; the 'better year than Hoover' quotation itself is not used because the article shows its date (1930 or 1932) and wording are inconsistent across retellings.",
+      "url": "https://quoteinvestigator.com/2014/12/28/better-year/"
+    },
+    {
+      "id": "src_ruth_hoyt_memoir_loc",
+      "kind": "archive",
+      "title": "Waite Hoyt, 'Babe Ruth As I Knew Him' (New York: Dell Publishing, 1948; Library of Congress digital copy loc.gov/item/49002355) -- memoir by a pitcher who was Ruth's teammate on the Red Sox in 1919 and on the Yankees 1921-30 (FIRSTHAND non-self; written after Ruth's death, so recollections can be embellished; several details differ from SABR accounts). Page-level OCR text retrieved from the Library of Congress text service and read: the 1921 World Series clubhouse scene, the 1922 arguments with Huggins and the Pipp fight, the August 1925 suspension scene, the 1927 clubhouse vote, the 1928 curfew episode and Ruth's remarks on managing.",
+      "url": "https://www.loc.gov/item/49002355/"
+    },
+    {
+      "id": "src_ruth_hof_barnstorming",
+      "kind": "institution",
+      "title": "'At Home on the Road' (barnstorming tours), National Baseball Hall of Fame and Museum -- institutional history page. The section on the 1921 Ruth/Meusel/Piercy tour and Landis's penalty was read, including a Ruth statement after the 17 Oct 1921 Elmira game. Corroboration only (institutional retelling; no named author).",
+      "url": "https://baseballhall.org/discover-more/history/barnstorming-tours"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ruth_sabr_levitt_barrow, src_ruth_sabr_wood, src_ruth_sabr_flynn_1921, src_ruth_hoyt_memoir_loc, src_ruth_sabr_steinberg_huggins | 1918-1925 | secondary + firsthand] In July 1918 an argument with manager Ed Barrow ended with Ruth leaving the team (Levitt; Wood); in 1919 he threatened Barrow the morning after Barrow burst into his room and backed down only when Barrow challenged him on the spot (Levitt); and in October 1921 he went ahead with a barnstorming tour after speaking to Commissioner Landis, saying he knew what it might cost (Flynn, from contemporaneous press). Hoyt, a teammate, recounts Ruth confronting Giants players in their clubhouse after a 1921 World Series game and the 1922 fight with Wally Pipp, and both Hoyt and Steinberg describe the August 1925 shouting match when Huggins fined and suspended him; in most cases he yielded or was reconciled within days, hence dual_edged."
+    },
+    "discipline": {
+      "score": 42,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_ruth_sabr_levitt_barrow, src_ruth_sabr_steinberg_huggins, src_ruth_hoyt_memoir_loc, src_ruth_sabr_wood | 1919-1928 | secondary + firsthand] Levitt records that Barrow's 1919 answer to Ruth's missed curfews was an arrangement that Ruth leave a note giving his return time, and Wood notes several curfew suspensions; Steinberg says Ruth ignored Huggins's bunt sign on 27 Aug 1925 and was late for batting practice on 29 Aug, after missing curfew, when Huggins fined and suspended him, and Hoyt recalls a late arrival at batting practice after a curfew warning in 1928. Against this, Wood records that from December 1925 he committed to a six-week regimen at Artie McGovern's gym, and Steinberg says he worked hard to get into shape before 1926, so the record is mixed with the earlier pattern dominating."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ruth_sabr_wood, src_ruth_sabr_levitt_ruppert, src_ruth_hoyt_memoir_loc, src_ruth_sabr_mcmurray_dodgers, src_ruth_sabr_brown_final_game | 1929-1938 | secondary + firsthand] Wood reports that after Huggins died in 1929 Ruth lobbied for the Yankees' managing job and kept hinting at it for years (Levitt: he 'desperately craved' it); McMurray adds that he refused to consider minor-league managing posts and reportedly skipped a meeting about the Tigers' job for a Hawaii trip, and Hoyt recalls Ruth saying that Frisch, Hornsby and others had not started in the minors. In 1935 he joined the Braves with vice-president and assistant-manager titles hoping to be named manager (Wood; Brown), and in 1938 he took a coaching job at Brooklyn (McMurray). The aim is documented over nine years, but most accounts descend from Montville and Creamer and the episodes show little effort to earn the post, so the score stays below the extreme band."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ruth_sabr_wood, src_ruth_sabr_mead_1930, src_ruth_quoteinvestigator, src_ruth_hoyt_memoir_loc, src_ruth_sabr_flynn_1921 | 1919-1933 | secondary + firsthand] Wood records a 1919 holdout for a much larger salary; Mead and an Associated Press report of 8 March 1930 show him pressing owner Ruppert for more before agreeing terms at a conference, and an AP report of 19 March 1933 shows a similar standoff after a 15-minute meeting. Hoyt recalls Ruth arguing in a 1927 clubhouse meeting that a rookie should get a full World Series share, and Flynn (from 1921 press) has him telephoning Landis himself. Distinct episodes across a decade, but each standoff ended in agreement and most detail is secondhand, so strong_inference at a moderate score."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/babe-ruth-ilp-1920.jpg",
+    "width": 1280,
+    "height": 1496,
+    "source": "Library of Congress Prints and Photographs Division (item 92507380; digital file cph.3g07246), studio portrait by Irwin, La Broad & Pudlin, via Wikimedia Commons",
+    "license": "Public domain (US, registered 1920)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+    "attribution": "Irwin, La Broad & Pudlin, New York, 1920 (US copyright entry 'Ruth (Babe) yours truly', (c) 23 July 1920, registered 3 Aug 1920, J 242484-242491); Library of Congress Prints and Photographs Division, via Wikimedia Commons; public domain; cropped and resized",
+    "attributionUrl": "https://www.loc.gov/pictures/item/92507380/",
+    "creator": "Irwin, La Broad & Pudlin (copyright claimant)",
+    "date": "1920-07-23",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Babe_Ruth_unrestored.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities API call (2026-09-23) for Q213812 returned label 'Babe Ruth' (ko label '베이브 루스'), description 'American baseball player (1895-1948)', born 1895-02-06, died 1948-08-16, citizenship United States (Q30), instance of human, sitelinks enwiki 'Babe Ruth' and kowiki '베이브 루스', P18 'Babe Ruth, 1933.jpg' (rejected by pre-flight and not used); the assignment's search-hit QID was correct. SLUG CHECK: ls data-pipeline/candidates showed no babe-ruth file and grep of src/data/people and data-pipeline for 'babe-ruth' / 'Babe Ruth' found nothing; no collision. CLASSIFICATION PRECEDENT: era 20th_century and regionCode north_america follow the live jesse-owens.json, wilma-rudolph.json and muhammad-ali.json candidates (20th-century US sportspeople; Ruth was primarily active 1914-1935); occupationIds athlete only (the allowed list has no coach/manager id, and the leadership_drive row rests partly on his 1929-1938 pursuit of a managing post); fieldIds sport only; impactDomains athletic and cultural (classification only); tagIds empty; archetype competitive_performer follows the athlete precedent of michael-jordan.json, jesse-owens.json and serena-williams.json and reflects his public career as a sports performer, not a scored competitiveness row (none is scored).\nEVIDENCE READ: 3 orientation records (English Wikipedia and Korean Wikipedia introductions via the MediaWiki API; Wikidata via the API) and 11 substantive source records, every one actually fetched and read (the SABR, Quote Investigator and Hall of Fame pages were downloaded with curl and read from the local text; the Hoyt memoir was retrieved page by page from the Library of Congress text service). For the three SABR biographies of other people (Barrow, Ruppert, Huggins) and the Mead season essay, the paragraphs that mention Ruth were read in full but the rest of the article was not. INDEPENDENT NON-SELF PERSPECTIVES (9 behavioural, plus 1 corroborating institution): (1) Allan Wood, SABR BioProject on Ruth; (2) T.S. Flynn, SABR journal 2019, from contemporaneous 1921 newspapers; (3) Daniel R. Levitt, SABR biographies of Barrow and Ruppert (two pages = ONE perspective); (4) Steve Steinberg, SABR biography of Huggins; (5) John McMurray, SABR Baseball Research Journal 2015; (6) Thomas J. Brown Jr., SABR Games Project; (7) William B. Mead, SABR National Pastime essay; (8) Garson O'Toole / Quote Investigator, used only for dated Associated Press reports of March 1930 and March 1933; (9) Waite Hoyt, 1948 memoir, the only FIRSTHAND non-self voice (teammate 1919-1930), published after Ruth's death; plus the Baseball Hall of Fame barnstorming page (institutional corroboration of the 1921 episode, no named author). Caveat on independence: the SABR authors are different people with different source bases (Flynn: 1921 newspapers; Levitt and Steinberg: front-office and manager records; Hoyt: memory), but Wood, McMurray and Brown lean heavily on Montville's and Creamer's biographies, so the management-ambition and 1935 material is less independent than nine perspectives suggest. Ruth's own words appear only inside these sources (his October 1921 statements and syndicated column via Flynn and the Hall of Fame page, a 1918 magazine quotation via Wood, his remarks as reported by Hoyt); they count as ONE self perspective and no row rests on them alone.\nEPISODE BUDGET (no episode supports more than two rows): July 1918 walkout after the argument with Barrow -> conflict_tolerance only; 1919 curfew confrontation with Barrow -> conflict_tolerance + discipline; October 1921 barnstorming and the call to Landis -> conflict_tolerance + social_assertiveness; 1921 World Series clubhouse scene (Hoyt) -> conflict_tolerance; 1922 Huggins arguments and the Pipp fight (Hoyt) -> conflict_tolerance; August 1925 Huggins fine and suspension -> conflict_tolerance + discipline; 1928 late arrival (Hoyt) and the 1925-26 conditioning regimen (Wood, Steinberg) -> discipline; 1919, 1930 and 1933 salary standoffs and the 1927 clubhouse vote -> social_assertiveness; the 1929-1938 managing ambition, the 1935 Braves titles and the 1938 Dodgers coaching job -> leadership_drive. Four rows, scored to what the evidence supports; not targeting a row count, coverage or eligibility.\nSCORING DECISIONS: competitiveness was not scored (the episodes read speak to results and records, which are excluded, or to anger at insults, not to competitiveness itself). risk_tolerance and autonomy_need were considered and not scored because their only support would be the same confrontation episodes already used for conflict_tolerance. adaptability was not scored because the 1918 change of role was made by Barrow after talking with Harry Hooper and Ruth resisted pitching (Wood, Levitt). collaboration was not scored because the record is mixed (Frazee's 1920 complaint and Huggins's 1923 praise are characterisations, not episodes) and the one clear episode (the 1927 vote) is used in social_assertiveness. impact_motivation was not scored: the anecdotes about kindness to children (Wood via a 1990s interview, Flynn, Hoyt) show generosity, which is not what that attribute measures. planning_orientation was not scored: the money anecdotes in Hoyt are single-source private-finance stories. The leadership_drive row is scored 'documented' at 0.66 because the actions are specific and dated (lobbying in 1929-30, refusing the minor-league route, accepting the Braves titles in 1935, accepting the 1938 coaching job) and Hoyt gives an independent firsthand statement of the same aim; the confidence is held below the top band because most accounts share a Montville/Creamer lineage. The discipline row is a mixed-evidence strong_inference (0.55): documented rule and curfew breaches from four sources against one documented self-imposed regimen; the earlier pattern dominates the 1914-1928 record, so the score sits below the midpoint and impact is 'risk' because the documented consequences were suspensions and a fine.\nCONFLICTS REPORTED, NOT ADJUDICATED: (a) Hoyt's memoir says that after the 29 Aug 1925 suspension Ruth went to Chicago to see Landis and that the Yankees finished the season without him, but Steinberg has him meeting Ruppert, apologising to Huggins and returning to the lineup in September (Levitt's Barrow biography confirms only that Barrow backed Huggins); Hoyt's memoir is therefore used only for scenes he says he witnessed (the clubhouse exchange with Huggins, the 1921 and 1922 clubhouse scenes, the 1927 vote, the 1928 curfew episode, Ruth's remark about the minors) and never for the sequence after 29 Aug 1925. (b) The SABR biography of Landis (Dan Busby, read) puts Landis's penalty on 16 Oct 1921 and reports a last-day exchange in the clubhouse; Flynn (using 1921 newspapers), Wood and the Hall of Fame page place the suspension in December 1921 (Flynn: 5 Dec), so the Busby chronology is not used. (c) The 'I had a better year than Hoover' quotation is contested (first found in 1947, dated 1930 or 1932 in different retellings, per Quote Investigator) and is NOT used; only the dated AP reports of the salary talks are. (d) The 1932 'called shot' and the 1926 Johnny Sylvester home-run promise are legend-status stories (Wood: the shot is not settled by the film or the game stories; Hoyt calls it 'the most fabulous story') and are not used.\nEXCLUDED ON PURPOSE: home-run totals, records, seasons and titles, salaries and contract sums as evidence (dollar figures appear only in a fine and in the fact that AP reported salary talks, never as scoring evidence); the 1925 illness ('bellyache') and every other illness, surgery, cancer and death (nothing inferred from health); drinking, eating, spending, sexual conduct and the private-life passages in SABR and Hoyt (the nightlife anecdotes were read and not used); his childhood at St. Mary's, his parents, marriages, the death of his first wife and his daughters; the 1928 election anecdote and any politics (zero-politics rule); the 1934 Japan tour (Rob Fitts's SABR article was read in part; it documents showmanship and a security incident in Japan, not a row-level trait, and its political context is out of scope); the August 1938 Durocher scuffle (accounts differ on whether a punch was thrown and McMurray calls it out of character); charity to children (see above); reports that jealousy of McCarthy led to the 1935 release (single 'reports', not documented). NOT OBTAINED / LIMITS: Montville's The Big Bam, Creamer's Babe, Leavy's The Big Fella, Stout's The Selling of the Babe, Wagenheim, Meany and Ruth's own book were not opened (only extracts quoted inside the SABR pieces); no primary 1918-1925 newspaper was opened (Chronicling America returned a Cloudflare challenge and was not bypassed); the SABR Emil Fuchs biography URL returned 404; Hoyt's memoir text is OCR and was read for the passages cited; no Korean-language or Japanese-language source was read.\nPORTRAIT: Wikidata P18 'Babe Ruth, 1933.jpg' was rejected at pre-flight (its PD-old-auto basis is wrong) and the Underwood & Underwood 'c1922' file was rejected (auction-listing source, undated 'between 1921 and 1923', {{PD-old}} tag with a corporate author and no publication fact). The image used is Commons 'File:Babe Ruth unrestored.jpg' (LOC digital file cph.3g07246, a film copy of the LOC print 92507380), the Commons File pages 'Babe Ruth unrestored.jpg' and 'Babe Ruth2.jpg' were fetched with WebFetch and cross-checked with the Commons API (extmetadata plus wikitext): the API gives Artist 'Irwin, La Broad, & Pudlin.', Credit 'Library of Congress' with the hdl.loc.gov/loc.pnp/cph.3g07246 link, DateTimeOriginal '1920', LicenseShortName 'Public domain', Copyrighted False, and the wikitext licence tag is {{PD-1923}}, a redirect to {{PD-US-expired}} whose own text reads 'in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1931'. The decisive fact is documented rather than assumed: (1) the Library of Congress record for the print (item 92507380, JSON API) names Irwin, La Broad & Pudlin as responsible, date c1920, 'Signed on image: Yours truly Babe Ruth', note 'J242488 U.S. Copyright Office', and lists cph.3g07246 among its digital files (rights field says only 'Rights status not evaluated', which is not relied on); (2) I opened the primary document, the U.S. Copyright Office's Catalog of Copyright Entries 1920, Works of Art, Photos, Prints (New Series vol. 15 part 4, Internet Archive item catalogofcopyri154libr, page image n234): 'IRWIN (JAMES C.), LA BROAD (ROBERT J.) AND PUDLIN (JESSIE), New York. Ruth (Babe) yours truly, 1-8. (c) July 23, 1920; 2 c. Aug. 3, 1920; J 242484-242491' -- a US copyright entry by named New York claimants (a studio firm), registered in 1920; (3) the print itself carries a copyright notice ('(c) I-L-P' and '#6') visible in the LOC scan. The sibling Commons file 'Babe Ruth2.jpg' records the same 23 July / 3 Aug 1920 registration facts and is a restored version; the unrestored scan was used to avoid retouching. Because the work was registered in the US in 1920, its term (at most 95 years) ended before 2026, and the firm authorship removes any dependence on a death date. AUTHORSHIP CAVEAT: the file page's structured-data caption (an unsourced Commons user caption) says the photograph was actually taken by Charles M. Conlon at the direction of Ruth's agent Christy Walsh and that Irwin, La Broad & Pudlin were a promotion agency rather than a studio; the LOC record and the 1920 copyright entry name Irwin, La Broad & Pudlin, and no source for the Conlon caption was found, so the credit line names the copyright claimant and this dispute is recorded here. The public-domain basis does not depend on who pressed the shutter (or on any death date): it rests on the US registration/publication in 1920 and the template's before-1931 rule. Other limits: the LOC rights field itself says 'not evaluated' and is not relied on; the loc.gov picture page returned HTTP 403 to WebFetch, so the LOC record was read from its JSON API instead. The ORIGINAL (3786x4647, SHA1 d4173b33fbecfed2ed52cd0064c8807340130ae2, matches the Commons imageinfo sha1) was downloaded with curl and a User-Agent; it includes the film-copy borders and colour bars, so I cropped to the print's head-and-torso area (1600x1870 px region) and downscaled with Pillow (LANCZOS, downscale only, 0.8x) to 1280x1496, JPEG q85, saved as public/portraits/babe-ruth-ilp-1920.jpg; the saved file's dimensions were checked and the image was viewed: a clean single-subject sepia studio portrait of a young Ruth in a Yankees cap and pinstripe uniform holding a bat, face clearly visible, no signature text in the crop. Kind: likeness (studio photograph made from life, 1920).\nKOREAN NAME: '베이브 루스' is the Korean Wikipedia article title and the Wikidata ko label (the ko Wikipedia introduction also uses '베이브 루스')."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베이브 루스"
+    }
+  }
+}

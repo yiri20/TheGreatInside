@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "christopher-wren",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Christopher Wren",
+    "aliases": [
+      "Sir Christopher Wren"
+    ],
+    "wikidataId": "Q170373",
+    "birthYear": 1632,
+    "deathYear": 1723,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect",
+      "astronomer"
+    ],
+    "fieldIds": [
+      "architecture",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "scientific",
+      "engineering"
+    ],
+    "tagIds": [
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wren_wikipedia",
+      "kind": "wikipedia",
+      "title": "Christopher Wren (English Wikipedia; lead section fetched via the MediaWiki API) -- orientation only (identity, dates, occupations); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Wren"
+    },
+    {
+      "id": "src_wren_kowiki",
+      "kind": "wikipedia",
+      "title": "ko.wikipedia.org '크리스토퍼 렌' (intro extract fetched via the MediaWiki API) -- confirms the Korean name form; orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%86%A0%ED%8D%BC_%EB%A0%8C"
+    },
+    {
+      "id": "src_wren_wikidata",
+      "kind": "wikidata",
+      "title": "Christopher Wren (Q170373) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, claims): en label 'Christopher Wren', description 'English architect (1632-1723)', ko label '크리스토퍼 렌', born 1632-10-20 (Julian), died 1723 (25 Feb / 8 Mar calendar variants; only the year is used), P18 'Christopher Wren by Godfrey Kneller 1711.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q170373"
+    },
+    {
+      "id": "src_wren_evelyn",
+      "kind": "archive",
+      "title": "The Diary of John Evelyn (2 vols., M. Walter Dunne, 1901; archive.org OCR full text, vol. 1 covering 1620-64 and vol. 2 covering 1665-1706, downloaded and searched locally; every Wren passage found was read in context) -- FIRSTHAND account by a close friend and fellow Royal Society member (friendly source, one perspective). Wren entries read: 11 Jul 1654, Oct 1664, 27 Aug 1666, 19 Feb 1671, 25 May 1682, 15 and 23 Feb 1684, 4 and 30 Jun 1696, 9 Jun 1698, among others. The 1901 text is a modernised edition and some of its dates (for example a Royal Society presidency entry) are not relied on.",
+      "url": "https://archive.org/details/diaryofjohnevely02eveliala"
+    },
+    {
+      "id": "src_wren_aubrey",
+      "kind": "biography",
+      "title": "John Aubrey, 'Brief Lives', chiefly of contemporaries, ed. Andrew Clark (Oxford, 1898), vols. 1-2, archive.org OCR full text searched locally -- the 'Sir Christopher Wren' entry (vol. 2, pp. 311-13, including Clark's notes) and the Wren passages in the lives of Francis Potter, John Wallis, Denham and Holder. Aubrey was Wren's friend and sometime petitioner for his patronage (friendly, partly hearsay; one perspective).",
+      "url": "https://archive.org/details/briefliveschiefl02aubruoft"
+    },
+    {
+      "id": "src_wren_birch",
+      "kind": "archive",
+      "title": "Thomas Birch, The History of the Royal Society of London (1756-57), vols. 1-2: printed minutes and papers of the Society's weekly meetings, 1660-70. Vol. 1 (Google-scanned copy, archive.org OCR) and vol. 2 (archive.org OCR, noisier) downloaded and searched locally for Wren; the meeting entries cited were read in context and their dates checked against the surrounding text. Institutional record compiled by the Society's secretary from its journal books (Wren was himself a member; no other affiliation).",
+      "url": "https://archive.org/details/bub_gb_stptfhQDyasC"
+    },
+    {
+      "id": "src_wren_gunther",
+      "kind": "biography",
+      "title": "R. T. Gunther, Early Science in Oxford, vol. X (Oxford, 1935): the Preface (pp. xxxiii-xxxvi) quoting M. I. Batten's Times article of 14 Feb 1935 on Hooke's Guildhall diary of 1672-80 and Wren's City-church work, plus Hooke's diary of 1688-93 (Wren entries); and vol. VII (1930), passages on the College of Physicians and Hooke's diary. Hooke's diary is FIRSTHAND but Hooke was an interested colleague, and Gunther and Batten are Hooke partisans (secondary; one perspective, read for Hooke's dated entries only). Hooke's 1672-80 diary itself (Guildhall) was not opened.",
+      "url": "https://archive.org/details/earlyscienceinox10gunt"
+    },
+    {
+      "id": "src_wren_geraghty",
+      "kind": "institution",
+      "title": "Anthony Geraghty, The Architectural Drawings of Sir Christopher Wren at All Souls College, Oxford (online catalogue, All Souls College Library; print catalogue with English Heritage, AHRC and British Academy support) -- independent scholarly catalogue that cites primary records (St Paul's works accounts, Commissioners' minutes, Hooke's diary, Wren's letters). Pages read: 'The drawings: technique and purpose', Sheldonian, pre-fire design, revision to the pre-fire design, new cathedral (c.1668), Greek Cross, Great Model studies, Great Model to Warrant, Warrant design, Penultimate, Revised, equal-armed and round cathedral designs, the 1666 London plan, the 1664 comet, meteorological and surveying instruments, refraction, theatre designs and the Monument. Wren's own letters are quoted through this catalogue (self-authored, counted as one self perspective). Where it repeats Parentalia (compiled by Wren's son, published by his grandson, 1750) that is flagged as a family source and not used to support any row.",
+      "url": "https://library.asc.ox.ac.uk/wren/index.html"
+    },
+    {
+      "id": "src_wren_hebbert",
+      "kind": "biography",
+      "title": "Michael Hebbert (Bartlett School of Planning, UCL), 'The long after-life of Christopher Wren's short-lived London plan of 1666', Planning Perspectives (2019), author's original manuscript PDF downloaded and read through the account of Wren's plan, its reception and the Parentalia legend (about the first 470 of 1,100 lines; the nineteenth- and twentieth-century reception sections were not read) -- independent peer-reviewed scholarship citing Oldenburg's letters, Evelyn and the Wren Society volumes; it also reports the editors of the 1934 Wren Society reprint calling Parentalia of 'doubtful authority'.",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10081417/1/Hebbert_PP%20Wren%20ms_.pdf"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wren_birch, src_wren_evelyn, src_wren_geraghty | 1661-64 | secondary + firsthand] The Royal Society minutes record Wren's letter on his hypothesis about Saturn (dated 1 Oct 1661), cuts made by a new etching method he showed on 1 Oct 1662, and his model of the theatre to be built at Oxford (29 Apr 1663); Evelyn found him observing the sun with Wallis and Boyle in October 1664 and on the same visit was shown his Sheldonian design; and Geraghty notes c.1663-64 sheets on which weather-clock studies share the page with architectural studies for the All Souls chapel screen. Astronomy, instrument-making, printmaking and architecture are distinct fields, documented by three perspectives (Evelyn is a friend and counts as a weaker one)."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wren_birch, src_wren_geraghty | early 1662; Oct 1662; Feb 1669 | secondary] The Royal Society minutes record Wren showing an experiment in which a vessel emptied itself once filled to a certain height, proposing to try a watch in Boyle's air-engine, and proposing trials of water forced up two pipes of different bore and of the undulation of quicksilver in a crooked tube, which he was asked to pursue and report on (early and Oct 1662). In Feb 1669 the Society's trials with springy bodies appeared to some members to bear out laws of motion attributed to him (Birch's summary), and Geraghty cites Summerson's view of a consistent bias in all Wren's work toward visual demonstration and working models."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wren_birch, src_wren_geraghty, src_wren_aubrey | 1650s-1669 | secondary] The minutes register a weather-clock description of his (9 Dec 1663), 'two thermometers of Dr. Wren's invention' (1663, Birch's wording) and a cipher he presented ex tempore (early 1669); Geraghty dates his perspective-drawing instrument to the 1650s, with a 1669 Philosophical Transactions description, and Aubrey says that Wren 'hath fallen on the same principle' as Potter's 1656 perspective design, with an engine 'better work't'. Several distinct devices, but novelty rests on the minutes' own wording and Aubrey's hearsay and no priority is adjudicated, hence a moderate score."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wren_evelyn, src_wren_geraghty, src_wren_birch | 1664-65; 27 Aug 1666; Feb 1669 | firsthand + secondary] Evelyn records that on 27 Aug 1666 he and Wren, against Chicheley and Pratt (who thought the nave's outward lean original), plumbed the uprights of Old St Paul's in several places and entered their finding in writing; Geraghty describes Wren's diagram of the 1664 comet, its path calculated by a geometric construction from four observations and presented to the Royal Society on 1 Feb 1665; and the Feb 1669 motion trials were held to check rules of his. Three dated episodes from three perspectives, each showing a method rather than a stated standard of proof."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wren_geraghty, src_wren_aubrey | 1666; mid-1670s; 1669 | secondary] Geraghty's examination of the drawings notes, in Wren's 1666 presentation sheets for the pre-fire St Paul's, a red band on the compasses under half a millimetre wide and a narrow blue strip for the nave's lead ridge, and in the 1670s features rehearsed in pencil under-drawing; he also quotes Wren's mid-1670s letter to Trinity College, Cambridge, offering to copy out 'all the mouldings in great' since 'wee are scrupulous in small matters' (Wren's own words, one self perspective). Aubrey adds that Wren spent 'at least a weeke' on his 1669 survey of Salisbury cathedral, a 'curious discourse' of two sheets."
+    },
+    "aesthetic_sensitivity": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_wren_geraghty, src_wren_evelyn | 5 Aug 1666; 27 Aug 1666 | Wren's own letter + firsthand friend] Geraghty quotes Wren's 5 Aug 1666 letter to Dean Sancroft on his pre-fire St Paul's designs: if they were not thought useful he would not regret the pleasure he had taken in the contrivance, which he likened to that of poetry or musical composition. Evelyn adds that on 27 Aug 1666 he and Wren proposed a 'noble cupola', a church form 'of wonderful grace' not yet known in England. One self-report plus a friend's joint proposal speaks to aesthetic engagement only modestly, so a small lean at low confidence."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wren_evelyn, src_wren_gunther, src_wren_geraghty | 1664-96 | firsthand + secondary] Evelyn records that Wren showed him the Sheldonian model in Oct 1664 'not disdaining my advice in some particulars', that Wren and Sir Stephen Fox took him to Lambeth with the Chelsea plan (25 May 1682), that he and Wren drew the plan and estimate for Tenison's library (23 Feb 1684) and that the Greenwich Hospital committee met at Wren's house (4 Jun 1696). Hooke's diary (through Gunther and Batten) has Wren saying in June 1675 that he had altered his St Paul's model using Hooke's principle about arches, and Geraghty describes an office in which Wren pencilled designs for Woodroofe to ink and gave Hawksmoor freer rein, while stressing that Wren kept final control and that Hooke's part in that office has been overstated."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wren_hebbert, src_wren_geraghty | Sept 1666 | secondary] Geraghty and Hebbert both place Wren's scheme for replanning the City in the days just after the Fire (presented to the King by 10-11 Sept 1666, ahead of Evelyn's own plan of 13 Sept), with a first and a revised drawing and, per Hebbert, a written description of walking through the new streets. Oldenburg's letters as cited by Hebbert say the King showed much approbation while doubting the plan had reckoned with the City's populousness, and Hebbert notes it ignored existing street lines and property titles: the speed is documented, its practicability was not. No record shows whether it was requested, and it is a single episode."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wren_geraghty, src_wren_gunther | 1668-75; c.1685-87 | secondary + firsthand] Geraghty's dated catalogue shows a run of different St Paul's schemes: a 1668 choir design on the old alignment, then a more modest first model, new designs after the April 1670 Act provided funds (the Greek Cross, approved by the king in late 1672), the Great Model reworked in 1673-74, longer basilican designs in winter 1674-75, the Warrant design approved on 14 May 1675 and overhauled by 18 June, when Hooke's diary of 5 June suggests a structural reason; a further revision is dated c.1685-87 by Higgott (other scholars place it in 1675). The reasons for most changes are not recorded and the leeway attributed to the 1675 warrant comes only from the family compilation Parentalia, so the trait is read from the documented pattern of revisions, not from stated motives."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/christopher-wren-scriven-1827.jpg",
+    "width": 1022,
+    "height": 1244,
+    "source": "Wellcome Collection, Iconographic Collections (V0006656EL; Library reference ICV No 6871L): line engraving by Edward Scriven after Godfrey Kneller's 1711 portrait, via Wikimedia Commons",
+    "license": "CC BY 4.0 (Wellcome digitization); engraving public domain",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Edward Scriven (1775-1841), line engraving after Godfrey Kneller (1711 portrait), dated 1827 in the Wellcome catalogue (no imprint or publisher on the sheet or in the record); digital image Wellcome Collection, CC BY 4.0, via Wikimedia Commons; cropped to the plate and saved as JPEG at q85 (no upscaling)",
+    "attributionUrl": "https://wellcomecollection.org/works/mxbhp8nq",
+    "creator": "Edward Scriven (engraver, 1775-1841); after Godfrey Kneller (painter of the 1711 original, 1646-1723)",
+    "date": "1827 (engraving); 1711 (Kneller original)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sir_Christopher_Wren._Line_engraving_by_E._Scriven,_1827,_af_Wellcome_V0006656EL.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q170373 verified live via the Wikidata API (wbgetentities): en label 'Christopher Wren', description 'English architect (1632-1723)', ko label '크리스토퍼 렌', born 1632-10-20, died 1723, P18 'Christopher Wren by Godfrey Kneller 1711.jpg'. English and Korean Wikipedia leads read via the MediaWiki API (orientation only). Slug collision check: no christopher-wren in data-pipeline/candidates and no matching slug/name in src/data/people. CLASSIFICATION PRECEDENT: era early_modern follows shipped precedents (isaac-newton 1642-1727, edward-jenner, mimar-sinan); regionCode western_europe (UK precedent). Occupations architect + astronomer and fields architecture + natural_science are included because the scored rows genuinely draw on both his Royal Society/Oxford scientific work (1650s-60s) and his architectural work (category contribution arts_culture via architecture, science_knowledge via natural_science); mathematics was NOT added (no row scored from it). Tag cross_disciplinary and archetype cross_disciplinary_generalist rest on the cross_domain_range row only. EVIDENCE READ (9 source records; 6 substantive, all actually opened): Evelyn's Diary (vols 1-2, full text searched, Wren passages read in context); Aubrey's Brief Lives (Wren entry + Wren passages in four other lives); Birch's History of the Royal Society vols 1-2 (Wren meeting entries 1660-70; vol. 2 OCR is noisy, dates checked against context); Gunther's Early Science in Oxford vol. X (Preface quoting Batten's 1935 Times article on Hooke's diary of 1672-80, and Hooke's diary 1688-93) and vol. VII (College of Physicians and 1695 entries; the 1695 water-supply entry was read but not scored because the timings are by Hooke and Wren's clerk); Geraghty's All Souls catalogue (about 20 pages listed in the source record; cites the St Paul's accounts, Commissioners' minutes and Wren's letters); Hebbert 2019 (about 40% read). INDEPENDENT PERSPECTIVES: six non-self perspectives (Evelyn, Aubrey, Royal Society minutes via Birch, Hooke via Gunther/Batten, Geraghty, Hebbert), plus Wren's own letters quoted through Geraghty and Birch as ONE self perspective. WEAK-INDEPENDENCE LABELS: Evelyn and Aubrey were close friends (firsthand but friendly); Hooke was an interested colleague and Gunther and Batten are Hooke partisans (Geraghty disputes how large Hooke's part in Wren's office was, so the Hooke-as-partner reading is NOT used); Parentalia (compiled by Wren's son, published by his grandson in 1750; its 1934 Wren Society editors called it of 'doubtful authority') is family-authored, is NOT used as support for any row and appears only where the editorial hedges it (the reported clergy objections to the Great Model, the reported resolve to make no more models, and the reported leeway for 'ornamental' variations after the 1675 warrant). No documented row above 0.72 and no score above 84; the friendly-source-heavy rows are strong_inference or inference at moderate confidence. Episode use: no episode supports more than two rows (Evelyn 27 Aug 1666: analytical_rigor and aesthetic_sensitivity; Evelyn Oct 1664: cross_domain_range and collaboration; Hooke June 1675: collaboration and adaptability; the Feb 1669 motion trials: experimentation and analytical_rigor; the weather-clock: cross_domain_range and creative_originality). EXCLUDED ON PURPOSE: the beauty, fame and completion of St Paul's and the number of City churches (not behavior), the epitaph, Wren's longevity, health and death, the 1718 removal from the Surveyor-Generalship (recorded by Geraghty but not scored), knighthood, the brief parliamentary seats and royal service (politics, incidental), the Wren-Hooke credit question and priority disputes (Wallis/Aubrey) which are not adjudicated, and the fate of the 1666 plan (only Wren's conduct is scored). Aubrey's remark that Wren shaved a year off his age was not used. LIMITS: the Wren Society volumes (primary St Paul's records, 1924-43), Hooke's Guildhall diary of 1672-80 itself, Jardine, Tinniswood and Downes were not opened (Heidelberg's Wren Society scans sit behind an anti-bot wall, which was not bypassed; the archive.org lending copy of the Hooke diary is not downloadable); review-page snippets for Jardine and Tinniswood were seen in search results only and are not cited; the DNB entry (Penrose, 1900) was only partly read and is not cited; Art UK's page for the Closterman portrait returned 403. Gunther's Hooke excerpts rest on M. I. Batten's 1935 summary, so dated Hooke entries are second-hand. Old Style dating: Birch's early-1662 entries fall in the 1661/62 session year and are dated only to 'early 1662'. PORTRAIT: Wikidata P18 (NPG 113, Kneller 1711) was NOT used: its Commons page carries the standing NPG third-party reproduction-claim notice (API Categories include 'Items with copyright claims'). A Closterman portrait at the Royal Society (RS.9545, c.1690s, Commons PD-Art, painter d. 1711) is an alternative from-life likeness, but its photograph comes from Art UK, no photographer release is recorded and Art UK's own terms could not be checked, so it was not used. A Yale Center for British Art CC0 miniature was rejected (unidentified painter, uncertain sitter). Chosen: Edward Scriven's 1827 line engraving after Kneller's 1711 portrait (Wellcome Collection, Commons file page read: Creator template Scriven 1775-1841 / after Kneller, {{cc-by-4.0}}; API metadata LicenseShortName CC BY 4.0; Wellcome's own catalogue record shows the digital image as public domain mark; SHA-1 of the downloaded original 0e99236063c12bf69b1f10bfe8ad9e78ee54c6ad matches the Commons API value). The print bears only 'E. Scriven sc.'; the date 1827 comes from the Wellcome title and catalogue record, which give no publisher or place. Likeness check: the Wellcome record states 'after Sir G. Kneller, 1711', and the engraved face, wig and expression were compared by eye with the Kneller portrait (viewed for comparison only, signed and dated 1711, the year Wren was about 79); a smaller 1794 Audinet stipple and a hand-tinted 1798 Holloway print of the same Kneller type were viewed and rejected as less faithful or stained. kind is historical_depiction because the engraving is a posthumous copy of a from-life painting, not itself made from life."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "크리스토퍼 렌"
+    }
+  }
+}

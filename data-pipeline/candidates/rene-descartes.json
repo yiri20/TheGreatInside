@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rene-descartes",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "René Descartes",
+    "aliases": [
+      "Descartes",
+      "Renatus Cartesius"
+    ],
+    "wikidataId": "Q9191",
+    "birthYear": 1596,
+    "deathYear": 1650,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "mathematician",
+      "scientist"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "mathematics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "independent"
+    ],
+    "archetypeIds": [],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_descartes_wikipedia",
+      "kind": "wikipedia",
+      "title": "René Descartes (English Wikipedia) -- orientation only (dates, places, occupations); not used as support for any scored row. Downloaded and skimmed.",
+      "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+    },
+    {
+      "id": "src_descartes_wikidata",
+      "kind": "wikidata",
+      "title": "René Descartes (Q9191) -- identity verified live through the Wikidata API (wbgetentities): en label 'René Descartes', en description 'French philosopher, mathematician, and scientist (1596–1650)', ko label '르네 데카르트', P27 France (Q142), P569/P570 31 Mar 1596 / 11 Feb 1650, P18 'Frans Hals - Portret van René Descartes.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q9191"
+    },
+    {
+      "id": "src_descartes_ko_wikipedia",
+      "kind": "wikipedia",
+      "title": "르네 데카르트 (Korean Wikipedia) -- opened to confirm the conventional Korean rendering of the name and of the titles of the works (방법서설, 성찰, 세계론). Orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/%EB%A5%B4%EB%84%A4_%EB%8D%B0%EC%B9%B4%EB%A5%B4%ED%8A%B8"
+    },
+    {
+      "id": "src_descartes_sep_hatfield",
+      "kind": "biography",
+      "title": "Gary Hatfield, 'René Descartes', Stanford Encyclopedia of Philosophy (first published 2008, substantive revision 23 Oct 2023) -- modern scholarly account (secondary; it retells the Adam-Tannery and Cottingham correspondence). Read section 1 'Intellectual Biography' (1.1-1.5): the 1628 move to the Netherlands with secret address and frequent moves, Franeker registration April 1629, suppression of The World after Galileo's condemnation, the anonymous Discourse (1637), the Nov 1639 plan to obtain theologians' judgements and the seven sets of objections published with replies, and the Utrecht/Voetius and Regius controversies. Downloaded and read.",
+      "url": "https://plato.stanford.edu/entries/descartes/"
+    },
+    {
+      "id": "src_descartes_sep_smith",
+      "kind": "biography",
+      "title": "Kurt Smith, 'Descartes' Life and Works', Stanford Encyclopedia of Philosophy (2001, substantive revision 1 Mar 2023) -- a second scholar's account (secondary). Read 'Early Years' and 'The World and Discourse': Beeckman at Breda, 1628 departure from Paris, Amsterdam 1630, Deventer 1632, the decision against publishing The World after Galileo's condemnation (Nov 1633 letter to Mersenne) with the remark that some scholars question the expressed fear because he lived in the Netherlands, and the move to Leiden in 1636 to arrange publication of the Discourse. Downloaded and read; its private-life passages were not used.",
+      "url": "https://plato.stanford.edu/entries/descartes-works/"
+    },
+    {
+      "id": "src_descartes_sep_regius",
+      "kind": "biography",
+      "title": "Desmond Clarke, 'Henricus Regius', Stanford Encyclopedia of Philosophy (2008, substantive revision 3 Mar 2026) -- scholar's account (secondary) of the Utrecht controversy. Read section 2 'Dispute with Voetius and Descartes': Descartes's 1641 advice to Regius (avoid needless controversy and accusations of heresy; omit rather than reject substantial forms), the December 1641 disputation, the Letter to Dinet (1642) and Epistola ad Voetium (1643), the Vroedschap's ban and committee of inquiry, Schoock's Admiranda methodus (1643), the 1645-48 break with Regius and Descartes's Notae in programma quoddam (1648). Downloaded and read.",
+      "url": "https://plato.stanford.edu/entries/henricus-regius/"
+    },
+    {
+      "id": "src_descartes_at_i",
+      "kind": "archive",
+      "title": "C. Adam & P. Tannery (eds.), Oeuvres de Descartes, vol. I, Correspondance avril 1622-février 1638 (Paris: Cerf, 1897; archive.org scan, OCR text downloaded and searched locally). Read in French: Descartes to Ferrier 18 Jun 1629 (VII); Descartes to Beeckman Sept/Oct 1630 (XXIII, XXIV); Descartes to Mersenne [Deventer, Nov/Dec 1632] (XLVI), late Nov 1633 (XLIX) and Apr 1634 (LIII) on The World; Constantijn Huygens to Descartes 28 Oct 1635 (LXII); the editors' notes (Franeker album entry of 16 Apr 1629, successive residences 1632-36, Jan Maire printing the Discourse, Beeckman's 1629 letters to Mersenne). Descartes's own letters are one self perspective; the Huygens letter and the Beeckman letters quoted in the notes are independent. Baillet-derived passages in the editors' notes were not relied on.",
+      "url": "https://archive.org/download/uvresdedescartes01desc/uvresdedescartes01desc_djvu.txt"
+    },
+    {
+      "id": "src_descartes_at_ii",
+      "kind": "archive",
+      "title": "Adam & Tannery, Oeuvres de Descartes, vol. II, Correspondance mars 1638-décembre 1639 (Paris: Cerf, 1898; archive.org scan, OCR searched locally). Read in French: Descartes to Mersenne 3 May 1638 (CXXII) and 29 Jun 1638 (CXXVI) on the exchange with Fermat and his friends (with the 'Extrait' of Fermat's letter as printed there); Descartes to Mersenne 13 Nov 1639 (CLXXVII): plan to print twenty or thirty copies of the Metaphysics for theologians, and his reply to gossip about his visits to a butcher and about dissections. Self letters (one perspective); Fermat's own words appear only in extract.",
+      "url": "https://archive.org/download/uvresdedescartes02desc/uvresdedescartes02desc_djvu.txt"
+    },
+    {
+      "id": "src_descartes_at_iii",
+      "kind": "archive",
+      "title": "Adam & Tannery, Oeuvres de Descartes, vol. III, Correspondance janvier 1640-juin 1643 (Paris: Cerf, 1899; archive.org scan, OCR searched locally). Read in French/Latin: Huygens to Descartes 14 Aug 1640 (CCI) and 17 Jul 1641 (CCXLVII); Descartes to Mersenne 24 Dec 1640 (CCXXIII); Princess Elisabeth to Descartes 6/16 May 1643 (CCCI) and 10/20 Jun 1643 (CCCVIII) with Descartes's replies of 21 May (CCCII) and 28 Jun 1643 (CCCX); the editors' documentary notes quoting the Utrecht city council minutes (15 Mar 1642 decree on Regius; 5 and 13 Jun 1643 committee and citation over Descartes's Epistola ad Voetium). Huygens, Elisabeth and the Utrecht minutes are independent non-self voices; Regius letters preserved only through Baillet were not relied on.",
+      "url": "https://archive.org/download/uvresdedescartes03desc/uvresdedescartes03desc_djvu.txt"
+    },
+    {
+      "id": "src_descartes_at_v",
+      "kind": "archive",
+      "title": "Adam & Tannery, Oeuvres de Descartes, vol. V, Correspondance mai 1647-février 1650 (Paris: Cerf, 1903; archive.org scan, OCR searched locally). Read: Descartes to Chanut 26 Feb 1649 (DXL) and 31 Mar 1649 (DXLIX). The Chanut letters printed in this volume survive only as quoted in Baillet's 1691 Vie (a Cartesian-circle source, weakly independent), so they were read for context but are NOT relied on in any row. Descartes's letters are the self perspective.",
+      "url": "https://archive.org/download/uvresdedescartes05desc/uvresdedescartes05desc_djvu.txt"
+    },
+    {
+      "id": "src_descartes_at_x",
+      "kind": "archive",
+      "title": "Adam & Tannery, Oeuvres de Descartes, vol. X (Paris: Cerf, 1908; archive.org scan, OCR searched locally): the 'Descartes et Beeckman' sections (1618-19 and 1628-29) transcribing Isaac Beeckman's Journal (Middelburg MS., via C. de Waard), read in Latin with the editors' French notes -- Beeckman's entries of Nov-Dec 1618 (lute strings; over-blown pipe; 'Physico-mathematici paucissimi'), the Compendium Musicae given to him at the new year, and the entry of 8 Oct 1628 ('Historia Des Cartes ejusque mecum necessitudo') with his notes on the glass prism and lens; plus Leibniz's undated manuscript note on the Descartes papers in Clerselier's hands (editors' Avertissement to the 'Opuscules de 1619-1621'). Beeckman is an independent firsthand collaborator (friendly when writing, later in dispute with Descartes); Leibniz an independent later witness to papers. Transcriptions taken as given, not checked against the manuscripts.",
+      "url": "https://archive.org/download/uvresdedescartes10desc/uvresdedescartes10desc_djvu.txt"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_descartes_at_x, src_descartes_at_i, src_descartes_at_v, src_descartes_sep_hatfield | 1628-29; Apr 1634; Mar 1649 | Beeckman's journal + scholars' chronology + his own letters] Beeckman's journal places him at Dordrecht on 8 Oct 1628 and the Franeker student album (cited by the AT editors) enters him on 16 Apr 1629, after which Hatfield reports he kept his address secret and moved often (AT editors: Deventer 1632-33, Amsterdam 1634, Utrecht 1635, Leiden 1636). His own letters give the stated preference: on 18 Jun 1629 he invited the instrument-maker Ferrier to join him 'in the desert' at his expense, where 'nobody will distract you'; in Apr 1634 he wrote of his desire to live in peace under the motto 'he lived well who lived well hidden'; and on 31 Mar 1649 that he had tried to conduct his life so fortune had no hold on him and found the Swedish journey much harder to decide than expected. The stated motive rests on his own letters (one perspective), and he did go to Stockholm and repeatedly sought partners, so this is a hedged inference about independence of place and schedule, not isolation."
+    },
+    "risk_tolerance": {
+      "score": 34,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_descartes_at_i, src_descartes_at_iii, src_descartes_sep_regius, src_descartes_sep_hatfield | Nov 1633-Apr 1634; Oct 1635; 1639-41 | his letters + Huygens + scholars] In late Nov 1633, after learning of Galileo's condemnation, he told Mersenne he would rather suppress his treatise than see it published 'crippled' and in Apr 1634 that he was resolved never to show it; Huygens (28 Oct 1635) urged him not to let the 'imaginary considerations' that had held him 'in scruple' delay the Dioptrics, which appeared in 1637 anonymously; on 13 Nov 1639 and 24 Dec 1640 he planned to send the Meditations to theologians before publishing and did not want 'the ministers of this country' to see it before 'our theologians'; and in 1641 he urged Regius to avoid needless controversy and accusations of heresy (Clarke). The withdrawal itself is documented mainly by his own letters; Smith notes that some scholars doubt the danger was real from the Netherlands, and his later open attacks on Voetius cut against a lower score."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_descartes_at_x, src_descartes_at_i, src_descartes_at_iii | Nov 1618-Apr 1619; Oct 1628; Jun 1629; 1639-43 | Beeckman's journal + Huygens + Elisabeth + his letters] Beeckman's journal records Descartes writing pieces for him at Breda (the Compendium Musicae is dated 31 Dec 1618), telling him he had found no one else who joined physics with mathematics as Beeckman did, and on 8 Oct 1628, after first seeking him at Middelburg, proposing that they complete the sciences 'by joint work'; on 18 Jun 1629 he invited Ferrier to work with him at his expense; in 1639-41 he solicited theologians' objections and had them printed with his replies, though he refused to insert replies into the text and, per the AT editors, did not take Huygens's suggestion of a Protestant objector; and on 28 Jun 1643 he thanked Elisabeth for giving him occasion to note what he had omitted on the union of soul and body. Against this stand the ending of the Beeckman friendship in reproachful letters of Sept-Oct 1630 and the 1645-48 break with Regius (Clarke), so the score sits modestly above the middle."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_descartes_at_ii, src_descartes_at_iii, src_descartes_at_i, src_descartes_sep_regius | 1633; 1638; 1642-43; 1648 | his letters + city minutes + scholar] He met open challenge in writing: on 3 May 1638 he wrote that criticising others was 'contrary to my humour' but that Fermat's challenge could only be avoided by scorning him, and on 29 Jun 1638 that a gentler reply would have shown weakness; the Letter to Dinet (1642) and Epistola ad Voetium (1643) targeted Voetius, after which the Utrecht council named a committee (5 Jun 1643, Old Style) and cited him (13 Jun), and in 1648 he published against Regius (Clarke). Elsewhere he avoided contention: in late 1633 he wrote that if his opinions 'cannot be approved without controversy' he would never publish them, and on 28 Jun 1643 he went to seek ways out of the Utrecht 'chicaneries'. The pattern is mixed, so the score stays mid-range with low-moderate confidence."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_descartes_at_x, src_descartes_at_i, src_descartes_at_ii | Nov-Dec 1618; Oct 1628; Oct 1635; 1632-39 | Beeckman's journal + Huygens + Leibniz + his letters] Beeckman's journal notes Descartes reporting that plucked lute strings set consonant strings sounding and that an over-blown pipe sounds an octave higher (late 1618), and on 8 Oct 1628 records him measuring refraction through a glass prism behind a pierced paper mask and saying a convex lens cut to a computed curve had succeeded; Huygens (28 Oct 1635) refers to the lens-polishing machine Descartes had 'ordered' and plans a test cut by an Amsterdam turner; his letters of Nov/Dec 1632 and 13 Nov 1639 say he was dissecting animal heads and regularly took parts from an Amsterdam butcher to dissect, and Leibniz's own note lists 'anatomical experiments and observations' and metal experiments among Clerselier's papers. Distinct episodes across two decades, but mostly reported speech and his own letters, showing trials and dissections rather than a systematic programme."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/rene-descartes-louvre-after-hals-1649.jpg",
+    "width": 817,
+    "height": 1000,
+    "source": "Musée du Louvre (INV. 1317, painting 'after Frans Hals'), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+    "attribution": "After Frans Hals (1582/83-1666), Portrait of René Descartes, oil on canvas, Musée du Louvre (INV. 1317); public domain (PD-Art, artist died 1666); unaltered resave of the Wikimedia Commons file",
+    "creator": "After Frans Hals (copy of a lost original; workshop or later copy, sources differ)",
+    "date": "original c. 1649; this canvas a later copy",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q9191 verified live through the Wikidata API (wbgetentities: en label 'René Descartes', en description 'French philosopher, mathematician, and scientist (1596–1650)', ko label '르네 데카르트', P27 France, P569/P570 31 Mar 1596 / 11 Feb 1650, P18 the Hals-after file); the Korean Wikipedia article (title 르네 데카르트) and the English article were downloaded and agree. Slug collision check: no rene-descartes.json in data-pipeline/candidates and no Descartes person in src/data/people (only an incidental mention in a roster2.ts comment). CLASSIFICATION PRECEDENT: nationalityCodes FR (Wikidata P27); regionCode western_europe follows the live corpus convention for pure-FR candidates (10 of 10 other candidates with nationality ['FR'] use western_europe) and the early-modern continental precedents baruch-spinoza (NL), johannes-kepler (DE) and immanuel-kant (DE), all western_europe; he lived in the Dutch Republic from 1629 and died in Stockholm, which does not change the mapping. Era early_modern (born 1596; Kepler 1571, Rembrandt 1606, Spinoza 1632 are early_modern in the corpus). Occupations philosopher, mathematician and scientist, fields philosophy, mathematics and natural_science (all science_knowledge): 'scientist'/'natural_science' are included only because the experimentation row is scored from his optical and anatomical trials, not from the importance of his physics. Tags: only 'independent' (supported by the autonomy row); archetypes left empty because no archetype is independently evidenced by five rows. EVIDENCE READ: 11 records: 8 substantive (five Adam-Tannery volumes as OCR text from archive.org, read in French/Latin and searched locally; three Stanford Encyclopedia entries by three different scholars) plus 3 orientation records (English and Korean Wikipedia, Wikidata). INDEPENDENT NON-SELF PERSPECTIVES: Isaac Beeckman (his Journal 1618-19 and 1628, as transcribed by the AT editors), Constantijn Huygens (letters 1635-41), Princess Elisabeth of Bohemia (her 1643 letters), the Utrecht city council (minutes quoted in the AT editors' notes), Leibniz (an undated note on the papers in Clerselier's hands); plus three modern scholars (Hatfield, Smith, Clarke), secondary and drawing on the same documents. SELF perspective: Descartes's own letters across AT I-V, counted once. The Adam-Tannery editors' commentary is scholarly but partly built on Baillet. Independence is therefore weak for two rows: the suppression of The World (late 1633-Apr 1634) and the 1649 hesitation rest on his own letters with scholarly retelling, so those rows are strong_inference at 0.52-0.55 and no documented row above 0.75 exists; the highest score is 70 and the lowest is 34. EPISODE USE: no episode supports more than two rows (The World: risk_tolerance, conflict_tolerance; Meditations pre-circulation 1639-41: risk_tolerance, collaboration; Beeckman 1628: collaboration, experimentation; Huygens 1635: risk_tolerance, experimentation; Ferrier 1629: autonomy_need, collaboration; Utrecht/Regius: risk_tolerance, conflict_tolerance). Five rows only; curiosity, analytical_rigor, independent_thinking, belief_updating, cross_domain_range, creative_originality and others were considered and left unscored because the evidence would either be his philosophy's importance, a list of works, a priority claim, or an episode already used twice. EXCLUDED ON PURPOSE: the philosophy's importance and all 'first'/'father of' and priority claims (analytic geometry, sine law, the cogito); the 1619 dreams and the stove; sleeping habits and the 5 a.m. Stockholm routine; health, his daughter Francine, bereavement, his death, and religion/piety questions; military service and court/diplomatic contacts (Queen Christina, Chanut, the French pension) except as one clause in the autonomy row; Baillet's 1691 Vie (Cartesian circle; the Chanut letters in AT V survive only through it) is not relied on; the Beeckman quarrel of 1629-30 is used only as counter-evidence to collaboration, without adjudicating who taught whom. KNOWN LIMITS: the OCR of the AT volumes was read directly and quotations were checked against that OCR only; Beeckman's Journal was read only as transcribed by Adam and Tannery in 1908 (not against the Middelburg manuscript); much of the experimentation evidence is reported speech; the Bologna chair offer mentioned by Hatfield could not be verified in the sources read and is not used; the Utrecht council dates are the editors' quotation of the city minutes (their second date conversion looks inconsistent, so only Old Style dates are given). PORTRAIT: chosen file 'Frans Hals - Portret van René Descartes.jpg' (Wikidata P18 of Q9191) = Louvre INV. 1317, a painting 'after Frans Hals'. Decisive facts read from the exact Commons File page, its wikitext and the API imageinfo/extmetadata: {{PD-Art|PD-old-100-expired}} (page text: faithful reproduction of a public-domain 2D work; public domain in the country of origin and the United States; CC PD Mark), API LicenseShortName 'Public domain', Copyrighted False, no third-party copyright-claim or restriction notice on the page; the file was downloaded from upload.wikimedia.org (817x1000, 155,042 bytes, matching the API) and resaved at the same size (no resize, JPEG q85), then looked at (single subject, clean, the familiar likeness). KIND: historical_depiction, not likeness. Louvre INV. 1317 is described on Commons as an 18th-century copy and by the RKD Studies 'Frans Hals and his workshop' entry A4.1.15 as a workshop copy of a lost Hals original, with the original dated to 1649 (Suyderhoef's engraving names Hals and 1650); that entry says only 'if the painting is from life' Hals would have painted it in Haarlem, and the Copenhagen panel (SMK DEP7) is described there as a smaller simplified copy. No source read establishes a documented sitting. Alternatives considered, none rejected for a rights problem: Weenix (Centraal Museum, c. 1647-49, small file, from-life status not established from the pages read), Nason 1647 (Agnes Etherington, from-life status not established), Lievens black-chalk drawing c. 1644-49 (Groninger Museum), SMK Hals panel; the SMK API returned HTTP 503 and was not retried. No eligibility, coverage or match output was used in choosing or changing any row."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "르네 데카르트"
+    }
+  }
+}

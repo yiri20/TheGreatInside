@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "buster-keaton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Buster Keaton",
+    "aliases": [
+      "Joseph Frank Keaton"
+    ],
+    "wikidataId": "Q103949",
+    "birthYear": 1895,
+    "deathYear": 1966,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor",
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_keaton_wikipedia",
+      "kind": "wikipedia",
+      "title": "Buster Keaton -- English Wikipedia, orientation only (dates 1895-1966, birthplace, occupations, spouses; fetched and skimmed). Not used as support for any scored row; the Korean Wikipedia page (ko.wikipedia.org, title 버스터 키턴) was also fetched to confirm the Korean name.",
+      "url": "https://en.wikipedia.org/wiki/Buster_Keaton"
+    },
+    {
+      "id": "src_keaton_wikidata",
+      "kind": "wikidata",
+      "title": "Buster Keaton (Q103949) -- identity verified live via the Wikidata API (wbgetentities): label 'Buster Keaton', birth 1895-10-04, death 1966-02-01, citizenship United States (Q30), sitelinks enwiki 'Buster Keaton' and kowiki '버스터 키턴'; P18 'Busterkeaton edit.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q103949"
+    },
+    {
+      "id": "src_keaton_smith_alta",
+      "kind": "press",
+      "title": "Julian Smith, 'Buster Keaton's Last Stand', Alta Journal (undated on the fetched page; Smith is an Oregon-based history journalist) -- long production history of The General at Cottage Grove, Oregon, 1926, drawing on contemporary Cottage Grove Sentinel and Eugene Guard reports and a local historical-society interview (independent secondary). Read in full: the decision to build a 215-foot trestle and wreck a real locomotive on 23 July 1926, the six cameras and trial runs, the period-accurate Marietta set, repeated takes of short tracking shots, and Schenck's reaction to the budget. Claims Smith marks 'reportedly' or 'supposedly' were not used.",
+      "url": "https://www.altaonline.com/dispatches/a7822/buster-keaton-the-general-julian-smith/"
+    },
+    {
+      "id": "src_keaton_oregon_encyclopedia",
+      "kind": "institution",
+      "title": "Jim Scheppke, 'The General (film)', The Oregon Encyclopedia (Oregon Historical Society; last updated 24 Nov 2025) -- regional-history entry (independent secondary). Read in full: location fallback after the Chattanooga locomotive deal fell through, the three locomotives, the Marietta set, the 215-foot Row River trestle near Culp Creek and its estimated $42,000 cost. Used only to corroborate the bridge episode.",
+      "url": "https://www.oregonencyclopedia.org/articles/the_general_film/"
+    },
+    {
+      "id": "src_keaton_doll_tcm_oneweek",
+      "kind": "institution",
+      "title": "Susan Doll, 'One Week', Turner Classic Movies article, 11 Aug 2010 -- film-studies essay (independent secondary, institution-hosted). Read in full: the 1919 Home Made documentary that inspired One Week, the story-conference method with the whole crew, work without a formal script, the instruction to keep cameras rolling, the turntable house, the reworking of gags in later films, and the caveat that the co-directors' exact contributions are debated.",
+      "url": "https://www.tcm.com/articles/345149/one-week"
+    },
+    {
+      "id": "src_keaton_fristoe_tcm_scarecrow",
+      "kind": "institution",
+      "title": "Roger Fristoe, 'The Scarecrow (1920)', Turner Classic Movies article, 24 Mar 2005 -- short film note (independent secondary). Read in full: Schenck's 1919-20 arrangement, the standing team of co-director Eddie Cline, technical director Fred Gabourie and cameraman Elgin Lessley, and the gadget-filled one-room house. A separate author from Doll (TCM hosts many authors).",
+      "url": "https://www.tcm.com/articles/92537/the-scarecrow-1920"
+    },
+    {
+      "id": "src_keaton_steffen_tcm_cameraman",
+      "kind": "institution",
+      "title": "James Steffen, 'The Cameraman', Turner Classic Movies article, 17 Dec 2002 -- film-historian essay (independent secondary that also quotes Keaton's 1960 memoir, so partly SELF-derived on the MGM period). Read in full: the 1928 MGM contract and salary, the studio's newsreel story, Keaton's persuading Irving Thalberg to let him depart from the script, and the tighter scripting of Spite Marriage.",
+      "url": "https://www.tcm.com/articles/18689/the-cameraman"
+    },
+    {
+      "id": "src_keaton_doherty_thr",
+      "kind": "press",
+      "title": "Thomas Doherty, 'Sherlock Jr.: Buster Keaton's Silent Movie, Revisited', The Hollywood Reporter, 29 Aug 2024 -- essay by a film historian (independent secondary). Read in full: Sherlock Jr.'s five-month production, audience previews and re-editing, 60,000 feet shot for a film of about 4,065 feet, and the later television, commercial and Twilight Zone work (15 Dec 1961, aged 66).",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/buster-keaton-sherlock-jr-history-1235985615/"
+    },
+    {
+      "id": "src_keaton_stevens_sfsff",
+      "kind": "institution",
+      "title": "Dana Stevens, 'Steamboat Bill, Jr.', essay for the San Francisco Silent Film Festival 2022, adapted from her biography Camera Man (2022) -- independent secondary by a Slate critic (the biographer's perspective; contains some Keaton quotation). Read in full: the lineage of the window gag from Back Stage (1919) via One Week (1920) to the Labor Day weekend 1927 housefront, its rigging by Fred Gabourie with three crew members on the roof, and Schenck's announcement that the studio would close.",
+      "url": "https://silentfilm.org/steamboat-bill-jr-2/"
+    },
+    {
+      "id": "src_keaton_stevens_reveal",
+      "kind": "press",
+      "title": "Keith Phipps, 'Four Looks at Buster Keaton: A Conversation With Camera Man Author Dana Stevens', The Reveal (Substack), 22 Feb 2022 -- interview in which Stevens discusses The High Sign, The Cameraman, and the television work. The SAME perspective as the SFSFF essay (Stevens), so together they count as one. Read in full.",
+      "url": "https://thereveal.substack.com/p/four-looks-at-buster-keaton-a-conversation"
+    },
+    {
+      "id": "src_keaton_robinson_gcm",
+      "kind": "institution",
+      "title": "David Robinson, note on 'The Scarecrow' (1920), Le Giornate del Cinema Muto (Pordenone silent-film festival) 2018 catalogue -- programme note by a film historian who wrote an earlier Keaton biography (independent secondary). Read in full: his first independent production The High Sign disappointed him and he shelved it for half a year; his 1917 move from vaudeville into Arbuckle's studio at $40 a week (not used for a row).",
+      "url": "https://www.giornatedelcinemamuto.it/anno/2018/en/the-scarecrow/index.html"
+    },
+    {
+      "id": "src_keaton_macdonald_nyrb",
+      "kind": "press",
+      "title": "Dwight Macdonald, 'Vote for Keaton', The New York Review of Books, 9 Oct 1980 -- review essay of Dardis, Moews, Robinson and Blesh (independent critic). Read in full: quotes a Keaton cameraman from Brownlow's The Parade's Gone By and Keaton's 1965 Sight and Sound remarks on the shift from two-reelers to feature-length stories, notes Dardis's corrections of Keaton's own accounts, and describes his later work as consultant and gag writer.",
+      "url": "https://www.nybooks.com/articles/1980/10/09/vote-for-keaton/"
+    },
+    {
+      "id": "src_keaton_neibaur_fall",
+      "kind": "biography",
+      "title": "James L. Neibaur, The Fall of Buster Keaton: His Films for M-G-M, Educational Pictures, and Columbia (Scarecrow Press, 2010) -- critical study by a film historian (independent secondary; it also draws on Keaton's autobiography and quotes contemporary press). Read in the full text hosted by vdoc.pub (a document-sharing site; the upload's permission status was not verified, so the book is cited as the source): the MGM transition, The Cameraman's script and improvisations, the 1937 gagman work, and the 1949-56 television and commercial work.",
+      "url": "https://vdoc.pub/documents/the-fall-of-buster-keaton-his-films-for-mgm-educational-pictures-and-columbia-19u5bm9f9qk8"
+    },
+    {
+      "id": "src_keaton_backstein_cineaste",
+      "kind": "press",
+      "title": "Karen Backstein, review of the Criterion Blu-ray of The Cameraman, Cineaste Vol. XLVI No. 1 (2020) -- film-scholar review summarising the disc's documentaries (independent secondary; repeats Keaton's own 'the middle would take care of itself' remark). Read in full; used only as corroboration of the MGM script-versus-improvisation contrast.",
+      "url": "https://www.cineaste.com/winter2020/the-cameraman"
+    },
+    {
+      "id": "src_keaton_leatherwood_eatdrinkfilms",
+      "kind": "press",
+      "title": "Roger Leatherwood, review of Matthew Dessem's The Gag Man: Clyde Bruckman and the Birth of Film Comedy, EatDrinkFilms, 18 Dec 2015 -- book review (secondary of a secondary, weak). Read in full; only the passage on Keaton sharing director credit and playing baseball with collaborators was used. The Bruckman health, drinking and death passages were deliberately not used.",
+      "url": "https://eatdrinkfilms.com/2015/12/18/nice-things-destroyed-book-review-the-gag-man-clyde-bruckman-by-matthew-dessem/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_keaton_smith_alta, src_keaton_oregon_encyclopedia, src_keaton_stevens_sfsff, src_keaton_neibaur_fall | July 1926; Labor Day weekend 1927 | secondary] For The General, Keaton chose to stage the climactic train wreck for real rather than in miniature, having a 215-foot trestle built over the Row River near Culp Creek and filming the single-take collapse on 23 July 1926 with about six cameras, at a reported cost of about $42,000 (Smith; the Oregon Encyclopedia gives the trestle and the cost estimate). In September 1927 he stood in the path of the Steamboat Bill, Jr. housefront, clearing the attic window by two inches on each side, on a rig built by Fred Gabourie (Stevens; Neibaur). Both were prepared (trial runs, roped facade), so the risk was calculated, and Smith reports that Schenck was furious over the rising budget of The General, hence dual_edged."
+    },
+    "perfectionism": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_keaton_robinson_gcm, src_keaton_stevens_reveal, src_keaton_doherty_thr, src_keaton_smith_alta | 1920; 1924; 1926 | secondary] Three distinct episodes from three authors: after his first independent short The High Sign disappointed him he held it back and released other films first (Robinson: about half a year; Stevens: a year, and she reads it as saving a stronger debut rather than dissatisfaction); on Sherlock Jr. (1924) he worked for five months, previewing rough cuts to audiences and re-editing, and shot 60,000 feet for a film of about 4,065 feet (Doherty); and for The General (1926) he ordered a period-accurate Marietta set modelled on engravings, down to the wallpaper, and shot short tracking shots in repeated takes (Smith, who ties the accuracy to cost overruns). The sources differ on the High Sign delay and on its motive, so this stays strong_inference."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_keaton_stevens_sfsff, src_keaton_doll_tcm_oneweek | 1919-1927 | secondary] Two authors trace the same gag being rebuilt across films: Stevens follows the falling-wall and window gag from a stage-scenery bit in Back Stage (1919) through One Week's revolving wall (1920) to the Steamboat Bill, Jr. housefront (1927), and Doll says he reworked One Week's motorcycle and window stunts for Sherlock Jr. and Steamboat Bill, Jr., and mounted the whole One Week house on a turntable for its storm scene. Both describe outcomes rather than tests or trial results, so this is a modest lean."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_keaton_doll_tcm_oneweek, src_keaton_robinson_gcm, src_keaton_fristoe_tcm_scarecrow, src_keaton_neibaur_fall | 1919-1928 | secondary] Distinct episodes of building comedy from an unusual premise: in 1919 he saw an industrial documentary, Home Made, on prefabricated houses and turned it into the parody One Week (Doll; screenplay credited to Keaton and Eddie Cline); The Scarecrow (1920, co-directed with Cline) opens in a one-room house of convertible gadgets (Robinson; Fristoe); and in The Cameraman (1928) he devised a solo baseball pantomime in an empty stadium, choosing where to place the camera for each shot (Neibaur). Authorship of individual ideas in these team productions is debated (Doll), so the row stays modest."
+    },
+    "ambiguity_tolerance": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_keaton_doll_tcm_oneweek, src_keaton_steffen_tcm_cameraman, src_keaton_neibaur_fall, src_keaton_stevens_reveal, src_keaton_backstein_cineaste | 1920-1928 | secondary] Doll describes his Schenck-era method as a story conference with the whole crew and then shooting without a formal script, telling cameramen to keep rolling when a gag went wrong because, he said, his best improvisations came then; in 1928 at MGM, Steffen says he convinced Irving Thalberg to let him depart from the studio script and Neibaur that he talked Thalberg into letting him revise it and film undisturbed, and Stevens says the Yankee Stadium pantomime and the dressing-room scene of The Cameraman were improvised. Stevens adds that the silents were still planned meticulously, and several accounts rest on Keaton's own later statements (quoted in Steffen and Cineaste), so this is strong_inference."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_keaton_fristoe_tcm_scarecrow, src_keaton_doll_tcm_oneweek, src_keaton_stevens_sfsff, src_keaton_leatherwood_eatdrinkfilms | 1920-1927 | secondary] From 1920 he worked with a standing team of co-director Eddie Cline, technical director Fred Gabourie and cameraman Elgin Lessley (Fristoe), opened each film with a story conference attended by the whole crew from prop men to cinematographer, and shared director credit with gag men such as Cline and Clyde Bruckman (Doll, who notes their exact contribution is debated; Leatherwood, summarising Dessem, says he took credit assignment lightly). Stevens describes the Schenck-era studio as built around a handpicked crew of trusted collaborators. Four authors agree on the pattern, but the credit point rests on a review of another author's book and the co-directors' real share is debated, so this is strong_inference."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_keaton_macdonald_nyrb, src_keaton_neibaur_fall, src_keaton_stevens_reveal, src_keaton_doherty_thr | 1920s-1965 | secondary] Different authors document separate changes of format: the move from two-reelers to feature-length stories, which Keaton told Sight and Sound in 1965 forced 'a very logical story' and which a cameraman echoed to Brownlow (Macdonald); MGM comedy-consultant and gag work from June 1937 (Neibaur); a live television comedy show in 1949 and a filmed series in 1950-51 and, later, guest spots and commercials (Neibaur; Stevens; Doherty), plus a reworked Limelight sketch on The Martha Raye Show in 1956 (Neibaur); and, at 66, a physical Twilight Zone role broadcast on 15 December 1961 (Doherty). A 1950 Life item quoted by Neibaur says he was enthusiastic about television; Neibaur also notes financial need, which is not scored."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/buster-keaton-bain-ca1920.jpg",
+    "width": 1117,
+    "height": 1600,
+    "source": "Bain News Service, George Grantham Bain Collection, Library of Congress Prints and Photographs Division (LC-DIG-ggbain-32451; call no. LC-B2- 5474-13), via Wikimedia Commons",
+    "license": "PD-US (published pre-1931; Bain/LOC)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Busterkeaton_edit.jpg",
+    "attribution": "Buster Keaton, Bain News Service, [between ca. 1920 and ca. 1925], glass negative, George Grantham Bain Collection, Library of Congress (LC-DIG-ggbain-32451); dust/scratch-cleaned Commons copy (Busterkeaton edit.jpg, retouch by Liandrei); public domain (Bain News Service press photograph dated before 1931); downscaled",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2014712604/",
+    "creator": "Bain News Service (publisher; photographer not named in the Library of Congress record)",
+    "date": "between ca. 1920 and ca. 1925 (Library of Congress; Commons: 1920)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Busterkeaton_edit.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q103949 verified live: fetched the Wikidata API (wbgetentities, labels/descriptions/claims/sitelinks); label 'Buster Keaton', description 'American motion picture director, motion picture producer, ... comedian, actor', citizenship United States (Q30), born 1895-10-04, died 1966-02-01, sitelinks enwiki 'Buster Keaton' and kowiki '버스터 키턴', P18 'Busterkeaton edit.jpg'. Korean name confirmed on the fetched Korean Wikipedia page (title 버스터 키턴). Slug collision check: no buster-keaton.json in data-pipeline/candidates and no person entry for Keaton in src/data/people/*.ts (the only match is a Chaplin rationale comment in roster34.ts). CLASSIFICATION PRECEDENT: occupationIds actor + film_director, fieldIds film, impactDomains artistic + cultural and era 20th_century follow charlie-chaplin.json (Chaplin's regionCode is western_europe for a British-born subject; Keaton was US-born and active in the US, so north_america). occupationIds are limited to actor and film_director as in the Chaplin precedent; tagIds empty and archetype creative_creator only (independent_creator was not used because autonomy_need was not scored). EVIDENCE READ: 13 substantive source records beyond Wikipedia/Wikidata, every one actually fetched (curl to a local text file, or WebFetch) and read: Julian Smith (Alta Journal), Jim Scheppke (Oregon Encyclopedia/Oregon Historical Society), Susan Doll (TCM), Roger Fristoe (TCM), James Steffen (TCM), Thomas Doherty (Hollywood Reporter), Dana Stevens (SFSFF essay + The Reveal interview = ONE perspective), David Robinson (Giornate del Cinema Muto note), Dwight Macdonald (NYRB 1980), James Neibaur (The Fall of Buster Keaton, 2010; full text read on vdoc.pub, a document-sharing host whose upload permission was not verified), Karen Backstein (Cineaste 2020), Roger Leatherwood (EatDrinkFilms review of Dessem's The Gag Man). That is 12 independent non-self perspectives (13 source records) and all 13 are non-self behavioural sources; all are secondary (film historians, critics, journalists, an encyclopedia), none is a first-hand collaborator. INDEPENDENCE CAVEAT (important): much film-history writing on Keaton rests on a common root of his own accounts (the 1960 memoir My Wonderful World of Slapstick, ghost-written by Charles Samuels, and his interviews with Brownlow and Sight and Sound). Steffen, Cineaste, Neibaur and Macdonald quote or lean on those accounts, and Macdonald, summarising Dardis, says Keaton's own accounts were distorted on some matters (his father, the profitability of his features). For that reason no row rests on Keaton's self-characterisation: rows rest on dated behaviours described by film historians or by contemporary local press quoted by Smith, and rows where the support is largely Keaton-derived (ambiguity_tolerance, adaptability's 1965 quote) are held at strong_inference or supported by separate episodes. No first-hand collaborator account (Cline, Bruckman, Gabourie, Lessley, Marion Mack, Eleanor Keaton) was read directly, and Brownlow's The Parade's Gone By, Dardis, Blesh, Curtis, Kerr and Brownlow's 1987 documentary were NOT opened; Brownlow appears only through a cameraman's quotation inside Macdonald's review, and Stevens's biography only through her essay and interview. SCORING: 7 rows (risk_tolerance 76 documented; perfectionism 70, experimentation 64, creative_originality 64, ambiguity_tolerance 70, collaboration 68 strong_inference; adaptability 72 documented), scored to the evidence and not to coverage or eligibility. EPISODE BUDGET (no episode supports more than two rows): The General 1926 -> risk_tolerance (bridge) + perfectionism (Marietta set); Steamboat Bill, Jr. 1927 housefront -> risk_tolerance + experimentation (the gag's lineage, a design-history fact distinct from the stunt itself); Sherlock Jr. 1924 -> perfectionism + a clause of Doll's rework list in experimentation; One Week 1919-20 -> creative_originality + experimentation; The Cameraman 1928 -> creative_originality (baseball pantomime) + ambiguity_tolerance (improvisation); High Sign shelving -> perfectionism only; the Schenck-era team and story-conference method -> collaboration and, in general terms, ambiguity_tolerance; later-career formats -> adaptability only. Source disagreements noted in the rows: the High Sign delay (Robinson about half a year, Stevens a year, and Stevens reads it as saving a stronger debut rather than dissatisfaction); co-director credit (Doll: the co-directors' exact contribution is debated). EXCLUDED ON PURPOSE: injuries (including the broken-neck story), alcoholism, breakdown, hospital stays, marriages and divorces, the family vaudeville act and the child-welfare discourse around it, and death (nothing inferred from any of these); fame, rankings, Orson Welles and AFI quotations, box-office totals and 'greatest' claims (used only as bare outcome facts in the editorial, never as behaviour); legendary or 'reportedly' anecdotes (the nickname/Houdini story, the wife stopping his plan to drive the locomotive, Marion Mack's punch, the 'She'll do' casting line); the Chaplin/Lloyd warning against MGM and the 'worst mistake' verdict, which come from Keaton's own memoir (only the verdict is used, in the editorial, attributed to the memoir via Steffen); the 1965 Beckett Film episode (Monaghan's account, quoting Schneider, Rosset and Beckett, describes disengagement and is ambiguous for any trait). Considered and NOT scored: persuasiveness (the Thalberg episode is already used twice and its support is single-source and partly Keaton-derived), autonomy_need (contradictory: he sought control on set yet signed with MGM against warnings), planning_orientation (mixed: no formal script but meticulously planned stunts, and sources conflict on whether The General had a finished script), curiosity, mastery_orientation, leadership_drive, competitiveness, achievement_drive, social_assertiveness. READ BUT NOT RELIED ON: English Wikipedia (orientation), a Silver Screenings blog post on The Cameraman, Eric Cortellessa's Washington Monthly review of Stevens's book (derivative of Stevens, so not an extra perspective), Peter Monaghan (Moving Image Archive News) and Lloyd Schwartz (NPR) on Film (1965). UNREADABLE: NPR's 2026 piece on The General's centenary (HTTP 402), the National Gallery of Art page (HTTP 403), Roger Ebert's page (HTTP 403) and the archive.org text of The Parade's Gone By (HTTP 401). PORTRAIT: Wikidata P18 lists 'Busterkeaton edit.jpg'. Read on the exact Commons File page (WebFetch), the Commons API (imageinfo extmetadata + revision wikitext) and the rendered {{PD-Bain}} template text, and the Library of Congress record for item 2014712604 (loc.gov pictures JSON API). Commons: author 'Bain News Service', date 1920, source {{LOC-image|ggbain.32451}}, license template {{PD-Bain}} whose own text says only 'This work is from the George Grantham Bain collection at the Library of Congress. According to the library, there are no known copyright restrictions on the use of this work'; extmetadata LicenseShortName 'Public domain', Copyrighted False, 4182x5990, sha1 daf05e8b...; the file is a retouched copy ({{RetouchedPicture}}: 'Cleaned up dirt and scratches', editor Liandrei, original Busterkeaton.jpg, the same 4182x5990 LOC scan). Library of Congress record: title 'Buster Keaton', created_published '[between ca. 1920 and ca. 1925]', creators role 'publisher' = Bain News Service, medium '1 negative : glass', rights 'No known restrictions on publication', reproduction number LC-DIG-ggbain-32451, call number LC-B2- 5474-13 [P&P], note 'Title from unverified data provided by the Bain News Service on the negatives or caption cards.' LEGAL BASIS RELIED ON: the record dates the negative wholly before 1931 and names Bain News Service, a press-photograph agency, as publisher, so publication in the United States before 1 January 1931 is inferred and the image is public domain there; the {{PD-Bain}} tag itself only reports the Library's 'no known restrictions' view and is not the basis. Residual doubts, disclosed: the date is a Library range, not a documented publication date; publication is inferred from Bain's business and the 'publisher' field; the sitter is identified by Bain's caption (recorded by the Library as unverified data) and by the match with the widely used likeness that the English and Korean Wikipedia infoboxes carry (kowiki dates it 1925). The Commons copy is a dust-and-scratch cleanup of the Library scan; the cleanup adds no meaningful authorship. Same footing as the other Bain/LOC pre-1931 press portraits accepted in this corpus (e.g. robert-goddard). Downloaded the Commons original (sha1 matches the API), downscaled with Pillow (LANCZOS, already single-channel) to 1117x1600, JPEG q85 (never upscaled), saved as public/portraits/buster-keaton-bain-ca1920.jpg; viewed the saved file: a clean single-subject head-and-shoulders studio portrait of a young man in a dark suit and white collar. Kind likeness (studio photograph made from life)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "버스터 키턴"
+    }
+  }
+}

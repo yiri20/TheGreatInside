@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "johan-cruyff",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Johan Cruyff",
+    "aliases": [
+      "Johan Cruijff",
+      "Hendrik Johannes Cruijff"
+    ],
+    "wikidataId": "Q17163",
+    "birthYear": 1947,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "leader",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cruyff_wikipedia",
+      "kind": "wikipedia",
+      "title": "Johan Cruyff -- English Wikipedia, orientation only (identity, dates, career spans such as Washington Diplomats 1980-81 and the 1982 Helmond penalty). Fetched and read in part; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Johan_Cruyff"
+    },
+    {
+      "id": "src_cruyff_wikidata",
+      "kind": "wikidata",
+      "title": "Johan Cruyff (Q17163) -- identity verified live via the Wikidata API: label 'Johan Cruyff', description 'Dutch footballer and manager (1947-2016)', citizenship Netherlands, born 1947-04-25, died 2016-03-24, sitelinks enwiki 'Johan Cruyff' and kowiki '요한 크라위프'; P18 lists 'Johan Cruijff (1974).jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q17163"
+    },
+    {
+      "id": "src_cruyff_guardian_welch_obit",
+      "kind": "press",
+      "title": "Julie Welch, 'Johan Cruyff obituary: Europe's first football superstar', The Guardian, 24 Mar 2016 -- staff-written obituary (independent secondary). Read in full: his 1985 return to Ajax without coaching badges under the title technical adviser, his practice of working individually with each player at Barcelona, the conversion of Guardiola from winger to midfield pivot, his 1996 dismissal by Nunez, and his forthright criticism of Holland's 2010 World Cup final tactics.",
+      "url": "https://www.theguardian.com/football/2016/mar/24/johan-cruyff-obituary"
+    },
+    {
+      "id": "src_cruyff_guardian_winner",
+      "kind": "press",
+      "title": "David Winner, 'Johan Cruyff: father of modern game who also shaped Dutch culture', The Guardian, 25 Mar 2016 -- analytical essay by the author of Brilliant Orange (independent secondary). Read in full: his demands on the Dutch FA over player pay and travel insurance, the Jongbloed goalkeeper decision for the 1974 World Cup, in-match tactical changes, the 'conflict model', the 1973 captaincy vote, the 1983 Feyenoord move, the reorganised Ajax and Barcelona youth systems, and the 2011 Ajax change of leadership.",
+      "url": "https://www.theguardian.com/football/2016/mar/25/johan-cruyff-father-modern-game-dutch"
+    },
+    {
+      "id": "src_cruyff_guardian_williams",
+      "kind": "press",
+      "title": "Richard Williams, 'Johan Cruyff: the revolutionary who changed how the world saw football', The Guardian, 24 Mar 2016 -- tribute essay (independent secondary). Read in full: his role as leader of Ajax and Holland, his debut for the teenage Dennis Bergkamp as Ajax coach, the short 2008 Ajax technical-director spell, the removal from Barcelona's honorary presidency after four months, and his support for Spain over Holland in the 2010 World Cup final.",
+      "url": "https://www.theguardian.com/football/2016/mar/24/johan-cruyff-revolutionary-changed-football-richard-williams"
+    },
+    {
+      "id": "src_cruyff_guardian_mcrae_guardiola",
+      "kind": "press",
+      "title": "Donald McRae, 'Pep Guardiola: I would not be here without Johan Cruyff. He was unique', The Guardian, 7 Oct 2016 -- interview in which Guardiola (a player under Cruyff at Barcelona, firsthand) describes the May 1989 half-time rebuke, Cruyff's push-then-protect handling of players, his training-ground methods, and the same patterns used from seven-year-olds to the first team. Read in full. Guardiola is a firsthand non-self voice; the interview is a Guardiola perspective, not Cruyff's.",
+      "url": "https://www.theguardian.com/football/2016/oct/07/pep-guardiola-exclusive-interview-johan-cruyff-unique"
+    },
+    {
+      "id": "src_cruyff_guardian_mcrae_cruyff",
+      "kind": "press",
+      "title": "Donald McRae, 'Johan Cruyff: Maybe we were the real winners in 1974', The Guardian/Observer, 26 Mar 2016 -- account of a Sept 2014 interview with Cruyff himself. SELF perspective (Cruyff's own statements, including his description of how he explained defending to Guardiola and his belief in individual coaching); counted as one perspective together with his book quotations reproduced elsewhere. Read in full; not used as a sole support for any row.",
+      "url": "https://www.theguardian.com/football/2016/mar/26/johan-cruyff-1974-world-cup-donald-mcrae"
+    },
+    {
+      "id": "src_cruyff_guardian_bollen_feyenoord",
+      "kind": "press",
+      "title": "Andy Bollen, extract from Fierce Genius: Cruyff's Year at Feyenoord, The Guardian, 11 Feb 2021 -- book extract (independent secondary) on the 1983 dispute with Ajax and the move to Feyenoord; also reproduces Cruyff's own account from My Turn (self, one perspective) and Bollen's reading of his motives (interpretive). Read in full.",
+      "url": "https://www.theguardian.com/football/2021/feb/10/feyenoord-forever-cruyff-never-when-ajax-legend-crossed-the-divide"
+    },
+    {
+      "id": "src_cruyff_setpieces_bollen",
+      "kind": "press",
+      "title": "Andy Bollen, 'Cruyff at 75: Remembering the Netherlands' favourite number 14', The Set Pieces, 25 Apr 2022 -- career retrospective by the author of Fierce Genius (same author as the Guardian extract, so ONE perspective with it). Read in full: Johnny Rep's recollection of Cruyff's constant instructions (quoted from Winner's Brilliant Orange), the 1985 refusal to take coaching badges, the individual work with Guardiola, the 2010 newspaper column and 2011 Ajax youth-plan dispute.",
+      "url": "https://thesetpieces.com/latest-posts/cruyff-75-remembering-netherlands-favourite-number-14/"
+    },
+    {
+      "id": "src_cruyff_fft_kuper",
+      "kind": "press",
+      "title": "'Johan Cruyff: The player, the coach, the legacy', FourFourTwo, republished 24 Mar 2016 (standfirst credits Simon Kuper; the page byline shows FourFourTwo's Ben Clark; internal references show it was written around 2009). Long biographical profile with many dated behavioural anecdotes and the author's own interviews (independent secondary; anecdotes are largely single-sourced to this author). Read in full; the father, family, health and finance passages were deliberately not used.",
+      "url": "https://www.fourfourtwo.com/features/johan-cruyff-icon"
+    },
+    {
+      "id": "src_cruyff_tft_scragg",
+      "kind": "press",
+      "title": "Steven Scragg, 'When Ajax didn't want Johan Cruyff he left for Feyenoord ... and won the double', These Football Times, 16 Dec 2019 -- season retrospective of 1983-84 (independent secondary). Read in full: the 1983 move and, on Cruyff's insistence, left-back Stanley Brard being played as a left winger.",
+      "url": "https://thesefootballtimes.co/2019/12/16/johan-cruyff-a-year-in-rotterdam/"
+    },
+    {
+      "id": "src_cruyff_coachesvoice",
+      "kind": "press",
+      "title": "'Johan Cruyff: The Tactical Masters', Coaches' Voice (unsigned in the fetched text; tactical analysis) -- description of his 1985-96 coaching model (triangles, 3-4-3/4-3-3, Laudrup as false nine). Read in full. Unsigned analysis, so used only as supporting evidence.",
+      "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/"
+    },
+    {
+      "id": "src_cruyff_laudrup_barca",
+      "kind": "institution",
+      "title": "Michael Laudrup, 'In my own words' column, fcbarcelona.com (Dec 2019) -- first-person recollection by a player Cruyff coached at Barcelona (firsthand non-self); hosted on the club's site, so treated as affiliated-hosted. Read in full: his account of Cruyff's training sessions and ability to explain a tactical situation in 10-15 seconds.",
+      "url": "https://www.fcbarcelona.com/en/news/1526527/in-my-own-words-michael-laudrup"
+    },
+    {
+      "id": "src_cruyff_stoichkov_barca",
+      "kind": "institution",
+      "title": "Hristo Stoichkov, 'In my own words' column, fcbarcelona.com (May 2020) -- first-person recollection by a player Cruyff coached at Barcelona (firsthand non-self); club-hosted. Read in full: Cruyff's stated plan for him, his habit of saying things to rile him, and the calming talk he and Charly Rexach gave him after a clasico stamping incident.",
+      "url": "https://fcbarcelona.com/en/news/1663457/in-my-own-words-hristo-stoichkov"
+    },
+    {
+      "id": "src_cruyff_guardian_ajax2011_board",
+      "kind": "press",
+      "title": "'Ajax board of directors resign after disagreement with Johan Cruyff', The Guardian, 30 Mar 2011 -- unsigned agency-style news report: the board's resignation over a disagreement with Cruyff, who had returned in February 2011 to advise on technical issues and wanted the coach and former players given wider roles. Read in full; short, so used only as dated corroboration.",
+      "url": "https://www.theguardian.com/football/2011/mar/30/ajax-johan-cruyff-football-resign"
+    },
+    {
+      "id": "src_cruyff_guardian_ajax2011_legal",
+      "kind": "press",
+      "title": "'Johan Cruyff set to leave Ajax after boardroom dispute', The Guardian, 29 Nov 2011 -- unsigned news report: the members' council called on the supervisory board (including Cruyff) to resign; Cruyff said he and ten club coaches would take legal action over three directors' appointments, on which he said he was not consulted. Read in full; short, used only as dated corroboration.",
+      "url": "https://www.theguardian.com/football/2011/nov/29/johan-cruyff-ajax-boardroom-dispute"
+    }
+  ],
+  "rows": {
+    "social_assertiveness": {
+      "score": 84,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_cruyff_fft_kuper, src_cruyff_setpieces_bollen, src_cruyff_guardian_mcrae_guardiola | mid-1960s; 1973; 1980-81; May 1989 | secondary + firsthand] Kuper records the teenage Cruyff telling senior Ajax internationals where to run, and at the Washington Diplomats wiping the blackboard after coach Gordon Bradley's team talk to say the team would do it completely differently; Johnny Rep, quoted by Bollen from Winner's Brilliant Orange, recalls constant instructions to move left, right or centre; Guardiola describes a half-time rebuke in his first friendly for the first team (May 1989). Independent authors and a firsthand player converge across decades, and Kuper quotes Cruyff himself saying he was always talking and correcting; the same behaviour caused friction with teammates, hence dual_edged."
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_cruyff_guardian_winner, src_cruyff_fft_kuper, src_cruyff_guardian_bollen_feyenoord, src_cruyff_tft_scragg, src_cruyff_stoichkov_barca, src_cruyff_guardian_ajax2011_legal | 1973; 1983; 1987; 1990-96; Nov 2011 | secondary + firsthand] Winner, Kuper and Bollen each tie his 1973 departure from Ajax to losing the captaincy (to Piet Keizer, per Winner and Kuper), and Bollen adds that he threatened to quit unless sold to Barcelona; in 1983 he would not accept the standard contract Ajax offered (Bollen, quoting his own account) and signed for their rival Feyenoord (Winner, Scragg); Kuper reports a 1987 row with chairman Ton Harmsen before he left Ajax again; and in Nov 2011 the Guardian reports his statement that he and ten club coaches would take legal action over appointments made without consulting him. Winner also describes a 'conflict model' in which he provoked fights to raise the group's intensity, and Stoichkov recalls that Cruyff often said things to rile him and fuel his desire to win."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.74,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cruyff_guardian_winner, src_cruyff_guardian_welch_obit, src_cruyff_setpieces_bollen, src_cruyff_guardian_williams | 1970s; 1985; 2010 | secondary] Winner records that he demanded payment for national-team play, then demanded and forced a change when he found Dutch FA officials insured on foreign trips while players were not (undated, 1960s-70s); in 1985 he took a coaching role at Ajax without the coaching badges, titled technical adviser (Welch; Bollen says he refused to take them); and after the 2010 World Cup final he publicly sided against Holland's physical approach (Winner, Williams, Welch). Three independent authors describe positions taken against the prevailing institutional or national line."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cruyff_guardian_winner, src_cruyff_fft_kuper, src_cruyff_coachesvoice, src_cruyff_guardian_welch_obit, src_cruyff_tft_scragg | 1974-1989 | secondary] Separate unconventional decisions recorded by different authors: persuading Rinus Michels to take Jan Jongbloed to the 1974 World Cup, seeing him as a goalkeeper who could act as an extra defender (Winner); a second-spell Ajax penalty passed to Jesper Olsen and returned for Cruyff to score, which Kuper says many criticised as risky (Kuper); as Ajax coach a goalkeeper who joined play and three defenders in possession (Kuper); Michael Laudrup used as a false nine at Barcelona (Coaches' Voice); Guardiola converted from winger to midfield pivot (Welch); and left-back Stanley Brard played as a left winger at Feyenoord in 1983-84 (Scragg). Kuper also says he later held to 4-3-3 as the game changed, which tempers the score."
+    },
+    "leadership_drive": {
+      "score": 82,
+      "confidence": 0.75,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_cruyff_guardian_williams, src_cruyff_guardian_winner, src_cruyff_fft_kuper, src_cruyff_guardian_ajax2011_board | 1974; 2003; 2008; 2011 | secondary] On the pitch Williams calls him the leader of Ajax and Holland and Winner records him making major tactical changes during matches without reference to the bench; Kuper says he told Arie Haan to play libero in 1974. Off it, Kuper says he appeared at Ajax's members' council in February 2008 and was gone again within about 17 days (Williams: a technical-director spell of under a month), and in 2003 he gave Barcelona a shortlist of five Dutch candidates for the coaching job; in March 2011 Ajax's board resigned after a disagreement with him over wider roles for the coach and former players (Guardian)."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cruyff_fft_kuper, src_cruyff_guardian_winner, src_cruyff_guardian_mcrae_guardiola, src_cruyff_coachesvoice | 1985-1996 | secondary + firsthand] Distinct episodes of turning a playing idea into a structure applied across a club: at Ajax (1985-88) every youth team had to use the first team's formation and strikers such as Dennis Bergkamp were sometimes used in defence to learn how defenders think (Kuper; Winner); at Barcelona Guardiola recalls seven-year-olds running the same patterns as the first team; and Coaches' Voice describes a model in which each player had to form triangles with teammates. Two authors plus a firsthand player support the youth-system pattern, but the triangles model rests on an unsigned analysis, so this is strong_inference."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cruyff_guardian_winner, src_cruyff_guardian_welch_obit, src_cruyff_setpieces_bollen, src_cruyff_laudrup_barca, src_cruyff_guardian_mcrae_guardiola, src_cruyff_guardian_mcrae_cruyff | 1974; 1988-92 | secondary + firsthand + self] Winner says Cruyff persuaded Michels to take Jongbloed to the 1974 World Cup despite a feud with first-choice goalkeeper Jan van Beveren; Welch and Bollen record him convincing the young Guardiola of his own abilities when moving him to midfield (defending per Welch; creativity and passing per Bollen); Laudrup recalls that he could explain any tactical situation in 10-15 seconds; Cruyff's own 2014 account (self, McRae) says he argued that Guardiola could defend a small area well; and Guardiola says it takes charisma to say 'you must go this way' and have everyone follow. Distinct episodes, but Michels' response is reported by Winner alone and most support is admiring recollection by former players, hence a modest score."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cruyff_guardian_welch_obit, src_cruyff_setpieces_bollen, src_cruyff_fft_kuper, src_cruyff_guardian_williams | 1985; 1987; 2008 | secondary] Separate episodes of declining or leaving a role rather than working inside another's structure: in 1985 he took a coaching role at Ajax without the Dutch FA's coaching qualification, under the title technical adviser (Welch; Bollen says he refused to take the badges); Kuper reports he left Ajax in 1987 after a row with chairman Ton Harmsen; and in 2008 he left an Ajax technical role after about a month, Kuper giving as his stated reason that the coach-elect rejected his plans (Williams: 'disagreements'). The 2008 reason rests on Kuper's report of Cruyff's own explanation."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/johan-cruyff-anefo-1974.jpg",
+    "width": 1200,
+    "height": 1600,
+    "source": "Nationaal Archief (Fotocollectie Anefo, bestanddeelnr 254-9533), via Wikimedia Commons",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Rob Mieremet / Anefo, Nationaal Archief, 30 April 1974, CC0 1.0 (cropped from the archive photograph on Wikimedia Commons and resized)",
+    "attributionUrl": "https://proxy.handle.net/10648/ad9327bc-d0b4-102d-bcf8-003048976d84",
+    "creator": "Rob Mieremet / Anefo",
+    "date": "1974-04-30",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Johan_Cruijff_(1974).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q17163 verified live: fetched https://www.wikidata.org/wiki/Special:EntityData/Q17163.json and the Wikidata API (wbgetentities, labels/descriptions/claims/sitelinks); label 'Johan Cruyff', description 'Dutch footballer and manager (1947-2016)', citizenship Netherlands, born 1947-04-25, died 2016-03-24, P106 football player/football manager/sports executive, sitelinks enwiki 'Johan Cruyff' and kowiki '요한 크라위프' (nlwiki 'Johan Cruijff'), P18 'Johan Cruijff (1974).jpg'. Slug collision check: no johan-cruyff.json in data-pipeline/candidates and no cruyff/cruijff match in src/data/people/*.ts. CLASSIFICATION PRECEDENT: era 20th_century follows pele.json, muhammad-ali.json and ayrton-senna.json (20th-century sportspeople; Cruyff was active 1964-84 as a player and 1985-96 as a coach); regionCode western_europe follows the live Dutch candidates (baruch-spinoza, rembrandt, vincent-van-gogh). occupationIds is athlete only because the allowed list has no coach/manager id, although several rows are scored from his coaching decisions; fieldIds sport only; archetype organizational_leader chosen from the documented leading-of-squads/clubs pattern, not from competitiveness (not scored). EVIDENCE READ: 15 substantive source records beyond Wikipedia/Wikidata, every one actually fetched and read (Guardian pages and the FourFourTwo, Set Pieces, These Football Times, Coaches' Voice and fcbarcelona.com pages were downloaded with curl and read locally). Perspectives: Julie Welch, David Winner, Richard Williams, Donald McRae (as interviewer), Andy Bollen (two pieces = ONE perspective), Simon Kuper/FourFourTwo, Steven Scragg, Coaches' Voice (unsigned), Guardian unsigned news items (2), and three firsthand voices: Guardiola (via McRae), Laudrup and Stoichkov (club-hosted columns; affiliated host). Cruyff's own words (McRae 2014 interview; My Turn extracts inside Bollen's Guardian piece) are ONE self perspective and are never the sole support for a row. Independent non-self behavioural sources: all of the above except the self items. Caveat on independence: Winner, Kuper and Bollen share a common Dutch-football historiography (Winner's Brilliant Orange is quoted by Bollen), so the 1973 captaincy episode is corroborated in outline but not by fully independent documentary bases; Kuper's anecdotes (Washington blackboard, teenage lecturing, 2003 shortlist, 2008 exit reason) are single-author. EPISODE BUDGET (rubric/brief: no episode supports more than two rows): 1973 vote -> conflict_tolerance; 1983 Feyenoord -> conflict_tolerance; 1987 Harmsen row -> conflict_tolerance + autonomy_need; 1985 no badges -> independent_thinking + autonomy_need; 2008 Ajax exit -> leadership_drive + autonomy_need; 2011 Ajax disputes -> conflict_tolerance + leadership_drive; Jongbloed 1974 -> creative_originality + persuasiveness; Guardiola pivot -> creative_originality + persuasiveness; Rep/teen/Washington/Guardiola half-time -> social_assertiveness only. 8 rows, scored to what the evidence supports; not targeting 18 rows, coverage or eligibility. EXCLUDED ON PURPOSE: trophies, goals, Ballon d'Or and rankings; the death of his father and any family-derived psychology (Kuper's paragraphs and the psychologist anecdotes), the 1974 'swimming pool' hotel story and family reasons around the 1978 World Cup, his money losses and the pig-farm affair, the 1991 heart surgery, smoking and his cancer and death (nothing inferred from health); Catalan-nationalism/club-election politics (the Laporta episode in Winner) and Cruyff's role in Barcelona presidential politics; the Monopoly anecdote; the Beenhakker touchline anecdote and Rijkaard walk-out (single-source blog/interpretation, not relied on); competitiveness, belief_updating, risk_tolerance and perfectionism were considered and NOT scored because the evidence was interpretive motive-reading, mixed (Kuper says he seemed uninterested in results and later stayed with 4-3-3), or duplicative of scored episodes. LIMITS: no source in Dutch or Spanish was read; Cruyff's book My Turn and Brilliant Orange were not opened directly (only extracts quoted by other authors); the Guardian 2011 pieces are short unsigned reports; Kuper's article mixes verified events with anecdote, so anecdotes from it are held at moderate confidence; the club-hosted Laudrup/Stoichkov columns are affiliated-hosted and used only for their firsthand statements. PORTRAIT: Wikidata P18 lists 'Johan Cruijff (1974).jpg'. Verified on the exact Commons File page (fetched) and the Commons API (imageinfo extmetadata + revision wikitext): author 'Rob Mieremet / Anefo', date 1974-04-30, source Nationaal Archief (handle 10648/ad9327bc-d0b4-102d-bcf8-003048976d84), license template {{cc-zero}} whose own text (rendered via the API) says the person who associated the work with the deed dedicated it to the public domain worldwide under CC0 1.0, 'even for commercial purposes, all without asking permission'; the file is an extract from the parent Commons file 'Koppen Nederlandse voetballers Johan Cruijff, Bestanddeelnr 254-9533.jpg' whose archive metadata (read via the API) names 'Auteursrechthebbende: Nationaal Archief' (copyright holder), photographer Mieremet/Anefo, colour slide, also CC0; the {{Nationaal Archief}} tag itself says it does not indicate copyright status, so the CC0 rests on the cc-zero template applied by the partnership upload and the archive's copyright-holder field. The archive's own record page was NOT read (HTTP 503 from nationaalarchief.nl on two attempts), so the rights chain rests on the Commons record. Downloaded the ORIGINAL (1504x2005, SHA1 c8f8d23e... matches the Commons imageinfo sha1), downscaled with Pillow (LANCZOS) to 1200x1600, JPEG q85, saved as public/portraits/johan-cruyff-anefo-1974.jpg; viewed the saved file: a clean single-subject head-and-shoulders portrait of a young man in an orange shirt, consistent with the archive caption 'Johan Cruijff, 30 April 1974'. Kind likeness (photograph made from life)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요한 크라위프"
+    }
+  }
+}
